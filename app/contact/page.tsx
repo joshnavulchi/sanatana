@@ -18,7 +18,6 @@ export default async function ContactPage() {
   return (
     <>
       <PageLayout breadcrumbs={[{ labelKey: 'nav.home', href: '/' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
-    
         <h2>{S('contactPage.title')}</h2>
         <p>{S('contactPage.lead')}</p>
         <section className="flex flex-col md:flex-row items-start justify-start gap-5">

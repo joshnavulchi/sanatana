@@ -47,8 +47,8 @@ export default function Page({ searchParams }: any) {
                     <Image src={imgSrc} alt={imgAlt} fill style={{ objectFit: 'cover' }} />
                   </div>
                   <div className="card-details flex-1">
-                    <p className="font-semibold">{`Chapter ${chapNum}: ${chapTitle}`}</p>
-                    {excerpt ? <p className="line-clamp-3">{excerpt}</p> : null}
+                    <p className="title line-clamp-1">{`Chapter ${chapNum}: ${chapTitle}`}</p>
+                    {excerpt ? <p className="description line-clamp-3">{excerpt}</p> : null}
                   </div>
                   <div>
                     <small className="inline-block font-medium underline">Read chapter</small>

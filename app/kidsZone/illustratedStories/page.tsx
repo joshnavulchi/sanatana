@@ -18,9 +18,9 @@ export default async function Page({ searchParams }: any) {
                 <Image src={s.imgSrc} alt={s.imgAlt} fill style={{ objectFit: 'cover' }} />
               </div>
               <div className="card-details flex-1">
-                <p className="font-semibold">{s.title}</p>
+                <p className="title line-clamp-1">{s.title}</p>
                 {/* <div>{s.origin}</div> */}
-                <p className="line-clamp-3">{s.summary}</p>
+                <p className="description line-clamp-3">{s.summary}</p>
               </div>
             </article>
           ))}

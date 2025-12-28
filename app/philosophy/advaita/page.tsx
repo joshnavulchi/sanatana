@@ -1,5 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, detectLocale, getLocaleObject } from '../../../lib/i18n';
+import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 
 import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from '../../../lib/pageUtils';
 
@@ -13,21 +13,34 @@ export default function Page({ searchParams }: any) {
 
   const S = (k: string) => String(t(k, locale));
 
-  const loc: any = getLocaleObject(locale) || {};
-  const advaita = loc?.advaita_philosophy || {};
-  const title = advaita.title || t('advaita_philosophy.title', locale) || 'Advaita Philosophy';
+  const page: any = (() => {
+    const k: any = getMeta('philosophy_advaita', {}, locale) || {};
+    const loc: any = getLocaleObject(locale) || {};
+    const advaita = loc?.advaita_philosophy || {};
+    return {
+      title: typeof k.title === 'string' ? k.title : (advaita.title || t('advaita_philosophy.title', locale) || 'Advaita Philosophy'),
+      definition: k.definition || advaita.definition,
+      core_principles: Array.isArray(k.core_principles) ? k.core_principles : (Array.isArray(advaita.core_principles) ? advaita.core_principles : []),
+      origin: k.origin || advaita.origin || {},
+      key_concepts: k.key_concepts || advaita.key_concepts || {},
+      paths_to_realization: k.paths_to_realization || advaita.paths_to_realization || {},
+      goals: k.goals || advaita.goals || {},
+      relation_to_other_concepts: k.relation_to_other_concepts || advaita.relation_to_other_concepts || {},
+      modern_relevance: k.modern_relevance || advaita.modern_relevance || {}
+    };
+  })();
 
   return (
     <>
       <PageLayout title={S('advaita.title')} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: String(t('advaita.title')) }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
         
-        <h2>{title}</h2>
-        <p><strong>Definition : </strong>{advaita.definition}</p>
+        <h2>{page.title}</h2>
+        <p><strong>Definition : </strong>{page.definition}</p>
         {/* Core Principles of Advaita */}
         <div>
-          <p><strong>Core Principles of Advaita : </strong> {advaita.core_principles.map((s: string) => (<span>{s}, </span>))}</p>
+          <p><strong>Core Principles of Advaita : </strong> {page.core_principles.map((s: string) => (<span>{s}, </span>))}</p>
           <ul role="list" className="list-disc">
-            {Object.entries(advaita.origin).map((cKey: any, idx: number) => {
+            {Object.entries(page.origin).map((cKey: any, idx: number) => {
               return <li key={idx}>
                 <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
               </li>
@@ -35,7 +48,7 @@ export default function Page({ searchParams }: any) {
           </ul>
           <p><strong>Key concepts of Advaita : </strong></p>
           <ul role="list" className="list-disc">
-            {Object.entries(advaita.key_concepts).map((cKey: any, idx: number) => {
+            {Object.entries(page.key_concepts).map((cKey: any, idx: number) => {
               return <li key={idx}>
                 <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
               </li>
@@ -43,7 +56,7 @@ export default function Page({ searchParams }: any) {
           </ul>
           <p><strong>Paths torealization of Advaita : </strong></p>
           <ul role="list" className="list-disc">
-            {Object.entries(advaita.paths_to_realization).map((cKey: any, idx: number) => {
+            {Object.entries(page.paths_to_realization).map((cKey: any, idx: number) => {
               return <li key={idx}>
                 <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
               </li>
@@ -51,7 +64,7 @@ export default function Page({ searchParams }: any) {
           </ul>
           <p><strong>Goals of Advaita : </strong></p>
           <ul role="list" className="list-disc">
-            {Object.entries(advaita.goals).map((cKey: any, idx: number) => {
+            {Object.entries(page.goals).map((cKey: any, idx: number) => {
               return <li key={idx}>
                 <span>{cKey[1]}</span>
               </li>
@@ -59,7 +72,7 @@ export default function Page({ searchParams }: any) {
           </ul>
           <p><strong>Relation to other concepts of Advaita : </strong></p>
           <ul role="list" className="list-disc">
-            {Object.entries(advaita.relation_to_other_concepts).map((cKey: any, idx: number) => {
+            {Object.entries(page.relation_to_other_concepts).map((cKey: any, idx: number) => {
               return <li key={idx}>
                 <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
               </li>
@@ -67,7 +80,7 @@ export default function Page({ searchParams }: any) {
           </ul>
           <p><strong>Modern Relevance of Advaita : </strong></p>
           <ul role="list" className="list-disc">
-            {Object.entries(advaita.modern_relevance).map((cKey: any, idx: number) => {
+            {Object.entries(page.modern_relevance).map((cKey: any, idx: number) => {
               return <li key={idx}>
                 <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
               </li>

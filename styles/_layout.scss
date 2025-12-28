@@ -171,10 +171,16 @@
   }
   .card-details {
     margin: var(--space-sm) 0 0 0;
+    .title {
+      font-weight: 600;
+      font-size: 0.8rem;
+    }
+    .description {
+      font-size: 0.75rem;
+    }
     p {
       margin: 0;
       padding: var(--space-sm) 0 0 0;
-      font-size: 0.9rem;
     }
   }
   small {
