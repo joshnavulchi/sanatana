@@ -1,13 +1,12 @@
 import { t, DEFAULT_LOCALE } from '../../../lib/i18n';
+import { parseList } from 'lib/parseList';
 
 export default function AboutShiva({ locale }: { locale?: string }) {
   return (
     <section className="bg-white about-shiva">
       <div className="content-wrapper text-left">
         <div className="text-2xl/8! md:text-3xl/10! font-semibold! multi-text-color">
-          {Array.isArray(t('home.shivaHeading', locale || DEFAULT_LOCALE)) ? (
-            (t('home.shivaHeading', locale || DEFAULT_LOCALE) as string[]).map((s, i) => <span key={i}>{s} </span>)
-          ) : <span>{t('home.shivaHeading', locale || DEFAULT_LOCALE)} </span>}
+          {parseList(t('home.shivaHeading', locale || DEFAULT_LOCALE)).map((s, i) => <span key={i}>{s} </span>)}
         </div>
         <div></div>
       </div>
@@ -37,9 +36,7 @@ export default function AboutShiva({ locale }: { locale?: string }) {
         </div>
         <div className="text-left">
           <div className="text-xl md:text-3xl multi-text-color">
-            {Array.isArray(t('home.lingamText', locale || DEFAULT_LOCALE)) ? (
-              (t('home.lingamText', locale || DEFAULT_LOCALE) as string[]).map((s, i) => <span key={i}>{s} </span>)
-            ) : <span>{t('home.lingamText', locale || DEFAULT_LOCALE)} </span>}
+            {parseList(t('home.lingamText', locale || DEFAULT_LOCALE)).map((s, i) => <span key={i}>{s} </span>)}
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getMeta } from '../../../lib/i18n';
+import { parseList } from 'lib/parseList';
 
 import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
 
@@ -17,7 +18,7 @@ export default function Page({ searchParams }: any) {
     const k: any = getMeta('scriptures_upanishads', {}, locale) || {};
     return {
       title: typeof k.title === 'string' ? k.title : (t('upanishads.title', locale) || ''),
-      list: Array.isArray(k.list) ? k.list : (t('upanishads.list', locale) || [])
+      list: Array.isArray(k.list) ? k.list : parseList(t('upanishads.list', locale))
     };
   })();
 

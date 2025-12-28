@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 
 import { t, detectLocale, getMeta } from '../../lib/i18n';
+import { parseList } from 'lib/parseList';
 import { createcreateGenerateMetadata } from 'lib/pageUtils';
 
 import PayPalButton from '../components/paypalbutton';
@@ -26,7 +27,7 @@ export default function DonatePage() {
       tableExpanses: k.table?.expanses || String(t('donatePage.table.expanses', locale)),
       tableDuration: k.table?.duration || String(t('donatePage.table.duration', locale)),
       tableReasons: k.table?.reasons || String(t('donatePage.table.reasons', locale)),
-      expenses: Array.isArray(k.expenses) ? k.expenses : ((t('donatePage.expenses', locale) as any[]) || []),
+      expenses: Array.isArray(k.expenses) ? k.expenses : parseList(t('donatePage.expenses', locale)),
       oneTime: k.oneTime || String(t('donatePage.oneTime', locale)),
       oneTimeLead: k.oneTimeLead || String(t('donatePage.oneTimeLead', locale)),
       upiTitle: k.upiBank || String(t('donatePage.upiBank', locale)),

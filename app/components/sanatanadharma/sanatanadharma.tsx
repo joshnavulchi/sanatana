@@ -3,6 +3,7 @@
 
 import { useRef, useEffect, useState } from 'react';
 import { useT } from '../../hooks/useT';
+import { parseList } from 'lib/parseList';
 
 export default function SanatanaDharma() {
   const ref = useRef(null);
@@ -23,10 +24,10 @@ export default function SanatanaDharma() {
 
   const titleLines: string = t("home.SanatanaDharma.title") as string;
   const definitionLines: string = t("home.SanatanaDharma.Definition") as string;
-  const corePrinciplesLines: any = t("home.SanatanaDharma.CorePrinciples") || [];
-  const philosophicalThemesLines: any = t("home.SanatanaDharma.PhilosophicalThemes") || [];
-  const practicesLines: any = t("home.SanatanaDharma.Practices") || [];
-  const valuesLines: any = t("home.SanatanaDharma.Values") || [];
+  const corePrinciplesLines: any = parseList(t("home.SanatanaDharma.CorePrinciples"));
+  const philosophicalThemesLines: any = parseList(t("home.SanatanaDharma.PhilosophicalThemes"));
+  const practicesLines: any = parseList(t("home.SanatanaDharma.Practices"));
+  const valuesLines: any = parseList(t("home.SanatanaDharma.Values"));
   const ultimateGoalLines: string = t("home.SanatanaDharma.UltimateGoal")
 
   return (

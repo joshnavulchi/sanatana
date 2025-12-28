@@ -1,5 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getMeta } from '../../../lib/i18n';
+import { parseList } from 'lib/parseList';
 
 import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
 
@@ -15,14 +16,6 @@ export default function Page({ searchParams }: any) {
 
   const page: any = (() => {
     const k: any = getMeta('stotrasmantras_devi', {}, locale) || {};
-    const parseList = (p: any) => {
-      if (Array.isArray(p)) return p;
-      if (!p) return [];
-      if (typeof p === 'string') {
-        try { const parsed = JSON.parse(p); return Array.isArray(parsed) ? parsed : []; } catch (e) { return []; }
-      }
-      return [];
-    };
     return {
       title: typeof k.title === 'string' ? k.title : String(t('devistotras.title', locale) || 'Devi Stotras'),
       items: Array.isArray(k.items) ? k.items : parseList(t('devistotras.devi_stotras', locale))

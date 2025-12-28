@@ -2,7 +2,7 @@
 import { t, detectLocale, getMeta } from '../../../lib/i18n';
 
 import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
-
+import { parseList } from 'lib/parseList';
 
 import PageLayout from '@components/common/PageLayout';
 
@@ -15,14 +15,6 @@ export default function Page({ searchParams }: any) {
 
   const page: any = (() => {
     const k: any = getMeta('stotrasmantras_hanuman', {}, locale) || {};
-    const parseList = (p: any) => {
-      if (Array.isArray(p)) return p;
-      if (!p) return [];
-      if (typeof p === 'string') {
-        try { const parsed = JSON.parse(p); return Array.isArray(parsed) ? parsed : []; } catch (e) { return []; }
-      }
-      return [];
-    };
     return {
       title: typeof k.title === 'string' ? k.title : String(t('hanumanstotras.title', locale) || 'Hanuman Stotras'),
       items: Array.isArray(k.items) ? k.items : parseList(t('hanumanstotras.hanuman_stotras', locale))
