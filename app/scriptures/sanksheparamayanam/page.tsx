@@ -1,5 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, detectLocale, getLocaleObject } from '../../../lib/i18n';
+import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 
 import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
 
@@ -12,31 +12,37 @@ export default function Page({ searchParams }: any) {
 
   const S = (k: string) => String(t(k, locale));
 
-  const loc: any = getLocaleObject(locale) || {};
-  const ram = loc?.sanksheparamayana || {};
-  const title = ram.title || t('sanksheparamayana.title', locale) || '';
-  const author = ram.source || '';
-
-  // Description in the JSON may be an object keyed by language (e.g. { en: "...", te: "..." })
-  let description: string = '';
-  if (typeof ram.description === 'string') description = ram.description;
-  else if (ram.description && typeof ram.description === 'object') description = ram.description[locale] || ram.description['translate'] || '';
+  const page: any = (() => {
+    const k: any = getMeta('scriptures_sanksheparamayana', {}, locale) || {};
+    const loc: any = getLocaleObject(locale) || {};
+    const ram = loc?.sanksheparamayana || {};
+    return {
+      title: typeof k.title === 'string' ? k.title : (ram.title || t('sanksheparamayana.title', locale) || ''),
+      author: k.source || ram.source || '',
+      description: k.description || (typeof ram.description === 'string' ? ram.description : (ram.description && typeof ram.description === 'object' ? (ram.description[locale] || ram.description['translate']) : '')),
+      main_characters: Array.isArray(k.main_characters) ? k.main_characters : (Array.isArray(ram.main_characters) ? ram.main_characters : []),
+      important_places: Array.isArray(k.important_places) ? k.important_places : (Array.isArray(ram.important_places) ? ram.important_places : []),
+      timeline: Array.isArray(k.timeline) ? k.timeline : (Array.isArray(ram.timeline) ? ram.timeline : []),
+      core_themes: Array.isArray(k.core_themes) ? k.core_themes : (Array.isArray(ram.core_themes) ? ram.core_themes : []),
+      slokas: Array.isArray(k.slokas) ? k.slokas : (Array.isArray(ram.slokas) ? ram.slokas : [])
+    };
+  })();
 
   return (
     <>
       <main className="content-wrapper md page-space-xl">
         
-        <h2>{title}</h2>
-        <p><strong>Source: </strong>{author} - {description ? <span>{description}</span> : null}</p>
+        <h2>{page.title}</h2>
+        <p><strong>Source: </strong>{page.author} - {page.description ? <span>{page.description}</span> : null}</p>
 
         {/* Structured display of all ramayana fields */}
         <div>
           {/* Main characters */}
-          {Array.isArray(ram.main_characters) && ram.main_characters.length > 0 && (
+          {page.main_characters && page.main_characters.length > 0 && (
             <div>
               <h3>Main Characters</h3>
               <ul role="list" className="list-disc">
-                {ram.main_characters.map((c: any, idx: number) => (
+                {page.main_characters.map((c: any, idx: number) => (
                   <li key={idx}>
                     <strong>{c.name}</strong> - {c.role ? <span>{c.role}</span> : null}
                   </li>
@@ -46,11 +52,11 @@ export default function Page({ searchParams }: any) {
           )}
 
           {/* Important places */}
-          {Array.isArray(ram.important_places) && ram.important_places.length > 0 && (
+          {page.important_places && page.important_places.length > 0 && (
             <div>
               <h4>Important Places</h4>
               <ul role="list" className="list-disc">
-                {ram.important_places.map((p: any, idx: number) => (
+                {page.important_places.map((p: any, idx: number) => (
                   <li key={idx}>
                     <strong>{p.name}</strong> - {p.desc ? <span>{p.desc}</span> : null}
                   </li>
@@ -60,11 +66,11 @@ export default function Page({ searchParams }: any) {
           )}
 
           {/* Timeline */}
-          {Array.isArray(ram.timeline) && ram.timeline.length > 0 && (
+          {page.timeline && page.timeline.length > 0 && (
             <div>
               <h5>Timeline</h5>
               <ol role="list" className="list-disc">
-                {ram.timeline.map((ev: any, idx: number) => (
+                {page.timeline.map((ev: any, idx: number) => (
                   <li key={idx}>
                     <strong>{ev.event}</strong> - {ev.desc ? <span>{ev.desc}</span> : null}
                   </li>
@@ -74,11 +80,11 @@ export default function Page({ searchParams }: any) {
           )}
 
           {/* Core themes */}
-          {Array.isArray(ram.core_themes) && ram.core_themes.length > 0 && (
+          {page.core_themes && page.core_themes.length > 0 && (
             <div>
               <h6>Core Themes</h6>
               <ul role="list" className="list-disc">
-                {ram.core_themes.map((ct: any, idx: number) => (
+                {page.core_themes.map((ct: any, idx: number) => (
                   <li key={idx}>{(typeof ct.title === 'string') ? ct.title : ct['title']}</li>
                 ))}
               </ul>
@@ -86,7 +92,7 @@ export default function Page({ searchParams }: any) {
           )}
 
           {/* Sankshepa ramayanam and slokas */}
-          {ram.slokas.map((s: any) => (
+          {page.slokas && page.slokas.map((s: any) => (
             <div key={s.sloka}>
               <p className="text-2xl! font-semibold text-center">{s.sanskrit}</p>
               <p>{s.english}</p>
