@@ -1,5 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, detectLocale, getLocaleObject } from '../../../lib/i18n';
+import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 
 import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from '../../../lib/pageUtils';
 
@@ -13,21 +13,33 @@ export default function Page({ searchParams }: any) {
 
   const S = (k: string) => String(t(k, locale));
 
-  const loc: any = getLocaleObject(locale) || {};
-  const moksha = loc?.moksha_philosophy || {};
-  const title = moksha.title || t('moksha_philosophy.title', locale) || 'Moksha Philosophy';
+  const page: any = (() => {
+    const k: any = getMeta('philosophy_moksha', {}, locale) || {};
+    const loc: any = getLocaleObject(locale) || {};
+    const moksha = loc?.moksha_philosophy || {};
+    return {
+      title: typeof k.title === 'string' ? k.title : (moksha.title || t('moksha_philosophy.title', locale) || 'Moksha Philosophy'),
+      definition: k.definition || moksha.definition,
+      core_principles: Array.isArray(k.core_principles) ? k.core_principles : (Array.isArray(moksha.core_principles) ? moksha.core_principles : []),
+      origin: k.origin || moksha.origin || {},
+      paths_to_moksha: k.paths_to_moksha || moksha.paths_to_moksha || {},
+      goals: k.goals || moksha.goals || {},
+      relation_to_other_concepts: k.relation_to_other_concepts || moksha.relation_to_other_concepts || {},
+      modern_relevance: k.modern_relevance || moksha.modern_relevance || {}
+    };
+  })();
 
   return (
     <>
-      <PageLayout title={title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (typeof title !== 'undefined' ? title : '') }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (typeof page.title !== 'undefined' ? page.title : '') }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
         
-        <h2>{title}</h2>
-        <p><strong>Definition : </strong>{moksha.definition}</p>
+        <h2>{page.title}</h2>
+        <p><strong>Definition : </strong>{page.definition}</p>
         {/* Core Principles of moksha */}
         <div>
-          <p><strong>Core Principles of Moksha : </strong> {moksha.core_principles.map((s: string) => (<span>{s}, </span>))}</p>
+          <p><strong>Core Principles of Moksha : </strong> {page.core_principles.map((s: string) => (<span>{s}, </span>))}</p>
           <ul role="list" className="list-disc">
-            {Object.entries(moksha.origin).map((cKey: any, idx: number) => {
+            {Object.entries(page.origin).map((cKey: any, idx: number) => {
               return <li key={idx}>
                 <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
               </li>
@@ -35,7 +47,7 @@ export default function Page({ searchParams }: any) {
           </ul>
           <p><strong>Path to Moksha : </strong></p>
           <ul role="list" className="list-disc">
-            {Object.entries(moksha.paths_to_moksha).map((cKey: any, idx: number) => {
+            {Object.entries(page.paths_to_moksha).map((cKey: any, idx: number) => {
               return <li key={idx}>
                 <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
               </li>
@@ -43,7 +55,7 @@ export default function Page({ searchParams }: any) {
           </ul>
           <p><strong>Goals of Moksha : </strong></p>
           <ul role="list" className="list-disc">
-            {Object.entries(moksha.goals).map((cKey: any, idx: number) => {
+            {Object.entries(page.goals).map((cKey: any, idx: number) => {
               return <li key={idx}>
                 <span>{cKey[1]}</span>
               </li>
@@ -51,7 +63,7 @@ export default function Page({ searchParams }: any) {
           </ul>
           <p><strong>Relation to other concepts of Moksha : </strong></p>
           <ul role="list" className="list-disc">
-            {Object.entries(moksha.relation_to_other_concepts).map((cKey: any, idx: number) => {
+            {Object.entries(page.relation_to_other_concepts).map((cKey: any, idx: number) => {
               return <li key={idx}>
                 <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
               </li>
@@ -59,7 +71,7 @@ export default function Page({ searchParams }: any) {
           </ul>
           <p><strong>Modern Relevance of Moksha : </strong></p>
           <ul role="list" className="list-disc">
-            {Object.entries(moksha.modern_relevance).map((cKey: any, idx: number) => {
+            {Object.entries(page.modern_relevance).map((cKey: any, idx: number) => {
               return <li key={idx}>
                 <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
               </li>
