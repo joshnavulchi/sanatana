@@ -22,11 +22,20 @@ export async function createGenerateMetadata(props: any) {
 }
 export default function Page() {
   const locale = detectLocale();
+
+  const page: any = (() => {
+    const k: any = getMeta('practices_rituals', {}, locale) || {};
+    return {
+      title: typeof k.title === 'string' ? k.title : String(t('rituals.title', locale) || 'Rituals'),
+      intro: typeof k.intro === 'string' ? k.intro : String(t('rituals.intro', locale) || 'Placeholder page about rituals and ceremonies.')
+    };
+  })();
+
   return (
     <>
-      <PageLayout title={'Rituals'} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Rituals' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
         
-        <p>Placeholder page about rituals and ceremonies.</p>
+        <p>{page.intro}</p>
       </PageLayout>
     </>
   );

@@ -22,11 +22,20 @@ export async function createGenerateMetadata(props: any) {
 }
 export default function Page() {
   const locale = detectLocale();
+
+  const page: any = (() => {
+    const k: any = getMeta('practices_dailypuja', {}, locale) || {};
+    return {
+      title: typeof k.title === 'string' ? k.title : String(t('dailypuja.title', locale) || ''),
+      intro: typeof k.intro === 'string' ? k.intro : String(t('dailypuja.intro', locale) || 'Placeholder page for daily puja routines and short guides.')
+    };
+  })();
+
   return (
     <>
-      <PageLayout breadcrumbs={[{ labelKey: 'nav.home', href: '/' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title || '' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
         
-        <p>Placeholder page for daily puja routines and short guides.</p>
+        <p>{page.intro}</p>
       </PageLayout>
     </>
   );

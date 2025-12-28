@@ -1,12 +1,19 @@
 import PageLayout from '@components/common/PageLayout';
-import { t } from '../../../lib/i18n';
+import { t, getMeta, detectLocale } from '../../../lib/i18n';
 
 
-export default function Page() {
-  const S = (k: string) => String(t(k));
+export default function Page({ searchParams }: any) {
+  const locale = detectLocale(searchParams) || undefined;
+
+  const page: any = (() => {
+    const k: any = getMeta('stories_moralstories', {}, locale) || {};
+    return {
+      title: typeof k.title === 'string' ? k.title : String(t('stories.moralstories.title', locale) || 'Moral Stories')
+    };
+  })();
 
   return (
-    <PageLayout title={'Moral Stories'} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Moral Stories' }]}>
+    <PageLayout metaKey="stories_moralstories" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title || 'Moral Stories' }]}>
       <p>Placeholder page generated from locales/en/nav.json for path /stories/moralstories</p>
     </PageLayout>
   );
