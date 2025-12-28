@@ -1,5 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, detectLocale } from '../../lib/i18n';
+import { t, detectLocale, getMeta } from '../../lib/i18n';
 
 import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from '../../lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
@@ -9,42 +9,57 @@ export const generateMetadata = createcreateGenerateMetadata('about', 'about.tit
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
 
-  const S = (k: string) => String(t(k, locale));
+  // Single `page_title` object used across the page: prefers `locales/*/about.json` values
+  const about: any = (() => {
+    const k: any = getMeta('about', {}, locale) || {};
+    const arr = (p: any) => {
+      if (Array.isArray(p)) return p;
+      if (p == null) return [];
+      return [String(p)];
+    };
 
-  const title = String(t('about.title', locale));
-  const intro = String(t('about.description', locale));
-  const visionDesc = String(t('about.vision.description', locale));
-  const focusAreas = (t('about.vision.focusAreas', locale) as unknown) || [];
-  const goal = String(t('about.vision.goal', locale));
-  const disclaimer = String(t('about.disclaimer', locale));
-  const purpose = String(t('about.whyWeCreated.purpose', locale));
-  const problemsAddressed = (t('about.whyWeCreated.problemsAddressed', locale) as unknown) || [];
-  const commitment = (t('about.commitment', locale) as unknown) || [];
-
-  const joinMsg = String(t('about.joinUs.message', locale));
-  const joinInvite = (t('about.joinUs.invite', locale) as unknown) || [];
+    return {
+      title: k.title || String(t('about.title', locale) || ''),
+      description: k.description || String(t('about.description', locale) || ''),
+      vision: {
+        description: (k.vision && k.vision.description) || String(t('about.vision.description', locale) || ''),
+        focusAreas: Array.isArray(k?.vision?.focusAreas) ? k.vision.focusAreas : (Array.isArray(t('about.vision.focusAreas', locale)) ? (t('about.vision.focusAreas', locale) as string[]) : arr(t('about.vision.focusAreas', locale))),
+        goal: (k.vision && k.vision.goal) || String(t('about.vision.goal', locale) || '')
+      },
+      whyWeCreated: {
+        purpose: k['whyWeCreated']?.purpose || String(t('about.whyWeCreated.purpose', locale) || ''),
+        problemsAddressed: Array.isArray(k['whyWeCreated']?.problemsAddressed) ? k['whyWeCreated'].problemsAddressed : (Array.isArray(t('about.whyWeCreated.problemsAddressed', locale)) ? (t('about.whyWeCreated.problemsAddressed', locale) as string[]) : arr(t('about.whyWeCreated.problemsAddressed', locale)))
+      },
+      commitment: Array.isArray(k.commitment) ? k.commitment : (Array.isArray(t('about.commitment', locale)) ? (t('about.commitment', locale) as string[]) : arr(t('about.commitment', locale))),
+      joinUs: {
+        message: k.joinUs?.message || String(t('about.joinUs.message', locale) || ''),
+        invite: Array.isArray(k.joinUs?.invite) ? k.joinUs.invite : (Array.isArray(t('about.joinUs.invite', locale)) ? (t('about.joinUs.invite', locale) as string[]) : arr(t('about.joinUs.invite', locale)))
+      },
+      disclaimer: k.disclaimer || String(t('about.disclaimer', locale) || '')
+    };
+  })();
 
   return (
-    <PageLayout metaKey="about" title={title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (typeof title !== 'undefined' ? title : '') }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
-      <p>{intro}</p>
+    <PageLayout metaKey="about" title={about.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (about.title || '') }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <p>{about.description}</p>
       <div>
         <h3>Vision</h3>
-        <p>{visionDesc}</p>
-        {Array.isArray(focusAreas) && (
+        <p>{about.vision.description}</p>
+        {Array.isArray(about.vision.focusAreas) && (
           <ul role="list" className="list-disc">
-            {focusAreas.map((f: string, i: number) => (
+            {about.vision.focusAreas.map((f: string, i: number) => (
               <li key={i}>{f}</li>
             ))}
           </ul>
         )}
-        {goal && <p><strong>Goal:</strong> {goal}</p>}
+        {about.vision.goal && <p><strong>Goal:</strong> {about.vision.goal}</p>}
       </div>
 
       <div>
         <h4>Why we created this</h4>
-        <p>{purpose}</p>
+        <p>{about.whyWeCreated.purpose}</p>
         <ul role="list" className="list-disc">
-          {(problemsAddressed as string[]).map((p: string, i: number) => (
+          {(about.whyWeCreated.problemsAddressed as string[]).map((p: string, i: number) => (
             <li key={i}>{p}</li>
           ))}
         </ul>
@@ -53,25 +68,25 @@ export default function Page({ searchParams }: any) {
       <div>
         <h5>Commitment</h5>
         <ul role="list" className="list-disc">
-          {(commitment as string[]).map((c: string, i: number) => (
+          {(about.commitment as string[]).map((c: string, i: number) => (
             <li key={i}>{c}</li>
           ))}
         </ul>
       </div>
 
-      {joinMsg && (
+      {about.joinUs.message && (
         <div>
           <h6>Join us</h6>
-          <p>{joinMsg}</p>
-          {Array.isArray(joinInvite) && (
+          <p>{about.joinUs.message}</p>
+          {Array.isArray(about.joinUs.invite) && (
             <ul role="list" className="list-disc">
-              {joinInvite.map((i: string, idx: number) => <li key={idx}>{i}</li>)}
+              {about.joinUs.invite.map((i: string, idx: number) => <li key={idx}>{i}</li>)}
             </ul>
           )}
         </div>
       )}
 
-      {disclaimer && <p>{disclaimer}</p>}
+      {about.disclaimer && <p>{about.disclaimer}</p>}
     </PageLayout>
   );
 }
