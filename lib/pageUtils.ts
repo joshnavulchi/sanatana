@@ -35,17 +35,17 @@ export function createcreateGenerateMetadata(metaKey: string, titleKey?: string,
     let title: string | undefined;
     if (titleKey) {
       const tv = t(titleKey, locale);
-      title = (typeof tv === 'string' && tv !== titleKey) ? tv : (typeof meta.title === 'string' ? meta.title : 'Home | Overview — Sanatana Dharma - Explore Sanatan Dharma');
+      title = (typeof tv === 'string' && tv !== titleKey) ? tv : (typeof meta.title === 'string' ? meta.title : undefined);
     } else {
-      title = typeof meta.title === 'string' ? meta.title : 'Home | Overview — Sanatana Dharma - Explore Sanatan Dharma';
+      title = typeof meta.title === 'string' ? meta.title : undefined;
     }
 
     let description: string | undefined;
     if (descriptionKey) {
       const dv = t(descriptionKey, locale);
-      description = (typeof dv === 'string' && dv !== descriptionKey) ? dv : (typeof meta.description === 'string' ? meta.description : 'Sanatana Dharma — Explore Sanatana Dharma: the eternal principles of Hinduism, Vedic traditions, spiritual practices, and wisdom from scriptures like the...');
+      description = (typeof dv === 'string' && dv !== descriptionKey) ? dv : (typeof meta.description === 'string' ? meta.description : undefined);
     } else {
-      description = typeof meta.description === 'string' ? meta.description : 'Sanatana Dharma — Explore Sanatana Dharma: the eternal principles of Hinduism, Vedic traditions, spiritual practices, and wisdom from scriptures like the...';
+      description = typeof meta.description === 'string' ? meta.description : undefined;
     }
 
     // Build absolute OG image URL when a relative path is provided in meta.ogImage

@@ -8,18 +8,25 @@ export default async function ArthaPage() {
   const locale = await detectLocale();
 
   const S = (k: string) => String(t(k, locale));
-
+  const page: any = (() => {
+    const k: any = getMeta('scriptures_shastras_artha', undefined, locale) || {};
+    return {
+      title: typeof k.title === 'string' ? k.title : String(t('shastras.artha.title', locale) || ''),
+      summary: k.summary || String(t('shastras.artha.summary', locale) || ''),
+      content: k.content || String(t('shastras.artha.content', locale) || '')
+    };
+  })();
 
   return (
     <>
       <main className="content-wrapper md page-space-xl">
         <div>
           
-          <h2>{await t('shastras.artha.title', locale)}</h2>
-          <p>{await t('shastras.artha.summary', locale)}</p>
+          <h2>{page.title}</h2>
+          <p>{page.summary}</p>
           <section>
-            <h3>{await t('shastras.artha.title', locale)}</h3>
-            <p>{await t('shastras.artha.content', locale)}</p>
+            <h3>{page.title}</h3>
+            <p>{page.content}</p>
           </section>
         </div>
       </main>

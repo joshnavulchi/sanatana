@@ -22,17 +22,25 @@ export async function createGenerateMetadata(props: any) {
 export default function ShivaPage() {
   const locale = detectLocale();
   const S = (k: string) => String(t(k, locale));
+  const page: any = (() => {
+    const k: any = getMeta('scriptures_puranas_shiva', {}, locale) || {};
+    return {
+      title: typeof k.title === 'string' ? k.title : String(t('puranas.shiva.title', locale) || ''),
+      summary: k.summary || String(t('puranas.shiva.summary', locale) || ''),
+      content: k.content || String(t('puranas.shiva.content', locale) || '')
+    };
+  })();
 
   return (
     <>
       <main className="content-wrapper md page-space-xl">
         <div>
           
-          <h2>{S('puranas.shiva.title')}</h2>
-          <p>{S('puranas.shiva.summary')}</p>
+          <h2>{page.title}</h2>
+          <p>{page.summary}</p>
           <section>
-            <h3>{S('puranas.shiva.title')}</h3>
-            <p>{S('puranas.shiva.content')}</p>
+            <h3>{page.title}</h3>
+            <p>{page.content}</p>
           </section>
         </div>
       </main>
