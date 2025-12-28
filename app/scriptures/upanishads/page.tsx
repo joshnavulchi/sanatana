@@ -1,5 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, detectLocale } from '../../../lib/i18n';
+import { t, detectLocale, getMeta } from '../../../lib/i18n';
 
 import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
 
@@ -13,18 +13,24 @@ export default function Page({ searchParams }: any) {
 
   const S = (k: string) => String(t(k, locale));
 
-  const title = t('upanishads.title', locale) || '';
+  const page: any = (() => {
+    const k: any = getMeta('scriptures_upanishads', {}, locale) || {};
+    return {
+      title: typeof k.title === 'string' ? k.title : (t('upanishads.title', locale) || ''),
+      list: Array.isArray(k.list) ? k.list : (t('upanishads.list', locale) || [])
+    };
+  })();
 
   return (
     <>
-      <PageLayout title={title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (typeof title !== 'undefined' ? title : '') }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
-        {(t('upanishads.list', locale) || []).map((item: any, i: number) => (
+      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (typeof page.title !== 'undefined' ? page.title : '') }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+        {(page.list || []).map((item: any, i: number) => (
           <div key={i}>
             {item.category ? <h3>{item.catogory}</h3> : null}
             {item.description ?
               <p>{item.description}</p> :
               <ul role="list" className="list-disc">
-                {item.list.map((list: any, j: number) => (
+                {item.list && item.list.map((list: any, j: number) => (
                   <li key={j}>
                     <p><b>Name:</b> {list.name}</p>
                     <p><b>Veda:</b> {list.veda}</p>
