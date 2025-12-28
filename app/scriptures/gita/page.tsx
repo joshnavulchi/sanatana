@@ -1,5 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getMeta, locales } from '../../../lib/i18n';
+import { parseList } from 'lib/parseList';
 import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -13,7 +14,7 @@ export default function Page({ searchParams }: any) {
 
   const page: any = (() => {
     const k: any = getMeta('scriptures_bhagavadgita', {}, locale) || {};
-    const chapters = (k.chapters && Array.isArray(k.chapters)) ? k.chapters : (t('bhagavadgita.chapters', locale) || []);
+    const chapters = (k.chapters && Array.isArray(k.chapters)) ? k.chapters : parseList(t('bhagavadgita.chapters', locale));
     return {
       title: typeof k.title === 'string' ? k.title : String(t('bhagavadgita.title', locale) || ''),
       chapters

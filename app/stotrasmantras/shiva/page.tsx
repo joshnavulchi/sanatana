@@ -2,6 +2,7 @@
 import { detectLocale, t, getMeta } from '../../../lib/i18n';
 
 import { createcreateGenerateMetadata } from 'lib/pageUtils';
+import { parseList } from 'lib/parseList';
 import PageLayout from '@components/common/PageLayout';
 
 export const generateMetadata = createcreateGenerateMetadata('stotrasmantras_shiva');
@@ -12,20 +13,6 @@ export default async function Page() {
 
   const page: any = (() => {
     const k: any = getMeta('stotrasmantras_shiva', {}, locale) || {};
-    const parseList = (p: any) => {
-      if (Array.isArray(p)) return p;
-      if (!p) return [];
-      if (typeof p === 'string') {
-        try {
-          const parsed = JSON.parse(p);
-          return Array.isArray(parsed) ? parsed : [];
-        } catch (e) {
-          return [];
-        }
-      }
-      return [];
-    };
-
     return {
       title: typeof k.title === 'string' ? k.title : String(t('shivastotras.title', locale) || 'Shiva Stotras'),
       items: Array.isArray(k.items) ? k.items : parseList(t('shivastotras.stotras', locale))

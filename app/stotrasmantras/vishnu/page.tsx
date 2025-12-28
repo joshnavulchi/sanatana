@@ -1,6 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
+import { parseList } from 'lib/parseList';
 import PageLayout from '@components/common/PageLayout';
 
 export const generateMetadata = createcreateGenerateMetadata('stotrasmantras_vishnu');
@@ -10,20 +11,6 @@ export default function Page({ searchParams }: any) {
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
     const k: any = getMeta('stotrasmantras_vishnu', {}, locale) || {};
-    const parseList = (p: any) => {
-      if (Array.isArray(p)) return p;
-      if (!p) return [];
-      if (typeof p === 'string') {
-        try {
-          const parsed = JSON.parse(p);
-          return Array.isArray(parsed) ? parsed : [];
-        } catch (e) {
-          return [];
-        }
-      }
-      return [];
-    };
-
     return {
       title: typeof k.title === 'string' ? k.title : String(t('vishnustotras.title', locale) || 'Vishnu Stotras'),
       items: Array.isArray(k.items) ? k.items : parseList(t('vishnustotras.vishnu_stotras', locale))

@@ -1,5 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getMeta } from '../../../lib/i18n';
+import { parseList } from 'lib/parseList';
 
 import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
 
@@ -16,7 +17,7 @@ export default function Page({ searchParams }: any) {
     const k: any = getMeta('scriptures_mahabharata', {}, locale) || {};
     return {
       title: typeof k.title === 'string' ? k.title : (t('mahabharata.title', locale) || ''),
-      structure: Array.isArray(k.structure) ? k.structure : (t('mahabharata.structure', locale) || [])
+      structure: Array.isArray(k.structure) ? k.structure : parseList(t('mahabharata.structure', locale))
     };
   })();
 

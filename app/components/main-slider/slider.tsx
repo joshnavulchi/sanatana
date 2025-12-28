@@ -3,6 +3,7 @@
 
 import { useRef, useState, useEffect, useCallback } from 'react';
 import { useT } from '../../hooks/useT';
+import { parseList } from 'lib/parseList';
 import SVGComponent from '../waves/wave';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -10,12 +11,10 @@ import Link from 'next/link';
 export default function MainSlider() {
   const t = useT();
   // Full width slider with video and auto-play
-  const slides = t("home.slides") || [];
-  const heroTopicsRaw = t("home.topics");
-  const heroButtons = JSON.parse(t("home.buttons")) || { explore: 'Explore', learnMore: 'Learn More' };
-  const heroSubtitles = Array.isArray(heroTopicsRaw)
-    ? heroTopicsRaw
-    : (heroTopicsRaw ? String(heroTopicsRaw).split(/\s*[,;]\s*/).filter(Boolean) : []);
+  const slides = parseList(t("home.slides"));
+  const heroTopicsRaw = parseList(t("home.topics"));
+  const heroButtons = (() => { try { return JSON.parse(String(t("home.buttons"))); } catch (e) { return { explore: 'Explore', learnMore: 'Learn More' }; } })();
+  const heroSubtitles = heroTopicsRaw;
 
   const [current, setCurrent] = useState(0);
   const [isPaused, setIsPaused] = useState(false);

@@ -3,6 +3,7 @@
 
 import { useRef, useEffect, useState } from 'react';
 import { useT } from '../../hooks/useT';
+import { parseList } from 'lib/parseList';
 
 export default function KrishnaStotram() {
   const ref = useRef(null);
@@ -21,7 +22,7 @@ export default function KrishnaStotram() {
 
   const t = useT();
 
-  const titleLines: any = t("home.krishnaStotram.title") || [];
+  const titleLines: any = parseList(t("home.krishnaStotram.title"));
   const transliteration: string = t("home.krishnaStotram.transliteration") as string;
   const credit: string = t("home.krishnaStotram.credit") as string;
   const translation: string = t("home.krishnaStotram.translation") as string;

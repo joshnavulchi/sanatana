@@ -3,6 +3,7 @@
 import PageLayout from '@components/common/PageLayout';
 
 import { t, detectLocale } from '../../lib/i18n';
+import { parseList } from 'lib/parseList';
 import { createcreateGenerateMetadata } from 'lib/pageUtils';
 
 
@@ -40,7 +41,7 @@ export default async function PrivacyPolicy() {
               <h5>{S('privacy.howWeUse.title')}</h5>
               <p>{S('privacy.howWeUse.lead')}</p>
               <ul role="list" className="list-disc">
-                {(t('privacy.howWeUse.items', locale) as any[] || []).map((item: string, idx: number) => (
+                {parseList(t('privacy.howWeUse.items', locale)).map((item: string, idx: number) => (
                   <li key={idx}>{item}</li>
                 ))}
               </ul>
@@ -57,7 +58,7 @@ export default async function PrivacyPolicy() {
               <p>{S('privacy.rights.title')}</p>
               <p>{S('privacy.rights.lead')}</p>
               <ul role="list" className="list-disc">
-                {(t('privacy.rights.items', locale) as any[] || []).map((it: string, idx: number) => (
+                {parseList(t('privacy.rights.items', locale)).map((it: string, idx: number) => (
                   <li key={idx}>{it}</li>
                 ))}
               </ul>

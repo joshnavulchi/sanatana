@@ -4,7 +4,7 @@ import { t, detectLocale, getMeta } from '../../lib/i18n';
 import { createcreateGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
 
-export const generateMetadata = createcreateGenerateMetadata('terms');
+export const generateMetadata = createcreateGenerateMetadata('terms-of-service');
 
 export default async function TermsOfService({ searchParams }: any) {
   const locale = await detectLocale(searchParams);

@@ -2,6 +2,7 @@
 import { t, detectLocale, getMeta } from '../../../lib/i18n';
 
 import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
+import { parseList } from 'lib/parseList';
 
 import PageLayout from '@components/common/PageLayout';
 
@@ -15,7 +16,7 @@ export default function Page({ searchParams }: any) {
 
   const page: any = (() => {
     const k: any = getMeta('scriptures_vedas', {}, locale) || {};
-    const structure = k.structure?.fourvedas ?? (t('vedas.structure.fourvedas', locale) || []);
+    const structure = k.structure?.fourvedas ?? parseList(t('vedas.structure.fourvedas', locale));
     const origin = typeof k.origin === 'object' ? k.origin : (t('vedas.origin', locale) || {});
     const authorship = typeof k.authorship === 'object' ? k.authorship : (t('vedas.authorship', locale) || {});
     return {
