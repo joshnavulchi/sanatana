@@ -2,7 +2,7 @@
 
 import { t, detectLocale } from '../../../../lib/i18n';
 
-import { createGenerateMetadata } from 'lib/pageUtils';
+import { createcreateGenerateMetadata } from 'lib/pageUtils';
 
 
 export default async function NatyaPage() {
@@ -29,5 +29,5 @@ export default async function NatyaPage() {
 }
 
 
-export const generateMetadata = createGenerateMetadata('scriptures_shastras_natya');
+export const generateMetadata = createcreateGenerateMetadata('scriptures_shastras_natya');
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

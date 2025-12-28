@@ -4,7 +4,7 @@ export default function AboutShiva({ locale }: { locale?: string }) {
   return (
     <section className="bg-white about-shiva">
       <div className="content-wrapper text-left">
-        <div className="text-2xl/10! md:text-3xl/12! font-semibold! multi-text-color">
+        <div className="text-2xl/8! md:text-3xl/10! font-semibold! multi-text-color">
           {Array.isArray(t('home.shivaHeading', locale || DEFAULT_LOCALE)) ? (
             (t('home.shivaHeading', locale || DEFAULT_LOCALE) as string[]).map((s, i) => <span key={i}>{s} </span>)
           ) : <span>{t('home.shivaHeading', locale || DEFAULT_LOCALE)} </span>}

@@ -1,13 +1,13 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { detectLocale, t } from '../../../lib/i18n';
 
-import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
+import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
 
 
 import PageLayout from '@components/common/PageLayout';
 import Image from 'next/image';
 
-export const generateMetadata = createGenerateMetadata('kidsZone_illustratedStories');
+export const generateMetadata = createcreateGenerateMetadata('kidsZone_illustratedStories');
 
 export default async function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();

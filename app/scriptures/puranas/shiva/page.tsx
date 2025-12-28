@@ -5,7 +5,7 @@ import { t, detectLocale, getMeta } from '../../../../lib/i18n';
 
 
 
-export async function generateMetadata(props: any) {
+export async function createGenerateMetadata(props: any) {
   const { searchParams } = props || {};
   const locale = await detectLocale(searchParams);
 

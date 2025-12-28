@@ -1,10 +1,10 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale } from '../../lib/i18n';
 
-import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../lib/pageUtils';
+import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from '../../lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
 
-export const generateMetadata = createGenerateMetadata('about', 'about.title', 'about.intro');
+export const generateMetadata = createcreateGenerateMetadata('about', 'about.title', 'about.description');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
@@ -12,7 +12,7 @@ export default function Page({ searchParams }: any) {
   const S = (k: string) => String(t(k, locale));
 
   const title = String(t('about.title', locale));
-  const intro = String(t('about.intro', locale));
+  const intro = String(t('about.description', locale));
   const visionDesc = String(t('about.vision.description', locale));
   const focusAreas = (t('about.vision.focusAreas', locale) as unknown) || [];
   const goal = String(t('about.vision.goal', locale));

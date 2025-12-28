@@ -1,7 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale } from '../../../lib/i18n';
 
-import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
+import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
 
 
 import { locales } from '../../../lib/i18n';
@@ -9,7 +9,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 const en = locales.en;
 
-export const generateMetadata = createGenerateMetadata('scriptures_bhagavadgita');
+export const generateMetadata = createcreateGenerateMetadata('scriptures_bhagavadgita');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();

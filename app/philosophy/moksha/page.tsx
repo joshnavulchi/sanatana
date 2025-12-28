@@ -1,12 +1,12 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getLocaleObject } from '../../../lib/i18n';
 
-import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
+import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from '../../../lib/pageUtils';
 
 import PageLayout from '@components/common/PageLayout';
 
 
-export const generateMetadata = createGenerateMetadata('philosophy_moksha');
+export const generateMetadata = createcreateGenerateMetadata('philosophy_moksha');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();

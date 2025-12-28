@@ -14,7 +14,7 @@ function resolveLocaleFromHeaders() {
   }
 }
 
-export async function generateMetadata({ params, searchParams }: { params: { chapter: string }, searchParams?: any }) {
+export async function createGenerateMetadata({ params, searchParams }: { params: { chapter: string }, searchParams?: any }) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
 
   const S = (k: string) => String(t(k, locale));

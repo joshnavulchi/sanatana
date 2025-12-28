@@ -1,111 +1,112 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { Suspense } from 'react';
-import { Metadata } from 'next';
+// import { Metadata } from 'next';
+import { Poppins } from 'next/font/google';
 import Script from 'next/script';
-import { Playfair_Display, Poppins } from 'next/font/google';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
-import ScrollToTop from './components/scroll-to-top/scroll-to-top';
-import { LocaleProvider } from './context/locale-context';
-import { ThemeProvider } from './context/theme-context';
 import AnalyticsCollector from './components/analytics/AnalyticsCollector';
 import CookieConsent from './components/cookie-consent/CookieConsent';
 import Loader from './components/loader/loader';
 import TopProgress from './components/progress/TopProgress';
+import ScrollToTop from './components/scroll-to-top/scroll-to-top';
+import { LocaleProvider } from './context/locale-context';
+import { ThemeProvider } from './context/theme-context';
 import { headers } from 'next/headers';
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '../lib/i18n';
-import "./globals.css";
+import { secrets } from '../lib/secrets';
 
-const playfair = Playfair_Display({ subsets: ["latin"], weight: ["700"] });
+import "./globals.css"; // tailwind base styles
+
 const poppins = Poppins({ subsets: ["latin"], weight: ["400"] });
 
-// Compose a safe font-family string so Playfair is available as a fallback
-const bodyFontFamily = `${poppins.style?.fontFamily || "Poppins, sans-serif"}, ${playfair.style?.fontFamily || "'Playfair Display', serif"}`;
+// Compose a safe font-family string: Playfair primary, Poppins fallback
+const bodyFontFamily = `${poppins.style?.fontFamily || "Poppins, sans-serif"}`;
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://sanatanadharmam.in";
+const SITE_URL = secrets.NEXT_PUBLIC_SITE_URL || "https://sanatanadharmam.in";
 
-export const metadata: Metadata = {
-  title: {
-    default: "Sanatana Dharma",
-    template: "%s | Eternal Principles of Hinduism"
-  },
-  description:
-    "Explore Sanatana Dharma: the eternal principles of Hinduism, Vedic traditions, spiritual practices, and wisdom from scriptures like the Bhagavad Gita and Upanishads.",
-  keywords: [
-    "Sanatana Dharma",
-    "Hinduism",
-    "Vedas",
-    "Puranas",
-    "Shastras",
-    "Bhagavad Gita",
-    "Upanishads",
-    "Sanskrit",
-    "Dharma",
-    "Vedanta",
-    "Hindu scriptures",
-    "Indian philosophy",
-    "Vedic studies",
-    "Moksha",
-    "Yoga",
-    "Bhakti",
-    "Hindu rituals",
-    "Ancient scriptures",
-    "Vedic literature",
-    "Hindu culture",
-    "India",
-    "Spirituality",
-    "Meditation",
-    "Ayurveda",
-    "Sanatanadharma",
-    "Hindu traditions",
-    "Vedantic teachings",
-    "Hindu epics",
-    "Religious studies",
-    "Philosophy",
-    "Spiritual teachings",
-    "Cultural heritage",
-    "Role of Vedas in Sanatana Dharma",
-    "Hindu festivals",
-    "Upanishads wisdom",
-    "Indian spirituality",
-    "Dharma and Karma",
-    "Yoga and meditation",
-    "Principles of Sanatana Dharma",
-    "Vedic traditions"
-  ],
-  metadataBase: new URL(SITE_URL),
-  openGraph: {
-    title: "Sanatana Dharma",
-    description: "Explore the Vedas, Puranas, Shastras and the living traditions of Sanatana Dharma — texts, translations and resources.",
-    url: SITE_URL,
-    siteName: "Sanatana Dharma",
-    images: [
-      {
-        url: `${SITE_URL}/globe.svg`,
-        width: 1200,
-        height: 630,
-        alt: "Sanatana Dharma"
-      }
-    ],
-    locale: "en_US",
-    type: "website"
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Sanatana Dharma",
-    description:
-      "Explore the Vedas, Puranas, Shastras and the living traditions of Sanatana Dharma — texts, translations and resources.",
-    images: [`${SITE_URL}/globe.svg`]
-  },
-  alternates: {
-    // Do not force a global canonical to SITE_URL — allow per-page canonical URLs.
-    languages: {
-      en: SITE_URL,
-      te: `${SITE_URL}/?lang=te`
-    }
-  },
-  // robots handled per-page to avoid duplicate tags when pages also set robots
-};
+// export const metadata: Metadata = {
+//   title: {
+//     default: "Sanatana Dharma",
+//     template: "%s | Eternal Principles of Hinduism"
+//   },
+//   description:
+//     "Explore Sanatana Dharma: the eternal principles of Hinduism, Vedic traditions, spiritual practices, and wisdom from scriptures like the Bhagavad Gita and Upanishads.",
+//   keywords: [
+//     "Sanatana Dharma",
+//     "Hinduism",
+//     "Vedas",
+//     "Puranas",
+//     "Shastras",
+//     "Bhagavad Gita",
+//     "Upanishads",
+//     "Sanskrit",
+//     "Dharma",
+//     "Vedanta",
+//     "Hindu scriptures",
+//     "Indian philosophy",
+//     "Vedic studies",
+//     "Moksha",
+//     "Yoga",
+//     "Bhakti",
+//     "Hindu rituals",
+//     "Ancient scriptures",
+//     "Vedic literature",
+//     "Hindu culture",
+//     "India",
+//     "Spirituality",
+//     "Meditation",
+//     "Ayurveda",
+//     "Sanatanadharma",
+//     "Hindu traditions",
+//     "Vedantic teachings",
+//     "Hindu epics",
+//     "Religious studies",
+//     "Philosophy",
+//     "Spiritual teachings",
+//     "Cultural heritage",
+//     "Role of Vedas in Sanatana Dharma",
+//     "Hindu festivals",
+//     "Upanishads wisdom",
+//     "Indian spirituality",
+//     "Dharma and Karma",
+//     "Yoga and meditation",
+//     "Principles of Sanatana Dharma",
+//     "Vedic traditions"
+//   ],
+//   metadataBase: new URL(SITE_URL),
+//   openGraph: {
+//     title: "Sanatana Dharma",
+//     description: "Explore the Vedas, Puranas, Shastras and the living traditions of Sanatana Dharma — texts, translations and resources.",
+//     url: SITE_URL,
+//     siteName: "Sanatana Dharma",
+//     images: [
+//       {
+//         url: `${SITE_URL}/globe.svg`,
+//         width: 1200,
+//         height: 630,
+//         alt: "Sanatana Dharma"
+//       }
+//     ],
+//     locale: "en_US",
+//     type: "website"
+//   },
+//   twitter: {
+//     card: "summary_large_image",
+//     title: "Sanatana Dharma",
+//     description:
+//       "Explore the Vedas, Puranas, Shastras and the living traditions of Sanatana Dharma — texts, translations and resources.",
+//     images: [`${SITE_URL}/globe.svg`]
+//   },
+//   alternates: {
+//     // Do not force a global canonical to SITE_URL — allow per-page canonical URLs.
+//     languages: {
+//       en: SITE_URL,
+//       te: `${SITE_URL}/?lang=te`
+//     }
+//   },
+//   // robots handled per-page to avoid duplicate tags when pages also set robots
+// };
 
 export default async function RootLayout({
   children,
@@ -154,11 +155,19 @@ export default async function RootLayout({
         <meta httpEquiv="Cache-Control" content="max-age=300, must-revalidate" />
         <meta httpEquiv="Pragma" content="no-cache" />
         <meta httpEquiv="Expires" content="300" />
-        {/* Page metadata is handled by Next's Metadata API (per-page `generateMetadata`). */}
+        {/* Page metadata is handled by Next's Metadata API (per-page `createGenerateMetadata`). */}
         {/* Preload initial hero slider images to improve LCP on homepage */}
+        <link rel="preload" as="image" href="/images/slider/lord-ganesh.png" />
+        <link rel="preload" as="image" href="/images/slider/lord-shiva.png" />
+        <link rel="preload" as="image" href="/images/slider/lord-lord-shiva-parvathi.png" />
+        <link rel="preload" as="image" href="/images/slider/lord-subramanyam.png" />
+        <link rel="preload" as="image" href="/images/slider/lord-rama-site.png" />
+        <link rel="preload" as="image" href="/images/slider/lord-krishna-rada.png" />
+        <link rel="preload" as="image" href="/images/slider/lord-saraswathi.png" />
+        <link rel="preload" as="image" href="/images/slider/lord-hanuman.png" />
         <link rel="preload" as="image" href="/images/lord-shiva.png" />
         <link rel="preload" as="image" href="/images/lord-krishna.png" />
-        {/* Per-page canonical is set via per-page `generateMetadata` using meta.json;
+        {/* Per-page canonical is set via per-page `createGenerateMetadata` using meta.json;
           remove static canonical here to avoid duplicate canonical tags. */}
         <link rel="stylesheet" href="/globals.from-scss.css" />
         {/* JSON-LD structured data for Website/Organization */}
@@ -194,11 +203,11 @@ export default async function RootLayout({
           }}
         />
         {/* Google Analytics (env-driven) */}
-        {process.env.NEXT_PUBLIC_GA_ID && (
+        {secrets.NEXT_PUBLIC_GA_ID && (
           <>
-            <Script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`} strategy="lazyOnload" />
+            <Script async src={`https://www.googletagmanager.com/gtag/js?id=${secrets.NEXT_PUBLIC_GA_ID}`} strategy="lazyOnload" />
             <Script id="gtag-init" strategy="lazyOnload">
-              {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');`}
+              {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${secrets.NEXT_PUBLIC_GA_ID}');`}
             </Script>
           </>
         )}
@@ -218,12 +227,12 @@ export default async function RootLayout({
           />
         )}
         {/* Google Tag Manager (optional, env-driven) */}
-        {process.env.NEXT_PUBLIC_GTM_ID && (
+        {secrets.NEXT_PUBLIC_GTM_ID && (
           <Script
             id="gtm-script"
             strategy="lazyOnload"
             dangerouslySetInnerHTML={{
-              __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${process.env.NEXT_PUBLIC_GTM_ID}');`
+              __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${secrets.NEXT_PUBLIC_GTM_ID}');`
             }}
           />
         )}
@@ -231,10 +240,10 @@ export default async function RootLayout({
       <body style={{ fontFamily: bodyFontFamily }} translate="no">
         <TopProgress />
         {/* Google Tag Manager (noscript) inserted when `NEXT_PUBLIC_GTM_ID` is set */}
-        {process.env.NEXT_PUBLIC_GTM_ID && (
+        {secrets.NEXT_PUBLIC_GTM_ID && (
           <noscript>
             <iframe
-              src={`https://www.googletagmanager.com/ns.html?id=${process.env.NEXT_PUBLIC_GTM_ID}`}
+              src={`https://www.googletagmanager.com/ns.html?id=${secrets.NEXT_PUBLIC_GTM_ID}`}
               height="0"
               width="0"
               style={{ display: 'none', visibility: 'hidden' }}

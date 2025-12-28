@@ -9,11 +9,10 @@ import Link from 'next/link';
 
 export default function MainSlider() {
   const t = useT();
-
   // Full width slider with video and auto-play
   const slides = t("home.slides") || [];
   const heroTopicsRaw = t("home.topics");
-  const heroButtons = t("home.buttons") || { explore: 'Explore', learnMore: 'Learn More' };
+  const heroButtons = JSON.parse(t("home.buttons")) || { explore: 'Explore', learnMore: 'Learn More' };
   const heroSubtitles = Array.isArray(heroTopicsRaw)
     ? heroTopicsRaw
     : (heroTopicsRaw ? String(heroTopicsRaw).split(/\s*[,;]\s*/).filter(Boolean) : []);
@@ -93,9 +92,9 @@ export default function MainSlider() {
             ) : ''}
             {slide.sankritTitle && heroSubtitles && (
               <div className={`slider-content relative md:absolute ${slide.placementImage === 'left' ? 'md:right-0' : 'md:left-0'} md:w-2/3 md:z-10`}>
-                <p className="text-2xl/10! md:text-3xl/12! font-semibold!">{slide.sankritTitle}</p>
-                <p>{slide.englishTitle}</p>
-                <p>{slide.subtitle}</p>
+                <h2 className="text-2xl/8! md:text-3xl/10! font-semibold!">{slide.sankritTitle}</h2>
+                <p className="text-md!">{slide.englishTitle}</p>
+                <p className="text-md!">{slide.subtitle}</p>
                 <div className="mt-10 flex flex-row gap-4">
                   <Link href="/scriptures/gita" className="button inline-block rounded-md! shadow-sm bg-amber-300 hover:bg-amber-400 no-underline">
                     {heroButtons.explore}
@@ -119,7 +118,7 @@ export default function MainSlider() {
         {slides.map((_: any, idx: number) => (
           <button
             key={idx}
-            className={`rounded-md! bg-amber-400 border-2 ${idx === current ? ' border-black' : 'bg-white no-underline'}`}
+            className={`rounded-full! bg-amber-400 border-2 ${idx === current ? ' border-black' : 'bg-white no-underline'}`}
             onClick={() => setCurrent(idx)}
             aria-label={`Go to slide ${idx + 1}`}
           />

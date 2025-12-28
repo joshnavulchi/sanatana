@@ -7,7 +7,7 @@ import storage from "./storage";
 
 // Single source of supported locales used across the app
 export const SUPPORTED_LOCALES = [
-  'en','hi','ta','te','kn','ml','mr','bn','gu','pa','or','as','ur','sa','ru','fr','nl','de','ja','zh','es'
+  'en', 'te'
 ];
 
 // Cache that holds already-loaded locale objects. Keep English bundled
@@ -26,7 +26,7 @@ export function getLocaleObject(locale = DEFAULT_LOCALE) {
   if (localesCache[locale]) return localesCache[locale];
 
   // If running on the server, attempt to synchronously require the locale
-  // so server-side code (e.g. `generateMetadata`) can access locale data
+  // so server-side code (e.g. `createGenerateMetadata`) can access locale data
   // without making the callers async. This avoids bundling non-default
   // locales into the client main chunk while keeping server usage working.
   if (typeof window === 'undefined') {

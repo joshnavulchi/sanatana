@@ -27,7 +27,7 @@ export default async function DharmaPage() {
   );
 }
 
-export async function generateMetadata(props: any) {
+export async function createGenerateMetadata(props: any) {
   const { searchParams } = props || {};
   const locale = await detectLocale(searchParams);
   const meta = getMeta('scriptures_shastras_dharma', undefined, locale) || {};
