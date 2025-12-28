@@ -1,5 +1,6 @@
 import { t, getMeta, detectLocale, DEFAULT_LOCALE, detectServerLocaleFromHeaders } from './i18n';
 import { headers } from 'next/headers';
+import { secrets } from './secrets';
 
 export function resolveLocaleFromHeaders() {
   try {
@@ -52,7 +53,7 @@ export function createcreateGenerateMetadata(metaKey: string, titleKey?: string,
     if (meta.ogImage) {
       try {
         const og = String(meta.ogImage);
-        const base = meta.url || process.env.NEXT_PUBLIC_SITE_URL || 'https://sanatanadharmam.in';
+        const base = meta.url || secrets.NEXT_PUBLIC_SITE_URL || 'https://sanatanadharmam.in';
         const host = String(base).replace(/\/$/, '');
         const imgUrl = og.startsWith('http://') || og.startsWith('https://') ? og : `${host}${og.startsWith('/') ? '' : '/'}${og}`;
         ogImages = [{ url: imgUrl }];
@@ -67,7 +68,7 @@ export function createcreateGenerateMetadata(metaKey: string, titleKey?: string,
       description,
       keywords: meta.keywords || undefined,
       openGraph: { title: title || meta.title, description, images: ogImages },
-      alternates: { canonical: meta.canonical || meta.url || process.env.NEXT_PUBLIC_SITE_URL || 'https://sanatanadharmam.in' }
+      alternates: { canonical: meta.canonical || meta.url || secrets.NEXT_PUBLIC_SITE_URL || 'https://sanatanadharmam.in' }
     };
   };
 }
