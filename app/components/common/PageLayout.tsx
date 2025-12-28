@@ -15,7 +15,7 @@ type Props = {
 };
 
 export default function PageLayout({ metaKey, title, breadcrumbs, locale, className, children }: Props) {
-  const wrapper = className || 'content-wrapper md page-space-xl';
+  const wrapper = className || 'content-wrapper lg page-space-xl';
   return (
     <>
       {metaKey ? <StructuredData metaKey={metaKey} /> : null}
