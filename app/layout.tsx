@@ -1,6 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { Suspense } from 'react';
-// import { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
 import Script from 'next/script';
 import Header from './components/header/header';
@@ -19,94 +18,9 @@ import { secrets } from '../lib/secrets';
 import "./globals.css"; // tailwind base styles
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["400"] });
-
 // Compose a safe font-family string: Playfair primary, Poppins fallback
 const bodyFontFamily = `${poppins.style?.fontFamily || "Poppins, sans-serif"}`;
-
 const SITE_URL = secrets.NEXT_PUBLIC_SITE_URL || "https://sanatanadharmam.in";
-
-// export const metadata: Metadata = {
-//   title: {
-//     default: "Sanatana Dharma",
-//     template: "%s | Eternal Principles of Hinduism"
-//   },
-//   description:
-//     "Explore Sanatana Dharma: the eternal principles of Hinduism, Vedic traditions, spiritual practices, and wisdom from scriptures like the Bhagavad Gita and Upanishads.",
-//   keywords: [
-//     "Sanatana Dharma",
-//     "Hinduism",
-//     "Vedas",
-//     "Puranas",
-//     "Shastras",
-//     "Bhagavad Gita",
-//     "Upanishads",
-//     "Sanskrit",
-//     "Dharma",
-//     "Vedanta",
-//     "Hindu scriptures",
-//     "Indian philosophy",
-//     "Vedic studies",
-//     "Moksha",
-//     "Yoga",
-//     "Bhakti",
-//     "Hindu rituals",
-//     "Ancient scriptures",
-//     "Vedic literature",
-//     "Hindu culture",
-//     "India",
-//     "Spirituality",
-//     "Meditation",
-//     "Ayurveda",
-//     "Sanatanadharma",
-//     "Hindu traditions",
-//     "Vedantic teachings",
-//     "Hindu epics",
-//     "Religious studies",
-//     "Philosophy",
-//     "Spiritual teachings",
-//     "Cultural heritage",
-//     "Role of Vedas in Sanatana Dharma",
-//     "Hindu festivals",
-//     "Upanishads wisdom",
-//     "Indian spirituality",
-//     "Dharma and Karma",
-//     "Yoga and meditation",
-//     "Principles of Sanatana Dharma",
-//     "Vedic traditions"
-//   ],
-//   metadataBase: new URL(SITE_URL),
-//   openGraph: {
-//     title: "Sanatana Dharma",
-//     description: "Explore the Vedas, Puranas, Shastras and the living traditions of Sanatana Dharma — texts, translations and resources.",
-//     url: SITE_URL,
-//     siteName: "Sanatana Dharma",
-//     images: [
-//       {
-//         url: `${SITE_URL}/globe.svg`,
-//         width: 1200,
-//         height: 630,
-//         alt: "Sanatana Dharma"
-//       }
-//     ],
-//     locale: "en_US",
-//     type: "website"
-//   },
-//   twitter: {
-//     card: "summary_large_image",
-//     title: "Sanatana Dharma",
-//     description:
-//       "Explore the Vedas, Puranas, Shastras and the living traditions of Sanatana Dharma — texts, translations and resources.",
-//     images: [`${SITE_URL}/globe.svg`]
-//   },
-//   alternates: {
-//     // Do not force a global canonical to SITE_URL — allow per-page canonical URLs.
-//     languages: {
-//       en: SITE_URL,
-//       te: `${SITE_URL}/?lang=te`
-//     }
-//   },
-//   // robots handled per-page to avoid duplicate tags when pages also set robots
-// };
 
 export default async function RootLayout({
   children,
@@ -159,9 +73,9 @@ export default async function RootLayout({
         {/* Preload initial hero slider images to improve LCP on homepage */}
         <link rel="preload" as="image" href="/images/slider/lord-ganesh.png" />
         <link rel="preload" as="image" href="/images/slider/lord-shiva.png" />
-        <link rel="preload" as="image" href="/images/slider/lord-lord-shiva-parvathi.png" />
-        <link rel="preload" as="image" href="/images/slider/lord-subramanyam.png" />
-        <link rel="preload" as="image" href="/images/slider/lord-rama-site.png" />
+        <link rel="preload" as="image" href="/images/slider/lord-shiva-paravathi.png" />
+        <link rel="preload" as="image" href="/images/slider/lord-subramanyaswamy.png" />
+        <link rel="preload" as="image" href="/images/slider/lord-rama-sita.png" />
         <link rel="preload" as="image" href="/images/slider/lord-krishna-rada.png" />
         <link rel="preload" as="image" href="/images/slider/lord-saraswathi.png" />
         <link rel="preload" as="image" href="/images/slider/lord-hanuman.png" />
