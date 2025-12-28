@@ -1,19 +1,20 @@
 
 import HoroscopeClient from './HoroscopeClient';
 import PageLayout from '@components/common/PageLayout';
-import { t } from '../../lib/i18n';
+import { t, getMeta } from '../../lib/i18n';
 
 export const metadata = {
-  title: "Horoscope",
+  title: 'Horoscope',
 };
 
 export default function Page() {
-  const S = (k: string) => String(t(k));
-  const title = 'Horoscope Generator';
+  const k: any = getMeta('horoscope', {}, undefined) || {};
+  const title = typeof k.title === 'string' ? k.title : 'Horoscope Generator';
+  const S = (label: string) => String(t(label));
 
   return (
     <>
-      <PageLayout title={'Horoscope Generator'} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Horoscope Generator' }]}>
+      <PageLayout title={title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: title }]}>
         <HoroscopeClient />
       </PageLayout>
     </>

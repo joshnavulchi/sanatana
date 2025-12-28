@@ -1,86 +1,127 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, detectLocale } from '../../lib/i18n';
+import { t, detectLocale, getMeta } from '../../lib/i18n';
 
 import { createcreateGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
 
 export const generateMetadata = createcreateGenerateMetadata('terms');
 
-export default async function TermsOfService() {
-  const locale = await detectLocale();
+export default async function TermsOfService({ searchParams }: any) {
+  const locale = await detectLocale(searchParams);
   const S = (k: string) => String(t(k, locale));
 
+  const page: any = (() => {
+    const k: any = getMeta('terms', {}, locale) || {};
+    const get = (p: string) => (typeof k[p] === 'string' ? k[p] : String(t(p, locale)));
+    return {
+      title: typeof k.title === 'string' ? k.title : String(t('terms.title', locale) || ''),
+      lastUpdated: get('terms.lastUpdated'),
+      intro: get('terms.intro'),
+      acceptanceTitle: get('terms.acceptanceTitle'),
+      useLicenseTitle: get('terms.useLicenseTitle'),
+      useLicenseText: get('terms.useLicenseText'),
+      useLicenseList: k.useLicenseList ?? {},
+      intellectualTitle: get('terms.intellectualTitle'),
+      intellectualText: get('terms.intellectualText'),
+      userConductTitle: get('terms.userConductTitle'),
+      userConductIntro: get('terms.userConductIntro'),
+      userConductList: k.userConductList ?? {},
+      disclaimerTitle: get('terms.disclaimerTitle'),
+      disclaimerText: get('terms.disclaimerText'),
+      disclaimerList: k.disclaimerList ?? {},
+      disclaimerClosing: get('terms.disclaimerClosing'),
+      liabilityTitle: get('terms.liabilityTitle'),
+      liabilityText: get('terms.liabilityText'),
+      externalLinksTitle: get('terms.externalLinksTitle'),
+      externalLinksText: get('terms.externalLinksText'),
+      modificationsTitle: get('terms.modificationsTitle'),
+      modificationsText: get('terms.modificationsText'),
+      terminationTitle: get('terms.terminationTitle'),
+      terminationText: get('terms.terminationText'),
+      indemnificationTitle: get('terms.indemnificationTitle'),
+      indemnificationText: get('terms.indemnificationText'),
+      governingTitle: get('terms.governingTitle'),
+      severabilityTitle: get('terms.severabilityTitle'),
+      contactTitle: get('terms.contactTitle'),
+      contactEmailLabel: get('terms.contactEmailLabel'),
+      contactEmail: get('terms.contactEmail'),
+      contactWebsiteLabel: get('terms.contactWebsiteLabel'),
+      contactWebsite: get('terms.contactWebsite'),
+      closing: get('terms.closing')
+    };
+  })();
+
   return (
-    <PageLayout metaKey="terms-of-service" title={S('terms.title')} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: String(t('terms.title')) }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+    <PageLayout metaKey="terms-of-service" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
       <div>
         <p>
-          <strong>{S('terms.lastUpdated')}</strong> {S('terms.lastUpdated')}
+          <strong>{page.lastUpdated}</strong> {page.lastUpdated}
         </p>
 
-        <h3>{S('terms.acceptanceTitle')}</h3>
-        <p>{S('terms.intro')}</p>
+        <h3>{page.acceptanceTitle}</h3>
+        <p>{page.intro}</p>
 
-        <h4>{S('terms.useLicenseTitle')}</h4>
-        <p>{S('terms.useLicenseText')}</p>
+        <h4>{page.useLicenseTitle}</h4>
+        <p>{page.useLicenseText}</p>
         <ul role="list" className="list-disc">
-          <li>{S('terms.useLicenseList.modification')}</li>
-          <li>{S('terms.useLicenseList.copying')}</li>
-          <li>{S('terms.useLicenseList.unauthorizedAccess')}</li>
-          <li>{S('terms.useLicenseList.reverseEngineering')}</li>
-          <li>{S('terms.useLicenseList.interfering')}</li>
+          <li>{(page.useLicenseList && page.useLicenseList.modification) || S('terms.useLicenseList.modification')}</li>
+          <li>{(page.useLicenseList && page.useLicenseList.copying) || S('terms.useLicenseList.copying')}</li>
+          <li>{(page.useLicenseList && page.useLicenseList.unauthorizedAccess) || S('terms.useLicenseList.unauthorizedAccess')}</li>
+          <li>{(page.useLicenseList && page.useLicenseList.reverseEngineering) || S('terms.useLicenseList.reverseEngineering')}</li>
+          <li>{(page.useLicenseList && page.useLicenseList.interfering) || S('terms.useLicenseList.interfering')}</li>
         </ul>
 
-        <h5>{S('terms.intellectualTitle')}</h5>
-        <p>{S('terms.intellectualText')}</p>
+        <h5>{page.intellectualTitle}</h5>
+        <p>{page.intellectualText}</p>
 
-        <h6>{S('terms.userConductTitle')}</h6>
-        <p>{S('terms.userConductIntro')}</p>
+        <h6>{page.userConductTitle}</h6>
+        <p>{page.userConductIntro}</p>
         <ul role="list" className="list-disc">
-          <li>{S('terms.userConductList.unlawful')}</li>
-          <li>{S('terms.userConductList.harassment')}</li>
-          <li>{S('terms.userConductList.malware')}</li>
-          <li>{S('terms.userConductList.violateLaw')}</li>
-          <li>{S('terms.userConductList.spam')}</li>
-          <li>{S('terms.userConductList.bypass')}</li>
+          <li>{(page.userConductList && page.userConductList.unlawful) || S('terms.userConductList.unlawful')}</li>
+          <li>{(page.userConductList && page.userConductList.harassment) || S('terms.userConductList.harassment')}</li>
+          <li>{(page.userConductList && page.userConductList.malware) || S('terms.userConductList.malware')}</li>
+          <li>{(page.userConductList && page.userConductList.violateLaw) || S('terms.userConductList.violateLaw')}</li>
+          <li>{(page.userConductList && page.userConductList.spam) || S('terms.userConductList.spam')}</li>
+          <li>{(page.userConductList && page.userConductList.bypass) || S('terms.userConductList.bypass')}</li>
         </ul>
 
-        <p>{S('terms.disclaimerTitle')}</p>
-        <p>{S('terms.disclaimerText')}</p>
+        <p>{page.disclaimerTitle}</p>
+        <p>{page.disclaimerText}</p>
         <ul role="list" className="list-disc">
-          <li>{S('terms.disclaimerList.accuracy')}</li>
-          <li>{S('terms.disclaimerList.functionality')}</li>
-          <li>{S('terms.disclaimerList.errors')}</li>
-          <li>{S('terms.disclaimerList.quality')}</li>
+          <li>{(page.disclaimerList && page.disclaimerList.accuracy) || S('terms.disclaimerList.accuracy')}</li>
+          <li>{(page.disclaimerList && page.disclaimerList.functionality) || S('terms.disclaimerList.functionality')}</li>
+          <li>{(page.disclaimerList && page.disclaimerList.errors) || S('terms.disclaimerList.errors')}</li>
+          <li>{(page.disclaimerList && page.disclaimerList.quality) || S('terms.disclaimerList.quality')}</li>
         </ul>
-        <p>{S('terms.disclaimerClosing')}</p>
+        <p>{page.disclaimerClosing}</p>
 
-        <p>{S('terms.liabilityTitle')}</p>
-        <p>{S('terms.liabilityText')}</p>
+        <p>{page.liabilityTitle}</p>
+        <p>{page.liabilityText}</p>
 
-        <p>{S('terms.externalLinksTitle')}</p>
-        <p>{S('terms.externalLinksText')}</p>
+        <p>{page.externalLinksTitle}</p>
+        <p>{page.externalLinksText}</p>
 
-        <p>{S('terms.modificationsTitle')}</p>
-        <p>{S('terms.modificationsText')}</p>
+        <p>{page.modificationsTitle}</p>
+        <p>{page.modificationsText}</p>
 
-        <p>{S('terms.terminationTitle')}</p>
-        <p>{S('terms.terminationText')}</p>
+        <p>{page.terminationTitle}</p>
+        <p>{page.terminationText}</p>
 
-        <p>{S('terms.indemnificationTitle')}</p>
-        <p>{S('terms.indemnificationText')}</p>
+        <p>{page.indemnificationTitle}</p>
+        <p>{page.indemnificationText}</p>
 
-        <p>{S('terms.governingTitle')}</p>
-        <p>{S('terms.governingTitle')}</p>
+        <p>{page.governingTitle}</p>
+        <p>{page.governingTitle}</p>
 
-        <p>{S('terms.severabilityTitle')}</p>
-        <p>{S('terms.severabilityTitle')}</p>
+        <p>{page.severabilityTitle}</p>
+        <p>{page.severabilityTitle}</p>
 
-        <p>{S('terms.contactTitle')}</p>
-        <p>{S('terms.contactTitle')}</p>
-        <p><strong>{S('terms.contactEmailLabel')}</strong> {S('terms.contactEmail')}</p>
-        <p><strong>{S('terms.contactWebsiteLabel')}</strong> <a href="https://sanatanadharmam.in">{S('terms.contactWebsite')}</a></p>
+        <p>{page.contactTitle}</p>
+        <p>{page.contactTitle}</p>
+        <p><strong>{page.contactEmailLabel}</strong> {page.contactEmail}</p>
+        <p><strong>{page.contactWebsiteLabel}</strong> <a href="https://sanatanadharmam.in">{page.contactWebsite}</a></p>
 
-        <p>{S('terms.closing')}</p>
+        <p>{page.closing}</p>
       </div>
     </PageLayout>
   );

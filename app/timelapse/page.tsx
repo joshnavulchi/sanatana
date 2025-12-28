@@ -1,5 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t } from '../../lib/i18n';
+import { t, getMeta } from '../../lib/i18n';
 
 import { createcreateGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
@@ -19,13 +19,19 @@ export const generateMetadata = createcreateGenerateMetadata('timelapse');
 export default function TimelapsePage() {
   const S = (k: string) => String(t(k));
 
-  // timelinePoints is an object, not array, so convert to array
-  const timelineObj = t("timelinePoints");
-  const timelinePoints: TimelinePoint[] = timelineObj ? Object.values(timelineObj) : [];
+  const page: any = (() => {
+    const k: any = getMeta('timelapse', {}, undefined) || {};
+    const timelineObj = k.timelinePoints ?? t('timelinePoints');
+    const timelinePoints: TimelinePoint[] = timelineObj ? (Array.isArray(timelineObj) ? timelineObj : Object.values(timelineObj)) : [];
+    return {
+      title: typeof k.title === 'string' ? k.title : String(t('timelapse.title') || 'Timelapse'),
+      timelinePoints
+    };
+  })();
   return (
-    <PageLayout metaKey="timelapse" title={'Timelapse'} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Timelapse' }]}>
+    <PageLayout metaKey="timelapse" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title || 'Timelapse' }]}>
       <div>
-        {timelinePoints.map((point, index) => (
+        {(page.timelinePoints as TimelinePoint[]).map((point: TimelinePoint, index: number) => (
           <div key={index}>
             <div>
               <div>

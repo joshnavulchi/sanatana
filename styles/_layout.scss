@@ -163,4 +163,28 @@
 .contact-form-wrapper {
   padding: var(--space-lg);
 }
+
+.card {
+  article {
+    padding: var(--space-xs);
+    background-color: var(--color-bg-alt);
+  }
+  .card-details {
+    margin: var(--space-sm) 0 0 0;
+    .title {
+      font-weight: 600;
+      font-size: 0.8rem;
+    }
+    .description {
+      font-size: 0.75rem;
+    }
+    p {
+      margin: 0;
+      padding: var(--space-sm) 0 0 0;
+    }
+  }
+  small {
+    color: var(--color-title);
+  }
+}
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

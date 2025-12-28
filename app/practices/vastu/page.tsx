@@ -22,11 +22,20 @@ export async function createGenerateMetadata(props: any) {
 }
 export default function Page() {
   const locale = detectLocale();
+
+  const page: any = (() => {
+    const k: any = getMeta('practices_vastu', {}, locale) || {};
+    return {
+      title: typeof k.title === 'string' ? k.title : String(t('vastu.title', locale) || 'Vastu'),
+      intro: typeof k.intro === 'string' ? k.intro : String(t('vastu.intro', locale) || 'Placeholder page about Vastu principles.')
+    };
+  })();
+
   return (
     <>
-      <PageLayout title={'Vastu'} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Vastu' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
         
-        <p>Placeholder page about Vastu principles.</p>
+        <p>{page.intro}</p>
       </PageLayout>
     </>
   );

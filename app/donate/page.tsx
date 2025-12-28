@@ -2,7 +2,7 @@
 import Link from 'next/link';
 
 
-import { t, detectLocale } from '../../lib/i18n';
+import { t, detectLocale, getMeta } from '../../lib/i18n';
 import { createcreateGenerateMetadata } from 'lib/pageUtils';
 
 import PayPalButton from '../components/paypalbutton';
@@ -16,53 +16,58 @@ export default function DonatePage() {
 
   const S = (k: string) => String(t(k, locale));
 
-  const title = String(t('donatePage.title', locale));
-  const lead = String(t('donatePage.lead', locale));
-  const expansesTitle = String(t('donatePage.expansesTitle', locale));
-  const tableName = String(t('donatePage.table.name', locale));
-  const tableExpanses = String(t('donatePage.table.expanses', locale));
-  const tableDuration = String(t('donatePage.table.duration', locale));
-  const tableReasons = String(t('donatePage.table.reasons', locale));
-  const expenses = (t('donatePage.expenses', locale) as any[]) || [];
-  const oneTime = String(t('donatePage.oneTime', locale));
-  const oneTimeLead = String(t('donatePage.oneTimeLead', locale));
-  const upiTitle = String(t('donatePage.upiBank', locale));
-  const upiLead = String(t('donatePage.upiLead', locale));
-  const upiLabel = String(t('donatePage.upiLabel', locale));
-  const upiId = String(t('donatePage.upiId', locale));
-  const accountNameLabel = String(t('donatePage.accountNameLabel', locale));
-  const accountName = String(t('donatePage.accountName', locale));
-  const accountNumberLabel = String(t('donatePage.accountNumberLabel', locale));
-  const accountNumber = String(t('donatePage.accountNumber', locale));
-  const ifscLabel = String(t('donatePage.ifscLabel', locale));
-  const ifsc = String(t('donatePage.ifsc', locale));
-  const recurring = String(t('donatePage.recurring', locale));
-  const recurringLead = String(t('donatePage.recurringLead', locale));
-  const becomeMonthly = String(t('donatePage.becomeMonthly', locale));
+  const page: any = (() => {
+    const k: any = getMeta('donate', {}, locale) || {};
+    return {
+      title: typeof k.title === 'string' ? k.title : String(t('donatePage.title', locale)),
+      lead: k.lead || String(t('donatePage.lead', locale)),
+      expansesTitle: k.expansesTitle || String(t('donatePage.expansesTitle', locale)),
+      tableName: k.table?.name || String(t('donatePage.table.name', locale)),
+      tableExpanses: k.table?.expanses || String(t('donatePage.table.expanses', locale)),
+      tableDuration: k.table?.duration || String(t('donatePage.table.duration', locale)),
+      tableReasons: k.table?.reasons || String(t('donatePage.table.reasons', locale)),
+      expenses: Array.isArray(k.expenses) ? k.expenses : ((t('donatePage.expenses', locale) as any[]) || []),
+      oneTime: k.oneTime || String(t('donatePage.oneTime', locale)),
+      oneTimeLead: k.oneTimeLead || String(t('donatePage.oneTimeLead', locale)),
+      upiTitle: k.upiBank || String(t('donatePage.upiBank', locale)),
+      upiLead: k.upiLead || String(t('donatePage.upiLead', locale)),
+      upiLabel: k.upiLabel || String(t('donatePage.upiLabel', locale)),
+      upiId: k.upiId || String(t('donatePage.upiId', locale)),
+      accountNameLabel: k.accountNameLabel || String(t('donatePage.accountNameLabel', locale)),
+      accountName: k.accountName || String(t('donatePage.accountName', locale)),
+      accountNumberLabel: k.accountNumberLabel || String(t('donatePage.accountNumberLabel', locale)),
+      accountNumber: k.accountNumber || String(t('donatePage.accountNumber', locale)),
+      ifscLabel: k.ifscLabel || String(t('donatePage.ifscLabel', locale)),
+      ifsc: k.ifsc || String(t('donatePage.ifsc', locale)),
+      recurring: k.recurring || String(t('donatePage.recurring', locale)),
+      recurringLead: k.recurringLead || String(t('donatePage.recurringLead', locale)),
+      becomeMonthly: k.becomeMonthly || String(t('donatePage.becomeMonthly', locale))
+    };
+  })();
 
   return (
     <>
-      <PageLayout title={title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (typeof title !== 'undefined' ? title : '') }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (typeof page.title !== 'undefined' ? page.title : '') }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
         
-        <h2>{title}</h2>
-        <p>{lead}</p>
+        <h2>{page.title}</h2>
+        <p>{page.lead}</p>
         <section className="donation-wrapper">
 
-          <h3>{expansesTitle}</h3>
+          <h3>{page.expansesTitle}</h3>
 
           <div className="bg-white shadow-md rounded-xl overflow-auto">
             <table className="w-full border">
               <thead>
                 <tr>
-                  <th className="border p-2">{tableName}</th>
-                  <th className="border p-2">{tableExpanses}</th>
-                  <th className="border p-2">{tableDuration}</th>
-                  <th className="border p-2">{tableReasons}</th>
+                  <th className="border p-2">{page.tableName}</th>
+                  <th className="border p-2">{page.tableExpanses}</th>
+                  <th className="border p-2">{page.tableDuration}</th>
+                  <th className="border p-2">{page.tableReasons}</th>
                 </tr>
               </thead>
               <tbody>
-                {expenses.length > 0 ? (
-                  expenses.map((r: any, i: number) => (
+                {page.expenses.length > 0 ? (
+                  page.expenses.map((r: any, i: number) => (
                     <tr key={i}>
                       <td className="border p-2">{r.name}</td>
                       <td className="border p-2">{r.expanses}</td>
@@ -75,21 +80,21 @@ export default function DonatePage() {
             </table>
           </div>
 
-          <h4>{oneTime}</h4>
+          <h4>{page.oneTime}</h4>
           <div className="bg-white shadow-md rounded-xl">
-            <p>{oneTimeLead}</p>
+            <p>{page.oneTimeLead}</p>
             <PayPalButton link="https://www.paypal.com/ncp/payment/WYDY7465MG69" />
           </div>
 
-          <h5>{upiTitle}</h5>
+          <h5>{page.upiTitle}</h5>
           <div className="bg-white shadow-md rounded-xl">
             <div className="flex flex-col md:flex-row items-center justify-start gap-10">
               <ul role="list" className="list-disc">
-                <li>{upiLead}</li>
-                <li><strong>{upiLabel}</strong> {upiId}</li>
-                <li><strong>{accountNameLabel}</strong> {accountName}</li>
-                <li><strong>{accountNumberLabel}</strong> {accountNumber}</li>
-                <li><strong>{ifscLabel}</strong> {ifsc}</li>
+                <li>{page.upiLead}</li>
+                <li><strong>{page.upiLabel}</strong> {page.upiId}</li>
+                <li><strong>{page.accountNameLabel}</strong> {page.accountName}</li>
+                <li><strong>{page.accountNumberLabel}</strong> {page.accountNumber}</li>
+                <li><strong>{page.ifscLabel}</strong> {page.ifsc}</li>
               </ul>
               <b>(Or)</b>
               <figure>

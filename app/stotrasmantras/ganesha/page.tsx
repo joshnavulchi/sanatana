@@ -1,5 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, detectLocale } from '../../../lib/i18n';
+import { t, detectLocale, getMeta } from '../../../lib/i18n';
 
 import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
 
@@ -13,15 +13,29 @@ export default function Page({ searchParams }: any) {
 
   const S = (k: string) => String(t(k, locale));
 
-  const title = t('ganeshstotras.title', locale) || 'Ganesha Stotras';
+  const page: any = (() => {
+    const k: any = getMeta('stotrasmantras_ganesha', {}, locale) || {};
+    const parseList = (p: any) => {
+      if (Array.isArray(p)) return p;
+      if (!p) return [];
+      if (typeof p === 'string') {
+        try { const parsed = JSON.parse(p); return Array.isArray(parsed) ? parsed : []; } catch (e) { return []; }
+      }
+      return [];
+    };
+    return {
+      title: typeof k.title === 'string' ? k.title : String(t('ganeshstotras.title', locale) || 'Ganesha Stotras'),
+      items: Array.isArray(k.items) ? k.items : parseList(t('ganeshstotras.ganesh_stotras', locale))
+    };
+  })();
 
-  const items = t('ganeshstotras.ganesh_stotras', locale) || [];
+  const items = page.items || [];
 
   return (
     <>
-      <PageLayout title={title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (typeof title !== 'undefined' ? title : '') }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (page.title || '') }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
         
-        <h2>{title}</h2>
+        <h2>{page.title}</h2>
 
         {items.map((item: any, i: number) => (
           <section key={i}>

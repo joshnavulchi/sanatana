@@ -1,5 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, detectLocale } from '../../../lib/i18n';
+import { t, detectLocale, getMeta } from '../../../lib/i18n';
 
 import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
 
@@ -12,14 +12,20 @@ export default function Page({ searchParams }: any) {
 
   const S = (k: string) => String(t(k, locale));
 
-  const title = t('mahabharata.title', locale) || '';
+  const page: any = (() => {
+    const k: any = getMeta('scriptures_mahabharata', {}, locale) || {};
+    return {
+      title: typeof k.title === 'string' ? k.title : (t('mahabharata.title', locale) || ''),
+      structure: Array.isArray(k.structure) ? k.structure : (t('mahabharata.structure', locale) || [])
+    };
+  })();
 
   return (
     <>
       <main className="content-wrapper md page-space-xl">
         
-        <h2>{title}</h2>
-        {(t('mahabharata.structure', locale) || []).map((item: any, i: number) => (
+        <h2>{page.title}</h2>
+        {(page.structure || []).map((item: any, i: number) => (
           <div key={i}>
             {item.name ? <p>{item.parva}. {item.name}</p> : null}
             {item.summary ?
