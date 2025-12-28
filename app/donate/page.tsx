@@ -3,13 +3,13 @@ import Link from 'next/link';
 
 
 import { t, detectLocale } from '../../lib/i18n';
-import { createGenerateMetadata } from 'lib/pageUtils';
+import { createcreateGenerateMetadata } from 'lib/pageUtils';
 
 import PayPalButton from '../components/paypalbutton';
 import Image from 'next/image';
 import PageLayout from '@components/common/PageLayout';
 
-export const generateMetadata = createGenerateMetadata('donate');
+export const generateMetadata = createcreateGenerateMetadata('donate');
 
 export default function DonatePage() {
   const locale = detectLocale();

@@ -4,11 +4,11 @@ import { t, detectLocale, getLocaleObject } from '../../../lib/i18n';
 
 import PageLayout from '@components/common/PageLayout';
 
-import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
+import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from '../../../lib/pageUtils';
 
 
 
-export const generateMetadata = createGenerateMetadata('philosophy_samsara');
+export const generateMetadata = createcreateGenerateMetadata('philosophy_samsara');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();

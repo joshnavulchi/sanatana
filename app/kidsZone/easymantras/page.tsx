@@ -5,7 +5,7 @@ import { getMeta, detectLocale, t } from '../../../lib/i18n';
 
 import PageLayout from '@components/common/PageLayout';
 
-export async function generateMetadata(props: any) {
+export async function createGenerateMetadata(props: any) {
   const { searchParams } = props || {};
   const locale = await detectLocale(searchParams);
 

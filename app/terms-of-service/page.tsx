@@ -1,10 +1,10 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale } from '../../lib/i18n';
 
-import { createGenerateMetadata } from 'lib/pageUtils';
+import { createcreateGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
 
-export const generateMetadata = createGenerateMetadata('terms');
+export const generateMetadata = createcreateGenerateMetadata('terms');
 
 export default async function TermsOfService() {
   const locale = await detectLocale();

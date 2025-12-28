@@ -1,13 +1,13 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 
 import { detectLocale, t } from '../../lib/i18n';
-import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
+import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
 
 import PageLayout from '@components/common/PageLayout';
 
 
 
-export const generateMetadata = createGenerateMetadata('our-cookie-policy');
+export const generateMetadata = createcreateGenerateMetadata('our-cookie-policy');
 export default function CookiePolicyPage({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
 

@@ -2,12 +2,12 @@
 
 import { t, detectLocale } from '../../../../lib/i18n';
 
-import { createGenerateMetadata } from 'lib/pageUtils';
+import { createcreateGenerateMetadata } from 'lib/pageUtils';
 
 import PageLayout from '@components/common/PageLayout';
 
 
-export const generateMetadata = createGenerateMetadata('scriptures_vedas_samaveda');
+export const generateMetadata = createcreateGenerateMetadata('scriptures_vedas_samaveda');
 export default function SamavedaPage() {
   const locale = detectLocale();
 

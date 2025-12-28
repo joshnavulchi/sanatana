@@ -4,10 +4,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://sanatanadharmam.in
 // Ensure this app route is treated as static for `next export`.
 export const dynamic = "force-static";
 
-import { SUPPORTED_LOCALES } from '../../lib/i18n';
 import { PATHS } from '../../lib/sitemapPaths';
+import localesList from '../../lib/localesList.json';
 
-const LOCALES = SUPPORTED_LOCALES;
+// Derive available locale codes from lib/localesList.json; fall back to English
+const LOCALES: string[] = (Array.isArray(localesList) ? localesList.map((l: any) => l.code).filter(Boolean) : ['en']);
 
 export async function GET() {
   const hostname = SITE_URL.replace(/\/$/, '');

@@ -9,7 +9,7 @@ import path from 'path';
 import Image from 'next/image';
 import Link from 'next/link';
 
-export async function generateMetadata(props: any) {
+export async function createGenerateMetadata(props: any) {
   const { params, searchParams } = props || {};
   const locale = await detectLocale(searchParams);
 

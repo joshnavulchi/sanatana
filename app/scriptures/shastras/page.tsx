@@ -3,10 +3,10 @@ import Link from 'next/link';
 
 
 import { t, detectLocale } from '../../../lib/i18n';
-import { createGenerateMetadata } from 'lib/pageUtils';
+import { createcreateGenerateMetadata } from 'lib/pageUtils';
 
 
-export const generateMetadata = createGenerateMetadata('shastras');
+export const generateMetadata = createcreateGenerateMetadata('shastras');
 
 export default async function ShastrasPage() {
   const locale = await detectLocale();

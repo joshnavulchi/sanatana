@@ -9,9 +9,9 @@
   --color-black: #000000;
   --color--deep-blue: #162039;
 
-  /* Font families */
-  --font-heading: "Noto Serif", "Merriweather", Georgia, serif;
-  --font-body: "Inter", "Noto Sans", system-ui, sans-serif;
+  /* Font families: Playfair primary, Poppins secondary, then generic sans-serif */
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Poppins", sans-serif;
 
   /* Colors */
   --color-text: #1a1a1a;

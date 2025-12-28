@@ -4,11 +4,11 @@ import Image from 'next/image';
 import ContactForm from '../components/contact/ContactForm';
 
 import { t, detectLocale } from '../../lib/i18n';
-import { createGenerateMetadata } from 'lib/pageUtils';
+import { createcreateGenerateMetadata } from 'lib/pageUtils';
 
 import PageLayout from '@components/common/PageLayout';
 
-export const generateMetadata = createGenerateMetadata('contact');
+export const generateMetadata = createcreateGenerateMetadata('contact');
 
 export default async function ContactPage() {
   const locale = await detectLocale();

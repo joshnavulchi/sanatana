@@ -1,10 +1,10 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { detectLocale, t } from '../../../lib/i18n';
 
-import { createGenerateMetadata } from 'lib/pageUtils';
+import { createcreateGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
 
-export const generateMetadata = createGenerateMetadata('stotrasmantras_shiva');
+export const generateMetadata = createcreateGenerateMetadata('stotrasmantras_shiva');
 export default async function Page() {
   const locale = await detectLocale({});
 

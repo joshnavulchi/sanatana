@@ -1,12 +1,12 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, getMeta, DEFAULT_LOCALE, detectLocale, getLocaleObject } from '@/lib/i18n';
 
-import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
+import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
 import Link from 'next/link';
 
 import PageArticleJsonLd from '@components/structured-data/PageArticleJsonLd';
 
-export const generateMetadata = createGenerateMetadata('puranas_slug');
+export const generateMetadata = createcreateGenerateMetadata('puranas_slug');
 
 export function generateStaticParams() {
   try {

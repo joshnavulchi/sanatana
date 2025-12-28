@@ -8,9 +8,39 @@ const fs = require('fs');
 const path = require('path');
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://sanatanadharmam.in';
-const LOCALES = [
-  'en','hi','ta','te','kn','ml','mr','bn','gu','pa','or','as','ur','sa','ru','fr','nl','de','ja','zh','es'
-];
+// Derive locales from lib/localesList.json when present; fall back to English-only.
+function loadLocales() {
+  try {
+    const listPath = path.join(process.cwd(), 'lib', 'localesList.json');
+    if (fs.existsSync(listPath)) {
+      const raw = fs.readFileSync(listPath, 'utf8');
+      const parsed = JSON.parse(raw);
+      return (Array.isArray(parsed) ? parsed.map((o) => o.code).filter(Boolean) : ['en']);
+    }
+  } catch (err) {
+    // ignore and fall back
+  }
+  return ['en'];
+}
+
+const LOCALES = loadLocales();
+
+// Optional: allow excluding unwanted paths via lib/sitemapExclude.json
+function loadExcludes() {
+  try {
+    const p = path.join(process.cwd(), 'lib', 'sitemapExclude.json');
+    if (fs.existsSync(p)) {
+      const raw = fs.readFileSync(p, 'utf8');
+      const arr = JSON.parse(raw);
+      if (Array.isArray(arr)) return new Set(arr);
+    }
+  } catch (err) {
+    // ignore
+  }
+  return new Set();
+}
+
+const EXCLUDES = loadExcludes();
 
 function readPaths() {
   const p = path.join(process.cwd(), 'lib', 'sitemapPaths.ts');
@@ -34,6 +64,7 @@ function buildSitemap(paths) {
   let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
   xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n';
   for (const p of paths) {
+    if (EXCLUDES.has(p)) continue;
     xml += '  <url>\n';
     const loc = `${hostname}${p === '/' ? '' : p}`;
     xml += `    <loc>${loc}</loc>\n`;

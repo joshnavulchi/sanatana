@@ -1,12 +1,12 @@
 import QuizClient from './QuizClient';
 
 import { detectLocale, t } from '@/lib/i18n';
-import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
+import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
 
 
 import PageLayout from '@components/common/PageLayout';
 
-export const generateMetadata = createGenerateMetadata('kidsZone_mythologicalquizzes');
+export const generateMetadata = createcreateGenerateMetadata('kidsZone_mythologicalquizzes');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();

@@ -1,7 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t } from '../../lib/i18n';
 
-import { createGenerateMetadata } from 'lib/pageUtils';
+import { createcreateGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
 
 type TimelinePoint = {
@@ -15,7 +15,7 @@ type TimelinePoint = {
 };
 
 
-export const generateMetadata = createGenerateMetadata('timelapse');
+export const generateMetadata = createcreateGenerateMetadata('timelapse');
 export default function TimelapsePage() {
   const S = (k: string) => String(t(k));
 

@@ -85,6 +85,14 @@ jobs:
       - name: Build (static export) and capture logs
         env:
           NEXT_STATIC_EXPORT: 'true'
+          # Inject public-facing build-time secrets from repository secrets so
+          # the generated HTML contains configured GA/GTM script blocks.
+          NEXT_PUBLIC_GA_ID: ${{ secrets.NEXT_PUBLIC_GA_ID }}
+          NEXT_PUBLIC_GA_MEASUREMENT_ID: ${{ secrets.NEXT_PUBLIC_GA_MEASUREMENT_ID }}
+          NEXT_PUBLIC_GTM_ID: ${{ secrets.NEXT_PUBLIC_GTM_ID }}
+          NEXT_PUBLIC_SITE_URL: ${{ secrets.NEXT_PUBLIC_SITE_URL }}
+          # Optional flags used by local build/export scripts
+          NEXT_PUBLIC_INCLUDE_SCSS: 'true'
         run: |
           set -eo pipefail
           mkdir -p logs
