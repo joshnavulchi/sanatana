@@ -38,6 +38,16 @@
   .content-wrapper {
     padding-left: var(--space-lg);
     padding-right: var(--space-lg);
+    &.sanatana-dharma,
+    &.ourfour-coreyugas {
+      padding-top: calc(var(--space-2xl) * 1.2);
+      padding-bottom: calc(var(--space-2xl) * 1.2);
+    }
+    &.krishna-stotram,
+    &.gayathri-stotram {
+      padding-top: calc(var(--space-2xl) * 2);
+      padding-bottom: calc(var(--space-2xl) * 2);
+    }
   }
   .social-icons {
     padding-bottom: 0;

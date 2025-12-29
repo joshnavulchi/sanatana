@@ -1,7 +1,20 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 .main-slider {
   .slider-content {
-    padding: var(--space-xl) var(--space-sm);
+    padding-right: var(--space-sm);
+    padding-left: var(--space-sm);
+  }
+  .slider-top {
+    padding-top: var(--space-2xl);
+  }
+  .slider-bottom {
+    padding-bottom: var(--space-3xl);
+  }
+  .slider-top-0 {
+    padding-top: 0;
+  }
+  .slider-bottom-0 {
+    padding-bottom: 0;
   }
   .title {
     font-size: 2rem;

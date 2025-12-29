@@ -90,7 +90,7 @@ export default function MainSlider() {
               </div>
             ) : ''}
             {slide.sankritTitle && heroSubtitles && (
-              <div className={`slider-content relative md:absolute ${slide.placementImage === 'left' ? 'md:right-0' : 'md:left-0'} md:w-2/3 md:z-10`}>
+              <div className={`slider-content relative md:absolute ${slide.placementImage === 'left' ? 'md:right-0 slider-bottom slider-top-0' : 'md:left-0 slider-top slider-bottom-0'} md:w-2/3 md:z-10`}>
                 <p className="title font-semibold!">{slide.sankritTitle}</p>
                 <p>{slide.englishTitle}</p>
                 <p>{slide.subtitle}</p>
