@@ -90,15 +90,15 @@ export default function MainSlider() {
               </div>
             ) : ''}
             {slide.sankritTitle && heroSubtitles && (
-              <div className={`slider-content relative md:absolute ${slide.placementImage === 'left' ? 'md:right-0' : 'md:left-0'} md:w-2/3 md:z-10`}>
-                <h2 className="text-2xl/8! md:text-3xl/10! font-semibold!">{slide.sankritTitle}</h2>
-                <p className="text-md!">{slide.englishTitle}</p>
-                <p className="text-md!">{slide.subtitle}</p>
+              <div className={`slider-content relative md:absolute ${slide.placementImage === 'left' ? 'md:right-0 slider-bottom slider-top-0' : 'md:left-0 slider-top slider-bottom-0'} md:w-2/3 md:z-10`}>
+                <p className="title font-semibold!">{slide.sankritTitle}</p>
+                <p>{slide.englishTitle}</p>
+                <p>{slide.subtitle}</p>
                 <div className="mt-10 flex flex-row gap-4">
-                  <Link href="/scriptures/gita" className="button inline-block rounded-md! shadow-sm bg-amber-300 hover:bg-amber-400 no-underline">
+                  <Link href="/scriptures/gita" className="button inline-block shadow-sm bg-amber-300 hover:bg-amber-400 no-underline">
                     {heroButtons.explore}
                   </Link>
-                  <Link href="/stotrasmantras/shiva" className="button inline-block rounded-md! shadow-sm bg-white/75 hover:bg-white no-underline">
+                  <Link href="/stotrasmantras/shiva" className="button inline-block shadow-sm bg-white/75 hover:bg-white no-underline">
                     {heroButtons.learnMore}
                   </Link>
                 </div>
@@ -110,8 +110,8 @@ export default function MainSlider() {
             ) : ''}
           </div>
         ))}
-        <button onClick={prevSlide} className="absolute z-20 left-4 top-1/2 -translate-y-1/2 bg-amber-400 hover:bg-amber-200 no-underline rounded-md! shadow-md cursor-pointer">&#8592;</button>
-        <button onClick={nextSlide} className="absolute z-20 right-4 top-1/2 -translate-y-1/2 bg-amber-400 hover:bg-amber-200 no-underline rounded-md! shadow-md cursor-pointer">&#8594;</button>
+        <button onClick={prevSlide} className="absolute z-20 left-4 top-1/2 -translate-y-1/2 bg-amber-400 hover:bg-amber-200 no-underline  shadow-md cursor-pointer">&#8592;</button>
+        <button onClick={nextSlide} className="absolute z-20 right-4 top-1/2 -translate-y-1/2 bg-amber-400 hover:bg-amber-200 no-underline  shadow-md cursor-pointer">&#8594;</button>
       </div>
       <div className="slider-dots absolute z-20 left-0 bottom-10 w-full text-center flex justify-center gap-2">
         {slides.map((_: any, idx: number) => (

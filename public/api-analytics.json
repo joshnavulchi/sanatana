@@ -13,7 +13,7 @@
     "app/components/contact/ContactForm.tsx",
     "app/components/cookie-consent/CookieConsent.tsx",
     "app/components/cookie-consent/CookiePreferencesModal.tsx",
-    "app/components/cta/cta.tsx",
+    "app/components/git-support/git-support.tsx",
     "app/components/footer/footer.tsx",
     "app/components/gayathri-stotram/gayathristotram.tsx",
     "app/components/header/header.tsx",

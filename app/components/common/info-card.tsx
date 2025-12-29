@@ -31,7 +31,7 @@ export default function InfoCard({ src, alt, captionKey, width = 400, height = 3
           )}
           {/* Image */}
           <Image src={src} alt={alt} width={width} height={height} onLoad={() => setLoading(false)} />
-          <figcaption className="text-sm text-center mt-2">{t(captionKey)}</figcaption>
+          <figcaption className="text-center">{t(captionKey)}</figcaption>
         </figure>
       </Link>
     </div>
