@@ -37,7 +37,7 @@ export default function Breadcrumbs({ items, locale }: { items: CrumbInput[]; lo
             ) : (
               <span>{it.label}</span>
             )}
-            {idx < normalized.length - 1 && <span> / </span>}
+            {idx < normalized.length - 1 && <span className="inline-block mx-2">/</span>}
           </li>
         ))}
       </ul>

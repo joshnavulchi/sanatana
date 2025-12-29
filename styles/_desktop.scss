@@ -22,7 +22,10 @@
   p {
     font-size: 1rem;
   }
-  small, .small, .meta { font-size: 0.75rem; }
+  ul, ol {
+    font-size: 1rem;
+  }
+  small, .small, .meta { font-size: 0.8rem; }
   header {
     .logo-title-nav-wrapper {
       padding: var(--space-xs) var(--space-xl);
@@ -77,6 +80,26 @@
     }
     .social-icons { padding: 0; }
     .copyrights small {padding: var(--space-lg) 0; }
+    p { font-size: 0.95rem }
+    a:not(.button) { font-size: 0.9rem; }
+  }
+  .card {
+    article {
+      padding: var(--space-sm);
+    }
+    .card-details {
+      .title {
+        font-size: 1rem;
+      }
+      .description {
+        font-size: 0.9rem;
+      }
+    }
+  }
+  .sankshepa-slokas {
+    p:first-child {
+      font-size: 1.4rem;
+    }
   }
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

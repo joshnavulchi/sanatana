@@ -11,7 +11,7 @@ export default async function Page({ searchParams }: any) {
     <>
       <PageLayout title={S('illustratedStories.title')} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: String(t('illustratedStories.title')) }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
         <p>{S('illustratedStories.description')}</p>
-        <div className="card grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
+        <div className="card grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-6">
           {(t('illustratedStories.kids_indian_stories', locale) as any[]).map((s: any) => (
             <article key={s.id} className="h-full  shadow hover:shadow-lg transform hover:-translate-y-1 transition flex flex-col">
               <div className="relative w-full h-44 rounded-md overflow-hidden">
