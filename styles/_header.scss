@@ -32,8 +32,9 @@ header {
     font-size: 0.9rem;
   }
   .mobile-primary-menu { padding-top: var(--space-sm); }
-  .mobile-primary-menu button { margin-left: 0; }
+  .mobile-primary-menu button { margin-left: 0; font-size: 1.2rem }
   .mobile-primary-submenu { padding-left: var(--space-lg); }
+  .mobile-primary-submenu a { font-size: 1.2rem; }
   .nav-primary-submenu {
     margin: 0;
     padding: 0;

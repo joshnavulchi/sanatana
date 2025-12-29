@@ -2,28 +2,28 @@
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
 export const generateMetadata = createcreateGenerateMetadata('scriptures_sanksheparamayana');
+import PageLayout from '@components/common/PageLayout';
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
-    const k: any = getMeta('scriptures_sanksheparamayana', {}, locale) || {};
     const loc: any = getLocaleObject(locale) || {};
     const ram = loc?.sanksheparamayana || {};
     return {
-      title: typeof k.title === 'string' ? k.title : (ram.title || t('sanksheparamayana.title', locale) || ''),
-      author: k.source || ram.source || '',
-      description: k.description || (typeof ram.description === 'string' ? ram.description : (ram.description && typeof ram.description === 'object' ? (ram.description[locale] || ram.description['translate']) : '')),
-      main_characters: Array.isArray(k.main_characters) ? k.main_characters : (Array.isArray(ram.main_characters) ? ram.main_characters : []),
-      important_places: Array.isArray(k.important_places) ? k.important_places : (Array.isArray(ram.important_places) ? ram.important_places : []),
-      timeline: Array.isArray(k.timeline) ? k.timeline : (Array.isArray(ram.timeline) ? ram.timeline : []),
-      core_themes: Array.isArray(k.core_themes) ? k.core_themes : (Array.isArray(ram.core_themes) ? ram.core_themes : []),
-      slokas: Array.isArray(k.slokas) ? k.slokas : (Array.isArray(ram.slokas) ? ram.slokas : [])
+      title: ram.title || '',
+      author: ram.author || '',
+      source: ram.source || '',
+      description: ram.description || '',
+      main_characters: Array.isArray(ram.main_characters) ? ram.main_characters : [],
+      important_places: Array.isArray(ram.important_places) ? ram.important_places : [],
+      timeline: ram.timeline || [],
+      core_themes: ram.core_themes || [],
+      slokas: ram.slokas || []
     };
   })();
   return (
     <>
-      <main className="content-wrapper md page-space-xl">
-        <h2>{page.title}</h2>
+      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
         <p><strong>Source: </strong>{page.author} - {page.description ? <span>{page.description}</span> : null}</p>
         {/* Structured display of all ramayana fields */}
         <div>
@@ -78,14 +78,16 @@ export default function Page({ searchParams }: any) {
             </div>
           )}
           {/* Sankshepa ramayanam and slokas */}
-          {page.slokas && page.slokas.map((s: any) => (
-            <div key={s.sloka}>
-              <p className="font-semibold text-center">{s.sanskrit}</p>
-              <p>{s.english}</p>
-            </div>
-          ))}
+          <div className="sankshepa-slokas">
+            {page.slokas && page.slokas.map((s: any) => (
+              <div key={s.sloka}>
+                <p className="font-semibold text-center">{s.sanskrit}</p>
+                <p className="text-center">{s.english}</p>
+              </div>
+            ))}
+          </div>
         </div>
-      </main>
+      </PageLayout>
     </>
   );
 }

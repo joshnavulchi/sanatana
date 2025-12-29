@@ -13,5 +13,6 @@ footer {
   .nav-wrapper { padding-top: var(--space-lg); padding-bottom: var(--space-lg); }
   .social-icons { padding: var(--space-lg) 0; }
   .copyrights small { display: inline-block; padding: var(--space-md) 0; }
-  a:not(.button) { font-size: 0.8rem; color: var(--color-white); }
+  p { font-size: 1.4rem }
+  a:not(.button) { font-size: 1.2rem; color: var(--color-white); }
 }
