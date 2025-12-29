@@ -162,16 +162,15 @@ export default function CookieConsent() {
   return (
     <>
       <CookiePreferencesModal open={modalOpen} onClose={() => setModalOpen(false)} onSave={savePrefs} initial={prefs ?? {}} />
-
-      <div className="fixed bottom-4 left-4 right-4 z-40">
-        <div className="bg-white border rounded shadow-md flex flex-col md:flex-row items-start md:items-center gap-4">
+      <div className="cookies-wrapper fixed bottom-4 left-4 right-4 z-40">
+        <div className="bg-white border rounded shadow-md flex flex-col items-start md:items-center gap-4">
           <div className="flex-1">
             {(() => {
               const loc = DEFAULT_LOCALE; // paragraph will be rendered via `t()` below which uses current locale from context
               const paragraph = t('cookieConsent.paragraph') as string;
               // Replace placeholders with links
               return (
-                <span dangerouslySetInnerHTML={{
+                <small dangerouslySetInnerHTML={{
                   __html: paragraph
                     .replace('{cookiePolicyLink}', `<a class="underline" href="/our-cookie-policy">${t('cookieConsent.cookiePolicy')}</a>`)
                     .replace('{privacyPolicyLink}', `<a class="underline" href="/our-privacy-policy">${t('cookieConsent.privacyPolicy')}</a>`)
@@ -182,9 +181,9 @@ export default function CookieConsent() {
             })()}
           </div>
 
-          <div className="flex gap-4">
-            <button className="border rounded" onClick={() => setModalOpen(true)}>{t('cookieConsent.managerButton')}</button>
-            <button className="bg-green-300 hover:bg-green-400 rounded" onClick={acceptAll}>{t('cookieConsent.acceptAll')}</button>
+          <div className="flex text-right gap-2">
+            <button className="button inline-block shadow-sm bg-amber-400 hover:bg-amber-200 no-underline" onClick={() => setModalOpen(true)}>{t('cookieConsent.managerButton')}</button>
+            <button className="button inline-block shadow-sm bg-green-400 hover:bg-green-200 no-underline" onClick={acceptAll}>{t('cookieConsent.acceptAll')}</button>
           </div>
         </div>
       </div>

@@ -46,25 +46,29 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
   }
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center">
-      <div className="w-full content-wrapper ">
-        <div className="flex justify-between items-center">
-          <h3>Cookie Preference Manager</h3>
-          <button aria-label="close" onClick={onClose}>✕</button>
+    <div className="cookies-preference-wrapper fixed inset-0 z-50 flex items-center justify-center">
+      <div className="bg-white border rounded shadow-md flex flex-col items-center gap-2">
+        <div className="w-full flex items-start justify-between">
+          <b>Cookie Preference Manager</b>
+          <button className="button inline-block shadow-sm bg-amber-400 hover:bg-amber-200 no-underline" aria-label="close" onClick={onClose}>✕</button>
         </div>
 
         <div className="flex gap-4">
           <nav role="menu" className="w-1/3">
-            {TABS.map(t => (
-              <button key={t.id} onClick={() => setActive(t.id)} >
-                {t.title}
-              </button>
-            ))}
+            <ul>
+              {TABS.map((t, idx) => (
+                <li key={idx}>
+                  <button className="button inline-block shadow-sm bg-amber-400 hover:bg-amber-200 no-underline" onClick={() => setActive(t.id)} >
+                    {t.title}
+                  </button>
+                </li>
+              ))}
+            </ul>
           </nav>
 
           <div className="w-2/3">
             <div>
-              <h4>{TABS.find(t => t.id === active)?.title}</h4>
+              <p>{TABS.find(t => t.id === active)?.title}</p>
               <p>{TABS.find(t => t.id === active)?.description}</p>
             </div>
 
@@ -105,10 +109,10 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
             )}
 
             <div>
-              <div>
-                <button onClick={onClose}>Cancel</button>
-                <button onClick={save}>Save preferences</button>
-                <button onClick={acceptAll}>Accept all</button>
+              <div className="flex gap-2">
+                <button className="button inline-block shadow-sm bg-amber-400 hover:bg-amber-200 no-underline" onClick={onClose}>Cancel</button>
+                <button className="button inline-block shadow-sm bg-amber-400 hover:bg-amber-200 no-underline" onClick={save}>Save preferences</button>
+                <button className="button inline-block shadow-sm bg-green-400 hover:bg-green-200 no-underline" onClick={acceptAll}>Accept all</button>
               </div>
             </div>
           </div>

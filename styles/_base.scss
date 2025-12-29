@@ -97,4 +97,18 @@ button,
     padding: var(--space-xs)
   }
 }
+
+.cookies-wrapper,
+.cookies-preference-wrapper {
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  > div {
+    padding: var(--space-md) var(--space-lg);
+  }
+  button {
+    font-size: 0.7rem;
+  }
+}
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
