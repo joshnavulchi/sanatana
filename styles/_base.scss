@@ -107,6 +107,9 @@ button,
   > div {
     padding: var(--space-md) var(--space-lg);
   }
+  .buttons-group {
+    margin-top: var(--space-md);
+  }
   button {
     font-size: 0.7rem;
   }

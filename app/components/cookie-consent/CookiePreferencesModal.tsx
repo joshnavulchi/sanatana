@@ -53,8 +53,8 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
           <button className="button inline-block shadow-sm bg-amber-400 hover:bg-amber-200 no-underline" aria-label="close" onClick={onClose}>✕</button>
         </div>
 
-        <div className="flex gap-4">
-          <nav role="menu" className="w-1/3">
+        <div className="md:mx-auto md:min-w-5xl md:flex md:gap-4">
+          <nav role="menu" className="w-full md:w-1/4">
             <ul>
               {TABS.map((t, idx) => (
                 <li key={idx}>
@@ -66,34 +66,32 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
             </ul>
           </nav>
 
-          <div className="w-2/3">
+          <div className="w-full md:w-3/4">
+            <b>{TABS.find(t => t.id === active)?.title}</b>
             <div>
-              <p>{TABS.find(t => t.id === active)?.title}</p>
-              <p>{TABS.find(t => t.id === active)?.description}</p>
+              <small>{TABS.find(t => t.id === active)?.description}</small>
             </div>
 
             {active === 'your-privacy' && (
               <div>
-                <p>We use cookies to help improve the site, analyze traffic, and serve personalized content when you consent.</p>
+                <small>We use cookies to help improve the site, analyze traffic, and serve personalized content when you consent.</small>
               </div>
             )}
 
             {active === 'strictly-necessary' && (
               <div>
-                <p>These cookies are essential for basic site operation and cannot be declined.</p>
-                <div>
-                  <label>
-                    <input type="checkbox" checked disabled />
-                    <span>Strictly necessary (always enabled)</span>
-                  </label>
-                </div>
+                <small>These cookies are essential for basic site operation and cannot be declined.</small>
+                <label>
+                  <input type="checkbox" checked disabled />
+                  <span>Strictly necessary (always enabled)</span>
+                </label>
               </div>
             )}
 
             {active !== 'your-privacy' && active !== 'strictly-necessary' && (
-              <div>
-                <div>
-                  <p>Enable {TABS.find(t => t.id === active)?.title}</p>
+              <>
+                <small>Enable {TABS.find(t => t.id === active)?.title}</small>
+                <div className="flex gap-2">
                   <label>
                     <input
                       type="checkbox"
@@ -103,17 +101,14 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
                       onChange={() => toggle(active === 'functionality' ? 'functionality' : active === 'performance' ? 'performance' : 'targeting')}
                     />
                   </label>
+                  <small>You can change this later by opening the Cookie Preference Manager.</small>
                 </div>
-                <p>You can change this later by opening the Cookie Preference Manager.</p>
-              </div>
+              </>
             )}
-
-            <div>
-              <div className="flex gap-2">
-                <button className="button inline-block shadow-sm bg-amber-400 hover:bg-amber-200 no-underline" onClick={onClose}>Cancel</button>
-                <button className="button inline-block shadow-sm bg-amber-400 hover:bg-amber-200 no-underline" onClick={save}>Save preferences</button>
-                <button className="button inline-block shadow-sm bg-green-400 hover:bg-green-200 no-underline" onClick={acceptAll}>Accept all</button>
-              </div>
+            <div className="buttons-group flex gap-2">
+              <button className="button inline-block shadow-sm bg-amber-400 hover:bg-amber-200 no-underline" onClick={onClose}>Cancel</button>
+              <button className="button inline-block shadow-sm bg-amber-400 hover:bg-amber-200 no-underline" onClick={save}>Save preferences</button>
+              <button className="button inline-block shadow-sm bg-green-400 hover:bg-green-200 no-underline" onClick={acceptAll}>Accept all</button>
             </div>
           </div>
         </div>
