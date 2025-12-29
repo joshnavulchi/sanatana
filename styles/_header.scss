@@ -2,6 +2,10 @@
 .notifiction-bar {
   line-height: 1;
   padding: var(--space-xs) 0 var(--space-xxs);
+
+  .small {
+    color: var(--color-title);
+  }
 }
 header {
   background-color: var(--color-bg);

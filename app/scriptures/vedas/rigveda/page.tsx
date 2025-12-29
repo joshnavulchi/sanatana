@@ -1,18 +1,11 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-
 import { t, detectLocale, getMeta } from '../../../../lib/i18n';
-
 import { createcreateGenerateMetadata } from 'lib/pageUtils';
-
 import PageLayout from '@components/common/PageLayout';
-
-
 export const generateMetadata = createcreateGenerateMetadata('scriptures_vedas_rigveda');
 export default function RigvedaPage() {
   const locale = detectLocale();
-
   const S = (k: string) => String(t(k, locale));
-
   const page: any = (() => {
     const k: any = getMeta('scriptures_vedas_rigveda', {}, locale) || {};
     return {
@@ -22,7 +15,6 @@ export default function RigvedaPage() {
       content: typeof k.content === 'string' ? k.content : String(t('rigveda.content', locale) || '')
     };
   })();
-
   return (
     <>
       <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>

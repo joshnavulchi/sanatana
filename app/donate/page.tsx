@@ -1,22 +1,15 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import Link from 'next/link';
-
-
 import { t, detectLocale, getMeta } from '../../lib/i18n';
 import { parseList } from 'lib/parseList';
 import { createcreateGenerateMetadata } from 'lib/pageUtils';
-
 import PayPalButton from '../components/paypalbutton';
-import Image from 'next/image';
 import PageLayout from '@components/common/PageLayout';
-
+import Link from 'next/link';
+import Image from 'next/image';
 export const generateMetadata = createcreateGenerateMetadata('donate');
-
 export default function DonatePage() {
   const locale = detectLocale();
-
   const S = (k: string) => String(t(k, locale));
-
   const page: any = (() => {
     const k: any = getMeta('donate', {}, locale) || {};
     return {
@@ -45,17 +38,13 @@ export default function DonatePage() {
       becomeMonthly: k.becomeMonthly || String(t('donatePage.becomeMonthly', locale))
     };
   })();
-
   return (
     <>
       <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (typeof page.title !== 'undefined' ? page.title : '') }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
-        
         <h2>{page.title}</h2>
         <p>{page.lead}</p>
         <section className="donation-wrapper">
-
           <h3>{page.expansesTitle}</h3>
-
           <div className="bg-white shadow-md rounded-xl overflow-auto">
             <table className="w-full border">
               <thead>
@@ -80,13 +69,11 @@ export default function DonatePage() {
               </tbody>
             </table>
           </div>
-
           <h4>{page.oneTime}</h4>
           <div className="bg-white shadow-md rounded-xl">
             <p>{page.oneTimeLead}</p>
             <PayPalButton link="https://www.paypal.com/ncp/payment/WYDY7465MG69" />
           </div>
-
           <h5>{page.upiTitle}</h5>
           <div className="bg-white shadow-md rounded-xl">
             <div className="flex flex-col md:flex-row items-center justify-start gap-10">
@@ -103,7 +90,6 @@ export default function DonatePage() {
               </figure>
             </div>
           </div>
-
           <div className="bg-white shadow-md hidden">
             <p>{S('donatePage.recurring')}</p>
             <p>{S('donatePage.recurringLead')}</p>

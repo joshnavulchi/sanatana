@@ -5,13 +5,10 @@ import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/page
 import Image from 'next/image';
 import Link from 'next/link';
 const en = locales.en;
-
 export const generateMetadata = createcreateGenerateMetadata('scriptures_bhagavadgita');
-
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
-
   const page: any = (() => {
     const k: any = getMeta('scriptures_bhagavadgita', {}, locale) || {};
     const chapters = (k.chapters && Array.isArray(k.chapters)) ? k.chapters : parseList(t('bhagavadgita.chapters', locale));

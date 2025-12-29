@@ -1,18 +1,11 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import Link from 'next/link';
-
-
 import { t, detectLocale, getMeta } from '../../../lib/i18n';
 import { createcreateGenerateMetadata } from 'lib/pageUtils';
-
-
+import Link from 'next/link';
 export const generateMetadata = createcreateGenerateMetadata('shastras');
-
 export default async function ShastrasPage() {
   const locale = await detectLocale();
-
   const S = (k: string) => String(t(k, locale));
-
   const page: any = (() => {
     const k: any = getMeta('shastras', {}, locale) || {};
     return {
@@ -29,15 +22,12 @@ export default async function ShastrasPage() {
       influenceText: typeof k.influenceText === 'string' ? k.influenceText : String(t('shastrasPage.influenceText', locale) || '')
     };
   })();
-
   return (
     <>
       <main className="content-wrapper md page-space-xl">
         <div>
-          
           <h2>{page.title}</h2>
           <p>{page.intro}</p>
-
           <section>
             <h3>{page.sectionsTitle}</h3>
             <ul role="list" className="list-disc">
@@ -47,7 +37,6 @@ export default async function ShastrasPage() {
               <li><Link href="/shastras/natya">{page.sections.natya}</Link></li>
             </ul>
           </section>
-
           <section>
             <h4>{page.influenceTitle}</h4>
             <p>{page.influenceText}</p>
