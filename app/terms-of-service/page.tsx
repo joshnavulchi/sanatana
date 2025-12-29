@@ -1,15 +1,11 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getMeta } from '../../lib/i18n';
-
 import { createcreateGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-
 export const generateMetadata = createcreateGenerateMetadata('terms-of-service');
-
 export default async function TermsOfService({ searchParams }: any) {
   const locale = await detectLocale(searchParams);
   const S = (k: string) => String(t(k, locale));
-
   const page: any = (() => {
     const k: any = getMeta('terms', {}, locale) || {};
     const get = (p: string) => (typeof k[p] === 'string' ? k[p] : String(t(p, locale)));
@@ -57,10 +53,8 @@ export default async function TermsOfService({ searchParams }: any) {
         <p>
           <strong>{page.lastUpdated}</strong> {page.lastUpdated}
         </p>
-
         <h3>{page.acceptanceTitle}</h3>
         <p>{page.intro}</p>
-
         <h4>{page.useLicenseTitle}</h4>
         <p>{page.useLicenseText}</p>
         <ul role="list" className="list-disc">
@@ -70,10 +64,8 @@ export default async function TermsOfService({ searchParams }: any) {
           <li>{(page.useLicenseList && page.useLicenseList.reverseEngineering) || S('terms.useLicenseList.reverseEngineering')}</li>
           <li>{(page.useLicenseList && page.useLicenseList.interfering) || S('terms.useLicenseList.interfering')}</li>
         </ul>
-
         <h5>{page.intellectualTitle}</h5>
         <p>{page.intellectualText}</p>
-
         <h6>{page.userConductTitle}</h6>
         <p>{page.userConductIntro}</p>
         <ul role="list" className="list-disc">
@@ -84,7 +76,6 @@ export default async function TermsOfService({ searchParams }: any) {
           <li>{(page.userConductList && page.userConductList.spam) || S('terms.userConductList.spam')}</li>
           <li>{(page.userConductList && page.userConductList.bypass) || S('terms.userConductList.bypass')}</li>
         </ul>
-
         <p>{page.disclaimerTitle}</p>
         <p>{page.disclaimerText}</p>
         <ul role="list" className="list-disc">
@@ -94,33 +85,24 @@ export default async function TermsOfService({ searchParams }: any) {
           <li>{(page.disclaimerList && page.disclaimerList.quality) || S('terms.disclaimerList.quality')}</li>
         </ul>
         <p>{page.disclaimerClosing}</p>
-
         <p>{page.liabilityTitle}</p>
         <p>{page.liabilityText}</p>
-
         <p>{page.externalLinksTitle}</p>
         <p>{page.externalLinksText}</p>
-
         <p>{page.modificationsTitle}</p>
         <p>{page.modificationsText}</p>
-
         <p>{page.terminationTitle}</p>
         <p>{page.terminationText}</p>
-
         <p>{page.indemnificationTitle}</p>
         <p>{page.indemnificationText}</p>
-
         <p>{page.governingTitle}</p>
         <p>{page.governingTitle}</p>
-
         <p>{page.severabilityTitle}</p>
         <p>{page.severabilityTitle}</p>
-
         <p>{page.contactTitle}</p>
         <p>{page.contactTitle}</p>
         <p><strong>{page.contactEmailLabel}</strong> {page.contactEmail}</p>
         <p><strong>{page.contactWebsiteLabel}</strong> <a href="https://sanatanadharmam.in">{page.contactWebsite}</a></p>
-
         <p>{page.closing}</p>
       </div>
     </PageLayout>

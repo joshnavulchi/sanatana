@@ -1,20 +1,14 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import Image from 'next/image';
-
-import ContactForm from '../components/contact/ContactForm';
-
 import { t, detectLocale } from '../../lib/i18n';
 import { createcreateGenerateMetadata } from 'lib/pageUtils';
-
 import PageLayout from '@components/common/PageLayout';
-
+import ContactForm from '../components/contact/ContactForm';
+import Image from 'next/image';
 export const generateMetadata = createcreateGenerateMetadata('contact');
 
 export default async function ContactPage() {
   const locale = await detectLocale();
-
   const S = (k: string) => String(t(k, locale));
-
   return (
     <>
       <PageLayout breadcrumbs={[{ labelKey: 'nav.home', href: '/' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>

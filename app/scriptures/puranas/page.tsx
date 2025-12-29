@@ -1,17 +1,10 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
-
 import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
-
-
-
 export const generateMetadata = createcreateGenerateMetadata('scriptures_puranas');
-
 export default function PuranasPage({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
-
   const S = (k: string) => String(t(k, locale));
-
   const page: any = (() => {
     const k: any = getMeta('scriptures_puranas', {}, locale) || {};
     const loc: any = getLocaleObject(locale) || {};
@@ -23,14 +16,11 @@ export default function PuranasPage({ searchParams }: any) {
       major_puranas: Array.isArray(k.major_puranas) ? k.major_puranas : (Array.isArray(puranas.major_puranas) ? puranas.major_puranas : [])
     };
   })();
-
   return (
     <>
       <main className="content-wrapper md page-space-xl">
-        
         <h2>{page.title} - {page.classification}</h2>
         <p>{page.definition}</p>
-
         <div>
           <p>{S('puranas.purpose')}</p>
           {/* Major Puranas */}

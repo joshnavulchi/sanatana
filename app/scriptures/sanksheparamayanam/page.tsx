@@ -1,17 +1,10 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
-
 import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
-
-
-
 export const generateMetadata = createcreateGenerateMetadata('scriptures_sanksheparamayana');
-
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
-
   const S = (k: string) => String(t(k, locale));
-
   const page: any = (() => {
     const k: any = getMeta('scriptures_sanksheparamayana', {}, locale) || {};
     const loc: any = getLocaleObject(locale) || {};
@@ -27,14 +20,11 @@ export default function Page({ searchParams }: any) {
       slokas: Array.isArray(k.slokas) ? k.slokas : (Array.isArray(ram.slokas) ? ram.slokas : [])
     };
   })();
-
   return (
     <>
       <main className="content-wrapper md page-space-xl">
-
         <h2>{page.title}</h2>
         <p><strong>Source: </strong>{page.author} - {page.description ? <span>{page.description}</span> : null}</p>
-
         {/* Structured display of all ramayana fields */}
         <div>
           {/* Main characters */}
@@ -50,7 +40,6 @@ export default function Page({ searchParams }: any) {
               </ul>
             </div>
           )}
-
           {/* Important places */}
           {page.important_places && page.important_places.length > 0 && (
             <div>
@@ -64,7 +53,6 @@ export default function Page({ searchParams }: any) {
               </ul>
             </div>
           )}
-
           {/* Timeline */}
           {page.timeline && page.timeline.length > 0 && (
             <div>
@@ -78,7 +66,6 @@ export default function Page({ searchParams }: any) {
               </ol>
             </div>
           )}
-
           {/* Core themes */}
           {page.core_themes && page.core_themes.length > 0 && (
             <div>
@@ -90,7 +77,6 @@ export default function Page({ searchParams }: any) {
               </ul>
             </div>
           )}
-
           {/* Sankshepa ramayanam and slokas */}
           {page.slokas && page.slokas.map((s: any) => (
             <div key={s.sloka}>

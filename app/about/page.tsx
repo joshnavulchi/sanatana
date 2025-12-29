@@ -1,14 +1,10 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getMeta } from '../../lib/i18n';
-
 import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from '../../lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-
-export const generateMetadata = createcreateGenerateMetadata('about', 'about.title', 'about.description');
-
+export const generateMetadata = createcreateGenerateMetadata('about');
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
-
   // Single `page_title` object used across the page: prefers `locales/*/about.json` values
   const about: any = (() => {
     const k: any = getMeta('about', {}, locale) || {};
@@ -17,30 +13,28 @@ export default function Page({ searchParams }: any) {
       if (p == null) return [];
       return [String(p)];
     };
-
     return {
-      title: k.title || String(t('about.title', locale) || ''),
-      description: k.description || String(t('about.description', locale) || ''),
+      title: String(t('about.title', locale) || ''),
+      description: String(t('about.description', locale) || ''),
       vision: {
-        description: (k.vision && k.vision.description) || String(t('about.vision.description', locale) || ''),
-        focusAreas: Array.isArray(k?.vision?.focusAreas) ? k.vision.focusAreas : (Array.isArray(t('about.vision.focusAreas', locale)) ? (t('about.vision.focusAreas', locale) as string[]) : arr(t('about.vision.focusAreas', locale))),
-        goal: (k.vision && k.vision.goal) || String(t('about.vision.goal', locale) || '')
+        description: String(t('about.vision.description', locale) || ''),
+        focusAreas: (t('about.vision.focusAreas', locale) as string[]),
+        goal: String(t('about.vision.goal', locale) || '')
       },
       whyWeCreated: {
-        purpose: k['whyWeCreated']?.purpose || String(t('about.whyWeCreated.purpose', locale) || ''),
-        problemsAddressed: Array.isArray(k['whyWeCreated']?.problemsAddressed) ? k['whyWeCreated'].problemsAddressed : (Array.isArray(t('about.whyWeCreated.problemsAddressed', locale)) ? (t('about.whyWeCreated.problemsAddressed', locale) as string[]) : arr(t('about.whyWeCreated.problemsAddressed', locale)))
+        purpose: String(t('about.whyWeCreated.purpose', locale) || ''),
+        problemsAddressed: (t('about.whyWeCreated.problemsAddressed', locale) as string[])
       },
-      commitment: Array.isArray(k.commitment) ? k.commitment : (Array.isArray(t('about.commitment', locale)) ? (t('about.commitment', locale) as string[]) : arr(t('about.commitment', locale))),
+      commitment: (t('about.commitment', locale) as string[]),
       joinUs: {
-        message: k.joinUs?.message || String(t('about.joinUs.message', locale) || ''),
-        invite: Array.isArray(k.joinUs?.invite) ? k.joinUs.invite : (Array.isArray(t('about.joinUs.invite', locale)) ? (t('about.joinUs.invite', locale) as string[]) : arr(t('about.joinUs.invite', locale)))
+        message: String(t('about.joinUs.message', locale) || ''),
+        invite: (t('about.joinUs.invite', locale) as string[])
       },
-      disclaimer: k.disclaimer || String(t('about.disclaimer', locale) || '')
+      disclaimer: String(t('about.disclaimer', locale) || '')
     };
   })();
-
   return (
-    <PageLayout metaKey="about" title={about.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (about.title || '') }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+    <PageLayout metaKey="about" title={about.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'About' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)} className="content-wrapper md page-space-xl">
       <p>{about.description}</p>
       <div>
         <h3>Vision</h3>

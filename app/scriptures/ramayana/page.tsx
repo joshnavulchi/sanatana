@@ -1,17 +1,10 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
-
 import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
-
-
-
 export const generateMetadata = createcreateGenerateMetadata('scriptures_ramayana');
-
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
-
   const S = (k: string) => String(t(k, locale));
-
   const page: any = (() => {
     const k: any = getMeta('scriptures_ramayana', {}, locale) || {};
     const loc: any = getLocaleObject(locale) || {};
@@ -33,14 +26,11 @@ export default function Page({ searchParams }: any) {
       full_ramayana: k.full_ramayana || ram.full_ramayana || undefined
     };
   })();
-
   return (
     <>
       <main className="content-wrapper md page-space-xl">
-        
         <h2>{page.title}</h2>
         <p><strong>Source: </strong>{page.author} - {page.description ? <span>{page.description}</span> : null}</p>
-
         {/* Structured display of all ramayana fields */}
         <div>
           {/* Main characters */}
@@ -56,7 +46,6 @@ export default function Page({ searchParams }: any) {
               </ul>
             </div>
           )}
-
           {/* Important places */}
           {page.important_places && page.important_places.length > 0 && (
             <div>
@@ -70,7 +59,6 @@ export default function Page({ searchParams }: any) {
               </ul>
             </div>
           )}
-
           {/* Timeline */}
           {page.timeline && page.timeline.length > 0 && (
             <div>
@@ -84,7 +72,6 @@ export default function Page({ searchParams }: any) {
               </ol>
             </div>
           )}
-
           {/* Core themes */}
           {page.core_themes && page.core_themes.length > 0 && (
             <div>
@@ -96,7 +83,6 @@ export default function Page({ searchParams }: any) {
               </ul>
             </div>
           )}
-
           {/* Full ramayana kandas and sargas */}
           {page.full_ramayana && typeof page.full_ramayana === 'object' && (
             <div>

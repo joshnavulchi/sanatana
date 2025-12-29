@@ -9,7 +9,7 @@ body {
   font-family: var(--font-body);
   color: var(--color-text);
   background-color: var(--color-bg);
-  line-height: 1.7;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -52,8 +52,8 @@ li {
 small,
 .small,
 .meta {
-  font-size: 0.75rem;
-  color: var(--color-muted);
+  font-size: 0.8rem;
+  color: var(--color-gray);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -64,11 +64,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: var(--space-sm);
 }
 
-h1, .text-large { font-size: 1.8rem; }
-h2, .text-medium { font-size: 1.6rem; }
-h3, .text-small { font-size: 1.4rem; }
-h4 { font-size: 1.3rem; }
-h5, .text-extrasmall { font-size: 1.2rem; }
+h1, .text-large { font-size: 2rem; }
+h2, .text-medium { font-size: 1.8rem; }
+h3, .text-small { font-size: 1.6rem; }
+h4, .text-extrasmall { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
 h6 { font-size: 1rem; }
 
 p {

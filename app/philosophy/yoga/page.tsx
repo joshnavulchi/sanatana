@@ -1,18 +1,11 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
-
 import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from '../../../lib/pageUtils';
-
 import PageLayout from '@components/common/PageLayout';
-
-
 export const generateMetadata = createcreateGenerateMetadata('philosophy_yoga');
-
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
-
   const S = (k: string) => String(t(k, locale));
-
   const page: any = (() => {
     const k: any = getMeta('philosophy_yoga', {}, locale) || {};
     const loc: any = getLocaleObject(locale) || {};
@@ -29,11 +22,9 @@ export default function Page({ searchParams }: any) {
       modern_relevance: k.modern_relevance || yoga.modern_relevance || {}
     };
   })();
-
   return (
     <>
       <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (typeof page.title !== 'undefined' ? page.title : '') }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
-        
         <h2>{page.title}</h2>
         <p><strong>Definition : </strong>{page.definition}</p>
         {/* Core Principles of yoga */}

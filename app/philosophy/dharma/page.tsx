@@ -1,26 +1,17 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getLocaleObject } from '../../../lib/i18n';
-
 import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from '../../../lib/pageUtils';
-
 import PageLayout from '@components/common/PageLayout';
-
-
 export const generateMetadata = createcreateGenerateMetadata('philosophy_dharma');
-
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
-
   const S = (k: string) => String(t(k, locale));
-
   const loc: any = getLocaleObject(locale) || {};
   const dharma = loc?.dharma_philosophy || {};
   const title = dharma.title || t('dharma_philosophy.title', locale) || 'Dharma Philosophy';
-
   return (
     <>
       <PageLayout title={S('dharma.title')} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: String(t('dharma.title')) }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
-        
         <h2>{title}</h2>
         <p><strong>Definition : </strong>{dharma.definition.map((s: string) => (<span>{s}, </span>))}</p>
         {/* Categories of Dharma */}
@@ -59,7 +50,7 @@ export default function Page({ searchParams }: any) {
             })}
           </ul>
         </div>
-         </PageLayout>
+      </PageLayout>
     </>
   );
 }

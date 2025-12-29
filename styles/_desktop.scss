@@ -4,29 +4,25 @@
     font-size: 18px;
   }
   body {
-    line-height: 1.5;
+    line-height: 1.7;
   }
   h1, .text-large {
     font-size: 2rem;
   }
-  h2, .text-medium {
-    font-size: 1.8rem;
-  }
-  h3, .text-small {
+  h3, .text-medium {
     font-size: 1.6rem;
   }
-  h4 {
+  h4, .text-small {
     font-size: 1.4rem;
   }
-  h5,.text-extrasmall {
+  h5, .text-extrasmall {
     font-size: 1.2rem;
   }
-  h6 {
+  h6,
+  p {
     font-size: 1rem;
   }
-  p {
-    font-size: 0.95rem;
-  }
+  small, .small, .meta { font-size: 0.75rem; }
   header {
     .logo-title-nav-wrapper {
       padding: var(--space-xs) var(--space-xl);
@@ -49,8 +45,12 @@
       padding-bottom: calc(var(--space-2xl) * 2);
     }
   }
-  .social-icons {
-    padding-bottom: 0;
+  .about-shiva {
+    padding-top: var(--space-2xl);
+    padding-bottom: var(--space-2xl);
+    .history {
+      padding-bottom: var(--space-xl);
+    }
   }
   .map-wrapper {
     padding: 0 var(--space-md);
@@ -69,6 +69,14 @@
   }
   .image-krishna-wrapper {
     background-position: 200% 0, 0 0;
+  }
+  footer {
+    section {
+      padding-top: calc(var(--space-2xl) * 2);
+      padding-bottom: calc(var(--space-2xl) * 2);
+    }
+    .social-icons { padding: 0; }
+    .copyrights small {padding: var(--space-lg) 0; }
   }
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

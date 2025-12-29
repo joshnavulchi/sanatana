@@ -11,7 +11,7 @@ export default function AboutShiva({ locale }: { locale?: string }) {
         <div></div>
       </div>
       <div className="content-wrapper">
-        <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-start justify-between history">
+        <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-start justify-between md:gap-8 history">
           <div className="w-full md:w-1/3 md:text-center">
             <b className="text-large">{t('home.stat1', locale || DEFAULT_LOCALE)}</b>
             <p className="text-extrasmall">

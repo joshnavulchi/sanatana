@@ -1,13 +1,9 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, getMeta, DEFAULT_LOCALE, detectLocale, getLocaleObject } from '@/lib/i18n';
-
 import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
-import Link from 'next/link';
-
 import PageArticleJsonLd from '@components/structured-data/PageArticleJsonLd';
-
+import Link from 'next/link';
 export const generateMetadata = createcreateGenerateMetadata('puranas_slug');
-
 export function generateStaticParams() {
   try {
     // At build time, synchronously load the default locale object
@@ -22,20 +18,15 @@ export function generateStaticParams() {
   // Fallback: generate a small set if the chapters data is missing
   return Array.from({ length: 12 }).map((_, i) => ({ chapter: String(i + 1) }));
 }
-
 export default function Page({ params, searchParams }: { params: { chapter: string }, searchParams?: any }) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
-
   const S = (k: string) => String(t(k, locale));
-
   const chapters = t('puranas.chapters', locale) || [];
   const num = Number(params.chapter || 0);
   const ch = Array.isArray(chapters) ? chapters.find((c: any) => Number(c.chapter) === num) : null;
-
   const siteMeta = getMeta('puranas', {}, locale);
   const title = ch ? `${siteMeta.title || t('nav.scriptures.nav.puranas', locale)} — Chapter ${ch.chapter}: ${ch.title}` : `Chapter ${num}`;
   const excerpt = ch && ch.summary ? ch.summary : '';
-
   return (
     <>
       <PageArticleJsonLd metaKey="scriptures_puranas_chapter_[chapter]" params={{ title, excerpt }} />
@@ -43,9 +34,7 @@ export default function Page({ params, searchParams }: { params: { chapter: stri
         <nav role="menu">
           <Link href="/puranas">&larr; Back to Puranas</Link>
         </nav>
-
         <h2>{ch ? `${S('nav.scriptures.nav.puranas')} — Chapter ${ch.chapter}: ${ch.title}` : `Chapter ${num}`}</h2>
-
         {ch && ch.verses && ch.verses.length > 0 ? (
           <ol role="list" className="list-disc">
             {ch.verses.map((v: any) => (
