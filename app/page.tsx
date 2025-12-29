@@ -8,7 +8,7 @@ import KrishnaStotram from './components/krishna-stotram/krishnastotram';
 import GayathriStotram from './components/gayathri-stotram/gayathristotram';
 import ShivaStotram from './components/shiva-stotram/shivastotram';
 import KrishnaStotramBgImg from './components/krishna-stotram-bgimg/krishnastotrambgimg';
-import CTASection from './components/cta/cta';
+import GitSupport from './components/git-support/git-support';
 import OurFourCoreYugas from './components/our-four-core-yugas/ourfourcoreyugas';
 import AboutShiva from './components/aboutshiva/aboutshiva';
 
@@ -28,7 +28,7 @@ export default async function Home() {
         <GayathriStotram />
         <KrishnaStotramBgImg />
         <OurFourCoreYugas />
-        <CTASection />
+        <GitSupport />
         <AboutShiva />
       </main>
     </>

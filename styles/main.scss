@@ -1,9 +1,13 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 @use 'variables' as *;
 @use 'base';
+@use 'layout';
 @use 'header';
 @use 'footer';
-@use 'layout';
+@use 'slider';
+@use 'gradients';
+@use 'about';
+@use 'contact';
 @use 'desktop';
 
 /* Add other component imports here, for example:

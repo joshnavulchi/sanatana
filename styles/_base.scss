@@ -1,3 +1,4 @@
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 /* Base reset, typography and utility base styles */
 html {
   font-size: 16px;
@@ -40,24 +41,18 @@ a {
 }
 
 ul, ol {
-  padding-left: 1.25rem;
-  margin-bottom: var(--space-md);
+  padding-left: 1rem;
+  margin-bottom: var(--space-sm);
 }
 
 li {
   margin-bottom: 0.5rem;
 }
 
-p {
-  margin-top: 0;
-  margin-bottom: var(--space-md);
-  font-size: 1rem;
-}
-
 small,
 .small,
 .meta {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   color: var(--color-muted);
 }
 
@@ -69,27 +64,37 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: var(--space-sm);
 }
 
-h1 { font-size: 1.75rem; }
-h2 { font-size: 1.4rem; }
-h3 { font-size: 1.2rem; }
-h4 { font-size: 1.05rem; }
+h1, .text-large { font-size: 1.8rem; }
+h2, .text-medium { font-size: 1.6rem; }
+h3, .text-small { font-size: 1.4rem; }
+h4 { font-size: 1.3rem; }
+h5, .text-extrasmall { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+
+p {
+  margin-top: 0;
+  margin-bottom: var(--space-md);
+  font-size: 1rem;
+}
 
 input[type="text"],
 input[type="email"],
 input[type="password"],
 textarea {
   width: 100%;
-  padding: var(--space-xs) var(--space-sm);
+  padding: var(--space-xxs) var(--space-sm);
 }
 
 button,
 .button {
   display: inline-block;
-  font-size: 1rem;
-  padding: 8px 16px;
+  font-size: 0.95rem;
+  padding: var(--space-xs) var(--space-md);
+  border-radius: var(--space-xxs);
   cursor: pointer;
 
   &.scroll-to-top {
     padding: var(--space-xs)
   }
 }
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

@@ -43,7 +43,7 @@ export default function Page({ searchParams }: any) {
 
             return (
               <Link key={i} href={`/scriptures/gita/chapter/${chapNum}`} className="card block no-underline">
-                <article className="h-full rounded-md! shadow hover:shadow-lg transform hover:-translate-y-1 transition flex flex-col">
+                <article className="h-full  shadow hover:shadow-lg transform hover:-translate-y-1 transition flex flex-col">
                   <div className="relative w-full h-44 rounded-md overflow-hidden">
                     <Image src={imgSrc} alt={imgAlt} fill style={{ objectFit: 'cover' }} />
                   </div>

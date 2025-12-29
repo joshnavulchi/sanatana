@@ -5,32 +5,32 @@ export default function AboutShiva({ locale }: { locale?: string }) {
   return (
     <section className="bg-white about-shiva">
       <div className="content-wrapper text-left">
-        <div className="multi-text-color">
+        <div className="text-large multi-text-color">
           {parseList(t('home.shivaHeading', locale || DEFAULT_LOCALE)).map((s, i) => <span key={i}>{s} </span>)}
         </div>
         <div></div>
       </div>
       <div className="content-wrapper">
-        <div className="flex flex-col md:flex-row items-start justify-between history">
+        <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-start justify-between history">
           <div className="w-full md:w-1/3 md:text-center">
-            <b className="slider-title">{t('home.stat1', locale || DEFAULT_LOCALE)}</b>
-            <p>
+            <b className="text-large">{t('home.stat1', locale || DEFAULT_LOCALE)}</b>
+            <p className="text-extrasmall">
               {t('home.stat1Desc', locale || DEFAULT_LOCALE)} <br />
-              <span>{t('home.stat1Extra', locale || DEFAULT_LOCALE) || ''}</span>
+              {/* <span>{t('home.stat1Extra', locale || DEFAULT_LOCALE) || ''}</span> */}
             </p>
           </div>
           <div className="w-full md:w-1/3 md:text-center">
-            <b className="slider-title">{t('home.stat2', locale || DEFAULT_LOCALE)}</b>
-            <p>
+            <b className="text-large">{t('home.stat2', locale || DEFAULT_LOCALE)}</b>
+            <p className="text-extrasmall">
               {t('home.stat2Desc', locale || DEFAULT_LOCALE)} <br />
-              <span>{t('home.stat2Extra', locale || DEFAULT_LOCALE) || ''}</span>
+              {/* <span>{t('home.stat2Extra', locale || DEFAULT_LOCALE) || ''}</span> */}
             </p>
           </div>
           <div className="w-full md:w-1/3 md:text-center">
-            <b className="slider-title">{t('home.stat3', locale || DEFAULT_LOCALE)}</b>
-            <p>
+            <b className="text-large">{t('home.stat3', locale || DEFAULT_LOCALE)}</b>
+            <p className="text-extrasmall">
               {t('home.stat3Desc', locale || DEFAULT_LOCALE)}<br />
-              <span>{t('home.stat3Extra', locale || DEFAULT_LOCALE) || ''}</span>
+              {/* <span>{t('home.stat3Extra', locale || DEFAULT_LOCALE) || ''}</span> */}
             </p>
           </div>
         </div>

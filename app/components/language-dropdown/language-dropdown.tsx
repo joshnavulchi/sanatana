@@ -163,7 +163,7 @@ export default function LanguageDropdown() {
       {/* Dropdown Button */}
       <button
         onClick={() => setOpen(!open)}
-        className="rounded-md! shadow-md inline-flex items-center bg-amber-400 hover:bg-amber-200 cursor-pointer"
+        className=" shadow-md inline-flex items-center bg-amber-400 hover:bg-amber-200 cursor-pointer"
         aria-label={t('languageDropdown.ariaLabel')}
         aria-expanded={open}
       >

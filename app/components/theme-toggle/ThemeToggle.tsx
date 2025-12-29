@@ -7,7 +7,7 @@ export default function ThemeToggle() {
 
   return (
     <button
-      className="rounded-md! shadow-md inline-flex items-center bg-amber-400 hover:bg-amber-200 cursor-pointer"
+      className=" shadow-md inline-flex items-center bg-amber-400 hover:bg-amber-200 cursor-pointer"
       aria-label="Toggle theme"
       title={`Current theme: ${theme}`}
       onClick={toggle}

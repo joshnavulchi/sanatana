@@ -13,7 +13,7 @@ export default async function Page({ searchParams }: any) {
         <p>{S('illustratedStories.description')}</p>
         <div className="card grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
           {(t('illustratedStories.kids_indian_stories', locale) as any[]).map((s: any) => (
-            <article key={s.id} className="h-full rounded-md! shadow hover:shadow-lg transform hover:-translate-y-1 transition flex flex-col">
+            <article key={s.id} className="h-full  shadow hover:shadow-lg transform hover:-translate-y-1 transition flex flex-col">
               <div className="relative w-full h-44 rounded-md overflow-hidden">
                 <Image src={s.imgSrc} alt={s.imgAlt} fill style={{ objectFit: 'cover' }} />
               </div>
