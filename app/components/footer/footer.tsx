@@ -61,7 +61,7 @@ export default function Footer() {
     <footer className="w-full">
       <div className="content-wrapper relative z-29">
         <section className="text-center">
-          <p className="text-3xl! md:text-3xl! font-semibold">{translations["footer.title"]}</p>
+          <p>{translations["footer.title"]}</p>
           <p>{translations["footer.quote"]}</p>
           <p>{translations["footer.quoteSource"]}</p>
           <div className="flex items-center justify-center gap-4">
@@ -76,7 +76,7 @@ export default function Footer() {
         <div className="nav-wrapper w-full relative z-10 flex flex-col md:flex-row md:items-start md:justify-between border-t">
           <nav role="menu" className="md:w-full gap-4 flex flex-col  md:flex-row md:items-start">
             <div className="md:w-1/7 flex flex-col gap-2">
-              <p className="text-sm! underline">{translations["footer.nav.scriptures.title"]}</p>
+              <p className="underline">{translations["footer.nav.scriptures.title"]}</p>
               {(() => {
                 const entries = Object.entries(translations["footer.nav.scriptures.nav"]);
                 return entries.map(([key, val]: [string, any]) => {
@@ -95,7 +95,7 @@ export default function Footer() {
               })()}
             </div>
             <div className="md:w-1/7 flex flex-col gap-2">
-              <p className="text-sm! underline">{translations["footer.nav.stotrasmantras.title"]}</p>
+              <p className="underline">{translations["footer.nav.stotrasmantras.title"]}</p>
               {(() => {
                 const entries = Object.entries(translations["footer.nav.stotrasmantras.nav"]);
                 return entries.map(([key, val]: [string, any]) => {
@@ -114,7 +114,7 @@ export default function Footer() {
               })()}
             </div>
             <div className="md:w-1/7 flex flex-col gap-2">
-              <p className="text-sm! underline">{translations["footer.nav.scriptures.title"]}</p>
+              <p className="underline">{translations["footer.nav.scriptures.title"]}</p>
               {(() => {
                 const entries = Object.entries(translations["footer.nav.philosophy.nav"]);
                 return entries.map(([key, val]: [string, any]) => {
@@ -133,7 +133,7 @@ export default function Footer() {
               })()}
             </div>
             <div className="md:w-1/7 flex flex-col gap-2">
-              <p className="text-sm! underline">{translations["footer.nav.practices.title"]}</p>
+              <p className="underline">{translations["footer.nav.practices.title"]}</p>
               {(() => {
                 const entries = Object.entries(translations["footer.nav.practices.nav"]);
                 return entries.map(([key, val]: [string, any]) => {
@@ -152,7 +152,7 @@ export default function Footer() {
               })()}
             </div>
             <div className="md:w-1/7 flex flex-col gap-2">
-              <p className="text-sm! underline">{translations["footer.nav.stories.title"]}</p>
+              <p className="underline">{translations["footer.nav.stories.title"]}</p>
               {(() => {
                 const entries = Object.entries(translations["footer.nav.stories.nav"]);
                 return entries.map(([key, val]: [string, any]) => {
@@ -171,7 +171,7 @@ export default function Footer() {
               })()}
             </div>
             <div className="md:w-1/7 flex flex-col gap-2">
-              <p className="text-sm! underline">{translations["footer.nav.kidsZone.title"]}</p>
+              <p className="underline">{translations["footer.nav.kidsZone.title"]}</p>
               {(() => {
                 const entries = Object.entries(translations["footer.nav.kidsZone.nav"]);
                 return entries.map(([key, val]: [string, any]) => {
@@ -190,7 +190,7 @@ export default function Footer() {
               })()}
             </div>
             <div className="md:w-1/7 flex flex-col gap-2">
-              <p className="text-sm! underline">{translations["footer.nav.others.title"]}</p>
+              <p className=" underline">{translations["footer.nav.others.title"]}</p>
               {(() => {
                 const entries = Object.entries(translations["footer.nav.others.nav"]);
                 return entries.map(([key, val]: [string, any]) => {
@@ -215,20 +215,20 @@ export default function Footer() {
         </div>
         <div className="disclaimer w-full flex flex-col md:flex-row items-center justify-between">
           <div>
-            <p className="text-xs/4! text-gray-300">{translations["footer.disclaimer"]}<br /> {translations["footer.contentChange"]}</p>
-            <p className="text-xs/4! text-gray-300">I am using <Link href='https://gemini.google.com/' title='Gemini AI' target='_blank' className='text-white no-underline'>Gemini AI</Link>, <Link href='https://www.meta.ai/' title='Meta AI' target='_blank' className='text-white no-underline'>Meta AI</Link> and  <Link href='https://github.com/features/copilot' title='Github Copilot' target='_blank' className='text-white no-underline'>Github Copilot</Link> basic plan to generating content of the website.</p>
+            <p className="text-gray-300">{translations["footer.disclaimer"]}<br /> {translations["footer.contentChange"]}</p>
+            <p className="text-gray-300">I am using <Link href='https://gemini.google.com/' title='Gemini AI' target='_blank' className='text-white no-underline'>Gemini AI</Link>, <Link href='https://www.meta.ai/' title='Meta AI' target='_blank' className='text-white no-underline'>Meta AI</Link> and  <Link href='https://github.com/features/copilot' title='Github Copilot' target='_blank' className='text-white no-underline'>Github Copilot</Link> basic plan to generating content of the website.</p>
           </div>
           <nav role="menu" className="social-icons md:w-1/4 flex items-center justify-end gap-6">
-            <Link href="https://in.linkedin.com/in/vulchivijayakumar" target="_blank" className="text-sm! no-underline">
+            <Link href="https://in.linkedin.com/in/vulchivijayakumar" target="_blank" className=" no-underline">
               <img src="/images/svg/linkedin.svg" alt="linkedin" width={24} height={24} className="inline-block" />
             </Link>
-            <Link href="https://codepen.io/vulchivijay" target="_blank" className="text-sm! no-underline">
+            <Link href="https://codepen.io/vulchivijay" target="_blank" className=" no-underline">
               <img src="/images/svg/codepen.svg" alt="codepen" width={24} height={24} className="inline-block" />
             </Link>
-            <Link href="https://github.com/vulchivijay" target="_blank" className="text-sm! no-underline">
+            <Link href="https://github.com/vulchivijay" target="_blank" className=" no-underline">
               <img src="/images/svg/github.svg" alt="github" width={24} height={24} className="inline-block" />
             </Link>
-            <Link href="#" target="_blank" className="text-sm!no-underline">
+            <Link href="#" target="_blank" className="no-underline">
               <img src="/images/svg/twitter.svg" alt="twitter" width={24} height={24} className="inline-block" />
             </Link>
           </nav>
@@ -238,7 +238,7 @@ export default function Footer() {
             <Link href="/privacy-policy" className={`${isActive("/privacy-policy") ? "active" : ""} `}>{translations["footer.privacy"]}</Link>
             <Link href="/terms-of-service" className={`${isActive("/terms-of-service") ? "active" : ""} `}>{translations["footer.terms"]}</Link>
           </div>
-          <div className="text-xs! color-gray-300">{translations["footer.copyright"]}</div>
+          <div className="color-gray-300">{translations["footer.copyright"]}</div>
         </div>
       </div>
     </footer>

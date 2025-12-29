@@ -31,7 +31,7 @@ export default function Page({ searchParams }: any) {
   return (
     <>
       <main className="content-wrapper md page-space-xl">
-        
+
         <h2>{page.title}</h2>
         <p><strong>Source: </strong>{page.author} - {page.description ? <span>{page.description}</span> : null}</p>
 
@@ -94,7 +94,7 @@ export default function Page({ searchParams }: any) {
           {/* Sankshepa ramayanam and slokas */}
           {page.slokas && page.slokas.map((s: any) => (
             <div key={s.sloka}>
-              <p className="text-2xl! font-semibold text-center">{s.sanskrit}</p>
+              <p className="font-semibold text-center">{s.sanskrit}</p>
               <p>{s.english}</p>
             </div>
           ))}

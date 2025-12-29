@@ -91,9 +91,9 @@ export default function MainSlider() {
             ) : ''}
             {slide.sankritTitle && heroSubtitles && (
               <div className={`slider-content relative md:absolute ${slide.placementImage === 'left' ? 'md:right-0' : 'md:left-0'} md:w-2/3 md:z-10`}>
-                <h2 className="text-2xl/8! md:text-3xl/10! font-semibold!">{slide.sankritTitle}</h2>
-                <p className="text-md!">{slide.englishTitle}</p>
-                <p className="text-md!">{slide.subtitle}</p>
+                <p className="font-semibold!">{slide.sankritTitle}</p>
+                <p>{slide.englishTitle}</p>
+                <p>{slide.subtitle}</p>
                 <div className="mt-10 flex flex-row gap-4">
                   <Link href="/scriptures/gita" className="button inline-block rounded-md! shadow-sm bg-amber-300 hover:bg-amber-400 no-underline">
                     {heroButtons.explore}

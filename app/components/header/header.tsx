@@ -158,13 +158,13 @@ export default function Header() {
           <div className="flex items-center">
             <Link href="/" className="logo-title flex items-center no-underline gap-2">
               <Image src="/images/logo.png" alt="Sanatanadharmam Logo" width={40} height={36} />
-              <h1 className="text-2xl! md:text-3xl! site-title">
+              <h1 className="site-title">
                 {translations.siteTitle}
               </h1>
             </Link>
           </div>
 
-          <nav role="menu" className="hidden items-center text-md md:flex">
+          <nav role="menu" className="hidden items-center md:flex">
             {(() => {
               const entries = Object.entries(translations.nav);
               const topKeys = entries.map(([k]) => k);

@@ -29,11 +29,11 @@ export default function ShivaStotram({ gradient = "from-black-100 to-black-800" 
   return (
     <section ref={ref} className={clsx("image-shiva-wrapper relative w-full min-h-[calc(100vh-90px)] flex flex-col md:flex-row items-center justify-end text-center overflow-hidden")} style={{ backgroundImage: `url(/images/lord-shiva.png)` }}>
       <div className={clsx("absolute inset-0 h-full z-0", `bg-linear-to-r ${gradient}`)} style={{ opacity: 0.85 }} />
-      <div className={clsx("relative z-1 md:right-20 bg-white md:w-3xl md:transition-all md:rounded-2xl md:shadow-2xl p-6", inView ? "opacity-100" : "opacity-0")}>
-        <h4 className="text-2xl/8! md:text-3xl/10! multi-text-color">
+      <div className={clsx("relative z-1 md:right-20 bg-white md:w-3xl md:transition-all md:rounded-2xl md:shadow-2xl", inView ? "opacity-100" : "opacity-0")}>
+        <h4 className="multi-text-color">
           {parseList(t('home.shiva.heading')).map((s, i) => <span key={i}>{s}</span>)}
         </h4>
-        <p className="text-md md:text-lg/6 mt-5">{t('home.shiva.transliteration')}</p>
+        <p>{t('home.shiva.transliteration')}</p>
       </div>
     </section>
   );

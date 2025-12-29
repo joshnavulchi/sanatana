@@ -226,10 +226,10 @@ export default function LanguageDropdown() {
                     className={`w-full md:w-1/4 flex items-center justify-between text-left transition-colors ${currentLang === lang.code ? "theme-alternative-background-color" : ""} ${highlighted === idx ? 'border border-amber-300 hover:bg-amber-200' : 'border border-amber-300 hover:bg-amber-200'}`}
                   >
                     <div className="flex items-center gap-3">
-                      <div className="text-2xl" aria-hidden>{flag}</div>
+                      <div aria-hidden>{flag}</div>
                       <div>
                         <div className="font-semibold theme-title-color">{lang.nativeName}</div>
-                        <div className="text-xs">{region}</div>
+                        <div>{region}</div>
                       </div>
                     </div>
                     {currentLang === lang.code && (

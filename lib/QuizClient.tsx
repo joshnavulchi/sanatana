@@ -111,11 +111,11 @@ export default function QuizClient() {
   if (!started) {
     return (
       <div className="max-w-3xl">
-        <h2 className="text-2xl font-bold mb-4">Ready for the Quiz?</h2>
-        <p className="mb-4">You will be asked {qList.length} random questions. You have {fmtTime(timeLeft)} to complete the quiz.</p>
+        <h2>Ready for the Quiz?</h2>
+        <p>You will be asked {qList.length} random questions. You have {fmtTime(timeLeft)} to complete the quiz.</p>
         <div className="flex gap-3">
           <button onClick={() => setStarted(true)} className="px-4 py-2 bg-green-600 text-white rounded">Start Quiz</button>
-          <button onClick={restart} className="px-4 py-2 border rounded">Shuffle Questions</button>
+          <button onClick={restart}>Shuffle Questions</button>
         </div>
       </div>
     );
@@ -124,19 +124,19 @@ export default function QuizClient() {
   if (finished) {
     return (
       <div className="max-w-3xl">
-        <h3 className="text-2xl font-bold mb-4">Quiz Results</h3>
-        <div className="mb-4">Your score: <strong>{score}</strong> / {qList.length}</div>
-        <div className="mb-4">Time taken: {fmtTime(10 * 60 - timeLeft)}</div>
-        <div className="space-y-3 mb-6">
+        <h3>Quiz Results</h3>
+        <div>Your score: <strong>{score}</strong> / {qList.length}</div>
+        <div>Time taken: {fmtTime(10 * 60 - timeLeft)}</div>
+        <div className="space-y-3">
           {qList.map((q, idx) => (
-            <div key={q.id} className="p-3 border rounded">
-              <div className="font-medium">{idx + 1}. {q.question}</div>
-              <div className="mt-1 text-sm">
+            <div key={q.id} className="border rounded">
+              <div>{idx + 1}. {q.question}</div>
+              <div>
                 {(['A', 'B', 'C', 'D'] as (keyof Options)[]).map((k) => {
                   const correct = k === q.answer;
                   const chosen = answers[q.id] === k;
                   return (
-                    <div key={k} className={`inline-block mr-4 ${correct ? 'text-green-700' : chosen ? 'text-red-700' : ''}`}>
+                    <div key={k} className={`inline-block ${correct ? 'text-green-700' : chosen ? 'text-red-700' : ''}`}>
                       <strong>{k}.</strong> {q.options[k]} {correct ? ' (Correct)' : chosen ? ' (Your choice)' : ''}
                     </div>
                   );
@@ -146,7 +146,7 @@ export default function QuizClient() {
           ))}
         </div>
         <div className="flex gap-3">
-          <button onClick={restart} className="px-4 py-2 bg-blue-600 text-white rounded">Restart Quiz</button>
+          <button onClick={restart}>Restart Quiz</button>
         </div>
       </div>
     );
@@ -156,31 +156,31 @@ export default function QuizClient() {
 
   return (
     <div className="max-w-3xl">
-      <div className="flex justify-between items-center mb-4">
+      <div className="flex justify-between items-center">
         <div>Question {current + 1} / {qList.length}</div>
         <div className="font-mono">Time left: {fmtTime(timeLeft)}</div>
       </div>
 
-      <div className="p-4 border rounded bg-white">
-        <div className="text-lg font-semibold mb-3">{q.question}</div>
+      <div className="border rounded">
+        <div className="font-semibold">{q.question}</div>
         <div className="grid gap-2">
           {(['A', 'B', 'C', 'D'] as (keyof Options)[]).map((k) => (
             <button
               key={k}
               onClick={() => selectOption(k)}
-              className={`text-left p-3 border rounded ${answers[q.id] === k ? 'bg-blue-100' : ''}`}
+              className={`text-left border rounded ${answers[q.id] === k ? 'bg-blue-100' : ''}`}
             >
-              <strong className="mr-2">{k}.</strong> {q.options[k]}
+              <strong>{k}.</strong> {q.options[k]}
             </button>
           ))}
         </div>
 
-        <div className="mt-4 flex justify-between">
+        <div className="flex justify-between">
           <div>
-            <button onClick={goPrev} disabled={current === 0} className="px-3 py-1 border rounded mr-2">Previous</button>
-            <button onClick={goNext} className="px-3 py-1 bg-green-600 text-white rounded">{current < qList.length - 1 ? 'Next' : 'Finish'}</button>
+            <button onClick={goPrev} disabled={current === 0}>Previous</button>
+            <button onClick={goNext}>{current < qList.length - 1 ? 'Next' : 'Finish'}</button>
           </div>
-          <div className="text-sm text-gray-600">Answered: {Object.keys(answers).length} / {qList.length}</div>
+          <div className="text-gray-600">Answered: {Object.keys(answers).length} / {qList.length}</div>
         </div>
       </div>
     </div>
