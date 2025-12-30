@@ -25,7 +25,7 @@
   ul, ol {
     font-size: 1rem;
   }
-  small, .small, .meta { font-size: 0.8rem; }
+  small, .small, .meta { font-size: 0.75rem; }
   header {
     .logo-title-nav-wrapper {
       padding: var(--space-xs) var(--space-xl);
@@ -78,10 +78,11 @@
       padding-top: calc(var(--space-2xl) * 2);
       padding-bottom: calc(var(--space-2xl) * 2);
     }
-    .social-icons { padding: 0; }
-    .copyrights small {padding: var(--space-lg) 0; }
     p { font-size: 0.95rem }
     a:not(.button) { font-size: 0.9rem; }
+    .social-icons { padding: 0; }
+    .copyrights small { padding: var(--space-lg) 0; }
+    .copyrights a { font-size: 0.75rem; }
   }
   .card {
     article {

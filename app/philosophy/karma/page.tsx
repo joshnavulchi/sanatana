@@ -24,7 +24,6 @@ export default function Page({ searchParams }: any) {
   return (
     <>
       <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
-        <h2>{page.title}</h2>
         <p><strong>Definition : </strong>{page.definition}</p>
         {/* Core Principles of Karma */}
         <div>

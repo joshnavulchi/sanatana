@@ -23,19 +23,17 @@ const PayPalButton: FC<PayPalButtonProps> = ({
     <>
       {showPoweredBy && (
         <div className="mx-auto w-6/12 flex flex-col items-center">
-          <div>
+          <figure>
             <Image src="/images/SANATANADHARM-qrcode.png" alt="PayPal QR Code" width={200} height={200} />
-          </div>
-
-          <div className="mx-auto w-6/12 flex flex-col items-center text-center gap-4">
+          </figure>
+          <div className="flex items-center justify-center">
             {showCardsImage && (<Image src="/images/Debit_Credit_APM.svg" alt="Debit Credit APM" width={200} height={120} />)}
-            <small className="inline-flex flex-nowrap">Powered by</small>
+            <small className="min-w-22 text-center">Powered by</small>
             {/* Inline PayPal Wordmark SVG */}
-            <div className="mx-auto w-4/12">
+            <div className="w-20 h-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 100 32"
-
               >
                 <path
                   fill="#003087"
@@ -54,5 +52,4 @@ const PayPalButton: FC<PayPalButtonProps> = ({
     </>
   );
 };
-
 export default PayPalButton;

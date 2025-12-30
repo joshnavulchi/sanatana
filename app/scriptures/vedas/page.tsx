@@ -22,17 +22,17 @@ export default function Page({ searchParams }: any) {
   })();
   return (
     <>
-      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Vedas' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
         <p>{page.intro}</p>
         <div>
-          <p><b>Meaning: </b>{page.origin.Meaning}</p>
-          <p><b>Period: </b>{page.origin.Period}</p>
-          <p><b>Transmission: </b>{page.origin.Transmission}</p>
+          <p><b>Meaning: </b>{page.origin}</p>
+          <p><b>Period: </b>{page.origin}</p>
+          <p><b>Transmission: </b>{page.origin}</p>
         </div>
         <div>
-          <p><b>Nature: </b>{page.authorship.Nature}</p>
-          <p><b>Process: </b>{page.authorship.Process}</p>
-          <p><b>Compiler: </b>{page.authorship.Compiler}</p>
+          <p><b>Nature: </b>{page.authorship}</p>
+          <p><b>Process: </b>{page.authorship}</p>
+          <p><b>Compiler: </b>{page.authorship}</p>
         </div>
         {(page.structure || []).map((item: any, i: number) => (
           <div key={i}>

@@ -40,8 +40,7 @@ export default function DonatePage() {
   })();
   return (
     <>
-      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (typeof page.title !== 'undefined' ? page.title : '') }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
-        <h2>{page.title}</h2>
+      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Donate' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)} className="content-wrapper sm page-space-xl">
         <p>{page.lead}</p>
         <section className="donation-wrapper">
           <h3>{page.expansesTitle}</h3>

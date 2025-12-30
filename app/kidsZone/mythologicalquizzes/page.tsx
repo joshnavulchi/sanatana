@@ -1,16 +1,20 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { detectLocale, t } from '@/lib/i18n';
-import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
+import { getMeta, detectLocale, t } from '../../../lib/i18n';
+import { createcreateGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
 import QuizClient from './QuizClient';
 export const generateMetadata = createcreateGenerateMetadata('kidsZone_mythologicalquizzes');
 export default function Page({ searchParams }: any) {
-  const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
-  const S = (k: string) => String(t(k, locale));
+  const locale = detectLocale(searchParams) || undefined;
+  const page: any = (() => {
+    const k: any = getMeta('kidsZone_mythologicalquizzes', {}, locale) || {};
+    return {
+      title: typeof k.title === 'string' ? k.title : String(t('stories..title', locale) || 'Mythological Quizzes')
+    };
+  })();
   return (
     <>
-      <PageLayout title={S('kidsZone.mythologicalQuizzes.title')} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: String(t('kidsZone.mythologicalQuizzes.title')) }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
-        <p>{S('kidsZone.mythologicalQuizzes.description')}</p>
+      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Mythological Quizzes' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
         <QuizClient />
       </PageLayout>
     </>

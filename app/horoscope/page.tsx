@@ -5,7 +5,7 @@ import { t, getMeta } from '../../lib/i18n';
 
 export const metadata = {
   title: 'Horoscope',
-};
+}; 
 
 export default function Page() {
   const k: any = getMeta('horoscope', {}, undefined) || {};

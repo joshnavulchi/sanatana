@@ -2,7 +2,7 @@
 import { t, detectLocale, getMeta } from '../../lib/i18n';
 import { createcreateGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createcreateGenerateMetadata('terms-of-service');
+export const generateMetadata = createcreateGenerateMetadata('terms_of_service');
 export default async function TermsOfService({ searchParams }: any) {
   const locale = await detectLocale(searchParams);
   const S = (k: string) => String(t(k, locale));
@@ -48,7 +48,7 @@ export default async function TermsOfService({ searchParams }: any) {
   })();
 
   return (
-    <PageLayout metaKey="terms-of-service" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+    <PageLayout metaKey="terms_of_service" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
       <div>
         <p>
           <strong>{page.lastUpdated}</strong> {page.lastUpdated}
