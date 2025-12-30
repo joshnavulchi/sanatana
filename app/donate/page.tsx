@@ -1,12 +1,12 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getMeta } from '../../lib/i18n';
 import { parseList } from 'lib/parseList';
-import { createcreateGenerateMetadata } from 'lib/pageUtils';
+import { createGenerateMetadata } from 'lib/pageUtils';
 import PayPalButton from '../components/paypalbutton';
 import PageLayout from '@components/common/PageLayout';
 import Link from 'next/link';
 import Image from 'next/image';
-export const generateMetadata = createcreateGenerateMetadata('donate');
+export const generateMetadata = createGenerateMetadata('donate');
 export default function DonatePage() {
   const locale = detectLocale();
   const S = (k: string) => String(t(k, locale));

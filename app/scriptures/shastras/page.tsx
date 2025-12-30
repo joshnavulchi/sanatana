@@ -1,8 +1,8 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getMeta } from '../../../lib/i18n';
-import { createcreateGenerateMetadata } from 'lib/pageUtils';
+import { createGenerateMetadata } from 'lib/pageUtils';
 import Link from 'next/link';
-export const generateMetadata = createcreateGenerateMetadata('shastras');
+export const generateMetadata = createGenerateMetadata('shastras');
 export default async function ShastrasPage() {
   const locale = await detectLocale();
   const S = (k: string) => String(t(k, locale));

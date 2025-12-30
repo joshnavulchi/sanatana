@@ -1,7 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale } from '../../../../lib/i18n';
-import { createcreateGenerateMetadata } from 'lib/pageUtils';
-export const generateMetadata = createcreateGenerateMetadata('scriptures_shastras_natya');
+import { createGenerateMetadata } from 'lib/pageUtils';
+export const generateMetadata = createGenerateMetadata('scriptures_shastras_natya');
 
 export default async function NatyaPage() {
   const locale = await detectLocale();

@@ -2,8 +2,8 @@
 import { t, detectLocale } from '../../lib/i18n';
 import { parseList } from 'lib/parseList';
 import PageLayout from '@components/common/PageLayout';
-import { createcreateGenerateMetadata } from 'lib/pageUtils';
-export const generateMetadata = createcreateGenerateMetadata('privacy_policy');
+import { createGenerateMetadata } from 'lib/pageUtils';
+export const generateMetadata = createGenerateMetadata('privacy_policy');
 export default async function PrivacyPolicy() {
   const locale = await detectLocale();
   const S = (k: string) => String(t(k, locale));

@@ -1,8 +1,8 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { getMeta, detectLocale, t } from '../../../lib/i18n';
-import { createcreateGenerateMetadata } from 'lib/pageUtils';
+import { createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createcreateGenerateMetadata('kidsZone_easymantras');
+export const generateMetadata = createGenerateMetadata('kidsZone_easymantras');
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || undefined;
   const page: any = (() => {

@@ -1,8 +1,8 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getMeta } from '../../lib/i18n';
-import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from '../../lib/pageUtils';
+import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createcreateGenerateMetadata('about');
+export const generateMetadata = createGenerateMetadata('about');
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   // Single `page_title` object used across the page: prefers `locales/*/about.json` values

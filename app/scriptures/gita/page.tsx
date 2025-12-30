@@ -1,11 +1,11 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getMeta, locales } from '../../../lib/i18n';
-import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
+import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
 import { parseList } from 'lib/parseList';
 import Link from 'next/link';
 import Image from 'next/image';
-export const generateMetadata = createcreateGenerateMetadata('scriptures_gita');
+export const generateMetadata = createGenerateMetadata('scriptures_gita');
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const page: any = (() => {

@@ -1,7 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { detectLocale, t } from '../../lib/i18n';
-import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
-export const generateMetadata = createcreateGenerateMetadata('our-privacy-policy');
+import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
+export const generateMetadata = createGenerateMetadata('our-privacy-policy');
 export default function PrivacyPolicyPage({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));

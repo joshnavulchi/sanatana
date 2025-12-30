@@ -1,9 +1,9 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, getMeta, DEFAULT_LOCALE, detectLocale, getLocaleObject } from '@/lib/i18n';
-import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
+import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageArticleJsonLd from '@components/structured-data/PageArticleJsonLd';
 import Link from 'next/link';
-export const generateMetadata = createcreateGenerateMetadata('puranas_slug');
+export const generateMetadata = createGenerateMetadata('puranas_slug');
 export function generateStaticParams() {
   try {
     // At build time, synchronously load the default locale object
