@@ -1,7 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { detectLocale, t } from '../lib/i18n';
 
-import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
+import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import MainSlider from './components/main-slider/slider';
 import SanatanaDharma from './components/sanatanadharma/sanatanadharma';
 import KrishnaStotram from './components/krishna-stotram/krishnastotram';
@@ -11,7 +11,7 @@ import KrishnaStotramBgImg from './components/krishna-stotram-bgimg/krishnastotr
 import GitSupport from './components/git-support/git-support';
 import OurFourCoreYugas from './components/our-four-core-yugas/ourfourcoreyugas';
 import AboutShiva from './components/aboutshiva/aboutshiva';
-export const generateMetadata = createcreateGenerateMetadata('home');
+export const generateMetadata = createGenerateMetadata('home');
 export default async function Home() {
   const locale = detectLocale() || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));

@@ -1,9 +1,9 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getMeta } from '../../../lib/i18n';
 import { parseList } from 'lib/parseList';
-import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
+import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createcreateGenerateMetadata('stotrasmantras_devi');
+export const generateMetadata = createGenerateMetadata('stotrasmantras_devi');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();

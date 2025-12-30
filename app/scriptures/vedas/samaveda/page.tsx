@@ -1,8 +1,8 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getMeta } from '../../../../lib/i18n';
-import { createcreateGenerateMetadata } from 'lib/pageUtils';
+import { createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createcreateGenerateMetadata('scriptures_vedas_samaveda');
+export const generateMetadata = createGenerateMetadata('scriptures_vedas_samaveda');
 export default function SamavedaPage() {
   const locale = detectLocale();
   const S = (k: string) => String(t(k, locale));

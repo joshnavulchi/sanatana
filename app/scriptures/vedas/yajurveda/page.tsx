@@ -2,12 +2,12 @@
 
 import { t, detectLocale, getMeta } from '../../../../lib/i18n';
 
-import { createcreateGenerateMetadata } from 'lib/pageUtils';
+import { createGenerateMetadata } from 'lib/pageUtils';
 
 import PageLayout from '@components/common/PageLayout';
 
 
-export const generateMetadata = createcreateGenerateMetadata('scriptures_vedas_yajurveda');
+export const generateMetadata = createGenerateMetadata('scriptures_vedas_yajurveda');
 export default function YajurvedaPage() {
   const locale = detectLocale();
 

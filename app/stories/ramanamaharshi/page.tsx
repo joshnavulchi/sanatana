@@ -1,7 +1,7 @@
 import { getMeta, detectLocale, t } from '../../../lib/i18n';
-import { createcreateGenerateMetadata } from 'lib/pageUtils';
+import { createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createcreateGenerateMetadata('stories_ramanamaharshi');
+export const generateMetadata = createGenerateMetadata('stories_ramanamaharshi');
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || undefined;
   const page: any = (() => {

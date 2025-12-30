@@ -63,7 +63,8 @@ export default async function RootLayout({
       <head>
         {/* Prevent browser automatic translation UI (Chrome/Google Translate) */}
         <meta name="google" content="notranslate" />
-        <meta name="googlebot" content="index" />
+        {/* Default robots tag for every built page */}
+        <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
         {/* Page-specific override: cache for 5 minutes */}
         <meta httpEquiv="Cache-Control" content="max-age=300, must-revalidate" />

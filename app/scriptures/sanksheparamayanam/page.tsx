@@ -1,7 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
-import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
-export const generateMetadata = createcreateGenerateMetadata('scriptures_sanksheparamayana');
+import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
+export const generateMetadata = createGenerateMetadata('scriptures_sanksheparamayana');
 import PageLayout from '@components/common/PageLayout';
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();

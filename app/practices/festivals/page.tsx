@@ -1,8 +1,8 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { getMeta, detectLocale, t } from '../../../lib/i18n';
-import { createcreateGenerateMetadata } from 'lib/pageUtils';
+import { createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createcreateGenerateMetadata('practices_festivals');
+export const generateMetadata = createGenerateMetadata('practices_festivals');
 export default function Page() {
   const locale = detectLocale();
   const page: any = (() => {

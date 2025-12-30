@@ -11,7 +11,7 @@ export function resolveLocaleFromHeaders() {
   }
 }
 
-export function createcreateGenerateMetadata(metaKey: string, titleKey?: string, descriptionKey?: string) {
+export function createGenerateMetadata(metaKey: string, titleKey?: string, descriptionKey?: string) {
   return async function createGenerateMetadata(props: Record<string, unknown> | undefined) {
     const { searchParams } = (props || {}) as { searchParams?: unknown };
     // `searchParams` can be a Promise in newer Next.js versions — unwrap it first
@@ -68,7 +68,18 @@ export function createcreateGenerateMetadata(metaKey: string, titleKey?: string,
       description,
       keywords: meta.keywords || undefined,
       openGraph: { title: title || meta.title, description, images: ogImages },
-      alternates: { canonical: meta.canonical || meta.url || secrets.NEXT_PUBLIC_SITE_URL || 'https://sanatanadharmam.in' }
+      alternates: { canonical: meta.canonical || meta.url || secrets.NEXT_PUBLIC_SITE_URL || 'https://sanatanadharmam.in' },
+      robots: {
+        index: true,
+        follow: true,
+        // Optional fine-grained controls:
+        nocache: false,
+        googleBot: {
+          index: true,
+          follow: true,
+          // examples: maxSnippet: -1, maxImagePreview: 'large', maxVideoPreview: -1
+        },
+      },
     };
   };
 }

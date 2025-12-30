@@ -1,9 +1,9 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { detectLocale, t, getMeta } from '../../../lib/i18n';
-import { createcreateGenerateMetadata } from 'lib/pageUtils';
+import { createGenerateMetadata } from 'lib/pageUtils';
 import { parseList } from 'lib/parseList';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createcreateGenerateMetadata('stotrasmantras_shiva');
+export const generateMetadata = createGenerateMetadata('stotrasmantras_shiva');
 export default async function Page() {
   const locale = await detectLocale({});
   const S = (k: string) => String(t(k, locale));
