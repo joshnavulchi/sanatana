@@ -80,7 +80,7 @@ function buildSitemap(paths) {
 }
 
 function writeSitemap(xml) {
-  const out = path.join(process.cwd(), 'public', 'sitemap.xml');
+  const out = path.join(process.cwd(), 'out', 'sitemap.xml');
   fs.mkdirSync(path.dirname(out), { recursive: true });
   fs.writeFileSync(out, xml, 'utf8');
   console.log('Wrote', out);
