@@ -11,8 +11,7 @@ export default async function ContactPage() {
   const S = (k: string) => String(t(k, locale));
   return (
     <>
-      <PageLayout breadcrumbs={[{ labelKey: 'nav.home', href: '/' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
-        <h2>{S('contactPage.title')}</h2>
+      <PageLayout title={S('contactPage.title')} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Contact' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)} className="content-wrapper md page-space-xl">
         <p>{S('contactPage.lead')}</p>
         <section className="flex flex-col md:flex-row items-start justify-start gap-5">
           <div className="w-full md:w-1/2">

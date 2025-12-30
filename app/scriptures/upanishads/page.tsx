@@ -16,7 +16,7 @@ export default function Page({ searchParams }: any) {
   })();
   return (
     <>
-      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (typeof page.title !== 'undefined' ? page.title : '') }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Upanishads' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
         {(page.list || []).map((item: any, i: number) => (
           <div key={i}>
             {item.category ? <h3>{item.catogory}</h3> : null}

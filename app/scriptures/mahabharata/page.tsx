@@ -2,6 +2,7 @@
 import { t, detectLocale, getMeta } from '../../../lib/i18n';
 import { parseList } from 'lib/parseList';
 import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
+import PageLayout from '@components/common/PageLayout';
 export const generateMetadata = createcreateGenerateMetadata('scriptures_mahabharata');
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
@@ -15,11 +16,10 @@ export default function Page({ searchParams }: any) {
   })();
   return (
     <>
-      <main className="content-wrapper md page-space-xl">
-        <h2>{page.title}</h2>
+      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Mahabhrata' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
         {(page.structure || []).map((item: any, i: number) => (
           <div key={i}>
-            {item.name ? <p>{item.parva}. {item.name}</p> : null}
+            {item.name ? <p className="text-small font-semibold">{item.parva}. {item.name}</p> : null}
             {item.summary ?
               <p>{item.summary}</p> :
               <pre>{JSON.stringify(item)}</pre>}
@@ -27,7 +27,7 @@ export default function Page({ searchParams }: any) {
             {item.main_characters ? <p><b>Characters: </b>{JSON.stringify(item.main_characters)}</p> : null}
           </div>
         ))}
-      </main>
+      </PageLayout>
     </>
   );
 }

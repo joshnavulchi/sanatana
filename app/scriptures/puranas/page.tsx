@@ -1,6 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createcreateGenerateMetadata } from 'lib/pageUtils';
+import PageLayout from '@components/common/PageLayout';
 export const generateMetadata = createcreateGenerateMetadata('scriptures_puranas');
 export default function PuranasPage({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
@@ -18,8 +19,8 @@ export default function PuranasPage({ searchParams }: any) {
   })();
   return (
     <>
-      <main className="content-wrapper md page-space-xl">
-        <h2>{page.title} - {page.classification}</h2>
+      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Puranas' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+        <p>{page.classification}</p>
         <p>{page.definition}</p>
         <div>
           <p>{S('puranas.purpose')}</p>
@@ -37,7 +38,7 @@ export default function PuranasPage({ searchParams }: any) {
             </div>
           )}
         </div>
-      </main>
+      </PageLayout>
     </>
   );
 }

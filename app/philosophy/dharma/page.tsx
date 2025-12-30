@@ -11,8 +11,7 @@ export default function Page({ searchParams }: any) {
   const title = dharma.title || t('dharma_philosophy.title', locale) || 'Dharma Philosophy';
   return (
     <>
-      <PageLayout title={S('dharma.title')} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: String(t('dharma.title')) }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
-        <h2>{title}</h2>
+      <PageLayout title={title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Dharma' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
         <p><strong>Definition : </strong>{dharma.definition.map((s: string) => (<span>{s}, </span>))}</p>
         {/* Categories of Dharma */}
         <div>

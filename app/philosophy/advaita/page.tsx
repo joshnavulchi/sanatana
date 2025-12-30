@@ -24,8 +24,7 @@ export default function Page({ searchParams }: any) {
   })();
   return (
     <>
-      <PageLayout title={S('advaita.title')} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: String(t('advaita.title')) }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
-        <h2>{page.title}</h2>
+      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Advaita Philosophy' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
         <p><strong>Definition : </strong>{page.definition}</p>
         {/* Core Principles of Advaita */}
         <div>
