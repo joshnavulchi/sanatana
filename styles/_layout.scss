@@ -2,7 +2,7 @@
 .content-wrapper {
   margin: 0 auto;
   padding: var(--space-lg);
-  max-width: var(--content-width-lg);
+  max-width: var(--content-width-default);
   &.xs {
     max-width: var(--content-width-xs);
   }
@@ -15,13 +15,21 @@
   &.lg {
     max-width: var(--content-width-lg);
   }
-  &.sanatana-dharma,
+  &.sanatana-dharma {
+    padding-bottom: var(--space-xl);
+  }
+  &.article-wrapper,
   &.ourfour-coreyugas,
   &.krishna-stotram,
   &.gayathri-stotram {
     padding-top: var(--space-xl);
     padding-bottom: var(--space-xl);
   }
+}
+.image-shiva-wrapper .bg-white {
+  padding-right: var(--space-xl);
+  padding-bottom: var(--space-md);
+  padding-left: var(--space-xl);
 }
 .about-shiva {
   padding-top: var(--space-xl);

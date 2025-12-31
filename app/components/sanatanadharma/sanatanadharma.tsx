@@ -28,41 +28,53 @@ export default function SanatanaDharma() {
   const philosophicalThemesLines: any = parseList(t("home.SanatanaDharma.PhilosophicalThemes"));
   const practicesLines: any = parseList(t("home.SanatanaDharma.Practices"));
   const valuesLines: any = parseList(t("home.SanatanaDharma.Values"));
-  const ultimateGoalLines: string = t("home.SanatanaDharma.UltimateGoal")
+  const ultimateGoalLines: string = t("home.SanatanaDharma.UltimateGoal");
+  const articleTitle: string = t("home.SanatanaDharma.ArticleTitle");
+  const article: string = t("home.SanatanaDharma.Article");
 
   return (
-    <section ref={ref} className="background-alternative">
-      <div className="content-wrapper sanatana-dharma">
-        <h1>{titleLines}</h1>
-        <p>{definitionLines}</p>
-        <p>
-          <strong>Core Principles - </strong>
-          {Array.isArray(corePrinciplesLines) && corePrinciplesLines.map((ln: string, idx: number) => (
-            <span key={idx}>{ln} </span>))
-          }
-        </p>
-        <p>
-          <strong>Philosophical Themes - </strong>
-          {Array.isArray(philosophicalThemesLines) && philosophicalThemesLines.map((ln: string, idx: number) => (
-            <span key={idx}>{ln} </span>))
-          }
-        </p>
-        <p>
-          <strong>Practicles - </strong>
-          {Array.isArray(practicesLines) && practicesLines.map((ln: string, idx: number) => (
-            <span key={idx}>{ln} </span>))
-          }
-        </p>
-        <p>
-          <strong>Values - </strong>
-          {Array.isArray(valuesLines) && valuesLines.map((ln: string, idx: number) => (
-            <span key={idx}>{ln} </span>))
-          }
-        </p>
-        <p>
-          <strong>UltimateGoal - </strong>
-          <span>{ultimateGoalLines}</span>
-        </p>
+    <section ref={ref}>
+      <div className="background-alternative">
+        <div className="content-wrapper sanatana-dharma">
+          <h1>{titleLines}</h1>
+          <p>{definitionLines}</p>
+          <p>
+            <strong>Core Principles - </strong>
+            {Array.isArray(corePrinciplesLines) && corePrinciplesLines.map((ln: string, idx: number) => (
+              <span key={idx}>{ln} </span>))
+            }
+          </p>
+          <p>
+            <strong>Philosophical Themes - </strong>
+            {Array.isArray(philosophicalThemesLines) && philosophicalThemesLines.map((ln: string, idx: number) => (
+              <span key={idx}>{ln} </span>))
+            }
+          </p>
+          <p>
+            <strong>Practicles - </strong>
+            {Array.isArray(practicesLines) && practicesLines.map((ln: string, idx: number) => (
+              <span key={idx}>{ln} </span>))
+            }
+          </p>
+          <p>
+            <strong>Values - </strong>
+            {Array.isArray(valuesLines) && valuesLines.map((ln: string, idx: number) => (
+              <span key={idx}>{ln} </span>))
+            }
+          </p>
+          <p>
+            <strong>UltimateGoal - </strong>
+            <span>{ultimateGoalLines}</span>
+          </p>
+        </div>
+      </div>
+      <div className="bg-white">
+        <div className="content-wrapper article-wrapper">
+          <h2>{articleTitle}</h2>
+          {article.split('\n').map((para: string, idx: number) => (
+            <p key={idx} className={inView ? 'animate-fade-in-up' : ''}>{para}</p>
+          ))}
+        </div>
       </div>
     </section>
   );

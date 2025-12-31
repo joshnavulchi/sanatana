@@ -108,6 +108,10 @@ button,
   > div {
     padding: var(--space-md) var(--space-lg);
   }
+  small,
+  .small {
+    color: var(--color=text);
+  }
   .buttons-group {
     margin-top: var(--space-md);
   }

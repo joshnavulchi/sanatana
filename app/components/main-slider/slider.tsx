@@ -80,7 +80,7 @@ export default function MainSlider() {
       onTouchStart={onTouchStart}
       onTouchMove={onTouchMove}
       onTouchEnd={onTouchEnd} >
-      <div className="relative w-full md:mx-auto md:w-7xl md:min-h-150 md:flex md:items-center md:justify-center overflow-hidden">
+      <div className="relative w-full md:mx-auto md:w-7xl md:min-h-140 md:flex md:items-center md:justify-center overflow-hidden">
         {slides.map((slide: any, idx: number) => (
           <div key={idx} className={`md:absolute md:top-0 md:mx-auto md:w-6xl md:h-full flex-col md:flex-row md:items-center md:justify-center transition-opacity duration-700 ${idx === current ? 'opacity-100 z-10' : 'opacity-0 z-0'}`}
             style={{ pointerEvents: idx === current ? 'auto' : 'none', display: idx === current ? 'flex' : 'none' }}>

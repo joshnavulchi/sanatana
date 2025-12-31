@@ -5,7 +5,7 @@ import { t, DEFAULT_LOCALE } from '../../../lib/i18n';
 export default function GitSupport({ locale }: { locale?: string }) {
   const loc = locale || DEFAULT_LOCALE;
   return (
-    <section className="gradient-background map-wrapper md:min-h-screen relative z-0 overflow-hidden">
+    <section className="gradient-background map-wrapper md:md:min-h-160 relative z-0 overflow-hidden">
       <WorldMapAnimated
         stroke="#ffffff"
         fill="#000000"
