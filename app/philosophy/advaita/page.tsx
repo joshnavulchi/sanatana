@@ -3,6 +3,7 @@ import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('philosophy_advaita');
+
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
@@ -24,7 +25,7 @@ export default function Page({ searchParams }: any) {
   })();
   return (
     <>
-      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Advaita Philosophy' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <PageLayout metaKey="philosophy_advaita" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Advaita Philosophy' }]}>
         <p><strong>Definition : </strong>{page.definition}</p>
         {/* Core Principles of Advaita */}
         <div>

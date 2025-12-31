@@ -9,7 +9,7 @@ export default async function Page({ searchParams }: any) {
   const S = (k: string, l?: any) => String(t(k, l ?? locale));
   return (
     <>
-      <PageLayout title={S('illustratedStories.title')} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: String(t('illustratedStories.title')) }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <PageLayout metaKey="kidsZone_illustratedStories" title={S('illustratedStories.title')} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: String(t('illustratedStories.title')) }]}>
         <p>{S('illustratedStories.description')}</p>
         <div className="card grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-6">
           {(t('illustratedStories.kids_indian_stories', locale) as any[]).map((s: any) => (

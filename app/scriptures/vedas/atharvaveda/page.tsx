@@ -37,7 +37,7 @@ export default function AtharvavedaPage() {
 
   return (
     <>
-      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <PageLayout metaKey="scriptures_vedas_atharvaveda" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}>
         <p>{page.summary}</p>
         <section>
           <h3>{page.contentTitle}</h3>

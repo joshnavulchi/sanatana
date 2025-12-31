@@ -9,12 +9,12 @@
 const fs = require('fs');
 const path = require('path');
 
-function walk(dir){
+function walk(dir) {
   const results = [];
   const list = fs.readdirSync(dir, { withFileTypes: true });
-  for(const d of list){
+  for (const d of list) {
     const p = path.join(dir, d.name);
-    if(d.isDirectory()) results.push(...walk(p));
+    if (d.isDirectory()) results.push(...walk(p));
     else results.push(p);
   }
   return results;
@@ -22,12 +22,12 @@ function walk(dir){
 
 const appDir = path.join(__dirname, '..', 'app');
 let pages = [];
-try{
-  if(fs.existsSync(appDir)){
-    const files = walk(appDir).filter(f=>f.endsWith('.tsx') || f.endsWith('.ts') || f.endsWith('.js') || f.endsWith('.jsx'));
-    pages = files.map(f=>path.relative(path.join(__dirname,'..'), f).replace(/\\/g,'/'));
+try {
+  if (fs.existsSync(appDir)) {
+    const files = walk(appDir).filter(f => f.endsWith('.tsx') || f.endsWith('.ts') || f.endsWith('.js') || f.endsWith('.jsx'));
+    pages = files.map(f => path.relative(path.join(__dirname, '..'), f).replace(/\\/g, '/'));
   }
-}catch(e){
+} catch (e) {
   // ignore
 }
 
@@ -37,7 +37,7 @@ const out = {
   pageCount: pages.length
 };
 
-const outDir = path.join(__dirname, '..', 'public');
-if(!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
+const outDir = path.join(__dirname, '..', 'out');
+if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 fs.writeFileSync(path.join(outDir, 'api-analytics.json'), JSON.stringify(out, null, 2));
 console.log('Wrote', path.join(outDir, 'api-analytics.json'));

@@ -33,11 +33,13 @@
   --space-3xl: 90px;
 
   /* Content width */
-  --content-width-xs: 540px;
-  --content-width-sm: 760px;
-  --content-width-md: 1024px;
-  --content-width-lg: 1280px;
-  --content-width: 1440px;
+  --content-width-xxs: 540px;
+  --content-width-xs: 760px;
+  --content-width-sm: 1024px;
+  --content-width-md: 1280px;
+  --content-width-default: 1440px;
+  --content-width-lg: 1680px;
+  --content-width-xl: 1900px;
 }
 
 .theme-light {

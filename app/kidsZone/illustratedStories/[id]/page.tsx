@@ -1,8 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { getMeta, detectLocale, t } from '../../../../lib/i18n';
-
-
-
 import PageLayout from '@components/common/PageLayout';
 import fs from 'fs/promises';
 import path from 'path';
@@ -57,7 +54,7 @@ export default async function Page({ params, searchParams }: any) {
 
   if (!item) {
     return (
-      <PageLayout title={S('kidsZone.illustratedStories.comicNotFoundTitle')} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: String(t('kidsZone.illustratedStories.comicNotFoundTitle')) }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <PageLayout metaKey="" title={S('kidsZone.illustratedStories.comicNotFoundTitle')} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: String(t('kidsZone.illustratedStories.comicNotFoundTitle')) }]}>
         <p>{S('kidsZone.illustratedStories.comicNotFoundDesc')}</p>
       </PageLayout>
     );
@@ -68,7 +65,7 @@ export default async function Page({ params, searchParams }: any) {
 
   return (
     <>
-      <PageLayout title={item.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: item.title }, { label: item.title }]}>
+      <PageLayout metaKey="" title={item.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: item.title }, { label: item.title }]}>
         <div>{item.origin}</div>
         <div>
           <div>

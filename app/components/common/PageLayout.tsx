@@ -11,8 +11,8 @@ type Props = {
   children?: React.ReactNode;
 };
 
-export default function PageLayout({ metaKey, title, breadcrumbs, locale, className, children }: Props) {
-  const wrapper = className || 'content-wrapper lg page-space-xl';
+export default function PageLayout({ metaKey, title, breadcrumbs, className, children }: Props) {
+  const wrapper = `content-wrapper ${className || 'lg'} page-space-xl`;
   return (
     <>
       {metaKey ? <StructuredData metaKey={metaKey} /> : null}

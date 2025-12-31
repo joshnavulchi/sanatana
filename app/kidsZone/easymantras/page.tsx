@@ -13,9 +13,8 @@ export default function Page({ searchParams }: any) {
   })();
   return (
     <>
-      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title || t('kidsZone.easymantras.title', locale) }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <PageLayout metaKey="kidsZone_easymantras" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title || t('kidsZone.easymantras.title', locale) }]}>
         <p>Placeholder for simple mantras children can learn.</p>
-      </PageLayout>
     </>
   );
 }

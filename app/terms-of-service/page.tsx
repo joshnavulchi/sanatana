@@ -3,6 +3,7 @@ import { t, detectLocale, getMeta } from '../../lib/i18n';
 import { createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('terms_of_service');
+
 export default async function TermsOfService({ searchParams }: any) {
   const locale = await detectLocale(searchParams);
   const S = (k: string) => String(t(k, locale));
@@ -48,14 +49,19 @@ export default async function TermsOfService({ searchParams }: any) {
   })();
 
   return (
-    <PageLayout metaKey="terms_of_service" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+    <PageLayout
+      metaKey="terms_of_service"
+      title={page.title}
+      breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}
+      className="sm"
+    >
       <div>
         <p>
           <strong>{page.lastUpdated}</strong> {page.lastUpdated}
         </p>
-        <h3>{page.acceptanceTitle}</h3>
+        <h3 className="text-small">{page.acceptanceTitle}</h3>
         <p>{page.intro}</p>
-        <h4>{page.useLicenseTitle}</h4>
+        <h4 className="text-small">{page.useLicenseTitle}</h4>
         <p>{page.useLicenseText}</p>
         <ul role="list" className="list-disc">
           <li>{(page.useLicenseList && page.useLicenseList.modification) || S('terms.useLicenseList.modification')}</li>
@@ -64,9 +70,9 @@ export default async function TermsOfService({ searchParams }: any) {
           <li>{(page.useLicenseList && page.useLicenseList.reverseEngineering) || S('terms.useLicenseList.reverseEngineering')}</li>
           <li>{(page.useLicenseList && page.useLicenseList.interfering) || S('terms.useLicenseList.interfering')}</li>
         </ul>
-        <h5>{page.intellectualTitle}</h5>
+        <h5 className="text-small">{page.intellectualTitle}</h5>
         <p>{page.intellectualText}</p>
-        <h6>{page.userConductTitle}</h6>
+        <h6 className="text-small">{page.userConductTitle}</h6>
         <p>{page.userConductIntro}</p>
         <ul role="list" className="list-disc">
           <li>{(page.userConductList && page.userConductList.unlawful) || S('terms.userConductList.unlawful')}</li>
@@ -76,7 +82,7 @@ export default async function TermsOfService({ searchParams }: any) {
           <li>{(page.userConductList && page.userConductList.spam) || S('terms.userConductList.spam')}</li>
           <li>{(page.userConductList && page.userConductList.bypass) || S('terms.userConductList.bypass')}</li>
         </ul>
-        <p>{page.disclaimerTitle}</p>
+        <p className="text-small font-bold">{page.disclaimerTitle}</p>
         <p>{page.disclaimerText}</p>
         <ul role="list" className="list-disc">
           <li>{(page.disclaimerList && page.disclaimerList.accuracy) || S('terms.disclaimerList.accuracy')}</li>
@@ -85,22 +91,21 @@ export default async function TermsOfService({ searchParams }: any) {
           <li>{(page.disclaimerList && page.disclaimerList.quality) || S('terms.disclaimerList.quality')}</li>
         </ul>
         <p>{page.disclaimerClosing}</p>
-        <p>{page.liabilityTitle}</p>
+        <p className="text-small font-bold">{page.liabilityTitle}</p>
         <p>{page.liabilityText}</p>
-        <p>{page.externalLinksTitle}</p>
+        <p className="text-small font-bold">{page.externalLinksTitle}</p>
         <p>{page.externalLinksText}</p>
-        <p>{page.modificationsTitle}</p>
+        <p className="text-small font-bold">{page.modificationsTitle}</p>
         <p>{page.modificationsText}</p>
-        <p>{page.terminationTitle}</p>
+        <p className="text-small font-bold">{page.terminationTitle}</p>
         <p>{page.terminationText}</p>
-        <p>{page.indemnificationTitle}</p>
+        <p className="text-small font-bold">{page.indemnificationTitle}</p>
         <p>{page.indemnificationText}</p>
-        <p>{page.governingTitle}</p>
-        <p>{page.governingTitle}</p>
-        <p>{page.severabilityTitle}</p>
-        <p>{page.severabilityTitle}</p>
-        <p>{page.contactTitle}</p>
-        <p>{page.contactTitle}</p>
+        <p className="text-small font-bold">{page.governingTitle}</p>
+        <p className="text-small font-bold">{page.severabilityTitle}</p>
+        <p className="text-small font-bold">{page.severabilityTitle}</p>
+        <p className="text-small font-bold">{page.contactTitle}</p>
+        <p className="text-small font-bold">{page.contactTitle}</p>
         <p><strong>{page.contactEmailLabel}</strong> {page.contactEmail}</p>
         <p><strong>{page.contactWebsiteLabel}</strong> <a href="https://sanatanadharmam.in">{page.contactWebsite}</a></p>
         <p>{page.closing}</p>

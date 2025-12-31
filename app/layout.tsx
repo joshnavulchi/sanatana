@@ -1,19 +1,19 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { Suspense } from 'react';
 import { Poppins } from 'next/font/google';
-import Script from 'next/script';
-import Header from './components/header/header';
-import Footer from './components/footer/footer';
-import AnalyticsCollector from './components/analytics/AnalyticsCollector';
-import CookieConsent from './components/cookie-consent/CookieConsent';
-import Loader from './components/loader/loader';
-import TopProgress from './components/progress/TopProgress';
-import ScrollToTop from './components/scroll-to-top/scroll-to-top';
 import { LocaleProvider } from './context/locale-context';
 import { ThemeProvider } from './context/theme-context';
 import { headers } from 'next/headers';
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '../lib/i18n';
 import { secrets } from '../lib/secrets';
+import Script from 'next/script';
+import Header from './components/header/header';
+import Footer from './components/footer/footer';
+import AnalyticsCollector from './components/analytics/analyticsCollector';
+import CookieConsent from './components/cookie-consent/cookieConsent';
+import TopProgress from './components/progress/topProgress';
+import Loader from './components/loader/loader';
+import ScrollToTop from './components/scroll-to-top/scroll-to-top';
 
 import "./globals.css"; // tailwind base styles
 
@@ -36,12 +36,10 @@ export default async function RootLayout({
       if (!hdrs || typeof hdrs.get !== 'function') {
         return DEFAULT_LOCALE;
       }
-
       // cookie named `sanatana_dharma_language` was used in client-side code
       const cookie = hdrs.get('cookie') || '';
       const match = typeof cookie === 'string' ? cookie.match(/sanatana_dharma_language=([^;]+)/) : null;
       if (match && supported.includes(match[1])) return match[1];
-
       // Accept-Language header may be missing or not a string
       const al = hdrs.get('accept-language');
       if (al && typeof al === 'string') {
@@ -52,12 +50,9 @@ export default async function RootLayout({
     } catch (err) {
       // headers() can throw; fall back to DEFAULT_LOCALE
     }
-
     return DEFAULT_LOCALE;
   }
-
   const lang = await resolveServerLocale();
-
   return (
     <html lang={lang} translate="no">
       <head>

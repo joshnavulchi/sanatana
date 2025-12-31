@@ -1,8 +1,9 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
-export const generateMetadata = createGenerateMetadata('scriptures_sanksheparamayana');
 import PageLayout from '@components/common/PageLayout';
+export const generateMetadata = createGenerateMetadata('scriptures_sanksheparamayana');
+
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
@@ -21,9 +22,15 @@ export default function Page({ searchParams }: any) {
       slokas: ram.slokas || []
     };
   })();
+
   return (
     <>
-      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <PageLayout
+        metaKey="scriptures_sanksheparamayana"
+        title={page.title}
+        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}
+        className="md"
+      >
         <p><strong>Source: </strong>{page.author} - {page.description ? <span>{page.description}</span> : null}</p>
         {/* Structured display of all ramayana fields */}
         <div>

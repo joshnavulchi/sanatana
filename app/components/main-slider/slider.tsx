@@ -80,12 +80,12 @@ export default function MainSlider() {
       onTouchStart={onTouchStart}
       onTouchMove={onTouchMove}
       onTouchEnd={onTouchEnd} >
-      <div className="relative w-full md:min-h-[calc(100vh-90px)] md:flex md:items-center md:justify-center overflow-hidden">
+      <div className="relative w-full md:mx-auto md:w-7xl md:min-h-150 md:flex md:items-center md:justify-center overflow-hidden">
         {slides.map((slide: any, idx: number) => (
-          <div key={idx} className={`md:absolute md:top-0 w-full md:mx-auto md:w-6xl md:h-full flex-col md:flex-row md:items-center md:justify-center transition-opacity duration-700 ${idx === current ? 'opacity-100 z-10' : 'opacity-0 z-0'}`}
+          <div key={idx} className={`md:absolute md:top-0 md:mx-auto md:w-6xl md:h-full flex-col md:flex-row md:items-center md:justify-center transition-opacity duration-700 ${idx === current ? 'opacity-100 z-10' : 'opacity-0 z-0'}`}
             style={{ pointerEvents: idx === current ? 'auto' : 'none', display: idx === current ? 'flex' : 'none' }}>
             {slide.placementImage === 'left' ? (
-              <div className="relative md:absolute md:z-20 md:left-0 md:bottom-0 mx-auto w-80 md:w-1/3 md:min-h-[calc(100vh-120px)] md:aspect-video">
+              <div className="relative md:absolute md:z-20 md:left-0 md:bottom-0 mx-auto w-80 md:w-1/3 md:h-full md:aspect-video">
                 <Image src={slide.imgSrc} fill alt={`Slide ${idx + 1}`} className="relative! md:absolute! object-contain" priority={idx === current} loading={idx === current ? 'eager' : 'lazy'} />
               </div>
             ) : ''}
@@ -104,14 +104,14 @@ export default function MainSlider() {
                 </div>
               </div>)}
             {slide.placementImage === 'right' ? (
-              <div className="relative md:absolute md:z-20 md:right-0 md:bottom-0 mx-auto w-80 md:w-1/3 md:min-h-[calc(100vh-120px)] md:aspect-video">
+              <div className="relative md:absolute md:z-20 md:right-0 md:bottom-0 mx-auto w-80 md:w-1/3 md:h-full md:aspect-video">
                 <Image src={slide.imgSrc} fill alt={`Slide ${idx + 1}`} className="relative! md:absolute! object-contain" priority={idx === current} loading={idx === current ? 'eager' : 'lazy'} />
               </div>
             ) : ''}
           </div>
         ))}
-        <button onClick={prevSlide} className="absolute z-20 left-4 top-1/2 -translate-y-1/2 bg-amber-400 hover:bg-amber-200 no-underline  shadow-md cursor-pointer">&#8592;</button>
-        <button onClick={nextSlide} className="absolute z-20 right-4 top-1/2 -translate-y-1/2 bg-amber-400 hover:bg-amber-200 no-underline  shadow-md cursor-pointer">&#8594;</button>
+        <button onClick={prevSlide} className="absolute z-20 left-4 top-1/2 -translate-y-1/2 bg-amber-400 hover:bg-amber-200 no-underline shadow-md cursor-pointer">&#8592;</button>
+        <button onClick={nextSlide} className="absolute z-20 right-4 top-1/2 -translate-y-1/2 bg-amber-400 hover:bg-amber-200 no-underline shadow-md cursor-pointer">&#8594;</button>
       </div>
       <div className="slider-dots absolute z-20 left-0 bottom-10 w-full text-center flex justify-center gap-2">
         {slides.map((_: any, idx: number) => (

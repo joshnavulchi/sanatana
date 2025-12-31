@@ -1,18 +1,13 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getMeta } from '../../../lib/i18n';
-
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import { parseList } from 'lib/parseList';
-
 import PageLayout from '@components/common/PageLayout';
-
 export const generateMetadata = createGenerateMetadata('stotrasmantras_hanuman');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
-
   const S = (k: string) => String(t(k, locale));
-
   const page: any = (() => {
     const k: any = getMeta('stotrasmantras_hanuman', {}, locale) || {};
     return {
@@ -20,13 +15,16 @@ export default function Page({ searchParams }: any) {
       items: Array.isArray(k.items) ? k.items : parseList(t('hanumanstotras.hanuman_stotras', locale))
     };
   })();
-
   const items = page.items || [];
 
   return (
     <>
-      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (page.title || '') }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
-
+      <PageLayout
+        metaKey="stotrasmantras_hanuman"
+        title={page.title}
+        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (page.title || '') }]}
+        className="md"
+      >
         {items.map((item: any, i: number) => (
           <section key={i}>
             <h3>{item.name || item.title || `Item ${i + 1}`}</h3>

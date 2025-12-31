@@ -22,7 +22,7 @@ export default function Page({ searchParams }: any) {
   })();
   return (
     <>
-      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Vedas' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <PageLayout metaKey="scriptures_vedas" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Vedas' }]}>
         <p>{page.intro}</p>
         <div>
           <p><b>Meaning: </b>{page.origin}</p>

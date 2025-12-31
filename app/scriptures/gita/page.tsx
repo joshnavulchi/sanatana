@@ -1,11 +1,12 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, detectLocale, getMeta, locales } from '../../../lib/i18n';
+import { t, detectLocale } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
-import PageLayout from '@components/common/PageLayout';
 import { parseList } from 'lib/parseList';
-import Link from 'next/link';
+import PageLayout from '@components/common/PageLayout';
 import Image from 'next/image';
+import Link from 'next/link';
 export const generateMetadata = createGenerateMetadata('scriptures_gita');
+
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const page: any = (() => {
@@ -17,7 +18,12 @@ export default function Page({ searchParams }: any) {
   })();
   return (
     <>
-      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <PageLayout
+        metaKey="scriptures_gita"
+        title={page.title}
+        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}
+        className="md"
+      >
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-6">
           {(page.chapters || []).map((item: any, i: number) => {
             // Determine chapter number robustly: prefer explicit numeric fields, else fallback to index+1

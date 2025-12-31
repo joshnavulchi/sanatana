@@ -4,6 +4,7 @@ import { parseList } from 'lib/parseList';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('scriptures_mahabharata');
+
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
@@ -16,7 +17,12 @@ export default function Page({ searchParams }: any) {
   })();
   return (
     <>
-      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Mahabhrata' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <PageLayout
+        metaKey="scriptures_mahabharata"
+        title={page.title}
+        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Mahabhrata' }]}
+        className="md"
+      >
         {(page.structure || []).map((item: any, i: number) => (
           <div key={i}>
             {item.name ? <p className="text-small font-semibold">{item.parva}. {item.name}</p> : null}

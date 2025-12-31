@@ -3,6 +3,7 @@ import { t, detectLocale, getLocaleObject } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('philosophy_dharma');
+
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
@@ -11,7 +12,7 @@ export default function Page({ searchParams }: any) {
   const title = dharma.title || t('dharma_philosophy.title', locale) || 'Dharma Philosophy';
   return (
     <>
-      <PageLayout title={title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Dharma' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <PageLayout metaKey="philosophy_dharma" title={title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Dharma' }]}>
         <p><strong>Definition : </strong>{dharma.definition.map((s: string) => (<span>{s}, </span>))}</p>
         {/* Categories of Dharma */}
         <div>
