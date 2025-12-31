@@ -14,9 +14,9 @@ export default function Page() {
   })();
   return (
     <>
-      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title || '' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
-        <p>{page.definition}</p>
-      </PageLayout>
+      <PageLayout metaKey="practices_dailypuja" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title || '' }]} locale=>
+      <p>{page.definition}</p>
+    </PageLayout >
     </>
   );
 }

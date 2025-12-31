@@ -24,60 +24,60 @@ export default function Page({ searchParams }: any) {
   })();
   return (
     <>
-      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (typeof page.title !== 'undefined' ? page.title : '') }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
-        <p><strong>Definition : </strong>{page.definition}</p>
-        {/* Core Principles of yoga */}
-        <div>
-          <p><strong>Core Principles of Yoga : </strong> {page.core_principles.map((s: string) => (<span>{s}, </span>))}</p>
-          <ul role="list" className="list-disc">
-            {Object.entries(page.origin).map((cKey: any, idx: number) => {
-              return <li key={idx}>
-                <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
-              </li>
-            })}
-          </ul>
-          <p><strong>Path of Yoga : </strong></p>
-          <ul role="list" className="list-disc">
-            {Object.entries(page.paths_of_yoga).map((cKey: any, idx: number) => {
-              return <li key={idx}>
-                <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
-              </li>
-            })}
-          </ul>
-          <p><strong>Eight limbs of Yoga : </strong></p>
-          <ul role="list" className="list-disc">
-            {Object.entries(page.eight_limbs_of_yoga).map((cKey: any, idx: number) => {
-              return <li key={idx}>
-                <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
-              </li>
-            })}
-          </ul>
-          <p><strong>Goals of Yoga : </strong></p>
-          <ul role="list" className="list-disc">
-            {Object.entries(page.goals).map((cKey: any, idx: number) => {
-              return <li key={idx}>
-                <span>{cKey[1]}</span>
-              </li>
-            })}
-          </ul>
-          <p><strong>Relation to other concepts of Yoga : </strong></p>
-          <ul role="list" className="list-disc">
-            {Object.entries(page.relation_to_other_concepts).map((cKey: any, idx: number) => {
-              return <li key={idx}>
-                <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
-              </li>
-            })}
-          </ul>
-          <p><strong>Modern Relevance of Yoga : </strong></p>
-          <ul role="list" className="list-disc">
-            {Object.entries(page.modern_relevance).map((cKey: any, idx: number) => {
-              return <li key={idx}>
-                <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
-              </li>
-            })}
-          </ul>
-        </div>
-      </PageLayout>
+      <PageLayout metaKey="philosophy_yoga" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (typeof page.title !== 'undefined' ? page.title : '') }]} locale=>
+      <p><strong>Definition : </strong>{page.definition}</p>
+      {/* Core Principles of yoga */}
+      <div>
+        <p><strong>Core Principles of Yoga : </strong> {page.core_principles.map((s: string) => (<span>{s}, </span>))}</p>
+        <ul role="list" className="list-disc">
+          {Object.entries(page.origin).map((cKey: any, idx: number) => {
+            return <li key={idx}>
+              <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
+            </li>
+          })}
+        </ul>
+        <p><strong>Path of Yoga : </strong></p>
+        <ul role="list" className="list-disc">
+          {Object.entries(page.paths_of_yoga).map((cKey: any, idx: number) => {
+            return <li key={idx}>
+              <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
+            </li>
+          })}
+        </ul>
+        <p><strong>Eight limbs of Yoga : </strong></p>
+        <ul role="list" className="list-disc">
+          {Object.entries(page.eight_limbs_of_yoga).map((cKey: any, idx: number) => {
+            return <li key={idx}>
+              <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
+            </li>
+          })}
+        </ul>
+        <p><strong>Goals of Yoga : </strong></p>
+        <ul role="list" className="list-disc">
+          {Object.entries(page.goals).map((cKey: any, idx: number) => {
+            return <li key={idx}>
+              <span>{cKey[1]}</span>
+            </li>
+          })}
+        </ul>
+        <p><strong>Relation to other concepts of Yoga : </strong></p>
+        <ul role="list" className="list-disc">
+          {Object.entries(page.relation_to_other_concepts).map((cKey: any, idx: number) => {
+            return <li key={idx}>
+              <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
+            </li>
+          })}
+        </ul>
+        <p><strong>Modern Relevance of Yoga : </strong></p>
+        <ul role="list" className="list-disc">
+          {Object.entries(page.modern_relevance).map((cKey: any, idx: number) => {
+            return <li key={idx}>
+              <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
+            </li>
+          })}
+        </ul>
+      </div>
+    </PageLayout >
     </>
   );
 }

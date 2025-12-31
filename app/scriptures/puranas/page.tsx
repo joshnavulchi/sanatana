@@ -3,6 +3,7 @@ import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('scriptures_puranas');
+
 export default function PuranasPage({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
@@ -17,9 +18,10 @@ export default function PuranasPage({ searchParams }: any) {
       major_puranas: Array.isArray(k.major_puranas) ? k.major_puranas : (Array.isArray(puranas.major_puranas) ? puranas.major_puranas : [])
     };
   })();
+
   return (
     <>
-      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Puranas' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <PageLayout metaKey="scriptures_puranas" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Puranas' }]}>
         <p>{page.classification}</p>
         <p>{page.definition}</p>
         <div>
@@ -38,7 +40,7 @@ export default function PuranasPage({ searchParams }: any) {
             </div>
           )}
         </div>
-      </PageLayout>
+      </PageLayout >
     </>
   );
 }

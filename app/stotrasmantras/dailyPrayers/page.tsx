@@ -3,6 +3,7 @@ import { t, detectLocale, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('stotrasmantras_dailyPrayers');
+
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
@@ -13,11 +14,17 @@ export default function Page({ searchParams }: any) {
       items: Array.isArray(k.items) ? k.items : []
     };
   })();
+
   return (
     <>
-      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (page.title || '') }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <PageLayout
+        metaKey="stotrasmantras_dailyPrayers"
+        title={page.title}
+        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (page.title || '') }]}
+        className="md"
+      >
         <p>Placeholder for daily prayers and short mantras.</p>
-      </PageLayout>
+      </PageLayout >
     </>
   );
 }

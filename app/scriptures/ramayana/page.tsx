@@ -3,6 +3,7 @@ import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('scriptures_ramayana');
+
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
@@ -27,9 +28,15 @@ export default function Page({ searchParams }: any) {
       full_ramayana: k.full_ramayana || ram.full_ramayana || undefined
     };
   })();
+
   return (
     <>
-      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Ramayana' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <PageLayout
+        metaKey="scriptures_ramayana"
+        title={page.title}
+        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Ramayana' }]}
+        className="md"
+      >
         <p><strong>Source: </strong>{page.author} - {page.description ? <span>{page.description}</span> : null}</p>
         {/* Structured display of all ramayana fields */}
         <div>
@@ -115,7 +122,7 @@ export default function Page({ searchParams }: any) {
             </div>
           )}
         </div>
-      </PageLayout>
+      </PageLayout >
     </>
   );
 }

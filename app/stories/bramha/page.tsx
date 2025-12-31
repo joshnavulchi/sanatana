@@ -2,6 +2,7 @@ import { getMeta, detectLocale, t } from '../../../lib/i18n';
 import { createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('stories_bramha');
+
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || undefined;
   const page: any = (() => {
@@ -10,8 +11,14 @@ export default function Page({ searchParams }: any) {
       title: typeof k.title === 'string' ? k.title : String(t('stories.bramha.title', locale) || 'Bramha')
     };
   })();
+
   return (
-    <PageLayout title={'Brahma'} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Brahma' }]}>
+    <PageLayout
+      metaKey="stories_bramha"
+      title={'Brahma'}
+      breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Brahma' }]}
+      className="md"
+    >
       <p>Placeholder page generated from locales/en/nav.json for path /stories/bramha</p>
     </PageLayout>
   );

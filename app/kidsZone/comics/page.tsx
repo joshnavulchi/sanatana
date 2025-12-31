@@ -11,7 +11,7 @@ export default function Page({ searchParams }: any) {
     };
   })();
   return (
-    <PageLayout title={'Mythology Comics'} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Mythology Comics' }]}>
+    <PageLayout metaKey="kidsZone_comics" title={'Mythology Comics'} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Mythology Comics' }]}>
       <p>Placeholder page generated from locales/en/nav.json for path /kidsZone/comics</p>
     </PageLayout>
   );

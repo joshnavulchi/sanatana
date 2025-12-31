@@ -1,6 +1,5 @@
 // Lightweight astrology utilities — no external libs
 // Provides sun-sign detection and deterministic horoscopes for day/week/month
-
 function hashString(s: string) {
   let h = 2166136261 >>> 0;
   for (let i = 0; i < s.length; i++) {

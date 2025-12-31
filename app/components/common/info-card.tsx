@@ -1,11 +1,9 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 "use client";
-
 import Image from 'next/image';
 import Link from 'next/link';
 import { useT } from '../../hooks/useT';
 import { useState } from 'react';
-
 type InfoCardProps = {
   src: string;
   alt: string;
@@ -13,11 +11,9 @@ type InfoCardProps = {
   width?: number;
   height?: number;
 };
-
 export default function InfoCard({ src, alt, captionKey, width = 400, height = 300 }: InfoCardProps) {
   const t = useT();
   const [loading, setLoading] = useState(true)
-
   return (
     <div className="info-card relative  basis-1/5 p-3 mb-6 md:mb-0 border border-gray-500">
       {/* Wrap figure tag inside link next set href to  */}

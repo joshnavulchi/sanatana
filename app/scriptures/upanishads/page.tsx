@@ -16,25 +16,25 @@ export default function Page({ searchParams }: any) {
   })();
   return (
     <>
-      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Upanishads' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
-        {(page.list || []).map((item: any, i: number) => (
-          <div key={i}>
-            {item.category ? <h3>{item.catogory}</h3> : null}
-            {item.description ?
-              <p>{item.description}</p> :
-              <ul role="list" className="list-disc">
-                {item.list && item.list.map((list: any, j: number) => (
-                  <li key={j}>
-                    <p><b>Name:</b> {list.name}</p>
-                    <p><b>Veda:</b> {list.veda}</p>
-                    <p><b>Type:</b> {list.type}</p>
-                    <p><b>Summary:</b> {list.summary}</p>
-                  </li>
-                ))}
-              </ul>}
-          </div>
-        ))}
-      </PageLayout>
+      <PageLayout metaKey="scriptures_upanishads" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Upanishads' }]} locale=>
+      {(page.list || []).map((item: any, i: number) => (
+        <div key={i}>
+          {item.category ? <h3>{item.catogory}</h3> : null}
+          {item.description ?
+            <p>{item.description}</p> :
+            <ul role="list" className="list-disc">
+              {item.list && item.list.map((list: any, j: number) => (
+                <li key={j}>
+                  <p><b>Name:</b> {list.name}</p>
+                  <p><b>Veda:</b> {list.veda}</p>
+                  <p><b>Type:</b> {list.type}</p>
+                  <p><b>Summary:</b> {list.summary}</p>
+                </li>
+              ))}
+            </ul>}
+        </div>
+      ))}
+    </PageLayout >
     </>
   );
 }

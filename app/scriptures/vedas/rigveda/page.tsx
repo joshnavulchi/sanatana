@@ -17,13 +17,13 @@ export default function RigvedaPage() {
   })();
   return (
     <>
-      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
-        <p>{page.summary}</p>
-        <section>
-          <h3>{page.contentTitle}</h3>
-          <p>{page.content}</p>
-        </section>
-      </PageLayout>
+      <PageLayout metaKey="scriptures_vedas_rigveda" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]} locale=>
+      <p>{page.summary}</p>
+      <section>
+        <h3>{page.contentTitle}</h3>
+        <p>{page.content}</p>
+      </section>
+    </PageLayout >
     </>
   );
 }

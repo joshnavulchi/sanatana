@@ -22,44 +22,44 @@ export default function Page({ searchParams }: any) {
   })();
   return (
     <>
-      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
-        <p><strong>Definition : </strong>{page.definition}</p>
-        {/* Core Principles of Samsara */}
-        <div>
-          <p><strong>Core Principles of Samsara : </strong> {page.core_principles.map((s: string) => (<span>{s}, </span>))}</p>
-          <ul role="list" className="list-disc">
-            {Object.entries(page.origin).map((cKey: any, idx: number) => {
-              return <li key={idx}>
-                <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
-              </li>
-            })}
-          </ul>
-          <p><strong>Components of Samsara : </strong></p>
-          <ul role="list" className="list-disc">
-            {Object.entries(page.components).map((cKey: any, idx: number) => {
-              return <li key={idx}>
-                <span>{cKey[1]}</span>
-              </li>
-            })}
-          </ul>
-          <p><strong>Relation to other concepts of Samsara : </strong></p>
-          <ul role="list" className="list-disc">
-            {Object.entries(page.relation_to_other_concepts).map((cKey: any, idx: number) => {
-              return <li key={idx}>
-                <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
-              </li>
-            })}
-          </ul>
-          <p><strong>Modern Relevance of Samsara : </strong></p>
-          <ul role="list" className="list-disc">
-            {Object.entries(page.modern_relevance).map((cKey: any, idx: number) => {
-              return <li key={idx}>
-                <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
-              </li>
-            })}
-          </ul>
-        </div>
-      </PageLayout>
+      <PageLayout metaKey="philosophy_samsara" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]} locale=>
+      <p><strong>Definition : </strong>{page.definition}</p>
+      {/* Core Principles of Samsara */}
+      <div>
+        <p><strong>Core Principles of Samsara : </strong> {page.core_principles.map((s: string) => (<span>{s}, </span>))}</p>
+        <ul role="list" className="list-disc">
+          {Object.entries(page.origin).map((cKey: any, idx: number) => {
+            return <li key={idx}>
+              <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
+            </li>
+          })}
+        </ul>
+        <p><strong>Components of Samsara : </strong></p>
+        <ul role="list" className="list-disc">
+          {Object.entries(page.components).map((cKey: any, idx: number) => {
+            return <li key={idx}>
+              <span>{cKey[1]}</span>
+            </li>
+          })}
+        </ul>
+        <p><strong>Relation to other concepts of Samsara : </strong></p>
+        <ul role="list" className="list-disc">
+          {Object.entries(page.relation_to_other_concepts).map((cKey: any, idx: number) => {
+            return <li key={idx}>
+              <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
+            </li>
+          })}
+        </ul>
+        <p><strong>Modern Relevance of Samsara : </strong></p>
+        <ul role="list" className="list-disc">
+          {Object.entries(page.modern_relevance).map((cKey: any, idx: number) => {
+            return <li key={idx}>
+              <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
+            </li>
+          })}
+        </ul>
+      </div>
+    </PageLayout >
     </>
   );
 }

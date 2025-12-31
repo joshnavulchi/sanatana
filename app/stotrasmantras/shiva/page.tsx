@@ -4,6 +4,7 @@ import { createGenerateMetadata } from 'lib/pageUtils';
 import { parseList } from 'lib/parseList';
 import PageLayout from '@components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('stotrasmantras_shiva');
+
 export default async function Page() {
   const locale = await detectLocale({});
   const S = (k: string) => String(t(k, locale));
@@ -17,7 +18,12 @@ export default async function Page() {
   // detectLocale is async; but for static rendering we will fall back to default through t() when needed
   const items = page.items || [];
   return (
-    <PageLayout metaKey="stotrasmantras_shiva" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title || 'Shiva Stotras' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+    <PageLayout
+      metaKey="stotrasmantras_shiva"
+      title={page.title}
+      breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title || 'Shiva Stotras' }]}
+      className="md"
+    >
       {items.map((item: any, i: number) => (
         <section key={i}>
           <h3>{item.name || item.title || `Item ${i + 1}`}</h3>

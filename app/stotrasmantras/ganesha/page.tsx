@@ -4,6 +4,7 @@ import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils'
 import { parseList } from 'lib/parseList';
 import PageLayout from '@components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('stotrasmantras_ganesha');
+
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
@@ -14,10 +15,16 @@ export default function Page({ searchParams }: any) {
       items: Array.isArray(k.items) ? k.items : parseList(t('ganeshstotras.ganesh_stotras', locale))
     };
   })();
+
   const items = page.items || [];
   return (
     <>
-      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (page.title || '') }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <PageLayout
+        metaKey="stotrasmantras_ganesha"
+        title={page.title}
+        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (page.title || '') }]}
+        className="md"
+      >
         {items.map((item: any, i: number) => (
           <section key={i}>
             <p>{item.name || item.title || `Item ${i + 1}`}</p>

@@ -18,7 +18,12 @@ export default function Page({ searchParams }: any) {
   const items = page.items || [];
   return (
     <>
-      <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (page.title || '') }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <PageLayout
+        metaKey="stotrasmantras_devi"
+        title={page.title}
+        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (page.title || '') }]}
+        className="md"
+      >
         {items.map((item: any, i: number) => (
           <section key={i}>
             <h3>{item.name || item.title || `Item ${i + 1}`}</h3>
