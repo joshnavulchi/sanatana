@@ -37,13 +37,13 @@ export default function AtharvavedaPage() {
 
   return (
     <>
-      <PageLayout metaKey="scriptures_vedas_atharvaveda" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]} locale=>
-      <p>{page.summary}</p>
-      <section>
-        <h3>{page.contentTitle}</h3>
-        <p>{page.content}</p>
-      </section>
-    </PageLayout >
+      <PageLayout metaKey="scriptures_vedas_atharvaveda" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}>
+        <p>{page.summary}</p>
+        <section>
+          <h3>{page.contentTitle}</h3>
+          <p>{page.content}</p>
+        </section>
+      </PageLayout>
     </>
   );
 }

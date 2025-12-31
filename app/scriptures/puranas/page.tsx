@@ -40,7 +40,7 @@ export default function PuranasPage({ searchParams }: any) {
             </div>
           )}
         </div>
-      </PageLayout >
+      </PageLayout>
     </>
   );
 }

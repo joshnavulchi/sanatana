@@ -1,13 +1,13 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { detectLocale, t } from '../../lib/i18n';
 import { resolveLocaleFromHeaders } from 'lib/pageUtils';
-import PageLayout from '@components/common/PageLayout';
+
 export default function CookiePolicyPage({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   return (
     <>
-      <PageLayout breadcrumbs={[{ labelKey: 'nav.home', href: '/' }]}>
+      <div className="content-wrapper md page-space-xl">
         <p>{S('policies.cookiePolicy.title')}</p>
         <p>{S('policies.cookiePolicy.intro')}</p>
         <p>{S('policies.cookiePolicy.whatAreCookies')}</p>
@@ -24,7 +24,7 @@ export default function CookiePolicyPage({ searchParams }: any) {
         <p>{S('policies.cookiePolicy.dataSharing')}</p>
         <p>{S('policies.cookiePolicy.dataSharingDesc')}</p>
         <p>{S('policies.cookiePolicy.lastUpdated').replace('{date}', new Date().toLocaleDateString())}</p>
-      </PageLayout >
+      </div>
     </>
   );
 }

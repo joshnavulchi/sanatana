@@ -33,7 +33,7 @@ export default function Page({ searchParams }: any) {
             {item.main_characters ? <p><b>Characters: </b>{JSON.stringify(item.main_characters)}</p> : null}
           </div>
         ))}
-      </PageLayout >
+      </PageLayout>
     </>
   );
 }

@@ -14,9 +14,9 @@ export default function Page() {
   })();
   return (
     <>
-      <PageLayout metaKey="practices_vastu" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]} locale=>
-      <p>{page.definition}</p>
-    </PageLayout >
+      <PageLayout metaKey="practices_vastu" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}>
+        <p>{page.definition}</p>
+      </PageLayout>
     </>
   );
 }

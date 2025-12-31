@@ -58,7 +58,7 @@ export default function Page({ searchParams }: any) {
             );
           })}
         </div>
-      </PageLayout >
+      </PageLayout>
     </>
   );
 }

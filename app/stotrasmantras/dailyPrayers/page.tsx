@@ -24,7 +24,7 @@ export default function Page({ searchParams }: any) {
         className="md"
       >
         <p>Placeholder for daily prayers and short mantras.</p>
-      </PageLayout >
+      </PageLayout>
     </>
   );
 }

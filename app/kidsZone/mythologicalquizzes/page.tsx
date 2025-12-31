@@ -14,9 +14,9 @@ export default function Page({ searchParams }: any) {
   })();
   return (
     <>
-      <PageLayout metaKey="kidsZone_mythologicalquizzes" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Mythological Quizzes' }]} locale=>
-      <QuizClient />
-    </PageLayout >
+      <PageLayout metaKey="kidsZone_mythologicalquizzes" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Mythological Quizzes' }]}>
+        <QuizClient />
+      </PageLayout>
     </>
   );
 }
