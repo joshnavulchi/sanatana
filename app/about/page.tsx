@@ -1,13 +1,14 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, detectLocale, getMeta } from '../../lib/i18n';
+import { t, detectLocale } from '../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('about');
+export const generateMetadata = createGenerateMetadata('home');
+
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   // Single `page_title` object used across the page: prefers `locales/*/about.json` values
   const about: any = (() => {
-    const k: any = getMeta('about', {}, locale) || {};
+    const k: any = 'about';
     const arr = (p: any) => {
       if (Array.isArray(p)) return p;
       if (p == null) return [];
@@ -34,8 +35,15 @@ export default function Page({ searchParams }: any) {
     };
   })();
   return (
-    <PageLayout metaKey="about" title={about.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'About' }]} locale={(typeof locale !== 'undefined' ? locale : undefined)} className="content-wrapper md page-space-xl">
-      <p>{about.description}</p>
+    <PageLayout
+      metaKey="about"
+      title={about.title}
+      breadcrumbs={[
+        { labelKey: 'nav.home', href: '/' },
+        { label: 'About' }]}
+      className="sm"
+    >
+      <p>Vijay {about.description}</p>
       <div>
         <h3>Vision</h3>
         <p>{about.vision.description}</p>

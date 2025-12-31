@@ -2,7 +2,7 @@
 .content-wrapper {
   margin: 0 auto;
   padding: var(--space-lg);
-  max-width: var(--content-width);
+  max-width: var(--content-width-lg);
   &.xs {
     max-width: var(--content-width-xs);
   }

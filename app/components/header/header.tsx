@@ -150,10 +150,10 @@ export default function Header() {
   if (!translations) return null;
 
   return (
-    <header ref={headerRef} className="w-full sticky top-0 z-30">
+    <header ref={headerRef} className="w-full sticky top-0 z-30 shadow-md border-b-4 border-amber-200">
       <BannerNotifications id="first_banner" message={translations.banner} marquee="true" />
       {/* <BannerNotifications id="second_banner" message={translations.banner2} marquee="false" showClose={true} backgroundclass="notification-alternative-background-color" /> */}
-      <div className="logo-title-nav-wrapper shadow-md border-b-4 border-amber-200">
+      <div className="logo-title-nav-wrapper">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className="logo-title flex items-center no-underline gap-2">

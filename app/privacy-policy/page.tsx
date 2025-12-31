@@ -1,15 +1,21 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale } from '../../lib/i18n';
+import { createGenerateMetadata } from 'lib/pageUtils';
 import { parseList } from 'lib/parseList';
 import PageLayout from '@components/common/PageLayout';
-import { createGenerateMetadata } from 'lib/pageUtils';
 export const generateMetadata = createGenerateMetadata('privacy_policy');
+
 export default async function PrivacyPolicy() {
   const locale = await detectLocale();
   const S = (k: string) => String(t(k, locale));
   return (
     <>
-      <PageLayout title={S('privacy.title')} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: String(t('privacy.title')) }]} locale={(typeof locale !== 'undefined' ? locale : undefined)}>
+      <PageLayout
+        metaKey="privacy_policy"
+        title={S('privacy.title')}
+        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Privacy & Policy' }]}
+        className="sm"
+      >
         <div>
           <p>
             <strong>{S('privacy.lastUpdated')}</strong> {S('privacy.lastUpdated')}

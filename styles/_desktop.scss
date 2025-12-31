@@ -28,7 +28,8 @@
   small, .small, .meta { font-size: 0.75rem; }
   header {
     .logo-title-nav-wrapper {
-      padding: var(--space-xs) var(--space-xl);
+      padding-right: var(--space-md);
+      padding-left: var(--space-md);
     }
     button {
       margin-left: var(--space-xs);
@@ -100,6 +101,18 @@
   .sankshepa-slokas {
     p:first-child {
       font-size: 1.4rem;
+    }
+  }
+  .main-slider {
+    .slider-top,
+    .slider-bottom,
+    .slider-top-0,
+    .slider-bottom-0 {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    .title {
+      font-size: 2.5rem;
     }
   }
 }
