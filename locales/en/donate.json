@@ -81,5 +81,27 @@
       "heading": "How your donation helps",
       "details": "Donations enable the following practical activities: continuous hosting and CDN costs to keep pages online; acquiring high-quality audio recording resources and paying artists or narrators for clear pronunciation and musical rendition; commissioning translations and editorial work to improve accuracy; paying for software tools and subscriptions that facilitate content creation and management; and small stipends for contributors who perform essential tasks such as proofreading or typesetting.\n\nWe prioritize actions with direct public benefit: making more texts available in multiple languages, improving search and accessibility features, and creating clear ritual guides that people can use in their daily lives. In addition, donations help fund periodic backups and digital preservation measures so that texts remain available over time."
     }
+    ,
+    "faq": {
+      "heading": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Is my donation secure?",
+          "a": "Yes. We use reputable payment processors such as PayPal for one-time donations. For direct transfers we provide bank/UPI details; please confirm details over an official channel if you are unsure. We do not store full payment card details on our servers."
+        },
+        {
+          "q": "Can I get a receipt or documentation for my donation?",
+          "a": "Yes. For donors who require receipts or documentation, please contact us via the contact page with your donation details and we will provide a report or receipt depending on local regulations and our administrative capabilities."
+        },
+        {
+          "q": "How will my donation be used?",
+          "a": "Donations are primarily used for hosting, audio and content production, translations, development and maintenance, and minimal administrative costs. We publish summaries of major expenditures and can provide more detailed reports for significant grants."
+        },
+        {
+          "q": "Can I sponsor a specific project or text?",
+          "a": "Yes. Many donors prefer to sponsor specific tasks such as recording a set of stotras or funding translation of a text. Contact us with the project details and we will discuss scope and acknowledgement preferences."
+        }
+      ]
+    }
   }
 }
