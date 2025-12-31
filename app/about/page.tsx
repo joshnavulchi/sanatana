@@ -2,7 +2,7 @@
 import { t, detectLocale } from '../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('home');
+export const generateMetadata = createGenerateMetadata('about');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
@@ -43,7 +43,7 @@ export default function Page({ searchParams }: any) {
         { label: 'About' }]}
       className="sm"
     >
-      <p>Vijay {about.description}</p>
+      <p>{about.description}</p>
       <div>
         <h2>Vision</h2>
         <p>{about.vision.description}</p>
