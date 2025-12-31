@@ -1,3 +1,4 @@
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, getMeta, detectLocale, DEFAULT_LOCALE, detectServerLocaleFromHeaders } from './i18n';
 import { headers } from 'next/headers';
 import { secrets } from './secrets';
@@ -12,7 +13,8 @@ export function resolveLocaleFromHeaders() {
 }
 
 export function createGenerateMetadata(metaKey: string, titleKey?: string, descriptionKey?: string) {
-  return async function createGenerateMetadata(props: Record<string, unknown> | undefined) {
+
+  return async function generateMetadata(props: Record<string, unknown> | undefined) {
     const { searchParams } = (props || {}) as { searchParams?: unknown };
     // `searchParams` can be a Promise in newer Next.js versions — unwrap it first
     let resolvedSearchParams: unknown = searchParams;
@@ -25,7 +27,6 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
     } catch (e) {
       resolvedSearchParams = undefined;
     }
-
     let locale = detectLocale(resolvedSearchParams);
     if (!locale) locale = resolveLocaleFromHeaders();
     const meta = getMeta(metaKey, {}, locale) || {};
@@ -39,7 +40,6 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
     } else {
       title = typeof meta.title === 'string' ? meta.title : undefined;
     }
-
     let description: string | undefined;
     if (descriptionKey) {
       const dv = t(descriptionKey, locale);
@@ -47,7 +47,6 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
     } else {
       description = typeof meta.description === 'string' ? meta.description : undefined;
     }
-
     // Build absolute OG image URL when a relative path is provided in meta.ogImage
     let ogImages: Array<{ url: string } | string> | undefined = undefined;
     if (meta.ogImage) {
@@ -62,7 +61,6 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
         ogImages = [String((meta as any).ogImage)];
       }
     }
-
     return {
       title,
       description,
@@ -83,3 +81,4 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
     };
   };
 }
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
