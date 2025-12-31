@@ -33,7 +33,7 @@ export default function SanatanaDharma() {
   return (
     <section ref={ref} className="background-alternative">
       <div className="content-wrapper sanatana-dharma">
-        <h2>{titleLines}</h2>
+        <h1>{titleLines}</h1>
         <p>{definitionLines}</p>
         <p>
           <strong>Core Principles - </strong>
