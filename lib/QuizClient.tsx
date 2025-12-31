@@ -124,7 +124,7 @@ export default function QuizClient() {
   if (finished) {
     return (
       <div className="max-w-3xl">
-        <h3>Quiz Results</h3>
+        <h2>Quiz Results</h2>
         <div>Your score: <strong>{score}</strong> / {qList.length}</div>
         <div>Time taken: {fmtTime(10 * 60 - timeLeft)}</div>
         <div className="space-y-3">

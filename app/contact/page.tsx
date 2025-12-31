@@ -15,15 +15,15 @@ export default async function ContactPage() {
         <p>{S('contactPage.lead')}</p>
         <section className="flex flex-col md:flex-row items-start justify-start gap-5">
           <div className="w-full md:w-1/2">
-            <h3>{S('contactPage.getInTouch')}</h3>
+            <h2>{S('contactPage.getInTouch')}</h2>
             <p>{S('contactPage.useForm')} <a href="mailto:vulchi.vijay@gmail.com">vulchi.vijay@gmail.com</a>.</p>
             <div>
               <div>
-                <h4>{S('contactPage.mailingAddress')}</h4>
+                <h3>{S('contactPage.mailingAddress')}</h3>
                 <p>{S('contactPage.addressLine1')}<br />{S('contactPage.addressLine2')}<br />{S('contactPage.addressLine3')}</p>
               </div>
               <div>
-                <h5>{S('contactPage.phone')}</h5>
+                <h4>{S('contactPage.phone')}</h4>
                 <p>+91-80991-81075</p>
               </div>
             </div>

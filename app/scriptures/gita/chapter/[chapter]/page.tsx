@@ -78,7 +78,7 @@ export default async function Page({ params, searchParams }: { params: any, sear
         <nav role="menu">
           <Link href="/scriptures/gita">&larr; Back to Bhagavad Gita</Link>
         </nav>
-        
+
 
         <h2>{title}</h2>
 
@@ -116,7 +116,7 @@ export default async function Page({ params, searchParams }: { params: any, sear
 
               return (
                 <article key={idx}>
-                  {/* {heading ? <h3>{heading}</h3> : null} */}
+                  {/* {heading ? <h2>{heading}</h2> : null} */}
                   {speakerHeader ? <div>{speakerHeader}</div> : null}
 
                   <div>

@@ -26,7 +26,7 @@ export default async function Page() {
     >
       {items.map((item: any, i: number) => (
         <section key={i}>
-          <h3>{item.name || item.title || `Item ${i + 1}`}</h3>
+          <h2>{item.name || item.title || `Item ${i + 1}`}</h2>
           <div>
             {item.author || item.meter || item.deity_form ? (
               <span>

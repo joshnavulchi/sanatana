@@ -45,7 +45,7 @@ export default function Page({ searchParams }: any) {
     >
       <p>Vijay {about.description}</p>
       <div>
-        <h3>Vision</h3>
+        <h2>Vision</h2>
         <p>{about.vision.description}</p>
         {Array.isArray(about.vision.focusAreas) && (
           <ul role="list" className="list-disc">
@@ -58,7 +58,7 @@ export default function Page({ searchParams }: any) {
       </div>
 
       <div>
-        <h4>Why we created this</h4>
+        <h3>Why we created this</h3>
         <p>{about.whyWeCreated.purpose}</p>
         <ul role="list" className="list-disc">
           {(about.whyWeCreated.problemsAddressed as string[]).map((p: string, i: number) => (
@@ -68,7 +68,7 @@ export default function Page({ searchParams }: any) {
       </div>
 
       <div>
-        <h5>Commitment</h5>
+        <h4>Commitment</h4>
         <ul role="list" className="list-disc">
           {(about.commitment as string[]).map((c: string, i: number) => (
             <li key={i}>{c}</li>
@@ -78,7 +78,7 @@ export default function Page({ searchParams }: any) {
 
       {about.joinUs.message && (
         <div>
-          <h6>Join us</h6>
+          <h5>Join us</h5>
           <p>{about.joinUs.message}</p>
           {Array.isArray(about.joinUs.invite) && (
             <ul role="list" className="list-disc">

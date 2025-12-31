@@ -19,7 +19,7 @@ export default function Page({ searchParams }: any) {
       <PageLayout metaKey="scriptures_upanishads" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Upanishads' }]}>
         {(page.list || []).map((item: any, i: number) => (
           <div key={i}>
-            {item.category ? <h3>{item.catogory}</h3> : null}
+            {item.category ? <h2>{item.catogory}</h2> : null}
             {item.description ?
               <p>{item.description}</p> :
               <ul role="list" className="list-disc">
