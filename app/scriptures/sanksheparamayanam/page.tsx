@@ -37,7 +37,7 @@ export default function Page({ searchParams }: any) {
           {/* Main characters */}
           {page.main_characters && page.main_characters.length > 0 && (
             <div>
-              <h3>Main Characters</h3>
+              <h2>Main Characters</h2>
               <ul role="list" className="list-disc">
                 {page.main_characters.map((c: any, idx: number) => (
                   <li key={idx}>
@@ -50,7 +50,7 @@ export default function Page({ searchParams }: any) {
           {/* Important places */}
           {page.important_places && page.important_places.length > 0 && (
             <div>
-              <h4>Important Places</h4>
+              <h3>Important Places</h3>
               <ul role="list" className="list-disc">
                 {page.important_places.map((p: any, idx: number) => (
                   <li key={idx}>
@@ -63,7 +63,7 @@ export default function Page({ searchParams }: any) {
           {/* Timeline */}
           {page.timeline && page.timeline.length > 0 && (
             <div>
-              <h5>Timeline</h5>
+              <h4>Timeline</h4>
               <ol role="list" className="list-disc">
                 {page.timeline.map((ev: any, idx: number) => (
                   <li key={idx}>
@@ -76,7 +76,7 @@ export default function Page({ searchParams }: any) {
           {/* Core themes */}
           {page.core_themes && page.core_themes.length > 0 && (
             <div>
-              <h6>Core Themes</h6>
+              <h5>Core Themes</h5>
               <ul role="list" className="list-disc">
                 {page.core_themes.map((ct: any, idx: number) => (
                   <li key={idx}>{(typeof ct.title === 'string') ? ct.title : ct['title']}</li>

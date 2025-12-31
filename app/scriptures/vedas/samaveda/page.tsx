@@ -20,7 +20,7 @@ export default function SamavedaPage() {
       <PageLayout metaKey="scriptures_vedas_samaveda" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}>
         <p>{page.summary}</p>
         <section>
-          <h3>{page.contentTitle}</h3>
+          <h2>{page.contentTitle}</h2>
           <p>{page.content}</p>
         </section>
       </PageLayout>

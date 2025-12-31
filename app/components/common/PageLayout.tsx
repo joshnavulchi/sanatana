@@ -18,7 +18,7 @@ export default function PageLayout({ metaKey, title, breadcrumbs, className, chi
       {metaKey ? <StructuredData metaKey={metaKey} /> : null}
       <main className={wrapper}>
         {breadcrumbs ? <Breadcrumbs items={breadcrumbs} /> : null}
-        {title ? <h2>{title}</h2> : null}
+        {title ? <h1>{title}</h1> : null}
         {children}
       </main>
     </>

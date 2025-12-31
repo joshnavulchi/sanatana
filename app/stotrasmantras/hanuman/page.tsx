@@ -27,7 +27,7 @@ export default function Page({ searchParams }: any) {
       >
         {items.map((item: any, i: number) => (
           <section key={i}>
-            <h3>{item.name || item.title || `Item ${i + 1}`}</h3>
+            <h2>{item.name || item.title || `Item ${i + 1}`}</h2>
             <div>
               {item.origin || item.author || item.language ? (
                 <span>

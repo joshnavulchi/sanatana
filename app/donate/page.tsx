@@ -44,7 +44,7 @@ export default function DonatePage() {
       <PageLayout metaKey="donate" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Donate' }]} className="sm">
         <p>{page.lead}</p>
         <section className="donation-wrapper">
-          <h3>{page.expansesTitle}</h3>
+          <h2>{page.expansesTitle}</h2>
           <div className="bg-white shadow-md rounded-xl overflow-auto">
             <table className="w-full border">
               <thead>
@@ -69,12 +69,12 @@ export default function DonatePage() {
               </tbody>
             </table>
           </div>
-          <h4>{page.oneTime}</h4>
+          <h3>{page.oneTime}</h3>
           <div className="bg-white shadow-md rounded-xl">
             <p>{page.oneTimeLead}</p>
             <PayPalButton link="https://www.paypal.com/ncp/payment/WYDY7465MG69" />
           </div>
-          <h5>{page.upiTitle}</h5>
+          <h4>{page.upiTitle}</h4>
           <div className="bg-white shadow-md rounded-xl">
             <div className="flex flex-col md:flex-row items-center justify-start gap-10">
               <ul role="list" className="list-disc">
