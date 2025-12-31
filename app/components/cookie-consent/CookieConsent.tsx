@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import storage from '../../../lib/storage';
 import { DEFAULT_LOCALE } from '../../../lib/i18n';
 import { useT } from '../../hooks/useT';
-import CookiePreferencesModal from './cookiePreferencesModal';
+import CookiePreferencesModal from './CookiePreferencesModal';
 
 type Prefs = {
   strictlyNecessary: boolean;

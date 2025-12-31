@@ -9,9 +9,9 @@ import { secrets } from '../lib/secrets';
 import Script from 'next/script';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
-import AnalyticsCollector from './components/analytics/analyticsCollector';
-import CookieConsent from './components/cookie-consent/cookieConsent';
-import TopProgress from './components/progress/topProgress';
+import AnalyticsCollector from './components/analytics/AnalyticsCollector';
+import CookieConsent from './components/cookie-consent/CookieConsent';
+import TopProgress from './components/progress/TopProgress';
 import Loader from './components/loader/loader';
 import ScrollToTop from './components/scroll-to-top/scroll-to-top';
 
