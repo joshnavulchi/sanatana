@@ -6,9 +6,9 @@ export default function GayathriStotram({ locale }: { locale?: string }) {
   return (
     <section className="bg-white">
       <div className="content-wrapper gayathri-stotram text-center">
-        <h5 className="multi-text-color">
+        <h4 className="multi-text-color">
           {Array.isArray(heading) ? (heading as string[]).map((s, i) => <span key={i}>{s} </span>) : <span>{String(heading)}</span>}
-        </h5>
+        </h4>
         <p>{t('home.gayathri.transliteration', loc)}</p>
         <p>{t('home.gayathri.translation', loc)}</p>
       </div>

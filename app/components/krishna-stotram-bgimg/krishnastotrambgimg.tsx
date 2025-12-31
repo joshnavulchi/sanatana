@@ -31,9 +31,9 @@ export default function KrishnaStotramBgImg({ gradient = "from-blue-950 to-black
     <section ref={ref} className={clsx("image-krishna-wrapper relative w-full min-h-[calc(100vh-90px)] flex flex-col md:flex-row items-center justify-end md:justify-start text-center overflow-hidden")} style={{ opacity: 0.85, backgroundImage: `url(/images/lord-krishna.png)` }}>
       <div className={clsx("absolute inset-0 h-full z-0", `bg-gradient-to-r ${gradient}`)} style={{ opacity: 0.85 }} />
       <div className={clsx("relative z-1 md:left-20 bg-white md:w-3xl md:transition-all md:rounded-2xl md:shadow-2xl p-3", inView ? "opacity-100" : "opacity-0")}>
-        <h6 className="multi-text-color">
+        <h5 className="multi-text-color">
           {parseList(t('home.krishnaBg.heading')).map((ln, i) => <span key={i}>{ln} </span>)}
-        </h6>
+        </h5>
         <p>{t('home.krishnaBg.transliteration')}</p>
       </div>
     </section>
