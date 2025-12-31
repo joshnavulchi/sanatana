@@ -6,6 +6,7 @@ import PayPalButton from '../components/paypalbutton';
 import PageLayout from '@components/common/PageLayout';
 import Link from 'next/link';
 import Image from 'next/image';
+import FaqAccordion from '@components/common/FaqAccordion';
 export const generateMetadata = createGenerateMetadata('donate');
 
 export default function DonatePage() {
@@ -16,6 +17,7 @@ export default function DonatePage() {
     return {
       title: typeof k.title === 'string' ? k.title : String(t('donatePage.title', locale)),
       lead: k.lead || String(t('donatePage.lead', locale)),
+      description: k.description || String(t('donatePage.description', locale)),
       expansesTitle: k.expansesTitle || String(t('donatePage.expansesTitle', locale)),
       tableName: k.table?.name || String(t('donatePage.table.name', locale)),
       tableExpanses: k.table?.expanses || String(t('donatePage.table.expanses', locale)),
@@ -43,6 +45,7 @@ export default function DonatePage() {
     <>
       <PageLayout metaKey="donate" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Donate' }]} className="sm">
         <p>{page.lead}</p>
+        <p>{page.description}</p>
         <section className="donation-wrapper">
           <h2>{page.expansesTitle}</h2>
           <div className="bg-white shadow-md rounded-xl overflow-auto">
@@ -97,6 +100,19 @@ export default function DonatePage() {
               {S('donatePage.becomeMonthly')}
             </Link>
           </div>
+          {/* FAQs */}
+          {(() => {
+            try {
+              const faqItems = (t('donatePage.faq.items', locale) as any) || [];
+              const faqHeading = String(t('donatePage.faq.heading', locale) || '');
+              if (Array.isArray(faqItems) && faqItems.length > 0) {
+                return <FaqAccordion items={faqItems} heading={faqHeading} />;
+              }
+            } catch (e) {
+              /* ignore */
+            }
+            return null;
+          })()}
         </section>
       </PageLayout>
     </>

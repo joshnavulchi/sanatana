@@ -4,6 +4,7 @@ import { createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
 import ContactForm from '../components/contact/ContactForm';
 import Image from 'next/image';
+import FaqAccordion from '@components/common/FaqAccordion';
 export const generateMetadata = createGenerateMetadata('contact');
 
 export default async function ContactPage() {
@@ -39,6 +40,19 @@ export default async function ContactPage() {
             <Image src="/images/map-location.png" alt="map location" width="1200" height="600" />
           </div>
         </section>
+        {/* FAQs */}
+        {(() => {
+          try {
+            const faqItems = (t('contactPage.faq.items', locale) as any) || [];
+            const faqHeading = String(t('contactPage.faq.heading', locale) || '');
+            if (Array.isArray(faqItems) && faqItems.length > 0) {
+              return <FaqAccordion items={faqItems} heading={faqHeading} />;
+            }
+          } catch (e) {
+            /* ignore */
+          }
+          return null;
+        })()}
       </PageLayout>
     </>
   );

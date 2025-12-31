@@ -9,15 +9,16 @@
 }
 header {
   background-color: var(--color-bg);
-  .logo-title h1 {
-    margin: 0;
-    font-size: 2rem;
-    color: var(--color-title);
-  }
   .logo-title-nav-wrapper {
     margin: 0 auto;
     padding: var(--space-xs);
     max-width: var(--content-width-xl);
+  }
+  .logo-title {
+    line-height: 32px;
+    font-weight: 900;
+    font-size: 2rem;
+    color: var(--color-title);
   }
   li {
     margin-bottom: 0;

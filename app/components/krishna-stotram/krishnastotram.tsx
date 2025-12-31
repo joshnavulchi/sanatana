@@ -28,22 +28,24 @@ export default function KrishnaStotram() {
   const translation: string = t("home.krishnaStotram.translation") as string;
 
   return (
-    <section ref={ref} className="bg-white" >
+    <section ref={ref} className="bg-white">
       <div className="content-wrapper krishna-stotram text-center">
-        <h2 className="multi-text-color">
-          {Array.isArray(titleLines) ? (
-            titleLines.map((ln: string, idx: number) => (
-              <span key={idx}>{ln} </span>
-            ))
-          ) : (
-            <span>{String(titleLines)}</span>
-          )}
-        </h2>
-        <p>
-          <span>{transliteration}</span>
-          <strong>{credit} </strong>
-        </p>
-        <p>{translation}</p>
+        <div className="md:mx-auto md:max-w-5xl">
+          <h2 className="multi-text-color">
+            {Array.isArray(titleLines) ? (
+              titleLines.map((ln: string, idx: number) => (
+                <span key={idx}>{ln} </span>
+              ))
+            ) : (
+              <span>{String(titleLines)}</span>
+            )}
+          </h2>
+          <p>
+            <span>{transliteration}</span>
+            <strong>{credit} </strong>
+          </p>
+          <p>{translation}</p>
+        </div>
       </div>
     </section>
   );

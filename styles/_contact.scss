@@ -2,7 +2,9 @@
 .map-wrapper {
   padding: var(--space-xl) var(--space-md);  
   .cta-content {
-    p {
+    p, h6 {
+      padding: var(--space-sm) var(--space-md);
+      background-color: rgba(0,0,0,0.6);
       color: var(--color-white);
     }
   }
