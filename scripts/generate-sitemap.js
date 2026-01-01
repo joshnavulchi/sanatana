@@ -46,16 +46,42 @@ function readPaths() {
   const p = path.join(process.cwd(), 'lib', 'sitemapPaths.ts');
   const src = fs.readFileSync(p, 'utf8');
   const m = src.match(/export const PATHS\s*=\s*\[(([\s\S]*?)\];)/m);
-  if (!m) throw new Error('PATHS not found in lib/sitemapPaths.ts');
-  const arrSrc = m[0].replace(/export const PATHS\s*=\s*/m, '');
-  // naive eval: replace single quotes and trailing commas
-  const js = arrSrc.replace(/\/\//g, '/*');
-  // Extract strings
-  const items = [];
-  const re = /'([^']+)'/g;
-  let it;
-  while ((it = re.exec(arrSrc)) !== null) items.push(it[1]);
-  return items;
+  if (m) {
+    const arrSrc = m[0].replace(/export const PATHS\s*=\s*/m, '');
+    // Extract strings
+    const items = [];
+    const re = /'([^']+)'/g;
+    let it;
+    while ((it = re.exec(arrSrc)) !== null) items.push(it[1]);
+    return items;
+  }
+
+  // Fallback: sitemapPaths.ts now computes PATHS programmatically.
+  // Try to build paths from the English nav.json instead of parsing TS.
+  try {
+    const navPath = path.join(process.cwd(), 'lib', 'locales', 'en', 'nav.json');
+    const navRaw = fs.readFileSync(navPath, 'utf8');
+    const nav = JSON.parse(navRaw);
+    const navRoot = nav && nav.nav ? nav.nav : (nav && nav.default && nav.default.nav) || {};
+    const set = new Set(['/']);
+    const staticExtras = ['/privacy-policy', '/terms-of-service'];
+    for (const s of staticExtras) set.add(s);
+    for (const key of Object.keys(navRoot)) {
+      if (key === 'home') continue;
+      const topPath = `/${key}`;
+      set.add(topPath);
+      const item = navRoot[key];
+      if (item && typeof item === 'object') {
+        const children = item.nav || item['nav'];
+        if (children && typeof children === 'object') {
+          for (const childKey of Object.keys(children)) set.add(`${topPath}/${childKey}`);
+        }
+      }
+    }
+    return Array.from(set).sort();
+  } catch (err) {
+    throw new Error('PATHS not found in lib/sitemapPaths.ts and fallback failed');
+  }
 }
 
 function buildSitemap(paths) {
