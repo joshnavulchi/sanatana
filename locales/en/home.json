@@ -217,3 +217,131 @@
     }
   }
 }
+
+{
+  "page": "home",
+  "meta": {
+    "title": "Sanātana Dharma | Eternal Wisdom of Vedas, Gita & Upanishads",
+    "description": "Explore Sanātana Dharma—the eternal way of life. Learn Bhagavad Gita, Vedas, Upanishads, Karma, Bhakti, and Hindu philosophy in depth.",
+    "canonical": "https://sanatanadharmam.in/"
+  },
+  "hero": {
+    "heading": "Sanātana Dharma",
+    "subheading": "The Eternal Way of Life",
+    "description": "Sanātana Dharma is a timeless way of understanding existence, consciousness, and righteous living, rooted in ancient spiritual wisdom.",
+    "primaryCta": {
+      "label": "Explore Bhagavad Gita",
+      "link": "/bhagavad-gita"
+    },
+    "secondaryCta": {
+      "label": "Learn Sanātana Dharma",
+      "link": "/sanatana-dharma"
+    }
+  },
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "Understanding Sanātana Dharma",
+      "content": "Sanātana Dharma refers to eternal principles governing truth, duty, ethics, and consciousness. It transcends religious boundaries and emphasizes inquiry, reflection, and realization."
+    },
+    {
+      "id": "living-tradition",
+      "title": "A Living Spiritual Tradition",
+      "content": "Sanātana Dharma evolved through sages and seers who transmitted experiential wisdom. It encourages multiple spiritual paths while preserving universal harmony."
+    },
+    {
+      "id": "scriptures",
+      "title": "The Sacred Scriptures",
+      "items": [
+        {
+          "title": "The Vedas",
+          "description": "Foundational texts exploring cosmic order, metaphysics, ritual, and philosophical inquiry."
+        },
+        {
+          "title": "The Upanishads",
+          "description": "Teachings on self-realization, consciousness, and the nature of ultimate reality."
+        },
+        {
+          "title": "The Bhagavad Gita",
+          "description": "A practical spiritual dialogue addressing duty, devotion, knowledge, and liberation."
+        },
+        {
+          "title": "Puranas & Itihasas",
+          "description": "Narrative traditions preserving philosophy, culture, and moral values."
+        }
+      ]
+    },
+    {
+      "id": "principles",
+      "title": "Core Principles of Sanātana Dharma",
+      "items": [
+        {
+          "name": "Dharma",
+          "meaning": "Righteous conduct and moral responsibility aligned with truth."
+        },
+        {
+          "name": "Karma",
+          "meaning": "Law of action and consequence shaping individual destiny."
+        },
+        {
+          "name": "Bhakti",
+          "meaning": "Path of devotion through love and surrender."
+        },
+        {
+          "name": "Jnana",
+          "meaning": "Path of wisdom through inquiry and discernment."
+        },
+        {
+          "name": "Moksha",
+          "meaning": "Liberation from ignorance and suffering."
+        }
+      ]
+    },
+    {
+      "id": "relevance",
+      "title": "Why Sanātana Dharma Matters Today",
+      "points": [
+        "Mental clarity in a fast-paced world",
+        "Ethical foundations for modern society",
+        "Visibility of consciousness and mindfulness",
+        "Harmony between progress and responsibility"
+      ]
+    },
+    {
+      "id": "purpose",
+      "title": "Purpose of Sanatanadharmam.in",
+      "content": "Sanatanadharmam.in exists to present authentic, structured, and respectful explanations of Sanātana Dharma for seekers worldwide."
+    },
+    {
+      "id": "offerings",
+      "title": "What You Will Find Here",
+      "items": [
+        "Chapter-wise Bhagavad Gita explanations",
+        "Introductions to Vedas and Upanishads",
+        "Concept clarity on Karma and Dharma",
+        "Philosophical insights from Puranas",
+        "Practical relevance for modern life"
+      ]
+    },
+    {
+      "id": "authenticity",
+      "title": "Commitment to Authenticity",
+      "content": "We prioritize traditional sources, accurate interpretations, and clarity without distortion, superstition, or sensationalism."
+    },
+    {
+      "id": "journey",
+      "title": "A Timeless Journey",
+      "content": "Sanātana Dharma is a lifelong path of refinement, awareness, and service leading toward harmony with existence."
+    }
+  ],
+  "footer": {
+    "tagline": "Preserving Eternal Knowledge for Present and Future Generations",
+    "links": [
+      { "label": "Bhagavad Gita", "url": "/bhagavad-gita" },
+      { "label": "Vedas", "url": "/vedas" },
+      { "label": "Upanishads", "url": "/upanishads" },
+      { "label": "About", "url": "/about" },
+      { "label": "Contact", "url": "/contact" }
+    ]
+  }
+}
