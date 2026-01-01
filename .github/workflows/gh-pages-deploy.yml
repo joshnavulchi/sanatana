@@ -8,9 +8,9 @@ on:
     types: [completed]
   # Allow manual runs from the Actions UI
   workflow_dispatch: {}
-  # Scheduled daily run at 09:00 IST (03:30 UTC cron)
+  # Scheduled weekly run: Saturday 09:00 IST (03:30 UTC cron)
   schedule:
-    - cron: '30 3 * * *'
+    - cron: '30 3 * * 6'
 
 jobs:
   build-and-deploy:
