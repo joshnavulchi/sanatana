@@ -59,7 +59,7 @@ function readPaths() {
   // Fallback: sitemapPaths.ts now computes PATHS programmatically.
   // Try to build paths from the English nav.json instead of parsing TS.
   try {
-    const navPath = path.join(process.cwd(), 'lib', 'locales', 'en', 'nav.json');
+    const navPath = path.join(process.cwd(), 'locales', 'en', 'nav.json');
     const navRaw = fs.readFileSync(navPath, 'utf8');
     const nav = JSON.parse(navRaw);
     const navRoot = nav && nav.nav ? nav.nav : (nav && nav.default && nav.default.nav) || {};
