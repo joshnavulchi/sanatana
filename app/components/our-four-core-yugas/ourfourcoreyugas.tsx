@@ -1,36 +1,46 @@
-import { t, DEFAULT_LOCALE } from '../../../lib/i18n';
+'use client';
 
-export default function OurFourCoreYugas({ locale }: { locale?: string }) {
-  const loc = locale || DEFAULT_LOCALE;
+import { useT } from '../../hooks/useT';
+import { parseList } from 'lib/parseList';
+
+import styles from './ourfourcoreyugas.module.scss';
+
+export default function OurFourCoreYugas() {
+  const t = useT();
+  const yugas = parseList(t("home.ourFourCoreYugas"));
+
   return (
-    <section className="background-alternative">
-      <div className="content-wrapper ourfour-coreyugas">
-        <div className="flex flex-col md:flex-row items-start justify-start">
-          <div className="w-full md:w-1/3">
-            <h5 className="text-medium font-semibold mt-0!">{t('home.ourFourCoreYugas.title', loc)}</h5>
-          </div>
-          <div className="w-full md:w-2/3">
-            <div>
-              <p className="text-small font-semibold">{t('home.ourFourCoreYugas.satyaTitle', loc)}</p>
-              <p><strong>{t('home.ourFourCoreYugas.satyaDuration', loc)}</strong> 4,800 divine years (each divine year = 360 human years) So in human years: <b>4,800 × 360 = 1,728,000 years</b>.</p>
-              <p>{t('home.ourFourCoreYugas.satyaDesc', loc)}</p>
+    <section className={`${styles.ourFourCoreYugas}`}>
+      <div className="max-w-7xl mx-auto">
+        {/* Section Header */}
+        <div className="text-center">
+          <p className={`title`}>The Four Yugas of Sanātana Dharma</p>
+          <p className={`subtitle`}>Cosmic ages describing the gradual transformation of dharma and consciousness through time.</p>
+        </div>
+        {/* Yuga Cards */}
+        <div className={`${styles.cards} flex gap-10 md:gap-6`}>
+          {yugas.map(yuga => (
+            <div
+              key={yuga.name}
+              className={`${styles.card} w-full md:w-1/4 lg:w-1/4 rounded-2xl shadow-sm hover:shadow-md transition`}
+            >
+              <p className={`${styles.cardtitle} font-semibold`}>{yuga.name}</p>
+              <p className={styles.cardage}>{yuga.age}</p>
+              {/* Duration */}
+              <div className={styles.details}>
+                <p className="tracking-wide">
+                  <span className="uppercase font-semibold">Duration : </span><span>{yuga.duration} human years</span>
+                </p>
+                <p ></p>
+              </div>
+              {/* Description */}
+              <ul className={`${styles.list} list-disk`}>
+                {yuga.description.map((point: any, index: number) => (
+                  <li key={index}>{point}.</li>
+                ))}
+              </ul>
             </div>
-            <div>
-              <p className="text-small font-semibold">{t('home.ourFourCoreYugas.tretaTitle', loc)}</p>
-              <p><b>{t('home.ourFourCoreYugas.tretaDuration', loc)}</b> 3,600 divine years (each divine year = 360 human years) So in human years: <b>3,600 × 360 = 1,296,000 years</b>.</p>
-              <p>{t('home.ourFourCoreYugas.tretaDesc', loc)}</p>
-            </div>
-            <div>
-              <p className="text-small font-semibold">{t('home.ourFourCoreYugas.dvaparaTitle', loc)}</p>
-              <p><b>{t('home.ourFourCoreYugas.dvaparaDuration', loc)}</b> 2,400 divine years (each divine year = 360 human years) So in human years: <b>2,400 × 360 = 864,000  years</b>.</p>
-              <p>{t('home.ourFourCoreYugas.dvaparaDesc', loc)}</p>
-            </div>
-            <div>
-              <p className="text-small font-semibold">{t('home.ourFourCoreYugas.kaliTitle', loc)}</p>
-              <p><b>{t('home.ourFourCoreYugas.kaliDuration', loc)}</b> 1,200 divine years (each divine year = 360 human years) So in human years: <b>1,200 × 360 = 432,000 years</b>.</p>
-              <p>{t('home.ourFourCoreYugas.kaliDesc', loc)}</p>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>

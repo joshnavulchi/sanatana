@@ -67,7 +67,7 @@ export default async function RootLayout({
         <meta httpEquiv="Expires" content="300" />
         {/* Page metadata is handled by Next's Metadata API (per-page `createGenerateMetadata`). */}
         {/* Preload initial hero slider images to improve LCP on homepage */}
-        <link rel="preload" as="image" href="/images/slider/lord-ganesh.png" />
+        {/* <link rel="preload" as="image" href="/images/slider/lord-ganesh.png" />
         <link rel="preload" as="image" href="/images/slider/lord-shiva.png" />
         <link rel="preload" as="image" href="/images/slider/lord-shiva-paravathi.png" />
         <link rel="preload" as="image" href="/images/slider/lord-subramanyaswamy.png" />
@@ -76,7 +76,7 @@ export default async function RootLayout({
         <link rel="preload" as="image" href="/images/slider/lord-saraswathi.png" />
         <link rel="preload" as="image" href="/images/slider/lord-hanuman.png" />
         <link rel="preload" as="image" href="/images/lord-shiva.png" />
-        <link rel="preload" as="image" href="/images/lord-krishna.png" />
+        <link rel="preload" as="image" href="/images/lord-krishna.png" /> */}
         {/* Per-page canonical is set via per-page `createGenerateMetadata` using meta.json;
           remove static canonical here to avoid duplicate canonical tags. */}
         <link rel="stylesheet" href="/globals.from-scss.css" />

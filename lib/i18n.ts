@@ -99,8 +99,33 @@ function interpolateObject(obj: unknown, params?: Record<string, string>): unkno
 }
 // Return a metadata object from `locales[locale].meta[metaKey]` with interpolation
 export function getMeta(metaKey: string, params?: Record<string, string>, locale = DEFAULT_LOCALE) {
+  // Prefer loading per-page meta files from `locales/<locale>/<metaKey>.json` on the server.
+  if (typeof window === 'undefined') {
+    try {
+      // Synchronously require the page file so callers can remain sync on the server.
+      // The file may export the meta directly, export an object keyed by page
+      // (e.g. { "home": { meta: {...}, ... } }), or include a top-level `meta`.
+      // eslint-disable-next-line @typescript-eslint/no-var-requires
+      const mod = require(`../locales/${locale}/${metaKey}.json`);
+      const obj = (mod && (mod.default || mod)) as any;
+
+      // Normalize candidates: prefer top-level `meta`, then `obj[metaKey]`, then the file object.
+      const pageObj = obj?.[metaKey] ?? obj;
+      const candidate = pageObj?.meta ?? obj?.meta ?? pageObj;
+
+      if (candidate && typeof candidate === 'object') {
+        return interpolateObject(candidate, params) as Record<string, unknown>;
+      }
+    } catch (e) {
+      // ignore and fall back to merged locale data below
+    }
+  }
+
+  // Fallback (client or server fallback): read from merged locale object.
   const loc = getLocaleObject(locale) as Record<string, unknown> | undefined;
-  const metaRoot = ((loc as any)?.meta as Record<string, unknown> | undefined) ?? (((getLocaleObject(DEFAULT_LOCALE) as any)?.meta) as Record<string, unknown> | undefined) ?? {};
+  const metaRoot = ((loc as any)?.meta as Record<string, unknown> | undefined)
+    ?? (((getLocaleObject(DEFAULT_LOCALE) as any)?.meta) as Record<string, unknown> | undefined)
+    ?? {};
   const meta = (metaRoot?.[metaKey] as unknown) ?? {};
   return interpolateObject(meta, params) as Record<string, unknown>;
 }

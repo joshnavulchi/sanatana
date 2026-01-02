@@ -1,0 +1,39 @@
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+.footer {
+  p { color: var(--theme-background-color); }
+  a:not(.button) { color: var(--theme-background-color); }
+  .button { color: var(--theme-body-text-color); }
+  .navWrapper { padding-top: var(--space-md); border-color: var(--theme-background-color); }
+  .disclaimer { padding: var(--space-sm) 0; }
+  .socialIcons { display: flex; align-items: center; justify-content: flex-end; gap: 1rem; }
+  .copyrights { padding-top: var(--space-md); }
+  .copyrights a { font-size: 0.9rem; }
+  .underline { text-decoration: underline; }
+}
+@media (min-width: 1024px) {
+  .footer {
+    .navWrapper,
+    .disclaimer,
+    .copyrights {
+      margin: 0 auto;
+      max-width: var(--content-width-default);
+      padding-right: var(--space-md);
+      padding-left: var(--space-md);
+    }
+    a:not(.button) { font-size: 0.9rem; }
+    .copyrights {
+      padding: var(--space-md) 0;
+      a {
+        font-size: 0.75rem;
+      }
+      small {
+        color: var(--theme-background-color);
+      }
+    }
+  }
+}
+@media (min-width: 1600px) {
+}
+@media (min-width: 1900px) {
+}
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
