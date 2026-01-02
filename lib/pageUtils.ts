@@ -81,4 +81,4 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
     };
   };
 }
-/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */ 

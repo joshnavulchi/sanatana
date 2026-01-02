@@ -6,6 +6,8 @@ import storage from '../../../lib/storage';
 import Link from 'next/link';
 import Marquee from '../marquee';
 
+import styles from './notifictions.module.scss';
+
 type BannerProps = {
   id: string,
   message: {
@@ -83,13 +85,13 @@ export default function BannerNotifications({ id, message, marquee, showClose = 
   const { and } = links || "";
 
   return (
-    <div className="notifiction-bar border-b-4 border-amber-200">
+    <div className={`${styles.notifictionbar} border-b-4 border-amber-200`}>
       {showClose ? (
         <button aria-label="Close notification" onClick={closeBanner} className="absolute right-2 top-1/2 -translate-y-1/2 rounded bg-white text-red-600 shadow-md">×</button>
       ) : null}
       {marquee === "true" ? <Marquee id={id}>
         {title}
-          {alive ? <Link href={alive} title="Make a small donation!" className="underline underline-text-color">alive</Link> : null}
+        {alive ? <Link href={alive} title="Make a small donation!" className="underline underline-text-color">alive</Link> : null}
         {lbeforetext && iam && lbetweentext && laftertext ? <> {lbeforetext} <Link href={iam} target="_blank" title="Vulchi Vijaya Kumar Raju" className="underline underline-text-color">Iam</Link>
           {lbetweentext} <Link href={githubcopilot} target="_blank" title="Github Copilot" className="underline underline-text-color">Github Copilot</Link>
           {and} <Link href={chatgpt} title="ChatGPT" target="_blank" className="underline underline-text-color"> ChatGPT</Link>
