@@ -40,6 +40,7 @@
     "@types/topojson-client": "^3.1.5",
     "baseline-browser-mapping": "^2.9.3",
     "clsx": "^2.1.1",
+    "critters": "^0.0.23",
     "cross-env": "^10.1.0",
     "d3": "^7.9.0",
     "eslint": "^9",

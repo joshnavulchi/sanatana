@@ -2,10 +2,10 @@
 "use client";
 
 import { useEffect, useRef, useState } from 'react';
-import Link from 'next/link';
 import { usePathname, useSearchParams } from 'next/navigation';
 import { getLocaleObject, loadLocale } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
+import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import BannerNotifications from '../notifications';
@@ -17,6 +17,8 @@ import enNav from '../../../locales/en/nav.json';
 import enSiteTitle from '../../../locales/en/siteTitle.json';
 import enBanner from '../../../locales/en/bannerNotifications.json';
 import enBanner2 from '../../../locales/en/bannerNotifications2.json';
+
+import styles from './header.module.scss';
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -67,7 +69,7 @@ export default function Header() {
         id={id}
         role="menu"
         aria-hidden={!open}
-        className={`absolute top-full w-56 rounded bg-white shadow-md overflow-hidden transition-all duration-150 transform origin-top ${alignClass} ${visible ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-95 -translate-y-1"} dropdown-animate`}
+        className={`absolute top-full w-56 rounded bg-white shadow-md overflow-hidden transition-all duration-150 transform origin-top ${alignClass} ${visible ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-95 -translate-y-1"} ${styles.dropdownAnimate}`}
       >
         {children}
       </div>
@@ -150,13 +152,13 @@ export default function Header() {
   if (!translations) return null;
 
   return (
-    <header ref={headerRef} className="w-full sticky top-0 z-30 shadow-md border-b-4 border-amber-200">
+    <header ref={headerRef} className={`${styles.header} w-full sticky top-0 z-30 shadow-md border-b-4 border-amber-200`}>
       <BannerNotifications id="first_banner" message={translations.banner} marquee="true" />
       {/* <BannerNotifications id="second_banner" message={translations.banner2} marquee="false" showClose={true} backgroundclass="notification-alternative-background-color" /> */}
-      <div className="logo-title-nav-wrapper">
+      <div className={styles.logoTitleNavWrapper}>
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <Link href="/" className="logo-title flex items-center no-underline gap-2">
+            <Link href="/" className={`${styles.logoTitle} flex items-center no-underline gap-2`}>
               <Image src="/images/logo.png" alt="Sanatanadharmam Logo" width={40} height={36} />
               <span className="site-title">
                 {translations.siteTitle}
@@ -198,7 +200,7 @@ export default function Header() {
                   >
                     <button
                       ref={(el) => { triggerRefs.current[key] = el; }}
-                      className="nav-primary-btn inline-flex items-center gap-1"
+                      className={`${styles.navPrimaryBtn} inline-flex items-center gap-1`}
                       aria-haspopup="true"
                       aria-expanded={openDropdown === key}
                       aria-controls={`submenu-${key}`}
@@ -251,7 +253,7 @@ export default function Header() {
                     </button>
 
                     <DropdownPanel open={openDropdown === key} id={`submenu-${key}`} align={(val && val.align) ? val.align : 'left'}>
-                      <ul role="list" className="nav-primary-submenu flex flex-col">
+                      <ul role="list" className={`${styles.navPrimarySubmenu} flex flex-col`}>
                         {Object.entries(children).map(([cKey, cLabel], idx) => (
                           <li key={cKey}>
                             <Link href={`/${key}/${cKey}`} legacyBehavior>
@@ -314,8 +316,8 @@ export default function Header() {
           </div>
         </div>
         {open && (
-          <div className="md:hidden mobile border-t border-b border-white/50">
-            <div role="menu" className="mobile-primary-menu flex flex-col">
+          <div className={`md:hidden ${styles.mobile} border-t border-b border-white/50`}>
+            <div role="menu" className={`${styles.mobilePrimaryMenu} flex flex-col`}>
               {Object.entries(translations.nav).map(([key, val]: [string, any]) => {
                 if (key === 'home') return null;
                 if (key === 'contact') return null;
@@ -341,7 +343,7 @@ export default function Header() {
                   <div role="menuItem" key={key} className="flex flex-col gap-2">
                     <button
                       onClick={() => setExpandedKeys((s) => ({ ...s, [key]: !s[key] }))}
-                      className="nav-primary-btn flex items-center justify-between w-full font-semibold"
+                      className={`${styles.navPrimaryBtn} flex items-center justify-between w-full font-semibold`}
                       aria-expanded={expanded}
                     >
                       <span>{title}</span>
@@ -350,7 +352,7 @@ export default function Header() {
                       </svg>
                     </button>
                     {expanded && (
-                      <div className={`flex flex-col gap-2 mobile-primary-submenu overflow-hidden accordion-transition ${expanded ? "max-h-96" : "max-h-0"}`}>
+                      <div className={`flex flex-col gap-2 ${styles.mobilePrimarySubmenu} overflow-hidden accordion-transition ${expanded ? "max-h-96" : "max-h-0"}`}>
                         {Object.entries(children).map(([cKey, cLabel]) => (
                           <Link key={cKey} href={`/${key}/${cKey}`} className={`${isActive(`/${key}/${cKey}`) ? "active" : ""}`}>{cLabel as string}</Link>
                         ))}

@@ -7,6 +7,7 @@ import { loadLocale, getLocaleObject } from '../../../lib/i18n';
 import { useEffect, useState } from 'react';
 import { useLocale } from '../../context/locale-context';
 import Image from 'next/image';
+import styles from './footer.module.scss';
 
 export default function Footer() {
   const searchParams = useSearchParams();
@@ -59,12 +60,12 @@ export default function Footer() {
   if (!translations) return null;
 
   return (
-    <footer className="w-full">
-      <div className="content-wrapper relative z-29">
+    <footer className={`${styles.footer} w-full`}>
+      <div className={`${styles.contentWrapper} relative z-29`}>
         <section className="text-center">
-          <p className="text-large">{translations["footer.title"]}</p>
-          <p className="text-extrasmall">{translations["footer.quote"]}</p>
-          <p className="text-extrasmall">{translations["footer.quoteSource"]}</p>
+          <p className={styles.textLarge}>{translations["footer.title"]}</p>
+          <p className={styles.textExtraSmall}>{translations["footer.quote"]}</p>
+          <p className={styles.textExtraSmall}>{translations["footer.quoteSource"]}</p>
           <div className="flex items-center justify-center gap-4">
             <Link href="/contact" className="button inline-black shadow-sm bg-amber-300 hover:bg-amber-400 no-underline">
               {translations["footer.contact"]}
@@ -74,7 +75,7 @@ export default function Footer() {
             </Link>
           </div>
         </section>
-        <div className="nav-wrapper w-full relative z-10 flex flex-col md:flex-row md:items-start md:justify-between border-t">
+        <div className={`${styles.navWrapper} w-full relative z-10 flex flex-col md:flex-row md:items-start md:justify-between border-t`}>
           <nav role="menu" className="md:w-full gap-4 flex flex-col  md:flex-row md:items-start">
             <div className="md:w-1/7 flex flex-col gap-2">
               <p className="underline">{translations["footer.nav.scriptures.title"]}</p>
@@ -214,12 +215,12 @@ export default function Footer() {
                 <Link href="/resources" className={`${isActive("/resources") ? "active" : ""}`}>{translations["footer.resources"]}</Link> */}
           </nav>
         </div>
-        <div className="disclaimer w-full flex flex-col md:flex-row items-center justify-between">
+        <div className={`${styles.disclaimer} w-full flex flex-col md:flex-row items-center justify-between`}>
           <div>
             <small>{translations["footer.disclaimer"]}<br /> {translations["footer.contentChange"]}</small>
             <small>I am using <Link href='https://gemini.google.com/' title='Gemini AI' target='_blank' className='text-white no-underline'>Gemini AI</Link>, <Link href='https://www.meta.ai/' title='Meta AI' target='_blank' className='text-white no-underline'>Meta AI</Link> and  <Link href='https://github.com/features/copilot' title='Github Copilot' target='_blank' className='text-white no-underline'>Github Copilot</Link> basic plan to generating content of the website.</small>
           </div>
-          <nav role="menu" className="social-icons md:w-1/4 flex items-center justify-end gap-6">
+          <nav role="menu" className={`${styles.socialIcons} md:w-1/4 flex items-center justify-end gap-6`}>
             <Link href="https://in.linkedin.com/in/vulchivijayakumar" target="_blank" className=" no-underline">
               <Image src="/images/svg/linkedin.svg" alt="linkedin" width={24} height={24} className="inline-block" />
             </Link>
@@ -234,7 +235,7 @@ export default function Footer() {
             </Link>
           </nav>
         </div>
-        <div className="copyrights w-full md:flex md:items-center md:justify-between">
+        <div className={`${styles.copyrights} w-full md:flex md:items-center md:justify-between`}>
           <div className="flex items-center gap-4">
             <Link href="/privacy-policy" className={`${isActive("/privacy-policy") ? "active" : ""} `}>{translations["footer.privacy"]}</Link>
             <Link href="/terms-of-service" className={`${isActive("/terms-of-service") ? "active" : ""} `}>{translations["footer.terms"]}</Link>

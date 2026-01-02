@@ -1,0 +1,22 @@
+/* Component-scoped footer styles (CSS Module)
+   Class names are camelCase to match imports in footer.tsx.
+*/
+.footer {
+  background-color: var(--color-footer-bg, transparent);
+}
+
+.contentWrapper {
+  max-width: var(--content-width-xl);
+  margin: 0 auto;
+  padding: var(--space-lg)  var(--space-md);
+}
+
+.textLarge { font-size: 1.25rem; font-weight: 700; }
+.textExtraSmall { font-size: 0.85rem; color: var(--color-muted); }
+
+.navWrapper { padding-top: var(--space-md); }
+.disclaimer { padding: var(--space-sm) 0; }
+.socialIcons { display: flex; align-items: center; justify-content: flex-end; gap: 1rem; }
+.copyrights { padding-top: var(--space-sm); }
+
+.underline { text-decoration: underline; }
