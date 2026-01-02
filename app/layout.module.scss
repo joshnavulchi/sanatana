@@ -1,91 +1,67 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 .content-wrapper {
-  margin: 0 auto;
-  padding: var(--space-lg);
-  max-width: var(--content-width-default);
-  &.xs {
-    max-width: var(--content-width-xs);
-  }
-  &.sm {
-    max-width: var(--content-width-sm);
-  }
-  &.md {
-    max-width: var(--content-width-md);
-  }
-  &.lg {
-    max-width: var(--content-width-lg);
-  }
-  &.sanatana-dharma {
-    padding-bottom: var(--space-xl);
-  }
-  &.article-wrapper,
-  &.ourfour-coreyugas,
-  &.krishna-stotram,
-  &.gayathri-stotram {
-    padding-top: var(--space-xl);
-    padding-bottom: var(--space-xl);
-  }
+  padding: var(--space-xs);
+  // &.sanatana-dharma {
+  //   padding-bottom: var(--space-xl);
+  // }
+  // &.article-wrapper,
+  // &.krishna-stotram,
+  // &.gayathri-stotram {
+  //   padding-top: var(--space-xl);
+  //   padding-bottom: var(--space-xl);
+  // }
 }
-.image-shiva-wrapper .bg-white {
-  padding-right: var(--space-xl);
-  padding-bottom: var(--space-md);
-  padding-left: var(--space-xl);
-}
-.about-shiva {
-  padding-top: var(--space-xl);
-  padding-bottom: var(--space-xl);
-  .history {
-    padding-bottom: var(--space-xl);
-  }
-}
-.multi-text-color {
-  font-size: 1.8rem;
-  font-weight: 700;
-  span:first-child {
-    color: rgb(253, 174, 80);
-  }
-  span:nth-child(2) {
-    color: rgb(250, 89, 82);
-  }
-  span:nth-child(3) {
-    color: rgb(64, 62, 135);
-  }
-  span:last-child {
-    color: rgb(50, 84, 146);
-  }
-}
-.background-alternative {
-  background-color: var(--color-bg-alt);
-}
-.page-space-xl {
-  padding-top: var(--space-xl);
-  padding-bottom: var(--space-xl);
-  .breadcrumb-wrapper {
-    margin: 0;
-    padding: 0;
-    li {
-      margin: 0;
-    }
-  }
-}
-.contact-form-wrapper {
-  padding: var(--space-lg);
-}
+// .image-shiva-wrapper .bg-white {
+//   padding-right: var(--space-xl);
+//   padding-bottom: var(--space-md);
+//   padding-left: var(--space-xl);
+// }
+
+
+// .background-alternative {
+//   background-color: var(--color-bg-alt);
+// }
+// .page-space-xl {
+//   padding-top: var(--space-xl);
+//   padding-bottom: var(--space-xl);
+//   .breadcrumb-wrapper {
+//     margin: 0;
+//     padding: 0;
+//     li {
+//       margin: 0;
+//     }
+//   }
+// }
+// .contact-form-wrapper {
+//   padding: var(--space-lg);
+// }
 @media (min-width: 1024px) {
   .content-wrapper {
-    padding-left: var(--space-lg);
-    padding-right: var(--space-lg);
-    &.sanatana-dharma,
-    &.article-wrapper {
-      padding-top: var(--space-xl);
-      padding-bottom: var(--space-2xl);
-    }
-    &.ourfour-coreyugas,
-    &.krishna-stotram,
-    &.gayathri-stotram {
-      padding-top: var(--space-2xl);
-      padding-bottom: var(--space-2xl);
-    }
+    margin: 0 auto;
+    max-width: var(--content-width-default);
+    padding-right: var(--space-xl);
+    padding-left: var(--space-xl);
+    // &.sanatana-dharma,
+    // &.article-wrapper {
+    //   padding-top: var(--space-xl);
+    //   padding-bottom: var(--space-2xl);
+    // }
+    // &.ourfour-coreyugas,
+    // &.krishna-stotram,
+    // &.gayathri-stotram {
+    //   padding-top: var(--space-2xl);
+    //   padding-bottom: var(--space-2xl);
+    // }
+  }
+}
+@media (min-width: 1600px) {
+  .content-wrapper {
+    max-width: var(--content-width-lg);
+  }
+}
+@media (min-width: 1900px) {
+  .content-wrapper {
+    max-width: var(--content-width-xl);
   }
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

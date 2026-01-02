@@ -114,6 +114,22 @@ button,
   var(--color-violet) 87%,
   var(--color-blue));
 }
+.multi-text-color {
+  font-size: 1.8rem;
+  font-weight: 600;
+  span:first-child {
+    color: rgb(253, 174, 80);
+  }
+  span:nth-child(2) {
+    color: rgb(250, 89, 82);
+  }
+  span:nth-child(3) {
+    color: rgb(64, 62, 135);
+  }
+  span:last-child {
+    color: rgb(50, 84, 146);
+  }
+}
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 @media (min-width: 1024px) {
   html {

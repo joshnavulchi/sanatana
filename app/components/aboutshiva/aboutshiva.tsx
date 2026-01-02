@@ -1,17 +1,19 @@
 import { t, DEFAULT_LOCALE } from '../../../lib/i18n';
 import { parseList } from 'lib/parseList';
 
+import styles from './aboutshiva.module.scss';
+
 export default function AboutShiva({ locale }: { locale?: string }) {
   return (
-    <section className="bg-white about-shiva">
+    <section className={styles.aboutshiva}>
       <div className="content-wrapper text-left">
-        <div className="text-large multi-text-color">
+        <div className="multi-text-color">
           {parseList(t('home.shivaHeading', locale || DEFAULT_LOCALE)).map((s, i) => <span key={i}>{s} </span>)}
         </div>
         <div></div>
       </div>
       <div className="content-wrapper">
-        <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-start justify-between md:gap-8 history">
+        <div className={`${styles.history} mx-auto max-w-7xl flex flex-col md:flex-row items-start justify-between md:gap-8`}>
           <div className="w-full md:w-1/3 md:text-center">
             <b className="text-large">{t('home.stat1', locale || DEFAULT_LOCALE)}</b>
             <p className="text-extrasmall">

@@ -60,7 +60,7 @@ export default function Footer() {
   if (!translations) return null;
 
   return (
-    <footer className={`${styles.footer} w-full`}>
+    <footer className={`${styles.footer} gradient-background w-full`}>
       <div className={`${styles.contentWrapper} relative z-29`}>
         <section className="text-center">
           <p className={styles.textLarge}>{translations["footer.title"]}</p>

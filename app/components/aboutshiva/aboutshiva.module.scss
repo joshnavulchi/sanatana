@@ -1,0 +1,24 @@
+.aboutshiva {
+  padding-top: var(--space-xl);
+  padding-bottom: var(--space-xl);
+  background-color: var(--color-bg-alt);
+  .history {
+    padding-top: var(--space-xl) 0;
+  }
+}
+@media (min-width: 1024px) {
+  .aboutshiva {
+    padding-top: var(--space-2xl);
+    padding-bottom: var(--space-2xl);
+    .history {
+      padding: calc(var(--space-xl) * 1.5) 0;
+    }
+  }
+}
+@media (min-width: 1600px) {
+  
+}
+@media (min-width: 1900px) {
+  
+}
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

@@ -1,11 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 .footer {
-  background-image: radial-gradient(circle farthest-corner at 90% 0%,
-  var(--color-yellow),
-  var(--color-red) 18%,
-  var(--color-orange) 46%,
-  var(--color-violet) 87%,
-  var(--color-blue));
   .contentWrapper {
     margin: 0 auto;
     padding: var(--space-xs);
@@ -30,7 +24,7 @@
   .footer {
     section {
       padding-top: var(--space-3xl);
-      padding-bottom: var(--space-3xl);
+      padding-bottom: calc(var(--space-2xl) * 1.6);
     }
     section,
     .navWrapper,

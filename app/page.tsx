@@ -2,6 +2,7 @@
 import { detectLocale, t } from '../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import GitSupport from './components/git-support/git-support';
+import AboutShiva from './components/aboutshiva/aboutshiva';
 import OurFourCoreYugas from './components/our-four-core-yugas/ourfourcoreyugas';
 
 export const generateMetadata = createGenerateMetadata('home');
@@ -16,9 +17,9 @@ export default async function Home() {
         <SanatanaDharma />
         <ShivaStotram />
         <GayathriStotram /> */}
-        {/* <OurFourCoreYugas />
-        <GitSupport /> */}
-        {/* <AboutShiva /> */}
+        <GitSupport />
+        <OurFourCoreYugas />
+        <AboutShiva />
       </main>
     </>
   );

@@ -1,11 +1,15 @@
+'use client'
+
 import Link from 'next/link';
 import WorldMapAnimated from '../worldmap/wordmap';
 import { t, DEFAULT_LOCALE } from '../../../lib/i18n';
 
+import styles from './gitsupport.module.scss';
+
 export default function GitSupport({ locale }: { locale?: string }) {
   const loc = locale || DEFAULT_LOCALE;
   return (
-    <section className="gradient-background map-wrapper md:md:min-h-160 relative z-0 overflow-hidden">
+    <section className={`gradient-background map-wrapper md:md:min-h-160 relative z-0 overflow-hidden`}>
       <WorldMapAnimated
         stroke="#ffffff"
         fill="#000000"
@@ -18,7 +22,7 @@ export default function GitSupport({ locale }: { locale?: string }) {
         scale={0.19}
         showGraticule={false}
       />
-      <div className="content-wrapper cta-content md:absolute md:top-1/2 md:left-20 md:-translate-y-1/2 md:z-1">
+      <div className={`content-wrapper ${styles.gitsupport} md:absolute md:top-1/2 md:left-20 md:-translate-y-1/2 md:z-1`}>
         <h6 className="text-large">{t('cta.title', loc)}</h6>
         <p className="text-extrasmall">{t('cta.subtitle', loc)}</p>
         <div className="flex flex-col md:flex-row gap-4">
