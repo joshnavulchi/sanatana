@@ -23,8 +23,8 @@ export default function GitSupport({ locale }: { locale?: string }) {
         showGraticule={false}
       />
       <div className={`${styles.gitsupport} md:content-wrapper md:absolute md:top-1/2 md:left-20 md:-translate-y-1/2 md:z-1`}>
-        <h6 className={`${styles.title} text-large`}>{t('cta.title', loc)}</h6>
-        <p className="text-extrasmall">{t('cta.subtitle', loc)}</p>
+        <h6 className={`title`}>{t('cta.title', loc)}</h6>
+        <p>{t('cta.subtitle', loc)}</p>
         <div className="flex flex-col md:flex-row gap-4">
           <Link href="https://github.com/vulchivijay/first-contributes" target="_blank" className="button inline-block shadow-sm bg-amber-300 hover:bg-amber-400 no-underline">{t('cta.contribute', loc)}</Link>
           <Link href="https://github.com/vulchivijay/first-contributes" target="_blank" className="button inline-block shadow-sm bg-white/75 hover:bg-white no-underline">{t('cta.guidelines', loc)}</Link>

@@ -12,16 +12,7 @@
   /* Font families: Playfair primary, Poppins secondary, then generic sans-serif */
   --font-heading: "Poppins", sans-serif;
   --font-body: "Poppins", sans-serif;
-
-  /* Colors */
-  --color-text: #1a1a1a;
-  --color-muted: #666666;
-  --color-gray: #cccccc;
-  --color-bg: #fffff0;
-  --color-bg-alt: #f5f5dc;
-  --color-accent: #e0c27b;
-  --color-title: #fe7f00;
-
+  
   /* Spacing scale */
   --space-xxs: 4px;
   --space-xs: 8px;
@@ -47,6 +38,7 @@
   --theme-title-color: #fe7f00;
   --theme-sub-title-color: #333333;
   --theme-links-color: #fffff0;
+  --theme-background-accent: #e0c27b;
   --theme-action-button-color: #ffd700;
   --theme-alternative-background-color: #f5f5dc; 
   --theme-body-text-color: #4b2e2e;
@@ -61,6 +53,7 @@
   --theme-title-color: #ffb366;
   --theme-sub-title-color: #e6e6e6;
   --theme-links-color: #e6e6e6;
+  --theme-background-accent: #e0c27b;
   --theme-action-button-color: #d4af37;
   --theme-alternative-background-color: #121212;
   --theme-body-text-color: #e6e6e6;

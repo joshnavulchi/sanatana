@@ -14,8 +14,8 @@ export default function OurFourCoreYugas() {
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center">
-          <p className={`${styles.title}`}>The Four Yugas of Sanātana Dharma</p>
-          <p className={`${styles.subtitle}`}>Cosmic ages describing the gradual transformation of dharma and consciousness through time.</p>
+          <p className={`title`}>The Four Yugas of Sanātana Dharma</p>
+          <p className={`subtitle`}>Cosmic ages describing the gradual transformation of dharma and consciousness through time.</p>
         </div>
         {/* Yuga Cards */}
         <div className={`${styles.cards} flex gap-10 md:gap-6`}>

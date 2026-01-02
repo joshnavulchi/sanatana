@@ -6,8 +6,8 @@ html {
 body {
   margin: 0;
   font-family: var(--font-body);
-  color: var(--color-text);
-  background-color: var(--color-bg);
+  color: var(--theme-body-text-color);
+  background-color: var(--theme-background-color);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -48,7 +48,7 @@ small,
 .small,
 .meta {
   font-size: 0.9rem;
-  color: var(--color-gray);
+  color: #ccc;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
@@ -57,10 +57,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: var(--space-xl);
   margin-bottom: var(--space-sm);
 }
-h1, .text-large { font-size: 2rem; }
-h2, .text-medium { font-size: 1.8rem; }
-h3, .text-small { font-size: 1.6rem; }
-h4, .text-extrasmall { font-size: 1.4rem; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
 h5 { font-size: 1.2rem; }
 h6 { font-size: 1rem; }
 p {
@@ -102,8 +102,9 @@ button,
     padding: var(--space-md) var(--space-lg);
   }
   small,
-  .small {
-    color: var(--color-text);
+  .small,
+  .meta {
+    color: var(--theme-body-text-color);
   }
   .buttons-group {
     margin-top: var(--space-md);
@@ -136,6 +137,26 @@ button,
     color: rgb(50, 84, 146);
   }
 }
+.title,
+.subtitle,
+.description {
+  background-color: rgba(255, 255, 255, .95);
+}
+.title {
+  margin-top: 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.subtitle {
+  margin-top: 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.description {
+  margin-top: 0;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 @media (min-width: 1024px) {
   html {
@@ -144,25 +165,14 @@ button,
   body {
     line-height: 1.7;
   }
-  .text-large {
-    font-size: 2rem;
-  }
-  h3, .text-medium {
-    font-size: 1.6rem;
-  }
-  h4, .text-small {
-    font-size: 1.4rem;
-  }
-  h5, .text-extrasmall {
-    font-size: 1.2rem;
-  }
-  h6,
-  p {
-    font-size: 1rem;
-  }
   ul, ol {
     font-size: 1rem;
   }
   small, .small, .meta { font-size: 0.75rem; }
+  .title,
+  .subtitle,
+  .description {
+    background-color: transparent;
+  }
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

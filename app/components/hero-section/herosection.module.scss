@@ -5,40 +5,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--theme-background-color);
-  .herocontent {
-    padding: var(--space-2xl) var(--space-md);
-  }
-  .title,
-  .subtitle,
-  .description {
-    background-color: rgba(255, 255, 255, .95);
-  }
-  .title {
-    margin-top: 0;
-    font-size: 2.2rem;
-  }
-  .subtitle {
-    font-size: 1.4rem;
-  }
-  .description {
-    margin-bottom: var(--space-xl);
-    padding: var(--space-md) 0;
-    font-size: 1rem;
-  }
 }
 @media (min-width: 1024px) {
-  .herosection {
-    .title,
-    .subtitle,
-    .description {
-      background-color: transparent;
-    }
-  }
 }
-@media (min-width: 1600px) {
-  
+@media (min-width: 1600px) {  
 }
 @media (min-width: 1900px) {
-  
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

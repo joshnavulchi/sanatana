@@ -2,13 +2,11 @@
 .ourFourCoreYugas {
   background-color: var(--theme-background-color);
   padding: var(--space-2xl) var(--space-md);
-  .title,
   .cardtitle {
     font-size: 1.6rem;
     color: var(--theme-title-color);
     font-weight: 600;
   }
-  .subtitle,
   .cardage {
     font-size: 1.4rem;
     color: var(--theme-sub-title-color);
@@ -28,9 +26,6 @@
 }
 @media (min-width: 1024px) {
   .ourFourCoreYugas {
-    .title {
-      font-weight: 700;
-    }
     .cards {
       flex-wrap: inherit;
     }
@@ -44,9 +39,7 @@
   }
 }
 @media (min-width: 1600px) {
-  
 }
-@media (min-width: 1900px) {
-  
+@media (min-width: 1900px) {  
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

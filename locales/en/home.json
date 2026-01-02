@@ -14,11 +14,11 @@
       "description": "Sanātana Dharma is a timeless way of understanding existence, consciousness, and righteous living, rooted in ancient spiritual wisdom.",
       "primaryCta": {
         "label": "Explore Bhagavad Gita",
-        "link": "/bhagavad-gita"
+        "link": "/gita"
       },
       "secondaryCta": {
         "label": "Learn Sanātana Dharma",
-        "link": "/sanatana-dharma"
+        "link": "/sanatanadharma"
       }
     },
     "sections": [
@@ -26,11 +26,6 @@
         "id": "introduction",
         "title": "Understanding Sanātana Dharma",
         "content": "Sanātana Dharma refers to eternal principles governing truth, duty, ethics, and consciousness. It transcends religious boundaries and emphasizes inquiry, reflection, and realization."
-      },
-      {
-        "id": "living-tradition",
-        "title": "A Living Spiritual Tradition",
-        "content": "Sanātana Dharma evolved through sages and seers who transmitted experiential wisdom. It encourages multiple spiritual paths while preserving universal harmony."
       },
       {
         "id": "scriptures",
@@ -55,30 +50,40 @@
         ]
       },
       {
+        "id": "living-tradition",
+        "title": "A Living Spiritual Tradition",
+        "content": "Sanātana Dharma evolved through sages and seers who transmitted experiential wisdom. It encourages multiple spiritual paths while preserving universal harmony."
+      },
+      {
         "id": "principles",
         "title": "Core Principles of Sanātana Dharma",
         "items": [
           {
-            "name": "Dharma",
-            "meaning": "Righteous conduct and moral responsibility aligned with truth."
+            "title": "Dharma",
+            "description": "Righteous conduct and moral responsibility aligned with truth."
           },
           {
-            "name": "Karma",
-            "meaning": "Law of action and consequence shaping individual destiny."
+            "title": "Karma",
+            "description": "Law of action and consequence shaping individual destiny."
           },
           {
-            "name": "Bhakti",
-            "meaning": "Path of devotion through love and surrender."
+            "title": "Bhakti",
+            "description": "Path of devotion through love and surrender."
           },
           {
-            "name": "Jnana",
-            "meaning": "Path of wisdom through inquiry and discernment."
+            "title": "Jnana",
+            "description": "Path of wisdom through inquiry and discernment."
           },
           {
-            "name": "Moksha",
-            "meaning": "Liberation from ignorance and suffering."
+            "title": "Moksha",
+            "description": "Liberation from ignorance and suffering."
           }
         ]
+      },
+      {
+        "id": "authenticity",
+        "title": "Commitment to Authenticity",
+        "content": "We prioritize traditional sources, accurate interpretations, and clarity without distortion, superstition, or sensationalism."
       },
       {
         "id": "relevance",
@@ -98,18 +103,13 @@
       {
         "id": "offerings",
         "title": "What You Will Find Here",
-        "items": [
+        "points": [
           "Chapter-wise Bhagavad Gita explanations",
           "Introductions to Vedas and Upanishads",
           "Concept clarity on Karma and Dharma",
           "Philosophical insights from Puranas",
           "Practical relevance for modern life"
         ]
-      },
-      {
-        "id": "authenticity",
-        "title": "Commitment to Authenticity",
-        "content": "We prioritize traditional sources, accurate interpretations, and clarity without distortion, superstition, or sensationalism."
       },
       {
         "id": "journey",
@@ -239,12 +239,6 @@
       "Stories",
       "and Kids Zone"
     ],
-    "buttons": {
-      "explore": "Scriptures",
-      "learnMore": "Stotras & Mantras"
-    },
-    "aboutTitle": "Om Namah Shivaya.",
-    "aboutTitle2": " Brings peace, strength, and spiritual growth.",
     "sections1": {
       "fastDataTitle": "Mantra: Na mah Shivaya. Mantra: Om Tatpurushaya Vidmahe Mahadevaya Dheemahi Tanno Rudrah Prachodayaat",
       "fastDataDesc": "Na mah Shivaya meaning: The five sacred syllables representing Shiva. Om Tatpurushaya meaning: Meditation on Lord Rudra for wisdom and strength.",
@@ -300,19 +294,6 @@
       "reality, beyond ",
       "time and space."
     ],
-    "stat1": "10,00,000+",
-    "stat1Desc": "More than one million Shiva Temples in India",
-    "stat2": "10,000+",
-    "stat2Desc": "Thousands of Hindu temples outside India",
-    "stat3": "10+",
-    "stat3Desc": "top most Shiva temples outside India with locations and unique features.",
-    "lingamText": [
-      "Lingam: Abstract representation ",
-      "of Shiva. Nataraja: Cosmic ",
-      "dancer symbolizing rhythm ",
-      "of creation ",
-      "and destruction."
-    ],
     "ourFourCoreYugas": [
       {
         "name": "Satya Yuga",
@@ -354,6 +335,19 @@
           "Liberation possible through devotion"
         ]
       }
+    ],
+    "stat1": "10,00,000+",
+    "stat1Desc": "More than one million Shiva Temples in India",
+    "stat2": "10,000+",
+    "stat2Desc": "Thousands of Hindu temples outside India",
+    "stat3": "10+",
+    "stat3Desc": "top most Shiva temples outside India with locations and unique features.",
+    "lingamText": [
+      "Lingam: Abstract representation ",
+      "of Shiva. Nataraja: Cosmic ",
+      "dancer symbolizing rhythm ",
+      "of creation ",
+      "and destruction."
     ]
   }
 }
