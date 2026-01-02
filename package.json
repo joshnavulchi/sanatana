@@ -1,6 +1,6 @@
 {
   "name": "sanatanadharmam.in",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": true,
   "license": "SEE LICENSE IN LICENSE",
   "scripts": {
@@ -8,9 +8,9 @@
     "build": "cross-env NEXT_TELEMETRY_DISABLED=1 node --max-old-space-size=8192 ./node_modules/next/dist/bin/next build",
     "prebuild": "node scripts/generate-sitemap.js",
     "build:server": "cross-env NEXT_TELEMETRY_DISABLED=1 node --max-old-space-size=8192 ./node_modules/next/dist/bin/next build",
-    "scss:build": "sass styles/main.scss public/globals.from-scss.css --style=compressed --no-source-map",
-    "scss:build:dev": "sass styles/main.scss public/globals.from-scss.css --embed-source-map",
-    "scss:watch": "sass --watch styles/main.scss:public/globals.from-scss.css",
+    "scss:build": "sass app/styles.scss public/globals.from-scss.css --style=compressed --no-source-map",
+    "scss:build:dev": "sass app/styles.scss public/globals.from-scss.css --embed-source-map",
+    "scss:watch": "sass --watch app/styles.scss:public/globals.from-scss.css",
     "predeploy": "npm run scss:build && npm run export",
     "generate:sitemap": "node scripts/generate-sitemap.js",
     "export": "cross-env NEXT_STATIC_EXPORT=true npm run build",

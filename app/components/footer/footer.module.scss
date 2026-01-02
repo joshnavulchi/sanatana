@@ -1,22 +1,68 @@
-/* Component-scoped footer styles (CSS Module)
-   Class names are camelCase to match imports in footer.tsx.
-*/
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 .footer {
-  background-color: var(--color-footer-bg, transparent);
+  background-image: radial-gradient(circle farthest-corner at 90% 0%,
+  var(--color-yellow),
+  var(--color-red) 18%,
+  var(--color-orange) 46%,
+  var(--color-violet) 87%,
+  var(--color-blue));
+  .contentWrapper {
+    margin: 0 auto;
+    padding: var(--space-xs);
+  }
+  section {
+    padding-top: var(--space-2xl);
+    padding-bottom: var(--space-2xl);
+  }
+  p { color: var(--theme-background-color); }
+  a:not(.button) { color: var(--theme-background-color); }
+  .button { color: var(--theme-body-text-color); }
+  .textLarge { font-size: 1.6rem; font-weight: 500; }
+  .textExtraSmall { font-size: 1.1rem; }
+  .navWrapper { padding-top: var(--space-md); border-color: var(--theme-background-color); }
+  .disclaimer { padding: var(--space-sm) 0; }
+  .socialIcons { display: flex; align-items: center; justify-content: flex-end; gap: 1rem; }
+  .copyrights { padding-top: var(--space-md); }
+  .copyrights a { font-size: 0.9rem; }
+  .underline { text-decoration: underline; }
 }
-
-.contentWrapper {
-  max-width: var(--content-width-xl);
-  margin: 0 auto;
-  padding: var(--space-lg)  var(--space-md);
+@media (min-width: 1024px) {
+  .footer {
+    section {
+      padding-top: var(--space-3xl);
+      padding-bottom: var(--space-3xl);
+    }
+    section,
+    .navWrapper,
+    .disclaimer,
+    .copyrights {
+      margin: 0 auto;
+      max-width: var(--content-width-default);
+      padding-right: var(--space-md);
+      padding-left: var(--space-md);
+    }
+    p { font-size: 0.95rem }
+    a:not(.button) { font-size: 0.9rem; }
+    .textLarge { font-size: 2rem; font-weight: 700; }
+    .textExtraSmall { font-size: 1.2rem; }
+    .copyrights a { font-size: 0.75rem; }
+  }
 }
-
-.textLarge { font-size: 1.25rem; font-weight: 700; }
-.textExtraSmall { font-size: 0.85rem; color: var(--color-muted); }
-
-.navWrapper { padding-top: var(--space-md); }
-.disclaimer { padding: var(--space-sm) 0; }
-.socialIcons { display: flex; align-items: center; justify-content: flex-end; gap: 1rem; }
-.copyrights { padding-top: var(--space-sm); }
-
-.underline { text-decoration: underline; }
+@media (min-width: 1600px) {
+  .footer {
+    section,
+    .navWrapper
+    .disclaimer,
+    .copyrights {
+      max-width: var(--content-width-lg);
+    }
+  }
+}
+@media (min-width: 1900px) {
+  .footer {
+    section {
+      max-width: var(--content-width-xl);
+    }
+  }
+}
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

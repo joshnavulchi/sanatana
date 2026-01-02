@@ -43,7 +43,7 @@ const Marquee: React.FC<MarqueeProps> = ({
   }, [id]);
   {/* Use a runtime-created marquee element to avoid TSX intrinsic checks */ }
   return (
-    <MarqueeTag ref={contentRef} scrollamount="2" className="small">{children}</MarqueeTag>
+    <MarqueeTag ref={contentRef} scrollamount="2">{children}</MarqueeTag>
   );
 };
 

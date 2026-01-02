@@ -67,10 +67,10 @@ export default function Footer() {
           <p className={styles.textExtraSmall}>{translations["footer.quote"]}</p>
           <p className={styles.textExtraSmall}>{translations["footer.quoteSource"]}</p>
           <div className="flex items-center justify-center gap-4">
-            <Link href="/contact" className="button inline-black shadow-sm bg-amber-300 hover:bg-amber-400 no-underline">
+            <Link href="/contact" className={`${styles.button} button inline-black shadow-sm bg-amber-300 hover:bg-amber-400 no-underline`}>
               {translations["footer.contact"]}
             </Link>
-            <Link href="/donate" className="button inline-black shadow-sm bg-white/80 hover:bg-white no-underline">
+            <Link href="/donate" className={`${styles.button} button inline-black shadow-sm bg-white/80 hover:bg-white no-underline`}>
               {translations["footer.donate"]}
             </Link>
           </div>

@@ -1,43 +1,61 @@
-/* Component-scoped header styles (CSS Module)
-   Class names are camelCase to match imports in header.tsx.
-*/
 .header {
   background-color: var(--color-bg);
+  .logoTitleNavWrapper { padding: var(--space-xs); }
+  .logoTitle {
+    line-height: 32px;
+    font-weight: 900;
+    font-size: 2rem;
+    color: var(--color-title);
+  }
+  .navPrimarySubmenu { margin: 0; padding: 0; }
+  .navPrimarySubmenu li:nth-child(odd) { background-color: var(--color-bg-alt); }
+  .navPrimarySubmenu li:nth-child(even) { background-color: var(--color-white); }
+  .navPrimarySubmenu a { padding: var(--space-xxs) var(--space-xs); font-size: 0.9rem; display: block; }
+  .navPrimaryBtn {
+    display: flex;
+    padding: var(--space-xxs) var(--space-xs);
+    align-items: center;
+  }
+  .mobilePrimaryMenu { padding-top: var(--space-sm); }
+  .mobilePrimaryMenu button { margin-left: 0; font-size: 1.2rem }
+  .mobilePrimarySubmenu { padding-left: var(--space-lg); }
+  .mobilePrimarySubmenu a { font-size: 1.2rem; }
+  .mobile { border-top: 1px solid rgba(255,255,255,0.06); border-bottom: 1px solid rgba(255,255,255,0.06); }
+  .dropdownAnimate { transition: transform .15s ease, opacity .15s ease; }
+  button {
+    min-width: 36px;
+    min-height: 36px;
+    padding: var(--space-xs);
+  }
 }
-
-.logoTitleNavWrapper {
-  margin: 0 auto;
-  padding: var(--space-xs);
-  max-width: var(--content-width-xl);
+@media (min-width: 1024px) {
+  .header {
+    .logoTitleNavWrapper {
+      margin: 0 auto;
+      max-width: var(--content-width-default);
+      padding-right: var(--space-xl);
+      padding-left: var(--space-xl);
+    }
+    .logo-title {
+      line-height: 1.7;
+    }
+    button {
+      margin-left: var(--space-xs);
+    }
+  }
 }
-
-.logoTitle {
-  line-height: 32px;
-  font-weight: 900;
-  font-size: 2rem;
-  color: var(--color-title);
+@media (min-width: 1600px) {
+  .header {
+    .logoTitleNavWrapper {
+      max-width: var(--content-width-lg);
+    }
+  }
 }
-
-.navPrimarySubmenu {
-  margin: 0;
-  padding: 0;
+@media (min-width: 1900px) {
+  .header {
+    .logo-title-nav-wrapper {
+      max-width: var(--content-width-xl);
+    }
+  }
 }
-.navPrimarySubmenu li:nth-child(odd) { background-color: var(--color-bg-alt); }
-.navPrimarySubmenu li:nth-child(even) { background-color: var(--color-white); }
-.navPrimarySubmenu a { padding: var(--space-xxs) var(--space-xs); font-size: 0.9rem; display: block; }
-
-.navPrimaryBtn {
-  display: flex;
-  padding: var(--space-xxs) var(--space-xs);
-  align-items: center;
-}
-
-.mobilePrimaryMenu { padding-top: var(--space-sm); }
-.mobilePrimaryMenu button { margin-left: 0; font-size: 1.2rem }
-
-.mobilePrimarySubmenu { padding-left: var(--space-lg); }
-.mobilePrimarySubmenu a { font-size: 1.2rem; }
-
-.mobile { border-top: 1px solid rgba(255,255,255,0.06); border-bottom: 1px solid rgba(255,255,255,0.06); }
-
-.dropdownAnimate { transition: transform .15s ease, opacity .15s ease; }
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

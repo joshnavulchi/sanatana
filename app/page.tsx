@@ -16,8 +16,8 @@ export default async function Home() {
         <SanatanaDharma />
         <ShivaStotram />
         <GayathriStotram /> */}
-        <OurFourCoreYugas />
-        <GitSupport />
+        {/* <OurFourCoreYugas />
+        <GitSupport /> */}
         {/* <AboutShiva /> */}
       </main>
     </>

@@ -71,4 +71,21 @@
 .contact-form-wrapper {
   padding: var(--space-lg);
 }
+@media (min-width: 1024px) {
+  .content-wrapper {
+    padding-left: var(--space-lg);
+    padding-right: var(--space-lg);
+    &.sanatana-dharma,
+    &.article-wrapper {
+      padding-top: var(--space-xl);
+      padding-bottom: var(--space-2xl);
+    }
+    &.ourfour-coreyugas,
+    &.krishna-stotram,
+    &.gayathri-stotram {
+      padding-top: var(--space-2xl);
+      padding-bottom: var(--space-2xl);
+    }
+  }
+}
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

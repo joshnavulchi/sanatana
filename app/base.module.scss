@@ -3,7 +3,6 @@
 html {
   font-size: 16px;
 }
-
 body {
   margin: 0;
   font-family: var(--font-body);
@@ -12,7 +11,6 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
-
 a {
   position: relative;
   text-decoration: none;
@@ -28,7 +26,6 @@ a {
     background-color: var(--theme-body-text-color);
     transition: all 0.2s ease-in-out;
   }
-
   &.active::after,
   &:hover::after {
     width: 100%;
@@ -39,24 +36,20 @@ a {
     display: none;
   }
 }
-
 ul, ol {
   padding-left: 1rem;
   margin-bottom: var(--space-sm);
   font-size: 1.2rem;
 }
-
 li {
   margin-bottom: 0.5rem;
 }
-
 small,
 .small,
 .meta {
   font-size: 0.9rem;
   color: var(--color-gray);
 }
-
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
   font-weight: 700;
@@ -64,20 +57,17 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: var(--space-xl);
   margin-bottom: var(--space-sm);
 }
-
 h1, .text-large { font-size: 2rem; }
 h2, .text-medium { font-size: 1.8rem; }
 h3, .text-small { font-size: 1.6rem; }
 h4, .text-extrasmall { font-size: 1.4rem; }
 h5 { font-size: 1.2rem; }
 h6 { font-size: 1rem; }
-
 p {
   margin-top: 0;
   margin-bottom: var(--space-md);
   font-size: 1.2rem;
 }
-
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -85,7 +75,6 @@ textarea {
   width: 100%;
   padding: var(--space-xxs) var(--space-sm);
 }
-
 button,
 .button {
   display: inline-block;
@@ -93,12 +82,10 @@ button,
   padding: var(--space-xs) var(--space-md);
   border-radius: var(--space-xxs);
   cursor: pointer;
-
   &.scroll-to-top {
     padding: var(--space-xs)
   }
 }
-
 .cookies-wrapper,
 .cookies-preference-wrapper {
   ul {
@@ -118,5 +105,42 @@ button,
   button {
     font-size: 0.7rem;
   }
+}
+.gradient-background {
+  background-image: radial-gradient(circle farthest-corner at 90% 0%,
+  var(--color-yellow),
+  var(--color-red) 18%,
+  var(--color-orange) 46%,
+  var(--color-violet) 87%,
+  var(--color-blue));
+}
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+@media (min-width: 1024px) {
+  html {
+    font-size: 18px;
+  }
+  body {
+    line-height: 1.7;
+  }
+  .text-large {
+    font-size: 2rem;
+  }
+  h3, .text-medium {
+    font-size: 1.6rem;
+  }
+  h4, .text-small {
+    font-size: 1.4rem;
+  }
+  h5, .text-extrasmall {
+    font-size: 1.2rem;
+  }
+  h6,
+  p {
+    font-size: 1rem;
+  }
+  ul, ol {
+    font-size: 1rem;
+  }
+  small, .small, .meta { font-size: 0.75rem; }
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
