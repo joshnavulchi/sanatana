@@ -18,11 +18,11 @@ export default function OurFourCoreYugas() {
           <p className={`${styles.subtitle}`}>Cosmic ages describing the gradual transformation of dharma and consciousness through time.</p>
         </div>
         {/* Yuga Cards */}
-        <div className={`${styles.cards} flex`}>
+        <div className={`${styles.cards} flex gap-10 md:gap-6`}>
           {yugas.map(yuga => (
             <div
               key={yuga.name}
-              className={`${styles.card} w-full md:w-1/2 lg:w-1/4 rounded-2xl shadow-sm hover:shadow-md transition`}
+              className={`${styles.card} w-full md:w-1/4 lg:w-1/4 rounded-2xl shadow-sm hover:shadow-md transition`}
             >
               <p className={`${styles.cardtitle} font-semibold`}>{yuga.name}</p>
               <p className={styles.cardage}>{yuga.age}</p>

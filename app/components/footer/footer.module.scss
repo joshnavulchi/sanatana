@@ -2,7 +2,7 @@
 .footer {
   .contentWrapper {
     margin: 0 auto;
-    padding: var(--space-xs);
+    padding: var(--space-md);
   }
   section {
     padding-top: var(--space-2xl);
@@ -22,10 +22,6 @@
 }
 @media (min-width: 1024px) {
   .footer {
-    section {
-      padding-top: var(--space-3xl);
-      padding-bottom: calc(var(--space-2xl) * 1.6);
-    }
     section,
     .navWrapper,
     .disclaimer,

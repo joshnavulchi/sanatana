@@ -75,6 +75,12 @@ textarea {
   width: 100%;
   padding: var(--space-xxs) var(--space-sm);
 }
+.site-title {
+  color: var(--theme-body-text-color);
+}
+.site-subtitle {
+  color: var(--theme-sub-title-color);
+}
 button,
 .button {
   display: inline-block;
