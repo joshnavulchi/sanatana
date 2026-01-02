@@ -1,7 +1,7 @@
 export default function Page() {
   return (
     <>
-      <h1>Sanatana Dharma</h1>
+      <h1>Practices</h1>
     </>
   )
 }
