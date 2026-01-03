@@ -13,7 +13,7 @@ export default function HeroSection() {
   const primaryCtaLink = parseList(t("home.hero.primaryCta.link"));
   const secondaryCtaLabel = parseList(t("home.hero.secondaryCta.label"));
   const secondaryCtaLink = parseList(t("home.hero.secondaryCta.link"));
-  const tags = parseList(t("home.topics"));
+  const tags = parseList(t("home.topics")); 
 
   return (
     <div className={`${styles.herosection} w-full md:h-full`}>
