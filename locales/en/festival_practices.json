@@ -1,22 +1,25 @@
-
 {
-  "festivals_practices": {
+  "festival_practices": {
     "meta": {
       "title": "Practices | Festivals — Sanatana Dharma - Explore Sanatan Dharma",
       "description": "Practices — Festivals — Sanatana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Practices. Explore practices, history, and guiding principles...",
       "keywords": "Festivals, Sanatana Dharma, Hinduism, Vedic philosophy, Dharma and spirituality, Hindu scriptures, Bhagavad Gita teachings, Upanishads, Vedas and Puranas, Hindu rituals and traditions, Yoga and meditation, Hindu festivals, Spiritual wisdom, Hindu culture and heritage, Indian philosophy, Hindu gods and goddesses, Karma and rebirth, What is Sanatana Dharma, Principles of Sanatana Dharma, Importance of Vedas in Hinduism, Hindu spiritual practices for daily life, Meaning of Dharma in Hinduism, Sanatana Dharma vs modern life, How to follow Sanatana Dharma?, Sanatana Dharma in India, Dharma, Mantra, Stotra, Stotras, Scripture, Scriptures, Commentary, Devotion, Practices, Ritual, Worship, Temple",
-      "ogImage": "/og/practices-festivals.jpg",
+      "ogimage": "/og/practices-festivals.jpg",
       "url": "https://sanatanadharmam.in/practices/festivals",
       "canonical": "https://sanatanadharmam.in/practices/festivals"
     },
     "definition": "Festivals in Sanatana Dharma are sacred occasions that celebrate cosmic principles, deities, and seasonal changes, combining spiritual, cultural, and social dimensions.",
     "origin": {
       "roots": "Vedic and Puranic traditions",
-      "texts": ["Vedas", "Puranas", "Smritis"],
+      "texts": [
+        "Vedas",
+        "Puranas",
+        "Smritis"
+      ],
       "purpose": "To honor deities, express gratitude, and reinforce Dharma in community life."
     },
     "major_festivals": {
-      "Diwali": {
+      "diwali": {
         "season": "Autumn",
         "significance": "Festival of Lights symbolizing victory of light over darkness.",
         "practices": [
@@ -25,7 +28,7 @@
           "Bursting fireworks and sharing sweets."
         ]
       },
-      "Navaratri": {
+      "navaratri": {
         "season": "Autumn",
         "significance": "Nine nights dedicated to Goddess Durga and her forms.",
         "practices": [
@@ -34,7 +37,7 @@
           "Garba and Dandiya dance in Western India."
         ]
       },
-      "Janmashtami": {
+      "janmashtami": {
         "season": "Monsoon",
         "significance": "Celebrates the birth of Lord Krishna.",
         "practices": [
@@ -43,7 +46,7 @@
           "Bhajans and Bhagavad Gita recitation."
         ]
       },
-      "Maha Shivaratri": {
+      "maha_shivaratri": {
         "season": "Late Winter",
         "significance": "Night of Shiva, symbolizing spiritual awakening.",
         "practices": [
@@ -54,54 +57,83 @@
       }
     },
     "seasonal_festivals": {
-      "Spring": [
+      "spring": [
         {
           "name": "Holi",
           "significance": "Festival of colors marking the arrival of spring and victory of good over evil.",
-          "practices": ["Playing with colors", "Bonfire rituals (Holika Dahan)", "Community singing and dancing"]
+          "practices": [
+            "Playing with colors",
+            "Bonfire rituals (Holika Dahan)",
+            "Community singing and dancing"
+          ]
         },
         {
           "name": "Vasant Panchami",
           "significance": "Dedicated to Goddess Saraswati, marking the onset of spring.",
-          "practices": ["Worship of Saraswati", "Yellow attire and food offerings"]
+          "practices": [
+            "Worship of Saraswati",
+            "Yellow attire and food offerings"
+          ]
         }
       ],
-      "Summer": [
+      "summer": [
         {
           "name": "Ratha Yatra",
           "significance": "Chariot festival of Lord Jagannath in Odisha.",
-          "practices": ["Pulling chariots", "Community feasts", "Temple rituals"]
+          "practices": [
+            "Pulling chariots",
+            "Community feasts",
+            "Temple rituals"
+          ]
         }
       ],
-      "Monsoon": [
+      "monsoon": [
         {
           "name": "Krishna Janmashtami",
           "significance": "Birth of Lord Krishna.",
-          "practices": ["Midnight puja", "Dahi Handi celebrations"]
+          "practices": [
+            "Midnight puja",
+            "Dahi Handi celebrations"
+          ]
         }
       ],
-      "Autumn": [
+      "autumn": [
         {
           "name": "Navaratri",
           "significance": "Nine nights of Devi worship.",
-          "practices": ["Fasting", "Garba dance", "Reciting scriptures"]
+          "practices": [
+            "Fasting",
+            "Garba dance",
+            "Reciting scriptures"
+          ]
         },
         {
           "name": "Diwali",
           "significance": "Festival of Lights.",
-          "practices": ["Lighting lamps", "Lakshmi Puja", "Fireworks"]
+          "practices": [
+            "Lighting lamps",
+            "Lakshmi Puja",
+            "Fireworks"
+          ]
         }
       ],
-      "Winter": [
+      "winter": [
         {
           "name": "Makar Sankranti",
           "significance": "Harvest festival marking sun's transition into Capricorn.",
-          "practices": ["Flying kites", "Offering sesame sweets", "Sun worship"]
+          "practices": [
+            "Flying kites",
+            "Offering sesame sweets",
+            "Sun worship"
+          ]
         },
         {
           "name": "Maha Shivaratri",
           "significance": "Night of Shiva.",
-          "practices": ["Night-long vigil", "Bilva leaf offerings"]
+          "practices": [
+            "Night-long vigil",
+            "Bilva leaf offerings"
+          ]
         }
       ]
     },

@@ -1,8 +1,8 @@
 {
-  "languageDropdown": {
+  "languagedropdown": {
     "title": "Select Language",
-    "ariaLabel": "Select language",
-    "iconAlt": "Language",
+    "arialabel": "Select language",
+    "iconalt": "Language",
     "english": "English"
   }
 }

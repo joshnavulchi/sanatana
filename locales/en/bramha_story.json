@@ -1,10 +1,10 @@
 {
-  "brahma_story": {
+  "bramha_story": {
     "meta": {
       "title": "Stories | Brahma — Sanatana Dharma - Explore Sanatan Dharma",
       "description": "Learn about Bramha on SanatanaDharma.in — articles, translations and commentary.",
       "keywords": "Brahma, Sanatana Dharma, Hinduism, Vedic philosophy, Dharma and spirituality, Hindu scriptures, Bhagavad Gita teachings, Upanishads, Vedas and Puranas, Hindu rituals and traditions, Yoga and meditation, Hindu festivals, Spiritual wisdom, Hindu culture and heritage, Indian philosophy, Hindu gods and goddesses, Karma and rebirth, What is Sanatana Dharma, Principles of Sanatana Dharma, Importance of Vedas in Hinduism, Hindu spiritual practices for daily life, Meaning of Dharma in Hinduism, Sanatana Dharma vs modern life, How to follow Sanatana Dharma?, Sanatana Dharma in India, Dharma, Mantra, Stotra, Stotras, Scripture, Scriptures, Commentary, Devotion, Practices, Ritual, Worship, Temple",
-      "ogImage": "/og/home.png",
+      "ogimage": "/og/home.png",
       "url": "https://sanatanadharmam.in/stories/bramha",
       "canonical": "https://sanatanadharmam.in/stories/bramha"
     },
@@ -66,8 +66,8 @@
       "Swan – Ability to distinguish truth from illusion."
     ],
     "philosophical_significance": {
-      "Trimurti": "Brahma represents creation, Vishnu preservation, and Shiva destruction.",
-      "Cosmic Cycle": "Creation is cyclical; Brahma’s day equals billions of human years."
+      "trimurti": "Brahma represents creation, Vishnu preservation, and Shiva destruction.",
+      "cosmic_cycle": "Creation is cyclical; Brahma’s day equals billions of human years."
     },
     "festivals": [
       {

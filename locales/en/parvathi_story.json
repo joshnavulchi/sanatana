@@ -1,18 +1,21 @@
-
 {
-  "parvati_story": {
+  "parvathi_story": {
     "meta": {
       "title": "Stories | Parvati — Sanatana Dharma - Explore Sanatan Dharma",
       "description": "Learn about Parvati on SanatanaDharma.in — articles, translations and commentary.",
       "keywords": "Parvati, Sanatana Dharma, Hinduism, Vedic philosophy, Dharma and spirituality, Hindu scriptures, Bhagavad Gita teachings, Upanishads, Vedas and Puranas, Hindu rituals and traditions, Yoga and meditation, Hindu festivals, Spiritual wisdom, Hindu culture and heritage, Indian philosophy, Hindu gods and goddesses, Karma and rebirth, What is Sanatana Dharma, Principles of Sanatana Dharma, Importance of Vedas in Hinduism, Hindu spiritual practices for daily life, Meaning of Dharma in Hinduism, Sanatana Dharma vs modern life, How to follow Sanatana Dharma?, Sanatana Dharma in India, Dharma, Mantra, Stotra, Stotras, Scripture, Scriptures, Commentary, Devotion, Practices, Ritual, Worship, Temple",
-      "ogImage": "/og/home.png",
+      "ogimage": "/og/home.png",
       "url": "https://sanatanadharmam.in/stories/parvati",
       "canonical": "https://sanatanadharmam.in/stories/parvati"
     },
     "definition": "Parvati is the Hindu goddess of love, fertility, devotion, and power. She is the consort of Lord Shiva and represents Shakti, the divine feminine energy.",
     "origin": {
       "roots": "Vedic and Puranic traditions",
-      "texts": ["Shiva Purana", "Devi Bhagavata Purana", "Skanda Purana"],
+      "texts": [
+        "Shiva Purana",
+        "Devi Bhagavata Purana",
+        "Skanda Purana"
+      ],
       "meaning": "Parvati means 'daughter of the mountain' (Himalaya)."
     },
     "attributes": {
@@ -60,12 +63,19 @@
       {
         "name": "Navaratri",
         "significance": "Nine nights celebrating Parvati in her various forms.",
-        "practices": ["Fasting", "Chanting Devi Mahatmya", "Decorating idols"]
+        "practices": [
+          "Fasting",
+          "Chanting Devi Mahatmya",
+          "Decorating idols"
+        ]
       },
       {
         "name": "Teej",
         "significance": "Festival for marital bliss and devotion to Shiva.",
-        "practices": ["Women observe fast", "Offer prayers to Parvati"]
+        "practices": [
+          "Women observe fast",
+          "Offer prayers to Parvati"
+        ]
       }
     ],
     "modern_relevance": {

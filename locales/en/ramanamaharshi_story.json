@@ -1,113 +1,113 @@
 {
-  "ramanaMaharshi_story": {
+  "ramanamaharshi_story": {
     "meta": {
       "title": "Stories | Ramana Maharshi — Sanatana Dharma - Explore Sanatan Dharma",
       "description": "Learn about Ramanamaharshi on SanatanaDharma.in — articles, translations and commentary.",
       "keywords": "Ramana, Ramanamaharshi, Sanatana Dharma, Hinduism, Vedic philosophy, Dharma and spirituality, Hindu scriptures, Bhagavad Gita teachings, Upanishads, Vedas and Puranas, Hindu rituals and traditions, Yoga and meditation, Hindu festivals, Spiritual wisdom, Hindu culture and heritage, Indian philosophy, Hindu gods and goddesses, Karma and rebirth, What is Sanatana Dharma, Principles of Sanatana Dharma, Importance of Vedas in Hinduism, Hindu spiritual practices for daily life, Meaning of Dharma in Hinduism, Sanatana Dharma vs modern life, How to follow Sanatana Dharma?, Sanatana Dharma in India, Dharma, Mantra, Stotra, Stotras, Scripture, Scriptures, Commentary, Devotion, Practices, Ritual, Worship, Temple",
-      "ogImage": "/og/home.png",
+      "ogimage": "/og/home.png",
       "url": "https://sanatanadharmam.in/stories/ramanamaharshi",
       "canonical": "https://sanatanadharmam.in/stories/ramanamaharshi"
     },
-    "Role": "Modern Advaita Vedanta Sage, Teacher of Self-Inquiry",
-    "Lineage": {
-      "Birth": {
-        "Name": "Venkataraman Iyer",
-        "Place": "Tiruchuli, Tamil Nadu",
-        "Year": "1879"
+    "role": "Modern Advaita Vedanta Sage, Teacher of Self-Inquiry",
+    "lineage": {
+      "birth": {
+        "name": "Venkataraman Iyer",
+        "place": "Tiruchuli, Tamil Nadu",
+        "year": "1879"
       },
-      "Realization": {
-        "Event": "Spontaneous awakening at age 16 after a near-death experience",
-        "Insight": "Realized the Self as deathless, pure consciousness"
+      "realization": {
+        "event": "Spontaneous awakening at age 16 after a near-death experience",
+        "insight": "Realized the Self as deathless, pure consciousness"
       }
     },
-    "Significance": {
-      "Titles": [
+    "significance": {
+      "titles": [
         "Bhagavan",
         "Maharshi"
       ],
-      "CoreIdentity": [
+      "coreidentity": [
         "Advocate of Atma-Vichara (Self-Inquiry)",
         "Silent teacher of non-dual truth",
         "Established Arunachala as a spiritual center"
       ]
     },
-    "PhilosophicalThemes": [
+    "philosophicalthemes": [
       "Self alone is real; ego is an illusion",
       "Liberation through Self-Inquiry: 'Who am I?'",
       "Silence as the highest teaching"
     ],
-    "MajorWorks": [
+    "majorworks": [
       "Upadesa Saram (Essence of Instruction)",
       "Nan Yar? (Who am I?)",
       "Forty Verses on Reality"
     ],
-    "KeyTeachings": [
+    "keyteachings": [
       {
-        "Concept": "Atma-Vichara",
-        "Description": "Investigate the source of the 'I' thought to realize the Self"
+        "concept": "Atma-Vichara",
+        "description": "Investigate the source of the 'I' thought to realize the Self"
       },
       {
-        "Concept": "Silence",
-        "Description": "True teaching is beyond words; silence conveys the highest truth"
+        "concept": "Silence",
+        "description": "True teaching is beyond words; silence conveys the highest truth"
       },
       {
-        "Concept": "Surrender",
-        "Description": "Complete surrender to the Self or God leads to liberation"
+        "concept": "Surrender",
+        "description": "Complete surrender to the Self or God leads to liberation"
       }
     ],
-    "TextsAndVerses": [
+    "textsandverses": [
       {
-        "Name": "Who am I?",
-        "Verse": "नान् यार्?",
-        "Transliteration": "Nan Yar?",
-        "Meaning": "Who am I? The core question for Self-Inquiry."
+        "name": "Who am I?",
+        "verse": "नान् यार्?",
+        "transliteration": "Nan Yar?",
+        "meaning": "Who am I? The core question for Self-Inquiry."
       },
       {
-        "Name": "Upadesa Saram",
-        "Verse": "कर्म कृतं कर्मणां फलदं।",
-        "Transliteration": "Karma kritam karmanaam phalam",
-        "Meaning": "Action yields fruit according to its nature; liberation comes only through knowledge."
+        "name": "Upadesa Saram",
+        "verse": "कर्म कृतं कर्मणां फलदं।",
+        "transliteration": "Karma kritam karmanaam phalam",
+        "meaning": "Action yields fruit according to its nature; liberation comes only through knowledge."
       },
       {
-        "Name": "Forty Verses",
-        "Verse": "अहम् अहं अयम् अहम्।",
-        "Transliteration": "Aham Aham Ayam Aham",
-        "Meaning": "The 'I-I' shines as the Self when the ego subsides."
+        "name": "Forty Verses",
+        "verse": "अहम् अहं अयम् अहम्।",
+        "transliteration": "Aham Aham Ayam Aham",
+        "meaning": "The 'I-I' shines as the Self when the ego subsides."
       }
     ],
-    "Attributes": {
-      "Virtues": [
+    "attributes": {
+      "virtues": [
         "Compassion",
         "Detachment",
         "Simplicity",
         "Wisdom"
       ],
-      "Iconography": [
+      "iconography": [
         "Seated in silence at Arunachala",
         "Radiant calm expression",
         "Minimalistic lifestyle"
       ]
     },
-    "Timeline": [
+    "timeline": [
       {
-        "Phase": "Birth",
-        "Event": "Born in Tiruchuli, Tamil Nadu in 1879"
+        "phase": "Birth",
+        "event": "Born in Tiruchuli, Tamil Nadu in 1879"
       },
       {
-        "Phase": "Realization",
-        "Event": "At age 16, experienced ego-death and awakening"
+        "phase": "Realization",
+        "event": "At age 16, experienced ego-death and awakening"
       },
       {
-        "Phase": "Arunachala",
-        "Event": "Moved to Arunachala Hill; lived in caves in deep meditation"
+        "phase": "Arunachala",
+        "event": "Moved to Arunachala Hill; lived in caves in deep meditation"
       },
       {
-        "Phase": "Teaching",
-        "Event": "Taught Self-Inquiry through silence and brief instructions"
+        "phase": "Teaching",
+        "event": "Taught Self-Inquiry through silence and brief instructions"
       },
       {
-        "Phase": "Later Life",
-        "Event": "Established Ramanashram; continued guiding seekers until Mahasamadhi in 1950"
+        "phase": "Later Life",
+        "event": "Established Ramanashram; continued guiding seekers until Mahasamadhi in 1950"
       }
     ]
   }

@@ -4,7 +4,7 @@
       "title": "Practices | Vastu — Sanatana Dharma - Explore Sanatan Dharma",
       "description": "Practices — Vastu — Sanatana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Practices. Explore practices, history, and guiding principles at...",
       "keywords": "Vastu, Sanatana Dharma, Hinduism, Vedic philosophy, Dharma and spirituality, Hindu scriptures, Bhagavad Gita teachings, Upanishads, Vedas and Puranas, Hindu rituals and traditions, Yoga and meditation, Hindu festivals, Spiritual wisdom, Hindu culture and heritage, Indian philosophy, Hindu gods and goddesses, Karma and rebirth, What is Sanatana Dharma, Principles of Sanatana Dharma, Importance of Vedas in Hinduism, Hindu spiritual practices for daily life, Meaning of Dharma in Hinduism, Sanatana Dharma vs modern life, How to follow Sanatana Dharma?, Sanatana Dharma in India, Dharma, Mantra, Stotra, Stotras, Scripture, Scriptures, Commentary, Devotion, Practices, Ritual, Worship, Temple",
-      "ogImage": "/og/practices-vastu.jpg",
+      "ogimage": "/og/practices-vastu.jpg",
       "url": "https://sanatanadharmam.in/practices/vastu",
       "canonical": "https://sanatanadharmam.in/practices/vastu"
     },
@@ -71,7 +71,7 @@
     "modern_relevance": {
       "architecture": "Applied in home design and interior planning.",
       "psychology": "Improves mental well-being through balanced spaces.",
-      "corporate spaces": "Optimizes productivity and harmony."
+      "corporate_spaces": "Optimizes productivity and harmony."
     },
     "key_scriptural_references": [
       {

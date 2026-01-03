@@ -25,7 +25,7 @@
           "shiva": "Shiva Stotras",
           "vishnu": "Vishnu Stotras",
           "hanuman": "Hanuman Stotras",
-          "dailyPrayers": "Daily Prayers"
+          "dailyprayers": "Daily Prayers"
         }
       },
       "philosophy": {
@@ -59,10 +59,10 @@
           "saraswati": "Saraswati"
         }
       },
-      "kidsZone": {
+      "kidszone": {
         "title": "Kids Zone",
         "nav": {
-          "illustratedStories": "Illustrated Stories",
+          "illustratedstories": "Illustrated Stories",
           "mythologicalquizzes": "Mythological Quizzes",
           "easymantras": "Easy Mantras",
           "comics": "Mythology Comics"
@@ -78,11 +78,11 @@
     },
     "title": "Sanātana Dharma",
     "quote": "“Never displaying malice towards any living being through actions, thoughts or words, acts of kindness, and giving in charity; this is the Sanatana Dharma adhered to by righteous persons.”",
-    "quoteSource": "— Mahabharata 3.281.34.",
+    "quotesource": "— Mahabharata 3.281.34.",
     "contact": "Contact with us",
     "donate": "Donate",
     "disclaimer": "Disclaimer: This website is currently in development.",
-    "contentChange": "Content may be incomplete or subject to change.",
+    "contentchange": "Content may be incomplete or subject to change.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyright": "Vulchi Vijaya Kumar Raju © 2025."

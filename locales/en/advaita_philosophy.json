@@ -4,7 +4,7 @@
       "title": "Philosophy | Advaita — Sanatana Dharma - Explore Sanatan Dharma",
       "description": "Philosophy — Advaita — Sanatana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Philosophy. Explore practices, history, and guiding principles...",
       "keywords": "Advaita, Sanatana Dharma, Hinduism, Vedic philosophy, Dharma and spirituality, Hindu scriptures, Bhagavad Gita teachings, Upanishads, Vedas and Puranas, Hindu rituals and traditions, Yoga and meditation, Hindu festivals, Spiritual wisdom, Hindu culture and heritage, Indian philosophy, Hindu gods and goddesses, Karma and rebirth, What is Sanatana Dharma, Principles of Sanatana Dharma, Importance of Vedas in Hinduism, Hindu spiritual practices for daily life, Meaning of Dharma in Hinduism, Sanatana Dharma vs modern life, How to follow Sanatana Dharma?, Sanatana Dharma in India, Dharma, Mantra, Stotra, Stotras, Scripture, Scriptures, Commentary, Devotion, Practices, Ritual, Worship, Temple",
-      "ogImage": "/og/philosophy-advaita.jpg",
+      "ogimage": "/og/philosophy-advaita.jpg",
       "url": "https://sanatanadharmam.in/philosophy/advaita",
       "canonical": "https://sanatanadharmam.in/philosophy/advaita"
     },
@@ -27,16 +27,16 @@
       "Knowledge (Jnana) leads to liberation (Moksha)."
     ],
     "key_concepts": {
-      "Brahman": "The ultimate, infinite, and changeless reality.",
-      "Atman": "The true self, beyond body and mind.",
-      "Maya": "Illusion that creates the perception of multiplicity.",
-      "Avidya": "Ignorance that binds beings to Samsara."
+      "brahman": "The ultimate, infinite, and changeless reality.",
+      "atman": "The true self, beyond body and mind.",
+      "maya": "Illusion that creates the perception of multiplicity.",
+      "avidya": "Ignorance that binds beings to Samsara."
     },
     "paths_to_realization": {
-      "Jnana Yoga": "Path of knowledge and self-inquiry.",
-      "Shravana": "Listening to teachings of scriptures.",
-      "Manana": "Reflecting on the teachings.",
-      "Nididhyasana": "Deep meditation on truth."
+      "jnana_yoga": "Path of knowledge and self-inquiry.",
+      "shravana": "Listening to teachings of scriptures.",
+      "manana": "Reflecting on the teachings.",
+      "nididhyasana": "Deep meditation on truth."
     },
     "goals": [
       "Realize the unity of Atman and Brahman.",

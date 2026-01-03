@@ -1,10 +1,10 @@
 {
-  "bhagavadgita": {
+  "bhagavadgita_scriptures": {
     "meta": {
       "title": "Scriptures | Bhagavad Gita — Sanatana Dharma - Explore Sanatan Dharma",
       "description": "Bhagavad Gita — Complete Chapters & Commentary — Articles, translations and concise commentary on Bhagavad Gita. Explore practices, history, and guiding...",
       "keywords": "Bhagavad Gita, Gita, Sanatana Dharma, Hinduism, Vedic philosophy, Dharma and spirituality, Hindu scriptures, Bhagavad Gita teachings, Upanishads, Vedas and Puranas, Hindu rituals and traditions, Yoga and meditation, Hindu festivals, Spiritual wisdom, Hindu culture and heritage, Indian philosophy, Hindu gods and goddesses, Karma and rebirth, What is Sanatana Dharma, Principles of Sanatana Dharma, Importance of Vedas in Hinduism, Hindu spiritual practices for daily life, Meaning of Dharma in Hinduism, Sanatana Dharma vs modern life, How to follow Sanatana Dharma?, Sanatana Dharma in India,  Dharma, Mantra, Stotra, Stotras, Scripture, Scriptures, Commentary, Devotion, Practices, Ritual, Worship, Temple",
-      "ogImage": "/og/gita.png",
+      "ogimage": "/og/gita.png",
       "url": "https://sanatanadharmam.in/scriptures/gita",
       "canonical": "https://sanatanadharmam.in/scriptures/gita"
     },
@@ -17,7 +17,7 @@
         "verses_parsed_count": 46,
         "ai_images": [
           {
-            "imageSrc": "/images/gita/thumbs/1.png",
+            "imagesrc": "/images/gita/thumbs/1.png",
             "alt": "Bhagavad Gita Chapter 1 - Observing the Armies on the Battlefield of Kurukṣetra"
           }
         ],
@@ -646,7 +646,7 @@
         "verses_parsed_count": 20,
         "ai_images": [
           {
-            "imageSrc": "/images/gita/thumbs/2.png",
+            "imagesrc": "/images/gita/thumbs/2.png",
             "alt": "Bhagavad Gita Chapter 2 - Contents of the Gétä Summarized"
           }
         ],
@@ -1400,7 +1400,7 @@
         "verses_parsed_count": 130,
         "ai_images": [
           {
-            "imageSrc": "/images/gita/thumbs/3.png",
+            "imagesrc": "/images/gita/thumbs/3.png",
             "alt": "Bhagavad Gita Chapter 3 - Karma yoga"
           }
         ],
@@ -6366,7 +6366,7 @@
         "verses_parsed_count": 127,
         "ai_images": [
           {
-            "imageSrc": "/images/gita/thumbs/4.png",
+            "imagesrc": "/images/gita/thumbs/4.png",
             "alt": "Bhagavad Gita Chapter 4 - Transcendental Knowledge"
           }
         ],
@@ -11467,7 +11467,7 @@
         "verses_parsed_count": 25,
         "ai_images": [
           {
-            "imageSrc": "/images/gita/thumbs/5.png",
+            "imagesrc": "/images/gita/thumbs/5.png",
             "alt": "Bhagavad Gita Chapter 5 - Karma yoga Action in Krishna Consciousness"
           }
         ],
@@ -12150,7 +12150,7 @@
         "verses_parsed_count": 39,
         "ai_images": [
           {
-            "imageSrc": "/images/gita/thumbs/6.png",
+            "imagesrc": "/images/gita/thumbs/6.png",
             "alt": "Bhagavad Gita Chapter 6 - Säìkhya yoga"
           }
         ],
@@ -13200,7 +13200,7 @@
         "verses_parsed_count": 30,
         "ai_images": [
           {
-            "imageSrc": "/images/gita/thumbs/7.png",
+            "imagesrc": "/images/gita/thumbs/7.png",
             "alt": "Bhagavad Gita Chapter 7 - Knowledge of the Absolute"
           }
         ],
@@ -14009,7 +14009,7 @@
         "verses_parsed_count": 0,
         "ai_images": [
           {
-            "imageSrc": "/images/gita/thumbs/8.png",
+            "imagesrc": "/images/gita/thumbs/8.png",
             "alt": "Bhagavad Gita Chapter 8 - The Universal Form"
           }
         ],
@@ -14022,7 +14022,7 @@
         "verses_parsed_count": 34,
         "ai_images": [
           {
-            "imageSrc": "/images/gita/thumbs/9.png",
+            "imagesrc": "/images/gita/thumbs/9.png",
             "alt": "Bhagavad Gita Chapter 9 - The Most Confidential Knowledge"
           }
         ],
@@ -14928,7 +14928,7 @@
         "verses_parsed_count": 38,
         "ai_images": [
           {
-            "imageSrc": "/images/gita/thumbs/10.png",
+            "imagesrc": "/images/gita/thumbs/10.png",
             "alt": "Bhagavad Gita Chapter 10 - Observing the Armies on the Battlefield of Kurukṣetra"
           }
         ],
@@ -15930,7 +15930,7 @@
         "verses_parsed_count": 49,
         "ai_images": [
           {
-            "imageSrc": "/images/gita/thumbs/11.png",
+            "imagesrc": "/images/gita/thumbs/11.png",
             "alt": "Bhagavad Gita Chapter 11 - The Universal Form"
           }
         ],
@@ -17276,7 +17276,7 @@
         "verses_parsed_count": 12,
         "ai_images": [
           {
-            "imageSrc": "/images/gita/thumbs/12.png",
+            "imagesrc": "/images/gita/thumbs/12.png",
             "alt": "Bhagavad Gita Chapter 12 - Devotional Service"
           }
         ],
@@ -17610,7 +17610,7 @@
         "verses_parsed_count": 26,
         "ai_images": [
           {
-            "imageSrc": "/images/gita/thumbs/13.png",
+            "imagesrc": "/images/gita/thumbs/13.png",
             "alt": "Bhagavad Gita Chapter 13 - Nature, the Enjoyer, and Consciousness"
           }
         ],
@@ -18305,7 +18305,7 @@
         "verses_parsed_count": 23,
         "ai_images": [
           {
-            "imageSrc": "/images/gita/thumbs/14.png",
+            "imagesrc": "/images/gita/thumbs/14.png",
             "alt": "Bhagavad Gita Chapter 14 - The Three Modes of Material Nature"
           }
         ],
@@ -18922,7 +18922,7 @@
         "verses_parsed_count": 18,
         "ai_images": [
           {
-            "imageSrc": "/images/gita/thumbs/15.png",
+            "imagesrc": "/images/gita/thumbs/15.png",
             "alt": "Bhagavad Gita Chapter 15 - The Yoga of the Supreme Person"
           }
         ],
@@ -19418,7 +19418,7 @@
         "verses_parsed_count": 16,
         "ai_images": [
           {
-            "imageSrc": "/images/gita/thumbs/16.png",
+            "imagesrc": "/images/gita/thumbs/16.png",
             "alt": "Bhagavad Gita Chapter 16 - The Divine and Demoniac Natures"
           }
         ],
@@ -19854,7 +19854,7 @@
         "verses_parsed_count": 22,
         "ai_images": [
           {
-            "imageSrc": "/images/gita/thumbs/17.png",
+            "imagesrc": "/images/gita/thumbs/17.png",
             "alt": "Bhagavad Gita Chapter 17 - The Divisions of Faith"
           }
         ],
@@ -20449,7 +20449,7 @@
         "verses_parsed_count": 71,
         "ai_images": [
           {
-            "imageSrc": "/images/gita/thumbs/18.png",
+            "imagesrc": "/images/gita/thumbs/18.png",
             "alt": "Bhagavad Gita Chapter 18 - Conclusion—The Perfection of Renunciation"
           }
         ],

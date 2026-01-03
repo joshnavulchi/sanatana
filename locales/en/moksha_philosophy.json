@@ -4,7 +4,7 @@
       "title": "Philosophy | Moksha — Sanatana Dharma - Explore Sanatan Dharma",
       "description": "Philosophy — Moksha — Sanatana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Philosophy. Explore practices, history, and guiding principles at ...",
       "keywords": "Sanatana Dharma, Hinduism, Vedic philosophy, Dharma and spirituality, Hindu scriptures, Bhagavad Gita teachings, Upanishads, Vedas and Puranas, Hindu rituals and traditions, Yoga and meditation, Hindu festivals, Spiritual wisdom, Hindu culture and heritage, Indian philosophy, Hindu gods and goddesses, Karma and rebirth, What is Sanatana Dharma, Principles of Sanatana Dharma, Importance of Vedas in Hinduism, Hindu spiritual practices for daily life, Meaning of Dharma in Hinduism, Sanatana Dharma vs modern life, How to follow Sanatana Dharma?, Sanatana Dharma in India, Dharma, Mantra, Stotra, Stotras, Scripture, Scriptures, Commentary, Devotion, Practices, Ritual, Worship, Temple",
-      "ogImage": "/og/philosophy-moksha.jpg",
+      "ogimage": "/og/philosophy-moksha.jpg",
       "url": "https://sanatanadharmam.in/philosophy/moksha",
       "canonical": "https://sanatanadharmam.in/philosophy/moksha"
     },
@@ -26,10 +26,10 @@
       "Detachment from material desires"
     ],
     "paths_to_moksha": {
-      "Jnana Yoga": "Path of knowledge and self-realization.",
-      "Bhakti Yoga": "Path of devotion and surrender to God.",
-      "Karma Yoga": "Path of selfless action without attachment.",
-      "Raja Yoga": "Path of meditation and discipline."
+      "jnana_yoga": "Path of knowledge and self-realization.",
+      "bhakti_yoga": "Path of devotion and surrender to God.",
+      "karma_yoga": "Path of selfless action without attachment.",
+      "raja_yoga": "Path of meditation and discipline."
     },
     "goals": [
       "End suffering and ignorance",
@@ -42,9 +42,9 @@
       "atman": "Understanding the eternal Self leads to liberation."
     },
     "modern_relevance": {
-      "inner peace": "Encourages detachment and mindfulness.",
-      "spiritual growth": "Focuses on self-realization beyond materialism.",
-      "universal harmony": "Promotes compassion and unity."
+      "inner_peace": "Encourages detachment and mindfulness.",
+      "spiritual_growth": "Focuses on self-realization beyond materialism.",
+      "universal_harmony": "Promotes compassion and unity."
     },
     "key_scriptural_references": [
       {

@@ -4,7 +4,7 @@
       "title": "Practices | Rituals — Sanatana Dharma - Explore Sanatan Dharma",
       "description": "Practices — Rituals — Sanatana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Practices. Explore practices, history, and guiding principles at...",
       "keywords": "Rituals, Sanatana Dharma, Hinduism, Vedic philosophy, Dharma and spirituality, Hindu scriptures, Bhagavad Gita teachings, Upanishads, Vedas and Puranas, Hindu rituals and traditions, Yoga and meditation, Hindu festivals, Spiritual wisdom, Hindu culture and heritage, Indian philosophy, Hindu gods and goddesses, Karma and rebirth, What is Sanatana Dharma, Principles of Sanatana Dharma, Importance of Vedas in Hinduism, Hindu spiritual practices for daily life, Meaning of Dharma in Hinduism, Sanatana Dharma vs modern life, How to follow Sanatana Dharma?, Sanatana Dharma in India, Dharma, Mantra, Stotra, Stotras, Scripture, Scriptures, Commentary, Devotion, Practices, Ritual, Worship, Temple",
-      "ogImage": "/og/practices-rituals.jpg",
+      "ogimage": "/og/practices-rituals.jpg",
       "url": "https://sanatanadharmam.in/practices/rituals",
       "canonical": "https://sanatanadharmam.in/practices/rituals"
     },
@@ -47,22 +47,22 @@
           "Homa – Fire ritual performed in temple premises for purification and blessings."
         ],
         "regional_variations": {
-          "South_India": [
+          "south_india": [
             "Panchamrita Abhishekam – Bathing deity with five sacred substances (milk, curd, ghee, honey, sugar).",
             "Vahana Seva – Deity taken on a procession on different mounts during festivals.",
             "Deepa Aradhana – Elaborate lamp worship in temples like Meenakshi and Tirupati."
           ],
-          "North_India": [
+          "north_india": [
             "Bhajan and Kirtan – Devotional singing in temple halls.",
             "Jalabhishek – Offering water to Shiva Lingam, especially during Shravan month.",
             "Rath Yatra – Chariot procession of deities during major festivals."
           ],
-          "East_India": [
+          "east_india": [
             "Durga Puja rituals – Elaborate worship of Goddess Durga with artistic idols.",
             "Chandi Path – Recitation of Devi Mahatmya during Navaratri.",
             "Sandhi Puja – Special offering during the transition of Ashtami and Navami."
           ],
-          "West_India": [
+          "west_india": [
             "Garba and Dandiya – Dance rituals during Navaratri in Gujarat.",
             "Tulsi Vivah – Symbolic marriage of Tulsi plant with Lord Vishnu.",
             "Abhanga singing – Devotional songs in Varkari tradition of Maharashtra."

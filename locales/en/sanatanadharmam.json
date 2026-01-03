@@ -1,148 +1,148 @@
 {
-  "chapterSEO": [
+  "sanatanadharmam": [
     {
-      "chapterNumber": 1,
+      "chapternumber": 1,
       "title": "Understanding Sanatana Dharma",
-      "primaryKeyword": "Sanatana Dharma meaning",
-      "secondaryKeywords": [
+      "primarykeyword": "Sanatana Dharma meaning",
+      "secondarykeywords": [
         "what is Sanatana Dharma",
         "eternal dharma philosophy",
         "Sanatana Dharma way of life",
         "Sanatana Dharma explanation"
       ],
-      "longTailKeywords": [
+      "longtailkeywords": [
         "Sanatana Dharma explained in simple English",
         "Sanatana Dharma as a way of life",
         "difference between religion and Sanatana Dharma",
         "why Sanatana Dharma is eternal"
       ],
-      "searchIntent": "Informational"
+      "searchintent": "Informational"
     },
     {
-      "chapterNumber": 2,
+      "chapternumber": 2,
       "title": "Timeless Origins and Vedic Foundations",
-      "primaryKeyword": "origins of Sanatana Dharma",
-      "secondaryKeywords": [
+      "primarykeyword": "origins of Sanatana Dharma",
+      "secondarykeywords": [
         "Vedic foundations of Hinduism",
         "ancient Vedic civilization",
         "history of Sanatana Dharma",
         "Vedas and Sanatana Dharma"
       ],
-      "longTailKeywords": [
+      "longtailkeywords": [
         "when did Sanatana Dharma begin",
         "role of Vedas in Sanatana Dharma",
         "ancient sages and Vedic knowledge",
         "cyclical time concept in Hindu philosophy"
       ],
-      "searchIntent": "Informational / Educational"
+      "searchintent": "Informational / Educational"
     },
     {
-      "chapterNumber": 3,
+      "chapternumber": 3,
       "title": "Core Philosophical Principles",
-      "primaryKeyword": "Dharma Karma Moksha",
-      "secondaryKeywords": [
+      "primarykeyword": "Dharma Karma Moksha",
+      "secondarykeywords": [
         "karma and rebirth",
         "samsara cycle",
         "moksha meaning",
         "atman and brahman concept"
       ],
-      "longTailKeywords": [
+      "longtailkeywords": [
         "what is karma according to Sanatana Dharma",
         "meaning of moksha in Hindu philosophy",
         "difference between atman and brahman",
         "samsara and liberation explained"
       ],
-      "searchIntent": "Deep Informational"
+      "searchintent": "Deep Informational"
     },
     {
-      "chapterNumber": 4,
+      "chapternumber": 4,
       "title": "Sacred Texts and Living Wisdom",
-      "primaryKeyword": "Hindu sacred texts",
-      "secondaryKeywords": [
+      "primarykeyword": "Hindu sacred texts",
+      "secondarykeywords": [
         "Vedas and Upanishads",
         "Bhagavad Gita teachings",
         "Ramayana and Mahabharata philosophy",
         "Puranas meaning"
       ],
-      "longTailKeywords": [
+      "longtailkeywords": [
         "importance of Bhagavad Gita in daily life",
         "difference between Vedas and Upanishads",
         "moral lessons from Ramayana and Mahabharata",
         "why Hindu scriptures are timeless"
       ],
-      "searchIntent": "Informational / Research"
+      "searchintent": "Informational / Research"
     },
     {
-      "chapterNumber": 5,
+      "chapternumber": 5,
       "title": "Paths of Yoga and Spiritual Practice",
-      "primaryKeyword": "types of yoga in Sanatana Dharma",
-      "secondaryKeywords": [
+      "primarykeyword": "types of yoga in Sanatana Dharma",
+      "secondarykeywords": [
         "karma yoga",
         "bhakti yoga",
         "jnana yoga",
         "raja yoga"
       ],
-      "longTailKeywords": [
+      "longtailkeywords": [
         "difference between bhakti yoga and jnana yoga",
         "what is karma yoga in Bhagavad Gita",
         "four paths of yoga explained",
         "best yoga path for spiritual growth"
       ],
-      "searchIntent": "Informational / Practical"
+      "searchintent": "Informational / Practical"
     },
     {
-      "chapterNumber": 6,
+      "chapternumber": 6,
       "title": "Divinity, Symbolism, and Worship",
-      "primaryKeyword": "Hindu concept of God",
-      "secondaryKeywords": [
+      "primarykeyword": "Hindu concept of God",
+      "secondarykeywords": [
         "Trimurti Brahma Vishnu Shiva",
         "Shakti concept",
         "Hindu deities symbolism",
         "idol worship meaning"
       ],
-      "longTailKeywords": [
+      "longtailkeywords": [
         "why Hindus worship many gods",
         "symbolism of Hindu gods and goddesses",
         "is Hinduism monotheistic or polytheistic",
         "meaning of puja in Sanatana Dharma"
       ],
-      "searchIntent": "Clarification / Educational"
+      "searchintent": "Clarification / Educational"
     },
     {
-      "chapterNumber": 7,
+      "chapternumber": 7,
       "title": "Ethics, Society, and Life Stages",
-      "primaryKeyword": "Sanatana Dharma ethics",
-      "secondaryKeywords": [
+      "primarykeyword": "Sanatana Dharma ethics",
+      "secondarykeywords": [
         "ashrama system",
         "varna system explanation",
         "ahimsa meaning",
         "dharma in daily life"
       ],
-      "longTailKeywords": [
+      "longtailkeywords": [
         "four stages of life in Hinduism",
         "true meaning of varna system",
         "importance of ahimsa in Sanatana Dharma",
         "how dharma guides human life"
       ],
-      "searchIntent": "Educational / Social"
+      "searchintent": "Educational / Social"
     },
     {
-      "chapterNumber": 8,
+      "chapternumber": 8,
       "title": "Cosmic Vision and Modern Relevance",
-      "primaryKeyword": "relevance of Sanatana Dharma today",
-      "secondaryKeywords": [
+      "primarykeyword": "relevance of Sanatana Dharma today",
+      "secondarykeywords": [
         "Hindu cosmology",
         "science and spirituality",
         "yoga and ayurveda",
         "Sanatana Dharma in modern life"
       ],
-      "longTailKeywords": [
+      "longtailkeywords": [
         "how Sanatana Dharma helps modern society",
         "Sanatana Dharma and environmental harmony",
         "scientific aspects of Hindu philosophy",
         "why Sanatana Dharma is relevant today"
       ],
-      "searchIntent": "Informational / Contemporary"
+      "searchintent": "Informational / Contemporary"
     }
   ]
 }
