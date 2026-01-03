@@ -99,7 +99,13 @@ function interpolateObject(obj: unknown, params?: Record<string, string>): unkno
 }
 // Return a metadata object from `locales[locale].meta[metaKey]` with interpolation
 export function getMeta(metaKey: string, params?: Record<string, string>, locale = DEFAULT_LOCALE) {
-  console.log("Vijay metaKey:", metaKey, " locale:", locale);
+  // Helper: determine whether an object looks like a meta object
+  const looksLikeMeta = (obj: unknown) => {
+    if (!obj || typeof obj !== 'object') return false;
+    const keys = Object.keys(obj as Record<string, unknown>);
+    const metaKeys = ['title', 'description', 'keywords', 'ogImage', 'url', 'canonical'];
+    return keys.some(k => metaKeys.includes(k));
+  };
   // Prefer loading per-page meta files from `locales/<locale>/<metaKey>.json` on the server.
   if (typeof window === 'undefined') {
     try {
@@ -117,7 +123,6 @@ export function getMeta(metaKey: string, params?: Record<string, string>, locale
         try {
           // eslint-disable-next-line @typescript-eslint/no-var-requires
           const mod = require(`../locales/${locale}/${candidateKey}.json`);
-          console.log("Vijay :::: ", mod);
           const obj = (mod && (mod.default || mod)) as any;
 
           // The file may export either a top-level `meta`, an object keyed by
@@ -138,9 +143,9 @@ export function getMeta(metaKey: string, params?: Record<string, string>, locale
             }
           }
 
-          const candidate = pageObj?.meta ?? obj?.meta ?? pageObj;
+          const candidate = pageObj?.meta ?? obj?.meta ?? null;
 
-          if (candidate && typeof candidate === 'object') {
+          if (candidate && looksLikeMeta(candidate)) {
             return interpolateObject(candidate, params) as Record<string, unknown>;
           }
         } catch (err) {
@@ -153,13 +158,9 @@ export function getMeta(metaKey: string, params?: Record<string, string>, locale
     }
   }
 
-  // Fallback (client or server fallback): read from merged locale object.
-  const loc = getLocaleObject(locale) as Record<string, unknown> | undefined;
-  const metaRoot = ((loc as any)?.meta as Record<string, unknown> | undefined)
-    ?? (((getLocaleObject(DEFAULT_LOCALE) as any)?.meta) as Record<string, unknown> | undefined)
-    ?? {};
-  const meta = (metaRoot?.[metaKey] as unknown) ?? {};
-  return interpolateObject(meta, params) as Record<string, unknown>;
+  // Do NOT fallback to the merged `meta.json` file.
+  // If no per-page meta was found in the page file, return an empty object.
+  return interpolateObject({}, params) as Record<string, unknown>;
 }
 export function detectLocale(searchParams?: unknown) {
   // Avoid accessing any properties if `searchParams` is an unresolved
