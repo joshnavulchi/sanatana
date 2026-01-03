@@ -1,11 +1,8 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { headers } from 'next/headers';
-
-import Link from 'next/link';
 import { notFound } from 'next/navigation';
-
-
 import { t, getMeta, detectLocale, DEFAULT_LOCALE, detectServerLocaleFromHeaders } from '@/lib/i18n';
+import Link from 'next/link';
 
 function resolveLocaleFromHeaders() {
   try {
