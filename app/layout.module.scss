@@ -13,7 +13,26 @@
 .layout-md {
   margin: 0 auto;
   max-width: var(--content-width-md);
-  padding: var(--space-xl) var(--space-md);
+  padding: var(--space-xl) var(--space-md) var(--space-2xl);
+}
+.cards {
+  flex-wrap: wrap;
+}
+.card {
+  background-color: var(--theme-alternative-background-color);
+  padding: var(--space-lg);
+  &.no-padding {
+    padding: 0;
+  }
+  .card-details {
+    padding: var(--space-md);
+    p {
+      margin-bottom: 0;
+    }
+    small {
+      color: var(--theme-body-text-color);
+    }
+  }
 }
 @media (min-width: 1024px) {
   .content-wrapper {
@@ -21,6 +40,9 @@
     max-width: var(--content-width-default);
     padding-top: var(--space-3xl);
     padding-bottom: var(--space-3xl);
+  }
+  .cards {
+    flex-wrap: inherit;
   }
 }
 @media (min-width: 1600px) {

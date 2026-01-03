@@ -29,7 +29,6 @@ type BannerProps = {
 };
 
 export default function BannerNotifications({ id, message, marquee, showClose = false }: BannerProps) {
-  console.log('message:', message);
   const [closed, setClosed] = useState(false);
 
   // compute a small deterministic hash from the message content so each

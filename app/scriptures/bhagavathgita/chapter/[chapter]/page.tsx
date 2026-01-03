@@ -76,7 +76,7 @@ export default async function Page({ params, searchParams }: { params: any, sear
       {/* Debug removed */}
       <main className="content-wrapper md page-space-xl">
         <nav role="menu">
-          <Link href="/scriptures/gita">&larr; Back to Bhagavad Gita</Link>
+          <Link href="/scriptures/bhagavathgita">&larr; Back to Bhagavad Gita</Link>
         </nav>
 
 
@@ -155,7 +155,7 @@ export default async function Page({ params, searchParams }: { params: any, sear
         <div>
           <div>
             {num > 1 ? (
-              <Link href={`/scriptures/gita/chapter/${num - 1}`}>
+              <Link href={`/scriptures/bhagavathgita/chapter/${num - 1}`}>
                 &larr; Previous
               </Link>
             ) : (
@@ -164,7 +164,7 @@ export default async function Page({ params, searchParams }: { params: any, sear
           </div>
           <div>
             {num < 18 ? (
-              <Link href={`/scriptures/gita/chapter/${num + 1}`}>
+              <Link href={`/scriptures/bhagavathgita/chapter/${num + 1}`}>
                 Next &rarr;
               </Link>
             ) : (

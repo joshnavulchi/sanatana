@@ -31,7 +31,6 @@ export default function Header() {
     banner: (((enBanner as any)?.banner_notifications ?? (enBanner as any)?.banner ?? enBanner) as any) || null,
     banner2: (((enBanner2 as any)?.banner_notifications2 ?? (enBanner2 as any)?.banner ?? enBanner2) as any) || null,
   });
-  console.log('Header translations:', translations);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [expandedKeys, setExpandedKeys] = useState<Record<string, boolean>>({});
   const dropdownRefs = useRef<Record<string, (HTMLElement | null)[]>>({});

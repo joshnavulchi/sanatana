@@ -14,11 +14,11 @@
       "description": "Sanātana Dharma is a timeless way of understanding existence, consciousness, and righteous living, rooted in ancient spiritual wisdom.",
       "primarycta": {
         "label": "Explore Bhagavad Gita",
-        "link": "/gita"
+        "link": "bhagavathgita"
       },
       "secondarycta": {
         "label": "Learn Sanātana Dharma",
-        "link": "/sanatanadharma"
+        "link": "sanatanadharma"
       }
     },
     "sections": [

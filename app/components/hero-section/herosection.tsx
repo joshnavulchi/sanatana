@@ -26,7 +26,7 @@ export default function HeroSection() {
             <Link href={`/scriptures/${primaryCtaLink}`} className="button inline-block shadow-sm bg-amber-300 hover:bg-amber-400 no-underline">
               {primaryCtaLabel}
             </Link>
-            <Link href={`${secondaryCtaLink}`} className="button inline-block shadow-sm bg-white/75 hover:bg-white no-underline">
+            <Link href={`/${secondaryCtaLink}`} className="button inline-block shadow-sm bg-white/75 hover:bg-white no-underline">
               {secondaryCtaLabel}
             </Link>
           </div>
