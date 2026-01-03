@@ -3,18 +3,18 @@ import { t, detectLocale, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import { parseList } from 'lib/parseList';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('vedas');
+export const generateMetadata = createGenerateMetadata('vedas_scriptures');
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
-    const k: any = getMeta('vedas', {}, locale) || {};
-    const structure = k.structure?.fourvedas ?? parseList(t('vedas.structure.fourvedas', locale));
-    const origin = typeof k.origin === 'object' ? k.origin : (t('vedas.origin', locale) || {});
-    const authorship = typeof k.authorship === 'object' ? k.authorship : (t('vedas.authorship', locale) || {});
+    const k: any = getMeta('vedas_scriptures', {}, locale) || {};
+    const structure = k.structure?.fourvedas ?? parseList(t('vedas_scriptures.structure.fourvedas', locale));
+    const origin = typeof k.origin === 'object' ? k.origin : (t('vedas_scriptures.origin', locale) || {});
+    const authorship = typeof k.authorship === 'object' ? k.authorship : (t('vedas_scriptures.authorship', locale) || {});
     return {
-      title: typeof k.title === 'string' ? k.title : String(t('vedas.title', locale) || ''),
-      intro: typeof k.intro === 'string' ? k.intro : String(t('vedas.intro', locale) || ''),
+      title: typeof k.title === 'string' ? k.title : String(t('vedas_scriptures.title', locale) || ''),
+      intro: typeof k.intro === 'string' ? k.intro : String(t('vedas_scriptures.intro', locale) || ''),
       origin,
       authorship,
       structure
@@ -23,10 +23,10 @@ export default function Page({ searchParams }: any) {
   return (
     <>
       <PageLayout
-        metaKey="vedas"
+        metaKey="vedas_scriptures"
         title={page.title}
         breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Vedas' }]}
-        className=""
+        className="layout-sm"
       >
         <p>{page.intro}</p>
         <div>

@@ -2,14 +2,14 @@
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('sanksheparamayana'); 
+export const generateMetadata = createGenerateMetadata('sankshepa_ramayana_scriptures');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
     const loc: any = getLocaleObject(locale) || {};
-    const ram = loc?.sanksheparamayana || {};
+    const ram = loc?.sankshepa_ramayana_scriptures || {};
     return {
       title: ram.title || '',
       author: ram.author || '',
@@ -26,10 +26,10 @@ export default function Page({ searchParams }: any) {
   return (
     <>
       <PageLayout
-        metaKey="sanksheparamayana"
+        metaKey="sankshepa_ramayana"
         title={page.title}
         breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}
-        className=""
+        className="layout-sm"
       >
         <p><strong>Source: </strong>{page.author} - {page.description ? <span>{page.description}</span> : null}</p>
         {/* Structured display of all ramayana fields */}

@@ -3,24 +3,24 @@ import { t, detectLocale, getMeta } from '../../../lib/i18n';
 import { parseList } from 'lib/parseList';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('upanishads');
+export const generateMetadata = createGenerateMetadata('upanishads_scriptures');
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
-    const k: any = getMeta('upanishads', {}, locale) || {};
+    const k: any = getMeta('upanishads_scriptures', {}, locale) || {};
     return {
-      title: typeof k.title === 'string' ? k.title : (t('upanishads.title', locale) || ''),
-      list: Array.isArray(k.list) ? k.list : parseList(t('upanishads.list', locale))
+      title: typeof k.title === 'string' ? k.title : (t('upanishads_scriptures.title', locale) || ''),
+      list: Array.isArray(k.list) ? k.list : parseList(t('upanishads_scriptures.list', locale))
     };
   })();
   return (
     <>
       <PageLayout
-        metaKey="upanishads"
+        metaKey="upanishads_scriptures"
         title={page.title}
         breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Upanishads' }]}
-        className=""
+        className="layout-sm"
       >
         {(page.list || []).map((item: any, i: number) => (
           <div key={i}>

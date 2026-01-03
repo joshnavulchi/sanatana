@@ -2,17 +2,17 @@
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('puranas');
+export const generateMetadata = createGenerateMetadata('puranas_scriptures');
 
 export default function PuranasPage({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
-    const k: any = getMeta('puranas', {}, locale) || {};
+    const k: any = getMeta('puranas_scriptures', {}, locale) || {};
     const loc: any = getLocaleObject(locale) || {};
-    const puranas = loc?.puranas || {};
+    const puranas = loc?.puranas_scriptures || {};
     return {
-      title: typeof k.title === 'string' ? k.title : (puranas.title || t('puranas.title', locale) || ''),
+      title: typeof k.title === 'string' ? k.title : (puranas.title || t('puranas_scriptures.title', locale) || ''),
       classification: k.classification || puranas.classification,
       definition: k.definition || puranas.definition,
       major_puranas: Array.isArray(k.major_puranas) ? k.major_puranas : (Array.isArray(puranas.major_puranas) ? puranas.major_puranas : [])
@@ -22,10 +22,10 @@ export default function PuranasPage({ searchParams }: any) {
   return (
     <>
       <PageLayout
-        metaKey="puranas"
+        metaKey="puranas_scriptures"
         title={page.title}
         breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Puranas' }]}
-        className=""
+        className="layout-sm"
       >
         <p>{page.classification}</p>
         <p>{page.definition}</p>

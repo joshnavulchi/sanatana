@@ -23,18 +23,18 @@ export async function createGenerateMetadata({ params, searchParams }: { params:
 
   // load chapters from locale translations; if the locale doesn't include
   // structured chapters, fall back to English translations (no combined file)
-  let chaptersRaw: any = t('bhagavadgita.chapters', locale);
+  let chaptersRaw: any = t('bhagavadgita_scriptures.chapters', locale); 
   if (!Array.isArray(chaptersRaw)) {
-    chaptersRaw = t('bhagavadgita.chapters', 'en');
+    chaptersRaw = t('bhagavadgita_scriptures.chapters', 'en');
   }
   const chapters: any[] = Array.isArray(chaptersRaw) ? chaptersRaw : [];
   const resolvedParams = params && typeof params.then === 'function' ? await params : params;
   const num = Number(resolvedParams?.chapter || 0);
   const ch = Array.isArray(chapters) ? chapters.find((c: any) => Number(c.chapter) === num) : null;
-  const title = ch ? `${S('bhagavadgita.title')} — Chapter ${ch.chapter}: ${ch.title}` : `${S('bhagavadgita.title')} — Chapter ${num}`;
+  const title = ch ? `${S('bhagavadgita_scriptures.title')} — Chapter ${ch.chapter}: ${ch.title}` : `${S('bhagavadgita_scriptures.title')} — Chapter ${num}`;
   const meta = getMeta('bhagavadgita_slug', { title: title, excerpt: ch && ch.summary ? ch.summary : '' }, locale);
   const description = ch && ch.summary ? ch.summary : meta.description;
-  const keywords = (meta.keywords && String(meta.keywords).trim()) ? meta.keywords : `${S('bhagavadgita.title')}, chapter ${num}`;
+  const keywords = (meta.keywords && String(meta.keywords).trim()) ? meta.keywords : `${S('bhagavadgita_scriptures.title')}, chapter ${num}`;
   const ogImages = meta.ogImage ? [meta.ogImage] : undefined;
   return {
     title,
@@ -53,9 +53,9 @@ export async function generateStaticParams() {
 export default async function Page({ params, searchParams }: { params: any, searchParams?: any }) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   // load chapters strictly from locale translations; fall back to English
-  let chaptersRaw: any = t('bhagavadgita.chapters', locale);
+  let chaptersRaw: any = t('bhagavadgita_scriptures.chapters', locale);
   if (!Array.isArray(chaptersRaw)) {
-    chaptersRaw = t('bhagavadgita.chapters', 'en');
+    chaptersRaw = t('bhagavadgita_scriptures.chapters', 'en');
   }
   const chapters: any[] = Array.isArray(chaptersRaw) ? chaptersRaw : [];
   const resolvedParams = params && typeof params.then === 'function' ? await params : params;
@@ -66,7 +66,7 @@ export default async function Page({ params, searchParams }: { params: any, sear
   }
   const ch = Array.isArray(chapters) ? chapters.find((c: any, i: number) => Number(c.chapter || c.chapter_number || (i + 1)) === num) : null;
   // compute a chapter-specific title/excerpt to pass into StructuredData
-  const bookTitle = (t('bhagavadgita.title', locale) || t('bhagavadgita.title', 'en') || 'Bhagavad Gita');
+  const bookTitle = (t('bhagavadgita_scriptures.title', locale) || t('bhagavadgita_scriptures.title', 'en') || 'Bhagavad Gita');
   const chapterTitleText = ch ? (ch.title || ch.name || `Chapter ${num}`) : `Chapter ${num}`;
   const title = `${bookTitle} — Chapter ${num}: ${chapterTitleText}`;
   const excerpt = ch && ch.summary ? ch.summary : '';
@@ -78,10 +78,7 @@ export default async function Page({ params, searchParams }: { params: any, sear
         <nav role="menu">
           <Link href="/scriptures/bhagavathgita">&larr; Back to Bhagavad Gita</Link>
         </nav>
-
-
-        <h2>{title}</h2>
-
+        <h1>{title}</h1>
         {ch && ch.verses && ch.verses.length > 0 ? (
           <div>
             {ch.verses.map((v: any, idx: number) => {

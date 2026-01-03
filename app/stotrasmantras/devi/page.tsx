@@ -3,26 +3,26 @@ import { t, detectLocale, getMeta } from '../../../lib/i18n';
 import { parseList } from 'lib/parseList';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('devi_stotrasmantras');
+export const generateMetadata = createGenerateMetadata('devi_stotras'); 
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
-    const k: any = getMeta('devi_stotrasmantras', {}, locale) || {};
+    const k: any = getMeta('devi_stotras', {}, locale) || {};
     return {
-      title: typeof k.title === 'string' ? k.title : String(t('devi_stotrasmantras.title', locale) || 'Devi Stotras'),
-      items: Array.isArray(k.items) ? k.items : parseList(t('devi_stotrasmantras.devi_stotras', locale))
+      title: typeof k.title === 'string' ? k.title : String(t('devi_stotras.title', locale) || 'Devi Stotras'),
+      items: Array.isArray(k.items) ? k.items : parseList(t('devi_stotras.devi_stotras', locale))
     };
   })();
   const items = page.items || [];
   return (
     <>
       <PageLayout
-        metaKey="devi_stotrasmantras"
+        metaKey="devi_stotras"
         title={page.title}
         breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (page.title || '') }]}
-        className=""
+        className="layout-sm"
       >
         {items.map((item: any, i: number) => (
           <section key={i}>
