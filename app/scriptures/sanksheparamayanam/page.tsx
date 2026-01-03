@@ -2,7 +2,7 @@
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('sanksheparamayana');
+export const generateMetadata = createGenerateMetadata('sanksheparamayana'); 
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();

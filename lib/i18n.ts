@@ -99,6 +99,7 @@ function interpolateObject(obj: unknown, params?: Record<string, string>): unkno
 }
 // Return a metadata object from `locales[locale].meta[metaKey]` with interpolation
 export function getMeta(metaKey: string, params?: Record<string, string>, locale = DEFAULT_LOCALE) {
+  console.log("Vijay metaKey:", metaKey, " locale:", locale);
   // Prefer loading per-page meta files from `locales/<locale>/<metaKey>.json` on the server.
   if (typeof window === 'undefined') {
     try {
@@ -116,6 +117,7 @@ export function getMeta(metaKey: string, params?: Record<string, string>, locale
         try {
           // eslint-disable-next-line @typescript-eslint/no-var-requires
           const mod = require(`../locales/${locale}/${candidateKey}.json`);
+          console.log("Vijay :::: ", mod);
           const obj = (mod && (mod.default || mod)) as any;
 
           // The file may export either a top-level `meta`, an object keyed by
@@ -160,15 +162,30 @@ export function getMeta(metaKey: string, params?: Record<string, string>, locale
   return interpolateObject(meta, params) as Record<string, unknown>;
 }
 export function detectLocale(searchParams?: unknown) {
+  // Avoid accessing any properties if `searchParams` is an unresolved
+  // Promise-like object (Next may pass a Promise proxy). Use safe checks
+  // that do not access properties on the object.
   if (searchParams && typeof searchParams === "object") {
     try {
-      // Only use .get if searchParams is a URLSearchParams or has a safe .get method
+      if (searchParams instanceof Promise) return DEFAULT_LOCALE;
+      const tag = Object.prototype.toString.call(searchParams);
+      if (tag === "[object Promise]") return DEFAULT_LOCALE;
+    } catch (e) {
+      // ignore and continue with guarded access below
+    }
+
+    // Safe to access properties now (not a Promise-like).
+    try {
+      // Only use .get if it's a function on the object (URLSearchParams-like).
       // @ts-ignore - dynamic get method on unknown type
-      if (typeof (searchParams as any).get === "function") {
+      const maybeGet = (searchParams as any).get;
+      if (typeof maybeGet === "function") {
+        // call it with the correct receiver
         // @ts-ignore
-        const v = (searchParams as any).get("lang");
+        const v = maybeGet.call(searchParams, "lang");
         if (v) return String(v);
       }
+
       // Fallback for plain objects like { lang: 'hi' } or { lang: ['hi'] }
       const candidate = (searchParams as Record<string, unknown>)["lang"];
       if (candidate) {
