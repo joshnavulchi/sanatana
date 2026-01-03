@@ -62,7 +62,7 @@ import _58 from './scriptures.json';
 import _59 from './scrollToTop.json';
 import _60 from './shiva_story.json';
 import _61 from './shiva_stotras.json';
-import _62 from './siteTitle.json';
+import _62 from './site_title.json';
 import _63 from './slugPage.json';
 import _64 from './stories.json';
 import _65 from './stotrasmantras.json';

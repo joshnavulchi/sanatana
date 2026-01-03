@@ -29,6 +29,7 @@ type BannerProps = {
 };
 
 export default function BannerNotifications({ id, message, marquee, showClose = false }: BannerProps) {
+  console.log('message:', message);
   const [closed, setClosed] = useState(false);
 
   // compute a small deterministic hash from the message content so each
@@ -73,7 +74,8 @@ export default function BannerNotifications({ id, message, marquee, showClose = 
 
   if (closed) return null;
 
-  const { title, subtitle } = message;
+  const { title } = message || "";
+  const { subtitle } = message || "";
   const { lbeforetext } = message || "";
   const { lbetweentext } = message || "";
   const { laftertext } = message || "";

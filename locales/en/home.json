@@ -1,9 +1,9 @@
 {
   "home": {
     "meta": {
-      "title": "Home | Overview — Sanatana Dharma - Explore Sanatan Dharma",
-      "description": "Sanatana Dharma — Explore Sanatana Dharma: the eternal principles of Hinduism, Vedic traditions, spiritual practices, and wisdom from scriptures like the...",
-      "keywords": "Explore Bhagavad Gita, Learn Sanātana Dharma, Sanatana Dharma, Hinduism, Vedic philosophy, Dharma and spirituality, Hindu scriptures, Bhagavad Gita teachings, Upanishads, Vedas and Puranas, Hindu rituals and traditions, Yoga and meditation, Hindu festivals, Spiritual wisdom, Hindu culture and heritage, Indian philosophy, Hindu gods and goddesses, Karma and rebirth, What is Sanatana Dharma, Principles of Sanatana Dharma, Importance of Vedas in Hinduism, Hindu spiritual practices for daily life, Meaning of Dharma in Hinduism, Sanatana Dharma vs modern life, How to follow Sanatana Dharma?, Sanatana Dharma in India,  Dharma, Mantra, Stotra, Stotras, Scripture, Scriptures, Commentary, Devotion, Practices, Ritual, Worship, Temple",
+      "title": "Home | Overview — Sanātana Dharma - Explore Sanatan Dharma",
+      "description": "Sanātana Dharma — Explore Sanātana Dharma: the eternal principles of Hinduism, Vedic traditions, spiritual practices, and wisdom from scriptures like the...",
+      "keywords": "Explore Bhagavad Gita, Learn Sanātana Dharma, Sanātana Dharma, Hinduism, Vedic philosophy, Dharma and spirituality, Hindu scriptures, Bhagavad Gita teachings, Upanishads, Vedas and Puranas, Hindu rituals and traditions, Yoga and meditation, Hindu festivals, Spiritual wisdom, Hindu culture and heritage, Indian philosophy, Hindu gods and goddesses, Karma and rebirth, What is Sanatana Dharma, Principles of Sanatana Dharma, Importance of Vedas in Hinduism, Hindu spiritual practices for daily life, Meaning of Dharma in Hinduism, Sanatana Dharma vs modern life, How to follow Sanatana Dharma?, Sanatana Dharma in India,  Dharma, Mantra, Stotra, Stotras, Scripture, Scriptures, Commentary, Devotion, Practices, Ritual, Worship, Temple",
       "ogimage": "images/og/home.png",
       "url": "https://sanatanadharmam.in",
       "canonical": "https://sanatanadharmam.in"
@@ -291,6 +291,13 @@
         ]
       }
     ],
+    "shivaheading": [
+      "Shiva as the ",
+      "Supreme Being. ",
+      "He is the ultimate ",
+      "reality, beyond ",
+      "time and space."
+    ],
     "stat1": "10,00,000+",
     "stat1desc": "More than one million Shiva Temples in India",
     "stat2": "10,000+",
@@ -341,13 +348,6 @@
       "transliteration": "Yadā yadā hi dharmasya glānirbhavati bhārata, Abhyutthāna madharmasya tadātmānaṁ sṛjāmyaham.",
       "credit": "- by Lord Krishna.",
       "translation": "Whenever and wherever there is a decline in righteousness (Dharma), O descendant of Bharata (Arjuna), and a predominance of unrighteousness (Adharma)—at that time I manifest Myself (take birth)."
-    },
-    "shivaheading": [
-      "Shiva as the ",
-      "Supreme Being. ",
-      "He is the ultimate ",
-      "reality, beyond ",
-      "time and space."
-    ]
+    }
   }
 }
