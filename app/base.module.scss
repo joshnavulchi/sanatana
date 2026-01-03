@@ -137,11 +137,6 @@ button,
     color: rgb(50, 84, 146);
   }
 }
-.title,
-.subtitle,
-.description {
-  background-color: rgba(255, 255, 255, .95);
-}
 .title {
   margin-top: 0;
   font-size: 1.8rem;
@@ -169,10 +164,5 @@ button,
     font-size: 1rem;
   }
   small, .small, .meta { font-size: 0.75rem; }
-  .title,
-  .subtitle,
-  .description {
-    background-color: transparent;
-  }
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

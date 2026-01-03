@@ -23,7 +23,7 @@ export default async function Home() {
         <ShivaStotram /> */}
         <GayathriStotram />
         <GitSupport />
-        <OurFourCoreYugas />
+        {/* <OurFourCoreYugas /> */}
         <AboutShiva />
       </main>
     </>

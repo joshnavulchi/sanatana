@@ -73,7 +73,8 @@ export default function BannerNotifications({ id, message, marquee, showClose = 
 
   if (closed) return null;
 
-  const { title, subtitle } = message;
+  const { title } = message || "";
+  const { subtitle } = message || "";
   const { lbeforetext } = message || "";
   const { lbetweentext } = message || "";
   const { laftertext } = message || "";

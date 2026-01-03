@@ -33,10 +33,10 @@ export default function SanatanaDharma() {
   const article: string = t("home.SanatanaDharma.Article");
 
   return (
-    <section ref={ref}>
+    <div ref={ref}>
       <div className="background-alternative">
         <div className="content-wrapper sanatana-dharma">
-          <h1>{titleLines}</h1>
+          <h2>{titleLines}</h2>
           <p>{definitionLines}</p>
           <p>
             <strong>Core Principles - </strong>
@@ -70,13 +70,13 @@ export default function SanatanaDharma() {
       </div>
       <div className="bg-white">
         <div className="content-wrapper article-wrapper">
-          <h2>{articleTitle}</h2>
+          <h3>{articleTitle}</h3>
           {article.split('\n').map((para: string, idx: number) => (
             <p key={idx} className={inView ? 'animate-fade-in-up' : ''}>{para}</p>
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

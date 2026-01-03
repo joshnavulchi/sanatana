@@ -2,16 +2,16 @@
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('scriptures_ramayana');
+export const generateMetadata = createGenerateMetadata('ramayana_scriptures'); 
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
-    const k: any = getMeta('scriptures_ramayana', {}, locale) || {};
+    const k: any = getMeta('ramayana_scriptures', {}, locale) || {};
     const loc: any = getLocaleObject(locale) || {};
-    const ram = loc?.ramayana || {};
-    const title = typeof k.title === 'string' ? k.title : (ram.title || t('ramayana.title', locale) || '');
+    const ram = loc?.ramayana_scriptures || {};
+    const title = typeof k.title === 'string' ? k.title : (ram.title || t('ramayana_scriptures.title', locale) || '');
     const author = k.source || ram.source || '';
     let description: string = '';
     const descSource = k.description || ram.description;
@@ -32,10 +32,10 @@ export default function Page({ searchParams }: any) {
   return (
     <>
       <PageLayout
-        metaKey="scriptures_ramayana"
+        metaKey="ramayana"
         title={page.title}
         breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Ramayana' }]}
-        className="md"
+        className="layout-sm"
       >
         <p><strong>Source: </strong>{page.author} - {page.description ? <span>{page.description}</span> : null}</p>
         {/* Structured display of all ramayana fields */}

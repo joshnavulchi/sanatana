@@ -1,14 +1,14 @@
 {
   "horoscope": {
     "title": "Horoscope Generator",
-    "nameLabel": "Name (optional)",
-    "birthDate": "Birth date",
+    "namelabel": "Name (optional)",
+    "birthdate": "Birth date",
     "period": "Period",
-    "periodDay": "Day",
-    "periodWeek": "Week",
-    "periodMonth": "Month",
+    "periodday": "Day",
+    "periodweek": "Week",
+    "periodmonth": "Month",
     "generate": "Generate",
-    "errorLabel": "Error:",
-    "luckyNumber": "Lucky number: {num} · Period: {periodLabel}"
+    "errorlabel": "Error:",
+    "luckynumber": "Lucky number: {num} · Period: {periodLabel}"
   }
 }

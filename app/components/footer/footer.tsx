@@ -2,53 +2,15 @@
 "use client";
 
 import Link from 'next/link';
-import { useSearchParams, usePathname } from 'next/navigation';
-import { loadLocale, getLocaleObject } from '../../../lib/i18n';
-import { useEffect, useState } from 'react';
-import { useLocale } from '../../context/locale-context';
+import { usePathname } from 'next/navigation';
+import { useT } from '../../hooks/useT';
+import { parseList } from '../../../lib/parseList';
 import Image from 'next/image';
 import styles from './footer.module.scss';
 
 export default function Footer() {
-  const searchParams = useSearchParams();
+  const t = useT();
   const pathname = usePathname();
-  const { locale } = useLocale();
-  const [translations, setTranslations] = useState<any>(null);
-
-  useEffect(() => {
-    let mounted = true;
-    (async () => {
-      try {
-        await loadLocale(locale);
-        if (!mounted) return;
-        const locObj = getLocaleObject(locale) || {};
-        const keys = [
-          "footer.title", "footer.quote", "footer.contact", "footer.donate", "footer.disclaimer",
-          "footer.contentChange", "footer.privacy", "footer.terms", "footer.copyright",
-          "footer.nav.scriptures.nav", "footer.nav.stotrasmantras.nav", "footer.nav.philosophy.nav",
-          "footer.nav.practices.nav", "footer.nav.stories.nav", "footer.nav.kidsZone.nav",
-          "footer.nav.others.nav", "footer.nav.scriptures.title", "footer.nav.stotrasmantras.title",
-          "footer.nav.philosophy.title", "footer.nav.practices.title", "footer.nav.stories.title",
-          "footer.nav.kidsZone.title", "footer.nav.others.title"
-        ];
-        const obj: Record<string, any> = {};
-        // Attempt to read direct properties from the loaded locale object
-        for (const k of keys) {
-          const parts = k.split('.');
-          let cur: any = locObj;
-          for (const p of parts) {
-            cur = cur?.[p];
-            if (cur === undefined) break;
-          }
-          obj[k] = cur ?? k;
-        }
-        setTranslations(obj);
-      } catch (e) {
-        // keep null to allow fallback
-      }
-    })();
-    return () => { mounted = false; };
-  }, [locale]);
 
   const normalize = (p?: string) => {
     if (!p) return "/";
@@ -57,167 +19,160 @@ export default function Footer() {
   };
   const isActive = (href: string) => normalize(pathname) === normalize(href);
 
-  if (!translations) return null;
+  const getNav = (path: string) => {
+    try {
+      const raw = t(path);
+      if (!raw) return {};
+      if (typeof raw === 'string') {
+        try { return JSON.parse(raw); } catch { return {} }
+      }
+      return raw as Record<string, string>;
+    } catch (e) {
+      return {};
+    }
+  };
+
+  const title = t('footer.title');
+  const quote = t('footer.quote');
+  const quoteSource = t('footer.quoteSource');
+  const contactLabel = t('footer.contact');
+  const donateLabel = t('footer.donate');
+  const disclaimer = t('footer.disclaimer');
+  const contentChange = t('footer.contentChange');
+  const privacy = t('footer.privacy');
+  const terms = t('footer.terms');
+  const copyright = t('footer.copyright');
+
+  const scriptures = getNav('footer.nav.scriptures.nav');
+  const stotras = getNav('footer.nav.stotrasmantras.nav');
+  const philosophy = getNav('footer.nav.philosophy.nav');
+  const practices = getNav('footer.nav.practices.nav');
+  const stories = getNav('footer.nav.stories.nav');
+  const kidsZone = getNav('footer.nav.kidszone.nav');
+  const others = getNav('footer.nav.others.nav');
+
+  const scripturesTitle = t('footer.nav.scriptures.title');
+  const stotrasTitle = t('footer.nav.stotrasmantras.title');
+  const philosophyTitle = t('footer.nav.philosophy.title');
+  const practicesTitle = t('footer.nav.practices.title');
+  const storiesTitle = t('footer.nav.stories.title');
+  const kidsZoneTitle = t('footer.nav.kidszone.title');
+  const othersTitle = t('footer.nav.others.title');
 
   return (
     <footer className={`${styles.footer} gradient-background w-full`}>
       <div className={`relative z-29`}>
         <section className="content-wrapper text-center">
-          <p className="title">{translations["footer.title"]}</p>
-          <p className="subtitle">{translations["footer.quote"]}</p>
-          <p className="description">{translations["footer.quoteSource"]}</p>
+          <p className="title">{title}</p>
+          <p className="subtitle">{quote} {quoteSource}</p>
           <div className="flex items-center justify-center gap-4">
             <Link href="/contact" className={`${styles.button} button inline-black shadow-sm bg-amber-300 hover:bg-amber-400 no-underline`}>
-              {translations["footer.contact"]}
+              {contactLabel}
             </Link>
             <Link href="/donate" className={`${styles.button} button inline-black shadow-sm bg-white/80 hover:bg-white no-underline`}>
-              {translations["footer.donate"]}
+              {donateLabel}
             </Link>
           </div>
         </section>
+
         <div className={`${styles.navWrapper} w-full relative z-10 flex flex-col md:flex-row md:items-start md:justify-between border-t`}>
           <nav role="menu" className="md:w-full gap-4 flex flex-col  md:flex-row md:items-start">
             <div className="md:w-1/7 flex flex-col gap-2">
-              <p className="description underline">{translations["footer.nav.scriptures.title"]}</p>
-              {(() => {
-                const entries = Object.entries(translations["footer.nav.scriptures.nav"]);
-                return entries.map(([key, val]: [string, any]) => {
-                  if (typeof val === "string") {
-                    const href = key === "home" ? "/" : `/scriptures/${key}`;
-                    const className = key === "donate"
-                      ? `no-underline ${isActive(href) ? " " : ""}`
-                      : `${isActive(href) ? " active" : ""}`;
-                    return (
-                      <Link key={key} href={href} className={className ? className : ''} role="menuitem">
-                        {val}
-                      </Link>
-                    );
-                  }
-                });
-              })()}
+              <p className="description underline">{scripturesTitle}</p>
+              {Object.entries(scriptures).map(([key, val]) => {
+                if (typeof val !== 'string') return null;
+                const href = key === 'home' ? '/' : `/scriptures/${key}`;
+                return (
+                  <Link key={key} href={href} className={isActive(href) ? 'active' : ''} role="menuitem">
+                    {val}
+                  </Link>
+                );
+              })}
             </div>
+
             <div className="md:w-1/7 flex flex-col gap-2">
-              <p className="description underline">{translations["footer.nav.stotrasmantras.title"]}</p>
-              {(() => {
-                const entries = Object.entries(translations["footer.nav.stotrasmantras.nav"]);
-                return entries.map(([key, val]: [string, any]) => {
-                  if (typeof val === "string") {
-                    const href = key === "home" ? "/" : `/stotrasmantras/${key}`;
-                    const className = key === "donate"
-                      ? `no-underline ${isActive(href) ? " " : ""}`
-                      : `${isActive(href) ? " active" : ""}`;
-                    return (
-                      <Link key={key} href={href} className={className ? className : ''} role="menuitem">
-                        {val}
-                      </Link>
-                    );
-                  }
-                });
-              })()}
+              <p className="description underline">{stotrasTitle}</p>
+              {Object.entries(stotras).map(([key, val]) => {
+                if (typeof val !== 'string') return null;
+                const href = key === 'home' ? '/' : `/stotrasmantras/${key}`;
+                return (
+                  <Link key={key} href={href} className={isActive(href) ? 'active' : ''} role="menuitem">
+                    {val}
+                  </Link>
+                );
+              })}
             </div>
+
             <div className="md:w-1/7 flex flex-col gap-2">
-              <p className="description underline">{translations["footer.nav.scriptures.title"]}</p>
-              {(() => {
-                const entries = Object.entries(translations["footer.nav.philosophy.nav"]);
-                return entries.map(([key, val]: [string, any]) => {
-                  if (typeof val === "string") {
-                    const href = key === "home" ? "/" : `/philosophy/${key}`;
-                    const className = key === "donate"
-                      ? `no-underline ${isActive(href) ? " " : ""}`
-                      : `${isActive(href) ? " active" : ""}`;
-                    return (
-                      <Link key={key} href={href} className={className ? className : ''} role="menuitem">
-                        {val}
-                      </Link>
-                    );
-                  }
-                });
-              })()}
+              <p className="description underline">{philosophyTitle}</p>
+              {Object.entries(philosophy).map(([key, val]) => {
+                if (typeof val !== 'string') return null;
+                const href = key === 'home' ? '/' : `/philosophy/${key}`;
+                return (
+                  <Link key={key} href={href} className={isActive(href) ? 'active' : ''} role="menuitem">
+                    {val}
+                  </Link>
+                );
+              })}
             </div>
+
             <div className="md:w-1/7 flex flex-col gap-2">
-              <p className="description underline">{translations["footer.nav.practices.title"]}</p>
-              {(() => {
-                const entries = Object.entries(translations["footer.nav.practices.nav"]);
-                return entries.map(([key, val]: [string, any]) => {
-                  if (typeof val === "string") {
-                    const href = key === "home" ? "/" : `/practices/${key}`;
-                    const className = key === "donate"
-                      ? `no-underline ${isActive(href) ? " " : ""}`
-                      : `${isActive(href) ? "active" : ""}`;
-                    return (
-                      <Link key={key} href={href} className={className ? className : ''} role="menuitem">
-                        {val}
-                      </Link>
-                    );
-                  }
-                });
-              })()}
+              <p className="description underline">{practicesTitle}</p>
+              {Object.entries(practices).map(([key, val]) => {
+                if (typeof val !== 'string') return null;
+                const href = key === 'home' ? '/' : `/practices/${key}`;
+                return (
+                  <Link key={key} href={href} className={isActive(href) ? 'active' : ''} role="menuitem">
+                    {val}
+                  </Link>
+                );
+              })}
             </div>
+
             <div className="md:w-1/7 flex flex-col gap-2">
-              <p className="description underline">{translations["footer.nav.stories.title"]}</p>
-              {(() => {
-                const entries = Object.entries(translations["footer.nav.stories.nav"]);
-                return entries.map(([key, val]: [string, any]) => {
-                  if (typeof val === "string") {
-                    const href = key === "home" ? "/" : `/stories/${key}`;
-                    const className = key === "donate"
-                      ? `no-underline ${isActive(href) ? " " : ""}`
-                      : `${isActive(href) ? " active" : ""}`;
-                    return (
-                      <Link key={key} href={href} className={className ? className : ''} role="menuitem">
-                        {val}
-                      </Link>
-                    );
-                  }
-                });
-              })()}
+              <p className="description underline">{storiesTitle}</p>
+              {Object.entries(stories).map(([key, val]) => {
+                if (typeof val !== 'string') return null;
+                const href = key === 'home' ? '/' : `/stories/${key}`;
+                return (
+                  <Link key={key} href={href} className={isActive(href) ? 'active' : ''} role="menuitem">
+                    {val}
+                  </Link>
+                );
+              })}
             </div>
+
             <div className="md:w-1/7 flex flex-col gap-2">
-              <p className="description underline">{translations["footer.nav.kidsZone.title"]}</p>
-              {(() => {
-                const entries = Object.entries(translations["footer.nav.kidsZone.nav"]);
-                return entries.map(([key, val]: [string, any]) => {
-                  if (typeof val === "string") {
-                    const href = key === "home" ? "/" : `/kidsZone/${key}`;
-                    const className = key === "donate"
-                      ? `no-underline ${isActive(href) ? " " : ""}`
-                      : `${isActive(href) ? " active" : ""}`;
-                    return (
-                      <Link key={key} href={href} className={className ? className : ''} role="menuitem">
-                        {val}
-                      </Link>
-                    );
-                  }
-                });
-              })()}
+              <p className="description underline">{kidsZoneTitle}</p>
+              {Object.entries(kidsZone).map(([key, val]) => {
+                if (typeof val !== 'string') return null;
+                const href = key === 'home' ? '/' : `/kidsZone/${key}`;
+                return (
+                  <Link key={key} href={href} className={isActive(href) ? 'active' : ''} role="menuitem">
+                    {val}
+                  </Link>
+                );
+              })}
             </div>
+
             <div className="md:w-1/7 flex flex-col gap-2">
-              <p className="description underline">{translations["footer.nav.others.title"]}</p>
-              {(() => {
-                const entries = Object.entries(translations["footer.nav.others.nav"]);
-                return entries.map(([key, val]: [string, any]) => {
-                  if (typeof val === "string") {
-                    const href = key === "home" ? "/" : `/${key}`;
-                    const className = key === "donate"
-                      ? `no-underline ${isActive(href) ? " " : ""}`
-                      : `${isActive(href) ? " active" : ""}`;
-                    return (
-                      <Link key={key} href={href} className={className ? className : ''} role="menuitem">
-                        {val}
-                      </Link>
-                    );
-                  }
-                });
-              })()}
+              <p className="description underline">{othersTitle}</p>
+              {Object.entries(others).map(([key, val]) => {
+                if (typeof val !== 'string') return null;
+                const href = key === 'home' ? '/' : `/${key}`;
+                return (
+                  <Link key={key} href={href} className={isActive(href) ? 'active' : ''} role="menuitem">
+                    {val}
+                  </Link>
+                );
+              })}
             </div>
-            {/* <Link href="/" className={`${isActive("/") ? "active" : ""}`}>{translations["footer.home"]}</Link>
-                <Link href="/about" className={`${isActive("/about") ? "active" : ""}`}>{translations["footer.about"]}</Link>
-                <Link href="/resources" className={`${isActive("/resources") ? "active" : ""}`}>{translations["footer.resources"]}</Link> */}
           </nav>
         </div>
+
         <div className={`${styles.disclaimer} w-full flex flex-col md:flex-row items-center justify-between`}>
           <div>
-            <small>{translations["footer.disclaimer"]}<br /> {translations["footer.contentChange"]}</small>
+            <small>{disclaimer}<br /> {contentChange}</small>
             <small> I am using <Link href='https://gemini.google.com/' title='Gemini AI' target='_blank' className='text-white no-underline'>Gemini AI</Link>, <Link href='https://www.meta.ai/' title='Meta AI' target='_blank' className='text-white no-underline'>Meta AI</Link> and  <Link href='https://github.com/features/copilot' title='Github Copilot' target='_blank' className='text-white no-underline'>Github Copilot</Link> basic plan to generating content of the website.</small>
           </div>
           <nav role="menu" className={`${styles.socialIcons} md:w-1/4 flex items-center justify-end gap-6`}>
@@ -235,12 +190,13 @@ export default function Footer() {
             </Link>
           </nav>
         </div>
+
         <div className={`${styles.copyrights} w-full md:flex md:items-center md:justify-between`}>
           <div className="flex items-center gap-4">
-            <Link href="/privacy-policy" className={`${isActive("/privacy-policy") ? "active" : ""} `}>{translations["footer.privacy"]}</Link>
-            <Link href="/terms-of-service" className={`${isActive("/terms-of-service") ? "active" : ""} `}>{translations["footer.terms"]}</Link>
+            <Link href="/privacy-policy" className={`${isActive('/privacy-policy') ? "active" : ""} `}>{privacy}</Link>
+            <Link href="/terms-of-service" className={`${isActive('/terms-of-service') ? "active" : ""} `}>{terms}</Link>
           </div>
-          <small>{translations["footer.copyright"]}</small>
+          <small>{copyright}</small>
         </div>
       </div>
     </footer>

@@ -99,46 +99,94 @@ function interpolateObject(obj: unknown, params?: Record<string, string>): unkno
 }
 // Return a metadata object from `locales[locale].meta[metaKey]` with interpolation
 export function getMeta(metaKey: string, params?: Record<string, string>, locale = DEFAULT_LOCALE) {
+  // Helper: determine whether an object looks like a meta object
+  const looksLikeMeta = (obj: unknown) => {
+    if (!obj || typeof obj !== 'object') return false;
+    const keys = Object.keys(obj as Record<string, unknown>);
+    const metaKeys = ['title', 'description', 'keywords', 'ogImage', 'url', 'canonical'];
+    return keys.some(k => metaKeys.includes(k));
+  };
   // Prefer loading per-page meta files from `locales/<locale>/<metaKey>.json` on the server.
   if (typeof window === 'undefined') {
     try {
-      // Synchronously require the page file so callers can remain sync on the server.
-      // The file may export the meta directly, export an object keyed by page
-      // (e.g. { "home": { meta: {...}, ... } }), or include a top-level `meta`.
-      // eslint-disable-next-line @typescript-eslint/no-var-requires
-      const mod = require(`../locales/${locale}/${metaKey}.json`);
-      const obj = (mod && (mod.default || mod)) as any;
+      // Try several filename variants for the page file so server-side callers
+      // can synchronously load the appropriate per-page locale file. Many
+      // meta keys use snake_case (e.g. `privacy_policy`) while files may be
+      // named `privacy-policy.json` or `privacypolicy.json` — try all three.
+      const candidates = [
+        metaKey,
+        metaKey.replace(/_/g, "-"),
+        metaKey.replace(/_/g, ""),
+      ];
 
-      // Normalize candidates: prefer top-level `meta`, then `obj[metaKey]`, then the file object.
-      const pageObj = obj?.[metaKey] ?? obj;
-      const candidate = pageObj?.meta ?? obj?.meta ?? pageObj;
+      for (const candidateKey of candidates) {
+        try {
+          // eslint-disable-next-line @typescript-eslint/no-var-requires
+          const mod = require(`../locales/${locale}/${candidateKey}.json`);
+          const obj = (mod && (mod.default || mod)) as any;
 
-      if (candidate && typeof candidate === 'object') {
-        return interpolateObject(candidate, params) as Record<string, unknown>;
+          // The file may export either a top-level `meta`, an object keyed by
+          // the page (e.g. { "home": { meta: {...} } }) or the meta object
+          // itself. Prefer `pageObj.meta`, then `obj.meta`, then the pageObj.
+          let pageObj = obj?.[metaKey] ?? obj?.[candidateKey] ?? obj;
+
+          // If the file exports an object keyed by a page name (e.g. { "donatePage": { meta: {...} } })
+          // try to find a nested key that likely corresponds to the requested metaKey.
+          if (pageObj === obj && obj && typeof obj === 'object') {
+            const norm = metaKey.replace(/_/g, '').toLowerCase();
+            for (const k of Object.keys(obj)) {
+              const kn = k.replace(/[_\- ]/g, '').toLowerCase();
+              if (kn === norm || kn.includes(norm) || norm.includes(kn)) {
+                pageObj = (obj as any)[k];
+                break;
+              }
+            }
+          }
+
+          const candidate = pageObj?.meta ?? obj?.meta ?? null;
+
+          if (candidate && looksLikeMeta(candidate)) {
+            return interpolateObject(candidate, params) as Record<string, unknown>;
+          }
+        } catch (err) {
+          // try next candidate filename
+          continue;
+        }
       }
     } catch (e) {
       // ignore and fall back to merged locale data below
     }
   }
 
-  // Fallback (client or server fallback): read from merged locale object.
-  const loc = getLocaleObject(locale) as Record<string, unknown> | undefined;
-  const metaRoot = ((loc as any)?.meta as Record<string, unknown> | undefined)
-    ?? (((getLocaleObject(DEFAULT_LOCALE) as any)?.meta) as Record<string, unknown> | undefined)
-    ?? {};
-  const meta = (metaRoot?.[metaKey] as unknown) ?? {};
-  return interpolateObject(meta, params) as Record<string, unknown>;
+  // Do NOT fallback to the merged `meta.json` file.
+  // If no per-page meta was found in the page file, return an empty object.
+  return interpolateObject({}, params) as Record<string, unknown>;
 }
 export function detectLocale(searchParams?: unknown) {
+  // Avoid accessing any properties if `searchParams` is an unresolved
+  // Promise-like object (Next may pass a Promise proxy). Use safe checks
+  // that do not access properties on the object.
   if (searchParams && typeof searchParams === "object") {
     try {
-      // Only use .get if searchParams is a URLSearchParams or has a safe .get method
+      if (searchParams instanceof Promise) return DEFAULT_LOCALE;
+      const tag = Object.prototype.toString.call(searchParams);
+      if (tag === "[object Promise]") return DEFAULT_LOCALE;
+    } catch (e) {
+      // ignore and continue with guarded access below
+    }
+
+    // Safe to access properties now (not a Promise-like).
+    try {
+      // Only use .get if it's a function on the object (URLSearchParams-like).
       // @ts-ignore - dynamic get method on unknown type
-      if (typeof (searchParams as any).get === "function") {
+      const maybeGet = (searchParams as any).get;
+      if (typeof maybeGet === "function") {
+        // call it with the correct receiver
         // @ts-ignore
-        const v = (searchParams as any).get("lang");
+        const v = maybeGet.call(searchParams, "lang");
         if (v) return String(v);
       }
+
       // Fallback for plain objects like { lang: 'hi' } or { lang: ['hi'] }
       const candidate = (searchParams as Record<string, unknown>)["lang"];
       if (candidate) {

@@ -2,13 +2,13 @@
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('philosophy_moksha');
+export const generateMetadata = createGenerateMetadata('moksha_philosophy');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
-    const k: any = getMeta('philosophy_moksha', {}, locale) || {};
+    const k: any = getMeta('moksha_philosophy', {}, locale) || {};
     const loc: any = getLocaleObject(locale) || {};
     const moksha = loc?.moksha_philosophy || {};
     return {
@@ -24,7 +24,12 @@ export default function Page({ searchParams }: any) {
   })();
   return (
     <>
-      <PageLayout metaKey="philosophy_moksha" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (typeof page.title !== 'undefined' ? page.title : '') }]}>
+      <PageLayout
+        metaKey="moksha_philosophy"
+        title={page.title}
+        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (typeof page.title !== 'undefined' ? page.title : '') }]}
+        className=""
+      >
         <p><strong>Definition : </strong>{page.definition}</p>
         {/* Core Principles of moksha */}
         <div>

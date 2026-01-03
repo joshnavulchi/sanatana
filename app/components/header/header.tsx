@@ -5,8 +5,8 @@ import { useEffect, useRef, useState } from 'react';
 import { usePathname, useSearchParams } from 'next/navigation';
 import { getLocaleObject, loadLocale } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
-import Link from 'next/link';
 import dynamic from 'next/dynamic';
+import Link from 'next/link';
 import Image from 'next/image';
 import BannerNotifications from '../notifications';
 import ThemeToggle from '../theme-toggle/ThemeToggle';
@@ -14,9 +14,9 @@ import ThemeToggle from '../theme-toggle/ThemeToggle';
 const LanguageDropdown = dynamic(() => import("../language-dropdown/language-dropdown"), { ssr: false });
 // Immediate English fallbacks so header can render synchronously
 import enNav from '../../../locales/en/nav.json';
-import enSiteTitle from '../../../locales/en/siteTitle.json';
-import enBanner from '../../../locales/en/bannerNotifications.json';
-import enBanner2 from '../../../locales/en/bannerNotifications2.json';
+import enSiteTitle from '../../../locales/en/site_title.json';
+import enBanner from '../../../locales/en/banner_notifications.json';
+import enBanner2 from '../../../locales/en/banner_notifications2.json';
 
 import styles from './header.module.scss';
 
@@ -26,10 +26,10 @@ export default function Header() {
   const searchParams = useSearchParams();
   // Start with English translations so header renders immediately
   const [translations, setTranslations] = useState<any>({
-    siteTitle: (enSiteTitle && (enSiteTitle.siteTitle || enSiteTitle)) || 'Sanatana Dharma',
+    siteTitle: (enSiteTitle && (enSiteTitle.sitetitle || enSiteTitle)) || 'Sanatana Dharma',
     nav: (enNav && (enNav.nav || enNav)) || {},
-    banner: (((enBanner as any)?.bannerNotifications ?? (enBanner as any)?.banner ?? enBanner) as any) || null,
-    banner2: (((enBanner2 as any)?.bannerNotifications ?? (enBanner2 as any)?.banner ?? enBanner2) as any) || null,
+    banner: (((enBanner as any)?.banner_notifications ?? (enBanner as any)?.banner ?? enBanner) as any) || null,
+    banner2: (((enBanner2 as any)?.banner_notifications2 ?? (enBanner2 as any)?.banner ?? enBanner2) as any) || null,
   });
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [expandedKeys, setExpandedKeys] = useState<Record<string, boolean>>({});

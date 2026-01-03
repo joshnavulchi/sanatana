@@ -2,13 +2,13 @@
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import PageLayout from '@components/common/PageLayout';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
-export const generateMetadata = createGenerateMetadata('philosophy_samsara');
+export const generateMetadata = createGenerateMetadata('samsara_philosophy');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
-    const k: any = getMeta('philosophy_samsara', {}, locale) || {};
+    const k: any = getMeta('samsara_philosophy', {}, locale) || {};
     const loc: any = getLocaleObject(locale) || {};
     const samsara = loc?.samsara_philosophy || {};
     return {
@@ -23,7 +23,7 @@ export default function Page({ searchParams }: any) {
   })();
   return (
     <>
-      <PageLayout metaKey="philosophy_samsara" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}>
+      <PageLayout metaKey="samsara_philosophy" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}>
         <p><strong>Definition : </strong>{page.definition}</p>
         {/* Core Principles of Samsara */}
         <div>

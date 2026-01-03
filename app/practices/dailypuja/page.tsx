@@ -2,19 +2,24 @@
 import { getMeta, detectLocale, t } from '../../../lib/i18n';
 import { createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('practices_dailypuja');
+export const generateMetadata = createGenerateMetadata('dailypuja_practices');
 export default function Page() {
   const locale = detectLocale();
   const page: any = (() => {
-    const k: any = getMeta('daily_pujas', {}, locale) || {};
+    const k: any = getMeta('dailypuja_practices', {}, locale) || {};
     return {
-      title: typeof k.title === 'string' ? k.title : String(t('dailypuja.title', locale) || ''),
-      definition: typeof k.definition === 'string' ? k.definition : String(t('dailypuja.intro', locale) || 'Placeholder page for daily puja routines and short guides.')
+      title: typeof k.title === 'string' ? k.title : String(t('dailypuja_practices.title', locale) || ''),
+      definition: typeof k.definition === 'string' ? k.definition : String(t('dailypuja_practices.intro', locale) || 'Placeholder page for daily puja routines and short guides.')
     };
   })();
   return (
     <>
-      <PageLayout metaKey="practices_dailypuja" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title || '' }]}>
+      <PageLayout
+        metaKey="dailypuja_practices"
+        title={page.title}
+        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title || '' }]}
+        className=""
+      >
         <p>{page.definition}</p>
       </PageLayout>
     </>

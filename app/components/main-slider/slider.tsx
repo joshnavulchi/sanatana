@@ -95,7 +95,7 @@ export default function MainSlider() {
                 <p>{slide.englishTitle}</p>
                 <p>{slide.subtitle}</p>
                 <div className="mt-10 flex flex-row gap-4">
-                  <Link href="/scriptures/gita" className="button inline-block shadow-sm bg-amber-300 hover:bg-amber-400 no-underline">
+                  <Link href="/scriptures/bhagavathgita" className="button inline-block shadow-sm bg-amber-300 hover:bg-amber-400 no-underline">
                     {heroButtons.explore}
                   </Link>
                   <Link href="/stotrasmantras/shiva" className="button inline-block shadow-sm bg-white/75 hover:bg-white no-underline">

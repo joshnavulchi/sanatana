@@ -168,17 +168,17 @@ export default async function RootLayout({
             />
           </noscript>
         )}
-        <Suspense fallback={<Loader />}>
+        <Suspense fallback={null}>
           <LocaleProvider>
             <ThemeProvider>
-              <Suspense fallback={<Loader />}>
+              <Suspense fallback={null}>
                 <Header />
               </Suspense>
-              <Suspense fallback={<Loader />}>
+              <Suspense fallback={null}>
                 {children}
               </Suspense>
               <AnalyticsCollector />
-              <Suspense fallback={<Loader />}>
+              <Suspense fallback={null}>
                 <Footer />
               </Suspense>
               <ScrollToTop />

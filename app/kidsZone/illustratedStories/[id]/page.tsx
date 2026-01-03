@@ -1,39 +1,66 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { getMeta, detectLocale, t } from '../../../../lib/i18n';
+import { t, getMeta, detectLocale, DEFAULT_LOCALE, detectServerLocaleFromHeaders } from '@/lib/i18n';
+import { headers } from 'next/headers';
+import { notFound } from 'next/navigation';
 import PageLayout from '@components/common/PageLayout';
 import fs from 'fs/promises';
 import path from 'path';
 import Image from 'next/image';
 import Link from 'next/link';
 
-export async function createGenerateMetadata(props: any) {
-  const { params, searchParams } = props || {};
-  const locale = await detectLocale(searchParams);
+function resolveLocaleFromHeaders() {
+  try {
+    const h: any = headers();
+    return detectServerLocaleFromHeaders(h);
+  } catch (e) {
+    return DEFAULT_LOCALE;
+  }
+}
 
+export async function createGenerateMetadata({ params, searchParams }: { params: any, searchParams?: any }) {
+  const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
-
-  const meta = getMeta('kidsZone_illustratedStories_item', undefined, locale) || {};
+  // load chapters from locale translations; if the locale doesn't include
+  // structured chapters, fall back to English translations (no combined file)
+  let chaptersRaw: any = t('illustrated_stories.kids_indian_stories', locale); 
+  if (!Array.isArray(chaptersRaw)) {
+    chaptersRaw = t('illustrated_stories.kids_indian_stories', 'en');
+  }
+  const chapters: any[] = Array.isArray(chaptersRaw) ? chaptersRaw : [];
+  const resolvedParams = params && typeof params.then === 'function' ? await params : params;
+  const num = Number(resolvedParams?.kids_indian_stories || 0);
+  const ch = Array.isArray(chapters) ? chapters.find((c: any) => Number(c.chapter) === num) : null;
+  const title = ch ? `${S('illustrated_stories.kids_indian_stories.title')} — Chapter ${ch.chapter}: ${ch.title}` : `${S('illustrated_stories.kids_indian_stories.title')} — kids_indian_stories ${num}`;
+  const meta = getMeta('illustrated_slug', { title: title, excerpt: ch && ch.summary ? ch.summary : '' }, locale);
+  const description = ch && ch.summary ? ch.summary : meta.description;
+  const keywords = (meta.keywords && String(meta.keywords).trim()) ? meta.keywords : `${S('illustrated_stories.kids_indian_stories.title')}, chapter ${num}`;
+  const ogImages = meta.ogImage ? [meta.ogImage] : undefined;
   return {
-    title: meta.title || `Story ${params.id}`,
-    description: meta.description,
+    title,
+    description,
+    keywords,
+    openGraph: { title, description, images: ogImages },
   };
 }
 
-export async function generateStaticParams() {
-  const file = path.join(process.cwd(), 'locales', 'en', 'illustratedstories.json');
+// Analyzer-friendly stub: ensure Next static-export builds recognise a
+// top-level `generateStaticParams` during static analysis. Returns an
+// empty array so the route can be exported without enumerating items.
+export function generateStaticParams() {
   try {
-    const raw = await fs.readFile(file, 'utf8');
+    const fsSync = require('fs');
+    const file = path.join(process.cwd(), 'locales', 'en', 'illustrated_stories.json');
+    const raw = fsSync.readFileSync(file, 'utf8');
     const doc = JSON.parse(raw);
-    const items = doc?.illustratedStories?.kids_indian_stories ?? [];
-    if (!Array.isArray(items)) return [];
-    return items.map((s: any) => ({ id: String(s.id) }));
+    const stories = doc && (doc.illustrated_stories || doc.illustratedStories) && (doc.illustrated_stories.kids_indian_stories || doc.illustratedStories.kids_indian_stories) ? (doc.illustrated_stories?.kids_indian_stories || doc.illustratedStories?.kids_indian_stories) : [];
+    return Array.isArray(stories) ? stories.map((s: any) => ({ id: String(s.id) })) : [];
   } catch (err) {
     return [];
   }
 }
 
 async function loadStories(locale: string) {
-  const file = path.join(process.cwd(), 'locales', locale, 'illustratedstories.json');
+  const file = path.join(process.cwd(), 'locales', locale, 'illustrated_stories.json');
   try {
     const raw = await fs.readFile(file, 'utf8');
     const doc = JSON.parse(raw);
@@ -54,8 +81,12 @@ export default async function Page({ params, searchParams }: any) {
 
   if (!item) {
     return (
-      <PageLayout metaKey="" title={S('kidsZone.illustratedStories.comicNotFoundTitle')} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: String(t('kidsZone.illustratedStories.comicNotFoundTitle')) }]}>
-        <p>{S('kidsZone.illustratedStories.comicNotFoundDesc')}</p>
+      <PageLayout
+        metaKey=""
+        title={S('illustrated_stories.comicNotFoundTitle')}
+        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: String(t('illustrated_stories.comicNotFoundTitle')) }]}
+      >
+        <p>{S('illustrated_stories.comicNotFoundDesc')}</p>
       </PageLayout>
     );
   }
@@ -73,16 +104,16 @@ export default async function Page({ params, searchParams }: any) {
           </div>
         </div>
         <p>{item.summary}</p>
-        {item.moral ? <p><strong>{S('kidsZone.illustratedStories.moralLabel')}</strong> {item.moral}</p> : null}
-        {item.characters?.length ? <div><strong>{S('kidsZone.illustratedStories.charactersLabel')}</strong> {item.characters.join(', ')}</div> : null}
-        {item.themes?.length ? <div><strong>{S('kidsZone.illustratedStories.themesLabel')}</strong> {item.themes.join(', ')}</div> : null}
+        {item.moral ? <p><strong>{S('illustrated_stories.moralLabel')}</strong> {item.moral}</p> : null}
+        {item.characters?.length ? <div><strong>{S('illustrated_stories.kids_indian_stories.title')}</strong> {item.characters.join(', ')}</div> : null}
+        {item.themes?.length ? <div><strong>{S('illustrated_stories.themesLabel')}</strong> {item.themes.join(', ')}</div> : null}
 
         <div>
           {prev ? (
-            <Link href={`/kidsZone/illustratedStories/${prev.id}`}>&larr; {prev.title}</Link>
+            <Link href={`/kidszone/illustratedstories/${prev.id}`}>&larr; {prev.title}</Link>
           ) : <div />}
           {next ? (
-            <Link href={`/kidsZone/illustratedStories/${next.id}`}>{next.title} &rarr;</Link>
+            <Link href={`/kidszone/illustratedstories/${next.id}`}>{next.title} &rarr;</Link>
           ) : <div />}
         </div>
       </PageLayout>

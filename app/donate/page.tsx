@@ -9,53 +9,60 @@ import Image from 'next/image';
 import FaqAccordion from '@components/common/FaqAccordion';
 export const generateMetadata = createGenerateMetadata('donate');
 
-export default function DonatePage() {
+import styles from './page.module.scss';
+
+export default function Page() {
   const locale = detectLocale();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
     const k: any = getMeta('donate', {}, locale) || {};
     return {
-      title: typeof k.title === 'string' ? k.title : String(t('donatePage.title', locale)),
-      lead: k.lead || String(t('donatePage.lead', locale)),
-      description: k.description || String(t('donatePage.description', locale)),
-      expansesTitle: k.expansesTitle || String(t('donatePage.expansesTitle', locale)),
-      tableName: k.table?.name || String(t('donatePage.table.name', locale)),
-      tableExpanses: k.table?.expanses || String(t('donatePage.table.expanses', locale)),
-      tableDuration: k.table?.duration || String(t('donatePage.table.duration', locale)),
-      tableReasons: k.table?.reasons || String(t('donatePage.table.reasons', locale)),
-      expenses: Array.isArray(k.expenses) ? k.expenses : parseList(t('donatePage.expenses', locale)),
-      oneTime: k.oneTime || String(t('donatePage.oneTime', locale)),
-      oneTimeLead: k.oneTimeLead || String(t('donatePage.oneTimeLead', locale)),
-      upiTitle: k.upiBank || String(t('donatePage.upiBank', locale)),
-      upiLead: k.upiLead || String(t('donatePage.upiLead', locale)),
-      upiLabel: k.upiLabel || String(t('donatePage.upiLabel', locale)),
-      upiId: k.upiId || String(t('donatePage.upiId', locale)),
-      accountNameLabel: k.accountNameLabel || String(t('donatePage.accountNameLabel', locale)),
-      accountName: k.accountName || String(t('donatePage.accountName', locale)),
-      accountNumberLabel: k.accountNumberLabel || String(t('donatePage.accountNumberLabel', locale)),
-      accountNumber: k.accountNumber || String(t('donatePage.accountNumber', locale)),
-      ifscLabel: k.ifscLabel || String(t('donatePage.ifscLabel', locale)),
-      ifsc: k.ifsc || String(t('donatePage.ifsc', locale)),
-      recurring: k.recurring || String(t('donatePage.recurring', locale)),
-      recurringLead: k.recurringLead || String(t('donatePage.recurringLead', locale)),
-      becomeMonthly: k.becomeMonthly || String(t('donatePage.becomeMonthly', locale))
+      title: typeof k.title === 'string' ? k.title : String(t('donate.title', locale)),
+      lead: k.lead || String(t('donate.lead', locale)),
+      description: k.description || String(t('donate.description', locale)),
+      expansestitle: k.expansesTitle || String(t('donate.expansestitle', locale)),
+      tablename: k.table?.name || String(t('donate.table.name', locale)),
+      tableexpanses: k.table?.expanses || String(t('donate.table.expanses', locale)),
+      tableduration: k.table?.duration || String(t('donate.table.duration', locale)),
+      tablereasons: k.table?.reasons || String(t('donate.table.reasons', locale)),
+      expenses: Array.isArray(k.expenses) ? k.expenses : parseList(t('donate.expenses', locale)),
+      onetime: k.onetime || String(t('donate.onetime', locale)),
+      onetimelead: k.onetimelead || String(t('donate.onetimelead', locale)),
+      upititle: k.upibank || String(t('donate.upibank', locale)),
+      upilead: k.upilead || String(t('donate.upilead', locale)),
+      upilabel: k.upilabel || String(t('donate.upilabel', locale)),
+      upiid: k.upiid || String(t('donate.upiid', locale)),
+      accountnamelabel: k.accountnamelabel || String(t('donate.accountnamelabel', locale)),
+      accountname: k.accountname || String(t('donate.accountName', locale)),
+      accountnumberlabel: k.accountnumberlabel || String(t('donate.accountnumberlabel', locale)),
+      accountnumber: k.accountnumber || String(t('donate.accountnumber', locale)),
+      ifsclabel: k.ifsclabel || String(t('donate.ifsclabel', locale)),
+      ifsc: k.ifsc || String(t('donate.ifsc', locale)),
+      recurring: k.recurring || String(t('donate.recurring', locale)),
+      recurringlead: k.recurringlead || String(t('donate.recurringlead', locale)),
+      becomemonthly: k.becomemonthly || String(t('donate.becomemonthly', locale))
     };
   })();
   return (
     <>
-      <PageLayout metaKey="donate" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Donate' }]} className="sm">
+      <PageLayout
+        metaKey="donate"
+        title={page.title}
+        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Donate' }]}
+        className={`${styles.donatePage} layout-sm`}
+      >
         <p>{page.lead}</p>
         <p>{page.description}</p>
         <section className="donation-wrapper">
-          <h2>{page.expansesTitle}</h2>
-          <div className="bg-white shadow-md rounded-xl overflow-auto">
+          <h2>{page.expansestitle}</h2>
+          <div className={`${styles.card} shadow-md rounded-xl overflow-auto`}>
             <table className="w-full border">
               <thead>
                 <tr>
-                  <th className="border p-2">{page.tableName}</th>
-                  <th className="border p-2">{page.tableExpanses}</th>
-                  <th className="border p-2">{page.tableDuration}</th>
-                  <th className="border p-2">{page.tableReasons}</th>
+                  <th className="border p-2">{page.tablename}</th>
+                  <th className="border p-2">{page.tableexpanses}</th>
+                  <th className="border p-2">{page.tableduration}</th>
+                  <th className="border p-2">{page.tablereasons}</th>
                 </tr>
               </thead>
               <tbody>
@@ -72,20 +79,20 @@ export default function DonatePage() {
               </tbody>
             </table>
           </div>
-          <h3>{page.oneTime}</h3>
-          <div className="bg-white shadow-md rounded-xl">
-            <p>{page.oneTimeLead}</p>
+          <h3>{page.onetime}</h3>
+          <div className={`${styles.card} shadow-md rounded-xl`}>
+            <p>{page.onetimelead}</p>
             <PayPalButton link="https://www.paypal.com/ncp/payment/WYDY7465MG69" />
           </div>
-          <h4>{page.upiTitle}</h4>
-          <div className="bg-white shadow-md rounded-xl">
+          <h4>{page.upititle}</h4>
+          <div className={`${styles.card} shadow-md rounded-xl`}>
             <div className="flex flex-col md:flex-row items-center justify-start gap-10">
               <ul role="list" className="list-disc">
-                <li>{page.upiLead}</li>
-                <li><strong>{page.upiLabel}</strong> {page.upiId}</li>
-                <li><strong>{page.accountNameLabel}</strong> {page.accountName}</li>
-                <li><strong>{page.accountNumberLabel}</strong> {page.accountNumber}</li>
-                <li><strong>{page.ifscLabel}</strong> {page.ifsc}</li>
+                <li>{page.upilead}</li>
+                <li><strong>{page.upilabel}</strong> {page.upiid}</li>
+                <li><strong>{page.accountnamelabel}</strong> {page.accountname}</li>
+                <li><strong>{page.accountnumberlabel}</strong> {page.accountnumber}</li>
+                <li><strong>{page.ifsclabel}</strong> {page.ifsc}</li>
               </ul>
               <b>(Or)</b>
               <figure>
@@ -93,18 +100,18 @@ export default function DonatePage() {
               </figure>
             </div>
           </div>
-          <div className="bg-white shadow-md hidden">
-            <p>{S('donatePage.recurring')}</p>
-            <p>{S('donatePage.recurringLead')}</p>
+          <div className={`${styles.card} shadow-md hidden`}>
+            <p>{S('donate.recurring')}</p>
+            <p>{S('donate.recurringlead')}</p>
             <Link href="#">
-              {S('donatePage.becomeMonthly')}
+              {S('donate.becomemonthly')}
             </Link>
           </div>
           {/* FAQs */}
           {(() => {
             try {
-              const faqItems = (t('donatePage.faq.items', locale) as any) || [];
-              const faqHeading = String(t('donatePage.faq.heading', locale) || '');
+              const faqItems = (t('donate.faq.items', locale) as any) || [];
+              const faqHeading = String(t('donate.faq.heading', locale) || '');
               if (Array.isArray(faqItems) && faqItems.length > 0) {
                 return <FaqAccordion items={faqItems} heading={faqHeading} />;
               }

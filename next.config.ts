@@ -26,6 +26,8 @@ const nextConfig = {
   experimental: {
     optimizeCss: true,
   },
+  // This app is statically exported. `output: 'export'` and `trailingSlash: true`
+  // are set to produce a static site suitable for static hosts.
   output: 'export',
   trailingSlash: true,
   images: {

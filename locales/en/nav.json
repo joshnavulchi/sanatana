@@ -10,7 +10,7 @@
         "sanksheparamayanam": "Sankshepa Ramayana",
         "ramayana": "Ramayana",
         "mahabharata": "Mahabharata",
-        "gita": "Bhagavad Gita",
+        "bhagavathgita": "Bhagavad Gita",
         "upanishads": "Upanishads",
         "vedas": "Vedas",
         "puranas": "Puranas"
@@ -24,7 +24,7 @@
         "shiva": "Shiva Stotras",
         "vishnu": "Vishnu Stotras",
         "hanuman": "Hanuman Stotras",
-        "dailyPrayers": "Daily Prayers"
+        "dailyprayers": "Daily Prayers"
       }
     },
     "philosophy": {
@@ -68,10 +68,10 @@
         "puranic": "Puranic"
       }
     },
-    "kidsZone": {
+    "kidszone": {
       "title": "Kids Zone",
       "nav": {
-        "illustratedStories": "Illustrated Stories",
+        "illustratedstories": "Illustrated Stories",
         "mythologicalquizzes": "Mythological Quizzes",
         "easymantras": "Easy Mantras",
         "comics": "Mythology Comics"

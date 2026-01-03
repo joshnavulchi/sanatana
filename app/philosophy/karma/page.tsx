@@ -2,13 +2,13 @@
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('philosophy_karma');
+export const generateMetadata = createGenerateMetadata('karma_philosophy');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
-    const k: any = getMeta('philosophy_karma', {}, locale) || {};
+    const k: any = getMeta('karma_philosophy', {}, locale) || {};
     const loc: any = getLocaleObject(locale) || {};
     const karma = loc?.karma_philosophy || {};
     return {
@@ -24,7 +24,12 @@ export default function Page({ searchParams }: any) {
   })();
   return (
     <>
-      <PageLayout metaKey="philosophy_karma" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}>
+      <PageLayout
+        metaKey="karma_philosophy"
+        title={page.title}
+        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}
+        className=""
+      >
         <p><strong>Definition : </strong>{page.definition}</p>
         {/* Core Principles of Karma */}
         <div>

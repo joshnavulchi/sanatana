@@ -3,26 +3,26 @@ import { detectLocale, t, getMeta } from '../../../lib/i18n';
 import { createGenerateMetadata } from 'lib/pageUtils';
 import { parseList } from 'lib/parseList';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('stotrasmantras_shiva');
+export const generateMetadata = createGenerateMetadata('shiva_stotrasmantras');
 
 export default async function Page() {
   const locale = await detectLocale({});
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
-    const k: any = getMeta('stotrasmantras_shiva', {}, locale) || {};
+    const k: any = getMeta('shiva_stotrasmantras', {}, locale) || {};
     return {
-      title: typeof k.title === 'string' ? k.title : String(t('shivastotras.title', locale) || 'Shiva Stotras'),
-      items: Array.isArray(k.items) ? k.items : parseList(t('shivastotras.stotras', locale))
+      title: typeof k.title === 'string' ? k.title : String(t('shiva_stotrasmantras.title', locale) || 'Shiva Stotras'),
+      items: Array.isArray(k.items) ? k.items : parseList(t('shiva_stotrasmantras.stotras', locale))
     };
   })();
   // detectLocale is async; but for static rendering we will fall back to default through t() when needed
   const items = page.items || [];
   return (
     <PageLayout
-      metaKey="stotrasmantras_shiva"
+      metaKey="shiva_stotrasmantras"
       title={page.title}
       breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title || 'Shiva Stotras' }]}
-      className="md"
+      className=""
     >
       {items.map((item: any, i: number) => (
         <section key={i}>
