@@ -9,10 +9,10 @@ export default function HeroSection() {
   const heading = parseList(t("home.hero.heading"));
   const subheading = parseList(t("home.hero.subheading"));
   const description = parseList(t("home.hero.description"));
-  const primaryCtaLabel = parseList(t("home.hero.primaryCta.label"));
-  const primaryCtaLink = parseList(t("home.hero.primaryCta.link"));
-  const secondaryCtaLabel = parseList(t("home.hero.secondaryCta.label"));
-  const secondaryCtaLink = parseList(t("home.hero.secondaryCta.link"));
+  const primaryCtaLabel = parseList(t("home.hero.primarycta.label"));
+  const primaryCtaLink = parseList(t("home.hero.primarycta.link"));
+  const secondaryCtaLabel = parseList(t("home.hero.secondarycta.label"));
+  const secondaryCtaLink = parseList(t("home.hero.secondarycta.link"));
   const tags = parseList(t("home.topics")); 
 
   return (

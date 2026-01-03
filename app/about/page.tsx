@@ -26,13 +26,13 @@ export default function Page({ searchParams }: any) {
         goal: String(t('about.vision.goal', locale) || '')
       },
       whyWeCreated: {
-        purpose: String(t('about.whyWeCreated.purpose', locale) || ''),
-        problemsAddressed: (t('about.whyWeCreated.problemsAddressed', locale) as string[])
+        purpose: String(t('about.whywecreated.purpose', locale) || ''),
+        problemsAddressed: (t('about.whywecreated.problemsaddressed', locale) as string[])
       },
       commitment: (t('about.commitment', locale) as string[]),
       joinUs: {
-        message: String(t('about.joinUs.message', locale) || ''),
-        invite: (t('about.joinUs.invite', locale) as string[])
+        message: String(t('about.joinus.message', locale) || ''),
+        invite: (t('about.joinus.invite', locale) as string[])
       },
       disclaimer: String(t('about.disclaimer', locale) || '')
     };
@@ -44,7 +44,7 @@ export default function Page({ searchParams }: any) {
       breadcrumbs={[
         { labelKey: 'nav.home', href: '/' },
         { label: 'About' }]}
-      className={styles.aboutPage}
+      className={`${styles.aboutPage} layout-sm`}
     >
       <p>{about.description}</p>
       <div>

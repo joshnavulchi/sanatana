@@ -7,21 +7,28 @@ import Image from 'next/image';
 import FaqAccordion from '@components/common/FaqAccordion';
 export const generateMetadata = createGenerateMetadata('contact');
 
+import styles from './page.module.scss';
+
 export default async function ContactPage() {
   const locale = await detectLocale();
   const S = (k: string) => String(t(k, locale));
   return (
     <>
-      <PageLayout metaKey="contact" title={S('contact.title')} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Contact' }]} className="sm">
+      <PageLayout
+        metaKey="contact"
+        title={S('contact.title')}
+        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Contact' }]}
+        className="layout-sm"
+      >
         <p>{S('contact.lead')}</p>
         <section className="flex flex-col md:flex-row items-start justify-start gap-5">
           <div className="w-full md:w-1/2">
-            <h2>{S('contact.getInTouch')}</h2>
-            <p>{S('contact.useForm')} <a href="mailto:vulchi.vijay@gmail.com">vulchi.vijay@gmail.com</a>.</p>
+            <h2>{S('contact.getintouch')}</h2>
+            <p>{S('contact.useform')} <a href="mailto:vulchi.vijay@gmail.com">vulchi.vijay@gmail.com</a>.</p>
             <div>
               <div>
-                <h3>{S('contact.mailingAddress')}</h3>
-                <p>{S('contact.addressLine1')}<br />{S('contact.addressLine2')}<br />{S('contact.addressLine3')}</p>
+                <h3>{S('contact.mailingaddress')}</h3>
+                <p>{S('contact.addressline1')}<br />{S('contact.addressline2')}<br />{S('contact.addressline3')}</p>
               </div>
               <div>
                 <h4>{S('contact.phone')}</h4>
@@ -29,8 +36,8 @@ export default async function ContactPage() {
               </div>
             </div>
           </div>
-          <div className="w-full md:w-1/2 contact-form-wrapper bg-white shadow-md rounded-xl">
-            <p>{S('contact.sendMessage')}</p>
+          <div className={`${styles.contactform} w-full md:w-1/2 contact-form-wrapper shadow-md rounded-xl`}>
+            <p>{S('contact.sendmessage')}</p>
             <ContactForm />
           </div>
         </section>

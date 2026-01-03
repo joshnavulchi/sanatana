@@ -5,6 +5,16 @@
 .background-alternative {
   background-color: var(--theme-alternative-background-color);
 }
+.layout-sm {
+  margin: 0 auto;
+  max-width: var(--content-width-sm);
+  padding: var(--space-xl) var(--space-md);
+}
+.layout-md {
+  margin: 0 auto;
+  max-width: var(--content-width-md);
+  padding: var(--space-xl) var(--space-md);
+}
 @media (min-width: 1024px) {
   .content-wrapper {
     margin: 0 auto;
