@@ -1,5 +1,13 @@
 {
   "advaita_philosophy": {
+    "meta": {
+      "title": "Philosophy | Advaita — Sanatana Dharma - Explore Sanatan Dharma",
+      "description": "Philosophy — Advaita — Sanatana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Philosophy. Explore practices, history, and guiding principles...",
+      "keywords": "Advaita, Sanatana Dharma, Hinduism, Vedic philosophy, Dharma and spirituality, Hindu scriptures, Bhagavad Gita teachings, Upanishads, Vedas and Puranas, Hindu rituals and traditions, Yoga and meditation, Hindu festivals, Spiritual wisdom, Hindu culture and heritage, Indian philosophy, Hindu gods and goddesses, Karma and rebirth, What is Sanatana Dharma, Principles of Sanatana Dharma, Importance of Vedas in Hinduism, Hindu spiritual practices for daily life, Meaning of Dharma in Hinduism, Sanatana Dharma vs modern life, How to follow Sanatana Dharma?, Sanatana Dharma in India, Dharma, Mantra, Stotra, Stotras, Scripture, Scriptures, Commentary, Devotion, Practices, Ritual, Worship, Temple",
+      "ogImage": "/og/philosophy-advaita.jpg",
+      "url": "https://sanatanadharmam.in/philosophy/advaita",
+      "canonical": "https://sanatanadharmam.in/philosophy/advaita"
+    },
     "title": "",
     "definition": "Advaita Vedanta is a school of Hindu philosophy that teaches non-dualism, asserting that the individual self (Atman) and the ultimate reality (Brahman) are one and the same.",
     "origin": {

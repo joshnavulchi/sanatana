@@ -1,5 +1,13 @@
 {
   "bhagavadgita": {
+    "meta": {
+      "title": "Scriptures | Bhagavad Gita — Sanatana Dharma - Explore Sanatan Dharma",
+      "description": "Bhagavad Gita — Complete Chapters & Commentary — Articles, translations and concise commentary on Bhagavad Gita. Explore practices, history, and guiding...",
+      "keywords": "Bhagavad Gita, Gita, Sanatana Dharma, Hinduism, Vedic philosophy, Dharma and spirituality, Hindu scriptures, Bhagavad Gita teachings, Upanishads, Vedas and Puranas, Hindu rituals and traditions, Yoga and meditation, Hindu festivals, Spiritual wisdom, Hindu culture and heritage, Indian philosophy, Hindu gods and goddesses, Karma and rebirth, What is Sanatana Dharma, Principles of Sanatana Dharma, Importance of Vedas in Hinduism, Hindu spiritual practices for daily life, Meaning of Dharma in Hinduism, Sanatana Dharma vs modern life, How to follow Sanatana Dharma?, Sanatana Dharma in India,  Dharma, Mantra, Stotra, Stotras, Scripture, Scriptures, Commentary, Devotion, Practices, Ritual, Worship, Temple",
+      "ogImage": "/og/gita.png",
+      "url": "https://sanatanadharmam.in/scriptures/gita",
+      "canonical": "https://sanatanadharmam.in/scriptures/gita"
+    },
     "title": "Bhagavad Gita",
     "chapters": [
       {
