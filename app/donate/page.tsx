@@ -9,6 +9,8 @@ import Image from 'next/image';
 import FaqAccordion from '@components/common/FaqAccordion';
 export const generateMetadata = createGenerateMetadata('donate');
 
+import styles from './page.module.scss';
+
 export default function DonatePage() {
   const locale = detectLocale();
   const S = (k: string) => String(t(k, locale));
@@ -43,12 +45,17 @@ export default function DonatePage() {
   })();
   return (
     <>
-      <PageLayout metaKey="donate" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Donate' }]} className="sm">
+      <PageLayout
+        metaKey="donate"
+        title={page.title}
+        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Donate' }]}
+        className={styles.donatePage}
+      >
         <p>{page.lead}</p>
         <p>{page.description}</p>
         <section className="donation-wrapper">
           <h2>{page.expansesTitle}</h2>
-          <div className="bg-white shadow-md rounded-xl overflow-auto">
+          <div className={`${styles.card} shadow-md rounded-xl overflow-auto`}>
             <table className="w-full border">
               <thead>
                 <tr>
@@ -73,12 +80,12 @@ export default function DonatePage() {
             </table>
           </div>
           <h3>{page.oneTime}</h3>
-          <div className="bg-white shadow-md rounded-xl">
+          <div className={`${styles.card} shadow-md rounded-xl`}>
             <p>{page.oneTimeLead}</p>
             <PayPalButton link="https://www.paypal.com/ncp/payment/WYDY7465MG69" />
           </div>
           <h4>{page.upiTitle}</h4>
-          <div className="bg-white shadow-md rounded-xl">
+          <div className={`${styles.card} shadow-md rounded-xl`}>
             <div className="flex flex-col md:flex-row items-center justify-start gap-10">
               <ul role="list" className="list-disc">
                 <li>{page.upiLead}</li>
@@ -93,7 +100,7 @@ export default function DonatePage() {
               </figure>
             </div>
           </div>
-          <div className="bg-white shadow-md hidden">
+          <div className={`${styles.card} shadow-md hidden`}>
             <p>{S('donatePage.recurring')}</p>
             <p>{S('donatePage.recurringLead')}</p>
             <Link href="#">

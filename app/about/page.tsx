@@ -5,6 +5,8 @@ import PageLayout from '@components/common/PageLayout';
 import FaqAccordion from '@components/common/FaqAccordion';
 export const generateMetadata = createGenerateMetadata('about');
 
+import styles from './page.module.scss';
+
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   // Single `page_title` object used across the page: prefers `locales/*/about.json` values
@@ -42,11 +44,11 @@ export default function Page({ searchParams }: any) {
       breadcrumbs={[
         { labelKey: 'nav.home', href: '/' },
         { label: 'About' }]}
-      className="sm"
+      className={styles.aboutPage}
     >
       <p>{about.description}</p>
       <div>
-        <h2>Vision</h2>
+        <h2 className={styles.subtitle}>Vision</h2>
         <p>{about.vision.description}</p>
         {Array.isArray(about.vision.focusAreas) && (
           <ul role="list" className="list-disc">
@@ -59,7 +61,7 @@ export default function Page({ searchParams }: any) {
       </div>
 
       <div>
-        <h3>Why we created this</h3>
+        <h3 className={styles.subtitle}>Why we created this</h3>
         <p>{about.whyWeCreated.purpose}</p>
         <ul role="list" className="list-disc">
           {(about.whyWeCreated.problemsAddressed as string[]).map((p: string, i: number) => (
@@ -69,7 +71,7 @@ export default function Page({ searchParams }: any) {
       </div>
 
       <div>
-        <h4>Commitment</h4>
+        <h4 className={styles.subtitle}>Commitment</h4>
         <ul role="list" className="list-disc">
           {(about.commitment as string[]).map((c: string, i: number) => (
             <li key={i}>{c}</li>
@@ -79,7 +81,7 @@ export default function Page({ searchParams }: any) {
 
       {about.joinUs.message && (
         <div>
-          <h5>Join us</h5>
+          <h5 className={styles.subtitle}>Join us</h5>
           <p>{about.joinUs.message}</p>
           {Array.isArray(about.joinUs.invite) && (
             <ul role="list" className="list-disc">

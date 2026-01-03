@@ -3,6 +3,8 @@ import React from 'react';
 import Link from 'next/link';
 import { t } from '../../../lib/i18n';
 
+import styles from './breadcrumbs.module.scss';
+
 type Crumb = { label: React.ReactNode; href?: string };
 type CrumbInput = { label?: unknown; labelKey?: string; href?: string };
 
@@ -26,7 +28,7 @@ function normalizeBreadcrumbs(items: CrumbInput[], locale?: string): Crumb[] {
 export default function Breadcrumbs({ items, locale }: { items: CrumbInput[]; locale?: string }) {
   const normalized = normalizeBreadcrumbs(items, locale);
   return (
-    <nav role="menu" aria-label="Breadcrumb">
+    <nav role="menu" aria-label="Breadcrumb" className={styles.breadcrumbs}>
       <ul role="list" className="breadcrumb-wrapper flex items-center">
         {normalized.map((it, idx) => (
           <li key={idx}>

@@ -1,5 +1,13 @@
 {
-  "contactPage": {
+  "contact": {
+    "meta": {
+      "title": "Contact | Overview — Sanatana Dharma - Explore Sanatan Dharma",
+      "description": "Contact — Sanatana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Contact. Explore practices, history, and guiding principles at SanatanaDharma.in.",
+      "keywords": "Contact, Sanatana Dharma, Hinduism, Vedic philosophy, Dharma and spirituality, Hindu scriptures, Bhagavad Gita teachings, Upanishads, Vedas and Puranas, Hindu rituals and traditions, Yoga and meditation, Hindu festivals, Spiritual wisdom, Hindu culture and heritage, Indian philosophy, Hindu gods and goddesses, Karma and rebirth, What is Sanatana Dharma, Principles of Sanatana Dharma, Importance of Vedas in Hinduism, Hindu spiritual practices for daily life, Meaning of Dharma in Hinduism, Sanatana Dharma vs modern life, How to follow Sanatana Dharma?, Sanatana Dharma in India,  Dharma, Mantra, Stotra, Stotras, Scripture, Scriptures, Commentary, Devotion, Practices, Ritual, Worship, Temple, Yoga, Meditation, Mythology, Story, History, Philosophy, Tradition, Culture, Chant, Festival, Legend",
+      "ogImage": "/og/contact.png",
+      "url": "https://sanatanadharmam.in/contact",
+      "canonical": "https://sanatanadharmam.in/contact"
+    },
     "title": "Contact Us",
     "lead": "We'd love to hear from you — questions, corrections, or partnership enquiries.",
     "description": "This page describes practical ways to reach the team behind Sanatanadharmam.in, the kinds of requests we can handle, and what to expect after you get in touch. Our aim is to respond kindly and usefully to messages while balancing the workload of a small, volunteer-led project.\n\nPlease read the guidance below so your message reaches the right place and receives an appropriate response.",

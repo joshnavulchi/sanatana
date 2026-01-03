@@ -31,7 +31,7 @@ export default function HeroSection() {
             </Link>
           </div>
           <div className="text-left mt-10">
-            <ul className="flex gap-2 m-0! p-0!">
+            <ul className="md:flex md:gap-2 m-0! p-0!">
               {tags && tags.map((tag: any, idx: number) => (
                 <li key={idx} className="text-sm!">
                   <Link href={`/${tag}`} className="underline!">{tag}</Link>

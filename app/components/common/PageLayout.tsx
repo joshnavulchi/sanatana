@@ -12,13 +12,13 @@ type Props = {
 };
 
 export default function PageLayout({ metaKey, title, breadcrumbs, className, children }: Props) {
-  const wrapper = `content-wrapper ${className || 'lg'} page-space-xl`;
+  const wrapper = `${className || ' content-wrapper '}`;
   return (
     <>
       {metaKey ? <StructuredData metaKey={metaKey} /> : null}
       <main className={wrapper}>
         {breadcrumbs ? <Breadcrumbs items={breadcrumbs} /> : null}
-        {title ? <h1>{title}</h1> : null}
+        {title ? <h1 className="title">{title}</h1> : null}
         {children}
       </main>
     </>
