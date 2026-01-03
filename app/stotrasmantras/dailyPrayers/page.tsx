@@ -2,15 +2,15 @@
 import { t, detectLocale, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('stotrasmantras_dailyPrayers');
+export const generateMetadata = createGenerateMetadata('dailyPrayers_stotrasmantras');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
-    const k: any = getMeta('stotrasmantras_dailyPrayers', {}, locale) || {};
+    const k: any = getMeta('dailyPrayers_stotrasmantras', {}, locale) || {};
     return {
-      title: typeof k.title === 'string' ? k.title : String(t('daily_prayers.title', locale) || 'Daily Prayers'),
+      title: typeof k.title === 'string' ? k.title : String(t('dailyPrayers_stotrasmantras.title', locale) || 'Daily Prayers'),
       items: Array.isArray(k.items) ? k.items : []
     };
   })();
@@ -18,10 +18,10 @@ export default function Page({ searchParams }: any) {
   return (
     <>
       <PageLayout
-        metaKey="stotrasmantras_dailyPrayers"
+        metaKey="dailyPrayers_stotrasmantras"
         title={page.title}
         breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (page.title || '') }]}
-        className="md"
+        className=""
       >
         <p>Placeholder for daily prayers and short mantras.</p>
       </PageLayout>

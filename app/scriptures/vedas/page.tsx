@@ -3,12 +3,12 @@ import { t, detectLocale, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import { parseList } from 'lib/parseList';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('scriptures_vedas');
+export const generateMetadata = createGenerateMetadata('vedas');
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
-    const k: any = getMeta('scriptures_vedas', {}, locale) || {};
+    const k: any = getMeta('vedas', {}, locale) || {};
     const structure = k.structure?.fourvedas ?? parseList(t('vedas.structure.fourvedas', locale));
     const origin = typeof k.origin === 'object' ? k.origin : (t('vedas.origin', locale) || {});
     const authorship = typeof k.authorship === 'object' ? k.authorship : (t('vedas.authorship', locale) || {});
@@ -22,7 +22,12 @@ export default function Page({ searchParams }: any) {
   })();
   return (
     <>
-      <PageLayout metaKey="scriptures_vedas" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Vedas' }]}>
+      <PageLayout
+        metaKey="vedas"
+        title={page.title}
+        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Vedas' }]}
+        className=""
+      >
         <p>{page.intro}</p>
         <div>
           <p><b>Meaning: </b>{page.origin}</p>

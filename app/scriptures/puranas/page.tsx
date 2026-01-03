@@ -2,13 +2,13 @@
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('scriptures_puranas');
+export const generateMetadata = createGenerateMetadata('puranas');
 
 export default function PuranasPage({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
-    const k: any = getMeta('scriptures_puranas', {}, locale) || {};
+    const k: any = getMeta('puranas', {}, locale) || {};
     const loc: any = getLocaleObject(locale) || {};
     const puranas = loc?.puranas || {};
     return {
@@ -21,7 +21,12 @@ export default function PuranasPage({ searchParams }: any) {
 
   return (
     <>
-      <PageLayout metaKey="scriptures_puranas" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Puranas' }]}>
+      <PageLayout
+        metaKey="puranas"
+        title={page.title}
+        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Puranas' }]}
+        className=""
+      >
         <p>{page.classification}</p>
         <p>{page.definition}</p>
         <div>

@@ -5,7 +5,7 @@ import { parseList } from 'lib/parseList';
 import PageLayout from '@components/common/PageLayout';
 import Image from 'next/image';
 import Link from 'next/link';
-export const generateMetadata = createGenerateMetadata('scriptures_gita');
+export const generateMetadata = createGenerateMetadata('bhagavadgita');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
@@ -19,7 +19,7 @@ export default function Page({ searchParams }: any) {
   return (
     <>
       <PageLayout
-        metaKey="scriptures_gita"
+        metaKey="bhagavadgita"
         title={page.title}
         breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}
         className="md"
