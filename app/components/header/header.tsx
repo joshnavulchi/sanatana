@@ -160,7 +160,7 @@ export default function Header() {
       <div className={styles.logoTitleNavWrapper}>
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <Link href="/" className={`${styles.logoTitle} flex items-center no-underline gap-2`}>
+            <Link href="/" className={`${styles.logoTitle} logo flex items-center no-underline gap-2`}>
               <Image src="/images/logo.png" alt="Sanatanadharmam Logo" width={40} height={36} />
               <span>
                 {translations.siteTitle}

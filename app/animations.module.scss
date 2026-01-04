@@ -79,17 +79,3 @@ a.button:hover::after {
 //   0% { transform: rotate(0) }
 //   100% { transform: rotate(360deg) }
 // }
-// a {
-// 	font-size:6vw;
-// 	letter-spacing:0.2em;
-// 	text-decoration:none;
-// 	color:#363636;
-// 	background:linear-gradient(to right,#363636 0%,#363636 100%);
-// 	background-repeat: no-repeat;
-// 	background-position: left 100%;
-// 	transition-duration: 1s;
-// 	background-size: 0 6%;
-// 	&:hover{
-// 		background-size:100% 6%;
-// 	}
-// }
