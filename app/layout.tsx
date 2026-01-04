@@ -12,7 +12,6 @@ import Footer from './components/footer/footer';
 import AnalyticsCollector from './components/analytics/AnalyticsCollector';
 import CookieConsent from './components/cookie-consent/CookieConsent';
 import TopProgress from './components/progress/TopProgress';
-import Loader from './components/loader/loader';
 import ScrollToTop from './components/scroll-to-top/scroll-to-top';
 
 import "./globals.css"; // tailwind base styles
@@ -56,17 +55,9 @@ export default async function RootLayout({
   return (
     <html lang={lang} translate="no">
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
         {/* Prevent browser automatic translation UI (Chrome/Google Translate) */}
         <meta name="google" content="notranslate" />
-        {/* Default robots tag for every built page */}
-        <meta name="robots" content="index, follow" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
-        {/* Page-specific override: cache for 5 minutes */}
-        <meta httpEquiv="Cache-Control" content="max-age=300, must-revalidate" />
-        <meta httpEquiv="Pragma" content="no-cache" />
-        <meta httpEquiv="Expires" content="300" />
-        {/* Page metadata is handled by Next's Metadata API (per-page `createGenerateMetadata`). */}
-        {/* Preload initial hero slider images to improve LCP on homepage */}
         {/* <link rel="preload" as="image" href="/images/slider/lord-ganesh.png" />
         <link rel="preload" as="image" href="/images/slider/lord-shiva.png" />
         <link rel="preload" as="image" href="/images/slider/lord-shiva-paravathi.png" />
@@ -77,10 +68,13 @@ export default async function RootLayout({
         <link rel="preload" as="image" href="/images/slider/lord-hanuman.png" />
         <link rel="preload" as="image" href="/images/lord-shiva.png" />
         <link rel="preload" as="image" href="/images/lord-krishna.png" /> */}
-        {/* Per-page canonical is set via per-page `createGenerateMetadata` using meta.json;
-          remove static canonical here to avoid duplicate canonical tags. */}
+        {/* Page-specific override: cache for 5 minutes */}
+        <meta httpEquiv="Cache-Control" content="max-age=300, must-revalidate" />
+        <meta httpEquiv="Pragma" content="no-cache" />
+        <meta httpEquiv="Expires" content="300" />
         <link rel="stylesheet" href="/globals.from-scss.css" />
         {/* JSON-LD structured data for Website/Organization */}
+        <meta name="google-site-verification" content="kxWcUTvXW7Ag5H1jtSxNuYUoKcWm-sq0on2s-h5ILF8" />
         <Script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

@@ -4,7 +4,7 @@ export const DEFAULT_LOCALE = "en";
 import storage from "./storage";
 // Single source of supported locales used across the app
 export const SUPPORTED_LOCALES = [
-  'en', 'te'
+  'en',
 ];
 // Cache that holds already-loaded locale objects. Keep English bundled
 // so the first render is fast. Other locales are loaded on demand.
