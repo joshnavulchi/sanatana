@@ -12,58 +12,58 @@ export default async function PrivacyPolicy() {
     <>
       <PageLayout
         metaKey="privacy_policy"
-        title={S('privacy.title')}
+        title={S('privacy_policy.title')}
         breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Privacy & Policy' }]}
-        className="sm"
+        className="layout-sm"
       >
         <div>
           <p>
-            <strong>{S('privacy.lastUpdated')}</strong> {S('privacy.lastUpdated')}
+            <strong>{S('privacy_policy.lastupdated')}</strong> {S('privacy_policy.lastupdated')}
           </p>
-          <h3 className="text-small">{S('privacy.intro.title')}</h3>
-          <p>{S('privacy.intro.text')}</p>
-          <h4 className="text-small">{S('privacy.informationWeCollect.title')}</h4>
-          <p>{S('privacy.informationWeCollect.lead')}</p>
+          <h3 className="text-small">{S('privacy_policy.intro.title')}</h3>
+          <p>{S('privacy_policy.intro.text')}</p>
+          <h4 className="text-small">{S('privacy_policy.informationwecollect.title')}</h4>
+          <p>{S('privacy_policy.informationwecollect.lead')}</p>
           <ul role="list" className="list-disc">
-            <li><strong>{S('privacy.informationWeCollect.usageLabel')}</strong> {S('privacy.informationWeCollect.usage')}</li>
-            <li><strong>{S('privacy.informationWeCollect.deviceLabel')}</strong> {S('privacy.informationWeCollect.device')}</li>
-            <li><strong>{S('privacy.informationWeCollect.cookiesLabel')}</strong> {S('privacy.informationWeCollect.cookies')}</li>
-            <li><strong>{S('privacy.informationWeCollect.contactLabel')}</strong> {S('privacy.informationWeCollect.contact')}</li>
+            <li><strong>{S('privacy_policy.informationwecollect.usagelabel')}</strong> {S('privacy_policy.informationwecollect.usage')}</li>
+            <li><strong>{S('privacy_policy.informationwecollect.devicelabel')}</strong> {S('privacy_policy.informationwecollect.device')}</li>
+            <li><strong>{S('privacy_policy.informationwecollect.cookieslabel')}</strong> {S('privacy_policy.informationwecollect.cookies')}</li>
+            <li><strong>{S('privacy_policy.informationwecollect.contactlabel')}</strong> {S('privacy_policy.informationwecollect.contact')}</li>
           </ul>
-          <h5 className="text-small">{S('privacy.howWeUse.title')}</h5>
-          <p>{S('privacy.howWeUse.lead')}</p>
+          <h5 className="text-small">{S('privacy_policy.howweuse.title')}</h5>
+          <p>{S('privacy_policy.howweuse.lead')}</p>
           <ul role="list" className="list-disc">
-            {parseList(t('privacy.howWeUse.items', locale)).map((item: string, idx: number) => (
+            {parseList(t('privacy_policy.howWeUse.items', locale)).map((item: string, idx: number) => (
               <li key={idx}>{item}</li>
             ))}
           </ul>
-          <h6 className="text-small">{S('privacy.cookiesLocalStorage.title')}</h6>
-          <p>{S('privacy.cookiesLocalStorage.text')}</p>
-          <p className="text-small font-bold">{S('privacy.thirdParty.title')}</p>
-          <p>{S('privacy.thirdParty.text')}</p>
-          <p className="text-small font-bold">{S('privacy.security.title')}</p>
-          <p>{S('privacy.security.text')}</p>
-          <p className="text-small font-bold">{S('privacy.rights.title')}</p>
-          <p>{S('privacy.rights.lead')}</p>
+          <h6 className="text-small">{S('privacy_policy.cookiesLocalstorage.title')}</h6>
+          <p>{S('privacy_policy.cookiesLocalStorage.text')}</p>
+          <p className="text-small font-bold">{S('privacy_policy.thirdparty.title')}</p>
+          <p>{S('privacy_policy.thirdParty.text')}</p>
+          <p className="text-small font-bold">{S('privacy_policy.security.title')}</p>
+          <p>{S('privacy_policy.security.text')}</p>
+          <p className="text-small font-bold">{S('privacy_policy.rights.title')}</p>
+          <p>{S('privacy_policy.rights.lead')}</p>
           <ul role="list" className="list-disc">
-            {parseList(t('privacy.rights.items', locale)).map((it: string, idx: number) => (
+            {parseList(t('privacy_policy.rights.items', locale)).map((it: string, idx: number) => (
               <li key={idx}>{it}</li>
             ))}
           </ul>
-          <p>{S('privacy.rights.contactText')}</p>
-          <p className="text-small font-bold">{S('privacy.children.title')}</p>
-          <p>{S('privacy.children.text')}</p>
-          <p className="text-small font-bold">{S('privacy.changes.title')}</p>
-          <p>{S('privacy.changes.text')}</p>
-          <p className="text-small font-bold">{S('privacy.contact.title')}</p>
-          <p>{S('privacy.contact.lead')}</p>
+          <p>{S('privacy_policy.rights.contacttext')}</p>
+          <p className="text-small font-bold">{S('privacy_policy.children.title')}</p>
+          <p>{S('privacy_policy.children.text')}</p>
+          <p className="text-small font-bold">{S('privacy_policy.changes.title')}</p>
+          <p>{S('privacy_policy.changes.text')}</p>
+          <p className="text-small font-bold">{S('privacy_policy.contact.title')}</p>
+          <p>{S('privacy_policy.contact.lead')}</p>
           <p>
-            <strong>{S('privacy.contact.emailLabel')}</strong> {S('privacy.contact.email')}
+            <strong>{S('privacy_policy.contact.emaillabel')}</strong> {S('privacy_policy.contact.email')}
           </p>
           <p>
-            <strong>{S('privacy.contact.websiteLabel')}</strong> <a href="https://sanatanadharmam.in">{S('privacy.contact.website')}</a>
+            <strong>{S('privacy_policy.contact.websitelabel')}</strong> <a href="https://sanatanadharmam.in">{S('privacy_policy.contact.website')}</a>
           </p>
-          <p>{S('privacy.contact.closing')}</p>
+          <p>{S('privacy_policy.contact.closing')}</p>
         </div>
       </PageLayout>
     </>

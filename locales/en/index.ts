@@ -55,7 +55,7 @@ import _51 from './ramanamaharshi_story.json';
 import _52 from './ramayana_scriptures.json';
 import _53 from './rituals_practices.json';
 import _54 from './samsara_philosophy.json';
-import _55 from './sanatanadharmam.json';
+import _55 from './sanatanadharma.json';
 import _56 from './sankshepa_ramayana_scriptures.json';
 import _57 from './saraswathi_story.json';
 import _58 from './scriptures.json';
