@@ -22,7 +22,7 @@ export default function HeroSection() {
           <h1 className={`title site-title md:max-w-md`}>{heading}</h1>
           <p className={`subtitle site-subtitle font-semibold md:max-w-md`}>{subheading}</p>
           <p className={`description md:max-w-md`}>{description}</p>
-          <div className="flex flex-col md:flex-row gap-4">
+          <div className="flex flex-col md:flex-row gap-4 md:gap-8">
             <Link href={`/scriptures/${primaryCtaLink}`} className="button inline-block shadow-sm bg-amber-300 hover:bg-amber-400 no-underline">
               {primaryCtaLabel}
             </Link>

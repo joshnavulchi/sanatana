@@ -34,7 +34,7 @@ export default function Footer() {
 
   const title = t('footer.title');
   const quote = t('footer.quote');
-  const quoteSource = t('footer.quoteSource');
+  const quoteSource = t('footer.quotesource');
   const contactLabel = t('footer.contact');
   const donateLabel = t('footer.donate');
   const disclaimer = t('footer.disclaimer');
@@ -65,7 +65,7 @@ export default function Footer() {
         <section className="content-wrapper text-center">
           <p className="title">{title}</p>
           <p className="subtitle">{quote} {quoteSource}</p>
-          <div className="flex items-center justify-center gap-4">
+          <div className="flex items-center justify-center gap-4 md:gap-8">
             <Link href="/contact" className={`${styles.button} button inline-black shadow-sm bg-amber-300 hover:bg-amber-400 no-underline`}>
               {contactLabel}
             </Link>
