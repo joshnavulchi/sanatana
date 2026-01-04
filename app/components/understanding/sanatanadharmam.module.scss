@@ -7,6 +7,31 @@
     }
   }
 }
+.borderbottom {
+  position: relative;
+  z-index: 1;
+  margin-bottom: var(--space-xl);
+  display: inline-block;
+  &::after,
+  &::before {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    width: 100px;
+    height: 5px;
+    border-bottom: 1px solid var(--theme-border-color);
+    border-bottom-style: double;
+  }
+  &:after {
+    right: -110px;
+  }
+  &:before {
+    left: -110px;
+  }
+}
 @media (min-width: 1024px) {
 }
 @media (min-width: 1600px) {

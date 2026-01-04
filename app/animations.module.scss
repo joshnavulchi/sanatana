@@ -2,51 +2,46 @@
 a.button {
   position: relative;
   z-index: 0;
-  display: inline-block;
   overflow: visible;
-}
-.button::before,
-a.button::before,
-.button::after,
-a.button::after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  transition: all .25s;
-  display: block;
-  box-sizing: border-box;
-  width: 10%;
-  height: 33%;
-  left: -6px;
-  bottom: -6px;
-  min-width: 18px;
-  min-height: 12px;
-}
-.button::before,
-a.button::before {
-  border-bottom: 2px solid yellow;
-  border-left: 2px solid yellow;
-}
-.button::after,
-a.button::after {
-  border-top: 2px solid yellow;
-  border-right: 2px solid yellow;
-  /* Debug: make the pseudo-element visible during hover */
-  background: rgba(255, 0, 0, 0.12);
-  border-color: red;
-  box-shadow: 0 0 6px rgba(255,0,0,0.25);
-  pointer-events: none;
-  z-index: 9999;
-}
-.button:hover::before,
-a.button:hover::before {
-  width: 112%;
-  height: 140%;
-}
-.button:hover::after,
-a.button:hover::after {
-  width: 112%;
-  height: 140%;
+  &::before,
+  &::before,
+  &::after,
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    transition: all .25s;
+    display: block;
+    box-sizing: border-box;
+    width: 10%;
+    height: 10%;
+    min-width: 18px;
+    min-height: 12px;
+  }
+  &::before,
+  &::before {
+    left: -6px;
+    bottom: -6px;
+    border-bottom: 2px solid yellow;
+    border-left: 2px solid yellow;
+  }
+  &::after,
+  &::after {
+    top: -6px;
+    right: -6px;
+    border-top: 2px solid yellow;
+    border-right: 2px solid yellow;
+  }
+  &:hover::before,
+  &:hover::before {
+    width: 110%;
+    height: 110%;
+  }
+  // &:hover::after,
+  // &:hover::after {
+  //   width: 100%;
+  //   height: 100%;
+  // }
 }
 
 // .rainbow {
