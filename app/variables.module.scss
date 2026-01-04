@@ -9,6 +9,11 @@
   --color-black: #000000;
   --color--deep-blue: #162039;
 
+  --electric-border-color: #dd8448;
+  --electric-light-color: oklch(from var(--electric-border-color) l c h);
+  --gradient-color: oklch(from var(--electric-border-color) 0.3 calc(c / 2) h / 0.4);
+  --color-neutral-900: oklch(0.185 0 0);
+
   /* Font families: Playfair primary, Poppins secondary, then generic sans-serif */
   --font-heading: "Poppins", sans-serif;
   --font-body: "Poppins", sans-serif;

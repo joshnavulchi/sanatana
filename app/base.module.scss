@@ -47,7 +47,7 @@ li {
 small,
 .small,
 .meta {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #ccc;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -162,6 +162,9 @@ button,
   }
   ul, ol {
     font-size: 1rem;
+  }
+  .title {
+    font-size: 2rem;
   }
   small, .small, .meta { font-size: 0.75rem; }
 }
