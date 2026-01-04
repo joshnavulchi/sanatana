@@ -26,15 +26,28 @@ a {
     background-color: var(--theme-body-text-color);
     transition: all 0.2s ease-in-out;
   }
-  &.active::after,
-  &:hover::after {
-    width: 100%;
-    opacity: 1;
+  &.logo {
+    background: inherit !important;
+    background-repeat: inherit !important;
+    background-position: inherit !important;
+    transition-duration: 0s !important;
+    background-size: inherit !important;
   }
   &.no-underline::after,
   &.no-underline:hover::after {
     display: none;
   }
+}
+a:not(.button) {
+	background:linear-gradient(to right,#363636 0%,#363636 100%);
+	background-repeat: no-repeat;
+	background-position: left 100%;
+	transition-duration: 1s;
+	background-size: 0 6%;
+  .active,
+	&:hover {
+		background-size:100% 6%;
+	}
 }
 ul, ol {
   padding-left: 1rem;
@@ -47,7 +60,7 @@ li {
 small,
 .small,
 .meta {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #ccc;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -162,6 +175,9 @@ button,
   }
   ul, ol {
     font-size: 1rem;
+  }
+  .title {
+    font-size: 2rem;
   }
   small, .small, .meta { font-size: 0.75rem; }
 }

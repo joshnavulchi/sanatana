@@ -2,6 +2,7 @@
 import { useT } from '../../hooks/useT';
 import { parseList } from 'lib/parseList';
 import styles from './sanatanadharmam.module.scss';
+import ElectricalBorder from '../electrical-border/electrical';
 
 export default function UnderstandingOfSanatana() {
   const t = useT();
@@ -11,7 +12,7 @@ export default function UnderstandingOfSanatana() {
     <div className={`${styles.understanding} content-wrapper text-center`}>
       {sections.map((section) => (
         <div key={section.id} className={`${styles.sections}`}>
-          <p className={`title font-semibold`}>{section.title}</p>
+          <ElectricalBorder title={section.title} />
           <p className={`subtitle`}>{section.content}</p>
           <div className={`cards flex gap-10 md:gap-6`}>
             {section?.items && section?.items.map((topic: any, index: number) => (

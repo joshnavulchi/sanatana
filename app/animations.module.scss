@@ -1,0 +1,81 @@
+.button,
+a.button {
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  overflow: visible;
+}
+.button::before,
+a.button::before,
+.button::after,
+a.button::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  transition: all .25s;
+  display: block;
+  box-sizing: border-box;
+  width: 10%;
+  height: 33%;
+  left: -6px;
+  bottom: -6px;
+  min-width: 18px;
+  min-height: 12px;
+}
+.button::before,
+a.button::before {
+  border-bottom: 2px solid yellow;
+  border-left: 2px solid yellow;
+}
+.button::after,
+a.button::after {
+  border-top: 2px solid yellow;
+  border-right: 2px solid yellow;
+  /* Debug: make the pseudo-element visible during hover */
+  background: rgba(255, 0, 0, 0.12);
+  border-color: red;
+  box-shadow: 0 0 6px rgba(255,0,0,0.25);
+  pointer-events: none;
+  z-index: 9999;
+}
+.button:hover::before,
+a.button:hover::before {
+  width: 112%;
+  height: 140%;
+}
+.button:hover::after,
+a.button:hover::after {
+  width: 112%;
+  height: 140%;
+}
+
+// .rainbow {
+//   width :  100%;
+//   height:  100%;
+//   animation: o-rotate-360 linear 8s infinite;
+//   span {
+//     display: block;
+//     width: 100%; height: 100%;
+//     position: relative;
+//     transform: translate(-50%, -50%);
+//     &:after {
+//       display: block;
+//       content: "";
+//       width: 100%; height: 100%;
+//       position: absolute;
+//       left: 100%;
+//     }
+//     &:first-child {
+//       background: var(--color-first);
+//       &:after { background: var(--color-second) }
+//     }
+//     &:last-child {
+//       background: var(--color-third);
+//       &:after { background: var(--color-forth) }
+//     }
+//   }
+// }
+// @keyframes o-rotate-360 {
+//   0% { transform: rotate(0) }
+//   100% { transform: rotate(360deg) }
+// }
