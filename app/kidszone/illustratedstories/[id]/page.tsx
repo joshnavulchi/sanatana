@@ -52,7 +52,7 @@ export function generateStaticParams() {
     const file = path.join(process.cwd(), 'locales', 'en', 'illustrated_stories.json');
     const raw = fsSync.readFileSync(file, 'utf8');
     const doc = JSON.parse(raw);
-    const stories = doc && (doc.illustrated_stories || doc.illustratedStories) && (doc.illustrated_stories.kids_indian_stories || doc.illustratedStories.kids_indian_stories) ? (doc.illustrated_stories?.kids_indian_stories || doc.illustratedStories?.kids_indian_stories) : [];
+    const stories = doc && (doc.illustrated_stories || doc.illustratedstories) && (doc.illustrated_stories.kids_indian_stories || doc.illustratedstories.kids_indian_stories) ? (doc.illustrated_stories?.kids_indian_stories || doc.illustratedstories?.kids_indian_stories) : [];
     return Array.isArray(stories) ? stories.map((s: any) => ({ id: String(s.id) })) : [];
   } catch (err) {
     return [];
@@ -64,7 +64,7 @@ async function loadStories(locale: string) {
   try {
     const raw = await fs.readFile(file, 'utf8');
     const doc = JSON.parse(raw);
-    return doc?.illustratedStories?.kids_indian_stories ?? [];
+    return doc?.illustratedstories?.kids_indian_stories ?? [];
   } catch (err) {
     if (locale !== 'en') return loadStories('en');
     return [];

@@ -1,6 +1,6 @@
 import { createGenerateMetadata } from 'lib/pageUtils';
 
-export const generateMetadata = createGenerateMetadata('kidsZone');
+export const generateMetadata = createGenerateMetadata('kidszone');
 
 export default function Page() {
   return (
