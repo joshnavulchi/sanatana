@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "cross-env NEXT_TELEMETRY_DISABLED=1 node --max-old-space-size=8192 ./node_modules/next/dist/bin/next build",
-    "prebuild": "node scripts/generate-sitemap.js",
+    "postbuild": "node scripts/generate-sitemap.js",
     "build:server": "cross-env NEXT_TELEMETRY_DISABLED=1 node --max-old-space-size=8192 ./node_modules/next/dist/bin/next build",
     "scss:build": "sass app/styles.scss public/globals.from-scss.css --style=compressed --no-source-map",
     "scss:build:dev": "sass app/styles.scss public/globals.from-scss.css --embed-source-map",

@@ -205,10 +205,23 @@ function writeSitemap(xml) {
   console.log('Wrote', out);
 }
 
+function writePublicSitemap(xml) {
+  const pub = path.join(process.cwd(), 'public', 'sitemap.xml');
+  fs.mkdirSync(path.dirname(pub), { recursive: true });
+  fs.writeFileSync(pub, xml, 'utf8');
+  console.log('Wrote', pub);
+}
+
 try {
   const paths = readPaths();
   const xml = buildSitemap(paths);
   writeSitemap(xml);
+  // Also update public sitemap so deployments serve the latest file
+  try {
+    writePublicSitemap(xml);
+  } catch (e) {
+    // non-fatal
+  }
 } catch (err) {
   console.error(err);
   process.exit(1);
