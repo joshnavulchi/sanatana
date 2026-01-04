@@ -2,7 +2,7 @@
 import { t, detectLocale, getMeta } from '../../lib/i18n';
 import { createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('terms_of_service');
+export const generateMetadata = createGenerateMetadata('terms');
 
 export default async function TermsOfService({ searchParams }: any) {
   const locale = await detectLocale(searchParams);
@@ -12,102 +12,100 @@ export default async function TermsOfService({ searchParams }: any) {
     const get = (p: string) => (typeof k[p] === 'string' ? k[p] : String(t(p, locale)));
     return {
       title: typeof k.title === 'string' ? k.title : String(t('terms.title', locale) || ''),
-      lastUpdated: get('terms.lastUpdated'),
+      lastupdated: get('terms.lastupdated'),
       intro: get('terms.intro'),
-      acceptanceTitle: get('terms.acceptanceTitle'),
-      useLicenseTitle: get('terms.useLicenseTitle'),
-      useLicenseText: get('terms.useLicenseText'),
-      useLicenseList: k.useLicenseList ?? {},
-      intellectualTitle: get('terms.intellectualTitle'),
-      intellectualText: get('terms.intellectualText'),
-      userConductTitle: get('terms.userConductTitle'),
-      userConductIntro: get('terms.userConductIntro'),
-      userConductList: k.userConductList ?? {},
-      disclaimerTitle: get('terms.disclaimerTitle'),
-      disclaimerText: get('terms.disclaimerText'),
-      disclaimerList: k.disclaimerList ?? {},
-      disclaimerClosing: get('terms.disclaimerClosing'),
-      liabilityTitle: get('terms.liabilityTitle'),
-      liabilityText: get('terms.liabilityText'),
-      externalLinksTitle: get('terms.externalLinksTitle'),
-      externalLinksText: get('terms.externalLinksText'),
-      modificationsTitle: get('terms.modificationsTitle'),
-      modificationsText: get('terms.modificationsText'),
-      terminationTitle: get('terms.terminationTitle'),
-      terminationText: get('terms.terminationText'),
-      indemnificationTitle: get('terms.indemnificationTitle'),
-      indemnificationText: get('terms.indemnificationText'),
-      governingTitle: get('terms.governingTitle'),
-      severabilityTitle: get('terms.severabilityTitle'),
-      contactTitle: get('terms.contactTitle'),
-      contactEmailLabel: get('terms.contactEmailLabel'),
-      contactEmail: get('terms.contactEmail'),
-      contactWebsiteLabel: get('terms.contactWebsiteLabel'),
-      contactWebsite: get('terms.contactWebsite'),
+      acceptancetitle: get('terms.acceptancetitle'),
+      useLicensetitle: get('terms.useLicensetitle'),
+      useLicensetext: get('terms.useLicensetext'),
+      uselicenselist: k.uselicenselist ?? {},
+      intellectualtitle: get('terms.intellectualtitle'),
+      intellectualtext: get('terms.intellectualtext'),
+      userconducttitle: get('terms.userconducttitle'),
+      userconductintro: get('terms.userconductintro'),
+      userconductlist: k.userconductlist ?? {},
+      disclaimertitle: get('terms.disclaimertitle'),
+      disclaimertext: get('terms.disclaimertext'),
+      disclaimerlist: k.disclaimerlist ?? {},
+      disclaimerclosing: get('terms.disclaimerclosing'),
+      liabilitytitle: get('terms.liabilitytitle'),
+      liabilitytext: get('terms.liabilitytext'),
+      externallinkstitle: get('terms.externallinkstitle'),
+      externallinkstext: get('terms.externallinkstext'),
+      modificationstitle: get('terms.modificationstitle'),
+      modificationstext: get('terms.modificationstext'),
+      terminationtitle: get('terms.terminationtitle'),
+      terminationtext: get('terms.terminationtext'),
+      indemnificationtitle: get('terms.indemnificationtitle'),
+      indemnificationtext: get('terms.indemnificationtext'),
+      governingtitle: get('terms.governingtitle'),
+      severabilitytitle: get('terms.severabilitytitle'),
+      contacttitle: get('terms.contacttitle'),
+      contactemaillabel: get('terms.contactemaillabel'),
+      contactemail: get('terms.contactemail'),
+      contactwebsitelabel: get('terms.contactwebsitelabel'),
+      contactwebsite: get('terms.contactwebsite'),
       closing: get('terms.closing')
     };
   })();
 
   return (
     <PageLayout
-      metaKey="terms_of_service"
+      metaKey="terms"
       title={page.title}
       breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}
-      className="sm"
+      className="layout-sm"
     >
       <div>
         <p>
-          <strong>{page.lastUpdated}</strong> {page.lastUpdated}
+          <strong>{page.lastupdated}</strong> {page.lastupdated}
         </p>
-        <h3 className="text-small">{page.acceptanceTitle}</h3>
+        <h3 className="text-small">{page.acceptancetitle}</h3>
         <p>{page.intro}</p>
-        <h4 className="text-small">{page.useLicenseTitle}</h4>
-        <p>{page.useLicenseText}</p>
+        <h4 className="text-small">{page.uselicensetitle}</h4>
+        <p>{page.uselicensetext}</p>
         <ul role="list" className="list-disc">
-          <li>{(page.useLicenseList && page.useLicenseList.modification) || S('terms.useLicenseList.modification')}</li>
-          <li>{(page.useLicenseList && page.useLicenseList.copying) || S('terms.useLicenseList.copying')}</li>
-          <li>{(page.useLicenseList && page.useLicenseList.unauthorizedAccess) || S('terms.useLicenseList.unauthorizedAccess')}</li>
-          <li>{(page.useLicenseList && page.useLicenseList.reverseEngineering) || S('terms.useLicenseList.reverseEngineering')}</li>
-          <li>{(page.useLicenseList && page.useLicenseList.interfering) || S('terms.useLicenseList.interfering')}</li>
+          <li>{(page.uselicenselist && page.uselicenselist.modification) || S('terms.uselicenselist.modification')}</li>
+          <li>{(page.uselicenselist && page.uselicenselist.copying) || S('terms.uselicenselist.copying')}</li>
+          <li>{(page.uselicenselist && page.uselicenselist.unauthorizedAccess) || S('terms.uselicenselist.unauthorizedAccess')}</li>
+          <li>{(page.uselicenselist && page.uselicenselist.reverseEngineering) || S('terms.uselicenselist.reverseEngineering')}</li>
+          <li>{(page.uselicenselist && page.uselicenselist.interfering) || S('terms.uselicenselist.interfering')}</li>
         </ul>
-        <h5 className="text-small">{page.intellectualTitle}</h5>
-        <p>{page.intellectualText}</p>
-        <h6 className="text-small">{page.userConductTitle}</h6>
-        <p>{page.userConductIntro}</p>
+        <h5 className="text-small">{page.intellectualtitle}</h5>
+        <p>{page.intellectualtext}</p>
+        <h6 className="text-small">{page.userconducttitle}</h6>
+        <p>{page.userconductintro}</p>
         <ul role="list" className="list-disc">
-          <li>{(page.userConductList && page.userConductList.unlawful) || S('terms.userConductList.unlawful')}</li>
-          <li>{(page.userConductList && page.userConductList.harassment) || S('terms.userConductList.harassment')}</li>
-          <li>{(page.userConductList && page.userConductList.malware) || S('terms.userConductList.malware')}</li>
-          <li>{(page.userConductList && page.userConductList.violateLaw) || S('terms.userConductList.violateLaw')}</li>
-          <li>{(page.userConductList && page.userConductList.spam) || S('terms.userConductList.spam')}</li>
-          <li>{(page.userConductList && page.userConductList.bypass) || S('terms.userConductList.bypass')}</li>
+          <li>{(page.userconductlist && page.userconductlist.unlawful) || S('terms.userconductlist.unlawful')}</li>
+          <li>{(page.userconductlist && page.userconductlist.harassment) || S('terms.userconductlist.harassment')}</li>
+          <li>{(page.userconductlist && page.userconductlist.malware) || S('terms.userconductlist.malware')}</li>
+          <li>{(page.userconductlist && page.userconductlist.violateLaw) || S('terms.userconductlist.violateLaw')}</li>
+          <li>{(page.userconductlist && page.userconductlist.spam) || S('terms.userconductlist.spam')}</li>
+          <li>{(page.userconductlist && page.userconductlist.bypass) || S('terms.userconductlist.bypass')}</li>
         </ul>
-        <p className="text-small font-bold">{page.disclaimerTitle}</p>
-        <p>{page.disclaimerText}</p>
+        <p className="text-small font-bold">{page.disclaimertitle}</p>
+        <p>{page.disclaimertext}</p>
         <ul role="list" className="list-disc">
-          <li>{(page.disclaimerList && page.disclaimerList.accuracy) || S('terms.disclaimerList.accuracy')}</li>
-          <li>{(page.disclaimerList && page.disclaimerList.functionality) || S('terms.disclaimerList.functionality')}</li>
-          <li>{(page.disclaimerList && page.disclaimerList.errors) || S('terms.disclaimerList.errors')}</li>
-          <li>{(page.disclaimerList && page.disclaimerList.quality) || S('terms.disclaimerList.quality')}</li>
+          <li>{(page.disclaimerlist && page.disclaimerlist.accuracy) || S('terms.disclaimerlist.accuracy')}</li>
+          <li>{(page.disclaimerlist && page.disclaimerlist.functionality) || S('terms.disclaimerlist.functionality')}</li>
+          <li>{(page.disclaimerlist && page.disclaimerlist.errors) || S('terms.disclaimerlist.errors')}</li>
+          <li>{(page.disclaimerlist && page.disclaimerlist.quality) || S('terms.disclaimerlist.quality')}</li>
         </ul>
-        <p>{page.disclaimerClosing}</p>
-        <p className="text-small font-bold">{page.liabilityTitle}</p>
-        <p>{page.liabilityText}</p>
-        <p className="text-small font-bold">{page.externalLinksTitle}</p>
-        <p>{page.externalLinksText}</p>
+        <p>{page.disclaimerclosing}</p>
+        <p className="text-small font-bold">{page.liabilitytitle}</p>
+        <p>{page.liabilitytext}</p>
+        <p className="text-small font-bold">{page.externallinkstitle}</p>
+        <p>{page.externalLinkstext}</p>
         <p className="text-small font-bold">{page.modificationsTitle}</p>
-        <p>{page.modificationsText}</p>
+        <p>{page.modificationstext}</p>
         <p className="text-small font-bold">{page.terminationTitle}</p>
-        <p>{page.terminationText}</p>
+        <p>{page.terminationtext}</p>
         <p className="text-small font-bold">{page.indemnificationTitle}</p>
-        <p>{page.indemnificationText}</p>
-        <p className="text-small font-bold">{page.governingTitle}</p>
-        <p className="text-small font-bold">{page.severabilityTitle}</p>
-        <p className="text-small font-bold">{page.severabilityTitle}</p>
-        <p className="text-small font-bold">{page.contactTitle}</p>
-        <p className="text-small font-bold">{page.contactTitle}</p>
-        <p><strong>{page.contactEmailLabel}</strong> {page.contactEmail}</p>
-        <p><strong>{page.contactWebsiteLabel}</strong> <a href="https://sanatanadharmam.in">{page.contactWebsite}</a></p>
+        <p>{page.indemnificationtext}</p>
+        <p className="text-small font-bold">{page.governingtitle}</p>
+        <p className="text-small font-bold">{page.severabilitytitle}</p>
+        <p className="text-small font-bold">{page.contacttitle}</p>
+        <p><strong>{page.contactemaillabel}</strong> {page.contactemail}</p>
+        <p><strong>{page.contactwebsitelabel}</strong> <a href="https://sanatanadharmam.in">{page.contactwebsite}</a></p>
         <p>{page.closing}</p>
       </div>
     </PageLayout>

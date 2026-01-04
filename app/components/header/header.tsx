@@ -87,8 +87,10 @@ export default function Header() {
         const locObj = (getLocaleObject(locale) as any) || {};
         const siteTitle = (locObj?.siteTitle && (locObj.siteTitle?.siteTitle || locObj.siteTitle)) || 'Sanatana Dharma';
         const nav = (locObj?.nav as any) || {};
-        const banner = (locObj && (locObj.bannerNotifications ?? locObj.banner)) || null;
-        const banner2 = (locObj && (locObj.bannerNotifications2 ?? locObj.banner2)) || null;
+        // Support multiple key styles in locale files: snake_case (banner_notifications)
+        // and camelCase (bannerNotifications). Prefer explicit banner keys when present.
+        const banner = (locObj && (locObj.bannerNotifications ?? locObj.banner ?? locObj.banner_notifications)) || null;
+        const banner2 = (locObj && (locObj.bannerNotifications2 ?? locObj.banner2 ?? locObj.banner_notifications2)) || null;
         setTranslations({ siteTitle, nav, banner, banner2 });
       } catch (e) {
         // fallback to English (already in state)
