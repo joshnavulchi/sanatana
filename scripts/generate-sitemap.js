@@ -43,21 +43,43 @@ function loadExcludes() {
 const EXCLUDES = loadExcludes();
 
 function readPaths() {
-  const p = path.join(process.cwd(), 'lib', 'sitemapPaths.ts');
-  const src = fs.readFileSync(p, 'utf8');
-  const m = src.match(/export const PATHS\s*=\s*\[(([\s\S]*?)\];)/m);
-  if (m) {
-    const arrSrc = m[0].replace(/export const PATHS\s*=\s*/m, '');
-    // Extract strings
-    const items = [];
-    const re = /'([^']+)'/g;
-    let it;
-    while ((it = re.exec(arrSrc)) !== null) items.push(it[1]);
-    return items;
+  // Prefer Next's prerender manifest (routes actually built) when available.
+  try {
+    const manifestPath = path.join(process.cwd(), '.next', 'prerender-manifest.json');
+    if (fs.existsSync(manifestPath)) {
+      const raw = fs.readFileSync(manifestPath, 'utf8');
+      const manifest = JSON.parse(raw);
+      const routes = manifest && manifest.routes ? Object.keys(manifest.routes) : [];
+      // Filter out API routes, route handlers, sitemap route, and special internal routes
+      const filtered = routes.filter((r) => {
+        if (!r || typeof r !== 'string') return false;
+        if (r.startsWith('/api')) return false;
+        if (r === '/sitemap.xml' || r === '/sitemap') return false;
+        if (r === '/favicon.ico') return false;
+        if (r.startsWith('/_')) return false;
+        return true;
+      });
+      return Array.from(new Set(filtered)).sort();
+    }
+  } catch (err) {
+    // ignore and fall back to previous behavior
   }
 
-  // Fallback: sitemapPaths.ts now computes PATHS programmatically.
-  // Try to build paths from the English nav.json instead of parsing TS.
+  // Fallback: read lib/sitemapPaths.ts and locales nav (legacy behavior)
+  const p = path.join(process.cwd(), 'lib', 'sitemapPaths.ts');
+  if (fs.existsSync(p)) {
+    const src = fs.readFileSync(p, 'utf8');
+    const m = src.match(/export const PATHS\s*=\s*\[(([\s\S]*?)\];)/m);
+    if (m) {
+      const arrSrc = m[0].replace(/export const PATHS\s*=\s*/m, '');
+      const items = [];
+      const re = /'([^']+)'/g;
+      let it;
+      while ((it = re.exec(arrSrc)) !== null) items.push(it[1]);
+      return items;
+    }
+  }
+
   try {
     const navPath = path.join(process.cwd(), 'locales', 'en', 'nav.json');
     const navRaw = fs.readFileSync(navPath, 'utf8');
