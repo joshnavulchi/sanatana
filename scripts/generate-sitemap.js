@@ -51,15 +51,86 @@ function readPaths() {
       const manifest = JSON.parse(raw);
       const routes = manifest && manifest.routes ? Object.keys(manifest.routes) : [];
       // Filter out API routes, route handlers, sitemap route, and special internal routes
-      const filtered = routes.filter((r) => {
-        if (!r || typeof r !== 'string') return false;
-        if (r.startsWith('/api')) return false;
-        if (r === '/sitemap.xml' || r === '/sitemap') return false;
-        if (r === '/favicon.ico') return false;
-        if (r.startsWith('/_')) return false;
-        return true;
-      });
-      return Array.from(new Set(filtered)).sort();
+        const filtered = routes.filter((r) => {
+          if (!r || typeof r !== 'string') return false;
+          if (r.startsWith('/api')) return false;
+          if (r === '/sitemap.xml' || r === '/sitemap') return false;
+          if (r === '/favicon.ico') return false;
+          if (r.startsWith('/_')) return false;
+          return true;
+        });
+        // Expand dynamic routes like [id] or [chapter]
+        const expanded = [];
+        for (const r of Array.from(new Set(filtered)).sort()) {
+          if (r.includes('[')) {
+            // handle illustrated stories: /kidszone/illustratedstories/[id]
+            if (/kidszone\/illustratedstories\/\[id\]/.test(r) || /kidszone\/illustratedstories\/\[id\]\/page/.test(r)) {
+              try {
+                const file = path.join(process.cwd(), 'locales', 'en', 'illustrated_stories.json');
+                if (fs.existsSync(file)) {
+                  const raw = fs.readFileSync(file, 'utf8');
+                  const doc = JSON.parse(raw);
+                  const stories = doc && (doc.illustrated_stories || doc.illustratedstories) && (doc.illustrated_stories.kids_indian_stories || doc.illustratedstories.kids_indian_stories) ? (doc.illustrated_stories?.kids_indian_stories || doc.illustratedstories?.kids_indian_stories) : [];
+                  if (Array.isArray(stories) && stories.length > 0) {
+                    for (const s of stories) {
+                      if (s && (s.id || s.chapter || s.slug)) {
+                        const id = s.id || s.chapter || s.slug;
+                        expanded.push(`/kidszone/illustratedstories/${id}`);
+                      }
+                    }
+                    continue;
+                  }
+                }
+              } catch (e) { }
+              // fallback: skip if no data
+              continue;
+            }
+
+            // handle scriptures chapter dynamic routes: /scriptures/:book/chapter/[chapter]
+            const chapMatch = r.match(/^\/scriptures\/([^\/]+)\/chapter\/\[chapter\]/);
+            if (chapMatch) {
+              const book = chapMatch[1];
+              // attempt to find a matching locale scriptures file in locales/en
+              try {
+                const localeDir = path.join(process.cwd(), 'locales', 'en');
+                const files = fs.readdirSync(localeDir);
+                // find file that contains the book name
+                const candidate = files.find(f => f.toLowerCase().includes(book.replace(/[^a-z0-9]/gi, '').toLowerCase()));
+                if (candidate) {
+                  const filePath = path.join(localeDir, candidate);
+                  const raw = fs.readFileSync(filePath, 'utf8');
+                  const doc = JSON.parse(raw);
+                  // find chapters array inside doc
+                  const chaptersKey = Object.keys(doc).find(k => k.toLowerCase().includes('chap') || k.toLowerCase().includes('chapter'));
+                  let chapters = [];
+                  if (chaptersKey && Array.isArray(doc[chaptersKey].chapters)) {
+                    chapters = doc[chaptersKey].chapters;
+                  } else if (Array.isArray(doc[`${book}_scriptures`]?.chapters)) {
+                    chapters = doc[`${book}_scriptures`].chapters;
+                  } else if (Array.isArray(doc.chapters)) {
+                    chapters = doc.chapters;
+                  }
+                  if (Array.isArray(chapters) && chapters.length > 0) {
+                    for (const c of chapters) {
+                      const num = c && (c.chapter || c.chapter_number || c.chapterNo || c.number) ? (c.chapter || c.chapter_number || c.chapterNo || c.number) : (typeof c === 'number' ? c : null);
+                      if (num !== null) expanded.push(`/scriptures/${book}/chapter/${num}`);
+                    }
+                    continue;
+                  }
+                }
+              } catch (e) { }
+              // Fallback: add a reasonable default range
+              const fallbackCount = /bhagavathgita|bhagavadgita/.test(book) ? 18 : 12;
+              for (let i = 1; i <= fallbackCount; i++) expanded.push(`/scriptures/${book}/chapter/${i}`);
+              continue;
+            }
+
+            // unknown dynamic route: skip
+            continue;
+          }
+          expanded.push(r);
+        }
+        return expanded;
     }
   } catch (err) {
     // ignore and fall back to previous behavior
