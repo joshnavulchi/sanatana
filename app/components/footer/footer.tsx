@@ -48,7 +48,7 @@ export default function Footer() {
   const philosophy = getNav('footer.nav.philosophy.nav');
   const practices = getNav('footer.nav.practices.nav');
   const stories = getNav('footer.nav.stories.nav');
-  const kidsZone = getNav('footer.nav.kidszone.nav');
+  const kidszone = getNav('footer.nav.kidszone.nav');
   const others = getNav('footer.nav.others.nav');
 
   const scripturesTitle = t('footer.nav.scriptures.title');
@@ -56,7 +56,7 @@ export default function Footer() {
   const philosophyTitle = t('footer.nav.philosophy.title');
   const practicesTitle = t('footer.nav.practices.title');
   const storiesTitle = t('footer.nav.stories.title');
-  const kidsZoneTitle = t('footer.nav.kidszone.title');
+  const kidszoneTitle = t('footer.nav.kidszone.title');
   const othersTitle = t('footer.nav.others.title');
 
   return (
@@ -143,10 +143,10 @@ export default function Footer() {
             </div>
 
             <div className="md:w-1/7 flex flex-col gap-2">
-              <p className="description underline">{kidsZoneTitle}</p>
-              {Object.entries(kidsZone).map(([key, val]) => {
+              <p className="description underline">{kidszoneTitle}</p>
+              {Object.entries(kidszone).map(([key, val]) => {
                 if (typeof val !== 'string') return null;
-                const href = key === 'home' ? '/' : `/kidsZone/${key}`;
+                const href = key === 'home' ? '/' : `/kidszone/${key}`;
                 return (
                   <Link key={key} href={href} className={isActive(href) ? 'active' : ''} role="menuitem">
                     {val}
