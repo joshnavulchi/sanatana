@@ -151,12 +151,12 @@ button,
 }
 .subtitle {
   margin-top: 0;
-  font-size: 1.2rem;
-  font-weight: 400;
+  font-size: 1.4rem;
+  font-weight: 600;
 }
 .description {
   margin-top: 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
@@ -174,7 +174,10 @@ button,
     font-size: 1.7rem;
   }
   .subtitle {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+  }
+  .descrition {
+    font-size: 1rem;
   }
   small, .small, .meta { font-size: 0.75rem; }
 }
