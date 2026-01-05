@@ -185,12 +185,15 @@ function buildSitemap(paths) {
   for (const p of paths) {
     if (EXCLUDES.has(p)) continue;
     xml += '  <url>\n';
-    const loc = `${hostname}${p === '/' ? '' : p}`;
+    let loc = `${hostname}${p === '/' ? '' : p}`;
+    // Ensure trailing slash for non-root paths to match exported site routing
+    if (p !== '/' && !loc.endsWith('/')) loc = `${loc}/`;
     xml += `    <loc>${loc}</loc>\n`;
     xml += `    <lastmod>${lastmod}</lastmod>\n`;
     for (const l of LOCALES) {
-      const href = l === 'en' ? `${hostname}${p === '/' ? '' : p}` : `${hostname}${p === '/' ? '' : p}?lang=${l}`;
-      xml += `    <xhtml:link rel="alternate" hreflang="${l}" href="${href}"/>\n`;
+      let href = l === 'en' ? `${hostname}${p === '/' ? '' : p}` : `${hostname}${p === '/' ? '' : p}?lang=${l}`;
+      if (p !== '/' && !href.endsWith('/')) href = `${href}/`;
+      xml += `    <xhtml:link rel="alternate" hreflang="${l}" href="${href}"/\n`;
     }
     xml += '  </url>\n';
   }
