@@ -31,33 +31,6 @@
     font-size: 1rem;
   }
   small, .small, .meta { font-size: 0.75rem; }
-  header {
-    .logo-title-nav-wrapper {
-      padding-right: var(--space-md);
-      padding-left: var(--space-md);
-    }
-    .logo-title {
-      line-height: 1.7;
-    }
-    button {
-      margin-left: var(--space-xs);
-    }
-  }
-  .content-wrapper {
-    padding-left: var(--space-lg);
-    padding-right: var(--space-lg);
-    &.sanatana-dharma,
-    &.article-wrapper {
-      padding-top: var(--space-xl);
-      padding-bottom: var(--space-2xl);
-    }
-    &.ourfour-coreyugas,
-    &.krishna-stotram,
-    &.gayathri-stotram {
-      padding-top: var(--space-2xl);
-      padding-bottom: var(--space-2xl);
-    }
-  }
   .about-shiva {
     padding-top: var(--space-2xl);
     padding-bottom: var(--space-2xl);
@@ -82,30 +55,6 @@
   }
   .image-krishna-wrapper {
     background-position: 200% 0, 0 0;
-  }
-  footer {
-    section {
-      padding-top: calc(var(--space-2xl) * 2);
-      padding-bottom: calc(var(--space-2xl) * 2);
-    }
-    p { font-size: 0.95rem }
-    a:not(.button) { font-size: 0.9rem; }
-    .social-icons { padding: 0; }
-    .copyrights small { padding: var(--space-lg) 0; }
-    .copyrights a { font-size: 0.75rem; }
-  }
-  .card {
-    article {
-      padding: var(--space-sm);
-    }
-    .card-details {
-      .title {
-        font-size: 1rem;
-      }
-      .description {
-        font-size: 0.9rem;
-      }
-    }
   }
   .sankshepa-slokas {
     p:first-child {
