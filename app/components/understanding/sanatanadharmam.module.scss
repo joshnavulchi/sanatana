@@ -1,7 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 .understanding {
   .sections {
-    padding-bottom: var(--space-2xl);
+    padding-bottom: var(--space-xl);
     &:last-child {
       padding-bottom: 0;
     }
@@ -10,8 +10,9 @@
 .borderbottom {
   position: relative;
   z-index: 1;
-  margin-bottom: var(--space-xl);
+  margin-bottom: var(--space-lg);
   display: inline-block;
+  overflow: hidden;
   &::after,
   &::before {
     content: '';
@@ -20,19 +21,22 @@
     top: 50%;
     transform: translateY(-50%);
     display: block;
-    width: 100px;
+    width: 120px;
     height: 5px;
     border-bottom: 1px solid var(--theme-border-color);
     border-bottom-style: double;
   }
   &:after {
-    right: -110px;
+    right: -130px;
   }
   &:before {
-    left: -110px;
+    left: -130px;
   }
 }
 @media (min-width: 1024px) {
+  .borderbottom {
+    overflow: visible;
+  }
 }
 @media (min-width: 1600px) {
 }

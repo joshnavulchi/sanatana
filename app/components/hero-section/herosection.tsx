@@ -13,14 +13,16 @@ export default function HeroSection() {
   const primaryCtaLink = parseList(t("home.hero.primarycta.link"));
   const secondaryCtaLabel = parseList(t("home.hero.secondarycta.label"));
   const secondaryCtaLink = parseList(t("home.hero.secondarycta.link"));
-  const tags = parseList(t("home.topics")); 
+  const tags = parseList(t("home.topics"));
 
   return (
     <div className={`${styles.herosection} w-full md:h-full`}>
       <div className="relative content-wrapper md:min-h-130 md:flex md:items-center md:justify-center overflow-hidden">
         <div className={`${styles.herocontent} w-full md:w-1/2 text-center`}>
-          <h1 className={`title site-title md:max-w-md`}>{heading}</h1>
-          <p className={`subtitle site-subtitle font-semibold md:max-w-md`}>{subheading}</p>
+          <h1 className={`title site-title md:max-w-md`}>
+            {heading} <br />
+            <span className={`subtitle site-subtitle font-semibold md:max-w-md`}>{subheading}</span>
+          </h1>
           <p className={`description md:max-w-md`}>{description}</p>
           <div className="flex flex-col md:flex-row gap-4 md:gap-8">
             <Link href={`/scriptures/${primaryCtaLink}`} className="button inline-block shadow-sm bg-amber-300 hover:bg-amber-400 no-underline">
@@ -33,7 +35,7 @@ export default function HeroSection() {
           <div className="text-left mt-10">
             <ul className="md:flex md:gap-2 m-0! p-0!">
               {tags && tags.map((tag: any, idx: number) => (
-                <li key={idx} className="text-sm!">
+                <li key={idx}>
                   <Link href={`/${tag}`} className="underline!">{tag}</Link>
                 </li>
               ))}
