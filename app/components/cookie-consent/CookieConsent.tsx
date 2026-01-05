@@ -167,23 +167,23 @@ export default function CookieConsent() {
           <div className="flex-1">
             {(() => {
               const loc = DEFAULT_LOCALE; // paragraph will be rendered via `t()` below which uses current locale from context
-              const paragraph = t('cookieConsent.paragraph') as string;
+              const paragraph = t('cookieconsent.paragraph') as string;
               // Replace placeholders with links
               return (
                 <small dangerouslySetInnerHTML={{
                   __html: paragraph
-                    .replace('{cookiePolicyLink}', `<a class="underline" href="/our-cookie-policy">${t('cookieConsent.cookiePolicy')}</a>`)
-                    .replace('{privacyPolicyLink}', `<a class="underline" href="/our-privacy-policy">${t('cookieConsent.privacyPolicy')}</a>`)
-                    .replace('{managerLabel}', t('cookieConsent.managerButton'))
-                    .replace('{acceptAllLabel}', t('cookieConsent.acceptAll'))
+                    .replace('{cookiePolicyLink}', `<a class="underline" href="/our-cookie-policy">${t('cookieconsent.cookiepolicy')}</a>`)
+                    .replace('{privacyPolicyLink}', `<a class="underline" href="/our-privacy-policy">${t('cookieconsent.privacypolicy')}</a>`)
+                    .replace('{managerLabel}', t('cookieconsent.managerbutton'))
+                    .replace('{acceptAllLabel}', t('cookieconsent.acceptall'))
                 }} />
               );
             })()}
           </div>
 
           <div className="flex text-right gap-2">
-            <button className="button inline-block shadow-sm bg-amber-400 hover:bg-amber-200 no-underline" onClick={() => setModalOpen(true)}>{t('cookieConsent.managerButton')}</button>
-            <button className="button inline-block shadow-sm bg-green-400 hover:bg-green-200 no-underline" onClick={acceptAll}>{t('cookieConsent.acceptAll')}</button>
+            <button className="button inline-block shadow-sm bg-amber-400 hover:bg-amber-200 no-underline" onClick={() => setModalOpen(true)}>{t('cookieconsent.managerbutton')}</button>
+            <button className="button inline-block shadow-sm bg-green-400 hover:bg-green-200 no-underline" onClick={acceptAll}>{t('cookieconsent.acceptall')}</button>
           </div>
         </div>
       </div>
