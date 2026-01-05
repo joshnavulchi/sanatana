@@ -3,13 +3,13 @@ import { t, detectLocale } from '../../lib/i18n';
 import { createGenerateMetadata } from 'lib/pageUtils';
 import { parseList } from 'lib/parseList';
 import PageLayout from '@components/common/PageLayout';
-import Link from 'next/link';
+// import Link from 'next/link';
 
 export const generateMetadata = createGenerateMetadata('sanatanadharma');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || undefined;
-  const data: any[] = parseList(t('sanatanadharma', locale));
+  const data: any[] = parseList(t('sanatanadharma.sections', locale));
   const title = String(t('sanatanadharma.title', locale) || 'Sanatana Dharma');
 
   return (
@@ -20,33 +20,33 @@ export default function Page({ searchParams }: any) {
       className="layout-md">
       <div className="flex flex-col gap-8">
         {(data || []).map((ch: any, i: number) => {
-          const chap = ch?.chapternumber ?? (i + 1);
+          const chap = ch?.chapter ?? (i + 1);
           const chapTitle = ch?.title || `Chapter ${chap}`;
-          const primary = ch?.primarykeyword || '';
-          const secondary: string[] = Array.isArray(ch?.secondarykeywords) ? ch.secondarykeywords : [];
-          const longtails: string[] = Array.isArray(ch?.longtailkeywords) ? ch.longtailkeywords : [];
+          const chapPara1 = ch?.para1 || `Paragraph 1`;
+          const chapPara2 = ch?.para2 || `Paragraph 2`;
+          const chapPara3 = ch?.para3 || `Paragraph 3`;
+          const primary = Array.isArray(ch?.keypoints) ? ch.keypoints : [];
           return (
             <article key={i} className="">
-              <p className="title">{`Chapter ${chap}: ${chapTitle}`}</p>
-              {primary ? <p className="font-medium">Primary: {primary}</p> : null}
-              {secondary.length ? (
-                <p className="mt-2">Secondary: {secondary.join(', ')}</p>
-              ) : null}
-              {longtails.length ? (
-                <div className="mt-2">
-                  <strong>Long-tail keywords:</strong>
-                  <ul className="list-disc ml-5 mt-1">
-                    {longtails.map((l, idx) => (
-                      <li key={idx}>{l}</li>
-                    ))}
-                  </ul>
-                </div>
-              ) : null}
-              <div className="mt-4">
+              <p className="subtitle font-semibold!">{`Chapter ${chap}: ${chapTitle}`}</p>
+              <p className="description indent-16">{chapPara1}</p>
+              <p className="description indent-16">{chapPara2}</p>
+              <p className="description indent-16">{chapPara3}</p>
+              <ul className="list-disc ml-5 mt-1">
+                {primary.map((point: any, idx: number) => (
+                  <li key={idx}>
+                    <p className="subtitle font-semibold!">{point.title}</p>
+                    <p className="description indent-16">{point.para1}</p>
+                    <p className="description indent-16">{point.para2}</p>
+                    <p className="description indent-16">{point.para3}</p>
+                  </li>
+                ))}
+              </ul>
+              {/* <div>
                 <Link href={`/sanatanadharma#chapter-${chap}`} className="button">
                   Read more
                 </Link>
-              </div>
+              </div> */}
             </article>
           );
         })}
