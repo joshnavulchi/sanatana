@@ -15,6 +15,7 @@
     "generate:sitemap": "node scripts/generate-sitemap.js",
     "export": "cross-env NEXT_STATIC_EXPORT=true npm run build",
     "postinstall": "npx next telemetry disable || true",
+    "check:canonicals": "node scripts/check-canonicals.js",
     "deploy": "gh-pages -d out",
     "start": "next start",
     "preview:static": "npx serve@latest out -l 3000",
