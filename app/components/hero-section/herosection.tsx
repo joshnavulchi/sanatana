@@ -13,7 +13,7 @@ export default function HeroSection() {
   const primaryCtaLink = parseList(t("home.hero.primarycta.link"));
   const secondaryCtaLabel = parseList(t("home.hero.secondarycta.label"));
   const secondaryCtaLink = parseList(t("home.hero.secondarycta.link"));
-  const tags = parseList(t("home.topics")); 
+  const tags = parseList(t("home.topics"));
 
   return (
     <div className={`${styles.herosection} w-full md:h-full`}>
@@ -35,7 +35,7 @@ export default function HeroSection() {
           <div className="text-left mt-10">
             <ul className="md:flex md:gap-2 m-0! p-0!">
               {tags && tags.map((tag: any, idx: number) => (
-                <li key={idx} className="text-sm!">
+                <li key={idx}>
                   <Link href={`/${tag}`} className="underline!">{tag}</Link>
                 </li>
               ))}

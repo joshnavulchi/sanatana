@@ -38,7 +38,7 @@ export default function Footer() {
   const contactLabel = t('footer.contact');
   const donateLabel = t('footer.donate');
   const disclaimer = t('footer.disclaimer');
-  const contentChange = t('footer.contentChange');
+  const contentChange = t('footer.contentchange');
   const privacy = t('footer.privacy');
   const terms = t('footer.terms');
   const copyright = t('footer.copyright');
