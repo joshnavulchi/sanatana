@@ -7,7 +7,7 @@ import styles from './ourfourcoreyugas.module.scss';
 
 export default function OurFourCoreYugas() {
   const t = useT();
-  const yugas = parseList(t("home.ourFourCoreYugas"));
+  const yugas = parseList(t("home.ourfourcoreyugas"));
 
   return (
     <section className={`${styles.ourFourCoreYugas}`}>
@@ -28,15 +28,14 @@ export default function OurFourCoreYugas() {
               <p className={styles.cardage}>{yuga.age}</p>
               {/* Duration */}
               <div className={styles.details}>
-                <p className="tracking-wide">
+                <p className="description tracking-wide">
                   <span className="uppercase font-semibold">Duration : </span><span>{yuga.duration} human years</span>
                 </p>
-                <p ></p>
               </div>
               {/* Description */}
               <ul className={`${styles.list} list-disk`}>
                 {yuga.description.map((point: any, index: number) => (
-                  <li key={index}>{point}.</li>
+                  <li key={index} className="description">{point}.</li>
                 ))}
               </ul>
             </div>

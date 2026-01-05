@@ -17,13 +17,9 @@ export default async function Home() {
       <main>
         <HeroSection />
         <UnderstandingOfSanatana />
-        {/* <MainSlider />
-        <KrishnaStotram />
-        <SanatanaDharma />
-        <ShivaStotram /> */}
         <GayathriStotram />
         <GitSupport />
-        {/* <OurFourCoreYugas /> */}
+        <OurFourCoreYugas />
         <AboutShiva />
       </main>
     </>

@@ -38,7 +38,8 @@ a {
     display: none;
   }
 }
-a:not(.button) {
+a:not(.button),
+a:note(.card) {
 	background:linear-gradient(to right,#363636 0%,#363636 100%);
 	background-repeat: no-repeat;
 	background-position: left 100%;
@@ -162,7 +163,7 @@ button,
 }
 .description {
   margin-top: 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 400;
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
