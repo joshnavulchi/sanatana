@@ -61,12 +61,34 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
         ogImages = [String((meta as any).ogImage)];
       }
     }
+    // Normalize canonical: prefer explicit `meta.canonical` or `meta.url`,
+    // but ensure non-root URLs end with a trailing slash to match exported routing.
+    const rawCanonical = meta.canonical || meta.url || secrets.NEXT_PUBLIC_SITE_URL || 'https://sanatanadharmam.in';
+    let canonical = String(rawCanonical || '').trim();
+    try {
+      // Only append trailing slash for non-root, non-file-like paths
+      const urlObj = new URL(canonical);
+      const isRoot = urlObj.pathname === '/' || urlObj.pathname === '';
+      const looksLikeFile = /\.[a-z0-9]{1,6}$/i.test(urlObj.pathname);
+      if (!isRoot && !looksLikeFile && !urlObj.pathname.endsWith('/')) {
+        urlObj.pathname = urlObj.pathname + '/';
+        canonical = urlObj.toString();
+      } else {
+        canonical = urlObj.toString();
+      }
+    } catch (e) {
+      // If URL construction fails, fallback to simple normalization
+      if (canonical && canonical !== 'https://sanatanadharmam.in' && !canonical.endsWith('/') && !/\.[a-z0-9]{1,6}$/i.test(canonical)) {
+        canonical = canonical + '/';
+      }
+    }
+
     return {
       title,
       description,
       keywords: meta.keywords || undefined,
       openGraph: { title: title || meta.title, description, images: ogImages },
-      alternates: { canonical: meta.canonical || meta.url || secrets.NEXT_PUBLIC_SITE_URL || 'https://sanatanadharmam.in' },
+      alternates: { canonical },
       robots: {
         index: true,
         follow: true,
