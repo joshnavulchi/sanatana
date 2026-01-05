@@ -193,7 +193,7 @@ function buildSitemap(paths) {
     for (const l of LOCALES) {
       let href = l === 'en' ? `${hostname}${p === '/' ? '' : p}` : `${hostname}${p === '/' ? '' : p}?lang=${l}`;
       if (p !== '/' && !href.endsWith('/')) href = `${href}/`;
-      xml += `    <xhtml:link rel="alternate" hreflang="${l}" href="${href}"/\n`;
+      xml += `    <xhtml:link rel="alternate" hreflang="${l}" href="${href}"/>\n`;
     }
     xml += '  </url>\n';
   }
