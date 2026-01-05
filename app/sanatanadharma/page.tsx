@@ -9,22 +9,25 @@ export const generateMetadata = createGenerateMetadata('sanatanadharma');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || undefined;
-  const data: any[] = parseList(t('sanatanadharmam', locale));
+  const data: any[] = parseList(t('sanatanadharma', locale));
   const title = String(t('sanatanadharma.title', locale) || 'Sanatana Dharma');
 
   return (
-    <PageLayout metaKey="sanatanadharma" title={title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: title }]} className="layout-md">
-      <div className="grid grid-cols-1 gap-8">
+    <PageLayout
+      metaKey="sanatanadharma"
+      title={title}
+      breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: title }]}
+      className="layout-md">
+      <div className="flex flex-col gap-8">
         {(data || []).map((ch: any, i: number) => {
           const chap = ch?.chapternumber ?? (i + 1);
           const chapTitle = ch?.title || `Chapter ${chap}`;
           const primary = ch?.primarykeyword || '';
           const secondary: string[] = Array.isArray(ch?.secondarykeywords) ? ch.secondarykeywords : [];
           const longtails: string[] = Array.isArray(ch?.longtailkeywords) ? ch.longtailkeywords : [];
-
           return (
-            <article key={i} className="card p-4">
-              <h2 className="subtitle">{`Chapter ${chap}: ${chapTitle}`}</h2>
+            <article key={i} className="">
+              <p className="title">{`Chapter ${chap}: ${chapTitle}`}</p>
               {primary ? <p className="font-medium">Primary: {primary}</p> : null}
               {secondary.length ? (
                 <p className="mt-2">Secondary: {secondary.join(', ')}</p>

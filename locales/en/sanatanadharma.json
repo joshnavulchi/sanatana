@@ -1,148 +1,459 @@
 {
-  "sanatanadharmam": [
-    {
-      "chapternumber": 1,
-      "title": "Understanding Sanatana Dharma",
-      "primarykeyword": "Sanatana Dharma meaning",
-      "secondarykeywords": [
-        "what is Sanatana Dharma",
-        "eternal dharma philosophy",
-        "Sanatana Dharma way of life",
-        "Sanatana Dharma explanation"
-      ],
-      "longtailkeywords": [
-        "Sanatana Dharma explained in simple English",
-        "Sanatana Dharma as a way of life",
-        "difference between religion and Sanatana Dharma",
-        "why Sanatana Dharma is eternal"
-      ],
-      "searchintent": "Informational"
+  "sanatanadharma": {
+    "title": "Understanding Sanatana Dharma - The Eternal Way of Life",
+    "meta": {
+      "title": "Understanding Sanatana Dharma - The Eternal Way of Life",
+      "description": "Sanātana Dharma — Explore Sanātana Dharma: the eternal principles of Hinduism, Vedic traditions, spiritual practices, and wisdom from scriptures like the...",
+      "keywords": "Explore Bhagavad Gita, Learn Sanātana Dharma, Sanātana Dharma, Vedic philosophy, Dharma and spirituality, Hindu scriptures, Bhagavad Gita teachings, Upanishads, Vedas and Puranas, Hindu rituals and traditions, Yoga and meditation, Hindu festivals, Spiritual wisdom, Hindu culture and heritage, Indian philosophy, Hindu gods and goddesses, Karma and rebirth, What is Sanatana Dharma, Principles of Sanatana Dharma, Importance of Vedas in Hinduism, Hindu spiritual practices for daily life, Meaning of Dharma in Hinduism, Sanatana Dharma vs modern life, How to follow Sanatana Dharma?, Sanatana Dharma in India,  Dharma, Mantra, Stotra, Stotras, Scripture, Scriptures, Commentary, Devotion, Practices, Ritual, Worship, Temple",
+      "ogimage": "images/og/home.png",
+      "url": "https://sanatanadharmam.in",
+      "canonical": "https://sanatanadharmam.in"
     },
-    {
-      "chapternumber": 2,
-      "title": "Timeless Origins and Vedic Foundations",
-      "primarykeyword": "origins of Sanatana Dharma",
-      "secondarykeywords": [
-        "Vedic foundations of Hinduism",
-        "ancient Vedic civilization",
-        "history of Sanatana Dharma",
-        "Vedas and Sanatana Dharma"
-      ],
-      "longtailkeywords": [
-        "when did Sanatana Dharma begin",
-        "role of Vedas in Sanatana Dharma",
-        "ancient sages and Vedic knowledge",
-        "cyclical time concept in Hindu philosophy"
-      ],
-      "searchintent": "Informational / Educational"
-    },
-    {
-      "chapternumber": 3,
-      "title": "Core Philosophical Principles",
-      "primarykeyword": "Dharma Karma Moksha",
-      "secondarykeywords": [
-        "karma and rebirth",
-        "samsara cycle",
-        "moksha meaning",
-        "atman and brahman concept"
-      ],
-      "longtailkeywords": [
-        "what is karma according to Sanatana Dharma",
-        "meaning of moksha in Hindu philosophy",
-        "difference between atman and brahman",
-        "samsara and liberation explained"
-      ],
-      "searchintent": "Deep Informational"
-    },
-    {
-      "chapternumber": 4,
-      "title": "Sacred Texts and Living Wisdom",
-      "primarykeyword": "Hindu sacred texts",
-      "secondarykeywords": [
-        "Vedas and Upanishads",
-        "Bhagavad Gita teachings",
-        "Ramayana and Mahabharata philosophy",
-        "Puranas meaning"
-      ],
-      "longtailkeywords": [
-        "importance of Bhagavad Gita in daily life",
-        "difference between Vedas and Upanishads",
-        "moral lessons from Ramayana and Mahabharata",
-        "why Hindu scriptures are timeless"
-      ],
-      "searchintent": "Informational / Research"
-    },
-    {
-      "chapternumber": 5,
-      "title": "Paths of Yoga and Spiritual Practice",
-      "primarykeyword": "types of yoga in Sanatana Dharma",
-      "secondarykeywords": [
-        "karma yoga",
-        "bhakti yoga",
-        "jnana yoga",
-        "raja yoga"
-      ],
-      "longtailkeywords": [
-        "difference between bhakti yoga and jnana yoga",
-        "what is karma yoga in Bhagavad Gita",
-        "four paths of yoga explained",
-        "best yoga path for spiritual growth"
-      ],
-      "searchintent": "Informational / Practical"
-    },
-    {
-      "chapternumber": 6,
-      "title": "Divinity, Symbolism, and Worship",
-      "primarykeyword": "Hindu concept of God",
-      "secondarykeywords": [
-        "Trimurti Brahma Vishnu Shiva",
-        "Shakti concept",
-        "Hindu deities symbolism",
-        "idol worship meaning"
-      ],
-      "longtailkeywords": [
-        "why Hindus worship many gods",
-        "symbolism of Hindu gods and goddesses",
-        "is Hinduism monotheistic or polytheistic",
-        "meaning of puja in Sanatana Dharma"
-      ],
-      "searchintent": "Clarification / Educational"
-    },
-    {
-      "chapternumber": 7,
-      "title": "Ethics, Society, and Life Stages",
-      "primarykeyword": "Sanatana Dharma ethics",
-      "secondarykeywords": [
-        "ashrama system",
-        "varna system explanation",
-        "ahimsa meaning",
-        "dharma in daily life"
-      ],
-      "longtailkeywords": [
-        "four stages of life in Hinduism",
-        "true meaning of varna system",
-        "importance of ahimsa in Sanatana Dharma",
-        "how dharma guides human life"
-      ],
-      "searchintent": "Educational / Social"
-    },
-    {
-      "chapternumber": 8,
-      "title": "Cosmic Vision and Modern Relevance",
-      "primarykeyword": "relevance of Sanatana Dharma today",
-      "secondarykeywords": [
-        "Hindu cosmology",
-        "science and spirituality",
-        "yoga and ayurveda",
-        "Sanatana Dharma in modern life"
-      ],
-      "longtailkeywords": [
-        "how Sanatana Dharma helps modern society",
-        "Sanatana Dharma and environmental harmony",
-        "scientific aspects of Hindu philosophy",
-        "why Sanatana Dharma is relevant today"
-      ],
-      "searchintent": "Informational / Contemporary"
-    }
-  ]
+    "sections": [
+      {
+        "chapter": 1,
+        "title": "Understanding Sanatana Dharma - The Eternal Way of Life",
+        "para1": "Sanātana Dharma, often translated as “The Eternal Way,” is the foundational philosophy and way of life that underpins what is commonly known as Hinduism. The term combines two Sanskrit words: Sanātana, meaning eternal or timeless, and Dharma, meaning duty, righteousness, and the natural order that sustains life. Unlike a religion defined by rigid dogmas or a single founder, Sanātana Dharma is a universal framework of principles that guide ethical living, spiritual growth, and harmony with the cosmos.",
+        "para2": "It teaches that life is a continuous journey toward self-realization and unity with the ultimate reality, Brahman. Its essence lies in values such as truth (Satya), non-violence (Ahimsa), compassion, and respect for all beings. Sanātana Dharma embraces diversity, offering multiple paths—knowledge (Jnana), devotion (Bhakti), and selfless action (Karma)—to attain liberation (Moksha).",
+        "para3": "Rather than imposing belief, it encourages inquiry, reflection, and personal experience. Its adaptability and inclusiveness have allowed it to remain relevant across ages, making it not just an ancient tradition but a living, evolving philosophy. Sanātana Dharma is, therefore, a timeless guide for inner peace, ethical conduct, and universal well-being.",
+        "keypoints": [
+          {
+            "title": "What is Sanatana Dharma?",
+            "para1": "Sanātana Dharma, meaning “Eternal Dharma,” is the timeless spiritual foundation of life and existence. The term combines Sanātana (eternal, without beginning or end) and Dharma (righteousness, duty, and the natural order). Unlike a religion bound by rigid dogmas or a single founder, Sanātana Dharma is a universal way of life that emphasizes living in harmony with truth, nature, and cosmic principles.",
+            "para2": "Its essence lies in guiding individuals toward self-realization and unity with the ultimate reality, Brahman. It teaches values such as truth (Satya), non-violence (Ahimsa), compassion, and respect for all beings. Rather than imposing belief, it encourages inquiry, reflection, and personal experience as paths to understanding. Multiple spiritual paths—knowledge (Jnana), devotion (Bhakti), and selfless action (Karma)—allow seekers to progress according to their nature.",
+            "para3": "Sanātana Dharma is dynamic and inclusive, adapting to changing times while preserving eternal truths. It is not merely about rituals; it is about living ethically, seeking higher consciousness, and contributing to universal well-being. This eternal way continues to inspire humanity, making it relevant across all ages."
+          },
+          {
+            "title": "Eternal dharma philosophy?",
+            "para1": "The philosophy of Eternal Dharma, or Sanātana Dharma, represents a universal and timeless framework for living in harmony with truth and the natural order. It is not confined to a single era, culture, or dogma; rather, it embodies principles that sustain life and guide spiritual evolution. At its core, Eternal Dharma teaches that existence is governed by an unchanging moral and cosmic law, which individuals must align with to achieve balance and fulfillment.",
+            "para2": "This philosophy emphasizes values such as truth (Satya), non-violence (Ahimsa), compassion, and righteousness (Dharma), encouraging ethical living and inner growth. It recognizes diversity in spiritual paths—knowledge (Jnana), devotion (Bhakti), and selfless action (Karma)—allowing seekers to progress according to their nature. Eternal Dharma also introduces profound concepts like Karma (cause and effect) and Moksha (liberation), guiding humanity toward ultimate freedom from suffering.",
+            "para3": "Unlike rigid systems, it promotes inquiry, reflection, and experiential understanding, making it adaptable and relevant in every age. Eternal Dharma is not merely a philosophy—it is a living tradition that inspires individuals to live purposefully, respect all life, and seek unity with the divine reality."
+          },
+          {
+            "title": "Sanatana Dharma way of life?",
+            "para1": "Sanātana Dharma is more than a religion; it is a holistic way of life that harmonizes spiritual, ethical, and practical living. The term means “Eternal Dharma,” signifying principles that are timeless and universal. Rather than imposing rigid dogmas, it offers a flexible, inclusive framework that adapts to individual nature and societal needs while remaining rooted in eternal truths.",
+            "para2": "This way of life emphasizes living in alignment with Dharma—righteousness, truth, and compassion. It encourages self-discipline, respect for all beings, and harmony with nature. Practices such as meditation, yoga, and rituals are not mere formalities; they are tools for inner growth and balance. Sanātana Dharma also promotes inquiry and reflection, allowing seekers to choose paths like knowledge (Jnana), devotion (Bhakti), or selfless action (Karma) to attain liberation (Moksha).",
+            "para3": "Its adaptability makes it relevant in every age, guiding individuals to lead purposeful lives, uphold ethical values, and contribute to universal well-being. Sanātana Dharma is, therefore, a living tradition—an eternal guide for peace, harmony, and spiritual fulfillment."
+          },
+          {
+            "title": "Sanatana Dharma explanation?",
+            "para1": "Sanātana Dharma, meaning “Eternal Dharma,” is the timeless spiritual foundation of life and existence. It is not merely a religion but a universal way of living that aligns with truth, righteousness, and the natural order. The term combines Sanātana (eternal, without beginning or end) and Dharma (duty, virtue, and cosmic law). Unlike systems bound by rigid dogmas or a single founder, Sanātana Dharma is inclusive, adaptable, and rooted in eternal principles that guide humanity toward harmony and self-realization.",
+            "para2": "Its philosophy emphasizes values such as truth (Satya), non-violence (Ahimsa), compassion, and respect for all beings. It offers multiple spiritual paths—knowledge (Jnana), devotion (Bhakti), and selfless action (Karma)—allowing individuals to progress according to their nature. Sanātana Dharma also introduces profound concepts like Karma (cause and effect) and Moksha (liberation), aiming for ultimate freedom from suffering.",
+            "para3": "Rather than imposing belief, it encourages inquiry, reflection, and experiential understanding. This eternal way of life remains relevant across ages, inspiring ethical living, inner peace, and universal well-being. Sanātana Dharma is, therefore, a living tradition—a guide for those seeking truth and harmony in an ever-changing world."
+          },
+          {
+            "title": "Difference between religion and Sanatana Dharma?",
+            "para1": "Religion is generally understood as a structured system of beliefs, rituals, and practices centered around a specific faith, prophet, or scripture. It often has fixed doctrines, institutional frameworks, and boundaries that define who belongs and who does not. Religions typically emphasize adherence to prescribed rules and collective identity.",
+            "para2": "Sanātana Dharma, on the other hand, is not a religion in this conventional sense. It is an eternal way of life—a universal philosophy that transcends cultural and geographical limits. The term means “Eternal Dharma,” signifying timeless principles that govern existence. Unlike religions that rely on rigid dogmas, Sanātana Dharma encourages inquiry, reflection, and experiential understanding. It offers multiple spiritual paths—knowledge (Jnana), devotion (Bhakti), and selfless action (Karma)—allowing individuals to choose what suits their nature.",
+            "para3": "Sanātana Dharma does not impose conversion or exclusivity; it embraces diversity and adaptability while preserving eternal truths. Its focus is on living ethically, seeking self-realization, and harmonizing with cosmic order. In essence, while religion is often institutional and restrictive, Sanātana Dharma is inclusive, dynamic, and universal—a living tradition guiding humanity toward truth and liberation."
+          },
+          {
+            "title": "Why Sanatana Dharma is eternal?",
+            "para1": "Sanātana Dharma is called “eternal” because it is not bound by time, geography, or human invention. Unlike religions that originate from a specific founder or historical event, Sanātana Dharma is based on universal truths that govern existence itself. The word Sanātana means eternal—without beginning or end—and Dharma refers to the natural order, righteousness, and principles that sustain life. These truths are not created; they are discovered and realized by sages through deep spiritual insight.",
+            "para2": "Its teachings—such as truth (Satya), non-violence (Ahimsa), compassion, and harmony with nature—are timeless values relevant in every age. Sanātana Dharma adapts to changing contexts while preserving its essence, making it dynamic yet rooted in eternal principles. It does not depend on rigid dogma; instead, it encourages inquiry, reflection, and experiential understanding. This flexibility ensures its continuity across millennia.",
+            "para3": "Ultimately, Sanātana Dharma is eternal because it reflects the cosmic law that governs all existence. It is not a man-made system but a living tradition aligned with universal reality, guiding humanity toward peace, balance, and liberation in every era."
+          }
+        ]
+      },
+      {
+        "chapter": 2,
+        "title": "Timeless Origins and Vedic Foundations",
+        "para1": "Sanātana Dharma traces its origins to the dawn of human civilization, embodying principles that are eternal and universal. Its roots lie in the Vedic tradition, a vast body of knowledge revealed to ancient sages through deep meditation and spiritual insight. The Vedas—Rig, Sama, Yajur, and Atharva—are considered the earliest scriptures, offering hymns, rituals, and profound wisdom about cosmic order, ethics, and the nature of existence. These texts are not mere historical records; they are living guides that continue to inspire seekers across millennia.",
+        "para2": "The Vedas, the oldest spiritual texts of Sanātana Dharma, continue to shape modern life through their timeless wisdom and universal principles. Though composed thousands of years ago, their teachings on harmony, ethics, and self-realization remain deeply relevant today. Concepts like Dharma (righteous living), Satya (truth), and Ahimsa (non-violence) guide personal and social conduct, promoting peace and compassion in a fast-paced world.",
+        "para3": "The Vedas emphasize inner growth through meditation, self-discipline, and mindfulness—practices now widely adopted for mental health and stress management. Their holistic approach to life, including respect for nature and sustainable living, aligns with modern environmental concerns. Scientific insights found in Vedic thought, such as interconnectedness and cosmic order, resonate with contemporary discussions in physics and ecology. Ultimately, the Vedas inspire individuals to live purposefully, balance material pursuits with spiritual values, and seek harmony within themselves and the universe—making their influence eternal and practical.",
+        "keypoints": [
+          {
+            "title": "Vedic foundations of Hinduism?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Ancient Vedic civilization?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "History of Sanatana Dharma?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Vedas and Sanatana Dharma?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "When did Sanatana Dharma begin?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Role of Vedas in Sanatana Dharma?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Ancient sages and Vedic knowledge?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Cyclical time concept in Hindu philosophy?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          }
+        ]
+      },
+      {
+        "chapter": 3,
+        "title": "Core Philosophical Principles",
+        "para1": "",
+        "para2": "",
+        "para3": "",
+        "keypoints": [
+          {
+            "title": "Karma and Rebirth?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Samsara Cycle?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Moksha meaning?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Atman and Brahman concept?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "What is karma according to Sanatana Dharma?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Meaning of moksha in Hindu philosophy?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Difference between Atman and Brahman?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Samsara and Liberation explained?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          }
+        ]
+      },
+      {
+        "chapter": 4,
+        "title": "Sacred Texts and Living Wisdom",
+        "para1": "",
+        "para2": "",
+        "para3": "",
+        "keypoints": [
+          {
+            "title": "Vedas and Upanishads?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Bhagavad Gita teachings?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Ramayana and Mahabharata philosophy?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Puranas meaning?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Importance of Bhagavad Gita in daily life?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Difference between Vedas and Upanishads?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Moral lessons from Ramayana and Mahabharata?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Why Hindu scriptures are timeless?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          }
+        ]
+      },
+      {
+        "chapter": 5,
+        "title": "Paths of Yoga and Spiritual Practice",
+        "para1": "",
+        "para2": "",
+        "para3": "",
+        "keypoints": [
+          {
+            "title": "Karma Yoga?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Bhakti Yoga?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Jnana Yoga?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Raja Yoga?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Difference between Bhakti Yoga and Jnana Yoga?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "What is karma yoga in Bhagavad Gita?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Four paths of Yoga explained?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Best yoga path for spiritual growth?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          }
+        ]
+      },
+      {
+        "chapter": 6,
+        "title": "Divinity, Symbolism, and Worship",
+        "para1": "",
+        "para2": "",
+        "para3": "",
+        "keypoints": [
+          {
+            "title": "Trimurti Brahma Vishnu Shiva?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Shakti concept?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Hindu deities symbolism?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Idol worship meaning?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Why Hindus worship many gods?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Symbolism of Hindu gods and goddesses?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Is Hinduism monotheistic or Polytheistic?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Meaning of puja in Sanatana Dharma?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          }
+        ]
+      },
+      {
+        "chapter": 7,
+        "title": "Ethics, Society, and Life Stages",
+        "para1": "",
+        "para2": "",
+        "para3": "",
+        "keypoints": [
+          {
+            "title": "Ashrama System?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Varna System explanation?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Ahimsa meaning?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Dharma in daily life?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Four stages of life in Hinduism?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "True meaning of varna system?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Importance of ahimsa in Sanatana Dharma?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "How dharma guides human life?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          }
+        ]
+      },
+      {
+        "chapter": 8,
+        "title": "Cosmic Vision and Modern Relevance",
+        "para1": "",
+        "para2": "",
+        "para3": "",
+        "keypoints": [
+          {
+            "title": "Hindu cosmology?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Science and Spirituality?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Yoga and Ayurveda?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Sanatana Dharma in modern life?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "How Sanatana Dharma helps modern society?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Sanatana Dharma and environmental harmony?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "Scientific aspects of Hindu philosophy?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          },
+          {
+            "title": "why Sanatana Dharma is relevant today?",
+            "para1": "",
+            "para2": "",
+            "para3": ""
+          }
+        ]
+      }
+    ]
+  }
 }
