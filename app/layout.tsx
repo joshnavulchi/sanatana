@@ -58,20 +58,12 @@ export default async function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
         {/* Prevent browser automatic translation UI (Chrome/Google Translate) */}
         <meta name="google" content="notranslate" />
-        {/* <link rel="preload" as="image" href="/images/slider/lord-ganesh.png" />
-        <link rel="preload" as="image" href="/images/slider/lord-shiva.png" />
-        <link rel="preload" as="image" href="/images/slider/lord-shiva-paravathi.png" />
-        <link rel="preload" as="image" href="/images/slider/lord-subramanyaswamy.png" />
-        <link rel="preload" as="image" href="/images/slider/lord-rama-sita.png" />
-        <link rel="preload" as="image" href="/images/slider/lord-krishna-rada.png" />
-        <link rel="preload" as="image" href="/images/slider/lord-saraswathi.png" />
-        <link rel="preload" as="image" href="/images/slider/lord-hanuman.png" />
-        <link rel="preload" as="image" href="/images/lord-shiva.png" />
-        <link rel="preload" as="image" href="/images/lord-krishna.png" /> */}
-        {/* Page-specific override: cache for 5 minutes */}
-        <meta httpEquiv="Cache-Control" content="max-age=300, must-revalidate" />
-        <meta httpEquiv="Pragma" content="no-cache" />
-        <meta httpEquiv="Expires" content="300" />
+        <link rel="preload" as="image" href="/images/home/mobile-hero.jpeg" />
+        <link rel="preload" as="image" href="/images/home/hero.jpeg" />
+        {/* Page-specific override: cache for 30 days */}
+        <meta httpEquiv="Cache-Control" content="max-age=2592000, must-revalidate" />
+        <meta httpEquiv="Pragma" content="cache" />
+        <meta httpEquiv="Expires" content="2592000" />
         <link rel="stylesheet" href="/globals.from-scss.css" />
         {/* JSON-LD structured data for Website/Organization */}
         <meta name="google-site-verification" content="kxWcUTvXW7Ag5H1jtSxNuYUoKcWm-sq0on2s-h5ILF8" />
