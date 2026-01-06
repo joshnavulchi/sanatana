@@ -11,6 +11,12 @@
       margin: var(--space-md) 0;
     }
   }
+  .title {
+    font-size: 2rem;
+  }
+  .description{
+    font-size: 1.4rem;
+  }
   .disclaimer { padding: var(--space-md); }
   .socialIcons { padding: var(--space-md); display: flex; align-items: center; justify-content: flex-end; gap: 1rem; }
   .copyrights { padding-right: var(--space-md); padding-bottom: var(--space-md); padding-left: var(--space-md); }
@@ -20,6 +26,12 @@
 }
 @media (min-width: 1024px) {
   .footer {
+    .title {
+      font-size: 1.9rem;
+    }
+    .description{
+      font-size: 1.2rem;
+    }
     .navWrapper,
     .disclaimer,
     .copyrights {
