@@ -20,6 +20,12 @@
   .herocontent {
     position: relative;
     z-index: 2;
+    .title {
+      font-size: 2rem;
+    }
+    .description{
+      font-size: 1.4rem;
+    }
   }
 }
 @media (min-width: 1024px) {
@@ -30,6 +36,14 @@
       width: 50%;
       background: linear-gradient(to right, rgba(255,255,255,.8) 65%, rgba(0,0,0,0) 100%);
       z-index: 1;
+    }
+    .herocontent {
+      .title {
+        font-size: 1.9rem;
+      }
+      .description{
+        font-size: 1.2rem;
+      }
     }
   }
 }

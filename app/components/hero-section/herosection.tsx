@@ -19,11 +19,11 @@ export default function HeroSection() {
     <div className={`${styles.herosection} w-full md:h-full`}>
       <div className="relative content-wrapper md:min-h-130 md:flex md:items-center md:justify-center overflow-hidden">
         <div className={`${styles.herocontent} w-full md:w-1/2 text-center`}>
-          <h1 className={`title site-title md:max-w-md`}>
+          <h1 className={`${styles.title} title site-title md:max-w-md`}>
             {heading} <br />
             <span className={`subtitle site-subtitle font-semibold md:max-w-md`}>{subheading}</span>
           </h1>
-          <p className={`description md:max-w-md`}>{description}</p>
+          <p className={`${styles.description} description md:max-w-md`}>{description}</p>
           <div className="flex flex-col md:flex-row gap-4 md:gap-8">
             <Link href={`/scriptures/${primaryCtaLink}`} className="button inline-block shadow-sm bg-amber-300 hover:bg-amber-400 no-underline">
               {primaryCtaLabel}
