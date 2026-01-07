@@ -15,8 +15,8 @@ export default function UnderstandingOfSanatana() {
         const Tag = `h${level}` as keyof JSX.IntrinsicElements
         return (<div key={section.id} className={`${styles.sections} text-center`}>
           <Tag className={`${styles.borderbottom} title`}>{section.title}</Tag>
-          <p className={`description text-left indent-16`}>{section.content}</p>
-          <p className={`description text-left indent-16`}>{section.description}</p>
+          <p className={`description text-left md:indent-16`}>{section.content}</p>
+          <p className={`description text-left md:indent-16`}>{section.description}</p>
           <div className={`cards flex gap-10 md:gap-6`}>
             {section?.items && section?.items.map((topic: any, index: number) => (
               <Link key={index} href={topic.href} title={topic.title} className="card w-full md:w-1/4 lg:w-1/4 rounded-2xl shadow-sm hover:shadow-md transition">

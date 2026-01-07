@@ -6,6 +6,7 @@ import { ThemeProvider } from './context/theme-context';
 import { headers } from 'next/headers';
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '../lib/i18n';
 import { secrets } from '../lib/secrets';
+import { buildOrganizationJsonLd, buildWebSiteJsonLd, renderJsonLdScript } from '../lib/jsonld';
 import Script from 'next/script';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
@@ -26,6 +27,13 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  const orgJson = buildOrganizationJsonLd({
+    logo: `${(secrets.NEXT_PUBLIC_SITE_URL || 'https://sanatanadharmam.in').replace(/\/$/, '')}/assets/logo.png`,
+    description: 'Explore Sanātana Dharma: eternal principles of Hinduism, Vedic traditions, and spiritual practices.'
+  });
+  const siteJson = buildWebSiteJsonLd();
+
   // Resolve a server-side locale from cookie or Accept-Language header
   async function resolveServerLocale(): Promise<string> {
     const supported = SUPPORTED_LOCALES;
@@ -67,16 +75,24 @@ export default async function RootLayout({
         <link rel="stylesheet" href="/globals.from-scss.css" />
         {/* JSON-LD structured data for Website/Organization */}
         <meta name="google-site-verification" content="kxWcUTvXW7Ag5H1jtSxNuYUoKcWm-sq0on2s-h5ILF8" />
+        {/* Organization & WebSite JSON-LD */}
+        <Script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={renderJsonLdScript(siteJson)}
+        />
+        <Script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={renderJsonLdScript(orgJson)}
+        />
         <Script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              name: "Sanatana Dharma",
+              name: "Sanātana Dharma",
               url: SITE_URL,
-              description:
-                "Sanatana Dharma — Explore the Vedas, Puranas, Shastras, and timeless teachings of Indian philosophy, spirituality, and culture.",
+              description: "Sanātana Dharma — Explore the Vedas, Puranas, Shastras, and timeless teachings of Indian philosophy, spirituality, and culture.",
               potentialAction: {
                 "@type": "SearchAction",
                 target: `${SITE_URL}/?q={search_term_string}`,
@@ -86,22 +102,22 @@ export default async function RootLayout({
           }}
         />
         {/* Clarity tracking code for https://sanatanadharmam.in/ */}
-        <Script
+        {/* <Script
           id="bing-script"
           strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `(function(c,l,a,r,i,t,y){ c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)}; t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt"; y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y); })(window, document, "clarity", "script", "uu55kbw70q");`
           }}
-        />
+        /> */}
         <Script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "Sanatana Dharma",
+              name: "Sanātana Dharma",
               url: SITE_URL,
-              logo: `${SITE_URL}/images/svg/globe.svg`,
+              logo: `${SITE_URL}/globe.svg`,
               sameAs: []
             })
           }}

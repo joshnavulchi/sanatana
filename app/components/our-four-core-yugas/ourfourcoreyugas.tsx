@@ -32,11 +32,11 @@ export default function OurFourCoreYugas() {
                 </p>
               </div>
               {/* Description */}
-              <ul className={`${styles.list} list-disk`}>
+              {/* <ul className={`${styles.list} list-disk`}>
                 {yuga.description.map((point: any, index: number) => (
                   <li key={index} className="description">{point}.</li>
                 ))}
-              </ul>
+              </ul> */}
             </div>
           ))}
         </div>

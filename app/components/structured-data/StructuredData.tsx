@@ -31,8 +31,8 @@ export default async function StructuredData({ metaKey, params, locale }: Props)
       headline: meta.title || undefined,
       description: meta.description || undefined,
       image: img ? [img] : undefined,
-      author: { '@type': 'Person', name: (meta.author || 'Sanatana Dharma') },
-      publisher: { '@type': 'Organization', name: 'Sanatana Dharma', logo: { '@type': 'ImageObject', url: `${SITE_URL}/images/svg/globe.svg` } },
+      author: { '@type': 'Person', name: (meta.author || 'Sanātana Dharma') },
+      publisher: { '@type': 'Organization', name: 'Sanātana Dharma', logo: { '@type': 'ImageObject', url: `${SITE_URL}/images/svg/globe.svg` } },
       datePublished: meta.datePublished || undefined,
     };
     Object.keys(article).forEach((k) => article && article[k] === undefined && delete article[k]);
