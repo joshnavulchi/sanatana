@@ -90,9 +90,9 @@ export default async function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              name: "Sanatana Dharma",
+              name: "Sanātana Dharma",
               url: SITE_URL,
-              description: "Sanatana Dharma — Explore the Vedas, Puranas, Shastras, and timeless teachings of Indian philosophy, spirituality, and culture.",
+              description: "Sanātana Dharma — Explore the Vedas, Puranas, Shastras, and timeless teachings of Indian philosophy, spirituality, and culture.",
               potentialAction: {
                 "@type": "SearchAction",
                 target: `${SITE_URL}/?q={search_term_string}`,
@@ -115,7 +115,7 @@ export default async function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "Sanatana Dharma",
+              name: "Sanātana Dharma",
               url: SITE_URL,
               logo: `${SITE_URL}/globe.svg`,
               sameAs: []

@@ -26,7 +26,7 @@ export default function Header() {
   const searchParams = useSearchParams();
   // Start with English translations so header renders immediately
   const [translations, setTranslations] = useState<any>({
-    siteTitle: (enSiteTitle && (enSiteTitle.sitetitle || enSiteTitle)) || 'Sanatana Dharma',
+    siteTitle: (enSiteTitle && (enSiteTitle.sitetitle || enSiteTitle)) || 'Sanātana Dharma',
     nav: (enNav && (enNav.nav || enNav)) || {},
     banner: (((enBanner as any)?.banner_notifications ?? (enBanner as any)?.banner ?? enBanner) as any) || null,
     banner2: (((enBanner2 as any)?.banner_notifications2 ?? (enBanner2 as any)?.banner ?? enBanner2) as any) || null,
@@ -85,7 +85,7 @@ export default function Header() {
         await loadLocale(locale);
         if (!mounted) return;
         const locObj = (getLocaleObject(locale) as any) || {};
-        const siteTitle = (locObj?.siteTitle && (locObj.siteTitle?.siteTitle || locObj.siteTitle)) || 'Sanatana Dharma';
+        const siteTitle = (locObj?.siteTitle && (locObj.siteTitle?.siteTitle || locObj.siteTitle)) || 'Sanātana Dharma';
         const nav = (locObj?.nav as any) || {};
         // Support multiple key styles in locale files: snake_case (banner_notifications)
         // and camelCase (bannerNotifications). Prefer explicit banner keys when present.

@@ -10,7 +10,7 @@ export const generateMetadata = createGenerateMetadata('sanatanadharma');
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || undefined;
   const data: any[] = parseList(t('sanatanadharma.sections', locale));
-  const title = String(t('sanatanadharma.title', locale) || 'Sanatana Dharma');
+  const title = String(t('sanatanadharma.title', locale) || 'Sanātana Dharma');
 
   return (
     <PageLayout

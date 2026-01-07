@@ -17,7 +17,7 @@ jest.mock('../lib/i18n', () => ({
       'nav.shastras': 'Shastras',
       'nav.contact': 'Contact',
       'nav.donate': 'Donate',
-      'siteTitle': 'Sanatana Dharma'
+      'siteTitle': 'Sanātana Dharma'
     };
     return map[key] ?? key;
   },

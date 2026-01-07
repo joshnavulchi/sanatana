@@ -34,10 +34,10 @@ export default async function PageArticleJsonLd({ metaKey, params, locale, autho
     headline,
     description,
     image: img ? [img] : undefined,
-    author: authorObj || { name: 'Sanatana Dharma' },
+    author: authorObj || { name: 'Sanātana Dharma' },
     publisher: {
       '@type': 'Organization',
-      name: 'Sanatana Dharma',
+      name: 'Sanātana Dharma',
       logo: {
         '@type': 'ImageObject',
         url: `${SITE_URL}/images/svg/globe.svg`
