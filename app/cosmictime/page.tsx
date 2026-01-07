@@ -79,14 +79,20 @@ export default function Page({ searchParams }: any) {
                 return (<li key={key}>
                   <strong>{formatKey(key)}: </strong>
                   {str ? str : null}
-                  {arr.length > 0 && arr.map((item, index) => {
+                  {arr.length > 0 && arr.map(item => {
                     if (typeof item === 'string') {
-                      return item + ', ';
+                      return <div>{item + ', '}</div>;
                     }
-                    if (typeof item !== null && Array.isArray(item)) {
-                      return item.map((item: any) => <span key={item.order}>{item.name}</span>)
+                    if (item !== null && typeof item === 'object' && !Array.isArray(item)) {
+                      return <div>{item.order + '. ' + item.name + ', '}</div>;
                     }
                   })}
+                  <ol>
+                    {typeof obj === 'object' && !Array.isArray(obj) ? Object.entries(obj).map(([key, value]) =>
+                      <li key={key}>
+                        <span className="description font-semibold!">{formatKey(key)}: </span>{typeof value === 'string' ? value : null}</li>
+                    ) : null}
+                  </ol>
                 </li>);
               })}
             </ol>
