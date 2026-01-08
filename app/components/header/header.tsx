@@ -295,12 +295,12 @@ export default function Header() {
               });
             })()}
 
-            <LanguageDropdown />
-            <ThemeToggle />
+            {/* <LanguageDropdown />
+            <ThemeToggle /> */}
           </nav>
 
           <div role="toggle-menu" className="flex items-center justify-center md:hidden">
-            <LanguageDropdown />
+            {/* <LanguageDropdown /> */}
             <button
               aria-label="Toggle menu"
               aria-expanded={open}
