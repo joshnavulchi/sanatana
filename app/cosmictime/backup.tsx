@@ -1,7 +1,7 @@
-<section>
+{/* <section>
   <div className="flex flex-col md:flex-row gap-6">
     {/* Sanātana Dharma */}
-    <div className="flex-1 bg-white rounded shadow p-4 mb-8">
+   {/* <div className="flex-1 bg-white rounded shadow p-4 mb-8">
       <ol>
         {Object.entries(cosmic.option3_scientific_comparison).map(([key, value]) => {
           let obj = {};
@@ -15,7 +15,7 @@
       </ol>
     </div>
     {/* Modern Science */}
-    <div className="flex-1 bg-white rounded shadow p-4 mb-8">
+    {/*<div className="flex-1 bg-white rounded shadow p-4 mb-8">
       <ol>
         {Object.entries(cosmic.option4_manvantara_explainer).map(([key, value]) => {
           let obj = {};
@@ -53,8 +53,8 @@
     </div>
   </div>
 </section>
-{/* Final Insight */ }
-<div className="bg-white rounded shadow p-4">
+{/* Final Insight */}
+{/* <div className="bg-white rounded shadow p-4">
   <ol>
     {Object.entries(cosmic.final_consolidated_insight).map(([key, value]) => (
       <li key={key}>
@@ -62,7 +62,7 @@
       </li>
     ))}
   </ol>
-</div>
+</div> */}
 
 
 
