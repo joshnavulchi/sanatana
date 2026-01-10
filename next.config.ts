@@ -55,6 +55,18 @@ const nextConfig = {
       if (!dev) {
         // Emit source maps but don't link them in the JS files:
         cfg.devtool = 'hidden-source-map';  // emit maps, don't link in JS
+        try {
+          // Add CSS minimizer in production builds. The plugin is optional at runtime
+          // so requiring it here won't break the build when it's absent.
+          // eslint-disable-next-line @typescript-eslint/no-var-requires
+          const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
+
+          cfg.optimization = cfg.optimization || {};
+          cfg.optimization.minimizer = cfg.optimization.minimizer || [];
+          cfg.optimization.minimizer.push(new CssMinimizerPlugin());
+        } catch (err) {
+          // optional package not installed — skip enhancing webpack
+        }
       }
       return cfg;
     } catch (e) {
