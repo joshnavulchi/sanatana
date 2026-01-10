@@ -101,14 +101,7 @@ export default async function RootLayout({
             })
           }}
         />
-        {/* Clarity tracking code for https://sanatanadharmam.in/ */}
-        {/* <Script
-          id="bing-script"
-          strategy="lazyOnload"
-          dangerouslySetInnerHTML={{
-            __html: `(function(c,l,a,r,i,t,y){ c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)}; t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt"; y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y); })(window, document, "clarity", "script", "uu55kbw70q");`
-          }}
-        /> */}
+        {/* Removed Microsoft Clarity tracking code (no third-party Clarity scripts) */}
         <Script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -122,15 +115,7 @@ export default async function RootLayout({
             })
           }}
         />
-        {/* Google Analytics (env-driven) */}
-        {secrets.NEXT_PUBLIC_GA_ID && (
-          <>
-            <Script async src={`https://www.googletagmanager.com/gtag/js?id=${secrets.NEXT_PUBLIC_GA_ID}`} strategy="lazyOnload" />
-            <Script id="gtag-init" strategy="lazyOnload">
-              {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${secrets.NEXT_PUBLIC_GA_ID}');`}
-            </Script>
-          </>
-        )}
+        {/* Google Analytics removed from automatic load — now loaded after user consent to reduce unused JS. */}
         {/* Disable right-click context menu in production to reduce casual copy */}
         {process.env.NODE_ENV === "production" && (
           <Script
@@ -146,16 +131,7 @@ export default async function RootLayout({
             }}
           />
         )}
-        {/* Google Tag Manager (optional, env-driven) */}
-        {secrets.NEXT_PUBLIC_GTM_ID && (
-          <Script
-            id="gtm-script"
-            strategy="lazyOnload"
-            dangerouslySetInnerHTML={{
-              __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${secrets.NEXT_PUBLIC_GTM_ID}');`
-            }}
-          />
-        )}
+        {/* Google Tag Manager removed from automatic load — now loaded after user consent to reduce unused JS. */}
       </head>
       <body style={{ fontFamily: bodyFontFamily }} translate="no">
         <TopProgress />

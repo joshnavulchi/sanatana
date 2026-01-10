@@ -175,7 +175,7 @@ export default function Footer() {
             <small>{disclaimer}<br /> {contentChange}</small>
             <small> I am using <Link href='https://gemini.google.com/' title='Gemini AI' target='_blank' className='text-white no-underline'>Gemini AI</Link>, <Link href='https://www.meta.ai/' title='Meta AI' target='_blank' className='text-white no-underline'>Meta AI</Link> and  <Link href='https://github.com/features/copilot' title='Github Copilot' target='_blank' className='text-white no-underline'>Github Copilot</Link> basic plan to generating content of the website.</small>
           </div>
-          <nav role="menu" className={`${styles.socialIcons} md:w-1/4 flex items-center justify-end gap-6`}>
+          <nav role="social-menu" className={`${styles.socialIcons} md:w-1/4 flex items-center justify-end gap-6`}>
             <Link href="https://in.linkedin.com/in/vulchivijayakumar" target="_blank" className=" no-underline">
               <Image src="/images/svg/linkedin.svg" alt="linkedin" width={24} height={24} className="inline-block" />
             </Link>
