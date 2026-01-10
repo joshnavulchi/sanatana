@@ -105,6 +105,11 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
                 </div>
               </>
             )}
+            {active === 'targeting' && (
+              <div className="mt-2">
+                <small>Third-party cookies for analytics and advertising may be set when you enable targeting/performance features. These are controlled by external providers and are only set when you opt in.</small>
+              </div>
+            )}
             <div className="buttons-group flex gap-2">
               <button className="button inline-block shadow-sm bg-amber-400 hover:bg-amber-200 no-underline" onClick={onClose}>Cancel</button>
               <button className="button inline-block shadow-sm bg-amber-400 hover:bg-amber-200 no-underline" onClick={save}>Save preferences</button>
