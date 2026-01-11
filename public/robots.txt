@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /_next/ # OK to block static chunks
 
 # Sitemap location
 Sitemap: https://sanatanadharmam.in/sitemap.xml
