@@ -299,15 +299,15 @@ export default function Header() {
             <ThemeToggle /> */}
           </nav>
 
-          <div role="toggle-menu" className="flex items-center justify-center md:hidden">
+          <div role="menu" className="flex items-center justify-center md:hidden">
             {/* <LanguageDropdown /> */}
             <button
-              aria-label="Toggle menu"
+              role="menuItem"
               aria-expanded={open}
               onClick={() => setOpen((s) => !s)}
               className="inline-flex items-center justify-center rounded"
             >
-              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <svg className="h-8 w-8" fill="none" viewBox="0 0 32 32" stroke="currentColor" aria-hidden="true">
                 {open ? (
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                 ) : (
