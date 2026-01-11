@@ -302,7 +302,7 @@ export default function Header() {
           <div role="toggle-menu" className="flex items-center justify-center md:hidden">
             {/* <LanguageDropdown /> */}
             <button
-              aria-label="Toggle menu"
+              role="menu"
               aria-expanded={open}
               onClick={() => setOpen((s) => !s)}
               className="inline-flex items-center justify-center rounded"
