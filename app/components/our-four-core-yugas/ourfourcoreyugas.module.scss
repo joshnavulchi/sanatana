@@ -12,6 +12,7 @@
     color: var(--theme-sub-title-color);
   }
   .cards {
+    margin-top: var(--space-xl);
     flex-wrap: wrap;
   }
   .card {

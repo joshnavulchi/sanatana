@@ -26,32 +26,36 @@
       {
         "id": "introduction",
         "title": "Understanding Sanātana Dharma",
-        "content": "Sanātana Dharma, often referred to as the eternal way of life, is the foundational philosophy behind what is commonly known as Hinduism. The term “Sanātana” means eternal, and “Dharma” signifies duty, righteousness, and the natural order. Unlike a religion confined to rigid dogmas, Sanātana Dharma is a dynamic, universal framework that emphasizes harmony between the individual, society, and the cosmos. It is not limited to a single scripture or prophet; rather, it encompasses timeless principles expressed through texts like the Vedas, Upanishads, and Bhagavad Gita.",
-        "description": "At its core, Sanātana Dharma teaches that life is a journey toward self-realization and unity with the ultimate reality, Brahman. It advocates values such as truth (Satya), non-violence (Ahimsa), compassion, and respect for all beings. The concept of Dharma varies according to context—personal, social, and cosmic—encouraging individuals to act responsibly and ethically."
+        "content": "Learn the essence of Sanātana Dharma - an external, universal truth and way of life that transcends the cycles of time and culture.",
+        "description": ""
       },
       {
         "id": "scriptures",
         "title": "The Sacred Scriptures",
-        "content": "The Sacred Scriptures of Sanātana Dharma form the spiritual and philosophical foundation of one of the world’s oldest traditions. These texts are not merely religious writings; they are timeless guides to living in harmony with universal principles. The Vedas, considered the earliest revelations, contain hymns, rituals, and profound wisdom about cosmic order. The Upanishads delve deeper into metaphysical truths, exploring concepts like the soul (Ātman) and ultimate reality (Brahman). Complementing these are the Bhagavad Gita, a dialogue on duty, devotion, and self-realization, and the epics—Ramayana and Mahabharata—which illustrate dharma through inspiring narratives.",
+        "content": "Discover the foundational texts that form the bedrock-Sanātana Dharma, preserving divine knowledge and guiding the path of dharma through",
         "items": [
           {
             "title": "The Vedas",
-            "description": "Foundational texts exploring cosmic order, metaphysics, ritual, and philosophical inquiry.",
+            "description": "Ancient hymns and ritual traditions revived as vehicles of divine knowledge.",
+            "src": "/images/home/the-vedas.png",
             "href": "/scriptures/vedas"
           },
           {
             "title": "The Upanishads",
-            "description": "Teachings on self-realization, consciousness, and the nature of ultimate reality.",
+            "description": "Philosophical texts dealing with the nature of reality.",
+            "src": "/images/home/the-upanishads.png",
             "href": "/scriptures/upanishads"
           },
           {
-            "title": "The Bhagavad Gita",
-            "description": "A practical spiritual dialogue addressing duty, devotion, knowledge, and liberation.",
+            "title": "The Itihāsas",
+            "description": "Epic tales dharma, duty, and righteousness.",
+            "src": "/images/home/the-ithihas.png",
             "href": "/scriptures/bhagavathgita"
           },
           {
-            "title": "Puranas & Itihasas",
-            "description": "Narrative traditions preserving philosophy, culture, and moral values.",
+            "title": "Purānas",
+            "description": "Mythological stories conveying spiritual truths.",
+            "src": "/images/home/the-puranas.png",
             "href": "/scriptures/puranas"
           }
         ]

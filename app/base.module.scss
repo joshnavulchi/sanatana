@@ -14,7 +14,7 @@ body {
 a {
   position: relative;
   text-decoration: none;
-  color: #7a4b00;
+  color: #250007;
   &.no-underline::after,
   &.no-underline:hover::after {
     display: none;
@@ -183,9 +183,31 @@ button,
   body {
     line-height: 1.7;
   }
+  h1 {
+    font-size: 1.7rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.4rem;
+  }
+  h5 {
+    font-size: 1.3rem;
+  }
+  h6 {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
   ul, ol {
     font-size: 1rem;
   }
+  small, .small, .meta { font-size: 0.75rem; }
   .title {
     font-size: 1.6rem;
   }
