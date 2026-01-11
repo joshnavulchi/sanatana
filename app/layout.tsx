@@ -66,7 +66,7 @@ export default async function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
         {/* Prevent browser automatic translation UI (Chrome/Google Translate) */}
         <meta name="google" content="notranslate" />
-        <link rel="preload" as="image" imageSrcSet="/images/home/hero.jpg 1024w, /images/home/mobile-hero.jpg 768w" imageSizes="(max-width: 1980px) 100vw, 1980" href="/images/home/hero.jpg" />
+        <link rel="preload" as="image" imageSrcSet="/images/home/hero.png 1024w, /images/home/mobile-hero.png 768w" imageSizes="(max-width: 1980px) 100vw, 1980" href="/images/home/hero.png" />
         {/* Page-specific override: cache for 30 days */}
         <meta httpEquiv="Cache-Control" content="max-age=2592000, must-revalidate" />
         <meta httpEquiv="Pragma" content="cache" />

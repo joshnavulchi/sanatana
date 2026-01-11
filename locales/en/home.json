@@ -11,15 +11,16 @@
     "hero": {
       "heading": "Sanātana Dharma",
       "subheading": "The Eternal Way of Life",
-      "description": "Sanātana Dharma is a timeless way of understanding existence, consciousness, and righteous living, rooted in ancient spiritual wisdom.",
+      "description": "A timeless spiritual tradition rooted in darma, karma, and self-realization, guiding humanity beyond time, culture, and belief.",
       "primarycta": {
-        "label": "Explore Bhagavad Gita",
+        "label": "Explore scriptures",
         "link": "bhagavathgita"
       },
       "secondarycta": {
-        "label": "Learn Sanātana Dharma",
+        "label": "Start Learning",
         "link": "sanatanadharma"
-      }
+      },
+      "scroll": "Scroll to Learn More"
     },
     "sections": [
       {

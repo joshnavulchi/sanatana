@@ -99,6 +99,22 @@ button,
     padding: var(--space-xs)
   }
 }
+.button-primary {
+  background-color: #dd9630;
+  color: #fff;
+  border: none;
+  &:hover {
+    background-color: #ff9600;
+  }
+}
+.button-secondary {
+  background-color: #fdf8ea;
+  border: 2px solid #dd9630;
+  color: #432720;
+  &:hover {
+    background-color: #ffd585;
+  }
+}
 .cookies-wrapper,
 .cookies-preference-wrapper {
   ul {
@@ -146,17 +162,17 @@ button,
 }
 .title {
   margin-top: 0;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: 700;
 }
 .subtitle {
   margin-top: 0;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 .description {
   margin-top: 0;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 400;
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
@@ -174,10 +190,10 @@ button,
     font-size: 1.6rem;
   }
   .subtitle {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
   .description {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   small, .small, .meta { font-size: 0.75rem; }
 }
