@@ -19,8 +19,6 @@
   flex-wrap: wrap;
 }
 .card {
-  margin-top: var(--space-xl);
-  margin-bottom: var(--space-xl);
   padding: var(--space-lg);
   background-color: var(--theme-alternative-background-color);
   &.no-padding {
@@ -47,6 +45,8 @@
     flex-wrap: inherit;
   }
   .card {
+    margin-top: var(--space-xl);
+    margin-bottom: var(--space-xl);
     padding: var(--space-md);
   }
 }

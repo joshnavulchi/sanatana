@@ -33,6 +33,7 @@ export default function UnderstandingOfSanatana() {
             ))}
             {section?.points && section?.points.map((point: any, idx: number) => (
               <div key={idx} className={`card w-full md:w-1/4 lg:w-1/4 rounded-2xl shadow-sm hover:shadow-md transition`}>
+                {section?.pointSrc && <Image src={section?.pointSrc[idx]} width={76} height={76} alt={point} className="mx-auto object-cover" />}
                 <p>{point}</p>
               </div>
             ))}

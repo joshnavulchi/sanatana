@@ -115,6 +115,12 @@
         "title": "Why Sanātana Dharma Matters Today",
         "content": "",
         "description": "",
+        "pointSrc": [
+          "/images/home/why-sanatana-1.png",
+          "/images/home/why-sanatana-2.png",
+          "/images/home/why-sanatana-3.png",
+          "/images/home/why-sanatana-4.png"
+        ],
         "points": [
           "Mental clarity in a fast-paced world",
           "Ethical foundations for modern society",
@@ -133,6 +139,7 @@
         "title": "What You Will Find Here",
         "content": "",
         "description": "",
+        "pointSrc": "",
         "points": [
           "Chapter-wise Bhagavad Gita explanations",
           "Introductions to Vedas and Upanishads",
@@ -281,11 +288,15 @@
       "transliteration": "Om Bhur Bhuvah Svah Tat Savitur Varenyam Bhargo Devasya Dheemahi Dhiyo Yo Nah Prachodayat",
       "translation": "We meditate upon the desirable effulgence of the divine Sun, the impeller. May he stimulate our intellects."
     },
+    "ourfourcoreyugastitle": "Sanātana Dharma — Explore Sanātana Dharma",
+    "ourfourcoreyugassubtitle": "The eternal and universal way of life based on truth, righteousness, and spiritual principles that uphold cosmic order.",
     "ourfourcoreyugas": [
       {
         "name": "Satya Yuga",
-        "age": "Golden Age",
-        "duration": "1,728,000",
+        "subtitle": "Dharma age",
+        "years": "1,728,000 years",
+        "gradientFrom": "from-amber-700",
+        "gradientTo": "to-orange-600",
         "description": [
           "Truth and righteousness prevail",
           "Long lifespan and perfect health",
@@ -294,8 +305,10 @@
       },
       {
         "name": "Treta Yuga",
-        "age": "Silver Age",
-        "duration": "1,296,000",
+        "subtitle": "Divor age",
+        "years": "1,296,000 years",
+        "gradientFrom": "from-orange-500",
+        "gradientTo": "to-amber-400",
         "description": [
           "Slight decline of dharma",
           "Age of the Ramayana",
@@ -304,8 +317,10 @@
       },
       {
         "name": "Dvapara Yuga",
-        "age": "Bronze Age",
-        "duration": "864,000",
+        "subtitle": "Dharma age",
+        "years": "864,000 years",
+        "gradientFrom": "from-rose-500",
+        "gradientTo": "to-orange-500",
         "description": [
           "Dharma reduced to half",
           "Era of Mahabharata",
@@ -314,8 +329,10 @@
       },
       {
         "name": "Kali Yuga",
-        "age": "Iron Age",
-        "duration": "432,000",
+        "subtitle": "Folk age",
+        "years": "432,000 years",
+        "gradientFrom": "from-red-700",
+        "gradientTo": "to-rose-700",
         "description": [
           "Materialism and ignorance dominate",
           "Spiritual practice is difficult",
