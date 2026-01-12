@@ -20,10 +20,10 @@ export default function HeroSection() {
   return (
     <div className={`${styles.herosection} w-full md:h-full`}>
       <div className="relative content-wrapper md:min-h-130 md:flex md:items-center md:justify-center overflow-hidden">
-        <div className={`${styles.herocontent} w-full md:w-1/2 text-center`}>
+        <div className={`${styles.herocontent} w-full md:w-1/2`}>
           <h1 className={`${styles.title} title site-title md:max-w-md`}>
             {heading} <br />
-            <span className={`subtitle site-subtitle font-semibold md:max-w-md`}>{subheading}</span>
+            <span className={`subtitle md:max-w-md`}>{subheading}</span>
           </h1>
           <p className={`${styles.description} description md:max-w-md`}>{description}</p>
           <div className="flex flex-col md:flex-row gap-4">

@@ -16,12 +16,13 @@
   padding: var(--space-xl) var(--space-md) var(--space-2xl);
 }
 .cards {
-  margin-top: var(--space-xl);
   flex-wrap: wrap;
 }
 .card {
-  background-color: var(--theme-alternative-background-color);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-xl);
   padding: var(--space-lg);
+  background-color: var(--theme-alternative-background-color);
   &.no-padding {
     padding: 0;
   }

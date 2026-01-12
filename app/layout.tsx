@@ -10,7 +10,6 @@ import { buildOrganizationJsonLd, buildWebSiteJsonLd, renderJsonLdScript } from 
 import Script from 'next/script';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
-import AnalyticsCollector from './components/analytics/AnalyticsCollector';
 import CookieConsent from './components/cookie-consent/CookieConsent';
 import TopProgress from './components/progress/TopProgress';
 import ScrollToTop from './components/scroll-to-top/scroll-to-top';
@@ -154,7 +153,6 @@ export default async function RootLayout({
               <Suspense fallback={null}>
                 {children}
               </Suspense>
-              <AnalyticsCollector />
               <Suspense fallback={null}>
                 <Footer />
               </Suspense>

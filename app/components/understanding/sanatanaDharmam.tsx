@@ -15,19 +15,21 @@ export default function UnderstandingOfSanatana() {
         const level = Math.min(index + 2, 6);
         const Tag = `h${level}` as keyof JSX.IntrinsicElements
         return (<div key={section.id} className={`${styles.sections} text-center`}>
-          <div className="mx-auto max-w-2xl">
-            <Tag className={`${styles.borderbottom} title`}>{section.title}</Tag>
+          <div className={`mx-auto max-w-3xl`}>
+            <Tag className={`mx-auto max-w-2xl ${!section?.nodecaration ? styles.borderbottom : ''} title`}>{section.title}</Tag>
             <p>{section.content}</p>
+            {section?.src && <Image src={section.src} alt={section.title} width={320} height={320} className="mx-auto object-cover" />}
           </div>
-          <div className={`cards flex gap-10 md:gap-6`}>
+          <div className={`mx-auto ${section?.items?.length === 4 ? 'max-w-4xl' : 'max-w-6xl'} cards flex gap-10 md:gap-6`}>
             {section?.items && section?.items.map((topic: any, index: number) => (
-              <Link key={index} href={topic.href} title={topic.title} className="card w-full md:w-1/4 lg:w-1/4 rounded-2xl shadow-sm hover:shadow-md transition">
+              <div key={index} className="card w-full md:w-1/4 lg:w-1/4 rounded-2xl shadow-sm hover:shadow-md transition">
                 <div className="text-center">
-                  {topic.src && <Image src={topic.src} alt={topic.title} width={101} height={101} className="mx-auto object-cover" />}
+                  {topic.src && <Image src={topic.src} alt={topic.title} width={76} height={76} className="mx-auto object-cover" />}
                   <p className={`font-semibold`}>{topic.title}</p>
                   <p>{topic.description}</p>
+                  <Link href={topic.href} title={topic.title} className="small">Read more...</Link>
                 </div>
-              </Link>
+              </div>
             ))}
             {section?.points && section?.points.map((point: any, idx: number) => (
               <div key={idx} className={`card w-full md:w-1/4 lg:w-1/4 rounded-2xl shadow-sm hover:shadow-md transition`}>

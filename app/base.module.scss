@@ -55,7 +55,6 @@ small,
 .small,
 .meta {
   font-size: 1rem;
-  color: #ccc;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
@@ -202,20 +201,20 @@ button,
     font-size: 1.2rem;
   }
   p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   ul, ol {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   small, .small, .meta { font-size: 0.75rem; }
   .title {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
   .subtitle {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .description {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   small, .small, .meta { font-size: 0.75rem; }
 }

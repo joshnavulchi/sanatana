@@ -14,7 +14,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, rgba(255,255,255,.8) 100%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(to right, var(--theme-background-color) 100%, rgba(0,0,0,0) 100%);
     z-index: 1;
   }
   .herocontent {
@@ -22,7 +22,7 @@
     z-index: 2;
   }
   .scrolltext {
-    margin-top: var(--space-lg);
+    margin-top: var(--space-xl);
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -35,7 +35,7 @@
     background-position: top center;
     &::after {
       width: 50%;
-      background: linear-gradient(to right, #f9f2e5 65%, #0000 100%);
+      background: linear-gradient(to right, var(--theme-background-color) 65%, #0000 100%);
       z-index: 1;
     }
   }
