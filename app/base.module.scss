@@ -14,7 +14,7 @@ body {
 a {
   position: relative;
   text-decoration: none;
-  color: #7a4b00;
+  color: #250007;
   &.no-underline::after,
   &.no-underline:hover::after {
     display: none;
@@ -54,8 +54,7 @@ li {
 small,
 .small,
 .meta {
-  font-size: 1rem;
-  color: #ccc;
+  font-size: 0.9rem;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
@@ -64,16 +63,16 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: var(--space-xl);
   margin-bottom: var(--space-sm);
 }
-h1 { font-size: 2rem; }
-h2 { font-size: 1.8rem; }
-h3 { font-size: 1.6rem; }
-h4 { font-size: 1.4rem; }
-h5 { font-size: 1.2rem; }
-h6 { font-size: 1rem; }
+h1 { font-size: 2.2rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.8rem; }
+h4 { font-size: 1.6rem; }
+h5 { font-size: 1.4rem; }
+h6 { font-size: 1.2rem; }
 p {
   margin-top: 0;
   margin-bottom: var(--space-md);
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 input[type="text"],
 input[type="email"],
@@ -91,12 +90,28 @@ textarea {
 button,
 .button {
   display: inline-block;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   padding: var(--space-xs) var(--space-md);
-  border-radius: var(--space-xxs);
+  border-radius: var(--space-xs);
   cursor: pointer;
   &.scroll-to-top {
     padding: var(--space-xs)
+  }
+}
+.button-primary {
+  background-color: #dd9630;
+  color: #fff;
+  border: none;
+  &:hover {
+    background-color: #ff9600;
+  }
+}
+.button-secondary {
+  background-color: #fdf8ea;
+  border: 2px solid #dd9630;
+  color: #432720;
+  &:hover {
+    background-color: #ffd585;
   }
 }
 .cookies-wrapper,
@@ -146,18 +161,17 @@ button,
 }
 .title {
   margin-top: 0;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: 700;
 }
 .subtitle {
   margin-top: 0;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 .description {
   margin-top: 0;
-  font-size: 1.2rem;
-  font-weight: 400;
+  font-size: 1rem;
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 @media (min-width: 1024px) {
@@ -167,11 +181,33 @@ button,
   body {
     line-height: 1.7;
   }
+  h1 {
+    font-size: 1.7rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.4rem;
+  }
+  h5 {
+    font-size: 1.3rem;
+  }
+  h6 {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
   ul, ol {
     font-size: 1rem;
   }
+  small, .small, .meta { font-size: 0.75rem; }
   .title {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
   .subtitle {
     font-size: 1.2rem;

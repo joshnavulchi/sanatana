@@ -26,8 +26,8 @@ export default function GitSupport({ locale }: { locale?: string }) {
         <p className={`title font-light!`}>{t('cta.title', loc)}</p>
         <p>{t('cta.subtitle', loc)}</p>
         <div className="flex flex-col md:flex-row gap-4 md:gap-8">
-          <Link href="https://github.com/vulchivijay/first-contributes" target="_blank" className="button inline-block shadow-sm bg-amber-300 hover:bg-amber-400 no-underline">{t('cta.contribute', loc)}</Link>
-          <Link href="https://github.com/vulchivijay/first-contributes" target="_blank" className="button inline-block shadow-sm bg-white/75 hover:bg-white no-underline">{t('cta.guidelines', loc)}</Link>
+          <Link href="https://github.com/vulchivijay/first-contributes" target="_blank" className="button inline-block shadow-sm button-primary no-underline">{t('cta.contribute', loc)}</Link>
+          <Link href="https://github.com/vulchivijay/first-contributes" target="_blank" className="button inline-block shadow-sm button-secondary no-underline">{t('cta.guidelines', loc)}</Link>
         </div>
       </div>
     </section>

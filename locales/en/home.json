@@ -11,46 +11,52 @@
     "hero": {
       "heading": "Sanātana Dharma",
       "subheading": "The Eternal Way of Life",
-      "description": "Sanātana Dharma is a timeless way of understanding existence, consciousness, and righteous living, rooted in ancient spiritual wisdom.",
+      "description": "A timeless spiritual tradition rooted in darma, karma, and self-realization, guiding humanity beyond time, culture, and belief.",
       "primarycta": {
-        "label": "Explore Bhagavad Gita",
+        "label": "Explore scriptures",
         "link": "bhagavathgita"
       },
       "secondarycta": {
-        "label": "Learn Sanātana Dharma",
+        "label": "Start Learning",
         "link": "sanatanadharma"
-      }
+      },
+      "scroll": "Scroll to Learn More"
     },
     "sections": [
       {
         "id": "introduction",
         "title": "Understanding Sanātana Dharma",
-        "content": "Sanātana Dharma, often referred to as the eternal way of life, is the foundational philosophy behind what is commonly known as Hinduism. The term “Sanātana” means eternal, and “Dharma” signifies duty, righteousness, and the natural order. Unlike a religion confined to rigid dogmas, Sanātana Dharma is a dynamic, universal framework that emphasizes harmony between the individual, society, and the cosmos. It is not limited to a single scripture or prophet; rather, it encompasses timeless principles expressed through texts like the Vedas, Upanishads, and Bhagavad Gita.",
-        "description": "At its core, Sanātana Dharma teaches that life is a journey toward self-realization and unity with the ultimate reality, Brahman. It advocates values such as truth (Satya), non-violence (Ahimsa), compassion, and respect for all beings. The concept of Dharma varies according to context—personal, social, and cosmic—encouraging individuals to act responsibly and ethically."
+        "content": "Learn the essence of Sanātana Dharma - an external, universal truth and way of life that transcends the cycles of time and culture.",
+        "src": "/images/home/om.png",
+        "nodecaration": true
       },
       {
         "id": "scriptures",
         "title": "The Sacred Scriptures",
-        "content": "The Sacred Scriptures of Sanātana Dharma form the spiritual and philosophical foundation of one of the world’s oldest traditions. These texts are not merely religious writings; they are timeless guides to living in harmony with universal principles. The Vedas, considered the earliest revelations, contain hymns, rituals, and profound wisdom about cosmic order. The Upanishads delve deeper into metaphysical truths, exploring concepts like the soul (Ātman) and ultimate reality (Brahman). Complementing these are the Bhagavad Gita, a dialogue on duty, devotion, and self-realization, and the epics—Ramayana and Mahabharata—which illustrate dharma through inspiring narratives.",
+        "content": "Discover the foundational texts that form the bedrock-Sanātana Dharma, preserving divine knowledge and guiding the path of dharma through",
         "items": [
           {
             "title": "The Vedas",
-            "description": "Foundational texts exploring cosmic order, metaphysics, ritual, and philosophical inquiry.",
+            "description": "Ancient hymns and ritual traditions revived as vehicles of divine knowledge.",
+            "src": "/images/home/the-vedas.png",
             "href": "/scriptures/vedas"
           },
           {
             "title": "The Upanishads",
-            "description": "Teachings on self-realization, consciousness, and the nature of ultimate reality.",
+            "description": "Philosophical texts dealing with the nature of reality.",
+            "src": "/images/home/the-upanishads.png",
             "href": "/scriptures/upanishads"
           },
           {
-            "title": "The Bhagavad Gita",
-            "description": "A practical spiritual dialogue addressing duty, devotion, knowledge, and liberation.",
+            "title": "The Itihāsas",
+            "description": "Epic tales dharma, duty, and righteousness.",
+            "src": "/images/home/the-ithihas.png",
             "href": "/scriptures/bhagavathgita"
           },
           {
-            "title": "Puranas & Itihasas",
-            "description": "Narrative traditions preserving philosophy, culture, and moral values.",
+            "title": "Purānas",
+            "description": "Mythological stories conveying spiritual truths.",
+            "src": "/images/home/the-puranas.png",
             "href": "/scriptures/puranas"
           }
         ]
@@ -58,38 +64,42 @@
       {
         "id": "living-tradition",
         "title": "A Living Spiritual Tradition",
-        "content": "Sanātana Dharma is not a relic of the past; it is a living spiritual tradition that continues to evolve while preserving its eternal principles. Rooted in timeless wisdom, it adapts to changing contexts without losing its essence. This tradition emphasizes experiential understanding over blind adherence, encouraging seekers to question, reflect, and realize truth for themselves. Its practices—such as meditation, yoga, and rituals—are designed to harmonize body, mind, and spirit, fostering inner growth and universal harmony.",
-        "description": "Unlike rigid systems, Sanātana Dharma embraces diversity, offering multiple paths—knowledge, devotion, and selfless action—so individuals can choose what resonates with their nature. Its openness to dialogue and integration of new ideas has allowed it to thrive across centuries. As a living tradition, it inspires people to live ethically, seek higher consciousness, and contribute to the well-being of all life, making it eternally relevant in today’s world."
+        "content": "Sanatana Dharma is a living spiritual tradition rooted in eternal principles of dharma, karma, and moksha.",
+        "nodecaration": true
       },
       {
         "id": "principles",
         "title": "Core Principles of Sanātana Dharma",
-        "content": "Commitment to authenticity in Sanātana Dharma reflects a deep respect for truth and integrity in spiritual practice. It emphasizes living in alignment with eternal principles rather than superficial appearances or rigid dogmas. Authenticity means embracing the essence of Dharma—truth (Satya), righteousness, and compassion—while avoiding distortion or blind imitation. This commitment encourages individuals to seek genuine understanding through self-inquiry, reflection, and experience, rather than relying solely on external validation.",
-        "description": "In a world of constant change, authenticity ensures that spiritual practices remain meaningful and relevant without compromising their core values. It calls for sincerity in thought, speech, and action, fostering harmony between inner conviction and outward behavior. By honoring authenticity, Sanātana Dharma preserves its timeless wisdom while allowing personal growth, making spirituality a living reality rather than a mere ritual. True authenticity is the foundation for a life of purpose, balance, and universal harmony.",
+        "content": "Commitment to authenticity in Sanātana Dharma reflects a deep respect for truth and integrity in spiritual practice.",
         "items": [
           {
             "title": "Dharma",
             "description": "Righteous conduct and moral responsibility aligned with truth.",
+            "src": "/images/home/dharma.png",
             "href": "/philosophy/dharma"
           },
           {
             "title": "Karma",
             "description": "Law of action and consequence shaping individual destiny.",
+            "src": "/images/home/karma.png",
             "href": "/philosophy/karma"
           },
           {
-            "title": "Samsara",
+            "title": "Moksha",
             "description": "Path of devotion through love and surrender.",
+            "src": "/images/home/moksha.png",
             "href": "/philosophy/samsara"
           },
           {
-            "title": "Yoga",
+            "title": "Ahimsa",
             "description": "Path of wisdom through inquiry and discernment.",
+            "src": "/images/home/ahimsa.png",
             "href": "/philosophy/yoga"
           },
           {
-            "title": "Moksha",
+            "title": "Satya",
             "description": "Liberation from ignorance and suffering.",
+            "src": "/images/home/satya.png",
             "href": "/philosophy/moksha"
           }
         ]
@@ -98,13 +108,19 @@
         "id": "authenticity",
         "title": "Commitment to Authenticity",
         "content": "Commitment to authenticity means staying true to the core principles and values of Sanātana Dharma while engaging with its practices in a sincere and meaningful way. It is not about rigid conformity or blind tradition; rather, it emphasizes understanding the essence behind rituals, teachings, and philosophies. Authenticity calls for integrity in thought, speech, and action, ensuring that spiritual life reflects genuine conviction rather than superficial display.",
-        "description": "This concept encourages seekers to approach Dharma with honesty—questioning, learning, and applying its wisdom in daily life. It also involves preserving the purity of timeless truths while adapting them thoughtfully to modern contexts. By honoring authenticity, individuals maintain a balance between tradition and relevance, making spirituality a living experience rather than a mechanical routine. Ultimately, commitment to authenticity fosters inner growth, ethical living, and harmony with universal principles."
+        "nodecaration": true
       },
       {
         "id": "relevance",
         "title": "Why Sanātana Dharma Matters Today",
         "content": "",
         "description": "",
+        "pointSrc": [
+          "/images/home/why-sanatana-1.png",
+          "/images/home/why-sanatana-2.png",
+          "/images/home/why-sanatana-3.png",
+          "/images/home/why-sanatana-4.png"
+        ],
         "points": [
           "Mental clarity in a fast-paced world",
           "Ethical foundations for modern society",
@@ -116,13 +132,14 @@
         "id": "purpose",
         "title": "Purpose of Sanatanadharmam.in",
         "content": "Sanatanadharmam.in is dedicated to preserving, promoting, and explaining the timeless principles of Sanātana Dharma—the eternal way of life. Its purpose is to provide authentic knowledge about the philosophy, scriptures, values, and practices that form the foundation of this spiritual tradition. The platform aims to make these teachings accessible and relevant for modern seekers by offering clear explanations, resources, and guidance rooted in truth and integrity.",
-        "description": "Through articles, insights, and educational content, Sanatanadharmam.in seeks to inspire individuals to live ethically, cultivate inner harmony, and understand the universal principles that sustain life. It emphasizes inclusivity, encouraging diverse paths of spiritual growth—knowledge, devotion, and selfless action—while maintaining fidelity to the essence of Dharma. Ultimately, the site serves as a beacon for those who wish to explore Sanātana Dharma deeply and apply its wisdom in everyday life for peace, balance, and well-being."
+        "nodecaration": true
       },
       {
         "id": "offerings",
         "title": "What You Will Find Here",
         "content": "",
         "description": "",
+        "pointSrc": "",
         "points": [
           "Chapter-wise Bhagavad Gita explanations",
           "Introductions to Vedas and Upanishads",
@@ -135,15 +152,13 @@
         "id": "journey",
         "title": "A Timeless Journey",
         "content": "Sanātana Dharma represents a timeless journey—a path that transcends boundaries of era, geography, and culture. It is not confined to a single moment in history; rather, it flows eternally, guiding humanity toward truth and harmony. This journey begins with self-discovery and expands into understanding the interconnectedness of all life. Rooted in eternal principles, it adapts gracefully to changing times while preserving its essence of righteousness, compassion, and wisdom.",
-        "description": "Unlike rigid systems, this spiritual journey offers freedom of thought and multiple paths—knowledge, devotion, and selfless action—allowing each seeker to progress at their own pace. It is a quest for inner peace and ultimate realization, where every experience becomes a step toward higher consciousness. Through its inclusiveness and universality, Sanātana Dharma continues to inspire generations, making this journey not just ancient, but ever-relevant—a living tradition that lights the way for seekers across time."
+        "nodecaration": true
       }
     ],
-    "sanatanadharma": { 
+    "sanatanadharma": {
       "title": "Sanātana Dharma — Explore Sanātana Dharma",
       "definition": "The eternal and universal way of life based on truth, righteousness, and spiritual principles that uphold cosmic order.",
       "description": "",
-      "description1": "",
-      "description2": "",
       "etymology": {
         "sanatana": "Eternal, timeless, universal",
         "dharma": "That which sustains and upholds; moral, ethical, and spiritual law"
@@ -273,11 +288,15 @@
       "transliteration": "Om Bhur Bhuvah Svah Tat Savitur Varenyam Bhargo Devasya Dheemahi Dhiyo Yo Nah Prachodayat",
       "translation": "We meditate upon the desirable effulgence of the divine Sun, the impeller. May he stimulate our intellects."
     },
+    "ourfourcoreyugastitle": "Sanātana Dharma — Explore Sanātana Dharma",
+    "ourfourcoreyugassubtitle": "The eternal and universal way of life based on truth, righteousness, and spiritual principles that uphold cosmic order.",
     "ourfourcoreyugas": [
       {
         "name": "Satya Yuga",
-        "age": "Golden Age",
-        "duration": "1,728,000",
+        "subtitle": "Dharma age",
+        "years": "1,728,000 years",
+        "gradientFrom": "from-amber-700",
+        "gradientTo": "to-orange-600",
         "description": [
           "Truth and righteousness prevail",
           "Long lifespan and perfect health",
@@ -286,8 +305,10 @@
       },
       {
         "name": "Treta Yuga",
-        "age": "Silver Age",
-        "duration": "1,296,000",
+        "subtitle": "Divor age",
+        "years": "1,296,000 years",
+        "gradientFrom": "from-orange-500",
+        "gradientTo": "to-amber-400",
         "description": [
           "Slight decline of dharma",
           "Age of the Ramayana",
@@ -296,8 +317,10 @@
       },
       {
         "name": "Dvapara Yuga",
-        "age": "Bronze Age",
-        "duration": "864,000",
+        "subtitle": "Dharma age",
+        "years": "864,000 years",
+        "gradientFrom": "from-rose-500",
+        "gradientTo": "to-orange-500",
         "description": [
           "Dharma reduced to half",
           "Era of Mahabharata",
@@ -306,8 +329,10 @@
       },
       {
         "name": "Kali Yuga",
-        "age": "Iron Age",
-        "duration": "432,000",
+        "subtitle": "Folk age",
+        "years": "432,000 years",
+        "gradientFrom": "from-red-700",
+        "gradientTo": "to-rose-700",
         "description": [
           "Materialism and ignorance dominate",
           "Spiritual practice is difficult",

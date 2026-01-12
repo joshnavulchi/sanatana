@@ -1,8 +1,8 @@
 .notifictionbar {
   padding-top: var(--space-xxs);
-  font-size: 0.8rem;
   line-height: 1.2;
-  color: var(--theme-title-color);
+  font-size: 0.8rem;
+  background-color: var(--theme-alternative-background-color);
 }
 @media (min-width: 1024px) {
   

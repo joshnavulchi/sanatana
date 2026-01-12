@@ -86,7 +86,7 @@ export default function BannerNotifications({ id, message, marquee, showClose = 
   const { and } = links || "";
 
   return (
-    <div className={`${styles.notifictionbar} border-b-4 border-amber-200`}>
+    <div className={`${styles.notifictionbar}`}>
       {showClose ? (
         <button aria-label="Close notification" onClick={closeBanner} className="absolute right-2 top-1/2 -translate-y-1/2 rounded bg-white text-red-600 shadow-md">×</button>
       ) : null}
