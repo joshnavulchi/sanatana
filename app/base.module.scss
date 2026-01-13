@@ -105,6 +105,7 @@ a:not(.button) {
 }
 /* Paragraphs & small text */
 ul, ol {
+  list-style: disc;
   padding-left: 1rem;
   margin-bottom: var(--space-sm);
 }
