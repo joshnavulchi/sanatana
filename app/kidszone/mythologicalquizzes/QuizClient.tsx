@@ -109,8 +109,8 @@ export default function QuizClient() {
         <h2>{t('quiz.readyTitle', loc)}</h2>
         <p>{t('quiz.readyDescription', loc).replace('{count}', String(qList.length)).replace('{time}', fmtTime(timeLeft))}</p>
         <div>
-          <button onClick={() => setStarted(true)}>{t('quiz.start', loc)}</button>
-          <button onClick={restart}>{t('quiz.shuffle', loc)}</button>
+          <button className="btn btn-primary" onClick={() => setStarted(true)}>{t('quiz.start', loc)}</button>
+          <button className="btn btn-outline" onClick={restart}>{t('quiz.shuffle', loc)}</button>
         </div>
       </div>
     );
@@ -141,7 +141,7 @@ export default function QuizClient() {
           ))}
         </div>
         <div>
-          <button onClick={restart}>{t('quiz.restart', loc)}</button>
+          <button className="btn btn-primary" onClick={restart}>{t('quiz.restart', loc)}</button>
         </div>
       </div>
     );
@@ -161,6 +161,7 @@ export default function QuizClient() {
         <div>
           {(['A', 'B', 'C', 'D'] as (keyof Options)[]).map((k) => (
             <button
+              className="btn btn-primary"
               key={k}
               onClick={() => selectOption(k)}
             >
@@ -171,8 +172,8 @@ export default function QuizClient() {
 
         <div>
           <div>
-            <button onClick={goPrev} disabled={current === 0}>{t('quiz.previous', loc)}</button>
-            <button onClick={goNext}>{current < qList.length - 1 ? t('quiz.next', loc) : t('quiz.finish', loc)}</button>
+            <button className="btn btn-primary" onClick={goPrev} disabled={current === 0}>{t('quiz.previous', loc)}</button>
+            <button className="btn btn-primary" onClick={goNext}>{current < qList.length - 1 ? t('quiz.next', loc) : t('quiz.finish', loc)}</button>
           </div>
           <div>{t('quiz.answered', loc).replace('{answered}', String(Object.keys(answers).length)).replace('{total}', String(qList.length))}</div>
         </div>

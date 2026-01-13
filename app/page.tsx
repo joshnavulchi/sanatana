@@ -16,9 +16,9 @@ export default async function Home() {
       <main>
         <HeroSection />
         <UnderstandingOfSanatana />
-        <OurFourCoreYugas />
-        <GitSupport />
         <AboutShiva />
+        <GitSupport />
+        <OurFourCoreYugas />
       </main>
     </>
   );

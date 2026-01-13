@@ -43,7 +43,7 @@ export default function Page({ searchParams }: any) {
                 ))}
               </ul>
               {/* <div>
-                <Link href={`/sanatanadharma#chapter-${chap}`} className="button">
+                <Link href={`/sanatanadharma#chapter-${chap}`} className="btn btn-primary">
                   Read more
                 </Link>
               </div> */}

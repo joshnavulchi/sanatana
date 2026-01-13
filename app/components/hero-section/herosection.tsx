@@ -22,20 +22,20 @@ export default function HeroSection() {
       <div className="relative content-wrapper md:min-h-130 md:flex md:items-center md:justify-center overflow-hidden">
         <div className={`${styles.herocontent} w-full md:w-1/2`}>
           <h1 className={`${styles.title} title site-title md:max-w-md`}>
-            {heading} <br />
-            <span className={`subtitle md:max-w-md`}>{subheading}</span>
+            <span className="text-shadow-lg/14">{heading}</span> <br />
+            <span className={`subtitle text-shadow-lg/14 md:max-w-md`}>{subheading}</span>
           </h1>
           <p className={`${styles.description} description md:max-w-md`}>{description}</p>
           <div className="flex flex-col md:flex-row gap-4">
-            <Link href={`/scriptures/${primaryCtaLink}`} className="button inline-block shadow-sm button-primary no-underline">
+            <Link href={`/scriptures/${primaryCtaLink}`} className="btn btn-primary no-underline">
               {primaryCtaLabel}
             </Link>
-            <Link href={`/${secondaryCtaLink}`} className="button inline-block shadow-sm button-secondary no-underline">
+            <Link href={`/${secondaryCtaLink}`} className="btn btn-outline no-underline">
               {secondaryCtaLabel}
             </Link>
           </div>
           <div className={`${styles.scrolltext} text-left`}>
-            <Image src="images/svg/arrow.svg" alt="Scroll Down" width={16} height={16} className="inline-blockanimate-bounce" />
+            <Image src="images/svg/arrow.svg" alt="Scroll Down" width={16} height={16} className="inline-block animate-bounce" />
             <span>{scroll}</span>
           </div>
           {/* <div className="text-left mt-10">

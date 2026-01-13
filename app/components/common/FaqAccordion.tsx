@@ -1,5 +1,5 @@
 "use client";
-import {useState} from 'react';
+import { useState } from 'react';
 
 type FaqItem = {
   q: string;
@@ -11,7 +11,7 @@ type Props = {
   heading?: string;
 };
 
-export default function FaqAccordion({items, heading}: Props) {
+export default function FaqAccordion({ items, heading }: Props) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   return (
     <section className="faq-accordion">
@@ -25,7 +25,7 @@ export default function FaqAccordion({items, heading}: Props) {
                 aria-expanded={open}
                 aria-controls={`faq-${idx}`}
                 onClick={() => setOpenIndex(open ? null : idx)}
-                className="w-full text-left px-4 py-3 bg-gray-100 hover:bg-gray-200 flex justify-between items-center"
+                className="w-full btn text-left flex justify-between items-center"
               >
                 <span className="font-medium">{it.q}</span>
                 <span className="ml-4 text-xl">{open ? '−' : '+'}</span>

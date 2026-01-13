@@ -6,7 +6,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: var(--theme-background-color);
+  background-color: var(--color-bg);
+  .title {
+    line-height: 0.6;
+  }
   &::after {
     position: absolute;
     content: "";
@@ -14,7 +17,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, var(--theme-background-color) 100%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(to right, var(--color-bg) 100%, rgba(0,0,0,0) 100%);
     z-index: 1;
     opacity: 0.75;
   }
@@ -36,9 +39,12 @@
     background-position: top center;
     &::after {
       width: 50%;
-      background: linear-gradient(to right, var(--theme-background-color) 65%, #0000 100%);
+      background: linear-gradient(to right, var(--color-bg) 70%, #0000 100%);
       z-index: 1;
       opacity: 1;
+    }
+    .title {
+      font-size: 2.2rem;
     }
   }
 }

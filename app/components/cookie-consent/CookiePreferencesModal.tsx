@@ -50,7 +50,7 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
       <div className="bg-white border rounded shadow-md flex flex-col items-center gap-2">
         <div className="w-full flex items-start justify-between">
           <b>Cookie Preference Manager</b>
-          <button className="button inline-block shadow-sm bg-amber-400 hover:bg-amber-200 no-underline" aria-label="close" onClick={onClose}>✕</button>
+          <button className="btn btn-primary no-underline" aria-label="close" onClick={onClose}>✕</button>
         </div>
 
         <div className="md:mx-auto md:min-w-5xl md:flex md:gap-4">
@@ -58,7 +58,7 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
             <ul>
               {TABS.map((t, idx) => (
                 <li key={idx}>
-                  <button className="button inline-block shadow-sm bg-amber-400 hover:bg-amber-200 no-underline" onClick={() => setActive(t.id)} >
+                  <button className="btn btn-primary no-underline" onClick={() => setActive(t.id)} >
                     {t.title}
                   </button>
                 </li>
@@ -110,10 +110,10 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
                 <small>Third-party cookies for analytics and advertising may be set when you enable targeting/performance features. These are controlled by external providers and are only set when you opt in.</small>
               </div>
             )}
-            <div className="buttons-group flex gap-2">
-              <button className="button inline-block shadow-sm bg-amber-400 hover:bg-amber-200 no-underline" onClick={onClose}>Cancel</button>
-              <button className="button inline-block shadow-sm bg-amber-400 hover:bg-amber-200 no-underline" onClick={save}>Save preferences</button>
-              <button className="button inline-block shadow-sm bg-green-400 hover:bg-green-200 no-underline" onClick={acceptAll}>Accept all</button>
+            <div className="btn btn-primarys-group flex gap-2">
+              <button className="btn btn-primary no-underline" onClick={onClose}>Cancel</button>
+              <button className="btn btn-primary no-underline" onClick={save}>Save preferences</button>
+              <button className="btn btn-primary no-underline" onClick={acceptAll}>Accept all</button>
             </div>
           </div>
         </div>
