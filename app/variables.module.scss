@@ -1,5 +1,44 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+/* 1) Base CSS variables: Light theme */
 :root {
+  /* Brand core */
+  --color-primary: #D97706; /* deep saffron */
+  --color-primary-strong: #B45309;
+  --color-secondary: #7F1D1D; /* maroon */
+  --color-accent: #C89227; /* gold */
+
+  /* Neutrals */
+  --color-bg: #FAF7F2; /* parchment */
+  --color-surface: #FFFFFF;
+  --color-muted: #6B7280; /* gray-500 */
+  --color-text: #1F2937; /* slate-800 */
+
+  /* States */
+  --color-success: #15803D;
+  --color-info: #2563EB;
+  --color-warning: #DC2626;
+
+  /* Borders & shadows */
+  --color-border: #E5E7EB;
+  --shadow-soft: 0 8px 24px rgba(127, 29, 29, 0.08);
+  --shadow-strong: 0 16px 48px rgba(127, 29, 29, 0.16);
+
+  /* Fluid base size: scales ~15px → ~18px between 360px and 1280px */
+  --font-size-base: clamp(0.9375rem, 0.85rem + 0.35vw, 1.125rem); /* 15px → 18px */
+  --line-height-base: 1.65; /* good for prose */
+
+  /* Modular scale step (minor third ≈ 1.2) for headings */
+  --scale: 1.2;
+
+  /* Content width for measure (line-length) control */
+  --content-max: 70ch;
+
+  /* Focus ring */
+  --focus-ring: 0 0 0 3px rgba(245, 158, 11, 0.45);
+
+  /* Decorative gradients/patterns */
+  --gradient-auspicious: linear-gradient(135deg, #F59E0B 0%, #C89227 50%, #7F1D1D 100%);
+
   --color-yellow: #fdae50;
   --color-red: #fa5952;
   --color-orange: #fa5952;
@@ -37,34 +76,60 @@
   --content-width-lg: 1680px;
   --content-width-xl: 1900px;
 }
-.theme-light {
-  --theme-color: #ff9933;
-  --theme-background-color: #fdf9ee; // #f5eee6 // #fffff0;
-  --theme-title-color: #c22224; // #ff0800;
-  --theme-sub-title-color: #333333;
-  --theme-links-color: #fffff0;
-  --theme-background-accent: #e0c27b;
-  --theme-action-button-color: #ffd700;
-  --theme-alternative-background-color: #f9edde; // #e0d4c4; // #f5f5dc; 
-  --theme-body-text-color: #4b2e2e;
-  --theme-icon-color: #228b22;
-  --theme-footer-background-color: #800000;
-  --theme-footer-text-color: #fffff0;
-  --theme-footer-links-color: #ffd700;
+/* 2) Dark theme */
+:root[data-theme="dark"] {
+  --color-bg: #0F172A;          /* ink */
+  --color-surface: #111827;     /* slate-900 */
+  --color-text: #F3F4F6;        /* gray-100 */
+  --color-muted: #9CA3AF;       /* gray-400 */
+  --color-border: #1F2937;
+
+  /* Keep brand saturated but slightly darker */
+  --color-primary: #F59E0B;
+  --color-primary-strong: #D97706;
+  --color-secondary: #991B1B;
+  --color-accent: #D4A24A;
+
+  --shadow-soft: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-strong: 0 16px 48px rgba(0, 0, 0, 0.55);
 }
-.theme-dark {
-  --theme-color: #ffb366;
-  --theme-background-color: #0b0b0b;
-  --theme-title-color: #ffb366;
-  --theme-sub-title-color: #e6e6e6;
-  --theme-links-color: #e6e6e6;
-  --theme-background-accent: #e0c27b;
-  --theme-action-button-color: #d4af37;
-  --theme-alternative-background-color: #121212;
-  --theme-body-text-color: #e6e6e6;
-  --theme-icon-color: #9ad39a;
-  --theme-footer-background-color: #0a0a0a;
-  --theme-footer-text-color: #f5f5f5;
-  --theme-footer-links-color: #ffd700;
+
+/* 10) Festival accent toggle (e.g., Navaratri, Diwali, Kumbhabhishekham) */
+:root[data-festival="diwali"] {
+  --color-primary: #D97706; /* saffron */
+  --color-secondary: #3F0C0C; /* deep maroon */
+  --color-accent: #FFD166;    /* warm gold glow */
+  --gradient-auspicious: linear-gradient(135deg, #F59E0B 0%, #FFD166 50%, #7F1D1D 100%);
 }
+:root[data-festival="navaratri"] {
+  --color-primary: #7C3AED; /* royal purple */
+  --color-secondary: #991B1B;
+  --color-accent: #F59E0B;
+}
+
+
+// .theme-light {
+//   --theme-action-button-color: #ffd700;
+//   --theme-alternative-background-color: #f9edde; // #e0d4c4; // #f5f5dc; 
+//   --theme-body-text-color: #4b2e2e;
+//   --theme-icon-color: #228b22;
+//   --theme-footer-background-color: #800000;
+//   --theme-footer-text-color: #fffff0;
+//   --theme-footer-links-color: #ffd700;
+// }
+// .theme-dark {
+//   --theme-color: #ffb366;
+//   --theme-background-color: #0b0b0b;
+//   --theme-title-color: #ffb366;
+//   --theme-sub-title-color: #e6e6e6;
+//   --theme-links-color: #e6e6e6;
+//   --theme-background-accent: #e0c27b;
+//   --theme-action-button-color: #d4af37;
+//   --theme-alternative-background-color: #121212;
+//   --theme-body-text-color: #e6e6e6;
+//   --theme-icon-color: #9ad39a;
+//   --theme-footer-background-color: #0a0a0a;
+//   --theme-footer-text-color: #f5f5f5;
+//   --theme-footer-links-color: #ffd700;
+// }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

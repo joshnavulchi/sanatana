@@ -1,25 +1,24 @@
 .header {
-  background-color: var(--theme-background-color);
+  background-color: var(--color-white);
   .logoTitleNavWrapper { padding: var(--space-xs); }
   .logoTitle {
     line-height: 32px;
     font-weight: 900;
     font-size: 2rem;
-    color: var(--theme-title-color);
+    color: var(--color-primary);
   }
   .navPrimarySubmenu { margin: 0; padding: 0; }
-  .navPrimarySubmenu li:nth-child(odd) { background-color: var(--theme-alternative-background-color); }
+  .navPrimarySubmenu li:nth-child(odd) { background-color: var(--color-text); }
   .navPrimarySubmenu li:nth-child(even) { background-color: var(--color-white); }
-  .navPrimarySubmenu a { padding: var(--space-xxs) var(--space-xs); font-size: 0.9rem; display: block; }
+  .navPrimarySubmenu a { padding: var(--space-xxs) var(--space-xs); display: block; }
   .navPrimaryBtn {
     display: flex;
     padding: var(--space-xxs) var(--space-xs);
     align-items: center;
   }
   .mobilePrimaryMenu { padding-top: var(--space-sm); }
-  .mobilePrimaryMenu button { margin-left: 0; font-size: 1.2rem }
+  .mobilePrimaryMenu button { margin-left: 0; }
   .mobilePrimarySubmenu { padding-left: var(--space-lg); }
-  .mobilePrimarySubmenu a { font-size: 1.2rem; }
   .mobile { border-top: 1px solid rgba(255,255,255,0.06); border-bottom: 1px solid rgba(255,255,255,0.06); }
   .dropdownAnimate { transition: transform .15s ease, opacity .15s ease; }
   button {

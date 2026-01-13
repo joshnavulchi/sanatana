@@ -1,78 +1,144 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-/* Base reset, typography and utility base styles */
-html {
-  font-size: 16px;
-}
+/* 3) Core layout & typography */
+html { scroll-behavior: smooth; }
 body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  line-height: var(--line-height);
   margin: 0;
-  font-family: var(--font-body);
-  color: var(--theme-body-text-color);
-  background-color: var(--theme-background-color);
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%; /* avoids iOS zoom issues */
+
 }
+/* 4) Theming utilities */
+.bg-primary { background-color: var(--color-primary); }
+.text-primary { color: var(--color-primary); }
+.bg-secondary { background-color: var(--color-secondary); }
+.text-secondary { color: var(--color-secondary); }
+.bg-surface { background-color: var(--color-surface); }
+.text-muted { color: var(--color-muted); }
+.border { border: 1px solid var(--color-border); }
+.shadow-soft { box-shadow: var(--shadow-soft); }
+.shadow-strong { box-shadow: var(--shadow-strong); }
+/* 5) Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  padding: .35rem 1rem;
+  border-radius: .35rem;
+  border: 1px solid transparent;
+  text-decoration: none;
+  transition: transform .08s ease, box-shadow .2s ease, background-color .2s ease;
+}
+.btn-primary {
+  background: var(--color-primary);
+  color: #fff;
+  box-shadow: var(--shadow-soft);
+  &:hover {
+    transform: translateY(-1px);
+    filter: brightness(1.05);
+  }
+}
+.btn-outline {
+  background: transparent;
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  &:hover {
+    transform: translateY(-1px);
+    filter: brightness(1.05);
+  }
+}
+.btn-secondary {
+  background: var(--color-secondary);
+  color: #fff;
+  &:hover {
+    transform: translateY(-1px);
+    filter: brightness(1.05);
+  }
+}
+/* 6) Links */
 a {
   position: relative;
   text-decoration: none;
-  color: #250007;
+  color: var(--color-primary);
+  text-decoration-color: rgba(217, 119, 6, .35);
+  &:hover {
+    text-decoration-color: currentColor;
+  }
   &.no-underline::after,
   &.no-underline:hover::after {
     display: none;
   }
 }
 a:not(.button) {
-	background: linear-gradient(to right,#363636 0%,#363636 100%);
-	background-repeat: no-repeat;
-	background-position: left 100%;
-	transition-duration: 1s;
-	background-size: 0 6%;
-  &.logo,
-  &.card {
+  &.logo {
     background-repeat: inherit !important;
     background-position: inherit !important;
     transition-duration: 0s !important;
     background-size: inherit !important;
-  }
-  &.logo {
     background: inherit !important;
-  }
-  &.card {
-    background: var(--theme-alternative-background-color);
   }
 	&:hover {
 		background-size:100% 6%;
 	}
 }
+/* 7) Cards */
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: .75rem;
+  padding: 1rem;
+  box-shadow: var(--shadow-soft);
+}
+/* 8) Header / Nav (with subtle gradient) */
+.site-header {
+  background: var(--gradient-auspicious);
+  color: #fff;
+}
+.site-header a { color: #fff; }
+/* 9) Focus visibility for accessibility */
+:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+  border-radius: .4rem;
+}
+/* Paragraphs & small text */
 ul, ol {
+  list-style: disc;
   padding-left: 1rem;
   margin-bottom: var(--space-sm);
-  font-size: 1.2rem;
 }
 li {
   margin-bottom: 0.5rem;
 }
-small,
-.small,
-.meta {
-  font-size: 0.9rem;
+p, li { font-size: 1rem; } /* equals base (fluid) */
+small { font-size: 0.875rem; } /* 14px-ish at base */
+/* Headings: fluid using clamp(min, viewport, max) */
+h1 {
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: clamp(1.875rem, 1.5rem + 2.5vw, 3rem); /* ~30 → 48px */
+  margin: 0.75em 0 0.4em;
 }
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-heading);
+h2 {
+  font-weight: 700;
+  line-height: 1.25;
+  font-size: clamp(1.5rem, 1.25rem + 1.8vw, 2.25rem); /* ~24 → 36px */
+  margin: 0.85em 0 0.5em;
+}
+h3 {
   font-weight: 700;
   line-height: 1.3;
-  margin-top: var(--space-xl);
-  margin-bottom: var(--space-sm);
+  font-size: clamp(1.25rem, 1.125rem + 1.2vw, 1.75rem); /* ~20 → 28px */
+  margin: 1em 0 0.5em;
 }
-h1 { font-size: 2.2rem; }
-h2 { font-size: 2rem; }
-h3 { font-size: 1.8rem; }
-h4 { font-size: 1.6rem; }
-h5 { font-size: 1.4rem; }
-h6 { font-size: 1.2rem; }
+h4 { font-size: clamp(1.125rem, 1rem + 0.8vw, 1.5rem); } /* ~18 → 24px */
+h5 { font-size: clamp(1rem, 0.95rem + 0.5vw, 1.25rem); } /* ~16 → 20px */
+h6 { font-size: clamp(0.9375rem, 0.9rem + 0.35vw, 1.125rem); } /* ~15 → 18px */
 p {
   margin-top: 0;
   margin-bottom: var(--space-md);
-  font-size: 1rem;
 }
 input[type="text"],
 input[type="email"],
@@ -82,37 +148,20 @@ textarea {
   padding: var(--space-xxs) var(--space-sm);
 }
 .site-title {
-  color: var(--theme-body-text-color);
+  color: var(--color-white);
 }
 .site-subtitle {
-  color: var(--theme-sub-title-color);
+  color: var(--color-text);
 }
-button,
-.button {
-  display: inline-block;
-  font-size: 0.9rem;
-  padding: var(--space-xs) var(--space-md);
-  border-radius: var(--space-xs);
-  cursor: pointer;
-  &.scroll-to-top {
-    padding: var(--space-xs)
-  }
+.title {
+  margin-top: 0;
+  font-size: 2.2rem;
 }
-.button-primary {
-  background-color: #dd9630;
-  color: #fff;
-  border: none;
-  &:hover {
-    background-color: #ff9600;
-  }
+.subtitle {
+  margin-top: 0;
 }
-.button-secondary {
-  background-color: #fdf8ea;
-  border: 2px solid #dd9630;
-  color: #432720;
-  &:hover {
-    background-color: #ffd585;
-  }
+.description {
+  margin-top: 0;
 }
 .cookies-wrapper,
 .cookies-preference-wrapper {
@@ -126,7 +175,7 @@ button,
   small,
   .small,
   .meta {
-    color: var(--theme-body-text-color);
+    color: var(--color-white);
   }
   .buttons-group {
     margin-top: var(--space-md);
@@ -159,62 +208,10 @@ button,
     color: var(--color-blue);
   }
 }
-.title {
-  margin-top: 0;
-  font-size: 1.4rem;
-  font-weight: 700;
-}
-.subtitle {
-  margin-top: 0;
-  font-size: 1.2rem;
-  font-weight: 500;
-}
-.description {
-  margin-top: 0;
-  font-size: 1rem;
-}
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 @media (min-width: 1024px) {
   html {
     font-size: 18px;
   }
-  body {
-    line-height: 1.7;
-  }
-  h1 {
-    font-size: 1.7rem;
-  }
-  h2 {
-    font-size: 1.6rem;
-  }
-  h3 {
-    font-size: 1.5rem;
-  }
-  h4 {
-    font-size: 1.4rem;
-  }
-  h5 {
-    font-size: 1.3rem;
-  }
-  h6 {
-    font-size: 1.2rem;
-  }
-  p {
-    font-size: 1rem;
-  }
-  ul, ol {
-    font-size: 1rem;
-  }
-  small, .small, .meta { font-size: 0.75rem; }
-  .title {
-    font-size: 1.8rem;
-  }
-  .subtitle {
-    font-size: 1.2rem;
-  }
-  .description {
-    font-size: 1rem;
-  }
-  small, .small, .meta { font-size: 0.75rem; }
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

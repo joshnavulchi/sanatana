@@ -37,7 +37,7 @@ export default function HoroscopeClient() {
         </div>
       </div>
       <div>
-        <button className="bg-amber-300 hover:bg-amber-400" onClick={onGenerate}>Generate</button>
+        <button className="btn btn-primary" onClick={onGenerate}>Generate</button>
       </div>
 
       {result ? (

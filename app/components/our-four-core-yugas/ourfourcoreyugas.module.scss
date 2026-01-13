@@ -1,35 +1,24 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 .ourFourCoreYugas {
-  padding: var(--space-3xl) 0;
+  padding: var(--space-3xl) var(--space-md);
   .title {
-    margin-bottom: var(--space-xxs);
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   .subtitle {
-    margin-bottom: var(--space-xl);
     font-size: 1.2rem;
   }
   .bgline {
-    height: 2px;
+    height: 1px;
     width: 100%;
-    top: 75.5%;
+    top: 68%;
     transform: translateY(-12px);
   }
-  .boxarrow::after {
-    content: "";
-    position: absolute;
-    right: -60px;
-    width: 0;
-    height: 0;
-    border-top: 40px solid #0000;
-    border-bottom: 40px solid #0000;
-    border-left: 60px solid white;
-  }
   .arrow {
-    padding: var(--space-sm) var(--space-2xl) var(--space-sm) var(--space-sm);
+    padding: var(--space-xl);
   }
   .years {
     margin-top: var(--space-sm);
+    font-size: 1rem;
   }
   .yearsafterline {
     width: 1px;
@@ -37,44 +26,60 @@
     bottom: -5px;
     right: 25%;
   }
-  // background-color: var(--theme-background-color);
-  // padding: var(--space-2xl) var(--space-md);
-  // .cardtitle {
-  //   font-size: 1.6rem;
-  //   color: var(--theme-title-color);
-  //   font-weight: 600;
-  // }
-  // .cardage {
-  //   font-size: 1.4rem;
-  //   color: var(--theme-sub-title-color);
-  // }
-  // .cards {
-  //   margin-top: var(--space-xl);
-  //   flex-wrap: wrap;
-  // }
-  // .card {
-  //   background-color: var(--theme-alternative-background-color);
-  //   padding: var(--space-lg);
-  // }
-  // .list {
-  //   margin: 0;
-  //   padding: 0;
-  //   font-size: 1rem;
-  // }
 }
 @media (min-width: 1024px) {
-  // .ourFourCoreYugas {
-  //   .cards {
-  //     flex-wrap: inherit;
-  //   }
-  //   .cardage {
-  //     font-size: 1.2rem;
-  //     color: var(--theme-sub-title-color);
-  //   }
-  //   .list {
-  //     font-size: 0.9rem;
-  //   }
-  // }
+  .ourFourCoreYugas {
+    .boxarrow {
+      position: relative;
+      z-index: 0;
+      padding-left: var(--space-sm);
+      &::before {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        right: -60px;
+        width: 0;
+        height: 0;
+        border-top: 51px solid #0000;
+        border-bottom: 51px solid #0000;
+        border-left: 60px solid white;
+      }
+    }
+    .subtitle {
+      font-size: 1rem;
+    }
+    .years {
+      margin-top: var(--space-md);
+      font-size: 0.85rem;
+    }
+    .arrow {
+      padding: var(--space-md) var(--space-xl) var(--space-md) var(--space-md);
+    }
+    .boxarrowwrapper div:first-child {
+      z-index: 3;
+      .boxarrow::before {
+        border-left: 60px solid #f14a00;
+      }
+    }
+    .boxarrowwrapper div:nth-child(2) {
+      z-index: 2;
+      .boxarrow::before {
+        border-left: 60px solid #ffb800;
+      }
+    }
+    .boxarrowwrapper div:nth-child(3) {
+      z-index: 1;
+      .boxarrow::before {
+        border-left: 60px solid #ff6800;
+      }
+    }
+    .boxarrowwrapper div:last-child {
+      z-index: 0;
+      .boxarrow::before {
+        border-left: 60px solid #c60035;
+      }
+    }
+  }
 }
 @media (min-width: 1600px) {
 }

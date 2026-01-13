@@ -138,8 +138,8 @@ export default function CookieConsent() {
     }
     try { await saveToServer(p); } catch (err) { /* ignore */ }
     // Load analytics now that user consented
-    try { loadGtag(process.env.NEXT_PUBLIC_GA_ID); } catch {}
-    try { loadGTM(process.env.NEXT_PUBLIC_GTM_ID); } catch {}
+    try { loadGtag(process.env.NEXT_PUBLIC_GA_ID); } catch { }
+    try { loadGTM(process.env.NEXT_PUBLIC_GTM_ID); } catch { }
     setVisible(false);
   }
 
@@ -159,8 +159,8 @@ export default function CookieConsent() {
     try { await saveToServer(p); } catch (err) { /* ignore */ }
     // Load analytics selectively based on granted preferences
     if (p.performance || p.targeting) {
-      try { loadGtag(process.env.NEXT_PUBLIC_GA_ID); } catch {}
-      try { loadGTM(process.env.NEXT_PUBLIC_GTM_ID); } catch {}
+      try { loadGtag(process.env.NEXT_PUBLIC_GA_ID); } catch { }
+      try { loadGTM(process.env.NEXT_PUBLIC_GTM_ID); } catch { }
     }
   }
 
@@ -191,8 +191,8 @@ export default function CookieConsent() {
           </div>
 
           <div className="flex text-right gap-2">
-            <button className="button inline-block shadow-sm bg-amber-400 hover:bg-amber-200 no-underline" onClick={() => setModalOpen(true)}>{t('cookieconsent.managerbutton')}</button>
-            <button className="button inline-block shadow-sm bg-green-400 hover:bg-green-200 no-underline" onClick={acceptAll}>{t('cookieconsent.acceptall')}</button>
+            <button className="btn btn-outline no-underline" onClick={() => setModalOpen(true)}>{t('cookieconsent.managerbutton')}</button>
+            <button className="btn btn-primary no-underline" onClick={acceptAll}>{t('cookieconsent.acceptall')}</button>
           </div>
         </div>
       </div>

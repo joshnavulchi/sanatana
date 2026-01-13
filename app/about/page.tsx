@@ -1,8 +1,8 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale } from '../../lib/i18n';
+import { JSX } from 'react';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-import FaqAccordion from '@components/common/FaqAccordion';
 export const generateMetadata = createGenerateMetadata('about');
 
 import styles from './page.module.scss';
@@ -19,21 +19,22 @@ export default function Page({ searchParams }: any) {
     };
     return {
       title: String(t('about.title', locale) || ''),
-      description: String(t('about.description', locale) || ''),
-      vision: {
-        description: String(t('about.vision.description', locale) || ''),
-        focusAreas: (t('about.vision.focusAreas', locale) as string[]),
-        goal: String(t('about.vision.goal', locale) || '')
-      },
-      whyWeCreated: {
-        purpose: String(t('about.whywecreated.purpose', locale) || ''),
-        problemsAddressed: (t('about.whywecreated.problemsaddressed', locale) as string[])
-      },
-      commitment: (t('about.commitment', locale) as string[]),
-      joinUs: {
-        message: String(t('about.joinus.message', locale) || ''),
-        invite: (t('about.joinus.invite', locale) as string[])
-      },
+      intro: String(t('about.intro', locale) || ''),
+      sections: t('about.sections', locale) || '',
+      // vision: {
+      //   description: String(t('about.vision.description', locale) || ''),
+      //   focusAreas: (t('about.vision.focusAreas', locale) as string[]),
+      //   goal: String(t('about.vision.goal', locale) || '')
+      // },
+      // whyWeCreated: {
+      //   purpose: String(t('about.whywecreated.purpose', locale) || ''),
+      //   problemsAddressed: (t('about.whywecreated.problemsaddressed', locale) as string[])
+      // },
+      // commitment: (t('about.commitment', locale) as string[]),
+      // joinUs: {
+      //   message: String(t('about.joinus.message', locale) || ''),
+      //   invite: (t('about.joinus.invite', locale) as string[])
+      // },
       disclaimer: String(t('about.disclaimer', locale) || '')
     };
   })();
@@ -46,21 +47,22 @@ export default function Page({ searchParams }: any) {
         { label: 'About' }]}
       className={`${styles.aboutPage} layout-sm`}
     >
-      <p>{about.description}</p>
-      <div>
-        <h2 className={styles.subtitle}>Vision</h2>
-        <p>{about.vision.description}</p>
-        {Array.isArray(about.vision.focusAreas) && (
-          <ul role="list" className="list-disc">
-            {about.vision.focusAreas.map((f: string, i: number) => (
-              <li key={i}>{f}</li>
-            ))}
-          </ul>
-        )}
-        {about.vision.goal && <p><strong>Goal:</strong> {about.vision.goal}</p>}
-      </div>
-
-      <div>
+      <p>{about.intro}</p>
+      {about.sections.map((section: any, index: number) => {
+        const level = Math.min(index + 2, 6);
+        const Tag = `h${level}` as keyof JSX.IntrinsicElements
+        return (
+          <>
+            <Tag className={`title`}>{section.title}</Tag>
+            {section?.text && <p>{section.text}</p>}
+            <ul className="list-disk">
+              {section?.bullets && section?.bullets.map((text: string, idx: number) =>
+                <li key={idx}>{text}</li>
+              )}
+            </ul>
+          </>);
+      })}
+      {/* <div>
         <h3 className={styles.subtitle}>Why we created this</h3>
         <p>{about.whyWeCreated.purpose}</p>
         <ul role="list" className="list-disc">
@@ -89,22 +91,9 @@ export default function Page({ searchParams }: any) {
             </ul>
           )}
         </div>
-      )}
+      )} */}
 
-      {about.disclaimer && <p>{about.disclaimer}</p>}
-      {/* FAQs */}
-      {(() => {
-        try {
-          const faqItems = (t('about.faq.items', locale) as any) || [];
-          const faqHeading = String(t('about.faq.heading', locale) || '');
-          if (Array.isArray(faqItems) && faqItems.length > 0) {
-            return <FaqAccordion items={faqItems} heading={faqHeading} />;
-          }
-        } catch (e) {
-          /* ignore */
-        }
-        return null;
-      })()}
+      {about.disclaimer && <p><strong>Disclaimer : </strong>{about.disclaimer}</p>}
     </PageLayout>
   );
 }

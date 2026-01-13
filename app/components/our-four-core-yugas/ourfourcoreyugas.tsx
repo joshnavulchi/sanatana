@@ -6,7 +6,7 @@ import styles from './ourfourcoreyugas.module.scss';
 
 const Segment = ({ title, subtitle, years, gradientFrom, gradientTo, isFirst, isLast, }: any) => {
   return (
-    <div className="relative w-1/4 flex flex-col items-center">
+    <div className="relative flex flex-col items-center">
       {/* Arrow segment */}
       <div className={["relative text-white", "bg-gradient-to-r", gradientFrom, gradientTo,
         "shadow-lg/60", "drop-shadow-[0_6px_18px_rgba(0,0,0,0.35)]",
@@ -24,7 +24,7 @@ const Segment = ({ title, subtitle, years, gradientFrom, gradientTo, isFirst, is
         "ring-1 ring-white/10",
       ].join(" ")}>
         {/* Title + subtitle */}
-        <div className={`${styles.boxarrow} flex items-center`}>
+        <div className={`${styles.boxarrow} flex items-center before:bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.20),transparent_60%)`}>
           {/* Optional tiny feather/arrow glyph on left */}
           {!isFirst && (
             <span className="hidden sm:inline-block text-white/70">
@@ -42,10 +42,10 @@ const Segment = ({ title, subtitle, years, gradientFrom, gradientTo, isFirst, is
             </span>
           )}
           <div className={`${styles.arrow} text-center sm:text-left`}>
-            <div className="font-serif text-lg sm:text-2xl tracking-wide drop-shadow-[0_1px_0_rgba(0,0,0,0.25)]">
+            <div className={`${styles.title} tracking-wide drop-shadow-[0_1px_0_rgba(0,0,0,0.25)]`}>
               {title}
             </div>
-            <div className="text-xs sm:text-sm text-white/80 -mt-0.5">
+            <div className={`${styles.subtitle} text-white/80`}>
               {subtitle}
             </div>
           </div>
@@ -77,9 +77,9 @@ export default function OurFourCoreYugas() {
         <p className={`${styles.title} text-white`}>{title}</p>
         <p className={`${styles.subtitle} text-white`}>{subtitle}</p>
         {/* Thin line behind segments */}
-        <div className={`${styles.bgline} absolute bg-white/20`} />
+        <div className={`${styles.bgline} md:absolute md:bg-white/20`} />
         {/* Container */}
-        <div className="w-full flex gap-4">
+        <div className={`${styles.boxarrowwrapper} w-full flex flex-col md:flex-row md:items-center md:justify-center gap-10`}>
           {/* Segments row */}
           {yugas.map((y, idx) => (
             <Segment

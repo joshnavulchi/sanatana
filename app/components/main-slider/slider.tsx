@@ -95,10 +95,10 @@ export default function MainSlider() {
                 <p>{slide.englishTitle}</p>
                 <p>{slide.subtitle}</p>
                 <div className="mt-10 flex flex-row gap-4">
-                  <Link href="/scriptures/bhagavathgita" className="button inline-block shadow-sm button-primary no-underline">
+                  <Link href="/scriptures/bhagavathgita" className="btn btn-primary inline-block shadow-sm button-primary no-underline">
                     {heroButtons.explore}
                   </Link>
-                  <Link href="/stotrasmantras/shiva" className="button inline-block shadow-sm button-secondary no-underline">
+                  <Link href="/stotrasmantras/shiva" className="btn btn-primary inline-block shadow-sm button-secondary no-underline">
                     {heroButtons.learnMore}
                   </Link>
                 </div>
@@ -110,14 +110,14 @@ export default function MainSlider() {
             ) : ''}
           </div>
         ))}
-        <button onClick={prevSlide} className="absolute z-20 left-4 top-1/2 -translate-y-1/2 bg-amber-400 hover:bg-amber-200 no-underline shadow-md cursor-pointer">&#8592;</button>
-        <button onClick={nextSlide} className="absolute z-20 right-4 top-1/2 -translate-y-1/2 bg-amber-400 hover:bg-amber-200 no-underline shadow-md cursor-pointer">&#8594;</button>
+        <button onClick={prevSlide} className="btn btn-primary absolute z-20 left-4 top-1/2 -translate-y-1/2 no-underline shadow-md cursor-pointer">&#8592;</button>
+        <button onClick={nextSlide} className="btn btn-outline absolute z-20 right-4 top-1/2 -translate-y-1/2 no-underline shadow-md cursor-pointer">&#8594;</button>
       </div>
       <div className="slider-dots absolute z-20 left-0 bottom-10 w-full text-center flex justify-center gap-2">
         {slides.map((_: any, idx: number) => (
           <button
             key={idx}
-            className={`rounded-full! bg-amber-400 border-2 ${idx === current ? ' border-black' : 'bg-white no-underline'}`}
+            className={`rounded-full! btn btn-primary ${idx === current ? ' border-black' : ' no-underline'}`}
             onClick={() => setCurrent(idx)}
             aria-label={`Go to slide ${idx + 1}`}
           />

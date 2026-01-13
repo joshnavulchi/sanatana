@@ -5,7 +5,7 @@ import styles from './aboutshiva.module.scss';
 
 export default function AboutShiva({ locale }: { locale?: string }) {
   return (
-    <div className="background-alternative">
+    <div className="bg-white">
       <div className="content-wrapper">
         <div className="multi-text-color">
           {parseList(t('home.shivaheading', locale || DEFAULT_LOCALE)).map((s, i) => <span key={i}>{s} </span>)}

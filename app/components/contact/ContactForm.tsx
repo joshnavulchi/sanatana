@@ -72,7 +72,7 @@ export default function ContactForm() {
         <button
           type="submit"
           disabled={submitting}
-          className="bg-amber-300 hover:bg-amber-400"
+          className="btn btn-primary"
         >
           {submitting ? translations["contactForm.sending"] : translations["contactForm.sendMessage"]}
         </button>

@@ -114,8 +114,8 @@ export default function QuizClient() {
         <h2>Ready for the Quiz?</h2>
         <p>You will be asked {qList.length} random questions. You have {fmtTime(timeLeft)} to complete the quiz.</p>
         <div className="flex gap-3">
-          <button onClick={() => setStarted(true)} className="px-4 py-2 bg-green-600 text-white rounded">Start Quiz</button>
-          <button onClick={restart}>Shuffle Questions</button>
+          <button className="btn btn-primary" onClick={() => setStarted(true)}>Start Quiz</button>
+          <button className="btn btn-primary" onClick={restart}>Shuffle Questions</button>
         </div>
       </div>
     );
@@ -146,7 +146,7 @@ export default function QuizClient() {
           ))}
         </div>
         <div className="flex gap-3">
-          <button onClick={restart}>Restart Quiz</button>
+          <button className="btn btn-primary" onClick={restart}>Restart Quiz</button>
         </div>
       </div>
     );
@@ -166,10 +166,9 @@ export default function QuizClient() {
         <div className="grid gap-2">
           {(['A', 'B', 'C', 'D'] as (keyof Options)[]).map((k) => (
             <button
+              className="btn btn-primary"
               key={k}
-              onClick={() => selectOption(k)}
-              className={`text-left border rounded ${answers[q.id] === k ? 'bg-blue-100' : ''}`}
-            >
+              onClick={() => selectOption(k)}>
               <strong>{k}.</strong> {q.options[k]}
             </button>
           ))}
@@ -177,8 +176,8 @@ export default function QuizClient() {
 
         <div className="flex justify-between">
           <div>
-            <button onClick={goPrev} disabled={current === 0}>Previous</button>
-            <button onClick={goNext}>{current < qList.length - 1 ? 'Next' : 'Finish'}</button>
+            <button className="btn btn-primary" onClick={goPrev} disabled={current === 0}>Previous</button>
+            <button className="btn btn-primary" onClick={goNext}>{current < qList.length - 1 ? 'Next' : 'Finish'}</button>
           </div>
           <div className="text-gray-600">Answered: {Object.keys(answers).length} / {qList.length}</div>
         </div>
