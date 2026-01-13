@@ -63,13 +63,13 @@ export default function Footer() {
     <footer className={`${styles.footer} gradient-background w-full`}>
       <div className={`relative z-29`}>
         <section className="content-wrapper text-center">
-          <p className={`${styles.title} title`}>{title}</p>
-          <p className={`${styles.subtitle} subtitle`}>{quote} {quoteSource}</p>
+          <p className={`text-shadow-lg/14 title`}>{title}</p>
+          <p className={`subtitle`}>{quote} {quoteSource}</p>
           <div className="flex items-center justify-center gap-4">
-            <Link href="/contact" className={`${styles.button} btn btn-outline no-underline`}>
+            <Link href="/contact" className={`${styles.button} btn btn-secondary no-underline`}>
               {contactLabel}
             </Link>
-            <Link href="/donate" className={`${styles.button} btn btn-outline no-underline`}>
+            <Link href="/donate" className={`${styles.button} btn btn-secondary no-underline`}>
               {donateLabel}
             </Link>
           </div>
