@@ -24,7 +24,7 @@ const Segment = ({ title, subtitle, years, gradientFrom, gradientTo, isFirst, is
         "ring-1 ring-white/10",
       ].join(" ")}>
         {/* Title + subtitle */}
-        <div className={`${styles.boxarrow} flex items-center`}>
+        <div className={`${styles.boxarrow} flex items-center before:bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.20),transparent_60%)`}>
           {/* Optional tiny feather/arrow glyph on left */}
           {!isFirst && (
             <span className="hidden sm:inline-block text-white/70">
@@ -79,7 +79,7 @@ export default function OurFourCoreYugas() {
         {/* Thin line behind segments */}
         <div className={`${styles.bgline} md:absolute md:bg-white/20`} />
         {/* Container */}
-        <div className="w-full flex flex-col md:flex-row md:items-center md:justify-center gap-10 md:gap-4">
+        <div className={`${styles.boxarrowwrapper} w-full flex flex-col md:flex-row md:items-center md:justify-center gap-10`}>
           {/* Segments row */}
           {yugas.map((y, idx) => (
             <Segment
