@@ -1,6 +1,9 @@
 .gitsupport {
   padding: var(--space-2xl) var(--space-md);
   color: var(--color-bg);
+  .btn-outline {
+    background-color: var(--color-bg);
+  }
 }
 @media (min-width: 1024px) {
   .gitsupport {

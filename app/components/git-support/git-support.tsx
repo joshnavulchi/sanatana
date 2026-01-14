@@ -9,7 +9,7 @@ import styles from './gitsupport.module.scss';
 export default function GitSupport({ locale }: { locale?: string }) {
   const loc = locale || DEFAULT_LOCALE;
   return (
-    <section className={`gradient-background map-wrapper md:md:min-h-160 relative z-0 overflow-hidden`}>
+    <section className={`gradient-background map-wrapper md:min-h-screen relative z-0 overflow-hidden`}>
       <WorldMapAnimated
         stroke="#ffffff"
         fill="#000000"
@@ -23,11 +23,11 @@ export default function GitSupport({ locale }: { locale?: string }) {
         showGraticule={false}
       />
       <div className={`${styles.gitsupport} md:content-wrapper md:absolute md:top-1/2 md:left-20 md:-translate-y-1/2 md:z-1`}>
-        <p className={`title font-light!`}>{t('cta.title', loc)}</p>
-        <p>{t('cta.subtitle', loc)}</p>
-        <div className="flex flex-col md:flex-row gap-4 md:gap-8">
-          <Link href="https://github.com/vulchivijay/first-contributes" target="_blank" className="btn btn-primary inline-block shadow-sm button-primary no-underline">{t('cta.contribute', loc)}</Link>
-          <Link href="https://github.com/vulchivijay/first-contributes" target="_blank" className="btn btn-primary inline-block shadow-sm button-secondary no-underline">{t('cta.guidelines', loc)}</Link>
+        <p className={`title inline-block! font-light! bg-black/75! px-3!`}>{t('cta.title', loc)}</p>
+        <p className={``}>{t('cta.subtitle', loc)}</p>
+        <div className="flex flex-col md:flex-row gap-4">
+          <Link href="https://github.com/vulchivijay/first-contributes" target="_blank" className={`bg-black/50! btn btn-outline no-underline`}>{t('cta.contribute', loc)}</Link>
+          <Link href="https://github.com/vulchivijay/first-contributes" target="_blank" className={`bg-black/50! btn btn-outline no-underline`}>{t('cta.guidelines', loc)}</Link>
         </div>
       </div>
     </section>

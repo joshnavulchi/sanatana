@@ -1,8 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 .footer {
   p { color: var(--color-bg); }
-  a:not(.button) { color: var(--color-bg); }
-  .button { color: var(--color-white); }
+  a:not(.btn) { color: var(--color-bg); }
   .navWrapper {
     padding: 0 var(--space-md);
     border-color: var(--color-bg);
