@@ -8,6 +8,27 @@
       "url": "https://sanatanadharmam.in/philosophy/yoga",
       "canonical": "https://sanatanadharmam.in/philosophy/yoga"
     },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/og/philosophy-yoga.jpg",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
+    },
     "title": "",
     "definition": "Yoga is a spiritual discipline and philosophy aimed at harmonizing body, mind, and soul to achieve self-realization and liberation (Moksha).",
     "origin": {

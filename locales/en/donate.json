@@ -8,6 +8,27 @@
       "url": "https://sanatanadharmam.in/donate",
       "canonical": "https://sanatanadharmam.in/donate"
     },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Donate Us",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/og/donate.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
+    },
     "title": "Donate Us",
     "lead": "Your support helps keep the content free and accessible. Thank you for considering a donation.",
     "description": "Sanatanadharmam.in is maintained as a public service to preserve and share the teachings, scriptures, and devotional resources of Sanātana Dharma. Keeping this work available requires time, hosting, content curation, formatting, and modest operational costs. Donations help cover these costs and enable us to expand audio recordings, transliteration tools, translations, and community outreach. We welcome contributions of any size and are committed to transparency regarding how funds are utilized.\n\nThis donation page explains the different ways you can support the project, the principles that guide our spending, and the practical impact your contribution can make. We aim to be clear about recurring and one-time support, to provide secure channels for transfers, and to offer guidance on how donations are allocated. If you'd like a tax receipt or official documentation, please contact us using the `contactPage` channel so we can advise depending on your location and the nature of support.\n\nWe deeply appreciate voluntary giving. Many donors support specific activities such as website hosting, domain renewal, audio production, typesetting and proofreading of Sanskrit texts, and platform services that keep the site fast and secure. Some donors choose to contribute to translation projects, or to sponsor the digitization of a particular text. Wherever possible we try to surface sponsorship opportunities so donors can support work that matters most to them.",

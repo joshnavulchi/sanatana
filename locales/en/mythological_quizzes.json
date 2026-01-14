@@ -8,6 +8,27 @@
       "url": "https://sanatanadharmam.in/kidszone/mythologicalquizzes",
       "canonical": "https://sanatanadharmam.in/kidszone/mythologicalquizzes"
     },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Mythological Quizzes",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/og/kidszone-mythologicalquizzes.jpg",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
+    },
     "title": "Mythological Quizzes",
     "description": "Answer 10 random questions in 10 minutes. Good luck!",
     "searchlabel": "Search",

@@ -8,6 +8,27 @@
       "url": "https://sanatanadharmam.in/scriptures/ramayana",
       "canonical": "https://sanatanadharmam.in/scriptures/ramayana"
     },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "The Ramayana",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/og/ramayana.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
+    },
     "title": "The Ramayana",
     "source": "Valmiki Ramayana",
     "description": "The Ramayana is an ancient Indian epic that teaches dharma, truth, devotion, and righteousness through the life of Lord Rama.",

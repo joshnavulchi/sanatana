@@ -8,6 +8,27 @@
       "url": "https://sanatanadharmam.in/scriptures/puranas",
       "canonical": "https://sanatanadharmam.in/scriptures/puranas"
     },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Hindu Puranas Overview",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/og/puranas.jpg",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
+    },
     "title": "Hindu Puranas Overview",
     "definition": "Ancient Hindu texts that narrate stories of gods, sages, kings, cosmology, and philosophy.",
     "classification": 18,

@@ -4,6 +4,27 @@
     "links": {
       "alive": "/donate"
     },
-    "subtitle": " and Help us grow by making a small donation."
+    "subtitle": " and Help us grow by making a small donation.",
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "If you find our work helpful, consider supporting us to keep this web page ",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/logo.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
+    }
   }
 }

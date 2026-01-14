@@ -8,6 +8,27 @@
       "url": "https://sanatanadharmam.in/about",
       "canonical": "https://sanatanadharmam.in/about"
     },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/og/about.jpg",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
+    },
     "title": "About Sanatanadharmam.in",
     "intro": "Welcome to Sanātana Dharmam, your gateway to the timeless wisdom of the eternal path. Rooted in ancient Vedic traditions, our mission is to illuminate the fundamental principles of Sanātana Dharma—often referred to as Hinduism—in its purest, most authentic form.",
     "sections": [

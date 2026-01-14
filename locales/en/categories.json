@@ -1,6 +1,6 @@
 {
-  "categories": [
-    {
+  "categories": {
+    "0": {
       "id": "Bhagavad Gita",
       "src": "/icons/book.png",
       "alt": "book",
@@ -9,7 +9,7 @@
       "width": 65,
       "height": 75
     },
-    {
+    "1": {
       "id": "Upanishads",
       "src": "/icons/book.png",
       "alt": "om",
@@ -18,7 +18,7 @@
       "width": 75,
       "height": 75
     },
-    {
+    "2": {
       "id": "Vedas",
       "src": "/icons/book.png",
       "alt": "temple",
@@ -27,7 +27,7 @@
       "width": 75,
       "height": 75
     },
-    {
+    "3": {
       "id": "Mahabharata",
       "src": "/icons/book.png",
       "alt": "lotus",
@@ -36,7 +36,7 @@
       "width": 75,
       "height": 75
     },
-    {
+    "4": {
       "id": "Ramayana",
       "src": "/icons/book.png",
       "alt": "book",
@@ -45,7 +45,7 @@
       "width": 75,
       "height": 75
     },
-    {
+    "5": {
       "id": "Puranas",
       "src": "/icons/book.png",
       "alt": "ramayanam",
@@ -54,7 +54,7 @@
       "width": 75,
       "height": 75
     },
-    {
+    "6": {
       "id": "Shiva Stotras",
       "src": "/icons/book.png",
       "alt": "trisulam",
@@ -63,7 +63,7 @@
       "width": 65,
       "height": 75
     },
-    {
+    "7": {
       "id": "Vishnu Stotras",
       "src": "/icons/book.png",
       "alt": "om",
@@ -72,7 +72,7 @@
       "width": 75,
       "height": 75
     },
-    {
+    "8": {
       "id": "Devi Stotras",
       "src": "/icons/book.png",
       "alt": "temple",
@@ -81,7 +81,7 @@
       "width": 75,
       "height": 75
     },
-    {
+    "9": {
       "id": "Hanuman Stotras",
       "src": "/icons/book.png",
       "alt": "lotus",
@@ -90,7 +90,7 @@
       "width": 75,
       "height": 75
     },
-    {
+    "10": {
       "id": "Ganesha Stotras",
       "src": "/icons/book.png",
       "alt": "book",
@@ -99,7 +99,7 @@
       "width": 75,
       "height": 75
     },
-    {
+    "11": {
       "id": "Daily Prayers",
       "src": "/icons/book.png",
       "alt": "ramayanam",
@@ -108,7 +108,7 @@
       "width": 75,
       "height": 75
     },
-    {
+    "12": {
       "id": "Dharma",
       "src": "/icons/book.png",
       "alt": "trisulam",
@@ -117,7 +117,7 @@
       "width": 65,
       "height": 75
     },
-    {
+    "13": {
       "id": "Karma",
       "src": "/icons/book.png",
       "alt": "om",
@@ -126,7 +126,7 @@
       "width": 75,
       "height": 75
     },
-    {
+    "14": {
       "id": "Samsara",
       "src": "/icons/book.png",
       "alt": "temple",
@@ -135,7 +135,7 @@
       "width": 75,
       "height": 75
     },
-    {
+    "15": {
       "id": "Moksha",
       "src": "/icons/book.png",
       "alt": "lotus",
@@ -144,7 +144,7 @@
       "width": 75,
       "height": 75
     },
-    {
+    "16": {
       "id": "Yoga",
       "src": "/icons/book.png",
       "alt": "book",
@@ -153,7 +153,7 @@
       "width": 75,
       "height": 75
     },
-    {
+    "17": {
       "id": "Advaita",
       "src": "/icons/book.png",
       "alt": "ramayanam",
@@ -162,7 +162,7 @@
       "width": 75,
       "height": 75
     },
-    {
+    "18": {
       "id": "Rituals",
       "src": "/icons/book.png",
       "alt": "trisulam",
@@ -171,7 +171,7 @@
       "width": 65,
       "height": 75
     },
-    {
+    "19": {
       "id": "Festivals",
       "src": "/icons/book.png",
       "alt": "om",
@@ -180,7 +180,7 @@
       "width": 75,
       "height": 75
     },
-    {
+    "20": {
       "id": "Daily Puja",
       "src": "/icons/book.png",
       "alt": "temple",
@@ -189,7 +189,7 @@
       "width": 75,
       "height": 75
     },
-    {
+    "21": {
       "id": "Vastu",
       "src": "/icons/book.png",
       "alt": "lotus",
@@ -198,7 +198,7 @@
       "width": 75,
       "height": 75
     },
-    {
+    "22": {
       "id": "Puranic",
       "src": "/icons/book.png",
       "alt": "temple",
@@ -207,7 +207,7 @@
       "width": 75,
       "height": 75
     },
-    {
+    "23": {
       "id": "Moral Stories for Children",
       "src": "/icons/book.png",
       "alt": "lotus",
@@ -216,7 +216,7 @@
       "width": 75,
       "height": 75
     },
-    {
+    "24": {
       "id": "Illustrated Stories",
       "src": "/icons/book.png",
       "alt": "trisulam",
@@ -225,7 +225,7 @@
       "width": 65,
       "height": 75
     },
-    {
+    "25": {
       "id": "Mythological Quizzes",
       "src": "/icons/book.png",
       "alt": "om",
@@ -234,7 +234,7 @@
       "width": 75,
       "height": 75
     },
-    {
+    "26": {
       "id": "Easy Mantras",
       "src": "/icons/book.png",
       "alt": "temple",
@@ -243,7 +243,7 @@
       "width": 75,
       "height": 75
     },
-    {
+    "27": {
       "id": "Mythology Comics",
       "src": "/icons/book.png",
       "alt": "lotus",
@@ -251,6 +251,27 @@
       "text": "...",
       "width": 75,
       "height": 75
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/logo.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
     }
-  ]
+  }
 }

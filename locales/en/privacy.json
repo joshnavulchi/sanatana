@@ -8,6 +8,27 @@
       "url": "https://sanatanadharmam.in/our-privacy-policy",
       "canonical": "https://sanatanadharmam.in/our-privacy-policy"
     },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Privacy Policy",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/og/privacy.jpg",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
+    },
     "title": "Privacy Policy",
     "lastupdated": "November 2025",
     "intro": {

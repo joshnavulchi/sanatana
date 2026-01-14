@@ -8,6 +8,27 @@
       "url": "https://sanatanadharmam.in",
       "canonical": "https://sanatanadharmam.in"
     },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/og/scriptures-puranas-vishnu.jpg",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
+    },
     "title": "",
     "vishnu_stotras": [
       {

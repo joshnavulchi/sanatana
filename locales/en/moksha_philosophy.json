@@ -8,6 +8,27 @@
       "url": "https://sanatanadharmam.in/philosophy/moksha",
       "canonical": "https://sanatanadharmam.in/philosophy/moksha"
     },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/og/philosophy-moksha.jpg",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
+    },
     "title": "",
     "definition": "Moksha is the ultimate goal in Hindu philosophy, signifying liberation from the cycle of birth and death (samsara) and union with the Supreme Reality.",
     "origin": {

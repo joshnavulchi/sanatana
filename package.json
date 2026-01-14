@@ -21,7 +21,8 @@
     "preview:static": "npx serve@latest out -l 3000",
     "lint": "eslint",
     "test": "jest --runInBand",
-    "noEmit": "npx tsc --noEmit"
+    "noEmit": "npx tsc --noEmit",
+    "apply:page-schemas": "node scripts/apply-page-schemas.mjs"
   },
   "dependencies": {
     "mongodb": "^7",

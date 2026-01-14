@@ -39,10 +39,38 @@ export default async function StructuredData({ metaKey, params, locale }: Props)
   }
   // Clean webpage
   Object.keys(webpage).forEach((k) => webpage[k] === undefined && delete webpage[k]);
+  // Attempt to load a full per-page locale file on the server and extract
+  // a `schema` object if present. Do this only server-side to avoid
+  // bundling locale files into the client bundle.
+  let pageSchema: Record<string, unknown> | null = null;
+  if (typeof window === 'undefined') {
+    try {
+      // Try a few common filename variants similar to `getMeta`.
+      const candidates = [metaKey, metaKey.replace(/_/g, '-'), metaKey.replace(/_/g, '')];
+      for (const candidate of candidates) {
+        try {
+          // eslint-disable-next-line @typescript-eslint/no-var-requires
+          const mod = require(`../../../locales/${loc}/${candidate}.json`);
+          const obj = (mod && (mod.default || mod)) as any;
+          // The file may export an object keyed by the page name.
+          let pageObj = obj?.[metaKey] ?? obj?.[candidate] ?? obj;
+          if (pageObj && typeof pageObj === 'object') {
+            pageSchema = pageObj.schema ?? obj.schema ?? null;
+            if (pageSchema) break;
+          }
+        } catch (err) {
+          continue;
+        }
+      }
+    } catch (e) {
+      // ignore and continue — no schema will be rendered
+    }
+  }
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webpage) }} />
-      {article && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(article) }} />}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webpage).replace(/</g, '\\u003c') }} />
+      {article && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(article).replace(/</g, '\\u003c') }} />}
+      {pageSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema).replace(/</g, '\\u003c') }} />}
     </>
   );
 }

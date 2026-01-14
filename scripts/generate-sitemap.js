@@ -40,6 +40,26 @@ function loadExcludes() {
   return new Set();
 }
 
+// Optional: allow explicitly selecting which paths to include via lib/sitemapInclude.json
+function loadIncludes() {
+  try {
+    const p = path.join(process.cwd(), 'lib', 'sitemapInclude.json');
+    if (fs.existsSync(p)) {
+      const raw = fs.readFileSync(p, 'utf8');
+      const arr = JSON.parse(raw);
+      if (Array.isArray(arr)) {
+        // normalize to leading-slash paths
+        return new Set(arr.map(s => (typeof s === 'string' ? (s.startsWith('/') ? s : `/${s}`) : '').filter(Boolean)).flat());
+      }
+    }
+  } catch (err) {
+    // ignore
+  }
+  return null;
+}
+
+const INCLUDES = loadIncludes();
+
 const EXCLUDES = loadExcludes();
 
 function readPaths() {
@@ -150,6 +170,13 @@ function readPaths() {
       return items;
     }
   }
+
+    // If a sitemapInclude.json exists, use that explicit list instead of the
+    // automatic nav/manifest-derived paths. This lets maintainers choose exactly
+    // which pages to publish in the sitemap.
+    if (INCLUDES && INCLUDES.size > 0) {
+      return Array.from(INCLUDES).sort();
+    }
 
   try {
     const navPath = path.join(process.cwd(), 'locales', 'en', 'nav.json');

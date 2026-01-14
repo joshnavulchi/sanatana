@@ -8,6 +8,27 @@
       "url": "https://sanatanadharmam.in/scriptures/sanksheparamayanam",
       "canonical": "https://sanatanadharmam.in/scriptures/sanksheparamayanam"
     },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Sanksepa Ramayana",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/og/ramayana.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
+    },
     "title": "Sanksepa Ramayana",
     "source": "Valmiki Ramayana – Bala Kanda, Sarga 1 (Narada–Valmiki Samvada)",
     "total_slokas": 100,
