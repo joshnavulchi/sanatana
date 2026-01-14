@@ -8,6 +8,9 @@ const fs = require('fs');
 const path = require('path');
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://sanatanadharmam.in';
+// If invoked with --fresh, skip using .next prerender manifest and always
+// compute paths from source (sitemapPaths.ts / nav) or includes.
+const FRESH = process.argv.includes('--fresh');
 // Derive locales from lib/localesList.json when present; fall back to English-only.
 function loadLocales() {
   try {
@@ -49,11 +52,18 @@ function loadIncludes() {
       const arr = JSON.parse(raw);
       if (Array.isArray(arr)) {
         // normalize to leading-slash paths
-        return new Set(arr.map(s => (typeof s === 'string' ? (s.startsWith('/') ? s : `/${s}`) : '').filter(Boolean)).flat());
+        const items = arr
+          .map(s => (typeof s === 'string' ? (s.startsWith('/') ? s : `/${s}`) : null))
+          .filter(Boolean);
+        if (items.length > 0) {
+          console.log('Loaded lib/sitemapInclude.json with', items.length, 'entries');
+          return new Set(items);
+        }
+        return new Set();
       }
     }
   } catch (err) {
-    // ignore
+    console.error('Failed to parse lib/sitemapInclude.json:', err && err.message ? err.message : err);
   }
   return null;
 }
@@ -70,7 +80,7 @@ function readPaths() {
   // Prefer Next's prerender manifest (routes actually built) when available.
   try {
     const manifestPath = path.join(process.cwd(), '.next', 'prerender-manifest.json');
-    if (fs.existsSync(manifestPath)) {
+    if (!FRESH && fs.existsSync(manifestPath)) {
       const raw = fs.readFileSync(manifestPath, 'utf8');
       const manifest = JSON.parse(raw);
       const routes = manifest && manifest.routes ? Object.keys(manifest.routes) : [];
