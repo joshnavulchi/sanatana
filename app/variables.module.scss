@@ -2,8 +2,9 @@
 /* 1) Base CSS variables: Light theme */
 :root {
   /* Brand core */
-  --color-primary: #D97706; /* deep saffron */
-  --color-primary-strong: #B45309;
+  /* Darken primary to improve foreground contrast against white text */
+  --color-primary: #B45309; /* deep saffron (darker) */
+  --color-primary-strong: #8A2E03;
   --color-secondary: #7F1D1D; /* maroon */
   --color-accent: #C89227; /* gold */
 
@@ -84,9 +85,9 @@
   --color-muted: #9CA3AF;       /* gray-400 */
   --color-border: #1F2937;
 
-  /* Keep brand saturated but slightly darker */
-  --color-primary: #F59E0B;
-  --color-primary-strong: #D97706;
+  /* Keep brand saturated but slightly darker for dark theme to maintain contrast */
+  --color-primary: #B45309;
+  --color-primary-strong: #8A2E03;
   --color-secondary: #991B1B;
   --color-accent: #D4A24A;
 
@@ -96,7 +97,7 @@
 
 /* 10) Festival accent toggle (e.g., Navaratri, Diwali, Kumbhabhishekham) */
 :root[data-festival="diwali"] {
-  --color-primary: #D97706; /* saffron */
+  --color-primary: #B45309; /* saffron (darker) */
   --color-secondary: #3F0C0C; /* deep maroon */
   --color-accent: #FFD166;    /* warm gold glow */
   --gradient-auspicious: linear-gradient(135deg, #F59E0B 0%, #FFD166 50%, #7F1D1D 100%);
