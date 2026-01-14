@@ -63,6 +63,10 @@ const INCLUDES = loadIncludes();
 const EXCLUDES = loadExcludes();
 
 function readPaths() {
+  // Compute auto-discovered paths from prerender manifest, sitemapPaths.ts,
+  // or nav.json (legacy), and then optionally validate `lib/sitemapInclude.json`.
+  let autoPaths = null;
+
   // Prefer Next's prerender manifest (routes actually built) when available.
   try {
     const manifestPath = path.join(process.cwd(), '.next', 'prerender-manifest.json');
@@ -150,58 +154,70 @@ function readPaths() {
           }
           expanded.push(r);
         }
-        return expanded;
+        autoPaths = expanded;
     }
   } catch (err) {
     // ignore and fall back to previous behavior
   }
 
   // Fallback: read lib/sitemapPaths.ts and locales nav (legacy behavior)
-  const p = path.join(process.cwd(), 'lib', 'sitemapPaths.ts');
-  if (fs.existsSync(p)) {
-    const src = fs.readFileSync(p, 'utf8');
-    const m = src.match(/export const PATHS\s*=\s*\[(([\s\S]*?)\];)/m);
-    if (m) {
-      const arrSrc = m[0].replace(/export const PATHS\s*=\s*/m, '');
-      const items = [];
-      const re = /'([^']+)'/g;
-      let it;
-      while ((it = re.exec(arrSrc)) !== null) items.push(it[1]);
-      return items;
-    }
-  }
-
-    // If a sitemapInclude.json exists, use that explicit list instead of the
-    // automatic nav/manifest-derived paths. This lets maintainers choose exactly
-    // which pages to publish in the sitemap.
-    if (INCLUDES && INCLUDES.size > 0) {
-      return Array.from(INCLUDES).sort();
-    }
-
-  try {
-    const navPath = path.join(process.cwd(), 'locales', 'en', 'nav.json');
-    const navRaw = fs.readFileSync(navPath, 'utf8');
-    const nav = JSON.parse(navRaw);
-    const navRoot = nav && nav.nav ? nav.nav : (nav && nav.default && nav.default.nav) || {};
-    const set = new Set(['/']);
-    const staticExtras = ['/privacy-policy', '/terms-of-service'];
-    for (const s of staticExtras) set.add(s);
-    for (const key of Object.keys(navRoot)) {
-      if (key === 'home') continue;
-      const topPath = `/${key}`;
-      set.add(topPath);
-      const item = navRoot[key];
-      if (item && typeof item === 'object') {
-        const children = item.nav || item['nav'];
-        if (children && typeof children === 'object') {
-          for (const childKey of Object.keys(children)) set.add(`${topPath}/${childKey}`);
-        }
+  if (!autoPaths) {
+    const p = path.join(process.cwd(), 'lib', 'sitemapPaths.ts');
+    if (fs.existsSync(p)) {
+      const src = fs.readFileSync(p, 'utf8');
+      const m = src.match(/export const PATHS\s*=\s*\[(([\s\S]*?)\];)/m);
+      if (m) {
+        const arrSrc = m[0].replace(/export const PATHS\s*=\s*/m, '');
+        const items = [];
+        const re = /'([^']+)'/g;
+        let it;
+        while ((it = re.exec(arrSrc)) !== null) items.push(it[1]);
+        autoPaths = items;
       }
     }
-    return Array.from(set).sort();
-  } catch (err) {
-    throw new Error('PATHS not found in lib/sitemapPaths.ts and fallback failed');
   }
+
+  if (!autoPaths) {
+    try {
+      const navPath = path.join(process.cwd(), 'locales', 'en', 'nav.json');
+      const navRaw = fs.readFileSync(navPath, 'utf8');
+      const nav = JSON.parse(navRaw);
+      const navRoot = nav && nav.nav ? nav.nav : (nav && nav.default && nav.default.nav) || {};
+      const set = new Set(['/']);
+      const staticExtras = ['/privacy-policy', '/terms-of-service'];
+      for (const s of staticExtras) set.add(s);
+      for (const key of Object.keys(navRoot)) {
+        if (key === 'home') continue;
+        const topPath = `/${key}`;
+        set.add(topPath);
+        const item = navRoot[key];
+        if (item && typeof item === 'object') {
+          const children = item.nav || item['nav'];
+          if (children && typeof children === 'object') {
+            for (const childKey of Object.keys(children)) set.add(`${topPath}/${childKey}`);
+          }
+        }
+      }
+      autoPaths = Array.from(set).sort();
+    } catch (err) {
+      throw new Error('PATHS not found in lib/sitemapPaths.ts and fallback failed');
+    }
+  }
+
+  // If a sitemapInclude.json exists, validate includes against autoPaths and warn
+  if (INCLUDES && INCLUDES.size > 0) {
+    const autoSet = new Set(autoPaths);
+    const includesArr = Array.from(INCLUDES).sort();
+    const missing = includesArr.filter(p => !autoSet.has(p));
+    if (missing.length > 0) {
+      console.warn('Warning: the following paths in lib/sitemapInclude.json were not found in auto-discovered paths:');
+      for (const m of missing) console.warn('  -', m);
+      console.warn('They will still be included in the sitemap, but double-check these paths are correct.');
+    }
+    return includesArr;
+  }
+
+  return autoPaths;
 }
 
 function buildSitemap(paths) {
