@@ -66,10 +66,10 @@ export default function Footer() {
           <p className={`text-shadow-lg/14 title`}>{title}</p>
           <p className={`subtitle`}>{quote} {quoteSource}</p>
           <div className="flex items-center justify-center gap-4">
-            <Link href="/contact" className={`${styles.button} btn btn-secondary no-underline`}>
+            <Link href="/contact" className={`bg-black/50! btn btn-outline no-underline`}>
               {contactLabel}
             </Link>
-            <Link href="/donate" className={`${styles.button} btn btn-secondary no-underline`}>
+            <Link href="/donate" className={`bg-black/50! btn btn-outline no-underline`}>
               {donateLabel}
             </Link>
           </div>

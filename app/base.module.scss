@@ -61,6 +61,7 @@ body {
 a {
   position: relative;
   text-decoration: none;
+  font-size: 0.95rem;
   color: var(--color-primary);
   text-decoration-color: rgba(217, 119, 6, .35);
   &:hover {
@@ -90,6 +91,12 @@ a:not(.button) {
   border-radius: .75rem;
   padding: 1rem;
   box-shadow: var(--shadow-soft);
+  &:hover {
+    box-shadow: var(--shadow-strong);
+  }
+  a {
+    font-size: 0.75rem;
+  }
 }
 /* 8) Header / Nav (with subtle gradient) */
 .site-header {
