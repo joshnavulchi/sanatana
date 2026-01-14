@@ -33,6 +33,8 @@ export default function Header() {
   });
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [expandedKeys, setExpandedKeys] = useState<Record<string, boolean>>({});
+  const [dropdownAligns, setDropdownAligns] = useState<Record<string, 'left' | 'center' | 'right'>>({});
+  const [dropdownPositions, setDropdownPositions] = useState<Record<string, number>>({});
   const dropdownRefs = useRef<Record<string, (HTMLElement | null)[]>>({});
   const triggerRefs = useRef<Record<string, HTMLButtonElement | null>>({});
   const headerRef = useRef<HTMLElement | null>(null);
@@ -40,6 +42,26 @@ export default function Header() {
 
   const openDropdownForKey = (k: string) => {
     lastOpenKeyRef.current = k;
+    try {
+      const trigger = triggerRefs.current[k];
+      if (trigger && typeof window !== 'undefined') {
+        const rect = trigger.getBoundingClientRect();
+        const dropdownWidth = 14 * 16; // w-56 -> 14rem * 16px
+        const padding = 12; // keep a small padding from viewport edge
+        // compute left so panel stays within viewport
+        let left = Math.max(padding, rect.left);
+        if (left + dropdownWidth > window.innerWidth - padding) {
+          // align to the right edge of viewport minus dropdown width
+          left = Math.max(padding, window.innerWidth - padding - dropdownWidth);
+          setDropdownAligns((s) => ({ ...s, [k]: 'right' }));
+        } else {
+          setDropdownAligns((s) => ({ ...s, [k]: 'left' }));
+        }
+        setDropdownPositions((s) => ({ ...s, [k]: Math.round(left) }));
+      }
+    } catch (e) {
+      // ignore measurement errors
+    }
     setOpenDropdown(k);
   };
   const closeDropdown = () => {
@@ -47,7 +69,7 @@ export default function Header() {
   };
 
   // Small animated panel used for desktop submenus so open/close animate
-  function DropdownPanel({ open, id, align = 'left', children }: { open: boolean; id?: string; align?: 'left' | 'center'; children: React.ReactNode }) {
+  function DropdownPanel({ open, id, align = 'left', positionLeft, children }: { open: boolean; id?: string; align?: 'left' | 'center' | 'right'; positionLeft?: number; children: React.ReactNode }) {
     const [render, setRender] = useState(open);
     const [visible, setVisible] = useState(false);
     useEffect(() => {
@@ -63,13 +85,15 @@ export default function Header() {
     }, [open]);
 
     if (!render) return null;
-    const alignClass = align === 'center' ? 'left-1/2 -translate-x-1/2' : 'left-0';
+    const alignClass = align === 'center' ? 'left-1/2 -translate-x-1/2' : (align === 'right' ? 'right-0' : 'left-0');
+    const style = positionLeft != null ? { left: `${positionLeft}px` } : undefined;
     return (
       <div
         id={id}
         role="menu"
         aria-hidden={!open}
-        className={`absolute top-full w-56 rounded bg-white shadow-md overflow-hidden transition-all duration-150 transform origin-top ${alignClass} ${visible ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-95 -translate-y-1"} ${styles.dropdownAnimate}`}
+        style={style as any}
+        className={`absolute top-full w-56 rounded bg-white shadow-md overflow-hidden transition-all duration-150 transform origin-top ${positionLeft != null ? '' : alignClass} ${visible ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-95 -translate-y-1"} ${styles.dropdownAnimate}`}
       >
         {children}
       </div>
@@ -172,7 +196,12 @@ export default function Header() {
             {(() => {
               const entries = Object.entries(translations.nav);
               const topKeys = entries.map(([k]) => k);
-              return entries.map(([key, val]: [string, any]) => {
+              // keys that render dropdowns on desktop (exclude simple links)
+              const dropdownKeys = entries
+                .filter(([k, v]) => !(k === 'home' || k === 'contact' || k === 'about' || k === 'donate'))
+                .filter(([k, v]) => typeof v !== 'string')
+                .map(([k]) => k);
+              return entries.map(([key, val]: [string, any], idx: number) => {
                 if (key === 'home') return null;
                 if (key === 'contact') return null;
                 if (key === 'about') return null;
@@ -254,42 +283,52 @@ export default function Header() {
                       </svg>
                     </button>
 
-                    <DropdownPanel open={openDropdown === key} id={`submenu-${key}`} align={(val && val.align) ? val.align : 'left'}>
-                      <ul role="list" className={`${styles.navPrimarySubmenu} flex flex-col`}>
-                        {Object.entries(children).map(([cKey, cLabel], idx) => (
-                          <li key={cKey}>
-                            <Link href={`/${key}/${cKey}`} legacyBehavior>
-                              <a
-                                className="block"
-                                role="menuitem"
-                                tabIndex={0}
-                                ref={(el: any) => {
-                                  if (!dropdownRefs.current[key]) dropdownRefs.current[key] = [];
-                                  dropdownRefs.current[key][idx] = el;
-                                }}
-                                onKeyDown={(e: any) => {
-                                  const arr = dropdownRefs.current[key] || [];
-                                  if (e.key === 'ArrowDown') {
-                                    e.preventDefault();
-                                    const next = arr[idx + 1] ?? arr[0];
-                                    next?.focus();
-                                  }
-                                  if (e.key === 'ArrowUp') {
-                                    e.preventDefault();
-                                    const prev = arr[idx - 1] ?? arr[arr.length - 1];
-                                    prev?.focus();
-                                  }
-                                  if (e.key === 'Escape') {
-                                    closeDropdown();
-                                    setTimeout(() => triggerRefs.current[key]?.focus(), 0);
-                                  }
-                                }}
-                              >{cLabel as string}</a>
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </DropdownPanel>
+                    {(() => {
+                      const isDropdown = typeof val !== 'string';
+                      const isLastTwo = isDropdown && dropdownKeys.indexOf(key) >= Math.max(0, dropdownKeys.length - 2);
+                      const defaultAlign = isLastTwo ? 'right' : 'left';
+                      const computedAlign = (val && val.align) ? val.align : (dropdownAligns[key] || defaultAlign);
+                      const positionLeft = dropdownPositions[key];
+                      return (
+                        <DropdownPanel open={openDropdown === key} id={`submenu-${key}`} align={computedAlign} positionLeft={positionLeft}>
+                          <ul role="list" className={`${styles.navPrimarySubmenu} flex flex-col`}>
+                            {Object.entries(children).map(([cKey, cLabel], idx) => (
+                              <li key={cKey}>
+                                <Link href={`/${key}/${cKey}`} legacyBehavior>
+                                  <a
+                                    className="block"
+                                    role="menuitem"
+                                    tabIndex={0}
+                                    ref={(el: any) => {
+                                      if (!dropdownRefs.current[key]) dropdownRefs.current[key] = [];
+                                      dropdownRefs.current[key][idx] = el;
+                                    }}
+                                    onKeyDown={(e: any) => {
+                                      const arr = dropdownRefs.current[key] || [];
+                                      if (e.key === 'ArrowDown') {
+                                        e.preventDefault();
+                                        const next = arr[idx + 1] ?? arr[0];
+                                        next?.focus();
+                                      }
+                                      if (e.key === 'ArrowUp') {
+                                        e.preventDefault();
+                                        const prev = arr[idx - 1] ?? arr[arr.length - 1];
+                                        prev?.focus();
+                                      }
+                                      if (e.key === 'Escape') {
+                                        closeDropdown();
+                                        setTimeout(() => triggerRefs.current[key]?.focus(), 0);
+                                      }
+                                    }}
+                                  >{cLabel as string}</a>
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        </DropdownPanel>
+                      );
+                    })()}
+                    
                   </div>
                 );
               });

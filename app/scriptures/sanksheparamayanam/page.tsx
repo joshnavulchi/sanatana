@@ -87,9 +87,9 @@ export default function Page({ searchParams }: any) {
           {/* Sankshepa ramayanam and slokas */}
           <div className="sankshepa-slokas">
             {page.slokas && page.slokas.map((s: any) => (
-              <div key={s.sloka}>
-                <p className="font-semibold text-center">{s.sanskrit}</p>
-                <p className="text-center">{s.english}</p>
+              <div key={s.sloka} className="text-center mt-10">
+                <p className="title font-semibold">{s.sanskrit}</p>
+                <p className="description">{s.english}</p>
               </div>
             ))}
           </div>
