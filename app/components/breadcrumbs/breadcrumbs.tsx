@@ -28,21 +28,26 @@ function normalizeBreadcrumbs(items: CrumbInput[], locale?: string): Crumb[] {
 export default function Breadcrumbs({ items, locale }: { items: CrumbInput[]; locale?: string }) {
   const normalized = normalizeBreadcrumbs(items, locale);
   return (
-    <nav role="menu" aria-label="Breadcrumb" className={styles.breadcrumbs}>
-      <ul role="list" className="breadcrumb-wrapper flex items-center">
-        {normalized.map((it, idx) => (
-          <li key={idx}>
-            {it.href ? (
-              <Link href={it.href}>
-                {it.label}
-              </Link>
-            ) : (
-              <span>{it.label}</span>
-            )}
-            {idx < normalized.length - 1 && <span className="inline-block mx-2">/</span>}
-          </li>
-        ))}
-      </ul>
+    <nav aria-label="Breadcrumb" className={styles.breadcrumbs}>
+      <ol className="breadcrumb-wrapper flex items-center">
+        {normalized.map((it, idx) => {
+          const isLast = idx === normalized.length - 1;
+          return (
+            <li key={idx} className="flex items-center" aria-current={isLast ? 'page' : undefined}>
+              {it.href && !isLast ? (
+                <Link href={it.href}>
+                  {it.label}
+                </Link>
+              ) : (
+                <span>{it.label}</span>
+              )}
+              {idx < normalized.length - 1 && (
+                <span className="inline-block mx-2" aria-hidden="true">/</span>
+              )}
+            </li>
+          );
+        })}
+      </ol>
     </nav>
   );
 }
