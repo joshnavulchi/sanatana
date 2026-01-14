@@ -9,6 +9,27 @@
       "shastras": "Shastras section"
     },
     "suggestedtitle": "Suggested resources",
-    "suggestedtext": "Find original texts, translations, and recommended secondary literature linked from the resource panel on this site."
+    "suggestedtext": "Find original texts, translations, and recommended secondary literature linked from the resource panel on this site.",
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/logo.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
+    }
   }
 }

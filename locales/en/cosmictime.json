@@ -8,6 +8,27 @@
       "url": "https://sanatanadharmam.in/philosophy/cosmictime",
       "canonical": "https://sanatanadharmam.in/philosophy/cosmictime"
     },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "How is a duration of 1,728,000 human years possible?",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/og/cosmictime.jpg",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
+    },
     "title": "How is a duration of 1,728,000 human years possible?",
     "definition": "In Sanātana Dharma, time is not conceived in short, linear spans (centures or millennia) but as Vast, Cyclic, Cosmological scales. The duration of Satya Yuga = 1,728,000 human years becomes understandable when viewed through this framework.",
     "yugasystem": "The Yuga System Is Mathematical, Not Symbolic Guesswork",

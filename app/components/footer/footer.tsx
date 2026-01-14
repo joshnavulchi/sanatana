@@ -176,16 +176,16 @@ export default function Footer() {
             <small> I am using <Link href='https://gemini.google.com/' title='Gemini AI' target='_blank' className='text-white no-underline'>Gemini AI</Link>, <Link href='https://www.meta.ai/' title='Meta AI' target='_blank' className='text-white no-underline'>Meta AI</Link> and  <Link href='https://github.com/features/copilot' title='Github Copilot' target='_blank' className='text-white no-underline'>Github Copilot</Link> basic plan to generating content of the website.</small>
           </div>
           <nav role="list" className={`${styles.socialIcons} md:w-1/4 flex items-center justify-end gap-6`}>
-            <Link aria-label="Visit us on LinkedIn" href="https://in.linkedin.com/in/vulchivijayakumar" target="_blank" className=" no-underline">
+            <Link role="listitem" aria-label="Visit us on LinkedIn" href="https://in.linkedin.com/in/vulchivijayakumar" target="_blank" className=" no-underline">
               <Image src="/images/svg/linkedin.svg" alt="linkedin" width={24} height={24} className="inline-block" />
             </Link>
-            <Link aria-label="Visit us on Codepen" href="https://codepen.io/vulchivijay" target="_blank" className=" no-underline">
+            <Link role="listitem" aria-label="Visit us on Codepen" href="https://codepen.io/vulchivijay" target="_blank" className=" no-underline">
               <Image src="/images/svg/codepen.svg" alt="codepen" width={24} height={24} className="inline-block" />
             </Link>
-            <Link aria-label="Visit us on Github" href="https://github.com/vulchivijay" target="_blank" className=" no-underline">
+            <Link role="listitem" aria-label="Visit us on Github" href="https://github.com/vulchivijay" target="_blank" className=" no-underline">
               <Image src="/images/svg/github.svg" alt="github" width={24} height={24} className="inline-block" />
             </Link>
-            <Link aria-label="Visit us on Twitter" href="#" target="_blank" className="no-underline">
+            <Link role="listitem" aria-label="Visit us on Twitter" href="#" target="_blank" className="no-underline">
               <Image src="/images/svg/twitter.svg" alt="twitter" width={24} height={24} className="inline-block" />
             </Link>
           </nav>

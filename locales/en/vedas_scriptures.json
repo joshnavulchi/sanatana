@@ -8,6 +8,27 @@
       "url": "https://sanatanadharmam.in/scriptures/vedas",
       "canonical": "https://sanatanadharmam.in/scriptures/vedas"
     },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Ancient Hindu scriptures considered divine revelations, forming the foundation of Sanatan Dharma.",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/og/vedas.jpg",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
+    },
     "title": "Ancient Hindu scriptures considered divine revelations, forming the foundation of Sanatan Dharma.",
     "intro": "The Vedas (from the Sanskrit root 'vid' — to know) are the oldest stratum of South Asian sacred literature. Composed in Vedic Sanskrit and preserved through conservative oral transmission, they shaped ritual practice, social ideals, and early Indian thought.",
     "origin": {

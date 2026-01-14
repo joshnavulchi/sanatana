@@ -8,6 +8,27 @@
       "url": "https://sanatanadharmam.in/philosophy/karma",
       "canonical": "https://sanatanadharmam.in/philosophy/karma"
     },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/og/philosophy-karma.jpg",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
+    },
     "title": "",
     "definition": "Karma is the principle of cause and effect, where every action (physical, mental, or verbal) produces consequences that shape future experiences.",
     "origin": {

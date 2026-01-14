@@ -8,6 +8,27 @@
       "url": "https://sanatanadharmam.in/kidszone/illustratedstories",
       "canonical": "https://sanatanadharmam.in/kidszone/illustratedstories"
     },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Illustrated Stories",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/og/kidszone-illustratedstories.jpg",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
+    },
     "title": "Illustrated Stories",
     "description": "A curated collection of short illustrated stories and morals from Indian tradition. Click a story to read its summary and moral.",
     "kids_indian_stories": [

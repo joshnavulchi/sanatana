@@ -207,6 +207,27 @@
       "contactwebsitelabel": "Website:",
       "contactwebsite": "https://sanatanadharmam.in",
       "closing": "By accessing and using Sanātana Dharma, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service."
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "The Vedas — history, structure, and types",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/logo.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
     }
   }
 }

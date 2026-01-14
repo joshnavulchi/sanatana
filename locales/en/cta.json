@@ -5,6 +5,27 @@
     "contribute": "Contribute Now",
     "guidelines": "Translation Guidelines",
     "badge": "Supported: EN, TA, HI",
-    "targeting": "Targeting: 10 languages · 60% completed"
+    "targeting": "Targeting: 10 languages · 60% completed",
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Help us make this website multilingual!",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/logo.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
+    }
   }
 }

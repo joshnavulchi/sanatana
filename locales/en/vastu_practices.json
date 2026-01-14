@@ -8,6 +8,27 @@
       "url": "https://sanatanadharmam.in/practices/vastu",
       "canonical": "https://sanatanadharmam.in/practices/vastu"
     },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/og/practices-vastu.jpg",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
+    },
     "definition": "Vastu Doshas are imbalances or defects in the spatial arrangement of a building that disturb the natural energy flow, causing health, financial, and emotional issues.",
     "common_vastu_doshas": [
       {

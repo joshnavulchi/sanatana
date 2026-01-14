@@ -8,6 +8,27 @@
       "url": "https://sanatanadharmam.in/scriptures/bhagavathgita",
       "canonical": "https://sanatanadharmam.in/scriptures/bhagavathgita"
     },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Bhagavad Gita",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/og/bhagavathgita.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
+    },
     "title": "Bhagavad Gita",
     "chapters": [
       {

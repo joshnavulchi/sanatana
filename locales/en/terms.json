@@ -8,6 +8,27 @@
       "url": "https://sanatanadharmam.in/terms-of-service",
       "canonical": "https://sanatanadharmam.in/terms-of-service"
     },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Terms of Service",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/og/terms.jpg",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
+    },
     "title": "Terms of Service",
     "lastupdated": "November 2025",
     "intro": "By accessing and using the Sanātana Dharma website (sanatanadharmam.in), you agree to be bound by these Terms of Service.",

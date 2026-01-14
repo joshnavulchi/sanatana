@@ -8,6 +8,27 @@
       "url": "https://sanatanadharmam.in",
       "canonical": "https://sanatanadharmam.in"
     },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/og/home.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
+    },
     "role": "Vedic Sage, Brahmarshi (after intense penance), Creator of Gayatri Mantra",
     "lineage": {
       "birth": "Born as a Kshatriya prince, son of King Gadhi",

@@ -1,14 +1,76 @@
 {
   "contact": {
+    "title": "Contact Us",
+    "subtitle": "We’d love to hear from you",
+    "url": "https://sanatanadharmam.in/contact",
     "meta": {
-      "title": "Contact | Overview — Sanātana Dharma - Explore Sanatan Dharma",
-      "description": "Contact — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Contact. Explore practices, history, and guiding principles at SanatanaDharma.in.",
-      "keywords": "Contact, Sanātana Dharma, Hinduism, Vedic philosophy, Dharma and spirituality, Hindu scriptures, Bhagavad Gita teachings, Upanishads, Vedas and Puranas, Hindu rituals and traditions, Yoga and meditation, Hindu festivals, Spiritual wisdom, Hindu culture and heritage, Indian philosophy, Hindu gods and goddesses, Karma and rebirth, What is Sanātana Dharma, Principles of Sanātana Dharma, Importance of Vedas in Hinduism, Hindu spiritual practices for daily life, Meaning of Dharma in Hinduism, Sanātana Dharma vs modern life, How to follow Sanātana Dharma?, Sanātana Dharma in India,  Dharma, Mantra, Stotra, Stotras, Scripture, Scriptures, Commentary, Devotion, Practices, Ritual, Worship, Temple, Yoga, Meditation, Mythology, Story, History, Philosophy, Tradition, Culture, Chant, Festival, Legend",
+      "description": "Get in touch with Sanatanadharmam.in for inquiries, collaborations, or spiritual guidance. Reach us via email, phone, or contact form.",
+      "keywords": ["Sanatana Dharma contact", "spiritual guidance", "Hindu scriptures support", "Sanatanadharmam.in contact"],
+      "robots": "index, follow",
       "ogimage": "/og/contact.png",
-      "url": "https://sanatanadharmam.in/contact",
       "canonical": "https://sanatanadharmam.in/contact"
     },
-    "title": "Contact Us",
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/logo.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": ["English", "Telugu", "Hindi"]
+        }
+      }
+    },
+    "sections": [
+      {
+        "id": "intro",
+        "type": "text",
+        "content": "Sanatanadharmam.in is dedicated to spreading authentic knowledge of Sanatana Dharma. Whether you have questions, feedback, or collaboration ideas, we welcome your message."
+      },
+      {
+        "id": "contact-details",
+        "type": "grid",
+        "columns": [
+          {
+            "title": "📧 Email",
+            "content": "info@sanatanadharmam.in"
+          },
+          {
+            "title": "📞 Phone",
+            "content": "+91-8099181075"
+          },
+          {
+            "title": "📍 Address",
+            "content": "Tirupati, Andhra Pradesh, India"
+          }
+        ]
+      },
+      {
+        "id": "contact-form",
+        "type": "form",
+        "fields": [
+          { "name": "name", "type": "text", "placeholder": "Your Name", "required": true },
+          { "name": "email", "type": "email", "placeholder": "Your Email", "required": true },
+          { "name": "subject", "type": "text", "placeholder": "Subject", "required": false },
+          { "name": "message", "type": "textarea", "placeholder": "Your Message", "required": true }
+        ],
+        "submitButton": {
+          "label": "Send Message",
+          "action": "/api/contact/submit"
+        }
+      },
+      {
+        "id": "map",
+        "type": "embed",
+        "content": "Google Maps iframe of Tirupati, Andhra Pradesh"
+      }
+    ],
     "lead": "We'd love to hear from you — questions, corrections, or partnership enquiries.",
     "description": "This page describes practical ways to reach the team behind Sanatanadharmam.in, the kinds of requests we can handle, and what to expect after you get in touch. Our aim is to respond kindly and usefully to messages while balancing the workload of a small, volunteer-led project.\n\nPlease read the guidance below so your message reaches the right place and receives an appropriate response.",
     "getintouch": "Get in touch",
