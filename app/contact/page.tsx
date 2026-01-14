@@ -1,7 +1,8 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale } from '../../lib/i18n';
-import { createGenerateMetadata } from 'lib/pageUtils';
+import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
+import { parseList } from 'lib/parseList';
 import ContactForm from '../components/contact/ContactForm';
 import Image from 'next/image';
 import FaqAccordion from '@components/common/FaqAccordion';
@@ -9,44 +10,35 @@ export const generateMetadata = createGenerateMetadata('contact');
 
 import styles from './page.module.scss';
 
-async function loadContactSections(locale: string) {
-  try {
-    // server-side load of locale JSON
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const mod = require(`../../locales/${locale}/contact.json`);
-    const obj = (mod && (mod.default || mod)) as any;
-    const pageObj = obj?.contact ?? obj;
-    return Array.isArray(pageObj?.sections) ? pageObj.sections : [];
-  } catch (e) {
-    return [];
-  }
-}
-
-async function loadContactPage(locale: string) {
-  try {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const mod = require(`../../locales/${locale}/contact.json`);
-    const obj = (mod && (mod.default || mod)) as any;
-    return obj?.contact ?? obj ?? {};
-  } catch (e) {
-    return {};
-  }
-}
-
-export default async function ContactPage() {
-  const locale = await detectLocale();
+export default function ContactPage({ searchParams }: any) {
+  const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
-  const sections = await loadContactSections(locale);
-  const pageObj = await loadContactPage(locale);
+  const contact: any = (() => ({
+    title: String(t('contact.title', locale) || ''),
+    subtitle: String(t('contact.subtitle', locale) || ''),
+    sections: parseList(t('contact.sections', locale)),
+    submitButton: (t('contact.submitButton', locale) as any) || null,
+  }))();
 
   const renderSection = (sec: any, idx: number) => {
     const key = `${sec.id || sec.type}-${idx}`;
     switch (sec.type) {
       case 'text':
         return (
-          <section key={key} className="mb-6">
-            {sec.title ? <h2>{sec.title}</h2> : null}
+          <section key={key}>
+            {sec.title ? <h2 className="title">{sec.title}</h2> : null}
             {sec.content ? <p>{sec.content}</p> : null}
+            {sec?.items && (
+              <div className="mx-auto max-w-6xl cards flex gap-6 mt-4">
+                {sec.items.map((it: any, i: number) => (
+                  <div key={i} className="card w-full md:w-1/4 rounded-2xl">
+                    {it.src && <Image src={it.src} alt={it.title} width={76} height={76} />}
+                    <p className="font-semibold">{it.title}</p>
+                    <p>{it.description}</p>
+                  </div>
+                ))}
+              </div>
+            )}
           </section>
         );
       case 'grid':
@@ -92,12 +84,12 @@ export default async function ContactPage() {
     <>
       <PageLayout
         metaKey="contact"
-        title={S('contact.title')}
+        title={contact.title || S('contact.title')}
         breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Contact' }]}
         className="layout-sm"
       >
-        <p>{S('contact.subtitle')}</p>
-        {sections && sections.length > 0 ? sections.map(renderSection) : (
+        <p>{contact.subtitle || S('contact.subtitle')}</p>
+        {contact.sections && contact.sections.length > 0 ? contact.sections.map(renderSection) : (
           <>
             <section className="flex flex-col md:flex-row items-start justify-start gap-5">
               <div className="w-full md:w-1/2">
@@ -116,7 +108,7 @@ export default async function ContactPage() {
               </div>
               <div className={`${styles.contactform} w-full md:w-1/2 contact-form-wrapper shadow-md rounded-xl`}>
                 <p>{S('contact.sendmessage')}</p>
-                <ContactForm submitButton={pageObj?.submitButton ?? null} />
+                <ContactForm submitButton={contact?.submitButton ?? null} />
               </div>
             </section>
             <section>

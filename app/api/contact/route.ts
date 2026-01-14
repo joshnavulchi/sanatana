@@ -1,6 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 // API route to receive contact form submissions.
-export const dynamic = 'force-dynamic';
+export const dynamic = 'force-static';
 
 async function sendWithSendGrid(contactEmail: string, subject: string, body: string, replyTo?: { email?: string; name?: string }) {
   const key = process.env.SENDGRID_API_KEY;
