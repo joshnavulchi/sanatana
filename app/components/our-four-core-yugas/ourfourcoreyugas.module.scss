@@ -1,17 +1,10 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 .ourFourCoreYugas {
-  padding: var(--space-3xl) var(--space-md);
-  .title {
-    font-size: 1.6rem;
-    font-weight: semi-bold;
-  }
-  .subtitle {
-    font-size: 1.2rem;
-  }
+  padding: var(--space-3xl) var(--space-md);  
   .bgline {
     height: 1px;
     width: 100%;
-    top: 50px;
+    top: 53px;
     opacity: 0;
   }
   .arrow {
@@ -41,13 +34,10 @@
         right: -60px;
         width: 0;
         height: 0;
-        border-top: 51px solid #0000;
-        border-bottom: 51px solid #0000;
+        border-top: 54px solid #0000;
+        border-bottom: 54px solid #0000;
         border-left: 60px solid white;
       }
-    }
-    .subtitle {
-      font-size: 1rem;
     }
     .bgline {
       opacity: 1;
@@ -57,7 +47,7 @@
       font-size: 0.85rem;
     }
     .arrow {
-      padding: var(--space-md) var(--space-xl) var(--space-md) var(--space-md);
+      padding: var(--space-md) var(--space-md) var(--space-md) var(--space-md);
     }
     .boxarrowwrapper div:first-child {
       z-index: 0;

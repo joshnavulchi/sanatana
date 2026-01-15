@@ -63,8 +63,8 @@ export default function Footer() {
     <footer className={`${styles.footer} gradient-background w-full`}>
       <div className={`relative z-29`}>
         <section className="content-wrapper text-center">
-          <p className={`text-shadow-lg/14 title`}>{title}</p>
-          <p className={`subtitle`}>{quote} {quoteSource}</p>
+          <p className={`h2 font-light! text-shadow-lg/14 title`}>{title}</p>
+          <p>{quote} {quoteSource}</p>
           <div className="flex items-center justify-center gap-4">
             <Link href="/contact" className={`bg-black/50! btn btn-outline no-underline`}>
               {contactLabel}

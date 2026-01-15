@@ -42,10 +42,10 @@ const Segment = ({ title, subtitle, years, gradientFrom, gradientTo, isFirst, is
             </span>
           )}
           <div className={`${styles.arrow} text-center sm:text-left`}>
-            <div className={`${styles.title} tracking-wide drop-shadow-[0_1px_0_rgba(0,0,0,0.25)]`}>
+            <div className={`h3 m-0! font-light! tracking-wide drop-shadow-[0_1px_0_rgba(0,0,0,0.25)]`}>
               {title}
             </div>
-            <div className={`${styles.subtitle} text-white/80`}>
+            <div className={`h5 m-0! font-light! text-white/80`}>
               {subtitle}
             </div>
           </div>
@@ -74,8 +74,8 @@ export default function OurFourCoreYugas() {
   return (
     <section className={`bg-[radial-gradient(120%_120%_at_50%_0%,#8a3a31_10%,#b25435_40%,#502a26_100%)] text-center ${styles.ourFourCoreYugas} ? ${styles.ourFourCoreYugas} : ''`}>
       <div className="max-w-7xl mx-auto relative overflow-hidden">
-        <p className={`${styles.title} text-shadow-lg/14 text-3xl! text-white`}>{title}</p>
-        <p className={`${styles.subtitle} mx-auto max-w-6xl mb-12! text-white`}>{subtitle}</p>
+        <p className={`h2 font-light! text-white`}>{title}</p>
+        <p className={`mx-auto max-w-6xl md:mb-12! text-white`}>{subtitle}</p>
         {/* Container */}
         <div className={`${styles.boxarrowwrapper} relative w-full flex flex-col md:flex-row md:items-center md:justify-center gap-10 md:gap-0`}>
           {/* Thin line behind segments */}

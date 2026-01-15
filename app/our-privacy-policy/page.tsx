@@ -8,13 +8,13 @@ export default function PrivacyPolicyPage({ searchParams }: any) {
   return (
     <>
       <div className="content-wrapper md page-space-xl">
-        <h2>{S('policies.privacyPolicy.title')}</h2>
+        <p>{S('policies.privacyPolicy.title')}</p>
         <p>{S('policies.privacyPolicy.intro')}</p>
-        <h2>{S('policies.privacyPolicy.informationHeading')}</h2>
+        <p>{S('policies.privacyPolicy.informationHeading')}</p>
         <p>{S('policies.privacyPolicy.informationDesc')}</p>
-        <h3>{S('policies.privacyPolicy.howWeUse')}</h3>
+        <p>{S('policies.privacyPolicy.howWeUse')}</p>
         <p>{S('policies.privacyPolicy.howWeUseDesc')}</p>
-        <h4>{S('policies.privacyPolicy.yourRights')}</h4>
+        <p>{S('policies.privacyPolicy.yourRights')}</p>
         <p>{S('policies.privacyPolicy.yourRightsDesc')}</p>
         <p>{S('policies.privacyPolicy.lastUpdated').replace('{date}', new Date().toLocaleDateString())}</p>
       </div>

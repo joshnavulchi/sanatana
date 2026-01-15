@@ -16,7 +16,7 @@ export default function UnderstandingOfSanatana() {
         const Tag = `h${level}` as keyof JSX.IntrinsicElements
         return (<div key={section.id} className={`${styles.sections} text-center`}>
           <div className={`mx-auto max-w-3xl`}>
-            <Tag className={`mx-auto max-w-2xl ${!section?.nodecaration ? styles.borderbottom : ''} title`}>{section.title}</Tag>
+            <Tag className={`mx-auto max-w-2xl ${!section?.nodecaration ? styles.borderbottom : ''}`}>{section.title}</Tag>
             <p>{section.content}</p>
             {section?.src && <Image src={section.src} alt={section.title} width={320} height={320} className="mx-auto object-cover" />}
           </div>

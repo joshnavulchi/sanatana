@@ -21,11 +21,11 @@ export default function HeroSection() {
     <div className={`${styles.herosection} w-full md:h-full`}>
       <div className="relative content-wrapper md:min-h-130 md:flex md:items-center md:justify-center overflow-hidden">
         <div className={`${styles.herocontent} w-full md:w-1/2`}>
-          <h1 className={`${styles.title} md:max-w-md`}>
+          <h1 className={`text-shadow-lg/24 md:max-w-md`}>
             <span>{heading}</span> <br />
-            <span className={`${styles.subtitle} md:max-w-md`}>{subheading}</span>
+            <span className={`h3 md:max-w-md`}>{subheading}</span>
           </h1>
-          <p className={`${styles.description} md:max-w-md`}>{description}</p>
+          <p className={`md:max-w-md`}>{description}</p>
           <div className="flex flex-col md:flex-row gap-4">
             <Link href={`/scriptures/${primaryCtaLink}`} className="btn btn-primary no-underline">
               {primaryCtaLabel}

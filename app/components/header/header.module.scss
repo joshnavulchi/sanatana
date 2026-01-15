@@ -24,7 +24,6 @@
   button {
     min-width: 36px;
     min-height: 36px;
-    font-size: 0.85rem;;
     padding: var(--space-xs);
   }
   li {
@@ -42,6 +41,7 @@
       line-height: 1.7;
     }
     button {
+      font-size: 0.9rem;
       margin-left: var(--space-xs);
     }
   }

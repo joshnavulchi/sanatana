@@ -53,7 +53,7 @@ export default function Page({ searchParams }: any) {
         const Tag = `h${level}` as keyof JSX.IntrinsicElements
         return (
           <>
-            <Tag className={`title`}>{section.title}</Tag>
+            <Tag className={``}>{section.title}</Tag>
             {section?.text && <p>{section.text}</p>}
             <ul className="list-disk">
               {section?.bullets && section?.bullets.map((text: string, idx: number) =>
