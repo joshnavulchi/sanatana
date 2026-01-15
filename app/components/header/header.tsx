@@ -11,6 +11,7 @@ import LazyImage from '../lazy-image/LazyImage';
 import BannerNotifications from '../notifications';
 import ThemeToggle from '../theme-toggle/ThemeToggle';
 
+
 const LanguageDropdown = dynamic(() => import("../language-dropdown/language-dropdown"), { ssr: false });
 // Immediate English fallbacks so header can render synchronously
 import enNav from '../../../locales/en/nav.json';
@@ -191,10 +192,6 @@ export default function Header() {
               </span>
             </Link>
           </div>
-          <div className="hidden md:flex items-center ml-4">
-            {/* WordCount removed from header; rendered per-page in PageLayout */}
-          </div>
-
           <nav role="menu" className="hidden items-center md:flex">
             {(() => {
               const entries = Object.entries(translations.nav);

@@ -6,7 +6,6 @@ import { usePathname } from 'next/navigation';
 import { useT } from '../../hooks/useT';
 import LazyImage from '../lazy-image/LazyImage';
 import styles from './footer.module.scss';
-import DigitalClock from '../common/DigitalClock';
 
 export default function Footer() {
   const t = useT();
@@ -169,10 +168,7 @@ export default function Footer() {
             </div>
           </nav>
         </div>
-
-        <div className="flex items-center justify-center mt-4 mx-8 md:m-0">
-          <DigitalClock />
-        </div>
+        
 
         <div className={`${styles.disclaimer} w-full flex flex-col md:flex-row items-center justify-between`}>
           <div>
@@ -194,7 +190,6 @@ export default function Footer() {
             </Link>
           </nav>
         </div>
-
 
         <div className={`${styles.copyrights} w-full md:flex md:items-center md:justify-between`}>
           <div className="flex items-center gap-4">
