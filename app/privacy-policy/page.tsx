@@ -12,7 +12,7 @@ export default async function PrivacyPolicy() {
     <>
       <PageLayout
         metaKey="privacy_policy"
-        title={S('privacy_policy.title')}
+        title={S('privacy.title')}
         breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Privacy & Policy' }]}
         className="layout-sm"
       >
@@ -31,14 +31,14 @@ export default async function PrivacyPolicy() {
           <h4>{S('privacy_policy.howweuse.title')}</h4>
           <p>{S('privacy_policy.howweuse.lead')}</p>
           <ul role="list" className="list-disc">
-            {parseList(t('privacy_policy.howWeUse.items', locale)).map((item: string, idx: number) => (
+            {parseList(t('privacy_policy.howweuse.items', locale)).map((item: string, idx: number) => (
               <li key={idx}>{item}</li>
             ))}
           </ul>
-          <h5>{S('privacy_policy.cookiesLocalstorage.title')}</h5>
-          <p>{S('privacy_policy.cookiesLocalStorage.text')}</p>
+          <h5>{S('privacy_policy.cookieslocalstorage.title')}</h5>
+          <p>{S('privacy_policy.cookieslocalstorage.text')}</p>
           <h6>{S('privacy_policy.thirdparty.title')}</h6>
-          <p>{S('privacy_policy.thirdParty.text')}</p>
+          <p>{S('privacy_policy.thirdparty.text')}</p>
           <p className="font-semibold">{S('privacy_policy.security.title')}</p>
           <p>{S('privacy_policy.security.text')}</p>
           <p className="font-semibold">{S('privacy_policy.rights.title')}</p>

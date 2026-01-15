@@ -1,24 +1,45 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { detectLocale, t } from '../../lib/i18n';
-import { resolveLocaleFromHeaders } from 'lib/pageUtils';
+import { t, detectLocale } from '../../lib/i18n';
+import { createGenerateMetadata, resolveLocaleFromHeaders } from 'lib/pageUtils';
+import PageLayout from '@components/common/PageLayout';
+
+export const generateMetadata = createGenerateMetadata('policies', 'policies.privacypolicy.title', 'policies.privacypolicy.intro');
 
 export default function PrivacyPolicyPage({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
+
+  const page = {
+    title: S('policies.privacypolicy.title'),
+    intro: S('policies.privacypolicy.intro'),
+    informationHeading: S('policies.privacypolicy.informationheading'),
+    informationDesc: S('policies.privacypolicy.informationdesc'),
+    howWeUse: S('policies.privacypolicy.howweuse'),
+    howWeUseDesc: S('policies.privacypolicy.howweusedesc'),
+    yourRights: S('policies.privacypolicy.yourrights'),
+    yourRightsDesc: S('policies.privacypolicy.yourrightsdesc'),
+    lastUpdated: S('policies.privacypolicy.lastupdated').replace('{date}', new Date().toLocaleDateString()),
+  };
+
   return (
-    <>
-      <div className="content-wrapper md page-space-xl">
-        <p>{S('policies.privacyPolicy.title')}</p>
-        <p>{S('policies.privacyPolicy.intro')}</p>
-        <p>{S('policies.privacyPolicy.informationHeading')}</p>
-        <p>{S('policies.privacyPolicy.informationDesc')}</p>
-        <p>{S('policies.privacyPolicy.howWeUse')}</p>
-        <p>{S('policies.privacyPolicy.howWeUseDesc')}</p>
-        <p>{S('policies.privacyPolicy.yourRights')}</p>
-        <p>{S('policies.privacyPolicy.yourRightsDesc')}</p>
-        <p>{S('policies.privacyPolicy.lastUpdated').replace('{date}', new Date().toLocaleDateString())}</p>
+    <PageLayout
+      metaKey="policies"
+      title={page.title}
+      breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}
+      className="layout-sm"
+    >
+      <div>
+        <h2>{page.title}</h2>
+        <p>{page.intro}</p>
+        <h3>{page.informationHeading}</h3>
+        <p>{page.informationDesc}</p>
+        <h3>{page.howWeUse}</h3>
+        <p>{page.howWeUseDesc}</p>
+        <h3>{page.yourRights}</h3>
+        <p>{page.yourRightsDesc}</p>
+        <p className="mt-6"><strong>{page.lastUpdated}</strong></p>
       </div>
-    </>
+    </PageLayout>
   );
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

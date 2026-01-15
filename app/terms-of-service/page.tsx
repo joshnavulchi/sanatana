@@ -11,7 +11,8 @@ export default async function TermsOfService({ searchParams }: any) {
     const k: any = getMeta('terms', {}, locale) || {};
     const get = (p: string) => (typeof k[p] === 'string' ? k[p] : String(t(p, locale)));
     return {
-      title: typeof k.title === 'string' ? k.title : String(t('terms.title', locale) || ''),
+      meta: k.meta || {},
+      title: String(t('terms.title', locale) || ''),
       lastupdated: get('terms.lastupdated'),
       intro: get('terms.intro'),
       acceptancetitle: get('terms.acceptancetitle'),
@@ -50,7 +51,7 @@ export default async function TermsOfService({ searchParams }: any) {
 
   return (
     <PageLayout
-      metaKey="terms"
+      metaKey="terms.meta"
       title={page.title}
       breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}
       className="layout-sm"

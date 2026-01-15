@@ -4,9 +4,9 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useT } from '../../hooks/useT';
-import { parseList } from '../../../lib/parseList';
 import Image from 'next/image';
 import styles from './footer.module.scss';
+import DigitalClock from '../common/DigitalClock';
 
 export default function Footer() {
   const t = useT();
@@ -170,6 +170,10 @@ export default function Footer() {
           </nav>
         </div>
 
+        <div className="flex items-center justify-center">
+          <DigitalClock />
+        </div>
+
         <div className={`${styles.disclaimer} w-full flex flex-col md:flex-row items-center justify-between`}>
           <div>
             <small>{disclaimer}<br /> {contentChange}</small>
@@ -190,6 +194,7 @@ export default function Footer() {
             </Link>
           </nav>
         </div>
+
 
         <div className={`${styles.copyrights} w-full md:flex md:items-center md:justify-between`}>
           <div className="flex items-center gap-4">
