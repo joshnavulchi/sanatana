@@ -5,7 +5,7 @@ import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils'
 import PayPalButton from '../components/paypalbutton';
 import PageLayout from '@components/common/PageLayout';
 import Link from 'next/link';
-import Image from 'next/image';
+import LazyImage from '@components/lazy-image/LazyImage';
 import FaqAccordion from '@components/common/FaqAccordion';
 export const generateMetadata = createGenerateMetadata('donate');
 

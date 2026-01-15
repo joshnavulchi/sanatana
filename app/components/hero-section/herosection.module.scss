@@ -7,13 +7,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--color-bg);
-  .title {
-    margin-bottom: var(--space-lg);
-    font-size: 2.2rem;
-    line-height: 0.7;
-  }
-  .subtitle {
-    font-size: 1.2rem;
+  h1 {
+    line-height: 0.75;
   }
   &::after {
     position: absolute;

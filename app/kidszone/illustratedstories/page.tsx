@@ -2,7 +2,7 @@
 import { detectLocale, t } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-import Image from 'next/image';
+import LazyImage from '@components/lazy-image/LazyImage';
 import Link from 'next/link';
 export const generateMetadata = createGenerateMetadata('illustrated_stories');
 
@@ -23,7 +23,7 @@ export default async function Page({ searchParams }: any) {
             <Link key={s.id} href={`/kidszone/illustratedstories/${s.id}`} className="card no-padding shadow hover:shadow-lg transform hover:-translate-y-1 transition no-underline">
               <article key={s.id} className="flex flex-col">
                 <div className="relative w-full h-44 rounded-tl-md rounded-tr-md overflow-hidden">
-                  <Image src={s.imgsrc} alt={s.imgalt} fill style={{ objectFit: 'cover' }} />
+                  <LazyImage src={s.imgsrc} alt={s.imgalt} fill style={{ objectFit: 'cover' }} />
                 </div>
                 <div className="card-details flex-1">
                   <p className="subtitle line-clamp-2">{s.title}</p>

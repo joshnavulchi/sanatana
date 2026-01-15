@@ -1,4 +1,6 @@
 import React from 'react';
+import dynamic from 'next/dynamic';
+import WordCount from '@components/common/WordCount';
 import StructuredData from '@components/structured-data/StructuredData';
 import Breadcrumbs from '@components/breadcrumbs/breadcrumbs';
 type BreadcrumbItem = { label?: string; labelKey?: string; href?: string };
@@ -17,7 +19,11 @@ export default function PageLayout({ metaKey, title, breadcrumbs, className, chi
     <>
       {metaKey ? <StructuredData metaKey={metaKey} /> : null}
       <main className={wrapper}>
-        {breadcrumbs ? <Breadcrumbs items={breadcrumbs} /> : null}
+        <div className="flex items-start justify-between">
+          {breadcrumbs ? <Breadcrumbs items={breadcrumbs} /> : null}
+          {/* WordCount is a client component; render it (Next will hydrate on the client) */}
+          <WordCount />
+        </div>
         {title ? <h1 className="title">{title}</h1> : null}
         {children}
       </main>

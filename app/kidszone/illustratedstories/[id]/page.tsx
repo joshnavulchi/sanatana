@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation';
 import PageLayout from '@components/common/PageLayout';
 import fs from 'fs/promises';
 import path from 'path';
-import Image from 'next/image';
+import LazyImage from '@components/lazy-image/LazyImage';
 import Link from 'next/link';
 
 function resolveLocaleFromHeaders() {
@@ -100,7 +100,7 @@ export default async function Page({ params, searchParams }: any) {
         <div>{item.origin}</div>
         <div>
           <div>
-            <Image src={item.imgSrc || `/images/stories/${item.id}.webp`} alt={item.imgAlt || item.title} fill style={{ objectFit: 'cover' }} />
+            <LazyImage src={item.imgSrc || `/images/stories/${item.id}.webp`} alt={item.imgAlt || item.title} fill style={{ objectFit: 'cover' }} />
           </div>
         </div>
         <p>{item.summary}</p>

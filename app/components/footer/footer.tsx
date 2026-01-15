@@ -4,9 +4,9 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useT } from '../../hooks/useT';
-import { parseList } from '../../../lib/parseList';
-import Image from 'next/image';
+import LazyImage from '../lazy-image/LazyImage';
 import styles from './footer.module.scss';
+import DigitalClock from '../common/DigitalClock';
 
 export default function Footer() {
   const t = useT();
@@ -63,8 +63,8 @@ export default function Footer() {
     <footer className={`${styles.footer} gradient-background w-full`}>
       <div className={`relative z-29`}>
         <section className="content-wrapper text-center">
-          <p className={`text-shadow-lg/14 title`}>{title}</p>
-          <p className={`subtitle`}>{quote} {quoteSource}</p>
+          <p className={`h2 font-light! text-shadow-lg/14 title`}>{title}</p>
+          <p>{quote} {quoteSource}</p>
           <div className="flex items-center justify-center gap-4">
             <Link href="/contact" className={`bg-black/50! btn btn-outline no-underline`}>
               {contactLabel}
@@ -170,6 +170,10 @@ export default function Footer() {
           </nav>
         </div>
 
+        <div className="flex items-center justify-center mt-4 mx-8 md:m-0">
+          <DigitalClock />
+        </div>
+
         <div className={`${styles.disclaimer} w-full flex flex-col md:flex-row items-center justify-between`}>
           <div>
             <small>{disclaimer}<br /> {contentChange}</small>
@@ -177,19 +181,20 @@ export default function Footer() {
           </div>
           <nav role="list" className={`${styles.socialIcons} md:w-1/4 flex items-center justify-end gap-6`}>
             <Link role="listitem" aria-label="Visit us on LinkedIn" href="https://in.linkedin.com/in/vulchivijayakumar" target="_blank" className=" no-underline">
-              <Image src="/images/svg/linkedin.svg" alt="linkedin" width={24} height={24} className="inline-block" />
+              <LazyImage src="/images/svg/linkedin.svg" alt="linkedin" width={24} height={24} className="inline-block" />
             </Link>
             <Link role="listitem" aria-label="Visit us on Codepen" href="https://codepen.io/vulchivijay" target="_blank" className=" no-underline">
-              <Image src="/images/svg/codepen.svg" alt="codepen" width={24} height={24} className="inline-block" />
+              <LazyImage src="/images/svg/codepen.svg" alt="codepen" width={24} height={24} className="inline-block" />
             </Link>
             <Link role="listitem" aria-label="Visit us on Github" href="https://github.com/vulchivijay" target="_blank" className=" no-underline">
-              <Image src="/images/svg/github.svg" alt="github" width={24} height={24} className="inline-block" />
+              <LazyImage src="/images/svg/github.svg" alt="github" width={24} height={24} className="inline-block" />
             </Link>
             <Link role="listitem" aria-label="Visit us on Twitter" href="#" target="_blank" className="no-underline">
-              <Image src="/images/svg/twitter.svg" alt="twitter" width={24} height={24} className="inline-block" />
+              <LazyImage src="/images/svg/twitter.svg" alt="twitter" width={24} height={24} className="inline-block" />
             </Link>
           </nav>
         </div>
+
 
         <div className={`${styles.copyrights} w-full md:flex md:items-center md:justify-between`}>
           <div className="flex items-center gap-4">

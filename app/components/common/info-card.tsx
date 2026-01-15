@@ -1,6 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 "use client";
-import Image from 'next/image';
+import LazyImage from '../lazy-image/LazyImage';
 import Link from 'next/link';
 import { useT } from '../../hooks/useT';
 import { useState } from 'react';
@@ -26,7 +26,7 @@ export default function InfoCard({ src, alt, captionKey, width = 400, height = 3
             </div>
           )}
           {/* Image */}
-          <Image src={src} alt={alt} width={width} height={height} onLoad={() => setLoading(false)} />
+          <LazyImage src={src} alt={alt} width={width} height={height} onLoad={() => setLoading(false)} />
           <figcaption className="text-center">{t(captionKey)}</figcaption>
         </figure>
       </Link>

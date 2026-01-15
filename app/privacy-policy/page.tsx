@@ -12,17 +12,15 @@ export default async function PrivacyPolicy() {
     <>
       <PageLayout
         metaKey="privacy_policy"
-        title={S('privacy_policy.title')}
+        title={S('privacy.title')}
         breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Privacy & Policy' }]}
         className="layout-sm"
       >
         <div>
-          <p>
-            <strong>{S('privacy_policy.lastupdated')}</strong> {S('privacy_policy.lastupdated')}
-          </p>
-          <h3 className="text-small">{S('privacy_policy.intro.title')}</h3>
+          <p><strong>{S('privacy_policy.lastupdated')}</strong></p>
+          <h2>{S('privacy_policy.intro.title')}</h2>
           <p>{S('privacy_policy.intro.text')}</p>
-          <h4 className="text-small">{S('privacy_policy.informationwecollect.title')}</h4>
+          <h3>{S('privacy_policy.informationwecollect.title')}</h3>
           <p>{S('privacy_policy.informationwecollect.lead')}</p>
           <ul role="list" className="list-disc">
             <li><strong>{S('privacy_policy.informationwecollect.usagelabel')}</strong> {S('privacy_policy.informationwecollect.usage')}</li>
@@ -30,20 +28,20 @@ export default async function PrivacyPolicy() {
             <li><strong>{S('privacy_policy.informationwecollect.cookieslabel')}</strong> {S('privacy_policy.informationwecollect.cookies')}</li>
             <li><strong>{S('privacy_policy.informationwecollect.contactlabel')}</strong> {S('privacy_policy.informationwecollect.contact')}</li>
           </ul>
-          <h5 className="text-small">{S('privacy_policy.howweuse.title')}</h5>
+          <h4>{S('privacy_policy.howweuse.title')}</h4>
           <p>{S('privacy_policy.howweuse.lead')}</p>
           <ul role="list" className="list-disc">
-            {parseList(t('privacy_policy.howWeUse.items', locale)).map((item: string, idx: number) => (
+            {parseList(t('privacy_policy.howweuse.items', locale)).map((item: string, idx: number) => (
               <li key={idx}>{item}</li>
             ))}
           </ul>
-          <h6 className="text-small">{S('privacy_policy.cookiesLocalstorage.title')}</h6>
-          <p>{S('privacy_policy.cookiesLocalStorage.text')}</p>
-          <p className="text-small font-bold">{S('privacy_policy.thirdparty.title')}</p>
-          <p>{S('privacy_policy.thirdParty.text')}</p>
-          <p className="text-small font-bold">{S('privacy_policy.security.title')}</p>
+          <h5>{S('privacy_policy.cookieslocalstorage.title')}</h5>
+          <p>{S('privacy_policy.cookieslocalstorage.text')}</p>
+          <h6>{S('privacy_policy.thirdparty.title')}</h6>
+          <p>{S('privacy_policy.thirdparty.text')}</p>
+          <p className="font-semibold">{S('privacy_policy.security.title')}</p>
           <p>{S('privacy_policy.security.text')}</p>
-          <p className="text-small font-bold">{S('privacy_policy.rights.title')}</p>
+          <p className="font-semibold">{S('privacy_policy.rights.title')}</p>
           <p>{S('privacy_policy.rights.lead')}</p>
           <ul role="list" className="list-disc">
             {parseList(t('privacy_policy.rights.items', locale)).map((it: string, idx: number) => (
@@ -51,11 +49,11 @@ export default async function PrivacyPolicy() {
             ))}
           </ul>
           <p>{S('privacy_policy.rights.contacttext')}</p>
-          <p className="text-small font-bold">{S('privacy_policy.children.title')}</p>
+          <p className="font-semibold">{S('privacy_policy.children.title')}</p>
           <p>{S('privacy_policy.children.text')}</p>
-          <p className="text-small font-bold">{S('privacy_policy.changes.title')}</p>
+          <p className="font-semibold">{S('privacy_policy.changes.title')}</p>
           <p>{S('privacy_policy.changes.text')}</p>
-          <p className="text-small font-bold">{S('privacy_policy.contact.title')}</p>
+          <p className="font-semibold">{S('privacy_policy.contact.title')}</p>
           <p>{S('privacy_policy.contact.lead')}</p>
           <p>
             <strong>{S('privacy_policy.contact.emaillabel')}</strong> {S('privacy_policy.contact.email')}

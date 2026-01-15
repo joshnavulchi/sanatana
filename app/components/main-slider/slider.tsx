@@ -5,7 +5,7 @@ import { useRef, useState, useEffect, useCallback } from 'react';
 import { useT } from '../../hooks/useT';
 import { parseList } from 'lib/parseList';
 import SVGComponent from '../waves/wave';
-import Image from 'next/image';
+import LazyImage from '../lazy-image/LazyImage';
 import Link from 'next/link';
 
 export default function MainSlider() {
@@ -86,7 +86,7 @@ export default function MainSlider() {
             style={{ pointerEvents: idx === current ? 'auto' : 'none', display: idx === current ? 'flex' : 'none' }}>
             {slide.placementImage === 'left' ? (
               <div className="relative md:absolute md:z-20 md:left-0 md:bottom-0 mx-auto w-80 md:w-1/3 md:h-full md:aspect-video">
-                <Image src={slide.imgSrc} fill alt={`Slide ${idx + 1}`} className="relative! md:absolute! object-contain" priority={idx === current} loading={idx === current ? 'eager' : 'lazy'} />
+                <LazyImage src={slide.imgSrc} fill alt={`Slide ${idx + 1}`} className="relative! md:absolute! object-contain" priority={idx === current} loading={idx === current ? 'eager' : 'lazy'} />
               </div>
             ) : ''}
             {slide.sankritTitle && heroSubtitles && (
@@ -105,7 +105,7 @@ export default function MainSlider() {
               </div>)}
             {slide.placementImage === 'right' ? (
               <div className="relative md:absolute md:z-20 md:right-0 md:bottom-0 mx-auto w-80 md:w-1/3 md:h-full md:aspect-video">
-                <Image src={slide.imgSrc} fill alt={`Slide ${idx + 1}`} className="relative! md:absolute! object-contain" priority={idx === current} loading={idx === current ? 'eager' : 'lazy'} />
+                <LazyImage src={slide.imgSrc} fill alt={`Slide ${idx + 1}`} className="relative! md:absolute! object-contain" priority={idx === current} loading={idx === current ? 'eager' : 'lazy'} />
               </div>
             ) : ''}
           </div>

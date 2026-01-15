@@ -3,7 +3,7 @@ import { useT } from '../../hooks/useT';
 import { parseList } from 'lib/parseList';
 import Link from 'next/link';
 import styles from './herosection.module.scss';
-import Image from 'next/image';
+import LazyImage from '../lazy-image/LazyImage';
 
 export default function HeroSection() {
   const t = useT();
@@ -21,11 +21,11 @@ export default function HeroSection() {
     <div className={`${styles.herosection} w-full md:h-full`}>
       <div className="relative content-wrapper md:min-h-130 md:flex md:items-center md:justify-center overflow-hidden">
         <div className={`${styles.herocontent} w-full md:w-1/2`}>
-          <h1 className={`${styles.title} md:max-w-md`}>
+          <h1 className={`text-shadow-lg/24 md:max-w-md`}>
             <span>{heading}</span> <br />
-            <span className={`${styles.subtitle} md:max-w-md`}>{subheading}</span>
+            <span className={`h3 md:max-w-md`}>{subheading}</span>
           </h1>
-          <p className={`${styles.description} md:max-w-md`}>{description}</p>
+          <p className={`md:max-w-md`}>{description}</p>
           <div className="flex flex-col md:flex-row gap-4">
             <Link href={`/scriptures/${primaryCtaLink}`} className="btn btn-primary no-underline">
               {primaryCtaLabel}
@@ -35,7 +35,7 @@ export default function HeroSection() {
             </Link>
           </div>
           <div className={`${styles.scrolltext} text-left`}>
-            <Image src="images/svg/arrow.svg" alt="Scroll Down" width={16} height={16} className="inline-block animate-bounce" />
+            <LazyImage src="/images/svg/arrow.svg" alt="Scroll Down" width={16} height={16} className="inline-block animate-bounce" />
             <span>{scroll}</span>
           </div>
           {/* <div className="text-left mt-10">

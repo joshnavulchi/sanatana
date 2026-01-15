@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import Image from 'next/image';
+import LazyImage from '../lazy-image/LazyImage';
 
 interface PayPalButtonProps {
   /** PayPal payment link */
@@ -24,10 +24,10 @@ const PayPalButton: FC<PayPalButtonProps> = ({
       {showPoweredBy && (
         <div className="mx-auto w-6/12 flex flex-col items-center">
           <figure>
-            <Image src="/images/SANATANADHARM-qrcode.png" alt="PayPal QR Code" width={200} height={200} />
+            <LazyImage src="/images/SANATANADHARM-qrcode.png" alt="PayPal QR Code" width={200} height={200} />
           </figure>
           <div className="flex items-center justify-center">
-            {showCardsImage && (<Image src="/images/Debit_Credit_APM.svg" alt="Debit Credit APM" width={200} height={120} />)}
+            {showCardsImage && (<LazyImage src="/images/Debit_Credit_APM.svg" alt="Debit Credit APM" width={200} height={120} className="" />)}
             <small className="min-w-22 text-center">Powered by</small>
             {/* Inline PayPal Wordmark SVG */}
             <div className="w-20 h-3">

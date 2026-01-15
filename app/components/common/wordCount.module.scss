@@ -1,0 +1,16 @@
+.wordcount {
+  display: inline-flex;
+  gap: 8px;
+  padding: 4px 8px;
+  font-size: 0.95rem;
+  color: #064e3b;
+  border: 1px solid rgba(6,78,59,0.08);
+}
+.label {
+  font-weight: 500;
+  color: #036b52;
+}
+.value {
+  font-variant-numeric: tabular-nums;
+  font-weight: 400;
+}
