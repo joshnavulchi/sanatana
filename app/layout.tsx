@@ -12,6 +12,7 @@ import Header from './components/header/header';
 import Footer from './components/footer/footer';
 import CookieConsent from './components/cookie-consent/CookieConsent';
 import TopProgress from './components/progress/TopProgress';
+import DigitalClock from './components/common/DigitalClock';
 import ScrollToTop from './components/scroll-to-top/scroll-to-top';
 
 import "./globals.css"; // tailwind base styles
@@ -156,6 +157,7 @@ export default async function RootLayout({
               <Suspense fallback={null}>
                 <Footer />
               </Suspense>
+              <DigitalClock />
               <ScrollToTop />
               <CookieConsent />
             </ThemeProvider>

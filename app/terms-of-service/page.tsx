@@ -16,8 +16,8 @@ export default async function TermsOfService({ searchParams }: any) {
       lastupdated: get('terms.lastupdated'),
       intro: get('terms.intro'),
       acceptancetitle: get('terms.acceptancetitle'),
-      useLicensetitle: get('terms.useLicensetitle'),
-      useLicensetext: get('terms.useLicensetext'),
+      uselicensetitle: get('terms.uselicensetitle'),
+      uselicensetext: get('terms.uselicensetext'),
       uselicenselist: k.uselicenselist ?? {},
       intellectualtitle: get('terms.intellectualtitle'),
       intellectualtext: get('terms.intellectualtext'),
@@ -39,8 +39,13 @@ export default async function TermsOfService({ searchParams }: any) {
       indemnificationtitle: get('terms.indemnificationtitle'),
       indemnificationtext: get('terms.indemnificationtext'),
       governingtitle: get('terms.governingtitle'),
+      governingtext: get('terms.governingtext'),
       severabilitytitle: get('terms.severabilitytitle'),
+      severabilitytext: get('terms.severabilitytext'),
       contacttitle: get('terms.contacttitle'),
+      contacttext: get('terms.contacttext'),
+      contactphonelabel: get('terms.contactphonelabel'),
+      contactphone: get('terms.contactphone'),
       contactemaillabel: get('terms.contactemaillabel'),
       contactemail: get('terms.contactemail'),
       contactwebsitelabel: get('terms.contactwebsitelabel'),
@@ -93,16 +98,20 @@ export default async function TermsOfService({ searchParams }: any) {
         <p className="font-semibold">{page.liabilitytitle}</p>
         <p>{page.liabilitytext}</p>
         <p className="font-semibold">{page.externallinkstitle}</p>
-        <p>{page.externalLinkstext}</p>
-        <p className="font-semibold">{page.modificationsTitle}</p>
+        <p>{page.externallinkstext}</p>
+        <p className="font-semibold">{page.modificationstitle}</p>
         <p>{page.modificationstext}</p>
-        <p className="font-semibold">{page.terminationTitle}</p>
+        <p className="font-semibold">{page.terminationtitle}</p>
         <p>{page.terminationtext}</p>
-        <p className="font-semibold">{page.indemnificationTitle}</p>
+        <p className="font-semibold">{page.indemnificationtitle}</p>
         <p>{page.indemnificationtext}</p>
         <p className="font-semibold">{page.governingtitle}</p>
+        <p>{page.governingtext}</p>
         <p className="font-semibold">{page.severabilitytitle}</p>
+        <p>{page.severabilitytext}</p>
         <p className="font-semibold">{page.contacttitle}</p>
+        <p>{page.contacttext}</p>
+        <p><strong>{page.contactphonelabel}</strong> {page.contactphone}</p>
         <p><strong>{page.contactemaillabel}</strong> {page.contactemail}</p>
         <p><strong>{page.contactwebsitelabel}</strong> <a href="https://sanatanadharmam.in">{page.contactwebsite}</a></p>
         <p>{page.closing}</p>

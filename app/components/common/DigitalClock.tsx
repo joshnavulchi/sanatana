@@ -13,6 +13,16 @@ function pad(n: number) {
 
 export default function DigitalClock({ showSeconds = true, showDate = true }: DigitalClockProps) {
   const [now, setNow] = useState<Date>(new Date());
+  const [visible, setVisible] = useState<boolean>(true);
+
+  useEffect(() => {
+    try {
+      const v = localStorage.getItem('digitalClockVisible');
+      if (v !== null) setVisible(v === '1');
+    } catch (e) {
+      // ignore (e.g., SSR or privacy settings)
+    }
+  }, []);
 
   useEffect(() => {
     const t = setInterval(() => setNow(new Date()), 1000);
@@ -34,32 +44,63 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
   const timeDigits = [String(hours12), pad(minutes)];
   if (showSeconds) timeDigits.push(pad(seconds));
 
+  const toggle = () => {
+    const next = !visible;
+    setVisible(next);
+    try {
+      localStorage.setItem('digitalClockVisible', next ? '1' : '0');
+    } catch (e) {
+      // ignore
+    }
+  };
+
   return (
-    <div className={styles.clock} aria-live="polite">
-      {showDate && <div className={styles.date}>{dateStr}</div>}
-      <div className={styles.timeRow}>
-        <div className={styles.time}>
-          {/* Hours (may be 1 or 2 digits) */}
-          <div className={styles.digits}>
-            {String(hours12).split('').map((d, i) => (
-              <span key={`h${i}`} className={styles.digit} aria-hidden>{d}</span>
-            ))}
-            <span className={styles.colon} aria-hidden>:</span>
-            {pad(minutes).split('').map((d, i) => (
-              <span key={`m${i}`} className={styles.digit} aria-hidden>{d}</span>
-            ))}
-            {showSeconds && (
-              <>
-                <span className={styles.colon} aria-hidden>:</span>
-                {pad(seconds).split('').map((d, i) => (
-                  <span key={`s${i}`} className={styles.digit} aria-hidden>{d}</span>
-                ))}
-              </>
-            )}
+    <div className={`${styles.floatingWrapper} ${styles.clock} ${visible ? styles.visible : styles.hidden}`} aria-live="polite">
+      <button
+        className={styles.toggleButton}
+        onClick={toggle}
+        aria-expanded={visible}
+        aria-controls="digital-clock-box"
+        aria-label={visible ? 'Hide clock' : 'Show clock'}
+      >
+        <small>Today</small> 
+        <svg
+          className={`${styles.toggleIcon} ${visible ? '' : styles.rotated}`}
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="18"
+          height="18"
+          aria-hidden="true"
+          focusable="false"
+        >
+          <path fill="currentColor" d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z" />
+        </svg>
+      </button>
+      <div id="digital-clock-box" role="status">
+        {showDate && <div className={styles.date}>{dateStr}</div>}
+        <div className={styles.timeRow}>
+          <div className={styles.time}>
+            <div className={styles.digits}>
+              {String(hours12).split('').map((d, i) => (
+                <span key={`h${i}`} className={styles.digit} aria-hidden>{d}</span>
+              ))}
+              <span className={styles.colon} aria-hidden>:</span>
+              {pad(minutes).split('').map((d, i) => (
+                <span key={`m${i}`} className={styles.digit} aria-hidden>{d}</span>
+              ))}
+              {showSeconds && (
+                <>
+                  <span className={styles.colon} aria-hidden>:</span>
+                  {pad(seconds).split('').map((d, i) => (
+                    <span key={`s${i}`} className={styles.digit} aria-hidden>{d}</span>
+                  ))}
+                </>
+              )}
+            </div>
           </div>
-        </div>
-        <div className={styles.ampm}>
-          <span>{ampm}</span>
+          <div className={styles.ampm}>
+            <span>{ampm}</span>
+          </div>
         </div>
       </div>
     </div>
