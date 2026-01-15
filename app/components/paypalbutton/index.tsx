@@ -27,7 +27,7 @@ const PayPalButton: FC<PayPalButtonProps> = ({
             <LazyImage src="/images/SANATANADHARM-qrcode.png" alt="PayPal QR Code" width={200} height={200} />
           </figure>
           <div className="flex items-center justify-center">
-            {showCardsImage && (<LazyImage src="/images/Debit_Credit_APM.svg" alt="Debit Credit APM" width={200} height={120} />)}
+            {showCardsImage && (<LazyImage src="/images/Debit_Credit_APM.svg" alt="Debit Credit APM" width={200} height={120} className="" />)}
             <small className="min-w-22 text-center">Powered by</small>
             {/* Inline PayPal Wordmark SVG */}
             <div className="w-20 h-3">

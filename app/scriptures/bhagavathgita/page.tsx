@@ -41,7 +41,7 @@ export default function Page({ searchParams }: any) {
             const imgSrc = item?.ai_images?.[0]?.imagesrc || enAi0?.imagesrc || '/og/bhagavathgita.png';
             const imgAlt = item?.ai_images?.[0]?.alt || enAi0?.alt || `${chapTitle}`;
             return (
-              <Link key={i} href={`/scriptures/bhagavathgita/chapter/${chapNum}`} className="card no-padding shadow hover:shadow-lg transform hover:-translate-y-1 transition no-underline">
+              <Link key={i} href={`/scriptures/bhagavathgita/chapter/${chapNum}`} className="card mt-0! mb-0! no-padding shadow hover:shadow-lg transform hover:-translate-y-1 transition no-underline">
                 <article className="flex flex-col">
                   <div className="relative w-full h-44 rounded-tl-md rounded-tr-md overflow-hidden">
                     <LazyImage src={imgSrc} alt={imgAlt} fill style={{ objectFit: 'cover' }} />
