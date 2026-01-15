@@ -1,8 +1,9 @@
 .clock {
+  width: 100%;
   display: inline-block;
   background: linear-gradient(180deg, #071018 0%, #062025 100%);
   color: #7affb2;
-  padding: 12px 16px;
+  padding: 8px 12px;
   border-radius: 8px;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, 'Roboto Mono', 'Courier New', monospace;
   box-shadow: 0 6px 18px rgba(2,8,23,0.6);
@@ -25,7 +26,7 @@
 .digits {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 0;
 }
 .digit {
   background: rgba(0,0,0,0.18);
@@ -51,4 +52,16 @@
   display: flex;
   align-items: flex-end;
   padding-bottom: 6px;
+}
+@media (min-width: 1024px) {
+  .clock {
+    width: auto;
+  }
+  .digits {
+    gap: 6px;
+  }
+}
+@media (min-width: 1600px) {
+}
+@media (min-width: 1900px) {
 }

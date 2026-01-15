@@ -170,7 +170,7 @@ export default function Footer() {
           </nav>
         </div>
 
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center mt-4 mx-8 md:m-0">
           <DigitalClock />
         </div>
 

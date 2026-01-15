@@ -19,9 +19,11 @@ export default function PageLayout({ metaKey, title, breadcrumbs, className, chi
     <>
       {metaKey ? <StructuredData metaKey={metaKey} /> : null}
       <main className={wrapper}>
-        {breadcrumbs ? <Breadcrumbs items={breadcrumbs} /> : null}
-        {/* WordCount is a client component; render it (Next will hydrate on the client) */}
-        <WordCount />
+        <div className="flex items-start justify-between">
+          {breadcrumbs ? <Breadcrumbs items={breadcrumbs} /> : null}
+          {/* WordCount is a client component; render it (Next will hydrate on the client) */}
+          <WordCount />
+        </div>
         {title ? <h1 className="title">{title}</h1> : null}
         {children}
       </main>

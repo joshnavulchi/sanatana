@@ -21,9 +21,7 @@ function countFromText(text: string) {
 export default function WordCountDisplay({ selector, debounce = 250, hideWhenZero = true, minUniqueThreshold = 800 }: WordCountProps) {
   const [total, setTotal] = useState<number>(0);
   const [unique, setUnique] = useState<number>(0);
-  // Only display the word count UI in development to avoid exposing internals in production
-  const isDev = process.env.NODE_ENV === 'development';
-  if (!isDev) return null;
+   // Reading time UI is displayed in all environments (production and development).
   const pending = useRef<number | null>(null);
   const observerRef = useRef<MutationObserver | null>(null);
   const pathname = usePathname();
@@ -31,7 +29,10 @@ export default function WordCountDisplay({ selector, debounce = 250, hideWhenZer
   useEffect(() => {
     const compute = () => {
       const root = selector ? document.querySelector(selector) : document;
-      const text = root instanceof Document ? (root.body?.textContent || '') : ((root as Element)?.textContent || '');
+      // Prefer innerText to capture only visible text (excludes display:none and many hidden nodes)
+      const text = (root instanceof Document)
+        ? (root.body?.innerText || '')
+        : ((root as HTMLElement)?.innerText ?? (root as HTMLElement)?.textContent ?? '');
       const tcount = countFromText(text);
       setTotal(tcount);
       const normalized = String(text).toLowerCase().replace(/[^\p{L}\p{N}\s]/gu, ' ');
@@ -84,14 +85,19 @@ export default function WordCountDisplay({ selector, debounce = 250, hideWhenZer
 
   if (hideWhenZero && total === 0) return null;
 
-  const showUnique = total >= (minUniqueThreshold || 0);
-  const label = showUnique ? 'Unique words:' : 'Words:';
-  const value = showUnique ? unique : total;
+  // Compute reading time based on words-per-minute (configurable via NEXT_PUBLIC_READING_WPM)
+  const wpm = typeof process.env.NEXT_PUBLIC_READING_WPM !== 'undefined'
+    ? Math.max(50, Number(process.env.NEXT_PUBLIC_READING_WPM) || 200)
+    : 200;
+  const totalSeconds = Math.round((total / wpm) * 60);
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+  const timeLabel = minutes > 0 ? `${minutes} min${minutes > 1 ? '' : ''}` : `${seconds} sec`;
 
   return (
-    <div className={styles.wordcount} role="status" aria-live="polite">
-      <span className={styles.label}>{label}</span>
-      <span className={styles.value}>{value}</span>
-    </div>
+    <span className={styles.wordcount} role="status" aria-live="polite">
+      <span className={styles.label}>Read time:</span>
+      <span className={styles.value}>{timeLabel}</span>
+    </span>
   );
 }
