@@ -3,7 +3,7 @@ import { useT } from '../../hooks/useT';
 import { parseList } from 'lib/parseList';
 import Link from 'next/link';
 import styles from './herosection.module.scss';
-import Image from 'next/image';
+import LazyImage from '../lazy-image/LazyImage';
 
 export default function HeroSection() {
   const t = useT();
@@ -35,7 +35,7 @@ export default function HeroSection() {
             </Link>
           </div>
           <div className={`${styles.scrolltext} text-left`}>
-            <Image src="images/svg/arrow.svg" alt="Scroll Down" width={16} height={16} className="inline-block animate-bounce" />
+            <LazyImage src="/images/svg/arrow.svg" alt="Scroll Down" width={16} height={16} className="inline-block animate-bounce" />
             <span>{scroll}</span>
           </div>
           {/* <div className="text-left mt-10">

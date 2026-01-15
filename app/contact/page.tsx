@@ -4,7 +4,7 @@ import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils'
 import PageLayout from '@components/common/PageLayout';
 import { parseList } from 'lib/parseList';
 import ContactForm from '../components/contact/ContactForm';
-import Image from 'next/image';
+import LazyImage from '@components/lazy-image/LazyImage';
 import FaqAccordion from '@components/common/FaqAccordion';
 export const generateMetadata = createGenerateMetadata('contact');
 
@@ -32,7 +32,7 @@ export default function ContactPage({ searchParams }: any) {
               <div className="mx-auto max-w-6xl cards flex gap-6 mt-4">
                 {sec.items.map((it: any, i: number) => (
                   <div key={i} className="card w-full md:w-1/4 rounded-2xl">
-                    {it.src && <Image src={it.src} alt={it.title} width={76} height={76} />}
+                      {it.src && <LazyImage src={it.src} alt={it.title} width={76} height={76} />}
                     <p className="font-semibold">{it.title}</p>
                     <p>{it.description}</p>
                   </div>
@@ -113,8 +113,8 @@ export default function ContactPage({ searchParams }: any) {
             </section>
             <section>
               <p>{S('contact.location')}</p>
-              <div className="bg-white p-4">
-                <Image src="/images/map-location.png" alt="map location" width="1200" height="600" />
+                <div className="bg-white p-4">
+                <LazyImage src="/images/map-location.png" alt="map location" width={1200} height={600} />
               </div>
             </section>
           </>

@@ -4,7 +4,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useT } from '../../hooks/useT';
-import Image from 'next/image';
+import LazyImage from '../lazy-image/LazyImage';
 import styles from './footer.module.scss';
 import DigitalClock from '../common/DigitalClock';
 
@@ -181,16 +181,16 @@ export default function Footer() {
           </div>
           <nav role="list" className={`${styles.socialIcons} md:w-1/4 flex items-center justify-end gap-6`}>
             <Link role="listitem" aria-label="Visit us on LinkedIn" href="https://in.linkedin.com/in/vulchivijayakumar" target="_blank" className=" no-underline">
-              <Image src="/images/svg/linkedin.svg" alt="linkedin" width={24} height={24} className="inline-block" />
+              <LazyImage src="/images/svg/linkedin.svg" alt="linkedin" width={24} height={24} className="inline-block" />
             </Link>
             <Link role="listitem" aria-label="Visit us on Codepen" href="https://codepen.io/vulchivijay" target="_blank" className=" no-underline">
-              <Image src="/images/svg/codepen.svg" alt="codepen" width={24} height={24} className="inline-block" />
+              <LazyImage src="/images/svg/codepen.svg" alt="codepen" width={24} height={24} className="inline-block" />
             </Link>
             <Link role="listitem" aria-label="Visit us on Github" href="https://github.com/vulchivijay" target="_blank" className=" no-underline">
-              <Image src="/images/svg/github.svg" alt="github" width={24} height={24} className="inline-block" />
+              <LazyImage src="/images/svg/github.svg" alt="github" width={24} height={24} className="inline-block" />
             </Link>
             <Link role="listitem" aria-label="Visit us on Twitter" href="#" target="_blank" className="no-underline">
-              <Image src="/images/svg/twitter.svg" alt="twitter" width={24} height={24} className="inline-block" />
+              <LazyImage src="/images/svg/twitter.svg" alt="twitter" width={24} height={24} className="inline-block" />
             </Link>
           </nav>
         </div>

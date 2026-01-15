@@ -3,7 +3,7 @@ import { useT } from '../../hooks/useT';
 import { JSX } from 'react';
 import { parseList } from 'lib/parseList';
 import Link from 'next/link';
-import Image from 'next/image';
+import LazyImage from '../lazy-image/LazyImage';
 import styles from './sanatanadharmam.module.scss';
 
 export default function UnderstandingOfSanatana() {
@@ -18,13 +18,13 @@ export default function UnderstandingOfSanatana() {
           <div className={`mx-auto max-w-3xl`}>
             <Tag className={`mx-auto max-w-2xl ${!section?.nodecaration ? styles.borderbottom : ''}`}>{section.title}</Tag>
             <p>{section.content}</p>
-            {section?.src && <Image src={section.src} alt={section.title} width={320} height={320} className="mx-auto object-cover" />}
+            {section?.src && <LazyImage src={section.src} alt={section.title} width={320} height={320} className="mx-auto object-cover" />}
           </div>
           <div className={`mx-auto ${section?.items?.length === 4 ? 'max-w-4xl' : 'max-w-6xl'} cards flex gap-10 md:gap-6`}>
             {section?.items && section?.items.map((topic: any, index: number) => (
               <div key={index} className="card w-full md:w-1/4 lg:w-1/4 rounded-2xl shadow-sm hover:shadow-md transition">
                 <div className="text-center">
-                  {topic.src && <Image src={topic.src} alt={topic.title} width={76} height={76} className="mx-auto object-cover" />}
+                  {topic.src && <LazyImage src={topic.src} alt={topic.title} width={76} height={76} className="mx-auto object-cover" />}
                   <p className={`font-semibold`}>{topic.title}</p>
                   <p>{topic.description}</p>
                   <Link href={topic.href} title={topic.title} className="small">Read more...</Link>
@@ -33,7 +33,7 @@ export default function UnderstandingOfSanatana() {
             ))}
             {section?.points && section?.points.map((point: any, idx: number) => (
               <div key={idx} className={`card w-full md:w-1/4 lg:w-1/4 rounded-2xl shadow-sm hover:shadow-md transition`}>
-                {section?.pointSrc && <Image src={section?.pointSrc[idx]} width={76} height={76} alt={point} className="mx-auto object-cover" />}
+                {section?.pointSrc && <LazyImage src={section?.pointSrc[idx]} width={76} height={76} alt={point} className="mx-auto object-cover" />}
                 <p>{point}</p>
               </div>
             ))}

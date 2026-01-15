@@ -1,11 +1,11 @@
 "use client";
 import React, { useEffect, useRef, useState } from 'react';
-import Image from 'next/image';
+import Image, { type ImageProps } from 'next/image';
 import Loader from '../loader/loader';
 import useDeferAssets from '../../../lib/useDeferAssets';
 
 type Props = {
-  src: string;
+  src: ImageProps['src'];
   alt?: string;
   width?: number;
   height?: number;
@@ -13,9 +13,9 @@ type Props = {
   placeholder?: React.ReactNode;
   onLoad?: () => void;
   unoptimized?: boolean;
-};
+} & Partial<ImageProps>;
 
-export default function LazyImage({ src, alt = '', width, height, className, placeholder, onLoad, unoptimized }: Props) {
+export default function LazyImage({ src, alt = '', width, height, className, placeholder, onLoad, unoptimized, ...rest }: Props) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const [visible, setVisible] = useState(false);
   const deferReady = useDeferAssets();
@@ -42,7 +42,8 @@ export default function LazyImage({ src, alt = '', width, height, className, pla
   return (
     <div ref={containerRef} className={className} style={{ minHeight: height ? `${height}px` : undefined }}>
       {!loadNow ? (placeholder ?? <Loader />) : (
-        <Image src={src} alt={alt} width={width} height={height} onLoad={onLoad} loading="eager" unoptimized={unoptimized} />
+        // @ts-expect-error next/image typings are finicky with dynamic props
+        <Image src={src} alt={alt} width={width} height={height} onLoad={onLoad} loading="eager" unoptimized={unoptimized} {...(rest as ImageProps)} />
       )}
     </div>
   );

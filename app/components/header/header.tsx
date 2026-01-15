@@ -7,7 +7,7 @@ import { getLocaleObject, loadLocale } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
-import Image from 'next/image';
+import LazyImage from '../lazy-image/LazyImage';
 import BannerNotifications from '../notifications';
 import ThemeToggle from '../theme-toggle/ThemeToggle';
 
@@ -185,7 +185,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className={`${styles.logoTitle} logo flex items-center no-underline gap-2`}>
-              <Image src="/images/logo.png" alt="Sanatanadharmam Logo" width={40} height={36} />
+              <LazyImage src="/images/logo.png" alt="Sanatanadharmam Logo" width={40} height={36} />
               <span>
                 {translations.siteTitle}
               </span>

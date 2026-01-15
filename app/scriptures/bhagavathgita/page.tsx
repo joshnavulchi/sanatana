@@ -3,7 +3,7 @@ import { t, detectLocale } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import { parseList } from 'lib/parseList';
 import PageLayout from '@components/common/PageLayout';
-import Image from 'next/image';
+import LazyImage from '@components/lazy-image/LazyImage';
 import Link from 'next/link';
 export const generateMetadata = createGenerateMetadata('bhagavadgita_scriptures');
 
@@ -44,7 +44,7 @@ export default function Page({ searchParams }: any) {
               <Link key={i} href={`/scriptures/bhagavathgita/chapter/${chapNum}`} className="card no-padding shadow hover:shadow-lg transform hover:-translate-y-1 transition no-underline">
                 <article className="flex flex-col">
                   <div className="relative w-full h-44 rounded-tl-md rounded-tr-md overflow-hidden">
-                    <Image src={imgSrc} alt={imgAlt} fill style={{ objectFit: 'cover' }} />
+                    <LazyImage src={imgSrc} alt={imgAlt} fill style={{ objectFit: 'cover' }} />
                   </div>
                   <div className="card-details flex-1">
                     <p className="subtitle line-clamp-2">{`Chapter ${chapNum}: ${chapTitle}`}</p>
