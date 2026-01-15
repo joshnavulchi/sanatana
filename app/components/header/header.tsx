@@ -191,6 +191,9 @@ export default function Header() {
               </span>
             </Link>
           </div>
+          <div className="hidden md:flex items-center ml-4">
+            {/* WordCount removed from header; rendered per-page in PageLayout */}
+          </div>
 
           <nav role="menu" className="hidden items-center md:flex">
             {(() => {
