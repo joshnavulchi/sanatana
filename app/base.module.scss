@@ -25,7 +25,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: .35rem;
-  padding: .35rem 1rem;
+  padding: .65rem 1rem;
   border-radius: .35rem;
   border: 1px solid transparent;
   text-decoration: none;
@@ -61,7 +61,7 @@ body {
 a {
   position: relative;
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 1rem;
   color: var(--color-primary);
   text-decoration-color: rgba(217, 119, 6, .35);
   &:hover {
@@ -95,7 +95,7 @@ a:not(.button) {
     box-shadow: var(--shadow-strong);
   }
   a {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
   }
 }
 /* 8) Header / Nav (with subtle gradient) */
@@ -119,8 +119,8 @@ ul, ol {
 li {
   margin-bottom: 0.5rem;
 }
-p, li { font-size: 1rem; } /* equals base (fluid) */
-small { font-size: 0.875rem; } /* 14px-ish at base */
+p, li { font-size: 1.1rem; } /* equals base (fluid) */
+small { font-size: 0.95rem; } /* 14px-ish at base */
 /* Headings: fluid using clamp(min, viewport, max) */
 h1 {
   font-weight: 700;
