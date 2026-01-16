@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
 import { loadLocale } from 'lib/i18n';
@@ -49,13 +49,12 @@ export default function DonateClient() {
       } catch (e) {}
 
       if (!mounted) return;
-      const title = String(t('donate.title') || '');
-      const subtitle = String(t('donate.subtitle') || ''); 
+      const title = t('donate.title') || '';
+      const subtitle = t('donate.subtitle') || ''; 
       let purpose: any = parseMaybeObject(t('donate.purpose'));
       let expenses: any = parseMaybeObject(t('donate.expenses'));
-      let donateOptions: any = parseMaybeObject(t('donate.donate_options'));
+      let donateOptions: any = parseMaybeObject(t('donate.donateOptions'));
       let faq: any = parseMaybeObject(t('donate.faq'));
-      console.log(title);
       // Normalize nested list/object fields that may be returned as JSON strings
       if (purpose && typeof purpose === 'object') {
         purpose.points = parseSections((purpose as any).points);
