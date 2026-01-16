@@ -2,6 +2,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from 'react';
+import { useT } from '../../hooks/useT';
 import { usePathname } from 'next/navigation';
 import { getLocaleObject, loadLocale, DEFAULT_LOCALE } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
@@ -100,6 +101,7 @@ export default function Header() {
   }
 
   const { locale } = useLocale();
+  const t = useT();
 
   useEffect(() => {
     let mounted = true;
@@ -340,6 +342,7 @@ export default function Header() {
             <button
               role="menuitem"
               aria-expanded={open}
+              aria-label={open ? (t('nav.closeMenu') || 'Close menu') : (t('nav.openMenu') || 'Open menu')}
               onClick={() => setOpen((s) => !s)}
               className="inline-flex items-center justify-center rounded"
             >
