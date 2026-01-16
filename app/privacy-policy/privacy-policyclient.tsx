@@ -9,7 +9,8 @@ import { parseSections, parseMaybeObject } from 'lib/parseContent';
 export default function PrivacyPolicy() {
   const { locale } = useLocale();
   const t = useT();
-  const [privacy, setPrivacy] = useState({ title: '', lastupdated: '', intro: {} as any, informationwecollect: {} as any, howweuse: {} as any, cookieslocalstorage: {} as any, thirdparty: {} as any, security: {} as any, rights: {} as any, children: {} as any, changes: {} as any, contact:{} as any });
+  type PrivacyState = { title: string; lastupdated: string; [key: string]: any };
+  const [privacy, setPrivacy] = useState<PrivacyState>({ title: '', lastupdated: '', intro: {} as any, informationwecollect: {} as any, howweuse: {} as any, cookieslocalstorage: {} as any, thirdparty: {} as any, security: {} as any, rights: {} as any, children: {} as any, changes: {} as any, contact:{} as any });
 
   useEffect(() => {
     let mounted = true;
