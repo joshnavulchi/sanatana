@@ -333,13 +333,12 @@ export default function Header() {
                 );
               });
             })()}
-
-            {/* <LanguageDropdown />
-            <ThemeToggle /> */}
+            <LanguageDropdown />
+            {/* <ThemeToggle /> */}
           </nav>
 
           <div role="menu" className="flex items-center justify-center md:hidden">
-            {/* <LanguageDropdown /> */}
+            <LanguageDropdown />
             <button
               role="menuItem"
               aria-expanded={open}

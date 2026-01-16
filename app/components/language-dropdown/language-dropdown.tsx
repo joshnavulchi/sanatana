@@ -11,7 +11,9 @@ import { useLocale } from '../../context/locale-context';
 import localesList from '../../../lib/localesList.json';
 import localeMeta from '../../../lib/localeMeta.json';
 
-export default function LanguageDropdown() {
+import styles from './langdropdown.module.scss';
+
+export default function languagedropdown() {
   const [open, setOpen] = useState(false);
   const [currentLang, setCurrentLang] = useState(DEFAULT_LOCALE);
   const [isClient, setIsClient] = useState(false);
@@ -163,13 +165,13 @@ export default function LanguageDropdown() {
       {/* Dropdown Button */}
       <button
         onClick={() => setOpen(!open)}
-        className=" shadow-md inline-flex items-center bg-amber-400 hover:bg-amber-200 cursor-pointer"
-        aria-label={t('languageDropdown.ariaLabel')}
+        className={`${styles.langbtn} inline-flex items-center cursor-pointer`}
+        aria-label={t('languagedropdown.arialabel')}
         aria-expanded={open}
       >
-        <img src="/images/svg/ml.svg" alt={t('languageDropdown.iconAlt')} width={20} height={20} />
+        <img src="/images/svg/ml.svg" alt={t('languagedropdown.iconalt')} width={20} height={20} />
         {isClient && (
-          <span className="font-sm sr-only">{currentLanguage?.nativeName || t('languageDropdown.english')}</span>
+          <span className="font-sm sr-only">{currentLanguage?.nativeName || t('languagedropdown.english')}</span>
         )}
       </button>
 
@@ -177,9 +179,9 @@ export default function LanguageDropdown() {
       {open && (
         <div className="fixed inset-0 z-50 flex items-center justify-center" role="dialog" aria-modal="true">
           <div className="absolute inset-0 bg-black/40" onClick={() => setOpen(false)} />
-          <div ref={dropdownRef} className="relative bg-white rounded-md w-11/12 max-w-md md:w-auto md:max-w-7xl shadow-lg border z-20">
-            <div role="closeButton" className="mb-2 flex items-center justify-between">
-              <div className="font-semibold">{t('languageDropdown.title') || 'Choose language'}</div>
+          <div ref={dropdownRef} className={`${styles.multilang} rounded-md w-11/12 max-w-md md:w-auto md:max-w-7xl shadow-lg border`}>
+            <div role="closeButton" className="flex items-center justify-between">
+              <div className="font-semibold">{t('languagedropdown.title') || 'Choose language'}</div>
               <button aria-label="Close" onClick={() => setOpen(false)} className="cursor-pointer">✕</button>
             </div>
             <div className="search-wrapper">
@@ -204,9 +206,9 @@ export default function LanguageDropdown() {
                     setOpen(false);
                   }
                 }}
-                placeholder={t('languageDropdown.searchPlaceholder') || 'Search languages...'}
-                className="w-full rounded border theme-border-color"
-                aria-label={t('languageDropdown.searchAria') || 'Search languages'}
+                placeholder={t('languagedropdown.searchplaceholder') || 'Search languages...'}
+                className={`${styles.langsearchinput} w-full rounded border theme-border-color`}
+                aria-label={t('languagedropdown.searcharia') || 'Search languages'}
               />
             </div>
             <div role="menu" className="max-h-96 overflow-y-auto md:flex md:flex-wrap">
@@ -223,12 +225,12 @@ export default function LanguageDropdown() {
                       try { loadLocale(lang.code); } catch (e) { /* ignore */ }
                     }}
                     onClick={() => handleLanguageChange(lang.code)}
-                    className={`w-full md:w-1/4 flex items-center justify-between text-left transition-colors ${currentLang === lang.code ? "theme-alternative-background-color" : ""} ${highlighted === idx ? 'border border-amber-300 hover:bg-amber-200' : 'border border-amber-300 hover:bg-amber-200'}`}
+                    className={`w-full md:w-2/4 flex items-center justify-between text-left transition-colors ${currentLang === lang.code ? "" : ""} ${highlighted === idx ? 'border ' : 'border '}`}
                   >
-                    <div className="flex items-center gap-3">
+                    <div className={`${styles.langbox} flex items-center`}>
                       <div aria-hidden>{flag}</div>
-                      <div>
-                        <div className="font-semibold theme-title-color">{lang.nativeName}</div>
+                      <div className="nowrap">
+                        <div className="font-semibold">{lang.nativeName}</div>
                         <div>{region}</div>
                       </div>
                     </div>

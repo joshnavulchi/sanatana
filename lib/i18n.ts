@@ -5,7 +5,11 @@ import storage from "./storage";
 // Single source of supported locales used across the app
 export const SUPPORTED_LOCALES = [
   'en',
+  'hi',
+  'te',
 ];
+// Add Tamil to supported locales
+SUPPORTED_LOCALES.push('ta');
 // Cache that holds already-loaded locale objects. Keep English bundled
 // so the first render is fast. Other locales are loaded on demand.
 const localesCache: Record<string, unknown> = {
@@ -25,7 +29,20 @@ export function getLocaleObject(locale = DEFAULT_LOCALE) {
   if (typeof window === 'undefined') {
     try {
       // use CommonJS require on the server for a sync load
-      const mod = require(`../locales/${locale}`);
+      let mod: any;
+      try {
+        mod = require(`../locales/${locale}`);
+      } catch (e) {
+        try {
+          mod = require(`../locales/${locale}/index`);
+        } catch (e2) {
+          try {
+            mod = require(`../locales/${locale}.json`);
+          } catch (e3) {
+            throw e3;
+          }
+        }
+      }
       const obj = (mod && (mod.default || mod)) as unknown;
       localesCache[locale] = obj;
       return obj;
@@ -41,7 +58,16 @@ export async function loadLocale(locale: string) {
   if (localesCache[locale]) return localesCache[locale];
   try {
     // dynamic import so non-English locale code isn't included in main bundle
-    const mod = await import(`../locales/${locale}`);
+    let mod: any;
+    try {
+      mod = await import(`../locales/${locale}`);
+    } catch (e) {
+      try {
+        mod = await import(`../locales/${locale}/index`);
+      } catch (e2) {
+        mod = await import(`../locales/${locale}.json`);
+      }
+    }
     const obj = (mod && (mod.default || mod)) as unknown;
     localesCache[locale] = obj;
     return obj;
@@ -197,6 +223,9 @@ export function detectLocale(searchParams?: unknown) {
       // defensive: ignore and fall through
     }
   }
+      // If running on the server and no `lang` found in `searchParams`,
+      // return undefined so callers can fall back to header-based detection.
+      if (typeof window === 'undefined') return undefined;
   // Check persisted storage (client-side only) via storage abstraction
   if (typeof window !== "undefined") {
     try {

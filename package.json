@@ -25,6 +25,7 @@
     "apply:page-schemas": "node scripts/apply-page-schemas.mjs"
   },
   "dependencies": {
+    "critters": "^0.0.23",
     "mongodb": "^7",
     "next": "^16.1.1",
     "react": "19.2.3",
@@ -58,8 +59,7 @@
     "topojson-client": "^3.1.0",
     "ts-jest": "^29.4.6",
     "typescript": "^5"
-  }
-  ,
+  },
   "overrides": {
     "nanoid": "3.3.8"
   }

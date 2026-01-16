@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "home": "హోమ్",
+    "contact": "సంప్రదించండి",
+    "about": "గురించి",
+    "donate": "దానం చేయండి",
+    "scriptures": {
+      "title": "శాస్త్రాలు",
+      "nav": {
+        "sanksheparamayanam": "సంక్షేప రామాయణం",
+        "ramayana": "రామాయణం",
+        "mahabharata": "మహాభారతం",
+        "bhagavathgita": "భగవద్గీత",
+        "upanishads": "ఉపనిషత్తులు",
+        "vedas": "వేదాలు",
+        "puranas": "పురాణాలు"
+      }
+    },
+    "stotrasmantras": {
+      "title": "స్తోత్రాలు & మంత్రాలు",
+      "nav": {
+        "devi": "దేవి స్తోత్రాలు",
+        "ganesha": "గణేశ స్తోత్రాలు",
+        "shiva": "శివ స్తోత్రాలు",
+        "vishnu": "విష్ణు స్తోత్రాలు",
+        "hanuman": "హనుమాన్ స్తోత్రాలు",
+        "dailyprayers": "దినసరి ప్రార్థనలు"
+      }
+    },
+    "philosophy": {
+      "title": "తత్వశాస్త్రం",
+      "nav": {
+        "dharma": "ధర్మం",
+        "karma": "కర్మ",
+        "samsara": "సంసారం",
+        "moksha": "మోక్షం",
+        "yoga": "యోగ",
+        "advaita": "అద్వైతం"
+      }
+    },
+    "practices": {
+      "title": "ఆచారాలు",
+      "nav": {
+        "rituals": "కార్యక్రమాలు",
+        "festivals": "పండుగలు",
+        "dailypuja": "దినసరి పూజ",
+        "vastu": "వాస్తు"
+      }
+    },
+    "stories": {
+      "title": "కథలు",
+      "nav": {
+        "shiva": "శివుడు",
+        "parvati": "పార్వతి",
+        "vishnu": "విష్ణువు",
+        "lakshmi": "లక్ష్మి",
+        "bramha": "బ్రహ్మ",
+        "saraswati": "సరస్వతి",
+        "krishna": "కృష్ణుడు",
+        "karna": "కర్ణుడు",
+        "parasuram": "పరశురాముడు",
+        "bhishma": "భీష్ముడు",
+        "vasistamhari": "వశిష్ట మహర్షి",
+        "visvamitra": "విశ్వామిత్రుడు",
+        "adishankar": "ఆది శంకరాచార్య",
+        "ramanamaharshi": "రమణ మహర్షి",
+        "moralstories": "నైతిక కథలు",
+        "puranic": "పురాణిక"
+      }
+    },
+    "kidszone": {
+      "title": "పిల్లల విభాగం",
+      "nav": {
+        "illustratedstories": "చిత్రకథలు",
+        "mythologicalquizzes": "పౌరాణిక ప్రశ్నలు",
+        "easymantras": "సులభ మంత్రాలు",
+        "comics": "పౌరాణిక కామిక్స్"
+      }
+    }
+  }
+}

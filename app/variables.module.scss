@@ -4,20 +4,27 @@
   /* Brand core */
   /* Darken primary to improve foreground contrast against white text */
   --color-primary: #B45309; /* deep saffron (darker) */
-  --color-primary-strong: #8A2E03;
+  --color-primary-hover: #8A2E03;
   --color-secondary: #7F1D1D; /* maroon */
+  --color-secondary-hover: #991B1B;
   --color-accent: #C89227; /* gold */
+  --color-accent-hover: #F59E0B; /* bright saffron */
 
   /* Neutrals */
   --color-bg: #FAF7F2; /* parchment */
   --color-surface: #FFFFFF;
   --color-muted: #6B7280; /* gray-500 */
+  --color-muted-hover: #4B5563; /* gray-600 */
   --color-text: #1F2937; /* slate-800 */
+  --color-text-hover: #111827; /* slate-900 */
 
   /* States */
   --color-success: #15803D;
+  --color-success-hover: #166534;
   --color-info: #2563EB;
+  --color-info-hover: #1D4ED8;
   --color-warning: #DC2626;
+  --color-warning-hover: #B91C1C;
 
   /* Borders & shadows */
   --color-border: #E5E7EB;
@@ -25,7 +32,7 @@
   --shadow-strong: 0 16px 48px rgba(127, 29, 29, 0.16);
 
   /* Fluid base size: scales ~15px → ~18px between 360px and 1280px */
-  --font-size-base: clamp(0.9375rem, 0.85rem + 0.35vw, 1.125rem); /* 15px → 18px */
+  --font-size-base: clamp(1rem, 1rem + 0.35vw, 1.125rem); /* 15px → 18px */
   --line-height-base: 1.65; /* good for prose */
 
   /* Modular scale step (minor third ≈ 1.2) for headings */

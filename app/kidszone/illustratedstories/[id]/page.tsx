@@ -72,7 +72,8 @@ async function loadStories(locale: string) {
 }
 
 export default async function Page({ params, searchParams }: any) {
-  const locale = await detectLocale(searchParams);
+  const localeFromParams = await detectLocale(searchParams);
+  const locale = localeFromParams || resolveLocaleFromHeaders();
   const stories = await loadStories(locale);
   const S = (k: string, l?: any) => String(t(k, l));
   const id = String(params.id);

@@ -1,3 +1,6 @@
 {
-  "en": { "flag": "🇺🇸", "region": "United States" }
+  "en": { "flag": "🇺🇸", "region": "United States" },
+  "hi": { "flag": "🇮🇳", "region": "India" },
+  "te": { "flag": "🇮🇳", "region": "India" },
+  "ta": { "flag": "🇮🇳", "region": "India" }
 }
