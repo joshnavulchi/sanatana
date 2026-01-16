@@ -2,6 +2,7 @@
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
+import SlokasClient from './slokasclient;
 export const generateMetadata = createGenerateMetadata('sankshepa_ramayana_scriptures');
 
 export default function Page({ searchParams }: any) {
@@ -85,14 +86,8 @@ export default function Page({ searchParams }: any) {
             </div>
           )}
           {/* Sankshepa ramayanam and slokas */}
-          <div className="sankshepa-slokas">
-            {page.slokas && page.slokas.map((s: any) => (
-              <div key={s.sloka} className="text-center mt-10">
-                <p className="font-semibold">{s.sanskrit}</p>
-                <p className="font-semibold">{s.transliteration}</p>
-                <p className="text-left">Meaning: {s.meaning}</p>
-              </div>
-            ))}
+          <div>
+            <SlokasClient slokas={page.slokas || []} />
           </div>
         </div>
       </PageLayout>
