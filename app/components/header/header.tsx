@@ -292,34 +292,33 @@ export default function Header() {
                           <ul role="list" className={`${styles.navPrimarySubmenu} flex flex-col`}>
                             {Object.entries(children).map(([cKey, cLabel], idx) => (
                               <li key={cKey}>
-                                <Link href={`/${key}/${cKey}`} legacyBehavior>
-                                  <a
-                                    className="block"
-                                    role="menuitem"
-                                    tabIndex={0}
-                                    ref={(el: any) => {
-                                      if (!dropdownRefs.current[key]) dropdownRefs.current[key] = [];
-                                      dropdownRefs.current[key][idx] = el;
-                                    }}
-                                    onKeyDown={(e: any) => {
-                                      const arr = dropdownRefs.current[key] || [];
-                                      if (e.key === 'ArrowDown') {
-                                        e.preventDefault();
-                                        const next = arr[idx + 1] ?? arr[0];
-                                        next?.focus();
-                                      }
-                                      if (e.key === 'ArrowUp') {
-                                        e.preventDefault();
-                                        const prev = arr[idx - 1] ?? arr[arr.length - 1];
-                                        prev?.focus();
-                                      }
-                                      if (e.key === 'Escape') {
-                                        closeDropdown();
-                                        setTimeout(() => triggerRefs.current[key]?.focus(), 0);
-                                      }
-                                    }}
-                                  >{cLabel as string}</a>
-                                </Link>
+                                <Link
+                                  href={`/${key}/${cKey}`}
+                                  className="block"
+                                  role="menuitem"
+                                  tabIndex={0}
+                                  ref={(el: any) => {
+                                    if (!dropdownRefs.current[key]) dropdownRefs.current[key] = [];
+                                    dropdownRefs.current[key][idx] = el;
+                                  }}
+                                  onKeyDown={(e: any) => {
+                                    const arr = dropdownRefs.current[key] || [];
+                                    if (e.key === 'ArrowDown') {
+                                      e.preventDefault();
+                                      const next = arr[idx + 1] ?? arr[0];
+                                      next?.focus();
+                                    }
+                                    if (e.key === 'ArrowUp') {
+                                      e.preventDefault();
+                                      const prev = arr[idx - 1] ?? arr[arr.length - 1];
+                                      prev?.focus();
+                                    }
+                                    if (e.key === 'Escape') {
+                                      closeDropdown();
+                                      setTimeout(() => triggerRefs.current[key]?.focus(), 0);
+                                    }
+                                  }}
+                                >{cLabel as string}</Link>
                               </li>
                             ))}
                           </ul>
