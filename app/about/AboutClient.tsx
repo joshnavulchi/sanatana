@@ -58,7 +58,7 @@ export default function AboutClient() {
         const Tag = `h${level}` as unknown as React.ElementType;
         return (
           <div key={section.id || index}>
-            <Tag className={``}>{section.title}</Tag>
+            <Tag>{section.title}</Tag>
             {section?.text && <p>{section.text}</p>}
             <ul className="list-disk">
               {section?.bullets && section?.bullets.map((text: string, idx: number) => (

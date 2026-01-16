@@ -12,7 +12,7 @@ import Header from './components/header/header';
 import Footer from './components/footer/footer';
 import CookieConsent from './components/cookie-consent/CookieConsent';
 import TopProgress from './components/progress/TopProgress';
-import DigitalClockClient from './components/common/DigitalClockClient';
+import DigitalClockClient from './components/digitalclock/clockclient';
 import ScrollToTop from './components/scroll-to-top/scroll-to-top';
 
 import "./globals.css"; // tailwind base styles

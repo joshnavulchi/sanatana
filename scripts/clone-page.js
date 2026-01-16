@@ -9,10 +9,14 @@ function usage() {
 }
 
 const args = process.argv.slice(2);
-if (!args[0]) usage();
-const newSlug = args[0];
-const sourceDirArg = args[1] || 'app/about';
-const force = args.includes('--force');
+if (!args || args.length === 0) usage();
+// Separate flags (e.g. --force) from positional args
+const flags = args.filter(a => a.startsWith('--'));
+const positionals = args.filter(a => !a.startsWith('--'));
+if (!positionals[0]) usage();
+const newSlug = positionals[0];
+const sourceDirArg = positionals[1] || 'app/about';
+const force = flags.includes('--force');
 
 const root = path.resolve(__dirname, '..');
 const sourceDir = path.join(root, sourceDirArg);
@@ -45,13 +49,13 @@ function copyRecursive(src, dest) {
   const stats = fs.statSync(src);
   if (stats.isDirectory()) {
     if (!fs.existsSync(dest)) fs.mkdirSync(dest, { recursive: true });
-    for (const entry of fs.readdirSync(src)) {
-      const srcPath = path.join(src, entry);
-      // Replace 'about' in filenames
-      const destName = entry.replace(/about/gi, (m) => (m === 'about' ? slug : capitalize(slug)));
-      const destPath = path.join(dest, destName);
-      copyRecursive(srcPath, destPath);
-    }
+      for (const entry of fs.readdirSync(src)) {
+        const srcPath = path.join(src, entry);
+        // Replace 'about' in filenames (case-insensitive)
+        const destName = entry.replace(/about/gi, () => slug);
+        const destPath = path.join(dest, destName);
+        copyRecursive(srcPath, destPath);
+      }
     return;
   }
   // file

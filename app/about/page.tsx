@@ -2,7 +2,7 @@
 import { createGenerateMetadata } from '../../lib/pageUtils';
 export const generateMetadata = createGenerateMetadata('about');
 
-import AboutClient from './AboutClient';
+import AboutClient from './aboutclient';
 
 export default function Page() {
   return <AboutClient />;
