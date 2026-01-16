@@ -8,8 +8,8 @@
     color: var(--color-primary);
   }
   .navPrimarySubmenu { margin: 0; padding: 0; }
-  .navPrimarySubmenu li:nth-child(odd) { background-color: var(--color-text); }
-  .navPrimarySubmenu li:nth-child(even) { background-color: var(--color-white); }
+  .navPrimarySubmenu li:nth-child(odd) { background-color: var(--color-bg); }
+  .navPrimarySubmenu li:nth-child(even) { background-color: var(--color-surface); }
   .navPrimarySubmenu a { padding: var(--space-xxs) var(--space-xs); display: block; }
   .navPrimaryBtn {
     display: flex;

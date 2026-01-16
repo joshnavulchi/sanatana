@@ -116,6 +116,22 @@ export default async function RootLayout({
           }}
         />
         {/* Google Analytics removed from automatic load — now loaded after user consent to reduce unused JS. */}
+        {/* Google Analytics: automatic load when NEXT_PUBLIC_GA_ID is set (optional) */}
+        {secrets.NEXT_PUBLIC_GA_ID && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${secrets.NEXT_PUBLIC_GA_ID}`}
+              strategy="lazyOnload"
+            />
+            <Script
+              id="ga-init"
+              strategy="lazyOnload"
+              dangerouslySetInnerHTML={{
+                __html: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${secrets.NEXT_PUBLIC_GA_ID}');`,
+              }}
+            />
+          </>
+        )}
         {/* Disable right-click context menu in production to reduce casual copy */}
         {process.env.NODE_ENV === "production" && (
           <Script

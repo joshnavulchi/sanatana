@@ -4,36 +4,7 @@ import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
 import { loadLocale } from 'lib/i18n';
 import { useT } from '../hooks/useT';
-import { parseList } from 'lib/parseList';
-
-import styles from './page.module.scss';
-
-function parseSections(raw: any) {
-  if (!raw) return [];
-  if (Array.isArray(raw)) return raw;
-  if (typeof raw === 'string') {
-    try {
-      const parsed = JSON.parse(raw);
-      if (Array.isArray(parsed)) return parsed;
-    } catch (e) {
-      // not JSON, fall back to newline parsing
-      return parseList(raw);
-    }
-  }
-  return [];
-}
-
-function parseMaybeObject(raw: any) {
-  if (!raw) return raw;
-  if (typeof raw === 'string') {
-    try {
-      return JSON.parse(raw);
-    } catch (_) {
-      return raw;
-    }
-  }
-  return raw;
-}
+import { parseSections, parseMaybeObject } from 'lib/parseContent';
 
 export default function PrivacyPolicy() {
   const { locale } = useLocale();
@@ -47,80 +18,55 @@ export default function PrivacyPolicy() {
         await loadLocale(locale).catch(() => {});
       } catch (e) {}
       if (!mounted) return;
+
       const title = t('privacy.title') || '';
       const lastupdated = t('privacy.lastupdated') || '';
-      let intro: any = parseMaybeObject(t('privacy.intro'));
-      let informationwecollect: any = parseMaybeObject(t('privacy.informationwecollect'));
-      let howweuse: any = parseMaybeObject(t('privacy.howweuse'));
-      let cookieslocalstorage: any = parseMaybeObject(t('privacy.cookieslocalstorage'));
-      let thirdparty: any = parseMaybeObject(t('privacy.thirdparty'));
-      let security: any = parseMaybeObject(t('privacy.security'));
-      let rights: any = parseMaybeObject(t('privacy.rights'));
-      let children: any = parseMaybeObject(t('privacy.children'));
-      let changes: any = parseMaybeObject(t('privacy.changes'));
-      let contact: any = parseMaybeObject(t('privacy.contact'));
-      if (intro && typeof intro === 'object') {
-        intro = { title: intro.title, text: intro.text };
-      }
-      if (informationwecollect && typeof informationwecollect === 'object') {
-        informationwecollect = {
-          title: informationwecollect.title,
-          lead: informationwecollect.lead,
-          usagelabel: informationwecollect.usagelabel,
-          usage: informationwecollect.usage,
-          devicelabel: informationwecollect.devicelabel,
-          device: informationwecollect.device,
-          cookieslabel: informationwecollect.cookieslabel,
-          cookies: informationwecollect.cookies,
-          contactlabel: informationwecollect.contactlabel,
-          contact: informationwecollect.contact
+
+      const keys = ['intro','informationwecollect','howweuse','cookieslocalstorage','thirdparty','security','rights','children','changes','contact'];
+      const data: Record<string, any> = {};
+      keys.forEach((k) => { data[k] = parseMaybeObject(t(`privacy.${k}`)); });
+
+      // specific normalizations
+      if (data.intro && typeof data.intro === 'object') data.intro = { title: data.intro.title, text: data.intro.text };
+
+      if (data.informationwecollect && typeof data.informationwecollect === 'object') {
+        const iw = data.informationwecollect;
+        data.informationwecollect = {
+          title: iw.title,
+          lead: iw.lead,
+          usagelabel: iw.usagelabel,
+          usage: iw.usage,
+          devicelabel: iw.devicelabel,
+          device: iw.device,
+          cookieslabel: iw.cookieslabel,
+          cookies: iw.cookies,
+          contactlabel: iw.contactlabel,
+          contact: iw.contact
         };
       }
-      // Normalize nested list/object fields that may be returned as JSON strings
-      if (howweuse && typeof howweuse === 'object') {
-        howweuse.items = parseSections((howweuse as any).items);
+
+      if (data.howweuse && typeof data.howweuse === 'object') {
+        data.howweuse.items = parseSections(data.howweuse.items);
       } else {
-        // if purpose is plain string, convert to points array
-        howweuse = { title: howweuse.title, lead: howweuse.lead, items: parseSections(howweuse) };
+        data.howweuse = { title: data.howweuse?.title, lead: data.howweuse?.lead, items: parseSections(data.howweuse) };
       }
-      if (cookieslocalstorage && typeof cookieslocalstorage === 'object') {
-        cookieslocalstorage = { title: cookieslocalstorage.title, text: cookieslocalstorage.text };
-      }
-      if (thirdparty && typeof thirdparty === 'object') {
-        thirdparty = { title: thirdparty.title, text: thirdparty.text };
-      }
-      if (security && typeof security === 'object') {
-        security = { title: security.title, text: security.text };
-      }
-      if (rights && typeof rights === 'object') {
-        rights.items = parseSections((rights as any).items);
+
+      ['cookieslocalstorage','thirdparty','security','children','changes'].forEach((k) => {
+        if (data[k] && typeof data[k] === 'object') data[k] = { title: data[k].title, text: data[k].text };
+      });
+
+      if (data.rights && typeof data.rights === 'object') {
+        data.rights.items = parseSections(data.rights.items);
       } else {
-        // if purpose is plain string, convert to points array
-        rights = {
-          title: rights.title,
-          lead: rights.lead,
-          items: parseSections(rights),
-          contacttext: rights.contacttext
-        };
+        data.rights = { title: data.rights?.title, lead: data.rights?.lead, items: parseSections(data.rights), contacttext: data.rights?.contacttext };
       }
-      if (children && typeof children === 'object') {
-        children = { title: children.title, text: children.text };
+
+      if (data.contact && typeof data.contact === 'object') {
+        const c = data.contact;
+        data.contact = { title: c.title, lead: c.lead, emaillabel: c.emaillabel, email: c.email, websitelabel: c.websitelabel, website: c.website, closing: c.closing };
       }
-      if (changes && typeof changes === 'object') {
-        changes = { title: changes.title, text: changes.text };
-      }
-      if (contact && typeof contact === 'object') {
-        contact = {
-          title: contact.title,
-          lead: contact.lead,
-          emaillabel: contact.emaillabel,
-          email: contact.email,
-          websitelabel: contact.websitelabel,
-          website: contact.website,
-          closing: contact.closing
-        };
-      }
-      setPrivacy({ title, lastupdated, intro, informationwecollect, howweuse, cookieslocalstorage, thirdparty, security, rights, children, changes, contact });
+
+      setPrivacy({ title, lastupdated, ...data });
     })();
     return () => { mounted = false; };
   }, [locale]);
@@ -130,7 +76,7 @@ export default function PrivacyPolicy() {
       metaKey="privacy"
       title={privacy.title}
       breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Privacy policy' }]}
-      className={`${styles.privacyPage} layout-sm`}
+      className={`layout-sm`}
     >
       <p><strong>{privacy.lastupdated}</strong></p>     
       <section>

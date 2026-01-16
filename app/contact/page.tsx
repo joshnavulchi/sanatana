@@ -45,7 +45,7 @@ export default function ContactPage({ searchParams }: any) {
         return (
           <section key={key} className="mb-6">
             {sec.title ? <h3>{sec.title}</h3> : null}
-            <div className="flex gap-4">
+            <div className="flex flex-col md:flex-row gap-4">
               {Array.isArray(sec.columns) ? sec.columns.map((col: any, i: number) => (
                 <div key={i} className="w-full md:w-1/3 bg-white shadow-md/14 p-4 border rounded">
                   {col.title ? <h4>{col.title}</h4> : null}

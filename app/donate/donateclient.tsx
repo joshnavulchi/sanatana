@@ -4,37 +4,9 @@ import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
 import { loadLocale } from 'lib/i18n';
 import { useT } from '../hooks/useT';
-import { parseList } from 'lib/parseList';
-import FaqAccordion from '@/app/components/faqaccordion/faqaccordion';
-
+import { parseSections, parseMaybeObject } from 'lib/parseContent';
 import styles from './page.module.scss';
-
-function parseSections(raw: any) {
-  if (!raw) return [];
-  if (Array.isArray(raw)) return raw;
-  if (typeof raw === 'string') {
-    try {
-      const parsed = JSON.parse(raw);
-      if (Array.isArray(parsed)) return parsed;
-    } catch (e) {
-      // not JSON, fall back to newline parsing
-      return parseList(raw);
-    }
-  }
-  return [];
-}
-
-function parseMaybeObject(raw: any) {
-  if (!raw) return raw;
-  if (typeof raw === 'string') {
-    try {
-      return JSON.parse(raw);
-    } catch (_) {
-      return raw;
-    }
-  }
-  return raw;
-}
+import FaqAccordion from '@components/faqaccordion/faqaccordion';
  
 export default function DonateClient() {
   const { locale } = useLocale();
@@ -50,30 +22,25 @@ export default function DonateClient() {
 
       if (!mounted) return;
       const title = t('donate.title') || '';
-      const subtitle = t('donate.subtitle') || ''; 
-      let purpose: any = parseMaybeObject(t('donate.purpose'));
-      let expenses: any = parseMaybeObject(t('donate.expenses'));
-      let donateOptions: any = parseMaybeObject(t('donate.donateOptions'));
-      let faq: any = parseMaybeObject(t('donate.faq'));
-      // Normalize nested list/object fields that may be returned as JSON strings
-      if (purpose && typeof purpose === 'object') {
-        purpose.points = parseSections((purpose as any).points);
-      } else {
-        // if purpose is plain string, convert to points array
-        purpose = { heading: '', points: parseSections(purpose) };
-      }
+      const subtitle = t('donate.subtitle') || '';
 
-      if (expenses && typeof expenses === 'object') {
-        expenses.table = Array.isArray(expenses.table) ? expenses.table : parseSections(expenses.table);
-      } else {
-        expenses = { heading: '', table: parseSections(expenses) };
-      }
+      const rawPurpose = parseMaybeObject(t('donate.purpose'));
+      const rawExpenses = parseMaybeObject(t('donate.expenses'));
+      const donateOptions = parseMaybeObject(t('donate.donateOptions'));
+      const rawFaq = parseMaybeObject(t('donate.faq'));
 
-      if (faq && typeof faq === 'object') {
-        faq.items = Array.isArray(faq.items) ? faq.items : parseSections(faq.items);
-      } else {
-        faq = { heading: '', items: parseSections(faq) };
-      }
+      const purpose = (rawPurpose && typeof rawPurpose === 'object')
+        ? { heading: rawPurpose.heading, points: parseSections(rawPurpose.points) }
+        : { heading: '', points: parseSections(rawPurpose) };
+
+      const expenses = (rawExpenses && typeof rawExpenses === 'object')
+        ? { heading: rawExpenses.heading, table: Array.isArray(rawExpenses.table) ? rawExpenses.table : parseSections(rawExpenses.table) }
+        : { heading: '', table: parseSections(rawExpenses) };
+
+      const faq = (rawFaq && typeof rawFaq === 'object')
+        ? { heading: rawFaq.heading, items: Array.isArray(rawFaq.items) ? rawFaq.items : parseSections(rawFaq.items) }
+        : { heading: '', items: parseSections(rawFaq) };
+
       setDonate({ title, subtitle, purpose, expenses, donateOptions, faq });
     })();
     return () => { mounted = false; };
@@ -84,7 +51,7 @@ export default function DonateClient() {
       metaKey="donate" 
       title={donate.title}
       breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Donate' }]}
-      className={`${styles.donatePage} layout-sm`}
+      className={`layout-sm`}
     >
       <p>{donate.subtitle}</p>
       {/* Purpose */}
