@@ -16,13 +16,15 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
 
   return async function generateMetadata(props: Record<string, unknown> | undefined) {
     const { searchParams } = (props || {}) as { searchParams?: unknown };
-    // `searchParams` can be a Promise in newer Next.js versions — unwrap it first
+    // `searchParams` can be a Promise in newer Next.js versions.
+    // Do NOT await it here because awaiting makes the metadata generation
+    // depend on runtime values and prevents static rendering. If it's
+    // a Promise-like object, treat it as unresolved so we fall back to
+    // header-based detection on the server.
     let resolvedSearchParams: unknown = searchParams;
     try {
       if (resolvedSearchParams && typeof (resolvedSearchParams as any).then === 'function') {
-        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-        // @ts-ignore - resolvedSearchParams may be a Promise here
-        resolvedSearchParams = await (resolvedSearchParams as any);
+        resolvedSearchParams = undefined;
       }
     } catch (e) {
       resolvedSearchParams = undefined;
