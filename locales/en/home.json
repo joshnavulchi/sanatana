@@ -46,15 +46,15 @@
     "sections": [
       {
         "id": "introduction",
-        "title": "Understanding Sanātana Dharma",
-        "content": "Learn the essence of Sanātana Dharma - an external, universal truth and way of life that transcends the cycles of time and culture.",
+        "title": "What is Sanātana Dharma?",
+        "content": "Sanātana Dharma, often translated as the “eternal way,” is not merely a religion but a timeless framework guiding human life toward harmony with cosmic truth. Rooted in Vedic wisdom, it emphasizes universal principles—Dharma (righteous duty), Karma (action and consequence), Moksha (liberation), and the pursuit of truth. It teaches compassion, non-violence, respect for all beings, and reverence for nature as divine. Unlike rigid dogma, it adapts across ages, cultures, and contexts, offering a living philosophy of balance, self-realization, and unity. Sanātana Dharma ultimately affirms that existence itself is sacred, and life’s purpose is realizing oneness with the eternal.",
         "src": "/images/home/om.png",
         "nodecaration": true
       },
       {
         "id": "scriptures",
-        "title": "The Sacred Scriptures",
-        "content": "Discover the foundational texts that form the bedrock-Sanātana Dharma, preserving divine knowledge and guiding the path of dharma through,",
+        "title": "The are the Sacred Scriptures?",
+        "content": "The Sacred Scriptures are revered texts that embody divine wisdom, guiding humanity toward truth, virtue, and liberation. They are not merely historical records but living sources of spiritual light, offering timeless principles for righteous living. Scriptures preserve revelations, hymns, and teachings that inspire devotion, discipline, and self‑realization. They connect seekers with the eternal, reminding us of the sacredness of existence and the unity of all beings. Through stories, philosophy, and moral codes, they nurture compassion, faith, and inner strength. The Sacred Scriptures ultimately serve as bridges between the human and the divine, illuminating the eternal path of harmony.",
         "items": [
           {
             "title": "The Vedas",
@@ -84,14 +84,14 @@
       },
       {
         "id": "living-tradition",
-        "title": "A Living Spiritual Tradition",
-        "content": "A living spiritual tradition is a dynamic, evolving practice that preserves ancient wisdom while adapting to contemporary life, nurturing faith, culture, ethics, and collective identity.",
+        "title": "🌿 A Living Spiritual Tradition means?",
+        "content": "A Living Spiritual Tradition is not a relic of the past but a vibrant, evolving stream of wisdom that flows through generations. It embodies timeless values while adapting to contemporary life, guiding seekers with relevance and authenticity. Such a tradition is sustained by practice, community, and devotion, where rituals, stories, and teachings remain dynamic rather than static. It breathes through daily actions, ethical choices, and shared celebrations, nurturing both individual growth and collective harmony. By honoring roots yet embracing change, it ensures continuity of spirit, offering humanity a living bridge between ancient insight and modern experience.",
         "nodecaration": true
       },
       {
         "id": "principles",
-        "title": "Core Principles of Sanātana Dharma",
-        "content": "Sanātana Dharma upholds eternal truth, dharma, non‑violence, compassion, self‑realization, devotion, harmony, respect for all beings, and unity with the divine through righteous living.",
+        "title": "Core Principles of Sanātana Dharma?",
+        "content": "The core principles of Sanātana Dharma are eternal guidelines for righteous living and spiritual realization. Dharma teaches duty, truth, and harmony with cosmic order. Karma reveals the law of cause and effect, urging mindful action. Atman signifies the immortal soul, while Brahman is the infinite reality; realizing their unity leads to liberation. Moksha, freedom from rebirth, is the highest goal. The Purusharthas—Dharma, Artha, Kama, Moksha—balance ethics, prosperity, desire, and liberation. Rooted in the Vedas and Upanishads, these principles remain timeless, inspiring humanity to live with compassion, wisdom, and balance, bridging ancient insight with modern life.",
         "items": [
           {
             "title": "Dharma",
@@ -133,8 +133,8 @@
       },
       {
         "id": "relevance",
-        "title": "Why Sanātana Dharma Matters Today",
-        "content": "Sanātana Dharma matters today because it offers timeless wisdom, ethical guidance, spiritual harmony, universal compassion, and resilience, fostering peace, unity, and balance in modern life.",
+        "title": "Why Sanātana Dharma Matters Today?",
+        "content": "Sanātana Dharma matters today because it offers timeless wisdom for modern challenges. Rooted in universal values of truth, compassion, and harmony, it transcends religion to guide humanity toward ethical living and spiritual balance. In an age of rapid change, its principles—Dharma, Karma, and Moksha—remind us of responsibility, mindful action, and liberation beyond material pursuits. It nurtures inclusivity, respect for diversity, and reverence for nature, aligning with sustainable living. By bridging ancient insight with contemporary needs, Sanātana Dharma inspires resilience, peace, and unity, showing that eternal truths remain relevant in shaping a just, compassionate, and balanced world.",
         "pointSrc": [
           "/images/home/why-sanatana-1.png",
           "/images/home/why-sanatana-2.png",
@@ -150,14 +150,14 @@
       },
       {
         "id": "purpose",
-        "title": "Purpose of Sanātana Dharma",
-        "content": "The purpose of Sanātana Dharma is to guide humanity toward truth, harmony, self‑realization, righteous living, compassion, and liberation, sustaining universal balance and eternal wisdom.",
+        "title": "Purpose of Sanātana Dharma?",
+        "content": "The purpose of Sanātana Dharma is to guide humanity toward righteous living, spiritual awakening, and harmony with the cosmos. It teaches that life is not merely material but a sacred journey of self-realization. Through Dharma, one learns duty and truth; through Karma, the law of action; through Moksha, liberation from rebirth. Its aim is balance—between worldly pursuits and eternal wisdom—so individuals live ethically, prosper responsibly, enjoy desires mindfully, and ultimately transcend limitations. Rooted in compassion, inclusivity, and reverence for nature, Sanātana Dharma nurtures peace, unity, and timeless values, offering humanity a path to enduring fulfillment and divine connection.",
         "nodecaration": true
       },
       {
         "id": "offerings",
-        "title": "What You Will Find Here",
-        "content": "What you will find here is timeless wisdom, spiritual guidance, cultural heritage, ethical principles, inspiring stories, and practices nurturing harmony, devotion, truth, and liberation.",
+        "title": "What You Will Find Here?",
+        "content": "What you will find here about Sanātana Dharma is a living treasury of eternal wisdom, guiding seekers toward truth, harmony, and liberation. It is not confined to rituals alone but embraces philosophy, ethics, and devotion. You will discover the essence of Dharma, the law of Karma, the pursuit of Moksha, and the balance of Purusharthas. Here, sacred scriptures like the Vedas, Upanishads, and Bhagavad Gita illuminate timeless values. Sanātana Dharma nurtures compassion, inclusivity, and reverence for nature, offering humanity a path of resilience and peace. It bridges ancient insight with modern relevance, inspiring a balanced and purposeful life.",
         "pointSrc": "",
         "points": [
           "Chapter-wise Bhagavad Gita explanations",
@@ -170,7 +170,7 @@
       {
         "id": "journey",
         "title": "A Timeless Journey",
-        "content": "A timeless journey is an eternal path of wisdom, growth, devotion, discovery, and liberation, transcending ages while guiding souls toward truth, harmony, and divine unity.",
+        "content": "A timeless journey in Sanātana Dharma is the eternal path of self-discovery, duty, and liberation. It begins with Dharma, the practice of truth and righteousness, guiding daily life with harmony. Karma teaches that every action shapes destiny, urging mindful choices. The soul’s quest is to realize its unity with Brahman, the infinite reality. Through devotion, wisdom, and discipline, seekers progress toward Moksha, freedom from rebirth. This journey is not bound by time or culture; it flows across generations, nurturing compassion, inclusivity, and reverence for nature. Sanātana Dharma offers humanity a living bridge between ancient wisdom and modern relevance.",
         "nodecaration": true
       }
     ],
@@ -254,6 +254,14 @@
       "transliteration": "Yadā yadā hi dharmasya glānirbhavati bhārata, Abhyutthāna madharmasya tadātmānaṁ sṛjāmyaham.",
       "credit": "- by Lord Krishna.",
       "translation": "Whenever and wherever there is a decline in righteousness (Dharma), O descendant of Bharata (Arjuna), and a predominance of unrighteousness (Adharma)—at that time I manifest Myself (take birth)."
+    },
+    "cta": {
+      "title": "Help us make this website multilingual!",
+      "subtitle": "Your contribution makes our website accessible to everyone. Join our global community of translators.",
+      "contribute": "Contribute Now",
+      "guidelines": "Translation Guidelines",
+      "badge": "Supported: EN, TA, HI",
+      "targeting": "Targeting: 10 languages · 60% completed"
     }
   }
 }
