@@ -2,18 +2,16 @@
 // Imports JSON files in this folder and deep-merges them into one export.
 import _0 from './about.json';
 import _1 from './contact.json';
-import _2 from './contactForm copy.json';
-import _3 from './contactForm.json';
-import _4 from './cookieConsent.json';
-import _5 from './cookiepolicy.json';
-import _6 from './cta.json';
-import _7 from './donate.json';
-import _8 from './footer.json';
-import _9 from './home.json';
-import _10 from './nav.json';
-import _11 from './privacy.json';
-import _12 from './site_title.json';
-import _13 from './terms.json';
+import _2 from './contactForm.json';
+import _3 from './cookieConsent.json';
+import _4 from './cookiepolicy.json';
+import _5 from './cta.json';
+import _6 from './footer.json';
+import _7 from './home.json';
+import _8 from './nav.json';
+import _9 from './privacy.json';
+import _10 from './site_title.json';
+import _11 from './terms.json';
 
 function deepMerge(target: any, source: any) {
   if (source === undefined) return target;
@@ -31,6 +29,6 @@ function deepMerge(target: any, source: any) {
 }
 
 const base = {};
-const merged = [_0, _1, _2, _3, _4, _5, _6, _7, _8, _9, _10, _11, _12, _13].reduce((acc, cur) => deepMerge(acc, cur || {}), base);
+const merged = [_0, _1, _2, _3, _4, _5, _6, _7, _8, _9, _10, _11].reduce((acc, cur) => deepMerge(acc, cur || {}), base);
 
 export default merged;
