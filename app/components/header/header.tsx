@@ -190,7 +190,7 @@ export default function Header() {
               </span>
             </Link>
           </div>
-          <nav role="menu" className="hidden items-center md:flex">
+          <nav role="menubar" aria-label="Main navigation" className="hidden items-center md:flex">
             {(() => {
               const entries = Object.entries(translations.nav);
               const topKeys = entries.map(([k]) => k);
@@ -221,7 +221,7 @@ export default function Header() {
 
                 return (
                   <div
-                    role="menuItem"
+                    role="none"
                     key={key}
                     className="relative"
                     onMouseEnter={() => setOpenDropdown(key)}
@@ -229,6 +229,7 @@ export default function Header() {
                   >
                     <button
                       ref={(el) => { triggerRefs.current[key] = el; }}
+                      role="menuitem"
                       className={`${styles.navPrimaryBtn} inline-flex items-center gap-1`}
                       aria-haspopup="true"
                       aria-expanded={openDropdown === key}
@@ -287,7 +288,7 @@ export default function Header() {
                       const defaultAlign = isLastTwo ? 'right' : 'left';
                       const computedAlign = (val && val.align) ? val.align : (dropdownAligns[key] || defaultAlign);
                       const positionLeft = dropdownPositions[key];
-                      return (
+                        return (
                         <DropdownPanel open={openDropdown === key} id={`submenu-${key}`} align={computedAlign} positionLeft={positionLeft}>
                           <ul role="list" className={`${styles.navPrimarySubmenu} flex flex-col`}>
                             {Object.entries(children).map(([cKey, cLabel], idx) => (
@@ -337,7 +338,7 @@ export default function Header() {
           <div role="menu" className="flex items-center justify-center md:hidden">
             <LanguageDropdown />
             <button
-              role="menuItem"
+              role="menuitem"
               aria-expanded={open}
               onClick={() => setOpen((s) => !s)}
               className="inline-flex items-center justify-center rounded"
@@ -355,7 +356,7 @@ export default function Header() {
         {open && (
           <div className={`md:hidden ${styles.mobile} border-t border-b border-white/50`}>
             <div role="menu" className={`${styles.mobilePrimaryMenu} flex flex-col`}>
-              {Object.entries(translations.nav).map(([key, val]: [string, any]) => {
+                {Object.entries(translations.nav).map(([key, val]: [string, any]) => {
                 if (key === 'home') return null;
                 if (key === 'contact') return null;
                 if (key === 'about') return null;
@@ -377,9 +378,10 @@ export default function Header() {
 
                 const expanded = !!expandedKeys[key];
                 return (
-                  <div role="menuItem" key={key} className="flex flex-col gap-2">
+                  <div role="none" key={key} className="flex flex-col gap-2">
                     <button
                       onClick={() => setExpandedKeys((s) => ({ ...s, [key]: !s[key] }))}
+                      role="menuitem"
                       className={`${styles.navPrimaryBtn} flex items-center justify-between w-full font-semibold`}
                       aria-expanded={expanded}
                     >
