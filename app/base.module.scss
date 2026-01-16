@@ -120,7 +120,7 @@ li {
   margin-bottom: 0.5rem;
 }
 p, .p, li { font-size: 1rem; } /* equals base (fluid) */
-small { font-size: 0.75rem; color: var(--color-muted); } /* 14px-ish at base */
+small { font-size: 0.75rem; } /* 14px-ish at base */
 /* Headings: fluid using clamp(min, viewport, max) */
 h1, .h1 {
   font-weight: 700;
@@ -178,13 +178,11 @@ textarea {
     margin: 0;
     padding: 0;
   }
+  li {
+    list-style: none;
+  }
   > div {
     padding: var(--space-md) var(--space-lg);
-  }
-  small,
-  .small,
-  .meta {
-    color: var(--color-white);
   }
   .buttons-group {
     margin-top: var(--space-md);

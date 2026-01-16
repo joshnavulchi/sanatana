@@ -15,8 +15,9 @@
   .copyrights a { font-size: 0.9rem; }
   .copyrights small { display: inline-block; padding: var(--space-md) 0; }
   .underline { text-decoration: underline; }
-  small {
-    color: rgba(255, 255, 255, 0.75);
+  small,
+  .small {
+    color: var(--color-border);
   }
 }
 @media (min-width: 1024px) {
