@@ -6,8 +6,8 @@ type Props = {
   locale?: string;
 };
 // Server component that renders JSON-LD for a given metaKey.
-export default async function StructuredData({ metaKey, params, locale }: Props) {
-  const loc = locale ?? await detectLocale(params);
+export default function StructuredData({ metaKey, params, locale }: Props) {
+  const loc = locale ?? detectLocale(params);
   const meta = getMeta(metaKey, params, loc) || {};
   const webpage: Record<string, any> = {
     '@context': 'https://schema.org',

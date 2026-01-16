@@ -2,8 +2,8 @@
 "use client";
 
 import { useEffect, useRef, useState } from 'react';
-import { usePathname, useSearchParams } from 'next/navigation';
-import { getLocaleObject, loadLocale } from '../../../lib/i18n';
+import { usePathname } from 'next/navigation';
+import { getLocaleObject, loadLocale, DEFAULT_LOCALE } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
@@ -11,26 +11,24 @@ import LazyImage from '../lazy-image/LazyImage';
 import BannerNotifications from '../notifications';
 import ThemeToggle from '../theme-toggle/ThemeToggle';
 
-
 const LanguageDropdown = dynamic(() => import("../language-dropdown/language-dropdown"), { ssr: false });
-// Immediate English fallbacks so header can render synchronously
-import enNav from '../../../locales/en/nav.json';
-import enSiteTitle from '../../../locales/en/site_title.json';
-import enBanner from '../../../locales/en/banner_notifications.json';
-import enBanner2 from '../../../locales/en/banner_notifications2.json';
+// Start with default-locale fallbacks so header can render synchronously
 
 import styles from './header.module.scss';
 
 export default function Header() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
-  const searchParams = useSearchParams();
-  // Start with English translations so header renders immediately
+  const defaultObj = (getLocaleObject(DEFAULT_LOCALE) as any) || {};
+  const defaultSiteTitle = (defaultObj?.siteTitle && (defaultObj.siteTitle?.siteTitle || defaultObj.siteTitle)) || (defaultObj?.sitetitle) || 'Sanātana Dharma';
+  const defaultNav = (defaultObj?.nav as any) || {};
+  const defaultBanner = (defaultObj && (defaultObj.bannerNotifications ?? defaultObj.banner ?? defaultObj.banner_notifications)) || null;
+  const defaultBanner2 = (defaultObj && (defaultObj.bannerNotifications2 ?? defaultObj.banner2 ?? defaultObj.banner_notifications2)) || null;
   const [translations, setTranslations] = useState<any>({
-    siteTitle: (enSiteTitle && (enSiteTitle.sitetitle || enSiteTitle)) || 'Sanātana Dharma',
-    nav: (enNav && (enNav.nav || enNav)) || {},
-    banner: (((enBanner as any)?.banner_notifications ?? (enBanner as any)?.banner ?? enBanner) as any) || null,
-    banner2: (((enBanner2 as any)?.banner_notifications2 ?? (enBanner2 as any)?.banner ?? enBanner2) as any) || null,
+    siteTitle: defaultSiteTitle,
+    nav: defaultNav,
+    banner: defaultBanner,
+    banner2: defaultBanner2,
   });
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [expandedKeys, setExpandedKeys] = useState<Record<string, boolean>>({});
@@ -109,8 +107,8 @@ export default function Header() {
       try {
         await loadLocale(locale);
         if (!mounted) return;
-        const locObj = (getLocaleObject(locale) as any) || {};
-        const siteTitle = (locObj?.siteTitle && (locObj.siteTitle?.siteTitle || locObj.siteTitle)) || 'Sanātana Dharma';
+        const locObj = (getLocaleObject(locale) as any) || {}; // entire locale files getting
+        const siteTitle = (locObj?.sitetitle) || 'Sanātana Dharma';
         const nav = (locObj?.nav as any) || {};
         // Support multiple key styles in locale files: snake_case (banner_notifications)
         // and camelCase (bannerNotifications). Prefer explicit banner keys when present.
@@ -333,13 +331,12 @@ export default function Header() {
                 );
               });
             })()}
-
-            {/* <LanguageDropdown />
-            <ThemeToggle /> */}
+            <LanguageDropdown />
+            {/* <ThemeToggle /> */}
           </nav>
 
           <div role="menu" className="flex items-center justify-center md:hidden">
-            {/* <LanguageDropdown /> */}
+            <LanguageDropdown />
             <button
               role="menuItem"
               aria-expanded={open}

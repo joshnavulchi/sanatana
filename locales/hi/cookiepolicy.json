@@ -1,0 +1,40 @@
+{
+  "cookiepolicy": {
+    "title": "Cookie Policy",
+    "intro": "This Cookie Policy explains how we use cookies and similar technologies on our website.",
+    "whatarecookies": "What are cookies?",
+    "typesheading": "Types of cookies we use",
+    "types": {
+      "strictlynecessary": "Strictly necessary: Required for the site to function.",
+      "functionality": "Functionality: Remember choices and preferences.",
+      "performance": "Performance: Help us analyze traffic and performance.",
+      "targeting": "Targeting: Used for advertising and personalization."
+    },
+    "managing": "Managing your preferences",
+    "managingdesc": "Open the Cookie Preference Manager from the banner to enable or disable categories. If you accept all cookies, we will store your choices and apply them across visits.",
+    "datasharing": "Data sharing",
+    "datasharingdesc": "We may share aggregated information with third parties for analytics and advertising. No sensitive personal data is shared by default.",
+    "lastupdated": "Last updated: {date}",
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Cookie Policy",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/logo.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
+    }
+  }
+}

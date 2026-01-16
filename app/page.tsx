@@ -2,10 +2,9 @@
 import { detectLocale, t } from '../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import HeroSection from './components/hero-section/herosection';
+import UnderstandingOfSanatana from './components/understanding/sanatanaDharmam';
 import GitSupport from './components/git-support/git-support';
 import OurFourCoreYugas from './components/our-four-core-yugas/ourfourcoreyugas';
-import AboutShiva from './components/aboutshiva/aboutshiva';
-import UnderstandingOfSanatana from './components/understanding/sanatanaDharmam';
 
 export const generateMetadata = createGenerateMetadata('home');
 
@@ -16,7 +15,6 @@ export default async function Home() {
       <main>
         <HeroSection />
         <UnderstandingOfSanatana />
-        <AboutShiva />
         <GitSupport />
         <OurFourCoreYugas />
       </main>

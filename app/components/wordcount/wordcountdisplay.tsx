@@ -1,7 +1,7 @@
 "use client";
-import React, { useEffect, useState, useRef } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { usePathname } from 'next/navigation';
-import styles from './wordCount.module.scss';
+import styles from './wordcount.module.scss';
 
 export interface WordCountProps {
   selector?: string;

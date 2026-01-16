@@ -1,0 +1,82 @@
+{
+  "donate": {
+    "meta": {
+      "title": "Donate | Overview — Sanātana Dharma - Explore Sanatan Dharma",
+      "description": "Donate — Support Sanātana Dharma — Articles, translations and concise commentary on Donate. Explore practices, history, and guiding principles at...",
+      "keywords": "Donate, Sanātana Dharma, Hinduism, Vedic philosophy, Dharma and spirituality, Hindu scriptures, Bhagavad Gita teachings, Upanishads, Vedas and Puranas, Hindu rituals and traditions, Yoga and meditation, Hindu festivals, Spiritual wisdom, Hindu culture and heritage, Indian philosophy, Hindu gods and goddesses, Karma and rebirth, What is Sanātana Dharma, Principles of Sanātana Dharma, Importance of Vedas in Hinduism, Hindu spiritual practices for daily life, Meaning of Dharma in Hinduism, Sanātana Dharma vs modern life, How to follow Sanātana Dharma?, Sanātana Dharma in India,  Dharma, Mantra, Stotra, Stotras, Scripture, Scriptures, Commentary, Devotion, Practices, Ritual, Worship, Temple",
+      "ogimage": "/og/donate.png",
+      "url": "https://sanatanadharmam.in/donate",
+      "canonical": "https://sanatanadharmam.in/donate"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Donate Us",
+        "url": "https://sanatanadharmam.in",
+        "logo": "https://sanatanadharmam.in/og/donate.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8099181075",
+          "contactType": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "areaServed": "Worldwide",
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
+        }
+      }
+    },
+    "title": "Support Sanātana Dharma",
+    "subtitle": "Your donation sustains free access to ancient wisdom, scriptures, translations, and philosophical knowledge for seekers worldwide.",
+    "purpose": {
+      "heading": "Why Your Support Matters",
+      "points": [
+        "Preserves free access to Sanātana Dharma knowledge",
+        "Supports website hosting, domain, and maintenance",
+        "Enables creation of high-quality spiritual content",
+        "Keeps the platform independent and non-commercial"
+      ]
+    },
+    "expenses": {
+      "heading": "Transparency: Current Expenses",
+      "table": [
+        { "name": "Domain & Hosting", "cost": "₹3,500", "cycle": "3 Years", "provider": "Hostinger" },
+        { "name": "GitHub Pages", "cost": "Free", "cycle": "Unlimited", "provider": "GitHub" },
+        { "name": "AI Tools (Research)", "cost": "Free Plans", "cycle": "Ongoing", "provider": "Google / Microsoft / Meta" }
+      ]
+    },
+    "donateOptions": {
+      "oneTime": {
+        "heading": "One-Time Donation",
+        "note": "Make a secure one-time donation via UPI or international payment methods."
+      },
+      "bank": {
+        "heading": "UPI / Bank Transfer",
+        "upi": "809918075@ybl",
+        "accountName": "V Vijaya Kumar",
+        "accountNumber": "32160808608",
+        "ifsc": "SBIN0010677"
+      }
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Is my donation secure?",
+          "a": "Yes. Donations are processed via trusted payment providers and direct bank transfers."
+        },
+        {
+          "q": "How will my donation be used?",
+          "a": "Your contribution supports hosting, maintenance, and creation of educational spiritual content."
+        },
+        { 
+          "q": "Is this a commercial organization?",
+          "a": "No. Sanātana Dharma is a non-commercial, knowledge-focused initiative."
+        }
+      ]
+    }    
+  }
+}

@@ -1,13 +1,12 @@
 'use client'
-
+import { useT } from '../../hooks/useT';
 import Link from 'next/link';
 import WorldMapAnimated from '../worldmap/wordmap';
-import { t, DEFAULT_LOCALE } from '../../../lib/i18n';
 
 import styles from './gitsupport.module.scss';
 
 export default function GitSupport({ locale }: { locale?: string }) {
-  const loc = locale || DEFAULT_LOCALE;
+  const t = useT();
   return (
     <section className={`gradient-background map-wrapper md:min-h-screen relative z-0 overflow-hidden`}>
       <WorldMapAnimated
@@ -23,11 +22,11 @@ export default function GitSupport({ locale }: { locale?: string }) {
         showGraticule={false}
       />
       <div className={`${styles.gitsupport} md:content-wrapper md:absolute md:top-1/2 md:left-20 md:-translate-y-1/2 md:z-1`}>
-        <p className={`h2 font-light!`}>{t('cta.title', loc)}</p>
-        <p className={``}>{t('cta.subtitle', loc)}</p>
+        <p className={`h3 font-light!`}>{t('cta.title')}</p>
+        <p>{t('cta.subtitle')}</p>
         <div className="flex flex-col md:flex-row gap-4">
-          <Link href="https://github.com/vulchivijay/first-contributes" target="_blank" className={`bg-white/75! btn btn-outline no-underline`}>{t('cta.contribute', loc)}</Link>
-          <Link href="https://github.com/vulchivijay/first-contributes" target="_blank" className={`bg-white/75! btn btn-outline no-underline`}>{t('cta.guidelines', loc)}</Link>
+          <Link href="https://github.com/vulchivijay/first-contributes" target="_blank" className={`bg-white/75! btn btn-outline no-underline`}>{t('cta.contribute')}</Link>
+          <Link href="https://github.com/vulchivijay/first-contributes" target="_blank" className={`bg-white/75! btn btn-outline no-underline`}>{t('cta.guidelines')}</Link>
         </div>
       </div>
     </section>

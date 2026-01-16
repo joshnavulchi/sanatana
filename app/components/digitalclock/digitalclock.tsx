@@ -1,6 +1,6 @@
 "use client";
-import React, { useEffect, useState } from 'react';
-import styles from './digitalClock.module.scss';
+import { useEffect, useState } from 'react';
+import styles from './digitalclock.module.scss';
 
 export interface DigitalClockProps {
   showSeconds?: boolean;
@@ -12,7 +12,9 @@ function pad(n: number) {
 }
 
 export default function DigitalClock({ showSeconds = true, showDate = true }: DigitalClockProps) {
-  const [now, setNow] = useState<Date>(new Date());
+  // Use a deterministic initial value to avoid SSR/CSR hydration mismatches.
+  // Initialize to epoch so server and client render identical markup before mount.
+  const [now, setNow] = useState<Date>(new Date(0));
   const [visible, setVisible] = useState<boolean>(true);
 
   useEffect(() => {
@@ -25,6 +27,8 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
   }, []);
 
   useEffect(() => {
+    // Set the actual time only after mount to keep server and client initial HTML identical.
+    setNow(new Date());
     const t = setInterval(() => setNow(new Date()), 1000);
     return () => clearInterval(t);
   }, []);

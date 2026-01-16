@@ -12,7 +12,7 @@ import Header from './components/header/header';
 import Footer from './components/footer/footer';
 import CookieConsent from './components/cookie-consent/CookieConsent';
 import TopProgress from './components/progress/TopProgress';
-import DigitalClock from './components/common/DigitalClock';
+import DigitalClockClient from './components/digitalclock/clockclient';
 import ScrollToTop from './components/scroll-to-top/scroll-to-top';
 
 import "./globals.css"; // tailwind base styles
@@ -33,7 +33,7 @@ export default async function RootLayout({
     description: 'Explore Sanātana Dharma: eternal principles of Hinduism, Vedic traditions, and spiritual practices.'
   });
   const siteJson = buildWebSiteJsonLd();
-
+    
   // Resolve a server-side locale from cookie or Accept-Language header
   async function resolveServerLocale(): Promise<string> {
     const supported = SUPPORTED_LOCALES;
@@ -60,6 +60,7 @@ export default async function RootLayout({
     return DEFAULT_LOCALE;
   }
   const lang = await resolveServerLocale();
+  
   return (
     <html lang={lang} translate="no">
       <head>
@@ -79,10 +80,10 @@ export default async function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={renderJsonLdScript(siteJson)}
         />
-        <Script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={renderJsonLdScript(orgJson)}
-        />
+          <Script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={renderJsonLdScript(orgJson)}
+          />
         <Script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -157,7 +158,7 @@ export default async function RootLayout({
               <Suspense fallback={null}>
                 <Footer />
               </Suspense>
-              <DigitalClock />
+              <DigitalClockClient />
               <ScrollToTop />
               <CookieConsent />
             </ThemeProvider>

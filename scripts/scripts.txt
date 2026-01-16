@@ -23,3 +23,13 @@
     "check-linter": "npm run lint -- --ext .js,.ts,.tsx"
   }
 }
+
+
+# Clone app/about -> app/understanding (fails if target exists)
+// npm run clone:page -- understanding
+
+# Overwrite if target exists
+// npm run clone:page -- understanding --force
+// npm run clone:page -- donate --force
+# or
+// node scripts/clone-page.js donate app/about --force

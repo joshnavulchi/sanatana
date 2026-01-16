@@ -5,7 +5,7 @@ import PageLayout from '@components/common/PageLayout';
 import { parseList } from 'lib/parseList';
 import ContactForm from '../components/contact/ContactForm';
 import LazyImage from '@components/lazy-image/LazyImage';
-import FaqAccordion from '@components/common/FaqAccordion';
+import FaqAccordion from '@/app/components/faqaccordion/faqaccordion';
 export const generateMetadata = createGenerateMetadata('contact');
 
 import styles from './page.module.scss';

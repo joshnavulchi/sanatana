@@ -22,9 +22,12 @@
     "lint": "eslint",
     "test": "jest --runInBand",
     "noEmit": "npx tsc --noEmit",
-    "apply:page-schemas": "node scripts/apply-page-schemas.mjs"
+    "apply:page-schemas": "node scripts/apply-page-schemas.mjs",
+    "generate:locales": "node scripts/generate-locales-indexes.js"
+    ,"clone:page": "node scripts/clone-page.js"
   },
   "dependencies": {
+    "critters": "^0.0.23",
     "mongodb": "^7",
     "next": "^16.1.1",
     "react": "19.2.3",
@@ -58,8 +61,7 @@
     "topojson-client": "^3.1.0",
     "ts-jest": "^29.4.6",
     "typescript": "^5"
-  }
-  ,
+  },
   "overrides": {
     "nanoid": "3.3.8"
   }
