@@ -1,12 +1,12 @@
 .langbtn {
   padding: var(--space-sm);
-  background-color: var(--color-info);
+  background-color: var(--color-secondary);
   box-shadow: var(--shadow-soft);
   border-radius: var(--space-xxs);
   color: var(--color-white);
   transition: background-color 0.3s;
   &:hover {
-    background-color: var(--color-info-hover);
+    background-color: var(--color-secondary-hover);
   }
 }
 .multilang {
