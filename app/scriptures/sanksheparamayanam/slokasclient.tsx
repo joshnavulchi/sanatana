@@ -32,7 +32,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
           onClick={loadMore}
           disabled={visible >= maxVisible}
           aria-disabled={visible >= maxVisible}
-          className={`btn ${visible >= maxVisible ? 'opacity-50 cursor-not-allowed' : ''}`}
+          className={`btn btn-outline cursor-pointer ${visible >= maxVisible ? 'opacity-30 cursor-not-allowed' : ''}`}
         >
           {visible >= maxVisible ? 'All loaded' : `Load more (${Math.min(CHUNK, maxVisible - visible)} more)`}
         </button>

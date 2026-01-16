@@ -2,7 +2,7 @@
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-import SlokasClient from './slokasclient;
+import SlokasClient from './slokasclient';
 export const generateMetadata = createGenerateMetadata('sankshepa_ramayana_scriptures');
 
 export default function Page({ searchParams }: any) {
