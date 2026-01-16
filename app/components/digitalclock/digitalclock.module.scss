@@ -11,7 +11,7 @@
   transform: translateX(0);
 }
 .floatingWrapper.hidden {
-  transform: translateX(calc(100% + 8px));
+  transform: translateX(calc(100% + -8px));
 }
 .toggleIcon {
   display: block;

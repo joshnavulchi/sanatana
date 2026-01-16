@@ -67,7 +67,7 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
         aria-controls="digital-clock-box"
         aria-label={visible ? 'Hide clock' : 'Show clock'}
       >
-        <small>Today</small> 
+        <small className='sr-only'>Today</small> 
         <svg
           className={`${styles.toggleIcon} ${visible ? '' : styles.rotated}`}
           xmlns="http://www.w3.org/2000/svg"
