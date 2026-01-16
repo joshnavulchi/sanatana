@@ -72,3 +72,8 @@ export default function AboutClient() {
     </PageLayout>
   );
 }
+
+
+
+
+// Content of AboutClient.tsx can be added here, depending on the actual code. This is just a placeholder.
