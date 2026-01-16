@@ -35,7 +35,7 @@ function parseMaybeObject(raw: any) {
   }
   return raw;
 }
-
+ 
 export default function DonateClient() {
   const { locale } = useLocale();
   const t = useT();
@@ -98,29 +98,27 @@ export default function DonateClient() {
       </section>
       {/* Expenses */}
       <section>
-        <div>
-          <h4>{donate.expenses?.heading}</h4>
-          <table className="w-full border">
-            <thead className="bg-amber-50">
-              <tr>
-                <th className="p-3 text-left">Item</th>
-                <th className="p-3 text-left">Cost</th>
-                <th className="p-3 text-left">Cycle</th>
-                <th className="p-3 text-left">Provider</th>
+        <h4>{donate.expenses?.heading}</h4>
+        <table className="w-full border">
+          <thead className="bg-amber-50">
+            <tr>
+              <th className="p-3 text-left">Item</th>
+              <th className="p-3 text-left">Cost</th>
+              <th className="p-3 text-left">Cycle</th>
+              <th className="p-3 text-left">Provider</th>
+            </tr>
+          </thead>
+          <tbody>
+            {(donate.expenses?.table || []).map((row: any, i: number) => (
+              <tr key={i} className="border-t">
+                <td className="p-3">{row.name}</td>
+                <td className="p-3">{row.cost}</td>
+                <td className="p-3">{row.cycle}</td>
+                <td className="p-3">{row.provider}</td>
               </tr>
-            </thead>
-            <tbody>
-              {(donate.expenses?.table || []).map((row: any, i: number) => (
-                <tr key={i} className="border-t">
-                  <td className="p-3">{row.name}</td>
-                  <td className="p-3">{row.cost}</td>
-                  <td className="p-3">{row.cycle}</td>
-                  <td className="p-3">{row.provider}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+            ))}
+          </tbody>
+        </table>
       </section>
 
       {/* Donate */}
