@@ -22,11 +22,11 @@ export default function GitSupport({ locale }: { locale?: string }) {
         showGraticule={false}
       />
       <div className={`${styles.gitsupport} md:content-wrapper md:absolute md:top-1/2 md:left-20 md:-translate-y-1/2 md:z-1`}>
-        <p className={`h3 font-light!`}>{t('cta.title')}</p>
-        <p>{t('cta.subtitle')}</p>
+        <p className={`h3 font-light!`}>{t('home.cta.title')}</p>
+        <p>{t('home.cta.subtitle')}</p>
         <div className="flex flex-col md:flex-row gap-4">
-          <Link href="https://github.com/vulchivijay/first-contributes" target="_blank" className={`bg-white/75! btn btn-outline no-underline`}>{t('cta.contribute')}</Link>
-          <Link href="https://github.com/vulchivijay/first-contributes" target="_blank" className={`bg-white/75! btn btn-outline no-underline`}>{t('cta.guidelines')}</Link>
+          <Link href="https://github.com/vulchivijay/first-contributes" target="_blank" className={`bg-white/75! btn btn-outline no-underline`}>{t('home.cta.contribute')}</Link>
+          <Link href="https://github.com/vulchivijay/first-contributes" target="_blank" className={`bg-white/75! btn btn-outline no-underline`}>{t('home.cta.guidelines')}</Link>
         </div>
       </div>
     </section>
