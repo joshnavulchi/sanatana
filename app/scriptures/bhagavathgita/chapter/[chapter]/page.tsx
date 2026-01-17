@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation';
 import { t, getMeta, detectLocale, DEFAULT_LOCALE, detectServerLocaleFromHeaders } from '@/lib/i18n';
 import Link from 'next/link';
 
+import styles from './page.module.scss';
+
 function resolveLocaleFromHeaders() {
   try {
     const h: any = headers();
@@ -65,19 +67,19 @@ export default async function Page({ params, searchParams }: { params: any, sear
   // compute a chapter-specific title/excerpt to pass into StructuredData
   const bookTitle = (t('bhagavadgita_scriptures.title', locale) || t('bhagavadgita_scriptures.title', 'en') || 'Bhagavad Gita');
   const chapterTitleText = ch ? (ch.title || ch.name || `Chapter ${num}`) : `Chapter ${num}`;
-  const title = `${bookTitle} — Chapter ${num}: ${chapterTitleText}`;
+  const title = `Chapter ${num}`;
   const excerpt = ch && ch.summary ? ch.summary : '';
   // console.log(ch); // Removed stray console.log for debugging
   return (
     <>
       {/* Debug removed */}
-      <main className="content-wrapper md page-space-xl">
+      <main className="content-wrapper md">
         <nav role="menu">
           <Link href="/scriptures/bhagavathgita">&larr; Back to Bhagavad Gita</Link>
         </nav>
-        <h1>{title}</h1>
+        <h1 className="text-center">{title}</h1>
         {ch && ch.verses && ch.verses.length > 0 ? (
-          <div>
+          <article>
             {ch.verses.map((v: any, idx: number) => {
               // Normalize verse identification
               const verseNum = v.text_number || v.verse || v.number || (typeof v.id === 'number' ? v.id : null) || (typeof v.id === 'string' && /^\d+$/.test(v.id) ? Number(v.id) : null) || idx + 1;
@@ -109,38 +111,38 @@ export default async function Page({ params, searchParams }: { params: any, sear
               const wordTranslation = pickString(v.translation || v.translation || null);
 
               return (
-                <article key={idx}>
+                <div key={idx}>
                   {/* {heading ? <h2>{heading}</h2> : null} */}
-                  {speakerHeader ? <div>{speakerHeader}</div> : null}
+                  {speakerHeader ? <p>{speakerHeader}</p> : null}
 
-                  <div>
-                    <strong>{verseNum}.</strong>
+                  <p className='h5'>
+                    <strong>{verseNum}. </strong>
                     {translation ? (
                       <span>{translation}</span>
                     ) : (
                       <em>Verse not available</em>
                     )}
-                  </div>
+                  </p>
 
                   {original ? (
-                    <div><pre>{original}</pre></div>
+                    <div><pre className={`${styles.slokas}`}>{original}</pre></div>
                   ) : null}
 
                   {transliteration ? (
-                    <div><pre>{transliteration}</pre></div>
+                    <div><pre className={`${styles.slokas}`}>{transliteration}</pre></div>
                   ) : null}
 
                   {wordMeaning ? (
-                    <div><b>Word Meaning:</b> {wordMeaning}</div>
+                    <p>{wordMeaning}</p>
                   ) : null}
 
                   {wordTranslation ? (
-                    <div><b>English Translation:</b> {wordTranslation}</div>
+                    <p>{wordTranslation}</p>
                   ) : null}
-                </article>
+                </div>
               );
             })}
-          </div>
+          </article>
         ) : (
           <p>Verse content not available for this chapter.</p>
         )}
