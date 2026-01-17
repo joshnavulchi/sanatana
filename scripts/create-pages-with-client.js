@@ -114,7 +114,7 @@ export default function ${compName}() {
   return (
     <PageLayout metaKey="${pageKey}" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title || '${formatKey(folderName)}' }]} className="layout-sm">
       {page.subtitle ? <p>{page.subtitle}</p> : null}
-      {Object.keys(page).filter(k => !['title','subtitle','meta','schema','id','type'].includes(k)).map((k) => (
+      {Object.keys(page).filter(k => !['title','subtitle','meta','schema','id','type', 'required'].includes(k)).map((k) => (
         <div key={k} className="mb-6">
           {k === 'faq' ? (
             <FaqAccordion items={(Array.isArray(page[k]?.items) ? page[k].items : (Array.isArray(page[k]) ? page[k] : []))} heading={(page[k] && page[k].heading) ? page[k].heading : ''} />
@@ -130,10 +130,11 @@ export default function ${compName}() {
 }
 
 function pageTemplate(pageKey, clientFileName) {
+  const clientImport = clientFileName.replace(/\.tsx$/, '');
   return `import { createGenerateMetadata } from '../../lib/pageUtils';
 export const generateMetadata = createGenerateMetadata('${pageKey}');
 
-import Client from './${clientFileName}';
+import Client from './${clientImport}';
 
 export default function Page() {
   return <Client />;

@@ -5,7 +5,6 @@ import { useLocale } from '../context/locale-context';
 import { loadLocale } from 'lib/i18n';
 import { useT } from '../hooks/useT';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
-import styles from './page.module.scss';
 import FaqAccordion from '@components/faqaccordion/faqaccordion';
  
 export default function DonateClient() {

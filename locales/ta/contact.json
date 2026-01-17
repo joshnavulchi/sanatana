@@ -2,7 +2,6 @@
   "contact": {
     "title": "Contact Us",
     "subtitle": "We’d love to hear from you",
-    "url": "https://sanatanadharmam.in/contact",
     "meta": {
       "description": "Get in touch with Sanatanadharmam.in for inquiries, collaborations, or spiritual guidance. Reach us via email, phone, or contact form.",
       "keywords": ["Sanatana Dharma contact", "spiritual guidance", "Hindu scriptures support", "Sanatanadharmam.in contact"],
@@ -71,22 +70,6 @@
         "content": "Google Maps iframe of Tirupati, Andhra Pradesh"
       }
     ],
-    "lead": "We'd love to hear from you — questions, corrections, or partnership enquiries.",
-    "description": "This page describes practical ways to reach the team behind Sanatanadharmam.in, the kinds of requests we can handle, and what to expect after you get in touch. Our aim is to respond kindly and usefully to messages while balancing the workload of a small, volunteer-led project.\n\nPlease read the guidance below so your message reaches the right place and receives an appropriate response.",
-    "getintouch": "Get in touch",
-    "useform": "Use the form to send us a message. For urgent matters, email us directly at the address shown on the site.",
-    "responsetime": {
-      "general": "We aim to acknowledge messages within 3–7 business days. Simple enquiries (link corrections, small factual clarifications) are often handled within a few days. Requests that require editorial review, legal advice, or coordination with contributors may take longer.",
-      "donations": "Donation-related requests and documentation are prioritized; please allow up to 7 business days for a response if you require a receipt or accounting note.",
-      "mediaandpartnerships": "Media requests and partnership enquiries are routed to the appropriate person; response time may vary depending on availability, typically within 1–2 weeks for initial replies."
-    },
-    "mailingaddress": "Mailing address",
-    "addressline1": "SanatanAdharmam",
-    "addressline2": "11-22-184, Poolavani Gunta, Renigunta road,",
-    "addressline3": "Tirupati, Andhra Pradesh, India",
-    "phone": "Phone",
-    "sendmessage": "Send a message",
-    "location": "Location",
     "whattoinclude": {
       "heading": "What to include in your message",
       "guidance": "To help us respond efficiently, please include: a clear subject line, the page or URL you are referring to (if applicable), a concise description of the issue or request, and your preferred contact method. For corrections to texts, indicate the exact line or verse and, if possible, provide a reliable source or edition reference. For translation suggestions, include both the suggested wording and brief reasoning for the change."
