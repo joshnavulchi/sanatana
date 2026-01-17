@@ -33,3 +33,15 @@
 // npm run clone:page -- donate --force
 # or
 // node scripts/clone-page.js donate app/about --force
+
+node scripts/create-pages-with-client.js
+# then type e.g.: 1,2,about or all or parent/child
+
+# generate all detected pages
+node scripts/create-pages-with-client.js all
+
+# generate by list (numbers or names or custom slugs)
+node scripts/create-pages-with-client.js 1,2,about,parent/[slug]
+
+# or multiple args (they're joined): 
+node scripts/create-pages-with-client.js 1 2 about parent/child

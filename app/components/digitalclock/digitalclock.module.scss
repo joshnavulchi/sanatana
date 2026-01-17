@@ -11,7 +11,7 @@
   transform: translateX(0);
 }
 .floatingWrapper.hidden {
-  transform: translateX(calc(100% + -12px));
+  transform: translateX(calc(100% + -6px));
 }
 .toggleIcon {
   display: block;
@@ -38,7 +38,6 @@
   align-items: center;
   box-shadow: 0 4px 10px rgba(2,8,23,0.45);
   small {
-    display: inline-block;
     padding-right: 6px;
     color: #7affb2;
   }

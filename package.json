@@ -30,6 +30,10 @@
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
+  "optionalDependencies": {
+    "luxon": "^3.7.2",
+    "suncalc": "^1.9.0"
+  },
   "devDependencies": {
     "@next/bundle-analyzer": "^16.1.2",
     "@tailwindcss/postcss": "^4.1.18",

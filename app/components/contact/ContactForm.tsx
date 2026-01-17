@@ -4,6 +4,8 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { useT } from '../../hooks/useT';
 
+import styles from './contactform.module.scss';
+
 type Field = {
   name: string;
   type?: string;
@@ -82,7 +84,7 @@ export default function ContactForm({ fields, submitButton }: Props) {
   if (!usedFields || usedFields.length === 0) return null;
 
   return (
-    <form onSubmit={handleSubmit} className="contact-form">
+    <form onSubmit={handleSubmit} className={`${styles.contactform}`}>
       {usedFields.map((f) => (
         <div key={f.name} className="mb-4">
           <label className="block font-medium mb-1">{f.label || f.name}</label>
