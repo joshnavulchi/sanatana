@@ -148,23 +148,23 @@ export default async function Page({ params, searchParams }: { params: any, sear
         )}
 
         {/* Previous / Next navigation for chapter browsing */}
-        <div>
+        <div className="flex justify-between">
           <div>
             {num > 1 ? (
-              <Link href={`/scriptures/bhagavathgita/chapter/${num - 1}`}>
+              <Link href={`/scriptures/bhagavathgita/chapter/${num - 1}`} className="btn btn-outline">
                 &larr; Previous
               </Link>
             ) : (
-              <span>&larr; Previous</span>
+              <span className="btn btn-outline">&larr; Previous</span>
             )}
           </div>
           <div>
             {num < 18 ? (
-              <Link href={`/scriptures/bhagavathgita/chapter/${num + 1}`}>
+              <Link href={`/scriptures/bhagavathgita/chapter/${num + 1}`} className="btn btn-outline">
                 Next &rarr;
               </Link>
             ) : (
-              <span>Next &rarr;</span>
+              <span className="btn btn-outline">Next &rarr;</span>
             )}
           </div>
         </div>
