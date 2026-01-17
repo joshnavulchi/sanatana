@@ -120,7 +120,7 @@ li {
   margin-bottom: 0.5rem;
 }
 p, .p, li { font-size: 1.15rem; } /* equals base (fluid) */
-small { font-size: 0.95rem; } /* 14px-ish at base */
+small { font-size: 0.8rem; } /* 14px-ish at base */
 /* Headings: fluid using clamp(min, viewport, max) */
 h1, .h1 {
   font-weight: 700;
@@ -226,6 +226,7 @@ textarea {
   p {
     font-size: 1rem;
   }
+  small { font-size: 0.75rem; }
   /* 5) Buttons */
   .btn {
     padding: .35rem 1rem;
