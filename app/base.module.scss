@@ -61,7 +61,7 @@ body {
 a {
   position: relative;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.15rem;
   color: var(--color-primary);
   text-decoration-color: rgba(217, 119, 6, .35);
   &:hover {
@@ -119,8 +119,8 @@ ul, ol {
 li {
   margin-bottom: 0.5rem;
 }
-p, .p, li { font-size: 1rem; } /* equals base (fluid) */
-small { font-size: 0.75rem; } /* 14px-ish at base */
+p, .p, li { font-size: 1.15rem; } /* equals base (fluid) */
+small { font-size: 0.95rem; } /* 14px-ish at base */
 /* Headings: fluid using clamp(min, viewport, max) */
 h1, .h1 {
   font-weight: 700;
@@ -222,6 +222,9 @@ textarea {
   }
   a {
     font-size: 0.9rem;
+  }
+  p {
+    font-size: 1rem;
   }
   /* 5) Buttons */
   .btn {
