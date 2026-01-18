@@ -21,8 +21,8 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
     <div className="sankshepa-slokas">
       {Array.isArray(slokas) && slokas.slice(0, visible).map((s, idx) => (
         <div key={s.sloka || s.sanskrit || idx} className="text-center mt-10">
-          {s.sanskrit ? <p className="font-semibold">{s.sanskrit}</p> : null}
-          {s.transliteration ? <p className="font-semibold">{s.transliteration}</p> : null}
+          {s.sanskrit ? <p className="h4">{s.sanskrit}</p> : null}
+          {s.transliteration ? <p className="h4">{s.transliteration}</p> : null}
           {s.meaning ? <p className="text-left">Meaning: {s.meaning}</p> : null}
         </div>
       ))}

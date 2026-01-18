@@ -15,7 +15,7 @@ export default function FaqAccordion({ items, heading }: Props) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   return (
     <section className="faq-accordion">
-      {heading && <p className="h4 font-semibold mb-4">{heading}</p>}
+      {heading && <p className="h4">{heading}</p>}
       <div className="space-y-3">
         {items.map((it, idx) => {
           const open = openIndex === idx;

@@ -25,7 +25,7 @@ export default function UnderstandingOfSanatana() {
               <div key={index} className="card w-full md:w-1/4 lg:w-1/4 rounded-2xl shadow-sm hover:shadow-md transition">
                 <div className="text-center">
                   {topic.src && <LazyImage src={topic.src} alt={topic.title} width={76} height={76} className="object-cover flex justify-center" />}
-                  <p className={`font-semibold`}>{topic.title}</p>
+                  <p className={`h4`}>{topic.title}</p>
                   <p>{topic.description}</p>
                   <Link href={topic.href} title={topic.title} className="small">Read more...</Link>
                 </div>

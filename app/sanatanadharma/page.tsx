@@ -28,14 +28,14 @@ export default function Page({ searchParams }: any) {
           const primary = Array.isArray(ch?.keypoints) ? ch.keypoints : [];
           return (
             <article key={i} className="">
-              <p className="subtitle font-semibold!">{`Chapter ${chap}: ${chapTitle}`}</p>
+              <p className="subtitle h4!">{`Chapter ${chap}: ${chapTitle}`}</p>
               <p className="description md:indent-16">{chapPara1}</p>
               <p className="description md:indent-16">{chapPara2}</p>
               <p className="description md:indent-16">{chapPara3}</p>
               <ul className="list-disc ml-5 mt-1">
                 {primary.map((point: any, idx: number) => (
                   <li key={idx}>
-                    <p className="subtitle font-semibold!">{point.title}</p>
+                    <p className="subtitle h4!">{point.title}</p>
                     <p className="description md:indent-16">{point.para1}</p>
                     <p className="description md:indent-16">{point.para2}</p>
                     <p className="description md:indent-16">{point.para3}</p>

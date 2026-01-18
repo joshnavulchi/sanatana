@@ -44,7 +44,7 @@
             <ol>
               {typeof obj === 'object' && !Array.isArray(obj) ? Object.entries(obj).map(([key, value]) =>
                 <li key={key}>
-                  <span className="description font-semibold!">{formatKey(key)}: </span>{typeof value === 'string' ? value : null}</li>
+                  <span className="description h4!">{formatKey(key)}: </span>{typeof value === 'string' ? value : null}</li>
               ) : null}
             </ol>
           </li>);
@@ -58,7 +58,7 @@
   <ol>
     {Object.entries(cosmic.final_consolidated_insight).map(([key, value]) => (
       <li key={key}>
-        <span className="description font-semibold!">{formatKey(key)}:</span> {typeof value === 'string' ? value : null}
+        <span className="description h4!">{formatKey(key)}:</span> {typeof value === 'string' ? value : null}
       </li>
     ))}
   </ol>
