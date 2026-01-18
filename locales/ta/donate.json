@@ -3,7 +3,28 @@
     "meta": {
       "title": "Donate | Overview — Sanātana Dharma - Explore Sanatan Dharma",
       "description": "Donate — Support Sanātana Dharma — Articles, translations and concise commentary on Donate. Explore practices, history, and guiding principles at...",
-      "keywords": "Donate, Sanātana Dharma, Hinduism, Vedic philosophy, Dharma and spirituality, Hindu scriptures, Bhagavad Gita teachings, Upanishads, Vedas and Puranas, Hindu rituals and traditions, Yoga and meditation, Hindu festivals, Spiritual wisdom, Hindu culture and heritage, Indian philosophy, Hindu gods and goddesses, Karma and rebirth, What is Sanātana Dharma, Principles of Sanātana Dharma, Importance of Vedas in Hinduism, Hindu spiritual practices for daily life, Meaning of Dharma in Hinduism, Sanātana Dharma vs modern life, How to follow Sanātana Dharma?, Sanātana Dharma in India,  Dharma, Mantra, Stotra, Stotras, Scripture, Scriptures, Commentary, Devotion, Practices, Ritual, Worship, Temple",
+      "keywords": [
+        "What is donate?",
+        "Why donate?",
+        "How to learn donate?",
+        "donate explained",
+        "What is donate support sanātana?",
+        "Why donate support sanātana?",
+        "How to learn donate support sanātana?",
+        "donate support sanātana explained",
+        "What is sanātana dharma articles?",
+        "Why sanātana dharma articles?",
+        "How to learn sanātana dharma articles?",
+        "sanātana dharma articles explained",
+        "What is dharma articles translations?",
+        "Why dharma articles translations?",
+        "How to learn dharma articles translations?",
+        "dharma articles translations explained",
+        "What is articles translations and?",
+        "Why articles translations and?",
+        "How to learn articles translations and?",
+        "articles translations and explained"
+      ],
       "ogimage": "/og/donate.png",
       "url": "https://sanatanadharmam.in/donate",
       "canonical": "https://sanatanadharmam.in/donate"
@@ -43,9 +64,24 @@
     "expenses": {
       "heading": "Transparency: Current Expenses",
       "table": [
-        { "name": "Domain & Hosting", "cost": "₹3,500", "cycle": "3 Years", "provider": "Hostinger" },
-        { "name": "GitHub Pages", "cost": "Free", "cycle": "Unlimited", "provider": "GitHub" },
-        { "name": "AI Tools (Research)", "cost": "Free Plans", "cycle": "Ongoing", "provider": "Google / Microsoft / Meta" }
+        {
+          "name": "Domain & Hosting",
+          "cost": "₹3,500",
+          "cycle": "3 Years",
+          "provider": "Hostinger"
+        },
+        {
+          "name": "GitHub Pages",
+          "cost": "Free",
+          "cycle": "Unlimited",
+          "provider": "GitHub"
+        },
+        {
+          "name": "AI Tools (Research)",
+          "cost": "Free Plans",
+          "cycle": "Ongoing",
+          "provider": "Google / Microsoft / Meta"
+        }
       ]
     },
     "donateOptions": {
@@ -72,11 +108,11 @@
           "q": "How will my donation be used?",
           "a": "Your contribution supports hosting, maintenance, and creation of educational spiritual content."
         },
-        { 
+        {
           "q": "Is this a commercial organization?",
           "a": "No. Sanātana Dharma is a non-commercial, knowledge-focused initiative."
         }
       ]
-    }    
+    }
   }
 }

@@ -4,7 +4,28 @@
     "subtitle": "మీ నుండి వినడం మాకు ఆనందం",
     "meta": {
       "description": "Sanatanadharmam.in ను ప్రశ్నలు, సహకారాలు లేదా ఆధ్యాత్మిక మార్గదర్శకత్వం కోసం సంప్రదించండి. ఇమెయిల్, ఫోన్ లేదా సంప్రదింపు ఫారమ్ ద్వారా మమ్మల్ని చేరుకోండి.",
-      "keywords": ["సనాతన ధర్మ సంప్రదింపు", "ఆధ్యాత్మిక మార్గదర్శకత్వం", "హిందూ శాస్త్రాల సహాయం", "Sanatanadharmam.in సంప్రదింపు"],
+      "keywords": [
+        "What is sanatanadharmam?",
+        "Why sanatanadharmam?",
+        "How to learn sanatanadharmam?",
+        "sanatanadharmam explained",
+        "What is Sanatana Dharma?",
+        "What is Vedas?",
+        "What is Bhagavad Gita?",
+        "What is Hinduism?",
+        "What is Yoga?",
+        "What is య అవసరమ త సవరణన?",
+        "Why య అవసరమ త సవరణన?",
+        "How to learn య అవసరమ త సవరణన?",
+        "య అవసరమ త సవరణన explained",
+        "What is url అన వయ చబడ?",
+        "Why url అన వయ చబడ?",
+        "How to learn url అన వయ చబడ?",
+        "url అన వయ చబడ explained",
+        "What is దయచ స url ఖచ?",
+        "Why దయచ స url ఖచ?",
+        "How to learn దయచ స url ఖచ?"
+      ],
       "robots": "index, follow",
       "ogimage": "/og/contact.png",
       "canonical": "https://sanatanadharmam.in/contact"
@@ -22,7 +43,11 @@
           "contactType": "కస్టమర్ సపోర్ట్",
           "email": "info@sanatanadharmam.in",
           "areaServed": "ప్రపంచవ్యాప్తంగా",
-          "availableLanguage": ["ఆంగ్లం", "తెలుగు", "హిందీ"]
+          "availableLanguage": [
+            "ఆంగ్లం",
+            "తెలుగు",
+            "హిందీ"
+          ]
         }
       }
     },
@@ -54,10 +79,30 @@
         "id": "contact-form",
         "type": "form",
         "fields": [
-          { "name": "name", "type": "text", "placeholder": "మీ పేరు", "required": true },
-          { "name": "email", "type": "email", "placeholder": "మీ ఇమెయిల్", "required": true },
-          { "name": "subject", "type": "text", "placeholder": "విషయం", "required": false },
-          { "name": "message", "type": "textarea", "placeholder": "మీ సందేశం", "required": true }
+          {
+            "name": "name",
+            "type": "text",
+            "placeholder": "మీ పేరు",
+            "required": true
+          },
+          {
+            "name": "email",
+            "type": "email",
+            "placeholder": "మీ ఇమెయిల్",
+            "required": true
+          },
+          {
+            "name": "subject",
+            "type": "text",
+            "placeholder": "విషయం",
+            "required": false
+          },
+          {
+            "name": "message",
+            "type": "textarea",
+            "placeholder": "మీ సందేశం",
+            "required": true
+          }
         ],
         "submitButton": {
           "label": "సందేశాన్ని పంపండి",

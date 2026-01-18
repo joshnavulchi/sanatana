@@ -4,7 +4,28 @@
     "subtitle": "We’d love to hear from you",
     "meta": {
       "description": "Get in touch with Sanatanadharmam.in for inquiries, collaborations, or spiritual guidance. Reach us via email, phone, or contact form.",
-      "keywords": ["Sanatana Dharma contact", "spiritual guidance", "Hindu scriptures support", "Sanatanadharmam.in contact"],
+      "keywords": [
+        "What is get in touch?",
+        "Why get in touch?",
+        "How to learn get in touch?",
+        "get in touch explained",
+        "What is in touch with?",
+        "Why in touch with?",
+        "How to learn in touch with?",
+        "in touch with explained",
+        "What is touch with sanatanadharmam?",
+        "Why touch with sanatanadharmam?",
+        "How to learn touch with sanatanadharmam?",
+        "touch with sanatanadharmam explained",
+        "What is in for inquiries?",
+        "Why in for inquiries?",
+        "How to learn in for inquiries?",
+        "in for inquiries explained",
+        "What is for inquiries collaborations?",
+        "Why for inquiries collaborations?",
+        "How to learn for inquiries collaborations?",
+        "for inquiries collaborations explained"
+      ],
       "robots": "index, follow",
       "ogimage": "/og/contact.png",
       "canonical": "https://sanatanadharmam.in/contact"
@@ -22,7 +43,11 @@
           "contactType": "Customer Support",
           "email": "info@sanatanadharmam.in",
           "areaServed": "Worldwide",
-          "availableLanguage": ["English", "Telugu", "Hindi"]
+          "availableLanguage": [
+            "English",
+            "Telugu",
+            "Hindi"
+          ]
         }
       }
     },
@@ -54,10 +79,30 @@
         "id": "contact-form",
         "type": "form",
         "fields": [
-          { "name": "name", "type": "text", "placeholder": "Your Name", "required": true },
-          { "name": "email", "type": "email", "placeholder": "Your Email", "required": true },
-          { "name": "subject", "type": "text", "placeholder": "Subject", "required": false },
-          { "name": "message", "type": "textarea", "placeholder": "Your Message", "required": true }
+          {
+            "name": "name",
+            "type": "text",
+            "placeholder": "Your Name",
+            "required": true
+          },
+          {
+            "name": "email",
+            "type": "email",
+            "placeholder": "Your Email",
+            "required": true
+          },
+          {
+            "name": "subject",
+            "type": "text",
+            "placeholder": "Subject",
+            "required": false
+          },
+          {
+            "name": "message",
+            "type": "textarea",
+            "placeholder": "Your Message",
+            "required": true
+          }
         ],
         "submitButton": {
           "label": "Send Message",
