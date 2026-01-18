@@ -27,7 +27,8 @@
         "How to learn దయచ స url ఖచ?"
       ],
       "robots": "index, follow",
-      "ogimage": "/og/contact.png",
+          "title": "Contact Us — Sanātana Dharma",
+          "description": "Sanatanadharmam.in ను ప్రశ్నలు, సహకారాలు లేదా ఆధ్యాత్మిక మార్గదర్శకత్వం కోసం సంప్రదించండి. ఇమెయిల్, ఫోన్ లేదా సంప్రదింపు ఫారమ్ ద్వారా మమ్మల్ని చేరుకోండి.",
       "canonical": "https://sanatanadharmam.in/contact"
     },
     "schema": {
