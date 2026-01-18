@@ -45,3 +45,13 @@ node scripts/create-pages-with-client.js 1,2,about,parent/[slug]
 
 # or multiple args (they're joined): 
 node scripts/create-pages-with-client.js 1 2 about parent/child
+
+
+.\scripts\cleanup-baks.ps1 -WhatIf
+
+# prompt per file
+.\scripts\cleanup-baks.ps1 -Confirm
+
+# delete all without prompting
+.\scripts\cleanup-baks.ps1
+

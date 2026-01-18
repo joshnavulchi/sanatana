@@ -19,7 +19,9 @@ const nextConfig = {
   reactStrictMode: true,
 
   // Client-side (browser) source maps in production:
-  productionBrowserSourceMaps: true,
+  productionBrowserSourceMaps: false,
+  // Enable SWC-based minification for smaller JS bundles in production
+  swcMinify: true,
 
   // SWC minify removed — Next.js may warn about `swcMinify` in newer versions.
   // Experimental CSS optimization (dedupe & minimize CSS across pages).
@@ -53,8 +55,10 @@ const nextConfig = {
         };
       }
       if (!dev) {
-        // Emit source maps but don't link them in the JS files:
-        cfg.devtool = 'hidden-source-map';  // emit maps, don't link in JS
+        // Emit source maps only when explicitly enabled in config:
+        if (nextConfig.productionBrowserSourceMaps) {
+          cfg.devtool = 'hidden-source-map';  // emit maps, don't link in JS
+        }
         try {
           // Add CSS minimizer in production builds. The plugin is optional at runtime
           // so requiring it here won't break the build when it's absent.
@@ -67,6 +71,15 @@ const nextConfig = {
         } catch (err) {
           // optional package not installed — skip enhancing webpack
         }
+        // Ensure JS minification is enabled in webpack as a fallback
+        try {
+          // eslint-disable-next-line @typescript-eslint/no-var-requires
+          const TerserPlugin = require('terser-webpack-plugin');
+          cfg.optimization.minimize = true;
+          cfg.optimization.minimizer.push(new TerserPlugin({ parallel: true }));
+        } catch (err) {
+          // optional package not installed — skip adding Terser fallback
+        }
       }
       return cfg;
     } catch (e) {
@@ -76,6 +89,19 @@ const nextConfig = {
   },
   async headers() {
     return [
+      // Long cache for static images and assets in `public/` (not fingerprinted)
+      {
+        source: '/images/:path*',
+        headers: [
+          { key: 'Cache-Control', value: 'public, max-age=31536000, stale-while-revalidate=259200' },
+        ],
+      },
+      {
+        source: '/assets/:path*',
+        headers: [
+          { key: 'Cache-Control', value: 'public, max-age=31536000, stale-while-revalidate=259200' },
+        ],
+      },
       // Long-term immutable caching for fingerprinted assets (images, js, css, fonts)
       {
         source: '/(.*)\\.(png|jpg|jpeg|gif|svg|webp|css|js|woff2|woff|ttf)$',
