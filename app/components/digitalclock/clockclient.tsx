@@ -23,6 +23,8 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
   const [sunset, setSunset] = useState<string | null>(null);
   const [tithi, setTithi] = useState<number | null>(null);
   const [nakshatra, setNakshatra] = useState<number | null>(null);
+  const [moonPhase, setMoonPhase] = useState<string | null>(null);
+  const [moonPhaseValue, setMoonPhaseValue] = useState<number | null>(null);
   const [rahu, setRahu] = useState<{ start: string; end: string } | null>(null);
   const [yama, setYama] = useState<{ start: string; end: string } | null>(null);
 
@@ -68,6 +70,18 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
       // Moon illumination gives phase (0..1). Approximate tithi from phase*360
       const illum = SunCalc.getMoonIllumination(nowDate);
       const phase = illum.phase || 0;
+      // Determine a human-friendly moon phase name.
+      let phaseName = '';
+      if (phase <= 0.03 || phase >= 0.97) phaseName = 'New Moon (Amavasya)';
+      else if (phase < 0.25) phaseName = 'Waxing Crescent';
+      else if (phase < 0.27) phaseName = 'First Quarter (Half Moon)';
+      else if (phase < 0.5) phaseName = 'Waxing Gibbous';
+      else if (phase >= 0.48 && phase <= 0.52) phaseName = 'Full Moon (Purnima)';
+      else if (phase < 0.75) phaseName = 'Waning Gibbous';
+      else if (phase < 0.77) phaseName = 'Last Quarter (Half Moon)';
+      else phaseName = 'Waning Crescent';
+      setMoonPhase(phaseName);
+      setMoonPhaseValue(phase);
       const tithiIndex = Math.floor((phase * 360) / 12) + 1;
       setTithi(tithiIndex);
 
@@ -206,6 +220,26 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
             {sunset && <div><strong>Sunset:</strong> {sunset}</div>}
             {tithi && <div><strong>Lunar day (Tithi):</strong> {tithi}</div>}
             {nakshatra && <div><strong>Nakshatra:</strong> {nakshatra}</div>}
+            {moonPhase && (
+              <div className="flex items-center justify-content-start gap-2">
+                <div>Moon: </div> 
+                <div role="img" aria-label={`Moon: ${moonPhase}`}>
+                  {(() => {
+                    // Map numeric phase (0..1) to moon phase emoji.
+                    const p = moonPhaseValue ?? 0;
+                    if (p <= 0.03 || p >= 0.97) return '🌑';
+                    if (p < 0.25) return '🌒';
+                    if (p < 0.27) return '🌓';
+                    if (p < 0.5) return '🌔';
+                    if (p >= 0.48 && p <= 0.52) return '🌕';
+                    if (p < 0.75) return '🌖';
+                    if (p < 0.77) return '🌗';
+                    return '🌘';
+                  })()}
+                </div>
+                <div> {moonPhase}</div>
+              </div>
+            )}
             {rahu && <div><strong>Rahu Kaal:</strong> {rahu.start} - {rahu.end}</div>}
             {yama && <div><strong>Yamagandam:</strong> {yama.start} - {yama.end}</div>}
           </div>
