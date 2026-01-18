@@ -40,7 +40,7 @@ export default function AtharvavedaPage() {
       <PageLayout metaKey="scriptures_vedas_atharvaveda" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}>
         <p>{page.summary}</p>
         <section>
-          <h2>{page.contentTitle}</h2>
+          <h2 className="h4">{page.contentTitle}</h2>
           <p>{page.content}</p>
         </section>
       </PageLayout>

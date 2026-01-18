@@ -25,7 +25,7 @@ export default function Page({ searchParams }: any) {
       >
         {(page.structure || []).map((item: any, i: number) => (
           <div key={i}>
-            {item.name ? <p className="text-small font-semibold">{item.parva}. {item.name}</p> : null}
+            {item.name ? <p className="h4">{item.parva}. {item.name}</p> : null}
             {item.summary ?
               <p>{item.summary}</p> :
               <pre>{JSON.stringify(item)}</pre>}

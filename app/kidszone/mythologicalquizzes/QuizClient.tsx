@@ -106,7 +106,7 @@ export default function QuizClient() {
   if (!started) {
     return (
       <div>
-        <h2>{t('quiz.readyTitle', loc)}</h2>
+        <h2 className="h4">{t('quiz.readyTitle', loc)}</h2>
         <p>{t('quiz.readyDescription', loc).replace('{count}', String(qList.length)).replace('{time}', fmtTime(timeLeft))}</p>
         <div>
           <button className="btn btn-primary" onClick={() => setStarted(true)}>{t('quiz.start', loc)}</button>
@@ -119,7 +119,7 @@ export default function QuizClient() {
   if (finished) {
     return (
       <div>
-        <h2>{t('quiz.resultsTitle', loc) || t('quiz.resultsTitle', loc)}</h2>
+        <h2 className="h4">{t('quiz.resultsTitle', loc) || t('quiz.resultsTitle', loc)}</h2>
         <div>{t('quiz.yourScore', loc)} <strong>{score}</strong> / {qList.length}</div>
         <div>{t('quiz.timeTaken', loc)} {fmtTime(10 * 60 - timeLeft)}</div>
         <div>

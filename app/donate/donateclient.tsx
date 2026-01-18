@@ -55,7 +55,7 @@ export default function DonateClient() {
       <p>{donate.subtitle}</p>
       {/* Purpose */}
       <section>
-        <h3>{donate.purpose?.heading}</h3>
+        <h3 className="h4">{donate.purpose?.heading}</h3>
         <ul className="list-disc">
           {(donate.purpose?.points || []).map((p: string, i: number) => (
             <li key={i}>{p}</li>
@@ -89,7 +89,7 @@ export default function DonateClient() {
 
       {/* Donate */}
       <section>
-        <h5>{donate.donateOptions?.oneTime?.heading}</h5>
+        <h5 className="h4">{donate.donateOptions?.oneTime?.heading}</h5>
         <p>{donate.donateOptions?.oneTime?.note}</p>
 
         <div className="bg-amber-50 p-6 rounded">

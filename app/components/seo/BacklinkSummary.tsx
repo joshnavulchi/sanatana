@@ -16,7 +16,7 @@ export default function BacklinkSummary({
 }) {
   return (
     <main>
-      <h2>Backlink Summary</h2>
+      <h2 className="h4">Backlink Summary</h2>
       <p>Backlink activity: <strong>{level}</strong></p>
 
       <ul role="list" className="list-disc">

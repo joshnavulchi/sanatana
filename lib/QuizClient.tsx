@@ -111,7 +111,7 @@ export default function QuizClient() {
   if (!started) {
     return (
       <div className="max-w-3xl">
-        <h2>Ready for the Quiz?</h2>
+        <h2 className="h4">Ready for the Quiz?</h2>
         <p>You will be asked {qList.length} random questions. You have {fmtTime(timeLeft)} to complete the quiz.</p>
         <div className="flex gap-3">
           <button className="btn btn-primary" onClick={() => setStarted(true)}>Start Quiz</button>
@@ -124,7 +124,7 @@ export default function QuizClient() {
   if (finished) {
     return (
       <div className="max-w-3xl">
-        <h2>Quiz Results</h2>
+        <h2 className="h4">Quiz Results</h2>
         <div>Your score: <strong>{score}</strong> / {qList.length}</div>
         <div>Time taken: {fmtTime(10 * 60 - timeLeft)}</div>
         <div className="space-y-3">

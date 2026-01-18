@@ -24,7 +24,7 @@ export default function Page({ searchParams }: any) {
       >
         {(page.list || []).map((item: any, i: number) => (
           <div key={i}>
-            {item.category ? <h2>{item.catogory}</h2> : null}
+            {item.category ? <h2 className="h4">{item.catogory}</h2> : null}
             {item.description ?
               <p>{item.description}</p> :
               <ul role="list" className="list-disc">

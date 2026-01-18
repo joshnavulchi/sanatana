@@ -36,10 +36,10 @@ export default function ShivaPage() {
       <main className="content-wrapper md page-space-xl">
         <div>
 
-          <h2>{page.title}</h2>
+          <h2 className="h4">{page.title}</h2>
           <p>{page.summary}</p>
           <section>
-            <h2>{page.title}</h2>
+            <h2 className="h4">{page.title}</h2>
             <p>{page.content}</p>
           </section>
         </div>

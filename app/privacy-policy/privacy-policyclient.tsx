@@ -81,9 +81,9 @@ export default function PrivacyPolicy() {
     >
       <p><strong>{privacy.lastupdated}</strong></p>     
       <section>
-        <h2>{privacy.intro.title}</h2>
+        <h2 className="h4">{privacy.intro.title}</h2>
         <p>{privacy.intro.text}</p>
-        <h3><strong>{privacy.informationwecollect.title}</strong> {privacy.informationwecollect.lead}</h3>
+        <h3 className="h4"><strong>{privacy.informationwecollect.title}</strong> {privacy.informationwecollect.lead}</h3>
         <p><strong>{privacy.informationwecollect.usagelabel}</strong> {privacy.informationwecollect.usage}</p>
         <p><strong>{privacy.informationwecollect.devicelabel}</strong> {privacy.informationwecollect.device}</p>
         <p><strong>{privacy.informationwecollect.cookieslabel}</strong> {privacy.informationwecollect.cookies}</p>
@@ -96,9 +96,9 @@ export default function PrivacyPolicy() {
             <li key={i}>{p}</li>
           ))}
         </ul>
-        <h5>{privacy.cookieslocalstorage.title}</h5>
+        <h5 className="h4">{privacy.cookieslocalstorage.title}</h5>
         <p>{privacy.cookieslocalstorage.text}</p>
-        <h6>{privacy.thirdparty.title}</h6>
+        <h6 className="h4">{privacy.thirdparty.title}</h6>
         <p>{privacy.thirdparty.text}</p>
         <p>{privacy.security.title}</p>
         <p>{privacy.security.text}</p>

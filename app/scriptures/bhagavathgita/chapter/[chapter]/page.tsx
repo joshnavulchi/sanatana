@@ -112,7 +112,7 @@ export default async function Page({ params, searchParams }: { params: any, sear
 
               return (
                 <div key={idx}>
-                  {/* {heading ? <h2>{heading}</h2> : null} */}
+                  {/* {heading ? <h2 className="h4">{heading}</h2> : null} */}
                   {speakerHeader ? <p>{speakerHeader}</p> : null}
 
                   <p className='h5'>
