@@ -12,7 +12,7 @@ import Header from './components/header/header';
 import Footer from './components/footer/footer';
 import CookieConsent from './components/cookie-consent/CookieConsent';
 import TopProgress from './components/progress/TopProgress';
-import DigitalClockClient from './components/digitalclock/clockclient';
+import DigitalClockLoader from './components/digitalclock/DigitalClockLoader';
 import ScrollToTop from './components/scroll-to-top/scroll-to-top';
 
 import "./globals.css"; // tailwind base styles
@@ -115,23 +115,7 @@ export default async function RootLayout({
             })
           }}
         />
-        {/* Google Analytics removed from automatic load — now loaded after user consent to reduce unused JS. */}
-        {/* Google Analytics: automatic load when NEXT_PUBLIC_GA_ID is set (optional) */}
-        {secrets.NEXT_PUBLIC_GA_ID && (
-          <>
-            <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=${secrets.NEXT_PUBLIC_GA_ID}`}
-              strategy="lazyOnload"
-            />
-            <Script
-              id="ga-init"
-              strategy="lazyOnload"
-              dangerouslySetInnerHTML={{
-                __html: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${secrets.NEXT_PUBLIC_GA_ID}');`,
-              }}
-            />
-          </>
-        )}
+        {/* Google Analytics is loaded on user consent via the CookieConsent component. */}
         {/* Disable right-click context menu in production to reduce casual copy */}
         {process.env.NODE_ENV === "production" && (
           <Script
@@ -174,7 +158,7 @@ export default async function RootLayout({
               <Suspense fallback={null}>
                 <Footer />
               </Suspense>
-              <DigitalClockClient />
+              <DigitalClockLoader />
               <ScrollToTop />
               <CookieConsent />
             </ThemeProvider>

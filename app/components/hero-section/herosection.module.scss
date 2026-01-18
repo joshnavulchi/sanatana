@@ -45,6 +45,17 @@
     }
   }
 }
+
+/* Absolute <img> used to make LCP image discoverable by the browser */
+.heroImage {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  z-index: 0;
+}
 @media (min-width: 1600px) {  
 }
 @media (min-width: 1900px) {

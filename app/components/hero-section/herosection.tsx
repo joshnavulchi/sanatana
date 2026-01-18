@@ -20,6 +20,18 @@ export default function HeroSection() {
   return (
     <div className={`${styles.herosection} w-full md:h-full`}>
       <div className="relative content-wrapper md:min-h-130 md:flex md:items-center md:justify-center overflow-hidden">
+        {/* LCP image as an actual <img> so it's discoverable by the browser */}
+        <img
+          className={styles.heroImage}
+          src="/images/home/mobile-hero.png"
+          srcSet="/images/home/hero.png 1024w, /images/home/mobile-hero.png 768w"
+          sizes="(min-width: 1024px) 50vw, 100vw"
+          loading="eager"
+          fetchPriority="high"
+          decoding="async"
+          alt=""
+          aria-hidden="true"
+        />
         <div className={`${styles.herocontent} w-full md:w-1/2`}>
           <h1 className={`${styles.title} md:text-shadow-lg/4 md:max-w-md`}>
             <span>{heading}</span> <br />

@@ -76,6 +76,19 @@ const nextConfig = {
   },
   async headers() {
     return [
+      // Long cache for static images and assets in `public/` (not fingerprinted)
+      {
+        source: '/images/:path*',
+        headers: [
+          { key: 'Cache-Control', value: 'public, max-age=31536000, stale-while-revalidate=259200' },
+        ],
+      },
+      {
+        source: '/assets/:path*',
+        headers: [
+          { key: 'Cache-Control', value: 'public, max-age=31536000, stale-while-revalidate=259200' },
+        ],
+      },
       // Long-term immutable caching for fingerprinted assets (images, js, css, fonts)
       {
         source: '/(.*)\\.(png|jpg|jpeg|gif|svg|webp|css|js|woff2|woff|ttf)$',
