@@ -162,7 +162,7 @@ export default function QuizClient() {
       </div>
 
       <div className="border rounded">
-        <div className="font-semibold">{q.question}</div>
+        <div className="h4">{q.question}</div>
         <div className="grid gap-2">
           {(['A', 'B', 'C', 'D'] as (keyof Options)[]).map((k) => (
             <button

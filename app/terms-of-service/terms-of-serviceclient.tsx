@@ -99,21 +99,21 @@ export default function TermsOfService() {
           <li>{renderListItem(page.disclaimerlist, 3, 'terms.disclaimerlist.quality')}</li>
         </ul>
         <p>{page.disclaimerclosing}</p>
-        <p className="font-semibold">{page.liabilitytitle}</p>
+        <p className="h4">{page.liabilitytitle}</p>
         <p>{page.liabilitytext}</p>
-        <p className="font-semibold">{page.externallinkstitle}</p>
+        <p className="h4">{page.externallinkstitle}</p>
         <p>{page.externallinkstext}</p>
-        <p className="font-semibold">{page.modificationstitle}</p>
+        <p className="h4">{page.modificationstitle}</p>
         <p>{page.modificationstext}</p>
-        <p className="font-semibold">{page.terminationtitle}</p>
+        <p className="h4">{page.terminationtitle}</p>
         <p>{page.terminationtext}</p>
-        <p className="font-semibold">{page.indemnificationtitle}</p>
+        <p className="h4">{page.indemnificationtitle}</p>
         <p>{page.indemnificationtext}</p>
-        <p className="font-semibold">{page.governingtitle}</p>
+        <p className="h4">{page.governingtitle}</p>
         <p>{page.governingtext}</p>
-        <p className="font-semibold">{page.severabilitytitle}</p>
+        <p className="h4">{page.severabilitytitle}</p>
         <p>{page.severabilitytext}</p>
-        <p className="font-semibold">{page.contacttitle}</p>
+        <p className="h4">{page.contacttitle}</p>
         <p>{page.contacttext}</p>
         <p><strong>{page.contactphonelabel}</strong> {page.contactphone}</p>
         <p><strong>{page.contactemaillabel}</strong> {page.contactemail}</p>
