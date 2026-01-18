@@ -19,7 +19,9 @@ const nextConfig = {
   reactStrictMode: true,
 
   // Client-side (browser) source maps in production:
-  productionBrowserSourceMaps: true,
+  productionBrowserSourceMaps: false,
+  // Enable SWC-based minification for smaller JS bundles in production
+  swcMinify: true,
 
   // SWC minify removed — Next.js may warn about `swcMinify` in newer versions.
   // Experimental CSS optimization (dedupe & minimize CSS across pages).
@@ -53,8 +55,10 @@ const nextConfig = {
         };
       }
       if (!dev) {
-        // Emit source maps but don't link them in the JS files:
-        cfg.devtool = 'hidden-source-map';  // emit maps, don't link in JS
+        // Emit source maps only when explicitly enabled in config:
+        if (nextConfig.productionBrowserSourceMaps) {
+          cfg.devtool = 'hidden-source-map';  // emit maps, don't link in JS
+        }
         try {
           // Add CSS minimizer in production builds. The plugin is optional at runtime
           // so requiring it here won't break the build when it's absent.
@@ -66,6 +70,15 @@ const nextConfig = {
           cfg.optimization.minimizer.push(new CssMinimizerPlugin());
         } catch (err) {
           // optional package not installed — skip enhancing webpack
+        }
+        // Ensure JS minification is enabled in webpack as a fallback
+        try {
+          // eslint-disable-next-line @typescript-eslint/no-var-requires
+          const TerserPlugin = require('terser-webpack-plugin');
+          cfg.optimization.minimize = true;
+          cfg.optimization.minimizer.push(new TerserPlugin({ parallel: true }));
+        } catch (err) {
+          // optional package not installed — skip adding Terser fallback
         }
       }
       return cfg;
