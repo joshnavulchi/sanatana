@@ -23,7 +23,7 @@ export default function PageLayout({ metaKey, title, breadcrumbs, className, chi
           {/* WordCount is a client component; render it (Next will hydrate on the client) */}
           <WordCount />
         </div>
-        {title ? <h1 className="title">{title}</h1> : null}
+        {title ? <h1 className="h2">{title}</h1> : null}
         {children}
       </main>
     </>

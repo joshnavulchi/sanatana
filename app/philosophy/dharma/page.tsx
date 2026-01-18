@@ -21,7 +21,7 @@ export default function Page({ searchParams }: any) {
         <p><strong>Definition : </strong>{dharma.definition.map((s: string) => (<span>{s}, </span>))}</p>
         {/* Categories of Dharma */}
         <div>
-          <h2>Categories of Dharma :</h2>
+          <h2 className="h4">Categories of Dharma :</h2>
           <ul role="list" className="list-disc">
             {Object.entries(dharma.categories_of_dharma).map((cKey: any, idx: number) => {
               const { meaning, examples } = cKey[1];

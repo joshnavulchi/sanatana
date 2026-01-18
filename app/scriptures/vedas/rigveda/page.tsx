@@ -20,7 +20,7 @@ export default function RigvedaPage() {
       <PageLayout metaKey="scriptures_vedas_rigveda" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}>
         <p>{page.summary}</p>
         <section>
-          <h2>{page.contentTitle}</h2>
+          <h2 className="h4">{page.contentTitle}</h2>
           <p>{page.content}</p>
         </section>
       </PageLayout>

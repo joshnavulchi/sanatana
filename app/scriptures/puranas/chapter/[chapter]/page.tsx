@@ -34,7 +34,7 @@ export default function Page({ params, searchParams }: { params: { chapter: stri
         <nav role="menu">
           <Link href="/puranas">&larr; Back to Puranas</Link>
         </nav>
-        <h2>{ch ? `${S('nav.scriptures.nav.puranas')} — Chapter ${ch.chapter}: ${ch.title}` : `Chapter ${num}`}</h2>
+        <h2 className="h4">{ch ? `${S('nav.scriptures.nav.puranas')} — Chapter ${ch.chapter}: ${ch.title}` : `Chapter ${num}`}</h2>
         {ch && ch.verses && ch.verses.length > 0 ? (
           <ol role="list" className="list-disc">
             {ch.verses.map((v: any) => (

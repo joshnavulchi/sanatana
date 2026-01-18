@@ -63,7 +63,7 @@ export default function Page({ params, searchParams }: { params: { chapter: stri
         <nav role="menu">
           <Link href="/scriptures/ramayana">&larr; Back to Ramayana</Link>
         </nav>
-        <h2>{ch ? `${S('nav.stories.nav.ramayana')} — Chapter ${ch.chapter}: ${ch.title}` : `Chapter ${num}`}</h2>
+        <h2 className="h4">{ch ? `${S('nav.stories.nav.ramayana')} — Chapter ${ch.chapter}: ${ch.title}` : `Chapter ${num}`}</h2>
         {ch && ch.verses && ch.verses.length > 0 ? (
           <ol role="list" className="list-disc">
             {ch.verses.map((v: any) => (

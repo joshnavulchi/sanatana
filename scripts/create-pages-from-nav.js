@@ -44,7 +44,7 @@ function writePlaceholder(parts, title) {
   ensureDir(dir);
   const file = path.join(dir, 'page.tsx');
   if (fs.existsSync(file)) return false;
-  const content = `export default function Page(){\n  return (\n    <main className=\"prose mx-auto p-8\">\n      <h1>${title}</h1>\n      <p>Placeholder page generated from locales/en/nav.json for path /${parts.join('/')}</p>\n    </main>\n  );\n}\n`;
+  const content = `export default function Page(){\n  return (\n    <main className=\"prose mx-auto p-8\">\n      <h1 className="h4">${title}</h1>\n      <p>Placeholder page generated from locales/en/nav.json for path /${parts.join('/')}</p>\n    </main>\n  );\n}\n`;
   fs.writeFileSync(file, content, 'utf8');
   created.push(path.relative(process.cwd(), file));
   return true;

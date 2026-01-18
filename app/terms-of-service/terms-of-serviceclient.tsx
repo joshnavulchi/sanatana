@@ -67,9 +67,9 @@ export default function TermsOfService() {
     >
       <div>
         <p><strong>{page.lastupdated}</strong></p>
-        <h2>{page.acceptancetitle}</h2>
+        <h2 className="h4">{page.acceptancetitle}</h2>
         <p>{page.intro}</p>
-        <h3>{page.uselicensetitle}</h3>
+        <h3 className="h4">{page.uselicensetitle}</h3>
         <p>{page.uselicensetext}</p>
         <ul role="list" className="list-disc">
           <li>{renderListItem(page.uselicenselist, 0, 'terms.uselicenselist.modification')}</li>
@@ -80,7 +80,7 @@ export default function TermsOfService() {
         </ul>
         <h4>{page.intellectualtitle}</h4>
         <p>{page.intellectualtext}</p>
-        <h5>{page.userconducttitle}</h5>
+        <h5 className="h4">{page.userconducttitle}</h5>
         <p>{page.userconductintro}</p>
         <ul role="list" className="list-disc">
           <li>{renderListItem(page.userconductlist, 0, 'terms.userconductlist.unlawful')}</li>
@@ -90,7 +90,7 @@ export default function TermsOfService() {
           <li>{renderListItem(page.userconductlist, 4, 'terms.userconductlist.spam')}</li>
           <li>{renderListItem(page.userconductlist, 5, 'terms.userconductlist.bypass')}</li>
         </ul>
-        <h6>{page.disclaimertitle}</h6>
+        <h6 className="h4">{page.disclaimertitle}</h6>
         <p>{page.disclaimertext}</p>
         <ul role="list" className="list-disc">
           <li>{renderListItem(page.disclaimerlist, 0, 'terms.disclaimerlist.accuracy')}</li>

@@ -5,7 +5,7 @@ export const generateMetadata = createGenerateMetadata('philosophy');
 export default function Page() {
   return (
     <>
-      <h1>Philosophy</h1>
+      <h1 className="h4">Philosophy</h1>
     </>
   )
 }
