@@ -1,41 +1,41 @@
 "use client";
 import { useEffect, useState } from 'react';
 import PageLayout from '@components/common/PageLayout';
-import { useLocale } from '../context/locale-context';
+import { useLocale } from '@/app/context/locale-context';
 import { loadLocale } from 'lib/i18n';
-import { useT } from '../hooks/useT';
+import { useT } from '../../hooks/useT';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
 
 export default function KrishnaExplainsFiveKarmasClient() {
   const { locale } = useLocale();
   const t = useT();
-  const [krishnaexplainsfivekarmas, setKrishnaexplainsfivekarmas] = useState({ title: '', story: ''});
+  const [karma, setKarma] = useState({ title: '', story: '' });
 
   useEffect(() => {
     let mounted = true;
     (async () => {
       try {
-        await loadLocale(locale).catch(() => {});
-      } catch (e) {}
+        await loadLocale(locale).catch(() => { });
+      } catch (e) { }
 
       if (!mounted) return;
-      const title = String(t('krishnaexplainsfivekarmas.title') || '');
-      const story = String(t('krishnaexplainsfivekarmas.story') || '');
-      setKrishnaexplainsfivekarmas({ title, story });
+      const title = String(t('karma_philosophy.title') || '');
+      const story = String(t('karma_philosophy.story') || '');
+      setKarma({ title, story });
     })();
     return () => { mounted = false; };
   }, [locale]);
 
   return (
     <PageLayout
-      metaKey="krishnaexplainsfivekarmas"
-      title={krishnaexplainsfivekarmas.title}
-      breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'About' }]}
+      metaKey="karma_philosophy"
+      title={karma.title}
+      breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Karma' }]}
       className={`layout-sm`}
     >
       {/* Render script paragraphs (para1, para2, ...) then conversation (alternating chat bubbles). */}
       {(() => {
-        const script = parseMaybeObject(t('krishnaexplainsfivekarmas.script')) || {};
+        const script = parseMaybeObject(t('karma_philosophy.script')) || {};
 
         // collect paraN in order
         const paraKeys = Object.keys(script || {}).filter(k => /^para\d+$/.test(k));
@@ -83,7 +83,7 @@ export default function KrishnaExplainsFiveKarmasClient() {
           );
         }
 
-        return <p>{krishnaexplainsfivekarmas.story}</p>;
+        return <p>{karma.story}</p>;
       })()}
     </PageLayout>
   );
