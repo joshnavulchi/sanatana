@@ -1,0 +1,91 @@
+"use client";
+import { useEffect, useState } from 'react';
+import PageLayout from '@components/common/PageLayout';
+import { useLocale } from '../context/locale-context';
+import { loadLocale } from 'lib/i18n';
+import { useT } from '../hooks/useT';
+import { parseSections, parseMaybeObject } from 'lib/parseContent';
+
+export default function KrishnaExplainsFiveKarmasClient() {
+  const { locale } = useLocale();
+  const t = useT();
+  const [krishnaexplainsfivekarmas, setKrishnaexplainsfivekarmas] = useState({ title: '', story: ''});
+
+  useEffect(() => {
+    let mounted = true;
+    (async () => {
+      try {
+        await loadLocale(locale).catch(() => {});
+      } catch (e) {}
+
+      if (!mounted) return;
+      const title = String(t('krishnaexplainsfivekarmas.title') || '');
+      const story = String(t('krishnaexplainsfivekarmas.story') || '');
+      setKrishnaexplainsfivekarmas({ title, story });
+    })();
+    return () => { mounted = false; };
+  }, [locale]);
+
+  return (
+    <PageLayout
+      metaKey="krishnaexplainsfivekarmas"
+      title={krishnaexplainsfivekarmas.title}
+      breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'About' }]}
+      className={`layout-sm`}
+    >
+      {/* Render script paragraphs (para1, para2, ...) then conversation (alternating chat bubbles). */}
+      {(() => {
+        const script = parseMaybeObject(t('krishnaexplainsfivekarmas.script')) || {};
+
+        // collect paraN in order
+        const paraKeys = Object.keys(script || {}).filter(k => /^para\d+$/.test(k));
+        paraKeys.sort((a, b) => {
+          const na = Number(a.replace(/[^0-9]/g, '')) || 0;
+          const nb = Number(b.replace(/[^0-9]/g, '')) || 0;
+          return na - nb;
+        });
+        const paras = paraKeys.map(k => script[k]);
+
+        const convo = script && Array.isArray(script.conversation)
+          ? script.conversation
+          : parseSections(script?.conversation || '');
+
+        // if we have paras or conversation, render them
+        if ((Array.isArray(paras) && paras.length) || (Array.isArray(convo) && convo.length)) {
+          return (
+            <div className="space-y-6">
+              {paras.length > 0 && (
+                <div className="space-y-4">
+                  {paras.map((p: any, i: number) => (
+                    <p key={`para-${i}`} className="text-base leading-relaxed">{p}</p>
+                  ))}
+                </div>
+              )}
+
+              {Array.isArray(convo) && convo.length > 0 && (
+                <div className="space-y-3">
+                  {convo.map((item: any, idx: number) => {
+                    const isEven = idx % 2 === 0; // even -> left, odd -> right
+                    const containerClass = `flex ${isEven ? 'justify-start' : 'justify-end'}`;
+                    const bubbleClass = `max-w-[75%] p-3 rounded-lg ${isEven ? 'bg-gray-100 text-left' : 'bg-blue-50 text-right'}`;
+                    return (
+                      <div key={idx} className={containerClass}>
+                        <div className={bubbleClass}>
+                          {item.speaker ? <div className="font-semibold mb-1">{item.speaker}</div> : null}
+                          <div>{item.message}</div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
+          );
+        }
+
+        return <p>{krishnaexplainsfivekarmas.story}</p>;
+      })()}
+    </PageLayout>
+  );
+}
+// Content of AboutClient.tsx can be added here, depending on the actual code. This is just a placeholder.
