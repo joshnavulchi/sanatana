@@ -6,6 +6,8 @@ import { loadLocale } from 'lib/i18n';
 import { useT } from '../../hooks/useT';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
 
+import styles from './page.module.scss';
+
 export default function KrishnaExplainsFiveKarmasClient() {
   const { locale } = useLocale();
   const t = useT();
@@ -53,26 +55,26 @@ export default function KrishnaExplainsFiveKarmasClient() {
         // if we have paras or conversation, render them
         if ((Array.isArray(paras) && paras.length) || (Array.isArray(convo) && convo.length)) {
           return (
-            <div className="space-y-6">
+            <div className="">
               {paras.length > 0 && (
-                <div className="space-y-4">
+                <div className="">
                   {paras.map((p: any, i: number) => (
-                    <p key={`para-${i}`} className="text-base leading-relaxed">{p}</p>
+                    <p key={`para-${i}`} className="">{p}</p>
                   ))}
                 </div>
               )}
 
               {Array.isArray(convo) && convo.length > 0 && (
-                <div className="space-y-3">
+                <div className="">
                   {convo.map((item: any, idx: number) => {
                     const isEven = idx % 2 === 0; // even -> left, odd -> right
-                    const containerClass = `flex ${isEven ? 'justify-start' : 'justify-end'}`;
-                    const bubbleClass = `max-w-[75%] p-3 rounded-lg ${isEven ? 'bg-gray-100 text-left' : 'bg-blue-50 text-right'}`;
+                    const containerClass = `flex ${isEven ? `${styles.leftalign} justify-start` : `${styles.rightalign} justify-end`}`;
+                    const bubbleClass = `${isEven ? 'text-left' : 'text-right'}`;
                     return (
                       <div key={idx} className={containerClass}>
                         <div className={bubbleClass}>
-                          {item.speaker ? <div className="font-semibold mb-1">{item.speaker}</div> : null}
-                          <div>{item.message}</div>
+                          {item.speaker ? <div className={`${styles.icon} shadow-sm`}><span>{item.speaker}</span></div> : null}
+                          {item.message ? <p className={`${styles.message} shadow-xl`}>{item.message}</p> : null}
                         </div>
                       </div>
                     );
