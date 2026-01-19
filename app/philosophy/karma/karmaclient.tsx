@@ -35,7 +35,7 @@ export default function KrishnaExplainsFiveKarmasClient() {
     >
       {/* Render script paragraphs (para1, para2, ...) then conversation (alternating chat bubbles). */}
       {(() => {
-        const script = parseMaybeObject(t('karma.script')) || {};
+        const script = parseMaybeObject(t('karma_philosophy.script')) || {};
 
         // collect paraN in order
         const paraKeys = Object.keys(script || {}).filter(k => /^para\d+$/.test(k));
