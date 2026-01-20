@@ -9,11 +9,10 @@ import _5 from './donate.json';
 import _6 from './footer.json';
 import _7 from './home.json';
 import _8 from './karma_philosophy.json';
-import _9 from './krishna-fivekarmas-explained.json';
-import _10 from './nav.json';
-import _11 from './privacy.json';
-import _12 from './site_title.json';
-import _13 from './terms.json';
+import _9 from './nav.json';
+import _10 from './privacy.json';
+import _11 from './site_title.json';
+import _12 from './terms.json';
 
 function deepMerge(target: any, source: any) {
   if (source === undefined) return target;
@@ -31,6 +30,6 @@ function deepMerge(target: any, source: any) {
 }
 
 const base = {};
-const merged = [_0, _1, _2, _3, _4, _5, _6, _7, _8, _9, _10, _11, _12, _13].reduce((acc, cur) => deepMerge(acc, cur || {}), base);
+const merged = [_0, _1, _2, _3, _4, _5, _6, _7, _8, _9, _10, _11, _12].reduce((acc, cur) => deepMerge(acc, cur || {}), base);
 
 export default merged;
