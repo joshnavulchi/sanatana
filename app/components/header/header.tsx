@@ -180,7 +180,7 @@ export default function Header() {
 
   return (
     <header ref={headerRef} className={`${styles.header} w-full sticky top-0 z-30 shadow-md`}>
-      <BannerNotifications id="first_banner" message={translations.banner} marquee="true" />
+      {/* <BannerNotifications id="first_banner" message={translations.banner} marquee="true" />
       {/* <BannerNotifications id="second_banner" message={translations.banner2} marquee="false" showClose={true} backgroundclass="notification-alternative-background-color" /> */}
       <div className={styles.logoTitleNavWrapper}>
         <div className="flex items-center justify-between">

@@ -27,6 +27,7 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
   const [moonPhaseValue, setMoonPhaseValue] = useState<number | null>(null);
   const [rahu, setRahu] = useState<{ start: string; end: string } | null>(null);
   const [yama, setYama] = useState<{ start: string; end: string } | null>(null);
+  const [locationRequested, setLocationRequested] = useState<boolean>(false);
 
   useEffect(() => {
     try {
@@ -44,8 +45,10 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
     return () => clearInterval(t);
   }, []);
 
-  useEffect(() => {
-    if (!('geolocation' in navigator)) return;
+  // Function to request geolocation - only called when user interacts
+  const requestLocation = () => {
+    if (locationRequested || !('geolocation' in navigator)) return;
+    setLocationRequested(true);
     navigator.geolocation.getCurrentPosition(pos => {
       const lat = pos.coords.latitude;
       const lon = pos.coords.longitude;
@@ -53,7 +56,7 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
     }, () => {
       // ignore if user denies
     }, { maximumAge: 60_000, timeout: 5000 });
-  }, []);
+  };
 
   useEffect(() => {
     if (!latLng) return;
@@ -163,6 +166,10 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
       localStorage.setItem('digitalClockVisible', next ? '1' : '0');
     } catch (e) {
       // ignore
+    }
+    // Request location when user opens the clock
+    if (next) {
+      requestLocation();
     }
   };
 

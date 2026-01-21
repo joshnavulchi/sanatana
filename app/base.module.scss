@@ -61,7 +61,7 @@ body {
 a {
   position: relative;
   text-decoration: none;
-  font-size: 1.15rem;
+  font-size: 1.125rem;
   color: var(--color-primary);
   text-decoration-color: rgba(217, 119, 6, .35);
   &:hover {
@@ -119,7 +119,7 @@ ul, ol {
 li {
   margin-bottom: 0.5rem;
 }
-p, .p, li { font-size: 1.15rem; } /* equals base (fluid) */
+p, .p, li { font-size: 1.125rem; } /* equals base (fluid) */
 small { font-size: 0.8rem; } /* 14px-ish at base */
 /* Headings: fluid using clamp(min, viewport, max) */
 h1, .h1 {
