@@ -1,29 +1,29 @@
 {
   "donate": {
     "meta": {
-      "title": "Donate | Overview — Sanātana Dharma - Explore Sanatan Dharma",
-      "description": "Donate — Support Sanātana Dharma — Articles, translations and concise commentary on Donate. Explore practices, history, and guiding principles at...",
+      "title": "தானம் | மேலோட்டம் — சனாதன தர்மம் - சனாதன தர்மத்தை ஆராயுங்கள்",
+      "description": "தானம் — சனாதன தர்மத்திற்கு ஆதரவு — தானம் தொடர்பான கட்டுரைகள், மொழிபெயர்ப்புகள் மற்றும் சுருக்கமான விளக்கங்கள். நடைமுறைகள், வரலாறு மற்றும் வழிகாட்டும் கோட்பாடுகளை ஆராயுங்கள்…",
       "keywords": [
-        "What is donate?",
-        "Why donate?",
-        "How to learn donate?",
-        "donate explained",
-        "What is donate support sanātana?",
-        "Why donate support sanātana?",
-        "How to learn donate support sanātana?",
-        "donate support sanātana explained",
-        "What is sanātana dharma articles?",
-        "Why sanātana dharma articles?",
-        "How to learn sanātana dharma articles?",
-        "sanātana dharma articles explained",
-        "What is dharma articles translations?",
-        "Why dharma articles translations?",
-        "How to learn dharma articles translations?",
-        "dharma articles translations explained",
-        "What is articles translations and?",
-        "Why articles translations and?",
-        "How to learn articles translations and?",
-        "articles translations and explained"
+        "தானம் என்றால் என்ன?",
+        "தானம் ஏன்?",
+        "தானம் எவ்வாறு செய்யலாம்?",
+        "தானம் விளக்கம்",
+        "சனாதனத்திற்கு ஆதரவாக தானம் என்றால் என்ன?",
+        "சனாதனத்திற்கு ஆதரவாக தானம் ஏன்?",
+        "சனாதனத்திற்கு ஆதரவாக தானம் எவ்வாறு?",
+        "சனாதனத்திற்கு ஆதரவாக தானம் விளக்கம்",
+        "சனாதன தர்மக் கட்டுரைகள் என்றால் என்ன?",
+        "சனாதன தர்மக் கட்டுரைகள் ஏன்?",
+        "சனாதன தர்மக் கட்டுரைகளை எவ்வாறு கற்கலாம்?",
+        "சனாதன தர்மக் கட்டுரைகள் விளக்கம்",
+        "தர்மக் கட்டுரைகள் மற்றும் மொழிபெயர்ப்புகள் என்றால் என்ன?",
+        "தர்மக் கட்டுரைகள் மற்றும் மொழிபெயர்ப்புகள் ஏன்?",
+        "தர்மக் கட்டுரைகள் மற்றும் மொழிபெயர்ப்புகளை எவ்வாறு கற்கலாம்?",
+        "தர்மக் கட்டுரைகள் மற்றும் மொழிபெயர்ப்புகள் விளக்கம்",
+        "கட்டுரைகள் மற்றும் மொழிபெயர்ப்புகள் என்றால் என்ன?",
+        "கட்டுரைகள் மற்றும் மொழிபெயர்ப்புகள் ஏன்?",
+        "கட்டுரைகள் மற்றும் மொழிபெயர்ப்புகளை எவ்வாறு கற்கலாம்?",
+        "கட்டுரைகள் மற்றும் மொழிபெயர்ப்புகள் விளக்கம்"
       ],
       "ogimage": "/og/donate.png",
       "url": "https://sanatanadharmam.in/donate",
@@ -33,64 +33,64 @@
       "@context": "https://schema.org",
       "mainEntity": {
         "@type": "Organization",
-        "name": "Donate Us",
+        "name": "எங்களுக்கு தானம் செய்யுங்கள்",
         "url": "https://sanatanadharmam.in",
         "logo": "https://sanatanadharmam.in/og/donate.png",
         "contactPoint": {
           "@type": "ContactPoint",
           "telephone": "+91-8099181075",
-          "contactType": "Customer Support",
+          "contactType": "வாடிக்கையாளர் ஆதரவு",
           "email": "info@sanatanadharmam.in",
-          "areaServed": "Worldwide",
+          "areaServed": "உலகளாவிய",
           "availableLanguage": [
-            "English",
-            "Telugu",
-            "Hindi"
+            "ஆங்கிலம்",
+            "தெலுங்கு",
+            "தமிழ்"
           ]
         }
       }
     },
-    "title": "Support Sanātana Dharma",
-    "subtitle": "Your donation sustains free access to ancient wisdom, scriptures, translations, and philosophical knowledge for seekers worldwide.",
+    "title": "சனாதன தர்மத்திற்கு ஆதரவளிக்கவும்",
+    "subtitle": "உங்கள் தானம், பண்டைய ஞானம், சாஸ்திரங்கள், மொழிபெயர்ப்புகள் மற்றும் தத்துவ அறிவு ஆகியவை உலகமெங்கும் உள்ள தேடிகளுக்கு இலவசமாக கிடைக்க உதவுகிறது.",
     "purpose": {
-      "heading": "Why Your Support Matters",
+      "heading": "உங்கள் ஆதரவு ஏன் முக்கியம்",
       "points": [
-        "Preserves free access to Sanātana Dharma knowledge",
-        "Supports website hosting, domain, and maintenance",
-        "Enables creation of high-quality spiritual content",
-        "Keeps the platform independent and non-commercial"
+        "சனாதன தர்ம அறிவிற்கான இலவச அணுகலை பாதுகாக்கிறது",
+        "இணையதள ஹோஸ்டிங், டொமைன் மற்றும் பராமரிப்பு செலவுகளை ஆதரிக்கிறது",
+        "உயர்தரமான ஆன்மிக உள்ளடக்கங்களை உருவாக்க உதவுகிறது",
+        "மூலத்தை சுயாதீனமாகவும், வணிகமற்றதாகவும் வைத்திருக்கிறது"
       ]
     },
     "expenses": {
-      "heading": "Transparency: Current Expenses",
+      "heading": "வெளிப்படைத்தன்மை: தற்போதைய செலவுகள்",
       "table": [
         {
-          "name": "Domain & Hosting",
+          "name": "டொமைன் &amp; ஹோஸ்டிங்",
           "cost": "₹3,500",
-          "cycle": "3 Years",
+          "cycle": "3 ஆண்டுகள்",
           "provider": "Hostinger"
         },
         {
           "name": "GitHub Pages",
-          "cost": "Free",
-          "cycle": "Unlimited",
+          "cost": "இலவசம்",
+          "cycle": "வரம்பற்றது",
           "provider": "GitHub"
         },
         {
-          "name": "AI Tools (Research)",
-          "cost": "Free Plans",
-          "cycle": "Ongoing",
+          "name": "AI கருவிகள் (ஆராய்ச்சி)",
+          "cost": "இலவச திட்டங்கள்",
+          "cycle": "தொடர்ச்சி",
           "provider": "Google / Microsoft / Meta"
         }
       ]
     },
     "donateOptions": {
       "oneTime": {
-        "heading": "One-Time Donation",
-        "note": "Make a secure one-time donation via UPI or international payment methods."
+        "heading": "ஒருமுறை தானம்",
+        "note": "UPI அல்லது சர்வதேச கட்டண முறைகள் மூலம் பாதுகாப்பான ஒருமுறை தானம் செய்யலாம்."
       },
       "bank": {
-        "heading": "UPI / Bank Transfer",
+        "heading": "UPI / வங்கி மாற்றம்",
         "upi": "809918075@ybl",
         "accountName": "V Vijaya Kumar",
         "accountNumber": "32160808608",
@@ -98,19 +98,19 @@
       }
     },
     "faq": {
-      "heading": "Frequently Asked Questions",
+      "heading": "அடிக்கடி கேட்கப்படும் கேள்விகள்",
       "items": [
         {
-          "q": "Is my donation secure?",
-          "a": "Yes. Donations are processed via trusted payment providers and direct bank transfers."
+          "q": "என் தானம் பாதுகாப்பானதா?",
+          "a": "ஆம். நம்பகமான கட்டண வழங்குநர்கள் மற்றும் நேரடி வங்கி மாற்றங்கள் மூலம் தானங்கள் பாதுகாப்பாக செயலாக்கப்படுகின்றன."
         },
         {
-          "q": "How will my donation be used?",
-          "a": "Your contribution supports hosting, maintenance, and creation of educational spiritual content."
+          "q": "என் தானம் எதற்காக பயன்படுத்தப்படும்?",
+          "a": "உங்கள் பங்களிப்பு ஹோஸ்டிங், பராமரிப்பு மற்றும் கல்வி சார்ந்த ஆன்மிக உள்ளடக்கங்களை உருவாக்குவதற்காக பயன்படுத்தப்படுகிறது."
         },
         {
-          "q": "Is this a commercial organization?",
-          "a": "No. Sanātana Dharma is a non-commercial, knowledge-focused initiative."
+          "q": "இது ஒரு வணிக நிறுவனா?",
+          "a": "இல்லை. சனாதன தர்மம் என்பது வணிகமற்ற, அறிவு மையமான ஒரு முயற்சியாகும்."
         }
       ]
     }

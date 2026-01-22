@@ -3,28 +3,6 @@
     "paragraph": "We use cookies to track visitors, measure ads, ad campaign effectiveness and analyze site traffic. We may also share information about your use of our site with 3rd parties. For more info, see our {cookiePolicyLink} and {privacyPolicyLink}. By clicking on \"{managerLabel}\" you can choose to enable only certain cookie categories. By clicking \"{acceptAllLabel}\" you agree to the storing of all cookies on your device. In case you don't choose one of these options and use our website we will treat it as if you have accepted all cookies.",
     "managerbutton": "Cookie Preference Manager",
     "acceptall": "Accept all",
-    "cookiepolicy": "Cookie Policy",
-    "privacypolicy": "Privacy Policy",
-    "schema": {
-      "@context": "https://schema.org",
-      "mainEntity": {
-        "@type": "Organization",
-        "name": "Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in",
-        "logo": "https://sanatanadharmam.in/logo.png",
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "telephone": "+91-8099181075",
-          "contactType": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "areaServed": "Worldwide",
-          "availableLanguage": [
-            "English",
-            "Telugu",
-            "Hindi"
-          ]
-        }
-      }
-    }
+    "cookiepolicy": "Cookie Policy"
   }
 }

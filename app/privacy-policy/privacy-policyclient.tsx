@@ -9,21 +9,21 @@ import { parseSections, parseMaybeObject } from 'lib/parseContent';
 export default function PrivacyPolicy() {
   const { locale } = useLocale();
   const t = useT();
-  type PrivacyState = { title: string; lastupdated: string; [key: string]: any };
-  const [privacy, setPrivacy] = useState<PrivacyState>({ title: '', lastupdated: '', intro: {} as any, informationwecollect: {} as any, howweuse: {} as any, cookieslocalstorage: {} as any, thirdparty: {} as any, security: {} as any, rights: {} as any, children: {} as any, changes: {} as any, contact:{} as any });
+  type PrivacyState = { title: string; lastupdated: string;[key: string]: any };
+  const [privacy, setPrivacy] = useState<PrivacyState>({ title: '', lastupdated: '', intro: {} as any, informationwecollect: {} as any, howweuse: {} as any, cookieslocalstorage: {} as any, thirdparty: {} as any, security: {} as any, rights: {} as any, children: {} as any, changes: {} as any, contact: {} as any });
 
   useEffect(() => {
     let mounted = true;
     (async () => {
       try {
-        await loadLocale(locale).catch(() => {});
-      } catch (e) {}
+        await loadLocale(locale).catch(() => { });
+      } catch (e) { }
       if (!mounted) return;
 
       const title = t('privacy.title') || '';
       const lastupdated = t('privacy.lastupdated') || '';
 
-      const keys = ['intro','informationwecollect','howweuse','cookieslocalstorage','thirdparty','security','rights','children','changes','contact'];
+      const keys = ['intro', 'informationwecollect', 'howweuse', 'cookieslocalstorage', 'thirdparty', 'security', 'rights', 'children', 'changes', 'contact'];
       const data: Record<string, any> = {};
       keys.forEach((k) => { data[k] = parseMaybeObject(t(`privacy.${k}`)); });
 
@@ -52,7 +52,7 @@ export default function PrivacyPolicy() {
         data.howweuse = { title: data.howweuse?.title, lead: data.howweuse?.lead, items: parseSections(data.howweuse) };
       }
 
-      ['cookieslocalstorage','thirdparty','security','children','changes'].forEach((k) => {
+      ['cookieslocalstorage', 'thirdparty', 'security', 'children', 'changes'].forEach((k) => {
         if (data[k] && typeof data[k] === 'object') data[k] = { title: data[k].title, text: data[k].text };
       });
 
@@ -79,7 +79,7 @@ export default function PrivacyPolicy() {
       breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Privacy policy' }]}
       className={`layout-sm`}
     >
-      <p><strong>{privacy.lastupdated}</strong></p>     
+      <p><strong>{privacy.lastupdated}</strong></p>
       <section>
         <h2 className="h4">{privacy.intro.title}</h2>
         <p>{privacy.intro.text}</p>
@@ -100,9 +100,9 @@ export default function PrivacyPolicy() {
         <p>{privacy.cookieslocalstorage.text}</p>
         <h6 className="h4">{privacy.thirdparty.title}</h6>
         <p>{privacy.thirdparty.text}</p>
-        <p>{privacy.security.title}</p>
+        <p className="h4">{privacy.security.title}</p>
         <p>{privacy.security.text}</p>
-        <p>{privacy.rights.title}</p>
+        <p className="h4">{privacy.rights.title}</p>
         <p>{privacy.rights.lead}</p>
         <ul className="list-disc">
           {(privacy.rights?.items || []).map((p: string, i: number) => (
@@ -110,11 +110,11 @@ export default function PrivacyPolicy() {
           ))}
         </ul>
         <p>{privacy.rights.contacttext}</p>
-        <p>{privacy.children.title}</p>
+        <p className="h4">{privacy.children.title}</p>
         <p>{privacy.children.text}</p>
-        <p>{privacy.changes.title}</p>
+        <p className="h4">{privacy.changes.title}</p>
         <p>{privacy.changes.text}</p>
-        <p>{privacy.contact.title}</p>
+        <p className="h4">{privacy.contact.title}</p>
         <p>{privacy.contact.lead}</p>
         <p>{privacy.contact.emaillabel} {privacy.contact.email}</p>
         <p>{privacy.contact.websitelabel} {privacy.contact.website}</p>

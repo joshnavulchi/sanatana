@@ -1,37 +1,37 @@
 {
   "cookiepolicy": {
-    "title": "Cookie Policy",
-    "intro": "This Cookie Policy explains how we use cookies and similar technologies on our website.",
-    "whatarecookies": "What are cookies?",
-    "typesheading": "Types of cookies we use",
+    "title": "कुकी नीति",
+    "intro": "यह कुकी नीति बताती है कि हम अपनी वेबसाइट पर कुकीज़ और समान तकनीकों का उपयोग कैसे करते हैं।",
+    "whatarecookies": "कुकीज़ क्या हैं?",
+    "typesheading": "हम किस प्रकार की कुकीज़ का उपयोग करते हैं",
     "types": {
-      "strictlynecessary": "Strictly necessary: Required for the site to function.",
-      "functionality": "Functionality: Remember choices and preferences.",
-      "performance": "Performance: Help us analyze traffic and performance.",
-      "targeting": "Targeting: Used for advertising and personalization."
+      "strictlynecessary": "अत्यावश्यक कुकीज़: वेबसाइट के सही ढंग से कार्य करने के लिए आवश्यक।",
+      "functionality": "कार्यक्षमता कुकीज़: आपकी पसंद और चयन को याद रखने के लिए।",
+      "performance": "प्रदर्शन कुकीज़: वेबसाइट ट्रैफ़िक और प्रदर्शन का विश्लेषण करने में सहायता करती हैं।",
+      "targeting": "लक्षित कुकीज़: विज्ञापन और वैयक्तिकरण के लिए उपयोग की जाती हैं।"
     },
-    "managing": "Managing your preferences",
-    "managingdesc": "Open the Cookie Preference Manager from the banner to enable or disable categories. If you accept all cookies, we will store your choices and apply them across visits.",
-    "datasharing": "Data sharing",
-    "datasharingdesc": "We may share aggregated information with third parties for analytics and advertising. No sensitive personal data is shared by default.",
-    "lastupdated": "Last updated: {date}",
+    "managing": "अपनी प्राथमिकताओं का प्रबंधन",
+    "managingdesc": "कुकी बैनर से कुकी प्राथमिकता प्रबंधक खोलें और श्रेणियों को सक्षम या अक्षम करें। यदि आप सभी कुकीज़ स्वीकार करते हैं, तो हम आपकी पसंद सहेजेंगे और उन्हें भविष्य की सभी यात्राओं पर लागू करेंगे।",
+    "datasharing": "डेटा साझा करना",
+    "datasharingdesc": "हम विश्लेषण और विज्ञापन उद्देश्यों के लिए तृतीय पक्षों के साथ समेकित जानकारी साझा कर सकते हैं। डिफ़ॉल्ट रूप से कोई भी संवेदनशील व्यक्तिगत डेटा साझा नहीं किया जाता।",
+    "lastupdated": "अंतिम अपडेट: {date}",
     "schema": {
       "@context": "https://schema.org",
       "mainEntity": {
         "@type": "Organization",
-        "name": "Cookie Policy",
+        "name": "कुकी नीति",
         "url": "https://sanatanadharmam.in",
         "logo": "https://sanatanadharmam.in/logo.png",
         "contactPoint": {
           "@type": "ContactPoint",
           "telephone": "+91-8099181075",
-          "contactType": "Customer Support",
+          "contactType": "ग्राहक सहायता",
           "email": "info@sanatanadharmam.in",
-          "areaServed": "Worldwide",
+          "areaServed": "विश्वव्यापी",
           "availableLanguage": [
-            "English",
-            "Telugu",
-            "Hindi"
+            "अंग्रेज़ी",
+            "तेलुगु",
+            "हिंदी"
           ]
         }
       }

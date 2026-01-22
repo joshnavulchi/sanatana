@@ -1,31 +1,27 @@
 {
   "contact": {
-    "title": "Contact Us",
-    "subtitle": "We’d love to hear from you",
+    "title": "தொடர்பு கொள்ளுங்கள்",
+    "subtitle": "உங்களிடமிருந்து கேட்க விரும்புகிறோம்",
     "meta": {
-      "title": "Contact Us — Sanātana Dharma",
-      "description": "Get in touch with Sanatanadharmam.in for inquiries, collaborations, or spiritual guidance. Reach us via email, phone, or contact form.",
+      "title": "தொடர்பு கொள்ளுங்கள் — சனாதன தர்மம்",
+      "description": "வினாக்கள், கூட்டாண்மை அல்லது ஆன்மீக வழிகாட்டலுக்காக Sanatanadharmam.in‑னை தொடர்பு கொள்ளுங்கள். மின்னஞ்சல், தொலைபேசி அல்லது தொடர்புப் படிவம் மூலம் எங்களை அணுகலாம்.",
       "keywords": [
-        "What is get in touch?",
-        "Why get in touch?",
-        "How to learn get in touch?",
-        "get in touch explained",
-        "What is in touch with?",
-        "Why in touch with?",
-        "How to learn in touch with?",
-        "in touch with explained",
-        "What is touch with sanatanadharmam?",
-        "Why touch with sanatanadharmam?",
-        "How to learn touch with sanatanadharmam?",
-        "touch with sanatanadharmam explained",
-        "What is in for inquiries?",
-        "Why in for inquiries?",
-        "How to learn in for inquiries?",
-        "in for inquiries explained",
-        "What is for inquiries collaborations?",
-        "Why for inquiries collaborations?",
-        "How to learn for inquiries collaborations?",
-        "for inquiries collaborations explained"
+        "தொடர்பு கொள்ளுதல் என்றால் என்ன?",
+        "ஏன் தொடர்பு கொள்ள வேண்டும்?",
+        "எவ்வாறு தொடர்பு கொள்ளலாம்?",
+        "தொடர்பு கொள்ளுதல் விளக்கம்",
+        "Sanatanadharmam‑னை தொடர்பு கொள்வது என்றால் என்ன?",
+        "Sanatanadharmam‑னை ஏன் தொடர்பு கொள்ள வேண்டும்?",
+        "Sanatanadharmam‑னை எவ்வாறு தொடர்பு கொள்ளலாம்?",
+        "Sanatanadharmam தொடர்பு விளக்கம்",
+        "வினாக்களுக்காக தொடர்பு என்றால் என்ன?",
+        "வினாக்களுக்காக தொடர்பு ஏன்?",
+        "வினாக்களுக்காக தொடர்பு எவ்வாறு?",
+        "வினாக்களுக்காக தொடர்பு விளக்கம்",
+        "வினா மற்றும் கூட்டாண்மை என்றால் என்ன?",
+        "வினா மற்றும் கூட்டாண்மை ஏன்?",
+        "வினா மற்றும் கூட்டாண்மை எவ்வாறு?",
+        "வினா மற்றும் கூட்டாண்மை விளக்கம்"
       ],
       "robots": "index, follow",
       "ogimage": "/og/contact.png",
@@ -41,13 +37,13 @@
         "contactPoint": {
           "@type": "ContactPoint",
           "telephone": "+91-8099181075",
-          "contactType": "Customer Support",
+          "contactType": "வாடிக்கையாளர் ஆதரவு",
           "email": "info@sanatanadharmam.in",
-          "areaServed": "Worldwide",
+          "areaServed": "உலகளாவிய",
           "availableLanguage": [
-            "English",
-            "Telugu",
-            "Hindi"
+            "ஆங்கிலம்",
+            "தெலுங்கு",
+            "தமிழ்"
           ]
         }
       }
@@ -56,23 +52,23 @@
       {
         "id": "intro",
         "type": "text",
-        "content": "Sanatanadharmam.in is dedicated to spreading authentic knowledge of Sanatana Dharma. Whether you have questions, feedback, or collaboration ideas, we welcome your message."
+        "content": "Sanatanadharmam.in சனாதன தர்மத்தின் உண்மையான ஞானத்தைப் பரப்புவதற்கு அர்ப்பணிக்கப்பட்டது. உங்களுக்கு கேள்விகள், கருத்துகள் அல்லது கூட்டாண்மை யோசனைகள் இருந்தால், தயங்காமல் எங்களை தொடர்பு கொள்ளுங்கள்."
       },
       {
         "id": "contact-details",
         "type": "grid",
         "columns": [
           {
-            "title": "📧 Email",
+            "title": "📧 மின்னஞ்சல்",
             "content": "vulchi.vijay@gmail.com"
           },
           {
-            "title": "📞 Phone",
+            "title": "📞 தொலைபேசி",
             "content": "+91-8099181075"
           },
           {
-            "title": "📍 Address",
-            "content": "Tirupati, Andhra Pradesh, India"
+            "title": "📍 முகவரி",
+            "content": "திருப்பதி, ஆந்திரப் பிரதேசம், இந்தியா"
           }
         ]
       },
@@ -83,61 +79,61 @@
           {
             "name": "name",
             "type": "text",
-            "placeholder": "Your Name",
+            "placeholder": "உங்கள் பெயர்",
             "required": true
           },
           {
             "name": "email",
             "type": "email",
-            "placeholder": "Your Email",
+            "placeholder": "உங்கள் மின்னஞ்சல்",
             "required": true
           },
           {
             "name": "subject",
             "type": "text",
-            "placeholder": "Subject",
+            "placeholder": "தலைப்பு",
             "required": false
           },
           {
             "name": "message",
             "type": "textarea",
-            "placeholder": "Your Message",
+            "placeholder": "உங்கள் செய்தி",
             "required": true
           }
         ],
         "submitButton": {
-          "label": "Send Message",
+          "label": "செய்தியை அனுப்புங்கள்",
           "action": "/api/contact/submit"
         }
       },
       {
         "id": "map",
         "type": "embed",
-        "content": "Google Maps iframe of Tirupati, Andhra Pradesh"
+        "content": "திருப்பதி, ஆந்திரப் பிரதேசம் குறித்த Google Maps iframe"
       }
     ],
     "whattoinclude": {
-      "heading": "What to include in your message",
-      "guidance": "To help us respond efficiently, please include: a clear subject line, the page or URL you are referring to (if applicable), a concise description of the issue or request, and your preferred contact method. For corrections to texts, indicate the exact line or verse and, if possible, provide a reliable source or edition reference. For translation suggestions, include both the suggested wording and brief reasoning for the change."
+      "heading": "உங்கள் செய்தியில் என்ன சேர்க்க வேண்டும்",
+      "guidance": "எங்களுக்கு விரைவாகவும் துல்லியமாகவும் பதிலளிக்க, தெளிவான தலைப்பு, நீங்கள் குறிப்பிடும் பக்கம் அல்லது URL (தேவைப்பட்டால்), பிரச்சினை அல்லது கோரிக்கையின் சுருக்கமான விளக்கம் மற்றும் உங்கள் விருப்பமான தொடர்பு முறை ஆகியவற்றை சேர்க்கவும். நூல் திருத்தங்களுக்கு, குறிப்பிட்ட வரி அல்லது செய்யுளைச் சுட்டிக் காட்டி, முடிந்தால் நம்பகமான மூலப் பதிப்பு அல்லது மேற்கோளை வழங்கவும். மொழிபெயர்ப்பு பரிந்துரைகளுக்கு, முன்மொழியப்படும் சொற்கள் மற்றும் மாற்றத்திற்கான சுருக்கமான காரணத்தையும் குறிப்பிடவும்."
     },
     "volunteer": {
-      "heading": "Volunteer and contribution guidelines",
-      "guidance": "We welcome volunteers who can help with proofreading, typesetting, translations, audio recording, web development, and community moderation. Please describe your skills, availability, and any relevant samples of previous work. Submissions are reviewed and, if accepted, coordinated through a modest onboarding process so volunteers understand editorial standards and the project's code of conduct."
+      "heading": "தன்னார்வ மற்றும் பங்களிப்பு வழிகாட்டுதல்கள்",
+      "guidance": "புரூஃப் ரீடிங், டைப் செட்டிங், மொழிபெயர்ப்பு, ஒலி பதிவேற்றம், வலை வளர்ச்சி மற்றும் சமூக மேலாண்மை ஆகியவற்றில் உதவ விரும்பும் தன்னார்வலர்களை வரவேற்கிறோம். உங்கள் திறன்கள், கிடைப்புத் தன்மை மற்றும் முன் செய்த பணிகளின் உதாரணங்களை விளக்கவும். அனைத்து சமர்ப்பிப்புகளும் மதிப்பாய்வு செய்யப்படுவதைத் தொடர்ந்து, ஏற்றுக்கொள்ளப்பட்டால் ஒரு எளிய அறிமுக செயல்முறையின் மூலம் ஒருங்கிணைக்கப்படும்."
     },
     "faq": {
-      "heading": "Frequently asked questions",
+      "heading": "அடிக்கடி கேட்கப்படும் கேள்விகள்",
       "items": [
         {
-          "q": "I found an error in a text — what should I do?",
-          "a": "Please include the URL, the exact passage (quote the line or verse), and a reference or scan of the source edition if possible. We will verify and, if necessary, publish an errata note describing the correction."
+          "q": "ஒரு நூலில் பிழை கண்டுபிடித்தால் என்ன செய்ய வேண்டும்?",
+          "a": "தயவுசெய்து URL, சரியான உரைப்பகுதி (வரி அல்லது செய்யுள்) மற்றும் முடிந்தால் மூலப் பதிப்பின் மேற்கோள் அல்லது ஸ்கேன் பிரதியை வழங்குங்கள். நாங்கள் சரிபார்த்து, தேவையானால் திருத்தக் குறிப்பை வெளியிடுவோம்."
         },
         {
-          "q": "Can I request a new text or chapter to be added?",
-          "a": "Yes. Send the bibliographic details and any relevant permissions. We prioritize texts that are in the public domain or available with clear permissions, and we may coordinate with contributors for digitization."
+          "q": "புதிய நூல் அல்லது அத்தியாயம் சேர்க்க கோர முடியுமா?",
+          "a": "ஆம். நூற்பட்டியல் விவரங்களையும் தேவையான அனுமதிகளையும் அனுப்பவும். பொது உரிமையில் உள்ள அல்லது தெளிவான அனுமதி கொண்ட நூல்களுக்கு முன்னுரிமை அளிக்கப்படும்; தேவைப்பட்டால் டிஜிட்டல் மாற்றத்திற்காக பங்களிப்பாளர்களுடன் ஒருங்கிணைப்போம்."
         },
         {
-          "q": "How do I get involved as a volunteer?",
-          "a": "Send your CV or a short note describing your skills and availability. We will follow up if we have a good match for current needs."
+          "q": "தன்னார்வலராக நான் எவ்வாறு சேரலாம்?",
+          "a": "உங்கள் திறன்கள் மற்றும் கிடைப்பை விவரிக்கும் குறிப்போ அல்லது CV‑ஐ அனுப்புங்கள். தற்போதைய தேவைகளுடன் பொருந்தினால் நாங்கள் தொடர்பு கொள்வோம்."
         }
       ]
     }
