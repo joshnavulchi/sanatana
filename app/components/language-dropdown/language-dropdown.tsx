@@ -164,6 +164,9 @@ export default function languagedropdown() {
     <div role="menuItem" ref={dropdownRef} className="relative">
       {/* Dropdown Button */}
       <button
+        role="button"
+        aria-haspopup="menu"
+        aria-controls="language-menu"
         onClick={() => setOpen(!open)}
         className={`${styles.langbtn} inline-flex items-center cursor-pointer`}
         aria-label={t('languagedropdown.arialabel')}
@@ -180,9 +183,9 @@ export default function languagedropdown() {
         <div className="fixed inset-0 z-50 flex items-center justify-center" role="dialog" aria-modal="true">
           <div className="absolute inset-0 bg-black/40" onClick={() => setOpen(false)} />
           <div ref={dropdownRef} className={`${styles.multilang} rounded-md w-11/12 max-w-md md:w-auto md:max-w-7xl shadow-lg border`}>
-            <div role="closeButton" className="flex items-center justify-between">
+              <div role="closeButton" className="flex items-center justify-between">
               <div className="font-semibold">{t('languagedropdown.title') || 'Choose language'}</div>
-              <button aria-label="Close" onClick={() => setOpen(false)} className="cursor-pointer">✕</button>
+              <button role="button" aria-label="Close" onClick={() => setOpen(false)} className="cursor-pointer">✕</button>
             </div>
             <div className="search-wrapper">
               <input
@@ -211,7 +214,7 @@ export default function languagedropdown() {
                 aria-label={t('languagedropdown.searcharia') || 'Search languages'}
               />
             </div>
-            <div role="menu" className="max-h-96 overflow-y-auto md:flex md:flex-wrap">
+            <div id="language-menu" role="menu" className="max-h-96 overflow-y-auto md:flex md:flex-wrap">
               {filteredLanguages.map((lang, idx) => {
                 const meta = (localeMeta as any)[lang.code] || {};
                 const flag = meta.flag || '';
@@ -219,6 +222,7 @@ export default function languagedropdown() {
                 return (
                   <button
                     key={lang.code}
+                    role="menuitem"
                     onMouseEnter={() => {
                       setHighlighted(idx);
                       // non-blocking preload when user hovers a language
