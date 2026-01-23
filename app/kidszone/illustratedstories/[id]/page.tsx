@@ -49,7 +49,7 @@ export async function createGenerateMetadata({ params, searchParams }: { params:
 export function generateStaticParams() {
   try {
     const fsSync = require('fs');
-    const file = path.join(process.cwd(), 'locales', 'en', 'illustrated_stories.json');
+    const file = path.join(process.cwd(), 'public', 'locales', 'en', 'illustrated_stories.json');
     const raw = fsSync.readFileSync(file, 'utf8');
     const doc = JSON.parse(raw);
     const stories = doc && (doc.illustrated_stories || doc.illustratedstories) && (doc.illustrated_stories.kids_indian_stories || doc.illustratedstories.kids_indian_stories) ? (doc.illustrated_stories?.kids_indian_stories || doc.illustratedstories?.kids_indian_stories) : [];
@@ -60,7 +60,7 @@ export function generateStaticParams() {
 }
 
 async function loadStories(locale: string) {
-  const file = path.join(process.cwd(), 'locales', locale, 'illustrated_stories.json');
+  const file = path.join(process.cwd(), 'public', 'locales', locale, 'illustrated_stories.json');
   try {
     const raw = await fs.readFile(file, 'utf8');
     const doc = JSON.parse(raw);

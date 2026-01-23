@@ -16,6 +16,7 @@
     "predeploy": "npm run scss:build && npm run export",
     "generate:sitemap": "node scripts/generate-sitemap.js",
     "download:locales": "node scripts/download-locales.js",
+    "download:locales:force": "node scripts/download-locales.js --force",
     "update:locales": "node scripts/update-i18n-locales.js",
     "update:locales:validate": "node scripts/update-i18n-locales.js --validate",
     "export": "cross-env NEXT_STATIC_EXPORT=true npm run build",

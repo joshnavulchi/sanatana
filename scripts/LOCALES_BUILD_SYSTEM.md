@@ -1,13 +1,13 @@
 # Locales Build System
 
-This document explains how locales are managed in production builds.
+This document explains how locales are managed in production builds with smart update detection.
 
 ## Overview
 
-The application uses a hybrid approach for loading locales:
-1. **Development**: Locales are fetched from GitHub at runtime
-2. **Production**: Locales are downloaded during build and bundled with the app
-3. **Fallback**: If local files aren't available, falls back to GitHub
+The application uses an intelligent locale management system:
+1. **Development**: Locales are checked and downloaded if missing/outdated
+2. **Production**: Locales are downloaded during build only if changes detected
+3. **Smart Updates**: Only downloads when files are new/modified (SHA-based tracking)
 
 ## Build Process
 
@@ -47,15 +47,27 @@ When the app runs, `lib/i18n.ts` uses this loading strategy:
 
 ## Scripts
 
-### Download Locales
+### Download Locales (Smart Update)
 
-Download all locales from GitHub:
+Download locales from GitHub with intelligent change detection:
 
 ```bash
 npm run download:locales
 ```
 
-This is automatically run before each build via the `prebuild` script.
+The script:
+- Checks local metadata (`.locale-metadata.json`)
+- Compares file SHA hashes with remote repository
+- Only downloads files that are new or modified
+- Skips unchanged locales entirely
+
+**Force download (ignore cache):**
+
+```bash
+npm run download:locales:force
+```
+
+This will re-download all locales regardless of local state.
 
 ### Update i18n Configuration
 

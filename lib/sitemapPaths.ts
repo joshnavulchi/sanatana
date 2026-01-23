@@ -14,7 +14,11 @@ function buildPaths() {
 
   try {
     // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const nav = require('../locales/en/nav.json');
+    const fs = require('fs');
+    const path = require('path');
+    const navPath = path.join(process.cwd(), 'public', 'locales', 'en', 'nav.json');
+    const navContent = fs.readFileSync(navPath, 'utf8');
+    const nav = JSON.parse(navContent);
     const navRoot = nav && nav.nav ? nav.nav : (nav && nav.default && nav.default.nav) || {};
 
     // Helper to add top-level and children

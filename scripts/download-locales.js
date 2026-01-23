@@ -12,6 +12,32 @@ const path = require('path');
 const GITHUB_REPO = 'vulchivijay/first-contributes';
 const GITHUB_BRANCH = 'main';
 const LOCALES_DIR = path.join(__dirname, '../public/locales');
+const METADATA_FILE = path.join(LOCALES_DIR, '.locale-metadata.json');
+
+/**
+ * Load local metadata about downloaded locales
+ */
+function loadMetadata() {
+  try {
+    if (fs.existsSync(METADATA_FILE)) {
+      return JSON.parse(fs.readFileSync(METADATA_FILE, 'utf8'));
+    }
+  } catch (err) {
+    console.warn('Could not load metadata:', err.message);
+  }
+  return { locales: {}, lastUpdate: null };
+}
+
+/**
+ * Save metadata about downloaded locales
+ */
+function saveMetadata(metadata) {
+  try {
+    fs.writeFileSync(METADATA_FILE, JSON.stringify(metadata, null, 2), 'utf8');
+  } catch (err) {
+    console.error('Could not save metadata:', err.message);
+  }
+}
 
 /**
  * Fetch content from URL
@@ -57,18 +83,48 @@ async function getLocalesList() {
 }
 
 /**
- * Get files in a locale directory
+ * Get files in a locale directory with metadata
  */
 async function getLocaleFiles(locale) {
   const url = `https://api.github.com/repos/${GITHUB_REPO}/contents/locales/${locale}?ref=${GITHUB_BRANCH}`;
   try {
     const data = await fetchUrl(url);
     const contents = JSON.parse(data);
-    return contents.filter(item => item.type === 'file');
+    return contents.filter(item => item.type === 'file').map(item => ({
+      name: item.name,
+      sha: item.sha,
+      size: item.size,
+      url: item.download_url
+    }));
   } catch (err) {
     console.warn(`  Warning: Could not fetch files for ${locale}:`, err.message);
     return [];
   }
+}
+
+/**
+ * Check if locale needs update
+ */
+function needsUpdate(locale, remoteFiles, metadata) {
+  const localMetadata = metadata.locales[locale];
+  
+  if (!localMetadata) {
+    return { needsUpdate: true, reason: 'not downloaded yet' };
+  }
+  
+  // Check if number of files changed
+  if (!localMetadata.files || Object.keys(localMetadata.files).length !== remoteFiles.length) {
+    return { needsUpdate: true, reason: 'file count changed' };
+  }
+  
+  // Check if any file SHA changed
+  for (const file of remoteFiles) {
+    if (!localMetadata.files[file.name] || localMetadata.files[file.name].sha !== file.sha) {
+      return { needsUpdate: true, reason: `file ${file.name} changed` };
+    }
+  }
+  
+  return { needsUpdate: false };
 }
 
 /**
@@ -164,21 +220,21 @@ function ensureDir(dir) {
 }
 
 /**
- * Download all locales
+ * Download all locales (with smart update detection)
  */
-async function downloadAllLocales() {
+async function downloadAllLocales(forceDownload = false) {
   console.log('='.repeat(60));
-  console.log('Downloading locales from GitHub for production build');
+  console.log('Downloading locales from GitHub');
   console.log('='.repeat(60));
   console.log(`Repository: ${GITHUB_REPO}`);
   console.log(`Branch: ${GITHUB_BRANCH}`);
   console.log(`Output: ${LOCALES_DIR}\n`);
   
   try {
-    // Clean and create locales directory
-    if (fs.existsSync(LOCALES_DIR)) {
-      fs.rmSync(LOCALES_DIR, { recursive: true, force: true });
-    }
+    // Load existing metadata
+    const metadata = loadMetadata();
+    
+    // Create locales directory if it doesn't exist
     ensureDir(LOCALES_DIR);
     
     // Get list of locales
@@ -188,14 +244,20 @@ async function downloadAllLocales() {
     
     let successCount = 0;
     let errorCount = 0;
+    let skippedCount = 0;
+    let updatedCount = 0;
+    
+    const newMetadata = {
+      locales: {},
+      lastUpdate: new Date().toISOString()
+    };
     
     // Download each locale
     for (const locale of locales) {
       console.log(`Processing ${locale}...`);
       const localeDir = path.join(LOCALES_DIR, locale);
-      ensureDir(localeDir);
       
-      // Get all files in locale directory
+      // Get remote files
       const files = await getLocaleFiles(locale);
       const jsonFiles = files.filter(f => f.name.endsWith('.json'));
       
@@ -205,11 +267,31 @@ async function downloadAllLocales() {
         continue;
       }
       
+      // Check if update needed
+      const updateCheck = needsUpdate(locale, jsonFiles, metadata);
+      
+      if (!forceDownload && !updateCheck.needsUpdate) {
+        console.log(`  ✓ Up to date - skipping (${jsonFiles.length} files)`);
+        // Copy old metadata
+        newMetadata.locales[locale] = metadata.locales[locale];
+        skippedCount++;
+        console.log('');
+        continue;
+      }
+      
+      if (updateCheck.needsUpdate) {
+        console.log(`  Update needed: ${updateCheck.reason}`);
+        updatedCount++;
+      }
+      
+      ensureDir(localeDir);
+      
       console.log(`  Found ${jsonFiles.length} JSON files to download`);
       
       // Download all JSON files individually
       const merged = {};
       let downloadedCount = 0;
+      const fileMetadata = {};
       
       for (const file of jsonFiles) {
         const content = await downloadFile(locale, file.name);
@@ -221,6 +303,13 @@ async function downloadAllLocales() {
             const outputPath = path.join(localeDir, file.name);
             fs.writeFileSync(outputPath, content, 'utf8');
             console.log(`  ✓ Downloaded ${file.name}`);
+            
+            // Store file metadata
+            fileMetadata[file.name] = {
+              sha: file.sha,
+              size: file.size,
+              downloadedAt: new Date().toISOString()
+            };
             
             // Also merge for index.json
             deepMerge(merged, json);
@@ -239,6 +328,14 @@ async function downloadAllLocales() {
         const indexPath = path.join(localeDir, 'index.json');
         fs.writeFileSync(indexPath, JSON.stringify(merged, null, 2), 'utf8');
         console.log(`  ✓ Created index.json (merged ${downloadedCount} files)`);
+        
+        // Store locale metadata
+        newMetadata.locales[locale] = {
+          fileCount: downloadedCount,
+          files: fileMetadata,
+          lastUpdate: new Date().toISOString()
+        };
+        
         successCount++;
       } else {
         console.warn(`  ✗ Failed to process ${locale}`);
@@ -248,9 +345,18 @@ async function downloadAllLocales() {
       console.log('');
     }
     
+    // Save metadata
+    saveMetadata(newMetadata);
+    
     console.log('='.repeat(60));
     console.log(`✓ Download completed!`);
-    console.log(`  Success: ${successCount} locales`);
+    console.log(`  Downloaded: ${successCount} locales`);
+    if (updatedCount > 0) {
+      console.log(`  Updated: ${updatedCount} locales`);
+    }
+    if (skippedCount > 0) {
+      console.log(`  Skipped (up to date): ${skippedCount} locales`);
+    }
     if (errorCount > 0) {
       console.log(`  Errors: ${errorCount} locales`);
     }
@@ -264,7 +370,11 @@ async function downloadAllLocales() {
 
 // Run the script
 if (require.main === module) {
-  downloadAllLocales();
+  const forceDownload = process.argv.includes('--force');
+  if (forceDownload) {
+    console.log('🔄 Force download mode enabled\n');
+  }
+  downloadAllLocales(forceDownload);
 }
 
 module.exports = { downloadAllLocales };

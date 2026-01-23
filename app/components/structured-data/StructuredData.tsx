@@ -45,18 +45,24 @@ export default function StructuredData({ metaKey, params, locale }: Props) {
   let pageSchema: Record<string, unknown> | null = null;
   if (typeof window === 'undefined') {
     try {
+      // eslint-disable-next-line @typescript-eslint/no-var-requires
+      const fs = require('fs');
+      const path = require('path');
+      
       // Try a few common filename variants similar to `getMeta`.
       const candidates = [metaKey, metaKey.replace(/_/g, '-'), metaKey.replace(/_/g, '')];
       for (const candidate of candidates) {
         try {
-          // eslint-disable-next-line @typescript-eslint/no-var-requires
-          const mod = require(`../../../locales/${loc}/${candidate}.json`);
-          const obj = (mod && (mod.default || mod)) as any;
-          // The file may export an object keyed by the page name.
-          let pageObj = obj?.[metaKey] ?? obj?.[candidate] ?? obj;
-          if (pageObj && typeof pageObj === 'object') {
-            pageSchema = pageObj.schema ?? obj.schema ?? null;
-            if (pageSchema) break;
+          const filePath = path.join(process.cwd(), 'public', 'locales', loc, `${candidate}.json`);
+          if (fs.existsSync(filePath)) {
+            const content = fs.readFileSync(filePath, 'utf8');
+            const obj = JSON.parse(content);
+            // The file may export an object keyed by the page name.
+            let pageObj = obj?.[metaKey] ?? obj?.[candidate] ?? obj;
+            if (pageObj && typeof pageObj === 'object') {
+              pageSchema = pageObj.schema ?? obj.schema ?? null;
+              if (pageSchema) break;
+            }
           }
         } catch (err) {
           continue;
