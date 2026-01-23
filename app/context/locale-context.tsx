@@ -9,6 +9,7 @@ import { useSearchParams, useRouter } from 'next/navigation';
 type LocaleContextType = {
   locale: string;
   setLocale: (locale: string) => void;
+  isLoading: boolean;
 };
 
 // Provide a safe default so server-side rendering or components rendered
@@ -17,6 +18,7 @@ type LocaleContextType = {
 const defaultLocaleContext: LocaleContextType = {
   locale: DEFAULT_LOCALE,
   setLocale: () => {},
+  isLoading: true,
 };
 
 const LocaleContext = createContext<LocaleContextType>(defaultLocaleContext);
@@ -24,6 +26,7 @@ const LocaleContext = createContext<LocaleContextType>(defaultLocaleContext);
 export function LocaleProvider({ children }: { children: React.ReactNode }) {
   const [locale, setLocale] = useState(DEFAULT_LOCALE);
   const [isClient, setIsClient] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const searchParams = useSearchParams();
   const router = useRouter();
 
@@ -34,14 +37,20 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
     // Helper to load locale, persist it, ensure cookie, and refresh server render.
     async function applyLocale(lang: string | null) {
       if (!lang) return;
+      
+      setIsLoading(true);
+      
       try {
-        await loadLocale(lang).catch(() => {});
+        await loadLocale(lang);
       } catch (e) {
-        // ignore load errors — fallback handled below
+        console.error('[LocaleProvider] Failed to load locale:', e);
       }
 
       // Update React state so client components re-render with the new locale
-      setTimeout(() => setLocale(lang), 0);
+      setTimeout(() => {
+        setLocale(lang);
+        setIsLoading(false);
+      }, 0);
 
       // Persist to storage (localStorage abstraction may throw in some envs)
       try {
@@ -110,7 +119,7 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
   }
 
   return (
-    <LocaleContext.Provider value={{ locale, setLocale }}>
+    <LocaleContext.Provider value={{ locale, setLocale, isLoading }}>
       {children}
     </LocaleContext.Provider>
   );

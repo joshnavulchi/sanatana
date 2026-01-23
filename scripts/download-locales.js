@@ -195,14 +195,50 @@ async function downloadAllLocales() {
       const localeDir = path.join(LOCALES_DIR, locale);
       ensureDir(localeDir);
       
-      // Download and merge all JSON files for this locale
-      const mergedData = await downloadAndMergeLocale(locale);
+      // Get all files in locale directory
+      const files = await getLocaleFiles(locale);
+      const jsonFiles = files.filter(f => f.name.endsWith('.json'));
       
-      if (mergedData) {
-        // Save the merged data as index.json
-        const outputPath = path.join(localeDir, 'index.json');
-        fs.writeFileSync(outputPath, JSON.stringify(mergedData, null, 2), 'utf8');
-        console.log(`  ✓ Saved to ${locale}/index.json`);
+      if (jsonFiles.length === 0) {
+        console.warn(`  No JSON files found for ${locale}`);
+        errorCount++;
+        continue;
+      }
+      
+      console.log(`  Found ${jsonFiles.length} JSON files to download`);
+      
+      // Download all JSON files individually
+      const merged = {};
+      let downloadedCount = 0;
+      
+      for (const file of jsonFiles) {
+        const content = await downloadFile(locale, file.name);
+        if (content) {
+          try {
+            const json = JSON.parse(content);
+            
+            // Save individual file
+            const outputPath = path.join(localeDir, file.name);
+            fs.writeFileSync(outputPath, content, 'utf8');
+            console.log(`  ✓ Downloaded ${file.name}`);
+            
+            // Also merge for index.json
+            deepMerge(merged, json);
+            downloadedCount++;
+          } catch (err) {
+            console.warn(`  ✗ Could not parse ${file.name}:`, err.message);
+            errorCount++;
+          }
+        } else {
+          errorCount++;
+        }
+      }
+      
+      // Save the merged data as index.json
+      if (downloadedCount > 0) {
+        const indexPath = path.join(localeDir, 'index.json');
+        fs.writeFileSync(indexPath, JSON.stringify(merged, null, 2), 'utf8');
+        console.log(`  ✓ Created index.json (merged ${downloadedCount} files)`);
         successCount++;
       } else {
         console.warn(`  ✗ Failed to process ${locale}`);
