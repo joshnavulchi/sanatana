@@ -63,3 +63,5 @@ dist/
 # Ignore backup files
 *.bak
 .recovery_backups/
+# External locales (downloaded from external repository)
+locales-external/

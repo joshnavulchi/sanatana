@@ -30,16 +30,26 @@ export function getLocaleObject(locale = DEFAULT_LOCALE) {
     try {
       // use CommonJS require on the server for a sync load
       let mod: any;
+      // Try loading from external locales repository first
       try {
-        mod = require(`../locales/${locale}`);
+        mod = require(`../locales-external/locales/${locale}`);
       } catch (e) {
         try {
-          mod = require(`../locales/${locale}/index`);
+          mod = require(`../locales-external/locales/${locale}/index`);
         } catch (e2) {
+          // Fallback to local locales
           try {
-            mod = require(`../locales/${locale}.json`);
+            mod = require(`../locales/${locale}`);
           } catch (e3) {
-            throw e3;
+            try {
+              mod = require(`../locales/${locale}/index`);
+            } catch (e4) {
+              try {
+                mod = require(`../locales/${locale}.json`);
+              } catch (e5) {
+                throw e5;
+              }
+            }
           }
         }
       }
@@ -59,13 +69,23 @@ export async function loadLocale(locale: string) {
   try {
     // dynamic import so non-English locale code isn't included in main bundle
     let mod: any;
+    // Try loading from external locales repository first
     try {
-      mod = await import(`../locales/${locale}`);
+      mod = await import(`../locales-external/locales/${locale}`);
     } catch (e) {
       try {
-        mod = await import(`../locales/${locale}/index`);
+        mod = await import(`../locales-external/locales/${locale}/index`);
       } catch (e2) {
-        mod = await import(`../locales/${locale}.json`);
+        // Fallback to local locales
+        try {
+          mod = await import(`../locales/${locale}`);
+        } catch (e3) {
+          try {
+            mod = await import(`../locales/${locale}/index`);
+          } catch (e4) {
+            mod = await import(`../locales/${locale}.json`);
+          }
+        }
       }
     }
     const obj = (mod && (mod.default || mod)) as unknown;
@@ -148,7 +168,14 @@ export function getMeta(metaKey: string, params?: Record<string, string>, locale
       for (const candidateKey of candidates) {
         try {
           // eslint-disable-next-line @typescript-eslint/no-var-requires
-          const mod = require(`../locales/${locale}/${candidateKey}.json`);
+          // Try external locales first
+          let mod: any;
+          try {
+            mod = require(`../locales-external/locales/${locale}/${candidateKey}.json`);
+          } catch (e) {
+            // Fallback to local locales
+            mod = require(`../locales/${locale}/${candidateKey}.json`);
+          }
           const obj = (mod && (mod.default || mod)) as any;
 
           // The file may export either a top-level `meta`, an object keyed by
