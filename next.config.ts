@@ -20,8 +20,6 @@ const nextConfig = {
 
   // Client-side (browser) source maps in production:
   productionBrowserSourceMaps: false,
-  // Enable SWC-based minification for smaller JS bundles in production
-  swcMinify: true,
 
   // SWC minify removed — Next.js may warn about `swcMinify` in newer versions.
   // Experimental CSS optimization (dedupe & minimize CSS across pages).
@@ -86,46 +84,9 @@ const nextConfig = {
       // ignore cache configuration errors
       return config as any;
     }
-  },
-  async headers() {
-    return [
-      // Long cache for static images and assets in `public/` (not fingerprinted)
-      {
-        source: '/images/:path*',
-        headers: [
-          { key: 'Cache-Control', value: 'public, max-age=31536000, stale-while-revalidate=259200' },
-        ],
-      },
-      {
-        source: '/assets/:path*',
-        headers: [
-          { key: 'Cache-Control', value: 'public, max-age=31536000, stale-while-revalidate=259200' },
-        ],
-      },
-      // Long-term immutable caching for fingerprinted assets (images, js, css, fonts)
-      {
-        source: '/(.*)\\.(png|jpg|jpeg|gif|svg|webp|css|js|woff2|woff|ttf)$',
-        headers: [
-          { key: 'Cache-Control', value: 'public, max-age=31536000, immutable, stale-while-revalidate=259200' },
-        ],
-      },
-      // JSON or locale files: moderate caching with revalidation
-      {
-        source: '/locales/:path*',
-        headers: [
-          { key: 'Cache-Control', value: 'public, max-age=86400, stale-while-revalidate=259200' },
-        ],
-      },
-      // HTML/SSR content: allow CDN short caching while keeping origin authoritative
-      {
-        source: '/(.*)',
-        headers: [
-          { key: 'Cache-Control', value: 'public, max-age=0, s-maxage=60, stale-while-revalidate=604800' },
-          { key: 'Vary', value: 'Accept-Encoding' }
-        ],
-      }
-    ];
   }
+  // NOTE: headers() function removed - not compatible with output: 'export'
+  // For static exports, configure caching at your CDN or hosting provider level
 };
 
 export default withBundleAnalyzer(nextConfig as NextConfig);
