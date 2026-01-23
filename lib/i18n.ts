@@ -1,99 +1,116 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import en from "../locales/en";
 export const DEFAULT_LOCALE = "en";
 import storage from "./storage";
+
+// GitHub repository URL for locales
+const GITHUB_LOCALES_BASE = 'https://raw.githubusercontent.com/vulchivijay/first-contributes/main/locales';
+
 // Single source of supported locales used across the app
 export const SUPPORTED_LOCALES = [
   'en',
   'hi',
   'te',
+  'ta',
 ];
-// Add Tamil to supported locales
-SUPPORTED_LOCALES.push('ta');
-// Cache that holds already-loaded locale objects. Keep English bundled
-// so the first render is fast. Other locales are loaded on demand.
-const localesCache: Record<string, unknown> = {
-  en,
-};
+
+// Cache that holds already-loaded locale objects
+const localesCache: Record<string, unknown> = {};
+
 // Backwards-compatible `locales` export for files that import `locales`.
-// Only `en` is eagerly available; other locales should be loaded via `loadLocale`.
-export const locales: Record<string, unknown> = {
-  en: localesCache.en,
-};
+// Locales are loaded on demand from GitHub.
+export const locales: Record<string, unknown> = {};
 export function getLocaleObject(locale = DEFAULT_LOCALE) {
   if (localesCache[locale]) return localesCache[locale];
-  // If running on the server, attempt to synchronously require the locale
-  // so server-side code (e.g. `createGenerateMetadata`) can access locale data
-  // without making the callers async. This avoids bundling non-default
-  // locales into the client main chunk while keeping server usage working.
-  if (typeof window === 'undefined') {
-    try {
-      // use CommonJS require on the server for a sync load
-      let mod: any;
-      // Try loading from external locales repository first
-      try {
-        mod = require(`../locales-external/locales/${locale}`);
-      } catch (e) {
-        try {
-          mod = require(`../locales-external/locales/${locale}/index`);
-        } catch (e2) {
-          // Fallback to local locales
-          try {
-            mod = require(`../locales/${locale}`);
-          } catch (e3) {
-            try {
-              mod = require(`../locales/${locale}/index`);
-            } catch (e4) {
-              try {
-                mod = require(`../locales/${locale}.json`);
-              } catch (e5) {
-                throw e5;
-              }
-            }
-          }
-        }
-      }
-      const obj = (mod && (mod.default || mod)) as unknown;
-      localesCache[locale] = obj;
-      return obj;
-    } catch (err) {
-      return localesCache[DEFAULT_LOCALE];
-    }
-  }
-  return localesCache[DEFAULT_LOCALE];
+  
+  // Return empty object for now - locale must be loaded via loadLocale first
+  // This prevents synchronous blocking calls
+  return localesCache[DEFAULT_LOCALE] || {};
 }
-// Dynamically import a locale file and cache it. Returns the locale object.
+// Dynamically fetch and load a locale file from GitHub and cache it. Returns the locale object.
 export async function loadLocale(locale: string) {
-  if (!locale || locale === DEFAULT_LOCALE) return localesCache[DEFAULT_LOCALE];
-  if (localesCache[locale]) return localesCache[locale];
-  try {
-    // dynamic import so non-English locale code isn't included in main bundle
-    let mod: any;
-    // Try loading from external locales repository first
-    try {
-      mod = await import(`../locales-external/locales/${locale}`);
-    } catch (e) {
-      try {
-        mod = await import(`../locales-external/locales/${locale}/index`);
-      } catch (e2) {
-        // Fallback to local locales
-        try {
-          mod = await import(`../locales/${locale}`);
-        } catch (e3) {
-          try {
-            mod = await import(`../locales/${locale}/index`);
-          } catch (e4) {
-            mod = await import(`../locales/${locale}.json`);
-          }
-        }
-      }
+  if (!locale || locale === DEFAULT_LOCALE) {
+    // Load default locale if not cached
+    if (!localesCache[DEFAULT_LOCALE]) {
+      const obj = await fetchLocaleData(DEFAULT_LOCALE);
+      localesCache[DEFAULT_LOCALE] = obj;
+      return obj;
     }
-    const obj = (mod && (mod.default || mod)) as unknown;
-    localesCache[locale] = obj;
-    return obj;
+    return localesCache[DEFAULT_LOCALE] || {};
+  }
+  
+  if (localesCache[locale]) return localesCache[locale];
+  
+  const obj = await fetchLocaleData(locale);
+  localesCache[locale] = obj;
+  return obj;
+}
+
+// Fetch locale data with fallback strategy: local -> GitHub -> default
+async function fetchLocaleData(locale: string) {
+  // Strategy 1: Try local files first (for production builds)
+  try {
+    const response = await fetch(`/locales/${locale}/index.json`);
+    if (response.ok) {
+      const obj = await response.json();
+      return obj;
+    }
   } catch (err) {
-    // on error, fall back to default
+    // Continue to next strategy
+  }
+  
+  // Strategy 2: Try GitHub repository
+  try {
+    const response = await fetch(`${GITHUB_LOCALES_BASE}/${locale}/index.ts`);
+    if (response.ok) {
+      const text = await response.text();
+      const obj = parseTypeScriptExport(text);
+      return obj;
+    }
+  } catch (err) {
+    // Continue to next strategy
+  }
+  
+  // Strategy 3: Try GitHub JSON format
+  try {
+    const response = await fetch(`${GITHUB_LOCALES_BASE}/${locale}.json`);
+    if (response.ok) {
+      const obj = await response.json();
+      return obj;
+    }
+  } catch (err) {
+    console.error(`Failed to load locale ${locale}:`, err);
+  }
+  
+  // Fallback: return default locale or empty object
+  if (locale !== DEFAULT_LOCALE && localesCache[DEFAULT_LOCALE]) {
     return localesCache[DEFAULT_LOCALE];
+  }
+  
+  return {};
+}
+
+// Helper function to parse TypeScript export
+function parseTypeScriptExport(text: string): any {
+  try {
+    // Remove TypeScript type annotations and comments
+    let cleaned = text
+      .replace(/\/\*[\s\S]*?\*\//g, '') // Remove multi-line comments
+      .replace(/\/\/.*/g, '') // Remove single-line comments
+      .replace(/export\s+default\s+/, '') // Remove export default
+      .replace(/as\s+const/g, '') // Remove 'as const'
+      .replace(/:\s*\w+(\[\])?/g, ''); // Remove type annotations
+    
+    // Extract the object between { and }
+    const match = cleaned.match(/\{[\s\S]*\}/);
+    if (match) {
+      // Evaluate the object (be cautious with this in production)
+      return eval(`(${match[0]})`);
+    }
+    
+    return {};
+  } catch (err) {
+    console.error('Failed to parse TypeScript export:', err);
+    return {};
   }
 }
 export function t(key: string, locale = DEFAULT_LOCALE): any {
@@ -152,63 +169,11 @@ export function getMeta(metaKey: string, params?: Record<string, string>, locale
     const metaKeys = ['title', 'description', 'keywords', 'ogImage', 'url', 'canonical'];
     return keys.some(k => metaKeys.includes(k));
   };
-  // Prefer loading per-page meta files from `locales/<locale>/<metaKey>.json` on the server.
+  // Prefer loading per-page meta files from GitHub on the server.
   if (typeof window === 'undefined') {
-    try {
-      // Try several filename variants for the page file so server-side callers
-      // can synchronously load the appropriate per-page locale file. Many
-      // meta keys use snake_case (e.g. `privacy_policy`) while files may be
-      // named `privacy-policy.json` or `privacypolicy.json` — try all three.
-      const candidates = [
-        metaKey,
-        metaKey.replace(/_/g, "-"),
-        metaKey.replace(/_/g, ""),
-      ];
-
-      for (const candidateKey of candidates) {
-        try {
-          // eslint-disable-next-line @typescript-eslint/no-var-requires
-          // Try external locales first
-          let mod: any;
-          try {
-            mod = require(`../locales-external/locales/${locale}/${candidateKey}.json`);
-          } catch (e) {
-            // Fallback to local locales
-            mod = require(`../locales/${locale}/${candidateKey}.json`);
-          }
-          const obj = (mod && (mod.default || mod)) as any;
-
-          // The file may export either a top-level `meta`, an object keyed by
-          // the page (e.g. { "home": { meta: {...} } }) or the meta object
-          // itself. Prefer `pageObj.meta`, then `obj.meta`, then the pageObj.
-          let pageObj = obj?.[metaKey] ?? obj?.[candidateKey] ?? obj;
-
-          // If the file exports an object keyed by a page name (e.g. { "donatePage": { meta: {...} } })
-          // try to find a nested key that likely corresponds to the requested metaKey.
-          if (pageObj === obj && obj && typeof obj === 'object') {
-            const norm = metaKey.replace(/_/g, '').toLowerCase();
-            for (const k of Object.keys(obj)) {
-              const kn = k.replace(/[_\- ]/g, '').toLowerCase();
-              if (kn === norm || kn.includes(norm) || norm.includes(kn)) {
-                pageObj = (obj as any)[k];
-                break;
-              }
-            }
-          }
-
-          const candidate = pageObj?.meta ?? obj?.meta ?? null;
-
-          if (candidate && looksLikeMeta(candidate)) {
-            return interpolateObject(candidate, params) as Record<string, unknown>;
-          }
-        } catch (err) {
-          // try next candidate filename
-          continue;
-        }
-      }
-    } catch (e) {
-      // ignore and fall back to merged locale data below
-    }
+    // For server-side, we can't use fetch synchronously
+    // Return empty object and let client-side load it
+    return interpolateObject({}, params) as Record<string, unknown>;
   }
 
   // Do NOT fallback to the merged `meta.json` file.

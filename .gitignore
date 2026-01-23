@@ -65,3 +65,5 @@ dist/
 .recovery_backups/
 # External locales (downloaded from external repository)
 locales-external/
+# Downloaded locales (regenerated during build)
+public/locales/
