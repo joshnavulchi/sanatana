@@ -1,13 +1,13 @@
 {
   "contactform": {
-    "name": "Name",
-    "email": "Email",
-    "message": "Message",
-    "placeholdername": "Your name",
+    "name": "नाम",
+    "email": "ईमेल",
+    "message": "संदेश",
+    "placeholdername": "आपका नाम",
     "placeholderemail": "you@example.com",
-    "placeholdermessage": "Tell us how we can help...",
-    "sending": "Sending...",
-    "sendmessage": "Send Message",
-    "visitor": "Visitor"
+    "placeholdermessage": "बताइए हम आपकी कैसे सहायता कर सकते हैं...",
+    "sending": "भेजा जा रहा है...",
+    "sendmessage": "संदेश भेजें",
+    "visitor": "आगंतुक"
   }
 }

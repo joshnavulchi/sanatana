@@ -1,29 +1,29 @@
 {
   "donate": {
     "meta": {
-      "title": "Donate | Overview — Sanātana Dharma - Explore Sanatan Dharma",
-      "description": "Donate — Support Sanātana Dharma — Articles, translations and concise commentary on Donate. Explore practices, history, and guiding principles at...",
+      "title": "दान करें | अवलोकन — सनातन धर्म - सनातन धर्म का अन्वेषण करें",
+      "description": "दान करें — सनातन धर्म का समर्थन करें — दान से जुड़े लेख, अनुवाद और संक्षिप्त विवेचन। Sanatanadharmam.in पर अभ्यास, इतिहास और मार्गदर्शक सिद्धांतों का अध्ययन करें।",
       "keywords": [
-        "What is donate?",
-        "Why donate?",
-        "How to learn donate?",
-        "donate explained",
-        "What is donate support sanātana?",
-        "Why donate support sanātana?",
-        "How to learn donate support sanātana?",
-        "donate support sanātana explained",
-        "What is sanātana dharma articles?",
-        "Why sanātana dharma articles?",
-        "How to learn sanātana dharma articles?",
-        "sanātana dharma articles explained",
-        "What is dharma articles translations?",
-        "Why dharma articles translations?",
-        "How to learn dharma articles translations?",
-        "dharma articles translations explained",
-        "What is articles translations and?",
-        "Why articles translations and?",
-        "How to learn articles translations and?",
-        "articles translations and explained"
+        "दान क्या है?",
+        "दान क्यों करें?",
+        "दान कैसे करें?",
+        "दान समझाया गया",
+        "सनातन समर्थन हेतु दान क्या है?",
+        "सनातन समर्थन हेतु दान क्यों?",
+        "सनातन समर्थन हेतु दान कैसे करें?",
+        "सनातन समर्थन हेतु दान समझाया गया",
+        "सनातन धर्म लेख क्या हैं?",
+        "सनातन धर्म लेख क्यों?",
+        "सनातन धर्म लेख कैसे प्राप्त करें?",
+        "सनातन धर्म लेख समझाया गया",
+        "धर्म लेख और अनुवाद क्या हैं?",
+        "धर्म लेख और अनुवाद क्यों?",
+        "धर्म लेख और अनुवाद कैसे सीखें?",
+        "धर्म लेख और अनुवाद समझाया गया",
+        "लेख और अनुवाद क्या हैं?",
+        "लेख और अनुवाद क्यों?",
+        "लेख और अनुवाद कैसे सीखें?",
+        "लेख और अनुवाद समझाया गया"
       ],
       "ogimage": "/og/donate.png",
       "url": "https://sanatanadharmam.in/donate",
@@ -33,64 +33,64 @@
       "@context": "https://schema.org",
       "mainEntity": {
         "@type": "Organization",
-        "name": "Donate Us",
+        "name": "दान करें",
         "url": "https://sanatanadharmam.in",
         "logo": "https://sanatanadharmam.in/og/donate.png",
         "contactPoint": {
           "@type": "ContactPoint",
           "telephone": "+91-8099181075",
-          "contactType": "Customer Support",
+          "contactType": "ग्राहक सहायता",
           "email": "info@sanatanadharmam.in",
-          "areaServed": "Worldwide",
+          "areaServed": "विश्वव्यापी",
           "availableLanguage": [
-            "English",
-            "Telugu",
-            "Hindi"
+            "अंग्रेज़ी",
+            "तेलुगु",
+            "हिंदी"
           ]
         }
       }
     },
-    "title": "Support Sanātana Dharma",
-    "subtitle": "Your donation sustains free access to ancient wisdom, scriptures, translations, and philosophical knowledge for seekers worldwide.",
+    "title": "सनातन धर्म का समर्थन करें",
+    "subtitle": "आपका दान प्राचीन ज्ञान, शास्त्रों, अनुवादों और दार्शनिक शिक्षाओं को विश्वभर के साधकों के लिए निःशुल्क उपलब्ध बनाए रखने में सहायक है।",
     "purpose": {
-      "heading": "Why Your Support Matters",
+      "heading": "आपका सहयोग क्यों महत्वपूर्ण है",
       "points": [
-        "Preserves free access to Sanātana Dharma knowledge",
-        "Supports website hosting, domain, and maintenance",
-        "Enables creation of high-quality spiritual content",
-        "Keeps the platform independent and non-commercial"
+        "सनातन धर्म के ज्ञान तक निःशुल्क पहुँच को सुरक्षित रखता है",
+        "वेबसाइट होस्टिंग, डोमेन और रखरखाव के खर्चों में सहायता करता है",
+        "गुणवत्तापूर्ण आध्यात्मिक सामग्री के निर्माण को संभव बनाता है",
+        "मंच को स्वतंत्र और गैर‑व्यावसायिक बनाए रखता है"
       ]
     },
     "expenses": {
-      "heading": "Transparency: Current Expenses",
+      "heading": "पारदर्शिता: वर्तमान खर्च",
       "table": [
         {
-          "name": "Domain & Hosting",
+          "name": "डोमेन और होस्टिंग",
           "cost": "₹3,500",
-          "cycle": "3 Years",
+          "cycle": "3 वर्ष",
           "provider": "Hostinger"
         },
         {
           "name": "GitHub Pages",
-          "cost": "Free",
-          "cycle": "Unlimited",
+          "cost": "निःशुल्क",
+          "cycle": "असीमित",
           "provider": "GitHub"
         },
         {
-          "name": "AI Tools (Research)",
-          "cost": "Free Plans",
-          "cycle": "Ongoing",
+          "name": "एआई उपकरण (अनुसंधान)",
+          "cost": "निःशुल्क योजनाएँ",
+          "cycle": "लगातार",
           "provider": "Google / Microsoft / Meta"
         }
       ]
     },
     "donateOptions": {
       "oneTime": {
-        "heading": "One-Time Donation",
-        "note": "Make a secure one-time donation via UPI or international payment methods."
+        "heading": "एक‑मुश्त दान",
+        "note": "UPI या अंतरराष्ट्रीय भुगतान विधियों के माध्यम से सुरक्षित एक‑मुश्त दान करें।"
       },
       "bank": {
-        "heading": "UPI / Bank Transfer",
+        "heading": "UPI / बैंक ट्रांसफ़र",
         "upi": "809918075@ybl",
         "accountName": "V Vijaya Kumar",
         "accountNumber": "32160808608",
@@ -98,19 +98,19 @@
       }
     },
     "faq": {
-      "heading": "Frequently Asked Questions",
+      "heading": "अक्सर पूछे जाने वाले प्रश्न",
       "items": [
         {
-          "q": "Is my donation secure?",
-          "a": "Yes. Donations are processed via trusted payment providers and direct bank transfers."
+          "q": "क्या मेरा दान सुरक्षित है?",
+          "a": "हाँ। दान विश्वसनीय भुगतान माध्यमों और प्रत्यक्ष बैंक ट्रांसफ़र द्वारा सुरक्षित रूप से स्वीकार किए जाते हैं।"
         },
         {
-          "q": "How will my donation be used?",
-          "a": "Your contribution supports hosting, maintenance, and creation of educational spiritual content."
+          "q": "मेरे दान का उपयोग कैसे किया जाएगा?",
+          "a": "आपका योगदान वेबसाइट होस्टिंग, रखरखाव और शैक्षिक आध्यात्मिक सामग्री के निर्माण में उपयोग किया जाता है।"
         },
         {
-          "q": "Is this a commercial organization?",
-          "a": "No. Sanātana Dharma is a non-commercial, knowledge-focused initiative."
+          "q": "क्या यह एक व्यावसायिक संगठन है?",
+          "a": "नहीं। सनातन धर्म एक गैर‑व्यावसायिक, ज्ञान‑केन्द्रित पहल है।"
         }
       ]
     }

@@ -1,13 +1,13 @@
 {
   "contactform": {
-    "name": "Name",
-    "email": "Email",
-    "message": "Message",
-    "placeholdername": "Your name",
+    "name": "பெயர்",
+    "email": "மின்னஞ்சல்",
+    "message": "செய்தி",
+    "placeholdername": "உங்கள் பெயர்",
     "placeholderemail": "you@example.com",
-    "placeholdermessage": "Tell us how we can help...",
-    "sending": "Sending...",
-    "sendmessage": "Send Message",
-    "visitor": "Visitor"
+    "placeholdermessage": "எவ்வாறு உதவ வேண்டும் என்பதை கூறுங்கள்...",
+    "sending": "அனுப்பப்படுகிறது...",
+    "sendmessage": "செய்தியை அனுப்புங்கள்",
+    "visitor": "வருகையாளர்"
   }
 }
