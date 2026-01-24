@@ -67,12 +67,11 @@
     "tailwindcss": "^4.1.18",
     "topojson-client": "^3.1.0",
     "ts-jest": "^29.4.6",
-    "typescript": "^5"
+    "typescript": "5.9.3"
   },
   "overrides": {
     "nanoid": "3.3.8"
-  }
-  ,
+  },
   "browserslist": [
     "last 2 Chrome versions",
     "last 2 Firefox versions",

@@ -14,6 +14,8 @@ const GITHUB_BRANCH = 'main';
 const LOCALES_DIR = path.join(__dirname, '../public/locales');
 const METADATA_FILE = path.join(LOCALES_DIR, '.locale-metadata.json');
 
+const crypto = require('crypto');
+
 /**
  * Load local metadata about downloaded locales
  */
@@ -67,6 +69,44 @@ function fetchUrl(url) {
       reject(err);
     });
   });
+}
+
+/**
+ * Compute SHA1 for a string
+ */
+function sha1(str) {
+  return crypto.createHash('sha1').update(str, 'utf8').digest('hex');
+}
+
+/**
+ * Build a local manifest by hashing local JSON files. Used to detect content changes
+ */
+function computeLocalManifest() {
+  const out = { locales: {} };
+  try {
+    if (!fs.existsSync(LOCALES_DIR)) return out;
+    const locales = fs.readdirSync(LOCALES_DIR).filter((d) => {
+      try { return fs.statSync(path.join(LOCALES_DIR, d)).isDirectory(); } catch (e) { return false; }
+    });
+
+    for (const locale of locales) {
+      const localeDir = path.join(LOCALES_DIR, locale);
+      const files = fs.readdirSync(localeDir).filter((f) => f.endsWith('.json'));
+      const filesMap = {};
+      for (const fname of files) {
+        try {
+          const content = fs.readFileSync(path.join(localeDir, fname), 'utf8');
+          filesMap[fname] = { sha: sha1(content), size: Buffer.byteLength(content, 'utf8') };
+        } catch (e) {
+          // ignore unreadable files
+        }
+      }
+      out.locales[locale] = { fileCount: Object.keys(filesMap).length, files: filesMap };
+    }
+  } catch (e) {
+    // ignore
+  }
+  return out;
 }
 
 /**
@@ -234,13 +274,45 @@ async function downloadAllLocales(forceDownload = false) {
     // Load existing metadata
     const metadata = loadMetadata();
     
-    // Create locales directory if it doesn't exist
+    // Ensure output dir exists
     ensureDir(LOCALES_DIR);
-    
-    // Get list of locales
-    console.log('Fetching locales list...');
-    const locales = await getLocalesList();
-    console.log(`Found ${locales.length} locales: ${locales.join(', ')}\n`);
+
+    // Compute local manifest (sha1 of files) to detect content changes
+    const localManifest = computeLocalManifest();
+
+    // If we have recent metadata and not forcing a download, skip network
+    // to avoid repeated downloads during active development. This means
+    // locales are refreshed at most once per hour unless --force is used.
+    try {
+      const MAX_AGE_MS = 1000 * 60 * 60; // 1 hour
+      if (!forceDownload && metadata && metadata.lastUpdate) {
+        const last = new Date(metadata.lastUpdate).getTime();
+        if (Date.now() - last < MAX_AGE_MS) {
+          console.log('Local locale metadata is recent; skipping remote fetch.');
+          return;
+        }
+      }
+    } catch (e) {
+      // ignore errors and continue
+    }
+
+    // If localManifest shows locales present and not forcing download, we'll try
+    // to compare with remote metadata and only download changed files. If the
+    // remote API is unavailable (rate limit), we fall back to using local files.
+    let locales = [];
+    try {
+      console.log('Fetching locales list...');
+      locales = await getLocalesList();
+      console.log(`Found ${locales.length} locales: ${locales.join(', ')}\n`);
+    } catch (err) {
+      console.warn('Could not fetch remote locales list:', err.message);
+      // If local manifest has content, skip network download and continue
+      if (!forceDownload && Object.keys(localManifest.locales || {}).length > 0) {
+        console.log('Using existing locales from public/locales (remote unavailable).');
+        return;
+      }
+      throw err;
+    }
     
     let successCount = 0;
     let errorCount = 0;
@@ -257,60 +329,93 @@ async function downloadAllLocales(forceDownload = false) {
       console.log(`Processing ${locale}...`);
       const localeDir = path.join(LOCALES_DIR, locale);
       
-      // Get remote files
-      const files = await getLocaleFiles(locale);
+      // Get remote files metadata (name + sha) to decide what to download
+      let files = [];
+      try {
+        files = await getLocaleFiles(locale);
+      } catch (err) {
+        console.warn(`  Warning: Could not fetch files for ${locale}:`, err.message);
+        errorCount++;
+        continue;
+      }
       const jsonFiles = files.filter(f => f.name.endsWith('.json'));
-      
+
       if (jsonFiles.length === 0) {
         console.warn(`  No JSON files found for ${locale}`);
         errorCount++;
         continue;
       }
-      
-      // Check if update needed
-      const updateCheck = needsUpdate(locale, jsonFiles, metadata);
-      
-      if (!forceDownload && !updateCheck.needsUpdate) {
+
+      // Build local files map for this locale.
+      // Prefer previously saved metadata (which stores GitHub blob SHAs).
+      // Fall back to a content-based local manifest if metadata is not available.
+      const localFiles = (metadata.locales && metadata.locales[locale] && metadata.locales[locale].files) || (localManifest.locales && localManifest.locales[locale] && localManifest.locales[locale].files) || {};
+
+      // Determine which files changed by comparing remote SHA (from GitHub) to local sha
+      const toDownload = [];
+      for (const file of jsonFiles) {
+        const remoteSha = file.sha || '';
+        const localEntry = localFiles[file.name];
+        if (!localEntry || !localEntry.sha || localEntry.sha !== remoteSha) {
+          toDownload.push(file);
+        }
+      }
+
+      if (!forceDownload && toDownload.length === 0) {
         console.log(`  ✓ Up to date - skipping (${jsonFiles.length} files)`);
-        // Copy old metadata
-        newMetadata.locales[locale] = metadata.locales[locale];
+        // Preserve existing metadata if present, otherwise synthesize from localManifest
+        newMetadata.locales[locale] = metadata.locales[locale] || localManifest.locales[locale] || { fileCount: jsonFiles.length, files: {} };
         skippedCount++;
         console.log('');
         continue;
       }
-      
-      if (updateCheck.needsUpdate) {
-        console.log(`  Update needed: ${updateCheck.reason}`);
+
+      if (toDownload.length > 0) {
+        console.log(`  Update needed: ${toDownload.length} changed files`);
         updatedCount++;
       }
-      
+
       ensureDir(localeDir);
-      
-      console.log(`  Found ${jsonFiles.length} JSON files to download`);
-      
-      // Download all JSON files individually
+
+      console.log(`  Found ${jsonFiles.length} JSON files (${toDownload.length} to download)`);
+
+      // Download changed JSON files individually
       const merged = {};
       let downloadedCount = 0;
       const fileMetadata = {};
-      
+
       for (const file of jsonFiles) {
+        // If file not in toDownload, reuse local content
+        if (!toDownload.find(f => f.name === file.name)) {
+          try {
+            const existingContent = fs.readFileSync(path.join(localeDir, file.name), 'utf8');
+            const json = JSON.parse(existingContent);
+            deepMerge(merged, json);
+            fileMetadata[file.name] = { sha: localFiles[file.name]?.sha || '', size: localFiles[file.name]?.size || Buffer.byteLength(existingContent, 'utf8'), downloadedAt: localFiles[file.name]?.downloadedAt || new Date().toISOString() };
+            downloadedCount++;
+            continue;
+          } catch (e) {
+            // fallback to downloading if reading fails
+          }
+        }
+
         const content = await downloadFile(locale, file.name);
         if (content) {
           try {
             const json = JSON.parse(content);
-            
+
             // Save individual file
             const outputPath = path.join(localeDir, file.name);
             fs.writeFileSync(outputPath, content, 'utf8');
             console.log(`  ✓ Downloaded ${file.name}`);
-            
+
             // Store file metadata
             fileMetadata[file.name] = {
               sha: file.sha,
               size: file.size,
               downloadedAt: new Date().toISOString()
             };
-            
+
             // Also merge for index.json
             deepMerge(merged, json);
             downloadedCount++;
@@ -364,6 +469,24 @@ async function downloadAllLocales(forceDownload = false) {
     
   } catch (err) {
     console.error('\n✗ Download failed:', err.message);
+    // If local locales are present, treat failure as non-fatal and continue.
+    try {
+      if (fs.existsSync(LOCALES_DIR)) {
+        const existing = fs.readdirSync(LOCALES_DIR).filter((f) => {
+          try {
+            return fs.statSync(path.join(LOCALES_DIR, f)).isDirectory();
+          } catch (e) {
+            return false;
+          }
+        });
+        if (existing.length > 0) {
+          console.log('Using existing locales from public/locales despite download failure.');
+          return;
+        }
+      }
+    } catch (e) {
+      // ignore
+    }
     process.exit(1);
   }
 }

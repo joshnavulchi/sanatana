@@ -5,7 +5,8 @@ import { useEffect, useRef, useState, useMemo } from 'react';
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 import { useLanguagePersistence } from '../../hooks/useLanguagePersistence';
 
-import { t, DEFAULT_LOCALE, loadLocale } from '../../../lib/i18n';
+import { DEFAULT_LOCALE, loadLocale } from '../../../lib/i18n';
+import { useT } from '../../hooks/useT';
 import { useLocale } from '../../context/locale-context';
 // Use plain <img> for small globe icon to avoid next/image intermittent issues
 import localesList from '../../../lib/localesList.json';
@@ -14,6 +15,7 @@ import localeMeta from '../../../lib/localeMeta.json';
 import styles from './langdropdown.module.scss';
 
 export default function languagedropdown() {
+  const t = useT();
   const [open, setOpen] = useState(false);
   const [currentLang, setCurrentLang] = useState(DEFAULT_LOCALE);
   const [isClient, setIsClient] = useState(false);
