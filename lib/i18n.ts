@@ -58,7 +58,7 @@ export function getLocaleObject(locale = DEFAULT_LOCALE) {
         const content = fs.readFileSync(filePath, 'utf8');
         const obj = JSON.parse(content);
         localesCache[locale] = obj;
-        console.log(`[i18n] Server: Loaded locale ${locale} synchronously (${Object.keys(obj).length} keys)`);
+        // console.log(`[i18n] Server: Loaded locale ${locale} synchronously (${Object.keys(obj).length} keys)`);
         return obj;
       }
     } catch (err) {
@@ -106,27 +106,27 @@ async function fetchLocaleData(locale: string) {
   // Try local files (works for both dev and production)
   try {
     const url = `/locales/${locale}/index.json`;
-    console.log(`[i18n] Fetching locale ${locale} from ${url}`);
+    // console.log(`[i18n] Fetching locale ${locale} from ${url}`);
     const response = await fetch(url);
     
     if (response.ok) {
       const obj = await response.json();
-      console.log(`[i18n] ✓ Loaded locale ${locale} (${Object.keys(obj).length} keys)`);
+      // console.log(`[i18n] ✓ Loaded locale ${locale} (${Object.keys(obj).length} keys)`);
       return obj;
     } else {
-      console.warn(`[i18n] Failed to load ${url}: ${response.status} ${response.statusText}`);
+      // console.warn(`[i18n] Failed to load ${url}: ${response.status} ${response.statusText}`);
     }
   } catch (err) {
-    console.error(`[i18n] Error loading locale ${locale}:`, err);
+    // console.error(`[i18n] Error loading locale ${locale}:`, err);
   }
   
   // Fallback: return default locale or empty object
   if (locale !== DEFAULT_LOCALE && localesCache[DEFAULT_LOCALE]) {
-    console.warn(`[i18n] Falling back to default locale for ${locale}`);
+    // console.warn(`[i18n] Falling back to default locale for ${locale}`);
     return localesCache[DEFAULT_LOCALE];
   }
   
-  console.error(`[i18n] Failed to load locale ${locale}, returning empty object`);
+  // console.error(`[i18n] Failed to load locale ${locale}, returning empty object`);
   return {};
 }
 
