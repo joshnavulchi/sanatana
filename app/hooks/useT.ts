@@ -19,7 +19,30 @@ export function useT() {
     }
   }, [locale, isLoading]);
 
+  // Heuristic to determine if a translation key likely represents a list/array
+  const isLikelyListKey = (k: string) => {
+    const last = k.split('.').pop() || '';
+    const listIndicators = ['list', 'items', 'sections', 'structure', 'chapters', 'yugas', 'nav', 'pages'];
+    if (listIndicators.some(ind => last.toLowerCase().includes(ind))) return true;
+    // simple plural heuristic
+    if (last.endsWith('s') && last.length > 2) return true;
+    return false;
+  };
+
+  const humanizeKey = (k: string) => {
+    const last = k.split('.').pop() || k;
+    return last.replace(/[_-]/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  };
+
   return (key: string) => {
+    // If locale isn't loaded yet, return a safe fallback.
+    if (isLoading) {
+      // For keys that look like lists, return undefined so `parseList` -> []
+      if (isLikelyListKey(key)) return undefined as any;
+      // For scalar keys, return a humanized fallback so UI shows readable text
+      return humanizeKey(key) as any;
+    }
+
     return serverT(key, locale);
   };
 }

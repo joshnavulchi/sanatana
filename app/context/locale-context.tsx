@@ -2,7 +2,7 @@
 "use client";
 
 import { createContext, useContext, useEffect, useState } from 'react';
-import { DEFAULT_LOCALE, SUPPORTED_LOCALES, loadLocale } from '../../lib/i18n';
+import { DEFAULT_LOCALE, SUPPORTED_LOCALES, loadLocale, getLocaleObject } from '../../lib/i18n';
 import storage from '../../lib/storage';
 import { useSearchParams, useRouter } from 'next/navigation';
 
@@ -26,7 +26,18 @@ const LocaleContext = createContext<LocaleContextType>(defaultLocaleContext);
 export function LocaleProvider({ children }: { children: React.ReactNode }) {
   const [locale, setLocale] = useState(DEFAULT_LOCALE);
   const [isClient, setIsClient] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
+  // If the server injected the default locale into the page (via
+  // window.__LOCALE_CACHE__), we can consider the initial load complete
+  // and avoid showing the loader overlay on first client render.
+  const initialLoaded = (() => {
+    try {
+      const obj = getLocaleObject(DEFAULT_LOCALE) as any;
+      return obj && typeof obj === 'object' && Object.keys(obj).length > 0;
+    } catch (e) {
+      return false;
+    }
+  })();
+  const [isLoading, setIsLoading] = useState(!initialLoaded);
   const searchParams = useSearchParams();
   const router = useRouter();
 

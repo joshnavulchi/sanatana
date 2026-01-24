@@ -4,14 +4,42 @@ import storage from "./storage";
 
 // Single source of supported locales used across the app
 export const SUPPORTED_LOCALES = [
+  'ar',
+  'de',
   'en',
+  'es',
+  'fr',
   'hi',
+  'ja',
+  'ne',
+  'nl',
+  'pt',
+  'ru',
   'te',
-  'ta',
+  'ur',
+  'zh-CN',
 ];
 
 // Cache that holds already-loaded locale objects
 const localesCache: Record<string, unknown> = {};
+
+// Track missing-key warnings we've already emitted to avoid noisy repeated logs
+const warnedMissingKeys = new Set<string>();
+
+// Hydrate client-side cache from server-injected global if present.
+if (typeof window !== 'undefined') {
+  try {
+    // global injected by `app/layout.tsx` as `window.__LOCALE_CACHE__`
+    const globalCache = (globalThis as any).__LOCALE_CACHE__;
+    if (globalCache && typeof globalCache === 'object') {
+      for (const k of Object.keys(globalCache)) {
+        if (!localesCache[k]) localesCache[k] = globalCache[k];
+      }
+    }
+  } catch (e) {
+    // ignore
+  }
+}
 
 // Backwards-compatible `locales` export for files that import `locales`.
 // Locales are loaded on demand from GitHub.
@@ -30,7 +58,7 @@ export function getLocaleObject(locale = DEFAULT_LOCALE) {
         const content = fs.readFileSync(filePath, 'utf8');
         const obj = JSON.parse(content);
         localesCache[locale] = obj;
-        console.log(`[i18n] Server: Loaded locale ${locale} synchronously (${Object.keys(obj).length} keys)`);
+        // console.log(`[i18n] Server: Loaded locale ${locale} synchronously (${Object.keys(obj).length} keys)`);
         return obj;
       }
     } catch (err) {
@@ -39,6 +67,19 @@ export function getLocaleObject(locale = DEFAULT_LOCALE) {
   }
   
   // Return default locale or empty object
+  // If client has a global-injected cache, attempt one more time
+  if (typeof window !== 'undefined') {
+    try {
+      const globalCache = (globalThis as any).__LOCALE_CACHE__;
+      if (globalCache && globalCache[locale]) {
+        localesCache[locale] = globalCache[locale];
+        return localesCache[locale];
+      }
+    } catch (e) {
+      // ignore
+    }
+  }
+
   return localesCache[DEFAULT_LOCALE] || {};
 }
 // Dynamically fetch and load a locale file from GitHub and cache it. Returns the locale object.
@@ -65,42 +106,70 @@ async function fetchLocaleData(locale: string) {
   // Try local files (works for both dev and production)
   try {
     const url = `/locales/${locale}/index.json`;
-    console.log(`[i18n] Fetching locale ${locale} from ${url}`);
+    // console.log(`[i18n] Fetching locale ${locale} from ${url}`);
     const response = await fetch(url);
     
     if (response.ok) {
       const obj = await response.json();
-      console.log(`[i18n] ✓ Loaded locale ${locale} (${Object.keys(obj).length} keys)`);
+      // console.log(`[i18n] ✓ Loaded locale ${locale} (${Object.keys(obj).length} keys)`);
       return obj;
     } else {
-      console.warn(`[i18n] Failed to load ${url}: ${response.status} ${response.statusText}`);
+      // console.warn(`[i18n] Failed to load ${url}: ${response.status} ${response.statusText}`);
     }
   } catch (err) {
-    console.error(`[i18n] Error loading locale ${locale}:`, err);
+    // console.error(`[i18n] Error loading locale ${locale}:`, err);
   }
   
   // Fallback: return default locale or empty object
   if (locale !== DEFAULT_LOCALE && localesCache[DEFAULT_LOCALE]) {
-    console.warn(`[i18n] Falling back to default locale for ${locale}`);
+    // console.warn(`[i18n] Falling back to default locale for ${locale}`);
     return localesCache[DEFAULT_LOCALE];
   }
   
-  console.error(`[i18n] Failed to load locale ${locale}, returning empty object`);
+  // console.error(`[i18n] Failed to load locale ${locale}, returning empty object`);
   return {};
 }
 
 export function t(key: string, locale = DEFAULT_LOCALE): any {
   const keys = key.split(".");
   let cur: unknown = getLocaleObject(locale);
-  
+
+  // If locale object is empty, avoid noisy warnings on the client while
+  // the locale is being loaded asynchronously. Keep server-side warnings
+  // so developers are notified during SSR where synchronous loading is
+  // expected to work.
   if (!cur || (typeof cur === 'object' && Object.keys(cur as object).length === 0)) {
-    console.warn(`[i18n] t("${key}", "${locale}"): Locale not loaded, returning key`);
+    if (typeof window === 'undefined') {
+      console.warn(`[i18n] t("${key}", "${locale}"): Locale not loaded, returning key`);
+    }
     return key;
   }
   
   for (const k of keys) {
     if (!cur) {
-      console.warn(`[i18n] t("${key}", "${locale}"): Key not found at "${k}", returning original key`);
+      // Attempt fallback to default locale before warning
+      if (locale !== DEFAULT_LOCALE) {
+        try {
+          const def = getLocaleObject(DEFAULT_LOCALE) as any;
+          let curDef: unknown = def;
+          for (const kk of keys) {
+            if (!curDef) break;
+            // @ts-ignore
+            curDef = (curDef as any)[kk];
+          }
+          if (curDef) return curDef;
+        } catch (e) {
+          // ignore fallback errors and continue to warn
+        }
+      }
+
+      const warnKey = `${locale}::${key}`;
+      if (typeof window === 'undefined') {
+        if (!warnedMissingKeys.has(warnKey)) {
+          warnedMissingKeys.add(warnKey);
+          console.warn(`[i18n] t("${key}", "${locale}"): Key not found at "${k}", returning original key`);
+        }
+      }
       return key;
     }
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
