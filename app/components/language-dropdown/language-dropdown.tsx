@@ -184,7 +184,7 @@ export default function languagedropdown() {
       {open && (
         <div className="fixed inset-0 z-50 flex items-center justify-center" role="dialog" aria-modal="true">
           <div className="absolute inset-0 bg-black/40" onClick={() => setOpen(false)} />
-          <div ref={dropdownRef} className={`${styles.multilang} rounded-md w-11/12 max-w-md md:w-auto md:max-w-7xl shadow-lg border`}>
+          <div ref={dropdownRef} className={`${styles.multilang} rounded-md w-11/12 max-w-md md:w-auto md:max-w-xl shadow-lg border`}>
               <div role="closeButton" className="flex items-center justify-between">
               <div className="font-semibold">{t('languagedropdown.title') || 'Choose language'}</div>
               <button role="button" aria-label="Close" onClick={() => setOpen(false)} className="cursor-pointer">✕</button>
@@ -231,7 +231,7 @@ export default function languagedropdown() {
                       try { loadLocale(lang.code); } catch (e) { /* ignore */ }
                     }}
                     onClick={() => handleLanguageChange(lang.code)}
-                    className={`w-full md:w-2/4 flex items-center justify-between text-left transition-colors ${currentLang === lang.code ? "" : ""} ${highlighted === idx ? 'border ' : 'border '}`}
+                    className={`w-full md:w-1/2 flex items-center justify-between text-left transition-colors ${currentLang === lang.code ? "" : ""} ${highlighted === idx ? 'border ' : 'border '}`}
                   >
                     <div className={`${styles.langbox} flex items-center`}>
                       <div aria-hidden>{flag}</div>
