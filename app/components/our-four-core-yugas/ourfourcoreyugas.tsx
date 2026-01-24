@@ -4,12 +4,11 @@ import { useT } from '../../hooks/useT';
 import { parseList } from 'lib/parseList';
 import styles from './ourfourcoreyugas.module.scss';
 
-const Segment = ({ title, subtitle, years, gradientFrom, gradientTo, isFirst, isLast, }: any) => {
+const Segment = ({ title, subtitle, years, isFirst, isLast, }: any) => {
   return (
     <div className="relative flex flex-col items-center">
       {/* Arrow segment */}
-      <div className={["relative text-white", "bg-gradient-to-r", gradientFrom, gradientTo,
-        "shadow-lg/60", "drop-shadow-[0_6px_18px_rgba(0,0,0,0.35)]",
+      <div className={["relative text-white", "shadow-lg/60", "drop-shadow-[0_6px_18px_rgba(0,0,0,0.35)]",
         // Arrow shape via clip-path polygon
         // left square + center rectangle + right trapezoid arrow tip
         // tweak values for sharper tip or taller body
@@ -24,7 +23,7 @@ const Segment = ({ title, subtitle, years, gradientFrom, gradientTo, isFirst, is
         "ring-1 ring-white/10",
       ].join(" ")}>
         {/* Title + subtitle */}
-        <div className={`${styles.boxarrow} flex items-center before:bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.20),transparent_60%)`}>
+        <div className={`${styles.boxarrow} flex items-center`}>
           {/* Optional tiny feather/arrow glyph on left */}
           {!isFirst && (
             <span className="hidden sm:inline-block text-white/70">
@@ -45,7 +44,7 @@ const Segment = ({ title, subtitle, years, gradientFrom, gradientTo, isFirst, is
             <div className={`h3 m-0! font-light! tracking-wide drop-shadow-[0_1px_0_rgba(0,0,0,0.25)]`}>
               {title}
             </div>
-            <div className={`h5 m-0! font-light! text-white/80`}>
+            <div className={`p m-0! font-light! text-white/80`}>
               {subtitle}
             </div>
           </div>
