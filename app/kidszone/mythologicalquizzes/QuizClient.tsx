@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useMemo, useState } from 'react';
-import { t, detectLocale, DEFAULT_LOCALE } from '../../../lib/i18n';
+import { detectLocale, DEFAULT_LOCALE } from '../../../lib/i18n';
+import { useT } from '../../hooks/useT';
 
 type Options = { A: string; B: string; C: string; D: string };
 type Question = { id: number; question: string; options: Options; answer: keyof Options };
@@ -15,6 +16,7 @@ function sampleIndices(total: number, count: number): number[] {
 }
 
 export default function QuizClient() {
+  const t = useT();
   const [questionsPool, setQuestionsPool] = useState<Question[] | null>(null);
   const [selectedIdx, setSelectedIdx] = useState<number[]>([]);
   const [current, setCurrent] = useState(0);
@@ -100,17 +102,17 @@ export default function QuizClient() {
   }
 
   const loc = detectLocale() || DEFAULT_LOCALE;
-  if (!questionsPool) return <div>{t('quiz.loading', loc)}</div>;
-  if (qList.length === 0) return <div>{t('quiz.preparing', loc)}</div>;
+  if (!questionsPool) return <div>{t('quiz.loading')}</div>;
+  if (qList.length === 0) return <div>{t('quiz.preparing')}</div>;
 
   if (!started) {
     return (
       <div>
-        <h2 className="h4">{t('quiz.readyTitle', loc)}</h2>
-        <p>{t('quiz.readyDescription', loc).replace('{count}', String(qList.length)).replace('{time}', fmtTime(timeLeft))}</p>
+        <h2 className="h4">{t('quiz.readyTitle')}</h2>
+        <p>{t('quiz.readyDescription').replace('{count}', String(qList.length)).replace('{time}', fmtTime(timeLeft))}</p>
         <div>
-          <button className="btn btn-primary" onClick={() => setStarted(true)}>{t('quiz.start', loc)}</button>
-          <button className="btn btn-outline" onClick={restart}>{t('quiz.shuffle', loc)}</button>
+          <button className="btn btn-primary" onClick={() => setStarted(true)}>{t('quiz.start')}</button>
+          <button className="btn btn-outline" onClick={restart}>{t('quiz.shuffle')}</button>
         </div>
       </div>
     );
@@ -119,9 +121,9 @@ export default function QuizClient() {
   if (finished) {
     return (
       <div>
-        <h2 className="h4">{t('quiz.resultsTitle', loc) || t('quiz.resultsTitle', loc)}</h2>
-        <div>{t('quiz.yourScore', loc)} <strong>{score}</strong> / {qList.length}</div>
-        <div>{t('quiz.timeTaken', loc)} {fmtTime(10 * 60 - timeLeft)}</div>
+        <h2 className="h4">{t('quiz.resultsTitle') || t('quiz.resultsTitle')}</h2>
+        <div>{t('quiz.yourScore')} <strong>{score}</strong> / {qList.length}</div>
+        <div>{t('quiz.timeTaken')} {fmtTime(10 * 60 - timeLeft)}</div>
         <div>
           {qList.map((q, idx) => (
             <div key={q.id}>
@@ -141,7 +143,7 @@ export default function QuizClient() {
           ))}
         </div>
         <div>
-          <button className="btn btn-primary" onClick={restart}>{t('quiz.restart', loc)}</button>
+          <button className="btn btn-primary" onClick={restart}>{t('quiz.restart')}</button>
         </div>
       </div>
     );
@@ -152,8 +154,8 @@ export default function QuizClient() {
   return (
     <div>
       <div>
-        <div>{t('quiz.questionCounter', loc).replace('{current}', String(current + 1)).replace('{total}', String(qList.length))}</div>
-        <div>{t('quiz.timeLeftLabel', loc)} {fmtTime(timeLeft)}</div>
+        <div>{t('quiz.questionCounter').replace('{current}', String(current + 1)).replace('{total}', String(qList.length))}</div>
+        <div>{t('quiz.timeLeftLabel')} {fmtTime(timeLeft)}</div>
       </div>
 
       <div>
@@ -172,10 +174,10 @@ export default function QuizClient() {
 
         <div>
           <div>
-            <button className="btn btn-primary" onClick={goPrev} disabled={current === 0}>{t('quiz.previous', loc)}</button>
-            <button className="btn btn-primary" onClick={goNext}>{current < qList.length - 1 ? t('quiz.next', loc) : t('quiz.finish', loc)}</button>
+            <button className="btn btn-primary" onClick={goPrev} disabled={current === 0}>{t('quiz.previous')}</button>
+            <button className="btn btn-primary" onClick={goNext}>{current < qList.length - 1 ? t('quiz.next') : t('quiz.finish')}</button>
           </div>
-          <div>{t('quiz.answered', loc).replace('{answered}', String(Object.keys(answers).length)).replace('{total}', String(qList.length))}</div>
+          <div>{t('quiz.answered').replace('{answered}', String(Object.keys(answers).length)).replace('{total}', String(qList.length))}</div>
         </div>
       </div>
     </div>
