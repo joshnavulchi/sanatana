@@ -6,7 +6,8 @@ services:
     # Ensure devDependencies are installed during build so CLI tools (e.g. tailwindcss)
     # are available for the critical CSS generator. Set NPM_CONFIG_PRODUCTION=false
     # to prevent skipping devDependencies in CI environments.
-    buildCommand: export NPM_CONFIG_PRODUCTION=false && yarn install --frozen-lockfile && yarn render-build
+    # Force locale download during static export and install devDependencies so CLI tools are available.
+    buildCommand: export NPM_CONFIG_PRODUCTION=false && yarn install --frozen-lockfile && export FORCE_LOCALE_DOWNLOAD=1 && yarn render-build
     publishPath: out
   - type: cron
     name: weekly-deploy
