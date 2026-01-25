@@ -16,7 +16,7 @@
     "scss:watch": "sass --watch app/styles.scss:public/globals.from-scss.css",
     "generate:sitemap": "node scripts/generate-sitemap.js",
     "generate:critical:home": "node scripts/generate-critical-css.js",
-    "render-build": "cross-env NEXT_STATIC_EXPORT=true npm run build",
+    "render-build": "npm ci --include=dev && cross-env NEXT_STATIC_EXPORT=true npm run build",
     "start": "next start",
     "preview:static": "npx serve@latest out -l 3000",
     "lint": "eslint",

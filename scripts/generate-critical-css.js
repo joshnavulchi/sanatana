@@ -58,18 +58,29 @@ function writeContentFile(files) {
   fs.writeFileSync(CONTENT_FILE, combined, 'utf8');
 }
 
-function runTailwind() {
-  // Prefer local binary. If it's missing, DO NOT call `npx` (it produces noisy npm errors
-  // in some CI environments). Instead, return false so caller can write a safe fallback.
+async function runTailwind() {
+  // Prefer local binary. If it's missing, attempt a programmatic PostCSS+Tailwind run
+  // to avoid depending on `node_modules/.bin` in production installs.
   const localBin = path.join(process.cwd(), 'node_modules', '.bin', process.platform === 'win32' ? 'tailwindcss.cmd' : 'tailwindcss');
-  if (!fs.existsSync(localBin)) {
-    console.log('tailwindcss binary not found in node_modules/.bin — skipping Tailwind CLI run');
+  if (fs.existsSync(localBin)) {
+    const cmd = `${localBin} -i ${INPUT_CSS} -o ${OUT_CSS} --content ${CONTENT_FILE} --minify`;
+    console.log('Running:', cmd);
+    execSync(cmd, { stdio: 'inherit' });
+    return true;
+  }
+
+  console.log('tailwindcss binary not found in node_modules/.bin — attempting programmatic Tailwind via PostCSS');
+  try {
+    const postcss = require('postcss');
+    const tailwindPlugin = require('@tailwindcss/postcss');
+    const inputCss = fs.readFileSync(INPUT_CSS, 'utf8');
+    const result = await postcss([tailwindPlugin({ content: [CONTENT_FILE] })]).process(inputCss, { from: INPUT_CSS, to: OUT_CSS });
+    fs.writeFileSync(OUT_CSS, result.css, 'utf8');
+    return true;
+  } catch (err) {
+    console.log('Programmatic Tailwind failed:', err && err.message ? err.message : err);
     return false;
   }
-  const cmd = `${localBin} -i ${INPUT_CSS} -o ${OUT_CSS} --content ${CONTENT_FILE} --minify`;
-  console.log('Running:', cmd);
-  execSync(cmd, { stdio: 'inherit' });
-  return true;
 }
 
 function copyOut() {
@@ -88,7 +99,7 @@ function cleanup() {
   try { fs.rmSync(TEMP_DIR, { recursive: true, force: true }); } catch (e) {}
 }
 
-function main() {
+async function main() {
   const paths = process.argv.slice(2).length ? process.argv.slice(2) : defaultPaths;
   console.log('Generating critical CSS for Home — scanning:', paths.join(', '));
   const files = collectFiles(paths);
@@ -100,7 +111,7 @@ function main() {
   writeInputCss();
   writeContentFile(files);
   try {
-    const ran = runTailwind();
+    const ran = await runTailwind();
     if (ran) {
       copyOut();
     } else {
@@ -118,6 +129,11 @@ function main() {
   }
 }
 
-if (require.main === module) main();
+if (require.main === module) {
+  main().catch((err) => {
+    console.error(err && err.message ? err.message : err);
+    process.exit(1);
+  });
+}
 
 module.exports = { main };

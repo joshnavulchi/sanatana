@@ -46,16 +46,16 @@ export async function createGenerateMetadata({ params, searchParams }: { params:
 // Analyzer-friendly stub: ensure Next static-export builds recognise a
 // top-level `generateStaticParams` during static analysis. Returns an
 // empty array so the route can be exported without enumerating items.
-export function generateStaticParams() {
+export async function generateStaticParams() {
   try {
     const fsSync = require('fs');
     const localesDir = path.join(process.cwd(), 'public', 'locales');
-    if (!fsSync.existsSync(localesDir)) return [];
+    if (!fsSync.existsSync(localesDir)) return [{ id: 'placeholder' }];
     const localeDirs = fsSync.readdirSync(localesDir).filter((d: string) => {
       try { return fsSync.statSync(path.join(localesDir, d)).isDirectory(); } catch (e) { return false; }
     });
 
-    const ids = new Set();
+    const ids = new Set<string>();
     for (const loc of localeDirs) {
       try {
         const file = path.join(localesDir, loc, 'illustrated_stories.json');
@@ -72,9 +72,10 @@ export function generateStaticParams() {
         // ignore per-locale failures
       }
     }
-    return Array.from(ids).map((id) => ({ id }));
+    const result = Array.from(ids).map((id) => ({ id }));
+    return result.length > 0 ? result : [{ id: 'placeholder' }];
   } catch (err) {
-    return [];
+    return [{ id: 'placeholder' }];
   }
 }
 
