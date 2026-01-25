@@ -101,3 +101,15 @@ CI / Render notes:
 - Cache `public/critical-home.css` or re-run the generator during builds — regenerating is cheap if `tailwindcss` is present.
 
 If you want, I can add a short CI snippet for Render/GitHub Actions to install `tailwindcss` and cache `public/critical-home.css` and `node_modules`.
+
+## Render scheduled deploy
+
+This repository includes a Render configuration (`render.yaml`) that defines a cron job `weekly-deploy` which triggers a deploy webhook every Sunday at 08:00 IST (02:30 UTC).
+
+Setup steps on Render:
+
+- Create a Deploy Hook for your `sanatanadharmam.in` service in the Render dashboard (Settings → Deploy Hooks) and copy the hook URL.
+- In your Render service environment variables, add `RENDER_DEPLOY_HOOK` with the Deploy Hook URL.
+- Ensure `render.yaml` is deployed to the service (it is included in this repo). Render will run the cron job and POST the hook URL at the scheduled time.
+
+If you prefer, I can instead configure the scheduled deploy using Render's UI; the `render.yaml` approach stores the schedule as code in the repo.
