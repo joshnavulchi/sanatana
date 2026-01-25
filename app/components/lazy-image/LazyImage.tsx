@@ -43,7 +43,17 @@ export default function LazyImage({ src, alt = '', width, height, className, pla
     <div ref={containerRef} className={className} style={{ minHeight: height ? `${height}px` : undefined }}>
       {!loadNow ? (placeholder ?? <Loader />) : (
         // @ts-expect-error next/image typings are finicky with dynamic props
-        <Image src={src} alt={alt} width={width} height={height} onLoad={onLoad} loading="eager" unoptimized={unoptimized} {...(rest as ImageProps)} />
+        <Image
+          src={src}
+          alt={alt}
+          width={width}
+          height={height}
+          onLoad={onLoad}
+          loading="eager"
+          unoptimized={unoptimized}
+          style={{ width: '100%', height: 'auto', ...(rest as any).style }}
+          {...(rest as ImageProps)}
+        />
       )}
     </div>
   );
