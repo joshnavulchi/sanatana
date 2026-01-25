@@ -251,6 +251,25 @@ function deepMerge(target, source) {
 }
 
 /**
+ * Merge missing keys from source into target without overwriting existing values
+ */
+function mergeMissing(target, source) {
+  if (!source || typeof source !== 'object') return target;
+  if (!target || typeof target !== 'object') return source;
+  for (const key of Object.keys(source)) {
+    if (source[key] && typeof source[key] === 'object' && !Array.isArray(source[key])) {
+      if (!target[key] || typeof target[key] !== 'object') target[key] = {};
+      mergeMissing(target[key], source[key]);
+    } else {
+      if (target[key] === undefined || target[key] === null || target[key] === '') {
+        target[key] = source[key];
+      }
+    }
+  }
+  return target;
+}
+
+/**
  * Ensure directory exists
  */
 function ensureDir(dir) {
@@ -466,7 +485,40 @@ async function downloadAllLocales(forceDownload = false) {
       console.log(`  Errors: ${errorCount} locales`);
     }
     console.log('='.repeat(60));
-    
+    // After downloading, apply any generated placeholder files into locale index.json
+    try {
+      for (const locale of Object.keys(newMetadata.locales || {})) {
+        const localeDir = path.join(LOCALES_DIR, locale);
+        const placeholderPath = path.join(localeDir, '_placeholders.generated.json');
+        const indexPath = path.join(localeDir, 'index.json');
+        if (fs.existsSync(placeholderPath)) {
+          try {
+            const placeholder = JSON.parse(fs.readFileSync(placeholderPath, 'utf8'));
+            let index = {};
+            if (fs.existsSync(indexPath)) {
+              try { index = JSON.parse(fs.readFileSync(indexPath, 'utf8')); } catch (e) { index = {}; }
+            } else {
+              // Attempt to merge individual json files into index if index.json missing
+              const jsonFiles = fs.readdirSync(localeDir).filter(f => f.endsWith('.json') && f !== '_placeholders.generated.json');
+              for (const jf of jsonFiles) {
+                try {
+                  const j = JSON.parse(fs.readFileSync(path.join(localeDir, jf), 'utf8'));
+                  deepMerge(index, j);
+                } catch (e) { /* ignore */ }
+              }
+            }
+            // Merge missing keys only
+            mergeMissing(index, placeholder);
+            fs.writeFileSync(indexPath, JSON.stringify(index, null, 2), 'utf8');
+            console.log(`  ✓ Applied placeholders to ${locale}/index.json`);
+          } catch (err) {
+            console.warn(`  Warning: could not apply placeholders for ${locale}:`, err.message);
+          }
+        }
+      }
+    } catch (e) {
+      // non-fatal
+    }
   } catch (err) {
     console.error('\n✗ Download failed:', err.message);
     // If local locales are present, treat failure as non-fatal and continue.
