@@ -1,6 +1,6 @@
 services:
   - type: static_site
-    name: sanatanadharmam-static
+    name: sanatanadharmam.in
     env: node
     plan: free
     buildCommand: yarn render-build
