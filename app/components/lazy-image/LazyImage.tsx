@@ -41,12 +41,21 @@ export default function LazyImage({ src, alt = '', width, height, className, pla
 
   return (
     <div ref={containerRef} className={className} style={{ minHeight: height ? `${height}px` : undefined }}>
-      {!loadNow ? (placeholder ?? <Loader />) : (
-        
-        <Image
-          {...Props}
-        />
-      )}
+     
+{!loadNow ? (placeholder ?? <Loader />) : (
+  <Image
+    src={src}
+    alt={alt}
+    width={width}
+    height={height}
+    onLoad={onLoad}
+    loading="eager"
+    unoptimized={unoptimized}
+    style={{ width: '100%', height: 'auto', ...(rest as any).style }}
+    {...(rest as ImageProps)}
+  />
+)}
+
     </div>
   );
 }
