@@ -3,7 +3,9 @@ services:
     name: sanatanadharmam.in
     env: node
     plan: free
-    buildCommand: yarn render-build
+    # Install dependencies including devDependencies so CLI tools (e.g. tailwindcss) are available
+    # Use yarn with frozen lockfile to reproduce builds reliably.
+    buildCommand: yarn install --frozen-lockfile && yarn render-build
     publishPath: out
   - type: cron
     name: weekly-deploy
