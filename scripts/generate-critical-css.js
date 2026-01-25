@@ -8,13 +8,11 @@ const INPUT_CSS = path.join(TEMP_DIR, 'input.css');
 const CONTENT_FILE = path.join(TEMP_DIR, 'content.html');
 const OUT_CSS = path.join(TEMP_DIR, 'out.css');
 
-// Default files/dirs to scan for home-critical classes
+// Default files/dirs to scan for home-critical classes.
+// Narrow the scan to the most important components to reduce critical CSS size.
 const defaultPaths = [
   path.join('app', 'page.tsx'),
-  path.join('app', 'components', 'hero-section'),
-  path.join('app', 'components', 'understanding'),
-  path.join('app', 'components', 'git-support'),
-  path.join('app', 'components', 'our-four-core-yugas')
+  path.join('app', 'components', 'hero-section')
 ];
 
 function collectFiles(paths) {
