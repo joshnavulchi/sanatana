@@ -59,16 +59,17 @@ function writeContentFile(files) {
 }
 
 function runTailwind() {
-  // Prefer local binary if present, otherwise fall back to npx
+  // Prefer local binary. If it's missing, DO NOT call `npx` (it produces noisy npm errors
+  // in some CI environments). Instead, return false so caller can write a safe fallback.
   const localBin = path.join(process.cwd(), 'node_modules', '.bin', process.platform === 'win32' ? 'tailwindcss.cmd' : 'tailwindcss');
-  let cmd;
-  if (fs.existsSync(localBin)) {
-    cmd = `${localBin} -i ${INPUT_CSS} -o ${OUT_CSS} --content ${CONTENT_FILE} --minify`;
-  } else {
-    cmd = `npx tailwindcss -i ${INPUT_CSS} -o ${OUT_CSS} --content ${CONTENT_FILE} --minify`;
+  if (!fs.existsSync(localBin)) {
+    console.log('tailwindcss binary not found in node_modules/.bin — skipping Tailwind CLI run');
+    return false;
   }
+  const cmd = `${localBin} -i ${INPUT_CSS} -o ${OUT_CSS} --content ${CONTENT_FILE} --minify`;
   console.log('Running:', cmd);
   execSync(cmd, { stdio: 'inherit' });
+  return true;
 }
 
 function copyOut() {
@@ -99,27 +100,19 @@ function main() {
   writeInputCss();
   writeContentFile(files);
   try {
-    runTailwind();
-    copyOut();
+    const ran = runTailwind();
+    if (ran) {
+      copyOut();
+    } else {
+      // Tailwind CLI not available — write fallback without invoking npx to avoid noisy errors
+      console.log('Tailwind CLI not available; writing fallback critical CSS');
+      const fallback = `/* Fallback critical CSS (minimal) */\nhtml,body{height:100%;margin:0;padding:0}\nbody{background:#fff;color:#111;font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial}\n.site-container{max-width:1100px;margin:0 auto;padding:16px}\n.hero{display:flex;align-items:center;justify-content:center;min-height:60vh;background:linear-gradient(180deg,#fff 0%,#f7fafc 100%)}\n.hero .title{font-size:clamp(20px,4vw,40px);line-height:1.05;margin:0}\n.hero .subtitle{font-size:clamp(14px,2.5vw,18px);margin-top:8px;color:#555}\n.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:24px}\n.card{background:#fff;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,0.06);padding:16px}\n/* Inline dimensions to avoid CLS */\n.hero img{width:100%;height:auto;max-width:800px;display:block}\n`;
+      ensureDir(path.dirname(OUT_FILE));
+      fs.writeFileSync(OUT_FILE, fallback, 'utf8');
+      console.log(`Wrote fallback critical CSS to ${OUT_FILE} (${Buffer.byteLength(fallback)} bytes)`);
+    }
   } catch (err) {
-    console.error('Tailwind generation failed:', err.message);
-    // Fallback: write a small hand-crafted critical CSS to ensure critical
-    // home styles are present even if tailwind CLI is unavailable.
-    const fallback = `/* Fallback critical CSS (minimal) */
-html,body{height:100%;margin:0;padding:0}
-body{background:#fff;color:#111;font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial}
-.site-container{max-width:1100px;margin:0 auto;padding:16px}
-.hero{display:flex;align-items:center;justify-content:center;min-height:60vh;background:linear-gradient(180deg,#fff 0%,#f7fafc 100%)}
-.hero .title{font-size:clamp(20px,4vw,40px);line-height:1.05;margin:0}
-.hero .subtitle{font-size:clamp(14px,2.5vw,18px);margin-top:8px;color:#555}
-.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:24px}
-.card{background:#fff;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,0.06);padding:16px}
-/* Inline dimensions to avoid CLS */
-.hero img{width:100%;height:auto;max-width:800px;display:block}
-`;
-    ensureDir(path.dirname(OUT_FILE));
-    fs.writeFileSync(OUT_FILE, fallback, 'utf8');
-    console.log(`Wrote fallback critical CSS to ${OUT_FILE} (${Buffer.byteLength(fallback)} bytes)`);
+    console.error('Tailwind generation failed:', err && err.message ? err.message : err);
   } finally {
     cleanup();
   }
