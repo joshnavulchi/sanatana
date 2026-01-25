@@ -1,0 +1,7 @@
+services:
+  - type: static_site
+    name: sanatanadharmam-static
+    env: node
+    plan: free
+    buildCommand: yarn render-build
+    publishPath: out
