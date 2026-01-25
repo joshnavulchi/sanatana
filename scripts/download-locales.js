@@ -195,7 +195,7 @@ async function downloadAndMergeLocale(locale) {
       return null;
     }
     
-    console.log(`  Found ${jsonFiles.length} JSON files to merge`);
+    // console.log(`  Found ${jsonFiles.length} JSON files to merge`);
     
     // Download and merge all JSON files
     const merged = {};
@@ -303,7 +303,7 @@ async function downloadAllLocales(forceDownload = false) {
     try {
       console.log('Fetching locales list...');
       locales = await getLocalesList();
-      console.log(`Found ${locales.length} locales: ${locales.join(', ')}\n`);
+      // console.log(`Found ${locales.length} locales: ${locales.join(', ')}\n`);
     } catch (err) {
       console.warn('Could not fetch remote locales list:', err.message);
       // If local manifest has content, skip network download and continue
@@ -377,7 +377,7 @@ async function downloadAllLocales(forceDownload = false) {
 
       ensureDir(localeDir);
 
-      console.log(`  Found ${jsonFiles.length} JSON files (${toDownload.length} to download)`);
+      // console.log(`  Found ${jsonFiles.length} JSON files (${toDownload.length} to download)`);
 
       // Download changed JSON files individually
       const merged = {};
