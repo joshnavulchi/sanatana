@@ -8,6 +8,39 @@ import { parseSections, parseMaybeObject } from 'lib/parseContent';
 
 import styles from './page.module.scss';
 
+// Helper components declared at module scope to avoid creating components during render
+const Paragraphs = ({ lines }: { lines?: any[] }) => {
+  if (!Array.isArray(lines) || !lines.length) return null;
+  return (
+    <div>
+      {lines.map((line: any, idx: number) => (
+        <p key={idx}>{line}</p>
+      ))}
+    </div>
+  );
+};
+
+const Conversation = ({ convo }: { convo?: any[] }) => {
+  if (!Array.isArray(convo) || !convo.length) return null;
+  return (
+    <div>
+      {convo.map((item: any, idx: number) => {
+        const isEven = idx % 2 === 0; // even -> left, odd -> right
+        const containerClass = `flex ${isEven ? `${styles.leftalign} justify-start` : `${styles.rightalign} justify-end`}`;
+        const bubbleClass = `${isEven ? 'text-left' : 'text-right'}`;
+        return (
+          <div key={idx} className={containerClass}>
+            <div className={bubbleClass}>
+              {item.speaker ? <div className={`${styles.icon} shadow-sm`}><span>{item.speaker}</span></div> : null}
+              {item.message ? <p className={`${styles.message} shadow-xl`}>{item.message}</p> : null}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+};
+
 export default function KrishnaExplainsFiveKarmasClient() {
   const { locale } = useLocale();
   const t = useT();
@@ -31,38 +64,7 @@ export default function KrishnaExplainsFiveKarmasClient() {
     return () => { mounted = false; };
   }, [locale]);
 
-  // small helpers to avoid duplicated rendering logic
-  const Paragraphs = ({ lines }: { lines?: any[] }) => {
-    if (!Array.isArray(lines) || !lines.length) return null;
-    return (
-      <div>
-        {lines.map((line: any, idx: number) => (
-          <p key={idx}>{line}</p>
-        ))}
-      </div>
-    );
-  };
-
-  const Conversation = ({ convo }: { convo?: any[] }) => {
-    if (!Array.isArray(convo) || !convo.length) return null;
-    return (
-      <div>
-        {convo.map((item: any, idx: number) => {
-          const isEven = idx % 2 === 0; // even -> left, odd -> right
-          const containerClass = `flex ${isEven ? `${styles.leftalign} justify-start` : `${styles.rightalign} justify-end`}`;
-          const bubbleClass = `${isEven ? 'text-left' : 'text-right'}`;
-          return (
-            <div key={idx} className={containerClass}>
-              <div className={bubbleClass}>
-                {item.speaker ? <div className={`${styles.icon} shadow-sm`}><span>{item.speaker}</span></div> : null}
-                {item.message ? <p className={`${styles.message} shadow-xl`}>{item.message}</p> : null}
-              </div>
-            </div>
-          );
-        })}
-      </div>
-    );
-  };
+  // small helpers intentionally declared at module scope above
 
   // Compute render-time title/story from translations first, falling back to state
   const renderTitle = String(t('karma_philosophy.title') || karma.title || '');

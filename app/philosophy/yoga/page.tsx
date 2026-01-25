@@ -34,7 +34,7 @@ export default function Page({ searchParams }: any) {
         <p><strong>Definition : </strong>{page.definition}</p>
         {/* Core Principles of yoga */}
         <div>
-          <p><strong>Core Principles of Yoga : </strong> {page.core_principles.map((s: string) => (<span>{s}, </span>))}</p>
+          <p><strong>Core Principles of Yoga : </strong> {page.core_principles.map((s: string, idx: number) => (<span key={idx}>{s}, </span>))}</p>
           <ul role="list" className="list-disc">
             {Object.entries(page.origin).map((cKey: any, idx: number) => {
               return <li key={idx}>

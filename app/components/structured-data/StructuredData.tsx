@@ -6,7 +6,7 @@ type Props = {
   locale?: string;
 };
 // Server component that renders JSON-LD for a given metaKey.
-export default function StructuredData({ metaKey, params, locale }: Props) {
+export default async function StructuredData({ metaKey, params, locale }: Props) {
   const loc = locale ?? detectLocale(params);
   const meta = getMeta(metaKey, params, loc) || {};
   const webpage: Record<string, any> = {
@@ -45,10 +45,9 @@ export default function StructuredData({ metaKey, params, locale }: Props) {
   let pageSchema: Record<string, unknown> | null = null;
   if (typeof window === 'undefined') {
     try {
-       
-      const fs = require('fs');
-      const path = require('path');
-      
+      const fs = await import('fs');
+      const path = await import('path');
+
       // Try a few common filename variants similar to `getMeta`.
       const candidates = [metaKey, metaKey.replace(/_/g, '-'), metaKey.replace(/_/g, '')];
       for (const candidate of candidates) {
