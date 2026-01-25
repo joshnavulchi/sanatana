@@ -4,6 +4,7 @@ import { headers } from 'next/headers';
 import { notFound } from 'next/navigation';
 import PageLayout from '@components/common/PageLayout';
 import fs from 'fs/promises';
+import fsSync from 'fs';
 import path from 'path';
 import LazyImage from '@components/lazy-image/LazyImage';
 import Link from 'next/link';
@@ -48,7 +49,6 @@ export async function createGenerateMetadata({ params, searchParams }: { params:
 // empty array so the route can be exported without enumerating items.
 export async function generateStaticParams() {
   try {
-    const fsSync = require('fs');
     const localesDir = path.join(process.cwd(), 'public', 'locales');
     if (!fsSync.existsSync(localesDir)) return [{ id: 'placeholder' }];
     const localeDirs = fsSync.readdirSync(localesDir).filter((d: string) => {
