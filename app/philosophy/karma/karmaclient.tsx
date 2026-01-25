@@ -11,7 +11,7 @@ import styles from './page.module.scss';
 export default function KrishnaExplainsFiveKarmasClient() {
   const { locale } = useLocale();
   const t = useT();
-  const [karma, setKarma] = useState({ title: '', story: '' });
+  const [karma, setKarma] = useState({ title: '', story: [] as string[] });
 
   useEffect(() => {
     let mounted = true;
@@ -22,22 +22,71 @@ export default function KrishnaExplainsFiveKarmasClient() {
 
       if (!mounted) return;
       const title = String(t('karma_philosophy.title') || '');
-      const story = String(t('karma_philosophy.story') || '');
+      const rawStory = t('karma_philosophy.story');
+      const story = Array.isArray(rawStory)
+        ? (rawStory as string[])
+        : (rawStory ? String(rawStory).split(/\r?\n/).filter(Boolean) : []);
       setKarma({ title, story });
     })();
     return () => { mounted = false; };
   }, [locale]);
 
+  // small helpers to avoid duplicated rendering logic
+  const Paragraphs = ({ lines }: { lines?: any[] }) => {
+    if (!Array.isArray(lines) || !lines.length) return null;
+    return (
+      <div>
+        {lines.map((line: any, idx: number) => (
+          <p key={idx}>{line}</p>
+        ))}
+      </div>
+    );
+  };
+
+  const Conversation = ({ convo }: { convo?: any[] }) => {
+    if (!Array.isArray(convo) || !convo.length) return null;
+    return (
+      <div>
+        {convo.map((item: any, idx: number) => {
+          const isEven = idx % 2 === 0; // even -> left, odd -> right
+          const containerClass = `flex ${isEven ? `${styles.leftalign} justify-start` : `${styles.rightalign} justify-end`}`;
+          const bubbleClass = `${isEven ? 'text-left' : 'text-right'}`;
+          return (
+            <div key={idx} className={containerClass}>
+              <div className={bubbleClass}>
+                {item.speaker ? <div className={`${styles.icon} shadow-sm`}><span>{item.speaker}</span></div> : null}
+                {item.message ? <p className={`${styles.message} shadow-xl`}>{item.message}</p> : null}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    );
+  };
+
+  // Compute render-time title/story from translations first, falling back to state
+  const renderTitle = String(t('karma_philosophy.title') || karma.title || '');
+  const rawStoryFromT = t('karma_philosophy.story');
+  const renderStory = Array.isArray(rawStoryFromT)
+    ? (rawStoryFromT as string[])
+    : rawStoryFromT
+    ? String(rawStoryFromT).split(/\r?\n/).filter(Boolean)
+    : (Array.isArray(karma.story) ? karma.story : (karma.story ? [String(karma.story)] : []));
+
   return (
     <PageLayout
       metaKey="karma_philosophy"
-      title={karma.title}
+      title={renderTitle}
       breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Karma' }]}
       className={`layout-sm`}
     >
       {/* Render script paragraphs (para1, para2, ...) then conversation (alternating chat bubbles). */}
       {(() => {
         const script = parseMaybeObject(t('karma_philosophy.script')) || {};
+        // If `story` exists from translations or state, render it first.
+        if (renderStory && renderStory.length > 0) {
+          return <Paragraphs lines={renderStory} />;
+        }
 
         // collect paraN in order
         const paraKeys = Object.keys(script || {}).filter(k => /^para\d+$/.test(k));
@@ -55,37 +104,14 @@ export default function KrishnaExplainsFiveKarmasClient() {
         // if we have paras or conversation, render them
         if ((Array.isArray(paras) && paras.length) || (Array.isArray(convo) && convo.length)) {
           return (
-            <div className="">
-              {paras.length > 0 && (
-                <div className="">
-                  {paras.map((p: any, i: number) => (
-                    <p key={`para-${i}`} className="">{p}</p>
-                  ))}
-                </div>
-              )}
-
-              {Array.isArray(convo) && convo.length > 0 && (
-                <div className="">
-                  {convo.map((item: any, idx: number) => {
-                    const isEven = idx % 2 === 0; // even -> left, odd -> right
-                    const containerClass = `flex ${isEven ? `${styles.leftalign} justify-start` : `${styles.rightalign} justify-end`}`;
-                    const bubbleClass = `${isEven ? 'text-left' : 'text-right'}`;
-                    return (
-                      <div key={idx} className={containerClass}>
-                        <div className={bubbleClass}>
-                          {item.speaker ? <div className={`${styles.icon} shadow-sm`}><span>{item.speaker}</span></div> : null}
-                          {item.message ? <p className={`${styles.message} shadow-xl`}>{item.message}</p> : null}
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-              )}
+            <div>
+              {paras.length > 0 && <Paragraphs lines={paras} />}
+              <Conversation convo={convo} />
             </div>
           );
         }
 
-        return <p>{karma.story}</p>;
+        return null;
       })()}
     </PageLayout>
   );

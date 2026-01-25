@@ -6,7 +6,6 @@ import { loadLocale } from 'lib/i18n';
 import { useT } from '../hooks/useT';
 
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
-import styles from '../privacy-policy/page.module.scss';
 
 type PartialPage = Record<string, any>;
 
