@@ -5,3 +5,11 @@ services:
     plan: free
     buildCommand: yarn render-build
     publishPath: out
+  - type: cron
+    name: weekly-deploy
+    env: node
+    plan: free
+    # Schedule: every Sunday 02:30 UTC == Sunday 08:00 IST (UTC+5:30)
+    schedule: "30 2 * * 0"
+    # Command triggers a deploy webhook. Set RENDER_DEPLOY_HOOK in Render env vars to your Deploy Hook URL.
+    command: ["bash", "-lc", "if [ -n \"$RENDER_DEPLOY_HOOK\" ]; then curl -fsS -X POST \"$RENDER_DEPLOY_HOOK\" || echo 'deploy hook failed'; else echo 'RENDER_DEPLOY_HOOK not set; skipping deploy'; fi"]

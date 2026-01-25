@@ -299,6 +299,20 @@ async function downloadAllLocales(forceDownload = false) {
     // Compute local manifest (sha1 of files) to detect content changes
     const localManifest = computeLocalManifest();
 
+    // Detect Render / CI environments and provide an opt-out to avoid
+    // downloading all locales on every clean deploy. On Render, prefer
+    // caching `public/locales/.locale-metadata.json` between builds and
+    // only run downloads when forced.
+    const runningOnRender = !!process.env.RENDER || !!process.env.RENDER_SERVICE_ID || !!process.env.RENDER_INSTANCE_ID;
+    const envForceDownload = !!process.env.FORCE_LOCALE_DOWNLOAD || !!process.env.FORCE_LOCALES_DOWNLOAD || process.env.DOWNLOAD_LOCALES === '1';
+    if (runningOnRender && !forceDownload && !envForceDownload && !fs.existsSync(METADATA_FILE)) {
+      console.log('Detected Render deployment with no cached locales metadata.');
+      console.log('To avoid downloading all locales on every deploy, skipping remote fetch.');
+      console.log('If you want to force downloads on this deployment, set `FORCE_LOCALE_DOWNLOAD=1` or run with `--force`.');
+      console.log('Recommend enabling a build cache or persistent disk for `public/locales` on Render.');
+      return;
+    }
+
     // If we have recent metadata and not forcing a download, skip network
     // to avoid repeated downloads during active development. This means
     // locales are refreshed at most once per hour unless --force is used.

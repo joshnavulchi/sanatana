@@ -92,12 +92,12 @@ export default function DonateClient() {
         <h5 className="h4">{donate.donateOptions?.oneTime?.heading}</h5>
         <p>{donate.donateOptions?.oneTime?.note}</p>
 
-        <div className="bg-amber-50 p-6 rounded">
+        {/* <div className="bg-amber-50 p-6 rounded">
           <p><strong>UPI:</strong> {donate.donateOptions?.bank?.upi}</p>
           <p><strong>Account Name:</strong> {donate.donateOptions?.bank?.accountName}</p>
           <p><strong>Account Number:</strong> {donate.donateOptions?.bank?.accountNumber}</p>
           <p><strong>IFSC:</strong> {donate.donateOptions?.bank?.ifsc}</p>
-        </div>
+        </div> */}
       </section>
       {/* FAQ */}
       <div>
