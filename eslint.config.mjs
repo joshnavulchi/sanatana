@@ -32,6 +32,15 @@ const eslintConfig = defineConfig([
       "@typescript-eslint/no-explicit-any": "warn"
     }
   }
+  ,
+  // Allow `require()` style imports in server-side tooling and library helpers
+  // that need synchronous filesystem access during SSR.
+  {
+    files: ["lib/**", "next.config.ts"],
+    rules: {
+      "@typescript-eslint/no-require-imports": "off"
+    }
+  }
 ]);
 
 export default eslintConfig;
