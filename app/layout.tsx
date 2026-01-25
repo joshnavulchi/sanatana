@@ -17,7 +17,7 @@ import ScrollToTop from './components/scroll-to-top/scroll-to-top';
 
 import "./globals.css"; // tailwind base styles
 
-const poppins = Poppins({ subsets: ["latin"], weight: ["400"] });
+const poppins = Poppins({ subsets: ["latin"], weight: ["400"], preload: true });
 // Compose a safe font-family string: Playfair primary, Poppins fallback
 const bodyFontFamily = `${poppins.style?.fontFamily || "Poppins, sans-serif"}`;
 const SITE_URL = secrets.NEXT_PUBLIC_SITE_URL || "https://sanatanadharmam.in";
@@ -116,6 +116,8 @@ export default async function RootLayout({
           }}
         />
         {/* Google Analytics is loaded on user consent via the CookieConsent component. */}
+        {/* Preload local font with proper attributes to satisfy diagnostics */}
+        <link rel="preload" href="/_next/static/media/a218039a3287bcfd-s.p.4a23d71b.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
         {/* Disable right-click context menu in production to reduce casual copy */}
         {process.env.NODE_ENV === "production" && (
           <Script

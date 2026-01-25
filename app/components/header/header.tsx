@@ -186,7 +186,15 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className={`${styles.logoTitle} logo flex items-center no-underline gap-2`}>
-              <LazyImage src="/images/logo.png" alt="Sanatanadharmam Logo" width={40} height={36} />
+              <LazyImage
+                src="/images/logo.png"
+                alt="Sanatanadharmam Logo"
+                width={80}
+                height={72}
+                sizes="(min-width:1024px) 40px, 80px"
+                priority
+                className="w-[80px] md:w-[40px]"
+              />
               <span>
                 {translations.siteTitle}
               </span>
