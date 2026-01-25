@@ -3,6 +3,14 @@ services:
     name: sanatanadharmam.in
     env: node
     plan: free
+    # Recommended: enable a persistent disk or build cache for `public/locales` in Render
+    # so locale downloads are cached between builds. On Render dashboard:
+    # 1. Open the service settings -> 'Disks' -> 'Create Persistent Disk'.
+    # 2. Mount the disk to the service at path: /opt/render/project/src/public/locales
+    # 3. Ensure the build command checks for the presence of that directory and skips
+    #    full locale downloads when present (the app already detects cached locales).
+    # Alternatively, configure a build cache or set the env var FORCE_LOCALE_DOWNLOAD=0
+    # if you prefer to skip downloads when no cache is available.
     # Ensure devDependencies are installed during build so CLI tools (e.g. tailwindcss)
     # are available for the critical CSS generator. Set NPM_CONFIG_PRODUCTION=false
     # to prevent skipping devDependencies in CI environments.
