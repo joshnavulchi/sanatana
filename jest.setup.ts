@@ -3,7 +3,7 @@ if (typeof (global as any).MessageChannel === 'undefined') {
 	try {
 		// Use dynamic import to avoid `require()` style imports in ESM
 		// top-level await is supported in our test environment.
-		// eslint-disable-next-line no-empty
+		 
 		const mod = await import('worker_threads').catch(() => null);
 		if (mod && (mod as any).MessageChannel) {
 			// @ts-ignore - assigning polyfill to global

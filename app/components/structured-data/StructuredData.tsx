@@ -45,7 +45,7 @@ export default function StructuredData({ metaKey, params, locale }: Props) {
   let pageSchema: Record<string, unknown> | null = null;
   if (typeof window === 'undefined') {
     try {
-      // eslint-disable-next-line @typescript-eslint/no-var-requires
+       
       const fs = require('fs');
       const path = require('path');
       
@@ -58,7 +58,7 @@ export default function StructuredData({ metaKey, params, locale }: Props) {
             const content = fs.readFileSync(filePath, 'utf8');
             const obj = JSON.parse(content);
             // The file may export an object keyed by the page name.
-            let pageObj = obj?.[metaKey] ?? obj?.[candidate] ?? obj;
+            const pageObj = obj?.[metaKey] ?? obj?.[candidate] ?? obj;
             if (pageObj && typeof pageObj === 'object') {
               pageSchema = pageObj.schema ?? obj.schema ?? null;
               if (pageSchema) break;
