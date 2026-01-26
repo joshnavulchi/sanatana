@@ -24,7 +24,8 @@ jobs:
       - name: Ensure Yarn (via Corepack)
         run: |
           corepack enable
-          corepack prepare yarn@stable --activate
+          # Pin to the exact Yarn version used locally to avoid lockfile drift
+          corepack prepare yarn@4.12.0 --activate
           yarn --version
 
       - name: Run Render build command (mirror)
