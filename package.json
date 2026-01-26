@@ -20,7 +20,7 @@
     "start": "next start",
     "preview:static": "npx serve@latest out -l 3000",
     "lint": "eslint",
-    "test": "jest --runInBand",
+    "test": "jest --runInBand --passWithNoTests",
     "noEmit": "npx tsc --noEmit"
   },
   "dependencies": {
