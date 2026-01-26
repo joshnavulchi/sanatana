@@ -28,15 +28,50 @@ jobs:
           corepack prepare yarn@4.12.0 --activate
           yarn --version
 
-      - name: Run Render build command (mirror)
+      - name: Run Render-like build: install
         env:
           NPM_CONFIG_PRODUCTION: false
-          FORCE_LOCALE_DOWNLOAD: 1
         run: |
-          echo "Running Render-like build: export NPM_CONFIG_PRODUCTION=false && yarn install --frozen-lockfile && export FORCE_LOCALE_DOWNLOAD=1 && yarn render-build"
-          set -e
+          echo "Running Render-like build: install dependencies"
+          set -euo pipefail
           export NPM_CONFIG_PRODUCTION=false
           yarn install --frozen-lockfile
+
+      - name: Restore critical CSS cache
+        id: critical-cache
+        uses: actions/cache@v4
+        with:
+          path: public/critical-home.css
+          key: critical-home-css-${{ runner.os }}-${{ hashFiles('app/**') }}
+
+      - name: Generate critical-home.css
+        if: steps.critical-cache.outputs.cache-hit != 'true'
+        run: |
+          echo "Generating critical-home.css"
+          node scripts/generate-critical-css.js || true
+
+      - name: Use cached critical-home.css
+        if: steps.critical-cache.outputs.cache-hit == 'true'
+        run: |
+          echo "Using restored public/critical-home.css"
+
+      - name: Check critical CSS size
+        run: |
+          if [ -f public/critical-home.css ]; then
+            size=$(wc -c < public/critical-home.css | tr -d '[:space:]') || size=0
+            echo "Generated public/critical-home.css size=${size} bytes"
+            if [ "${GITHUB_EVENT_NAME:-}" != "pull_request" ] && [ "${size:-0}" -gt 8192 ]; then
+              echo "Critical CSS exceeds 8KB (${size} bytes) — failing build to avoid layout regressions"
+              exit 1
+            fi
+          else
+            echo "No public/critical-home.css generated; continuing"
+          fi
+
+      - name: Run render-build
+        env:
+          FORCE_LOCALE_DOWNLOAD: 1
+        run: |
           export FORCE_LOCALE_DOWNLOAD=1
           yarn render-build
 
