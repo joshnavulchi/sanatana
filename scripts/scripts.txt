@@ -15,7 +15,7 @@
     "meta:refine": "node scripts/meta-tools.js refine",
     "meta:all": "node scripts/meta-tools.js all",
     "complete-clean": "Remove-Item node_modules, package-lock.json, dist, build, .next, .cache, coverage, .turbo, .vite, .parcel-cache -Recurse -Force -ErrorAction SilentlyContinue",
-    "clean": "Remove-Item node_modules, package-lock.json, .next, .cache, .parcel-cache -Recurse -Force -ErrorAction SilentlyContinue",
+    "clean": "Remove-Item node_modules, package-lock.json, yarn.lock, .next, .cache, .parcel-cache -Recurse -Force -ErrorAction SilentlyContinue",
     "generate:component-from-locale": "node scripts/generate-component.js",
     "generate:analytics": "node scripts/generate-analytics-json.js",
     "noEmit:bigmem": "node --max-old-space-size=8192 ./node_modules/typescript/bin/tsc --noEmit",
