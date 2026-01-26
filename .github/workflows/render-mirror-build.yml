@@ -20,7 +20,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'yarn'
 
       - name: Ensure Yarn (via Corepack)
         run: |
@@ -28,6 +27,15 @@ jobs:
           corepack enable
           corepack prepare yarn@4.12.0 --activate
           yarn --version
+
+      # 🔑 REQUIRED for Yarn 4 immutable installs
+      - name: Cache Yarn Berry cache
+        uses: actions/cache@v4
+        with:
+          path: .yarn/cache
+          key: yarn-cache-${{ runner.os }}-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            yarn-cache-${{ runner.os }}-
 
       - name: Run Render-like build install
         env:
@@ -42,7 +50,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: public/critical-home.css
-          key: "critical-home-css-${{ runner.os }}-${{ hashFiles('app/page.tsx', 'app/components/**') }}"
+          key: critical-home-css-${{ runner.os }}-${{ hashFiles('app/page.tsx', 'app/components/**') }}
 
       - name: Generate critical-home.css
         if: steps.critical-cache.outputs.cache-hit != 'true'
