@@ -154,7 +154,6 @@ export function t(key: string, locale = DEFAULT_LOCALE): any {
           let curDef: unknown = def;
           for (const kk of keys) {
             if (!curDef) break;
-            // @ts-expect-error - dynamic access during fallback traversal
             curDef = (curDef as any)[kk];
           }
           if (curDef) return curDef;
@@ -172,8 +171,6 @@ export function t(key: string, locale = DEFAULT_LOCALE): any {
       }
       return key;
     }
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-expect-error - reading dynamic locale object keys
     cur = (cur as any)[k];
   }
   // If the resolved value is an array, return it for list usage.
@@ -206,8 +203,6 @@ function interpolateObject(obj: unknown, params?: Record<string, string>): unkno
   if (obj && typeof obj === "object") {
     const out: Record<string, unknown> = {};
     for (const k of Object.keys(obj as Record<string, unknown>)) {
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-      // @ts-expect-error - dynamic indexing
       out[k] = interpolateObject((obj as any)[k], params);
     }
     return out;
@@ -275,11 +270,9 @@ export function detectLocale(searchParams?: unknown) {
     // Safe to access properties now (not a Promise-like).
     try {
       // Only use .get if it's a function on the object (URLSearchParams-like).
-      // @ts-expect-error - dynamic get method on unknown type
       const maybeGet = (searchParams as any).get;
       if (typeof maybeGet === "function") {
         // call it with the correct receiver
-        // @ts-expect-error - calling dynamic getter
         const v = maybeGet.call(searchParams, "lang");
         if (v) return String(v);
       }

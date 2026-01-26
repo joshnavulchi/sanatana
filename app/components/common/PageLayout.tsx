@@ -1,6 +1,5 @@
 import React from 'react';
 import WordCount from '@/app/components/wordcount/wordcount';
-import StructuredData from '@components/structured-data/StructuredData';
 import Breadcrumbs from '@components/breadcrumbs/breadcrumbs';
 type BreadcrumbItem = { label?: string; labelKey?: string; href?: string };
 type Props = {
@@ -16,7 +15,8 @@ export default function PageLayout({ metaKey, title, breadcrumbs, className, chi
   const wrapper = `${className || ' content-wrapper '}`;
   return (
     <>
-      {metaKey ? <StructuredData metaKey={metaKey} /> : null}
+      {/* `metaKey` is accepted for compatibility; render structured data from server pages to avoid
+          importing server-only modules into client bundles. */}
       <main className={wrapper}>
         <div className="flex items-start justify-between">
           {breadcrumbs ? <Breadcrumbs items={breadcrumbs} /> : null}
