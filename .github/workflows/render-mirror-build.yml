@@ -33,22 +33,12 @@ jobs:
           NPM_CONFIG_PRODUCTION: false
           FORCE_LOCALE_DOWNLOAD: 1
         run: |
-          echo "Running Render-like build: try frozen install, fallback to normal install if needed, then render-build"
-          set -euo pipefail
+          echo "Running Render-like build: export NPM_CONFIG_PRODUCTION=false && yarn install --frozen-lockfile && export FORCE_LOCALE_DOWNLOAD=1 && yarn render-build"
+          set -e
           export NPM_CONFIG_PRODUCTION=false
-          echo "Attempting 'yarn install --frozen-lockfile'..."
-          if yarn install --frozen-lockfile; then
-            echo "Frozen install succeeded."
-          else
-            echo "Frozen install failed — falling back to 'yarn install' to proceed in CI."
-            yarn install
-          fi
+          yarn install --frozen-lockfile
           export FORCE_LOCALE_DOWNLOAD=1
-          # Run the project build directly using Yarn instead of `yarn render-build`
-          # which invokes `npm ci` (requires package-lock.json). Using `yarn build`
-          # here avoids the npm lockfile requirement while still producing the same
-          # Next.js build artifacts for debugging in CI.
-          yarn build
+          yarn render-build
 
       - name: Upload static `out` artifact for debugging
         if: success() || failure()
