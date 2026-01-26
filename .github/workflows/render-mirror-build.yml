@@ -44,7 +44,11 @@ jobs:
             yarn install
           fi
           export FORCE_LOCALE_DOWNLOAD=1
-          yarn render-build
+          # Run the project build directly using Yarn instead of `yarn render-build`
+          # which invokes `npm ci` (requires package-lock.json). Using `yarn build`
+          # here avoids the npm lockfile requirement while still producing the same
+          # Next.js build artifacts for debugging in CI.
+          yarn build
 
       - name: Upload static `out` artifact for debugging
         if: success() || failure()
