@@ -15,7 +15,7 @@ services:
     # are available for the critical CSS generator. Set NPM_CONFIG_PRODUCTION=false
     # to prevent skipping devDependencies in CI environments.
     # Force locale download during static export and install devDependencies so CLI tools are available.
-    buildCommand: export NPM_CONFIG_PRODUCTION=false && yarn install --immutable --immutable-cache && export FORCE_LOCALE_DOWNLOAD=1 && yarn render-build
+    buildCommand: export NPM_CONFIG_PRODUCTION=false && yarn install --immutable && export FORCE_LOCALE_DOWNLOAD=1 && yarn render-build
     publishPath: out
   - type: cron
     name: weekly-deploy

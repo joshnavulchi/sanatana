@@ -43,7 +43,7 @@ jobs:
         run: |
           set -euo pipefail
           echo "Running Render-like build: install dependencies"
-          yarn install --immutable --immutable-cache
+          yarn install --immutable
 
       - name: Restore critical CSS cache
         id: critical-cache
