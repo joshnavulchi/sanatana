@@ -70,7 +70,10 @@ async function runTailwind() {
   console.log('tailwindcss binary not found in node_modules/.bin — attempting programmatic Tailwind via PostCSS');
   try {
     const postcss = require('postcss');
-    const tailwindPlugin = require('@tailwindcss/postcss');
+    // Use the official `tailwindcss` package programmatically. This works
+    // in environments where `node_modules/.bin/tailwindcss` may be missing
+    // (for example Yarn v4 PnP installs).
+    const tailwindPlugin = require('tailwindcss');
     const inputCss = fs.readFileSync(INPUT_CSS, 'utf8');
     const result = await postcss([tailwindPlugin({ content: [CONTENT_FILE] })]).process(inputCss, { from: INPUT_CSS, to: OUT_CSS });
     fs.writeFileSync(OUT_CSS, result.css, 'utf8');
