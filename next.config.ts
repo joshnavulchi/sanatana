@@ -60,7 +60,7 @@ const nextConfig = {
         try {
           // Add CSS minimizer in production builds. The plugin is optional at runtime
           // so requiring it here won't break the build when it's absent.
-          // eslint-disable-next-line @typescript-eslint/no-var-requires
+           
           const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
           cfg.optimization = cfg.optimization || {};
@@ -71,7 +71,7 @@ const nextConfig = {
         }
         // Ensure JS minification is enabled in webpack as a fallback
         try {
-          // eslint-disable-next-line @typescript-eslint/no-var-requires
+           
           const TerserPlugin = require('terser-webpack-plugin');
           cfg.optimization.minimize = true;
           cfg.optimization.minimizer.push(new TerserPlugin({ parallel: true }));

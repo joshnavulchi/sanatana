@@ -55,11 +55,11 @@ export async function POST(req: Request) {
 
     // Fallback: log to server console in dev if no provider configured
     // (This keeps behaviour safe for static builds and local development.)
-    // eslint-disable-next-line no-console
+     
     console.log('Contact form submission (no provider configured):', { to: CONTACT_EMAIL, subject, body: bodyText, replyTo: fromEmail });
     return new Response(JSON.stringify({ ok: true, notice: 'no-provider' }), { status: 200, headers: { 'content-type': 'application/json' } });
   } catch (err: any) {
-    // eslint-disable-next-line no-console
+     
     console.error('Contact API error:', err && err.message ? err.message : err);
     return new Response(JSON.stringify({ error: String(err && err.message ? err.message : 'server error') }), { status: 500, headers: { 'content-type': 'application/json' } });
   }

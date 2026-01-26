@@ -4,6 +4,8 @@ module.exports = {
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/$1",
+    "^lib/(.*)$": "<rootDir>/lib/$1",
+    "\\.module\\.(css|scss|sass)$": "<rootDir>/__mocks__/styleMock.js",
     "^next/(.*)$": "<rootDir>/node_modules/next/$1",
     "\\.(css|scss|sass)$": "<rootDir>/__mocks__/styleMock.js",
     "\\.(png|jpg|jpeg|gif|svg)$": "<rootDir>/__mocks__/fileMock.js"

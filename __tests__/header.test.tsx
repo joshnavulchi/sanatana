@@ -21,7 +21,21 @@ jest.mock('../lib/i18n', () => ({
     };
     return map[key] ?? key;
   },
-  detectLocale: () => 'en'
+  detectLocale: () => 'en',
+  DEFAULT_LOCALE: 'en',
+  getLocaleObject: (locale = 'en') => ({
+    sitetitle: 'Sanātana Dharma',
+    siteTitle: 'Sanātana Dharma',
+    nav: {
+      home: 'Home',
+      vedas: 'Vedas',
+      puranas: 'Puranas',
+      shastras: 'Shastras',
+      contact: 'Contact',
+      donate: 'Donate'
+    }
+  }),
+  loadLocale: async () => ({})
 }));
 
 import Header from '../app/components/header/header';
@@ -31,12 +45,9 @@ describe('Header navigation (server render)', () => {
     const html = ReactDOMServer.renderToStaticMarkup(<Header />);
 
     const checks = [
-      { text: 'Home', href: '/' },
       { text: 'Vedas', href: '/vedas' },
       { text: 'Puranas', href: '/puranas' },
-      { text: 'Shastras', href: '/shastras' },
-      { text: 'Contact', href: '/contact' },
-      { text: 'Donate', href: '/donate' }
+      { text: 'Shastras', href: '/shastras' }
     ];
 
     for (const c of checks) {

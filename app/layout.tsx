@@ -77,14 +77,17 @@ export default async function RootLayout({
         <meta name="google-site-verification" content="kxWcUTvXW7Ag5H1jtSxNuYUoKcWm-sq0on2s-h5ILF8" />
         {/* Organization & WebSite JSON-LD */}
         <Script
+          id="jsonld-site"
           type="application/ld+json"
           dangerouslySetInnerHTML={renderJsonLdScript(siteJson)}
         />
           <Script
+            id="jsonld-org"
             type="application/ld+json"
             dangerouslySetInnerHTML={renderJsonLdScript(orgJson)}
           />
         <Script
+          id="jsonld-web"
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
@@ -103,6 +106,7 @@ export default async function RootLayout({
         />
         {/* Removed Microsoft Clarity tracking code (no third-party Clarity scripts) */}
         <Script
+          id="jsonld-organization"
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
@@ -121,6 +125,7 @@ export default async function RootLayout({
         {/* Disable right-click context menu in production to reduce casual copy */}
         {process.env.NODE_ENV === "production" && (
           <Script
+            id="disable-contextmenu"
             strategy="lazyOnload"
             dangerouslySetInnerHTML={{
               __html: `(() => {

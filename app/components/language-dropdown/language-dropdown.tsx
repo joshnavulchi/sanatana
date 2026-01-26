@@ -14,7 +14,7 @@ import localeMeta from '../../../lib/localeMeta.json';
 
 import styles from './langdropdown.module.scss';
 
-export default function languagedropdown() {
+export default function LanguageDropdown() {
   const t = useT();
   const [open, setOpen] = useState(false);
   const [currentLang, setCurrentLang] = useState(DEFAULT_LOCALE);

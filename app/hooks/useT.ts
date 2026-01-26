@@ -14,7 +14,9 @@ export function useT() {
     if (!isLoading) {
       const localeObj = getLocaleObject(locale);
       if (localeObj && typeof localeObj === 'object' && Object.keys(localeObj).length > 0) {
-        forceUpdate(prev => prev + 1);
+        // Avoid calling setState synchronously inside the effect body
+        // to prevent cascading renders; schedule asynchronously.
+        setTimeout(() => forceUpdate(prev => prev + 1), 0);
       }
     }
   }, [locale, isLoading]);

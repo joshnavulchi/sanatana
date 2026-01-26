@@ -6,8 +6,8 @@ type Props = {
   locale?: string;
 };
 // Server component that renders JSON-LD for a given metaKey.
-export default function StructuredData({ metaKey, params, locale }: Props) {
-  const loc = locale ?? detectLocale(params);
+export default async function StructuredData({ metaKey, params, locale }: Props) {
+  const loc = String(locale ?? detectLocale(params) ?? 'en');
   const meta = getMeta(metaKey, params, loc) || {};
   const webpage: Record<string, any> = {
     '@context': 'https://schema.org',
@@ -45,10 +45,9 @@ export default function StructuredData({ metaKey, params, locale }: Props) {
   let pageSchema: Record<string, unknown> | null = null;
   if (typeof window === 'undefined') {
     try {
-      // eslint-disable-next-line @typescript-eslint/no-var-requires
-      const fs = require('fs');
-      const path = require('path');
-      
+      const fs = await import('fs');
+      const path = await import('path');
+
       // Try a few common filename variants similar to `getMeta`.
       const candidates = [metaKey, metaKey.replace(/_/g, '-'), metaKey.replace(/_/g, '')];
       for (const candidate of candidates) {
@@ -58,7 +57,7 @@ export default function StructuredData({ metaKey, params, locale }: Props) {
             const content = fs.readFileSync(filePath, 'utf8');
             const obj = JSON.parse(content);
             // The file may export an object keyed by the page name.
-            let pageObj = obj?.[metaKey] ?? obj?.[candidate] ?? obj;
+            const pageObj = obj?.[metaKey] ?? obj?.[candidate] ?? obj;
             if (pageObj && typeof pageObj === 'object') {
               pageSchema = pageObj.schema ?? obj.schema ?? null;
               if (pageSchema) break;

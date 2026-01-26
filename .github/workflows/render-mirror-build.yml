@@ -1,0 +1,50 @@
+name: Render Mirror Build
+
+on:
+  pull_request:
+    branches: [ development, main, production ]
+  push:
+    branches: [ production ]
+
+jobs:
+  render-mirror:
+    name: Render Build (mirror)
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'yarn'
+
+      - name: Ensure Yarn (via Corepack)
+        run: |
+          corepack enable
+          # Pin to the exact Yarn version used locally to avoid lockfile drift
+          corepack prepare yarn@4.12.0 --activate
+          yarn --version
+
+      - name: Run Render build command (mirror)
+        env:
+          NPM_CONFIG_PRODUCTION: false
+          FORCE_LOCALE_DOWNLOAD: 1
+        run: |
+          echo "Running Render-like build: export NPM_CONFIG_PRODUCTION=false && yarn install --frozen-lockfile && export FORCE_LOCALE_DOWNLOAD=1 && yarn render-build"
+          set -e
+          export NPM_CONFIG_PRODUCTION=false
+          yarn install --frozen-lockfile
+          export FORCE_LOCALE_DOWNLOAD=1
+          yarn render-build
+
+      - name: Upload static `out` artifact for debugging
+        if: success() || failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rendered-out
+          path: |
+            out/**
+            public/critical-home.css
