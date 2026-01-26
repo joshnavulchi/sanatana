@@ -2,10 +2,12 @@
 "use client";
 
 import { useEffect, useState } from 'react';
+import { usePathname } from 'next/navigation';
 import { useT } from '../../hooks/useT';
 
 export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
+  const pathname = usePathname();
   const t = useT();
 
   // Show button when page is scrolled down
@@ -24,6 +26,11 @@ export default function ScrollToTop() {
       behavior: "smooth"
     });
   };
+
+  // 🔑 AUTO scroll to top on route change
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  }, [pathname]);
 
   useEffect(() => {
     window.addEventListener("scroll", toggleVisibility);
