@@ -192,7 +192,6 @@ export default function Header() {
                 width={80}
                 height={72}
                 sizes="(min-width:1024px) 40px, 80px"
-                priority
                 className="w-[80px] md:w-[40px]"
               />
               <span>
