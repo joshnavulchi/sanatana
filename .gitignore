@@ -72,4 +72,3 @@ dist/
 locales-external/
 # Downloaded locales (regenerated during build)
 public/locales/
-package-lock.json
