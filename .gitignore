@@ -72,6 +72,3 @@ dist/
 locales-external/
 # Downloaded locales (regenerated during build)
 public/locales/
-__mocks__
-__test__
-.yarn
