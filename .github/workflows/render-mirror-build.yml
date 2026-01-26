@@ -33,10 +33,27 @@ jobs:
           NPM_CONFIG_PRODUCTION: false
           FORCE_LOCALE_DOWNLOAD: 1
         run: |
-          echo "Running Render-like build: export NPM_CONFIG_PRODUCTION=false && yarn install --frozen-lockfile && export FORCE_LOCALE_DOWNLOAD=1 && yarn render-build"
-          set -e
+          echo "Running Render-like build: export NPM_CONFIG_PRODUCTION=false && yarn install --frozen-lockfile && generate critical CSS && export FORCE_LOCALE_DOWNLOAD=1 && yarn render-build"
+          set -euo pipefail
           export NPM_CONFIG_PRODUCTION=false
           yarn install --frozen-lockfile
+
+          # Generate critical CSS for Home page so CI mirrors Render's output
+          echo "Generating critical-home.css"
+          node scripts/generate-critical-css.js || true
+
+          # If the generator produced a file that's unexpectedly large, fail
+          if [ -f public/critical-home.css ]; then
+            size=$(wc -c < public/critical-home.css | tr -d '[:space:]') || size=0
+            echo "Generated public/critical-home.css size=${size} bytes"
+            if [ "${size:-0}" -gt 8192 ]; then
+              echo "Critical CSS exceeds 8KB (${size} bytes) — failing build to avoid layout regressions"
+              exit 1
+            fi
+          else
+            echo "No public/critical-home.css generated; continuing"
+          fi
+
           export FORCE_LOCALE_DOWNLOAD=1
           yarn render-build
 
