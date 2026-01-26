@@ -2,15 +2,16 @@ name: Render Mirror Build
 
 on:
   pull_request:
-    branches: [ development, main, production ]
+    branches: [development, production]
   push:
-    branches: [ production ]
+    branches: [production]
 
 jobs:
   render-mirror:
     name: Render Build (mirror)
     runs-on: ubuntu-latest
     timeout-minutes: 90
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -23,18 +24,17 @@ jobs:
 
       - name: Ensure Yarn (via Corepack)
         run: |
+          set -e
           corepack enable
-          # Pin to the exact Yarn version used locally to avoid lockfile drift
           corepack prepare yarn@4.12.0 --activate
           yarn --version
 
-      - name: Run Render-like build: install
+      - name: Run Render-like build install
         env:
-          NPM_CONFIG_PRODUCTION: false
+          NPM_CONFIG_PRODUCTION: 'false'
         run: |
-          echo "Running Render-like build: install dependencies"
           set -euo pipefail
-          export NPM_CONFIG_PRODUCTION=false
+          echo "Running Render-like build: install dependencies"
           yarn install --frozen-lockfile
 
       - name: Restore critical CSS cache
@@ -42,40 +42,43 @@ jobs:
         uses: actions/cache@v4
         with:
           path: public/critical-home.css
-          key: critical-home-css-${{ runner.os }}-${{ hashFiles('app/**') }}
+          key: "critical-home-css-${{ runner.os }}-${{ hashFiles('app/page.tsx', 'app/components/**') }}"
 
       - name: Generate critical-home.css
         if: steps.critical-cache.outputs.cache-hit != 'true'
         run: |
+          set -e
           echo "Generating critical-home.css"
-          node scripts/generate-critical-css.js || true
+          node scripts/generate-critical-css.js
 
       - name: Use cached critical-home.css
         if: steps.critical-cache.outputs.cache-hit == 'true'
-        run: |
-          echo "Using restored public/critical-home.css"
+        run: echo "Using cached public/critical-home.css"
 
       - name: Check critical CSS size
         run: |
+          set -e
           if [ -f public/critical-home.css ]; then
-            size=$(wc -c < public/critical-home.css | tr -d '[:space:]') || size=0
-            echo "Generated public/critical-home.css size=${size} bytes"
-            if [ "${GITHUB_EVENT_NAME:-}" != "pull_request" ] && [ "${size:-0}" -gt 8192 ]; then
-              echo "Critical CSS exceeds 8KB (${size} bytes) — failing build to avoid layout regressions"
+            size=$(wc -c < public/critical-home.css | tr -d '[:space:]')
+            echo "critical-home.css size=${size} bytes"
+
+            if [ "${GITHUB_EVENT_NAME:-}" != "pull_request" ] && [ "$size" -gt 1024 ]; then
+              echo "❌ Critical CSS exceeds 1 KB (${size} bytes)"
               exit 1
             fi
           else
-            echo "No public/critical-home.css generated; continuing"
+            echo "⚠️ No critical-home.css found; continuing"
           fi
 
       - name: Run render-build
         env:
-          FORCE_LOCALE_DOWNLOAD: 1
+          FORCE_LOCALE_DOWNLOAD: '1'
         run: |
-          export FORCE_LOCALE_DOWNLOAD=1
+          set -e
+          echo "Running render-build"
           yarn render-build
 
-      - name: Upload static `out` artifact for debugging
+      - name: Upload static out artifact (debug)
         if: success() || failure()
         uses: actions/upload-artifact@v4
         with:
