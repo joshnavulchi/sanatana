@@ -65,3 +65,14 @@ node scripts/create-pages-with-client.js 1 2 about parent/child
 #    "update:locales:validate": "node scripts/update-i18n-locales.js --validate",
 
 
+git status
+git pull
+
+yarn install --mode=update-lockfile
+npm install --package-lock-only
+git add yarn.lock package-lock.json
+git commit -m "chore: regenerate lockfiles"
+git push
+
+yarn install --immutable
+yarn build
