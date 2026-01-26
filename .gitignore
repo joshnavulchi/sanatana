@@ -13,7 +13,10 @@
 # testing
 /coverage
 /__test__
-/__mocks__
+
+# Allow committing Jest mocks used in CI
+!/__mocks__/
+!/__mocks__/*
 # next.js
 /.next/
 /out/
