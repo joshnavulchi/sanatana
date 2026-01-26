@@ -20,6 +20,9 @@ export const SUPPORTED_LOCALES = [
   'zh-CN',
 ];
 
+// Remote fallback for runtime when static locales are missing (set via env in Render)
+const REMOTE_LOCALES_BASE = process.env.NEXT_PUBLIC_REMOTE_LOCALES_BASE || 'https://raw.githubusercontent.com/vulchivijay/first-contributes/main/locales';
+
 // Cache that holds already-loaded locale objects
 const localesCache: Record<string, unknown> = {};
 
@@ -114,10 +117,32 @@ async function fetchLocaleData(locale: string) {
       // console.log(`[i18n] ✓ Loaded locale ${locale} (${Object.keys(obj).length} keys)`);
       return obj;
     } else {
+      // try API fallback when static file missing
+      try {
+        const apiUrl = `/api/locales/${encodeURIComponent(locale)}`;
+        const apiResp = await fetch(apiUrl);
+        if (apiResp.ok) return await apiResp.json();
+      } catch (_) {
+        // ignore
+      }
       // console.warn(`[i18n] Failed to load ${url}: ${response.status} ${response.statusText}`);
     }
   } catch (err) {
     // console.error(`[i18n] Error loading locale ${locale}:`, err);
+  }
+
+  // Remote fallback: attempt to fetch from configured raw content base
+  try {
+    const remoteUrl = `${REMOTE_LOCALES_BASE}/${encodeURIComponent(locale)}/index.json`;
+    // console.log(`[i18n] Trying remote locale ${remoteUrl}`);
+    const resp = await fetch(remoteUrl);
+    if (resp.ok) {
+      const obj = await resp.json();
+      console.log(`[i18n] Fallback: loaded ${locale} from remote`);
+      return obj;
+    }
+  } catch (e) {
+    // ignore remote fallback errors
   }
   
   // Fallback: return default locale or empty object

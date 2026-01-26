@@ -1,569 +1,282 @@
-/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-/**
- * Script to download locales from GitHub repository for production build
- * Usage: node scripts/download-locales.js
+/* Copyright (c) 2025 sanatanadharmam.in
+ * Licensed under SEE LICENSE IN LICENSE.
  */
 
 const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
-// Configuration
+/* ================= CONFIG ================= */
+
 const GITHUB_REPO = 'vulchivijay/first-contributes';
 const GITHUB_BRANCH = 'main';
-const LOCALES_DIR = path.join(__dirname, '../public/locales');
-const METADATA_FILE = path.join(LOCALES_DIR, '.locale-metadata.json');
+const REMOTE_LOCALES_PATH = 'locales';
+const LOCAL_LOCALES_DIR = path.join(__dirname, '../public/locales');
+const META_FILE = path.join(LOCAL_LOCALES_DIR, '.locales-meta.json');
 
-const crypto = require('crypto');
+/* ============== UTILITIES ================= */
 
-/**
- * Load local metadata about downloaded locales
- */
-function loadMetadata() {
+function ensureDir(dir) {
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+}
+
+function loadMeta() {
   try {
-    if (fs.existsSync(METADATA_FILE)) {
-      return JSON.parse(fs.readFileSync(METADATA_FILE, 'utf8'));
-    }
-  } catch (err) {
-    console.warn('Could not load metadata:', err.message);
-  }
-  return { locales: {}, lastUpdate: null };
-}
-
-/**
- * Save metadata about downloaded locales
- */
-function saveMetadata(metadata) {
-  try {
-    fs.writeFileSync(METADATA_FILE, JSON.stringify(metadata, null, 2), 'utf8');
-  } catch (err) {
-    console.error('Could not save metadata:', err.message);
-  }
-}
-
-/**
- * Fetch content from URL
- */
-function fetchUrl(url) {
-  return new Promise((resolve, reject) => {
-    https.get(url, {
-      headers: {
-        'User-Agent': 'Node.js Script',
-        'Accept': 'application/vnd.github.v3+json'
-      }
-    }, (res) => {
-      let data = '';
-      
-      res.on('data', (chunk) => {
-        data += chunk;
-      });
-      
-      res.on('end', () => {
-        if (res.statusCode === 200) {
-          resolve(data);
-        } else {
-          reject(new Error(`HTTP ${res.statusCode}: ${data}`));
-        }
-      });
-    }).on('error', (err) => {
-      reject(err);
-    });
-  });
-}
-
-/**
- * Compute SHA1 for a string
- */
-function sha1(str) {
-  return crypto.createHash('sha1').update(str, 'utf8').digest('hex');
-}
-
-/**
- * Build a local manifest by hashing local JSON files. Used to detect content changes
- */
-function computeLocalManifest() {
-  const out = { locales: {} };
-  try {
-    if (!fs.existsSync(LOCALES_DIR)) return out;
-    const locales = fs.readdirSync(LOCALES_DIR).filter((d) => {
-      try { return fs.statSync(path.join(LOCALES_DIR, d)).isDirectory(); } catch (e) { return false; }
-    });
-
-    for (const locale of locales) {
-      const localeDir = path.join(LOCALES_DIR, locale);
-      const files = fs.readdirSync(localeDir).filter((f) => f.endsWith('.json'));
-      const filesMap = {};
-      for (const fname of files) {
-        try {
-          const content = fs.readFileSync(path.join(localeDir, fname), 'utf8');
-          filesMap[fname] = { sha: sha1(content), size: Buffer.byteLength(content, 'utf8') };
-        } catch (e) {
-          // ignore unreadable files
-        }
-      }
-      out.locales[locale] = { fileCount: Object.keys(filesMap).length, files: filesMap };
-    }
+    if (!fs.existsSync(META_FILE)) return {};
+    return JSON.parse(fs.readFileSync(META_FILE, 'utf8')) || {};
   } catch (e) {
-    // ignore
+    return {};
   }
-  return out;
 }
 
-/**
- * Get list of locales from GitHub
- */
-async function getLocalesList() {
-  const url = `https://api.github.com/repos/${GITHUB_REPO}/contents/locales?ref=${GITHUB_BRANCH}`;
-  const data = await fetchUrl(url);
-  const contents = JSON.parse(data);
-  
-  return contents
-    .filter(item => item.type === 'dir')
-    .map(item => item.name);
-}
-
-/**
- * Get files in a locale directory with metadata
- */
-async function getLocaleFiles(locale) {
-  const url = `https://api.github.com/repos/${GITHUB_REPO}/contents/locales/${locale}?ref=${GITHUB_BRANCH}`;
+function saveMeta(meta) {
   try {
-    const data = await fetchUrl(url);
-    const contents = JSON.parse(data);
-    return contents.filter(item => item.type === 'file').map(item => ({
-      name: item.name,
-      sha: item.sha,
-      size: item.size,
-      url: item.download_url
-    }));
-  } catch (err) {
-    console.warn(`  Warning: Could not fetch files for ${locale}:`, err.message);
-    return [];
+    fs.writeFileSync(META_FILE, JSON.stringify(meta, null, 2), 'utf8');
+  } catch (e) {
+    console.error('Failed to write meta file:', e.message);
   }
 }
 
-/**
- * Check if locale needs update
- */
-function needsUpdate(locale, remoteFiles, metadata) {
-  const localMetadata = metadata.locales[locale];
-  
-  if (!localMetadata) {
-    return { needsUpdate: true, reason: 'not downloaded yet' };
-  }
-  
-  // Check if number of files changed
-  if (!localMetadata.files || Object.keys(localMetadata.files).length !== remoteFiles.length) {
-    return { needsUpdate: true, reason: 'file count changed' };
-  }
-  
-  // Check if any file SHA changed
-  for (const file of remoteFiles) {
-    if (!localMetadata.files[file.name] || localMetadata.files[file.name].sha !== file.sha) {
-      return { needsUpdate: true, reason: `file ${file.name} changed` };
-    }
-  }
-  
-  return { needsUpdate: false };
-}
-
-/**
- * Download a file from GitHub
- */
-async function downloadFile(locale, fileName) {
-  const url = `https://raw.githubusercontent.com/${GITHUB_REPO}/${GITHUB_BRANCH}/locales/${locale}/${fileName}`;
-  try {
-    const content = await fetchUrl(url);
-    return content;
-  } catch (err) {
-    console.warn(`  Warning: Could not download ${locale}/${fileName}:`, err.message);
-    return null;
-  }
-}
-
-/**
- * Convert TypeScript index file to merged JSON
- */
-async function downloadAndMergeLocale(locale) {
-  try {
-    // Get all JSON files in the locale directory
-    const files = await getLocaleFiles(locale);
-    const jsonFiles = files.filter(f => f.name.endsWith('.json'));
-    
-    if (jsonFiles.length === 0) {
-      console.warn(`  No JSON files found for ${locale}`);
-      return null;
-    }
-    
-    // console.log(`  Found ${jsonFiles.length} JSON files to merge`);
-    
-    // Download and merge all JSON files
-    const merged = {};
-    let successCount = 0;
-    
-    for (const file of jsonFiles) {
-      const content = await downloadFile(locale, file.name);
-      if (content) {
-        try {
-          const json = JSON.parse(content);
-          deepMerge(merged, json);
-          successCount++;
-        } catch (err) {
-          console.warn(`  Warning: Could not parse ${file.name}:`, err.message);
-        }
-      }
-    }
-    
-    console.log(`  ✓ Merged ${successCount}/${jsonFiles.length} files`);
-    return merged;
-    
-  } catch (err) {
-    console.error(`  Error processing ${locale}:`, err.message);
-    return null;
-  }
-}
-
-/**
- * Deep merge two objects
- */
 function deepMerge(target, source) {
-  if (source === undefined) return target;
-  
-  if (Array.isArray(target) && Array.isArray(source)) {
-    for (let i = 0; i < source.length; i++) {
-      target[i] = deepMerge(target[i] || {}, source[i]);
-    }
-    return target;
-  }
-  
-  if (target && typeof target === 'object' && source && typeof source === 'object') {
-    for (const key of Object.keys(source)) {
-      if (target[key] && typeof target[key] === 'object' && typeof source[key] === 'object') {
-        target[key] = deepMerge(target[key], source[key]);
-      } else {
-        target[key] = source[key];
-      }
-    }
-    return target;
-  }
-  
-  return source;
-}
-
-/**
- * Merge missing keys from source into target without overwriting existing values
- */
-function mergeMissing(target, source) {
-  if (!source || typeof source !== 'object') return target;
-  if (!target || typeof target !== 'object') return source;
   for (const key of Object.keys(source)) {
-    if (source[key] && typeof source[key] === 'object' && !Array.isArray(source[key])) {
-      if (!target[key] || typeof target[key] !== 'object') target[key] = {};
-      mergeMissing(target[key], source[key]);
+    if (
+      source[key] &&
+      typeof source[key] === 'object' &&
+      !Array.isArray(source[key]) &&
+      typeof target[key] === 'object' &&
+      !Array.isArray(target[key])
+    ) {
+      deepMerge(target[key], source[key]);
     } else {
-      if (target[key] === undefined || target[key] === null || target[key] === '') {
-        target[key] = source[key];
-      }
+      target[key] = source[key];
     }
   }
   return target;
 }
 
-/**
- * Ensure directory exists
- */
-function ensureDir(dir) {
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir, { recursive: true });
+// Remove ambiguous / invisible Unicode characters from strings
+const AMBIGUOUS_RE = /[\u0000-\u0008\u000B\u000C\u000E-\u001F\u00AD\u200B\uFEFF\u200E\u200F\u202A-\u202E\u2066-\u2069]/g;
+
+function sanitizeValue(v) {
+  if (typeof v === 'string') {
+    return v.replace(AMBIGUOUS_RE, '');
+  }
+  if (Array.isArray(v)) return v.map(sanitizeValue);
+  if (v && typeof v === 'object') return sanitizeObject(v);
+  return v;
+}
+
+function sanitizeObject(obj) {
+  if (typeof obj !== 'object' || obj === null) return obj;
+  if (Array.isArray(obj)) return obj.map(sanitizeValue);
+  for (const k of Object.keys(obj)) {
+    const val = obj[k];
+    if (typeof val === 'string') obj[k] = val.replace(AMBIGUOUS_RE, '');
+    else if (Array.isArray(val)) obj[k] = val.map(sanitizeValue);
+    else if (val && typeof val === 'object') obj[k] = sanitizeObject(val);
+  }
+  return obj;
+}
+
+async function sanitizeAllLocales() {
+  if (!fs.existsSync(LOCAL_LOCALES_DIR)) return;
+  const locales = fs.readdirSync(LOCAL_LOCALES_DIR).filter((d) => {
+    const p = path.join(LOCAL_LOCALES_DIR, d);
+    return fs.statSync(p).isDirectory();
+  });
+
+  for (const locale of locales) {
+    const idx = path.join(LOCAL_LOCALES_DIR, locale, 'index.json');
+    if (!fs.existsSync(idx)) continue;
+    try {
+      const raw = fs.readFileSync(idx, 'utf8');
+      const json = JSON.parse(raw);
+      const before = JSON.stringify(json);
+      sanitizeObject(json);
+      const after = JSON.stringify(json);
+      if (before !== after) {
+        fs.writeFileSync(idx, JSON.stringify(json, null, 2), 'utf8');
+        console.log(`Sanitized ${locale}/index.json`);
+      }
+    } catch (e) {
+      console.error(`Failed to sanitize ${locale}/index.json:`, e.message);
+    }
   }
 }
 
-/**
- * Download all locales (with smart update detection)
- */
-async function downloadAllLocales(forceDownload = false) {
-  console.log('='.repeat(60));
-  console.log('Downloading locales from GitHub');
-  console.log('='.repeat(60));
-  console.log(`Repository: ${GITHUB_REPO}`);
-  console.log(`Branch: ${GITHUB_BRANCH}`);
-  console.log(`Output: ${LOCALES_DIR}\n`);
-  
-  try {
-    // Load existing metadata
-    const metadata = loadMetadata();
-    
-    // Ensure output dir exists
-    ensureDir(LOCALES_DIR);
-
-    // Compute local manifest (sha1 of files) to detect content changes
-    const localManifest = computeLocalManifest();
-
-    // Detect Render / CI environments and provide an opt-out to avoid
-    // downloading all locales on every clean deploy. On Render, prefer
-    // caching `public/locales/.locale-metadata.json` between builds and
-    // only run downloads when forced.
-    const runningOnRender = !!process.env.RENDER || !!process.env.RENDER_SERVICE_ID || !!process.env.RENDER_INSTANCE_ID;
-    const envForceDownload = !!process.env.FORCE_LOCALE_DOWNLOAD || !!process.env.FORCE_LOCALES_DOWNLOAD || process.env.DOWNLOAD_LOCALES === '1';
-    if (runningOnRender && !forceDownload && !envForceDownload && !fs.existsSync(METADATA_FILE)) {
-      console.log('Detected Render deployment with no cached locales metadata.');
-      console.log('To avoid downloading all locales on every deploy, skipping remote fetch.');
-      console.log('If you want to force downloads on this deployment, set `FORCE_LOCALE_DOWNLOAD=1` or run with `--force`.');
-      console.log('Recommend enabling a build cache or persistent disk for `public/locales` on Render.');
-      return;
-    }
-
-    // If we have recent metadata and not forcing a download, skip network
-    // to avoid repeated downloads during active development. This means
-    // locales are refreshed at most once per hour unless --force is used.
-    try {
-      const MAX_AGE_MS = 1000 * 60 * 60; // 1 hour
-      if (!forceDownload && metadata && metadata.lastUpdate) {
-        const last = new Date(metadata.lastUpdate).getTime();
-        if (Date.now() - last < MAX_AGE_MS) {
-          console.log('Local locale metadata is recent; skipping remote fetch.');
-          return;
+function fetch(url) {
+  return new Promise((resolve, reject) => {
+    https.get(
+      url,
+      {
+        headers: {
+          'User-Agent': 'locale-downloader',
+          Accept: 'application/vnd.github.v3+json'
         }
+      },
+      (res) => {
+        let data = '';
+        res.on('data', (c) => (data += c));
+        res.on('end', () => {
+          if (res.statusCode === 200) resolve(data);
+          else reject(new Error(`HTTP ${res.statusCode}`));
+        });
       }
-    } catch (e) {
-      // ignore errors and continue
-    }
+    ).on('error', reject);
+  });
+}
 
-    // If localManifest shows locales present and not forcing download, we'll try
-    // to compare with remote metadata and only download changed files. If the
-    // remote API is unavailable (rate limit), we fall back to using local files.
-    let locales = [];
-    try {
-      console.log('Fetching locales list...');
-      locales = await getLocalesList();
-      // console.log(`Found ${locales.length} locales: ${locales.join(', ')}\n`);
-    } catch (err) {
-      console.warn('Could not fetch remote locales list:', err.message);
-      // If local manifest has content, skip network download and continue
-      if (!forceDownload && Object.keys(localManifest.locales || {}).length > 0) {
-        console.log('Using existing locales from public/locales (remote unavailable).');
-        return;
+/* ============== GITHUB API ================= */
+async function listLocales() {
+  const url = `https://api.github.com/repos/${GITHUB_REPO}/contents/${REMOTE_LOCALES_PATH}?ref=${GITHUB_BRANCH}`;
+  const res = JSON.parse(await fetch(url));
+  return res.filter((x) => x.type === 'dir').map((x) => x.name);
+}
+
+async function listLocaleFiles(locale) {
+  const url = `https://api.github.com/repos/${GITHUB_REPO}/contents/${REMOTE_LOCALES_PATH}/${locale}?ref=${GITHUB_BRANCH}`;
+  const res = JSON.parse(await fetch(url));
+  return res.filter((x) => x.type === 'file' && x.name.endsWith('.json'));
+}
+
+async function downloadRaw(url) {
+  return fetch(url);
+}
+
+/* ============== MAIN LOGIC ================= */
+
+async function downloadLocales({ force = false } = {}) {
+  console.log('\nDownloading locales from GitHub');
+  console.log(`Repo: ${GITHUB_REPO} (${GITHUB_BRANCH})`);
+  console.log(`Output: ${LOCAL_LOCALES_DIR}\n`);
+
+  ensureDir(LOCAL_LOCALES_DIR);
+  const meta = loadMeta();
+  const locales = await listLocales();
+
+  for (const locale of locales) {
+    console.log(`→ ${locale}`);
+    const localeDir = path.join(LOCAL_LOCALES_DIR, locale);
+    ensureDir(localeDir);
+
+    const files = await listLocaleFiles(locale);
+
+    for (const file of files) {
+      const outputPath = path.join(localeDir, file.name);
+      const metaKey = `${locale}/${file.name}`;
+
+      // Skip download when remote SHA equals stored meta (already merged or up-to-date)
+      if (!force && meta[metaKey] === file.sha) {
+        continue;
       }
-      throw err;
-    }
-    
-    let successCount = 0;
-    let errorCount = 0;
-    let skippedCount = 0;
-    let updatedCount = 0;
-    
-    const newMetadata = {
-      locales: {},
-      lastUpdate: new Date().toISOString()
-    };
-    
-    // Download each locale
-    for (const locale of locales) {
-      console.log(`Processing ${locale}...`);
-      const localeDir = path.join(LOCALES_DIR, locale);
-      
-      // Get remote files metadata (name + sha) to decide what to download
-      let files = [];
+
       try {
-        files = await getLocaleFiles(locale);
-      } catch (err) {
-        console.warn(`  Warning: Could not fetch files for ${locale}:`, err.message);
-        errorCount++;
-        continue;
+        const content = await downloadRaw(file.download_url);
+        fs.writeFileSync(outputPath, content, 'utf8');
+        meta[metaKey] = file.sha;
+        console.log(`✓ ${locale}/${file.name}`);
+      } catch (e) {
+        console.error(`Failed to download ${locale}/${file.name}:`, e.message);
       }
-      const jsonFiles = files.filter(f => f.name.endsWith('.json'));
+    }
 
-      if (jsonFiles.length === 0) {
-        console.warn(`  No JSON files found for ${locale}`);
-        errorCount++;
-        continue;
-      }
+    // Merge namespace JSONs into index.json and remove others
+    try {
+      const items = fs.readdirSync(localeDir).filter((n) => n.endsWith('.json'));
+      const namespaces = items.filter((n) => n !== 'index.json');
 
-      // Build local files map for this locale.
-      // Prefer previously saved metadata (which stores GitHub blob SHAs).
-      // Fall back to a content-based local manifest if metadata is not available.
-      const localFiles = (metadata.locales && metadata.locales[locale] && metadata.locales[locale].files) || (localManifest.locales && localManifest.locales[locale] && localManifest.locales[locale].files) || {};
-
-      // Determine which files changed by comparing remote SHA (from GitHub) to local sha
-      const toDownload = [];
-      for (const file of jsonFiles) {
-        const remoteSha = file.sha || '';
-        const localEntry = localFiles[file.name];
-        if (!localEntry || !localEntry.sha || localEntry.sha !== remoteSha) {
-          toDownload.push(file);
-        }
-      }
-
-      if (!forceDownload && toDownload.length === 0) {
-        console.log(`  ✓ Up to date - skipping (${jsonFiles.length} files)`);
-        // Preserve existing metadata if present, otherwise synthesize from localManifest
-        newMetadata.locales[locale] = metadata.locales[locale] || localManifest.locales[locale] || { fileCount: jsonFiles.length, files: {} };
-        skippedCount++;
-        console.log('');
-        continue;
-      }
-
-      if (toDownload.length > 0) {
-        console.log(`  Update needed: ${toDownload.length} changed files`);
-        updatedCount++;
-      }
-
-      ensureDir(localeDir);
-
-      // console.log(`  Found ${jsonFiles.length} JSON files (${toDownload.length} to download)`);
-
-      // Download changed JSON files individually
-      const merged = {};
-      let downloadedCount = 0;
-      const fileMetadata = {};
-
-      for (const file of jsonFiles) {
-        // If file not in toDownload, reuse local content
-        if (!toDownload.find(f => f.name === file.name)) {
+      if (namespaces.length > 0) {
+        let merged = {};
+        for (const ns of namespaces) {
+          const p = path.join(localeDir, ns);
           try {
-            const existingContent = fs.readFileSync(path.join(localeDir, file.name), 'utf8');
-            const json = JSON.parse(existingContent);
-            deepMerge(merged, json);
-            fileMetadata[file.name] = { sha: localFiles[file.name]?.sha || '', size: localFiles[file.name]?.size || Buffer.byteLength(existingContent, 'utf8'), downloadedAt: localFiles[file.name]?.downloadedAt || new Date().toISOString() };
-            downloadedCount++;
-            continue;
+            const raw = fs.readFileSync(p, 'utf8');
+            const json = JSON.parse(raw);
+            merged = deepMerge(merged, json);
           } catch (e) {
-            // fallback to downloading if reading fails
+            console.error(`Failed to parse ${locale}/${ns}:`, e.message);
           }
         }
 
-        const content = await downloadFile(locale, file.name);
-        if (content) {
-          try {
-            const json = JSON.parse(content);
-
-            // Save individual file
-            const outputPath = path.join(localeDir, file.name);
-            fs.writeFileSync(outputPath, content, 'utf8');
-            console.log(`  ✓ Downloaded ${file.name}`);
-
-            // Store file metadata
-            fileMetadata[file.name] = {
-              sha: file.sha,
-              size: file.size,
-              downloadedAt: new Date().toISOString()
-            };
-
-            // Also merge for index.json
-            deepMerge(merged, json);
-            downloadedCount++;
-          } catch (err) {
-            console.warn(`  ✗ Could not parse ${file.name}:`, err.message);
-            errorCount++;
-          }
-        } else {
-          errorCount++;
-        }
-      }
-      
-      // Save the merged data as index.json
-      if (downloadedCount > 0) {
         const indexPath = path.join(localeDir, 'index.json');
         fs.writeFileSync(indexPath, JSON.stringify(merged, null, 2), 'utf8');
-        console.log(`  ✓ Created index.json (merged ${downloadedCount} files)`);
-        
-        // Store locale metadata
-        newMetadata.locales[locale] = {
-          fileCount: downloadedCount,
-          files: fileMetadata,
-          lastUpdate: new Date().toISOString()
-        };
-        
-        successCount++;
-      } else {
-        console.warn(`  ✗ Failed to process ${locale}`);
-        errorCount++;
-      }
-      
-      console.log('');
-    }
-    
-    // Save metadata
-    saveMetadata(newMetadata);
-    
-    console.log('='.repeat(60));
-    console.log(`✓ Download completed!`);
-    console.log(`  Downloaded: ${successCount} locales`);
-    if (updatedCount > 0) {
-      console.log(`  Updated: ${updatedCount} locales`);
-    }
-    if (skippedCount > 0) {
-      console.log(`  Skipped (up to date): ${skippedCount} locales`);
-    }
-    if (errorCount > 0) {
-      console.log(`  Errors: ${errorCount} locales`);
-    }
-    console.log('='.repeat(60));
-    // After downloading, apply any generated placeholder files into locale index.json
-    try {
-      for (const locale of Object.keys(newMetadata.locales || {})) {
-        const localeDir = path.join(LOCALES_DIR, locale);
-        const placeholderPath = path.join(localeDir, '_placeholders.generated.json');
-        const indexPath = path.join(localeDir, 'index.json');
-        if (fs.existsSync(placeholderPath)) {
+        console.log(`→ merged ${locale} → index.json`);
+
+        // remove namespace files (keep meta entries so unchanged remote files aren't re-downloaded)
+        for (const ns of namespaces) {
+          const p = path.join(localeDir, ns);
           try {
-            const placeholder = JSON.parse(fs.readFileSync(placeholderPath, 'utf8'));
-            let index = {};
-            if (fs.existsSync(indexPath)) {
-              try { index = JSON.parse(fs.readFileSync(indexPath, 'utf8')); } catch (e) { index = {}; }
-            } else {
-              // Attempt to merge individual json files into index if index.json missing
-              const jsonFiles = fs.readdirSync(localeDir).filter(f => f.endsWith('.json') && f !== '_placeholders.generated.json');
-              for (const jf of jsonFiles) {
-                try {
-                  const j = JSON.parse(fs.readFileSync(path.join(localeDir, jf), 'utf8'));
-                  deepMerge(index, j);
-                } catch (e) { /* ignore */ }
-              }
-            }
-            // Merge missing keys only
-            mergeMissing(index, placeholder);
-            fs.writeFileSync(indexPath, JSON.stringify(index, null, 2), 'utf8');
-            console.log(`  ✓ Applied placeholders to ${locale}/index.json`);
-          } catch (err) {
-            console.warn(`  Warning: could not apply placeholders for ${locale}:`, err.message);
-          }
-        }
-      }
-    } catch (e) {
-      // non-fatal
-    }
-  } catch (err) {
-    console.error('\n✗ Download failed:', err.message);
-    // If local locales are present, treat failure as non-fatal and continue.
-    try {
-      if (fs.existsSync(LOCALES_DIR)) {
-        const existing = fs.readdirSync(LOCALES_DIR).filter((f) => {
-          try {
-            return fs.statSync(path.join(LOCALES_DIR, f)).isDirectory();
+            fs.unlinkSync(p);
           } catch (e) {
-            return false;
+            console.error(`Failed to remove ${locale}/${ns}:`, e.message);
           }
-        });
-        if (existing.length > 0) {
-          console.log('Using existing locales from public/locales despite download failure.');
-          return;
         }
       }
     } catch (e) {
-      // ignore
+      console.error(`Failed to merge locale ${locale}:`, e.message);
     }
-    process.exit(1);
+  }
+
+  saveMeta(meta);
+  console.log('✓ Locale download and merge completed\n');
+
+  // Deployment verification: ensure index.json exists for each locale and report
+  try {
+    const dirs = fs.readdirSync(LOCAL_LOCALES_DIR).filter((n) => {
+      try {
+        return fs.statSync(path.join(LOCAL_LOCALES_DIR, n)).isDirectory();
+      } catch (_) {
+        return false;
+      }
+    });
+
+    const ok = [];
+    const missing = [];
+
+    for (const d of dirs) {
+      const idx = path.join(LOCAL_LOCALES_DIR, d, 'index.json');
+      if (fs.existsSync(idx)) {
+        try {
+          const st = fs.statSync(idx);
+          if (st.size > 10) ok.push(d);
+          else missing.push(d);
+        } catch (_) {
+          missing.push(d);
+        }
+      } else {
+        missing.push(d);
+      }
+    }
+
+    console.log('Locale deployment verification:');
+    for (const l of ok) console.log(`  ✓ ${l} -> public/locales/${l}/index.json`);
+    for (const l of missing) console.warn(`  ✗ ${l} -> MISSING index.json in public/locales/${l}`);
+
+    if (missing.length > 0) {
+      console.warn('\nWarning: Some locales are missing `index.json`. Ensure `download-locales.js` ran during build and `public/locales` is packaged in the deploy artifact.');
+    } else {
+      console.log('\nAll locales present in public/locales.');
+    }
+  } catch (e) {
+    console.error('Failed to verify deployed locales:', e.message);
   }
 }
 
-// Run the script
+/* ============== CLI ================= */
+
 if (require.main === module) {
-  const forceDownload = process.argv.includes('--force');
-  if (forceDownload) {
-    console.log('🔄 Force download mode enabled\n');
+  const force = process.argv.includes('--force');
+  const skipIfMeta = process.argv.includes('--skip-if-meta') || process.argv.includes('--skip');
+
+  if (skipIfMeta && fs.existsSync(META_FILE)) {
+    console.log('Meta present — skipping locale download (use --force to override)');
+    process.exit(0);
   }
-  downloadAllLocales(forceDownload);
+
+  downloadLocales({ force }).catch((err) => {
+    console.error('Locale download failed:', err.message);
+    process.exit(1);
+  });
 }
 
-module.exports = { downloadAllLocales };
+module.exports = { downloadLocales };
