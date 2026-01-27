@@ -66,15 +66,5 @@
   },
   "overrides": {
     "nanoid": "3.3.8"
-  },
-  "browserslist": [
-    "chrome >= 91",
-    "edge >= 91",
-    "firefox >= 90",
-    "safari >= 15",
-    "ios >= 15",
-    "and_chr >= 91",
-    "and_ff >= 90",
-    "samsung >= 14"
-  ]
+  }
 }
