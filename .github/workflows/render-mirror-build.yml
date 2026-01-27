@@ -21,16 +21,6 @@ jobs:
         with:
           node-version: '20'
 
-      # Clean workspace: remove any existing `node_modules` and non-npm lockfiles
-      # This avoids conflicts with npm ci installs in CI and prevents
-      # stray lockfiles (yarn.lock, pnpm-lock.yaml, package.json.lock)
-      # from interfering with `npm ci`.
-      # We intentionally keep `package-lock.json` so the install is deterministic.
-      - name: Clean workspace (remove node_modules + non-npm lockfiles)
-        run: |
-          rm -rf node_modules
-          rm -f yarn.lock pnpm-lock.yaml package.json.lock
-
       - name: Install dependencies with npm
         run: |
           set -e
