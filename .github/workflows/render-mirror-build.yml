@@ -21,31 +21,10 @@ jobs:
         with:
           node-version: '20'
 
-      # Clean workspace: remove any existing `node_modules` and non-Yarn lockfiles
-      # This avoids conflicts with Yarn Berry immutable installs in CI and prevents
-      # stray lockfiles (package-lock.json, pnpm-lock.yaml, package.json.lock)
-      # from interfering with `yarn install --immutable`.
-      # We intentionally keep `yarn.lock` and Yarn config files so the install is deterministic.
-      - name: Clean workspace (remove node_modules + non-Yarn lockfiles)
-        run: |
-          rm -rf node_modules
-          rm -f package-lock.json pnpm-lock.yaml package.json.lock
-
-      - name: Ensure Yarn (via Corepack)
+      - name: Install dependencies with npm
         run: |
           set -e
-          corepack enable
-          corepack prepare yarn@4.12.0 --activate
-          yarn --version
-
-      # 🔑 REQUIRED for Yarn 4 immutable installs
-      - name: Cache Yarn Berry cache
-        uses: actions/cache@v4
-        with:
-          path: .yarn/cache
-          key: yarn-cache-${{ runner.os }}-${{ hashFiles('yarn.lock') }}
-          restore-keys: |
-            yarn-cache-${{ runner.os }}-
+          npm --version
 
       - name: Run Render-like build install
         env:
@@ -53,13 +32,13 @@ jobs:
         run: |
           set -euo pipefail
           echo "Running Render-like build: install dependencies"
-          yarn install --immutable
+          npm ci
 
       - name: Cache Next.js build cache
         uses: actions/cache@v4
         with:
           path: .next/cache
-          key: next-cache-${{ runner.os }}-${{ hashFiles('package.json', 'yarn.lock', 'next.config.ts') }}
+          key: next-cache-${{ runner.os }}-${{ hashFiles('package.json', 'package-lock.json', 'next.config.ts') }}
           restore-keys: |
             next-cache-${{ runner.os }}-
 
@@ -102,7 +81,7 @@ jobs:
         run: |
           set -e
           echo "Running render-build"
-          yarn render-build
+          npm run render-build
 
       - name: Upload static out artifact (debug)
         if: success() || failure()

@@ -265,8 +265,14 @@ async function downloadLocales({ force = false } = {}) {
 /* ============== CLI ================= */
 
 if (require.main === module) {
-  const force = process.argv.includes('--force');
+  const force = process.argv.includes('--force') || process.env.FORCE_LOCALE_DOWNLOAD === '1' || process.env.DOWNLOAD_LOCALES === '1';
   const skipIfMeta = process.argv.includes('--skip-if-meta') || process.argv.includes('--skip');
+  const skipLocaleDownload = process.env.SKIP_LOCALE_DOWNLOAD === '1';
+
+  if (skipLocaleDownload) {
+    console.log('SKIP_LOCALE_DOWNLOAD=1 — skipping locale download');
+    process.exit(0);
+  }
 
   if (skipIfMeta && fs.existsSync(META_FILE)) {
     console.log('Meta present — skipping locale download (use --force to override)');

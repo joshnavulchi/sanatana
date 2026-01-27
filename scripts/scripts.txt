@@ -15,7 +15,7 @@
     "meta:refine": "node scripts/meta-tools.js refine",
     "meta:all": "node scripts/meta-tools.js all",
     "complete-clean": "Remove-Item node_modules, package-lock.json, dist, build, .next, .cache, coverage, .turbo, .vite, .parcel-cache -Recurse -Force -ErrorAction SilentlyContinue",
-    "clean": "Remove-Item node_modules, package-lock.json, yarn.lock, .next, .cache, .parcel-cache -Recurse -Force -ErrorAction SilentlyContinue",
+    "clean": "Remove-Item node_modules, package-lock.json, .next, .cache, .parcel-cache -Recurse -Force -ErrorAction SilentlyContinue",
     "generate:component-from-locale": "node scripts/generate-component.js",
     "generate:analytics": "node scripts/generate-analytics-json.js",
     "noEmit:bigmem": "node --max-old-space-size=8192 ./node_modules/typescript/bin/tsc --noEmit",
@@ -68,16 +68,10 @@ node scripts/create-pages-with-client.js 1 2 about parent/child
 git status
 git pull
 
-yarn install --mode=update-lockfile
 npm install --package-lock-only
-git add yarn.lock package-lock.json
+git add package-lock.json
 git commit -m "chore: regenerate lockfiles"
 git push
 
-yarn install --immutable
-yarn build
-
-corepack enable
-corepack prepare yarn@4.12.0 --activate
-yarn install --immutable
-yarn render-build
+npm ci
+npm run build
