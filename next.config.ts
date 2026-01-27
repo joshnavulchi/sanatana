@@ -39,6 +39,8 @@ const nextConfig = {
   // Experimental CSS optimization (dedupe & minimize CSS across pages).
   experimental: {
     optimizeCss: true,
+    // Enable optimized resource loading hints
+    optimizePackageImports: ['react', 'react-dom'],
   },
   // This app is statically exported. `output: 'export'` and `trailingSlash: true`
   // are set to produce a static site suitable for static hosts.

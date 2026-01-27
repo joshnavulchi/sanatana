@@ -14,6 +14,8 @@ import CookieConsent from './components/cookie-consent/CookieConsent';
 import TopProgress from './components/progress/TopProgress';
 import DigitalClockLoader from './components/digitalclock/DigitalClockLoader';
 import ScrollToTop from './components/scroll-to-top/scroll-to-top';
+import ResourceHints from './components/resource-hints/ResourceHints';
+import WebVitalsReporter from './components/web-vitals/WebVitalsReporter';
 
 import "./globals.css"; // tailwind base styles
 
@@ -72,6 +74,8 @@ export default async function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
         {/* Prevent browser automatic translation UI (Chrome/Google Translate) */}
         <meta name="google" content="notranslate" />
+        {/* Early resource hints to reduce network latency */}
+        <ResourceHints />
         {/* Preload LCP image with high priority for optimal loading */}
         <link 
           rel="preload" 
@@ -79,28 +83,48 @@ export default async function RootLayout({
           href="/images/home/mobile-hero.png"
           imageSrcSet="/images/home/hero.png 1024w, /images/home/mobile-hero.png 768w" 
           imageSizes="(min-width: 1024px) 50vw, 100vw"
+          fetchPriority="high"
         />
         {/* Page-specific override: cache for 30 days */}
         <meta httpEquiv="Cache-Control" content="max-age=2592000, must-revalidate" />
         <meta httpEquiv="Pragma" content="cache" />
         <meta httpEquiv="Expires" content="2592000" />
-        <link rel="stylesheet" href="/globals.from-scss.css" />
+        {/* Defer non-critical global styles */}
+        <link rel="preload" href="/globals.from-scss.css" as="style" />
+        <Script
+          id="load-deferred-css"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(){
+                var l=document.createElement('link');
+                l.rel='stylesheet';
+                l.href='/globals.from-scss.css';
+                document.head.appendChild(l);
+              })();
+            `
+          }}
+        />
+        <noscript><link rel="stylesheet" href="/globals.from-scss.css" /></noscript>
         {/* JSON-LD structured data for Website/Organization */}
         <meta name="google-site-verification" content="kxWcUTvXW7Ag5H1jtSxNuYUoKcWm-sq0on2s-h5ILF8" />
-        {/* Organization & WebSite JSON-LD */}
+        {/* Organization & WebSite JSON-LD - defer non-critical structured data */}
         <Script
           id="jsonld-site"
           type="application/ld+json"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={renderJsonLdScript(siteJson)}
         />
           <Script
             id="jsonld-org"
             type="application/ld+json"
+            strategy="afterInteractive"
             dangerouslySetInnerHTML={renderJsonLdScript(orgJson)}
           />
         <Script
           id="jsonld-web"
           type="application/ld+json"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
@@ -120,6 +144,7 @@ export default async function RootLayout({
         <Script
           id="jsonld-organization"
           type="application/ld+json"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
@@ -132,13 +157,14 @@ export default async function RootLayout({
           }}
         />
         {/* Google Analytics is loaded on user consent via the CookieConsent component. */}
-        {/* Preload local font with proper attributes to satisfy diagnostics */}
+        {/* Preload local font with high priority to reduce font loading delay */}
         <link 
           rel="preload" 
           href="/_next/static/media/a218039a3287bcfd-s.p.4a23d71b.woff2" 
           as="font" 
           type="font/woff2" 
           crossOrigin="anonymous"
+          fetchPriority="high"
         />
         <style dangerouslySetInnerHTML={{
           __html: `
@@ -200,6 +226,7 @@ export default async function RootLayout({
               <DigitalClockLoader />
               <ScrollToTop />
               <CookieConsent />
+              <WebVitalsReporter />
             </ThemeProvider>
           </LocaleProvider>
         </Suspense>
