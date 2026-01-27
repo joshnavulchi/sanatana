@@ -5,7 +5,7 @@ import WorldMapAnimated from '../worldmap/wordmap';
 
 import styles from './gitsupport.module.scss';
 
-export default function GitSupport() {
+export default function GitSupport({ locale }: { locale?: string }) {
   const t = useT();
   return (
     <section className={`gradient-background map-wrapper md:min-h-screen relative z-0 overflow-hidden`}>

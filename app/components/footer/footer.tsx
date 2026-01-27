@@ -26,7 +26,7 @@ export default function Footer() {
         try { return JSON.parse(raw); } catch { return {} }
       }
       return raw as Record<string, string>;
-    } catch {
+    } catch (e) {
       return {};
     }
   };

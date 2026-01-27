@@ -15,6 +15,7 @@ export default function HeroSection() {
   const secondaryCtaLabel = parseList(t("home.hero.secondarycta.label"));
   const secondaryCtaLink = parseList(t("home.hero.secondarycta.link"));
   const scroll = parseList(t("home.hero.scroll"));
+  const tags = parseList(t("home.topics"));
 
   return (
     <div className={`${styles.herosection} w-full md:h-full`} style={{ minHeight: '600px' }}>

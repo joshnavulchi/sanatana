@@ -9,6 +9,8 @@ import { useLocale } from '../../context/locale-context';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import LazyImage from '../lazy-image/LazyImage';
+import BannerNotifications from '../notifications';
+import ThemeToggle from '../theme-toggle/ThemeToggle';
 
 const LanguageDropdown = dynamic(() => import("../language-dropdown/language-dropdown"), { ssr: false });
 // Start with default-locale fallbacks so header can render synchronously
@@ -18,17 +20,12 @@ import styles from './header.module.scss';
 export default function Header() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
-  const defaultObj = (getLocaleObject(DEFAULT_LOCALE) as Record<string, unknown>) || {};
+  const defaultObj = (getLocaleObject(DEFAULT_LOCALE) as any) || {};
   const defaultSiteTitle = (defaultObj?.siteTitle && (defaultObj.siteTitle?.siteTitle || defaultObj.siteTitle)) || (defaultObj?.sitetitle) || 'Sanātana Dharma';
-  const defaultNav = (defaultObj?.nav as Record<string, unknown>) || {};
+  const defaultNav = (defaultObj?.nav as any) || {};
   const defaultBanner = (defaultObj && (defaultObj.bannerNotifications ?? defaultObj.banner ?? defaultObj.banner_notifications)) || null;
   const defaultBanner2 = (defaultObj && (defaultObj.bannerNotifications2 ?? defaultObj.banner2 ?? defaultObj.banner_notifications2)) || null;
-  const [translations, setTranslations] = useState<{
-    siteTitle: string;
-    nav: Record<string, unknown>;
-    banner: unknown;
-    banner2: unknown;
-  }>({
+  const [translations, setTranslations] = useState<any>({
     siteTitle: defaultSiteTitle,
     nav: defaultNav,
     banner: defaultBanner,
@@ -62,7 +59,7 @@ export default function Header() {
         }
         setDropdownPositions((s) => ({ ...s, [k]: Math.round(left) }));
       }
-    } catch {
+    } catch (e) {
       // ignore measurement errors
     }
     setOpenDropdown(k);
@@ -95,7 +92,7 @@ export default function Header() {
         id={id}
         role="menu"
         aria-hidden={!open}
-        style={style as React.CSSProperties}
+        style={style as any}
         className={`absolute top-full w-56 rounded bg-white shadow-md overflow-hidden transition-all duration-150 transform origin-top ${positionLeft != null ? '' : alignClass} ${visible ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-95 -translate-y-1"} ${styles.dropdownAnimate}`}
       >
         {children}
@@ -112,15 +109,15 @@ export default function Header() {
       try {
         await loadLocale(locale);
         if (!mounted) return;
-        const locObj = (getLocaleObject(locale) as Record<string, unknown>) || {}; // entire locale files getting
+        const locObj = (getLocaleObject(locale) as any) || {}; // entire locale files getting
         const siteTitle = (locObj?.sitetitle) || 'Sanātana Dharma';
-        const nav = (locObj?.nav as Record<string, unknown>) || {};
+        const nav = (locObj?.nav as any) || {};
         // Support multiple key styles in locale files: snake_case (banner_notifications)
         // and camelCase (bannerNotifications). Prefer explicit banner keys when present.
         const banner = (locObj && (locObj.bannerNotifications ?? locObj.banner ?? locObj.banner_notifications)) || null;
         const banner2 = (locObj && (locObj.bannerNotifications2 ?? locObj.banner2 ?? locObj.banner_notifications2)) || null;
         setTranslations({ siteTitle, nav, banner, banner2 });
-      } catch {
+      } catch (e) {
         // fallback to English (already in state)
       }
     })();
@@ -208,10 +205,10 @@ export default function Header() {
               const topKeys = entries.map(([k]) => k);
               // keys that render dropdowns on desktop (exclude simple links)
               const dropdownKeys = entries
-                .filter(([k]) => !(k === 'home' || k === 'contact' || k === 'about' || k === 'donate'))
+                .filter(([k, v]) => !(k === 'home' || k === 'contact' || k === 'about' || k === 'donate'))
                 .filter(([k, v]) => typeof v !== 'string')
                 .map(([k]) => k);
-              return entries.map(([key, val]: [string, unknown]) => {
+              return entries.map(([key, val]: [string, any], idx: number) => {
                 if (key === 'home') return null;
                 if (key === 'contact') return null;
                 if (key === 'about') return null;
@@ -310,11 +307,11 @@ export default function Header() {
                                   className="block"
                                   role="menuitem"
                                   tabIndex={0}
-                                  ref={(el: HTMLAnchorElement | null) => {
+                                  ref={(el: any) => {
                                     if (!dropdownRefs.current[key]) dropdownRefs.current[key] = [];
                                     dropdownRefs.current[key][idx] = el;
                                   }}
-                                  onKeyDown={(e: React.KeyboardEvent) => {
+                                  onKeyDown={(e: any) => {
                                     const arr = dropdownRefs.current[key] || [];
                                     if (e.key === 'ArrowDown') {
                                       e.preventDefault();
@@ -369,7 +366,7 @@ export default function Header() {
         {open && (
           <div className={`md:hidden ${styles.mobile} border-t border-b border-white/50`}>
             <div role="menu" className={`${styles.mobilePrimaryMenu} flex flex-col`}>
-                {Object.entries(translations.nav).map(([key, val]: [string, unknown]) => {
+                {Object.entries(translations.nav).map(([key, val]: [string, any]) => {
                 if (key === 'home') return null;
                 if (key === 'contact') return null;
                 if (key === 'about') return null;

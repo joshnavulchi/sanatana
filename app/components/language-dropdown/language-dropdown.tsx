@@ -3,12 +3,12 @@
 
 import { useEffect, useRef, useState, useMemo } from 'react';
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
-import Image from 'next/image';
 import { useLanguagePersistence } from '../../hooks/useLanguagePersistence';
 
 import { DEFAULT_LOCALE, loadLocale } from '../../../lib/i18n';
 import { useT } from '../../hooks/useT';
 import { useLocale } from '../../context/locale-context';
+// Use plain <img> for small globe icon to avoid next/image intermittent issues
 import localesList from '../../../lib/localesList.json';
 import localeMeta from '../../../lib/localeMeta.json';
 
@@ -91,7 +91,7 @@ export default function LanguageDropdown() {
     // ensure locale is loaded in client cache before switching
     try {
       await loadLocale(langCode);
-    } catch (_) {
+    } catch (e) {
       // ignore preload errors
     }
     setCurrentLang(langCode);
@@ -105,14 +105,14 @@ export default function LanguageDropdown() {
       // 1 year
       const maxAge = 60 * 60 * 24 * 365;
       document.cookie = `sanatana_dharma_language=${langCode}; Path=/; Max-Age=${maxAge}; SameSite=Lax`;
-    } catch (_) {
+    } catch (e) {
       // ignore cookie set errors
     }
 
     // Update client context so client components re-render immediately
     try {
       setLocale(langCode);
-    } catch (_) {
+    } catch (e) {
       // ignore
     }
 
@@ -127,14 +127,12 @@ export default function LanguageDropdown() {
     await router.push(newUrl);
     try {
       router.refresh();
-    } catch (_) {
+    } catch (e) {
       // ignore refresh errors
     }
   };
 
-  const allLanguages = useMemo(() => {
-    return Array.isArray(localesList) ? localesList : [];
-  }, []);
+  const allLanguages = Array.isArray(localesList) ? localesList : [];
   const currentLanguage = allLanguages.find((lang) => lang.code === currentLang);
   const filteredLanguages = useMemo(() => {
     const q = (searchTerm || '').toLowerCase();
@@ -162,7 +160,7 @@ export default function LanguageDropdown() {
     } else if (highlighted >= filteredLanguages.length) {
       setTimeout(() => setHighlighted(filteredLanguages.length - 1), 0);
     }
-  }, [filteredLanguages, open, currentLang, highlighted]);
+  }, [filteredLanguages, open, currentLang]);
 
   return (
     <div role="menuItem" ref={dropdownRef} className="relative">
@@ -176,7 +174,7 @@ export default function LanguageDropdown() {
         aria-label={t('languagedropdown.arialabel')}
         aria-expanded={open}
       >
-        <Image src="/images/svg/ml.svg" alt={t('languagedropdown.iconalt')} width={20} height={20} />
+        <img src="/images/svg/ml.svg" alt={t('languagedropdown.iconalt')} width={20} height={20} />
         {isClient && (
           <span className="font-sm sr-only">{currentLanguage?.nativeName || t('languagedropdown.english')}</span>
         )}
@@ -220,7 +218,7 @@ export default function LanguageDropdown() {
             </div>
             <div id="language-menu" role="menu" className="max-h-96 overflow-y-auto md:flex md:flex-wrap">
               {filteredLanguages.map((lang, idx) => {
-                const meta = (localeMeta as Record<string, { flag?: string; region?: string }>)[lang.code] || {};
+                const meta = (localeMeta as any)[lang.code] || {};
                 const flag = meta.flag || '';
                 const region = meta.region || lang.name;
                 return (
@@ -230,7 +228,7 @@ export default function LanguageDropdown() {
                     onMouseEnter={() => {
                       setHighlighted(idx);
                       // non-blocking preload when user hovers a language
-                      try { loadLocale(lang.code); } catch { /* ignore */ }
+                      try { loadLocale(lang.code); } catch (e) { /* ignore */ }
                     }}
                     onClick={() => handleLanguageChange(lang.code)}
                     className={`w-full md:w-1/2 flex items-center justify-between text-left transition-colors ${currentLang === lang.code ? "" : ""} ${highlighted === idx ? 'border ' : 'border '}`}

@@ -23,7 +23,7 @@ jest.mock('../lib/i18n', () => ({
   },
   detectLocale: () => 'en',
   DEFAULT_LOCALE: 'en',
-  getLocaleObject: () => ({
+  getLocaleObject: (locale = 'en') => ({
     sitetitle: 'Sanātana Dharma',
     siteTitle: 'Sanātana Dharma',
     nav: {

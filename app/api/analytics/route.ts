@@ -112,7 +112,7 @@ async function fetchWithGoogle() {
   // If the reporting API returned no reports, the property may be GA4 — caller can set GA_PROPERTY_ID
   if ((!reports || reports.length === 0) && process.env.GA_PROPERTY_ID) {
     // fall through to GA4 path by throwing a sentinel error that will be caught by the caller
-    const err: Error & { code?: string } = new Error('No UA reports');
+    const err: any = new Error('No UA reports');
     err.code = 'NO_UA_REPORTS';
     throw err;
   }
@@ -163,10 +163,9 @@ async function fetchWithGoogleGA4() {
     },
   });
 
-  const toRows = (res: unknown, dimKey: string, metricIdx = 0) => {
-    const resData = res as { data?: { rows?: Array<{ dimensionValues?: Array<{ value?: string }>; metricValues?: Array<{ value?: string }> }> } };
-    const rows = (resData?.data?.rows || []).map((r) => {
-      const dimension = r.dimensionValues?.[0]?.value || r.dimensionValues?.map((d) => d.value).join('/') || '';
+  const toRows = (res: any, dimKey: string, metricIdx = 0) => {
+    const rows = (res?.data?.rows || []).map((r: any) => {
+      const dimension = r.dimensionValues?.[0]?.value || r.dimensionValues?.map((d: any) => d.value).join('/') || '';
       const val = r.metricValues?.[metricIdx]?.value || '0';
       return { dimensions: [dimension], metrics: [{ values: [String(val)] }] };
     });
@@ -222,12 +221,12 @@ async function fetchWithPlausible() {
 async function fetchWithMongoAggregate() {
   const uri = process.env.MONGODB_URI as string | undefined;
   if (!uri) {
-    const e: Error & { code?: string } = new Error('Missing MONGODB_URI');
+    const e: any = new Error('Missing MONGODB_URI');
     e.code = 'MISSING_MONGODB_URI';
     throw e;
   }
   if (isLikelyInvalidMongoUri(uri)) {
-    const e: Error & { code?: string } = new Error('Invalid or placeholder MONGODB_URI');
+    const e: any = new Error('Invalid or placeholder MONGODB_URI');
     e.code = 'INVALID_MONGODB_URI';
     throw e;
   }
@@ -251,7 +250,7 @@ async function fetchWithMongoAggregate() {
         dimensions: ['ga:pagePath'],
         metricHeader: { metricHeaderEntries: [{ name: 'ga:pageviews', type: 'INTEGER' }] },
       },
-      data: { rows: rows.map((r: { _id?: string; count?: number }) => ({ dimensions: [r._id || '/'], metrics: [{ values: [String(r.count)] }] })) },
+      data: { rows: rows.map((r: any) => ({ dimensions: [r._id || '/'], metrics: [{ values: [String(r.count)] }] })) },
     };
 
     return [report];
@@ -280,7 +279,7 @@ export async function GET(request: Request) {
     const cacheKey = cacheKeyForBackend(backend);
 
     // Serve from in-memory cache when valid
-    const cached = cache.get(cacheKey) as { reports: unknown; ts: number } | undefined;
+    const cached = cache.get(cacheKey) as { reports: any; ts: number } | undefined;
     const now = Date.now();
     if (cached && (now - cached.ts) < ttl * 1000) {
       const browserMax = Math.min(60, ttl);
@@ -316,7 +315,7 @@ export async function GET(request: Request) {
         return buildJsonResponse({ reports }, headers, request);
       } catch (err) {
         // If the error signals an invalid URI, make that explicit
-        if ((err as Error & { code?: string })?.code === 'INVALID_MONGODB_URI' || (err as Error & { code?: string })?.code === 'MISSING_MONGODB_URI') {
+        if ((err as any)?.code === 'INVALID_MONGODB_URI' || (err as any)?.code === 'MISSING_MONGODB_URI') {
           console.warn('Mongo analytics disabled:', err);
           return NextResponse.json({ error: 'MongoDB not configured for analytics' }, { status: 503 });
         }
@@ -336,7 +335,7 @@ export async function GET(request: Request) {
         // If UA reporting returned no reports and GA4 property id is available, try GA4 Data API
         // (some properties are GA4 and won't have UA view data)
         try {
-          if ((err as Error & { code?: string })?.code === 'NO_UA_REPORTS' && process.env.GA_PROPERTY_ID) {
+          if ((err as any)?.code === 'NO_UA_REPORTS' && process.env.GA_PROPERTY_ID) {
             const reports = await fetchWithGoogleGA4();
             cache.set(cacheKey, { reports, ts: Date.now() });
             const browserMax = Math.min(60, ttl);
@@ -361,7 +360,7 @@ export async function GET(request: Request) {
 }
 
 // Build an HTTP response for JSON with ETag, gzip opt-in and caching headers.
-function buildJsonResponse(payload: unknown, baseHeaders: Record<string, string> = {}, request?: Request) {
+function buildJsonResponse(payload: any, baseHeaders: Record<string, string> = {}, request?: Request) {
   const payloadStr = JSON.stringify(payload);
   const payloadBuf = Buffer.from(payloadStr, 'utf8');
 
@@ -382,7 +381,7 @@ function buildJsonResponse(payload: unknown, baseHeaders: Record<string, string>
     if (ifNoneMatch && ifNoneMatch.split(',').map(s => s.trim()).includes(etag)) {
       return new Response(null, { status: 304, headers });
     }
-  } catch (_) {
+  } catch (e) {
     // ignore header parsing errors
   }
 
@@ -425,7 +424,7 @@ export async function POST(request: Request) {
       try {
         const key = cacheKeyForBackend('mongo');
         cache.delete(key);
-      } catch (_) {
+      } catch (e) {
         // ignore
       }
       return NextResponse.json({ ok: true });

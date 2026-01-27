@@ -6,26 +6,17 @@ import { loadLocale } from 'lib/i18n';
 import { useT } from '../hooks/useT';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
 
-interface Section {
-  id?: string;
-  title: string;
-  text?: string;
-  bullets?: string[];
-}
-
 export default function AboutClient() {
   const { locale } = useLocale();
   const t = useT();
-  const [about, setAbout] = useState({ title: '', intro: '', sections: [] as Section[], disclaimer: '' });
+  const [about, setAbout] = useState({ title: '', intro: '', sections: [] as any[], disclaimer: '' });
 
   useEffect(() => {
     let mounted = true;
     (async () => {
       try {
         await loadLocale(locale).catch(() => {});
-      } catch {
-        // Locale loading failed, continue with defaults
-      }
+      } catch (e) {}
 
       if (!mounted) return;
       const title = String(t('about.title') || '');
@@ -36,7 +27,7 @@ export default function AboutClient() {
       setAbout({ title, intro, sections, disclaimer });
     })();
     return () => { mounted = false; };
-  }, [locale, t]);
+  }, [locale]);
 
   return (
     <PageLayout
@@ -46,7 +37,7 @@ export default function AboutClient() {
       className={`layout-sm`}
     >
       <p>{about.intro}</p>
-      {about.sections.map((section, index: number) => {
+      {about.sections.map((section: any, index: number) => {
         const level = Math.min(index + 2, 6);
         const Tag = `h${level}` as unknown as React.ElementType;
         return (
