@@ -18,6 +18,20 @@ const nextConfig = {
   turbopack: {},
   reactStrictMode: true,
 
+  // Compiler options for modern browsers
+  compiler: {
+    // Remove React properties
+    reactRemoveProperties: true,
+    // Remove console statements in production
+    removeConsole: process.env.NODE_ENV === 'production' ? {
+      exclude: ['error', 'warn']
+    } : false,
+  },
+
+  // Target modern browsers to reduce bundle size
+  // This tells Next.js to output ES2022 code without unnecessary polyfills
+  transpilePackages: [],
+
   // Client-side (browser) source maps in production:
   productionBrowserSourceMaps: false,
 
