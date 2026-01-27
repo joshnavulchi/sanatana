@@ -1,3 +1,32 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 @import "tailwindcss";
+
+/* Prevent layout shift from font loading */
+html {
+  /* Use system fonts as fallback to prevent FOIT */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+/* Ensure font swap behavior to prevent layout shift */
+body {
+  font-display: swap;
+}
+
+/* Reserve space for elements to prevent CLS */
+.hidden.items-center.md\:flex {
+  @media (min-width: 768px) {
+    min-height: 48px;
+  }
+}
+
+/* Prevent footer from causing layout shift */
+footer {
+  contain: layout;
+}
+
+/* Hero section container stability */
+.herosection-module-scss-module__gpezcq__herocontent {
+  contain: layout;
+}
+
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

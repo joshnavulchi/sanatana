@@ -1,0 +1,20 @@
+# Modern browsers that support ES6+ features natively
+# This reduces bundle size by avoiding unnecessary polyfills and transpilation
+# Baseline browser support: ES2015+ (ES6), async/await, Promises, Modules, etc.
+
+# Desktop Browsers
+chrome >= 91
+edge >= 91
+firefox >= 90
+safari >= 15
+
+# Mobile Browsers
+ios >= 15
+and_chr >= 91
+and_ff >= 90
+samsung >= 14
+
+# Exclude old browsers
+not dead
+not ie 11
+not op_mini all

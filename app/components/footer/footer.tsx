@@ -59,7 +59,7 @@ export default function Footer() {
   const othersTitle = t('footer.nav.others.title');
 
   return (
-    <footer className={`${styles.footer} gradient-background w-full`}>
+    <footer className={`${styles.footer} gradient-background w-full`} style={{ minHeight: '400px' }}>
       <div className={`relative z-29`}>
         <section className="content-wrapper text-center">
           <p className={`h2 font-light! text-shadow-lg/14 title`}>{title}</p>

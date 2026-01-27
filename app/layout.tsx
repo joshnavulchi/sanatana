@@ -17,7 +17,12 @@ import ScrollToTop from './components/scroll-to-top/scroll-to-top';
 
 import "./globals.css"; // tailwind base styles
 
-const poppins = Poppins({ subsets: ["latin"], weight: ["400"], preload: true });
+const poppins = Poppins({ 
+  subsets: ["latin"], 
+  weight: ["400"], 
+  preload: true,
+  display: "swap" // Prevents layout shift from font loading
+});
 // Compose a safe font-family string: Playfair primary, Poppins fallback
 const bodyFontFamily = `${poppins.style?.fontFamily || "Poppins, sans-serif"}`;
 const SITE_URL = secrets.NEXT_PUBLIC_SITE_URL || "https://sanatanadharmam.in";
@@ -67,7 +72,14 @@ export default async function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
         {/* Prevent browser automatic translation UI (Chrome/Google Translate) */}
         <meta name="google" content="notranslate" />
-        <link rel="preload" as="image" imageSrcSet="/images/home/hero.png 1024w, /images/home/mobile-hero.png 768w" imageSizes="(max-width: 1980px) 100vw, 1980" href="/images/home/hero.png" />
+        {/* Preload LCP image with high priority for optimal loading */}
+        <link 
+          rel="preload" 
+          as="image" 
+          href="/images/home/mobile-hero.png"
+          imageSrcSet="/images/home/hero.png 1024w, /images/home/mobile-hero.png 768w" 
+          imageSizes="(min-width: 1024px) 50vw, 100vw"
+        />
         {/* Page-specific override: cache for 30 days */}
         <meta httpEquiv="Cache-Control" content="max-age=2592000, must-revalidate" />
         <meta httpEquiv="Pragma" content="cache" />
@@ -121,7 +133,27 @@ export default async function RootLayout({
         />
         {/* Google Analytics is loaded on user consent via the CookieConsent component. */}
         {/* Preload local font with proper attributes to satisfy diagnostics */}
-        <link rel="preload" href="/_next/static/media/a218039a3287bcfd-s.p.4a23d71b.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link 
+          rel="preload" 
+          href="/_next/static/media/a218039a3287bcfd-s.p.4a23d71b.woff2" 
+          as="font" 
+          type="font/woff2" 
+          crossOrigin="anonymous"
+        />
+        <style dangerouslySetInnerHTML={{
+          __html: `
+            /* Prevent FOIT/FOUT and layout shift from font loading */
+            @font-face {
+              font-family: '__Poppins_Fallback';
+              src: local('Arial'), local('Helvetica'), local('sans-serif');
+              font-display: swap;
+              ascent-override: 105%;
+              descent-override: 35%;
+              line-gap-override: 10%;
+              size-adjust: 95%;
+            }
+          `
+        }} />
         {/* Disable right-click context menu in production to reduce casual copy */}
         {process.env.NODE_ENV === "production" && (
           <Script

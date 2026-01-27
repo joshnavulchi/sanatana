@@ -36,6 +36,7 @@
       margin: 0 auto;
       max-width: var(--content-width-default);
       padding: 2px 0;
+      min-height: 56px; /* Reserve space to prevent layout shift */
     }
     .logo-title {
       line-height: 1.7;
@@ -43,6 +44,10 @@
     button {
       font-size: 0.9rem;
       margin-left: var(--space-xs);
+    }
+    /* Reserve space for navigation to prevent layout shift */
+    nav[role="menubar"] {
+      min-height: 48px;
     }
   }
 }

@@ -18,7 +18,7 @@ export default function HeroSection() {
   const tags = parseList(t("home.topics"));
 
   return (
-    <div className={`${styles.herosection} w-full md:h-full`}>
+    <div className={`${styles.herosection} w-full md:h-full`} style={{ minHeight: '600px' }}>
       <div className="relative content-wrapper md:min-h-130 md:flex md:items-center md:justify-center overflow-hidden">
         {/* LCP image as an actual <img> so it's discoverable by the browser */}
         <img
@@ -26,11 +26,12 @@ export default function HeroSection() {
           src="/images/home/mobile-hero.png"
           srcSet="/images/home/hero.png 1024w, /images/home/mobile-hero.png 768w"
           sizes="(min-width: 1024px) 50vw, 100vw"
+          width={1024}
+          height={768}
           loading="eager"
           fetchPriority="high"
-          decoding="async"
-          alt=""
-          aria-hidden="true"
+          decoding="sync"
+          alt="Sanātana Dharma hero background"
         />
         <div className={`${styles.herocontent} w-full md:w-1/2`}>
           <h1 className={`${styles.title} md:text-shadow-lg/4 md:max-w-md`}>
