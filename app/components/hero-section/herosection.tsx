@@ -2,6 +2,7 @@
 import { useT } from '../../hooks/useT';
 import { parseList } from 'lib/parseList';
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './herosection.module.scss';
 import LazyImage from '../lazy-image/LazyImage';
 
@@ -19,7 +20,31 @@ export default function HeroSection() {
 
   return (
     <div className={`${styles.herosection} w-full`} style={{ minHeight: '500px' }}>
-      <div className="relative content-wrapper md:min-h-130 md:flex md:items-center md:justify-center overflow-hidden">
+      {/* LCP hero image - Mobile version */}
+        <Image
+          className={`${styles.heroImage} block md:hidden`}
+          src="/images/home/mobile-hero.png"
+          alt="Sanātana Dharma hero background"
+          fill
+          sizes="100vw"
+          priority
+          quality={90}
+          style={{ objectFit: 'cover', zIndex: 0 }}
+          unoptimized
+        />
+        {/* LCP hero image - Desktop version */}
+        <Image
+          className={`${styles.heroImage} hidden md:block`}
+          src="/images/home/hero.png"
+          alt="Sanātana Dharma hero background"
+          fill
+          sizes="100vw"
+          priority
+          quality={90}
+          style={{ objectFit: 'cover', zIndex: 0 }}
+          unoptimized
+        />
+      <div className="relative content-wrapper md:min-h-130 md:flex md:items-center md:justify-center">
         <div className={`${styles.herocontent} w-full md:w-1/2`}>
           <h1 className={`${styles.title} md:text-shadow-lg/4 md:max-w-md`}>
             <span>{heading}</span> <br />

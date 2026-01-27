@@ -41,32 +41,24 @@ export default async function RootLayout({
   });
   const siteJson = buildWebSiteJsonLd();
     
-  // Resolve a server-side locale from cookie or Accept-Language header
-  async function resolveServerLocale(): Promise<string> {
-    const supported = SUPPORTED_LOCALES;
-    try {
-      // headers() may throw in some environments; guard usage
-      const hdrs = await headers();
-      if (!hdrs || typeof hdrs.get !== 'function') {
-        return DEFAULT_LOCALE;
-      }
-      // cookie named `sanatana_dharma_language` was used in client-side code
-      const cookie = hdrs.get('cookie') || '';
-      const match = typeof cookie === 'string' ? cookie.match(/sanatana_dharma_language=([^;]+)/) : null;
-      if (match && supported.includes(match[1])) return match[1];
-      // Accept-Language header may be missing or not a string
+  // Resolve locale with minimal blocking - use synchronous detection when possible
+  let lang = DEFAULT_LOCALE;
+  try {
+    const hdrs = await headers();
+    const cookie = hdrs.get('cookie') || '';
+    const match = cookie.match(/sanatana_dharma_language=([^;]+)/);
+    if (match && SUPPORTED_LOCALES.includes(match[1])) {
+      lang = match[1];
+    } else {
       const al = hdrs.get('accept-language');
-      if (al && typeof al === 'string') {
-        const first = al.split(',')[0].split(';')[0].trim();
-        const primary = first.split('-')[0];
-        if (supported.includes(primary)) return primary;
+      if (al) {
+        const primary = al.split(',')[0].split(';')[0].trim().split('-')[0];
+        if (SUPPORTED_LOCALES.includes(primary)) lang = primary;
       }
-    } catch (err) {
-      // headers() can throw; fall back to DEFAULT_LOCALE
     }
-    return DEFAULT_LOCALE;
+  } catch (err) {
+    // Use default locale on error
   }
-  const lang = await resolveServerLocale();
   
   return (
     <html lang={lang} translate="no">
@@ -76,7 +68,7 @@ export default async function RootLayout({
         <meta name="google" content="notranslate" />
         {/* Early resource hints to reduce network latency */}
         <ResourceHints />
-        {/* Preload LCP image with high priority for optimal loading */}
+        {/* Preload LCP image with high priority - matches hero img tag */}
         <link 
           rel="preload" 
           as="image" 

@@ -8,33 +8,44 @@ import UnderstandingOfSanatana from './components/understanding/sanatanaDharmam'
 import GitSupport from './components/git-support/git-support';
 import OurFourCoreYugas from './components/our-four-core-yugas/ourfourcoreyugas';
 
-export const generateMetadata = createGenerateMetadata('home');
+// Cache critical CSS at module level to avoid repeated file reads
+let cachedCriticalCss: string | null = null;
+let criticalCssChecked = false;
 
-export default async function Home() {
-  const locale = detectLocale() || resolveLocaleFromHeaders();
-  // Inline generated critical CSS for Home page if present (keeps under 5-8KB).
-  // Defensive: only inline when the file exists, is reasonably small, and
-  // does not appear to contain Tailwind directives or full-site styles which
-  // can unintentionally override responsive behavior. This prevents a
-  // malformed or broad critical CSS from breaking the entire site.
-  let criticalCss = '';
+function getCriticalCss(): string {
+  if (criticalCssChecked) return cachedCriticalCss || '';
+  
   try {
     const p = path.join(process.cwd(), 'public', 'critical-home.css');
     if (fs.existsSync(p)) {
       const raw = fs.readFileSync(p, 'utf8');
       const tooLarge = raw.length > 8 * 1024; // 8KB
       const looksLikeFullCss = /@tailwind|@import|:root|body\s*\{|html\s*\{/.test(raw);
-      if (!tooLarge && !looksLikeFullCss) criticalCss = raw;
-      else {
-        // Avoid inlining dangerous/large CSS which may break layout; keep file
-        // available in `public/` for manual inspection or client-side loading.
-        // eslint-disable-next-line no-console
+      if (!tooLarge && !looksLikeFullCss) {
+        cachedCriticalCss = raw;
+      } else {
         console.warn(`Skipping inline critical CSS (size:${raw.length} bytes, looksLikeFullCss:${looksLikeFullCss})`);
       }
     }
   } catch (e) {
-    criticalCss = '';
+    // Ignore errors
   }
+  
+  criticalCssChecked = true;
+  return cachedCriticalCss || '';
+}
+
+export const generateMetadata = createGenerateMetadata('home');
+
+// Enable static generation for better performance
+export const dynamic = 'force-static';
+export const revalidate = false;
+
+export default async function Home() {
+  const locale = detectLocale() || resolveLocaleFromHeaders();
+  // Get cached critical CSS (read once at module load)
+  const criticalCss = getCriticalCss();
+  
   return (
     <>
       {criticalCss ? <style dangerouslySetInnerHTML={{ __html: criticalCss }} /> : null}
