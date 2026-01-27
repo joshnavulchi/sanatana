@@ -37,10 +37,6 @@ function getCriticalCss(): string {
 
 export const generateMetadata = createGenerateMetadata('home');
 
-// Enable static generation for better performance
-export const dynamic = 'force-static';
-export const revalidate = false;
-
 export default async function Home() {
   const locale = detectLocale() || resolveLocaleFromHeaders();
   // Get cached critical CSS (read once at module load)
