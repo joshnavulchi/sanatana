@@ -279,9 +279,27 @@ if (require.main === module) {
     process.exit(0);
   }
 
+  // Check if locales already exist - if so, skip download unless forced
+  const existingLocales = fs.existsSync(LOCAL_LOCALES_DIR) && 
+    fs.readdirSync(LOCAL_LOCALES_DIR).filter(d => {
+      const indexPath = path.join(LOCAL_LOCALES_DIR, d, 'index.json');
+      return fs.existsSync(indexPath);
+    });
+
+  if (!force && existingLocales && existingLocales.length > 0) {
+    console.log(`Found ${existingLocales.length} existing locale(s) — skipping download (use --force to re-download)`);
+    process.exit(0);
+  }
+
   downloadLocales({ force }).catch((err) => {
     console.error('Locale download failed:', err.message);
-    process.exit(1);
+    // Don't fail the build if locales already exist
+    if (existingLocales && existingLocales.length > 0) {
+      console.log('Using existing locales - continuing build...');
+      process.exit(0);
+    } else {
+      process.exit(1);
+    }
   });
 }
 
