@@ -39,7 +39,7 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
       return () => {
         if (timeoutId) clearTimeout(timeoutId);
       };
-    } catch (e) {
+    } catch {
       // ignore (e.g., SSR or privacy settings)
     }
   }, []);
@@ -166,7 +166,7 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
         if (newNakshatra !== null) setNakshatra(newNakshatra);
         if (newRahu) setRahu(newRahu);
         if (newYama) setYama(newYama);
-      } catch (e) {
+      } catch {
         // ignore calculation errors
       }
     }, 0);
@@ -195,7 +195,7 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
     setVisible(next);
     try {
       localStorage.setItem('digitalClockVisible', next ? '1' : '0');
-    } catch (e) {
+    } catch {
       // ignore
     }
     // Request location when user opens the clock

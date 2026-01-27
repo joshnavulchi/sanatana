@@ -11,7 +11,7 @@ type Props = {
   children?: React.ReactNode;
 };
 
-export default function PageLayout({ metaKey, title, breadcrumbs, className, children }: Props) {
+export default function PageLayout({ title, breadcrumbs, className, children }: Props) {
   const wrapper = `${className || ' content-wrapper '}`;
   return (
     <>

@@ -6,7 +6,13 @@ async function sendWithSendGrid(contactEmail: string, subject: string, body: str
   const key = process.env.SENDGRID_API_KEY;
   if (!key) throw new Error('SENDGRID_API_KEY not configured');
 
-  const payload: any = {
+  const payload: {
+    personalizations: Array<{ to: Array<{ email: string }> }>;
+    from: { email: string };
+    subject: string;
+    content: Array<{ type: string; value: string }>;
+    reply_to?: { email: string; name?: string };
+  } = {
     personalizations: [{ to: [{ email: contactEmail }] }],
     from: { email: contactEmail },
     subject: subject,
@@ -32,7 +38,7 @@ export async function POST(req: Request) {
     const values = (body && body.values) || body || {};
 
     // Simple validation: require at least one non-empty field
-    const hasAny = Object.values(values).some((v: any) => typeof v === 'string' ? v.trim().length > 0 : !!v);
+    const hasAny = Object.values(values).some((v: unknown) => typeof v === 'string' ? v.trim().length > 0 : !!v);
     if (!hasAny) {
       return new Response(JSON.stringify({ error: 'empty' }), { status: 400, headers: { 'content-type': 'application/json' } });
     }
@@ -58,10 +64,10 @@ export async function POST(req: Request) {
      
     console.log('Contact form submission (no provider configured):', { to: CONTACT_EMAIL, subject, body: bodyText, replyTo: fromEmail });
     return new Response(JSON.stringify({ ok: true, notice: 'no-provider' }), { status: 200, headers: { 'content-type': 'application/json' } });
-  } catch (err: any) {
+  } catch (err: unknown) {
      
-    console.error('Contact API error:', err && err.message ? err.message : err);
-    return new Response(JSON.stringify({ error: String(err && err.message ? err.message : 'server error') }), { status: 500, headers: { 'content-type': 'application/json' } });
+    console.error('Contact API error:', err && typeof err === 'object' && err !== null && 'message' in err ? (err as Error).message : err);
+    return new Response(JSON.stringify({ error: String(err && typeof err === 'object' && err !== null && 'message' in err ? (err as Error).message : 'server error') }), { status: 500, headers: { 'content-type': 'application/json' } });
   }
 }
 

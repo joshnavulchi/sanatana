@@ -16,7 +16,6 @@ type Prefs = {
 
 function detectBrowserAndOS() {
   const ua = typeof navigator !== 'undefined' ? navigator.userAgent : '';
-  const lower = ua.toLowerCase();
   let browserName = 'unknown';
   let browserVersion = '';
   let osName = 'unknown';
@@ -123,7 +122,7 @@ export default function CookieConsent() {
       } else {
         setTimeout(() => setVisible(true), 0);
       }
-    } catch (err) {
+    } catch {
       setTimeout(() => setVisible(true), 0);
     }
   }, []);
@@ -133,10 +132,10 @@ export default function CookieConsent() {
     setPrefs(p);
     try {
       storage.setItem('sd_cookie_prefs', JSON.stringify(p));
-    } catch (e) {
+    } catch {
       // ignore
     }
-    try { await saveToServer(p); } catch (err) { /* ignore */ }
+    try { await saveToServer(p); } catch { /* ignore */ }
     // Load analytics now that user consented
     try { loadGtag(process.env.NEXT_PUBLIC_GA_ID); } catch { }
     try { loadGTM(process.env.NEXT_PUBLIC_GTM_ID); } catch { }
@@ -153,10 +152,10 @@ export default function CookieConsent() {
     setPrefs(p);
     try {
       storage.setItem('sd_cookie_prefs', JSON.stringify(p));
-    } catch (e) {
+    } catch {
       // ignore
     }
-    try { await saveToServer(p); } catch (err) { /* ignore */ }
+    try { await saveToServer(p); } catch { /* ignore */ }
     // Load analytics selectively based on granted preferences
     if (p.performance || p.targeting) {
       try { loadGtag(process.env.NEXT_PUBLIC_GA_ID); } catch { }
@@ -175,7 +174,6 @@ export default function CookieConsent() {
         <div className="bg-white border rounded shadow-md flex flex-col items-start md:items-center gap-4">
           <div className="flex-1">
             {(() => {
-              const loc = DEFAULT_LOCALE; // paragraph will be rendered via `t()` below which uses current locale from context
               const paragraph = t('cookieconsent.paragraph') as string;
               // Replace placeholders with links
               return (

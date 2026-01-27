@@ -17,7 +17,7 @@ function normalizeBreadcrumbs(items: CrumbInput[], locale?: string): Crumb[] {
     if (raw !== null && typeof raw === 'object') {
       try {
         raw = String(raw);
-      } catch (_) {
+      } catch {
         raw = '';
       }
     }

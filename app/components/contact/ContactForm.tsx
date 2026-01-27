@@ -43,7 +43,7 @@ export default function ContactForm({ fields, submitButton }: Props) {
     const init: Record<string, string> = {};
     for (const f of usedFields) init[f.name] = '';
     setValues(init);
-  }, [JSON.stringify(usedFields)]);
+  }, [usedFields]);
 
   const handleChange = (name: string, v: string) => setValues(s => ({ ...s, [name]: v }));
 
@@ -74,8 +74,8 @@ export default function ContactForm({ fields, submitButton }: Props) {
       } else {
         setErrorMessage((data && data.error) ? String(data.error) : (t('contactForm.error') || 'Failed to send message'));
       }
-    } catch (err: any) {
-      setErrorMessage(err && err.message ? err.message : (t('contactForm.error') || 'Failed to send message'));
+    } catch (err: unknown) {
+      setErrorMessage(err && typeof err === 'object' && 'message' in err ? String(err.message) : (t('contactForm.error') || 'Failed to send message'));
     } finally {
       setSubmitting(false);
     }
