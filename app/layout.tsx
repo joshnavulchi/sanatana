@@ -79,7 +79,6 @@ export default async function RootLayout({
           href="/images/home/mobile-hero.png"
           imageSrcSet="/images/home/hero.png 1024w, /images/home/mobile-hero.png 768w" 
           imageSizes="(min-width: 1024px) 50vw, 100vw"
-          fetchPriority="high"
         />
         {/* Page-specific override: cache for 30 days */}
         <meta httpEquiv="Cache-Control" content="max-age=2592000, must-revalidate" />

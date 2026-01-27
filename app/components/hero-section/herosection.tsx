@@ -25,8 +25,8 @@ export default function HeroSection() {
           src="/images/home/mobile-hero.png"
           srcSet="/images/home/hero.png 1024w, /images/home/mobile-hero.png 768w"
           sizes="(min-width: 1024px) 50vw, 100vw"
-          width="1024"
-          height="768"
+          width={1024}
+          height={768}
           loading="eager"
           fetchPriority="high"
           decoding="sync"
