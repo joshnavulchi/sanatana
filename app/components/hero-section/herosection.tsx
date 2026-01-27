@@ -2,6 +2,7 @@
 import { useT } from '../../hooks/useT';
 import { parseList } from 'lib/parseList';
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './herosection.module.scss';
 import LazyImage from '../lazy-image/LazyImage';
 
@@ -18,21 +19,32 @@ export default function HeroSection() {
   const tags = parseList(t("home.topics"));
 
   return (
-    <div className={`${styles.herosection} w-full md:h-full`} style={{ minHeight: '600px' }}>
-      <div className="relative content-wrapper md:min-h-130 md:flex md:items-center md:justify-center overflow-hidden">
-        {/* LCP image as an actual <img> so it's discoverable by the browser */}
-        <img
-          className={styles.heroImage}
+    <div className={`${styles.herosection} w-full`} style={{ minHeight: '500px' }}>
+      {/* LCP hero image - Mobile version */}
+        <Image
+          className={`${styles.heroImage} block md:hidden`}
           src="/images/home/mobile-hero.png"
-          srcSet="/images/home/hero.png 1024w, /images/home/mobile-hero.png 768w"
-          sizes="(min-width: 1024px) 50vw, 100vw"
-          width={1024}
-          height={768}
-          loading="eager"
-          fetchPriority="high"
-          decoding="sync"
           alt="Sanātana Dharma hero background"
+          fill
+          sizes="100vw"
+          priority
+          quality={90}
+          style={{ objectFit: 'cover', zIndex: 0 }}
+          unoptimized
         />
+        {/* LCP hero image - Desktop version */}
+        <Image
+          className={`${styles.heroImage} hidden md:block`}
+          src="/images/home/hero.png"
+          alt="Sanātana Dharma hero background"
+          fill
+          sizes="100vw"
+          priority
+          quality={90}
+          style={{ objectFit: 'cover', zIndex: 0 }}
+          unoptimized
+        />
+      <div className="relative content-wrapper md:min-h-130 md:flex md:items-center md:justify-center">
         <div className={`${styles.herocontent} w-full md:w-1/2`}>
           <h1 className={`${styles.title} md:text-shadow-lg/4 md:max-w-md`}>
             <span>{heading}</span> <br />
