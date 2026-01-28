@@ -4,29 +4,29 @@ import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils'
 import PageLayout from '@components/common/PageLayout';
 import LazyImage from '@components/lazy-image/LazyImage';
 import Link from 'next/link';
-export const generateMetadata = createGenerateMetadata('illustrated_stories');
+export const generateMetadata = createGenerateMetadata('kidszone_illustratedstories');
 
 export default async function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string, l?: any) => String(t(k, l ?? locale));
   // Load stories from locale translations; fall back to English or empty array
-  const rawStories = t('illustrated_stories.kids_indian_stories', locale);
+  const rawStories = t('kidszone_illustratedstories.kids_indian_stories', locale);
   let stories: any[] = [];
   if (Array.isArray(rawStories)) {
     stories = rawStories as any[];
   } else {
-    const enStories = t('illustrated_stories.kids_indian_stories', 'en');
+    const enStories = t('kidszone_illustratedstories.kids_indian_stories', 'en');
     stories = Array.isArray(enStories) ? (enStories as any[]) : [];
   }
   return (
     <>
       <PageLayout
         metaKey="illustrated_stories"
-        title={S('illustrated_stories.title')}
-        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: S('illustrated_stories.title') }]}
+        title={S('kidszone_illustratedstories.title')}
+        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: S('kidszone_illustratedstories.title') }]}
         className="layout-md"
       >
-        <p>{S('illustrated_stories.description')}</p>
+        <p>{S('kidszone_illustratedstories.description')}</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-6">
           {stories.map((s: any) => (
             <Link key={s.id} href={`/kidszone/illustratedstories/${s.id}`} className="card no-padding shadow hover:shadow-lg transform hover:-translate-y-1 transition no-underline">
