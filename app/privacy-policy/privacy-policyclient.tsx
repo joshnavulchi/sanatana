@@ -2,15 +2,63 @@
 import React, { useEffect, useState } from 'react';
 import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
-import { loadLocale } from 'lib/i18n';
+import { loadLocale, getLocaleObject } from 'lib/i18n';
 import { useT } from '../hooks/useT';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
+import Loader from '@components/loader/loader';
 
 export default function PrivacyPolicy() {
-  const { locale } = useLocale();
+  const { locale, isLoading } = useLocale();
   const t = useT();
   type PrivacyState = { title: string; lastupdated: string;[key: string]: any };
-  const [privacy, setPrivacy] = useState<PrivacyState>({ title: '', lastupdated: '', intro: {} as any, informationwecollect: {} as any, howweuse: {} as any, cookieslocalstorage: {} as any, thirdparty: {} as any, security: {} as any, rights: {} as any, children: {} as any, changes: {} as any, contact: {} as any });
+  
+  // Initialize with current data to prevent empty renders on refresh
+  const getInitialPrivacy = (): PrivacyState => {
+    try {
+      const localeObj = getLocaleObject(locale) as any;
+      if (!localeObj || Object.keys(localeObj).length === 0) {
+        return { title: '', lastupdated: '', intro: {} as any, informationwecollect: {} as any, howweuse: {} as any, cookieslocalstorage: {} as any, thirdparty: {} as any, security: {} as any, rights: {} as any, children: {} as any, changes: {} as any, contact: {} as any };
+      }
+      const privacy = localeObj?.privacy || {};
+      const title = privacy.title || '';
+      const lastupdated = privacy.lastupdated || '';
+      const keys = ['intro', 'informationwecollect', 'howweuse', 'cookieslocalstorage', 'thirdparty', 'security', 'rights', 'children', 'changes', 'contact'];
+      const data: Record<string, any> = {};
+      keys.forEach((k) => { data[k] = parseMaybeObject(privacy[k] || ''); });
+      
+      if (data.intro && typeof data.intro === 'object') data.intro = { title: data.intro.title, text: data.intro.text };
+      if (data.informationwecollect && typeof data.informationwecollect === 'object') {
+        const iw = data.informationwecollect;
+        data.informationwecollect = {
+          title: iw.title, lead: iw.lead, usagelabel: iw.usagelabel, usage: iw.usage,
+          devicelabel: iw.devicelabel, device: iw.device, cookieslabel: iw.cookieslabel,
+          cookies: iw.cookies, contactlabel: iw.contactlabel, contact: iw.contact
+        };
+      }
+      if (data.howweuse && typeof data.howweuse === 'object') {
+        data.howweuse.items = parseSections(data.howweuse.items);
+      } else {
+        data.howweuse = { title: data.howweuse?.title, lead: data.howweuse?.lead, items: parseSections(data.howweuse) };
+      }
+      ['cookieslocalstorage', 'thirdparty', 'security', 'children', 'changes'].forEach((k) => {
+        if (data[k] && typeof data[k] === 'object') data[k] = { title: data[k].title, text: data[k].text };
+      });
+      if (data.rights && typeof data.rights === 'object') {
+        data.rights.items = parseSections(data.rights.items);
+      } else {
+        data.rights = { title: data.rights?.title, lead: data.rights?.lead, items: parseSections(data.rights), contacttext: data.rights?.contacttext };
+      }
+      if (data.contact && typeof data.contact === 'object') {
+        const c = data.contact;
+        data.contact = { title: c.title, lead: c.lead, emaillabel: c.emaillabel, email: c.email, websitelabel: c.websitelabel, website: c.website, closing: c.closing };
+      }
+      return { title, lastupdated, ...data };
+    } catch (e) {
+      return { title: '', lastupdated: '', intro: {} as any, informationwecollect: {} as any, howweuse: {} as any, cookieslocalstorage: {} as any, thirdparty: {} as any, security: {} as any, rights: {} as any, children: {} as any, changes: {} as any, contact: {} as any };
+    }
+  };
+  
+  const [privacy, setPrivacy] = useState<PrivacyState>(getInitialPrivacy);
 
   useEffect(() => {
     let mounted = true;
@@ -71,6 +119,16 @@ export default function PrivacyPolicy() {
     })();
     return () => { mounted = false; };
   }, [locale]);
+
+  if (isLoading && !privacy.title) {
+    return (
+      <PageLayout metaKey="privacy.meta" title="" breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Privacy Policy' }]} className="layout-sm">
+        <div className="flex items-center justify-center py-12">
+          <Loader />
+        </div>
+      </PageLayout>
+    );
+  }
 
   return (
     <PageLayout

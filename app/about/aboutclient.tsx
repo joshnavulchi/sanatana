@@ -2,14 +2,35 @@
 import { useEffect, useState } from 'react';
 import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
-import { loadLocale } from 'lib/i18n';
+import { loadLocale, getLocaleObject } from 'lib/i18n';
 import { useT } from '../hooks/useT';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
+import Loader from '@components/loader/loader';
 
 export default function AboutClient() {
-  const { locale } = useLocale();
+  const { locale, isLoading } = useLocale();
   const t = useT();
-  const [about, setAbout] = useState({ title: '', intro: '', sections: [] as any[], disclaimer: '' });
+  
+  // Initialize with current data to prevent empty renders on refresh
+  const getInitialAbout = () => {
+    try {
+      // Use getLocaleObject directly to read from cache synchronously
+      const localeObj = getLocaleObject(locale) as any;
+      if (!localeObj || Object.keys(localeObj).length === 0) {
+        return { title: '', intro: '', sections: [] as any[], disclaimer: '' };
+      }
+      const title = String(localeObj?.about?.title || '');
+      const intro = String(localeObj?.about?.intro || '');
+      const sectionsRaw = parseMaybeObject(localeObj?.about?.sections);
+      const sections = parseSections(sectionsRaw);
+      const disclaimer = String(localeObj?.about?.disclaimer || '');
+      return { title, intro, sections, disclaimer };
+    } catch (e) {
+      return { title: '', intro: '', sections: [] as any[], disclaimer: '' };
+    }
+  };
+  
+  const [about, setAbout] = useState(getInitialAbout);
 
   useEffect(() => {
     let mounted = true;
@@ -28,6 +49,22 @@ export default function AboutClient() {
     })();
     return () => { mounted = false; };
   }, [locale]);
+
+  // Show loading state if locale is still loading and we have no content
+  if (isLoading && !about.title) {
+    return (
+      <PageLayout
+        metaKey="about"
+        title=""
+        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'About' }]}
+        className={`layout-sm`}
+      >
+        <div className="flex items-center justify-center py-12">
+          <Loader />
+        </div>
+      </PageLayout>
+    );
+  }
 
   return (
     <PageLayout

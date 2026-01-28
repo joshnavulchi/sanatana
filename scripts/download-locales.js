@@ -39,16 +39,84 @@ function saveMeta(meta) {
 
 function deepMerge(target, source) {
   for (const key of Object.keys(source)) {
-    if (
-      source[key] &&
-      typeof source[key] === 'object' &&
-      !Array.isArray(source[key]) &&
-      typeof target[key] === 'object' &&
-      !Array.isArray(target[key])
+    const sourceValue = source[key];
+    const targetValue = target[key];
+
+    // Handle arrays specially to avoid duplicates
+    if (Array.isArray(sourceValue)) {
+      if (!Array.isArray(targetValue)) {
+        // Target doesn't have this array, use source array
+        target[key] = sourceValue;
+      } else {
+        // Both are arrays - merge intelligently
+        if (sourceValue.length === 0) {
+          // Empty source array, keep target
+          continue;
+        }
+        
+        // Check if array contains objects with identifiers
+        const hasObjects = sourceValue.some(item => item && typeof item === 'object');
+        
+        if (hasObjects) {
+          // Array of objects - merge by unique identifier
+          const merged = [...targetValue];
+          const identifierKeys = ['id', 'key', 'name', 'chapter', 'parva', 'title', 'href'];
+          
+          for (const sourceItem of sourceValue) {
+            if (!sourceItem || typeof sourceItem !== 'object') {
+              // Primitive in array of objects, add if not exists
+              if (!merged.includes(sourceItem)) {
+                merged.push(sourceItem);
+              }
+              continue;
+            }
+            
+            // Find identifier key for this object
+            const idKey = identifierKeys.find(k => sourceItem[k] !== undefined);
+            
+            if (idKey) {
+              // Find existing item with same identifier
+              const existingIndex = merged.findIndex(item => 
+                item && typeof item === 'object' && item[idKey] === sourceItem[idKey]
+              );
+              
+              if (existingIndex >= 0) {
+                // Merge with existing object
+                merged[existingIndex] = deepMerge(merged[existingIndex], sourceItem);
+              } else {
+                // New item, add it
+                merged.push(sourceItem);
+              }
+            } else {
+              // No identifier found, check for deep equality to avoid duplicates
+              const isDuplicate = merged.some(item => 
+                JSON.stringify(item) === JSON.stringify(sourceItem)
+              );
+              if (!isDuplicate) {
+                merged.push(sourceItem);
+              }
+            }
+          }
+          target[key] = merged;
+        } else {
+          // Array of primitives - merge and deduplicate
+          target[key] = [...new Set([...targetValue, ...sourceValue])];
+        }
+      }
+    } else if (
+      sourceValue &&
+      typeof sourceValue === 'object' &&
+      !Array.isArray(sourceValue)
     ) {
-      deepMerge(target[key], source[key]);
+      // Handle nested objects
+      if (!targetValue || typeof targetValue !== 'object' || Array.isArray(targetValue)) {
+        target[key] = {};
+      }
+      // Recursively merge nested objects
+      deepMerge(target[key], sourceValue);
     } else {
-      target[key] = source[key];
+      // For primitives and null values, replace directly
+      target[key] = sourceValue;
     }
   }
   return target;
@@ -182,25 +250,53 @@ async function downloadLocales({ force = false } = {}) {
 
     // Merge namespace JSONs into index.json and remove others
     try {
+      const indexPath = path.join(localeDir, 'index.json');
       const items = fs.readdirSync(localeDir).filter((n) => n.endsWith('.json'));
       const namespaces = items.filter((n) => n !== 'index.json');
 
       if (namespaces.length > 0) {
+        // Load existing index.json to preserve local-only keys
+        let existingData = {};
+        if (fs.existsSync(indexPath)) {
+          try {
+            const existingRaw = fs.readFileSync(indexPath, 'utf8');
+            existingData = JSON.parse(existingRaw);
+            console.log(`→ loaded existing ${locale}/index.json (${Object.keys(existingData).length} keys)`);
+          } catch (e) {
+            console.warn(`Failed to load existing ${locale}/index.json:`, e.message);
+            existingData = {};
+          }
+        } else {
+          console.log(`→ creating new ${locale}/index.json`);
+        }
+
+        // Start with downloaded namespace files as the BASE (source of truth)
         let merged = {};
         for (const ns of namespaces) {
           const p = path.join(localeDir, ns);
           try {
             const raw = fs.readFileSync(p, 'utf8');
             const json = JSON.parse(raw);
+            const beforeKeys = Object.keys(merged).length;
+            // Downloaded file is the source - merge it as base
             merged = deepMerge(merged, json);
+            const afterKeys = Object.keys(merged).length;
+            console.log(`→ merged ${locale}/${ns} (${beforeKeys} → ${afterKeys} keys)`);
           } catch (e) {
             console.error(`Failed to parse ${locale}/${ns}:`, e.message);
           }
         }
 
-        const indexPath = path.join(localeDir, 'index.json');
+        // Now merge any local-only keys that don't exist in downloaded files
+        for (const key of Object.keys(existingData)) {
+          if (!(key in merged)) {
+            merged[key] = existingData[key];
+            console.log(`→ preserved local-only key: ${key}`);
+          }
+        }
+
         fs.writeFileSync(indexPath, JSON.stringify(merged, null, 2), 'utf8');
-        console.log(`→ merged ${locale} → index.json`);
+        console.log(`✓ updated ${locale}/index.json with ${Object.keys(merged).length} total keys`);
 
         // remove namespace files (keep meta entries so unchanged remote files aren't re-downloaded)
         for (const ns of namespaces) {
@@ -268,6 +364,7 @@ if (require.main === module) {
   const force = process.argv.includes('--force') || process.env.FORCE_LOCALE_DOWNLOAD === '1' || process.env.DOWNLOAD_LOCALES === '1';
   const skipIfMeta = process.argv.includes('--skip-if-meta') || process.argv.includes('--skip');
   const skipLocaleDownload = process.env.SKIP_LOCALE_DOWNLOAD === '1';
+  const isProduction = process.env.NODE_ENV === 'production' || process.env.VERCEL || process.env.RENDER;
 
   if (skipLocaleDownload) {
     console.log('SKIP_LOCALE_DOWNLOAD=1 — skipping locale download');
@@ -279,15 +376,22 @@ if (require.main === module) {
     process.exit(0);
   }
 
-  // Check if locales already exist - if so, skip download unless forced
+  // Check if locales already exist with metadata - if so, only download changed files
   const existingLocales = fs.existsSync(LOCAL_LOCALES_DIR) && 
     fs.readdirSync(LOCAL_LOCALES_DIR).filter(d => {
       const indexPath = path.join(LOCAL_LOCALES_DIR, d, 'index.json');
       return fs.existsSync(indexPath);
     });
 
-  if (!force && existingLocales && existingLocales.length > 0) {
-    console.log(`Found ${existingLocales.length} existing locale(s) — skipping download (use --force to re-download)`);
+  const hasValidMeta = fs.existsSync(META_FILE);
+
+  // In production with existing locales and metadata, only download modified files
+  if (!force && isProduction && existingLocales && existingLocales.length > 0 && hasValidMeta) {
+    console.log(`Production build detected with ${existingLocales.length} existing locale(s) and metadata.`);
+    console.log('Only downloading modified files based on SHA comparison...');
+    // Continue to downloadLocales but with force=false, which will use SHA comparison
+  } else if (!force && existingLocales && existingLocales.length > 0 && !hasValidMeta) {
+    console.log(`Found ${existingLocales.length} existing locale(s) but no metadata — skipping download (use --force to re-download)`);
     process.exit(0);
   }
 
