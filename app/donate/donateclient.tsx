@@ -6,6 +6,7 @@ import { loadLocale, getLocaleObject } from 'lib/i18n';
 import { useT } from '../hooks/useT';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
 import FaqAccordion from '@components/faqaccordion/faqaccordion';
+import Loader from '@components/loader/loader';
  
 export default function DonateClient() {
   const { locale, isLoading } = useLocale();
