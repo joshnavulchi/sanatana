@@ -2,17 +2,17 @@
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('yoga_philosophy');
+export const generateMetadata = createGenerateMetadata('philosophy_yoga');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
-    const k: any = getMeta('yoga_philosophy', {}, locale) || {};
+    const k: any = getMeta('philosophy_yoga', {}, locale) || {};
     const loc: any = getLocaleObject(locale) || {};
-    const yoga = loc?.yoga_philosophy || {};
+    const yoga = loc?.philosophy_yoga || {};
     return {
-      title: typeof k.title === 'string' ? k.title : (yoga.title || t('yoga_philosophy.title', locale) || 'Yoga Philosophy'),
+      title: typeof k.title === 'string' ? k.title : (yoga.title || t('philosophy_yoga.title', locale) || 'Yoga Philosophy'),
       definition: k.definition || yoga.definition,
       core_principles: Array.isArray(k.core_principles) ? k.core_principles : (Array.isArray(yoga.core_principles) ? yoga.core_principles : []),
       origin: k.origin || yoga.origin || {},
@@ -26,7 +26,7 @@ export default function Page({ searchParams }: any) {
   return (
     <>
       <PageLayout
-        metaKey="yoga_philosophy"
+        metaKey="philosophy_yoga"
         title={page.title}
         breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (typeof page.title !== 'undefined' ? page.title : '') }]}
         className={`layout-sm`}

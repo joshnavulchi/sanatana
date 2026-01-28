@@ -2,16 +2,16 @@
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('ramayana_scriptures'); 
+export const generateMetadata = createGenerateMetadata('scriptures_ramayana'); 
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
-    const k: any = getMeta('ramayana_scriptures', {}, locale) || {};
+    const k: any = getMeta('scriptures_ramayana', {}, locale) || {};
     const loc: any = getLocaleObject(locale) || {};
-    const ram = loc?.ramayana_scriptures || {};
-    const title = typeof k.title === 'string' ? k.title : (ram.title || t('ramayana_scriptures.title', locale) || '');
+    const ram = loc?.scriptures_ramayana || {};
+    const title = typeof k.title === 'string' ? k.title : (ram.title || t('scriptures_ramayana.title', locale) || '');
     const author = k.source || ram.source || '';
     let description: string = '';
     const descSource = k.description || ram.description;

@@ -2,17 +2,17 @@
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('moksha_philosophy');
+export const generateMetadata = createGenerateMetadata('philosophy_moksha');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
-    const k: any = getMeta('moksha_philosophy', {}, locale) || {};
+    const k: any = getMeta('philosophy_moksha', {}, locale) || {};
     const loc: any = getLocaleObject(locale) || {};
-    const moksha = loc?.moksha_philosophy || {};
+    const moksha = loc?.philosophy_moksha || {};
     return {
-      title: typeof k.title === 'string' ? k.title : (moksha.title || t('moksha_philosophy.title', locale) || 'Moksha Philosophy'),
+      title: typeof k.title === 'string' ? k.title : (moksha.title || t('philosophy_moksha.title', locale) || 'Moksha Philosophy'),
       definition: k.definition || moksha.definition,
       core_principles: Array.isArray(k.core_principles) ? k.core_principles : (Array.isArray(moksha.core_principles) ? moksha.core_principles : []),
       origin: k.origin || moksha.origin || {},
@@ -25,7 +25,7 @@ export default function Page({ searchParams }: any) {
   return (
     <>
       <PageLayout
-        metaKey="moksha_philosophy"
+        metaKey="philosophy_moksha"
         title={page.title}
         breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (typeof page.title !== 'undefined' ? page.title : '') }]}
         className={`layout-sm`}

@@ -2,14 +2,14 @@
 import { t, detectLocale, getLocaleObject } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('dharma_philosophy');
+export const generateMetadata = createGenerateMetadata('philosophy_dharma');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   const loc: any = getLocaleObject(locale) || {};
-  const dharma = loc?.dharma_philosophy || {};
-  const title = dharma.title || t('dharma_philosophy.title', locale) || 'Dharma Philosophy';
+  const dharma = loc?.philosophy_dharma || {};
+  const title = dharma.title || t('philosophy_dharma.title', locale) || 'Dharma Philosophy';
   const definition: string[] = Array.isArray(dharma.definition) ? dharma.definition : (dharma.definition ? [String(dharma.definition)] : []);
   const categories = dharma.categories_of_dharma || {};
   const philosophicalDimensions = dharma.philosophical_dimensions || {};
@@ -18,12 +18,12 @@ export default function Page({ searchParams }: any) {
   return (
     <>
       <PageLayout
-        metaKey="dharma_philosophy"
+        metaKey="philosophy_dharma"
         title={title}
         breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Dharma' }]}
         className={`layout-sm`}
       >
-        <p><strong>Definition : </strong>{definition.length ? definition.map((s: string, i: number) => (<span key={i}>{s}{i < definition.length - 1 ? ', ' : ''}</span>)) : <span>{String(t('dharma_philosophy.noDefinition', 'en'))}</span>}</p>
+        <p><strong>Definition : </strong>{definition.length ? definition.map((s: string, i: number) => (<span key={i}>{s}{i < definition.length - 1 ? ', ' : ''}</span>)) : <span>{String(t('philosophy_dharma.noDefinition', 'en'))}</span>}</p>
         {/* Categories of Dharma */}
         <div>
           <h2 className="h4">Categories of Dharma :</h2>

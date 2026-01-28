@@ -154,7 +154,7 @@ function readPaths() {
                 }
               } catch (e) { }
               // Fallback: add a reasonable default range
-              const fallbackCount = /bhagavathgita|bhagavadgita/.test(book) ? 18 : 12;
+              const fallbackCount = /bhagavathgeeta|bhagavadgita/.test(book) ? 18 : 12;
               for (let i = 1; i <= fallbackCount; i++) expanded.push(`/scriptures/${book}/chapter/${i}`);
               continue;
             }

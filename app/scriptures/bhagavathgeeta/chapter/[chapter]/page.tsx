@@ -22,18 +22,18 @@ export async function createGenerateMetadata({ params, searchParams }: { params:
 
   // load chapters from locale translations; if the locale doesn't include
   // structured chapters, fall back to English translations (no combined file)
-  let chaptersRaw: any = t('bhagavadgita_scriptures.chapters', locale); 
+  let chaptersRaw: any = t('scriptures_bhagavadgeeta.chapters', locale); 
   if (!Array.isArray(chaptersRaw)) {
-    chaptersRaw = t('bhagavadgita_scriptures.chapters', 'en');
+    chaptersRaw = t('scriptures_bhagavadgeeta.chapters', 'en');
   }
   const chapters: any[] = Array.isArray(chaptersRaw) ? chaptersRaw : [];
   const resolvedParams = params && typeof params.then === 'function' ? await params : params;
   const num = Number(resolvedParams?.chapter || 0);
   const ch = Array.isArray(chapters) ? chapters.find((c: any) => Number(c.chapter) === num) : null;
-  const title = ch ? `${S('bhagavadgita_scriptures.title')} — Chapter ${ch.chapter}: ${ch.title}` : `${S('bhagavadgita_scriptures.title')} — Chapter ${num}`;
+  const title = ch ? `${S('scriptures_bhagavadgeeta.title')} — Chapter ${ch.chapter}: ${ch.title}` : `${S('scriptures_bhagavadgeeta.title')} — Chapter ${num}`;
   const meta = getMeta('bhagavadgita_slug', { title: title, excerpt: ch && ch.summary ? ch.summary : '' }, locale);
   const description = ch && ch.summary ? ch.summary : meta.description;
-  const keywords = (meta.keywords && String(meta.keywords).trim()) ? meta.keywords : `${S('bhagavadgita_scriptures.title')}, chapter ${num}`;
+  const keywords = (meta.keywords && String(meta.keywords).trim()) ? meta.keywords : `${S('scriptures_bhagavadgeeta.title')}, chapter ${num}`;
   const ogImages = meta.ogImage ? [meta.ogImage] : undefined;
   return {
     title,
@@ -52,9 +52,9 @@ export async function generateStaticParams() {
 export default async function Page({ params, searchParams }: { params: any, searchParams?: any }) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   // load chapters strictly from locale translations; fall back to English
-  let chaptersRaw: any = t('bhagavadgita_scriptures.chapters', locale);
+  let chaptersRaw: any = t('scriptures_bhagavadgeeta.chapters', locale);
   if (!Array.isArray(chaptersRaw)) {
-    chaptersRaw = t('bhagavadgita_scriptures.chapters', 'en');
+    chaptersRaw = t('scriptures_bhagavadgeeta.chapters', 'en');
   }
   const chapters: any[] = Array.isArray(chaptersRaw) ? chaptersRaw : [];
   const resolvedParams = params && typeof params.then === 'function' ? await params : params;
@@ -65,7 +65,7 @@ export default async function Page({ params, searchParams }: { params: any, sear
   }
   const ch = Array.isArray(chapters) ? chapters.find((c: any, i: number) => Number(c.chapter || c.chapter_number || (i + 1)) === num) : null;
   // compute a chapter-specific title/excerpt to pass into StructuredData
-  const bookTitle = (t('bhagavadgita_scriptures.title', locale) || t('bhagavadgita_scriptures.title', 'en') || 'Bhagavad Gita');
+  const bookTitle = (t('scriptures_bhagavadgeeta.title', locale) || t('scriptures_bhagavadgeeta.title', 'en') || 'Bhagavad Gita');
   const chapterTitleText = ch ? (ch.title || ch.name || `Chapter ${num}`) : `Chapter ${num}`;
   const title = `Chapter ${num}`;
   const excerpt = ch && ch.summary ? ch.summary : '';
@@ -75,7 +75,7 @@ export default async function Page({ params, searchParams }: { params: any, sear
       {/* Debug removed */}
       <main className="content-wrapper md">
         <nav role="menu">
-          <Link href="/scriptures/bhagavathgita">&larr; Back to Bhagavad Gita</Link>
+          <Link href="/scriptures/bhagavathgeeta">&larr; Back to Bhagavad Gita</Link>
         </nav>
         <h1 className="text-center">{title}</h1>
         {ch && ch.verses && ch.verses.length > 0 ? (
@@ -151,7 +151,7 @@ export default async function Page({ params, searchParams }: { params: any, sear
         <div className="flex justify-between">
           <div>
             {num > 1 ? (
-              <Link href={`/scriptures/bhagavathgita/chapter/${num - 1}`} className="btn btn-outline">
+              <Link href={`/scriptures/bhagavathgeeta/chapter/${num - 1}`} className="btn btn-outline">
                 &larr; Previous
               </Link>
             ) : (
@@ -160,7 +160,7 @@ export default async function Page({ params, searchParams }: { params: any, sear
           </div>
           <div>
             {num < 18 ? (
-              <Link href={`/scriptures/bhagavathgita/chapter/${num + 1}`} className="btn btn-outline">
+              <Link href={`/scriptures/bhagavathgeeta/chapter/${num + 1}`} className="btn btn-outline">
                 Next &rarr;
               </Link>
             ) : (
