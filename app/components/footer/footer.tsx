@@ -76,7 +76,7 @@ export default function Footer() {
 
         <div className={`${styles.navWrapper} w-full relative z-10 flex flex-col md:flex-row md:items-start md:justify-between border-t`}>
           <nav role="menu" className="md:w-full gap-4 flex flex-col  md:flex-row md:items-start">
-            <div className="md:w-1/7 flex flex-col gap-2">
+            <div className="md:w-1/6 flex flex-col gap-2">
               <p className="description underline">{scripturesTitle}</p>
               {Object.entries(scriptures).map(([key, val]) => {
                 if (typeof val !== 'string') return null;
@@ -89,7 +89,7 @@ export default function Footer() {
               })}
             </div>
 
-            <div className="md:w-1/7 flex flex-col gap-2">
+            <div className="md:w-1/6 flex flex-col gap-2">
               <p className="description underline">{stotrasTitle}</p>
               {Object.entries(stotras).map(([key, val]) => {
                 if (typeof val !== 'string') return null;
@@ -102,7 +102,7 @@ export default function Footer() {
               })}
             </div>
 
-            <div className="md:w-1/7 flex flex-col gap-2">
+            <div className="md:w-1/6 flex flex-col gap-2">
               <p className="description underline">{philosophyTitle}</p>
               {Object.entries(philosophy).map(([key, val]) => {
                 if (typeof val !== 'string') return null;
@@ -115,7 +115,7 @@ export default function Footer() {
               })}
             </div>
 
-            <div className="md:w-1/7 flex flex-col gap-2">
+            <div className="md:w-1/7 flex flex-col gap-2 hidden">
               <p className="description underline">{practicesTitle}</p>
               {Object.entries(practices).map(([key, val]) => {
                 if (typeof val !== 'string') return null;
@@ -128,7 +128,7 @@ export default function Footer() {
               })}
             </div>
 
-            <div className="md:w-1/7 flex flex-col gap-2">
+            <div className="md:w-1/6 flex flex-col gap-2">
               <p className="description underline">{storiesTitle}</p>
               {Object.entries(stories).map(([key, val]) => {
                 if (typeof val !== 'string') return null;
@@ -141,7 +141,7 @@ export default function Footer() {
               })}
             </div>
 
-            <div className="md:w-1/7 flex flex-col gap-2">
+            <div className="md:w-1/6 flex flex-col gap-2">
               <p className="description underline">{kidszoneTitle}</p>
               {Object.entries(kidszone).map(([key, val]) => {
                 if (typeof val !== 'string') return null;
@@ -154,7 +154,7 @@ export default function Footer() {
               })}
             </div>
 
-            <div className="md:w-1/7 flex flex-col gap-2">
+            <div className="md:w-1/6 flex flex-col gap-2">
               <p className="description underline">{othersTitle}</p>
               {Object.entries(others).map(([key, val]) => {
                 if (typeof val !== 'string') return null;

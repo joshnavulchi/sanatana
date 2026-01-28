@@ -21,7 +21,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
   const defaultObj = (getLocaleObject(DEFAULT_LOCALE) as any) || {};
-  const defaultSiteTitle = (defaultObj?.siteTitle && (defaultObj.siteTitle?.siteTitle || defaultObj.siteTitle)) || (defaultObj?.sitetitle) || 'Sanātana Dharma';
+  const defaultSiteTitle = (defaultObj?.siteTitle && (defaultObj.siteTitle?.siteTitle || defaultObj.siteTitle)) || (defaultObj?.sitetitle);
   const defaultNav = (defaultObj?.nav as any) || {};
   const defaultBanner = (defaultObj && (defaultObj.bannerNotifications ?? defaultObj.banner ?? defaultObj.banner_notifications)) || null;
   const defaultBanner2 = (defaultObj && (defaultObj.bannerNotifications2 ?? defaultObj.banner2 ?? defaultObj.banner_notifications2)) || null;
@@ -189,10 +189,10 @@ export default function Header() {
               <LazyImage
                 src="/images/logo.png"
                 alt="Sanatanadharmam Logo"
-                width={80}
-                height={72}
-                sizes="(min-width:1024px) 40px, 80px"
-                className="w-[80px] md:w-[40px]"
+                width={40}
+                height={35}
+                sizes="(min-width:1024px) 40px, 35px"
+                className="w-[40px] md:w-[35px]"
               />
               <span>
                 {translations.siteTitle}
