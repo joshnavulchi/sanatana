@@ -23,7 +23,12 @@ export default function Page({ searchParams }: any) {
   })();
   return (
     <>
-      <PageLayout metaKey="samsara_philosophy" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}>
+      <PageLayout
+        metaKey="samsara_philosophy"
+        title={page.title}
+        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}
+        className={`layout-sm`}
+      >
         <p><strong>Definition : </strong>{page.definition}</p>
         {/* Core Principles of Samsara */}
         <div>

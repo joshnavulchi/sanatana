@@ -28,7 +28,7 @@ export default function Page({ searchParams }: any) {
         metaKey="moksha_philosophy"
         title={page.title}
         breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (typeof page.title !== 'undefined' ? page.title : '') }]}
-        className=""
+        className={`layout-sm`}
       >
         <p><strong>Definition : </strong>{page.definition}</p>
         {/* Core Principles of moksha */}

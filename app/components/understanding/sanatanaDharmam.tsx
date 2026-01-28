@@ -29,7 +29,7 @@ export default function UnderstandingOfSanatana() {
                   <p>{topic.description}</p>
                   <Link href={topic.href} title={topic.title} className="small">Read more...</Link>
                 </div>
-              </div>
+              </div> 
             ))}
             {section?.points && section?.points.map((point: any, idx: number) => (
               <div key={idx} className={`card w-full md:w-1/4 lg:w-1/4 rounded-2xl shadow-sm hover:shadow-md transition`}>
