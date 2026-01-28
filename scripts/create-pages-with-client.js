@@ -61,8 +61,8 @@ function RenderNode({ node, nodeKey, showHeading }: { node: any; nodeKey?: strin
   if (typeof node === 'object') {
     const heading = node.heading || node.title || ((showHeading || false) && nodeKey ? nodeKey : null);
     return (
-      <section>
-        {heading ? <p>{heading}</p> : null}
+      <div>
+        {heading ? <div className="font-semibold mb-2">{heading}</div> : null}
         {Object.keys(node).map(k => {
           if (k === 'heading' || k === 'title' || k === 'id' || k === 'type') return null;
           const child = node[k];
@@ -74,10 +74,10 @@ function RenderNode({ node, nodeKey, showHeading }: { node: any; nodeKey?: strin
             </div>
           );
         })}
-      </section>
+      </div>
     );
   }
-  return <p>{String(node)}</p>;
+  return <div>{String(node)}</div>;
 }
 
 export default function ${compName}() {
