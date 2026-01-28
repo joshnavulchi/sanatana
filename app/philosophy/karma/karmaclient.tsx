@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '@/app/context/locale-context';
-import { loadLocale } from 'lib/i18n';
+import { loadLocale, getLocaleObject } from 'lib/i18n';
 import { useT } from '../../hooks/useT';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
 
@@ -42,9 +42,28 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
 };
 
 export default function KrishnaExplainsFiveKarmasClient() {
-  const { locale } = useLocale();
+  const { locale, isLoading } = useLocale();
   const t = useT();
-  const [karma, setKarma] = useState({ title: '', story: [] as string[] });
+  
+  // Initialize with current data to prevent empty renders on refresh
+  const getInitialKarma = () => {
+    try {
+      const localeObj = getLocaleObject(locale) as any;
+      if (!localeObj || Object.keys(localeObj).length === 0) {
+        return { title: '', story: [] as string[] };
+      }
+      const title = String(localeObj?.karma_philosophy?.title || '');
+      const rawStory = localeObj?.karma_philosophy?.story;
+      const story = Array.isArray(rawStory)
+        ? (rawStory as string[])
+        : (rawStory ? String(rawStory).split(/\r?\n/).filter(Boolean) : []);
+      return { title, story };
+    } catch (e) {
+      return { title: '', story: [] as string[] };
+    }
+  };
+  
+  const [karma, setKarma] = useState(getInitialKarma);
 
   useEffect(() => {
     let mounted = true;

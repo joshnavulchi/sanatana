@@ -47,7 +47,9 @@ import { useLocale } from '../context/locale-context';
 import { useT } from '../hooks/useT';
 import { parseMaybeObject } from 'lib/parseContent';
 import { parseList } from 'lib/parseList';
+import { getLocaleObject } from 'lib/i18n';
 import FaqAccordion from '../components/faqaccordion/faqaccordion';
+import Loader from '@components/loader/loader';
 
 function RenderNode({ node, nodeKey, showHeading }: { node: any; nodeKey?: string; showHeading?: boolean }) {
   if (node === null || node === undefined) return null;
@@ -61,8 +63,8 @@ function RenderNode({ node, nodeKey, showHeading }: { node: any; nodeKey?: strin
   if (typeof node === 'object') {
     const heading = node.heading || node.title || ((showHeading || false) && nodeKey ? nodeKey : null);
     return (
-      <section>
-        {heading ? <p>{heading}</p> : null}
+      <div>
+        {heading ? <div className="font-semibold mb-2">{heading}</div> : null}
         {Object.keys(node).map(k => {
           if (k === 'heading' || k === 'title' || k === 'id' || k === 'type') return null;
           const child = node[k];
@@ -74,16 +76,48 @@ function RenderNode({ node, nodeKey, showHeading }: { node: any; nodeKey?: strin
             </div>
           );
         })}
-      </section>
+      </div>
     );
   }
-  return <p>{String(node)}</p>;
+  return <div>{String(node)}</div>;
 }
 
 export default function ${compName}() {
-  const { locale } = useLocale();
+  const { locale, isLoading } = useLocale();
   const t = useT();
-  const [page, setPage] = useState<any>({});
+  
+  // Initialize state with current translation data to prevent empty renders on refresh
+  const getInitialPage = () => {
+    try {
+      // Use getLocaleObject directly to read from cache synchronously
+      const localeObj = getLocaleObject(locale) as any;
+      if (!localeObj || Object.keys(localeObj).length === 0) return {};
+      
+      const keyPath = '${pageKey}'.split('.');
+      let raw = localeObj;
+      for (const k of keyPath) {
+        raw = raw?.[k];
+        if (!raw) break;
+      }
+      
+      const obj = (raw && typeof raw === 'object') ? raw : (typeof raw === 'string' ? parseMaybeObject(raw) : {});
+      const transform = (o) => {
+        if (!o || typeof o !== 'object') return o;
+        const out = { ...o };
+        for (const k of Object.keys(out)) {
+          if (['sections','list','items','columns'].includes(k)) {
+            out[k] = parseList(out[k]);
+          }
+        }
+        return out;
+      };
+      return transform(obj) || {};
+    } catch (e) {
+      return {};
+    }
+  };
+  
+  const [page, setPage] = useState<any>(getInitialPage);
 
   useEffect(() => {
     let mounted = true;
@@ -111,18 +145,29 @@ export default function ${compName}() {
     return () => { mounted = false; };
   }, [locale]);
 
+  if (isLoading && !page.title) {
+    return (
+      <PageLayout metaKey="${pageKey}" title="" breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: '${formatKey(folderName)}' }]} className="layout-sm">
+        <div className="flex items-center justify-center py-12">
+          <Loader />
+        </div>
+      </PageLayout>
+    );
+  }
+
   return (
     <PageLayout metaKey="${pageKey}" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title || '${formatKey(folderName)}' }]} className="layout-sm">
       {page.subtitle ? <p>{page.subtitle}</p> : null}
-      {Object.keys(page).filter(k => !['title','subtitle','meta','schema','id','type', 'required'].includes(k)).map((k) => (
+      {Object.keys(page).filter(k => !['title','subtitle','meta','schema','id','type', 'required', 'faq'].includes(k)).map((k) => (
         <div key={k} className="mb-6">
-          {k === 'faq' ? (
-            <FaqAccordion items={(Array.isArray(page[k]?.items) ? page[k].items : (Array.isArray(page[k]) ? page[k] : []))} heading={(page[k] && page[k].heading) ? page[k].heading : ''} />
-          ) : (
-            <RenderNode nodeKey={k} node={page[k]} showHeading={false} />
-          )}
+          <RenderNode nodeKey={k} node={page[k]} showHeading={false} />
         </div>
       ))}
+      {page.faq && (
+        <div className="mt-8">
+          <FaqAccordion items={(Array.isArray(page.faq?.items) ? page.faq.items : (Array.isArray(page.faq) ? page.faq : []))} heading={(page.faq && page.faq.heading) ? page.faq.heading : ''} />
+        </div>
+      )}
     </PageLayout>
   );
 }

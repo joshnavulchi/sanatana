@@ -65,3 +65,5 @@ dist/
 locales-external/
 # Downloaded locales (regenerated during build)
 public/locales/
+# Keep .locales-meta.json for production builds to avoid re-downloading
+!public/locales/.locales-meta.json
