@@ -268,6 +268,7 @@ if (require.main === module) {
   const force = process.argv.includes('--force') || process.env.FORCE_LOCALE_DOWNLOAD === '1' || process.env.DOWNLOAD_LOCALES === '1';
   const skipIfMeta = process.argv.includes('--skip-if-meta') || process.argv.includes('--skip');
   const skipLocaleDownload = process.env.SKIP_LOCALE_DOWNLOAD === '1';
+  const isProduction = process.env.NODE_ENV === 'production' || process.env.VERCEL || process.env.RENDER;
 
   if (skipLocaleDownload) {
     console.log('SKIP_LOCALE_DOWNLOAD=1 — skipping locale download');
@@ -279,15 +280,22 @@ if (require.main === module) {
     process.exit(0);
   }
 
-  // Check if locales already exist - if so, skip download unless forced
+  // Check if locales already exist with metadata - if so, only download changed files
   const existingLocales = fs.existsSync(LOCAL_LOCALES_DIR) && 
     fs.readdirSync(LOCAL_LOCALES_DIR).filter(d => {
       const indexPath = path.join(LOCAL_LOCALES_DIR, d, 'index.json');
       return fs.existsSync(indexPath);
     });
 
-  if (!force && existingLocales && existingLocales.length > 0) {
-    console.log(`Found ${existingLocales.length} existing locale(s) — skipping download (use --force to re-download)`);
+  const hasValidMeta = fs.existsSync(META_FILE);
+
+  // In production with existing locales and metadata, only download modified files
+  if (!force && isProduction && existingLocales && existingLocales.length > 0 && hasValidMeta) {
+    console.log(`Production build detected with ${existingLocales.length} existing locale(s) and metadata.`);
+    console.log('Only downloading modified files based on SHA comparison...');
+    // Continue to downloadLocales but with force=false, which will use SHA comparison
+  } else if (!force && existingLocales && existingLocales.length > 0 && !hasValidMeta) {
+    console.log(`Found ${existingLocales.length} existing locale(s) but no metadata — skipping download (use --force to re-download)`);
     process.exit(0);
   }
 
