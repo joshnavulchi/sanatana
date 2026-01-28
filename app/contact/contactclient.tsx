@@ -5,8 +5,10 @@ import { useLocale } from '../context/locale-context';
 import { useT } from '../hooks/useT';
 import { parseMaybeObject } from 'lib/parseContent';
 import { parseList } from 'lib/parseList';
+import { getLocaleObject } from 'lib/i18n';
 import FaqAccordion from '../components/faqaccordion/faqaccordion';
 import ContactForm from '../components/contact/ContactForm';
+import Loader from '@components/loader/loader';
 
 import styles from './page.module.scss';
 
@@ -63,9 +65,34 @@ function RenderNode({ node, nodeKey, showHeading }: { node: any; nodeKey?: strin
 }
 
 export default function ContactPage() {
-  const { locale } = useLocale();
+  const { locale, isLoading } = useLocale();
   const t = useT();
-  const [page, setPage] = useState<any>({});
+  
+  // Initialize state with current translation data to prevent empty renders
+  const getInitialPage = () => {
+    try {
+      const localeObj = getLocaleObject(locale) as any;
+      if (!localeObj || Object.keys(localeObj).length === 0) return {};
+      
+      const raw = parseMaybeObject(localeObj?.contact);
+      const obj = (raw && typeof raw === 'object') ? raw : (typeof raw === 'string' ? parseMaybeObject(raw) : {});
+      const transform = (o: any) => {
+        if (!o || typeof o !== 'object') return o;
+        const out = { ...o };
+        for (const k of Object.keys(out)) {
+          if (['sections','list','items','columns'].includes(k)) {
+            out[k] = parseList(out[k]);
+          }
+        }
+        return out;
+      };
+      return transform(obj) || {};
+    } catch (e) {
+      return {};
+    }
+  };
+  
+  const [page, setPage] = useState<any>(getInitialPage);
 
   useEffect(() => {
     let mounted = true;
@@ -93,18 +120,29 @@ export default function ContactPage() {
     return () => { mounted = false; };
   }, [locale]);
 
+  if (isLoading && !page.title) {
+    return (
+      <PageLayout metaKey="contact" title="" breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Contact' }]} className={`${styles.contactPage} layout-sm`}>
+        <div className="flex items-center justify-center py-12">
+          <Loader />
+        </div>
+      </PageLayout>
+    );
+  }
+
   return (
     <PageLayout metaKey="contact" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title || 'contact' }]} className={`${styles.contactPage} layout-sm`}>
       {page.subtitle ? <p>{page.subtitle}</p> : null}
-      {Object.keys(page).filter(k => !['title','subtitle','meta','schema','id','type', 'required'].includes(k)).map((k) => (
+      {Object.keys(page).filter(k => !['title','subtitle','meta','schema','id','type', 'required', 'faq'].includes(k)).map((k) => (
         <div key={k}>
-          {k === 'faq' ? (
-            <FaqAccordion items={(Array.isArray(page[k]?.items) ? page[k].items : (Array.isArray(page[k]) ? page[k] : []))} heading={(page[k] && page[k].heading) ? page[k].heading : ''} />
-          ) : (
-            <RenderNode nodeKey={k} node={page[k]} showHeading={false} />
-          )}
+          <RenderNode nodeKey={k} node={page[k]} showHeading={false} />
         </div>
       ))}
+      {page.faq && (
+        <div className="mt-8">
+          <FaqAccordion items={(Array.isArray(page.faq?.items) ? page.faq.items : (Array.isArray(page.faq) ? page.faq : []))} heading={(page.faq && page.faq.heading) ? page.faq.heading : ''} />
+        </div>
+      )}
     </PageLayout>
   );
 }

@@ -4,7 +4,7 @@ import { Poppins } from 'next/font/google';
 import { LocaleProvider } from './context/locale-context';
 import { ThemeProvider } from './context/theme-context';
 import { headers } from 'next/headers';
-import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '../lib/i18n';
+import { DEFAULT_LOCALE, SUPPORTED_LOCALES, getLocaleObject } from '../lib/i18n';
 import { secrets } from '../lib/secrets';
 import { buildOrganizationJsonLd, buildWebSiteJsonLd, renderJsonLdScript } from '../lib/jsonld';
 import Script from 'next/script';
@@ -60,9 +60,20 @@ export default async function RootLayout({
     // Use default locale on error
   }
   
+  // Load the locale data server-side so it's available for client hydration
+  const localeData = getLocaleObject(lang);
+  
   return (
     <html lang={lang} translate="no">
       <head>
+        {/* Inject locale data for client-side hydration */}
+        <Script
+          id="locale-cache"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `window.__LOCALE_CACHE__ = window.__LOCALE_CACHE__ || {}; window.__LOCALE_CACHE__["${lang}"] = ${JSON.stringify(localeData)};`
+          }}
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
         {/* Prevent browser automatic translation UI (Chrome/Google Translate) */}
         <meta name="google" content="notranslate" />

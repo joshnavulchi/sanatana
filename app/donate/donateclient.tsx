@@ -2,15 +2,49 @@
 import { useEffect, useState } from 'react';
 import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
-import { loadLocale } from 'lib/i18n';
+import { loadLocale, getLocaleObject } from 'lib/i18n';
 import { useT } from '../hooks/useT';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
 import FaqAccordion from '@components/faqaccordion/faqaccordion';
  
 export default function DonateClient() {
-  const { locale } = useLocale();
+  const { locale, isLoading } = useLocale();
   const t = useT();
-  const [donate, setDonate] = useState({ title: '', subtitle: '', purpose: {} as any, expenses: {} as any, donateOptions: {} as any, faq: {} as any });
+  
+  // Initialize with current data to prevent empty renders on refresh
+  const getInitialDonate = () => {
+    try {
+      const localeObj = getLocaleObject(locale) as any;
+      if (!localeObj || Object.keys(localeObj).length === 0) {
+        return { title: '', subtitle: '', purpose: {} as any, expenses: {} as any, donateOptions: {} as any, faq: {} as any };
+      }
+      
+      const title = localeObj?.donate?.title || '';
+      const subtitle = localeObj?.donate?.subtitle || '';
+      const rawPurpose = parseMaybeObject(localeObj?.donate?.purpose);
+      const rawExpenses = parseMaybeObject(localeObj?.donate?.expenses);
+      const donateOptions = parseMaybeObject(localeObj?.donate?.donateOptions);
+      const rawFaq = parseMaybeObject(localeObj?.donate?.faq);
+      
+      const purpose = (rawPurpose && typeof rawPurpose === 'object')
+        ? { heading: rawPurpose.heading, points: parseSections(rawPurpose.points) }
+        : { heading: '', points: parseSections(rawPurpose) };
+      
+      const expenses = (rawExpenses && typeof rawExpenses === 'object')
+        ? { heading: rawExpenses.heading, table: Array.isArray(rawExpenses.table) ? rawExpenses.table : parseSections(rawExpenses.table) }
+        : { heading: '', table: parseSections(rawExpenses) };
+      
+      const faq = (rawFaq && typeof rawFaq === 'object')
+        ? { heading: rawFaq.heading, items: Array.isArray(rawFaq.items) ? rawFaq.items : parseSections(rawFaq.items) }
+        : { heading: '', items: parseSections(rawFaq) };
+      
+      return { title, subtitle, purpose, expenses, donateOptions, faq };
+    } catch (e) {
+      return { title: '', subtitle: '', purpose: {} as any, expenses: {} as any, donateOptions: {} as any, faq: {} as any };
+    }
+  };
+  
+  const [donate, setDonate] = useState(getInitialDonate);
 
   useEffect(() => {
     let mounted = true;
@@ -44,6 +78,16 @@ export default function DonateClient() {
     })();
     return () => { mounted = false; };
   }, [locale]);
+
+  if (isLoading && !donate.title) {
+    return (
+      <PageLayout metaKey="donate" title="" breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Donate' }]} className="">
+        <div className="flex items-center justify-center py-12">
+          <Loader />
+        </div>
+      </PageLayout>
+    );
+  }
 
   return (
     <PageLayout
