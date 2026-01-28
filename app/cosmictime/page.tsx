@@ -15,7 +15,7 @@ export default async function Page() {
       breadcrumbs={[
         { labelKey: 'nav.home', href: '/' },
         { label: 'Cosmic Time' }]}
-      className={`${styles.cosmicPage} layout-md`}>
+      className={`${styles.cosmicPage} layout-sm`}>
       <p className="description">{cosmic('cosmictime.definition')}</p>
       <p>{cosmic('cosmictime.keypoint')}</p>
       <p>{cosmic('cosmictime.longduration')}</p>
