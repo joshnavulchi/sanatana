@@ -9,10 +9,10 @@
       margin: var(--space-md) 0;
     }
   }
-  .disclaimer { padding: var(--space-md); }
+  .disclaimer { padding: var(--space-lg) var(--space-md) 0; }
   .socialIcons { padding: var(--space-md); display: flex; align-items: center; justify-content: flex-end; gap: 1rem; }
   .copyrights { padding-right: var(--space-md); padding-bottom: var(--space-md); padding-left: var(--space-md); }
-  .copyrights a { font-size: 0.75rem; }
+  .copyrights a { font-size: 0.9rem; }
   .copyrights small { display: inline-block; padding: var(--space-md) 0; }
   .underline { text-decoration: underline; }
   small,
@@ -30,6 +30,7 @@
       padding-right: var(--space-md);
       padding-left: var(--space-md);
     }
+    .copyrights a { font-size: 0.75rem; }
   }
 }
 @media (min-width: 1600px) {
