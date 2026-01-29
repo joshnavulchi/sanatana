@@ -14,11 +14,11 @@ interface SimilarCategoriesProps {
   excludeCurrent?: boolean;
 }
 
-export default function SimilarCategories({ 
-  currentCategory, 
+export default function SimilarCategories({
+  currentCategory,
   title = 'Explore More',
   maxItems = 6,
-  excludeCurrent = true 
+  excludeCurrent = true
 }: SimilarCategoriesProps) {
   const { locale } = useLocale();
   const t = useT();
@@ -36,12 +36,15 @@ export default function SimilarCategories({
         const extractedCategories: Array<{ key: string; title: string; links: Array<{ key: string; label: string; href: string }> }> = [];
         // Define all known categories to ensure they're included
         const knownCategories = ['philosophy', 'scriptures', 'kidszone', 'practices', 'stories'];
-        
+
         Object.entries(navData).forEach(([key, value]: [string, any]) => {
+          console.log(`Checking key: ${key}, type: ${typeof value}, has nav: ${value?.nav ? 'YES' : 'NO'}`);
+
           // Include ALL categories with nav property - not just specific ones
           if (typeof value === 'object' && value !== null && value.nav && typeof value.nav === 'object') {
             // Skip current category if excludeCurrent is true
             if (excludeCurrent && key === currentCategory) {
+              console.log(`❌ Skipping current category: ${key}`);
               return;
             }
             const categoryTitle = value.title || key;
@@ -92,7 +95,6 @@ export default function SimilarCategories({
       </aside>
     );
   }
-  console.log('SimilarCategories - Rendering with categories:', categories);
   return (
     <aside className={styles.similarCategories}>
       <h5 className={styles.title}>{title}</h5>

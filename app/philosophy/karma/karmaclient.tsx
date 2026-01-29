@@ -14,19 +14,25 @@ import LazyImage from '@/app/components/lazy-image/LazyImage';
 const Paragraphs = ({ lines }: { lines?: any[] }) => {
   if (!Array.isArray(lines) || !lines.length) return null;
   return (
-    <div className="flex gap-4">
-      <div className="w-3/4 border-r border-r-gray-300 pr-4">
-        <LazyImage src="/images/philosophy-karma.png" alt="philosophy karma" width={600} height={400} />
+    <div className="md:flex md:gap-4">
+      <div className="w-full md:w-3/4 md:border-r md:border-r-gray-300 md:pr-4">
+        <LazyImage
+          src="/images/philosophy-karma.png"
+          alt="philosophy karma"
+          width={900}
+          height={150}
+          className="my-6 md:mt-0"
+        />
         {lines.map((line: any, idx: number) => (
           <p key={idx}>{line}</p>
         ))}
       </div>
-      <div className="w-1/4">
+      <div className="w-full md:w-1/4">
         <SimilarCategories
           currentCategory="philosophy"
           title="Similar Philosophy"
           maxItems={3}
-          excludeCurrent={true}
+          excludeCurrent={false}
         />
       </div>
     </div>
