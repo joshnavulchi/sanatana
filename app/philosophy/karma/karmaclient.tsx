@@ -5,21 +5,39 @@ import { useLocale } from '@/app/context/locale-context';
 import { loadLocale, getLocaleObject } from 'lib/i18n';
 import { useT } from '../../hooks/useT';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
+import SimilarCategories from '@components/similar-categories/SimilarCategories';
 
 import styles from './page.module.scss';
+import LazyImage from '@/app/components/lazy-image/LazyImage';
 
 // Helper components declared at module scope to avoid creating components during render
 const Paragraphs = ({ lines }: { lines?: any[] }) => {
   if (!Array.isArray(lines) || !lines.length) return null;
   return (
-    <div>
-      {lines.map((line: any, idx: number) => (
-        <p key={idx}>{line}</p>
-      ))}
+    <div className="md:flex md:gap-4">
+      <div className="w-full md:w-3/4 md:border-r md:border-r-gray-300 md:pr-4">
+        <LazyImage
+          src="/images/philosophy-karma.png"
+          alt="philosophy karma"
+          width={900}
+          height={150}
+          className="my-6 md:mt-0"
+        />
+        {lines.map((line: any, idx: number) => (
+          <p key={idx}>{line}</p>
+        ))}
+      </div>
+      <div className="w-full md:w-1/4">
+        <SimilarCategories
+          currentCategory="philosophy"
+          title="Similar Philosophy"
+          maxItems={3}
+          excludeCurrent={false}
+        />
+      </div>
     </div>
   );
 };
-
 const Conversation = ({ convo }: { convo?: any[] }) => {
   if (!Array.isArray(convo) || !convo.length) return null;
   return (
@@ -40,11 +58,9 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
     </div>
   );
 };
-
 export default function KrishnaExplainsFiveKarmasClient() {
   const { locale, isLoading } = useLocale();
   const t = useT();
-  
   // Initialize with current data to prevent empty renders on refresh
   const getInitialKarma = () => {
     try {
@@ -62,16 +78,13 @@ export default function KrishnaExplainsFiveKarmasClient() {
       return { title: '', story: [] as string[] };
     }
   };
-  
   const [karma, setKarma] = useState(getInitialKarma);
-
   useEffect(() => {
     let mounted = true;
     (async () => {
       try {
         await loadLocale(locale).catch(() => { });
       } catch (e) { }
-
       if (!mounted) return;
       const title = String(t('philosophy_karma.title') || '');
       const rawStory = t('philosophy_karma.story');
@@ -82,24 +95,21 @@ export default function KrishnaExplainsFiveKarmasClient() {
     })();
     return () => { mounted = false; };
   }, [locale]);
-
-  // small helpers intentionally declared at module scope above
-
   // Compute render-time title/story from translations first, falling back to state
   const renderTitle = String(t('philosophy_karma.title') || karma.title || '');
   const rawStoryFromT = t('philosophy_karma.story');
   const renderStory = Array.isArray(rawStoryFromT)
     ? (rawStoryFromT as string[])
     : rawStoryFromT
-    ? String(rawStoryFromT).split(/\r?\n/).filter(Boolean)
-    : (Array.isArray(karma.story) ? karma.story : (karma.story ? [String(karma.story)] : []));
+      ? String(rawStoryFromT).split(/\r?\n/).filter(Boolean)
+      : (Array.isArray(karma.story) ? karma.story : (karma.story ? [String(karma.story)] : []));
 
   return (
     <PageLayout
       metaKey="karma_philosophy"
       title={renderTitle}
       breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Karma' }]}
-      className={`layout-sm`}
+      className={`layout-md`}
     >
       {/* Render script paragraphs (para1, para2, ...) then conversation (alternating chat bubbles). */}
       {(() => {
@@ -108,7 +118,6 @@ export default function KrishnaExplainsFiveKarmasClient() {
         if (renderStory && renderStory.length > 0) {
           return <Paragraphs lines={renderStory} />;
         }
-
         // collect paraN in order
         const paraKeys = Object.keys(script || {}).filter(k => /^para\d+$/.test(k));
         paraKeys.sort((a, b) => {
@@ -117,21 +126,18 @@ export default function KrishnaExplainsFiveKarmasClient() {
           return na - nb;
         });
         const paras = paraKeys.map(k => script[k]);
-
         const convo = script && Array.isArray(script.conversation)
           ? script.conversation
           : parseSections(script?.conversation || '');
-
         // if we have paras or conversation, render them
         if ((Array.isArray(paras) && paras.length) || (Array.isArray(convo) && convo.length)) {
           return (
-            <div>
+            <>
               {paras.length > 0 && <Paragraphs lines={paras} />}
               <Conversation convo={convo} />
-            </div>
+            </>
           );
         }
-
         return null;
       })()}
     </PageLayout>

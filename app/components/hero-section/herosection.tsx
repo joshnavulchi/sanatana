@@ -6,7 +6,11 @@ import Image from 'next/image';
 import styles from './herosection.module.scss';
 import LazyImage from '../lazy-image/LazyImage';
 
-export default function HeroSection() {
+interface HeroSectionProps {
+  isLoading?: boolean;
+}
+
+export default function HeroSection({ isLoading = false }: HeroSectionProps) {
   const t = useT();
   const heading = parseList(t("home.hero.heading"));
   const subheading = parseList(t("home.hero.subheading"));

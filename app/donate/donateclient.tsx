@@ -7,6 +7,9 @@ import { useT } from '../hooks/useT';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
 import FaqAccordion from '@components/faqaccordion/faqaccordion';
 import Loader from '@components/loader/loader';
+import LazyImage from '../components/lazy-image/LazyImage';
+import SimilarCategories from '@components/similar-categories/SimilarCategories';
+import TextToSpeech from '@components/text-to-speech/TextToSpeech';
  
 export default function DonateClient() {
   const { locale, isLoading } = useLocale();
@@ -97,56 +100,91 @@ export default function DonateClient() {
       breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Donate' }]}
       className={`layout-sm`}
     >
-      <p>{donate.subtitle}</p>
-      {/* Purpose */}
-      <section>
-        <h3 className="h4">{donate.purpose?.heading}</h3>
-        <ul className="list-disc">
-          {(donate.purpose?.points || []).map((p: string, i: number) => (
-            <li key={i}>{p}</li>
-          ))}
-        </ul>
-      </section>
-      {/* Expenses */}
-      <section>
-        <h4>{donate.expenses?.heading}</h4>
-        <table className="w-full border">
-          <thead className="bg-amber-50">
-            <tr>
-              <th className="p-3 text-left">Item</th>
-              <th className="p-3 text-left">Cost</th>
-              <th className="p-3 text-left">Cycle</th>
-              <th className="p-3 text-left">Provider</th>
-            </tr>
-          </thead>
-          <tbody>
-            {(donate.expenses?.table || []).map((row: any, i: number) => (
-              <tr key={i} className="border-t">
-                <td className="p-3">{row.name}</td>
-                <td className="p-3">{row.cost}</td>
-                <td className="p-3">{row.cycle}</td>
-                <td className="p-3">{row.provider}</td>
-              </tr>
+      {/* Text-to-Speech Player */}
+      <TextToSpeech sectionId="donate-content" className="floating" />
+      
+      <div id="donate-content">
+        <p>{donate.subtitle}</p>
+        
+        {/* Purpose */}
+        <section>
+          <h3 className="h4">{donate.purpose?.heading}</h3>
+          <ul className="list-disc">
+            {(donate.purpose?.points || []).map((p: string, i: number) => (
+              <li key={i}>{p}</li>
             ))}
-          </tbody>
-        </table>
-      </section>
+          </ul>
+        </section>
+        {/* Expenses */}
+        <section>
+          <h4>{donate.expenses?.heading}</h4>
+          <table className="w-full border">
+            <thead className="bg-amber-50">
+              <tr>
+                <th className="p-3 text-left">Item</th>
+                <th className="p-3 text-left">Cost</th>
+                <th className="p-3 text-left">Cycle</th>
+                <th className="p-3 text-left">Provider</th>
+              </tr>
+            </thead>
+            <tbody>
+              {(donate.expenses?.table || []).map((row: any, i: number) => (
+                <tr key={i} className="border-t">
+                  <td className="p-3">{row.name}</td>
+                  <td className="p-3">{row.cost}</td>
+                  <td className="p-3">{row.cycle}</td>
+                  <td className="p-3">{row.provider}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </section>
 
-      {/* Donate */}
-      <section>
-        <h5 className="h4">{donate.donateOptions?.oneTime?.heading}</h5>
-        <p>{donate.donateOptions?.oneTime?.note}</p>
-
-        {/* <div className="bg-amber-50 p-6 rounded">
-          <p><strong>UPI:</strong> {donate.donateOptions?.bank?.upi}</p>
-          <p><strong>Account Name:</strong> {donate.donateOptions?.bank?.accountName}</p>
-          <p><strong>Account Number:</strong> {donate.donateOptions?.bank?.accountNumber}</p>
-          <p><strong>IFSC:</strong> {donate.donateOptions?.bank?.ifsc}</p>
-        </div> */}
-      </section>
-      {/* FAQ */}
-      <div>
-        <FaqAccordion items={(donate.faq?.items || [])} heading={donate.faq?.heading} />
+        {/* Donate */}
+        <section>
+          <h5 className="h4">{donate.donateOptions?.oneTime?.heading}</h5>
+          <p>{donate.donateOptions?.oneTime?.note}</p>
+          <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 my-8">
+            <div>
+              <LazyImage
+                src="/images/SANATANADHARM-qrcode.png"
+                alt="PayPal QR Code"
+                width={200}
+                height={205}
+              />
+              <LazyImage
+                src="/images/Debit_Credit_APM.svg"
+                alt="PayPal QR Code Logo"
+                width={150}
+                height={45}
+              />
+            </div>
+            <div>
+              <LazyImage
+                src="/images/UPI-qrcode.png"
+                alt="UPI QR Code"
+                width={200}
+                height={200}
+              />
+            </div>
+          </div>        
+          {/* <div className="bg-amber-50 p-6 rounded">
+            <p><strong>UPI:</strong> {donate.donateOptions?.bank?.upi}</p>
+            <p><strong>Account Name:</strong> {donate.donateOptions?.bank?.accountName}</p>
+            <p><strong>Account Number:</strong> {donate.donateOptions?.bank?.accountNumber}</p>
+            <p><strong>IFSC:</strong> {donate.donateOptions?.bank?.ifsc}</p>
+          </div> */}
+        </section>
+        {/* FAQ */}
+        <div>
+          <FaqAccordion items={(donate.faq?.items || [])} heading={donate.faq?.heading} />
+        </div>
+        
+        {/* Similar Categories */}
+        {/* <SimilarCategories 
+          title="Explore More Topics"
+          maxItems={3}
+        /> */}
       </div>
     </PageLayout>
   );
