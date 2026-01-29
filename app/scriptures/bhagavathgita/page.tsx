@@ -5,21 +5,21 @@ import { parseList } from 'lib/parseList';
 import PageLayout from '@components/common/PageLayout';
 import LazyImage from '@components/lazy-image/LazyImage';
 import Link from 'next/link';
-export const generateMetadata = createGenerateMetadata('bhagavadgita_scriptures');
+export const generateMetadata = createGenerateMetadata('scriptures_bhagavadgita');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const page: any = (() => {
-    const chapters = parseList(t('bhagavadgita_scriptures.chapters', locale)); 
+    const chapters = parseList(t('scriptures_bhagavadgita.chapters', locale)); 
     return {
-      title: String(t('bhagavadgita_scriptures.title', locale) || ''),
+      title: String(t('scriptures_bhagavadgita.title', locale) || ''),
       chapters
     };
   })();
   return (
     <>
       <PageLayout
-        metaKey="bhagavadgita_scriptures"
+        metaKey="scriptures_bhagavadgita"
         title={page.title}
         breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}
         className={`layout-md`}

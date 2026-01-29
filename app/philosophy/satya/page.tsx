@@ -2,31 +2,31 @@
 import { t, detectLocale, getLocaleObject } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('philosophy_dharma');
+export const generateMetadata = createGenerateMetadata('philosophy_satya');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   const loc: any = getLocaleObject(locale) || {};
-  const dharma = loc?.philosophy_dharma || {};
-  const title = dharma.title || t('philosophy_dharma.title', locale) || 'Dharma Philosophy';
-  const definition: string[] = Array.isArray(dharma.definition) ? dharma.definition : (dharma.definition ? [String(dharma.definition)] : []);
-  const categories = dharma.categories_of_dharma || {};
-  const philosophicalDimensions = dharma.philosophical_dimensions || {};
-  const corePrinciples = dharma.core_principles || {};
-  const dharmaInRamayana = dharma.dharma_in_ramayana || {};
+  const satya = loc?.philosophy_satya || {};
+  const title = satya.title || t('philosophy_satya.title', locale) || 'Satya Philosophy';
+  const definition: string[] = Array.isArray(satya.definition) ? satya.definition : (satya.definition ? [String(satya.definition)] : []);
+  const categories = satya.categories_of_satya || {};
+  const philosophicalDimensions = satya.philosophical_dimensions || {};
+  const corePrinciples = satya.core_principles || {};
+  const satyaInRamayana = satya.satya_in_ramayana || {};
   return (
     <>
       <PageLayout
-        metaKey="philosophy_dharma"
+        metaKey="philosophy_satya"
         title={title}
-        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Dharma' }]}
+        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Satya' }]}
         className={`layout-sm`}
       >
-        <p><strong>Definition : </strong>{definition.length ? definition.map((s: string, i: number) => (<span key={i}>{s}{i < definition.length - 1 ? ', ' : ''}</span>)) : <span>{String(t('philosophy_dharma.noDefinition', 'en'))}</span>}</p>
-        {/* Categories of Dharma */}
+        <p><strong>Definition : </strong>{definition.length ? definition.map((s: string, i: number) => (<span key={i}>{s}{i < definition.length - 1 ? ', ' : ''}</span>)) : <span>{String(t('philosophy_satya.noDefinition', 'en'))}</span>}</p>
+        {/* Categories of Satya */}
         <div>
-          <h2 className="h4">Categories of Dharma :</h2>
+          <h2 className="h4">Categories of Satya :</h2>
           <ul role="list" className="list-disc">
             {Object.entries(categories).map((cKey: any, idx: number) => {
               const { meaning, examples } = cKey[1] || {};
@@ -35,7 +35,7 @@ export default function Page({ searchParams }: any) {
               </li>
             })}
           </ul>
-          <p><strong>Philosophical dimensionsGoals of Dharma : </strong></p>
+          <p><strong>Philosophical dimensionsGoals of Satya : </strong></p>
           <ul role="list" className="list-disc">
             {Object.entries(philosophicalDimensions).map((cKey: any, idx: number) => {
               return <li key={idx}>
@@ -43,7 +43,7 @@ export default function Page({ searchParams }: any) {
               </li>
             })}
           </ul>
-          <p><strong>Core principles of Dharma : </strong></p>
+          <p><strong>Core principles of Satya : </strong></p>
           <ul role="list" className="list-disc">
             {Object.entries(corePrinciples).map((cKey: any, idx: number) => {
               return <li key={idx}>
@@ -51,9 +51,9 @@ export default function Page({ searchParams }: any) {
               </li>
             })}
           </ul>
-          <p><strong>Dharma in Ramayana : </strong></p>
+          <p><strong>Satya in Ramayana : </strong></p>
           <ul role="list" className="list-disc">
-            {Object.entries(dharmaInRamayana).map((cKey: any, idx: number) => {
+            {Object.entries(satyaInRamayana).map((cKey: any, idx: number) => {
               return <li key={idx}>
                 <span>{cKey[1]}</span>
               </li>

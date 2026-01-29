@@ -2,31 +2,31 @@
 import { t, detectLocale, getLocaleObject } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('philosophy_dharma');
+export const generateMetadata = createGenerateMetadata('philosophy_ahimsa');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   const loc: any = getLocaleObject(locale) || {};
-  const dharma = loc?.philosophy_dharma || {};
-  const title = dharma.title || t('philosophy_dharma.title', locale) || 'Dharma Philosophy';
-  const definition: string[] = Array.isArray(dharma.definition) ? dharma.definition : (dharma.definition ? [String(dharma.definition)] : []);
-  const categories = dharma.categories_of_dharma || {};
-  const philosophicalDimensions = dharma.philosophical_dimensions || {};
-  const corePrinciples = dharma.core_principles || {};
-  const dharmaInRamayana = dharma.dharma_in_ramayana || {};
+  const ahimsa = loc?.philosophy_ahimsa || {};
+  const title = ahimsa.title || t('philosophy_ahimsa.title', locale) || 'Ahimsa Philosophy';
+  const definition: string[] = Array.isArray(ahimsa.definition) ? ahimsa.definition : (ahimsa.definition ? [String(ahimsa.definition)] : []);
+  const categories = ahimsa.categories_of_ahimsa || {};
+  const philosophicalDimensions = ahimsa.philosophical_dimensions || {};
+  const corePrinciples = ahimsa.core_principles || {};
+  const ahimsaInRamayana = ahimsa.ahimsa_in_ramayana || {};
   return (
     <>
       <PageLayout
-        metaKey="philosophy_dharma"
+        metaKey="philosophy_ahimsa"
         title={title}
-        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Dharma' }]}
+        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Ahimsa' }]}
         className={`layout-sm`}
       >
-        <p><strong>Definition : </strong>{definition.length ? definition.map((s: string, i: number) => (<span key={i}>{s}{i < definition.length - 1 ? ', ' : ''}</span>)) : <span>{String(t('philosophy_dharma.noDefinition', 'en'))}</span>}</p>
-        {/* Categories of Dharma */}
+        <p><strong>Definition : </strong>{definition.length ? definition.map((s: string, i: number) => (<span key={i}>{s}{i < definition.length - 1 ? ', ' : ''}</span>)) : <span>{String(t('philosophy_ahimsa.noDefinition', 'en'))}</span>}</p>
+        {/* Categories of Ahimsa */}
         <div>
-          <h2 className="h4">Categories of Dharma :</h2>
+          <h2 className="h4">Categories of Ahimsa :</h2>
           <ul role="list" className="list-disc">
             {Object.entries(categories).map((cKey: any, idx: number) => {
               const { meaning, examples } = cKey[1] || {};
@@ -35,7 +35,7 @@ export default function Page({ searchParams }: any) {
               </li>
             })}
           </ul>
-          <p><strong>Philosophical dimensionsGoals of Dharma : </strong></p>
+          <p><strong>Philosophical dimensionsGoals of Ahimsa : </strong></p>
           <ul role="list" className="list-disc">
             {Object.entries(philosophicalDimensions).map((cKey: any, idx: number) => {
               return <li key={idx}>
@@ -43,7 +43,7 @@ export default function Page({ searchParams }: any) {
               </li>
             })}
           </ul>
-          <p><strong>Core principles of Dharma : </strong></p>
+          <p><strong>Core principles of Ahimsa : </strong></p>
           <ul role="list" className="list-disc">
             {Object.entries(corePrinciples).map((cKey: any, idx: number) => {
               return <li key={idx}>
@@ -51,9 +51,9 @@ export default function Page({ searchParams }: any) {
               </li>
             })}
           </ul>
-          <p><strong>Dharma in Ramayana : </strong></p>
+          <p><strong>Ahimsa in Ramayana : </strong></p>
           <ul role="list" className="list-disc">
-            {Object.entries(dharmaInRamayana).map((cKey: any, idx: number) => {
+            {Object.entries(ahimsaInRamayana).map((cKey: any, idx: number) => {
               return <li key={idx}>
                 <span>{cKey[1]}</span>
               </li>
