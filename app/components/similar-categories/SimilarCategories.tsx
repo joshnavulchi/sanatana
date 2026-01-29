@@ -31,7 +31,7 @@ export default function SimilarCategories({
         if (!mounted) return;
         const locObj = (getLocaleObject(locale) as any) || {};
         // Try multiple paths to find navigation data
-        let navData = locObj?.nav || locObj?.header || locObj?.sharable_strings?.nav || locObj?.sharable_strings?.header || {};
+        const navData = locObj?.nav || locObj?.header || locObj?.sharable_strings?.nav || locObj?.sharable_strings?.header || {};
         // Extract categories with their navigation items
         const extractedCategories: Array<{ key: string; title: string; links: Array<{ key: string; label: string; href: string }> }> = [];
         // Define all known categories to ensure they're included

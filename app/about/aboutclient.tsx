@@ -6,6 +6,7 @@ import { loadLocale, getLocaleObject } from 'lib/i18n';
 import { useT } from '../hooks/useT';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
 import Loader from '@components/loader/loader';
+import TextToSpeech from '@components/text-to-speech/TextToSpeech';
 
 export default function AboutClient() {
   const { locale, isLoading } = useLocale();
@@ -73,23 +74,27 @@ export default function AboutClient() {
       breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'About' }]}
       className={`layout-sm`}
     >
-      <p>{about.intro}</p>
-      {about.sections.map((section: any, index: number) => {
-        const level = Math.min(index + 2, 6);
-        const Tag = `h${level}` as unknown as React.ElementType;
-        return (
-          <div key={section.id || index}>
-            <Tag className="h4">{section.title}</Tag>
-            {section?.text && <p>{section.text}</p>}
-            <ul className="list-disk">
-              {section?.bullets && section?.bullets.map((text: string, idx: number) => (
-                <li key={idx}>{text}</li>
-              ))}
-            </ul>
-          </div>
-        );
-      })}
-      {about.disclaimer && <p><strong>Disclaimer : </strong>{about.disclaimer}</p>}
+      {/* Text-to-Speech Player */}
+      <TextToSpeech sectionId="about-content" className="floating" />
+      <div id="about-content">
+        <p>{about.intro}</p>
+        {about.sections.map((section: any, index: number) => {
+          const level = Math.min(index + 2, 6);
+          const Tag = `h${level}` as unknown as React.ElementType;
+          return (
+            <div key={section.id || index}>
+              <Tag className="h4">{section.title}</Tag>
+              {section?.text && <p>{section.text}</p>}
+              <ul className="list-disk">
+                {section?.bullets && section?.bullets.map((text: string, idx: number) => (
+                  <li key={idx}>{text}</li>
+                ))}
+              </ul>
+            </div>
+          );
+        })}
+        {about.disclaimer && <p><strong>Disclaimer : </strong>{about.disclaimer}</p>}
+      </div>
     </PageLayout>
   );
 }

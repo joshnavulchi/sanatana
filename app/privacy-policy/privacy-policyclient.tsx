@@ -6,6 +6,7 @@ import { loadLocale, getLocaleObject } from 'lib/i18n';
 import { useT } from '../hooks/useT';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
 import Loader from '@components/loader/loader';
+import TextToSpeech from '../components/text-to-speech/TextToSpeech';
 
 export default function PrivacyPolicy() {
   const { locale, isLoading } = useLocale();
@@ -137,47 +138,51 @@ export default function PrivacyPolicy() {
       breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Privacy policy' }]}
       className={`layout-sm`}
     >
-      <p><strong>{privacy.lastupdated}</strong></p>
-      <section>
-        <h2 className="h4">{privacy.intro.title}</h2>
-        <p>{privacy.intro.text}</p>
-        <h3 className="h4"><strong>{privacy.informationwecollect.title}</strong> {privacy.informationwecollect.lead}</h3>
-        <p><strong>{privacy.informationwecollect.usagelabel}</strong> {privacy.informationwecollect.usage}</p>
-        <p><strong>{privacy.informationwecollect.devicelabel}</strong> {privacy.informationwecollect.device}</p>
-        <p><strong>{privacy.informationwecollect.cookieslabel}</strong> {privacy.informationwecollect.cookies}</p>
-        <p><strong>{privacy.informationwecollect.contactlabel}</strong> {privacy.informationwecollect.contact}</p>
-        {/* How we use */}
-        <h4>{privacy.howweuse?.title}</h4>
-        <p>{privacy.howweuse?.lead}</p>
-        <ul className="list-disc">
-          {(privacy.howweuse?.items || []).map((p: string, i: number) => (
-            <li key={i}>{p}</li>
-          ))}
-        </ul>
-        <h5 className="h4">{privacy.cookieslocalstorage.title}</h5>
-        <p>{privacy.cookieslocalstorage.text}</p>
-        <h6 className="h4">{privacy.thirdparty.title}</h6>
-        <p>{privacy.thirdparty.text}</p>
-        <p className="h4">{privacy.security.title}</p>
-        <p>{privacy.security.text}</p>
-        <p className="h4">{privacy.rights.title}</p>
-        <p>{privacy.rights.lead}</p>
-        <ul className="list-disc">
-          {(privacy.rights?.items || []).map((p: string, i: number) => (
-            <li key={i}>{p}</li>
-          ))}
-        </ul>
-        <p>{privacy.rights.contacttext}</p>
-        <p className="h4">{privacy.children.title}</p>
-        <p>{privacy.children.text}</p>
-        <p className="h4">{privacy.changes.title}</p>
-        <p>{privacy.changes.text}</p>
-        <p className="h4">{privacy.contact.title}</p>
-        <p>{privacy.contact.lead}</p>
-        <p>{privacy.contact.emaillabel} {privacy.contact.email}</p>
-        <p>{privacy.contact.websitelabel} {privacy.contact.website}</p>
-        <p>{privacy.contact.closing}</p>
-      </section>
+      {/* Text-to-Speech Player */}
+      <TextToSpeech sectionId="privacy-content" className="floating" />
+      <div id="privacy-content">
+        <p><strong>{privacy.lastupdated}</strong></p>
+        <section>
+          <h2 className="h4">{privacy.intro.title}</h2>
+          <p>{privacy.intro.text}</p>
+          <h3 className="h4"><strong>{privacy.informationwecollect.title}</strong> {privacy.informationwecollect.lead}</h3>
+          <p><strong>{privacy.informationwecollect.usagelabel}</strong> {privacy.informationwecollect.usage}</p>
+          <p><strong>{privacy.informationwecollect.devicelabel}</strong> {privacy.informationwecollect.device}</p>
+          <p><strong>{privacy.informationwecollect.cookieslabel}</strong> {privacy.informationwecollect.cookies}</p>
+          <p><strong>{privacy.informationwecollect.contactlabel}</strong> {privacy.informationwecollect.contact}</p>
+          {/* How we use */}
+          <h4>{privacy.howweuse?.title}</h4>
+          <p>{privacy.howweuse?.lead}</p>
+          <ul className="list-disc">
+            {(privacy.howweuse?.items || []).map((p: string, i: number) => (
+              <li key={i}>{p}</li>
+            ))}
+          </ul>
+          <h5 className="h4">{privacy.cookieslocalstorage.title}</h5>
+          <p>{privacy.cookieslocalstorage.text}</p>
+          <h6 className="h4">{privacy.thirdparty.title}</h6>
+          <p>{privacy.thirdparty.text}</p>
+          <p className="h4">{privacy.security.title}</p>
+          <p>{privacy.security.text}</p>
+          <p className="h4">{privacy.rights.title}</p>
+          <p>{privacy.rights.lead}</p>
+          <ul className="list-disc">
+            {(privacy.rights?.items || []).map((p: string, i: number) => (
+              <li key={i}>{p}</li>
+            ))}
+          </ul>
+          <p>{privacy.rights.contacttext}</p>
+          <p className="h4">{privacy.children.title}</p>
+          <p>{privacy.children.text}</p>
+          <p className="h4">{privacy.changes.title}</p>
+          <p>{privacy.changes.text}</p>
+          <p className="h4">{privacy.contact.title}</p>
+          <p>{privacy.contact.lead}</p>
+          <p>{privacy.contact.emaillabel} {privacy.contact.email}</p>
+          <p>{privacy.contact.websitelabel} {privacy.contact.website}</p>
+          <p>{privacy.contact.closing}</p>
+        </section>
+      </div>
     </PageLayout>
   );
 }

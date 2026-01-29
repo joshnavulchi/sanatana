@@ -75,9 +75,13 @@ jobs:
             echo "⚠️ No critical-home.css found; continuing"
           fi
 
+      - name: Download locales (incremental)
+        continue-on-error: true
+        run: |
+          echo "Downloading only modified locales based on SHA comparison"
+          node scripts/download-locales.js || echo "⚠️ Locale download failed, continuing with cached or partial locales"
+
       - name: Run render-build
-        env:
-          FORCE_LOCALE_DOWNLOAD: '1'
         run: |
           set -e
           echo "Running render-build"

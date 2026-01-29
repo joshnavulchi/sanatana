@@ -9,7 +9,6 @@ import FaqAccordion from '@components/faqaccordion/faqaccordion';
 import Loader from '@components/loader/loader';
 import LazyImage from '../components/lazy-image/LazyImage';
 import SimilarCategories from '@components/similar-categories/SimilarCategories';
-import TextToSpeech from '@components/text-to-speech/TextToSpeech';
  
 export default function DonateClient() {
   const { locale, isLoading } = useLocale();
@@ -99,10 +98,7 @@ export default function DonateClient() {
       title={donate.title}
       breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Donate' }]}
       className={`layout-sm`}
-    >
-      {/* Text-to-Speech Player */}
-      <TextToSpeech sectionId="donate-content" className="floating" />
-      
+    > 
       <div id="donate-content">
         <p>{donate.subtitle}</p>
         
