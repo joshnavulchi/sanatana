@@ -25,8 +25,8 @@ export default function GitSupport({ locale }: { locale?: string }) {
         <p className={`h3 font-light!`}>{t('home.cta.title')}</p>
         <p>{t('home.cta.subtitle')}</p>
         <div className="flex flex-col md:flex-row gap-4">
-          <Link href="https://github.com/vulchivijay/first-contributes" target="_blank" className={`bg-white/75! btn btn-outline no-underline`}>{t('home.cta.contribute')}</Link>
-          <Link href="https://github.com/vulchivijay/first-contributes" target="_blank" className={`bg-white/75! btn btn-outline no-underline`}>{t('home.cta.guidelines')}</Link>
+          <Link href="https://github.com/vulchivijay/first-contributes" target="_blank" className={`bg-white/65! text-black! btn btn-outline no-underline`}>{t('home.cta.contribute')}</Link>
+          <Link href="https://github.com/vulchivijay/first-contributes" target="_blank" className={`bg-white/65! text-black! btn btn-outline no-underline`}>{t('home.cta.guidelines')}</Link>
         </div>
       </div>
     </section>

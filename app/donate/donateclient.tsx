@@ -7,6 +7,7 @@ import { useT } from '../hooks/useT';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
 import FaqAccordion from '@components/faqaccordion/faqaccordion';
 import Loader from '@components/loader/loader';
+import Image from 'next/image';
  
 export default function DonateClient() {
   const { locale, isLoading } = useLocale();
@@ -136,7 +137,16 @@ export default function DonateClient() {
       <section>
         <h5 className="h4">{donate.donateOptions?.oneTime?.heading}</h5>
         <p>{donate.donateOptions?.oneTime?.note}</p>
-
+        <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 my-8">
+          <div>
+            <Image src="/images/SANATANADHARM-qrcode.png" alt="PayPal QR Code" width={200} height={200} />
+            <Image src="/images/Debit_Credit_APM.svg" alt="One-time Donation QR Code" width={200} height={50} />
+          </div>
+          <div>
+            <Image src="/images/UPI-qrcode.png" alt="UPI QR Code" width={200} height={200} />
+          </div>
+        </div>
+        
         {/* <div className="bg-amber-50 p-6 rounded">
           <p><strong>UPI:</strong> {donate.donateOptions?.bank?.upi}</p>
           <p><strong>Account Name:</strong> {donate.donateOptions?.bank?.accountName}</p>
