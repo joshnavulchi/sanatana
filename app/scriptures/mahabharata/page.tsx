@@ -3,22 +3,22 @@ import { t, detectLocale, getMeta } from '../../../lib/i18n';
 import { parseList } from 'lib/parseList';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('mahabharata_scriptures');
+export const generateMetadata = createGenerateMetadata('scriptures_mahabharata');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
-    const k: any = getMeta('mahabharata_scriptures', {}, locale) || {};
+    const k: any = getMeta('scriptures_mahabharata', {}, locale) || {};
     return {
-      title: typeof k.title === 'string' ? k.title : (t('mahabharata_scriptures.title', locale) || ''),
-      structure: Array.isArray(k.structure) ? k.structure : parseList(t('mahabharata_scriptures.structure', locale))
+      title: typeof k.title === 'string' ? k.title : (t('scriptures_mahabharata.title', locale) || ''),
+      structure: Array.isArray(k.structure) ? k.structure : parseList(t('scriptures_mahabharata.structure', locale))
     };
   })();
   return (
     <>
       <PageLayout
-        metaKey="mahabharata_scriptures"
+        metaKey="scriptures_mahabharata"
         title={page.title}
         breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Mahabhrata' }]}
         className="layout-sm"

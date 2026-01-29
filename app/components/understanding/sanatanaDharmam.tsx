@@ -16,7 +16,7 @@ export default function UnderstandingOfSanatana() {
         const Tag = `h${level}` as keyof JSX.IntrinsicElements
         return (<div key={section.id} className={`${styles.sections} text-center`}>
           <div className={`mx-auto max-w-5xl`}>
-            <Tag className={`${!section?.nodecaration ? styles.borderbottom : ''}`}>{section.title}</Tag>
+            <Tag className={`h3 ${!section?.nodecaration ? styles.borderbottom : ''}`}>{section.title}</Tag>
             <p>{section.content}</p>
             {section?.src && <LazyImage src={section.src} alt={section.title} width={320} height={320} className="object-cover flex justify-center" />}
           </div>

@@ -3,14 +3,14 @@ import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
 import SlokasClient from './slokasclient';
-export const generateMetadata = createGenerateMetadata('sankshepa_ramayana_scriptures');
+export const generateMetadata = createGenerateMetadata('scriptures_sanksheparamayana');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
     const loc: any = getLocaleObject(locale) || {};
-    const ram = loc?.sankshepa_ramayana_scriptures || {};
+    const ram = loc?.scriptures_sanksheparamayana || {};
     return {
       title: ram.title || '',
       author: ram.author || '',

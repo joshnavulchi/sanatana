@@ -35,11 +35,11 @@ export default function Breadcrumbs({ items, locale }: { items: CrumbInput[]; lo
           return (
             <li key={idx} className="flex items-center" aria-current={isLast ? 'page' : undefined}>
               {it.href && !isLast ? (
-                <Link href={it.href}>
-                  {it.label}
+                <Link href="/">
+                  Home
                 </Link>
               ) : (
-                <span>{it.label}</span>
+                <span className={`text-sm`}>{it.label}</span>
               )}
               {idx < normalized.length - 1 && (
                 <span className="inline-block mx-2" aria-hidden="true">/</span>

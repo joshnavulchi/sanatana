@@ -31,39 +31,37 @@ export default function Footer() {
     }
   };
 
-  const title = t('footer.title');
-  const quote = t('footer.quote');
-  const quoteSource = t('footer.quotesource');
-  const contactLabel = t('footer.contact');
-  const donateLabel = t('footer.donate');
-  const disclaimer = t('footer.disclaimer');
-  const contentChange = t('footer.contentchange');
-  const privacy = t('footer.privacy');
-  const terms = t('footer.terms');
-  const copyright = t('footer.copyright');
+  const title = t('sharable_strings.footer.title');
+  const quote = t('sharable_strings.footer.quote');
+  const quoteSource = t('sharable_strings.footer.quotesource');
+  const contactLabel = t('sharable_strings.footer.contact');
+  const donateLabel = t('sharable_strings.footer.donate');
+  const disclaimer = t('sharable_strings.footer.disclaimer');
+  const contentChange = t('sharable_strings.footer.contentchange');
+  const privacy = t('sharable_strings.footer.privacy');
+  const terms = t('sharable_strings.footer.terms');
+  const copyright = t('sharable_strings.footer.copyright');
 
-  const scriptures = getNav('footer.nav.scriptures.nav');
-  const stotras = getNav('footer.nav.stotrasmantras.nav');
-  const philosophy = getNav('footer.nav.philosophy.nav');
-  const practices = getNav('footer.nav.practices.nav');
-  const stories = getNav('footer.nav.stories.nav');
-  const kidszone = getNav('footer.nav.kidszone.nav');
-  const others = getNav('footer.nav.others.nav');
+  const scriptures = getNav('sharable_strings.footer.scriptures.nav');
+  const stotras = getNav('sharable_strings.footer.stotrasmantras.nav');
+  const philosophy = getNav('sharable_strings.footer.philosophy.nav');
+  const stories = getNav('sharable_strings.footer.stories.nav');
+  const kidszone = getNav('sharable_strings.footer.kidszone.nav');
+  const others = getNav('sharable_strings.footer.others.nav');
 
-  const scripturesTitle = t('footer.nav.scriptures.title');
-  const stotrasTitle = t('footer.nav.stotrasmantras.title');
-  const philosophyTitle = t('footer.nav.philosophy.title');
-  const practicesTitle = t('footer.nav.practices.title');
-  const storiesTitle = t('footer.nav.stories.title');
-  const kidszoneTitle = t('footer.nav.kidszone.title');
-  const othersTitle = t('footer.nav.others.title');
+  const scripturesTitle = t('sharable_strings.footer.scriptures.title');
+  const stotrasTitle = t('sharable_strings.footer.stotrasmantras.title');
+  const philosophyTitle = t('sharable_strings.footer.philosophy.title');
+  const storiesTitle = t('sharable_strings.footer.stories.title');
+  const kidszoneTitle = t('sharable_strings.footer.kidszone.title');
+  const othersTitle = t('sharable_strings.footer.others.title');
 
   return (
     <footer className={`${styles.footer} gradient-background w-full`} style={{ minHeight: '400px' }}>
       <div className={`relative z-29`}>
         <section className="content-wrapper text-center">
           <p className={`h2 font-light! text-shadow-lg/14 title`}>{title}</p>
-          <p>{quote} {quoteSource}</p>
+          <p className={`mx-auto max-w-4xl`}>{quote} {quoteSource}</p>
           <div className="flex items-center justify-center gap-4">
             <Link href="/contact" className={`bg-black/50! btn btn-outline no-underline`}>
               {contactLabel}
@@ -89,19 +87,6 @@ export default function Footer() {
               })}
             </div>
 
-            <div className="md:w-1/7 flex flex-col gap-2 hidden">
-              <p className="description underline">{stotrasTitle}</p>
-              {Object.entries(stotras).map(([key, val]) => {
-                if (typeof val !== 'string') return null;
-                const href = key === 'home' ? '/' : `/stotrasmantras/${key}`;
-                return (
-                  <Link key={key} href={href} className={isActive(href) ? 'active' : ''} role="menuitem">
-                    {val}
-                  </Link>
-                );
-              })}
-            </div>
-
             <div className="md:w-1/4 flex flex-col gap-2">
               <p className="description underline">{philosophyTitle}</p>
               {Object.entries(philosophy).map(([key, val]) => {
@@ -116,10 +101,10 @@ export default function Footer() {
             </div>
 
             <div className="md:w-1/7 flex flex-col gap-2 hidden">
-              <p className="description underline">{practicesTitle}</p>
-              {Object.entries(practices).map(([key, val]) => {
+              <p className="description underline">{stotrasTitle}</p>
+              {Object.entries(stotras).map(([key, val]) => {
                 if (typeof val !== 'string') return null;
-                const href = key === 'home' ? '/' : `/practices/${key}`;
+                const href = key === 'home' ? '/' : `/stotrasmantras/${key}`;
                 return (
                   <Link key={key} href={href} className={isActive(href) ? 'active' : ''} role="menuitem">
                     {val}
@@ -168,7 +153,6 @@ export default function Footer() {
             </div>
           </nav>
         </div>
-        
 
         <div className={`${styles.disclaimer} w-full flex flex-col md:flex-row items-center justify-between`}>
           <div>

@@ -2,17 +2,17 @@
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import PageLayout from '@components/common/PageLayout';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
-export const generateMetadata = createGenerateMetadata('samsara_philosophy');
+export const generateMetadata = createGenerateMetadata('philosophy_samsara');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
-    const k: any = getMeta('samsara_philosophy', {}, locale) || {};
+    const k: any = getMeta('philosophy_samsara', {}, locale) || {};
     const loc: any = getLocaleObject(locale) || {};
-    const samsara = loc?.samsara_philosophy || {};
+    const samsara = loc?.philosophy_samsara || {};
     return {
-      title: typeof k.title === 'string' ? k.title : (samsara.title || t('samsara_philosophy.title', locale) || 'Samsara Philosophy'),
+      title: typeof k.title === 'string' ? k.title : (samsara.title || t('philosophy_samsara.title', locale) || 'Samsara Philosophy'),
       definition: k.definition || samsara.definition,
       core_principles: Array.isArray(k.core_principles) ? k.core_principles : (Array.isArray(samsara.core_principles) ? samsara.core_principles : []),
       origin: k.origin || samsara.origin || {},
@@ -23,7 +23,12 @@ export default function Page({ searchParams }: any) {
   })();
   return (
     <>
-      <PageLayout metaKey="samsara_philosophy" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}>
+      <PageLayout
+        metaKey="philosophy_samsara"
+        title={page.title}
+        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}
+        className={`layout-sm`}
+      >
         <p><strong>Definition : </strong>{page.definition}</p>
         {/* Core Principles of Samsara */}
         <div>

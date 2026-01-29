@@ -2,17 +2,17 @@
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('puranas_scriptures');
+export const generateMetadata = createGenerateMetadata('scriptures_puranas');
 
 export default function PuranasPage({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
-    const k: any = getMeta('puranas_scriptures', {}, locale) || {};
+    const k: any = getMeta('scriptures_puranas', {}, locale) || {};
     const loc: any = getLocaleObject(locale) || {};
-    const puranas = loc?.puranas_scriptures || {};
+    const puranas = loc?.scriptures_puranas || {};
     return {
-      title: typeof k.title === 'string' ? k.title : (puranas.title || t('puranas_scriptures.title', locale) || ''),
+      title: typeof k.title === 'string' ? k.title : (puranas.title || t('scriptures_puranas.title', locale) || ''),
       classification: k.classification || puranas.classification,
       definition: k.definition || puranas.definition,
       major_puranas: Array.isArray(k.major_puranas) ? k.major_puranas : (Array.isArray(puranas.major_puranas) ? puranas.major_puranas : [])
@@ -22,7 +22,7 @@ export default function PuranasPage({ searchParams }: any) {
   return (
     <>
       <PageLayout
-        metaKey="puranas_scriptures"
+        metaKey="scriptures_puranas"
         title={page.title}
         breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Puranas' }]}
         className="layout-sm"

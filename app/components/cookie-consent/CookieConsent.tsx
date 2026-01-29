@@ -176,23 +176,23 @@ export default function CookieConsent() {
           <div className="flex-1">
             {(() => {
               const loc = DEFAULT_LOCALE; // paragraph will be rendered via `t()` below which uses current locale from context
-              const paragraph = t('cookieconsent.paragraph') as string;
+              const paragraph = t('sharable_strings.cookieconsent.paragraph') as string;
               // Replace placeholders with links
               return (
                 <small dangerouslySetInnerHTML={{
                   __html: paragraph
                     .replace('{cookiePolicyLink}', `<a class="underline" href="/our-cookie-policy">${t('cookieconsent.cookiepolicy')}</a>`)
-                    .replace('{privacyPolicyLink}', `<a class="underline" href="/our-privacy-policy">${t('cookieconsent.privacypolicy')}</a>`)
-                    .replace('{managerLabel}', t('cookieconsent.managerbutton'))
-                    .replace('{acceptAllLabel}', t('cookieconsent.acceptall'))
+                    .replace('{privacyPolicyLink}', `<a class="underline" href="/our-privacy-policy">${t('sharable_strings.cookieconsent.privacypolicy')}</a>`)
+                    .replace('{managerLabel}', t('sharable_strings.cookieconsent.managerbutton'))
+                    .replace('{acceptAllLabel}', t('sharable_strings.cookieconsent.acceptall'))
                 }} />
               );
             })()}
           </div>
 
           <div className="flex text-right gap-2">
-            <button className="btn btn-outline no-underline" onClick={() => setModalOpen(true)}>{t('cookieconsent.managerbutton')}</button>
-            <button className="btn btn-primary no-underline" onClick={acceptAll}>{t('cookieconsent.acceptall')}</button>
+            <button className="btn btn-outline no-underline" onClick={() => setModalOpen(true)}>{t('sharable_strings.cookieconsent.managerbutton')}</button>
+            <button className="btn btn-primary no-underline" onClick={acceptAll}>{t('sharable_strings.cookieconsent.acceptall')}</button>
           </div>
         </div>
       </div>

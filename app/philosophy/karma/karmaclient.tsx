@@ -73,8 +73,8 @@ export default function KrishnaExplainsFiveKarmasClient() {
       } catch (e) { }
 
       if (!mounted) return;
-      const title = String(t('karma_philosophy.title') || '');
-      const rawStory = t('karma_philosophy.story');
+      const title = String(t('philosophy_karma.title') || '');
+      const rawStory = t('philosophy_karma.story');
       const story = Array.isArray(rawStory)
         ? (rawStory as string[])
         : (rawStory ? String(rawStory).split(/\r?\n/).filter(Boolean) : []);
@@ -86,8 +86,8 @@ export default function KrishnaExplainsFiveKarmasClient() {
   // small helpers intentionally declared at module scope above
 
   // Compute render-time title/story from translations first, falling back to state
-  const renderTitle = String(t('karma_philosophy.title') || karma.title || '');
-  const rawStoryFromT = t('karma_philosophy.story');
+  const renderTitle = String(t('philosophy_karma.title') || karma.title || '');
+  const rawStoryFromT = t('philosophy_karma.story');
   const renderStory = Array.isArray(rawStoryFromT)
     ? (rawStoryFromT as string[])
     : rawStoryFromT
@@ -103,7 +103,7 @@ export default function KrishnaExplainsFiveKarmasClient() {
     >
       {/* Render script paragraphs (para1, para2, ...) then conversation (alternating chat bubbles). */}
       {(() => {
-        const script = parseMaybeObject(t('karma_philosophy.script')) || {};
+        const script = parseMaybeObject(t('philosophy_karma.script')) || {};
         // If `story` exists from translations or state, render it first.
         if (renderStory && renderStory.length > 0) {
           return <Paragraphs lines={renderStory} />;

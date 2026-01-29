@@ -38,10 +38,10 @@ export default function Page({ searchParams }: any) {
             // Prefer the chapter's localized ai_images[0], otherwise fall back to English canonical ai_images[0]
             const enChapter = (locale as any)?.bhagavadgita?.chapters?.[Number(chapNum) - 1];
             const enAi0 = enChapter?.ai_images && enChapter.ai_images[0] ? enChapter.ai_images[0] : undefined;
-            const imgSrc = item?.ai_images?.[0]?.imagesrc || enAi0?.imagesrc || '/og/bhagavathgita.png';
+            const imgSrc = item?.ai_images?.[0]?.imagesrc || enAi0?.imagesrc || '/og/bhagavathgeeta.png';
             const imgAlt = item?.ai_images?.[0]?.alt || enAi0?.alt || `${chapTitle}`;
             return (
-              <Link key={i} href={`/scriptures/bhagavathgita/chapter/${chapNum}`} className="card mt-0! mb-0! no-padding shadow hover:shadow-lg transform hover:-translate-y-1 transition no-underline">
+              <Link key={i} href={`/scriptures/bhagavathgeeta/chapter/${chapNum}`} className="card mt-0! mb-0! no-padding shadow hover:shadow-lg transform hover:-translate-y-1 transition no-underline">
                 <article className="flex flex-col">
                   <div className="relative w-full h-44 rounded-tl-md rounded-tr-md overflow-hidden">
                     <LazyImage src={imgSrc} alt={imgAlt} fill style={{ objectFit: 'cover' }} />

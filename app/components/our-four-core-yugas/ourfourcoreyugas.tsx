@@ -3,6 +3,7 @@
 import { useT } from '../../hooks/useT';
 import { parseList } from 'lib/parseList';
 import styles from './ourfourcoreyugas.module.scss';
+import Link from 'next/link';
 
 const Segment = ({ title, subtitle, years, isFirst, isLast, }: any) => {
   return (
@@ -74,7 +75,7 @@ export default function OurFourCoreYugas() {
     <section className={`bg-[radial-gradient(120%_120%_at_50%_0%,#8a3a31_10%,#b25435_40%,#502a26_100%)] text-center ${styles.ourFourCoreYugas} ? ${styles.ourFourCoreYugas} : ''`}>
       <div className="max-w-7xl mx-auto relative overflow-hidden">
         <p className={`h2 font-light! text-white`}>{title}</p>
-        <p className={`mx-auto max-w-6xl md:mb-12! text-white`}>{subtitle}</p>
+        <div className={`mx-auto max-w-6xl md:mb-12!`}><Link href="/cosmictime" className={`text-white!`}>{subtitle}</Link></div>
         {/* Container */}
         <div className={`${styles.boxarrowwrapper} relative w-full flex flex-col md:flex-row md:items-center md:justify-center gap-10 md:gap-0`}>
           {/* Thin line behind segments */}

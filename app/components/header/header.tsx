@@ -21,13 +21,13 @@ export default function Header() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
   const defaultObj = (getLocaleObject(DEFAULT_LOCALE) as any) || {};
-  const defaultSiteTitle = (defaultObj?.siteTitle && (defaultObj.siteTitle?.siteTitle || defaultObj.siteTitle)) || (defaultObj?.sitetitle);
-  const defaultNav = (defaultObj?.nav as any) || {};
-  const defaultBanner = (defaultObj && (defaultObj.bannerNotifications ?? defaultObj.banner ?? defaultObj.banner_notifications)) || null;
-  const defaultBanner2 = (defaultObj && (defaultObj.bannerNotifications2 ?? defaultObj.banner2 ?? defaultObj.banner_notifications2)) || null;
+  const defaultSiteTitle = (defaultObj?.sharable_strings?.siteTitle && (defaultObj.siteTitle?.siteTitle || defaultObj.siteTitle)) || (defaultObj?.sharable_strings?.sitetitle);
+  const defaultHeader = (defaultObj?.sharable_strings?.header as any) || {};
+  const defaultBanner = (defaultObj && (defaultObj?.sharable_strings?.bannerNotifications ?? defaultObj?.sharable_strings?.banner ?? defaultObj?.sharable_strings?.banner_notifications)) || null;
+  const defaultBanner2 = (defaultObj && (defaultObj?.sharable_strings?.bannerNotifications2 ?? defaultObj?.sharable_strings?.banner2 ?? defaultObj?.sharable_strings?.banner_notifications2)) || null;
   const [translations, setTranslations] = useState<any>({
     siteTitle: defaultSiteTitle,
-    nav: defaultNav,
+    header: defaultHeader,
     banner: defaultBanner,
     banner2: defaultBanner2,
   });
@@ -88,13 +88,7 @@ export default function Header() {
     const alignClass = align === 'center' ? 'left-1/2 -translate-x-1/2' : (align === 'right' ? 'right-0' : 'left-0');
     const style = positionLeft != null ? { left: `${positionLeft}px` } : undefined;
     return (
-      <div
-        id={id}
-        role="menu"
-        aria-hidden={!open}
-        style={style as any}
-        className={`absolute top-full w-56 rounded bg-white shadow-md overflow-hidden transition-all duration-150 transform origin-top ${positionLeft != null ? '' : alignClass} ${visible ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-95 -translate-y-1"} ${styles.dropdownAnimate}`}
-      >
+      <div id={id} role="menu" aria-hidden={!open} style={style as any} className={`absolute top-full w-56 rounded bg-white shadow-md overflow-hidden transition-all duration-150 transform origin-top ${positionLeft != null ? '' : alignClass} ${visible ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-95 -translate-y-1"} ${styles.dropdownAnimate}`}>
         {children}
       </div>
     );
@@ -110,13 +104,13 @@ export default function Header() {
         await loadLocale(locale);
         if (!mounted) return;
         const locObj = (getLocaleObject(locale) as any) || {}; // entire locale files getting
-        const siteTitle = (locObj?.sitetitle) || 'Sanātana Dharma';
-        const nav = (locObj?.nav as any) || {};
+        const siteTitle = (locObj?.sharable_strings?.sitetitle) || 'Sanātana Dharma';
+        const header = (locObj?.sharable_strings?.header as any) || {};
         // Support multiple key styles in locale files: snake_case (banner_notifications)
         // and camelCase (bannerNotifications). Prefer explicit banner keys when present.
-        const banner = (locObj && (locObj.bannerNotifications ?? locObj.banner ?? locObj.banner_notifications)) || null;
-        const banner2 = (locObj && (locObj.bannerNotifications2 ?? locObj.banner2 ?? locObj.banner_notifications2)) || null;
-        setTranslations({ siteTitle, nav, banner, banner2 });
+        const banner = (locObj && (locObj?.sharable_strings?.bannerNotifications ?? locObj?.sharable_strings?.banner ?? locObj?.sharable_strings?.banner_notifications)) || null;
+        const banner2 = (locObj && (locObj?.sharable_strings?.bannerNotifications2 ?? locObj?.sharable_strings?.banner2 ?? locObj?.sharable_strings?.banner_notifications2)) || null;
+        setTranslations({ siteTitle, header, banner, banner2 });
       } catch (e) {
         // fallback to English (already in state)
       }
@@ -201,18 +195,13 @@ export default function Header() {
           </div>
           <nav role="menubar" aria-label="Main navigation" className="hidden items-center md:flex">
             {(() => {
-              const entries = Object.entries(translations.nav);
+              const entries = Object.entries(translations.header);
               const topKeys = entries.map(([k]) => k);
               // keys that render dropdowns on desktop (exclude simple links)
               const dropdownKeys = entries
-                .filter(([k, v]) => !(k === 'home' || k === 'contact' || k === 'about' || k === 'donate'))
                 .filter(([k, v]) => typeof v !== 'string')
                 .map(([k]) => k);
               return entries.map(([key, val]: [string, any], idx: number) => {
-                if (key === 'home') return null;
-                if (key === 'contact') return null;
-                if (key === 'about') return null;
-                if (key === 'donate') return null;
                 if (typeof val === "string") {
                   const href = key === "home" ? "/" : `/${key}`;
                   const className = key === "donate"
@@ -224,10 +213,8 @@ export default function Header() {
                     </Link>
                   );
                 }
-
                 const title = val.title ?? key;
                 const children = val.nav ?? {};
-
                 return (
                   <div
                     role="none"
@@ -297,7 +284,7 @@ export default function Header() {
                       const defaultAlign = isLastTwo ? 'right' : 'left';
                       const computedAlign = (val && val.align) ? val.align : (dropdownAligns[key] || defaultAlign);
                       const positionLeft = dropdownPositions[key];
-                        return (
+                      return (
                         <DropdownPanel open={openDropdown === key} id={`submenu-${key}`} align={computedAlign} positionLeft={positionLeft}>
                           <ul role="list" className={`${styles.navPrimarySubmenu} flex flex-col`}>
                             {Object.entries(children).map(([cKey, cLabel], idx) => (
@@ -335,7 +322,7 @@ export default function Header() {
                         </DropdownPanel>
                       );
                     })()}
-                    
+
                   </div>
                 );
               });
@@ -366,7 +353,7 @@ export default function Header() {
         {open && (
           <div className={`md:hidden ${styles.mobile} border-t border-b border-white/50`}>
             <div role="menu" className={`${styles.mobilePrimaryMenu} flex flex-col`}>
-                {Object.entries(translations.nav).map(([key, val]: [string, any]) => {
+              {Object.entries(translations.nav).map(([key, val]: [string, any]) => {
                 if (key === 'home') return null;
                 if (key === 'contact') return null;
                 if (key === 'about') return null;
