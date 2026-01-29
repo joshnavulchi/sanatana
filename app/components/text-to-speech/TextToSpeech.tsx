@@ -11,19 +11,16 @@ interface TextToSpeechProps {
 export default function TextToSpeech({ content = '', sectionId, className = '' }: TextToSpeechProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
-  const [isSupported, setIsSupported] = useState(true);
+  const [isSupported, setIsSupported] = useState(() => {
+    // Check if speech synthesis is supported on initialization
+    return typeof window !== 'undefined' && 'speechSynthesis' in window;
+  });
   const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
 
   useEffect(() => {
-    // Check if speech synthesis is supported
-    if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
-      setIsSupported(false);
-      return;
-    }
-
     return () => {
       // Cleanup: stop speech when component unmounts
-      if (window.speechSynthesis) {
+      if (typeof window !== 'undefined' && window.speechSynthesis) {
         window.speechSynthesis.cancel();
       }
     };

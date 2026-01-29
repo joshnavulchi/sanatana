@@ -146,6 +146,81 @@ function sanitizeObject(obj) {
   return obj;
 }
 
+// Sync locale keys with reference locale (en)
+function syncKeysWithReference(targetData, referenceData, locale) {
+  const changes = { added: 0, removed: 0 };
+  
+  // Deep sync function that handles nested objects
+  function syncObject(target, reference, path = '') {
+    // Get all keys from reference
+    const refKeys = new Set(Object.keys(reference));
+    const targetKeys = Object.keys(target);
+    
+    // Remove keys not in reference
+    for (const key of targetKeys) {
+      if (!refKeys.has(key)) {
+        delete target[key];
+        changes.removed++;
+        console.log(`  - Removed extra key: ${path}${key}`);
+      }
+    }
+    
+    // Add/update keys from reference
+    for (const key of refKeys) {
+      const refValue = reference[key];
+      const targetValue = target[key];
+      const currentPath = path ? `${path}.${key}` : key;
+      
+      if (!(key in target)) {
+        // Key missing in target, add it
+        target[key] = refValue;
+        changes.added++;
+        console.log(`  + Added missing key: ${currentPath}`);
+      } else if (
+        refValue && 
+        typeof refValue === 'object' && 
+        !Array.isArray(refValue) &&
+        targetValue &&
+        typeof targetValue === 'object' &&
+        !Array.isArray(targetValue)
+      ) {
+        // Both are objects, recurse
+        syncObject(targetValue, refValue, currentPath);
+      } else if (Array.isArray(refValue) && Array.isArray(targetValue)) {
+        // Arrays - check if they have the same structure
+        if (targetValue.length === 0 && refValue.length > 0) {
+          // Empty target array, copy reference structure
+          target[key] = JSON.parse(JSON.stringify(refValue));
+          changes.added++;
+          console.log(`  + Synced array structure: ${currentPath}`);
+        } else if (refValue.length > 0 && targetValue.length > 0) {
+          // Both have items - if they're objects, ensure same keys
+          const refItem = refValue[0];
+          const targetItem = targetValue[0];
+          
+          if (refItem && typeof refItem === 'object' && !Array.isArray(refItem) &&
+              targetItem && typeof targetItem === 'object' && !Array.isArray(targetItem)) {
+            // Array of objects - sync each object's keys
+            for (let i = 0; i < targetValue.length; i++) {
+              if (targetValue[i] && typeof targetValue[i] === 'object') {
+                syncObject(targetValue[i], refItem, `${currentPath}[${i}]`);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  syncObject(targetData, referenceData);
+  
+  if (changes.added > 0 || changes.removed > 0) {
+    console.log(`→ ${locale}: synced keys (${changes.added} added, ${changes.removed} removed)`);
+  }
+  
+  return changes;
+}
+
 async function sanitizeAllLocales() {
   if (!fs.existsSync(LOCAL_LOCALES_DIR)) return;
   const locales = fs.readdirSync(LOCAL_LOCALES_DIR).filter((d) => {
@@ -315,6 +390,45 @@ async function downloadLocales({ force = false } = {}) {
 
   saveMeta(meta);
   console.log('✓ Locale download and merge completed\n');
+
+  // Sync all locales with en locale (reference)
+  try {
+    console.log('→ Syncing all locale keys with en locale...');
+    const enPath = path.join(LOCAL_LOCALES_DIR, 'en', 'index.json');
+    
+    if (fs.existsSync(enPath)) {
+      const enData = JSON.parse(fs.readFileSync(enPath, 'utf8'));
+      const dirs = fs.readdirSync(LOCAL_LOCALES_DIR).filter((n) => {
+        try {
+          return fs.statSync(path.join(LOCAL_LOCALES_DIR, n)).isDirectory() && n !== 'en';
+        } catch (_) {
+          return false;
+        }
+      });
+      
+      for (const locale of dirs) {
+        const localePath = path.join(LOCAL_LOCALES_DIR, locale, 'index.json');
+        if (fs.existsSync(localePath)) {
+          try {
+            const localeData = JSON.parse(fs.readFileSync(localePath, 'utf8'));
+            const changes = syncKeysWithReference(localeData, enData, locale);
+            
+            if (changes.added > 0 || changes.removed > 0) {
+              fs.writeFileSync(localePath, JSON.stringify(localeData, null, 2), 'utf8');
+              console.log(`✓ Updated ${locale}/index.json`);
+            }
+          } catch (e) {
+            console.error(`Failed to sync ${locale}:`, e.message);
+          }
+        }
+      }
+      console.log('✓ All locales synced with en reference\n');
+    } else {
+      console.warn('⚠️ en/index.json not found - skipping key sync\n');
+    }
+  } catch (e) {
+    console.error('Failed to sync locale keys:', e.message);
+  }
 
   // Deployment verification: ensure index.json exists for each locale and report
   try {

@@ -14,8 +14,9 @@ services:
     # Ensure devDependencies are installed during build so CLI tools (e.g. tailwindcss)
     # are available for the critical CSS generator. Set NPM_CONFIG_PRODUCTION=false
     # to prevent skipping devDependencies in CI environments.
-    # Force locale download during static export and install devDependencies so CLI tools are available.
-    buildCommand: export NPM_CONFIG_PRODUCTION=false && npm ci && export FORCE_LOCALE_DOWNLOAD=1 && npm run render-build
+    # Locales are downloaded incrementally - only modified files are fetched based on SHA comparison.
+    # The script syncs all locale keys with the en (reference) locale and merges without breaking structure.
+    buildCommand: export NPM_CONFIG_PRODUCTION=false && npm ci && (node scripts/download-locales.js || echo "⚠️ Locale download failed, continuing with cached locales") && npm run render-build
     publishPath: out
   - type: cron
     name: weekly-deploy
