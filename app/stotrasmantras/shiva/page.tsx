@@ -21,7 +21,7 @@ export default async function Page() {
     <PageLayout
       metaKey="shiva_stotrasmantras"
       title={page.title}
-      breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title || 'Shiva Stotras' }]}
+      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title || 'Shiva Stotras' }]}
       className=""
     >
       {items.map((item: any, i: number) => (

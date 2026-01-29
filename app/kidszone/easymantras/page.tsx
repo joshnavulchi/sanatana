@@ -17,7 +17,7 @@ export default function Page({ searchParams }: any) {
       <PageLayout
         metaKey="kidszone_easymantras"
         title={page.title}
-        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title || t('kidszone_easymantras.title', locale) }]}
+        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title || t('kidszone_easymantras.title', locale) }]}
         className=""
       >
         <p>Placeholder for simple mantras children can learn.</p>

@@ -20,7 +20,7 @@ export default function Page({ searchParams }: any) {
       <PageLayout
         metaKey="scriptures_mahabharata"
         title={page.title}
-        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Mahabhrata' }]}
+        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Mahabhrata' }]}
         className="layout-sm"
       >
         {(page.structure || []).map((item: any, i: number) => (

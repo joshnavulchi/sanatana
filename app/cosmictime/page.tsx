@@ -13,7 +13,7 @@ export default async function Page() {
       metaKey="cosmictime"
       title={cosmic('cosmictime.title')}
       breadcrumbs={[
-        { labelKey: 'nav.home', href: '/' },
+        { labelKey: 'Home', href: '/' },
         { label: 'Cosmic Time' }]}
       className={`${styles.cosmicPage} layout-sm`}>
       <p className="description">{cosmic('cosmictime.definition')}</p>

@@ -34,7 +34,7 @@ export default function Page({ searchParams }: any) {
       <PageLayout
         metaKey="ramayana"
         title={page.title}
-        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Ramayana' }]}
+        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Ramayana' }]}
         className="layout-sm"
       >
         <p><strong>Source: </strong>{page.author} - {page.description ? <span>{page.description}</span> : null}</p>

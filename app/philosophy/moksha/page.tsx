@@ -27,7 +27,7 @@ export default function Page({ searchParams }: any) {
       <PageLayout
         metaKey="philosophy_moksha"
         title={page.title}
-        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (typeof page.title !== 'undefined' ? page.title : '') }]}
+        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: (typeof page.title !== 'undefined' ? page.title : '') }]}
         className={`layout-sm`}
       >
         <p><strong>Definition : </strong>{page.definition}</p>

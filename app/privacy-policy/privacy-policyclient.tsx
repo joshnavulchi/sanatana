@@ -123,7 +123,7 @@ export default function PrivacyPolicy() {
 
   if (isLoading && !privacy.title) {
     return (
-      <PageLayout metaKey="privacy_policy.meta" title="" breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Privacy Policy' }]} className="layout-sm">
+      <PageLayout metaKey="privacy_policy.meta" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Privacy Policy' }]} className="layout-sm">
         <div className="flex items-center justify-center py-12">
           <Loader />
         </div>
@@ -135,7 +135,7 @@ export default function PrivacyPolicy() {
     <PageLayout
       metaKey="privacy_policy.meta"
       title={privacy.title}
-      breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Privacy policy' }]}
+      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Privacy policy' }]}
       className={`layout-sm`}
     >
       {/* Text-to-Speech Player */}

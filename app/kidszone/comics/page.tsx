@@ -14,7 +14,7 @@ export default function Page({ searchParams }: any) {
     <PageLayout
       metaKey="kidszone_mythologycomics"
       title={'Mythology Comics'}
-      breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Mythology Comics' }]}
+      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Mythology Comics' }]}
       className=""
     >
       <p>Placeholder page generated from locales/en/nav.json for path /kidszone/comics</p>

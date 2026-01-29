@@ -109,7 +109,7 @@ export default function KrishnaExplainsFiveKarmasClient() {
     <PageLayout
       metaKey="philosophy_karma"
       title={renderTitle}
-      breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Philosophy', href: '/philosophy' }, { label: 'Karma' }]}
+      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Philosophy', href: '/philosophy' }, { label: 'Karma' }]}
       className={`layout-md`}
     >
       {/* Text-to-Speech Player */}

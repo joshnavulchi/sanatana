@@ -17,7 +17,7 @@ export default function Page() {
       <PageLayout
         metaKey="festivals_practices"
         title={page.title}
-        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}
+        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
         className=""
       >
         <p>{page.definition}</p>

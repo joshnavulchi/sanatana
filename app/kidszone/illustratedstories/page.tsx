@@ -23,7 +23,7 @@ export default async function Page({ searchParams }: any) {
       <PageLayout
         metaKey="illustrated_stories"
         title={S('kidszone_illustratedstories.title')}
-        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: S('kidszone_illustratedstories.title') }]}
+        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: S('kidszone_illustratedstories.title') }]}
         className="layout-md"
       >
         <p>{S('kidszone_illustratedstories.description')}</p>

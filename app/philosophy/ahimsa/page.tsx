@@ -20,7 +20,7 @@ export default function Page({ searchParams }: any) {
       <PageLayout
         metaKey="philosophy_ahimsa"
         title={title}
-        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Ahimsa' }]}
+        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Ahimsa' }]}
         className={`layout-sm`}
       >
         <p><strong>Definition : </strong>{definition.length ? definition.map((s: string, i: number) => (<span key={i}>{s}{i < definition.length - 1 ? ', ' : ''}</span>)) : <span>{String(t('philosophy_ahimsa.noDefinition', 'en'))}</span>}</p>

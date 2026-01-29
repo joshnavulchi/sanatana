@@ -21,7 +21,7 @@ export default function Page({ searchParams }: any) {
       <PageLayout
         metaKey="scriptures_bhagavadgita"
         title={page.title}
-        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}
+        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
         className={`layout-md`}
       >
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-6">

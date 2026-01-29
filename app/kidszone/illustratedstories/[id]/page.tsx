@@ -105,7 +105,7 @@ export default async function Page({ params, searchParams }: any) {
       <PageLayout
         metaKey=""
         title={S('illustrated_stories.comicNotFoundTitle')}
-        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: String(t('illustrated_stories.comicNotFoundTitle')) }]}
+        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: String(t('illustrated_stories.comicNotFoundTitle')) }]}
       >
         <p>{S('illustrated_stories.comicNotFoundDesc')}</p>
       </PageLayout>
@@ -117,7 +117,7 @@ export default async function Page({ params, searchParams }: any) {
 
   return (
     <>
-      <PageLayout metaKey="" title={item.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: item.title }, { label: item.title }]}>
+      <PageLayout metaKey="" title={item.title} breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: item.title }, { label: item.title }]}>
         <div>{item.origin}</div>
         <div>
           <div>

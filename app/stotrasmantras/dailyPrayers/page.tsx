@@ -20,7 +20,7 @@ export default function Page({ searchParams }: any) {
       <PageLayout
         metaKey="dailyPrayers_stotrasmantras"
         title={page.title}
-        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (page.title || '') }]}
+        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: (page.title || '') }]}
         className=""
       >
         <p>Placeholder for daily prayers and short mantras.</p>

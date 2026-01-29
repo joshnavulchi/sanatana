@@ -22,7 +22,7 @@ export default function Page({ searchParams }: any) {
       <PageLayout
         metaKey="hanuman_stotrasmantras"
         title={page.title}
-        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (page.title || '') }]}
+        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: (page.title || '') }]}
         className=""
       >
         {items.map((item: any, i: number) => (
