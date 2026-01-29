@@ -11,6 +11,8 @@ const withBundleAnalyzer = bundleAnalyzer({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Disable Next.js telemetry
+  telemetry: false,
   // Explicit turbopack config (empty) to avoid the runtime error when
   // a custom `webpack` function is present. Next.js 16 enables Turbopack
   // by default; providing an explicit `turbopack` field silences the
