@@ -84,12 +84,17 @@ export default function TextToSpeech({ content = '', sectionId, className = '' }
   if (!isSupported) {
     return null; // Don't render if not supported
   }
+  
+  const containerClass = className.includes('floating')
+    ? `${styles.textToSpeech} ${styles.floating}`
+    : `${styles.textToSpeech} ${className}`;
+  
   return (
-    <div className={`${styles.textToSpeech} ${className}`}>
+    <div className={containerClass}>
       <div className={styles.controls}>
         {!isPlaying && !isPaused && (
           <button
-            onClick={handlePlay}
+            onClick={handlePlay} 
             className={styles.playButton}
             aria-label="Play audio"
             title="Play"

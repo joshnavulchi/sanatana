@@ -7,6 +7,7 @@ import { useT } from '../hooks/useT';
 import Loader from '@components/loader/loader';
 
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
+import TextToSpeech from '../components/text-to-speech/TextToSpeech';
 
 type PartialPage = Record<string, any>;
 
@@ -130,7 +131,9 @@ export default function TermsOfService() {
       breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}
       className="layout-sm"
     >
-      <div>
+      {/* Text-to-Speech Player */}
+      <TextToSpeech sectionId="terms-of-service-content" className="floating" />
+      <div id="terms-of-service-content">
         <p><strong>{page.lastupdated}</strong></p>
         <h2 className="h4">{page.acceptancetitle}</h2>
         <p>{page.intro}</p>

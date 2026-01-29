@@ -9,6 +9,7 @@ import SimilarCategories from '@components/similar-categories/SimilarCategories'
 
 import styles from './page.module.scss';
 import LazyImage from '@/app/components/lazy-image/LazyImage';
+import TextToSpeech from '@/app/components/text-to-speech/TextToSpeech';
 
 // Helper components declared at module scope to avoid creating components during render
 const Paragraphs = ({ lines }: { lines?: any[] }) => {
@@ -111,35 +112,39 @@ export default function KrishnaExplainsFiveKarmasClient() {
       breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Philosophy', href: '/philosophy' }, { label: 'Karma' }]}
       className={`layout-md`}
     >
-      {/* Render script paragraphs (para1, para2, ...) then conversation (alternating chat bubbles). */}
-      {(() => {
-        const script = parseMaybeObject(t('philosophy_karma.script')) || {};
-        // If `story` exists from translations or state, render it first.
-        if (renderStory && renderStory.length > 0) {
-          return <Paragraphs lines={renderStory} />;
-        }
-        // collect paraN in order
-        const paraKeys = Object.keys(script || {}).filter(k => /^para\d+$/.test(k));
-        paraKeys.sort((a, b) => {
-          const na = Number(a.replace(/[^0-9]/g, '')) || 0;
-          const nb = Number(b.replace(/[^0-9]/g, '')) || 0;
-          return na - nb;
-        });
-        const paras = paraKeys.map(k => script[k]);
-        const convo = script && Array.isArray(script.conversation)
-          ? script.conversation
-          : parseSections(script?.conversation || '');
-        // if we have paras or conversation, render them
-        if ((Array.isArray(paras) && paras.length) || (Array.isArray(convo) && convo.length)) {
-          return (
-            <>
-              {paras.length > 0 && <Paragraphs lines={paras} />}
-              <Conversation convo={convo} />
-            </>
-          );
-        }
-        return null;
-      })()}
+      {/* Text-to-Speech Player */}
+      <TextToSpeech sectionId="philosophy-karma-content" className="floating" />
+      <div id="philosophy-karma-content">
+        {/* Render script paragraphs (para1, para2, ...) then conversation (alternating chat bubbles). */}
+        {(() => {
+          const script = parseMaybeObject(t('philosophy_karma.script')) || {};
+          // If `story` exists from translations or state, render it first.
+          if (renderStory && renderStory.length > 0) {
+            return <Paragraphs lines={renderStory} />;
+          }
+          // collect paraN in order
+          const paraKeys = Object.keys(script || {}).filter(k => /^para\d+$/.test(k));
+          paraKeys.sort((a, b) => {
+            const na = Number(a.replace(/[^0-9]/g, '')) || 0;
+            const nb = Number(b.replace(/[^0-9]/g, '')) || 0;
+            return na - nb;
+          });
+          const paras = paraKeys.map(k => script[k]);
+          const convo = script && Array.isArray(script.conversation)
+            ? script.conversation
+            : parseSections(script?.conversation || '');
+          // if we have paras or conversation, render them
+          if ((Array.isArray(paras) && paras.length) || (Array.isArray(convo) && convo.length)) {
+            return (
+              <>
+                {paras.length > 0 && <Paragraphs lines={paras} />}
+                <Conversation convo={convo} />
+              </>
+            );
+          }
+          return null;
+        })()}
+      </div>
     </PageLayout>
   );
 }
