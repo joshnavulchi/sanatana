@@ -8,6 +8,7 @@ import { parseSections, parseMaybeObject } from 'lib/parseContent';
 import SimilarCategories from '@components/similar-categories/SimilarCategories';
 
 import styles from './page.module.scss';
+import LazyImage from '@/app/components/lazy-image/LazyImage';
 
 // Helper components declared at module scope to avoid creating components during render
 const Paragraphs = ({ lines }: { lines?: any[] }) => {
@@ -15,12 +16,13 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
   return (
     <div className="flex gap-4">
       <div className="w-3/4 border-r border-r-gray-300 pr-4">
+        <LazyImage src="/images/philosophy-karma.png" alt="philosophy karma" width={600} height={400} />
         {lines.map((line: any, idx: number) => (
           <p key={idx}>{line}</p>
         ))}
       </div>
       <div className="w-1/4">
-        <SimilarCategories 
+        <SimilarCategories
           currentCategory="philosophy"
           title="Similar Philosophy"
           maxItems={3}
@@ -28,10 +30,8 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
         />
       </div>
     </div>
-    
   );
 };
-
 const Conversation = ({ convo }: { convo?: any[] }) => {
   if (!Array.isArray(convo) || !convo.length) return null;
   return (
@@ -52,11 +52,9 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
     </div>
   );
 };
-
 export default function KrishnaExplainsFiveKarmasClient() {
   const { locale, isLoading } = useLocale();
   const t = useT();
-  
   // Initialize with current data to prevent empty renders on refresh
   const getInitialKarma = () => {
     try {
@@ -74,16 +72,13 @@ export default function KrishnaExplainsFiveKarmasClient() {
       return { title: '', story: [] as string[] };
     }
   };
-  
   const [karma, setKarma] = useState(getInitialKarma);
-
   useEffect(() => {
     let mounted = true;
     (async () => {
       try {
         await loadLocale(locale).catch(() => { });
       } catch (e) { }
-
       if (!mounted) return;
       const title = String(t('philosophy_karma.title') || '');
       const rawStory = t('philosophy_karma.story');
@@ -94,17 +89,14 @@ export default function KrishnaExplainsFiveKarmasClient() {
     })();
     return () => { mounted = false; };
   }, [locale]);
-
-  // small helpers intentionally declared at module scope above
-
   // Compute render-time title/story from translations first, falling back to state
   const renderTitle = String(t('philosophy_karma.title') || karma.title || '');
   const rawStoryFromT = t('philosophy_karma.story');
   const renderStory = Array.isArray(rawStoryFromT)
     ? (rawStoryFromT as string[])
     : rawStoryFromT
-    ? String(rawStoryFromT).split(/\r?\n/).filter(Boolean)
-    : (Array.isArray(karma.story) ? karma.story : (karma.story ? [String(karma.story)] : []));
+      ? String(rawStoryFromT).split(/\r?\n/).filter(Boolean)
+      : (Array.isArray(karma.story) ? karma.story : (karma.story ? [String(karma.story)] : []));
 
   return (
     <PageLayout
@@ -120,7 +112,6 @@ export default function KrishnaExplainsFiveKarmasClient() {
         if (renderStory && renderStory.length > 0) {
           return <Paragraphs lines={renderStory} />;
         }
-
         // collect paraN in order
         const paraKeys = Object.keys(script || {}).filter(k => /^para\d+$/.test(k));
         paraKeys.sort((a, b) => {
@@ -129,11 +120,9 @@ export default function KrishnaExplainsFiveKarmasClient() {
           return na - nb;
         });
         const paras = paraKeys.map(k => script[k]);
-
         const convo = script && Array.isArray(script.conversation)
           ? script.conversation
           : parseSections(script?.conversation || '');
-
         // if we have paras or conversation, render them
         if ((Array.isArray(paras) && paras.length) || (Array.isArray(convo) && convo.length)) {
           return (
@@ -143,7 +132,6 @@ export default function KrishnaExplainsFiveKarmasClient() {
             </>
           );
         }
-
         return null;
       })()}
     </PageLayout>
