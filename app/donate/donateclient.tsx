@@ -7,7 +7,8 @@ import { useT } from '../hooks/useT';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
 import FaqAccordion from '@components/faqaccordion/faqaccordion';
 import Loader from '@components/loader/loader';
-import Image from 'next/image';
+import LazyImage from '../components/lazy-image/LazyImage';
+import SimilarCategories from '@components/similar-categories/SimilarCategories';
  
 export default function DonateClient() {
   const { locale, isLoading } = useLocale();
@@ -139,14 +140,28 @@ export default function DonateClient() {
         <p>{donate.donateOptions?.oneTime?.note}</p>
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 my-8">
           <div>
-            <Image src="/images/SANATANADHARM-qrcode.png" alt="PayPal QR Code" width={200} height={200} />
-            <Image src="/images/Debit_Credit_APM.svg" alt="One-time Donation QR Code" width={200} height={50} />
+            <LazyImage
+              src="/images/SANATANADHARM-qrcode.png"
+              alt="PayPal QR Code"
+              width={200}
+              height={205}
+            />
+            <LazyImage
+              src="/images/Debit_Credit_APM.svg"
+              alt="PayPal QR Code Logo"
+              width={150}
+              height={45}
+            />
           </div>
           <div>
-            <Image src="/images/UPI-qrcode.png" alt="UPI QR Code" width={200} height={200} />
+            <LazyImage
+              src="/images/UPI-qrcode.png"
+              alt="UPI QR Code"
+              width={200}
+              height={200}
+            />
           </div>
-        </div>
-        
+        </div>        
         {/* <div className="bg-amber-50 p-6 rounded">
           <p><strong>UPI:</strong> {donate.donateOptions?.bank?.upi}</p>
           <p><strong>Account Name:</strong> {donate.donateOptions?.bank?.accountName}</p>
@@ -158,6 +173,12 @@ export default function DonateClient() {
       <div>
         <FaqAccordion items={(donate.faq?.items || [])} heading={donate.faq?.heading} />
       </div>
+      
+      {/* Similar Categories */}
+      <SimilarCategories 
+        title="Explore More Topics"
+        maxItems={3}
+      />
     </PageLayout>
   );
 }

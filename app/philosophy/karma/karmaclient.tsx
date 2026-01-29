@@ -5,6 +5,7 @@ import { useLocale } from '@/app/context/locale-context';
 import { loadLocale, getLocaleObject } from 'lib/i18n';
 import { useT } from '../../hooks/useT';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
+import SimilarCategories from '@components/similar-categories/SimilarCategories';
 
 import styles from './page.module.scss';
 
@@ -12,11 +13,22 @@ import styles from './page.module.scss';
 const Paragraphs = ({ lines }: { lines?: any[] }) => {
   if (!Array.isArray(lines) || !lines.length) return null;
   return (
-    <div>
-      {lines.map((line: any, idx: number) => (
-        <p key={idx}>{line}</p>
-      ))}
+    <div className="flex gap-4">
+      <div className="w-3/4 border-r border-r-gray-300 pr-4">
+        {lines.map((line: any, idx: number) => (
+          <p key={idx}>{line}</p>
+        ))}
+      </div>
+      <div className="w-1/4">
+        <SimilarCategories 
+          currentCategory="philosophy"
+          title="Similar Philosophy"
+          maxItems={3}
+          excludeCurrent={true}
+        />
+      </div>
     </div>
+    
   );
 };
 
@@ -99,7 +111,7 @@ export default function KrishnaExplainsFiveKarmasClient() {
       metaKey="karma_philosophy"
       title={renderTitle}
       breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Karma' }]}
-      className={`layout-sm`}
+      className={`layout-md`}
     >
       {/* Render script paragraphs (para1, para2, ...) then conversation (alternating chat bubbles). */}
       {(() => {
@@ -125,10 +137,10 @@ export default function KrishnaExplainsFiveKarmasClient() {
         // if we have paras or conversation, render them
         if ((Array.isArray(paras) && paras.length) || (Array.isArray(convo) && convo.length)) {
           return (
-            <div>
+            <>
               {paras.length > 0 && <Paragraphs lines={paras} />}
               <Conversation convo={convo} />
-            </div>
+            </>
           );
         }
 

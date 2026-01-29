@@ -183,10 +183,10 @@ export default function Header() {
               <LazyImage
                 src="/images/logo.png"
                 alt="Sanatanadharmam Logo"
-                width={60}
-                height={50}
-                sizes="(min-width:1024px) 60px, 50px"
-                className="w-[60px] md:w-[50px]"
+                width={50}
+                height={45}
+                sizes="(min-width:1024px) 50px, 45px"
+                className="w-[50px] md:w-[45px]"
               />
               <span>
                 {translations.siteTitle}
