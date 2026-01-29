@@ -69,8 +69,8 @@ export default function KrishnaExplainsFiveKarmasClient() {
       if (!localeObj || Object.keys(localeObj).length === 0) {
         return { title: '', story: [] as string[] };
       }
-      const title = String(localeObj?.karma_philosophy?.title || '');
-      const rawStory = localeObj?.karma_philosophy?.story;
+      const title = String(localeObj?.philosophy_karma?.title || '');
+      const rawStory = localeObj?.philosophy_karma?.story;
       const story = Array.isArray(rawStory)
         ? (rawStory as string[])
         : (rawStory ? String(rawStory).split(/\r?\n/).filter(Boolean) : []);
@@ -107,7 +107,7 @@ export default function KrishnaExplainsFiveKarmasClient() {
 
   return (
     <PageLayout
-      metaKey="karma_philosophy"
+      metaKey="philosophy_karma"
       title={renderTitle}
       breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Philosophy', href: '/philosophy' }, { label: 'Karma' }]}
       className={`layout-md`}
