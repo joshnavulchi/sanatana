@@ -108,7 +108,7 @@ export default function KrishnaExplainsFiveKarmasClient() {
     <PageLayout
       metaKey="karma_philosophy"
       title={renderTitle}
-      breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Karma' }]}
+      breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Philosophy', href: '/philosophy' }, { label: 'Karma' }]}
       className={`layout-md`}
     >
       {/* Render script paragraphs (para1, para2, ...) then conversation (alternating chat bubbles). */}

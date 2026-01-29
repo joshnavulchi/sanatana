@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import WordCount from '@/app/components/wordcount/wordcount';
 import Breadcrumbs from '@components/breadcrumbs/breadcrumbs';
@@ -11,7 +12,7 @@ type Props = {
   children?: React.ReactNode;
 };
 
-export default function PageLayout({ metaKey, title, breadcrumbs, className, children }: Props) {
+export default function PageLayout({ metaKey, title, breadcrumbs, className, children, locale }: Props) {
   const wrapper = `${className || ' content-wrapper '}`;
   return (
     <>
@@ -19,7 +20,8 @@ export default function PageLayout({ metaKey, title, breadcrumbs, className, chi
           importing server-only modules into client bundles. */}
       <main className={wrapper}>
         <div className="flex items-start justify-between">
-          {breadcrumbs ? <Breadcrumbs items={breadcrumbs} /> : null}
+          {/* Breadcrumbs will auto-generate from path if items not provided */}
+          <Breadcrumbs items={breadcrumbs} locale={locale} />
           {/* WordCount is a client component; render it (Next will hydrate on the client) */}
           <WordCount />
         </div>
