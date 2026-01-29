@@ -23,7 +23,7 @@ export default function Page({ searchParams }: any) {
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Dharma' }]}
         className={`layout-sm`}
       >
-        <p><strong>Definition : </strong>{definition.length ? definition.map((s: string, i: number) => (<span key={i}>{s}{i < definition.length - 1 ? ', ' : ''}</span>)) : <span>{String(t('philosophy_dharma.noDefinition', 'en'))}</span>}</p>
+        <p><strong>Definition : </strong>{definition.length ? definition.map((s: string, i: number) => (<span key={i}>{s}{i < definition.length - 1 ? ', ' : ''}</span>)) : <span>{String(t('philosophy_dharma.noDefinition'))}</span>}</p>
         {/* Categories of Dharma */}
         <div>
           <h2 className="h4">Categories of Dharma :</h2>

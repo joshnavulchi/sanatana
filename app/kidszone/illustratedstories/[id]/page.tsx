@@ -25,7 +25,7 @@ export async function createGenerateMetadata({ params, searchParams }: { params:
   // structured chapters, fall back to English translations (no combined file)
   let chaptersRaw: any = t('illustrated_stories.kids_indian_stories', locale); 
   if (!Array.isArray(chaptersRaw)) {
-    chaptersRaw = t('illustrated_stories.kids_indian_stories', 'en');
+    chaptersRaw = t('illustrated_stories.kids_indian_stories');
   }
   const chapters: any[] = Array.isArray(chaptersRaw) ? chaptersRaw : [];
   const resolvedParams = params && typeof params.then === 'function' ? await params : params;

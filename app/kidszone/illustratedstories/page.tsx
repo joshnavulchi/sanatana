@@ -15,7 +15,7 @@ export default async function Page({ searchParams }: any) {
   if (Array.isArray(rawStories)) {
     stories = rawStories as any[];
   } else {
-    const enStories = t('kidszone_illustratedstories.kids_indian_stories', 'en');
+    const enStories = t('kidszone_illustratedstories.kids_indian_stories');
     stories = Array.isArray(enStories) ? (enStories as any[]) : [];
   }
   return (

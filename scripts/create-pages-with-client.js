@@ -16,7 +16,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
-const LOCALES_EN = path.join(ROOT, 'locales', 'en');
+const LOCALES_EN = path.join(ROOT, 'locales');
 const APP_DIR = path.join(ROOT, 'app');
 
 function readJSON(p) {
