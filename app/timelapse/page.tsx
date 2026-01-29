@@ -29,7 +29,7 @@ export default function TimelapsePage() {
     };
   })();
   return (
-    <PageLayout metaKey="timelapse" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title || 'Timelapse' }]}>
+    <PageLayout metaKey="timelapse" title={page.title} breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title || 'Timelapse' }]}>
       <div>
         {(page.timelinePoints as TimelinePoint[]).map((point: TimelinePoint, index: number) => (
           <div key={index}>

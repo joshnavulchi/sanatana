@@ -28,7 +28,7 @@ export default function Page({ searchParams }: any) {
       <PageLayout
         metaKey="philosophy_advaita"
         title={page.title}
-        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Advaita Philosophy' }]}
+        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Advaita Philosophy' }]}
         className={`layout-sm`}
       >
         <p><strong>Definition : </strong>{page.definition}</p>

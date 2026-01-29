@@ -126,7 +126,7 @@ function readPaths() {
               const book = chapMatch[1];
               // attempt to find a matching locale scriptures file in locales/en
               try {
-                const localeDir = path.join(process.cwd(), 'locales', 'en');
+                const localeDir = path.join(process.cwd(), 'locales');
                 const files = fs.readdirSync(localeDir);
                 // find file that contains the book name
                 const candidate = files.find(f => f.toLowerCase().includes(book.replace(/[^a-z0-9]/gi, '').toLowerCase()));

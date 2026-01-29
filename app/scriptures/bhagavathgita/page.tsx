@@ -5,23 +5,23 @@ import { parseList } from 'lib/parseList';
 import PageLayout from '@components/common/PageLayout';
 import LazyImage from '@components/lazy-image/LazyImage';
 import Link from 'next/link';
-export const generateMetadata = createGenerateMetadata('bhagavadgita_scriptures');
+export const generateMetadata = createGenerateMetadata('scriptures_bhagavathgita');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const page: any = (() => {
-    const chapters = parseList(t('bhagavadgita_scriptures.chapters', locale)); 
+    const chapters = parseList(t('scriptures_bhagavathgita.chapters', locale)); 
     return {
-      title: String(t('bhagavadgita_scriptures.title', locale) || ''),
+      title: String(t('scriptures_bhagavathgita.title', locale) || ''),
       chapters
     };
   })();
   return (
     <>
       <PageLayout
-        metaKey="bhagavadgita_scriptures"
+        metaKey="scriptures_bhagavathgita"
         title={page.title}
-        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title }]}
+        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
         className={`layout-md`}
       >
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-6">
@@ -36,7 +36,7 @@ export default function Page({ searchParams }: any) {
             const chapTitle = item.name || item.title || `Chapter ${chapNum}`;
             const excerpt = item.introduction?.summary || item.summary || '';
             // Prefer the chapter's localized ai_images[0], otherwise fall back to English canonical ai_images[0]
-            const enChapter = (locale as any)?.bhagavadgita?.chapters?.[Number(chapNum) - 1];
+            const enChapter = (locale as any)?.bhagavathgita?.chapters?.[Number(chapNum) - 1];
             const enAi0 = enChapter?.ai_images && enChapter.ai_images[0] ? enChapter.ai_images[0] : undefined;
             const imgSrc = item?.ai_images?.[0]?.imagesrc || enAi0?.imagesrc || '/og/bhagavathgita.png';
             const imgAlt = item?.ai_images?.[0]?.alt || enAi0?.alt || `${chapTitle}`;

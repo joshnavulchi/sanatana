@@ -18,7 +18,7 @@ export default function SitemapPage() {
   })();
 
   return (
-    <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title || 'HTML Sitemap' }]}>
+    <PageLayout title={page.title} breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title || 'HTML Sitemap' }]}>
       <p>A human-friendly sitemap of important pages (also available as XML at <Link href="/sitemap.xml">/sitemap.xml</Link>).</p>
       <ul role="list" className="list-disc">
         {PATHS.map((p) => (

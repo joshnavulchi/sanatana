@@ -122,7 +122,7 @@ export default function ContactPage() {
 
   if (isLoading && !page.title) {
     return (
-      <PageLayout metaKey="contact" title="" breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Contact' }]} className={`${styles.contactPage} layout-sm`}>
+      <PageLayout metaKey="contact" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Contact' }]} className={`${styles.contactPage} layout-sm`}>
         <div className="flex items-center justify-center py-12">
           <Loader />
         </div>
@@ -131,7 +131,7 @@ export default function ContactPage() {
   }
 
   return (
-    <PageLayout metaKey="contact" title={page.title} breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: page.title || 'contact' }]} className={`${styles.contactPage} layout-sm`}>
+    <PageLayout metaKey="contact" title={page.title} breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title || 'contact' }]} className={`${styles.contactPage} layout-sm`}>
       {page.subtitle ? <p>{page.subtitle}</p> : null}
       {Object.keys(page).filter(k => !['title','subtitle','meta','schema','id','type', 'required', 'faq'].includes(k)).map((k) => (
         <div key={k}>

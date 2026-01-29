@@ -15,7 +15,7 @@ export default async function Page({ searchParams }: any) {
   if (Array.isArray(rawStories)) {
     stories = rawStories as any[];
   } else {
-    const enStories = t('kidszone_illustratedstories.kids_indian_stories', 'en');
+    const enStories = t('kidszone_illustratedstories.kids_indian_stories');
     stories = Array.isArray(enStories) ? (enStories as any[]) : [];
   }
   return (
@@ -23,7 +23,7 @@ export default async function Page({ searchParams }: any) {
       <PageLayout
         metaKey="illustrated_stories"
         title={S('kidszone_illustratedstories.title')}
-        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: S('kidszone_illustratedstories.title') }]}
+        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: S('kidszone_illustratedstories.title') }]}
         className="layout-md"
       >
         <p>{S('kidszone_illustratedstories.description')}</p>

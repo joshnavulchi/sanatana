@@ -21,7 +21,7 @@ export default function Page({ searchParams }: any) {
       <PageLayout
         metaKey="devi_stotras"
         title={page.title}
-        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: (page.title || '') }]}
+        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: (page.title || '') }]}
         className="layout-sm"
       >
         {items.map((item: any, i: number) => (

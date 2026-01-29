@@ -16,7 +16,7 @@ export default function Page({ searchParams }: any) {
     <PageLayout
       metaKey="bhishma_story"
       title={'Bhishma'}
-      breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Bhishma' }]}
+      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Bhishma' }]}
       className=""
     >
       <p>Placeholder page generated from locales/en/nav.json for path /stories/bhishma</p>

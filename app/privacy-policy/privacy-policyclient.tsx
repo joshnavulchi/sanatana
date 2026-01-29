@@ -20,12 +20,12 @@ export default function PrivacyPolicy() {
       if (!localeObj || Object.keys(localeObj).length === 0) {
         return { title: '', lastupdated: '', intro: {} as any, informationwecollect: {} as any, howweuse: {} as any, cookieslocalstorage: {} as any, thirdparty: {} as any, security: {} as any, rights: {} as any, children: {} as any, changes: {} as any, contact: {} as any };
       }
-      const privacy = localeObj?.privacy || {};
-      const title = privacy.title || '';
-      const lastupdated = privacy.lastupdated || '';
+      const privacy_policy = localeObj?.privacy_policy || {};
+      const title = privacy_policy.title || '';
+      const lastupdated = privacy_policy.lastupdated || '';
       const keys = ['intro', 'informationwecollect', 'howweuse', 'cookieslocalstorage', 'thirdparty', 'security', 'rights', 'children', 'changes', 'contact'];
       const data: Record<string, any> = {};
-      keys.forEach((k) => { data[k] = parseMaybeObject(privacy[k] || ''); });
+      keys.forEach((k) => { data[k] = parseMaybeObject(privacy_policy[k] || ''); });
       
       if (data.intro && typeof data.intro === 'object') data.intro = { title: data.intro.title, text: data.intro.text };
       if (data.informationwecollect && typeof data.informationwecollect === 'object') {
@@ -69,12 +69,12 @@ export default function PrivacyPolicy() {
       } catch (e) { }
       if (!mounted) return;
 
-      const title = t('privacy.title') || '';
-      const lastupdated = t('privacy.lastupdated') || '';
+      const title = t('privacy_policy.title') || '';
+      const lastupdated = t('privacy_policy.lastupdated') || '';
 
       const keys = ['intro', 'informationwecollect', 'howweuse', 'cookieslocalstorage', 'thirdparty', 'security', 'rights', 'children', 'changes', 'contact'];
       const data: Record<string, any> = {};
-      keys.forEach((k) => { data[k] = parseMaybeObject(t(`privacy.${k}`)); });
+      keys.forEach((k) => { data[k] = parseMaybeObject(t(`privacy_policy.${k}`)); });
 
       // specific normalizations
       if (data.intro && typeof data.intro === 'object') data.intro = { title: data.intro.title, text: data.intro.text };
@@ -123,7 +123,7 @@ export default function PrivacyPolicy() {
 
   if (isLoading && !privacy.title) {
     return (
-      <PageLayout metaKey="privacy.meta" title="" breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Privacy Policy' }]} className="layout-sm">
+      <PageLayout metaKey="privacy_policy.meta" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Privacy Policy' }]} className="layout-sm">
         <div className="flex items-center justify-center py-12">
           <Loader />
         </div>
@@ -133,9 +133,9 @@ export default function PrivacyPolicy() {
 
   return (
     <PageLayout
-      metaKey="privacy"
+      metaKey="privacy_policy.meta"
       title={privacy.title}
-      breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Privacy policy' }]}
+      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Privacy policy' }]}
       className={`layout-sm`}
     >
       {/* Text-to-Speech Player */}

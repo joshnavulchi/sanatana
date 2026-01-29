@@ -57,7 +57,7 @@ export default function AboutClient() {
       <PageLayout
         metaKey="about"
         title=""
-        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'About' }]}
+        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'About' }]}
         className={`layout-sm`}
       >
         <div className="flex items-center justify-center py-12">
@@ -71,7 +71,7 @@ export default function AboutClient() {
     <PageLayout
       metaKey="about"
       title={about.title}
-      breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'About' }]}
+      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'About' }]}
       className={`layout-sm`}
     >
       {/* Text-to-Speech Player */}

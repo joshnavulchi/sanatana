@@ -30,7 +30,7 @@ function normalizeBreadcrumbs(items: CrumbInput[], locale?: string): Crumb[] {
 // Generate breadcrumbs from current path
 function generateBreadcrumbsFromPath(pathname: string, locale?: string): CrumbInput[] {
   const segments = pathname.split('/').filter(Boolean);
-  const breadcrumbs: CrumbInput[] = [{ labelKey: 'nav.home', href: '/' }];
+  const breadcrumbs: CrumbInput[] = [{ labelKey: 'Home', href: '/' }];
   let accumulatedPath = '';
   segments.forEach((segment, index) => {
     accumulatedPath += `/${segment}`;

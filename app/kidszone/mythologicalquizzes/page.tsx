@@ -17,7 +17,7 @@ export default function Page({ searchParams }: any) {
       <PageLayout
         metaKey="kidszone_mythologicalquizzes"
         title={page.title}
-        breadcrumbs={[{ labelKey: 'nav.home', href: '/' }, { label: 'Mythological Quizzes' }]}
+        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Mythological Quizzes' }]}
         className="layout-sm"
       >
         <QuizClient />
