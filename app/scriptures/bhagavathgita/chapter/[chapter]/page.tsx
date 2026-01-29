@@ -75,7 +75,7 @@ export default async function Page({ params, searchParams }: { params: any, sear
       {/* Debug removed */}
       <main className="content-wrapper md">
         <nav role="menu">
-          <Link href="/scriptures/bhagavathgeeta">&larr; Back to Bhagavad Gita</Link>
+          <Link href="/scriptures/bhagavathgita">&larr; Back to Bhagavad Gita</Link>
         </nav>
         <h1 className="text-center">{title}</h1>
         {ch && ch.verses && ch.verses.length > 0 ? (
@@ -151,7 +151,7 @@ export default async function Page({ params, searchParams }: { params: any, sear
         <div className="flex justify-between">
           <div>
             {num > 1 ? (
-              <Link href={`/scriptures/bhagavathgeeta/chapter/${num - 1}`} className="btn btn-outline">
+              <Link href={`/scriptures/bhagavathgita/chapter/${num - 1}`} className="btn btn-outline">
                 &larr; Previous
               </Link>
             ) : (
@@ -160,7 +160,7 @@ export default async function Page({ params, searchParams }: { params: any, sear
           </div>
           <div>
             {num < 18 ? (
-              <Link href={`/scriptures/bhagavathgeeta/chapter/${num + 1}`} className="btn btn-outline">
+              <Link href={`/scriptures/bhagavathgita/chapter/${num + 1}`} className="btn btn-outline">
                 Next &rarr;
               </Link>
             ) : (

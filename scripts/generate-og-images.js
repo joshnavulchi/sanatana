@@ -175,7 +175,7 @@ const pages = [
   { title: 'About Sanatana Dharma', subtitle: 'Understanding Eternal Truth', file: 'about.png' },
   { title: 'Contact Us', subtitle: 'Get in Touch', file: 'contact.png' },
   { title: 'Donate', subtitle: 'Support Our Mission', file: 'donate.png', options: { bgColor: '#28A745' } },
-  { title: 'Bhagavad Gita', subtitle: 'Sacred Scripture', file: 'bhagavathgeeta.png', options: { bgColor: '#6A4C93' } },
+  { title: 'Bhagavad Gita', subtitle: 'Sacred Scripture', file: 'bhagavathgita.png', options: { bgColor: '#6A4C93' } },
   { title: 'Hindu Philosophy', subtitle: 'Ancient Wisdom Traditions', file: 'philosophy.png', options: { bgColor: '#C9184A' } },
   { title: 'Vedas', subtitle: 'Sacred Knowledge', file: 'vedas.png', options: { bgColor: '#FF6B35' } },
   { title: 'Puranas', subtitle: 'Ancient Stories', file: 'puranas.png', options: { bgColor: '#0077B6' } },
