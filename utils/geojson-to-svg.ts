@@ -1,15 +1,16 @@
 // scripts/geojson-to-svg.ts
 import fs from "node:fs";
 import path from "node:path";
-import { geoEqualEarth, geoRobinson, geoPath } from "d3-geo-projection";
-import { geoPath as geoPathCore } from "d3-geo";
-import { feature as topoToFeature, topology } from "topojson-server";
-import { presimplify, simplify, quantize } from "topojson-simplify";
+import { geoEqualEarth, geoPath as geoPathCore } from "d3-geo";
 import type { FeatureCollection, Geometry } from "geojson";
+import { feature as topoToFeature } from "topojson-client";
+import { presimplify, simplify } from "topojson-simplify";
+import { quantize } from "topojson-client";
+import { topology } from "topojson-server";
 
 // ---------- Config ----------
-const INPUT = path.join(process.cwd(), "data", "input.geojson");
-const OUTPUT = path.join(process.cwd(), "data", "output-svg.json");
+const INPUT = path.join(process.cwd(), "utils", "input.geojson");
+const OUTPUT = path.join(process.cwd(), "utils", "output-svg.json");
 
 // Desired drawing canvas
 const WIDTH = 2048;
@@ -38,6 +39,12 @@ function topoSimplify(topo: any, q = 1e5, weight = 0.5) {
 
 // ---------- Main ----------
 (async () => {
+  // Check if input file exists
+  if (!fs.existsSync(INPUT)) {
+    console.log(`Input file ${INPUT} does not exist. Skipping geo build.`);
+    return;
+  }
+  
   const raw = fs.readFileSync(INPUT, "utf-8");
   const fc: FeatureCollection = JSON.parse(raw);
 
