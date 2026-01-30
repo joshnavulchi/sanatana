@@ -103,14 +103,6 @@ export default function HistoricalTimeline() {
       const faq = parseMaybeObject(t('historical_timeline.faq')) || {};
       const diagrams = parseMaybeObject(t('historical_timeline.diagrams')) || {};
 
-      console.log('Timeline data loaded:', {
-        hasIndia: !!india,
-        indiaRulers: india?.rulers?.length || 0,
-        hasDiagrams: !!diagrams,
-        hasAscii: !!diagrams?.ascii,
-        asciiArt: diagrams?.ascii?.art ? 'present' : 'missing'
-      });
-
       setTimeline({
         title,
         description,
