@@ -94,14 +94,14 @@ export default function HistoricalTimeline() {
       const description = t('historical_timeline.description') || '';
       const intro = parseMaybeObject(t('historical_timeline.content.intro'));
       const sections = t('historical_timeline.content.sections') || [];
-      const india = t('historical_timeline.india') || {};
-      const persia = t('historical_timeline.persia') || {};
-      const rome = t('historical_timeline.rome') || {};
-      const egypt = t('historical_timeline.egypt') || {};
-      const china = t('historical_timeline.china') || {};
-      const greece = t('historical_timeline.greece') || {};
-      const faq = t('historical_timeline.faq') || {};
-      const diagrams = t('historical_timeline.diagrams') || {};
+      const india = parseMaybeObject(t('historical_timeline.india')) || {};
+      const persia = parseMaybeObject(t('historical_timeline.persia')) || {};
+      const rome = parseMaybeObject(t('historical_timeline.rome')) || {};
+      const egypt = parseMaybeObject(t('historical_timeline.egypt')) || {};
+      const china = parseMaybeObject(t('historical_timeline.china')) || {};
+      const greece = parseMaybeObject(t('historical_timeline.greece')) || {};
+      const faq = parseMaybeObject(t('historical_timeline.faq')) || {};
+      const diagrams = parseMaybeObject(t('historical_timeline.diagrams')) || {};
 
       setTimeline({
         title,
@@ -377,23 +377,27 @@ export default function HistoricalTimeline() {
         )}
 
         {/* Diagrams */}
-        {timeline.diagrams && (
+        {timeline.diagrams && timeline.diagrams.ascii && timeline.diagrams.ascii.art && (
           <section className="mb-8">
             <h3>Visual Timeline</h3>
-            {timeline.diagrams.ascii && (
-              <div className="mb-6">
-                <p className="mb-2"><strong>{timeline.diagrams.ascii.caption}</strong></p>
-                <pre className="p-4 bg-gray-100 dark:bg-gray-900 rounded overflow-x-auto">
-                  {timeline.diagrams.ascii.art}
-                </pre>
-              </div>
-            )}
+            <div className="mb-6">
+              <p className="mb-2"><strong>{timeline.diagrams.ascii.caption}</strong></p>
+              <pre className="p-4 bg-gray-100 dark:bg-gray-900 rounded overflow-x-auto">
+                {timeline.diagrams.ascii.art}
+              </pre>
+            </div>
           </section>
         )}
 
         {/* Historical Rulers by Region */}
-        <section className="mb-8">
-          <h3>Historical Rulers by Region</h3>
+        {((timeline.india?.rulers && timeline.india.rulers.length > 0) ||
+          (timeline.persia?.rulers && timeline.persia.rulers.length > 0) ||
+          (timeline.rome?.rulers && timeline.rome.rulers.length > 0) ||
+          (timeline.egypt?.rulers && timeline.egypt.rulers.length > 0) ||
+          (timeline.china?.rulers && timeline.china.rulers.length > 0) ||
+          (timeline.greece?.rulers && timeline.greece.rulers.length > 0)) && (
+          <section className="mb-8">
+            <h3>Historical Rulers by Region</h3>
 
           {timeline.india && timeline.india.rulers && timeline.india.rulers.length > 0 && (
             <div className="mb-6">
@@ -492,6 +496,7 @@ export default function HistoricalTimeline() {
             </div>
           )}
         </section>
+        )}
 
         {/* FAQ Section */}
         {timeline.faq && timeline.faq.qa && timeline.faq.qa.length > 0 && (
