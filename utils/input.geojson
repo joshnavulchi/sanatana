@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TEST",
+        "name": "Test Region"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.58,
+              12.90
+            ],
+            [
+              77.62,
+              12.90
+            ],
+            [
+              77.62,
+              12.94
+            ],
+            [
+              77.58,
+              12.94
+            ],
+            [
+              77.58,
+              12.90
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

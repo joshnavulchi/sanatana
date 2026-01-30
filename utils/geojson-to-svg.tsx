@@ -9,8 +9,8 @@ import { quantize } from "topojson-client";
 import { topology } from "topojson-server";
 
 // ---------- Config ----------
-const INPUT = path.join(process.cwd(), "data", "input.geojson");
-const OUTPUT = path.join(process.cwd(), "data", "output-svg.json");
+const INPUT = path.join(process.cwd(), "utils", "input.geojson");
+const OUTPUT = path.join(process.cwd(), "utils", "output-svg.json");
 
 // Desired drawing canvas
 const WIDTH = 2048;
@@ -44,7 +44,7 @@ function topoSimplify(topo: any, q = 1e5, weight = 0.5) {
     console.log(`Input file ${INPUT} does not exist. Skipping geo build.`);
     return;
   }
-  
+
   const raw = fs.readFileSync(INPUT, "utf-8");
   const fc: FeatureCollection = JSON.parse(raw);
 
