@@ -1,8 +1,7 @@
-// components/OverlaySVG.tsx
 "use client";
 
 import * as React from "react";
-import type { SvgOverlay } from "./../../../types/geo-svg";
+import type { SvgOverlay } from "@/types/geo-svg";
 
 export function OverlaySVG({ data, fill = "#1f77b4", fillOpacity = 0.35 }: {
   data: SvgOverlay;

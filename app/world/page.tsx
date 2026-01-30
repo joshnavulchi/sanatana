@@ -1,8 +1,8 @@
-// app/maps/page.tsx
+// app/world/page.tsx
 import Image from "next/image";
 import overlay from "./output-svg.json";
-import type { SvgOverlay } from "./../../types/geo-svg";
-import { OverlaySVG } from "./../components/overlaysvg/page";
+import type { SvgOverlay } from "@/types/geo-svg";
+import { OverlaySVG } from "@/app/components/overlaysvg/page";
 
 export default function MapPage() {
   const data = overlay as SvgOverlay;
