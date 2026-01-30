@@ -9,8 +9,8 @@ import { quantize } from "topojson-client";
 import { topology } from "topojson-server";
 
 // ---------- Config ----------
-const INPUT = path.join(process.cwd(), "utils", "input.geojson");
-const OUTPUT = path.join(process.cwd(), "utils", "output-svg.json");
+const INPUT = path.join(process.cwd(), "data", "input.geojson");
+const OUTPUT = path.join(process.cwd(), "data", "output-svg.json");
 
 // Desired drawing canvas
 const WIDTH = 2048;

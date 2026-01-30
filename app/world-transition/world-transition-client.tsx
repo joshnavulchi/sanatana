@@ -4,7 +4,7 @@
 import { useState, useEffect } from 'react';
 import Image from "next/image";
 import type { SvgOverlay } from "@/types/geo-svg";
-import { OverlaySVG } from "@/app/components/overlaysvg/page";
+import { OverlaySVG } from "@/app/components/overlaysvg/OverlaySVG";
 import Loader from "@/app/components/loader/loader";
 
 export default function WorldTransitionContent() {
@@ -13,9 +13,9 @@ export default function WorldTransitionContent() {
 
   useEffect(() => {
     // Load the JSON data asynchronously
-    import('./output-svg.json')
+    import('./../../utils/output-svg.json')
       .then((module) => {
-        setData(module.default as SvgOverlay);
+        setData(module.default as unknown as SvgOverlay);
         setLoading(false);
       })
       .catch(() => {
