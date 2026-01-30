@@ -1,11 +1,11 @@
 "use client";
 import { useEffect, useState } from 'react';
-import PageLayout from '@components/common/PageLayout';
+import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '@/app/context/locale-context';
 import { loadLocale, getLocaleObject } from 'lib/i18n';
 import { useT } from '../../hooks/useT';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
-import SimilarCategories from '@components/similar-categories/SimilarCategories';
+import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
 
 import styles from './page.module.scss';
 import LazyImage from '@/app/components/lazy-image/LazyImage';

@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import WordCount from '@/app/components/wordcount/wordcount';
-import Breadcrumbs from '@components/breadcrumbs/breadcrumbs';
+import Breadcrumbs from '@/app/components/breadcrumbs/breadcrumbs';
 type BreadcrumbItem = { label?: string; labelKey?: string; href?: string };
 type Props = {
   metaKey?: string;

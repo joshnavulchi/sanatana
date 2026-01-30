@@ -1,8 +1,8 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { detectLocale, t } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
-import PageLayout from '@components/common/PageLayout';
-import LazyImage from '@components/lazy-image/LazyImage';
+import PageLayout from '@/app/components/common/PageLayout';
+import LazyImage from '@/app/components/lazy-image/LazyImage';
 import Link from 'next/link';
 export const generateMetadata = createGenerateMetadata('kidszone_illustratedstories');
 

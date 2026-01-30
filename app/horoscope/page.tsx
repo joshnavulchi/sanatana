@@ -1,5 +1,5 @@
 import { t, getMeta } from '../../lib/i18n';
-import PageLayout from '@components/common/PageLayout';
+import PageLayout from '@/app/components/common/PageLayout';
 import HoroscopeClient from './HoroscopeClient';
 
 export const metadata = {

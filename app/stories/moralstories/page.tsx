@@ -1,6 +1,6 @@
 import { getMeta, detectLocale, t } from '../../../lib/i18n';
 import { createGenerateMetadata } from 'lib/pageUtils';
-import PageLayout from '@components/common/PageLayout';
+import PageLayout from '@/app/components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('moralstories');
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || undefined;

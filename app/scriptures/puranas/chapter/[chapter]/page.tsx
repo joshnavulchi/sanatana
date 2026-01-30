@@ -1,7 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, getMeta, DEFAULT_LOCALE, detectLocale, getLocaleObject } from '@/lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
-import PageArticleJsonLd from '@components/structured-data/PageArticleJsonLd';
+import PageArticleJsonLd from '@/app/components/structured-data/PageArticleJsonLd';
 import Link from 'next/link';
 export const generateMetadata = createGenerateMetadata('puranas_slug');
 export function generateStaticParams() {

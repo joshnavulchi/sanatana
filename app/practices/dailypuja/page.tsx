@@ -1,7 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { getMeta, detectLocale, t } from '../../../lib/i18n';
 import { createGenerateMetadata } from 'lib/pageUtils';
-import PageLayout from '@components/common/PageLayout';
+import PageLayout from '@/app/components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('dailypuja_practices');
 export default function Page() {
   const locale = detectLocale();

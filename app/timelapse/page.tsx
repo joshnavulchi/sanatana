@@ -2,7 +2,7 @@
 import { t, getMeta } from '../../lib/i18n';
 
 import { createGenerateMetadata } from 'lib/pageUtils';
-import PageLayout from '@components/common/PageLayout';
+import PageLayout from '@/app/components/common/PageLayout';
 
 type TimelinePoint = {
   name?: string;

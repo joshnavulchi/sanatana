@@ -1,7 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { getMeta, detectLocale, t } from '../../../lib/i18n';
 import { createGenerateMetadata } from 'lib/pageUtils';
-import PageLayout from '@components/common/PageLayout';
+import PageLayout from '@/app/components/common/PageLayout';
 import QuizClient from './QuizClient';
 export const generateMetadata = createGenerateMetadata('kidszone_mythologicalquizzes');
 export default function Page({ searchParams }: any) {

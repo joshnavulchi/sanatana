@@ -1,13 +1,13 @@
 "use client";
 import React, { useEffect, useState } from 'react';
-import PageLayout from '@components/common/PageLayout';
+import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
 import { loadLocale, getLocaleObject } from 'lib/i18n';
 import { useT } from '../hooks/useT';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
-import Loader from '@components/loader/loader';
+import Loader from '@/app/components/loader/loader';
 import TextToSpeech from '../components/text-to-speech/TextToSpeech';
-import FaqAccordion from '@components/faqaccordion/faqaccordion';
+import FaqAccordion from '@/app/components/faqaccordion/faqaccordion';
 
 interface Ruler {
   name: string;

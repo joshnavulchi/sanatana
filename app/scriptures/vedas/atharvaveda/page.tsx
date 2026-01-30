@@ -3,7 +3,7 @@
 import { t, detectLocale, getMeta } from '../../../../lib/i18n';
 
 
-import PageLayout from '@components/common/PageLayout';
+import PageLayout from '@/app/components/common/PageLayout';
 
 
 export async function createGenerateMetadata(props: any) {

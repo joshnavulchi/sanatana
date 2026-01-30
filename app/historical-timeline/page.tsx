@@ -3,7 +3,7 @@ import { createGenerateMetadata } from '../../lib/pageUtils';
 export const generateMetadata = createGenerateMetadata('historical_timeline');
 
 import HistoricalTimeline from './historical-timelineclient';
-import StructuredData from '@components/structured-data/StructuredData';
+import StructuredData from '@/app/components/structured-data/StructuredData';
 
 export default function Page() {
   return (

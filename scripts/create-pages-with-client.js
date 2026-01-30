@@ -42,14 +42,14 @@ function writeIfMissing(filePath, content) {
 function clientTemplate(pageKey, compName, folderName) {
   return `"use client";
 import React, { useEffect, useState } from 'react';
-import PageLayout from '@components/common/PageLayout';
+import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
 import { useT } from '../hooks/useT';
 import { parseMaybeObject } from 'lib/parseContent';
 import { parseList } from 'lib/parseList';
 import { getLocaleObject } from 'lib/i18n';
 import FaqAccordion from '../components/faqaccordion/faqaccordion';
-import Loader from '@components/loader/loader';
+import Loader from '@/app/components/loader/loader';
 
 function RenderNode({ node, nodeKey, showHeading }: { node: any; nodeKey?: string; showHeading?: boolean }) {
   if (node === null || node === undefined) return null;

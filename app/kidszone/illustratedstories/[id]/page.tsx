@@ -2,11 +2,11 @@
 import { t, getMeta, detectLocale, DEFAULT_LOCALE, detectServerLocaleFromHeaders } from '@/lib/i18n';
 import { headers } from 'next/headers';
 import { notFound } from 'next/navigation';
-import PageLayout from '@components/common/PageLayout';
+import PageLayout from '@/app/components/common/PageLayout';
 import fs from 'fs/promises';
 import fsSync from 'fs';
 import path from 'path';
-import LazyImage from '@components/lazy-image/LazyImage';
+import LazyImage from '@/app/components/lazy-image/LazyImage';
 import Link from 'next/link';
 
 function resolveLocaleFromHeaders() {

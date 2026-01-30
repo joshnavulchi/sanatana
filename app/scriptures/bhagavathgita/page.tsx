@@ -2,8 +2,8 @@
 import { t, detectLocale } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import { parseList } from 'lib/parseList';
-import PageLayout from '@components/common/PageLayout';
-import LazyImage from '@components/lazy-image/LazyImage';
+import PageLayout from '@/app/components/common/PageLayout';
+import LazyImage from '@/app/components/lazy-image/LazyImage';
 import Link from 'next/link';
 export const generateMetadata = createGenerateMetadata('scriptures_bhagavathgita');
 

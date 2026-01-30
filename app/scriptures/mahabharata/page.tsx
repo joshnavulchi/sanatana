@@ -2,7 +2,7 @@
 import { t, detectLocale, getMeta } from '../../../lib/i18n';
 import { parseList } from 'lib/parseList';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
-import PageLayout from '@components/common/PageLayout';
+import PageLayout from '@/app/components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('scriptures_mahabharata');
 
 export default function Page({ searchParams }: any) {
