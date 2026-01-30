@@ -1,31 +1,20 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { Metadata } from 'next';
-import Image from "next/image";
-import overlay from "./output-svg.json";
-import type { SvgOverlay } from "@/types/geo-svg";
-import { OverlaySVG } from "@/app/components/overlaysvg/page";
+'use client';
 
-export const metadata: Metadata = {
-  title: 'World Transition Map',
-  description: 'Interactive world map visualization',
-};
+import { Suspense, lazy } from 'react';
+import Loader from "@/app/components/loader/loader";
+
+const WorldTransitionContent = lazy(() => import('./world-transition-client'));
 
 export default function Page() {
-  const data = overlay as SvgOverlay;
   return (
-    <main style={{ position: "relative", width: "100%", aspectRatio: "2 / 1" }}>
-      <Image
-        src="/maps/world-2048x1024-equal-earth.png"
-        alt="Base world map"
-        fill
-        sizes="100vw"
-        style={{ objectFit: "contain" }}
-        priority
-      />
-      <div style={{ position: "absolute", inset: 0 }}>
-        <OverlaySVG data={data} />
+    <Suspense fallback={
+      <div style={{ position: "relative", width: "100%", aspectRatio: "2 / 1", display: "flex", alignItems: "center", justifyContent: "center" }}>
+        <Loader />
       </div>
-    </main>
+    }>
+      <WorldTransitionContent />
+    </Suspense>
   );
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
