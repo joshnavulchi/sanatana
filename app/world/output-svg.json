@@ -1,0 +1,25 @@
+{
+  "viewBox": "0 0 2048 1024",
+  "projection": "equal-earth",
+  "width": 2048,
+  "height": 1024,
+  "features": [
+    {
+      "id": "feat_0",
+      "properties": {
+        "name": "Example"
+      },
+      "bbox": [
+        [
+          "x0",
+          "y0"
+        ],
+        [
+          "x1",
+          "y1"
+        ]
+      ],
+      "d": "M 123 456 L ..."
+    }
+  ]
+}
