@@ -1,7 +1,7 @@
 .textToSpeech {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.25rem;
   .controls {
     display: flex;
     align-items: center;
@@ -14,9 +14,9 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
-    padding: 0.5rem;
+    width: 30px;
+    height: 30px;
+    padding: 0.25rem;
     border: 1px solid var(--border-color, #e5e7eb);
     border-radius: 50%;
     background: var(--card-background, #ffffff);
@@ -72,11 +72,11 @@
   // Floating position option
   &.floating {
     position: fixed;
-    bottom: 2rem;
-    left: 2rem;
+    top: 6rem;
+    right: 1rem;
     z-index: 50;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    padding: 0.5rem;
+    padding: 0.25rem;
     border-radius: 2rem;
     background: var(--card-background, #ffffff);
     border: 1px solid var(--border-color, #e5e7eb);
@@ -85,4 +85,10 @@
   &.inline {
     margin: 1rem 0;
   }
+}
+@media (min-width: 1024px) {
+}
+@media (min-width: 1600px) {
+}
+@media (min-width: 1900px) {
 }

@@ -2,10 +2,12 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Image from "next/image";
 import type { SvgOverlay } from "@/types/geo-svg";
-import { OverlaySVG } from "@/app/components/overlaysvg/OverlaySVG";
 import Loader from "@/app/components/loader/loader";
+import BlankWorldMapEqualEarth from "@/app/components/worldmap/WorldMapEqualEarth";
+import WorldOverlay from "@/app/components/worldmap/WorldOverlay";
+
+import doc from "../../public/world-equal-earth-paths.json" assert { type: "json" };
 
 export default function WorldTransitionContent() {
   const [data, setData] = useState<SvgOverlay | null>(null);
@@ -25,21 +27,29 @@ export default function WorldTransitionContent() {
 
   return (
     <main style={{ position: "relative", width: "100%", aspectRatio: "2 / 1" }}>
-      <Image
+      {/* <Image
         src="/maps/world-2048x1024-equal-earth.png"
         alt="Base world map"
         fill
         sizes="100vw"
         style={{ objectFit: "contain" }}
         priority
+      /> */}
+
+      <BlankWorldMapEqualEarth
+        role="img"
+        aria-label="World map (Equal Earth)"
+        style={{ width: "100%", height: "auto", display: "block" }}
       />
+
       {loading ? (
         <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", background: "rgba(255,255,255,0.8)" }}>
           <Loader />
         </div>
       ) : data ? (
         <div style={{ position: "absolute", inset: 0 }}>
-          <OverlaySVG data={data} />
+          {/* <OverlaySVG data={data} /> */}
+          <WorldOverlay data={doc as any} />
         </div>
       ) : null}
     </main>
