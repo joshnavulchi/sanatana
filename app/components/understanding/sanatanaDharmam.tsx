@@ -1,6 +1,8 @@
-'use client';
+"use client";
 import { useT } from '../../hooks/useT';
-import { JSX } from 'react';
+import { JSX, useEffect, useState } from 'react';
+import { getLocaleObject, loadLocaleNamespace } from '../../../lib/i18n';
+import { useLocale } from '../../context/locale-context';
 import { parseList } from 'lib/parseList';
 import Link from 'next/link';
 import LazyImage from '../lazy-image/LazyImage';
@@ -8,7 +10,36 @@ import styles from './sanatanadharmam.module.scss';
 
 export default function UnderstandingOfSanatana() {
   const t = useT();
-  const sections = parseList(t("home.sections"));
+  const { locale } = useLocale();
+
+  const localeObj = getLocaleObject(locale) as any;
+  const initialSections = (localeObj && localeObj.home && Array.isArray(localeObj.home.sections))
+    ? localeObj.home.sections
+    : parseList(t("home.sections"));
+
+  const [sections, setSections] = useState<any[]>(initialSections);
+
+  useEffect(() => {
+    // If we already have sections from the runtime cache, use them.
+    const obj = getLocaleObject(locale) as any;
+    if (obj && obj.home && Array.isArray(obj.home.sections)) {
+      setSections(obj.home.sections);
+      return;
+    }
+
+    // Otherwise load the `home` namespace once for this locale and update state.
+    let cancelled = false;
+    loadLocaleNamespace(locale, 'home').then((ns: any) => {
+      if (cancelled) return;
+      if (ns && Array.isArray(ns.sections)) {
+        setSections(ns.sections);
+      } else if (ns && ns.home && Array.isArray(ns.home.sections)) {
+        setSections(ns.home.sections);
+      }
+    }).catch(() => { });
+    return () => { cancelled = true; };
+  }, [locale]);
+
   return (
     <div className={`${styles.understanding} content-wrapper`}>
       {sections.map((section: any, index: number) => {

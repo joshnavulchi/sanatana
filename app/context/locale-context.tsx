@@ -17,7 +17,7 @@ type LocaleContextType = {
 // replace this value when it hydrates.
 const defaultLocaleContext: LocaleContextType = {
   locale: DEFAULT_LOCALE,
-  setLocale: () => {},
+  setLocale: () => { },
   isLoading: true,
 };
 
@@ -48,14 +48,15 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
     // Helper to load locale, persist it, ensure cookie, and refresh server render.
     async function applyLocale(lang: string | null) {
       if (!lang) return;
-      
+      console.debug('[LocaleProvider] applyLocale start', lang);
       setIsLoading(true);
-      
+
       try {
         await loadLocale(lang);
       } catch (e) {
         console.error('[LocaleProvider] Failed to load locale:', e);
       }
+      console.debug('[LocaleProvider] applyLocale loaded', lang);
 
       // Update React state so client components re-render with the new locale
       setTimeout(() => {
@@ -119,7 +120,7 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
     if (!locale) return;
     // fire-and-forget; caching happens inside `loadLocale`.
     try {
-      loadLocale(locale).catch(() => {});
+      loadLocale(locale).catch(() => { });
     } catch (e) {
       // ignore
     }
