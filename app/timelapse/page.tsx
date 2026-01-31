@@ -1,6 +1,11 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 
-const ns = useLocaleSection('timelinePoints');
+import PageLayout from '@/app/components/common/PageLayout';
+import { createGenerateMetadata } from 'lib/pageUtils';
+import { t, getMeta, getLocaleObject } from '../../lib/i18n';
+
+const _localeObj = getLocaleObject();
+const ns = (_localeObj && ((_localeObj as any)['timelinePoints'] || ((_localeObj as any).sharable_strings && (_localeObj as any).sharable_strings['timelinePoints']))) || {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');
@@ -9,11 +14,6 @@ const __getLoc = (p: string) => {
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };
-import { t, getMeta } from '../../lib/i18n';
-
-import { createGenerateMetadata } from 'lib/pageUtils';
-import useLocaleSection from '../hooks/useLocaleSection';
-import PageLayout from '@/app/components/common/PageLayout';
 
 type TimelinePoint = {
   name?: string;

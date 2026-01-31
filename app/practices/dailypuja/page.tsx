@@ -1,6 +1,11 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+import PageLayout from '@/app/components/common/PageLayout';
+import { createGenerateMetadata } from 'lib/pageUtils';
+import { getMeta, detectLocale, t, getLocaleObject } from '../../../lib/i18n';
+export const generateMetadata = createGenerateMetadata('dailypuja_practices');
 
-const ns = useLocaleSection('dailypuja_practices');
+const _localeObj = getLocaleObject();
+const ns = (_localeObj && ((_localeObj as any)['dailypuja_practices'] || ((_localeObj as any).sharable_strings && (_localeObj as any).sharable_strings['dailypuja_practices']))) || {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');
@@ -9,11 +14,6 @@ const __getLoc = (p: string) => {
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };
-import { getMeta, detectLocale, t } from '../../../lib/i18n';
-import { createGenerateMetadata } from 'lib/pageUtils';
-import useLocaleSection from '../../hooks/useLocaleSection';
-import PageLayout from '@/app/components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('dailypuja_practices');
 export default function Page() {
   const locale = detectLocale();
   const page: any = (() => {

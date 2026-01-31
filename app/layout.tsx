@@ -1,21 +1,21 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { Suspense } from 'react';
 import { Poppins } from 'next/font/google';
+import { headers } from 'next/headers';
+import Script from 'next/script';
+import { Suspense } from 'react';
+import { DEFAULT_LOCALE, SUPPORTED_LOCALES, getLocaleObject } from '../lib/i18n';
+import { buildOrganizationJsonLd, buildWebSiteJsonLd, renderJsonLdScript } from '../lib/jsonld';
+import { secrets } from '../lib/secrets';
+import CookieConsent from './components/cookie-consent/CookieConsent';
+import DigitalClockLoader from './components/digitalclock/DigitalClockLoader';
+import Footer from './components/footer/footer';
+import Header from './components/header/header';
+import TopProgress from './components/progress/TopProgress';
+import ResourceHints from './components/resource-hints/ResourceHints';
+import ScrollToTop from './components/scroll-to-top/scroll-to-top';
+import WebVitalsReporter from './components/web-vitals/WebVitalsReporter';
 import { LocaleProvider } from './context/locale-context';
 import { ThemeProvider } from './context/theme-context';
-import { headers } from 'next/headers';
-import { DEFAULT_LOCALE, SUPPORTED_LOCALES, getLocaleObject } from '../lib/i18n';
-import { secrets } from '../lib/secrets';
-import { buildOrganizationJsonLd, buildWebSiteJsonLd, renderJsonLdScript } from '../lib/jsonld';
-import Script from 'next/script';
-import Header from './components/header/header';
-import Footer from './components/footer/footer';
-import CookieConsent from './components/cookie-consent/CookieConsent';
-import TopProgress from './components/progress/TopProgress';
-import DigitalClockLoader from './components/digitalclock/DigitalClockLoader';
-import ScrollToTop from './components/scroll-to-top/scroll-to-top';
-import ResourceHints from './components/resource-hints/ResourceHints';
-import WebVitalsReporter from './components/web-vitals/WebVitalsReporter';
 
 import "./globals.css"; // tailwind base styles
 

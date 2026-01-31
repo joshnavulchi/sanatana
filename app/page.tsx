@@ -1,12 +1,12 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { detectLocale, t } from '../lib/i18n';
-import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import fs from 'fs';
+import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import path from 'path';
-import HeroSection from './components/hero-section/herosection';
-import UnderstandingOfSanatana from './components/understanding/sanatanaDharmam';
+import { detectLocale, t } from '../lib/i18n';
 import GitSupport from './components/git-support/git-support';
+import HeroSection from './components/hero-section/herosection';
 import OurFourCoreYugas from './components/our-four-core-yugas/ourfourcoreyugas';
+import UnderstandingOfSanatana from './components/understanding/sanatanaDharmam';
 
 // Cache critical CSS at module level to avoid repeated file reads
 let cachedCriticalCss: string | null = null;

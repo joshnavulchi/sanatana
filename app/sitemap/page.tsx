@@ -1,6 +1,7 @@
-import { t, getMeta } from '../../lib/i18n';
+import { t, getMeta, getLocaleObject } from '../../lib/i18n';
 
-const ns = useLocaleSection('sitemap');
+const _localeObj = getLocaleObject();
+const ns = (_localeObj && ((_localeObj as any)['sitemap'] || ((_localeObj as any).sharable_strings && (_localeObj as any).sharable_strings['sitemap']))) || {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');
@@ -14,7 +15,6 @@ import Link from 'next/link';
 import PageLayout from '@/app/components/common/PageLayout';
 import { PATHS } from '../../lib/sitemapPaths';
 import { SUPPORTED_LOCALES } from '../../lib/i18n';
-import useLocaleSection from '../hooks/useLocaleSection';
 import { secrets } from '../../lib/secrets';
 
 const SITE_URL = secrets.NEXT_PUBLIC_SITE_URL || 'https://sanatanadharmam.in';

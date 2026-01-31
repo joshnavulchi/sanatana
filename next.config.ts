@@ -17,8 +17,8 @@ const nextConfig = {
   // conflict warning and allows webpack overrides to continue working.
   turbopack: {},
   reactStrictMode: true,
-  // Enable SWC minifier for JS in production (fast and smaller bundles)
-  swcMinify: true,
+  // SWC minifier is handled by Next.js automatically in modern versions.
+  // `swcMinify` is removed to avoid unrecognized-option warnings.
 
   // Compiler options for modern browsers
   compiler: {

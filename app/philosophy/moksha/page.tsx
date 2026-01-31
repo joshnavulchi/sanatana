@@ -1,6 +1,11 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+import PageLayout from '@/app/components/common/PageLayout';
+import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
+import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
+export const generateMetadata = createGenerateMetadata('philosophy_moksha');
 
-const ns = useLocaleSection('philosophy_moksha');
+const _localeObj = getLocaleObject();
+const ns = (_localeObj && ((_localeObj as any)['philosophy_moksha'] || ((_localeObj as any).sharable_strings && (_localeObj as any).sharable_strings['philosophy_moksha']))) || {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');
@@ -9,11 +14,6 @@ const __getLoc = (p: string) => {
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };
-import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
-import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
-import useLocaleSection from '../../hooks/useLocaleSection';
-import PageLayout from '@/app/components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('philosophy_moksha');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();

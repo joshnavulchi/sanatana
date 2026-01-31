@@ -1,6 +1,11 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+import PageLayout from '@/app/components/common/PageLayout';
+import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
+import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
+export const generateMetadata = createGenerateMetadata('scriptures_ramayana');
 
-const ns = useLocaleSection('scriptures_ramayana');
+const _localeObj = getLocaleObject();
+const ns = (_localeObj && ((_localeObj as any)['scriptures_ramayana'] || ((_localeObj as any).sharable_strings && (_localeObj as any).sharable_strings['scriptures_ramayana']))) || {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');
@@ -9,11 +14,6 @@ const __getLoc = (p: string) => {
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };
-import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
-import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
-import useLocaleSection from '../../hooks/useLocaleSection';
-import PageLayout from '@/app/components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('scriptures_ramayana'); 
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();

@@ -1,6 +1,12 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+import PageLayout from '@/app/components/common/PageLayout';
+import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
+import { parseList } from 'lib/parseList';
+import { t, detectLocale, getMeta, getLocaleObject } from '../../../lib/i18n';
+export const generateMetadata = createGenerateMetadata('scriptures_vedas');
 
-const ns = useLocaleSection('scriptures_vedas');
+const _localeObj = getLocaleObject();
+const ns = (_localeObj && ((_localeObj as any)['scriptures_vedas'] || ((_localeObj as any).sharable_strings && (_localeObj as any).sharable_strings['scriptures_vedas']))) || {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');
@@ -9,12 +15,6 @@ const __getLoc = (p: string) => {
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };
-import { t, detectLocale, getMeta } from '../../../lib/i18n';
-import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
-import { parseList } from 'lib/parseList';
-import useLocaleSection from '../../hooks/useLocaleSection';
-import PageLayout from '@/app/components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('scriptures_vedas');
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
