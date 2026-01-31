@@ -290,7 +290,7 @@ export default function Header() {
                             {Object.entries(children).map(([cKey, cLabel], idx) => (
                               <li key={cKey}>
                                 <Link
-                                  href={`/${key}/${cKey}`}
+                                  href={'/' + key + '/' + cKey}
                                   className="block"
                                   role="menuitem"
                                   tabIndex={0}
@@ -353,50 +353,54 @@ export default function Header() {
         {open && (
           <div className={`md:hidden ${styles.mobile} border-t border-b border-white/50`}>
             <div role="menu" className={`${styles.mobilePrimaryMenu} flex flex-col`}>
-              {Object.entries(translations.nav).map(([key, val]: [string, any]) => {
-                if (key === 'home') return null;
-                if (key === 'contact') return null;
-                if (key === 'about') return null;
-                if (key === 'donate') return null;
-                if (typeof val === "string") {
-                  const href = key === "home" ? "/" : `/${key}`;
+              {(() => {
+                const mobileNav = (translations.nav ?? translations.header) as Record<string, any> | undefined;
+                if (!mobileNav) return null;
+                return Object.entries(mobileNav).map(([key, val]: [string, any]) => {
+                  if (key === 'home') return null;
+                  if (key === 'contact') return null;
+                  if (key === 'about') return null;
+                  if (key === 'donate') return null;
+                  if (typeof val === "string") {
+                    const href = key === "home" ? "/" : `/${key}`;
+                    return (
+                      <Link key={key} href={href} className={`${isActive(href) ? "active" : ""}`}>{val}</Link>
+                    );
+                  }
+
+                  const title = val.title ?? key;
+                  const children = val.nav ?? null;
+
+                  if (!children) {
+                    const href = `/${key}`;
+                    return <Link key={key} href={href} className={`${isActive(href) ? "active" : ""}`}>{title}</Link>;
+                  }
+
+                  const expanded = !!expandedKeys[key];
                   return (
-                    <Link key={key} href={href} className={`${isActive(href) ? "active" : ""}`}>{val}</Link>
+                    <div role="none" key={key} className="flex flex-col gap-2">
+                      <button
+                        onClick={() => setExpandedKeys((s) => ({ ...s, [key]: !s[key] }))}
+                        role="menuitem"
+                        className={`${styles.navPrimaryBtn} flex items-center justify-between w-full font-semibold`}
+                        aria-expanded={expanded}
+                      >
+                        <span>{title}</span>
+                        <svg className={`h-4 w-4 transform ${expanded ? "rotate-180" : "rotate-0"}`} viewBox="0 0 20 20" fill="currentColor">
+                          <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.24a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.06z" clipRule="evenodd" />
+                        </svg>
+                      </button>
+                      {expanded && (
+                        <div className={`flex flex-col gap-2 ${styles.mobilePrimarySubmenu} overflow-hidden accordion-transition ${expanded ? "max-h-96" : "max-h-0"}`}>
+                          {Object.entries(children).map(([cKey, cLabel]) => (
+                            <Link key={cKey} href={'/' + key + '/' + cKey} className={`${isActive('/' + key + '/' + cKey) ? "active" : ""}`}>{cLabel as string}</Link>
+                          ))}
+                        </div>
+                      )}
+                    </div>
                   );
-                }
-
-                const title = val.title ?? key;
-                const children = val.nav ?? null;
-
-                if (!children) {
-                  const href = `/${key}`;
-                  return <Link key={key} href={href} className={`${isActive(href) ? "active" : ""}`}>{title}</Link>;
-                }
-
-                const expanded = !!expandedKeys[key];
-                return (
-                  <div role="none" key={key} className="flex flex-col gap-2">
-                    <button
-                      onClick={() => setExpandedKeys((s) => ({ ...s, [key]: !s[key] }))}
-                      role="menuitem"
-                      className={`${styles.navPrimaryBtn} flex items-center justify-between w-full font-semibold`}
-                      aria-expanded={expanded}
-                    >
-                      <span>{title}</span>
-                      <svg className={`h-4 w-4 transform ${expanded ? "rotate-180" : "rotate-0"}`} viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.24a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.06z" clipRule="evenodd" />
-                      </svg>
-                    </button>
-                    {expanded && (
-                      <div className={`flex flex-col gap-2 ${styles.mobilePrimarySubmenu} overflow-hidden accordion-transition ${expanded ? "max-h-96" : "max-h-0"}`}>
-                        {Object.entries(children).map(([cKey, cLabel]) => (
-                          <Link key={cKey} href={`/${key}/${cKey}`} className={`${isActive(`/${key}/${cKey}`) ? "active" : ""}`}>{cLabel as string}</Link>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                );
-              })}
+                })
+              })()}
             </div>
           </div>
         )}
