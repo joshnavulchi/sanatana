@@ -19,9 +19,9 @@ import WebVitalsReporter from './components/web-vitals/WebVitalsReporter';
 
 import "./globals.css"; // tailwind base styles
 
-const poppins = Poppins({ 
-  subsets: ["latin"], 
-  weight: ["400"], 
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400"],
   preload: true,
   display: "swap" // Prevents layout shift from font loading
 });
@@ -40,7 +40,7 @@ export default async function RootLayout({
     description: 'Explore Sanātana Dharma: eternal principles of Hinduism, Vedic traditions, and spiritual practices.'
   });
   const siteJson = buildWebSiteJsonLd();
-    
+
   // Resolve locale with minimal blocking - use synchronous detection when possible
   let lang = DEFAULT_LOCALE;
   try {
@@ -59,10 +59,10 @@ export default async function RootLayout({
   } catch (err) {
     // Use default locale on error
   }
-  
+
   // Load the locale data server-side so it's available for client hydration
   const localeData = getLocaleObject(lang);
-  
+
   return (
     <html lang={lang} translate="no">
       <head>
@@ -80,11 +80,11 @@ export default async function RootLayout({
         {/* Early resource hints to reduce network latency */}
         <ResourceHints />
         {/* Preload LCP image with high priority - matches hero img tag */}
-        <link 
-          rel="preload" 
-          as="image" 
+        <link
+          rel="preload"
+          as="image"
           href="/images/home/mobile-hero.png"
-          imageSrcSet="/images/home/hero.png 1024w, /images/home/mobile-hero.png 768w" 
+          imageSrcSet="/images/home/hero.png 1024w, /images/home/mobile-hero.png 768w"
           imageSizes="(min-width: 1024px) 50vw, 100vw"
           fetchPriority="high"
         />
@@ -92,8 +92,7 @@ export default async function RootLayout({
         <meta httpEquiv="Cache-Control" content="max-age=2592000, must-revalidate" />
         <meta httpEquiv="Pragma" content="cache" />
         <meta httpEquiv="Expires" content="2592000" />
-        {/* Defer non-critical global styles */}
-        <link rel="preload" href="/globals.from-scss.css" as="style" />
+        {/* Defer non-critical global styles (preload → convert to stylesheet onload) */}
         <Script
           id="load-deferred-css"
           strategy="beforeInteractive"
@@ -101,8 +100,10 @@ export default async function RootLayout({
             __html: `
               (function(){
                 var l=document.createElement('link');
-                l.rel='stylesheet';
+                l.rel='preload';
+                l.as='style';
                 l.href='/globals.from-scss.css';
+                l.onload=function(){this.onload=null;this.rel='stylesheet'};
                 document.head.appendChild(l);
               })();
             `
@@ -118,12 +119,12 @@ export default async function RootLayout({
           strategy="afterInteractive"
           dangerouslySetInnerHTML={renderJsonLdScript(siteJson)}
         />
-          <Script
-            id="jsonld-org"
-            type="application/ld+json"
-            strategy="afterInteractive"
-            dangerouslySetInnerHTML={renderJsonLdScript(orgJson)}
-          />
+        <Script
+          id="jsonld-org"
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={renderJsonLdScript(orgJson)}
+        />
         <Script
           id="jsonld-web"
           type="application/ld+json"
@@ -160,14 +161,13 @@ export default async function RootLayout({
           }}
         />
         {/* Google Analytics is loaded on user consent via the CookieConsent component. */}
-        {/* Preload local font with high priority to reduce font loading delay */}
-        <link 
-          rel="preload" 
-          href="/_next/static/media/a218039a3287bcfd-s.p.4a23d71b.woff2" 
-          as="font" 
-          type="font/woff2" 
+        {/* Hint the font for later use (non-blocking) */}
+        <link
+          rel="prefetch"
+          href="/_next/static/media/a218039a3287bcfd-s.p.4a23d71b.woff2"
+          as="font"
+          type="font/woff2"
           crossOrigin="anonymous"
-          fetchPriority="high"
         />
         <style dangerouslySetInnerHTML={{
           __html: `
