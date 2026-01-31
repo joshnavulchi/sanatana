@@ -7,22 +7,32 @@ import Loader from "@/app/components/loader/loader";
 import BlankWorldMapEqualEarth from "@/app/components/worldmap/WorldMapEqualEarth";
 import WorldOverlay from "@/app/components/worldmap/WorldOverlay";
 
-import doc from "../../public/world-equal-earth-paths.json" assert { type: "json" };
+// Load the heavy map JSON at runtime to avoid bundling/parsing it during initial page load
 
 export default function WorldTransitionContent() {
   const [data, setData] = useState<SvgOverlay | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Load the JSON data asynchronously
-    import('./../../utils/output-svg.json')
-      .then((module) => {
-        setData(module.default as unknown as SvgOverlay);
+    // Fetch the optimized path JSON from the public folder (served statically)
+    (async () => {
+      try {
+        const resp = await fetch('/world-equal-earth-paths.json');
+        if (!resp.ok) throw new Error('Failed to fetch');
+        const obj = await resp.json();
+        setData(obj as SvgOverlay);
+      } catch (e) {
+        // fallback: attempt dynamic import if public file missing
+        try {
+          const mod = await import('./../../utils/output-svg.json');
+          setData(mod.default as unknown as SvgOverlay);
+        } catch (_err) {
+          // leave data null
+        }
+      } finally {
         setLoading(false);
-      })
-      .catch(() => {
-        setLoading(false);
-      });
+      }
+    })();
   }, []);
 
   return (
@@ -49,7 +59,7 @@ export default function WorldTransitionContent() {
       ) : data ? (
         <div style={{ position: "absolute", inset: 0 }}>
           {/* <OverlaySVG data={data} /> */}
-          <WorldOverlay data={doc as any} />
+          <WorldOverlay data={data as any} />
         </div>
       ) : null}
     </main>
