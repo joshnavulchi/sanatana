@@ -49,14 +49,14 @@ if (typeof window !== 'undefined') {
 export const locales: Record<string, unknown> = {};
 export function getLocaleObject(locale = DEFAULT_LOCALE) {
   if (localesCache[locale]) return localesCache[locale];
-  
+
   // On the server, try to load synchronously from filesystem
   if (typeof window === 'undefined') {
     try {
       const fs = require('fs');
       const path = require('path');
       const filePath = path.join(process.cwd(), 'public', 'locales', locale, 'index.json');
-      
+
       if (fs.existsSync(filePath)) {
         const content = fs.readFileSync(filePath, 'utf8');
         const obj = JSON.parse(content);
@@ -68,7 +68,7 @@ export function getLocaleObject(locale = DEFAULT_LOCALE) {
       console.error(`[i18n] Server: Failed to load locale ${locale}:`, err);
     }
   }
-  
+
   // Return default locale or empty object
   // If client has a global-injected cache, attempt one more time
   if (typeof window !== 'undefined') {
@@ -85,6 +85,29 @@ export function getLocaleObject(locale = DEFAULT_LOCALE) {
 
   return localesCache[DEFAULT_LOCALE] || {};
 }
+
+// Server-side synchronous read for a page/namespace JSON (e.g. historical_timeline.json)
+export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = '') {
+  if (!namespace) return {};
+  if (typeof window === 'undefined') {
+    try {
+      const fs = require('fs');
+      const path = require('path');
+      const filePath = path.join(process.cwd(), 'public', 'locales', locale, `${namespace}.json`);
+      if (fs.existsSync(filePath)) {
+        const content = fs.readFileSync(filePath, 'utf8');
+        try {
+          return JSON.parse(content);
+        } catch (e) {
+          return {};
+        }
+      }
+    } catch (e) {
+      // ignore
+    }
+  }
+  return {};
+}
 // Dynamically fetch and load a locale file from GitHub and cache it. Returns the locale object.
 export async function loadLocale(locale: string) {
   if (!locale || locale === DEFAULT_LOCALE) {
@@ -96,12 +119,58 @@ export async function loadLocale(locale: string) {
     }
     return localesCache[DEFAULT_LOCALE] || {};
   }
-  
+
   if (localesCache[locale]) return localesCache[locale];
-  
+
   const obj = await fetchLocaleData(locale);
   localesCache[locale] = obj;
   return obj;
+}
+
+// Load a specific namespace (page) JSON for a locale and cache it under the
+// locale object so pages can access page-specific data via `getLocaleObject(locale)[namespace]`.
+export async function loadLocaleNamespace(locale: string, namespace: string) {
+  if (!locale || !namespace) return {};
+
+  // Ensure base locale cache object exists
+  if (!localesCache[locale] || typeof localesCache[locale] !== 'object') {
+    localesCache[locale] = {} as any;
+  }
+
+  const nsObj = (localesCache[locale] as any)[namespace];
+  if (nsObj) return nsObj;
+
+  // Try fetching the namespace JSON directly
+  try {
+    const url = `/locales/${encodeURIComponent(locale)}/${encodeURIComponent(namespace)}.json`;
+    const resp = await fetch(url);
+    if (resp.ok) {
+      const parsed = await resp.json();
+      try {
+        (localesCache[locale] as any)[namespace] = parsed;
+      } catch (_) {
+        // ignore cache set errors
+      }
+      return parsed;
+    }
+  } catch (e) {
+    // ignore
+  }
+
+  // Fallback: attempt to load full locale index and return namespace if present
+  try {
+    const full = await loadLocale(locale);
+    if (full && typeof full === 'object' && (full as any)[namespace]) {
+      try {
+        (localesCache[locale] as any)[namespace] = (full as any)[namespace];
+      } catch (_) { }
+      return (full as any)[namespace];
+    }
+  } catch (e) {
+    // ignore
+  }
+
+  return {};
 }
 
 // Fetch locale data with fallback strategy: local -> default
@@ -111,7 +180,7 @@ async function fetchLocaleData(locale: string) {
     const url = `/locales/${locale}/index.json`;
     // console.log(`[i18n] Fetching locale ${locale} from ${url}`);
     const response = await fetch(url);
-    
+
     if (response.ok) {
       const obj = await response.json();
       // console.log(`[i18n] ✓ Loaded locale ${locale} (${Object.keys(obj).length} keys)`);
@@ -144,13 +213,13 @@ async function fetchLocaleData(locale: string) {
   } catch (e) {
     // ignore remote fallback errors
   }
-  
+
   // Fallback: return default locale or empty object
   if (locale !== DEFAULT_LOCALE && localesCache[DEFAULT_LOCALE]) {
     // console.warn(`[i18n] Falling back to default locale for ${locale}`);
     return localesCache[DEFAULT_LOCALE];
   }
-  
+
   // console.error(`[i18n] Failed to load locale ${locale}, returning empty object`);
   return {};
 }
@@ -169,7 +238,7 @@ export function t(key: string, locale = DEFAULT_LOCALE): any {
     }
     return key;
   }
-  
+
   for (const k of keys) {
     if (!cur) {
       // Attempt fallback to default locale before warning
@@ -243,11 +312,11 @@ export function getMeta(metaKey: string, params?: Record<string, string>, locale
     const metaKeys = ['title', 'description', 'keywords', 'ogImage', 'url', 'canonical'];
     return keys.some(k => metaKeys.includes(k));
   };
-  
+
   // On server side, load locale data synchronously if needed
   if (typeof window === 'undefined') {
     const localeData = getLocaleObject(locale) as any;
-    
+
     if (localeData && typeof localeData === 'object') {
       // Try to find meta data in the locale object
       // Check if metaKey exists as a top-level key with meta property
@@ -257,14 +326,14 @@ export function getMeta(metaKey: string, params?: Record<string, string>, locale
           return interpolateObject(meta, params) as Record<string, unknown>;
         }
       }
-      
+
       // Try with underscore variations
       const candidates = [
         metaKey,
         metaKey.replace(/-/g, "_"),
         metaKey.replace(/_/g, ""),
       ];
-      
+
       for (const candidate of candidates) {
         if (localeData[candidate]?.meta) {
           const meta = localeData[candidate].meta;
@@ -312,9 +381,9 @@ export function detectLocale(searchParams?: unknown) {
       // defensive: ignore and fall through
     }
   }
-      // If running on the server and no `lang` found in `searchParams`,
-      // return undefined so callers can fall back to header-based detection.
-      if (typeof window === 'undefined') return undefined;
+  // If running on the server and no `lang` found in `searchParams`,
+  // return undefined so callers can fall back to header-based detection.
+  if (typeof window === 'undefined') return undefined;
   // Check persisted storage (client-side only) via storage abstraction
   if (typeof window !== "undefined") {
     try {

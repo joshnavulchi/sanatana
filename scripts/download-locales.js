@@ -428,16 +428,24 @@ async function downloadLocales({ force = false } = {}) {
     const missing = [];
 
     for (const d of dirs) {
-      const idx = path.join(LOCAL_LOCALES_DIR, d, 'index.json');
-      if (fs.existsSync(idx)) {
-        try {
-          const st = fs.statSync(idx);
-          if (st.size > 10) ok.push(d);
-          else missing.push(d);
-        } catch (_) {
+      try {
+        const localeDir = path.join(LOCAL_LOCALES_DIR, d);
+        const jsonFiles = fs.readdirSync(localeDir).filter(f => f.endsWith('.json') && f !== path.basename(META_FILE));
+        if (jsonFiles.length === 0) {
           missing.push(d);
+          continue;
         }
-      } else {
+        const anyLarge = jsonFiles.some((fn) => {
+          try {
+            const st = fs.statSync(path.join(localeDir, fn));
+            return st.size > 10;
+          } catch (_) {
+            return false;
+          }
+        });
+        if (anyLarge) ok.push(d);
+        else missing.push(d);
+      } catch (_) {
         missing.push(d);
       }
     }
@@ -477,8 +485,14 @@ if (require.main === module) {
   // Check if locales already exist with metadata - if so, only download changed files
   const existingLocales = fs.existsSync(LOCAL_LOCALES_DIR) &&
     fs.readdirSync(LOCAL_LOCALES_DIR).filter(d => {
-      const indexPath = path.join(LOCAL_LOCALES_DIR, d, 'index.json');
-      return fs.existsSync(indexPath);
+      try {
+        const p = path.join(LOCAL_LOCALES_DIR, d);
+        if (!fs.statSync(p).isDirectory()) return false;
+        const files = fs.readdirSync(p).filter(f => f.endsWith('.json') && f !== path.basename(META_FILE));
+        return files.length > 0;
+      } catch (_) {
+        return false;
+      }
     });
 
   const hasValidMeta = fs.existsSync(META_FILE);
