@@ -7,7 +7,7 @@
     "predev": "node scripts/download-locales.js --skip-if-meta",
     "dev": "next dev",
     "prebuild": "node scripts/download-locales.js --skip-if-meta && npm run scss:build && npm run generate:critical:home",
-    "build:geo": "ts-node utils/geojson-to-svg.ts",
+    "build:geo": "tsx utils/geojson-to-svg.ts",
     "build": "npm run build:geo && node --max-old-space-size=8192 ./node_modules/next/dist/bin/next build",
     "postbuild": "node scripts/strip-comments.js && node scripts/generate-sitemap.js && npm run build:geo",
     "strip:comments": "node scripts/strip-comments.js",
