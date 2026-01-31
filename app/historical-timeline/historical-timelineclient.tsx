@@ -4,7 +4,7 @@ import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
 import { loadLocale, getLocaleObject } from 'lib/i18n';
 import { useT } from '../hooks/useT';
-import { parseSections, parseMaybeObject } from 'lib/parseContent';
+import { parseMaybeObject } from 'lib/parseContent';
 import Loader from '@/app/components/loader/loader';
 import TextToSpeech from '../components/text-to-speech/TextToSpeech';
 import FaqAccordion from '@/app/components/faqaccordion/faqaccordion';
@@ -82,12 +82,33 @@ export default function HistoricalTimeline() {
 
   const [timeline, setTimeline] = useState<TimelineState>(getInitialTimeline);
 
+  // Small subcomponent to render regional rulers to avoid repetition
+  const Region = ({ title, data }: { title: string; data?: RegionData }) => {
+    if (!data || !data.rulers || data.rulers.length === 0) return null;
+    return (
+      <div className="mb-6">
+        <h4>{title}</h4>
+        {data.description && <p className="mb-4">{data.description}</p>}
+        <div className="space-y-3">
+          {data.rulers.map((ruler: Ruler, i: number) => (
+            <div key={i} className="p-4 border rounded">
+              <h5>{ruler.name}</h5>
+              {ruler.dynasty && <p className="text-sm"><strong>Dynasty:</strong> {ruler.dynasty}</p>}
+              <p className="text-sm"><strong>Reign:</strong> {ruler.reign}</p>
+              {ruler.notes && <p className="text-sm italic">{ruler.notes}</p>}
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  };
+
   useEffect(() => {
     let mounted = true;
     (async () => {
       try {
-        await loadLocale(locale).catch(() => {});
-      } catch (e) {}
+        await loadLocale(locale).catch(() => { });
+      } catch (e) { }
       if (!mounted) return;
 
       const title = t('historical_timeline.title') || '';
@@ -396,107 +417,17 @@ export default function HistoricalTimeline() {
           (timeline.egypt?.rulers && timeline.egypt.rulers.length > 0) ||
           (timeline.china?.rulers && timeline.china.rulers.length > 0) ||
           (timeline.greece?.rulers && timeline.greece.rulers.length > 0)) && (
-          <section className="mb-8">
-            <h3>Historical Rulers by Region</h3>
+            <section className="mb-8">
+              <h3>Historical Rulers by Region</h3>
 
-          {timeline.india && timeline.india.rulers && timeline.india.rulers.length > 0 && (
-            <div className="mb-6">
-              <h4>India</h4>
-              <p className="mb-4">{timeline.india.description}</p>
-              <div className="space-y-3">
-                {timeline.india.rulers.map((ruler: Ruler, i: number) => (
-                  <div key={i} className="p-4 border rounded">
-                    <h5>{ruler.name}</h5>
-                    {ruler.dynasty && <p className="text-sm"><strong>Dynasty:</strong> {ruler.dynasty}</p>}
-                    <p className="text-sm"><strong>Reign:</strong> {ruler.reign}</p>
-                    {ruler.notes && <p className="text-sm italic">{ruler.notes}</p>}
-                  </div>
-                ))}
-              </div>
-            </div>
+              <Region title="India" data={timeline.india} />
+              <Region title="Persia" data={timeline.persia} />
+              <Region title="Rome" data={timeline.rome} />
+              <Region title="Egypt" data={timeline.egypt} />
+              <Region title="China" data={timeline.china} />
+              <Region title="Greece" data={timeline.greece} />
+            </section>
           )}
-
-          {timeline.persia && timeline.persia.rulers && timeline.persia.rulers.length > 0 && (
-            <div className="mb-6">
-              <h4>Persia</h4>
-              <p className="mb-4">{timeline.persia.description}</p>
-              <div className="space-y-3">
-                {timeline.persia.rulers.map((ruler: Ruler, i: number) => (
-                  <div key={i} className="p-4 border rounded">
-                    <h5>{ruler.name}</h5>
-                    <p className="text-sm"><strong>Reign:</strong> {ruler.reign}</p>
-                    {ruler.notes && <p className="text-sm italic">{ruler.notes}</p>}
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {timeline.rome && timeline.rome.rulers && timeline.rome.rulers.length > 0 && (
-            <div className="mb-6">
-              <h4>Rome</h4>
-              <p className="mb-4">{timeline.rome.description}</p>
-              <div className="space-y-3">
-                {timeline.rome.rulers.map((ruler: Ruler, i: number) => (
-                  <div key={i} className="p-4 border rounded">
-                    <h5>{ruler.name}</h5>
-                    <p className="text-sm"><strong>Reign:</strong> {ruler.reign}</p>
-                    {ruler.notes && <p className="text-sm italic">{ruler.notes}</p>}
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {timeline.egypt && timeline.egypt.rulers && timeline.egypt.rulers.length > 0 && (
-            <div className="mb-6">
-              <h4>Egypt</h4>
-              <p className="mb-4">{timeline.egypt.description}</p>
-              <div className="space-y-3">
-                {timeline.egypt.rulers.map((ruler: Ruler, i: number) => (
-                  <div key={i} className="p-4 border rounded">
-                    <h5>{ruler.name}</h5>
-                    <p className="text-sm"><strong>Reign:</strong> {ruler.reign}</p>
-                    {ruler.notes && <p className="text-sm italic">{ruler.notes}</p>}
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {timeline.china && timeline.china.rulers && timeline.china.rulers.length > 0 && (
-            <div className="mb-6">
-              <h4>China</h4>
-              <p className="mb-4">{timeline.china.description}</p>
-              <div className="space-y-3">
-                {timeline.china.rulers.map((ruler: Ruler, i: number) => (
-                  <div key={i} className="p-4 border rounded">
-                    <h5>{ruler.name}</h5>
-                    <p className="text-sm"><strong>Reign:</strong> {ruler.reign}</p>
-                    {ruler.notes && <p className="text-sm italic">{ruler.notes}</p>}
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {timeline.greece && timeline.greece.rulers && timeline.greece.rulers.length > 0 && (
-            <div className="mb-6">
-              <h4>Greece</h4>
-              <p className="mb-4">{timeline.greece.description}</p>
-              <div className="space-y-3">
-                {timeline.greece.rulers.map((ruler: Ruler, i: number) => (
-                  <div key={i} className="p-4 border rounded">
-                    <h4 className="h5">{ruler.name}</h4>
-                    <p className="text-sm"><strong>Reign:</strong> {ruler.reign}</p>
-                    {ruler.notes && <p className="text-sm italic">{ruler.notes}</p>}
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-        </section>
-        )}
 
         {/* FAQ Section */}
         {timeline.faq && timeline.faq.qa && timeline.faq.qa.length > 0 && (
