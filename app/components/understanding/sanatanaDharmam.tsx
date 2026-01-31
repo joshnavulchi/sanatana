@@ -1,6 +1,6 @@
 "use client";
 import { useT } from '../../hooks/useT';
-import { JSX, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { getLocaleObject, loadLocaleNamespace } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
 import { parseList } from 'lib/parseList';
@@ -43,11 +43,9 @@ export default function UnderstandingOfSanatana() {
   return (
     <div className={`${styles.understanding} content-wrapper`}>
       {sections.map((section: any, index: number) => {
-        const level = Math.min(index + 2, 6);
-        const Tag = `h${level}` as keyof JSX.IntrinsicElements
         return (<div key={section.id} className={`${styles.sections} text-center`}>
           <div className={`mx-auto max-w-5xl`}>
-            <Tag className={`h3 ${!section?.nodecaration ? styles.borderbottom : ''}`}>{section.title}</Tag>
+            <h3 className={`${!section?.nodecaration ? styles.borderbottom : ''}`}>{section.title}</h3>
             <p>{section.content}</p>
             {section?.src && <LazyImage src={section.src} alt={section.title} width={320} height={320} className="object-cover flex justify-center" />}
           </div>

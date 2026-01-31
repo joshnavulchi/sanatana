@@ -4,7 +4,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { useT } from '../../hooks/useT';
 import { usePathname } from 'next/navigation';
-import { getLocaleObject, loadLocale, DEFAULT_LOCALE } from '../../../lib/i18n';
+import { getLocaleObject, loadLocaleNamespace, DEFAULT_LOCALE } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
@@ -18,10 +18,12 @@ const LanguageDropdown = dynamic(() => import("../language-dropdown/language-dro
 import styles from './header.module.scss';
 
 export default function Header() {
+  const { locale } = useLocale();
+  const t = useT();
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
   const defaultObj = (getLocaleObject(DEFAULT_LOCALE) as any) || {};
-  const defaultSiteTitle = (defaultObj?.sharable_strings?.siteTitle && (defaultObj.siteTitle?.siteTitle || defaultObj.siteTitle)) || (defaultObj?.sharable_strings?.sitetitle);
+  const defaultSiteTitle = (defaultObj?.sharable_strings?.sitetitle) || 'Sanātana Dharma';
   const defaultHeader = (defaultObj?.sharable_strings?.header as any) || {};
   const defaultBanner = (defaultObj && (defaultObj?.sharable_strings?.bannerNotifications ?? defaultObj?.sharable_strings?.banner ?? defaultObj?.sharable_strings?.banner_notifications)) || null;
   const defaultBanner2 = (defaultObj && (defaultObj?.sharable_strings?.bannerNotifications2 ?? defaultObj?.sharable_strings?.banner2 ?? defaultObj?.sharable_strings?.banner_notifications2)) || null;
@@ -94,28 +96,32 @@ export default function Header() {
     );
   }
 
-  const { locale } = useLocale();
-  const t = useT();
-
+  // Initialize translations from runtime cache when available; otherwise
+  // load the `sharable_strings` namespace for this locale once and update state.
   useEffect(() => {
-    let mounted = true;
-    (async () => {
-      try {
-        await loadLocale(locale);
-        if (!mounted) return;
-        const locObj = (getLocaleObject(locale) as any) || {}; // entire locale files getting
-        const siteTitle = (locObj?.sharable_strings?.sitetitle) || 'Sanātana Dharma';
-        const header = (locObj?.sharable_strings?.header as any) || {};
-        // Support multiple key styles in locale files: snake_case (banner_notifications)
-        // and camelCase (bannerNotifications). Prefer explicit banner keys when present.
-        const banner = (locObj && (locObj?.sharable_strings?.bannerNotifications ?? locObj?.sharable_strings?.banner ?? locObj?.sharable_strings?.banner_notifications)) || null;
-        const banner2 = (locObj && (locObj?.sharable_strings?.bannerNotifications2 ?? locObj?.sharable_strings?.banner2 ?? locObj?.sharable_strings?.banner_notifications2)) || null;
+    const obj = getLocaleObject(locale) as any;
+    if (obj && obj.sharable_strings) {
+      const siteTitle = obj.sharable_strings?.sitetitle || defaultSiteTitle;
+      const header = obj.sharable_strings?.header || defaultHeader;
+      const banner = (obj.sharable_strings?.bannerNotifications ?? obj.sharable_strings?.banner ?? obj.sharable_strings?.banner_notifications) || defaultBanner;
+      const banner2 = (obj.sharable_strings?.bannerNotifications2 ?? obj.sharable_strings?.banner2 ?? obj.sharable_strings?.banner_notifications2) || defaultBanner2;
+      setTranslations({ siteTitle, header, banner, banner2 });
+      return;
+    }
+
+    let cancelled = false;
+    loadLocaleNamespace(locale, 'sharable_strings').then((ns: any) => {
+      if (cancelled) return;
+      const payload = ns?.sharable_strings ? ns.sharable_strings : ns;
+      if (payload) {
+        const siteTitle = payload?.sitetitle || defaultSiteTitle;
+        const header = payload?.header || defaultHeader;
+        const banner = (payload?.bannerNotifications ?? payload?.banner ?? payload?.banner_notifications) || defaultBanner;
+        const banner2 = (payload?.bannerNotifications2 ?? payload?.banner2 ?? payload?.banner_notifications2) || defaultBanner2;
         setTranslations({ siteTitle, header, banner, banner2 });
-      } catch (e) {
-        // fallback to English (already in state)
       }
-    })();
-    return () => { mounted = false; };
+    }).catch(() => { }).finally(() => { });
+    return () => { cancelled = true; };
   }, [locale]);
 
   const normalize = (p?: string) => {
@@ -331,12 +337,12 @@ export default function Header() {
             {/* <ThemeToggle /> */}
           </nav>
 
-          <div role="menu" className="flex items-center justify-center md:hidden">
+            <div role="menu" className="flex items-center justify-center md:hidden">
             <LanguageDropdown />
             <button
               role="menuitem"
-              aria-expanded={open}
-              aria-label={open ? (t('nav.closeMenu') || 'Close menu') : (t('nav.openMenu') || 'Open menu')}
+                aria-expanded={open}
+                aria-label={open ? (t('sharable_strings.closeMenu') || 'Close menu') : (t('sharable_strings.openMenu') || 'Open menu')}
               onClick={() => setOpen((s) => !s)}
               className="inline-flex items-center justify-center rounded"
             >
