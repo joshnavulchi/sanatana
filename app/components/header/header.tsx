@@ -2,6 +2,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from 'react';
+import useLocaleSection from '../../hooks/useLocaleSection';
 import { useT } from '../../hooks/useT';
 import { usePathname } from 'next/navigation';
 import { getLocaleObject, loadLocaleNamespace, DEFAULT_LOCALE } from '../../../lib/i18n';
@@ -96,33 +97,18 @@ export default function Header() {
     );
   }
 
-  // Initialize translations from runtime cache when available; otherwise
-  // load the `sharable_strings` namespace for this locale once and update state.
+  // Use centralized hook to read `sharable_strings` section (synchronous if cached,
+  // otherwise will fetch and update state). Keeps pattern consistent with footer.
+  const sharable = useLocaleSection('sharable_strings');
   useEffect(() => {
-    const obj = getLocaleObject(locale) as any;
-    if (obj && obj.sharable_strings) {
-      const siteTitle = obj.sharable_strings?.sitetitle || defaultSiteTitle;
-      const header = obj.sharable_strings?.header || defaultHeader;
-      const banner = (obj.sharable_strings?.bannerNotifications ?? obj.sharable_strings?.banner ?? obj.sharable_strings?.banner_notifications) || defaultBanner;
-      const banner2 = (obj.sharable_strings?.bannerNotifications2 ?? obj.sharable_strings?.banner2 ?? obj.sharable_strings?.banner_notifications2) || defaultBanner2;
+    if (sharable && Object.keys(sharable).length > 0) {
+      const siteTitle = sharable?.sitetitle || defaultSiteTitle;
+      const header = sharable?.header || defaultHeader;
+      const banner = (sharable?.bannerNotifications ?? sharable?.banner ?? sharable?.banner_notifications) || defaultBanner;
+      const banner2 = (sharable?.bannerNotifications2 ?? sharable?.banner2 ?? sharable?.banner_notifications2) || defaultBanner2;
       setTranslations({ siteTitle, header, banner, banner2 });
-      return;
     }
-
-    let cancelled = false;
-    loadLocaleNamespace(locale, 'sharable_strings').then((ns: any) => {
-      if (cancelled) return;
-      const payload = ns?.sharable_strings ? ns.sharable_strings : ns;
-      if (payload) {
-        const siteTitle = payload?.sitetitle || defaultSiteTitle;
-        const header = payload?.header || defaultHeader;
-        const banner = (payload?.bannerNotifications ?? payload?.banner ?? payload?.banner_notifications) || defaultBanner;
-        const banner2 = (payload?.bannerNotifications2 ?? payload?.banner2 ?? payload?.banner_notifications2) || defaultBanner2;
-        setTranslations({ siteTitle, header, banner, banner2 });
-      }
-    }).catch(() => { }).finally(() => { });
-    return () => { cancelled = true; };
-  }, [locale]);
+  }, [sharable]);
 
   const normalize = (p?: string) => {
     if (!p) return "/";

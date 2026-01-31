@@ -3,12 +3,12 @@
 
 import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
-import { useT } from '../../hooks/useT';
+import useLocaleSection from '../../hooks/useLocaleSection';
 
 export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
   const pathname = usePathname();
-  const t = useT();
+  const locale = useLocaleSection('sharable_strings');
 
   // Show button when page is scrolled down
   const toggleVisibility = () => {
@@ -43,8 +43,8 @@ export default function ScrollToTop() {
         <button
           onClick={scrollToTop}
           className="bg-black/60! text-white! btn btn-outline fixed z-40 bottom-8 right-8 px-0.5! py-1! scroll-to-top no-underline transition-all duration-300 ease-in-out"
-          aria-label={t('sharable_strings.scrolltotop.arialabel')}
-          title={t('sharable_strings.scrolltotop.title')}
+          aria-label={locale?.scrolltotop?.arialabel || 'Scroll to top'}
+          title={locale?.scrolltotop?.title || 'Scroll to top'}
         >
           {/* Up Arrow SVG */}
           <svg
