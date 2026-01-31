@@ -1,12 +1,12 @@
 "use client";
 import { useEffect, useState } from 'react';
-import PageLayout from '@components/common/PageLayout';
+import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
 import { loadLocale, getLocaleObject } from 'lib/i18n';
 import { useT } from '../hooks/useT';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
-import Loader from '@components/loader/loader';
-import TextToSpeech from '@components/text-to-speech/TextToSpeech';
+import Loader from '@/app/components/loader/loader';
+import TextToSpeech from '@/app/components/text-to-speech/TextToSpeech';
 
 export default function AboutClient() {
   const { locale, isLoading } = useLocale();

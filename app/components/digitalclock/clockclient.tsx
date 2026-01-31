@@ -145,8 +145,8 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
           const dayLength = ss.getTime() - sr.getTime();
           const segment = dayLength / 8;
           const weekday = nowDate.getDay();
-          const rahuMap = [8,2,7,5,6,4,3];
-          const yamaMap = [2,3,4,5,6,7,1];
+          const rahuMap = [8, 2, 7, 5, 6, 4, 3];
+          const yamaMap = [2, 3, 4, 5, 6, 7, 1];
           const rIndex = rahuMap[weekday];
           const yIndex = yamaMap[weekday];
           const rStart = new Date(sr.getTime() + (rIndex - 1) * segment);
@@ -206,26 +206,6 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
 
   return (
     <div className={`${styles.floatingWrapper} ${styles.clock} ${visible ? styles.visible : styles.hidden}`} aria-live="polite">
-      <button
-        className={styles.toggleButton}
-        onClick={toggle}
-        aria-expanded={visible}
-        aria-controls="digital-clock-box"
-        aria-label={visible ? 'Hide clock' : 'Show clock'}
-      >
-        <small className='hidden md:inline-flex'>Today</small> 
-        <svg
-          className={`${styles.toggleIcon} ${visible ? '' : styles.rotated}`}
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          width="18"
-          height="18"
-          aria-hidden="true"
-          focusable="false"
-        >
-          <path fill="currentColor" d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z" />
-        </svg>
-      </button>
       <div id="digital-clock-box" role="status">
         {showDate && <div className={styles.date}>{dateStr}</div>}
         <div className={styles.timeRow}>
@@ -260,7 +240,7 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
             {nakshatra && <div><strong>Nakshatra:</strong> {nakshatra}</div>}
             {moonPhase && (
               <div className="flex items-center justify-content-start gap-2">
-                <div>Moon: </div> 
+                <div>Moon: </div>
                 <div role="img" aria-label={`Moon: ${moonPhase}`}>
                   {(() => {
                     // Map numeric phase (0..1) to moon phase emoji.
@@ -283,6 +263,26 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
           </div>
         )}
       </div>
+      <button
+        className={styles.toggleButton}
+        onClick={toggle}
+        aria-expanded={visible}
+        aria-controls="digital-clock-box"
+        aria-label={visible ? 'Hide clock' : 'Show clock'}
+      >
+        <small className='hidden md:inline-flex'>Today</small>
+        <svg
+          className={`${styles.toggleIcon} ${visible ? '' : styles.rotated}`}
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="18"
+          height="18"
+          aria-hidden="true"
+          focusable="false"
+        >
+          <path fill="currentColor" d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z" />
+        </svg>
+      </button>
     </div>
   );
 }

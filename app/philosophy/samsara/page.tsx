@@ -1,6 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
-import PageLayout from '@components/common/PageLayout';
+import PageLayout from '@/app/components/common/PageLayout';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
 export const generateMetadata = createGenerateMetadata('philosophy_samsara');
 

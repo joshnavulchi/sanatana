@@ -1,18 +1,18 @@
 "use client";
 import React, { useEffect, useState } from 'react';
-import PageLayout from '@components/common/PageLayout';
+import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
 import { loadLocale, getLocaleObject } from 'lib/i18n';
 import { useT } from '../hooks/useT';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
-import Loader from '@components/loader/loader';
+import Loader from '@/app/components/loader/loader';
 import TextToSpeech from '../components/text-to-speech/TextToSpeech';
 
 export default function PrivacyPolicy() {
   const { locale, isLoading } = useLocale();
   const t = useT();
   type PrivacyState = { title: string; lastupdated: string;[key: string]: any };
-  
+
   // Initialize with current data to prevent empty renders on refresh
   const getInitialPrivacy = (): PrivacyState => {
     try {
@@ -26,7 +26,7 @@ export default function PrivacyPolicy() {
       const keys = ['intro', 'informationwecollect', 'howweuse', 'cookieslocalstorage', 'thirdparty', 'security', 'rights', 'children', 'changes', 'contact'];
       const data: Record<string, any> = {};
       keys.forEach((k) => { data[k] = parseMaybeObject(privacy_policy[k] || ''); });
-      
+
       if (data.intro && typeof data.intro === 'object') data.intro = { title: data.intro.title, text: data.intro.text };
       if (data.informationwecollect && typeof data.informationwecollect === 'object') {
         const iw = data.informationwecollect;
@@ -58,7 +58,7 @@ export default function PrivacyPolicy() {
       return { title: '', lastupdated: '', intro: {} as any, informationwecollect: {} as any, howweuse: {} as any, cookieslocalstorage: {} as any, thirdparty: {} as any, security: {} as any, rights: {} as any, children: {} as any, changes: {} as any, contact: {} as any };
     }
   };
-  
+
   const [privacy, setPrivacy] = useState<PrivacyState>(getInitialPrivacy);
 
   useEffect(() => {
@@ -138,10 +138,12 @@ export default function PrivacyPolicy() {
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Privacy policy' }]}
       className={`layout-sm`}
     >
-      {/* Text-to-Speech Player */}
-      <TextToSpeech sectionId="privacy-content" className="floating" />
       <div id="privacy-content">
-        <p><strong>{privacy.lastupdated}</strong></p>
+        <p className="flex items-center justify-between">
+          <strong>{privacy.lastupdated}</strong>
+          {/* Text-to-Speech Player */}
+          <TextToSpeech sectionId="privacy-content" />
+        </p>
         <section>
           <h2 className="h4">{privacy.intro.title}</h2>
           <p>{privacy.intro.text}</p>

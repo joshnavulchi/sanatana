@@ -1,7 +1,7 @@
 import { t, getMeta } from '../../lib/i18n';
 
 import Link from 'next/link';
-import PageLayout from '@components/common/PageLayout';
+import PageLayout from '@/app/components/common/PageLayout';
 import { PATHS } from '../../lib/sitemapPaths';
 import { SUPPORTED_LOCALES } from '../../lib/i18n';
 import { secrets } from '../../lib/secrets';

@@ -2,7 +2,7 @@
 import { detectLocale, t, getMeta } from '../../../lib/i18n';
 import { createGenerateMetadata } from 'lib/pageUtils';
 import { parseList } from 'lib/parseList';
-import PageLayout from '@components/common/PageLayout';
+import PageLayout from '@/app/components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('shiva_stotrasmantras');
 
 export default async function Page() {

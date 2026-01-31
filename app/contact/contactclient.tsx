@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from 'react';
-import PageLayout from '@components/common/PageLayout';
+import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
 import { useT } from '../hooks/useT';
 import { parseMaybeObject } from 'lib/parseContent';
@@ -8,7 +8,7 @@ import { parseList } from 'lib/parseList';
 import { getLocaleObject } from 'lib/i18n';
 import FaqAccordion from '../components/faqaccordion/faqaccordion';
 import ContactForm from '../components/contact/ContactForm';
-import Loader from '@components/loader/loader';
+import Loader from '@/app/components/loader/loader';
 
 import styles from './page.module.scss';
 

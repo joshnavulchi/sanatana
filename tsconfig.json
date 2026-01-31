@@ -25,6 +25,7 @@
       }
     ],
     "baseUrl": ".",
+    "typeRoots": ["./types", "./node_modules/@types"],
     "paths": {
       "@/*": [
         "./*"
@@ -33,6 +34,10 @@
         "app/components/*"
       ]
     }
+  },
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
   },
   "include": [
     "next-env.d.ts",
