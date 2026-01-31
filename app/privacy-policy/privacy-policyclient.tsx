@@ -3,14 +3,14 @@ import React, { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
 import { loadLocale, getLocaleObject } from 'lib/i18n';
-import { useT } from '../hooks/useT';
+import useLocaleSection from '../hooks/useLocaleSection';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
 import Loader from '@/app/components/loader/loader';
 import TextToSpeech from '../components/text-to-speech/TextToSpeech';
 
 export default function PrivacyPolicy() {
   const { locale, isLoading } = useLocale();
-  const t = useT();
+  const ns = useLocaleSection('privacy_policy');
   type PrivacyState = { title: string; lastupdated: string;[key: string]: any };
 
   // Initialize with current data to prevent empty renders on refresh
@@ -69,12 +69,12 @@ export default function PrivacyPolicy() {
       } catch (e) { }
       if (!mounted) return;
 
-      const title = t('privacy_policy.title') || '';
-      const lastupdated = t('privacy_policy.lastupdated') || '';
+      const title = ns?.title || '';
+      const lastupdated = ns?.lastupdated || '';
 
       const keys = ['intro', 'informationwecollect', 'howweuse', 'cookieslocalstorage', 'thirdparty', 'security', 'rights', 'children', 'changes', 'contact'];
       const data: Record<string, any> = {};
-      keys.forEach((k) => { data[k] = parseMaybeObject(t(`privacy_policy.${k}`)); });
+      keys.forEach((k) => { data[k] = parseMaybeObject(ns ? ns[k] : ''); });
 
       // specific normalizations
       if (data.intro && typeof data.intro === 'object') data.intro = { title: data.intro.title, text: data.intro.text };

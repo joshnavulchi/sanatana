@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '@/app/context/locale-context';
 import { loadLocale, getLocaleObject } from 'lib/i18n';
-import { useT } from '../../hooks/useT';
+import useLocaleSection from '../../hooks/useLocaleSection';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
 import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
 
@@ -61,7 +61,7 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
 };
 export default function KrishnaExplainsFiveKarmasClient() {
   const { locale, isLoading } = useLocale();
-  const t = useT();
+  const ns = useLocaleSection('philosophy_karma');
   // Initialize with current data to prevent empty renders on refresh
   const getInitialKarma = () => {
     try {
@@ -87,8 +87,8 @@ export default function KrishnaExplainsFiveKarmasClient() {
         await loadLocale(locale).catch(() => { });
       } catch (e) { }
       if (!mounted) return;
-      const title = String(t('philosophy_karma.title') || '');
-      const rawStory = t('philosophy_karma.story');
+      const title = String(ns?.title || '');
+      const rawStory = ns?.story;
       const story = Array.isArray(rawStory)
         ? (rawStory as string[])
         : (rawStory ? String(rawStory).split(/\r?\n/).filter(Boolean) : []);
@@ -97,8 +97,8 @@ export default function KrishnaExplainsFiveKarmasClient() {
     return () => { mounted = false; };
   }, [locale]);
   // Compute render-time title/story from translations first, falling back to state
-  const renderTitle = String(t('philosophy_karma.title') || karma.title || '');
-  const rawStoryFromT = t('philosophy_karma.story');
+  const renderTitle = String(ns?.title || karma.title || '');
+  const rawStoryFromT = ns?.story;
   const renderStory = Array.isArray(rawStoryFromT)
     ? (rawStoryFromT as string[])
     : rawStoryFromT
@@ -117,7 +117,7 @@ export default function KrishnaExplainsFiveKarmasClient() {
       <div id="philosophy-karma-content">
         {/* Render script paragraphs (para1, para2, ...) then conversation (alternating chat bubbles). */}
         {(() => {
-          const script = parseMaybeObject(t('philosophy_karma.script')) || {};
+          const script = parseMaybeObject(ns ? ns.script : '') || {};
           // If `story` exists from translations or state, render it first.
           if (renderStory && renderStory.length > 0) {
             return <Paragraphs lines={renderStory} />;

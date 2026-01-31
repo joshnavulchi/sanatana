@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { useT } from '../../hooks/useT';
+// removed useT usage; translations read directly from runtime locale object
 import { getLocaleObject, loadLocale } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
 
@@ -21,7 +21,6 @@ export default function SimilarCategories({
   excludeCurrent = true
 }: SimilarCategoriesProps) {
   const { locale } = useLocale();
-  const t = useT();
   const [categories, setCategories] = useState<Array<{ key: string; title: string; links: Array<{ key: string; label: string; href: string }> }>>([]);
   useEffect(() => {
     let mounted = true;

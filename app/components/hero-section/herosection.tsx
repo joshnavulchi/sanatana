@@ -1,5 +1,4 @@
 'use client';
-import { useT } from '../../hooks/useT';
 import { useEffect, useState } from 'react';
 import { getLocaleObject, loadLocaleNamespace } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
@@ -15,7 +14,6 @@ interface HeroSectionProps {
 
 export default function HeroSection({ isLoading = false }: HeroSectionProps) {
 
-  const t = useT();
   const { locale } = useLocale();
 
   const localeObj = getLocaleObject(locale) as any;

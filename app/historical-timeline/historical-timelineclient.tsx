@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
 import { loadLocale, getLocaleObject } from 'lib/i18n';
-import { useT } from '../hooks/useT';
+import useLocaleSection from '../hooks/useLocaleSection';
 import { parseMaybeObject } from 'lib/parseContent';
 import Loader from '@/app/components/loader/loader';
 import TextToSpeech from '../components/text-to-speech/TextToSpeech';
@@ -51,7 +51,7 @@ interface TimelineState {
 
 export default function HistoricalTimeline() {
   const { locale, isLoading } = useLocale();
-  const t = useT();
+  const ns = useLocaleSection('historical_timeline');
 
   // Initialize with current data to prevent empty renders on refresh
   const getInitialTimeline = (): TimelineState => {
@@ -111,18 +111,18 @@ export default function HistoricalTimeline() {
       } catch (e) { }
       if (!mounted) return;
 
-      const title = t('historical_timeline.title') || '';
-      const description = t('historical_timeline.description') || '';
-      const intro = parseMaybeObject(t('historical_timeline.content.intro'));
-      const sections = t('historical_timeline.content.sections') || [];
-      const india = parseMaybeObject(t('historical_timeline.india')) || {};
-      const persia = parseMaybeObject(t('historical_timeline.persia')) || {};
-      const rome = parseMaybeObject(t('historical_timeline.rome')) || {};
-      const egypt = parseMaybeObject(t('historical_timeline.egypt')) || {};
-      const china = parseMaybeObject(t('historical_timeline.china')) || {};
-      const greece = parseMaybeObject(t('historical_timeline.greece')) || {};
-      const faq = parseMaybeObject(t('historical_timeline.faq')) || {};
-      const diagrams = parseMaybeObject(t('historical_timeline.diagrams')) || {};
+      const title = ns?.title || '';
+      const description = ns?.description || '';
+      const intro = parseMaybeObject(ns ? ns.content?.intro : '') || {};
+      const sections = ns?.content?.sections || [];
+      const india = parseMaybeObject(ns ? ns.india : '') || {};
+      const persia = parseMaybeObject(ns ? ns.persia : '') || {};
+      const rome = parseMaybeObject(ns ? ns.rome : '') || {};
+      const egypt = parseMaybeObject(ns ? ns.egypt : '') || {};
+      const china = parseMaybeObject(ns ? ns.china : '') || {};
+      const greece = parseMaybeObject(ns ? ns.greece : '') || {};
+      const faq = parseMaybeObject(ns ? ns.faq : '') || {};
+      const diagrams = parseMaybeObject(ns ? ns.diagrams : '') || {};
 
       setTimeline({
         title,
@@ -142,7 +142,7 @@ export default function HistoricalTimeline() {
     return () => {
       mounted = false;
     };
-  }, [locale, t]);
+  }, [locale]);
 
   if (isLoading && !timeline.title) {
     return (

@@ -3,7 +3,6 @@
 
 import { useEffect, useRef, useState } from 'react';
 import useLocaleSection from '../../hooks/useLocaleSection';
-import { useT } from '../../hooks/useT';
 import { usePathname } from 'next/navigation';
 import { getLocaleObject, loadLocaleNamespace, DEFAULT_LOCALE } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
@@ -20,7 +19,6 @@ import styles from './header.module.scss';
 
 export default function Header() {
   const { locale } = useLocale();
-  const t = useT();
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
   const defaultObj = (getLocaleObject(DEFAULT_LOCALE) as any) || {};
@@ -328,7 +326,7 @@ export default function Header() {
             <button
               role="menuitem"
               aria-expanded={open}
-              aria-label={open ? (t('sharable_strings.closeMenu') || 'Close menu') : (t('sharable_strings.openMenu') || 'Open menu')}
+              aria-label={open ? (sharable?.closeMenu || 'Close menu') : (sharable?.openMenu || 'Open menu')}
               onClick={() => setOpen((s) => !s)}
               className="inline-flex items-center justify-center rounded"
             >

@@ -5,14 +5,12 @@ import { useEffect, useState } from 'react';
 import { getLocaleObject, loadLocaleNamespace } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
 import { parseList } from 'lib/parseList';
-import { useT } from '../../hooks/useT';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import LazyImage from '../lazy-image/LazyImage';
 import styles from './footer.module.scss';
 
 export default function Footer() {
-  const t = useT();
   const { locale } = useLocale();
   const pathname = usePathname();
 

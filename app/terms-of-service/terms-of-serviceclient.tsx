@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
 import { loadLocale, getLocaleObject } from 'lib/i18n';
-import { useT } from '../hooks/useT';
+import useLocaleSection from '../hooks/useLocaleSection';
 import Loader from '@/app/components/loader/loader';
 
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
@@ -13,7 +13,7 @@ type PartialPage = Record<string, any>;
 
 export default function TermsOfService() {
   const { locale, isLoading } = useLocale();
-  const t = useT();
+  const ns = useLocaleSection('terms_of_service');
 
   // Initialize with current data to prevent empty renders on refresh
   const getInitialPage = (): PartialPage => {
@@ -69,8 +69,8 @@ export default function TermsOfService() {
       } catch (e) { }
       if (!mounted) return;
 
-      const title = t('terms_of_service.title') || '';
-      const lastupdated = t('terms_of_service.lastupdated') || '';
+      const title = ns?.title || '';
+      const lastupdated = ns?.lastupdated || '';
 
       const keys = [
         'intro', 'acceptancetitle', 'uselicensetitle', 'uselicensetext', 'uselicenselist',
@@ -85,7 +85,7 @@ export default function TermsOfService() {
 
       const data: PartialPage = {};
       keys.forEach((k) => {
-        data[k] = parseMaybeObject(t(`terms_of_service.${k}`));
+        data[k] = parseMaybeObject(ns ? ns[k] : '');
       });
 
       // ensure known list fields become arrays when strings

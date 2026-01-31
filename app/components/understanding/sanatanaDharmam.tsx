@@ -1,5 +1,4 @@
 "use client";
-import { useT } from '../../hooks/useT';
 import { useEffect, useState } from 'react';
 import { getLocaleObject, loadLocaleNamespace } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
@@ -9,13 +8,12 @@ import LazyImage from '../lazy-image/LazyImage';
 import styles from './sanatanadharmam.module.scss';
 
 export default function UnderstandingOfSanatana() {
-  const t = useT();
   const { locale } = useLocale();
 
   const localeObj = getLocaleObject(locale) as any;
   const initialSections = (localeObj && localeObj.home && Array.isArray(localeObj.home.sections))
     ? localeObj.home.sections
-    : parseList(t("home.sections"));
+    : [];
 
   const [sections, setSections] = useState<any[]>(initialSections);
 

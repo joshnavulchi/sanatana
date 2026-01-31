@@ -3,15 +3,15 @@ import { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
 import { loadLocale, getLocaleObject } from 'lib/i18n';
-import { useT } from '../hooks/useT';
+import useLocaleSection from '../hooks/useLocaleSection';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
 import Loader from '@/app/components/loader/loader';
 import TextToSpeech from '@/app/components/text-to-speech/TextToSpeech';
 
 export default function AboutClient() {
   const { locale, isLoading } = useLocale();
-  const t = useT();
-  
+  const ns = useLocaleSection('about');
+
   // Initialize with current data to prevent empty renders on refresh
   const getInitialAbout = () => {
     try {
@@ -30,22 +30,22 @@ export default function AboutClient() {
       return { title: '', intro: '', sections: [] as any[], disclaimer: '' };
     }
   };
-  
+
   const [about, setAbout] = useState(getInitialAbout);
 
   useEffect(() => {
     let mounted = true;
     (async () => {
       try {
-        await loadLocale(locale).catch(() => {});
-      } catch (e) {}
+        await loadLocale(locale).catch(() => { });
+      } catch (e) { }
 
       if (!mounted) return;
-      const title = String(t('about.title') || '');
-      const intro = String(t('about.intro') || '');
-      const sectionsRaw = parseMaybeObject(t('about.sections'));
+      const title = String(ns?.title || '');
+      const intro = String(ns?.intro || '');
+      const sectionsRaw = parseMaybeObject(ns ? ns.sections : '');
       const sections = parseSections(sectionsRaw);
-      const disclaimer = String(t('about.disclaimer') || '');
+      const disclaimer = String(ns?.disclaimer || '');
       setAbout({ title, intro, sections, disclaimer });
     })();
     return () => { mounted = false; };
