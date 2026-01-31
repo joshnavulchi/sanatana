@@ -337,12 +337,12 @@ export default function Header() {
             {/* <ThemeToggle /> */}
           </nav>
 
-            <div role="menu" className="flex items-center justify-center md:hidden">
+          <div role="menu" className="flex items-center justify-center md:hidden">
             <LanguageDropdown />
             <button
               role="menuitem"
-                aria-expanded={open}
-                aria-label={open ? (t('sharable_strings.closeMenu') || 'Close menu') : (t('sharable_strings.openMenu') || 'Open menu')}
+              aria-expanded={open}
+              aria-label={open ? (t('sharable_strings.closeMenu') || 'Close menu') : (t('sharable_strings.openMenu') || 'Open menu')}
               onClick={() => setOpen((s) => !s)}
               className="inline-flex items-center justify-center rounded"
             >

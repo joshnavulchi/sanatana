@@ -43,8 +43,8 @@ export default function ScrollToTop() {
         <button
           onClick={scrollToTop}
           className="bg-black/60! text-white! btn btn-outline fixed z-40 bottom-8 right-8 px-0.5! py-1! scroll-to-top no-underline transition-all duration-300 ease-in-out"
-          aria-label={t('scrollToTop.ariaLabel')}
-          title={t('scrollToTop.title')}
+          aria-label={t('sharable_strings.scrolltotop.arialabel')}
+          title={t('sharable_strings.scrolltotop.title')}
         >
           {/* Up Arrow SVG */}
           <svg

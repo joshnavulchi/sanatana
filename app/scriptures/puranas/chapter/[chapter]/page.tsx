@@ -25,7 +25,7 @@ export default function Page({ params, searchParams }: { params: { chapter: stri
   const num = Number(params.chapter || 0);
   const ch = Array.isArray(chapters) ? chapters.find((c: any) => Number(c.chapter) === num) : null;
   const siteMeta = getMeta('puranas', {}, locale);
-  const title = ch ? `${siteMeta.title || t('nav.scriptures.nav.puranas', locale)} — Chapter ${ch.chapter}: ${ch.title}` : `Chapter ${num}`;
+  const title = ch ? `${siteMeta.title || t('sharable_strings.header.scriptures.nav.puranas', locale)} — Chapter ${ch.chapter}: ${ch.title}` : `Chapter ${num}`;
   const excerpt = ch && ch.summary ? ch.summary : '';
   return (
     <>

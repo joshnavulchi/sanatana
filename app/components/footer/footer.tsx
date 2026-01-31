@@ -17,9 +17,9 @@ export default function Footer() {
   const pathname = usePathname();
 
   const localeObj = getLocaleObject(locale) as any;
-  const initialFooter = (localeObj && localeObj.sharable_strings && localeObj.sharable_strings.footer)
-    ? localeObj.sharable_strings.footer
-    : parseList(t("sharable_strings.footer"));
+  const initialFooter = (localeObj && localeObj.sharable_strings)
+    ? (localeObj.sharable_strings.footer || localeObj.sharable_strings)
+    : {};
 
   const [footer, setFooter] = useState<Record<string, any>>(initialFooter || {});
 
@@ -31,14 +31,16 @@ export default function Footer() {
       return;
     }
 
-    // Otherwise load the `home` namespace once for this locale and update state.
+    // Otherwise load the `sharable_strings` namespace once for this locale and update state.
     let cancelled = false;
     loadLocaleNamespace(locale, 'sharable_strings').then((ns: any) => {
       if (cancelled) return;
-      if (ns && ns.footer) {
-        setFooter(ns.footer);
-      } else if (ns && ns.footer) {
-        setFooter(ns.footer);
+      // `ns` may be the namespace object or may wrap the namespace under a
+      // top-level `sharable_strings` key depending on how the JSON is authored.
+      const payload = (ns && ns.sharable_strings) ? ns.sharable_strings : ns;
+      if (payload) {
+        if (payload.footer) setFooter(payload.footer);
+        else setFooter(payload);
       }
     }).catch(() => { });
     return () => { cancelled = true; };
@@ -56,14 +58,14 @@ export default function Footer() {
     <footer className={`${styles.footer} gradient-background w-full`} style={{ minHeight: '400px' }}>
       <div className={`relative z-29`}>
         <section className="content-wrapper text-center">
-          <p className={`h2 font-light! text-shadow-lg/14 title`}>{footer?.title}</p>
-          <p className={`mx-auto max-w-4xl`}>{footer?.quote} {footer?.quoteSource}</p>
+          <p className={`h2 font-light! text-shadow-lg/14 title`}>{footer?.title || footer?.titleText}</p>
+          <p className={`mx-auto max-w-4xl`}>{footer?.quote || footer?.quotes} {footer?.quoteSource || footer?.quotesource}</p>
           <div className="flex items-center justify-center gap-4">
             <Link href="/contact" className={`bg-black/24! btn btn-outline no-underline`}>
-              {footer?.contactLabel}
+              {footer?.contact || footer?.contactLabel || 'Contact'}
             </Link>
             <Link href="/donate" className={`bg-black/24! btn btn-outline no-underline`}>
-              {footer?.donateLabel}
+              {footer?.donate || footer?.donateLabel || 'Donate'}
             </Link>
           </div>
         </section>
@@ -71,29 +73,56 @@ export default function Footer() {
         <div className={`${styles.navWrapper} w-full relative z-10 flex flex-col md:flex-row md:items-start md:justify-between border-t`}>
           <nav role="menu" className="md:w-full gap-4 flex flex-col  md:flex-row md:items-start">
             <div className="md:w-1/4 flex flex-col gap-2">
-              <p className="description underline">{footer?.scripturesTitle}</p>
-              {(footer?.scriptures ? Object.entries(footer.scriptures) : []).map(([key, val]) => {
-                if (typeof val !== 'string') return null;
-                const href = key === 'home' ? '/' : `/scriptures/${key}`;
+              {(() => {
+                const sec = footer?.scriptures || {};
+                const title = sec?.title || footer?.scripturesTitle || 'Scriptures';
+                const nav = sec?.nav || (typeof sec === 'object' ? (() => {
+                  // if sec contains keys that are strings, treat sec itself as nav
+                  const maybeNav: Record<string, string> = {} as any;
+                  for (const k of Object.keys(sec)) {
+                    if (k === 'title' || k === 'nav') continue;
+                    const v = (sec as any)[k];
+                    if (typeof v === 'string') maybeNav[k] = v;
+                  }
+                  return Object.keys(maybeNav).length ? maybeNav : {};
+                })() : {})
                 return (
-                  <Link key={key} href={href} className={isActive(href) ? 'active' : ''} role="menuitem">
-                    {val}
-                  </Link>
+                  <>
+                    <p className="description underline">{title}</p>
+                    {Object.entries(nav).map(([key, val]) => {
+                      if (typeof val !== 'string') return null;
+                      const href = key === 'home' ? '/' : `/scriptures/${key}`;
+                      return <Link key={key} href={href} className={isActive(href) ? 'active' : ''} role="menuitem">{val}</Link>;
+                    })}
+                  </>
                 );
-              })}
+              })()}
             </div>
 
             <div className="md:w-1/4 flex flex-col gap-2">
-              <p className="description underline">{footer?.philosophyTitle}</p>
-              {(footer?.philosophy ? Object.entries(footer.philosophy) : []).map(([key, val]) => {
-                if (typeof val !== 'string') return null;
-                const href = key === 'home' ? '/' : `/philosophy/${key}`;
+              {(() => {
+                const sec = footer?.philosophy || {};
+                const title = sec?.title || footer?.philosophyTitle || 'Philosophy';
+                const nav = sec?.nav || (typeof sec === 'object' ? (() => {
+                  const maybeNav: Record<string, string> = {} as any;
+                  for (const k of Object.keys(sec)) {
+                    if (k === 'title' || k === 'nav') continue;
+                    const v = (sec as any)[k];
+                    if (typeof v === 'string') maybeNav[k] = v;
+                  }
+                  return Object.keys(maybeNav).length ? maybeNav : {};
+                })() : {});
                 return (
-                  <Link key={key} href={href} className={isActive(href) ? 'active' : ''} role="menuitem">
-                    {val}
-                  </Link>
+                  <>
+                    <p className="description underline">{title}</p>
+                    {Object.entries(nav).map(([key, val]) => {
+                      if (typeof val !== 'string') return null;
+                      const href = key === 'home' ? '/' : `/philosophy/${key}`;
+                      return <Link key={key} href={href} className={isActive(href) ? 'active' : ''} role="menuitem">{val}</Link>;
+                    })}
+                  </>
                 );
-              })}
+              })()}
             </div>
 
             <div className="md:w-1/7 flex flex-col gap-2 hidden">
@@ -123,36 +152,62 @@ export default function Footer() {
             </div>
 
             <div className="md:w-1/4 flex flex-col gap-2">
-              <p className="description underline">{footer?.kidszoneTitle}</p>
-              {(footer?.kidszone ? Object.entries(footer.kidszone) : []).map(([key, val]) => {
-                if (typeof val !== 'string') return null;
-                const href = key === 'home' ? '/' : `/kidszone/${key}`;
+              {(() => {
+                const sec = footer?.kidszone || {};
+                const title = sec?.title || footer?.kidszoneTitle || 'Kids Zone';
+                const nav = sec?.nav || (typeof sec === 'object' ? (() => {
+                  const maybeNav: Record<string, string> = {} as any;
+                  for (const k of Object.keys(sec)) {
+                    if (k === 'title' || k === 'nav') continue;
+                    const v = (sec as any)[k];
+                    if (typeof v === 'string') maybeNav[k] = v;
+                  }
+                  return Object.keys(maybeNav).length ? maybeNav : {};
+                })() : {});
                 return (
-                  <Link key={key} href={href} className={isActive(href) ? 'active' : ''} role="menuitem">
-                    {val}
-                  </Link>
+                  <>
+                    <p className="description underline">{title}</p>
+                    {Object.entries(nav).map(([key, val]) => {
+                      if (typeof val !== 'string') return null;
+                      const href = key === 'home' ? '/' : `/kidszone/${key}`;
+                      return <Link key={key} href={href} className={isActive(href) ? 'active' : ''} role="menuitem">{val}</Link>;
+                    })}
+                  </>
                 );
-              })}
+              })()}
             </div>
 
             <div className="md:w-1/4 flex flex-col gap-2">
-              <p className="description underline">{footer?.othersTitle}</p>
-              {(footer?.others ? Object.entries(footer.others) : []).map(([key, val]) => {
-                if (typeof val !== 'string') return null;
-                const href = key === 'home' ? '/' : `/${key}`;
+              {(() => {
+                const sec = footer?.others || {};
+                const title = sec?.title || footer?.othersTitle || 'More';
+                const nav = sec?.nav || (typeof sec === 'object' ? (() => {
+                  const maybeNav: Record<string, string> = {} as any;
+                  for (const k of Object.keys(sec)) {
+                    if (k === 'title' || k === 'nav') continue;
+                    const v = (sec as any)[k];
+                    if (typeof v === 'string') maybeNav[k] = v;
+                  }
+                  return Object.keys(maybeNav).length ? maybeNav : {};
+                })() : {});
                 return (
-                  <Link key={key} href={href} className={isActive(href) ? 'active' : ''} role="menuitem">
-                    {val}
-                  </Link>
+                  <>
+                    <p className="description underline">{title}</p>
+                    {Object.entries(nav).map(([key, val]) => {
+                      if (typeof val !== 'string') return null;
+                      const href = key === 'home' ? '/' : `/${key}`;
+                      return <Link key={key} href={href} className={isActive(href) ? 'active' : ''} role="menuitem">{val}</Link>;
+                    })}
+                  </>
                 );
-              })}
+              })()}
             </div>
           </nav>
         </div>
 
         <div className={`${styles.disclaimer} w-full flex flex-col md:flex-row items-center justify-between`}>
           <div>
-            <small>{footer?.disclaimer}<br /> {footer?.contentChange}</small>
+            <small>{footer && footer?.disclaimer}<br /> {footer && footer?.contentChange}</small>
             {/* <small> I am using <Link href='https://gemini.google.com/' title='Gemini AI' target='_blank' className='text-white no-underline'>Gemini AI</Link>, <Link href='https://www.meta.ai/' title='Meta AI' target='_blank' className='text-white no-underline'>Meta AI</Link> and  <Link href='https://github.com/features/copilot' title='Github Copilot' target='_blank' className='text-white no-underline'>Github Copilot</Link> basic plan to generating content of the website.</small> */}
           </div>
           <nav role="list" className={`${styles.socialIcons} md:w-1/4 flex items-center justify-end gap-6`}>
