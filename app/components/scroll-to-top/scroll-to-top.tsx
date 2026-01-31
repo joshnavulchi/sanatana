@@ -42,13 +42,13 @@ export default function ScrollToTop() {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="bg-black/60! text-white! btn btn-outline fixed z-40 bottom-8 right-8 px-1! py-2! scroll-to-top no-underline transition-all duration-300 ease-in-out"
+          className="bg-black/60! text-white! btn btn-outline fixed z-40 bottom-8 right-8 px-0.5! py-1! scroll-to-top no-underline transition-all duration-300 ease-in-out"
           aria-label={t('scrollToTop.ariaLabel')}
           title={t('scrollToTop.title')}
         >
           {/* Up Arrow SVG */}
           <svg
-            className="w-6 h-6"
+            className="w-4 h-4"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
