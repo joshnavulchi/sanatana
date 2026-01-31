@@ -1,6 +1,17 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+
+const ns = useLocaleSection('scriptures_ramayana');
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  if (parts[0] === 'scriptures_ramayana') parts.shift();
+  let cur: any = ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
+import useLocaleSection from '../../hooks/useLocaleSection';
 import PageLayout from '@/app/components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('scriptures_ramayana'); 
 
@@ -11,7 +22,7 @@ export default function Page({ searchParams }: any) {
     const k: any = getMeta('scriptures_ramayana', {}, locale) || {};
     const loc: any = getLocaleObject(locale) || {};
     const ram = loc?.scriptures_ramayana || {};
-    const title = typeof k.title === 'string' ? k.title : (ram.title || t('scriptures_ramayana.title', locale) || '');
+    const title = typeof k.title === 'string' ? k.title : (ram.title || __getLoc('scriptures_ramayana.title') || '');
     const author = k.source || ram.source || '';
     let description: string = '';
     const descSource = k.description || ram.description;

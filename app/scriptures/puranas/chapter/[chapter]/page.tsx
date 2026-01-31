@@ -1,7 +1,18 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+
+const ns = useLocaleSection('puranas');
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  if (parts[0] === 'puranas') parts.shift();
+  let cur: any = ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
 import { t, getMeta, DEFAULT_LOCALE, detectLocale, getLocaleObject } from '@/lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageArticleJsonLd from '@/app/components/structured-data/PageArticleJsonLd';
+import useLocaleSection from '../../../../hooks/useLocaleSection';
 import Link from 'next/link';
 export const generateMetadata = createGenerateMetadata('puranas_slug');
 export function generateStaticParams() {
@@ -21,11 +32,11 @@ export function generateStaticParams() {
 export default function Page({ params, searchParams }: { params: { chapter: string }, searchParams?: any }) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
-  const chapters = t('puranas.chapters', locale) || [];
+  const chapters = __getLoc('puranas.chapters') || [];
   const num = Number(params.chapter || 0);
   const ch = Array.isArray(chapters) ? chapters.find((c: any) => Number(c.chapter) === num) : null;
   const siteMeta = getMeta('puranas', {}, locale);
-  const title = ch ? `${siteMeta.title || t('sharable_strings.header.scriptures.nav.puranas', locale)} — Chapter ${ch.chapter}: ${ch.title}` : `Chapter ${num}`;
+  const title = ch ? `${siteMeta.title || __getLoc('sharable_strings.header.scriptures.nav.puranas')} — Chapter ${ch.chapter}: ${ch.title}` : `Chapter ${num}`;
   const excerpt = ch && ch.summary ? ch.summary : '';
   return (
     <>

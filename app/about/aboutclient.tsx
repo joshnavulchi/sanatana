@@ -49,7 +49,7 @@ export default function AboutClient() {
       setAbout({ title, intro, sections, disclaimer });
     })();
     return () => { mounted = false; };
-  }, [locale]);
+  }, [locale, ns]);
 
   // Show loading state if locale is still loading and we have no content
   if (isLoading && !about.title) {

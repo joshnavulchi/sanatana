@@ -1,6 +1,17 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+
+const ns = useLocaleSection('philosophy_moksha');
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  if (parts[0] === 'philosophy_moksha') parts.shift();
+  let cur: any = ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
+import useLocaleSection from '../../hooks/useLocaleSection';
 import PageLayout from '@/app/components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('philosophy_moksha');
 
@@ -12,7 +23,7 @@ export default function Page({ searchParams }: any) {
     const loc: any = getLocaleObject(locale) || {};
     const moksha = loc?.philosophy_moksha || {};
     return {
-      title: typeof k.title === 'string' ? k.title : (moksha.title || t('philosophy_moksha.title', locale) || 'Moksha Philosophy'),
+      title: typeof k.title === 'string' ? k.title : (moksha.title || __getLoc('philosophy_moksha.title') || 'Moksha Philosophy'),
       definition: k.definition || moksha.definition,
       core_principles: Array.isArray(k.core_principles) ? k.core_principles : (Array.isArray(moksha.core_principles) ? moksha.core_principles : []),
       origin: k.origin || moksha.origin || {},

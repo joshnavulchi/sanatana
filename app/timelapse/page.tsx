@@ -1,7 +1,18 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+
+const ns = useLocaleSection('timelinePoints');
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  if (parts[0] === 'timelinePoints') parts.shift();
+  let cur: any = ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
 import { t, getMeta } from '../../lib/i18n';
 
 import { createGenerateMetadata } from 'lib/pageUtils';
+import useLocaleSection from '../hooks/useLocaleSection';
 import PageLayout from '@/app/components/common/PageLayout';
 
 type TimelinePoint = {
@@ -21,10 +32,10 @@ export default function TimelapsePage() {
 
   const page: any = (() => {
     const k: any = getMeta('timelapse', {}, undefined) || {};
-    const timelineObj = k.timelinePoints ?? t('timelinePoints');
+    const timelineObj = k.timelinePoints ?? __getLoc('timelinePoints');
     const timelinePoints: TimelinePoint[] = timelineObj ? (Array.isArray(timelineObj) ? timelineObj : Object.values(timelineObj)) : [];
     return {
-      title: typeof k.title === 'string' ? k.title : String(t('timelapse.title') || 'Timelapse'),
+      title: typeof k.title === 'string' ? k.title : String(__getLoc('timelapse.title') || 'Timelapse'),
       timelinePoints
     };
   })();

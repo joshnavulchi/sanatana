@@ -1,6 +1,17 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+
+const ns = useLocaleSection('samaveda');
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  if (parts[0] === 'samaveda') parts.shift();
+  let cur: any = ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
 import { t, detectLocale, getMeta } from '../../../../lib/i18n';
 import { createGenerateMetadata } from 'lib/pageUtils';
+import useLocaleSection from '../../../hooks/useLocaleSection';
 import PageLayout from '@/app/components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('scriptures_vedas_samaveda');
 export default function SamavedaPage() {
@@ -9,10 +20,10 @@ export default function SamavedaPage() {
   const page: any = (() => {
     const k: any = getMeta('scriptures_vedas_samaveda', {}, locale) || {};
     return {
-      title: typeof k.title === 'string' ? k.title : String(t('samaveda.title', locale) || ''),
-      summary: typeof k.summary === 'string' ? k.summary : String(t('samaveda.summary', locale) || ''),
-      contentTitle: typeof k.contentTitle === 'string' ? k.contentTitle : String(t('samaveda.contentTitle', locale) || ''),
-      content: typeof k.content === 'string' ? k.content : String(t('samaveda.content', locale) || '')
+      title: typeof k.title === 'string' ? k.title : String(__getLoc('samaveda.title') || ''),
+      summary: typeof k.summary === 'string' ? k.summary : String(__getLoc('samaveda.summary') || ''),
+      contentTitle: typeof k.contentTitle === 'string' ? k.contentTitle : String(__getLoc('samaveda.contentTitle') || ''),
+      content: typeof k.content === 'string' ? k.content : String(__getLoc('samaveda.content') || '')
     };
   })();
   return (

@@ -1,6 +1,17 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+
+const ns = useLocaleSection('philosophy_ahimsa');
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  if (parts[0] === 'philosophy_ahimsa') parts.shift();
+  let cur: any = ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
 import { t, detectLocale, getLocaleObject } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
+import useLocaleSection from '../../hooks/useLocaleSection';
 import PageLayout from '@/app/components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('philosophy_ahimsa');
 
@@ -9,7 +20,7 @@ export default function Page({ searchParams }: any) {
   const S = (k: string) => String(t(k, locale));
   const loc: any = getLocaleObject(locale) || {};
   const ahimsa = loc?.philosophy_ahimsa || {};
-  const title = ahimsa.title || t('philosophy_ahimsa.title', locale) || 'Ahimsa Philosophy';
+  const title = ahimsa.title || __getLoc('philosophy_ahimsa.title') || 'Ahimsa Philosophy';
   const definition: string[] = Array.isArray(ahimsa.definition) ? ahimsa.definition : (ahimsa.definition ? [String(ahimsa.definition)] : []);
   const categories = ahimsa.categories_of_ahimsa || {};
   const philosophicalDimensions = ahimsa.philosophical_dimensions || {};
@@ -23,7 +34,7 @@ export default function Page({ searchParams }: any) {
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Ahimsa' }]}
         className={`layout-sm`}
       >
-        <p><strong>Definition : </strong>{definition.length ? definition.map((s: string, i: number) => (<span key={i}>{s}{i < definition.length - 1 ? ', ' : ''}</span>)) : <span>{String(t('philosophy_ahimsa.noDefinition'))}</span>}</p>
+        <p><strong>Definition : </strong>{definition.length ? definition.map((s: string, i: number) => (<span key={i}>{s}{i < definition.length - 1 ? ', ' : ''}</span>)) : <span>{String(__getLoc('philosophy_ahimsa.noDefinition'))}</span>}</p>
         {/* Categories of Ahimsa */}
         <div>
           <h2 className="h4">Categories of Ahimsa :</h2>

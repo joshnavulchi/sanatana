@@ -119,7 +119,7 @@ export default function PrivacyPolicy() {
       setPrivacy({ title, lastupdated, ...data });
     })();
     return () => { mounted = false; };
-  }, [locale]);
+  }, [locale, ns]);
 
   if (isLoading && !privacy.title) {
     return (

@@ -1,6 +1,17 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+
+const ns = useLocaleSection('scriptures_puranas');
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  if (parts[0] === 'scriptures_puranas') parts.shift();
+  let cur: any = ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
 import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
+import useLocaleSection from '../../hooks/useLocaleSection';
 import PageLayout from '@/app/components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('scriptures_puranas');
 
@@ -12,7 +23,7 @@ export default function PuranasPage({ searchParams }: any) {
     const loc: any = getLocaleObject(locale) || {};
     const puranas = loc?.scriptures_puranas || {};
     return {
-      title: typeof k.title === 'string' ? k.title : (puranas.title || t('scriptures_puranas.title', locale) || ''),
+      title: typeof k.title === 'string' ? k.title : (puranas.title || __getLoc('scriptures_puranas.title') || ''),
       classification: k.classification || puranas.classification,
       definition: k.definition || puranas.definition,
       major_puranas: Array.isArray(k.major_puranas) ? k.major_puranas : (Array.isArray(puranas.major_puranas) ? puranas.major_puranas : [])

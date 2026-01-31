@@ -1,5 +1,16 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 
+const ns = useLocaleSection('puranas');
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  if (parts[0] === 'puranas') parts.shift();
+  let cur: any = ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
+
+import useLocaleSection from '../../../hooks/useLocaleSection';
 import { t, detectLocale, getMeta } from '../../../../lib/i18n';
 
 
@@ -25,9 +36,9 @@ export default function BhagavataPage() {
   const page: any = (() => {
     const k: any = getMeta('scriptures_puranas_bhagavata', {}, locale) || {};
     return {
-      title: typeof k.title === 'string' ? k.title : String(t('puranas.bhagavata.title', locale) || ''),
-      summary: k.summary || String(t('puranas.bhagavata.summary', locale) || ''),
-      content: k.content || String(t('puranas.bhagavata.content', locale) || '')
+      title: typeof k.title === 'string' ? k.title : String(__getLoc('puranas.bhagavata.title') || ''),
+      summary: k.summary || String(__getLoc('puranas.bhagavata.summary') || ''),
+      content: k.content || String(__getLoc('puranas.bhagavata.content') || '')
     };
   })();
 

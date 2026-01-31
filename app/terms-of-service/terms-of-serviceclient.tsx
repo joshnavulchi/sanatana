@@ -106,7 +106,7 @@ export default function TermsOfService() {
       setPage({ title, lastupdated, ...data });
     })();
     return () => { mounted = false; };
-  }, [locale]);
+  }, [locale, ns]);
 
   if (isLoading && !page.title) {
     return (

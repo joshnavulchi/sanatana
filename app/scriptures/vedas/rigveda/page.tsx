@@ -1,6 +1,17 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+
+const ns = useLocaleSection('rigveda');
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  if (parts[0] === 'rigveda') parts.shift();
+  let cur: any = ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
 import { t, detectLocale, getMeta } from '../../../../lib/i18n';
 import { createGenerateMetadata } from 'lib/pageUtils';
+import useLocaleSection from '../../../hooks/useLocaleSection';
 import PageLayout from '@/app/components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('scriptures_vedas_rigveda');
 export default function RigvedaPage() {
@@ -9,10 +20,10 @@ export default function RigvedaPage() {
   const page: any = (() => {
     const k: any = getMeta('scriptures_vedas_rigveda', {}, locale) || {};
     return {
-      title: typeof k.title === 'string' ? k.title : String(t('rigveda.title', locale) || ''),
-      summary: typeof k.summary === 'string' ? k.summary : String(t('rigveda.summary', locale) || ''),
-      contentTitle: typeof k.contentTitle === 'string' ? k.contentTitle : String(t('rigveda.contentTitle', locale) || ''),
-      content: typeof k.content === 'string' ? k.content : String(t('rigveda.content', locale) || '')
+      title: typeof k.title === 'string' ? k.title : String(__getLoc('rigveda.title') || ''),
+      summary: typeof k.summary === 'string' ? k.summary : String(__getLoc('rigveda.summary') || ''),
+      contentTitle: typeof k.contentTitle === 'string' ? k.contentTitle : String(__getLoc('rigveda.contentTitle') || ''),
+      content: typeof k.content === 'string' ? k.content : String(__getLoc('rigveda.content') || '')
     };
   })();
   return (

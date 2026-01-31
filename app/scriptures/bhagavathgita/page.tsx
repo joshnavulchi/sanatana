@@ -1,18 +1,29 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+
+const ns = useLocaleSection('scriptures_bhagavathgita');
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  if (parts[0] === 'scriptures_bhagavathgita') parts.shift();
+  let cur: any = ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
 import { t, detectLocale } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import { parseList } from 'lib/parseList';
 import PageLayout from '@/app/components/common/PageLayout';
 import LazyImage from '@/app/components/lazy-image/LazyImage';
+import useLocaleSection from '../../hooks/useLocaleSection';
 import Link from 'next/link';
 export const generateMetadata = createGenerateMetadata('scriptures_bhagavathgita');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const page: any = (() => {
-    const chapters = parseList(t('scriptures_bhagavathgita.chapters', locale)); 
+    const chapters = parseList(__getLoc('scriptures_bhagavathgita.chapters')); 
     return {
-      title: String(t('scriptures_bhagavathgita.title', locale) || ''),
+      title: String(__getLoc('scriptures_bhagavathgita.title') || ''),
       chapters
     };
   })();

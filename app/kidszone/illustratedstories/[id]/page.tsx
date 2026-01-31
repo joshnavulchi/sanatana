@@ -1,4 +1,14 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+
+const ns = useLocaleSection('illustrated_stories');
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  if (parts[0] === 'illustrated_stories') parts.shift();
+  let cur: any = ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
 import { t, getMeta, detectLocale, DEFAULT_LOCALE, detectServerLocaleFromHeaders } from '@/lib/i18n';
 import { headers } from 'next/headers';
 import { notFound } from 'next/navigation';
@@ -7,6 +17,7 @@ import fs from 'fs/promises';
 import fsSync from 'fs';
 import path from 'path';
 import LazyImage from '@/app/components/lazy-image/LazyImage';
+import useLocaleSection from '../../../hooks/useLocaleSection';
 import Link from 'next/link';
 
 function resolveLocaleFromHeaders() {
@@ -23,9 +34,9 @@ export async function createGenerateMetadata({ params, searchParams }: { params:
   const S = (k: string) => String(t(k, locale));
   // load chapters from locale translations; if the locale doesn't include
   // structured chapters, fall back to English translations (no combined file)
-  let chaptersRaw: any = t('illustrated_stories.kids_indian_stories', locale); 
+  let chaptersRaw: any = __getLoc('illustrated_stories.kids_indian_stories'); 
   if (!Array.isArray(chaptersRaw)) {
-    chaptersRaw = t('illustrated_stories.kids_indian_stories');
+    chaptersRaw = __getLoc('illustrated_stories.kids_indian_stories');
   }
   const chapters: any[] = Array.isArray(chaptersRaw) ? chaptersRaw : [];
   const resolvedParams = params && typeof params.then === 'function' ? await params : params;
@@ -105,7 +116,7 @@ export default async function Page({ params, searchParams }: any) {
       <PageLayout
         metaKey=""
         title={S('illustrated_stories.comicNotFoundTitle')}
-        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: String(t('illustrated_stories.comicNotFoundTitle')) }]}
+        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: String(__getLoc('illustrated_stories.comicNotFoundTitle')) }]}
       >
         <p>{S('illustrated_stories.comicNotFoundDesc')}</p>
       </PageLayout>

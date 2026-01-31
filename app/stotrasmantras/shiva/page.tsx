@@ -1,7 +1,18 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+
+const ns = useLocaleSection('shiva_stotrasmantras');
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  if (parts[0] === 'shiva_stotrasmantras') parts.shift();
+  let cur: any = ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
 import { detectLocale, t, getMeta } from '../../../lib/i18n';
 import { createGenerateMetadata } from 'lib/pageUtils';
 import { parseList } from 'lib/parseList';
+import useLocaleSection from '../../hooks/useLocaleSection';
 import PageLayout from '@/app/components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('shiva_stotrasmantras');
 
@@ -11,8 +22,8 @@ export default async function Page() {
   const page: any = (() => {
     const k: any = getMeta('shiva_stotrasmantras', {}, locale) || {};
     return {
-      title: typeof k.title === 'string' ? k.title : String(t('shiva_stotrasmantras.title', locale) || 'Shiva Stotras'),
-      items: Array.isArray(k.items) ? k.items : parseList(t('shiva_stotrasmantras.stotras', locale))
+      title: typeof k.title === 'string' ? k.title : String(__getLoc('shiva_stotrasmantras.title') || 'Shiva Stotras'),
+      items: Array.isArray(k.items) ? k.items : parseList(__getLoc('shiva_stotrasmantras.stotras'))
     };
   })();
   // detectLocale is async; but for static rendering we will fall back to default through t() when needed

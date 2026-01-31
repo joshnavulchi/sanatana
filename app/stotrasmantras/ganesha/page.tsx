@@ -1,7 +1,18 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+
+const ns = useLocaleSection('ganesh_stotras');
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  if (parts[0] === 'ganesh_stotras') parts.shift();
+  let cur: any = ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
 import { t, detectLocale, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import { parseList } from 'lib/parseList';
+import useLocaleSection from '../../hooks/useLocaleSection';
 import PageLayout from '@/app/components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('ganesh_stotras'); 
 
@@ -11,8 +22,8 @@ export default function Page({ searchParams }: any) {
   const page: any = (() => {
     const k: any = getMeta('ganesh_stotras', {}, locale) || {};
     return {
-      title: typeof k.title === 'string' ? k.title : String(t('ganesh_stotras.title', locale) || 'Ganesha Stotras'),
-      items: Array.isArray(k.items) ? k.items : parseList(t('ganesh_stotras.ganesh_stotras', locale))
+      title: typeof k.title === 'string' ? k.title : String(__getLoc('ganesh_stotras.title') || 'Ganesha Stotras'),
+      items: Array.isArray(k.items) ? k.items : parseList(__getLoc('ganesh_stotras.ganesh_stotras'))
     };
   })();
 

@@ -1,7 +1,18 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+
+const ns = useLocaleSection('ramayana');
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  if (parts[0] === 'ramayana') parts.shift();
+  let cur: any = ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
 import { t, getMeta, DEFAULT_LOCALE, detectServerLocaleFromHeaders, detectLocale, getLocaleObject } from '@/lib/i18n';
 
 import { headers } from 'next/headers';
+import useLocaleSection from '../../../../hooks/useLocaleSection';
 import Link from 'next/link';
 
 
@@ -19,7 +30,7 @@ export async function createGenerateMetadata({ params, searchParams }: { params:
 
   const S = (k: string) => String(t(k, locale));
 
-  const chapters = t('ramayana.chapters', locale) || [];
+  const chapters = __getLoc('ramayana.chapters') || [];
   const num = Number(params.chapter || 0);
   const ch = Array.isArray(chapters) ? chapters.find((c: any) => Number(c.chapter) === num) : null;
   const title = ch ? `${S('nav.stories.nav.ramayana')} — Chapter ${ch.chapter}: ${ch.title}` : `${S('nav.stories.nav.ramayana')} — Chapter ${num}`;
@@ -50,7 +61,7 @@ export function generateStaticParams() {
 export default function Page({ params, searchParams }: { params: { chapter: string }, searchParams?: any }) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
-  const chapters = t('ramayana.chapters', locale) || [];
+  const chapters = __getLoc('ramayana.chapters') || [];
   const num = Number(params.chapter || 0);
   const ch = Array.isArray(chapters) ? chapters.find((c: any) => Number(c.chapter) === num) : null;
 

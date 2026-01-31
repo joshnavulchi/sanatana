@@ -1,6 +1,17 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+
+const ns = useLocaleSection('philosophy_dharma');
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  if (parts[0] === 'philosophy_dharma') parts.shift();
+  let cur: any = ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
 import { t, detectLocale, getLocaleObject } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
+import useLocaleSection from '../../hooks/useLocaleSection';
 import PageLayout from '@/app/components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('philosophy_dharma');
 
@@ -9,7 +20,7 @@ export default function Page({ searchParams }: any) {
   const S = (k: string) => String(t(k, locale));
   const loc: any = getLocaleObject(locale) || {};
   const dharma = loc?.philosophy_dharma || {};
-  const title = dharma.title || t('philosophy_dharma.title', locale) || 'Dharma Philosophy';
+  const title = dharma.title || __getLoc('philosophy_dharma.title') || 'Dharma Philosophy';
   const definition: string[] = Array.isArray(dharma.definition) ? dharma.definition : (dharma.definition ? [String(dharma.definition)] : []);
   const categories = dharma.categories_of_dharma || {};
   const philosophicalDimensions = dharma.philosophical_dimensions || {};
@@ -23,7 +34,7 @@ export default function Page({ searchParams }: any) {
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Dharma' }]}
         className={`layout-sm`}
       >
-        <p><strong>Definition : </strong>{definition.length ? definition.map((s: string, i: number) => (<span key={i}>{s}{i < definition.length - 1 ? ', ' : ''}</span>)) : <span>{String(t('philosophy_dharma.noDefinition'))}</span>}</p>
+        <p><strong>Definition : </strong>{definition.length ? definition.map((s: string, i: number) => (<span key={i}>{s}{i < definition.length - 1 ? ', ' : ''}</span>)) : <span>{String(__getLoc('philosophy_dharma.noDefinition'))}</span>}</p>
         {/* Categories of Dharma */}
         <div>
           <h2 className="h4">Categories of Dharma :</h2>

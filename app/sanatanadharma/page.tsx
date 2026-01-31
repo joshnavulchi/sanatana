@@ -1,7 +1,18 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+
+const ns = useLocaleSection('sanatanadharma');
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  if (parts[0] === 'sanatanadharma') parts.shift();
+  let cur: any = ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
 import { t, detectLocale } from '../../lib/i18n';
 import { createGenerateMetadata } from 'lib/pageUtils';
 import { parseList } from 'lib/parseList';
+import useLocaleSection from '../hooks/useLocaleSection';
 import PageLayout from '@/app/components/common/PageLayout';
 // import Link from 'next/link';
 
@@ -9,8 +20,8 @@ export const generateMetadata = createGenerateMetadata('sanatanadharma');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || undefined;
-  const data: any[] = parseList(t('sanatanadharma.sections', locale));
-  const title = String(t('sanatanadharma.title', locale) || 'Sanātana Dharma');
+  const data: any[] = parseList(__getLoc('sanatanadharma.sections'));
+  const title = String(__getLoc('sanatanadharma.title') || 'Sanātana Dharma');
 
   return (
     <PageLayout

@@ -1,5 +1,16 @@
 import { getMeta, detectLocale, t } from '../../../lib/i18n';
+
+const ns = useLocaleSection('kidszone_mythologycomics');
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  if (parts[0] === 'kidszone_mythologycomics') parts.shift();
+  let cur: any = ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
 import { createGenerateMetadata } from 'lib/pageUtils';
+import useLocaleSection from '../../hooks/useLocaleSection';
 import PageLayout from '@/app/components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('kidszone_mythologycomics');
 export default function Page({ searchParams }: any) {
@@ -7,7 +18,7 @@ export default function Page({ searchParams }: any) {
   const page: any = (() => {
     const k: any = getMeta('kidszone_mythologycomics', {}, locale) || {};
     return {
-      title: typeof k.title === 'string' ? k.title : String(t('kidszone_mythologycomics.title', locale) || 'Comics')
+      title: typeof k.title === 'string' ? k.title : String(__getLoc('kidszone_mythologycomics.title') || 'Comics')
     };
   })();
   return (
