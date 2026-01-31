@@ -34,11 +34,11 @@
     "luxon": "^3.7.2",
     "suncalc": "^1.9.0"
   },
-  "devDependencies": {    
+  "devDependencies": {
     "@next/bundle-analyzer": "^16.1.4",
     "@tailwindcss/postcss": "^4.1.18",
     "@types/d3": "^7.4.3",
-    "@types/node": "^25.0.10",    
+    "@types/node": "^25.0.10",
     "@types/react": "^19.2.9",
     "@types/react-dom": "^19",
     "autoprefixer": "^10.4.23",
@@ -50,8 +50,7 @@
     "postcss": "^8.5.6",
     "sass": "^1.97.3",
     "sharp": "^0.34.5",
-    "ts-node": "^10.9.2",
-    "tsx": "^4.21.0",
+    "topojson-client": "^3.1.0",
     "typescript": "5.9.3",
     "webpack": "^5.0.0"
   },
