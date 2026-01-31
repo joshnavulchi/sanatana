@@ -31,7 +31,9 @@ const HEIGHT = 997;
   const topo = topology({ layer: fc });
 
   // 3) Optional: quantize to reduce size (adjust grid size if needed)
-  const topoQ = quantize(topo, 1e5);
+  // `topo` can carry `null` properties which the topojson typings don't accept
+  // for some helper functions — cast to `any` here to avoid a strict type error.
+  const topoQ = quantize(topo as any, 1e5);
 
   // 4) Presimplify → choose min weight by quantile → simplify
   const topoP = presimplify(topoQ);
