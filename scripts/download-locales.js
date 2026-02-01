@@ -336,7 +336,7 @@ async function downloadLocales({ force = false } = {}) {
     }
 
     // Merge logic removed — keep downloaded per-namespace JSON files
-    // (e.g. historical_timeline.json, world_transition.json) as-is.
+    // (e.g. historical_timeline.json, world_transformation.json) as-is.
     console.log(`→ preserved per-namespace JSON files for ${locale}`);
   }
 

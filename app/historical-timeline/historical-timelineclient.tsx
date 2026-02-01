@@ -49,20 +49,75 @@ interface TimelineState {
   };
 }
 
+// Icon mapping for regions
+const regionIcons: Record<string, string> = {
+  India: '🕉️',
+  Persia: '⚜️',
+  Rome: '🏛️',
+  Egypt: '🔺',
+  China: '🐉',
+  Greece: '🏺'
+};
+
 // Small subcomponent to render regional rulers to avoid repetition
 const Region = ({ title, data }: { title: string; data?: RegionData }) => {
   if (!data || !data.rulers || data.rulers.length === 0) return null;
   return (
-    <div className="mb-6">
-      <h4>{title}</h4>
-      {data.description && <p className="mb-4">{data.description}</p>}
-      <div className="space-y-3">
+    <div className="mb-8">
+      {/* Region header */}
+      <div className="flex items-center gap-3 mb-4">
+        <div className="w-12 h-12 bg-gradient-to-br from-amber-100 to-orange-100 dark:from-amber-900/50 dark:to-orange-900/50 rounded-xl flex items-center justify-center text-2xl shadow-md">
+          {regionIcons[title] || '👑'}
+        </div>
+        <h4 className="text-2xl font-bold text-gray-900 dark:text-white">{title}</h4>
+      </div>
+      
+      {data.description && (
+        <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-6 pl-15">{data.description}</p>
+      )}
+      
+      {/* Rulers timeline */}
+      <div className="relative pl-8 space-y-4">
+        {/* Vertical timeline line */}
+        <div className="absolute left-3 top-0 bottom-0 w-0.5 bg-gradient-to-b from-amber-400 via-orange-500 to-amber-400" />
+        
         {data.rulers.map((ruler: Ruler, i: number) => (
-          <div key={i} className="p-4 border rounded">
-            <h5>{ruler.name}</h5>
-            {ruler.dynasty && <p className="text-sm"><strong>Dynasty:</strong> {ruler.dynasty}</p>}
-            <p className="text-sm"><strong>Reign:</strong> {ruler.reign}</p>
-            {ruler.notes && <p className="text-sm italic">{ruler.notes}</p>}
+          <div key={i} className="relative group">
+            {/* Timeline dot */}
+            <div className="absolute -left-5 top-4 w-4 h-4 bg-gradient-to-br from-amber-500 to-orange-600 rounded-full border-4 border-white dark:border-gray-900 shadow-lg group-hover:scale-125 transition-transform duration-300" />
+            
+            {/* Ruler card */}
+            <div className="
+              bg-white dark:bg-gray-800
+              border-2 border-amber-100 dark:border-amber-900/30
+              hover:border-amber-300 dark:hover:border-amber-700
+              rounded-xl
+              p-5
+              shadow-md hover:shadow-xl
+              transition-all duration-300
+              transform hover:-translate-y-1
+            ">
+              <h5 className="text-lg font-bold text-gray-900 dark:text-white mb-3 flex items-center gap-2">
+                <span className="text-xl">👑</span>
+                {ruler.name}
+              </h5>
+              
+              <div className="space-y-2 text-sm">
+                {ruler.dynasty && (
+                  <p className="text-gray-700 dark:text-gray-300">
+                    <strong className="text-amber-600 dark:text-amber-400">Dynasty:</strong> {ruler.dynasty}
+                  </p>
+                )}
+                <p className="text-gray-700 dark:text-gray-300">
+                  <strong className="text-amber-600 dark:text-amber-400">Reign:</strong> {ruler.reign}
+                </p>
+                {ruler.notes && (
+                  <p className="text-gray-600 dark:text-gray-400 italic mt-3 pt-3 border-t border-gray-200 dark:border-gray-700">
+                    {ruler.notes}
+                  </p>
+                )}
+              </div>
+            </div>
           </div>
         ))}
       </div>
@@ -145,14 +200,30 @@ export default function HistoricalTimeline() {
     >
       {/* Text-to-Speech Player */}
       <TextToSpeech sectionId="timeline-content" className="floating" />
-      <div id="timeline-content">
-        <p className="lead">{timeline.description}</p>
+      <div id="timeline-content" className="space-y-12">
+        {/* Hero description */}
+        <div className="relative -mt-8 -mx-6 md:-mx-8 px-6 md:px-8 py-12 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 dark:from-amber-950/30 dark:via-orange-950/30 dark:to-amber-950/30 rounded-2xl overflow-hidden">
+          <div className="absolute top-0 right-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl" />
+          <div className="absolute bottom-0 left-0 w-80 h-80 bg-orange-400/10 rounded-full blur-3xl" />
+          
+          <div className="relative z-10">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="h-px w-12 bg-gradient-to-r from-transparent to-amber-500" />
+              <span className="text-3xl animate-pulse">⏳</span>
+              <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-500" />
+            </div>
+            
+            <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
+              {timeline.description}
+            </p>
+          </div>
+        </div>
 
         {/* Introduction */}
         {timeline.intro && (
-          <section className="mb-8">
-            <p>{timeline.intro.summary}</p>
-          </section>
+          <div className="bg-gradient-to-br from-white to-amber-50/30 dark:from-gray-800 dark:to-amber-950/20 border-2 border-amber-100 dark:border-amber-900/30 rounded-2xl p-6 md:p-8 shadow-lg">
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{timeline.intro.summary}</p>
+          </div>
         )}
 
         {/* Main Content Sections */}
@@ -165,33 +236,53 @@ export default function HistoricalTimeline() {
 
                 {/* Definitions Section */}
                 {section.id === 'definitions' && section.items && (
-                  <div className="space-y-6">
+                  <div className="grid md:grid-cols-2 gap-6">
                     {section.items.map((item: any, i: number) => (
-                      <div key={i} className="border-l-4 border-primary pl-4">
-                        <h4>{item.term} - {item.fullForm}</h4>
-                        <p><strong>Time Period:</strong> {item.timePeriod}</p>
-                        <p><strong>Counting Direction:</strong> {item.countingDirection}</p>
-                        <p><strong>Equivalent To:</strong> {item.equivalentTo}</p>
-                        {item.examples && (
-                          <div className="mt-2">
-                            <strong>Examples:</strong>
-                            <ul className="list-disc ml-6">
-                              {item.examples.map((ex: string, j: number) => (
-                                <li key={j}>{ex}</li>
-                              ))}
-                            </ul>
+                      <div key={i} className="bg-white dark:bg-gray-800 border-l-4 border-amber-500 rounded-lg p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                        <div className="flex items-start gap-3 mb-4">
+                          <span className="text-2xl">📅</span>
+                          <div className="flex-1">
+                            <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-1">{item.term}</h4>
+                            <p className="text-sm text-amber-600 dark:text-amber-400 font-semibold">{item.fullForm}</p>
                           </div>
-                        )}
+                        </div>
+                        
+                        <div className="space-y-2 text-sm">
+                          <p className="text-gray-700 dark:text-gray-300"><strong className="text-amber-600 dark:text-amber-400">Time Period:</strong> {item.timePeriod}</p>
+                          <p className="text-gray-700 dark:text-gray-300"><strong className="text-amber-600 dark:text-amber-400">Counting Direction:</strong> {item.countingDirection}</p>
+                          <p className="text-gray-700 dark:text-gray-300"><strong className="text-amber-600 dark:text-amber-400">Equivalent To:</strong> {item.equivalentTo}</p>
+                          {item.examples && (
+                            <div className="mt-3 pt-3 border-t border-gray-200 dark:border-gray-700">
+                              <strong className="text-gray-900 dark:text-white">Examples:</strong>
+                              <ul className="list-none space-y-1 mt-2">
+                                {item.examples.map((ex: string, j: number) => (
+                                  <li key={j} className="flex items-start gap-2 text-gray-600 dark:text-gray-400">
+                                    <span className="text-amber-500 mt-1">•</span>
+                                    <span className="flex-1">{ex}</span>
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          )}
+                        </div>
                       </div>
                     ))}
                     {section.notes && (
-                      <div className="mt-4 p-4 bg-gray-100 dark:bg-gray-800 rounded">
-                        <strong>Notes:</strong>
-                        <ul className="list-disc ml-6 mt-2">
-                          {section.notes.map((note: string, i: number) => (
-                            <li key={i}>{note}</li>
-                          ))}
-                        </ul>
+                      <div className="md:col-span-2 bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-950/30 dark:to-orange-950/30 border-2 border-amber-200 dark:border-amber-800 rounded-lg p-6">
+                        <div className="flex items-start gap-3">
+                          <span className="text-2xl">📝</span>
+                          <div className="flex-1">
+                            <strong className="text-lg text-gray-900 dark:text-white block mb-3">Notes:</strong>
+                            <ul className="space-y-2">
+                              {section.notes.map((note: string, i: number) => (
+                                <li key={i} className="flex items-start gap-2 text-gray-700 dark:text-gray-300">
+                                  <span className="text-amber-500 mt-1">•</span>
+                                  <span className="flex-1">{note}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        </div>
                       </div>
                     )}
                   </div>
