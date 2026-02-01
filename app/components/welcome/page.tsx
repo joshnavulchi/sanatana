@@ -4,17 +4,18 @@ import { useEffect, useState } from 'react';
 const STORAGE_KEY = 'sanatana_welcome_dismissed';
 
 export default function WelcomePage() {
-  const [isVisible, setIsVisible] = useState(false);
-  const [showWelcome, setShowWelcome] = useState(false);
+  const isVisible = true;
+  // const [isVisible, setIsVisible] = useState(false);
+  // const [showWelcome, setShowWelcome] = useState(false);
   const [doNotShowAgain, setDoNotShowAgain] = useState(false);
 
   useEffect(() => {
     // Check localStorage on mount
     const dismissed = localStorage.getItem(STORAGE_KEY);
     if (dismissed !== 'true') {
-      setShowWelcome(true);
+      // setShowWelcome(true);
       // Small delay for animation
-      setTimeout(() => setIsVisible(true), 100);
+      // setTimeout(() => setIsVisible(true), 100);
     }
   }, []);
 
@@ -24,19 +25,19 @@ export default function WelcomePage() {
       localStorage.setItem(STORAGE_KEY, 'true');
     }
     // Fade out animation
-    setIsVisible(false);
+    // setIsVisible(false);
     // Remove from DOM after animation
-    setTimeout(() => setShowWelcome(false), 300);
+    // setTimeout(() => setShowWelcome(false), 300);
   };
 
   // Don't render if dismissed
-  if (!showWelcome) {
-    return null;
-  }
+  // if (!showWelcome) {
+  //   return null;
+  // }
 
   return (
     <div className="min-h-[60vh] flex items-center justify-center p-6">
-      <div 
+      <div
         className={`
           max-w-4xl mx-auto
           transition-all duration-1000 ease-out
@@ -45,7 +46,7 @@ export default function WelcomePage() {
       >
         {/* Decorative top border with gradient */}
         <div className="h-1 w-full bg-gradient-to-r from-transparent via-amber-500 to-transparent mb-8 rounded-full" />
-        
+
         {/* Main welcome card */}
         <div className="relative">
           {/* Close button */}
@@ -64,10 +65,10 @@ export default function WelcomePage() {
               group
             "
           >
-            <svg 
-              className="w-5 h-5 text-amber-600 group-hover:text-amber-700 transition-colors" 
-              fill="none" 
-              stroke="currentColor" 
+            <svg
+              className="w-5 h-5 text-amber-600 group-hover:text-amber-700 transition-colors"
+              fill="none"
+              stroke="currentColor"
               viewBox="0 0 24 24"
             >
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -79,7 +80,7 @@ export default function WelcomePage() {
           <div className="absolute -top-4 -right-4 w-16 h-16 border-r-2 border-t-2 border-amber-400/30 rounded-tr-2xl" />
           <div className="absolute -bottom-4 -left-4 w-16 h-16 border-l-2 border-b-2 border-amber-400/30 rounded-bl-2xl" />
           <div className="absolute -bottom-4 -right-4 w-16 h-16 border-r-2 border-b-2 border-amber-400/30 rounded-br-2xl" />
-          
+
           {/* Content container */}
           <div className="
             bg-gradient-to-br from-amber-50/80 via-orange-50/50 to-yellow-50/80
@@ -147,12 +148,12 @@ export default function WelcomePage() {
                   We are deeply honored and blessed by your presence here.
                 </p>
                 <p className="text-base md:text-lg text-gray-600 leading-relaxed">
-                  Thank you for taking this sacred step towards understanding and embracing the 
+                  Thank you for taking this sacred step towards understanding and embracing the
                   <span className="font-semibold text-amber-700"> eternal truths of Sanātana Dharma</span>
                   — the timeless wisdom that illuminates the path to inner peace, righteousness, and spiritual awakening.
                 </p>
                 <p className="text-base md:text-lg text-gray-600 leading-relaxed">
-                  May your journey through these ancient teachings bring you 
+                  May your journey through these ancient teachings bring you
                   <span className="font-semibold text-orange-600"> clarity, devotion, and divine grace</span>.
                 </p>
               </div>

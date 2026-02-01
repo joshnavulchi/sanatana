@@ -6,15 +6,9 @@ import { parseList } from 'lib/parseList';
 import Link from 'next/link';
 
 const Segment = ({ title, subtitle, years, isFirst, isLast, index }: any) => {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => setIsVisible(true), index * 200);
-    return () => clearTimeout(timer);
-  }, [index]);
-
+  const [isVisible] = useState(true);
   return (
-    <div 
+    <div
       className={`
         relative flex flex-col items-center
         transition-all duration-700 ease-out
@@ -71,7 +65,7 @@ const Segment = ({ title, subtitle, years, isFirst, isLast, index }: any) => {
               </svg>
             </span>
           )}
-          
+
           <div className="text-center sm:text-left space-y-2">
             <h3 className="
               text-2xl md:text-3xl lg:text-4xl
@@ -136,11 +130,7 @@ export default function OurFourCoreYugas() {
   const title = parseList((locale?.ourfourcoreyugastitle as any) || '');
   const subtitle = parseList((locale?.ourfourcoreyugassubtitle as any) || '');
   const yugas = Array.isArray(locale?.ourfourcoreyugas) ? locale!.ourfourcoreyugas : parseList((locale?.ourfourcoreyugas as any) || '');
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    setIsVisible(true);
-  }, []);
+  const [isVisible] = useState(true);
 
   return (
     <section className="relative bg-[radial-gradient(120%_120%_at_50%_0%,#8a3a31_10%,#b25435_40%,#502a26_100%)] text-center py-20 md:py-32 overflow-hidden">
@@ -153,7 +143,7 @@ export default function OurFourCoreYugas() {
 
       <div className="max-w-7xl mx-auto relative z-10 px-6">
         {/* Header Section */}
-        <div 
+        <div
           className={`
             mb-16 md:mb-24 space-y-6
             transition-all duration-1000 ease-out
@@ -176,12 +166,12 @@ export default function OurFourCoreYugas() {
           ">
             {title}
           </h2>
-          
+
           <div className="mx-auto max-w-4xl">
             <p className="text-lg md:text-xl text-white/90 leading-relaxed">
               {subtitle}{' '}
-              <Link 
-                href="/cosmictime" 
+              <Link
+                href="/cosmictime"
                 className="
                   inline-flex items-center gap-1
                   text-amber-300 hover:text-amber-200
@@ -213,7 +203,7 @@ export default function OurFourCoreYugas() {
         <div className="relative w-full flex flex-col md:flex-row md:items-center md:justify-center gap-16 md:gap-8 lg:gap-12">
           {/* Background connecting line */}
           <div className="hidden md:block absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-y-1/2" />
-          
+
           {/* Yugas Segments */}
           {yugas.map((y, idx) => (
             <Segment
@@ -231,7 +221,7 @@ export default function OurFourCoreYugas() {
         </div>
 
         {/* Bottom decorative accent */}
-        <div 
+        <div
           className={`
             mt-16 flex items-center justify-center gap-3
             transition-all duration-1000 ease-out delay-700

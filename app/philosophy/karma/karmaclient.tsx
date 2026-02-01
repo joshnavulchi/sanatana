@@ -169,7 +169,7 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
                     opacity-0 group-hover:opacity-100
                     transition-opacity duration-300
                   `}>
-                    "
+                    ${`"`}
                   </div>
                 </div>
               )}

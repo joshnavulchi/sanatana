@@ -1,16 +1,17 @@
 "use client";
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 
 export default function DefinitionOfLife() {
-  const [isVisible, setIsVisible] = useState(false);
+  const isVisible = true;
+  //const [isVisible, setIsVisible] = useState(false);
 
-  useEffect(() => {
-    setIsVisible(true);
-  }, []);
+  // useEffect(() => {
+  //   setIsVisible(true);
+  // }, []);
 
   return (
     <div className="py-12 px-6">
-      <div 
+      <div
         className={`
           max-w-5xl mx-auto
           transition-all duration-1000 ease-out
@@ -39,12 +40,12 @@ export default function DefinitionOfLife() {
             <div className="absolute top-4 right-4 text-4xl opacity-20 group-hover:opacity-30 transition-opacity">
               🎯
             </div>
-            <h3 className="text-xl font-bold text-amber-800 mb-3">पुरुषार्थ - Life's Purpose</h3>
+            <h3 className="text-xl font-bold text-amber-800 mb-3">पुरुषार्थ - Life`&apos;`s Purpose</h3>
             <p className="text-gray-700 leading-relaxed">
-              Life is a sacred journey toward the four Purusharthas: 
-              <span className="font-semibold text-amber-700"> Dharma</span> (righteousness), 
-              <span className="font-semibold text-orange-600"> Artha</span> (prosperity), 
-              <span className="font-semibold text-amber-700"> Kama</span> (desires), and 
+              Life is a sacred journey toward the four Purusharthas:
+              <span className="font-semibold text-amber-700"> Dharma</span> (righteousness),
+              <span className="font-semibold text-orange-600"> Artha</span> (prosperity),
+              <span className="font-semibold text-amber-700"> Kama</span> (desires), and
               <span className="font-semibold text-orange-600"> Moksha</span> (liberation).
             </p>
           </div>
@@ -56,9 +57,9 @@ export default function DefinitionOfLife() {
             </div>
             <h3 className="text-xl font-bold text-orange-800 mb-3">आत्मा - The Eternal Soul</h3>
             <p className="text-gray-700 leading-relaxed">
-              The Atman, your true self, is eternal and divine. 
-              <span className="italic"> "न जायते म्रियते वा" </span>
-              — It is never born, nor does it die. Life is the soul's journey to realize its oneness with Brahman.
+              The Atman, your true self, is eternal and divine.
+              <span className="italic"> `&quot;`न जायते म्रियते वा`&quot;` </span>
+              — It is never born, nor does it die. Life is the soul`&apos;`s journey to realize its oneness with Brahman.
             </p>
           </div>
 
@@ -69,8 +70,8 @@ export default function DefinitionOfLife() {
             </div>
             <h3 className="text-xl font-bold text-yellow-800 mb-3">कर्म - Law of Action</h3>
             <p className="text-gray-700 leading-relaxed">
-              Every action creates karma, shaping our destiny. 
-              <span className="font-semibold text-amber-700"> "कर्मण्येवाधिकारस्ते"</span>
+              Every action creates karma, shaping our destiny.
+              <span className="font-semibold text-amber-700"> `&quot;`कर्मण्येवाधिकारस्ते`&quot;`</span>
               — You have the right to perform your duty, but the fruits belong to the divine.
             </p>
           </div>
@@ -82,7 +83,7 @@ export default function DefinitionOfLife() {
             </div>
             <h3 className="text-xl font-bold text-amber-800 mb-3">माया - Illusion & Truth</h3>
             <p className="text-gray-700 leading-relaxed">
-              Life is a play of Maya, the cosmic illusion. True wisdom lies in seeing beyond appearances to recognize the 
+              Life is a play of Maya, the cosmic illusion. True wisdom lies in seeing beyond appearances to recognize the
               <span className="font-semibold text-orange-600"> eternal truth</span> that pervades all existence.
             </p>
           </div>
@@ -94,15 +95,15 @@ export default function DefinitionOfLife() {
           <div className="relative bg-gradient-to-br from-amber-100/80 to-orange-100/80 rounded-2xl p-8 border-2 border-amber-300/30 backdrop-blur-sm">
             <div className="text-center space-y-4">
               <p className="text-2xl md:text-3xl font-serif text-amber-900 leading-relaxed">
-                "आत्मानं विद्धि"
+                `&quot;`आत्मानं विद्धि`&quot;`
               </p>
               <p className="text-xl md:text-2xl text-gray-700 font-medium">
                 Know Thyself
               </p>
               <div className="pt-4 border-t border-amber-300/30 mt-4">
                 <p className="text-base md:text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto">
-                  Life is the divine opportunity to realize your true nature—not this temporary body, 
-                  but the immortal consciousness that witnesses all, untouched by birth or death, 
+                  Life is the divine opportunity to realize your true nature—not this temporary body,
+                  but the immortal consciousness that witnesses all, untouched by birth or death,
                   pleasure or pain. This realization is the highest goal of human existence.
                 </p>
               </div>

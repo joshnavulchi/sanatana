@@ -1,16 +1,17 @@
 "use client"
-import { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';
 import useLocaleSection from '../../hooks/useLocaleSection';
 import Link from 'next/link';
 import WorldMapAnimated from '../worldmap/wordmap';
 
 export default function GitSupport({ locale }: { locale?: string }) {
   const loc = useLocaleSection('home');
-  const [isVisible, setIsVisible] = useState(false);
+  const isVisible = true;
+  // const [isVisible, setIsVisible] = useState(false);
 
-  useEffect(() => {
-    setIsVisible(true);
-  }, []);
+  // useEffect(() => {
+  // setIsVisible(true);
+  // }, []);
 
   return (
     <section className="gradient-background map-wrapper min-h-screen relative z-0 overflow-hidden">
@@ -26,16 +27,16 @@ export default function GitSupport({ locale }: { locale?: string }) {
         scale={0.19}
         showGraticule={false}
       />
-      
+
       {/* Overlay gradient for better readability */}
       <div className="absolute inset-0 bg-gradient-to-br from-black/40 via-transparent to-black/50 pointer-events-none" />
-      
+
       {/* Animated decorative elements */}
       <div className="absolute top-1/4 right-1/4 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl animate-pulse" />
       <div className="absolute bottom-1/3 left-1/3 w-80 h-80 bg-orange-500/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1.5s' }} />
-      
+
       {/* Content Container */}
-      <div 
+      <div
         className={`
           relative z-10
           md:content-wrapper 
@@ -60,14 +61,14 @@ export default function GitSupport({ locale }: { locale?: string }) {
         ">
           {/* Gradient overlay on hover */}
           <div className="absolute inset-0 bg-gradient-to-br from-amber-500/10 to-orange-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-          
+
           {/* GitHub icon decoration */}
           <div className="absolute top-6 right-6 opacity-10 group-hover:opacity-20 transition-opacity duration-500">
             <svg className="w-24 h-24 text-white" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
             </svg>
           </div>
-          
+
           {/* Content */}
           <div className="relative space-y-6">
             {/* Decorative top accent */}
@@ -76,7 +77,7 @@ export default function GitSupport({ locale }: { locale?: string }) {
               <span className="text-2xl text-amber-400">⚡</span>
               <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-400" />
             </div>
-            
+
             {/* Title */}
             <h3 className="
               text-3xl md:text-4xl lg:text-5xl
@@ -87,7 +88,7 @@ export default function GitSupport({ locale }: { locale?: string }) {
             ">
               {loc?.cta?.title || 'Contribute'}
             </h3>
-            
+
             {/* Subtitle */}
             <p className="
               text-lg md:text-xl
@@ -97,12 +98,12 @@ export default function GitSupport({ locale }: { locale?: string }) {
             ">
               {loc?.cta?.subtitle || ''}
             </p>
-            
+
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Link 
-                href="https://github.com/vulchivijay/first-contributes" 
-                target="_blank" 
+              <Link
+                href="https://github.com/vulchivijay/first-contributes"
+                target="_blank"
                 className="
                   group/btn relative
                   px-8 py-4
@@ -119,7 +120,7 @@ export default function GitSupport({ locale }: { locale?: string }) {
                 <span className="absolute inset-0 bg-gradient-to-r from-amber-400/20 to-orange-400/20 transform scale-x-0 group-hover/btn:scale-x-100 transition-transform origin-left duration-500" />
                 <span className="relative flex items-center justify-center gap-2">
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
                   </svg>
                   {loc?.cta?.contribute || 'Contribute'}
                   <svg className="w-5 h-5 group-hover/btn:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -128,9 +129,9 @@ export default function GitSupport({ locale }: { locale?: string }) {
                 </span>
               </Link>
 
-              <Link 
-                href="https://github.com/vulchivijay/first-contributes" 
-                target="_blank" 
+              <Link
+                href="https://github.com/vulchivijay/first-contributes"
+                target="_blank"
                 className="
                   group/btn
                   px-8 py-4
@@ -157,12 +158,12 @@ export default function GitSupport({ locale }: { locale?: string }) {
               </Link>
             </div>
           </div>
-          
+
           {/* Decorative corner accents */}
           <div className="absolute bottom-0 right-0 w-32 h-32 bg-gradient-to-tl from-amber-400/20 to-transparent rounded-tl-full" />
           <div className="absolute top-0 left-0 w-24 h-24 bg-gradient-to-br from-orange-400/20 to-transparent rounded-br-full" />
         </div>
-        
+
         {/* Floating decorative elements */}
         <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full">
           <div className="absolute top-0 left-0 w-2 h-2 bg-amber-400 rounded-full animate-ping" />

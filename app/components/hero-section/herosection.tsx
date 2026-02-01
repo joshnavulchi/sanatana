@@ -19,9 +19,9 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    setIsVisible(true);
     let cancelled = false;
     loadLocaleNamespace(locale, 'home').then((ns: any) => {
+      setIsVisible(true);
       if (cancelled) return;
       const candidate = ns?.hero ? ns.hero : (ns?.home ? ns.home.hero : ns);
       if (candidate && typeof candidate === 'object') setHero(candidate);
@@ -70,7 +70,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
       <div className="relative z-10 content-wrapper min-h-[600px] md:min-h-[700px] flex items-center">
         <div className="w-full grid md:grid-cols-2 gap-8 items-center py-16 md:py-20">
           {/* Left Content */}
-          <div 
+          <div
             className={`
               space-y-6 md:space-y-8
               transition-all duration-1000 ease-out
@@ -122,8 +122,8 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Link 
-                href={hero?.primarycta?.link ? `/${hero.primarycta.link}` : '/scriptures'} 
+              <Link
+                href={hero?.primarycta?.link ? `/${hero.primarycta.link}` : '/scriptures'}
                 className="
                   group relative
                   px-8 py-4
@@ -147,8 +147,8 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
                 </span>
               </Link>
 
-              <Link 
-                href={hero?.secondarycta?.link ? `/${hero.secondarycta.link}` : '/sanatanadharma'} 
+              <Link
+                href={hero?.secondarycta?.link ? `/${hero.secondarycta.link}` : '/sanatanadharma'}
                 className="
                   group
                   px-8 py-4
@@ -175,11 +175,11 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
 
             {/* Scroll Indicator */}
             <div className="flex items-center gap-2 pt-6 text-amber-200 animate-bounce">
-              <LazyImage 
-                src="/images/svg/arrow.svg" 
-                alt="Scroll Down" 
-                width={16} 
-                height={16} 
+              <LazyImage
+                src="/images/svg/arrow.svg"
+                alt="Scroll Down"
+                width={16}
+                height={16}
                 className="inline-block"
               />
               <span className="text-sm font-medium drop-shadow-md">
@@ -189,7 +189,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
           </div>
 
           {/* Right Side - Decorative Card */}
-          <div 
+          <div
             className={`
               hidden md:flex items-center justify-center
               transition-all duration-1000 ease-out delay-300
@@ -199,7 +199,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
             <div className="relative">
               {/* Glowing background effect */}
               <div className="absolute inset-0 bg-gradient-to-br from-amber-400/20 to-orange-600/20 blur-3xl rounded-full" />
-              
+
               {/* Decorative card */}
               <div className="
                 relative
