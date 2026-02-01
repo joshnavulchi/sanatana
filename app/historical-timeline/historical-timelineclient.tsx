@@ -49,33 +49,33 @@ interface TimelineState {
   };
 }
 
+// Small subcomponent to render regional rulers to avoid repetition
+const Region = ({ title, data }: { title: string; data?: RegionData }) => {
+  if (!data || !data.rulers || data.rulers.length === 0) return null;
+  return (
+    <div className="mb-6">
+      <h4>{title}</h4>
+      {data.description && <p className="mb-4">{data.description}</p>}
+      <div className="space-y-3">
+        {data.rulers.map((ruler: Ruler, i: number) => (
+          <div key={i} className="p-4 border rounded">
+            <h5>{ruler.name}</h5>
+            {ruler.dynasty && <p className="text-sm"><strong>Dynasty:</strong> {ruler.dynasty}</p>}
+            <p className="text-sm"><strong>Reign:</strong> {ruler.reign}</p>
+            {ruler.notes && <p className="text-sm italic">{ruler.notes}</p>}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
 export default function HistoricalTimeline() {
   const { locale, isLoading } = useLocale();
   const ns = useLocaleSection('historical_timeline');
 
   // Initialize with empty state to avoid hydration mismatch
   const [timeline, setTimeline] = useState<TimelineState>({ title: '', description: '' });
-
-  // Small subcomponent to render regional rulers to avoid repetition
-  const Region = ({ title, data }: { title: string; data?: RegionData }) => {
-    if (!data || !data.rulers || data.rulers.length === 0) return null;
-    return (
-      <div className="mb-6">
-        <h4>{title}</h4>
-        {data.description && <p className="mb-4">{data.description}</p>}
-        <div className="space-y-3">
-          {data.rulers.map((ruler: Ruler, i: number) => (
-            <div key={i} className="p-4 border rounded">
-              <h5>{ruler.name}</h5>
-              {ruler.dynasty && <p className="text-sm"><strong>Dynasty:</strong> {ruler.dynasty}</p>}
-              <p className="text-sm"><strong>Reign:</strong> {ruler.reign}</p>
-              {ruler.notes && <p className="text-sm italic">{ruler.notes}</p>}
-            </div>
-          ))}
-        </div>
-      </div>
-    );
-  };
 
   useEffect(() => {
     let mounted = true;
