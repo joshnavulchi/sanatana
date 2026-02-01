@@ -48,7 +48,7 @@ export default function DonateClient() {
       setDonate({ title, subtitle, purpose, expenses, donateOptions, faq });
     })();
     return () => { mounted = false; };
-  }, [locale]);
+  }, [locale, ns]);
 
   if (isLoading && !donate.title) {
     return (

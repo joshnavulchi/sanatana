@@ -79,7 +79,7 @@ export default function KrishnaExplainsFiveKarmasClient() {
       setKarma({ title, story });
     })();
     return () => { mounted = false; };
-  }, [locale]);
+  }, [locale, ns]);
   // Compute render-time title/story from translations first, falling back to state
   const renderTitle = String(ns?.title || karma.title || '');
   const rawStoryFromT = ns?.story;

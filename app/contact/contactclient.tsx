@@ -68,18 +68,7 @@ export default function ContactPage() {
   const ns = useLocaleSection('contact');
 
   // Initialize with empty state to avoid hydration mismatch
-  const [page, setPage] = useState({});
-          }
-        }
-        return out;
-      };
-      return transform(obj) || {};
-    } catch (e) {
-      return {};
-    }
-  };
-
-  const [page, setPage] = useState<any>(getInitialPage);
+  const [page, setPage] = useState<any>({});
 
   useEffect(() => {
     let mounted = true;
@@ -105,7 +94,7 @@ export default function ContactPage() {
       }
     })();
     return () => { mounted = false; };
-  }, [locale]);
+  }, [locale, ns]);
 
   if (isLoading && !page.title) {
     return (

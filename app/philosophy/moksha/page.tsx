@@ -2,7 +2,9 @@
 import PageLayout from '@/app/components/common/PageLayout';
 import { t, detectLocale, getLocaleNamespaceObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
+
 export const generateMetadata = createGenerateMetadata('philosophy_moksha');
+
 const ns: Record<string, unknown> = {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
