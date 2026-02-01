@@ -9,7 +9,7 @@ const path = require('path');
 /* ================= CONFIG ================= */
 
 const GITHUB_REPO = 'vulchivijay/first-contributes';
-const GITHUB_BRANCH = 'main';
+const GITHUB_BRANCH = 'production';
 const REMOTE_LOCALES_PATH = 'locales';
 const LOCAL_LOCALES_DIR = path.join(__dirname, '../public/locales');
 const META_FILE = path.join(LOCAL_LOCALES_DIR, '.locales-meta.json');
@@ -286,7 +286,7 @@ async function downloadRaw(url) {
   return fetch(url);
 }
 
-/* ============== MAIN LOGIC ================= */
+/* ============== PRODUCTION LOGIC ================= */
 
 async function downloadLocales({ force = false } = {}) {
   console.log('\nDownloading locales from GitHub');
@@ -336,7 +336,7 @@ async function downloadLocales({ force = false } = {}) {
     }
 
     // Merge logic removed — keep downloaded per-namespace JSON files
-    // (e.g. historical_timeline.json, world_transition.json) as-is.
+    // (e.g. historical_timeline.json, world_transformation.json) as-is.
     console.log(`→ preserved per-namespace JSON files for ${locale}`);
   }
 
@@ -466,7 +466,7 @@ async function downloadLocales({ force = false } = {}) {
 
 /* ============== CLI ================= */
 
-if (require.main === module) {
+if (require.production === module) {
   const force = process.argv.includes('--force') || process.env.FORCE_LOCALE_DOWNLOAD === '1' || process.env.DOWNLOAD_LOCALES === '1';
   const skipIfMeta = process.argv.includes('--skip-if-meta') || process.argv.includes('--skip');
   const skipLocaleDownload = process.env.SKIP_LOCALE_DOWNLOAD === '1';

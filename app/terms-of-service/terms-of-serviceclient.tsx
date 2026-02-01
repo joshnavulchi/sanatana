@@ -89,64 +89,128 @@ export default function TermsOfService() {
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
       className="layout-sm"
     >
-      <div id="terms-of-service-content">
-        <p className="flex items-center justify-between">
-          <strong>{page.lastupdated}</strong>
-          {/* Text-to-Speech Player */}
+      <div id="terms-of-service-content" className="space-y-8">
+        {/* Header with last updated */}
+        <div className="flex items-center justify-between flex-wrap gap-4 pb-6 border-b-2 border-amber-200 dark:border-amber-800">
+          <div className="flex items-center gap-3">
+            <span className="text-2xl">📋</span>
+            <strong className="text-lg text-gray-700 dark:text-gray-300">{page.lastupdated}</strong>
+          </div>
           <TextToSpeech sectionId="terms-of-service-content" />
-        </p>
-        <h2 className="h4">{page.acceptancetitle}</h2>
-        <p>{page.intro}</p>
-        <h3 className="h4">{page.uselicensetitle}</h3>
-        <p>{page.uselicensetext}</p>
-        <ul role="list" className="list-disc">
-          <li>{renderListItem(page.uselicenselist, 0)}</li>
-          <li>{renderListItem(page.uselicenselist, 1)}</li>
-          <li>{renderListItem(page.uselicenselist, 2)}</li>
-          <li>{renderListItem(page.uselicenselist, 3)}</li>
-          <li>{renderListItem(page.uselicenselist, 4)}</li>
-        </ul>
-        <h4>{page.intellectualtitle}</h4>
-        <p>{page.intellectualtext}</p>
-        <h5 className="h4">{page.userconducttitle}</h5>
-        <p>{page.userconductintro}</p>
-        <ul role="list" className="list-disc">
-          <li>{renderListItem(page.userconductlist, 0)}</li>
-          <li>{renderListItem(page.userconductlist, 1)}</li>
-          <li>{renderListItem(page.userconductlist, 2)}</li>
-          <li>{renderListItem(page.userconductlist, 3)}</li>
-          <li>{renderListItem(page.userconductlist, 4)}</li>
-          <li>{renderListItem(page.userconductlist, 5)}</li>
-        </ul>
-        <h6 className="h4">{page.disclaimertitle}</h6>
-        <p>{page.disclaimertext}</p>
-        <ul role="list" className="list-disc">
-          <li>{renderListItem(page.disclaimerlist, 0)}</li>
-          <li>{renderListItem(page.disclaimerlist, 1)}</li>
-          <li>{renderListItem(page.disclaimerlist, 2)}</li>
-          <li>{renderListItem(page.disclaimerlist, 3)}</li>
-        </ul>
-        <p>{page.disclaimerclosing}</p>
-        <p className="h4">{page.liabilitytitle}</p>
-        <p>{page.liabilitytext}</p>
-        <p className="h4">{page.externallinkstitle}</p>
-        <p>{page.externallinkstext}</p>
-        <p className="h4">{page.modificationstitle}</p>
-        <p>{page.modificationstext}</p>
-        <p className="h4">{page.terminationtitle}</p>
-        <p>{page.terminationtext}</p>
-        <p className="h4">{page.indemnificationtitle}</p>
-        <p>{page.indemnificationtext}</p>
-        <p className="h4">{page.governingtitle}</p>
-        <p>{page.governingtext}</p>
-        <p className="h4">{page.severabilitytitle}</p>
-        <p>{page.severabilitytext}</p>
-        <p className="h4">{page.contacttitle}</p>
-        <p>{page.contacttext}</p>
-        <p><strong>{page.contactphonelabel}</strong> {page.contactphone}</p>
-        <p><strong>{page.contactemaillabel}</strong> {page.contactemail}</p>
-        <p><strong>{page.contactwebsitelabel}</strong> <a href="https://sanatanadharmam.in">{page.contactwebsite}</a></p>
-        <p>{page.closing}</p>
+        </div>
+
+        {/* Acceptance section */}
+        <section className="bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-950/30 dark:to-orange-950/30 border-2 border-amber-200 dark:border-amber-800 rounded-2xl p-6 md:p-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
+            <span className="text-3xl">✅</span>
+            {page.acceptancetitle}
+          </h2>
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{page.intro}</p>
+        </section>
+
+        {/* Use License */}
+        <section className="bg-white dark:bg-gray-800 border-2 border-amber-100 dark:border-amber-900/30 rounded-2xl p-6 md:p-8 shadow-lg">
+          <h3 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
+            <span className="text-2xl">📜</span>
+            {page.uselicensetitle}
+          </h3>
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">{page.uselicensetext}</p>
+          <ul role="list" className="space-y-3">
+            {[0, 1, 2, 3, 4].map((i) => {
+              const item = renderListItem(page.uselicenselist, i);
+              return item ? (
+                <li key={i} className="flex items-start gap-3 text-gray-700 dark:text-gray-300">
+                  <span className="flex-shrink-0 w-2 h-2 mt-2 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full" />
+                  <span className="flex-1">{item}</span>
+                </li>
+              ) : null;
+            })}
+          </ul>
+        </section>
+
+        {/* Intellectual Property */}
+        <section className="bg-white dark:bg-gray-800 border-2 border-amber-100 dark:border-amber-900/30 rounded-2xl p-6 md:p-8 shadow-lg">
+          <h4 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
+            <span className="text-2xl">©️</span>
+            {page.intellectualtitle}
+          </h4>
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{page.intellectualtext}</p>
+        </section>
+
+        {/* User Conduct */}
+        <section className="bg-white dark:bg-gray-800 border-2 border-amber-100 dark:border-amber-900/30 rounded-2xl p-6 md:p-8 shadow-lg">
+          <h5 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
+            <span className="text-2xl">👤</span>
+            {page.userconducttitle}
+          </h5>
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">{page.userconductintro}</p>
+          <ul role="list" className="space-y-3">
+            {[0, 1, 2, 3, 4, 5].map((i) => {
+              const item = renderListItem(page.userconductlist, i);
+              return item ? (
+                <li key={i} className="flex items-start gap-3 text-gray-700 dark:text-gray-300">
+                  <span className="flex-shrink-0 w-2 h-2 mt-2 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full" />
+                  <span className="flex-1">{item}</span>
+                </li>
+              ) : null;
+            })}
+          </ul>
+        </section>
+
+        {/* Disclaimer */}
+        <section className="bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-950/30 dark:to-orange-950/30 border-l-4 border-amber-500 rounded-lg p-6 md:p-8 shadow-lg">
+          <h6 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
+            <span className="text-2xl">⚠️</span>
+            {page.disclaimertitle}
+          </h6>
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">{page.disclaimertext}</p>
+          <ul role="list" className="space-y-3 mb-4">
+            {[0, 1, 2, 3].map((i) => {
+              const item = renderListItem(page.disclaimerlist, i);
+              return item ? (
+                <li key={i} className="flex items-start gap-3 text-gray-700 dark:text-gray-300">
+                  <span className="flex-shrink-0 w-2 h-2 mt-2 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full" />
+                  <span className="flex-1">{item}</span>
+                </li>
+              ) : null;
+            })}
+          </ul>
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{page.disclaimerclosing}</p>
+        </section>
+
+        {/* Other sections in card format */}
+        {[
+          { icon: '⚖️', title: page.liabilitytitle, text: page.liabilitytext },
+          { icon: '🔗', title: page.externallinkstitle, text: page.externallinkstext },
+          { icon: '🔄', title: page.modificationstitle, text: page.modificationstext },
+          { icon: '🚫', title: page.terminationtitle, text: page.terminationtext },
+          { icon: '🛡️', title: page.indemnificationtitle, text: page.indemnificationtext },
+          { icon: '🏛️', title: page.governingtitle, text: page.governingtext },
+          { icon: '📑', title: page.severabilitytitle, text: page.severabilitytext },
+        ].map((section, idx) => (
+          <section key={idx} className="bg-white dark:bg-gray-800 border-2 border-amber-100 dark:border-amber-900/30 rounded-2xl p-6 md:p-8 shadow-lg">
+            <p className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
+              <span className="text-2xl">{section.icon}</span>
+              {section.title}
+            </p>
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{section.text}</p>
+          </section>
+        ))}
+
+        {/* Contact section */}
+        <section className="bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-950/30 dark:to-orange-950/30 border-2 border-amber-200 dark:border-amber-800 rounded-2xl p-6 md:p-8">
+          <p className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
+            <span className="text-2xl">📞</span>
+            {page.contacttitle}
+          </p>
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">{page.contacttext}</p>
+          <div className="space-y-2 text-gray-700 dark:text-gray-300">
+            <p><strong className="text-amber-600 dark:text-amber-400">{page.contactphonelabel}</strong> {page.contactphone}</p>
+            <p><strong className="text-amber-600 dark:text-amber-400">{page.contactemaillabel}</strong> {page.contactemail}</p>
+            <p><strong className="text-amber-600 dark:text-amber-400">{page.contactwebsitelabel}</strong> <a href="https://sanatanadharmam.in" className="text-amber-600 dark:text-amber-400 hover:text-orange-600 dark:hover:text-orange-400 underline transition-colors">{page.contactwebsite}</a></p>
+          </div>
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed mt-6 pt-4 border-t border-amber-300 dark:border-amber-700">{page.closing}</p>
+        </section>
       </div>
     </PageLayout>
   );

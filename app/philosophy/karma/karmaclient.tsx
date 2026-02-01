@@ -7,7 +7,6 @@ import useLocaleSection from '../../hooks/useLocaleSection';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
 import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
 
-import styles from './page.module.scss';
 import LazyImage from '@/app/components/lazy-image/LazyImage';
 import TextToSpeech from '@/app/components/text-to-speech/TextToSpeech';
 
@@ -15,43 +14,165 @@ import TextToSpeech from '@/app/components/text-to-speech/TextToSpeech';
 const Paragraphs = ({ lines }: { lines?: any[] }) => {
   if (!Array.isArray(lines) || !lines.length) return null;
   return (
-    <div className="md:flex md:gap-4">
-      <div className="w-full md:w-3/4 md:border-r md:border-r-gray-300 md:pr-4">
-        <LazyImage
-          src="/images/philosophy-karma.png"
-          alt="philosophy karma"
-          width={900}
-          height={150}
-          className="my-6 md:mt-0"
-        />
-        {lines.map((line: any, idx: number) => (
-          <p key={idx}>{line}</p>
-        ))}
+    <div className="flex flex-col lg:flex-row gap-8">
+      {/* Main Content */}
+      <div className="w-full lg:w-3/4 space-y-6">
+        {/* Hero Image with enhanced styling */}
+        <div className="relative group overflow-hidden rounded-2xl shadow-2xl">
+          <div className="absolute inset-0 bg-gradient-to-br from-amber-500/20 to-orange-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10" />
+          <LazyImage
+            src="/images/philosophy-karma.png"
+            alt="philosophy karma"
+            width={900}
+            height={150}
+            className="w-full h-auto transform group-hover:scale-105 transition-transform duration-700"
+          />
+          {/* Decorative border */}
+          <div className="absolute inset-0 border-4 border-amber-400/0 group-hover:border-amber-400/30 rounded-2xl transition-all duration-500" />
+        </div>
+
+        {/* Content paragraphs */}
+        <div className="space-y-6">
+          {lines.map((line: any, idx: number) => (
+            <div
+              key={idx}
+              className="
+                relative
+                bg-gradient-to-br from-white to-amber-50/30
+                dark:from-gray-800 dark:to-amber-950/20
+                border-l-4 border-amber-500
+                rounded-lg
+                p-6 md:p-8
+                shadow-lg hover:shadow-xl
+                transition-all duration-300
+                hover:-translate-y-1
+                group/para
+              "
+            >
+              {/* Decorative corner accent */}
+              <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-bl from-amber-400/10 to-transparent rounded-tr-lg rounded-bl-full" />
+              
+              {/* Content */}
+              <p className="
+                text-gray-700 dark:text-gray-300
+                text-base md:text-lg
+                leading-relaxed
+                relative z-10
+              ">
+                {line}
+              </p>
+
+              {/* Hover indicator */}
+              <div className="absolute bottom-2 right-2 w-2 h-2 bg-amber-500 rounded-full opacity-0 group-hover/para:opacity-100 transition-opacity duration-300" />
+            </div>
+          ))}
+        </div>
       </div>
-      <div className="w-full md:w-1/4">
-        <SimilarCategories
-          currentCategory="philosophy"
-          title="Similar Philosophy"
-          maxItems={3}
-          excludeCurrent={false}
-        />
+
+      {/* Sidebar */}
+      <div className="w-full lg:w-1/4">
+        <div className="sticky top-24">
+          <SimilarCategories
+            currentCategory="philosophy"
+            title="Similar Philosophy"
+            maxItems={3}
+            excludeCurrent={false}
+          />
+        </div>
       </div>
     </div>
   );
 };
+
 const Conversation = ({ convo }: { convo?: any[] }) => {
   if (!Array.isArray(convo) || !convo.length) return null;
   return (
-    <div>
+    <div className="space-y-6 mt-12">
+      {/* Conversation header */}
+      <div className="flex items-center justify-center gap-3 mb-8">
+        <div className="h-px w-16 bg-gradient-to-r from-transparent to-amber-400" />
+        <span className="text-xl text-amber-600 dark:text-amber-400 font-semibold">💬 Conversation</span>
+        <div className="h-px w-16 bg-gradient-to-l from-transparent to-amber-400" />
+      </div>
+
       {convo.map((item: any, idx: number) => {
         const isEven = idx % 2 === 0; // even -> left, odd -> right
-        const containerClass = `flex ${isEven ? `${styles.leftalign} justify-start` : `${styles.rightalign} justify-end`}`;
-        const bubbleClass = `${isEven ? 'text-left' : 'text-right'}`;
         return (
-          <div key={idx} className={containerClass}>
-            <div className={bubbleClass}>
-              {item.speaker ? <div className={`${styles.icon} shadow-sm`}><span>{item.speaker}</span></div> : null}
-              {item.message ? <p className={`${styles.message} shadow-xl`}>{item.message}</p> : null}
+          <div 
+            key={idx} 
+            className={`
+              flex
+              ${isEven ? 'justify-start' : 'justify-end'}
+              animate-fade-in
+            `}
+            style={{ animationDelay: `${idx * 100}ms` }}
+          >
+            <div className={`
+              max-w-[85%] md:max-w-[70%]
+              ${isEven ? 'text-left' : 'text-right'}
+            `}>
+              {/* Speaker Badge */}
+              {item.speaker && (
+                <div className={`
+                  inline-flex items-center gap-2
+                  mb-2
+                  px-4 py-2
+                  ${isEven 
+                    ? 'bg-gradient-to-r from-blue-500 to-blue-600 text-white' 
+                    : 'bg-gradient-to-r from-amber-500 to-orange-600 text-white'
+                  }
+                  rounded-full
+                  shadow-lg
+                  font-semibold text-sm
+                  ${isEven ? '' : 'ml-auto'}
+                `}>
+                  <span className="text-lg">{isEven ? '🧘' : '🕉️'}</span>
+                  <span>{item.speaker}</span>
+                </div>
+              )}
+              
+              {/* Message Bubble */}
+              {item.message && (
+                <div className={`
+                  relative
+                  p-5 md:p-6
+                  rounded-2xl
+                  shadow-xl
+                  ${isEven 
+                    ? 'bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/30 dark:to-blue-800/30 border-2 border-blue-200 dark:border-blue-700 rounded-tl-none' 
+                    : 'bg-gradient-to-br from-amber-50 to-orange-100 dark:from-amber-900/30 dark:to-orange-800/30 border-2 border-amber-200 dark:border-amber-700 rounded-tr-none'
+                  }
+                  backdrop-blur-sm
+                  hover:shadow-2xl
+                  transition-all duration-300
+                  group
+                `}>
+                  {/* Message text */}
+                  <p className="
+                    text-gray-800 dark:text-gray-200
+                    text-base md:text-lg
+                    leading-relaxed
+                    m-0
+                  ">
+                    {item.message}
+                  </p>
+
+                  {/* Decorative quote mark */}
+                  <div className={`
+                    absolute
+                    ${isEven ? '-left-2 top-0' : '-right-2 top-0'}
+                    w-8 h-8
+                    ${isEven ? 'bg-blue-500' : 'bg-amber-500'}
+                    rounded-full
+                    flex items-center justify-center
+                    text-white text-xs
+                    opacity-0 group-hover:opacity-100
+                    transition-opacity duration-300
+                  `}>
+                    ${`"`}
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         );

@@ -107,51 +107,131 @@ export default function PrivacyPolicy() {
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Privacy policy' }]}
       className={`layout-sm`}
     >
-      <div id="privacy-content">
-        <p className="flex items-center justify-between">
-          <strong>{privacy.lastupdated}</strong>
-          {/* Text-to-Speech Player */}
+      <div id="privacy-content" className="space-y-8">
+        {/* Header */}
+        <div className="flex items-center justify-between flex-wrap gap-4 pb-6 border-b-2 border-amber-200 dark:border-amber-800">
+          <div className="flex items-center gap-3">
+            <span className="text-2xl">🔒</span>
+            <strong className="text-lg text-gray-700 dark:text-gray-300">{privacy.lastupdated}</strong>
+          </div>
           <TextToSpeech sectionId="privacy-content" />
-        </p>
-        <section>
-          <h2 className="h4">{privacy.intro.title}</h2>
-          <p>{privacy.intro.text}</p>
-          <h3 className="h4"><strong>{privacy.informationwecollect.title}</strong> {privacy.informationwecollect.lead}</h3>
-          <p><strong>{privacy.informationwecollect.usagelabel}</strong> {privacy.informationwecollect.usage}</p>
-          <p><strong>{privacy.informationwecollect.devicelabel}</strong> {privacy.informationwecollect.device}</p>
-          <p><strong>{privacy.informationwecollect.cookieslabel}</strong> {privacy.informationwecollect.cookies}</p>
-          <p><strong>{privacy.informationwecollect.contactlabel}</strong> {privacy.informationwecollect.contact}</p>
-          {/* How we use */}
-          <h4>{privacy.howweuse?.title}</h4>
-          <p>{privacy.howweuse?.lead}</p>
-          <ul className="list-disc">
+        </div>
+
+        {/* Intro */}
+        <section className="bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-950/30 dark:to-orange-950/30 border-2 border-amber-200 dark:border-amber-800 rounded-2xl p-6 md:p-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
+            <span className="text-3xl">🛡️</span>
+            {privacy.intro.title}
+          </h2>
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{privacy.intro.text}</p>
+        </section>
+
+        {/* Information We Collect */}
+        <section className="bg-white dark:bg-gray-800 border-2 border-amber-100 dark:border-amber-900/30 rounded-2xl p-6 md:p-8 shadow-lg">
+          <h3 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
+            <span className="text-2xl">📊</span>
+            <span><strong>{privacy.informationwecollect.title}</strong> {privacy.informationwecollect.lead}</span>
+          </h3>
+          <div className="space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed">
+            <p><strong className="text-amber-600 dark:text-amber-400">{privacy.informationwecollect.usagelabel}</strong> {privacy.informationwecollect.usage}</p>
+            <p><strong className="text-amber-600 dark:text-amber-400">{privacy.informationwecollect.devicelabel}</strong> {privacy.informationwecollect.device}</p>
+            <p><strong className="text-amber-600 dark:text-amber-400">{privacy.informationwecollect.cookieslabel}</strong> {privacy.informationwecollect.cookies}</p>
+            <p><strong className="text-amber-600 dark:text-amber-400">{privacy.informationwecollect.contactlabel}</strong> {privacy.informationwecollect.contact}</p>
+          </div>
+        </section>
+
+        {/* How We Use */}
+        <section className="bg-white dark:bg-gray-800 border-2 border-amber-100 dark:border-amber-900/30 rounded-2xl p-6 md:p-8 shadow-lg">
+          <h4 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
+            <span className="text-2xl">🎯</span>
+            {privacy.howweuse?.title}
+          </h4>
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">{privacy.howweuse?.lead}</p>
+          <ul className="space-y-3">
             {(privacy.howweuse?.items || []).map((p: string, i: number) => (
-              <li key={i}>{p}</li>
+              <li key={i} className="flex items-start gap-3 text-gray-700 dark:text-gray-300">
+                <span className="flex-shrink-0 w-2 h-2 mt-2 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full" />
+                <span className="flex-1">{p}</span>
+              </li>
             ))}
           </ul>
-          <h5 className="h4">{privacy.cookieslocalstorage.title}</h5>
-          <p>{privacy.cookieslocalstorage.text}</p>
-          <h6 className="h4">{privacy.thirdparty.title}</h6>
-          <p>{privacy.thirdparty.text}</p>
-          <p className="h4">{privacy.security.title}</p>
-          <p>{privacy.security.text}</p>
-          <p className="h4">{privacy.rights.title}</p>
-          <p>{privacy.rights.lead}</p>
-          <ul className="list-disc">
+        </section>
+
+        {/* Cookies & Local Storage */}
+        <section className="bg-white dark:bg-gray-800 border-2 border-amber-100 dark:border-amber-900/30 rounded-2xl p-6 md:p-8 shadow-lg">
+          <h5 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
+            <span className="text-2xl">🍪</span>
+            {privacy.cookieslocalstorage.title}
+          </h5>
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{privacy.cookieslocalstorage.text}</p>
+        </section>
+
+        {/* Third Party */}
+        <section className="bg-white dark:bg-gray-800 border-2 border-amber-100 dark:border-amber-900/30 rounded-2xl p-6 md:p-8 shadow-lg">
+          <h6 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
+            <span className="text-2xl">🔗</span>
+            {privacy.thirdparty.title}
+          </h6>
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{privacy.thirdparty.text}</p>
+        </section>
+
+        {/* Security */}
+        <section className="bg-white dark:bg-gray-800 border-2 border-amber-100 dark:border-amber-900/30 rounded-2xl p-6 md:p-8 shadow-lg">
+          <p className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
+            <span className="text-2xl">🔐</span>
+            {privacy.security.title}
+          </p>
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{privacy.security.text}</p>
+        </section>
+
+        {/* Rights */}
+        <section className="bg-white dark:bg-gray-800 border-2 border-amber-100 dark:border-amber-900/30 rounded-2xl p-6 md:p-8 shadow-lg">
+          <p className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
+            <span className="text-2xl">⚖️</span>
+            {privacy.rights.title}
+          </p>
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">{privacy.rights.lead}</p>
+          <ul className="space-y-3 mb-4">
             {(privacy.rights?.items || []).map((p: string, i: number) => (
-              <li key={i}>{p}</li>
+              <li key={i} className="flex items-start gap-3 text-gray-700 dark:text-gray-300">
+                <span className="flex-shrink-0 w-2 h-2 mt-2 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full" />
+                <span className="flex-1">{p}</span>
+              </li>
             ))}
           </ul>
-          <p>{privacy.rights.contacttext}</p>
-          <p className="h4">{privacy.children.title}</p>
-          <p>{privacy.children.text}</p>
-          <p className="h4">{privacy.changes.title}</p>
-          <p>{privacy.changes.text}</p>
-          <p className="h4">{privacy.contact.title}</p>
-          <p>{privacy.contact.lead}</p>
-          <p>{privacy.contact.emaillabel} {privacy.contact.email}</p>
-          <p>{privacy.contact.websitelabel} {privacy.contact.website}</p>
-          <p>{privacy.contact.closing}</p>
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{privacy.rights.contacttext}</p>
+        </section>
+
+        {/* Children */}
+        <section className="bg-white dark:bg-gray-800 border-2 border-amber-100 dark:border-amber-900/30 rounded-2xl p-6 md:p-8 shadow-lg">
+          <p className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
+            <span className="text-2xl">👶</span>
+            {privacy.children.title}
+          </p>
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{privacy.children.text}</p>
+        </section>
+
+        {/* Changes */}
+        <section className="bg-white dark:bg-gray-800 border-2 border-amber-100 dark:border-amber-900/30 rounded-2xl p-6 md:p-8 shadow-lg">
+          <p className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
+            <span className="text-2xl">🔄</span>
+            {privacy.changes.title}
+          </p>
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{privacy.changes.text}</p>
+        </section>
+
+        {/* Contact */}
+        <section className="bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-950/30 dark:to-orange-950/30 border-2 border-amber-200 dark:border-amber-800 rounded-2xl p-6 md:p-8">
+          <p className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
+            <span className="text-2xl">📧</span>
+            {privacy.contact.title}
+          </p>
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">{privacy.contact.lead}</p>
+          <div className="space-y-2 text-gray-700 dark:text-gray-300">
+            <p><strong className="text-amber-600 dark:text-amber-400">{privacy.contact.emaillabel}</strong> {privacy.contact.email}</p>
+            <p><strong className="text-amber-600 dark:text-amber-400">{privacy.contact.websitelabel}</strong> {privacy.contact.website}</p>
+          </div>
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed mt-6 pt-4 border-t border-amber-300 dark:border-amber-700">{privacy.contact.closing}</p>
         </section>
       </div>
     </PageLayout>

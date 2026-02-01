@@ -1,15 +1,15 @@
 ﻿/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { createGenerateMetadata } from '../../lib/pageUtils';
-export const generateMetadata = createGenerateMetadata('world_transition');
+export const generateMetadata = createGenerateMetadata('world_transformation');
 
-import WorldTransitionContent from './world-transition-client';
+import WorldTransformationContent from './world-transformation-client';
 import StructuredData from '@/app/components/structured-data/StructuredData';
 
 export default function Page() {
   return (
     <>
-      <StructuredData metaKey="world_transition" />
-      <WorldTransitionContent />
+      <StructuredData metaKey="world_transformation" />
+      <WorldTransformationContent />
     </>
   );
 }

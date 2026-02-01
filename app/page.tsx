@@ -7,6 +7,7 @@ import GitSupport from './components/git-support/git-support';
 import HeroSection from './components/hero-section/herosection';
 import OurFourCoreYugas from './components/our-four-core-yugas/ourfourcoreyugas';
 import UnderstandingOfSanatana from './components/understanding/sanatanaDharmam';
+import WelcomePage from './components/welcome/page';
 
 // Cache critical CSS at module level to avoid repeated file reads
 let cachedCriticalCss: string | null = null;
@@ -46,6 +47,7 @@ export default async function Home() {
     <>
       {criticalCss ? <style dangerouslySetInnerHTML={{ __html: criticalCss }} /> : null}
       <main>
+        <WelcomePage />
         <HeroSection />
         <UnderstandingOfSanatana />
         <GitSupport />
