@@ -466,7 +466,7 @@ async function downloadLocales({ force = false } = {}) {
 
 /* ============== CLI ================= */
 
-if (require.production === module) {
+if (require.main === module) {
   const force = process.argv.includes('--force') || process.env.FORCE_LOCALE_DOWNLOAD === '1' || process.env.DOWNLOAD_LOCALES === '1';
   const skipIfMeta = process.argv.includes('--skip-if-meta') || process.argv.includes('--skip');
   const skipLocaleDownload = process.env.SKIP_LOCALE_DOWNLOAD === '1';
