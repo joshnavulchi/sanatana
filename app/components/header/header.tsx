@@ -17,6 +17,12 @@ const LanguageDropdown = dynamic(() => import("../language-dropdown/language-dro
 
 import styles from './header.module.scss';
 
+// Default fallback values
+const defaultSiteTitle = 'Sanātana Dharma';
+const defaultHeader = {};
+const defaultBanner = null;
+const defaultBanner2 = null;
+
 export default function Header() {
   const { locale } = useLocale();
   const [open, setOpen] = useState(false);
