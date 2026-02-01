@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
-import { loadLocale, getLocaleObject } from 'lib/i18n';
+import { loadLocale } from 'lib/i18n';
 import useLocaleSection from '../hooks/useLocaleSection';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
 import Loader from '@/app/components/loader/loader';
@@ -12,26 +12,9 @@ export default function AboutClient() {
   const { locale, isLoading } = useLocale();
   const ns = useLocaleSection('about');
 
-  // Initialize with current data to prevent empty renders on refresh
-  const getInitialAbout = () => {
-    try {
-      // Use getLocaleObject directly to read from cache synchronously
-      const localeObj = getLocaleObject(locale) as any;
-      if (!localeObj || Object.keys(localeObj).length === 0) {
-        return { title: '', intro: '', sections: [] as any[], disclaimer: '' };
-      }
-      const title = String(localeObj?.about?.title || '');
-      const intro = String(localeObj?.about?.intro || '');
-      const sectionsRaw = parseMaybeObject(localeObj?.about?.sections);
-      const sections = parseSections(sectionsRaw);
-      const disclaimer = String(localeObj?.about?.disclaimer || '');
-      return { title, intro, sections, disclaimer };
-    } catch (e) {
-      return { title: '', intro: '', sections: [] as any[], disclaimer: '' };
-    }
-  };
-
-  const [about, setAbout] = useState(getInitialAbout);
+  // Initialize with empty state to avoid hydration mismatch
+  // useLocaleSection will populate the data properly
+  const [about, setAbout] = useState({ title: '', intro: '', sections: [] as any[], disclaimer: '' });
 
   useEffect(() => {
     let mounted = true;

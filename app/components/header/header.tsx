@@ -4,7 +4,7 @@
 import { useEffect, useRef, useState } from 'react';
 import useLocaleSection from '../../hooks/useLocaleSection';
 import { usePathname } from 'next/navigation';
-import { getLocaleObject, loadLocaleNamespace, DEFAULT_LOCALE } from '../../../lib/i18n';
+import { loadLocaleNamespace, DEFAULT_LOCALE } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
@@ -21,16 +21,11 @@ export default function Header() {
   const { locale } = useLocale();
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
-  const defaultObj = (getLocaleObject(DEFAULT_LOCALE) as any) || {};
-  const defaultSiteTitle = (defaultObj?.sharable_strings?.sitetitle) || 'Sanātana Dharma';
-  const defaultHeader = (defaultObj?.sharable_strings?.header as any) || {};
-  const defaultBanner = (defaultObj && (defaultObj?.sharable_strings?.bannerNotifications ?? defaultObj?.sharable_strings?.banner ?? defaultObj?.sharable_strings?.banner_notifications)) || null;
-  const defaultBanner2 = (defaultObj && (defaultObj?.sharable_strings?.bannerNotifications2 ?? defaultObj?.sharable_strings?.banner2 ?? defaultObj?.sharable_strings?.banner_notifications2)) || null;
   const [translations, setTranslations] = useState<any>({
-    siteTitle: defaultSiteTitle,
-    header: defaultHeader,
-    banner: defaultBanner,
-    banner2: defaultBanner2,
+    siteTitle: 'Sanātana Dharma',
+    header: {},
+    banner: null,
+    banner2: null,
   });
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [expandedKeys, setExpandedKeys] = useState<Record<string, boolean>>({});

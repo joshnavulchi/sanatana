@@ -1,11 +1,11 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import PageLayout from '@/app/components/common/PageLayout';
 import { createGenerateMetadata } from 'lib/pageUtils';
-import { getMeta, detectLocale, t, getLocaleObject } from '../../../lib/i18n';
+import { getMeta, detectLocale, t, getLocaleNamespaceObject } from '../../../lib/i18n';
 export const generateMetadata = createGenerateMetadata('dailypuja_practices');
 
-const _localeObj = getLocaleObject();
-const ns = (_localeObj && ((_localeObj as any)['dailypuja_practices'] || ((_localeObj as any).sharable_strings && (_localeObj as any).sharable_strings['dailypuja_practices']))) || {};
+const _localeObj = getLocaleNamespaceObject('en', 'practices_dailypoojas');
+const ns = (_localeObj && ((_localeObj as any)['practices_dailypoojas'] || (_localeObj as any)['dailypuja_practices'] || _localeObj)) || {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');

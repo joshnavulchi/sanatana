@@ -2,10 +2,10 @@
 
 import PageLayout from '@/app/components/common/PageLayout';
 import { createGenerateMetadata } from 'lib/pageUtils';
-import { t, getMeta, getLocaleObject } from '../../lib/i18n';
+import { t, getMeta, getLocaleNamespaceObject } from '../../lib/i18n';
 
-const _localeObj = getLocaleObject();
-const ns = (_localeObj && ((_localeObj as any)['timelinePoints'] || ((_localeObj as any).sharable_strings && (_localeObj as any).sharable_strings['timelinePoints']))) || {};
+const _localeObj = getLocaleNamespaceObject('en', 'timelapse');
+const ns = (_localeObj && ((_localeObj as any)['timelapse'] || (_localeObj as any)['timelinePoints'])) || {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');

@@ -2,11 +2,11 @@
 import PageLayout from '@/app/components/common/PageLayout';
 import { createGenerateMetadata } from 'lib/pageUtils';
 import { parseList } from 'lib/parseList';
-import { t, detectLocale, getLocaleObject } from '../../lib/i18n';
+import { t, detectLocale, getLocaleNamespaceObject } from '../../lib/i18n';
 // import Link from 'next/link';
 
-const _localeObj = getLocaleObject();
-const ns = (_localeObj && ((_localeObj as any)['sanatanadharma'] || ((_localeObj as any).sharable_strings && (_localeObj as any).sharable_strings['sanatanadharma']))) || {};
+const _localeObj = getLocaleNamespaceObject('en', 'sanatanadharma');
+const ns = (_localeObj && ((_localeObj as any)['sanatanadharma'] || _localeObj)) || {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');

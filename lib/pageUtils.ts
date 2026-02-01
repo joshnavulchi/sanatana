@@ -39,8 +39,16 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
       try {
         const ns = getLocaleNamespaceObject(locale, metaKey) || {};
         if (ns && typeof ns === 'object') {
-          if (ns.meta && typeof ns.meta === 'object') meta = ns.meta as Record<string, unknown>;
-          else meta = ns as Record<string, unknown>;
+          // Handle nested structure: { "metaKey": { "meta": {...} } }
+          if ((ns as any)[metaKey]?.meta && typeof (ns as any)[metaKey].meta === 'object') {
+            meta = (ns as any)[metaKey].meta as Record<string, unknown>;
+          } else if ((ns as any).meta && typeof (ns as any).meta === 'object') {
+            meta = (ns as any).meta as Record<string, unknown>;
+          } else if (ns.meta && typeof ns.meta === 'object') {
+            meta = ns.meta as Record<string, unknown>;
+          } else {
+            meta = ns as Record<string, unknown>;
+          }
         }
       } catch (e) { /* ignore and continue with empty meta */ }
     }

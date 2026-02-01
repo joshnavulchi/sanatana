@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
-import { loadLocale, getLocaleObject } from 'lib/i18n';
+import { loadLocale } from 'lib/i18n';
 import useLocaleSection from '../hooks/useLocaleSection';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
 import Loader from '@/app/components/loader/loader';
@@ -72,9 +72,9 @@ export default function PrivacyPolicy() {
     }
   };
 
+  // Initialize with empty state to avoid hydration mismatch
   const [privacy, setPrivacy] = useState<PrivacyState>(() => {
-    const localeObj = getLocaleObject(locale) as any;
-    return normalizePrivacy(localeObj?.privacy_policy || {});
+    return normalizePrivacy({});
   });
 
   useEffect(() => {

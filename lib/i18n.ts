@@ -59,10 +59,22 @@ export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = ''
     try {
       const fs = require('fs');
       const path = require('path');
-      const filePath = path.join(process.cwd(), 'public', 'locales', locale, `${namespace}.json`);
-      if (fs.existsSync(filePath)) {
-        const content = fs.readFileSync(filePath, 'utf8');
-        return JSON.parse(content);
+      
+      // Try various file naming patterns
+      const candidates = [
+        namespace,
+        namespace.replace(/-/g, '_'),
+        namespace.replace(/_/g, '-'),
+        namespace.split('_').reverse().join('_'),
+        namespace.split('-').reverse().join('-')
+      ];
+      
+      for (const candidate of candidates) {
+        const filePath = path.join(process.cwd(), 'public', 'locales', locale, `${candidate}.json`);
+        if (fs.existsSync(filePath)) {
+          const content = fs.readFileSync(filePath, 'utf8');
+          return JSON.parse(content);
+        }
       }
     } catch (_) { }
   }
@@ -111,17 +123,30 @@ export async function loadLocaleNamespace(locale: string, namespace: string) {
   const existing = (localesCache[locale] as any)[namespace];
   if (existing) return existing;
 
-  try {
-    const url = `/locales/${encodeURIComponent(locale)}/${encodeURIComponent(namespace)}.json`;
-    const resp = await fetch(url);
-    if (resp.ok) {
-      const parsed = await resp.json();
-      try { (localesCache[locale] as any)[namespace] = parsed; } catch (_) { }
-      return parsed;
-    } else {
-      console.warn(`[i18n] loadLocaleNamespace: ${url} returned ${resp.status}`);
+  // Try various naming patterns for the namespace file
+  const candidates = [
+    namespace,
+    namespace.replace(/-/g, '_'),
+    namespace.replace(/_/g, '-'),
+    namespace.split('_').reverse().join('_'),
+    namespace.split('-').reverse().join('-')
+  ];
+
+  for (const candidate of candidates) {
+    try {
+      const url = `/locales/${encodeURIComponent(locale)}/${encodeURIComponent(candidate)}.json`;
+      const resp = await fetch(url);
+      if (resp.ok) {
+        const parsed = await resp.json();
+        try { (localesCache[locale] as any)[namespace] = parsed; } catch (_) { }
+        return parsed;
+      }
+    } catch (e) { 
+      // Continue to next candidate
     }
-  } catch (e) { console.warn(`[i18n] loadLocaleNamespace: error fetching ${namespace} for ${locale}`, e); }
+  }
+  
+  console.warn(`[i18n] loadLocaleNamespace: could not load ${namespace} for ${locale}`);
 
   const full = await loadLocale(locale);
   if (full && typeof full === 'object' && (full as any)[namespace]) {
@@ -164,7 +189,9 @@ export function t(key: string, locale = DEFAULT_LOCALE): any {
   }
   if (Array.isArray(cur)) return cur;
   if (cur !== null && typeof cur === 'object') {
-    try { return JSON.stringify(cur); } catch (_) { return String(cur); }
+    // Return objects as-is instead of stringifying them
+    // This prevents hydration mismatches and JSON string display issues
+    return cur;
   }
   return cur ?? key;
 }
@@ -201,13 +228,53 @@ export function getMeta(metaKey: string, params?: Record<string, string>, locale
         const meta = localeData[metaKey].meta;
         if (looksLikeMeta(meta)) return interpolateObject(meta, params) as Record<string, unknown>;
       }
-      const candidates = [metaKey, metaKey.replace(/-/g, '_'), metaKey.replace(/_/g, '')];
+      // Try various candidate key formats to handle naming inconsistencies
+      const candidates = [
+        metaKey,
+        metaKey.replace(/-/g, '_'),
+        metaKey.replace(/_/g, '-'),
+        metaKey.replace(/_/g, ''),
+        // Handle reversed word order (e.g., 'ritual_practices' <-> 'practices_rituals')
+        metaKey.split('_').reverse().join('_'),
+        metaKey.split('-').reverse().join('-')
+      ];
       for (const candidate of candidates) {
         if (localeData[candidate]?.meta) {
           const meta = localeData[candidate].meta;
           if (looksLikeMeta(meta)) return interpolateObject(meta, params) as Record<string, unknown>;
         }
       }
+    }
+    
+    // Fallback: try to load namespace file directly if index.json doesn't exist
+    if (!localeData || Object.keys(localeData).length === 0) {
+      try {
+        const ns = getLocaleNamespaceObject(locale, metaKey);
+        if (ns && typeof ns === 'object') {
+          // Try multiple key patterns in the namespace file
+          const nsCandidates = [
+            metaKey,
+            metaKey.replace(/-/g, '_'),
+            metaKey.replace(/_/g, '-'),
+            metaKey.split('_').reverse().join('_'),
+            metaKey.split('-').reverse().join('-')
+          ];
+          
+          for (const candidate of nsCandidates) {
+            // Handle nested structure: { "metaKey": { "meta": {...} } }
+            if ((ns as any)[candidate]?.meta) {
+              const meta = (ns as any)[candidate].meta;
+              if (looksLikeMeta(meta)) return interpolateObject(meta, params) as Record<string, unknown>;
+            }
+          }
+          
+          // Handle direct meta structure: { "meta": {...} }
+          if ((ns as any).meta) {
+            const meta = (ns as any).meta;
+            if (looksLikeMeta(meta)) return interpolateObject(meta, params) as Record<string, unknown>;
+          }
+        }
+      } catch (e) { /* ignore */ }
     }
   }
   return interpolateObject({}, params) as Record<string, unknown>;

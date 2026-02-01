@@ -2,9 +2,9 @@
 "use client";
 import LazyImage from '../lazy-image/LazyImage';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useLocale } from '../../context/locale-context';
-import { getLocaleObject } from '../../../lib/i18n';
+import { loadLocaleNamespace } from '../../../lib/i18n';
 type InfoCardProps = {
   src: string;
   alt: string;
@@ -15,22 +15,28 @@ type InfoCardProps = {
 export default function InfoCard({ src, alt, captionKey, width = 400, height = 300 }: InfoCardProps) {
   const { locale } = useLocale();
   const [loading, setLoading] = useState(true)
+  const [caption, setCaption] = useState(captionKey);
 
-  const resolveKey = (key: string) => {
-    try {
-      const full = getLocaleObject(locale) as any;
-      if (!full) return '';
-      const parts = key.split('.');
-      let cur: any = full;
-      for (const p of parts) {
-        if (cur == null) return '';
-        cur = cur[p];
+  useEffect(() => {
+    const resolveKey = async (key: string) => {
+      try {
+        const parts = key.split('.');
+        if (parts.length === 0) return key;
+        const namespace = parts[0];
+        const ns = await loadLocaleNamespace(locale, namespace);
+        if (!ns || typeof ns !== 'object') return key;
+        let cur: any = (ns as any)[namespace] || ns;
+        for (let i = 1; i < parts.length; i++) {
+          if (cur == null) return key;
+          cur = cur[parts[i]];
+        }
+        return typeof cur === 'string' ? cur : key;
+      } catch (e) {
+        return key;
       }
-      return typeof cur === 'string' ? cur : '';
-    } catch (e) {
-      return '';
-    }
-  };
+    };
+    resolveKey(captionKey).then(setCaption);
+  }, [locale, captionKey]);
   return (
     <div className="info-card relative  basis-1/5 p-3 mb-6 md:mb-0 border border-gray-500">
       {/* Wrap figure tag inside link next set href to  */}
@@ -44,7 +50,7 @@ export default function InfoCard({ src, alt, captionKey, width = 400, height = 3
           )}
           {/* Image */}
           <LazyImage src={src} alt={alt} width={width} height={height} onLoad={() => setLoading(false)} />
-          <figcaption className="text-center">{resolveKey(captionKey) || captionKey}</figcaption>
+          <figcaption className="text-center">{caption}</figcaption>
         </figure>
       </Link>
     </div>

@@ -9,7 +9,7 @@ const __getLoc = (p: string) => {
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };
-import { t, getMeta, DEFAULT_LOCALE, detectServerLocaleFromHeaders, detectLocale, getLocaleObject } from '@/lib/i18n';
+import { t, getMeta, DEFAULT_LOCALE, detectServerLocaleFromHeaders, detectLocale, getLocaleNamespaceObject } from '@/lib/i18n';
 
 import { headers } from 'next/headers';
 import useLocaleSection from '../../../../hooks/useLocaleSection';
@@ -49,7 +49,9 @@ export async function createGenerateMetadata({ params, searchParams }: { params:
 
 export function generateStaticParams() {
   try {
-    const chapters = ((getLocaleObject(DEFAULT_LOCALE) as any)?.ramayana?.chapters) || [];
+    // At build time, synchronously load the default locale namespace
+    const loc: any = getLocaleNamespaceObject(DEFAULT_LOCALE, 'scriptures_ramayana') || {};
+    const chapters = ((loc?.scriptures_ramayana?.chapters) || (loc?.ramayana?.chapters) || loc?.chapters) || [];
     if (Array.isArray(chapters) && chapters.length > 0) {
       return chapters.map((c: any) => ({ chapter: String(c.chapter) }));
     }

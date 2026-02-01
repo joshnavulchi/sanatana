@@ -9,7 +9,7 @@ const __getLoc = (p: string) => {
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };
-import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
+import { t, detectLocale, getLocaleNamespaceObject, getMeta } from '../../../lib/i18n';
 import PageLayout from '@/app/components/common/PageLayout';
 import useLocaleSection from '../../hooks/useLocaleSection';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
@@ -20,7 +20,7 @@ export default function Page({ searchParams }: any) {
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
     const k: any = getMeta('philosophy_samsara', {}, locale) || {};
-    const loc: any = getLocaleObject(locale) || {};
+    const loc: any = getLocaleNamespaceObject(locale, 'philosophy_samsara') || {};
     const samsara = loc?.philosophy_samsara || {};
     return {
       title: typeof k.title === 'string' ? k.title : (samsara.title || __getLoc('philosophy_samsara.title') || 'Samsara Philosophy'),

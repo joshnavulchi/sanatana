@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
-import { getLocaleObject, loadLocaleNamespace } from '../../../lib/i18n';
+import { loadLocaleNamespace } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
 import { parseList } from 'lib/parseList';
 import LazyImage from '../lazy-image/LazyImage';
@@ -16,20 +16,9 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
 
   const { locale } = useLocale();
 
-  const localeObj = getLocaleObject(locale) as any;
-  const initialHero = (localeObj && localeObj.home && typeof localeObj.home === 'object')
-    ? localeObj.home.hero || localeObj.home
-    : {};
-
-  const [hero, setHero] = useState<Record<string, any>>(initialHero || {});
+  const [hero, setHero] = useState<Record<string, any>>({});
 
   useEffect(() => {
-    const obj = getLocaleObject(locale) as any;
-    if (obj && obj.home && obj.home.hero) {
-      setHero(obj.home.hero);
-      return;
-    }
-
     let cancelled = false;
     loadLocaleNamespace(locale, 'home').then((ns: any) => {
       if (cancelled) return;

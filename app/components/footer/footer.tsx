@@ -2,7 +2,7 @@
 "use client";
 
 import { useEffect, useState } from 'react';
-import { getLocaleObject, loadLocaleNamespace } from '../../../lib/i18n';
+import { loadLocaleNamespace } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
 import { parseList } from 'lib/parseList';
 import { usePathname } from 'next/navigation';
@@ -14,22 +14,10 @@ export default function Footer() {
   const { locale } = useLocale();
   const pathname = usePathname();
 
-  const localeObj = getLocaleObject(locale) as any;
-  const initialFooter = (localeObj && localeObj.sharable_strings)
-    ? (localeObj.sharable_strings.footer || localeObj.sharable_strings)
-    : {};
-
-  const [footer, setFooter] = useState<Record<string, any>>(initialFooter || {});
+  const [footer, setFooter] = useState<Record<string, any>>({});
 
   useEffect(() => {
-    // If we already have sections from the runtime cache, use them.
-    const obj = getLocaleObject(locale) as any;
-    if (obj && obj.sharable_strings && obj.sharable_strings.footer) {
-      setFooter(obj.sharable_strings.footer);
-      return;
-    }
-
-    // Otherwise load the `sharable_strings` namespace once for this locale and update state.
+    // Load the `sharable_strings` namespace once for this locale and update state.
     let cancelled = false;
     loadLocaleNamespace(locale, 'sharable_strings').then((ns: any) => {
       if (cancelled) return;

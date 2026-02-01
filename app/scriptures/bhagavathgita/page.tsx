@@ -4,10 +4,10 @@ import PageLayout from '@/app/components/common/PageLayout';
 import LazyImage from '@/app/components/lazy-image/LazyImage';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import { parseList } from 'lib/parseList';
-import { t, detectLocale, getLocaleObject } from '../../../lib/i18n';
+import { t, detectLocale, getLocaleNamespaceObject } from '../../../lib/i18n';
 
-const _localeObj = getLocaleObject();
-const ns = (_localeObj && ((_localeObj as any)['scriptures_bhagavathgita'] || ((_localeObj as any).sharable_strings && (_localeObj as any).sharable_strings['scriptures_bhagavathgita']))) || {};
+const _localeObj = getLocaleNamespaceObject('en', 'scriptures_bhagavathgita');
+const ns = (_localeObj && ((_localeObj as any)['scriptures_bhagavathgita'] || _localeObj)) || {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');

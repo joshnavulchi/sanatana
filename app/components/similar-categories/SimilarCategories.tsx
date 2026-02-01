@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 // removed useT usage; translations read directly from runtime locale object
-import { getLocaleObject, loadLocale } from '../../../lib/i18n';
+import { loadLocaleNamespace } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
 
 import styles from './SimilarCategories.module.scss';
@@ -26,11 +26,12 @@ export default function SimilarCategories({
     let mounted = true;
     (async () => {
       try {
-        await loadLocale(locale);
+        const ns = await loadLocaleNamespace(locale, 'sharable_strings');
         if (!mounted) return;
-        const locObj = (getLocaleObject(locale) as any) || {};
-        // Try multiple paths to find navigation data
-        const navData = locObj?.nav || locObj?.header || locObj?.sharable_strings?.nav || locObj?.sharable_strings?.header || {};
+        const locObj = (ns && typeof ns === 'object') ? ns : {};
+        // The navigation data is under sharable_strings.header or sharable_strings.footer
+        const sharableStrings = (locObj as any)?.sharable_strings;
+        const navData = sharableStrings?.header || sharableStrings?.footer || (locObj as any)?.header || {};
         // Extract categories with their navigation items
         const extractedCategories: Array<{ key: string; title: string; links: Array<{ key: string; label: string; href: string }> }> = [];
         // Define all known categories to ensure they're included

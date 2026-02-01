@@ -1,38 +1,46 @@
 "use client";
 
 import { useEffect, useState } from 'react';
-import { getLocaleObject, loadLocaleNamespace } from '../../lib/i18n';
+import { loadLocaleNamespace, getLocaleNamespaceObject } from '../../lib/i18n';
 import { useLocale } from '../context/locale-context';
 
 // Hook: read a primary locale file/object for a component.
-// - `section` is the primary filename (e.g., 'sharable_strings', 'home', 'header')
+// - `section` is the primary filename (e.g., 'sharable_strings', 'home', 'about')
 // Returns the resolved object (may be {} until loaded).
 export default function useLocaleSection(section: string) {
   const { locale } = useLocale();
   const [obj, setObj] = useState<Record<string, any>>(() => {
-    try {
-      const full = getLocaleObject(locale) as any;
-      if (!full) return {};
-      // prefer top-level file, else fall back to sharable_strings
-      return full[section] || (full.sharable_strings && full.sharable_strings[section]) || (section === 'sharable_strings' ? (full.sharable_strings || {}) : {});
-    } catch (_) { return {}; }
+    // Start with empty object to avoid hydration mismatch
+    // Server-side namespace loading will happen in useEffect
+    if (typeof window === 'undefined') {
+      try {
+        const ns = getLocaleNamespaceObject(locale, section);
+        if (ns && typeof ns === 'object') {
+          // Handle nested structure: { "section": { ...data } }
+          if ((ns as any)[section]) {
+            return (ns as any)[section];
+          }
+          return ns;
+        }
+      } catch (_) { }
+    }
+    return {};
   });
 
   useEffect(() => {
     let cancelled = false;
-    try {
-      const full = getLocaleObject(locale) as any;
-      if (full && (full[section] || (full.sharable_strings && full.sharable_strings[section]) || (section === 'sharable_strings' && full.sharable_strings))) {
-        const val = full[section] || (full.sharable_strings && full.sharable_strings[section]) || (section === 'sharable_strings' ? full.sharable_strings : {});
-        setObj(val || {});
-        return;
-      }
-    } catch (_) { }
 
+    // Try to load namespace file for this section
     loadLocaleNamespace(locale, section).then((ns: any) => {
       if (cancelled) return;
-      const payload = ns && ns[section] ? ns[section] : ns;
-      if (payload) setObj(payload);
+      if (!ns || typeof ns !== 'object') return;
+      
+      // Handle nested structure: { "section": { ...data } }
+      // or direct structure: { ...data }
+      const payload = ns[section] ? ns[section] : ns;
+      if (payload && typeof payload === 'object') {
+        setObj(payload);
+      }
     }).catch(() => { });
 
     return () => { cancelled = true; };

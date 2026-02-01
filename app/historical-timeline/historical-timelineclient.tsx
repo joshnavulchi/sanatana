@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
-import { loadLocale, getLocaleObject } from 'lib/i18n';
+import { loadLocale } from 'lib/i18n';
 import useLocaleSection from '../hooks/useLocaleSection';
 import { parseMaybeObject } from 'lib/parseContent';
 import Loader from '@/app/components/loader/loader';
@@ -53,34 +53,8 @@ export default function HistoricalTimeline() {
   const { locale, isLoading } = useLocale();
   const ns = useLocaleSection('historical_timeline');
 
-  // Initialize with current data to prevent empty renders on refresh
-  const getInitialTimeline = (): TimelineState => {
-    try {
-      const localeObj = getLocaleObject(locale) as any;
-      if (!localeObj || Object.keys(localeObj).length === 0) {
-        return { title: '', description: '' };
-      }
-      const timeline = localeObj?.historical_timeline || {};
-      return {
-        title: timeline.title || '',
-        description: timeline.description || '',
-        intro: timeline.content?.intro || {},
-        sections: timeline.content?.sections || [],
-        india: timeline.india || {},
-        persia: timeline.persia || {},
-        rome: timeline.rome || {},
-        egypt: timeline.egypt || {},
-        china: timeline.china || {},
-        greece: timeline.greece || {},
-        faq: timeline.faq || {},
-        diagrams: timeline.diagrams || {}
-      };
-    } catch (e) {
-      return { title: '', description: '' };
-    }
-  };
-
-  const [timeline, setTimeline] = useState<TimelineState>(getInitialTimeline);
+  // Initialize with empty state to avoid hydration mismatch
+  const [timeline, setTimeline] = useState<TimelineState>({ title: '', description: '' });
 
   // Small subcomponent to render regional rulers to avoid repetition
   const Region = ({ title, data }: { title: string; data?: RegionData }) => {

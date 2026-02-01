@@ -1,10 +1,8 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import PageLayout from '@/app/components/common/PageLayout';
-import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
+import { t, detectLocale, getLocaleNamespaceObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
 export const generateMetadata = createGenerateMetadata('philosophy_moksha');
-
-const _localeObj = getLocaleObject();
 const ns = (_localeObj && ((_localeObj as any)['philosophy_moksha'] || ((_localeObj as any).sharable_strings && (_localeObj as any).sharable_strings['philosophy_moksha']))) || {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
@@ -20,7 +18,7 @@ export default function Page({ searchParams }: any) {
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
     const k: any = getMeta('philosophy_moksha', {}, locale) || {};
-    const loc: any = getLocaleObject(locale) || {};
+    const loc: any = getLocaleNamespaceObject(locale, 'philosophy_moksha') || {};
     const moksha = loc?.philosophy_moksha || {};
     return {
       title: typeof k.title === 'string' ? k.title : (moksha.title || __getLoc('philosophy_moksha.title') || 'Moksha Philosophy'),

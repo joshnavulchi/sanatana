@@ -5,7 +5,6 @@ import { useLocale } from '../context/locale-context';
 import useLocaleSection from '../hooks/useLocaleSection';
 import { parseMaybeObject } from 'lib/parseContent';
 import { parseList } from 'lib/parseList';
-import { getLocaleObject } from 'lib/i18n';
 import FaqAccordion from '../components/faqaccordion/faqaccordion';
 import ContactForm from '../components/contact/ContactForm';
 import Loader from '@/app/components/loader/loader';
@@ -68,20 +67,8 @@ export default function ContactPage() {
   const { locale, isLoading } = useLocale();
   const ns = useLocaleSection('contact');
 
-  // Initialize state with current translation data to prevent empty renders
-  const getInitialPage = () => {
-    try {
-      const localeObj = getLocaleObject(locale) as any;
-      if (!localeObj || Object.keys(localeObj).length === 0) return {};
-
-      const raw = parseMaybeObject(localeObj?.contact);
-      const obj = (raw && typeof raw === 'object') ? raw : (typeof raw === 'string' ? parseMaybeObject(raw) : {});
-      const transform = (o: any) => {
-        if (!o || typeof o !== 'object') return o;
-        const out = { ...o };
-        for (const k of Object.keys(out)) {
-          if (['sections', 'list', 'items', 'columns'].includes(k)) {
-            out[k] = parseList(out[k]);
+  // Initialize with empty state to avoid hydration mismatch
+  const [page, setPage] = useState({});
           }
         }
         return out;

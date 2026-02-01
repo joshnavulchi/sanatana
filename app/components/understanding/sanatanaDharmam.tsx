@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from 'react';
-import { getLocaleObject, loadLocaleNamespace } from '../../../lib/i18n';
+import { loadLocaleNamespace } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
 import { parseList } from 'lib/parseList';
 import Link from 'next/link';
@@ -10,22 +10,10 @@ import styles from './sanatanadharmam.module.scss';
 export default function UnderstandingOfSanatana() {
   const { locale } = useLocale();
 
-  const localeObj = getLocaleObject(locale) as any;
-  const initialSections = (localeObj && localeObj.home && Array.isArray(localeObj.home.sections))
-    ? localeObj.home.sections
-    : [];
-
-  const [sections, setSections] = useState<any[]>(initialSections);
+  const [sections, setSections] = useState<any[]>([]);
 
   useEffect(() => {
-    // If we already have sections from the runtime cache, use them.
-    const obj = getLocaleObject(locale) as any;
-    if (obj && obj.home && Array.isArray(obj.home.sections)) {
-      setSections(obj.home.sections);
-      return;
-    }
-
-    // Otherwise load the `home` namespace once for this locale and update state.
+    // Load the `home` namespace once for this locale and update state.
     let cancelled = false;
     loadLocaleNamespace(locale, 'home').then((ns: any) => {
       if (cancelled) return;

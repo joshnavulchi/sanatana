@@ -9,7 +9,7 @@ const __getLoc = (p: string) => {
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };
-import { t, getMeta, DEFAULT_LOCALE, detectLocale, getLocaleObject } from '@/lib/i18n';
+import { t, getMeta, DEFAULT_LOCALE, detectLocale, getLocaleNamespaceObject } from '@/lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageArticleJsonLd from '@/app/components/structured-data/PageArticleJsonLd';
 import useLocaleSection from '../../../../hooks/useLocaleSection';
@@ -17,11 +17,9 @@ import Link from 'next/link';
 export const generateMetadata = createGenerateMetadata('puranas_slug');
 export function generateStaticParams() {
   try {
-    // At build time, synchronously load the default locale object
-    // and read the chapters array directly to avoid dynamic import
-    // pitfalls. `getLocaleObject` uses a server-side `require`.
-    const loc: any = getLocaleObject(DEFAULT_LOCALE) || {};
-    const chapters = (loc?.puranas && loc.puranas.chapters) || [];
+    // At build time, synchronously load the default locale namespace
+    const loc: any = getLocaleNamespaceObject(DEFAULT_LOCALE, 'scriptures_puranas') || {};
+    const chapters = ((loc?.scriptures_puranas?.chapters) || (loc?.puranas?.chapters) || loc?.chapters) || {};
     if (Array.isArray(chapters) && chapters.length > 0) {
       return chapters.map((c: any) => ({ chapter: String(c.chapter) }));
     }

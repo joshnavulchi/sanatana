@@ -9,7 +9,7 @@ const __getLoc = (p: string) => {
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };
-import { t, detectLocale, getLocaleObject } from '../../../lib/i18n';
+import { t, detectLocale, getLocaleNamespaceObject } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
 import useLocaleSection from '../../hooks/useLocaleSection';
 import PageLayout from '@/app/components/common/PageLayout';
@@ -18,7 +18,7 @@ export const generateMetadata = createGenerateMetadata('philosophy_ahimsa');
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
-  const loc: any = getLocaleObject(locale) || {};
+  const loc: any = getLocaleNamespaceObject(locale, 'philosophy_ahimsa') || {};
   const ahimsa = loc?.philosophy_ahimsa || {};
   const title = ahimsa.title || __getLoc('philosophy_ahimsa.title') || 'Ahimsa Philosophy';
   const definition: string[] = Array.isArray(ahimsa.definition) ? ahimsa.definition : (ahimsa.definition ? [String(ahimsa.definition)] : []);

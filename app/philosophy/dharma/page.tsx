@@ -9,7 +9,7 @@ const __getLoc = (p: string) => {
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };
-import { t, detectLocale, getLocaleObject } from '../../../lib/i18n';
+import { t, detectLocale, getLocaleNamespaceObject } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
 import useLocaleSection from '../../hooks/useLocaleSection';
 import PageLayout from '@/app/components/common/PageLayout';
@@ -18,7 +18,7 @@ export const generateMetadata = createGenerateMetadata('philosophy_dharma');
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
-  const loc: any = getLocaleObject(locale) || {};
+  const loc: any = getLocaleNamespaceObject(locale, 'philosophy_dharma') || {};
   const dharma = loc?.philosophy_dharma || {};
   const title = dharma.title || __getLoc('philosophy_dharma.title') || 'Dharma Philosophy';
   const definition: string[] = Array.isArray(dharma.definition) ? dharma.definition : (dharma.definition ? [String(dharma.definition)] : []);

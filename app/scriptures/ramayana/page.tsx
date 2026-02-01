@@ -1,11 +1,11 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import PageLayout from '@/app/components/common/PageLayout';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
-import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
+import { t, detectLocale, getLocaleNamespaceObject, getMeta } from '../../../lib/i18n';
 export const generateMetadata = createGenerateMetadata('scriptures_ramayana');
 
-const _localeObj = getLocaleObject();
-const ns = (_localeObj && ((_localeObj as any)['scriptures_ramayana'] || ((_localeObj as any).sharable_strings && (_localeObj as any).sharable_strings['scriptures_ramayana']))) || {};
+const _localeObj = getLocaleNamespaceObject('en', 'scriptures_ramayana');
+const ns = (_localeObj && ((_localeObj as any)['scriptures_ramayana'] || ((_localeObj as any).ramayana) || _localeObj)) || {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');
@@ -20,7 +20,7 @@ export default function Page({ searchParams }: any) {
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
     const k: any = getMeta('scriptures_ramayana', {}, locale) || {};
-    const loc: any = getLocaleObject(locale) || {};
+    const loc: any = getLocaleNamespaceObject(locale, 'scriptures_ramayana') || {};
     const ram = loc?.scriptures_ramayana || {};
     const title = typeof k.title === 'string' ? k.title : (ram.title || __getLoc('scriptures_ramayana.title') || '');
     const author = k.source || ram.source || '';
