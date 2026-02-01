@@ -4,8 +4,8 @@ const ns = useLocaleSection('puranic_story');
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');
-  if (parts[0] === 'puranic_story') parts.shift();
-  let cur: any = ns as any;
+  const namespaceKey = parts[0] === 'puranic_story' ? parts.shift() : 'puranic_story';
+  let cur: any = (ns as any)?.[namespaceKey!] || ns as any;
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };

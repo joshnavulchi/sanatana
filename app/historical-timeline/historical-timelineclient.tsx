@@ -85,18 +85,21 @@ export default function HistoricalTimeline() {
       } catch (e) { }
       if (!mounted) return;
 
-      const title = ns?.title || '';
-      const description = ns?.description || '';
-      const intro = parseMaybeObject(ns ? ns.content?.intro : '') || {};
-      const sections = ns?.content?.sections || [];
-      const india = parseMaybeObject(ns ? ns.india : '') || {};
-      const persia = parseMaybeObject(ns ? ns.persia : '') || {};
-      const rome = parseMaybeObject(ns ? ns.rome : '') || {};
-      const egypt = parseMaybeObject(ns ? ns.egypt : '') || {};
-      const china = parseMaybeObject(ns ? ns.china : '') || {};
-      const greece = parseMaybeObject(ns ? ns.greece : '') || {};
-      const faq = parseMaybeObject(ns ? ns.faq : '') || {};
-      const diagrams = parseMaybeObject(ns ? ns.diagrams : '') || {};
+      // Access nested data from historical_timeline namespace
+      const data = (ns as any)?.historical_timeline || ns;
+      
+      const title = data?.title || '';
+      const description = data?.description || '';
+      const intro = parseMaybeObject(data?.content?.intro) || {};
+      const sections = data?.content?.sections || [];
+      const india = parseMaybeObject(data?.india) || {};
+      const persia = parseMaybeObject(data?.persia) || {};
+      const rome = parseMaybeObject(data?.rome) || {};
+      const egypt = parseMaybeObject(data?.egypt) || {};
+      const china = parseMaybeObject(data?.china) || {};
+      const greece = parseMaybeObject(data?.greece) || {};
+      const faq = parseMaybeObject(data?.faq) || {};
+      const diagrams = parseMaybeObject(data?.diagrams) || {};
 
       setTimeline({
         title,
@@ -116,7 +119,7 @@ export default function HistoricalTimeline() {
     return () => {
       mounted = false;
     };
-  }, [locale]);
+  }, [locale, ns]);
 
   if (isLoading && !timeline.title) {
     return (

@@ -5,8 +5,8 @@ const ns = (_localeObj && ((_localeObj as any)['sitemap'] || ((_localeObj as any
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');
-  if (parts[0] === 'sitemap') parts.shift();
-  let cur: any = ns as any;
+  const namespaceKey = parts[0] === 'sitemap' ? parts.shift() : 'sitemap';
+  let cur: any = (ns as any)?.[namespaceKey!] || ns as any;
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };

@@ -4,8 +4,8 @@ const ns = useLocaleSection('philosophy_samsara');
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');
-  if (parts[0] === 'philosophy_samsara') parts.shift();
-  let cur: any = ns as any;
+  const namespaceKey = parts[0] === 'philosophy_samsara' ? parts.shift() : 'philosophy_samsara';
+  let cur: any = (ns as any)?.[namespaceKey!] || ns as any;
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };

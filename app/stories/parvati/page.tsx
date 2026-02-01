@@ -4,8 +4,8 @@ const ns = useLocaleSection('parvati_story');
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');
-  if (parts[0] === 'parvati_story') parts.shift();
-  let cur: any = ns as any;
+  const namespaceKey = parts[0] === 'parvati_story' ? parts.shift() : 'parvati_story';
+  let cur: any = (ns as any)?.[namespaceKey!] || ns as any;
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };
