@@ -2,10 +2,9 @@
 import React, { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
-import { useT } from '../hooks/useT';
+import useLocaleSection from '../hooks/useLocaleSection';
 import { parseMaybeObject } from 'lib/parseContent';
 import { parseList } from 'lib/parseList';
-import { getLocaleObject } from 'lib/i18n';
 import FaqAccordion from '../components/faqaccordion/faqaccordion';
 import ContactForm from '../components/contact/ContactForm';
 import Loader from '@/app/components/loader/loader';
@@ -66,39 +65,16 @@ function RenderNode({ node, nodeKey, showHeading }: { node: any; nodeKey?: strin
 
 export default function ContactPage() {
   const { locale, isLoading } = useLocale();
-  const t = useT();
-  
-  // Initialize state with current translation data to prevent empty renders
-  const getInitialPage = () => {
-    try {
-      const localeObj = getLocaleObject(locale) as any;
-      if (!localeObj || Object.keys(localeObj).length === 0) return {};
-      
-      const raw = parseMaybeObject(localeObj?.contact);
-      const obj = (raw && typeof raw === 'object') ? raw : (typeof raw === 'string' ? parseMaybeObject(raw) : {});
-      const transform = (o: any) => {
-        if (!o || typeof o !== 'object') return o;
-        const out = { ...o };
-        for (const k of Object.keys(out)) {
-          if (['sections','list','items','columns'].includes(k)) {
-            out[k] = parseList(out[k]);
-          }
-        }
-        return out;
-      };
-      return transform(obj) || {};
-    } catch (e) {
-      return {};
-    }
-  };
-  
-  const [page, setPage] = useState<any>(getInitialPage);
+  const ns = useLocaleSection('contact');
+
+  // Initialize with empty state to avoid hydration mismatch
+  const [page, setPage] = useState<any>({});
 
   useEffect(() => {
     let mounted = true;
     (() => {
       if (!mounted) return;
-      const raw = parseMaybeObject(t('contact'));
+      const raw = parseMaybeObject(ns ? ns : '');
       const obj = (raw && typeof raw === 'object') ? raw : (typeof raw === 'string' ? parseMaybeObject(raw) : {});
       // Normalize common list-like fields so client renders like server
       try {
@@ -106,7 +82,7 @@ export default function ContactPage() {
           if (!o || typeof o !== 'object') return o;
           const out = { ...o };
           for (const k of Object.keys(out)) {
-            if (['sections','list','items','columns'].includes(k)) {
+            if (['sections', 'list', 'items', 'columns'].includes(k)) {
               out[k] = parseList(out[k]);
             }
           }
@@ -118,7 +94,7 @@ export default function ContactPage() {
       }
     })();
     return () => { mounted = false; };
-  }, [locale]);
+  }, [locale, ns]);
 
   if (isLoading && !page.title) {
     return (
@@ -133,7 +109,7 @@ export default function ContactPage() {
   return (
     <PageLayout metaKey="contact" title={page.title} breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title || 'contact' }]} className={`${styles.contactPage} layout-sm`}>
       {page.subtitle ? <p>{page.subtitle}</p> : null}
-      {Object.keys(page).filter(k => !['title','subtitle','meta','schema','id','type', 'required', 'faq'].includes(k)).map((k) => (
+      {Object.keys(page).filter(k => !['title', 'subtitle', 'meta', 'schema', 'id', 'type', 'required', 'faq'].includes(k)).map((k) => (
         <div key={k}>
           <RenderNode nodeKey={k} node={page[k]} showHeading={false} />
         </div>

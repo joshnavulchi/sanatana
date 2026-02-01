@@ -46,7 +46,7 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
   }
 
   return (
-    <div className="cookies-preference-wrapper fixed inset-0 max-w-4xl z-50 flex items-center justify-center">
+    <div className="cookies-preference-wrapper fixed inset-0 mx-auto max-w-4xl z-50 flex items-center justify-center">
       <div className="bg-white border rounded shadow-md flex flex-col items-center gap-2">
         <div className="w-full flex items-start justify-between">
           <b>Cookie Preference Manager</b>

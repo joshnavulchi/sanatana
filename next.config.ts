@@ -17,6 +17,8 @@ const nextConfig = {
   // conflict warning and allows webpack overrides to continue working.
   turbopack: {},
   reactStrictMode: true,
+  // SWC minifier is handled by Next.js automatically in modern versions.
+  // `swcMinify` is removed to avoid unrecognized-option warnings.
 
   // Compiler options for modern browsers
   compiler: {
@@ -76,7 +78,7 @@ const nextConfig = {
         try {
           // Add CSS minimizer in production builds. The plugin is optional at runtime
           // so requiring it here won't break the build when it's absent.
-           
+
           const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
           cfg.optimization = cfg.optimization || {};
@@ -87,7 +89,7 @@ const nextConfig = {
         }
         // Ensure JS minification is enabled in webpack as a fallback
         try {
-           
+
           const TerserPlugin = require('terser-webpack-plugin');
           cfg.optimization.minimize = true;
           cfg.optimization.minimizer.push(new TerserPlugin({ parallel: true }));

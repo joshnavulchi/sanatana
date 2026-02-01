@@ -1,5 +1,15 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
+
+const ns: Record<string, unknown> = {};
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  const namespaceKey = parts[0] === 'philosophy_samsara' ? parts.shift() : 'philosophy_samsara';
+  let cur: any = (ns as any)?.[namespaceKey!] || ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
+import { t, detectLocale, getLocaleNamespaceObject, getMeta } from '../../../lib/i18n';
 import PageLayout from '@/app/components/common/PageLayout';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
 export const generateMetadata = createGenerateMetadata('philosophy_samsara');
@@ -9,10 +19,10 @@ export default function Page({ searchParams }: any) {
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
     const k: any = getMeta('philosophy_samsara', {}, locale) || {};
-    const loc: any = getLocaleObject(locale) || {};
+    const loc: any = getLocaleNamespaceObject(locale, 'philosophy_samsara') || {};
     const samsara = loc?.philosophy_samsara || {};
     return {
-      title: typeof k.title === 'string' ? k.title : (samsara.title || t('philosophy_samsara.title', locale) || 'Samsara Philosophy'),
+      title: typeof k.title === 'string' ? k.title : (samsara.title || __getLoc('philosophy_samsara.title') || 'Samsara Philosophy'),
       definition: k.definition || samsara.definition,
       core_principles: Array.isArray(k.core_principles) ? k.core_principles : (Array.isArray(samsara.core_principles) ? samsara.core_principles : []),
       origin: k.origin || samsara.origin || {},

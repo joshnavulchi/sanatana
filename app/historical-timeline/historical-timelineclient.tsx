@@ -2,9 +2,9 @@
 import React, { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
-import { loadLocale, getLocaleObject } from 'lib/i18n';
-import { useT } from '../hooks/useT';
-import { parseSections, parseMaybeObject } from 'lib/parseContent';
+import { loadLocale } from 'lib/i18n';
+import useLocaleSection from '../hooks/useLocaleSection';
+import { parseMaybeObject } from 'lib/parseContent';
 import Loader from '@/app/components/loader/loader';
 import TextToSpeech from '../components/text-to-speech/TextToSpeech';
 import FaqAccordion from '@/app/components/faqaccordion/faqaccordion';
@@ -49,59 +49,57 @@ interface TimelineState {
   };
 }
 
+// Small subcomponent to render regional rulers to avoid repetition
+const Region = ({ title, data }: { title: string; data?: RegionData }) => {
+  if (!data || !data.rulers || data.rulers.length === 0) return null;
+  return (
+    <div className="mb-6">
+      <h4>{title}</h4>
+      {data.description && <p className="mb-4">{data.description}</p>}
+      <div className="space-y-3">
+        {data.rulers.map((ruler: Ruler, i: number) => (
+          <div key={i} className="p-4 border rounded">
+            <h5>{ruler.name}</h5>
+            {ruler.dynasty && <p className="text-sm"><strong>Dynasty:</strong> {ruler.dynasty}</p>}
+            <p className="text-sm"><strong>Reign:</strong> {ruler.reign}</p>
+            {ruler.notes && <p className="text-sm italic">{ruler.notes}</p>}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
 export default function HistoricalTimeline() {
   const { locale, isLoading } = useLocale();
-  const t = useT();
+  const ns = useLocaleSection('historical_timeline');
 
-  // Initialize with current data to prevent empty renders on refresh
-  const getInitialTimeline = (): TimelineState => {
-    try {
-      const localeObj = getLocaleObject(locale) as any;
-      if (!localeObj || Object.keys(localeObj).length === 0) {
-        return { title: '', description: '' };
-      }
-      const timeline = localeObj?.historical_timeline || {};
-      return {
-        title: timeline.title || '',
-        description: timeline.description || '',
-        intro: timeline.content?.intro || {},
-        sections: timeline.content?.sections || [],
-        india: timeline.india || {},
-        persia: timeline.persia || {},
-        rome: timeline.rome || {},
-        egypt: timeline.egypt || {},
-        china: timeline.china || {},
-        greece: timeline.greece || {},
-        faq: timeline.faq || {},
-        diagrams: timeline.diagrams || {}
-      };
-    } catch (e) {
-      return { title: '', description: '' };
-    }
-  };
-
-  const [timeline, setTimeline] = useState<TimelineState>(getInitialTimeline);
+  // Initialize with empty state to avoid hydration mismatch
+  const [timeline, setTimeline] = useState<TimelineState>({ title: '', description: '' });
 
   useEffect(() => {
     let mounted = true;
     (async () => {
       try {
-        await loadLocale(locale).catch(() => {});
-      } catch (e) {}
+        await loadLocale(locale).catch(() => { });
+      } catch (e) { }
       if (!mounted) return;
 
-      const title = t('historical_timeline.title') || '';
-      const description = t('historical_timeline.description') || '';
-      const intro = parseMaybeObject(t('historical_timeline.content.intro'));
-      const sections = t('historical_timeline.content.sections') || [];
-      const india = parseMaybeObject(t('historical_timeline.india')) || {};
-      const persia = parseMaybeObject(t('historical_timeline.persia')) || {};
-      const rome = parseMaybeObject(t('historical_timeline.rome')) || {};
-      const egypt = parseMaybeObject(t('historical_timeline.egypt')) || {};
-      const china = parseMaybeObject(t('historical_timeline.china')) || {};
-      const greece = parseMaybeObject(t('historical_timeline.greece')) || {};
-      const faq = parseMaybeObject(t('historical_timeline.faq')) || {};
-      const diagrams = parseMaybeObject(t('historical_timeline.diagrams')) || {};
+      // Access nested data from historical_timeline namespace
+      const data = (ns as any)?.historical_timeline || ns;
+      
+      const title = data?.title || '';
+      const description = data?.description || '';
+      const intro = parseMaybeObject(data?.content?.intro) || {};
+      const sections = data?.content?.sections || [];
+      const india = parseMaybeObject(data?.india) || {};
+      const persia = parseMaybeObject(data?.persia) || {};
+      const rome = parseMaybeObject(data?.rome) || {};
+      const egypt = parseMaybeObject(data?.egypt) || {};
+      const china = parseMaybeObject(data?.china) || {};
+      const greece = parseMaybeObject(data?.greece) || {};
+      const faq = parseMaybeObject(data?.faq) || {};
+      const diagrams = parseMaybeObject(data?.diagrams) || {};
 
       setTimeline({
         title,
@@ -121,7 +119,7 @@ export default function HistoricalTimeline() {
     return () => {
       mounted = false;
     };
-  }, [locale, t]);
+  }, [locale, ns]);
 
   if (isLoading && !timeline.title) {
     return (
@@ -396,107 +394,17 @@ export default function HistoricalTimeline() {
           (timeline.egypt?.rulers && timeline.egypt.rulers.length > 0) ||
           (timeline.china?.rulers && timeline.china.rulers.length > 0) ||
           (timeline.greece?.rulers && timeline.greece.rulers.length > 0)) && (
-          <section className="mb-8">
-            <h3>Historical Rulers by Region</h3>
+            <section className="mb-8">
+              <h3>Historical Rulers by Region</h3>
 
-          {timeline.india && timeline.india.rulers && timeline.india.rulers.length > 0 && (
-            <div className="mb-6">
-              <h4>India</h4>
-              <p className="mb-4">{timeline.india.description}</p>
-              <div className="space-y-3">
-                {timeline.india.rulers.map((ruler: Ruler, i: number) => (
-                  <div key={i} className="p-4 border rounded">
-                    <h5>{ruler.name}</h5>
-                    {ruler.dynasty && <p className="text-sm"><strong>Dynasty:</strong> {ruler.dynasty}</p>}
-                    <p className="text-sm"><strong>Reign:</strong> {ruler.reign}</p>
-                    {ruler.notes && <p className="text-sm italic">{ruler.notes}</p>}
-                  </div>
-                ))}
-              </div>
-            </div>
+              <Region title="India" data={timeline.india} />
+              <Region title="Persia" data={timeline.persia} />
+              <Region title="Rome" data={timeline.rome} />
+              <Region title="Egypt" data={timeline.egypt} />
+              <Region title="China" data={timeline.china} />
+              <Region title="Greece" data={timeline.greece} />
+            </section>
           )}
-
-          {timeline.persia && timeline.persia.rulers && timeline.persia.rulers.length > 0 && (
-            <div className="mb-6">
-              <h4>Persia</h4>
-              <p className="mb-4">{timeline.persia.description}</p>
-              <div className="space-y-3">
-                {timeline.persia.rulers.map((ruler: Ruler, i: number) => (
-                  <div key={i} className="p-4 border rounded">
-                    <h5>{ruler.name}</h5>
-                    <p className="text-sm"><strong>Reign:</strong> {ruler.reign}</p>
-                    {ruler.notes && <p className="text-sm italic">{ruler.notes}</p>}
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {timeline.rome && timeline.rome.rulers && timeline.rome.rulers.length > 0 && (
-            <div className="mb-6">
-              <h4>Rome</h4>
-              <p className="mb-4">{timeline.rome.description}</p>
-              <div className="space-y-3">
-                {timeline.rome.rulers.map((ruler: Ruler, i: number) => (
-                  <div key={i} className="p-4 border rounded">
-                    <h5>{ruler.name}</h5>
-                    <p className="text-sm"><strong>Reign:</strong> {ruler.reign}</p>
-                    {ruler.notes && <p className="text-sm italic">{ruler.notes}</p>}
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {timeline.egypt && timeline.egypt.rulers && timeline.egypt.rulers.length > 0 && (
-            <div className="mb-6">
-              <h4>Egypt</h4>
-              <p className="mb-4">{timeline.egypt.description}</p>
-              <div className="space-y-3">
-                {timeline.egypt.rulers.map((ruler: Ruler, i: number) => (
-                  <div key={i} className="p-4 border rounded">
-                    <h5>{ruler.name}</h5>
-                    <p className="text-sm"><strong>Reign:</strong> {ruler.reign}</p>
-                    {ruler.notes && <p className="text-sm italic">{ruler.notes}</p>}
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {timeline.china && timeline.china.rulers && timeline.china.rulers.length > 0 && (
-            <div className="mb-6">
-              <h4>China</h4>
-              <p className="mb-4">{timeline.china.description}</p>
-              <div className="space-y-3">
-                {timeline.china.rulers.map((ruler: Ruler, i: number) => (
-                  <div key={i} className="p-4 border rounded">
-                    <h5>{ruler.name}</h5>
-                    <p className="text-sm"><strong>Reign:</strong> {ruler.reign}</p>
-                    {ruler.notes && <p className="text-sm italic">{ruler.notes}</p>}
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {timeline.greece && timeline.greece.rulers && timeline.greece.rulers.length > 0 && (
-            <div className="mb-6">
-              <h4>Greece</h4>
-              <p className="mb-4">{timeline.greece.description}</p>
-              <div className="space-y-3">
-                {timeline.greece.rulers.map((ruler: Ruler, i: number) => (
-                  <div key={i} className="p-4 border rounded">
-                    <h4 className="h5">{ruler.name}</h4>
-                    <p className="text-sm"><strong>Reign:</strong> {ruler.reign}</p>
-                    {ruler.notes && <p className="text-sm italic">{ruler.notes}</p>}
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-        </section>
-        )}
 
         {/* FAQ Section */}
         {timeline.faq && timeline.faq.qa && timeline.faq.qa.length > 0 && (

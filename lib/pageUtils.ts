@@ -1,5 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, getMeta, detectLocale, DEFAULT_LOCALE, detectServerLocaleFromHeaders } from './i18n';
+import { t, getMeta, detectLocale, DEFAULT_LOCALE, detectServerLocaleFromHeaders, getLocaleNamespaceObject } from './i18n';
 import { headers } from 'next/headers';
 import { secrets } from './secrets';
 
@@ -31,7 +31,27 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
     }
     let locale = detectLocale(resolvedSearchParams);
     if (!locale) locale = resolveLocaleFromHeaders();
-    const meta = getMeta(metaKey, {}, locale) || {};
+    let meta = getMeta(metaKey, {}, locale) || {};
+    // If getMeta returned nothing (commonly when only per-namespace JSON exists
+    // and no consolidated index.json is present), attempt to read the namespace
+    // file directly on the server and use its `meta` block as a fallback.
+    if ((!meta || Object.keys(meta).length === 0) && typeof window === 'undefined') {
+      try {
+        const ns = getLocaleNamespaceObject(locale, metaKey) || {};
+        if (ns && typeof ns === 'object') {
+          // Handle nested structure: { "metaKey": { "meta": {...} } }
+          if ((ns as any)[metaKey]?.meta && typeof (ns as any)[metaKey].meta === 'object') {
+            meta = (ns as any)[metaKey].meta as Record<string, unknown>;
+          } else if ((ns as any).meta && typeof (ns as any).meta === 'object') {
+            meta = (ns as any).meta as Record<string, unknown>;
+          } else if (ns.meta && typeof ns.meta === 'object') {
+            meta = ns.meta as Record<string, unknown>;
+          } else {
+            meta = ns as Record<string, unknown>;
+          }
+        }
+      } catch (e) { /* ignore and continue with empty meta */ }
+    }
     // Prefer explicit titleKey/descriptionKey -> translation, otherwise fall back to meta values.
     // The `t()` function returns the key string when a translation is missing, so
     // treat that case as "not found" and use `meta` as the fallback.

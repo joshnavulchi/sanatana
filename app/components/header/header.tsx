@@ -2,9 +2,9 @@
 "use client";
 
 import { useEffect, useRef, useState } from 'react';
-import { useT } from '../../hooks/useT';
+import useLocaleSection from '../../hooks/useLocaleSection';
 import { usePathname } from 'next/navigation';
-import { getLocaleObject, loadLocale, DEFAULT_LOCALE } from '../../../lib/i18n';
+import { loadLocaleNamespace, DEFAULT_LOCALE } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
@@ -17,19 +17,21 @@ const LanguageDropdown = dynamic(() => import("../language-dropdown/language-dro
 
 import styles from './header.module.scss';
 
+// Default fallback values
+const defaultSiteTitle = 'Sanātana Dharma';
+const defaultHeader = {};
+const defaultBanner = null;
+const defaultBanner2 = null;
+
 export default function Header() {
+  const { locale } = useLocale();
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
-  const defaultObj = (getLocaleObject(DEFAULT_LOCALE) as any) || {};
-  const defaultSiteTitle = (defaultObj?.sharable_strings?.siteTitle && (defaultObj.siteTitle?.siteTitle || defaultObj.siteTitle)) || (defaultObj?.sharable_strings?.sitetitle);
-  const defaultHeader = (defaultObj?.sharable_strings?.header as any) || {};
-  const defaultBanner = (defaultObj && (defaultObj?.sharable_strings?.bannerNotifications ?? defaultObj?.sharable_strings?.banner ?? defaultObj?.sharable_strings?.banner_notifications)) || null;
-  const defaultBanner2 = (defaultObj && (defaultObj?.sharable_strings?.bannerNotifications2 ?? defaultObj?.sharable_strings?.banner2 ?? defaultObj?.sharable_strings?.banner_notifications2)) || null;
   const [translations, setTranslations] = useState<any>({
-    siteTitle: defaultSiteTitle,
-    header: defaultHeader,
-    banner: defaultBanner,
-    banner2: defaultBanner2,
+    siteTitle: 'Sanātana Dharma',
+    header: {},
+    banner: null,
+    banner2: null,
   });
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [expandedKeys, setExpandedKeys] = useState<Record<string, boolean>>({});
@@ -94,29 +96,18 @@ export default function Header() {
     );
   }
 
-  const { locale } = useLocale();
-  const t = useT();
-
+  // Use centralized hook to read `sharable_strings` section (synchronous if cached,
+  // otherwise will fetch and update state). Keeps pattern consistent with footer.
+  const sharable = useLocaleSection('sharable_strings');
   useEffect(() => {
-    let mounted = true;
-    (async () => {
-      try {
-        await loadLocale(locale);
-        if (!mounted) return;
-        const locObj = (getLocaleObject(locale) as any) || {}; // entire locale files getting
-        const siteTitle = (locObj?.sharable_strings?.sitetitle) || 'Sanātana Dharma';
-        const header = (locObj?.sharable_strings?.header as any) || {};
-        // Support multiple key styles in locale files: snake_case (banner_notifications)
-        // and camelCase (bannerNotifications). Prefer explicit banner keys when present.
-        const banner = (locObj && (locObj?.sharable_strings?.bannerNotifications ?? locObj?.sharable_strings?.banner ?? locObj?.sharable_strings?.banner_notifications)) || null;
-        const banner2 = (locObj && (locObj?.sharable_strings?.bannerNotifications2 ?? locObj?.sharable_strings?.banner2 ?? locObj?.sharable_strings?.banner_notifications2)) || null;
-        setTranslations({ siteTitle, header, banner, banner2 });
-      } catch (e) {
-        // fallback to English (already in state)
-      }
-    })();
-    return () => { mounted = false; };
-  }, [locale]);
+    if (sharable && Object.keys(sharable).length > 0) {
+      const siteTitle = sharable?.sitetitle || defaultSiteTitle;
+      const header = sharable?.header || defaultHeader;
+      const banner = (sharable?.bannerNotifications ?? sharable?.banner ?? sharable?.banner_notifications) || defaultBanner;
+      const banner2 = (sharable?.bannerNotifications2 ?? sharable?.banner2 ?? sharable?.banner_notifications2) || defaultBanner2;
+      setTranslations({ siteTitle, header, banner, banner2 });
+    }
+  }, [sharable]);
 
   const normalize = (p?: string) => {
     if (!p) return "/";
@@ -290,7 +281,7 @@ export default function Header() {
                             {Object.entries(children).map(([cKey, cLabel], idx) => (
                               <li key={cKey}>
                                 <Link
-                                  href={`/${key}/${cKey}`}
+                                  href={'/' + key + '/' + cKey}
                                   className="block"
                                   role="menuitem"
                                   tabIndex={0}
@@ -336,7 +327,7 @@ export default function Header() {
             <button
               role="menuitem"
               aria-expanded={open}
-              aria-label={open ? (t('nav.closeMenu') || 'Close menu') : (t('nav.openMenu') || 'Open menu')}
+              aria-label={open ? (sharable?.closeMenu || 'Close menu') : (sharable?.openMenu || 'Open menu')}
               onClick={() => setOpen((s) => !s)}
               className="inline-flex items-center justify-center rounded"
             >
@@ -353,50 +344,54 @@ export default function Header() {
         {open && (
           <div className={`md:hidden ${styles.mobile} border-t border-b border-white/50`}>
             <div role="menu" className={`${styles.mobilePrimaryMenu} flex flex-col`}>
-              {Object.entries(translations.nav).map(([key, val]: [string, any]) => {
-                if (key === 'home') return null;
-                if (key === 'contact') return null;
-                if (key === 'about') return null;
-                if (key === 'donate') return null;
-                if (typeof val === "string") {
-                  const href = key === "home" ? "/" : `/${key}`;
+              {(() => {
+                const mobileNav = (translations.nav ?? translations.header) as Record<string, any> | undefined;
+                if (!mobileNav) return null;
+                return Object.entries(mobileNav).map(([key, val]: [string, any]) => {
+                  if (key === 'home') return null;
+                  if (key === 'contact') return null;
+                  if (key === 'about') return null;
+                  if (key === 'donate') return null;
+                  if (typeof val === "string") {
+                    const href = key === "home" ? "/" : `/${key}`;
+                    return (
+                      <Link key={key} href={href} className={`${isActive(href) ? "active" : ""}`}>{val}</Link>
+                    );
+                  }
+
+                  const title = val.title ?? key;
+                  const children = val.nav ?? null;
+
+                  if (!children) {
+                    const href = `/${key}`;
+                    return <Link key={key} href={href} className={`${isActive(href) ? "active" : ""}`}>{title}</Link>;
+                  }
+
+                  const expanded = !!expandedKeys[key];
                   return (
-                    <Link key={key} href={href} className={`${isActive(href) ? "active" : ""}`}>{val}</Link>
+                    <div role="none" key={key} className="flex flex-col gap-2">
+                      <button
+                        onClick={() => setExpandedKeys((s) => ({ ...s, [key]: !s[key] }))}
+                        role="menuitem"
+                        className={`${styles.navPrimaryBtn} flex items-center justify-between w-full font-semibold`}
+                        aria-expanded={expanded}
+                      >
+                        <span>{title}</span>
+                        <svg className={`h-4 w-4 transform ${expanded ? "rotate-180" : "rotate-0"}`} viewBox="0 0 20 20" fill="currentColor">
+                          <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.24a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.06z" clipRule="evenodd" />
+                        </svg>
+                      </button>
+                      {expanded && (
+                        <div className={`flex flex-col gap-2 ${styles.mobilePrimarySubmenu} overflow-hidden accordion-transition ${expanded ? "max-h-96" : "max-h-0"}`}>
+                          {Object.entries(children).map(([cKey, cLabel]) => (
+                            <Link key={cKey} href={'/' + key + '/' + cKey} className={`${isActive('/' + key + '/' + cKey) ? "active" : ""}`}>{cLabel as string}</Link>
+                          ))}
+                        </div>
+                      )}
+                    </div>
                   );
-                }
-
-                const title = val.title ?? key;
-                const children = val.nav ?? null;
-
-                if (!children) {
-                  const href = `/${key}`;
-                  return <Link key={key} href={href} className={`${isActive(href) ? "active" : ""}`}>{title}</Link>;
-                }
-
-                const expanded = !!expandedKeys[key];
-                return (
-                  <div role="none" key={key} className="flex flex-col gap-2">
-                    <button
-                      onClick={() => setExpandedKeys((s) => ({ ...s, [key]: !s[key] }))}
-                      role="menuitem"
-                      className={`${styles.navPrimaryBtn} flex items-center justify-between w-full font-semibold`}
-                      aria-expanded={expanded}
-                    >
-                      <span>{title}</span>
-                      <svg className={`h-4 w-4 transform ${expanded ? "rotate-180" : "rotate-0"}`} viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.24a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.06z" clipRule="evenodd" />
-                      </svg>
-                    </button>
-                    {expanded && (
-                      <div className={`flex flex-col gap-2 ${styles.mobilePrimarySubmenu} overflow-hidden accordion-transition ${expanded ? "max-h-96" : "max-h-0"}`}>
-                        {Object.entries(children).map(([cKey, cLabel]) => (
-                          <Link key={cKey} href={`/${key}/${cKey}`} className={`${isActive(`/${key}/${cKey}`) ? "active" : ""}`}>{cLabel as string}</Link>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                );
-              })}
+                })
+              })()}
             </div>
           </div>
         )}

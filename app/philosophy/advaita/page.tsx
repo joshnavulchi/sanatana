@@ -1,7 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
-import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
 import PageLayout from '@/app/components/common/PageLayout';
+import { t, detectLocale, getLocaleNamespaceObject, getMeta } from '../../../lib/i18n';
+import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
 export const generateMetadata = createGenerateMetadata('philosophy_advaita');
 
 export default function Page({ searchParams }: any) {
@@ -9,8 +9,8 @@ export default function Page({ searchParams }: any) {
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
     const k: any = getMeta('philosophy_advaita', {}, locale) || {};
-    const loc: any = getLocaleObject(locale) || {};
-    const advaita = loc?.philosophy_advaita || {};
+    const ns: any = getLocaleNamespaceObject(locale, 'philosophy_advaita') || {};
+    const advaita = (ns?.philosophy_advaita || ns) || {};
     return {
       title: k.title || 'Advaita Philosophy',
       definition: k.definition || advaita.definition,

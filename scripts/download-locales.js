@@ -53,15 +53,15 @@ function deepMerge(target, source) {
           // Empty source array, keep target
           continue;
         }
-        
+
         // Check if array contains objects with identifiers
         const hasObjects = sourceValue.some(item => item && typeof item === 'object');
-        
+
         if (hasObjects) {
           // Array of objects - merge by unique identifier
           const merged = [...targetValue];
           const identifierKeys = ['id', 'key', 'name', 'chapter', 'parva', 'title', 'href'];
-          
+
           for (const sourceItem of sourceValue) {
             if (!sourceItem || typeof sourceItem !== 'object') {
               // Primitive in array of objects, add if not exists
@@ -70,16 +70,16 @@ function deepMerge(target, source) {
               }
               continue;
             }
-            
+
             // Find identifier key for this object
             const idKey = identifierKeys.find(k => sourceItem[k] !== undefined);
-            
+
             if (idKey) {
               // Find existing item with same identifier
-              const existingIndex = merged.findIndex(item => 
+              const existingIndex = merged.findIndex(item =>
                 item && typeof item === 'object' && item[idKey] === sourceItem[idKey]
               );
-              
+
               if (existingIndex >= 0) {
                 // Merge with existing object
                 merged[existingIndex] = deepMerge(merged[existingIndex], sourceItem);
@@ -89,7 +89,7 @@ function deepMerge(target, source) {
               }
             } else {
               // No identifier found, check for deep equality to avoid duplicates
-              const isDuplicate = merged.some(item => 
+              const isDuplicate = merged.some(item =>
                 JSON.stringify(item) === JSON.stringify(sourceItem)
               );
               if (!isDuplicate) {
@@ -149,13 +149,13 @@ function sanitizeObject(obj) {
 // Sync locale keys with reference locale (en)
 function syncKeysWithReference(targetData, referenceData, locale) {
   const changes = { added: 0, removed: 0 };
-  
+
   // Deep sync function that handles nested objects
   function syncObject(target, reference, path = '') {
     // Get all keys from reference
     const refKeys = new Set(Object.keys(reference));
     const targetKeys = Object.keys(target);
-    
+
     // Remove keys not in reference
     for (const key of targetKeys) {
       if (!refKeys.has(key)) {
@@ -164,21 +164,21 @@ function syncKeysWithReference(targetData, referenceData, locale) {
         console.log(`  - Removed extra key: ${path}${key}`);
       }
     }
-    
+
     // Add/update keys from reference
     for (const key of refKeys) {
       const refValue = reference[key];
       const targetValue = target[key];
       const currentPath = path ? `${path}.${key}` : key;
-      
+
       if (!(key in target)) {
         // Key missing in target, add it
         target[key] = refValue;
         changes.added++;
         console.log(`  + Added missing key: ${currentPath}`);
       } else if (
-        refValue && 
-        typeof refValue === 'object' && 
+        refValue &&
+        typeof refValue === 'object' &&
         !Array.isArray(refValue) &&
         targetValue &&
         typeof targetValue === 'object' &&
@@ -197,9 +197,9 @@ function syncKeysWithReference(targetData, referenceData, locale) {
           // Both have items - if they're objects, ensure same keys
           const refItem = refValue[0];
           const targetItem = targetValue[0];
-          
+
           if (refItem && typeof refItem === 'object' && !Array.isArray(refItem) &&
-              targetItem && typeof targetItem === 'object' && !Array.isArray(targetItem)) {
+            targetItem && typeof targetItem === 'object' && !Array.isArray(targetItem)) {
             // Array of objects - sync each object's keys
             for (let i = 0; i < targetValue.length; i++) {
               if (targetValue[i] && typeof targetValue[i] === 'object') {
@@ -211,13 +211,13 @@ function syncKeysWithReference(targetData, referenceData, locale) {
       }
     }
   }
-  
+
   syncObject(targetData, referenceData);
-  
+
   if (changes.added > 0 || changes.removed > 0) {
     console.log(`→ ${locale}: synced keys (${changes.added} added, ${changes.removed} removed)`);
   }
-  
+
   return changes;
 }
 
@@ -318,84 +318,68 @@ async function downloadLocales({ force = false } = {}) {
         fs.writeFileSync(outputPath, content, 'utf8');
         meta[metaKey] = file.sha;
         console.log(`✓ ${locale}/${file.name}`);
+        // If we're downloading a new or modified file for this locale,
+        // remove any existing locale-level index.json so page-specific
+        // namespace files are used instead.
+        try {
+          const localeIndex = path.join(localeDir, 'index.json');
+          if (fs.existsSync(localeIndex)) {
+            fs.unlinkSync(localeIndex);
+            console.log(`Removed existing ${locale}/index.json because ${file.name} was downloaded`);
+          }
+        } catch (e) {
+          console.error(`Failed to remove ${locale}/index.json: ${e.message}`);
+        }
       } catch (e) {
         console.error(`Failed to download ${locale}/${file.name}:`, e.message);
       }
     }
 
-    // Merge namespace JSONs into index.json and remove others
-    try {
-      const indexPath = path.join(localeDir, 'index.json');
-      const items = fs.readdirSync(localeDir).filter((n) => n.endsWith('.json'));
-      const namespaces = items.filter((n) => n !== 'index.json');
-
-      if (namespaces.length > 0) {
-        // Load existing index.json to preserve local-only keys
-        let existingData = {};
-        if (fs.existsSync(indexPath)) {
-          try {
-            const existingRaw = fs.readFileSync(indexPath, 'utf8');
-            existingData = JSON.parse(existingRaw);
-            console.log(`→ loaded existing ${locale}/index.json (${Object.keys(existingData).length} keys)`);
-          } catch (e) {
-            console.warn(`Failed to load existing ${locale}/index.json:`, e.message);
-            existingData = {};
-          }
-        } else {
-          console.log(`→ creating new ${locale}/index.json`);
-        }
-
-        // Start with downloaded namespace files as the BASE (source of truth)
-        let merged = {};
-        for (const ns of namespaces) {
-          const p = path.join(localeDir, ns);
-          try {
-            const raw = fs.readFileSync(p, 'utf8');
-            const json = JSON.parse(raw);
-            const beforeKeys = Object.keys(merged).length;
-            // Downloaded file is the source - merge it as base
-            merged = deepMerge(merged, json);
-            const afterKeys = Object.keys(merged).length;
-            console.log(`→ merged ${locale}/${ns} (${beforeKeys} → ${afterKeys} keys)`);
-          } catch (e) {
-            console.error(`Failed to parse ${locale}/${ns}:`, e.message);
-          }
-        }
-
-        // Now merge any local-only keys that don't exist in downloaded files
-        for (const key of Object.keys(existingData)) {
-          if (!(key in merged)) {
-            merged[key] = existingData[key];
-            console.log(`→ preserved local-only key: ${key}`);
-          }
-        }
-
-        fs.writeFileSync(indexPath, JSON.stringify(merged, null, 2), 'utf8');
-        console.log(`✓ updated ${locale}/index.json with ${Object.keys(merged).length} total keys`);
-
-        // remove namespace files (keep meta entries so unchanged remote files aren't re-downloaded)
-        for (const ns of namespaces) {
-          const p = path.join(localeDir, ns);
-          try {
-            fs.unlinkSync(p);
-          } catch (e) {
-            console.error(`Failed to remove ${locale}/${ns}:`, e.message);
-          }
-        }
-      }
-    } catch (e) {
-      console.error(`Failed to merge locale ${locale}:`, e.message);
-    }
+    // Merge logic removed — keep downloaded per-namespace JSON files
+    // (e.g. historical_timeline.json, world_transition.json) as-is.
+    console.log(`→ preserved per-namespace JSON files for ${locale}`);
   }
 
   saveMeta(meta);
   console.log('✓ Locale download and merge completed\n');
 
+  // Remove any existing locale-level index.json files under public/locales
+  function removeIndexJsonFiles() {
+    if (!fs.existsSync(LOCAL_LOCALES_DIR)) return 0;
+    const dirs = fs.readdirSync(LOCAL_LOCALES_DIR).filter((d) => {
+      try {
+        return fs.statSync(path.join(LOCAL_LOCALES_DIR, d)).isDirectory();
+      } catch (_) {
+        return false;
+      }
+    });
+
+    const removed = [];
+    for (const d of dirs) {
+      const idx = path.join(LOCAL_LOCALES_DIR, d, 'index.json');
+      if (fs.existsSync(idx)) {
+        try {
+          fs.unlinkSync(idx);
+          removed.push(idx);
+          console.log(`Removed index.json: ${d}/index.json`);
+        } catch (e) {
+          console.error(`Failed to remove ${d}/index.json: ${e.message}`);
+        }
+      }
+    }
+
+    if (removed.length === 0) console.log('No index.json files found in public/locales to remove.');
+    return removed.length;
+  }
+
+  const removedCount = removeIndexJsonFiles();
+  if (removedCount > 0) console.log(`\nRemoved ${removedCount} index.json file(s) from public/locales.\n`);
+
   // Sync all locales with en locale (reference)
   try {
     console.log('→ Syncing all locale keys with en locale...');
     const enPath = path.join(LOCAL_LOCALES_DIR, 'en', 'index.json');
-    
+
     if (fs.existsSync(enPath)) {
       const enData = JSON.parse(fs.readFileSync(enPath, 'utf8'));
       const dirs = fs.readdirSync(LOCAL_LOCALES_DIR).filter((n) => {
@@ -405,14 +389,14 @@ async function downloadLocales({ force = false } = {}) {
           return false;
         }
       });
-      
+
       for (const locale of dirs) {
         const localePath = path.join(LOCAL_LOCALES_DIR, locale, 'index.json');
         if (fs.existsSync(localePath)) {
           try {
             const localeData = JSON.parse(fs.readFileSync(localePath, 'utf8'));
             const changes = syncKeysWithReference(localeData, enData, locale);
-            
+
             if (changes.added > 0 || changes.removed > 0) {
               fs.writeFileSync(localePath, JSON.stringify(localeData, null, 2), 'utf8');
               console.log(`✓ Updated ${locale}/index.json`);
@@ -444,16 +428,24 @@ async function downloadLocales({ force = false } = {}) {
     const missing = [];
 
     for (const d of dirs) {
-      const idx = path.join(LOCAL_LOCALES_DIR, d, 'index.json');
-      if (fs.existsSync(idx)) {
-        try {
-          const st = fs.statSync(idx);
-          if (st.size > 10) ok.push(d);
-          else missing.push(d);
-        } catch (_) {
+      try {
+        const localeDir = path.join(LOCAL_LOCALES_DIR, d);
+        const jsonFiles = fs.readdirSync(localeDir).filter(f => f.endsWith('.json') && f !== path.basename(META_FILE));
+        if (jsonFiles.length === 0) {
           missing.push(d);
+          continue;
         }
-      } else {
+        const anyLarge = jsonFiles.some((fn) => {
+          try {
+            const st = fs.statSync(path.join(localeDir, fn));
+            return st.size > 10;
+          } catch (_) {
+            return false;
+          }
+        });
+        if (anyLarge) ok.push(d);
+        else missing.push(d);
+      } catch (_) {
         missing.push(d);
       }
     }
@@ -491,10 +483,16 @@ if (require.main === module) {
   }
 
   // Check if locales already exist with metadata - if so, only download changed files
-  const existingLocales = fs.existsSync(LOCAL_LOCALES_DIR) && 
+  const existingLocales = fs.existsSync(LOCAL_LOCALES_DIR) &&
     fs.readdirSync(LOCAL_LOCALES_DIR).filter(d => {
-      const indexPath = path.join(LOCAL_LOCALES_DIR, d, 'index.json');
-      return fs.existsSync(indexPath);
+      try {
+        const p = path.join(LOCAL_LOCALES_DIR, d);
+        if (!fs.statSync(p).isDirectory()) return false;
+        const files = fs.readdirSync(p).filter(f => f.endsWith('.json') && f !== path.basename(META_FILE));
+        return files.length > 0;
+      } catch (_) {
+        return false;
+      }
     });
 
   const hasValidMeta = fs.existsSync(META_FILE);

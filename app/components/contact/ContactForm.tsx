@@ -2,7 +2,7 @@
 "use client";
 
 import React, { useEffect, useMemo, useState } from 'react';
-import { useT } from '../../hooks/useT';
+import useLocaleSection from '../../hooks/useLocaleSection';
 
 import styles from './contactform.module.scss';
 
@@ -21,12 +21,12 @@ type Props = {
 };
 
 export default function ContactForm({ fields, submitButton }: Props) {
-  const t = useT();
+  const localeObj = useLocaleSection('sharable_strings');
   const defaults: Field[] = useMemo(() => ([
-    { name: 'name', type: 'text', label: t('contactForm.name') || 'Name', placeholder: t('contactForm.placeholderName') || '' },
-    { name: 'email', type: 'email', label: t('contactForm.email') || 'Email', placeholder: t('contactForm.placeholderEmail') || '', required: true },
-    { name: 'message', type: 'textarea', label: t('contactForm.message') || 'Message', placeholder: t('contactForm.placeholderMessage') || '', required: true }
-  ]), [t]);
+    { name: 'name', type: 'text', label: localeObj?.contactForm?.name || 'Name', placeholder: localeObj?.contactForm?.placeholderName || '' },
+    { name: 'email', type: 'email', label: localeObj?.contactForm?.email || 'Email', placeholder: localeObj?.contactForm?.placeholderEmail || '', required: true },
+    { name: 'message', type: 'textarea', label: localeObj?.contactForm?.message || 'Message', placeholder: localeObj?.contactForm?.placeholderMessage || '', required: true }
+  ]), [localeObj]);
 
   const usedFields = Array.isArray(fields) && fields.length > 0 ? fields : defaults;
 
@@ -53,7 +53,7 @@ export default function ContactForm({ fields, submitButton }: Props) {
     setErrorMessage(null);
     for (const f of usedFields) {
       if (f.required && !values[f.name]) {
-        setErrorMessage(t('contactForm.validationError') || 'Please fill required fields');
+        setErrorMessage(localeObj?.contactForm?.validationError || 'Please fill required fields');
         return;
       }
     }
@@ -67,15 +67,15 @@ export default function ContactForm({ fields, submitButton }: Props) {
       });
       const data = await res.json().catch(() => ({}));
       if (res.ok) {
-        setSuccessMessage(t('contactForm.thanks') || 'Thank you — message sent.');
+        setSuccessMessage(localeObj?.contactForm?.thanks || 'Thank you — message sent.');
         const init: Record<string, string> = {};
         for (const f of usedFields) init[f.name] = '';
         setValues(init);
       } else {
-        setErrorMessage((data && data.error) ? String(data.error) : (t('contactForm.error') || 'Failed to send message'));
+        setErrorMessage((data && data.error) ? String(data.error) : (localeObj?.contactForm?.error || 'Failed to send message'));
       }
     } catch (err: any) {
-      setErrorMessage(err && err.message ? err.message : (t('contactForm.error') || 'Failed to send message'));
+      setErrorMessage(err && err.message ? err.message : (localeObj?.contactForm?.error || 'Failed to send message'));
     } finally {
       setSubmitting(false);
     }
@@ -113,7 +113,7 @@ export default function ContactForm({ fields, submitButton }: Props) {
       {errorMessage ? <div className="text-red-600 mb-3">{errorMessage}</div> : null}
       <div>
         <button type="submit" disabled={submitting} className="btn btn-primary">
-          {submitting ? (t('contactForm.sending') || 'Sending...') : ((submitButton && submitButton.label) ? submitButton.label : (t('contactForm.sendMessage') || 'Send Message'))}
+          {submitting ? (localeObj?.contactForm?.sending || 'Sending...') : ((submitButton && submitButton.label) ? submitButton.label : (localeObj?.contactForm?.sendMessage || 'Send Message'))}
         </button>
       </div>
     </form>

@@ -1,27 +1,27 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { Suspense } from 'react';
 import { Poppins } from 'next/font/google';
+import { headers } from 'next/headers';
+import Script from 'next/script';
+import { Suspense } from 'react';
+import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '../lib/i18n';
+import { buildOrganizationJsonLd, buildWebSiteJsonLd, renderJsonLdScript } from '../lib/jsonld';
+import { secrets } from '../lib/secrets';
+import CookieConsent from './components/cookie-consent/CookieConsent';
+import DigitalClockLoader from './components/digitalclock/DigitalClockLoader';
+import Footer from './components/footer/footer';
+import Header from './components/header/header';
+import TopProgress from './components/progress/TopProgress';
+import ResourceHints from './components/resource-hints/ResourceHints';
+import ScrollToTop from './components/scroll-to-top/scroll-to-top';
+import WebVitalsReporter from './components/web-vitals/WebVitalsReporter';
 import { LocaleProvider } from './context/locale-context';
 import { ThemeProvider } from './context/theme-context';
-import { headers } from 'next/headers';
-import { DEFAULT_LOCALE, SUPPORTED_LOCALES, getLocaleObject } from '../lib/i18n';
-import { secrets } from '../lib/secrets';
-import { buildOrganizationJsonLd, buildWebSiteJsonLd, renderJsonLdScript } from '../lib/jsonld';
-import Script from 'next/script';
-import Header from './components/header/header';
-import Footer from './components/footer/footer';
-import CookieConsent from './components/cookie-consent/CookieConsent';
-import TopProgress from './components/progress/TopProgress';
-import DigitalClockLoader from './components/digitalclock/DigitalClockLoader';
-import ScrollToTop from './components/scroll-to-top/scroll-to-top';
-import ResourceHints from './components/resource-hints/ResourceHints';
-import WebVitalsReporter from './components/web-vitals/WebVitalsReporter';
 
 import "./globals.css"; // tailwind base styles
 
-const poppins = Poppins({ 
-  subsets: ["latin"], 
-  weight: ["400"], 
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400"],
   preload: true,
   display: "swap" // Prevents layout shift from font loading
 });
@@ -40,7 +40,7 @@ export default async function RootLayout({
     description: 'Explore Sanātana Dharma: eternal principles of Hinduism, Vedic traditions, and spiritual practices.'
   });
   const siteJson = buildWebSiteJsonLd();
-    
+
   // Resolve locale with minimal blocking - use synchronous detection when possible
   let lang = DEFAULT_LOCALE;
   try {
@@ -59,32 +59,24 @@ export default async function RootLayout({
   } catch (err) {
     // Use default locale on error
   }
-  
-  // Load the locale data server-side so it's available for client hydration
-  const localeData = getLocaleObject(lang);
-  
+
+  // Note: We don't pre-inject locale data here anymore since we load namespace files on-demand
+  // This reduces initial HTML size and allows for better code splitting
+
   return (
     <html lang={lang} translate="no">
       <head>
-        {/* Inject locale data for client-side hydration */}
-        <Script
-          id="locale-cache"
-          strategy="beforeInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `window.__LOCALE_CACHE__ = window.__LOCALE_CACHE__ || {}; window.__LOCALE_CACHE__["${lang}"] = ${JSON.stringify(localeData)};`
-          }}
-        />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
         {/* Prevent browser automatic translation UI (Chrome/Google Translate) */}
         <meta name="google" content="notranslate" />
         {/* Early resource hints to reduce network latency */}
         <ResourceHints />
         {/* Preload LCP image with high priority - matches hero img tag */}
-        <link 
-          rel="preload" 
-          as="image" 
+        <link
+          rel="preload"
+          as="image"
           href="/images/home/mobile-hero.png"
-          imageSrcSet="/images/home/hero.png 1024w, /images/home/mobile-hero.png 768w" 
+          imageSrcSet="/images/home/hero.png 1024w, /images/home/mobile-hero.png 768w"
           imageSizes="(min-width: 1024px) 50vw, 100vw"
           fetchPriority="high"
         />
@@ -92,8 +84,7 @@ export default async function RootLayout({
         <meta httpEquiv="Cache-Control" content="max-age=2592000, must-revalidate" />
         <meta httpEquiv="Pragma" content="cache" />
         <meta httpEquiv="Expires" content="2592000" />
-        {/* Defer non-critical global styles */}
-        <link rel="preload" href="/globals.from-scss.css" as="style" />
+        {/* Defer non-critical global styles (preload → convert to stylesheet onload) */}
         <Script
           id="load-deferred-css"
           strategy="beforeInteractive"
@@ -101,8 +92,10 @@ export default async function RootLayout({
             __html: `
               (function(){
                 var l=document.createElement('link');
-                l.rel='stylesheet';
+                l.rel='preload';
+                l.as='style';
                 l.href='/globals.from-scss.css';
+                l.onload=function(){this.onload=null;this.rel='stylesheet'};
                 document.head.appendChild(l);
               })();
             `
@@ -118,12 +111,12 @@ export default async function RootLayout({
           strategy="afterInteractive"
           dangerouslySetInnerHTML={renderJsonLdScript(siteJson)}
         />
-          <Script
-            id="jsonld-org"
-            type="application/ld+json"
-            strategy="afterInteractive"
-            dangerouslySetInnerHTML={renderJsonLdScript(orgJson)}
-          />
+        <Script
+          id="jsonld-org"
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={renderJsonLdScript(orgJson)}
+        />
         <Script
           id="jsonld-web"
           type="application/ld+json"
@@ -160,14 +153,13 @@ export default async function RootLayout({
           }}
         />
         {/* Google Analytics is loaded on user consent via the CookieConsent component. */}
-        {/* Preload local font with high priority to reduce font loading delay */}
-        <link 
-          rel="preload" 
-          href="/_next/static/media/a218039a3287bcfd-s.p.4a23d71b.woff2" 
-          as="font" 
-          type="font/woff2" 
+        {/* Hint the font for later use (non-blocking) */}
+        <link
+          rel="prefetch"
+          href="/_next/static/media/a218039a3287bcfd-s.p.4a23d71b.woff2"
+          as="font"
+          type="font/woff2"
           crossOrigin="anonymous"
-          fetchPriority="high"
         />
         <style dangerouslySetInnerHTML={{
           __html: `

@@ -1,16 +1,27 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, detectLocale } from '../../lib/i18n';
+import PageLayout from '@/app/components/common/PageLayout';
 import { createGenerateMetadata } from 'lib/pageUtils';
 import { parseList } from 'lib/parseList';
-import PageLayout from '@/app/components/common/PageLayout';
+import { t, detectLocale, getLocaleNamespaceObject } from '../../lib/i18n';
 // import Link from 'next/link';
+
+const _localeObj = getLocaleNamespaceObject('en', 'sanatanadharma');
+const ns = (_localeObj && ((_localeObj as any)['sanatanadharma'] || _localeObj)) || {};
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  const namespaceKey = parts[0] === 'sanatanadharma' ? parts.shift() : 'sanatanadharma';
+  let cur: any = (ns as any)?.[namespaceKey!] || ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
 
 export const generateMetadata = createGenerateMetadata('sanatanadharma');
 
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || undefined;
-  const data: any[] = parseList(t('sanatanadharma.sections', locale));
-  const title = String(t('sanatanadharma.title', locale) || 'Sanātana Dharma');
+  const data: any[] = parseList(__getLoc('sanatanadharma.sections'));
+  const title = String(__getLoc('sanatanadharma.title') || 'Sanātana Dharma');
 
   return (
     <PageLayout

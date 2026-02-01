@@ -1,20 +1,16 @@
-/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-'use client';
+﻿/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+import { createGenerateMetadata } from '../../lib/pageUtils';
+export const generateMetadata = createGenerateMetadata('world_transition');
 
-import { Suspense, lazy } from 'react';
-import Loader from "@/app/components/loader/loader";
-
-const WorldTransitionContent = lazy(() => import('./world-transition-client'));
+import WorldTransitionContent from './world-transition-client';
+import StructuredData from '@/app/components/structured-data/StructuredData';
 
 export default function Page() {
   return (
-    <Suspense fallback={
-      <div style={{ position: "relative", width: "100%", aspectRatio: "2 / 1", display: "flex", alignItems: "center", justifyContent: "center" }}>
-        <Loader />
-      </div>
-    }>
+    <>
+      <StructuredData metaKey="world_transition" />
       <WorldTransitionContent />
-    </Suspense>
+    </>
   );
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

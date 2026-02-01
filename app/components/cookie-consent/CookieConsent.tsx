@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import storage from '../../../lib/storage';
 import { loadGtag, loadGTM } from '../../../lib/analyticsLoader';
 import { DEFAULT_LOCALE } from '../../../lib/i18n';
-import { useT } from '../../hooks/useT';
+import useLocaleSection from '../../hooks/useLocaleSection';
 import CookiePreferencesModal from './CookiePreferencesModal';
 
 type Prefs = {
@@ -164,7 +164,7 @@ export default function CookieConsent() {
     }
   }
 
-  const t = useT();
+  const localeObj = useLocaleSection('sharable_strings');
 
   if (!visible) return null;
 
@@ -175,24 +175,23 @@ export default function CookieConsent() {
         <div className="bg-white border rounded shadow-md flex flex-col items-start md:items-center gap-4">
           <div className="flex-1">
             {(() => {
-              const loc = DEFAULT_LOCALE; // paragraph will be rendered via `t()` below which uses current locale from context
-              const paragraph = t('sharable_strings.cookieconsent.paragraph') as string;
+              const paragraph = localeObj?.cookieconsent?.paragraph || '';
               // Replace placeholders with links
               return (
                 <small dangerouslySetInnerHTML={{
                   __html: paragraph
-                    .replace('{cookiePolicyLink}', `<a class="underline" href="/our-cookie-policy">${t('cookieconsent.cookiepolicy')}</a>`)
-                    .replace('{privacyPolicyLink}', `<a class="underline" href="/our-privacy-policy">${t('sharable_strings.cookieconsent.privacypolicy')}</a>`)
-                    .replace('{managerLabel}', t('sharable_strings.cookieconsent.managerbutton'))
-                    .replace('{acceptAllLabel}', t('sharable_strings.cookieconsent.acceptall'))
+                    .replace('{cookiePolicyLink}', `<a class="underline" href="/our-cookie-policy">${localeObj?.cookieconsent?.cookiepolicy || 'Cookie Policy'}</a>`)
+                    .replace('{privacyPolicyLink}', `<a class="underline" href="/our-privacy-policy">${localeObj?.cookieconsent?.privacypolicy || 'Privacy Policy'}</a>`)
+                    .replace('{managerLabel}', localeObj?.cookieconsent?.managerbutton || 'Cookie Preferences')
+                    .replace('{acceptAllLabel}', localeObj?.cookieconsent?.acceptall || 'Accept all')
                 }} />
               );
             })()}
           </div>
 
           <div className="flex text-right gap-2">
-            <button className="btn btn-outline no-underline" onClick={() => setModalOpen(true)}>{t('sharable_strings.cookieconsent.managerbutton')}</button>
-            <button className="btn btn-primary no-underline" onClick={acceptAll}>{t('sharable_strings.cookieconsent.acceptall')}</button>
+            <button className="btn btn-outline no-underline" onClick={() => setModalOpen(true)}>{localeObj?.cookieconsent?.managerbutton || 'Cookie Preferences'}</button>
+            <button className="btn btn-primary no-underline" onClick={acceptAll}>{localeObj?.cookieconsent?.acceptall || 'Accept all'}</button>
           </div>
         </div>
       </div>

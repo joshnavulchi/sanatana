@@ -1,4 +1,14 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+
+const ns: Record<string, unknown> = {};
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  const namespaceKey = parts[0] === 'vastu_practices' ? parts.shift() : 'vastu_practices';
+  let cur: any = (ns as any)?.[namespaceKey!] || ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
 import { getMeta, detectLocale, t } from '../../../lib/i18n';
 import { createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@/app/components/common/PageLayout';
@@ -8,8 +18,8 @@ export default function Page() {
   const page: any = (() => {
     const k: any = getMeta('vastu_practices', {}, locale) || {};
     return {
-      title: typeof k.title === 'string' ? k.title : String(t('vastu_practices.title', locale) || 'Vastu'),
-      definition: typeof k.definition === 'string' ? k.definition : String(t('vastu_practices.intro', locale) || 'Placeholder page about Vastu principles.')
+      title: typeof k.title === 'string' ? k.title : String(__getLoc('vastu_practices.title') || 'Vastu'),
+      definition: typeof k.definition === 'string' ? k.definition : String(__getLoc('vastu_practices.intro') || 'Placeholder page about Vastu principles.')
     };
   })();
   return (

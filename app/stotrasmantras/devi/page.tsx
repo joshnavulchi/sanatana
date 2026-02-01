@@ -1,4 +1,14 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+
+const ns: Record<string, unknown> = {};
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  const namespaceKey = parts[0] === 'devi_stotras' ? parts.shift() : 'devi_stotras';
+  let cur: any = (ns as any)?.[namespaceKey!] || ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
 import { t, detectLocale, getMeta } from '../../../lib/i18n';
 import { parseList } from 'lib/parseList';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
@@ -11,8 +21,8 @@ export default function Page({ searchParams }: any) {
   const page: any = (() => {
     const k: any = getMeta('devi_stotras', {}, locale) || {};
     return {
-      title: typeof k.title === 'string' ? k.title : String(t('devi_stotras.title', locale) || 'Devi Stotras'),
-      items: Array.isArray(k.items) ? k.items : parseList(t('devi_stotras.devi_stotras', locale))
+      title: typeof k.title === 'string' ? k.title : String(__getLoc('devi_stotras.title') || 'Devi Stotras'),
+      items: Array.isArray(k.items) ? k.items : parseList(__getLoc('devi_stotras.devi_stotras'))
     };
   })();
   const items = page.items || [];

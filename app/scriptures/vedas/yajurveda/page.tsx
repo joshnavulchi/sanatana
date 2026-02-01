@@ -1,5 +1,15 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 
+const ns: Record<string, unknown> = {};
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  const namespaceKey = parts[0] === 'yajurveda' ? parts.shift() : 'yajurveda';
+  let cur: any = (ns as any)?.[namespaceKey!] || ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
+
 import { t, detectLocale, getMeta } from '../../../../lib/i18n';
 
 import { createGenerateMetadata } from 'lib/pageUtils';
@@ -16,10 +26,10 @@ export default function YajurvedaPage() {
   const page: any = (() => {
     const k: any = getMeta('scriptures_vedas_yajurveda', {}, locale) || {};
     return {
-      title: typeof k.title === 'string' ? k.title : String(t('yajurveda.title', locale) || ''),
-      summary: typeof k.summary === 'string' ? k.summary : String(t('yajurveda.summary', locale) || ''),
-      contentTitle: typeof k.contentTitle === 'string' ? k.contentTitle : String(t('yajurveda.contentTitle', locale) || ''),
-      content: typeof k.content === 'string' ? k.content : String(t('yajurveda.content', locale) || '')
+      title: typeof k.title === 'string' ? k.title : String(__getLoc('yajurveda.title') || ''),
+      summary: typeof k.summary === 'string' ? k.summary : String(__getLoc('yajurveda.summary') || ''),
+      contentTitle: typeof k.contentTitle === 'string' ? k.contentTitle : String(__getLoc('yajurveda.contentTitle') || ''),
+      content: typeof k.content === 'string' ? k.content : String(__getLoc('yajurveda.content') || '')
     };
   })();
 

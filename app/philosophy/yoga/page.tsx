@@ -1,6 +1,17 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
+
+const ns: Record<string, unknown> = {};
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  const namespaceKey = parts[0] === 'philosophy_yoga' ? parts.shift() : 'philosophy_yoga';
+  let cur: any = (ns as any)?.[namespaceKey!] || ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
+import { t, detectLocale, getLocaleNamespaceObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
+
 import PageLayout from '@/app/components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('philosophy_yoga');
 
@@ -9,10 +20,10 @@ export default function Page({ searchParams }: any) {
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
     const k: any = getMeta('philosophy_yoga', {}, locale) || {};
-    const loc: any = getLocaleObject(locale) || {};
+    const loc: any = getLocaleNamespaceObject(locale, 'philosophy_yoga') || {};
     const yoga = loc?.philosophy_yoga || {};
     return {
-      title: typeof k.title === 'string' ? k.title : (yoga.title || t('philosophy_yoga.title', locale) || 'Yoga Philosophy'),
+      title: typeof k.title === 'string' ? k.title : (yoga.title || __getLoc('philosophy_yoga.title') || 'Yoga Philosophy'),
       definition: k.definition || yoga.definition,
       core_principles: Array.isArray(k.core_principles) ? k.core_principles : (Array.isArray(yoga.core_principles) ? yoga.core_principles : []),
       origin: k.origin || yoga.origin || {},

@@ -1,5 +1,15 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 
+const ns: Record<string, unknown> = {};
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  const namespaceKey = parts[0] === 'atharvaveda' ? parts.shift() : 'atharvaveda';
+  let cur: any = (ns as any)?.[namespaceKey!] || ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
+
 import { t, detectLocale, getMeta } from '../../../../lib/i18n';
 
 
@@ -28,10 +38,10 @@ export default function AtharvavedaPage() {
   const page: any = (() => {
     const k: any = getMeta('scriptures_vedas_atharvaveda', undefined, locale) || {};
     return {
-      title: typeof k.title === 'string' ? k.title : String(t('atharvaveda.title', locale) || ''),
-      summary: typeof k.summary === 'string' ? k.summary : String(t('atharvaveda.summary', locale) || ''),
-      contentTitle: typeof k.contentTitle === 'string' ? k.contentTitle : String(t('atharvaveda.contentTitle', locale) || ''),
-      content: typeof k.content === 'string' ? k.content : String(t('atharvaveda.content', locale) || '')
+      title: typeof k.title === 'string' ? k.title : String(__getLoc('atharvaveda.title') || ''),
+      summary: typeof k.summary === 'string' ? k.summary : String(__getLoc('atharvaveda.summary') || ''),
+      contentTitle: typeof k.contentTitle === 'string' ? k.contentTitle : String(__getLoc('atharvaveda.contentTitle') || ''),
+      content: typeof k.content === 'string' ? k.content : String(__getLoc('atharvaveda.content') || '')
     };
   })();
 

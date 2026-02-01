@@ -1,4 +1,14 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+
+const ns: Record<string, unknown> = {};
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  const namespaceKey = parts[0] === 'puranas' ? parts.shift() : 'puranas';
+  let cur: any = (ns as any)?.[namespaceKey!] || ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
 import { t, detectLocale, getMeta } from '../../../../lib/i18n';
 
 export async function createGenerateMetadata(props: any) {
@@ -20,9 +30,9 @@ export default function PadmaPage() {
   const page: any = (() => {
     const k: any = getMeta('scriptures_puranas_padma', {}, locale) || {};
     return {
-      title: typeof k.title === 'string' ? k.title : String(t('puranas.padma.title', locale) || ''),
-      summary: k.summary || String(t('puranas.padma.summary', locale) || ''),
-      content: k.content || String(t('puranas.padma.content', locale) || '')
+      title: typeof k.title === 'string' ? k.title : String(__getLoc('puranas.padma.title') || ''),
+      summary: k.summary || String(__getLoc('puranas.padma.summary') || ''),
+      content: k.content || String(__getLoc('puranas.padma.content') || '')
     };
   })();
 

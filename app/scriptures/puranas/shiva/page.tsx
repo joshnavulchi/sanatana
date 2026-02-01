@@ -1,5 +1,15 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 
+const ns: Record<string, unknown> = {};
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  const namespaceKey = parts[0] === 'puranas' ? parts.shift() : 'puranas';
+  let cur: any = (ns as any)?.[namespaceKey!] || ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
+
 import { t, detectLocale, getMeta } from '../../../../lib/i18n';
 
 
@@ -25,9 +35,9 @@ export default function ShivaPage() {
   const page: any = (() => {
     const k: any = getMeta('scriptures_puranas_shiva', {}, locale) || {};
     return {
-      title: typeof k.title === 'string' ? k.title : String(t('puranas.shiva.title', locale) || ''),
-      summary: k.summary || String(t('puranas.shiva.summary', locale) || ''),
-      content: k.content || String(t('puranas.shiva.content', locale) || '')
+      title: typeof k.title === 'string' ? k.title : String(__getLoc('puranas.shiva.title') || ''),
+      summary: k.summary || String(__getLoc('puranas.shiva.summary') || ''),
+      content: k.content || String(__getLoc('puranas.shiva.content') || '')
     };
   })();
 

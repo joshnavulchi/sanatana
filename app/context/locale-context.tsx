@@ -2,7 +2,7 @@
 "use client";
 
 import { createContext, useContext, useEffect, useState } from 'react';
-import { DEFAULT_LOCALE, SUPPORTED_LOCALES, loadLocale, getLocaleObject } from '../../lib/i18n';
+import { DEFAULT_LOCALE, SUPPORTED_LOCALES, loadLocale } from '../../lib/i18n';
 import storage from '../../lib/storage';
 import { useSearchParams, useRouter } from 'next/navigation';
 
@@ -17,7 +17,7 @@ type LocaleContextType = {
 // replace this value when it hydrates.
 const defaultLocaleContext: LocaleContextType = {
   locale: DEFAULT_LOCALE,
-  setLocale: () => {},
+  setLocale: () => { },
   isLoading: true,
 };
 
@@ -26,18 +26,8 @@ const LocaleContext = createContext<LocaleContextType>(defaultLocaleContext);
 export function LocaleProvider({ children }: { children: React.ReactNode }) {
   const [locale, setLocale] = useState(DEFAULT_LOCALE);
   const [isClient, setIsClient] = useState(false);
-  // If the server injected the default locale into the page (via
-  // window.__LOCALE_CACHE__), we can consider the initial load complete
-  // and avoid showing the loader overlay on first client render.
-  const initialLoaded = (() => {
-    try {
-      const obj = getLocaleObject(DEFAULT_LOCALE) as any;
-      return obj && typeof obj === 'object' && Object.keys(obj).length > 0;
-    } catch (e) {
-      return false;
-    }
-  })();
-  const [isLoading, setIsLoading] = useState(!initialLoaded);
+  // Start with loading state as true since we need to load namespace files
+  const [isLoading, setIsLoading] = useState(true);
   const searchParams = useSearchParams();
   const router = useRouter();
 
@@ -48,14 +38,15 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
     // Helper to load locale, persist it, ensure cookie, and refresh server render.
     async function applyLocale(lang: string | null) {
       if (!lang) return;
-      
+      console.debug('[LocaleProvider] applyLocale start', lang);
       setIsLoading(true);
-      
+
       try {
         await loadLocale(lang);
       } catch (e) {
         console.error('[LocaleProvider] Failed to load locale:', e);
       }
+      console.debug('[LocaleProvider] applyLocale loaded', lang);
 
       // Update React state so client components re-render with the new locale
       setTimeout(() => {
@@ -119,7 +110,7 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
     if (!locale) return;
     // fire-and-forget; caching happens inside `loadLocale`.
     try {
-      loadLocale(locale).catch(() => {});
+      loadLocale(locale).catch(() => { });
     } catch (e) {
       // ignore
     }

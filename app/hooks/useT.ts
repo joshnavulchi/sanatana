@@ -2,7 +2,7 @@
 "use client";
 
 import { useLocale } from '../context/locale-context';
-import { t as serverT, getLocaleObject } from '../../lib/i18n';
+import { t as serverT, getLocaleObject, loadLocaleNamespace } from '../../lib/i18n';
 import { useState, useEffect } from 'react';
 
 export function useT() {
@@ -45,7 +45,30 @@ export function useT() {
       return humanizeKey(key) as any;
     }
 
-    return serverT(key, locale);
+    const resolved = serverT(key, locale);
+
+    // If the translation wasn't found (serverT returned the original key),
+    // attempt to load the namespace (client-only) and re-render when ready.
+    if (typeof window !== 'undefined' && resolved === key) {
+      try {
+        const namespace = key.split('.')[0];
+        console.debug('[useT] key missing, loading namespace', { key, namespace, locale });
+        // Fire-and-forget: when the namespace finishes loading, force a rerender.
+        loadLocaleNamespace(locale, namespace).then((ns) => {
+          console.debug('[useT] loadLocaleNamespace resolved', { namespace, locale, has: !!ns });
+          if (ns && Object.keys(ns).length > 0) {
+            setTimeout(() => {
+              console.debug('[useT] forcing update after namespace load', namespace);
+              forceUpdate(prev => prev + 1);
+            }, 0);
+          }
+        }).catch((err) => { console.warn('[useT] loadLocaleNamespace failed', err); });
+      } catch (e) {
+        console.warn('[useT] failed to start namespace load', e);
+      }
+    }
+
+    return resolved;
   };
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

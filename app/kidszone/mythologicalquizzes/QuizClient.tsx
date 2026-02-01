@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useMemo, useState } from 'react';
 import { detectLocale, DEFAULT_LOCALE } from '../../../lib/i18n';
-import { useT } from '../../hooks/useT';
+import useLocaleSection from '../../hooks/useLocaleSection';
 
 type Options = { A: string; B: string; C: string; D: string };
 type Question = { id: number; question: string; options: Options; answer: keyof Options };
@@ -16,7 +16,7 @@ function sampleIndices(total: number, count: number): number[] {
 }
 
 export default function QuizClient() {
-  const t = useT();
+  const ns = useLocaleSection('quiz');
   const [questionsPool, setQuestionsPool] = useState<Question[] | null>(null);
   const [selectedIdx, setSelectedIdx] = useState<number[]>([]);
   const [current, setCurrent] = useState(0);
@@ -102,17 +102,17 @@ export default function QuizClient() {
   }
 
   const loc = detectLocale() || DEFAULT_LOCALE;
-  if (!questionsPool) return <div>{t('quiz.loading')}</div>;
-  if (qList.length === 0) return <div>{t('quiz.preparing')}</div>;
+  if (!questionsPool) return <div>{ns?.loading || 'Loading...'}</div>;
+  if (qList.length === 0) return <div>{ns?.preparing || 'Preparing quiz...'}</div>;
 
   if (!started) {
     return (
       <div>
-        <h2 className="h4">{t('quiz.readyTitle')}</h2>
-        <p>{t('quiz.readyDescription').replace('{count}', String(qList.length)).replace('{time}', fmtTime(timeLeft))}</p>
+        <h2 className="h4">{ns?.readyTitle || 'Ready?'}</h2>
+        <p>{(ns?.readyDescription || 'This quiz has {count} questions, time {time}').replace('{count}', String(qList.length)).replace('{time}', fmtTime(timeLeft))}</p>
         <div>
-          <button className="btn btn-primary" onClick={() => setStarted(true)}>{t('quiz.start')}</button>
-          <button className="btn btn-outline" onClick={restart}>{t('quiz.shuffle')}</button>
+          <button className="btn btn-primary" onClick={() => setStarted(true)}>{ns?.start || 'Start'}</button>
+          <button className="btn btn-outline" onClick={restart}>{ns?.shuffle || 'Shuffle'}</button>
         </div>
       </div>
     );
@@ -121,9 +121,9 @@ export default function QuizClient() {
   if (finished) {
     return (
       <div>
-        <h2 className="h4">{t('quiz.resultsTitle') || t('quiz.resultsTitle')}</h2>
-        <div>{t('quiz.yourScore')} <strong>{score}</strong> / {qList.length}</div>
-        <div>{t('quiz.timeTaken')} {fmtTime(10 * 60 - timeLeft)}</div>
+        <h2 className="h4">{ns?.resultsTitle || 'Results'}</h2>
+        <div>{ns?.yourScore || 'Your score:'} <strong>{score}</strong> / {qList.length}</div>
+        <div>{ns?.timeTaken || 'Time taken:'} {fmtTime(10 * 60 - timeLeft)}</div>
         <div>
           {qList.map((q, idx) => (
             <div key={q.id}>
@@ -134,7 +134,7 @@ export default function QuizClient() {
                   const chosen = answers[q.id] === k;
                   return (
                     <div key={k}>
-                      <strong>{k}.</strong> {q.options[k]} {correct ? ' (Correct)' : chosen ? ' (Your choice)' : ''}
+                      <strong>{k}.</strong> {q.options[k]} {correct ? ` (${ns?.correctLabel || 'Correct'})` : chosen ? ` (${ns?.yourChoiceLabel || 'Your choice'})` : ''}
                     </div>
                   );
                 })}
@@ -143,7 +143,7 @@ export default function QuizClient() {
           ))}
         </div>
         <div>
-          <button className="btn btn-primary" onClick={restart}>{t('quiz.restart')}</button>
+          <button className="btn btn-primary" onClick={restart}>{ns?.restart || 'Restart'}</button>
         </div>
       </div>
     );
@@ -154,8 +154,8 @@ export default function QuizClient() {
   return (
     <div>
       <div>
-        <div>{t('quiz.questionCounter').replace('{current}', String(current + 1)).replace('{total}', String(qList.length))}</div>
-        <div>{t('quiz.timeLeftLabel')} {fmtTime(timeLeft)}</div>
+        <div>{(ns?.questionCounter || 'Question {current} / {total}').replace('{current}', String(current + 1)).replace('{total}', String(qList.length))}</div>
+        <div>{ns?.timeLeftLabel || 'Time left:'} {fmtTime(timeLeft)}</div>
       </div>
 
       <div>
@@ -174,10 +174,10 @@ export default function QuizClient() {
 
         <div>
           <div>
-            <button className="btn btn-primary" onClick={goPrev} disabled={current === 0}>{t('quiz.previous')}</button>
-            <button className="btn btn-primary" onClick={goNext}>{current < qList.length - 1 ? t('quiz.next') : t('quiz.finish')}</button>
+            <button className="btn btn-primary" onClick={goPrev} disabled={current === 0}>{ns?.previous || 'Previous'}</button>
+            <button className="btn btn-primary" onClick={goNext}>{current < qList.length - 1 ? (ns?.next || 'Next') : (ns?.finish || 'Finish')}</button>
           </div>
-          <div>{t('quiz.answered').replace('{answered}', String(Object.keys(answers).length)).replace('{total}', String(qList.length))}</div>
+          <div>{(ns?.answered || 'Answered {answered} / {total}').replace('{answered}', String(Object.keys(answers).length)).replace('{total}', String(qList.length))}</div>
         </div>
       </div>
     </div>

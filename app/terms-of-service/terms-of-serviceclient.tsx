@@ -2,8 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
-import { loadLocale, getLocaleObject } from 'lib/i18n';
-import { useT } from '../hooks/useT';
+import { loadLocale } from 'lib/i18n';
+import useLocaleSection from '../hooks/useLocaleSection';
 import Loader from '@/app/components/loader/loader';
 
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
@@ -13,53 +13,11 @@ type PartialPage = Record<string, any>;
 
 export default function TermsOfService() {
   const { locale, isLoading } = useLocale();
-  const t = useT();
+  const ns = useLocaleSection('terms_of_service');
 
-  // Initialize with current data to prevent empty renders on refresh
-  const getInitialPage = (): PartialPage => {
-    try {
-      const localeObj = getLocaleObject(locale) as any;
-      if (!localeObj || Object.keys(localeObj).length === 0) {
-        return { title: '', lastupdated: '' };
-      }
-      const terms = localeObj?.terms_of_service || {};
-      const title = terms.title || '';
-      const lastupdated = terms.lastupdated || '';
-      const keys = [
-        'intro', 'acceptancetitle', 'uselicensetitle', 'uselicensetext', 'uselicenselist',
-        'intellectualtitle', 'intellectualtext', 'userconducttitle', 'userconductintro', 'userconductlist',
-        'disclaimertitle', 'disclaimertext', 'disclaimerlist', 'disclaimerclosing',
-        'liabilitytitle', 'liabilitytext', 'externallinkstitle', 'externallinkstext',
-        'modificationstitle', 'modificationstext', 'terminationtitle', 'terminationtext',
-        'indemnificationtitle', 'indemnificationtext', 'governingtitle', 'governingtext',
-        'severabilitytitle', 'severabilitytext', 'contacttitle', 'contacttext',
-        'contactphonelabel', 'contactphone', 'contactemaillabel', 'contactemail', 'contactwebsitelabel', 'contactwebsite', 'closing'
-      ];
-      const data: PartialPage = {};
-      keys.forEach((k) => {
-        data[k] = parseMaybeObject(terms[k] || '');
-      });
-      ['userconductlist', 'disclaimerlist', 'uselicenselist'].forEach((lk) => {
-        const val = data[lk];
-        if (typeof val === 'string') {
-          data[lk] = parseSections(val);
-        } else if (Array.isArray(val)) {
-          data[lk] = val;
-        } else if (val && typeof val === 'object') {
-          // Convert object to array of values
-          data[lk] = Object.values(val);
-        } else {
-          data[lk] = [];
-        }
-      });
-      return { title, lastupdated, ...data };
-    } catch (e) {
-      console.error('Error in getInitialPage:', e);
-      return { title: '', lastupdated: '' };
-    }
-  };
-
-  const [page, setPage] = useState<PartialPage>(getInitialPage);
+  // Initialize with empty state to avoid hydration mismatch
+  // useLocaleSection will populate the data properly
+  const [page, setPage] = useState<PartialPage>({ title: '', lastupdated: '' });
 
   useEffect(() => {
     let mounted = true;
@@ -69,8 +27,8 @@ export default function TermsOfService() {
       } catch (e) { }
       if (!mounted) return;
 
-      const title = t('terms_of_service.title') || '';
-      const lastupdated = t('terms_of_service.lastupdated') || '';
+      const title = ns?.title || '';
+      const lastupdated = ns?.lastupdated || '';
 
       const keys = [
         'intro', 'acceptancetitle', 'uselicensetitle', 'uselicensetext', 'uselicenselist',
@@ -85,7 +43,7 @@ export default function TermsOfService() {
 
       const data: PartialPage = {};
       keys.forEach((k) => {
-        data[k] = parseMaybeObject(t(`terms_of_service.${k}`));
+        data[k] = parseMaybeObject(ns ? ns[k] : '');
       });
 
       // ensure known list fields become arrays when strings
@@ -106,7 +64,7 @@ export default function TermsOfService() {
       setPage({ title, lastupdated, ...data });
     })();
     return () => { mounted = false; };
-  }, [locale]);
+  }, [locale, ns]);
 
   if (isLoading && !page.title) {
     return (

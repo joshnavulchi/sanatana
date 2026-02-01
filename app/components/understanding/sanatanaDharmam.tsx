@@ -1,22 +1,37 @@
-'use client';
-import { useT } from '../../hooks/useT';
-import { JSX } from 'react';
+"use client";
+import { useEffect, useState } from 'react';
+import { loadLocaleNamespace } from '../../../lib/i18n';
+import { useLocale } from '../../context/locale-context';
 import { parseList } from 'lib/parseList';
 import Link from 'next/link';
 import LazyImage from '../lazy-image/LazyImage';
 import styles from './sanatanadharmam.module.scss';
 
 export default function UnderstandingOfSanatana() {
-  const t = useT();
-  const sections = parseList(t("home.sections"));
+  const { locale } = useLocale();
+
+  const [sections, setSections] = useState<any[]>([]);
+
+  useEffect(() => {
+    // Load the `home` namespace once for this locale and update state.
+    let cancelled = false;
+    loadLocaleNamespace(locale, 'home').then((ns: any) => {
+      if (cancelled) return;
+      if (ns && Array.isArray(ns.sections)) {
+        setSections(ns.sections);
+      } else if (ns && ns.home && Array.isArray(ns.home.sections)) {
+        setSections(ns.home.sections);
+      }
+    }).catch(() => { });
+    return () => { cancelled = true; };
+  }, [locale]);
+
   return (
     <div className={`${styles.understanding} content-wrapper`}>
       {sections.map((section: any, index: number) => {
-        const level = Math.min(index + 2, 6);
-        const Tag = `h${level}` as keyof JSX.IntrinsicElements
         return (<div key={section.id} className={`${styles.sections} text-center`}>
           <div className={`mx-auto max-w-5xl`}>
-            <Tag className={`h3 ${!section?.nodecaration ? styles.borderbottom : ''}`}>{section.title}</Tag>
+            <h3 className={`${!section?.nodecaration ? styles.borderbottom : ''}`}>{section.title}</h3>
             <p>{section.content}</p>
             {section?.src && <LazyImage src={section.src} alt={section.title} width={320} height={320} className="object-cover flex justify-center" />}
           </div>

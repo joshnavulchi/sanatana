@@ -1,7 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, detectLocale, getLocaleObject, getMeta } from '../../../lib/i18n';
-import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@/app/components/common/PageLayout';
+import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
+import { t, detectLocale, getLocaleNamespaceObject, getMeta } from '../../../lib/i18n';
 import SlokasClient from './slokasclient';
 export const generateMetadata = createGenerateMetadata('scriptures_sanksheparamayana');
 
@@ -9,7 +9,7 @@ export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
-    const loc: any = getLocaleObject(locale) || {};
+    const loc: any = getLocaleNamespaceObject(locale, 'scriptures_sanksheparamayana') || {};
     const ram = loc?.scriptures_sanksheparamayana || {};
     return {
       title: ram.title || '',

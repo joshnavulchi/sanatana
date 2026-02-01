@@ -1,4 +1,14 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+
+const ns: Record<string, unknown> = {};
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  const namespaceKey = parts[0] === 'scriptures_bhagavathgita' ? parts.shift() : 'scriptures_bhagavathgita';
+  let cur: any = (ns as any)?.[namespaceKey!] || ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
 import { headers } from 'next/headers';
 import { notFound } from 'next/navigation';
 import { t, getMeta, detectLocale, DEFAULT_LOCALE, detectServerLocaleFromHeaders } from '@/lib/i18n';
@@ -22,9 +32,9 @@ export async function createGenerateMetadata({ params, searchParams }: { params:
 
   // load chapters from locale translations; if the locale doesn't include
   // structured chapters, fall back to English translations (no combined file)
-  let chaptersRaw: any = t('scriptures_bhagavathgita.chapters', locale); 
+  let chaptersRaw: any = __getLoc('scriptures_bhagavathgita.chapters'); 
   if (!Array.isArray(chaptersRaw)) {
-    chaptersRaw = t('scriptures_bhagavathgita.chapters');
+    chaptersRaw = __getLoc('scriptures_bhagavathgita.chapters');
   }
   const chapters: any[] = Array.isArray(chaptersRaw) ? chaptersRaw : [];
   const resolvedParams = params && typeof params.then === 'function' ? await params : params;
@@ -52,9 +62,9 @@ export async function generateStaticParams() {
 export default async function Page({ params, searchParams }: { params: any, searchParams?: any }) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   // load chapters strictly from locale translations; fall back to English
-  let chaptersRaw: any = t('scriptures_bhagavathgita.chapters', locale);
+  let chaptersRaw: any = __getLoc('scriptures_bhagavathgita.chapters');
   if (!Array.isArray(chaptersRaw)) {
-    chaptersRaw = t('scriptures_bhagavathgita.chapters');
+    chaptersRaw = __getLoc('scriptures_bhagavathgita.chapters');
   }
   const chapters: any[] = Array.isArray(chaptersRaw) ? chaptersRaw : [];
   const resolvedParams = params && typeof params.then === 'function' ? await params : params;
@@ -65,7 +75,7 @@ export default async function Page({ params, searchParams }: { params: any, sear
   }
   const ch = Array.isArray(chapters) ? chapters.find((c: any, i: number) => Number(c.chapter || c.chapter_number || (i + 1)) === num) : null;
   // compute a chapter-specific title/excerpt to pass into StructuredData
-  const bookTitle = (t('scriptures_bhagavathgita.title', locale) || t('scriptures_bhagavathgita.title') || 'Bhagavad Gita');
+  const bookTitle = (__getLoc('scriptures_bhagavathgita.title') || __getLoc('scriptures_bhagavathgita.title') || 'Bhagavad Gita');
   const chapterTitleText = ch ? (ch.title || ch.name || `Chapter ${num}`) : `Chapter ${num}`;
   const title = `Chapter ${num}`;
   const excerpt = ch && ch.summary ? ch.summary : '';

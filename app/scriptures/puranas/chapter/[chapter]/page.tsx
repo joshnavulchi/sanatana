@@ -1,16 +1,24 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, getMeta, DEFAULT_LOCALE, detectLocale, getLocaleObject } from '@/lib/i18n';
+
+const ns: Record<string, unknown> = {};
+const __getLoc = (p: string) => {
+  if (!ns) return '';
+  const parts = p.split('.');
+  const namespaceKey = parts[0] === 'puranas' ? parts.shift() : 'puranas';
+  let cur: any = (ns as any)?.[namespaceKey!] || ns as any;
+  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
+  return cur;
+};
+import { t, getMeta, DEFAULT_LOCALE, detectLocale, getLocaleNamespaceObject } from '@/lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageArticleJsonLd from '@/app/components/structured-data/PageArticleJsonLd';
 import Link from 'next/link';
 export const generateMetadata = createGenerateMetadata('puranas_slug');
 export function generateStaticParams() {
   try {
-    // At build time, synchronously load the default locale object
-    // and read the chapters array directly to avoid dynamic import
-    // pitfalls. `getLocaleObject` uses a server-side `require`.
-    const loc: any = getLocaleObject(DEFAULT_LOCALE) || {};
-    const chapters = (loc?.puranas && loc.puranas.chapters) || [];
+    // At build time, synchronously load the default locale namespace
+    const loc: any = getLocaleNamespaceObject(DEFAULT_LOCALE, 'scriptures_puranas') || {};
+    const chapters = ((loc?.scriptures_puranas?.chapters) || (loc?.puranas?.chapters) || loc?.chapters) || {};
     if (Array.isArray(chapters) && chapters.length > 0) {
       return chapters.map((c: any) => ({ chapter: String(c.chapter) }));
     }
@@ -21,11 +29,11 @@ export function generateStaticParams() {
 export default function Page({ params, searchParams }: { params: { chapter: string }, searchParams?: any }) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
-  const chapters = t('puranas.chapters', locale) || [];
+  const chapters = __getLoc('puranas.chapters') || [];
   const num = Number(params.chapter || 0);
   const ch = Array.isArray(chapters) ? chapters.find((c: any) => Number(c.chapter) === num) : null;
   const siteMeta = getMeta('puranas', {}, locale);
-  const title = ch ? `${siteMeta.title || t('nav.scriptures.nav.puranas', locale)} — Chapter ${ch.chapter}: ${ch.title}` : `Chapter ${num}`;
+  const title = ch ? `${siteMeta.title || __getLoc('sharable_strings.header.scriptures.nav.puranas')} — Chapter ${ch.chapter}: ${ch.title}` : `Chapter ${num}`;
   const excerpt = ch && ch.summary ? ch.summary : '';
   return (
     <>

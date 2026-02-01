@@ -6,7 +6,7 @@ import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 import { useLanguagePersistence } from '../../hooks/useLanguagePersistence';
 
 import { DEFAULT_LOCALE, loadLocale } from '../../../lib/i18n';
-import { useT } from '../../hooks/useT';
+import useLocaleSection from '../../hooks/useLocaleSection';
 import { useLocale } from '../../context/locale-context';
 // Use plain <img> for small globe icon to avoid next/image intermittent issues
 import localesList from '../../../lib/localesList.json';
@@ -15,7 +15,7 @@ import localeMeta from '../../../lib/localeMeta.json';
 import styles from './langdropdown.module.scss';
 
 export default function LanguageDropdown() {
-  const t = useT();
+  const locale = useLocaleSection('sharable_strings');
   const [open, setOpen] = useState(false);
   const [currentLang, setCurrentLang] = useState(DEFAULT_LOCALE);
   const [isClient, setIsClient] = useState(false);
@@ -171,22 +171,22 @@ export default function LanguageDropdown() {
         aria-controls="language-menu"
         onClick={() => setOpen(!open)}
         className={`${styles.langbtn} inline-flex items-center cursor-pointer`}
-        aria-label={t('languagedropdown.arialabel')}
+        aria-label={locale?.languagedropdown?.arialabel || 'Choose language'}
         aria-expanded={open}
       >
-        <img src="/images/svg/ml.svg" alt={t('languagedropdown.iconalt')} width={20} height={20} />
+        <img src="/images/svg/ml.svg" alt={locale?.languagedropdown?.iconalt || 'Language selector'} width={20} height={20} />
         {isClient && (
-          <span className="font-sm sr-only">{currentLanguage?.nativeName || t('languagedropdown.english')}</span>
+          <span className="font-sm sr-only">{currentLanguage?.nativeName || locale?.languagedropdown?.english || 'English'}</span>
         )}
       </button>
 
       {/* Popup Modal */}
       {open && (
-      <div className="fixed inset-0 z-50 flex items-center justify-center" role="dialog" aria-modal="true" aria-labelledby="language-dialog-title">
+        <div className="fixed inset-0 z-50 flex items-center justify-center" role="dialog" aria-modal="true" aria-labelledby="language-dialog-title">
           <div className="absolute inset-0 bg-black/40" onClick={() => setOpen(false)} />
-            <div ref={dropdownRef} className={`${styles.multilang} rounded-md w-11/12 max-w-md md:w-auto md:max-w-xl shadow-lg border`}>
-              <div role="group" className="flex items-center justify-between">
-              <div id="language-dialog-title" className="font-semibold">{t('languagedropdown.title') || 'Choose language'}</div>
+          <div ref={dropdownRef} className={`${styles.multilang} rounded-md w-11/12 max-w-md md:w-auto md:max-w-xl shadow-lg border`}>
+            <div role="group" className="flex items-center justify-between">
+              <div id="language-dialog-title" className="font-semibold">{locale?.languagedropdown?.title || 'Choose language'}</div>
               <button role="button" aria-label="Close" onClick={() => setOpen(false)} className="cursor-pointer">✕</button>
             </div>
             <div className="search-wrapper">
@@ -211,9 +211,9 @@ export default function LanguageDropdown() {
                     setOpen(false);
                   }
                 }}
-                placeholder={t('languagedropdown.searchplaceholder') || 'Search languages...'}
+                placeholder={locale?.languagedropdown?.searchplaceholder || 'Search languages...'}
                 className={`${styles.langsearchinput} w-full rounded border theme-border-color`}
-                aria-label={t('languagedropdown.searcharia') || 'Search languages'}
+                aria-label={locale?.languagedropdown?.searcharia || 'Search languages'}
               />
             </div>
             <div id="language-menu" role="menu" className="max-h-96 overflow-y-auto md:flex md:flex-wrap">

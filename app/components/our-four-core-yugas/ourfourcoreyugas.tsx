@@ -1,6 +1,6 @@
 'use client';
 
-import { useT } from '../../hooks/useT';
+import useLocaleSection from '../../hooks/useLocaleSection';
 import { parseList } from 'lib/parseList';
 import styles from './ourfourcoreyugas.module.scss';
 import Link from 'next/link';
@@ -67,10 +67,10 @@ const Segment = ({ title, subtitle, years, isFirst, isLast, }: any) => {
 
 
 export default function OurFourCoreYugas() {
-  const t = useT();
-  const title = parseList(t("home.ourfourcoreyugastitle"));
-  const subtitle = parseList(t("home.ourfourcoreyugassubtitle"));
-  const yugas = parseList(t("home.ourfourcoreyugas"));
+  const locale = useLocaleSection('home');
+  const title = parseList((locale?.ourfourcoreyugastitle as any) || '');
+  const subtitle = parseList((locale?.ourfourcoreyugassubtitle as any) || '');
+  const yugas = Array.isArray(locale?.ourfourcoreyugas) ? locale!.ourfourcoreyugas : parseList((locale?.ourfourcoreyugas as any) || '');
   return (
     <section className={`bg-[radial-gradient(120%_120%_at_50%_0%,#8a3a31_10%,#b25435_40%,#502a26_100%)] text-center ${styles.ourFourCoreYugas} ? ${styles.ourFourCoreYugas} : ''`}>
       <div className="max-w-7xl mx-auto relative overflow-hidden">
