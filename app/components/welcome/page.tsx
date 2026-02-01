@@ -1,12 +1,38 @@
 "use client";
 import { useEffect, useState } from 'react';
 
+const STORAGE_KEY = 'sanatana_welcome_dismissed';
+
 export default function WelcomePage() {
   const [isVisible, setIsVisible] = useState(false);
+  const [showWelcome, setShowWelcome] = useState(false);
+  const [doNotShowAgain, setDoNotShowAgain] = useState(false);
 
   useEffect(() => {
-    setIsVisible(true);
+    // Check localStorage on mount
+    const dismissed = localStorage.getItem(STORAGE_KEY);
+    if (dismissed !== 'true') {
+      setShowWelcome(true);
+      // Small delay for animation
+      setTimeout(() => setIsVisible(true), 100);
+    }
   }, []);
+
+  const handleClose = () => {
+    // Save to localStorage if checkbox is checked
+    if (doNotShowAgain) {
+      localStorage.setItem(STORAGE_KEY, 'true');
+    }
+    // Fade out animation
+    setIsVisible(false);
+    // Remove from DOM after animation
+    setTimeout(() => setShowWelcome(false), 300);
+  };
+
+  // Don't render if dismissed
+  if (!showWelcome) {
+    return null;
+  }
 
   return (
     <div className="min-h-[60vh] flex items-center justify-center p-6">
@@ -22,6 +48,32 @@ export default function WelcomePage() {
         
         {/* Main welcome card */}
         <div className="relative">
+          {/* Close button */}
+          <button
+            onClick={handleClose}
+            aria-label="Close welcome message"
+            className="
+              absolute -top-2 -right-2 z-20
+              w-10 h-10
+              bg-white hover:bg-amber-50
+              border-2 border-amber-300 hover:border-amber-400
+              rounded-full
+              shadow-lg hover:shadow-xl
+              transition-all duration-200
+              flex items-center justify-center
+              group
+            "
+          >
+            <svg 
+              className="w-5 h-5 text-amber-600 group-hover:text-amber-700 transition-colors" 
+              fill="none" 
+              stroke="currentColor" 
+              viewBox="0 0 24 24"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+
           {/* Ornamental corners */}
           <div className="absolute -top-4 -left-4 w-16 h-16 border-l-2 border-t-2 border-amber-400/30 rounded-tl-2xl" />
           <div className="absolute -top-4 -right-4 w-16 h-16 border-r-2 border-t-2 border-amber-400/30 rounded-tr-2xl" />
@@ -120,6 +172,28 @@ export default function WelcomePage() {
                 <svg className="w-16 h-16 text-amber-500/40" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M12 2C12 2 9 5 9 9C9 11.21 10.79 13 13 13C13 13 13 15 13 17C13 19.21 11.21 21 9 21C9 21 9 19 9 17C9 14.79 7.21 13 5 13C5 13 5 11 5 9C5 6.79 6.79 5 9 5C9 5 11 5 11 5C11 5 11 3 11 2H12M12 2C12 2 15 5 15 9C15 11.21 13.21 13 11 13C11 13 11 15 11 17C11 19.21 12.79 21 15 21C15 21 15 19 15 17C15 14.79 16.79 13 19 13C19 13 19 11 19 9C19 6.79 17.21 5 15 5C15 5 13 5 13 5C13 5 13 3 13 2H12Z" />
                 </svg>
+              </div>
+
+              {/* Do not show again checkbox */}
+              <div className="pt-6 border-t border-amber-200/30 mt-8">
+                <label className="flex items-center justify-center gap-3 cursor-pointer group">
+                  <input
+                    type="checkbox"
+                    checked={doNotShowAgain}
+                    onChange={(e) => setDoNotShowAgain(e.target.checked)}
+                    className="
+                      w-5 h-5 
+                      rounded border-2 border-amber-400 
+                      text-amber-600 
+                      focus:ring-2 focus:ring-amber-500 focus:ring-offset-2
+                      cursor-pointer
+                      transition-all
+                    "
+                  />
+                  <span className="text-sm text-gray-600 group-hover:text-amber-700 transition-colors">
+                    Do not show this welcome message again
+                  </span>
+                </label>
               </div>
             </div>
           </div>
