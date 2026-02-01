@@ -257,7 +257,7 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
       const rotationInterval = setInterval(() => {
         setGlobeRotation((prev) => (prev + 0.2) % 360);
       }, 50);
-      
+
       return () => clearInterval(rotationInterval);
     }
   }, [isPlaying]);
@@ -316,7 +316,7 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
       {/* Title */}
       <div className="text-center mb-8">
         <h2 className="text-4xl font-bold bg-gradient-to-r from-amber-400 via-orange-500 to-amber-400 bg-clip-text text-transparent mb-3">
-          🌍 Earth's Continental Timeline 🌏
+          🌍 Earth`&apos;`s Continental Timeline 🌏
         </h2>
         <p className="text-gray-400 text-lg">
           Witness tectonic plates shifting through time - from ancient Pangaea to future supercontinents
@@ -332,11 +332,11 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
               key={i}
               className="absolute w-1 h-1 bg-white rounded-full"
               style={{
-                left: `${Math.random() * 100}%`,
-                top: `${Math.random() * 100}%`,
-                animation: `twinkle ${2 + Math.random() * 3}s infinite`,
-                animationDelay: `${Math.random() * 3}s`,
-                opacity: 0.3 + Math.random() * 0.7
+                // left: `${Math.random() * 100}%`,
+                // top: `${Math.random() * 100}%`,
+                // animation: `twinkle ${2 + Math.random() * 3}s infinite`,
+                // animationDelay: `${Math.random() * 3}s`,
+                // opacity: 0.3 + Math.random() * 0.7
               }}
             />
           ))}
@@ -363,70 +363,70 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
           <defs>
             {/* Ocean gradient with depth */}
             <radialGradient id="oceanGradient" cx="50%" cy="50%">
-              <stop offset="0%" stopColor="#2563eb" stopOpacity="1"/>
-              <stop offset="50%" stopColor="#1e40af" stopOpacity="1"/>
-              <stop offset="100%" stopColor="#1e3a8a" stopOpacity="1"/>
+              <stop offset="0%" stopColor="#2563eb" stopOpacity="1" />
+              <stop offset="50%" stopColor="#1e40af" stopOpacity="1" />
+              <stop offset="100%" stopColor="#1e3a8a" stopOpacity="1" />
             </radialGradient>
-            
+
             {/* Sphere gradient for 3D effect */}
             <radialGradient id="sphereGradient" cx="40%" cy="40%">
-              <stop offset="0%" stopColor="rgba(255,255,255,0.3)"/>
-              <stop offset="50%" stopColor="rgba(255,255,255,0)"/>
-              <stop offset="100%" stopColor="rgba(0,0,0,0.4)"/>
+              <stop offset="0%" stopColor="rgba(255,255,255,0.3)" />
+              <stop offset="50%" stopColor="rgba(255,255,255,0)" />
+              <stop offset="100%" stopColor="rgba(0,0,0,0.4)" />
             </radialGradient>
 
             {/* Continent glow */}
             <filter id="continentGlow">
-              <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+              <feGaussianBlur stdDeviation="2" result="coloredBlur" />
               <feMerge>
-                <feMergeNode in="coloredBlur"/>
-                <feMergeNode in="SourceGraphic"/>
+                <feMergeNode in="coloredBlur" />
+                <feMergeNode in="SourceGraphic" />
               </feMerge>
             </filter>
 
             {/* Tectonic movement effect */}
             <filter id="tectonicShake">
-              <feTurbulence type="turbulence" baseFrequency="0.01" numOctaves="2" result="turbulence"/>
-              <feDisplacementMap in2="turbulence" in="SourceGraphic" scale={getTectonicMovement()} xChannelSelector="R" yChannelSelector="G"/>
+              <feTurbulence type="turbulence" baseFrequency="0.01" numOctaves="2" result="turbulence" />
+              <feDisplacementMap in2="turbulence" in="SourceGraphic" scale={getTectonicMovement()} xChannelSelector="R" yChannelSelector="G" />
             </filter>
 
             {/* Enhanced 3D depth effect */}
             <filter id="depth3D">
-              <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
-              <feOffset dx="4" dy="4" result="offsetblur"/>
+              <feGaussianBlur in="SourceAlpha" stdDeviation="4" />
+              <feOffset dx="4" dy="4" result="offsetblur" />
               <feComponentTransfer>
-                <feFuncA type="linear" slope="0.5"/>
+                <feFuncA type="linear" slope="0.5" />
               </feComponentTransfer>
               <feMerge>
-                <feMergeNode/>
-                <feMergeNode in="SourceGraphic"/>
+                <feMergeNode />
+                <feMergeNode in="SourceGraphic" />
               </feMerge>
             </filter>
 
             {/* Country border separation effect */}
             <filter id="borderGlow">
-              <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+              <feGaussianBlur stdDeviation="1.5" result="coloredBlur" />
               <feMerge>
-                <feMergeNode in="coloredBlur"/>
-                <feMergeNode in="SourceGraphic"/>
+                <feMergeNode in="coloredBlur" />
+                <feMergeNode in="SourceGraphic" />
               </feMerge>
             </filter>
           </defs>
 
           {/* Globe circle (ocean) */}
-          <circle 
-            cx="500" 
-            cy="400" 
-            r="350" 
-            fill="url(#oceanGradient)" 
-            stroke="#1e40af" 
+          <circle
+            cx="500"
+            cy="400"
+            r="350"
+            fill="url(#oceanGradient)"
+            stroke="#1e40af"
             strokeWidth="3"
           />
 
           {/* Rotating latitude/longitude grid */}
-          <g 
-            stroke="#ffffff" 
-            strokeWidth="1" 
+          <g
+            stroke="#ffffff"
+            strokeWidth="1"
             opacity="0.15"
             transform={`rotate(${globeRotation}, 500, 400)`}
           >
@@ -442,7 +442,7 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
                 transform={`translate(0, ${y})`}
               />
             ))}
-            
+
             {/* Longitude lines */}
             {[...Array(12)].map((_, i) => {
               const angle = (i * 30);
@@ -461,7 +461,7 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
           </g>
 
           {/* Continents group with rotation and tectonic movement */}
-          <g 
+          <g
             transform={`translate(500, 400) rotate(${currentPeriod.rotation + globeRotation}) translate(-500, -400)`}
             filter={currentPeriod.tectonicActivity === 'high' ? 'url(#tectonicShake)' : 'none'}
           >
@@ -584,45 +584,45 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
           {show3D && (
             <>
               {/* Inner shadow for depth */}
-              <circle 
-                cx="500" 
-                cy="400" 
-                r="348" 
-                fill="none" 
-                stroke="rgba(0,0,0,0.4)" 
+              <circle
+                cx="500"
+                cy="400"
+                r="348"
+                fill="none"
+                stroke="rgba(0,0,0,0.4)"
                 strokeWidth="4"
                 opacity="0.6"
                 pointerEvents="none"
               />
-              
+
               {/* 3D sphere highlight overlay */}
-              <circle 
-                cx="500" 
-                cy="400" 
-                r="350" 
-                fill="url(#sphereGradient)" 
+              <circle
+                cx="500"
+                cy="400"
+                r="350"
+                fill="url(#sphereGradient)"
                 opacity="0.7"
                 pointerEvents="none"
               />
 
               {/* Atmospheric glow */}
-              <circle 
-                cx="500" 
-                cy="400" 
-                r="350" 
-                fill="none" 
-                stroke="#4a90e2" 
+              <circle
+                cx="500"
+                cy="400"
+                r="350"
+                fill="none"
+                stroke="#4a90e2"
                 strokeWidth="2"
                 opacity="0.4"
               />
 
               {/* Outer glow */}
-              <circle 
-                cx="500" 
-                cy="400" 
-                r="355" 
-                fill="none" 
-                stroke="url(#sphereGradient)" 
+              <circle
+                cx="500"
+                cy="400"
+                r="355"
+                fill="none"
+                stroke="url(#sphereGradient)"
                 strokeWidth="10"
                 opacity="0.3"
               />
@@ -648,14 +648,14 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
               fill="#f59e0b"
               fontSize="28"
               fontWeight="bold"
-              style={{ 
+              style={{
                 textShadow: '2px 2px 4px rgba(0,0,0,0.8)',
                 filter: 'drop-shadow(0 0 8px rgba(245, 158, 11, 0.6))'
               }}
             >
               {currentPeriod.name}
             </text>
-            
+
             <text
               x="500"
               y="100"
@@ -687,7 +687,7 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
       <div className="mt-8 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-2xl p-8 border-2 border-amber-400/40 shadow-2xl relative overflow-hidden">
         {/* Background decoration */}
         <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-amber-500/10 to-orange-600/10 rounded-full blur-3xl" />
-        
+
         <div className="relative flex items-start gap-6">
           <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl flex items-center justify-center text-3xl shadow-lg transform hover:scale-110 transition-transform">
             🌍
@@ -720,31 +720,30 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
         <div className="flex items-center justify-center gap-4 mb-4">
           <button
             onClick={() => setShow3D(!show3D)}
-            className={`px-6 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg ${
-              show3D 
-                ? 'bg-gradient-to-r from-blue-500 to-cyan-500 text-white hover:from-blue-600 hover:to-cyan-600' 
-                : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
-            }`}
+            className={`px-6 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg ${show3D
+              ? 'bg-gradient-to-r from-blue-500 to-cyan-500 text-white hover:from-blue-600 hover:to-cyan-600'
+              : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
+              }`}
           >
             <span className="flex items-center gap-2">
               {show3D ? (
                 <>
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
                   </svg>
                   3D Globe Mode
                 </>
               ) : (
                 <>
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M3 3h18v18H3V3zm16 16V5H5v14h14z"/>
+                    <path d="M3 3h18v18H3V3zm16 16V5H5v14h14z" />
                   </svg>
                   Flat Map Mode
                 </>
               )}
             </span>
           </button>
-          
+
           <div className="text-sm text-gray-400">
             {show3D ? '🌍 Realistic 3D sphere with depth' : '🗺️ Simple flat projection'}
           </div>
@@ -772,14 +771,14 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
               {isPlaying ? (
                 <>
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z"/>
+                    <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z" />
                   </svg>
                   Pause Animation
                 </>
               ) : (
                 <>
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M8 5v14l11-7z"/>
+                    <path d="M8 5v14l11-7z" />
                   </svg>
                   Play Animation
                 </>
@@ -812,8 +811,8 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
                   group relative
                   w-14 h-14 rounded-xl
                   transition-all duration-300
-                  ${index === currentIndex 
-                    ? 'bg-gradient-to-br from-amber-400 via-orange-500 to-amber-600 scale-125 shadow-2xl shadow-amber-500/50 border-2 border-amber-300' 
+                  ${index === currentIndex
+                    ? 'bg-gradient-to-br from-amber-400 via-orange-500 to-amber-600 scale-125 shadow-2xl shadow-amber-500/50 border-2 border-amber-300'
                     : 'bg-gradient-to-br from-gray-700 to-gray-800 hover:from-gray-600 hover:to-gray-700 hover:scale-110 border-2 border-gray-600'
                   }
                 `}
@@ -859,12 +858,12 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
             <div>
               <h4 className="text-xl font-bold text-white mb-2">About This Timeline</h4>
               <p className="text-gray-300 leading-relaxed">
-                This visualization shows Earth's continental drift across <span className="text-amber-400 font-semibold">450 million years</span> - 
+                This visualization shows Earth`&apos;`s continental drift across <span className="text-amber-400 font-semibold">450 million years</span> -
                 from 200 million years in the past through the present day to 250 million years in the future.
               </p>
             </div>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
             <div className="bg-gray-800/50 rounded-xl p-4 border border-gray-700">
               <div className="flex items-center gap-2 mb-2">
@@ -873,7 +872,7 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
               </div>
               <p className="text-gray-400 text-sm">Stable continental positions with minimal tectonic movement</p>
             </div>
-            
+
             <div className="bg-gray-800/50 rounded-xl p-4 border border-gray-700">
               <div className="flex items-center gap-2 mb-2">
                 <div className="w-3 h-3 bg-yellow-500 rounded-full animate-pulse"></div>
@@ -881,7 +880,7 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
               </div>
               <p className="text-gray-400 text-sm">Continents actively drifting, mountain ranges forming</p>
             </div>
-            
+
             <div className="bg-gray-800/50 rounded-xl p-4 border border-gray-700">
               <div className="flex items-center gap-2 mb-2">
                 <div className="w-3 h-3 bg-red-500 rounded-full animate-ping"></div>
