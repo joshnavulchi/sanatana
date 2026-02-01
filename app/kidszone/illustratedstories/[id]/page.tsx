@@ -1,6 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 
-const ns = useLocaleSection('illustrated_stories');
+const ns: Record<string, unknown> = {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');
@@ -17,7 +17,6 @@ import fs from 'fs/promises';
 import fsSync from 'fs';
 import path from 'path';
 import LazyImage from '@/app/components/lazy-image/LazyImage';
-import useLocaleSection from '../../../hooks/useLocaleSection';
 import Link from 'next/link';
 
 function resolveLocaleFromHeaders() {

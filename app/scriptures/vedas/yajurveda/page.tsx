@@ -1,6 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 
-const ns = useLocaleSection('yajurveda');
+const ns: Record<string, unknown> = {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');
@@ -14,7 +14,6 @@ import { t, detectLocale, getMeta } from '../../../../lib/i18n';
 
 import { createGenerateMetadata } from 'lib/pageUtils';
 
-import useLocaleSection from '../../../hooks/useLocaleSection';
 import PageLayout from '@/app/components/common/PageLayout';
 
 

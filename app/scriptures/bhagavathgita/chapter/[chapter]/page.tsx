@@ -1,6 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 
-const ns = useLocaleSection('scriptures_bhagavathgita');
+const ns: Record<string, unknown> = {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');
@@ -14,7 +14,6 @@ import { notFound } from 'next/navigation';
 import { t, getMeta, detectLocale, DEFAULT_LOCALE, detectServerLocaleFromHeaders } from '@/lib/i18n';
 import Link from 'next/link';
 
-import useLocaleSection from '../../../../hooks/useLocaleSection';
 import styles from './page.module.scss';
 
 function resolveLocaleFromHeaders() {

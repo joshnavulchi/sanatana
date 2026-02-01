@@ -1,6 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 
-const ns = useLocaleSection('kidszone_illustratedstories');
+const ns: Record<string, unknown> = {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');
@@ -13,7 +13,6 @@ import { detectLocale, t } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@/app/components/common/PageLayout';
 import LazyImage from '@/app/components/lazy-image/LazyImage';
-import useLocaleSection from '../../hooks/useLocaleSection';
 import Link from 'next/link';
 export const generateMetadata = createGenerateMetadata('kidszone_illustratedstories');
 

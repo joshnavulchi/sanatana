@@ -3,7 +3,7 @@ import PageLayout from '@/app/components/common/PageLayout';
 import { t, detectLocale, getLocaleNamespaceObject, getMeta } from '../../../lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
 export const generateMetadata = createGenerateMetadata('philosophy_moksha');
-const ns = (_localeObj && ((_localeObj as any)['philosophy_moksha'] || ((_localeObj as any).sharable_strings && (_localeObj as any).sharable_strings['philosophy_moksha']))) || {};
+const ns: Record<string, unknown> = {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');

@@ -1,6 +1,6 @@
 import { getMeta, detectLocale, t } from '../../../lib/i18n';
 
-const ns = useLocaleSection('moralstories');
+const ns: Record<string, unknown> = {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');
@@ -10,7 +10,6 @@ const __getLoc = (p: string) => {
   return cur;
 };
 import { createGenerateMetadata } from 'lib/pageUtils';
-import useLocaleSection from '../../hooks/useLocaleSection';
 import PageLayout from '@/app/components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('moralstories');
 export default function Page({ searchParams }: any) {

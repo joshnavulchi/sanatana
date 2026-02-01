@@ -1,6 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 
-const ns = useLocaleSection('kidszone_mythologicalquizzes');
+const ns: Record<string, unknown> = {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');
@@ -12,7 +12,6 @@ const __getLoc = (p: string) => {
 import { getMeta, detectLocale, t } from '../../../lib/i18n';
 import { createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@/app/components/common/PageLayout';
-import useLocaleSection from '../../hooks/useLocaleSection';
 import QuizClient from './QuizClient';
 export const generateMetadata = createGenerateMetadata('kidszone_mythologicalquizzes');
 export default function Page({ searchParams }: any) {

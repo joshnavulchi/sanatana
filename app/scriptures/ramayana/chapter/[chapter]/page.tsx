@@ -1,6 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 
-const ns = useLocaleSection('ramayana');
+const ns: Record<string, unknown> = {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');
@@ -12,7 +12,6 @@ const __getLoc = (p: string) => {
 import { t, getMeta, DEFAULT_LOCALE, detectServerLocaleFromHeaders, detectLocale, getLocaleNamespaceObject } from '@/lib/i18n';
 
 import { headers } from 'next/headers';
-import useLocaleSection from '../../../../hooks/useLocaleSection';
 import Link from 'next/link';
 
 

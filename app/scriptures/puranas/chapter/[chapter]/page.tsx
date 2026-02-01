@@ -1,6 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 
-const ns = useLocaleSection('puranas');
+const ns: Record<string, unknown> = {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');
@@ -12,7 +12,6 @@ const __getLoc = (p: string) => {
 import { t, getMeta, DEFAULT_LOCALE, detectLocale, getLocaleNamespaceObject } from '@/lib/i18n';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import PageArticleJsonLd from '@/app/components/structured-data/PageArticleJsonLd';
-import useLocaleSection from '../../../../hooks/useLocaleSection';
 import Link from 'next/link';
 export const generateMetadata = createGenerateMetadata('puranas_slug');
 export function generateStaticParams() {

@@ -1,6 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 
-const ns = useLocaleSection('puranas');
+const ns: Record<string, unknown> = {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');
@@ -10,7 +10,6 @@ const __getLoc = (p: string) => {
   return cur;
 };
 
-import useLocaleSection from '../../../hooks/useLocaleSection';
 import { t, detectLocale, getMeta } from '../../../../lib/i18n';
 
 
