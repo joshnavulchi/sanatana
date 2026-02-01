@@ -48,7 +48,6 @@ export default function WorldTransformationContent() {
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'World Transformation' }]}
       className="layout-sm"
     >
-      <EarthTimeline />
       <div className="space-y-12">
         {/* Hero section */}
         <div className="relative -mt-8 -mx-6 md:-mx-8 px-6 md:px-8 py-12 bg-gradient-to-br from-blue-50 via-indigo-50 to-blue-50 dark:from-blue-950/30 dark:via-indigo-950/30 dark:to-blue-950/30 rounded-2xl overflow-hidden">
