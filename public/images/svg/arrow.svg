@@ -5,13 +5,13 @@
      fill="none">
 
   <line x1="16" y1="4" x2="16" y2="44"
-        stroke="currentColor"
+        stroke="#fee685"
         stroke-width="2"
         stroke-dasharray="2 6"
         stroke-linecap="round"/>
 
   <path d="M10 38 L16 44 L22 38"
-        stroke="currentColor"
+        stroke="#fee685"
         stroke-width="2"
         fill="none"
         stroke-linecap="round"

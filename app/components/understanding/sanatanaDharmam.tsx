@@ -59,7 +59,7 @@ export default function UnderstandingOfSanatana() {
   }, [locale]);
 
   return (
-    <div className="relative py-16 md:py-24 overflow-hidden bg-gradient-to-b from-white via-amber-50/30 to-white dark:from-gray-900 dark:via-amber-950/20 dark:to-gray-900">
+    <div className="relative overflow-hidden bg-gradient-to-b from-white via-amber-50/30 to-white dark:from-gray-900 dark:via-amber-950/20 dark:to-gray-900">
       <div className="absolute top-0 left-1/4 w-64 h-64 bg-amber-200/20 dark:bg-amber-500/10 rounded-full blur-3xl" />
       <div className="absolute bottom-0 right-1/4 w-80 h-80 bg-orange-200/20 dark:bg-orange-500/10 rounded-full blur-3xl" />
 
@@ -72,7 +72,7 @@ export default function UnderstandingOfSanatana() {
             style={{ transitionDelay: `${sectionIndex * 150}ms` }}
           >
             {/* Header */}
-            <div className="mx-auto max-w-5xl text-center mb-12 space-y-6">
+            <div className="mx-auto max-w-5xl text-center">
               <div className="flex items-center justify-center gap-3">
                 <div className="h-px w-16 bg-gradient-to-r from-transparent to-amber-400" />
                 <span role="img" aria-label="decorative star" className="text-2xl text-amber-500">
@@ -103,7 +103,7 @@ export default function UnderstandingOfSanatana() {
             </div>
 
             {/* Items */}
-            <div className="mx-auto max-w-7xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="mx-auto max-w-7xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
               {section.items?.map((topic) => (
                 <div
                   key={topic.id}
@@ -116,7 +116,7 @@ export default function UnderstandingOfSanatana() {
                         alt={topic.title}
                         width={76}
                         height={76}
-                        className="mx-auto"
+                        className="mx-auto inline-flex"
                       />
                     )}
 

@@ -174,15 +174,15 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
             </div>
 
             {/* Scroll Indicator */}
-            <div className="flex items-center gap-2 pt-6 text-amber-200 animate-bounce">
+            <div className="flex items-center gap-2 pt-6">
               <LazyImage
                 src="/images/svg/arrow.svg"
                 alt="Scroll Down"
                 width={16}
                 height={16}
-                className="inline-block"
+                className="inline-block text-amber-200 animate-bounce"
               />
-              <span className="text-sm font-medium drop-shadow-md">
+              <span className="text-sm font-medium drop-shadow-md text-amber-200">
                 {hero?.scroll || 'Scroll to explore'}
               </span>
             </div>
