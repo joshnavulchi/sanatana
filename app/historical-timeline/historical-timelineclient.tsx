@@ -236,7 +236,7 @@ export default function HistoricalTimeline() {
 
                 {/* Definitions Section */}
                 {section.id === 'definitions' && section.items && (
-                  <div className="grid md:grid-cols-2 gap-6">
+                  <div className="flex flex-wrap gap-6">
                     {section.items.map((item: any, i: number) => (
                       <div key={i} className="bg-white dark:bg-gray-800 border-l-4 border-amber-500 rounded-lg p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                         <div className="flex items-start gap-3 mb-4">
@@ -268,7 +268,7 @@ export default function HistoricalTimeline() {
                       </div>
                     ))}
                     {section.notes && (
-                      <div className="md:col-span-2 bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-950/30 dark:to-orange-950/30 border-2 border-amber-200 dark:border-amber-800 rounded-lg p-6">
+                      <div className="w-full bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-950/30 dark:to-orange-950/30 border-2 border-amber-200 dark:border-amber-800 rounded-lg p-6">
                         <div className="flex items-start gap-3">
                           <span className="text-2xl">📝</span>
                           <div className="flex-1">
@@ -291,9 +291,9 @@ export default function HistoricalTimeline() {
                 {/* Mapping Section */}
                 {section.id === 'mapping-bcad' && section.mapping && (
                   <div>
-                    <div className="grid grid-cols-2 gap-4 mb-4">
-                      <div className="font-bold">Old (BC/AD)</div>
-                      <div className="font-bold">New (BCE/CE)</div>
+                    <div className="flex gap-4 mb-4">
+                      <div className="font-bold flex-1">Old (BC/AD)</div>
+                      <div className="font-bold flex-1">New (BCE/CE)</div>
                       {section.mapping.map((map: any, i: number) => (
                         <React.Fragment key={i}>
                           <div>{map.old}</div>
@@ -439,9 +439,9 @@ export default function HistoricalTimeline() {
                         {section.astronomySystem.mapping && (
                           <div className="mt-2">
                             <strong>Mapping:</strong>
-                            <div className="grid grid-cols-2 gap-2 mt-2">
-                              <div className="font-bold">Astronomical</div>
-                              <div className="font-bold">Historical</div>
+                            <div className="flex gap-2 mt-2">
+                              <div className="font-bold flex-1">Astronomical</div>
+                              <div className="font-bold flex-1">Historical</div>
                               {section.astronomySystem.mapping.map((m: any, i: number) => (
                                 <React.Fragment key={i}>
                                   <div>{m.astronomical}</div>

@@ -66,7 +66,7 @@ export default function Page({ searchParams }: any) {
         </div>
 
         {/* Chapters Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
+        <div className="flex flex-wrap gap-6 md:gap-8">
           {(page.chapters || []).map((item: any, i: number) => {
             // Determine chapter number robustly: prefer explicit numeric fields, else fallback to index+1
             const chapRaw = item?.chapter ?? item?.chapter_number;

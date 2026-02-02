@@ -37,7 +37,7 @@ export default async function Page({ searchParams }: any) {
         className="layout-md"
       >
         <p>{S('kidszone_illustratedstories.description')}</p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-6">
+        <div className="flex flex-wrap gap-8 md:gap-6">
           {stories.map((s: any) => (
             <Link key={s.id} href={`/kidszone/illustratedstories/${s.id}`} className="card no-padding shadow hover:shadow-lg transform hover:-translate-y-1 transition no-underline">
               <article key={s.id} className="flex flex-col">

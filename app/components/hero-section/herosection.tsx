@@ -68,7 +68,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
 
       {/* Content Container */}
       <div className="relative z-10 content-wrapper min-h-[600px] md:min-h-[700px] flex items-center">
-        <div className="w-full grid md:grid-cols-2 gap-8 items-center py-16 md:py-20">
+        <div className="w-full flex flex-col md:flex-row gap-8 items-center py-16 md:py-20">
           {/* Left Content */}
           <div
             className={`

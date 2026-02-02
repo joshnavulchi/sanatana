@@ -163,7 +163,7 @@ export default function QuizClient() {
 
       <div className="border rounded">
         <div className="h4">{q.question}</div>
-        <div className="grid gap-2">
+        <div className="flex flex-col gap-2">
           {(['A', 'B', 'C', 'D'] as (keyof Options)[]).map((k) => (
             <button
               className="btn btn-primary"
