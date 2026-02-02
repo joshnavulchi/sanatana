@@ -90,7 +90,7 @@ export default function WorldTransformationContent() {
             )}
             
             {pageContent.whyBordersBecameStable.factors && Array.isArray(pageContent.whyBordersBecameStable.factors) && (
-              <div className="grid md:grid-cols-2 gap-6">
+              <div className="flex flex-wrap gap-6">
                 {pageContent.whyBordersBecameStable.factors.map((factor: any, i: number) => (
                   <div key={i} className="
                     bg-white dark:bg-gray-800

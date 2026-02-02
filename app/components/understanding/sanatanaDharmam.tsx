@@ -103,7 +103,7 @@ export default function UnderstandingOfSanatana() {
             </div>
 
             {/* Items */}
-            <div className="mx-auto max-w-7xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+            <div className="mx-auto max-w-7xl flex flex-wrap gap-10">
               {section.items?.map((topic) => (
                 <div
                   key={topic.id}

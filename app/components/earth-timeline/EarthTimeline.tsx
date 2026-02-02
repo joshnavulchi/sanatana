@@ -864,8 +864,8 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
-            <div className="bg-gray-800/50 rounded-xl p-4 border border-gray-700">
+          <div className="flex flex-col md:flex-row gap-4 mt-4">
+            <div className="bg-gray-800/50 rounded-xl p-4 border border-gray-700 flex-1">
               <div className="flex items-center gap-2 mb-2">
                 <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                 <span className="text-green-400 font-semibold">Low Activity</span>

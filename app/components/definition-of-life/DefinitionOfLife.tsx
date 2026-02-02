@@ -34,9 +34,9 @@ export default function DefinitionOfLife() {
         </div>
 
         {/* Main content grid */}
-        <div className="grid md:grid-cols-2 gap-6 mb-8">
+        <div className="flex flex-col md:flex-row gap-6 mb-8">
           {/* Card 1: Purpose */}
-          <div className="group relative bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-6 border border-amber-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div className="group relative bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-6 border border-amber-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex-1">
             <div className="absolute top-4 right-4 text-4xl opacity-20 group-hover:opacity-30 transition-opacity">
               🎯
             </div>
@@ -116,8 +116,8 @@ export default function DefinitionOfLife() {
           <h3 className="text-2xl font-bold text-center text-amber-800 mb-6">
             आश्रम - The Four Stages of Life
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-            <div className="text-center p-4 rounded-lg bg-gradient-to-b from-amber-50 to-white border border-amber-200/40">
+          <div className="flex flex-col md:flex-row gap-4">
+            <div className="text-center p-4 rounded-lg bg-gradient-to-b from-amber-50 to-white border border-amber-200/40 flex-1">
               <div className="text-3xl mb-2">📚</div>
               <h4 className="font-bold text-amber-800 mb-1">Brahmacharya</h4>
               <p className="text-sm text-gray-600">Student Life - Learning & Discipline</p>
