@@ -170,88 +170,203 @@ export default function LanguageDropdown() {
         aria-haspopup="menu"
         aria-controls="language-menu"
         onClick={() => setOpen(!open)}
-        className={`${styles.langbtn} inline-flex items-center cursor-pointer`}
+        className="group relative inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-950/50 dark:to-orange-950/50 hover:from-amber-100 hover:to-orange-100 dark:hover:from-amber-900/60 dark:hover:to-orange-900/60 rounded-full border-2 border-amber-200 dark:border-amber-800 hover:border-amber-300 dark:hover:border-amber-700 shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer transform hover:scale-105"
         aria-label={locale?.languagedropdown?.arialabel || 'Choose language'}
         aria-expanded={open}
       >
-        <img src="/images/svg/ml.svg" alt={locale?.languagedropdown?.iconalt || 'Language selector'} width={20} height={20} />
+        <div className="relative">
+          <img src="/images/svg/ml.svg" alt={locale?.languagedropdown?.iconalt || 'Language selector'} width={20} height={20} className="transition-transform duration-300 group-hover:rotate-12" />
+          <div className="absolute -top-1 -right-1 w-2 h-2 bg-amber-500 rounded-full animate-pulse"></div>
+        </div>
         {isClient && (
-          <span className="font-sm sr-only">{currentLanguage?.nativeName || locale?.languagedropdown?.english || 'English'}</span>
+          <span className="font-medium text-sm text-gray-700 dark:text-gray-300 group-hover:text-amber-700 dark:group-hover:text-amber-300 transition-colors duration-300">
+            {currentLanguage?.nativeName || locale?.languagedropdown?.english || 'English'}
+          </span>
         )}
+        <svg className={`w-4 h-4 text-amber-600 dark:text-amber-400 transition-transform duration-300 ${open ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        </svg>
       </button>
 
       {/* Popup Modal */}
       {open && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center" role="dialog" aria-modal="true" aria-labelledby="language-dialog-title">
-          <div className="absolute inset-0 bg-black/40" onClick={() => setOpen(false)} />
-          <div ref={dropdownRef} className={`${styles.multilang} rounded-md w-11/12 max-w-md md:w-auto md:max-w-xl shadow-lg border`}>
-            <div role="group" className="flex items-center justify-between">
-              <div id="language-dialog-title" className="font-semibold">{locale?.languagedropdown?.title || 'Choose language'}</div>
-              <button role="button" aria-label="Close" onClick={() => setOpen(false)} className="cursor-pointer">✕</button>
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 animate-fade-in" role="dialog" aria-modal="true" aria-labelledby="language-dialog-title">
+          {/* Backdrop with blur */}
+          <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/50 to-black/60 backdrop-blur-sm animate-fade-in" onClick={() => setOpen(false)} />
+          
+          {/* Modal Container */}
+          <div ref={dropdownRef} className="relative bg-white dark:bg-gray-900 rounded-3xl w-full max-w-2xl shadow-2xl border-2 border-amber-200 dark:border-amber-800 overflow-hidden transform animate-scale-in">
+            {/* Decorative gradient header */}
+            <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-amber-400 via-orange-500 to-amber-400"></div>
+            
+            {/* Header */}
+            <div role="group" className="relative flex items-center justify-between p-6 bg-gradient-to-br from-amber-50 via-orange-50/50 to-amber-50 dark:from-amber-950/30 dark:via-orange-950/20 dark:to-amber-950/30 border-b-2 border-amber-200 dark:border-amber-800">
+              <div className="flex items-center gap-3">
+                <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl flex items-center justify-center shadow-lg">
+                  <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M7 2a1 1 0 011 1v1h3a1 1 0 110 2H9.578a18.87 18.87 0 01-1.724 4.78c.29.354.596.696.914 1.026a1 1 0 11-1.44 1.389c-.188-.196-.373-.396-.554-.6a19.098 19.098 0 01-3.107 3.567 1 1 0 01-1.334-1.490 17.087 17.087 0 003.13-3.733 18.992 18.992 0 01-1.487-2.494 1 1 0 111.79-.89c.234.47.489.928.764 1.372.417-.934.752-1.913.997-2.927H3a1 1 0 110-2h3V3a1 1 0 011-1zm6 6a1 1 0 01.894.553l2.991 5.982a.869.869 0 01.02.037l.99 1.98a1 1 0 11-1.79.895L15.383 16h-4.764l-.724 1.447a1 1 0 11-1.788-.894l.99-1.98.019-.038 2.99-5.982A1 1 0 0113 8zm-1.382 6h2.764L13 11.236 11.618 14z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <div>
+                  <h2 id="language-dialog-title" className="text-xl font-bold text-gray-900 dark:text-white">{locale?.languagedropdown?.title || 'Choose language'}</h2>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">{filteredLanguages.length} languages available</p>
+                </div>
+              </div>
+              <button 
+                role="button" 
+                aria-label="Close" 
+                onClick={() => setOpen(false)} 
+                className="group w-10 h-10 flex items-center justify-center bg-white dark:bg-gray-800 hover:bg-red-50 dark:hover:bg-red-900/20 border-2 border-amber-200 dark:border-amber-800 hover:border-red-300 dark:hover:border-red-800 rounded-full transition-all duration-300 cursor-pointer transform hover:rotate-90 hover:scale-110 shadow-md"
+              >
+                <svg className="w-5 h-5 text-gray-600 dark:text-gray-400 group-hover:text-red-600 dark:group-hover:text-red-400 transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
             </div>
-            <div className="search-wrapper">
-              <input
-                ref={searchInputRef}
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-                onKeyDown={(e) => {
-                  if (e.key === 'ArrowDown') {
-                    e.preventDefault();
-                    setHighlighted((h) => Math.min(filteredLanguages.length - 1, Math.max(0, h + 1)));
-                  } else if (e.key === 'ArrowUp') {
-                    e.preventDefault();
-                    setHighlighted((h) => Math.max(0, h - 1));
-                  } else if (e.key === 'Enter') {
-                    e.preventDefault();
-                    if (highlighted >= 0 && filteredLanguages[highlighted]) {
-                      handleLanguageChange(filteredLanguages[highlighted].code);
+
+            {/* Search Input */}
+            <div className="p-6 bg-gradient-to-br from-white to-amber-50/30 dark:from-gray-900 dark:to-amber-950/10">
+              <div className="relative group">
+                <div className="absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none">
+                  <svg className="w-5 h-5 text-amber-500 dark:text-amber-400 group-focus-within:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+                </div>
+                <input
+                  ref={searchInputRef}
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'ArrowDown') {
+                      e.preventDefault();
+                      setHighlighted((h) => Math.min(filteredLanguages.length - 1, Math.max(0, h + 1)));
+                    } else if (e.key === 'ArrowUp') {
+                      e.preventDefault();
+                      setHighlighted((h) => Math.max(0, h - 1));
+                    } else if (e.key === 'Enter') {
+                      e.preventDefault();
+                      if (highlighted >= 0 && filteredLanguages[highlighted]) {
+                        handleLanguageChange(filteredLanguages[highlighted].code);
+                      }
+                    } else if (e.key === 'Escape') {
+                      e.preventDefault();
+                      setOpen(false);
                     }
-                  } else if (e.key === 'Escape') {
-                    e.preventDefault();
-                    setOpen(false);
-                  }
-                }}
-                placeholder={locale?.languagedropdown?.searchplaceholder || 'Search languages...'}
-                className={`${styles.langsearchinput} w-full rounded border theme-border-color`}
-                aria-label={locale?.languagedropdown?.searcharia || 'Search languages'}
-              />
-            </div>
-            <div id="language-menu" role="menu" className="max-h-96 overflow-y-auto md:flex md:flex-wrap">
-              {filteredLanguages.map((lang, idx) => {
-                const meta = (localeMeta as any)[lang.code] || {};
-                const flag = meta.flag || '';
-                const region = meta.region || lang.name;
-                return (
+                  }}
+                  placeholder={locale?.languagedropdown?.searchplaceholder || 'Search languages...'}
+                  className="w-full pl-12 pr-4 py-3 bg-white dark:bg-gray-800 border-2 border-amber-200 dark:border-amber-800 rounded-xl focus:border-amber-500 dark:focus:border-amber-600 focus:ring-4 focus:ring-amber-500/20 outline-none transition-all duration-300 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 shadow-sm hover:shadow-md"
+                  aria-label={locale?.languagedropdown?.searcharia || 'Search languages'}
+                />
+                {query && (
                   <button
-                    key={lang.code}
-                    role="menuitem"
-                    onMouseEnter={() => {
-                      setHighlighted(idx);
-                      // non-blocking preload when user hovers a language
-                      try { loadLocale(lang.code); } catch (e) { /* ignore */ }
-                    }}
-                    onClick={() => handleLanguageChange(lang.code)}
-                    className={`w-full md:w-1/2 flex items-center justify-between text-left transition-colors ${currentLang === lang.code ? "" : ""} ${highlighted === idx ? 'border ' : 'border '}`}
+                    onClick={() => setQuery('')}
+                    className="absolute right-4 top-1/2 -translate-y-1/2 w-6 h-6 flex items-center justify-center bg-amber-100 dark:bg-amber-900 hover:bg-amber-200 dark:hover:bg-amber-800 rounded-full transition-colors duration-300"
+                    aria-label="Clear search"
                   >
-                    <div className={`${styles.langbox} flex items-center`}>
-                      <div aria-hidden>{flag}</div>
-                      <div className="nowrap">
-                        <div className="font-semibold">{lang.nativeName}</div>
-                        <div>{region}</div>
-                      </div>
-                    </div>
-                    {currentLang === lang.code && (
-                      <svg className="h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                        <path
-                          fillRule="evenodd"
-                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    )}
+                    <svg className="w-4 h-4 text-amber-700 dark:text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
                   </button>
-                )
-              })}
+                )}
+              </div>
+            </div>
+
+            {/* Language List */}
+            <div id="language-menu" role="menu" className="max-h-96 overflow-y-auto px-4 pb-4 scrollbar-thin scrollbar-thumb-amber-400 scrollbar-track-amber-100 dark:scrollbar-thumb-amber-600 dark:scrollbar-track-amber-950">
+              <div className="flex flex-wrap gap-3">
+                {filteredLanguages.map((lang, idx) => {
+                  const meta = (localeMeta as any)[lang.code] || {};
+                  const flag = meta.flag || '';
+                  const region = meta.region || lang.name;
+                  const isSelected = currentLang === lang.code;
+                  const isHighlighted = highlighted === idx;
+                  return (
+                    <button
+                      key={lang.code}
+                      role="menuitem"
+                      onMouseEnter={() => {
+                        setHighlighted(idx);
+                        try { loadLocale(lang.code); } catch (e) { /* ignore */ }
+                      }}
+                      onClick={() => handleLanguageChange(lang.code)}
+                      className={`
+                        group relative flex-1 min-w-[calc(50%-0.375rem)] flex items-center gap-3 p-4 rounded-xl
+                        transition-all duration-300 transform hover:-translate-y-1
+                        ${isSelected 
+                          ? 'bg-gradient-to-br from-amber-100 to-orange-100 dark:from-amber-900/50 dark:to-orange-900/50 border-2 border-amber-500 dark:border-amber-600 shadow-lg' 
+                          : isHighlighted
+                            ? 'bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-950/30 dark:to-orange-950/30 border-2 border-amber-300 dark:border-amber-700 shadow-md'
+                            : 'bg-white dark:bg-gray-800 border-2 border-amber-200/50 dark:border-amber-800/50 hover:border-amber-300 dark:hover:border-amber-700 shadow-sm hover:shadow-md'
+                        }
+                      `}
+                    >
+                      {/* Flag Icon */}
+                      <div className={`
+                        flex-shrink-0 w-12 h-12 flex items-center justify-center text-3xl rounded-xl transition-all duration-300
+                        ${isSelected 
+                          ? 'bg-white/50 dark:bg-gray-800/50 shadow-md scale-110' 
+                          : 'bg-amber-50 dark:bg-amber-950/30 group-hover:scale-110'
+                        }
+                      `} aria-hidden="true">
+                        {flag}
+                      </div>
+                      
+                      {/* Language Info */}
+                      <div className="flex-1 text-left min-w-0">
+                        <div className={`
+                          font-semibold truncate transition-colors duration-300
+                          ${isSelected 
+                            ? 'text-amber-900 dark:text-amber-100' 
+                            : 'text-gray-900 dark:text-gray-100 group-hover:text-amber-700 dark:group-hover:text-amber-300'
+                          }
+                        `}>
+                          {lang.nativeName}
+                        </div>
+                        <div className={`
+                          text-sm truncate transition-colors duration-300
+                          ${isSelected 
+                            ? 'text-amber-700 dark:text-amber-300' 
+                            : 'text-gray-600 dark:text-gray-400'
+                          }
+                        `}>
+                          {region}
+                        </div>
+                      </div>
+                      
+                      {/* Check Icon */}
+                      {isSelected && (
+                        <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center shadow-lg animate-scale-in">
+                          <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                          </svg>
+                        </div>
+                      )}
+                      
+                      {/* Hover indicator arrow */}
+                      {!isSelected && (
+                        <div className="flex-shrink-0 w-6 h-6 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                          <svg className="w-4 h-4 text-amber-600 dark:text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                          </svg>
+                        </div>
+                      )}
+                    </button>
+                  );
+                })}
+              </div>
+              
+              {/* No results message */}
+              {filteredLanguages.length === 0 && (
+                <div className="py-12 text-center">
+                  <div className="w-20 h-20 bg-amber-100 dark:bg-amber-900/30 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg className="w-10 h-10 text-amber-600 dark:text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                  </div>
+                  <p className="text-gray-600 dark:text-gray-400 font-medium">No languages found</p>
+                  <p className="text-sm text-gray-500 dark:text-gray-500 mt-1">Try a different search term</p>
+                </div>
+              )}
             </div>
           </div>
         </div>
