@@ -62,12 +62,12 @@ const Segment = ({ title, subtitle, years, isFirst, isLast, index }: any) => {
           )}
 
           <div className="text-center sm:text-left">
-            <h6 className="text-xl md:text-2xl lg:text-3xl
+            <h6 className="text-2xl
               font-light tracking-wide
               drop-shadow-lg group-hover:scale-105 transition-transform duration-300 m-0">
               {title}
             </h6>
-            <p className="text-sm md:text-base font-light text-white/90 group-hover:text-white
+            <p className="text-lg md:text-base font-light text-white/90 group-hover:text-white
               transition-colors duration-300 my-6">
               {subtitle}
             </p>
@@ -138,9 +138,7 @@ export default function OurFourCoreYugas() {
             <div className="h-px w-20 bg-gradient-to-l from-transparent to-amber-400" />
           </div>
 
-          <h6 className="text-2xl md:text-3xl lg:text-4xl
-            font-light text-white
-            drop-shadow-2xl [text-shadow:_2px_2px_8px_rgb(0_0_0_/_60%)] my-6">
+          <h6 className="text-3xl md:text-4xl font-light text-white drop-shadow-2xl [text-shadow:_2px_2px_8px_rgb(0_0_0_/_60%)] my-6">
             {title}
           </h6>
 
