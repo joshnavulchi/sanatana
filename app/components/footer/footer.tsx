@@ -41,17 +41,37 @@ export default function Footer() {
   const isActive = (href: string) => normalize(pathname) === normalize(href);
 
   return (
-    <footer className={`${styles.footer} gradient-background w-full`} style={{ minHeight: '400px' }}>
+    <footer className={`${styles.footer} gradient-background w-full px-3`} style={{ minHeight: '400px' }}>
       <div className={`relative z-29`}>
         <section className="content-wrapper text-center">
-          <p className={`h2 font-light! text-shadow-lg/14 title`}>{footer?.title || footer?.titleText}</p>
-          <p className={`mx-auto max-w-4xl`}>{footer?.quote || footer?.quotes} {footer?.quoteSource || footer?.quotesource}</p>
-          <div className="flex items-center justify-center gap-4">
-            <Link href="/contact" className={`bg-black/24! btn btn-outline no-underline`}>
-              {footer?.contact || footer?.contactLabel || 'Contact'}
+          <h6 className={`text-3xl md:text-4xl lg:text-5xl font-light text-white
+            drop-shadow-2xl [text-shadow:_2px_2px_8px_rgb(0_0_0_/_60%)] my-6`}>{footer?.title || footer?.titleText}</h6>
+          <p className={`text-md md:mx-auto md:max-w-5xl md:text-lg text-white/90 leading-relaxed my-6`}>{footer?.quote || footer?.quotes} {footer?.quoteSource || footer?.quotesource}</p>
+
+          {/* CTA Buttons */}
+          <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 mt-6">
+            <Link href="/contact" className="group relative md:inline-flex px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-600
+                    hover:from-amber-600 hover:to-orange-700 text-white text-lg rounded-full shadow-xl hover:shadow-2xl
+                    transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden">
+              <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
+              <span className="relative flex items-center justify-center gap-2">
+                {footer?.contact || footer?.contactLabel || 'Contact'}
+                <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </span>
             </Link>
-            <Link href="/donate" className={`bg-black/24! btn btn-outline no-underline`}>
-              {footer?.donate || footer?.donateLabel || 'Donate'}
+
+            <Link href="/donate" className="group md:inline-flex px-8 py-4 bg-white/10 backdrop-blur-md
+                    hover:bg-white/20 border-2 border-white/50 hover:border-white
+                    text-white text-lg rounded-full shadow-lg hover:shadow-xl
+                    transition-all duration-300 transform hover:-translate-y-1 no-underline">
+              <span className="flex items-center justify-center gap-2">
+                {footer?.donate || footer?.donateLabel || 'Donate'}
+                <svg className="w-5 h-5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+              </span>
             </Link>
           </div>
         </section>

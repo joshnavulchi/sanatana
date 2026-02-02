@@ -1,113 +1,113 @@
-/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-.ourFourCoreYugas {
-  padding: var(--space-3xl) var(--space-md);  
-  .bgline {
-    height: 1px;
-    width: 100%;
-    top: 51px;
-    opacity: 0;
-  }
-  .arrow {
-    padding: var(--space-xl);
-  }
-  .years {
-    margin-top: var(--space-sm);
-    font-size: 1rem;
-  }
-  .yearsafterline {
-    width: 1px;
-    height: 25px;
-    bottom: -5px;
-    right: 0;
-  }
-  .boxarrow {
-    position: relative;
-    z-index: 0;
-    &::before {
-      content: '';
-      position: absolute;
-      z-index: 0;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%; 
-    }
-  }
-  .boxarrowwrapper div:nth-child(2) {
-    z-index: 3;
-    .boxarrow::before {
-      background: linear-gradient(to right, var(--from-amber-700), var(--to-orange-600));
-    }
-  }
-  .boxarrowwrapper div:nth-child(3) {
-    z-index: 2;
-    .boxarrow::before {
-      background: linear-gradient(to right, var(--from-orange-500), var(--to-amber-400));
-    }
-  }
-  .boxarrowwrapper div:nth-child(4) {
-    z-index: 1;
-    .boxarrow::before {
-      background: linear-gradient(to right, var(--from-rose-500), var(--to-orange-500));
-    }
-  }
-  .boxarrowwrapper div:last-child {
-    z-index: 0;
-    .boxarrow::before {
-      background: linear-gradient(to right, var(--from-red-700), var(--to-rose-700));
-    }
-  }
-}
-@media (min-width: 1024px) {
-  .ourFourCoreYugas {
-    .bgline {
-      opacity: 1;
-    }
-    .years {
-      margin-top: var(--space-md);
-      font-size: 0.85rem;
-    }
-    .arrow {
-      padding: var(--space-md) var(--space-md) var(--space-md) var(--space-md);
-    }
-    .boxarrow {
-      padding-left: calc(var(--space-xl) * 1.6);
-      &::after {
-        content: '';
-        position: absolute;
-        z-index: 1;
-        right: -60px;
-        width: 0;
-        height: 0;
-        border-top: 53px solid #0000;
-        border-bottom: 53px solid #0000;
-        border-left: 60px solid white;
-      }
-    }
-    .boxarrowwrapper div:nth-child(2) {
-      .boxarrow::after {
-        border-left: 60px solid var(--to-orange-600);
-      }
-    }
-    .boxarrowwrapper div:nth-child(3) {
-      .boxarrow::after {
-        border-left: 60px solid var(--to-amber-400);
-      }
-    }
-    .boxarrowwrapper div:nth-child(4) {
-      .boxarrow::after {
-        border-left: 60px solid var(--to-orange-500);
-      }
-    }
-    .boxarrowwrapper div:last-child {
-      .boxarrow::after {
-        border-left: 60px solid var(--to-rose-700);
-      }
-    }
-  }
-}
-@media (min-width: 1600px) {
-}
-@media (min-width: 1900px) {  
-}
-/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+// /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+// .ourFourCoreYugas {
+//   padding: var(--space-3xl) var(--space-md);  
+//   .bgline {
+//     height: 1px;
+//     width: 100%;
+//     top: 51px;
+//     opacity: 0;
+//   }
+//   .arrow {
+//     padding: var(--space-xl);
+//   }
+//   .years {
+//     margin-top: var(--space-sm);
+//     font-size: 1rem;
+//   }
+//   .yearsafterline {
+//     width: 1px;
+//     height: 25px;
+//     bottom: -5px;
+//     right: 0;
+//   }
+//   .boxarrow {
+//     position: relative;
+//     z-index: 0;
+//     &::before {
+//       content: '';
+//       position: absolute;
+//       z-index: 0;
+//       top: 0;
+//       left: 0;
+//       width: 100%;
+//       height: 100%; 
+//     }
+//   }
+//   .boxarrowwrapper div:nth-child(2) {
+//     z-index: 3;
+//     .boxarrow::before {
+//       background: linear-gradient(to right, var(--from-amber-700), var(--to-orange-600));
+//     }
+//   }
+//   .boxarrowwrapper div:nth-child(3) {
+//     z-index: 2;
+//     .boxarrow::before {
+//       background: linear-gradient(to right, var(--from-orange-500), var(--to-amber-400));
+//     }
+//   }
+//   .boxarrowwrapper div:nth-child(4) {
+//     z-index: 1;
+//     .boxarrow::before {
+//       background: linear-gradient(to right, var(--from-rose-500), var(--to-orange-500));
+//     }
+//   }
+//   .boxarrowwrapper div:last-child {
+//     z-index: 0;
+//     .boxarrow::before {
+//       background: linear-gradient(to right, var(--from-red-700), var(--to-rose-700));
+//     }
+//   }
+// }
+// @media (min-width: 1024px) {
+//   .ourFourCoreYugas {
+//     .bgline {
+//       opacity: 1;
+//     }
+//     .years {
+//       margin-top: var(--space-md);
+//       font-size: 0.85rem;
+//     }
+//     .arrow {
+//       padding: var(--space-md) var(--space-md) var(--space-md) var(--space-md);
+//     }
+//     .boxarrow {
+//       padding-left: calc(var(--space-xl) * 1.6);
+//       &::after {
+//         content: '';
+//         position: absolute;
+//         z-index: 1;
+//         right: -60px;
+//         width: 0;
+//         height: 0;
+//         border-top: 53px solid #0000;
+//         border-bottom: 53px solid #0000;
+//         border-left: 60px solid white;
+//       }
+//     }
+//     .boxarrowwrapper div:nth-child(2) {
+//       .boxarrow::after {
+//         border-left: 60px solid var(--to-orange-600);
+//       }
+//     }
+//     .boxarrowwrapper div:nth-child(3) {
+//       .boxarrow::after {
+//         border-left: 60px solid var(--to-amber-400);
+//       }
+//     }
+//     .boxarrowwrapper div:nth-child(4) {
+//       .boxarrow::after {
+//         border-left: 60px solid var(--to-orange-500);
+//       }
+//     }
+//     .boxarrowwrapper div:last-child {
+//       .boxarrow::after {
+//         border-left: 60px solid var(--to-rose-700);
+//       }
+//     }
+//   }
+// }
+// @media (min-width: 1600px) {
+// }
+// @media (min-width: 1900px) {  
+// }
+// /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

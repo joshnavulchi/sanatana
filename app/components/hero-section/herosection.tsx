@@ -29,7 +29,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
   }, [locale]);
 
   return (
-    <div className="relative w-full min-h-[600px] overflow-hidden">
+    <div className="relative w-full min-h-[600px] px-3 overflow-hidden">
       {/* Background Images with Overlay */}
       <div className="absolute inset-0">
         {/* Mobile hero image */}

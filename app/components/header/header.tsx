@@ -329,7 +329,7 @@ export default function Header() {
               aria-expanded={open}
               aria-label={open ? (sharable?.closeMenu || 'Close menu') : (sharable?.openMenu || 'Open menu')}
               onClick={() => setOpen((s) => !s)}
-              className="inline-flex items-center justify-center rounded"
+              className="inline-flex ml-2 mt-3 items-center justify-center rounded"
             >
               <svg className="h-8 w-8" fill="none" viewBox="0 0 32 32" stroke="currentColor" aria-hidden="true">
                 {open ? (
