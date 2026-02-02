@@ -96,7 +96,7 @@ export default function ContactForm({ fields, submitButton }: Props) {
               </svg>
             </div>
             <h3 className="text-2xl font-bold text-white mb-2">Get In Touch</h3>
-            <p className="text-white/90 text-sm">We'd love to hear from you</p>
+            <p className="text-white/90 text-sm">We&apos;d love to hear from you</p>
           </div>
         </div>
 
