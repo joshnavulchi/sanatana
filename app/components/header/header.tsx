@@ -170,19 +170,19 @@ export default function Header() {
       <div className={styles.logoTitleNavWrapper}>
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <Link href="/" className={`${styles.logoTitle} logo flex items-center no-underline gap-2`}>
-              <LazyImage
-                src="/images/logo.png"
-                alt="Sanatanadharmam Logo"
-                width={50}
-                height={45}
-                sizes="(min-width:1024px) 50px, 45px"
-                className="w-[50px] md:w-[45px]"
-              />
-              <span>
-                {translations.siteTitle}
-              </span>
-            </Link>
+            <h1>
+              <Link href="/" className={`${styles.logoTitle} flex items-center no-underline gap-2`}>
+                <LazyImage
+                  src="/images/logo.png"
+                  alt="Sanatanadharmam Logo"
+                  width={50}
+                  height={45}
+                  sizes="(min-width:1024px) 50px, 45px"
+                  className="w-[50px] md:w-[45px]"
+                />
+                <span className="text-orange-600">{translations.siteTitle}</span>
+              </Link>
+            </h1>
           </div>
           <nav role="menubar" aria-label="Main navigation" className="hidden items-center md:flex">
             {(() => {

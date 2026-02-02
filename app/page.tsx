@@ -15,7 +15,7 @@ let criticalCssChecked = false;
 
 function getCriticalCss(): string {
   if (criticalCssChecked) return cachedCriticalCss || '';
-  
+
   try {
     const p = path.join(process.cwd(), 'public', 'critical-home.css');
     if (fs.existsSync(p)) {
@@ -31,7 +31,7 @@ function getCriticalCss(): string {
   } catch (e) {
     // Ignore errors
   }
-  
+
   criticalCssChecked = true;
   return cachedCriticalCss || '';
 }
@@ -42,7 +42,7 @@ export default async function Home() {
   const locale = detectLocale() || resolveLocaleFromHeaders();
   // Get cached critical CSS (read once at module load)
   const criticalCss = getCriticalCss();
-  
+
   return (
     <>
       {criticalCss ? <style dangerouslySetInnerHTML={{ __html: criticalCss }} /> : null}

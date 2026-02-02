@@ -1,46 +1,15 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 @media (min-width: 1024px) {
-  .about-shiva {
-    padding-top: var(--space-2xl);
-    padding-bottom: var(--space-2xl);
-    .history {
-      padding-bottom: var(--space-xl);
-    }
-  }
-  .map-wrapper {
-    padding: 0 var(--space-md);
-  }
   .border-gradient-vertical {
     border-right: 4px;
     border-style: solid;
     border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%;
-  }
-  .image-shiva-wrapper,
-  .image-krishna-wrapper {
-    background-size: 88%, 100%;
-  }
-  .image-shiva-wrapper {
-    background-position: -200% 0, 0 0;
-  }
-  .image-krishna-wrapper {
-    background-position: 200% 0, 0 0;
   }
   .sankshepa-slokas {
     p:first-child {
       font-size: 1.4rem;
     }
   }
-  .main-slider {
-    .slider-top,
-    .slider-bottom,
-    .slider-top-0,
-    .slider-bottom-0 {
-      padding-top: 0;
-      padding-bottom: 0;
-    }
-    .title {
-      font-size: 2.5rem;
-    }
-  }
+  
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
