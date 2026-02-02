@@ -67,78 +67,128 @@ export default function DonateClient() {
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Donate' }]}
       className={`layout-sm`}
     >
-      <div id="donate-content">
-        <p>{donate.subtitle}</p>
+      <div id="donate-content" className="space-y-12">
+        <div className="text-center max-w-3xl mx-auto">
+          <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">{donate.subtitle}</p>
+        </div>
 
         {/* Purpose */}
-        <section>
-          <h3 className="h4">{donate.purpose?.heading}</h3>
-          <ul className="list-disc">
-            {(donate.purpose?.points || []).map((p: string, i: number) => (
-              <li key={i}>{p}</li>
-            ))}
-          </ul>
+        <section className="relative">
+          <div className="bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 dark:from-amber-950/30 dark:via-orange-950/30 dark:to-amber-950/30 rounded-3xl shadow-xl border-2 border-amber-200 dark:border-amber-800 p-8 md:p-10 overflow-hidden">
+            <div className="absolute top-0 right-0 w-48 h-48 bg-amber-400/10 dark:bg-amber-600/10 rounded-full blur-3xl" />
+            <div className="relative z-10">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl flex items-center justify-center shadow-lg">
+                  <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
+                    <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <h3 className="text-2xl md:text-3xl font-bold text-amber-900 dark:text-amber-100">{donate.purpose?.heading}</h3>
+              </div>
+              <ul className="space-y-4">
+                {(donate.purpose?.points || []).map((p: string, i: number) => (
+                  <li key={i} className="flex items-start gap-4 group">
+                    <span className="flex-shrink-0 w-8 h-8 bg-amber-500 text-white rounded-full flex items-center justify-center text-sm font-bold shadow-md group-hover:scale-110 transition-transform duration-300">
+                      {i + 1}
+                    </span>
+                    <span className="flex-1 text-gray-700 dark:text-gray-300 leading-relaxed pt-1">{p}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
         </section>
+
         {/* Expenses */}
-        <section>
-          <h4>{donate.expenses?.heading}</h4>
-          <table className="w-full border">
-            <thead className="bg-amber-50">
-              <tr>
-                <th className="p-3 text-left">Item</th>
-                <th className="p-3 text-left">Cost</th>
-                <th className="p-3 text-left">Cycle</th>
-                <th className="p-3 text-left">Provider</th>
-              </tr>
-            </thead>
-            <tbody>
-              {(donate.expenses?.table || []).map((row: any, i: number) => (
-                <tr key={i} className="border-t">
-                  <td className="p-3">{row.name}</td>
-                  <td className="p-3">{row.cost}</td>
-                  <td className="p-3">{row.cycle}</td>
-                  <td className="p-3">{row.provider}</td>
+        <section className="relative">
+          <div className="text-center mb-8">
+            <h4 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-amber-600 via-orange-500 to-amber-600 bg-clip-text text-transparent inline-block">{donate.expenses?.heading}</h4>
+            <div className="mt-3 w-24 h-1 bg-gradient-to-r from-amber-400 to-orange-500 mx-auto rounded-full"></div>
+          </div>
+          <div className="overflow-x-auto rounded-2xl shadow-xl border-2 border-amber-200 dark:border-amber-800">
+            <table className="w-full">
+              <thead className="bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 text-white">
+                <tr>
+                  <th className="p-4 text-left font-bold">Item</th>
+                  <th className="p-4 text-left font-bold">Cost</th>
+                  <th className="p-4 text-left font-bold">Cycle</th>
+                  <th className="p-4 text-left font-bold">Provider</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody className="bg-white dark:bg-gray-900">
+                {(donate.expenses?.table || []).map((row: any, i: number) => (
+                  <tr key={i} className="border-t-2 border-amber-100 dark:border-amber-900 hover:bg-amber-50/50 dark:hover:bg-amber-950/30 transition-colors duration-200">
+                    <td className="p-4 font-medium text-gray-900 dark:text-gray-100">{row.name}</td>
+                    <td className="p-4 text-amber-600 dark:text-amber-400 font-semibold">{row.cost}</td>
+                    <td className="p-4 text-gray-700 dark:text-gray-300">{row.cycle}</td>
+                    <td className="p-4 text-gray-700 dark:text-gray-300">{row.provider}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </section>
 
         {/* Donate */}
-        <section>
-          <h5 className="h4">{donate.donateOptions?.oneTime?.heading}</h5>
-          <p>{donate.donateOptions?.oneTime?.note}</p>
-          <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 my-8">
-            <div>
-              <LazyImage
-                src="/images/SANATANADHARM-qrcode.png"
-                alt="PayPal QR Code"
-                width={200}
-                height={205}
-              />
-              <LazyImage
-                src="/images/Debit_Credit_APM.svg"
-                alt="PayPal QR Code Logo"
-                width={150}
-                height={45}
-              />
-            </div>
-            <div>
-              <LazyImage
-                src="/images/UPI-qrcode.png"
-                alt="UPI QR Code"
-                width={200}
-                height={200}
-              />
+        <section className="relative">
+          <div className="bg-gradient-to-br from-white via-amber-50/50 to-orange-50/50 dark:from-gray-900 dark:via-amber-950/20 dark:to-orange-950/20 rounded-3xl shadow-2xl border-2 border-amber-200 dark:border-amber-800 p-8 md:p-12 overflow-hidden">
+            <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iMiIgZmlsbD0iI0ZCOTIzQyIgZmlsbC1vcGFjaXR5PSIwLjEiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JpZCkiLz48L3N2Zz4=')] opacity-50" />
+            <div className="relative z-10">
+              <div className="text-center mb-10">
+                <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-amber-500 to-orange-600 rounded-3xl mb-6 shadow-2xl">
+                  <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <h5 className="text-3xl md:text-4xl font-bold text-amber-900 dark:text-amber-100 mb-3">{donate.donateOptions?.oneTime?.heading}</h5>
+                <p className="text-lg text-gray-600 dark:text-gray-400">{donate.donateOptions?.oneTime?.note}</p>
+              </div>
+              
+              <div className="flex flex-col md:flex-row items-center justify-center gap-12 my-12">
+                <div className="group">
+                  <div className="bg-white dark:bg-gray-800 rounded-3xl shadow-xl p-8 border-2 border-amber-200 dark:border-amber-800 hover:border-amber-400 dark:hover:border-amber-600 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-2xl">
+                    <div className="text-center mb-4">
+                      <span className="inline-block px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white text-sm font-bold rounded-full shadow-md">PayPal</span>
+                    </div>
+                    <LazyImage
+                      src="/images/SANATANADHARM-qrcode.png"
+                      alt="PayPal QR Code"
+                      width={200}
+                      height={205}
+                      className="rounded-xl shadow-lg"
+                    />
+                    <div className="mt-4">
+                      <LazyImage
+                        src="/images/Debit_Credit_APM.svg"
+                        alt="PayPal QR Code Logo"
+                        width={150}
+                        height={45}
+                        className="mx-auto"
+                      />
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="group">
+                  <div className="bg-white dark:bg-gray-800 rounded-3xl shadow-xl p-8 border-2 border-amber-200 dark:border-amber-800 hover:border-amber-400 dark:hover:border-amber-600 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-2xl">
+                    <div className="text-center mb-4">
+                      <span className="inline-block px-4 py-2 bg-gradient-to-r from-purple-500 to-purple-600 text-white text-sm font-bold rounded-full shadow-md">UPI</span>
+                    </div>
+                    <LazyImage
+                      src="/images/UPI-qrcode.png"
+                      alt="UPI QR Code"
+                      width={200}
+                      height={200}
+                      className="rounded-xl shadow-lg"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          {/* <div className="bg-amber-50 p-6 rounded">
-            <p><strong>UPI:</strong> {donate.donateOptions?.bank?.upi}</p>
-            <p><strong>Account Name:</strong> {donate.donateOptions?.bank?.accountName}</p>
-            <p><strong>Account Number:</strong> {donate.donateOptions?.bank?.accountNumber}</p>
-            <p><strong>IFSC:</strong> {donate.donateOptions?.bank?.ifsc}</p>
-          </div> */}
         </section>
+
         {/* FAQ */}
         <div>
           <FaqAccordion items={(donate.faq?.items || [])} heading={donate.faq?.heading} />
