@@ -36,7 +36,7 @@ export default function WelcomePage() {
   // }
 
   return (
-    <div className="min-h-[60vh] flex items-center justify-center p-6">
+    <div className="min-h-[60vh] flex items-center justify-center px-3">
       <div
         className={`
           max-w-4xl mx-auto
@@ -114,24 +114,16 @@ export default function WelcomePage() {
               </div>
 
               {/* Welcome title */}
-              <h2 className="
-                text-4xl md:text-5xl lg:text-6xl
-                font-bold
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold
                 bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700
-                bg-clip-text text-transparent
-                tracking-tight
-                leading-tight
-              ">
+                bg-clip-text text-transparent tracking-tight leading-tight">
                 Namaste & Welcome
               </h2>
 
               {/* Sanskrit blessing */}
-              <p className="
-                text-xl md:text-2xl
-                font-serif italic
-                text-amber-800/80
-                tracking-wide
-              ">
+              <p className="text-xl md:text-2xl
+                font-serif italic text-amber-800/80
+                tracking-wide">
                 स्वागतम् । आपका स्वागत है
               </p>
 

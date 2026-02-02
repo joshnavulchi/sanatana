@@ -8,13 +8,8 @@ import Link from 'next/link';
 const Segment = ({ title, subtitle, years, isFirst, isLast, index }: any) => {
   const [isVisible] = useState(true);
   return (
-    <div
-      className={`
-        relative flex flex-col items-center
-        transition-all duration-700 ease-out
-        ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'}
-      `}
-    >
+    <div className={`relative flex flex-col items-center transition-all duration-700 ease-out
+        ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'}`}>
       {/* Arrow segment with enhanced design */}
       <div className={[
         "group relative",
@@ -66,25 +61,14 @@ const Segment = ({ title, subtitle, years, isFirst, isLast, index }: any) => {
             </span>
           )}
 
-          <div className="text-center sm:text-left space-y-2">
-            <h3 className="
-              text-2xl md:text-3xl lg:text-4xl
-              font-light
-              tracking-wide
-              drop-shadow-lg
-              group-hover:scale-105
-              transition-transform duration-300
-              m-0
-            ">
+          <div className="text-center sm:text-left">
+            <h6 className="text-xl md:text-2xl lg:text-3xl
+              font-light tracking-wide
+              drop-shadow-lg group-hover:scale-105 transition-transform duration-300 m-0">
               {title}
-            </h3>
-            <p className="
-              text-sm md:text-base
-              font-light
-              text-white/90 group-hover:text-white
-              transition-colors duration-300
-              m-0
-            ">
+            </h6>
+            <p className="text-sm md:text-base font-light text-white/90 group-hover:text-white
+              transition-colors duration-300 my-6">
               {subtitle}
             </p>
           </div>
@@ -133,7 +117,7 @@ export default function OurFourCoreYugas() {
   const [isVisible] = useState(true);
 
   return (
-    <section className="relative bg-[radial-gradient(120%_120%_at_50%_0%,#8a3a31_10%,#b25435_40%,#502a26_100%)] text-center py-20 md:py-32 overflow-hidden">
+    <section className="relative px-3 bg-[radial-gradient(120%_120%_at_50%_0%,#8a3a31_10%,#b25435_40%,#502a26_100%)] text-center py-20 md:py-32 overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-10 left-10 w-72 h-72 bg-amber-500/10 rounded-full blur-3xl animate-pulse" />
@@ -141,15 +125,12 @@ export default function OurFourCoreYugas() {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-1 bg-gradient-to-r from-transparent via-white/10 to-transparent" />
       </div>
 
-      <div className="max-w-7xl mx-auto relative z-10 px-6">
+      <div className="w-full md:mx-auto md:max-w-7xl relative z-10 px-6">
         {/* Header Section */}
         <div
-          className={`
-            mb-16 md:mb-24 space-y-6
-            transition-all duration-1000 ease-out
+          className={`mb-16 md:mb-24 transition-all duration-1000 ease-out
             ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}
-          `}
-        >
+          `}>
           {/* Decorative top accent */}
           <div className="flex items-center justify-center gap-3 mb-8">
             <div className="h-px w-20 bg-gradient-to-r from-transparent to-amber-400" />
@@ -157,18 +138,14 @@ export default function OurFourCoreYugas() {
             <div className="h-px w-20 bg-gradient-to-l from-transparent to-amber-400" />
           </div>
 
-          <h2 className="
-            text-4xl md:text-5xl lg:text-6xl
-            font-light
-            text-white
-            drop-shadow-2xl
-            [text-shadow:_2px_2px_8px_rgb(0_0_0_/_60%)]
-          ">
+          <h6 className="text-2xl md:text-3xl lg:text-4xl
+            font-light text-white
+            drop-shadow-2xl [text-shadow:_2px_2px_8px_rgb(0_0_0_/_60%)] my-6">
             {title}
-          </h2>
+          </h6>
 
-          <div className="mx-auto max-w-4xl">
-            <p className="text-lg md:text-xl text-white/90 leading-relaxed">
+          <div className="mx-auto max-w-5xl">
+            <p className="text-md md:text-lg text-white/90 leading-relaxed">
               {subtitle}{' '}
               <Link
                 href="/cosmictime"
