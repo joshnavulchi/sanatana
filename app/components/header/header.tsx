@@ -4,13 +4,13 @@
 import { useEffect, useRef, useState } from 'react';
 import useLocaleSection from '../../hooks/useLocaleSection';
 import { usePathname } from 'next/navigation';
-import { loadLocaleNamespace, DEFAULT_LOCALE } from '../../../lib/i18n';
+// import { loadLocaleNamespace, DEFAULT_LOCALE } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import LazyImage from '../lazy-image/LazyImage';
-import BannerNotifications from '../notifications';
-import ThemeToggle from '../theme-toggle/ThemeToggle';
+// import BannerNotifications from '../notifications';
+// import ThemeToggle from '../theme-toggle/ThemeToggle';
 
 const LanguageDropdown = dynamic(() => import("../language-dropdown/language-dropdown"), { ssr: false });
 // Start with default-locale fallbacks so header can render synchronously
@@ -171,12 +171,12 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <h1>
-              <Link href="/" className={`${styles.logoTitle} flex items-center no-underline gap-2`}>
+              <Link href="/" className={`${styles.logoTitle} flex items-center no-underline gap-1 md:gap-2`}>
                 <LazyImage
                   src="/images/logo.png"
                   alt="Sanatanadharmam Logo"
-                  width={50}
-                  height={45}
+                  width={65}
+                  height={65}
                   sizes="(min-width:1024px) 50px, 45px"
                   className="w-[50px] md:w-[45px]"
                 />

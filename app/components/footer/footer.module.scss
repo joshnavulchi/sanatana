@@ -3,7 +3,6 @@
   p { color: var(--color-bg); }
   a:not(.btn) { color: var(--color-bg); }
   .navWrapper {
-    padding: 0 var(--space-md);
     border-color: var(--color-bg);
     p {
       margin: var(--space-md) 0;
@@ -27,8 +26,6 @@
     .copyrights {
       margin: 0 auto;
       max-width: var(--content-width-default);
-      padding-right: var(--space-md);
-      padding-left: var(--space-md);
     }
     .copyrights a { font-size: 0.75rem; }
   }

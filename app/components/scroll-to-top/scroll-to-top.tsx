@@ -42,15 +42,15 @@ export default function ScrollToTop() {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="bg-black/60! text-white! btn btn-outline fixed z-40 bottom-8 right-8 px-0.5! py-1! scroll-to-top no-underline transition-all duration-300 ease-in-out"
+          className="bg-blue-800/60 fixed z-40 bottom-8 right-8 px-2 py-2 rounded-4xl shadow-md no-underline transition-all duration-300 ease-in-out"
           aria-label={locale?.scrolltotop?.arialabel || 'Scroll to top'}
           title={locale?.scrolltotop?.title || 'Scroll to top'}
         >
           {/* Up Arrow SVG */}
           <svg
-            className="w-4 h-4"
+            className="w-6 h-6"
             fill="none"
-            stroke="currentColor"
+            stroke="#ffffff"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
