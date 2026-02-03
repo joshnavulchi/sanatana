@@ -10,10 +10,9 @@ export default function DefinitionOfLife() {
   // }, []);
 
   return (
-    <div className="py-12 px-6">
+    <div className="py-6 px-3">
       <div
         className={`
-          max-w-5xl mx-auto
           transition-all duration-1000 ease-out
           ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}
         `}
@@ -34,9 +33,9 @@ export default function DefinitionOfLife() {
         </div>
 
         {/* Main content grid */}
-        <div className="flex flex-col md:flex-row gap-6 mb-8">
+        <div className="flex flex-col md:flex-row gap-8 md:gap-2 mb-12">
           {/* Card 1: Purpose */}
-          <div className="group relative bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-6 border border-amber-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex-1">
+          <div className="w-full md:w-1/4 relative bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-6 border border-amber-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex-1">
             <div className="absolute top-4 right-4 text-4xl opacity-20 group-hover:opacity-30 transition-opacity">
               🎯
             </div>
@@ -51,7 +50,7 @@ export default function DefinitionOfLife() {
           </div>
 
           {/* Card 2: Atman */}
-          <div className="group relative bg-gradient-to-br from-orange-50 to-yellow-50 rounded-xl p-6 border border-orange-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div className="w-full md:w-1/4 relative bg-gradient-to-br from-orange-50 to-yellow-50 rounded-xl p-6 border border-orange-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
             <div className="absolute top-4 right-4 text-4xl opacity-20 group-hover:opacity-30 transition-opacity">
               ✨
             </div>
@@ -64,7 +63,7 @@ export default function DefinitionOfLife() {
           </div>
 
           {/* Card 3: Karma */}
-          <div className="group relative bg-gradient-to-br from-yellow-50 to-amber-50 rounded-xl p-6 border border-yellow-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div className="w-full md:w-1/4 relative bg-gradient-to-br from-yellow-50 to-amber-50 rounded-xl p-6 border border-yellow-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
             <div className="absolute top-4 right-4 text-4xl opacity-20 group-hover:opacity-30 transition-opacity">
               ⚖️
             </div>
@@ -77,7 +76,7 @@ export default function DefinitionOfLife() {
           </div>
 
           {/* Card 4: Maya & Reality */}
-          <div className="group relative bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-6 border border-amber-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div className="w-full md:w-1/4 relative bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-6 border border-amber-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
             <div className="absolute top-4 right-4 text-4xl opacity-20 group-hover:opacity-30 transition-opacity">
               🌌
             </div>
