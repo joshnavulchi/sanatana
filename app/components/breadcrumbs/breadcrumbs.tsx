@@ -40,7 +40,7 @@ function generateBreadcrumbsFromPath(pathname: string, locale?: string): CrumbIn
       .split('-')
       .map(word => word.charAt(0).toUpperCase() + word.slice(1))
       .join(' ');
-    
+
     breadcrumbs.push({
       label,
       href: isLast ? undefined : accumulatedPath
@@ -55,18 +55,18 @@ export default function Breadcrumbs({ items, locale }: { items?: CrumbInput[]; l
   const breadcrumbItems = items || generateBreadcrumbsFromPath(pathname || '/', locale);
   const normalized = normalizeBreadcrumbs(breadcrumbItems, locale);
   return (
-    <nav aria-label="Breadcrumb" className="relative my-6">
-      <div className="inline-flex items-center bg-gradient-to-r from-amber-50 via-orange-50 to-amber-50 dark:from-amber-950/30 dark:via-orange-950/30 dark:to-amber-950/30 rounded-full px-6 py-3 shadow-md border border-amber-200/50 dark:border-amber-800/50">
+    <nav aria-label="Breadcrumb" className="inline-flex relative">
+      <div className="flex items-center bg-gradient-to-r from-amber-50 via-orange-50 to-amber-50 dark:from-amber-950/30 dark:via-orange-950/30 dark:to-amber-950/30 rounded-full px-6 py-3 shadow-md border border-amber-200/50 dark:border-amber-800/50">
         <svg className="w-4 h-4 mr-3 text-amber-600 dark:text-amber-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
           <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
         </svg>
-        <ol className="flex items-center flex-wrap">
+        <ol className="flex items-center pl-0! mb-0!">
           {normalized.map((it, idx) => {
             const isLast = idx === normalized.length - 1;
             return (
-              <li key={idx} className="flex items-center group" aria-current={isLast ? 'page' : undefined}>
+              <li key={idx} className="inline-flex items-center mb-0!" aria-current={isLast ? 'page' : undefined}>
                 {it.href && !isLast ? (
-                  <Link 
+                  <Link
                     href={it.href}
                     className="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-amber-600 dark:hover:text-amber-400 transition-colors duration-200 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-600 dark:after:bg-amber-400 hover:after:w-full after:transition-all after:duration-300"
                   >

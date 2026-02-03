@@ -56,18 +56,18 @@ export default function AboutClient() {
       metaKey="about"
       title={about.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'About' }]}
-      className={`layout-sm`}
+      className={`layout-md`}
     >
       {/* Text-to-Speech Player */}
       <TextToSpeech sectionId="about-content" className="floating" />
-      
-      <div id="about-content" className="space-y-12">
+
+      <div id="about-content">
         {/* Hero intro section */}
-        <div className="relative -mt-8 -mx-6 md:-mx-8 px-6 md:px-8 py-12 md:py-16 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 dark:from-amber-950/30 dark:via-orange-950/30 dark:to-amber-950/30 rounded-2xl overflow-hidden">
+        <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 dark:from-amber-950/30 dark:via-orange-950/30 dark:to-amber-950/30 rounded-2xl overflow-hidden">
           {/* Decorative elements */}
           <div className="absolute top-0 right-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl" />
           <div className="absolute bottom-0 left-0 w-80 h-80 bg-orange-400/10 rounded-full blur-3xl" />
-          
+
           {/* Content */}
           <div className="relative z-10">
             <div className="flex items-center gap-3 mb-6">
@@ -75,7 +75,7 @@ export default function AboutClient() {
               <span className="text-3xl animate-pulse">🙏</span>
               <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-500" />
             </div>
-            
+
             <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
               {about.intro}
             </p>
@@ -86,13 +86,13 @@ export default function AboutClient() {
         {about.sections.map((section: any, index: number) => {
           const level = Math.min(index + 2, 6);
           const Tag = `h${level}` as unknown as React.ElementType;
-          
+
           // Icon mapping for different section types
           const icons = ['📖', '🎯', '💡', '🌟', '🔮', '✨'];
           const icon = icons[index % icons.length];
-          
+
           return (
-            <div 
+            <div
               key={section.id || index}
               className="
                 relative
@@ -100,6 +100,7 @@ export default function AboutClient() {
                 border-2 border-amber-100 dark:border-amber-900/30
                 rounded-2xl
                 p-6 md:p-8
+                mt-12
                 shadow-lg hover:shadow-2xl
                 transition-all duration-500
                 group
@@ -109,7 +110,7 @@ export default function AboutClient() {
               {/* Decorative corner accent */}
               <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-amber-400/10 to-transparent rounded-tr-2xl" />
               <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-orange-400/10 to-transparent rounded-bl-2xl" />
-              
+
               {/* Content */}
               <div className="relative z-10 space-y-4">
                 {/* Section header with icon */}
@@ -128,7 +129,7 @@ export default function AboutClient() {
                   ">
                     {icon}
                   </div>
-                  
+
                   <Tag className="
                     flex-1
                     text-2xl md:text-3xl
@@ -140,19 +141,19 @@ export default function AboutClient() {
                     {section.title}
                   </Tag>
                 </div>
-                
+
                 {/* Section text */}
                 {section?.text && (
                   <p className="text-base md:text-lg text-gray-700 dark:text-gray-300 leading-relaxed pl-16">
                     {section.text}
                   </p>
                 )}
-                
+
                 {/* Bullets list */}
                 {section?.bullets && section?.bullets.length > 0 && (
                   <ul className="space-y-3 pl-16">
                     {section.bullets.map((text: string, idx: number) => (
-                      <li 
+                      <li
                         key={idx}
                         className="
                           relative
@@ -187,6 +188,7 @@ export default function AboutClient() {
             border-l-4 border-amber-500
             rounded-lg
             p-6 md:p-8
+            mt-12
             shadow-lg
           ">
             <div className="flex items-start gap-4">
@@ -201,7 +203,7 @@ export default function AboutClient() {
           </div>
         )}
       </div>
-      
+
       <div className="mt-16">
         <DefinitionOfLife />
       </div>

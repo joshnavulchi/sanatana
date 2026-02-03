@@ -178,7 +178,7 @@ export default function Header() {
                   width={65}
                   height={65}
                   sizes="(min-width:1024px) 50px, 45px"
-                  className="w-[50px] md:w-[45px]"
+                  className="md:w-[50px] md:w-[45px]"
                 />
                 <span className="text-orange-600">{translations.siteTitle}</span>
               </Link>
