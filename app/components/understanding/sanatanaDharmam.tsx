@@ -65,7 +65,7 @@ export default function UnderstandingOfSanatana() {
           >
             {/* Header */}
             <div className="md:mx-auto md:max-w-6xl text-center">
-              <div className="flex items-center justify-center gap-3">
+              <div className="flex items-center justify-center gap-2">
                 <div className="h-px w-16 bg-gradient-to-r from-transparent to-amber-400" />
                 <span role="img" aria-label="decorative star" className="text-2xl text-amber-500">
                   ✦
@@ -95,7 +95,7 @@ export default function UnderstandingOfSanatana() {
             </div>
 
             {/* Items */}
-            <div className="md:flex md:gap-4">
+            <div className="md:flex md:gap-6">
               {section.items?.map((topic) => (
                 <div key={topic.id} className="w-full mb-6 md:mb-0 md:w-1/4 bg-white dark:bg-gray-800 rounded-2xl border p-6 shadow-lg hover:shadow-xl transition">
                   <div className="text-center">

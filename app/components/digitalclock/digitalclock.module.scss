@@ -2,11 +2,15 @@
   position: fixed;
   top: 7rem;
   left: 0;
-  z-index: 9999;
+  z-index: 99;
   display: flex;
-  min-width: 263px;
+  min-width: 290px;
   align-items: flex-end;
   transition: transform 240ms cubic-bezier(.2, .9, .3, 1);
+  > div:first-child {
+    position: relative;
+    z-index: 1;
+  }
 }
 
 .floatingWrapper.visible {
@@ -14,7 +18,7 @@
 }
 
 .floatingWrapper.hidden {
-  transform: translateX(-265px);
+  transform: translateX(-290px);
 }
 
 .toggleIcon {
@@ -28,9 +32,10 @@
 
 .toggleButton {
   position: absolute;
+  z-index: 0;
   top: 0;
   left: 0;
-  transform: translateX(262px);
+  transform: translateX(290px);
   display: inline-flex;
   padding: 10px 20px;
   justify-content: center;
@@ -115,7 +120,7 @@
 
 @media (min-width: 1024px) {
   .toggleButton {
-    transform: translateX(272px);
+    transform: translateX(289px);
   }
 }
 

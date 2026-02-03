@@ -8,6 +8,7 @@ import { parseList } from 'lib/parseList';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import LazyImage from '../lazy-image/LazyImage';
+
 import styles from './footer.module.scss';
 
 export default function Footer() {
