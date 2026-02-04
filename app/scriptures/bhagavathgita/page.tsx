@@ -36,7 +36,7 @@ export default function Page({ searchParams }: any) {
         className={`layout-md`}
       >
         {/* Hero Section */}
-        <div className="relative mb-16 -mt-8 -mx-6 md:-mx-8 px-6 md:px-8 py-12 md:py-16 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 dark:from-amber-950/30 dark:via-orange-950/30 dark:to-amber-950/30 overflow-hidden">
+        <div className="relative mb-16 px-6 md:px-8 py-12 md:py-16 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 dark:from-amber-950/30 dark:via-orange-950/30 dark:to-amber-950/30 overflow-hidden">
           {/* Decorative elements */}
           <div className="absolute top-0 left-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl" />
           <div className="absolute bottom-0 right-0 w-80 h-80 bg-orange-400/10 rounded-full blur-3xl" />
@@ -66,7 +66,7 @@ export default function Page({ searchParams }: any) {
         </div>
 
         {/* Chapters Grid */}
-        <div className="flex flex-wrap gap-6 md:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {(page.chapters || []).map((item: any, i: number) => {
             // Determine chapter number robustly: prefer explicit numeric fields, else fallback to index+1
             const chapRaw = item?.chapter ?? item?.chapter_number;
@@ -86,8 +86,7 @@ export default function Page({ searchParams }: any) {
               <Link 
                 key={i} 
                 href={`/scriptures/bhagavathgita/chapter/${chapNum}`} 
-                className="
-                  group relative
+                className="group relative
                   bg-white dark:bg-gray-800
                   rounded-2xl
                   shadow-lg hover:shadow-2xl
