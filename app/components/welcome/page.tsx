@@ -12,8 +12,10 @@ export default function WelcomePage() {
     // On mount, check localStorage and hide if dismissed
     const dismissed = localStorage.getItem(STORAGE_KEY);
     if (dismissed === 'true') {
-      setIsVisible(false);
-      setDoNotShowAgain(true);
+      queueMicrotask(() => {
+        setIsVisible(false);
+        setDoNotShowAgain(true);
+      });
     }
   }, []);
 
