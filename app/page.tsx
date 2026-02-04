@@ -9,6 +9,7 @@ import OurFourCoreYugas from './components/our-four-core-yugas/ourfourcoreyugas'
 import UnderstandingOfSanatana from './components/understanding/sanatanaDharmam';
 import WelcomePage from './components/welcome/page';
 import DelayedHomeWidgets from './components/DelayedHomeWidgets';
+import React, { useEffect, useRef } from 'react';
 
 // Cache critical CSS at module level to avoid repeated file reads
 let cachedCriticalCss: string | null = null;
@@ -44,9 +45,53 @@ export default async function Home() {
   // Get cached critical CSS (read once at module load)
   const criticalCss = getCriticalCss();
 
+  // Delayed audio component for Krishna flute
+    // Footer audio player with error handling
+    function FooterAudioPlayer() {
+      const audioRef = useRef(null);
+      const [error, setError] = React.useState(false);
+      const [showPlayer, setShowPlayer] = React.useState(false);
+      useEffect(() => {
+        const timer = setTimeout(() => {
+          setShowPlayer(true);
+          if (audioRef.current) {
+            audioRef.current.play().catch(() => {});
+          }
+        }, 60000); // 1 minute
+        return () => clearTimeout(timer);
+      }, []);
+      return (
+        <footer style={{ position: 'fixed', left: 0, bottom: 0, width: '100%', zIndex: 1000, textAlign: 'center', background: 'transparent' }}>
+          {showPlayer && (
+            <>
+              <audio
+                ref={audioRef}
+                src="/krishna-flute.mp3"
+                preload="auto"
+                loop
+                style={{ width: 120, height: 30 }}
+                onError={() => setError(true)}
+              />
+              {error && (
+                <div style={{ color: 'red', fontSize: '0.8rem', marginTop: 4 }}>
+                  Krishna flute audio not found. Please upload krishna-flute.mp3 in public folder.<br />
+                  <audio controls style={{ width: 120, height: 30 }}>
+                    <source src="" type="audio/mp3" />
+                    Your browser does not support the audio element.
+                  </audio>
+                </div>
+              )}
+            </>
+          )}
+        </footer>
+      );
+    }
+
   return (
     <>
       {criticalCss ? <style dangerouslySetInnerHTML={{ __html: criticalCss }} /> : null}
+      {/* Krishna flute background audio player in footer, loads after 1 minute */}
+      <FooterAudioPlayer />
       <main>
         <WelcomePage />
         <HeroSection />
