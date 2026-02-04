@@ -30,7 +30,7 @@ export default function Page({ searchParams }: any) {
         metaKey="sankshepa_ramayana"
         title={page.title}
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
-        className="layout-sm"
+        className="layout-md"
       >
         <p><strong>Source: </strong>{page.author} - {page.description ? <span>{page.description}</span> : null}</p>
         {/* Structured display of all ramayana fields */}

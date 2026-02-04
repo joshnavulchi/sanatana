@@ -204,10 +204,10 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
   };
 
   return (
-    <div className="fixed z-50 top-32 left-8 max-w-xs md:max-w-sm" style={{ pointerEvents: 'none' }}>
+    <div className="fixed z-9 top-32 left-4 max-w-xs md:max-w-sm" style={{ pointerEvents: 'none' }}>
       <div className="relative">
         <button
-          className="absolute -top-4 -left-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:to-pink-600 text-white shadow-lg rounded-full px-4 py-2 text-xs font-bold tracking-widest border-2 border-white dark:border-gray-800 focus:outline-none focus:ring-4 focus:ring-pink-300 transition-all duration-300 flex items-center gap-2"
+          className="absolute -top-4 -left-2 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:to-pink-600 text-white shadow-lg rounded-full px-4 py-2 text-xs tracking-widest border-2 border-white dark:border-gray-800 focus:outline-none focus:ring-4 focus:ring-pink-300 transition-all duration-300 flex"
           onClick={toggle}
           aria-expanded={visible}
           aria-controls="digital-clock-box"
@@ -216,12 +216,12 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
         >
           <span className="inline-block transform transition-transform duration-300">
             {visible ? (
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
             ) : (
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 5l7 7-7 7M5 5v14" /></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 5l7 7-7 7M5 5v14" /></svg>
             )}
           </span>
-          <span>{visible ? 'Hide Clock' : 'Show Clock'}</span>
+          {/* <span>{visible ? '' : ''}</span> */}
         </button>
         <div
           className={`transition-all duration-300 ${visible ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'} bg-white/90 dark:bg-gray-900/90 shadow-2xl rounded-xl border border-gray-200 dark:border-gray-700 p-4 flex flex-col items-end`}

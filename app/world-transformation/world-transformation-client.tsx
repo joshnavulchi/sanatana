@@ -18,7 +18,7 @@ export default function WorldTransformationContent() {
     let mounted = true;
     (async () => {
       if (!mounted) return;
-      
+
       // Access nested data from world_transformation namespace
       const data = (ns as any)?.world_transformation || ns;
       setPageContent(data);
@@ -50,17 +50,17 @@ export default function WorldTransformationContent() {
     >
       <div className="space-y-12">
         {/* Hero section */}
-        <div className="relative -mt-8 -mx-6 md:-mx-8 px-6 md:px-8 py-12 bg-gradient-to-br from-blue-50 via-indigo-50 to-blue-50 dark:from-blue-950/30 dark:via-indigo-950/30 dark:to-blue-950/30 rounded-2xl overflow-hidden">
+        <div className="relative md:-mx-8 px-6 md:px-8 py-12 bg-gradient-to-br from-blue-50 via-indigo-50 to-blue-50 dark:from-blue-950/30 dark:via-indigo-950/30 dark:to-blue-950/30 rounded-2xl overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 bg-blue-400/10 rounded-full blur-3xl" />
           <div className="absolute bottom-0 left-0 w-80 h-80 bg-indigo-400/10 rounded-full blur-3xl" />
-          
+
           <div className="relative z-10">
             <div className="flex items-center gap-3 mb-6">
               <div className="h-px w-12 bg-gradient-to-r from-transparent to-blue-500" />
               <span className="text-3xl animate-pulse">🌍</span>
               <div className="h-px w-12 bg-gradient-to-l from-transparent to-blue-500" />
             </div>
-            
+
             {pageContent.meta?.description && (
               <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
                 {pageContent.meta.description}
@@ -84,11 +84,11 @@ export default function WorldTransformationContent() {
               </div>
               <h3 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">Why Borders Became Stable</h3>
             </div>
-            
+
             {pageContent.whyBordersBecameStable.summary && (
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed pl-15">{pageContent.whyBordersBecameStable.summary}</p>
             )}
-            
+
             {pageContent.whyBordersBecameStable.factors && Array.isArray(pageContent.whyBordersBecameStable.factors) && (
               <div className="flex flex-wrap gap-6">
                 {pageContent.whyBordersBecameStable.factors.map((factor: any, i: number) => (
@@ -110,7 +110,7 @@ export default function WorldTransformationContent() {
                 ))}
               </div>
             )}
-            
+
             {pageContent.whyBordersBecameStable.keyTakeaway && (
               <div className="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-950/30 dark:to-indigo-950/30 border-l-4 border-blue-500 rounded-lg p-6">
                 <div className="flex items-start gap-3">
@@ -139,7 +139,7 @@ export default function WorldTransformationContent() {
                   shadow-sm hover:shadow-md
                   transition-all duration-300
                 ">
-                  <span 
+                  <span
                     className="w-8 h-6 inline-block rounded-md border-2 border-white dark:border-gray-900 shadow-md"
                     style={{ background: ct.color || '#999' }}
                   />
@@ -164,16 +164,16 @@ export default function WorldTransformationContent() {
                 </div>
               </div>
             </div>
-            
+
             <div className="relative space-y-6">
               {/* Timeline line */}
               <div className="hidden md:block absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-400 via-indigo-500 to-blue-400" />
-              
+
               {pageContent.decades.map((d: any, idx: number) => (
                 <div key={d.key ?? d.decade ?? d.label ?? idx} className="relative">
                   {/* Timeline dot */}
                   <div className="hidden md:block absolute left-6 top-6 w-6 h-6 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full border-4 border-white dark:border-gray-900 shadow-lg z-10" />
-                  
+
                   {/* Decade card */}
                   <div className="md:ml-20 bg-white dark:bg-gray-800 border-2 border-blue-100 dark:border-blue-900/30 hover:border-blue-300 dark:hover:border-blue-700 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group">
                     <div className="flex items-start justify-between gap-4 mb-4">
@@ -184,18 +184,18 @@ export default function WorldTransformationContent() {
                         #{idx + 1}
                       </span>
                     </div>
-                    
+
                     {d.theme && (
                       <p className="text-gray-600 dark:text-gray-400 italic mb-3 flex items-start gap-2">
                         <span className="text-lg">💭</span>
                         <span className="flex-1">{d.theme}</span>
                       </p>
                     )}
-                    
+
                     {d.summary && (
                       <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">{d.summary}</p>
                     )}
-                    
+
                     {d.whatChanged && Array.isArray(d.whatChanged) && d.whatChanged.length > 0 && (
                       <div className="mb-4">
                         <h5 className="text-sm font-bold text-gray-900 dark:text-white mb-2 flex items-center gap-2">
@@ -212,7 +212,7 @@ export default function WorldTransformationContent() {
                         </ul>
                       </div>
                     )}
-                    
+
                     {d.why && Array.isArray(d.why) && d.why.length > 0 && (
                       <div className="mb-4 pt-4 border-t border-gray-200 dark:border-gray-700">
                         <h5 className="text-sm font-bold text-gray-900 dark:text-white mb-2 flex items-center gap-2">
@@ -229,13 +229,13 @@ export default function WorldTransformationContent() {
                         </ul>
                       </div>
                     )}
-                    
+
                     {d.svgOverlay && (
                       <div className="pt-4 border-t border-gray-200 dark:border-gray-700">
                         <label className="inline-flex items-center gap-3 cursor-pointer group/checkbox">
-                          <input 
-                            type="checkbox" 
-                            checked={selectedDecade === idx} 
+                          <input
+                            type="checkbox"
+                            checked={selectedDecade === idx}
                             onChange={() => setSelectedDecade(selectedDecade === idx ? null : idx)}
                             className="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
                           />

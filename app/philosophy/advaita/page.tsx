@@ -29,7 +29,7 @@ export default function Page({ searchParams }: any) {
         metaKey="philosophy_advaita"
         title={page.title}
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Advaita Philosophy' }]}
-        className={`layout-sm`}
+        className={`layout-md`}
       >
         <p><strong>Definition : </strong>{page.definition}</p>
         {/* Core Principles of Advaita */}
