@@ -1,18 +1,14 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 "use client";
-
 import { useEffect, useRef, useState, useMemo } from 'react';
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 import { useLanguagePersistence } from '../../hooks/useLanguagePersistence';
-
 import { DEFAULT_LOCALE, loadLocale } from '../../../lib/i18n';
 import useLocaleSection from '../../hooks/useLocaleSection';
 import { useLocale } from '../../context/locale-context';
 // Use plain <img> for small globe icon to avoid next/image intermittent issues
 import localesList from '../../../lib/localesList.json';
 import localeMeta from '../../../lib/localeMeta.json';
-
-import styles from './langdropdown.module.scss';
 
 export default function LanguageDropdown() {
   const locale = useLocaleSection('sharable_strings');
@@ -290,7 +286,7 @@ export default function LanguageDropdown() {
                       }}
                       onClick={() => handleLanguageChange(lang.code)}
                       className={`
-                        group relative flex-1 min-w-[calc(50%-0.375rem)] flex items-center gap-3 p-4 rounded-xl
+                        group relative flex-1 md:min-w-[calc(50%-0.375rem)] flex items-center gap-3 p-4 rounded-xl
                         transition-all duration-300 transform hover:-translate-y-1
                         ${isSelected 
                           ? 'bg-gradient-to-br from-amber-100 to-orange-100 dark:from-amber-900/50 dark:to-orange-900/50 border-2 border-amber-500 dark:border-amber-600 shadow-lg' 
