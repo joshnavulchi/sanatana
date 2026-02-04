@@ -138,7 +138,7 @@ export default function OurFourCoreYugas() {
             <div className="h-px w-20 bg-gradient-to-l from-transparent to-amber-400" />
           </div>
 
-          <h6 className="text-3xl md:text-4xl font-light text-white drop-shadow-2xl [text-shadow:_2px_2px_8px_rgb(0_0_0_/_60%)] my-6">
+          <h6 className="text-3xl md:text-4xl font-light text-amber-200 drop-shadow-2xl [text-shadow:_2px_2px_8px_rgb(0_0_0_/_80%)] my-6">
             {title}
           </h6>
 
@@ -147,18 +147,10 @@ export default function OurFourCoreYugas() {
               {subtitle}{' '}
               <Link
                 href="/cosmictime"
-                className="
-                  inline-flex items-center gap-1
-                  text-amber-300 hover:text-amber-200
-                  underline underline-offset-4
-                  decoration-2 decoration-amber-400/50
-                  hover:decoration-amber-400
-                  font-semibold
-                  transition-all duration-300
-                  group
-                "
+                className="inline-flex items-center gap-1 text-amber-300 hover:text-amber-200 underline underline-offset-4 decoration-2 decoration-amber-400/50 hover:decoration-amber-400 font-semibold transition-all duration-300 group"
+                aria-label="Learn more about Cosmic Time"
               >
-                Learn more
+                Learn more about Cosmic Time
                 <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>

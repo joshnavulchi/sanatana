@@ -207,7 +207,7 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
     <div className="fixed z-9 top-32 left-4 max-w-xs md:max-w-sm" style={{ pointerEvents: 'none' }}>
       <div className="relative">
         <button
-          className="absolute -top-4 -left-2 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:to-pink-600 text-white shadow-lg rounded-full px-4 py-2 text-xs tracking-widest border-2 border-white dark:border-gray-800 focus:outline-none focus:ring-4 focus:ring-pink-300 transition-all duration-300 flex"
+          className="absolute -top-4 -left-2 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:to-pink-600 text-white shadow-lg rounded-full px-2 py-2 text-xs tracking-widest border-2 border-white dark:border-gray-800 focus:outline-none focus:ring-4 focus:ring-pink-300 transition-all duration-300 flex"
           onClick={toggle}
           aria-expanded={visible}
           aria-controls="digital-clock-box"
@@ -216,9 +216,15 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
         >
           <span className="inline-block transform transition-transform duration-300">
             {visible ? (
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <rect x="3" y="7" width="18" height="14" rx="2" ry="2" stroke="currentColor" strokeWidth="2" fill="none" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 3v4M8 3v4M3 11h18" />
+              </svg>
             ) : (
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 5l7 7-7 7M5 5v14" /></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <rect x="3" y="7" width="18" height="14" rx="2" ry="2" stroke="currentColor" strokeWidth="2" fill="none" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 3v4M8 3v4M3 11h18" />
+              </svg>
             )}
           </span>
           {/* <span>{visible ? '' : ''}</span> */}

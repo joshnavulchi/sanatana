@@ -8,6 +8,8 @@ import HeroSection from './components/hero-section/herosection';
 import OurFourCoreYugas from './components/our-four-core-yugas/ourfourcoreyugas';
 import UnderstandingOfSanatana from './components/understanding/sanatanaDharmam';
 import WelcomePage from './components/welcome/page';
+import DelayedHomeWidgets from './components/DelayedHomeWidgets';
+import FooterAudioPlayer from './components/FooterAudioPlayer';
 
 // Cache critical CSS at module level to avoid repeated file reads
 let cachedCriticalCss: string | null = null;
@@ -43,15 +45,21 @@ export default async function Home() {
   // Get cached critical CSS (read once at module load)
   const criticalCss = getCriticalCss();
 
+  // Delayed audio component for Krishna flute
+
   return (
     <>
       {criticalCss ? <style dangerouslySetInnerHTML={{ __html: criticalCss }} /> : null}
+      {/* Krishna flute background audio player in footer, loads after 1 minute */}
+      <FooterAudioPlayer />
       <main>
         <WelcomePage />
         <HeroSection />
         <UnderstandingOfSanatana />
         <GitSupport />
         <OurFourCoreYugas />
+        {/* Delayed widgets: cookies and clock */}
+        <DelayedHomeWidgets />
       </main>
     </>
   );
