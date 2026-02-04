@@ -48,20 +48,11 @@ export default function WelcomePage() {
           <button
             onClick={handleClose}
             aria-label="Close welcome message"
-            className="
-              absolute -top-2 -right-2 z-20
-              w-10 h-10
-              bg-white hover:bg-amber-50
-              border-2 border-amber-300 hover:border-amber-400
-              rounded-full
-              shadow-lg hover:shadow-xl
-              transition-all duration-200
-              flex items-center justify-center
-              group hidden
-            "
+            className="absolute -top-4 -right-4 z-30 w-10 h-10 bg-gradient-to-br from-amber-100 via-orange-100 to-yellow-100 border-2 border-amber-400 hover:border-amber-500 rounded-full shadow-lg hover:shadow-2xl transition-all duration-200 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
           >
+            <span className="sr-only">Close</span>
             <svg
-              className="w-5 h-5 text-amber-800 group-hover:text-amber-700 transition-colors"
+              className="w-6 h-6 text-amber-700 group-hover:text-amber-900 transition-colors"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"

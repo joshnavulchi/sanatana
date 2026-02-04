@@ -51,7 +51,8 @@ const nextConfig = {
   images: {
     // Disable Next Image optimization for static export / GitHub Pages
     unoptimized: true,
-    minimumCacheTTL: 86400 // 1 day
+    minimumCacheTTL: 86400, // 1 day
+    qualities: [75, 90]
   },
   outputFileTracingRoot: __dirname,
   // Configure webpack persistent caching so subsequent builds can reuse
