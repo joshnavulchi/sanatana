@@ -133,10 +133,10 @@ export default function PrivacyPolicy() {
             <span><strong>{privacy.informationwecollect.title}</strong> {privacy.informationwecollect.lead}</span>
           </h3>
           <div className="space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed">
-            <p><strong className="text-amber-600 dark:text-amber-400">{privacy.informationwecollect.usagelabel}</strong> {privacy.informationwecollect.usage}</p>
-            <p><strong className="text-amber-600 dark:text-amber-400">{privacy.informationwecollect.devicelabel}</strong> {privacy.informationwecollect.device}</p>
-            <p><strong className="text-amber-600 dark:text-amber-400">{privacy.informationwecollect.cookieslabel}</strong> {privacy.informationwecollect.cookies}</p>
-            <p><strong className="text-amber-600 dark:text-amber-400">{privacy.informationwecollect.contactlabel}</strong> {privacy.informationwecollect.contact}</p>
+            <p><strong className="text-amber-800 dark:text-amber-200">{privacy.informationwecollect.usagelabel}</strong> {privacy.informationwecollect.usage}</p>
+            <p><strong className="text-amber-800 dark:text-amber-200">{privacy.informationwecollect.devicelabel}</strong> {privacy.informationwecollect.device}</p>
+            <p><strong className="text-amber-800 dark:text-amber-200">{privacy.informationwecollect.cookieslabel}</strong> {privacy.informationwecollect.cookies}</p>
+            <p><strong className="text-amber-800 dark:text-amber-200">{privacy.informationwecollect.contactlabel}</strong> {privacy.informationwecollect.contact}</p>
           </div>
         </section>
 
@@ -228,8 +228,8 @@ export default function PrivacyPolicy() {
           </p>
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">{privacy.contact.lead}</p>
           <div className="space-y-2 text-gray-700 dark:text-gray-300">
-            <p><strong className="text-amber-600 dark:text-amber-400">{privacy.contact.emaillabel}</strong> {privacy.contact.email}</p>
-            <p><strong className="text-amber-600 dark:text-amber-400">{privacy.contact.websitelabel}</strong> {privacy.contact.website}</p>
+            <p><strong className="text-amber-800 dark:text-amber-200">{privacy.contact.emaillabel}</strong> {privacy.contact.email}</p>
+            <p><strong className="text-amber-800 dark:text-amber-200">{privacy.contact.websitelabel}</strong> {privacy.contact.website}</p>
           </div>
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed mt-6 pt-4 border-t border-amber-300 dark:border-amber-700">{privacy.contact.closing}</p>
         </section>

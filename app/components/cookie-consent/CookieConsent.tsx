@@ -219,8 +219,8 @@ export default function CookieConsent() {
                       return (
                         <div dangerouslySetInnerHTML={{
                           __html: paragraph
-                            .replace('{cookiePolicyLink}', `<a class="text-amber-600 dark:text-amber-400 hover:text-orange-600 dark:hover:text-orange-400 underline underline-offset-2 transition-colors" href="/our-cookie-policy">${localeObj?.cookieconsent?.cookiepolicy || 'Cookie Policy'}</a>`)
-                            .replace('{privacyPolicyLink}', `<a class="text-amber-600 dark:text-amber-400 hover:text-orange-600 dark:hover:text-orange-400 underline underline-offset-2 transition-colors" href="/our-privacy-policy">${localeObj?.cookieconsent?.privacypolicy || 'Privacy Policy'}</a>`)
+                            .replace('{cookiePolicyLink}', `<a class="text-amber-800 dark:text-amber-200 hover:text-orange-700 dark:hover:text-orange-200 underline underline-offset-2 transition-colors" href="/our-cookie-policy">${localeObj?.cookieconsent?.cookiepolicy || 'Cookie Policy'}</a>`)
+                            .replace('{privacyPolicyLink}', `<a class="text-amber-800 dark:text-amber-200 hover:text-orange-700 dark:hover:text-orange-200 underline underline-offset-2 transition-colors" href="/our-privacy-policy">${localeObj?.cookieconsent?.privacypolicy || 'Privacy Policy'}</a>`)
                             .replace('{managerLabel}', localeObj?.cookieconsent?.managerbutton || 'Cookie Preferences')
                             .replace('{acceptAllLabel}', localeObj?.cookieconsent?.acceptall || 'Accept all')
                         }} />

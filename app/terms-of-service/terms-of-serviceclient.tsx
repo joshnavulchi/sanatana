@@ -205,9 +205,9 @@ export default function TermsOfService() {
           </p>
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">{page.contacttext}</p>
           <div className="space-y-2 text-gray-700 dark:text-gray-300">
-            <p><strong className="text-amber-600 dark:text-amber-400">{page.contactphonelabel}</strong> {page.contactphone}</p>
-            <p><strong className="text-amber-600 dark:text-amber-400">{page.contactemaillabel}</strong> {page.contactemail}</p>
-            <p><strong className="text-amber-600 dark:text-amber-400">{page.contactwebsitelabel}</strong> <a href="https://sanatanadharmam.in" className="text-amber-600 dark:text-amber-400 hover:text-orange-600 dark:hover:text-orange-400 underline transition-colors">{page.contactwebsite}</a></p>
+            <p><strong className="text-amber-800 dark:text-amber-200">{page.contactphonelabel}</strong> {page.contactphone}</p>
+            <p><strong className="text-amber-800 dark:text-amber-200">{page.contactemaillabel}</strong> {page.contactemail}</p>
+            <p><strong className="text-amber-800 dark:text-amber-200">{page.contactwebsitelabel}</strong> <a href="https://sanatanadharmam.in" className="text-amber-800 dark:text-amber-200 hover:text-orange-700 dark:hover:text-orange-200 underline transition-colors">{page.contactwebsite}</a></p>
           </div>
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed mt-6 pt-4 border-t border-amber-300 dark:border-amber-700">{page.closing}</p>
         </section>

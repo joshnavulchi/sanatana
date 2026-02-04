@@ -21,7 +21,7 @@ export default function DefinitionOfLife() {
         <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-3 mb-4">
             <div className="h-px w-16 bg-gradient-to-r from-transparent to-amber-400" />
-            <span className="text-3xl text-amber-600">🕉️</span>
+            <span className="text-3xl text-amber-800">🕉️</span>
             <div className="h-px w-16 bg-gradient-to-l from-transparent to-amber-400" />
           </div>
           <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700 bg-clip-text text-transparent mb-2">

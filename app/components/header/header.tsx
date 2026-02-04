@@ -191,6 +191,7 @@ export default function Header() {
                   <Link
                     key={key}
                     href={href}
+                    role="menuitem"
                     className={`px-4 py-2 rounded-lg font-semibold text-amber-800 hover:bg-amber-100 hover:text-orange-700 transition-colors duration-150 ${isActive(href) ? "bg-orange-100 text-orange-700" : ""} dark:text-amber-100 dark:hover:bg-amber-900 dark:hover:text-yellow-300 dark:bg-gray-900 dark:active:bg-amber-800`}>
                     {val}
                   </Link>
@@ -217,6 +218,7 @@ export default function Header() {
                         <Link
                           key={subKey}
                           href={`/${key}/${subKey}`}
+                          role="menuitem"
                           className="flex items-center gap-3 px-5 py-2 text-amber-800 rounded transition-colors duration-150 hover:bg-orange-100 hover:text-orange-700 focus:bg-orange-200 focus:text-orange-800 dark:text-amber-100 dark:hover:bg-amber-900 dark:hover:text-yellow-300 dark:focus:bg-amber-800 dark:focus:text-yellow-200 dark:bg-gray-900"
                           style={{ animationDelay: `${idx * 40}ms` }}
                         >

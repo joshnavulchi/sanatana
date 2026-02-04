@@ -115,9 +115,9 @@ export default function UnderstandingOfSanatana() {
                     <Link
                       href={topic.href}
                       title={topic.title}
-                      className="inline-flex items-center gap-2 text-amber-600 font-semibold"
+                      className="inline-flex items-center gap-2 text-amber-800 dark:text-amber-200 font-semibold"
                     >
-                      Read more
+                      {`Learn more about ${topic.title}`}
                       <svg
                         aria-hidden="true"
                         className="w-4 h-4"

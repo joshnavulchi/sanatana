@@ -120,7 +120,7 @@ export default function DonateClient() {
                 {(donate.expenses?.table || []).map((row: any, i: number) => (
                   <tr key={i} className="border-t-2 border-amber-100 dark:border-amber-900 hover:bg-amber-50/50 dark:hover:bg-amber-950/30 transition-colors duration-200">
                     <td className="p-4 font-medium text-gray-900 dark:text-gray-100">{row.name}</td>
-                    <td className="p-4 text-amber-600 dark:text-amber-400 font-semibold">{row.cost}</td>
+                    <td className="p-4 text-amber-800 dark:text-amber-200 font-semibold">{row.cost}</td>
                     <td className="p-4 text-gray-700 dark:text-gray-300">{row.cycle}</td>
                     <td className="p-4 text-gray-700 dark:text-gray-300">{row.provider}</td>
                   </tr>

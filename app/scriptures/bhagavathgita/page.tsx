@@ -145,7 +145,7 @@ export default function Page({ searchParams }: any) {
                       text-lg md:text-xl font-bold
                       text-gray-900 dark:text-white
                       line-clamp-2
-                      group-hover:text-amber-600 dark:group-hover:text-amber-400
+                      group-hover:text-amber-800 dark:group-hover:text-amber-200
                       transition-colors duration-300
                     ">
                       {chapTitle}
@@ -169,7 +169,7 @@ export default function Page({ searchParams }: any) {
                       relative z-10
                       pt-4
                       flex items-center gap-2
-                      text-amber-600 dark:text-amber-400
+                      text-amber-800 dark:text-amber-200
                       font-semibold text-sm
                       group-hover:gap-3
                       transition-all duration-300
