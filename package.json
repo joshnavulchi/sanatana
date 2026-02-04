@@ -21,13 +21,16 @@
     "preview:static": "npx serve@latest out -l 3000",
     "lint": "eslint --quiet",
     "minify:html": "node scripts/minify-html.js",
-    "noEmit": "npx tsc --noEmit"
+    "noEmit": "npx tsc --noEmit",
+    "check-updates": "npx npm-check-updates",
+    "update-libs": "npx npm-check-updates -u && npm install",
+    "clean": "Remove-Item node_modules, package-lock.json, .next, .cache, .parcel-cache -Recurse -Force -ErrorAction SilentlyContinue"
   },
   "dependencies": {
     "mongodb": "^7",
-    "next": "^16.1.4",
-    "react": "19.2.3",
-    "react-dom": "19.2.3",
+    "next": "^16.1.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
     "tailwindcss": "^4.1.18",
     "web-vitals": "^5.1.0"
   },
@@ -36,26 +39,26 @@
     "suncalc": "^1.9.0"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^16.1.4",
+    "@next/bundle-analyzer": "^16.1.6",
     "@tailwindcss/postcss": "^4.1.18",
     "@types/d3": "^7.4.3",
-    "@types/node": "^25.0.10",
-    "@types/react": "^19.2.9",
+    "@types/node": "^25.2.0",
+    "@types/react": "^19.2.10",
     "@types/react-dom": "^19",
-    "autoprefixer": "^10.4.23",
-    "critters": "^0.0.23",
+    "autoprefixer": "^10.4.24",
+    "critters": "^0.0.25",
     "css-minimizer-webpack-plugin": "^7.0.4",
     "d3": "^7.9.0",
     "eslint": "^9",
-    "eslint-config-next": "16.1.4",
-    "googleapis": "^170.1.0",
-    "html-minifier-terser": "^7.0.0",
+    "eslint-config-next": "16.1.6",
+    "googleapis": "^171.2.0",
+    "html-minifier-terser": "^7.2.0",
     "postcss": "^8.5.6",
     "sass": "^1.97.3",
     "sharp": "^0.34.5",
     "topojson-client": "^3.1.0",
     "typescript": "5.9.3",
-    "webpack": "^5.0.0"
+    "webpack": "^5.105.0"
   },
   "overrides": {
     "nanoid": "3.3.8"

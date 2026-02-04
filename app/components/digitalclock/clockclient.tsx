@@ -1,6 +1,5 @@
 "use client";
 import { useEffect, useState } from 'react';
-import styles from './digitalclock.module.scss';
 import SunCalc from 'suncalc';
 import { DateTime } from 'luxon';
 
@@ -205,84 +204,100 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
   };
 
   return (
-    <div className={`${styles.floatingWrapper} ${styles.clock} ${visible ? styles.visible : styles.hidden}`} aria-live="polite">
-      <div id="digital-clock-box" role="status">
-        {showDate && <div className={styles.date}>{dateStr}</div>}
-        <div className={styles.timeRow}>
-          <div className={styles.time}>
-            <div className={styles.digits}>
-              {String(hours12).split('').map((d, i) => (
-                <span key={`h${i}`} className={styles.digit} aria-hidden>{d}</span>
-              ))}
-              <span className={styles.colon} aria-hidden>:</span>
-              {pad(minutes).split('').map((d, i) => (
-                <span key={`m${i}`} className={styles.digit} aria-hidden>{d}</span>
-              ))}
-              {showSeconds && (
-                <>
-                  <span className={styles.colon} aria-hidden>:</span>
-                  {pad(seconds).split('').map((d, i) => (
-                    <span key={`s${i}`} className={styles.digit} aria-hidden>{d}</span>
+    <div className="fixed z-50 top-32 left-8 max-w-xs md:max-w-sm" style={{ pointerEvents: 'none' }}>
+      <div className="relative">
+        <button
+          className="absolute -top-4 -left-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:to-pink-600 text-white shadow-lg rounded-full px-4 py-2 text-xs font-bold tracking-widest border-2 border-white dark:border-gray-800 focus:outline-none focus:ring-4 focus:ring-pink-300 transition-all duration-300 flex items-center gap-2"
+          onClick={toggle}
+          aria-expanded={visible}
+          aria-controls="digital-clock-box"
+          aria-label={visible ? 'Hide clock' : 'Show clock'}
+          style={{ pointerEvents: 'auto', zIndex: 10 }}
+        >
+          <span className="inline-block transform transition-transform duration-300">
+            {visible ? (
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
+            ) : (
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 5l7 7-7 7M5 5v14" /></svg>
+            )}
+          </span>
+          <span>{visible ? 'Hide Clock' : 'Show Clock'}</span>
+        </button>
+        <div
+          className={`transition-all duration-300 ${visible ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'} bg-white/90 dark:bg-gray-900/90 shadow-2xl rounded-xl border border-gray-200 dark:border-gray-700 p-4 flex flex-col items-end`}
+          style={{ backdropFilter: 'blur(8px)' }}
+          aria-live="polite"
+        >
+          <div id="digital-clock-box" role="status" className="w-full">
+            {showDate && <div className="text-xs text-gray-500 dark:text-gray-300 mb-1 text-right">{dateStr}</div>}
+            <div className="flex items-baseline justify-end gap-2">
+              <div className="flex items-baseline gap-1">
+                <div className="flex text-3xl md:text-4xl font-mono font-bold text-blue-700 dark:text-blue-300 select-none">
+                  {String(hours12).split('').map((d, i) => (
+                    <span key={`h${i}`}>{d}</span>
                   ))}
-                </>
-              )}
-            </div>
-          </div>
-          <div className={styles.ampm}>
-            <span>{ampm}</span>
-          </div>
-        </div>
-        {latLng && (
-          <div className="text-xs mt-1">
-            {sunrise && <div><strong>Sunrise:</strong> {sunrise}</div>}
-            {sunset && <div><strong>Sunset:</strong> {sunset}</div>}
-            {tithi && <div><strong>Lunar day (Tithi):</strong> {tithi}</div>}
-            {nakshatra && <div><strong>Nakshatra:</strong> {nakshatra}</div>}
-            {moonPhase && (
-              <div className="flex items-center justify-content-start gap-2">
-                <div>Moon: </div>
-                <div role="img" aria-label={`Moon: ${moonPhase}`}>
-                  {(() => {
-                    // Map numeric phase (0..1) to moon phase emoji.
-                    const p = moonPhaseValue ?? 0;
-                    if (p <= 0.03 || p >= 0.97) return '🌑';
-                    if (p < 0.25) return '🌒';
-                    if (p < 0.27) return '🌓';
-                    if (p < 0.5) return '🌔';
-                    if (p >= 0.48 && p <= 0.52) return '🌕';
-                    if (p < 0.75) return '🌖';
-                    if (p < 0.77) return '🌗';
-                    return '🌘';
-                  })()}
+                  <span>:</span>
+                  {pad(minutes).split('').map((d, i) => (
+                    <span key={`m${i}`}>{d}</span>
+                  ))}
+                  {showSeconds && (
+                    <>
+                      <span>:</span>
+                      {pad(seconds).split('').map((d, i) => (
+                        <span key={`s${i}`}>{d}</span>
+                      ))}
+                    </>
+                  )}
                 </div>
-                <div> {moonPhase}</div>
+                <span className="ml-1 text-base text-gray-600 dark:text-gray-300 font-semibold">{ampm}</span>
+              </div>
+            </div>
+            {latLng && (
+              <div className="text-xs mt-2 text-right space-y-1">
+                {sunrise && (
+                  <div className="flex items-center gap-2 justify-end bg-gradient-to-r from-yellow-200 via-yellow-100 to-white dark:from-yellow-900 dark:via-yellow-800 dark:to-gray-900 rounded-lg px-2 py-1 shadow-sm mb-1">
+                    <span className="inline-block text-yellow-500 dark:text-yellow-300">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v4m0 0a7 7 0 017 7h-2a5 5 0 00-10 0H5a7 7 0 017-7zm0 0V3m0 0a7 7 0 00-7 7h2a5 5 0 0110 0h2a7 7 0 00-7-7z" /></svg>
+                    </span>
+                    <span className="font-semibold text-yellow-700 dark:text-yellow-200">Sunrise:</span>
+                    <span className="font-mono text-xs text-yellow-800 dark:text-yellow-100">{sunrise}</span>
+                  </div>
+                )}
+                {sunset && (
+                  <div className="flex items-center gap-2 justify-end bg-gradient-to-r from-indigo-200 via-purple-100 to-white dark:from-indigo-900 dark:via-purple-800 dark:to-gray-900 rounded-lg px-2 py-1 shadow-sm mb-1">
+                    <span className="inline-block text-purple-500 dark:text-purple-300">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 21v-4m0 0a7 7 0 01-7-7h2a5 5 0 0110 0h2a7 7 0 01-7 7zm0 0v4m0 0a7 7 0 007-7h-2a5 5 0 00-10 0H5a7 7 0 007 7z" /></svg>
+                    </span>
+                    <span className="font-semibold text-purple-700 dark:text-purple-200">Sunset:</span>
+                    <span className="font-mono text-xs text-purple-800 dark:text-purple-100">{sunset}</span>
+                  </div>
+                )}
+                {tithi && <div><span className="font-semibold">Lunar day (Tithi):</span> {tithi}</div>}
+                {nakshatra && <div><span className="font-semibold">Nakshatra:</span> {nakshatra}</div>}
+                {moonPhase && (
+                  <div className="flex items-center gap-1 justify-end">
+                    <span>Moon:</span>
+                    <span role="img" aria-label={`Moon: ${moonPhase}`}>{(() => {
+                      const p = moonPhaseValue ?? 0;
+                      if (p <= 0.03 || p >= 0.97) return '🌑';
+                      if (p < 0.25) return '🌒';
+                      if (p < 0.27) return '🌓';
+                      if (p < 0.5) return '🌔';
+                      if (p >= 0.48 && p <= 0.52) return '🌕';
+                      if (p < 0.75) return '🌖';
+                      if (p < 0.77) return '🌗';
+                      return '🌘';
+                    })()}</span>
+                    <span>{moonPhase}</span>
+                  </div>
+                )}
+                {rahu && <div><span className="font-semibold">Rahu Kaal:</span> {rahu.start} - {rahu.end}</div>}
+                {yama && <div><span className="font-semibold">Yamagandam:</span> {yama.start} - {yama.end}</div>}
               </div>
             )}
-            {rahu && <div><strong>Rahu Kaal:</strong> {rahu.start} - {rahu.end}</div>}
-            {yama && <div><strong>Yamagandam:</strong> {yama.start} - {yama.end}</div>}
           </div>
-        )}
+        </div>
       </div>
-      <button
-        className={styles.toggleButton}
-        onClick={toggle}
-        aria-expanded={visible}
-        aria-controls="digital-clock-box"
-        aria-label={visible ? 'Hide clock' : 'Show clock'}
-      >
-        <small className='hidden md:inline-flex'>Today</small>
-        <svg
-          className={`${styles.toggleIcon} ${visible ? '' : styles.rotated}`}
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          width="18"
-          height="18"
-          aria-hidden="true"
-          focusable="false"
-        >
-          <path fill="currentColor" d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z" />
-        </svg>
-      </button>
     </div>
   );
 }

@@ -3,37 +3,32 @@ import { useEffect, useState } from 'react';
 
 const STORAGE_KEY = 'sanatana_welcome_dismissed';
 
+
 export default function WelcomePage() {
-  const isVisible = true;
-  // const [isVisible, setIsVisible] = useState(false);
-  // const [showWelcome, setShowWelcome] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
   const [doNotShowAgain, setDoNotShowAgain] = useState(false);
 
   useEffect(() => {
-    // Check localStorage on mount
+    // On mount, check localStorage and hide if dismissed
     const dismissed = localStorage.getItem(STORAGE_KEY);
-    if (dismissed !== 'true') {
-      // setShowWelcome(true);
-      // Small delay for animation
-      // setTimeout(() => setIsVisible(true), 100);
+    if (dismissed === 'true') {
+      queueMicrotask(() => {
+        setIsVisible(false);
+        setDoNotShowAgain(true);
+      });
     }
   }, []);
 
   const handleClose = () => {
-    // Save to localStorage if checkbox is checked
     if (doNotShowAgain) {
       localStorage.setItem(STORAGE_KEY, 'true');
     }
-    // Fade out animation
-    // setIsVisible(false);
-    // Remove from DOM after animation
-    // setTimeout(() => setShowWelcome(false), 300);
+    setIsVisible(false);
   };
 
-  // Don't render if dismissed
-  // if (!showWelcome) {
-  //   return null;
-  // }
+  if (!isVisible) {
+    return null;
+  }
 
   return (
     <div className="min-h-[60vh] flex items-center justify-center px-3">
@@ -62,7 +57,7 @@ export default function WelcomePage() {
               shadow-lg hover:shadow-xl
               transition-all duration-200
               flex items-center justify-center
-              group
+              group hidden
             "
           >
             <svg
@@ -167,8 +162,8 @@ export default function WelcomePage() {
                 </svg>
               </div>
 
-              {/* Do not show again checkbox */}
-              <div className="pt-6 border-t border-amber-200/30 mt-8">
+              {/* Do not show again checkbox and close button */}
+              <div className="pt-6 border-t border-amber-200/30 mt-8 flex flex-col items-center gap-4">
                 <label className="flex items-center justify-center gap-3 cursor-pointer group">
                   <input
                     type="checkbox"
@@ -187,6 +182,16 @@ export default function WelcomePage() {
                     Do not show this welcome message again
                   </span>
                 </label>
+                <button
+                  onClick={handleClose}
+                  className="px-10 py-2 rounded-full bg-white/20 text-amber-700 font-extrabold border-0 shadow-2xl shadow-amber-400/40 backdrop-blur-2xl transition-all duration-300 relative overflow-hidden group focus:outline-none focus:ring-4 focus:ring-amber-300/60 active:scale-95 mt-2"
+                  style={{ WebkitBackdropFilter: 'blur(16px)', backdropFilter: 'blur(16px)' }}
+                >
+                  <span className="absolute inset-0 rounded-full p-[2px] bg-gradient-to-r from-amber-400 via-orange-400 to-pink-400 blur-sm opacity-80 group-hover:opacity-100 animate-gradient-x" aria-hidden="true" />
+                  <span className="absolute inset-0 rounded-full bg-white/40 group-hover:bg-white/60 transition-all duration-300" aria-hidden="true" />
+                  <span className="absolute -inset-2 rounded-full bg-amber-200/30 blur-2xl opacity-0 group-hover:opacity-80 transition-all duration-500" aria-hidden="true" />
+                  <span className="relative z-10 tracking-widest drop-shadow-lg text-lg group-hover:text-amber-900 group-active:text-orange-700 transition-colors duration-200 select-none">Close</span>
+                </button>
               </div>
             </div>
           </div>

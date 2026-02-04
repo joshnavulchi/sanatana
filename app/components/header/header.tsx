@@ -15,8 +15,6 @@ import LazyImage from '../lazy-image/LazyImage';
 const LanguageDropdown = dynamic(() => import("../language-dropdown/language-dropdown"), { ssr: false });
 // Start with default-locale fallbacks so header can render synchronously
 
-import styles from './header.module.scss';
-
 // Default fallback values
 const defaultSiteTitle = 'Sanātana Dharma';
 const defaultHeader = {};
@@ -90,7 +88,7 @@ export default function Header() {
     const alignClass = align === 'center' ? 'left-1/2 -translate-x-1/2' : (align === 'right' ? 'right-0' : 'left-0');
     const style = positionLeft != null ? { left: `${positionLeft}px` } : undefined;
     return (
-      <div id={id} role="menu" aria-hidden={!open} style={style as any} className={`absolute top-full w-56 rounded bg-white shadow-md overflow-hidden transition-all duration-150 transform origin-top ${positionLeft != null ? '' : alignClass} ${visible ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-95 -translate-y-1"} ${styles.dropdownAnimate}`}>
+      <div id={id} role="menu" aria-hidden={!open} style={style as any} className={`absolute top-full w-56 rounded bg-white shadow-md overflow-hidden transition-all duration-150 transform origin-top ${positionLeft != null ? '' : alignClass} ${visible ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-95 -translate-y-1"} `}>
         {children}
       </div>
     );
@@ -164,237 +162,151 @@ export default function Header() {
   if (!translations) return null;
 
   return (
-    <header ref={headerRef} className={`${styles.header} w-full sticky top-0 z-30 shadow-md`}>
+    <header ref={headerRef} className={`w-full sticky top-0 z-30 shadow-md`}>
       {/* <BannerNotifications id="first_banner" message={translations.banner} marquee="true" />
       {/* <BannerNotifications id="second_banner" message={translations.banner2} marquee="false" showClose={true} backgroundclass="notification-alternative-background-color" /> */}
-      <div className={styles.logoTitleNavWrapper}>
-        <div className="flex items-center justify-between">
-          <div className="flex items-center">
-            <h1>
-              <Link href="/" className={`${styles.logoTitle} flex items-center no-underline gap-1 md:gap-2`}>
-                <LazyImage
-                  src="/images/logo.png"
-                  alt="Sanatanadharmam Logo"
-                  width={65}
-                  height={65}
-                  sizes="(min-width:1024px) 50px, 45px"
-                  className="md:w-[50px] md:w-[45px]"
-                />
-                <span className="text-orange-600">{translations.siteTitle}</span>
-              </Link>
-            </h1>
-          </div>
-          <nav role="menubar" aria-label="Main navigation" className="hidden items-center md:flex">
-            {(() => {
-              const entries = Object.entries(translations.header);
-              const topKeys = entries.map(([k]) => k);
-              // keys that render dropdowns on desktop (exclude simple links)
-              const dropdownKeys = entries
-                .filter(([k, v]) => typeof v !== 'string')
-                .map(([k]) => k);
-              return entries.map(([key, val]: [string, any], idx: number) => {
-                if (typeof val === "string") {
-                  const href = key === "home" ? "/" : `/${key}`;
-                  const className = key === "donate"
-                    ? ` hover: hover:theme-text-color no-underline ${isActive(href) ? " " : " "}`
-                    : `${isActive(href) ? "active" : ""}`;
-                  return (
-                    <Link role="menuitem" key={key} href={href} className={className}>
-                      {val}
-                    </Link>
-                  );
-                }
-                const title = val.title ?? key;
-                const children = val.nav ?? {};
+      <div className="w-full px-2 md:px-0 bg-white/90 shadow-md sticky top-0 z-30">
+        <div className="max-w-7xl mx-auto flex items-center justify-between py-2 px-2 md:px-6">
+          {/* Logo and Title */}
+          <Link href="/" className="flex items-center gap-2 group">
+            <LazyImage
+              src="/images/logo.png"
+              alt="Sanatanadharmam Logo"
+              width={65}
+              height={65}
+              sizes="(min-width:1024px) 50px, 45px"
+              className="md:w-[50px] md:w-[45px]"
+            />
+            <span className="font-extrabold text-2xl md:text-3xl bg-gradient-to-r from-orange-600 via-amber-700 to-yellow-600 bg-clip-text text-transparent tracking-tight drop-shadow-lg dark:bg-gradient-to-r dark:from-amber-300 dark:via-yellow-400 dark:to-orange-300">
+              {translations.siteTitle}
+            </span>
+          </Link>
+
+          {/* Desktop Nav */}
+          <nav className="hidden md:flex items-center gap-2 lg:gap-4 xl:gap-6" role="menubar" aria-label="Main navigation">
+            {Object.entries(translations.header).map(([key, val]: [string, any]) => {
+              if (typeof val === "string") {
+                const href = key === "home" ? "/" : `/${key}`;
                 return (
-                  <div
-                    role="none"
+                  <Link
                     key={key}
-                    className="relative"
-                    onMouseEnter={() => setOpenDropdown(key)}
-                    onMouseLeave={() => setOpenDropdown((s) => (s === key ? null : s))}
+                    href={href}
+                    className={
+                      `px-4 py-2 rounded-lg font-semibold text-amber-800 hover:bg-amber-100 hover:text-orange-700 transition-colors duration-150 ${isActive(href) ? "bg-orange-100 text-orange-700" : ""} dark:text-amber-100 dark:hover:bg-amber-900 dark:hover:text-yellow-300 dark:bg-gray-900 dark:active:bg-amber-800`
+                    }
                   >
-                    <button
-                      ref={(el) => { triggerRefs.current[key] = el; }}
-                      role="menuitem"
-                      className={`${styles.navPrimaryBtn} inline-flex items-center gap-1`}
-                      aria-haspopup="true"
-                      aria-expanded={openDropdown === key}
-                      aria-controls={`submenu-${key}`}
-                      onFocus={() => openDropdownForKey(key)}
-                      onKeyDown={(e) => {
-                        if (e.key === 'ArrowDown' || e.key === 'Enter' || e.key === ' ') {
-                          e.preventDefault();
-                          openDropdownForKey(key);
-                          setTimeout(() => {
-                            const arr = dropdownRefs.current[key] || [];
-                            if (arr[0]) (arr[0] as HTMLElement).focus();
-                          }, 50);
-                          return;
-                        }
-
-                        const idx = topKeys.indexOf(key);
-                        if (e.key === 'ArrowRight') {
-                          e.preventDefault();
-                          const next = topKeys[(idx + 1) % topKeys.length];
-                          triggerRefs.current[next]?.focus();
-                          return;
-                        }
-                        if (e.key === 'ArrowLeft') {
-                          e.preventDefault();
-                          const prev = topKeys[(idx - 1 + topKeys.length) % topKeys.length];
-                          triggerRefs.current[prev]?.focus();
-                          return;
-                        }
-                        if (e.key === 'Home') {
-                          e.preventDefault();
-                          triggerRefs.current[topKeys[0]]?.focus();
-                          return;
-                        }
-                        if (e.key === 'End') {
-                          e.preventDefault();
-                          triggerRefs.current[topKeys[topKeys.length - 1]]?.focus();
-                          return;
-                        }
-
-                        if (e.key === 'Escape') {
-                          setOpenDropdown(null);
-                          return;
-                        }
-                      }}
-                    >
-                      <span>{title}</span>
-                      <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                        <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.24a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.06z" clipRule="evenodd" />
-                      </svg>
-                    </button>
-
-                    {(() => {
-                      const isDropdown = typeof val !== 'string';
-                      const isLastTwo = isDropdown && dropdownKeys.indexOf(key) >= Math.max(0, dropdownKeys.length - 2);
-                      const defaultAlign = isLastTwo ? 'right' : 'left';
-                      const computedAlign = (val && val.align) ? val.align : (dropdownAligns[key] || defaultAlign);
-                      const positionLeft = dropdownPositions[key];
-                      return (
-                        <DropdownPanel open={openDropdown === key} id={`submenu-${key}`} align={computedAlign} positionLeft={positionLeft}>
-                          <ul role="list" className={`${styles.navPrimarySubmenu} flex flex-col`}>
-                            {Object.entries(children).map(([cKey, cLabel], idx) => (
-                              <li key={cKey}>
-                                <Link
-                                  href={'/' + key + '/' + cKey}
-                                  className="block"
-                                  role="menuitem"
-                                  tabIndex={0}
-                                  ref={(el: any) => {
-                                    if (!dropdownRefs.current[key]) dropdownRefs.current[key] = [];
-                                    dropdownRefs.current[key][idx] = el;
-                                  }}
-                                  onKeyDown={(e: any) => {
-                                    const arr = dropdownRefs.current[key] || [];
-                                    if (e.key === 'ArrowDown') {
-                                      e.preventDefault();
-                                      const next = arr[idx + 1] ?? arr[0];
-                                      next?.focus();
-                                    }
-                                    if (e.key === 'ArrowUp') {
-                                      e.preventDefault();
-                                      const prev = arr[idx - 1] ?? arr[arr.length - 1];
-                                      prev?.focus();
-                                    }
-                                    if (e.key === 'Escape') {
-                                      closeDropdown();
-                                      setTimeout(() => triggerRefs.current[key]?.focus(), 0);
-                                    }
-                                  }}
-                                >{cLabel as string}</Link>
-                              </li>
-                            ))}
-                          </ul>
-                        </DropdownPanel>
-                      );
-                    })()}
-
+                    {val}
+                  </Link>
+                );
+              }
+              // Dropdown nav: flatten and show all children as sub-links
+              if (typeof val === "object" && val.title && val.nav) {
+                // Unique icon per section (simple emoji, can be replaced with SVG)
+                const sectionIcons: Record<string, string> = {
+                  scriptures: "📜",
+                  philosophy: "🧘",
+                  kidszone: "🧒",
+                };
+                const icon = sectionIcons[key as string] || "✨";
+                return (
+                  <div key={key} className="relative group">
+                    <span className="px-4 py-2 rounded-lg font-semibold text-amber-800 group-hover:bg-amber-100 group-hover:text-orange-700 transition-colors duration-150 cursor-pointer select-none flex items-center gap-2 dark:text-amber-100 dark:group-hover:bg-amber-900 dark:group-hover:text-yellow-300 dark:bg-gray-900">
+                      <span className="text-lg">{icon}</span> {val.title}
+                    </span>
+                    <div className="absolute left-0 mt-2 min-w-[220px] bg-white border border-amber-200 rounded-2xl shadow-2xl opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-all duration-200 z-20 animate-fade-in-down overflow-hidden dark:bg-gray-900 dark:border-amber-700">
+                      {/* Accent bar */}
+                      <div className="h-1 w-full bg-gradient-to-r from-orange-400 via-amber-400 to-yellow-300 mb-1 dark:bg-gradient-to-r dark:from-amber-700 dark:via-yellow-600 dark:to-orange-400" />
+                      {Object.entries(val.nav).map(([subKey, subLabel], idx) => (
+                        <Link
+                          key={subKey}
+                          href={`/${key}/${subKey}`}
+                          className="flex items-center gap-3 px-5 py-2 text-amber-800 rounded transition-colors duration-150 hover:bg-orange-100 hover:text-orange-700 focus:bg-orange-200 focus:text-orange-800 dark:text-amber-100 dark:hover:bg-amber-900 dark:hover:text-yellow-300 dark:focus:bg-amber-800 dark:focus:text-yellow-200 dark:bg-gray-900"
+                          style={{ animationDelay: `${idx * 40}ms` }}
+                        >
+                          <span className="text-base">🔸</span>
+                          <span>{String(subLabel)}</span>
+                        </Link>
+                      ))}
+                    </div>
                   </div>
                 );
-              });
-            })()}
+              }
+              return null;
+            })}
             <LanguageDropdown />
-            {/* <ThemeToggle /> */}
           </nav>
 
-          <div role="menu" className="flex items-center justify-center md:hidden">
+          {/* Mobile Nav Toggle */}
+          <div className="flex items-center md:hidden gap-2">
             <LanguageDropdown />
             <button
-              role="menuitem"
-              aria-expanded={open}
-              aria-label={open ? (sharable?.closeMenu || 'Close menu') : (sharable?.openMenu || 'Open menu')}
+              aria-label="Open menu"
               onClick={() => setOpen((s) => !s)}
-              className="inline-flex ml-2 mt-3 items-center justify-center rounded"
+              className="inline-flex items-center justify-center rounded-lg p-2 hover:bg-amber-100 focus:outline-none focus:ring-2 focus:ring-amber-400"
             >
-              <svg className="h-8 w-8" fill="none" viewBox="0 0 32 32" stroke="currentColor" aria-hidden="true">
+              <svg className="h-8 w-8 text-orange-600" fill="none" viewBox="0 0 32 32" stroke="currentColor" aria-hidden="true">
                 {open ? (
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                 ) : (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8h24M4 16h24M4 24h24" />
                 )}
               </svg>
             </button>
           </div>
         </div>
-        {open && (
-          <div className={`md:hidden ${styles.mobile} border-t border-b border-white/50`}>
-            <div role="menu" className={`${styles.mobilePrimaryMenu} flex flex-col`}>
-              {(() => {
-                const mobileNav = (translations.nav ?? translations.header) as Record<string, any> | undefined;
-                if (!mobileNav) return null;
-                return Object.entries(mobileNav).map(([key, val]: [string, any]) => {
-                  if (key === 'home') return null;
-                  if (key === 'contact') return null;
-                  if (key === 'about') return null;
-                  if (key === 'donate') return null;
+
+          {/* Mobile Drawer */}
+          {open && (
+            <div className="md:hidden bg-white/95 border-t border-b border-amber-100 shadow-lg animate-fade-in-down">
+              <div className="flex flex-col gap-2 py-4 px-4">
+                {Object.entries(translations.header).map(([key, val]: [string, any]) => {
                   if (typeof val === "string") {
                     const href = key === "home" ? "/" : `/${key}`;
                     return (
-                      <Link key={key} href={href} className={`${isActive(href) ? "active" : ""}`}>{val}</Link>
+                      <Link
+                        key={key}
+                        href={href}
+                        className={
+                          `block px-4 py-2 rounded-lg font-semibold text-amber-800 hover:bg-amber-100 hover:text-orange-700 transition-colors duration-150 ${isActive(href) ? "bg-orange-100 text-orange-700" : ""}`
+                        }
+                        onClick={() => setOpen(false)}
+                      >
+                        {val}
+                      </Link>
                     );
                   }
-
-                  const title = val.title ?? key;
-                  const children = val.nav ?? null;
-
-                  if (!children) {
-                    const href = `/${key}`;
-                    return <Link key={key} href={href} className={`${isActive(href) ? "active" : ""}`}>{title}</Link>;
+                  // Dropdown nav: flatten and show all children as sub-links
+                  if (typeof val === "object" && val.title && val.nav) {
+                    const sectionIcons: Record<string, string> = {
+                      scriptures: "📜",
+                      philosophy: "🧘",
+                      kidszone: "🧒",
+                    };
+                    const icon = sectionIcons[key as string] || "✨";
+                    return (
+                      <div key={key} className="flex flex-col border-l-4 border-orange-300 pl-2 mb-2">
+                        <span className="px-4 py-2 rounded-lg font-semibold text-amber-800 bg-amber-50 mb-1 select-none flex items-center gap-2 dark:text-amber-100 dark:bg-gray-900">
+                          <span className="text-lg">{icon}</span> {val.title}
+                        </span>
+                        {Object.entries(val.nav).map(([subKey, subLabel]) => (
+                          <Link
+                            key={subKey}
+                            href={`/${key}/${subKey}`}
+                            className="flex items-center gap-2 px-7 py-2 text-amber-700 rounded transition-colors duration-150 hover:bg-orange-100 hover:text-orange-700 focus:bg-orange-200 focus:text-orange-800 dark:text-amber-100 dark:hover:bg-amber-900 dark:hover:text-yellow-300 dark:focus:bg-amber-800 dark:focus:text-yellow-200 dark:bg-gray-900"
+                            onClick={() => setOpen(false)}
+                          >
+                            <span className="text-base">🔸</span>
+                            <span>{String(subLabel)}</span>
+                          </Link>
+                        ))}
+                      </div>
+                    );
                   }
-
-                  const expanded = !!expandedKeys[key];
-                  return (
-                    <div role="none" key={key} className="flex flex-col gap-2">
-                      <button
-                        onClick={() => setExpandedKeys((s) => ({ ...s, [key]: !s[key] }))}
-                        role="menuitem"
-                        className={`${styles.navPrimaryBtn} flex items-center justify-between w-full font-semibold`}
-                        aria-expanded={expanded}
-                      >
-                        <span>{title}</span>
-                        <svg className={`h-4 w-4 transform ${expanded ? "rotate-180" : "rotate-0"}`} viewBox="0 0 20 20" fill="currentColor">
-                          <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.24a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.06z" clipRule="evenodd" />
-                        </svg>
-                      </button>
-                      {expanded && (
-                        <div className={`flex flex-col gap-2 ${styles.mobilePrimarySubmenu} overflow-hidden accordion-transition ${expanded ? "max-h-96" : "max-h-0"}`}>
-                          {Object.entries(children).map(([cKey, cLabel]) => (
-                            <Link key={cKey} href={'/' + key + '/' + cKey} className={`${isActive('/' + key + '/' + cKey) ? "active" : ""}`}>{cLabel as string}</Link>
-                          ))}
-                        </div>
-                      )}
-                    </div>
-                  );
-                })
-              })()}
+                  return null;
+                })}
+              </div>
             </div>
-          </div>
-        )}
+          )}
       </div>
     </header>
   );

@@ -63,7 +63,7 @@ export default function AboutClient() {
 
       <div id="about-content">
         {/* Hero intro section */}
-        <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 dark:from-amber-950/30 dark:via-orange-950/30 dark:to-amber-950/30 rounded-2xl overflow-hidden">
+        <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 dark:from-gray-900 dark:via-amber-950/30 dark:to-gray-900 rounded-2xl overflow-hidden dark:text-amber-100">
           {/* Decorative elements */}
           <div className="absolute top-0 right-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl" />
           <div className="absolute bottom-0 left-0 w-80 h-80 bg-orange-400/10 rounded-full blur-3xl" />
@@ -76,7 +76,7 @@ export default function AboutClient() {
               <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-500" />
             </div>
 
-            <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
+            <p className="text-lg md:text-xl text-gray-700 dark:text-amber-100 leading-relaxed">
               {about.intro}
             </p>
           </div>
@@ -96,7 +96,7 @@ export default function AboutClient() {
               key={section.id || index}
               className="
                 relative
-                bg-white dark:bg-gray-800
+                bg-white dark:bg-gray-900
                 border-2 border-amber-100 dark:border-amber-900/30
                 rounded-2xl
                 p-6 md:p-8
@@ -105,6 +105,7 @@ export default function AboutClient() {
                 transition-all duration-500
                 group
                 overflow-hidden
+                dark:text-amber-100
               "
             >
               {/* Decorative corner accent */}
@@ -134,7 +135,7 @@ export default function AboutClient() {
                     flex-1
                     text-2xl md:text-3xl
                     font-bold
-                    text-gray-900 dark:text-white
+                    text-gray-900 dark:text-amber-100
                     group-hover:text-amber-600 dark:group-hover:text-amber-400
                     transition-colors duration-300
                   ">
@@ -144,7 +145,7 @@ export default function AboutClient() {
 
                 {/* Section text */}
                 {section?.text && (
-                  <p className="text-base md:text-lg text-gray-700 dark:text-gray-300 leading-relaxed pl-16">
+                  <p className="text-base md:text-lg text-gray-700 dark:text-amber-100 leading-relaxed pl-16">
                     {section.text}
                   </p>
                 )}
@@ -158,7 +159,7 @@ export default function AboutClient() {
                         className="
                           relative
                           flex items-start gap-3
-                          text-gray-700 dark:text-gray-300
+                          text-gray-700 dark:text-amber-100
                           leading-relaxed
                         "
                       >
@@ -184,18 +185,19 @@ export default function AboutClient() {
           <div className="
             relative
             bg-gradient-to-br from-amber-50 to-orange-50
-            dark:from-amber-950/30 dark:to-orange-950/30
+            dark:from-gray-900 dark:to-gray-900
             border-l-4 border-amber-500
             rounded-lg
             p-6 md:p-8
             mt-12
             shadow-lg
+            dark:text-amber-100
           ">
             <div className="flex items-start gap-4">
               <span className="text-3xl">⚠️</span>
               <div className="flex-1">
-                <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Disclaimer</h4>
-                <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                <h4 className="text-xl font-bold text-gray-900 dark:text-amber-100 mb-2">Disclaimer</h4>
+                <p className="text-gray-700 dark:text-amber-100 leading-relaxed">
                   {about.disclaimer}
                 </p>
               </div>
