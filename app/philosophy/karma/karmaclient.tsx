@@ -91,7 +91,7 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
       {/* Conversation header */}
       <div className="flex items-center justify-center gap-3 mb-8">
         <div className="h-px w-16 bg-gradient-to-r from-transparent to-amber-400" />
-        <span className="text-xl text-amber-600 dark:text-amber-400 font-semibold">💬 Conversation</span>
+        <span className="text-xl text-amber-800 dark:text-amber-200 font-semibold">💬 Conversation</span>
         <div className="h-px w-16 bg-gradient-to-l from-transparent to-amber-400" />
       </div>
 

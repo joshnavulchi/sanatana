@@ -105,11 +105,11 @@ const Region = ({ title, data }: { title: string; data?: RegionData }) => {
               <div className="space-y-2 text-sm">
                 {ruler.dynasty && (
                   <p className="text-gray-700 dark:text-gray-300">
-                    <strong className="text-amber-600 dark:text-amber-400">Dynasty:</strong> {ruler.dynasty}
+                    <strong className="text-amber-800 dark:text-amber-200">Dynasty:</strong> {ruler.dynasty}
                   </p>
                 )}
                 <p className="text-gray-700 dark:text-gray-300">
-                  <strong className="text-amber-600 dark:text-amber-400">Reign:</strong> {ruler.reign}
+                  <strong className="text-amber-800 dark:text-amber-200">Reign:</strong> {ruler.reign}
                 </p>
                 {ruler.notes && (
                   <p className="text-gray-600 dark:text-gray-400 italic mt-3 pt-3 border-t border-gray-200 dark:border-gray-700">
@@ -243,14 +243,14 @@ export default function HistoricalTimeline() {
                           <span className="text-2xl">📅</span>
                           <div className="flex-1">
                             <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-1">{item.term}</h4>
-                            <p className="text-sm text-amber-600 dark:text-amber-400 font-semibold">{item.fullForm}</p>
+                            <p className="text-sm text-amber-800 dark:text-amber-200 font-semibold">{item.fullForm}</p>
                           </div>
                         </div>
                         
                         <div className="space-y-2 text-sm">
-                          <p className="text-gray-700 dark:text-gray-300"><strong className="text-amber-600 dark:text-amber-400">Time Period:</strong> {item.timePeriod}</p>
-                          <p className="text-gray-700 dark:text-gray-300"><strong className="text-amber-600 dark:text-amber-400">Counting Direction:</strong> {item.countingDirection}</p>
-                          <p className="text-gray-700 dark:text-gray-300"><strong className="text-amber-600 dark:text-amber-400">Equivalent To:</strong> {item.equivalentTo}</p>
+                          <p className="text-gray-700 dark:text-gray-300"><strong className="text-amber-800 dark:text-amber-200">Time Period:</strong> {item.timePeriod}</p>
+                          <p className="text-gray-700 dark:text-gray-300"><strong className="text-amber-800 dark:text-amber-200">Counting Direction:</strong> {item.countingDirection}</p>
+                          <p className="text-gray-700 dark:text-gray-300"><strong className="text-amber-800 dark:text-amber-200">Equivalent To:</strong> {item.equivalentTo}</p>
                           {item.examples && (
                             <div className="mt-3 pt-3 border-t border-gray-200 dark:border-gray-700">
                               <strong className="text-gray-900 dark:text-white">Examples:</strong>

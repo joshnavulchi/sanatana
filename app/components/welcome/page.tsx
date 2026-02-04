@@ -61,7 +61,7 @@ export default function WelcomePage() {
             "
           >
             <svg
-              className="w-5 h-5 text-amber-600 group-hover:text-amber-700 transition-colors"
+              className="w-5 h-5 text-amber-800 group-hover:text-amber-700 transition-colors"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -92,7 +92,7 @@ export default function WelcomePage() {
               <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-                    <circle cx="20" cy="20" r="1" fill="currentColor" className="text-amber-600" />
+                    <circle cx="20" cy="20" r="1" fill="currentColor" className="text-amber-800" />
                   </pattern>
                 </defs>
                 <rect width="100%" height="100%" fill="url(#grid)" />
@@ -104,7 +104,7 @@ export default function WelcomePage() {
               {/* Greeting with Om symbol */}
               <div className="flex items-center justify-center gap-4 mb-6">
                 <div className="h-px w-12 bg-gradient-to-r from-transparent to-amber-400" />
-                <span className="text-5xl font-serif text-amber-600 animate-pulse">ॐ</span>
+                <span className="text-5xl font-serif text-amber-800 animate-pulse">ॐ</span>
                 <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-400" />
               </div>
 
@@ -172,7 +172,7 @@ export default function WelcomePage() {
                     className="
                       w-5 h-5 
                       rounded border-2 border-amber-400 
-                      text-amber-600 
+                      text-amber-800 
                       focus:ring-2 focus:ring-amber-500 focus:ring-offset-2
                       cursor-pointer
                       transition-all
