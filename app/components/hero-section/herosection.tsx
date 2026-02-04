@@ -66,7 +66,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
       <div className="absolute bottom-20 left-10 w-40 h-40 bg-orange-500/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }} />
 
       {/* Content Container */}
-      <div className="relative z-10 md:mx-auto md:max-w-6xl flex items-center">
+      <div className="relative z-8 md:mx-auto md:max-w-6xl flex items-center">
         <div className="w-full flex flex-col md:flex-row items-center py-16 md:py-32 md:gap-12">
           {/* Left Content */}
           <div className={`hidden md:flex items-center justify-center transition-all duration-1000 ease-out delay-300 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>

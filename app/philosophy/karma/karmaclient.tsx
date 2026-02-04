@@ -23,8 +23,8 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
           <LazyImage
             src="/images/philosophy-karma.png"
             alt="philosophy karma"
-            width={900}
-            height={150}
+            width={1000}
+            height={100}
             className="w-full h-auto transform group-hover:scale-105 transition-transform duration-700"
           />
           {/* Decorative border */}
@@ -51,7 +51,7 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
             >
               {/* Decorative corner accent */}
               <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-bl from-amber-400/10 to-transparent rounded-tr-lg rounded-bl-full" />
-              
+
               {/* Content */}
               <p className="
                 text-gray-700 dark:text-gray-300
@@ -98,8 +98,8 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
       {convo.map((item: any, idx: number) => {
         const isEven = idx % 2 === 0; // even -> left, odd -> right
         return (
-          <div 
-            key={idx} 
+          <div
+            key={idx}
             className={`
               flex
               ${isEven ? 'justify-start' : 'justify-end'}
@@ -117,8 +117,8 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
                   inline-flex items-center gap-2
                   mb-2
                   px-4 py-2
-                  ${isEven 
-                    ? 'bg-gradient-to-r from-blue-500 to-blue-600 text-white' 
+                  ${isEven
+                    ? 'bg-gradient-to-r from-blue-500 to-blue-600 text-white'
                     : 'bg-gradient-to-r from-amber-500 to-orange-600 text-white'
                   }
                   rounded-full
@@ -130,7 +130,7 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
                   <span>{item.speaker}</span>
                 </div>
               )}
-              
+
               {/* Message Bubble */}
               {item.message && (
                 <div className={`
@@ -138,8 +138,8 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
                   p-5 md:p-6
                   rounded-2xl
                   shadow-xl
-                  ${isEven 
-                    ? 'bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/30 dark:to-blue-800/30 border-2 border-blue-200 dark:border-blue-700 rounded-tl-none' 
+                  ${isEven
+                    ? 'bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/30 dark:to-blue-800/30 border-2 border-blue-200 dark:border-blue-700 rounded-tl-none'
                     : 'bg-gradient-to-br from-amber-50 to-orange-100 dark:from-amber-900/30 dark:to-orange-800/30 border-2 border-amber-200 dark:border-amber-700 rounded-tr-none'
                   }
                   backdrop-blur-sm

@@ -31,7 +31,7 @@ export default function Page({ searchParams }: any) {
         metaKey="philosophy_satya"
         title={title}
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Satya' }]}
-        className={`layout-sm`}
+        className={`layout-md`}
       >
         <p><strong>Definition : </strong>{definition.length ? definition.map((s: string, i: number) => (<span key={i}>{s}{i < definition.length - 1 ? ', ' : ''}</span>)) : <span>{String(__getLoc('philosophy_satya.noDefinition'))}</span>}</p>
         {/* Categories of Satya */}

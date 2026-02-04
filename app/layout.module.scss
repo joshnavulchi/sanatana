@@ -15,38 +15,12 @@
   max-width: var(--content-width-md);
   padding: var(--space-xl) var(--space-md) var(--space-2xl);
 }
-.cards {
-  flex-wrap: wrap;
-}
-.card {
-  padding: var(--space-lg);
-  &.no-padding {
-    padding: 0;
-  }
-  .card-details {
-    padding: var(--space-md);
-    p {
-      margin-bottom: 0;
-    }
-    small {
-      color: var(--color-white);
-    }
-  }
-}
 @media (min-width: 1024px) {
   .content-wrapper {
     margin: 0 auto;
     max-width: var(--content-width-default);
     padding-top: var(--space-3xl);
     padding-bottom: var(--space-3xl);
-  }
-  .cards {
-    flex-wrap: inherit;
-  }
-  .card {
-    margin-top: var(--space-xl);
-    margin-bottom: var(--space-xl);
-    padding: var(--space-md);
   }
 }
 @media (min-width: 1600px) {

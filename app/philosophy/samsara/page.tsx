@@ -37,7 +37,7 @@ export default function Page({ searchParams }: any) {
         metaKey="philosophy_samsara"
         title={page.title}
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
-        className={`layout-sm`}
+        className={`layout-md`}
       >
         <p><strong>Definition : </strong>{page.definition}</p>
         {/* Core Principles of Samsara */}

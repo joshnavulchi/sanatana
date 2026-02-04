@@ -166,7 +166,7 @@ export default function Header() {
       {/* <BannerNotifications id="first_banner" message={translations.banner} marquee="true" />
       {/* <BannerNotifications id="second_banner" message={translations.banner2} marquee="false" showClose={true} backgroundclass="notification-alternative-background-color" /> */}
       <div className="w-full px-2 md:px-0 bg-white/90 shadow-md sticky top-0 z-30">
-        <div className="max-w-7xl mx-auto flex items-center justify-between py-2 px-2 md:px-6">
+        <div className="max-w-7xl mx-auto flex items-center justify-between p-1">
           {/* Logo and Title */}
           <Link href="/" className="flex items-center gap-2 group">
             <LazyImage
@@ -175,15 +175,15 @@ export default function Header() {
               width={65}
               height={65}
               sizes="(min-width:1024px) 50px, 45px"
-              className="md:w-[50px] md:w-[45px]"
+              className="hidden md:flex md:w-[50px] md:w-[45px]"
             />
-            <span className="font-extrabold text-2xl md:text-3xl bg-gradient-to-r from-orange-600 via-amber-700 to-yellow-600 bg-clip-text text-transparent tracking-tight drop-shadow-lg dark:bg-gradient-to-r dark:from-amber-300 dark:via-yellow-400 dark:to-orange-300">
+            <span className="font-extrabold text-3xl md:text-4xl bg-gradient-to-r from-orange-600 via-amber-700 to-yellow-600 bg-clip-text text-transparent tracking-tight drop-shadow-lg dark:bg-gradient-to-r dark:from-amber-300 dark:via-yellow-400 dark:to-orange-300">
               {translations.siteTitle}
             </span>
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex items-center gap-2 lg:gap-4 xl:gap-6" role="menubar" aria-label="Main navigation">
+          <nav className="hidden md:flex items-center gap-2" role="menubar" aria-label="Main navigation">
             {Object.entries(translations.header).map(([key, val]: [string, any]) => {
               if (typeof val === "string") {
                 const href = key === "home" ? "/" : `/${key}`;
@@ -191,10 +191,7 @@ export default function Header() {
                   <Link
                     key={key}
                     href={href}
-                    className={
-                      `px-4 py-2 rounded-lg font-semibold text-amber-800 hover:bg-amber-100 hover:text-orange-700 transition-colors duration-150 ${isActive(href) ? "bg-orange-100 text-orange-700" : ""} dark:text-amber-100 dark:hover:bg-amber-900 dark:hover:text-yellow-300 dark:bg-gray-900 dark:active:bg-amber-800`
-                    }
-                  >
+                    className={`px-4 py-2 rounded-lg font-semibold text-amber-800 hover:bg-amber-100 hover:text-orange-700 transition-colors duration-150 ${isActive(href) ? "bg-orange-100 text-orange-700" : ""} dark:text-amber-100 dark:hover:bg-amber-900 dark:hover:text-yellow-300 dark:bg-gray-900 dark:active:bg-amber-800`}>
                     {val}
                   </Link>
                 );
@@ -210,12 +207,12 @@ export default function Header() {
                 const icon = sectionIcons[key as string] || "✨";
                 return (
                   <div key={key} className="relative group">
-                    <span className="px-4 py-2 rounded-lg font-semibold text-amber-800 group-hover:bg-amber-100 group-hover:text-orange-700 transition-colors duration-150 cursor-pointer select-none flex items-center gap-2 dark:text-amber-100 dark:group-hover:bg-amber-900 dark:group-hover:text-yellow-300 dark:bg-gray-900">
+                    <span className="px-3 py-2 rounded-lg font-semibold text-amber-800 group-hover:bg-amber-100 group-hover:text-orange-700 transition-colors duration-150 cursor-pointer select-none flex items-center gap-1 dark:text-amber-100 dark:group-hover:bg-amber-900 dark:group-hover:text-yellow-300 dark:bg-gray-900">
                       <span className="text-lg">{icon}</span> {val.title}
                     </span>
-                    <div className="absolute left-0 mt-2 min-w-[220px] bg-white border border-amber-200 rounded-2xl shadow-2xl opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-all duration-200 z-20 animate-fade-in-down overflow-hidden dark:bg-gray-900 dark:border-amber-700">
+                    <div className="absolute left-0 pt-2 min-w-[220px] bg-white border border-amber-200 rounded-2xl shadow-2xl opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-all duration-200 z-20 animate-fade-in-down overflow-hidden dark:bg-gray-900 dark:border-amber-700">
                       {/* Accent bar */}
-                      <div className="h-1 w-full bg-gradient-to-r from-orange-400 via-amber-400 to-yellow-300 mb-1 dark:bg-gradient-to-r dark:from-amber-700 dark:via-yellow-600 dark:to-orange-400" />
+                      <div className="h-1 w-full bg-gradient-to-r from-orange-400 via-amber-400 to-yellow-300 dark:bg-gradient-to-r dark:from-amber-700 dark:via-yellow-600 dark:to-orange-400" />
                       {Object.entries(val.nav).map(([subKey, subLabel], idx) => (
                         <Link
                           key={subKey}
@@ -255,58 +252,58 @@ export default function Header() {
           </div>
         </div>
 
-          {/* Mobile Drawer */}
-          {open && (
-            <div className="md:hidden bg-white/95 border-t border-b border-amber-100 shadow-lg animate-fade-in-down">
-              <div className="flex flex-col gap-2 py-4 px-4">
-                {Object.entries(translations.header).map(([key, val]: [string, any]) => {
-                  if (typeof val === "string") {
-                    const href = key === "home" ? "/" : `/${key}`;
-                    return (
-                      <Link
-                        key={key}
-                        href={href}
-                        className={
-                          `block px-4 py-2 rounded-lg font-semibold text-amber-800 hover:bg-amber-100 hover:text-orange-700 transition-colors duration-150 ${isActive(href) ? "bg-orange-100 text-orange-700" : ""}`
-                        }
-                        onClick={() => setOpen(false)}
-                      >
-                        {val}
-                      </Link>
-                    );
-                  }
-                  // Dropdown nav: flatten and show all children as sub-links
-                  if (typeof val === "object" && val.title && val.nav) {
-                    const sectionIcons: Record<string, string> = {
-                      scriptures: "📜",
-                      philosophy: "🧘",
-                      kidszone: "🧒",
-                    };
-                    const icon = sectionIcons[key as string] || "✨";
-                    return (
-                      <div key={key} className="flex flex-col border-l-4 border-orange-300 pl-2 mb-2">
-                        <span className="px-4 py-2 rounded-lg font-semibold text-amber-800 bg-amber-50 mb-1 select-none flex items-center gap-2 dark:text-amber-100 dark:bg-gray-900">
-                          <span className="text-lg">{icon}</span> {val.title}
-                        </span>
-                        {Object.entries(val.nav).map(([subKey, subLabel]) => (
-                          <Link
-                            key={subKey}
-                            href={`/${key}/${subKey}`}
-                            className="flex items-center gap-2 px-7 py-2 text-amber-700 rounded transition-colors duration-150 hover:bg-orange-100 hover:text-orange-700 focus:bg-orange-200 focus:text-orange-800 dark:text-amber-100 dark:hover:bg-amber-900 dark:hover:text-yellow-300 dark:focus:bg-amber-800 dark:focus:text-yellow-200 dark:bg-gray-900"
-                            onClick={() => setOpen(false)}
-                          >
-                            <span className="text-base">🔸</span>
-                            <span>{String(subLabel)}</span>
-                          </Link>
-                        ))}
-                      </div>
-                    );
-                  }
-                  return null;
-                })}
-              </div>
+        {/* Mobile Drawer */}
+        {open && (
+          <div className="md:hidden relative z-50 bg-white/95 border-t border-b border-amber-100 shadow-lg animate-fade-in-down">
+            <div className="flex flex-col gap-2 py-4 px-4">
+              {Object.entries(translations.header).map(([key, val]: [string, any]) => {
+                if (typeof val === "string") {
+                  const href = key === "home" ? "/" : `/${key}`;
+                  return (
+                    <Link
+                      key={key}
+                      href={href}
+                      className={
+                        `block px-4 py-2 rounded-lg font-semibold text-amber-800 hover:bg-amber-100 hover:text-orange-700 transition-colors duration-150 ${isActive(href) ? "bg-orange-100 text-orange-700" : ""}`
+                      }
+                      onClick={() => setOpen(false)}
+                    >
+                      {val}
+                    </Link>
+                  );
+                }
+                // Dropdown nav: flatten and show all children as sub-links
+                if (typeof val === "object" && val.title && val.nav) {
+                  const sectionIcons: Record<string, string> = {
+                    scriptures: "📜",
+                    philosophy: "🧘",
+                    kidszone: "🧒",
+                  };
+                  const icon = sectionIcons[key as string] || "✨";
+                  return (
+                    <div key={key} className="flex flex-col border-l-4 border-orange-300 pl-2 mb-2">
+                      <span className="px-4 py-2 rounded-lg font-semibold text-amber-800 bg-amber-50 mb-1 select-none flex items-center gap-2 dark:text-amber-100 dark:bg-gray-900">
+                        <span className="text-lg">{icon}</span> {val.title}
+                      </span>
+                      {Object.entries(val.nav).map(([subKey, subLabel]) => (
+                        <Link
+                          key={subKey}
+                          href={`/${key}/${subKey}`}
+                          className="flex items-center gap-2 px-7 py-2 text-amber-700 rounded transition-colors duration-150 hover:bg-orange-100 hover:text-orange-700 focus:bg-orange-200 focus:text-orange-800 dark:text-amber-100 dark:hover:bg-amber-900 dark:hover:text-yellow-300 dark:focus:bg-amber-800 dark:focus:text-yellow-200 dark:bg-gray-900"
+                          onClick={() => setOpen(false)}
+                        >
+                          <span className="text-base">🔸</span>
+                          <span>{String(subLabel)}</span>
+                        </Link>
+                      ))}
+                    </div>
+                  );
+                }
+                return null;
+              })}
             </div>
-          )}
+          </div>
+        )}
       </div>
     </header>
   );
