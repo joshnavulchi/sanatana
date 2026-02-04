@@ -94,14 +94,14 @@ export default async function RootLayout({
                 var l=document.createElement('link');
                 l.rel='preload';
                 l.as='style';
-                l.href='/globals.from-scss.css';
+                l.href='/globals.from-scss.0cd5754d.0cd5754d.css';
                 l.onload=function(){this.onload=null;this.rel='stylesheet'};
                 document.head.appendChild(l);
               })();
             `
           }}
         />
-        <noscript><link rel="stylesheet" href="/globals.from-scss.css" /></noscript>
+        <noscript><link rel="stylesheet" href="/globals.from-scss.0cd5754d.0cd5754d.css" /></noscript>
         {/* JSON-LD structured data for Website/Organization */}
         <meta name="google-site-verification" content="kxWcUTvXW7Ag5H1jtSxNuYUoKcWm-sq0on2s-h5ILF8" />
         {/* Organization & WebSite JSON-LD - defer non-critical structured data */}
