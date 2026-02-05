@@ -2,7 +2,7 @@
 "use client";
 
 import { createContext, useContext, useEffect, useState } from 'react';
-import { DEFAULT_LOCALE, SUPPORTED_LOCALES, loadLocale } from '../../lib/i18n';
+import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '../../lib/i18n';
 import storage from '../../lib/storage';
 import { useSearchParams, useRouter } from 'next/navigation';
 
@@ -41,11 +41,7 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
       console.debug('[LocaleProvider] applyLocale start', lang);
       setIsLoading(true);
 
-      try {
-        await loadLocale(lang);
-      } catch (e) {
-        console.error('[LocaleProvider] Failed to load locale:', e);
-      }
+      // Locale loading is now handled by useLocaleSection/context
       console.debug('[LocaleProvider] applyLocale loaded', lang);
 
       // Update React state so client components re-render with the new locale
@@ -106,15 +102,7 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
   // Ensure the locale JSON is loaded into the client cache so
   // client components using `t(..., locale)` or `useT()` can
   // synchronously read translations after the async load completes.
-  useEffect(() => {
-    if (!locale) return;
-    // fire-and-forget; caching happens inside `loadLocale`.
-    try {
-      loadLocale(locale).catch(() => { });
-    } catch (e) {
-      // ignore
-    }
-  }, [locale]);
+  // Locale loading is now handled by useLocaleSection/context
 
   if (!isClient) {
     return <>{children}</>;

@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState, useMemo } from 'react';
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 import { useLanguagePersistence } from '../../hooks/useLanguagePersistence';
-import { DEFAULT_LOCALE, loadLocale } from '../../../lib/i18n';
+import { DEFAULT_LOCALE } from '../../../lib/i18n';
 import useLocaleSection from '../../hooks/useLocaleSection';
 import { useLocale } from '../../context/locale-context';
 // Use plain <img> for small globe icon to avoid next/image intermittent issues
@@ -84,18 +84,10 @@ export default function LanguageDropdown() {
   }, [open]);
 
   const handleLanguageChange = async (langCode: string) => {
-    // ensure locale is loaded in client cache before switching
-    try {
-      await loadLocale(langCode);
-    } catch (e) {
-      // ignore preload errors
-    }
     setCurrentLang(langCode);
     setOpen(false);
-
     // Save to localStorage
     saveLanguage(langCode);
-
     // Also set a cookie so server-side rendering can pick up the new language
     try {
       // 1 year
@@ -282,7 +274,6 @@ export default function LanguageDropdown() {
                       role="menuitem"
                       onMouseEnter={() => {
                         setHighlighted(idx);
-                        try { loadLocale(lang.code); } catch (e) { /* ignore */ }
                       }}
                       onClick={() => handleLanguageChange(lang.code)}
                       className={`

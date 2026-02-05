@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useMemo, useState } from 'react';
-import { detectLocale, DEFAULT_LOCALE } from '../../../lib/i18n';
+import { DEFAULT_LOCALE } from '../../../lib/i18n';
+import { useLocale } from '../../context/locale-context';
 import useLocaleSection from '../../hooks/useLocaleSection';
 
 type Options = { A: string; B: string; C: string; D: string };
@@ -16,6 +17,7 @@ function sampleIndices(total: number, count: number): number[] {
 }
 
 export default function QuizClient() {
+  const { locale } = useLocale();
   const ns = useLocaleSection('quiz');
   const [questionsPool, setQuestionsPool] = useState<Question[] | null>(null);
   const [selectedIdx, setSelectedIdx] = useState<number[]>([]);
@@ -101,7 +103,7 @@ export default function QuizClient() {
     return `${m}:${s}`;
   }
 
-  const loc = detectLocale() || DEFAULT_LOCALE;
+  const loc = locale || DEFAULT_LOCALE;
   if (!questionsPool) return <div>{ns?.loading || 'Loading...'}</div>;
   if (qList.length === 0) return <div>{ns?.preparing || 'Preparing quiz...'}</div>;
 

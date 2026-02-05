@@ -1,5 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import PageLayout from '@/app/components/common/PageLayout';
+import styles from '../../styles.module.scss';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import { parseList } from 'lib/parseList';
 import { t, detectLocale, getMeta, getLocaleNamespaceObject } from '../../../lib/i18n';
@@ -37,7 +38,7 @@ export default function Page({ searchParams }: any) {
         metaKey="scriptures_vedas"
         title={page.title}
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Vedas' }]}
-        className="layout-sm"
+        className={styles.layoutSm}
       >
         <p>{page.intro}</p>
         <div>

@@ -1,7 +1,8 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import PageLayout from '@/app/components/common/PageLayout';
-import { t, detectLocale, getLocaleNamespaceObject, getMeta } from '../../../lib/i18n';
-import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
+import { t, getLocaleNamespaceObject, getMeta } from '../../../lib/i18n';
+import { createGenerateMetadata } from '../../../lib/pageUtils';
+import { useLocale } from '@/app/context/locale-context';
 
 export const generateMetadata = createGenerateMetadata('philosophy_moksha');
 
@@ -15,8 +16,8 @@ const __getLoc = (p: string) => {
   return cur;
 };
 
-export default function Page({ searchParams }: any) {
-  const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
+export default function Page() {
+  const { locale } = useLocale();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
     const k: any = getMeta('philosophy_moksha', {}, locale) || {};

@@ -2,7 +2,6 @@
 import { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '@/app/context/locale-context';
-import { loadLocale } from 'lib/i18n';
 import useLocaleSection from '../../hooks/useLocaleSection';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
 import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
@@ -189,7 +188,7 @@ export default function KrishnaExplainsFiveKarmasClient() {
     let mounted = true;
     (async () => {
       try {
-        await loadLocale(locale).catch(() => { });
+        // Locale loading is now handled by context/useLocaleSection
       } catch (e) { }
       if (!mounted) return;
       const title = String(ns?.title || '');

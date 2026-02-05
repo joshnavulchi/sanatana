@@ -1,4 +1,30 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+.gradient-background {
+  background-image: radial-gradient(circle farthest-corner at 90% 0%,
+  var(--color-yellow),
+  var(--color-red) 18%,
+  var(--color-orange) 46%,
+  var(--color-violet) 87%,
+  var(--color-blue));
+}
+.content-wrapper {
+  padding: var(--space-2xl) var(--space-md);
+}
+.layoutSm {
+  margin: 0 auto;
+  max-width: var(--content-width-sm);
+  padding: var(--space-xl) var(--space-md);
+}
+.layoutMd {
+  margin: 0 auto;
+  max-width: var(--content-width-md);
+  padding: var(--space-xl) var(--space-md) var(--space-2xl);
+}
+.categoriesGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 16;
+}
 .multi-text-color {
   font-size: 1.8rem;
   font-weight: 600;
@@ -13,27 +39,6 @@
   }
   span:last-child {
     color: var(--color-blue);
-  }
-}
-@media (min-width: 1024px) {
-  .border-gradient-vertical {
-    border-right: 4px;
-    border-style: solid;
-    border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%;
-  }
-}
-
-@media (min-width: 1024px) {
-  .footer {
-    .navWrapper,
-    .disclaimer,
-    .copyrights {
-      margin: 0 auto;
-      max-width: var(--content-width-default);
-    }
-    .copyrights a {
-      font-size: 0.75rem;
-    }
   }
 }
 .categoryCard {
@@ -93,7 +98,6 @@
     }
   }
 }
-
 .textToSpeech {
   display: inline-flex;
   align-items: center;
@@ -193,3 +197,22 @@
     display: block;
   }
 }
+@media (min-width: 1024px) {
+  .border-gradient-vertical {
+    border-right: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%;
+  }
+  .footer {
+    .navWrapper,
+    .disclaimer,
+    .copyrights {
+      margin: 0 auto;
+      max-width: var(--content-width-default);
+    }
+    .copyrights a {
+      font-size: 0.75rem;
+    }
+  }
+}
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

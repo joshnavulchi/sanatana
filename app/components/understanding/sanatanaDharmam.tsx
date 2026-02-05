@@ -59,7 +59,7 @@ export default function UnderstandingOfSanatana() {
         {sections.map((section, sectionIndex) => (
           <div
             key={section.id}
-            className={`mb-12 last:mb-0 transition-all duration-1000 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+            className={`mx-auto max-w-7xl mb-12 last:mb-0 transition-all duration-1000 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
               }`}
             style={{ transitionDelay: `${sectionIndex * 150}ms` }}
           >

@@ -10,7 +10,8 @@ const __getLoc = (p: string) => {
   return cur;
 };
 
-import { t, detectLocale, getMeta } from '../../../../lib/i18n';
+import { t, getMeta } from '../../../../lib/i18n';
+import { useLocale } from '@/app/context/locale-context';
 
 import { createGenerateMetadata } from 'lib/pageUtils';
 
@@ -18,11 +19,8 @@ import PageLayout from '@/app/components/common/PageLayout';
 
 
 export const generateMetadata = createGenerateMetadata('scriptures_vedas_yajurveda');
-export default function YajurvedaPage() {
-  const locale = detectLocale();
-
+  const { locale } = useLocale();
   const S = (k: string) => String(t(k, locale));
-
   const page: any = (() => {
     const k: any = getMeta('scriptures_vedas_yajurveda', {}, locale) || {};
     return {

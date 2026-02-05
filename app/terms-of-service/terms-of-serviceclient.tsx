@@ -1,8 +1,8 @@
+import styles from '@app/styles.module.scss';
 "use client";
 import React, { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
-import { loadLocale } from 'lib/i18n';
 import useLocaleSection from '../hooks/useLocaleSection';
 import Loader from '@/app/components/loader/loader';
 
@@ -22,9 +22,7 @@ export default function TermsOfService() {
   useEffect(() => {
     let mounted = true;
     (async () => {
-      try {
-        await loadLocale(locale).catch(() => { });
-      } catch (e) { }
+      // Locale loading is now handled by context/useLocaleSection
       if (!mounted) return;
 
       const title = ns?.title || '';
@@ -68,7 +66,7 @@ export default function TermsOfService() {
 
   if (isLoading && !page.title) {
     return (
-      <PageLayout metaKey="terms_of_service.meta" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Terms' }]} className="layout-sm">
+      <PageLayout metaKey="terms_of_service.meta" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Terms' }]} className={styles.layoutSm}>
         <div className="flex items-center justify-center py-12">
           <Loader />
         </div>
@@ -87,9 +85,9 @@ export default function TermsOfService() {
       metaKey="terms_of_service.meta"
       title={page.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
-      className="layout-sm"
+      className={styles.layoutSm}
     >
-      <div id="terms-of-service-content" className="space-y-8">
+      <div id="terms-of-service-content" className={styles.layoutSm}>
         {/* Header with last updated */}
         <div className="flex items-center justify-between flex-wrap gap-4 pb-6 border-b-2 border-amber-200 dark:border-amber-800">
           <div className="flex items-center gap-3">

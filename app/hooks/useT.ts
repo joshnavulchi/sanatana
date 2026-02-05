@@ -2,7 +2,7 @@
 "use client";
 
 import { useLocale } from '../context/locale-context';
-import { t as serverT, getLocaleObject, loadLocaleNamespace } from '../../lib/i18n';
+import { t as serverT, loadLocaleNamespace } from '../../lib/i18n';
 import { useState, useEffect } from 'react';
 
 export function useT() {
@@ -10,16 +10,7 @@ export function useT() {
   const [, forceUpdate] = useState(0);
 
   // Force re-render when locale finishes loading
-  useEffect(() => {
-    if (!isLoading) {
-      const localeObj = getLocaleObject(locale);
-      if (localeObj && typeof localeObj === 'object' && Object.keys(localeObj).length > 0) {
-        // Avoid calling setState synchronously inside the effect body
-        // to prevent cascading renders; schedule asynchronously.
-        setTimeout(() => forceUpdate(prev => prev + 1), 0);
-      }
-    }
-  }, [locale, isLoading]);
+  // No need to check getLocaleObject; re-rendering is handled by context/namespace hooks
 
   // Heuristic to determine if a translation key likely represents a list/array
   const isLikelyListKey = (k: string) => {

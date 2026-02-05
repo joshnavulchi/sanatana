@@ -1,5 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import PageLayout from '@/app/components/common/PageLayout';
+import styles from '../../styles.module.scss';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import { t, detectLocale, getLocaleNamespaceObject, getMeta } from '../../../lib/i18n';
 import SlokasClient from './slokasclient';
@@ -30,7 +31,7 @@ export default function Page({ searchParams }: any) {
         metaKey="sankshepa_ramayana"
         title={page.title}
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
-        className="layout-md"
+        className={styles.layoutMd}
       >
         <p><strong>Source: </strong>{page.author} - {page.description ? <span>{page.description}</span> : null}</p>
         {/* Structured display of all ramayana fields */}

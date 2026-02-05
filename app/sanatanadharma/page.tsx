@@ -1,5 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import PageLayout from '@/app/components/common/PageLayout';
+import styles from '../styles.module.scss';
 import { createGenerateMetadata } from 'lib/pageUtils';
 import { parseList } from 'lib/parseList';
 import { t, detectLocale, getLocaleNamespaceObject } from '../../lib/i18n';
@@ -28,7 +29,7 @@ export default function Page({ searchParams }: any) {
       metaKey="sanatanadharma"
       title={title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: title }]}
-      className="layout-sm">
+      className={styles.layoutSm}>
       <div className="flex flex-col gap-8">
         {(data || []).map((ch: any, i: number) => {
           const chap = ch?.chapter ?? (i + 1);

@@ -9,13 +9,14 @@ const __getLoc = (p: string) => {
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };
-import { t, detectLocale, getLocaleNamespaceObject } from '../../../lib/i18n';
-import { resolveLocaleFromHeaders, createGenerateMetadata } from '../../../lib/pageUtils';
+import { t, getLocaleNamespaceObject } from '../../../lib/i18n';
+import { createGenerateMetadata } from '../../../lib/pageUtils';
+import { useLocale } from '@/app/context/locale-context';
 import PageLayout from '@/app/components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('philosophy_dharma');
 
-export default function Page({ searchParams }: any) {
-  const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
+export default function Page() {
+  const { locale } = useLocale();
   const S = (k: string) => String(t(k, locale));
   const loc: any = getLocaleNamespaceObject(locale, 'philosophy_dharma') || {};
   const dharma = loc?.philosophy_dharma || {};

@@ -1,3 +1,4 @@
+import styles from '@app/styles.module.scss';
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 'use client';
 
@@ -32,7 +33,7 @@ export default function WorldTransformationContent() {
         metaKey="world_transformation.meta"
         title=""
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'World Transformation' }]}
-        className="layout-sm"
+        className={styles.layoutSm}
       >
         <div className="flex items-center justify-center py-12">
           <Loader />
@@ -46,7 +47,7 @@ export default function WorldTransformationContent() {
       metaKey="world_transformation.meta"
       title={pageContent.meta?.title || 'World Transformation'}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'World Transformation' }]}
-      className="layout-sm"
+      className={styles.layoutSm}
     >
       <div className="space-y-12">
         {/* Hero section */}

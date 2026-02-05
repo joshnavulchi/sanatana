@@ -1,6 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import Link from 'next/link';
 import PageLayout from '@/app/components/common/PageLayout';
+import styles from '../../styles.module.scss';
 import LazyImage from '@/app/components/lazy-image/LazyImage';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import { parseList } from 'lib/parseList';
@@ -33,7 +34,7 @@ export default function Page({ searchParams }: any) {
         metaKey="scriptures_bhagavathgita"
         title={page.title}
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
-        className={`layout-md`}
+        className={styles.layoutMd}
       >
         {/* Hero Section */}
         <div className="relative mb-16 px-6 md:px-8 py-12 md:py-16 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 dark:from-amber-950/30 dark:via-orange-950/30 dark:to-amber-950/30 overflow-hidden">

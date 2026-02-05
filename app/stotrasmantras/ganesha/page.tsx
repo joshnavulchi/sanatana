@@ -1,3 +1,4 @@
+import styles from '@app/styles.module.scss';
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 
 const ns: Record<string, unknown> = {};
@@ -9,14 +10,16 @@ const __getLoc = (p: string) => {
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };
-import { t, detectLocale, getMeta } from '../../../lib/i18n';
-import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
+import { t, getMeta } from '../../../lib/i18n';
+import { createGenerateMetadata } from 'lib/pageUtils';
+import { useLocale } from '../../context/locale-context';
 import { parseList } from 'lib/parseList';
 import PageLayout from '@/app/components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('ganesh_stotras'); 
 
 export default function Page({ searchParams }: any) {
-  const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
+  "use client";
+  const { locale } = useLocale();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
     const k: any = getMeta('ganesh_stotras', {}, locale) || {};
@@ -33,7 +36,7 @@ export default function Page({ searchParams }: any) {
         metaKey="ganesh_stotras"
         title={page.title}
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: (page.title || '') }]}
-        className="layout-sm"
+        className={styles.layoutSm}
       >
         {items.map((item: any, i: number) => (
           <section key={i}>

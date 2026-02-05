@@ -1,5 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import PageLayout from '@/app/components/common/PageLayout';
+import styles from '../../styles.module.scss';
 import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
 import { t, detectLocale, getLocaleNamespaceObject, getMeta } from '../../../lib/i18n';
 export const generateMetadata = createGenerateMetadata('scriptures_puranas');
@@ -36,7 +37,7 @@ export default function PuranasPage({ searchParams }: any) {
         metaKey="scriptures_puranas"
         title={page.title}
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Puranas' }]}
-        className="layout-sm"
+        className={styles.layoutSm}
       >
         <p>{page.classification}</p>
         <p>{page.definition}</p>

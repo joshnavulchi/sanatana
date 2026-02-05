@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
-import { loadLocale } from 'lib/i18n';
 import useLocaleSection from '../hooks/useLocaleSection';
 import { parseMaybeObject } from 'lib/parseContent';
 import Loader from '@/app/components/loader/loader';
@@ -136,7 +135,7 @@ export default function HistoricalTimeline() {
     let mounted = true;
     (async () => {
       try {
-        await loadLocale(locale).catch(() => { });
+        // Locale loading is now handled by context/useLocaleSection
       } catch (e) { }
       if (!mounted) return;
 
