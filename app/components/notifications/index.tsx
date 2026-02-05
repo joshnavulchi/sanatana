@@ -6,7 +6,7 @@ import storage from '../../../lib/storage';
 import Link from 'next/link';
 import Marquee from '../marquee';
 
-import styles from './notifictions.module.scss';
+import styles from '@app/styles.module.scss';
 
 type BannerProps = {
   id: string,

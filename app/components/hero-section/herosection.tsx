@@ -2,7 +2,6 @@
 import { useEffect, useState } from 'react';
 import { loadLocaleNamespace } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
-import { parseList } from 'lib/parseList';
 import LazyImage from '../lazy-image/LazyImage';
 import Link from 'next/link';
 import Image from 'next/image';

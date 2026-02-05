@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { loadLocaleNamespace } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
 
-import styles from './SimilarCategories.module.scss';
+import styles from '@app/styles.module.scss';
 
 interface SimilarCategoriesProps {
   currentCategory?: string; // e.g., 'philosophy', 'scriptures', 'kidszone'

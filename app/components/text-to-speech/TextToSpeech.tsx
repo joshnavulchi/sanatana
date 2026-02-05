@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect, useRef } from 'react';
-import styles from './TextToSpeech.module.scss';
+import styles from '@app/styles.module.scss';
+
 interface TextToSpeechProps {
   content?: string;
   sectionId?: string;

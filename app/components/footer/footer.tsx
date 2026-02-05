@@ -1,20 +1,17 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 "use client";
-
 import { useEffect, useState } from 'react';
 import { loadLocaleNamespace } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
-import { parseList } from 'lib/parseList';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import LazyImage from '../lazy-image/LazyImage';
 
-import styles from './footer.module.scss';
+import styles from '@app/styles.module.scss';
 
 export default function Footer() {
   const { locale } = useLocale();
   const pathname = usePathname();
-
   const [footer, setFooter] = useState<Record<string, any>>({});
 
   useEffect(() => {

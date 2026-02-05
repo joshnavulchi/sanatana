@@ -261,19 +261,14 @@ async function fetchWithMongoAggregate() {
 
 export async function GET(request: Request) {
   try {
-    const backend = process.env.ANALYTICS_BACKEND || (process.env.GA_CLIENT_EMAIL || process.env.GA_CLIENT_MAIL ? 'google' : undefined);
-
-    // During local development, if no analytics backend or credentials are
-    // configured, short-circuit and return the sample reports immediately to
-    // avoid noisy external API calls and 404 logs. This keeps `npm run dev`
-    // quiet while you develop without requiring secrets.
-    // Short-circuit in development with sample data to avoid external API calls
-    if (process.env.NODE_ENV === 'development' && !process.env.ANALYTICS_BACKEND && !process.env.GA_CLIENT_EMAIL && !process.env.GA_CLIENT_MAIL && !process.env.PLAUSIBLE_API_KEY && !process.env.MONGODB_URI) {
+    // Always return sample reports in development or if no backend is configured
+    if (process.env.NODE_ENV === 'development' || !process.env.ANALYTICS_BACKEND) {
       const browserMax = Math.min(60, getCacheTtl());
       const headersObj = { 'Cache-Control': `public, max-age=${browserMax}, s-maxage=${getCacheTtl()}, stale-while-revalidate=${getCacheSWR()}` };
       return buildJsonResponse({ reports: SAMPLE_REPORTS, _dev_short_circuit: true }, headersObj, request);
     }
 
+    const backend = process.env.ANALYTICS_BACKEND || (process.env.GA_CLIENT_EMAIL || process.env.GA_CLIENT_MAIL ? 'google' : undefined);
     const ttl = getCacheTtl();
     const swr = getCacheSWR();
     const cacheKey = cacheKeyForBackend(backend);
