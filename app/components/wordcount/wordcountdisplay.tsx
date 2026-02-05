@@ -21,7 +21,7 @@ function countFromText(text: string) {
 export default function WordCountDisplay({ selector, debounce = 250, hideWhenZero = true, minUniqueThreshold = 800 }: WordCountProps) {
   const [total, setTotal] = useState<number>(0);
   const [unique, setUnique] = useState<number>(0);
-   // Reading time UI is displayed in all environments (production and development).
+  // Reading time UI is displayed in all environments (production and development).
   const pending = useRef<number | null>(null);
   const observerRef = useRef<MutationObserver | null>(null);
   const pathname = usePathname();
@@ -70,7 +70,7 @@ export default function WordCountDisplay({ selector, debounce = 250, hideWhenZer
     } else {
       // already complete — run compute once more to catch late-rendered content
       setTimeout(() => {
-        try { compute(); } catch (e) {}
+        try { compute(); } catch (e) { }
       }, 0);
     }
 
@@ -95,9 +95,9 @@ export default function WordCountDisplay({ selector, debounce = 250, hideWhenZer
   const timeLabel = minutes > 0 ? `${minutes} min${minutes > 1 ? '' : ''}` : `${seconds} sec`;
 
   return (
-    <span className={styles.wordcount} role="status" aria-live="polite">
-      <span className={styles.label}>Read time:</span>
-      <span className={styles.value}>{timeLabel}</span>
+    <span className="wordcount" role="status" aria-live="polite">
+      <span className="label">Read time:</span>
+      <span className="value">{timeLabel}</span>
     </span>
   );
 }

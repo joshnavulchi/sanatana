@@ -21,7 +21,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
     <div className="sankshepa-slokas">
       {Array.isArray(slokas) && slokas.slice(0, visible).map((s, idx) => (
         <div key={s.sloka || s.sanskrit || idx} className="text-center mt-10">
-          {s.sanskrit ? <p className="text-xl md:text-2xl font-bold bg-gradient-to-r from-amber-600 via-orange-500 to-amber-600 bg-clip-text text-transparent dark:bg-gradient-to-r dark:from-amber-300 dark:via-yellow-400 dark:to-orange-300">{s.sanskrit}</p> : null}
+          {s.sanskrit ? <p className="text-2xl md:text-3xl/20 font-bold bg-gradient-to-r from-amber-600 via-orange-500 to-amber-600 bg-clip-text text-transparent dark:bg-gradient-to-r dark:from-amber-300 dark:via-yellow-400 dark:to-orange-300">{s.sanskrit}</p> : null}
           {s.transliteration ? <p className="text-xl font-bold dark:text-amber-100 mb-3">{s.transliteration}</p> : null}
           {s.meaning ? <p className="text-xl font-light dark:text-amber-100 mb-6 text-left">{s.meaning}</p> : null}
         </div>

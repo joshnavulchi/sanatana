@@ -1,7 +1,5 @@
-import styles from '@app/styles.module.scss';
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 'use client';
-
 import { useState, useEffect } from 'react';
 import { useLocale } from '../context/locale-context';
 import useLocaleSection from '../hooks/useLocaleSection';
@@ -31,9 +29,9 @@ export default function WorldTransformationContent() {
     return (
       <PageLayout
         metaKey="world_transformation.meta"
-        title=""
+        title={pageContent.meta?.title || 'World Transformation'}
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'World Transformation' }]}
-        className="layout-sm"
+        className="layout-md"
       >
         <div className="flex items-center justify-center py-12">
           <Loader />
@@ -47,7 +45,7 @@ export default function WorldTransformationContent() {
       metaKey="world_transformation.meta"
       title={pageContent.meta?.title || 'World Transformation'}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'World Transformation' }]}
-      className="layout-sm"
+      className="layout-md"
     >
       <div className="space-y-12">
         {/* Hero section */}

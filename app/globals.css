@@ -269,13 +269,9 @@ html.dark .bg-white, body.dark .bg-white {
 }
 .wordcount {
   display: inline-flex;
-  gap: 4px;
-  padding: 2px 4px;
+  gap: 6px;
+  padding: 4px 8px;
   font-size: 0.95rem;
   color: #064e3b;
   border: 1px solid rgba(6, 78, 59, 0.08);
-}
-.label {
-  font-weight: 500;
-  color: #036b52;
 }

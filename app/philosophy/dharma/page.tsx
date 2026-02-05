@@ -1,5 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-
+'use client';
 const ns: Record<string, unknown> = {};
 const __getLoc = (p: string) => {
   if (!ns) return '';

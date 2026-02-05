@@ -1,4 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+'use client';
 import PageLayout from '@/app/components/common/PageLayout';
 import { t, getLocaleNamespaceObject, getMeta } from '../../../lib/i18n';
 import { createGenerateMetadata } from '../../../lib/pageUtils';

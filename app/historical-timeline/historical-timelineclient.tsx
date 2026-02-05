@@ -70,21 +70,21 @@ const Region = ({ title, data }: { title: string; data?: RegionData }) => {
         </div>
         <h4 className="text-2xl font-bold text-gray-900 dark:text-white">{title}</h4>
       </div>
-      
+
       {data.description && (
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-6 pl-15">{data.description}</p>
       )}
-      
+
       {/* Rulers timeline */}
       <div className="relative pl-8 space-y-4">
         {/* Vertical timeline line */}
         <div className="absolute left-3 top-0 bottom-0 w-0.5 bg-gradient-to-b from-amber-400 via-orange-500 to-amber-400" />
-        
+
         {data.rulers.map((ruler: Ruler, i: number) => (
           <div key={i} className="relative group">
             {/* Timeline dot */}
             <div className="absolute -left-5 top-4 w-4 h-4 bg-gradient-to-br from-amber-500 to-orange-600 rounded-full border-4 border-white dark:border-gray-900 shadow-lg group-hover:scale-125 transition-transform duration-300" />
-            
+
             {/* Ruler card */}
             <div className="
               bg-white dark:bg-gray-800
@@ -100,7 +100,7 @@ const Region = ({ title, data }: { title: string; data?: RegionData }) => {
                 <span className="text-xl">👑</span>
                 {ruler.name}
               </h5>
-              
+
               <div className="space-y-2 text-sm">
                 {ruler.dynasty && (
                   <p className="text-gray-700 dark:text-gray-300">
@@ -141,7 +141,7 @@ export default function HistoricalTimeline() {
 
       // Access nested data from historical_timeline namespace
       const data = (ns as any)?.historical_timeline || ns;
-      
+
       const title = data?.title || '';
       const description = data?.description || '';
       const intro = parseMaybeObject(data?.content?.intro) || {};
@@ -195,23 +195,23 @@ export default function HistoricalTimeline() {
       metaKey="historical_timeline.meta"
       title={timeline.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Historical Timeline' }]}
-      className="layout-sm"
+      className="layout-md"
     >
       {/* Text-to-Speech Player */}
       <TextToSpeech sectionId="timeline-content" className="floating" />
       <div id="timeline-content" className="space-y-12">
         {/* Hero description */}
-        <div className="relative -mt-8 -mx-6 md:-mx-8 px-6 md:px-8 py-12 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 dark:from-amber-950/30 dark:via-orange-950/30 dark:to-amber-950/30 rounded-2xl overflow-hidden">
+        <div className="relative md:-mx-8 px-6 md:px-8 py-12 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 dark:from-amber-950/30 dark:via-orange-950/30 dark:to-amber-950/30 rounded-2xl overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl" />
           <div className="absolute bottom-0 left-0 w-80 h-80 bg-orange-400/10 rounded-full blur-3xl" />
-          
+
           <div className="relative z-10">
             <div className="flex items-center gap-3 mb-6">
               <div className="h-px w-12 bg-gradient-to-r from-transparent to-amber-500" />
               <span className="text-3xl animate-pulse">⏳</span>
               <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-500" />
             </div>
-            
+
             <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
               {timeline.description}
             </p>
@@ -245,7 +245,7 @@ export default function HistoricalTimeline() {
                             <p className="text-sm text-amber-800 dark:text-amber-200 font-semibold">{item.fullForm}</p>
                           </div>
                         </div>
-                        
+
                         <div className="space-y-2 text-sm">
                           <p className="text-gray-700 dark:text-gray-300"><strong className="text-amber-800 dark:text-amber-200">Time Period:</strong> {item.timePeriod}</p>
                           <p className="text-gray-700 dark:text-gray-300"><strong className="text-amber-800 dark:text-amber-200">Counting Direction:</strong> {item.countingDirection}</p>

@@ -1,6 +1,5 @@
-import styles from '@app/styles.module.scss';
 "use client";
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
 import useLocaleSection from '../hooks/useLocaleSection';
@@ -87,7 +86,7 @@ export default function TermsOfService() {
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
       className="layout-sm"
     >
-      <div id="terms-of-service-content" className="layout-sm">
+      <div className="space-y-8" id="terms-of-service-content">
         {/* Header with last updated */}
         <div className="flex items-center justify-between flex-wrap gap-4 pb-6 border-b-2 border-amber-200 dark:border-amber-800">
           <div className="flex items-center gap-3">
