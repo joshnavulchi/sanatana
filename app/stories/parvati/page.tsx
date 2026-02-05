@@ -1,10 +1,10 @@
 
-"use client";
+// ...existing code...
 import { useLocale } from '../../context/locale-context';
 import useLocaleSection from '../../hooks/useLocaleSection';
 import { createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@/app/components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('parvati_story');
+// ...existing code...
 
 export default function Page() {
   const { locale } = useLocale();

@@ -1,8 +1,8 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import PageLayout from '@/app/components/common/PageLayout';
 import styles from '../../styles.module.scss';
-import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
-import { t, detectLocale, getLocaleNamespaceObject, getMeta } from '../../../lib/i18n';
+import { createGenerateMetadata } from 'lib/pageUtils';
+import { t, detectLocale, getLocaleNamespaceObject, getMeta, DEFAULT_LOCALE } from '../../../lib/i18n';
 export const generateMetadata = createGenerateMetadata('scriptures_puranas');
 
 const _localeObj = getLocaleNamespaceObject('en', 'scriptures_puranas');
@@ -17,7 +17,7 @@ const __getLoc = (p: string) => {
 };
 
 export default function PuranasPage({ searchParams }: any) {
-  const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
+  const locale = detectLocale(searchParams) || DEFAULT_LOCALE;
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
     const k: any = getMeta('scriptures_puranas', {}, locale) || {};

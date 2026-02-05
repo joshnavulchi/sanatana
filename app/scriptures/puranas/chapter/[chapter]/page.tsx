@@ -10,7 +10,7 @@ const __getLoc = (p: string) => {
   return cur;
 };
 import { t, getMeta, DEFAULT_LOCALE, detectLocale, getLocaleNamespaceObject } from '@/lib/i18n';
-import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
+import { createGenerateMetadata } from 'lib/pageUtils';
 import PageArticleJsonLd from '@/app/components/structured-data/PageArticleJsonLd';
 import Link from 'next/link';
 export const generateMetadata = createGenerateMetadata('puranas_slug');
@@ -27,7 +27,7 @@ export function generateStaticParams() {
   return Array.from({ length: 12 }).map((_, i) => ({ chapter: String(i + 1) }));
 }
 export default function Page({ params, searchParams }: { params: { chapter: string }, searchParams?: any }) {
-  const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
+  const locale = detectLocale(searchParams) || DEFAULT_LOCALE;
   const S = (k: string) => String(t(k, locale));
   const chapters = __getLoc('puranas.chapters') || [];
   const num = Number(params.chapter || 0);

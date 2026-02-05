@@ -3,9 +3,9 @@ import Link from 'next/link';
 import PageLayout from '@/app/components/common/PageLayout';
 import styles from '../../styles.module.scss';
 import LazyImage from '@/app/components/lazy-image/LazyImage';
-import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
+import { createGenerateMetadata } from 'lib/pageUtils';
 import { parseList } from 'lib/parseList';
-import { t, detectLocale, getLocaleNamespaceObject } from '../../../lib/i18n';
+import { t, detectLocale, getLocaleNamespaceObject, DEFAULT_LOCALE } from '../../../lib/i18n';
 
 const _localeObj = getLocaleNamespaceObject('en', 'scriptures_bhagavathgita');
 const ns = (_localeObj && ((_localeObj as any)['scriptures_bhagavathgita'] || _localeObj)) || {};
@@ -20,7 +20,7 @@ const __getLoc = (p: string) => {
 export const generateMetadata = createGenerateMetadata('scriptures_bhagavathgita');
 
 export default function Page({ searchParams }: any) {
-  const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
+  const locale = detectLocale(searchParams) || DEFAULT_LOCALE;
   const page: any = (() => {
     const chapters = parseList(__getLoc('scriptures_bhagavathgita.chapters'));
     return {

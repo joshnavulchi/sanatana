@@ -2,7 +2,7 @@
 import { t, getMeta, detectLocale, DEFAULT_LOCALE, detectServerLocaleFromHeaders, getLocaleNamespaceObject } from './i18n';
 import { secrets } from './secrets';
 
-// resolveLocaleFromHeaders has been moved to lib/pageUtils.server.ts for server-only usage.
+import { resolveLocaleFromHeaders } from './pageUtils.server';
 
 export function createGenerateMetadata(metaKey: string, titleKey?: string, descriptionKey?: string) {
 
