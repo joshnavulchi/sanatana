@@ -17,7 +17,7 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
       {/* Main Content */}
       <div className="w-full lg:w-3/4 space-y-6">
         {/* Hero Image with enhanced styling */}
-        <div className="relative group overflow-hidden rounded-2xl shadow-2xl">
+        <div className="relative group overflow-hidden rounded-2xl shadow-2xl border-4 border-amber-300/30 bg-gradient-to-br from-amber-50/40 to-orange-100/20">
           <div className="absolute inset-0 bg-gradient-to-br from-amber-500/20 to-orange-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10" />
           <LazyImage
             src="/images/philosophy-karma.png"
@@ -28,8 +28,9 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
           />
           {/* Decorative border */}
           <div className="absolute inset-0 border-4 border-amber-400/0 group-hover:border-amber-400/30 rounded-2xl transition-all duration-500" />
+          {/* Floating accent icon */}
+          <div className="absolute top-4 left-4 w-10 h-10 bg-amber-400/80 rounded-full flex items-center justify-center shadow-lg animate-bounce text-white text-2xl z-20">🕉️</div>
         </div>
-
         {/* Content paragraphs */}
         <div className="space-y-6">
           {lines.map((line: any, idx: number) => (
@@ -46,28 +47,28 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
                 transition-all duration-300
                 hover:-translate-y-1
                 group/para
+                animate-fade-in-up
               "
+              style={{ animationDelay: `${idx * 100}ms` }}
             >
               {/* Decorative corner accent */}
               <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-bl from-amber-400/10 to-transparent rounded-tr-lg rounded-bl-full" />
-
               {/* Content */}
               <p className="
                 text-gray-700 dark:text-gray-300
                 text-base md:text-lg
                 leading-relaxed
                 relative z-10
+                font-serif
               ">
                 {line}
               </p>
-
               {/* Hover indicator */}
               <div className="absolute bottom-2 right-2 w-2 h-2 bg-amber-500 rounded-full opacity-0 group-hover/para:opacity-100 transition-opacity duration-300" />
             </div>
           ))}
         </div>
       </div>
-
       {/* Sidebar */}
       <div className="w-full lg:w-1/4">
         <div className="sticky top-24">
@@ -90,19 +91,18 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
       {/* Conversation header */}
       <div className="flex items-center justify-center gap-3 mb-8">
         <div className="h-px w-16 bg-gradient-to-r from-transparent to-amber-400" />
-        <span className="text-xl text-amber-800 dark:text-amber-200 font-semibold">💬 Conversation</span>
+        <span className="text-xl text-amber-800 dark:text-amber-200 font-semibold tracking-wide animate-fade-in">💬 Conversation</span>
         <div className="h-px w-16 bg-gradient-to-l from-transparent to-amber-400" />
       </div>
-
       {convo.map((item: any, idx: number) => {
-        const isEven = idx % 2 === 0; // even -> left, odd -> right
+        const isEven = idx % 2 === 0;
         return (
           <div
             key={idx}
             className={`
               flex
               ${isEven ? 'justify-start' : 'justify-end'}
-              animate-fade-in
+              animate-fade-in-up
             `}
             style={{ animationDelay: `${idx * 100}ms` }}
           >
@@ -124,12 +124,12 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
                   shadow-lg
                   font-semibold text-sm
                   ${isEven ? '' : 'ml-auto'}
+                  animate-fade-in
                 `}>
                   <span className="text-lg">{isEven ? '🧘' : '🕉️'}</span>
                   <span>{item.speaker}</span>
                 </div>
               )}
-
               {/* Message Bubble */}
               {item.message && (
                 <div className={`
@@ -145,33 +145,35 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
                   hover:shadow-2xl
                   transition-all duration-300
                   group
+                  animate-fade-in-up
+                `}
+                style={{ animationDelay: `${idx * 120}ms` }}
+              >
+                {/* Message text */}
+                <p className="
+                  text-gray-800 dark:text-gray-200
+                  text-base md:text-lg
+                  leading-relaxed
+                  m-0
+                  font-serif
+                ">
+                  {item.message}
+                </p>
+                {/* Decorative quote mark */}
+                <div className={`
+                  absolute
+                  ${isEven ? '-left-2 top-0' : '-right-2 top-0'}
+                  w-8 h-8
+                  ${isEven ? 'bg-blue-500' : 'bg-amber-500'}
+                  rounded-full
+                  flex items-center justify-center
+                  text-white text-xs
+                  opacity-0 group-hover:opacity-100
+                  transition-opacity duration-300
                 `}>
-                  {/* Message text */}
-                  <p className="
-                    text-gray-800 dark:text-gray-200
-                    text-base md:text-lg
-                    leading-relaxed
-                    m-0
-                  ">
-                    {item.message}
-                  </p>
-
-                  {/* Decorative quote mark */}
-                  <div className={`
-                    absolute
-                    ${isEven ? '-left-2 top-0' : '-right-2 top-0'}
-                    w-8 h-8
-                    ${isEven ? 'bg-blue-500' : 'bg-amber-500'}
-                    rounded-full
-                    flex items-center justify-center
-                    text-white text-xs
-                    opacity-0 group-hover:opacity-100
-                    transition-opacity duration-300
-                  `}>
-                    ${`"`}
-                  </div>
+                  {`"`}
                 </div>
-              )}
+              </div>
             </div>
           </div>
         );
