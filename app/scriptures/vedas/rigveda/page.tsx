@@ -1,5 +1,9 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 
+import { t, getMeta } from '../../../../lib/i18n';
+import { useLocale } from '@/app/context/locale-context';
+import PageLayout from '@/app/components/common/PageLayout';
+
 const ns: Record<string, unknown> = {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
@@ -9,11 +13,8 @@ const __getLoc = (p: string) => {
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };
-import { t, getMeta } from '../../../../lib/i18n';
-import { useLocale } from '@/app/context/locale-context';
-import { createGenerateMetadata } from 'lib/pageUtils';
-import PageLayout from '@/app/components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('scriptures_vedas_rigveda');
+
+export default function Page() {
   const { locale } = useLocale();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
