@@ -51,7 +51,7 @@ export default async function Home() {
     <>
       {criticalCss ? <style dangerouslySetInnerHTML={{ __html: criticalCss }} /> : null}
       {/* Krishna flute background audio player in footer, loads after 1 minute */}
-      <FooterAudioPlayer />
+      {/* <FooterAudioPlayer /> */}
       <main>
         <WelcomePage />
         <HeroSection />

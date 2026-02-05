@@ -1,10 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 "use client";
-
 import React, { useEffect, useMemo, useState } from 'react';
 import useLocaleSection from '../../hooks/useLocaleSection';
-
-import styles from './contactform.module.scss';
 
 type Field = {
   name: string;

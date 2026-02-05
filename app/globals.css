@@ -1,29 +1,138 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 @import "tailwindcss";
 
-/* Prevent layout shift from font loading */
+/* Global selectors moved from styles.module.scss */
+/* 1) Light theme */
+/* 2) Dark theme */
+:root[data-theme="dark"] {
+  --color-bg: #0F172A;
+  /* ink */
+  --color-surface: #111827;
+  /* slate-900 */
+  --color-text: #F3F4F6;
+  /* gray-100 */
+  --color-muted: #9CA3AF;
+  /* gray-400 */
+  --color-border: #1F2937;
+
+  /* Keep brand saturated but slightly darker for dark theme to maintain contrast */
+  --color-primary: #B45309;
+  --color-primary-strong: #8A2E03;
+  --color-secondary: #991B1B;
+  --color-accent: #D4A24A;
+
+  --shadow-soft: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-strong: 0 16px 48px rgba(0, 0, 0, 0.55);
+}
+/* 10) Festival accent toggle (e.g., Navaratri, Diwali, Kumbhabhishekham) */
+:root[data-festival="diwali"] {
+  --color-primary: #B45309;
+  /* saffron (darker) */
+  --color-secondary: #3F0C0C;
+  /* deep maroon */
+  --color-accent: #FFD166;
+  /* warm gold glow */
+  --gradient-auspicious: linear-gradient(135deg, #F59E0B 0%, #FFD166 50%, #7F1D1D 100%);
+}
+:root[data-festival="navaratri"] {
+  --color-primary: #7C3AED;
+  /* royal purple */
+  --color-secondary: #991B1B;
+  --color-accent: #F59E0B;
+}
+/* 3) Core layout & typography */
 html {
-  /* Use system fonts as fallback to prevent FOIT */
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  scroll-behavior: smooth;
 }
-
-/* Ensure font swap behavior to prevent layout shift */
 body {
-  font-display: swap;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  line-height: var(--line-height);
+  margin: 0;
+  -webkit-text-size-adjust: 100%;
+  /* avoids iOS zoom issues */
 }
-
+/* 4) Theming utilities */
+.bg-primary {
+  background-color: var(--color-primary);
+}
+/* 5) Buttons */
+/* 6) Links */
+a {
+  color: var(--color-bg);
+}
+a:not(.btn) {
+  color: var(--color-bg);
+}
+/* 7) Cards */
+/* 8) Header / Nav (with subtle gradient) */
+.site-header {
+  background: var(--gradient-auspicious);
+  color: #fff;
+}
+/* 9) Focus visibility for accessibility */
+:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+  border-radius: .4rem;
+}
+/* Paragraphs & small text */
+ul,
+ol {
+  list-style: disc;
+  padding-left: 1rem;
+  margin-bottom: var(--space-sm);
+}
+li {
+  margin-bottom: 0.5rem;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: var(--space-xxs) var(--space-sm);
+}
+.gradient-background {
+  background-image: radial-gradient(circle farthest-corner at 90% 0%,
+      var(--color-yellow),
+      var(--color-red) 18%,
+      var(--color-orange) 46%,
+      var(--color-violet) 87%,
+      var(--color-blue));
+}
+.content-wrapper {
+  padding: var(--space-2xl) var(--space-md);
+}
+.background-alternative {
+  background-color: var(--color-text);
+}
+.layout-sm {
+  margin: 0 auto;
+  max-width: var(--content-width-sm);
+  padding: var(--space-xl) var(--space-md);
+}
+.layout-md {
+  margin: 0 auto;
+  max-width: var(--content-width-md);
+  padding: var(--space-xl) var(--space-md) var(--space-2xl);
+}
+.categoriesGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 16;
+}
 /* Aspect ratio containers to prevent CLS */
 .aspect-ratio-box {
   position: relative;
   width: 100%;
 }
-
 .aspect-ratio-box::before {
   content: '';
   display: block;
   padding-top: var(--aspect-ratio, 100%);
 }
-
 .aspect-ratio-box > * {
   position: absolute;
   top: 0;
@@ -31,47 +140,63 @@ body {
   width: 100%;
   height: 100%;
 }
-
 /* Reserve space for elements to prevent CLS */
 .hidden.items-center.md\:flex {
   @media (min-width: 768px) {
     min-height: 48px;
   }
 }
-
 /* Prevent footer from causing layout shift */
 footer {
   contain: layout;
 }
-
 /* Hero section container stability */
 .herosection-module-scss-module__gpezcq__herocontent {
   contain: layout;
 }
-
-/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-
 /* Global dark mode text color fixes */
 html.dark, body.dark {
   color: #f3f4f6 !important; /* Tailwind gray-100 */
   background-color: #18181b !important; /* Tailwind gray-900 */
 }
-
 html.dark h1, html.dark h2, html.dark h3, html.dark h4, html.dark h5, html.dark h6,
 body.dark h1, body.dark h2, body.dark h3, body.dark h4, body.dark h5, body.dark h6 {
   color: #fbbf24 !important; /* Tailwind amber-400 for headings */
 }
-
 html.dark a, body.dark a {
   color: #fbbf24 !important; /* Tailwind amber-400 for links */
 }
-
 html.dark .text-gray-700, body.dark .text-gray-700,
 html.dark .text-gray-800, body.dark .text-gray-800,
 html.dark .text-amber-800, body.dark .text-amber-800 {
   color: #f3f4f6 !important; /* Make all text readable in dark mode */
 }
-
 html.dark .bg-white, body.dark .bg-white {
   background-color: #18181b !important;
+}
+.wordcount {
+  display: inline-flex;
+  gap: 8px;
+  padding: 4px 8px;
+  font-size: 0.95rem;
+  color: #064e3b;
+  border: 1px solid rgba(6, 78, 59, 0.08);
+}
+.label {
+  font-weight: 500;
+  color: #036b52;
+}
+.value {
+  font-variant-numeric: tabular-nums;
+  font-weight: 400;
+}
+.footer {
+  /* Example styles, update as needed */
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e42 100%);
+  color: #fff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  box-shadow: 0 -2px 24px 0 rgba(0, 0, 0, 0.08);
 }

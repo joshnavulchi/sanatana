@@ -5,8 +5,6 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { t } from '../../../lib/i18n';
 
-import styles from './breadcrumbs.module.scss';
-
 type Crumb = { label: React.ReactNode; href?: string };
 type CrumbInput = { label?: unknown; labelKey?: string; href?: string };
 
