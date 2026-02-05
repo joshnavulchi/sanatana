@@ -33,7 +33,7 @@ export default function WorldTransformationContent() {
         metaKey="world_transformation.meta"
         title=""
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'World Transformation' }]}
-        className={styles.layoutSm}
+        className="layout-sm"
       >
         <div className="flex items-center justify-center py-12">
           <Loader />
@@ -47,7 +47,7 @@ export default function WorldTransformationContent() {
       metaKey="world_transformation.meta"
       title={pageContent.meta?.title || 'World Transformation'}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'World Transformation' }]}
-      className={styles.layoutSm}
+      className="layout-sm"
     >
       <div className="space-y-12">
         {/* Hero section */}

@@ -34,14 +34,14 @@ export default function Page({ searchParams }: any) {
         metaKey="scriptures_bhagavathgita"
         title={page.title}
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
-        className={styles.layoutMd}
+        className="layout-md"
       >
         {/* Hero Section */}
         <div className="relative mb-16 px-6 md:px-8 py-12 md:py-16 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 dark:from-amber-950/30 dark:via-orange-950/30 dark:to-amber-950/30 overflow-hidden">
           {/* Decorative elements */}
           <div className="absolute top-0 left-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl" />
           <div className="absolute bottom-0 right-0 w-80 h-80 bg-orange-400/10 rounded-full blur-3xl" />
-          
+
           {/* Content */}
           <div className="relative z-10 text-center space-y-6">
             <div className="flex items-center justify-center gap-3">
@@ -49,15 +49,15 @@ export default function Page({ searchParams }: any) {
               <span className="text-4xl animate-pulse">🕉️</span>
               <div className="h-px w-16 bg-gradient-to-l from-transparent to-amber-500" />
             </div>
-            
+
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700 dark:from-amber-400 dark:via-orange-300 dark:to-amber-400 bg-clip-text text-transparent">
               {page.title}
             </h1>
-            
+
             <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
               The sacred dialogue between Lord Krishna and Arjuna on the battlefield of Kurukshetra
             </p>
-            
+
             <div className="flex items-center justify-center gap-2 pt-2">
               <div className="w-2 h-2 bg-amber-500 rounded-full animate-pulse" />
               <div className="w-2 h-2 bg-orange-500 rounded-full animate-pulse" style={{ animationDelay: '200ms' }} />
@@ -84,9 +84,9 @@ export default function Page({ searchParams }: any) {
             const imgSrc = item?.ai_images?.[0]?.imagesrc || enAi0?.imagesrc || '/og/bhagavathgita.png';
             const imgAlt = item?.ai_images?.[0]?.alt || enAi0?.alt || `${chapTitle}`;
             return (
-              <Link 
-                key={i} 
-                href={`/scriptures/bhagavathgita/chapter/${chapNum}`} 
+              <Link
+                key={i}
+                href={`/scriptures/bhagavathgita/chapter/${chapNum}`}
                 className="group relative
                   bg-white dark:bg-gray-800
                   rounded-2xl
@@ -120,14 +120,14 @@ export default function Page({ searchParams }: any) {
                   <div className="relative w-full h-56 overflow-hidden">
                     {/* Gradient overlay */}
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent z-10" />
-                    
+
                     {/* Image */}
                     <div className="absolute inset-0 transform group-hover:scale-110 transition-transform duration-700">
-                      <LazyImage 
-                        src={imgSrc} 
-                        alt={imgAlt} 
-                        fill 
-                        style={{ objectFit: 'cover' }} 
+                      <LazyImage
+                        src={imgSrc}
+                        alt={imgAlt}
+                        fill
+                        style={{ objectFit: 'cover' }}
                       />
                     </div>
 
@@ -139,7 +139,7 @@ export default function Page({ searchParams }: any) {
                   <div className="flex-1 p-6 space-y-3 relative">
                     {/* Background decoration */}
                     <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl from-amber-100/50 to-transparent dark:from-amber-900/20 rounded-bl-full" />
-                    
+
                     {/* Title */}
                     <h3 className="
                       relative z-10
@@ -151,7 +151,7 @@ export default function Page({ searchParams }: any) {
                     ">
                       {chapTitle}
                     </h3>
-                    
+
                     {/* Excerpt */}
                     {excerpt && (
                       <p className="
@@ -164,7 +164,7 @@ export default function Page({ searchParams }: any) {
                         {excerpt}
                       </p>
                     )}
-                    
+
                     {/* Read More CTA */}
                     <div className="
                       relative z-10
@@ -176,10 +176,10 @@ export default function Page({ searchParams }: any) {
                       transition-all duration-300
                     ">
                       <span>Read Chapter</span>
-                      <svg 
-                        className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" 
-                        fill="none" 
-                        stroke="currentColor" 
+                      <svg
+                        className="w-4 h-4 transform group-hover:translate-x-1 transition-transform"
+                        fill="none"
+                        stroke="currentColor"
                         viewBox="0 0 24 24"
                       >
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

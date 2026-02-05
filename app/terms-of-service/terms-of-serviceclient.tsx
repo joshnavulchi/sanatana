@@ -66,7 +66,7 @@ export default function TermsOfService() {
 
   if (isLoading && !page.title) {
     return (
-      <PageLayout metaKey="terms_of_service.meta" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Terms' }]} className={styles.layoutSm}>
+      <PageLayout metaKey="terms_of_service.meta" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Terms' }]} className="layout-sm">
         <div className="flex items-center justify-center py-12">
           <Loader />
         </div>
@@ -85,9 +85,9 @@ export default function TermsOfService() {
       metaKey="terms_of_service.meta"
       title={page.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
-      className={styles.layoutSm}
+      className="layout-sm"
     >
-      <div id="terms-of-service-content" className={styles.layoutSm}>
+      <div id="terms-of-service-content" className="layout-sm">
         {/* Header with last updated */}
         <div className="flex items-center justify-between flex-wrap gap-4 pb-6 border-b-2 border-amber-200 dark:border-amber-800">
           <div className="flex items-center gap-3">

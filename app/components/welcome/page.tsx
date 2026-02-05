@@ -48,7 +48,7 @@ export default function WelcomePage() {
           <button
             onClick={handleClose}
             aria-label="Close welcome message"
-            className="absolute -top-4 -right-4 z-30 w-10 h-10 bg-white/60 backdrop-blur-2xl border-2 border-amber-400 hover:border-amber-500 rounded-full shadow-2xl shadow-amber-500/80 hover:shadow-amber-500/100 drop-shadow-xl transition-all duration-200 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+            className="cursor-pointer absolute -top-4 -right-4 z-30 w-10 h-10 bg-white/60 backdrop-blur-2xl border-2 border-amber-400 hover:border-amber-500 rounded-full shadow-2xl shadow-amber-500/80 hover:shadow-amber-500/100 drop-shadow-xl transition-all duration-200 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
           >
             <span className="sr-only">Close</span>
             <svg
@@ -175,7 +175,7 @@ export default function WelcomePage() {
                 </label>
                 <button
                   onClick={handleClose}
-                  className="px-10 py-2 rounded-full bg-white/20 text-amber-700 font-extrabold border-0 shadow-2xl shadow-amber-400/40 backdrop-blur-2xl transition-all duration-300 relative overflow-hidden group focus:outline-none focus:ring-4 focus:ring-amber-300/60 active:scale-95 mt-2"
+                  className="cursor-pointer px-10 py-2 rounded-full bg-white/20 text-amber-700 font-extrabold border-0 shadow-2xl shadow-amber-400/40 backdrop-blur-2xl transition-all duration-300 relative overflow-hidden group focus:outline-none focus:ring-4 focus:ring-amber-300/60 active:scale-95 mt-2"
                   style={{ WebkitBackdropFilter: 'blur(16px)', backdropFilter: 'blur(16px)' }}
                 >
                   <span className="absolute inset-0 rounded-full p-[2px] bg-gradient-to-r from-amber-400 via-orange-400 to-pink-400 blur-sm opacity-80 group-hover:opacity-100 animate-gradient-x" aria-hidden="true" />

@@ -7,8 +7,6 @@ import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import LazyImage from '../lazy-image/LazyImage';
 
-import styles from '@app/styles.module.scss';
-
 export default function Footer() {
   const { locale } = useLocale();
   const pathname = usePathname();
@@ -39,7 +37,7 @@ export default function Footer() {
   const isActive = (href: string) => normalize(pathname) === normalize(href);
 
   return (
-    <footer className={`${styles.footer} gradient-background w-full px-3`} style={{ minHeight: '400px' }}>
+    <footer className={`gradient-background w-full px-3`} style={{ minHeight: '400px' }}>
       <div className={`relative z-29`}>
         <section className="content-wrapper text-center">
           <h6 className={`text-3xl md:text-4xl font-light text-white
@@ -74,7 +72,7 @@ export default function Footer() {
           </div>
         </section>
 
-        <div className={`${styles.navWrapper} w-full relative z-10 flex flex-col md:flex-row md:items-start md:justify-between border-t`}>
+        <div className={`nav-wrapper w-full relative z-10 flex flex-col md:flex-row md:items-start md:justify-between border-t`}>
           <nav role="menu" className="md:w-full gap-4 flex flex-col  md:flex-row md:items-start">
             <div className="md:w-1/4 flex flex-col gap-2">
               {(() => {
@@ -209,12 +207,12 @@ export default function Footer() {
           </nav>
         </div>
 
-        <div className={`${styles.disclaimer} w-full flex flex-col md:flex-row items-center justify-between`}>
+        <div className={`disclaimer w-full flex flex-col md:flex-row items-center justify-between`}>
           <div>
-            <small className="text-gray-700 dark:text-amber-200">{footer && footer?.disclaimer}<br /> {footer && footer?.contentChange}</small>
+            <small className="text-gray-400 dark:text-amber-200">{footer && footer?.disclaimer}<br /> {footer && footer?.contentChange}</small>
             {/* <small> I am using <Link href='https://gemini.google.com/' title='Gemini AI' target='_blank' className='text-white no-underline'>Gemini AI</Link>, <Link href='https://www.meta.ai/' title='Meta AI' target='_blank' className='text-white no-underline'>Meta AI</Link> and  <Link href='https://github.com/features/copilot' title='Github Copilot' target='_blank' className='text-white no-underline'>Github Copilot</Link> basic plan to generating content of the website.</small> */}
           </div>
-          <nav role="list" className={`${styles.socialIcons} md:w-1/4 flex items-center justify-end gap-6`}>
+          <nav role="list" className={`social-icons md:w-1/4 flex items-center justify-end gap-6`}>
             <Link role="listitem" aria-label="Visit us on LinkedIn" href="https://in.linkedin.com/in/vulchivijayakumar" target="_blank" className=" no-underline">
               <LazyImage src="/images/svg/linkedin.svg" alt="linkedin" width={24} height={24} className="inline-block" />
             </Link>
@@ -230,12 +228,12 @@ export default function Footer() {
           </nav>
         </div>
 
-        <div className={`${styles.copyrights} w-full md:flex md:items-center md:justify-between`}>
+        <div className={`copyrights w-full md:flex md:items-center md:justify-between`}>
           <div className="flex items-center gap-4">
             <Link href="/privacy-policy" className={`${isActive('/privacy-policy') ? "active" : ""} `}>{footer?.privacy}</Link>
             <Link href="/terms-of-service" className={`${isActive('/terms-of-service') ? "active" : ""} `}>{footer?.terms}</Link>
           </div>
-          <small className="text-gray-700 dark:text-amber-200">{footer?.copyright}</small>
+          <small className="text-gray-100 dark:text-amber-200">{footer?.copyright}</small>
         </div>
       </div>
     </footer>

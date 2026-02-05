@@ -42,7 +42,7 @@ export default function AboutClient() {
         metaKey="about"
         title=""
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'About' }]}
-        className={styles.layoutSm}
+        className="layout-sm"
       >
         <div className="flex items-center justify-center py-12">
           <Loader />
@@ -56,7 +56,7 @@ export default function AboutClient() {
       metaKey="about"
       title={about.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'About' }]}
-      className={styles.layoutMd}
+      className="layout-md"
     >
       {/* Text-to-Speech Player */}
       <TextToSpeech sectionId="about-content" className="floating" />

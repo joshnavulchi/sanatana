@@ -29,7 +29,7 @@ export default function Page({ searchParams }: any) {
       metaKey="sanatanadharma"
       title={title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: title }]}
-      className={styles.layoutSm}>
+      className="layout-sm">
       <div className="flex flex-col gap-8">
         {(data || []).map((ch: any, i: number) => {
           const chap = ch?.chapter ?? (i + 1);

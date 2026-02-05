@@ -33,7 +33,7 @@ export default function Page({ searchParams }: any) {
         metaKey="scriptures_mahabharata"
         title={page.title}
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Mahabhrata' }]}
-        className={styles.layoutMd}
+        className="layout-md"
       >
         {(page.structure || []).map((item: any, i: number) => (
           <div key={i}>

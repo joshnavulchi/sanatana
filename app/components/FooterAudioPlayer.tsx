@@ -9,13 +9,13 @@ export default function FooterAudioPlayer() {
     const timer = setTimeout(() => {
       setShowPlayer(true);
       if (audioRef.current) {
-        audioRef.current.play().catch(() => {});
+        audioRef.current.play().catch(() => { });
       }
     }, 60000); // 1 minute
     return () => clearTimeout(timer);
   }, []);
   return (
-    <footer style={{ position: 'fixed', left: 0, bottom: 0, width: '100%', zIndex: 1000, textAlign: 'center', background: 'transparent' }}>
+    <div style={{ position: 'fixed', left: 0, bottom: 0, height: '0', width: '100%', zIndex: 1000, textAlign: 'center', background: 'transparent' }}>
       {showPlayer && (
         <>
           <audio
@@ -37,6 +37,6 @@ export default function FooterAudioPlayer() {
           )}
         </>
       )}
-    </footer>
+    </div>
   );
 }

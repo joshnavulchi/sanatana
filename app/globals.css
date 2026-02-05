@@ -143,12 +143,6 @@ body {
 /* 4) Theming utilities */
 /* 5) Buttons */
 /* 6) Links */
-a {
-  color: var(--color-bg);
-}
-a:not(.btn) {
-  color: var(--color-bg);
-}
 /* 7) Cards */
 /* 8) Header / Nav (with subtle gradient) */
 /* 9) Focus visibility for accessibility */
@@ -173,6 +167,27 @@ input[type="password"],
 textarea {
   width: 100%;
   padding: var(--space-xxs) var(--space-sm);
+}
+.gradient-background {
+  background-image: radial-gradient(circle farthest-corner at 90% 0%,
+  var(--color-yellow),
+  var(--color-red) 18%,
+  var(--color-orange) 46%,
+  var(--color-violet) 87%,
+  var(--color-blue));
+}
+.content-wrapper {
+  padding: var(--space-2xl) var(--space-md);
+}
+.layout-sm {
+  margin: 0 auto;
+  max-width: var(--content-width-sm);
+  padding: var(--space-xl) var(--space-md);
+}
+.layout-md {
+  margin: 0 auto;
+  max-width: var(--content-width-md);
+  padding: var(--space-xl) var(--space-md) var(--space-2xl);
 }
 /* Aspect ratio containers to prevent CLS */
 .aspect-ratio-box {
@@ -200,6 +215,33 @@ textarea {
 /* Prevent footer from causing layout shift */
 footer {
   contain: layout;
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e42 100%);
+  color: #fff;
+}
+.disclaimer,
+.copyrights,
+.nav-wrapper {
+  margin: 0 auto;
+  max-width: var(--content-width-default);
+}
+.nav-wrapper {
+  padding: var(--space-xl) 0;
+}
+.nav-wrapper .underline {
+  font-size: 1.2rem;
+  padding: 0 0 var(--space-md) 0;
+}
+.disclaimer .social-icons {
+  padding-right: var(--space-xl);
+}
+.disclaimer small {
+  font-size: 0.85rem;
+}
+.copyrights {
+  padding: var(--space-sm) 0;
+}
+.copyrights a {
+  font-size: 0.85rem;
 }
 /* Hero section container stability */
 .herosection .herocontent {
@@ -236,14 +278,4 @@ html.dark .bg-white, body.dark .bg-white {
 .label {
   font-weight: 500;
   color: #036b52;
-}
-.footer {
-  /* Example styles, update as needed */
-  background: linear-gradient(135deg, #fbbf24 0%, #f59e42 100%);
-  color: #fff;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border-top-left-radius: 1.5rem;
-  border-top-right-radius: 1.5rem;
-  box-shadow: 0 -2px 24px 0 rgba(0, 0, 0, 0.08);
 }

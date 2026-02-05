@@ -15,7 +15,7 @@ import { createGenerateMetadata } from 'lib/pageUtils';
 import { useLocale } from '../../context/locale-context';
 import { parseList } from 'lib/parseList';
 import PageLayout from '@/app/components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('ganesh_stotras'); 
+export const generateMetadata = createGenerateMetadata('ganesh_stotras');
 
 export default function Page({ searchParams }: any) {
   "use client";
@@ -36,7 +36,7 @@ export default function Page({ searchParams }: any) {
         metaKey="ganesh_stotras"
         title={page.title}
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: (page.title || '') }]}
-        className={styles.layoutSm}
+        className="layout-sm"
       >
         {items.map((item: any, i: number) => (
           <section key={i}>

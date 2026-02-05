@@ -37,7 +37,7 @@ export default function PuranasPage({ searchParams }: any) {
         metaKey="scriptures_puranas"
         title={page.title}
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Puranas' }]}
-        className={styles.layoutSm}
+        className="layout-sm"
       >
         <p>{page.classification}</p>
         <p>{page.definition}</p>
