@@ -9,6 +9,8 @@ export default function FooterAudioPlayer() {
     const timer = setTimeout(() => {
       setShowPlayer(true);
       if (audioRef.current) {
+        audioRef.current.volume = 0.2; // Set low volume
+        audioRef.current.loop = true; // Ensure looping
         audioRef.current.play().catch(() => { });
       }
     }, 60000); // 1 minute
@@ -22,8 +24,7 @@ export default function FooterAudioPlayer() {
             ref={audioRef}
             src="/krishna-flute.mp3"
             preload="auto"
-            loop
-            style={{ width: 120, height: 30 }}
+            style={{ width: 120, height: 30, display: 'none' }}
             onError={() => setError(true)}
           />
           {error && (
