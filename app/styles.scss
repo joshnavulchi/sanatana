@@ -1,4 +1,360 @@
-@use "variables.module";
-@use "base.module";
-@use "layout.module";
-@use "desktop.module";
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+/* 1) Base CSS variables: Light theme */
+:root {
+  /* Brand core */
+  /* Darken primary to improve foreground contrast against white text */
+  --color-primary: #B45309;
+  /* deep saffron (darker) */
+  --color-primary-hover: #8A2E03;
+  --color-secondary: #7F1D1D;
+  /* maroon */
+  --color-secondary-hover: #991B1B;
+  --color-accent: #C89227;
+  /* gold */
+  --color-accent-hover: #F59E0B;
+  /* bright saffron */
+
+  /* Neutrals */
+  --color-bg: #FAF7F2;
+  /* parchment */
+  --color-surface: #FFFFFF;
+  --color-muted: #6B7280;
+  /* gray-500 */
+  --color-muted-hover: #4B5563;
+  /* gray-600 */
+  --color-text: #1F2937;
+  /* slate-800 */
+  --color-text-hover: #111827;
+  /* slate-900 */
+
+  /* States */
+  --color-success: #15803D;
+  --color-success-hover: #166534;
+  --color-info: #2563EB;
+  --color-info-hover: #1D4ED8;
+  --color-warning: #DC2626;
+  --color-warning-hover: #B91C1C;
+
+  /* Borders & shadows */
+  --color-border: #E5E7EB;
+  --shadow-soft: 0 8px 24px rgba(127, 29, 29, 0.08);
+  --shadow-strong: 0 16px 48px rgba(127, 29, 29, 0.16);
+
+  /* Fluid base size: scales ~15px → ~18px between 360px and 1280px */
+  --font-size-base: clamp(1rem, 1rem + 0.35vw, 1.125rem);
+  /* 15px → 18px */
+  --line-height-base: 1.65;
+  /* good for prose */
+
+  /* Modular scale step (minor third ≈ 1.2) for headings */
+  --scale: 1.2;
+
+  /* Content width for measure (line-length) control */
+  --content-max: 70ch;
+
+  /* Focus ring */
+  --focus-ring: 0 0 0 3px rgba(245, 158, 11, 0.45);
+
+  /* Decorative gradients/patterns */
+  --gradient-auspicious: linear-gradient(135deg, #F59E0B 0%, #C89227 50%, #7F1D1D 100%);
+
+  --from-amber-700: #B45309;
+  --to-orange-600: #EA580C;
+  --from-orange-500: #F97316;
+  --to-amber-400: #FBBF24;
+  --from-rose-500: #F43F5E;
+  --to-orange-500: #FB923C;
+  --from-red-700: #B91C1C;
+  --to-rose-700: #BE123C;
+
+  --color-yellow: #fdae50;
+  --color-red: #fa5952;
+  --color-orange: #fa5952;
+  --color-violet: #403e87;
+  --color-blue: #325492;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color--deep-blue: #162039;
+
+  --electric-border-color: #dd8448;
+  --electric-light-color: oklch(from var(--electric-border-color) l c h);
+  --gradient-color: oklch(from var(--electric-border-color) 0.3 calc(c / 2) h / 0.4);
+  --color-neutral-900: oklch(0.185 0 0);
+
+  /* Font families: Playfair primary, Poppins secondary, then generic sans-serif */
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Poppins", sans-serif;
+
+  /* Spacing scale */
+  --space-xxs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-2xl: 72px;
+  --space-3xl: 90px;
+
+  /* Content width */
+  --content-width-xxs: 540px;
+  --content-width-xs: 760px;
+  --content-width-sm: 1024px;
+  --content-width-md: 1280px;
+  --content-width-default: 1440px;
+  --content-width-lg: 1680px;
+  --content-width-xl: 1900px;
+}
+
+/* 2) Dark theme */
+:root[data-theme="dark"] {
+  --color-bg: #0F172A;
+  /* ink */
+  --color-surface: #111827;
+  /* slate-900 */
+  --color-text: #F3F4F6;
+  /* gray-100 */
+  --color-muted: #9CA3AF;
+  /* gray-400 */
+  --color-border: #1F2937;
+
+  /* Keep brand saturated but slightly darker for dark theme to maintain contrast */
+  --color-primary: #B45309;
+  --color-primary-strong: #8A2E03;
+  --color-secondary: #991B1B;
+  --color-accent: #D4A24A;
+
+  --shadow-soft: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-strong: 0 16px 48px rgba(0, 0, 0, 0.55);
+}
+
+/* 10) Festival accent toggle (e.g., Navaratri, Diwali, Kumbhabhishekham) */
+:root[data-festival="diwali"] {
+  --color-primary: #B45309;
+  /* saffron (darker) */
+  --color-secondary: #3F0C0C;
+  /* deep maroon */
+  --color-accent: #FFD166;
+  /* warm gold glow */
+  --gradient-auspicious: linear-gradient(135deg, #F59E0B 0%, #FFD166 50%, #7F1D1D 100%);
+}
+
+:root[data-festival="navaratri"] {
+  --color-primary: #7C3AED;
+  /* royal purple */
+  --color-secondary: #991B1B;
+  --color-accent: #F59E0B;
+}
+
+
+// .theme-light {
+//   --theme-action-button-color: #ffd700;
+//   --theme-alternative-background-color: #f9edde; // #e0d4c4; // #f5f5dc; 
+//   --theme-body-text-color: #4b2e2e;
+//   --theme-icon-color: #228b22;
+//   --theme-footer-background-color: #800000;
+//   --theme-footer-text-color: #fffff0;
+//   --theme-footer-links-color: #ffd700;
+// }
+// .theme-dark {
+//   --theme-color: #ffb366;
+//   --theme-background-color: #0b0b0b;
+//   --theme-title-color: #ffb366;
+//   --theme-sub-title-color: #e6e6e6;
+//   --theme-links-color: #e6e6e6;
+//   --theme-background-accent: #e0c27b;
+//   --theme-action-button-color: #d4af37;
+//   --theme-alternative-background-color: #121212;
+//   --theme-body-text-color: #e6e6e6;
+//   --theme-icon-color: #9ad39a;
+//   --theme-footer-background-color: #0a0a0a;
+//   --theme-footer-text-color: #f5f5f5;
+//   --theme-footer-links-color: #ffd700;
+// }
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+/* 3) Core layout & typography */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  line-height: var(--line-height);
+  margin: 0;
+  -webkit-text-size-adjust: 100%;
+  /* avoids iOS zoom issues */
+}
+
+/* 4) Theming utilities */
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+
+.text-secondary {
+  color: var(--color-secondary);
+}
+
+.bg-surface {
+  background-color: var(--color-surface);
+}
+
+.text-muted {
+  color: var(--color-muted);
+}
+
+.border {
+  border: 1px solid var(--color-border);
+}
+
+.shadow-soft {
+  box-shadow: var(--shadow-soft);
+}
+
+.shadow-strong {
+  box-shadow: var(--shadow-strong);
+}
+
+/* 5) Buttons */
+
+/* 6) Links */
+
+/* 7) Cards */
+
+/* 8) Header / Nav (with subtle gradient) */
+.site-header {
+  background: var(--gradient-auspicious);
+  color: #fff;
+}
+
+/* 9) Focus visibility for accessibility */
+:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+  border-radius: .4rem;
+}
+
+/* Paragraphs & small text */
+ul,
+ol {
+  list-style: disc;
+  padding-left: 1rem;
+  margin-bottom: var(--space-sm);
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: var(--space-xxs) var(--space-sm);
+}
+
+.gradient-background {
+  background-image: radial-gradient(circle farthest-corner at 90% 0%,
+      var(--color-yellow),
+      var(--color-red) 18%,
+      var(--color-orange) 46%,
+      var(--color-violet) 87%,
+      var(--color-blue));
+}
+
+.multi-text-color {
+  font-size: 1.8rem;
+  font-weight: 600;
+
+  span:first-child {
+    color: #ff0800;
+  }
+
+  span:nth-child(2) {
+    color: var(--color--deep-blue);
+  }
+
+  span:nth-child(3) {
+    color: var(--color-violet);
+  }
+
+  span:last-child {
+    color: var(--color-blue);
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 18px;
+  }
+
+  a {
+    font-size: 0.9rem;
+  }
+}
+
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+.content-wrapper {
+  padding: var(--space-2xl) var(--space-md);
+}
+
+.background-alternative {
+  background-color: var(--color-text);
+}
+
+.layout-sm {
+  margin: 0 auto;
+  max-width: var(--content-width-sm);
+  padding: var(--space-xl) var(--space-md);
+}
+
+.layout-md {
+  margin: 0 auto;
+  max-width: var(--content-width-md);
+  padding: var(--space-xl) var(--space-md) var(--space-2xl);
+}
+
+@media (min-width: 1024px) {
+  .content-wrapper {
+    margin: 0 auto;
+    max-width: var(--content-width-default);
+    padding-top: var(--space-3xl);
+    padding-bottom: var(--space-3xl);
+  }
+}
+
+@media (min-width: 1600px) {
+  .content-wrapper {
+    max-width: var(--content-width-lg);
+  }
+}
+
+@media (min-width: 1900px) {
+  .content-wrapper {
+    max-width: var(--content-width-xl);
+  }
+}
+
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+@media (min-width: 1024px) {
+  .border-gradient-vertical {
+    border-right: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%;
+  }
+}
+
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
