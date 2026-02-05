@@ -173,7 +173,7 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
                 `}>
                   {`"`}
                 </div>
-              </div>
+              </div>)}
             </div>
           </div>
         );
