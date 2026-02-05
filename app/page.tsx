@@ -59,7 +59,7 @@ export default async function Home() {
         <GitSupport />
         <OurFourCoreYugas />
         {/* Delayed widgets: cookies and clock */}
-        <DelayedHomeWidgets />
+        {/* <DelayedHomeWidgets />  // Disabled: causes server/client boundary error */}
       </main>
     </>
   );
