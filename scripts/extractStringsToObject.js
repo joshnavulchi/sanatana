@@ -1,6 +1,5 @@
 // extractStringsToObject.js
 const fs = require('fs');
-const recast = require('recast');
 const babelParser = require('@babel/parser');
 const path = require('path');
 
@@ -27,18 +26,24 @@ if (!fs.existsSync(FILENAME)) {
 }
 
 const code = fs.readFileSync(FILENAME, 'utf8');
-const ast = recast.parse(code, {
-  parser: {
-    parse(source) {
-      return babelParser.parse(source, {
-        sourceType: 'module',
-        plugins: ['typescript', 'jsx'],
-      });
-    },
-  },
+const ast = babelParser.parse(code, {
+  sourceType: 'module',
+  plugins: [
+    'jsx',
+    'typescript',
+    'classProperties',
+    'objectRestSpread',
+    'optionalChaining',
+    'nullishCoalescingOperator',
+    'decorators-legacy',
+  ],
+  errorRecovery: true,
+  allowReturnOutsideFunction: true,
+  allowAwaitOutsideFunction: true,
 });
 
-const b = recast.types.builders;
+const traverse = require('@babel/traverse').default;
+const t = require('@babel/types');
 const stringMap = {};
 let stringIndex = 1;
 
@@ -53,17 +58,17 @@ function makeKey(str) {
 }
 
 // Find metaKey value in the file
+
 let metaKeyValue = null;
-recast.visit(ast, {
-  visitJSXAttribute(path) {
+traverse(ast, {
+  JSXAttribute(path) {
     if (
-      path.value &&
-      path.value.type === 'StringLiteral' &&
+      path.node.value &&
+      path.node.value.type === 'StringLiteral' &&
       path.node.name.name === 'metaKey'
     ) {
-      metaKeyValue = path.value.value;
+      metaKeyValue = path.node.value.value;
     }
-    this.traverse(path);
   },
 });
 
@@ -73,34 +78,37 @@ if (metaKeyValue) {
   objectName = objectName.replace(/[^a-zA-Z0-9_]/g, '_');
 }
 
-recast.visit(ast, {
-  visitJSXText(path) {
-    const value = path.value.value.trim();
+
+traverse(ast, {
+  JSXText(path) {
+    const value = path.node.value.trim();
     if (value && !/^{.*}$/.test(value)) {
       const key = makeKey(value);
       stringMap[key] = value;
-      path.replace(b.jsxExpressionContainer(b.memberExpression(
-        b.identifier(objectName),
-        b.identifier(key)
-      )));
-    }
-    this.traverse(path);
-  },
-  visitJSXAttribute(path) {
-    if (
-      path.value &&
-      path.value.type === 'StringLiteral' &&
-      path.value.value.trim() &&
-      !/^{.*}$/.test(path.value.value)
-    ) {
-      const value = path.value.value;
-      const key = makeKey(value);
-      stringMap[key] = value;
-      path.value = b.jsxExpressionContainer(
-        b.memberExpression(b.identifier(objectName), b.identifier(key))
+      path.replaceWith(
+        t.jsxExpressionContainer(
+          t.memberExpression(
+            t.identifier(objectName),
+            t.identifier(key)
+          )
+        )
       );
     }
-    this.traverse(path);
+  },
+  JSXAttribute(path) {
+    if (
+      path.node.value &&
+      path.node.value.type === 'StringLiteral' &&
+      path.node.value.value.trim() &&
+      !/^{.*}$/.test(path.node.value.value)
+    ) {
+      const value = path.node.value.value;
+      const key = makeKey(value);
+      stringMap[key] = value;
+      path.node.value = t.jsxExpressionContainer(
+        t.memberExpression(t.identifier(objectName), t.identifier(key))
+      );
+    }
   },
 });
 
