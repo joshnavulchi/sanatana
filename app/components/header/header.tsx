@@ -165,7 +165,7 @@ export default function Header() {
     <header ref={headerRef} className={`w-full sticky top-0 z-30 shadow-md`}>
       {/* <BannerNotifications id="first_banner" message={translations.banner} marquee="true" />
       {/* <BannerNotifications id="second_banner" message={translations.banner2} marquee="false" showClose={true} backgroundclass="notification-alternative-background-color" /> */}
-      <div className="w-full px-2 md:px-0 bg-white/90 shadow-md sticky top-0 z-30">
+      <div className="w-full px-2 md:px-0 bg-white/95 shadow-md sticky top-0 z-30">
         <div className="max-w-7xl mx-auto flex items-center justify-between p-1">
           {/* Logo and Title */}
           <Link href="/" className="flex items-center gap-2 group">

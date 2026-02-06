@@ -147,20 +147,20 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
                   group
                   animate-fade-in-up
                 `}
-                style={{ animationDelay: `${idx * 120}ms` }}
-              >
-                {/* Message text */}
-                <p className="
+                  style={{ animationDelay: `${idx * 120}ms` }}
+                >
+                  {/* Message text */}
+                  <p className="
                   text-gray-800 dark:text-gray-200
                   text-base md:text-lg
                   leading-relaxed
                   m-0
                   font-serif
                 ">
-                  {item.message}
-                </p>
-                {/* Decorative quote mark */}
-                <div className={`
+                    {item.message}
+                  </p>
+                  {/* Decorative quote mark */}
+                  <div className={`
                   absolute
                   ${isEven ? '-left-2 top-0' : '-right-2 top-0'}
                   w-8 h-8
@@ -171,9 +171,9 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
                   opacity-0 group-hover:opacity-100
                   transition-opacity duration-300
                 `}>
-                  {`"`}
-                </div>
-              </div>)}
+                    {`"`}
+                  </div>
+                </div>)}
             </div>
           </div>
         );

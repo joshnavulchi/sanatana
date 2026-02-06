@@ -166,12 +166,12 @@ export default function LanguageDropdown() {
           <img src="/images/svg/ml.svg" alt={locale?.languagedropdown?.iconalt || 'Language selector'} width={20} height={20} className="transition-transform duration-300 group-hover:rotate-12" />
           <div className="absolute -top-1 -right-1 w-2 h-2 bg-amber-500 rounded-full animate-pulse"></div>
         </div>
-        {isClient && (
+        {/* {isClient && (
           <span className="font-medium text-sm text-gray-700 dark:text-gray-300 group-hover:text-amber-700 dark:group-hover:text-amber-300 transition-colors duration-300">
             {currentLanguage?.nativeName || locale?.languagedropdown?.english || 'English'}
           </span>
-        )}
-        <svg className={`w-4 h-4 text-amber-800 dark:text-amber-200 transition-transform duration-300 ${open ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        )} */}
+        <svg className={`w-3 h-3 text-amber-800 dark:text-amber-200 transition-transform duration-300 ${open ? 'rotate-180' : ''}`} fill="none" stroke="#F97316" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
         </svg>
       </button>
@@ -181,12 +181,12 @@ export default function LanguageDropdown() {
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 animate-fade-in" role="dialog" aria-modal="true" aria-labelledby="language-dialog-title">
           {/* Backdrop with blur */}
           <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/50 to-black/60 backdrop-blur-sm animate-fade-in" onClick={() => setOpen(false)} />
-          
+
           {/* Modal Container */}
           <div ref={dropdownRef} className="relative bg-white dark:bg-gray-900 rounded-3xl w-full max-w-2xl shadow-2xl border-2 border-amber-200 dark:border-amber-800 overflow-hidden transform animate-scale-in">
             {/* Decorative gradient header */}
             <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-amber-400 via-orange-500 to-amber-400"></div>
-            
+
             {/* Header */}
             <div role="group" className="relative flex items-center justify-between p-6 bg-gradient-to-br from-amber-50 via-orange-50/50 to-amber-50 dark:from-amber-950/30 dark:via-orange-950/20 dark:to-amber-950/30 border-b-2 border-amber-200 dark:border-amber-800">
               <div className="flex items-center gap-3">
@@ -200,10 +200,10 @@ export default function LanguageDropdown() {
                   <p className="text-sm text-gray-600 dark:text-gray-400">{filteredLanguages.length} languages available</p>
                 </div>
               </div>
-              <button 
-                role="button" 
-                aria-label="Close" 
-                onClick={() => setOpen(false)} 
+              <button
+                role="button"
+                aria-label="Close"
+                onClick={() => setOpen(false)}
                 className="group w-10 h-10 flex items-center justify-center bg-white dark:bg-gray-800 hover:bg-red-50 dark:hover:bg-red-900/20 border-2 border-amber-200 dark:border-amber-800 hover:border-red-300 dark:hover:border-red-800 rounded-full transition-all duration-300 cursor-pointer transform hover:rotate-90 hover:scale-110 shadow-md"
               >
                 <svg className="w-5 h-5 text-gray-600 dark:text-gray-400 group-hover:text-red-600 dark:group-hover:text-red-400 transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -279,8 +279,8 @@ export default function LanguageDropdown() {
                       className={`
                         group relative flex-1 md:min-w-[calc(50%-0.375rem)] flex items-center gap-3 p-4 rounded-xl
                         transition-all duration-300 transform hover:-translate-y-1
-                        ${isSelected 
-                          ? 'bg-gradient-to-br from-amber-100 to-orange-100 dark:from-amber-900/50 dark:to-orange-900/50 border-2 border-amber-500 dark:border-amber-600 shadow-lg' 
+                        ${isSelected
+                          ? 'bg-gradient-to-br from-amber-100 to-orange-100 dark:from-amber-900/50 dark:to-orange-900/50 border-2 border-amber-500 dark:border-amber-600 shadow-lg'
                           : isHighlighted
                             ? 'bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-950/30 dark:to-orange-950/30 border-2 border-amber-300 dark:border-amber-700 shadow-md'
                             : 'bg-white dark:bg-gray-800 border-2 border-amber-200/50 dark:border-amber-800/50 hover:border-amber-300 dark:hover:border-amber-700 shadow-sm hover:shadow-md'
@@ -290,20 +290,20 @@ export default function LanguageDropdown() {
                       {/* Flag Icon */}
                       <div className={`
                         flex-shrink-0 w-12 h-12 flex items-center justify-center text-3xl rounded-xl transition-all duration-300
-                        ${isSelected 
-                          ? 'bg-white/50 dark:bg-gray-800/50 shadow-md scale-110' 
+                        ${isSelected
+                          ? 'bg-white/50 dark:bg-gray-800/50 shadow-md scale-110'
                           : 'bg-amber-50 dark:bg-amber-950/30 group-hover:scale-110'
                         }
                       `} aria-hidden="true">
                         {flag}
                       </div>
-                      
+
                       {/* Language Info */}
                       <div className="flex-1 text-left min-w-0">
                         <div className={`
                           font-semibold truncate transition-colors duration-300
-                          ${isSelected 
-                            ? 'text-amber-900 dark:text-amber-100' 
+                          ${isSelected
+                            ? 'text-amber-900 dark:text-amber-100'
                             : 'text-gray-900 dark:text-gray-100 group-hover:text-amber-700 dark:group-hover:text-amber-300'
                           }
                         `}>
@@ -311,15 +311,15 @@ export default function LanguageDropdown() {
                         </div>
                         <div className={`
                           text-sm truncate transition-colors duration-300
-                          ${isSelected 
-                            ? 'text-amber-700 dark:text-amber-300' 
+                          ${isSelected
+                            ? 'text-amber-700 dark:text-amber-300'
                             : 'text-gray-600 dark:text-gray-400'
                           }
                         `}>
                           {region}
                         </div>
                       </div>
-                      
+
                       {/* Check Icon */}
                       {isSelected && (
                         <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center shadow-lg animate-scale-in">
@@ -328,7 +328,7 @@ export default function LanguageDropdown() {
                           </svg>
                         </div>
                       )}
-                      
+
                       {/* Hover indicator arrow */}
                       {!isSelected && (
                         <div className="flex-shrink-0 w-6 h-6 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -341,7 +341,7 @@ export default function LanguageDropdown() {
                   );
                 })}
               </div>
-              
+
               {/* No results message */}
               {filteredLanguages.length === 0 && (
                 <div className="py-12 text-center">

@@ -175,7 +175,7 @@ export default function WelcomePage() {
                 </label>
                 <button
                   onClick={handleClose}
-                  className="cursor-pointer px-10 py-2 rounded-full bg-white/20 text-amber-700 font-extrabold border-0 shadow-2xl shadow-amber-400/40 backdrop-blur-2xl transition-all duration-300 relative overflow-hidden group focus:outline-none focus:ring-4 focus:ring-amber-300/60 active:scale-95 mt-2"
+                  className="cursor-pointer px-10 py-2 rounded-full bg-white/20 text-amber-700 font-extrabold border-2 border-white shadow-2xl shadow-amber-400/40 backdrop-blur-2xl transition-all duration-300 relative overflow-hidden group focus:outline-none focus:ring-4 focus:ring-amber-300/60 active:scale-95 mt-2"
                   style={{ WebkitBackdropFilter: 'blur(16px)', backdropFilter: 'blur(16px)' }}
                 >
                   <span className="absolute inset-0 rounded-full p-[2px] bg-gradient-to-r from-amber-400 via-orange-400 to-pink-400 blur-sm opacity-80 group-hover:opacity-100 animate-gradient-x" aria-hidden="true" />
