@@ -195,7 +195,7 @@ export default function HistoricalTimeline() {
       metaKey="historical_timeline.meta"
       title={timeline.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Historical Timeline' }]}
-      className="layout-md"
+      className="layout-sm"
     >
       {/* Text-to-Speech Player */}
       <TextToSpeech sectionId="timeline-content" className="floating" />
