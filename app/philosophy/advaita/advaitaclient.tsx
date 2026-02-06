@@ -24,7 +24,13 @@ export default function AdvaitaClient() {
   useEffect(() => {
     fetch(`/locales/${locale}/philosophy_advaita.json`)
       .then(res => res.ok ? res.json() : {})
-      .then(data => setAdvaita(data?.philosophy_advaita || data));
+      .then(data => {
+        if (data && typeof data === 'object') {
+          setAdvaita((data as any)?.philosophy_advaita ?? data);
+        } else {
+          setAdvaita({});
+        }
+      });
   }, [locale]);
   const title = advaita?.title || 'Advaita Philosophy';
   const corePrinciples = Array.isArray(advaita.core_principles) ? advaita.core_principles : [];

@@ -2,6 +2,19 @@
 import { t, getLocaleNamespaceObject } from '../../../lib/i18n';
 import { useLocale } from '@/app/context/locale-context';
 import PageLayout from '@/app/components/common/PageLayout';
+const HeroImage = () => (
+  <div className="relative group overflow-hidden rounded-2xl shadow-2xl border-4 border-indigo-300/30 bg-gradient-to-br from-indigo-50/40 to-indigo-100/20 mb-8">
+    <div className="w-full h-48 flex items-center justify-center text-4xl text-indigo-400">[Hero Image Placeholder]</div>
+    <div className="absolute top-4 left-4 w-10 h-10 bg-indigo-400/80 rounded-full flex items-center justify-center shadow-lg text-white text-2xl z-20">🕉️</div>
+  </div>
+);
+const Sidebar = () => (
+  <div className="w-full lg:w-1/4">
+    <div className="sticky top-24">
+      <div className="bg-indigo-50 rounded-xl p-4 shadow-md">[Sidebar Placeholder]</div>
+    </div>
+  </div>
+);
 
 const ns: Record<string, unknown> = {};
 const __getLoc = (p: string) => {
