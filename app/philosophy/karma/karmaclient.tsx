@@ -216,19 +216,16 @@ export default function KrishnaExplainsFiveKarmasClient() {
       metaKey="philosophy_karma"
       title={renderTitle}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Philosophy', href: '/philosophy' }, { label: 'Karma' }]}
-      className={`layout-md`}
+      className="layout-md bg-gradient-to-br from-yellow-50 via-amber-100 to-orange-50 dark:from-gray-900 dark:via-amber-900 dark:to-orange-900 min-h-screen py-12 px-4 md:px-12 lg:px-24 border-l-8 border-amber-400 shadow-2xl"
     >
-      {/* Text-to-Speech Player */}
       <TextToSpeech sectionId="philosophy-karma-content" className="floating" />
-      <div id="philosophy-karma-content">
+      <div id="philosophy-karma-content" className="rounded-xl shadow-xl border-2 border-amber-200/60 bg-white/80 dark:bg-gray-900/60 p-6 md:p-10 lg:p-14 space-y-8">
         {/* Render script paragraphs (para1, para2, ...) then conversation (alternating chat bubbles). */}
         {(() => {
           const script = parseMaybeObject(ns ? ns.script : '') || {};
-          // If `story` exists from translations or state, render it first.
           if (renderStory && renderStory.length > 0) {
             return <Paragraphs lines={renderStory} />;
           }
-          // collect paraN in order
           const paraKeys = Object.keys(script || {}).filter(k => /^para\d+$/.test(k));
           paraKeys.sort((a, b) => {
             const na = Number(a.replace(/[^0-9]/g, '')) || 0;
@@ -239,7 +236,6 @@ export default function KrishnaExplainsFiveKarmasClient() {
           const convo = script && Array.isArray(script.conversation)
             ? script.conversation
             : parseSections(script?.conversation || '');
-          // if we have paras or conversation, render them
           if ((Array.isArray(paras) && paras.length) || (Array.isArray(convo) && convo.length)) {
             return (
               <>

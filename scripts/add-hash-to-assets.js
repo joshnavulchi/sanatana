@@ -1,5 +1,6 @@
 // scripts/add-hash-to-assets.js
 // Adds a content hash to CSS and JS files for cache busting and updates references in HTML/JSX files.
+// Only run this script in the Render build process, not locally.
 
 const fs = require('fs');
 const path = require('path');
@@ -42,6 +43,11 @@ function updateReferences(oldName, newName) {
 }
 
 function main() {
+  // Only run if RENDER environment variable is set (i.e., on Render.com)
+  if (!process.env.RENDER) {
+    console.log('Skipping asset hash: not running in Render build environment.');
+    return;
+  }
   ASSET_DIRS.forEach(dir => {
     TARGET_EXTENSIONS.forEach(ext => {
       const files = glob.sync(`${dir}/**/*${ext}`);

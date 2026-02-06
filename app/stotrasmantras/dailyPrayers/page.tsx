@@ -1,43 +1,10 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-
-const ns: Record<string, unknown> = {};
-const __getLoc = (p: string) => {
-  if (!ns) return '';
-  const parts = p.split('.');
-  const namespaceKey = parts[0] === 'dailyPrayers_stotrasmantras' ? parts.shift() : 'dailyPrayers_stotrasmantras';
-  let cur: any = (ns as any)?.[namespaceKey!] || ns as any;
-  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
-  return cur;
-};
-import { t, getMeta } from '../../../lib/i18n';
 import { createGenerateMetadata } from 'lib/pageUtils';
-import { useLocale } from '../../context/locale-context';
-import PageLayout from '@/app/components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('dailyPrayers_stotrasmantras');
+export const generateMetadata = createGenerateMetadata('stostrasmantras_dailyprayers');
 
-export default function Page({ searchParams }: any) {
-  "use client";
-  const { locale } = useLocale();
-  const S = (k: string) => String(t(k, locale));
-  const page: any = (() => {
-    const k: any = getMeta('dailyPrayers_stotrasmantras', {}, locale) || {};
-    return {
-      title: typeof k.title === 'string' ? k.title : String(__getLoc('dailyPrayers_stotrasmantras.title') || 'Daily Prayers'),
-      items: Array.isArray(k.items) ? k.items : []
-    };
-  })();
+import DailyPrayersClient from './dailyPrayersclient';
 
-  return (
-    <>
-      <PageLayout
-        metaKey="dailyPrayers_stotrasmantras"
-        title={page.title}
-        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: (page.title || '') }]}
-        className=""
-      >
-        <p>Placeholder for daily prayers and short mantras.</p>
-      </PageLayout>
-    </>
-  );
+export default function Page() {
+  return <DailyPrayersClient />;
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
