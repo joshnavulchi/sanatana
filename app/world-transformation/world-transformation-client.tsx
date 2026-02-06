@@ -5,7 +5,6 @@ import { useLocale } from '../context/locale-context';
 import useLocaleSection from '../hooks/useLocaleSection';
 import PageLayout from '@/app/components/common/PageLayout';
 import Loader from '@/app/components/loader/loader';
-import EarthTimeline from '../components/earth-timeline/EarthTimeline';
 
 export default function WorldTransformationContent() {
   const { locale, isLoading } = useLocale();
@@ -17,7 +16,6 @@ export default function WorldTransformationContent() {
     let mounted = true;
     (async () => {
       if (!mounted) return;
-
       // Access nested data from world_transformation namespace
       const data = (ns as any)?.world_transformation || ns;
       setPageContent(data);
@@ -29,9 +27,9 @@ export default function WorldTransformationContent() {
     return (
       <PageLayout
         metaKey="world_transformation.meta"
-        title={pageContent.meta?.title || 'World Transformation'}
+        title={pageContent?.meta?.title || 'World Transformation'}
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'World Transformation' }]}
-        className="layout-md"
+        className="layout-sm"
       >
         <div className="flex items-center justify-center py-12">
           <Loader />
@@ -43,9 +41,9 @@ export default function WorldTransformationContent() {
   return (
     <PageLayout
       metaKey="world_transformation.meta"
-      title={pageContent.meta?.title || 'World Transformation'}
+      title={pageContent?.meta?.title || 'World Transformation'}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'World Transformation' }]}
-      className="layout-md"
+      className="layout-sm"
     >
       <div className="space-y-12">
         {/* Hero section */}

@@ -8,7 +8,7 @@ import OurFourCoreYugas from './components/our-four-core-yugas/ourfourcoreyugas'
 import UnderstandingOfSanatana from './components/understanding/sanatanaDharmam';
 import WelcomePage from './components/welcome/page';
 import DelayedHomeWidgets from './components/DelayedHomeWidgets';
-import FooterAudioPlayer from './components/FooterAudioPlayer';
+import AudioPlayer from './components/audioplayer';
 
 // Cache critical CSS at module level to avoid repeated file reads
 let cachedCriticalCss: string | null = null;
@@ -42,8 +42,18 @@ export const generateMetadata = createGenerateMetadata('home');
 export default async function Home() {
   // Get cached critical CSS (read once at module load)
   const criticalCss = getCriticalCss();
-
-  // Delayed audio component for Krishna flute
+  const playlist = [
+    {
+      id: 1,
+      title: "Krishna",
+      artist: "Studio Loops",
+      poster: "", // optional
+      sources: [
+        { src: "/krishna-flute.mp3", type: "audio/mpeg" },
+        { src: "/krishna-fluete.ogg", type: "audio/ogg" },
+      ],
+    }
+  ];
 
   return (
     <>
@@ -57,7 +67,21 @@ export default async function Home() {
         {/* Delayed widgets: cookies and clock */}
         {/* <DelayedHomeWidgets />  // Disabled: causes server/client boundary error */}
         {/* Krishna flute background audio player in footer, loads after 1 minute */}
-        <FooterAudioPlayer />
+
+        <AudioPlayer
+          tracks={{
+            id: "solo",
+            title: "Single Track",
+            sources: [
+              { src: "/krishna-flute.mp3", type: "audio/mpeg" },
+              { src: "/krishna-flute.ogg", type: "audio/ogg" },
+            ],
+          }}
+          autoPlay
+          muted={false}
+          loop
+          showPlaylist={false}
+        />
       </main>
     </>
   );
