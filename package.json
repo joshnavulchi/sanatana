@@ -8,7 +8,7 @@
     "dev": "next dev",
     "prebuild": "npm run lint && node scripts/download-locales.js --skip-if-meta && node scripts/compile-scss.js --force && npm run generate:critical:home",
     "build": "node --max-old-space-size=8192 ./node_modules/next/dist/bin/next build",
-    "postbuild": "if [ \"$NODE_ENV\" = \"production\" ]; then node scripts/compile-scss.js --verify && node scripts/strip-comments.js && node scripts/generate-sitemap.js && npm run minify:html && node scripts/add-hash-to-assets.js && node scripts/check-analytics-keys.js; else echo 'Skipping asset versioning and file creation in local build.'; fi",
+    "postbuild": "node scripts/compile-scss.js --verify && node scripts/strip-comments.js && node scripts/generate-sitemap.js && npm run minify:html && node scripts/add-hash-to-assets.js && node scripts/check-analytics-keys.js",
     "strip:comments": "node scripts/strip-comments.js",
     "build:server": "node --max-old-space-size=8192 ./node_modules/next/dist/bin/next build",
     "scss:build": "node scripts/compile-scss.js --force",
@@ -39,6 +39,7 @@
     "suncalc": "^1.9.0"
   },
   "devDependencies": {
+    "@babel/parser": "^7.29.0",
     "@next/bundle-analyzer": "^16.1.6",
     "@tailwindcss/postcss": "^4.1.18",
     "@types/d3": "^7.4.3",
@@ -54,6 +55,8 @@
     "googleapis": "^171.2.0",
     "html-minifier-terser": "^7.2.0",
     "postcss": "^8.5.6",
+    "readline-sync": "^1.4.10",
+    "recast": "^0.23.11",
     "sass": "^1.97.3",
     "sharp": "^0.34.5",
     "topojson-client": "^3.1.0",

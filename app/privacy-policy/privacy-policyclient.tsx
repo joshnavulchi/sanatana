@@ -1,8 +1,8 @@
 "use client";
 import React, { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
+import styles from '../styles.module.scss';
 import { useLocale } from '../context/locale-context';
-import { loadLocale } from 'lib/i18n';
 import useLocaleSection from '../hooks/useLocaleSection';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
 import Loader from '@/app/components/loader/loader';
@@ -81,7 +81,7 @@ export default function PrivacyPolicy() {
     let mounted = true;
     (async () => {
       try {
-        await loadLocale(locale).catch(() => { });
+        // Locale loading is now handled by context/useLocaleSection
       } catch (e) { }
       if (!mounted) return;
 
@@ -105,7 +105,7 @@ export default function PrivacyPolicy() {
       metaKey="privacy_policy.meta"
       title={privacy.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Privacy policy' }]}
-      className={`layout-sm`}
+      className="layout-sm"
     >
       <div id="privacy-content" className="space-y-8">
         {/* Header */}

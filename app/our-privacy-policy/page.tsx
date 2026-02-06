@@ -1,12 +1,12 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import PageLayout from '@/app/components/common/PageLayout';
-import { createGenerateMetadata, resolveLocaleFromHeaders } from 'lib/pageUtils';
-import { t, detectLocale } from '../../lib/i18n';
+import { createGenerateMetadata } from 'lib/pageUtils';
+import { t, detectLocale, DEFAULT_LOCALE } from '../../lib/i18n';
 
 export const generateMetadata = createGenerateMetadata('policies', 'policies.privacypolicy.title', 'policies.privacypolicy.intro');
 
 export default function PrivacyPolicyPage({ searchParams }: any) {
-  const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
+  const locale = detectLocale(searchParams) || DEFAULT_LOCALE;
   const S = (k: string) => String(t(k, locale));
 
   const page = {

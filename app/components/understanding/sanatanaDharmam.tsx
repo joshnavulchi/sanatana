@@ -51,7 +51,7 @@ export default function UnderstandingOfSanatana() {
   }, [locale]);
 
   return (
-    <div className="relative px-3 overflow-hidden bg-gradient-to-b from-white via-amber-50/30 to-white dark:from-gray-900 dark:via-amber-950/20 dark:to-gray-900 dark:text-amber-100">
+    <div className="relative z-0 px-3 overflow-hidden bg-gradient-to-b from-white via-amber-50/30 to-white dark:from-gray-900 dark:via-amber-950/20 dark:to-gray-900 dark:text-amber-100">
       <div className="absolute top-0 left-1/4 w-64 h-64 bg-amber-200/20 dark:bg-amber-500/10 rounded-full blur-3xl" />
       <div className="absolute bottom-0 right-1/4 w-80 h-80 bg-orange-200/20 dark:bg-orange-500/10 rounded-full blur-3xl" />
 
@@ -59,7 +59,7 @@ export default function UnderstandingOfSanatana() {
         {sections.map((section, sectionIndex) => (
           <div
             key={section.id}
-            className={`mb-12 last:mb-0 transition-all duration-1000 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+            className={`mx-auto max-w-7xl mb-12 last:mb-0 transition-all duration-1000 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
               }`}
             style={{ transitionDelay: `${sectionIndex * 150}ms` }}
           >
@@ -97,7 +97,7 @@ export default function UnderstandingOfSanatana() {
             {/* Items */}
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
               {section.items?.map((topic, topicIndex) => (
-                <div key={`${section.id}-${topic.id || topicIndex}`} className="bg-white dark:bg-gray-900 rounded-2xl border p-6 shadow-lg hover:shadow-xl transition dark:text-amber-100">
+                <div key={`${section.id}-${topic.id || topicIndex}`} className="bg-white dark:bg-gray-900 rounded-2xl p-6 shadow-lg hover:shadow-xl transition dark:text-amber-100">
                   <div className="text-center">
                     {topic.src && (
                       <LazyImage

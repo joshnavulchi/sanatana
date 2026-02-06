@@ -1,8 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import fs from 'fs';
-import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
+import { createGenerateMetadata } from 'lib/pageUtils';
 import path from 'path';
-import { detectLocale, t } from '../lib/i18n';
 import GitSupport from './components/git-support/git-support';
 import HeroSection from './components/hero-section/herosection';
 import OurFourCoreYugas from './components/our-four-core-yugas/ourfourcoreyugas';
@@ -41,7 +40,6 @@ function getCriticalCss(): string {
 export const generateMetadata = createGenerateMetadata('home');
 
 export default async function Home() {
-  const locale = detectLocale() || resolveLocaleFromHeaders();
   // Get cached critical CSS (read once at module load)
   const criticalCss = getCriticalCss();
 
@@ -50,8 +48,6 @@ export default async function Home() {
   return (
     <>
       {criticalCss ? <style dangerouslySetInnerHTML={{ __html: criticalCss }} /> : null}
-      {/* Krishna flute background audio player in footer, loads after 1 minute */}
-      {/* <FooterAudioPlayer /> */}
       <main>
         <WelcomePage />
         <HeroSection />
@@ -60,6 +56,8 @@ export default async function Home() {
         <OurFourCoreYugas />
         {/* Delayed widgets: cookies and clock */}
         {/* <DelayedHomeWidgets />  // Disabled: causes server/client boundary error */}
+        {/* Krishna flute background audio player in footer, loads after 1 minute */}
+        <FooterAudioPlayer />
       </main>
     </>
   );

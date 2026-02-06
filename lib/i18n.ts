@@ -23,35 +23,7 @@ if (typeof window !== 'undefined') {
   } catch (_) { }
 }
 
-export function getLocaleObject(locale = DEFAULT_LOCALE) {
-  if (localesCache[locale]) return localesCache[locale];
 
-  if (typeof window === 'undefined') {
-    try {
-      const fs = require('fs');
-      const path = require('path');
-      const filePath = path.join(process.cwd(), 'public', 'locales', locale, 'index.json');
-      if (fs.existsSync(filePath)) {
-        const content = fs.readFileSync(filePath, 'utf8');
-        const obj = JSON.parse(content);
-        localesCache[locale] = obj;
-        return obj;
-      }
-    } catch (_) { }
-  }
-
-  if (typeof window !== 'undefined') {
-    try {
-      const globalCache = (globalThis as any).__LOCALE_CACHE__;
-      if (globalCache && globalCache[locale]) {
-        localesCache[locale] = globalCache[locale];
-        return localesCache[locale];
-      }
-    } catch (_) { }
-  }
-
-  return localesCache[DEFAULT_LOCALE] || {};
-}
 
 export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = '') {
   if (!namespace) return {};
@@ -81,41 +53,10 @@ export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = ''
   return {};
 }
 
-async function fetchLocaleData(locale: string) {
-  try {
-    const url = `/locales/${locale}/index.json`;
-    const resp = await fetch(url);
-    if (resp.ok) return await resp.json();
-    else console.warn(`[i18n] fetchLocaleData: ${url} returned ${resp.status}`);
-  } catch (e) { console.warn(`[i18n] fetchLocaleData: error fetching ${locale} index`, e); }
+// Deprecated: No longer used. Only per-namespace files are loaded now.
+// function fetchLocaleData(locale: string) { return {}; }
 
-  try {
-    const apiUrl = `/api/locales/${encodeURIComponent(locale)}`;
-    const apiResp = await fetch(apiUrl);
-    if (apiResp.ok) return await apiResp.json();
-    else console.warn(`[i18n] fetchLocaleData: ${apiUrl} returned ${apiResp.status}`);
-  } catch (e) { console.warn(`[i18n] fetchLocaleData: error fetching api locale ${locale}`, e); }
 
-  if (REMOTE_LOCALES_BASE) {
-    try {
-      const remoteUrl = `${REMOTE_LOCALES_BASE}/${encodeURIComponent(locale)}/index.json`;
-      const r = await fetch(remoteUrl);
-      if (r.ok) return await r.json();
-    } catch (_) { }
-  }
-
-  if (locale !== DEFAULT_LOCALE && localesCache[DEFAULT_LOCALE]) return localesCache[DEFAULT_LOCALE];
-  return {};
-}
-
-export async function loadLocale(locale: string) {
-  if (!locale) return {};
-  if (locale === DEFAULT_LOCALE && localesCache[DEFAULT_LOCALE]) return localesCache[DEFAULT_LOCALE];
-  if (localesCache[locale]) return localesCache[locale];
-  const obj = await fetchLocaleData(locale);
-  localesCache[locale] = obj;
-  return obj;
-}
 
 export async function loadLocaleNamespace(locale: string, namespace: string) {
   if (!locale || !namespace) return {};
@@ -148,51 +89,23 @@ export async function loadLocaleNamespace(locale: string, namespace: string) {
   
   console.warn(`[i18n] loadLocaleNamespace: could not load ${namespace} for ${locale}`);
 
-  const full = await loadLocale(locale);
-  if (full && typeof full === 'object' && (full as any)[namespace]) {
-    try { (localesCache[locale] as any)[namespace] = (full as any)[namespace]; } catch (_) { }
-    return (full as any)[namespace];
-  }
+  // No fallback to full locale object; only per-namespace files are supported now.
   return {};
 }
 
 export function t(key: string, locale = DEFAULT_LOCALE): any {
+  // Only per-namespace translation is supported now
   const keys = key.split('.');
-  let cur: unknown = getLocaleObject(locale);
-
-  if ((typeof cur !== 'object' || Object.keys(cur as object).length === 0) && typeof window === 'undefined' && keys.length > 0) {
-    try {
-      const namespace = keys[0];
-      const nsObj = getLocaleNamespaceObject(locale, namespace);
-      if (nsObj && typeof nsObj === 'object' && Object.keys(nsObj).length > 0) cur = { [namespace]: nsObj };
-    } catch (_) { }
-  }
-
-  if (!cur || (typeof cur === 'object' && Object.keys(cur as object).length === 0)) return key;
-
-  for (const k of keys) {
-    if (!cur) {
-      if (locale !== DEFAULT_LOCALE) {
-        try {
-          const def = getLocaleObject(DEFAULT_LOCALE) as any;
-          let curDef: unknown = def;
-          for (const kk of keys) {
-            if (!curDef) break;
-            curDef = (curDef as any)[kk];
-          }
-          if (curDef) return curDef;
-        } catch (_) { }
-      }
-      return key;
-    }
-    cur = (cur as any)[k];
+  if (keys.length === 0) return key;
+  const namespace = keys[0];
+  const nsObj = getLocaleNamespaceObject(locale, namespace);
+  let cur: any = nsObj;
+  for (let i = 1; i < keys.length; i++) {
+    if (!cur) return key;
+    cur = cur[keys[i]];
   }
   if (Array.isArray(cur)) return cur;
-  if (cur !== null && typeof cur === 'object') {
-    // Return objects as-is instead of stringifying them
-    // This prevents hydration mismatches and JSON string display issues
-    return cur;
-  }
+  if (cur !== null && typeof cur === 'object') return cur;
   return cur ?? key;
 }
 
@@ -214,70 +127,12 @@ function interpolateObject(obj: unknown, params?: Record<string, string>): unkno
 }
 
 export function getMeta(metaKey: string, params?: Record<string, string>, locale = DEFAULT_LOCALE) {
-  const looksLikeMeta = (obj: unknown) => {
-    if (!obj || typeof obj !== 'object') return false;
-    const keys = Object.keys(obj as Record<string, unknown>);
-    const metaKeys = ['title', 'description', 'keywords', 'ogImage', 'url', 'canonical'];
-    return keys.some(k => metaKeys.includes(k));
-  };
-
-  if (typeof window === 'undefined') {
-    const localeData = getLocaleObject(locale) as any;
-    if (localeData && typeof localeData === 'object') {
-      if (localeData[metaKey]?.meta) {
-        const meta = localeData[metaKey].meta;
-        if (looksLikeMeta(meta)) return interpolateObject(meta, params) as Record<string, unknown>;
-      }
-      // Try various candidate key formats to handle naming inconsistencies
-      const candidates = [
-        metaKey,
-        metaKey.replace(/-/g, '_'),
-        metaKey.replace(/_/g, '-'),
-        metaKey.replace(/_/g, ''),
-        // Handle reversed word order (e.g., 'ritual_practices' <-> 'practices_rituals')
-        metaKey.split('_').reverse().join('_'),
-        metaKey.split('-').reverse().join('-')
-      ];
-      for (const candidate of candidates) {
-        if (localeData[candidate]?.meta) {
-          const meta = localeData[candidate].meta;
-          if (looksLikeMeta(meta)) return interpolateObject(meta, params) as Record<string, unknown>;
-        }
-      }
-    }
-    
-    // Fallback: try to load namespace file directly if index.json doesn't exist
-    if (!localeData || Object.keys(localeData).length === 0) {
-      try {
-        const ns = getLocaleNamespaceObject(locale, metaKey);
-        if (ns && typeof ns === 'object') {
-          // Try multiple key patterns in the namespace file
-          const nsCandidates = [
-            metaKey,
-            metaKey.replace(/-/g, '_'),
-            metaKey.replace(/_/g, '-'),
-            metaKey.split('_').reverse().join('_'),
-            metaKey.split('-').reverse().join('-')
-          ];
-          
-          for (const candidate of nsCandidates) {
-            // Handle nested structure: { "metaKey": { "meta": {...} } }
-            if ((ns as any)[candidate]?.meta) {
-              const meta = (ns as any)[candidate].meta;
-              if (looksLikeMeta(meta)) return interpolateObject(meta, params) as Record<string, unknown>;
-            }
-          }
-          
-          // Handle direct meta structure: { "meta": {...} }
-          if ((ns as any).meta) {
-            const meta = (ns as any).meta;
-            if (looksLikeMeta(meta)) return interpolateObject(meta, params) as Record<string, unknown>;
-          }
-        }
-      } catch (e) { /* ignore */ }
-    }
+  // Only per-namespace meta is supported now
+  const nsObj = getLocaleNamespaceObject(locale, metaKey);
+  if (nsObj && typeof nsObj === 'object' && nsObj.meta) {
+    return interpolateObject(nsObj.meta, params) as Record<string, unknown>;
   }
-  return interpolateObject({}, params) as Record<string, unknown>;
+  return {};
 }
 
 export function detectLocale(searchParams?: unknown) {

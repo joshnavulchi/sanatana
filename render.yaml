@@ -3,6 +3,13 @@ services:
     name: sanatanadharmam.in
     env: node
     plan: free
+    envVars:
+      - key: NEXT_PUBLIC_GA_ID
+        sync: false # Set to true if you want to sync from Render dashboard
+        value: "${NEXT_PUBLIC_GA_ID}"
+      - key: NEXT_PUBLIC_GTM_ID
+        sync: false
+        value: "${NEXT_PUBLIC_GTM_ID}"
     # Recommended: enable a persistent disk or build cache for `public/locales` in Render
     # so locale downloads are cached between builds.
     buildCommand: |

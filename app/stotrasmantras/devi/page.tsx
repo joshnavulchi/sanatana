@@ -1,71 +1,9 @@
-/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+import { createGenerateMetadata } from 'lib/pageUtils';
+export const generateMetadata = createGenerateMetadata('stostrasmantras_devi');
 
-const ns: Record<string, unknown> = {};
-const __getLoc = (p: string) => {
-  if (!ns) return '';
-  const parts = p.split('.');
-  const namespaceKey = parts[0] === 'devi_stotras' ? parts.shift() : 'devi_stotras';
-  let cur: any = (ns as any)?.[namespaceKey!] || ns as any;
-  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
-  return cur;
-};
-import { t, detectLocale, getMeta } from '../../../lib/i18n';
-import { parseList } from 'lib/parseList';
-import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
-import PageLayout from '@/app/components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('devi_stotras'); 
+import DeviClient from './deviclient';
 
-export default function Page({ searchParams }: any) {
-  const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
-  const S = (k: string) => String(t(k, locale));
-  const page: any = (() => {
-    const k: any = getMeta('devi_stotras', {}, locale) || {};
-    return {
-      title: typeof k.title === 'string' ? k.title : String(__getLoc('devi_stotras.title') || 'Devi Stotras'),
-      items: Array.isArray(k.items) ? k.items : parseList(__getLoc('devi_stotras.devi_stotras'))
-    };
-  })();
-  const items = page.items || [];
-  return (
-    <>
-      <PageLayout
-        metaKey="devi_stotras"
-        title={page.title}
-        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: (page.title || '') }]}
-        className="layout-sm"
-      >
-        {items.map((item: any, i: number) => (
-          <section key={i}>
-            <h2 className="h4">{item.name || item.title || `Item ${i + 1}`}</h2>
-            <div>
-              {item.origin || item.author || item.language ? (
-                <span>
-                  {item.author ? `${item.author}` : null}
-                  {item.origin ? `${item.author ? ' — ' : ''}${item.origin}` : null}
-                  {item.language ? `${item.author || item.origin ? ' — ' : ''}${item.language}` : null}
-                </span>
-              ) : null}
-            </div>
-            {item.description ? <p>{item.description}</p> : null}
-            {item.benefits && Array.isArray(item.benefits) ? (
-              <ul role="list" className="list-disc">
-                {item.benefits.map((b: string, idx: number) => (
-                  <li key={idx}>{b}</li>
-                ))}
-              </ul>
-            ) : null}
-            {item.key_excerpt ? <blockquote>{item.key_excerpt}</blockquote> : null}
-            {item.sections && typeof item.sections === 'object' ? (
-              <div>
-                {Object.entries(item.sections).map(([k, v]: any) => (
-                  <p key={k}><strong>{k}:</strong> {String(v)}</p>
-                ))}
-              </div>
-            ) : null}
-          </section>
-        ))}
-      </PageLayout>
-    </>
-  );
+export default function Page() {
+  return <DeviClient />;
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

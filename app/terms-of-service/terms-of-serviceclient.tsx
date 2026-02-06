@@ -1,8 +1,7 @@
 "use client";
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
-import { loadLocale } from 'lib/i18n';
 import useLocaleSection from '../hooks/useLocaleSection';
 import Loader from '@/app/components/loader/loader';
 
@@ -22,9 +21,7 @@ export default function TermsOfService() {
   useEffect(() => {
     let mounted = true;
     (async () => {
-      try {
-        await loadLocale(locale).catch(() => { });
-      } catch (e) { }
+      // Locale loading is now handled by context/useLocaleSection
       if (!mounted) return;
 
       const title = ns?.title || '';
@@ -89,7 +86,7 @@ export default function TermsOfService() {
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
       className="layout-sm"
     >
-      <div id="terms-of-service-content" className="space-y-8">
+      <div className="space-y-8" id="terms-of-service-content">
         {/* Header with last updated */}
         <div className="flex items-center justify-between flex-wrap gap-4 pb-6 border-b-2 border-amber-200 dark:border-amber-800">
           <div className="flex items-center gap-3">

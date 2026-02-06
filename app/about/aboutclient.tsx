@@ -1,8 +1,8 @@
 "use client";
 import { useEffect, useState } from 'react';
+import styles from '../styles.module.scss';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
-import { loadLocale } from 'lib/i18n';
 import useLocaleSection from '../hooks/useLocaleSection';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
 import Loader from '@/app/components/loader/loader';
@@ -21,7 +21,7 @@ export default function AboutClient() {
     let mounted = true;
     (async () => {
       try {
-        await loadLocale(locale).catch(() => { });
+        // Locale loading is now handled by context/useLocaleSection
       } catch (e) { }
 
       if (!mounted) return;
@@ -42,7 +42,7 @@ export default function AboutClient() {
         metaKey="about"
         title=""
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'About' }]}
-        className={`layout-sm`}
+        className="layout-sm"
       >
         <div className="flex items-center justify-center py-12">
           <Loader />
@@ -56,7 +56,7 @@ export default function AboutClient() {
       metaKey="about"
       title={about.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'About' }]}
-      className={`layout-md`}
+      className="layout-md"
     >
       {/* Text-to-Speech Player */}
       <TextToSpeech sectionId="about-content" className="floating" />
