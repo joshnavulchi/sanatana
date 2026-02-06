@@ -207,7 +207,7 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
     <div className="fixed z-9 top-32 left-4 max-w-xs md:max-w-sm" style={{ pointerEvents: 'none' }}>
       <div className="relative">
         <button
-          className="absolute -top-4 -left-2 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:to-pink-600 text-white shadow-lg rounded-full px-2 py-2 text-xs tracking-widest border-2 border-white dark:border-gray-800 focus:outline-none focus:ring-4 focus:ring-pink-300 transition-all duration-300 flex"
+          className="absolute -top-4 -left-2 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:to-pink-600 text-white shadow-lg rounded-full px-2 py-2 text-xs tracking-widest border-2 border-white dark:border-gray-800 focus:outline-none focus:ring-4 focus:ring-pink-300 transition-all duration-300 flex cursor-pointer"
           onClick={toggle}
           aria-expanded={visible}
           aria-controls="digital-clock-box"
@@ -235,7 +235,7 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
           aria-live="polite"
         >
           <div id="digital-clock-box" role="status" className="w-full">
-            {showDate && <div className="text-xs text-gray-500 dark:text-gray-300 mb-1 text-right">{dateStr}</div>}
+            {showDate && <div className="text-lg font-bold text-gray-500 dark:text-gray-300 mb-1 text-right">{dateStr}</div>}
             <div className="flex items-baseline justify-end gap-2">
               <div className="flex items-baseline gap-1">
                 <div className="flex text-3xl md:text-4xl font-mono font-bold text-blue-700 dark:text-blue-300 select-none">
@@ -259,7 +259,7 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
               </div>
             </div>
             {latLng && (
-              <div className="text-xs mt-2 text-right space-y-1">
+              <div className="text-xs flex flex-col text-right gap-2 mt-2">
                 {sunrise && (
                   <div className="flex items-center gap-2 justify-end bg-gradient-to-r from-yellow-200 via-yellow-100 to-white dark:from-yellow-900 dark:via-yellow-800 dark:to-gray-900 rounded-lg px-2 py-1 shadow-sm mb-1">
                     <span className="inline-block text-yellow-500 dark:text-yellow-300">

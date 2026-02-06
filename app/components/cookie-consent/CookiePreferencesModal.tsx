@@ -51,7 +51,7 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
       <div className="relative bg-gradient-to-br from-white via-blue-50 to-blue-100 dark:from-gray-900 dark:via-blue-950 dark:to-blue-900 border-2 border-blue-400 dark:border-blue-700 shadow-2xl rounded-2xl max-w-lg md:max-w-4xl w-full mx-4 p-6 flex flex-col gap-4 animate-fadeInUp">
         <div className="flex items-center justify-between mb-2">
           <span className="text-lg font-bold text-blue-700 dark:text-blue-300">Cookie Preferences</span>
-          <button className="text-blue-500 hover:text-blue-700 dark:text-blue-300 dark:hover:text-blue-400 text-2xl font-bold px-2 py-1 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400" aria-label="close" onClick={onClose}>✕</button>
+          <button className="cursor-pointer text-blue-500 hover:text-blue-700 dark:text-blue-300 dark:hover:text-blue-400 text-2xl font-bold px-2 py-1 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400" aria-label="close" onClick={onClose}>✕</button>
         </div>
         <div className="flex flex-col md:flex-row gap-4">
           <nav role="menu" className="md:w-1/3 w-full">
@@ -59,7 +59,7 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
               {TABS.map((t, idx) => (
                 <li key={idx}>
                   <button
-                    className={`w-full text-left px-3 py-2 rounded-lg font-medium transition-colors ${active === t.id ? 'bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300' : 'bg-transparent text-gray-700 dark:text-gray-300 hover:bg-blue-50 dark:hover:bg-blue-800'}`}
+                    className={`cursor-pointer w-full text-left px-3 py-2 rounded-lg font-medium transition-colors ${active === t.id ? 'bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300' : 'bg-transparent text-gray-700 dark:text-gray-300 hover:bg-blue-50 dark:hover:bg-blue-800'}`}
                     onClick={() => setActive(t.id)}
                   >
                     {t.title}
@@ -101,9 +101,9 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
               </div>
             )}
             <div className="flex gap-2 mt-4 justify-end">
-              <button className="px-4 py-2 rounded-lg bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 font-medium hover:bg-gray-300 dark:hover:bg-gray-600 transition" onClick={onClose}>Cancel</button>
-              <button className="px-4 py-2 rounded-lg bg-blue-500 text-white font-medium hover:bg-blue-600 transition" onClick={save}>Save preferences</button>
-              <button className="px-4 py-2 rounded-lg bg-green-500 text-white font-medium hover:bg-green-600 transition" onClick={acceptAll}>Accept all</button>
+              <button className="cursor-pointer px-4 py-2 rounded-lg bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 font-medium hover:bg-gray-300 dark:hover:bg-gray-600 transition" onClick={onClose}>Cancel</button>
+              <button className="cursor-pointer px-4 py-2 rounded-lg bg-blue-500 text-white font-medium hover:bg-blue-600 transition" onClick={save}>Save preferences</button>
+              <button className="cursor-pointer px-4 py-2 rounded-lg bg-green-500 text-white font-medium hover:bg-green-600 transition" onClick={acceptAll}>Accept all</button>
             </div>
           </div>
         </div>

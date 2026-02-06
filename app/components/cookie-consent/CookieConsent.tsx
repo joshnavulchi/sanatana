@@ -184,10 +184,10 @@ export default function CookieConsent() {
           ">
             {/* Decorative gradient overlay */}
             <div className="absolute inset-0 bg-gradient-to-br from-amber-500/5 via-transparent to-orange-500/5 pointer-events-none" />
-            
+
             {/* Top border accent */}
             <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-400 via-orange-500 to-amber-400" />
-            
+
             {/* Content */}
             <div className="relative z-10 p-6 md:p-8">
               <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
@@ -206,7 +206,7 @@ export default function CookieConsent() {
                     🍪
                   </div>
                 </div>
-                
+
                 {/* Text content */}
                 <div className="flex-1">
                   <h3 className="text-lg md:text-xl font-bold text-gray-900 dark:text-white mb-2 flex items-center gap-2">
@@ -232,7 +232,7 @@ export default function CookieConsent() {
 
               {/* Buttons */}
               <div className="flex flex-col sm:flex-row items-center justify-end gap-3 mt-6">
-                <button 
+                <button
                   className="
                     px-6 py-3
                     bg-white dark:bg-gray-800
@@ -246,7 +246,8 @@ export default function CookieConsent() {
                     transform hover:-translate-y-0.5
                     no-underline
                     whitespace-nowrap
-                  " 
+                    cursor-pointer
+                  "
                   onClick={() => setModalOpen(true)}
                 >
                   <span className="flex items-center justify-center gap-2">
@@ -257,7 +258,7 @@ export default function CookieConsent() {
                     {localeObj?.cookieconsent?.managerbutton || 'Cookie Preferences'}
                   </span>
                 </button>
-                <button 
+                <button
                   className="
                     px-6 py-3
                     bg-gradient-to-r from-amber-500 to-orange-600
@@ -270,7 +271,8 @@ export default function CookieConsent() {
                     transform hover:-translate-y-0.5
                     no-underline
                     whitespace-nowrap
-                  " 
+                    cursor-pointer
+                  "
                   onClick={acceptAll}
                 >
                   <span className="flex items-center justify-center gap-2">
@@ -282,7 +284,7 @@ export default function CookieConsent() {
                 </button>
               </div>
             </div>
-            
+
             {/* Decorative corner accents */}
             <div className="absolute bottom-0 right-0 w-32 h-32 bg-gradient-to-tl from-amber-400/10 to-transparent rounded-tl-full pointer-events-none" />
           </div>

@@ -6,7 +6,7 @@ const CookieConsent = dynamic(() => import('./cookie-consent/CookieConsent'), { 
 
 const DigitalClockClient = dynamic(() => import('./digitalclock/digitalclock'), { ssr: false });
 
-export default function DelayedHomeWidgets() {
+export default function HomeWidgets() {
   const [show, setShow] = useState(false);
   useEffect(() => {
     const timer = setTimeout(() => setShow(true), 2000); // 2 seconds after DOM rendered

@@ -7,7 +7,7 @@ import HeroSection from './components/hero-section/herosection';
 import OurFourCoreYugas from './components/our-four-core-yugas/ourfourcoreyugas';
 import UnderstandingOfSanatana from './components/understanding/sanatanaDharmam';
 import WelcomePage from './components/welcome/page';
-import DelayedHomeWidgets from './components/DelayedHomeWidgets';
+// import DelayedHomeWidgets from './components/homewidget';
 import AudioPlayer from './components/audioplayer';
 
 // Cache critical CSS at module level to avoid repeated file reads
@@ -67,7 +67,6 @@ export default async function Home() {
         {/* Delayed widgets: cookies and clock */}
         {/* <DelayedHomeWidgets />  // Disabled: causes server/client boundary error */}
         {/* Krishna flute background audio player in footer, loads after 1 minute */}
-
         <AudioPlayer
           tracks={{
             id: "solo",
