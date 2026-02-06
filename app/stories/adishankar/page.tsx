@@ -1,27 +1,10 @@
 
-// ...existing code...
-import { useLocale } from '../../context/locale-context';
-import useLocaleSection from '../../hooks/useLocaleSection';
-import { createGenerateMetadata } from 'lib/pageUtils';
-import PageLayout from '@/app/components/common/PageLayout';
-// ...existing code...
+import { createGenerateMetadata } from '@/lib/pageUtils';
+export const generateMetadata = createGenerateMetadata('stories_adhishankaracharya');
+
+import AdvishankarClient from './adishankarclient';
 
 export default function Page() {
-  const { locale } = useLocale();
-  const ns = useLocaleSection('adiShankaracharya_story');
-
-  const title = ns?.title || 'AdiShankaracharya';
-  const homeLabel = ns?.home || 'Home';
-  const placeholder = ns?.placeholder || 'Placeholder page for AdiShankaracharya';
-
-  return (
-    <PageLayout
-      metaKey="adiShankaracharya_story"
-      title={title}
-      breadcrumbs={[{ label: homeLabel, href: '/' }, { label: title }]}
-      className=""
-    >
-      <p>{placeholder}</p>
-    </PageLayout>
-  );
+  return <AdvishankarClient />;
 }
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
