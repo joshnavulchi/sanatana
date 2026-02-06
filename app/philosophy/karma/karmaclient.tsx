@@ -40,10 +40,8 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
                 relative
                 bg-gradient-to-br from-white to-amber-50/30
                 dark:from-gray-800 dark:to-amber-950/20
-                border-l-4 border-amber-500
                 rounded-lg
                 p-6 md:p-8
-                shadow-lg hover:shadow-xl
                 transition-all duration-300
                 hover:-translate-y-1
                 group/para

@@ -5,11 +5,7 @@ import useLocaleSection from '../hooks/useLocaleSection';
 
 export default function CookiePolicyPage() {
   const { locale } = useLocale();
-  const policy = useLocaleSection('privacy_policy');
-  const [data, setData] = useState<any>({});
-  useEffect(() => {
-    if (policy && typeof policy === 'object') setData(policy);
-  }, [policy]);
+  const data = useLocaleSection('privacy_policy');
 
   if (!data || !data.title) return <div className="p-8 text-center text-gray-500">Loading...</div>;
 
