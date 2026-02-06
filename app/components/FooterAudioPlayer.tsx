@@ -17,7 +17,7 @@ export default function FooterAudioPlayer() {
     return () => clearTimeout(timer);
   }, []);
   return (
-    <div style={{ position: 'fixed', left: 0, bottom: 0, height: '0', width: '100%', zIndex: 1000, textAlign: 'center', background: 'transparent' }}>
+    <div className="bg-blue-600" style={{ position: 'fixed', left: 0, bottom: 0, width: '100%', zIndex: 1000, textAlign: 'center', background: 'transparent' }}>
       {showPlayer && (
         <>
           <audio
