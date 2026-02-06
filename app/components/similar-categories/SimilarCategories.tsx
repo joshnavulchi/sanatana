@@ -5,8 +5,6 @@ import Link from 'next/link';
 import { loadLocaleNamespace } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
 
-import styles from '@app/styles.module.scss';
-
 interface SimilarCategoriesProps {
   currentCategory?: string; // e.g., 'philosophy', 'scriptures', 'kidszone'
   title?: string;
@@ -89,28 +87,28 @@ export default function SimilarCategories({
   }, [locale, currentCategory, maxItems, excludeCurrent]);
   if (categories.length === 0) {
     return (
-      <aside className={styles.similarCategories}>
-        <h5 className={styles.title}>{title}</h5>
+      <aside className="p-4">
+        <h5>{title}</h5>
         <p>Loading categories or no categories available...</p>
       </aside>
     );
   }
   return (
-    <aside className={styles.similarCategories}>
-      <h5 className={styles.title}>{title}</h5>
-      <div className={styles.categoriesGrid}>
+    <aside>
+      <h5 className="text-2xl">{title}</h5>
+      <div>
         {categories.map((category) => {
           return (
-            <div key={category.key} className={styles.categoryCard}>
-              <h6 className={styles.categoryTitle}>
-                <Link href={`/${category.key}`} className={styles.categoryLink}>
+            <div key={category.key} className="shadown-sm p-4">
+              <h6 className="text-lg mb-3">
+                <Link href={`/${category.key}`}>
                   {category.title}
                 </Link>
               </h6>
-              <ul className={styles.linkList}>
+              <ul>
                 {category.links.map((link) => (
-                  <li key={link.key} className={styles.linkItem}>
-                    <Link href={link.href} className={styles.link}>
+                  <li key={link.key}>
+                    <Link href={link.href}>
                       {link.label}
                     </Link>
                   </li>

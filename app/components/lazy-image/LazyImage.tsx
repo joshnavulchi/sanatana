@@ -1,23 +1,16 @@
 "use client";
 import React, { useEffect, useRef, useState } from 'react';
 import Image, { type ImageProps } from 'next/image';
+import { generateCustomPlaceholderURL } from 'react-placeholder-image';
 import Loader from '../loader/loader';
 import useDeferAssets from '../../../lib/useDeferAssets';
 
-type Props = {
-  src: ImageProps['src'];
-  alt?: string;
-  width?: number;
-  height?: number;
-  className?: string;
-  placeholder?: React.ReactNode;
-  onLoad?: () => void;
-  unoptimized?: boolean;
-} & Partial<ImageProps>;
-
-export default function LazyImage({ src, alt = '', width, height, className, placeholder, onLoad, unoptimized, ...rest }: Props) {
+export default function LazyImage({ src, alt, width, height, className, placeholder, onLoad, unoptimized, ...rest }: any) {
+  // Only pass rest props that are not src, alt, width, height
+  const { ...safeRest } = rest;
   const containerRef = useRef<HTMLDivElement | null>(null);
   const [visible, setVisible] = useState(false);
+  const [imgError, setImgError] = useState(false);
   const deferReady = useDeferAssets();
   const loadNow = deferReady && visible;
 
@@ -41,9 +34,26 @@ export default function LazyImage({ src, alt = '', width, height, className, pla
 
   return (
     <div ref={containerRef} className={className} style={{ minHeight: height ? `${height}px` : undefined }}>
-      {!loadNow ? (placeholder ?? <Loader />) : (
-        // @ts-expect-error next/image typings are finicky with dynamic props
-        <Image src={src} alt={alt} width={width} height={height} onLoad={onLoad} loading="eager" unoptimized={unoptimized} {...(rest as ImageProps)} />
+      {!loadNow ? (<Loader />) : imgError ? (
+        <img
+          src={generateCustomPlaceholderURL(Number(width) || 400, Number(height) || 200, { text: typeof alt === 'string' ? alt : 'Image', backgroundColor: '#fbbf24', textColor: '#fff' })}
+          alt={typeof alt === 'string' ? alt : 'placeholder'}
+          width={width}
+          height={height}
+        />
+      ) : (
+        <Image
+          src={src}
+          alt={alt}
+          width={width}
+          height={height}
+          onLoad={onLoad}
+          onError={() => setImgError(true)}
+          loading="eager"
+          unoptimized={unoptimized}
+          {...safeRest}
+        />
+        
       )}
     </div>
   );

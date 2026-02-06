@@ -165,17 +165,16 @@ export default function Header() {
     <header ref={headerRef} className={`w-full sticky top-0 z-30 shadow-md`}>
       {/* <BannerNotifications id="first_banner" message={translations.banner} marquee="true" />
       {/* <BannerNotifications id="second_banner" message={translations.banner2} marquee="false" showClose={true} backgroundclass="notification-alternative-background-color" /> */}
-      <div className="w-full px-2 md:px-0 bg-white/90 shadow-md sticky top-0 z-30">
+      <div className="w-full px-2 md:px-0 bg-white/95 shadow-md sticky top-0 z-30">
         <div className="max-w-7xl mx-auto flex items-center justify-between p-1">
           {/* Logo and Title */}
           <Link href="/" className="flex items-center gap-2 group">
             <LazyImage
               src="/images/logo.png"
               alt="Sanatanadharmam Logo"
-              width={65}
-              height={65}
-              sizes="(min-width:1024px) 50px, 45px"
-              className="hidden md:flex md:w-[50px] md:w-[45px]"
+              width={45}
+              height={40}
+              className="hidden md:flex"
             />
             <span className="font-extrabold text-3xl md:text-4xl bg-gradient-to-r from-orange-600 via-amber-700 to-yellow-600 bg-clip-text text-transparent tracking-tight drop-shadow-lg">
               {translations.siteTitle}

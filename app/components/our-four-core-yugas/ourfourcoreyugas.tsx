@@ -117,7 +117,7 @@ export default function OurFourCoreYugas() {
   const [isVisible] = useState(true);
 
   return (
-    <section className="relative px-3 bg-[radial-gradient(120%_120%_at_50%_0%,#8a3a31_10%,#b25435_40%,#502a26_100%)] text-center py-20 md:py-32 overflow-hidden">
+    <section className="relative z-0 px-3 bg-[radial-gradient(120%_120%_at_50%_0%,#8a3a31_10%,#b25435_40%,#502a26_100%)] text-center py-20 md:py-32 overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-10 left-10 w-72 h-72 bg-amber-500/10 rounded-full blur-3xl animate-pulse" />

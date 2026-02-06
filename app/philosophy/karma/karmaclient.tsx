@@ -40,10 +40,8 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
                 relative
                 bg-gradient-to-br from-white to-amber-50/30
                 dark:from-gray-800 dark:to-amber-950/20
-                border-l-4 border-amber-500
                 rounded-lg
                 p-6 md:p-8
-                shadow-lg hover:shadow-xl
                 transition-all duration-300
                 hover:-translate-y-1
                 group/para
@@ -147,20 +145,20 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
                   group
                   animate-fade-in-up
                 `}
-                style={{ animationDelay: `${idx * 120}ms` }}
-              >
-                {/* Message text */}
-                <p className="
+                  style={{ animationDelay: `${idx * 120}ms` }}
+                >
+                  {/* Message text */}
+                  <p className="
                   text-gray-800 dark:text-gray-200
                   text-base md:text-lg
                   leading-relaxed
                   m-0
                   font-serif
                 ">
-                  {item.message}
-                </p>
-                {/* Decorative quote mark */}
-                <div className={`
+                    {item.message}
+                  </p>
+                  {/* Decorative quote mark */}
+                  <div className={`
                   absolute
                   ${isEven ? '-left-2 top-0' : '-right-2 top-0'}
                   w-8 h-8
@@ -171,9 +169,9 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
                   opacity-0 group-hover:opacity-100
                   transition-opacity duration-300
                 `}>
-                  {`"`}
-                </div>
-              </div>)}
+                    {`"`}
+                  </div>
+                </div>)}
             </div>
           </div>
         );
