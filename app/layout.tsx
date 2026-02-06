@@ -191,7 +191,28 @@ export default async function RootLayout({
             }}
           />
         )}
-        {/* Google Tag Manager removed from automatic load — now loaded after user consent to reduce unused JS. */}
+
+{/* Google Analytics (GA4) */}
+        {secrets.NEXT_PUBLIC_GA_ID && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${secrets.NEXT_PUBLIC_GA_ID}`}
+              strategy="afterInteractive"
+            />
+
+            <Script id="ga-init" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${secrets.NEXT_PUBLIC_GA_ID}', {
+                  page_path: window.location.pathname,
+                });
+              `}
+            </Script>
+          </>
+        )}
+
       </head>
       <body style={{ fontFamily: bodyFontFamily }} translate="no">
         <TopProgress />
