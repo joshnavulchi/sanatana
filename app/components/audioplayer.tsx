@@ -1,6 +1,11 @@
 "use client";
 
 import React, { useEffect, useMemo, useRef, useState } from "react";
+// Unique audioplayer redesign inspired by digital clock
+// Circular progress, animated play/pause, bold time display, themed colors
+const CIRCLE_RADIUS = 48;
+const CIRCLE_STROKE = 6;
+const CIRCLE_CIRCUM = 2 * Math.PI * CIRCLE_RADIUS;
 
 type AudioSource = {
   src: string;
@@ -239,18 +244,9 @@ export default function AudioPlayer({
 
   return (
     <div
-      className={className}
-      style={{
-        maxWidth: 560,
-        width: "100%",
-        border: "1px solid #e5e7eb",
-        borderRadius: 12,
-        padding: 16,
-        background: "#fff",
-        boxShadow: "0 1px 2px rgba(0,0,0,0.04)",
-        fontFamily:
-          'ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial',
-      }}
+      className={
+        `${className ?? ''} fixed bottom-8 right-8 z-50 bg-gradient-to-br from-indigo-100 to-indigo-200 shadow-xl rounded-2xl flex flex-col items-center gap-6 p-6 w-[320px]`}
+      style={{ fontFamily: 'ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial' }}
     >
       {/* Media */}
       <audio ref={audioRef} preload="metadata">
@@ -260,269 +256,118 @@ export default function AudioPlayer({
         Your browser does not support the audio element.
       </audio>
 
-      {/* Header */}
-      <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
-        {currentTrack.poster ? (
-          <img
-            src={currentTrack.poster}
-            alt={currentTrack.title ?? "cover"}
-            style={{
-              width: 64,
-              height: 64,
-              borderRadius: 8,
-              objectFit: "cover",
-              flexShrink: 0,
-            }}
+      {/* Circular Progress & Play/Pause */}
+      <div className="relative w-[120px] h-[120px]">
+        <svg width={120} height={120}>
+          <circle
+            cx={60}
+            cy={60}
+            r={CIRCLE_RADIUS}
+            stroke="#e0e7ff"
+            strokeWidth={CIRCLE_STROKE}
+            fill="none"
           />
-        ) : (
-          <div
-            aria-hidden
-            style={{
-              width: 64,
-              height: 64,
-              borderRadius: 8,
-              background:
-                "linear-gradient(135deg, #dbeafe 0%, #ede9fe 100%)",
-              display: "grid",
-              placeItems: "center",
-              color: "#374151",
-              fontWeight: 700,
-            }}
-          >
-            ♪
-          </div>
-        )}
-        <div style={{ flex: 1, minWidth: 0 }}>
-          <div
-            style={{
-              fontWeight: 600,
-              fontSize: 16,
-              color: "#111827",
-              whiteSpace: "nowrap",
-              textOverflow: "ellipsis",
-              overflow: "hidden",
-            }}
-            title={currentTrack.title}
-          >
-            {currentTrack.title ?? "Untitled Track"}
-          </div>
-          {currentTrack.artist ? (
-            <div style={{ color: "#6b7280", fontSize: 13 }}>
-              {currentTrack.artist}
-            </div>
-          ) : null}
-        </div>
-
-        {/* Loop & Mute */}
-        <div style={{ display: "flex", gap: 8 }}>
-          <button
-            type="button"
-            onClick={() => setIsLoop((l) => !l)}
-            aria-pressed={isLoop}
-            title={isLoop ? "Loop: On" : "Loop: Off"}
-            style={{
-              padding: "6px 10px",
-              borderRadius: 8,
-              border: "1px solid #e5e7eb",
-              background: isLoop ? "#eef2ff" : "#fff",
-              color: isLoop ? "#4338ca" : "#111827",
-              cursor: "pointer",
-            }}
-          >
-            ⟲
-          </button>
-          <button
-            type="button"
-            onClick={() => setIsMuted((m) => !m)}
-            aria-pressed={isMuted}
-            title={isMuted ? "Unmute (M)" : "Mute (M)"}
-            style={{
-              padding: "6px 10px",
-              borderRadius: 8,
-              border: "1px solid #e5e7eb",
-              background: isMuted ? "#fee2e2" : "#fff",
-              color: isMuted ? "#b91c1c" : "#111827",
-              cursor: "pointer",
-            }}
-          >
-            {isMuted ? "🔇" : "🔊"}
-          </button>
-        </div>
+          <circle
+            cx={60}
+            cy={60}
+            r={CIRCLE_RADIUS}
+            stroke="#6366f1"
+            strokeWidth={CIRCLE_STROKE}
+            fill="none"
+            strokeDasharray={CIRCLE_CIRCUM}
+            strokeDashoffset={CIRCLE_CIRCUM / 2}
+            style={{ transition: "stroke-dashoffset 0.3s linear" }}
+          />
+        </svg>
+        <button
+          type="button"
+          onClick={handlePlayPause}
+          title={isPlaying ? "Pause (Space)" : "Play (Space)"}
+          className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full bg-gradient-to-br from-green-200 to-indigo-500 border-none shadow-md text-white text-3xl flex items-center justify-center transition-all"
+        >
+          {isPlaying ? "⏸" : "▶️"}
+        </button>
       </div>
 
-      {/* Progress */}
-      <div style={{ marginTop: 12 }}>
+      {/* No time display */}
+
+      {/* Track Info */}
+      <div className="text-center w-full">
         <div
-          style={{
-            position: "relative",
-            height: 8,
-            background: "#f3f4f6",
-            borderRadius: 999,
-          }}
+          className="font-semibold text-lg text-indigo-900 truncate"
+          title={currentTrack.title}
         >
-          {/* Buffered bar */}
-          <div
-            style={{
-              position: "absolute",
-              left: 0,
-              top: 0,
-              bottom: 0,
-              width:
-                duration > 0
-                  ? `${(bufferedEnd / duration) * 100}%`
-                  : "0%",
-              background: "#e5e7eb",
-              borderRadius: 999,
-            }}
-            aria-hidden
-          />
-          {/* Input range overlays on top but we also show a filled track via CSS gradient */}
-          <input
-            ref={progressRef}
-            type="range"
-            min={0}
-            max={duration || 0}
-            step={0.1}
-            value={currentTime}
-            onMouseDown={handleSeekMouseDown}
-            onChange={handleSeekChange}
-            onMouseUp={handleSeekMouseUp}
-            aria-label="Seek"
-            style={{
-              appearance: "none",
-              width: "100%",
-              height: 8,
-              background: "transparent",
-              position: "relative",
-              zIndex: 2,
-              cursor: "pointer",
-            }}
-          />
-          {/* Filled progress bar */}
-          <div
-            style={{
-              position: "absolute",
-              left: 0,
-              top: 0,
-              bottom: 0,
-              width:
-                duration > 0
-                  ? `${(currentTime / duration) * 100}%`
-                  : "0%",
-              background:
-                "linear-gradient(90deg, #6366f1 0%, #22c55e 100%)",
-              borderRadius: 999,
-            }}
-            aria-hidden
-          />
+          {currentTrack.title ?? "Untitled Track"}
         </div>
-        <div
-          style={{
-            marginTop: 6,
-            display: "flex",
-            justifyContent: "space-between",
-            fontSize: 12,
-            color: "#6b7280",
-          }}
-        >
-          <span>{formatTime(currentTime)}</span>
-          <span>{formatTime(duration)}</span>
-        </div>
+        {currentTrack.artist ? (
+          <div className="text-gray-500 text-base">{currentTrack.artist}</div>
+        ) : null}
       </div>
 
       {/* Controls */}
-      <div
-        style={{
-          marginTop: 12,
-          display: "flex",
-          alignItems: "center",
-          gap: 8,
-          flexWrap: "wrap",
-        }}
-      >
+      <div className="flex gap-4 items-center">
         {playlist.length > 1 && (
           <button
             type="button"
             onClick={handlePrev}
             title="Previous"
-            style={btnStyle}
-          >
-            ⏮
-          </button>
+            className="px-3 py-2 rounded-lg border border-indigo-200 bg-white text-xl text-indigo-700 hover:bg-indigo-50"
+          >⏮</button>
         )}
         <button
           type="button"
-          onClick={handlePlayPause}
-          title={isPlaying ? "Pause (Space)" : "Play (Space)"}
-          style={{ ...btnStyle, fontSize: 18 }}
-        >
-          {isPlaying ? "⏸" : "▶️"}
-        </button>
+          onClick={() => setIsLoop((l) => !l)}
+          aria-pressed={isLoop}
+          title={isLoop ? "Loop: On" : "Loop: Off"}
+          className={`px-3 py-2 rounded-lg border border-indigo-200 bg-white text-indigo-700 text-xl ${isLoop ? 'bg-indigo-100 text-indigo-900' : ''}`}
+        >⟲</button>
+        <button
+          type="button"
+          onClick={() => setIsMuted((m) => !m)}
+          aria-pressed={isMuted}
+          title={isMuted ? "Unmute (M)" : "Mute (M)"}
+          className={`px-3 py-2 rounded-lg border border-red-200 bg-white text-red-700 text-xl ${isMuted ? 'bg-red-100 text-red-900' : ''}`}
+        >{isMuted ? "🔇" : "🔊"}</button>
         {playlist.length > 1 && (
           <button
             type="button"
             onClick={handleNext}
             title="Next"
-            style={btnStyle}
-          >
-            ⏭
-          </button>
+            className="px-3 py-2 rounded-lg border border-indigo-200 bg-white text-xl text-indigo-700 hover:bg-indigo-50"
+          >⏭</button>
         )}
+      </div>
 
-        {/* Volume */}
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: 8,
-            marginLeft: "auto",
+      {/* Volume */}
+      <div className="flex items-center gap-2">
+        <span className="text-gray-500 text-sm">Vol</span>
+        <input
+          type="range"
+          min={0}
+          max={1}
+          step={0.01}
+          value={isMuted ? 0 : volume}
+          onChange={(e) => {
+            const v = Number(e.target.value);
+            setVolume(v);
+            if (v === 0 && !isMuted) setIsMuted(true);
+            if (v > 0 && isMuted) setIsMuted(false);
           }}
-        >
-          <span style={{ fontSize: 12, color: "#6b7280" }}>Vol</span>
-          <input
-            type="range"
-            min={0}
-            max={1}
-            step={0.01}
-            value={isMuted ? 0 : volume}
-            onChange={(e) => {
-              const v = Number(e.target.value);
-              setVolume(v);
-              if (v === 0 && !isMuted) setIsMuted(true);
-              if (v > 0 && isMuted) setIsMuted(false);
-            }}
-            aria-label="Volume"
-          />
-        </div>
+          aria-label="Volume"
+          className="accent-indigo-500"
+        />
       </div>
 
       {/* Playlist */}
       {showPlaylist && playlist.length > 1 && (
-        <div
-          style={{
-            marginTop: 12,
-            borderTop: "1px dashed #e5e7eb",
-            paddingTop: 12,
-            display: "flex",
-            flexDirection: "column",
-            gap: 6,
-          }}
-        >
+        <div className="mt-3 pt-3 border-t border-dashed border-indigo-200 flex flex-col gap-1 w-full">
           {playlist.map((t, i) => {
             const active = i === currentIndex;
             return (
               <button
                 key={t.id ?? i}
                 onClick={() => setCurrentIndex(i)}
-                style={{
-                  textAlign: "left",
-                  padding: "8px 10px",
-                  borderRadius: 8,
-                  border: "1px solid #e5e7eb",
-                  background: active ? "#eff6ff" : "#fff",
-                  color: active ? "#1d4ed8" : "#111827",
-                  cursor: "pointer",
-                }}
+                className={`text-left px-3 py-2 rounded-lg border border-indigo-200 ${active ? 'bg-indigo-100 text-indigo-700' : 'bg-white text-indigo-900'} cursor-pointer`}
                 title={t.title}
               >
                 {t.title ?? `Track ${i + 1}`}

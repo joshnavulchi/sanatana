@@ -42,45 +42,45 @@ export default function MokshaClient() {
         <p><strong>Definition : </strong>{page.definition}</p>
         {/* Core Principles of moksha */}
         <div>
-          <p><strong>Core Principles of Moksha : </strong> {page.core_principles.map((s: string, idx: number) => (<span key={idx}>{s}, </span>))}</p>
+          <p><strong>Core Principles of Moksha : </strong> {page.core_principles.map((s: string, idx: number) => (<span key={idx}>{s}{idx < page.core_principles.length - 1 ? ', ' : ''}</span>))}</p>
           <ul role="list" className="list-disc">
-            {Object.entries(page.origin).map((cKey: any, idx: number) => {
-              return <li key={idx}>
+            {Object.entries(page.origin).map((cKey: any, idx: number) => (
+              <li key={idx}>
                 <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
               </li>
-            })}
+            ))}
           </ul>
           <p><strong>Path to Moksha : </strong></p>
           <ul role="list" className="list-disc">
-            {Object.entries(page.paths_to_moksha).map((cKey: any, idx: number) => {
-              return <li key={idx}>
+            {Object.entries(page.paths_to_moksha).map((cKey: any, idx: number) => (
+              <li key={idx}>
                 <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
               </li>
-            })}
+            ))}
           </ul>
           <p><strong>Goals of Moksha : </strong></p>
           <ul role="list" className="list-disc">
-            {Object.entries(page.goals).map((cKey: any, idx: number) => {
-              return <li key={idx}>
+            {Object.entries(page.goals).map((cKey: any, idx: number) => (
+              <li key={idx}>
                 <span>{cKey[1]}</span>
               </li>
-            })}
+            ))}
           </ul>
           <p><strong>Relation to other concepts of Moksha : </strong></p>
           <ul role="list" className="list-disc">
-            {Object.entries(page.relation_to_other_concepts).map((cKey: any, idx: number) => {
-              return <li key={idx}>
+            {Object.entries(page.relation_to_other_concepts).map((cKey: any, idx: number) => (
+              <li key={idx}>
                 <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
               </li>
-            })}
+            ))}
           </ul>
           <p><strong>Modern Relevance of Moksha : </strong></p>
           <ul role="list" className="list-disc">
-            {Object.entries(page.modern_relevance).map((cKey: any, idx: number) => {
-              return <li key={idx}>
+            {Object.entries(page.modern_relevance).map((cKey: any, idx: number) => (
+              <li key={idx}>
                 <strong>{cKey[0]} - </strong><span>{cKey[1]}</span>
               </li>
-            })}
+            ))}
           </ul>
         </div>
       </PageLayout>
