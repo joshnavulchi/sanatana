@@ -243,11 +243,7 @@ export default function AudioPlayer({
   };
 
   return (
-    <div
-      className={
-        `${className ?? ''} fixed bottom-8 right-8 z-50 bg-gradient-to-br from-indigo-100 to-indigo-200 shadow-xl rounded-2xl flex flex-col items-center gap-6 p-6 w-[320px]`}
-      style={{ fontFamily: 'ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial' }}
-    >
+    <div className={`fixed z-9 top-40 left-2 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:to-pink-600 text-white shadow-lg rounded-full tracking-widest border-2 border-white dark:border-gray-800 focus:outline-none focus:ring-4 focus:ring-pink-300 transition-all duration-300 flex cursor-pointer`}>
       {/* Media */}
       <audio ref={audioRef} preload="metadata">
         {currentTrack.sources.map((s, i) => (
@@ -257,19 +253,19 @@ export default function AudioPlayer({
       </audio>
 
       {/* Circular Progress & Play/Pause */}
-      <div className="relative w-[120px] h-[120px]">
-        <svg width={120} height={120}>
+      <div className="relative w-[30px] h-[30px]">
+        <svg width={24} height={24}>
           <circle
-            cx={60}
-            cy={60}
+            cx={24}
+            cy={24}
             r={CIRCLE_RADIUS}
             stroke="#e0e7ff"
             strokeWidth={CIRCLE_STROKE}
             fill="none"
           />
           <circle
-            cx={60}
-            cy={60}
+            cx={24}
+            cy={24}
             r={CIRCLE_RADIUS}
             stroke="#6366f1"
             strokeWidth={CIRCLE_STROKE}
@@ -283,16 +279,26 @@ export default function AudioPlayer({
           type="button"
           onClick={handlePlayPause}
           title={isPlaying ? "Pause (Space)" : "Play (Space)"}
-          className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full bg-gradient-to-br from-green-200 to-indigo-500 border-none shadow-md text-white text-3xl flex items-center justify-center transition-all"
+          className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full flex items-center justify-center transition-all"
         >
-          {isPlaying ? "⏸" : "▶️"}
+          {isPlaying ? (
+            <svg width="24" height="24" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+              <path d="M6 5h4v14H6zm8 0h4v14h-4z" />
+            </svg>
+          ) : (
+            <svg width="24" height="24" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+              <path d="M8 5v14l11-7z" />
+            </svg>
+          )}
         </button>
       </div>
 
       {/* No time display */}
 
       {/* Track Info */}
-      <div className="text-center w-full">
+      <div className="text-center w-full hidden">
         <div
           className="font-semibold text-lg text-indigo-900 truncate"
           title={currentTrack.title}
@@ -305,7 +311,7 @@ export default function AudioPlayer({
       </div>
 
       {/* Controls */}
-      <div className="flex gap-4 items-center">
+      <div className="gap-4 items-center hidden">
         {playlist.length > 1 && (
           <button
             type="button"
@@ -339,7 +345,7 @@ export default function AudioPlayer({
       </div>
 
       {/* Volume */}
-      <div className="flex items-center gap-2">
+      <div className="items-center gap-2 hidden">
         <span className="text-gray-500 text-sm">Vol</span>
         <input
           type="range"
@@ -360,7 +366,7 @@ export default function AudioPlayer({
 
       {/* Playlist */}
       {showPlaylist && playlist.length > 1 && (
-        <div className="mt-3 pt-3 border-t border-dashed border-indigo-200 flex flex-col gap-1 w-full">
+        <div className="mt-3 pt-3 border-t border-dashed border-indigo-200 hidden flex-col gap-1 w-full">
           {playlist.map((t, i) => {
             const active = i === currentIndex;
             return (
