@@ -1,16 +1,8 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, getMeta, detectLocale, DEFAULT_LOCALE, detectServerLocaleFromHeaders, getLocaleNamespaceObject } from './i18n';
-import { headers } from 'next/headers';
 import { secrets } from './secrets';
 
-export function resolveLocaleFromHeaders() {
-  try {
-    const h = headers() as unknown;
-    return detectServerLocaleFromHeaders(h as Record<string, unknown>);
-  } catch (e) {
-    return DEFAULT_LOCALE;
-  }
-}
+import { resolveLocaleFromHeaders } from './pageUtils.server';
 
 export function createGenerateMetadata(metaKey: string, titleKey?: string, descriptionKey?: string) {
 

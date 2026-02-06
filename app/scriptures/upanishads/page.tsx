@@ -9,14 +9,14 @@ const __getLoc = (p: string) => {
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };
-import { t, detectLocale, getMeta } from '../../../lib/i18n';
+import { t, detectLocale, getMeta, DEFAULT_LOCALE } from '../../../lib/i18n';
 import { parseList } from 'lib/parseList';
-import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
+import { createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@/app/components/common/PageLayout';
 import styles from '../../styles.module.scss';
 export const generateMetadata = createGenerateMetadata('scriptures_upanishads');
 export default function Page({ searchParams }: any) {
-  const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
+  const locale = detectLocale(searchParams) || DEFAULT_LOCALE;
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
     const k: any = getMeta('scriptures_upanishads', {}, locale) || {};

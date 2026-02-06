@@ -9,15 +9,15 @@ const __getLoc = (p: string) => {
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };
-import { detectLocale, t } from '../../../lib/i18n';
-import { resolveLocaleFromHeaders, createGenerateMetadata } from 'lib/pageUtils';
+import { detectLocale, t, DEFAULT_LOCALE } from '../../../lib/i18n';
+import { createGenerateMetadata } from 'lib/pageUtils';
 import PageLayout from '@/app/components/common/PageLayout';
 import LazyImage from '@/app/components/lazy-image/LazyImage';
 import Link from 'next/link';
 export const generateMetadata = createGenerateMetadata('kidszone_illustratedstories');
 
 export default async function Page({ searchParams }: any) {
-  const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
+  const locale = detectLocale(searchParams) || DEFAULT_LOCALE;
   const S = (k: string, l?: any) => String(t(k, l ?? locale));
   // Load stories from locale translations; fall back to English or empty array
   const rawStories = __getLoc('kidszone_illustratedstories.kids_indian_stories');

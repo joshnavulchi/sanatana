@@ -1,27 +1,9 @@
 
-"use client";
-import { useLocale } from '../../context/locale-context';
-import useLocaleSection from '../../hooks/useLocaleSection';
-import { createGenerateMetadata } from 'lib/pageUtils';
-import PageLayout from '@/app/components/common/PageLayout';
-export const generateMetadata = createGenerateMetadata('saraswati_story');
+import { createGenerateMetadata } from '@/lib/pageUtils';
+export const generateMetadata = createGenerateMetadata('stories_saraswati');
+
+import SaraswatiClient from './saraswaticlient';
 
 export default function Page() {
-  const { locale } = useLocale();
-  const ns = useLocaleSection('saraswati_story');
-
-  const title = ns?.title || 'Saraswati';
-  const homeLabel = ns?.home || 'Home';
-  const placeholder = ns?.placeholder || 'Placeholder page for Saraswati';
-
-  return (
-    <PageLayout
-      metaKey="saraswati_story"
-      title={title}
-      breadcrumbs={[{ label: homeLabel, href: '/' }, { label: title }]}
-      className=""
-    >
-      <p>{placeholder}</p>
-    </PageLayout>
-  );
+  return <SaraswatiClient />;
 }
