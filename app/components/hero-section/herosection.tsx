@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { loadLocaleNamespace } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
 import LazyImage from '../lazy-image/LazyImage';
@@ -16,6 +16,10 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
   const [hero, setHero] = useState<Record<string, any>>({});
   const [isVisible, setIsVisible] = useState(false);
 
+  // added: video readiness + ref
+  const videoRef = useRef<HTMLVideoElement | null>(null);
+  const [isVideoReady, setIsVideoReady] = useState(false);
+
   useEffect(() => {
     let cancelled = false;
     loadLocaleNamespace(locale, 'home').then((ns: any) => {
@@ -26,6 +30,50 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
     }).catch(() => { });
     return () => { cancelled = true; };
   }, [locale]);
+
+  // added: attach listeners to play when buffered; keep muted, loop, no controls
+  useEffect(() => {
+    const v = videoRef.current;
+    if (!v) return;
+
+    let loopCount = 0;
+    const maxLoops = 3; // safety to prevent infinite loops in case of issues
+
+    const onCanPlayThrough = () => {
+      setIsVideoReady(true);
+      v.muted = true;
+      // ensure not infinite loop if something goes wrong with the video; we only want it to loop a few times at most
+      v.loop = false;
+      v.play().catch(() => { /* autoplay may be blocked in some envs */ });
+    };
+
+    const onEnded = () => {
+      loopCount += 1;
+      if (loopCount < maxLoops) {
+        // restart
+        v.currentTime = 0;
+        v.play().catch(() => { /* ignore play failures */ });
+      } else {
+        // reached max loops: hide video and show fallback image
+        setIsVideoReady(false);
+        try { v.pause(); v.currentTime = 0; } catch (e) { /* noop */ }
+      }
+    };
+
+    const onLoadedMetadata = () => {
+      if (v.readyState >= 3) onCanPlayThrough();
+    };
+
+    v.addEventListener('canplaythrough', onCanPlayThrough);
+    v.addEventListener('loadedmetadata', onLoadedMetadata);
+    v.addEventListener('ended', onEnded);
+
+    return () => {
+      v.removeEventListener('canplaythrough', onCanPlayThrough);
+      v.removeEventListener('loadedmetadata', onLoadedMetadata);
+      v.removeEventListener('ended', onEnded);
+    };
+  }, [hero?.video?.src]);
 
   return (
     <div className="relative w-full min-h-[600px] px-3 overflow-hidden">
@@ -40,21 +88,33 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
           sizes="100vw"
           priority
           quality={90}
-          style={{ objectFit: 'cover', backgroundPosition: 'top right' }}
+          style={{ objectFit: 'cover', backgroundPosition: 'top center' }}
           unoptimized
         />
-        {/* Desktop hero image */}
-        <Image
-          className="hidden md:block"
-          src="/images/home/hero.png"
-          alt="Sanātana Dharma hero background"
-          fill
-          sizes="100vw"
-          priority
-          quality={90}
-          style={{ objectFit: 'cover', backgroundPosition: 'top right' }}
-          unoptimized
-        />
+        {/* Desktop: video + fallback image (added video element) */}
+        <div className="hidden md:block absolute inset-0">
+          <video
+            ref={videoRef}
+            src="/videos/kurushetra.mp4"
+            preload="auto"
+            playsInline
+            muted
+            loop
+            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${isVideoReady ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
+          // no controls and muted by design
+          />
+          <Image
+            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${isVideoReady ? 'opacity-0' : 'opacity-100'}`}
+            src={hero?.desktopImage ?? '/images/home/hero.png'}
+            alt="Sanātana Dharma hero background"
+            fill
+            sizes="100vw"
+            priority
+            quality={90}
+            style={{ objectFit: 'cover', backgroundPosition: 'top center' }}
+            unoptimized
+          />
+        </div>
         {/* Gradient Overlays for better text readability */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/50" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-transparent to-black/30" />
