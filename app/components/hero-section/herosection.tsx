@@ -80,6 +80,16 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
       {/* Background Images with Overlay */}
       <div className="absolute inset-0">
         {/* Mobile hero image */}
+        <video
+          ref={videoRef}
+          src="/videos/kurushetra-mobile.mp4"
+          preload="auto"
+          playsInline
+          muted
+          loop
+          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${isVideoReady ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
+        // no controls and muted by design
+        />
         <Image
           className="block md:hidden"
           src="/images/home/mobile-hero.png"
