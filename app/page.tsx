@@ -72,13 +72,13 @@ export default async function Home() {
             id: "solo",
             title: "Single Track",
             sources: [
-              { src: "/krishna-flute.mp3", type: "audio/mpeg" },
-              { src: "/krishna-flute.ogg", type: "audio/ogg" },
+              { src: "/audios/krishna-flute.mp3", type: "audio/mpeg" },
+              { src: "/audios/krishna-flute.ogg", type: "audio/ogg" },
             ],
           }}
-          autoPlay
+          autoPlay={false}
           muted={false}
-          loop
+          loop={false}
           showPlaylist={false}
         />
       </main>

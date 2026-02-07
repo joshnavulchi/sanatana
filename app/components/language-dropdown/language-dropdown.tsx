@@ -206,7 +206,7 @@ export default function LanguageDropdown() {
                 onClick={() => setOpen(false)}
                 className="group w-10 h-10 flex items-center justify-center bg-white dark:bg-gray-800 hover:bg-red-50 dark:hover:bg-red-900/20 border-2 border-amber-200 dark:border-amber-800 hover:border-red-300 dark:hover:border-red-800 rounded-full transition-all duration-300 cursor-pointer transform hover:rotate-90 hover:scale-110 shadow-md"
               >
-                <svg className="w-5 h-5 text-gray-600 dark:text-gray-400 group-hover:text-red-600 dark:group-hover:text-red-400 transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-gray-600 dark:text-gray-900 group-hover:text-red-600 dark:group-hover:text-red-900 transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                 </svg>
               </button>
