@@ -166,11 +166,11 @@ export default function LanguageDropdown() {
           <img src="/images/svg/ml.svg" alt={locale?.languagedropdown?.iconalt || 'Language selector'} width={20} height={20} className="transition-transform duration-300 group-hover:rotate-12" />
           <div className="absolute -top-1 -right-1 w-2 h-2 bg-amber-500 rounded-full animate-pulse"></div>
         </div>
-        {/* {isClient && (
+        {isClient && (
           <span className="font-medium text-sm text-gray-700 dark:text-gray-300 group-hover:text-amber-700 dark:group-hover:text-amber-300 transition-colors duration-300">
             {currentLanguage?.nativeName || locale?.languagedropdown?.english || 'English'}
           </span>
-        )} */}
+        )}
         <svg className={`w-3 h-3 text-amber-800 dark:text-amber-200 transition-transform duration-300 ${open ? 'rotate-180' : ''}`} fill="none" stroke="#F97316" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
         </svg>
