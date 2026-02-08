@@ -71,6 +71,10 @@ export default async function RootLayout({
         <meta name="google" content="notranslate" />
         {/* Early resource hints to reduce network latency */}
         <ResourceHints />
+        {/* Favicons: use site logo for broad compatibility */}
+        <link rel="icon" href="/images/logo.png" type="image/png" sizes="64x64" />
+        <link rel="shortcut icon" href="/images/logo.png" />
+        <link rel="apple-touch-icon" href="/images/logo.png" />
         {/* Preload LCP image with high priority - matches hero img tag */}
         <link
           rel="preload"
@@ -152,7 +156,6 @@ export default async function RootLayout({
             })
           }}
         />
-        {/* Google Analytics is loaded on user consent via the CookieConsent component. */}
         {/* Hint the font for later use (non-blocking) */}
         <link
           rel="prefetch"
@@ -191,15 +194,13 @@ export default async function RootLayout({
             }}
           />
         )}
-
-{/* Google Analytics (GA4) */}
+        {/* Google Analytics (GA4) */}
         {secrets.NEXT_PUBLIC_GA_ID && (
           <>
             <Script
               src={`https://www.googletagmanager.com/gtag/js?id=${secrets.NEXT_PUBLIC_GA_ID}`}
               strategy="afterInteractive"
             />
-
             <Script id="ga-init" strategy="afterInteractive">
               {`
                 window.dataLayer = window.dataLayer || [];
@@ -212,7 +213,6 @@ export default async function RootLayout({
             </Script>
           </>
         )}
-
       </head>
       <body style={{ fontFamily: bodyFontFamily }} translate="no">
         <TopProgress />

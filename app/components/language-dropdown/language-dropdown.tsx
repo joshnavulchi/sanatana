@@ -158,20 +158,20 @@ export default function LanguageDropdown() {
         aria-haspopup="menu"
         aria-controls="language-menu"
         onClick={() => setOpen(!open)}
-        className="group relative inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-950/50 dark:to-orange-950/50 hover:from-amber-100 hover:to-orange-100 dark:hover:from-amber-900/60 dark:hover:to-orange-900/60 rounded-full border-2 border-amber-200 dark:border-amber-800 hover:border-amber-300 dark:hover:border-amber-700 shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer transform hover:scale-105"
+        className="group relative inline-flex items-center gap-2 py-2 px-3 bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-950/50 dark:to-orange-950/50 hover:from-amber-100 hover:to-orange-100 dark:hover:from-amber-900/60 dark:hover:to-orange-900/60 rounded-full border-2 border-amber-200 dark:border-amber-800 hover:border-amber-300 dark:hover:border-amber-700 shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer transform hover:scale-105"
         aria-label={locale?.languagedropdown?.arialabel || 'Choose language'}
         aria-expanded={open}
       >
         <div className="relative">
-          <img src="/images/svg/ml.svg" alt={locale?.languagedropdown?.iconalt || 'Language selector'} width={30} height={30} className="transition-transform duration-300 group-hover:rotate-12" />
+          <img src="/images/svg/ml.svg" alt={locale?.languagedropdown?.iconalt || 'Language selector'} width={24} height={24} className="transition-transform duration-300 group-hover:rotate-12" />
           <div className="absolute -top-1 -right-1 w-2 h-2 bg-amber-500 rounded-full animate-pulse"></div>
         </div>
         {isClient && (
-          <span className="font-medium text-sm text-gray-700 dark:text-gray-300 group-hover:text-amber-700 dark:group-hover:text-amber-300 transition-colors duration-300">
+          <span className="hidden md:flex font-medium text-sm text-gray-700 dark:text-gray-300 group-hover:text-amber-700 dark:group-hover:text-amber-300 transition-colors duration-300">
             {currentLanguage?.nativeName || locale?.languagedropdown?.english || 'English'}
           </span>
         )}
-        <svg className={`w-3 h-3 text-amber-800 dark:text-amber-200 transition-transform duration-300 ${open ? 'rotate-180' : ''}`} fill="none" stroke="#F97316" viewBox="0 0 24 24">
+        <svg className={`w-6 h-5 text-amber-800 dark:text-amber-200 transition-transform duration-300 ${open ? 'rotate-180' : ''}`} fill="none" stroke="#F97316" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
         </svg>
       </button>
