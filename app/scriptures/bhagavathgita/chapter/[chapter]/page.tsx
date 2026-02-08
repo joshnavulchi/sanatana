@@ -32,7 +32,7 @@ export async function createGenerateMetadata({ params, searchParams }: { params:
 
   // load chapters from locale translations; if the locale doesn't include
   // structured chapters, fall back to English translations (no combined file)
-  let chaptersRaw: any = __getLoc('scriptures_bhagavathgita.chapters'); 
+  let chaptersRaw: any = __getLoc('scriptures_bhagavathgita.chapters');
   if (!Array.isArray(chaptersRaw)) {
     chaptersRaw = __getLoc('scriptures_bhagavathgita.chapters');
   }
@@ -122,7 +122,7 @@ export default async function Page({ params, searchParams }: { params: any, sear
 
               return (
                 <div key={idx}>
-                  {/* {heading ? <h2 className="h4">{heading}</h2> : null} */}
+                  {/* {heading ? <h2 className="text-2xl md:text-3xl">{heading}</h2> : null} */}
                   {speakerHeader ? <p>{speakerHeader}</p> : null}
 
                   <p className='h5'>

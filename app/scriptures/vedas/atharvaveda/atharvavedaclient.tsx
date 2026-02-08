@@ -17,10 +17,10 @@ export default function AtharvavedaClient() {
   })();
 
   return (
-    <PageLayout metaKey="scriptures_vedas_atharvaveda" title={page.title} breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}> 
+    <PageLayout metaKey="scriptures_vedas_atharvaveda" title={page.title} breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}>
       <p>{page.summary}</p>
       <section>
-        <h2 className="h4">{page.contentTitle}</h2>
+        <h2 className="text-2xl md:text-3xl">{page.contentTitle}</h2>
         <p>{page.content}</p>
       </section>
     </PageLayout>

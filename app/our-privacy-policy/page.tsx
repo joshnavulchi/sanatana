@@ -29,13 +29,13 @@ export default function PrivacyPolicyPage({ searchParams }: any) {
       className="layout-sm"
     >
       <div>
-        <h2 className="h4">{page.title}</h2>
+        <h2 className="text-2xl md:text-3xl">{page.title}</h2>
         <p>{page.intro}</p>
-        <h3 className="h4">{page.informationHeading}</h3>
+        <h3 className="text-2xl md:text-3xl">{page.informationHeading}</h3>
         <p>{page.informationDesc}</p>
-        <h3 className="h4">{page.howWeUse}</h3>
+        <h3 className="text-2xl md:text-3xl">{page.howWeUse}</h3>
         <p>{page.howWeUseDesc}</p>
-        <h3 className="h4">{page.yourRights}</h3>
+        <h3 className="text-2xl md:text-3xl">{page.yourRights}</h3>
         <p>{page.yourRightsDesc}</p>
         <p className="mt-6"><strong>{page.lastUpdated}</strong></p>
       </div>

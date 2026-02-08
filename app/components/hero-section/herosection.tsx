@@ -16,8 +16,9 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
   const [hero, setHero] = useState<Record<string, any>>({});
   const [isVisible, setIsVisible] = useState(false);
 
-  // added: video readiness + ref
-  const videoRef = useRef<HTMLVideoElement | null>(null);
+  // added: video readiness + refs for mobile & desktop
+  const videoRefMobile = useRef<HTMLVideoElement | null>(null);
+  const videoRefDesktop = useRef<HTMLVideoElement | null>(null);
   const [isVideoReady, setIsVideoReady] = useState(false);
 
   useEffect(() => {
@@ -31,47 +32,58 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
     return () => { cancelled = true; };
   }, [locale]);
 
-  // added: attach listeners to play when buffered; keep muted, loop, no controls
+  // added: attach listeners to play when buffered; use separate refs for mobile/desktop
   useEffect(() => {
-    const v = videoRef.current;
-    if (!v) return;
+    const els = [videoRefMobile.current, videoRefDesktop.current].filter(Boolean) as HTMLVideoElement[];
+    if (!els.length) return;
 
-    let loopCount = 0;
-    const maxLoops = 3; // safety to prevent infinite loops in case of issues
+    const attached: Array<{
+      el: HTMLVideoElement;
+      onCanPlayThrough: () => void;
+      onLoadedMetadata: () => void;
+      onEnded: () => void;
+    }> = [];
 
-    const onCanPlayThrough = () => {
-      setIsVideoReady(true);
-      v.muted = true;
-      // ensure not infinite loop if something goes wrong with the video; we only want it to loop a few times at most
-      v.loop = false;
-      v.play().catch(() => { /* autoplay may be blocked in some envs */ });
-    };
+    els.forEach((el) => {
+      let loopCount = 0;
+      const maxLoops = 3;
 
-    const onEnded = () => {
-      loopCount += 1;
-      if (loopCount < maxLoops) {
-        // restart
-        v.currentTime = 0;
-        v.play().catch(() => { /* ignore play failures */ });
-      } else {
-        // reached max loops: hide video and show fallback image
-        setIsVideoReady(false);
-        try { v.pause(); v.currentTime = 0; } catch (e) { /* noop */ }
-      }
-    };
+      const onCanPlayThrough = () => {
+        setIsVideoReady(true);
+        try {
+          el.muted = true;
+          el.loop = false;
+          el.play().catch(() => { /* autoplay may be blocked */ });
+        } catch (e) { /* noop */ }
+      };
 
-    const onLoadedMetadata = () => {
-      if (v.readyState >= 3) onCanPlayThrough();
-    };
+      const onEnded = () => {
+        loopCount += 1;
+        if (loopCount < maxLoops) {
+          try { el.currentTime = 0; el.play().catch(() => { }); } catch (e) { }
+        } else {
+          setIsVideoReady(false);
+          try { el.pause(); el.currentTime = 0; } catch (e) { }
+        }
+      };
 
-    v.addEventListener('canplaythrough', onCanPlayThrough);
-    v.addEventListener('loadedmetadata', onLoadedMetadata);
-    v.addEventListener('ended', onEnded);
+      const onLoadedMetadata = () => {
+        if (el.readyState >= 3) onCanPlayThrough();
+      };
+
+      el.addEventListener('canplaythrough', onCanPlayThrough);
+      el.addEventListener('loadedmetadata', onLoadedMetadata);
+      el.addEventListener('ended', onEnded);
+
+      attached.push({ el, onCanPlayThrough, onLoadedMetadata, onEnded });
+    });
 
     return () => {
-      v.removeEventListener('canplaythrough', onCanPlayThrough);
-      v.removeEventListener('loadedmetadata', onLoadedMetadata);
-      v.removeEventListener('ended', onEnded);
+      attached.forEach(({ el, onCanPlayThrough, onLoadedMetadata, onEnded }) => {
+        el.removeEventListener('canplaythrough', onCanPlayThrough);
+        el.removeEventListener('loadedmetadata', onLoadedMetadata);
+        el.removeEventListener('ended', onEnded);
+      });
     };
   }, [hero?.video?.src]);
 
@@ -81,7 +93,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
       <div className="absolute inset-0">
         {/* Mobile hero image */}
         <video
-          ref={videoRef}
+          ref={videoRefMobile}
           src="/videos/kurushetra-mobile.mp4"
           preload="auto"
           playsInline
@@ -104,7 +116,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
         {/* Desktop: video + fallback image (added video element) */}
         <div className="hidden md:block absolute inset-0">
           <video
-            ref={videoRef}
+            ref={videoRefDesktop}
             src="/videos/kurushetra.mp4"
             preload="auto"
             playsInline
@@ -173,13 +185,12 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
               </div>
             </div>
 
-
             {/* Main Heading */}
             <div className="flex flex-col md:mx-auto md:max-w-3xl">
-              <h3 className="text-5xl font-bold text-white leading-tight drop-shadow-2xl [text-shadow:_2px_2px_8px_rgb(0_0_0_/_80%)] mt-6">
+              <h3 className="text-4xl md:text-5xl font-bold text-white leading-tight drop-shadow-2xl [text-shadow:_2px_2px_8px_rgb(0_0_0_/_80%)] mt-6">
                 {hero?.heading || 'Sanātana Dharma'}
               </h3>
-              <h4 className="text-3xl md:text-4xl font-semibold text-amber-300 leading-snug drop-shadow-lg [text-shadow:_1px_1px_4px_rgb(0_0_0_/_60%)]">
+              <h4 className="text-2xl md:text-3xl font-semibold text-amber-300 leading-snug drop-shadow-lg [text-shadow:_1px_1px_4px_rgb(0_0_0_/_60%)]">
                 {hero?.subheading || 'Eternal Wisdom'}
               </h4>
 

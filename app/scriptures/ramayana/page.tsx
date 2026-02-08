@@ -55,7 +55,7 @@ export default function Page({ searchParams }: any) {
           {/* Main characters */}
           {page.main_characters && page.main_characters.length > 0 && (
             <div>
-              <h2 className="h4">Main Characters</h2>
+              <h2 className="text-2xl md:text-3xl">Main Characters</h2>
               <ul role="list" className="list-disc">
                 {page.main_characters.map((c: any, idx: number) => (
                   <li key={idx}>
@@ -68,7 +68,7 @@ export default function Page({ searchParams }: any) {
           {/* Important places */}
           {page.important_places && page.important_places.length > 0 && (
             <div>
-              <h3 className="h4">Important Places</h3>
+              <h3 className="text-2xl md:text-3xl">Important Places</h3>
               <ul role="list" className="list-disc">
                 {page.important_places.map((p: any, idx: number) => (
                   <li key={idx}>
@@ -94,7 +94,7 @@ export default function Page({ searchParams }: any) {
           {/* Core themes */}
           {page.core_themes && page.core_themes.length > 0 && (
             <div>
-              <h5 className="h4">Core Themes</h5>
+              <h5 className="text-2xl md:text-3xl">Core Themes</h5>
               <ul role="list" className="list-disc">
                 {page.core_themes.map((ct: any, idx: number) => (
                   <li key={idx}>{(typeof ct.title === 'string') ? ct.title : ct['title']}</li>
