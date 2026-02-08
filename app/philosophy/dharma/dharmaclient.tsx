@@ -51,25 +51,25 @@ export default function DharmaClient() {
             <div className="space-y-6">
               <h1 className="text-3xl font-bold text-amber-800 mb-4">{title}</h1>
               <p className="mb-6"><strong>Definition:</strong> {definition.length ? definition.join(', ') : 'No definition found.'}</p>
-              <h2 className="h4">Categories of Dharma:</h2>
+              <h2 className="text-2xl md:text-3xl">Categories of Dharma:</h2>
               <ul className="list-disc ml-6 mb-6">
                 {Object.entries(categories).map(([key, val]: any, idx: number) => (
                   <li key={idx}><strong>{val.meaning}</strong>{val.examples ? <> - {Array.isArray(val.examples) ? val.examples.join(', ') : val.examples}</> : null}</li>
                 ))}
               </ul>
-              <h2 className="h4">Philosophical Dimensions / Goals of Dharma:</h2>
+              <h2 className="text-2xl md:text-3xl">Philosophical Dimensions / Goals of Dharma:</h2>
               <ul className="list-disc ml-6 mb-6">
                 {Object.entries(philosophicalDimensions).map(([key, val]: any, idx: number) => (
                   <li key={idx}>{val}</li>
                 ))}
               </ul>
-              <h2 className="h4">Core Principles of Dharma:</h2>
+              <h2 className="text-2xl md:text-3xl">Core Principles of Dharma:</h2>
               <ul className="list-disc ml-6 mb-6">
                 {Object.entries(corePrinciples).map(([key, val]: any, idx: number) => (
                   <li key={idx}>{val}</li>
                 ))}
               </ul>
-              <h2 className="h4">Dharma in Ramayana:</h2>
+              <h2 className="text-2xl md:text-3xl">Dharma in Ramayana:</h2>
               <ul className="list-disc ml-6 mb-6">
                 {Object.entries(dharmaInRamayana).map(([key, val]: any, idx: number) => (
                   <li key={idx}>{val}</li>

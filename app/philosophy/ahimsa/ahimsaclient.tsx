@@ -36,7 +36,7 @@ export default function AhimsaClient() {
         <p><strong>Definition : </strong>{definition.length ? definition.map((s: string, i: number) => (<span key={i}>{s}{i < definition.length - 1 ? ', ' : ''}</span>)) : <span>{String(__getLoc('philosophy_ahimsa.noDefinition'))}</span>}</p>
         {/* Categories of Ahimsa */}
         <div>
-          <h2 className="h4">Categories of Ahimsa :</h2>
+          <h2 className="text-2xl md:text-3xl">Categories of Ahimsa :</h2>
           <ul role="list" className="list-disc">
             {Object.entries(categories).map((cKey: any, idx: number) => {
               const { meaning, examples } = cKey[1] || {};

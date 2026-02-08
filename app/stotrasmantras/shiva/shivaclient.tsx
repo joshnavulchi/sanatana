@@ -24,7 +24,7 @@ export default function ShivaClient() {
     >
       {items.map((item: any, i: number) => (
         <section key={i}>
-          <h2 className="h4">{item.name || item.title || `Item ${i + 1}`}</h2>
+          <h2 className="text-2xl md:text-3xl">{item.name || item.title || `Item ${i + 1}`}</h2>
         </section>
       ))}
     </PageLayout>

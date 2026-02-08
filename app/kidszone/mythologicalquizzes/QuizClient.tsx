@@ -31,10 +31,30 @@ export default function QuizClient() {
     let mounted = true;
     fetch('/locales/en/questions.json')
       .then((r) => r.json())
-      .then((data: Question[]) => {
+      .then((data: any) => {
         if (!mounted) return;
-        setQuestionsPool(data);
-        const indices = sampleIndices(data.length, 10);
+        // Normalize data shape: support { questions: { ... } } and arrays
+        let list: any[] = [];
+        if (Array.isArray(data)) list = data;
+        else if (data && Array.isArray(data.questions)) list = data.questions;
+        else if (data && data.questions && typeof data.questions === 'object') list = Object.values(data.questions);
+        else list = [];
+
+        // Normalize option keys to uppercase A/B/C/D and answer to uppercase
+        const normalized: Question[] = list.map((q: any, idx: number) => ({
+          id: typeof q.id === 'number' ? q.id : idx + 1,
+          question: q.question || q.title || '',
+          options: {
+            A: q.options?.A || q.options?.a || '',
+            B: q.options?.B || q.options?.b || '',
+            C: q.options?.C || q.options?.c || '',
+            D: q.options?.D || q.options?.d || ''
+          },
+          answer: (String(q.answer || '').toUpperCase() || 'A') as keyof Options
+        }));
+
+        setQuestionsPool(normalized);
+        const indices = sampleIndices(normalized.length, Math.min(10, normalized.length));
         setSelectedIdx(indices);
       })
       .catch((err) => console.error('Failed to load questions', err));
@@ -110,11 +130,21 @@ export default function QuizClient() {
   if (!started) {
     return (
       <div>
-        <h2 className="h4">{ns?.readyTitle || 'Ready?'}</h2>
-        <p>{(ns?.readyDescription || 'This quiz has {count} questions, time {time}').replace('{count}', String(qList.length)).replace('{time}', fmtTime(timeLeft))}</p>
-        <div>
-          <button className="btn btn-primary" onClick={() => setStarted(true)}>{ns?.start || 'Start'}</button>
-          <button className="btn btn-outline" onClick={restart}>{ns?.shuffle || 'Shuffle'}</button>
+        <h2 className="text-2xl md:text-3xl">{ns?.readyTitle || 'Ready?'}</h2>
+        <p className="text-xl">{(ns?.readyDescription || 'This quiz has {count} questions, time {time}').replace('{count}', String(qList.length)).replace('{time}', fmtTime(timeLeft))}</p>
+        <div className="space-x-4 mt-6">
+          <button className="cursor-pointer group relative md:inline-flex px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-600
+                    hover:from-amber-600 hover:to-orange-700 text-white text-lg rounded-full shadow-xl hover:shadow-2xl
+                    transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden" onClick={() => setStarted(true)}>
+            <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
+            <span>{ns?.start || 'Start'}</span>
+          </button>
+          <button className="cursor-pointer group md:inline-flex px-8 py-4 bg-white/10 backdrop-blur-md
+                    hover:bg-white/20 border-2 border-amber-500/50 hover:border-white
+                    text-amber-500 text-lg rounded-full shadow-lg hover:shadow-xl
+                    transition-all duration-300 transform hover:-translate-y-1 no-underline" onClick={restart}>
+            <span>{ns?.shuffle || 'Shuffle'}</span>
+          </button>
         </div>
       </div>
     );
@@ -123,14 +153,16 @@ export default function QuizClient() {
   if (finished) {
     return (
       <div>
-        <h2 className="h4">{ns?.resultsTitle || 'Results'}</h2>
-        <div>{ns?.yourScore || 'Your score:'} <strong>{score}</strong> / {qList.length}</div>
-        <div>{ns?.timeTaken || 'Time taken:'} {fmtTime(10 * 60 - timeLeft)}</div>
+        <h2 className="text-2xl md:text-3xl">{ns?.resultsTitle || 'Results'}</h2>
+        <div className="flex items-center justify-between my-6">
+          <div className="text-xl">{ns?.yourScore || 'Your score:'} <strong>{score}</strong> / {qList.length}</div>
+          <div className="text-xl">{ns?.timeTaken || 'Time taken:'} {fmtTime(10 * 60 - timeLeft)}</div>
+        </div>
         <div>
           {qList.map((q, idx) => (
             <div key={q.id}>
-              <div>{idx + 1}. {q.question}</div>
-              <div>
+              <div className="text-xl font-semibold">{idx + 1}. {q.question}</div>
+              <div className="text-lg ml-4 my-2">
                 {(['A', 'B', 'C', 'D'] as (keyof Options)[]).map((k) => {
                   const correct = k === q.answer;
                   const chosen = answers[q.id] === k;
@@ -144,8 +176,13 @@ export default function QuizClient() {
             </div>
           ))}
         </div>
-        <div>
-          <button className="btn btn-primary" onClick={restart}>{ns?.restart || 'Restart'}</button>
+        <div className="mt-6">
+          <button className="cursor-pointer group relative md:inline-flex px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-600
+                    hover:from-amber-600 hover:to-orange-700 text-white text-lg rounded-full shadow-xl hover:shadow-2xl
+                    transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden" onClick={restart}>
+            <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
+            <span>{ns?.restart || 'Restart'}</span>
+          </button>
         </div>
       </div>
     );
@@ -155,17 +192,20 @@ export default function QuizClient() {
 
   return (
     <div>
-      <div>
-        <div>{(ns?.questionCounter || 'Question {current} / {total}').replace('{current}', String(current + 1)).replace('{total}', String(qList.length))}</div>
-        <div>{ns?.timeLeftLabel || 'Time left:'} {fmtTime(timeLeft)}</div>
+      <div className="flex items-center justify-between mb-6">
+        <div className="text-xl md:text-2xl font-semibold">{(ns?.questionCounter || 'Question {current} / {total}').replace('{current}', String(current + 1)).replace('{total}', String(qList.length))}</div>
+        <div className=''>{ns?.timeLeftLabel || 'Time left:'} {fmtTime(timeLeft)}</div>
       </div>
 
-      <div>
-        <div>{q.question}</div>
-        <div>
+      <div className="flex flex-col justify-start items-start gap-6">
+        <div className="text-xl md:text-2xl font-bold">{q.question}</div>
+        <div className="text-xl md:text-2xl font-semibold mt-4 flex flex-col gap-3">
           {(['A', 'B', 'C', 'D'] as (keyof Options)[]).map((k) => (
             <button
-              className="btn btn-primary"
+              className="cursor-pointer group md:inline-flex px-4 py-2 bg-white/10 backdrop-blur-md
+              hover:bg-white/20 border-2 border-amber-500/50 hover:border-white
+              text-amber-500 text-lg rounded-full shadow-lg hover:shadow-xl
+              transition-all duration-300 transform hover:-translate-y-1 no-underline"
               key={k}
               onClick={() => selectOption(k)}
             >
@@ -174,12 +214,25 @@ export default function QuizClient() {
           ))}
         </div>
 
-        <div>
-          <div>
-            <button className="btn btn-primary" onClick={goPrev} disabled={current === 0}>{ns?.previous || 'Previous'}</button>
-            <button className="btn btn-primary" onClick={goNext}>{current < qList.length - 1 ? (ns?.next || 'Next') : (ns?.finish || 'Finish')}</button>
+        <div className="w-full">
+          <div className="flex items-center justify-between my-6">
+            <button className="cursor-pointer group relative md:inline-flex px-4 py-2 bg-gradient-to-r from-amber-500 to-orange-600
+                    hover:from-amber-600 hover:to-orange-700 text-white text-lg rounded-full shadow-xl hover:shadow-2xl
+                    transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden" onClick={goPrev} disabled={current === 0}>
+              <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
+              <span>{ns?.previous || 'Previous'}</span>
+            </button>
+            <button className="cursor-pointer group relative md:inline-flex px-4 py-2 bg-gradient-to-r from-amber-500 to-orange-600
+                    hover:from-amber-600 hover:to-orange-700 text-white text-lg rounded-full shadow-xl hover:shadow-2xl
+                    transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden" onClick={goNext}>
+              <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
+              <span>{current < qList.length - 1 ? (ns?.next || 'Next') : (ns?.finish || 'Finish')}</span>
+            </button>
           </div>
-          <div>{(ns?.answered || 'Answered {answered} / {total}').replace('{answered}', String(Object.keys(answers).length)).replace('{total}', String(qList.length))}</div>
+          <div>
+            {(ns?.answered || 'Answered {answered} / {total}').replace('{answered}',
+              String(Object.keys(answers).length)).replace('{total}',
+                String(qList.length))}</div>
         </div>
       </div>
     </div>

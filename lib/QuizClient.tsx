@@ -30,10 +30,29 @@ export default function QuizClient() {
       const url = lang ? `/locales/${encodeURIComponent(lang)}/questions.json` : '/locales/en/questions.json';
       fetch(url)
         .then((r) => r.json())
-        .then((data: Question[]) => {
+        .then((data: any) => {
           if (!mounted) return;
-          setQuestionsPool(data);
-          const indices = sampleIndices(data.length, 10);
+          let list: any[] = [];
+          if (Array.isArray(data)) list = data;
+          else if (data && Array.isArray(data.questions)) list = data.questions;
+          else if (data && data.questions && typeof data.questions === 'object') list = Object.values(data.questions);
+          else list = [];
+
+          const normalized: Question[] = list.map((q: any, idx: number) => ({
+            id: typeof q.id === 'number' ? q.id : idx + 1,
+            question: q.question || q.title || '',
+            options: {
+              A: q.options?.A || q.options?.a || '',
+              B: q.options?.B || q.options?.b || '',
+              C: q.options?.C || q.options?.c || '',
+              D: q.options?.D || q.options?.d || ''
+            },
+            answer: (String(q.answer || '').toUpperCase() || 'A') as keyof Options
+          }));
+
+          if (!mounted) return;
+          setQuestionsPool(normalized);
+          const indices = sampleIndices(normalized.length, Math.min(10, normalized.length));
           setSelectedIdx(indices);
         })
         .catch((err) => console.error('Failed to load questions', err));
@@ -111,11 +130,19 @@ export default function QuizClient() {
   if (!started) {
     return (
       <div className="max-w-3xl">
-        <h2 className="h4">Ready for the Quiz?</h2>
+        <h2 className="text-2xl md:text-3xl">Ready for the Quiz?</h2>
         <p>You will be asked {qList.length} random questions. You have {fmtTime(timeLeft)} to complete the quiz.</p>
         <div className="flex gap-3">
-          <button className="btn btn-primary" onClick={() => setStarted(true)}>Start Quiz</button>
-          <button className="btn btn-primary" onClick={restart}>Shuffle Questions</button>
+          <button className="group relative md:inline-flex px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-600
+                    hover:from-amber-600 hover:to-orange-700 text-white text-lg rounded-full shadow-xl hover:shadow-2xl
+                    transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden" onClick={() => setStarted(true)}>
+            <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
+            <span>Start Quiz</span>
+          </button>
+          <button className="group md:inline-flex px-8 py-4 bg-white/10 backdrop-blur-md
+                    hover:bg-white/20 border-2 border-white/50 hover:border-white
+                    text-white text-lg rounded-full shadow-lg hover:shadow-xl
+                    transition-all duration-300 transform hover:-translate-y-1 no-underline" onClick={restart}>Shuffle Questions</button>
         </div>
       </div>
     );
@@ -124,7 +151,7 @@ export default function QuizClient() {
   if (finished) {
     return (
       <div className="max-w-3xl">
-        <h2 className="h4">Quiz Results</h2>
+        <h2 className="text-2xl md:text-3xl">Quiz Results</h2>
         <div>Your score: <strong>{score}</strong> / {qList.length}</div>
         <div>Time taken: {fmtTime(10 * 60 - timeLeft)}</div>
         <div className="space-y-3">
@@ -146,7 +173,12 @@ export default function QuizClient() {
           ))}
         </div>
         <div className="flex gap-3">
-          <button className="btn btn-primary" onClick={restart}>Restart Quiz</button>
+          <button className="group relative md:inline-flex px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-600
+                    hover:from-amber-600 hover:to-orange-700 text-white text-lg rounded-full shadow-xl hover:shadow-2xl
+                    transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden" onClick={restart}>
+            <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
+            <span className="relative flex">Restart Quiz</span>
+          </button>
         </div>
       </div>
     );
@@ -162,7 +194,7 @@ export default function QuizClient() {
       </div>
 
       <div className="border rounded">
-        <div className="h4">{q.question}</div>
+        <div className="text-2xl md:text-3xl">{q.question}</div>
         <div className="flex flex-col gap-2">
           {(['A', 'B', 'C', 'D'] as (keyof Options)[]).map((k) => (
             <button
@@ -176,8 +208,19 @@ export default function QuizClient() {
 
         <div className="flex justify-between">
           <div>
-            <button className="btn btn-primary" onClick={goPrev} disabled={current === 0}>Previous</button>
-            <button className="btn btn-primary" onClick={goNext}>{current < qList.length - 1 ? 'Next' : 'Finish'}</button>
+            <button className="group relative md:inline-flex px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-600
+                    hover:from-amber-600 hover:to-orange-700 text-white text-lg rounded-full shadow-xl hover:shadow-2xl
+                    transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden" onClick={goPrev} disabled={current === 0}>
+              <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
+              <span>Previous</span>
+            </button>
+            <button className="group md:inline-flex px-8 py-4 bg-white/10 backdrop-blur-md
+                    hover:bg-white/20 border-2 border-white/50 hover:border-white
+                    text-white text-lg rounded-full shadow-lg hover:shadow-xl
+                    transition-all duration-300 transform hover:-translate-y-1 no-underline" onClick={goNext}>
+              <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
+              <span>{current < qList.length - 1 ? 'Next' : 'Finish'}</span>
+            </button>
           </div>
           <div className="text-gray-600">Answered: {Object.keys(answers).length} / {qList.length}</div>
         </div>
