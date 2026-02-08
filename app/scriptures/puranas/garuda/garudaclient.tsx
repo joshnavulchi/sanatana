@@ -20,8 +20,8 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
         <div className="relative group overflow-hidden rounded-2xl shadow-2xl border-4 border-amber-300/30 bg-gradient-to-br from-amber-50/40 to-orange-100/20">
           <div className="absolute inset-0 bg-gradient-to-br from-amber-500/20 to-orange-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10" />
           <LazyImage
-            src="/images/philosophy-karma.png"
-            alt="philosophy karma"
+            src="/images/puranas-garuda.png"
+            alt="puranas garuda"
             width={1000}
             height={100}
             className="w-full h-auto transform group-hover:scale-105 transition-transform duration-700"
@@ -71,8 +71,8 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
       <div className="w-full lg:w-1/4">
         <div className="sticky top-24">
           <SimilarCategories
-            currentCategory="philosophy"
-            title="Similar Philosophy"
+            currentCategory="puranas"
+            title="Similar puranas"
             maxItems={3}
             excludeCurrent={false}
           />
@@ -179,11 +179,11 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
     </div>
   );
 };
-export default function KrishnaExplainsFiveKarmasClient() {
+export default function PuranasGarudaClient() {
   const { locale, isLoading } = useLocale();
-  const ns = useLocaleSection('philosophy_karma');
+  const ns = useLocaleSection('puranas_garuda');
   // Initialize with empty state to avoid hydration mismatch
-  const [karma, setKarma] = useState({ title: '', story: [] as string[] });
+  const [garuda, setGaruda] = useState({ title: '', story: [] as string[] });
   useEffect(() => {
     let mounted = true;
     (async () => {
@@ -196,28 +196,28 @@ export default function KrishnaExplainsFiveKarmasClient() {
       const story = Array.isArray(rawStory)
         ? (rawStory as string[])
         : (rawStory ? String(rawStory).split(/\r?\n/).filter(Boolean) : []);
-      setKarma({ title, story });
+      setGaruda({ title, story });
     })();
     return () => { mounted = false; };
   }, [locale, ns]);
   // Compute render-time title/story from translations first, falling back to state
-  const renderTitle = String(ns?.title || karma.title || '');
+  const renderTitle = String(ns?.title || garuda.title || '');
   const rawStoryFromT = ns?.story;
   const renderStory = Array.isArray(rawStoryFromT)
     ? (rawStoryFromT as string[])
     : rawStoryFromT
       ? String(rawStoryFromT).split(/\r?\n/).filter(Boolean)
-      : (Array.isArray(karma.story) ? karma.story : (karma.story ? [String(karma.story)] : []));
+      : (Array.isArray(garuda.story) ? garuda.story : (garuda.story ? [String(garuda.story)] : []));
 
   return (
     <PageLayout
-      metaKey="philosophy_karma"
+      metaKey="puranas_garuda"
       title={renderTitle}
-      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Philosophy', href: '/philosophy' }, { label: 'Karma' }]}
+      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'puranas', href: '/scriptures/puranas/garuda' }, { label: 'Garuda' }]}
       className="layout-md bg-gradient-to-br from-yellow-50 via-amber-100 to-orange-50 dark:from-gray-900 dark:via-amber-900 dark:to-orange-900 min-h-screen py-12 px-4 md:px-12 lg:px-24 border-l-8 border-amber-400 shadow-2xl"
     >
-      <TextToSpeech sectionId="philosophy-karma-content" className="floating" />
-      <div id="philosophy-karma-content" className="rounded-xl shadow-xl border-2 border-amber-200/60 bg-white/80 dark:bg-gray-900/60 p-6 md:p-10 lg:p-14 space-y-8">
+      <TextToSpeech sectionId="puranas-garuda-content" className="floating" />
+      <div id="puranas-garuda-content" className="rounded-xl shadow-xl border-2 border-amber-200/60 bg-white/80 dark:bg-gray-900/60 p-6 md:p-10 lg:p-14 space-y-8">
         {/* Render script paragraphs (para1, para2, ...) then conversation (alternating chat bubbles). */}
         {(() => {
           const script = parseMaybeObject(ns ? ns.script : '') || {};
