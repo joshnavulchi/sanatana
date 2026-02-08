@@ -41,7 +41,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
   }
 
   return (
-    <section className="max-w-7xl mx-auto px-6 py-10">
+    <section className="max-w-7xl mx-auto px-3 py-6">
       <header className="mb-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <div>
           <h3 className="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-amber-100">

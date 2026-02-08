@@ -163,7 +163,7 @@ export default function LanguageDropdown() {
         aria-expanded={open}
       >
         <div className="relative">
-          <img src="/images/svg/ml.svg" alt={locale?.languagedropdown?.iconalt || 'Language selector'} width={20} height={20} className="transition-transform duration-300 group-hover:rotate-12" />
+          <img src="/images/svg/ml.svg" alt={locale?.languagedropdown?.iconalt || 'Language selector'} width={30} height={30} className="transition-transform duration-300 group-hover:rotate-12" />
           <div className="absolute -top-1 -right-1 w-2 h-2 bg-amber-500 rounded-full animate-pulse"></div>
         </div>
         {isClient && (
