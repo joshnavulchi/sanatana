@@ -20,8 +20,8 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
         <div className="relative group overflow-hidden rounded-2xl shadow-2xl border-4 border-amber-300/30 bg-gradient-to-br from-amber-50/40 to-orange-100/20">
           <div className="absolute inset-0 bg-gradient-to-br from-amber-500/20 to-orange-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10" />
           <LazyImage
-            src="/images/philosophy-karma.png"
-            alt="philosophy karma"
+            src="/images/puranas-karma.png"
+            alt="Puranas Karma"
             width={1000}
             height={100}
             className="w-full h-auto transform group-hover:scale-105 transition-transform duration-700"
@@ -179,9 +179,9 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
     </div>
   );
 };
-export default function KrishnaExplainsFiveKarmasClient() {
+export default function PuranasKarmaClient() {
   const { locale, isLoading } = useLocale();
-  const ns = useLocaleSection('philosophy_karma');
+  const ns = useLocaleSection('puranas_karma');
   // Initialize with empty state to avoid hydration mismatch
   const [karma, setKarma] = useState({ title: '', story: [] as string[] });
   useEffect(() => {
@@ -211,13 +211,13 @@ export default function KrishnaExplainsFiveKarmasClient() {
 
   return (
     <PageLayout
-      metaKey="philosophy_karma"
+      metaKey="puranas_karma"
       title={renderTitle}
-      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Philosophy', href: '/philosophy' }, { label: 'Karma' }]}
+      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Puranas', href: '/scriptures/puranas/karma' }, { label: 'Karma' }]}
       className="layout-md bg-gradient-to-br from-yellow-50 via-amber-100 to-orange-50 dark:from-gray-900 dark:via-amber-900 dark:to-orange-900 min-h-screen py-12 px-4 md:px-12 lg:px-24 border-l-8 border-amber-400 shadow-2xl"
     >
-      <TextToSpeech sectionId="philosophy-karma-content" className="floating" />
-      <div id="philosophy-karma-content" className="rounded-xl shadow-xl border-2 border-amber-200/60 bg-white/80 dark:bg-gray-900/60 p-6 md:p-10 lg:p-14 space-y-8">
+      <TextToSpeech sectionId="puranas-karma-content" className="floating" />
+      <div id="puranas-karma-content" className="rounded-xl shadow-xl border-2 border-amber-200/60 bg-white/80 dark:bg-gray-900/60 p-6 md:p-10 lg:p-14 space-y-8">
         {/* Render script paragraphs (para1, para2, ...) then conversation (alternating chat bubbles). */}
         {(() => {
           const script = parseMaybeObject(ns ? ns.script : '') || {};
