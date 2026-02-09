@@ -236,7 +236,7 @@ export default function WorldTransformationContent() {
                             onChange={() => setSelectedDecade(selectedDecade === idx ? null : idx)}
                             className="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
                           />
-                          <span className="text-sm font-medium text-gray-700 dark:text-gray-300 group-hover/checkbox:text-blue-600 dark:group-hover/checkbox:text-blue-400 transition-colors">
+                          <span className="text-sm font-medium text-gray-700 dark:text-gray-300 group-hover/checkbox:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                             {selectedDecade === idx ? '✓ Shown on map' : '🗺️ Show on map'}
                           </span>
                         </label>

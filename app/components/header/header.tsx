@@ -10,7 +10,7 @@ import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import LazyImage from '../lazy-image/LazyImage';
 // import BannerNotifications from '../notifications';
-// import ThemeToggle from '../theme-toggle/ThemeToggle';
+import ThemeToggle from '../theme-toggle/ThemeToggle';
 
 const LanguageDropdown = dynamic(() => import("../language-dropdown/language-dropdown"), { ssr: false });
 // Start with default-locale fallbacks so header can render synchronously
@@ -88,7 +88,7 @@ export default function Header() {
     const alignClass = align === 'center' ? 'left-1/2 -translate-x-1/2' : (align === 'right' ? 'right-0' : 'left-0');
     const style = positionLeft != null ? { left: `${positionLeft}px` } : undefined;
     return (
-      <div id={id} role="menu" aria-hidden={!open} style={style as any} className={`absolute top-full w-56 rounded bg-white shadow-md overflow-hidden transition-all duration-150 transform origin-top ${positionLeft != null ? '' : alignClass} ${visible ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-95 -translate-y-1"} `}>
+      <div id={id} role="menu" aria-hidden={!open} style={style as any} className={`absolute top-full w-56 rounded bg-white dark:bg-gray-900 shadow-md overflow-hidden transition-all duration-150 transform origin-top ${positionLeft != null ? '' : alignClass} ${visible ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-95 -translate-y-1"} `}>
         {children}
       </div>
     );
@@ -165,7 +165,7 @@ export default function Header() {
     <header ref={headerRef} className={`w-full sticky top-0 z-30 shadow-md`}>
       {/* <BannerNotifications id="first_banner" message={translations.banner} marquee="true" />
       {/* <BannerNotifications id="second_banner" message={translations.banner2} marquee="false" showClose={true} backgroundclass="notification-alternative-background-color" /> */}
-      <div className="w-full px-2 md:px-0 bg-white/95 shadow-md sticky top-0 z-30">
+      <div className="w-full px-2 md:px-0 bg-white/95 dark:bg-gray-900/95 shadow-md sticky top-0 z-30">
         <div className="max-w-7xl mx-auto flex items-center justify-between p-1">
           {/* Logo and Title */}
           <Link href="/" className="flex items-center gap-2 group">
@@ -232,11 +232,13 @@ export default function Header() {
               return null;
             })}
             <LanguageDropdown />
+            <ThemeToggle />
           </nav>
 
           {/* Mobile Nav Toggle */}
           <div className="flex items-center md:hidden gap-2">
             <LanguageDropdown />
+            <ThemeToggle />
             <button
               aria-label="Open menu"
               onClick={() => setOpen((s) => !s)}

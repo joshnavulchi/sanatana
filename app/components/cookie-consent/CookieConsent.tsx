@@ -209,11 +209,11 @@ export default function CookieConsent() {
 
                 {/* Text content */}
                 <div className="flex-1">
-                  <h3 className="text-lg md:text-xl font-bold text-gray-900 dark:text-white mb-2 flex items-center gap-2">
+                  <h3 className="text-lg md:text-xl font-bold text-gray-900 dark:text-amber-100 mb-2 flex items-center gap-2">
                     <span className="md:hidden text-2xl">🍪</span>
                     Cookie Settings
                   </h3>
-                  <div className="text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
+                  <div className="text-sm md:text-base text-gray-700 dark:text-amber-100 leading-relaxed">
                     {(() => {
                       const paragraph = localeObj?.cookieconsent?.paragraph || '';
                       return (

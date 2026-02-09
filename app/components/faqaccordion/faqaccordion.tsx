@@ -69,7 +69,7 @@ export default function FaqAccordion({ items, heading }: Props) {
                     font-semibold text-base md:text-lg leading-relaxed transition-colors duration-300
                     ${open 
                       ? 'text-amber-900 dark:text-amber-100' 
-                      : 'text-gray-800 dark:text-gray-200 group-hover:text-amber-700 dark:group-hover:text-amber-300'
+                      : 'text-gray-800 dark:text-amber-100 group-hover:text-amber-700 dark:group-hover:text-amber-200'
                     }
                   `}>
                     {it.q}
@@ -96,7 +96,7 @@ export default function FaqAccordion({ items, heading }: Props) {
                 `}
               >
                 <div className="px-6 pb-6 pl-20">
-                  <div className="pt-2 text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line border-l-4 border-amber-400 dark:border-amber-600 pl-6 py-3 bg-white/50 dark:bg-gray-800/50 rounded-r-lg">
+                  <div className="pt-2 text-gray-700 dark:text-amber-100 leading-relaxed whitespace-pre-line border-l-4 border-amber-400 dark:border-amber-600 pl-6 py-3 bg-white/50 dark:bg-gray-800/50 rounded-r-lg">
                     {it.a}
                   </div>
                 </div>

@@ -49,7 +49,7 @@ export default function WelcomePage() {
       {/* Main welcome card */}
       <div className="relative">
         {/* Close button */}
-        <button onClick={handleClose} aria-label="Close welcome message" className="cursor-pointer absolute -top-4 -right-4 z-30 w-10 h-10 bg-white/60 backdrop-blur-2xl border-2 border-amber-400 hover:border-amber-500 rounded-full shadow-2xl shadow-amber-500/80 hover:shadow-amber-500/100 drop-shadow-xl transition-all duration-200 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2">
+        <button onClick={handleClose} aria-label="Close welcome message" className="cursor-pointer absolute -top-4 -right-4 z-30 w-10 h-10 bg-white/60 backdrop-blur-2xl border-2 border-amber-400 hover:border-amber-500 rounded-full shadow-2xl shadow-amber-500/80 hover:shadow-amber-500/100 drop-shadow-xl transition-all duration-200 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 dark:text-amber-100">
           <span className="sr-only">{page.close}</span>
           <svg className="w-6 h-6 text-amber-700 group-hover:text-amber-900 transition-colors drop-shadow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -155,7 +155,7 @@ export default function WelcomePage() {
                     " />
                 <span className="text-sm text-gray-600 group-hover:text-amber-700 transition-colors"> {page.do_not} </span>
               </label>
-              <button onClick={handleClose} className="cursor-pointer px-10 py-2 rounded-full bg-white/20 text-amber-700 font-extrabold border-2 border-white shadow-2xl shadow-amber-400/40 backdrop-blur-2xl transition-all duration-300 relative overflow-hidden group focus:outline-none focus:ring-4 focus:ring-amber-300/60 active:scale-95 mt-2" style={{
+              <button onClick={handleClose} className="cursor-pointer px-10 py-2 rounded-full bg-white/20 text-amber-700 dark:text-amber-100 font-extrabold border-2 border-white shadow-2xl shadow-amber-400/40 backdrop-blur-2xl transition-all duration-300 relative overflow-hidden group focus:outline-none focus:ring-4 focus:ring-amber-300/60 active:scale-95 mt-2" style={{
                 WebkitBackdropFilter: 'blur(16px)',
                 backdropFilter: 'blur(16px)'
               }}>

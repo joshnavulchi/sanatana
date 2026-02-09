@@ -24,10 +24,10 @@ export default function DefinitionOfLife() {
             <span className="text-3xl text-amber-800">🕉️</span>
             <div className="h-px w-16 bg-gradient-to-l from-transparent to-amber-400" />
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700 bg-clip-text text-transparent mb-2">
+          <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700 bg-clip-text text-transparent mb-2 dark:bg-gradient-to-r dark:from-amber-300 dark:via-yellow-400 dark:to-orange-300">
             The Essence of Life
           </h2>
-          <p className="text-lg text-amber-700/80 font-serif italic">
+          <p className="text-lg text-amber-700/80 dark:text-amber-100 font-serif italic">
             जीवनस्य परमं तत्त्वम्
           </p>
         </div>
@@ -35,12 +35,12 @@ export default function DefinitionOfLife() {
         {/* Main content grid */}
         <div className="flex flex-col md:flex-row gap-8 md:gap-2 mb-12">
           {/* Card 1: Purpose */}
-          <div className="w-full md:w-1/4 relative bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-6 border border-amber-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex-1">
+          <div className="w-full md:w-1/4 relative bg-gradient-to-br from-amber-50 to-orange-50 dark:from-gray-900 dark:to-amber-950/20 rounded-xl p-6 border border-amber-200/50 dark:border-amber-800/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex-1">
             <div className="absolute top-4 right-4 text-4xl opacity-20 group-hover:opacity-30 transition-opacity">
               🎯
             </div>
-            <h3 className="text-xl font-bold text-amber-800 mb-3">पुरुषार्थ - Life`&apos;`s Purpose</h3>
-            <p className="text-gray-700 leading-relaxed">
+            <h3 className="text-xl font-bold text-amber-800 dark:text-amber-100 mb-3">पुरुषार्थ - Life's Purpose</h3>
+            <p className="text-gray-700 dark:text-amber-100 leading-relaxed">
               Life is a sacred journey toward the four Purusharthas:
               <span className="font-semibold text-amber-700"> Dharma</span> (righteousness),
               <span className="font-semibold text-orange-600"> Artha</span> (prosperity),
@@ -50,12 +50,12 @@ export default function DefinitionOfLife() {
           </div>
 
           {/* Card 2: Atman */}
-          <div className="w-full md:w-1/4 relative bg-gradient-to-br from-orange-50 to-yellow-50 rounded-xl p-6 border border-orange-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div className="w-full md:w-1/4 relative bg-gradient-to-br from-orange-50 to-yellow-50 dark:from-gray-900 dark:to-yellow-950/20 rounded-xl p-6 border border-orange-200/50 dark:border-orange-800/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
             <div className="absolute top-4 right-4 text-4xl opacity-20 group-hover:opacity-30 transition-opacity">
               ✨
             </div>
-            <h3 className="text-xl font-bold text-orange-800 mb-3">आत्मा - The Eternal Soul</h3>
-            <p className="text-gray-700 leading-relaxed">
+            <h3 className="text-xl font-bold text-orange-800 dark:text-amber-100 mb-3">आत्मा - The Eternal Soul</h3>
+            <p className="text-gray-700 dark:text-amber-100 leading-relaxed">
               The Atman, your true self, is eternal and divine.
               <span className="italic"> `&quot;`न जायते म्रियते वा`&quot;` </span>
               — It is never born, nor does it die. Life is the soul`&apos;`s journey to realize its oneness with Brahman.
@@ -63,12 +63,12 @@ export default function DefinitionOfLife() {
           </div>
 
           {/* Card 3: Karma */}
-          <div className="w-full md:w-1/4 relative bg-gradient-to-br from-yellow-50 to-amber-50 rounded-xl p-6 border border-yellow-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div className="w-full md:w-1/4 relative bg-gradient-to-br from-yellow-50 to-amber-50 dark:from-gray-900 dark:to-amber-950/20 rounded-xl p-6 border border-yellow-200/50 dark:border-yellow-800/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
             <div className="absolute top-4 right-4 text-4xl opacity-20 group-hover:opacity-30 transition-opacity">
               ⚖️
             </div>
-            <h3 className="text-xl font-bold text-yellow-800 mb-3">कर्म - Law of Action</h3>
-            <p className="text-gray-700 leading-relaxed">
+            <h3 className="text-xl font-bold text-yellow-800 dark:text-amber-100 mb-3">कर्म - Law of Action</h3>
+            <p className="text-gray-700 dark:text-amber-100 leading-relaxed">
               Every action creates karma, shaping our destiny.
               <span className="font-semibold text-amber-700"> `&quot;`कर्मण्येवाधिकारस्ते`&quot;`</span>
               — You have the right to perform your duty, but the fruits belong to the divine.
@@ -76,11 +76,11 @@ export default function DefinitionOfLife() {
           </div>
 
           {/* Card 4: Maya & Reality */}
-          <div className="w-full md:w-1/4 relative bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-6 border border-amber-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div className="w-full md:w-1/4 relative bg-gradient-to-br from-amber-50 to-orange-50 dark:from-gray-900 dark:to-amber-950/20 rounded-xl p-6 border border-amber-200/50 dark:border-amber-800/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
             <div className="absolute top-4 right-4 text-4xl opacity-20 group-hover:opacity-30 transition-opacity">
               🌌
             </div>
-            <h3 className="text-xl font-bold text-amber-800 mb-3">माया - Illusion & Truth</h3>
+            <h3 className="text-xl font-bold text-amber-800 dark:text-amber-100 mb-3">माया - Illusion & Truth</h3>
             <p className="text-gray-700 leading-relaxed">
               Life is a play of Maya, the cosmic illusion. True wisdom lies in seeing beyond appearances to recognize the
               <span className="font-semibold text-orange-600"> eternal truth</span> that pervades all existence.

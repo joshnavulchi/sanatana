@@ -16,26 +16,26 @@ export default async function Page() {
         { labelKey: 'Home', href: '/' },
         { label: 'Cosmic Time' }]}
       className={`${styles.cosmicPage} layout-sm`}>
-      <p className="description">{cosmic('cosmictime.definition')}</p>
-      <p>{cosmic('cosmictime.keypoint')}</p>
-      <p>{cosmic('cosmictime.longduration')}</p>
-      <p>{cosmic('cosmictime.system')}</p>
-      <p>{cosmic('cosmictime.scale_of_time')}</p>
-      <p>{cosmic('cosmictime.human_years')}</p>
-      <p>{cosmic('cosmictime.cyclical_universe')}</p>
-      <p>{cosmic('cosmictime.modern_thinking_assumes')}</p>
-      <p>{cosmic('cosmictime.assumes')}</p>
-      <p>{cosmic('cosmictime.thus')}</p>
-      <p>{cosmic('cosmictime.staya_yuga_longest')}</p>
-      <p>{cosmic('cosmictime.staya_yuga_longest_definition')}</p>
-      <p>{cosmic('cosmictime.non_contradictory')}</p>
-      <p>{cosmic('cosmictime.non_contradictory_thus')}</p>
-      <p>{cosmic('cosmictime.symbolic_structural')}</p>
-      <p>{cosmic('cosmictime.symbolic_structural_this')}</p>
-      <p>{cosmic('cosmictime.summary_direct_answer')}</p>
-      <p>{cosmic('cosmictime.satya_yuga_long_design')}</p>
-      <p>{cosmic('cosmictime.night_of_brahma')}</p>
-      <p><strong>{cosmic('cosmictime.brahma_full_day')}: </strong>{cosmic('cosmictime.lifetime_brahma')}</p>
+      <p className="description dark:text-amber-100">{cosmic('cosmictime.definition')}</p>
+      <p className="dark:text-amber-100">{cosmic('cosmictime.keypoint')}</p>
+      <p className="dark:text-amber-100">{cosmic('cosmictime.longduration')}</p>
+      <p className="dark:text-amber-100">{cosmic('cosmictime.system')}</p>
+      <p className="dark:text-amber-100">{cosmic('cosmictime.scale_of_time')}</p>
+      <p className="dark:text-amber-100">{cosmic('cosmictime.human_years')}</p>
+      <p className="dark:text-amber-100">{cosmic('cosmictime.cyclical_universe')}</p>
+      <p className="dark:text-amber-100">{cosmic('cosmictime.modern_thinking_assumes')}</p>
+      <p className="dark:text-amber-100">{cosmic('cosmictime.assumes')}</p>
+      <p className="dark:text-amber-100">{cosmic('cosmictime.thus')}</p>
+      <p className="dark:text-amber-100">{cosmic('cosmictime.staya_yuga_longest')}</p>
+      <p className="dark:text-amber-100">{cosmic('cosmictime.staya_yuga_longest_definition')}</p>
+      <p className="dark:text-amber-100">{cosmic('cosmictime.non_contradictory')}</p>
+      <p className="dark:text-amber-100">{cosmic('cosmictime.non_contradictory_thus')}</p>
+      <p className="dark:text-amber-100">{cosmic('cosmictime.symbolic_structural')}</p>
+      <p className="dark:text-amber-100">{cosmic('cosmictime.symbolic_structural_this')}</p>
+      <p className="dark:text-amber-100">{cosmic('cosmictime.summary_direct_answer')}</p>
+      <p className="dark:text-amber-100">{cosmic('cosmictime.satya_yuga_long_design')}</p>
+      <p className="dark:text-amber-100">{cosmic('cosmictime.night_of_brahma')}</p>
+      <p className="dark:text-amber-100"><strong>{cosmic('cosmictime.brahma_full_day')}: </strong>{cosmic('cosmictime.lifetime_brahma')}</p>
     </PageLayout>
   );
 }

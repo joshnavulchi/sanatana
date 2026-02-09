@@ -4,6 +4,9 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import storage from '../../lib/storage';
 
+// Ensure theme key is always persisted in localStorage
+storage.addLocalKey('sd_theme');
+
 type Theme = 'light' | 'dark' | 'system';
 
 type ThemeContextType = {
@@ -20,32 +23,35 @@ const ThemeContext = createContext<ThemeContextType>({
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [theme, setThemeState] = useState<Theme>('light');
+  const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
     try {
-      const stored = storage.getItem('sd_theme');
-      const initial: Theme = (stored as Theme) || 'system';
-      setTimeout(() => setThemeState(initial), 0);
+      const stored = storage.getItem('sd_theme', { type: 'local' });
+      const initial: Theme = (stored as Theme) || 'light';
+      setThemeState(initial);
     } catch (e) {
-      setTimeout(() => setThemeState('system'), 0);
+      setThemeState('light');
     }
+    setIsLoaded(true);
   }, []);
 
   useEffect(() => {
+    if (!isLoaded) return;
     function apply(t: Theme) {
       const root = document.documentElement;
       const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
       const isDark = t === 'dark' || (t === 'system' && prefersDark);
-
-      // Keep compatibility with Tailwind's `dark` class while also toggling
-      // explicit theme classes that control --theme-* variables.
       root.classList.remove('theme-dark', 'theme-light');
+      root.removeAttribute('data-theme');
       if (isDark) {
         root.classList.add('dark');
         root.classList.add('theme-dark');
+        root.setAttribute('data-theme', 'dark');
       } else {
         root.classList.remove('dark');
         root.classList.add('theme-light');
+        root.setAttribute('data-theme', 'light');
       }
     }
     apply(theme);
@@ -54,16 +60,25 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     } catch (err) {
       // ignore
     }
-  }, [theme]);
+  }, [theme, isLoaded]);
 
   function setTheme(t: Theme) {
     setThemeState(t);
   }
 
   function toggle() {
-    setThemeState((s) => (s === 'dark' ? 'light' : 'dark'));
+    setThemeState((s) => {
+      const next = s === 'dark' ? 'light' : 'dark';
+      try {
+        storage.setItem('sd_theme', next);
+      } catch (err) {
+        // ignore
+      }
+      return next;
+    });
   }
 
+  if (!isLoaded) return null;
   return (
     <ThemeContext.Provider value={{ theme, setTheme, toggle }}>
       {children}

@@ -108,7 +108,7 @@ export default function UnderstandingOfSanatana() {
                         className="mx-auto inline-flex"
                       />
                     )}
-                    <h6 className="text-xl font-bold dark:text-amber-100">{topic.title}</h6>
+                    <h6 className="text-xl font-bold text-amber-800 dark:text-amber-100">{topic.title}</h6>
                     <p className="text-gray-600 dark:text-amber-100">
                       {topic.description}
                     </p>
@@ -140,7 +140,7 @@ export default function UnderstandingOfSanatana() {
               {section.points?.map((point, index) => (
                 <div
                   key={`${section.id}-point-${index}`}
-                  className="bg-gradient-to-br from-white to-amber-50 rounded-2xl p-6 mb-6 md:mb-0 shadow-lg"
+                  className="bg-gradient-to-br from-white to-amber-50 dark:from-gray-900 dark:to-amber-950/20 rounded-2xl p-6 mb-6 md:mb-0 shadow-lg"
                 >
                   <p className="text-gray-800 dark:text-amber-100 font-medium">
                     {point}
