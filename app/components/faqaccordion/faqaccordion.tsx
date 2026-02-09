@@ -17,7 +17,7 @@ export default function FaqAccordion({ items, heading }: Props) {
     <section className="faq-accordion my-12">
       {heading && (
         <div className="mb-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-amber-600 via-orange-500 to-amber-600 bg-clip-text text-transparent inline-block">
+          <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-amber-600 via-orange-500 to-amber-600 bg-clip-text inline-block">
             {heading}
           </h2>
           <div className="mt-3 w-24 h-1 bg-gradient-to-r from-amber-400 to-orange-500 mx-auto rounded-full"></div>
@@ -27,28 +27,27 @@ export default function FaqAccordion({ items, heading }: Props) {
         {items.map((it, idx) => {
           const open = openIndex === idx;
           return (
-            <div 
-              key={idx} 
+            <div
+              key={idx}
               className={`
                 group relative overflow-hidden rounded-2xl border-2 transition-all duration-300
-                ${open 
-                  ? 'border-amber-400 shadow-xl shadow-amber-500/20' 
+                ${open
+                  ? 'border-amber-400 shadow-xl shadow-amber-500/20'
                   : 'border-amber-200 shadow-md hover:shadow-lg hover:border-amber-300'
                 }
               `}
             >
               {/* Gradient background */}
-              <div className={`absolute inset-0 bg-gradient-to-br transition-opacity duration-300 ${
-                open 
-                  ? 'from-amber-50 via-orange-50 to-amber-50 opacity-100' 
-                  : 'from-white to-amber-50/30 opacity-100'
-              }`} />
-              
+              <div className={`absolute inset-0 bg-gradient-to-br transition-opacity duration-300 ${open
+                ? 'from-amber-50 via-orange-50 to-amber-50 opacity-100'
+                : 'from-white to-amber-50/30 opacity-100'
+                }`} />
+
               {/* Decorative corner accent */}
               {open && (
                 <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-amber-400/20 to-transparent rounded-bl-full pointer-events-none" />
               )}
-              
+
               <button
                 aria-expanded={open}
                 aria-controls={`faq-${idx}`}
@@ -58,8 +57,8 @@ export default function FaqAccordion({ items, heading }: Props) {
                 <div className="flex items-start gap-4 flex-1">
                   <div className={`
                     flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold transition-all duration-300
-                    ${open 
-                      ? 'bg-gradient-to-br from-amber-500 to-orange-600 text-white scale-110 shadow-lg' 
+                    ${open
+                      ? 'bg-gradient-to-br from-amber-500 to-orange-600 text-white scale-110 shadow-lg'
                       : 'bg-amber-100 text-amber-700 group-hover:scale-105'
                     }
                   `}>
@@ -67,8 +66,8 @@ export default function FaqAccordion({ items, heading }: Props) {
                   </div>
                   <span className={`
                     font-semibold text-base md:text-lg leading-relaxed transition-colors duration-300
-                    ${open 
-                      ? 'text-amber-900 dark:text-amber-100' 
+                    ${open
+                      ? 'text-amber-900 dark:text-amber-100'
                       : 'text-gray-800 dark:text-amber-100 group-hover:text-amber-700 dark:group-hover:text-amber-200'
                     }
                   `}>
@@ -77,8 +76,8 @@ export default function FaqAccordion({ items, heading }: Props) {
                 </div>
                 <div className={`
                   flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 transform
-                  ${open 
-                    ? 'bg-gradient-to-br from-amber-500 to-orange-600 text-white rotate-180 shadow-md' 
+                  ${open
+                    ? 'bg-gradient-to-br from-amber-500 to-orange-600 text-white rotate-180 shadow-md'
                     : 'bg-amber-100 dark:bg-amber-900/50 text-amber-800 dark:text-amber-200 group-hover:bg-amber-200 dark:group-hover:bg-amber-900'
                   }
                 `}>
@@ -96,7 +95,7 @@ export default function FaqAccordion({ items, heading }: Props) {
                 `}
               >
                 <div className="px-6 pb-6 pl-20">
-                  <div className="pt-2 text-gray-700 dark:text-amber-100 leading-relaxed whitespace-pre-line border-l-4 border-amber-400 dark:border-amber-600 pl-6 py-3 bg-white/50 dark:bg-gray-800/50 rounded-r-lg">
+                  <div className="pt-2  dark:text-amber-100 leading-relaxed whitespace-pre-line border-l-4 border-amber-400 dark:border-amber-600 pl-6 py-3 bg-white/50 dark:bg-gray-800/50 rounded-r-lg">
                     {it.a}
                   </div>
                 </div>

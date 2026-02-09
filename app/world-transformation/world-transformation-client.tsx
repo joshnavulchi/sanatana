@@ -59,7 +59,7 @@ export default function WorldTransformationContent() {
             </div>
 
             {pageContent.meta?.description && (
-              <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-4">
+              <p className="text-lg md:text-xl  leading-relaxed mb-4">
                 {pageContent.meta.description}
               </p>
             )}
@@ -83,7 +83,7 @@ export default function WorldTransformationContent() {
             </div>
 
             {pageContent.whyBordersBecameStable.summary && (
-              <p className="text-gray-700 leading-relaxed pl-15">{pageContent.whyBordersBecameStable.summary}</p>
+              <p className=" leading-relaxed pl-15">{pageContent.whyBordersBecameStable.summary}</p>
             )}
 
             {pageContent.whyBordersBecameStable.factors && Array.isArray(pageContent.whyBordersBecameStable.factors) && (
@@ -102,7 +102,7 @@ export default function WorldTransformationContent() {
                       <span className="text-xl">📍</span>
                       {factor.title}
                     </h5>
-                    <p className="text-sm text-gray-700 leading-relaxed">{factor.explanation}</p>
+                    <p className="text-sm  leading-relaxed">{factor.explanation}</p>
                   </div>
                 ))}
               </div>
@@ -112,7 +112,7 @@ export default function WorldTransformationContent() {
               <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-l-4 border-blue-500 rounded-lg p-6">
                 <div className="flex items-start gap-3">
                   <span className="text-2xl">💡</span>
-                  <p className="flex-1 text-gray-700 leading-relaxed font-semibold">{pageContent.whyBordersBecameStable.keyTakeaway}</p>
+                  <p className="flex-1  leading-relaxed font-semibold">{pageContent.whyBordersBecameStable.keyTakeaway}</p>
                 </div>
               </div>
             )}
@@ -140,7 +140,7 @@ export default function WorldTransformationContent() {
                     className="w-8 h-6 inline-block rounded-md border-2 border-white shadow-md"
                     style={{ background: ct.color || '#999' }}
                   />
-                  <span className="text-sm font-medium text-gray-700">{ct.label}</span>
+                  <span className="text-sm font-medium ">{ct.label}</span>
                 </div>
               ))}
             </div>
@@ -190,7 +190,7 @@ export default function WorldTransformationContent() {
                     )}
 
                     {d.summary && (
-                      <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">{d.summary}</p>
+                      <p className=" dark:text-gray-300 leading-relaxed mb-4">{d.summary}</p>
                     )}
 
                     {d.whatChanged && Array.isArray(d.whatChanged) && d.whatChanged.length > 0 && (
@@ -201,7 +201,7 @@ export default function WorldTransformationContent() {
                         </h5>
                         <ul className="space-y-2">
                           {d.whatChanged.map((w: string, i: number) => (
-                            <li key={i} className="flex items-start gap-2 text-sm text-gray-700 dark:text-gray-300">
+                            <li key={i} className="flex items-start gap-2 text-sm  dark:text-gray-300">
                               <span className="text-blue-500 mt-1">•</span>
                               <span className="flex-1">{w}</span>
                             </li>
@@ -218,7 +218,7 @@ export default function WorldTransformationContent() {
                         </h5>
                         <ul className="space-y-2">
                           {d.why.map((w: string, i: number) => (
-                            <li key={i} className="flex items-start gap-2 text-sm text-gray-700 dark:text-gray-300">
+                            <li key={i} className="flex items-start gap-2 text-sm  dark:text-gray-300">
                               <span className="text-indigo-500 mt-1">•</span>
                               <span className="flex-1">{w}</span>
                             </li>
@@ -236,7 +236,7 @@ export default function WorldTransformationContent() {
                             onChange={() => setSelectedDecade(selectedDecade === idx ? null : idx)}
                             className="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
                           />
-                          <span className="text-sm font-medium text-gray-700 dark:text-gray-300 group-hover/checkbox:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                          <span className="text-sm font-medium  dark:text-gray-300 group-hover/checkbox:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                             {selectedDecade === idx ? '✓ Shown on map' : '🗺️ Show on map'}
                           </span>
                         </label>

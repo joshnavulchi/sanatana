@@ -41,7 +41,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
   }
 
   return (
-    <section className="max-w-7xl mx-auto px-3 py-6">
+    <section className="max-w-7xl mx-auto">
       <header className="mb-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <div>
           <h3 className="text-3xl md:text-4xl font-extrabold text-slate-900">
@@ -74,7 +74,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
               <div className="flex justify-between items-start">
                 <div className="flex-1">
                   {s.sanskrit ? (
-                    <p className="text-xl md:text-2xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-amber-600 via-orange-500 to-amber-400">
+                    <p className="text-xl md:text-2xl font-extrabold tracking-tight bg-clip-text bg-gradient-to-r from-amber-600 via-orange-500 to-amber-400">
                       {s.sanskrit}
                     </p>
                   ) : null}

@@ -315,7 +315,7 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
     <div className={`relative w-full ${className}`}>
       {/* Title */}
       <div className="text-center mb-8">
-        <h2 className="text-4xl font-bold bg-gradient-to-r from-amber-400 via-orange-500 to-amber-400 bg-clip-text text-transparent mb-3">
+        <h2 className="text-4xl font-bold bg-gradient-to-r from-amber-400 via-orange-500 to-amber-400 bg-clip-text mb-3">
           🌍 Earth`&apos;`s Continental Timeline 🌏
         </h2>
         <p className="text-gray-400 text-lg">

@@ -76,7 +76,7 @@ export default function AboutClient() {
               <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-500" />
             </div>
 
-            <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
+            <p className="text-lg md:text-xl  leading-relaxed">
               {about.intro}
             </p>
           </div>
@@ -143,7 +143,7 @@ export default function AboutClient() {
 
                 {/* Section text */}
                 {section?.text && (
-                  <p className="text-base md:text-lg text-gray-700 dark:text-amber-100 leading-relaxed pl-16">
+                  <p className="text-base md:text-lg  dark:text-amber-100 leading-relaxed pl-16">
                     {section.text}
                   </p>
                 )}
@@ -157,7 +157,7 @@ export default function AboutClient() {
                         className="
                           relative
                           flex items-start gap-3
-                          text-gray-700 dark:text-amber-100
+                           dark:text-amber-100
                           leading-relaxed
                         "
                       >
@@ -195,7 +195,7 @@ export default function AboutClient() {
               <span className="text-3xl">⚠️</span>
               <div className="flex-1">
                 <h4 className="text-xl font-bold text-gray-900 dark:text-amber-100 mb-2">Disclaimer</h4>
-                <p className="text-gray-700 dark:text-amber-100 leading-relaxed">
+                <p className=" dark:text-amber-100 leading-relaxed">
                   {about.disclaimer}
                 </p>
               </div>

@@ -166,7 +166,7 @@ export default function Header() {
       {/* <BannerNotifications id="first_banner" message={translations.banner} marquee="true" />
       {/* <BannerNotifications id="second_banner" message={translations.banner2} marquee="false" showClose={true} backgroundclass="notification-alternative-background-color" /> */}
       <div className="w-full px-2 md:px-0 bg-white/95 shadow-md sticky top-0 z-30">
-        <div className="max-w-7xl mx-auto flex items-center justify-between p-1">
+        <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Logo and Title */}
           <Link href="/" className="flex items-center gap-2 group">
             <LazyImage
@@ -242,7 +242,7 @@ export default function Header() {
             <button
               aria-label="Open menu"
               onClick={() => setOpen((s) => !s)}
-              className="inline-flex items-center justify-center rounded-lg p-2 hover:bg-amber-100 focus:outline-none focus:ring-2 focus:ring-amber-400"
+              className="inline-flex items-center justify-center rounded-lg hover:bg-amber-100 focus:outline-none focus:ring-2 focus:ring-amber-400"
             >
               <svg className="h-8 w-8 text-orange-600" fill="none" viewBox="0 0 32 32" stroke="currentColor" aria-hidden="true">
                 {open ? (

@@ -97,7 +97,7 @@ export default function WelcomePage() {
             {/* Welcome title */}
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold
                 bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700
-                bg-clip-text text-transparent tracking-tight leading-tight"> {page.namaste_welcome} </h2>
+                bg-clip-text tracking-tight leading-tight"> {page.namaste_welcome} </h2>
 
             {/* Sanskrit blessing */}
             <p className="text-xl md:text-2xl
@@ -121,7 +121,7 @@ export default function WelcomePage() {
 
             {/* Main message */}
             <div className="space-y-4 max-w-2xl mx-auto">
-              <p className="text-lg md:text-xl text-gray-700 leading-relaxed"> {page.deeply_honored} </p>
+              <p className="text-lg md:text-xl  leading-relaxed"> {page.deeply_honored} </p>
               <p className="text-base md:text-lg text-gray-600 leading-relaxed"> {page.thank_taking} <span className="font-semibold text-amber-700"> {page.eternal_truths}</span> {page.timeless_wisdom} </p>
               <p className="text-base md:text-lg text-gray-600 leading-relaxed"> {page.may_journey} <span className="font-semibold text-orange-600"> {page.clarity_devotion}</span>.
               </p>

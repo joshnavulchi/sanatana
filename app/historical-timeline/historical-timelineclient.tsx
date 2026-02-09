@@ -72,7 +72,7 @@ const Region = ({ title, data }: { title: string; data?: RegionData }) => {
       </div>
 
       {data.description && (
-        <p className="text-gray-700 leading-relaxed mb-6 pl-15">{data.description}</p>
+        <p className=" leading-relaxed mb-6 pl-15">{data.description}</p>
       )}
 
       {/* Rulers timeline */}
@@ -103,11 +103,11 @@ const Region = ({ title, data }: { title: string; data?: RegionData }) => {
 
               <div className="space-y-2 text-sm">
                 {ruler.dynasty && (
-                  <p className="text-gray-700">
+                  <p className="">
                     <strong className="text-amber-800">Dynasty:</strong> {ruler.dynasty}
                   </p>
                 )}
-                <p className="text-gray-700">
+                <p className="">
                   <strong className="text-amber-800">Reign:</strong> {ruler.reign}
                 </p>
                 {ruler.notes && (
@@ -212,7 +212,7 @@ export default function HistoricalTimeline() {
               <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-500" />
             </div>
 
-            <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
+            <p className="text-lg md:text-xl  dark:text-gray-300 leading-relaxed">
               {timeline.description}
             </p>
           </div>
@@ -221,7 +221,7 @@ export default function HistoricalTimeline() {
         {/* Introduction */}
         {timeline.intro && (
           <div className="bg-gradient-to-br from-white to-amber-50/30 dark:from-gray-800 dark:to-amber-950/20 border-2 border-amber-100 dark:border-amber-900/30 rounded-2xl p-6 md:p-8 shadow-lg">
-            <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{timeline.intro.summary}</p>
+            <p className=" dark:text-gray-300 leading-relaxed">{timeline.intro.summary}</p>
           </div>
         )}
 
@@ -247,9 +247,9 @@ export default function HistoricalTimeline() {
                         </div>
 
                         <div className="space-y-2 text-sm">
-                          <p className="text-gray-700 dark:text-gray-300"><strong className="text-amber-800 dark:text-amber-200">Time Period:</strong> {item.timePeriod}</p>
-                          <p className="text-gray-700 dark:text-gray-300"><strong className="text-amber-800 dark:text-amber-200">Counting Direction:</strong> {item.countingDirection}</p>
-                          <p className="text-gray-700 dark:text-gray-300"><strong className="text-amber-800 dark:text-amber-200">Equivalent To:</strong> {item.equivalentTo}</p>
+                          <p className=" dark:text-gray-300"><strong className="text-amber-800 dark:text-amber-200">Time Period:</strong> {item.timePeriod}</p>
+                          <p className=" dark:text-gray-300"><strong className="text-amber-800 dark:text-amber-200">Counting Direction:</strong> {item.countingDirection}</p>
+                          <p className=" dark:text-gray-300"><strong className="text-amber-800 dark:text-amber-200">Equivalent To:</strong> {item.equivalentTo}</p>
                           {item.examples && (
                             <div className="mt-3 pt-3 border-t border-gray-200 dark:border-gray-700">
                               <strong className="text-gray-900 dark:text-white">Examples:</strong>
@@ -274,7 +274,7 @@ export default function HistoricalTimeline() {
                             <strong className="text-lg text-gray-900 dark:text-white block mb-3">Notes:</strong>
                             <ul className="space-y-2">
                               {section.notes.map((note: string, i: number) => (
-                                <li key={i} className="flex items-start gap-2 text-gray-700 dark:text-gray-300">
+                                <li key={i} className="flex items-start gap-2  dark:text-gray-300">
                                   <span className="text-amber-500 mt-1">•</span>
                                   <span className="flex-1">{note}</span>
                                 </li>

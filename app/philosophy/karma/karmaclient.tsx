@@ -41,7 +41,7 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
                 bg-gradient-to-br from-white to-amber-50/30
                 dark:from-gray-800 dark:to-amber-950/20
                 rounded-lg
-                p-6 md:p-8
+                px-3 py-6 md:p-8
                 transition-all duration-300
                 hover:-translate-y-1
                 group/para
@@ -53,7 +53,7 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
               <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-bl from-amber-400/10 to-transparent rounded-tr-lg rounded-bl-full" />
               {/* Content */}
               <p className="
-                text-gray-700 dark:text-gray-300
+                 dark:text-gray-300
                 text-base md:text-lg
                 leading-relaxed
                 relative z-10
@@ -217,7 +217,7 @@ export default function KrishnaExplainsFiveKarmasClient() {
       className="layout-md bg-gradient-to-br from-yellow-50 via-amber-100 to-orange-50 dark:from-gray-900 dark:via-amber-900 dark:to-orange-900 min-h-screen py-12 px-4 md:px-12 lg:px-24 border-l-8 border-amber-400 shadow-2xl"
     >
       <TextToSpeech sectionId="philosophy-karma-content" className="floating" />
-      <div id="philosophy-karma-content" className="rounded-xl shadow-xl border-2 border-amber-200/60 bg-white/80 dark:bg-gray-900/60 p-6 md:p-10 lg:p-14 space-y-8">
+      <div id="philosophy-karma-content" className="rounded-xl shadow-xl border-2 border-amber-200/60 bg-white/80 dark:bg-gray-900/60 px-3 py-6 space-y-8">
         {/* Render script paragraphs (para1, para2, ...) then conversation (alternating chat bubbles). */}
         {(() => {
           const script = parseMaybeObject(ns ? ns.script : '') || {};

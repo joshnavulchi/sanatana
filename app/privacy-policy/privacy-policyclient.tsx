@@ -112,7 +112,7 @@ export default function PrivacyPolicy() {
         <div className="flex items-center justify-between flex-wrap gap-4 pb-6 border-b-2 border-amber-200">
           <div className="flex items-center gap-3">
             <span className="text-2xl">🔒</span>
-            <strong className="text-lg text-gray-700">{privacy.lastupdated}</strong>
+            <strong className="text-lg ">{privacy.lastupdated}</strong>
           </div>
           <TextToSpeech sectionId="privacy-content" />
         </div>
@@ -123,7 +123,7 @@ export default function PrivacyPolicy() {
             <span className="text-3xl">🛡️</span>
             {privacy.intro.title}
           </h2>
-          <p className="text-gray-700 leading-relaxed">{privacy.intro.text}</p>
+          <p className=" leading-relaxed">{privacy.intro.text}</p>
         </section>
 
         {/* Information We Collect */}
@@ -132,7 +132,7 @@ export default function PrivacyPolicy() {
             <span className="text-2xl">📊</span>
             <span><strong>{privacy.informationwecollect.title}</strong> {privacy.informationwecollect.lead}</span>
           </h3>
-          <div className="space-y-4 text-gray-700 leading-relaxed">
+          <div className="space-y-4  leading-relaxed">
             <p><strong className="text-amber-800">{privacy.informationwecollect.usagelabel}</strong> {privacy.informationwecollect.usage}</p>
             <p><strong className="text-amber-800">{privacy.informationwecollect.devicelabel}</strong> {privacy.informationwecollect.device}</p>
             <p><strong className="text-amber-800">{privacy.informationwecollect.cookieslabel}</strong> {privacy.informationwecollect.cookies}</p>
@@ -146,10 +146,10 @@ export default function PrivacyPolicy() {
             <span className="text-2xl">🎯</span>
             {privacy.howweuse?.title}
           </h4>
-          <p className="text-gray-700 leading-relaxed mb-4">{privacy.howweuse?.lead}</p>
+          <p className=" leading-relaxed mb-4">{privacy.howweuse?.lead}</p>
           <ul className="space-y-3">
             {(privacy.howweuse?.items || []).map((p: string, i: number) => (
-              <li key={i} className="flex items-start gap-3 text-gray-700">
+              <li key={i} className="flex items-start gap-3 ">
                 <span className="flex-shrink-0 w-2 h-2 mt-2 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full" />
                 <span className="flex-1">{p}</span>
               </li>
@@ -163,7 +163,7 @@ export default function PrivacyPolicy() {
             <span className="text-2xl">🍪</span>
             {privacy.cookieslocalstorage.title}
           </h5>
-          <p className="text-gray-700 leading-relaxed">{privacy.cookieslocalstorage.text}</p>
+          <p className=" leading-relaxed">{privacy.cookieslocalstorage.text}</p>
         </section>
 
         {/* Third Party */}
@@ -172,7 +172,7 @@ export default function PrivacyPolicy() {
             <span className="text-2xl">🔗</span>
             {privacy.thirdparty.title}
           </h6>
-          <p className="text-gray-700 leading-relaxed">{privacy.thirdparty.text}</p>
+          <p className=" leading-relaxed">{privacy.thirdparty.text}</p>
         </section>
 
         {/* Security */}
@@ -181,7 +181,7 @@ export default function PrivacyPolicy() {
             <span className="text-2xl">🔐</span>
             {privacy.security.title}
           </p>
-          <p className="text-gray-700 leading-relaxed">{privacy.security.text}</p>
+          <p className=" leading-relaxed">{privacy.security.text}</p>
         </section>
 
         {/* Rights */}
@@ -190,16 +190,16 @@ export default function PrivacyPolicy() {
             <span className="text-2xl">⚖️</span>
             {privacy.rights.title}
           </p>
-          <p className="text-gray-700 leading-relaxed mb-4">{privacy.rights.lead}</p>
+          <p className=" leading-relaxed mb-4">{privacy.rights.lead}</p>
           <ul className="space-y-3 mb-4">
             {(privacy.rights?.items || []).map((p: string, i: number) => (
-              <li key={i} className="flex items-start gap-3 text-gray-700">
+              <li key={i} className="flex items-start gap-3 ">
                 <span className="flex-shrink-0 w-2 h-2 mt-2 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full" />
                 <span className="flex-1">{p}</span>
               </li>
             ))}
           </ul>
-          <p className="text-gray-700 leading-relaxed">{privacy.rights.contacttext}</p>
+          <p className=" leading-relaxed">{privacy.rights.contacttext}</p>
         </section>
 
         {/* Children */}
@@ -208,7 +208,7 @@ export default function PrivacyPolicy() {
             <span className="text-2xl">👶</span>
             {privacy.children.title}
           </p>
-          <p className="text-gray-700 leading-relaxed">{privacy.children.text}</p>
+          <p className=" leading-relaxed">{privacy.children.text}</p>
         </section>
 
         {/* Changes */}
@@ -217,7 +217,7 @@ export default function PrivacyPolicy() {
             <span className="text-2xl">🔄</span>
             {privacy.changes.title}
           </p>
-          <p className="text-gray-700 leading-relaxed">{privacy.changes.text}</p>
+          <p className=" leading-relaxed">{privacy.changes.text}</p>
         </section>
 
         {/* Contact */}
@@ -226,12 +226,12 @@ export default function PrivacyPolicy() {
             <span className="text-2xl">📧</span>
             {privacy.contact.title}
           </p>
-          <p className="text-gray-700 leading-relaxed mb-4">{privacy.contact.lead}</p>
-          <div className="space-y-2 text-gray-700">
+          <p className=" leading-relaxed mb-4">{privacy.contact.lead}</p>
+          <div className="space-y-2 ">
             <p><strong className="text-amber-800">{privacy.contact.emaillabel}</strong> {privacy.contact.email}</p>
             <p><strong className="text-amber-800">{privacy.contact.websitelabel}</strong> {privacy.contact.website}</p>
           </div>
-          <p className="text-gray-700 leading-relaxed mt-6 pt-4 border-t border-amber-300">{privacy.contact.closing}</p>
+          <p className=" leading-relaxed mt-6 pt-4 border-t border-amber-300">{privacy.contact.closing}</p>
         </section>
       </div>
     </PageLayout>

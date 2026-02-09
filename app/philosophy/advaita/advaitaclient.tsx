@@ -11,7 +11,7 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
     <div className="space-y-6">
       {lines.map((line: any, idx: number) => (
         <div key={idx} className="bg-gradient-to-br from-white to-indigo-50/30 border-l-4 border-indigo-500 rounded-lg p-6 shadow-lg animate-fade-in-up">
-          <p className="text-gray-700 text-base md:text-lg leading-relaxed font-serif">{line}</p>
+          <p className=" text-base md:text-lg leading-relaxed font-serif">{line}</p>
         </div>
       ))}
     </div>

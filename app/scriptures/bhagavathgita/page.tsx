@@ -37,7 +37,7 @@ export default function Page({ searchParams }: any) {
         className="layout-md"
       >
         {/* Hero Section */}
-          <div className="relative mb-16 px-6 md:px-8 py-12 md:py-16 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 overflow-hidden">
+        <div className="relative mb-16 px-6 md:px-8 py-12 md:py-16 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 overflow-hidden">
           {/* Decorative elements */}
           <div className="absolute top-0 left-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl" />
           <div className="absolute bottom-0 right-0 w-80 h-80 bg-orange-400/10 rounded-full blur-3xl" />
@@ -50,11 +50,11 @@ export default function Page({ searchParams }: any) {
               <div className="h-px w-16 bg-gradient-to-l from-transparent to-amber-500" />
             </div>
 
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700 bg-clip-text text-transparent">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700 bg-clip-text">
               {page.title}
             </h1>
 
-            <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl  max-w-3xl mx-auto">
               The sacred dialogue between Lord Krishna and Arjuna on the battlefield of Kurukshetra
             </p>
 

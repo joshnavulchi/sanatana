@@ -24,7 +24,7 @@ export default function DefinitionOfLife() {
             <span className="text-3xl text-amber-800">🕉️</span>
             <div className="h-px w-16 bg-gradient-to-l from-transparent to-amber-400" />
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700 bg-clip-text text-transparent mb-2">
+          <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700 bg-clip-text mb-2">
             The Essence of Life
           </h2>
           <p className="text-lg text-amber-700/80 font-serif italic">
@@ -40,7 +40,7 @@ export default function DefinitionOfLife() {
               🎯
             </div>
             <h3 className="text-xl font-bold text-amber-800 mb-3">पुरुषार्थ - Life&apos;s Purpose</h3>
-            <p className="text-gray-700 leading-relaxed">
+            <p className=" leading-relaxed">
               Life is a sacred journey toward the four Purusharthas:
               <span className="font-semibold text-amber-700"> Dharma</span> (righteousness),
               <span className="font-semibold text-orange-600"> Artha</span> (prosperity),
@@ -55,7 +55,7 @@ export default function DefinitionOfLife() {
               ✨
             </div>
             <h3 className="text-xl font-bold text-orange-800 mb-3">आत्मा - The Eternal Soul</h3>
-            <p className="text-gray-700 leading-relaxed">
+            <p className=" leading-relaxed">
               The Atman, your true self, is eternal and divine.
               <span className="italic"> `&quot;`न जायते म्रियते वा`&quot;` </span>
               — It is never born, nor does it die. Life is the soul&apos;s journey to realize its oneness with Brahman.
@@ -68,7 +68,7 @@ export default function DefinitionOfLife() {
               ⚖️
             </div>
             <h3 className="text-xl font-bold text-yellow-800 mb-3">कर्म - Law of Action</h3>
-            <p className="text-gray-700 leading-relaxed">
+            <p className=" leading-relaxed">
               Every action creates karma, shaping our destiny.
               <span className="font-semibold text-amber-700"> `&quot;`कर्मण्येवाधिकारस्ते`&quot;`</span>
               — You have the right to perform your duty, but the fruits belong to the divine.
@@ -81,7 +81,7 @@ export default function DefinitionOfLife() {
               🌌
             </div>
             <h3 className="text-xl font-bold text-amber-800 mb-3">माया - Illusion & Truth</h3>
-            <p className="text-gray-700 leading-relaxed">
+            <p className=" leading-relaxed">
               Life is a play of Maya, the cosmic illusion. True wisdom lies in seeing beyond appearances to recognize the
               <span className="font-semibold text-orange-600"> eternal truth</span> that pervades all existence.
             </p>
@@ -96,7 +96,7 @@ export default function DefinitionOfLife() {
               <p className="text-2xl md:text-3xl font-serif text-amber-900 leading-relaxed">
                 `&quot;`आत्मानं विद्धि`&quot;`
               </p>
-              <p className="text-xl md:text-2xl text-gray-700 font-medium">
+              <p className="text-xl md:text-2xl  font-medium">
                 Know Thyself
               </p>
               <div className="pt-4 border-t border-amber-300/30 mt-4">

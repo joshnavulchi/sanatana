@@ -52,7 +52,7 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
               <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-bl from-amber-400/10 to-transparent rounded-tr-lg rounded-bl-full" />
               {/* Content */}
               <p className="
-                text-gray-700 text-base md:text-lg
+                 text-base md:text-lg
                 leading-relaxed
                 relative z-10
                 font-serif

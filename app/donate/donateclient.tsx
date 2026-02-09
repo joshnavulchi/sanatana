@@ -68,7 +68,7 @@ export default function DonateClient() {
     >
       <div id="donate-content" className="space-y-12">
         <div className="text-center max-w-3xl mx-auto">
-          <p className="text-lg text-gray-700 leading-relaxed">{donate.subtitle}</p>
+          <p className="text-lg  leading-relaxed">{donate.subtitle}</p>
         </div>
 
         {/* Purpose */}
@@ -91,7 +91,7 @@ export default function DonateClient() {
                     <span className="flex-shrink-0 w-8 h-8 bg-amber-500 text-white rounded-full flex items-center justify-center text-sm font-bold shadow-md group-hover:scale-110 transition-transform duration-300">
                       {i + 1}
                     </span>
-                    <span className="flex-1 text-gray-700 leading-relaxed pt-1">{p}</span>
+                    <span className="flex-1  leading-relaxed pt-1">{p}</span>
                   </li>
                 ))}
               </ul>
@@ -102,7 +102,7 @@ export default function DonateClient() {
         {/* Expenses */}
         <section className="relative">
           <div className="text-center mb-8">
-            <h4 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-amber-600 via-orange-500 to-amber-600 bg-clip-text text-transparent inline-block">{donate.expenses?.heading}</h4>
+            <h4 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-amber-600 via-orange-500 to-amber-600 bg-clip-text inline-block">{donate.expenses?.heading}</h4>
             <div className="mt-3 w-24 h-1 bg-gradient-to-r from-amber-400 to-orange-500 mx-auto rounded-full"></div>
           </div>
           <div className="overflow-x-auto rounded-2xl shadow-xl border-2 border-amber-200">
@@ -120,8 +120,8 @@ export default function DonateClient() {
                   <tr key={i} className="border-t-2 border-amber-100 hover:bg-amber-50/50 transition-colors duration-200">
                     <td className="p-4 font-medium text-gray-900">{row.name}</td>
                     <td className="p-4 text-amber-800 font-semibold">{row.cost}</td>
-                    <td className="p-4 text-gray-700">{row.cycle}</td>
-                    <td className="p-4 text-gray-700">{row.provider}</td>
+                    <td className="p-4 ">{row.cycle}</td>
+                    <td className="p-4 ">{row.provider}</td>
                   </tr>
                 ))}
               </tbody>
@@ -143,7 +143,7 @@ export default function DonateClient() {
                 <h5 className="text-3xl md:text-4xl font-bold text-amber-900 dark:text-amber-100 mb-3">{donate.donateOptions?.oneTime?.heading}</h5>
                 <p className="text-lg text-gray-600 dark:text-gray-400">{donate.donateOptions?.oneTime?.note}</p>
               </div>
-              
+
               <div className="flex flex-col md:flex-row items-center justify-center gap-12 my-12">
                 <div className="group">
                   <div className="bg-white dark:bg-gray-800 rounded-3xl shadow-xl p-8 border-2 border-amber-200 dark:border-amber-800 hover:border-amber-400 dark:hover:border-amber-600 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-2xl">
@@ -168,7 +168,7 @@ export default function DonateClient() {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="group">
                   <div className="bg-white dark:bg-gray-800 rounded-3xl shadow-xl p-8 border-2 border-amber-200 dark:border-amber-800 hover:border-amber-400 dark:hover:border-amber-600 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-2xl">
                     <div className="text-center mb-4">
