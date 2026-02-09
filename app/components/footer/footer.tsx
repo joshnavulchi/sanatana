@@ -37,12 +37,12 @@ export default function Footer() {
   const isActive = (href: string) => normalize(pathname) === normalize(href);
 
   return (
-    <footer className={`gradient-background w-full px-3 dark:bg-gray-900`} style={{ minHeight: '400px' }}>
+    <footer className={`gradient-background w-full px-3`} style={{ minHeight: '400px' }}>
       <div className={`relative z-29`}>
         <section className="content-wrapper text-center">
-          <h6 className={`text-3xl md:text-4xl font-light text-white dark:text-amber-200
+          <h6 className={`text-3xl md:text-4xl font-light text-white
             drop-shadow-2xl [text-shadow:_2px_2px_8px_rgb(0_0_0_/_60%)] my-6`}>{footer?.title || footer?.titleText}</h6>
-          <p className={`text-md md:mx-auto md:max-w-5xl md:text-lg text-white/90 dark:text-amber-100 leading-relaxed my-6`}>{footer?.quote || footer?.quotes} {footer?.quoteSource || footer?.quotesource}</p>
+          <p className={`text-md md:mx-auto md:max-w-5xl md:text-lg text-white/90 leading-relaxed my-6`}>{footer?.quote || footer?.quotes} {footer?.quoteSource || footer?.quotesource}</p>
 
           {/* CTA Buttons */}
           <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 mt-6">
@@ -209,7 +209,7 @@ export default function Footer() {
 
         <div className={`disclaimer w-full flex flex-col md:flex-row items-center justify-between`}>
           <div>
-            <small className="text-gray-400 dark:text-amber-200">{footer && footer?.disclaimer}<br /> {footer && footer?.contentChange}</small>
+            <small className="text-gray-400">{footer && footer?.disclaimer}<br /> {footer && footer?.contentChange}</small>
             {/* <small> I am using <Link href='https://gemini.google.com/' title='Gemini AI' target='_blank' className='text-white no-underline'>Gemini AI</Link>, <Link href='https://www.meta.ai/' title='Meta AI' target='_blank' className='text-white no-underline'>Meta AI</Link> and  <Link href='https://github.com/features/copilot' title='Github Copilot' target='_blank' className='text-white no-underline'>Github Copilot</Link> basic plan to generating content of the website.</small> */}
           </div>
           <nav role="list" className={`social-icons md:w-1/4 flex items-center justify-end gap-6`}>
@@ -233,7 +233,7 @@ export default function Footer() {
             <Link href="/privacy-policy" className={`${isActive('/privacy-policy') ? "active" : ""} `}>{footer?.privacy}</Link>
             <Link href="/terms-of-service" className={`${isActive('/terms-of-service') ? "active" : ""} `}>{footer?.terms}</Link>
           </div>
-          <small className="text-gray-100 dark:text-amber-200">{footer?.copyright}</small>
+          <small className="text-gray-100">{footer?.copyright}</small>
         </div>
       </div>
     </footer>

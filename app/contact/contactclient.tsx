@@ -108,9 +108,9 @@ export default function ContactPage() {
 
   return (
     <PageLayout metaKey="contact" title={page.title} breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title || 'contact' }]} className={`${styles.contactPage} layout-sm`}>
-      {page.subtitle ? <p className="text-gray-800 dark:text-amber-100">{page.subtitle}</p> : null}
+      {page.subtitle ? <p className="text-gray-800">{page.subtitle}</p> : null}
       {Object.keys(page).filter(k => !['title', 'subtitle', 'meta', 'schema', 'id', 'type', 'required', 'faq'].includes(k)).map((k) => (
-        <div key={k} className="dark:text-amber-100">
+        <div key={k}>
           <RenderNode nodeKey={k} node={page[k]} showHeading={false} />
         </div>
       ))}

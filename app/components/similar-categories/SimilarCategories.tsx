@@ -95,19 +95,19 @@ export default function SimilarCategories({
   }
   return (
     <aside>
-      <h5 className="text-2xl text-gray-900 dark:text-amber-100">{title}</h5>
+      <h5 className="text-2xl text-gray-900">{title}</h5>
       <div>
         {categories.map((category) => {
           return (
             <div key={category.key} className="shadown-sm p-4">
-              <h6 className="text-lg mb-3 text-gray-800 dark:text-amber-100">
+              <h6 className="text-lg mb-3 text-gray-800">
                 <Link href={`/${category.key}`} className="hover:underline">
                   {category.title}
                 </Link>
               </h6>
               <ul>
                 {category.links.map((link) => (
-                  <li key={link.key} className="text-gray-700 dark:text-amber-100">
+                  <li key={link.key} className="text-gray-700">
                     <Link href={link.href} className="hover:underline">
                       {link.label}
                     </Link>

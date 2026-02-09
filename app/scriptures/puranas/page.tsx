@@ -56,6 +56,14 @@ export default function PuranasPage({ searchParams }: any) {
               </ul>
             </div>
           )}
+          {/* Sub Pages Links */}
+          <div className="mt-8">
+            <h3 className="text-lg font-bold mb-2">Explore Sub Puranas:</h3>
+            <ul className="list-disc ml-6">
+              <li><a href="/scriptures/puranas/garuda" className="text-blue-600 hover:underline">Garuda Purana</a></li>
+              <li><a href="/scriptures/puranas/karma" className="text-blue-600 hover:underline">Karma Purana</a></li>
+            </ul>
+          </div>
         </div>
       </PageLayout>
     </>

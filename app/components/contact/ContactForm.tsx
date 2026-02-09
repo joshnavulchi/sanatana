@@ -82,7 +82,7 @@ export default function ContactForm({ fields, submitButton }: Props) {
 
   return (
     <form onSubmit={handleSubmit} className="max-w-2xl mx-auto">
-      <div className="bg-gradient-to-br from-white via-amber-50/30 to-orange-50/30 dark:from-gray-900 dark:via-amber-950/20 dark:to-orange-950/20 rounded-3xl shadow-2xl border-2 border-amber-200/50 dark:border-amber-800/50 overflow-hidden">
+      <div className="bg-gradient-to-br from-white via-amber-50/30 to-orange-50/30 rounded-3xl shadow-2xl border-2 border-amber-200/50 overflow-hidden">
         {/* Decorative header */}
         <div className="relative bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 p-8 text-center">
           <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAwIDEwIEwgNDAgMTAgTSAxMCAwIEwgMTAgNDAgTSAwIDIwIEwgNDAgMjAgTSAyMCAwIEwgMjAgNDAgTSAwIDMwIEwgNDAgMzAgTSAzMCAwIEwgMzAgNDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1vcGFjaXR5PSIwLjEiIHN0cm9rZS13aWR0aD0iMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')] opacity-30" />
@@ -101,7 +101,7 @@ export default function ContactForm({ fields, submitButton }: Props) {
         <div className="p-8 space-y-6">
           {usedFields.map((f) => (
             <div key={f.name} className="group">
-              <label className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2 flex items-center gap-2">
+              <label className="block text-sm font-semibold text-gray-700 mb-2 flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-amber-500 group-focus-within:scale-150 transition-transform duration-300"></span>
                 {f.label || f.name}
                 {f.required && <span className="text-orange-500 text-xs">*</span>}
@@ -110,7 +110,7 @@ export default function ContactForm({ fields, submitButton }: Props) {
                 <textarea
                   value={values[f.name] || ''}
                   onChange={(e) => handleChange(f.name, e.target.value)}
-                  className="w-full px-4 py-3 bg-white dark:bg-gray-800 border-2 border-amber-200 dark:border-amber-800 rounded-xl focus:border-amber-500 dark:focus:border-amber-600 focus:ring-4 focus:ring-amber-500/20 outline-none transition-all duration-300 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 resize-none shadow-sm hover:shadow-md"
+                  className="w-full px-4 py-3 bg-white border-2 border-amber-200 rounded-xl focus:border-amber-500 focus:ring-4 focus:ring-amber-500/20 outline-none transition-all duration-300 text-gray-900 placeholder-gray-400 resize-none shadow-sm hover:shadow-md"
                   rows={6}
                   placeholder={f.placeholder || ''}
                   required={!!f.required}
@@ -120,7 +120,7 @@ export default function ContactForm({ fields, submitButton }: Props) {
                   type={f.type || 'text'}
                   value={values[f.name] || ''}
                   onChange={(e) => handleChange(f.name, e.target.value)}
-                  className="w-full px-4 py-3 bg-white dark:bg-gray-800 border-2 border-amber-200 dark:border-amber-800 rounded-xl focus:border-amber-500 dark:focus:border-amber-600 focus:ring-4 focus:ring-amber-500/20 outline-none transition-all duration-300 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 shadow-sm hover:shadow-md"
+                  className="w-full px-4 py-3 bg-white border-2 border-amber-200 rounded-xl focus:border-amber-500 focus:ring-4 focus:ring-amber-500/20 outline-none transition-all duration-300 text-gray-900 placeholder-gray-400 shadow-sm hover:shadow-md"
                   placeholder={f.placeholder || ''}
                   required={!!f.required}
                 />
@@ -130,7 +130,7 @@ export default function ContactForm({ fields, submitButton }: Props) {
 
           {/* Success/Error Messages */}
           {successMessage && (
-            <div className="flex items-center gap-3 p-4 bg-green-50 dark:bg-green-900/20 border-2 border-green-200 dark:border-green-800 rounded-xl text-green-700 dark:text-green-300 animate-fade-in">
+            <div className="flex items-center gap-3 p-4 bg-green-50 border-2 border-green-200 rounded-xl text-green-700 animate-fade-in">
               <svg className="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
@@ -138,7 +138,7 @@ export default function ContactForm({ fields, submitButton }: Props) {
             </div>
           )}
           {errorMessage && (
-            <div className="flex items-center gap-3 p-4 bg-red-50 dark:bg-red-900/20 border-2 border-red-200 dark:border-red-800 rounded-xl text-red-700 dark:text-red-300 animate-fade-in">
+            <div className="flex items-center gap-3 p-4 bg-red-50 border-2 border-red-200 rounded-xl text-red-700 animate-fade-in">
               <svg className="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
               </svg>

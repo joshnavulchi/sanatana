@@ -46,14 +46,14 @@ export default function TimelapsePage() {
           <div key={index}>
             <div>
               <div>
-                <h4 className="text-gray-900 dark:text-amber-100"><span>Label:</span> {point.label ?? ''}</h4>
-                <p className="text-gray-800 dark:text-amber-100">{point.time_reference ?? ''}</p>
-                <p className="text-gray-800 dark:text-amber-100"><span>Name:</span> {point.name ?? ''}</p>
+                <h4 className="text-gray-900"><span>Label:</span> {point.label ?? ''}</h4>
+                <p className="text-gray-800">{point.time_reference ?? ''}</p>
+                <p className="text-gray-800"><span>Name:</span> {point.name ?? ''}</p>
               </div>
               <div>
-                <p className="text-gray-800 dark:text-amber-100"><span>Nature:</span> {point.nature ?? ''}</p>
-                <p className="text-gray-800 dark:text-amber-100"><span>Origin:</span> {point.symbolic_origin ?? ''}</p>
-                <p className="text-gray-800 dark:text-amber-100"><span>Role:</span> {point.role ?? ''}</p>
+                <p className="text-gray-800"><span>Nature:</span> {point.nature ?? ''}</p>
+                <p className="text-gray-800"><span>Origin:</span> {point.symbolic_origin ?? ''}</p>
+                <p className="text-gray-800"><span>Role:</span> {point.role ?? ''}</p>
               </div>
             </div>
           </div>

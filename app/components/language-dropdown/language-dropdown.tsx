@@ -158,7 +158,7 @@ export default function LanguageDropdown() {
         aria-haspopup="menu"
         aria-controls="language-menu"
         onClick={() => setOpen(!open)}
-        className="group relative inline-flex items-center gap-2 py-2 px-3 bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-950/50 dark:to-orange-950/50 hover:from-amber-100 hover:to-orange-100 dark:hover:from-amber-900/60 dark:hover:to-orange-900/60 rounded-full border-2 border-amber-200 dark:border-amber-800 hover:border-amber-300 dark:hover:border-amber-700 shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer transform hover:scale-105"
+        className="group relative inline-flex items-center gap-2 py-2 px-3 bg-gradient-to-r from-amber-50 to-orange-50 hover:from-amber-100 hover:to-orange-100 rounded-full border-2 border-amber-200 shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer transform hover:scale-105"
         aria-label={locale?.languagedropdown?.arialabel || 'Choose language'}
         aria-expanded={open}
       >
@@ -167,11 +167,11 @@ export default function LanguageDropdown() {
           <div className="absolute -top-1 -right-1 w-2 h-2 bg-amber-500 rounded-full animate-pulse"></div>
         </div>
         {isClient && (
-          <span className="hidden md:flex font-medium text-sm text-gray-700 dark:text-gray-300 group-hover:text-amber-700 dark:group-hover:text-amber-300 transition-colors duration-300">
+          <span className="hidden md:flex font-medium text-sm text-gray-700  group-hover:text-amber-700 transition-colors duration-300">
             {currentLanguage?.nativeName || locale?.languagedropdown?.english || 'English'}
           </span>
         )}
-        <svg className={`w-6 h-5 text-amber-800 dark:text-amber-200 transition-transform duration-300 ${open ? 'rotate-180' : ''}`} fill="none" stroke="#F97316" viewBox="0 0 24 24">
+        <svg className={`w-6 h-5 text-amber-800 transition-transform duration-300 ${open ? 'rotate-180' : ''}`} fill="none" stroke="#F97316" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
         </svg>
       </button>
@@ -183,12 +183,12 @@ export default function LanguageDropdown() {
           <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/50 to-black/60 backdrop-blur-sm animate-fade-in" onClick={() => setOpen(false)} />
 
           {/* Modal Container */}
-          <div ref={dropdownRef} className="relative bg-white dark:bg-gray-900 rounded-3xl w-full max-w-2xl shadow-2xl border-2 border-amber-200 dark:border-amber-800 overflow-hidden transform animate-scale-in">
+          <div ref={dropdownRef} className="relative bg-white rounded-3xl w-full max-w-2xl shadow-2xl border-2 border-amber-200 overflow-hidden transform animate-scale-in">
             {/* Decorative gradient header */}
             <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-amber-400 via-orange-500 to-amber-400"></div>
 
             {/* Header */}
-            <div role="group" className="relative flex items-center justify-between p-6 bg-gradient-to-br from-amber-50 via-orange-50/50 to-amber-50 dark:from-amber-950/30 dark:via-orange-950/20 dark:to-amber-950/30 border-b-2 border-amber-200 dark:border-amber-800">
+            <div role="group" className="relative flex items-center justify-between p-6 bg-gradient-to-br from-amber-50 via-orange-50/50 to-amber-50 border-b-2 border-amber-200">
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl flex items-center justify-center shadow-lg">
                   <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
@@ -196,27 +196,27 @@ export default function LanguageDropdown() {
                   </svg>
                 </div>
                 <div>
-                  <h2 id="language-dialog-title" className="text-xl font-bold text-gray-900 dark:text-white">{locale?.languagedropdown?.title || 'Choose language'}</h2>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">{filteredLanguages.length} languages available</p>
+                  <h2 id="language-dialog-title" className="text-xl font-bold text-gray-900">{locale?.languagedropdown?.title || 'Choose language'}</h2>
+                  <p className="text-sm text-gray-600">{filteredLanguages.length} languages available</p>
                 </div>
               </div>
               <button
                 role="button"
                 aria-label="Close"
                 onClick={() => setOpen(false)}
-                className="group w-10 h-10 flex items-center justify-center bg-white dark:bg-gray-800 hover:bg-red-50 dark:hover:bg-red-900/20 border-2 border-amber-200 dark:border-amber-800 hover:border-red-300 dark:hover:border-red-800 rounded-full transition-all duration-300 cursor-pointer transform hover:rotate-90 hover:scale-110 shadow-md"
+                className="group w-10 h-10 flex items-center justify-center bg-white  hover:bg-red-50 border-2 border-amber-200 hover:border-red-300 rounded-full transition-all duration-300 cursor-pointer transform hover:rotate-90 hover:scale-110 shadow-md"
               >
-                <svg className="w-5 h-5 text-gray-600 dark:text-gray-900 group-hover:text-red-600 dark:group-hover:text-red-900 transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-gray-600 group-hover:text-red-600 transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                 </svg>
               </button>
             </div>
 
             {/* Search Input */}
-            <div className="p-6 bg-gradient-to-br from-white to-amber-50/30 dark:from-gray-900 dark:to-amber-950/10">
+            <div className="p-6 bg-gradient-to-br from-white to-amber-50/30 ">
               <div className="relative group">
                 <div className="absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none">
-                  <svg className="w-5 h-5 text-amber-800 dark:text-amber-200 group-focus-within:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-amber-800 group-focus-within:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                   </svg>
                 </div>
@@ -242,16 +242,16 @@ export default function LanguageDropdown() {
                     }
                   }}
                   placeholder={locale?.languagedropdown?.searchplaceholder || 'Search languages...'}
-                  className="w-full pl-12 pr-4 py-3 bg-white dark:bg-gray-800 border-2 border-amber-200 dark:border-amber-800 rounded-xl focus:border-amber-500 dark:focus:border-amber-600 focus:ring-4 focus:ring-amber-500/20 outline-none transition-all duration-300 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 shadow-sm hover:shadow-md"
+                  className="w-full pl-12 pr-4 py-3 bg-white border-2 border-amber-200 rounded-xl focus:border-amber-500 focus:ring-4 focus:ring-amber-500/20 outline-none transition-all duration-300 text-gray-900 placeholder-gray-400 shadow-sm hover:shadow-md"
                   aria-label={locale?.languagedropdown?.searcharia || 'Search languages'}
                 />
                 {query && (
                   <button
                     onClick={() => setQuery('')}
-                    className="absolute right-4 top-1/2 -translate-y-1/2 w-6 h-6 flex items-center justify-center bg-amber-100 dark:bg-amber-900 hover:bg-amber-200 dark:hover:bg-amber-800 rounded-full transition-colors duration-300"
+                    className="absolute right-4 top-1/2 -translate-y-1/2 w-6 h-6 flex items-center justify-center bg-amber-100 hover:bg-amber-200 rounded-full transition-colors duration-300"
                     aria-label="Clear search"
                   >
-                    <svg className="w-4 h-4 text-amber-700 dark:text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-4 h-4 text-amber-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                     </svg>
                   </button>
@@ -260,7 +260,7 @@ export default function LanguageDropdown() {
             </div>
 
             {/* Language List */}
-            <div id="language-menu" role="menu" className="max-h-96 overflow-y-auto px-4 pb-4 scrollbar-thin scrollbar-thumb-amber-400 scrollbar-track-amber-100 dark:scrollbar-thumb-amber-600 dark:scrollbar-track-amber-950">
+            <div id="language-menu" role="menu" className="max-h-96 overflow-y-auto px-4 pb-4 scrollbar-thin scrollbar-thumb-amber-400 scrollbar-track-amber-100 ">
               <div className="flex flex-wrap gap-3">
                 {filteredLanguages.map((lang, idx) => {
                   const meta = (localeMeta as any)[lang.code] || {};
@@ -280,10 +280,10 @@ export default function LanguageDropdown() {
                         group relative flex-1 md:min-w-[calc(50%-0.375rem)] flex items-center gap-3 p-4 rounded-xl
                         transition-all duration-300 transform hover:-translate-y-1
                         ${isSelected
-                          ? 'bg-gradient-to-br from-amber-100 to-orange-100 dark:from-amber-900/50 dark:to-orange-900/50 border-2 border-amber-500 dark:border-amber-600 shadow-lg'
+                          ? 'bg-gradient-to-br from-amber-100 to-orange-100 border-2 border-amber-500 shadow-lg'
                           : isHighlighted
-                            ? 'bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-950/30 dark:to-orange-950/30 border-2 border-amber-300 dark:border-amber-700 shadow-md'
-                            : 'bg-white dark:bg-gray-800 border-2 border-amber-200/50 dark:border-amber-800/50 hover:border-amber-300 dark:hover:border-amber-700 shadow-sm hover:shadow-md'
+                            ? 'bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-300 shadow-md'
+                            : 'bg-white border-2 border-amber-200/50 hover:border-amber-300 shadow-sm hover:shadow-md'
                         }
                       `}
                     >
@@ -291,8 +291,8 @@ export default function LanguageDropdown() {
                       <div className={`
                         flex-shrink-0 w-12 h-12 flex items-center justify-center text-3xl rounded-xl transition-all duration-300
                         ${isSelected
-                          ? 'bg-white/50 dark:bg-gray-800/50 shadow-md scale-110'
-                          : 'bg-amber-50 dark:bg-amber-950/30 group-hover:scale-110'
+                          ? 'bg-white/50 shadow-md scale-110'
+                          : 'bg-amber-50 group-hover:scale-110'
                         }
                       `} aria-hidden="true">
                         {flag}
@@ -303,8 +303,8 @@ export default function LanguageDropdown() {
                         <div className={`
                           font-semibold truncate transition-colors duration-300
                           ${isSelected
-                            ? 'text-amber-900 dark:text-amber-100'
-                            : 'text-gray-900 dark:text-gray-100 group-hover:text-amber-700 dark:group-hover:text-amber-300'
+                            ? 'text-amber-900'
+                            : 'text-gray-900 group-hover:text-amber-700'
                           }
                         `}>
                           {lang.nativeName}
@@ -312,8 +312,8 @@ export default function LanguageDropdown() {
                         <div className={`
                           text-sm truncate transition-colors duration-300
                           ${isSelected
-                            ? 'text-amber-700 dark:text-amber-300'
-                            : 'text-gray-600 dark:text-gray-400'
+                            ? 'text-amber-700'
+                            : 'text-gray-600'
                           }
                         `}>
                           {region}
@@ -332,7 +332,7 @@ export default function LanguageDropdown() {
                       {/* Hover indicator arrow */}
                       {!isSelected && (
                         <div className="flex-shrink-0 w-6 h-6 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                          <svg className="w-4 h-4 text-amber-800 dark:text-amber-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg className="w-4 h-4 text-amber-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                           </svg>
                         </div>
@@ -345,13 +345,13 @@ export default function LanguageDropdown() {
               {/* No results message */}
               {filteredLanguages.length === 0 && (
                 <div className="py-12 text-center">
-                  <div className="w-20 h-20 bg-amber-100 dark:bg-amber-900/30 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <svg className="w-10 h-10 text-amber-800 dark:text-amber-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="w-20 h-20 bg-amber-100  rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg className="w-10 h-10 text-amber-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                     </svg>
                   </div>
-                  <p className="text-gray-600 dark:text-gray-400 font-medium">No languages found</p>
-                  <p className="text-sm text-gray-500 dark:text-gray-500 mt-1">Try a different search term</p>
+                  <p className="text-gray-600 font-medium">No languages found</p>
+                  <p className="text-sm text-gray-500 mt-1">Try a different search term</p>
                 </div>
               )}
             </div>

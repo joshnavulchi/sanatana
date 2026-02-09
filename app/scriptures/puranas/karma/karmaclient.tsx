@@ -39,7 +39,6 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
               className="
                 relative
                 bg-gradient-to-br from-white to-amber-50/30
-                dark:from-gray-800 dark:to-amber-950/20
                 rounded-lg
                 p-6 md:p-8
                 transition-all duration-300
@@ -53,8 +52,7 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
               <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-bl from-amber-400/10 to-transparent rounded-tr-lg rounded-bl-full" />
               {/* Content */}
               <p className="
-                text-gray-700 dark:text-gray-300
-                text-base md:text-lg
+                text-gray-700 text-base md:text-lg
                 leading-relaxed
                 relative z-10
                 font-serif
@@ -89,7 +87,7 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
       {/* Conversation header */}
       <div className="flex items-center justify-center gap-3 mb-8">
         <div className="h-px w-16 bg-gradient-to-r from-transparent to-amber-400" />
-        <span className="text-xl text-amber-800 dark:text-amber-200 font-semibold tracking-wide animate-fade-in">💬 Conversation</span>
+        <span className="text-xl text-amber-800 font-semibold tracking-wide animate-fade-in">💬 Conversation</span>
         <div className="h-px w-16 bg-gradient-to-l from-transparent to-amber-400" />
       </div>
       {convo.map((item: any, idx: number) => {
@@ -111,18 +109,7 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
               {/* Speaker Badge */}
               {item.speaker && (
                 <div className={`
-                  inline-flex items-center gap-2
-                  mb-2
-                  px-4 py-2
-                  ${isEven
-                    ? 'bg-gradient-to-r from-blue-500 to-blue-600 text-white'
-                    : 'bg-gradient-to-r from-amber-500 to-orange-600 text-white'
-                  }
-                  rounded-full
-                  shadow-lg
-                  font-semibold text-sm
-                  ${isEven ? '' : 'ml-auto'}
-                  animate-fade-in
+                  inline-flex items-center gap-2 mb-2 px-4 py-2 ${isEven ? 'bg-gradient-to-r from-blue-500 to-blue-600 text-white' : 'bg-gradient-to-r from-amber-500 to-orange-600 text-white'} rounded-full shadow-lg font-semibold text-sm ${isEven ? '' : 'ml-auto'} animate-fade-in
                 `}>
                   <span className="text-lg">{isEven ? '🧘' : '🕉️'}</span>
                   <span>{item.speaker}</span>
@@ -131,30 +118,12 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
               {/* Message Bubble */}
               {item.message && (
                 <div className={`
-                  relative
-                  p-5 md:p-6
-                  rounded-2xl
-                  shadow-xl
-                  ${isEven
-                    ? 'bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/30 dark:to-blue-800/30 border-2 border-blue-200 dark:border-blue-700 rounded-tl-none'
-                    : 'bg-gradient-to-br from-amber-50 to-orange-100 dark:from-amber-900/30 dark:to-orange-800/30 border-2 border-amber-200 dark:border-amber-700 rounded-tr-none'
-                  }
-                  backdrop-blur-sm
-                  hover:shadow-2xl
-                  transition-all duration-300
-                  group
-                  animate-fade-in-up
+                  relative p-5 md:p-6 rounded-2xl shadow-xl ${isEven ? 'bg-gradient-to-br from-blue-50 to-blue-100 border-2 border-blue-200 rounded-tl-none' : 'bg-gradient-to-br from-amber-50 to-orange-100 border-2 border-amber-200 rounded-tr-none'} backdrop-blur-sm hover:shadow-2xl transition-all duration-300 group animate-fade-in-up
                 `}
                   style={{ animationDelay: `${idx * 120}ms` }}
                 >
                   {/* Message text */}
-                  <p className="
-                  text-gray-800 dark:text-gray-200
-                  text-base md:text-lg
-                  leading-relaxed
-                  m-0
-                  font-serif
-                ">
+                  <p className="text-gray-800 text-base md:text-lg leading-relaxed m-0 font-serif">
                     {item.message}
                   </p>
                   {/* Decorative quote mark */}
@@ -214,10 +183,10 @@ export default function PuranasKarmaClient() {
       metaKey="puranas_karma"
       title={renderTitle}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Puranas', href: '/scriptures/puranas/karma' }, { label: 'Karma' }]}
-      className="layout-md bg-gradient-to-br from-yellow-50 via-amber-100 to-orange-50 dark:from-gray-900 dark:via-amber-900 dark:to-orange-900 min-h-screen py-12 px-4 md:px-12 lg:px-24 border-l-8 border-amber-400 shadow-2xl"
+      className="layout-md bg-gradient-to-br from-yellow-50 via-amber-100 to-orange-50 min-h-screen py-12 px-4 md:px-12 lg:px-24 border-l-8 border-amber-400 shadow-2xl"
     >
       <TextToSpeech sectionId="puranas-karma-content" className="floating" />
-      <div id="puranas-karma-content" className="rounded-xl shadow-xl border-2 border-amber-200/60 bg-white/80 dark:bg-gray-900/60 p-6 md:p-10 lg:p-14 space-y-8">
+      <div id="puranas-karma-content" className="rounded-xl shadow-xl border-2 border-amber-200/60 bg-white/80 p-6 md:p-10 lg:p-14 space-y-8">
         {/* Render script paragraphs (para1, para2, ...) then conversation (alternating chat bubbles). */}
         {(() => {
           const script = parseMaybeObject(ns ? ns.script : '') || {};

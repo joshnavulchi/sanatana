@@ -37,7 +37,7 @@ export default function Page({ searchParams }: any) {
         className="layout-md"
       >
         {/* Hero Section */}
-        <div className="relative mb-16 px-6 md:px-8 py-12 md:py-16 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 dark:from-amber-950/30 dark:via-orange-950/30 dark:to-amber-950/30 overflow-hidden">
+          <div className="relative mb-16 px-6 md:px-8 py-12 md:py-16 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 overflow-hidden">
           {/* Decorative elements */}
           <div className="absolute top-0 left-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl" />
           <div className="absolute bottom-0 right-0 w-80 h-80 bg-orange-400/10 rounded-full blur-3xl" />
@@ -50,11 +50,11 @@ export default function Page({ searchParams }: any) {
               <div className="h-px w-16 bg-gradient-to-l from-transparent to-amber-500" />
             </div>
 
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700 dark:from-amber-400 dark:via-orange-300 dark:to-amber-400 bg-clip-text text-transparent">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700 bg-clip-text text-transparent">
               {page.title}
             </h1>
 
-            <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
               The sacred dialogue between Lord Krishna and Arjuna on the battlefield of Kurukshetra
             </p>
 
@@ -88,11 +88,11 @@ export default function Page({ searchParams }: any) {
                 key={i}
                 href={`/scriptures/bhagavathgita/chapter/${chapNum}`}
                 className="group relative
-                  bg-white dark:bg-gray-800
+                  bg-white
                   rounded-2xl
                   shadow-lg hover:shadow-2xl
-                  border-2 border-amber-100 dark:border-amber-900/30
-                  hover:border-amber-300 dark:hover:border-amber-700
+                  border-2 border-amber-100
+                  hover:border-amber-300
                   overflow-hidden
                   transition-all duration-500
                   transform hover:-translate-y-2
@@ -138,15 +138,15 @@ export default function Page({ searchParams }: any) {
                   {/* Content */}
                   <div className="flex-1 p-6 space-y-3 relative">
                     {/* Background decoration */}
-                    <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl from-amber-100/50 to-transparent dark:from-amber-900/20 rounded-bl-full" />
+                    <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl from-amber-100/50 to-transparent rounded-bl-full" />
 
                     {/* Title */}
                     <h3 className="
                       relative z-10
                       text-lg md:text-xl font-bold
-                      text-gray-900 dark:text-white
+                      text-gray-900
                       line-clamp-2
-                      group-hover:text-amber-800 dark:group-hover:text-amber-200
+                      group-hover:text-amber-800
                       transition-colors duration-300
                     ">
                       {chapTitle}
@@ -157,7 +157,7 @@ export default function Page({ searchParams }: any) {
                       <p className="
                         relative z-10
                         text-sm md:text-base
-                        text-gray-600 dark:text-gray-300
+                        text-gray-600
                         line-clamp-3
                         leading-relaxed
                       ">
@@ -170,7 +170,7 @@ export default function Page({ searchParams }: any) {
                       relative z-10
                       pt-4
                       flex items-center gap-2
-                      text-amber-800 dark:text-amber-200
+                      text-amber-800
                       font-semibold text-sm
                       group-hover:gap-3
                       transition-all duration-300

@@ -88,35 +88,35 @@ export default function TermsOfService() {
     >
       <div className="space-y-8" id="terms-of-service-content">
         {/* Header with last updated */}
-        <div className="flex items-center justify-between flex-wrap gap-4 pb-6 border-b-2 border-amber-200 dark:border-amber-800">
+        <div className="flex items-center justify-between flex-wrap gap-4 pb-6 border-b-2 border-amber-200">
           <div className="flex items-center gap-3">
             <span className="text-2xl">📋</span>
-            <strong className="text-lg text-gray-700 dark:text-gray-300">{page.lastupdated}</strong>
+            <strong className="text-lg text-gray-700">{page.lastupdated}</strong>
           </div>
           <TextToSpeech sectionId="terms-of-service-content" />
         </div>
 
         {/* Acceptance section */}
-        <section className="bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-950/30 dark:to-orange-950/30 border-2 border-amber-200 dark:border-amber-800 rounded-2xl p-6 md:p-8">
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
+        <section className="bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-200 rounded-2xl p-6 md:p-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-3xl">✅</span>
             {page.acceptancetitle}
           </h2>
-          <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{page.intro}</p>
+          <p className="text-gray-700 leading-relaxed">{page.intro}</p>
         </section>
 
         {/* Use License */}
-        <section className="bg-white dark:bg-gray-800 border-2 border-amber-100 dark:border-amber-900/30 rounded-2xl p-6 md:p-8 shadow-lg">
-          <h3 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
+        <section className="bg-white border-2 border-amber-100 rounded-2xl p-6 md:p-8 shadow-lg">
+          <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">📜</span>
             {page.uselicensetitle}
           </h3>
-          <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">{page.uselicensetext}</p>
+          <p className="text-gray-700 leading-relaxed mb-4">{page.uselicensetext}</p>
           <ul role="list" className="space-y-3">
             {[0, 1, 2, 3, 4].map((i) => {
               const item = renderListItem(page.uselicenselist, i);
               return item ? (
-                <li key={i} className="flex items-start gap-3 text-gray-700 dark:text-gray-300">
+                <li key={i} className="flex items-start gap-3 text-gray-700">
                   <span className="flex-shrink-0 w-2 h-2 mt-2 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full" />
                   <span className="flex-1">{item}</span>
                 </li>
@@ -126,26 +126,26 @@ export default function TermsOfService() {
         </section>
 
         {/* Intellectual Property */}
-        <section className="bg-white dark:bg-gray-800 border-2 border-amber-100 dark:border-amber-900/30 rounded-2xl p-6 md:p-8 shadow-lg">
-          <h4 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
+        <section className="bg-white border-2 border-amber-100 rounded-2xl p-6 md:p-8 shadow-lg">
+          <h4 className="text-xl md:text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">©️</span>
             {page.intellectualtitle}
           </h4>
-          <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{page.intellectualtext}</p>
+          <p className="text-gray-700 leading-relaxed">{page.intellectualtext}</p>
         </section>
 
         {/* User Conduct */}
-        <section className="bg-white dark:bg-gray-800 border-2 border-amber-100 dark:border-amber-900/30 rounded-2xl p-6 md:p-8 shadow-lg">
-          <h5 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
+        <section className="bg-white border-2 border-amber-100 rounded-2xl p-6 md:p-8 shadow-lg">
+          <h5 className="text-xl md:text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">👤</span>
             {page.userconducttitle}
           </h5>
-          <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">{page.userconductintro}</p>
+          <p className="text-gray-700 leading-relaxed mb-4">{page.userconductintro}</p>
           <ul role="list" className="space-y-3">
             {[0, 1, 2, 3, 4, 5].map((i) => {
               const item = renderListItem(page.userconductlist, i);
               return item ? (
-                <li key={i} className="flex items-start gap-3 text-gray-700 dark:text-gray-300">
+                <li key={i} className="flex items-start gap-3 text-gray-700">
                   <span className="flex-shrink-0 w-2 h-2 mt-2 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full" />
                   <span className="flex-1">{item}</span>
                 </li>
@@ -155,24 +155,24 @@ export default function TermsOfService() {
         </section>
 
         {/* Disclaimer */}
-        <section className="bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-950/30 dark:to-orange-950/30 border-l-4 border-amber-500 rounded-lg p-6 md:p-8 shadow-lg">
-          <h6 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
+        <section className="bg-gradient-to-br from-amber-50 to-orange-50 border-l-4 border-amber-500 rounded-lg p-6 md:p-8 shadow-lg">
+          <h6 className="text-xl md:text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">⚠️</span>
             {page.disclaimertitle}
           </h6>
-          <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">{page.disclaimertext}</p>
+          <p className="text-gray-700 leading-relaxed mb-4">{page.disclaimertext}</p>
           <ul role="list" className="space-y-3 mb-4">
             {[0, 1, 2, 3].map((i) => {
               const item = renderListItem(page.disclaimerlist, i);
               return item ? (
-                <li key={i} className="flex items-start gap-3 text-gray-700 dark:text-gray-300">
+                <li key={i} className="flex items-start gap-3 text-gray-700">
                   <span className="flex-shrink-0 w-2 h-2 mt-2 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full" />
                   <span className="flex-1">{item}</span>
                 </li>
               ) : null;
             })}
           </ul>
-          <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{page.disclaimerclosing}</p>
+          <p className="text-gray-700 leading-relaxed">{page.disclaimerclosing}</p>
         </section>
 
         {/* Other sections in card format */}
@@ -185,28 +185,28 @@ export default function TermsOfService() {
           { icon: '🏛️', title: page.governingtitle, text: page.governingtext },
           { icon: '📑', title: page.severabilitytitle, text: page.severabilitytext },
         ].map((section, idx) => (
-          <section key={idx} className="bg-white dark:bg-gray-800 border-2 border-amber-100 dark:border-amber-900/30 rounded-2xl p-6 md:p-8 shadow-lg">
-            <p className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
+          <section key={idx} className="bg-white border-2 border-amber-100 rounded-2xl p-6 md:p-8 shadow-lg">
+            <p className="text-xl md:text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
               <span className="text-2xl">{section.icon}</span>
               {section.title}
             </p>
-            <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{section.text}</p>
+            <p className="text-gray-700 leading-relaxed">{section.text}</p>
           </section>
         ))}
 
         {/* Contact section */}
-        <section className="bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-950/30 dark:to-orange-950/30 border-2 border-amber-200 dark:border-amber-800 rounded-2xl p-6 md:p-8">
-          <p className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-3">
+        <section className="bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-200 rounded-2xl p-6 md:p-8">
+          <p className="text-xl md:text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">📞</span>
             {page.contacttitle}
           </p>
-          <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">{page.contacttext}</p>
-          <div className="space-y-2 text-gray-700 dark:text-gray-300">
-            <p><strong className="text-amber-800 dark:text-amber-200">{page.contactphonelabel}</strong> {page.contactphone}</p>
-            <p><strong className="text-amber-800 dark:text-amber-200">{page.contactemaillabel}</strong> {page.contactemail}</p>
-            <p><strong className="text-amber-800 dark:text-amber-200">{page.contactwebsitelabel}</strong> <a href="https://sanatanadharmam.in" className="text-amber-800 dark:text-amber-200 hover:text-orange-700 dark:hover:text-orange-200 underline transition-colors">{page.contactwebsite}</a></p>
+          <p className="text-gray-700 leading-relaxed mb-4">{page.contacttext}</p>
+          <div className="space-y-2 text-gray-700">
+            <p><strong className="text-amber-800">{page.contactphonelabel}</strong> {page.contactphone}</p>
+            <p><strong className="text-amber-800">{page.contactemaillabel}</strong> {page.contactemail}</p>
+            <p><strong className="text-amber-800">{page.contactwebsitelabel}</strong> <a href="https://sanatanadharmam.in" className="text-amber-800 hover:text-orange-700 underline transition-colors">{page.contactwebsite}</a></p>
           </div>
-          <p className="text-gray-700 dark:text-gray-300 leading-relaxed mt-6 pt-4 border-t border-amber-300 dark:border-amber-700">{page.closing}</p>
+          <p className="text-gray-700 leading-relaxed mt-6 pt-4 border-t border-amber-300">{page.closing}</p>
         </section>
       </div>
     </PageLayout>

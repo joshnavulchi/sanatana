@@ -8,7 +8,7 @@ export default function ThemeToggle() {
   return (
     <div role="menuItem" className="relative">
       <button 
-        className="w-12 h-10 group relative inline-flex items-center py-2 px-3 bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-950/50 dark:to-orange-950/50 hover:from-amber-100 hover:to-orange-100 dark:hover:from-amber-900/60 dark:hover:to-orange-900/60 shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer transform hover:scale-105 text-amber-800 dark:text-amber-100"
+        className="w-12 h-10 group relative inline-flex items-center py-2 px-3 bg-gradient-to-r from-amber-50 to-orange-50 hover:from-amber-100 hover:to-orange-100 transition-all duration-300 cursor-pointer transform hover:scale-105 text-amber-800"
         role="button"
         aria-haspopup="menu"
         aria-controls="theme-menu"
@@ -17,7 +17,7 @@ export default function ThemeToggle() {
         onClick={toggle}
       >
         {theme === 'dark' ? (
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-6 h-6 text-amber-100"><path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" /></svg>
+           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-6 h-6"><path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" /></svg>
         ) : (
           <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 text-amber-800">
             <circle cx="12" cy="12" r="5" />

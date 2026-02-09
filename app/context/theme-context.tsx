@@ -22,19 +22,17 @@ const ThemeContext = createContext<ThemeContextType>({
 });
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setThemeState] = useState<Theme>('light');
-  const [isLoaded, setIsLoaded] = useState(false);
-
-  useEffect(() => {
+  const [theme, setThemeState] = useState<Theme>(() => {
     try {
       const stored = storage.getItem('sd_theme', { type: 'local' });
-      const initial: Theme = (stored as Theme) || 'light';
-      setThemeState(initial);
-    } catch (e) {
-      setThemeState('light');
+      return (stored as Theme) || 'light';
+    } catch {
+      return 'light';
     }
-    setIsLoaded(true);
-  }, []);
+  });
+  const [isLoaded, setIsLoaded] = useState(true);
+
+  // No need for extra effects to set theme or isLoaded
 
   useEffect(() => {
     if (!isLoaded) return;
