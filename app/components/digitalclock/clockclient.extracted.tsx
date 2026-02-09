@@ -227,7 +227,7 @@ export default function DigitalClock({
     pointerEvents: 'none'
   }}>
       <div className="relative">
-        <button className="absolute -top-4 -left-2 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:to-pink-600 text-white shadow-lg rounded-full px-2 py-2 text-xs tracking-widest border-2 border-white dark:border-gray-800 focus:outline-none focus:ring-4 focus:ring-pink-300 transition-all duration-300 flex cursor-pointer" onClick={toggle} aria-expanded={visible} aria-controls="digital-clock-box" aria-label={visible ? 'Hide clock' : 'Show clock'} style={{
+        <button className="absolute -top-4 -left-2 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:to-pink-600 text-white dark:text-amber-100 shadow-lg rounded-full px-2 py-2 text-xs tracking-widest border-2 border-white dark:border-gray-800 focus:outline-none focus:ring-4 focus:ring-pink-300 transition-all duration-300 flex cursor-pointer" onClick={toggle} aria-expanded={visible} aria-controls="digital-clock-box" aria-label={visible ? 'Hide clock' : 'Show clock'} style={{
         pointerEvents: 'auto',
         zIndex: 10
       }}>

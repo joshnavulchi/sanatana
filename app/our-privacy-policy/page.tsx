@@ -29,15 +29,15 @@ export default function PrivacyPolicyPage({ searchParams }: any) {
       className="layout-sm"
     >
       <div>
-        <h2 className="text-2xl md:text-3xl">{page.title}</h2>
-        <p>{page.intro}</p>
-        <h3 className="text-2xl md:text-3xl">{page.informationHeading}</h3>
-        <p>{page.informationDesc}</p>
-        <h3 className="text-2xl md:text-3xl">{page.howWeUse}</h3>
-        <p>{page.howWeUseDesc}</p>
-        <h3 className="text-2xl md:text-3xl">{page.yourRights}</h3>
-        <p>{page.yourRightsDesc}</p>
-        <p className="mt-6"><strong>{page.lastUpdated}</strong></p>
+        <h2 className="text-2xl md:text-3xl text-gray-900">{page.title}</h2>
+        <p className="text-gray-700">{page.intro}</p>
+        <h3 className="text-2xl md:text-3xl text-gray-900">{page.informationHeading}</h3>
+        <p className="text-gray-700">{page.informationDesc}</p>
+        <h3 className="text-2xl md:text-3xl text-gray-900">{page.howWeUse}</h3>
+        <p className="text-gray-700">{page.howWeUseDesc}</p>
+        <h3 className="text-2xl md:text-3xl text-gray-900">{page.yourRights}</h3>
+        <p className="text-gray-700">{page.yourRightsDesc}</p>
+        <p className="mt-6 text-gray-700"><strong>{page.lastUpdated}</strong></p>
       </div>
     </PageLayout>
   );

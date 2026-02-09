@@ -10,7 +10,7 @@ import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import LazyImage from '../lazy-image/LazyImage';
 // import BannerNotifications from '../notifications';
-// import ThemeToggle from '../theme-toggle/ThemeToggle';
+import ThemeToggle from '../theme-toggle/ThemeToggle';
 
 const LanguageDropdown = dynamic(() => import("../language-dropdown/language-dropdown"), { ssr: false });
 // Start with default-locale fallbacks so header can render synchronously
@@ -191,7 +191,7 @@ export default function Header() {
                     key={key}
                     href={href}
                     role="menuitem"
-                    className={`px-4 py-2 rounded-lg font-semibold text-amber-800 hover:bg-amber-100 hover:text-orange-700 transition-colors duration-150 ${isActive(href) ? "bg-orange-100 text-orange-700" : ""} dark:text-amber-100 dark:hover:bg-amber-900 dark:hover:text-yellow-300 dark:bg-gray-900 dark:active:bg-amber-800`}>
+                    className={`px-4 py-2 rounded-lg font-semibold text-amber-800 hover:bg-amber-100 hover:text-orange-700 transition-colors duration-150 ${isActive(href) ? "bg-orange-100 text-orange-700" : ""}`}>
                     {val}
                   </Link>
                 );
@@ -207,18 +207,18 @@ export default function Header() {
                 const icon = sectionIcons[key as string] || "✨";
                 return (
                   <div key={key} className="relative group">
-                    <span className="px-3 py-2 rounded-lg font-semibold text-amber-800 group-hover:bg-amber-100 group-hover:text-orange-700 transition-colors duration-150 cursor-pointer select-none flex items-center gap-1 dark:text-amber-100 dark:group-hover:bg-amber-900 dark:group-hover:text-yellow-300 dark:bg-gray-900">
+                    <span className="px-3 py-2 rounded-lg font-semibold text-amber-800 group-hover:bg-amber-100 group-hover:text-orange-700 transition-colors duration-150 cursor-pointer select-none flex items-center gap-1">
                       <span className="text-lg">{icon}</span> {val.title}
                     </span>
-                    <div className="absolute left-0 pt-2 min-w-[220px] bg-white border border-amber-200 rounded-2xl shadow-2xl opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-all duration-200 z-20 animate-fade-in-down overflow-hidden dark:bg-gray-900 dark:border-amber-700">
+                    <div className="absolute left-0 pt-2 min-w-[220px] bg-white border border-amber-200 rounded-2xl shadow-2xl opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-all duration-200 z-20 animate-fade-in-down overflow-hidden">
                       {/* Accent bar */}
-                      <div className="h-1 w-full bg-gradient-to-r from-orange-400 via-amber-400 to-yellow-300 dark:bg-gradient-to-r dark:from-amber-700 dark:via-yellow-600 dark:to-orange-400" />
+                      <div className="h-1 w-full bg-gradient-to-r from-orange-400 via-amber-400 to-yellow-300" />
                       {Object.entries(val.nav).map(([subKey, subLabel], idx) => (
                         <Link
                           key={subKey}
                           href={`/${key}/${subKey}`}
                           role="menuitem"
-                          className="flex items-center gap-3 px-5 py-2 text-amber-800 rounded transition-colors duration-150 hover:bg-orange-100 hover:text-orange-700 focus:bg-orange-200 focus:text-orange-800 dark:text-amber-100 dark:hover:bg-amber-900 dark:hover:text-yellow-300 dark:focus:bg-amber-800 dark:focus:text-yellow-200 dark:bg-gray-900"
+                          className="flex items-center gap-3 px-5 py-2 text-amber-800 rounded transition-colors duration-150 hover:bg-orange-100 hover:text-orange-700 focus:bg-orange-200 focus:text-orange-800"
                           style={{ animationDelay: `${idx * 40}ms` }}
                         >
                           <span className="text-base">🔸</span>
@@ -232,11 +232,13 @@ export default function Header() {
               return null;
             })}
             <LanguageDropdown />
+            <ThemeToggle />
           </nav>
 
           {/* Mobile Nav Toggle */}
           <div className="flex items-center md:hidden gap-2">
             <LanguageDropdown />
+            <ThemeToggle />
             <button
               aria-label="Open menu"
               onClick={() => setOpen((s) => !s)}
@@ -283,14 +285,14 @@ export default function Header() {
                   const icon = sectionIcons[key as string] || "✨";
                   return (
                     <div key={key} className="flex flex-col border-l-4 border-orange-300 pl-2 mb-2">
-                      <span className="px-4 py-2 rounded-lg font-semibold text-amber-800 bg-amber-50 mb-1 select-none flex items-center gap-2 dark:text-amber-100 dark:bg-gray-900">
+                      <span className="px-4 py-2 rounded-lg font-semibold text-amber-800 bg-amber-50 mb-1 select-none flex items-center gap-2">
                         <span className="text-lg">{icon}</span> {val.title}
                       </span>
                       {Object.entries(val.nav).map(([subKey, subLabel]) => (
                         <Link
                           key={subKey}
                           href={`/${key}/${subKey}`}
-                          className="flex items-center gap-2 px-7 py-2 text-amber-700 rounded transition-colors duration-150 hover:bg-orange-100 hover:text-orange-700 focus:bg-orange-200 focus:text-orange-800 dark:text-amber-100 dark:hover:bg-amber-900 dark:hover:text-yellow-300 dark:focus:bg-amber-800 dark:focus:text-yellow-200 dark:bg-gray-900"
+                          className="flex items-center gap-2 px-7 py-2 text-amber-700 rounded transition-colors duration-150 hover:bg-orange-100 hover:text-orange-700 focus:bg-orange-200 focus:text-orange-800"
                           onClick={() => setOpen(false)}
                         >
                           <span className="text-base">🔸</span>

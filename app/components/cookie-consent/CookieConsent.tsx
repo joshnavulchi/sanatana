@@ -175,9 +175,9 @@ export default function CookieConsent() {
         <div className="max-w-6xl mx-auto pointer-events-auto">
           <div className="
             relative
-            bg-white/95 dark:bg-gray-900/95
+            bg-white/95
             backdrop-blur-xl
-            border-2 border-amber-200 dark:border-amber-800
+            border-2 border-amber-200
             rounded-2xl
             shadow-2xl
             overflow-hidden
@@ -196,7 +196,6 @@ export default function CookieConsent() {
                   <div className="
                     w-16 h-16
                     bg-gradient-to-br from-amber-100 to-orange-100
-                    dark:from-amber-900/50 dark:to-orange-900/50
                     rounded-2xl
                     flex items-center justify-center
                     text-4xl
@@ -209,18 +208,18 @@ export default function CookieConsent() {
 
                 {/* Text content */}
                 <div className="flex-1">
-                  <h3 className="text-lg md:text-xl font-bold text-gray-900 dark:text-white mb-2 flex items-center gap-2">
+                  <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-2 flex items-center gap-2">
                     <span className="md:hidden text-2xl">🍪</span>
                     Cookie Settings
                   </h3>
-                  <div className="text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
+                  <div className="text-sm md:text-base text-gray-700 leading-relaxed">
                     {(() => {
                       const paragraph = localeObj?.cookieconsent?.paragraph || '';
                       return (
                         <div dangerouslySetInnerHTML={{
                           __html: paragraph
-                            .replace('{cookiePolicyLink}', `<a class="text-amber-800 dark:text-amber-200 hover:text-orange-700 dark:hover:text-orange-200 underline underline-offset-2 transition-colors" href="/our-cookie-policy">${localeObj?.cookieconsent?.cookiepolicy || 'Cookie Policy'}</a>`)
-                            .replace('{privacyPolicyLink}', `<a class="text-amber-800 dark:text-amber-200 hover:text-orange-700 dark:hover:text-orange-200 underline underline-offset-2 transition-colors" href="/our-privacy-policy">${localeObj?.cookieconsent?.privacypolicy || 'Privacy Policy'}</a>`)
+                            .replace('{cookiePolicyLink}', `<a class="text-amber-800 hover:text-orange-700 underline underline-offset-2 transition-colors" href="/our-cookie-policy">${localeObj?.cookieconsent?.cookiepolicy || 'Cookie Policy'}</a>`)
+                            .replace('{privacyPolicyLink}', `<a class="text-amber-800 hover:text-orange-700 underline underline-offset-2 transition-colors" href="/our-privacy-policy">${localeObj?.cookieconsent?.privacypolicy || 'Privacy Policy'}</a>`)
                             .replace('{managerLabel}', localeObj?.cookieconsent?.managerbutton || 'Cookie Preferences')
                             .replace('{acceptAllLabel}', localeObj?.cookieconsent?.acceptall || 'Accept all')
                         }} />
@@ -234,19 +233,19 @@ export default function CookieConsent() {
               <div className="flex flex-col sm:flex-row items-center justify-end gap-3 mt-6">
                 <button
                   className="
-                    px-6 py-3
-                    bg-white dark:bg-gray-800
-                    border-2 border-amber-300 dark:border-amber-700
-                    hover:border-amber-400 dark:hover:border-amber-600
-                    text-gray-900 dark:text-white
-                    font-semibold text-sm
-                    rounded-full
-                    shadow-md hover:shadow-lg
-                    transition-all duration-300
-                    transform hover:-translate-y-0.5
-                    no-underline
-                    whitespace-nowrap
-                    cursor-pointer
+                      px-6 py-3
+                      bg-white
+                      border-2 border-amber-300
+                      hover:border-amber-400
+                      text-gray-900
+                      font-semibold text-sm
+                      rounded-full
+                      shadow-md hover:shadow-lg
+                      transition-all duration-300
+                      transform hover:-translate-y-0.5
+                      no-underline
+                      whitespace-nowrap
+                      cursor-pointer
                   "
                   onClick={() => setModalOpen(true)}
                 >

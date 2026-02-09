@@ -34,7 +34,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
 
   if (!Array.isArray(slokas) || slokas.length === 0) {
     return (
-      <div className="max-w-4xl mx-auto p-8 text-center text-slate-600 dark:text-slate-300">
+      <div className="max-w-4xl mx-auto p-8 text-center text-slate-600">
         No slokas available.
       </div>
     );
@@ -44,15 +44,15 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
     <section className="max-w-7xl mx-auto px-3 py-6">
       <header className="mb-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <div>
-          <h3 className="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-amber-100">
+          <h3 className="text-3xl md:text-4xl font-extrabold text-slate-900">
             Sankshepa Ramayanam — Slokas
           </h3>
-          <p className="mt-1 text-sm text-slate-500 dark:text-slate-300">
+          <p className="mt-1 text-sm text-slate-500">
             Showing {visible} of {total} — elegant, readable cards with quick actions
           </p>
         </div>
         <div className="flex items-center gap-3">
-          <span className="text-sm px-3 py-2 bg-amber-50 dark:bg-amber-900/20 rounded-full text-amber-700 dark:text-amber-200 shadow-sm">
+          <span className="text-sm px-3 py-2 bg-amber-50 rounded-full text-amber-700 shadow-sm">
             {total} slokas
           </span>
         </div>
@@ -68,19 +68,19 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
           return (
             <article
               key={key}
-              className="relative group overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-700 bg-gradient-to-br from-white/60 to-white/40 dark:from-slate-900/50 dark:to-slate-900/30 shadow-lg p-6 backdrop-blur-sm"
+              className="relative group overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-br from-white/60 to-white/40 shadow-lg p-6 backdrop-blur-sm"
             >
               <div className="absolute -left-6 top-4 h-24 w-2 rounded-r-full bg-gradient-to-b from-amber-400 via-orange-500 to-rose-500 opacity-90 transform rotate-3" />
               <div className="flex justify-between items-start">
                 <div className="flex-1">
                   {s.sanskrit ? (
-                    <p className="text-xl md:text-2xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-amber-600 via-orange-500 to-amber-400 dark:from-amber-300 dark:via-yellow-400 dark:to-orange-300">
+                    <p className="text-xl md:text-2xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-amber-600 via-orange-500 to-amber-400">
                       {s.sanskrit}
                     </p>
                   ) : null}
 
                   {s.transliteration ? (
-                    <p className="mt-2 text-sm italic text-slate-700 dark:text-amber-100/90">
+                    <p className="mt-2 text-sm italic text-slate-700">
                       {s.transliteration}
                     </p>
                   ) : null}
@@ -95,7 +95,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
                       )
                     }
                     aria-label="Copy sloka"
-                    className="inline-flex items-center justify-center w-9 h-9 rounded-full bg-white/70 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700 shadow-sm hover:scale-105 transition-transform"
+                    className="inline-flex items-center justify-center w-9 h-9 rounded-full bg-white/70 border border-slate-200 shadow-sm hover:scale-105 transition-transform"
                     title="Copy"
                   >
                     {copiedIdx === idx ? (
@@ -103,25 +103,25 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                       </svg>
                     ) : (
-                      <svg className="w-5 h-5 text-slate-600 dark:text-slate-200" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <svg className="w-5 h-5 text-slate-600" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7h11v11H8z" />
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 11h1a2 2 0 0 0 2-2V4a2 2 0 0 1 2-2h6" />
                       </svg>
                     )}
                   </button>
 
-                  <span className="text-xs text-slate-400 dark:text-slate-400">{idx + 1}</span>
+                  <span className="text-xs text-slate-400">{idx + 1}</span>
                 </div>
               </div>
 
               <div className="mt-4">
                 {meaning ? (
-                  <div className="text-sm text-slate-700 dark:text-amber-100/90 leading-relaxed">
+                  <div className="text-sm text-slate-700 leading-relaxed">
                     <p className={`${isExpanded ? "" : "line-clamp-[8]"}`}>{isExpanded ? meaning : preview}</p>
                     {meaning.length > 220 ? (
                       <button
                         onClick={() => toggleExpand(idx)}
-                        className="mt-3 inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-sm bg-amber-50 dark:bg-amber-900/20 text-amber-700 dark:text-amber-200 border border-amber-100 dark:border-amber-800 shadow-sm hover:brightness-105 transition"
+                        className="mt-3 inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-sm bg-amber-50 text-amber-700 border border-amber-100 shadow-sm hover:brightness-105 transition"
                         aria-expanded={isExpanded}
                       >
                         {isExpanded ? "Show less" : "Read more"}
@@ -132,12 +132,12 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
                     ) : null}
                   </div>
                 ) : (
-                  <p className="text-sm text-slate-500 dark:text-slate-400">No meaning available.</p>
+                  <p className="text-sm text-slate-500">No meaning available.</p>
                 )}
               </div>
 
               <div className="pointer-events-none absolute -bottom-10 -right-10 opacity-10 group-hover:opacity-25 transition-opacity">
-                <svg width="160" height="160" viewBox="0 0 100 100" className="text-amber-200 dark:text-amber-400">
+                <svg width="160" height="160" viewBox="0 0 100 100" className="text-amber-200">
                   <defs>
                     <linearGradient id={`g-${idx}`} x1="0" x2="1" y1="0" y2="1">
                       <stop offset="0%" stopColor="rgba(250,204,21,0.6)" />
@@ -158,7 +158,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
           disabled={visible >= maxVisible}
           aria-disabled={visible >= maxVisible}
           className={`cursor-pointer px-6 py-3 rounded-full text-lg font-medium shadow-xl transition transform hover:-translate-y-0.5 ${visible >= maxVisible
-            ? "bg-slate-200 text-slate-500 cursor-not-allowed dark:bg-slate-700/40 dark:text-slate-400"
+            ? "bg-slate-200 text-slate-500 cursor-not-allowed"
             : "bg-gradient-to-r from-amber-500 to-orange-500 text-white hover:from-amber-600 hover:to-orange-600"
             }`}
         >

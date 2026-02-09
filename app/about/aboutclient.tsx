@@ -63,7 +63,7 @@ export default function AboutClient() {
 
       <div id="about-content">
         {/* Hero intro section */}
-        <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 dark:from-gray-900 dark:via-amber-950/30 dark:to-gray-900 rounded-2xl overflow-hidden dark:text-amber-100">
+        <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 rounded-2xl overflow-hidden">
           {/* Decorative elements */}
           <div className="absolute top-0 right-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl" />
           <div className="absolute bottom-0 left-0 w-80 h-80 bg-orange-400/10 rounded-full blur-3xl" />
@@ -76,7 +76,7 @@ export default function AboutClient() {
               <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-500" />
             </div>
 
-            <p className="text-lg md:text-xl text-gray-700 dark:text-amber-100 leading-relaxed">
+            <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
               {about.intro}
             </p>
           </div>
@@ -96,8 +96,8 @@ export default function AboutClient() {
               key={section.id || index}
               className="
                 relative
-                bg-white dark:bg-gray-900
-                border-2 border-amber-100 dark:border-amber-900/30
+                bg-white
+                border-2 border-amber-100
                 rounded-2xl
                 p-6 md:p-8
                 mt-12
@@ -105,7 +105,7 @@ export default function AboutClient() {
                 transition-all duration-500
                 group
                 overflow-hidden
-                dark:text-amber-100
+                
               "
             >
               {/* Decorative corner accent */}
@@ -120,7 +120,6 @@ export default function AboutClient() {
                     flex-shrink-0
                     w-12 h-12
                     bg-gradient-to-br from-amber-100 to-orange-100
-                    dark:from-amber-900/50 dark:to-orange-900/50
                     rounded-xl
                     flex items-center justify-center
                     text-2xl
@@ -135,8 +134,7 @@ export default function AboutClient() {
                     flex-1
                     text-2xl md:text-3xl
                     font-bold
-                    text-gray-900 dark:text-amber-100
-                    group-hover:text-amber-600 dark:group-hover:text-amber-400
+                    text-gray-900 group-hover:text-amber-600
                     transition-colors duration-300
                   ">
                     {section.title}

@@ -38,7 +38,7 @@ export default function InfoCard({ src, alt, captionKey, width = 400, height = 3
     resolveKey(captionKey).then(setCaption);
   }, [locale, captionKey]);
   return (
-    <div className="relative basis-1/5 p-3 mb-6 md:mb-0 border border-gray-500 bg-white dark:bg-gray-900 dark:text-amber-100">
+    <div className="relative basis-1/5 p-3 mb-6 md:mb-0 border border-gray-500 bg-white">
       {/* Wrap figure tag inside link next set href to  */}
       <Link href={`/${alt.toLowerCase().trim().replace(" ", "-")}`}>
         <figure>

@@ -47,7 +47,7 @@ export default function WorldTransformationContent() {
     >
       <div className="space-y-12">
         {/* Hero section */}
-        <div className="relative md:-mx-8 px-6 md:px-8 py-12 bg-gradient-to-br from-blue-50 via-indigo-50 to-blue-50 dark:from-blue-950/30 dark:via-indigo-950/30 dark:to-blue-950/30 rounded-2xl overflow-hidden">
+        <div className="relative md:-mx-8 px-6 md:px-8 py-12 bg-gradient-to-br from-blue-50 via-indigo-50 to-blue-50 rounded-2xl overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 bg-blue-400/10 rounded-full blur-3xl" />
           <div className="absolute bottom-0 left-0 w-80 h-80 bg-indigo-400/10 rounded-full blur-3xl" />
 
@@ -59,15 +59,15 @@ export default function WorldTransformationContent() {
             </div>
 
             {pageContent.meta?.description && (
-              <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
+              <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-4">
                 {pageContent.meta.description}
               </p>
             )}
             {pageContent.intro && (
-              <p className="text-base md:text-lg text-gray-600 dark:text-gray-400 leading-relaxed">{pageContent.intro}</p>
+              <p className="text-base md:text-lg text-gray-600 leading-relaxed">{pageContent.intro}</p>
             )}
             {pageContent.description && (
-              <p className="text-base md:text-lg text-gray-600 dark:text-gray-400 leading-relaxed">{pageContent.description}</p>
+              <p className="text-base md:text-lg text-gray-600 leading-relaxed">{pageContent.description}</p>
             )}
           </div>
         </div>
@@ -76,43 +76,43 @@ export default function WorldTransformationContent() {
         {pageContent.whyBordersBecameStable && (
           <section className="space-y-6">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-gradient-to-br from-blue-100 to-indigo-100 dark:from-blue-900/50 dark:to-indigo-900/50 rounded-xl flex items-center justify-center text-2xl shadow-md">
+              <div className="w-12 h-12 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-xl flex items-center justify-center text-2xl shadow-md">
                 🔒
               </div>
-              <h3 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">Why Borders Became Stable</h3>
+              <h3 className="text-2xl md:text-3xl font-bold text-gray-900">Why Borders Became Stable</h3>
             </div>
 
             {pageContent.whyBordersBecameStable.summary && (
-              <p className="text-gray-700 dark:text-gray-300 leading-relaxed pl-15">{pageContent.whyBordersBecameStable.summary}</p>
+              <p className="text-gray-700 leading-relaxed pl-15">{pageContent.whyBordersBecameStable.summary}</p>
             )}
 
             {pageContent.whyBordersBecameStable.factors && Array.isArray(pageContent.whyBordersBecameStable.factors) && (
               <div className="flex flex-wrap gap-6">
                 {pageContent.whyBordersBecameStable.factors.map((factor: any, i: number) => (
                   <div key={i} className="
-                    bg-white dark:bg-gray-800
-                    border-2 border-blue-100 dark:border-blue-900/30
-                    hover:border-blue-300 dark:hover:border-blue-700
+                    bg-white
+                    border-2 border-blue-100
+                    hover:border-blue-300
                     rounded-xl p-6
                     shadow-lg hover:shadow-xl
                     transition-all duration-300
                     transform hover:-translate-y-1
                   ">
-                    <h5 className="text-lg font-bold text-gray-900 dark:text-white mb-3 flex items-center gap-2">
+                    <h5 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
                       <span className="text-xl">📍</span>
                       {factor.title}
                     </h5>
-                    <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">{factor.explanation}</p>
+                    <p className="text-sm text-gray-700 leading-relaxed">{factor.explanation}</p>
                   </div>
                 ))}
               </div>
             )}
 
             {pageContent.whyBordersBecameStable.keyTakeaway && (
-              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-950/30 dark:to-indigo-950/30 border-l-4 border-blue-500 rounded-lg p-6">
+              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-l-4 border-blue-500 rounded-lg p-6">
                 <div className="flex items-start gap-3">
                   <span className="text-2xl">💡</span>
-                  <p className="flex-1 text-gray-700 dark:text-gray-300 leading-relaxed font-semibold">{pageContent.whyBordersBecameStable.keyTakeaway}</p>
+                  <p className="flex-1 text-gray-700 leading-relaxed font-semibold">{pageContent.whyBordersBecameStable.keyTakeaway}</p>
                 </div>
               </div>
             )}
@@ -121,8 +121,8 @@ export default function WorldTransformationContent() {
 
         {/* Legend */}
         {pageContent.legend && pageContent.legend.changeTypes && Array.isArray(pageContent.legend.changeTypes) && (
-          <section className="bg-white dark:bg-gray-800 border-2 border-blue-100 dark:border-blue-900/30 rounded-2xl p-6 md:p-8 shadow-lg">
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-2">
+          <section className="bg-white border-2 border-blue-100 rounded-2xl p-6 md:p-8 shadow-lg">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
               <span className="text-2xl">🎨</span>
               Legend
             </h3>
@@ -130,17 +130,17 @@ export default function WorldTransformationContent() {
               {pageContent.legend.changeTypes.map((ct: any) => (
                 <div key={ct.key} className="
                   flex items-center gap-3
-                  bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-700 dark:to-gray-800
+                  bg-gradient-to-br from-gray-50 to-gray-100
                   px-4 py-3 rounded-lg
-                  border border-gray-200 dark:border-gray-600
+                  border border-gray-200
                   shadow-sm hover:shadow-md
                   transition-all duration-300
                 ">
                   <span
-                    className="w-8 h-6 inline-block rounded-md border-2 border-white dark:border-gray-900 shadow-md"
+                    className="w-8 h-6 inline-block rounded-md border-2 border-white shadow-md"
                     style={{ background: ct.color || '#999' }}
                   />
-                  <span className="text-sm font-medium text-gray-700 dark:text-gray-300">{ct.label}</span>
+                  <span className="text-sm font-medium text-gray-700">{ct.label}</span>
                 </div>
               ))}
             </div>
@@ -152,12 +152,12 @@ export default function WorldTransformationContent() {
           <section className="space-y-6">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-gradient-to-br from-blue-100 to-indigo-100 dark:from-blue-900/50 dark:to-indigo-900/50 rounded-xl flex items-center justify-center text-2xl shadow-md">
+                <div className="w-12 h-12 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-xl flex items-center justify-center text-2xl shadow-md">
                   📆
                 </div>
                 <div>
-                  <h3 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">Historical Decades</h3>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">{pageContent.decades.length} periods of transformation</p>
+                  <h3 className="text-2xl md:text-3xl font-bold text-gray-900">Historical Decades</h3>
+                  <p className="text-sm text-gray-600">{pageContent.decades.length} periods of transformation</p>
                 </div>
               </div>
             </div>
@@ -236,7 +236,7 @@ export default function WorldTransformationContent() {
                             onChange={() => setSelectedDecade(selectedDecade === idx ? null : idx)}
                             className="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
                           />
-                          <span className="text-sm font-medium text-gray-700 dark:text-gray-300 group-hover/checkbox:text-blue-600 dark:group-hover/checkbox:text-blue-400 transition-colors">
+                          <span className="text-sm font-medium text-gray-700 dark:text-gray-300 group-hover/checkbox:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                             {selectedDecade === idx ? '✓ Shown on map' : '🗺️ Show on map'}
                           </span>
                         </label>

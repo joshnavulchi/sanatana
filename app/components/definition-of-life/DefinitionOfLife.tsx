@@ -39,7 +39,7 @@ export default function DefinitionOfLife() {
             <div className="absolute top-4 right-4 text-4xl opacity-20 group-hover:opacity-30 transition-opacity">
               🎯
             </div>
-            <h3 className="text-xl font-bold text-amber-800 mb-3">पुरुषार्थ - Life`&apos;`s Purpose</h3>
+            <h3 className="text-xl font-bold text-amber-800 mb-3">पुरुषार्थ - Life&apos;s Purpose</h3>
             <p className="text-gray-700 leading-relaxed">
               Life is a sacred journey toward the four Purusharthas:
               <span className="font-semibold text-amber-700"> Dharma</span> (righteousness),
@@ -58,7 +58,7 @@ export default function DefinitionOfLife() {
             <p className="text-gray-700 leading-relaxed">
               The Atman, your true self, is eternal and divine.
               <span className="italic"> `&quot;`न जायते म्रियते वा`&quot;` </span>
-              — It is never born, nor does it die. Life is the soul`&apos;`s journey to realize its oneness with Brahman.
+              — It is never born, nor does it die. Life is the soul&apos;s journey to realize its oneness with Brahman.
             </p>
           </div>
 

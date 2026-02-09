@@ -32,16 +32,16 @@ export default function FaqAccordion({ items, heading }: Props) {
               className={`
                 group relative overflow-hidden rounded-2xl border-2 transition-all duration-300
                 ${open 
-                  ? 'border-amber-400 dark:border-amber-600 shadow-xl shadow-amber-500/20 dark:shadow-amber-900/40' 
-                  : 'border-amber-200 dark:border-amber-800/50 shadow-md hover:shadow-lg hover:border-amber-300 dark:hover:border-amber-700'
+                  ? 'border-amber-400 shadow-xl shadow-amber-500/20' 
+                  : 'border-amber-200 shadow-md hover:shadow-lg hover:border-amber-300'
                 }
               `}
             >
               {/* Gradient background */}
               <div className={`absolute inset-0 bg-gradient-to-br transition-opacity duration-300 ${
                 open 
-                  ? 'from-amber-50 via-orange-50 to-amber-50 dark:from-amber-950/50 dark:via-orange-950/50 dark:to-amber-950/50 opacity-100' 
-                  : 'from-white to-amber-50/30 dark:from-gray-900 dark:to-amber-950/20 opacity-100'
+                  ? 'from-amber-50 via-orange-50 to-amber-50 opacity-100' 
+                  : 'from-white to-amber-50/30 opacity-100'
               }`} />
               
               {/* Decorative corner accent */}
@@ -60,7 +60,7 @@ export default function FaqAccordion({ items, heading }: Props) {
                     flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold transition-all duration-300
                     ${open 
                       ? 'bg-gradient-to-br from-amber-500 to-orange-600 text-white scale-110 shadow-lg' 
-                      : 'bg-amber-100 dark:bg-amber-900/50 text-amber-700 dark:text-amber-300 group-hover:scale-105'
+                      : 'bg-amber-100 text-amber-700 group-hover:scale-105'
                     }
                   `}>
                     {idx + 1}
@@ -69,7 +69,7 @@ export default function FaqAccordion({ items, heading }: Props) {
                     font-semibold text-base md:text-lg leading-relaxed transition-colors duration-300
                     ${open 
                       ? 'text-amber-900 dark:text-amber-100' 
-                      : 'text-gray-800 dark:text-gray-200 group-hover:text-amber-700 dark:group-hover:text-amber-300'
+                      : 'text-gray-800 dark:text-amber-100 group-hover:text-amber-700 dark:group-hover:text-amber-200'
                     }
                   `}>
                     {it.q}
@@ -96,7 +96,7 @@ export default function FaqAccordion({ items, heading }: Props) {
                 `}
               >
                 <div className="px-6 pb-6 pl-20">
-                  <div className="pt-2 text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line border-l-4 border-amber-400 dark:border-amber-600 pl-6 py-3 bg-white/50 dark:bg-gray-800/50 rounded-r-lg">
+                  <div className="pt-2 text-gray-700 dark:text-amber-100 leading-relaxed whitespace-pre-line border-l-4 border-amber-400 dark:border-amber-600 pl-6 py-3 bg-white/50 dark:bg-gray-800/50 rounded-r-lg">
                     {it.a}
                   </div>
                 </div>

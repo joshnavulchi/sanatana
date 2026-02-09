@@ -65,14 +65,14 @@ const Region = ({ title, data }: { title: string; data?: RegionData }) => {
     <div className="mb-8">
       {/* Region header */}
       <div className="flex items-center gap-3 mb-4">
-        <div className="w-12 h-12 bg-gradient-to-br from-amber-100 to-orange-100 dark:from-amber-900/50 dark:to-orange-900/50 rounded-xl flex items-center justify-center text-2xl shadow-md">
+        <div className="w-12 h-12 bg-gradient-to-br from-amber-100 to-orange-100 rounded-xl flex items-center justify-center text-2xl shadow-md">
           {regionIcons[title] || '👑'}
         </div>
-        <h4 className="text-2xl font-bold text-gray-900 dark:text-white">{title}</h4>
+        <h4 className="text-2xl font-bold text-gray-900">{title}</h4>
       </div>
 
       {data.description && (
-        <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-6 pl-15">{data.description}</p>
+        <p className="text-gray-700 leading-relaxed mb-6 pl-15">{data.description}</p>
       )}
 
       {/* Rulers timeline */}
@@ -83,35 +83,35 @@ const Region = ({ title, data }: { title: string; data?: RegionData }) => {
         {data.rulers.map((ruler: Ruler, i: number) => (
           <div key={i} className="relative group">
             {/* Timeline dot */}
-            <div className="absolute -left-5 top-4 w-4 h-4 bg-gradient-to-br from-amber-500 to-orange-600 rounded-full border-4 border-white dark:border-gray-900 shadow-lg group-hover:scale-125 transition-transform duration-300" />
+            <div className="absolute -left-5 top-4 w-4 h-4 bg-gradient-to-br from-amber-500 to-orange-600 rounded-full border-4 border-white shadow-lg group-hover:scale-125 transition-transform duration-300" />
 
             {/* Ruler card */}
             <div className="
-              bg-white dark:bg-gray-800
-              border-2 border-amber-100 dark:border-amber-900/30
-              hover:border-amber-300 dark:hover:border-amber-700
+              bg-white
+              border-2 border-amber-100
+              hover:border-amber-300
               rounded-xl
               p-5
               shadow-md hover:shadow-xl
               transition-all duration-300
               transform hover:-translate-y-1
             ">
-              <h5 className="text-lg font-bold text-gray-900 dark:text-white mb-3 flex items-center gap-2">
+              <h5 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
                 <span className="text-xl">👑</span>
                 {ruler.name}
               </h5>
 
               <div className="space-y-2 text-sm">
                 {ruler.dynasty && (
-                  <p className="text-gray-700 dark:text-gray-300">
-                    <strong className="text-amber-800 dark:text-amber-200">Dynasty:</strong> {ruler.dynasty}
+                  <p className="text-gray-700">
+                    <strong className="text-amber-800">Dynasty:</strong> {ruler.dynasty}
                   </p>
                 )}
-                <p className="text-gray-700 dark:text-gray-300">
-                  <strong className="text-amber-800 dark:text-amber-200">Reign:</strong> {ruler.reign}
+                <p className="text-gray-700">
+                  <strong className="text-amber-800">Reign:</strong> {ruler.reign}
                 </p>
                 {ruler.notes && (
-                  <p className="text-gray-600 dark:text-gray-400 italic mt-3 pt-3 border-t border-gray-200 dark:border-gray-700">
+                  <p className="text-gray-600 italic mt-3 pt-3 border-t border-gray-200">
                     {ruler.notes}
                   </p>
                 )}

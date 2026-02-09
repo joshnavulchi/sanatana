@@ -68,13 +68,13 @@ export default function DonateClient() {
     >
       <div id="donate-content" className="space-y-12">
         <div className="text-center max-w-3xl mx-auto">
-          <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">{donate.subtitle}</p>
+          <p className="text-lg text-gray-700 leading-relaxed">{donate.subtitle}</p>
         </div>
 
         {/* Purpose */}
         <section className="relative">
-          <div className="bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 dark:from-amber-950/30 dark:via-orange-950/30 dark:to-amber-950/30 rounded-3xl shadow-xl border-2 border-amber-200 dark:border-amber-800 p-8 md:p-10 overflow-hidden">
-            <div className="absolute top-0 right-0 w-48 h-48 bg-amber-400/10 dark:bg-amber-600/10 rounded-full blur-3xl" />
+          <div className="bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 rounded-3xl shadow-xl border-2 border-amber-200 p-8 md:p-10 overflow-hidden">
+            <div className="absolute top-0 right-0 w-48 h-48 bg-amber-400/10 rounded-full blur-3xl" />
             <div className="relative z-10">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl flex items-center justify-center shadow-lg">
@@ -83,7 +83,7 @@ export default function DonateClient() {
                     <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clipRule="evenodd" />
                   </svg>
                 </div>
-                <h3 className="text-2xl md:text-3xl font-bold text-amber-900 dark:text-amber-100">{donate.purpose?.heading}</h3>
+                <h3 className="text-2xl md:text-3xl font-bold text-amber-900">{donate.purpose?.heading}</h3>
               </div>
               <ul className="space-y-4">
                 {(donate.purpose?.points || []).map((p: string, i: number) => (
@@ -91,7 +91,7 @@ export default function DonateClient() {
                     <span className="flex-shrink-0 w-8 h-8 bg-amber-500 text-white rounded-full flex items-center justify-center text-sm font-bold shadow-md group-hover:scale-110 transition-transform duration-300">
                       {i + 1}
                     </span>
-                    <span className="flex-1 text-gray-700 dark:text-gray-300 leading-relaxed pt-1">{p}</span>
+                    <span className="flex-1 text-gray-700 leading-relaxed pt-1">{p}</span>
                   </li>
                 ))}
               </ul>
@@ -105,7 +105,7 @@ export default function DonateClient() {
             <h4 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-amber-600 via-orange-500 to-amber-600 bg-clip-text text-transparent inline-block">{donate.expenses?.heading}</h4>
             <div className="mt-3 w-24 h-1 bg-gradient-to-r from-amber-400 to-orange-500 mx-auto rounded-full"></div>
           </div>
-          <div className="overflow-x-auto rounded-2xl shadow-xl border-2 border-amber-200 dark:border-amber-800">
+          <div className="overflow-x-auto rounded-2xl shadow-xl border-2 border-amber-200">
             <table className="w-full">
               <thead className="bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 text-white">
                 <tr>
@@ -115,13 +115,13 @@ export default function DonateClient() {
                   <th className="p-4 text-left font-bold">Provider</th>
                 </tr>
               </thead>
-              <tbody className="bg-white dark:bg-gray-900">
+              <tbody className="bg-white">
                 {(donate.expenses?.table || []).map((row: any, i: number) => (
-                  <tr key={i} className="border-t-2 border-amber-100 dark:border-amber-900 hover:bg-amber-50/50 dark:hover:bg-amber-950/30 transition-colors duration-200">
-                    <td className="p-4 font-medium text-gray-900 dark:text-gray-100">{row.name}</td>
-                    <td className="p-4 text-amber-800 dark:text-amber-200 font-semibold">{row.cost}</td>
-                    <td className="p-4 text-gray-700 dark:text-gray-300">{row.cycle}</td>
-                    <td className="p-4 text-gray-700 dark:text-gray-300">{row.provider}</td>
+                  <tr key={i} className="border-t-2 border-amber-100 hover:bg-amber-50/50 transition-colors duration-200">
+                    <td className="p-4 font-medium text-gray-900">{row.name}</td>
+                    <td className="p-4 text-amber-800 font-semibold">{row.cost}</td>
+                    <td className="p-4 text-gray-700">{row.cycle}</td>
+                    <td className="p-4 text-gray-700">{row.provider}</td>
                   </tr>
                 ))}
               </tbody>

@@ -51,9 +51,9 @@ export default function UnderstandingOfSanatana() {
   }, [locale]);
 
   return (
-    <div className="relative z-0 px-3 overflow-hidden bg-gradient-to-b from-white via-amber-50/30 to-white dark:from-gray-900 dark:via-amber-950/20 dark:to-gray-900 dark:text-amber-100">
-      <div className="absolute top-0 left-1/4 w-64 h-64 bg-amber-200/20 dark:bg-amber-500/10 rounded-full blur-3xl" />
-      <div className="absolute bottom-0 right-1/4 w-80 h-80 bg-orange-200/20 dark:bg-orange-500/10 rounded-full blur-3xl" />
+    <div className="relative z-0 px-3 overflow-hidden bg-gradient-to-b from-white via-amber-50/30 to-white">
+      <div className="absolute top-0 left-1/4 w-64 h-64 bg-amber-200/20 rounded-full blur-3xl" />
+      <div className="absolute bottom-0 right-1/4 w-80 h-80 bg-orange-200/20 rounded-full blur-3xl" />
 
       <div className="content-wrapper relative z-10">
         {sections.map((section, sectionIndex) => (
@@ -73,11 +73,11 @@ export default function UnderstandingOfSanatana() {
                 <div className="h-px w-16 bg-gradient-to-l from-transparent to-amber-400" />
               </div>
 
-              <h5 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-amber-600 via-orange-500 to-amber-600 bg-clip-text text-transparent my-6 dark:bg-gradient-to-r dark:from-amber-300 dark:via-yellow-400 dark:to-orange-300">
+              <h5 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-amber-600 via-orange-500 to-amber-600 bg-clip-text text-transparent my-6">
                 {section.title}
               </h5>
 
-              <p className="text-lg text-gray-700 dark:text-amber-100 mb-6">
+              <p className="text-lg text-gray-700 mb-6">
                 {section.content}
               </p>
 
@@ -97,7 +97,7 @@ export default function UnderstandingOfSanatana() {
             {/* Items */}
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
               {section.items?.map((topic, topicIndex) => (
-                <div key={`${section.id}-${topic.id || topicIndex}`} className="bg-white dark:bg-gray-900 rounded-2xl p-6 shadow-lg hover:shadow-xl transition dark:text-amber-100">
+                <div key={`${section.id}-${topic.id || topicIndex}`} className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition">
                   <div className="text-center">
                     {topic.src && (
                       <LazyImage
@@ -108,14 +108,14 @@ export default function UnderstandingOfSanatana() {
                         className="mx-auto inline-flex"
                       />
                     )}
-                    <h6 className="text-xl font-bold dark:text-amber-100">{topic.title}</h6>
-                    <p className="text-gray-600 dark:text-amber-100">
+                    <h6 className="text-xl font-bold text-amber-800">{topic.title}</h6>
+                    <p className="text-gray-600">
                       {topic.description}
                     </p>
                     <Link
                       href={topic.href}
                       title={topic.title}
-                      className="inline-flex items-center gap-2 text-amber-800 dark:text-amber-200 font-semibold"
+                      className="inline-flex items-center gap-2 text-amber-800 font-semibold"
                     >
                       {`Learn more about ${topic.title}`}
                       <svg
@@ -140,7 +140,7 @@ export default function UnderstandingOfSanatana() {
               {section.points?.map((point, index) => (
                 <div
                   key={`${section.id}-point-${index}`}
-                  className="bg-gradient-to-br from-white to-amber-50 rounded-2xl p-6 mb-6 md:mb-0 shadow-lg"
+                  className="bg-gradient-to-br from-white to-amber-50 dark:from-gray-900 dark:to-amber-950/20 rounded-2xl p-6 mb-6 md:mb-0 shadow-lg"
                 >
                   <p className="text-gray-800 dark:text-amber-100 font-medium">
                     {point}

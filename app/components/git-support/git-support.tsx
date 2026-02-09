@@ -49,7 +49,7 @@ export default function GitSupport({ locale }: { locale?: string }) {
         {/* Card with glass-morphism effect */}
         <div className="
           relative
-          bg-white/10 dark:bg-black/20
+          bg-white/10
           backdrop-blur-xl
           border border-white/20
           rounded-3xl
@@ -58,6 +58,8 @@ export default function GitSupport({ locale }: { locale?: string }) {
           max-w-2xl
           overflow-hidden
           group
+          text-gray-900 dark:text-amber-100
+                  text-gray-900
         ">
           {/* Gradient overlay on hover */}
           <div className="absolute inset-0 bg-gradient-to-br from-amber-500/10 to-orange-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
@@ -79,14 +81,12 @@ export default function GitSupport({ locale }: { locale?: string }) {
             </div>
 
             {/* Title */}
-            <h6 className="text-2xl md:text-3xl lg:text-4xl
-              font-light text-white leading-tight
-              drop-shadow-2xl">
+            <h6 className="text-2xl md:text-3xl lg:text-4xl font-light text-gray-900 leading-tight drop-shadow-2xl">
               {loc?.cta?.title || 'Contribute'}
             </h6>
 
             {/* Subtitle */}
-            <p className="text-md md:text-lg text-gray-100 leading-relaxed drop-shadow-lg my-6">
+            <p className="text-md md:text-lg text-gray-700 leading-relaxed drop-shadow-lg my-6">
               {loc?.cta?.subtitle || ''}
             </p>
 
