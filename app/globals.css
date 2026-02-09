@@ -191,6 +191,9 @@ body {
 /* 4) Theming utilities */
 /* 5) Buttons */
 /* 6) Links */
+a {
+  font-size: 1.1rem;
+}
 /* 7) Cards */
 /* 8) Header / Nav (with subtle gradient) */
 /* 9) Focus visibility for accessibility */
@@ -296,25 +299,6 @@ footer {
   contain: layout;
 }
 /* Global dark mode text color fixes */
-html.dark, body.dark {
-  color: #f3f4f6 !important; /* Tailwind gray-100 */
-  background-color: #18181b !important; /* Tailwind gray-900 */
-}
-html.dark h1, html.dark h2, html.dark h3, html.dark h4, html.dark h5, html.dark h6,
-body.dark h1, body.dark h2, body.dark h3, body.dark h4, body.dark h5, body.dark h6 {
-  color: #fbbf24 !important; /* Tailwind amber-400 for headings */
-}
-html.dark a, body.dark a {
-  color: #fbbf24 !important; /* Tailwind amber-400 for links */
-}
-html.dark .text-gray-700, body.dark .text-gray-700,
-html.dark .text-gray-800, body.dark .text-gray-800,
-html.dark .text-amber-800, body.dark .text-amber-800 {
-  color: #f3f4f6 !important; /* Make all text readable in dark mode */
-}
-html.dark .bg-white, body.dark .bg-white {
-  background-color: #18181b !important;
-}
 .wordcount {
   display: inline-flex;
   gap: 6px;

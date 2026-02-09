@@ -102,7 +102,7 @@ export default function WelcomePage() {
               {/* Welcome title */}
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold
                 bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700 dark:from-amber-300 dark:via-yellow-400 dark:to-orange-300
-                bg-clip-text text-transparent tracking-tight leading-tight">
+                bg-clip-text tracking-tight leading-tight">
                 Namaste & Welcome
               </h2>
 
@@ -122,7 +122,7 @@ export default function WelcomePage() {
 
               {/* Main message */}
               <div className="space-y-4 max-w-2xl mx-auto">
-                <p className="text-lg md:text-xl text-gray-700 dark:text-amber-100 leading-relaxed">
+                <p className="text-lg md:text-xl  dark:text-amber-100 leading-relaxed">
                   We are deeply honored and blessed by your presence here.
                 </p>
                 <p className="text-base md:text-lg text-gray-600 dark:text-amber-100 leading-relaxed">

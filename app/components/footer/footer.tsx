@@ -207,7 +207,7 @@ export default function Footer() {
           </nav>
         </div>
 
-        <div className={`disclaimer w-full flex flex-col md:flex-row items-center justify-between`}>
+        <div className={`disclaimer w-full flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0`}>
           <div>
             <small className="text-gray-400">{footer && footer?.disclaimer}<br /> {footer && footer?.contentChange}</small>
             {/* <small> I am using <Link href='https://gemini.google.com/' title='Gemini AI' target='_blank' className='text-white no-underline'>Gemini AI</Link>, <Link href='https://www.meta.ai/' title='Meta AI' target='_blank' className='text-white no-underline'>Meta AI</Link> and  <Link href='https://github.com/features/copilot' title='Github Copilot' target='_blank' className='text-white no-underline'>Github Copilot</Link> basic plan to generating content of the website.</small> */}

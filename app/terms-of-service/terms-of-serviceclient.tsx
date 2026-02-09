@@ -91,7 +91,7 @@ export default function TermsOfService() {
         <div className="flex items-center justify-between flex-wrap gap-4 pb-6 border-b-2 border-amber-200">
           <div className="flex items-center gap-3">
             <span className="text-2xl">📋</span>
-            <strong className="text-lg text-gray-700">{page.lastupdated}</strong>
+            <strong className="text-lg ">{page.lastupdated}</strong>
           </div>
           <TextToSpeech sectionId="terms-of-service-content" />
         </div>
@@ -102,7 +102,7 @@ export default function TermsOfService() {
             <span className="text-3xl">✅</span>
             {page.acceptancetitle}
           </h2>
-          <p className="text-gray-700 leading-relaxed">{page.intro}</p>
+          <p className=" leading-relaxed">{page.intro}</p>
         </section>
 
         {/* Use License */}
@@ -111,12 +111,12 @@ export default function TermsOfService() {
             <span className="text-2xl">📜</span>
             {page.uselicensetitle}
           </h3>
-          <p className="text-gray-700 leading-relaxed mb-4">{page.uselicensetext}</p>
+          <p className=" leading-relaxed mb-4">{page.uselicensetext}</p>
           <ul role="list" className="space-y-3">
             {[0, 1, 2, 3, 4].map((i) => {
               const item = renderListItem(page.uselicenselist, i);
               return item ? (
-                <li key={i} className="flex items-start gap-3 text-gray-700">
+                <li key={i} className="flex items-start gap-3 ">
                   <span className="flex-shrink-0 w-2 h-2 mt-2 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full" />
                   <span className="flex-1">{item}</span>
                 </li>
@@ -131,7 +131,7 @@ export default function TermsOfService() {
             <span className="text-2xl">©️</span>
             {page.intellectualtitle}
           </h4>
-          <p className="text-gray-700 leading-relaxed">{page.intellectualtext}</p>
+          <p className=" leading-relaxed">{page.intellectualtext}</p>
         </section>
 
         {/* User Conduct */}
@@ -140,12 +140,12 @@ export default function TermsOfService() {
             <span className="text-2xl">👤</span>
             {page.userconducttitle}
           </h5>
-          <p className="text-gray-700 leading-relaxed mb-4">{page.userconductintro}</p>
+          <p className=" leading-relaxed mb-4">{page.userconductintro}</p>
           <ul role="list" className="space-y-3">
             {[0, 1, 2, 3, 4, 5].map((i) => {
               const item = renderListItem(page.userconductlist, i);
               return item ? (
-                <li key={i} className="flex items-start gap-3 text-gray-700">
+                <li key={i} className="flex items-start gap-3 ">
                   <span className="flex-shrink-0 w-2 h-2 mt-2 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full" />
                   <span className="flex-1">{item}</span>
                 </li>
@@ -160,19 +160,19 @@ export default function TermsOfService() {
             <span className="text-2xl">⚠️</span>
             {page.disclaimertitle}
           </h6>
-          <p className="text-gray-700 leading-relaxed mb-4">{page.disclaimertext}</p>
+          <p className=" leading-relaxed mb-4">{page.disclaimertext}</p>
           <ul role="list" className="space-y-3 mb-4">
             {[0, 1, 2, 3].map((i) => {
               const item = renderListItem(page.disclaimerlist, i);
               return item ? (
-                <li key={i} className="flex items-start gap-3 text-gray-700">
+                <li key={i} className="flex items-start gap-3 ">
                   <span className="flex-shrink-0 w-2 h-2 mt-2 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full" />
                   <span className="flex-1">{item}</span>
                 </li>
               ) : null;
             })}
           </ul>
-          <p className="text-gray-700 leading-relaxed">{page.disclaimerclosing}</p>
+          <p className=" leading-relaxed">{page.disclaimerclosing}</p>
         </section>
 
         {/* Other sections in card format */}
@@ -190,7 +190,7 @@ export default function TermsOfService() {
               <span className="text-2xl">{section.icon}</span>
               {section.title}
             </p>
-            <p className="text-gray-700 leading-relaxed">{section.text}</p>
+            <p className=" leading-relaxed">{section.text}</p>
           </section>
         ))}
 
@@ -200,13 +200,13 @@ export default function TermsOfService() {
             <span className="text-2xl">📞</span>
             {page.contacttitle}
           </p>
-          <p className="text-gray-700 leading-relaxed mb-4">{page.contacttext}</p>
-          <div className="space-y-2 text-gray-700">
+          <p className=" leading-relaxed mb-4">{page.contacttext}</p>
+          <div className="space-y-2 ">
             <p><strong className="text-amber-800">{page.contactphonelabel}</strong> {page.contactphone}</p>
             <p><strong className="text-amber-800">{page.contactemaillabel}</strong> {page.contactemail}</p>
             <p><strong className="text-amber-800">{page.contactwebsitelabel}</strong> <a href="https://sanatanadharmam.in" className="text-amber-800 hover:text-orange-700 underline transition-colors">{page.contactwebsite}</a></p>
           </div>
-          <p className="text-gray-700 leading-relaxed mt-6 pt-4 border-t border-amber-300">{page.closing}</p>
+          <p className=" leading-relaxed mt-6 pt-4 border-t border-amber-300">{page.closing}</p>
         </section>
       </div>
     </PageLayout>

@@ -62,8 +62,8 @@ const Segment = ({ title, subtitle, years, isFirst, isLast, index }: any) => {
           )}
 
           <div className="text-center sm:text-left">
-            <h6 className="text-2xl font-light tracking-wide drop-shadow-lg group-hover:scale-105 transition-transform duration-300 m-0 text-gray-900 dark:text-amber-100">{title}</h6>
-            <p className="text-lg md:text-base font-light text-gray-800 dark:text-amber-100 group-hover:text-white transition-colors duration-300 my-6">{subtitle}</p>
+            <h6 className="text-2xl font-light tracking-wide drop-shadow-lg group-hover:scale-105 transition-transform duration-300 m-0">{title}</h6>
+            <p className="text-lg md:text-base font-light text-white group-hover:text-white transition-colors duration-300 my-6">{subtitle}</p>
           </div>
         </div>
 
@@ -131,12 +131,12 @@ export default function OurFourCoreYugas() {
             <div className="h-px w-20 bg-gradient-to-l from-transparent to-amber-400" />
           </div>
 
-          <h6 className="text-3xl md:text-4xl font-light text-amber-200 dark:text-amber-100 drop-shadow-2xl [text-shadow:_2px_2px_8px_rgb(0_0_0_/_80%)] my-6">
+          <h6 className="text-3xl md:text-4xl font-light text-amber-200 drop-shadow-2xl [text-shadow:_2px_2px_8px_rgb(0_0_0_/_80%)] my-6">
             {title}
           </h6>
 
           <div className="mx-auto max-w-5xl">
-            <p className="text-md md:text-lg text-gray-800 dark:text-amber-100 leading-relaxed">
+            <p className="text-md md:text-lg leading-relaxed text-white">
               {subtitle}{' '}
               <Link
                 href="/cosmictime"
@@ -189,7 +189,7 @@ export default function OurFourCoreYugas() {
           `}
         >
           <div className="h-px w-20 bg-gradient-to-r from-transparent to-orange-400" />
-          <span className="text-orange-300 dark:text-amber-100 text-sm font-light tracking-widest">✦ CYCLE OF TIME ✦</span>
+          <span className="text-orange-300 text-sm font-light tracking-widest">✦ CYCLE OF TIME ✦</span>
           <div className="h-px w-20 bg-gradient-to-l from-transparent to-orange-400" />
         </div>
       </div>

@@ -212,7 +212,7 @@ export default function CookieConsent() {
                     <span className="md:hidden text-2xl">🍪</span>
                     Cookie Settings
                   </h3>
-                  <div className="text-sm md:text-base text-gray-700 leading-relaxed">
+                  <div className="text-sm md:text-base  leading-relaxed">
                     {(() => {
                       const paragraph = localeObj?.cookieconsent?.paragraph || '';
                       return (

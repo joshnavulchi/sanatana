@@ -107,7 +107,7 @@ export default function SimilarCategories({
               </h6>
               <ul>
                 {category.links.map((link) => (
-                  <li key={link.key} className="text-gray-700">
+                  <li key={link.key} className="">
                     <Link href={link.href} className="hover:underline">
                       {link.label}
                     </Link>

@@ -73,11 +73,11 @@ export default function UnderstandingOfSanatana() {
                 <div className="h-px w-16 bg-gradient-to-l from-transparent to-amber-400" />
               </div>
 
-              <h5 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-amber-600 via-orange-500 to-amber-600 bg-clip-text text-transparent my-6">
+              <h5 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-amber-600 via-orange-500 to-amber-600 bg-clip-text my-6">
                 {section.title}
               </h5>
 
-              <p className="text-lg text-gray-700 mb-6">
+              <p className="text-lg  mb-6">
                 {section.content}
               </p>
 
