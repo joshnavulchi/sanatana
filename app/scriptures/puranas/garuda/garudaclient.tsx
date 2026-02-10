@@ -182,7 +182,7 @@ export default function PuranasGarudaClient() {
     <PageLayout
       metaKey="puranas_garuda"
       title={renderTitle}
-      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'puranas', href: '/scriptures/puranas/garuda' }, { label: 'Garuda' }]}
+      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'puranas', href: '/scriptures/puranas' }, { label: 'Garuda' }]}
       className="layout-md bg-gradient-to-br from-yellow-50 via-amber-100 to-orange-50 min-h-screen py-12 px-4 md:px-12 lg:px-24 border-l-8 border-amber-400 shadow-2xl"
     >
       <TextToSpeech sectionId="puranas-garuda-content" className="floating" />
