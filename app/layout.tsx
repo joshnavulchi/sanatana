@@ -7,7 +7,7 @@ import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '../lib/i18n';
 import { buildOrganizationJsonLd, buildWebSiteJsonLd, renderJsonLdScript } from '../lib/jsonld';
 import { secrets } from '../lib/secrets';
 import CookieConsent from './components/cookie-consent/CookieConsent';
-import DigitalClockLoader from './components/digitalclock/DigitalClockLoader';
+
 import Footer from './components/footer/footer';
 import Header from './components/header/header';
 import TopProgress from './components/progress/TopProgress';
@@ -239,7 +239,6 @@ export default async function RootLayout({
               <Suspense fallback={null}>
                 <Footer />
               </Suspense>
-              <DigitalClockLoader />
               <ScrollToTop />
               <CookieConsent />
               <WebVitalsReporter />

@@ -131,7 +131,7 @@ export default function DonateClient() {
 
         {/* Donate */}
         <section className="relative">
-          <div className="bg-gradient-to-br from-white via-amber-50/50 to-orange-50/50 dark:from-gray-900 dark:via-amber-950/20 dark:to-orange-950/20 rounded-3xl shadow-2xl border-2 border-amber-200 dark:border-amber-800 p-8 md:p-12 overflow-hidden">
+          <div className="bg-gradient-to-br from-white via-amber-50/50 to-orange-50/50    rounded-3xl shadow-2xl border-2 border-amber-200  p-8 md:p-12 overflow-hidden">
             <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iMiIgZmlsbD0iI0ZCOTIzQyIgZmlsbC1vcGFjaXR5PSIwLjEiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JpZCkiLz48L3N2Zz4=')] opacity-50" />
             <div className="relative z-10">
               <div className="text-center mb-10">
@@ -140,13 +140,13 @@ export default function DonateClient() {
                     <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
                   </svg>
                 </div>
-                <h5 className="text-3xl md:text-4xl font-bold text-amber-900 dark:text-amber-100 mb-3">{donate.donateOptions?.oneTime?.heading}</h5>
-                <p className="text-lg text-gray-600 dark:text-gray-400">{donate.donateOptions?.oneTime?.note}</p>
+                <h5 className="text-3xl md:text-4xl font-bold text-amber-900  mb-3">{donate.donateOptions?.oneTime?.heading}</h5>
+                <p className="text-lg text-gray-600 ">{donate.donateOptions?.oneTime?.note}</p>
               </div>
 
               <div className="flex flex-col md:flex-row items-center justify-center gap-12 my-12">
                 <div className="group">
-                  <div className="bg-white dark:bg-gray-800 rounded-3xl shadow-xl p-8 border-2 border-amber-200 dark:border-amber-800 hover:border-amber-400 dark:hover:border-amber-600 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-2xl">
+                  <div className="bg-white  rounded-3xl shadow-xl p-8 border-2 border-amber-200  hover:border-amber-400  transition-all duration-300 transform hover:-translate-y-2 hover:shadow-2xl">
                     <div className="text-center mb-4">
                       <span className="inline-block px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white text-sm font-bold rounded-full shadow-md">PayPal</span>
                     </div>
@@ -170,7 +170,7 @@ export default function DonateClient() {
                 </div>
 
                 <div className="group">
-                  <div className="bg-white dark:bg-gray-800 rounded-3xl shadow-xl p-8 border-2 border-amber-200 dark:border-amber-800 hover:border-amber-400 dark:hover:border-amber-600 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-2xl">
+                  <div className="bg-white  rounded-3xl shadow-xl p-8 border-2 border-amber-200  hover:border-amber-400  transition-all duration-300 transform hover:-translate-y-2 hover:shadow-2xl">
                     <div className="text-center mb-4">
                       <span className="inline-block px-4 py-2 bg-gradient-to-r from-purple-500 to-purple-600 text-white text-sm font-bold rounded-full shadow-md">UPI</span>
                     </div>

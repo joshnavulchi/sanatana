@@ -182,7 +182,7 @@ export default function PuranasKarmaClient() {
     <PageLayout
       metaKey="puranas_karma"
       title={renderTitle}
-      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Puranas', href: '/scriptures/puranas/karma' }, { label: 'Karma' }]}
+      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Puranas', href: '/scriptures/puranas' }, { label: 'Karma' }]}
       className="layout-md bg-gradient-to-br from-yellow-50 via-amber-100 to-orange-50 min-h-screen py-12 px-4 md:px-12 lg:px-24 border-l-8 border-amber-400 shadow-2xl"
     >
       <TextToSpeech sectionId="puranas-karma-content" className="floating" />

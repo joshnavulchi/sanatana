@@ -169,39 +169,39 @@ export default function WorldTransformationContent() {
               {pageContent.decades.map((d: any, idx: number) => (
                 <div key={d.key ?? d.decade ?? d.label ?? idx} className="relative">
                   {/* Timeline dot */}
-                  <div className="hidden md:block absolute left-6 top-6 w-6 h-6 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full border-4 border-white dark:border-gray-900 shadow-lg z-10" />
+                  <div className="hidden md:block absolute left-6 top-6 w-6 h-6 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full border-4 border-white  shadow-lg z-10" />
 
                   {/* Decade card */}
-                  <div className="md:ml-20 bg-white dark:bg-gray-800 border-2 border-blue-100 dark:border-blue-900/30 hover:border-blue-300 dark:hover:border-blue-700 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group">
+                  <div className="md:ml-20 bg-white  border-2 border-blue-100  hover:border-blue-300  rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group">
                     <div className="flex items-start justify-between gap-4 mb-4">
-                      <h4 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                      <h4 className="text-xl font-bold text-gray-900  group-hover:text-blue-600  transition-colors">
                         {d.decade ?? d.label ?? d.title ?? `Decade ${idx + 1}`}
                       </h4>
-                      <span className="flex-shrink-0 px-3 py-1 bg-gradient-to-r from-blue-100 to-indigo-100 dark:from-blue-900/50 dark:to-indigo-900/50 text-blue-700 dark:text-blue-300 text-sm font-semibold rounded-full">
+                      <span className="flex-shrink-0 px-3 py-1 bg-gradient-to-r from-blue-100 to-indigo-100   text-blue-700  text-sm font-semibold rounded-full">
                         #{idx + 1}
                       </span>
                     </div>
 
                     {d.theme && (
-                      <p className="text-gray-600 dark:text-gray-400 italic mb-3 flex items-start gap-2">
+                      <p className="text-gray-600  italic mb-3 flex items-start gap-2">
                         <span className="text-lg">💭</span>
                         <span className="flex-1">{d.theme}</span>
                       </p>
                     )}
 
                     {d.summary && (
-                      <p className=" dark:text-gray-300 leading-relaxed mb-4">{d.summary}</p>
+                      <p className="  leading-relaxed mb-4">{d.summary}</p>
                     )}
 
                     {d.whatChanged && Array.isArray(d.whatChanged) && d.whatChanged.length > 0 && (
                       <div className="mb-4">
-                        <h5 className="text-sm font-bold text-gray-900 dark:text-white mb-2 flex items-center gap-2">
+                        <h5 className="text-sm font-bold text-gray-900  mb-2 flex items-center gap-2">
                           <span>🔄</span>
                           What Changed:
                         </h5>
                         <ul className="space-y-2">
                           {d.whatChanged.map((w: string, i: number) => (
-                            <li key={i} className="flex items-start gap-2 text-sm  dark:text-gray-300">
+                            <li key={i} className="flex items-start gap-2 text-sm  ">
                               <span className="text-blue-500 mt-1">•</span>
                               <span className="flex-1">{w}</span>
                             </li>
@@ -211,14 +211,14 @@ export default function WorldTransformationContent() {
                     )}
 
                     {d.why && Array.isArray(d.why) && d.why.length > 0 && (
-                      <div className="mb-4 pt-4 border-t border-gray-200 dark:border-gray-700">
-                        <h5 className="text-sm font-bold text-gray-900 dark:text-white mb-2 flex items-center gap-2">
+                      <div className="mb-4 pt-4 border-t border-gray-200 ">
+                        <h5 className="text-sm font-bold text-gray-900  mb-2 flex items-center gap-2">
                           <span>❓</span>
                           Why:
                         </h5>
                         <ul className="space-y-2">
                           {d.why.map((w: string, i: number) => (
-                            <li key={i} className="flex items-start gap-2 text-sm  dark:text-gray-300">
+                            <li key={i} className="flex items-start gap-2 text-sm  ">
                               <span className="text-indigo-500 mt-1">•</span>
                               <span className="flex-1">{w}</span>
                             </li>
@@ -228,7 +228,7 @@ export default function WorldTransformationContent() {
                     )}
 
                     {d.svgOverlay && (
-                      <div className="pt-4 border-t border-gray-200 dark:border-gray-700">
+                      <div className="pt-4 border-t border-gray-200 ">
                         <label className="inline-flex items-center gap-3 cursor-pointer group/checkbox">
                           <input
                             type="checkbox"
@@ -236,7 +236,7 @@ export default function WorldTransformationContent() {
                             onChange={() => setSelectedDecade(selectedDecade === idx ? null : idx)}
                             className="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
                           />
-                          <span className="text-sm font-medium  dark:text-gray-300 group-hover/checkbox:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                          <span className="text-sm font-medium   group-hover/checkbox:text-blue-600  transition-colors">
                             {selectedDecade === idx ? '✓ Shown on map' : '🗺️ Show on map'}
                           </span>
                         </label>

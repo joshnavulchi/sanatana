@@ -150,7 +150,7 @@ export default function ContactForm({ fields, submitButton }: Props) {
           <button
             type="submit"
             disabled={submitting}
-            className="w-full group relative overflow-hidden px-8 py-4 bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 hover:from-amber-600 hover:via-orange-600 hover:to-amber-600 text-white dark:text-amber-100 font-bold text-lg rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+            className="w-full group relative overflow-hidden px-8 py-4 bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 hover:from-amber-600 hover:via-orange-600 hover:to-amber-600 text-white  font-bold text-lg rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
           >
             <span className="relative z-10 flex items-center justify-center gap-3">
               {submitting ? (

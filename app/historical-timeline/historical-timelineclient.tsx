@@ -201,7 +201,7 @@ export default function HistoricalTimeline() {
       <TextToSpeech sectionId="timeline-content" className="floating" />
       <div id="timeline-content" className="space-y-12">
         {/* Hero description */}
-        <div className="relative md:-mx-8 px-6 md:px-8 py-12 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 dark:from-amber-950/30 dark:via-orange-950/30 dark:to-amber-950/30 rounded-2xl overflow-hidden">
+        <div className="relative md:-mx-8 px-6 md:px-8 py-12 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50    rounded-2xl overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl" />
           <div className="absolute bottom-0 left-0 w-80 h-80 bg-orange-400/10 rounded-full blur-3xl" />
 
@@ -212,7 +212,7 @@ export default function HistoricalTimeline() {
               <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-500" />
             </div>
 
-            <p className="text-lg md:text-xl  dark:text-gray-300 leading-relaxed">
+            <p className="text-lg md:text-xl   leading-relaxed">
               {timeline.description}
             </p>
           </div>
@@ -220,8 +220,8 @@ export default function HistoricalTimeline() {
 
         {/* Introduction */}
         {timeline.intro && (
-          <div className="bg-gradient-to-br from-white to-amber-50/30 dark:from-gray-800 dark:to-amber-950/20 border-2 border-amber-100 dark:border-amber-900/30 rounded-2xl p-6 md:p-8 shadow-lg">
-            <p className=" dark:text-gray-300 leading-relaxed">{timeline.intro.summary}</p>
+          <div className="bg-gradient-to-br from-white to-amber-50/30   border-2 border-amber-100  rounded-2xl p-6 md:p-8 shadow-lg">
+            <p className="  leading-relaxed">{timeline.intro.summary}</p>
           </div>
         )}
 
@@ -237,25 +237,25 @@ export default function HistoricalTimeline() {
                 {section.id === 'definitions' && section.items && (
                   <div className="flex flex-wrap gap-6">
                     {section.items.map((item: any, i: number) => (
-                      <div key={i} className="bg-white dark:bg-gray-800 border-l-4 border-amber-500 rounded-lg p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                      <div key={i} className="bg-white  border-l-4 border-amber-500 rounded-lg p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                         <div className="flex items-start gap-3 mb-4">
                           <span className="text-2xl">📅</span>
                           <div className="flex-1">
-                            <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-1">{item.term}</h4>
-                            <p className="text-sm text-amber-800 dark:text-amber-200 font-semibold">{item.fullForm}</p>
+                            <h4 className="text-xl font-bold text-gray-900  mb-1">{item.term}</h4>
+                            <p className="text-sm text-amber-800  font-semibold">{item.fullForm}</p>
                           </div>
                         </div>
 
                         <div className="space-y-2 text-sm">
-                          <p className=" dark:text-gray-300"><strong className="text-amber-800 dark:text-amber-200">Time Period:</strong> {item.timePeriod}</p>
-                          <p className=" dark:text-gray-300"><strong className="text-amber-800 dark:text-amber-200">Counting Direction:</strong> {item.countingDirection}</p>
-                          <p className=" dark:text-gray-300"><strong className="text-amber-800 dark:text-amber-200">Equivalent To:</strong> {item.equivalentTo}</p>
+                          <p className=" "><strong className="text-amber-800 ">Time Period:</strong> {item.timePeriod}</p>
+                          <p className=" "><strong className="text-amber-800 ">Counting Direction:</strong> {item.countingDirection}</p>
+                          <p className=" "><strong className="text-amber-800 ">Equivalent To:</strong> {item.equivalentTo}</p>
                           {item.examples && (
-                            <div className="mt-3 pt-3 border-t border-gray-200 dark:border-gray-700">
-                              <strong className="text-gray-900 dark:text-white">Examples:</strong>
+                            <div className="mt-3 pt-3 border-t border-gray-200 ">
+                              <strong className="text-gray-900 ">Examples:</strong>
                               <ul className="list-none space-y-1 mt-2">
                                 {item.examples.map((ex: string, j: number) => (
-                                  <li key={j} className="flex items-start gap-2 text-gray-600 dark:text-gray-400">
+                                  <li key={j} className="flex items-start gap-2 text-gray-600 ">
                                     <span className="text-amber-500 mt-1">•</span>
                                     <span className="flex-1">{ex}</span>
                                   </li>
@@ -267,14 +267,14 @@ export default function HistoricalTimeline() {
                       </div>
                     ))}
                     {section.notes && (
-                      <div className="w-full bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-950/30 dark:to-orange-950/30 border-2 border-amber-200 dark:border-amber-800 rounded-lg p-6">
+                      <div className="w-full bg-gradient-to-br from-amber-50 to-orange-50   border-2 border-amber-200  rounded-lg p-6">
                         <div className="flex items-start gap-3">
                           <span className="text-2xl">📝</span>
                           <div className="flex-1">
-                            <strong className="text-lg text-gray-900 dark:text-white block mb-3">Notes:</strong>
+                            <strong className="text-lg text-gray-900  block mb-3">Notes:</strong>
                             <ul className="space-y-2">
                               {section.notes.map((note: string, i: number) => (
-                                <li key={i} className="flex items-start gap-2  dark:text-gray-300">
+                                <li key={i} className="flex items-start gap-2  ">
                                   <span className="text-amber-500 mt-1">•</span>
                                   <span className="flex-1">{note}</span>
                                 </li>
@@ -335,7 +335,7 @@ export default function HistoricalTimeline() {
                         <strong>Sequence Example:</strong>
                         <div className="flex gap-2 flex-wrap mt-2">
                           {section.sequenceExample.map((year: string, i: number) => (
-                            <span key={i} className="px-3 py-1 bg-blue-100 dark:bg-blue-900 rounded">
+                            <span key={i} className="px-3 py-1 bg-blue-100  rounded">
                               {year}
                             </span>
                           ))}
@@ -353,7 +353,7 @@ export default function HistoricalTimeline() {
                       </div>
                     )}
                     {section.commonMistakes && (
-                      <div className="p-4 bg-yellow-100 dark:bg-yellow-900 rounded">
+                      <div className="p-4 bg-yellow-100 rounded">
                         <strong>Common Mistakes:</strong>
                         <ul className="list-disc ml-6 mt-2">
                           {section.commonMistakes.map((mistake: string, i: number) => (
@@ -382,7 +382,7 @@ export default function HistoricalTimeline() {
                       <div className="mb-4">
                         <strong>Worked Examples:</strong>
                         {section.workedExamples.map((ex: any, i: number) => (
-                          <div key={i} className="mb-2 p-3 bg-gray-100 dark:bg-gray-800 rounded">
+                          <div key={i} className="mb-2 p-3 bg-gray-100  rounded">
                             <strong>{ex.label}:</strong> {ex.explanation}
                             <br />
                             <span className="text-primary font-bold">Duration: {ex.years} years</span>
@@ -415,7 +415,7 @@ export default function HistoricalTimeline() {
                       ))}
                     </div>
                     {section.note && (
-                      <div className="mt-4 p-4 bg-gray-100 dark:bg-gray-800 rounded">
+                      <div className="mt-4 p-4 bg-gray-100  rounded">
                         <strong>Note:</strong> {section.note}
                       </div>
                     )}
@@ -453,7 +453,7 @@ export default function HistoricalTimeline() {
                       </div>
                     )}
                     {section.note && (
-                      <div className="p-4 bg-blue-100 dark:bg-blue-900 rounded">
+                      <div className="p-4 bg-blue-100  rounded">
                         <strong>Note:</strong> {section.note}
                       </div>
                     )}
@@ -470,7 +470,7 @@ export default function HistoricalTimeline() {
             <h3>Visual Timeline</h3>
             <div className="mb-6">
               <p className="mb-2"><strong>{timeline.diagrams.ascii.caption}</strong></p>
-              <pre className="p-4 bg-gray-100 dark:bg-gray-900 rounded overflow-x-auto">
+              <pre className="p-4 bg-gray-100  rounded overflow-x-auto">
                 {timeline.diagrams.ascii.art}
               </pre>
             </div>

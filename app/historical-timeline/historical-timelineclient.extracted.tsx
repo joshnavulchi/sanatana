@@ -110,13 +110,13 @@ const Region = ({
   return <div className="mb-8">
     {/* Region header */}
     <div className="flex items-center gap-3 mb-4">
-      <div className="w-12 h-12 bg-gradient-to-br from-amber-100 to-orange-100 dark:from-amber-900/50 dark:to-orange-900/50 rounded-xl flex items-center justify-center text-2xl shadow-md">
+      <div className="w-12 h-12 bg-gradient-to-br from-amber-100 to-orange-100   rounded-xl flex items-center justify-center text-2xl shadow-md">
         {regionIcons[title] || '👑'}
       </div>
-      <h4 className="text-2xl font-bold text-gray-900 dark:text-white">{title}</h4>
+      <h4 className="text-2xl font-bold text-gray-900 ">{title}</h4>
     </div>
 
-    {data.description && <p className=" dark:text-gray-300 leading-relaxed mb-6 pl-15">{data.description}</p>}
+    {data.description && <p className="  leading-relaxed mb-6 pl-15">{data.description}</p>}
 
     {/* Rulers timeline */}
     <div className="relative pl-8 space-y-4">
@@ -125,32 +125,32 @@ const Region = ({
 
       {data.rulers.map((ruler: Ruler, i: number) => <div key={i} className="relative group">
         {/* Timeline dot */}
-        <div className="absolute -left-5 top-4 w-4 h-4 bg-gradient-to-br from-amber-500 to-orange-600 rounded-full border-4 border-white dark:border-gray-900 shadow-lg group-hover:scale-125 transition-transform duration-300" />
+        <div className="absolute -left-5 top-4 w-4 h-4 bg-gradient-to-br from-amber-500 to-orange-600 rounded-full border-4 border-white  shadow-lg group-hover:scale-125 transition-transform duration-300" />
 
         {/* Ruler card */}
         <div className="
-              bg-white dark:bg-gray-800
-              border-2 border-amber-100 dark:border-amber-900/30
-              hover:border-amber-300 dark:hover:border-amber-700
+              bg-white 
+              border-2 border-amber-100 
+              hover:border-amber-300 
               rounded-xl
               p-5
               shadow-md hover:shadow-xl
               transition-all duration-300
               transform hover:-translate-y-1
             ">
-          <h5 className="text-lg font-bold text-gray-900 dark:text-white mb-3 flex items-center gap-2">
+          <h5 className="text-lg font-bold text-gray-900  mb-3 flex items-center gap-2">
             <span className="text-xl">👑</span>
             {ruler.name}
           </h5>
 
           <div className="space-y-2 text-sm">
-            {ruler.dynasty && <p className=" dark:text-gray-300">
-              <strong className="text-amber-800 dark:text-amber-200">{historical_timeline_meta_page.dynasty}</strong> {ruler.dynasty}
+            {ruler.dynasty && <p className=" ">
+              <strong className="text-amber-800 ">{historical_timeline_meta_page.dynasty}</strong> {ruler.dynasty}
             </p>}
-            <p className=" dark:text-gray-300">
-              <strong className="text-amber-800 dark:text-amber-200">{historical_timeline_meta_page.reign}</strong> {ruler.reign}
+            <p className=" ">
+              <strong className="text-amber-800 ">{historical_timeline_meta_page.reign}</strong> {ruler.reign}
             </p>
-            {ruler.notes && <p className="text-gray-600 dark:text-gray-400 italic mt-3 pt-3 border-t border-gray-200 dark:border-gray-700">
+            {ruler.notes && <p className="text-gray-600  italic mt-3 pt-3 border-t border-gray-200 ">
               {ruler.notes}
             </p>}
           </div>
@@ -234,7 +234,7 @@ export default function HistoricalTimeline() {
     <TextToSpeech sectionId="timeline-content" className="floating" />
     <div id="timeline-content" className="space-y-12">
       {/* Hero description */}
-      <div className="relative md:-mx-8 px-6 md:px-8 py-12 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 dark:from-amber-950/30 dark:via-orange-950/30 dark:to-amber-950/30 rounded-2xl overflow-hidden">
+      <div className="relative md:-mx-8 px-6 md:px-8 py-12 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50    rounded-2xl overflow-hidden">
         <div className="absolute top-0 right-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl" />
         <div className="absolute bottom-0 left-0 w-80 h-80 bg-orange-400/10 rounded-full blur-3xl" />
 
@@ -245,15 +245,15 @@ export default function HistoricalTimeline() {
             <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-500" />
           </div>
 
-          <p className="text-lg md:text-xl  dark:text-gray-300 leading-relaxed">
+          <p className="text-lg md:text-xl   leading-relaxed">
             {timeline.description}
           </p>
         </div>
       </div>
 
       {/* Introduction */}
-      {timeline.intro && <div className="bg-gradient-to-br from-white to-amber-50/30 dark:from-gray-800 dark:to-amber-950/20 border-2 border-amber-100 dark:border-amber-900/30 rounded-2xl p-6 md:p-8 shadow-lg">
-        <p className=" dark:text-gray-300 leading-relaxed">{timeline.intro.summary}</p>
+      {timeline.intro && <div className="bg-gradient-to-br from-white to-amber-50/30   border-2 border-amber-100  rounded-2xl p-6 md:p-8 shadow-lg">
+        <p className="  leading-relaxed">{timeline.intro.summary}</p>
       </div>}
 
       {/* Main Content Sections */}
@@ -264,23 +264,23 @@ export default function HistoricalTimeline() {
 
           {/* Definitions Section */}
           {section.id === 'definitions' && section.items && <div className="flex flex-wrap gap-6">
-            {section.items.map((item: any, i: number) => <div key={i} className="bg-white dark:bg-gray-800 border-l-4 border-amber-500 rounded-lg p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+            {section.items.map((item: any, i: number) => <div key={i} className="bg-white  border-l-4 border-amber-500 rounded-lg p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
               <div className="flex items-start gap-3 mb-4">
                 <span className="text-2xl">📅</span>
                 <div className="flex-1">
-                  <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-1">{item.term}</h4>
-                  <p className="text-sm text-amber-800 dark:text-amber-200 font-semibold">{item.fullForm}</p>
+                  <h4 className="text-xl font-bold text-gray-900  mb-1">{item.term}</h4>
+                  <p className="text-sm text-amber-800  font-semibold">{item.fullForm}</p>
                 </div>
               </div>
 
               <div className="space-y-2 text-sm">
-                <p className=" dark:text-gray-300"><strong className="text-amber-800 dark:text-amber-200">{historical_timeline_meta_page.time_period}</strong> {item.timePeriod}</p>
-                <p className=" dark:text-gray-300"><strong className="text-amber-800 dark:text-amber-200">{historical_timeline_meta_page.counting_directio}</strong> {item.countingDirection}</p>
-                <p className=" dark:text-gray-300"><strong className="text-amber-800 dark:text-amber-200">{historical_timeline_meta_page.equivale}</strong> {item.equivalentTo}</p>
-                {item.examples && <div className="mt-3 pt-3 border-t border-gray-200 dark:border-gray-700">
-                  <strong className="text-gray-900 dark:text-white">{historical_timeline_meta_page.examples}</strong>
+                <p className=" "><strong className="text-amber-800 ">{historical_timeline_meta_page.time_period}</strong> {item.timePeriod}</p>
+                <p className=" "><strong className="text-amber-800 ">{historical_timeline_meta_page.counting_directio}</strong> {item.countingDirection}</p>
+                <p className=" "><strong className="text-amber-800 ">{historical_timeline_meta_page.equivale}</strong> {item.equivalentTo}</p>
+                {item.examples && <div className="mt-3 pt-3 border-t border-gray-200 ">
+                  <strong className="text-gray-900 ">{historical_timeline_meta_page.examples}</strong>
                   <ul className="list-none space-y-1 mt-2">
-                    {item.examples.map((ex: string, j: number) => <li key={j} className="flex items-start gap-2 text-gray-600 dark:text-gray-400">
+                    {item.examples.map((ex: string, j: number) => <li key={j} className="flex items-start gap-2 text-gray-600 ">
                       <span className="text-amber-500 mt-1">•</span>
                       <span className="flex-1">{ex}</span>
                     </li>)}
@@ -288,13 +288,13 @@ export default function HistoricalTimeline() {
                 </div>}
               </div>
             </div>)}
-            {section.notes && <div className="w-full bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-950/30 dark:to-orange-950/30 border-2 border-amber-200 dark:border-amber-800 rounded-lg p-6">
+            {section.notes && <div className="w-full bg-gradient-to-br from-amber-50 to-orange-50   border-2 border-amber-200  rounded-lg p-6">
               <div className="flex items-start gap-3">
                 <span className="text-2xl">📝</span>
                 <div className="flex-1">
-                  <strong className="text-lg text-gray-900 dark:text-white block mb-3">{historical_timeline_meta_page.notes}</strong>
+                  <strong className="text-lg text-gray-900  block mb-3">{historical_timeline_meta_page.notes}</strong>
                   <ul className="space-y-2">
-                    {section.notes.map((note: string, i: number) => <li key={i} className="flex items-start gap-2  dark:text-gray-300">
+                    {section.notes.map((note: string, i: number) => <li key={i} className="flex items-start gap-2  ">
                       <span className="text-amber-500 mt-1">•</span>
                       <span className="flex-1">{note}</span>
                     </li>)}
@@ -335,7 +335,7 @@ export default function HistoricalTimeline() {
             {section.sequenceExample && <div className="mb-4">
               <strong>{historical_timeline_meta_page.sequence_example}</strong>
               <div className="flex gap-2 flex-wrap mt-2">
-                {section.sequenceExample.map((year: string, i: number) => <span key={i} className="px-3 py-1 bg-blue-100 dark:bg-blue-900 rounded">
+                {section.sequenceExample.map((year: string, i: number) => <span key={i} className="px-3 py-1 bg-blue-100 rounded">
                   {year}
                 </span>)}
               </div>
@@ -346,7 +346,7 @@ export default function HistoricalTimeline() {
                 {section.implications.map((imp: string, i: number) => <li key={i}>{imp}</li>)}
               </ul>
             </div>}
-            {section.commonMistakes && <div className="p-4 bg-yellow-100 dark:bg-yellow-900 rounded">
+            {section.commonMistakes && <div className="p-4 bg-yellow-100 rounded">
               <strong>{historical_timeline_meta_page.common_mistakes}</strong>
               <ul className="list-disc ml-6 mt-2">
                 {section.commonMistakes.map((mistake: string, i: number) => <li key={i}>{mistake}</li>)}
@@ -364,7 +364,7 @@ export default function HistoricalTimeline() {
             </div>}
             {section.workedExamples && <div className="mb-4">
               <strong>{historical_timeline_meta_page.worked_examples}</strong>
-              {section.workedExamples.map((ex: any, i: number) => <div key={i} className="mb-2 p-3 bg-gray-100 dark:bg-gray-800 rounded">
+              {section.workedExamples.map((ex: any, i: number) => <div key={i} className="mb-2 p-3 bg-gray-100  rounded">
                 <strong>{ex.label}:</strong> {ex.explanation}
                 <br />
                 <span className="text-primary font-bold">{historical_timeline_meta_page.duration} {ex.years} {historical_timeline_meta_page.years}</span>
@@ -386,7 +386,7 @@ export default function HistoricalTimeline() {
                 <span className="font-bold text-primary">{ex.year}</span>
               </div>)}
             </div>
-            {section.note && <div className="mt-4 p-4 bg-gray-100 dark:bg-gray-800 rounded">
+            {section.note && <div className="mt-4 p-4 bg-gray-100  rounded">
               <strong>{historical_timeline_meta_page.note}</strong> {section.note}
             </div>}
           </div>}
@@ -412,7 +412,7 @@ export default function HistoricalTimeline() {
                 </div>
               </div>}
             </div>}
-            {section.note && <div className="p-4 bg-blue-100 dark:bg-blue-900 rounded">
+            {section.note && <div className="p-4 bg-blue-100  rounded">
               <strong>{historical_timeline_meta_page.note}</strong> {section.note}
             </div>}
           </div>}
@@ -424,7 +424,7 @@ export default function HistoricalTimeline() {
         <h3>{historical_timeline_meta_page.visual_timeline}</h3>
         <div className="mb-6">
           <p className="mb-2"><strong>{timeline.diagrams.ascii.caption}</strong></p>
-          <pre className="p-4 bg-gray-100 dark:bg-gray-900 rounded overflow-x-auto">
+          <pre className="p-4 bg-gray-100  rounded overflow-x-auto">
             {timeline.diagrams.ascii.art}
           </pre>
         </div>

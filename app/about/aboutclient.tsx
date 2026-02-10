@@ -56,7 +56,7 @@ export default function AboutClient() {
       metaKey="about"
       title={about.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'About' }]}
-      className="layout-md"
+      className="layout-sm"
     >
       {/* Text-to-Speech Player */}
       <TextToSpeech sectionId="about-content" className="floating" />
@@ -143,7 +143,7 @@ export default function AboutClient() {
 
                 {/* Section text */}
                 {section?.text && (
-                  <p className="text-base md:text-lg  dark:text-amber-100 leading-relaxed pl-16">
+                  <p className="text-base md:text-lg   leading-relaxed pl-16">
                     {section.text}
                   </p>
                 )}
@@ -157,7 +157,7 @@ export default function AboutClient() {
                         className="
                           relative
                           flex items-start gap-3
-                           dark:text-amber-100
+                           
                           leading-relaxed
                         "
                       >
@@ -183,19 +183,19 @@ export default function AboutClient() {
           <div className="
             relative
             bg-gradient-to-br from-amber-50 to-orange-50
-            dark:from-gray-900 dark:to-gray-900
+             
             border-l-4 border-amber-500
             rounded-lg
             p-6 md:p-8
             mt-12
             shadow-lg
-            dark:text-amber-100
+            
           ">
             <div className="flex items-start gap-4">
               <span className="text-3xl">⚠️</span>
               <div className="flex-1">
-                <h4 className="text-xl font-bold text-gray-900 dark:text-amber-100 mb-2">Disclaimer</h4>
-                <p className=" dark:text-amber-100 leading-relaxed">
+                <h4 className="text-xl font-bold text-gray-900  mb-2">Disclaimer</h4>
+                <p className="  leading-relaxed">
                   {about.disclaimer}
                 </p>
               </div>
