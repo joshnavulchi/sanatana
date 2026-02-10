@@ -86,19 +86,19 @@ export default function BannerNotifications({ id, message, marquee, showClose = 
   const { and } = links || "";
 
   return (
-    <div className={`${styles.notifictionbar} text-gray-900 dark:text-amber-100`}> 
+    <div className={`${styles.notifictionbar} text-gray-900 `}>
       {showClose ? (
-        <button aria-label="Close notification" onClick={closeBanner} className="absolute right-2 top-1/2 -translate-y-1/2 rounded bg-white dark:bg-gray-900 text-red-600 dark:text-amber-200 shadow-md">×</button>
+        <button aria-label="Close notification" onClick={closeBanner} className="absolute right-2 top-1/2 -translate-y-1/2 rounded bg-white  text-red-600  shadow-md">×</button>
       ) : null}
       {marquee === "true" ? <Marquee id={id}>
-        <span className="text-gray-900 dark:text-amber-100">{title}</span>
-        {alive ? <Link href={alive} title="Make a small donation!" className="underline underline-text-color text-blue-700 dark:text-blue-300">alive</Link> : null}
-        {lbeforetext && iam && lbetweentext && laftertext ? <> {lbeforetext} <Link href={iam} target="_blank" title="Vulchi Vijaya Kumar Raju" className="underline underline-text-color text-blue-700 dark:text-blue-300">Iam</Link>
-          {lbetweentext} <Link href={githubcopilot} target="_blank" title="Github Copilot" className="underline underline-text-color text-blue-700 dark:text-blue-300">Github Copilot</Link>
-          {and} <Link href={chatgpt} title="ChatGPT" target="_blank" className="underline underline-text-color text-blue-700 dark:text-blue-300"> ChatGPT</Link>
+        <span className="text-gray-900 ">{title}</span>
+        {alive ? <Link href={alive} title="Make a small donation!" className="underline underline-text-color text-blue-700 ">alive</Link> : null}
+        {lbeforetext && iam && lbetweentext && laftertext ? <> {lbeforetext} <Link href={iam} target="_blank" title="Vulchi Vijaya Kumar Raju" className="underline underline-text-color text-blue-700 ">Iam</Link>
+          {lbetweentext} <Link href={githubcopilot} target="_blank" title="Github Copilot" className="underline underline-text-color text-blue-700 ">Github Copilot</Link>
+          {and} <Link href={chatgpt} title="ChatGPT" target="_blank" className="underline underline-text-color text-blue-700 "> ChatGPT</Link>
           {laftertext} </> : null}
-        <span className="text-gray-900 dark:text-amber-100">{subtitle}</span>
-      </Marquee> : <div className="flex items-center justify-center text-gray-900 dark:text-amber-100">{title} {subtitle}</div>}
+        <span className="text-gray-900 ">{subtitle}</span>
+      </Marquee> : <div className="flex items-center justify-center text-gray-900 ">{title} {subtitle}</div>}
     </div >
   )
 }

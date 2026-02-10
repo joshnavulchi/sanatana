@@ -25,10 +25,10 @@ export default function DharmaClient() {
       metaKey="philosophy_dharma"
       title={title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Philosophy', href: '/philosophy' }, { label: 'Dharma' }]}
-      className="layout-md bg-gradient-to-br from-yellow-50 via-amber-100 to-orange-50 dark:from-gray-900 dark:via-amber-900 dark:to-orange-900 min-h-screen py-12 px-4 md:px-12 lg:px-24 border-l-8 border-amber-400 shadow-2xl"
+      className="layout-md bg-gradient-to-br from-yellow-50 via-amber-100 to-orange-50    min-h-screen py-12 px-4 md:px-12 lg:px-24 border-l-8 border-amber-400 shadow-2xl"
     >
       <TextToSpeech sectionId="philosophy-dharma-content" className="floating" />
-      <div id="philosophy-dharma-content" className="rounded-xl shadow-xl border-2 border-amber-200/60 bg-white/80 dark:bg-gray-900/60 p-6 md:p-10 lg:p-14 space-y-8">
+      <div id="philosophy-dharma-content" className="rounded-xl shadow-xl border-2 border-amber-200/60 bg-white/80  p-6 md:p-10 lg:p-14 space-y-8">
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Main Content */}
           <div className="w-full lg:w-3/4 space-y-6">

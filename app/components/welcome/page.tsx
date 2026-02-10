@@ -69,9 +69,9 @@ export default function WelcomePage() {
 
           {/* Content container */}
           <div className="
-            bg-gradient-to-br from-amber-50/80 via-orange-50/50 to-yellow-50/80 dark:from-gray-900/80 dark:via-amber-950/40 dark:to-orange-950/40
+            bg-gradient-to-br from-amber-50/80 via-orange-50/50 to-yellow-50/80 /80  
             backdrop-blur-sm
-            border border-amber-200/50 dark:border-amber-900/40
+            border border-amber-200/50 
             rounded-2xl
             shadow-2xl shadow-amber-500/10
             p-8 md:p-12
@@ -101,14 +101,14 @@ export default function WelcomePage() {
 
               {/* Welcome title */}
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold
-                bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700 dark:from-amber-300 dark:via-yellow-400 dark:to-orange-300
+                bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700 
                 bg-clip-text tracking-tight leading-tight">
                 Namaste & Welcome
               </h2>
 
               {/* Sanskrit blessing */}
               <p className="text-xl md:text-2xl
-                font-serif italic text-amber-800/80 dark:text-amber-100
+                font-serif italic text-amber-800/80 
                 tracking-wide">
                 स्वागतम् । आपका स्वागत है
               </p>
@@ -122,26 +122,26 @@ export default function WelcomePage() {
 
               {/* Main message */}
               <div className="space-y-4 max-w-2xl mx-auto">
-                <p className="text-lg md:text-xl  dark:text-amber-100 leading-relaxed">
+                <p className="text-lg md:text-xl   leading-relaxed">
                   We are deeply honored and blessed by your presence here.
                 </p>
-                <p className="text-base md:text-lg text-gray-600 dark:text-amber-100 leading-relaxed">
+                <p className="text-base md:text-lg text-gray-600  leading-relaxed">
                   Thank you for taking this sacred step towards understanding and embracing the
-                  <span className="font-semibold text-amber-700 dark:text-amber-200"> eternal truths of Sanātana Dharma</span>
+                  <span className="font-semibold text-amber-700 "> eternal truths of Sanātana Dharma</span>
                   — the timeless wisdom that illuminates the path to inner peace, righteousness, and spiritual awakening.
                 </p>
-                <p className="text-base md:text-lg text-gray-600 dark:text-amber-100 leading-relaxed">
+                <p className="text-base md:text-lg text-gray-600  leading-relaxed">
                   May your journey through these ancient teachings bring you
-                  <span className="font-semibold text-orange-600 dark:text-amber-200"> clarity, devotion, and divine grace</span>.
+                  <span className="font-semibold text-orange-600 "> clarity, devotion, and divine grace</span>.
                 </p>
               </div>
 
               {/* Closing blessing */}
               <div className="pt-6 space-y-2">
-                <p className="text-sm md:text-base text-amber-700 dark:text-amber-200 font-medium tracking-wide">
+                <p className="text-sm md:text-base text-amber-700  font-medium tracking-wide">
                   सत्यमेव जयते । धर्मो रक्षति रक्षितः
                 </p>
-                <p className="text-xs md:text-sm text-gray-400 dark:text-amber-300 italic">
+                <p className="text-xs md:text-sm text-gray-400  italic">
                   Truth Alone Triumphs · Dharma Protects Those Who Protect It
                 </p>
               </div>
@@ -169,19 +169,19 @@ export default function WelcomePage() {
                       transition-all
                     "
                   />
-                  <span className="text-sm text-gray-600 dark:text-amber-100 group-hover:text-amber-700 dark:group-hover:text-amber-300 transition-colors">
+                  <span className="text-sm text-gray-600  group-hover:text-amber-700  transition-colors">
                     Do not show this welcome message again
                   </span>
                 </label>
                 <button
                   onClick={handleClose}
-                  className="cursor-pointer px-10 py-2 rounded-full bg-white/20 dark:bg-gray-900/40 text-amber-700 dark:text-amber-100 font-extrabold border-2 border-white dark:border-amber-900 shadow-2xl shadow-amber-400/40 backdrop-blur-2xl transition-all duration-300 relative overflow-hidden group focus:outline-none focus:ring-4 focus:ring-amber-300/60 active:scale-95 mt-2"
+                  className="cursor-pointer px-10 py-2 rounded-full bg-white/20  text-amber-700  font-extrabold border-2 border-white  shadow-2xl shadow-amber-400/40 backdrop-blur-2xl transition-all duration-300 relative overflow-hidden group focus:outline-none focus:ring-4 focus:ring-amber-300/60 active:scale-95 mt-2"
                   style={{ WebkitBackdropFilter: 'blur(16px)', backdropFilter: 'blur(16px)' }}
                 >
                   <span className="absolute inset-0 rounded-full p-[2px] bg-gradient-to-r from-amber-400 via-orange-400 to-pink-400 blur-sm opacity-80 group-hover:opacity-100 animate-gradient-x" aria-hidden="true" />
                   <span className="absolute inset-0 rounded-full bg-white/40 group-hover:bg-white/60 transition-all duration-300" aria-hidden="true" />
                   <span className="absolute -inset-2 rounded-full bg-amber-200/30 blur-2xl opacity-0 group-hover:opacity-80 transition-all duration-500" aria-hidden="true" />
-                  <span className="relative z-10 tracking-widest drop-shadow-lg text-lg group-hover:text-amber-900 dark:group-hover:text-amber-200 group-active:text-orange-700 transition-colors duration-200 select-none">Close</span>
+                  <span className="relative z-10 tracking-widest drop-shadow-lg text-lg group-hover:text-amber-900  group-active:text-orange-700 transition-colors duration-200 select-none">Close</span>
                 </button>
               </div>
             </div>

@@ -67,8 +67,8 @@ export default function FaqAccordion({ items, heading }: Props) {
                   <span className={`
                     font-semibold text-base md:text-lg leading-relaxed transition-colors duration-300
                     ${open
-                      ? 'text-amber-900 dark:text-amber-100'
-                      : 'text-gray-800 dark:text-amber-100 group-hover:text-amber-700 dark:group-hover:text-amber-200'
+                      ? 'text-amber-900 '
+                      : 'text-gray-800  group-hover:text-amber-700 '
                     }
                   `}>
                     {it.q}
@@ -78,7 +78,7 @@ export default function FaqAccordion({ items, heading }: Props) {
                   flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 transform
                   ${open
                     ? 'bg-gradient-to-br from-amber-500 to-orange-600 text-white rotate-180 shadow-md'
-                    : 'bg-amber-100 dark:bg-amber-900/50 text-amber-800 dark:text-amber-200 group-hover:bg-amber-200 dark:group-hover:bg-amber-900'
+                    : 'bg-amber-100 text-amber-800  group-hover:bg-amber-200 '
                   }
                 `}>
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -95,7 +95,7 @@ export default function FaqAccordion({ items, heading }: Props) {
                 `}
               >
                 <div className="px-6 pb-6 pl-20">
-                  <div className="pt-2  dark:text-amber-100 leading-relaxed whitespace-pre-line border-l-4 border-amber-400 dark:border-amber-600 pl-6 py-3 bg-white/50 dark:bg-gray-800/50 rounded-r-lg">
+                  <div className="pt-2   leading-relaxed whitespace-pre-line border-l-4 border-amber-400 pl-6 py-3 bg-white/50 /50 rounded-r-lg">
                     {it.a}
                   </div>
                 </div>

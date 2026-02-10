@@ -270,12 +270,12 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
                   </div>
                 )}
                 {sunset && (
-                  <div className="flex items-center gap-2 justify-end bg-gradient-to-r from-indigo-200 via-purple-100 to-white dark:from-indigo-900 dark:via-purple-800 dark:to-gray-900 rounded-lg px-2 py-1 shadow-sm mb-1">
-                    <span className="inline-block text-purple-500 dark:text-purple-300">
+                  <div className="flex items-center gap-2 justify-end bg-gradient-to-r from-indigo-200 via-purple-100 to-white    rounded-lg px-2 py-1 shadow-sm mb-1">
+                    <span className="inline-block text-purple-500 ">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 21v-4m0 0a7 7 0 01-7-7h2a5 5 0 0110 0h2a7 7 0 01-7 7zm0 0v4m0 0a7 7 0 007-7h-2a5 5 0 00-10 0H5a7 7 0 007 7z" /></svg>
                     </span>
-                    <span className="font-semibold text-purple-700 dark:text-purple-200">Sunset:</span>
-                    <span className="font-mono text-xs text-purple-800 dark:text-purple-100">{sunset}</span>
+                    <span className="font-semibold text-purple-700 ">Sunset:</span>
+                    <span className="font-mono text-xs text-purple-800 ">{sunset}</span>
                   </div>
                 )}
                 {tithi && <div><span className="font-semibold">Lunar day (Tithi):</span> {tithi}</div>}
