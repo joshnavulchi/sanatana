@@ -8,10 +8,12 @@ import PageLayout from '@/app/components/common/PageLayout';
 export default function BhagavathgitaChapterClientPage({ params }: { params: any }) {
   const { locale } = useLocale();
   const ns = useLocaleSection('scriptures_bhagavathgita');
-  const [chapter, setChapter] = useState<any>(null);
-  const [currentIdx, setCurrentIdx] = useState<number>(-1);
-  const [prevChapter, setPrevChapter] = useState<any>(null);
-  const [nextChapter, setNextChapter] = useState<any>(null);
+  const [chapterState, setChapterState] = useState({
+    chapter: null,
+    currentIdx: -1,
+    prevChapter: null,
+    nextChapter: null,
+  });
 
   useEffect(() => {
     // DEBUG: Log params and ns for troubleshooting
@@ -20,10 +22,25 @@ export default function BhagavathgitaChapterClientPage({ params }: { params: any
       console.log('params:', params, 'ns:', ns);
     }
     if (!ns || !params?.chapter) {
-      setChapter(null);
-      setCurrentIdx(-1);
-      setPrevChapter(null);
-      setNextChapter(null);
+      const newState = {
+        chapter: null,
+        currentIdx: -1,
+        prevChapter: null,
+        nextChapter: null,
+      };
+      setTimeout(() => {
+        setChapterState(prev => {
+          if (
+            prev.chapter !== newState.chapter ||
+            prev.currentIdx !== newState.currentIdx ||
+            prev.prevChapter !== newState.prevChapter ||
+            prev.nextChapter !== newState.nextChapter
+          ) {
+            return newState;
+          }
+          return prev;
+        });
+      }, 0);
       return;
     }
     // Accept both stringified JSON and number for chapter param
@@ -43,10 +60,15 @@ export default function BhagavathgitaChapterClientPage({ params }: { params: any
       }
     }
     if (!Number.isFinite(num) || num < 1 || num > 18) {
-      setChapter(null);
-      setCurrentIdx(-1);
-      setPrevChapter(null);
-      setNextChapter(null);
+      const newState = {
+        chapter: null,
+        currentIdx: -1,
+        prevChapter: null,
+        nextChapter: null,
+      };
+      setTimeout(() => {
+        setChapterState(newState);
+      }, 0);
       return;
     }
     // Handle both direct and nested structure for chapters
@@ -78,17 +100,32 @@ export default function BhagavathgitaChapterClientPage({ params }: { params: any
       prev = idx > 0 ? chapters[idx - 1] : null;
       next = idx >= 0 && idx < chapters.length - 1 ? chapters[idx + 1] : null;
     }
-      setChapter(ch || null);
-      setCurrentIdx(idx);
-      setPrevChapter(prev);
-      setNextChapter(next);
+      const newState = {
+        chapter: ch || null,
+        currentIdx: idx,
+        prevChapter: prev,
+        nextChapter: next,
+      };
+      setTimeout(() => {
+        setChapterState(prev => {
+          if (
+            prev.chapter !== newState.chapter ||
+            prev.currentIdx !== newState.currentIdx ||
+            prev.prevChapter !== newState.prevChapter ||
+            prev.nextChapter !== newState.nextChapter
+          ) {
+            return newState;
+          }
+          return prev;
+        });
+      }, 0);
       setChapter(ch || null);
       setCurrentIdx(idx);
       setPrevChapter(prev);
       setNextChapter(next);
   }, [ns, params]);
 
-  if (!chapter) {
+  if (!chapterState.chapter) {
     // Debug panel to show params, ns, and chapters for troubleshooting
     let chapters = [];
     if (Array.isArray(ns.chapters)) {
@@ -100,7 +137,7 @@ export default function BhagavathgitaChapterClientPage({ params }: { params: any
       <PageLayout
         metaKey="scriptures_bhagavathgita"
         title={ns.title || 'Bhagavad Gita'}
-        breadcrumbs={[
+        breadcrumbs={[ 
           { labelKey: 'Home', href: '/' },
           { label: ns.title || 'Bhagavad Gita', href: '/scriptures/bhagavathgita' },
           { label: 'Chapter', href: '#' }
