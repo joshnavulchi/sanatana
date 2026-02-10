@@ -20,6 +20,9 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
   const videoRefMobile = useRef<HTMLVideoElement | null>(null);
   const videoRefDesktop = useRef<HTMLVideoElement | null>(null);
   const [isVideoReady, setIsVideoReady] = useState(false);
+  const [showPlayOverlay, setShowPlayOverlay] = useState(false);
+  // Helper to detect mobile
+  const isMobile = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(max-width: 767px)').matches;
 
   useEffect(() => {
     let cancelled = false;
@@ -32,59 +35,37 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
     return () => { cancelled = true; };
   }, [locale]);
 
-  // added: attach listeners to play when buffered; use separate refs for mobile/desktop
+  // Fix: Ensure video plays on all browsers (Safari, Edge, Chrome mobile)
   useEffect(() => {
-    const els = [videoRefMobile.current, videoRefDesktop.current].filter(Boolean) as HTMLVideoElement[];
-    if (!els.length) return;
-
-    const attached: Array<{
-      el: HTMLVideoElement;
-      onCanPlayThrough: () => void;
-      onLoadedMetadata: () => void;
-      onEnded: () => void;
-    }> = [];
-
-    els.forEach((el) => {
-      let loopCount = 0;
-      const maxLoops = 3;
-
-      const onCanPlayThrough = () => {
-        setIsVideoReady(true);
-        try {
-          el.muted = true;
-          el.loop = false;
-          el.play().catch(() => { /* autoplay may be blocked */ });
-        } catch (e) { /* noop */ }
-      };
-
-      const onEnded = () => {
-        loopCount += 1;
-        if (loopCount < maxLoops) {
-          try { el.currentTime = 0; el.play().catch(() => { }); } catch (e) { }
-        } else {
-          setIsVideoReady(false);
-          try { el.pause(); el.currentTime = 0; } catch (e) { }
-        }
-      };
-
-      const onLoadedMetadata = () => {
-        if (el.readyState >= 3) onCanPlayThrough();
-      };
-
-      el.addEventListener('canplaythrough', onCanPlayThrough);
-      el.addEventListener('loadedmetadata', onLoadedMetadata);
-      el.addEventListener('ended', onEnded);
-
-      attached.push({ el, onCanPlayThrough, onLoadedMetadata, onEnded });
-    });
-
-    return () => {
-      attached.forEach(({ el, onCanPlayThrough, onLoadedMetadata, onEnded }) => {
-        el.removeEventListener('canplaythrough', onCanPlayThrough);
-        el.removeEventListener('loadedmetadata', onLoadedMetadata);
-        el.removeEventListener('ended', onEnded);
-      });
+    const playVideo = (video: HTMLVideoElement | null) => {
+      if (!video) return Promise.resolve();
+      video.muted = true;
+      video.playsInline = true;
+      video.autoplay = true;
+      video.setAttribute('muted', '');
+      video.setAttribute('playsinline', '');
+      video.setAttribute('autoplay', '');
+      // Try to play programmatically
+      return video.play();
     };
+    // Only show overlay for mobile if play fails
+    if (isMobile) {
+      playVideo(videoRefMobile.current).then(() => {
+        setShowPlayOverlay(false);
+        setIsVideoReady(true);
+      }).catch(() => {
+        setShowPlayOverlay(true);
+        setIsVideoReady(false);
+      });
+    } else {
+      playVideo(videoRefDesktop.current).then(() => {
+        setShowPlayOverlay(false);
+        setIsVideoReady(true);
+      }).catch(() => {
+        setShowPlayOverlay(false); // never show overlay on desktop
+        setIsVideoReady(false);
+      });
+    }
   }, [hero?.video?.src]);
 
   return (
@@ -99,9 +80,22 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
           playsInline
           muted
           loop
+          autoPlay
           className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${isVideoReady ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
-        // no controls and muted by design
         />
+        {/* Play overlay for mobile only */}
+        {showPlayOverlay && isMobile && (
+          <button
+            className="absolute z-20 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-black/60 text-white px-6 py-3 rounded-full shadow-lg text-lg font-semibold hover:bg-black/80 focus:outline-none"
+            onClick={() => {
+              videoRefMobile.current?.play();
+              setShowPlayOverlay(false);
+              setIsVideoReady(true);
+            }}
+          >
+            ▶ Play Video
+          </button>
+        )}
         <Image
           className="block md:hidden"
           src="/images/home/mobile-hero.png"
@@ -122,8 +116,8 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
             playsInline
             muted
             loop
+            autoPlay
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${isVideoReady ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
-          // no controls and muted by design
           />
           <Image
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${isVideoReady ? 'opacity-0' : 'opacity-100'}`}

@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
-import styles from '../styles.module.scss';
+
 import { useLocale } from '../context/locale-context';
 import useLocaleSection from '../hooks/useLocaleSection';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
