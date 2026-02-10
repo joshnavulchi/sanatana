@@ -7,7 +7,7 @@ import { createGenerateMetadata } from 'lib/pageUtils';
 import { parseList } from 'lib/parseList';
 import { t, detectLocale, getLocaleNamespaceObject, DEFAULT_LOCALE } from '../../../lib/i18n';
 
-const _localeObj = getLocaleNamespaceObject('en', 'scriptures_bhagavathgita');
+const _localeObj = getLocaleNamespaceObject('scriptures_bhagavathgita');
 const ns = (_localeObj && ((_localeObj as any)['scriptures_bhagavathgita'] || _localeObj)) || {};
 const __getLoc = (p: string) => {
   if (!ns) return '';

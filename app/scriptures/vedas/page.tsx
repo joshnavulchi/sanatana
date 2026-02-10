@@ -5,7 +5,7 @@ import { parseList } from 'lib/parseList';
 import { t, detectLocale, getMeta, getLocaleNamespaceObject, DEFAULT_LOCALE } from '../../../lib/i18n';
 export const generateMetadata = createGenerateMetadata('scriptures_vedas');
 
-const _localeObj = getLocaleNamespaceObject('en', 'scriptures_vedas');
+const _localeObj = getLocaleNamespaceObject('scriptures_vedas');
 const ns = (_localeObj && ((_localeObj as any)['scriptures_vedas'] || _localeObj)) || {};
 const __getLoc = (p: string) => {
   if (!ns) return '';

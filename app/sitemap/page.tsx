@@ -1,6 +1,6 @@
 import { t, getMeta, getLocaleNamespaceObject } from '../../lib/i18n';
 
-const _localeObj = getLocaleNamespaceObject('en', 'sharable_strings');
+const _localeObj = getLocaleNamespaceObject('sharable_strings');
 const ns = (_localeObj && ((_localeObj as any)['sitemap'] || ((_localeObj as any).sharable_strings && (_localeObj as any).sharable_strings['sitemap']) || _localeObj)) || {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
