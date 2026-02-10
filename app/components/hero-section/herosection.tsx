@@ -20,6 +20,9 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
   const videoRefMobile = useRef<HTMLVideoElement | null>(null);
   const videoRefDesktop = useRef<HTMLVideoElement | null>(null);
   const [isVideoReady, setIsVideoReady] = useState(false);
+  const [showPlayOverlay, setShowPlayOverlay] = useState(false);
+  // Helper to detect mobile
+  const isMobile = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(max-width: 767px)').matches;
 
   useEffect(() => {
     let cancelled = false;
@@ -35,7 +38,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
   // Fix: Ensure video plays on all browsers (Safari, Edge, Chrome mobile)
   useEffect(() => {
     const playVideo = (video: HTMLVideoElement | null) => {
-      if (!video) return;
+      if (!video) return Promise.resolve();
       video.muted = true;
       video.playsInline = true;
       video.autoplay = true;
@@ -43,10 +46,26 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
       video.setAttribute('playsinline', '');
       video.setAttribute('autoplay', '');
       // Try to play programmatically
-      video.play().catch(() => {});
+      return video.play();
     };
-    playVideo(videoRefMobile.current);
-    playVideo(videoRefDesktop.current);
+    // Only show overlay for mobile if play fails
+    if (isMobile) {
+      playVideo(videoRefMobile.current).then(() => {
+        setShowPlayOverlay(false);
+        setIsVideoReady(true);
+      }).catch(() => {
+        setShowPlayOverlay(true);
+        setIsVideoReady(false);
+      });
+    } else {
+      playVideo(videoRefDesktop.current).then(() => {
+        setShowPlayOverlay(false);
+        setIsVideoReady(true);
+      }).catch(() => {
+        setShowPlayOverlay(false); // never show overlay on desktop
+        setIsVideoReady(false);
+      });
+    }
   }, [hero?.video?.src]);
 
   return (
@@ -63,8 +82,20 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
           loop
           autoPlay
           className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${isVideoReady ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
-        // no controls and muted by design
         />
+        {/* Play overlay for mobile only */}
+        {showPlayOverlay && isMobile && (
+          <button
+            className="absolute z-20 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-black/60 text-white px-6 py-3 rounded-full shadow-lg text-lg font-semibold hover:bg-black/80 focus:outline-none"
+            onClick={() => {
+              videoRefMobile.current?.play();
+              setShowPlayOverlay(false);
+              setIsVideoReady(true);
+            }}
+          >
+            ▶ Play Video
+          </button>
+        )}
         <Image
           className="block md:hidden"
           src="/images/home/mobile-hero.png"
@@ -87,7 +118,6 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
             loop
             autoPlay
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${isVideoReady ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
-          // no controls and muted by design
           />
           <Image
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${isVideoReady ? 'opacity-0' : 'opacity-100'}`}
