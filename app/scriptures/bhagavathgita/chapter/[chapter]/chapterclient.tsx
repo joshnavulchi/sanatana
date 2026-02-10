@@ -78,10 +78,14 @@ export default function BhagavathgitaChapterClientPage({ params }: { params: any
       prev = idx > 0 ? chapters[idx - 1] : null;
       next = idx >= 0 && idx < chapters.length - 1 ? chapters[idx + 1] : null;
     }
-    setChapter(ch || null);
-    setCurrentIdx(idx);
-    setPrevChapter(prev);
-    setNextChapter(next);
+      setChapter(ch || null);
+      setCurrentIdx(idx);
+      setPrevChapter(prev);
+      setNextChapter(next);
+      setChapter(ch || null);
+      setCurrentIdx(idx);
+      setPrevChapter(prev);
+      setNextChapter(next);
   }, [ns, params]);
 
   if (!chapter) {
