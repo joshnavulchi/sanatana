@@ -9,26 +9,89 @@ export default function BhagavathgitaChapterClientPage({ params }: { params: any
   const { locale } = useLocale();
   const ns = useLocaleSection('scriptures_bhagavathgita');
   const [chapter, setChapter] = useState<any>(null);
+  const [currentIdx, setCurrentIdx] = useState<number>(-1);
+  const [prevChapter, setPrevChapter] = useState<any>(null);
+  const [nextChapter, setNextChapter] = useState<any>(null);
 
   useEffect(() => {
-    // DEBUG: Log params and ns.chapters for troubleshooting
-    // Remove this after debugging
+    // DEBUG: Log params and ns for troubleshooting
     if (typeof window !== 'undefined') {
       // eslint-disable-next-line no-console
-      console.log('params:', params, 'ns.chapters:', ns.chapters);
+      console.log('params:', params, 'ns:', ns);
     }
-    if (!ns || !params?.chapter) return;
-    const num = Number(params.chapter);
-    if (!Number.isFinite(num) || num < 1 || num > 18) {
+    if (!ns || !params?.chapter) {
       setChapter(null);
+      setCurrentIdx(-1);
+      setPrevChapter(null);
+      setNextChapter(null);
       return;
     }
-    const chapters = Array.isArray(ns.chapters) ? ns.chapters : [];
-    const ch = chapters.find((c: any, i: number) => Number(c.chapter || c.chapter_number || (i + 1)) === num);
+    // Accept both stringified JSON and number for chapter param
+    let num = params.chapter;
+    if (typeof num === 'string') {
+      try {
+        // Try to parse as JSON if it looks like a stringified object
+        const parsed = JSON.parse(num);
+        if (parsed && (parsed.chapter || parsed.chapter === 0)) {
+          num = parsed.chapter;
+        } else {
+          num = num;
+        }
+      } catch {
+        // fallback: try to parse as number
+        num = parseInt(num, 10);
+      }
+    }
+    if (!Number.isFinite(num) || num < 1 || num > 18) {
+      setChapter(null);
+      setCurrentIdx(-1);
+      setPrevChapter(null);
+      setNextChapter(null);
+      return;
+    }
+    // Handle both direct and nested structure for chapters
+    let chapters = [];
+    if (Array.isArray(ns.chapters)) {
+      chapters = ns.chapters;
+    } else if (ns.scriptures_bhagavathgita && Array.isArray(ns.scriptures_bhagavathgita.chapters)) {
+      chapters = ns.scriptures_bhagavathgita.chapters;
+    }
+    let ch = null;
+    if (Array.isArray(chapters)) {
+      ch = chapters.find((c: any, i: number) => {
+        let cnum = c.chapter ?? c.chapter_number ?? (i + 1);
+        if (typeof cnum === 'string') cnum = parseInt(cnum, 10);
+        return Number(cnum) === Number(num);
+      }) || null;
+    }
+    let idx = -1;
+    let prev = null;
+    let next = null;
+    if (ch && chapters.length > 0) {
+      idx = chapters.findIndex((c: any, i: number) => {
+        let cnum = c.chapter ?? c.chapter_number ?? (i + 1);
+        if (typeof cnum === 'string') cnum = parseInt(cnum, 10);
+        let chnum = ch.chapter;
+        if (typeof chnum === 'string') chnum = parseInt(chnum, 10);
+        return Number(cnum) === Number(chnum);
+      });
+      prev = idx > 0 ? chapters[idx - 1] : null;
+      next = idx >= 0 && idx < chapters.length - 1 ? chapters[idx + 1] : null;
+    }
     setChapter(ch || null);
+    setCurrentIdx(idx);
+    setPrevChapter(prev);
+    setNextChapter(next);
   }, [ns, params]);
 
   if (!chapter) {
+    // Debug panel to show params, ns, and chapters for troubleshooting
+    let chapters = [];
+    if (Array.isArray(ns.chapters)) {
+      chapters = ns.chapters;
+    } else if (ns.scriptures_bhagavathgita && Array.isArray(ns.scriptures_bhagavathgita.chapters)) {
+      chapters = ns.scriptures_bhagavathgita.chapters;
+    }
     return (
       <PageLayout
         metaKey="scriptures_bhagavathgita"
@@ -41,6 +104,13 @@ export default function BhagavathgitaChapterClientPage({ params }: { params: any
         className="layout-md"
       >
         <div className="max-w-2xl mx-auto p-8 text-center text-gray-500">Chapter not found or loading...</div>
+        <details className="bg-orange-50 border border-orange-200 rounded p-4 mt-6 text-left text-xs text-gray-700">
+          <summary className="font-bold text-orange-700 cursor-pointer">Debug Info</summary>
+          <div><b>params:</b> <pre>{JSON.stringify(params, null, 2)}</pre></div>
+          <div><b>ns.title:</b> {String(ns.title || '')}</div>
+          <div><b>ns.chapters:</b> <pre>{JSON.stringify(ns.chapters ? ns.chapters.slice(0,2) : null, null, 2)}{ns.chapters && ns.chapters.length > 2 ? '\n... (' + ns.chapters.length + ' total)' : ''}</pre></div>
+          <div><b>ns.scriptures_bhagavathgita.chapters:</b> <pre>{JSON.stringify(ns.scriptures_bhagavathgita && ns.scriptures_bhagavathgita.chapters ? ns.scriptures_bhagavathgita.chapters.slice(0,2) : null, null, 2)}{ns.scriptures_bhagavathgita && ns.scriptures_bhagavathgita.chapters && ns.scriptures_bhagavathgita.chapters.length > 2 ? '\n... (' + ns.scriptures_bhagavathgita.chapters.length + ' total)' : ''}</pre></div>
+        </details>
       </PageLayout>
     );
   }
@@ -61,7 +131,7 @@ export default function BhagavathgitaChapterClientPage({ params }: { params: any
       className="layout-md"
     >
       <div className="bg-gradient-to-br from-amber-50 via-orange-50 to-amber-100 rounded-2xl shadow-lg p-6 mb-8">
-        <h2 className="text-xl md:text-2xl font-bold text-center text-orange-700 mb-4">{chapterTitleText}</h2>
+        <h3 className="text-xl md:text-2xl font-bold text-center text-orange-700 mb-4">{chapterTitleText}</h3>
         {excerpt && <p className="text-center text-gray-700 mb-2 italic">{excerpt}</p>}
       </div>
       {chapter.verses && chapter.verses.length > 0 ? (
@@ -108,13 +178,16 @@ export default function BhagavathgitaChapterClientPage({ params }: { params: any
       ) : (
         <p className="text-center text-gray-500">Verse content not available for this chapter.</p>
       )}
-      <div className="flex justify-between mt-10">
-        {chapter.chapter > 1 ? (
-          <Link href={`/scriptures/bhagavathgita/chapter/${chapter.chapter - 1}`} className="px-4 py-2 rounded bg-amber-100 text-amber-800 font-semibold shadow hover:bg-amber-200 transition">&larr; Previous</Link>
-        ) : <span className="px-4 py-2 rounded bg-gray-100 text-gray-400 font-semibold shadow">&larr; Previous</span>}
-        {chapter.chapter < 18 ? (
-          <Link href={`/scriptures/bhagavathgita/chapter/${chapter.chapter + 1}`} className="px-4 py-2 rounded bg-orange-100 text-orange-800 font-semibold shadow hover:bg-orange-200 transition">Next &rarr;</Link>
-        ) : <span className="px-4 py-2 rounded bg-gray-100 text-gray-400 font-semibold shadow">Next &rarr;</span>}
+      <div className="flex flex-wrap gap-4 justify-between mt-10">
+        <Link href="/scriptures/bhagavathgita" className="px-4 py-2 rounded bg-amber-50 text-amber-800 font-semibold shadow hover:bg-amber-100 transition">&larr; All Chapters</Link>
+        <div className="flex gap-4">
+          {prevChapter ? (
+            <Link href={`/scriptures/bhagavathgita/chapter/${prevChapter.chapter || (currentIdx)}`} className="px-4 py-2 rounded bg-amber-100 text-amber-800 font-semibold shadow hover:bg-amber-200 transition">&larr; Previous</Link>
+          ) : <span className="px-4 py-2 rounded bg-gray-100 text-gray-400 font-semibold shadow">&larr; Previous</span>}
+          {nextChapter ? (
+            <Link href={`/scriptures/bhagavathgita/chapter/${nextChapter.chapter || (currentIdx + 2)}`} className="px-4 py-2 rounded bg-orange-100 text-orange-800 font-semibold shadow hover:bg-orange-200 transition">Next &rarr;</Link>
+          ) : <span className="px-4 py-2 rounded bg-gray-100 text-gray-400 font-semibold shadow">Next &rarr;</span>}
+        </div>
       </div>
     </PageLayout>
   );
