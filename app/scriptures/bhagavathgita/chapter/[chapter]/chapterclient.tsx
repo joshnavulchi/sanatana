@@ -6,128 +6,73 @@ import Link from 'next/link';
 import PageLayout from '@/app/components/common/PageLayout';
 
 export default function BhagavathgitaChapterClientPage({ params }: { params: any }) {
-  const { locale } = useLocale();
-  const ns = useLocaleSection('scriptures_bhagavathgita');
-  const [chapterState, setChapterState] = useState({
-    chapter: null,
-    currentIdx: -1,
-    prevChapter: null,
-    nextChapter: null,
-  });
-
-  useEffect(() => {
-    // DEBUG: Log params and ns for troubleshooting
-    if (typeof window !== 'undefined') {
-      // eslint-disable-next-line no-console
-      console.log('params:', params, 'ns:', ns);
-    }
-    if (!ns || !params?.chapter) {
-      const newState = {
-        chapter: null,
-        currentIdx: -1,
-        prevChapter: null,
-        nextChapter: null,
-      };
-      setTimeout(() => {
-        setChapterState(prev => {
-          if (
-            prev.chapter !== newState.chapter ||
-            prev.currentIdx !== newState.currentIdx ||
-            prev.prevChapter !== newState.prevChapter ||
-            prev.nextChapter !== newState.nextChapter
-          ) {
-            return newState;
-          }
-          return prev;
-        });
-      }, 0);
-      return;
-    }
-    // Accept both stringified JSON and number for chapter param
-    let num = params.chapter;
-    if (typeof num === 'string') {
-      try {
-        // Try to parse as JSON if it looks like a stringified object
-        const parsed = JSON.parse(num);
-        if (parsed && (parsed.chapter || parsed.chapter === 0)) {
-          num = parsed.chapter;
-        } else {
-          num = num;
-        }
-      } catch {
-        // fallback: try to parse as number
-        num = parseInt(num, 10);
+    const chapterState = useMemo(() => {
+      if (!ns || !params?.chapter) {
+        return {
+          chapter: null,
+          currentIdx: -1,
+          prevChapter: null,
+          nextChapter: null,
+        };
       }
-    }
-    if (!Number.isFinite(num) || num < 1 || num > 18) {
-      const newState = {
-        chapter: null,
-        currentIdx: -1,
-        prevChapter: null,
-        nextChapter: null,
-      };
-      setTimeout(() => {
-        setChapterState(newState);
-      }, 0);
-      return;
-    }
-    // Handle both direct and nested structure for chapters
-    let chapters = [];
-    if (Array.isArray(ns.chapters)) {
-      chapters = ns.chapters;
-    } else if (ns.scriptures_bhagavathgita && Array.isArray(ns.scriptures_bhagavathgita.chapters)) {
-      chapters = ns.scriptures_bhagavathgita.chapters;
-    }
-    let ch = null;
-    if (Array.isArray(chapters)) {
-      ch = chapters.find((c: any, i: number) => {
-        let cnum = c.chapter ?? c.chapter_number ?? (i + 1);
-        if (typeof cnum === 'string') cnum = parseInt(cnum, 10);
-        return Number(cnum) === Number(num);
-      }) || null;
-    }
-    let idx = -1;
-    let prev = null;
-    let next = null;
-    if (ch && chapters.length > 0) {
-      idx = chapters.findIndex((c: any, i: number) => {
-        let cnum = c.chapter ?? c.chapter_number ?? (i + 1);
-        if (typeof cnum === 'string') cnum = parseInt(cnum, 10);
-        let chnum = ch.chapter;
-        if (typeof chnum === 'string') chnum = parseInt(chnum, 10);
-        return Number(cnum) === Number(chnum);
-      });
-      prev = idx > 0 ? chapters[idx - 1] : null;
-      next = idx >= 0 && idx < chapters.length - 1 ? chapters[idx + 1] : null;
-    }
-      const newState = {
+      let num = params.chapter;
+      if (typeof num === 'string') {
+        try {
+          const parsed = JSON.parse(num);
+          if (parsed && (parsed.chapter || parsed.chapter === 0)) {
+            num = parsed.chapter;
+          } else {
+            num = num;
+          }
+        } catch {
+          num = parseInt(num, 10);
+        }
+      }
+      if (!Number.isFinite(num) || num < 1 || num > 18) {
+        return {
+          chapter: null,
+          currentIdx: -1,
+          prevChapter: null,
+          nextChapter: null,
+        };
+      }
+      let chapters = [];
+      if (Array.isArray(ns.chapters)) {
+        chapters = ns.chapters;
+      } else if (ns.scriptures_bhagavathgita && Array.isArray(ns.scriptures_bhagavathgita.chapters)) {
+        chapters = ns.scriptures_bhagavathgita.chapters;
+      }
+      let ch = null;
+      if (Array.isArray(chapters)) {
+        ch = chapters.find((c: any, i: number) => {
+          let cnum = c.chapter ?? c.chapter_number ?? (i + 1);
+          if (typeof cnum === 'string') cnum = parseInt(cnum, 10);
+          return Number(cnum) === Number(num);
+        }) || null;
+      }
+      let idx = -1;
+      let prev = null;
+      let next = null;
+      if (ch && chapters.length > 0) {
+        idx = chapters.findIndex((c: any, i: number) => {
+          let cnum = c.chapter ?? c.chapter_number ?? (i + 1);
+          if (typeof cnum === 'string') cnum = parseInt(cnum, 10);
+          let chnum = ch.chapter;
+          if (typeof chnum === 'string') chnum = parseInt(chnum, 10);
+          return Number(cnum) === Number(chnum);
+        });
+        prev = idx > 0 ? chapters[idx - 1] : null;
+        next = idx >= 0 && idx < chapters.length - 1 ? chapters[idx + 1] : null;
+      }
+      return {
         chapter: ch || null,
         currentIdx: idx,
         prevChapter: prev,
         nextChapter: next,
       };
-      setTimeout(() => {
-        setChapterState(prev => {
-          if (
-            prev.chapter !== newState.chapter ||
-            prev.currentIdx !== newState.currentIdx ||
-            prev.prevChapter !== newState.prevChapter ||
-            prev.nextChapter !== newState.nextChapter
-          ) {
-            return newState;
-          }
-          return prev;
-        });
-      }, 0);
-      setChapter(ch || null);
-      setCurrentIdx(idx);
-      setPrevChapter(prev);
-      setNextChapter(next);
-  }, [ns, params]);
-
-  if (!chapterState.chapter) {
-    // Debug panel to show params, ns, and chapters for troubleshooting
-    let chapters = [];
+    }, [ns, params]);
+  const { locale } = useLocale();
+  const ns = useLocaleSection('scriptures_bhagavathgita');
     if (Array.isArray(ns.chapters)) {
       chapters = ns.chapters;
     } else if (ns.scriptures_bhagavathgita && Array.isArray(ns.scriptures_bhagavathgita.chapters)) {
@@ -157,8 +102,12 @@ export default function BhagavathgitaChapterClientPage({ params }: { params: any
   }
 
   const bookTitle = ns.title || 'Bhagavad Gita';
-  const chapterTitleText = chapter.title || chapter.name || `Chapter ${chapter.chapter}`;
-  const excerpt = chapter.summary || '';
+  const chapter = chapterState.chapter;
+  const currentIdx = chapterState.currentIdx;
+  const prevChapter = chapterState.prevChapter;
+  const nextChapter = chapterState.nextChapter;
+  const chapterTitleText = chapter?.title || chapter?.name || (chapter ? `Chapter ${chapter.chapter}` : '');
+  const excerpt = chapter?.summary || '';
 
   return (
     <PageLayout
@@ -232,4 +181,4 @@ export default function BhagavathgitaChapterClientPage({ params }: { params: any
       </div>
     </PageLayout>
   );
-}
+
