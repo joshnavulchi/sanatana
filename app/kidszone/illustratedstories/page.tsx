@@ -23,7 +23,7 @@ export default function Page({ searchParams }: any) {
         className="layout-md"
       >
         <p className="text-lg text-pink-800 font-medium mb-6 text-center">{nsObj.description || S('kidszone_illustratedstories.description')}</p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           {stories.map((s: any) => (
             <Link key={s.id} href={`/kidszone/illustratedstories/${s.id}`} className="group block rounded-xl overflow-hidden shadow-lg border border-pink-200 bg-gradient-to-br from-pink-50 to-yellow-50 hover:shadow-2xl transition-transform hover:-translate-y-1">
               <article className="flex flex-col h-full">
