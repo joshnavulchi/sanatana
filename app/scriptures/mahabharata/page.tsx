@@ -21,10 +21,10 @@ export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || DEFAULT_LOCALE;
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
-    const k: any = getMeta('scriptures_mahabharata', {}, locale) || {};
+    const nsObj: any = getLocaleNamespaceObject(locale, 'scriptures_mahabharata')?.scriptures_mahabharata || {};
     return {
-      title: typeof k.title === 'string' ? k.title : (__getLoc('scriptures_mahabharata.title') || ''),
-      structure: Array.isArray(k.structure) ? k.structure : parseList(__getLoc('scriptures_mahabharata.structure'))
+      title: typeof nsObj.title === 'string' ? nsObj.title : (__getLoc('scriptures_mahabharata.title') || ''),
+      structure: Array.isArray(nsObj.structure) ? nsObj.structure : parseList(__getLoc('scriptures_mahabharata.structure'))
     };
   })();
   return (
@@ -32,19 +32,46 @@ export default function Page({ searchParams }: any) {
       <PageLayout
         metaKey="scriptures_mahabharata"
         title={page.title}
-        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Mahabhrata' }]}
+        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Mahabharata' }]}
         className="layout-md"
       >
-        {(page.structure || []).map((item: any, i: number) => (
-          <div key={i}>
-            {item.name ? <p className="text-2xl md:text-3xl">{item.parva}. {item.name}</p> : null}
-            {item.summary ?
-              <p>{item.summary}</p> :
-              <pre>{JSON.stringify(item)}</pre>}
-            {item.key_events ? <p><b>Events: </b>{JSON.stringify(item.key_events)}</p> : null}
-            {item.main_characters ? <p><b>Characters: </b>{JSON.stringify(item.main_characters)}</p> : null}
+        <section className="bg-gradient-to-br from-blue-100 via-indigo-50 to-green-100 rounded-xl shadow-lg px-3 py-6 border border-blue-300">
+          <header className="mb-8 text-center">
+            <h1 className="text-4xl font-extrabold text-blue-800 tracking-tight mb-2">{page.title}</h1>
+            <div className="flex justify-center mt-4">
+              <img src="/images/mahabharata-motif.png" alt="Mahabharata motif" className="w-24 h-24 rounded-full border-4 border-blue-300 shadow-md" />
+            </div>
+          </header>
+          <div className="space-y-8">
+            {(page.structure || []).map((item: any, i: number) => (
+              <section key={i} className="bg-white/80 rounded-lg p-6 shadow border border-blue-100">
+                {item.name && <h2 className="text-2xl font-bold text-blue-700 mb-2">{item.parva}. {item.name}</h2>}
+                {item.summary && <p className="text-base text-blue-900 mb-2 italic">{item.summary}</p>}
+                {!item.summary && <pre className="text-xs text-gray-700 bg-gray-50 rounded p-2 overflow-x-auto">{JSON.stringify(item, null, 2)}</pre>}
+                {item.key_events && (
+                  <div className="mt-2">
+                    <span className="font-semibold text-green-800">Key Events:</span>
+                    <ul className="list-disc list-inside ml-4 text-green-900">
+                      {Array.isArray(item.key_events) ? item.key_events.map((ev: any, idx: number) => (
+                        <li key={idx}>{ev}</li>
+                      )) : <li>{JSON.stringify(item.key_events)}</li>}
+                    </ul>
+                  </div>
+                )}
+                {item.main_characters && (
+                  <div className="mt-2">
+                    <span className="font-semibold text-indigo-800">Main Characters:</span>
+                    <ul className="flex flex-wrap gap-2 mt-1">
+                      {Array.isArray(item.main_characters) ? item.main_characters.map((ch: any, idx: number) => (
+                        <li key={idx} className="bg-indigo-100 text-indigo-900 rounded-full px-3 py-1 text-sm font-medium shadow">{typeof ch === 'string' ? ch : JSON.stringify(ch)}</li>
+                      )) : <li>{JSON.stringify(item.main_characters)}</li>}
+                    </ul>
+                  </div>
+                )}
+              </section>
+            ))}
           </div>
-        ))}
+        </section>
       </PageLayout>
     </>
   );
