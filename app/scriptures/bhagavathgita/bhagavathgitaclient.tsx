@@ -44,7 +44,7 @@ export default function BhagavathgitaClient() {
         className="layout-md"
       >
         {/* Hero Section */}
-        <div className="relative my-6 md:my-12 px-3 md:px-6 py-6 md:py-12 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 overflow-hidden">
+        <div className="relative my-3 px-3 py-6 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 overflow-hidden">
           {/* Decorative elements */}
           <div className="absolute top-0 left-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl" />
           <div className="absolute bottom-0 right-0 w-80 h-80 bg-orange-400/10 rounded-full blur-3xl" />
