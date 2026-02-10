@@ -14,14 +14,10 @@ export default function BhagavathgitaClient() {
   const [page, setPage] = useState<{ title: string; chapters: any[] }>({ title: '', chapters: [] });
 
   useEffect(() => {
-    const chaptersRaw = ns ? ns.chapters : [];
-    const chapters = Array.isArray(chaptersRaw) ? chaptersRaw : parseList(chaptersRaw);
-    setPage({ title, chapters });
     const title = String(ns?.title || '');
     const chaptersRaw = ns ? ns.chapters : [];
     const chapters = Array.isArray(chaptersRaw) ? chaptersRaw : parseList(chaptersRaw);
     const newPage = { title, chapters };
-    // Only update if different
     setPage((prev) => {
       if (prev.title !== newPage.title || JSON.stringify(prev.chapters) !== JSON.stringify(newPage.chapters)) {
         return newPage;

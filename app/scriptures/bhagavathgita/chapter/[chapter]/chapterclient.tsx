@@ -1,83 +1,80 @@
 "use client";
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import { useLocale } from '@/app/context/locale-context';
 import useLocaleSection from '@/app/hooks/useLocaleSection';
 import Link from 'next/link';
 import PageLayout from '@/app/components/common/PageLayout';
 
 export default function BhagavathgitaChapterClientPage({ params }: { params: any }) {
-    const chapterState = useMemo(() => {
-      if (!ns || !params?.chapter) {
-        return {
-          chapter: null,
-          currentIdx: -1,
-          prevChapter: null,
-          nextChapter: null,
-        };
-      }
-      let num = params.chapter;
-      if (typeof num === 'string') {
-        try {
-          const parsed = JSON.parse(num);
-          if (parsed && (parsed.chapter || parsed.chapter === 0)) {
-            num = parsed.chapter;
-          } else {
-            num = num;
-          }
-        } catch {
-          num = parseInt(num, 10);
-        }
-      }
-      if (!Number.isFinite(num) || num < 1 || num > 18) {
-        return {
-          chapter: null,
-          currentIdx: -1,
-          prevChapter: null,
-          nextChapter: null,
-        };
-      }
-      let chapters = [];
-      if (Array.isArray(ns.chapters)) {
-        chapters = ns.chapters;
-      } else if (ns.scriptures_bhagavathgita && Array.isArray(ns.scriptures_bhagavathgita.chapters)) {
-        chapters = ns.scriptures_bhagavathgita.chapters;
-      }
-      let ch = null;
-      if (Array.isArray(chapters)) {
-        ch = chapters.find((c: any, i: number) => {
-          let cnum = c.chapter ?? c.chapter_number ?? (i + 1);
-          if (typeof cnum === 'string') cnum = parseInt(cnum, 10);
-          return Number(cnum) === Number(num);
-        }) || null;
-      }
-      let idx = -1;
-      let prev = null;
-      let next = null;
-      if (ch && chapters.length > 0) {
-        idx = chapters.findIndex((c: any, i: number) => {
-          let cnum = c.chapter ?? c.chapter_number ?? (i + 1);
-          if (typeof cnum === 'string') cnum = parseInt(cnum, 10);
-          let chnum = ch.chapter;
-          if (typeof chnum === 'string') chnum = parseInt(chnum, 10);
-          return Number(cnum) === Number(chnum);
-        });
-        prev = idx > 0 ? chapters[idx - 1] : null;
-        next = idx >= 0 && idx < chapters.length - 1 ? chapters[idx + 1] : null;
-      }
-      return {
-        chapter: ch || null,
-        currentIdx: idx,
-        prevChapter: prev,
-        nextChapter: next,
-      };
-    }, [ns, params]);
   const { locale } = useLocale();
   const ns = useLocaleSection('scriptures_bhagavathgita');
+  const chapterState = useMemo(() => {
+    if (!ns || !params?.chapter) {
+      return {
+        chapter: null,
+        currentIdx: -1,
+        prevChapter: null,
+        nextChapter: null,
+      };
+    }
+    let num = params.chapter;
+    if (typeof num === 'string') {
+      try {
+        const parsed = JSON.parse(num);
+        if (parsed && (parsed.chapter || parsed.chapter === 0)) {
+          num = parsed.chapter;
+        } else {
+          num = num;
+        }
+      } catch {
+        num = parseInt(num, 10);
+      }
+    }
+    if (!Number.isFinite(num) || num < 1 || num > 18) {
+      return {
+        chapter: null,
+        currentIdx: -1,
+        prevChapter: null,
+        nextChapter: null,
+      };
+    }
+    let chapters = [];
     if (Array.isArray(ns.chapters)) {
       chapters = ns.chapters;
     } else if (ns.scriptures_bhagavathgita && Array.isArray(ns.scriptures_bhagavathgita.chapters)) {
       chapters = ns.scriptures_bhagavathgita.chapters;
     }
+    let ch = null;
+    if (Array.isArray(chapters)) {
+      ch = chapters.find((c: any, i: number) => {
+        let cnum = c.chapter ?? c.chapter_number ?? (i + 1);
+        if (typeof cnum === 'string') cnum = parseInt(cnum, 10);
+        return Number(cnum) === Number(num);
+      }) || null;
+    }
+    let idx = -1;
+    let prev = null;
+    let next = null;
+    if (ch && chapters.length > 0) {
+      idx = chapters.findIndex((c: any, i: number) => {
+        let cnum = c.chapter ?? c.chapter_number ?? (i + 1);
+        if (typeof cnum === 'string') cnum = parseInt(cnum, 10);
+        let chnum = ch.chapter;
+        if (typeof chnum === 'string') chnum = parseInt(chnum, 10);
+        return Number(cnum) === Number(chnum);
+      });
+      prev = idx > 0 ? chapters[idx - 1] : null;
+      next = idx >= 0 && idx < chapters.length - 1 ? chapters[idx + 1] : null;
+    }
+    return {
+      chapter: ch || null,
+      currentIdx: idx,
+      prevChapter: prev,
+      nextChapter: next,
+    };
+  }, [ns, params]);
+
+  if (!chapterState.chapter) {
     return (
       <PageLayout
         metaKey="scriptures_bhagavathgita"
@@ -98,6 +95,7 @@ export default function BhagavathgitaChapterClientPage({ params }: { params: any
           <div><b>ns.scriptures_bhagavathgita.chapters:</b> <pre>{JSON.stringify(ns.scriptures_bhagavathgita && ns.scriptures_bhagavathgita.chapters ? ns.scriptures_bhagavathgita.chapters.slice(0,2) : null, null, 2)}{ns.scriptures_bhagavathgita && ns.scriptures_bhagavathgita.chapters && ns.scriptures_bhagavathgita.chapters.length > 2 ? '\n... (' + ns.scriptures_bhagavathgita.chapters.length + ' total)' : ''}</pre></div>
         </details>
       </PageLayout>
+
     );
   }
 
@@ -181,4 +179,5 @@ export default function BhagavathgitaChapterClientPage({ params }: { params: any
       </div>
     </PageLayout>
   );
+}
 
