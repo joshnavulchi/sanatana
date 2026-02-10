@@ -1,5 +1,6 @@
 "use client";
-import { t, getLocaleNamespaceObject, getMeta } from '../../../lib/i18n';
+import { t } from '../../../lib/i18n';
+import { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '@/app/context/locale-context';
 // Local placeholder components for HeroImage and Sidebar
@@ -20,18 +21,31 @@ const Sidebar = () => (
 export default function SamsaraClient() {
   const { locale } = useLocale();
   const S = (k: string) => String(t(k, locale));
-  const nsObj: any = getLocaleNamespaceObject(locale, 'philosophy_samsara')?.philosophy_samsara || {};
-  const page: any = {
-    title: nsObj.title || 'Samsara Philosophy',
-    definition: nsObj.definition,
-    core_principles: Array.isArray(nsObj.core_principles) ? nsObj.core_principles : [],
-    origin: nsObj.origin || {},
-    components: nsObj.components || {},
-    relation_to_other_concepts: nsObj.relation_to_other_concepts || {},
-    modern_relevance: nsObj.modern_relevance || {},
-    goals: Array.isArray(nsObj.goals) ? nsObj.goals : [],
-    key_scriptural_references: Array.isArray(nsObj.key_scriptural_references) ? nsObj.key_scriptural_references : []
-  };
+  const [page, setPage] = useState<any | null>(null);
+
+  useEffect(() => {
+    async function fetchData() {
+      const res = await fetch(`/locales/${locale}/philosophy_samsara.json`);
+      const data = await res.json();
+      const nsObj = data?.philosophy_samsara || {};
+      setPage({
+        title: nsObj.title || 'Samsara Philosophy',
+        definition: nsObj.definition,
+        core_principles: Array.isArray(nsObj.core_principles) ? nsObj.core_principles : [],
+        origin: nsObj.origin || {},
+        components: nsObj.components || {},
+        relation_to_other_concepts: nsObj.relation_to_other_concepts || {},
+        modern_relevance: nsObj.modern_relevance || {},
+        goals: Array.isArray(nsObj.goals) ? nsObj.goals : [],
+        key_scriptural_references: Array.isArray(nsObj.key_scriptural_references) ? nsObj.key_scriptural_references : []
+      });
+    }
+    fetchData();
+  }, [locale]);
+
+  if (!page) {
+    return <div className="text-center py-10 text-blue-500">Loading...</div>;
+  }
   return (
     <>
       <PageLayout

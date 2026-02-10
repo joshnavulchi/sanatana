@@ -1,6 +1,7 @@
 "use client";
 import PageLayout from '@/app/components/common/PageLayout';
-import { t, getLocaleNamespaceObject } from '../../../lib/i18n';
+import { t } from '../../../lib/i18n';
+import { useEffect, useState } from 'react';
 import { useLocale } from '@/app/context/locale-context';
 // Local placeholder components for HeroImage and Sidebar
 const HeroImage = () => (
@@ -20,18 +21,31 @@ const Sidebar = () => (
 export default function MokshaClient() {
   const { locale } = useLocale();
   const S = (k: string) => String(t(k, locale));
-  const nsObj: any = getLocaleNamespaceObject(locale, 'philosophy_moksha')?.philosophy_moksha || {};
-  const page: any = {
-    title: nsObj.title || 'Moksha Philosophy',
-    definition: nsObj.definition,
-    core_principles: Array.isArray(nsObj.core_principles) ? nsObj.core_principles : [],
-    origin: nsObj.origin || {},
-    paths_to_moksha: nsObj.paths_to_moksha || {},
-    goals: Array.isArray(nsObj.goals) ? nsObj.goals : [],
-    relation_to_other_concepts: nsObj.relation_to_other_concepts || {},
-    modern_relevance: nsObj.modern_relevance || {},
-    key_scriptural_references: Array.isArray(nsObj.key_scriptural_references) ? nsObj.key_scriptural_references : []
-  };
+  const [page, setPage] = useState<any | null>(null);
+
+  useEffect(() => {
+    async function fetchData() {
+      const res = await fetch(`/locales/${locale}/philosophy_moksha.json`);
+      const data = await res.json();
+      const nsObj = data?.philosophy_moksha || {};
+      setPage({
+        title: nsObj.title || 'Moksha Philosophy',
+        definition: nsObj.definition,
+        core_principles: Array.isArray(nsObj.core_principles) ? nsObj.core_principles : [],
+        origin: nsObj.origin || {},
+        paths_to_moksha: nsObj.paths_to_moksha || {},
+        goals: Array.isArray(nsObj.goals) ? nsObj.goals : [],
+        relation_to_other_concepts: nsObj.relation_to_other_concepts || {},
+        modern_relevance: nsObj.modern_relevance || {},
+        key_scriptural_references: Array.isArray(nsObj.key_scriptural_references) ? nsObj.key_scriptural_references : []
+      });
+    }
+    fetchData();
+  }, [locale]);
+
+  if (!page) {
+    return <div className="text-center py-10 text-indigo-500">Loading...</div>;
+  }
   return (
     <>
       <PageLayout

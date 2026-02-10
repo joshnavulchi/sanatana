@@ -132,14 +132,14 @@ export default function QuizClient() {
       <div>
         <h2 className="text-2xl md:text-3xl">{ns?.readyTitle || 'Ready?'}</h2>
         <p className="text-xl">{(ns?.readyDescription || 'This quiz has {count} questions, time {time}').replace('{count}', String(qList.length)).replace('{time}', fmtTime(timeLeft))}</p>
-        <div className="space-x-4 mt-6">
-          <button className="cursor-pointer group relative md:inline-flex px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-600
+        <div className="flex items-center justify-between mt-6">
+          <button className="cursor-pointer group relative md:inline-flex px-4 py-2 bg-gradient-to-r from-amber-500 to-orange-600
                     hover:from-amber-600 hover:to-orange-700 text-white  text-lg rounded-full shadow-xl hover:shadow-2xl
                     transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden" onClick={() => setStarted(true)}>
             <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
             <span>{ns?.start || 'Start'}</span>
           </button>
-          <button className="cursor-pointer group md:inline-flex px-8 py-4 bg-white/10 backdrop-blur-md
+          <button className="cursor-pointer group md:inline-flex px-4 py-2 bg-white/10 backdrop-blur-md
                     hover:bg-white/20 border-2 border-amber-500/50 hover:border-white
                     text-amber-500  text-lg rounded-full shadow-lg hover:shadow-xl
                     transition-all duration-300 transform hover:-translate-y-1 no-underline" onClick={restart}>
@@ -200,18 +200,23 @@ export default function QuizClient() {
       <div className="flex flex-col justify-start items-start gap-6">
         <div className="text-xl md:text-2xl font-bold">{q.question}</div>
         <div className="text-xl md:text-2xl font-semibold mt-4 flex flex-col gap-3">
-          {(['A', 'B', 'C', 'D'] as (keyof Options)[]).map((k) => (
-            <button
-              className="cursor-pointer group md:inline-flex px-4 py-2 bg-white/10 backdrop-blur-md
-              hover:bg-white/20 border-2 border-amber-500/50 hover:border-white
-              text-amber-500 text-lg rounded-full shadow-lg hover:shadow-xl
-              transition-all duration-300 transform hover:-translate-y-1 no-underline"
-              key={k}
-              onClick={() => selectOption(k)}
-            >
-              <strong>{k}.</strong> {q.options[k]}
-            </button>
-          ))}
+          {(['A', 'B', 'C', 'D'] as (keyof Options)[]).map((k) => {
+            const isSelected = answers[q.id] === k;
+            return (
+              <button
+                className={
+                  `cursor-pointer group md:inline-flex px-4 py-2 border-2 text-lg rounded-full shadow-lg transition-all duration-300 transform no-underline ` +
+                  (isSelected
+                    ? 'bg-amber-400 text-white border-amber-600 scale-105 ring-2 ring-amber-300'
+                    : 'bg-white/10 backdrop-blur-md hover:bg-white/20 border-amber-500/50 hover:border-white text-amber-500 hover:shadow-xl hover:-translate-y-1')
+                }
+                key={k}
+                onClick={() => selectOption(k)}
+              >
+                <strong>{k}.</strong> {q.options[k]}
+              </button>
+            );
+          })}
         </div>
 
         <div className="w-full">
