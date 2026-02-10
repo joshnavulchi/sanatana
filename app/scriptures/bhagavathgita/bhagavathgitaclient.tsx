@@ -13,21 +13,17 @@ export default function BhagavathgitaClient() {
   const ns = useLocaleSection('scriptures_bhagavathgita');
   const [page, setPage] = useState<{ title: string; chapters: any[] }>({ title: '', chapters: [] });
 
+
   useEffect(() => {
-    const chaptersRaw = ns ? ns.chapters : [];
-    const chapters = Array.isArray(chaptersRaw) ? chaptersRaw : parseList(chaptersRaw);
-    setPage({ title, chapters });
     const title = String(ns?.title || '');
     const chaptersRaw = ns ? ns.chapters : [];
     const chapters = Array.isArray(chaptersRaw) ? chaptersRaw : parseList(chaptersRaw);
     const newPage = { title, chapters };
-    // Only update if different
-    setPage((prev) => {
-      if (prev.title !== newPage.title || JSON.stringify(prev.chapters) !== JSON.stringify(newPage.chapters)) {
-        return newPage;
-      }
-      return prev;
-    });
+    // Only update state if changed, but avoid calling setState synchronously in effect
+    if (page.title !== newPage.title || JSON.stringify(page.chapters) !== JSON.stringify(newPage.chapters)) {
+      setPage(newPage);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [locale, ns]);
 
   if (isLoading && !page.title) {

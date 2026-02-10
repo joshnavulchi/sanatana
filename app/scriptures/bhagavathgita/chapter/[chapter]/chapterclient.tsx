@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import { useLocale } from '@/app/context/locale-context';
 import useLocaleSection from '@/app/hooks/useLocaleSection';
 import Link from 'next/link';
@@ -8,46 +8,18 @@ import PageLayout from '@/app/components/common/PageLayout';
 export default function BhagavathgitaChapterClientPage({ params }: { params: any }) {
   const { locale } = useLocale();
   const ns = useLocaleSection('scriptures_bhagavathgita');
-  const [chapterState, setChapterState] = useState({
-    chapter: null,
-    currentIdx: -1,
-    prevChapter: null,
-    nextChapter: null,
-  });
-
-  useEffect(() => {
-    // DEBUG: Log params and ns for troubleshooting
-    if (typeof window !== 'undefined') {
-      // eslint-disable-next-line no-console
-      console.log('params:', params, 'ns:', ns);
-    }
+  const chapterState = useMemo(() => {
     if (!ns || !params?.chapter) {
-      const newState = {
+      return {
         chapter: null,
         currentIdx: -1,
         prevChapter: null,
         nextChapter: null,
       };
-      setTimeout(() => {
-        setChapterState(prev => {
-          if (
-            prev.chapter !== newState.chapter ||
-            prev.currentIdx !== newState.currentIdx ||
-            prev.prevChapter !== newState.prevChapter ||
-            prev.nextChapter !== newState.nextChapter
-          ) {
-            return newState;
-          }
-          return prev;
-        });
-      }, 0);
-      return;
     }
-    // Accept both stringified JSON and number for chapter param
     let num = params.chapter;
     if (typeof num === 'string') {
       try {
-        // Try to parse as JSON if it looks like a stringified object
         const parsed = JSON.parse(num);
         if (parsed && (parsed.chapter || parsed.chapter === 0)) {
           num = parsed.chapter;
@@ -55,23 +27,17 @@ export default function BhagavathgitaChapterClientPage({ params }: { params: any
           num = num;
         }
       } catch {
-        // fallback: try to parse as number
         num = parseInt(num, 10);
       }
     }
     if (!Number.isFinite(num) || num < 1 || num > 18) {
-      const newState = {
+      return {
         chapter: null,
         currentIdx: -1,
         prevChapter: null,
         nextChapter: null,
       };
-      setTimeout(() => {
-        setChapterState(newState);
-      }, 0);
-      return;
     }
-    // Handle both direct and nested structure for chapters
     let chapters = [];
     if (Array.isArray(ns.chapters)) {
       chapters = ns.chapters;
@@ -100,39 +66,15 @@ export default function BhagavathgitaChapterClientPage({ params }: { params: any
       prev = idx > 0 ? chapters[idx - 1] : null;
       next = idx >= 0 && idx < chapters.length - 1 ? chapters[idx + 1] : null;
     }
-      const newState = {
-        chapter: ch || null,
-        currentIdx: idx,
-        prevChapter: prev,
-        nextChapter: next,
-      };
-      setTimeout(() => {
-        setChapterState(prev => {
-          if (
-            prev.chapter !== newState.chapter ||
-            prev.currentIdx !== newState.currentIdx ||
-            prev.prevChapter !== newState.prevChapter ||
-            prev.nextChapter !== newState.nextChapter
-          ) {
-            return newState;
-          }
-          return prev;
-        });
-      }, 0);
-      setChapter(ch || null);
-      setCurrentIdx(idx);
-      setPrevChapter(prev);
-      setNextChapter(next);
+    return {
+      chapter: ch || null,
+      currentIdx: idx,
+      prevChapter: prev,
+      nextChapter: next,
+    };
   }, [ns, params]);
 
   if (!chapterState.chapter) {
-    // Debug panel to show params, ns, and chapters for troubleshooting
-    let chapters = [];
-    if (Array.isArray(ns.chapters)) {
-      chapters = ns.chapters;
-    } else if (ns.scriptures_bhagavathgita && Array.isArray(ns.scriptures_bhagavathgita.chapters)) {
-      chapters = ns.scriptures_bhagavathgita.chapters;
-    }
     return (
       <PageLayout
         metaKey="scriptures_bhagavathgita"
@@ -153,12 +95,17 @@ export default function BhagavathgitaChapterClientPage({ params }: { params: any
           <div><b>ns.scriptures_bhagavathgita.chapters:</b> <pre>{JSON.stringify(ns.scriptures_bhagavathgita && ns.scriptures_bhagavathgita.chapters ? ns.scriptures_bhagavathgita.chapters.slice(0,2) : null, null, 2)}{ns.scriptures_bhagavathgita && ns.scriptures_bhagavathgita.chapters && ns.scriptures_bhagavathgita.chapters.length > 2 ? '\n... (' + ns.scriptures_bhagavathgita.chapters.length + ' total)' : ''}</pre></div>
         </details>
       </PageLayout>
+
     );
   }
 
   const bookTitle = ns.title || 'Bhagavad Gita';
-  const chapterTitleText = chapter.title || chapter.name || `Chapter ${chapter.chapter}`;
-  const excerpt = chapter.summary || '';
+  const chapter = chapterState.chapter;
+  const currentIdx = chapterState.currentIdx;
+  const prevChapter = chapterState.prevChapter;
+  const nextChapter = chapterState.nextChapter;
+  const chapterTitleText = chapter?.title || chapter?.name || (chapter ? `Chapter ${chapter.chapter}` : '');
+  const excerpt = chapter?.summary || '';
 
   return (
     <PageLayout
@@ -233,3 +180,4 @@ export default function BhagavathgitaChapterClientPage({ params }: { params: any
     </PageLayout>
   );
 }
+
