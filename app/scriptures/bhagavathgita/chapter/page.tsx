@@ -1,7 +1,6 @@
-import dynamic from 'next/dynamic';
 
-const BhagavathgitaChapterRootClient = dynamic(() => import('./pageclient'), { ssr: false });
+import PageClientWrapper from './PageClientWrapper';
 
 export default function Page() {
-  return <BhagavathgitaChapterRootClient />;
+  return <PageClientWrapper />;
 }
