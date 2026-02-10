@@ -32,59 +32,21 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
     return () => { cancelled = true; };
   }, [locale]);
 
-  // added: attach listeners to play when buffered; use separate refs for mobile/desktop
+  // Fix: Ensure video plays on all browsers (Safari, Edge, Chrome mobile)
   useEffect(() => {
-    const els = [videoRefMobile.current, videoRefDesktop.current].filter(Boolean) as HTMLVideoElement[];
-    if (!els.length) return;
-
-    const attached: Array<{
-      el: HTMLVideoElement;
-      onCanPlayThrough: () => void;
-      onLoadedMetadata: () => void;
-      onEnded: () => void;
-    }> = [];
-
-    els.forEach((el) => {
-      let loopCount = 0;
-      const maxLoops = 3;
-
-      const onCanPlayThrough = () => {
-        setIsVideoReady(true);
-        try {
-          el.muted = true;
-          el.loop = false;
-          el.play().catch(() => { /* autoplay may be blocked */ });
-        } catch (e) { /* noop */ }
-      };
-
-      const onEnded = () => {
-        loopCount += 1;
-        if (loopCount < maxLoops) {
-          try { el.currentTime = 0; el.play().catch(() => { }); } catch (e) { }
-        } else {
-          setIsVideoReady(false);
-          try { el.pause(); el.currentTime = 0; } catch (e) { }
-        }
-      };
-
-      const onLoadedMetadata = () => {
-        if (el.readyState >= 3) onCanPlayThrough();
-      };
-
-      el.addEventListener('canplaythrough', onCanPlayThrough);
-      el.addEventListener('loadedmetadata', onLoadedMetadata);
-      el.addEventListener('ended', onEnded);
-
-      attached.push({ el, onCanPlayThrough, onLoadedMetadata, onEnded });
-    });
-
-    return () => {
-      attached.forEach(({ el, onCanPlayThrough, onLoadedMetadata, onEnded }) => {
-        el.removeEventListener('canplaythrough', onCanPlayThrough);
-        el.removeEventListener('loadedmetadata', onLoadedMetadata);
-        el.removeEventListener('ended', onEnded);
-      });
+    const playVideo = (video: HTMLVideoElement | null) => {
+      if (!video) return;
+      video.muted = true;
+      video.playsInline = true;
+      video.autoplay = true;
+      video.setAttribute('muted', '');
+      video.setAttribute('playsinline', '');
+      video.setAttribute('autoplay', '');
+      // Try to play programmatically
+      video.play().catch(() => {});
     };
+    playVideo(videoRefMobile.current);
+    playVideo(videoRefDesktop.current);
   }, [hero?.video?.src]);
 
   return (
@@ -99,6 +61,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
           playsInline
           muted
           loop
+          autoPlay
           className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${isVideoReady ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
         // no controls and muted by design
         />
@@ -122,6 +85,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
             playsInline
             muted
             loop
+            autoPlay
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${isVideoReady ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
           // no controls and muted by design
           />
