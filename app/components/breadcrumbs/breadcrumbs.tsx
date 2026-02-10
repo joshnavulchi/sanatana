@@ -9,11 +9,13 @@ type Crumb = { label: React.ReactNode; href?: string };
 type CrumbInput = { label?: unknown; labelKey?: string; href?: string };
 
 function normalizeBreadcrumbs(items: CrumbInput[], locale?: string): Crumb[] {
-  return items.map((it) => {
+  return items.map((it, idx) => {
+    // Special case: always display 'Home' for the first breadcrumb
+    if (idx === 0) {
+      return { label: 'Home', href: it.href };
+    }
     // Resolve label from i18n if labelKey provided, otherwise use provided label.
     let raw: unknown = it.labelKey ? (t(it.labelKey, locale) || it.labelKey) : (it.label ?? '');
-    // Ensure label is a renderable ReactNode. Convert plain objects to string
-    // to avoid TypeScript/React complaining about '{}' not being a valid node.
     if (raw !== null && typeof raw === 'object') {
       try {
         raw = String(raw);

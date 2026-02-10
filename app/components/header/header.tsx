@@ -168,13 +168,13 @@ export default function Header() {
       <div className="w-full px-2 md:px-0 bg-white/95 shadow-md sticky top-0 z-30">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Logo and Title */}
-          <Link href="/" className="flex items-center gap-2 group">
+          <Link href="/" className="flex items-center gap-1 group">
             <LazyImage
               src="/images/logo.png"
               alt="Sanatanadharmam Logo"
-              width={45}
+              width={55}
               height={40}
-              className="hidden md:flex"
+              className="md:flex"
             />
             <span className="font-extrabold text-3xl md:text-4xl bg-gradient-to-r from-orange-600 via-amber-700 to-yellow-600 bg-clip-text text-transparent tracking-tight drop-shadow-lg">
               {translations.siteTitle}

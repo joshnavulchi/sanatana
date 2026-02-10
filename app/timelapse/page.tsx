@@ -4,7 +4,7 @@ import PageLayout from '@/app/components/common/PageLayout';
 import { createGenerateMetadata } from 'lib/pageUtils';
 import { t, getMeta, getLocaleNamespaceObject } from '../../lib/i18n';
 
-const _localeObj = getLocaleNamespaceObject('en', 'timelapse');
+const _localeObj = getLocaleNamespaceObject('timelapse');
 const ns = (_localeObj && ((_localeObj as any)['timelapse'] || (_localeObj as any)['timelinePoints'])) || {};
 const __getLoc = (p: string) => {
   if (!ns) return '';

@@ -6,7 +6,7 @@ import { parseList } from 'lib/parseList';
 import { t, detectLocale, getLocaleNamespaceObject } from '../../lib/i18n';
 // import Link from 'next/link';
 
-const _localeObj = getLocaleNamespaceObject('en', 'sanatanadharma');
+const _localeObj = getLocaleNamespaceObject('sanatanadharma');
 const ns = (_localeObj && ((_localeObj as any)['sanatanadharma'] || _localeObj)) || {};
 const __getLoc = (p: string) => {
   if (!ns) return '';

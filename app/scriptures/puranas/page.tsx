@@ -5,7 +5,7 @@ import { createGenerateMetadata } from 'lib/pageUtils';
 import { t, detectLocale, getLocaleNamespaceObject, getMeta, DEFAULT_LOCALE } from '../../../lib/i18n';
 export const generateMetadata = createGenerateMetadata('scriptures_puranas');
 
-const _localeObj = getLocaleNamespaceObject('en', 'scriptures_puranas');
+const _localeObj = getLocaleNamespaceObject('scriptures_puranas');
 const ns = (_localeObj && ((_localeObj as any)['scriptures_puranas'] || ((_localeObj as any).puranas) || _localeObj)) || {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
