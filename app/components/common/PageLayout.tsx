@@ -19,15 +19,18 @@ export default function PageLayout({ metaKey, title, breadcrumbs, className, chi
       {/* `metaKey` is accepted for compatibility; render structured data from server pages to avoid
           importing server-only modules into client bundles. */}
       <main className={wrapper}>
-        {/* Breadcrumbs will auto-generate from path if items not provided */}
-        <Breadcrumbs items={breadcrumbs} locale={locale} />
+        <div className="flex items-center justify-between">
+          {/* Breadcrumbs will auto-generate from path if items not provided */}
+          <Breadcrumbs items={breadcrumbs} locale={locale} />
+          {/* WordCount is a client component; render it (Next will hydrate on the client) */}
+          <WordCount />
+        </div>
         <div className="flex items-center md:justify-between">
           {title ? <h2 className="text-2xl md:text-3xl lg:text-4xl my-6 font-bold
                 bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700
                 bg-clip-text tracking-tight leading-tight truncate">{title}</h2> : null}
-          {/* WordCount is a client component; render it (Next will hydrate on the client) */}
-          <WordCount />
         </div>
+
         {children}
       </main>
     </>
