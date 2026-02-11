@@ -1,5 +1,12 @@
 "use client";
 import { useRef, useEffect, useState } from "react";
+
+// Add a style tag for responsive label hiding
+const labelStyle = `
+  @media (max-width: 600px) {
+    .wm-country-label { display: none !important; }
+  }
+`;
 import * as d3 from "d3";
 import * as topojson from "topojson-client";
 
@@ -107,7 +114,7 @@ const WorldMap = () => {
             d3.select(this).attr("fill", "#a3d9a5").attr("opacity", 0.93);
           })
           .on("click", function (event, d: any) {
-            alert("Country: " + (d.properties?.name || "Unknown"));
+            // alert("Country: " + (d.properties?.name || "Unknown"));
           });
         // Add country/landmass code labels
         svg.append("g")
@@ -115,6 +122,7 @@ const WorldMap = () => {
           .data(countries.features)
           .enter()
           .append("text")
+          .attr("class", "wm-country-label")
           .attr("x", (d: any) => {
             const c = path.centroid(d);
             return c[0];
@@ -143,7 +151,8 @@ const WorldMap = () => {
 
   return (
     <div style={{ width: "100%", minHeight: "200px", margin: 0, padding: 0, overflow: "hidden", position: "relative" }}>
-      <div style={{ position: 'absolute', top: 24, left: 0, zIndex: 10, background: 'rgba(255,255,255,0.85)', padding: '2px 4px', margin: '0 24px', boxShadow: '0 2px 8px #0002' }}>
+      <style>{labelStyle}</style>
+      <div style={{ position: 'absolute', top: 24, left: 0, zIndex: 10, background: 'rgba(255,255,255,0.85)', borderRadius: 3, padding: '2px 4px', margin: '0 24px', boxShadow: '0 2px 8px #0002' }}>
         <label htmlFor="era-select" style={{ fontWeight: 600, marginRight: 8 }}>Geological Era:</label>
         <select id="era-select" value={era} onChange={e => setEra(e.target.value)} style={{ fontSize: 16, padding: '2px 4px', borderRadius: 3 }}>
           {ERA_OPTIONS.map(opt => (
