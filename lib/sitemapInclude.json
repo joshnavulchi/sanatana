@@ -4,6 +4,7 @@
   "/contact",
   "/donate",
   "/scriptures/ramayana",
+  "/scriptures/puranas",
   "/scriptures/mahabharata",
   "/scriptures/sanksheparamayanam",
   "/scriptures/bhagavathgita",
@@ -11,6 +12,10 @@
   "/privacy-policy",
   "/terms-of-service",
   "/philosophy/karma",
+  "/philosophy/dharma",
+  "/philosophy/samsara",
+  "/philosophy/moksha",
   "/historical-timeline",
-  "/world-transformation"
+  "/world-transformation",
+  "/religion-conversion"
 ]
