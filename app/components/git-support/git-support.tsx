@@ -2,7 +2,7 @@
 // import { useState, useEffect } from 'react';
 import useLocaleSection from '../../hooks/useLocaleSection';
 import Link from 'next/link';
-import WorldMapAnimated from '../worldmap/wordmap';
+import WorldMapAnimated from '../worldmap/worldmap';
 
 export default function GitSupport({ locale }: { locale?: string }) {
   const loc = useLocaleSection('home');
