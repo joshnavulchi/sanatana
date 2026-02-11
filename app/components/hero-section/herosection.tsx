@@ -11,7 +11,6 @@ interface HeroSectionProps {
 }
 
 export default function HeroSection({ isLoading = false }: HeroSectionProps) {
-
   const { locale } = useLocale();
   const [hero, setHero] = useState<Record<string, any>>({});
   const [isVisible, setIsVisible] = useState(false);
@@ -72,30 +71,6 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
     <div className="relative w-full min-h-[600px] px-3 overflow-hidden">
       {/* Background Images with Overlay */}
       <div className="absolute inset-0">
-        {/* Mobile hero image */}
-        <video
-          ref={videoRefMobile}
-          src="/videos/kurushetra-mobile.mp4"
-          preload="auto"
-          playsInline
-          muted
-          loop
-          autoPlay
-          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${isVideoReady ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
-        />
-        {/* Play overlay for mobile only */}
-        {showPlayOverlay && isMobile && (
-          <button
-            className="absolute z-20 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-black/60 text-white px-6 py-3 rounded-full shadow-lg text-lg font-semibold hover:bg-black/80 focus:outline-none"
-            onClick={() => {
-              videoRefMobile.current?.play();
-              setShowPlayOverlay(false);
-              setIsVideoReady(true);
-            }}
-          >
-            ▶ Play Video
-          </button>
-        )}
         <Image
           className="block md:hidden"
           src="/images/home/mobile-hero.png"
