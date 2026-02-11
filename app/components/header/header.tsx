@@ -22,6 +22,20 @@ const defaultBanner = null;
 const defaultBanner2 = null;
 
 export default function Header() {
+    // Responsive logo width state
+    const [logoWidth, setLogoWidth] = useState(55);
+    useEffect(() => {
+      function handleResize() {
+        if (window.innerWidth < 640) {
+          setLogoWidth(55); // mobile
+        } else {
+          setLogoWidth(45); // tablet
+        }
+      }
+      handleResize(); // Set initial value
+      window.addEventListener('resize', handleResize);
+      return () => window.removeEventListener('resize', handleResize);
+    }, []);
   const { locale } = useLocale();
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
@@ -165,16 +179,16 @@ export default function Header() {
     <header ref={headerRef} className={`w-full sticky top-0 z-30 shadow-md`}>
       {/* <BannerNotifications id="first_banner" message={translations.banner} marquee="true" />
       {/* <BannerNotifications id="second_banner" message={translations.banner2} marquee="false" showClose={true} backgroundclass="notification-alternative-background-color" /> */}
-      <div className="w-full px-2 md:px-0 bg-white/95 shadow-md sticky top-0 z-30">
+      <div className="w-full px-2 md:px-0 bg-white/95 shadow-md sticky top-0 z-30 py-2">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Logo and Title */}
-          <Link href="/" className="flex items-center gap-2 group">
+          <Link href="/" className="flex items-center gap-1 group">
             <LazyImage
               src="/images/logo.png"
               alt="Sanatanadharmam Logo"
-              width={45}
+              width={logoWidth}
               height={40}
-              className="hidden md:flex"
+              className="md:flex"
             />
             <span className="font-extrabold text-3xl md:text-4xl bg-gradient-to-r from-orange-600 via-amber-700 to-yellow-600 bg-clip-text text-transparent tracking-tight drop-shadow-lg">
               {translations.siteTitle}

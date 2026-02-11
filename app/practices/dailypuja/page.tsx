@@ -4,7 +4,7 @@ import { createGenerateMetadata } from 'lib/pageUtils';
 import { getMeta, detectLocale, t, getLocaleNamespaceObject } from '../../../lib/i18n';
 export const generateMetadata = createGenerateMetadata('dailypuja_practices');
 
-const _localeObj = getLocaleNamespaceObject('en', 'practices_dailypoojas');
+const _localeObj = getLocaleNamespaceObject('practices_dailypoojas');
 const ns = (_localeObj && ((_localeObj as any)['practices_dailypoojas'] || (_localeObj as any)['dailypuja_practices'] || _localeObj)) || {};
 const __getLoc = (p: string) => {
   if (!ns) return '';

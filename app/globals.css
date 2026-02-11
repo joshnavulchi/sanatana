@@ -310,58 +310,52 @@ footer {
 .animate-fade-in {
   animation: fadeIn 1s ease;
 }
-
 @keyframes fadeIn {
   from {
     opacity: 0;
     transform: translateY(40px);
   }
-
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
-
 .animate-gradient-x {
   background-size: 200% 100%;
   animation: gradientX 4s linear infinite;
 }
-
 @keyframes gradientX {
   0% {
     background-position: 0% 50%;
   }
-
   100% {
     background-position: 100% 50%;
   }
 }
-
 .animate-pulse-slow {
   animation: pulseSlow 8s infinite alternate;
 }
-
 @keyframes pulseSlow {
   0% {
     opacity: 0.8;
   }
-
   100% {
     opacity: 1;
   }
 }
-
 .animate-bounce-slow {
   animation: bounceSlow 2s infinite alternate;
 }
-
 @keyframes bounceSlow {
   0% {
     transform: translateY(0);
   }
-
   100% {
     transform: translateY(-8px);
+  }
+}
+@media (min-width: 1024px) {
+  a {
+    font-size: 1rem;
   }
 }
