@@ -48,7 +48,7 @@ const WorldMap = () => {
   useEffect(() => {
     const renderMap = () => {
       setError(null);
-      let svg = d3.select(ref.current);
+      const svg = d3.select(ref.current);
       svg.selectAll("*").remove();
       // Responsive full width, taller aspect for full globe
       const width = window.innerWidth;
