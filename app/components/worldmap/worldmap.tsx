@@ -12,13 +12,14 @@ const WorldMap = () => {
     const renderMap = () => {
       let svg = d3.select(ref.current);
       svg.selectAll("*").remove();
-      // Responsive full width
+      // Responsive full width, taller aspect for full globe
       const width = window.innerWidth;
-      const height = Math.max(400, Math.floor(window.innerWidth * 0.38));
+      const height = Math.max(600, Math.floor(window.innerWidth * 0.55));
       svg.attr("width", width).attr("height", height).attr("viewBox", `0 0 ${width} ${height}`);
 
-      // Unique projection: Natural Earth
-      const projection = d3.geoNaturalEarth1().scale(width / 6.5).translate([width / 2, height / 2]);
+      // Natural Earth projection, fit full world vertically
+      const projection = d3.geoNaturalEarth1()
+        .fitExtent([[0, 0], [width, height]], {type: "Sphere"});
       const path = d3.geoPath().projection(projection);
 
       // Gradient background
@@ -75,8 +76,8 @@ const WorldMap = () => {
   }, []);
 
   return (
-    <div style={{ width: "100vw", minHeight: "400px", margin: 0, padding: 0, overflow: "hidden", position: "relative" }}>
-      <svg ref={ref} style={{ width: "100vw", height: "auto", display: "block" }} />
+    <div style={{ width: "100%", minHeight: "600px", margin: 0, padding: 0, overflow: "hidden", position: "relative" }}>
+      <svg ref={ref} style={{ width: "100%", height: "auto", display: "block" }} />
     </div>
   );
 };
