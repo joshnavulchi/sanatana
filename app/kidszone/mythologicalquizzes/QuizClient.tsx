@@ -131,7 +131,7 @@ export default function QuizClient() {
     return (
       <div>
         <h2 className="text-2xl md:text-3xl mb-4">{ns?.readyTitle || 'Ready?'}</h2>
-        <p className="text-xl">{(ns?.readyDescription || 'This quiz has {count} questions, time {time}').replace('{count}', String(qList.length)).replace('{time}', fmtTime(timeLeft))}</p>
+        <h3 className="text-xl md:text-2xl">{(ns?.readyDescription || 'This quiz has {count} questions, time {time}').replace('{count}', String(qList.length)).replace('{time}', fmtTime(timeLeft))}</h3>
         <div className="flex items-center justify-between mt-6">
           <button className="cursor-pointer group md:inline-flex px-4 py-2 bg-white/10 backdrop-blur-md
                     hover:bg-white/20 border-2 border-amber-500/50 hover:border-white
