@@ -130,20 +130,20 @@ export default function QuizClient() {
   if (!started) {
     return (
       <div>
-        <h2 className="text-2xl md:text-3xl">{ns?.readyTitle || 'Ready?'}</h2>
-        <p className="text-xl">{(ns?.readyDescription || 'This quiz has {count} questions, time {time}').replace('{count}', String(qList.length)).replace('{time}', fmtTime(timeLeft))}</p>
+        <h2 className="text-2xl md:text-3xl mb-4">{ns?.readyTitle || 'Ready?'}</h2>
+        <h3 className="text-xl md:text-2xl">{(ns?.readyDescription || 'This quiz has {count} questions, time {time}').replace('{count}', String(qList.length)).replace('{time}', fmtTime(timeLeft))}</h3>
         <div className="flex items-center justify-between mt-6">
-          <button className="cursor-pointer group relative md:inline-flex px-4 py-2 bg-gradient-to-r from-amber-500 to-orange-600
-                    hover:from-amber-600 hover:to-orange-700 text-white  text-lg rounded-full shadow-xl hover:shadow-2xl
-                    transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden" onClick={() => setStarted(true)}>
-            <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
-            <span>{ns?.start || 'Start'}</span>
-          </button>
           <button className="cursor-pointer group md:inline-flex px-4 py-2 bg-white/10 backdrop-blur-md
                     hover:bg-white/20 border-2 border-amber-500/50 hover:border-white
                     text-amber-500  text-lg rounded-full shadow-lg hover:shadow-xl
                     transition-all duration-300 transform hover:-translate-y-1 no-underline" onClick={restart}>
             <span>{ns?.shuffle || 'Shuffle'}</span>
+          </button>
+          <button className="cursor-pointer group relative md:inline-flex px-4 py-2 bg-gradient-to-r from-amber-500 to-orange-600
+                    hover:from-amber-600 hover:to-orange-700 text-white  text-lg rounded-full shadow-xl hover:shadow-2xl
+                    transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden" onClick={() => setStarted(true)}>
+            <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
+            <span>{ns?.start || 'Start'}</span>
           </button>
         </div>
       </div>

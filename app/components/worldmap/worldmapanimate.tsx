@@ -42,7 +42,7 @@ const DEFAULTS = {
   sea: '#0ea5e9',
 };
 
-export default function WorldMapLoop({
+export default function WorldMapAnimated({
   className,
   stroke = DEFAULTS.stroke,
   fill = DEFAULTS.fill,

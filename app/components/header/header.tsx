@@ -22,20 +22,20 @@ const defaultBanner = null;
 const defaultBanner2 = null;
 
 export default function Header() {
-    // Responsive logo width state
-    const [logoWidth, setLogoWidth] = useState(55);
-    useEffect(() => {
-      function handleResize() {
-        if (window.innerWidth < 640) {
-          setLogoWidth(55); // mobile
-        } else {
-          setLogoWidth(45); // tablet
-        }
+  // Responsive logo width state
+  const [logoWidth, setLogoWidth] = useState(55);
+  useEffect(() => {
+    function handleResize() {
+      if (window.innerWidth < 640) {
+        setLogoWidth(55); // mobile
+      } else {
+        setLogoWidth(45); // tablet
       }
-      handleResize(); // Set initial value
-      window.addEventListener('resize', handleResize);
-      return () => window.removeEventListener('resize', handleResize);
-    }, []);
+    }
+    handleResize(); // Set initial value
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
   const { locale } = useLocale();
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
@@ -179,7 +179,7 @@ export default function Header() {
     <header ref={headerRef} className={`w-full sticky top-0 z-30 shadow-md`}>
       {/* <BannerNotifications id="first_banner" message={translations.banner} marquee="true" />
       {/* <BannerNotifications id="second_banner" message={translations.banner2} marquee="false" showClose={true} backgroundclass="notification-alternative-background-color" /> */}
-      <div className="w-full px-2 md:px-0 bg-white/95 shadow-md sticky top-0 z-30 py-2">
+      <div className="w-full px-2 md:px-0 bg-white/95 shadow-md sticky top-0 z-30 py-1">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Logo and Title */}
           <Link href="/" className="flex items-center gap-1 group">
@@ -201,11 +201,7 @@ export default function Header() {
               if (typeof val === "string") {
                 const href = key === "home" ? "/" : `/${key}`;
                 return (
-                  <Link
-                    key={key}
-                    href={href}
-                    role="menuitem"
-                    className={`px-4 py-2 rounded-lg font-semibold text-amber-800 hover:bg-amber-100 hover:text-orange-700 transition-colors duration-150 ${isActive(href) ? "bg-orange-100 text-orange-700" : ""}`}>
+                  <Link key={key} href={href} role="menuitem" className={`px-4 py-2 rounded-lg font-semibold text-amber-800 hover:bg-amber-100 hover:text-orange-700 transition-colors duration-150 ${isActive(href) ? "bg-orange-100 text-orange-700" : ""}`}>
                     {val}
                   </Link>
                 );
@@ -228,13 +224,7 @@ export default function Header() {
                       {/* Accent bar */}
                       <div className="h-1 w-full bg-gradient-to-r from-orange-400 via-amber-400 to-yellow-300" />
                       {Object.entries(val.nav).map(([subKey, subLabel], idx) => (
-                        <Link
-                          key={subKey}
-                          href={`/${key}/${subKey}`}
-                          role="menuitem"
-                          className="flex items-center gap-3 px-5 py-2 text-amber-800 rounded transition-colors duration-150 hover:bg-orange-100 hover:text-orange-700 focus:bg-orange-200 focus:text-orange-800"
-                          style={{ animationDelay: `${idx * 40}ms` }}
-                        >
+                        <Link key={subKey} href={`/${key}/${subKey}`} role="menuitem" className="flex items-center gap-3 px-5 py-2 text-amber-800 rounded transition-colors duration-150 hover:bg-orange-100 hover:text-orange-700 focus:bg-orange-200 focus:text-orange-800" style={{ animationDelay: `${idx * 40}ms` }}>
                           <span className="text-base">🔸</span>
                           <span>{String(subLabel)}</span>
                         </Link>
@@ -253,11 +243,7 @@ export default function Header() {
           <div className="flex items-center md:hidden gap-2">
             <LanguageDropdown />
             <ThemeToggle />
-            <button
-              aria-label="Open menu"
-              onClick={() => setOpen((s) => !s)}
-              className="inline-flex items-center justify-center rounded-lg hover:bg-amber-100 focus:outline-none focus:ring-2 focus:ring-amber-400"
-            >
+            <button aria-label="Open menu" onClick={() => setOpen((s) => !s)} className="inline-flex items-center justify-center rounded-lg hover:bg-amber-100 focus:outline-none focus:ring-2 focus:ring-amber-400">
               <svg className="h-8 w-8 text-orange-600" fill="none" viewBox="0 0 32 32" stroke="currentColor" aria-hidden="true">
                 {open ? (
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -277,14 +263,7 @@ export default function Header() {
                 if (typeof val === "string") {
                   const href = key === "home" ? "/" : `/${key}`;
                   return (
-                    <Link
-                      key={key}
-                      href={href}
-                      className={
-                        `block px-4 py-2 rounded-lg font-semibold text-amber-800 hover:bg-amber-100 hover:text-orange-700 transition-colors duration-150 ${isActive(href) ? "bg-orange-100 text-orange-700" : ""}`
-                      }
-                      onClick={() => setOpen(false)}
-                    >
+                    <Link key={key} href={href} className={`block px-4 py-2 rounded-lg font-semibold text-amber-800 hover:bg-amber-100 hover:text-orange-700 transition-colors duration-150 ${isActive(href) ? "bg-orange-100 text-orange-700" : ""}`} onClick={() => setOpen(false)}>
                       {val}
                     </Link>
                   );

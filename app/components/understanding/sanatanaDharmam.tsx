@@ -57,12 +57,8 @@ export default function UnderstandingOfSanatana() {
 
       <div className="content-wrapper relative z-10">
         {sections.map((section, sectionIndex) => (
-          <div
-            key={section.id}
-            className={`mx-auto max-w-7xl mb-12 last:mb-0 transition-all duration-1000 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-              }`}
-            style={{ transitionDelay: `${sectionIndex * 150}ms` }}
-          >
+          <div key={section.id} className={`mx-auto max-w-7xl mb-12 last:mb-0 transition-all duration-1000 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
+            style={{ transitionDelay: `${sectionIndex * 150}ms` }}>
             {/* Header */}
             <div className="md:mx-auto md:max-w-6xl text-center">
               <div className="flex items-center justify-center gap-2">
@@ -77,7 +73,7 @@ export default function UnderstandingOfSanatana() {
                 {section.title}
               </h5>
 
-              <p className="text-lg  mb-6">
+              <p className="text-lg mb-6">
                 {section.content}
               </p>
 
@@ -95,7 +91,7 @@ export default function UnderstandingOfSanatana() {
             </div>
 
             {/* Items */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
               {section.items?.map((topic, topicIndex) => (
                 <div key={`${section.id}-${topic.id || topicIndex}`} className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition">
                   <div className="text-center">
