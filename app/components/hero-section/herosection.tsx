@@ -169,7 +169,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
           </div>
 
           {/* Right Side - Decorative Card */}
-          <div className={`w-full transition-all text-center duration-1000 ease-out ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
+          <div className={`w-full transition-all text-center duration-1000 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'}`}>
             <div className="flex flex-col items-center md:mx-auto md:max-w-2xl">
               {/* Om Symbol Accent */}
               <div className="flex items-center gap-3">
@@ -193,12 +193,10 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
               <h4 className="text-2xl md:text-3xl font-semibold text-amber-300 leading-snug drop-shadow-lg [text-shadow:_1px_1px_4px_rgb(0_0_0_/_60%)]">
                 {hero?.subheading || 'Eternal Wisdom'}
               </h4>
-
               {/* Description */}
               <p className="text-lg lg:text-xl text-gray-100 drop-shadow-lg [text-shadow:_1px_1px_3px_rgb(0_0_0_/_70%)] mt-6">
                 {hero?.description || 'Discover the timeless teachings and sacred wisdom of ancient India'}
               </p>
-
               {/* CTA Buttons */}
               <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 mt-6">
                 <Link href={hero?.primarycta?.link ? `/${hero.primarycta.link}` : '/scriptures'}
