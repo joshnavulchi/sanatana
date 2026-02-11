@@ -3,6 +3,29 @@ import { useRef, useEffect } from "react";
 import * as d3 from "d3";
 import * as topojson from "topojson-client";
 
+const ERA_OPTIONS = [
+  {
+    label: "750 million years ago (Cryogenian)",
+    value: "cryogenian",
+    file: "/data/cryogenian-750m.json"
+  },
+  {
+    label: "240 million years ago (Pangea)",
+    value: "pangea",
+    file: "/data/pangea-240m.json"
+  },
+  {
+    label: "120 million years ago (Cretaceous)",
+    value: "cretaceous",
+    file: "/data/cretaceous-120m.json"
+  },
+  {
+    label: "66 million years ago (Post-dinosaur)",
+    value: "postdinosaur",
+    file: "/data/postdinosaur-66m.json"
+  },
+];
+
 const WORLD_MAP_URL = "/data/countries-110m.json"; // Local TopoJSON world map
 
 const WorldMap = () => {
@@ -68,6 +91,29 @@ const WorldMap = () => {
           .on("click", function (event, d: any) {
             alert("Country: " + (d.properties?.name || "Unknown"));
           });
+        // Add country/landmass code labels
+        svg.append("g")
+          .selectAll("text")
+          .data(countries.features)
+          .enter()
+          .append("text")
+          .attr("x", (d: any) => {
+            const c = path.centroid(d);
+            return c[0];
+          })
+          .attr("y", (d: any) => {
+            const c = path.centroid(d);
+            return c[1];
+          })
+          .text((d: any) => d.properties?.iso_a2 || d.properties?.code || d.properties?.name?.slice(0, 3) || "?")
+          .attr("text-anchor", "middle")
+          .attr("alignment-baseline", "middle")
+          .attr("font-size", 10)
+          .attr("font-weight", 400)
+          .attr("fill", "#fff")
+          .attr("stroke", "#fff")
+          .attr("stroke-width", 0.0)
+          .attr("pointer-events", "none");
       });
     };
     renderMap();
