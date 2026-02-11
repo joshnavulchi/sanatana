@@ -1,9 +1,15 @@
 "use client";
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 import * as d3 from "d3";
 import * as topojson from "topojson-client";
 
+
 const ERA_OPTIONS = [
+  {
+    label: "Modern (Present Day)",
+    value: "modern",
+    file: "/data/countries-110m.json"
+  },
   {
     label: "750 million years ago (Cryogenian)",
     value: "cryogenian",
@@ -26,18 +32,20 @@ const ERA_OPTIONS = [
   },
 ];
 
-const WORLD_MAP_URL = "/data/countries-110m.json"; // Local TopoJSON world map
-
 const WorldMap = () => {
   const ref = useRef<SVGSVGElement>(null);
+  const [era, setEra] = useState('modern');
+  const [error, setError] = useState<string | null>(null);
+
 
   useEffect(() => {
     const renderMap = () => {
+      setError(null);
       let svg = d3.select(ref.current);
       svg.selectAll("*").remove();
       // Responsive full width, taller aspect for full globe
       const width = window.innerWidth;
-      const height = Math.max(600, Math.floor(window.innerWidth * 0.55));
+      const height = Math.max(400, Math.floor(window.innerWidth * 0.55));
       svg.attr("width", width).attr("height", height).attr("viewBox", `0 0 ${width} ${height}`);
 
       // Natural Earth projection, fit full world vertically
@@ -67,9 +75,19 @@ const WorldMap = () => {
         .attr("height", height)
         .attr("fill", "url(#bg-gradient)");
 
-      // Fetch world map
-      d3.json(WORLD_MAP_URL).then((world: any) => {
-        const countries = topojson.feature(world, world.objects.countries);
+      // Fetch world map for selected era
+      const eraFile = ERA_OPTIONS.find(e => e.value === era)?.file;
+      if (!eraFile) return;
+      d3.json(eraFile).then((world: any) => {
+        if (!world || !world.objects) {
+          setError("No map data found for this era. Please check your TopoJSON file.");
+          return;
+        }
+        const countries = topojson.feature(world, world.objects.countries || world.objects.landmasses);
+        if (!countries.features || countries.features.length === 0) {
+          setError("No features found in the TopoJSON file for this era.");
+          return;
+        }
         svg
           .append("g")
           .selectAll("path")
@@ -79,7 +97,7 @@ const WorldMap = () => {
           .attr("d", path as any)
           .attr("fill", "#a3d9a5")
           .attr("stroke", "#fff")
-          .attr("stroke-width", 0.7)
+          .attr("stroke-width", 0.1)
           .attr("opacity", 0.93)
           .style("filter", "drop-shadow(0 2px 8px #0008)")
           .on("mouseover", function () {
@@ -114,16 +132,44 @@ const WorldMap = () => {
           .attr("stroke", "#fff")
           .attr("stroke-width", 0.0)
           .attr("pointer-events", "none");
+      }).catch(() => {
+        setError("Could not load map data for this era. File may be missing or invalid.");
       });
     };
     renderMap();
     window.addEventListener("resize", renderMap);
     return () => window.removeEventListener("resize", renderMap);
-  }, []);
+  }, [era]);
 
   return (
-    <div style={{ width: "100%", minHeight: "600px", margin: 0, padding: 0, overflow: "hidden", position: "relative" }}>
+    <div style={{ width: "100%", minHeight: "200px", margin: 0, padding: 0, overflow: "hidden", position: "relative" }}>
+      <div style={{ position: 'absolute', top: 24, left: 0, zIndex: 10, background: 'rgba(255,255,255,0.85)', padding: '2px 4px', margin: '0 24px', boxShadow: '0 2px 8px #0002' }}>
+        <label htmlFor="era-select" style={{ fontWeight: 600, marginRight: 8 }}>Geological Era:</label>
+        <select id="era-select" value={era} onChange={e => setEra(e.target.value)} style={{ fontSize: 16, padding: '2px 4px', borderRadius: 3 }}>
+          {ERA_OPTIONS.map(opt => (
+            <option key={opt.value} value={opt.value}>{opt.label}</option>
+          ))}
+        </select>
+      </div>
       <svg ref={ref} style={{ width: "100%", height: "auto", display: "block" }} />
+      {error && (
+        <div style={{
+          position: 'absolute',
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)',
+          background: 'rgba(255,255,255,0.95)',
+          color: '#b71c1c',
+          padding: '24px 32px',
+          borderRadius: 12,
+          fontWeight: 600,
+          fontSize: 20,
+          boxShadow: '0 2px 16px #0003',
+          zIndex: 100
+        }}>
+          {error}
+        </div>
+      )}
     </div>
   );
 };
