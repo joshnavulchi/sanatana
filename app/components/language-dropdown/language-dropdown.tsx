@@ -151,7 +151,7 @@ export default function LanguageDropdown() {
   }, [filteredLanguages, open, currentLang]);
 
   return (
-    <div role="menuItem" ref={dropdownRef} className="relative">
+    <div role="menuItem" ref={dropdownRef} className="relative hidden">
       {/* Dropdown Button */}
       <button
         role="button"
