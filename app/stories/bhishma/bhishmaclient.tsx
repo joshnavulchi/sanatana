@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
+import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
 import { useLocale } from '@/app/context/locale-context';
 import useLocaleSection from '../../hooks/useLocaleSection';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
@@ -20,7 +21,16 @@ export default function BhishmaClient({ searchParams }: any) {
       breadcrumbs={[{ label: homeLabel, href: '/' }, { label: title }]}
       className="layout-sm"
     >
-      <p>{placeholder}</p>
+      <div className="flex flex-col lg:flex-row gap-8">
+        <div className="w-full lg:w-3/4">
+          <p>{placeholder}</p>
+        </div>
+        <div className="w-full lg:w-1/4">
+          <div className="sticky top-24">
+            <SimilarCategories currentCategory="stories" />
+          </div>
+        </div>
+      </div>
     </PageLayout>
   );
 }

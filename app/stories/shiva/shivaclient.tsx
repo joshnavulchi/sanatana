@@ -2,6 +2,7 @@
 import { useLocale } from '../../context/locale-context';
 import useLocaleSection from '../../hooks/useLocaleSection';
 import PageLayout from '@/app/components/common/PageLayout';
+import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
 
 export default function ShivaClient() {
   const { locale } = useLocale();
@@ -18,7 +19,16 @@ export default function ShivaClient() {
       breadcrumbs={[{ label: homeLabel, href: '/' }, { label: title }]}
       className="layout-md"
     >
-      <p>{placeholder}</p>
+      <div className="flex flex-col lg:flex-row gap-8">
+        <div className="w-full lg:w-3/4">
+          <p>{placeholder}</p>
+        </div>
+        <div className="w-full lg:w-1/4">
+          <div className="sticky top-24">
+            <SimilarCategories currentCategory="stories" />
+          </div>
+        </div>
+      </div>
     </PageLayout>
   );
 }

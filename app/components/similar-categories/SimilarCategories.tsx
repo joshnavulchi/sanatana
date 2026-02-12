@@ -29,43 +29,40 @@ export default function SimilarCategories({
         const locObj = (ns && typeof ns === 'object') ? ns : {};
         // The navigation data is under sharable_strings.header or sharable_strings.footer
         const sharableStrings = (locObj as any)?.sharable_strings;
-        const navData = sharableStrings?.header || sharableStrings?.footer || (locObj as any)?.header || {};
+        // Prefer footer nav when available, fall back to header
+        const navData = sharableStrings?.footer || sharableStrings?.header || (locObj as any)?.footer || (locObj as any)?.header || {};
         // Extract categories with their navigation items
         const extractedCategories: Array<{ key: string; title: string; links: Array<{ key: string; label: string; href: string }> }> = [];
         // Define all known categories to ensure they're included
         const knownCategories = ['philosophy', 'scriptures', 'kidszone', 'practices', 'stories'];
 
-        Object.entries(navData).forEach(([key, value]: [string, any]) => {
-          console.log(`Checking key: ${key}, type: ${typeof value}, has nav: ${value?.nav ? 'YES' : 'NO'}`);
-
-          // Include ALL categories with nav property - not just specific ones
-          if (typeof value === 'object' && value !== null && value.nav && typeof value.nav === 'object') {
-            // Skip current category if excludeCurrent is true
-            if (excludeCurrent && key === currentCategory) {
-              console.log(`❌ Skipping current category: ${key}`);
-              return;
-            }
-            const categoryTitle = value.title || key;
+        // navData can be an object of categories or an array of links
+        if (Array.isArray(navData)) {
+          // footer as an array of link objects? try to group under 'footer'
+          const links = navData.slice(0, 6).map((l: any, i: number) => ({ key: l.key || `f${i}`, label: l.label || l.title || l, href: l.href || l.url || '#' }));
+          if (links.length) {
+            extractedCategories.push({ key: 'footer', title: 'Footer', links });
+          }
+        } else {
+          Object.entries(navData).forEach(([key, value]: [string, any]) => {
+            // If value has a 'nav' object, use that
+            const navObj = value?.nav || value?.links || (typeof value === 'object' && value ? value : null);
+            if (!navObj || typeof navObj !== 'object') return;
+            if (excludeCurrent && key === currentCategory) return;
+            const categoryTitle = (value && value.title) ? value.title : key;
             const links: Array<{ key: string; label: string; href: string }> = [];
-            // Extract navigation items from the category
-            Object.entries(value.nav).forEach(([navKey, navLabel]: [string, any]) => {
+            Object.entries(navObj).forEach(([navKey, navLabel]: [string, any]) => {
               if (typeof navLabel === 'string') {
-                links.push({
-                  key: navKey,
-                  label: navLabel,
-                  href: `/${key}/${navKey}`
-                });
+                links.push({ key: navKey, label: navLabel, href: `/${key}/${navKey}` });
+              } else if (typeof navLabel === 'object' && navLabel) {
+                const label = navLabel.label || navLabel.title || JSON.stringify(navLabel);
+                const href = navLabel.href || navLabel.url || `/${key}/${navKey}`;
+                links.push({ key: navKey, label, href });
               }
             });
-            if (links.length > 0) {
-              extractedCategories.push({
-                key,
-                title: categoryTitle,
-                links: links.slice(0, 4) // Limit to 4 links per category
-              });
-            }
-          }
-        });
+            if (links.length > 0) extractedCategories.push({ key, title: categoryTitle, links: links.slice(0, 6) });
+          });
+        }
         // Ensure philosophy is always included if it exists and not excluded
         const priorityCategories = knownCategories;
         extractedCategories.sort((a, b) => {
@@ -87,28 +84,28 @@ export default function SimilarCategories({
   }, [locale, currentCategory, maxItems, excludeCurrent]);
   if (categories.length === 0) {
     return (
-      <aside className="p-4">
-        <h5>{title}</h5>
-        <p>Loading categories or no categories available...</p>
+      <aside className="p-4 bg-white/70 ring-1 ring-gray-100 rounded-lg">
+        <h5 className="text-lg font-semibold">{title}</h5>
+        <p className="text-sm text-gray-600">Loading categories or no categories available...</p>
       </aside>
     );
   }
   return (
-    <aside>
-      <h5 className="text-2xl text-gray-900">{title}</h5>
-      <div>
+    <aside className="p-4 bg-white/90 ring-1 ring-gray-100 rounded-lg">
+      <h5 className="text-xl font-semibold text-gray-900 mb-3">{title}</h5>
+      <div className="space-y-4">
         {categories.map((category) => {
           return (
-            <div key={category.key} className="shadown-sm p-4">
-              <h6 className="text-lg mb-3 text-gray-800">
+            <div key={category.key} className="p-3 rounded-md bg-white/50">
+              <h6 className="text-lg mb-2 text-gray-800">
                 <Link href={`/${category.key}`} className="hover:underline">
                   {category.title}
                 </Link>
               </h6>
-              <ul>
+              <ul className="space-y-2">
                 {category.links.map((link) => (
-                  <li key={link.key} className="">
-                    <Link href={link.href} className="hover:underline">
+                  <li key={link.key} className="text-sm">
+                    <Link href={link.href} className="text-gray-700 hover:text-gray-900 hover:underline">
                       {link.label}
                     </Link>
                   </li>

@@ -5,6 +5,7 @@ import { useLocale } from '../context/locale-context';
 import useLocaleSection from '../hooks/useLocaleSection';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
 import Loader from '@/app/components/loader/loader';
+import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
 import TextToSpeech from '@/app/components/text-to-speech/TextToSpeech';
 
 export default function DiseasesCuringTemplesClient() {
@@ -73,13 +74,13 @@ export default function DiseasesCuringTemplesClient() {
           const icon = icons[index % icons.length];
 
           return (
-            <div key={section.id || index} className="relative bg-white border-2 border-emerald-100 rounded-2xl p-6 md:p-8 mt-12 shadow-lg hover:shadow-2xl transition-all duration-500 group overflow-hidden">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-amber-400/10 to-transparent rounded-tr-2xl" />
+            <div key={section.id || index} className="relative bg-white border-2 border-emerald-100 rounded-2xl p-6 md:p-8 mt-12 transform-gpu transition-transform duration-300 hover:-translate-y-1 hover:scale-105 ring-1 ring-emerald-100/30 bg-white/80 backdrop-blur-sm group overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-emerald-400/10 to-transparent rounded-tr-2xl" />
               <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-green-400/8 to-transparent rounded-bl-2xl" />
 
               <div className="relative z-10 space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-emerald-100 to-green-100 rounded-xl flex items-center justify-center text-2xl shadow-md group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300">{icon}</div>
+                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-emerald-100 to-green-100 rounded-xl flex items-center justify-center text-2xl ring-1 ring-emerald-50/40 group-hover:scale-105 group-hover:rotate-3 transition-transform duration-300">{icon}</div>
 
                   <Tag className="flex-1 text-2xl md:text-3xl font-bold text-gray-900 group-hover:text-emerald-600 transition-colors duration-300">
                     {section.temple_name || section.name || section.title}
@@ -104,8 +105,12 @@ export default function DiseasesCuringTemplesClient() {
           );
         })}
 
+        <div className="mt-12">
+          <SimilarCategories currentCategory="temples" />
+        </div>
+
         {data.disclaimer && (
-          <div className="relative bg-gradient-to-br from-amber-50 to-orange-50 border-l-4 border-amber-500 rounded-lg p-6 md:p-8 mt-12 shadow-lg">
+          <div className="relative bg-gradient-to-br from-emerald-50 to-green-50 border-l-4 border-emerald-500 rounded-lg p-6 md:p-8 mt-12 ring-1 ring-emerald-100/30 bg-white/70 backdrop-blur-sm">
             <div className="flex items-start gap-4">
               <span className="text-3xl">⚠️</span>
               <div className="flex-1">
