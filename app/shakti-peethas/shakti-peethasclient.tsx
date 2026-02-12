@@ -46,14 +46,14 @@ export default function ShaktiPeethasClient() {
       <TextToSpeech sectionId="shakti-peethas" className="floating" />
 
       <div id="shaktipeethas-content">
-        <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 rounded-2xl overflow-hidden">
-          <div className="absolute top-0 right-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl" />
-          <div className="absolute bottom-0 left-0 w-80 h-80 bg-orange-400/10 rounded-full blur-3xl" />
+        <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-rose-50 via-pink-50 to-rose-50 rounded-2xl overflow-hidden">
+          <div className="absolute top-0 right-0 w-64 h-64 bg-rose-400/10 rounded-full blur-3xl" />
+          <div className="absolute bottom-0 left-0 w-80 h-80 bg-pink-400/8 rounded-full blur-3xl" />
           <div className="relative z-10">
             <div className="flex items-center gap-3 mb-6">
-              <div className="h-px w-12 bg-gradient-to-r from-transparent to-amber-500" />
+              <div className="h-px w-12 bg-gradient-to-r from-transparent to-rose-500" />
               <span className="text-3xl animate-pulse">🌺</span>
-              <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-500" />
+              <div className="h-px w-12 bg-gradient-to-l from-transparent to-rose-500" />
             </div>
 
             <p className="text-lg md:text-xl leading-relaxed">{data.intro}</p>
@@ -67,14 +67,14 @@ export default function ShaktiPeethasClient() {
           const icon = icons[index % icons.length];
 
           return (
-            <div key={section.id || index} className="relative bg-white border-2 border-amber-100 rounded-2xl p-6 md:p-8 mt-12 shadow-lg hover:shadow-2xl transition-all duration-500 group overflow-hidden">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-amber-400/10 to-transparent rounded-tr-2xl" />
-              <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-orange-400/10 to-transparent rounded-bl-2xl" />
+            <div key={section.id || index} className="relative bg-white border-2 border-rose-100 rounded-2xl p-6 md:p-8 mt-12 shadow-lg hover:shadow-2xl transition-all duration-500 group overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-rose-400/10 to-transparent rounded-tr-2xl" />
+              <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-pink-400/8 to-transparent rounded-bl-2xl" />
 
               <div className="relative z-10 space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-amber-100 to-orange-100 rounded-xl flex items-center justify-center text-2xl shadow-md group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300">{icon}</div>
-                  <Tag className="flex-1 text-2xl md:text-3xl font-bold text-gray-900 group-hover:text-amber-600 transition-colors duration-300">{section.name || section.title}</Tag>
+                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-rose-100 to-pink-100 rounded-xl flex items-center justify-center text-2xl shadow-md group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300">{icon}</div>
+                  <Tag className="flex-1 text-2xl md:text-3xl font-bold text-gray-900 group-hover:text-rose-600 transition-colors duration-300">{section.name || section.title}</Tag>
                 </div>
                 <p className="text-base md:text-lg leading-relaxed pl-16">{section.location || section.body_part || section.shakti || ''}</p>
                 <ul className="mt-3 pl-16 space-y-2">

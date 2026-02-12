@@ -53,14 +53,14 @@ export default function JyotirlingsClient() {
       <TextToSpeech sectionId="jyotirlings" className="floating" />
 
       <div id="jyotirlings-content">
-        <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 rounded-2xl overflow-hidden">
+        <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-yellow-50 via-amber-50 to-yellow-50 rounded-2xl overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl" />
-          <div className="absolute bottom-0 left-0 w-80 h-80 bg-orange-400/10 rounded-full blur-3xl" />
+          <div className="absolute bottom-0 left-0 w-80 h-80 bg-yellow-400/8 rounded-full blur-3xl" />
           <div className="relative z-10">
             <div className="flex items-center gap-3 mb-6">
-              <div className="h-px w-12 bg-gradient-to-r from-transparent to-amber-500" />
+              <div className="h-px w-12 bg-gradient-to-r from-transparent to-amber-600" />
               <span className="text-3xl animate-pulse">🛕</span>
-              <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-500" />
+              <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-600" />
             </div>
 
             <p className="text-lg md:text-xl leading-relaxed">{data.intro}</p>
@@ -74,17 +74,14 @@ export default function JyotirlingsClient() {
           const icon = icons[index % icons.length];
 
           return (
-            <div
-              key={section.id || index}
-              className="relative bg-white border-2 border-amber-100 rounded-2xl p-6 md:p-8 mt-12 shadow-lg hover:shadow-2xl transition-all duration-500 group overflow-hidden"
-            >
+            <div key={section.id || index} className="relative bg-white border-2 border-yellow-100 rounded-2xl p-6 md:p-8 mt-12 shadow-lg hover:shadow-2xl transition-all duration-500 group overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-amber-400/10 to-transparent rounded-tr-2xl" />
-              <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-orange-400/10 to-transparent rounded-bl-2xl" />
+              <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-yellow-400/8 to-transparent rounded-bl-2xl" />
 
               <div className="relative z-10 space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-amber-100 to-orange-100 rounded-xl flex items-center justify-center text-2xl shadow-md group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300">{icon}</div>
-                  <Tag className="flex-1 text-2xl md:text-3xl font-bold text-gray-900 group-hover:text-amber-600 transition-colors duration-300">{section.name || section.title}</Tag>
+                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-yellow-100 to-amber-100 rounded-xl flex items-center justify-center text-2xl shadow-md group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300">{icon}</div>
+                  <Tag className="flex-1 text-2xl md:text-3xl font-bold text-gray-900 group-hover:text-amber-700 transition-colors duration-300">{section.name || section.title}</Tag>
                 </div>
                 {section?.timeline?.early_mentions && <p className="text-base md:text-lg leading-relaxed pl-16">{section.timeline.early_mentions}</p>}
                 {section?.timeline?.ancient_mentions && <p className="text-base md:text-lg leading-relaxed pl-16">{section.timeline.ancient_mentions}</p>}
@@ -96,7 +93,7 @@ export default function JyotirlingsClient() {
         })}
 
         {data.disclaimer && (
-          <div className="relative bg-gradient-to-br from-amber-50 to-orange-50 border-l-4 border-amber-500 rounded-lg p-6 md:p-8 mt-12 shadow-lg">
+          <div className="relative bg-gradient-to-br from-yellow-50 to-amber-50 border-l-4 border-amber-600 rounded-lg p-6 md:p-8 mt-12 shadow-lg">
             <div className="flex items-start gap-4">
               <span className="text-3xl">⚠️</span>
               <div className="flex-1">
