@@ -1,5 +1,5 @@
 import { createGenerateMetadata } from 'lib/pageUtils';
-export const generateMetadata = createGenerateMetadata('stostrasmantras_devi');
+export const generateMetadata = createGenerateMetadata('stotrasmantras_devi');
 
 import DeviClient from './deviclient';
 

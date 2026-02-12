@@ -104,7 +104,7 @@ const WorldMap = () => {
       .attr("class", "wm-country-label")
       .attr("x", d => path.centroid(d as any)[0])
       .attr("y", d => path.centroid(d as any)[1])
-      .text((d: any) => d.properties?.iso_a2 || d.properties?.code || d.properties?.name?.slice(0, 3) || "?")
+      .text((d: any) => d.properties?.iso_a2 || d.properties?.code || d.properties?.name?.slice(0, 2) || "?")
       .attr("text-anchor", "middle")
       .attr("alignment-baseline", "middle")
       .attr("font-size", 10)
@@ -185,9 +185,9 @@ const WorldMap = () => {
   return (
     <div style={{ width: "100%", minHeight: "200px", margin: 0, padding: 0, overflow: "hidden", position: "relative" }}>
       <style>{labelStyle}</style>
-      <div style={{ position: 'absolute', top: 24, left: 0, zIndex: 10, background: 'rgba(255,255,255,0.85)', borderRadius: 3, padding: '4px 16px', margin: '0 24px', boxShadow: '0 2px 8px #0002' }}>
-        <label htmlFor="era-select" style={{ fontWeight: 600, marginRight: 8 }}>Geological Era:</label>
-        <select id="era-select" value={era} onChange={e => setEra(e.target.value)} style={{ fontSize: 16, padding: '2px 4px', borderRadius: 3 }}>
+      <div style={{ position: 'absolute', top: 20, left: 0, zIndex: 10, background: 'rgba(255,255,255,0.85)', borderRadius: 3, padding: '3px 12px', margin: '0 12px', boxShadow: '0 2px 8px #0002' }}>
+        <label htmlFor="era-select" style={{ fontSize: 14, fontWeight: 600, marginRight: 4 }}>Geological Era:</label>
+        <select id="era-select" value={era} onChange={e => setEra(e.target.value)} style={{ fontSize: 14, padding: '2px 4px', borderRadius: 3 }}>
           {ERA_OPTIONS.map(opt => (
             <option key={opt.value} value={opt.value}>{opt.label}</option>
           ))}

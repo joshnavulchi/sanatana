@@ -8,11 +8,11 @@ import PageLayout from '@/app/components/common/PageLayout';
 
 export default function DeviClient() {
   const { locale, isLoading } = useLocale();
-  const ns = useLocaleSection('stotrasmantras_hanuman');
+  const ns = useLocaleSection('stotrasmantras_ganesh');
 
   // Initialize with empty state to avoid hydration mismatch
   // useLocaleSection will populate the data properly
-  const [hanuman, setHanuman] = useState({ title: '', intro: '', hanuman_stotras: [] as any[] });
+  const [ganesh, setGanesh] = useState({ title: '', intro: '', ganesh_stotras: [] as any[] });
 
   useEffect(() => {
     let mounted = true;
@@ -24,20 +24,20 @@ export default function DeviClient() {
       if (!mounted) return;
       const title = String(ns?.title || '');
       const intro = String(ns?.intro || '');
-      const sectionsRaw = parseMaybeObject(ns ? ns.hanuman_stotras : '');
-      const hanuman_stotras = parseSections(sectionsRaw);
-      setHanuman({ title, intro, hanuman_stotras });
+      const sectionsRaw = parseMaybeObject(ns ? ns.ganesh_stotras : '');
+      const ganesh_stotras = parseSections(sectionsRaw);
+      setGanesh({ title, intro, ganesh_stotras });
     })();
     return () => { mounted = false; };
   }, [locale, ns]);
 
   // Show loading state if locale is still loading and we have no content
-  if (isLoading && !hanuman.title) {
+  if (isLoading && !ganesh.title) {
     return (
       <PageLayout
-        metaKey="stotrasmantras_hanuman"
-        title={hanuman?.title}
-        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: hanuman?.title }]}
+        metaKey="stotrasmantras_ganesh"
+        title={ganesh?.title}
+        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: ganesh?.title }]}
         className="layout-md"
       >
         <div className="flex items-center justify-center py-12">
@@ -49,9 +49,9 @@ export default function DeviClient() {
 
   return (
     <PageLayout
-      metaKey="stotrasmantras_hanuman"
-      title={hanuman.title}
-      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: hanuman.title }]}
+      metaKey="stotrasmantras_ganesh"
+      title={ganesh.title}
+      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: ganesh.title }]}
       className="layout-md">
       <div>
         {/* Hero intro section */}
@@ -69,13 +69,13 @@ export default function DeviClient() {
             </div>
 
             <p className="text-lg md:text-xl  leading-relaxed">
-              {hanuman?.intro}
+              {ganesh?.intro}
             </p>
           </div>
         </div>
 
         {/* Sections as cards */}
-        {hanuman.hanuman_stotras.map((section: any, index: number) => {
+        {ganesh.ganesh_stotras.map((section: any, index: number) => {
           const level = Math.min(index + 2, 6);
           const Tag = `h${level}` as unknown as React.ElementType;
 

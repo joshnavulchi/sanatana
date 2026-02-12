@@ -1,8 +1,8 @@
 
 import { createGenerateMetadata } from 'lib/pageUtils';
-export const generateMetadata = createGenerateMetadata('stotrasmantras_ganesha');
+export const generateMetadata = createGenerateMetadata('stotrasmantras_ganesh');
 
-import GaneshaClient from './ganeshaclient';
+import GaneshaClient from './ganeshclient';
 
 export default function Page() {
   return <GaneshaClient />;

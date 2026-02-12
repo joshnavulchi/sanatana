@@ -20,7 +20,7 @@ export default function ShivaClient() {
       metaKey="stotrasmantras_shiva"
       title={page.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
-      className=""
+      className="layout-md"
     >
       {items.map((item: any, i: number) => (
         <section key={i}>
