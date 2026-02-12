@@ -16,7 +16,7 @@ export default function VishnuClient() {
       metaKey="stories_vishnu"
       title={title}
       breadcrumbs={[{ label: homeLabel, href: '/' }, { label: title }]}
-      className=""
+      className="layout-md"
     >
       <p>{placeholder}</p>
     </PageLayout>

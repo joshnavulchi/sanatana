@@ -8,7 +8,7 @@ export default function DeviClient() {
   const { locale } = useLocale();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
-    const k: any = getMeta('stostrasmantras_devi', {}, locale) || {};
+    const k: any = getMeta('stotrasmantras_devi', {}, locale) || {};
     return {
       title: typeof k.title === 'string' ? k.title : 'Devi Stotras',
       items: Array.isArray(k.items) ? k.items : parseList('')
@@ -17,10 +17,10 @@ export default function DeviClient() {
   const items = page.items || [];
   return (
     <PageLayout
-      metaKey="stostrasmantras_devi"
+      metaKey="stotrasmantras_devi"
       title={page.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
-      className="layout-sm"
+      className="layout-md"
     >
       {items.map((item: any, i: number) => (
         <section key={i}>

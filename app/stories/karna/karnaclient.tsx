@@ -16,7 +16,7 @@ export default function KarnaClient() {
       metaKey="stories_karna"
       title={title}
       breadcrumbs={[{ label: homeLabel, href: '/' }, { label: title }]}
-      className=""
+      className="layout-md"
     >
       <p>{placeholder}</p>
     </PageLayout>

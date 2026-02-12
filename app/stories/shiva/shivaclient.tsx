@@ -16,7 +16,7 @@ export default function ShivaClient() {
       metaKey="stories_shiva"
       title={title}
       breadcrumbs={[{ label: homeLabel, href: '/' }, { label: title }]}
-      className=""
+      className="layout-md"
     >
       <p>{placeholder}</p>
     </PageLayout>

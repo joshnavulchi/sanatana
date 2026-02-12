@@ -8,7 +8,7 @@ export default function GaneshaClient() {
   const { locale } = useLocale();
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
-    const k: any = getMeta('stostrasmantras_dailyprayers', {}, locale) || {};
+    const k: any = getMeta('stotrasmantras_ganesh', {}, locale) || {};
     return {
       title: typeof k.title === 'string' ? k.title : 'Ganesha Stotras',
       items: Array.isArray(k.items) ? k.items : parseList('')
@@ -17,10 +17,10 @@ export default function GaneshaClient() {
   const items = page.items || [];
   return (
     <PageLayout
-      metaKey="stostrasmantras_dailyprayers"
+      metaKey="stotrasmantras_ganesh"
       title={page.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
-      className="layout-sm"
+      className="layout-md"
     >
       {items.map((item: any, i: number) => (
         <section key={i}>
