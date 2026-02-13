@@ -84,28 +84,28 @@ export default function SimilarCategories({
   }, [locale, currentCategory, maxItems, excludeCurrent]);
   if (categories.length === 0) {
     return (
-      <aside className="p-4 bg-white/70 ring-1 ring-gray-100 rounded-lg">
-        <h5 className="text-lg font-semibold">{title}</h5>
+      <aside className="p-4 bg-white/80 border-l-4 border-emerald-500 shadow-lg rounded-xl">
+        <h5 className="text-lg font-bold text-emerald-700 mb-2">{title}</h5>
         <p className="text-sm text-gray-600">Loading categories or no categories available...</p>
       </aside>
     );
   }
   return (
-    <aside className="p-4 bg-white/90 ring-1 ring-gray-100 rounded-lg">
-      <h5 className="text-xl font-semibold text-gray-900 mb-3">{title}</h5>
+    <aside className="p-4 bg-white/90 border-l-4 border-emerald-500 shadow-lg rounded-xl">
+      <h5 className="text-xl font-bold text-emerald-700 mb-4 tracking-wide">{title}</h5>
       <div className="space-y-4">
         {categories.map((category) => {
           return (
-            <div key={category.key} className="p-3 rounded-md bg-white/50">
-              <h6 className="text-lg mb-2 text-gray-800">
-                <Link href={`/${category.key}`} className="hover:underline">
+            <div key={category.key} className="p-3 rounded-lg bg-emerald-50/80 border border-emerald-100 shadow-sm">
+              <h6 className="text-lg mb-2 text-emerald-800 font-semibold">
+                <Link href={`/${category.key}`} className="hover:underline hover:text-emerald-600 transition-colors">
                   {category.title}
                 </Link>
               </h6>
               <ul className="space-y-2">
                 {category.links.map((link) => (
                   <li key={link.key} className="text-sm">
-                    <Link href={link.href} className="text-gray-700 hover:text-gray-900 hover:underline">
+                    <Link href={link.href} className="text-emerald-700 hover:text-emerald-900 hover:underline transition-colors">
                       {link.label}
                     </Link>
                   </li>

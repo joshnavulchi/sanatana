@@ -1,36 +1,33 @@
 "use client";
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
+import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../../context/locale-context';
 import useLocaleSection from '../../hooks/useLocaleSection';
-import PageLayout from '@/app/components/common/PageLayout';
-import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
 import Loader from '@/app/components/loader/loader';
+import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
+
 
 export default function KarnaClient() {
   const { locale, isLoading } = useLocale();
   const ns = useLocaleSection('stories_karna');
-
-  const [data, setData] = useState({ title: '', content: {} as any });
+  const [data, setData] = useState({ title: '', intro: '', content: {} as any });
 
   useEffect(() => {
     let mounted = true;
     (async () => {
       if (!mounted) return;
-      const title = String(ns?.title || 'Karna');
-      const content = ns || {};
-      setData({ title, content });
+      const container = ns || {};
+      const title = String(container?.title || 'Karna');
+      const intro = String(container?.intro || '');
+      const content = container || {};
+      setData({ title, intro, content });
     })();
     return () => { mounted = false; };
   }, [locale, ns]);
 
   if (isLoading && !data.title) {
     return (
-      <PageLayout
-        metaKey="stories_karna"
-        title=""
-        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Karna' }]}
-        className="layout-md"
-      >
+      <PageLayout title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Karna' }]} className="layout-md">
         <div className="flex items-center justify-center py-12"><Loader /></div>
       </PageLayout>
     );
@@ -41,7 +38,6 @@ export default function KarnaClient() {
   const renderValue = (value: any, key?: string) => {
     if (value == null) return null;
     if (typeof value === 'string') return <p className="mb-3">{value}</p>;
-
     if (Array.isArray(value)) {
       if (value.length === 0) return null;
       if (value.every(v => typeof v === 'string')) {
@@ -51,7 +47,6 @@ export default function KarnaClient() {
           </ul>
         );
       }
-
       return (
         <div className="grid gap-4">
           {value.map((item, i) => (
@@ -67,7 +62,6 @@ export default function KarnaClient() {
         </div>
       );
     }
-
     if (typeof value === 'object') {
       return (
         <div className="space-y-3">
@@ -80,31 +74,45 @@ export default function KarnaClient() {
         </div>
       );
     }
-
     return <div>{String(value)}</div>;
   };
 
   return (
     <PageLayout
-      metaKey="stories_karna"
       title={data.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: data.title }]}
       className="layout-md"
     >
-      <div className="flex flex-col lg:flex-row gap-8">
-        <div className="w-full lg:w-3/4">
-          <div className="prose max-w-none">
-            {Object.entries(data.content).map(([k, v]) => (
-              <section key={k} className="mb-6">
-                <h3 className="text-2xl font-bold mb-3">{k.replace(/_/g, ' ').toUpperCase()}</h3>
-                {renderValue(v, k)}
-              </section>
-            ))}
+      <div id="karna-content">
+        <div className="flex flex-col lg:flex-row gap-8">
+          <div className="w-full lg:w-3/4">
+            <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-emerald-50 via-emerald-100 to-emerald-50 rounded-2xl border-l-4 border-emerald-500 shadow-lg overflow-hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-400/10 rounded-full blur-3xl" />
+              <div className="absolute bottom-0 left-0 w-80 h-80 bg-green-400/8 rounded-full blur-3xl" />
+              <div className="relative z-10">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="h-px w-12 bg-gradient-to-r from-transparent to-emerald-500" />
+                  <span className="text-3xl animate-pulse">📖</span>
+                  <div className="h-px w-12 bg-gradient-to-l from-transparent to-emerald-500" />
+                </div>
+                {data.intro && <p className="text-lg md:text-xl leading-relaxed">{data.intro}</p>}
+              </div>
+            </div>
+            <div className="prose max-w-none text-gray-900">
+              {['biography', 'timeline', 'majordilemmas', 'cursesandconsequences'].map((k) => (
+                data.content[k] && (
+                  <section key={k} className="mb-8 p-6 bg-white/80 border border-emerald-100 rounded-xl shadow-sm">
+                    <h3 className="text-2xl font-bold mb-3 text-emerald-700 tracking-wide">{k.replace(/_/g, ' ').toUpperCase()}</h3>
+                    {renderValue(data.content[k], k)}
+                  </section>
+                )
+              ))}
+            </div>
           </div>
-        </div>
-        <div className="w-full lg:w-1/4">
-          <div className="sticky top-24">
-            <SimilarCategories currentCategory="stories" />
+          <div className="w-full lg:w-1/4">
+            <div className="sticky top-24">
+              <SimilarCategories currentCategory="stories" />
+            </div>
           </div>
         </div>
       </div>

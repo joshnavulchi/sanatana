@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
 import useLocaleSection from '../hooks/useLocaleSection';
@@ -32,7 +32,7 @@ export default function TemplesInIndiaClient() {
 
   if (isLoading && !data.title) {
     return (
-      <PageLayout metaKey="temples_in_india" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Temples in India' }]} className="layout-sm">
+      <PageLayout metaKey="temples_in_india" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Temples in India' }]} className="layout-md">
         <div className="flex items-center justify-center py-12"><Loader /></div>
       </PageLayout>
     );
@@ -43,7 +43,7 @@ export default function TemplesInIndiaClient() {
       metaKey="temples_in_india"
       title={data.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: data.title }]}
-      className="layout-sm"
+      className="layout-md"
     >
       <TextToSpeech sectionId="temples-in-india" className="floating" />
 

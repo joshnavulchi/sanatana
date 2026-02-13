@@ -75,3 +75,13 @@ git push
 
 npm ci
 npm run build
+
+
+PS C:\ReactProjects\sanatana> npx mapshaper .\public\data\countries-50m.json ` -o target=countries format=geojson .\public\data\countries_only.geojson        
+[o] Wrote public\data\countries_only.geojson
+
+ npx mapshaper .\public\data\countries_only.geojson ` -filter "name=='India'" ` -clean -dissolve2 ` -o format=geojson .\public\data\india_adm0.geojson
+ [filter] Retained 1 of 241 features
+[clean] Retained 1 of 1 features                                           
+[dissolve2] Dissolved 1 feature into 1 feature         
+[o] Wrote public\data\india_adm0.geojson

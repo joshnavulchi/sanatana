@@ -26,7 +26,7 @@ export default function PrivacyPolicyPage({ searchParams }: any) {
       metaKey="policies"
       title={page.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
-      className="layout-sm"
+      className="layout-md"
     >
       <div>
         <h2 className="text-2xl md:text-3xl text-gray-900">{page.title}</h2>
