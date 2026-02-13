@@ -8,8 +8,8 @@ export default function IndiaRiversFlow() {
   const ref = useRef<SVGSVGElement | null>(null);
 
   useEffect(() => {
-    (async () => {
-      const topo = await fetch("/data/india_rivers.topo.json").then(r => r.json());
+    (async () => { 
+      const topo = await fetch("/data/india_adm0.geojson").then(r => r.json());
 
       const indiaFC = feature(topo, topo.objects.india) as any;   // GeoJSON FeatureCollection
       const riversFC = feature(topo, topo.objects.rivers) as any; // GeoJSON FeatureCollection
@@ -34,7 +34,7 @@ export default function IndiaRiversFlow() {
       // India polygon
       g.append("path")
         .datum(indiaFC.features[0]) // ADM0 single feature
-        .attr("d", path)
+        .attr("d", path as any)
         .attr("fill", "#1b263b")
         .attr("stroke", "#cfe0ff")
         .attr("stroke-width", 0.8);
@@ -50,7 +50,7 @@ export default function IndiaRiversFlow() {
         .data(riversFC.features)
         .join("path")
         .attr("class", "river-base")
-        .attr("d", path)
+        .attr("d", path as any)
         .attr("fill", "none")
         .attr("stroke", (d: any) => c(ord(d)))
         .attr("stroke-width", (d: any) => w(ord(d)))
@@ -63,7 +63,7 @@ export default function IndiaRiversFlow() {
         .data(riversFC.features)
         .join("path")
         .attr("class", "river-flow")
-        .attr("d", path)
+        .attr("d", path as any)
         .attr("fill", "none")
         .attr("stroke", (d: any) => c(ord(d)))
         .attr("stroke-width", (d: any) => w(ord(d)) + 0.6)
