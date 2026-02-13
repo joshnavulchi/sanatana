@@ -1,17 +1,23 @@
 "use client";
-import { useEffect, useState } from 'react';
+
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '@/app/context/locale-context';
-import useLocaleSection from '../../hooks/useLocaleSection';
-import { parseSections, parseMaybeObject } from 'lib/parseContent';
+import useLocaleSection from '@/app/hooks/useLocaleSection';
+import Loader from '@/app/components/loader/loader';
 import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
-import LazyImage from '@/app/components/lazy-image/LazyImage';
-import TextToSpeech from '@/app/components/text-to-speech/TextToSpeech';
 
 
 export default function DharmaClient() {
-  const { locale } = useLocale();
+  const { locale, isLoading } = useLocale();
   const dharma = useLocaleSection('philosophy_dharma');
+
+  if (isLoading || !dharma) {
+    return (
+      <PageLayout metaKey="philosophy_dharma" title="" breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Philosophy', href: '/philosophy' }, { label: 'Dharma' }]} className="layout-md">
+        <div className="flex items-center justify-center py-12"><Loader /></div>
+      </PageLayout>
+    );
+  }
 
   const title = dharma.title || 'Dharma Philosophy';
   const definition: string[] = Array.isArray(dharma.definition) ? dharma.definition : (dharma.definition ? [String(dharma.definition)] : []);
@@ -28,7 +34,7 @@ export default function DharmaClient() {
       className="layout-md"
     >
       <div className="flex flex-col lg:flex-row gap-8">
-        <div className="w-full lg:w-3/4 space-y-6">
+        <div className="w-full lg:w-3/4">
           <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-emerald-50 via-emerald-100 to-emerald-50 rounded-2xl border-l-4 border-emerald-500 shadow-lg overflow-hidden">
             <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-400/10 rounded-full blur-3xl" />
             <div className="absolute bottom-0 left-0 w-80 h-80 bg-green-400/8 rounded-full blur-3xl" />

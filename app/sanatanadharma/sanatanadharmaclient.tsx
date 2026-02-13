@@ -47,7 +47,7 @@ export default function SanatanadharmaClientPage() {
       className="layout-md"
     >
       {/* Hero Section */}
-      <section className="relative flex flex-col items-center justify-center min-h-[10vh] py-6 px-4 bg-gradient-to-br from-yellow-100 via-orange-50 to-amber-200 rounded-3xl shadow-2xl border border-amber-200 overflow-hidden mb-12">
+      <section className="relative flex flex-col items-center justify-center min-h-[10vh] py-6 px-4 bg-gradient-to-br from-yellow-100 via-orange-50 to-amber-200 rounded-3xl border-l-4 border-amber-400 shadow-2xl overflow-hidden mb-12">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute -top-16 -left-16 w-72 h-72 bg-amber-100 rounded-full blur-3xl opacity-60 animate-pulse" />
           <div className="absolute -bottom-16 -right-16 w-72 h-72 bg-orange-200 rounded-full blur-3xl opacity-50 animate-pulse" />
@@ -70,7 +70,7 @@ export default function SanatanadharmaClientPage() {
           return (
             <div
               key={section.id || index}
-              className="relative bg-white border-2 border-amber-100 rounded-2xl p-6 md:p-8 mt-4 shadow-lg hover:shadow-2xl transition-all duration-500 group overflow-hidden"
+              className="relative bg-white border-l-4 border-amber-300 rounded-2xl p-6 md:p-8 mt-4 shadow-xl hover:shadow-2xl transition-all duration-500 group overflow-hidden"
             >
               <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-amber-400/10 to-transparent rounded-tr-2xl" />
               <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-orange-400/10 to-transparent rounded-bl-2xl" />
