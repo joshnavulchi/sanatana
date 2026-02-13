@@ -25,31 +25,15 @@ export default function DharmaClient() {
       metaKey="philosophy_dharma"
       title={title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Philosophy', href: '/philosophy' }, { label: 'Dharma' }]}
-      className="layout-md bg-gradient-to-br from-yellow-50 via-amber-100 to-orange-50    min-h-screen py-12 px-4 md:px-12 lg:px-24 border-l-8 border-amber-400 shadow-2xl"
+      className="layout-md"
     >
-      <TextToSpeech sectionId="philosophy-dharma-content" className="floating" />
-      <div id="philosophy-dharma-content" className="rounded-xl shadow-xl border-2 border-amber-200/60 bg-white/80  p-6 md:p-10 lg:p-14 space-y-8">
-        <div className="flex flex-col lg:flex-row gap-8">
-          {/* Main Content */}
-          <div className="w-full lg:w-3/4 space-y-6">
-            {/* Hero Image with enhanced styling */}
-            <div className="relative group overflow-hidden rounded-2xl shadow-2xl border-4 border-amber-300/30 bg-gradient-to-br from-amber-50/40 to-orange-100/20">
-              <div className="absolute inset-0 bg-gradient-to-br from-amber-500/20 to-orange-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10" />
-              <LazyImage
-                src="/images/philosophy-dharma.png"
-                alt="philosophy dharma"
-                width={1000}
-                height={100}
-                className="w-full h-auto transform group-hover:scale-105 transition-transform duration-700"
-              />
-              {/* Decorative border */}
-              <div className="absolute inset-0 border-4 border-amber-400/0 group-hover:border-amber-400/30 rounded-2xl transition-all duration-500" />
-              {/* Floating accent icon */}
-              <div className="absolute top-4 left-4 w-10 h-10 bg-amber-400/80 rounded-full flex items-center justify-center shadow-lg animate-bounce text-white text-2xl z-20">🕉️</div>
-            </div>
-            {/* Content paragraphs */}
-            <div className="space-y-6">
-              <h1 className="text-3xl font-bold text-amber-800 mb-4">{title}</h1>
+      <div className="flex flex-col lg:flex-row gap-8">
+        <div className="w-full lg:w-3/4 space-y-6">
+          <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-emerald-50 via-emerald-100 to-emerald-50 rounded-2xl border-l-4 border-emerald-500 shadow-lg overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-400/10 rounded-full blur-3xl" />
+            <div className="absolute bottom-0 left-0 w-80 h-80 bg-green-400/8 rounded-full blur-3xl" />
+            <div className="relative z-10">
+              <h1 className="text-3xl font-bold text-emerald-800 mb-4">{title}</h1>
               <p className="mb-6"><strong>Definition:</strong> {definition.length ? definition.join(', ') : 'No definition found.'}</p>
               <h2 className="text-2xl md:text-3xl">Categories of Dharma:</h2>
               <ul className="list-disc ml-6 mb-6">
@@ -77,16 +61,10 @@ export default function DharmaClient() {
               </ul>
             </div>
           </div>
-          {/* Sidebar */}
-          <div className="w-full lg:w-1/4">
-            <div className="sticky top-24">
-              <SimilarCategories
-                currentCategory="philosophy"
-                title="Similar Philosophy"
-                maxItems={3}
-                excludeCurrent={false}
-              />
-            </div>
+        </div>
+        <div className="w-full lg:w-1/4">
+          <div className="sticky top-24">
+            <SimilarCategories currentCategory="philosophy" />
           </div>
         </div>
       </div>

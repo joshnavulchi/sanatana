@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
 import useLocaleSection from '../hooks/useLocaleSection';
@@ -33,7 +33,7 @@ export default function DiseasesCuringTemplesClient() {
 
   if (isLoading && !data.title) {
     return (
-      <PageLayout metaKey="diseases_curing_temples" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Temples' }]} className="layout-sm">
+      <PageLayout metaKey="diseases_curing_temples" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Temples' }]} className="layout-md">
         <div className="flex items-center justify-center py-12">
           <Loader />
         </div>
@@ -46,7 +46,7 @@ export default function DiseasesCuringTemplesClient() {
       metaKey="diseases_curing_temples"
       title={data.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: data.title }]}
-      className="layout-sm"
+      className="layout-md"
     >
       <TextToSpeech sectionId="diseases-curing-temples" className="floating" />
 

@@ -2,7 +2,8 @@
 import { t, getLocaleNamespaceObject } from '../../../lib/i18n';
 import { useLocale } from '@/app/context/locale-context';
 import PageLayout from '@/app/components/common/PageLayout';
-// ...existing code...
+
+import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
 
 const ns: Record<string, unknown> = {};
 const __getLoc = (p: string) => {
@@ -26,57 +27,65 @@ export default function AhimsaClient() {
   const corePrinciples = ahimsa.core_principles || {};
   const ahimsaInRamayana = ahimsa.ahimsa_in_ramayana || {};
   return (
-    <>
-      <PageLayout
-        metaKey="philosophy_ahimsa"
-        title={title}
-        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Ahimsa' }]}
-        className={`layout-md`}
-      >
-        <p><strong>Definition : </strong>{definition.length ? definition.map((s: string, i: number) => (<span key={i}>{s}{i < definition.length - 1 ? ', ' : ''}</span>)) : <span>{String(__getLoc('philosophy_ahimsa.noDefinition'))}</span>}</p>
-        {/* Categories of Ahimsa */}
-        <div>
-          <h2 className="text-2xl md:text-3xl">Categories of Ahimsa :</h2>
-          <ul role="list" className="list-disc">
-            {Object.entries(categories).map((cKey: any, idx: number) => {
-              const { meaning, examples } = cKey[1] || {};
-              return <li key={idx}>
-                <strong>{meaning}</strong> - {Array.isArray(examples) ? <span>{examples.join(', ')}</span> : (examples ? <span>{String(examples)}</span> : null)}
-              </li>
-            })}
-          </ul>
-          <p><strong>Philosophical dimensionsGoals of Ahimsa : </strong></p>
-          <ul role="list" className="list-disc">
-            {Object.entries(philosophicalDimensions).map((cKey: any, idx: number) => {
-              return <li key={idx}>
-                <span>{cKey[1]}</span>
-              </li>
-            })}
-          </ul>
-          <p><strong>Core principles of Ahimsa : </strong></p>
-          <ul role="list" className="list-disc">
-            {Object.entries(corePrinciples).map((cKey: any, idx: number) => {
-              return <li key={idx}>
-                <span>{cKey[1]}</span>
-              </li>
-            })}
-          </ul>
-          <p><strong>Ahimsa in Ramayana : </strong></p>
-          <ul role="list" className="list-disc">
-            {Object.entries(ahimsaInRamayana).map((cKey: any, idx: number) => {
-              return <li key={idx}>
-                <span>{cKey[1]}</span>
-              </li>
-            })}
-          </ul>
+    <PageLayout
+      metaKey="philosophy_ahimsa"
+      title={title}
+      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Ahimsa' }]}
+      className="layout-md"
+    >
+      <div className="flex flex-col lg:flex-row gap-8">
+        <div className="w-full lg:w-3/4">
+          <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-emerald-50 via-emerald-100 to-emerald-50 rounded-2xl border-l-4 border-emerald-500 shadow-lg overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-400/10 rounded-full blur-3xl" />
+            <div className="absolute bottom-0 left-0 w-80 h-80 bg-green-400/8 rounded-full blur-3xl" />
+            <div className="relative z-10">
+              <p><strong>Definition : </strong>{definition.length ? definition.map((s: string, i: number) => (<span key={i}>{s}{i < definition.length - 1 ? ', ' : ''}</span>)) : <span>{String(__getLoc('philosophy_ahimsa.noDefinition'))}</span>}</p>
+              {/* Categories of Ahimsa */}
+              <div>
+                <h2 className="text-2xl md:text-3xl">Categories of Ahimsa :</h2>
+                <ul role="list" className="list-disc ml-6">
+                  {Object.entries(categories).map((cKey: any, idx: number) => {
+                    const { meaning, examples } = cKey[1] || {};
+                    return <li key={idx}>
+                      <strong>{meaning}</strong> - {Array.isArray(examples) ? <span>{examples.join(', ')}</span> : (examples ? <span>{String(examples)}</span> : null)}
+                    </li>
+                  })}
+                </ul>
+                <p><strong>Philosophical dimensions/Goals of Ahimsa : </strong></p>
+                <ul role="list" className="list-disc ml-6">
+                  {Object.entries(philosophicalDimensions).map((cKey: any, idx: number) => {
+                    return <li key={idx}>
+                      <span>{cKey[1]}</span>
+                    </li>
+                  })}
+                </ul>
+                <p><strong>Core principles of Ahimsa : </strong></p>
+                <ul role="list" className="list-disc ml-6">
+                  {Object.entries(corePrinciples).map((cKey: any, idx: number) => {
+                    return <li key={idx}>
+                      <span>{cKey[1]}</span>
+                    </li>
+                  })}
+                </ul>
+                <p><strong>Ahimsa in Ramayana : </strong></p>
+                <ul role="list" className="list-disc ml-6">
+                  {Object.entries(ahimsaInRamayana).map((cKey: any, idx: number) => {
+                    return <li key={idx}>
+                      <span>{cKey[1]}</span>
+                    </li>
+                  })}
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-        {/* Hero image and sidebar placeholder */}
-        <div>
-          <HeroImage />
-          <Sidebar />
+        <div className="w-full lg:w-1/4">
+          <div className="sticky top-24">
+            <SimilarCategories currentCategory="philosophy" />
+          </div>
         </div>
-      </PageLayout>
-    </>
+      </div>
+    </PageLayout>
   );
 }
 

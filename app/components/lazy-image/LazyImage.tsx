@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Image, { type ImageProps } from 'next/image';
 import { generateCustomPlaceholderURL } from 'react-placeholder-image';
 import Loader from '../loader/loader';

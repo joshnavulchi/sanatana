@@ -16,7 +16,7 @@ export default function Page() {
         metaKey="horoscope"
         title={title}
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: title }]}
-        className="layout-sm"
+        className="layout-md"
       >
         <HoroscopeClient />
       </PageLayout>

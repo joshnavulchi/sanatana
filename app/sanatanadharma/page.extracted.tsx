@@ -31,7 +31,7 @@ export default function Page({
     href: '/'
   }, {
     label: title
-  }]} className="layout-sm">
+  }]} className="layout-md">
       <div className="flex flex-col gap-8">
         {(data || []).map((ch: any, i: number) => {
         const chap = ch?.chapter ?? i + 1;

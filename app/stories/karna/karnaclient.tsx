@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../../context/locale-context';
 import useLocaleSection from '../../hooks/useLocaleSection';
@@ -86,14 +86,14 @@ export default function KarnaClient() {
       <div id="karna-content">
         <div className="flex flex-col lg:flex-row gap-8">
           <div className="w-full lg:w-3/4">
-            <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-sky-50 via-indigo-50 to-sky-50 rounded-2xl overflow-hidden">
-              <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-400/8 rounded-full blur-3xl" />
-              <div className="absolute bottom-0 left-0 w-80 h-80 bg-sky-300/6 rounded-full blur-3xl" />
+            <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-emerald-50 via-emerald-100 to-emerald-50 rounded-2xl border-l-4 border-emerald-500 shadow-lg overflow-hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-400/10 rounded-full blur-3xl" />
+              <div className="absolute bottom-0 left-0 w-80 h-80 bg-green-400/8 rounded-full blur-3xl" />
               <div className="relative z-10">
                 <div className="flex items-center gap-3 mb-6">
-                  <div className="h-px w-12 bg-gradient-to-r from-transparent to-indigo-600" />
+                  <div className="h-px w-12 bg-gradient-to-r from-transparent to-emerald-500" />
                   <span className="text-3xl animate-pulse">📖</span>
-                  <div className="h-px w-12 bg-gradient-to-l from-transparent to-indigo-600" />
+                  <div className="h-px w-12 bg-gradient-to-l from-transparent to-emerald-500" />
                 </div>
                 {data.intro && <p className="text-lg md:text-xl leading-relaxed">{data.intro}</p>}
               </div>
@@ -101,8 +101,8 @@ export default function KarnaClient() {
             <div className="prose max-w-none text-gray-900">
               {['biography', 'timeline', 'majordilemmas', 'cursesandconsequences'].map((k) => (
                 data.content[k] && (
-                  <section key={k} className="mb-6">
-                    <h3 className="text-2xl font-bold mb-3">{k.replace(/_/g, ' ').toUpperCase()}</h3>
+                  <section key={k} className="mb-8 p-6 bg-white/80 border border-emerald-100 rounded-xl shadow-sm">
+                    <h3 className="text-2xl font-bold mb-3 text-emerald-700 tracking-wide">{k.replace(/_/g, ' ').toUpperCase()}</h3>
                     {renderValue(data.content[k], k)}
                   </section>
                 )

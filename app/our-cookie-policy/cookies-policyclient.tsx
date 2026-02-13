@@ -91,7 +91,7 @@ export default function PrivacyPolicy() {
 
   if (isLoading && !privacy.title) {
     return (
-      <PageLayout metaKey="cookies-policy.meta" title="cookies-policy.title" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Cookies Policy' }]} className="layout-sm">
+      <PageLayout metaKey="cookies-policy.meta" title="cookies-policy.title" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Cookies Policy' }]} className="layout-md">
         <div className="flex items-center justify-center py-12">
           <Loader />
         </div>
@@ -104,7 +104,7 @@ export default function PrivacyPolicy() {
       metaKey="cookies-policy.meta"
       title={privacy.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Cookies policy' }]}
-      className="layout-sm"
+      className="layout-md"
     >
       <div id="cookies-content" className="space-y-8">
         {/* Header */}

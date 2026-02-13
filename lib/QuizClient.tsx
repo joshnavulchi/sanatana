@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 type Options = { A: string; B: string; C: string; D: string };
 type Question = { id: number; question: string; options: Options; answer: keyof Options };

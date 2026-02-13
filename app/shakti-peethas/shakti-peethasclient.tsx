@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
 import useLocaleSection from '../hooks/useLocaleSection';
@@ -31,7 +31,7 @@ export default function ShaktiPeethasClient() {
 
   if (isLoading && !data.title) {
     return (
-      <PageLayout metaKey="shakti_peethas" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Shakti Peethas' }]} className="layout-sm">
+      <PageLayout metaKey="shakti_peethas" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Shakti Peethas' }]} className="layout-md">
         <div className="flex items-center justify-center py-12"><Loader /></div>
       </PageLayout>
     );
@@ -42,7 +42,7 @@ export default function ShaktiPeethasClient() {
       metaKey="shakti_peethas"
       title={data.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: data.title }]}
-      className="layout-sm"
+      className="layout-md"
     >
       <TextToSpeech sectionId="shakti-peethas" className="floating" />
 

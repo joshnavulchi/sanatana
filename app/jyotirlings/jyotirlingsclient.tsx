@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
 import useLocaleSection from '../hooks/useLocaleSection';
@@ -38,7 +38,7 @@ export default function JyotirlingsClient() {
 
   if (isLoading && !data.title) {
     return (
-      <PageLayout metaKey="jyotirlings" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Jyotirlings' }]} className="layout-sm">
+      <PageLayout metaKey="jyotirlings" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Jyotirlings' }]} className="layout-md">
         <div className="flex items-center justify-center py-12"><Loader /></div>
       </PageLayout>
     );
@@ -49,7 +49,7 @@ export default function JyotirlingsClient() {
       metaKey="jyotirlings"
       title={data.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: data.title }]}
-      className="layout-sm"
+      className="layout-md"
     >
       <TextToSpeech sectionId="jyotirlings" className="floating" />
 

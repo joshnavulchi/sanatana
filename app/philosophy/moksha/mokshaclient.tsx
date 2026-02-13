@@ -3,20 +3,7 @@ import PageLayout from '@/app/components/common/PageLayout';
 import { t } from '../../../lib/i18n';
 import { useEffect, useState } from 'react';
 import { useLocale } from '@/app/context/locale-context';
-// Local placeholder components for HeroImage and Sidebar
-const HeroImage = () => (
-  <div className="relative group overflow-hidden rounded-2xl shadow-2xl border-4 border-indigo-300/30 bg-gradient-to-br from-indigo-50/40 to-indigo-100/20 mb-8">
-    <div className="w-full h-48 flex items-center justify-center text-4xl text-indigo-400">[Hero Image Placeholder]</div>
-    <div className="absolute top-4 left-4 w-10 h-10 bg-indigo-400/80 rounded-full flex items-center justify-center shadow-lg text-white text-2xl z-20">🕉️</div>
-  </div>
-);
-const Sidebar = () => (
-  <div className="w-full lg:w-1/4">
-    <div className="sticky top-24">
-      <div className="bg-indigo-50 rounded-xl p-4 shadow-md">[Sidebar Placeholder]</div>
-    </div>
-  </div>
-);
+import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
 
 export default function MokshaClient() {
   const { locale } = useLocale();
@@ -44,40 +31,42 @@ export default function MokshaClient() {
   }, [locale]);
 
   if (!page) {
-    return <div className="text-center py-10 text-indigo-500">Loading...</div>;
+    return <div className="text-center py-10 text-emerald-500">Loading...</div>;
   }
   return (
-    <>
-      <PageLayout
-        metaKey="philosophy_moksha"
-        title={page.title}
-        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
-        className="layout-md"
-      >
-        <section className="bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 rounded-2xl shadow-2xl border-4 border-indigo-200/40 px-3 py-6">
-          <div className="flex flex-col md:flex-row gap-8">
-            <div className="flex-1">
-              <h1 className="text-4xl font-extrabold text-indigo-700 mb-4">{page.title}</h1>
-              <p className="text-lg text-indigo-900 mb-6 italic">{page.definition}</p>
+    <PageLayout
+      metaKey="philosophy_moksha"
+      title={page.title}
+      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
+      className="layout-md"
+    >
+      <div className="flex flex-col lg:flex-row gap-8">
+        <div className="w-full lg:w-3/4">
+          <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-emerald-50 via-emerald-100 to-emerald-50 rounded-2xl border-l-4 border-emerald-500 shadow-lg overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-400/10 rounded-full blur-3xl" />
+            <div className="absolute bottom-0 left-0 w-80 h-80 bg-green-400/8 rounded-full blur-3xl" />
+            <div className="relative z-10">
+              <h1 className="text-4xl font-extrabold text-emerald-700 mb-4">{page.title}</h1>
+              <p className="text-lg text-emerald-900 mb-6 italic">{page.definition}</p>
               <div className="mb-6">
-                <h2 className="text-2xl font-bold text-purple-700 mb-2">Core Principles</h2>
-                <ul className="list-disc ml-6 text-purple-900 space-y-1">
+                <h2 className="text-2xl font-bold text-emerald-700 mb-2">Core Principles</h2>
+                <ul className="list-disc ml-6 text-emerald-900 space-y-1">
                   {page.core_principles.map((s: string, idx: number) => (
                     <li key={idx}>{s}</li>
                   ))}
                 </ul>
               </div>
               <div className="mb-6">
-                <h2 className="text-2xl font-bold text-indigo-700 mb-2">Origin</h2>
-                <ul className="list-disc ml-6 text-indigo-900 space-y-1">
+                <h2 className="text-2xl font-bold text-emerald-700 mb-2">Origin</h2>
+                <ul className="list-disc ml-6 text-emerald-900 space-y-1">
                   {Object.entries(page.origin).map(([k, v]: any, idx: number) => (
                     <li key={idx}><span className="font-semibold">{k}:</span> {Array.isArray(v) ? v.join(', ') : v}</li>
                   ))}
                 </ul>
               </div>
               <div className="mb-6">
-                <h2 className="text-2xl font-bold text-pink-700 mb-2">Paths to Moksha</h2>
-                <ul className="list-disc ml-6 text-pink-900 space-y-1">
+                <h2 className="text-2xl font-bold text-emerald-700 mb-2">Paths to Moksha</h2>
+                <ul className="list-disc ml-6 text-emerald-900 space-y-1">
                   {Object.entries(page.paths_to_moksha).map(([k, v]: any, idx: number) => (
                     <li key={idx}><span className="font-semibold">{k.replace(/_/g, ' ')}:</span> {v}</li>
                   ))}
@@ -128,8 +117,13 @@ export default function MokshaClient() {
               </div>
             </div>
           </div>
-        </section>
-      </PageLayout>
-    </>
+        </div>
+        <div className="w-full lg:w-1/4">
+          <div className="sticky top-24">
+            <SimilarCategories currentCategory="philosophy" />
+          </div>
+        </div>
+      </div>
+    </PageLayout>
   );
 }

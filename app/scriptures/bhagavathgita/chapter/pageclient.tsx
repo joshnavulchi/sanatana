@@ -18,7 +18,7 @@ export default function BhagavathgitaChapterRootClient() {
         { label: ns.title || 'Bhagavad Gita', href: '/scriptures/bhagavathgita' },
         { label: 'Chapters', href: '#' }
       ]}
-      className="layout-sm"
+      className="layout-md"
     >
       <div className="mb-8 text-center">
         <h2 className="text-2xl md:text-3xl font-bold text-orange-800 mb-2">All Chapters</h2>

@@ -4,6 +4,7 @@ import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '@/app/context/locale-context';
 import useLocaleSection from '@/app/hooks/useLocaleSection';
 import { parseSections, parseMaybeObject } from 'lib/parseContent';
+import Loader from '@/app/components/loader/loader';
 import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
 
 import LazyImage from '@/app/components/lazy-image/LazyImage';
@@ -13,72 +14,56 @@ import TextToSpeech from '@/app/components/text-to-speech/TextToSpeech';
 const Paragraphs = ({ lines }: { lines?: any[] }) => {
   if (!Array.isArray(lines) || !lines.length) return null;
   return (
-    <div className="flex flex-col lg:flex-row gap-8">
-      {/* Main Content */}
-      <div className="w-full lg:w-3/4 space-y-6">
-        {/* Hero Image with enhanced styling */}
-        <div className="relative group overflow-hidden rounded-2xl shadow-2xl border-4 border-amber-300/30 bg-gradient-to-br from-amber-50/40 to-orange-100/20">
-          <div className="absolute inset-0 bg-gradient-to-br from-amber-500/20 to-orange-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10" />
-          <LazyImage
-            src="/images/philosophy-karma.png"
-            alt="philosophy karma"
-            width={1000}
-            height={100}
-            className="w-full h-auto transform group-hover:scale-105 transition-transform duration-700"
-          />
-          {/* Decorative border */}
-          <div className="absolute inset-0 border-4 border-amber-400/0 group-hover:border-amber-400/30 rounded-2xl transition-all duration-500" />
-          {/* Floating accent icon */}
-          <div className="absolute top-4 left-4 w-10 h-10 bg-amber-400/80 rounded-full flex items-center justify-center shadow-lg animate-bounce text-white text-2xl z-20">🕉️</div>
-        </div>
-        {/* Content paragraphs */}
-        <div className="space-y-6">
-          {lines.map((line: any, idx: number) => (
-            <div
-              key={idx}
-              className="
-                relative
-                bg-gradient-to-br from-white to-amber-50/30
-                 
-                rounded-lg
-                px-3 py-6 md:p-8
-                transition-all duration-300
-                hover:-translate-y-1
-                group/para
-                animate-fade-in-up
-              "
-              style={{ animationDelay: `${idx * 100}ms` }}
-            >
-              {/* Decorative corner accent */}
-              <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-bl from-amber-400/10 to-transparent rounded-tr-lg rounded-bl-full" />
-              {/* Content */}
-              <p className="
-                 
-                text-base md:text-lg
-                leading-relaxed
-                relative z-10
-                font-serif
-              ">
-                {line}
-              </p>
-              {/* Hover indicator */}
-              <div className="absolute bottom-2 right-2 w-2 h-2 bg-amber-500 rounded-full opacity-0 group-hover/para:opacity-100 transition-opacity duration-300" />
-            </div>
-          ))}
-        </div>
+    <>
+      {/* Hero Image with enhanced styling */}
+      <div className="relative group overflow-hidden rounded-2xl shadow-2xl border-l-4 border-emerald-500 bg-gradient-to-br from-emerald-50 via-emerald-100 to-emerald-50 mb-8">
+        <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/10 to-green-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10" />
+        <LazyImage
+          src="/images/philosophy-karma.png"
+          alt="philosophy karma"
+          width={1000}
+          height={100}
+          className="w-full h-auto transform group-hover:scale-105 transition-transform duration-700"
+        />
+        {/* Decorative border */}
+        <div className="absolute inset-0 border-4 border-emerald-400/0 group-hover:border-emerald-400/30 rounded-2xl transition-all duration-500" />
+        {/* Floating accent icon */}
+        <div className="absolute top-4 left-4 w-10 h-10 bg-emerald-400/80 rounded-full flex items-center justify-center shadow-lg animate-bounce text-white text-2xl z-20">🔉</div>
       </div>
-      {/* Sidebar */}
-      <div className="w-full lg:w-1/4">
-        <div className="sticky top-24">
-          <SimilarCategories
-            currentCategory="philosophy"
-            title="Similar Philosophy"
-            maxItems={3}
-            excludeCurrent={false}
-          />
-        </div>
+      {/* Content paragraphs */}
+      <div className="space-y-6">
+        {lines.map((line: any, idx: number) => (
+          <div
+            key={idx}
+            className="
+              relative
+              bg-gradient-to-br from-white to-emerald-50/30
+              rounded-lg
+              px-3 py-6 md:p-8
+              transition-all duration-300
+              hover:-translate-y-1
+              group/para
+              animate-fade-in-up
+            "
+            style={{ animationDelay: `${idx * 100}ms` }}
+          >
+            {/* Decorative corner accent */}
+            <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-bl from-emerald-400/10 to-transparent rounded-tr-lg rounded-bl-full" />
+            {/* Content */}
+            <p className="
+              text-base md:text-lg
+              leading-relaxed
+              relative z-10
+              font-serif
+            ">
+              {line}
+            </p>
+            {/* Hover indicator */}
+            <div className="absolute bottom-2 right-2 w-2 h-2 bg-emerald-500 rounded-full opacity-0 group-hover/para:opacity-100 transition-opacity duration-300" />
+          </div>
+        ))}
       </div>
-    </div>
+    </>
   );
 };
 
@@ -209,41 +194,69 @@ export default function KrishnaExplainsFiveKarmasClient() {
       ? String(rawStoryFromT).split(/\r?\n/).filter(Boolean)
       : (Array.isArray(karma.story) ? karma.story : (karma.story ? [String(karma.story)] : []));
 
+  if (isLoading && !renderTitle) {
+    return (
+      <PageLayout metaKey="philosophy_karma" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Philosophy', href: '/philosophy' }, { label: 'Karma' }]} className="layout-md">
+        <div className="flex items-center justify-center py-12"><Loader /></div>
+      </PageLayout>
+    );
+  }
+
   return (
     <PageLayout
       metaKey="philosophy_karma"
       title={renderTitle}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Philosophy', href: '/philosophy' }, { label: 'Karma' }]}
-      className="layout-md bg-gradient-to-br from-yellow-50 via-amber-100 to-orange-50    min-h-screen py-12 px-4 md:px-12 lg:px-24 border-l-8 border-amber-400 shadow-2xl"
+      className="layout-md"
     >
       <TextToSpeech sectionId="philosophy-karma-content" className="floating" />
-      <div id="philosophy-karma-content" className="rounded-xl shadow-xl border-2 border-amber-200/60 bg-white/80  px-3 py-6 space-y-8">
-        {/* Render script paragraphs (para1, para2, ...) then conversation (alternating chat bubbles). */}
-        {(() => {
-          const script = parseMaybeObject(ns ? ns.script : '') || {};
-          if (renderStory && renderStory.length > 0) {
-            return <Paragraphs lines={renderStory} />;
-          }
-          const paraKeys = Object.keys(script || {}).filter(k => /^para\d+$/.test(k));
-          paraKeys.sort((a, b) => {
-            const na = Number(a.replace(/[^0-9]/g, '')) || 0;
-            const nb = Number(b.replace(/[^0-9]/g, '')) || 0;
-            return na - nb;
-          });
-          const paras = paraKeys.map(k => script[k]);
-          const convo = script && Array.isArray(script.conversation)
-            ? script.conversation
-            : parseSections(script?.conversation || '');
-          if ((Array.isArray(paras) && paras.length) || (Array.isArray(convo) && convo.length)) {
-            return (
-              <>
-                {paras.length > 0 && <Paragraphs lines={paras} />}
-                <Conversation convo={convo} />
-              </>
-            );
-          }
-          return null;
-        })()}
+      <div id="philosophy-karma-content">
+        <div className="flex flex-col lg:flex-row gap-8">
+          <div className="w-full lg:w-3/4">
+            <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-yellow-50 via-amber-50 to-yellow-50 rounded-2xl overflow-hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl" />
+              <div className="absolute bottom-0 left-0 w-80 h-80 bg-yellow-400/8 rounded-full blur-3xl" />
+              <div className="relative z-10">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="h-px w-12 bg-gradient-to-r from-transparent to-amber-600" />
+                  <span className="text-3xl animate-pulse">🧘</span>
+                  <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-600" />
+                </div>
+                {/* Render script paragraphs (para1, para2, ...) then conversation (alternating chat bubbles). */}
+                {(() => {
+                  const script = parseMaybeObject(ns ? ns.script : '') || {};
+                  if (renderStory && renderStory.length > 0) {
+                    return <Paragraphs lines={renderStory} />;
+                  }
+                  const paraKeys = Object.keys(script || {}).filter(k => /^para\d+$/.test(k));
+                  paraKeys.sort((a, b) => {
+                    const na = Number(a.replace(/[^0-9]/g, '')) || 0;
+                    const nb = Number(b.replace(/[^0-9]/g, '')) || 0;
+                    return na - nb;
+                  });
+                  const paras = paraKeys.map(k => script[k]);
+                  const convo = script && Array.isArray(script.conversation)
+                    ? script.conversation
+                    : parseSections(script?.conversation || '');
+                  if ((Array.isArray(paras) && paras.length) || (Array.isArray(convo) && convo.length)) {
+                    return (
+                      <>
+                        {paras.length > 0 && <Paragraphs lines={paras} />}
+                        <Conversation convo={convo} />
+                      </>
+                    );
+                  }
+                  return null;
+                })()}
+              </div>
+            </div>
+          </div>
+          <div className="w-full lg:w-1/4">
+            <div className="sticky top-24">
+              <SimilarCategories currentCategory="philosophy" />
+            </div>
+          </div>
+        </div>
       </div>
     </PageLayout>
   );

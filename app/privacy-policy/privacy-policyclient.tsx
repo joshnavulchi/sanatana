@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 
 import { useLocale } from '../context/locale-context';
@@ -92,7 +92,7 @@ export default function PrivacyPolicy() {
 
   if (isLoading && !privacy.title) {
     return (
-      <PageLayout metaKey="privacy_policy.meta" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Privacy Policy' }]} className="layout-sm">
+      <PageLayout metaKey="privacy_policy.meta" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Privacy Policy' }]} className="layout-md">
         <div className="flex items-center justify-center py-12">
           <Loader />
         </div>
@@ -105,7 +105,7 @@ export default function PrivacyPolicy() {
       metaKey="privacy_policy.meta"
       title={privacy.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Privacy policy' }]}
-      className="layout-sm"
+      className="layout-md"
     >
       <div id="privacy-content" className="space-y-8">
         {/* Header */}
