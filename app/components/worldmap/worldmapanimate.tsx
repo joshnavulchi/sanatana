@@ -38,7 +38,7 @@ const DEFAULTS = {
   pauseOnHover: true,
   scale: 0.19,
   showGraticule: false,
-  dataUrl: '/countries.json',
+  dataUrl: '/data/countries.json',
   sea: '#0ea5e9',
 };
 

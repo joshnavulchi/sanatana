@@ -78,13 +78,13 @@ export default function UnderstandingOfSanatana() {
               </p>
 
               {section.src && (
-                <div className="flex justify-center mt-6">
+                <div className="flex justify-center mt-8">
                   <LazyImage
                     src={section.src}
                     alt={section.title}
                     width={320}
                     height={320}
-                    className="rounded-xl shadow-xl"
+                    className="bg-black rounded-xl shadow-xl shadow-neutral-400"
                   />
                 </div>
               )}
@@ -134,11 +134,8 @@ export default function UnderstandingOfSanatana() {
               ))}
 
               {section.points?.map((point, index) => (
-                <div
-                  key={`${section.id}-point-${index}`}
-                  className="bg-gradient-to-br from-white to-amber-50   rounded-2xl p-6 mb-6 md:mb-0 shadow-lg"
-                >
-                  <p className="text-gray-800  font-medium">
+                <div key={`${section.id}-point-${index}`} className="bg-gradient-to-br from-white to-amber-50 border-2 border-amber-100 rounded-2xl p-6 mb-6 md:mb-0 shadow-lg">
+                  <p className="text-2xl text-gray-800 font-medium">
                     {point}
                   </p>
                 </div>

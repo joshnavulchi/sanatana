@@ -54,7 +54,7 @@ export default function MokshaClient() {
       <div id="moksha-content">
         <div className="flex flex-col lg:flex-row gap-8">
           <div className="w-full lg:w-3/4">
-            <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-emerald-50 via-emerald-100 to-emerald-50 rounded-2xl overflow-hidden">
+            <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-green-50 via-green-100 to-green-50 border-l-12 border-green-200 rounded-2xl overflow-hidden">
               <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-400/10 rounded-full blur-3xl" />
               <div className="absolute bottom-0 left-0 w-80 h-80 bg-green-400/8 rounded-full blur-3xl" />
               <div className="relative z-10">

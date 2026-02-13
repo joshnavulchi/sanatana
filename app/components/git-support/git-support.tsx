@@ -32,34 +32,14 @@ export default function GitSupport({ locale }: { locale?: string }) {
       <div className="absolute inset-0 bg-gradient-to-br from-black/40 via-transparent to-black/50 pointer-events-none" />
 
       {/* Animated decorative elements */}
-      <div className="absolute top-1/4 right-1/4 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl animate-pulse" />
-      {/* <div className="absolute bottom-1/3 left-1/3 w-80 h-80 bg-orange-500/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1.5s' }} /> */}
+      <div className="hidden! absolute top-1/4 right-1/4 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl animate-pulse" />
+      <div className="hidden! absolute bottom-1/3 left-1/3 w-80 h-80 bg-orange-500/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1.5s' }} />
 
       {/* Content Container */}
-      <div
-        className={`
-          relative z-10
-          md:content-wrapper 
-          md:absolute md:top-1/2 md:left-20 md:-translate-y-1/2
-          p-3 md:px-0 md:py-0
-          transition-all duration-1000 ease-out
-          ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}
-        `}
-      >
+      <div className={`relative z-1 md:content-wrapper md:absolute md:top-1/2 md:left-20 md:-translate-y-1/2 p-3 md:px-0 md:py-0 transition-all duration-1000 ease-out
+          ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
         {/* Card with glass-morphism effect */}
-        <div className="
-          relative
-          bg-white/10
-          backdrop-blur-xl
-          border border-white/20
-          rounded-3xl
-          p-4 md:p-8
-          shadow-2xl
-          max-w-2xl
-          overflow-hidden
-          group
-          text-white
-        ">
+        <div className="relative bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-4 md:p-8 shadow-2xl max-w-2xl overflow-hidden group text-white">
           {/* Gradient overlay on hover */}
           <div className="absolute inset-0 bg-gradient-to-br from-amber-500/10 to-orange-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
@@ -105,7 +85,7 @@ export default function GitSupport({ locale }: { locale?: string }) {
                     <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
                   </svg>
                   <span className="text-black">{loc?.cta?.contribute || 'Contribute'}</span>
-                  <svg className="w-5 h-5 group-hover/btn:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 group-hover/btn:translate-x-1 transition-transform animate-ping" fill="none" stroke="#000" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                   </svg>
                 </span>
@@ -139,10 +119,11 @@ export default function GitSupport({ locale }: { locale?: string }) {
         </div>
 
         {/* Floating decorative elements */}
-        <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full">
-          <div className="absolute top-0 left-0 w-2 h-2 bg-amber-400 rounded-full animate-ping" />
-          <div className="absolute bottom-0 right-0 w-3 h-3 bg-orange-400 rounded-full animate-pulse" />
-          <div className="absolute top-1/3 right-1/4 w-2 h-2 bg-amber-300 rounded-full animate-bounce" />
+        <div className="absolute -z-1 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full">
+          <div className="absolute top-0 -inset-2 w-4 h-4 bg-amber-400 rounded-full animate-ping" />
+          <div className="absolute -bottom-2 -right-2 w-6 h-6 bg-orange-400 rounded-full animate-pulse" />
+          <div className="absolute -bottom-3 -right-3 w-8 h-8 bg-orange-400 rounded-full animate-ping" />
+          <div className="absolute -top-6 right-10 w-6 h-6 bg-amber-500 rounded-full animate-bounce" />
         </div>
       </div>
     </section>

@@ -16,15 +16,8 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
   return (
     <>
       {/* Hero Image with enhanced styling */}
-      <div className="relative group overflow-hidden rounded-2xl shadow-2xl border-l-4 border-emerald-500 bg-gradient-to-br from-emerald-50 via-emerald-100 to-emerald-50 mb-8">
+      <div className="relative group overflow-hidden rounded-2xl shadow-2xl mb-8">
         <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/10 to-green-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10" />
-        <LazyImage
-          src="/images/philosophy-karma.png"
-          alt="philosophy karma"
-          width={1000}
-          height={100}
-          className="w-full h-auto transform group-hover:scale-105 transition-transform duration-700"
-        />
         {/* Decorative border */}
         <div className="absolute inset-0 border-4 border-emerald-400/0 group-hover:border-emerald-400/30 rounded-2xl transition-all duration-500" />
         {/* Floating accent icon */}
@@ -213,7 +206,7 @@ export default function KrishnaExplainsFiveKarmasClient() {
       <div id="philosophy-karma-content">
         <div className="flex flex-col lg:flex-row gap-8">
           <div className="w-full lg:w-3/4">
-            <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-yellow-50 via-amber-50 to-yellow-50 rounded-2xl overflow-hidden">
+            <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-blue-50 via-green-100 to-blue-50  border-l-12 border-blue-200 rounded-2xl overflow-hidden">
               <div className="absolute top-0 right-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl" />
               <div className="absolute bottom-0 left-0 w-80 h-80 bg-yellow-400/8 rounded-full blur-3xl" />
               <div className="relative z-10">
