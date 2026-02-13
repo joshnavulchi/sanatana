@@ -1,140 +1,181 @@
 "use client";
-import { useEffect, useState } from 'react';
-import PageLayout from '@/app/components/common/PageLayout';
-import { useLocale } from '@/app/context/locale-context';
-import LazyImage from '@/app/components/lazy-image/LazyImage';
-import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
-
-const Paragraphs = ({ lines }: { lines?: any[] }) => {
-  if (!Array.isArray(lines) || !lines.length) return null;
-  return (
-    <div className="space-y-6">
-      {lines.map((line: any, idx: number) => (
-        <div key={idx} className="bg-gradient-to-br from-white to-indigo-50/30 border-l-4 border-indigo-500 rounded-lg p-6 shadow-lg animate-fade-in-up">
-          <p className=" text-base md:text-lg leading-relaxed font-serif">{line}</p>
-        </div>
-      ))}
-    </div>
-  );
-};
+import React from "react";
+import PageLayout from "@/app/components/common/PageLayout";
+import { useLocale } from "@/app/context/locale-context";
+import useLocaleSection from "@/app/hooks/useLocaleSection";
+import Loader from "@/app/components/loader/loader";
+import SimilarCategories from "@/app/components/similar-categories/SimilarCategories";
 
 export default function AdvaitaClient() {
-  const { locale } = useLocale();
-  const [advaita, setAdvaita] = useState<any>({});
-  useEffect(() => {
-    fetch(`/locales/${locale}/philosophy_advaita.json`)
-      .then(res => res.ok ? res.json() : {})
-      .then(data => {
-        if (data && typeof data === 'object') {
-          setAdvaita((data as any)?.philosophy_advaita ?? data);
-        } else {
-          setAdvaita({});
-        }
-      });
-  }, [locale]);
-  const title = advaita?.title || 'Advaita Philosophy';
-  const corePrinciples = Array.isArray(advaita.core_principles) ? advaita.core_principles : [];
-  const paragraphs = Array.isArray(advaita.definition) ? advaita.definition : [advaita.definition].filter(Boolean);
+  const { locale, isLoading } = useLocale();
+  const ns = useLocaleSection("philosophy_advaita");
+
+  const data = {
+    title: ns?.title || "Advaita Philosophy",
+    meta: ns?.meta || {},
+    definition: ns?.definition || "",
+    benefits: Array.isArray(ns?.benefits) ? ns.benefits : [],
+    core_principles: Array.isArray(ns?.core_principles) ? ns.core_principles : [],
+    features: Array.isArray(ns?.features) ? ns.features : [],
+    goals: Array.isArray(ns?.goals) ? ns.goals : [],
+    key_concepts: ns?.key_concepts || {},
+    key_scriptural_references: Array.isArray(ns?.key_scriptural_references) ? ns.key_scriptural_references : [],
+    modern_relevance: ns?.modern_relevance || {},
+    origin: ns?.origin || {},
+    paths_to_realization: ns?.paths_to_realization || {},
+    purpose: ns?.purpose || "",
+    relation_to_other_concepts: ns?.relation_to_other_concepts || {},
+    unique_insights: ns?.unique_insights || "",
+  };
+
+  if (isLoading && !data.title) {
+    return (
+      <PageLayout metaKey="philosophy_advaita" title="" breadcrumbs={[{ label: "Home", href: "/" }, { label: "Philosophy", href: "/philosophy" }, { label: "Advaita" }]} className="layout-md">
+        <div className="flex items-center justify-center py-12"><Loader /></div>
+      </PageLayout>
+    );
+  }
 
   return (
     <PageLayout
       metaKey="philosophy_advaita"
-      title={title}
-      breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Philosophy', href: '/philosophy' }, { label: 'Advaita' }]}
-      className="layout-md bg-gradient-to-br from-indigo-50 via-white to-indigo-100 min-h-screen py-12 px-4 md:px-12 lg:px-24 border-l-8 border-indigo-400 shadow-2xl"
+      title={data.title}
+      breadcrumbs={[{ label: "Home", href: "/" }, { label: "Philosophy", href: "/philosophy" }, { label: data.title }]}
+      className="layout-md"
     >
-      <div className="flex flex-col lg:flex-row gap-8">
-        {/* Main Content */}
-        <div className="w-full lg:w-3/4 space-y-8">
-          {/* Hero Image */}
-          <div className="relative group overflow-hidden rounded-2xl shadow-2xl border-4 border-indigo-300/30 bg-gradient-to-br from-indigo-50/40 to-indigo-100/20">
-            <LazyImage
-              src="/images/philosophy-advaita.png"
-              alt="philosophy advaita"
-              width={1000}
-              height={100}
-              className="w-full h-auto transform group-hover:scale-105 transition-transform duration-700"
-            />
-            <div className="absolute top-4 left-4 w-10 h-10 bg-indigo-400/80 rounded-full flex items-center justify-center shadow-lg text-white text-2xl z-20">🕉️</div>
+      <div id="advaita-content">
+        <div className="flex flex-col lg:flex-row gap-8">
+          <div className="w-full lg:w-3/4">
+            <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-indigo-50 via-blue-50 to-indigo-50 rounded-2xl overflow-hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-400/10 rounded-full blur-3xl" />
+              <div className="absolute bottom-0 left-0 w-80 h-80 bg-blue-400/8 rounded-full blur-3xl" />
+              <div className="relative z-10">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="h-px w-12 bg-gradient-to-r from-transparent to-indigo-600" />
+                  <span className="text-3xl animate-pulse">🧘‍♂️</span>
+                  <div className="h-px w-12 bg-gradient-to-l from-transparent to-indigo-600" />
+                </div>
+                <h1 className="text-4xl font-extrabold text-indigo-700 mb-4">{data.title}</h1>
+                <p className="text-lg md:text-xl text-indigo-900 mb-6 italic">{data.definition}</p>
+                {data.purpose && <div className="mt-4 p-4 bg-blue-50 border-l-4 border-indigo-400 rounded"><strong>Purpose:</strong> {data.purpose}</div>}
+                {data.unique_insights && <div className="mt-4 p-4 bg-blue-50 border-l-4 border-indigo-400 rounded"><strong>Unique Insights:</strong> {data.unique_insights}</div>}
+              </div>
+            </div>
+
+            {data.core_principles.length > 0 && (
+              <div className="mt-12 p-6 md:p-8 bg-white border-2 border-indigo-100 rounded-2xl ring-1 ring-indigo-100/30 bg-white/80 backdrop-blur-sm">
+                <h3 className="text-2xl font-bold mb-4 text-indigo-700">Core Principles</h3>
+                <ul className="list-disc pl-6">
+                  {data.core_principles.map((item, idx) => (
+                    <li key={idx}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {data.benefits.length > 0 && (
+              <div className="mt-12 p-6 md:p-8 bg-white border-2 border-indigo-100 rounded-2xl ring-1 ring-indigo-100/30 bg-white/80 backdrop-blur-sm">
+                <h3 className="text-2xl font-bold mb-4 text-indigo-700">Benefits</h3>
+                <ul className="list-disc pl-6">
+                  {data.benefits.map((item, idx) => (
+                    <li key={idx}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {data.features.length > 0 && (
+              <div className="mt-12 p-6 md:p-8 bg-white border-2 border-indigo-100 rounded-2xl ring-1 ring-indigo-100/30 bg-white/80 backdrop-blur-sm">
+                <h3 className="text-2xl font-bold mb-4 text-indigo-700">Features</h3>
+                <ul className="list-disc pl-6">
+                  {data.features.map((item, idx) => (
+                    <li key={idx}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {data.goals.length > 0 && (
+              <div className="mt-12 p-6 md:p-8 bg-white border-2 border-indigo-100 rounded-2xl ring-1 ring-indigo-100/30 bg-white/80 backdrop-blur-sm">
+                <h3 className="text-2xl font-bold mb-4 text-indigo-700">Goals</h3>
+                <ul className="list-disc pl-6">
+                  {data.goals.map((item, idx) => (
+                    <li key={idx}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {data.key_concepts && Object.keys(data.key_concepts).length > 0 && (
+              <div className="mt-12 p-6 md:p-8 bg-white border-2 border-indigo-100 rounded-2xl ring-1 ring-indigo-100/30 bg-white/80 backdrop-blur-sm">
+                <h3 className="text-2xl font-bold mb-4 text-indigo-700">Key Concepts</h3>
+                <ul className="list-disc pl-6">
+                  {Object.entries(data.key_concepts).map(([k, v]) => (
+                    <li key={k}><strong>{k}:</strong> {v as string}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {data.key_scriptural_references.length > 0 && (
+              <div className="mt-12 p-6 md:p-8 bg-white border-2 border-indigo-100 rounded-2xl ring-1 ring-indigo-100/30 bg-white/80 backdrop-blur-sm">
+                <h3 className="text-2xl font-bold mb-4 text-indigo-700">Key Scriptural References</h3>
+                <ul className="list-disc pl-6">
+                  {data.key_scriptural_references.map((ref, idx) => (
+                    <li key={idx}><span className="font-semibold">{ref.text}:</span> {ref.quote_summary}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {data.origin && Object.keys(data.origin).length > 0 && (
+              <div className="mt-12 p-6 md:p-8 bg-white border-2 border-indigo-100 rounded-2xl ring-1 ring-indigo-100/30 bg-white/80 backdrop-blur-sm">
+                <h3 className="text-2xl font-bold mb-4 text-indigo-700">Origin</h3>
+                <ul className="list-disc pl-6">
+                  {Object.entries(data.origin).map(([k, v]) => (
+                    <li key={k}><strong>{k}:</strong> {Array.isArray(v) ? v.join(", ") : v as string}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {data.paths_to_realization && Object.keys(data.paths_to_realization).length > 0 && (
+              <div className="mt-12 p-6 md:p-8 bg-white border-2 border-indigo-100 rounded-2xl ring-1 ring-indigo-100/30 bg-white/80 backdrop-blur-sm">
+                <h3 className="text-2xl font-bold mb-4 text-indigo-700">Paths to Realization</h3>
+                <ul className="list-disc pl-6">
+                  {Object.entries(data.paths_to_realization).map(([k, v]) => (
+                    <li key={k}><strong>{k.replace(/_/g, ' ')}:</strong> {v as string}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {data.relation_to_other_concepts && Object.keys(data.relation_to_other_concepts).length > 0 && (
+              <div className="mt-12 p-6 md:p-8 bg-white border-2 border-indigo-100 rounded-2xl ring-1 ring-indigo-100/30 bg-white/80 backdrop-blur-sm">
+                <h3 className="text-2xl font-bold mb-4 text-indigo-700">Relation to Other Concepts</h3>
+                <ul className="list-disc pl-6">
+                  {Object.entries(data.relation_to_other_concepts).map(([k, v]) => (
+                    <li key={k}><strong>{k}:</strong> {v as string}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {data.modern_relevance && Object.keys(data.modern_relevance).length > 0 && (
+              <div className="mt-12 p-6 md:p-8 bg-white border-2 border-indigo-100 rounded-2xl ring-1 ring-indigo-100/30 bg-white/80 backdrop-blur-sm">
+                <h3 className="text-2xl font-bold mb-4 text-indigo-700">Modern Relevance</h3>
+                <ul className="list-disc pl-6">
+                  {Object.entries(data.modern_relevance).map(([k, v]) => (
+                    <li key={k}><strong>{k}:</strong> {v as string}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
-          {/* Definition Paragraphs */}
-          <Paragraphs lines={paragraphs} />
-          {/* Core Principles */}
-          {corePrinciples.length > 0 && (
-            <div>
-              <p className="font-bold text-lg text-indigo-700 mb-2">Core Principles of Advaita:</p>
-              <ul className="list-disc pl-6">
-                {corePrinciples.map((s: string, idx: number) => (
-                  <li key={idx} className="text-gray-800 text-base mb-1">{s}</li>
-                ))}
-              </ul>
+          <div className="w-full lg:w-1/4">
+            <div className="sticky top-24">
+              <SimilarCategories currentCategory="philosophy" />
             </div>
-          )}
-          {/* Origin */}
-          {advaita.origin && (
-            <div>
-              <p className="font-bold text-lg text-indigo-700 mb-2">Origin:</p>
-              <ul className="list-disc pl-6">
-                {Object.entries(advaita.origin).map(([k, v]: any, idx: number) => (
-                  <li key={idx} className="text-gray-800 text-base mb-1"><strong>{k}:</strong> {v}</li>
-                ))}
-              </ul>
-            </div>
-          )}
-          {/* Paths to Realization */}
-          {advaita.paths_to_realization && (
-            <div>
-              <p className="font-bold text-lg text-indigo-700 mb-2">Paths to Realization:</p>
-              <ul className="list-disc pl-6">
-                {Object.entries(advaita.paths_to_realization).map(([k, v]: any, idx: number) => (
-                  <li key={idx} className="text-gray-800 text-base mb-1"><strong>{k}:</strong> {v}</li>
-                ))}
-              </ul>
-            </div>
-          )}
-          {/* Goals */}
-          {advaita.goals && (
-            <div>
-              <p className="font-bold text-lg text-indigo-700 mb-2">Goals:</p>
-              <ul className="list-disc pl-6">
-                {Object.entries(advaita.goals).map(([k, v]: any, idx: number) => (
-                  <li key={idx} className="text-gray-800 text-base mb-1"><strong>{k}:</strong> {v}</li>
-                ))}
-              </ul>
-            </div>
-          )}
-          {/* Relation to Other Concepts */}
-          {advaita.relation_to_other_concepts && (
-            <div>
-              <p className="font-bold text-lg text-indigo-700 mb-2">Relation to Other Concepts:</p>
-              <ul className="list-disc pl-6">
-                {Object.entries(advaita.relation_to_other_concepts).map(([k, v]: any, idx: number) => (
-                  <li key={idx} className="text-gray-800 text-base mb-1"><strong>{k}:</strong> {v}</li>
-                ))}
-              </ul>
-            </div>
-          )}
-          {/* Modern Relevance */}
-          {advaita.modern_relevance && (
-            <div>
-              <p className="font-bold text-lg text-indigo-700 mb-2">Modern Relevance:</p>
-              <ul className="list-disc pl-6">
-                {Object.entries(advaita.modern_relevance).map(([k, v]: any, idx: number) => (
-                  <li key={idx} className="text-gray-800 text-base mb-1"><strong>{k}:</strong> {v}</li>
-                ))}
-              </ul>
-            </div>
-          )}
-        </div>
-        {/* Sidebar */}
-        <div className="w-full lg:w-1/4">
-          <div className="sticky top-24">
-            <SimilarCategories
-              currentCategory="philosophy"
-              title="Similar Philosophy"
-              maxItems={3}
-              excludeCurrent={false}
-            />
           </div>
         </div>
       </div>

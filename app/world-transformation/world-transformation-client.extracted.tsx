@@ -41,7 +41,7 @@ export default function WorldTransformationContent() {
       href: '/'
     }, {
       label: 'World Transformation'
-    }]} className="layout-sm">
+    }]} className="layout-md">
       <div className="flex items-center justify-center py-12">
         <Loader />
       </div>
@@ -52,7 +52,7 @@ export default function WorldTransformationContent() {
     href: '/'
   }, {
     label: 'World Transformation'
-  }]} className="layout-sm">
+  }]} className="layout-md">
     <div className="space-y-12">
       {/* Hero section */}
       <div className="relative md:-mx-8 px-6 md:px-8 py-12 bg-gradient-to-br from-blue-50 via-indigo-50 to-blue-50 rounded-2xl overflow-hidden">

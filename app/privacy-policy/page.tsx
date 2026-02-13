@@ -8,8 +8,8 @@ import StructuredData from '@/app/components/structured-data/StructuredData';
 export default function Page() {
   return (
     <>
-      <StructuredData metaKey='privay-policy' />
-      <PrivacyPolicy />;
+      <StructuredData metaKey='privacy-policy' />
+      <PrivacyPolicy />
     </>
   );
 }

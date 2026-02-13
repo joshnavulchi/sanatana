@@ -1,96 +1,119 @@
 "use client";
-import { t, getLocaleNamespaceObject } from '../../../lib/i18n';
+import { useEffect, useState } from 'react';
 import { useLocale } from '@/app/context/locale-context';
 import PageLayout from '@/app/components/common/PageLayout';
-// ...existing code...
-
-const ns: Record<string, unknown> = {};
-const __getLoc = (p: string) => {
-  if (!ns) return '';
-  const parts = p.split('.');
-  const namespaceKey = parts[0] === 'philosophy_ahimsa' ? parts.shift() : 'philosophy_ahimsa';
-  let cur: any = (ns as any)?.[namespaceKey!] || ns as any;
-  for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
-  return cur;
-};
+import Loader from '@/app/components/loader/loader';
+import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
 
 export default function AhimsaClient() {
-  const { locale } = useLocale();
-  const S = (k: string) => String(t(k, locale));
-  const loc: any = getLocaleNamespaceObject(locale, 'philosophy_ahimsa') || {};
-  const ahimsa = loc?.philosophy_ahimsa || {};
-  const title = ahimsa.title || __getLoc('philosophy_ahimsa.title') || 'Ahimsa Philosophy';
-  const definition: string[] = Array.isArray(ahimsa.definition) ? ahimsa.definition : (ahimsa.definition ? [String(ahimsa.definition)] : []);
-  const categories = ahimsa.categories_of_ahimsa || {};
-  const philosophicalDimensions = ahimsa.philosophical_dimensions || {};
-  const corePrinciples = ahimsa.core_principles || {};
-  const ahimsaInRamayana = ahimsa.ahimsa_in_ramayana || {};
-  return (
-    <>
-      <PageLayout
-        metaKey="philosophy_ahimsa"
-        title={title}
-        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Ahimsa' }]}
-        className={`layout-md`}
-      >
-        <p><strong>Definition : </strong>{definition.length ? definition.map((s: string, i: number) => (<span key={i}>{s}{i < definition.length - 1 ? ', ' : ''}</span>)) : <span>{String(__getLoc('philosophy_ahimsa.noDefinition'))}</span>}</p>
-        {/* Categories of Ahimsa */}
-        <div>
-          <h2 className="text-2xl md:text-3xl">Categories of Ahimsa :</h2>
-          <ul role="list" className="list-disc">
-            {Object.entries(categories).map((cKey: any, idx: number) => {
-              const { meaning, examples } = cKey[1] || {};
-              return <li key={idx}>
-                <strong>{meaning}</strong> - {Array.isArray(examples) ? <span>{examples.join(', ')}</span> : (examples ? <span>{String(examples)}</span> : null)}
-              </li>
-            })}
-          </ul>
-          <p><strong>Philosophical dimensionsGoals of Ahimsa : </strong></p>
-          <ul role="list" className="list-disc">
-            {Object.entries(philosophicalDimensions).map((cKey: any, idx: number) => {
-              return <li key={idx}>
-                <span>{cKey[1]}</span>
-              </li>
-            })}
-          </ul>
-          <p><strong>Core principles of Ahimsa : </strong></p>
-          <ul role="list" className="list-disc">
-            {Object.entries(corePrinciples).map((cKey: any, idx: number) => {
-              return <li key={idx}>
-                <span>{cKey[1]}</span>
-              </li>
-            })}
-          </ul>
-          <p><strong>Ahimsa in Ramayana : </strong></p>
-          <ul role="list" className="list-disc">
-            {Object.entries(ahimsaInRamayana).map((cKey: any, idx: number) => {
-              return <li key={idx}>
-                <span>{cKey[1]}</span>
-              </li>
-            })}
-          </ul>
-        </div>
-        {/* Hero image and sidebar placeholder */}
-        <div>
-          <HeroImage />
-          <Sidebar />
-        </div>
+  const { locale, isLoading } = useLocale();
+  const [page, setPage] = useState<any | null>(null);
+
+  useEffect(() => {
+    let mounted = true;
+    async function fetchData() {
+      const res = await fetch(`/locales/${locale}/philosophy_ahimsa.json`);
+      const data = await res.json();
+      const nsObj = data?.philosophy_ahimsa || {};
+      if (!mounted) return;
+      setPage({
+        title: nsObj.title || 'Ahimsa Philosophy',
+        definition: Array.isArray(nsObj.definition) ? nsObj.definition : (nsObj.definition ? [String(nsObj.definition)] : []),
+        categories: nsObj.categories_of_ahimsa || {},
+        philosophicalDimensions: nsObj.philosophical_dimensions || {},
+        corePrinciples: nsObj.core_principles || {},
+        ahimsaInRamayana: nsObj.ahimsa_in_ramayana || {},
+      });
+    }
+    fetchData();
+    return () => { mounted = false; };
+  }, [locale]);
+
+  if (isLoading && !page) {
+    return (
+      <PageLayout metaKey="philosophy_ahimsa" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Ahimsa' }]} className="layout-md">
+        <div className="flex items-center justify-center py-12"><Loader /></div>
       </PageLayout>
-    </>
+    );
+  }
+
+  if (!page) {
+    return null;
+  }
+
+  return (
+    <PageLayout
+      metaKey="philosophy_ahimsa"
+      title={page.title}
+      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Ahimsa' }]}
+      className="layout-md"
+    >
+      <div id="ahimsa-content">
+        <div className="flex flex-col lg:flex-row gap-8">
+          <div className="w-full lg:w-3/4">
+            <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-emerald-50 via-emerald-100 to-emerald-50 rounded-2xl overflow-hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-400/10 rounded-full blur-3xl" />
+              <div className="absolute bottom-0 left-0 w-80 h-80 bg-green-400/8 rounded-full blur-3xl" />
+              <div className="relative z-10">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="h-px w-12 bg-gradient-to-r from-transparent to-emerald-600" />
+                  <span className="text-3xl animate-pulse">🕉️</span>
+                  <div className="h-px w-12 bg-gradient-to-l from-transparent to-emerald-600" />
+                </div>
+                <h1 className="text-4xl font-extrabold text-emerald-700 mb-4">{page.title}</h1>
+                <p className="text-lg md:text-xl text-emerald-900 mb-6 italic">
+                  <strong>Definition: </strong>
+                  {page.definition.length ? page.definition.map((s: string, i: number) => (
+                    <span key={i}>{s}{i < page.definition.length - 1 ? ', ' : ''}</span>
+                  )) : <span>No definition available.</span>}
+                </p>
+                <div className="mb-6">
+                  <h2 className="text-2xl font-bold text-emerald-700 mb-2">Categories of Ahimsa</h2>
+                  <ul className="list-disc ml-6 text-emerald-900 space-y-1">
+                    {Object.entries(page.categories).map((cKey: any, idx: number) => {
+                      const { meaning, examples } = cKey[1] || {};
+                      return <li key={idx}>
+                        <span className="font-semibold">{meaning}</span>{' '}-{' '}{Array.isArray(examples) ? <span>{examples.join(', ')}</span> : (examples ? <span>{String(examples)}</span> : null)}
+                      </li>;
+                    })}
+                  </ul>
+                </div>
+                <div className="mb-6">
+                  <h2 className="text-2xl font-bold text-green-700 mb-2">Philosophical Dimensions / Goals</h2>
+                  <ul className="list-disc ml-6 text-green-900 space-y-1">
+                    {Object.entries(page.philosophicalDimensions).map((cKey: any, idx: number) => (
+                      <li key={idx}>{cKey[1]}</li>
+                    ))}
+                  </ul>
+                </div>
+                <div className="mb-6">
+                  <h2 className="text-2xl font-bold text-blue-700 mb-2">Core Principles of Ahimsa</h2>
+                  <ul className="list-disc ml-6 text-blue-900 space-y-1">
+                    {Object.entries(page.corePrinciples).map((cKey: any, idx: number) => (
+                      <li key={idx}>{cKey[1]}</li>
+                    ))}
+                  </ul>
+                </div>
+                <div className="mb-6">
+                  <h2 className="text-2xl font-bold text-orange-700 mb-2">Ahimsa in Ramayana</h2>
+                  <ul className="list-disc ml-6 text-orange-900 space-y-1">
+                    {Object.entries(page.ahimsaInRamayana).map((cKey: any, idx: number) => (
+                      <li key={idx}>{cKey[1]}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="w-full lg:w-1/4">
+            <div className="sticky top-24">
+              <SimilarCategories currentCategory="philosophy" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </PageLayout>
   );
 }
 
-// Define local placeholder components
-const HeroImage = () => (
-  <div className="relative group overflow-hidden rounded-2xl shadow-2xl border-4 border-indigo-300/30 bg-gradient-to-br from-indigo-50/40 to-indigo-100/20 mb-8">
-    <div className="w-full h-48 flex items-center justify-center text-4xl text-indigo-400">[Hero Image Placeholder]</div>
-    <div className="absolute top-4 left-4 w-10 h-10 bg-indigo-400/80 rounded-full flex items-center justify-center shadow-lg text-white text-2xl z-20">🕉️</div>
-  </div>
-);
-const Sidebar = () => (
-  <div className="w-full lg:w-1/4">
-    <div className="sticky top-24">
-      <div className="bg-indigo-50 rounded-xl p-4 shadow-md">[Sidebar Placeholder]</div>
-    </div>
-  </div>
-);
+

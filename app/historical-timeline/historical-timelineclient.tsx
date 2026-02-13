@@ -1,5 +1,6 @@
 "use client";
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
 import useLocaleSection from '../hooks/useLocaleSection';
@@ -181,7 +182,7 @@ export default function HistoricalTimeline() {
         metaKey="historical_timeline.meta"
         title=""
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Historical Timeline' }]}
-        className="layout-sm"
+        className="layout-md"
       >
         <div className="flex items-center justify-center py-12">
           <Loader />
@@ -195,7 +196,7 @@ export default function HistoricalTimeline() {
       metaKey="historical_timeline.meta"
       title={timeline.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Historical Timeline' }]}
-      className="layout-sm"
+      className="layout-md"
     >
       {/* Text-to-Speech Player */}
       <TextToSpeech sectionId="timeline-content" className="floating" />

@@ -31,7 +31,7 @@ export default function Page({ searchParams }: any) {
         metaKey="scriptures_upanishads"
         title={page.title}
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Upanishads' }]}
-        className="layout-sm"
+        className="layout-md"
       >
         {(page.list || []).map((item: any, i: number) => (
           <div key={i}>

@@ -37,7 +37,7 @@ export default function Page({ searchParams }: any) {
         metaKey="scriptures_vedas"
         title={page.title}
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Vedas' }]}
-        className="layout-sm"
+        className="layout-md"
       >
         <p>{page.intro}</p>
         <div>

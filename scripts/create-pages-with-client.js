@@ -41,7 +41,7 @@ function writeIfMissing(filePath, content) {
 
 function clientTemplate(pageKey, compName, folderName) {
   return `"use client";
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
 import { useT } from '../hooks/useT';
@@ -147,7 +147,7 @@ export default function ${compName}() {
 
   if (isLoading && !page.title) {
     return (
-      <PageLayout metaKey="${pageKey}" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: '${formatKey(folderName)}' }]} className="layout-sm">
+      <PageLayout metaKey="${pageKey}" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: '${formatKey(folderName)}' }]} className="layout-md">
         <div className="flex items-center justify-center py-12">
           <Loader />
         </div>
@@ -156,7 +156,7 @@ export default function ${compName}() {
   }
 
   return (
-    <PageLayout metaKey="${pageKey}" title={page.title} breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title || '${formatKey(folderName)}' }]} className="layout-sm">
+    <PageLayout metaKey="${pageKey}" title={page.title} breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title || '${formatKey(folderName)}' }]} className="layout-md">
       {page.subtitle ? <p>{page.subtitle}</p> : null}
       {Object.keys(page).filter(k => !['title','subtitle','meta','schema','id','type', 'required', 'faq'].includes(k)).map((k) => (
         <div key={k} className="mb-6">

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 // Unique audioplayer redesign inspired by digital clock
 // Circular progress, animated play/pause, bold time display, themed colors
 const CIRCLE_RADIUS = 48;
