@@ -3,6 +3,7 @@ import { useLocale } from '../../context/locale-context';
 import { t, getMeta } from '../../../lib/i18n';
 import { parseList } from 'lib/parseList';
 import PageLayout from '@/app/components/common/PageLayout';
+import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
 
 export default function VishnuClient() {
   const { locale } = useLocale();
@@ -27,6 +28,9 @@ export default function VishnuClient() {
           <h2 className="text-2xl md:text-3xl">{item.name || item.title || `Item ${i + 1}`}</h2>
         </section>
       ))}
+      <div className="mt-12">
+        <SimilarCategories currentCategory="stotrasmantras" />
+      </div>
     </PageLayout>
   );
 }

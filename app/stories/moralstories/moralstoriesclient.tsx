@@ -2,6 +2,7 @@
 import { useLocale } from '../../context/locale-context';
 import useLocaleSection from '../../hooks/useLocaleSection';
 import PageLayout from '@/app/components/common/PageLayout';
+import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
 
 export default function MoralStoriesClient() {
   const { locale } = useLocale();
@@ -19,6 +20,9 @@ export default function MoralStoriesClient() {
       className=""
     >
       <p>{placeholder}</p>
+      <div className="mt-12">
+        <SimilarCategories currentCategory="stories" />
+      </div>
     </PageLayout>
   );
 }
