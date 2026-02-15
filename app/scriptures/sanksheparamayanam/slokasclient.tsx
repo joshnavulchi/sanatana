@@ -62,7 +62,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
         {slokas.slice(0, visible).map((s, idx) => {
           const key = s.sloka || s.sanskrit || idx;
           const isExpanded = !!expanded[idx];
-          const meaning = s.meaning || "";
+          const meaning = s.simpleMeaning || "";
           const preview = meaning.length > 220 ? meaning.slice(0, 220) + "…" : meaning;
 
           return (

@@ -73,7 +73,7 @@ export default function Footer() {
 
         <div className={`nav-wrapper w-full relative z-10 flex flex-col md:flex-row md:items-start md:justify-between border-t`}>
           <nav role="menu" className="md:w-full gap-4 flex flex-col  md:flex-row md:items-start">
-            <div className="md:w-1/6 flex flex-col gap-2">
+            <div className="md:w-1/5 flex flex-col gap-2">
               {(() => {
                 const sec = footer?.scriptures || {};
                 const title = sec?.title || footer?.scripturesTitle || 'Scriptures';
@@ -100,7 +100,7 @@ export default function Footer() {
               })()}
             </div>
 
-            <div className="md:w-1/6 flex flex-col gap-2">
+            <div className="md:w-1/5 flex flex-col gap-2">
               {(() => {
                 const sec = footer?.philosophy || {};
                 const title = sec?.title || footer?.philosophyTitle || 'Philosophy';
@@ -126,7 +126,7 @@ export default function Footer() {
               })()}
             </div>
 
-            <div className="md:w-1/6 flex flex-col gap-2">
+            <div className="md:w-1/5 flex flex-col gap-2">
               {(() => {
                 const sec = footer?.stories || {};
                 const title = sec?.title || footer?.philosophyTitle || 'Stories';
@@ -152,7 +152,7 @@ export default function Footer() {
               })()}
             </div>
 
-            <div className="md:w-1/6 flex flex-col gap-2">
+            <div className="hidden">
               {(() => {
                 const sec = footer?.stotrasmantras || {};
                 const title = sec?.title || footer?.philosophyTitle || 'Stotras Mantras';
@@ -178,7 +178,7 @@ export default function Footer() {
               })()}
             </div>
 
-            <div className="md:w-1/6 flex flex-col gap-2">
+            <div className="md:w-1/5 flex flex-col gap-2">
               {(() => {
                 const sec = footer?.kidszone || {};
                 const title = sec?.title || footer?.kidszoneTitle || 'Kids Zone';
@@ -204,7 +204,7 @@ export default function Footer() {
               })()}
             </div>
 
-            <div className="md:w-1/6 flex flex-col gap-2">
+            <div className="md:w-1/5 flex flex-col gap-2">
               {(() => {
                 const sec = footer?.others || {};
                 const title = sec?.title || footer?.othersTitle || 'More';

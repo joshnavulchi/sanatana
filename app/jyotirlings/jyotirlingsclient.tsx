@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import PageLayout from '@/app/components/common/PageLayout';
 import { useLocale } from '../context/locale-context';
 import useLocaleSection from '../hooks/useLocaleSection';
-import { parseSections, parseMaybeObject } from 'lib/parseContent';
 import Loader from '@/app/components/loader/loader';
 import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
 import TextToSpeech from '@/app/components/text-to-speech/TextToSpeech';
@@ -20,7 +19,7 @@ export default function JyotirlingsClient() {
       if (!mounted) return;
       // locale JSON sometimes nests under `jyotirlingas` (different spelling/namespace),
       // so normalize to a container object that definitely holds the expected keys.
-      const container = ns?.jyotirlingas ?? ns?.jyotirlings ?? ns ?? {};
+      const container = ns?.jyotirlings ?? ns?.jyotirlings ?? ns ?? {};
       const meta = container?.meta || {};
       const title = String(container?.title || meta?.title || '');
       const intro = String(container?.intro || meta?.description || '');
