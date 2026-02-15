@@ -243,7 +243,7 @@ export default function AudioPlayer({
   };
 
   return (
-    <div className={`fixed z-9 top-40 left-2 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:to-pink-600 text-white shadow-lg rounded-full tracking-widest border-2 border-white  focus:outline-none focus:ring-4 focus:ring-pink-300 transition-all duration-300 flex cursor-pointer`}>
+    <div className={`fixed z-9 top-24 left-2 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:to-pink-600 text-white shadow-lg rounded-full tracking-widest border-2 border-white  focus:outline-none focus:ring-4 focus:ring-pink-300 transition-all duration-300 flex cursor-pointer`}>
       {/* Media */}
       <audio ref={audioRef} preload="metadata">
         {currentTrack.sources.map((s, i) => (

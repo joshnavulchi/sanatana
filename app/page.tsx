@@ -7,8 +7,6 @@ import HeroSection from './components/hero-section/herosection';
 import OurFourCoreYugas from './components/our-four-core-yugas/ourfourcoreyugas';
 import UnderstandingOfSanatana from './components/understanding/sanatanaDharmam';
 import WelcomePage from './components/welcome/page';
-// import DelayedHomeWidgets from './components/homewidget';
-import DigitalClockLoader from './components/digitalclock/DigitalClockLoader';
 import AudioPlayer from './components/audioplayer';
 
 // Cache critical CSS at module level to avoid repeated file reads
@@ -43,18 +41,6 @@ export const generateMetadata = createGenerateMetadata('home');
 export default async function Home() {
   // Get cached critical CSS (read once at module load)
   const criticalCss = getCriticalCss();
-  const playlist = [
-    {
-      id: 1,
-      title: "Krishna",
-      artist: "Studio Loops",
-      poster: "", // optional
-      sources: [
-        { src: "/krishna-flute.mp3", type: "audio/mpeg" },
-        { src: "/krishna-fluete.ogg", type: "audio/ogg" },
-      ],
-    }
-  ];
 
   return (
     <>
@@ -68,7 +54,7 @@ export default async function Home() {
         {/* Delayed widgets: cookies and clock */}
         {/* <DelayedHomeWidgets />  // Disabled: causes server/client boundary error */}
 
-        <DigitalClockLoader />
+        {/* <DigitalClockLoader /> */}
         {/* Krishna flute background audio player in footer, loads after 1 minute */}
         <AudioPlayer
           tracks={{
