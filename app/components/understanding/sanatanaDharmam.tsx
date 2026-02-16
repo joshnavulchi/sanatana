@@ -134,7 +134,7 @@ export default function UnderstandingOfSanatana() {
               ))}
 
               {section.points?.map((point, index) => (
-                <div key={`${section.id}-point-${index}`} className="bg-gradient-to-br from-white to-amber-50 border-2 border-amber-100 rounded-2xl p-6 mb-6 md:mb-0 shadow-lg">
+                <div key={`${section.id}-point-${index}`} className="bg-white border-2 border-amber-100 rounded-2xl p-6 mb-6 md:mb-0 shadow-sm">
                   <p className="text-xl font-semibold text-gray-800">
                     {point}
                   </p>
