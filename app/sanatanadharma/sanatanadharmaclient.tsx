@@ -46,22 +46,8 @@ export default function SanatanadharmaClientPage() {
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: content.title }]}
       className="layout-md"
     >
-      {/* Hero Section */}
-      <section className="relative flex flex-col items-center justify-center min-h-[10vh] py-6 px-4 bg-gradient-to-br from-yellow-100 via-orange-50 to-amber-200 rounded-3xl border-l-4 border-amber-400 shadow-2xl overflow-hidden mb-12">
-        <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute -top-16 -left-16 w-72 h-72 bg-amber-100 rounded-full blur-3xl opacity-60 animate-pulse" />
-          <div className="absolute -bottom-16 -right-16 w-72 h-72 bg-orange-200 rounded-full blur-3xl opacity-50 animate-pulse" />
-        </div>
-        <h3 className="relative z-10 text-2xl md:text-3xl font-extrabold text-amber-800 drop-shadow-xl tracking-tight animate-fade-in">
-          {content.title}
-        </h3>
-        <p className="relative z-10 text-xl md:text-2xl text-amber-700 font-medium animate-fade-in-slow max-w-2xl text-center">
-          {content.subtitle}
-        </p>
-      </section>
-
       {/* Sections as cards */}
-      <div className="flex flex-col gap-12">
+      <div className="flex flex-col gap-8">
         {content.sections.map((section: any, index: number) => {
           const level = Math.min(index + 2, 6);
           const Tag = `h${level}` as unknown as React.ElementType;
@@ -70,37 +56,42 @@ export default function SanatanadharmaClientPage() {
           return (
             <div
               key={section.id || index}
-              className="relative bg-white border-l-4 border-amber-300 rounded-2xl p-6 md:p-8 mt-4 shadow-xl hover:shadow-2xl transition-all duration-500 group overflow-hidden"
+              className="relative bg-gradient-to-br from-white via-orange-50/30 to-white border-4 border-orange-200 rounded-lg p-8 md:p-10 shadow-md hover:shadow-2xl hover:border-orange-400 transition-all duration-300 group"
             >
-              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-amber-400/10 to-transparent rounded-tr-2xl" />
-              <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-orange-400/10 to-transparent rounded-bl-2xl" />
-              <div className="relative z-10 space-y-4">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-amber-100 to-orange-100 rounded-xl flex items-center justify-center text-2xl shadow-md group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300">
+              <div className="absolute top-0 left-0 w-20 h-20 border-t-4 border-l-4 border-orange-400 rounded-tl-lg" />
+              <div className="absolute bottom-0 right-0 w-20 h-20 border-b-4 border-r-4 border-orange-400 rounded-br-lg" />
+              <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-bl from-orange-300/20 via-yellow-200/10 to-transparent" />
+              <div className="absolute bottom-0 left-0 w-16 h-16 bg-gradient-to-tr from-orange-300/20 via-yellow-200/10 to-transparent" />
+              <div className="relative z-10 space-y-5">
+                <div className="flex items-start gap-5 pb-4 border-b-2 border-orange-200">
+                  <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-orange-400 to-yellow-500 rounded-full flex items-center justify-center text-3xl shadow-lg border-4 border-white group-hover:scale-110 transition-transform duration-300">
                     {icon}
                   </div>
-                  <Tag className="flex-1 text-2xl md:text-3xl font-bold text-gray-900 group-hover:text-amber-600 transition-colors duration-300">
+                  <Tag className="flex-1 text-2xl md:text-4xl font-extrabold text-orange-700 group-hover:text-orange-900 transition-colors duration-300 leading-tight pt-2">
                     {section.title}
                   </Tag>
                 </div>
                 {section?.para1 && (
-                  <p className="text-base md:text-lg leading-relaxed pl-16">{section.para1}</p>
+                  <p className="text-base md:text-lg leading-loose text-gray-700 pl-0 first-letter:text-5xl first-letter:font-bold first-letter:text-orange-600 first-letter:mr-1 first-letter:float-left">{section.para1}</p>
                 )}
                 {section?.para2 && (
-                  <p className="text-base md:text-lg leading-relaxed pl-16">{section.para2}</p>
+                  <p className="text-base md:text-lg leading-loose text-gray-700 pl-0">{section.para2}</p>
                 )}
                 {section?.para3 && (
-                  <p className="text-base md:text-lg leading-relaxed pl-16">{section.para3}</p>
+                  <p className="text-base md:text-lg leading-loose text-gray-700 pl-0">{section.para3}</p>
                 )}
                 {/* Keypoints as sub-bullets */}
                 {section?.keypoints && Array.isArray(section.keypoints) && section.keypoints.length > 0 && (
-                  <ul className="space-y-3 pl-16">
+                  <ul className="space-y-4 mt-6 pl-0">
                     {section.keypoints.map((point: any, idx: number) => (
-                      <li key={idx} className="mb-2">
-                        <div className="font-semibold text-amber-700 mb-1">{point.title}</div>
-                        {point.para1 && <div className="text-amber-800/90 text-base md:text-lg indent-8">{point.para1}</div>}
-                        {point.para2 && <div className="text-amber-800/90 text-base md:text-lg indent-8">{point.para2}</div>}
-                        {point.para3 && <div className="text-amber-800/90 text-base md:text-lg indent-8">{point.para3}</div>}
+                      <li key={idx} className="bg-orange-50 border-l-8 border-orange-400 p-5 rounded-r-lg shadow-sm hover:shadow-md transition-shadow duration-200">
+                        <div className="font-bold text-orange-800 mb-2 text-lg flex items-center gap-2">
+                          <span className="w-2 h-2 bg-orange-600 rounded-full" />
+                          {point.title}
+                        </div>
+                        {point.para1 && <div className="text-gray-700 text-base md:text-lg pl-4 leading-relaxed mb-2">{point.para1}</div>}
+                        {point.para2 && <div className="text-gray-700 text-base md:text-lg pl-4 leading-relaxed mb-2">{point.para2}</div>}
+                        {point.para3 && <div className="text-gray-700 text-base md:text-lg pl-4 leading-relaxed">{point.para3}</div>}
                       </li>
                     ))}
                   </ul>
