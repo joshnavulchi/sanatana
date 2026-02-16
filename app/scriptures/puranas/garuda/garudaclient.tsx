@@ -67,14 +67,7 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
       </div>
       {/* Sidebar */}
       <div className="w-full lg:w-1/4">
-        <div className="sticky top-24">
-          <SimilarCategories
-            currentCategory="puranas"
-            title="Similar puranas"
-            maxItems={3}
-            excludeCurrent={false}
-          />
-        </div>
+        <SimilarCategories  />
       </div>
     </div>
   );

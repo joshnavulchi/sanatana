@@ -30,9 +30,7 @@ export default function ParasuramClient() {
           </div>
         </div>
         <div className="w-full lg:w-1/4">
-          <div className="sticky top-24">
-            <SimilarCategories currentCategory="stories" />
-          </div>
+          <SimilarCategories />
         </div>
       </div>
     </PageLayout>

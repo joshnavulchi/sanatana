@@ -173,9 +173,7 @@ export default function AdvaitaClient() {
             )}
           </div>
           <div className="w-full lg:w-1/4">
-            <div className="sticky top-24">
-              <SimilarCategories currentCategory="philosophy" />
-            </div>
+            <SimilarCategories />
           </div>
         </div>
       </div>

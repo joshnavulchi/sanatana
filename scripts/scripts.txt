@@ -85,3 +85,6 @@ PS C:\ReactProjects\sanatana> npx mapshaper .\public\data\countries-50m.json ` -
 [clean] Retained 1 of 1 features                                           
 [dissolve2] Dissolved 1 feature into 1 feature         
 [o] Wrote public\data\india_adm0.geojson
+
+netstat -ano | findstr :3000
+Stop-Process -Id <PID_NUMBER>

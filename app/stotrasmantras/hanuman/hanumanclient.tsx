@@ -109,9 +109,7 @@ export default function DeviClient() {
         })}
       </div>
       <div className="w-full lg:w-1/4">
-        <div className="sticky top-24">
-          <SimilarCategories currentCategory="stotrasmantras" />
-        </div>
+        <SimilarCategories />
       </div>
     </div>
   </PageLayout>);

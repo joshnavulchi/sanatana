@@ -6,16 +6,14 @@ import { loadLocaleNamespace } from '../../../lib/i18n';
 import { useLocale } from '../../context/locale-context';
 
 interface SimilarCategoriesProps {
-  currentCategory?: string; // e.g., 'philosophy', 'scriptures', 'kidszone'
   title?: string;
   maxItems?: number;
   excludeCurrent?: boolean;
 }
 
 export default function SimilarCategories({
-  currentCategory,
   title = 'Explore More',
-  maxItems = 6,
+  maxItems = 100,
   excludeCurrent = true
 }: SimilarCategoriesProps) {
   const { locale } = useLocale();
@@ -30,11 +28,11 @@ export default function SimilarCategories({
         // The navigation data is under sharable_strings.header or sharable_strings.footer
         const sharableStrings = (locObj as any)?.sharable_strings;
         // Prefer footer nav when available, fall back to header
-        const navData = sharableStrings?.footer || sharableStrings?.header || (locObj as any)?.footer || (locObj as any)?.header || {};
+        const navData = sharableStrings?.similar_categories || (locObj as any)?.similar_categories || {};
         // Extract categories with their navigation items
         const extractedCategories: Array<{ key: string; title: string; links: Array<{ key: string; label: string; href: string }> }> = [];
         // Define all known categories to ensure they're included
-        const knownCategories = ['philosophy', 'scriptures', 'kidszone', 'practices', 'stories'];
+        const knownCategories = ['philosophy', 'scriptures', 'kidszone', 'practices', 'stories', 'stotras', 'others'];
 
         // navData can be an object of categories or an array of links
         if (Array.isArray(navData)) {
@@ -48,7 +46,6 @@ export default function SimilarCategories({
             // If value has a 'nav' object, use that
             const navObj = value?.nav || value?.links || (typeof value === 'object' && value ? value : null);
             if (!navObj || typeof navObj !== 'object') return;
-            if (excludeCurrent && key === currentCategory) return;
             const categoryTitle = (value && value.title) ? value.title : key;
             const links: Array<{ key: string; label: string; href: string }> = [];
             Object.entries(navObj).forEach(([navKey, navLabel]: [string, any]) => {
@@ -81,7 +78,7 @@ export default function SimilarCategories({
       }
     })();
     return () => { mounted = false; };
-  }, [locale, currentCategory, maxItems, excludeCurrent]);
+  }, [locale, maxItems]);
   if (categories.length === 0) {
     return (
       <aside className="p-4 bg-white/80 border-l-4 border-emerald-500 shadow-lg rounded-xl">
