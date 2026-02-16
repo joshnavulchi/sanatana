@@ -10,7 +10,7 @@ export default function DefinitionOfLife() {
   // }, []);
 
   return (
-    <div className="py-6 px-3">
+    <div className="mx-auto max-w-7xl py-6 px-3">
       <div
         className={`
           transition-all duration-1000 ease-out
@@ -116,22 +116,22 @@ export default function DefinitionOfLife() {
             आश्रम - The Four Stages of Life
           </h3>
           <div className="flex flex-col md:flex-row gap-4">
-            <div className="text-center p-4 rounded-lg bg-gradient-to-b from-amber-50 to-white border border-amber-200/40 flex-1">
+            <div className="w-full md:min-w-1/4 text-center p-4 rounded-lg bg-gradient-to-b from-amber-50 to-white border border-amber-200/40 flex-1">
               <div className="text-3xl mb-2">📚</div>
               <h4 className="font-bold text-amber-800 mb-1">Brahmacharya</h4>
               <p className="text-sm text-gray-600">Student Life - Learning & Discipline</p>
             </div>
-            <div className="text-center p-4 rounded-lg bg-gradient-to-b from-orange-50 to-white border border-orange-200/40">
+            <div className="w-full md:min-w-1/4 text-center p-4 rounded-lg bg-gradient-to-b from-orange-50 to-white border border-orange-200/40">
               <div className="text-3xl mb-2">🏡</div>
               <h4 className="font-bold text-orange-800 mb-1">Grihastha</h4>
               <p className="text-sm text-gray-600">Householder - Family & Duty</p>
             </div>
-            <div className="text-center p-4 rounded-lg bg-gradient-to-b from-yellow-50 to-white border border-yellow-200/40">
+            <div className="w-full md:min-w-1/4 text-center p-4 rounded-lg bg-gradient-to-b from-yellow-50 to-white border border-yellow-200/40">
               <div className="text-3xl mb-2">🌳</div>
               <h4 className="font-bold text-yellow-800 mb-1">Vanaprastha</h4>
               <p className="text-sm text-gray-600">Retirement - Detachment & Reflection</p>
             </div>
-            <div className="text-center p-4 rounded-lg bg-gradient-to-b from-amber-50 to-white border border-amber-200/40">
+            <div className="w-full md:min-w-1/4 text-center p-4 rounded-lg bg-gradient-to-b from-amber-50 to-white border border-amber-200/40">
               <div className="text-3xl mb-2">🧘</div>
               <h4 className="font-bold text-amber-800 mb-1">Sannyasa</h4>
               <p className="text-sm text-gray-600">Renunciation - Complete Liberation</p>

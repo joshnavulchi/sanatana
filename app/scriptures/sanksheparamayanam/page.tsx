@@ -3,6 +3,7 @@ import PageLayout from '@/app/components/common/PageLayout';
 import { createGenerateMetadata } from 'lib/pageUtils';
 import { t, detectLocale, getLocaleNamespaceObject, getMeta, DEFAULT_LOCALE } from '../../../lib/i18n';
 import SlokasClient from './slokasclient';
+import Link from 'next/dist/client/link';
 export const generateMetadata = createGenerateMetadata('scriptures_sanksheparamayana');
 
 export default function Page({ searchParams }: any) {
@@ -35,18 +36,18 @@ export default function Page({ searchParams }: any) {
         <header className="bg-gradient-to-r from-amber-50 via-rose-50 to-indigo-50 rounded-lg p-6 shadow-md mb-6">
           <div className="flex flex-col md:flex-row md:items-center gap-4">
             <div className="flex-1">
-              <h1 className="text-3xl md:text-4xl font-extrabold leading-tight text-slate-900">
+              {/* <h3 className="text-3xl md:text-4xl font-extrabold leading-tight text-slate-900">
                 {page.title || S('sankshepa_ramayana_title')}
-              </h1>
-              <p className="mt-2 text-sm text-slate-600">
-                <strong>{page.author || S('author')}:</strong> {page.author || S('unknown')}
+              </h3> */}
+              <p className="mt-2 text-md text-slate-600">
+                <strong>Author:</strong> {page.author}
                 {page.description ? <span className="block mt-1 text-slate-700">{page.description}</span> : null}
               </p>
             </div>
             <div className="md:w-48 flex-shrink-0">
               <div className="bg-white border border-amber-100 rounded-lg p-3 text-center shadow-sm">
-                <div className="text-xs text-amber-600 font-medium">Summary</div>
-                <div className="mt-2 text-sm text-slate-700">{page.source || S('source')}</div>
+                <div className="text-md text-amber-600 font-medium">Summary</div>
+                <div className="mt-2 text-sm text-slate-700"><Link href={page.source} title="Valmiki Ramayana">Source Link</Link></div>
               </div>
             </div>
           </div>
@@ -54,8 +55,8 @@ export default function Page({ searchParams }: any) {
         <main className="space-y-8">
           {/* Main characters grid */}
           {page.main_characters && page.main_characters.length > 0 && (
-            <section className="bg-white border border-slate-100 rounded-lg p-5 shadow-sm">
-              <h2 className="text-xl font-semibold text-slate-800 mb-3">Main Characters</h2>
+            <section className="border border-slate-100 rounded-lg p-5">
+              <h4 className="text-xl font-semibold text-slate-800 mb-3">Main Characters</h4>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {page.main_characters.map((c: any, idx: number) => (
                   <article
@@ -79,7 +80,7 @@ export default function Page({ searchParams }: any) {
           {/* Important places */}
           {page.important_places && page.important_places.length > 0 && (
             <section className="bg-amber-50 border border-amber-100 rounded-lg p-5 shadow-sm">
-              <h3 className="text-lg font-semibold text-amber-800 mb-3">Important Places</h3>
+              <h5 className="text-lg font-semibold text-amber-800 mb-3">Important Places</h5>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {page.important_places.map((p: any, idx: number) => (
                   <div key={idx} className="p-4 bg-white rounded-md border border-slate-100">
@@ -94,7 +95,7 @@ export default function Page({ searchParams }: any) {
           {/* Timeline */}
           {page.timeline && page.timeline.length > 0 && (
             <section className="bg-white border border-slate-100 rounded-lg p-5 shadow-sm">
-              <h4 className="text-lg font-semibold text-slate-800 mb-4">Timeline</h4>
+              <h6 className="text-lg font-semibold text-slate-800 mb-4">Timeline</h6>
               <ol className="space-y-4">
                 {page.timeline.map((ev: any, idx: number) => (
                   <li key={idx} className="flex gap-4">
@@ -113,8 +114,8 @@ export default function Page({ searchParams }: any) {
 
           {/* Core themes */}
           {page.core_themes && page.core_themes.length > 0 && (
-            <section className="bg-amber-50 border border-amber-100 rounded-lg p-5 shadow-sm">
-              <h5 className="text-lg font-semibold text-amber-800 mb-3">Core Themes</h5>
+            <section className="p-5">
+              <p className="text-lg font-semibold text-amber-800 mb-3">Core Themes</p>
               <div className="flex flex-wrap gap-3">
                 {page.core_themes.map((ct: any, idx: number) => (
                   <span
@@ -129,7 +130,7 @@ export default function Page({ searchParams }: any) {
           )}
 
           {/* Slokas with collapsible sections */}
-          <section className="bg-white border border-slate-100 rounded-lg p-5 shadow-sm">
+          <section className="border border-slate-100 rounded-lg p-5">
             <SlokasClient slokas={page.slokas} />
           </section>
         </main>

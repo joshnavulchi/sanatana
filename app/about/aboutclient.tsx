@@ -51,7 +51,8 @@ export default function AboutClient() {
   }
 
   return (
-    <PageLayout
+    <>
+      <PageLayout
       metaKey="about"
       title={about.title}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'About' }]}
@@ -183,30 +184,30 @@ export default function AboutClient() {
             relative
             bg-gradient-to-br from-amber-50 to-orange-50
              
-            border-l-4 border-amber-500
-            rounded-lg
-            p-6 md:p-8
-            mt-12
-            shadow-lg
-            
-          ">
-            <div className="flex items-start gap-4">
-              <span className="text-3xl">⚠️</span>
-              <div className="flex-1">
-                <h4 className="text-xl font-bold text-gray-900  mb-2">Disclaimer</h4>
-                <p className="  leading-relaxed">
-                  {about.disclaimer}
-                </p>
+              border-l-4 border-amber-500
+              rounded-lg
+              p-6 md:p-8
+              mt-12
+              shadow-lg
+              
+            ">
+              <div className="flex items-start gap-4">
+                <span className="text-3xl">⚠️</span>
+                <div className="flex-1">
+                  <h4 className="text-xl font-bold text-gray-900  mb-2">Disclaimer</h4>
+                  <p className="  leading-relaxed">
+                    {about.disclaimer}
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        )}
-      </div>
-
+          )}
+        </div>
+      </PageLayout>
       <div className="mt-16">
         <DefinitionOfLife />
       </div>
-    </PageLayout>
+    </>
   );
 }
 // Content of AboutClient.tsx can be added here, depending on the actual code. This is just a placeholder.

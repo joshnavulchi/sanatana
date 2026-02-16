@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function HeritageFooter() {
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-amber-50 via-orange-50 to-yellow-50 border-t border-orange-200">
@@ -24,7 +26,7 @@ export default function HeritageFooter() {
           Destiny is shaped by actions and character rather than affiliation alone.
         </p>
         <p className="mt-6 font-semibold text-orange-800">
-          We remain committed to protecting and transmitting this ancient civilizational legacy for future generations.
+          We remain committed to protecting and transmitting this ancient civilizational legacy for future generations. <Link href="/sanatanadharma" className="underline">Learn more about our mission.</Link>
         </p>
       </div>
     </section>
