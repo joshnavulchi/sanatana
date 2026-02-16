@@ -107,9 +107,7 @@ export default function TemplesInIndiaClient() {
           </div>
 
           <div className="w-full lg:w-1/4">
-            <div className="sticky top-24">
-              <SimilarCategories currentCategory="temples" />
-            </div>
+            <SimilarCategories />
           </div>
         </div>
       </div>

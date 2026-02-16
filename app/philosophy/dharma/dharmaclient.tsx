@@ -69,7 +69,7 @@ export default function DharmaClient() {
           </div>
         </div>
         <div className="w-full lg:w-1/4">
-          <SimilarCategories currentCategory="philosophy" />
+          <SimilarCategories />
         </div>
       </div>
     </PageLayout>

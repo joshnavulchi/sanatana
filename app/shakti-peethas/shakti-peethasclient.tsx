@@ -90,7 +90,7 @@ export default function ShaktiPeethasClient() {
         })}
 
         <div className="mt-12">
-          <SimilarCategories currentCategory="temples" />
+          <SimilarCategories />
         </div>
 
         {data.disclaimer && (

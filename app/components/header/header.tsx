@@ -23,13 +23,13 @@ const defaultBanner2 = null;
 
 export default function Header() {
   // Responsive logo width state
-  const [logoWidth, setLogoWidth] = useState(55);
+  const [logoWidth, setLogoWidth] = useState(60);
   useEffect(() => {
     function handleResize() {
       if (window.innerWidth < 640) {
-        setLogoWidth(55); // mobile
+        setLogoWidth(60); // mobile
       } else {
-        setLogoWidth(45); // tablet
+        setLogoWidth(50); // tablet
       }
     }
     handleResize(); // Set initial value
@@ -179,7 +179,7 @@ export default function Header() {
     <header ref={headerRef} className={`w-full sticky top-0 z-30 shadow-md`}>
       {/* <BannerNotifications id="first_banner" message={translations.banner} marquee="true" />
       {/* <BannerNotifications id="second_banner" message={translations.banner2} marquee="false" showClose={true} backgroundclass="notification-alternative-background-color" /> */}
-      <div className="w-full px-2 md:px-0 bg-white/95 shadow-md sticky top-0 z-30 py-1">
+      <div className="w-full px-4 md:px-0 bg-white/95 shadow-md sticky top-0 z-30 py-1">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Logo and Title */}
           <Link href="/" className="flex items-center gap-1 group">
@@ -190,7 +190,7 @@ export default function Header() {
               height={40}
               className="md:flex"
             />
-            <span className="font-extrabold text-3xl md:text-4xl bg-gradient-to-r from-orange-600 via-amber-700 to-yellow-600 bg-clip-text text-transparent tracking-tight drop-shadow-lg">
+            <span className="max-w-50 md:max-w-100 font-extrabold text-3xl md:text-4xl bg-gradient-to-r from-orange-600 via-amber-700 to-yellow-600 bg-clip-text text-transparent tracking-tight drop-shadow-lg">
               {translations.siteTitle}
             </span>
           </Link>
