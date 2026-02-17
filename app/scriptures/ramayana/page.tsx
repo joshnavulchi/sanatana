@@ -274,8 +274,9 @@ export default function Page({ searchParams }: any) {
                 <p className="text-center text-gray-600 mt-4 text-sm max-w-2xl mx-auto">Experience the complete epic journey through seven magnificent chapters, each revealing profound wisdom and timeless values.</p>
               </div>
               <div className="space-y-8">
-                {Object.keys(page.story_divided_by_kandas).map((kkey: string, index: number) => {
-                  const kanda = (page.story_divided_by_kandas as any)[kkey];
+                {Object.entries(page.story_divided_by_kandas)
+                  .sort(([, a]: [string, any], [, b]: [string, any]) => (a.order || 0) - (b.order || 0))
+                  .map(([kkey, kanda]: [string, any], index: number) => {
                   if (!kanda) return null;
                   const colors = [
                     { bg: 'from-violet-50 to-purple-50', border: 'border-violet-400', accent: 'bg-violet-500', text: 'text-violet-900', hover: 'hover:border-violet-600' },

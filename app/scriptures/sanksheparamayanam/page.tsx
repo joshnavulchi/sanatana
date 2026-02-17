@@ -52,10 +52,10 @@ export default function Page({ searchParams }: any) {
             </div>
           </div>
         </header>
-        <main className="space-y-8">
+        <div className="space-y-8">
           {/* Main characters grid */}
           {page.main_characters && page.main_characters.length > 0 && (
-            <section className="border border-slate-100 rounded-lg p-5">
+            <section className="border border-slate-100 rounded-lg">
               <h4 className="text-xl font-semibold text-slate-800 mb-3">Main Characters</h4>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {page.main_characters.map((c: any, idx: number) => (
@@ -79,7 +79,7 @@ export default function Page({ searchParams }: any) {
 
           {/* Important places */}
           {page.important_places && page.important_places.length > 0 && (
-            <section className="bg-amber-50 border border-amber-100 rounded-lg p-5 shadow-sm">
+            <section className="bg-amber-50 border border-amber-100 rounded-lg shadow-sm">
               <h5 className="text-lg font-semibold text-amber-800 mb-3">Important Places</h5>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {page.important_places.map((p: any, idx: number) => (
@@ -94,7 +94,7 @@ export default function Page({ searchParams }: any) {
 
           {/* Timeline */}
           {page.timeline && page.timeline.length > 0 && (
-            <section className="bg-white border border-slate-100 rounded-lg p-5 shadow-sm">
+            <section className="bg-white border border-slate-100 rounded-lg shadow-sm">
               <h6 className="text-lg font-semibold text-slate-800 mb-4">Timeline</h6>
               <ol className="space-y-4">
                 {page.timeline.map((ev: any, idx: number) => (
@@ -114,7 +114,7 @@ export default function Page({ searchParams }: any) {
 
           {/* Core themes */}
           {page.core_themes && page.core_themes.length > 0 && (
-            <section className="p-5">
+            <section>
               <p className="text-lg font-semibold text-amber-800 mb-3">Core Themes</p>
               <div className="flex flex-wrap gap-3">
                 {page.core_themes.map((ct: any, idx: number) => (
@@ -130,10 +130,10 @@ export default function Page({ searchParams }: any) {
           )}
 
           {/* Slokas with collapsible sections */}
-          <section className="border border-slate-100 rounded-lg p-5">
+          <section className="border border-slate-100 rounded-lg">
             <SlokasClient slokas={page.slokas} />
           </section>
-        </main>
+        </div>
       </PageLayout>
     </>
   );
