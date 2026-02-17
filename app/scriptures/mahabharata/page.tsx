@@ -36,7 +36,7 @@ export default function Page({ searchParams }: any) {
       >
         <section className="bg-gradient-to-br from-blue-100 via-indigo-50 to-green-100 rounded-xl shadow-lg px-3 py-6 border border-blue-300">
           <header className="mb-8 text-center">
-            <h1 className="text-4xl font-extrabold text-blue-800 tracking-tight mb-2">{page.title}</h1>
+            <h3 className="text-4xl font-extrabold text-blue-800 tracking-tight mb-2">{page.title}</h3>
             <div className="flex justify-center mt-4">
               <img src="/images/mahabharata-motif.png" alt="Mahabharata motif" className="w-24 h-24 rounded-full border-4 border-blue-300 shadow-md" />
             </div>

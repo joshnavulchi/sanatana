@@ -74,15 +74,13 @@ export default function Page({ searchParams }: any) {
       >
         <div className="max-w-7xl mx-auto">
           {/* Hero Header Section */}
-          <section className="relative mb-12 bg-amber-50 border-4 border-double border-amber-600 rounded-2xl overflow-hidden">
-            <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-orange-500 via-amber-500 to-red-500"></div>
-            <div className="absolute bottom-0 left-0 w-full h-2 bg-gradient-to-r from-red-500 via-amber-500 to-orange-500"></div>
+          <section className="relative mb-12 bg-amber-50 overflow-hidden">
             <div className="px-8 py-10">
               <div className="text-center mb-6">
                 <div className="inline-block relative">
-                  <h1 className="text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-orange-600 via-red-600 to-amber-700 mb-3">
+                  <h3 className="text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-orange-600 via-red-600 to-amber-700 mb-3">
                     {page.title}
-                  </h1>
+                  </h3>
                   <div className="absolute -top-4 -left-4 w-16 h-16 border-t-4 border-l-4 border-amber-500 rounded-tl-3xl"></div>
                   <div className="absolute -bottom-4 -right-4 w-16 h-16 border-b-4 border-r-4 border-amber-500 rounded-br-3xl"></div>
                 </div>

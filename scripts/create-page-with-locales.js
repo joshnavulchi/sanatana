@@ -72,7 +72,7 @@ export default function ${capitalize(pageName)}Page() {
       className="layout-md"
     >
       <div className="max-w-2xl mx-auto py-8">
-        <h1 className="text-3xl font-bold mb-4">{data.title}</h1>
+        <h3 className="text-3xl font-bold mb-4">{data.title}</h3>
         <div className="prose prose-lg">
           {renderData(data)}
         </div>

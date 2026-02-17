@@ -5,7 +5,7 @@ export const generateMetadata = createGenerateMetadata('stotrasmantras');
 export default function Page() {
   return (
     <>
-      <h1 className="text-2xl md:text-3xl text-gray-900 ">Stotras and Mantras</h1>
+      <h3 className="text-2xl md:text-3xl text-gray-900 ">Stotras and Mantras</h3>
       <div className="mt-8">
         <h2 className="text-lg font-bold mb-2">Explore Sub Pages:</h2>
         <ul className="list-disc ml-6">

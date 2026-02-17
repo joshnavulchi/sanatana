@@ -218,9 +218,9 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                     <p className="text-white text-sm font-bold uppercase tracking-widest">Sacred Epic of Ramayana</p>
                   </div>
                 </div>
-                <h1 className="text-4xl md:text-5xl font-black text-white text-center mb-4 leading-tight drop-shadow-lg">
+                <h3 className="text-4xl md:text-5xl font-black text-white text-center mb-4 leading-tight drop-shadow-lg">
                   {title}
-                </h1>
+                </h3>
                 <div className="flex justify-center">
                   <div className="w-32 h-1 bg-white rounded-full"></div>
                 </div>

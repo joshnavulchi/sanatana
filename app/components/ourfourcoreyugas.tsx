@@ -127,7 +127,7 @@ export default function OurFourCoreYugas() {
           {/* Decorative top accent */}
           <div className="flex items-center justify-center gap-3 mb-8">
             <div className="h-px w-20 bg-gradient-to-r from-transparent to-amber-400" />
-            <span className="text-3xl text-amber-300 animate-bounce">🕉️</span>
+            <span className="text-3xl text-amber-300 animate-pulse">🕉️</span>
             <div className="h-px w-20 bg-gradient-to-l from-transparent to-amber-400" />
           </div>
 
