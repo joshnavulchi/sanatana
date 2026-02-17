@@ -1,10 +1,11 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 "use client";
-import LazyImage from '../lazy-image/LazyImage';
-import Link from 'next/link';
+import { loadLocaleNamespace } from '@lib/i18n';
+import { useLocale } from '@app/context/locale-context';
 import { useState, useEffect } from 'react';
-import { useLocale } from '../../context/locale-context';
-import { loadLocaleNamespace } from '../../../lib/i18n';
+import LazyImage from '@components/lazyimage';
+import Link from 'next/link';
+
 type InfoCardProps = {
   src: string;
   alt: string;

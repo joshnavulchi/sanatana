@@ -1,5 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { getMeta, detectLocale } from '../../../lib/i18n';
+import { getMeta, detectLocale } from '@lib/i18n';
 
 type Props = {
   metaKey: string;

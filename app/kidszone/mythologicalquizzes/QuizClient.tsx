@@ -1,8 +1,8 @@
 "use client";
 import { useEffect, useMemo, useState } from 'react';
-import { DEFAULT_LOCALE } from '../../../lib/i18n';
-import { useLocale } from '../../context/locale-context';
-import useLocaleSection from '../../hooks/useLocaleSection';
+import { DEFAULT_LOCALE } from '@lib/i18n';
+import { useLocale } from '@app/context/locale-context';
+import useLocaleSection from '@app/hooks/useLocaleSection';
 
 type Options = { A: string; B: string; C: string; D: string };
 type Question = { id: number; question: string; options: Options; answer: keyof Options };

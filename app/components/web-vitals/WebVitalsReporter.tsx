@@ -2,7 +2,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import { reportWebVitals, monitorResourceTiming } from '../../../lib/webVitals';
+import { reportWebVitals, monitorResourceTiming } from '@lib/webVitals';
 
 /**
  * WebVitalsReporter component integrates with next/web-vitals

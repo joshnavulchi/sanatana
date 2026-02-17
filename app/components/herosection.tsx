@@ -1,8 +1,8 @@
 'use client';
 import { useEffect, useState, useRef } from 'react';
-import { loadLocaleNamespace } from '../../../lib/i18n';
-import { useLocale } from '../../context/locale-context';
-import LazyImage from '../lazy-image/LazyImage';
+import { loadLocaleNamespace } from '@lib/i18n';
+import { useLocale } from '@app/context/locale-context';
+import LazyImage from './lazyimage';
 import Link from 'next/link';
 import Image from 'next/image';
 

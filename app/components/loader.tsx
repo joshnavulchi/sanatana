@@ -1,7 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 "use client";
 
-
 export default function Loader() {
   return (
     <div className="flex items-center justify-center w-full h-full">

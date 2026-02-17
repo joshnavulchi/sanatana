@@ -1,4 +1,8 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+import { t, getMeta, DEFAULT_LOCALE, detectServerLocaleFromHeaders, detectLocale, getLocaleNamespaceObject } from '@lib/i18n';
+import { headers } from 'next/headers';
+import Link from 'next/link';
+import PageLayout from '@components/common/PageLayout';
 
 const ns: Record<string, unknown> = {};
 const __getLoc = (p: string) => {
@@ -9,12 +13,6 @@ const __getLoc = (p: string) => {
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };
-import { t, getMeta, DEFAULT_LOCALE, detectServerLocaleFromHeaders, detectLocale, getLocaleNamespaceObject } from '@/lib/i18n';
-
-import { headers } from 'next/headers';
-import Link from 'next/link';
-
-
 function resolveLocaleFromHeaders() {
   try {
     const h: any = headers();
@@ -24,7 +22,7 @@ function resolveLocaleFromHeaders() {
   }
 }
 
-export async function generateMetadata({ params, searchParams }: { params: Promise<{ chapter: string }>, searchParams?: any }) {
+export async function generateMetadata({ params, searchParams }: { params: Promise<{ kandas: string }>, searchParams?: any }) {
   const resolvedParams = await params;
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
 
@@ -34,7 +32,7 @@ export async function generateMetadata({ params, searchParams }: { params: Promi
   const ram = loc?.scriptures_ramayana || {};
   const kandas = ram.story_divided_by_kandas || {};
   const kandaKeys = Object.keys(kandas);
-  const chapterKey = resolvedParams?.chapter || '';
+  const chapterKey = resolvedParams?.kandas || '';
   const kanda = kandas[chapterKey];
   
   const title = kanda?.title ? `${S('nav.stories.nav.ramayana')} — ${kanda.title}` : `${S('nav.stories.nav.ramayana')} — Chapter ${chapterKey}`;
@@ -59,22 +57,22 @@ export function generateStaticParams() {
     const kandas = ram.story_divided_by_kandas || {};
     const kandaKeys = Object.keys(kandas);
     if (kandaKeys.length > 0) {
-      return kandaKeys.map((key: string) => ({ chapter: key }));
+      return kandaKeys.map((key: string) => ({ kandas: key }));
     }
   } catch (e) { }
   // Fallback: generate an initial set (the 7 kandas of Ramayana)
   return [
-    { chapter: 'bala_kanda' },
-    { chapter: 'ayodhya_kanda' },
-    { chapter: 'aranya_kanda' },
-    { chapter: 'kishkindha_kanda' },
-    { chapter: 'sundara_kanda' },
-    { chapter: 'yuddha_kanda' },
-    { chapter: 'uttara_kanda' }
+    { kandas: 'bala_kanda' },
+    { kandas: 'ayodhya_kanda' },
+    { kandas: 'aranya_kanda' },
+    { kandas: 'kishkindha_kanda' },
+    { kandas: 'sundara_kanda' },
+    { kandas: 'yuddha_kanda' },
+    { kandas: 'uttara_kanda' }
   ];
 }
 
-export default async function Page({ params, searchParams }: { params: Promise<{ chapter: string }>, searchParams?: any }) {
+export default async function Page({ params, searchParams }: { params: Promise<{ kandas: string }>, searchParams?: any }) {
   const resolvedParams = await params;
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
@@ -82,7 +80,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
   const loc: any = getLocaleNamespaceObject(locale, 'scriptures_ramayana') || {};
   const ram = loc?.scriptures_ramayana || {};
   const kandas = ram.story_divided_by_kandas || {};
-  const chapterKey = resolvedParams?.chapter || '';
+  const chapterKey = resolvedParams?.kandas || '';
   const kanda = kandas[chapterKey];
 
   const title = kanda?.title ? kanda.title : (chapterKey ? `Chapter: ${chapterKey.replace(/_/g, ' ').toUpperCase()}` : 'Chapter');
@@ -193,8 +191,18 @@ export default async function Page({ params, searchParams }: { params: Promise<{
 
   return (
     <>
-      <div className={`min-h-screen bg-gradient-to-br ${classes.bgGradient} py-8 px-4`}>
-        <div className="max-w-5xl mx-auto">
+      <PageLayout
+        metaKey="ramayana_kanda"
+        title={title}
+        breadcrumbs={[
+          { labelKey: 'Home', href: '/' },
+          { label: 'Ramayana', href: '/scriptures/ramayana' },
+          { label: title }
+        ]}
+        className="layout-md"
+      >
+        <div className={`min-h-screen bg-gradient-to-br ${classes.bgGradient} py-8 px-4`}>
+          <div className="max-w-5xl mx-auto">
           {/* Navigation */}
           <nav className="mb-8">
             <Link 
@@ -221,9 +229,9 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                     <p className="text-white text-sm font-bold uppercase tracking-widest">Sacred Epic of Ramayana</p>
                   </div>
                 </div>
-                <h1 className="text-4xl md:text-5xl font-black text-white text-center mb-4 leading-tight drop-shadow-lg">
+                <h3 className="text-4xl md:text-5xl font-black text-white text-center mb-4 leading-tight drop-shadow-lg">
                   {title}
-                </h1>
+                </h3>
                 <div className="flex justify-center">
                   <div className="w-32 h-1 bg-white rounded-full"></div>
                 </div>
@@ -302,6 +310,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
           </article>
         </div>
       </div>
+      </PageLayout>
     </>
   );
 }

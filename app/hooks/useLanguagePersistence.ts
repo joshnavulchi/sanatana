@@ -2,8 +2,8 @@
 "use client";
 
 import { useEffect, useState } from 'react';
-import { DEFAULT_LOCALE } from '../../lib/i18n';
-import storage from '../../lib/storage';
+import { DEFAULT_LOCALE } from '@lib/i18n';
+import storage from '@lib/storage';
 
 const LANGUAGE_STORAGE_KEY = "sanatana_dharma_language";
 

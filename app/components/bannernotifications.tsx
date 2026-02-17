@@ -2,9 +2,9 @@
 "use client";
 
 import { useEffect, useState } from 'react';
-import storage from '../../../lib/storage';
+import storage from '@lib/storage';
 import Link from 'next/link';
-import Marquee from '../marquee';
+import Marquee from './marquee';
 
 import styles from '@app/styles.module.scss';
 

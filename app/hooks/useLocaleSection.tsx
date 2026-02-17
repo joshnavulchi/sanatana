@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useState } from 'react';
-import { loadLocaleNamespace, getLocaleNamespaceObject } from '../../lib/i18n';
-import { useLocale } from '../context/locale-context';
+import { loadLocaleNamespace, getLocaleNamespaceObject } from '@lib/i18n';
+import { useLocale } from '@app/context/locale-context';
 
 // Hook: read a primary locale file/object for a component.
 // - `section` is the primary filename (e.g., 'sharable_strings', 'home', 'about')

@@ -1,9 +1,9 @@
 "use client";
 import { useEffect, useState } from 'react';
-import { useLocale } from '@/app/context/locale-context';
-import PageLayout from '@/app/components/common/PageLayout';
-import Loader from '@/app/components/loader/loader';
-import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
+import { useLocale } from '@app/context/locale-context';
+import PageLayout from '@components/common/PageLayout';
+import Loader from '@components/loader';
+import SimilarCategories from '@components/similar-categories/SimilarCategories';
 
 export default function AhimsaClient() {
   const { locale, isLoading } = useLocale();
@@ -60,7 +60,7 @@ export default function AhimsaClient() {
                   <span className="text-3xl animate-pulse">🕉️</span>
                   <div className="h-px w-12 bg-gradient-to-l from-transparent to-emerald-600" />
                 </div>
-                <h1 className="text-4xl font-extrabold text-emerald-700 mb-4">{page.title}</h1>
+                <h3 className="text-4xl font-extrabold text-emerald-700 mb-4">{page.title}</h3>
                 <p className="text-lg md:text-xl text-emerald-900 mb-6 italic">
                   <strong>Definition: </strong>
                   {page.definition.length ? page.definition.map((s: string, i: number) => (

@@ -3,7 +3,7 @@
 
 import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
-import useLocaleSection from '../../hooks/useLocaleSection';
+import useLocaleSection from '@app/hooks/useLocaleSection';
 
 export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);

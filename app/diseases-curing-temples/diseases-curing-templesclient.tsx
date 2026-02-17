@@ -1,12 +1,11 @@
 "use client";
 import { useEffect, useState } from 'react';
-import PageLayout from '@/app/components/common/PageLayout';
-import { useLocale } from '../context/locale-context';
-import useLocaleSection from '../hooks/useLocaleSection';
-import { parseSections, parseMaybeObject } from 'lib/parseContent';
-import Loader from '@/app/components/loader/loader';
-import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
-import TextToSpeech from '@/app/components/text-to-speech/TextToSpeech';
+import PageLayout from '@components/common/PageLayout';
+import { useLocale } from '@app/context/locale-context';
+import useLocaleSection from '@app/hooks/useLocaleSection';
+import Loader from '@components/loader';
+import SimilarCategories from '@components/similar-categories/SimilarCategories';
+import TextToSpeech from '@components/text-to-speech/TextToSpeech';
 
 export default function DiseasesCuringTemplesClient() {
   const { locale, isLoading } = useLocale();

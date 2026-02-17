@@ -1,8 +1,8 @@
 "use client";
-import { useLocale } from '@/app/context/locale-context';
-import useLocaleSection from '@/app/hooks/useLocaleSection';
+import { useLocale } from '@app/context/locale-context';
+import useLocaleSection from '@app/hooks/useLocaleSection';
 import Link from 'next/link';
-import PageLayout from '@/app/components/common/PageLayout';
+import PageLayout from '@components/common/PageLayout';
 
 export default function BhagavathgitaChapterRootClient() {
   const { locale } = useLocale();

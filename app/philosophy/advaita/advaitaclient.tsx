@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-import PageLayout from "@/app/components/common/PageLayout";
-import { useLocale } from "@/app/context/locale-context";
-import useLocaleSection from "@/app/hooks/useLocaleSection";
-import Loader from "@/app/components/loader/loader";
-import SimilarCategories from "@/app/components/similar-categories/SimilarCategories";
+import PageLayout from "@components/common/PageLayout";
+import { useLocale } from "@app/context/locale-context";
+import useLocaleSection from "@app/hooks/useLocaleSection";
+import Loader from "@components/loader";
+import SimilarCategories from "@components/similar-categories/SimilarCategories";
 
 export default function AdvaitaClient() {
   const { locale, isLoading } = useLocale();
@@ -55,7 +55,7 @@ export default function AdvaitaClient() {
                   <span className="text-3xl animate-pulse">🧘‍♂️</span>
                   <div className="h-px w-12 bg-gradient-to-l from-transparent to-indigo-600" />
                 </div>
-                <h1 className="text-4xl font-extrabold text-indigo-700 mb-4">{data.title}</h1>
+                <h3 className="text-4xl font-extrabold text-indigo-700 mb-4">{data.title}</h3>
                 <p className="text-lg md:text-xl text-indigo-900 mb-6 italic">{data.definition}</p>
                 {data.purpose && <div className="mt-4 p-4 bg-blue-50 border-l-4 border-indigo-400 rounded"><strong>Purpose:</strong> {data.purpose}</div>}
                 {data.unique_insights && <div className="mt-4 p-4 bg-blue-50 border-l-4 border-indigo-400 rounded"><strong>Unique Insights:</strong> {data.unique_insights}</div>}

@@ -1,10 +1,10 @@
 "use client";
 
-import { t, getLocaleNamespaceObject, getMeta } from '../../../lib/i18n';
-import { useLocale } from '@/app/context/locale-context';
-import PageLayout from '@/app/components/common/PageLayout';
-import Loader from '@/app/components/loader/loader';
-import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
+import { t, getLocaleNamespaceObject, getMeta } from '@lib/i18n';
+import { useLocale } from '@app/context/locale-context';
+import PageLayout from '@components/common/PageLayout';
+import Loader from '@components/loader';
+import SimilarCategories from '@components/similar-categories/SimilarCategories';
 
 export default function YogaClient() {
   const { locale, isLoading } = useLocale();
@@ -44,7 +44,7 @@ export default function YogaClient() {
             <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-400/10 rounded-full blur-3xl" />
             <div className="absolute bottom-0 left-0 w-80 h-80 bg-green-400/8 rounded-full blur-3xl" />
             <div className="relative z-10">
-              <h1 className="text-3xl font-bold text-emerald-800 mb-4">{page.title}</h1>
+              <h3 className="text-3xl font-bold text-emerald-800 mb-4">{page.title}</h3>
               <p className="mb-6"><strong>Definition:</strong> {page.definition || 'No definition found.'}</p>
               <h2 className="text-2xl md:text-3xl">Core Principles of Yoga:</h2>
               <ul className="list-disc ml-6 mb-6">

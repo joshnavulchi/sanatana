@@ -5,8 +5,8 @@ export default function HeritageFooter() {
     <section className="relative overflow-hidden bg-gradient-to-b from-amber-50 via-orange-50 to-yellow-50 border-t border-orange-200">
       {/* Mandala Glow Background */}
       <div className="absolute inset-0 flex justify-center items-center pointer-events-none">
-        <div className="absolute top-0 right-0 w-[100px] h-[100px] rounded-full border-10 border-orange-300 opacity-20 animate-ping"></div>
-        <div className="absolute top-5 right-5 w-[50px] h-[50px] rounded-full border-10 border-amber-400 opacity-20 animate-ping"></div>
+        <div className="absolute top-5 right-5 w-[50px] h-[50px] rounded-full border-6 border-orange-300 opacity-20 animate-ping"></div>
+        <div className="absolute top-8 right-8 w-[25px] h-[25px] rounded-full border-4 border-amber-400 opacity-20 animate-ping"></div>
       </div>
 
       <div className="relative max-w-7xl mx-auto px-6 py-20 text-center">

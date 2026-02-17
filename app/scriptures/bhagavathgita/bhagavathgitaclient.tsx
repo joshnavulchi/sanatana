@@ -1,12 +1,12 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 "use client";
 import { useEffect, useState } from 'react';
-import PageLayout from '@/app/components/common/PageLayout';
+import PageLayout from '@components/common/PageLayout';
 import Link from 'next/link';
-import LazyImage from '@/app/components/lazy-image/LazyImage';
-import { useLocale } from '../../context/locale-context';
-import useLocaleSection from '../../hooks/useLocaleSection';
-import { parseList } from 'lib/parseList';
+import LazyImage from '@components/lazyimage';
+import { useLocale } from '@app/context/locale-context';
+import useLocaleSection from '@app/hooks/useLocaleSection';
+import { parseList } from '@lib/parseList';
 
 export default function BhagavathgitaClient() {
   const { locale, isLoading } = useLocale();

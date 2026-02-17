@@ -1,9 +1,9 @@
 "use client";
 import { useEffect, useState } from 'react';
-import PageLayout from '@/app/components/common/PageLayout';
-import { useLocale } from '../context/locale-context';
-import useLocaleSection from '../hooks/useLocaleSection';
-import Loader from '@/app/components/loader/loader';
+import PageLayout from '@components/common/PageLayout';
+import { useLocale } from '@app/context/locale-context';
+import useLocaleSection from '@app/hooks/useLocaleSection';
+import Loader from '@components/loader';
 
 export default function ReligionClient() {
   const { locale, isLoading } = useLocale();

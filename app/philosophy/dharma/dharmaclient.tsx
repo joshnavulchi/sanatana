@@ -1,10 +1,10 @@
 "use client";
 
-import PageLayout from '@/app/components/common/PageLayout';
-import { useLocale } from '@/app/context/locale-context';
-import useLocaleSection from '@/app/hooks/useLocaleSection';
-import Loader from '@/app/components/loader/loader';
-import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
+import PageLayout from '@components/common/PageLayout';
+import { useLocale } from '@app/context/locale-context';
+import useLocaleSection from '@app/hooks/useLocaleSection';
+import Loader from '@components/loader';
+import SimilarCategories from '@components/similar-categories/SimilarCategories';
 
 
 export default function DharmaClient() {
@@ -39,7 +39,7 @@ export default function DharmaClient() {
             <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-400/10 rounded-full blur-3xl" />
             <div className="absolute bottom-0 left-0 w-80 h-80 bg-green-400/8 rounded-full blur-3xl" />
             <div className="relative z-10">
-              <h1 className="text-3xl font-bold text-emerald-800 mb-4">{title}</h1>
+              <h3 className="text-3xl font-bold text-emerald-800 mb-4">{title}</h3>
               <p className="mb-6"><strong>Definition:</strong> {definition.length ? definition.join(', ') : 'No definition found.'}</p>
               <h2 className="text-2xl md:text-3xl">Categories of Dharma:</h2>
               <ul className="list-disc ml-6 mb-6">

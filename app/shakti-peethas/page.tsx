@@ -1,8 +1,8 @@
-import { createGenerateMetadata } from 'lib/pageUtils';
+import { createGenerateMetadata } from '@lib/pageUtils';
 export const generateMetadata = createGenerateMetadata('shakti_peethas');
 
 import ShaktiPeethasClient from './shakti-peethasclient';
-import StructuredData from '@/app/components/structured-data/StructuredData';
+import StructuredData from '@components/structured-data/StructuredData';
 
 export default function Page() {
   return (

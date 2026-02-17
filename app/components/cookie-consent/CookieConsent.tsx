@@ -1,10 +1,10 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 "use client";
 import { useEffect, useState } from 'react';
-import storage from '../../../lib/storage';
-import { loadGtag, loadGTM } from '../../../lib/analyticsLoader';
-import { DEFAULT_LOCALE } from '../../../lib/i18n';
-import useLocaleSection from '../../hooks/useLocaleSection';
+import storage from '@lib/storage';
+import { loadGtag, loadGTM } from '@lib/analyticsLoader';
+import { DEFAULT_LOCALE } from '@lib/i18n';
+import useLocaleSection from '@app/hooks/useLocaleSection';
 import CookiePreferencesModal from './CookiePreferencesModal';
 
 type Prefs = {

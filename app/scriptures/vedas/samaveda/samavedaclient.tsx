@@ -1,7 +1,7 @@
 "use client";
-import { useLocale } from '@/app/context/locale-context';
-import { t, getMeta } from '../../../../lib/i18n';
-import PageLayout from '@/app/components/common/PageLayout';
+import { useLocale } from '@app/context/locale-context';
+import { t, getMeta } from '@lib/i18n';
+import PageLayout from '@components/common/PageLayout';
 
 export default function SamavedaClient() {
   const { locale } = useLocale();

@@ -1,9 +1,9 @@
 "use client";
 import { useEffect, useState } from 'react';
-import PageLayout from '@/app/components/common/PageLayout';
-import { useLocale } from '@/app/context/locale-context';
-import Loader from '@/app/components/loader/loader';
-import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
+import PageLayout from '@components/common/PageLayout';
+import { useLocale } from '@app/context/locale-context';
+import Loader from '@components/loader';
+import SimilarCategories from '@components/similar-categories/SimilarCategories';
 
 export default function SamsaraClient() {
   const { locale, isLoading } = useLocale();
@@ -63,7 +63,7 @@ export default function SamsaraClient() {
                   <span className="text-3xl animate-pulse">🔄</span>
                   <div className="h-px w-12 bg-gradient-to-l from-transparent to-blue-600" />
                 </div>
-                <h1 className="text-4xl font-extrabold text-blue-700 mb-4">{page.title}</h1>
+                <h3 className="text-4xl font-extrabold text-blue-700 mb-4">{page.title}</h3>
                 <p className="text-lg md:text-xl text-blue-900 mb-6 italic">{page.definition}</p>
                 <div className="mb-6">
                   <h2 className="text-2xl font-bold text-blue-700 mb-2">Core Principles</h2>

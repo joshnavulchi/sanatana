@@ -2,9 +2,9 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import LazyImage from "../lazy-image/LazyImage";
-import { loadLocaleNamespace } from "../../../lib/i18n";
-import { useLocale } from "../../context/locale-context";
+import LazyImage from "./lazyimage";
+import { loadLocaleNamespace } from "@lib/i18n";
+import { useLocale } from "@app/context/locale-context";
 
 /* ---------- Types ---------- */
 interface TopicItem {
@@ -134,7 +134,7 @@ export default function UnderstandingOfSanatana() {
               ))}
 
               {section.points?.map((point, index) => (
-                <div key={`${section.id}-point-${index}`} className="bg-white border-2 border-amber-100 rounded-2xl p-6 mb-6 md:mb-0 shadow-sm">
+                <div key={`${section.id}-point-${index}`} className="bg-white shadow-md border-2 border-amber-100 rounded-xl p-6 mb-6 md:mb-0">
                   <p className="text-xl font-semibold text-gray-800">
                     {point}
                   </p>

@@ -1,8 +1,8 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import PageLayout from '@/app/components/common/PageLayout';
+import PageLayout from '@components/common/PageLayout';
 import Link from 'next/link';
-import { createGenerateMetadata } from 'lib/pageUtils';
-import { t, detectLocale, getLocaleNamespaceObject, getMeta, DEFAULT_LOCALE } from '../../../lib/i18n';
+import { createGenerateMetadata } from '@lib/pageUtils';
+import { t, detectLocale, getLocaleNamespaceObject, getMeta, DEFAULT_LOCALE } from '@lib/i18n';
 export const generateMetadata = createGenerateMetadata('scriptures_ramayana');
 
 const _localeObj = getLocaleNamespaceObject('scriptures_ramayana');
@@ -74,15 +74,13 @@ export default function Page({ searchParams }: any) {
       >
         <div className="max-w-7xl mx-auto">
           {/* Hero Header Section */}
-          <section className="relative mb-12 bg-amber-50 border-4 border-double border-amber-600 rounded-2xl overflow-hidden">
-            <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-orange-500 via-amber-500 to-red-500"></div>
-            <div className="absolute bottom-0 left-0 w-full h-2 bg-gradient-to-r from-red-500 via-amber-500 to-orange-500"></div>
+          <section className="relative mb-12 bg-amber-50 overflow-hidden">
             <div className="px-8 py-10">
               <div className="text-center mb-6">
                 <div className="inline-block relative">
-                  <h1 className="text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-orange-600 via-red-600 to-amber-700 mb-3">
+                  <h3 className="text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-orange-600 via-red-600 to-amber-700 mb-3">
                     {page.title}
-                  </h1>
+                  </h3>
                   <div className="absolute -top-4 -left-4 w-16 h-16 border-t-4 border-l-4 border-amber-500 rounded-tl-3xl"></div>
                   <div className="absolute -bottom-4 -right-4 w-16 h-16 border-b-4 border-r-4 border-amber-500 rounded-br-3xl"></div>
                 </div>
@@ -276,8 +274,9 @@ export default function Page({ searchParams }: any) {
                 <p className="text-center text-gray-600 mt-4 text-sm max-w-2xl mx-auto">Experience the complete epic journey through seven magnificent chapters, each revealing profound wisdom and timeless values.</p>
               </div>
               <div className="space-y-8">
-                {Object.keys(page.story_divided_by_kandas).map((kkey: string, index: number) => {
-                  const kanda = (page.story_divided_by_kandas as any)[kkey];
+                {Object.entries(page.story_divided_by_kandas)
+                  .sort(([, a]: [string, any], [, b]: [string, any]) => (a.order || 0) - (b.order || 0))
+                  .map(([kkey, kanda]: [string, any], index: number) => {
                   if (!kanda) return null;
                   const colors = [
                     { bg: 'from-violet-50 to-purple-50', border: 'border-violet-400', accent: 'bg-violet-500', text: 'text-violet-900', hover: 'hover:border-violet-600' },
@@ -322,7 +321,7 @@ export default function Page({ searchParams }: any) {
                         )}
                         <div className="pl-0 md:pl-22 flex justify-end">
                           <Link 
-                            href={`/scriptures/ramayana/chapter/${kkey}`}
+                            href={`/scriptures/ramayana/kandas/${kkey}`}
                             className={`inline-flex items-center gap-2 ${color.accent} hover:opacity-90 text-white font-bold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105`}
                           >
                             <span>Read Complete Chapter</span>

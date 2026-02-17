@@ -1,7 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 "use client";
 import { useEffect, useMemo, useState } from 'react';
-import useLocaleSection from '../../hooks/useLocaleSection';
+import useLocaleSection from '@app/hooks/useLocaleSection';
 
 type Field = {
   name: string;

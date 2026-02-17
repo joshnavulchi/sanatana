@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { t } from '../../../lib/i18n';
+import { t } from '@lib/i18n';
 
 type Crumb = { label: React.ReactNode; href?: string };
 type CrumbInput = { label?: unknown; labelKey?: string; href?: string };

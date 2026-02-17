@@ -2,7 +2,7 @@
 "use client";
 
 import { createContext, useContext, useEffect, useState } from 'react';
-import storage from '../../lib/storage';
+import storage from '@lib/storage';
 
 // Ensure theme key is always persisted in localStorage
 storage.addLocalKey('sd_theme');

@@ -1,9 +1,9 @@
 "use client";
-import { useLocale } from '../../context/locale-context';
-import { t, getMeta } from '../../../lib/i18n';
-import { parseList } from 'lib/parseList';
-import PageLayout from '@/app/components/common/PageLayout';
-import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
+import { useLocale } from '@app/context/locale-context';
+import { t, getMeta } from '@lib/i18n';
+import { parseList } from '@lib/parseList';
+import PageLayout from '@components/common/PageLayout';
+import SimilarCategories from '@components/similar-categories/SimilarCategories';
 
 export default function ShivaClient() {
   const { locale } = useLocale();
