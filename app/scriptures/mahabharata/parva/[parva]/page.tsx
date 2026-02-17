@@ -2,11 +2,12 @@
 import Link from 'next/link';
 import { t, detectLocale, getLocaleNamespaceObject, getMeta, DEFAULT_LOCALE } from '@lib/i18n';
 import { notFound } from 'next/navigation';
+import PageLayout from '@components/common/PageLayout';
 
-export async function generateMetadata({ params, searchParams }: { params: Promise<{ parvaKey: string }>, searchParams?: any }) {
+export async function generateMetadata({ params, searchParams }: { params: Promise<{ parva: string }>, searchParams?: any }) {
   const resolvedParams = await params;
   const locale = detectLocale(searchParams) || DEFAULT_LOCALE;
-  const parvaKey = resolvedParams.parvaKey;
+  const parvaKey = resolvedParams.parva;
 
   const loc: any = getLocaleNamespaceObject(locale, 'scriptures_mahabharata') || {};
   const mbh = loc?.scriptures_mahabharata || {};
@@ -62,8 +63,8 @@ export function generateStaticParams() {
               .replace(/--+/g, '-')
               .replace(/^-|-$/g, '')
           : '';
-        return { parvaKey: key };
-      }).filter((item: any) => item.parvaKey);
+        return { parva: key };
+      }).filter((item: any) => item.parva);
     }
   } catch (e) {
     console.error('Error generating static params for parvas:', e);
@@ -71,31 +72,31 @@ export function generateStaticParams() {
   
   // Fallback: generate the 18 parvas of Mahabharata
   return [
-    { parvaKey: 'adi-parva-the-book-of-beginnings' },
-    { parvaKey: 'sabha-parva-the-book-of-the-royal-assembly' },
-    { parvaKey: 'vana-parva-the-book-of-the-forest' },
-    { parvaKey: 'virata-parva-the-book-of-virata' },
-    { parvaKey: 'udyoga-parva-the-book-of-effort-and-preparation' },
-    { parvaKey: 'bhishma-parva-the-book-of-bhishma' },
-    { parvaKey: 'drona-parva-the-book-of-drona' },
-    { parvaKey: 'karna-parva-the-book-of-karna' },
-    { parvaKey: 'shalya-parva-the-book-of-shalya' },
-    { parvaKey: 'sauptika-parva-the-book-of-the-sleeping-warriors' },
-    { parvaKey: 'stri-parva-the-book-of-the-women' },
-    { parvaKey: 'shanti-parva-the-book-of-peace' },
-    { parvaKey: 'anushasana-parva-the-book-of-instructions' },
-    { parvaKey: 'ashvamedhika-parva-the-book-of-the-horse-sacrifice' },
-    { parvaKey: 'ashramavasika-parva-the-book-of-the-hermitage' },
-    { parvaKey: 'mausala-parva-the-book-of-the-clubs' },
-    { parvaKey: 'mahaprasthanika-parva-the-book-of-the-great-journey' },
-    { parvaKey: 'svargarohana-parva-the-book-of-the-ascent-to-heaven' }
+    { parva: 'adi-parva-the-book-of-beginnings' },
+    { parva: 'sabha-parva-the-book-of-the-royal-assembly' },
+    { parva: 'vana-parva-the-book-of-the-forest' },
+    { parva: 'virata-parva-the-book-of-virata' },
+    { parva: 'udyoga-parva-the-book-of-effort-and-preparation' },
+    { parva: 'bhishma-parva-the-book-of-bhishma' },
+    { parva: 'drona-parva-the-book-of-drona' },
+    { parva: 'karna-parva-the-book-of-karna' },
+    { parva: 'shalya-parva-the-book-of-shalya' },
+    { parva: 'sauptika-parva-the-book-of-the-sleeping-warriors' },
+    { parva: 'stri-parva-the-book-of-the-women' },
+    { parva: 'shanti-parva-the-book-of-peace' },
+    { parva: 'anushasana-parva-the-book-of-instructions' },
+    { parva: 'ashvamedhika-parva-the-book-of-the-horse-sacrifice' },
+    { parva: 'ashramavasika-parva-the-book-of-the-hermitage' },
+    { parva: 'mausala-parva-the-book-of-the-clubs' },
+    { parva: 'mahaprasthanika-parva-the-book-of-the-great-journey' },
+    { parva: 'svargarohana-parva-the-book-of-the-ascent-to-heaven' }
   ];
 }
 
-export default async function Page({ params, searchParams }: { params: Promise<{ parvaKey: string }>, searchParams?: any }) {
+export default async function Page({ params, searchParams }: { params: Promise<{ parva: string }>, searchParams?: any }) {
   const resolvedParams = await params;
   const locale = detectLocale(searchParams) || DEFAULT_LOCALE;
-  const parvaKey = resolvedParams.parvaKey;
+  const parvaKey = resolvedParams.parva;
 
   const page: any = (() => {
     const loc: any = getLocaleNamespaceObject(locale, 'scriptures_mahabharata') || {};
@@ -361,8 +362,18 @@ export default async function Page({ params, searchParams }: { params: Promise<{
 
   return (
     <>
-      <div className={`min-h-screen bg-gradient-to-br ${classes.bgGradient} py-8 px-4`}>
-        <div className="max-w-5xl mx-auto">
+      <PageLayout
+        metaKey="mahabharata_parva"
+        title={parva.ParvaName}
+        breadcrumbs={[
+          { labelKey: 'Home', href: '/' },
+          { label: 'Mahabharata', href: '/scriptures/mahabharata' },
+          { label: parva.ParvaName }
+        ]}
+        className="layout-md"
+      >
+        <div className={`min-h-screen bg-gradient-to-br ${classes.bgGradient} py-8 px-4`}>
+          <div className="max-w-5xl mx-auto">
           {/* Navigation */}
           <nav className="mb-8">
             <Link 
@@ -431,7 +442,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                       
                       <div className="relative">
                         {/* Decorative Quote Marks */}
-                        <div className="absolute -left-4 -top-4 text-6xl text-gray-200 font-serif leading-none">"</div>
+                        <div className="absolute -left-4 -top-4 text-6xl text-gray-200 font-serif leading-none">&ldquo;</div>
                         <div className="prose prose-lg max-w-none">
                           {parva.DetailedNarration.split('\n\n').map((paragraph: string, idx: number) => (
                             <p key={idx} className="mb-6 text-gray-800 leading-relaxed text-justify first-letter:text-5xl first-letter:font-bold first-letter:mr-2 first-letter:float-left">
@@ -507,6 +518,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
           </article>
         </div>
       </div>
+      </PageLayout>
     </>
   );
 }

@@ -321,7 +321,7 @@ export default function Page({ searchParams }: any) {
                         )}
                         <div className="pl-0 md:pl-22 flex justify-end">
                           <Link 
-                            href={`/scriptures/ramayana/chapter/${kkey}`}
+                            href={`/scriptures/ramayana/kandas/${kkey}`}
                             className={`inline-flex items-center gap-2 ${color.accent} hover:opacity-90 text-white font-bold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105`}
                           >
                             <span>Read Complete Chapter</span>
