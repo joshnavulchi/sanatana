@@ -201,8 +201,8 @@ export default async function Page({ params, searchParams }: { params: Promise<{
         ]}
         className="layout-md"
       >
-        <div className={`min-h-screen bg-gradient-to-br ${classes.bgGradient} py-8 px-4`}>
-          <div className="max-w-5xl mx-auto">
+        <div className={`min-h-screen py-8`}>
+          <div className="">
           {/* Navigation */}
           <nav className="mb-8">
             <Link 
@@ -217,7 +217,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
           {/* Main Content */}
           <article className="bg-white rounded-3xl shadow-2xl overflow-hidden border-4 border-white">
             {/* Decorative Header */}
-            <div className={`relative bg-gradient-to-r ${classes.headerBg} px-8 py-12`}>
+            <div className={`relative bg-gradient-to-r ${classes.headerBg} px-4 py-12`}>
               <div className="absolute top-0 left-0 w-full h-full opacity-10">
                 <div className="absolute top-4 left-4 w-20 h-20 border-4 border-white rounded-full"></div>
                 <div className="absolute bottom-4 right-4 w-32 h-32 border-4 border-white rounded-full"></div>
@@ -238,7 +238,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
               </div>
             </div>
             
-            <div className="p-8 md:p-12">
+            <div className="py-8 md:py-12">
               {kanda ? (
                 <>
                   {/* Story Narrative */}
@@ -274,7 +274,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                         </div>
                         <h3 className="text-2xl font-bold text-amber-900">Key Lessons & Wisdom</h3>
                       </div>
-                      <div className="relative bg-white bg-opacity-60 rounded-xl p-6 border-l-4 border-amber-500">
+                      <div className="relative bg-white bg-opacity-60 rounded-xl pu-6 border-l-4 border-amber-500">
                         <p className="text-base text-gray-800 leading-relaxed italic">
                           {kanda.lessons}
                         </p>
@@ -295,7 +295,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
             
             {/* Footer Navigation */}
             {kanda && (
-              <div className={`bg-gradient-to-r ${classes.footerBg} px-8 py-6 border-t-2 ${classes.footerBorder}`}>
+              <div className={`bg-gradient-to-r ${classes.footerBg} px-3 py-6 border-t-2 ${classes.footerBorder}`}>
                 <div className="flex justify-center">
                   <Link 
                     href="/scriptures/ramayana" 
