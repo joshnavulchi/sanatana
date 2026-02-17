@@ -1,10 +1,10 @@
 'use client';
 import { useEffect, useState } from 'react';
-import { useLocale } from '../context/locale-context';
-import useLocaleSection from '../hooks/useLocaleSection';
-import { parseSections, parseMaybeObject } from 'lib/parseContent';
-import Loader from '@/app/components/loader/loader';
-import PageLayout from '../components/common/PageLayout';
+import { useLocale } from '@app/context/locale-context';
+import useLocaleSection from '@app/hooks/useLocaleSection';
+import { parseSections, parseMaybeObject } from '@lib/parseContent';
+import Loader from '@components/loader';
+import PageLayout from '@components/common/PageLayout';
 
 export default function SanatanadharmaClientPage() {
   const { locale, isLoading } = useLocale();

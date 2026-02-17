@@ -1,5 +1,5 @@
 
-import { createGenerateMetadata } from 'lib/pageUtils';
+import { createGenerateMetadata } from '@lib/pageUtils';
 export const generateMetadata = createGenerateMetadata('stotrasmantras_ganesh');
 
 import GaneshaClient from './ganeshclient';

@@ -2,17 +2,17 @@
 "use client";
 
 import { useEffect, useRef, useState } from 'react';
-import useLocaleSection from '../../hooks/useLocaleSection';
+import useLocaleSection from '@app/hooks/useLocaleSection';
 import { usePathname } from 'next/navigation';
-// import { loadLocaleNamespace, DEFAULT_LOCALE } from '../../../lib/i18n';
-import { useLocale } from '../../context/locale-context';
+// import { loadLocaleNamespace, DEFAULT_LOCALE } from '@lib/i18n';
+import { useLocale } from '@app/context/locale-context';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
-import LazyImage from '../lazy-image/LazyImage';
-// import BannerNotifications from '../notifications';
-import ThemeToggle from '../theme-toggle/ThemeToggle';
+import LazyImage from './lazyimage';
+// import BannerNotifications from './bannernotifications';
+import ThemeToggle from './theme-toggle/ThemeToggle';
 
-const LanguageDropdown = dynamic(() => import("../language-dropdown/language-dropdown"), { ssr: false });
+const LanguageDropdown = dynamic(() => import("./language-dropdown/language-dropdown"), { ssr: false });
 // Start with default-locale fallbacks so header can render synchronously
 
 // Default fallback values
@@ -23,13 +23,13 @@ const defaultBanner2 = null;
 
 export default function Header() {
   // Responsive logo width state
-  const [logoWidth, setLogoWidth] = useState(60);
+  const [logoWidth, setLogoWidth] = useState(50);
   useEffect(() => {
     function handleResize() {
       if (window.innerWidth < 640) {
-        setLogoWidth(60); // mobile
+        setLogoWidth(50); // mobile
       } else {
-        setLogoWidth(50); // tablet
+        setLogoWidth(45); // tablet
       }
     }
     handleResize(); // Set initial value

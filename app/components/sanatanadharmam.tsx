@@ -2,9 +2,9 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import LazyImage from "../lazy-image/LazyImage";
-import { loadLocaleNamespace } from "../../../lib/i18n";
-import { useLocale } from "../../context/locale-context";
+import LazyImage from "./lazyimage";
+import { loadLocaleNamespace } from "@lib/i18n";
+import { useLocale } from "@app/context/locale-context";
 
 /* ---------- Types ---------- */
 interface TopicItem {

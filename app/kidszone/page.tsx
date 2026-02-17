@@ -1,4 +1,4 @@
-import { createGenerateMetadata } from 'lib/pageUtils';
+import { createGenerateMetadata } from '@lib/pageUtils';
 import Link from 'next/link';
 
 export const generateMetadata = createGenerateMetadata('kidszone');

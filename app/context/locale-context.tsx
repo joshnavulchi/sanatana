@@ -2,8 +2,8 @@
 "use client";
 
 import { createContext, useContext, useEffect, useState } from 'react';
-import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '../../lib/i18n';
-import storage from '../../lib/storage';
+import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '@lib/i18n';
+import storage from '@lib/storage';
 import { useSearchParams, useRouter } from 'next/navigation';
 
 type LocaleContextType = {

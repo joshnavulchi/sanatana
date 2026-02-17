@@ -4,8 +4,8 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://sanatanadharmam.in
 // Ensure this app route is treated as static for `next export`.
 export const dynamic = "force-static";
 
-import { PATHS } from '../../lib/sitemapPaths';
-import localesList from '../../lib/localesList.json';
+import { PATHS } from '@lib/metadatasitemapPaths';
+import localesList from '@lib/metadatalocalesList.json';
 
 // Derive available locale codes from lib/localesList.json; fall back to English
 const LOCALES: string[] = (Array.isArray(localesList) ? localesList.map((l: any) => l.code).filter(Boolean) : ['en']);

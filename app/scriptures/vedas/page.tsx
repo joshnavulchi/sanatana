@@ -1,8 +1,8 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import PageLayout from '@/app/components/common/PageLayout';
-import { createGenerateMetadata } from 'lib/pageUtils';
-import { parseList } from 'lib/parseList';
-import { t, detectLocale, getMeta, getLocaleNamespaceObject, DEFAULT_LOCALE } from '../../../lib/i18n';
+import PageLayout from '@components/common/PageLayout';
+import { createGenerateMetadata } from '@lib/pageUtils';
+import { parseList } from '@lib/parseList';
+import { t, detectLocale, getMeta, getLocaleNamespaceObject, DEFAULT_LOCALE } from '@lib/i18n';
 export const generateMetadata = createGenerateMetadata('scriptures_vedas');
 
 const _localeObj = getLocaleNamespaceObject('scriptures_vedas');

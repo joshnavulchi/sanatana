@@ -1,8 +1,7 @@
 
-import { createGenerateMetadata } from '@/lib/pageUtils';
+import { createGenerateMetadata } from '@lib/pageUtils';
 export const generateMetadata = createGenerateMetadata('scriptures_vedas_atharvaveda');
 
-import PageLayout from '@/app/components/common/PageLayout';
 import AtharvavedaClient from './atharvavedaclient';
 
 export default function Page() {

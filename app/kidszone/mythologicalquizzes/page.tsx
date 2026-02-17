@@ -9,9 +9,9 @@ const __getLoc = (p: string) => {
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };
-import { getMeta, detectLocale, t } from '../../../lib/i18n';
-import { createGenerateMetadata } from 'lib/pageUtils';
-import PageLayout from '@/app/components/common/PageLayout';
+import { getMeta, detectLocale, t } from '@lib/i18n';
+import { createGenerateMetadata } from '@lib/pageUtils';
+import PageLayout from '@components/common/PageLayout';
 import QuizClient from './QuizClient';
 export const generateMetadata = createGenerateMetadata('kidszone_mythologicalquizzes');
 export default function Page({ searchParams }: any) {

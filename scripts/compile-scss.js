@@ -8,8 +8,8 @@ const path = require('path');
 
 /* ================= CONFIG ================= */
 
-const SCSS_SOURCE = path.join(__dirname, '../app/styles.scss');
-const CSS_OUTPUT = path.join(__dirname, '../public/globals.from-scss.css');
+const SCSS_SOURCE = path.join(__dirname, '@/app/app/styles.scss');
+const CSS_OUTPUT = path.join(__dirname, '@/app/public/globals.from-scss.css');
 const OUTPUT_DIR = path.dirname(CSS_OUTPUT);
 
 /* ============== UTILITIES ================= */

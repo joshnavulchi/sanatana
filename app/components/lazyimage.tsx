@@ -2,8 +2,8 @@
 import { useEffect, useRef, useState } from 'react';
 import Image, { type ImageProps } from 'next/image';
 import { generateCustomPlaceholderURL } from 'react-placeholder-image';
-import Loader from '../loader/loader';
-import useDeferAssets from '../../../lib/useDeferAssets';
+import Loader from './loader';
+import useDeferAssets from '@lib/useDeferAssets';
 
 export default function LazyImage({ src, alt, width, height, className, placeholder, onLoad, unoptimized, ...rest }: any) {
   // Only pass rest props that are not src, alt, width, height

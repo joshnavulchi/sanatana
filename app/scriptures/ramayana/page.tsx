@@ -1,8 +1,8 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import PageLayout from '@/app/components/common/PageLayout';
+import PageLayout from '@components/common/PageLayout';
 import Link from 'next/link';
-import { createGenerateMetadata } from 'lib/pageUtils';
-import { t, detectLocale, getLocaleNamespaceObject, getMeta, DEFAULT_LOCALE } from '../../../lib/i18n';
+import { createGenerateMetadata } from '@lib/pageUtils';
+import { t, detectLocale, getLocaleNamespaceObject, getMeta, DEFAULT_LOCALE } from '@lib/i18n';
 export const generateMetadata = createGenerateMetadata('scriptures_ramayana');
 
 const _localeObj = getLocaleNamespaceObject('scriptures_ramayana');

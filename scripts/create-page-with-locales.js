@@ -30,9 +30,9 @@ async function main() {
 
   const pageContent = `"use client";
 import React from 'react';
-import { useLocale } from '@/app/context/locale-context';
-import useLocaleSection from '@/app/hooks/useLocaleSection';
-import PageLayout from '@/app/components/common/PageLayout';
+import { useLocale } from '@app/context/locale-context';
+import useLocaleSection from '@app/hooks/useLocaleSection';
+import PageLayout from '@components/common/PageLayout';
 
 function renderData(data: any, keyPrefix = ''): React.ReactNode {
   if (Array.isArray(data)) {

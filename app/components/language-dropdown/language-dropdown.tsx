@@ -2,13 +2,13 @@
 "use client";
 import { useEffect, useRef, useState, useMemo } from 'react';
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
-import { useLanguagePersistence } from '../../hooks/useLanguagePersistence';
-import { DEFAULT_LOCALE } from '../../../lib/i18n';
-import useLocaleSection from '../../hooks/useLocaleSection';
-import { useLocale } from '../../context/locale-context';
+import { useLanguagePersistence } from '@app/hooks/useLanguagePersistence';
+import { DEFAULT_LOCALE } from '@lib/i18n';
+import useLocaleSection from '@app/hooks/useLocaleSection';
+import { useLocale } from '@app/context/locale-context';
 // Use plain <img> for small globe icon to avoid next/image intermittent issues
-import localesList from '../../../lib/localesList.json';
-import localeMeta from '../../../lib/localeMeta.json';
+import localesList from '@lib/localesList.json';
+import localeMeta from '@lib/localeMeta.json';
 
 export default function LanguageDropdown() {
   const locale = useLocaleSection('sharable_strings');

@@ -1,13 +1,12 @@
 "use client";
 import { useEffect, useState } from 'react';
-import PageLayout from '@/app/components/common/PageLayout';
-import { useLocale } from '../context/locale-context';
-import useLocaleSection from '../hooks/useLocaleSection';
-import { parseSections, parseMaybeObject } from 'lib/parseContent';
-import FaqAccordion from '@/app/components/faqaccordion/faqaccordion';
-import Loader from '@/app/components/loader/loader';
-import LazyImage from '../components/lazy-image/LazyImage';
-import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
+import PageLayout from '@components/common/PageLayout';
+import { useLocale } from '@app/context/locale-context';
+import useLocaleSection from '@app/hooks/useLocaleSection';
+import { parseSections, parseMaybeObject } from '@lib/parseContent';
+import FaqAccordion from '@components/faqaccordion/faqaccordion';
+import Loader from '@components/loader';
+import LazyImage from '@components/lazyimage';
 
 export default function DonateClient() {
   const { locale, isLoading } = useLocale();

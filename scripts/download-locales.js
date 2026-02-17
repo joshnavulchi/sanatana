@@ -11,7 +11,7 @@ const path = require('path');
 const GITHUB_REPO = 'vulchivijay/first-contributes';
 const GITHUB_BRANCH = 'production';
 const REMOTE_LOCALES_PATH = 'locales';
-const LOCAL_LOCALES_DIR = path.join(__dirname, '../public/locales');
+const LOCAL_LOCALES_DIR = path.join(__dirname, '@/app/public/locales');
 const META_FILE = path.join(LOCAL_LOCALES_DIR, '.locales-meta.json');
 
 /* ============== UTILITIES ================= */

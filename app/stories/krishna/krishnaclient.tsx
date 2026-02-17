@@ -1,10 +1,10 @@
 "use client";
 import { useEffect, useState } from 'react';
-import { useLocale } from '../../context/locale-context';
-import useLocaleSection from '../../hooks/useLocaleSection';
-import PageLayout from '@/app/components/common/PageLayout';
-import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
-import Loader from '@/app/components/loader/loader';
+import { useLocale } from '@app/context/locale-context';
+import useLocaleSection from '@app/hooks/useLocaleSection';
+import PageLayout from '@components/common/PageLayout';
+import SimilarCategories from '@components/similar-categories/SimilarCategories';
+import Loader from '@components/loader';
 
 export default function KrishnaClient() {
   const { locale, isLoading } = useLocale();

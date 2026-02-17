@@ -1,11 +1,11 @@
 "use client";
 import { useEffect, useState } from 'react';
-import { useLocale } from '@/app/context/locale-context';
-import useLocaleSection from '@/app/hooks/useLocaleSection';
-import { parseSections, parseMaybeObject } from 'lib/parseContent';
-import Loader from '@/app/components/loader/loader';
-import PageLayout from '@/app/components/common/PageLayout';
-import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
+import { useLocale } from '@app/context/locale-context';
+import useLocaleSection from '@app/hooks/useLocaleSection';
+import { parseSections, parseMaybeObject } from '@lib/parseContent';
+import Loader from '@components/loader';
+import PageLayout from '@components/common/PageLayout';
+import SimilarCategories from '@components/similar-categories/SimilarCategories';
 
 
 export default function GaneshClient() {

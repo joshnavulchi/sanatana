@@ -1,4 +1,4 @@
-import { getMeta, detectLocale, t } from '../../../lib/i18n';
+import { getMeta, detectLocale, t } from '@lib/i18n';
 
 const ns: Record<string, unknown> = {};
 const __getLoc = (p: string) => {
@@ -9,8 +9,8 @@ const __getLoc = (p: string) => {
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };
-import { createGenerateMetadata } from 'lib/pageUtils';
-import PageLayout from '@/app/components/common/PageLayout';
+import { createGenerateMetadata } from '@lib/pageUtils';
+import PageLayout from '@components/common/PageLayout';
 export const generateMetadata = createGenerateMetadata('kidszone_mythologycomics');
 export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || undefined;

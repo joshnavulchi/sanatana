@@ -1,8 +1,8 @@
 "use client";
-import { useLocale } from '../../context/locale-context';
-import useLocaleSection from '../../hooks/useLocaleSection';
-import PageLayout from '@/app/components/common/PageLayout';
-import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
+import { useLocale } from '@app/context/locale-context';
+import useLocaleSection from '@app/hooks/useLocaleSection';
+import PageLayout from '@components/common/PageLayout';
+import SimilarCategories from '@components/similar-categories/SimilarCategories';
 
 export default function VisvamitraClient() {
   const { locale } = useLocale();

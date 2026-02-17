@@ -1,4 +1,4 @@
-import { createGenerateMetadata } from 'lib/pageUtils';
+import { createGenerateMetadata } from '@lib/pageUtils';
 
 export const generateMetadata = createGenerateMetadata('philosophy');
 

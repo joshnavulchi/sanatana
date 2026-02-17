@@ -1,9 +1,9 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 "use client";
 
-import { useLocale } from '../context/locale-context';
-import { t as serverT, loadLocaleNamespace } from '../../lib/i18n';
-import { useState, useEffect } from 'react';
+import { useLocale } from '@app/context/locale-context';
+import { t as serverT, loadLocaleNamespace } from '@lib/i18n';
+import { useState } from 'react';
 
 export function useT() {
   const { locale, isLoading } = useLocale();

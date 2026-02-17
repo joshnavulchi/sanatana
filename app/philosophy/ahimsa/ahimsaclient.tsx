@@ -1,9 +1,9 @@
 "use client";
 import { useEffect, useState } from 'react';
-import { useLocale } from '@/app/context/locale-context';
-import PageLayout from '@/app/components/common/PageLayout';
-import Loader from '@/app/components/loader/loader';
-import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
+import { useLocale } from '@app/context/locale-context';
+import PageLayout from '@components/common/PageLayout';
+import Loader from '@components/loader';
+import SimilarCategories from '@components/similar-categories/SimilarCategories';
 
 export default function AhimsaClient() {
   const { locale, isLoading } = useLocale();

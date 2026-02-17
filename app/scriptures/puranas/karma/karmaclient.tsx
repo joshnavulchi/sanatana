@@ -1,13 +1,13 @@
 "use client";
 import { useEffect, useState } from 'react';
-import PageLayout from '@/app/components/common/PageLayout';
-import { useLocale } from '@/app/context/locale-context';
-import useLocaleSection from '@/app/hooks/useLocaleSection';
-import { parseSections, parseMaybeObject } from 'lib/parseContent';
-import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
+import PageLayout from '@components/common/PageLayout';
+import { useLocale } from '@app/context/locale-context';
+import useLocaleSection from '@app/hooks/useLocaleSection';
+import { parseSections, parseMaybeObject } from '@lib/parseContent';
+import SimilarCategories from '@components/similar-categories/SimilarCategories';
 
-import LazyImage from '@/app/components/lazy-image/LazyImage';
-import TextToSpeech from '@/app/components/text-to-speech/TextToSpeech';
+import LazyImage from '@components/lazyimage';
+import TextToSpeech from '@components/text-to-speech/TextToSpeech';
 
 // Helper components declared at module scope to avoid creating components during render
 const Paragraphs = ({ lines }: { lines?: any[] }) => {

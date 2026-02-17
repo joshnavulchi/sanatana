@@ -9,14 +9,14 @@ const __getLoc = (p: string) => {
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };
-import { t, getMeta, detectLocale, DEFAULT_LOCALE, detectServerLocaleFromHeaders } from '@/lib/i18n';
+import { t, getMeta, detectLocale, DEFAULT_LOCALE, detectServerLocaleFromHeaders } from '@lib/i18n';
 import { headers } from 'next/headers';
 import { notFound } from 'next/navigation';
-import PageLayout from '@/app/components/common/PageLayout';
+import PageLayout from '@components/common/PageLayout';
 import fs from 'fs/promises';
 import fsSync from 'fs';
 import path from 'path';
-import LazyImage from '@/app/components/lazy-image/LazyImage';
+import LazyImage from '@components/lazyimage';
 import Link from 'next/link';
 
 function resolveLocaleFromHeaders() {

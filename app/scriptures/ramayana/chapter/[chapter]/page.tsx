@@ -1,4 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+import { t, getMeta, DEFAULT_LOCALE, detectServerLocaleFromHeaders, detectLocale, getLocaleNamespaceObject } from '@lib/i18n';
+import { headers } from 'next/headers';
+import Link from 'next/link';
 
 const ns: Record<string, unknown> = {};
 const __getLoc = (p: string) => {
@@ -9,12 +12,6 @@ const __getLoc = (p: string) => {
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };
-import { t, getMeta, DEFAULT_LOCALE, detectServerLocaleFromHeaders, detectLocale, getLocaleNamespaceObject } from '@/lib/i18n';
-
-import { headers } from 'next/headers';
-import Link from 'next/link';
-
-
 function resolveLocaleFromHeaders() {
   try {
     const h: any = headers();

@@ -2,10 +2,10 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useLocale } from '../context/locale-context';
-import useLocaleSection from '../hooks/useLocaleSection';
-import PageLayout from '@/app/components/common/PageLayout';
-import Loader from '@/app/components/loader/loader';
+import { useLocale } from '@app/context/locale-context';
+import useLocaleSection from '@app/hooks/useLocaleSection';
+import PageLayout from '@components/common/PageLayout';
+import Loader from '@components/loader';
 const world_transformation_meta_page = {
   historic_decades: "Historical Decades",
   legend: "Legend",

@@ -1,7 +1,7 @@
 "use client";
-import { t, getLocaleNamespaceObject } from '../../../lib/i18n';
-import { useLocale } from '@/app/context/locale-context';
-import PageLayout from '@/app/components/common/PageLayout';
+import { t, getLocaleNamespaceObject } from '@lib/i18n';
+import { useLocale } from '@app/context/locale-context';
+import PageLayout from '@components/common/PageLayout';
 const HeroImage = () => (
   <div className="relative group overflow-hidden rounded-2xl shadow-2xl border-4 border-indigo-300/30 bg-gradient-to-br from-indigo-50/40 to-indigo-100/20 mb-8">
     <div className="w-full h-48 flex items-center justify-center text-4xl text-indigo-400">[Hero Image Placeholder]</div>
@@ -9,7 +9,7 @@ const HeroImage = () => (
   </div>
 );
 
-import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
+import SimilarCategories from '@components/similar-categories/SimilarCategories';
 
 const ns: Record<string, unknown> = {};
 const __getLoc = (p: string) => {

@@ -1,8 +1,8 @@
 "use client"
 // import { useState, useEffect } from 'react';
-import useLocaleSection from '../../hooks/useLocaleSection';
+import useLocaleSection from '@app/hooks/useLocaleSection';
 import Link from 'next/link';
-import WorldMapAnimated from '../worldmap/worldmapanimate';
+import WorldMapAnimated from './worldmap/worldmapanimate';
 
 export default function GitSupport({ locale }: { locale?: string }) {
   const loc = useLocaleSection('home');

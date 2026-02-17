@@ -1,8 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import useLocaleSection from '../../hooks/useLocaleSection';
-import { parseList } from 'lib/parseList';
+import useLocaleSection from '@app/hooks/useLocaleSection';
+import { parseList } from '@lib/parseList';
 import Link from 'next/link';
 
 const Segment = ({ title, subtitle, years, isFirst, isLast, index }: any) => {

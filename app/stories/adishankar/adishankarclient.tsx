@@ -1,10 +1,10 @@
 "use client";
 import { useEffect, useState } from 'react';
-import PageLayout from '@/app/components/common/PageLayout';
-import SimilarCategories from '@/app/components/similar-categories/SimilarCategories';
-import { useLocale } from '@/app/context/locale-context';
-import useLocaleSection from '../../hooks/useLocaleSection';
-import { parseSections, parseMaybeObject } from 'lib/parseContent';
+import PageLayout from '@components/common/PageLayout';
+import SimilarCategories from '@components/similar-categories/SimilarCategories';
+import { useLocale } from '@app/context/locale-context';
+import useLocaleSection from '@app/hooks/useLocaleSection';
+import { parseSections, parseMaybeObject } from '@lib/parseContent';
 
 export default function AdvishankarClient() {
   const { locale } = useLocale();

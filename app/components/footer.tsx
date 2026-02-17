@@ -1,12 +1,12 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 "use client";
 import { useEffect, useState } from 'react';
-import { loadLocaleNamespace } from '../../../lib/i18n';
-import { useLocale } from '../../context/locale-context';
+import { loadLocaleNamespace } from '@lib/i18n';
+import { useLocale } from '@app/context/locale-context';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
-import LazyImage from '../lazy-image/LazyImage';
-import HeritageFooter from '../heritage';
+import LazyImage from './lazyimage';
+import HeritageFooter from './heritage';
 
 export default function Footer() {
   const { locale } = useLocale();

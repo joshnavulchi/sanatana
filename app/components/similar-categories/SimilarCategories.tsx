@@ -2,8 +2,8 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 // removed useT usage; translations read directly from runtime locale object
-import { loadLocaleNamespace } from '../../../lib/i18n';
-import { useLocale } from '../../context/locale-context';
+import { loadLocaleNamespace } from '@lib/i18n';
+import { useLocale } from '@app/context/locale-context';
 
 interface SimilarCategoriesProps {
   title?: string;
