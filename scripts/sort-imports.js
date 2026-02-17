@@ -51,7 +51,7 @@ function groupFor(spec) {
   if (!spec) return 9;
   if (spec === 'react' || spec.startsWith('next')) return 0;
   if (spec.startsWith('.')) {
-    if (spec.startsWith('@/app/')) return 3;
+    if (spec.startsWith('../')) return 3;
     return 4; // ./ sibling
   }
   if (spec.match(/\.(css|scss|less|module.css|module.scss)$/)) return 5;

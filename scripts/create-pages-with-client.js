@@ -42,14 +42,14 @@ function writeIfMissing(filePath, content) {
 function clientTemplate(pageKey, compName, folderName) {
   return `"use client";
 import { useEffect, useState } from 'react';
-import PageLayout from '@components/common/PageLayout';
-import { useLocale } from '@app/context/locale-context';
-import { useT } from '@app/hooks/useT';
-import { parseMaybeObject } from '@lib/parseContent';
-import { parseList } from '@lib/parseList';
+import PageLayout from '@/app/components/common/PageLayout';
+import { useLocale } from '../context/locale-context';
+import { useT } from '../hooks/useT';
+import { parseMaybeObject } from 'lib/parseContent';
+import { parseList } from 'lib/parseList';
 import { getLocaleObject } from 'lib/i18n';
-import FaqAccordion from '@components/faqaccordion/faqaccordion';
-import Loader from '@components/loader';
+import FaqAccordion from '../components/faqaccordion/faqaccordion';
+import Loader from '@/app/components/loader/loader';
 
 function RenderNode({ node, nodeKey, showHeading }: { node: any; nodeKey?: string; showHeading?: boolean }) {
   if (node === null || node === undefined) return null;
@@ -176,7 +176,7 @@ export default function ${compName}() {
 
 function pageTemplate(pageKey, clientFileName) {
   const clientImport = clientFileName.replace(/\.tsx$/, '');
-  return `import { createGenerateMetadata } from '@lib/pageUtils';
+  return `import { createGenerateMetadata } from '../../lib/pageUtils';
 export const generateMetadata = createGenerateMetadata('${pageKey}');
 
 import Client from './${clientImport}';
@@ -245,16 +245,16 @@ function computeDepth(segments) {
 }
 
 function clientTemplateWithDepth(pageKey, compName, folderName, depth) {
-  const ctxPrefix = '@/app/'.repeat(depth);
-  const hooksPrefix = '@/app/'.repeat(depth);
+  const ctxPrefix = '../'.repeat(depth);
+  const hooksPrefix = '../'.repeat(depth);
   return clientTemplate(pageKey, compName, folderName)
-    .replace("import { useLocale } from '@app/context/locale-context';", `import { useLocale } from '${ctxPrefix}context/locale-context';`)
-    .replace("import { useT } from '@app/hooks/useT';", `import { useT } from '${hooksPrefix}hooks/useT';`)
-    .replace("import FaqAccordion from '@components/faqaccordion/faqaccordion';", `import FaqAccordion from '${ctxPrefix}components/faqaccordion/faqaccordion';`);
+    .replace("import { useLocale } from '../context/locale-context';", `import { useLocale } from '${ctxPrefix}context/locale-context';`)
+    .replace("import { useT } from '../hooks/useT';", `import { useT } from '${hooksPrefix}hooks/useT';`)
+    .replace("import FaqAccordion from '../components/faqaccordion/faqaccordion';", `import FaqAccordion from '${ctxPrefix}components/faqaccordion/faqaccordion';`);
 }
 
 function pageTemplateWithDepth(pageKey, clientFileName, depth) {
-  const prefix = '@/app/'.repeat(depth + 1);
+  const prefix = '../'.repeat(depth + 1);
   return `import { createGenerateMetadata } from '${prefix}lib/pageUtils';\nexport const generateMetadata = createGenerateMetadata('${pageKey}');\n\nimport Client from './${clientFileName}';\n\nexport default function Page() {\n  return <Client />;\n}\n`;
 }
 

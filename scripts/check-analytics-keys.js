@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const BUILD_DIR = path.join(__dirname, '@/app/out'); // Next.js static export output
+const BUILD_DIR = path.join(__dirname, '../out'); // Next.js static export output
 const GA_REGEX = /G-(\w{8,})/g; // Google Analytics 4 key pattern
 const GTM_REGEX = /GTM-(\w{6,})/g; // Google Tag Manager key pattern
 

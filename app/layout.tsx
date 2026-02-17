@@ -3,9 +3,9 @@ import { Poppins } from 'next/font/google';
 import { headers } from 'next/headers';
 import Script from 'next/script';
 import { Suspense } from 'react';
-import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '@app/lib/i18n';
-import { buildOrganizationJsonLd, buildWebSiteJsonLd, renderJsonLdScript } from '@app/lib/jsonld';
-import { secrets } from '@app/lib/secrets';
+import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '@lib/i18n';
+import { buildOrganizationJsonLd, buildWebSiteJsonLd, renderJsonLdScript } from '@lib/jsonld';
+import { secrets } from '@lib/secrets';
 import CookieConsent from '@components/cookie-consent/CookieConsent';
 
 import Footer from '@components/footer';

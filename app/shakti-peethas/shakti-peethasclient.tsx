@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
-import { parseSections, parseMaybeObject } from '@lib/parseContent';
 import Loader from '@components/loader';
 import SimilarCategories from '@components/similar-categories/SimilarCategories';
 import TextToSpeech from '@components/text-to-speech/TextToSpeech';
