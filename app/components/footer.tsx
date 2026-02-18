@@ -96,7 +96,21 @@ export default function Footer() {
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/scriptures/${key}`;
-                        return <Link key={key} href={href} className={isActive(href) ? 'active' : ''} role="menuitem">{val}</Link>;
+                        return (
+                          <Link
+                            key={key}
+                            href={href}
+                            className={isActive(href) ? 'active' : ''}
+                            role="menuitem"
+                            onClick={e => {
+                              if (isActive(href)) {
+                                e.preventDefault();
+                              }
+                            }}
+                          >
+                            {val}
+                          </Link>
+                        );
                       })}
                     </>
                   );
