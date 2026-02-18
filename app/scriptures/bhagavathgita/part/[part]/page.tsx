@@ -4,14 +4,6 @@ import { t, DEFAULT_LOCALE, detectLocale, getLocaleNamespaceObject } from '@lib/
 import Link from 'next/link';
 import PageLayout from '@components/common/PageLayout';
 
-export function generateStaticParams() {
-  // Dynamically generate static params from JSON parts (usually 5 for Gita)
-  const loc: any = getLocaleNamespaceObject(DEFAULT_LOCALE, 'scriptures_bhagavathgita') || {};
-  const gita = loc?.scriptures_bhagavathgita || {};
-  const parts = Array.isArray(gita.parts) ? gita.parts : [];
-  return parts.map((_: unknown, i: number) => ({ part: String(i + 1) }));
-}
-
 // Recursively render nested JSON content in a uniquely styled way
 function renderContent(value: any): React.ReactNode {
   if (typeof value === 'string' || typeof value === 'number' || typeof value === 'boolean') {
