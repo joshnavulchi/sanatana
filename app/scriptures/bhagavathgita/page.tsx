@@ -41,7 +41,10 @@ export default function Page({ searchParams }: any) {
     <PageLayout
       metaKey="scriptures_bhagavathgita"
       title={page.title}
-      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
+      breadcrumbs={[
+        { labelKey: 'Home', href: '/' },
+        { label:  'Scriptures', href: '/scriptures' },
+        { label: page.title }]}
       className="layout-md"
     >
       <div className="px-3 py-12">
@@ -70,10 +73,10 @@ export default function Page({ searchParams }: any) {
         {page.parts && (
           <section className="mb-12">
             <div className="relative mb-8">
-              <h2 className="text-3xl font-bold text-amber-900 text-center mb-2 relative inline-block w-full">
+              <h4 className="text-3xl font-bold text-amber-900 text-center mb-2 relative inline-block w-full">
                 <span className="relative z-10 bg-white px-6">Gita Parts</span>
                 <div className="absolute top-1/2 left-0 w-full h-0.5 bg-gradient-to-r from-amber-300 via-amber-500 to-amber-300"></div>
-              </h2>
+              </h4>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mt-6">
               {page.parts.length === 0 && (
@@ -98,9 +101,9 @@ export default function Page({ searchParams }: any) {
                     </div>
                     <div className="flex-1 p-6 space-y-3 relative">
                       <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl from-amber-100/50 to-transparent rounded-bl-full" />
-                      <h3 className="relative z-10 text-lg md:text-xl font-bold text-amber-900 line-clamp-2 hover:text-orange-700 transition-colors duration-300">
+                      <h5 className="relative z-10 text-lg md:text-xl font-bold text-amber-900 line-clamp-4 hover:text-orange-700 transition-colors duration-300">
                         {part.title}
-                      </h3>
+                      </h5>
                       {part.introduction && (
                         <p className="relative z-10 text-sm md:text-base text-gray-600 line-clamp-3 leading-relaxed">
                           {part.introduction.context_of_kurukshetra || ''}

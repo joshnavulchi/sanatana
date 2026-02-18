@@ -1,5 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, getMeta, DEFAULT_LOCALE, detectLocale, getLocaleNamespaceObject } from '@lib/i18n';
+import React from 'react';
+import { t, DEFAULT_LOCALE, detectLocale, getLocaleNamespaceObject } from '@lib/i18n';
 import Link from 'next/link';
 import PageLayout from '@components/common/PageLayout';
 
@@ -11,15 +12,75 @@ export function generateStaticParams() {
   return parts.map((_: unknown, i: number) => ({ part: String(i + 1) }));
 }
 
-export default function Page({ params, searchParams }: any) {
+// Recursively render nested JSON content in a readable way
+function renderContent(value: any): React.ReactNode {
+  if (typeof value === 'string' || typeof value === 'number' || typeof value === 'boolean') {
+    return <span>{String(value)}</span>;
+  }
+  if (Array.isArray(value)) {
+    return (
+      <ul className="list-disc pl-6">
+        {value.map((item: any, idx: number) => (
+          <li key={idx}>{renderContent(item)}</li>
+        ))}
+      </ul>
+    );
+  }
+  if (typeof value === 'object' && value !== null) {
+    return (
+      <div className="space-y-2">
+        {Object.entries(value).map(([k, v]: [string, any], idx: number) => (
+          <div key={k + idx} className="mb-1">
+            <span className="font-semibold text-amber-700 mr-2">{k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}:</span> {renderContent(v)}
+          </div>
+        ))}
+      </div>
+    );
+  }
+  return <span />;
+}
+
+export default async function Page({ params, searchParams }: any) {
+  // Next.js 14+ app router: params may be a Promise
+  const resolvedParams = typeof params?.then === 'function' ? await params : params;
   const locale = detectLocale(searchParams) || DEFAULT_LOCALE;
   const S = (k: string) => String(t(k, locale));
   const loc: any = getLocaleNamespaceObject(locale, 'scriptures_bhagavathgita') || {};
   const gita = loc?.scriptures_bhagavathgita || {};
   const parts = Array.isArray(gita.parts) ? gita.parts : [];
-  const idx = params?.part ? Number(params.part) - 1 : 0;
+  const idx = resolvedParams?.part ? Number(resolvedParams.part) - 1 : 0;
   const part = parts[idx] || null;
-  const title = part?.title || `Part ${params?.part}`;
+  const title = part?.title || `Part ${resolvedParams?.part}`;
+  // Recursively render nested JSON content in a readable way
+  function renderContent(value: any): React.ReactNode {
+    if (typeof value === 'string' || typeof value === 'number' || typeof value === 'boolean') {
+      return <span>{String(value)}</span>;
+    }
+    if (Array.isArray(value)) {
+      return (
+        <ul className="list-disc pl-6">
+          {value.map((item: any, idx: number) => (
+            <li key={idx}>{renderContent(item)}</li>
+          ))}
+        </ul>
+      );
+    }
+    if (typeof value === 'object' && value !== null) {
+      return (
+        <div className="space-y-2">
+          {Object.entries(value).map(([k, v]: [string, any], idx: number) => (
+            <div key={k + idx} className="mb-1">
+              <span className="font-semibold text-amber-700 mr-2">
+                {k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}:
+              </span>
+              {renderContent(v)}
+            </div>
+          ))}
+        </div>
+      );
+    }
+    return <span />;
+  }
 
   return (
     <PageLayout
@@ -34,7 +95,6 @@ export default function Page({ params, searchParams }: any) {
     >
       <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-amber-100 py-8 px-4">
         <div className="max-w-5xl mx-auto">
-          {/* Navigation */}
           <nav className="mb-8">
             <Link
               href="/scriptures/bhagavathgita"
@@ -62,6 +122,7 @@ export default function Page({ params, searchParams }: any) {
                 </div>
                 <h3 className="text-4xl md:text-5xl font-black text-white text-center mb-4 leading-tight drop-shadow-lg">
                   {title}
+
                 </h3>
                 <div className="flex justify-center">
                   <div className="w-32 h-1 bg-white rounded-full"></div>
@@ -97,19 +158,7 @@ export default function Page({ params, searchParams }: any) {
                       <section key={k} className="mb-10">
                         <h3 className="text-2xl font-bold text-orange-800 mb-2">{k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}</h3>
                         <div className="prose prose-base max-w-none">
-                          {typeof v === 'string' ? <p>{v}</p> : (
-                            Array.isArray(v)
-                              ? v.map((item, i) => (
-                                  <div key={i} className="mb-3">
-                                    {typeof item === 'string' ? item : JSON.stringify(item)}
-                                  </div>
-                                ))
-                              : Object.entries(v).map(([subk, subv]: [string, any], subidx: number) => (
-                                  <div key={subk} className="mb-3">
-                                    <span className="font-semibold text-amber-700 mr-2">{subk.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}:</span> {typeof subv === 'string' ? subv : Array.isArray(subv) ? subv.join(', ') : JSON.stringify(subv)}
-                                  </div>
-                                ))
-                          )}
+                          {renderContent(v)}
                         </div>
                       </section>
                     ))}
@@ -123,6 +172,7 @@ export default function Page({ params, searchParams }: any) {
                   <p className="text-sm text-gray-500 mt-2">Please check back later or explore other parts.</p>
                 </div>
               )}
+
             </div>
 
             {/* Footer Navigation */}

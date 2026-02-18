@@ -60,7 +60,10 @@ export default function Page({ searchParams }: any) {
       <PageLayout
         metaKey="mahabharata"
         title={page.title}
-        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Mahabharata' }]}
+        breadcrumbs={[
+          { labelKey: 'Home', href: '/' },
+          { label:  'Scriptures', href: '/scriptures' },
+          { label: page.title }]}
         className="layout-md"
       >
         <div className="max-w-7xl mx-auto">

@@ -196,9 +196,8 @@ export default async function Page({ params, searchParams }: { params: Promise<{
         title={title}
         breadcrumbs={[
           { labelKey: 'Home', href: '/' },
-          { label: 'Ramayana', href: '/scriptures/ramayana' },
-          { label: title }
-        ]}
+          { label:  'Scriptures', href: '/scriptures' },
+          { label: title }]}
         className="layout-md"
       >
         <div className={`min-h-screen bg-gradient-to-br ${classes.bgGradient} py-8 px-4`}>
