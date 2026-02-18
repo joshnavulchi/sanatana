@@ -200,8 +200,8 @@ export default async function Page({ params, searchParams }: { params: Promise<{
           { label: title }]}
         className="layout-md"
       >
-        <div className={`min-h-screen bg-gradient-to-br ${classes.bgGradient} py-8 px-4`}>
-          <div className="max-w-5xl mx-auto">
+        <div className={`min-h-screen py-12 px-3`}>
+          <div>
           {/* Navigation */}
           <nav className="mb-8">
             <Link 

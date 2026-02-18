@@ -49,47 +49,43 @@ const __getLoc = (p: string) => {
 
 export function generateStaticParams() {
   try {
-    // At build time, load the default locale namespace
     const loc: any = getLocaleNamespaceObject(DEFAULT_LOCALE, 'scriptures_mahabharata') || {};
     const mbh = loc?.scriptures_mahabharata || {};
-    const parvas = Array.isArray(mbh.Parvas) ? mbh.Parvas : [];
-    
-    if (parvas.length > 0) {
-      return parvas.map((p: any) => {
-        const key = p.ParvaName
-          ? p.ParvaName.toLowerCase()
-              .replace(/\s+/g, '-')
-              .replace(/[()]/g, '')
-              .replace(/--+/g, '-')
-              .replace(/^-|-$/g, '')
-          : '';
-        return { parva: key };
-      }).filter((item: any) => item.parva);
+    const parvasArr = Array.isArray(mbh.parvas) ? mbh.parvas : [];
+    const parvaKeys = parvasArr.map((p: any) => {
+      if (!p || !p.parvaname) return null;
+      return p.parvaname.toLowerCase()
+        .replace(/\s+/g, '_')
+        .replace(/[()]/g, '')
+        .replace(/__+/g, '_')
+        .replace(/^_|_$/g, '');
+    }).filter(Boolean);
+    if (parvaKeys.length > 0) {
+      return parvaKeys.map((key: string) => ({ parva: key }));
     }
   } catch (e) {
     console.error('Error generating static params for parvas:', e);
   }
-  
-  // Fallback: generate the 18 parvas of Mahabharata
+  // Fallback: generate static params from JSON structure
   return [
-    { parva: 'adi-parva-the-book-of-beginnings' },
-    { parva: 'sabha-parva-the-book-of-the-royal-assembly' },
-    { parva: 'vana-parva-the-book-of-the-forest' },
-    { parva: 'virata-parva-the-book-of-virata' },
-    { parva: 'udyoga-parva-the-book-of-effort-and-preparation' },
-    { parva: 'bhishma-parva-the-book-of-bhishma' },
-    { parva: 'drona-parva-the-book-of-drona' },
-    { parva: 'karna-parva-the-book-of-karna' },
-    { parva: 'shalya-parva-the-book-of-shalya' },
-    { parva: 'sauptika-parva-the-book-of-the-sleeping-warriors' },
-    { parva: 'stri-parva-the-book-of-the-women' },
-    { parva: 'shanti-parva-the-book-of-peace' },
-    { parva: 'anushasana-parva-the-book-of-instructions' },
-    { parva: 'ashvamedhika-parva-the-book-of-the-horse-sacrifice' },
-    { parva: 'ashramavasika-parva-the-book-of-the-hermitage' },
-    { parva: 'mausala-parva-the-book-of-the-clubs' },
-    { parva: 'mahaprasthanika-parva-the-book-of-the-great-journey' },
-    { parva: 'svargarohana-parva-the-book-of-the-ascent-to-heaven' }
+    { parva: 'adi_parva_the_book_of_beginnings' },
+    { parva: 'sabha_parva_the_book_of_the_royal_assembly' },
+    { parva: 'vana_parva_the_book_of_the_forest' },
+    { parva: 'virata_parva_the_book_of_virata' },
+    { parva: 'udyoga_parva_the_book_of_effort_and_preparation' },
+    { parva: 'bhishma_parva_the_book_of_bhishma' },
+    { parva: 'drona_parva_the_book_of_drona' },
+    { parva: 'karna_parva_the_book_of_karna' },
+    { parva: 'shalya_parva_the_book_of_shalya' },
+    { parva: 'sauptika_parva_the_book_of_the_sleeping_warriors' },
+    { parva: 'stri_parva_the_book_of_the_women' },
+    { parva: 'shanti_parva_the_book_of_peace' },
+    { parva: 'anushasana_parva_the_book_of_instructions' },
+    { parva: 'ashvamedhika_parva_the_book_of_the_horse_sacrifice' },
+    { parva: 'ashramavasika_parva_the_book_of_the_hermitage' },
+    { parva: 'mausala_parva_the_book_of_the_clubs' },
+    { parva: 'mahaprasthanika_parva_the_book_of_the_great_journey' },
+    { parva: 'svargarohana_parva_the_book_of_the_ascent_to_heaven' }
   ];
 }
 
@@ -98,59 +94,45 @@ export default async function Page({ params, searchParams }: { params: Promise<{
   const locale = detectLocale(searchParams) || DEFAULT_LOCALE;
   const parvaKey = resolvedParams.parva;
 
-  const page: any = (() => {
-    const loc: any = getLocaleNamespaceObject(locale, 'scriptures_mahabharata') || {};
-    const mbh = loc?.scriptures_mahabharata || {};
-    
-    // Get parvas array - they're directly in the scriptures_mahabharata object
-    const parvas = Array.isArray(mbh.Parvas) ? mbh.Parvas : [];
-    
-    // Find the matching parva by key
-    const parva = parvas.find((p: any) => {
-      if (!p || !p.ParvaName) return false;
-      const key = p.ParvaName.toLowerCase()
-        .replace(/\s+/g, '-')
-        .replace(/[()]/g, '')
-        .replace(/--+/g, '-')
-        .replace(/^-|-$/g, '');
-      return key === parvaKey;
-    });
-
-    if (!parva) {
-      return null;
-    }
-
-    return {
-      parva,
-      allParvas: parvas.sort((a: any, b: any) => (a.order || 0) - (b.order || 0))
-    };
-  })();
-
-  if (!page || !page.parva) {
-    notFound();
-  }
-
-  const { parva, allParvas } = page;
-  const currentIndex = allParvas.findIndex((p: any) => {
-    const key = p.ParvaName.toLowerCase()
-      .replace(/\s+/g, '-')
+  // Ramayana pattern: object mapping, section order, navigation
+  const loc: any = getLocaleNamespaceObject(locale, 'scriptures_mahabharata') || {};
+  const mbh = loc?.scriptures_mahabharata || {};
+  const parvasArr = Array.isArray(mbh.parvas) ? mbh.parvas : [];
+  // Sort by order
+  let allParvas = parvasArr.slice().sort((a: any, b: any) => (a.order || 0) - (b.order || 0));
+  // Find parva by normalized key (underscore)
+  const parva = allParvas.find((p: any) => {
+    if (!p || !p.parvaname) return false;
+    const key = p.parvaname.toLowerCase()
+      .replace(/\s+/g, '_')
       .replace(/[()]/g, '')
-      .replace(/--+/g, '-')
-      .replace(/^-|-$/g, '');
+      .replace(/__+/g, '_')
+      .replace(/^_|_$/g, '');
     return key === parvaKey;
   });
-
+  if (!parva) notFound();
+  // Navigation
+  const currentIndex = allParvas.findIndex((p: any) => {
+    const key = p.parvaname.toLowerCase()
+      .replace(/\s+/g, '_')
+      .replace(/[()]/g, '')
+      .replace(/__+/g, '_')
+      .replace(/^_|_$/g, '');
+    return key === parvaKey;
+  });
   const prevParva = currentIndex > 0 ? allParvas[currentIndex - 1] : null;
   const nextParva = currentIndex < allParvas.length - 1 ? allParvas[currentIndex + 1] : null;
-
   const getParvaSafeKey = (p: any) => {
-    if (!p || !p.ParvaName) return '';
-    return p.ParvaName.toLowerCase()
-      .replace(/\s+/g, '-')
+    if (!p || !p.parvaname) return '';
+    return p.parvaname.toLowerCase()
+      .replace(/\s+/g, '_')
       .replace(/[()]/g, '')
-      .replace(/--+/g, '-')
-      .replace(/^-|-$/g, '');
+      .replace(/__+/g, '_')
+      .replace(/^_|_$/g, '');
   };
+  // Rendering pattern: section order, object mapping, navigation
+  // ...existing code...
+  // Remove duplicate navigation and key logic
 
   // Color mapping for different parvas
   const getParvaClasses = (order: number) => {
@@ -364,16 +346,16 @@ export default async function Page({ params, searchParams }: { params: Promise<{
     <>
       <PageLayout
         metaKey="mahabharata_parva"
-        title={parva.ParvaName}
+        title={parva.parvaname}
         breadcrumbs={[
           { labelKey: 'Home', href: '/' },
           { label: 'Mahabharata', href: '/scriptures/mahabharata' },
-          { label: parva.ParvaName }
+          { label: parva.parvaname }
         ]}
         className="layout-md"
       >
-        <div className={`min-h-screen bg-gradient-to-br ${classes.bgGradient} py-8 px-4`}>
-          <div className="max-w-5xl mx-auto">
+        <div className={`min-h-screen py-12 px-3`}>
+          <div>
           {/* Navigation */}
           <nav className="mb-8">
             <Link 
@@ -401,7 +383,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                   </div>
                 </div>
                 <h3 className="text-4xl md:text-5xl font-black text-white text-center mb-4 leading-tight drop-shadow-lg">
-                  {parva.ParvaName}
+                  {parva.parvaname}
                 </h3>
                 <div className="flex justify-center">
                   <div className="w-32 h-1 bg-white rounded-full"></div>
@@ -413,7 +395,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
               {parva ? (
                 <>
                   {/* Summary */}
-                  {parva.Summary && (
+                  {parva.summary && (
                     <section className="mb-10">
                       <div className="flex items-center gap-3 mb-6">
                         <div className={`w-12 h-12 bg-gradient-to-br ${classes.iconBg} rounded-xl flex items-center justify-center shadow-lg`}>
@@ -424,14 +406,14 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                       
                       <div className="relative bg-gray-50 rounded-xl p-6 border-l-4 border-blue-500">
                         <p className="text-base text-gray-800 leading-relaxed italic font-medium">
-                          {parva.Summary}
+                          {parva.summary}
                         </p>
                       </div>
                     </section>
                   )}
                   
                   {/* Story Narrative */}
-                  {parva.DetailedNarration && (
+                  {parva.detailednarration && (
                     <section className="mb-10">
                       <div className="flex items-center gap-3 mb-6">
                         <div className={`w-12 h-12 bg-gradient-to-br ${classes.iconBg} rounded-xl flex items-center justify-center shadow-lg`}>
@@ -444,7 +426,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                         {/* Decorative Quote Marks */}
                         <div className="absolute -left-4 -top-4 text-6xl text-gray-200 font-serif leading-none">&ldquo;</div>
                         <div className="prose prose-lg max-w-none">
-                          {parva.DetailedNarration.split('\n\n').map((paragraph: string, idx: number) => (
+                          {parva.detailednarration.split('\n\n').map((paragraph: string, idx: number) => (
                             <p key={idx} className="mb-6 text-gray-800 leading-relaxed text-justify first-letter:text-5xl first-letter:font-bold first-letter:mr-2 first-letter:float-left">
                               {paragraph}
                             </p>
@@ -455,7 +437,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                   )}
                   
                   {/* Key Lessons */}
-                  {parva.MoralPsychologicalPhilosophicalLessons && (
+                  {parva.moralpsychologicalphilosophicallessons && (
                     <section className={`bg-gradient-to-br ${classes.sectionBg} rounded-2xl border-2 ${classes.sectionBorder} shadow-xl p-8`}>
                       <div className="flex items-center gap-3 mb-6">
                         <div className="w-12 h-12 bg-gradient-to-br from-amber-400 to-orange-500 rounded-xl flex items-center justify-center shadow-lg">
@@ -465,7 +447,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                       </div>
                       <div className="relative bg-white bg-opacity-60 rounded-xl p-6 border-l-4 border-amber-500">
                         <p className="text-base text-gray-800 leading-relaxed italic">
-                          {parva.MoralPsychologicalPhilosophicalLessons}
+                          {parva.moralpsychologicalphilosophicallessons}
                         </p>
                       </div>
                     </section>
