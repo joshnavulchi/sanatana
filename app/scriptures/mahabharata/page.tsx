@@ -237,15 +237,6 @@ export default function Page({ searchParams }: any) {
                             </div>
                           </div>
                         )}
-                        {parva.summary && (
-                          <div className="mb-6 pl-0 md:pl-22">
-                            <div className="bg-white bg-opacity-80 rounded-xl p-5 border border-gray-200">
-                              <p className="text-sm text-gray-800 leading-relaxed">
-                                {parva.summary}
-                              </p>
-                            </div>
-                          </div>
-                        )}
                         <div className="pl-0 md:pl-22 flex justify-end">
                           <Link 
                             href={`/scriptures/mahabharata/parva/${parvaKey}`}
