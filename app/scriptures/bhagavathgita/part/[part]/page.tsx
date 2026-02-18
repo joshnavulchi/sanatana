@@ -37,6 +37,26 @@ function renderContent(value: any): React.ReactNode {
   return <span />;
 }
 
+export function generateStaticParams() {
+  try {
+    const loc: any = getLocaleNamespaceObject(DEFAULT_LOCALE, 'scriptures_bhagavathgita') || {};
+    const mbh = loc?.scriptures_bhagavathgita || {};
+    const parvasArr = Array.isArray(mbh.parvas) ? mbh.parvas : [];
+    const parvaKeys = parvasArr.map((p: any) => {
+      if (!p || !p.parvaname) return null;
+      return p.parvaname.toLowerCase()
+        .replace(/\s+/g, '_')
+        .replace(/[()]/g, '')
+        .replace(/__+/g, '_')
+        .replace(/^_|_$/g, '');
+    }).filter(Boolean);
+    if (parvaKeys.length > 0) {
+      return parvaKeys.map((key: string) => ({ parva: key }));
+    }
+  } catch (e) {
+    console.error('Error generating static params for parvas:', e);
+  }
+
 export default async function Page({ params, searchParams }: any) {
   // Next.js 14+ app router: params may be a Promise
   const resolvedParams = typeof params?.then === 'function' ? await params : params;
