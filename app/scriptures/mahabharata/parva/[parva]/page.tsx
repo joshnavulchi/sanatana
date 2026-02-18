@@ -99,7 +99,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
   const mbh = loc?.scriptures_mahabharata || {};
   const parvasArr = Array.isArray(mbh.parvas) ? mbh.parvas : [];
   // Sort by order
-  let allParvas = parvasArr.slice().sort((a: any, b: any) => (a.order || 0) - (b.order || 0));
+  const allParvas = parvasArr.slice().sort((a: any, b: any) => (a.order || 0) - (b.order || 0));
   // Find parva by normalized key (underscore)
   const parva = allParvas.find((p: any) => {
     if (!p || !p.parvaname) return false;

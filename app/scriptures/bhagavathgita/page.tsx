@@ -78,36 +78,25 @@ export default function Page({ searchParams }: any) {
                 <div className="absolute top-1/2 left-0 w-full h-0.5 bg-gradient-to-r from-amber-300 via-amber-500 to-amber-300"></div>
               </h4>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mt-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
               {page.parts.length === 0 && (
                 <div className="col-span-full text-center text-gray-500 py-12">No content available.</div>
               )}
               {page.parts.map((part: any, i: number) => {
-                const imgSrc = part.ai_images?.[0]?.imagesrc || '/og/bhagavathgita.png';
-                const imgAlt = part.ai_images?.[0]?.alt || part.title;
                 return (
-                  <article key={i} className="relative bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl border-2 border-amber-300 hover:border-amber-500 shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden flex flex-col">
-                    <div className="absolute top-0 left-0 w-full h-1 bg-amber-400"></div>
-                    <div className="relative w-full h-56 overflow-hidden">
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent z-10" />
-                      <div className="absolute inset-0 transform hover:scale-110 transition-transform duration-700">
-                        <img
-                          src={imgSrc}
-                          alt={imgAlt}
-                          className="object-cover w-full h-full"
-                        />
+                  <div key={i} className="group relative bg-gradient-to-br from-white to-amber-50 rounded-xl border-2 border-amber-300 hover:border-amber-500 shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden">
+                    <div className="absolute top-0 right-0 w-20 h-20 bg-amber-200 rounded-bl-full opacity-50"></div>
+                    <div className="relative p-6">
+                      <div className="flex items-start gap-3 mb-3">
+                        <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center text-white font-bold shadow-md">
+                          {i + 1}
+                        </div>
+                        <div className="flex-1">
+                          <h3 className="text-xl font-bold text-amber-900 group-hover:text-orange-600 transition-colors">{part.title}</h3>
+                        </div>
                       </div>
-                      <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-100%] hover:translate-x-[100%] transition-transform duration-1000 z-10" />
-                    </div>
-                    <div className="flex-1 p-6 space-y-3 relative">
-                      <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl from-amber-100/50 to-transparent rounded-bl-full" />
-                      <h5 className="relative z-10 text-lg md:text-xl font-bold text-amber-900 line-clamp-4 hover:text-orange-700 transition-colors duration-300">
-                        {part.title}
-                      </h5>
                       {part.introduction && (
-                        <p className="relative z-10 text-sm md:text-base text-gray-600 line-clamp-3 leading-relaxed">
-                          {part.introduction.context_of_kurukshetra || ''}
-                        </p>
+                        <p className="text-sm text-gray-700 leading-relaxed pl-13">{part.introduction.context_of_kurukshetra || ''}</p>
                       )}
                       <div className="relative z-10 pt-4 flex items-center gap-2 text-amber-800 font-semibold text-sm hover:gap-3 transition-all duration-300">
                         <Link
@@ -119,7 +108,7 @@ export default function Page({ searchParams }: any) {
                         </Link>
                       </div>
                     </div>
-                  </article>
+                  </div>
                 );
               })}
             </div>
