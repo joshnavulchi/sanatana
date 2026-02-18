@@ -12,26 +12,31 @@ export function generateStaticParams() {
   return parts.map((_: unknown, i: number) => ({ part: String(i + 1) }));
 }
 
-// Recursively render nested JSON content in a readable way
+// Recursively render nested JSON content in a uniquely styled way
 function renderContent(value: any): React.ReactNode {
   if (typeof value === 'string' || typeof value === 'number' || typeof value === 'boolean') {
-    return <span>{String(value)}</span>;
+    return <span className="text-orange-900 font-medium px-1 py-0.5 rounded">{String(value)}</span>;
   }
   if (Array.isArray(value)) {
     return (
-      <ul className="list-disc pl-6">
+      <ul className="pl-4 space-y-1">
         {value.map((item: any, idx: number) => (
-          <li key={idx}>{renderContent(item)}</li>
+          <li key={idx} className="border-l-4 border-orange-300 bg-orange-50 px-3 py-1 rounded mb-1">
+            {renderContent(item)}
+          </li>
         ))}
       </ul>
     );
   }
   if (typeof value === 'object' && value !== null) {
     return (
-      <div className="space-y-2">
+      <div className="divide-y divide-orange-200">
         {Object.entries(value).map(([k, v]: [string, any], idx: number) => (
-          <div key={k + idx} className="mb-1">
-            <span className="font-semibold text-amber-700 mr-2">{k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}:</span> {renderContent(v)}
+          <div key={k + idx} className="py-2">
+            <div className="text-orange-700 font-semibold mb-1 text-base flex items-center">
+              <span className="bg-orange-100 px-2 py-1 rounded mr-2">{k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}</span>
+            </div>
+            <div className="ml-4">{renderContent(v)}</div>
           </div>
         ))}
       </div>
@@ -51,29 +56,31 @@ export default async function Page({ params, searchParams }: any) {
   const idx = resolvedParams?.part ? Number(resolvedParams.part) - 1 : 0;
   const part = parts[idx] || null;
   const title = part?.title || `Part ${resolvedParams?.part}`;
-  // Recursively render nested JSON content in a readable way
+  // Recursively render nested JSON content in a uniquely styled way
   function renderContent(value: any): React.ReactNode {
     if (typeof value === 'string' || typeof value === 'number' || typeof value === 'boolean') {
-      return <span>{String(value)}</span>;
+      return <span className="text-orange-900 font-medium px-1 py-0.5 rounded">{String(value)}</span>;
     }
     if (Array.isArray(value)) {
       return (
-        <ul className="list-disc pl-6">
+        <ul className="pl-4 space-y-1">
           {value.map((item: any, idx: number) => (
-            <li key={idx}>{renderContent(item)}</li>
+            <li key={idx} className="border-l-4 border-orange-300 bg-orange-50 px-3 py-1 rounded mb-1">
+              {renderContent(item)}
+            </li>
           ))}
         </ul>
       );
     }
     if (typeof value === 'object' && value !== null) {
       return (
-        <div className="space-y-2">
+        <div className="divide-y divide-orange-200">
           {Object.entries(value).map(([k, v]: [string, any], idx: number) => (
-            <div key={k + idx} className="mb-1">
-              <span className="font-semibold text-amber-700 mr-2">
-                {k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}:
-              </span>
-              {renderContent(v)}
+            <div key={k + idx} className="py-2">
+              <div className="text-orange-700 font-semibold mb-1 text-base flex items-center">
+                <span className="bg-orange-100 px-2 py-1 rounded mr-2">{k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}</span>
+              </div>
+              <div className="ml-4">{renderContent(v)}</div>
             </div>
           ))}
         </div>
@@ -93,8 +100,8 @@ export default async function Page({ params, searchParams }: any) {
       ]}
       className="layout-md"
     >
-      <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-amber-100 py-8 px-4">
-        <div className="max-w-5xl mx-auto">
+      <div className="min-h-screen py-12 px-3">
+        <div>
           <nav className="mb-8">
             <Link
               href="/scriptures/bhagavathgita"
@@ -105,9 +112,7 @@ export default async function Page({ params, searchParams }: any) {
             </Link>
           </nav>
 
-          {/* Main Content */}
           <article className="bg-white rounded-3xl shadow-2xl overflow-hidden border-4 border-white">
-            {/* Decorative Header */}
             <div className="relative bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 px-8 py-12">
               <div className="absolute top-0 left-0 w-full h-full opacity-10">
                 <div className="absolute top-4 left-4 w-20 h-20 border-4 border-white rounded-full"></div>
@@ -122,7 +127,6 @@ export default async function Page({ params, searchParams }: any) {
                 </div>
                 <h3 className="text-4xl md:text-5xl font-black text-white text-center mb-4 leading-tight drop-shadow-lg">
                   {title}
-
                 </h3>
                 <div className="flex justify-center">
                   <div className="w-32 h-1 bg-white rounded-full"></div>
@@ -131,26 +135,25 @@ export default async function Page({ params, searchParams }: any) {
             </div>
 
             <div className="p-8 md:p-12">
+              {part && part.introduction && (
+                <section className="mb-10">
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="w-12 h-12 bg-gradient-to-br from-amber-400 to-orange-500 rounded-xl flex items-center justify-center shadow-lg">
+                      <span className="text-white text-2xl">📜</span>
+                    </div>
+                    <h2 className="text-3xl font-bold text-amber-900">Introduction</h2>
+                  </div>
+                  <div className="prose prose-lg max-w-none">
+                    {Object.entries(part.introduction).map(([k, v]: [string, any], idx: number) => (
+                      <p key={idx} className="mb-4 text-gray-800 leading-relaxed text-justify">
+                        <span className="font-semibold text-orange-700 mr-2">{k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}:</span> {v}
+                      </p>
+                    ))}
+                  </div>
+                </section>
+              )}
               {part ? (
                 <>
-                  {/* Introduction */}
-                  {part.introduction && (
-                    <section className="mb-10">
-                      <div className="flex items-center gap-3 mb-6">
-                        <div className="w-12 h-12 bg-gradient-to-br from-amber-400 to-orange-500 rounded-xl flex items-center justify-center shadow-lg">
-                          <span className="text-white text-2xl">📜</span>
-                        </div>
-                        <h2 className="text-3xl font-bold text-amber-900">Introduction</h2>
-                      </div>
-                      <div className="prose prose-lg max-w-none">
-                        {Object.entries(part.introduction).map(([k, v]: [string, any], idx: number) => (
-                          <p key={idx} className="mb-4 text-gray-800 leading-relaxed text-justify">
-                            <span className="font-semibold text-orange-700 mr-2">{k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}:</span> {v}
-                          </p>
-                        ))}
-                      </div>
-                    </section>
-                  )}
                   {/* Render all chapter/section content recursively for part-1 and similar objects */}
                   {Object.entries(part)
                     .filter(([k]) => k.startsWith('chapter_') || k.startsWith('chapters_') || k.startsWith('part-'))
@@ -172,22 +175,45 @@ export default async function Page({ params, searchParams }: any) {
                   <p className="text-sm text-gray-500 mt-2">Please check back later or explore other parts.</p>
                 </div>
               )}
-
             </div>
 
             {/* Footer Navigation */}
             {part && (
-              <div className="bg-gradient-to-r from-amber-100 to-orange-100 px-8 py-6 border-t-2 border-amber-200">
-                <div className="flex justify-center">
-                  <Link
-                    href="/scriptures/bhagavathgita"
-                    className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-orange-600 hover:to-amber-600 text-white font-bold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
-                  >
-                    <span className="text-xl">←</span>
-                    <span>Explore All Parts</span>
-                  </Link>
+              <footer className="mt-10">
+                <div className="flex flex-col items-center gap-4">
+                  <div className="flex gap-4">
+                    {/* Previous Part Button */}
+                    {idx > 0 && (
+                      <Link
+                        href={`/scriptures/bhagavathgita/part/${idx}`}
+                        className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg transition-all duration-300"
+                      >
+                        <span className="text-xl">←</span>
+                        <span>Previous Part</span>
+                      </Link>
+                    )}
+                    {/* Next Part Button */}
+                    {idx < parts.length - 1 && (
+                      <Link
+                        href={`/scriptures/bhagavathgita/part/${idx + 2}`}
+                        className="inline-flex items-center gap-2 bg-orange-400 hover:bg-orange-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg transition-all duration-300"
+                      >
+                        <span>Next Part</span>
+                        <span className="text-xl">→</span>
+                      </Link>
+                    )}
+                  </div>
+                  <div className="flex justify-center mt-6">
+                    <Link
+                      href="/scriptures/bhagavathgita"
+                      className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-orange-600 hover:to-amber-600 text-white font-bold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
+                    >
+                      <span className="text-xl">←</span>
+                      <span>Explore All Parts</span>
+                    </Link>
+                  </div>
                 </div>
-              </div>
+              </footer>
             )}
           </article>
         </div>
