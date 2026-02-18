@@ -372,13 +372,13 @@ export default async function Page({ params, searchParams }: { params: Promise<{
         ]}
         className="layout-md"
       >
-        <div className={`min-h-screen py-8`}>
-          <div className="">
+        <div className={`min-h-screen bg-gradient-to-br ${classes.bgGradient} py-8 px-4`}>
+          <div className="max-w-5xl mx-auto">
           {/* Navigation */}
           <nav className="mb-8">
             <Link 
               href="/scriptures/mahabharata" 
-              className="inline-flex items-center gap-2 bg-white hover:bg-gray-50 text-gray-700 font-semibold py-3 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border-2 border-gray-200"
+              className="inline-flex items-center gap-2 bg-white hover:bg-gray-50 text-gray-700 font-semibold px-5 py-3 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border-2 border-gray-200"
             >
               <span className="text-xl">←</span>
               <span>Back to Mahabharata</span>
@@ -388,7 +388,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
           {/* Main Content */}
           <article className="bg-white rounded-3xl shadow-2xl overflow-hidden border-4 border-white">
             {/* Decorative Header */}
-            <div className={`relative bg-gradient-to-r ${classes.headerBg} py-12`}>
+            <div className={`relative bg-gradient-to-r ${classes.headerBg} px-8 py-12`}>
               <div className="absolute top-0 left-0 w-full h-full opacity-10">
                 <div className="absolute top-4 left-4 w-20 h-20 border-4 border-white rounded-full"></div>
                 <div className="absolute bottom-4 right-4 w-32 h-32 border-4 border-white rounded-full"></div>
@@ -396,7 +396,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
               </div>
               <div className="relative z-10">
                 <div className="flex items-center justify-center mb-4">
-                  <div className="bg-white bg-opacity-20 backdrop-blur-sm py-2 rounded-full border-2 border-white border-opacity-50">
+                  <div className="bg-white bg-opacity-20 backdrop-blur-sm px-6 py-2 rounded-full border-2 border-white border-opacity-50">
                     <p className="text-white text-sm font-bold uppercase tracking-widest">The Great Epic Mahabharata</p>
                   </div>
                 </div>
@@ -409,7 +409,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
               </div>
             </div>
             
-            <div className="py-8 md:pu-12">
+            <div className="p-8 md:p-12">
               {parva ? (
                 <>
                   {/* Summary */}
@@ -456,7 +456,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                   
                   {/* Key Lessons */}
                   {parva.MoralPsychologicalPhilosophicalLessons && (
-                    <section className={`bg-gradient-to-br ${classes.sectionBg} rounded-2xl border-2 ${classes.sectionBorder} shadow-xl py-8`}>
+                    <section className={`bg-gradient-to-br ${classes.sectionBg} rounded-2xl border-2 ${classes.sectionBorder} shadow-xl p-8`}>
                       <div className="flex items-center gap-3 mb-6">
                         <div className="w-12 h-12 bg-gradient-to-br from-amber-400 to-orange-500 rounded-xl flex items-center justify-center shadow-lg">
                           <span className="text-white text-2xl">💡</span>
@@ -484,12 +484,12 @@ export default async function Page({ params, searchParams }: { params: Promise<{
             
             {/* Footer Navigation */}
             {parva && (
-              <div className={`bg-gradient-to-r ${classes.footerBg} px-3 py-6 border-t-2 ${classes.footerBorder}`}>
+              <div className={`bg-gradient-to-r ${classes.footerBg} px-8 py-6 border-t-2 ${classes.footerBorder}`}>
                 <div className="flex justify-center gap-4 flex-wrap">
                   {prevParva && (
                     <Link 
                       href={`/scriptures/mahabharata/parva/${getParvaSafeKey(prevParva)}`}
-                      className={`inline-flex items-center gap-2 bg-gradient-to-r ${classes.buttonBg} text-white font-bold px-3 py-2 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300`}
+                      className={`inline-flex items-center gap-2 bg-gradient-to-r ${classes.buttonBg} text-white font-bold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300`}
                     >
                       <span className="text-xl">←</span>
                       <span className="hidden sm:inline">Previous</span>
@@ -498,7 +498,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                   
                   <Link 
                     href="/scriptures/mahabharata" 
-                    className="inline-flex items-center gap-2 bg-white hover:bg-gray-50 text-gray-700 font-bold px-3 py-2 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border-2 border-gray-200"
+                    className="inline-flex items-center gap-2 bg-white hover:bg-gray-50 text-gray-700 font-bold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border-2 border-gray-200"
                   >
                     <span>Explore All Parvas</span>
                   </Link>
@@ -506,7 +506,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                   {nextParva && (
                     <Link 
                       href={`/scriptures/mahabharata/parva/${getParvaSafeKey(nextParva)}`}
-                      className={`inline-flex items-center gap-2 bg-gradient-to-r ${classes.buttonBg} text-white font-bold px-3 py-2 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300`}
+                      className={`inline-flex items-center gap-2 bg-gradient-to-r ${classes.buttonBg} text-white font-bold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300`}
                     >
                       <span className="hidden sm:inline">Next</span>
                       <span className="text-xl">→</span>
