@@ -83,8 +83,60 @@ export default function Page({ searchParams }: any) {
                 <div className="col-span-full text-center text-gray-500 py-12">No content available.</div>
               )}
               {page.parts.map((part: any, i: number) => {
+                // Unique solid color palette for backgrounds
+                const bgColors = [
+                  'bg-orange-50',
+                  'bg-yellow-50',
+                  'bg-amber-50',
+                  'bg-red-50',
+                  'bg-lime-50',
+                  'bg-green-50',
+                  'bg-pink-50',
+                  'bg-blue-50',
+                  'bg-teal-50',
+                  'bg-fuchsia-50',
+                  'bg-cyan-50',
+                  'bg-purple-50',
+                  'bg-rose-50',
+                  'bg-indigo-50',
+                  'bg-emerald-50',
+                  'bg-sky-50',
+                  'bg-violet-50',
+                  'bg-stone-50',
+                  'bg-zinc-50',
+                  'bg-neutral-50',
+                  'bg-slate-50',
+                  'bg-gray-50',
+                  'bg-orange-100',
+                  'bg-yellow-100',
+                  'bg-amber-100',
+                  'bg-lime-100',
+                  'bg-green-100',
+                  'bg-pink-100',
+                  'bg-blue-100',
+                  'bg-teal-100',
+                  'bg-fuchsia-100',
+                  'bg-cyan-100',
+                  'bg-purple-100',
+                  'bg-rose-100',
+                  'bg-indigo-100',
+                  'bg-emerald-100',
+                  'bg-sky-100',
+                  'bg-violet-100',
+                  'bg-stone-100',
+                  'bg-zinc-100',
+                  'bg-neutral-100',
+                  'bg-slate-100',
+                  'bg-gray-100',
+                ];
+                let bgClass = '';
+                if (i < bgColors.length) {
+                  bgClass = bgColors[i];
+                } else {
+                  bgClass = 'bg-white';
+                }
                 return (
-                  <div key={i} className="group relative bg-gradient-to-br from-white to-amber-50 rounded-xl border-2 border-amber-300 hover:border-amber-500 shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden">
+                  <div key={i} className={`group relative ${bgClass} rounded-xl border-2 border-amber-300 hover:border-amber-500 shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden`}>
                     <div className="absolute top-0 right-0 w-20 h-20 bg-amber-200 rounded-bl-full opacity-50"></div>
                     <div className="relative p-6">
                       <div className="flex items-start gap-3 mb-3">
