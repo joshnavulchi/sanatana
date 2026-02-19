@@ -1,8 +1,14 @@
-/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+/* Copyright (c) 2025 sanatanadharmam.in
+   Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import React from 'react';
 import { t, DEFAULT_LOCALE, detectLocale, getLocaleNamespaceObject } from '@lib/i18n';
 import Link from 'next/link';
 import PageLayout from '@components/common/PageLayout';
+
+// IMPORTANT for `output: 'export'`:
+// - Do NOT set dynamicParams=true
+// - Do NOT use revalidate/ISR
+// - Ensure generateStaticParams returns all parts you want to export
 
 // Recursively render nested JSON content in a uniquely styled way
 function renderContent(value: any): React.ReactNode {
@@ -26,7 +32,9 @@ function renderContent(value: any): React.ReactNode {
         {Object.entries(value).map(([k, v]: [string, any], idx: number) => (
           <div key={k + idx} className="py-2">
             <div className="text-orange-700 font-semibold mb-1 text-base flex items-center">
-              <span className="bg-orange-100 px-2 py-1 rounded mr-2">{k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}</span>
+              <span className="bg-orange-100 px-2 py-1 rounded mr-2">
+                {k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}
+              </span>
             </div>
             <div className="ml-4">{renderContent(v)}</div>
           </div>
@@ -37,69 +45,60 @@ function renderContent(value: any): React.ReactNode {
   return <span />;
 }
 
+// Build-time enumeration of all [part] pages.
+// Must return { part: string } for static export.
 export function generateStaticParams() {
   try {
+    // Use DEFAULT_LOCALE at build time to avoid request/browser dependencies
     const loc: any = getLocaleNamespaceObject(DEFAULT_LOCALE, 'scriptures_bhagavathgita') || {};
-    const mbh = loc?.scriptures_bhagavathgita || {};
-    const parvasArr = Array.isArray(mbh.parvas) ? mbh.parvas : [];
-    const parvaKeys = parvasArr.map((p: any) => {
-      if (!p || !p.parvaname) return null;
-      return p.parvaname.toLowerCase()
-        .replace(/\s+/g, '_')
-        .replace(/[()]/g, '')
-        .replace(/__+/g, '_')
-        .replace(/^_|_$/g, '');
-    }).filter(Boolean);
-    if (parvaKeys.length > 0) {
-      return parvaKeys.map((key: string) => ({ parva: key }));
-    }
+    const gita = loc?.scriptures_bhagavathgita ?? {};
+    const parts: any[] = Array.isArray(gita.parts) ? gita.parts : [];
+
+    // Return 1-based part indices as strings: "1", "2", ...
+    return parts.map((_, i) => ({ part: String(i + 1) }));
   } catch (e) {
-    console.error('Error generating static params for parvas:', e);
+    console.error('Error generating static params for parts:', e);
+    // For `next export`, returning [] is safer than throwing
+    return [];
   }
+}
 
 export default async function Page({ params, searchParams }: any) {
   // Next.js 14+ app router: params may be a Promise
   const resolvedParams = typeof params?.then === 'function' ? await params : params;
-  const locale = detectLocale(searchParams) || DEFAULT_LOCALE;
+
+  // Try detectLocale but fall back hard to DEFAULT_LOCALE to keep export stable
+  let locale = DEFAULT_LOCALE;
+  try {
+    const maybe = typeof detectLocale === 'function' ? detectLocale(searchParams) : null;
+    locale = (maybe || DEFAULT_LOCALE);
+  } catch (e) {
+    console.error('detectLocale failed, falling back to DEFAULT_LOCALE:', e);
+  }
+
   const S = (k: string) => String(t(k, locale));
-  const loc: any = getLocaleNamespaceObject(locale, 'scriptures_bhagavathgita') || {};
+
+  let loc: any = {};
+  try {
+    loc = getLocaleNamespaceObject(locale, 'scriptures_bhagavathgita') || {};
+  } catch (e) {
+    console.error('getLocaleNamespaceObject failed, using empty object:', e);
+  }
+
   const gita = loc?.scriptures_bhagavathgita || {};
   const parts = Array.isArray(gita.parts) ? gita.parts : [];
-  const idx = resolvedParams?.part ? Number(resolvedParams.part) - 1 : 0;
+
+  const rawPart = resolvedParams?.part;
+  const computed = Number(rawPart);
+  const idx = Number.isFinite(computed) && computed > 0 ? computed - 1 : 0;
+
   const part = parts[idx] || null;
-  const title = part?.title || `Part ${resolvedParams?.part}`;
-  // Recursively render nested JSON content in a uniquely styled way
-  function renderContent(value: any): React.ReactNode {
-    if (typeof value === 'string' || typeof value === 'number' || typeof value === 'boolean') {
-      return <span className="text-orange-900 font-medium px-1 py-0.5 rounded">{String(value)}</span>;
-    }
-    if (Array.isArray(value)) {
-      return (
-        <ul className="pl-4 space-y-1">
-          {value.map((item: any, idx: number) => (
-            <li key={idx} className="border-l-4 border-orange-300 bg-orange-50 px-3 py-1 rounded mb-1">
-              {renderContent(item)}
-            </li>
-          ))}
-        </ul>
-      );
-    }
-    if (typeof value === 'object' && value !== null) {
-      return (
-        <div className="divide-y divide-orange-200">
-          {Object.entries(value).map(([k, v]: [string, any], idx: number) => (
-            <div key={k + idx} className="py-2">
-              <div className="text-orange-700 font-semibold mb-1 text-base flex items-center">
-                <span className="bg-orange-100 px-2 py-1 rounded mr-2">{k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}</span>
-              </div>
-              <div className="ml-4">{renderContent(v)}</div>
-            </div>
-          ))}
-        </div>
-      );
-    }
-    return <span />;
-  }
+  const title =
+    (typeof part?.title === 'string' && part.title.trim())
+      ? part.title
+      : `Part ${rawPart ?? idx + 1}`;
+
+  const intro = part?.introduction;
 
   return (
     <PageLayout
@@ -147,7 +146,7 @@ export default async function Page({ params, searchParams }: any) {
             </div>
 
             <div className="p-8 md:p-12">
-              {part && part.introduction && (
+              {intro && typeof intro === 'object' && !Array.isArray(intro) && (
                 <section className="mb-10">
                   <div className="flex items-center gap-3 mb-6">
                     <div className="w-12 h-12 bg-gradient-to-br from-amber-400 to-orange-500 rounded-xl flex items-center justify-center shadow-lg">
@@ -156,22 +155,28 @@ export default async function Page({ params, searchParams }: any) {
                     <h2 className="text-3xl font-bold text-amber-900">Introduction</h2>
                   </div>
                   <div className="prose prose-lg max-w-none">
-                    {Object.entries(part.introduction).map(([k, v]: [string, any], idx: number) => (
-                      <p key={idx} className="mb-4 text-gray-800 leading-relaxed text-justify">
-                        <span className="font-semibold text-orange-700 mr-2">{k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}:</span> {v}
+                    {Object.entries(intro as Record<string, any>).map(([k, v]: [string, any], i: number) => (
+                      <p key={i} className="mb-4 text-gray-800 leading-relaxed text-justify">
+                        <span className="font-semibold text-orange-700 mr-2">
+                          {k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}:
+                        </span>{' '}
+                        {String(v)}
                       </p>
                     ))}
                   </div>
                 </section>
               )}
+
               {part ? (
                 <>
                   {/* Render all chapter/section content recursively for part-1 and similar objects */}
-                  {Object.entries(part)
+                  {Object.entries(part as Record<string, any>)
                     .filter(([k]) => k.startsWith('chapter_') || k.startsWith('chapters_') || k.startsWith('part-'))
-                    .map(([k, v]: [string, any], idx: number) => (
+                    .map(([k, v]) => (
                       <section key={k} className="mb-10">
-                        <h3 className="text-2xl font-bold text-orange-800 mb-2">{k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}</h3>
+                        <h3 className="text-2xl font-bold text-orange-800 mb-2">
+                          {k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}
+                        </h3>
                         <div className="prose prose-base max-w-none">
                           {renderContent(v)}
                         </div>
