@@ -100,7 +100,7 @@ export default function Page({ searchParams }: any) {
                       )}
                       <div className="relative z-10 pt-4 flex items-center gap-2 text-amber-800 font-semibold text-sm hover:gap-3 transition-all duration-300">
                         <Link
-                          href={`/scriptures/bhagavathgita/part-${i + 1}`}
+                          href={`/scriptures/bhagavadgita/part-${i + 1}`}
                           className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-orange-600 hover:to-amber-600 text-white font-bold px-6 py-2 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
                         >
                           <span>Read Part</span>

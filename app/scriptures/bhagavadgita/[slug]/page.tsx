@@ -39,8 +39,8 @@ function renderContent(value: any): React.ReactNode {
   return <span />;
 }
 
-// Build-time enumeration of all [part] pages.
-// Must return { part: string } for static export.
+// Build-time enumeration of all [slug] pages.
+// Must return { slug: string } for static export.
 export function generateStaticParams() {
   try {
     // Use DEFAULT_LOCALE at build time to avoid request/browser dependencies
@@ -48,8 +48,8 @@ export function generateStaticParams() {
     const gita = loc?.scriptures_bhagavadgita ?? {};
     const parts: any[] = Array.isArray(gita.parts) ? gita.parts : [];
 
-    // Return 1-based part indices as strings: "1", "2", ...
-    return parts.map((_, i) => ({ part: String(i + 1) }));
+    // Return slugs as part-1, part-2, ...
+    return parts.map((_, i) => ({ slug: `part-${i + 1}` }));
   } catch (e) {
     console.error('Error generating static params for parts:', e);
     // For `next export`, returning [] is safer than throwing
@@ -82,25 +82,33 @@ export default async function Page({ params, searchParams }: any) {
   const gita = loc?.scriptures_bhagavadgita || {};
   const parts = Array.isArray(gita.parts) ? gita.parts : [];
 
-  const rawPart = resolvedParams?.part;
-  const computed = Number(rawPart);
-  const idx = Number.isFinite(computed) && computed > 0 ? computed - 1 : 0;
+  const rawSlug = resolvedParams?.slug;
+  // Accept both 'part-1' and '1' for backward compatibility, but prefer 'part-1'
+  let idx = 0;
+  if (typeof rawSlug === 'string') {
+    const match = rawSlug.match(/^part-(\d+)$/);
+    if (match) {
+      idx = parseInt(match[1], 10) - 1;
+    } else if (/^\d+$/.test(rawSlug)) {
+      idx = parseInt(rawSlug, 10) - 1;
+    }
+  }
 
   const part = parts[idx] || null;
   const title =
     (typeof part?.title === 'string' && part.title.trim())
       ? part.title
-      : `Part ${rawPart ?? idx + 1}`;
+      : `Part ${idx + 1}`;
 
   const intro = part?.introduction;
 
   return (
     <PageLayout
-      metaKey="scriptures_bhagavadgita_part"
+      metaKey="scriptures_bhagavadgita"
       title={title}
       breadcrumbs={[
         { labelKey: 'Home', href: '/' },
-        { label: gita.title || 'Bhagavad Gita', href: '/scriptures/bhagavathgita' },
+        { label: gita.title || 'Bhagavad Gita', href: '/scriptures/bhagavadgita' },
         { label: title }
       ]}
       className="layout-md"
@@ -109,7 +117,7 @@ export default async function Page({ params, searchParams }: any) {
         <div>
           <nav className="mb-8">
             <Link
-              href="/scriptures/bhagavathgita"
+              href="/scriptures/bhagavadgita"
               className="inline-flex items-center gap-2 bg-white hover:bg-gray-50 text-gray-700 font-semibold px-5 py-3 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border-2 border-gray-200"
             >
               <span className="text-xl">←</span>
@@ -196,7 +204,7 @@ export default async function Page({ params, searchParams }: any) {
                     {/* Previous Part Button */}
                     {idx > 0 && (
                       <Link
-                        href={`/scriptures/bhagavathgita/part/${idx}`}
+                        href={`/scriptures/bhagavadgita/part-${idx}`}
                         className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg transition-all duration-300"
                       >
                         <span className="text-xl">←</span>
@@ -206,7 +214,7 @@ export default async function Page({ params, searchParams }: any) {
                     {/* Next Part Button */}
                     {idx < parts.length - 1 && (
                       <Link
-                        href={`/scriptures/bhagavathgita/part/${idx + 2}`}
+                        href={`/scriptures/bhagavadgita/part-${idx + 2}`}
                         className="inline-flex items-center gap-2 bg-orange-400 hover:bg-orange-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg transition-all duration-300"
                       >
                         <span>Next Part</span>
@@ -216,7 +224,7 @@ export default async function Page({ params, searchParams }: any) {
                   </div>
                   <div className="flex justify-center mt-6">
                     <Link
-                      href="/scriptures/bhagavathgita"
+                      href="/scriptures/bhagavadgita"
                       className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-orange-600 hover:to-amber-600 text-white font-bold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
                     >
                       <span className="text-xl">←</span>
