@@ -1,6 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import Link from 'next/link';
-import { t, detectLocale, getLocaleNamespaceObject, getMeta, DEFAULT_LOCALE } from '@lib/i18n';
+import { detectLocale, getLocaleNamespaceObject, DEFAULT_LOCALE } from '@lib/i18n';
 import { notFound } from 'next/navigation';
 import PageLayout from '@components/common/PageLayout';
 
