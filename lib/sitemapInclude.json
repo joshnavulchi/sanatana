@@ -4,7 +4,9 @@
   "/contact",
   "/donate",
   "/scriptures/ramayana",
+  "/scriptures/ramayana/kandas/bala_kanda/",
   "/scriptures/mahabharata",
+  "/scriptures/mahabharata/parva/adi_parva_the_book_of_beginnings/",
   "/scriptures/sanksheparamayanam",
   "/scriptures/bhagavathgita",
   "/sanatanadharma",
@@ -12,5 +14,6 @@
   "/terms-of-service",
   "/philosophy/karma",
   "/historical-timeline",
-  "/religion-conversion"
+  "/religion-conversion",
+  "/indian-constitution"
 ]
