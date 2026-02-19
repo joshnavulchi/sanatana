@@ -88,17 +88,21 @@ export function generateStaticParams() {
     const loc: any = getLocaleNamespaceObject(DEFAULT_LOCALE, 'scriptures_bhagavadgita') || {};
     const gita = loc?.scriptures_bhagavadgita ?? {};
     const parts: any[] = Array.isArray(gita.parts) ? gita.parts : [];
-    const partsKeys = parts.map((p: any, i: number) => {
-      console.log(p.bhagavadgita_part_`${i}`);
-      if (!p || !p.bhagavadgita_part_`${i + 1}`) return null;
-      return p.bhagavadgita_part_`${i + 1}`.toLowerCase()
-        .replace(/\s+/g, '_')
-        .replace(/[()]/g, '')
-        .replace(/__+/g, '_')
-        .replace(/^_|_$/g, '');
-    }).filter(Boolean);
+    // Each part object has keys like 'bhagavadgita_part_1', 'bhagavadgita_part_2', etc.
+    const partsKeys = parts
+      .map((p: any) => {
+        if (!p) return null;
+        const key = Object.keys(p).find(k => k.startsWith('bhagavadgita_part_'));
+        if (!key) return null;
+        return key.toLowerCase()
+          .replace(/\s+/g, '_')
+          .replace(/[()]/g, '')
+          .replace(/__+/g, '_')
+          .replace(/^_|_$/g, '');
+      })
+      .filter((k): k is string => typeof k === 'string');
     if (partsKeys.length > 0) {
-      return partsKeys.map((key: string) => ({ part: key }));
+      return partsKeys.map((key) => ({ part: key }));
     }
   } catch (e) {
     console.error('Error generating static params for parvas:', e);
@@ -160,8 +164,11 @@ export default async function Page({ params, searchParams }: { params: Promise<{
   const allParts = partsArr.slice().sort((a: any, b: any) => (a.order || 0) - (b.order || 0));
   // Find part by normalized key (underscore)
   const part = allParts.find((p: any, i: number) => {
-    if (!p || !p.bhagavadgita_part_`${i + 1}`) return false;
-    const key = p.bhagavadgita_part_`${i + 1}`.toLowerCase()
+    if (!p) return false;
+    // Find the key that starts with 'bhagavadgita_part_'
+    const partKeyName = Object.keys(p).find(k => k.startsWith('bhagavadgita_part_'));
+    if (!partKeyName) return false;
+    const key = partKeyName.toLowerCase()
       .replace(/\s+/g, '_')
       .replace(/[()]/g, '')
       .replace(/__+/g, '_')
@@ -171,7 +178,10 @@ export default async function Page({ params, searchParams }: { params: Promise<{
   if (!part) notFound();
   // Navigation
   const currentIndex = allParts.findIndex((p: any, i: number) => {
-    const key = p.bhagavadgita_part_`${i}`.toLowerCase()
+    if (!p) return false;
+    const partKeyName = Object.keys(p).find(k => k.startsWith('bhagavadgita_part_'));
+    if (!partKeyName) return false;
+    const key = partKeyName.toLowerCase()
       .replace(/\s+/g, '_')
       .replace(/[()]/g, '')
       .replace(/__+/g, '_')
@@ -181,8 +191,10 @@ export default async function Page({ params, searchParams }: { params: Promise<{
   const prevPart = currentIndex > 0 ? allParts[currentIndex - 1] : null;
   const nextPart = currentIndex < allParts.length - 1 ? allParts[currentIndex + 1] : null;
   const getPartSafeKey = (p: any, i: number) => {
-    if (!p || !p.bhagavadgita_part_`${i}`) return '';
-    return p.bhagavadgita_part_`${i}`.toLowerCase()
+    if (!p) return '';
+    const partKeyName = Object.keys(p).find(k => k.startsWith('bhagavadgita_part_'));
+    if (!partKeyName) return '';
+    return partKeyName.toLowerCase()
       .replace(/\s+/g, '_')
       .replace(/[()]/g, '')
       .replace(/__+/g, '_')
@@ -434,7 +446,11 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                   </div>
                 </div>
                 <h3 className="text-4xl md:text-5xl font-black text-white text-center mb-4 leading-tight drop-shadow-lg">
-                  {part.title}
+                  {part.title || (() => {
+                    // Try to extract the part key and use as fallback title
+                    const partKeyName = Object.keys(part).find(k => k.startsWith('bhagavadgita_part_'));
+                    return partKeyName ? partKeyName.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase()) : 'Part';
+                  })()}
                 </h3>
                 <div className="flex justify-center">
                   <div className="w-32 h-1 bg-white rounded-full"></div>
@@ -468,17 +484,35 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                 <>
                   {/* Render all chapter/section content recursively for part-1 and similar objects */}
                   {Object.entries(part as Record<string, any>)
-                    .filter(([k]) => k.startsWith('chapter_') || k.startsWith('chapters_') || k.startsWith('part-'))
-                    .map(([k, v]) => (
-                      <section key={k} className="mb-10">
-                        <h3 className="text-2xl font-bold text-orange-800 mb-2">
-                          {k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}
-                        </h3>
-                        <div className="prose prose-base max-w-none">
-                          {renderContent(v)}
-                        </div>
-                      </section>
-                    ))}
+                    .flatMap(([k, v]) => {
+                      // If the value is an object and the key is like 'bhagavadgita_part_X', render its children
+                      if (k.startsWith('bhagavadgita_part_') && typeof v === 'object' && v !== null) {
+                        return Object.entries(v).map(([subk, subv]) => (
+                          <section key={k + '-' + subk} className="mb-10">
+                            <h3 className="text-2xl font-bold text-orange-800 mb-2">
+                              {subk.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}
+                            </h3>
+                            <div className="prose prose-base max-w-none">
+                              {renderContent(subv)}
+                            </div>
+                          </section>
+                        ));
+                      }
+                      // Otherwise, render as before for chapters/sections
+                      if (k.startsWith('chapter_') || k.startsWith('chapters_') || k.startsWith('part-')) {
+                        return [
+                          <section key={k} className="mb-10">
+                            <h3 className="text-2xl font-bold text-orange-800 mb-2">
+                              {k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}
+                            </h3>
+                            <div className="prose prose-base max-w-none">
+                              {renderContent(v)}
+                            </div>
+                          </section>
+                        ];
+                      }
+                      return [];
+                    })}
                 </>
               ) : (
                 <div className="text-center py-16">
