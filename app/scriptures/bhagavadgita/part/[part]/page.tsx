@@ -1,14 +1,8 @@
-/* Copyright (c) 2025 sanatanadharmam.in
-   Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import React from 'react';
 import { t, DEFAULT_LOCALE, detectLocale, getLocaleNamespaceObject } from '@lib/i18n';
 import Link from 'next/link';
 import PageLayout from '@components/common/PageLayout';
-
-// IMPORTANT for `output: 'export'`:
-// - Do NOT set dynamicParams=true
-// - Do NOT use revalidate/ISR
-// - Ensure generateStaticParams returns all parts you want to export
 
 // Recursively render nested JSON content in a uniquely styled way
 function renderContent(value: any): React.ReactNode {
@@ -50,8 +44,8 @@ function renderContent(value: any): React.ReactNode {
 export function generateStaticParams() {
   try {
     // Use DEFAULT_LOCALE at build time to avoid request/browser dependencies
-    const loc: any = getLocaleNamespaceObject(DEFAULT_LOCALE, 'scriptures_bhagavathgita') || {};
-    const gita = loc?.scriptures_bhagavathgita ?? {};
+    const loc: any = getLocaleNamespaceObject(DEFAULT_LOCALE, 'scriptures_bhagavadgita') || {};
+    const gita = loc?.scriptures_bhagavadgita ?? {};
     const parts: any[] = Array.isArray(gita.parts) ? gita.parts : [];
 
     // Return 1-based part indices as strings: "1", "2", ...
@@ -80,12 +74,12 @@ export default async function Page({ params, searchParams }: any) {
 
   let loc: any = {};
   try {
-    loc = getLocaleNamespaceObject(locale, 'scriptures_bhagavathgita') || {};
+    loc = getLocaleNamespaceObject(locale, 'scriptures_bhagavadgita') || {};
   } catch (e) {
     console.error('getLocaleNamespaceObject failed, using empty object:', e);
   }
 
-  const gita = loc?.scriptures_bhagavathgita || {};
+  const gita = loc?.scriptures_bhagavadgita || {};
   const parts = Array.isArray(gita.parts) ? gita.parts : [];
 
   const rawPart = resolvedParams?.part;
@@ -102,7 +96,7 @@ export default async function Page({ params, searchParams }: any) {
 
   return (
     <PageLayout
-      metaKey="scriptures_bhagavathgita_part"
+      metaKey="scriptures_bhagavadgita_part"
       title={title}
       breadcrumbs={[
         { labelKey: 'Home', href: '/' },

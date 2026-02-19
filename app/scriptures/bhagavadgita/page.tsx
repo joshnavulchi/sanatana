@@ -3,14 +3,14 @@ import PageLayout from '@components/common/PageLayout';
 import Link from 'next/link';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import { t, detectLocale, getLocaleNamespaceObject, getMeta, DEFAULT_LOCALE } from '@lib/i18n';
-export const generateMetadata = createGenerateMetadata('scriptures_bhagavathgita');
+export const generateMetadata = createGenerateMetadata('scriptures_bhagavadgita');
 
-const _localeObj = getLocaleNamespaceObject('scriptures_bhagavathgita');
-const ns = (_localeObj && ((_localeObj as any)['scriptures_bhagavathgita'] || _localeObj)) || {};
+const _localeObj = getLocaleNamespaceObject('scriptures_bhagavadgita');
+const ns = (_localeObj && ((_localeObj as any)['scriptures_bhagavadgita'] || _localeObj)) || {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');
-  const namespaceKey = parts[0] === 'scriptures_bhagavathgita' ? parts.shift() : 'scriptures_bhagavathgita';
+  const namespaceKey = parts[0] === 'scriptures_bhagavadgita' ? parts.shift() : 'scriptures_bhagavadgita';
   let cur: any = (ns as any)?.[namespaceKey!] || ns as any;
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
@@ -20,10 +20,10 @@ export default function Page({ searchParams }: any) {
   const locale = detectLocale(searchParams) || DEFAULT_LOCALE;
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
-    const k: any = getMeta('scriptures_bhagavathgita', {}, locale) || {};
-    const loc: any = getLocaleNamespaceObject(locale, 'scriptures_bhagavathgita') || {};
-    const gita = loc?.scriptures_bhagavathgita || {};
-    const title = typeof k.title === 'string' ? k.title : (gita.title || __getLoc('scriptures_bhagavathgita.title') || '');
+    const k: any = getMeta('scriptures_bhagavadgita', {}, locale) || {};
+    const loc: any = getLocaleNamespaceObject(locale, 'scriptures_bhagavadgita') || {};
+    const gita = loc?.scriptures_bhagavadgita || {};
+    const title = typeof k.title === 'string' ? k.title : (gita.title || __getLoc('scriptures_bhagavadgita.title') || '');
     let description: string = '';
     const descSource = k.description || gita.description;
     if (typeof descSource === 'string') description = descSource;
@@ -39,11 +39,11 @@ export default function Page({ searchParams }: any) {
 
   return (
     <PageLayout
-      metaKey="scriptures_bhagavathgita"
+      metaKey="scriptures_bhagavadgita"
       title={page.title}
       breadcrumbs={[
         { labelKey: 'Home', href: '/' },
-        { label:  'Scriptures', href: '/scriptures' },
+        { label: 'Scriptures', href: '/scriptures' },
         { label: page.title }]}
       className="layout-md"
     >
@@ -83,61 +83,9 @@ export default function Page({ searchParams }: any) {
                 <div className="col-span-full text-center text-gray-500 py-12">No content available.</div>
               )}
               {page.parts.map((part: any, i: number) => {
-                // Unique solid color palette for backgrounds
-                const bgColors = [
-                  'bg-orange-50',
-                  'bg-yellow-50',
-                  'bg-amber-50',
-                  'bg-red-50',
-                  'bg-lime-50',
-                  'bg-green-50',
-                  'bg-pink-50',
-                  'bg-blue-50',
-                  'bg-teal-50',
-                  'bg-fuchsia-50',
-                  'bg-cyan-50',
-                  'bg-purple-50',
-                  'bg-rose-50',
-                  'bg-indigo-50',
-                  'bg-emerald-50',
-                  'bg-sky-50',
-                  'bg-violet-50',
-                  'bg-stone-50',
-                  'bg-zinc-50',
-                  'bg-neutral-50',
-                  'bg-slate-50',
-                  'bg-gray-50',
-                  'bg-orange-100',
-                  'bg-yellow-100',
-                  'bg-amber-100',
-                  'bg-lime-100',
-                  'bg-green-100',
-                  'bg-pink-100',
-                  'bg-blue-100',
-                  'bg-teal-100',
-                  'bg-fuchsia-100',
-                  'bg-cyan-100',
-                  'bg-purple-100',
-                  'bg-rose-100',
-                  'bg-indigo-100',
-                  'bg-emerald-100',
-                  'bg-sky-100',
-                  'bg-violet-100',
-                  'bg-stone-100',
-                  'bg-zinc-100',
-                  'bg-neutral-100',
-                  'bg-slate-100',
-                  'bg-gray-100',
-                ];
-                let bgClass = '';
-                if (i < bgColors.length) {
-                  bgClass = bgColors[i];
-                } else {
-                  bgClass = 'bg-white';
-                }
                 return (
-                  <div key={i} className={`group relative ${bgClass} rounded-xl border-2 border-amber-300 hover:border-amber-500 shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden`}>
-                    <div className="absolute top-0 right-0 w-20 h-20 bg-amber-200 rounded-bl-full opacity-50"></div>
+                  <div key={i} className={`group relative rounded-xl border-2 border-red-300 hover:border-red-500 shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden`}>
+                    <div className="absolute top-0 right-0 w-20 h-20 bg-red-200 rounded-bl-full opacity-50"></div>
                     <div className="relative p-6">
                       <div className="flex items-start gap-3 mb-3">
                         <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center text-white font-bold shadow-md">
@@ -152,7 +100,7 @@ export default function Page({ searchParams }: any) {
                       )}
                       <div className="relative z-10 pt-4 flex items-center gap-2 text-amber-800 font-semibold text-sm hover:gap-3 transition-all duration-300">
                         <Link
-                          href={`/scriptures/bhagavathgita/part/${i + 1}`}
+                          href={`/scriptures/bhagavathgita/part-${i + 1}`}
                           className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-orange-600 hover:to-amber-600 text-white font-bold px-6 py-2 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
                         >
                           <span>Read Part</span>
