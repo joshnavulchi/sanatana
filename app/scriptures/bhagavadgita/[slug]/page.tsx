@@ -47,13 +47,51 @@ export function generateStaticParams() {
     const loc: any = getLocaleNamespaceObject(DEFAULT_LOCALE, 'scriptures_bhagavadgita') || {};
     const gita = loc?.scriptures_bhagavadgita ?? {};
     const parts: any[] = Array.isArray(gita.parts) ? gita.parts : [];
-
+   if (parts.length > 0) {
     // Return slugs as part-1, part-2, ...
     return parts.map((_, i) => ({ slug: `part-${i + 1}` }));
+}
   } catch (e) {
     console.error('Error generating static params for parts:', e);
     // For `next export`, returning [] is safer than throwing
-    return [];
+    return [
+      { 'slug': 'part-1' },
+{ 'slug': 'part-2' },
+{ 'slug': 'part-3' },
+{ 'slug': 'part-4' },
+{ 'slug': 'part-5' },
+{ 'slug': 'part-6' },
+{ 'slug': 'part-7' },
+{ 'slug': 'part-8' },
+{ 'slug': 'part-9' },
+{ 'slug': 'part-10' },
+{ 'slug': 'part-11' },
+{ 'slug': 'part-12' },
+{ 'slug': 'part-13' },
+{ 'slug': 'part-14' },
+{ 'slug': 'part-15' },
+{ 'slug': 'part-16' },
+{ 'slug': 'part-17' },
+{ 'slug': 'part-18' },
+{ 'slug': 'part-19' },
+{ 'slug': 'part-20' },
+{ 'slug': 'part-21' },
+{ 'slug': 'part-22' },
+{ 'slug': 'part-23' },
+{ 'slug': 'part-24' },
+{ 'slug': 'part-25' },
+{ 'slug': 'part-26' },
+{ 'slug': 'part-27' },
+{ 'slug': 'part-28' },
+{ 'slug': 'part-29' },
+{ 'slug': 'part-30' },
+{ 'slug': 'part-31' },
+{ 'slug': 'part-32' },
+{ 'slug': 'part-33' },
+{ 'slug': 'part-34' },
+{ 'slug': 'part-35' },
+{ 'slug': 'part-36' },
+{ 'slug': 'part-37' }];
   }
 }
 
