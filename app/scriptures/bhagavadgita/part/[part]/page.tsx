@@ -12,21 +12,20 @@ export async function generateMetadata({ params, searchParams }: { params: Promi
 
   const loc: any = getLocaleNamespaceObject(locale, 'scriptures_bhagavadgita') || {};
   const gita = loc?.scriptures_bhagavadgita || {};
-  const parts = Array.isArray(gita.Parts) ? gita.Parts : [];
+  const parts = Array.isArray(gita.parts) ? gita.parts : [];
 
   const part = parts.find((p: any) => {
-    if (!p || !p.PartName) return false;
-    const key = p.PartName.toLowerCase()
+    if (!p || !p.title) return false;
+    const key = p.title.toLowerCase()
       .replace(/\s+/g, '-')
       .replace(/[()]/g, '')
       .replace(/--+/g, '-')
       .replace(/^-|-$/g, '');
     return key === partKey;
   });
-
-  const title = part?.PartName ? `Bhagavad Gita — ${part.PartName}` : `Bhagavad Gita — Parrt`;
-  const description = part?.Summary || part?.MoralPsychologicalPhilosophicalLessons || 'Discover the profound wisdom of the Bhagavad Gita';
-  const keywords = `Bhagavad Gita, ${part?.PartName || partKey}, Indian Epic, Hindu Scripture`;
+  const title = part?.title ? `Bhagavad Gita — ${part.title}` : `Bhagavad Gita — Part ${partKey}`;
+  const description = part?.summary || part?.moralPsychologicalPhilosophicalLessons || 'Discover the profound wisdom of the Bhagavad Gita';
+  const keywords = `Bhagavad Gita, ${part?.title || partKey}, Indian Epic, Hindu Scripture`;
 
   return {
     title,
@@ -150,7 +149,6 @@ export function generateStaticParams() {
 }
 
 export default async function Page({ params, searchParams }: { params: Promise<{ part: string }>, searchParams?: any }) {
-  console.log(params);
   const resolvedParams = await params;
   const locale = detectLocale(searchParams) || DEFAULT_LOCALE;
   const partKey = resolvedParams.part;
@@ -533,7 +531,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                     {/* Previous Part Button */}
                     {prevPart && (
                       <Link
-                        href={`/scriptures/bhagavadgita/part/${prevPart}`}
+                        href={`/scriptures/bhagavadgita/part/${getPartSafeKey(prevPart, 0)}`}
                         className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg transition-all duration-300"
                       >
                         <span className="text-xl">←</span>
@@ -543,7 +541,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                     {/* Next Part Button */}
                     {nextPart && (
                       <Link
-                        href={`/scriptures/bhagavadgita/part/${nextPart + 2}`}
+                        href={`/scriptures/bhagavadgita/part/${getPartSafeKey(nextPart, 0)}`}
                         className="inline-flex items-center gap-2 bg-orange-400 hover:bg-orange-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg transition-all duration-300"
                       >
                         <span>Next Part</span>
