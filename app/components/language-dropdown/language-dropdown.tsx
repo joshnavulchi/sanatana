@@ -110,13 +110,14 @@ export default function LanguageDropdown() {
 
     const newUrl = `${pathname}?${params.toString()}`;
 
-    // Push the new URL and refresh server components so metadata and server-rendered
-    // content use the updated cookie/locale immediately.
-    await router.push(newUrl);
-    try {
-      router.refresh();
-    } catch (e) {
-      // ignore refresh errors
+    // Only navigate if the URL is different
+    if (newUrl !== `${pathname}?${searchParams.toString()}`) {
+      await router.push(newUrl);
+      try {
+        router.refresh();
+      } catch (e) {
+        // ignore refresh errors
+      }
     }
   };
 

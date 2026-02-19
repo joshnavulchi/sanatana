@@ -1,6 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import Link from 'next/link';
-import { t, detectLocale, getLocaleNamespaceObject, getMeta, DEFAULT_LOCALE } from '@lib/i18n';
+import { detectLocale, getLocaleNamespaceObject, DEFAULT_LOCALE } from '@lib/i18n';
 import { notFound } from 'next/navigation';
 import PageLayout from '@components/common/PageLayout';
 
@@ -12,7 +12,7 @@ export async function generateMetadata({ params, searchParams }: { params: Promi
   const loc: any = getLocaleNamespaceObject(locale, 'scriptures_mahabharata') || {};
   const mbh = loc?.scriptures_mahabharata || {};
   const parvas = Array.isArray(mbh.Parvas) ? mbh.Parvas : [];
-  
+
   const parva = parvas.find((p: any) => {
     if (!p || !p.ParvaName) return false;
     const key = p.ParvaName.toLowerCase()
@@ -22,11 +22,11 @@ export async function generateMetadata({ params, searchParams }: { params: Promi
       .replace(/^-|-$/g, '');
     return key === parvaKey;
   });
-  
+
   const title = parva?.ParvaName ? `Mahabharata — ${parva.ParvaName}` : `Mahabharata — Parva`;
   const description = parva?.Summary || parva?.MoralPsychologicalPhilosophicalLessons || 'Discover the profound wisdom of the Mahabharata';
   const keywords = `Mahabharata, ${parva?.ParvaName || parvaKey}, Indian Epic, Hindu Scripture`;
-  
+
   return {
     title,
     description,
@@ -49,47 +49,43 @@ const __getLoc = (p: string) => {
 
 export function generateStaticParams() {
   try {
-    // At build time, load the default locale namespace
     const loc: any = getLocaleNamespaceObject(DEFAULT_LOCALE, 'scriptures_mahabharata') || {};
     const mbh = loc?.scriptures_mahabharata || {};
-    const parvas = Array.isArray(mbh.Parvas) ? mbh.Parvas : [];
-    
-    if (parvas.length > 0) {
-      return parvas.map((p: any) => {
-        const key = p.ParvaName
-          ? p.ParvaName.toLowerCase()
-              .replace(/\s+/g, '-')
-              .replace(/[()]/g, '')
-              .replace(/--+/g, '-')
-              .replace(/^-|-$/g, '')
-          : '';
-        return { parva: key };
-      }).filter((item: any) => item.parva);
+    const parvasArr = Array.isArray(mbh.parvas) ? mbh.parvas : [];
+    const parvaKeys = parvasArr.map((p: any) => {
+      if (!p || !p.parvaname) return null;
+      return p.parvaname.toLowerCase()
+        .replace(/\s+/g, '_')
+        .replace(/[()]/g, '')
+        .replace(/__+/g, '_')
+        .replace(/^_|_$/g, '');
+    }).filter(Boolean);
+    if (parvaKeys.length > 0) {
+      return parvaKeys.map((key: string) => ({ parva: key }));
     }
   } catch (e) {
     console.error('Error generating static params for parvas:', e);
   }
-  
-  // Fallback: generate the 18 parvas of Mahabharata
+  // Fallback: generate static params from JSON structure
   return [
-    { parva: 'adi-parva-the-book-of-beginnings' },
-    { parva: 'sabha-parva-the-book-of-the-royal-assembly' },
-    { parva: 'vana-parva-the-book-of-the-forest' },
-    { parva: 'virata-parva-the-book-of-virata' },
-    { parva: 'udyoga-parva-the-book-of-effort-and-preparation' },
-    { parva: 'bhishma-parva-the-book-of-bhishma' },
-    { parva: 'drona-parva-the-book-of-drona' },
-    { parva: 'karna-parva-the-book-of-karna' },
-    { parva: 'shalya-parva-the-book-of-shalya' },
-    { parva: 'sauptika-parva-the-book-of-the-sleeping-warriors' },
-    { parva: 'stri-parva-the-book-of-the-women' },
-    { parva: 'shanti-parva-the-book-of-peace' },
-    { parva: 'anushasana-parva-the-book-of-instructions' },
-    { parva: 'ashvamedhika-parva-the-book-of-the-horse-sacrifice' },
-    { parva: 'ashramavasika-parva-the-book-of-the-hermitage' },
-    { parva: 'mausala-parva-the-book-of-the-clubs' },
-    { parva: 'mahaprasthanika-parva-the-book-of-the-great-journey' },
-    { parva: 'svargarohana-parva-the-book-of-the-ascent-to-heaven' }
+    { parva: 'adi_parva_the_book_of_beginnings' },
+    { parva: 'sabha_parva_the_book_of_the_royal_assembly' },
+    { parva: 'vana_parva_the_book_of_the_forest' },
+    { parva: 'virata_parva_the_book_of_virata' },
+    { parva: 'udyoga_parva_the_book_of_effort_and_preparation' },
+    { parva: 'bhishma_parva_the_book_of_bhishma' },
+    { parva: 'drona_parva_the_book_of_drona' },
+    { parva: 'karna_parva_the_book_of_karna' },
+    { parva: 'shalya_parva_the_book_of_shalya' },
+    { parva: 'sauptika_parva_the_book_of_the_sleeping_warriors' },
+    { parva: 'stri_parva_the_book_of_the_women' },
+    { parva: 'shanti_parva_the_book_of_peace' },
+    { parva: 'anushasana_parva_the_book_of_instructions' },
+    { parva: 'ashvamedhika_parva_the_book_of_the_horse_sacrifice' },
+    { parva: 'ashramavasika_parva_the_book_of_the_hermitage' },
+    { parva: 'mausala_parva_the_book_of_the_clubs' },
+    { parva: 'mahaprasthanika_parva_the_book_of_the_great_journey' },
+    { parva: 'svargarohana_parva_the_book_of_the_ascent_to_heaven' }
   ];
 }
 
@@ -98,58 +94,41 @@ export default async function Page({ params, searchParams }: { params: Promise<{
   const locale = detectLocale(searchParams) || DEFAULT_LOCALE;
   const parvaKey = resolvedParams.parva;
 
-  const page: any = (() => {
-    const loc: any = getLocaleNamespaceObject(locale, 'scriptures_mahabharata') || {};
-    const mbh = loc?.scriptures_mahabharata || {};
-    
-    // Get parvas array - they're directly in the scriptures_mahabharata object
-    const parvas = Array.isArray(mbh.Parvas) ? mbh.Parvas : [];
-    
-    // Find the matching parva by key
-    const parva = parvas.find((p: any) => {
-      if (!p || !p.ParvaName) return false;
-      const key = p.ParvaName.toLowerCase()
-        .replace(/\s+/g, '-')
-        .replace(/[()]/g, '')
-        .replace(/--+/g, '-')
-        .replace(/^-|-$/g, '');
-      return key === parvaKey;
-    });
-
-    if (!parva) {
-      return null;
-    }
-
-    return {
-      parva,
-      allParvas: parvas.sort((a: any, b: any) => (a.order || 0) - (b.order || 0))
-    };
-  })();
-
-  if (!page || !page.parva) {
-    notFound();
-  }
-
-  const { parva, allParvas } = page;
-  const currentIndex = allParvas.findIndex((p: any) => {
-    const key = p.ParvaName.toLowerCase()
-      .replace(/\s+/g, '-')
+  // Ramayana pattern: object mapping, section order, navigation
+  const loc: any = getLocaleNamespaceObject(locale, 'scriptures_mahabharata') || {};
+  const mbh = loc?.scriptures_mahabharata || {};
+  const parvasArr = Array.isArray(mbh.parvas) ? mbh.parvas : [];
+  // Sort by order
+  const allParvas = parvasArr.slice().sort((a: any, b: any) => (a.order || 0) - (b.order || 0));
+  // Find parva by normalized key (underscore)
+  const parva = allParvas.find((p: any) => {
+    if (!p || !p.parvaname) return false;
+    const key = p.parvaname.toLowerCase()
+      .replace(/\s+/g, '_')
       .replace(/[()]/g, '')
-      .replace(/--+/g, '-')
-      .replace(/^-|-$/g, '');
+      .replace(/__+/g, '_')
+      .replace(/^_|_$/g, '');
     return key === parvaKey;
   });
-
+  if (!parva) notFound();
+  // Navigation
+  const currentIndex = allParvas.findIndex((p: any) => {
+    const key = p.parvaname.toLowerCase()
+      .replace(/\s+/g, '_')
+      .replace(/[()]/g, '')
+      .replace(/__+/g, '_')
+      .replace(/^_|_$/g, '');
+    return key === parvaKey;
+  });
   const prevParva = currentIndex > 0 ? allParvas[currentIndex - 1] : null;
   const nextParva = currentIndex < allParvas.length - 1 ? allParvas[currentIndex + 1] : null;
-
   const getParvaSafeKey = (p: any) => {
-    if (!p || !p.ParvaName) return '';
-    return p.ParvaName.toLowerCase()
-      .replace(/\s+/g, '-')
+    if (!p || !p.parvaname) return '';
+    return p.parvaname.toLowerCase()
+      .replace(/\s+/g, '_')
       .replace(/[()]/g, '')
-      .replace(/--+/g, '-')
-      .replace(/^-|-$/g, '');
+      .replace(/__+/g, '_')
+      .replace(/^_|_$/g, '');
   };
 
   // Color mapping for different parvas
@@ -354,7 +333,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
         footerBorder: 'border-amber-200'
       }
     ];
-    
+
     return colorSchemes[(order - 1) % colorSchemes.length] || colorSchemes[0];
   };
 
@@ -364,160 +343,160 @@ export default async function Page({ params, searchParams }: { params: Promise<{
     <>
       <PageLayout
         metaKey="mahabharata_parva"
-        title={parva.ParvaName}
+        title={parva.parvaname}
         breadcrumbs={[
           { labelKey: 'Home', href: '/' },
           { label: 'Mahabharata', href: '/scriptures/mahabharata' },
-          { label: parva.ParvaName }
+          { label: parva.parvaname }
         ]}
         className="layout-md"
       >
-        <div className={`min-h-screen bg-gradient-to-br ${classes.bgGradient} py-8 px-4`}>
-          <div className="max-w-5xl mx-auto">
-          {/* Navigation */}
-          <nav className="mb-8">
-            <Link 
-              href="/scriptures/mahabharata" 
-              className="inline-flex items-center gap-2 bg-white hover:bg-gray-50 text-gray-700 font-semibold px-5 py-3 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border-2 border-gray-200"
-            >
-              <span className="text-xl">←</span>
-              <span>Back to Mahabharata</span>
-            </Link>
-          </nav>
-          
-          {/* Main Content */}
-          <article className="bg-white rounded-3xl shadow-2xl overflow-hidden border-4 border-white">
-            {/* Decorative Header */}
-            <div className={`relative bg-gradient-to-r ${classes.headerBg} px-8 py-12`}>
-              <div className="absolute top-0 left-0 w-full h-full opacity-10">
-                <div className="absolute top-4 left-4 w-20 h-20 border-4 border-white rounded-full"></div>
-                <div className="absolute bottom-4 right-4 w-32 h-32 border-4 border-white rounded-full"></div>
-                <div className="absolute top-1/2 right-1/4 w-16 h-16 border-4 border-white rounded-full"></div>
-              </div>
-              <div className="relative z-10">
-                <div className="flex items-center justify-center mb-4">
-                  <div className="bg-white bg-opacity-20 backdrop-blur-sm px-6 py-2 rounded-full border-2 border-white border-opacity-50">
-                    <p className="text-white text-sm font-bold uppercase tracking-widest">The Great Epic Mahabharata</p>
+        <div className={`min-h-screen py-12 px-3`}>
+          <div>
+            {/* Navigation */}
+            <nav className="mb-8">
+              <Link
+                href="/scriptures/mahabharata"
+                className="inline-flex items-center gap-2 bg-white hover:bg-gray-50 text-gray-700 font-semibold px-5 py-3 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border-2 border-gray-200"
+              >
+                <span className="text-xl">←</span>
+                <span>Back to Mahabharata</span>
+              </Link>
+            </nav>
+
+            {/* Main Content */}
+            <article className="bg-white rounded-3xl shadow-2xl overflow-hidden border-4 border-white">
+              {/* Decorative Header */}
+              <div className={`relative bg-gradient-to-r ${classes.headerBg} px-8 py-12`}>
+                <div className="absolute top-0 left-0 w-full h-full opacity-10">
+                  <div className="absolute top-4 left-4 w-20 h-20 border-4 border-white rounded-full"></div>
+                  <div className="absolute bottom-4 right-4 w-32 h-32 border-4 border-white rounded-full"></div>
+                  <div className="absolute top-1/2 right-1/4 w-16 h-16 border-4 border-white rounded-full"></div>
+                </div>
+                <div className="relative z-10">
+                  <div className="flex items-center justify-center mb-4">
+                    <div className="bg-white bg-opacity-20 backdrop-blur-sm px-6 py-2 rounded-full border-2 border-white border-opacity-50">
+                      <p className="text-white text-sm font-bold uppercase tracking-widest">The Great Epic Mahabharata</p>
+                    </div>
+                  </div>
+                  <h3 className="text-4xl md:text-5xl font-black text-white text-center mb-4 leading-tight drop-shadow-lg">
+                    {parva.parvaname}
+                  </h3>
+                  <div className="flex justify-center">
+                    <div className="w-32 h-1 bg-white rounded-full"></div>
                   </div>
                 </div>
-                <h3 className="text-4xl md:text-5xl font-black text-white text-center mb-4 leading-tight drop-shadow-lg">
-                  {parva.ParvaName}
-                </h3>
-                <div className="flex justify-center">
-                  <div className="w-32 h-1 bg-white rounded-full"></div>
-                </div>
               </div>
-            </div>
-            
-            <div className="p-8 md:p-12">
-              {parva ? (
-                <>
-                  {/* Summary */}
-                  {parva.Summary && (
-                    <section className="mb-10">
-                      <div className="flex items-center gap-3 mb-6">
-                        <div className={`w-12 h-12 bg-gradient-to-br ${classes.iconBg} rounded-xl flex items-center justify-center shadow-lg`}>
-                          <span className="text-white text-2xl">📖</span>
+
+              <div className="p-8 md:p-12">
+                {parva ? (
+                  <>
+                    {/* Summary */}
+                    {parva.summary && (
+                      <section className="mb-10">
+                        <div className="flex items-center gap-3 mb-6">
+                          <div className={`w-12 h-12 bg-gradient-to-br ${classes.iconBg} rounded-xl flex items-center justify-center shadow-lg`}>
+                            <span className="text-white text-2xl">📖</span>
+                          </div>
+                          <h2 className={`text-3xl font-bold ${classes.textColor}`}>Overview</h2>
                         </div>
-                        <h2 className={`text-3xl font-bold ${classes.textColor}`}>Overview</h2>
-                      </div>
-                      
-                      <div className="relative bg-gray-50 rounded-xl p-6 border-l-4 border-blue-500">
-                        <p className="text-base text-gray-800 leading-relaxed italic font-medium">
-                          {parva.Summary}
-                        </p>
-                      </div>
-                    </section>
-                  )}
-                  
-                  {/* Story Narrative */}
-                  {parva.DetailedNarration && (
-                    <section className="mb-10">
-                      <div className="flex items-center gap-3 mb-6">
-                        <div className={`w-12 h-12 bg-gradient-to-br ${classes.iconBg} rounded-xl flex items-center justify-center shadow-lg`}>
-                          <span className="text-white text-2xl">📜</span>
+
+                        <div className="relative bg-gray-50 rounded-xl p-6 border-l-4 border-blue-500">
+                          <p className="text-base text-gray-800 leading-relaxed italic font-medium">
+                            {parva.summary}
+                          </p>
                         </div>
-                        <h2 className={`text-3xl font-bold ${classes.textColor}`}>The Story</h2>
-                      </div>
-                      
-                      <div className="relative">
-                        {/* Decorative Quote Marks */}
-                        <div className="absolute -left-4 -top-4 text-6xl text-gray-200 font-serif leading-none">&ldquo;</div>
-                        <div className="prose prose-lg max-w-none">
-                          {parva.DetailedNarration.split('\n\n').map((paragraph: string, idx: number) => (
-                            <p key={idx} className="mb-6 text-gray-800 leading-relaxed text-justify first-letter:text-5xl first-letter:font-bold first-letter:mr-2 first-letter:float-left">
-                              {paragraph}
-                            </p>
-                          ))}
+                      </section>
+                    )}
+
+                    {/* Story Narrative */}
+                    {parva.detailednarration && (
+                      <section className="mb-10">
+                        <div className="flex items-center gap-3 mb-6">
+                          <div className={`w-12 h-12 bg-gradient-to-br ${classes.iconBg} rounded-xl flex items-center justify-center shadow-lg`}>
+                            <span className="text-white text-2xl">📜</span>
+                          </div>
+                          <h2 className={`text-3xl font-bold ${classes.textColor}`}>The Story</h2>
                         </div>
-                      </div>
-                    </section>
-                  )}
-                  
-                  {/* Key Lessons */}
-                  {parva.MoralPsychologicalPhilosophicalLessons && (
-                    <section className={`bg-gradient-to-br ${classes.sectionBg} rounded-2xl border-2 ${classes.sectionBorder} shadow-xl p-8`}>
-                      <div className="flex items-center gap-3 mb-6">
-                        <div className="w-12 h-12 bg-gradient-to-br from-amber-400 to-orange-500 rounded-xl flex items-center justify-center shadow-lg">
-                          <span className="text-white text-2xl">💡</span>
+
+                        <div className="relative">
+                          {/* Decorative Quote Marks */}
+                          <div className="absolute -left-4 -top-4 text-6xl text-gray-200 font-serif leading-none">&ldquo;</div>
+                          <div className="prose prose-lg max-w-none">
+                            {parva.detailednarration.split('\n\n').map((paragraph: string, idx: number) => (
+                              <p key={idx} className="mb-6 text-gray-800 leading-relaxed text-justify first-letter:text-5xl first-letter:font-bold first-letter:mr-2 first-letter:float-left">
+                                {paragraph}
+                              </p>
+                            ))}
+                          </div>
                         </div>
-                        <h3 className="text-2xl font-bold text-amber-900">Key Lessons & Wisdom</h3>
-                      </div>
-                      <div className="relative bg-white bg-opacity-60 rounded-xl p-6 border-l-4 border-amber-500">
-                        <p className="text-base text-gray-800 leading-relaxed italic">
-                          {parva.MoralPsychologicalPhilosophicalLessons}
-                        </p>
-                      </div>
-                    </section>
-                  )}
-                </>
-              ) : (
-                <div className="text-center py-16">
-                  <div className="inline-flex items-center justify-center w-24 h-24 bg-gray-100 rounded-full mb-6">
-                    <span className="text-4xl text-gray-400">💭</span>
+                      </section>
+                    )}
+
+                    {/* Key Lessons */}
+                    {parva.moralpsychologicalphilosophicallessons && (
+                      <section className={`bg-gradient-to-br ${classes.sectionBg} rounded-2xl border-2 ${classes.sectionBorder} shadow-xl p-8`}>
+                        <div className="flex items-center gap-3 mb-6">
+                          <div className="w-12 h-12 bg-gradient-to-br from-amber-400 to-orange-500 rounded-xl flex items-center justify-center shadow-lg">
+                            <span className="text-white text-2xl">💡</span>
+                          </div>
+                          <h3 className="text-2xl font-bold text-amber-900">Key Lessons & Wisdom</h3>
+                        </div>
+                        <div className="relative bg-white bg-opacity-60 rounded-xl p-6 border-l-4 border-amber-500">
+                          <p className="text-base text-gray-800 leading-relaxed italic">
+                            {parva.moralpsychologicalphilosophicallessons}
+                          </p>
+                        </div>
+                      </section>
+                    )}
+                  </>
+                ) : (
+                  <div className="text-center py-16">
+                    <div className="inline-flex items-center justify-center w-24 h-24 bg-gray-100 rounded-full mb-6">
+                      <span className="text-4xl text-gray-400">💭</span>
+                    </div>
+                    <p className="text-xl text-gray-600 font-medium">Content not available for this parva.</p>
+                    <p className="text-sm text-gray-500 mt-2">Please check back later or explore other parvas.</p>
                   </div>
-                  <p className="text-xl text-gray-600 font-medium">Content not available for this parva.</p>
-                  <p className="text-sm text-gray-500 mt-2">Please check back later or explore other parvas.</p>
+                )}
+              </div>
+
+              {/* Footer Navigation */}
+              {parva && (
+                <div className={`bg-gradient-to-r ${classes.footerBg} px-8 py-6 border-t-2 ${classes.footerBorder}`}>
+                  <div className="flex justify-center gap-4 flex-wrap">
+                    {prevParva && (
+                      <Link
+                        href={`/scriptures/mahabharata/parva/${getParvaSafeKey(prevParva)}`}
+                        className={`inline-flex items-center gap-2 bg-gradient-to-r ${classes.buttonBg} text-white font-bold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300`}
+                      >
+                        <span className="text-xl">←</span>
+                        <span className="hidden sm:inline">Previous</span>
+                      </Link>
+                    )}
+
+                    <Link
+                      href="/scriptures/mahabharata"
+                      className="inline-flex items-center gap-2 bg-white hover:bg-gray-50 text-gray-700 font-bold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border-2 border-gray-200"
+                    >
+                      <span>Explore All Parvas</span>
+                    </Link>
+
+                    {nextParva && (
+                      <Link
+                        href={`/scriptures/mahabharata/parva/${getParvaSafeKey(nextParva)}`}
+                        className={`inline-flex items-center gap-2 bg-gradient-to-r ${classes.buttonBg} text-white font-bold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300`}
+                      >
+                        <span className="hidden sm:inline">Next</span>
+                        <span className="text-xl">→</span>
+                      </Link>
+                    )}
+                  </div>
                 </div>
               )}
-            </div>
-            
-            {/* Footer Navigation */}
-            {parva && (
-              <div className={`bg-gradient-to-r ${classes.footerBg} px-8 py-6 border-t-2 ${classes.footerBorder}`}>
-                <div className="flex justify-center gap-4 flex-wrap">
-                  {prevParva && (
-                    <Link 
-                      href={`/scriptures/mahabharata/parva/${getParvaSafeKey(prevParva)}`}
-                      className={`inline-flex items-center gap-2 bg-gradient-to-r ${classes.buttonBg} text-white font-bold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300`}
-                    >
-                      <span className="text-xl">←</span>
-                      <span className="hidden sm:inline">Previous</span>
-                    </Link>
-                  )}
-                  
-                  <Link 
-                    href="/scriptures/mahabharata" 
-                    className="inline-flex items-center gap-2 bg-white hover:bg-gray-50 text-gray-700 font-bold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border-2 border-gray-200"
-                  >
-                    <span>Explore All Parvas</span>
-                  </Link>
-                  
-                  {nextParva && (
-                    <Link 
-                      href={`/scriptures/mahabharata/parva/${getParvaSafeKey(nextParva)}`}
-                      className={`inline-flex items-center gap-2 bg-gradient-to-r ${classes.buttonBg} text-white font-bold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300`}
-                    >
-                      <span className="hidden sm:inline">Next</span>
-                      <span className="text-xl">→</span>
-                    </Link>
-                  )}
-                </div>
-              </div>
-            )}
-          </article>
+            </article>
+          </div>
         </div>
-      </div>
       </PageLayout>
     </>
   );
