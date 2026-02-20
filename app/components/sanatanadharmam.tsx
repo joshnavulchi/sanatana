@@ -91,9 +91,9 @@ export default function UnderstandingOfSanatana() {
             </div>
 
             {/* Items */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-8">
               {section.items?.map((topic, topicIndex) => (
-                <div key={`${section.id}-${topic.id || topicIndex}`} className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition">
+                <div key={`${section.id}-${topic.id || topicIndex}`} className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition border-2 border-amber-500">
                   <div className="text-center">
                     {topic.src && (
                       <LazyImage
@@ -105,7 +105,7 @@ export default function UnderstandingOfSanatana() {
                       />
                     )}
                     <h6 className="text-xl font-bold text-amber-800">{topic.title}</h6>
-                    <p className="text-gray-600">
+                    <p className="text-gray-600 mb-6">
                       {topic.description}
                     </p>
                     <Link
