@@ -297,6 +297,22 @@ async function downloadLocales({ force = false } = {}) {
   const meta = loadMeta();
   const locales = await listLocales();
 
+  // Delete all JSON files in each locale directory before downloading
+  for (const locale of locales) {
+    const localeDir = path.join(LOCAL_LOCALES_DIR, locale);
+    if (fs.existsSync(localeDir)) {
+      const filesToDelete = fs.readdirSync(localeDir).filter(f => f.endsWith('.json'));
+      for (const file of filesToDelete) {
+        try {
+          fs.unlinkSync(path.join(localeDir, file));
+          console.log(`Deleted old file: ${locale}/${file}`);
+        } catch (e) {
+          console.error(`Failed to delete ${locale}/${file}: ${e.message}`);
+        }
+      }
+    }
+  }
+
   for (const locale of locales) {
     console.log(`→ ${locale}`);
     const localeDir = path.join(LOCAL_LOCALES_DIR, locale);
