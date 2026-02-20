@@ -12,7 +12,7 @@ function normalizeBreadcrumbs(items: CrumbInput[], locale?: string): Crumb[] {
   return items.map((it, idx) => {
     // Special case: always display 'Home' for the first breadcrumb
     if (idx === 0) {
-      return { label: 'Home', href: it.href };
+      return { label: '', href: it.href };
     }
     // Resolve label from i18n if labelKey provided, otherwise use provided label.
     let raw: unknown = it.labelKey ? (t(it.labelKey, locale) || it.labelKey) : (it.label ?? '');
@@ -57,7 +57,7 @@ export default function Breadcrumbs({ items, locale }: { items?: CrumbInput[]; l
   return (
     <nav aria-label="Breadcrumb" className="inline-flex relative">
       <div className="flex items-center bg-gradient-to-r from-amber-50 via-orange-50 to-amber-50 rounded-full px-6 py-3 shadow-md border border-amber-200/50 text-amber-800">
-        <svg className="w-4 h-4 mr-3 text-amber-800 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+        <svg className="w-4 h-4 mr-1 text-amber-800 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
           <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
         </svg>
         <ol className="flex items-center pl-0! mb-0!">

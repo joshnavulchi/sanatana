@@ -65,7 +65,7 @@ export default function GitSupport({ locale }: { locale?: string }) {
             </h6>
 
             {/* Subtitle */}
-            <p className="text-md md:text-lg leading-relaxed drop-shadow-lg my-6">
+            <p className="text-lg leading-relaxed drop-shadow-lg my-6">
               {loc?.cta?.subtitle || ''}
             </p>
 
@@ -123,7 +123,7 @@ export default function GitSupport({ locale }: { locale?: string }) {
           <div className="absolute top-2 inset-2 md:top-0 md:-inset-2 w-4 h-4 bg-amber-400 rounded-full animate-ping" />
           <div className="absolute bottom-0 right-0 md:-bottom-2 md:-right-2 w-6 h-6 bg-orange-400 rounded-full animate-pulse" />
           <div className="absolute -bottom-1 -right-1 md:-bottom-3 md:-right-3 w-8 h-8 bg-orange-400 rounded-full animate-ping" />
-          <div className="absolute -top-3 right-1/2 translate-x-1/2 md:-top-6 md:right-10 w-6 h-6 bg-amber-500 rounded-full animate-bounce" />
+          <div className="absolute -top-3 right-1/2 translate-x-1/2 md:-top-6 md:right-24 w-6 h-6 bg-amber-500 rounded-full animate-bounce" />
         </div>
       </div>
     </section>

@@ -63,7 +63,7 @@ const Segment = ({ title, subtitle, years, isFirst, isLast, index }: any) => {
 
           <div className="text-center sm:text-left">
             <h6 className="text-2xl font-light tracking-wide drop-shadow-lg group-hover:scale-105 transition-transform duration-300 m-0">{title}</h6>
-            <p className="text-lg md:text-base font-light text-white group-hover:text-white transition-colors duration-300 my-6">{subtitle}</p>
+            <p className="text-lg font-light text-white group-hover:text-white transition-colors duration-300 mt-3">{subtitle}</p>
           </div>
         </div>
 
@@ -79,7 +79,7 @@ const Segment = ({ title, subtitle, years, isFirst, isLast, index }: any) => {
         border border-white/20
         rounded-full
         text-white/90
-        text-xs sm:text-sm
+        text-sm
         font-medium tracking-wide
         shadow-lg
         hover:bg-white/20 hover:scale-105
@@ -118,7 +118,7 @@ export default function OurFourCoreYugas() {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-1 bg-gradient-to-r from-transparent via-white/10 to-transparent" />
       </div>
 
-      <div className="w-full md:mx-auto md:max-w-7xl relative z-10 px-6">
+      <div className="w-full md:mx-auto md:max-w-7xl relative z-10 px-3">
         {/* Header Section */}
         <div
           className={`mb-16 md:mb-24 transition-all duration-1000 ease-out
@@ -136,11 +136,11 @@ export default function OurFourCoreYugas() {
           </h6>
 
           <div className="mx-auto max-w-5xl">
-            <p className="text-md md:text-lg leading-relaxed text-white">
+            <p className="text-lg leading-relaxed text-white">
               {subtitle}{' '}
               <Link
                 href="/cosmictime"
-                className="inline-flex items-center gap-1 text-amber-300 hover:text-amber-200 underline underline-offset-4 decoration-2 decoration-amber-400/50 hover:decoration-amber-400 font-semibold transition-all duration-300 group"
+                className="inline-flex items-center gap-1 text-amber-300 hover:text-amber-200 underline underline-offset-8 decoration-1 decoration-amber-400/50 hover:decoration-amber-400 transition-all duration-300 group"
                 aria-label="Learn more about Cosmic Time"
               >
                 Learn more about Cosmic Time
@@ -189,7 +189,7 @@ export default function OurFourCoreYugas() {
           `}
         >
           <div className="h-px w-20 bg-gradient-to-r from-transparent to-orange-400" />
-          <span className="text-orange-300 text-sm font-light tracking-widest">✦ CYCLE OF TIME ✦</span>
+          <span className="text-orange-300 text-lg font-light">✦ CYCLE OF TIME ✦</span>
           <div className="h-px w-20 bg-gradient-to-l from-transparent to-orange-400" />
         </div>
       </div>

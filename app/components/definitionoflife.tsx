@@ -33,9 +33,9 @@ export default function DefinitionOfLife() {
         </div>
 
         {/* Main content grid */}
-        <div className="flex flex-col md:flex-row gap-8 md:gap-2 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 my-12">
           {/* Card 1: Purpose */}
-          <div className="w-full md:w-1/4 relative bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-6 border border-amber-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex-1">
+          <div className="relative bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-6 border border-amber-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex-1">
             <div className="absolute top-4 right-4 text-4xl opacity-20 group-hover:opacity-30 transition-opacity">
               🎯
             </div>
@@ -50,7 +50,7 @@ export default function DefinitionOfLife() {
           </div>
 
           {/* Card 2: Atman */}
-          <div className="w-full md:w-1/4 relative bg-gradient-to-br from-orange-50 to-yellow-50 rounded-xl p-6 border border-orange-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div className="relative bg-gradient-to-br from-orange-50 to-yellow-50 rounded-xl p-6 border border-orange-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
             <div className="absolute top-4 right-4 text-4xl opacity-20 group-hover:opacity-30 transition-opacity">
               ✨
             </div>
@@ -63,7 +63,7 @@ export default function DefinitionOfLife() {
           </div>
 
           {/* Card 3: Karma */}
-          <div className="w-full md:w-1/4 relative bg-gradient-to-br from-yellow-50 to-amber-50 rounded-xl p-6 border border-yellow-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div className="relative bg-gradient-to-br from-yellow-50 to-amber-50 rounded-xl p-6 border border-yellow-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
             <div className="absolute top-4 right-4 text-4xl opacity-20 group-hover:opacity-30 transition-opacity">
               ⚖️
             </div>
@@ -76,7 +76,7 @@ export default function DefinitionOfLife() {
           </div>
 
           {/* Card 4: Maya & Reality */}
-          <div className="w-full md:w-1/4 relative bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-6 border border-amber-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div className="relative bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-6 border border-amber-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
             <div className="absolute top-4 right-4 text-4xl opacity-20 group-hover:opacity-30 transition-opacity">
               🌌
             </div>
@@ -115,23 +115,23 @@ export default function DefinitionOfLife() {
           <h3 className="text-2xl font-bold text-center text-amber-800 mb-6">
             आश्रम - The Four Stages of Life
           </h3>
-          <div className="flex flex-col md:flex-row gap-4">
-            <div className="w-full md:min-w-1/4 text-center p-4 rounded-lg bg-gradient-to-b from-amber-50 to-white border border-amber-200/40 flex-1">
+          <div className="flex flex-col md:flex-row gap-8">
+            <div className="w-full md:min-w-1/4 text-center shadow-md p-4 rounded-lg bg-gradient-to-b from-amber-50 to-white border border-amber-200/40 flex-1">
               <div className="text-3xl mb-2">📚</div>
               <h4 className="font-bold text-amber-800 mb-1">Brahmacharya</h4>
               <p className="text-sm text-gray-600">Student Life - Learning & Discipline</p>
             </div>
-            <div className="w-full md:min-w-1/4 text-center p-4 rounded-lg bg-gradient-to-b from-orange-50 to-white border border-orange-200/40">
+            <div className="w-full md:min-w-1/4 text-center shadow-md p-4 rounded-lg bg-gradient-to-b from-orange-50 to-white border border-orange-200/40">
               <div className="text-3xl mb-2">🏡</div>
               <h4 className="font-bold text-orange-800 mb-1">Grihastha</h4>
               <p className="text-sm text-gray-600">Householder - Family & Duty</p>
             </div>
-            <div className="w-full md:min-w-1/4 text-center p-4 rounded-lg bg-gradient-to-b from-yellow-50 to-white border border-yellow-200/40">
+            <div className="w-full md:min-w-1/4 text-center shadow-md p-4 rounded-lg bg-gradient-to-b from-yellow-50 to-white border border-yellow-200/40">
               <div className="text-3xl mb-2">🌳</div>
               <h4 className="font-bold text-yellow-800 mb-1">Vanaprastha</h4>
               <p className="text-sm text-gray-600">Retirement - Detachment & Reflection</p>
             </div>
-            <div className="w-full md:min-w-1/4 text-center p-4 rounded-lg bg-gradient-to-b from-amber-50 to-white border border-amber-200/40">
+            <div className="w-full md:min-w-1/4 text-center shadow-md p-4 rounded-lg bg-gradient-to-b from-amber-50 to-white border border-amber-200/40">
               <div className="text-3xl mb-2">🧘</div>
               <h4 className="font-bold text-amber-800 mb-1">Sannyasa</h4>
               <p className="text-sm text-gray-600">Renunciation - Complete Liberation</p>

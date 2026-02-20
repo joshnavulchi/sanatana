@@ -7,6 +7,7 @@ type Sloka = {
   sanskrit?: string;
   transliteration?: string;
   meaning?: string;
+  context?: string;
   [k: string]: any;
 };
 
@@ -62,8 +63,10 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
         {slokas.slice(0, visible).map((s, idx) => {
           const key = s.sloka || s.sanskrit || idx;
           const isExpanded = !!expanded[idx];
-          const meaning = s.simpleMeaning || "";
-          const preview = meaning.length > 220 ? meaning.slice(0, 220) + "…" : meaning;
+          const meaning = s.simplemeaning || "";
+          const context = s.storycontext || "";
+          const previewMeaning = meaning.length > 220 ? meaning.slice(0, 220) + "…" : meaning;
+          const previewContext = context.length > 220 ? context.slice(0, 220) + "…" : context;
 
           return (
             <article
@@ -115,9 +118,31 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
               </div>
 
               <div className="mt-4">
+                {context ? (
+                  <div className="text-sm text-slate-900 leading-relaxed">
+                    <p className={`${isExpanded ? "" : "line-clamp-[8]"}`}>{isExpanded ? context : previewContext}</p>
+                    {context.length > 220 ? (
+                      <button
+                        onClick={() => toggleExpand(idx)}
+                        className="mt-3 inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-sm bg-amber-50 text-amber-700 border border-amber-100 shadow-sm hover:brightness-105 transition"
+                        aria-expanded={isExpanded}
+                      >
+                        {isExpanded ? "Show less" : "Read more"}
+                        <svg className={`w-4 h-4 transition-transform ${isExpanded ? "rotate-180" : ""}`} viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                      </button>
+                    ) : null}
+                  </div>
+                ) : (
+                  <p className="text-sm text-slate-500">No context available.</p>
+                )}
+              </div>
+
+              <div className="mt-4">
                 {meaning ? (
                   <div className="text-sm text-slate-700 leading-relaxed">
-                    <p className={`${isExpanded ? "" : "line-clamp-[8]"}`}>{isExpanded ? meaning : preview}</p>
+                    <p className={`${isExpanded ? "" : "line-clamp-[8]"}`}>{isExpanded ? meaning : previewMeaning}</p>
                     {meaning.length > 220 ? (
                       <button
                         onClick={() => toggleExpand(idx)}
