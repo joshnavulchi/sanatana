@@ -36,9 +36,6 @@ export default function Page({ searchParams }: any) {
         <header className="bg-gradient-to-r from-amber-50 via-rose-50 to-indigo-50 rounded-lg p-6 shadow-md mb-6">
           <div className="flex flex-col md:flex-row md:items-center gap-4">
             <div className="flex-1">
-              {/* <h3 className="text-3xl md:text-4xl font-extrabold leading-tight text-slate-900">
-                {page.title || S('sankshepa_ramayana_title')}
-              </h3> */}
               <p className="mt-2 text-md text-slate-600">
                 <strong>Author:</strong> {page.author}
                 {page.description ? <span className="block mt-1 text-slate-700">{page.description}</span> : null}
@@ -56,12 +53,12 @@ export default function Page({ searchParams }: any) {
           {/* Main characters grid */}
           {page.main_characters && page.main_characters.length > 0 && (
             <section className="border border-slate-100 rounded-lg">
-              <h4 className="text-xl font-semibold text-slate-800 mb-3">Main Characters</h4>
+              <h3 className="text-xl font-semibold text-slate-800 mb-3">Main Characters</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {page.main_characters.map((c: any, idx: number) => (
                   <article
                     key={idx}
-                    className="flex items-start gap-3 p-4 bg-gradient-to-br from-white to-amber-50 rounded-lg border border-amber-50 hover:shadow-lg transition"
+                    className="flex items-start gap-3 p-4 bg-gradient-to-br from-white to-amber-50 rounded-lg border border-amber-50 shadow-sm hover:shadow-lg transition"
                   >
                     <div className="w-12 h-12 rounded-full bg-amber-100 flex items-center justify-center text-amber-700 font-semibold">
                       {c.name ? c.name.charAt(0).toUpperCase() : '—'}
@@ -79,13 +76,13 @@ export default function Page({ searchParams }: any) {
 
           {/* Important places */}
           {page.important_places && page.important_places.length > 0 && (
-            <section className="bg-amber-50 border border-amber-100 rounded-lg shadow-sm">
-              <h5 className="text-lg font-semibold text-amber-800 mb-3">Important Places</h5>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <section className="">
+              <h4 className="text-lg font-semibold text-amber-800 mb-3">Important Places</h4>
+              <div className="grid grid-cols-1 sm:grid-cols-4 gap-8">
                 {page.important_places.map((p: any, idx: number) => (
-                  <div key={idx} className="p-4 bg-white rounded-md border border-slate-100">
-                    <div className="font-medium text-slate-800">{p.name}</div>
-                    {p.desc ? <div className="text-sm text-slate-600 mt-1">{p.desc}</div> : null}
+                  <div key={idx} className="p-4 bg-white shadow-sm rounded-md border border-slate-100">
+                    <div className="text-lg font-semibold text-amber-500">{p.name}</div>
+                    {p.desc ? <div className="text-md text-slate-600 mt-1">{p.desc}</div> : null}
                   </div>
                 ))}
               </div>

@@ -130,7 +130,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
                 <div className="text-center space-y-6">
                   <div className="text-9xl text-amber-300/80 font-serif animate-pulse">ॐ</div>
                   <div className="h-px w-full bg-gradient-to-r from-transparent via-amber-400 to-transparent" />
-                  <p className="text-white/90 text-xl font-serif italic">सत्यमेव जयते</p>
+                  <p className="text-white/90 md:text-xl font-serif italic">सत्यमेव जयते</p>
                   <p className="text-amber-200 text-sm">Truth Alone Triumphs</p>
                 </div>
               </div>
@@ -163,7 +163,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
                 {hero?.subheading || 'Eternal Wisdom'}
               </h4>
               {/* Description */}
-              <p className="text-lg lg:text-xl text-gray-100 drop-shadow-lg [text-shadow:_1px_1px_3px_rgb(0_0_0_/_70%)] mt-6">
+              <p className="text-lg text-gray-100 drop-shadow-lg [text-shadow:_1px_1px_3px_rgb(0_0_0_/_70%)] mt-6">
                 {hero?.description || 'Discover the timeless teachings and sacred wisdom of ancient India'}
               </p>
               {/* CTA Buttons */}

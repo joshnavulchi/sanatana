@@ -65,7 +65,7 @@ export default function GitSupport({ locale }: { locale?: string }) {
             </h6>
 
             {/* Subtitle */}
-            <p className="text-md md:text-lg leading-relaxed drop-shadow-lg my-6">
+            <p className="text-lg leading-relaxed drop-shadow-lg my-6">
               {loc?.cta?.subtitle || ''}
             </p>
 

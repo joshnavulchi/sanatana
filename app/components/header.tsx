@@ -190,7 +190,7 @@ export default function Header() {
               height={40}
               className="md:flex"
             />
-            <span className="max-w-50 md:max-w-100 font-extrabold text-3xl md:text-4xl bg-gradient-to-r from-orange-600 via-amber-700 to-yellow-600 bg-clip-text text-transparent tracking-tight drop-shadow-lg">
+            <span className="max-w-50 md:max-w-100 font-[1000] text-3xl md:text-4xl bg-gradient-to-r from-orange-600 via-amber-700 to-yellow-600 bg-clip-text text-transparent tracking-tight drop-shadow-lg">
               {translations.siteTitle}
             </span>
           </Link>
