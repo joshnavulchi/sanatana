@@ -29,7 +29,7 @@ export default function HeritageFooter() {
           We remain committed to protecting and transmitting this ancient civilizational legacy for future generations. <Link href="/sanatanadharma" className="underline">Learn more about our mission.</Link>
         </p>
       </div>
-      <ul className="mx-auto max-w-7xl text-lg block mb-12! list-disc! px-3!">
+      <ul className="mx-auto max-w-7xl text-lg hidden">
         <li className="flex text-lg text-amber-900 mb-2!">
           <div className="min-w-10">
             <svg className="relative top-1 w-5 h-5 group-hover/btn:translate-x-1 transition-transform " fill="none" stroke="#000" viewBox="0 0 24 24">

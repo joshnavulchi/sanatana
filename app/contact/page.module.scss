@@ -11,8 +11,10 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 10;
+    margin: var(--space-md) 0;
     li {
       width: 100%;
+      background-color: var(--color-white);
       padding: var(--space-sm) var(--space-lg);
       box-shadow: var(--shadow-soft);
       border-radius: var(--space-sm);

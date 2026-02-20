@@ -25,7 +25,7 @@ export default function Page({ searchParams }: any) {
     const gita = loc?.scriptures_bhagavadgita || {};
     const title = typeof k.title === 'string' ? k.title : (gita.title || __getLoc('scriptures_bhagavadgita.title') || '');
     let description: string = '';
-    const descSource = k.description || gita.description;
+    const descSource = k.meta?.description || gita.meta?.description;
     if (typeof descSource === 'string') description = descSource;
     else if (descSource && typeof descSource === 'object') description = descSource[locale] || descSource['translate'] || '';
     const parts = Array.isArray(gita.parts) ? gita.parts : [];
@@ -40,10 +40,10 @@ export default function Page({ searchParams }: any) {
   return (
     <PageLayout
       metaKey="scriptures_bhagavadgita"
-      title={page?.title}
-      description={page?.description}
-      titleColor=""
-      titleBorder=""
+      title={page.title}
+      description={page.description}
+      titleColor="from-orange-600 via-red-600 to-amber-700"
+      titleBorder="border-amber-500"
       breadcrumbs={[
         { labelKey: 'Home', href: '/' },
         { label: 'Scriptures', href: '/scriptures' }]}

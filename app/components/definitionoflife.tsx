@@ -96,7 +96,7 @@ export default function DefinitionOfLife() {
               <p className="text-2xl md:text-3xl font-serif text-amber-900 leading-relaxed">
                 `&quot;`आत्मानं विद्धि`&quot;`
               </p>
-              <p className="text-xl md:text-2xl  font-medium">
+              <p className="text-xl md:text-2xl font-medium">
                 Know Thyself
               </p>
               <div className="pt-4 border-t border-amber-300/30 mt-4">
@@ -115,7 +115,7 @@ export default function DefinitionOfLife() {
           <h3 className="text-2xl font-bold text-center text-amber-800 mb-6">
             आश्रम - The Four Stages of Life
           </h3>
-          <div className="flex flex-col md:flex-row gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-8 my-6">
             <div className="w-full md:min-w-1/4 text-center shadow-md p-4 rounded-lg bg-gradient-to-b from-amber-50 to-white border border-amber-200/40 flex-1">
               <div className="text-3xl mb-2">📚</div>
               <h4 className="font-bold text-amber-800 mb-1">Brahmacharya</h4>
