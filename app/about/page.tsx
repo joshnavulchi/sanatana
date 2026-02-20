@@ -2,8 +2,8 @@
 import { createGenerateMetadata } from '@lib/pageUtils';
 export const generateMetadata = createGenerateMetadata('about');
 
-import AboutClient from './aboutclient';
 import StructuredData from '@components/structured-data/StructuredData';
+import AboutClient from './aboutclient';
 
 export default function Page() {
   return (

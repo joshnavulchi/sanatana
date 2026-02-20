@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
-import { parseSections, parseMaybeObject } from '@lib/parseContent';
 import Loader from '@components/loader';
 import TextToSpeech from '@components/text-to-speech/TextToSpeech';
 import DefinitionOfLife from '@components/definitionoflife';
@@ -12,27 +11,32 @@ export default function AboutClient() {
   const { locale, isLoading } = useLocale();
   const ns = useLocaleSection('about');
 
-  // Initialize with empty state to avoid hydration mismatch
-  // useLocaleSection will populate the data properly
+  // Initialize with empty state to avoid hydration mismatch useLocaleSection will populate the data properly
   const [about, setAbout] = useState({ title: '', intro: '', sections: [] as any[], disclaimer: '' });
 
   useEffect(() => {
-    let mounted = true;
-    (async () => {
-      try {
-        // Locale loading is now handled by context/useLocaleSection
-      } catch (e) { }
-
-      if (!mounted) return;
+    // Only update about state if ns has content
+    if (ns && (ns.title || ns.sections)) {
       const title = String(ns?.title || '');
       const intro = String(ns?.intro || '');
-      const sectionsRaw = parseMaybeObject(ns ? ns.sections : '');
-      const sections = parseSections(sectionsRaw);
+      // sections is already an array in about.json
+      const sections = Array.isArray(ns.sections) ? ns.sections : [];
       const disclaimer = String(ns?.disclaimer || '');
       setAbout({ title, intro, sections, disclaimer });
-    })();
-    return () => { mounted = false; };
+      if (typeof window !== 'undefined') {
+        console.log('AboutClient: set about state', { title, intro, sections, disclaimer });
+      }
+    }
   }, [locale, ns]);
+  
+  // Debug: log ns and about state
+  useEffect(() => {
+    // Only log on client
+    if (typeof window !== 'undefined') {
+      console.log('AboutClient ns:', ns);
+      console.log('AboutClient about state:', about);
+    }
+  }, [ns, about]);
 
   // Show loading state if locale is still loading and we have no content
   if (isLoading && !about.title) {
