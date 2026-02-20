@@ -23,20 +23,8 @@ export default function AboutClient() {
       const sections = Array.isArray(ns.sections) ? ns.sections : [];
       const disclaimer = String(ns?.disclaimer || '');
       setAbout({ title, intro, sections, disclaimer });
-      if (typeof window !== 'undefined') {
-        console.log('AboutClient: set about state', { title, intro, sections, disclaimer });
-      }
     }
   }, [locale, ns]);
-  
-  // Debug: log ns and about state
-  useEffect(() => {
-    // Only log on client
-    if (typeof window !== 'undefined') {
-      console.log('AboutClient ns:', ns);
-      console.log('AboutClient about state:', about);
-    }
-  }, [ns, about]);
 
   // Show loading state if locale is still loading and we have no content
   if (isLoading && !about.title) {
@@ -59,6 +47,7 @@ export default function AboutClient() {
       <PageLayout
         metaKey="about"
         title={about.title}
+        description={about.intro || ''}
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'About' }]}
         className="layout-sm"
       >

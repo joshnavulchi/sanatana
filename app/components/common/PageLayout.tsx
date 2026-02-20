@@ -17,13 +17,13 @@ type Props = {
 
 export default function PageLayout({ metaKey, title, titleColor, titleBorder, description, breadcrumbs, className, children, locale }: Props) {
   const wrapper = `${className || ' content-wrapper'}`;
-  const h2Color = `${titleColor || ' from-orange-600 via-red-600 to-amber-700 '}`;
-  const h2Border = `${titleBorder || ' border-amber-500 '}`;
+  const h2Color = `${titleColor || 'from-orange-600 via-red-600 to-amber-700'}`;
+  const h2Border = `${titleBorder || 'border-amber-500'}`;
   return (
     <>
       {/* `metaKey` is accepted for compatibility; render structured data from server pages to avoid
           importing server-only modules into client bundles. */}
-      <main className={wrapper}>
+      <main className={`px-3 ${wrapper}`}>
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0">
           {/* Breadcrumbs will auto-generate from path if items not provided */}
           <Breadcrumbs items={breadcrumbs} locale={locale} />
@@ -31,7 +31,7 @@ export default function PageLayout({ metaKey, title, titleColor, titleBorder, de
           <WordCount />
         </div>
         {/* Hero Header Section */}
-        <div className="relative mt-6 overflow-hidden">
+        <div className="relative my-6 overflow-hidden">
           <div className="px-8 py-10">
             <div className="text-center mb-6">
               <div className="inline-block relative">
@@ -44,7 +44,7 @@ export default function PageLayout({ metaKey, title, titleColor, titleBorder, de
             </div>
             {description && (
               <div className="max-w-3xl mx-auto">
-                <p className="text-center text-base text-amber-800 leading-relaxed italic font-medium px-4">
+                <p className="text-center text-lg text-amber-800 leading-relaxed italic font-medium px-4">
                   &ldquo;{description}&rdquo;
                 </p>
               </div>

@@ -83,7 +83,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
                   ) : null}
 
                   {s.transliteration ? (
-                    <p className="mt-2 text-sm italic text-slate-700">
+                    <p className="mt-2 text-md italic text-slate-700">
                       {s.transliteration}
                     </p>
                   ) : null}
@@ -112,14 +112,13 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
                       </svg>
                     )}
                   </button>
-
-                  <span className="text-xs text-slate-400">{idx + 1}</span>
+                  <span className="text-md text-slate-400">{idx + 1}</span>
                 </div>
               </div>
 
               <div className="mt-4">
                 {context ? (
-                  <div className="text-sm text-slate-900 leading-relaxed">
+                  <div className="text-md text-slate-400 leading-relaxed">
                     <p className={`${isExpanded ? "" : "line-clamp-[8]"}`}>{isExpanded ? context : previewContext}</p>
                     {context.length > 220 ? (
                       <button
@@ -135,13 +134,13 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
                     ) : null}
                   </div>
                 ) : (
-                  <p className="text-sm text-slate-500">No context available.</p>
+                  <p className="text-md text-slate-400">No context available.</p>
                 )}
               </div>
 
               <div className="mt-4">
                 {meaning ? (
-                  <div className="text-sm text-slate-700 leading-relaxed">
+                  <div className="text-md text-slate-400 leading-relaxed">
                     <p className={`${isExpanded ? "" : "line-clamp-[8]"}`}>{isExpanded ? meaning : previewMeaning}</p>
                     {meaning.length > 220 ? (
                       <button
@@ -157,7 +156,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
                     ) : null}
                   </div>
                 ) : (
-                  <p className="text-sm text-slate-500">No meaning available.</p>
+                  <p className="text-md text-slate-400">No meaning available.</p>
                 )}
               </div>
 

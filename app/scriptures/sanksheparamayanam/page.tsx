@@ -30,25 +30,20 @@ export default function Page({ searchParams }: any) {
       <PageLayout
         metaKey="sankshepa_ramayana"
         title={page.title}
+        description={page.description}
+        titleColor="from-amber-600 via-rose-600 to-indigo-700"
+        titleBorder="border-amber-500"
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title }]}
         className="layout-md"
       >
-        <header className="bg-gradient-to-r from-amber-50 via-rose-50 to-indigo-50 rounded-lg p-6 shadow-md mb-6">
-          <div className="flex flex-col md:flex-row md:items-center gap-4">
-            <div className="flex-1">
-              <p className="mt-2 text-md text-slate-600">
-                <strong>Author:</strong> {page.author}
-                {page.description ? <span className="block mt-1 text-slate-700">{page.description}</span> : null}
-              </p>
-            </div>
-            <div className="md:w-48 flex-shrink-0">
-              <div className="bg-white border border-amber-100 rounded-lg p-3 text-center shadow-sm">
-                <div className="text-md text-amber-600 font-medium">Summary</div>
-                <div className="mt-2 text-sm text-slate-700"><Link href={page.source} title="Valmiki Ramayana">Source Link</Link></div>
-              </div>
-            </div>
-          </div>
-        </header>
+        <div className="flex items-center justify-center gap-3 mb-6">
+          <div className="h-px w-24 bg-gradient-to-r from-transparent to-amber-500"></div>
+          <p className="text-lg font-semibold text-amber-900 tracking-wide uppercase">Written by: {page.author}</p>
+          <div className="h-px w-24 bg-gradient-to-l from-transparent to-amber-500"></div>
+        </div>
+        <p className="mb-6 text-lg text-center text-slate-600">
+          {page.description ? <span className="block mt-1 text-slate-700">{page.description}</span> : null}
+        </p>
         <div className="space-y-8">
           {/* Main characters grid */}
           {page.main_characters && page.main_characters.length > 0 && (
