@@ -11,20 +11,14 @@ export default function AboutClient() {
   const { locale, isLoading } = useLocale();
   const ns = useLocaleSection('about');
 
-  // Initialize with empty state to avoid hydration mismatch useLocaleSection will populate the data properly
-  const [about, setAbout] = useState({ title: '', intro: '', sections: [] as any[], disclaimer: '' });
 
-  useEffect(() => {
-    // Only update about state if ns has content
-    if (ns && (ns.title || ns.sections)) {
-      const title = String(ns?.title || '');
-      const intro = String(ns?.intro || '');
-      // sections is already an array in about.json
-      const sections = Array.isArray(ns.sections) ? ns.sections : [];
-      const disclaimer = String(ns?.disclaimer || '');
-      setAbout({ title, intro, sections, disclaimer });
-    }
-  }, [locale, ns]);
+  // Compute about object directly from ns
+  const about = {
+    title: String(ns?.title || ''),
+    intro: String(ns?.intro || ''),
+    sections: Array.isArray(ns?.sections) ? ns.sections : [],
+    disclaimer: String(ns?.disclaimer || ''),
+  };
 
   // Show loading state if locale is still loading and we have no content
   if (isLoading && !about.title) {
