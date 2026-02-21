@@ -221,7 +221,7 @@ export default function Page({ searchParams }: any) {
                         <div className="pl-0 md:pl-22 flex justify-end">
                           <Link
                             href={`/scriptures/mahabharata/parva/${parvaKey}`}
-                            className={`inline-flex items-center gap-2 ${color.accent} hover:opacity-90 text-white font-bold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105`}
+                            className={`inline-flex items-center gap-2 ${color.accent} hover:opacity-90 text-white px-3 py-1 rounded-md shadow-md hover:shadow-xl transition-all duration-300 transform`}
                           >
                             <span>Read Complete Parva</span>
                             <span className="text-xl">→</span>

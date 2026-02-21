@@ -413,157 +413,147 @@ export default async function Page({ params, searchParams }: { params: Promise<{
       title={part.title}
       breadcrumbs={[
         { labelKey: 'Home', href: '/' },
-        { label: gita.title || 'Bhagavad Gita', href: '/scriptures/bhagavadgita' },
         { label: part.title }
       ]}
       className="layout-md"
     >
-      <div className="min-h-screen py-12 px-3">
-        <div>
-          <nav className="mb-8">
-            <Link
-              href="/scriptures/bhagavadgita"
-              className="inline-flex items-center gap-2 bg-white hover:bg-gray-50 text-gray-700 font-semibold px-5 py-3 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border-2 border-gray-200"
-            >
-              <span className="text-xl">←</span>
-              <span>Back to Bhagavad Gita</span>
-            </Link>
-          </nav>
-
-          <article className="bg-white rounded-3xl shadow-2xl overflow-hidden border-4 border-white">
-            <div className="relative bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 px-8 py-12">
-              <div className="absolute top-0 left-0 w-full h-full opacity-10">
-                <div className="absolute top-4 left-4 w-20 h-20 border-4 border-white rounded-full"></div>
-                <div className="absolute bottom-4 right-4 w-32 h-32 border-4 border-white rounded-full"></div>
-                <div className="absolute top-1/2 right-1/4 w-16 h-16 border-4 border-white rounded-full"></div>
-              </div>
-              <div className="relative z-10">
-                <div className="flex items-center justify-center mb-4">
-                  <div className="bg-white bg-opacity-20 backdrop-blur-sm px-6 py-2 rounded-full border-2 border-white border-opacity-50">
-                    <p className="text-white text-sm font-bold uppercase tracking-widest">Sacred Scripture</p>
-                  </div>
-                </div>
-                <h3 className="text-4xl md:text-5xl font-black text-white text-center mb-4 leading-tight drop-shadow-lg">
-                  {part.title || (() => {
-                    // Try to extract the part key and use as fallback title
-                    const partKeyName = Object.keys(part).find(k => k.startsWith('bhagavadgita_part_'));
-                    return partKeyName ? partKeyName.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase()) : 'Part';
-                  })()}
-                </h3>
-                <div className="flex justify-center">
-                  <div className="w-32 h-1 bg-white rounded-full"></div>
-                </div>
+      <article className="bg-white rounded-2xl shadow-2xl overflow-hidden border-2 border-white">
+        <div className="relative bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 px-3 py-6">
+          <div className="absolute top-0 left-0 w-full h-full opacity-10">
+            <div className="absolute top-4 left-4 w-20 h-20 border-4 border-white rounded-full animate-ping"></div>
+            <div className="absolute bottom-4 right-4 w-32 h-32 border-4 border-white rounded-full animate-ping"></div>
+            <div className="absolute top-1/2 right-1/4 w-16 h-16 border-4 border-white rounded-full animate-ping"></div>
+          </div>
+          <div className="relative z-10">
+            <div className="flex items-center justify-center mb-4">
+              <div className="bg-white bg-opacity-20 backdrop-blur-sm px-6 py-2 rounded-full border-2 border-white border-opacity-50">
+                <p className="text-white text-sm font-bold uppercase tracking-widest">Sacred Scripture</p>
               </div>
             </div>
-
-            <div className="p-8 md:p-12">
-              {part.intro && typeof part.intro === 'object' && !Array.isArray(part.intro) && (
-                <section className="mb-10">
-                  <div className="flex items-center gap-3 mb-6">
-                    <div className="w-12 h-12 bg-gradient-to-br from-amber-400 to-orange-500 rounded-xl flex items-center justify-center shadow-lg">
-                      <span className="text-white text-2xl">📜</span>
-                    </div>
-                    <h2 className="text-3xl font-bold text-amber-900">Introduction</h2>
-                  </div>
-                  <div className="prose prose-lg max-w-none">
-                    {Object.entries(part.intro as Record<string, any>).map(([k, v]: [string, any], i: number) => (
-                      <p key={i} className="mb-4 text-gray-800 leading-relaxed text-justify">
-                        <span className="font-semibold text-orange-700 mr-2">
-                          {k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}:
-                        </span>{' '}
-                        {String(v)}
-                      </p>
-                    ))}
-                  </div>
-                </section>
-              )}
-
-              {part ? (
-                <>
-                  {/* Render all chapter/section content recursively for part-1 and similar objects */}
-                  {Object.entries(part as Record<string, any>)
-                    .flatMap(([k, v]) => {
-                      // If the value is an object and the key is like 'bhagavadgita_part_X', render its children
-                      if (k.startsWith('bhagavadgita_part_') && typeof v === 'object' && v !== null) {
-                        return Object.entries(v).map(([subk, subv]) => (
-                          <section key={k + '-' + subk} className="mb-10">
-                            <h3 className="text-2xl font-bold text-orange-800 mb-2">
-                              {subk.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}
-                            </h3>
-                            <div className="prose prose-base max-w-none">
-                              {renderContent(subv)}
-                            </div>
-                          </section>
-                        ));
-                      }
-                      // Otherwise, render as before for chapters/sections
-                      if (k.startsWith('chapter_') || k.startsWith('chapters_') || k.startsWith('part-')) {
-                        return [
-                          <section key={k} className="mb-10">
-                            <h3 className="text-2xl font-bold text-orange-800 mb-2">
-                              {k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}
-                            </h3>
-                            <div className="prose prose-base max-w-none">
-                              {renderContent(v)}
-                            </div>
-                          </section>
-                        ];
-                      }
-                      return [];
-                    })}
-                </>
-              ) : (
-                <div className="text-center py-16">
-                  <div className="inline-flex items-center justify-center w-24 h-24 bg-gray-100 rounded-full mb-6">
-                    <span className="text-4xl text-gray-400">💭</span>
-                  </div>
-                  <p className="text-xl text-gray-600 font-medium">Content not available for this part.</p>
-                  <p className="text-sm text-gray-500 mt-2">Please check back later or explore other parts.</p>
-                </div>
-              )}
+            <h3 className="text-3xl md:text-4xl font-black text-white text-center mb-4 leading-tight drop-shadow-lg">
+              {part.title || (() => {
+                // Try to extract the part key and use as fallback title
+                const partKeyName = Object.keys(part).find(k => k.startsWith('bhagavadgita_part_'));
+                return partKeyName ? partKeyName.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase()) : 'Part';
+              })()}
+            </h3>
+            <div className="flex justify-center">
+              <div className="w-32 h-1 bg-white rounded-full"></div>
             </div>
+          </div>
+        </div>
 
-            {/* Footer Navigation */}
-            {part && (
-              <footer className="mt-10">
-                <div className="flex flex-col items-center gap-4">
-                  <div className="flex gap-4">
-                    {/* Previous Part Button */}
-                    {prevPart && (
-                      <Link
-                        href={`/scriptures/bhagavadgita/part/${getPartSafeKey(prevPart, 0)}`}
-                        className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg transition-all duration-300"
-                      >
-                        <span className="text-xl">←</span>
-                        <span>Previous Part</span>
-                      </Link>
-                    )}
-                    {/* Next Part Button */}
-                    {nextPart && (
-                      <Link
-                        href={`/scriptures/bhagavadgita/part/${getPartSafeKey(nextPart, 0)}`}
-                        className="inline-flex items-center gap-2 bg-orange-400 hover:bg-orange-500 text-white font-bold px-6 py-3 rounded-xl shadow-lg transition-all duration-300"
-                      >
-                        <span>Next Part</span>
-                        <span className="text-xl">→</span>
-                      </Link>
-                    )}
-                  </div>
-                  <div className="flex justify-center mt-6">
+        <div className="p-3 md:p-6">
+          {part.intro && typeof part.intro === 'object' && !Array.isArray(part.intro) && (
+            <section className="mb-10">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-12 h-12 bg-gradient-to-br from-amber-400 to-orange-500 rounded-xl flex items-center justify-center shadow-lg">
+                  <span className="text-white text-2xl">📜</span>
+                </div>
+                <h2 className="text-3xl font-bold text-amber-900">Introduction</h2>
+              </div>
+              <div className="prose prose-lg max-w-none">
+                {Object.entries(part.intro as Record<string, any>).map(([k, v]: [string, any], i: number) => (
+                  <p key={i} className="mb-4 text-gray-800 leading-relaxed text-justify">
+                    <span className="font-semibold text-orange-700 mr-2">
+                      {k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}:
+                    </span>{' '}
+                    {String(v)}
+                  </p>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {part ? (
+            <>
+              {/* Render all chapter/section content recursively for part-1 and similar objects */}
+              {Object.entries(part as Record<string, any>)
+                .flatMap(([k, v]) => {
+                  // If the value is an object and the key is like 'bhagavadgita_part_X', render its children
+                  if (k.startsWith('bhagavadgita_part_') && typeof v === 'object' && v !== null) {
+                    return Object.entries(v).map(([subk, subv]) => (
+                      <section key={k + '-' + subk} className="mb-10">
+                        <h3 className="text-2xl font-bold text-orange-800 mb-2">
+                          {subk.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}
+                        </h3>
+                        <div className="prose prose-base max-w-none">
+                          {renderContent(subv)}
+                        </div>
+                      </section>
+                    ));
+                  }
+                  // Otherwise, render as before for chapters/sections
+                  if (k.startsWith('chapter_') || k.startsWith('chapters_') || k.startsWith('part-')) {
+                    return [
+                      <section key={k} className="mb-10">
+                        <h3 className="text-2xl font-bold text-orange-800 mb-2">
+                          {k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}
+                        </h3>
+                        <div className="prose prose-base max-w-none">
+                          {renderContent(v)}
+                        </div>
+                      </section>
+                    ];
+                  }
+                  return [];
+                })}
+            </>
+          ) : (
+            <div className="text-center py-16">
+              <div className="inline-flex items-center justify-center w-24 h-24 bg-gray-100 rounded-full mb-6">
+                <span className="text-4xl text-gray-400">💭</span>
+              </div>
+              <p className="text-xl text-gray-600 font-medium">Content not available for this part.</p>
+              <p className="text-sm text-gray-500 mt-2">Please check back later or explore other parts.</p>
+            </div>
+          )}
+        </div>
+
+        {/* Footer Navigation */}
+        {part && (
+          <footer className="mt-10 p-6">
+            <div className="flex flex-col items-center gap-4">
+              <div className="w-full flex items-center justify-between">
+                {/* Previous Part Button */}
+                <div>
+                  {prevPart && (
                     <Link
-                      href="/scriptures/bhagavadgita"
-                      className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-orange-600 hover:to-amber-600 text-white font-bold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
+                      href={`/scriptures/bhagavadgita/part/${getPartSafeKey(prevPart, 0)}`}
+                      className="inline-flex items-center gap-2 bg-amber-50 hover:bg-amber-500 text-orange-600 hover:text-amber-50 px-3 py-1 rounded-md shadow-sm transition-all duration-300"
                     >
                       <span className="text-xl">←</span>
-                      <span>Explore All Parts</span>
+                      <span>Previous Part</span>
                     </Link>
-                  </div>
+                  )}
                 </div>
-              </footer>
-            )}
-          </article>
-        </div>
-      </div>
+
+                {/* Next Part Button */}
+                <div>
+                  {nextPart && (
+                    <Link
+                      href={`/scriptures/bhagavadgita/part/${getPartSafeKey(nextPart, 0)}`}
+                      className="inline-flex items-center gap-2 bg-amber-50 hover:bg-orange-500 text-orange-400 hover:text-amber-50 px-3 py-1 rounded-md shadow-sm transition-all duration-300"
+                    >
+                      <span>Next Part</span>
+                      <span className="text-xl">→</span>
+                    </Link>
+                  )}
+                </div>
+              </div>
+              <div className="flex justify-center">
+                <Link
+                  href="/scriptures/bhagavadgita"
+                  className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-50 to-orange-50 hover:from-orange-500 hover:to-amber-500 text-orange-600 hover:text-amber-50 px-3 py-1 rounded-md shadow-sm hover:shadow-md transition-all duration-300"
+                >
+                  <span className="text-xl">←</span>
+                  <span>Explore All Parts</span>
+                </Link>
+              </div>
+            </div>
+          </footer>
+        )}
+      </article>
     </PageLayout>
   );
 }
