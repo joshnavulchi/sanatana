@@ -73,6 +73,9 @@
     "eslint": {
       "ajv": "^6.12.6"
     },
+    "@eslint/eslintrc": {
+      "ajv": "^6.12.6"
+    },
     "table": "^6.8.2",
     "nanoid": "3.3.8",
     "glob": "^10.3.12",
