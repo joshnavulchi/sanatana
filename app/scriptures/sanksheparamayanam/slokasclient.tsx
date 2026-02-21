@@ -59,7 +59,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
         </div>
       </header>
 
-      <div className="grid gap-6 grid-cols-1 md:grid-cols-2">
+      <div className="grid gap-6 grid-cols-1">
         {slokas.slice(0, visible).map((s, idx) => {
           const key = s.sloka || s.sanskrit || idx;
           const isExpanded = !!expanded[idx];
@@ -77,7 +77,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
               <div className="flex justify-between items-start">
                 <div className="flex-1">
                   {s.sanskrit ? (
-                    <p className="text-xl md:text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700">
+                    <p className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700">
                       {s.sanskrit}
                     </p>
                   ) : null}

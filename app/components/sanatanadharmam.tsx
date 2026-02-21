@@ -91,7 +91,7 @@ export default function UnderstandingOfSanatana() {
             </div>
 
             {/* Items */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 mt-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-8">
               {section.items?.map((topic, topicIndex) => (
                 <div key={`${section.id}-${topic.id || topicIndex}`} className="bg-white rounded-xl p-3 shadow-sm hover:shadow-xl transition border-2 border-amber-500">
                   <div className="text-center">
@@ -134,7 +134,7 @@ export default function UnderstandingOfSanatana() {
               ))}
 
               {section.points?.map((point, index) => (
-                <div key={`${section.id}-point-${index}`} className="bg-white shadow-sm border-2 border-amber-500 rounded-xl p-3 mb-6 md:mb-0">
+                <div key={`${section.id}-point-${index}`} className="bg-white shadow-sm border-2 border-amber-500 rounded-xl p-3 mb-3 md:mb-0">
                   <p className="text-xl font-semibold text-gray-800">
                     {point}
                   </p>
