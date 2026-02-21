@@ -14,149 +14,65 @@ import TextToSpeech from '@components/text-to-speech/TextToSpeech';
 const Paragraphs = ({ lines }: { lines?: any[] }) => {
   if (!Array.isArray(lines) || !lines.length) return null;
   return (
-    <>
-      {/* Hero Image with enhanced styling */}
-      <div className="relative group overflow-hidden rounded-2xl shadow-2xl mb-8">
-        <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/10 to-green-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10" />
-        {/* Decorative border */}
-        <div className="absolute inset-0 border-4 border-emerald-400/0 group-hover:border-emerald-400/30 rounded-2xl transition-all duration-500" />
-        {/* Floating accent icon */}
-        <div className="absolute top-4 left-4 w-10 h-10 bg-emerald-400/80 rounded-full flex items-center justify-center shadow-lg animate-bounce text-white text-2xl z-20">🔉</div>
+    <div className="space-y-8">
+      {/* Large intro header */}
+      <div className="rounded-xl p-6 bg-gradient-to-r from-amber-50 to-yellow-50 border border-amber-100">
+        <h2 className="text-2xl md:text-3xl font-extrabold text-amber-800">Essence & Insights</h2>
+        <p className="mt-2 text-sm text-amber-700">A concise retelling and practical reflections on karma.</p>
       </div>
-      {/* Content paragraphs */}
-      <div className="space-y-6">
+
+      <div className="grid gap-6">
         {lines.map((line: any, idx: number) => (
-          <div
+          <article
             key={idx}
-            className="
-              relative
-              bg-gradient-to-br from-white to-emerald-50/30
-              rounded-lg
-              px-3 py-6 md:p-8
-              transition-all duration-300
-              hover:-translate-y-1
-              group/para
-              animate-fade-in-up
-            "
-            style={{ animationDelay: `${idx * 100}ms` }}
+            className="relative bg-white rounded-lg border border-gray-100 shadow-sm p-5 md:p-6 hover:shadow-md transition-shadow duration-200"
+            style={{ animationDelay: `${idx * 60}ms` }}
           >
-            {/* Decorative corner accent */}
-            <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-bl from-emerald-400/10 to-transparent rounded-tr-lg rounded-bl-full" />
-            {/* Content */}
-            <p className="
-              text-base md:text-lg
-              leading-relaxed
-              relative z-10
-              font-serif
-            ">
-              {line}
-            </p>
-            {/* Hover indicator */}
-            <div className="absolute bottom-2 right-2 w-2 h-2 bg-emerald-500 rounded-full opacity-0 group-hover/para:opacity-100 transition-opacity duration-300" />
-          </div>
+            <div className="absolute left-0 top-4 h-12 w-1 bg-amber-300 rounded-r-md" />
+            <div className="ml-4">
+              <p className="text-base md:text-lg text-gray-800 leading-relaxed font-serif">{line}</p>
+            </div>
+            <div className="mt-4 flex items-center justify-between text-sm text-gray-500">
+              <span>Reflection</span>
+              <span className="px-2 py-0.5 bg-amber-100 text-amber-700 rounded">Karma</span>
+            </div>
+          </article>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
 const Conversation = ({ convo }: { convo?: any[] }) => {
   if (!Array.isArray(convo) || !convo.length) return null;
   return (
-    <div className="space-y-6 mt-12">
-      {/* Conversation header */}
-      <div className="flex items-center justify-center gap-3 mb-8">
-        <div className="h-px w-16 bg-gradient-to-r from-transparent to-amber-400" />
-        <span className="text-xl text-amber-800  font-semibold tracking-wide animate-fade-in">💬 Conversation</span>
-        <div className="h-px w-16 bg-gradient-to-l from-transparent to-amber-400" />
+    <section className="mt-12">
+      <div className="flex items-center gap-3 mb-6">
+        <span className="text-lg text-amber-700 font-semibold">💬 Dialogue</span>
+        <div className="flex-1 h-px bg-gray-100" />
       </div>
-      {convo.map((item: any, idx: number) => {
-        const isEven = idx % 2 === 0;
-        return (
-          <div
-            key={idx}
-            className={`
-              flex
-              ${isEven ? 'justify-start' : 'justify-end'}
-              animate-fade-in-up
-            `}
-            style={{ animationDelay: `${idx * 100}ms` }}
-          >
-            <div className={`
-              max-w-[85%] md:max-w-[70%]
-              ${isEven ? 'text-left' : 'text-right'}
-            `}>
-              {/* Speaker Badge */}
-              {item.speaker && (
-                <div className={`
-                  inline-flex items-center gap-2
-                  mb-2
-                  px-4 py-2
-                  ${isEven
-                    ? 'bg-gradient-to-r from-blue-500 to-blue-600 text-white'
-                    : 'bg-gradient-to-r from-amber-500 to-orange-600 text-white'
-                  }
-                  rounded-full
-                  shadow-lg
-                  font-semibold text-sm
-                  ${isEven ? '' : 'ml-auto'}
-                  animate-fade-in
-                `}>
-                  <span className="text-lg">{isEven ? '🧘' : '🕉️'}</span>
-                  <span>{item.speaker}</span>
+      <div className="space-y-4">
+        {convo.map((item: any, idx: number) => {
+          const isLeft = idx % 2 === 0;
+          return (
+            <div key={idx} className={`flex ${isLeft ? 'justify-start' : 'justify-end'}`}>
+              <div className={`max-w-[86%] md:max-w-[70%]`}>
+                <div className={`flex items-center gap-3 ${isLeft ? '' : 'flex-row-reverse'}`}>
+                  <div className="w-10 h-10 bg-amber-100 text-amber-700 rounded-full flex items-center justify-center font-medium">{isLeft ? '🧘' : '🕉️'}</div>
+                  <div className="text-sm text-gray-600 font-medium">{item.speaker || (isLeft ? 'Seeker' : 'Teacher')}</div>
                 </div>
-              )}
-              {/* Message Bubble */}
-              {item.message && (
-                <div className={`
-                  relative
-                  p-5 md:p-6
-                  rounded-2xl
-                  shadow-xl
-                  ${isEven
-                    ? 'bg-gradient-to-br from-blue-50 to-blue-100 border-2 border-blue-200 rounded-tl-none'
-                    : 'bg-gradient-to-br from-amber-50 to-orange-100 border-2 border-amber-200 rounded-tr-none'
-                  }
-                  backdrop-blur-sm
-                  hover:shadow-2xl
-                  transition-all duration-300
-                  group
-                  animate-fade-in-up
-                `}
-                  style={{ animationDelay: `${idx * 120}ms` }}
-                >
-                  {/* Message text */}
-                  <p className="
-                  text-gray-800 
-                  text-base md:text-lg
-                  leading-relaxed
-                  m-0
-                  font-serif
-                ">
-                    {item.message}
-                  </p>
-                  {/* Decorative quote mark */}
-                  <div className={`
-                  absolute
-                  ${isEven ? '-left-2 top-0' : '-right-2 top-0'}
-                  w-8 h-8
-                  ${isEven ? 'bg-blue-500' : 'bg-amber-500'}
-                  rounded-full
-                  flex items-center justify-center
-                  text-white text-xs
-                  opacity-0 group-hover:opacity-100
-                  transition-opacity duration-300
-                `}>
-                    {`"`}
-                  </div>
-                </div>)}
+                <div className={`mt-2 p-4 rounded-xl border border-gray-100 bg-white shadow-sm ${isLeft ? '' : 'text-right'}`}>
+                  <p className="text-gray-800 leading-relaxed font-serif">{item.message}</p>
+                </div>
+              </div>
             </div>
-          </div>
-        );
-      })}
-    </div>
+          );
+        })}
+      </div>
+    </section>
   );
 };
+
 export default function KrishnaExplainsFiveKarmasClient() {
   const { locale, isLoading } = useLocale();
   const ns = useLocaleSection('philosophy_karma');
@@ -199,14 +115,14 @@ export default function KrishnaExplainsFiveKarmasClient() {
     <PageLayout
       metaKey="philosophy_karma"
       title={renderTitle}
-      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Philosophy', href: '/philosophy' }, { label: 'Karma' }]}
+      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: renderTitle }]}
       className="layout-md"
     >
       <TextToSpeech sectionId="philosophy-karma-content" className="floating" />
       <div id="philosophy-karma-content">
         <div className="flex flex-col lg:flex-row gap-8">
           <div className="w-full lg:w-3/4">
-            <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-blue-50 via-green-100 to-blue-50  border-l-12 border-blue-200 rounded-2xl overflow-hidden">
+            <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-blue-50 via-green-100 to-blue-50  border-l-2 border-blue-200 rounded-2xl overflow-hidden">
               <div className="absolute top-0 right-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl" />
               <div className="absolute bottom-0 left-0 w-80 h-80 bg-yellow-400/8 rounded-full blur-3xl" />
               <div className="relative z-10">
