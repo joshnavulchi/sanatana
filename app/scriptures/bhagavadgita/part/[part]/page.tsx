@@ -407,6 +407,27 @@ export default async function Page({ params, searchParams }: { params: Promise<{
 
   const classes = getPartClasses(part.order || 1);
 
+  // Locate the nested bhagavadgita_part_x object which holds actual content
+  const nestedKey = Object.keys(part || {}).find(k => k.startsWith('bhagavadgita_part_'));
+  const contentObj: Record<string, any> = nestedKey && (part as any)[nestedKey] ? (part as any)[nestedKey] : (part as any);
+  const entries = Object.entries(contentObj as Record<string, any>);
+
+  // 1️⃣ Extract specific keys first
+  const introduction = entries.find(([k]) => k === 'introduction');
+  const structureOverview = entries.find(([k]) => k === 'structure_overview');
+
+  // 2️⃣ Extract chapter groups like `chapters_1_to_3` (which contain chapter_x entries)
+  const gitaParts = entries
+    .filter(([k]) => k.startsWith('chapters_') || k.startsWith('chapter_'))
+    .sort(([a], [b]) => {
+      const numA = parseInt(a.replace(/[^0-9]/g, ''), 10) || 0;
+      const numB = parseInt(b.replace(/[^0-9]/g, ''), 10) || 0;
+      return numA - numB;
+    });
+
+  // 3️⃣ Remaining top-level keys inside the part content
+  const remaining = entries.filter(([k]) => !['introduction', 'structure_overview'].includes(k) && !k.startsWith('chapters_') && !k.startsWith('chapter_'));
+
   return (
     <PageLayout
       metaKey="scriptures_bhagavadgita"
@@ -444,60 +465,63 @@ export default async function Page({ params, searchParams }: { params: Promise<{
         </div>
 
         <div className="p-3 md:p-6">
-          {part.intro && typeof part.intro === 'object' && !Array.isArray(part.intro) && (
-            <section className="mb-10">
-              <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 bg-gradient-to-br from-amber-400 to-orange-500 rounded-xl flex items-center justify-center shadow-lg">
-                  <span className="text-white text-2xl">📜</span>
-                </div>
-                <h2 className="text-3xl font-bold text-amber-900">Introduction</h2>
-              </div>
-              <div className="prose prose-lg max-w-none">
-                {Object.entries(part.intro as Record<string, any>).map(([k, v]: [string, any], i: number) => (
-                  <p key={i} className="mb-4 text-gray-800 leading-relaxed text-justify">
-                    <span className="font-semibold text-orange-700 mr-2">
-                      {k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}:
-                    </span>{' '}
-                    {String(v)}
-                  </p>
-                ))}
-              </div>
-            </section>
-          )}
-
           {part ? (
             <>
-              {/* Render all chapter/section content recursively for part-1 and similar objects */}
-              {Object.entries(part as Record<string, any>)
-                .flatMap(([k, v]) => {
-                  // If the value is an object and the key is like 'bhagavadgita_part_X', render its children
-                  if (k.startsWith('bhagavadgita_part_') && typeof v === 'object' && v !== null) {
-                    return Object.entries(v).map(([subk, subv]) => (
-                      <section key={k + '-' + subk} className="mb-10">
-                        <h3 className="text-2xl font-bold text-orange-800 mb-2">
-                          {subk.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}
-                        </h3>
-                        <div className="prose prose-base max-w-none">
-                          {renderContent(subv)}
-                        </div>
-                      </section>
-                    ));
-                  }
-                  // Otherwise, render as before for chapters/sections
-                  if (k.startsWith('chapter_') || k.startsWith('chapters_') || k.startsWith('part-')) {
-                    return [
-                      <section key={k} className="mb-10">
-                        <h3 className="text-2xl font-bold text-orange-800 mb-2">
-                          {k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}
-                        </h3>
-                        <div className="prose prose-base max-w-none">
-                          {renderContent(v)}
-                        </div>
-                      </section>
-                    ];
-                  }
-                  return [];
-                })}
+              {/* Introduction */}
+              {introduction && (
+                <section key="introduction" className="mb-10">
+                  <h3 className="text-2xl font-bold text-orange-800 mb-2">
+                    Introduction
+                  </h3>
+                  <div className="prose prose-base max-w-none">
+                    {renderContent(introduction[1])}
+                  </div>
+                </section>
+              )}
+
+              {/* Structure Overview */}
+              {structureOverview && (
+                <section key="structure_overview" className="mb-10">
+                  <h3 className="text-2xl font-bold text-orange-800 mb-2">
+                    Structure Overview
+                  </h3>
+                  <div className="prose prose-base max-w-none">
+                    {renderContent(structureOverview[1])}
+                  </div>
+                </section>
+              )}
+
+              {/* Bhagavad Gita Parts */}
+              {gitaParts.flatMap(([k, v]) =>
+                typeof v === 'object' && v !== null
+                  ? Object.entries(v).map(([subk, subv]) => (
+                    <section key={k + '-' + subk} className="mb-10">
+                      <h3 className="text-2xl font-bold text-orange-800 mb-2">
+                        {subk
+                          .replace(/_/g, ' ')
+                          .replace(/\b\w/g, (l: string) => l.toUpperCase())}
+                      </h3>
+                      <div className="prose prose-base max-w-none">
+                        {renderContent(subv)}
+                      </div>
+                    </section>
+                  ))
+                  : []
+              )}
+
+              {/* Remaining Sections */}
+              {remaining.map(([k, v]) => (
+                <section key={k} className="mb-10">
+                  <h3 className="text-2xl font-bold text-orange-800 mb-2">
+                    {k
+                      .replace(/_/g, ' ')
+                      .replace(/\b\w/g, (l: string) => l.toUpperCase())}
+                  </h3>
+                  <div className="prose prose-base max-w-none">
+                    {renderContent(v)}
+                  </div>
+                </section>
+              ))}
             </>
           ) : (
             <div className="text-center py-16">

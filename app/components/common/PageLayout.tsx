@@ -35,7 +35,7 @@ export default function PageLayout({ metaKey, title, titleColor, titleBorder, de
           <div className="px-4 py-5">
             <div className="text-center">
               <div className="inline-block relative mb-10">
-                {title && (<h2 className={`text-3xl/10 font-semibold text-transparent bg-clip-text bg-gradient-to-r ${h2Color} px-3 py-3 mb-3`}>
+                {title && (<h2 className={`text-3xl/10 font-semibold text-transparent bg-clip-text bg-gradient-to-r ${h2Color} px-3 py-3`}>
                   {title}
                 </h2>)}
                 <div className={`absolute -top-4 -left-4 w-16 h-16 border-t-3 border-l-3 ${h2Border} rounded-tl-2xl`}></div>
@@ -44,7 +44,7 @@ export default function PageLayout({ metaKey, title, titleColor, titleBorder, de
             </div>
             {description && (
               <div className="max-w-4xl mx-auto">
-                <p className="text-center text-lg text-amber-800 leading-relaxed italic font-medium px-4">
+                <p className="text-center text-lg text-amber-800 leading-relaxed italic font-medium px-4 mt-3">
                   &ldquo;{description}&rdquo;
                 </p>
               </div>

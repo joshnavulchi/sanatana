@@ -48,7 +48,7 @@ export default function Page({ searchParams }: any) {
           {/* Main characters grid */}
           {page.main_characters && page.main_characters.length > 0 && (
             <section className="border border-slate-100 rounded-lg">
-              <h3 className="text-xl font-semibold text-slate-800 mb-3">Main Characters</h3>
+              <h3 className="text-3xl md:text-4xl font-black text-white text-center mb-4 leading-tight drop-shadow-lg">Main Characters</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {page.main_characters.map((c: any, idx: number) => (
                   <article

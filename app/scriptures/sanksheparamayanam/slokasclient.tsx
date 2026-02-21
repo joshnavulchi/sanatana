@@ -71,13 +71,13 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
           return (
             <article
               key={key}
-              className="relative group overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-br from-white/60 to-white/40 shadow-lg p-6 backdrop-blur-sm"
+              className="relative group overflow-hidden rounded-xl border border-amber-400 bg-gradient-to-br from-white/60 to-white/40 shadow-lg p-6 backdrop-blur-sm"
             >
               <div className="absolute -left-6 top-4 h-24 w-2 rounded-r-full bg-gradient-to-b from-amber-400 via-orange-500 to-rose-500 opacity-90 transform rotate-3" />
               <div className="flex justify-between items-start">
                 <div className="flex-1">
                   {s.sanskrit ? (
-                    <p className="text-xl md:text-2xl font-extrabold tracking-tight bg-clip-text bg-gradient-to-r from-amber-600 via-orange-500 to-amber-400">
+                    <p className="text-xl md:text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700">
                       {s.sanskrit}
                     </p>
                   ) : null}
@@ -106,7 +106,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                       </svg>
                     ) : (
-                      <svg className="w-5 h-5 text-slate-600" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <svg className="w-5 h-5 text-slate-700" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7h11v11H8z" />
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 11h1a2 2 0 0 0 2-2V4a2 2 0 0 1 2-2h6" />
                       </svg>
@@ -118,7 +118,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
 
               <div className="mt-4">
                 {context ? (
-                  <div className="text-md text-slate-400 leading-relaxed">
+                  <div className="text-sm text-slate-700 leading-relaxed">
                     <p className={`${isExpanded ? "" : "line-clamp-[8]"}`}>{isExpanded ? context : previewContext}</p>
                     {context.length > 220 ? (
                       <button
@@ -134,13 +134,13 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
                     ) : null}
                   </div>
                 ) : (
-                  <p className="text-md text-slate-400">No context available.</p>
+                  <p className="text-sm text-slate-700">No context available.</p>
                 )}
               </div>
 
               <div className="mt-4">
                 {meaning ? (
-                  <div className="text-md text-slate-400 leading-relaxed">
+                  <div className="text-md text-slate-700 leading-relaxed">
                     <p className={`${isExpanded ? "" : "line-clamp-[8]"}`}>{isExpanded ? meaning : previewMeaning}</p>
                     {meaning.length > 220 ? (
                       <button
@@ -156,7 +156,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
                     ) : null}
                   </div>
                 ) : (
-                  <p className="text-md text-slate-400">No meaning available.</p>
+                  <p className="text-md text-slate-700">No meaning available.</p>
                 )}
               </div>
 
