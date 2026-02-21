@@ -16,6 +16,17 @@ export default function SimilarCategories({
   maxItems = 100,
   excludeCurrent = true
 }: SimilarCategoriesProps) {
+  function normalizeHref(href?: string) {
+    if (!href) return '#';
+    let out = String(href);
+    if (!out.startsWith('/')) out = '/' + out;
+    // Replace any /others/ segment with single slash
+    out = out.replace(/\/others\//g, '/');
+    // Collapse multiple slashes
+    out = out.replace(/\/+/g, '/');
+    // Avoid returning empty
+    return out === '/' ? '/' : out;
+  }
   const { locale } = useLocale();
   const [categories, setCategories] = useState<Array<{ key: string; title: string; links: Array<{ key: string; label: string; href: string }> }>>([]);
   useEffect(() => {
@@ -50,10 +61,10 @@ export default function SimilarCategories({
             const links: Array<{ key: string; label: string; href: string }> = [];
             Object.entries(navObj).forEach(([navKey, navLabel]: [string, any]) => {
               if (typeof navLabel === 'string') {
-                links.push({ key: navKey, label: navLabel, href: `/${key}/${navKey}` });
+                links.push({ key: navKey, label: navLabel, href: normalizeHref(`/${key}/${navKey}`) });
               } else if (typeof navLabel === 'object' && navLabel) {
                 const label = navLabel.label || navLabel.title || JSON.stringify(navLabel);
-                const href = navLabel.href || navLabel.url || `/${key}/${navKey}`;
+                const href = normalizeHref(navLabel.href || navLabel.url || `/${key}/${navKey}`);
                 links.push({ key: navKey, label, href });
               }
             });
@@ -94,15 +105,15 @@ export default function SimilarCategories({
         {categories.map((category) => {
           return (
             <div key={category.key} className="p-3 rounded-lg bg-emerald-50/80 border border-emerald-100 shadow-sm">
-              <h6 className="text-lg mb-2 text-emerald-800 font-semibold">
-                <Link href={`/${category.key}`} className="hover:underline hover:text-emerald-600 transition-colors">
+                <h6 className="text-lg mb-2 text-emerald-800 font-semibold">
+                <Link href={normalizeHref(`/${category.key}`)} className="hover:underline hover:text-emerald-600 transition-colors">
                   {category.title}
                 </Link>
               </h6>
               <ul className="space-y-2">
                 {category.links.map((link) => (
                   <li key={link.key} className="text-sm">
-                    <Link href={link.href} className="text-emerald-700 hover:text-emerald-900 hover:underline transition-colors">
+                    <Link href={normalizeHref(link.href)} className="text-emerald-700 hover:text-emerald-900 hover:underline transition-colors">
                       {link.label}
                     </Link>
                   </li>
