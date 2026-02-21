@@ -94,7 +94,7 @@ export default function WordCountDisplay({ selector, debounce = 250, hideWhenZer
   const timeLabel = minutes > 0 ? `${minutes} min${minutes > 1 ? '' : ''}` : `${seconds} sec`;
 
   return (
-    <span className="wordcount text-gray-900" role="status" aria-live="polite">
+    <span className="bg-white shadow-sm rounded-sm wordcount text-gray-900" role="status" aria-live="polite">
       <span className="label">Read time:</span>
       <span className="value">{timeLabel}</span>
     </span>
