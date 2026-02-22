@@ -72,7 +72,7 @@ export default function Page({ searchParams }: any) {
         metaKey="mahabharata"
         title={page.title}
         description={page.description}
-        titleColor="from-blue-600 via-indigo-600 to-purple-700"
+        titleColor="from-amber-600 via-rose-600 to-indigo-700"
         titleBorder="border-blue-500"
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Mahabharata' }]}
         className="layout-md"

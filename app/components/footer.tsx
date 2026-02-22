@@ -6,7 +6,6 @@ import { useLocale } from '@app/context/locale-context';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import LazyImage from './lazyimage';
-import HeritageFooter from './heritage';
 
 export default function Footer() {
   const { locale } = useLocale();
@@ -39,12 +38,13 @@ export default function Footer() {
 
   return (
     <>
-      <HeritageFooter />
       <footer className={`gradient-background w-full px-3`} style={{ minHeight: '400px' }}>
         <div className={`relative z-29`}>
           <section className="content-wrapper text-center py-30!">
-            <h6 className={`text-4xl md:text-5xl font-light text-white drop-shadow-xl [text-shadow:_2px_2px_8px_rgb(0_0_0_/_60%)] my-6`}>{footer?.title || footer?.titleText}</h6>
-            <p className={`text-md md:mx-auto md:max-w-5xl md:text-lg text-white/90 leading-relaxed my-6`}>{footer?.quote || footer?.quotes} {footer?.quoteSource || footer?.quotesource}</p>
+            <h6 className={`mx-auto max-w-2xl shadow-2xl rounded-lg bg-white/94 px-3 py-6`}>
+              <span className="text-3xl/10 md:text-4xl/12 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">{footer?.title || footer?.titleText}</span>
+            </h6>
+            <p className={`text-lg md:mx-auto md:max-w-5xl md:text-lg text-white/90 leading-relaxed my-6`}>{footer?.quote || footer?.quotes} {footer?.quoteSource || footer?.quotesource}</p>
 
             {/* CTA Buttons */}
             <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 mt-6">
