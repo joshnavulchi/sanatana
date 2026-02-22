@@ -37,6 +37,38 @@ export default function Page({ searchParams }: any) {
     };
   })();
 
+  const findSummary = (obj: any): string | null => {
+    if (!obj || typeof obj !== 'object') return null;
+    if (typeof obj.summary === 'string' && obj.summary.trim()) return obj.summary;
+    // direct summary-like string keys
+    for (const k of Object.keys(obj)) {
+      const v = obj[k];
+      if (typeof v === 'string' && k.toLowerCase().includes('summary') && v.trim()) return v;
+    }
+    // recurse into children
+    for (const k of Object.keys(obj)) {
+      const v = obj[k];
+      if (v && typeof v === 'object') {
+        const s = findSummary(v);
+        if (s) return s;
+      }
+    }
+    return null;
+  };
+
+  const getPartSummary = (p: any): string => {
+    const s = findSummary(p);
+    if (s) return s;
+    // try direct introduction -> context_of_kurukshetra
+    if (p.introduction && typeof p.introduction.context_of_kurukshetra === 'string') return p.introduction.context_of_kurukshetra;
+    // sometimes introduction is nested inside a child object like bhagavadgita_part_1
+    for (const k of Object.keys(p)) {
+      const v = p[k];
+      if (v && typeof v === 'object' && v.introduction && typeof v.introduction.context_of_kurukshetra === 'string') return v.introduction.context_of_kurukshetra;
+    }
+    return '';
+  };
+
   return (
     <PageLayout
       metaKey="scriptures_bhagavadgita"
@@ -100,9 +132,12 @@ export default function Page({ searchParams }: any) {
                           <h4 className={`text-xl ${color.text} group-hover:${hoverText} transition-colors`}>{part.title}</h4>
                         </div>
                       </div>
-                      {part.introduction && (
-                        <p className="text-sm text-gray-700 leading-relaxed pl-13">{part.introduction.context_of_kurukshetra || ''}</p>
-                      )}
+                      {(() => {
+                        const summary = getPartSummary(part);
+                          return summary ? (
+                            <p className="text-md text-gray-700 leading-relaxed overflow-hidden line-clamp-6">{summary}</p>
+                          ) : null;
+                      })()}
                       <div className={`relative z-10 pt-4 flex items-center gap-2 ${color.text} hover:gap-3 transition-all duration-300`}>
                         <Link
                           href={`/scriptures/bhagavadgita/part/bhagavadgita_part_${i + 1}`}
