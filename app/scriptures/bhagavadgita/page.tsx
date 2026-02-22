@@ -42,7 +42,7 @@ export default function Page({ searchParams }: any) {
       metaKey="scriptures_bhagavadgita"
       title={page.title}
       description={page.description}
-      titleColor="from-orange-600 via-red-600 to-amber-700"
+      titleColor="from-amber-600 via-rose-600 to-indigo-700"
       titleBorder="border-amber-500"
       breadcrumbs={[
         { labelKey: 'Home', href: '/' },

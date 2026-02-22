@@ -70,7 +70,7 @@ export default function Page({ searchParams }: any) {
         metaKey="ramayana"
         title={page.title}
         description={page.description}
-        titleColor="from-orange-600 via-red-600 to-amber-700"
+        titleColor="from-amber-600 via-rose-600 to-indigo-700"
         titleBorder="border-amber-500"
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Ramayana' }]}
         className="layout-md"
