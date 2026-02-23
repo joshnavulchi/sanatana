@@ -73,7 +73,7 @@ const Region = ({ title, data }: { title: string; data?: RegionData }) => {
       </div>
 
       {data.description && (
-        <p className=" leading-relaxed mb-6 pl-15">{data.description}</p>
+        <p className=" leading-relaxed mb-6 ">{data.description}</p>
       )}
 
       {/* Rulers timeline */}
@@ -102,7 +102,7 @@ const Region = ({ title, data }: { title: string; data?: RegionData }) => {
                 {ruler.name}
               </h5>
 
-              <div className="space-y-2 text-sm">
+              <div className="space-y-2 text-xl">
                 {ruler.dynasty && (
                   <p className="">
                     <strong className="text-amber-800">Dynasty:</strong> {ruler.dynasty}
@@ -243,11 +243,11 @@ export default function HistoricalTimeline() {
                           <span className="text-2xl">📅</span>
                           <div className="flex-1">
                             <h4 className="text-xl font-bold text-gray-900  mb-1">{item.term}</h4>
-                            <p className="text-sm text-amber-800  font-semibold">{item.fullForm}</p>
+                            <p className="text-xl text-amber-800  font-semibold">{item.fullForm}</p>
                           </div>
                         </div>
 
-                        <div className="space-y-2 text-sm">
+                        <div className="space-y-2 text-xl">
                           <p className=" "><strong className="text-amber-800 ">Time Period:</strong> {item.timePeriod}</p>
                           <p className=" "><strong className="text-amber-800 ">Counting Direction:</strong> {item.countingDirection}</p>
                           <p className=" "><strong className="text-amber-800 ">Equivalent To:</strong> {item.equivalentTo}</p>

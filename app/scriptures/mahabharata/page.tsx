@@ -72,7 +72,7 @@ export default function Page({ searchParams }: any) {
         metaKey="mahabharata"
         title={page.title}
         description={page.description}
-        titleColor="from-amber-600 via-rose-600 to-indigo-700"
+        titleColor="from-blue-600 via-indigo-600 to-purple-700"
         titleBorder="border-blue-500"
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Mahabharata' }]}
         className="layout-md"
@@ -87,7 +87,7 @@ export default function Page({ searchParams }: any) {
               </h4>
             </div>
             <div className="bg-white border-l-4 border-blue-500 shadow-lg rounded-r-xl p-6">
-              <p className="text-base text-gray-700 leading-relaxed">{page.introduction}</p>
+              <p className="text-xl text-gray-700 leading-relaxed">{page.introduction}</p>
             </div>
           </section>
         )}
@@ -114,7 +114,7 @@ export default function Page({ searchParams }: any) {
                       </div>
                     </div>
                     {c.description && (
-                      <p className="text-sm text-gray-700 leading-relaxed pl-13">{c.description}</p>
+                      <p className="text-xl text-gray-700 leading-relaxed ">{c.description}</p>
                     )}
                   </div>
                 </div>
@@ -142,7 +142,7 @@ export default function Page({ searchParams }: any) {
                       </div>
                       <div className="flex-1">
                         <h3 className="text-xl font-bold text-blue-900 mb-2">{typeof ct.title === 'string' ? ct.title : ct['title']}</h3>
-                        {ct.description && <p className="text-sm text-gray-700 leading-relaxed">{ct.description}</p>}
+                        {ct.description && <p className="text-xl text-gray-700 leading-relaxed">{ct.description}</p>}
                       </div>
                     </div>
                   </div>
@@ -159,7 +159,7 @@ export default function Page({ searchParams }: any) {
                 <span className="relative z-10 bg-white px-6">The Eighteen Parvas</span>
                 <div className="absolute top-1/2 left-0 w-full h-0.5 bg-gradient-to-r from-blue-300 via-blue-500 to-blue-300"></div>
               </h2>
-              <p className="text-center text-gray-600 mt-4 text-sm max-w-2xl mx-auto">Journey through the eighteen books of the Mahabharata, each revealing profound wisdom about duty, morality, and the complexity of human nature.</p>
+              <p className="text-center text-gray-600 mt-4 text-xl max-w-2xl mx-auto">Journey through the eighteen books of the Mahabharata, each revealing profound wisdom about duty, morality, and the complexity of human nature.</p>
             </div>
             <div className="space-y-8">
               {Object.entries(page.parvas)
@@ -204,7 +204,7 @@ export default function Page({ searchParams }: any) {
                         {parva.detailednarration && (
                           <div className="mb-6 pl-0 md:pl-22">
                             <div className="bg-white bg-opacity-70 rounded-xl p-5 border border-gray-200">
-                              <p className="text-sm text-gray-800 leading-relaxed">
+                              <p className="text-xl text-gray-800 leading-relaxed">
                                 {parva.detailednarration.split('\n\n').slice(0, 2).join('\n\n')}...
                               </p>
                             </div>
@@ -214,14 +214,14 @@ export default function Page({ searchParams }: any) {
                           <div className="mb-6 pl-0 md:pl-22">
                             <div className="bg-white bg-opacity-90 rounded-xl p-5 border-l-4 border-blue-500">
                               <p className="text-xs font-bold text-blue-700 uppercase tracking-wider mb-2">📚 Key Lessons</p>
-                              <p className="text-sm text-gray-700 leading-relaxed">{parva.moralpsychologicalphilosophicallessons}</p>
+                              <p className="text-xl text-gray-700 leading-relaxed">{parva.moralpsychologicalphilosophicallessons}</p>
                             </div>
                           </div>
                         )}
                         <div className="pl-0 md:pl-22 flex justify-end">
                           <Link
                             href={`/scriptures/mahabharata/parva/${parvaKey}`}
-                            className={`inline-flex items-center gap-2 ${color.accent} hover:opacity-90 text-white px-3 py-1 rounded-md shadow-md hover:shadow-xl transition-all duration-300 transform`}
+                            className={`inline-flex items-center gap-2 ${color.accent} hover:opacity-90 text-white font-bold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105`}
                           >
                             <span>Read Complete Parva</span>
                             <span className="text-xl">→</span>
@@ -244,7 +244,7 @@ export default function Page({ searchParams }: any) {
               </h2>
             </div>
             <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl border-2 border-blue-300 shadow-xl p-8">
-              <p className="text-base text-gray-700 leading-relaxed">{page.conclusion}</p>
+              <p className="text-xl text-gray-700 leading-relaxed">{page.conclusion}</p>
             </div>
           </section>
         )}

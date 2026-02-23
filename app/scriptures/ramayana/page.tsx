@@ -100,7 +100,7 @@ export default function Page({ searchParams }: any) {
                     </h3>
                   </div>
                   <div className="p-5">
-                    <p className="text-sm text-gray-700 leading-relaxed">{page.introduction.what_is_ramayanam}</p>
+                    <p className="text-xl text-gray-700 leading-relaxed">{page.introduction.what_is_ramayanam}</p>
                   </div>
                 </div>
               )}
@@ -113,7 +113,7 @@ export default function Page({ searchParams }: any) {
                     </h3>
                   </div>
                   <div className="p-5">
-                    <p className="text-sm text-gray-700 leading-relaxed">{page.introduction.who_wrote_it}</p>
+                    <p className="text-xl text-gray-700 leading-relaxed">{page.introduction.who_wrote_it}</p>
                   </div>
                 </div>
               )}
@@ -126,7 +126,7 @@ export default function Page({ searchParams }: any) {
                     </h3>
                   </div>
                   <div className="p-5">
-                    <p className="text-sm text-gray-700 leading-relaxed">{page.introduction.why_it_is_important}</p>
+                    <p className="text-xl text-gray-700 leading-relaxed">{page.introduction.why_it_is_important}</p>
                   </div>
                 </div>
               )}
@@ -156,7 +156,7 @@ export default function Page({ searchParams }: any) {
                       </div>
                     </div>
                     {c.role && (
-                      <p className="text-sm text-gray-700 leading-relaxed pl-13">{c.role}</p>
+                      <p className="text-xl text-gray-700 leading-relaxed ">{c.role}</p>
                     )}
                   </div>
                 </div>
@@ -184,7 +184,7 @@ export default function Page({ searchParams }: any) {
                       </div>
                       <div className="flex-1">
                         <h3 className="text-xl font-bold text-amber-900 mb-2">{typeof ct.title === 'string' ? ct.title : ct['title']}</h3>
-                        {ct.description && <p className="text-sm text-gray-700 leading-relaxed">{ct.description}</p>}
+                        {ct.description && <p className="text-xl text-gray-700 leading-relaxed">{ct.description}</p>}
                       </div>
                     </div>
                   </div>
@@ -211,8 +211,8 @@ export default function Page({ searchParams }: any) {
                       <span className="text-white font-bold text-lg">{idx + 1}</span>
                     </div>
                     <div className="flex-1 bg-white rounded-xl border-2 border-amber-200 shadow-md hover:shadow-lg transition-shadow duration-300 p-5">
-                      <p className="text-base font-semibold text-amber-900">{typeof ev === 'string' ? ev : ev.event}</p>
-                      {typeof ev === 'object' && ev.desc && <p className="text-sm text-gray-600 mt-2">{ev.desc}</p>}
+                      <p className="text-xl font-semibold text-amber-900">{typeof ev === 'string' ? ev : ev.event}</p>
+                      {typeof ev === 'object' && ev.desc && <p className="text-xl text-gray-600 mt-2">{ev.desc}</p>}
                     </div>
                   </div>
                 ))}
@@ -238,7 +238,7 @@ export default function Page({ searchParams }: any) {
                     </div>
                     <h3 className="text-lg font-bold text-red-900 capitalize">{key.replace(/_/g, ' ')}</h3>
                   </div>
-                  <p className="text-sm text-gray-700 leading-relaxed pl-11">{value}</p>
+                  <p className="text-xl text-gray-700 leading-relaxed ">{value}</p>
                 </div>
               ))}
             </div>
@@ -252,7 +252,7 @@ export default function Page({ searchParams }: any) {
                 <span className="relative z-10 bg-white px-6">The Seven Kandas</span>
                 <div className="absolute top-1/2 left-0 w-full h-0.5 bg-gradient-to-r from-amber-300 via-amber-500 to-amber-300"></div>
               </h2>
-              <p className="text-center text-gray-600 mt-4 text-sm max-w-2xl mx-auto">Experience the complete epic journey through seven magnificent chapters, each revealing profound wisdom and timeless values.</p>
+              <p className="text-center text-gray-600 mt-4 text-xl max-w-2xl mx-auto">Experience the complete epic journey through seven magnificent chapters, each revealing profound wisdom and timeless values.</p>
             </div>
             <div className="space-y-8">
               {Object.entries(page.story_divided_by_kandas)
@@ -334,7 +334,7 @@ export default function Page({ searchParams }: any) {
                     </div>
                     <div className="flex-1">
                       <h3 className="text-lg font-bold text-amber-900 mb-2 capitalize">{key.replace(/_/g, ' ')}</h3>
-                      <p className="text-sm text-gray-700 leading-relaxed">{value}</p>
+                      <p className="text-xl text-gray-700 leading-relaxed">{value}</p>
                     </div>
                   </div>
                 ))}

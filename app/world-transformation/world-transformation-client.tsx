@@ -67,10 +67,10 @@ export default function WorldTransformationContent() {
                 </p>
               )}
               {pageContent.intro && (
-                <p className="text-base md:text-lg text-gray-600 leading-relaxed">{pageContent.intro}</p>
+                <p className="text-xl md:text-lg text-gray-600 leading-relaxed">{pageContent.intro}</p>
               )}
               {pageContent.description && (
-                <p className="text-base md:text-lg text-gray-600 leading-relaxed">{pageContent.description}</p>
+                <p className="text-xl md:text-lg text-gray-600 leading-relaxed">{pageContent.description}</p>
               )}
             </div>
           </div>
@@ -86,7 +86,7 @@ export default function WorldTransformationContent() {
               </div>
 
               {pageContent.whyBordersBecameStable.summary && (
-                <p className=" leading-relaxed pl-15">{pageContent.whyBordersBecameStable.summary}</p>
+                <p className=" leading-relaxed ">{pageContent.whyBordersBecameStable.summary}</p>
               )}
 
               {pageContent.whyBordersBecameStable.factors && Array.isArray(pageContent.whyBordersBecameStable.factors) && (
@@ -105,7 +105,7 @@ export default function WorldTransformationContent() {
                         <span className="text-xl">📍</span>
                         {factor.title}
                       </h5>
-                      <p className="text-sm  leading-relaxed">{factor.explanation}</p>
+                      <p className="text-xl  leading-relaxed">{factor.explanation}</p>
                     </div>
                   ))}
                 </div>
@@ -143,7 +143,7 @@ export default function WorldTransformationContent() {
                       className="w-8 h-6 inline-block rounded-md border-2 border-white shadow-md"
                       style={{ background: ct.color || '#999' }}
                     />
-                    <span className="text-sm font-medium ">{ct.label}</span>
+                    <span className="text-xl font-medium ">{ct.label}</span>
                   </div>
                 ))}
               </div>
@@ -160,7 +160,7 @@ export default function WorldTransformationContent() {
                   </div>
                   <div>
                     <h3 className="text-2xl md:text-3xl font-bold text-gray-900">Historical Decades</h3>
-                    <p className="text-sm text-gray-600">{pageContent.decades.length} periods of transformation</p>
+                    <p className="text-xl text-gray-600">{pageContent.decades.length} periods of transformation</p>
                   </div>
                 </div>
               </div>
@@ -180,7 +180,7 @@ export default function WorldTransformationContent() {
                         <h4 className="text-xl font-bold text-gray-900  group-hover:text-blue-600  transition-colors">
                           {d.decade ?? d.label ?? d.title ?? `Decade ${idx + 1}`}
                         </h4>
-                        <span className="flex-shrink-0 px-3 py-1 bg-gradient-to-r from-blue-100 to-indigo-100   text-blue-700  text-sm font-semibold rounded-full">
+                        <span className="flex-shrink-0 px-3 py-1 bg-gradient-to-r from-blue-100 to-indigo-100   text-blue-700  text-xl font-semibold rounded-full">
                           #{idx + 1}
                         </span>
                       </div>
@@ -198,13 +198,13 @@ export default function WorldTransformationContent() {
 
                       {d.whatChanged && Array.isArray(d.whatChanged) && d.whatChanged.length > 0 && (
                         <div className="mb-4">
-                          <h5 className="text-sm font-bold text-gray-900  mb-2 flex items-center gap-2">
+                          <h5 className="text-xl font-bold text-gray-900  mb-2 flex items-center gap-2">
                             <span>🔄</span>
                             What Changed:
                           </h5>
                           <ul className="space-y-2">
                             {d.whatChanged.map((w: string, i: number) => (
-                              <li key={i} className="flex items-start gap-2 text-sm  ">
+                              <li key={i} className="flex items-start gap-2 text-xl  ">
                                 <span className="text-blue-500 mt-1">•</span>
                                 <span className="flex-1">{w}</span>
                               </li>
@@ -215,13 +215,13 @@ export default function WorldTransformationContent() {
 
                       {d.why && Array.isArray(d.why) && d.why.length > 0 && (
                         <div className="mb-4 pt-4 border-t border-gray-200 ">
-                          <h5 className="text-sm font-bold text-gray-900  mb-2 flex items-center gap-2">
+                          <h5 className="text-xl font-bold text-gray-900  mb-2 flex items-center gap-2">
                             <span>❓</span>
                             Why:
                           </h5>
                           <ul className="space-y-2">
                             {d.why.map((w: string, i: number) => (
-                              <li key={i} className="flex items-start gap-2 text-sm  ">
+                              <li key={i} className="flex items-start gap-2 text-xl  ">
                                 <span className="text-indigo-500 mt-1">•</span>
                                 <span className="flex-1">{w}</span>
                               </li>
@@ -239,7 +239,7 @@ export default function WorldTransformationContent() {
                               onChange={() => setSelectedDecade(selectedDecade === idx ? null : idx)}
                               className="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
                             />
-                            <span className="text-sm font-medium   group-hover/checkbox:text-blue-600  transition-colors">
+                            <span className="text-xl font-medium   group-hover/checkbox:text-blue-600  transition-colors">
                               {selectedDecade === idx ? '✓ Shown on map' : '🗺️ Show on map'}
                             </span>
                           </label>

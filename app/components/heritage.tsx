@@ -9,67 +9,82 @@ export default function HeritageFooter() {
         <div className="absolute top-8 right-8 w-[25px] h-[25px] rounded-full border-4 border-amber-400 opacity-20 animate-ping"></div>
       </div>
 
-      <div className="relative max-w-7xl mx-auto pt-20 text-center">
-        {/* Decorative emblem and heading */}
-        <div className="flex flex-col items-center mb-8">
-          <div className="flex items-center gap-3 mb-4">
-            <svg className="w-8 h-8 text-amber-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="1.5" />
-              <path d="M8 12h8M12 8v8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-            <div className="h-1 w-28 bg-gradient-to-r from-orange-500 to-amber-400 rounded-full" />
-          </div>
-
-          <h6 className="text-3xl md:text-4xl font-semibold text-orange-900 tracking-wide">
-            Preserving Our Vedic Civilizational Legacy
-          </h6>
-
-          <div className="mt-6 max-w-3xl grid gap-4 text-lg text-amber-900 leading-relaxed md:grid-cols-2 md:text-left text-center">
-            <p>
-              Our heritage contains enduring philosophy, arts, and ethical frameworks that support purposeful living across generations.
-            </p>
-            <p>
-              Identity may evolve, but ancestral knowledge remains vital. We are dedicated to safeguarding and sharing these traditions. <Link href="/sanatanadharma" className="underline">Learn more</Link>.
-            </p>
-          </div>
+      <div className="relative max-w-7xl mx-auto px-6 py-20 text-center">
+        {/* Decorative Top Line */}
+        <div className="flex justify-center mb-8">
+          <div className="h-1 w-24 bg-gradient-to-r from-orange-500 to-amber-400 rounded-full"></div>
         </div>
+        <h6 className="text-3xl md:text-4xl font-semibold text-orange-900 tracking-wide">
+          Preserving Our Vedic Civilizational Legacy
+        </h6>
+        <p className="mt-8 text-lg text-amber-900 leading-relaxed">
+          For many, religion is not merely a belief system but a sacred inheritance passed down through generations.
+          Rooted in profound spiritual and philosophical foundations, our tradition has guided humanity for millennia through knowledge, discipline, and dharmic living.
+        </p>
+        <p className="mt-6 text-lg text-amber-900 leading-relaxed">
+          Changing one’s religious identity does not alter one’s ancestry or inherited cultural roots.
+          Destiny is shaped by actions and character rather than affiliation alone.
+        </p>
+        <p className="mt-6 text-lg font-semibold text-orange-800">
+          We remain committed to protecting and transmitting this ancient civilizational legacy for future generations. <Link href="/sanatanadharma" className="underline">Learn more about our mission.</Link>
+        </p>
       </div>
-      <ul className="mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-4 px-3 pt-6 pb-20">
-        <li className="flex items-start gap-3 bg-white border border-orange-100 rounded-lg p-4 shadow-sm">
-          <svg className="flex-shrink-0 w-6 h-6 text-amber-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M9 12l2 2 4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-          <span className="text-amber-900">Respect and preserve cultural and ancestral traditions.</span>
+      <ul className="mx-auto max-w-7xl text-lg hidden">
+        <li className="flex text-lg text-amber-900 mb-2!">
+          <div className="min-w-10">
+            <svg className="relative top-1 w-5 h-5 group-hover/btn:translate-x-1 transition-transform " fill="none" stroke="#000" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </div>
+          <span>Why so curiosity in others life?</span>
         </li>
-        <li className="flex items-start gap-3 bg-white border border-orange-100 rounded-lg p-4 shadow-sm">
-          <svg className="flex-shrink-0 w-6 h-6 text-amber-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M9 12l2 2 4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-          <span className="text-amber-900">Choose mindful media use; prioritize meaningful activities.</span>
+        <li className="flex text-lg text-amber-900 mb-2!">
+          <div className="min-w-10">
+            <svg className="relative top-1 w-5 h-5 group-hover/btn:translate-x-1 transition-transform " fill="none" stroke="#000" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </div>
+          <span>What will you get to spending hours in youtube, instagram, facebook, whatsapp? Stop them.</span>
         </li>
-        <li className="flex items-start gap-3 bg-white border border-orange-100 rounded-lg p-4 shadow-sm">
-          <svg className="flex-shrink-0 w-6 h-6 text-amber-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M9 12l2 2 4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-          <span className="text-amber-900">Foster real-world connections through community and shared activities.</span>
+        <li className="flex text-lg text-amber-900 mb-2!">
+          <div className="min-w-10">
+            <svg className="relative top-1 w-5 h-5 group-hover/btn:translate-x-1 transition-transform " fill="none" stroke="#000" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </div>
+          <span>You need entertainment means real people play games.</span>
         </li>
-        <li className="flex items-start gap-3 bg-white border border-orange-100 rounded-lg p-4 shadow-sm">
-          <svg className="flex-shrink-0 w-6 h-6 text-amber-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M9 12l2 2 4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-          <span className="text-amber-900">Reserve quality time with family and close friends to restore balance.</span>
+        <li className="flex text-lg text-amber-900 mb-2!">
+          <div className="min-w-10">
+            <svg className="relative top-1 w-5 h-5 group-hover/btn:translate-x-1 transition-transform " fill="none" stroke="#000" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </div>
+          <span>You need relax means spend time with family or nearest friends.</span>
         </li>
-        <li className="flex items-start gap-3 bg-white border border-orange-100 rounded-lg p-4 shadow-sm">
-          <svg className="flex-shrink-0 w-6 h-6 text-amber-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M9 12l2 2 4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-          <span className="text-amber-900">Explore foundational texts: <Link href="/scriptures/ramayana">Ramayana</Link>, <Link href="/scriptures/mahabharata">Mahabharata</Link>, <Link href="/scriptures/bhagavadgita">Bhagavad Gita</Link>, <Link href="/scriptures/vedas">Vedas</Link>, <Link href="/scriptures/upanishads">Upanishads</Link>, <Link href="/scriptures/puranas">Puranas</Link>.</span>
+        <li className="flex text-lg text-amber-900 mb-2!">
+          <div className="min-w-10">
+            <svg className="relative top-1 w-5 h-5 group-hover/btn:translate-x-1 transition-transform " fill="none" stroke="#000" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </div>
+          <span>You want to be meaning full to your life. A lot of things there to read from our own roots. Like <Link href="/scriptures/ramayana" title="Ramayana">Ramayana</Link>, <Link href="/scriptures/mahabharata" title="Mahabharata">Mahabharata</Link>, <Link href="/scriptures/bhagavadgita" title="Bhagavad Gita">Bhagavad Gita</Link>, <Link href="/scriptures/vedas" title="Vedas">Vedas</Link>, <Link href="/scriptures/upanishads" title="Upanishads">Upanishads</Link>, <Link href="/scriptures/puranas" title="Puranas">Puranas</Link>, etc.</span>
         </li>
-        <li className="flex items-start gap-3 bg-white border border-orange-100 rounded-lg p-4 shadow-sm">
-          <svg className="flex-shrink-0 w-6 h-6 text-amber-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M9 12l2 2 4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-          <span className="text-amber-900">Act with purpose and responsibility; contribute in simple, meaningful ways. <Link href="/philosophy/karma">Learn more</Link>.</span>
+        <li className="flex text-lg text-amber-900 mb-2!">
+          <div className="min-w-10">
+            <svg className="relative top-1 w-5 h-5 group-hover/btn:translate-x-1 transition-transform " fill="none" stroke="#000" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </div>
+          <span>You did not come for time pass or entertain some peoples. You came to help peoples in a simple ways.</span>
+        </li>
+        <li className="flex text-lg text-amber-900 mb-2!">
+          <div className="min-w-10">
+            <svg className="relative top-1 w-5 h-5 group-hover/btn:translate-x-1 transition-transform " fill="none" stroke="#000" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </div>
+          <span>You did not come for work, earn money, get famous, not a machine. You came with some responsibilities which was ignored in your past births. <Link href="/philosophy/karma" title="karma">read this...</Link></span>
         </li>
       </ul>
     </section>

@@ -32,26 +32,28 @@ export default function PageLayout({ metaKey, title, titleColor, titleBorder, de
         </div>
         {/* Hero Header Section */}
         <div className="relative my-6 overflow-hidden">
-          <div className="px-4 py-5">
-            <div className="text-center">
-              <div className="inline-block relative mb-10">
-                {title && (<h2 className={`text-3xl/10 font-semibold text-transparent bg-clip-text bg-gradient-to-r ${h2Color} px-3 py-3`}>
+          <div className="px-8 py-10">
+            <div className="text-center mb-6">
+              <div className="inline-block relative">
+                {title && (<h2 className={`text-4xl/10 font-semibold text-transparent bg-clip-text bg-gradient-to-r ${h2Color} px-12 py-3 mb-3`}>
                   {title}
                 </h2>)}
-                <div className={`absolute -top-4 -left-4 w-16 h-16 border-t-3 border-l-3 ${h2Border} rounded-tl-2xl`}></div>
-                <div className={`absolute -bottom-4 -right-4 w-16 h-16 border-b-3 border-r-3 ${h2Border} rounded-br-2xl`}></div>
+                <div className={`absolute -top-4 -left-4 w-16 h-16 border-t-4 border-l-4 ${h2Border} rounded-tl-3xl`}></div>
+                <div className={`absolute -bottom-4 -right-4 w-16 h-16 border-b-4 border-r-4 ${h2Border} rounded-br-3xl`}></div>
               </div>
             </div>
             {description && (
-              <div className="max-w-4xl mx-auto">
-                <p className="text-center text-lg text-amber-800 leading-relaxed italic font-medium px-4 mt-3">
+              <div className="max-w-3xl mx-auto">
+                <p className="text-center text-lg text-amber-800 leading-relaxed italic font-medium px-4">
                   &ldquo;{description}&rdquo;
                 </p>
               </div>
             )}
           </div>
         </div>
-        {children}
+        <div className="px-3">
+          {children}
+        </div>
       </main>
     </>
   );

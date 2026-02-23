@@ -190,7 +190,7 @@ export default function Header() {
               height={40}
               className="md:flex"
             />
-            <span className="max-w-50 md:max-w-100 font-[1000] text-3xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700 tracking-tight drop-shadow-lg">
+            <span className="max-w-50 md:max-w-100 font-[1000] text-3xl md:text-4xl bg-gradient-to-r from-orange-600 via-amber-700 to-yellow-600 bg-clip-text text-transparent tracking-tight drop-shadow-lg">
               {translations.siteTitle}
             </span>
           </Link>
@@ -225,7 +225,7 @@ export default function Header() {
                       <div className="h-1 w-full bg-gradient-to-r from-orange-400 via-amber-400 to-yellow-300" />
                       {Object.entries(val.nav).map(([subKey, subLabel], idx) => (
                         <Link key={subKey} href={`/${key}/${subKey}`} role="menuitem" className="flex items-center gap-3 px-5 py-2 text-amber-800 rounded transition-colors duration-150 hover:bg-orange-100 hover:text-orange-700 focus:bg-orange-200 focus:text-orange-800" style={{ animationDelay: `${idx * 40}ms` }}>
-                          <span className="text-base">🔸</span>
+                          <span className="text-xl">🔸</span>
                           <span>{String(subLabel)}</span>
                         </Link>
                       ))}
@@ -288,7 +288,7 @@ export default function Header() {
                           className="flex items-center gap-2 px-7 py-2 text-amber-700 rounded transition-colors duration-150 hover:bg-orange-100 hover:text-orange-700 focus:bg-orange-200 focus:text-orange-800"
                           onClick={() => setOpen(false)}
                         >
-                          <span className="text-base">🔸</span>
+                          <span className="text-xl">🔸</span>
                           <span>{String(subLabel)}</span>
                         </Link>
                       ))}

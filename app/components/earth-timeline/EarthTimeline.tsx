@@ -349,7 +349,7 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
             </span>
-            <span className="text-red-300 text-sm font-semibold">High Tectonic Activity</span>
+            <span className="text-red-300 text-xl font-semibold">High Tectonic Activity</span>
           </div>
         )}
 
@@ -696,7 +696,7 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
             <h3 className="text-2xl font-bold text-white mb-3 flex items-center gap-3">
               {currentPeriod.name}
               {currentPeriod.tectonicActivity === 'high' && (
-                <span className="px-3 py-1 bg-red-500/20 border border-red-500/50 rounded-full text-red-300 text-sm font-semibold">
+                <span className="px-3 py-1 bg-red-500/20 border border-red-500/50 rounded-full text-red-300 text-xl font-semibold">
                   🔥 Active Plates
                 </span>
               )}
@@ -744,7 +744,7 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
             </span>
           </button>
 
-          <div className="text-sm text-gray-400">
+          <div className="text-xl text-gray-400">
             {show3D ? '🌍 Realistic 3D sphere with depth' : '🗺️ Simple flat projection'}
           </div>
         </div>
@@ -822,7 +822,7 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
                 <div className={`
                   absolute -top-20 left-1/2 -translate-x-1/2
                   px-4 py-2 rounded-lg min-w-max
-                  bg-gray-900 border border-gray-700 text-white text-sm
+                  bg-gray-900 border border-gray-700 text-white text-xl
                   opacity-0 group-hover:opacity-100
                   transition-all duration-300
                   pointer-events-none
@@ -870,7 +870,7 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
                 <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                 <span className="text-green-400 font-semibold">Low Activity</span>
               </div>
-              <p className="text-gray-400 text-sm">Stable continental positions with minimal tectonic movement</p>
+              <p className="text-gray-400 text-xl">Stable continental positions with minimal tectonic movement</p>
             </div>
 
             <div className="bg-gray-800/50 rounded-xl p-4 border border-gray-700">
@@ -878,7 +878,7 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
                 <div className="w-3 h-3 bg-yellow-500 rounded-full animate-pulse"></div>
                 <span className="text-yellow-400 font-semibold">Moderate Activity</span>
               </div>
-              <p className="text-gray-400 text-sm">Continents actively drifting, mountain ranges forming</p>
+              <p className="text-gray-400 text-xl">Continents actively drifting, mountain ranges forming</p>
             </div>
 
             <div className="bg-gray-800/50 rounded-xl p-4 border border-gray-700">
@@ -886,12 +886,12 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
                 <div className="w-3 h-3 bg-red-500 rounded-full animate-ping"></div>
                 <span className="text-red-400 font-semibold">High Activity</span>
               </div>
-              <p className="text-gray-400 text-sm">Major rifting, collisions, and supercontinent formation</p>
+              <p className="text-gray-400 text-xl">Major rifting, collisions, and supercontinent formation</p>
             </div>
           </div>
 
           <div className="mt-4 pt-4 border-t border-gray-700">
-            <p className="text-sm text-gray-400 text-center">
+            <p className="text-xl text-gray-400 text-center">
               🌏 <span className="text-amber-400 font-semibold">Did you know?</span> Tectonic plates move at about the same rate as your fingernails grow - roughly 2-5 cm per year!
             </p>
           </div>

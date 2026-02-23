@@ -48,18 +48,18 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
           <h3 className="text-3xl md:text-4xl font-extrabold text-slate-900">
             Sankshepa Ramayanam — Slokas
           </h3>
-          <p className="mt-1 text-sm text-slate-500">
+          <p className="mt-1 text-xl text-slate-500">
             Showing {visible} of {total} — elegant, readable cards with quick actions
           </p>
         </div>
         <div className="flex items-center gap-3">
-          <span className="text-sm px-3 py-2 bg-amber-50 rounded-full text-amber-700 shadow-sm">
+          <span className="text-xl px-3 py-2 bg-amber-50 rounded-full text-amber-700 shadow-sm">
             {total} slokas
           </span>
         </div>
       </header>
 
-      <div className="grid gap-6 grid-cols-1">
+      <div className="grid gap-6 grid-cols-1 md:grid-cols-2">
         {slokas.slice(0, visible).map((s, idx) => {
           const key = s.sloka || s.sanskrit || idx;
           const isExpanded = !!expanded[idx];
@@ -71,19 +71,19 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
           return (
             <article
               key={key}
-              className="relative group overflow-hidden rounded-xl border border-amber-400 bg-gradient-to-br from-white/60 to-white/40 shadow-lg p-6 backdrop-blur-sm"
+              className="relative group overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-br from-white/60 to-white/40 shadow-lg p-6 backdrop-blur-sm"
             >
               <div className="absolute -left-6 top-4 h-24 w-2 rounded-r-full bg-gradient-to-b from-amber-400 via-orange-500 to-rose-500 opacity-90 transform rotate-3" />
               <div className="flex justify-between items-start">
                 <div className="flex-1">
                   {s.sanskrit ? (
-                    <p className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700">
+                    <p className="text-xl md:text-2xl font-extrabold tracking-tight bg-clip-text bg-gradient-to-r from-amber-600 via-orange-500 to-amber-400">
                       {s.sanskrit}
                     </p>
                   ) : null}
 
                   {s.transliteration ? (
-                    <p className="mt-2 text-md italic text-slate-700">
+                    <p className="mt-2 text-xl italic text-slate-700">
                       {s.transliteration}
                     </p>
                   ) : null}
@@ -106,24 +106,24 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                       </svg>
                     ) : (
-                      <svg className="w-5 h-5 text-slate-700" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <svg className="w-5 h-5 text-slate-600" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7h11v11H8z" />
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 11h1a2 2 0 0 0 2-2V4a2 2 0 0 1 2-2h6" />
                       </svg>
                     )}
                   </button>
-                  <span className="text-md text-slate-400">{idx + 1}</span>
+                  <span className="text-xl text-slate-400">{idx + 1}</span>
                 </div>
               </div>
 
               <div className="mt-4">
                 {context ? (
-                  <div className="text-sm text-slate-700 leading-relaxed">
+                  <div className="text-xl text-slate-400 leading-relaxed">
                     <p className={`${isExpanded ? "" : "line-clamp-[8]"}`}>{isExpanded ? context : previewContext}</p>
                     {context.length > 220 ? (
                       <button
                         onClick={() => toggleExpand(idx)}
-                        className="mt-3 inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-sm bg-amber-50 text-amber-700 border border-amber-100 shadow-sm hover:brightness-105 transition"
+                        className="mt-3 inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xl bg-amber-50 text-amber-700 border border-amber-100 shadow-sm hover:brightness-105 transition"
                         aria-expanded={isExpanded}
                       >
                         {isExpanded ? "Show less" : "Read more"}
@@ -134,18 +134,18 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
                     ) : null}
                   </div>
                 ) : (
-                  <p className="text-sm text-slate-700">No context available.</p>
+                  <p className="text-xl text-slate-400">No context available.</p>
                 )}
               </div>
 
               <div className="mt-4">
                 {meaning ? (
-                  <div className="text-md text-slate-700 leading-relaxed">
+                  <div className="text-xl text-slate-400 leading-relaxed">
                     <p className={`${isExpanded ? "" : "line-clamp-[8]"}`}>{isExpanded ? meaning : previewMeaning}</p>
                     {meaning.length > 220 ? (
                       <button
                         onClick={() => toggleExpand(idx)}
-                        className="mt-3 inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-sm bg-amber-50 text-amber-700 border border-amber-100 shadow-sm hover:brightness-105 transition"
+                        className="mt-3 inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xl bg-amber-50 text-amber-700 border border-amber-100 shadow-sm hover:brightness-105 transition"
                         aria-expanded={isExpanded}
                       >
                         {isExpanded ? "Show less" : "Read more"}
@@ -156,7 +156,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
                     ) : null}
                   </div>
                 ) : (
-                  <p className="text-md text-slate-700">No meaning available.</p>
+                  <p className="text-xl text-slate-400">No meaning available.</p>
                 )}
               </div>
 

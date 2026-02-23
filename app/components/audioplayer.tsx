@@ -306,7 +306,7 @@ export default function AudioPlayer({
           {currentTrack.title ?? "Untitled Track"}
         </div>
         {currentTrack.artist ? (
-          <div className="text-gray-500 text-base">{currentTrack.artist}</div>
+          <div className="text-gray-500 text-xl">{currentTrack.artist}</div>
         ) : null}
       </div>
 
@@ -346,7 +346,7 @@ export default function AudioPlayer({
 
       {/* Volume */}
       <div className="items-center gap-2 hidden">
-        <span className="text-gray-500 text-sm">Vol</span>
+        <span className="text-gray-500 text-xl">Vol</span>
         <input
           type="range"
           min={0}
