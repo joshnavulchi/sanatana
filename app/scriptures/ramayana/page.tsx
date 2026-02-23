@@ -70,7 +70,7 @@ export default function Page({ searchParams }: any) {
         metaKey="ramayana"
         title={page.title}
         description={page.description}
-        titleColor="from-orange-600 via-red-600 to-amber-700"
+        titleColor="from-amber-600 via-rose-600 to-indigo-700"
         titleBorder="border-amber-500"
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Ramayana' }]}
         className="layout-md"
@@ -286,7 +286,7 @@ export default function Page({ searchParams }: any) {
                         {kanda.narrative && (
                           <div className="mb-6 pl-0 md:pl-22">
                             <div className="bg-white bg-opacity-70 rounded-xl p-5 border border-gray-200">
-                              <p className="text-xl text-gray-800 leading-relaxed line-clamp-4">
+                              <p className="text-sm text-gray-800 leading-relaxed line-clamp-4">
                                 {kanda.narrative.split('\n\n').slice(0, 2).join('\n\n')}...
                               </p>
                             </div>
@@ -296,14 +296,14 @@ export default function Page({ searchParams }: any) {
                           <div className="mb-6 pl-0 md:pl-22">
                             <div className="bg-white bg-opacity-90 rounded-xl p-5 border-l-4 border-amber-500">
                               <p className="text-xs font-bold text-amber-700 uppercase tracking-wider mb-2">📚 Key Lessons</p>
-                              <p className="text-xl text-gray-700 leading-relaxed">{kanda.lessons}</p>
+                              <p className="text-sm text-gray-700 leading-relaxed">{kanda.lessons}</p>
                             </div>
                           </div>
                         )}
                         <div className="pl-0 md:pl-22 flex justify-end">
                           <Link
                             href={`/scriptures/ramayana/kandas/${kkey}`}
-                            className={`inline-flex items-center gap-2 ${color.accent} hover:opacity-90 text-white font-bold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105`}
+                            className={`inline-flex items-center gap-2 ${color.accent} hover:opacity-90 text-white px-3 py-1 rounded-sm shadow-md hover:shadow-xl transition-all duration-300 transform`}
                           >
                             <span>Read Complete Chapter</span>
                             <span className="text-xl">→</span>
