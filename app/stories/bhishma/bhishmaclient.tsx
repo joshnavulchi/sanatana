@@ -51,7 +51,7 @@ export default function BhishmaClient() {
               {typeof item === 'object' ? Object.entries(item).map(([k, v]) => (
                 <div key={k} className="mb-2">
                   <div className="font-semibold">{fmtLabel(k)}</div>
-                  <div className="text-sm text-gray-700">{renderValue(v, k)}</div>
+                  <div className="text-xl text-gray-700">{renderValue(v, k)}</div>
                 </div>
               )) : <div>{String(item)}</div>}
             </div>
@@ -65,7 +65,7 @@ export default function BhishmaClient() {
           {Object.entries(value).map(([k, v]) => (
             <div key={k}>
               <div className="text-lg font-semibold mb-1">{fmtLabel(k)}</div>
-              <div className="text-sm text-gray-700">{renderValue(v, k)}</div>
+              <div className="text-xl text-gray-700">{renderValue(v, k)}</div>
             </div>
           ))}
         </div>

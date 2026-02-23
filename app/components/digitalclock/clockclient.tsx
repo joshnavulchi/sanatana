@@ -255,7 +255,7 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
                     </>
                   )}
                 </div>
-                <span className="ml-1 text-base text-gray-600 font-semibold">{ampm}</span>
+                <span className="ml-1 text-xl text-gray-600 font-semibold">{ampm}</span>
               </div>
             </div>
             {latLng && (

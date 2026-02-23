@@ -125,12 +125,12 @@ export default function WelcomePage() {
                 <p className="text-lg md:text-xl   leading-relaxed">
                   We are deeply honored and blessed by your presence here.
                 </p>
-                <p className="text-base md:text-lg text-gray-600  leading-relaxed">
+                <p className="text-xl md:text-lg text-gray-600  leading-relaxed">
                   Thank you for taking this sacred step towards understanding and embracing the
                   <span className="font-semibold text-amber-700 "> eternal truths of Sanātana Dharma</span>
                   — the timeless wisdom that illuminates the path to inner peace, righteousness, and spiritual awakening.
                 </p>
-                <p className="text-base md:text-lg text-gray-600  leading-relaxed">
+                <p className="text-xl md:text-lg text-gray-600  leading-relaxed">
                   May your journey through these ancient teachings bring you
                   <span className="font-semibold text-orange-600 "> clarity, devotion, and divine grace</span>.
                 </p>
@@ -138,10 +138,10 @@ export default function WelcomePage() {
 
               {/* Closing blessing */}
               <div className="pt-6 space-y-2">
-                <p className="text-sm md:text-base text-amber-700  font-medium tracking-wide">
+                <p className="text-xl md:text-xl text-amber-700  font-medium tracking-wide">
                   सत्यमेव जयते । धर्मो रक्षति रक्षितः
                 </p>
-                <p className="text-xs md:text-sm text-gray-400  italic">
+                <p className="text-xs md:text-xl text-gray-400  italic">
                   Truth Alone Triumphs · Dharma Protects Those Who Protect It
                 </p>
               </div>
@@ -169,7 +169,7 @@ export default function WelcomePage() {
                       transition-all
                     "
                   />
-                  <span className="text-sm text-gray-600  group-hover:text-amber-700  transition-colors">
+                  <span className="text-xl text-gray-600  group-hover:text-amber-700  transition-colors">
                     Do not show this welcome message again
                   </span>
                 </label>

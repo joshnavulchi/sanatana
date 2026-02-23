@@ -71,7 +71,7 @@ export default function CosmictimeClient() {
             {data.cosmicTimeSystem && typeof data.cosmicTimeSystem === "object" && (
               <div className="mt-12 p-6 md:p-8 bg-white border-2 border-emerald-100 rounded-2xl ring-1 ring-emerald-100/30 bg-white/80 backdrop-blur-sm">
                 <h3 className="text-2xl font-bold mb-4 text-emerald-700">Cosmic Time System</h3>
-                <pre className="whitespace-pre-wrap text-sm text-gray-800 bg-emerald-50 rounded p-4 overflow-x-auto">
+                <pre className="whitespace-pre-wrap text-xl text-gray-800 bg-emerald-50 rounded p-4 overflow-x-auto">
                   {JSON.stringify(data.cosmicTimeSystem, null, 2)}
                 </pre>
               </div>
@@ -93,7 +93,7 @@ export default function CosmictimeClient() {
             {data.manvantara && typeof data.manvantara === "object" && Object.keys(data.manvantara).length > 0 && (
               <div className="mt-12 p-6 md:p-8 bg-white border-2 border-emerald-100 rounded-2xl ring-1 ring-emerald-100/30 bg-white/80 backdrop-blur-sm">
                 <h3 className="text-2xl font-bold mb-4 text-emerald-700">Manvantara</h3>
-                <pre className="whitespace-pre-wrap text-sm text-gray-800 bg-emerald-50 rounded p-4 overflow-x-auto">
+                <pre className="whitespace-pre-wrap text-xl text-gray-800 bg-emerald-50 rounded p-4 overflow-x-auto">
                   {JSON.stringify(data.manvantara, null, 2)}
                 </pre>
               </div>

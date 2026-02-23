@@ -68,7 +68,7 @@ function renderContent(value: any): React.ReactNode {
       <div className="divide-y divide-orange-200">
         {Object.entries(value).map(([k, v]: [string, any], idx: number) => (
           <div key={k + idx} className="py-2">
-            <div className="text-orange-700 font-semibold mb-1 text-base flex items-center">
+            <div className="text-orange-700 font-semibold mb-1 text-xl flex items-center">
               <span className="bg-orange-100 px-2 py-1 rounded mr-2">
                 {k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}
               </span>
@@ -440,7 +440,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
               <div className="relative z-10">
                 <div className="flex items-center justify-center mb-4">
                   <div className="bg-white bg-opacity-20 backdrop-blur-sm px-6 py-2 rounded-full border-2 border-white border-opacity-50">
-                    <p className="text-white text-sm font-bold uppercase tracking-widest">Sacred Scripture</p>
+                    <p className="text-white text-xl font-bold uppercase tracking-widest">Sacred Scripture</p>
                   </div>
                 </div>
                 <h3 className="text-4xl md:text-5xl font-black text-white text-center mb-4 leading-tight drop-shadow-lg">
@@ -518,7 +518,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                     <span className="text-4xl text-gray-400">💭</span>
                   </div>
                   <p className="text-xl text-gray-600 font-medium">Content not available for this part.</p>
-                  <p className="text-sm text-gray-500 mt-2">Please check back later or explore other parts.</p>
+                  <p className="text-xl text-gray-500 mt-2">Please check back later or explore other parts.</p>
                 </div>
               )}
             </div>

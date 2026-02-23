@@ -80,7 +80,7 @@ export default function TemplesInIndiaClient() {
                       <Tag className="flex-1 text-2xl md:text-3xl font-bold text-gray-900 group-hover:text-indigo-600 transition-colors duration-300">{section.name || section.title || section.name || section.id}</Tag>
                     </div>
 
-                    {section?.how_it_was_built && <p className="text-base md:text-lg leading-relaxed pl-16">{section.how_it_was_built}</p>}
+                    {section?.how_it_was_built && <p className="text-xl md:text-lg leading-relaxed pl-16">{section.how_it_was_built}</p>}
                     <ul className="mt-3 pl-16 space-y-2">
                       {section.location && <li><strong>Location:</strong> {section.location}</li>}
                       {section.state && <li><strong>State:</strong> {section.state}</li>}

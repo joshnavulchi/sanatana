@@ -83,7 +83,7 @@ export default function SimilarCategories({
     return (
       <aside className="p-4 bg-white/80 border-l-4 border-emerald-500 shadow-lg rounded-xl">
         <h5 className="text-lg font-bold text-emerald-700 mb-2">{title}</h5>
-        <p className="text-sm text-gray-600">Loading categories or no categories available...</p>
+        <p className="text-xl text-gray-600">Loading categories or no categories available...</p>
       </aside>
     );
   }
@@ -101,7 +101,7 @@ export default function SimilarCategories({
               </h6>
               <ul className="space-y-2">
                 {category.links.map((link) => (
-                  <li key={link.key} className="text-sm">
+                  <li key={link.key} className="text-xl">
                     <Link href={link.href} className="text-emerald-700 hover:text-emerald-900 hover:underline transition-colors">
                       {link.label}
                     </Link>

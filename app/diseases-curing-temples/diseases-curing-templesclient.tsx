@@ -91,7 +91,7 @@ export default function DiseasesCuringTemplesClient() {
                       </ul>
                     )}
                     {!section?.traditional_belief_about_diseases && (section.summary || section.text) && (
-                      <p className="text-base md:text-lg leading-relaxed pl-16">{section.summary || section.text}</p>
+                      <p className="text-xl md:text-lg leading-relaxed pl-16">{section.summary || section.text}</p>
                     )}
                   </div>
                 </div>

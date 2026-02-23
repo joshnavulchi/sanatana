@@ -44,7 +44,7 @@ export default function Footer() {
         <div className={`relative z-29`}>
           <section className="content-wrapper text-center py-30!">
             <h6 className={`text-4xl md:text-5xl font-light text-white drop-shadow-xl [text-shadow:_2px_2px_8px_rgb(0_0_0_/_60%)] my-6`}>{footer?.title || footer?.titleText}</h6>
-            <p className={`text-md md:mx-auto md:max-w-5xl md:text-lg text-white/90 leading-relaxed my-6`}>{footer?.quote || footer?.quotes} {footer?.quoteSource || footer?.quotesource}</p>
+            <p className={`text-xl md:mx-auto md:max-w-5xl md:text-lg text-white/90 leading-relaxed my-6`}>{footer?.quote || footer?.quotes} {footer?.quoteSource || footer?.quotesource}</p>
 
             {/* CTA Buttons */}
             <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 mt-6">

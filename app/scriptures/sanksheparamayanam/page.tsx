@@ -60,7 +60,7 @@ export default function Page({ searchParams }: any) {
                     </div>
                     <div>
                       <div className="font-medium text-slate-800">{c.name}</div>
-                      {c.role ? <div className="text-sm text-slate-600">{c.role}</div> : null}
+                      {c.role ? <div className="text-xl text-slate-600">{c.role}</div> : null}
                       {c.note ? <div className="mt-1 text-xs text-slate-500">{c.note}</div> : null}
                     </div>
                   </article>
@@ -77,7 +77,7 @@ export default function Page({ searchParams }: any) {
                 {page.important_places.map((p: any, idx: number) => (
                   <div key={idx} className="p-4 bg-white shadow-sm rounded-md border border-slate-100">
                     <div className="text-lg font-semibold text-amber-500">{p.name}</div>
-                    {p.desc ? <div className="text-md text-slate-600 mt-1">{p.desc}</div> : null}
+                    {p.desc ? <div className="text-xl text-slate-600 mt-1">{p.desc}</div> : null}
                   </div>
                 ))}
               </div>
@@ -96,7 +96,7 @@ export default function Page({ searchParams }: any) {
                     </div>
                     <div className="flex-1">
                       <div className="font-medium text-slate-800">{ev.event}</div>
-                      {ev.desc ? <div className="text-sm text-slate-600 mt-1">{ev.desc}</div> : null}
+                      {ev.desc ? <div className="text-xl text-slate-600 mt-1">{ev.desc}</div> : null}
                     </div>
                   </li>
                 ))}
@@ -112,7 +112,7 @@ export default function Page({ searchParams }: any) {
                 {page.core_themes.map((ct: any, idx: number) => (
                   <span
                     key={idx}
-                    className="inline-flex items-center px-3 py-1 rounded-full bg-white border border-slate-100 text-sm text-slate-700 shadow-sm"
+                    className="inline-flex items-center px-3 py-1 rounded-full bg-white border border-slate-100 text-xl text-slate-700 shadow-sm"
                   >
                     {(typeof ct.title === 'string') ? ct.title : ct['title']}
                   </span>

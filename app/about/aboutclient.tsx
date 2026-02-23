@@ -130,7 +130,7 @@ export default function AboutClient() {
 
                   {/* Section text */}
                   {section?.text && (
-                    <p className="text-base md:text-lg   leading-relaxed pl-16">
+                    <p className="text-xl md:text-lg   leading-relaxed pl-16">
                       {section.text}
                     </p>
                   )}

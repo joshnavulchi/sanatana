@@ -44,7 +44,7 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
             <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-bl from-emerald-400/10 to-transparent rounded-tr-lg rounded-bl-full" />
             {/* Content */}
             <p className="
-              text-base md:text-lg
+              text-xl md:text-lg
               leading-relaxed
               relative z-10
               font-serif
@@ -98,7 +98,7 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
                   }
                   rounded-full
                   shadow-lg
-                  font-semibold text-sm
+                  font-semibold text-xl
                   ${isEven ? '' : 'ml-auto'}
                   animate-fade-in
                 `}>
@@ -128,7 +128,7 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
                   {/* Message text */}
                   <p className="
                   text-gray-800 
-                  text-base md:text-lg
+                  text-xl md:text-lg
                   leading-relaxed
                   m-0
                   font-serif
