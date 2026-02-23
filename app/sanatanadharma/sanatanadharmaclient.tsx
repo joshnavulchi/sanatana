@@ -56,10 +56,10 @@ export default function SanatanadharmaClientPage() {
           return (
             <div
               key={section.id || index}
-              className="relative bg-gradient-to-br from-white via-orange-50/30 to-white rounded-cl p-3 shadow-md hover:shadow-xl transition-all duration-300 group"
+              className="relative bg-gradient-to-br from-white via-orange-50/30 to-white border-4 border-orange-200 rounded-lg p-8 md:p-10 shadow-md hover:shadow-2xl hover:border-orange-400 transition-all duration-300 group"
             >
-              <div className="absolute top-0 left-0 w-20 h-20 border-t-2 border-l-2 border-orange-400 rounded-tl-lg" />
-              <div className="absolute bottom-0 right-0 w-20 h-20 border-b-2 border-r-2 border-orange-400 rounded-br-lg" />
+              <div className="absolute top-0 left-0 w-20 h-20 border-t-4 border-l-4 border-orange-400 rounded-tl-lg" />
+              <div className="absolute bottom-0 right-0 w-20 h-20 border-b-4 border-r-4 border-orange-400 rounded-br-lg" />
               <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-bl from-orange-300/20 via-yellow-200/10 to-transparent" />
               <div className="absolute bottom-0 left-0 w-16 h-16 bg-gradient-to-tr from-orange-300/20 via-yellow-200/10 to-transparent" />
               <div className="relative z-10 space-y-5">
@@ -72,26 +72,26 @@ export default function SanatanadharmaClientPage() {
                   </Tag>
                 </div>
                 {section?.para1 && (
-                  <p className="text-base md:text-lg leading-loose text-gray-700 pl-0 first-letter:text-5xl first-letter:font-bold first-letter:text-orange-600 first-letter:mr-1 first-letter:float-left">{section.para1}</p>
+                  <p className="text-xl md:text-lg md:text-lg leading-loose text-gray-700 pl-0 first-letter:text-5xl first-letter:font-bold first-letter:text-orange-600 first-letter:mr-1 first-letter:float-left">{section.para1}</p>
                 )}
                 {section?.para2 && (
-                  <p className="text-base md:text-lg leading-loose text-gray-700 pl-0">{section.para2}</p>
+                  <p className="text-xl md:text-lg md:text-lg leading-loose text-gray-700 pl-0">{section.para2}</p>
                 )}
                 {section?.para3 && (
-                  <p className="text-base md:text-lg leading-loose text-gray-700 pl-0">{section.para3}</p>
+                  <p className="text-xl md:text-lg md:text-lg leading-loose text-gray-700 pl-0">{section.para3}</p>
                 )}
                 {/* Keypoints as sub-bullets */}
                 {section?.keypoints && Array.isArray(section.keypoints) && section.keypoints.length > 0 && (
                   <ul className="space-y-4 mt-6 pl-0">
                     {section.keypoints.map((point: any, idx: number) => (
-                      <li key={idx} className="bg-orange-50 border-l-2 border-orange-400 p-5 rounded-r-lg shadow-sm hover:shadow-md transition-shadow duration-200">
+                      <li key={idx} className="bg-orange-50 border-l-8 border-orange-400 p-5 rounded-r-lg shadow-sm hover:shadow-md transition-shadow duration-200">
                         <div className="font-bold text-orange-800 mb-2 text-lg flex items-center gap-2">
                           <span className="w-2 h-2 bg-orange-600 rounded-full" />
                           {point.title}
                         </div>
-                        {point.para1 && <div className="text-gray-700 text-base md:text-lg pl-4 leading-relaxed mb-2">{point.para1}</div>}
-                        {point.para2 && <div className="text-gray-700 text-base md:text-lg pl-4 leading-relaxed mb-2">{point.para2}</div>}
-                        {point.para3 && <div className="text-gray-700 text-base md:text-lg pl-4 leading-relaxed">{point.para3}</div>}
+                        {point.para1 && <div className="text-gray-700 text-xl md:text-lg md:text-lg pl-4 leading-relaxed mb-2">{point.para1}</div>}
+                        {point.para2 && <div className="text-gray-700 text-xl md:text-lg md:text-lg pl-4 leading-relaxed mb-2">{point.para2}</div>}
+                        {point.para3 && <div className="text-gray-700 text-xl md:text-lg md:text-lg pl-4 leading-relaxed">{point.para3}</div>}
                       </li>
                     ))}
                   </ul>

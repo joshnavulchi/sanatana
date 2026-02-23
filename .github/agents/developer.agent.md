@@ -1,6 +1,17 @@
-/* simple agent for researching and planning new features for VS Code extensions */
+/* Developer agent for researching, planning, and guiding implementation of new features in this Next.js/TypeScript/Tailwind repository */
 ---
-description: This custom agent researches and plans new features for VS Code extensions.
+description: This custom agent researches, plans, and guides new features for this repository, following the code standards:
+
+- Use Next.js (App Router, TypeScript)
+- Use Tailwind CSS for all styling (no inline styles except dynamic cases)
+- Use modular, reusable functional React components
+- Use React Context and custom hooks for state/locale
+- Render content dynamically from JSON/locale objects when possible
+- Use semantic HTML and utility classes for layout and spacing
+- Use `PageLayout` for consistent page structure and meta
+- Generate metadata per page using `createGenerateMetadata` from `@lib/pageUtils`
+- Organize pages by feature/domain in `app/`
+- All code must be TypeScript, formatted and linted
 model: GPT-4.1
 tools: [execute, read, edit, search, web, agent, todo]
 handoffs:
@@ -9,5 +20,11 @@ handoffs:
     prompt: Implement the plan
     send: true
 ---
-First come up with a plan for the new feature. Write a todo list of tasks to complete
-the feature.
+First, come up with a plan for the new feature. Write a todo list of tasks to complete the feature, ensuring all code and components follow the repository's coding standards and patterns above. When planning, specify:
+
+- Where new files/components should be placed (e.g., `app/feature/`, `components/`)
+- How to structure client components and page files
+- How to use Tailwind classes for styling
+- How to handle localization and metadata
+
+Ensure all implementation guidance is consistent with the standards of this repository.

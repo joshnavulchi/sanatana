@@ -68,7 +68,7 @@ function renderContent(value: any): React.ReactNode {
       <div className="divide-y divide-orange-200">
         {Object.entries(value).map(([k, v]: [string, any], idx: number) => (
           <div key={k + idx} className="py-2">
-            <div className="text-orange-700 font-semibold mb-1 text-xl flex items-center">
+            <div className="text-orange-700 font-semibold mb-1 text-xl md:text-lg flex items-center">
               <span className="bg-orange-100 px-2 py-1 rounded mr-2">
                 {k.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}
               </span>
@@ -528,8 +528,8 @@ export default async function Page({ params, searchParams }: { params: Promise<{
               <div className="inline-flex items-center justify-center w-24 h-24 bg-gray-100 rounded-full mb-6">
                 <span className="text-4xl text-gray-400">💭</span>
               </div>
-              <p className="text-xl text-gray-600 font-medium">Content not available for this part.</p>
-              <p className="text-xl text-gray-500 mt-2">Please check back later or explore other parts.</p>
+              <p className="text-xl md:text-lg text-gray-600 font-medium">Content not available for this part.</p>
+              <p className="text-xl md:text-lg text-gray-500 mt-2">Please check back later or explore other parts.</p>
             </div>
           )}
         </div>
@@ -546,7 +546,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                       href={`/scriptures/bhagavadgita/part/${getPartSafeKey(prevPart, 0)}`}
                       className="inline-flex items-center gap-2 bg-amber-50 hover:bg-amber-500 text-orange-600 hover:text-amber-50 px-3 py-1 rounded-md shadow-sm transition-all duration-300"
                     >
-                      <span className="text-xl">←</span>
+                      <span className="text-xl md:text-lg">←</span>
                       <span>Previous Part</span>
                     </Link>
                   )}
@@ -560,7 +560,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                       className="inline-flex items-center gap-2 bg-amber-50 hover:bg-orange-500 text-orange-400 hover:text-amber-50 px-3 py-1 rounded-md shadow-sm transition-all duration-300"
                     >
                       <span>Next Part</span>
-                      <span className="text-xl">→</span>
+                      <span className="text-xl md:text-lg">→</span>
                     </Link>
                   )}
                 </div>
@@ -570,7 +570,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                   href="/scriptures/bhagavadgita"
                   className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-50 to-orange-50 hover:from-orange-500 hover:to-amber-500 text-orange-600 hover:text-amber-50 px-3 py-1 rounded-md shadow-sm hover:shadow-md transition-all duration-300"
                 >
-                  <span className="text-xl">←</span>
+                  <span className="text-xl md:text-lg">←</span>
                   <span>Explore All Parts</span>
                 </Link>
               </div>

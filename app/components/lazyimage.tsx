@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useRef, useState } from 'react';
-import Image, { type ImageProps } from 'next/image';
-import { generateCustomPlaceholderURL } from 'react-placeholder-image';
+import Image from 'next/image';
 import Loader from './loader';
 import useDeferAssets from '@lib/useDeferAssets';
 
@@ -36,7 +35,7 @@ export default function LazyImage({ src, alt, width, height, className, placehol
     <div ref={containerRef} className={className} style={{ minHeight: height ? `${height}px` : undefined }}>
       {!loadNow ? (<Loader />) : imgError ? (
         <img
-          src={generateCustomPlaceholderURL(Number(width) || 400, Number(height) || 200, { text: typeof alt === 'string' ? alt : 'Image', backgroundColor: '#fbbf24', textColor: '#fff' })}
+          src={`https://via.placeholder.com/${Number(width) || 400}x${Number(height) || 200}?text=${encodeURIComponent(typeof alt === 'string' ? alt : 'Image')}&bg=${encodeURIComponent('#fbbf24')}&fg=${encodeURIComponent('#fff')}`}
           alt={typeof alt === 'string' ? alt : 'placeholder'}
           width={width}
           height={height}

@@ -36,7 +36,7 @@ export default function ReligionClient() {
     })();
     return () => { mounted = false; };
   }, [locale, ns]);
-  
+
   // Show loading state if locale is still loading and we have no content
   if (isLoading && !religion.title) {
     return (
@@ -86,7 +86,7 @@ export default function ReligionClient() {
                     <span className="inline-block w-2 h-2 bg-blue-400 rounded-full"></span>
                     {item.country}
                   </div>
-                  <div className="text-gray-700 text-base">{item.details}</div>
+                  <div className="text-gray-700 text-xl md:text-lg">{item.details}</div>
                 </div>
               ))}
             </div>

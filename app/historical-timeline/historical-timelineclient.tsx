@@ -73,7 +73,7 @@ const Region = ({ title, data }: { title: string; data?: RegionData }) => {
       </div>
 
       {data.description && (
-        <p className=" leading-relaxed mb-6 pl-15">{data.description}</p>
+        <p className=" leading-relaxed mb-6 ">{data.description}</p>
       )}
 
       {/* Rulers timeline */}
@@ -98,11 +98,11 @@ const Region = ({ title, data }: { title: string; data?: RegionData }) => {
               transform hover:-translate-y-1
             ">
               <h5 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
-                <span className="text-xl">👑</span>
+                <span className="text-xl md:text-lg">👑</span>
                 {ruler.name}
               </h5>
 
-              <div className="space-y-2 text-sm">
+              <div className="space-y-2 text-xl md:text-lg">
                 {ruler.dynasty && (
                   <p className="">
                     <strong className="text-amber-800">Dynasty:</strong> {ruler.dynasty}
@@ -213,7 +213,7 @@ export default function HistoricalTimeline() {
               <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-500" />
             </div>
 
-            <p className="text-lg md:text-xl   leading-relaxed">
+            <p className="text-lg md:text-xl md:text-lg   leading-relaxed">
               {timeline.description}
             </p>
           </div>
@@ -242,12 +242,12 @@ export default function HistoricalTimeline() {
                         <div className="flex items-start gap-3 mb-4">
                           <span className="text-2xl">📅</span>
                           <div className="flex-1">
-                            <h4 className="text-xl font-bold text-gray-900  mb-1">{item.term}</h4>
-                            <p className="text-sm text-amber-800  font-semibold">{item.fullForm}</p>
+                            <h4 className="text-xl md:text-lg font-bold text-gray-900  mb-1">{item.term}</h4>
+                            <p className="text-xl md:text-lg text-amber-800  font-semibold">{item.fullForm}</p>
                           </div>
                         </div>
 
-                        <div className="space-y-2 text-sm">
+                        <div className="space-y-2 text-xl md:text-lg">
                           <p className=" "><strong className="text-amber-800 ">Time Period:</strong> {item.timePeriod}</p>
                           <p className=" "><strong className="text-amber-800 ">Counting Direction:</strong> {item.countingDirection}</p>
                           <p className=" "><strong className="text-amber-800 ">Equivalent To:</strong> {item.equivalentTo}</p>

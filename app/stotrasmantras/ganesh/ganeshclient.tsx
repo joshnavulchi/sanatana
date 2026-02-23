@@ -54,7 +54,7 @@ export default function GaneshClient() {
                 <span className="text-3xl animate-pulse">🛕</span>
                 <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-600" />
               </div>
-              <p className="text-lg md:text-xl leading-relaxed">{ganesh?.intro}</p>
+              <p className="text-lg md:text-xl md:text-lg leading-relaxed">{ganesh?.intro}</p>
             </div>
           </div>
           {Array.isArray(ganesh.ganesh_stotras) && ganesh.ganesh_stotras.map((section: any, index: number) => {
@@ -78,12 +78,12 @@ export default function GaneshClient() {
                     </Tag>
                   </div>
                   {section?.description && (
-                    <p className="text-base md:text-lg leading-relaxed pl-16">
+                    <p className="text-xl md:text-lg md:text-lg leading-relaxed ">
                       {section.description}
                     </p>
                   )}
                   {Array.isArray(section?.benefits) && section.benefits.length > 0 && (
-                    <ul className="space-y-3 pl-16">
+                    <ul className="space-y-3 ">
                       {section.benefits.map((text: string, idx: number) => (
                         <li key={idx} className="relative flex items-start gap-3 leading-relaxed">
                           <span className="flex-shrink-0 w-2 h-2 mt-2 bg-gradient-to-br from-emerald-500 to-green-400 rounded-full" />

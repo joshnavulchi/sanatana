@@ -76,6 +76,7 @@ git push
 npm ci
 npm run build
 
+npx depcheck --json > unused-deps.json
 
 PS C:\ReactProjects\sanatana> npx mapshaper .\public\data\countries-50m.json ` -o target=countries format=geojson .\public\data\countries_only.geojson        
 [o] Wrote public\data\countries_only.geojson

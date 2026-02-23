@@ -15,7 +15,7 @@ const nextConfig = {
   // a custom `webpack` function is present. Next.js 16 enables Turbopack
   // by default; providing an explicit `turbopack` field silences the
   // conflict warning and allows webpack overrides to continue working.
-  turbopack: {},
+  // turbopack: {}, // Disabled: use --webpack flag to force Webpack for compatibility
   reactStrictMode: true,
   // SWC minifier is handled by Next.js automatically in modern versions.
   // `swcMinify` is removed to avoid unrecognized-option warnings.

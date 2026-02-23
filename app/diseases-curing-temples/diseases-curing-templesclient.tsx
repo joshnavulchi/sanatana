@@ -61,7 +61,7 @@ export default function DiseasesCuringTemplesClient() {
                   <span className="text-3xl animate-pulse">🩺</span>
                   <div className="h-px w-12 bg-gradient-to-l from-transparent to-emerald-500" />
                 </div>
-                <p className="text-lg md:text-xl leading-relaxed">{data.intro}</p>
+                <p className="text-lg md:text-xl md:text-lg leading-relaxed">{data.intro}</p>
               </div>
             </div>
             {data.items.map((section: any, index: number) => {
@@ -81,7 +81,7 @@ export default function DiseasesCuringTemplesClient() {
                       </Tag>
                     </div>
                     {section?.traditional_belief_about_diseases && section.traditional_belief_about_diseases.length > 0 && (
-                      <ul className="space-y-3 pl-16">
+                      <ul className="space-y-3 ">
                         {section.traditional_belief_about_diseases.map((text: string, idx: number) => (
                           <li key={idx} className="relative flex items-start gap-3 leading-relaxed">
                             <span className="flex-shrink-0 w-2 h-2 mt-2 bg-gradient-to-br from-emerald-500 to-green-400 rounded-full" />
@@ -91,7 +91,7 @@ export default function DiseasesCuringTemplesClient() {
                       </ul>
                     )}
                     {!section?.traditional_belief_about_diseases && (section.summary || section.text) && (
-                      <p className="text-base md:text-lg leading-relaxed pl-16">{section.summary || section.text}</p>
+                      <p className="text-xl md:text-lg md:text-lg leading-relaxed ">{section.summary || section.text}</p>
                     )}
                   </div>
                 </div>
@@ -102,7 +102,7 @@ export default function DiseasesCuringTemplesClient() {
                 <div className="flex items-start gap-4">
                   <span className="text-3xl">⚠️</span>
                   <div className="flex-1">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">Disclaimer</h4>
+                    <h4 className="text-xl md:text-lg font-bold text-gray-900 mb-2">Disclaimer</h4>
                     <p className="leading-relaxed">{data.disclaimer}</p>
                   </div>
                 </div>

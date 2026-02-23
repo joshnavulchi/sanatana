@@ -94,39 +94,39 @@ export default function Page({ searchParams }: any) {
               {page.introduction.what_is_ramayanam && (
                 <div className="bg-white border-l-4 border-orange-500 shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-r-xl">
                   <div className="bg-orange-100 px-5 py-3 border-b-2 border-orange-200">
-                    <h3 className="text-xl font-bold text-orange-900 flex items-center gap-2">
+                    <h3 className="text-xl md:text-lg font-bold text-orange-900 flex items-center gap-2">
                       <span className="text-2xl">📖</span>
                       What is Ramayanam?
                     </h3>
                   </div>
                   <div className="p-5">
-                    <p className="text-sm text-gray-700 leading-relaxed">{page.introduction.what_is_ramayanam}</p>
+                    <p className="text-xl md:text-lg text-gray-700 leading-relaxed">{page.introduction.what_is_ramayanam}</p>
                   </div>
                 </div>
               )}
               {page.introduction.who_wrote_it && (
                 <div className="bg-white border-l-4 border-amber-500 shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-r-xl">
                   <div className="bg-amber-100 px-5 py-3 border-b-2 border-amber-200">
-                    <h3 className="text-xl font-bold text-amber-900 flex items-center gap-2">
+                    <h3 className="text-xl md:text-lg font-bold text-amber-900 flex items-center gap-2">
                       <span className="text-2xl">✍️</span>
                       Who Wrote It?
                     </h3>
                   </div>
                   <div className="p-5">
-                    <p className="text-sm text-gray-700 leading-relaxed">{page.introduction.who_wrote_it}</p>
+                    <p className="text-xl md:text-lg text-gray-700 leading-relaxed">{page.introduction.who_wrote_it}</p>
                   </div>
                 </div>
               )}
               {page.introduction.why_it_is_important && (
                 <div className="bg-white border-l-4 border-red-500 shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-r-xl">
                   <div className="bg-red-100 px-5 py-3 border-b-2 border-red-200">
-                    <h3 className="text-xl font-bold text-red-900 flex items-center gap-2">
+                    <h3 className="text-xl md:text-lg font-bold text-red-900 flex items-center gap-2">
                       <span className="text-2xl">⭐</span>
                       Why It Is Important?
                     </h3>
                   </div>
                   <div className="p-5">
-                    <p className="text-sm text-gray-700 leading-relaxed">{page.introduction.why_it_is_important}</p>
+                    <p className="text-xl md:text-lg text-gray-700 leading-relaxed">{page.introduction.why_it_is_important}</p>
                   </div>
                 </div>
               )}
@@ -152,11 +152,11 @@ export default function Page({ searchParams }: any) {
                         {idx + 1}
                       </div>
                       <div className="flex-1">
-                        <h3 className="text-xl font-bold text-amber-900 group-hover:text-orange-600 transition-colors">{c.name}</h3>
+                        <h3 className="text-xl md:text-lg font-bold text-amber-900 group-hover:text-orange-600 transition-colors">{c.name}</h3>
                       </div>
                     </div>
                     {c.role && (
-                      <p className="text-sm text-gray-700 leading-relaxed pl-13">{c.role}</p>
+                      <p className="text-xl md:text-lg text-gray-700 leading-relaxed ">{c.role}</p>
                     )}
                   </div>
                 </div>
@@ -180,11 +180,11 @@ export default function Page({ searchParams }: any) {
                   <div className="pl-8 pr-6 py-5">
                     <div className="flex items-start gap-4">
                       <div className="flex-shrink-0 w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center border-2 border-amber-400">
-                        <span className="text-xl font-bold text-amber-700">{idx + 1}</span>
+                        <span className="text-xl md:text-lg font-bold text-amber-700">{idx + 1}</span>
                       </div>
                       <div className="flex-1">
-                        <h3 className="text-xl font-bold text-amber-900 mb-2">{typeof ct.title === 'string' ? ct.title : ct['title']}</h3>
-                        {ct.description && <p className="text-sm text-gray-700 leading-relaxed">{ct.description}</p>}
+                        <h3 className="text-xl md:text-lg font-bold text-amber-900 mb-2">{typeof ct.title === 'string' ? ct.title : ct['title']}</h3>
+                        {ct.description && <p className="text-xl md:text-lg text-gray-700 leading-relaxed">{ct.description}</p>}
                       </div>
                     </div>
                   </div>
@@ -211,8 +211,8 @@ export default function Page({ searchParams }: any) {
                       <span className="text-white font-bold text-lg">{idx + 1}</span>
                     </div>
                     <div className="flex-1 bg-white rounded-xl border-2 border-amber-200 shadow-md hover:shadow-lg transition-shadow duration-300 p-5">
-                      <p className="text-base font-semibold text-amber-900">{typeof ev === 'string' ? ev : ev.event}</p>
-                      {typeof ev === 'object' && ev.desc && <p className="text-sm text-gray-600 mt-2">{ev.desc}</p>}
+                      <p className="text-xl md:text-lg font-semibold text-amber-900">{typeof ev === 'string' ? ev : ev.event}</p>
+                      {typeof ev === 'object' && ev.desc && <p className="text-xl md:text-lg text-gray-600 mt-2">{ev.desc}</p>}
                     </div>
                   </div>
                 ))}
@@ -238,7 +238,7 @@ export default function Page({ searchParams }: any) {
                     </div>
                     <h3 className="text-lg font-bold text-red-900 capitalize">{key.replace(/_/g, ' ')}</h3>
                   </div>
-                  <p className="text-sm text-gray-700 leading-relaxed pl-11">{value}</p>
+                  <p className="text-xl md:text-lg text-gray-700 leading-relaxed ">{value}</p>
                 </div>
               ))}
             </div>
@@ -252,7 +252,7 @@ export default function Page({ searchParams }: any) {
                 <span className="relative z-10 bg-white px-6">The Seven Kandas</span>
                 <div className="absolute top-1/2 left-0 w-full h-0.5 bg-gradient-to-r from-amber-300 via-amber-500 to-amber-300"></div>
               </h2>
-              <p className="text-center text-gray-600 mt-4 text-sm max-w-2xl mx-auto">Experience the complete epic journey through seven magnificent chapters, each revealing profound wisdom and timeless values.</p>
+              <p className="text-center text-gray-600 mt-4 text-xl md:text-lg max-w-2xl mx-auto">Experience the complete epic journey through seven magnificent chapters, each revealing profound wisdom and timeless values.</p>
             </div>
             <div className="space-y-8">
               {Object.entries(page.story_divided_by_kandas)
@@ -306,7 +306,7 @@ export default function Page({ searchParams }: any) {
                             className={`inline-flex items-center gap-2 ${color.accent} hover:opacity-90 text-white px-3 py-1 rounded-sm shadow-md hover:shadow-xl transition-all duration-300 transform`}
                           >
                             <span>Read Complete Chapter</span>
-                            <span className="text-xl">→</span>
+                            <span className="text-xl md:text-lg">→</span>
                           </Link>
                         </div>
                       </div>
@@ -330,11 +330,11 @@ export default function Page({ searchParams }: any) {
                 {Object.entries(page.cultural_importance).map(([key, value]: [string, any], idx: number) => (
                   <div key={idx} className="flex gap-4">
                     <div className="flex-shrink-0 w-10 h-10 bg-amber-500 rounded-full flex items-center justify-center shadow-md">
-                      <span className="text-white text-xl">✦</span>
+                      <span className="text-white text-xl md:text-lg">✦</span>
                     </div>
                     <div className="flex-1">
                       <h3 className="text-lg font-bold text-amber-900 mb-2 capitalize">{key.replace(/_/g, ' ')}</h3>
-                      <p className="text-sm text-gray-700 leading-relaxed">{value}</p>
+                      <p className="text-xl md:text-lg text-gray-700 leading-relaxed">{value}</p>
                     </div>
                   </div>
                 ))}

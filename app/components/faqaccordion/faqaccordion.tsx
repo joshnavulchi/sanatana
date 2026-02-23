@@ -56,7 +56,7 @@ export default function FaqAccordion({ items, heading }: Props) {
               >
                 <div className="flex items-start gap-4 flex-1">
                   <div className={`
-                    flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold transition-all duration-300
+                    flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-xl md:text-lg font-bold transition-all duration-300
                     ${open
                       ? 'bg-gradient-to-br from-amber-500 to-orange-600 text-white scale-110 shadow-lg'
                       : 'bg-amber-100 text-amber-700 group-hover:scale-105'
@@ -65,7 +65,7 @@ export default function FaqAccordion({ items, heading }: Props) {
                     {idx + 1}
                   </div>
                   <span className={`
-                    font-semibold text-base md:text-lg leading-relaxed transition-colors duration-300
+                    font-semibold text-xl md:text-lg md:text-lg leading-relaxed transition-colors duration-300
                     ${open
                       ? 'text-amber-900 '
                       : 'text-gray-800  group-hover:text-amber-700 '

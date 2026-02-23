@@ -8,8 +8,6 @@ import OurFourCoreYugas from '@components/ourfourcoreyugas';
 import UnderstandingOfSanatana from '@components/sanatanadharmam';
 import WelcomePage from '@components/welcome';
 import AudioPlayer from '@components/audioplayer';
-import heritageFooter from '@components/footer';
-import HeritageFooter from './components/heritage';
 
 // Cache critical CSS at module level to avoid repeated file reads
 let cachedCriticalCss: string | null = null;
@@ -53,7 +51,6 @@ export default async function Home() {
         <UnderstandingOfSanatana />
         <GitSupport />
         <OurFourCoreYugas />
-        <HeritageFooter />
         {/* Delayed widgets: cookies and clock */}
         {/* <DelayedHomeWidgets />  // Disabled: causes server/client boundary error */}
 

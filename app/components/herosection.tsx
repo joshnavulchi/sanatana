@@ -130,8 +130,8 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
                 <div className="text-center space-y-6">
                   <div className="text-9xl text-amber-300/80 font-serif animate-pulse">ॐ</div>
                   <div className="h-px w-full bg-gradient-to-r from-transparent via-amber-400 to-transparent" />
-                  <p className="text-white/90 md:text-xl font-serif italic">सत्यमेव जयते</p>
-                  <p className="text-amber-200 text-sm">Truth Alone Triumphs</p>
+                  <p className="text-white/90 md:text-xl md:text-lg font-serif italic">सत्यमेव जयते</p>
+                  <p className="text-amber-200 text-xl md:text-lg">Truth Alone Triumphs</p>
                 </div>
               </div>
             </div>
@@ -199,7 +199,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
               {/* Scroll Indicator */}
               <div className="flex justify-center gap-2 mt-6">
                 <LazyImage src="/images/svg/arrow.svg" alt="Scroll Down" width={16} height={16} className="inline-block text-amber-200 animate-bounce" />
-                <span className="text-sm font-medium drop-shadow-md text-amber-200">{hero?.scroll || 'Scroll to explore'}</span>
+                <span className="text-xl md:text-lg font-medium drop-shadow-md text-amber-200">{hero?.scroll || 'Scroll to explore'}</span>
               </div>
             </div>
           </div>

@@ -41,29 +41,14 @@ export default function ShivaClient() {
 
   const renderValue = (value: any, key?: string) => {
     if (value == null) return null;
-    if (typeof value === 'string') return <p className="mb-3">{value}</p>;
+    if (typeof value === 'string') return <div className="text-xl md:text-lg mb-3">{value}</div>;
 
     if (Array.isArray(value)) {
       if (value.length === 0) return null;
-      if (value.every(v => typeof v === 'string')) {
-        return (
-          <ul className="list-disc ml-6 mb-4">
-            {value.map((v, i) => <li key={i}>{v}</li>)}
-          </ul>
-        );
-      }
-
       return (
-        <div className="grid gap-4">
-          {value.map((item, i) => (
-            <div key={i} className="p-4 border rounded-md bg-white/60">
-              {typeof item === 'object' ? Object.entries(item).map(([k, v]) => (
-                <div key={k} className="mb-2">
-                  <div className="font-semibold">{fmtLabel(k)}</div>
-                  <div className="text-sm text-gray-700">{renderValue(v, k)}</div>
-                </div>
-              )) : <div>{String(item)}</div>}
-            </div>
+        <div className="space-y-3">
+          {value.map((v, i) => (
+            <div key={i} className="text-xl md:text-lg">{renderValue(v)}</div>
           ))}
         </div>
       );
@@ -72,23 +57,20 @@ export default function ShivaClient() {
     if (typeof value === 'object') {
       return (
         <div className="space-y-3">
-          {Object.entries(value).map(([k, v]) => (
-            <div key={k}>
-              <div className="text-lg font-semibold mb-1">{fmtLabel(k)}</div>
-              <div className="text-sm text-gray-700">{renderValue(v, k)}</div>
-            </div>
+          {Object.values(value).map((v, i) => (
+            <div key={i} className="text-xl md:text-lg">{renderValue(v)}</div>
           ))}
         </div>
       );
     }
 
-    return <div>{String(value)}</div>;
+    return <div className="text-xl md:text-lg">{String(value)}</div>;
   };
 
   return (
     <PageLayout
       metaKey="stories_shiva"
-      title={data.title}
+      title={<span className="font-bold text-3xl">{data.title}</span>}
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: data.title }]}
       className="layout-md"
     >
@@ -104,18 +86,22 @@ export default function ShivaClient() {
                   <span className="text-3xl animate-pulse">📖</span>
                   <div className="h-px w-12 bg-gradient-to-l from-transparent to-emerald-500" />
                 </div>
-                {data.intro && <p className="text-lg md:text-xl leading-relaxed">{data.intro}</p>}
+                {data.intro && <p className="text-lg md:text-xl md:text-lg leading-relaxed">{data.intro}</p>}
               </div>
             </div>
-            <div className="prose max-w-none text-gray-900">
-              {['biography', 'timeline', 'majordilemmas', 'cursesandconsequences'].map((k) => (
-                data.content[k] && (
-                  <section key={k} className="mb-8 p-6 bg-white/80 border border-emerald-100 rounded-xl shadow-sm">
-                    <h3 className="text-2xl font-bold mb-3 text-emerald-700 tracking-wide">{k.replace(/_/g, ' ').toUpperCase()}</h3>
-                    {renderValue(data.content[k], k)}
+            <div className="prose max-w-none text-gray-900 py-3 md:py-12">
+              {Object.entries(data.content)
+                .filter(([k, v]) => k !== 'title' && k !== 'intro' && k !== 'meta' && k !== 'schema' && v)
+                .map(([k, v], idx) => (
+                  <section
+                    key={k}
+                    className="mb-8 p-6 border rounded-xl shadow-lg bg-gradient-to-br from-emerald-50 via-white to-emerald-100 border-emerald-100 relative overflow-hidden"
+                  >
+                    <div className="absolute -top-8 -right-8 w-32 h-32 bg-emerald-200/30 rounded-full blur-2xl" />
+                    <div className="absolute -bottom-8 -left-8 w-40 h-40 bg-emerald-100/20 rounded-full blur-2xl" />
+                    <div className="relative z-10">{renderValue(v)}</div>
                   </section>
-                )
-              ))}
+                ))}
             </div>
           </div>
           <div className="w-full lg:w-1/4">

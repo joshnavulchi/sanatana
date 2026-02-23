@@ -114,10 +114,10 @@ export default function RiversConnectingClient() {
                               {['🏗️', '🌊', '⚡', '🏞️', '💧', '🚧', '🌉'][index % 7]}
                             </div>
                             <div className="flex-1">
-                              <h4 className="text-xl md:text-2xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                              <h4 className="text-xl md:text-lg md:text-2xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
                                 {project.name}
                               </h4>
-                              <div className="flex items-center gap-2 text-sm text-gray-500">
+                              <div className="flex items-center gap-2 text-xl md:text-lg text-gray-500">
                                 <span className="px-2 py-1 bg-white rounded-full shadow-sm">{project.phases?.length || 0} phases</span>
                                 <span>•</span>
                                 <span>ID: {project.id}</span>
@@ -165,7 +165,7 @@ export default function RiversConnectingClient() {
                                               {phase.label}
                                             </h5>
                                           </div>
-                                          <div className="flex flex-wrap items-center gap-3 text-sm">
+                                          <div className="flex flex-wrap items-center gap-3 text-xl md:text-lg">
                                             <div className="flex items-center gap-2 bg-gray-50 px-3 py-1.5 rounded-lg">
                                               <span className="text-gray-500">Start:</span>
                                               <span className="font-semibold text-gray-700">{phase.start}</span>
@@ -205,7 +205,7 @@ export default function RiversConnectingClient() {
 
                           {/* Project completion indicator */}
                           <div className="ml-7 pl-8 mt-4">
-                            <div className={`inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r ${color.primary} text-white rounded-full shadow-lg text-sm font-semibold`}>
+                            <div className={`inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r ${color.primary} text-white rounded-full shadow-lg text-xl md:text-lg font-semibold`}>
                               <span>✓</span>
                               <span>Project Timeline Complete</span>
                             </div>
@@ -217,7 +217,7 @@ export default function RiversConnectingClient() {
 
                   {/* Legend */}
                   <div className="relative z-10 mt-16 pt-8 border-t-2 border-dashed border-gray-300">
-                    <h4 className="text-sm font-bold text-gray-700 mb-4 uppercase tracking-wide">Phase Types Legend</h4>
+                    <h4 className="text-xl md:text-lg font-bold text-gray-700 mb-4 uppercase tracking-wide">Phase Types Legend</h4>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                       {[
                         { type: 'Approval', icon: '📋', color: 'from-yellow-400 to-amber-400' },
@@ -229,7 +229,7 @@ export default function RiversConnectingClient() {
                           <div className={`w-10 h-10 bg-gradient-to-r ${item.color} rounded-lg flex items-center justify-center text-lg shadow`}>
                             {item.icon}
                           </div>
-                          <span className="text-sm font-medium text-gray-700">{item.type}</span>
+                          <span className="text-xl md:text-lg font-medium text-gray-700">{item.type}</span>
                         </div>
                       ))}
                     </div>

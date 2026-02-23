@@ -440,7 +440,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                 <div className="inline-flex items-center justify-center w-24 h-24 bg-gray-100 rounded-full mb-6">
                   <span className="text-4xl text-gray-400">💭</span>
                 </div>
-                <p className="text-xl text-gray-600 font-medium">Content not available for this parva.</p>
+                <p className="text-xl md:text-lg text-gray-600 font-medium">Content not available for this parva.</p>
                 <p className="text-sm text-gray-500 mt-2">Please check back later or explore other parvas.</p>
               </div>
             )}
@@ -457,7 +457,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                         href={`/scriptures/mahabharata/parva/${getParvaSafeKey(prevParva)}`}
                         className={`inline-flex items-center gap-2 bg-amber-50 hover:bg-orange-500 text-orange-400 hover:text-amber-50 px-3 py-1 rounded-md shadow-sm transition-all duration-300 ${classes.buttonBg}`}
                       >
-                        <span className="text-xl">←</span>
+                        <span className="text-xl md:text-lg">←</span>
                         <span className="hidden sm:inline">Previous</span>
                       </Link>
                     )}
@@ -469,7 +469,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                         className={`inline-flex items-center gap-2 bg-amber-50 hover:bg-orange-500 text-orange-400 hover:text-amber-50 px-3 py-1 rounded-md shadow-sm transition-all duration-300 ${classes.buttonBg}`}
                       >
                         <span className="hidden sm:inline">Next</span>
-                        <span className="text-xl">→</span>
+                        <span className="text-xl md:text-lg">→</span>
                       </Link>
                     )}
                   </div>
@@ -479,7 +479,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                     href="/scriptures/mahabharata"
                     className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-50 to-orange-50 hover:from-orange-500 hover:to-amber-500 text-orange-600 hover:text-amber-50 px-3 py-1 rounded-md shadow-sm hover:shadow-md transition-all duration-300"
                   >
-                    <span className="text-xl">←</span>
+                    <span className="text-xl md:text-lg">←</span>
                     <span>Explore All Parts</span>
                   </Link>
                 </div>

@@ -168,7 +168,7 @@ export default function LanguageDropdown() {
           <div className="absolute -top-1 -right-1 w-2 h-2 bg-amber-500 rounded-full animate-pulse"></div>
         </div>
         {isClient && (
-          <span className="hidden md:flex font-medium text-sm group-hover:text-amber-700 transition-colors duration-300">
+          <span className="hidden md:flex font-medium text-xl md:text-lg group-hover:text-amber-700 transition-colors duration-300">
             {currentLanguage?.nativeName || locale?.languagedropdown?.english || 'English'}
           </span>
         )}
@@ -197,8 +197,8 @@ export default function LanguageDropdown() {
                   </svg>
                 </div>
                 <div>
-                  <h2 id="language-dialog-title" className="text-xl font-bold text-gray-900">{locale?.languagedropdown?.title || 'Choose language'}</h2>
-                  <p className="text-sm text-gray-600">{filteredLanguages.length} languages available</p>
+                  <h2 id="language-dialog-title" className="text-xl md:text-lg font-bold text-gray-900">{locale?.languagedropdown?.title || 'Choose language'}</h2>
+                  <p className="text-xl md:text-lg text-gray-600">{filteredLanguages.length} languages available</p>
                 </div>
               </div>
               <button
@@ -243,7 +243,7 @@ export default function LanguageDropdown() {
                     }
                   }}
                   placeholder={locale?.languagedropdown?.searchplaceholder || 'Search languages...'}
-                  className="w-full pl-12 pr-4 py-3 bg-white border-2 border-amber-200 rounded-xl focus:border-amber-500 focus:ring-4 focus:ring-amber-500/20 outline-none transition-all duration-300 text-gray-900 placeholder-gray-400 shadow-sm hover:shadow-md"
+                  className="w-full  pr-4 py-3 bg-white border-2 border-amber-200 rounded-xl focus:border-amber-500 focus:ring-4 focus:ring-amber-500/20 outline-none transition-all duration-300 text-gray-900 placeholder-gray-400 shadow-sm hover:shadow-md"
                   aria-label={locale?.languagedropdown?.searcharia || 'Search languages'}
                 />
                 {query && (
@@ -311,7 +311,7 @@ export default function LanguageDropdown() {
                           {lang.nativeName}
                         </div>
                         <div className={`
-                          text-sm truncate transition-colors duration-300
+                          text-xl md:text-lg truncate transition-colors duration-300
                           ${isSelected
                             ? 'text-amber-700'
                             : 'text-gray-600'
@@ -352,7 +352,7 @@ export default function LanguageDropdown() {
                     </svg>
                   </div>
                   <p className="text-gray-600 font-medium">No languages found</p>
-                  <p className="text-sm text-gray-500 mt-1">Try a different search term</p>
+                  <p className="text-xl md:text-lg text-gray-500 mt-1">Try a different search term</p>
                 </div>
               )}
             </div>
