@@ -100,7 +100,7 @@ export default function Page({ searchParams }: any) {
                         </div>
                       </div>
                       {part.introduction && (
-                        <p className="text-xl text-gray-700 leading-relaxed pl-13">{part.introduction.context_of_kurukshetra || ''}</p>
+                        <p className="text-xl text-gray-700 leading-relaxed ">{part.introduction.context_of_kurukshetra || ''}</p>
                       )}
                       <div className="relative z-10 pt-4 flex items-center gap-2 text-amber-800 font-semibold text-xl hover:gap-3 transition-all duration-300">
                         <Link

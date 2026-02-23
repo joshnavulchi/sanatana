@@ -86,7 +86,7 @@ export default function WorldTransformationContent() {
               </div>
 
               {pageContent.whyBordersBecameStable.summary && (
-                <p className=" leading-relaxed pl-15">{pageContent.whyBordersBecameStable.summary}</p>
+                <p className=" leading-relaxed ">{pageContent.whyBordersBecameStable.summary}</p>
               )}
 
               {pageContent.whyBordersBecameStable.factors && Array.isArray(pageContent.whyBordersBecameStable.factors) && (

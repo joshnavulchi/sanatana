@@ -130,14 +130,14 @@ export default function AboutClient() {
 
                   {/* Section text */}
                   {section?.text && (
-                    <p className="text-xl md:text-lg   leading-relaxed pl-16">
+                    <p className="text-xl md:text-lg   leading-relaxed ">
                       {section.text}
                     </p>
                   )}
 
                   {/* Bullets list */}
                   {section?.bullets && section?.bullets.length > 0 && (
-                    <ul className="space-y-3 pl-16">
+                    <ul className="space-y-3 ">
                       {section.bullets.map((text: string, idx: number) => (
                         <li
                           key={idx}

@@ -114,7 +114,7 @@ export default function Page({ searchParams }: any) {
                       </div>
                     </div>
                     {c.description && (
-                      <p className="text-xl text-gray-700 leading-relaxed pl-13">{c.description}</p>
+                      <p className="text-xl text-gray-700 leading-relaxed ">{c.description}</p>
                     )}
                   </div>
                 </div>

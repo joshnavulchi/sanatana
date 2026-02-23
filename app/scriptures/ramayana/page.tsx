@@ -156,7 +156,7 @@ export default function Page({ searchParams }: any) {
                       </div>
                     </div>
                     {c.role && (
-                      <p className="text-xl text-gray-700 leading-relaxed pl-13">{c.role}</p>
+                      <p className="text-xl text-gray-700 leading-relaxed ">{c.role}</p>
                     )}
                   </div>
                 </div>
@@ -238,7 +238,7 @@ export default function Page({ searchParams }: any) {
                     </div>
                     <h3 className="text-lg font-bold text-red-900 capitalize">{key.replace(/_/g, ' ')}</h3>
                   </div>
-                  <p className="text-xl text-gray-700 leading-relaxed pl-11">{value}</p>
+                  <p className="text-xl text-gray-700 leading-relaxed ">{value}</p>
                 </div>
               ))}
             </div>

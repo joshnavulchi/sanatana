@@ -83,10 +83,10 @@ export default function JyotirlingsClient() {
                       <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-yellow-100 to-amber-100 rounded-xl flex items-center justify-center text-2xl shadow-md group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300">{icon}</div>
                       <Tag className="flex-1 text-2xl md:text-3xl font-bold text-gray-900 group-hover:text-amber-700 transition-colors duration-300">{section.name || section.title}</Tag>
                     </div>
-                    {section?.timeline?.early_mentions && <p className="text-xl md:text-lg leading-relaxed pl-16">{section.timeline.early_mentions}</p>}
-                    {section?.timeline?.ancient_mentions && <p className="text-xl md:text-lg leading-relaxed pl-16">{section.timeline.ancient_mentions}</p>}
-                    {section?.unique_features && <p className="text-xl md:text-lg leading-relaxed pl-16">{Array.isArray(section.unique_features) ? section.unique_features.join(', ') : section.unique_features}</p>}
-                    {section?.dynasties && <p className="text-xl md:text-lg leading-relaxed pl-16">{Array.isArray(section.dynasties) ? section.dynasties.join(', ') : section.dynasties}</p>}
+                    {section?.timeline?.early_mentions && <p className="text-xl md:text-lg leading-relaxed ">{section.timeline.early_mentions}</p>}
+                    {section?.timeline?.ancient_mentions && <p className="text-xl md:text-lg leading-relaxed ">{section.timeline.ancient_mentions}</p>}
+                    {section?.unique_features && <p className="text-xl md:text-lg leading-relaxed ">{Array.isArray(section.unique_features) ? section.unique_features.join(', ') : section.unique_features}</p>}
+                    {section?.dynasties && <p className="text-xl md:text-lg leading-relaxed ">{Array.isArray(section.dynasties) ? section.dynasties.join(', ') : section.dynasties}</p>}
                   </div>
                 </div>
               );

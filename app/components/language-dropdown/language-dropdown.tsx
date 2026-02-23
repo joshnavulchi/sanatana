@@ -243,7 +243,7 @@ export default function LanguageDropdown() {
                     }
                   }}
                   placeholder={locale?.languagedropdown?.searchplaceholder || 'Search languages...'}
-                  className="w-full pl-12 pr-4 py-3 bg-white border-2 border-amber-200 rounded-xl focus:border-amber-500 focus:ring-4 focus:ring-amber-500/20 outline-none transition-all duration-300 text-gray-900 placeholder-gray-400 shadow-sm hover:shadow-md"
+                  className="w-full  pr-4 py-3 bg-white border-2 border-amber-200 rounded-xl focus:border-amber-500 focus:ring-4 focus:ring-amber-500/20 outline-none transition-all duration-300 text-gray-900 placeholder-gray-400 shadow-sm hover:shadow-md"
                   aria-label={locale?.languagedropdown?.searcharia || 'Search languages'}
                 />
                 {query && (

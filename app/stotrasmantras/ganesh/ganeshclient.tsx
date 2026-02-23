@@ -78,12 +78,12 @@ export default function GaneshClient() {
                     </Tag>
                   </div>
                   {section?.description && (
-                    <p className="text-xl md:text-lg leading-relaxed pl-16">
+                    <p className="text-xl md:text-lg leading-relaxed ">
                       {section.description}
                     </p>
                   )}
                   {Array.isArray(section?.benefits) && section.benefits.length > 0 && (
-                    <ul className="space-y-3 pl-16">
+                    <ul className="space-y-3 ">
                       {section.benefits.map((text: string, idx: number) => (
                         <li key={idx} className="relative flex items-start gap-3 leading-relaxed">
                           <span className="flex-shrink-0 w-2 h-2 mt-2 bg-gradient-to-br from-emerald-500 to-green-400 rounded-full" />

@@ -73,7 +73,7 @@ const Region = ({ title, data }: { title: string; data?: RegionData }) => {
       </div>
 
       {data.description && (
-        <p className=" leading-relaxed mb-6 pl-15">{data.description}</p>
+        <p className=" leading-relaxed mb-6 ">{data.description}</p>
       )}
 
       {/* Rulers timeline */}
