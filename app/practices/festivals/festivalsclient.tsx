@@ -55,7 +55,7 @@ export default function FestivalsClient() {
                 <span className="text-3xl animate-pulse">🛕</span>
                 <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-600" />
               </div>
-              <p className="text-lg md:text-xl leading-relaxed mb-6">{data.intro}</p>
+              <p className="text-lg md:text-xl md:text-lg leading-relaxed mb-6">{data.intro}</p>
               {Array.isArray(data.items) && data.items.length > 0 && (
                 <ul className="list-disc pl-6 text-amber-900 space-y-2">
                   {data.items.map((item: any, idx: number) => (

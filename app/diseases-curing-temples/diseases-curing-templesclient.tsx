@@ -61,7 +61,7 @@ export default function DiseasesCuringTemplesClient() {
                   <span className="text-3xl animate-pulse">🩺</span>
                   <div className="h-px w-12 bg-gradient-to-l from-transparent to-emerald-500" />
                 </div>
-                <p className="text-lg md:text-xl leading-relaxed">{data.intro}</p>
+                <p className="text-lg md:text-xl md:text-lg leading-relaxed">{data.intro}</p>
               </div>
             </div>
             {data.items.map((section: any, index: number) => {
@@ -91,7 +91,7 @@ export default function DiseasesCuringTemplesClient() {
                       </ul>
                     )}
                     {!section?.traditional_belief_about_diseases && (section.summary || section.text) && (
-                      <p className="text-xl md:text-lg leading-relaxed ">{section.summary || section.text}</p>
+                      <p className="text-xl md:text-lg md:text-lg leading-relaxed ">{section.summary || section.text}</p>
                     )}
                   </div>
                 </div>
@@ -102,7 +102,7 @@ export default function DiseasesCuringTemplesClient() {
                 <div className="flex items-start gap-4">
                   <span className="text-3xl">⚠️</span>
                   <div className="flex-1">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">Disclaimer</h4>
+                    <h4 className="text-xl md:text-lg font-bold text-gray-900 mb-2">Disclaimer</h4>
                     <p className="leading-relaxed">{data.disclaimer}</p>
                   </div>
                 </div>

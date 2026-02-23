@@ -68,12 +68,12 @@ export default function Breadcrumbs({ items, locale }: { items?: CrumbInput[]; l
                 {it.href && !isLast ? (
                   <Link
                     href={it.href}
-                    className="text-xl font-medium  hover:text-amber-600 transition-colors duration-200 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-600 hover:after:w-full after:transition-all after:duration-300"
+                    className="text-xl md:text-lg font-medium  hover:text-amber-600 transition-colors duration-200 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-amber-600 hover:after:w-full after:transition-all after:duration-300"
                   >
                     {it.label}
                   </Link>
                 ) : (
-                  <span className="text-xl font-semibold text-amber-700 bg-amber-100/50 px-3 py-1 rounded-full">{it.label}</span>
+                  <span className="text-xl md:text-lg font-semibold text-amber-700 bg-amber-100/50 px-3 py-1 rounded-full">{it.label}</span>
                 )}
                 {idx < normalized.length - 1 && (
                   <svg className="w-4 h-4 mx-3 text-amber-400 flex-shrink-0 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">

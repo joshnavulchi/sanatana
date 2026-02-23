@@ -54,7 +54,7 @@ export default function KarnaClient() {
               {typeof item === 'object' ? Object.entries(item).map(([k, v]) => (
                 <div key={k} className="mb-2">
                   <div className="font-semibold">{fmtLabel(k)}</div>
-                  <div className="text-xl text-gray-700">{renderValue(v, k)}</div>
+                  <div className="text-xl md:text-lg text-gray-700">{renderValue(v, k)}</div>
                 </div>
               )) : <div>{String(item)}</div>}
             </div>
@@ -68,7 +68,7 @@ export default function KarnaClient() {
           {Object.entries(value).map(([k, v]) => (
             <div key={k}>
               <div className="text-lg font-semibold mb-1">{fmtLabel(k)}</div>
-              <div className="text-xl text-gray-700">{renderValue(v, k)}</div>
+              <div className="text-xl md:text-lg text-gray-700">{renderValue(v, k)}</div>
             </div>
           ))}
         </div>
@@ -95,7 +95,7 @@ export default function KarnaClient() {
                   <span className="text-3xl animate-pulse">📖</span>
                   <div className="h-px w-12 bg-gradient-to-l from-transparent to-emerald-500" />
                 </div>
-                {data.intro && <p className="text-lg md:text-xl leading-relaxed">{data.intro}</p>}
+                {data.intro && <p className="text-lg md:text-xl md:text-lg leading-relaxed">{data.intro}</p>}
               </div>
             </div>
             <div className="prose max-w-none text-gray-900">

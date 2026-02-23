@@ -208,7 +208,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
               href="/scriptures/ramayana" 
               className="inline-flex items-center gap-2 bg-white hover:bg-gray-50 text-gray-700 font-semibold px-5 py-3 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border-2 border-gray-200"
             >
-              <span className="text-xl">←</span>
+              <span className="text-xl md:text-lg">←</span>
               <span>Back to Ramayana</span>
             </Link>
           </nav>
@@ -286,7 +286,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                   <div className="inline-flex items-center justify-center w-24 h-24 bg-gray-100 rounded-full mb-6">
                     <span className="text-4xl text-gray-400">💭</span>
                   </div>
-                  <p className="text-xl text-gray-600 font-medium">Content not available for this chapter.</p>
+                  <p className="text-xl md:text-lg text-gray-600 font-medium">Content not available for this chapter.</p>
                   <p className="text-sm text-gray-500 mt-2">Please check back later or explore other chapters.</p>
                 </div>
               )}
@@ -300,7 +300,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                     href="/scriptures/ramayana" 
                     className={`inline-flex items-center gap-2 bg-gradient-to-r ${classes.buttonBg} text-white font-bold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300`}
                   >
-                    <span className="text-xl">←</span>
+                    <span className="text-xl md:text-lg">←</span>
                     <span>Explore All Chapters</span>
                   </Link>
                 </div>

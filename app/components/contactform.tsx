@@ -81,7 +81,7 @@ export default function ContactForm({ fields, submitButton }: Props) {
   if (!usedFields || usedFields.length === 0) return null;
 
   return (
-    <form onSubmit={handleSubmit} className="max-w-2xl mx-auto">
+    <form onSubmit={handleSubmit} className="p-3 md:p-6">
       <div className="bg-gradient-to-br from-white via-amber-50/30 to-orange-50/30 rounded-3xl shadow-2xl border-2 border-amber-200/50 overflow-hidden">
         {/* Decorative header */}
         <div className="relative bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 p-8 text-center">
@@ -93,7 +93,7 @@ export default function ContactForm({ fields, submitButton }: Props) {
               </svg>
             </div>
             <h3 className="text-2xl font-bold text-white mb-2">Get In Touch</h3>
-            <p className="text-white/90 text-xl">We&apos;d love to hear from you</p>
+            <p className="text-white/90 text-xl md:text-lg">We&apos;d love to hear from you</p>
           </div>
         </div>
 
@@ -101,7 +101,7 @@ export default function ContactForm({ fields, submitButton }: Props) {
         <div className="p-8 space-y-6">
           {usedFields.map((f) => (
             <div key={f.name} className="group">
-              <label className="block text-xl font-semibold  mb-2 flex items-center gap-2">
+              <label className="block text-xl md:text-lg font-semibold  mb-2 flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-amber-500 group-focus-within:scale-150 transition-transform duration-300"></span>
                 {f.label || f.name}
                 {f.required && <span className="text-orange-500 text-xs">*</span>}

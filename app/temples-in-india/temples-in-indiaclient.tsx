@@ -59,7 +59,7 @@ export default function TemplesInIndiaClient() {
                   <div className="h-px w-12 bg-gradient-to-l from-transparent to-indigo-600" />
                 </div>
 
-                <p className="text-lg md:text-xl leading-relaxed">{data.intro}</p>
+                <p className="text-lg md:text-xl md:text-lg leading-relaxed">{data.intro}</p>
               </div>
             </div>
 
@@ -80,7 +80,7 @@ export default function TemplesInIndiaClient() {
                       <Tag className="flex-1 text-2xl md:text-3xl font-bold text-gray-900 group-hover:text-indigo-600 transition-colors duration-300">{section.name || section.title || section.name || section.id}</Tag>
                     </div>
 
-                    {section?.how_it_was_built && <p className="text-xl md:text-lg leading-relaxed ">{section.how_it_was_built}</p>}
+                    {section?.how_it_was_built && <p className="text-xl md:text-lg md:text-lg leading-relaxed ">{section.how_it_was_built}</p>}
                     <ul className="mt-3  space-y-2">
                       {section.location && <li><strong>Location:</strong> {section.location}</li>}
                       {section.state && <li><strong>State:</strong> {section.state}</li>}
@@ -97,7 +97,7 @@ export default function TemplesInIndiaClient() {
                 <div className="flex items-start gap-4">
                   <span className="text-3xl">⚠️</span>
                   <div className="flex-1">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">Disclaimer</h4>
+                    <h4 className="text-xl md:text-lg font-bold text-gray-900 mb-2">Disclaimer</h4>
                     <p className="leading-relaxed">{data.disclaimer}</p>
                   </div>
                 </div>

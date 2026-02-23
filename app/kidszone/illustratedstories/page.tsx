@@ -31,9 +31,9 @@ export default function Page({ searchParams }: any) {
                   <LazyImage src={s.imgsrc} alt={s.imgalt} fill style={{ objectFit: 'cover' }} className="transition-transform group-hover:scale-105 duration-300" />
                 </div>
                 <div className="flex-1 flex flex-col p-4">
-                  <h3 className="text-xl font-bold text-pink-700 mb-1 line-clamp-2">{s.title}</h3>
+                  <h3 className="text-xl md:text-lg font-bold text-pink-700 mb-1 line-clamp-2">{s.title}</h3>
                   <div className="text-xs text-pink-500 mb-2">{s.origin}</div>
-                  <p className="text-xl text-gray-700 mb-2 line-clamp-3">{s.summary}</p>
+                  <p className="text-xl md:text-lg text-gray-700 mb-2 line-clamp-3">{s.summary}</p>
                   <div className="mt-auto flex flex-wrap gap-2">
                     {Array.isArray(s.themes) && s.themes.map((theme: string, idx: number) => (
                       <span key={idx} className="bg-yellow-200 text-yellow-900 rounded-full px-3 py-1 text-xs font-semibold">{theme}</span>

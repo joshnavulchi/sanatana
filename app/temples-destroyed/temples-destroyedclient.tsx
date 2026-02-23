@@ -57,7 +57,7 @@ export default function TemplesDestroyedClient() {
                   <span className="text-3xl animate-pulse">🧱</span>
                   <div className="h-px w-12 bg-gradient-to-l from-transparent to-slate-500" />
                 </div>
-                <p className="text-lg md:text-xl leading-relaxed">{data.intro}</p>
+                <p className="text-lg md:text-xl md:text-lg leading-relaxed">{data.intro}</p>
               </div>
             </div>
             {data.items.map((section: any, index: number) => {
@@ -74,7 +74,7 @@ export default function TemplesDestroyedClient() {
                       <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-slate-100 to-gray-200 rounded-xl flex items-center justify-center text-2xl ring-1 ring-slate-50/30 group-hover:scale-105 group-hover:rotate-2 transition-transform duration-300">{icon}</div>
                       <Tag className="flex-1 text-2xl md:text-3xl font-bold text-gray-900 group-hover:text-slate-700 transition-colors duration-300">{section.temple_name || section.summary || section.id || section.title}</Tag>
                     </div>
-                    <p className="text-xl md:text-lg leading-relaxed ">{section.summary || section.event_type?.join?.(', ') || section.period || section.approx_date}</p>
+                    <p className="text-xl md:text-lg md:text-lg leading-relaxed ">{section.summary || section.event_type?.join?.(', ') || section.period || section.approx_date}</p>
                     <ul className="mt-3  space-y-2">
                       {section.location && <li><strong>Location:</strong> {section.location.city_or_district || section.location.state_province || JSON.stringify(section.location)}</li>}
                       {section.timeline && <li><strong>Timeline:</strong> {Array.isArray(section.timeline) ? section.timeline.join(', ') : JSON.stringify(section.timeline)}</li>}
@@ -89,7 +89,7 @@ export default function TemplesDestroyedClient() {
                 <div className="flex items-start gap-4">
                   <span className="text-3xl">⚠️</span>
                   <div className="flex-1">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">Disclaimer</h4>
+                    <h4 className="text-xl md:text-lg font-bold text-gray-900 mb-2">Disclaimer</h4>
                     <p className="leading-relaxed">{data.disclaimer}</p>
                   </div>
                 </div>

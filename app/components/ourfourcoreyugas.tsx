@@ -79,7 +79,7 @@ const Segment = ({ title, subtitle, years, isFirst, isLast, index }: any) => {
         border border-white/20
         rounded-full
         text-white/90
-        text-xl
+        text-xl md:text-lg
         font-medium tracking-wide
         shadow-lg
         hover:bg-white/20 hover:scale-105

@@ -68,9 +68,10 @@
   --color-black: #000000;
   --color--deep-blue: #162039;
   --electric-border-color: #dd8448;
-  --electric-light-color: oklch(from var(--electric-border-color) l c h);
-  --gradient-color: oklch(from var(--electric-border-color) 0.3 calc(c / 2) h / 0.4);
-  --color-neutral-900: oklch(0.185 0 0);
+  /* Avoid runtime oklch() and calc() for build compatibility */
+  --electric-light-color: #f6cba1; /* Precomputed light color from border color */
+  --gradient-color: rgba(221, 132, 72, 0.4); /* Precomputed gradient color */
+  --color-neutral-900: #2e2e2e; /* Precomputed neutral color */
   /* Font families: Playfair primary, Poppins secondary, then generic sans-serif */
   --font-heading: "Poppins", sans-serif;
   --font-body: "Poppins", sans-serif;
@@ -138,9 +139,9 @@
   --color-black: #000000;
   --color--deep-blue: #162039;
   --electric-border-color: #dd8448;
-  --electric-light-color: oklch(from var(--electric-border-color) l c h);
-  --gradient-color: oklch(from var(--electric-border-color) 0.3 calc(c / 2) h / 0.4);
-  --color-neutral-900: oklch(0.185 0 0);
+  --electric-light-color: #f6cba1; /* Precomputed light color from border color */
+  --gradient-color: rgba(221, 132, 72, 0.4); /* Precomputed gradient color */
+  --color-neutral-900: #2e2e2e; /* Precomputed neutral color */
   --font-heading: "Poppins", sans-serif;
   --font-body: "Poppins", sans-serif;
   --space-xxs: 4px;

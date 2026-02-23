@@ -86,7 +86,7 @@ export default function ReligionClient() {
                     <span className="inline-block w-2 h-2 bg-blue-400 rounded-full"></span>
                     {item.country}
                   </div>
-                  <div className="text-gray-700 text-xl">{item.details}</div>
+                  <div className="text-gray-700 text-xl md:text-lg">{item.details}</div>
                 </div>
               ))}
             </div>
