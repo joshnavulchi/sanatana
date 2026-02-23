@@ -24,7 +24,7 @@
     "noEmit": "npx tsc --noEmit",
     "check-updates": "npx npm-check-updates",
     "update-libs": "npx npm-check-updates -u && npm install",
-    "clean": "Remove-Item node_modules, package-lock.json, .next, .cache, .parcel-cache -Recurse -Force -ErrorAction SilentlyContinue"
+    "clean": "Remove-Item node_modules, package-lock.json, .next, out, .cache, .parcel-cache -Recurse -Force -ErrorAction SilentlyContinue"
   },
   "dependencies": {
     "mongodb": "^7",

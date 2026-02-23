@@ -108,14 +108,19 @@ export default function ShivaClient() {
               </div>
             </div>
             <div className="prose max-w-none text-gray-900">
-              {['biography', 'timeline', 'majordilemmas', 'cursesandconsequences'].map((k) => (
-                data.content[k] && (
-                  <section key={k} className="mb-8 p-6 bg-white/80 border border-emerald-100 rounded-xl shadow-sm">
-                    <h3 className="text-2xl font-bold mb-3 text-emerald-700 tracking-wide">{k.replace(/_/g, ' ').toUpperCase()}</h3>
-                    {renderValue(data.content[k], k)}
+              {Object.entries(data.content)
+                .filter(([k, v]) => k !== 'title' && k !== 'intro' && v)
+                .map(([k, v], idx) => (
+                  <section
+                    key={k}
+                    className={`mb-8 p-6 border rounded-xl shadow-lg bg-gradient-to-br from-emerald-50 via-white to-emerald-100 border-emerald-100 relative overflow-hidden`}
+                  >
+                    <div className="absolute -top-8 -right-8 w-32 h-32 bg-emerald-200/30 rounded-full blur-2xl" />
+                    <div className="absolute -bottom-8 -left-8 w-40 h-40 bg-emerald-100/20 rounded-full blur-2xl" />
+                    <h3 className="text-2xl font-bold mb-3 text-emerald-700 tracking-wide drop-shadow">{fmtLabel(k).toUpperCase()}</h3>
+                    <div className="relative z-10">{renderValue(v, k)}</div>
                   </section>
-                )
-              ))}
+                ))}
             </div>
           </div>
           <div className="w-full lg:w-1/4">
