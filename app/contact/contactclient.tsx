@@ -9,8 +9,6 @@ import FaqAccordion from '@components/faqaccordion/faqaccordion';
 import ContactForm from '@components/contactform';
 import Loader from '@components/loader';
 
-import styles from './page.module.scss';
-
 function RenderNode({ node, nodeKey, showHeading }: { node: any; nodeKey?: string; showHeading?: boolean }) {
   if (node === null || node === undefined) return null;
   if (typeof node === 'string') {
@@ -49,7 +47,7 @@ function RenderNode({ node, nodeKey, showHeading }: { node: any; nodeKey?: strin
           if (typeof child === 'string' && /^(true|false)$/i.test(child.trim())) return null;
           // Always render the child's value only (no key labels)
           if (k === "columns") {
-            classes = styles.contactdetails;
+            classes = "contact-details";
           }
           return (
             <div key={k} className={classes}>
@@ -98,7 +96,7 @@ export default function ContactPage() {
 
   if (isLoading && !page.title) {
     return (
-      <PageLayout metaKey="contact" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Contact' }]} className={`${styles.contactPage} layout-sm`}>
+      <PageLayout metaKey="contact" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Contact' }]} className={`layout-sm`}>
         <div className="flex items-center justify-center py-12">
           <Loader />
         </div>
@@ -107,7 +105,7 @@ export default function ContactPage() {
   }
 
   return (
-    <PageLayout metaKey="contact" title={page.title} breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title || 'contact' }]} className={`${styles.contactPage} layout-sm`}>
+    <PageLayout metaKey="contact" title={page.title} breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: page.title || 'contact' }]} className={`layout-sm`}>
       {page.subtitle ? <p className="text-gray-800">{page.subtitle}</p> : null}
       {Object.keys(page).filter(k => !['title', 'subtitle', 'meta', 'schema', 'id', 'type', 'required', 'faq'].includes(k)).map((k) => (
         <div key={k}>
