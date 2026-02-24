@@ -15,7 +15,7 @@ const nextConfig = {
   // a custom `webpack` function is present. Next.js 16 enables Turbopack
   // by default; providing an explicit `turbopack` field silences the
   // conflict warning and allows webpack overrides to continue working.
-  // turbopack: {}, // Disabled: use --webpack flag to force Webpack for compatibility
+  turbopack: {},
   reactStrictMode: true,
   // SWC minifier is handled by Next.js automatically in modern versions.
   // `swcMinify` is removed to avoid unrecognized-option warnings.
@@ -43,6 +43,7 @@ const nextConfig = {
     optimizeCss: true,
     // Enable optimized resource loading hints
     optimizePackageImports: ['react', 'react-dom'],
+      // reactTurbo removed; Next.js 16+ uses Turbopack by default
   },
   // This app is statically exported. `output: 'export'` and `trailingSlash: true`
   // are set to produce a static site suitable for static hosts.
@@ -55,55 +56,7 @@ const nextConfig = {
     qualities: [75, 90]
   },
   outputFileTracingRoot: __dirname,
-  // Configure webpack persistent caching so subsequent builds can reuse
-  // compiled artifacts. This reduces build times and avoids "No build
-  // cache found" warnings in environments that support a writable
-  // filesystem cache (CI or developer machines).
-  webpack(config: unknown, { dev }: { dev: boolean }) {
-    try {
-      const cfg = config as any;
-      if (!cfg.cache) {
-        cfg.cache = {
-          type: 'filesystem',
-          cacheDirectory: path.join(__dirname, '.next', '.cache', 'webpack'),
-          buildDependencies: {
-            config: [__filename],
-          },
-        };
-      }
-      if (!dev) {
-        // Emit source maps only when explicitly enabled in config:
-        if (nextConfig.productionBrowserSourceMaps) {
-          cfg.devtool = 'hidden-source-map';  // emit maps, don't link in JS
-        }
-        try {
-          // Add CSS minimizer in production builds. The plugin is optional at runtime
-          // so requiring it here won't break the build when it's absent.
-
-          const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
-
-          cfg.optimization = cfg.optimization || {};
-          cfg.optimization.minimizer = cfg.optimization.minimizer || [];
-          cfg.optimization.minimizer.push(new CssMinimizerPlugin());
-        } catch (err) {
-          // optional package not installed — skip enhancing webpack
-        }
-        // Ensure JS minification is enabled in webpack as a fallback
-        try {
-
-          const TerserPlugin = require('terser-webpack-plugin');
-          cfg.optimization.minimize = true;
-          cfg.optimization.minimizer.push(new TerserPlugin({ parallel: true }));
-        } catch (err) {
-          // optional package not installed — skip adding Terser fallback
-        }
-      }
-      return cfg;
-    } catch (e) {
-      // ignore cache configuration errors
-      return config as any;
-    }
-  }
+  // Custom webpack config removed for full Turbopack support.
   // NOTE: headers() function removed - not compatible with output: 'export'
   // For static exports, configure caching at your CDN or hosting provider level
 };

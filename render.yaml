@@ -13,11 +13,11 @@ services:
     # Recommended: enable a persistent disk or build cache for `public/locales` in Render
     # so locale downloads are cached between builds.
     buildCommand: |
-      export NPM_CONFIG_PRODUCTION=false
-      npm ci
+      export YARN_PRODUCTION=false
+      yarn install --frozen-lockfile
       # Run locale download, but never fail the build if it errors (including 403)
       (node scripts/download-locales.js || echo "⚠️ Locale download failed or returned 403, continuing with cached locales")
-      npm run render-build
+      yarn run render-build
     publishPath: out
 
   - type: cron
