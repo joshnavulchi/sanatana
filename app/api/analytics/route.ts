@@ -1,6 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { NextResponse } from 'next/server';
-import { google } from 'googleapis';
 import { MongoClient } from 'mongodb';
 import * as crypto from 'crypto';
 import { gzipSync } from 'zlib';
@@ -85,15 +84,7 @@ async function fetchWithGoogle() {
 
   const privateKey = rawKey.replace(/\\n/g, '\n');
 
-  const auth = new google.auth.GoogleAuth({
-    credentials: {
-      client_email: clientEmail,
-      private_key: privateKey,
-    },
-    scopes: ['https://www.googleapis.com/auth/analytics.readonly'],
-  });
 
-  const analytics = google.analyticsreporting({ version: 'v4', auth });
 
   const response = await analytics.reports.batchGet({
     requestBody: {
@@ -107,51 +98,10 @@ async function fetchWithGoogle() {
       ],
     },
   });
-
-  const reports = response.data.reports || [];
-  // If the reporting API returned no reports, the property may be GA4 — caller can set GA_PROPERTY_ID
-  if ((!reports || reports.length === 0) && process.env.GA_PROPERTY_ID) {
-    // fall through to GA4 path by throwing a sentinel error that will be caught by the caller
-    const err: any = new Error('No UA reports');
     err.code = 'NO_UA_REPORTS';
-    throw err;
-  }
-
   return reports;
-}
 
-// GA4 Data API fallback when `GA_PROPERTY_ID` is set (property numeric id)
-async function fetchWithGoogleGA4() {
-  // Support both `GA_CLIENT_EMAIL` (expected) and legacy/mis-typed `GA_CLIENT_MAIL`
-  const clientEmail = (process.env.GA_CLIENT_EMAIL || process.env.GA_CLIENT_MAIL) as string | undefined;
-  const rawKey = process.env.GA_PRIVATE_KEY as string | undefined;
-  const propertyId = process.env.GA_PROPERTY_ID as string | undefined;
 
-  if (!clientEmail || !rawKey || !propertyId) {
-    throw new Error('Missing GA4 env vars');
-  }
-
-  const privateKey = rawKey.replace(/\\n/g, '\n');
-  const auth = new google.auth.GoogleAuth({
-    credentials: {
-      client_email: clientEmail,
-      private_key: privateKey,
-    },
-    scopes: ['https://www.googleapis.com/auth/analytics.readonly'],
-  });
-
-  const analyticsdata = google.analyticsdata({ version: 'v1beta', auth });
-
-  // request a simple report: users by country and page path pageviews
-  const countryRes = await analyticsdata.properties.runReport({
-    property: `properties/${propertyId}`,
-    requestBody: {
-      dateRanges: [{ startDate: '30daysAgo', endDate: 'today' }],
-      dimensions: [{ name: 'country' }],
-      metrics: [{ name: 'activeUsers' }],
-      limit: '100',
-    },
-  });
 
   const pageRes = await analyticsdata.properties.runReport({
     property: `properties/${propertyId}`,
