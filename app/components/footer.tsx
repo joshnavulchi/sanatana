@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { loadLocaleNamespace } from '@lib/i18n';
 import { useLocale } from '@app/context/locale-context';
 import { usePathname } from 'next/navigation';
-import DashavataraTimeline from '/DashavataraTimeline';
+import DashavataraTimeline from './dashavataraTimeline'
 import Link from 'next/link';
 import LazyImage from './lazyimage';
 
