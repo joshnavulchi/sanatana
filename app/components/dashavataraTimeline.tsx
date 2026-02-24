@@ -63,7 +63,7 @@ export default function DashavataraTimeline({
 
           <div className="space-y-20">
             {dashavatara
-              .sort((a, b) => a.order - b.order)
+          .sort((a: Avatar, b: Avatar) => a.order - b.order)
               .map((avatar, index) => {
                 const isLeft = index % 2 === 0;
 
