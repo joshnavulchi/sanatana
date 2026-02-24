@@ -1,5 +1,9 @@
 'use client';
 
+import React, { useState, useEffect } from 'react';
+import useLocaleSection from '@app/hooks/useLocaleSection';
+import Link from 'next/link';
+
 import React from 'react';
 
 interface Avatar {
