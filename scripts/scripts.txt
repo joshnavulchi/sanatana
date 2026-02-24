@@ -1,6 +1,6 @@
 {
   "__scripts": {
-    "build:analyze:bigmem": "cross-env ANALYZE=true node --max-old-space-size=12288 ./node_modules/next/dist/bin/next build --webpack",
+    // "build:analyze:bigmem" removed for Turbopack-only setup
     "i18n:check": "node scripts/check-hardcoded.js",
     "i18n:sync": "node scripts/sync-locales.js",
     "check-updates": "npx npm-check-updates",

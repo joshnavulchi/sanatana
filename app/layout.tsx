@@ -13,7 +13,7 @@ import Header from '@components/header';
 import TopProgress from '@components/topprogress';
 import ResourceHints from '@components/resource-hints/ResourceHints';
 import ScrollToTop from '@components/scroll-to-top';
-import WebVitalsReporter from '@components/web-vitals/WebVitalsReporter';
+// WebVitalsReporter removed
 import { LocaleProvider } from './context/locale-context';
 import { ThemeProvider } from './context/theme-context';
 
@@ -241,7 +241,7 @@ export default async function RootLayout({
               </Suspense>
               <ScrollToTop />
               <CookieConsent />
-              <WebVitalsReporter />
+              {/* WebVitalsReporter removed */}
             </ThemeProvider>
           </LocaleProvider>
         </Suspense>
