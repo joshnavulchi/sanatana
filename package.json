@@ -2,7 +2,6 @@
   "name": "sanatanadharmam.in",
   "version": "0.1.3",
   "private": true,
-  "type": "module",
   "license": "SEE LICENSE IN LICENSE",
   "scripts": {
     "predev": "node scripts/download-locales.js --skip-if-meta && node scripts/compile-scss.js --dev",
@@ -20,7 +19,7 @@
     "render-build": "yarn install --check-files --frozen-lockfile && yarn run build",
     "start": "yarn run next start",
     "preview:static": "yarn run serve@latest out -l 3000",
-    "lint": "yarn run eslint --quiet",
+    "lint": "yarn run eslint --quiet app lib scripts",
     "minify:html": "node scripts/minify-html.js",
     "noEmit": "yarn run tsc --noEmit",
     "check-updates": "yarn run npm-check-updates",
@@ -28,6 +27,7 @@
     "clean": "Remove-Item node_modules, package-lock.json, yarn.lock, .next, out, .cache, .parcel-cache -Recurse -Force -ErrorAction SilentlyContinue"
   },
   "dependencies": {
+    "glob": "^10.5.0",
     "mongodb": "^7.1.0",
     "next": "^16.1.6",
     "react": "^19.2.4",
@@ -45,8 +45,10 @@
     "@typescript-eslint/parser": "^8.56.1",
     "autoprefixer": "^10.4.24",
     "d3": "^7.9.0",
-    "eslint-plugin-react": "^7.37.5",
     "eslint": "^9.0.2",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
     "html-minifier-terser": "^7.2.0",
     "postcss": "^8.5.6",
     "sass": "^1.97.3",

@@ -1,5 +1,6 @@
 // eslint.config.js for Next.js (ESLint v9+)
 import tseslint from '@typescript-eslint/eslint-plugin';
+import tsParser from '@typescript-eslint/parser';
 import reactPlugin from 'eslint-plugin-react';
 import reactHooksPlugin from 'eslint-plugin-react-hooks';
 import importPlugin from 'eslint-plugin-import';
@@ -8,7 +9,7 @@ export default [
   {
     files: ['**/*.{js,jsx,ts,tsx}'],
     languageOptions: {
-      parser: require.resolve('@typescript-eslint/parser'),
+      parser: tsParser,
       parserOptions: {
         ecmaVersion: 2020,
         sourceType: 'module',
@@ -38,6 +39,19 @@ export default [
   },
   {
     files: ['scripts/**'],
+    ignores: [
+      '.next/**',
+      'out/**',
+      'build/**',
+      'next-env.d.ts',
+    ],
+    languageOptions: {
+      parser: tsParser,
+      parserOptions: {
+        ecmaVersion: 2020,
+        sourceType: 'module',
+      },
+    },
     plugins: {
       '@typescript-eslint': tseslint,
     },
@@ -48,6 +62,12 @@ export default [
   },
   {
     files: ['app/**', 'lib/**', 'types/**', 'jest.setup.ts', '**/*.ts', '**/*.tsx'],
+    ignores: [
+      '.next/**',
+      'out/**',
+      'build/**',
+      'next-env.d.ts',
+    ],
     plugins: {
       '@typescript-eslint': tseslint,
     },
@@ -57,6 +77,12 @@ export default [
   },
   {
     files: ['lib/**', 'next.config.ts'],
+    ignores: [
+      '.next/**',
+      'out/**',
+      'build/**',
+      'next-env.d.ts',
+    ],
     plugins: {
       '@typescript-eslint': tseslint,
     },
