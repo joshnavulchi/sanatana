@@ -40,7 +40,7 @@ export default function DashavataraTimeline({
   locale?: string;
 }) {
   // Correct quotes + typing
-  const loc = useLocaleSection<DashavataraLocaleSchema>(
+  const loc = useLocaleSection(
     'sharable_strings'
   );
 
