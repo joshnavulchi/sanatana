@@ -1,4 +1,4 @@
-// eslint.config.js for Next.js (ESLint v9+)
+// eslint.config.mjs for Next.js (ESLint v9+)
 import tseslint from '@typescript-eslint/eslint-plugin';
 import tsParser from '@typescript-eslint/parser';
 import reactPlugin from 'eslint-plugin-react';
@@ -39,12 +39,6 @@ export default [
   },
   {
     files: ['scripts/**'],
-    ignores: [
-      '.next/**',
-      'out/**',
-      'build/**',
-      'next-env.d.ts',
-    ],
     languageOptions: {
       parser: tsParser,
       parserOptions: {
@@ -59,35 +53,41 @@ export default [
       '@typescript-eslint/no-require-imports': 'off',
       '@typescript-eslint/no-unused-vars': 'warn',
     },
-  },
-  {
-    files: ['app/**', 'lib/**', 'types/**', 'jest.setup.ts', '**/*.ts', '**/*.tsx'],
     ignores: [
       '.next/**',
       'out/**',
       'build/**',
       'next-env.d.ts',
     ],
+  },
+  {
+    files: ['app/**', 'lib/**', 'types/**', 'jest.setup.ts', '**/*.ts', '**/*.tsx'],
     plugins: {
       '@typescript-eslint': tseslint,
     },
     rules: {
       '@typescript-eslint/no-explicit-any': 'warn',
     },
-  },
-  {
-    files: ['lib/**', 'next.config.ts'],
     ignores: [
       '.next/**',
       'out/**',
       'build/**',
       'next-env.d.ts',
     ],
+  },
+  {
+    files: ['lib/**', 'next.config.ts'],
     plugins: {
       '@typescript-eslint': tseslint,
     },
     rules: {
       '@typescript-eslint/no-require-imports': 'off',
     },
+    ignores: [
+      '.next/**',
+      'out/**',
+      'build/**',
+      'next-env.d.ts',
+    ],
   },
 ];

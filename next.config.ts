@@ -15,11 +15,7 @@ const nextConfig = {
   // a custom `webpack` function is present. Next.js 16 enables Turbopack
   // by default; providing an explicit `turbopack` field silences the
   // conflict warning and allows webpack overrides to continue working.
-  turbopack: {
-    // Enable Turbopack for faster builds and HMR
-    enabled: true,
-    // You can add more Turbopack options here if needed
-  },
+  turbopack: {},
   reactStrictMode: true,
   // SWC minifier is handled by Next.js automatically in modern versions.
   // `swcMinify` is removed to avoid unrecognized-option warnings.
@@ -47,7 +43,7 @@ const nextConfig = {
     optimizeCss: true,
     // Enable optimized resource loading hints
     optimizePackageImports: ['react', 'react-dom'],
-      reactTurbo: true,
+      // reactTurbo removed; Next.js 16+ uses Turbopack by default
   },
   // This app is statically exported. `output: 'export'` and `trailingSlash: true`
   // are set to produce a static site suitable for static hosts.
