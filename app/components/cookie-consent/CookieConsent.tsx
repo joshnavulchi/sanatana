@@ -238,7 +238,7 @@ export default function CookieConsent() {
                       border-2 border-amber-300
                       hover:border-amber-400
                       text-gray-900
-                      font-semibold text-xl md:text-lg
+                      text-sm md:text-md
                       rounded-full
                       shadow-md hover:shadow-lg
                       transition-all duration-300
@@ -263,7 +263,7 @@ export default function CookieConsent() {
                     bg-gradient-to-r from-amber-500 to-orange-600
                     hover:from-amber-600 hover:to-orange-700
                     text-white
-                    font-semibold text-xl md:text-lg
+                    text-sm md:text-md
                     rounded-full
                     shadow-lg hover:shadow-xl
                     transition-all duration-300

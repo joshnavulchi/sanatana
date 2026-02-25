@@ -70,8 +70,8 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
           </nav>
           <div className="md:w-2/3 w-full">
             <div className="mb-2">
-              <span className="text-xl md:text-lg font-semibold text-blue-700">{TABS.find(t => t.id === active)?.title}</span>
-              <div className="text-xs text-gray-500">{TABS.find(t => t.id === active)?.description}</div>
+              <span className="text-md font-semibold text-blue-700">{TABS.find(t => t.id === active)?.title}</span>
+              <div className="text-sm text-gray-500">{TABS.find(t => t.id === active)?.description}</div>
             </div>
             {active === 'your-privacy' && (
               <div className="bg-blue-50 rounded-lg p-3 text-xs ">
@@ -79,7 +79,7 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
               </div>
             )}
             {active === 'strictly-necessary' && (
-              <div className="bg-gray-100 rounded-lg p-3 text-xs  flex items-center gap-2">
+              <div className="bg-gray-100 rounded-lg p-3 text-sm flex items-center gap-2">
                 <input type="checkbox" checked disabled className="accent-blue-500" />
                 <span>Strictly necessary (always enabled)</span>
               </div>
@@ -96,14 +96,14 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
               </div>
             )}
             {active === 'targeting' && (
-              <div className="mt-2 text-xs ">
+              <div className="mt-2 text-sm">
                 Third-party cookies for analytics and advertising may be set when you enable targeting/performance features. These are controlled by external providers and are only set when you opt in.
               </div>
             )}
-            <div className="flex gap-2 mt-4 justify-end">
-              <button className="cursor-pointer px-4 py-2 rounded-lg bg-gray-200  font-medium hover:bg-gray-300 transition" onClick={onClose}>Cancel</button>
-              <button className="cursor-pointer px-4 py-2 rounded-lg bg-blue-500 text-white font-medium hover:bg-blue-600 transition" onClick={save}>Save preferences</button>
-              <button className="cursor-pointer px-4 py-2 rounded-lg bg-green-500 text-white font-medium hover:bg-green-600 transition" onClick={acceptAll}>Accept all</button>
+            <div className="flex gap-3 mt-4 justify-end">
+              <button className="cursor-pointer px-3 py-2 rounded-md bg-gray-200 hover:bg-gray-300 transition" onClick={onClose}>Cancel</button>
+              <button className="cursor-pointer px-3 py-2 rounded-md bg-blue-500 text-white hover:bg-blue-600 transition" onClick={save}>Save preferences</button>
+              <button className="cursor-pointer px-3 py-2 rounded-md bg-green-500 text-white hover:bg-green-600 transition" onClick={acceptAll}>Accept all</button>
             </div>
           </div>
         </div>

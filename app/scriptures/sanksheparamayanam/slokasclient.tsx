@@ -12,7 +12,7 @@ type Sloka = {
 };
 
 export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
-  const CHUNK = 18;
+  const CHUNK = 20;
   const total = Array.isArray(slokas) ? slokas.length : 0;
   const maxVisible = Math.min(120, total);
   const [visible, setVisible] = useState(Math.min(CHUNK, maxVisible));
@@ -59,7 +59,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
         </div>
       </header>
 
-      <div className="grid gap-6 grid-cols-1 md:grid-cols-2">
+      <div className="grid gap-6 grid-cols-1">
         {slokas.slice(0, visible).map((s, idx) => {
           const key = s.sloka || s.sanskrit || idx;
           const isExpanded = !!expanded[idx];
@@ -77,13 +77,13 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
               <div className="flex justify-between items-start">
                 <div className="flex-1">
                   {s.sanskrit ? (
-                    <p className="text-xl md:text-lg md:text-2xl font-extrabold tracking-tight bg-clip-text bg-gradient-to-r from-amber-600 via-orange-500 to-amber-400">
+                    <p className="text-xl md:text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
                       {s.sanskrit}
                     </p>
                   ) : null}
 
                   {s.transliteration ? (
-                    <p className="mt-2 text-xl md:text-lg italic text-slate-700">
+                    <p className="mt-2 text-md md:text-lg italic text-slate-700">
                       {s.transliteration}
                     </p>
                   ) : null}
@@ -112,13 +112,13 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
                       </svg>
                     )}
                   </button>
-                  <span className="text-xl md:text-lg text-slate-400">{idx + 1}</span>
+                  <span className="text-md text-slate-400">{idx + 1}</span>
                 </div>
               </div>
 
               <div className="mt-4">
                 {context ? (
-                  <div className="text-xl md:text-lg text-slate-400 leading-relaxed">
+                  <div className="text-md text-slate-400 leading-relaxed">
                     <p className={`${isExpanded ? "" : "line-clamp-[8]"}`}>{isExpanded ? context : previewContext}</p>
                     {context.length > 220 ? (
                       <button
@@ -134,7 +134,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
                     ) : null}
                   </div>
                 ) : (
-                  <p className="text-xl md:text-lg text-slate-400">No context available.</p>
+                  <p className="text-md text-slate-400">No context available.</p>
                 )}
               </div>
 
@@ -156,7 +156,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
                     ) : null}
                   </div>
                 ) : (
-                  <p className="text-xl md:text-lg text-slate-400">No meaning available.</p>
+                  <p className="text-md text-slate-400">No meaning available.</p>
                 )}
               </div>
 

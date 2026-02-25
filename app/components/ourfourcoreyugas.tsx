@@ -63,7 +63,7 @@ const Segment = ({ title, subtitle, years, isFirst, isLast, index }: any) => {
 
           <div className="text-center sm:text-left">
             <h6 className="text-2xl font-light tracking-wide drop-shadow-lg group-hover:scale-105 transition-transform duration-300 m-0">{title}</h6>
-            <p className="text-lg font-light text-white group-hover:text-white transition-colors duration-300 mt-3">{subtitle}</p>
+            <p className="text-md font-light text-white group-hover:text-white transition-colors duration-300 mt-3">{subtitle}</p>
           </div>
         </div>
 
@@ -74,12 +74,12 @@ const Segment = ({ title, subtitle, years, isFirst, isLast, index }: any) => {
 
       {/* Years badge */}
       <div className="
-        relative mt-4 px-6 py-2
+        relative mt-6 px-6 py-2
         bg-white/10 backdrop-blur-md
         border border-white/20
         rounded-full
         text-white/90
-        text-xl md:text-lg
+        text-sm
         font-medium tracking-wide
         shadow-lg
         hover:bg-white/20 hover:scale-105
@@ -107,6 +107,8 @@ export default function OurFourCoreYugas() {
   const title = parseList((locale?.ourfourcoreyugastitle as any) || '');
   const subtitle = parseList((locale?.ourfourcoreyugassubtitle as any) || '');
   const yugas = Array.isArray(locale?.ourfourcoreyugas) ? locale!.ourfourcoreyugas : parseList((locale?.ourfourcoreyugas as any) || '');
+  const earthAgeComparisonNote = parseList((locale?.earth_age_comparison_note as any) || '');
+  const scalingComment = parseList((locale?.scaling_comment as any) || '');
   const [isVisible] = useState(true);
 
   return (
@@ -131,12 +133,12 @@ export default function OurFourCoreYugas() {
             <div className="h-px w-20 bg-gradient-to-l from-transparent to-amber-400" />
           </div>
 
-          <h6 className="text-3xl md:text-4xl font-light text-amber-200 drop-shadow-2xl [text-shadow:_2px_2px_8px_rgb(0_0_0_/_80%)] my-6">
+          <h6 className="text-3xl md:text-4xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl my-6">
             {title}
           </h6>
 
-          <div className="mx-auto max-w-5xl">
-            <p className="text-lg leading-relaxed text-white">
+          <div className="mx-auto max-w-5xl px-3">
+            <p className="text-md leading-relaxed text-white">
               {subtitle}{' '}
               <Link
                 href="/cosmictime"
@@ -181,17 +183,23 @@ export default function OurFourCoreYugas() {
         </div>
 
         {/* Bottom decorative accent */}
-        <div
-          className={`
-            mt-16 flex items-center justify-center gap-3
-            transition-all duration-1000 ease-out delay-700
+        <div className={`mt-16 flex items-center justify-center gap-3 transition-all duration-1000 ease-out delay-700
             ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}
-          `}
-        >
+          `}>
           <div className="h-px w-20 bg-gradient-to-r from-transparent to-orange-400" />
           <span className="text-orange-300 text-lg font-light">✦ CYCLE OF TIME ✦</span>
           <div className="h-px w-20 bg-gradient-to-l from-transparent to-orange-400" />
         </div>
+
+        <div className="px-3 my-6">
+          <h6 className="bg-white inline-flex text-lg leading-relaxed shadow-md rounded-sm px-6 py-2 border-amber-50 animate-pulse">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">{earthAgeComparisonNote}</span>
+          </h6>
+          <p className="text-sm leading-relaxed my-3 text-white">
+            {scalingComment}
+          </p>
+        </div>
+
       </div>
 
       {/* Soft vignette overlay */}

@@ -196,15 +196,15 @@ export default function Page({ searchParams }: any) {
                             <span className="text-white font-black text-2xl transform -rotate-3">{parva.order || index + 1}</span>
                           </div>
                           <div className="flex-1">
-                            <h3 className={`text-2xl font-black ${color.text} mb-2`}>
+                            <h4 className={`text-2xl font-black ${color.text} mb-2`}>
                               {parva.parvaname || parvaKey.replace(/_/g, ' ').toUpperCase()}
-                            </h3>
+                            </h4>
                           </div>
                         </div>
                         {parva.detailednarration && (
                           <div className="mb-6 pl-0 md:pl-22">
                             <div className="bg-white bg-opacity-70 rounded-xl p-5 border border-gray-200">
-                              <p className="text-xl md:text-lg text-gray-800 leading-relaxed">
+                              <p className="text-md text-gray-800 leading-relaxed">
                                 {parva.detailednarration.split('\n\n').slice(0, 2).join('\n\n')}...
                               </p>
                             </div>
@@ -213,18 +213,18 @@ export default function Page({ searchParams }: any) {
                         {parva.moralpsychologicalphilosophicallessons && (
                           <div className="mb-6 pl-0 md:pl-22">
                             <div className="bg-white bg-opacity-90 rounded-xl p-5 border-l-4 border-blue-500">
-                              <p className="text-xs font-bold text-blue-700 uppercase tracking-wider mb-2">📚 Key Lessons</p>
-                              <p className="text-xl md:text-lg text-gray-700 leading-relaxed">{parva.moralpsychologicalphilosophicallessons}</p>
+                              <p className="text-md font-bold text-blue-700 uppercase tracking-wider mb-2">📚 Key Lessons</p>
+                              <p className="text-md text-gray-700 leading-relaxed">{parva.moralpsychologicalphilosophicallessons}</p>
                             </div>
                           </div>
                         )}
                         <div className="pl-0 md:pl-22 flex justify-end">
                           <Link
                             href={`/scriptures/mahabharata/parva/${parvaKey}`}
-                            className={`inline-flex items-center gap-2 ${color.accent} hover:opacity-90 text-white font-bold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105`}
+                            className={`inline-flex items-center gap-2 ${color.accent} hover:opacity-90 text-white px-4 py-2 rounded-md shadow-lg hover:shadow-xl transition-all duration-300 transform`}
                           >
                             <span>Read Complete Parva</span>
-                            <span className="text-xl md:text-lg">→</span>
+                            <span className="text-md">→</span>
                           </Link>
                         </div>
                       </div>

@@ -128,10 +128,10 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
               <div className="relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-lg rounded-3xl p-8 shadow-2xl transform hover:scale-105 transition-transform duration-500">
                 {/* Om symbol large */}
                 <div className="text-center space-y-6">
-                  <div className="text-9xl text-amber-300/80 font-serif animate-pulse">ॐ</div>
+                  <div className="text-6xl text-amber-300/80 font-serif animate-pulse">ॐ</div>
                   <div className="h-px w-full bg-gradient-to-r from-transparent via-amber-400 to-transparent" />
-                  <p className="text-white/90 md:text-xl md:text-lg font-serif italic">सत्यमेव जयते</p>
-                  <p className="text-amber-200 text-xl md:text-lg">Truth Alone Triumphs</p>
+                  <p className="text-white/90 md:text-lg font-serif italic">सत्यमेव जयते</p>
+                  <p className="text-amber-200 text-md">Truth Alone Triumphs</p>
                 </div>
               </div>
             </div>
@@ -169,8 +169,8 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
               {/* CTA Buttons */}
               <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 mt-6">
                 <Link href={hero?.primarycta?.link ? `/${hero.primarycta.link}` : '/scriptures'}
-                  className="group relative md:inline-flex px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-600
-                    hover:from-amber-600 hover:to-orange-700 text-white text-lg rounded-full shadow-xl hover:shadow-2xl
+                  className="group relative md:inline-flex px-8 py-3 bg-gradient-to-r from-amber-500 to-orange-600
+                    hover:from-amber-600 hover:to-orange-700 text-white text-xl rounded-full shadow-xl font-light hover:shadow-2xl
                     transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden">
                   <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
                   <span className="relative flex items-center justify-center gap-2">
@@ -183,9 +183,9 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
 
                 <Link
                   href={hero?.secondarycta?.link ? `/${hero.secondarycta.link}` : '/sanatanadharma'}
-                  className="group md:inline-flex px-8 py-4 bg-white/10 backdrop-blur-md
+                  className="group md:inline-flex px-8 py-3 bg-white/10 backdrop-blur-md
                     hover:bg-white/20 border-2 border-white/50 hover:border-white
-                    text-white text-lg rounded-full shadow-lg hover:shadow-xl
+                    text-white text-xl font-light rounded-full shadow-lg hover:shadow-xl
                     transition-all duration-300 transform hover:-translate-y-1 no-underline">
                   <span className="flex items-center justify-center gap-2">
                     {hero?.secondarycta?.label || 'Start Learning'}
@@ -199,7 +199,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
               {/* Scroll Indicator */}
               <div className="flex justify-center gap-2 mt-6">
                 <LazyImage src="/images/svg/arrow.svg" alt="Scroll Down" width={16} height={16} className="inline-block text-amber-200 animate-bounce" />
-                <span className="text-xl md:text-lg font-medium drop-shadow-md text-amber-200">{hero?.scroll || 'Scroll to explore'}</span>
+                <span className="text-md drop-shadow-md text-amber-200">{hero?.scroll || 'Scroll to explore'}</span>
               </div>
             </div>
           </div>

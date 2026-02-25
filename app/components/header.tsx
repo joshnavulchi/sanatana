@@ -182,18 +182,20 @@ export default function Header() {
       <div className="w-full px-4 md:px-0 bg-white/95 shadow-md sticky top-0 z-30 py-1">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Logo and Title */}
-          <Link href="/" className="flex items-center gap-1 group">
-            <LazyImage
-              src="/images/logo.png"
-              alt="Sanatanadharmam Logo"
-              width={logoWidth}
-              height={40}
-              className="md:flex"
-            />
-            <span className="max-w-50 md:max-w-100 font-[1000] text-3xl md:text-4xl bg-gradient-to-r from-orange-600 via-amber-700 to-yellow-600 bg-clip-text text-transparent tracking-tight drop-shadow-lg">
-              {translations.siteTitle}
-            </span>
-          </Link>
+          <h1 className="m-0 p-0">
+            <Link href="/" className="flex items-center gap-1 group">
+              <LazyImage
+                src="/images/logo.png"
+                alt="Sanatanadharmam Logo"
+                width={logoWidth}
+                height={40}
+                className="md:flex"
+              />
+              <span className="max-w-50 md:max-w-100 text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
+                {translations.siteTitle}
+              </span>
+            </Link>
+          </h1>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-2" role="menubar" aria-label="Main navigation">

@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react';
 import { loadLocaleNamespace } from '@lib/i18n';
 import { useLocale } from '@app/context/locale-context';
 import { usePathname } from 'next/navigation';
-import DashavataraTimeline from './dashavataraTimeline'
 import Link from 'next/link';
 import LazyImage from './lazyimage';
 
@@ -39,14 +38,13 @@ export default function Footer() {
 
   return (
     <>
-      <DashavataraTimeline />
       <footer className={`gradient-background w-full px-3`} style={{ minHeight: '400px' }}>
         <div className={`relative z-29`}>
           <section className="content-wrapper text-center py-30!">
-            <h6 className={`mx-auto max-w-2xl shadow-2xl rounded-lg bg-white/94 px-3 py-6`}>
+            <h6 className={`mx-auto max-w-2xl shadow-xl rounded-lg bg-white/94 px-3 py-6`}>
               <span className="text-3xl/10 md:text-4xl/12 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">{footer?.title || footer?.titleText}</span>
             </h6>
-            <p className={`text-lg md:mx-auto md:max-w-5xl md:text-lg text-white/90 leading-relaxed my-6`}>{footer?.quote || footer?.quotes} {footer?.quoteSource || footer?.quotesource}</p>
+            <p className={`md:mx-auto md:max-w-5xl text-md text-white/90 leading-relaxed px-3 py-6`}>{footer?.quote || footer?.quotes} {footer?.quoteSource || footer?.quotesource}</p>
 
             {/* CTA Buttons */}
             <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 mt-6">

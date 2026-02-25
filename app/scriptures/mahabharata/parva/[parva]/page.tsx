@@ -383,7 +383,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                       <div className={`w-12 h-12 bg-gradient-to-br ${classes.iconBg} rounded-xl flex items-center justify-center shadow-lg`}>
                         <span className="text-white text-2xl">📖</span>
                       </div>
-                      <h2 className={`text-3xl font-bold ${classes.textColor}`}>Overview</h2>
+                      <h3 className={`text-3xl font-bold ${classes.textColor}`}>Overview</h3>
                     </div>
 
                     <div className="relative bg-gray-50 rounded-xl p-6 border-l-4 border-blue-500">
@@ -401,7 +401,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                       <div className={`w-12 h-12 bg-gradient-to-br ${classes.iconBg} rounded-xl flex items-center justify-center shadow-lg`}>
                         <span className="text-white text-2xl">📜</span>
                       </div>
-                      <h2 className={`text-3xl font-bold ${classes.textColor}`}>The Story</h2>
+                      <h4 className={`text-3xl font-bold ${classes.textColor}`}>The Story</h4>
                     </div>
 
                     <div className="relative">
@@ -409,7 +409,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                       <div className="absolute -left-4 -top-4 text-6xl text-gray-200 font-serif leading-none">&ldquo;</div>
                       <div className="prose prose-lg max-w-none">
                         {parva.detailednarration.split('\n\n').map((paragraph: string, idx: number) => (
-                          <p key={idx} className="mb-6 text-gray-800 leading-relaxed text-justify first-letter:text-5xl first-letter:font-bold first-letter:mr-2 first-letter:float-left">
+                          <p key={idx} className="mb-6 text-gray-800 leading-relaxed text-justify first-letter:text-3xl first-letter:font-bold first-letter:mr-2 first-letter:float-left">
                             {paragraph}
                           </p>
                         ))}
