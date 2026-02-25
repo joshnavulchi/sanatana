@@ -49,69 +49,54 @@ export default function DashavataraTimeline({
   return (
     <section className="bg-gradient-to-b from-amber-50 via-white to-orange-50 py-20">
       <div className="mx-auto max-w-7xl px-6">
-
         <h1 className="text-4xl font-bold text-center text-orange-800 mb-16">
           Dasavatara Timeline
         </h1>
-
         <div className="relative">
           <div className="absolute left-1/2 -translate-x-1/2 w-1 bg-orange-200 h-full" />
-
           <div className="space-y-10">
             {dashavatara.sort((a: Avatar, b: Avatar) => a.order - b.order).map((avatar: Avatar, index: number) => {
               const isLeft = index % 2 === 0;
               return (
-                <div
-                  key={avatar.order}
+                <div key={avatar.order}
                   className={`relative flex flex-col md:flex-row items-center ${isLeft ? 'md:justify-start' : 'md:justify-end'
-                    }`}
-                >
-                  <div
-                    className={`w-full md:w-5/12 ${isLeft ? 'md:pr-12' : 'md:pl-12'
-                      }`}
-                  >
+                    }`}>
+                  <div className={`w-full md:w-5/12 ${isLeft ? '' : ''
+                    }`}>
                     <div className="bg-white border border-orange-100 rounded-2xl p-6 shadow-md hover:shadow-xl transition">
-
                       <h2 className="text-xl font-semibold text-orange-700">
                         {avatar.name}
                       </h2>
-
                       <p className="text-sm text-gray-500 mb-2">
                         {avatar.type} • {avatar.yuga}
                         {avatar.status && ` • ${avatar.status}`}
                       </p>
-
                       <p className="text-gray-700 mb-3">
                         {avatar.purpose}
                       </p>
-
                       {avatar.primary_antagonist && (
                         <p className="text-sm text-gray-600">
                           <strong>Antagonist:</strong>{' '}
                           {avatar.primary_antagonist}
                         </p>
                       )}
-
                       {avatar.primary_event && (
                         <p className="text-sm text-gray-600">
                           <strong>Event:</strong>{' '}
                           {avatar.primary_event}
                         </p>
                       )}
-
                       {avatar.weapon && (
                         <p className="text-sm text-gray-600">
                           <strong>Weapon:</strong> {avatar.weapon}
                         </p>
                       )}
-
                       {avatar.historical_identity && (
                         <p className="text-sm text-gray-600">
                           <strong>Identity:</strong>{' '}
                           {avatar.historical_identity}
                         </p>
                       )}
-
                       <div className="mt-3">
                         <p className="text-sm">
                           <strong>Symbolism:</strong>{' '}
@@ -122,7 +107,6 @@ export default function DashavataraTimeline({
                           {avatar.evolutionary_symbolism}
                         </p>
                       </div>
-
                       <div className="mt-4 flex flex-wrap gap-2">
                         {avatar.associated_texts.map((text, i) => (
                           <span

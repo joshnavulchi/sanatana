@@ -1,4 +1,3 @@
-
 "use client";
 import PageLayout from "@components/common/PageLayout";
 import { useLocale } from "@app/context/locale-context";
@@ -7,7 +6,7 @@ import { loadLocaleNamespace } from "@lib/i18n";
 import { useEffect, useState } from 'react';
 import Loader from "@components/loader";
 import SimilarCategories from "@components/similar-categories/SimilarCategories";
-
+import DashavataraTimeline from "../components/dashavataraTimeline";
 
 export default function CosmictimeClient() {
   const { locale, isLoading } = useLocale();
@@ -72,7 +71,6 @@ export default function CosmictimeClient() {
     timeline: 'text-orange-400'
     , part1: 'text-amber-500', part2: 'text-amber-500', part3: 'text-amber-500', part4: 'text-amber-500', part5: 'text-amber-500', part6: 'text-amber-500', part7: 'text-amber-500', part8: 'text-amber-500', part9: 'text-amber-500', part10: 'text-amber-500'
   };
-
   const SECTIONS: string[] = [
     'cosmic_evolution',
     'planetary_evolution',
@@ -81,11 +79,11 @@ export default function CosmictimeClient() {
     'human_evolution_global',
     'human_evolution_india',
     'timeline',
-    'part1','part2','part3','part4','part5','part6','part7','part8','part9','part10'
+    'part1', 'part2', 'part3', 'part4', 'part5', 'part6', 'part7', 'part8', 'part9', 'part10'
   ];
 
   // Part-specific visual variants (unique look per part)
-  const PART_VARIANTS: Record<string, {card: string; badge: string; title: string; subtitle?: string}> = {
+  const PART_VARIANTS: Record<string, { card: string; badge: string; title: string; subtitle?: string }> = {
     part1: { card: 'bg-gradient-to-br from-amber-50 to-amber-100 border-l-8 border-amber-300 p-6 rounded-2xl shadow-md', badge: 'bg-amber-200 text-amber-700', title: 'text-amber-800', subtitle: 'text-sm text-amber-700' },
     part2: { card: 'bg-gradient-to-br from-orange-50 to-orange-100 border-l-8 border-orange-300 p-6 rounded-2xl shadow-md', badge: 'bg-orange-200 text-orange-700', title: 'text-orange-800', subtitle: 'text-sm text-orange-700' },
     part3: { card: 'bg-gradient-to-br from-yellow-50 to-yellow-100 border-l-8 border-yellow-300 p-6 rounded-2xl shadow-md', badge: 'bg-yellow-200 text-yellow-700', title: 'text-yellow-800', subtitle: 'text-sm text-yellow-700' },
@@ -95,7 +93,7 @@ export default function CosmictimeClient() {
     part7: { card: 'bg-gradient-to-br from-amber-50 to-amber-100 border-l-8 border-amber-300 p-6 rounded-2xl shadow-md', badge: 'bg-amber-200 text-amber-700', title: 'text-amber-800', subtitle: 'text-sm text-amber-700' },
     part8: { card: 'bg-gradient-to-br from-orange-50 to-orange-100 border-l-8 border-orange-300 p-6 rounded-2xl shadow-md', badge: 'bg-orange-200 text-orange-700', title: 'text-orange-800', subtitle: 'text-sm text-orange-700' },
     part9: { card: 'bg-gradient-to-br from-yellow-50 to-yellow-100 border-l-8 border-yellow-300 p-6 rounded-2xl shadow-md', badge: 'bg-yellow-200 text-yellow-700', title: 'text-yellow-800', subtitle: 'text-sm text-yellow-700' },
-    part10:{ card: 'bg-gradient-to-br from-emerald-50 to-emerald-100 border-l-8 border-emerald-300 p-6 rounded-2xl shadow-md', badge: 'bg-emerald-200 text-emerald-700', title: 'text-emerald-800', subtitle: 'text-sm text-emerald-700' }
+    part10: { card: 'bg-gradient-to-br from-emerald-50 to-emerald-100 border-l-8 border-emerald-300 p-6 rounded-2xl shadow-md', badge: 'bg-emerald-200 text-emerald-700', title: 'text-emerald-800', subtitle: 'text-sm text-emerald-700' }
   };
 
   if (isLoading && !data.title) {
@@ -115,12 +113,12 @@ export default function CosmictimeClient() {
     >
       <div id="cosmictime-content">
         <div className="flex flex-col lg:flex-row gap-8">
-          <main className="w-full lg:w-3/4">
+          <main className="w-full lg:w-3/4 hidden!">
             <header className="px-6 py-10 rounded-3xl bg-gradient-to-r from-amber-50 via-orange-50 to-yellow-50 border border-orange-100 shadow-sm">
               <div className="max-w-5xl mx-auto text-center">
                 <div className="mx-auto w-20 h-20 rounded-full bg-white/80 border border-amber-200 flex items-center justify-center mb-4 shadow">
                   <svg className="w-10 h-10 text-amber-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
-                    <path d="M12 2v6M12 16v6M4.2 7.8l4.2 2.4M15.6 13.8l4.2 2.4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M12 2v6M12 16v6M4.2 7.8l4.2 2.4M15.6 13.8l4.2 2.4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </div>
                 <h1 className="text-3xl md:text-4xl font-extrabold text-orange-900 mb-2">{data.title}</h1>
@@ -149,11 +147,11 @@ export default function CosmictimeClient() {
                       <div className="flex items-start gap-4">
                         <div className={`flex-shrink-0 w-12 h-12 rounded-lg flex items-center justify-center ${variant.badge} border`}>
                           <svg className={`w-6 h-6 ${variant.title}`} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
-                            <path d="M5 12h14M12 5v14" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
+                            <path d="M5 12h14M12 5v14" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
                           </svg>
                         </div>
                         <div className="flex-1">
-                          <h3 className={`text-xl md:text-lg font-semibold ${variant.title} mb-2`}>{`Part ${sectionKey.replace('part','')}: ${section?.dataset_metadata?.title || sectionKey.replace(/_/g,' ')}`}</h3>
+                          <h3 className={`text-xl md:text-lg font-semibold ${variant.title} mb-2`}>{`Part ${sectionKey.replace('part', '')}: ${section?.dataset_metadata?.title || sectionKey.replace(/_/g, ' ')}`}</h3>
                           {subtitle && <div className={`${variant.subtitle} mb-3`}>{subtitle}</div>}
                           <div className="space-y-3 text-amber-900 text-base">
                             {renderSectionContent(section)}
@@ -168,7 +166,7 @@ export default function CosmictimeClient() {
                     <div className="flex items-start gap-4">
                       <div className={`flex-shrink-0 w-12 h-12 rounded-lg ${badgeBg} ${badgeBorder} flex items-center justify-center`}>
                         <svg className={`${badgeText} w-6 h-6`} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
-                          <path d="M12 6v6l3 3" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
+                          <path d="M12 6v6l3 3" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
                       </div>
                       <div className="flex-1">
@@ -183,7 +181,9 @@ export default function CosmictimeClient() {
               })}
             </section>
           </main>
-
+          <div className="w-full lg:w-3/4 ">
+            <DashavataraTimeline />
+          </div>
           <aside className="w-full lg:w-1/4">
             <SimilarCategories />
             <div className="bg-amber-50 border border-amber-100 rounded-lg mt-6 p-4">
