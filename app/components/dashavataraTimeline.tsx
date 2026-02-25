@@ -49,9 +49,9 @@ export default function DashavataraTimeline({
   return (
     <section className="bg-gradient-to-b from-amber-50 via-white to-orange-50 py-20">
       <div className="mx-auto max-w-7xl px-6">
-        <h1 className="text-4xl font-bold text-center text-orange-800 mb-16">
+        <h3 className="text-4xl font-bold text-center text-orange-800 mb-16">
           Dasavatara Timeline
-        </h1>
+        </h3>
         <div className="relative">
           <div className="absolute left-1/2 -translate-x-1/2 w-1 bg-orange-200 h-full" />
           <div className="space-y-10">
