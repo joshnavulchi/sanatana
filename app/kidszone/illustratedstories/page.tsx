@@ -19,10 +19,10 @@ export default function Page({ searchParams }: any) {
       <PageLayout
         metaKey="illustrated_stories"
         title={nsObj.title || S('kidszone_illustratedstories.title')}
+        description={nsObj.description || S('kidszone_illustratedstories.description')}
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: nsObj.title || S('kidszone_illustratedstories.title') }]}
         className="layout-md"
       >
-        <p className="text-lg text-pink-800 font-medium mb-6 text-center">{nsObj.description || S('kidszone_illustratedstories.description')}</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           {stories.map((s: any) => (
             <Link key={s.id} href={`/kidszone/illustratedstories/${s.id}`} className="group block rounded-xl overflow-hidden shadow-lg border border-pink-200 bg-gradient-to-br from-pink-50 to-yellow-50 hover:shadow-2xl transition-transform hover:-translate-y-1">
@@ -31,15 +31,15 @@ export default function Page({ searchParams }: any) {
                   <LazyImage src={s.imgsrc} alt={s.imgalt} fill style={{ objectFit: 'cover' }} className="transition-transform group-hover:scale-105 duration-300" />
                 </div>
                 <div className="flex-1 flex flex-col p-4">
-                  <h3 className="text-xl md:text-lg font-bold text-pink-700 mb-1 line-clamp-2">{s.title}</h3>
-                  <div className="text-xs text-pink-500 mb-2">{s.origin}</div>
-                  <p className="text-xl md:text-lg text-gray-700 mb-2 line-clamp-3">{s.summary}</p>
+                  <h3 className="text-xl font-bold text-pink-700 mb-1 line-clamp-2">{s.title}</h3>
+                  <div className="text-sm text-pink-500 mb-2">{s.origin}</div>
+                  <p className="text-md text-gray-700 mb-2 line-clamp-3">{s.summary}</p>
                   <div className="mt-auto flex flex-wrap gap-2">
                     {Array.isArray(s.themes) && s.themes.map((theme: string, idx: number) => (
                       <span key={idx} className="bg-yellow-200 text-yellow-900 rounded-full px-3 py-1 text-xs font-semibold">{theme}</span>
                     ))}
                   </div>
-                  <div className="mt-2 text-xs text-green-700 italic">Moral: {s.moral}</div>
+                  <div className="mt-2 text-sm text-green-700 italic">Moral: {s.moral}</div>
                 </div>
               </article>
             </Link>

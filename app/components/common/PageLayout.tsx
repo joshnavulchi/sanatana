@@ -38,8 +38,8 @@ export default function PageLayout({ metaKey, title, titleColor, titleBorder, de
                 {title && (<h2 className={`text-4xl/10 font-semibold text-transparent bg-clip-text bg-gradient-to-r ${h2Color} px-8 py-2 mb-3`}>
                   {title}
                 </h2>)}
-                <div className={`absolute -top-4 -left-4 w-16 h-16 border-t-4 border-l-6 ${h2Border} rounded-tl-3xl`}></div>
-                <div className={`absolute -bottom-4 -right-4 w-16 h-16 border-b-4 border-r-6 ${h2Border} rounded-br-3xl`}></div>
+                <div className={`absolute -top-4 -left-4 w-16 h-16 border-t-4 border-l-4 ${h2Border} rounded-tl-3xl`}></div>
+                <div className={`absolute -bottom-4 -right-4 w-16 h-16 border-b-4 border-r-4 ${h2Border} rounded-br-3xl`}></div>
               </div>
             </div>
             {description && (

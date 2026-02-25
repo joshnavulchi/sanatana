@@ -85,48 +85,48 @@ export default function Page({ searchParams }: any) {
         {page.introduction && Object.keys(page.introduction).length > 0 && (
           <section className="mb-12">
             <div className="relative mb-8">
-              <h2 className="text-3xl font-bold text-amber-900 text-center mb-2 relative inline-block w-full">
+              <h3 className="text-3xl font-bold text-amber-900 text-center mb-2 relative inline-block w-full">
                 <span className="relative z-10 bg-white px-6">Introduction to the Epic</span>
                 <div className="absolute top-1/2 left-0 w-full h-0.5 bg-gradient-to-r from-amber-300 via-amber-500 to-amber-300"></div>
-              </h2>
+              </h3>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {page.introduction.what_is_ramayanam && (
                 <div className="bg-white border-l-4 border-orange-500 shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-r-xl">
                   <div className="bg-orange-100 px-5 py-3 border-b-2 border-orange-200">
-                    <h3 className="text-xl md:text-lg font-bold text-orange-900 flex items-center gap-2">
+                    <h4 className="text-xl font-bold text-orange-900 flex items-center gap-2">
                       <span className="text-2xl">📖</span>
                       What is Ramayanam?
-                    </h3>
+                    </h4>
                   </div>
                   <div className="p-5">
-                    <p className="text-xl md:text-lg text-gray-700 leading-relaxed">{page.introduction.what_is_ramayanam}</p>
+                    <p className="text-md text-gray-700 leading-relaxed">{page.introduction.what_is_ramayanam}</p>
                   </div>
                 </div>
               )}
               {page.introduction.who_wrote_it && (
                 <div className="bg-white border-l-4 border-amber-500 shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-r-xl">
                   <div className="bg-amber-100 px-5 py-3 border-b-2 border-amber-200">
-                    <h3 className="text-xl md:text-lg font-bold text-amber-900 flex items-center gap-2">
+                    <h5 className="text-xl font-bold text-amber-900 flex items-center gap-2">
                       <span className="text-2xl">✍️</span>
                       Who Wrote It?
-                    </h3>
+                    </h5>
                   </div>
                   <div className="p-5">
-                    <p className="text-xl md:text-lg text-gray-700 leading-relaxed">{page.introduction.who_wrote_it}</p>
+                    <p className="text-md text-gray-700 leading-relaxed">{page.introduction.who_wrote_it}</p>
                   </div>
                 </div>
               )}
               {page.introduction.why_it_is_important && (
                 <div className="bg-white border-l-4 border-red-500 shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-r-xl">
                   <div className="bg-red-100 px-5 py-3 border-b-2 border-red-200">
-                    <h3 className="text-xl md:text-lg font-bold text-red-900 flex items-center gap-2">
+                    <h6 className="text-xl font-bold text-red-900 flex items-center gap-2">
                       <span className="text-2xl">⭐</span>
                       Why It Is Important?
-                    </h3>
+                    </h6>
                   </div>
                   <div className="p-5">
-                    <p className="text-xl md:text-lg text-gray-700 leading-relaxed">{page.introduction.why_it_is_important}</p>
+                    <p className="text-md text-gray-700 leading-relaxed">{page.introduction.why_it_is_important}</p>
                   </div>
                 </div>
               )}
@@ -137,10 +137,10 @@ export default function Page({ searchParams }: any) {
         {page.main_characters && page.main_characters.length > 0 && (
           <section className="mb-12">
             <div className="relative mb-8">
-              <h2 className="text-3xl font-bold text-amber-900 text-center mb-2 relative inline-block w-full">
+              <h6 className="text-3xl font-bold text-amber-900 text-center mb-2 relative inline-block w-full">
                 <span className="relative z-10 bg-white px-6">Main Characters</span>
                 <div className="absolute top-1/2 left-0 w-full h-0.5 bg-gradient-to-r from-amber-300 via-amber-500 to-amber-300"></div>
-              </h2>
+              </h6>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {page.main_characters.map((c: any, idx: number) => (
@@ -152,11 +152,11 @@ export default function Page({ searchParams }: any) {
                         {idx + 1}
                       </div>
                       <div className="flex-1">
-                        <h3 className="text-xl md:text-lg font-bold text-amber-900 group-hover:text-orange-600 transition-colors">{c.name}</h3>
+                        <h6 className="text-xl font-bold text-amber-900 group-hover:text-orange-600 transition-colors">{c.name}</h6>
                       </div>
                     </div>
                     {c.role && (
-                      <p className="text-xl md:text-lg text-gray-700 leading-relaxed ">{c.role}</p>
+                      <p className="text-md text-gray-700 leading-relaxed">{c.role}</p>
                     )}
                   </div>
                 </div>
@@ -168,10 +168,10 @@ export default function Page({ searchParams }: any) {
         {page.core_themes && page.core_themes.length > 0 && (
           <section className="mb-12">
             <div className="relative mb-8">
-              <h2 className="text-3xl font-bold text-amber-900 text-center mb-2 relative inline-block w-full">
+              <h6 className="text-3xl font-bold text-amber-900 text-center mb-2 relative inline-block w-full">
                 <span className="relative z-10 bg-white px-6">Important Lessons</span>
                 <div className="absolute top-1/2 left-0 w-full h-0.5 bg-gradient-to-r from-amber-300 via-amber-500 to-amber-300"></div>
-              </h2>
+              </h6>
             </div>
             <div className="space-y-5">
               {page.core_themes.map((ct: any, idx: number) => (
@@ -180,11 +180,11 @@ export default function Page({ searchParams }: any) {
                   <div className="pl-8 pr-6 py-5">
                     <div className="flex items-start gap-4">
                       <div className="flex-shrink-0 w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center border-2 border-amber-400">
-                        <span className="text-xl md:text-lg font-bold text-amber-700">{idx + 1}</span>
+                        <span className="text-xl font-bold text-amber-700">{idx + 1}</span>
                       </div>
                       <div className="flex-1">
-                        <h3 className="text-xl md:text-lg font-bold text-amber-900 mb-2">{typeof ct.title === 'string' ? ct.title : ct['title']}</h3>
-                        {ct.description && <p className="text-xl md:text-lg text-gray-700 leading-relaxed">{ct.description}</p>}
+                        <h6 className="text-xl font-bold text-amber-900 mb-2">{typeof ct.title === 'string' ? ct.title : ct['title']}</h6>
+                        {ct.description && <p className="text-md text-gray-700 leading-relaxed">{ct.description}</p>}
                       </div>
                     </div>
                   </div>
@@ -197,10 +197,10 @@ export default function Page({ searchParams }: any) {
         {page.timeline && page.timeline.length > 0 && (
           <section className="mb-12">
             <div className="relative mb-8">
-              <h2 className="text-3xl font-bold text-amber-900 text-center mb-2 relative inline-block w-full">
+              <h6 className="text-3xl font-bold text-amber-900 text-center mb-2 relative inline-block w-full">
                 <span className="relative z-10 bg-white px-6">Epic Timeline</span>
                 <div className="absolute top-1/2 left-0 w-full h-0.5 bg-gradient-to-r from-amber-300 via-amber-500 to-amber-300"></div>
-              </h2>
+              </h6>
             </div>
             <div className="relative max-w-4xl mx-auto">
               <div className="absolute left-8 top-0 bottom-0 w-1 bg-gradient-to-b from-orange-400 via-amber-500 to-red-500 hidden md:block"></div>
@@ -208,11 +208,11 @@ export default function Page({ searchParams }: any) {
                 {page.timeline.map((ev: any, idx: number) => (
                   <div key={idx} className="relative flex items-start gap-6 group">
                     <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center border-4 border-white shadow-lg z-10">
-                      <span className="text-white font-bold text-lg">{idx + 1}</span>
+                      <span className="text-white font-bold text-xl">{idx + 1}</span>
                     </div>
                     <div className="flex-1 bg-white rounded-xl border-2 border-amber-200 shadow-md hover:shadow-lg transition-shadow duration-300 p-5">
-                      <p className="text-xl md:text-lg font-semibold text-amber-900">{typeof ev === 'string' ? ev : ev.event}</p>
-                      {typeof ev === 'object' && ev.desc && <p className="text-xl md:text-lg text-gray-600 mt-2">{ev.desc}</p>}
+                      <p className="text-md font-semibold text-amber-900">{typeof ev === 'string' ? ev : ev.event}</p>
+                      {typeof ev === 'object' && ev.desc && <p className="text-md text-gray-600 mt-2">{ev.desc}</p>}
                     </div>
                   </div>
                 ))}
@@ -224,10 +224,10 @@ export default function Page({ searchParams }: any) {
         {page.symbolic_meaning && Object.keys(page.symbolic_meaning).length > 0 && (
           <section className="mb-12">
             <div className="relative mb-8">
-              <h2 className="text-3xl font-bold text-amber-900 text-center mb-2 relative inline-block w-full">
+              <h6 className="text-3xl font-bold text-amber-900 text-center mb-2 relative inline-block w-full">
                 <span className="relative z-10 bg-white px-6">Symbolic Meaning</span>
                 <div className="absolute top-1/2 left-0 w-full h-0.5 bg-gradient-to-r from-amber-300 via-amber-500 to-amber-300"></div>
-              </h2>
+              </h6>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {Object.entries(page.symbolic_meaning).map(([key, value]: [string, any], idx: number) => (
@@ -236,9 +236,9 @@ export default function Page({ searchParams }: any) {
                     <div className="w-8 h-8 bg-red-500 rounded-lg flex items-center justify-center">
                       <span className="text-white text-lg">🔸</span>
                     </div>
-                    <h3 className="text-lg font-bold text-red-900 capitalize">{key.replace(/_/g, ' ')}</h3>
+                    <h6 className="text-lg font-bold text-red-900 capitalize">{key.replace(/_/g, ' ')}</h6>
                   </div>
-                  <p className="text-xl md:text-lg text-gray-700 leading-relaxed ">{value}</p>
+                  <p className="text-md text-gray-700 leading-relaxed ">{value}</p>
                 </div>
               ))}
             </div>
@@ -248,10 +248,10 @@ export default function Page({ searchParams }: any) {
         {page.story_divided_by_kandas && typeof page.story_divided_by_kandas === 'object' && (
           <section className="mb-12">
             <div className="relative mb-8">
-              <h2 className="text-3xl font-bold text-amber-900 text-center mb-2 relative inline-block w-full">
+              <h6 className="text-3xl font-bold text-amber-900 text-center mb-2 relative inline-block w-full">
                 <span className="relative z-10 bg-white px-6">The Seven Kandas</span>
                 <div className="absolute top-1/2 left-0 w-full h-0.5 bg-gradient-to-r from-amber-300 via-amber-500 to-amber-300"></div>
-              </h2>
+              </h6>
               <p className="text-center text-gray-600 mt-4 text-xl md:text-lg max-w-2xl mx-auto">Experience the complete epic journey through seven magnificent chapters, each revealing profound wisdom and timeless values.</p>
             </div>
             <div className="space-y-8">
@@ -278,15 +278,15 @@ export default function Page({ searchParams }: any) {
                             <span className="text-white font-black text-2xl transform -rotate-3">{index + 1}</span>
                           </div>
                           <div className="flex-1">
-                            <h3 className={`text-2xl font-black ${color.text} mb-2`}>
+                            <h6 className={`text-2xl font-black ${color.text} mb-2`}>
                               {kanda.title || kkey.replace(/_/g, ' ').toUpperCase()}
-                            </h3>
+                            </h6>
                           </div>
                         </div>
                         {kanda.narrative && (
                           <div className="mb-6 pl-0 md:pl-22">
                             <div className="bg-white bg-opacity-70 rounded-xl p-5 border border-gray-200">
-                              <p className="text-sm text-gray-800 leading-relaxed line-clamp-4">
+                              <p className="text-md text-gray-800 leading-relaxed line-clamp-4">
                                 {kanda.narrative.split('\n\n').slice(0, 2).join('\n\n')}...
                               </p>
                             </div>
@@ -295,8 +295,8 @@ export default function Page({ searchParams }: any) {
                         {kanda.lessons && (
                           <div className="mb-6 pl-0 md:pl-22">
                             <div className="bg-white bg-opacity-90 rounded-xl p-5 border-l-4 border-amber-500">
-                              <p className="text-xs font-bold text-amber-700 uppercase tracking-wider mb-2">📚 Key Lessons</p>
-                              <p className="text-sm text-gray-700 leading-relaxed">{kanda.lessons}</p>
+                              <p className="text-xl font-bold text-amber-700 uppercase tracking-wider mb-2">📚 Key Lessons</p>
+                              <p className="text-md text-gray-700 leading-relaxed">{kanda.lessons}</p>
                             </div>
                           </div>
                         )}
@@ -306,7 +306,7 @@ export default function Page({ searchParams }: any) {
                             className={`inline-flex items-center gap-2 ${color.accent} hover:opacity-90 text-white px-3 py-1 rounded-sm shadow-md hover:shadow-xl transition-all duration-300 transform`}
                           >
                             <span>Read Complete Chapter</span>
-                            <span className="text-xl md:text-lg">→</span>
+                            <span className="text-md md:text-lg">→</span>
                           </Link>
                         </div>
                       </div>
