@@ -271,8 +271,6 @@ footer {
   background: linear-gradient(135deg, #fbbf24 0%, #f59e42 100%);
   color: #fff;
 }
-.disclaimer,
-.copyrights,
 .nav-wrapper {
   margin: 0 auto;
   max-width: var(--content-width-default);
@@ -281,20 +279,14 @@ footer {
   padding: var(--space-xl) 0;
 }
 .nav-wrapper .underline {
-  font-size: 1.1rem;
   padding: 0 0 var(--space-sm) 0;
 }
 .disclaimer .social-icons {
   padding-right: var(--space-xl);
 }
-.disclaimer small {
-  font-size: 0.85rem;
-}
-.copyrights {
-  padding: var(--space-sm) 0;
-}
+.disclaimer small,
 .copyrights a {
-  font-size: 0.85rem;
+  font-size: 1rem;
 }
 /* Hero section container stability */
 .herosection .herocontent {

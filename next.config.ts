@@ -15,7 +15,11 @@ const nextConfig = {
   // a custom `webpack` function is present. Next.js 16 enables Turbopack
   // by default; providing an explicit `turbopack` field silences the
   // conflict warning and allows webpack overrides to continue working.
-  turbopack: {},
+  turbopack: {
+    // Ensure Turbopack resolves the workspace root (prevents inferring `app` as project root)
+    // Use an absolute path so Turbopack can find `next` and other dependencies.
+    root: path.resolve(__dirname),
+  },
   reactStrictMode: true,
   // SWC minifier is handled by Next.js automatically in modern versions.
   // `swcMinify` is removed to avoid unrecognized-option warnings.

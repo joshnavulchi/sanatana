@@ -179,7 +179,7 @@ export default function RiversConnectingClient() {
                                         </div>
 
                                         {/* Phase type badge */}
-                                        <div className={`${phaseStyle.bg} text-white px-3 py-1 rounded-full text-xs font-bold uppercase shadow-md`}>
+                                        <div className={`${phaseStyle.bg} text-white px-3 py-1 rounded-full text-sm font-bold uppercase shadow-md`}>
                                           {phase.type}
                                         </div>
                                       </div>

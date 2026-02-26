@@ -152,14 +152,14 @@ export default function LanguageDropdown() {
   }, [filteredLanguages, open, currentLang]);
 
   return (
-    <div role="menuItem" ref={dropdownRef} className="relative hidden">
+    <div role="menuItem" ref={dropdownRef} className="relative">
       {/* Dropdown Button */}
       <button
         role="button"
         aria-haspopup="menu"
         aria-controls="language-menu"
         onClick={() => setOpen(!open)}
-        className="group relative inline-flex items-center gap-2 py-2 px-3 bg-gradient-to-r from-amber-50 to-orange-50 hover:from-amber-100 hover:to-orange-100 rounded-full border-2 border-amber-200 shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer transform hover:scale-105"
+        className="group relative inline-flex items-center gap-2 py-2 px-3 bg-gradient-to-r from-amber-50 to-orange-50 hover:from-amber-100 hover:to-orange-100 rounded-full border-2 border-amber-200 shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer transform"
         aria-label={locale?.languagedropdown?.arialabel || 'Choose language'}
         aria-expanded={open}
       >
@@ -168,7 +168,7 @@ export default function LanguageDropdown() {
           <div className="absolute -top-1 -right-1 w-2 h-2 bg-amber-500 rounded-full animate-pulse"></div>
         </div>
         {isClient && (
-          <span className="hidden md:flex font-medium text-xl md:text-lg group-hover:text-amber-700 transition-colors duration-300">
+          <span className="hidden md:flex text-lg group-hover:text-amber-700 transition-colors duration-300">
             {currentLanguage?.nativeName || locale?.languagedropdown?.english || 'English'}
           </span>
         )}
@@ -184,7 +184,7 @@ export default function LanguageDropdown() {
           <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/50 to-black/60 backdrop-blur-sm animate-fade-in" onClick={() => setOpen(false)} />
 
           {/* Modal Container */}
-          <div ref={dropdownRef} className="relative bg-white rounded-3xl w-full max-w-2xl shadow-2xl border-2 border-amber-200 overflow-hidden transform animate-scale-in">
+          <div ref={dropdownRef} className="relative bg-white rounded-3xl w-full max-w-3xl shadow-2xl border-2 border-amber-200 overflow-hidden transform animate-scale-in">
             {/* Decorative gradient header */}
             <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-amber-400 via-orange-500 to-amber-400"></div>
 
@@ -243,7 +243,7 @@ export default function LanguageDropdown() {
                     }
                   }}
                   placeholder={locale?.languagedropdown?.searchplaceholder || 'Search languages...'}
-                  className="w-full  pr-4 py-3 bg-white border-2 border-amber-200 rounded-xl focus:border-amber-500 focus:ring-4 focus:ring-amber-500/20 outline-none transition-all duration-300 text-gray-900 placeholder-gray-400 shadow-sm hover:shadow-md"
+                  className="w-full px-12 py-3 bg-white border-2 border-amber-200 rounded-xl focus:border-amber-500 focus:ring-4 focus:ring-amber-500/20 outline-none transition-all duration-300 text-gray-900 placeholder-gray-400 shadow-sm hover:shadow-md"
                   aria-label={locale?.languagedropdown?.searcharia || 'Search languages'}
                 />
                 {query && (
@@ -311,7 +311,7 @@ export default function LanguageDropdown() {
                           {lang.nativeName}
                         </div>
                         <div className={`
-                          text-xl md:text-lg truncate transition-colors duration-300
+                          text-lg truncate transition-colors duration-300
                           ${isSelected
                             ? 'text-amber-700'
                             : 'text-gray-600'
@@ -352,7 +352,7 @@ export default function LanguageDropdown() {
                     </svg>
                   </div>
                   <p className="text-gray-600 font-medium">No languages found</p>
-                  <p className="text-xl md:text-lg text-gray-500 mt-1">Try a different search term</p>
+                  <p className="text-lg text-gray-500 mt-1">Try a different search term</p>
                 </div>
               )}
             </div>

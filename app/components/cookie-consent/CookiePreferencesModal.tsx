@@ -70,16 +70,16 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
           </nav>
           <div className="md:w-2/3 w-full">
             <div className="mb-2">
-              <span className="text-md font-semibold text-blue-700">{TABS.find(t => t.id === active)?.title}</span>
-              <div className="text-sm text-gray-500">{TABS.find(t => t.id === active)?.description}</div>
+              <span className="text-lg font-semibold text-blue-700">{TABS.find(t => t.id === active)?.title}</span>
+              <div className="text-md text-gray-500">{TABS.find(t => t.id === active)?.description}</div>
             </div>
             {active === 'your-privacy' && (
-              <div className="bg-blue-50 rounded-lg p-3 text-xs ">
+              <div className="bg-blue-50 rounded-lg p-3 text-sm ">
                 We use cookies to help improve the site, analyze traffic, and serve personalized content when you consent.
               </div>
             )}
             {active === 'strictly-necessary' && (
-              <div className="bg-gray-100 rounded-lg p-3 text-sm flex items-center gap-2">
+              <div className="bg-gray-100 rounded-lg p-3 text-md flex items-center gap-2">
                 <input type="checkbox" checked disabled className="accent-blue-500" />
                 <span>Strictly necessary (always enabled)</span>
               </div>
@@ -92,11 +92,11 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
                   checked={active === 'functionality' ? !!prefs.functionality : active === 'performance' ? !!prefs.performance : !!prefs.targeting}
                   onChange={() => toggle(active === 'functionality' ? 'functionality' : active === 'performance' ? 'performance' : 'targeting')}
                 />
-                <span className="text-xs">Enable {TABS.find(t => t.id === active)?.title}</span>
+                <span className="text-sm">Enable {TABS.find(t => t.id === active)?.title}</span>
               </div>
             )}
             {active === 'targeting' && (
-              <div className="mt-2 text-sm">
+              <div className="mt-2 text-md">
                 Third-party cookies for analytics and advertising may be set when you enable targeting/performance features. These are controlled by external providers and are only set when you opt in.
               </div>
             )}

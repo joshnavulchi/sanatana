@@ -51,7 +51,7 @@ export default function UnderstandingOfSanatana() {
   }, [locale]);
 
   return (
-    <div className="relative z-0 px-3 overflow-hidden bg-gradient-to-b from-white via-amber-50/30 to-white">
+    <div className="relative z-0 overflow-hidden bg-gradient-to-b from-white via-amber-50/30 to-white">
       <div className="absolute top-0 left-1/4 w-64 h-64 bg-amber-200/20 rounded-full blur-3xl" />
       <div className="absolute bottom-0 right-1/4 w-80 h-80 bg-orange-200/20 rounded-full blur-3xl" />
 
@@ -91,7 +91,7 @@ export default function UnderstandingOfSanatana() {
             </div>
 
             {/* Items */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 mt-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-8">
               {section.items?.map((topic, topicIndex) => (
                 <div key={`${section.id}-${topic.id || topicIndex}`} className="bg-white rounded-2xl p-3 shadow-lg hover:shadow-xl transition border-2 border-amber-500">
                   <div className="text-center">
@@ -104,7 +104,7 @@ export default function UnderstandingOfSanatana() {
                         className="mx-auto inline-flex"
                       />
                     )}
-                    <h6 className="text-md font-bold text-amber-800">{topic.title}</h6>
+                    <h6 className="text-lg font-bold text-amber-800">{topic.title}</h6>
                     <p className="text-gray-600 mb-6">
                       {topic.description}
                     </p>
@@ -134,8 +134,8 @@ export default function UnderstandingOfSanatana() {
               ))}
 
               {section.points?.map((point, index) => (
-                <div key={`${section.id}-point-${index}`} className="bg-white shadow-md border-2 border-amber-100 rounded-xl p-3 mb-6 md:mb-0">
-                  <p className="text-md font-semibold text-gray-800">
+                <div key={`${section.id}-point-${index}`} className="bg-white shadow-md border-2 border-amber-100 rounded-xl p-3">
+                  <p className="text-lg font-semibold text-gray-800">
                     {point}
                   </p>
                 </div>
