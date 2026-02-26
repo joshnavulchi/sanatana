@@ -55,7 +55,7 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
                  text-xl md:text-lg md:text-lg
                 leading-relaxed
                 relative z-10
-                font-serif
+                
               ">
                 {line}
               </p>
@@ -116,7 +116,7 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
                   style={{ animationDelay: `${idx * 120}ms` }}
                 >
                   {/* Message text */}
-                  <p className="text-gray-800 text-xl md:text-lg md:text-lg leading-relaxed m-0 font-serif">
+                  <p className="text-gray-800 text-xl md:text-lg md:text-lg leading-relaxed m-0 ">
                     {item.message}
                   </p>
                   {/* Decorative quote mark */}
@@ -127,7 +127,7 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
                   ${isEven ? 'bg-blue-500' : 'bg-amber-500'}
                   rounded-full
                   flex items-center justify-center
-                  text-white text-xs
+                  text-white text-sm
                   opacity-0 group-hover:opacity-100
                   transition-opacity duration-300
                 `}>

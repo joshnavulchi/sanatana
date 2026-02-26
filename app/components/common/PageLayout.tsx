@@ -32,7 +32,7 @@ export default function PageLayout({ metaKey, title, titleColor, titleBorder, de
         </div>
         {/* Hero Header Section */}
         <div className="relative my-6 overflow-hidden">
-          <div className="px-8 py-10">
+          <div className="px-4 py-5">
             <div className="text-center mb-6">
               <div className="inline-block relative">
                 {title && (<h2 className={`text-4xl/10 font-semibold text-transparent bg-clip-text bg-gradient-to-r ${h2Color} px-8 py-2 mb-3`}>
@@ -51,9 +51,7 @@ export default function PageLayout({ metaKey, title, titleColor, titleBorder, de
             )}
           </div>
         </div>
-        <div className="px-3">
-          {children}
-        </div>
+        {children}
       </main>
     </>
   );

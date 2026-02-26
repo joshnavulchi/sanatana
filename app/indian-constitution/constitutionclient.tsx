@@ -109,14 +109,14 @@ export default function ConstitutionClient() {
                         <li key={member.name || mIdx} className="bg-gradient-to-br from-blue-50 via-cyan-50 to-white border-2 border-cyan-200 rounded-2xl shadow-lg p-6 hover:scale-[1.02] transition-transform">
                           <div className="font-extrabold text-blue-800 text-xl md:text-lg mb-1 tracking-tight">{member.name}</div>
                           <div className="text-blue-700 text-xl md:text-lg mb-1 italic">{member.biography}</div>
-                          {member.politicalbackground && <div className="text-cyan-700 text-xs mb-1">{member.politicalbackground}</div>}
-                          {member.specialization && <div className="text-cyan-600 text-xs mb-1">Specialization: {member.specialization}</div>}
+                          {member.politicalbackground && <div className="text-cyan-700 text-sm mb-1">{member.politicalbackground}</div>}
+                          {member.specialization && <div className="text-cyan-600 text-sm mb-1">Specialization: {member.specialization}</div>}
                           {member.contributions && Array.isArray(member.contributions) && (
-                            <ul className="list-disc ml-5 text-blue-900 text-xs mb-1">
+                            <ul className="list-disc ml-5 text-blue-900 text-sm mb-1">
                               {member.contributions.map((c: string, ci: number) => <li key={ci}>{c}</li>)}
                             </ul>
                           )}
-                          {member.replacement && <div className="text-cyan-400 text-xs">Replaced by: {member.replacement}</div>}
+                          {member.replacement && <div className="text-cyan-400 text-sm">Replaced by: {member.replacement}</div>}
                         </li>
                       ))}
                     </ul>

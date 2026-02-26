@@ -260,7 +260,7 @@ export default function Header() {
         {/* Mobile Drawer */}
         {open && (
           <div className="md:hidden relative z-50 bg-white/95 border-t border-b border-amber-100 shadow-lg animate-fade-in-down">
-            <div className="flex flex-col gap-2 py-4 px-4">
+            <div className="flex flex-col gap-2 py-4 px-4 max-h-[70vh] overflow-y-auto scrollbar-thin scrollbar-thumb-amber-400 scrollbar-track-amber-100" style={{ WebkitOverflowScrolling: 'touch' }}>
               {Object.entries(translations.header).map(([key, val]: [string, any]) => {
                 if (typeof val === "string") {
                   const href = key === "home" ? "/" : `/${key}`;

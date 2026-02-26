@@ -67,7 +67,7 @@ export default function ReligionClient() {
           <h4 className="text-2xl font-bold text-blue-800 mb-3 border-l-4 border-blue-400 pl-3">{section.title}</h4>
           {/* Section content: string */}
           {typeof section.content === 'string' && (
-            <p className="text-gray-700 mb-2 text-base md:text-lg leading-relaxed">{section.content}</p>
+            <p className="text-gray-700 mb-2 text-md md:text-lg leading-relaxed">{section.content}</p>
           )}
           {/* Section content: array of strings */}
           {Array.isArray(section.content) && section.content.length > 0 && typeof section.content[0] === 'string' && (
@@ -105,7 +105,7 @@ export default function ReligionClient() {
                   <span className="inline-block w-2 h-2 bg-green-400 rounded-full"></span>
                   {item.country}
                 </div>
-                <div className="text-gray-700 text-base">{item.details}</div>
+                <div className="text-gray-700 text-md">{item.details}</div>
               </div>
             ))}
           </div>

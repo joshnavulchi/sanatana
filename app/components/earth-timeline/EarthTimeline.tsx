@@ -830,13 +830,13 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
                   shadow-xl
                 `}>
                   <div className="font-bold text-amber-400">{period.name}</div>
-                  <div className="text-gray-300 text-xs mt-1">{formatYear(period.year)}</div>
+                  <div className="text-gray-300 text-sm mt-1">{formatYear(period.year)}</div>
                   {/* Arrow */}
                   <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-2 h-2 bg-gray-900 border-r border-b border-gray-700 rotate-45" />
                 </div>
 
                 {/* Period indicator */}
-                <div className="absolute inset-0 flex items-center justify-center text-xs font-bold text-white">
+                <div className="absolute inset-0 flex items-center justify-center text-sm font-bold text-white">
                   {index + 1}
                 </div>
 

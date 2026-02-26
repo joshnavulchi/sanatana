@@ -112,7 +112,7 @@ export default function SimilarCategories({
               </h6>
               <ul className="space-y-2">
                 {category.links.map((link) => (
-                  <li key={link.key} className="text-sm">
+                  <li key={link.key} className="text-lg">
                     <Link href={normalizeHref(link.href)} className="text-emerald-700 hover:text-emerald-900 hover:underline transition-colors">
                       {link.label}
                     </Link>

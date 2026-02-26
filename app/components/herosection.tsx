@@ -128,10 +128,10 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
               <div className="relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-lg rounded-3xl p-8 shadow-2xl transform hover:scale-105 transition-transform duration-500">
                 {/* Om symbol large */}
                 <div className="text-center space-y-6">
-                  <div className="text-6xl text-amber-300/80 font-serif animate-pulse">ॐ</div>
+                  <div className="text-6xl text-amber-300/80  animate-pulse">ॐ</div>
                   <div className="h-px w-full bg-gradient-to-r from-transparent via-amber-400 to-transparent" />
-                  <p className="text-white/90 md:text-lg font-serif italic">सत्यमेव जयते</p>
-                  <p className="text-amber-200 text-md">Truth Alone Triumphs</p>
+                  <p className="text-white/90 md:text-lg  italic">सत्यमेव जयते</p>
+                  <p className="text-amber-200 text-lg">Truth Alone Triumphs</p>
                 </div>
               </div>
             </div>
@@ -199,7 +199,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
               {/* Scroll Indicator */}
               <div className="flex justify-center gap-2 mt-6">
                 <LazyImage src="/images/svg/arrow.svg" alt="Scroll Down" width={16} height={16} className="inline-block text-amber-200 animate-bounce" />
-                <span className="text-md drop-shadow-md text-amber-200">{hero?.scroll || 'Scroll to explore'}</span>
+                <span className="text-lg drop-shadow-md text-amber-200">{hero?.scroll || 'Scroll to explore'}</span>
               </div>
             </div>
           </div>

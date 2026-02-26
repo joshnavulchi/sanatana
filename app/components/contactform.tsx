@@ -104,7 +104,7 @@ export default function ContactForm({ fields, submitButton }: Props) {
               <label className="block text-xl md:text-lg font-semibold  mb-2 flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-amber-500 group-focus-within:scale-150 transition-transform duration-300"></span>
                 {f.label || f.name}
-                {f.required && <span className="text-orange-500 text-xs">*</span>}
+                {f.required && <span className="text-orange-500 text-sm">*</span>}
               </label>
               {f.type === 'textarea' ? (
                 <textarea

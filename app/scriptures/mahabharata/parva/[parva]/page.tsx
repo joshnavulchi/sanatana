@@ -361,7 +361,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
             <div className="relative z-10">
               <div className="flex items-center justify-center mb-4">
                 <div className="bg-white bg-opacity-20 backdrop-blur-sm px-6 py-2 rounded-full border-2 border-white border-opacity-50">
-                  <p className="text-white text-sm font-bold uppercase tracking-widest">The Great Epic Mahabharata</p>
+                  <p className="text-white text-lg font-bold uppercase tracking-widest">The Great Epic Mahabharata</p>
                 </div>
               </div>
               <h3 className="text-3xl md:text-4xl font-black text-white text-center mb-4 leading-tight drop-shadow-lg">
@@ -387,7 +387,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                     </div>
 
                     <div className="relative bg-gray-50 rounded-xl p-6 border-l-4 border-blue-500">
-                      <p className="text-base text-gray-800 leading-relaxed italic font-medium">
+                      <p className="text-md text-gray-800 leading-relaxed italic font-medium">
                         {parva.summary}
                       </p>
                     </div>
@@ -406,7 +406,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
 
                     <div className="relative">
                       {/* Decorative Quote Marks */}
-                      <div className="absolute -left-4 -top-4 text-6xl text-gray-200 font-serif leading-none">&ldquo;</div>
+                      <div className="absolute -left-4 -top-4 text-6xl text-gray-200  leading-none">&ldquo;</div>
                       <div className="prose prose-lg max-w-none">
                         {parva.detailednarration.split('\n\n').map((paragraph: string, idx: number) => (
                           <p key={idx} className="mb-6 text-gray-800 leading-relaxed text-justify first-letter:text-3xl first-letter:font-bold first-letter:mr-2 first-letter:float-left">
@@ -428,7 +428,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                       <h3 className="text-2xl font-bold text-amber-900">Key Lessons & Wisdom</h3>
                     </div>
                     <div className="relative bg-white bg-opacity-60 rounded-xl p-6 border-l-4 border-amber-500">
-                      <p className="text-base text-gray-800 leading-relaxed italic">
+                      <p className="text-md text-gray-800 leading-relaxed italic">
                         {parva.moralpsychologicalphilosophicallessons}
                       </p>
                     </div>
@@ -441,7 +441,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                   <span className="text-4xl text-gray-400">💭</span>
                 </div>
                 <p className="text-xl md:text-lg text-gray-600 font-medium">Content not available for this parva.</p>
-                <p className="text-sm text-gray-500 mt-2">Please check back later or explore other parvas.</p>
+                <p className="text-lg text-gray-500 mt-2">Please check back later or explore other parvas.</p>
               </div>
             )}
           </div>
