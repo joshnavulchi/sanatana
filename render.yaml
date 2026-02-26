@@ -12,11 +12,17 @@ services:
         value: "${NEXT_PUBLIC_GTM_ID}"
     # Recommended: enable a persistent disk or build cache for `public/locales` in Render
     # so locale downloads are cached between builds.
+    # Cache the `public/locales` folder between builds so the download script
+    # can use `.branch-meta.json` to skip unchanged files.
+    cacheDirectories:
+      - public/locales
     buildCommand: |
       export YARN_PRODUCTION=false
       yarn install --frozen-lockfile
-      # Run locale download, but never fail the build if it errors (including 403)
-      (node scripts/download-locales.js || echo "⚠️ Locale download failed or returned 403, continuing with cached locales")
+      # Run locale download with `--skip-if-meta` so the script can fast-exit
+      # when `.branch-meta.json` matches local HEAD. Never fail the build if
+      # it errors (including 403).
+      (node scripts/download-locales.js --skip-if-meta || echo "⚠️ Locale download failed or returned 403, continuing with cached locales")
       yarn run render-build
     publishPath: out
 
@@ -27,4 +33,9 @@ services:
     # Schedule: every Sunday 02:30 UTC == Sunday 08:00 IST (UTC+5:30)
     schedule: "30 2 * * 0"
     # Command triggers a deploy webhook. Set RENDER_DEPLOY_HOOK in Render env vars to your Deploy Hook URL.
-    command: ["bash", "-lc", "if [ -n \"$RENDER_DEPLOY_HOOK\" ]; then curl -fsS -X POST \"$RENDER_DEPLOY_HOOK\" || echo 'deploy hook failed'; else echo 'RENDER_DEPLOY_HOOK not set; skipping deploy'; fi"]
+    command:
+      [
+        "bash",
+        "-lc",
+        'if [ -n "$RENDER_DEPLOY_HOOK" ]; then curl -fsS -X POST "$RENDER_DEPLOY_HOOK" || echo ''deploy hook failed''; else echo ''RENDER_DEPLOY_HOOK not set; skipping deploy''; fi',
+      ]

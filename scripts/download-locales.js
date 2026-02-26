@@ -5,6 +5,7 @@
 const https = require('https');
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
 
 /* ================= CONFIG ================= */
 
@@ -150,6 +151,26 @@ if (require.main === module) {
     const skip =
       process.argv.includes('--skip') ||
       process.env.SKIP_LOCALE_DOWNLOAD === '1';
+
+    const skipIfMeta = process.argv.includes('--skip-if-meta') || process.env.SKIP_IF_META === '1';
+
+    // Fast local check: if `--skip-if-meta` is provided and we have a
+    // cached branch meta with `lastCommit` that matches the local HEAD,
+    // assume locales haven't changed and skip the network download entirely.
+    if (skipIfMeta) {
+      try {
+        const branchMeta = loadJSON(BRANCH_META_FILE);
+        if (branchMeta && branchMeta.lastCommit) {
+          const localHead = execSync('git rev-parse HEAD').toString().trim();
+          if (localHead === branchMeta.lastCommit) {
+            console.log('No locale changes since last sync (local HEAD matches .branch-meta.json). Skipping download.');
+            process.exit(0);
+          }
+        }
+      } catch (e) {
+        // If git not available or any error, continue to normal download flow
+      }
+    }
 
     if (skip) {
       console.log('SKIP_LOCALE_DOWNLOAD=1 — skipping locale download');

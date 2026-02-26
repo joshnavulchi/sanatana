@@ -6,7 +6,7 @@
   "scripts": {
     "predev": "node scripts/download-locales.js --skip-if-meta && node scripts/compile-scss.js --dev",
     "dev": "yarn run next dev",
-    "prebuild": "yarn run lint && node scripts/download-locales.js --skip-if-meta && node scripts/compile-scss.js --force && yarn run generate:critical:home",
+    "prebuild": "node scripts/remove-package-lock.js && yarn run lint && node scripts/download-locales.js --skip-if-meta && node scripts/compile-scss.js --force && yarn run generate:critical:home",
     "build": "node --max-old-space-size=8192 ./node_modules/next/dist/bin/next build",
     "postbuild": "node scripts/compile-scss.js --verify && node scripts/strip-comments.js && node scripts/generate-sitemap.js && yarn run minify:html && node scripts/add-hash-to-assets.js && node scripts/check-analytics-keys.js",
     "strip:comments": "node scripts/strip-comments.js",
@@ -17,6 +17,8 @@
     "generate:sitemap": "node scripts/generate-sitemap.js",
     "generate:critical:home": "node scripts/generate-critical-css.js",
     "render-build": "yarn install --check-files --frozen-lockfile && yarn run build",
+    "incremental:export": "node scripts/incremental-export.js",
+    "export:partial": "node scripts/partial-export.js",
     "start": "yarn run next start",
     "preview:static": "yarn run serve@latest out -l 3000",
     "lint": "yarn run eslint --quiet app lib scripts",
