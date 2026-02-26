@@ -192,7 +192,7 @@ export default function OurFourCoreYugas() {
         </div>
 
         <div className="px-3 my-6">
-          <h6 className="bg-white inline-flex text-lg leading-relaxed shadow-md rounded-sm px-6 py-2 border-amber-50 animate-pulse">
+          <h6 className="bg-white inline-flex text-lg leading-relaxed shadow-md rounded-sm px-6 py-2 border-amber-50">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">{earthAgeComparisonNote}</span>
           </h6>
           <p className="text-sm leading-relaxed my-3 text-white">

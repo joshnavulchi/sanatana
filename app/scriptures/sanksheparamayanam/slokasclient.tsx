@@ -53,7 +53,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
           </p>
         </div>
         <div className="flex items-center gap-3">
-          <span className="text-xl md:text-lg px-3 py-2 bg-amber-50 rounded-full text-amber-700 shadow-sm">
+          <span className="text-md px-3 py-2 bg-amber-50 rounded-full text-amber-700 shadow-sm">
             {total} slokas
           </span>
         </div>
@@ -77,13 +77,13 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
               <div className="flex justify-between items-start">
                 <div className="flex-1">
                   {s.sanskrit ? (
-                    <p className="text-xl md:text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
+                    <p className="text-2xl md:text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
                       {s.sanskrit}
                     </p>
                   ) : null}
 
                   {s.transliteration ? (
-                    <p className="mt-2 text-md md:text-lg italic text-slate-700">
+                    <p className="mt-2 text-md italic text-slate-700">
                       {s.transliteration}
                     </p>
                   ) : null}
@@ -102,23 +102,23 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
                     title="Copy"
                   >
                     {copiedIdx === idx ? (
-                      <svg className="w-5 h-5 text-amber-600" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <svg className="w-5 h-5 text-amber-700" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                       </svg>
                     ) : (
-                      <svg className="w-5 h-5 text-slate-600" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <svg className="w-5 h-5 text-slate-700" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7h11v11H8z" />
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 11h1a2 2 0 0 0 2-2V4a2 2 0 0 1 2-2h6" />
                       </svg>
                     )}
                   </button>
-                  <span className="text-md text-slate-400">{idx + 1}</span>
+                  <span className="text-md text-slate-700">{idx + 1}</span>
                 </div>
               </div>
 
               <div className="mt-4">
                 {context ? (
-                  <div className="text-md text-slate-400 leading-relaxed">
+                  <div className="text-md text-slate-700 leading-relaxed">
                     <p className={`${isExpanded ? "" : "line-clamp-[8]"}`}>{isExpanded ? context : previewContext}</p>
                     {context.length > 220 ? (
                       <button
@@ -134,18 +134,18 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
                     ) : null}
                   </div>
                 ) : (
-                  <p className="text-md text-slate-400">No context available.</p>
+                  <p className="text-md text-slate-700">No context available.</p>
                 )}
               </div>
 
               <div className="mt-4">
                 {meaning ? (
-                  <div className="text-xl md:text-lg text-slate-400 leading-relaxed">
+                  <div className="text-md text-slate-400 leading-relaxed">
                     <p className={`${isExpanded ? "" : "line-clamp-[8]"}`}>{isExpanded ? meaning : previewMeaning}</p>
                     {meaning.length > 220 ? (
                       <button
                         onClick={() => toggleExpand(idx)}
-                        className="mt-3 inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xl md:text-lg bg-amber-50 text-amber-700 border border-amber-100 shadow-sm hover:brightness-105 transition"
+                        className="mt-3 inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-md bg-amber-50 text-amber-700 border border-amber-100 shadow-sm hover:brightness-105 transition"
                         aria-expanded={isExpanded}
                       >
                         {isExpanded ? "Show less" : "Read more"}
@@ -181,7 +181,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
           onClick={loadMore}
           disabled={visible >= maxVisible}
           aria-disabled={visible >= maxVisible}
-          className={`cursor-pointer px-6 py-3 rounded-full text-lg font-medium shadow-xl transition transform hover:-translate-y-0.5 ${visible >= maxVisible
+          className={`cursor-pointer px-6 py-3 rounded-full text-md shadow-xl transition transform hover:-translate-y-0.5 ${visible >= maxVisible
             ? "bg-slate-200 text-slate-500 cursor-not-allowed"
             : "bg-gradient-to-r from-amber-500 to-orange-500 text-white hover:from-amber-600 hover:to-orange-600"
             }`}

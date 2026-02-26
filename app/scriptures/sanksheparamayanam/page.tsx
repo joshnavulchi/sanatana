@@ -48,7 +48,7 @@ export default function Page({ searchParams }: any) {
           {/* Main characters grid */}
           {page.main_characters && page.main_characters.length > 0 && (
             <section className="border border-slate-100 rounded-lg">
-              <h3 className="text-xl md:text-lg font-semibold text-slate-800 mb-3">Main Characters</h3>
+              <h3 className="text-lg font-semibold text-slate-800 mb-3">Main Characters</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {page.main_characters.map((c: any, idx: number) => (
                   <article
@@ -96,7 +96,7 @@ export default function Page({ searchParams }: any) {
                     </div>
                     <div className="flex-1">
                       <div className="font-medium text-slate-800">{ev.event}</div>
-                      {ev.desc ? <div className="text-md md:text-lg text-slate-600 mt-1">{ev.desc}</div> : null}
+                      {ev.desc ? <div className="text-md text-slate-600 mt-1">{ev.desc}</div> : null}
                     </div>
                   </li>
                 ))}
@@ -112,7 +112,7 @@ export default function Page({ searchParams }: any) {
                 {page.core_themes.map((ct: any, idx: number) => (
                   <span
                     key={idx}
-                    className="inline-flex items-center px-4 py-2 rounded-full bg-white border border-slate-100 text-md text-slate-700 shadow-sm"
+                    className="inline-flex items-center px-4 py-2 rounded-full bg-white border border-slate-100 text-sm text-slate-700 shadow-sm"
                   >
                     {(typeof ct.title === 'string') ? ct.title : ct['title']}
                   </span>
