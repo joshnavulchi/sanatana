@@ -67,7 +67,7 @@ export default function DashavataraTimeline({
                       <h2 className="text-xl font-semibold text-orange-700">
                         {avatar.name}
                       </h2>
-                      <p className="text-lg text-gray-500 mb-2">
+                      <p className="text-lg md:text-md text-gray-500 mb-2">
                         {avatar.type} • {avatar.yuga}
                         {avatar.status && ` • ${avatar.status}`}
                       </p>
@@ -75,34 +75,34 @@ export default function DashavataraTimeline({
                         {avatar.purpose}
                       </p>
                       {avatar.primary_antagonist && (
-                        <p className="text-lg text-gray-600">
+                        <p className="text-lg md:text-md text-gray-600">
                           <strong>Antagonist:</strong>{' '}
                           {avatar.primary_antagonist}
                         </p>
                       )}
                       {avatar.primary_event && (
-                        <p className="text-lg text-gray-600">
+                        <p className="text-lg md:text-md text-gray-600">
                           <strong>Event:</strong>{' '}
                           {avatar.primary_event}
                         </p>
                       )}
                       {avatar.weapon && (
-                        <p className="text-lg text-gray-600">
+                        <p className="text-lg md:text-md text-gray-600">
                           <strong>Weapon:</strong> {avatar.weapon}
                         </p>
                       )}
                       {avatar.historical_identity && (
-                        <p className="text-lg text-gray-600">
+                        <p className="text-lg md:text-md text-gray-600">
                           <strong>Identity:</strong>{' '}
                           {avatar.historical_identity}
                         </p>
                       )}
                       <div className="mt-3">
-                        <p className="text-lg">
+                        <p className="text-lg md:text-md">
                           <strong>Symbolism:</strong>{' '}
                           {avatar.symbolism}
                         </p>
-                        <p className="text-lg mt-1">
+                        <p className="text-lg md:text-md mt-1">
                           <strong>Evolution:</strong>{' '}
                           {avatar.evolutionary_symbolism}
                         </p>

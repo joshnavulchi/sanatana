@@ -44,7 +44,7 @@ export default function PageLayout({ metaKey, title, titleColor, titleBorder, de
             </div>
             {description && (
               <div className="max-w-3xl mx-auto">
-                <p className="text-center text-lg text-amber-800 leading-relaxed italic font-medium px-4">
+                <p className="text-center text-lg md:text-md text-amber-800 leading-relaxed italic font-medium px-4">
                   &ldquo;{description}&rdquo;
                 </p>
               </div>

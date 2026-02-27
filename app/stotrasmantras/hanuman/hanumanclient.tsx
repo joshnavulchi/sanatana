@@ -65,7 +65,7 @@ export default function DeviClient() {
                 <span className="text-3xl animate-pulse">📖</span>
                 <div className="h-px w-12 bg-gradient-to-l from-transparent to-emerald-500" />
               </div>
-              <p className="text-lg md:text-xl md:text-lg leading-relaxed">{hanuman?.intro}</p>
+              <p className="text-lg md:text-md md:text-xl md:text-lg md:text-md leading-relaxed">{hanuman?.intro}</p>
             </div>
           </div>
           {Array.isArray(hanuman.hanuman_stotras) && hanuman.hanuman_stotras.map((section: any, index: number) => {
@@ -89,7 +89,7 @@ export default function DeviClient() {
                     </Tag>
                   </div>
                   {section?.description && (
-                    <p className="text-xl md:text-lg md:text-lg leading-relaxed ">
+                    <p className="text-xl md:text-lg md:text-md md:text-lg md:text-md leading-relaxed ">
                       {section.description}
                     </p>
                   )}

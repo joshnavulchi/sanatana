@@ -8,7 +8,7 @@ export default function Page() {
     <>
       <h3 className="text-2xl md:text-3xl text-gray-900">Kids Zone</h3>
       <div className="mt-8">
-        <h2 className="text-lg font-bold mb-2">Explore Sub Pages:</h2>
+        <h2 className="text-lg md:text-md font-bold mb-2">Explore Sub Pages:</h2>
         <ul className="list-disc ml-6">
           <li><Link href="/kidszone/comics/" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">
             Comics

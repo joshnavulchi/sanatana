@@ -130,8 +130,8 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
                 <div className="text-center space-y-6">
                   <div className="text-6xl text-amber-300/80  animate-pulse">ॐ</div>
                   <div className="h-px w-full bg-gradient-to-r from-transparent via-amber-400 to-transparent" />
-                  <p className="text-white/90 md:text-lg  italic">सत्यमेव जयते</p>
-                  <p className="text-amber-200 text-lg">Truth Alone Triumphs</p>
+                  <p className="text-white/90 md:text-lg md:text-md  italic">सत्यमेव जयते</p>
+                  <p className="text-amber-200 text-lg md:text-md">Truth Alone Triumphs</p>
                 </div>
               </div>
             </div>
@@ -163,7 +163,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
                 {hero?.subheading || 'Eternal Wisdom'}
               </h4>
               {/* Description */}
-              <p className="text-lg text-gray-100 drop-shadow-lg [text-shadow:_1px_1px_3px_rgb(0_0_0_/_70%)] mt-6">
+              <p className="text-lg md:text-md text-gray-100 drop-shadow-lg [text-shadow:_1px_1px_3px_rgb(0_0_0_/_70%)] mt-6">
                 {hero?.description || 'Discover the timeless teachings and sacred wisdom of ancient India'}
               </p>
               {/* CTA Buttons */}
@@ -199,7 +199,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
               {/* Scroll Indicator */}
               <div className="flex justify-center gap-2 mt-6">
                 <LazyImage src="/images/svg/arrow.svg" alt="Scroll Down" width={16} height={16} className="inline-block text-amber-200 animate-bounce" />
-                <span className="text-lg drop-shadow-md text-amber-200">{hero?.scroll || 'Scroll to explore'}</span>
+                <span className="text-lg md:text-md drop-shadow-md text-amber-200">{hero?.scroll || 'Scroll to explore'}</span>
               </div>
             </div>
           </div>

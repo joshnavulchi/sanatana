@@ -300,13 +300,13 @@ export default function AudioPlayer({
       {/* Track Info */}
       <div className="text-center w-full hidden">
         <div
-          className="font-semibold text-lg text-indigo-900 truncate"
+          className="font-semibold text-lg md:text-md text-indigo-900 truncate"
           title={currentTrack.title}
         >
           {currentTrack.title ?? "Untitled Track"}
         </div>
         {currentTrack.artist ? (
-          <div className="text-gray-500 text-xl md:text-lg">{currentTrack.artist}</div>
+          <div className="text-gray-500 text-xl md:text-lg md:text-md">{currentTrack.artist}</div>
         ) : null}
       </div>
 
@@ -317,7 +317,7 @@ export default function AudioPlayer({
             type="button"
             onClick={handlePrev}
             title="Previous"
-            className="px-3 py-2 rounded-lg border border-indigo-200 bg-white text-xl md:text-lg text-indigo-700 hover:bg-indigo-50"
+            className="px-3 py-2 rounded-lg border border-indigo-200 bg-white text-xl md:text-lg md:text-md text-indigo-700 hover:bg-indigo-50"
           >⏮</button>
         )}
         <button
@@ -325,28 +325,28 @@ export default function AudioPlayer({
           onClick={() => setIsLoop((l) => !l)}
           aria-pressed={isLoop}
           title={isLoop ? "Loop: On" : "Loop: Off"}
-          className={`px-3 py-2 rounded-lg border border-indigo-200 bg-white text-indigo-700 text-xl md:text-lg ${isLoop ? 'bg-indigo-100 text-indigo-900' : ''}`}
+          className={`px-3 py-2 rounded-lg border border-indigo-200 bg-white text-indigo-700 text-xl md:text-lg md:text-md ${isLoop ? 'bg-indigo-100 text-indigo-900' : ''}`}
         >⟲</button>
         <button
           type="button"
           onClick={() => setIsMuted((m) => !m)}
           aria-pressed={isMuted}
           title={isMuted ? "Unmute (M)" : "Mute (M)"}
-          className={`px-3 py-2 rounded-lg border border-red-200 bg-white text-red-700 text-xl md:text-lg ${isMuted ? 'bg-red-100 text-red-900' : ''}`}
+          className={`px-3 py-2 rounded-lg border border-red-200 bg-white text-red-700 text-xl md:text-lg md:text-md ${isMuted ? 'bg-red-100 text-red-900' : ''}`}
         >{isMuted ? "🔇" : "🔊"}</button>
         {playlist.length > 1 && (
           <button
             type="button"
             onClick={handleNext}
             title="Next"
-            className="px-3 py-2 rounded-lg border border-indigo-200 bg-white text-xl md:text-lg text-indigo-700 hover:bg-indigo-50"
+            className="px-3 py-2 rounded-lg border border-indigo-200 bg-white text-xl md:text-lg md:text-md text-indigo-700 hover:bg-indigo-50"
           >⏭</button>
         )}
       </div>
 
       {/* Volume */}
       <div className="items-center gap-2 hidden">
-        <span className="text-gray-500 text-xl md:text-lg">Vol</span>
+        <span className="text-gray-500 text-xl md:text-lg md:text-md">Vol</span>
         <input
           type="range"
           min={0}

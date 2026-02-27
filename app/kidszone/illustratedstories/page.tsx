@@ -32,14 +32,14 @@ export default function Page({ searchParams }: any) {
                 </div>
                 <div className="flex-1 flex flex-col p-4">
                   <h3 className="text-xl font-bold text-pink-700 mb-1 line-clamp-2">{s.title}</h3>
-                  <div className="text-lg text-pink-500 mb-2">{s.origin}</div>
-                  <p className="text-lg text-gray-700 mb-2 line-clamp-3">{s.summary}</p>
+                  <div className="text-lg md:text-md text-pink-500 mb-2">{s.origin}</div>
+                  <p className="text-lg md:text-md text-gray-700 mb-2 line-clamp-3">{s.summary}</p>
                   <div className="mt-auto flex flex-wrap gap-2">
                     {Array.isArray(s.themes) && s.themes.map((theme: string, idx: number) => (
                       <span key={idx} className="bg-yellow-200 text-yellow-900 rounded-full px-3 py-1 text-sm font-semibold">{theme}</span>
                     ))}
                   </div>
-                  <div className="mt-2 text-lg text-green-700 italic">Moral: {s.moral}</div>
+                  <div className="mt-2 text-lg md:text-md text-green-700 italic">Moral: {s.moral}</div>
                 </div>
               </article>
             </Link>

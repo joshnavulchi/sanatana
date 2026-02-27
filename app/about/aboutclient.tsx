@@ -63,7 +63,7 @@ export default function AboutClient() {
                 <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-500 animate-bounce" />
               </div>
 
-              <p className="text-lg leading-relaxed">
+              <p className="text-lg md:text-md leading-relaxed">
                 {about.intro}
               </p>
             </div>
@@ -104,7 +104,7 @@ export default function AboutClient() {
 
                   {/* Section text */}
                   {section?.text && (
-                    <p className="text-lg leading-relaxed ">
+                    <p className="text-lg md:text-md leading-relaxed ">
                       {section.text}
                     </p>
                   )}
@@ -132,7 +132,7 @@ export default function AboutClient() {
                 <span className="text-3xl">⚠️</span>
                 <div className="flex-1">
                   <h4 className="text-xl font-bold text-gray-900 mb-2">Disclaimer</h4>
-                  <p className="text-lg leading-relaxed">
+                  <p className="text-lg md:text-md leading-relaxed">
                     {about.disclaimer}
                   </p>
                 </div>

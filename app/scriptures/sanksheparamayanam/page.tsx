@@ -38,17 +38,17 @@ export default function Page({ searchParams }: any) {
       >
         <div className="flex items-center justify-center gap-3 mb-6">
           <div className="h-px w-24 bg-gradient-to-r from-transparent to-amber-500"></div>
-          <p className="text-lg font-semibold text-amber-900 tracking-wide uppercase">Written by: {page.author}</p>
+          <p className="text-lg md:text-md font-semibold text-amber-900 tracking-wide uppercase">Written by: {page.author}</p>
           <div className="h-px w-24 bg-gradient-to-l from-transparent to-amber-500"></div>
         </div>
-        <p className="mb-6 text-lg text-center text-slate-600">
+        <p className="mb-6 text-lg md:text-md text-center text-slate-600">
           {page.description ? <span className="block mt-1 text-slate-700">{page.description}</span> : null}
         </p>
         <div className="space-y-8">
           {/* Main characters grid */}
           {page.main_characters && page.main_characters.length > 0 && (
             <section className="border border-slate-100 rounded-lg">
-              <h3 className="text-lg font-semibold text-slate-800 mb-3">Main Characters</h3>
+              <h3 className="text-lg md:text-md font-semibold text-slate-800 mb-3">Main Characters</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {page.main_characters.map((c: any, idx: number) => (
                   <article
@@ -60,7 +60,7 @@ export default function Page({ searchParams }: any) {
                     </div>
                     <div>
                       <div className="font-medium text-slate-800">{c.name}</div>
-                      {c.role ? <div className="text-lg text-slate-600">{c.role}</div> : null}
+                      {c.role ? <div className="text-lg md:text-md text-slate-600">{c.role}</div> : null}
                       {c.note ? <div className="mt-1 text-sm text-slate-500">{c.note}</div> : null}
                     </div>
                   </article>
@@ -72,12 +72,12 @@ export default function Page({ searchParams }: any) {
           {/* Important places */}
           {page.important_places && page.important_places.length > 0 && (
             <section className="">
-              <h4 className="text-lg font-semibold text-amber-800 mb-3">Important Places</h4>
+              <h4 className="text-lg md:text-md font-semibold text-amber-800 mb-3">Important Places</h4>
               <div className="grid grid-cols-1 sm:grid-cols-4 gap-4">
                 {page.important_places.map((p: any, idx: number) => (
                   <div key={idx} className="p-4 bg-white shadow-sm rounded-md border border-slate-100">
-                    <div className="text-lg font-semibold text-amber-500">{p.name}</div>
-                    {p.desc ? <div className="text-lg text-slate-600 mt-1">{p.desc}</div> : null}
+                    <div className="text-lg md:text-md font-semibold text-amber-500">{p.name}</div>
+                    {p.desc ? <div className="text-lg md:text-md text-slate-600 mt-1">{p.desc}</div> : null}
                   </div>
                 ))}
               </div>
@@ -87,7 +87,7 @@ export default function Page({ searchParams }: any) {
           {/* Timeline */}
           {page.timeline && page.timeline.length > 0 && (
             <section className="bg-white border border-slate-100 rounded-lg shadow-sm">
-              <h6 className="text-lg font-semibold text-slate-800 mb-4">Timeline</h6>
+              <h6 className="text-lg md:text-md font-semibold text-slate-800 mb-4">Timeline</h6>
               <ol className="space-y-4">
                 {page.timeline.map((ev: any, idx: number) => (
                   <li key={idx} className="flex gap-4">
@@ -96,7 +96,7 @@ export default function Page({ searchParams }: any) {
                     </div>
                     <div className="flex-1">
                       <div className="font-medium text-slate-800">{ev.event}</div>
-                      {ev.desc ? <div className="text-lg text-slate-600 mt-1">{ev.desc}</div> : null}
+                      {ev.desc ? <div className="text-lg md:text-md text-slate-600 mt-1">{ev.desc}</div> : null}
                     </div>
                   </li>
                 ))}
@@ -107,12 +107,12 @@ export default function Page({ searchParams }: any) {
           {/* Core themes */}
           {page.core_themes && page.core_themes.length > 0 && (
             <section>
-              <p className="text-lg font-semibold text-amber-800 mb-3">Core Themes</p>
+              <p className="text-lg md:text-md font-semibold text-amber-800 mb-3">Core Themes</p>
               <div className="flex flex-wrap gap-2">
                 {page.core_themes.map((ct: any, idx: number) => (
                   <span
                     key={idx}
-                    className="inline-flex items-center px-4 py-2 rounded-full bg-white border border-slate-100 text-lg text-slate-700 shadow-sm"
+                    className="inline-flex items-center px-4 py-2 rounded-full bg-white border border-slate-100 text-lg md:text-md text-slate-700 shadow-sm"
                   >
                     {(typeof ct.title === 'string') ? ct.title : ct['title']}
                   </span>
