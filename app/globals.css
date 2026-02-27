@@ -192,9 +192,6 @@ body {
 /* 4) Theming utilities */
 /* 5) Buttons */
 /* 6) Links */
-a {
-  font-size: 1.1rem;
-}
 /* 7) Cards */
 /* 8) Header / Nav (with subtle gradient) */
 /* 9) Focus visibility for accessibility */
@@ -273,10 +270,8 @@ footer {
 }
 .nav-wrapper {
   margin: 0 auto;
+  padding: var(--space-xl) var(--space-md);
   max-width: var(--content-width-default);
-}
-.nav-wrapper {
-  padding: var(--space-xl) 0;
 }
 .nav-wrapper .underline {
   padding: 0 0 var(--space-sm) 0;
@@ -342,10 +337,5 @@ footer {
   }
   100% {
     transform: translateY(-8px);
-  }
-}
-@media (min-width: 1024px) {
-  a {
-    font-size: 0.95rem;
   }
 }

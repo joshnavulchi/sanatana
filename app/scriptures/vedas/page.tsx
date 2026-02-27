@@ -52,83 +52,102 @@ export default function Page({ searchParams }: any) {
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Vedas' }]}
         className="layout-md"
       >
+        <header className="rounded-lg overflow-hidden mb-6 border p-6 bg-gradient-to-r from-amber-50 via-amber-100 to-yellow-50">
+          <div className="max-w-4xl mx-auto">
+            <h1 className="text-3xl md:text-4xl font-extrabold text-amber-800">{page.title}</h1>
+            <p className="mt-3 text-lg text-amber-700">{page.intro}</p>
+            <div className="mt-4 flex flex-wrap gap-2 items-center">
+              {page.language ? <span className="text-xs px-2 py-1 bg-amber-100 text-amber-800 rounded-full">{page.language}</span> : null}
+              {(page.themes || []).slice(0,4).map((th: string, i: number) => (
+                <span key={i} className="text-xs px-2 py-1 bg-indigo-100 text-indigo-800 rounded-full">{th}</span>
+              ))}
+            </div>
+          </div>
+        </header>
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <div className="md:col-span-2">
-            <section className="mb-6 bg-white border rounded-lg p-6">
-              <h3 className="text-2xl font-semibold mb-3">Purpose</h3>
-              <p className="text-base">{page.purpose}</p>
+            <section className="mb-6 border-l-4 border-amber-400 rounded-lg p-6 bg-amber-50">
+              <h3 className="text-2xl font-semibold mb-3 text-amber-800">Purpose</h3>
+              <p className="text-base text-amber-700">{page.purpose}</p>
             </section>
 
-            <section className="mb-6 bg-white border rounded-lg p-6">
-              <h4 className="text-2xl font-semibold mb-3">Significance</h4>
-              <p className="text-base">{page.significance}</p>
+            <section className="mb-6 border-l-4 border-emerald-400 rounded-lg p-6 bg-emerald-50">
+              <h4 className="text-2xl font-semibold mb-3 text-emerald-800">Significance</h4>
+              <p className="text-base text-emerald-700">{page.significance}</p>
             </section>
 
             <section className="mb-6">
-              <h5 className="text-2xl font-semibold mb-4">Structure — Four Vedas</h5>
+              <h5 className="text-2xl font-semibold mb-4 text-slate-800">Structure — Four Vedas</h5>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {(page.structure || []).map((v: any, idx: number) => (
-                  <article key={idx} className="border rounded-lg p-4 bg-white">
-                    <h3 className="text-lg font-bold mb-2">{v.name || v.Name}</h3>
-                    <p className="text-sm mb-2">{v.content || v.Content}</p>
-                    {v.features || v.Features ? <p className="text-xs text-gray-600">{v.features || v.Features}</p> : null}
+                  <article key={idx} className="border-l-4 border-emerald-400 rounded-lg p-4 bg-emerald-50">
+                    <h3 className="text-lg font-bold mb-2 text-emerald-800">{v.name || v.Name}</h3>
+                    <p className="text-sm mb-2 text-emerald-700">{v.content || v.Content}</p>
+                    {v.features || v.Features ? <p className="text-xs text-emerald-600">{v.features || v.Features}</p> : null}
                   </article>
                 ))}
               </div>
             </section>
 
-            <section className="mb-6 bg-white border rounded-lg p-6">
-              <h6 className="text-2xl font-semibold mb-3">Upanishads</h6>
-              {page.upanishads.definition ? <p className="mb-3">{page.upanishads.definition}</p> : null}
+            <section className="mb-6 border-l-4 border-indigo-400 rounded-lg p-6 bg-indigo-50">
+              <h6 className="text-2xl font-semibold mb-3 text-indigo-800">Upanishads</h6>
+              {page.upanishads.definition ? <p className="mb-3 text-indigo-700">{page.upanishads.definition}</p> : null}
               {Array.isArray(page.upanishads.major_upanishads) && page.upanishads.major_upanishads.length > 0 ? (
-                <ul className="list-disc ml-6">
+                <ul className="grid grid-cols-1 gap-3">
                   {page.upanishads.major_upanishads.map((u: any, i: number) => (
-                    <li key={i} className="mb-2">
-                      <strong>{u.name}</strong>{u.summary ? <span className="ml-2 text-sm">— {u.summary}</span> : null}
+                    <li key={i} className="bg-white border rounded-md p-3 shadow-sm">
+                      <div className="flex items-start justify-between">
+                        <div>
+                          <strong className="text-slate-800">{u.name}</strong>
+                          {u.summary ? <p className="text-sm text-slate-600">{u.summary}</p> : null}
+                        </div>
+                        <span className="text-xs text-indigo-600">Upanishad</span>
+                      </div>
                     </li>
                   ))}
                 </ul>
               ) : null}
             </section>
 
-            <section className="mb-6 bg-white border rounded-lg p-6">
-              <h6 className="text-2xl font-semibold mb-3">Unique Insights</h6>
-              <p>{page.unique_insights}</p>
+            <section className="mb-6 border-l-4 border-rose-400 rounded-lg p-6 bg-rose-50">
+              <h6 className="text-2xl font-semibold mb-3 text-rose-800">Unique Insights</h6>
+              <p className="text-rose-700">{page.unique_insights}</p>
             </section>
           </div>
 
           <aside className="md:col-span-1 space-y-4">
-            <div className="bg-white border rounded-lg p-4">
-              <h4 className="font-semibold mb-2">Origin</h4>
-              <p><strong>Meaning:</strong> {page.origin.meaning || ''}</p>
-              <p><strong>Period:</strong> {page.origin.period || ''}</p>
-              <p><strong>Transmission:</strong> {page.origin.transmission || ''}</p>
+            <div className="p-4 rounded-lg bg-yellow-50 border-l-4 border-amber-400">
+              <h4 className="font-semibold mb-2 text-amber-800">Origin</h4>
+              <p className="text-sm"><strong>Meaning:</strong> {page.origin.meaning || ''}</p>
+              <p className="text-sm"><strong>Period:</strong> {page.origin.period || ''}</p>
+              <p className="text-sm"><strong>Transmission:</strong> {page.origin.transmission || ''}</p>
             </div>
 
-            <div className="bg-white border rounded-lg p-4">
-              <h4 className="font-semibold mb-2">Authorship</h4>
-              <p><strong>Nature:</strong> {page.authorship.nature || ''}</p>
-              <p><strong>Process:</strong> {page.authorship.process || ''}</p>
-              <p><strong>Compiler:</strong> {page.authorship.compiler || ''}</p>
+            <div className="p-4 rounded-lg bg-sky-50 border-l-4 border-sky-400">
+              <h4 className="font-semibold mb-2 text-sky-800">Authorship</h4>
+              <p className="text-sm"><strong>Nature:</strong> {page.authorship.nature || ''}</p>
+              <p className="text-sm"><strong>Process:</strong> {page.authorship.process || ''}</p>
+              <p className="text-sm"><strong>Compiler:</strong> {page.authorship.compiler || ''}</p>
             </div>
 
-            <div className="bg-white border rounded-lg p-4">
-              <h4 className="font-semibold mb-2">Language</h4>
-              <p>{page.language}</p>
+            <div className="p-4 rounded-lg bg-emerald-50 border-l-4 border-emerald-400">
+              <h4 className="font-semibold mb-2 text-emerald-800">Language</h4>
+              <p className="text-sm">{page.language}</p>
             </div>
 
-            <div className="bg-white border rounded-lg p-4">
-              <h4 className="font-semibold mb-2">Benefits</h4>
+            <div className="p-4 rounded-lg bg-rose-50 border-l-4 border-rose-400">
+              <h4 className="font-semibold mb-2 text-rose-800">Benefits</h4>
               <ul className="list-disc ml-5 text-sm">
                 {(page.benefits || []).map((b: string, i: number) => <li key={i}>{b}</li>)}
               </ul>
             </div>
 
-            <div className="bg-white border rounded-lg p-4">
-              <h4 className="font-semibold mb-2">Themes</h4>
+            <div className="p-4 rounded-lg bg-indigo-50 border-l-4 border-indigo-400">
+              <h4 className="font-semibold mb-2 text-indigo-800">Themes</h4>
               <div className="flex flex-wrap gap-2">
                 {(page.themes || []).map((t: string, i: number) => (
-                  <span key={i} className="text-xs px-2 py-1 border rounded-full">{t}</span>
+                  <span key={i} className="text-xs px-2 py-1 bg-indigo-100 text-indigo-800 rounded-full">{t}</span>
                 ))}
               </div>
             </div>
@@ -161,12 +180,29 @@ export default function Page({ searchParams }: any) {
           )}
         </div>
         {(page.structure || []).map((item: any, i: number) => (
-          <div key={i}>
-            <p><b>Name: </b>{item.name || item.Name}</p>
-            <p><b>Content: </b>{item.content || item.Content}</p>
-            <p><b>Features: </b>{item.features || item.Features}</p>
+          <div key={i} className="mb-4 p-4 bg-white border rounded-lg shadow-sm">
+            <p className="text-lg font-semibold"><b>Name: </b>{item.name || item.Name}</p>
+            <p className="text-sm text-slate-700"><b>Content: </b>{item.content || item.Content}</p>
+            <p className="text-sm text-slate-600"><b>Features: </b>{item.features || item.Features}</p>
           </div>
         ))}
+        {Array.isArray(page.timeline) && page.timeline.length > 0 ? (
+          <section className="mt-6">
+            <h4 className="text-xl font-semibold mb-4">Timeline</h4>
+            <ol className="border-l-2 border-slate-200 pl-4">
+              {page.timeline.map((ev: any, i: number) => (
+                <li key={i} className="mb-4 relative">
+                  <span className="absolute -left-6 top-0 w-3 h-3 bg-amber-400 rounded-full"></span>
+                  <div className="bg-white p-3 rounded-md border shadow-sm">
+                    <div className="text-sm text-slate-800 font-semibold">{ev.title || ev.name || ev.event}</div>
+                    {ev.period ? <div className="text-xs text-slate-600">{ev.period}</div> : null}
+                    {ev.description ? <div className="text-sm text-slate-700 mt-1">{ev.description}</div> : null}
+                  </div>
+                </li>
+              ))}
+            </ol>
+          </section>
+        ) : null}
       </PageLayout>
     </>
   );

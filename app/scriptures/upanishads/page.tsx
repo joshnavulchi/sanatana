@@ -20,9 +20,14 @@ export default function Page({ searchParams }: any) {
   const S = (k: string) => String(t(k, locale));
   const page: any = (() => {
     const k: any = getMeta('scriptures_upanishads', {}, locale) || {};
+    const local = (ns as any)?.scriptures_upanishads || ns || {};
     return {
-      title: typeof k.title === 'string' ? k.title : (__getLoc('scriptures_upanishads.title') || ''),
-      list: Array.isArray(k.list) ? k.list : parseList(__getLoc('scriptures_upanishads.list'))
+      title: typeof k.title === 'string' ? k.title : (local.title || __getLoc('scriptures_upanishads.title') || ''),
+      purpose: (local.meta && local.meta.purpose) || k.purpose || __getLoc('scriptures_upanishads.meta.purpose') || '',
+      benefits: (local.meta && local.meta.benefits) || k.benefits || [],
+      unique_insights: (local.meta && local.meta.unique_insights) || k.unique_insights || '',
+      features: (local.meta && local.meta.features) || k.features || [],
+      list: Array.isArray(k.list) ? k.list : (Array.isArray(local.list) ? local.list : parseList(__getLoc('scriptures_upanishads.list')))
     };
   })();
   return (
@@ -33,23 +38,59 @@ export default function Page({ searchParams }: any) {
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Upanishads' }]}
         className="layout-md"
       >
-        {(page.list || []).map((item: any, i: number) => (
-          <div key={i}>
-            {item.category ? <h2 className="text-2xl md:text-3xl">{item.category}</h2> : null}
-            {item.description ?
-              <p>{item.description}</p> :
-              <ul role="list" className="list-disc">
-                {item.list && item.list.map((list: any, j: number) => (
-                  <li key={j}>
-                    <p><b>Name:</b> {list.name}</p>
-                    <p><b>Veda:</b> {list.veda}</p>
-                    <p><b>Type:</b> {list.type}</p>
-                    <p><b>Summary:</b> {list.summary}</p>
-                  </li>
-                ))}
-              </ul>}
+        <header className="rounded-lg overflow-hidden mb-6 border p-6 bg-gradient-to-r from-indigo-50 via-teal-50 to-emerald-50">
+          <div className="max-w-4xl mx-auto">
+            <h1 className="text-3xl md:text-4xl font-extrabold text-indigo-800">{page.title}</h1>
+            <p className="mt-3 text-lg text-indigo-700">{page.purpose}</p>
           </div>
-        ))}
+        </header>
+
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+          <main className="lg:col-span-3 space-y-6">
+            {(page.list || []).map((group: any, gi: number) => (
+              <section key={gi} className="rounded-lg p-6 bg-white shadow-sm border-t-4 border-indigo-200">
+                {group.category ? <h3 className="text-xl font-semibold mb-3 text-indigo-800">{group.category}</h3> : null}
+                {group.description ? <p className="mb-3 text-slate-700">{group.description}</p> : null}
+                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 list-none p-0">
+                  {(group.list || []).map((it: any, idx: number) => (
+                    <li key={idx} className="border rounded-md p-3 bg-gradient-to-r from-white to-indigo-50">
+                      <div className="flex items-start justify-between">
+                        <div>
+                          <h4 className="font-semibold text-slate-800">{it.name}</h4>
+                          <p className="text-sm text-slate-600">{it.summary}</p>
+                        </div>
+                        <div className="text-xs text-amber-700 ml-4 px-2 py-1 bg-amber-100 rounded-full">{it.veda}</div>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            ))}
+          </main>
+
+          <aside className="space-y-4">
+            <div className="p-4 rounded-lg bg-amber-50 border-l-4 border-amber-400">
+              <h4 className="font-semibold mb-2 text-amber-800">Benefits</h4>
+              <ul className="list-disc ml-5 text-sm">
+                {(page.benefits || []).map((b: string, i: number) => <li key={i}>{b}</li>)}
+              </ul>
+            </div>
+
+            <div className="p-4 rounded-lg bg-teal-50 border-l-4 border-teal-400">
+              <h4 className="font-semibold mb-2 text-teal-800">Features</h4>
+              <ul className="list-disc ml-5 text-sm">
+                {(page.features || []).map((f: string, i: number) => <li key={i}>{f}</li>)}
+              </ul>
+            </div>
+
+            {page.unique_insights ? (
+              <div className="p-4 rounded-lg bg-indigo-50 border-l-4 border-indigo-400">
+                <h4 className="font-semibold mb-2 text-indigo-800">Unique Insights</h4>
+                <p className="text-sm">{page.unique_insights}</p>
+              </div>
+            ) : null}
+          </aside>
+        </div>
       </PageLayout>
     </>
   );

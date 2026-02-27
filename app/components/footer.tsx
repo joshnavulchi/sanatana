@@ -39,7 +39,7 @@ export default function Footer() {
   return (
     <>
       <footer className={`gradient-background w-full`} style={{ minHeight: '400px' }}>
-        <div className={`relative z-29`}>
+        <div className={`relative z-29p-3`}>
           <section className="content-wrapper text-center py-30!">
             <h6 className={`mx-auto max-w-2xl shadow-xl rounded-lg bg-white/94 px-3 py-6`}>
               <span className="text-3xl/10 md:text-4xl/12 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">{footer?.title || footer?.titleText}</span>
@@ -74,7 +74,7 @@ export default function Footer() {
             </div>
           </section>
 
-          <div className={`p-3 relative z-10 flex flex-col md:flex-row md:items-start md:justify-between border-t`}>
+          <div className={`nav-wrapper relative z-10 flex flex-col md:flex-row md:items-start md:justify-between border-t`}>
             <nav role="menu" className="md:w-full gap-4 flex flex-col  md:flex-row md:items-start">
               <div className="md:w-1/5 flex flex-col gap-2">
                 {(() => {
@@ -92,7 +92,7 @@ export default function Footer() {
                   })() : {})
                   return (
                     <>
-                      <p className="description text-md underline">{title}</p>
+                      <p className="description text-xl underline">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/scriptures/${key}`;
@@ -100,7 +100,7 @@ export default function Footer() {
                           <Link
                             key={key}
                             href={href}
-                            className={isActive(href) ? 'active text-md' : 'text-md'}
+                            className={`text-lg isActive(href) ? 'active' : ''`}
                             role="menuitem"
                             onClick={e => {
                               if (isActive(href)) {
@@ -132,11 +132,11 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-md underline">{title}</p>
+                      <p className="description text-xl underline">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/philosophy/${key}`;
-                        return <Link key={key} href={href} className={isActive(href) ? 'active text-md' : 'text-md'} role="menuitem">{val}</Link>;
+                        return <Link key={key} href={href} className={`text-lg isActive(href) ? 'active' : ''`} role="menuitem">{val}</Link>;
                       })}
                     </>
                   );
@@ -158,11 +158,11 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-md underline">{title}</p>
+                      <p className="description text-xl underline">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/stories/${key}`;
-                        return <Link key={key} href={href} className={isActive(href) ? 'active text-md' : 'text-md'} role="menuitem">{val}</Link>;
+                        return <Link key={key} href={href} className={`text-lg isActive(href) ? 'active' : ''`} role="menuitem">{val}</Link>;
                       })}
                     </>
                   );
@@ -184,11 +184,11 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-md underline">{title}</p>
+                      <p className="description text-xl underline">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/stotrasmantras/${key}`;
-                        return <Link key={key} href={href} className={isActive(href) ? 'active text-md' : 'text-md'} role="menuitem">{val}</Link>;
+                        return <Link key={key} href={href} className={`text-lg isActive(href) ? 'active' : ''`} role="menuitem">{val}</Link>;
                       })}
                     </>
                   );
@@ -210,11 +210,11 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-md underline">{title}</p>
+                      <p className="description text-xl underline">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/kidszone/${key}`;
-                        return <Link key={key} href={href} className={isActive(href) ? 'active text-md' : 'text-md'} role="menuitem">{val}</Link>;
+                        return <Link key={key} href={href} className={`text-lg isActive(href) ? 'active' : ''`} role="menuitem">{val}</Link>;
                       })}
                     </>
                   );
@@ -236,11 +236,11 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-md underline">{title}</p>
+                      <p className="description text-xl underline">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/${key}`;
-                        return <Link key={key} href={href} className={isActive(href) ? 'active text-md' : 'text-md'} role="menuitem">{val}</Link>;
+                        return <Link key={key} href={href} className={`text-lg isActive(href) ? 'active' : ''`} role="menuitem">{val}</Link>;
                       })}
                     </>
                   );
@@ -249,33 +249,35 @@ export default function Footer() {
             </nav>
           </div>
 
-          <div className={`p-3 flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0`}>
-            <div>
-              <small className="text-gray-400">{footer && footer?.disclaimer}<br /> {footer && footer?.contentChange}</small>
-              {/* <small> I am using <Link href='https://gemini.google.com/' title='Gemini AI' target='_blank' className='text-white no-underline'>Gemini AI</Link>, <Link href='https://www.meta.ai/' title='Meta AI' target='_blank' className='text-white no-underline'>Meta AI</Link> and  <Link href='https://github.com/features/copilot' title='Github Copilot' target='_blank' className='text-white no-underline'>Github Copilot</Link> basic plan to generating content of the website.</small> */}
+          <div className="px-3 md:px-14 pt-3 pb-12">
+            <div className={`flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0`}>
+              <div>
+                <small className="text-gray-400">{footer && footer?.disclaimer}<br /> {footer && footer?.contentChange}</small>
+                {/* <small> I am using <Link href='https://gemini.google.com/' title='Gemini AI' target='_blank' className='text-white no-underline'>Gemini AI</Link>, <Link href='https://www.meta.ai/' title='Meta AI' target='_blank' className='text-white no-underline'>Meta AI</Link> and  <Link href='https://github.com/features/copilot' title='Github Copilot' target='_blank' className='text-white no-underline'>Github Copilot</Link> basic plan to generating content of the website.</small> */}
+              </div>
+              <nav role="list" className={`social-icons md:w-1/4 flex items-center justify-end gap-6`}>
+                <Link role="listitem" aria-label="Visit us on LinkedIn" href="https://in.linkedin.com/in/vulchivijayakumar" target="_blank" className=" no-underline">
+                  <LazyImage src="/images/svg/linkedin.svg" alt="linkedin" width={24} height={24} className="inline-block" />
+                </Link>
+                <Link role="listitem" aria-label="Visit us on Codepen" href="https://codepen.io/vulchivijay" target="_blank" className=" no-underline">
+                  <LazyImage src="/images/svg/codepen.svg" alt="codepen" width={24} height={24} className="inline-block" />
+                </Link>
+                <Link role="listitem" aria-label="Visit us on Github" href="https://github.com/vulchivijay" target="_blank" className=" no-underline">
+                  <LazyImage src="/images/svg/github.svg" alt="github" width={24} height={24} className="inline-block" />
+                </Link>
+                <Link role="listitem" aria-label="Visit us on Twitter" href="#" target="_blank" className="no-underline">
+                  <LazyImage src="/images/svg/twitter.svg" alt="twitter" width={24} height={24} className="inline-block" />
+                </Link>
+              </nav>
             </div>
-            <nav role="list" className={`social-icons md:w-1/4 flex items-center justify-end gap-6`}>
-              <Link role="listitem" aria-label="Visit us on LinkedIn" href="https://in.linkedin.com/in/vulchivijayakumar" target="_blank" className=" no-underline">
-                <LazyImage src="/images/svg/linkedin.svg" alt="linkedin" width={24} height={24} className="inline-block" />
-              </Link>
-              <Link role="listitem" aria-label="Visit us on Codepen" href="https://codepen.io/vulchivijay" target="_blank" className=" no-underline">
-                <LazyImage src="/images/svg/codepen.svg" alt="codepen" width={24} height={24} className="inline-block" />
-              </Link>
-              <Link role="listitem" aria-label="Visit us on Github" href="https://github.com/vulchivijay" target="_blank" className=" no-underline">
-                <LazyImage src="/images/svg/github.svg" alt="github" width={24} height={24} className="inline-block" />
-              </Link>
-              <Link role="listitem" aria-label="Visit us on Twitter" href="#" target="_blank" className="no-underline">
-                <LazyImage src="/images/svg/twitter.svg" alt="twitter" width={24} height={24} className="inline-block" />
-              </Link>
-            </nav>
-          </div>
 
-          <div className={`p-3 md:flex md:items-center md:justify-between`}>
-            <div className="flex items-center gap-4">
-              <Link href="/privacy-policy" className={`${isActive('/privacy-policy') ? "active" : ""} `}>{footer?.privacy}</Link>
-              <Link href="/terms-of-service" className={`${isActive('/terms-of-service') ? "active" : ""} `}>{footer?.terms}</Link>
+            <div className={`mt-6 md:flex md:items-center md:justify-between`}>
+              <div className="flex items-center gap-4">
+                <Link href="/privacy-policy" className={`text-sm ${isActive('/privacy-policy') ? "active" : ""} `}>{footer?.privacy}</Link>
+                <Link href="/terms-of-service" className={`text-sm ${isActive('/terms-of-service') ? "active" : ""} `}>{footer?.terms}</Link>
+              </div>
+              <small className="inline-flex mt-3 text-gray-100">{footer?.copyright}</small>
             </div>
-            <small className="inline-flex mt-3 text-gray-100">{footer?.copyright}</small>
           </div>
         </div>
       </footer>
