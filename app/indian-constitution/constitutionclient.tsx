@@ -84,20 +84,20 @@ export default function ConstitutionClient() {
                     <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-blue-200 to-cyan-100 rounded-2xl flex items-center justify-center text-3xl shadow-lg group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300 border-2 border-blue-300">
                       {icon}
                     </div>
-                    <Tag className="flex-1 text-3xl md:text-4xl font-extrabold text-blue-900 group-hover:text-cyan-700 tracking-tight transition-colors duration-300 drop-shadow-md">
+                    <Tag className="flex-1 text-3xl font-extrabold text-blue-900 group-hover:text-cyan-700 tracking-tight transition-colors duration-300 drop-shadow-md">
                       {section.title}
                     </Tag>
                   </div>
                   {/* Section content rendering */}
                   {section.content && (
-                    <div className="text-xl md:text-lg md:text-lg leading-relaxed pl-20 text-blue-800/90">
+                    <div className="text-xl md:text-lg md:text-md leading-relaxed pl-20 text-blue-800/90">
                       {Object.values(section.content).map((v, i) => (
                         <div key={i} className="mb-2">{typeof v === 'string' ? v : JSON.stringify(v)}</div>
                       ))}
                     </div>
                   )}
                   {section.details && (
-                    <div className="text-xl md:text-lg md:text-lg leading-relaxed pl-20 text-blue-900/90">
+                    <div className="text-xl md:text-lg md:text-md leading-relaxed pl-20 text-blue-900/90">
                       {Object.entries(section.details).map(([k, v], i) => (
                         <div key={i} className="mb-2"><span className="font-bold text-cyan-700">{k.replace(/([a-z])([A-Z])/g, '$1 $2')}: </span>{typeof v === 'string' ? v : JSON.stringify(v)}</div>
                       ))}
@@ -122,7 +122,7 @@ export default function ConstitutionClient() {
                     </ul>
                   )}
                   {section.analysis && (
-                    <div className="text-xl md:text-lg md:text-lg leading-relaxed pl-20 text-blue-900/90">
+                    <div className="text-xl md:text-lg md:text-md leading-relaxed pl-20 text-blue-900/90">
                       {Object.entries(section.analysis).map(([k, v], i) => (
                         <div key={i} className="mb-2"><span className="font-bold text-cyan-700">{k.replace(/([a-z])([A-Z])/g, '$1 $2')}: </span>{typeof v === 'string' ? v : JSON.stringify(v)}</div>
                       ))}

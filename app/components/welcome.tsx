@@ -100,7 +100,7 @@ export default function WelcomePage() {
               </div>
 
               {/* Welcome title */}
-              <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold
+              <h2 className="text-2xl md:text-3xl font-bold
                 bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700 
                 bg-clip-text tracking-tight leading-tight">
                 Namaste & Welcome

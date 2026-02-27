@@ -89,9 +89,9 @@ export default function SanatanadharmaClientPage() {
                           <span className="w-2 h-2 bg-orange-600 rounded-full" />
                           {point.title}
                         </div>
-                        {point.para1 && <div className="text-gray-700 text-xl md:text-lg md:text-lg pl-4 leading-relaxed mb-2">{point.para1}</div>}
-                        {point.para2 && <div className="text-gray-700 text-xl md:text-lg md:text-lg pl-4 leading-relaxed mb-2">{point.para2}</div>}
-                        {point.para3 && <div className="text-gray-700 text-xl md:text-lg md:text-lg pl-4 leading-relaxed">{point.para3}</div>}
+                        {point.para1 && <div className="text-gray-700 text-xl md:text-lg md:text-md pl-4 leading-relaxed mb-2">{point.para1}</div>}
+                        {point.para2 && <div className="text-gray-700 text-xl md:text-lg md:text-md pl-4 leading-relaxed mb-2">{point.para2}</div>}
+                        {point.para3 && <div className="text-gray-700 text-xl md:text-lg md:text-md pl-4 leading-relaxed">{point.para3}</div>}
                       </li>
                     ))}
                   </ul>

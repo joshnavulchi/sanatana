@@ -92,7 +92,7 @@ export default function Footer() {
                   })() : {})
                   return (
                     <>
-                      <p className="description text-xl! underline">{title}</p>
+                      <p className="description text-md underline">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/scriptures/${key}`;
@@ -132,7 +132,7 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-lg underline">{title}</p>
+                      <p className="description text-md underline">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/philosophy/${key}`;
@@ -158,7 +158,7 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-lg underline">{title}</p>
+                      <p className="description text-md underline">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/stories/${key}`;
@@ -184,7 +184,7 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-lg underline">{title}</p>
+                      <p className="description text-md underline">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/stotrasmantras/${key}`;
@@ -210,7 +210,7 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-lg underline">{title}</p>
+                      <p className="description text-md underline">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/kidszone/${key}`;
@@ -236,7 +236,7 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-lg underline">{title}</p>
+                      <p className="description text-md underline">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/${key}`;

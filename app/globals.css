@@ -284,10 +284,6 @@ footer {
 .disclaimer .social-icons {
   padding-right: var(--space-xl);
 }
-.disclaimer small,
-.copyrights a {
-  font-size: 1rem;
-}
 /* Hero section container stability */
 .herosection .herocontent {
   contain: layout;

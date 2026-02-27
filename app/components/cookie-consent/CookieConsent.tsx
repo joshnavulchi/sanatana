@@ -208,11 +208,11 @@ export default function CookieConsent() {
 
                 {/* Text content */}
                 <div className="flex-1">
-                  <h3 className="text-lg md:text-xl md:text-lg font-bold text-gray-900 mb-2 flex items-center gap-2">
+                  <h3 className="text-lg font-bold text-gray-900 mb-2 flex items-center gap-2">
                     <span className="md:hidden text-2xl">🍪</span>
                     Cookie Settings
                   </h3>
-                  <div className="text-lg  leading-relaxed">
+                  <div className="text-md md:text-sm leading-relaxed">
                     {(() => {
                       const paragraph = localeObj?.cookieconsent?.paragraph || '';
                       return (
@@ -238,7 +238,7 @@ export default function CookieConsent() {
                       border-2 border-amber-300
                       hover:border-amber-400
                       text-gray-900
-                      text-md md:text-lg
+                      text-md md:text-sm
                       rounded-full
                       shadow-md hover:shadow-lg
                       transition-all duration-300
@@ -263,7 +263,7 @@ export default function CookieConsent() {
                     bg-gradient-to-r from-amber-500 to-orange-600
                     hover:from-amber-600 hover:to-orange-700
                     text-white
-                    text-md md:text-lg
+                    text-md md:text-sm
                     rounded-full
                     shadow-lg hover:shadow-xl
                     transition-all duration-300

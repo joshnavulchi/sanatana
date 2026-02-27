@@ -121,7 +121,7 @@ export default function CosmictimeClient() {
                     <path d="M12 2v6M12 16v6M4.2 7.8l4.2 2.4M15.6 13.8l4.2 2.4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </div>
-                <h3 className="text-3xl md:text-4xl font-extrabold text-orange-900 mb-2">{data.title}</h3>
+                <h3 className="text-3xl font-extrabold text-orange-900 mb-2">{data.title}</h3>
                 <p className="text-amber-900 max-w-3xl mx-auto">Concise, structured insights from cosmic to human time — organized for clarity and study.</p>
                 <div className="mt-4 flex justify-center gap-3">
                   <span className="inline-flex items-center gap-2 bg-white/80 border border-amber-100 px-3 py-1 rounded-full text-lg text-amber-800">Research Sections</span>

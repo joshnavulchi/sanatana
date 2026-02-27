@@ -24,7 +24,7 @@ export default function DefinitionOfLife() {
             <span className="text-3xl text-amber-800">🕉️</span>
             <div className="h-px w-16 bg-gradient-to-l from-transparent to-amber-400" />
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700 bg-clip-text mb-2">
+          <h2 className="text-3xl font-bold bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700 bg-clip-text mb-2">
             The Essence of Life
           </h2>
           <p className="text-lg text-amber-700/80  italic">
@@ -100,7 +100,7 @@ export default function DefinitionOfLife() {
                 Know Thyself
               </p>
               <div className="pt-4 border-t border-amber-300/30 mt-4">
-                <p className="text-xl md:text-lg md:text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto">
+                <p className="text-xl md:text-lg md:text-md text-gray-600 leading-relaxed max-w-3xl mx-auto">
                   Life is the divine opportunity to realize your true nature—not this temporary body,
                   but the immortal consciousness that witnesses all, untouched by birth or death,
                   pleasure or pain. This realization is the highest goal of human existence.

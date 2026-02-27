@@ -84,7 +84,7 @@ export default function RiversConnectingClient() {
                   <div className="relative z-10 mb-12">
                     <div className="flex items-center gap-4 mb-4">
                       <div className="h-1 w-16 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-full" />
-                      <h3 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
+                      <h3 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
                         Project Timeline 2026–2040
                       </h3>
                       <div className="h-1 flex-1 bg-gradient-to-r from-cyan-400 to-transparent rounded-full" />

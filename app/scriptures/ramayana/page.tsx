@@ -306,7 +306,7 @@ export default function Page({ searchParams }: any) {
                             className={`inline-flex items-center gap-2 ${color.accent} hover:opacity-90 text-white px-3 py-1 rounded-sm shadow-md hover:shadow-xl transition-all duration-300 transform`}
                           >
                             <span>Read Complete Chapter</span>
-                            <span className="text-lg md:text-lg">→</span>
+                            <span className="text-lg md:text-md">→</span>
                           </Link>
                         </div>
                       </div>

@@ -16,7 +16,7 @@
     "scss:watch": "yarn run sass --watch app/styles.scss:public/globals.from-scss.css",
     "generate:sitemap": "node scripts/generate-sitemap.js",
     "generate:critical:home": "node scripts/generate-critical-css.js",
-    "render-build": "yarn install --check-files --frozen-lockfile && yarn run build",
+    "render-build": "yarn run build",
     "incremental:export": "node scripts/incremental-export.js",
     "export:partial": "node scripts/partial-export.js",
     "start": "yarn run next start",

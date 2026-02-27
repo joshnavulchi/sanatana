@@ -62,15 +62,15 @@ export default function WorldTransformationContent() {
               </div>
 
               {pageContent.meta?.description && (
-                <p className="text-lg md:text-xl md:text-lg  leading-relaxed mb-4">
+                <p className="text-lg  leading-relaxed mb-4">
                   {pageContent.meta.description}
                 </p>
               )}
               {pageContent.intro && (
-                <p className="text-xl md:text-lg md:text-lg text-gray-600 leading-relaxed">{pageContent.intro}</p>
+                <p className="text-xl md:text-lg md:text-md text-gray-600 leading-relaxed">{pageContent.intro}</p>
               )}
               {pageContent.description && (
-                <p className="text-xl md:text-lg md:text-lg text-gray-600 leading-relaxed">{pageContent.description}</p>
+                <p className="text-xl md:text-lg md:text-md text-gray-600 leading-relaxed">{pageContent.description}</p>
               )}
             </div>
           </div>

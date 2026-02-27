@@ -105,7 +105,7 @@ export default function SimilarCategories({
         {categories.map((category) => {
           return (
             <div key={category.key} className="p-3 rounded-lg bg-emerald-50/80 border border-emerald-100 shadow-sm">
-                <h6 className="text-lg mb-2 text-emerald-800 font-semibold">
+              <h6 className="text-lg mb-2 text-emerald-800 font-semibold">
                 <Link href={normalizeHref(`/${category.key}`)} className="hover:underline hover:text-emerald-600 transition-colors">
                   {category.title}
                 </Link>
