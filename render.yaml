@@ -16,13 +16,14 @@ services:
     # can use `.branch-meta.json` to skip unchanged files.
     cacheDirectories:
       - public/locales
-    buildCommand: |
+    installCommand: |
       corepack enable
       corepack prepare yarn@4.12.0 --activate
+      yarn install --check-files
+    buildCommand: |
       export YARN_PRODUCTION=false
       git fetch --all || true
       git checkout production || git checkout -b production origin/production || true
-      yarn install --check-files
       (node scripts/download-locales.js --skip-if-meta || echo "⚠️ Locale download failed or returned 403, continuing with cached locales")
       yarn run render-build
     publishPath: out
