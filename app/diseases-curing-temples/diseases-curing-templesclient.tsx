@@ -61,7 +61,7 @@ export default function DiseasesCuringTemplesClient() {
                   <span className="text-3xl animate-pulse">🩺</span>
                   <div className="h-px w-12 bg-gradient-to-l from-transparent to-emerald-500" />
                 </div>
-                <p className="text-lg md:text-md md:text-xl md:text-lg md:text-md leading-relaxed">{data.intro}</p>
+                <p className="text-lg md:text-md leading-relaxed">{data.intro}</p>
               </div>
             </div>
             {data.items.map((section: any, index: number) => {
@@ -91,7 +91,7 @@ export default function DiseasesCuringTemplesClient() {
                       </ul>
                     )}
                     {!section?.traditional_belief_about_diseases && (section.summary || section.text) && (
-                      <p className="text-xl md:text-lg md:text-md md:text-lg md:text-md leading-relaxed ">{section.summary || section.text}</p>
+                      <p className="text-xl md:text-lg md:text-md md:text-md leading-relaxed ">{section.summary || section.text}</p>
                     )}
                   </div>
                 </div>

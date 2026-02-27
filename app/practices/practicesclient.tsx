@@ -35,7 +35,7 @@ export default function PracticesClient() {
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: data.title }]}
       className="layout-sm"
     >
-      <p className="mb-8 text-lg md:text-md md:text-xl md:text-lg md:text-md leading-relaxed">{data.intro}</p>
+      <p className="mb-8 text-lg md:text-md leading-relaxed">{data.intro}</p>
       <div className="mt-8">
         <h2 className="text-lg md:text-md font-bold mb-2">Explore Sub Pages:</h2>
         <ul className="list-disc ml-6">

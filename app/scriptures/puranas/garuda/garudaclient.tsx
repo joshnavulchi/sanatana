@@ -52,7 +52,7 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
               <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-bl from-amber-400/10 to-transparent rounded-tr-lg rounded-bl-full" />
               {/* Content */}
               <p className="
-                 text-xl md:text-lg md:text-md md:text-lg md:text-md
+                 text-xl md:text-lg md:text-md md:text-md
                 leading-relaxed
                 relative z-10
                 
@@ -116,7 +116,7 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
                   style={{ animationDelay: `${idx * 120}ms` }}
                 >
                   {/* Message text */}
-                  <p className="text-gray-800 text-xl md:text-lg md:text-md md:text-lg md:text-md leading-relaxed m-0 ">
+                  <p className="text-gray-800 text-xl md:text-lg md:text-md md:text-md leading-relaxed m-0 ">
                     {item.message}
                   </p>
                   {/* Decorative quote mark */}

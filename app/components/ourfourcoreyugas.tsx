@@ -132,7 +132,7 @@ export default function OurFourCoreYugas() {
             <div className="h-px w-20 bg-gradient-to-l from-transparent to-amber-400" />
           </div>
 
-          <h6 className="text-3xl md:text-4xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl my-6">
+          <h6 className="text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl my-6">
             {title}
           </h6>
 

@@ -104,7 +104,7 @@ export default function KrishnaClient() {
                   <span className="text-3xl animate-pulse">📖</span>
                   <div className="h-px w-12 bg-gradient-to-l from-transparent to-emerald-500" />
                 </div>
-                {data.intro && <p className="text-lg md:text-md md:text-xl md:text-lg md:text-md leading-relaxed">{data.intro}</p>}
+                {data.intro && <p className="text-lg md:text-md leading-relaxed">{data.intro}</p>}
               </div>
             </div>
             <div className="prose max-w-none text-gray-900">

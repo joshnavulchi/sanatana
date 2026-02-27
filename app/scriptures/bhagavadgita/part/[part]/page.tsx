@@ -451,7 +451,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                 <p className="text-white text-lg md:text-md font-bold uppercase tracking-widest">Sacred Scripture</p>
               </div>
             </div>
-            <h3 className="text-3xl md:text-4xl font-black text-white text-center mb-4 leading-tight drop-shadow-lg">
+            <h3 className="text-3xl font-black text-white text-center mb-4 leading-tight drop-shadow-lg">
               {part.title || (() => {
                 // Try to extract the part key and use as fallback title
                 const partKeyName = Object.keys(part).find(k => k.startsWith('bhagavadgita_part_'));

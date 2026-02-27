@@ -45,7 +45,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
     <section className="max-w-7xl mx-auto">
       <header className="mb-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <div>
-          <h3 className="text-3xl md:text-4xl font-extrabold text-slate-900">
+          <h3 className="text-3xl font-extrabold text-slate-900">
             Sankshepa Ramayanam — Slokas
           </h3>
           <p className="mt-1 text-xl md:text-lg md:text-md text-slate-500">
