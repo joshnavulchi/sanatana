@@ -18,6 +18,9 @@ services:
       - public/locales
     buildCommand: |
       export YARN_PRODUCTION=false
+      # Ensure the build runs on the `production` branch so CI matches deploy branch
+      git fetch --all || true
+      git checkout production || git checkout -b production origin/production || true
       yarn install --check-files
       # Run locale download with `--skip-if-meta` so the script can fast-exit
       # when `.branch-meta.json` matches local HEAD. Never fail the build if
