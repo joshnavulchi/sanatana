@@ -18,7 +18,7 @@ services:
       - public/locales
     buildCommand: |
       export YARN_PRODUCTION=false
-      yarn install --frozen-lockfile
+      yarn install --check-files
       # Run locale download with `--skip-if-meta` so the script can fast-exit
       # when `.branch-meta.json` matches local HEAD. Never fail the build if
       # it errors (including 403).
