@@ -2,8 +2,10 @@
 // This file imports the CSS module for global SCSS variables and classes.
 @use "./styles.module.scss" as *;
 
-
 @media (min-width: 1024px) {
+  html {
+    font-size: 18px;
+  }
   .content-wrapper {
     margin: 0 auto;
     max-width: var(--content-width-default);
@@ -11,15 +13,11 @@
     padding-bottom: var(--space-3xl);
   }
 }
-@media (min-width: 1024px) {
-  html {
-    font-size: 18px;
-  }
-  a {
-    font-size: 0.9rem;
+@media (min-width: 1366px) {
+  .nav-wrapper {
+    padding: var(--space-xl) 0;
   }
 }
-
 @media (min-width: 1600px) {
   .content-wrapper {
     max-width: var(--content-width-lg);

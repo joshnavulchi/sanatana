@@ -26,6 +26,13 @@ if (typeof window !== 'undefined') {
 
 
 export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = '') {
+  // Support callers that pass the namespace as the first (and only) argument
+  // e.g. `getLocaleNamespaceObject('scriptures_vedas')` — treat that as
+  // `getLocaleNamespaceObject(DEFAULT_LOCALE, 'scriptures_vedas')`.
+  if (!namespace && typeof locale === 'string' && !SUPPORTED_LOCALES.includes(locale)) {
+    namespace = locale;
+    locale = DEFAULT_LOCALE;
+  }
   if (!namespace) return {};
   if (typeof window === 'undefined') {
     try {

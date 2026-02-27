@@ -183,8 +183,44 @@ function readPaths() {
         let it;
         while ((it = re.exec(arrSrc)) !== null) items.push(it[1]);
         autoPaths = items;
+      } else {
+        // Support generated PATHS via buildPaths() in the TS file by reading nav.json
+        const m2 = src.match(/export const PATHS\s*=\s*buildPaths\(\)/m);
+        if (m2) {
+          try {
+            const navPath = path.join(process.cwd(), 'public', 'locales', 'en', 'nav.json');
+            if (fs.existsSync(navPath)) {
+              const navRaw = fs.readFileSync(navPath, 'utf8');
+              const nav = JSON.parse(navRaw);
+              const navRoot = nav && nav.nav ? nav.nav : (nav && nav.default && nav.default.nav) || {};
+              const set = new Set(['/']);
+              const staticExtras = ['/privacy-policy', '/terms-of-service'];
+              for (const s of staticExtras) set.add(s);
+              for (const key of Object.keys(navRoot)) {
+                if (key === 'home') continue;
+                const topPath = `/${key}`;
+                set.add(topPath);
+                const item = navRoot[key];
+                if (item && typeof item === 'object') {
+                  const children = item.nav || item['nav'];
+                  if (children && typeof children === 'object') {
+                    for (const childKey of Object.keys(children)) set.add(`${topPath}/${childKey}`);
+                  }
+                }
+              }
+              autoPaths = Array.from(set).sort();
+            }
+          } catch (e) {
+            // fall through and let later fallback handle errors
+          }
+        }
       }
     }
+  }
+  
+  // If an explicit include list exists, prefer it even if auto discovery failed
+  if (!autoPaths && INCLUDES && INCLUDES.size > 0) {
+    return Array.from(INCLUDES).sort();
   }
 
   if (!autoPaths) {
