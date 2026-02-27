@@ -1,10 +1,11 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 
-import { t, detectLocale, getMeta, DEFAULT_LOCALE } from '@lib/i18n';
+import { t, detectLocale, getMeta, DEFAULT_LOCALE, getLocaleNamespaceObject } from '@lib/i18n';
 import { parseList } from '@lib/parseList';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
-const ns: Record<string, unknown> = {};
+const _localeObj = getLocaleNamespaceObject('scriptures_upanishads');
+const ns: Record<string, unknown> = (_localeObj && ((_localeObj as any)['scriptures_upanishads'] || _localeObj)) || {};
 const __getLoc = (p: string) => {
   if (!ns) return '';
   const parts = p.split('.');
@@ -34,7 +35,7 @@ export default function Page({ searchParams }: any) {
       >
         {(page.list || []).map((item: any, i: number) => (
           <div key={i}>
-            {item.category ? <h2 className="text-2xl md:text-3xl">{item.catogory}</h2> : null}
+            {item.category ? <h2 className="text-2xl md:text-3xl">{item.category}</h2> : null}
             {item.description ?
               <p>{item.description}</p> :
               <ul role="list" className="list-disc">

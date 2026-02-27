@@ -74,7 +74,7 @@ export default function Footer() {
             </div>
           </section>
 
-          <div className={`px-3! nav-wrapper w-full relative z-10 flex flex-col md:flex-row md:items-start md:justify-between border-t`}>
+          <div className={`p-3 relative z-10 flex flex-col md:flex-row md:items-start md:justify-between border-t`}>
             <nav role="menu" className="md:w-full gap-4 flex flex-col  md:flex-row md:items-start">
               <div className="md:w-1/5 flex flex-col gap-2">
                 {(() => {
@@ -249,7 +249,7 @@ export default function Footer() {
             </nav>
           </div>
 
-          <div className={`p-3 disclaimer w-full flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0`}>
+          <div className={`p-3 flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0`}>
             <div>
               <small className="text-gray-400">{footer && footer?.disclaimer}<br /> {footer && footer?.contentChange}</small>
               {/* <small> I am using <Link href='https://gemini.google.com/' title='Gemini AI' target='_blank' className='text-white no-underline'>Gemini AI</Link>, <Link href='https://www.meta.ai/' title='Meta AI' target='_blank' className='text-white no-underline'>Meta AI</Link> and  <Link href='https://github.com/features/copilot' title='Github Copilot' target='_blank' className='text-white no-underline'>Github Copilot</Link> basic plan to generating content of the website.</small> */}
@@ -270,7 +270,7 @@ export default function Footer() {
             </nav>
           </div>
 
-          <div className={`p-3 copyrights w-full md:flex md:items-center md:justify-between`}>
+          <div className={`p-3 md:flex md:items-center md:justify-between`}>
             <div className="flex items-center gap-4">
               <Link href="/privacy-policy" className={`${isActive('/privacy-policy') ? "active" : ""} `}>{footer?.privacy}</Link>
               <Link href="/terms-of-service" className={`${isActive('/terms-of-service') ? "active" : ""} `}>{footer?.terms}</Link>
