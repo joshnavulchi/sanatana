@@ -21,7 +21,7 @@
     "export:partial": "node scripts/partial-export.js",
     "start": "npm run next start",
     "preview:static": "npm run serve@latest out -l 3000",
-    "lint": "npm run eslint --quiet app lib scripts",
+    "lint": "eslint --quiet app lib scripts",
     "minify:html": "node scripts/minify-html.js",
     "noEmit": "npm run tsc --noEmit",
     "check-updates": "npm run npm-check-updates",
