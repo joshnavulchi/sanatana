@@ -2,6 +2,11 @@ services:
   - type: static_site
     name: sanatanadharmam.in
     env: node
+    installCommand: |
+      # Ensure Render uses Yarn v4 (Berry) to match this repo's lockfile
+      corepack enable || true
+      corepack prepare yarn@4.12.0 --activate || true
+      yarn install --check-files
     plan: free
     envVars:
       - key: NEXT_PUBLIC_GA_ID
