@@ -134,14 +134,14 @@ export default function QuizClient() {
         <p>You will be asked {qList.length} random questions. You have {fmtTime(timeLeft)} to complete the quiz.</p>
         <div className="flex gap-3">
           <button className="group relative md:inline-flex px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-600
-                    hover:from-amber-600 hover:to-orange-700 text-white text-lg md:text-md rounded-full shadow-xl hover:shadow-2xl
+                    hover:from-amber-600 hover:to-orange-700 text-white text-lg rounded-full shadow-xl hover:shadow-2xl
                     transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden" onClick={() => setStarted(true)}>
             <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
             <span>Start Quiz</span>
           </button>
           <button className="group md:inline-flex px-8 py-4 bg-white/10 backdrop-blur-md
                     hover:bg-white/20 border-2 border-white/50 hover:border-white
-                    text-white text-lg md:text-md rounded-full shadow-lg hover:shadow-xl
+                    text-white text-lg rounded-full shadow-lg hover:shadow-xl
                     transition-all duration-300 transform hover:-translate-y-1 no-underline" onClick={restart}>Shuffle Questions</button>
         </div>
       </div>
@@ -174,7 +174,7 @@ export default function QuizClient() {
         </div>
         <div className="flex gap-3">
           <button className="group relative md:inline-flex px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-600
-                    hover:from-amber-600 hover:to-orange-700 text-white text-lg md:text-md rounded-full shadow-xl hover:shadow-2xl
+                    hover:from-amber-600 hover:to-orange-700 text-white text-lg rounded-full shadow-xl hover:shadow-2xl
                     transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden" onClick={restart}>
             <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
             <span className="relative flex">Restart Quiz</span>
@@ -209,14 +209,14 @@ export default function QuizClient() {
         <div className="flex justify-between">
           <div>
             <button className="group relative md:inline-flex px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-600
-                    hover:from-amber-600 hover:to-orange-700 text-white text-lg md:text-md rounded-full shadow-xl hover:shadow-2xl
+                    hover:from-amber-600 hover:to-orange-700 text-white text-lg rounded-full shadow-xl hover:shadow-2xl
                     transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden" onClick={goPrev} disabled={current === 0}>
               <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
               <span>Previous</span>
             </button>
             <button className="group md:inline-flex px-8 py-4 bg-white/10 backdrop-blur-md
                     hover:bg-white/20 border-2 border-white/50 hover:border-white
-                    text-white text-lg md:text-md rounded-full shadow-lg hover:shadow-xl
+                    text-white text-lg rounded-full shadow-lg hover:shadow-xl
                     transition-all duration-300 transform hover:-translate-y-1 no-underline" onClick={goNext}>
               <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
               <span>{current < qList.length - 1 ? 'Next' : 'Finish'}</span>

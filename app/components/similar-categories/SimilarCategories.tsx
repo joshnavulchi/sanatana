@@ -93,26 +93,26 @@ export default function SimilarCategories({
   if (categories.length === 0) {
     return (
       <aside className="p-4 bg-white/80 border-l-4 border-emerald-500 shadow-lg rounded-xl">
-        <h5 className="text-lg md:text-md font-bold text-emerald-700 mb-2">{title}</h5>
-        <p className="text-xl md:text-lg md:text-md text-gray-600">Loading categories or no categories available...</p>
+        <h5 className="text-lg font-bold text-emerald-700 mb-2">{title}</h5>
+        <p className="text-xl md:text-lg text-gray-600">Loading categories or no categories available...</p>
       </aside>
     );
   }
   return (
     <aside className="p-4 bg-white/90 border-l-4 border-emerald-500 shadow-lg rounded-xl">
-      <h5 className="text-xl md:text-lg md:text-md font-bold text-emerald-700 mb-4 tracking-wide">{title}</h5>
+      <h5 className="text-xl md:text-lg font-bold text-emerald-700 mb-4 tracking-wide">{title}</h5>
       <div className="space-y-4">
         {categories.map((category) => {
           return (
             <div key={category.key} className="p-3 rounded-lg bg-emerald-50/80 border border-emerald-100 shadow-sm">
-                <h6 className="text-lg md:text-md mb-2 text-emerald-800 font-semibold">
+              <h6 className="text-lg mb-2 text-emerald-800 font-semibold">
                 <Link href={normalizeHref(`/${category.key}`)} className="hover:underline hover:text-emerald-600 transition-colors">
                   {category.title}
                 </Link>
               </h6>
               <ul className="space-y-2">
                 {category.links.map((link) => (
-                  <li key={link.key} className="text-lg md:text-md">
+                  <li key={link.key} className="text-lg">
                     <Link href={normalizeHref(link.href)} className="text-emerald-700 hover:text-emerald-900 hover:underline transition-colors">
                       {link.label}
                     </Link>

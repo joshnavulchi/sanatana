@@ -67,7 +67,7 @@ export default function ReligionClient() {
           <h4 className="text-2xl font-bold text-blue-800 mb-3 border-l-4 border-blue-400 pl-3">{section.title}</h4>
           {/* Section content: string */}
           {typeof section.content === 'string' && (
-            <p className="text-gray-700 mb-2 text-md md:text-lg md:text-md leading-relaxed">{section.content}</p>
+            <p className="text-gray-700 mb-2 text-md md:text-lg leading-relaxed">{section.content}</p>
           )}
           {/* Section content: array of strings */}
           {Array.isArray(section.content) && section.content.length > 0 && typeof section.content[0] === 'string' && (
@@ -82,11 +82,11 @@ export default function ReligionClient() {
             <div className="grid grid-cols-1 gap-4 mt-4">
               {section.content.map((item: any, i: number) => (
                 <div key={i} className="bg-gradient-to-br from-blue-50 to-blue-100 border-l-4 border-blue-400 rounded-lg p-4 shadow">
-                  <div className="font-semibold text-blue-700 text-lg md:text-md mb-1 flex items-center gap-2">
+                  <div className="font-semibold text-blue-700 text-lg mb-1 flex items-center gap-2">
                     <span className="inline-block w-2 h-2 bg-blue-400 rounded-full"></span>
                     {item.country}
                   </div>
-                  <div className="text-gray-700 text-xl md:text-lg md:text-md">{item.details}</div>
+                  <div className="text-gray-700 text-xl md:text-lg">{item.details}</div>
                 </div>
               ))}
             </div>
@@ -101,7 +101,7 @@ export default function ReligionClient() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {religion.country_conversion_details.map((item, idx) => (
               <div key={idx} className="bg-gradient-to-br from-green-50 to-green-100 border-l-4 border-green-400 rounded-lg p-4 shadow hover:scale-105 transition-transform duration-200">
-                <div className="font-semibold text-green-700 text-lg md:text-md mb-1 flex items-center gap-2">
+                <div className="font-semibold text-green-700 text-lg mb-1 flex items-center gap-2">
                   <span className="inline-block w-2 h-2 bg-green-400 rounded-full"></span>
                   {item.country}
                 </div>
@@ -118,7 +118,7 @@ export default function ReligionClient() {
           <div className="flex items-start gap-4">
             <span className="text-2xl">⚠️</span>
             <div className="flex-1">
-              <h6 className="text-lg md:text-md font-bold text-yellow-800 mb-2">Disclaimer</h6>
+              <h6 className="text-lg font-bold text-yellow-800 mb-2">Disclaimer</h6>
               <p className="text-gray-700">{religion.disclaimer}</p>
             </div>
           </div>

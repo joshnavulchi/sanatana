@@ -197,8 +197,8 @@ export default function LanguageDropdown() {
                   </svg>
                 </div>
                 <div>
-                  <h2 id="language-dialog-title" className="text-xl md:text-lg md:text-md font-bold text-gray-900">{locale?.languagedropdown?.title || 'Choose language'}</h2>
-                  <p className="text-xl md:text-lg md:text-md text-gray-600">{filteredLanguages.length} languages available</p>
+                  <h2 id="language-dialog-title" className="text-xl md:text-lg font-bold text-gray-900">{locale?.languagedropdown?.title || 'Choose language'}</h2>
+                  <p className="text-xl md:text-lg text-gray-600">{filteredLanguages.length} languages available</p>
                 </div>
               </div>
               <button
@@ -311,7 +311,7 @@ export default function LanguageDropdown() {
                           {lang.nativeName}
                         </div>
                         <div className={`
-                          text-lg md:text-md truncate transition-colors duration-300
+                          text-lg truncate transition-colors duration-300
                           ${isSelected
                             ? 'text-amber-700'
                             : 'text-gray-600'
@@ -352,7 +352,7 @@ export default function LanguageDropdown() {
                     </svg>
                   </div>
                   <p className="text-gray-600 font-medium">No languages found</p>
-                  <p className="text-lg md:text-md text-gray-500 mt-1">Try a different search term</p>
+                  <p className="text-lg text-gray-500 mt-1">Try a different search term</p>
                 </div>
               )}
             </div>

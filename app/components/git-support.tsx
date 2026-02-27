@@ -60,12 +60,12 @@ export default function GitSupport({ locale }: { locale?: string }) {
             </div>
 
             {/* Title */}
-            <h6 className="text-2xl md:text-3xl lg:text-4xl font-light leading-tight drop-shadow-2xl">
+            <h6 className="text-2xl md:text-3xl font-light leading-tight drop-shadow-2xl">
               {loc?.cta?.title || 'Contribute'}
             </h6>
 
             {/* Subtitle */}
-            <p className="text-lg md:text-md leading-relaxed drop-shadow-lg my-6">
+            <p className="text-lg leading-relaxed drop-shadow-lg my-6">
               {loc?.cta?.subtitle || ''}
             </p>
 
@@ -75,7 +75,7 @@ export default function GitSupport({ locale }: { locale?: string }) {
                 href="https://github.com/vulchivijay/first-contributes"
                 target="_blank"
                 className="group/btn relative px-4 md:px-8 py-4
-                  bg-white/90 hover:bg-white  text-lg md:text-md
+                  bg-white/90 hover:bg-white  text-lg
                   rounded-full shadow-xl hover:shadow-2xl
                   transition-all duration-300 transform hover:-translate-y-1 hover:scale-105
                   no-underline overflow-hidden">
@@ -96,7 +96,7 @@ export default function GitSupport({ locale }: { locale?: string }) {
                 target="_blank"
                 className="group/btn px-4 md:px-8 py-4
                   bg-transparent border-2 border-white/50 hover:border-white
-                  text-white text-lg md:text-md rounded-full
+                  text-white text-lg rounded-full
                   shadow-lg hover:shadow-xl transition-all duration-300
                   transform hover:-translate-y-1 no-underline
                   backdrop-blur-sm">

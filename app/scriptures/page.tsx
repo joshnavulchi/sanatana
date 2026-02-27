@@ -7,7 +7,7 @@ export default function Page() {
     <>
       <h3 className="text-2xl md:text-3xl text-gray-900">Scriptures</h3>
       <div className="mt-8">
-        <h2 className="text-lg md:text-md font-bold mb-2">Explore Sub Pages:</h2>
+        <h2 className="text-lg font-bold mb-2">Explore Sub Pages:</h2>
         <ul className="list-disc ml-6">
           <li><a href="/scriptures/bhagavathgita" className="text-blue-600 hover:underline">Bhagavath Gita</a></li>
           <li><a href="/scriptures/ramayana" className="text-blue-600 hover:underline">Ramayana</a></li>

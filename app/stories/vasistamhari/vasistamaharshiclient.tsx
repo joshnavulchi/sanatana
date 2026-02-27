@@ -30,7 +30,7 @@ export default function VasistamaharshiClient() {
                 <span className="text-3xl animate-pulse">🛕</span>
                 <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-600" />
               </div>
-              <p className="text-lg md:text-md leading-relaxed">{placeholder}</p>
+              <p className="text-lg leading-relaxed">{placeholder}</p>
             </div>
           </div>
         </div>

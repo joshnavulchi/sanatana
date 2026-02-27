@@ -235,7 +235,7 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
           aria-live="polite"
         >
           <div id="digital-clock-box" role="status" className="w-full">
-            {showDate && <div className="text-lg md:text-md font-bold text-gray-500 mb-1 text-right">{dateStr}</div>}
+            {showDate && <div className="text-lg font-bold text-gray-500 mb-1 text-right">{dateStr}</div>}
             <div className="flex items-baseline justify-end gap-2">
               <div className="flex items-baseline gap-1">
                 <div className="flex text-3xl font-mono font-bold text-blue-700 select-none">
@@ -255,7 +255,7 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
                     </>
                   )}
                 </div>
-                <span className="ml-1 text-xl md:text-lg md:text-md text-gray-600 font-semibold">{ampm}</span>
+                <span className="ml-1 text-xl md:text-lg text-gray-600 font-semibold">{ampm}</span>
               </div>
             </div>
             {latLng && (

@@ -34,7 +34,7 @@ export default function DailyPrayersClient() {
                 <span className="text-3xl animate-pulse">📖</span>
                 <div className="h-px w-12 bg-gradient-to-l from-transparent to-emerald-500" />
               </div>
-              <p className="text-lg md:text-md leading-relaxed">
+              <p className="text-lg leading-relaxed">
                 Placeholder for daily prayers and short mantras.
               </p>
             </div>

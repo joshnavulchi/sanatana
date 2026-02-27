@@ -44,12 +44,12 @@ export default function Footer() {
             <h6 className={`mx-auto max-w-2xl shadow-xl rounded-lg bg-white/94 px-3 py-6`}>
               <span className="text-3xl/10 md:text-4xl/12 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">{footer?.title || footer?.titleText}</span>
             </h6>
-            <p className={`md:mx-auto md:max-w-5xl text-lg md:text-md text-white/90 leading-relaxed px-3 py-6`}>{footer?.quote || footer?.quotes} {footer?.quoteSource || footer?.quotesource}</p>
+            <p className={`md:mx-auto md:max-w-5xl text-lg text-white/90 leading-relaxed px-3 py-6`}>{footer?.quote || footer?.quotes} {footer?.quoteSource || footer?.quotesource}</p>
 
             {/* CTA Buttons */}
             <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 mt-6">
               <Link href="/contact" className="group relative md:inline-flex px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-600
-                    hover:from-amber-600 hover:to-orange-700 text-white text-lg md:text-md rounded-full shadow-xl hover:shadow-2xl
+                    hover:from-amber-600 hover:to-orange-700 text-white text-lg rounded-full shadow-xl hover:shadow-2xl
                     transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden">
                 <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
                 <span className="relative flex items-center justify-center gap-2">
@@ -62,7 +62,7 @@ export default function Footer() {
 
               <Link href="/donate" className="group md:inline-flex px-8 py-4 bg-white/10 backdrop-blur-md
                     hover:bg-white/20 border-2 border-white/50 hover:border-white
-                    text-white text-lg md:text-md rounded-full shadow-lg hover:shadow-xl
+                    text-white text-lg rounded-full shadow-lg hover:shadow-xl
                     transition-all duration-300 transform hover:-translate-y-1 no-underline">
                 <span className="flex items-center justify-center gap-2">
                   {footer?.donate || footer?.donateLabel || 'Donate'}
@@ -92,7 +92,7 @@ export default function Footer() {
                   })() : {})
                   return (
                     <>
-                      <p className="description text-xl! underline">{title}</p>
+                      <p className="description text-md underline">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/scriptures/${key}`;
@@ -132,7 +132,7 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-lg md:text-md underline">{title}</p>
+                      <p className="description text-md underline">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/philosophy/${key}`;
@@ -158,7 +158,7 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-lg md:text-md underline">{title}</p>
+                      <p className="description text-md underline">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/stories/${key}`;
@@ -184,7 +184,7 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-lg md:text-md underline">{title}</p>
+                      <p className="description text-md underline">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/stotrasmantras/${key}`;
@@ -210,7 +210,7 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-lg md:text-md underline">{title}</p>
+                      <p className="description text-md underline">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/kidszone/${key}`;
@@ -236,7 +236,7 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-lg md:text-md underline">{title}</p>
+                      <p className="description text-md underline">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/${key}`;

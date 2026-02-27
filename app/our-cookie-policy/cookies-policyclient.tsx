@@ -111,7 +111,7 @@ export default function PrivacyPolicy() {
         <div className="flex items-center justify-between flex-wrap gap-4 pb-6 border-b-2 border-amber-200">
           <div className="flex items-center gap-3">
             <span className="text-2xl">🔒</span>
-            <strong className="text-lg md:text-md ">{privacy.lastupdated}</strong>
+            <strong className="text-lg ">{privacy.lastupdated}</strong>
           </div>
           <TextToSpeech sectionId="cookies-content" />
         </div>
@@ -127,7 +127,7 @@ export default function PrivacyPolicy() {
 
         {/* Information We Collect */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-6 md:p-8 shadow-lg">
-          <h3 className="text-xl md:text-lg md:text-md md:text-2xl font-bold mb-4 flex items-center gap-3">
+          <h3 className="text-xl md:text-lg md:text-2xl font-bold mb-4 flex items-center gap-3">
             <span className="text-2xl">📊</span>
             <span><strong>{privacy.informationwecollect.title}</strong> {privacy.informationwecollect.lead}</span>
           </h3>
@@ -141,7 +141,7 @@ export default function PrivacyPolicy() {
 
         {/* How We Use */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-6 md:p-8 shadow-lg">
-          <h4 className="text-xl md:text-lg md:text-md md:text-2xl font-bold mb-4 flex items-center gap-3">
+          <h4 className="text-xl md:text-lg md:text-2xl font-bold mb-4 flex items-center gap-3">
             <span className="text-2xl">🎯</span>
             {privacy.howweuse?.title}
           </h4>
@@ -158,7 +158,7 @@ export default function PrivacyPolicy() {
 
         {/* Cookies & Local Storage */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-6 md:p-8 shadow-lg">
-          <h5 className="text-xl md:text-lg md:text-md md:text-2xl font-bold mb-4 flex items-center gap-3">
+          <h5 className="text-xl md:text-lg md:text-2xl font-bold mb-4 flex items-center gap-3">
             <span className="text-2xl">🍪</span>
             {privacy.cookieslocalstorage.title}
           </h5>
@@ -167,7 +167,7 @@ export default function PrivacyPolicy() {
 
         {/* Third Party */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-6 md:p-8 shadow-lg">
-          <h6 className="text-xl md:text-lg md:text-md md:text-2xl font-bold mb-4 flex items-center gap-3">
+          <h6 className="text-xl md:text-lg md:text-2xl font-bold mb-4 flex items-center gap-3">
             <span className="text-2xl">🔗</span>
             {privacy.thirdparty.title}
           </h6>
@@ -176,7 +176,7 @@ export default function PrivacyPolicy() {
 
         {/* Security */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-6 md:p-8 shadow-lg">
-          <p className="text-xl md:text-lg md:text-md md:text-2xl font-bold mb-4 flex items-center gap-3">
+          <p className="text-xl md:text-lg md:text-2xl font-bold mb-4 flex items-center gap-3">
             <span className="text-2xl">🔐</span>
             {privacy.security.title}
           </p>
@@ -185,7 +185,7 @@ export default function PrivacyPolicy() {
 
         {/* Rights */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-6 md:p-8 shadow-lg">
-          <p className="text-xl md:text-lg md:text-md md:text-2xl font-bold mb-4 flex items-center gap-3">
+          <p className="text-xl md:text-lg md:text-2xl font-bold mb-4 flex items-center gap-3">
             <span className="text-2xl">⚖️</span>
             {privacy.rights.title}
           </p>
@@ -203,7 +203,7 @@ export default function PrivacyPolicy() {
 
         {/* Children */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-6 md:p-8 shadow-lg">
-          <p className="text-xl md:text-lg md:text-md md:text-2xl font-bold mb-4 flex items-center gap-3">
+          <p className="text-xl md:text-lg md:text-2xl font-bold mb-4 flex items-center gap-3">
             <span className="text-2xl">👶</span>
             {privacy.children.title}
           </p>
@@ -212,7 +212,7 @@ export default function PrivacyPolicy() {
 
         {/* Changes */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-6 md:p-8 shadow-lg">
-          <p className="text-xl md:text-lg md:text-md md:text-2xl font-bold mb-4 flex items-center gap-3">
+          <p className="text-xl md:text-lg md:text-2xl font-bold mb-4 flex items-center gap-3">
             <span className="text-2xl">🔄</span>
             {privacy.changes.title}
           </p>
@@ -221,7 +221,7 @@ export default function PrivacyPolicy() {
 
         {/* Contact */}
         <section className="bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-200 rounded-2xl p-6 md:p-8">
-          <p className="text-xl md:text-lg md:text-md md:text-2xl font-bold mb-4 flex items-center gap-3">
+          <p className="text-xl md:text-lg md:text-2xl font-bold mb-4 flex items-center gap-3">
             <span className="text-2xl">📧</span>
             {privacy.contact.title}
           </p>
