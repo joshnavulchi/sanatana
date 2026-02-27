@@ -1,7 +1,6 @@
 {
   "name": "sanatanadharmam.in",
   "version": "0.1.3",
-  "packageManager": "yarn@4.12.0",
   "private": true,
   "license": "SEE LICENSE IN LICENSE",
   "scripts": {
