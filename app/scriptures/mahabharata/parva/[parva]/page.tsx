@@ -364,7 +364,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                   <p className="text-white text-lg font-bold uppercase tracking-widest">The Great Epic Mahabharata</p>
                 </div>
               </div>
-              <h3 className="text-3xl md:text-4xl font-black text-white text-center mb-4 leading-tight drop-shadow-lg">
+              <h3 className="text-3xl font-black text-white text-center mb-4 leading-tight drop-shadow-lg">
                 {parva.parvaname}
               </h3>
               <div className="flex justify-center">
@@ -387,7 +387,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                     </div>
 
                     <div className="relative bg-gray-50 rounded-xl p-6 border-l-4 border-blue-500">
-                      <p className="text-md text-gray-800 leading-relaxed italic font-medium">
+                      <p className="text-md md:text-sm text-gray-800 leading-relaxed italic font-medium">
                         {parva.summary}
                       </p>
                     </div>
@@ -428,7 +428,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
                       <h3 className="text-2xl font-bold text-amber-900">Key Lessons & Wisdom</h3>
                     </div>
                     <div className="relative bg-white bg-opacity-60 rounded-xl p-6 border-l-4 border-amber-500">
-                      <p className="text-md text-gray-800 leading-relaxed italic">
+                      <p className="text-md md:text-sm text-gray-800 leading-relaxed italic">
                         {parva.moralpsychologicalphilosophicallessons}
                       </p>
                     </div>

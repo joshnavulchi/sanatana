@@ -134,9 +134,9 @@ export default function Page({ searchParams }: any) {
                       </div>
                       {(() => {
                         const summary = getPartSummary(part);
-                          return summary ? (
-                            <p className="text-lg text-gray-700 leading-relaxed overflow-hidden line-clamp-6">{summary}</p>
-                          ) : null;
+                        return summary ? (
+                          <p className="text-lg text-gray-700 leading-relaxed overflow-hidden line-clamp-6">{summary}</p>
+                        ) : null;
                       })()}
                       <div className={`relative z-10 pt-4 flex items-center gap-2 ${color.text} hover:gap-3 transition-all duration-300`}>
                         <Link

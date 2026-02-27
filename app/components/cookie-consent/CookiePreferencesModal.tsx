@@ -71,7 +71,7 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
           <div className="md:w-2/3 w-full">
             <div className="mb-2">
               <span className="text-lg font-semibold text-blue-700">{TABS.find(t => t.id === active)?.title}</span>
-              <div className="text-md text-gray-500">{TABS.find(t => t.id === active)?.description}</div>
+              <div className="text-md md:text-sm text-gray-500">{TABS.find(t => t.id === active)?.description}</div>
             </div>
             {active === 'your-privacy' && (
               <div className="bg-blue-50 rounded-lg p-3 text-sm ">

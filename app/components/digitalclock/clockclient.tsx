@@ -238,7 +238,7 @@ export default function DigitalClock({ showSeconds = true, showDate = true }: Di
             {showDate && <div className="text-lg font-bold text-gray-500 mb-1 text-right">{dateStr}</div>}
             <div className="flex items-baseline justify-end gap-2">
               <div className="flex items-baseline gap-1">
-                <div className="flex text-3xl md:text-4xl font-mono font-bold text-blue-700 select-none">
+                <div className="flex text-3xl font-mono font-bold text-blue-700 select-none">
                   {String(hours12).split('').map((d, i) => (
                     <span key={`h${i}`}>{d}</span>
                   ))}

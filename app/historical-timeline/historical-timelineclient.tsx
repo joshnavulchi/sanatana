@@ -213,7 +213,7 @@ export default function HistoricalTimeline() {
               <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-500" />
             </div>
 
-            <p className="text-lg md:text-xl md:text-lg   leading-relaxed">
+            <p className="text-lg   leading-relaxed">
               {timeline.description}
             </p>
           </div>

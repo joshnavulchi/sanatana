@@ -14,7 +14,7 @@ export default function HeritageFooter() {
         <div className="flex justify-center mb-8">
           <div className="h-1 w-24 bg-gradient-to-r from-orange-500 to-amber-400 rounded-full"></div>
         </div>
-        <h6 className="text-3xl md:text-4xl font-semibold text-orange-900 tracking-wide">
+        <h6 className="text-3xl font-semibold text-orange-900 tracking-wide">
           Preserving Our Vedic Civilizational Legacy
         </h6>
         <p className="mt-8 text-lg text-amber-900 leading-relaxed">
