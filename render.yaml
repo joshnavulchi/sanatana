@@ -17,15 +17,14 @@ services:
     cacheDirectories:
       - public/locales
     installCommand: |
-      corepack enable
-      corepack prepare yarn@4.12.0 --activate
-      yarn install --check-files
+      npm install
     buildCommand: |
-      export YARN_PRODUCTION=false
+      export NODE_ENV=production
       git fetch --all || true
       git checkout production || git checkout -b production origin/production || true
+      npm install
       (node scripts/download-locales.js --skip-if-meta || echo "⚠️ Locale download failed or returned 403, continuing with cached locales")
-      yarn run render-build
+      npm run render-build
     publishPath: out
 
   - type: cron
