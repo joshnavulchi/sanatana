@@ -5,7 +5,7 @@
   "license": "SEE LICENSE IN LICENSE",
   "scripts": {
     "predev": "node scripts/download-locales.js --skip-if-meta && node scripts/compile-scss.js --dev",
-    "dev": "npm run next dev",
+    "dev": "next dev",
     "prebuild": "npm run lint && node scripts/download-locales.js --skip-if-meta && node scripts/compile-scss.js --force && node scripts/generate-critical-css.js",
     "build": "node --max-old-space-size=8192 ./node_modules/next/dist/bin/next build",
     "postbuild": "node scripts/compile-scss.js --verify && node scripts/strip-comments.js && node scripts/generate-sitemap.js && node scripts/minify-html.js && node scripts/add-hash-to-assets.js && node scripts/check-analytics-keys.js",
@@ -19,7 +19,7 @@
     "render-build": "npm run build && node scripts/generate-sitemap.js && node scripts/minify-html.js && node scripts/add-hash-to-assets.js && node scripts/check-analytics-keys.js",
     "incremental:export": "node scripts/incremental-export.js",
     "export:partial": "node scripts/partial-export.js",
-    "start": "npm run next start",
+    "start": "next start",
     "preview:static": "npm run serve@latest out -l 3000",
     "lint": "eslint --quiet app lib scripts",
     "minify:html": "node scripts/minify-html.js",

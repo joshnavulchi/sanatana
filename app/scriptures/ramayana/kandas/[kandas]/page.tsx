@@ -196,7 +196,6 @@ export default async function Page({ params, searchParams }: { params: Promise<{
         title={title}
         breadcrumbs={[
           { labelKey: 'Home', href: '/' },
-          { label: 'Scriptures', href: '/scriptures' },
           { label: title }]}
         className="layout-md"
       >
