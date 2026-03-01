@@ -20,9 +20,7 @@ export function addLocalKey(key: string) {
 }
 
 function getStorage(useLocal: boolean) {
-  if (typeof window === "undefined") return null;
-  try {
-    return useLocal ? window.localStorage : window.sessionStorage;
+  // ...existing code...
   } catch (e) {
     return null;
   }

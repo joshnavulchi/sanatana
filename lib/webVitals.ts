@@ -28,42 +28,7 @@ export function reportWebVitals(metric: WebVitalsMetric) {
     });
   }
 
-  // Send to analytics in production
-  if (process.env.NODE_ENV === 'production') {
-    const body = JSON.stringify({
-      name: metric.name,
-      value: metric.value,
-      rating: metric.rating,
-      delta: metric.delta,
-      id: metric.id,
-    });
-
-    // Use sendBeacon if available for reliability
-    if (navigator.sendBeacon) {
-      navigator.sendBeacon('/api/analytics', body);
-    } else {
-      // Fallback to fetch with keepalive
-      fetch('/api/analytics', {
-        body,
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        keepalive: true
-      }).catch(() => {
-        // Ignore errors in analytics reporting
-      });
-    }
-  }
-
-  // Send to Google Analytics if gtag is available
-  const win = window as any;
-  if (win.gtag) {
-    win.gtag('event', metric.name, {
-      value: Math.round(metric.name === 'CLS' ? metric.value * 1000 : metric.value),
-      event_category: 'Web Vitals',
-      event_label: metric.id,
-      non_interaction: true,
-    });
-  }
+  // ...existing code...
 }
 
 /**
