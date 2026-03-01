@@ -20,10 +20,8 @@ export function addLocalKey(key: string) {
 }
 
 function getStorage(useLocal: boolean) {
-  // ...existing code...
-  } catch (e) {
-    return null;
-  }
+  // Storage access removed for privacy/device permission reasons
+  return null;
 }
 
 export function isLocalKey(key: string) {
