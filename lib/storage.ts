@@ -20,8 +20,12 @@ export function addLocalKey(key: string) {
 }
 
 function getStorage(useLocal: boolean) {
-  // Storage access removed for privacy/device permission reasons
-  return null;
+  if (typeof window === "undefined") return null;
+  try {
+    return useLocal ? window.localStorage : window.sessionStorage;
+  } catch (e) {
+    return null;
+  }
 }
 
 export function isLocalKey(key: string) {
