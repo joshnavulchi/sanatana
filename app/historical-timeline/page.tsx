@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <>
       <StructuredData metaKey="historical_timeline" />
-      <WebVitalsReporter page="historical-timeline" />
+        {process.env.NODE_ENV !== 'production' && <WebVitalsReporter page="historical-timeline" />}
       <HistoricalTimeline />
     </>
   );

@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <>
       <StructuredData metaKey="donate" />
-      <WebVitalsReporter page="donate" />
+      {process.env.NODE_ENV !== 'production' && <WebVitalsReporter page="donate" />}
       <DonateClient />;
     </>
   );

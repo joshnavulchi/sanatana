@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <>
       <StructuredData metaKey="about" />
-      <WebVitalsReporter page="about" />
+      {process.env.NODE_ENV !== 'production' && <WebVitalsReporter page="about" />}
       <AboutClient />
     </>
   );
