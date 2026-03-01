@@ -4,11 +4,13 @@ export const generateMetadata = createGenerateMetadata('about');
 
 import StructuredData from '@components/structured-data/StructuredData';
 import AboutClient from './aboutclient';
+import WebVitalsReporter from '../components/WebVitalsReporter';
 
 export default function Page() {
   return (
     <>
       <StructuredData metaKey="about" />
+      <WebVitalsReporter page="about" />
       <AboutClient />
     </>
   );

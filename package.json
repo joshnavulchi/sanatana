@@ -6,6 +6,9 @@
   "scripts": {
     "predev": "node scripts/download-locales.js --skip-if-meta && node scripts/compile-scss.js --dev",
     "dev": "next dev",
+    "dashboard:server": "node scripts/socket-server.js",
+    "dashboard:client": "next dev -p 3000",
+    "dashboard": "concurrently \"npm run dashboard:server\" \"npm run dashboard:client\"",
     "prebuild": "npm run lint && node scripts/download-locales.js --skip-if-meta && node scripts/compile-scss.js --force && node scripts/generate-critical-css.js",
     "build": "node --max-old-space-size=8192 ./node_modules/next/dist/bin/next build",
     "postbuild": "node scripts/compile-scss.js --verify && node scripts/strip-comments.js && node scripts/generate-sitemap.js && node scripts/minify-html.js && node scripts/add-hash-to-assets.js && node scripts/check-analytics-keys.js",
@@ -55,7 +58,10 @@
     "postcss": "^8.5.6",
     "sass": "^1.97.3",
     "sharp": "^0.34.5",
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.3",
     "topojson-client": "^3.1.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "web-vitals": "^5.1.0"
   }
 }
