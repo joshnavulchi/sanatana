@@ -72,7 +72,7 @@ export default function Page({ searchParams }: any) {
 
   return (
     <>
-      <WebVitalsReporter page="bhagavadgita" />
+      {process.env.NODE_ENV !== 'production' && <WebVitalsReporter page="bhagavadgita" /> }
       <PageLayout
         metaKey="scriptures_bhagavadgita"
         title={page.title}
