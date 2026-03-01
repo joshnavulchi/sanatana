@@ -4,11 +4,13 @@ export const generateMetadata = createGenerateMetadata('historical_timeline');
 
 import HistoricalTimeline from './historical-timelineclient';
 import StructuredData from '@components/structured-data/StructuredData';
+import WebVitalsReporter from '../components/WebVitalsReporter';
 
 export default function Page() {
   return (
     <>
       <StructuredData metaKey="historical_timeline" />
+      <WebVitalsReporter page="historical-timeline" />
       <HistoricalTimeline />
     </>
   );
