@@ -8,6 +8,7 @@ import OurFourCoreYugas from '@components/ourfourcoreyugas';
 import UnderstandingOfSanatana from '@components/sanatanadharmam';
 import WelcomePage from '@components/welcome';
 import AudioPlayer from '@components/audioplayer';
+import WebVitalsReporter from './components/WebVitalsReporter';
 
 // Cache critical CSS at module level to avoid repeated file reads
 let cachedCriticalCss: string | null = null;
@@ -44,6 +45,7 @@ export default async function Home() {
 
   return (
     <>
+      <WebVitalsReporter page="home" />
       {criticalCss ? <style dangerouslySetInnerHTML={{ __html: criticalCss }} /> : null}
       <main>
         <WelcomePage />
@@ -53,7 +55,6 @@ export default async function Home() {
         <OurFourCoreYugas />
         {/* Delayed widgets: cookies and clock */}
         {/* <DelayedHomeWidgets />  // Disabled: causes server/client boundary error */}
-
         {/* <DigitalClockLoader /> */}
         {/* Krishna flute background audio player in footer, loads after 1 minute */}
         <AudioPlayer
@@ -73,5 +74,4 @@ export default async function Home() {
       </main>
     </>
   );
-}
-/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+}       

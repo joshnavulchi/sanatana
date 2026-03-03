@@ -4,11 +4,13 @@ export const generateMetadata = createGenerateMetadata('about');
 
 import StructuredData from '@components/structured-data/StructuredData';
 import AboutClient from './aboutclient';
+import WebVitalsReporter from '../components/WebVitalsReporter';
 
 export default function Page() {
   return (
     <>
       <StructuredData metaKey="about" />
+      {process.env.NODE_ENV !== 'production' && <WebVitalsReporter page="about" />}
       <AboutClient />
     </>
   );

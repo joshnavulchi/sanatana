@@ -2,6 +2,11 @@ services:
   - type: static_site
     name: sanatanadharmam.in
     env: node
+    installCommand: |
+      # Ensure Render uses Yarn v4 (Berry) to match this repo's lockfile
+      corepack enable || true
+      corepack prepare yarn@4.12.0 --activate || true
+      yarn install --check-files
     plan: free
     envVars:
       - key: NEXT_PUBLIC_GA_ID
@@ -16,14 +21,15 @@ services:
     # can use `.branch-meta.json` to skip unchanged files.
     cacheDirectories:
       - public/locales
+    installCommand: |
+      npm install
     buildCommand: |
-      export YARN_PRODUCTION=false
-      yarn install --check-files
-      # Run locale download with `--skip-if-meta` so the script can fast-exit
-      # when `.branch-meta.json` matches local HEAD. Never fail the build if
-      # it errors (including 403).
+      export NODE_ENV=production
+      git fetch --all || true
+      git checkout production || git checkout -b production origin/production || true
+      npm install
       (node scripts/download-locales.js --skip-if-meta || echo "⚠️ Locale download failed or returned 403, continuing with cached locales")
-      yarn run render-build
+      npm run render-build
     publishPath: out
 
   - type: cron

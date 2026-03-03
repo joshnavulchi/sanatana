@@ -38,31 +38,62 @@ export default function PuranasPage({ searchParams }: any) {
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Puranas' }]}
         className="layout-md"
       >
-        <p>{page.classification}</p>
-        <p>{page.definition}</p>
-        <div>
-          <p>{S('puranas.purpose')}</p>
-          {/* Major Puranas */}
-          {page.major_puranas && page.major_puranas.length > 0 && (
-            <div>
-              <p>Major Puranas :</p>
-              <ul role="list" className="list-disc">
-                {page.major_puranas.map((c: any, idx: number) => (
-                  <li key={idx}>
-                    <strong>{c.name}</strong> - {c.highlights ? <span>{c.highlights}</span> : null}
-                  </li>
-                ))}
+        <header className="rounded-lg overflow-hidden mb-6 border p-6 bg-gradient-to-r from-rose-50 via-rose-100 to-pink-50">
+          <div className="max-w-4xl mx-auto">
+            <h1 className="text-3xl md:text-4xl font-extrabold text-rose-800">{page.title}</h1>
+            <p className="mt-3 text-lg text-rose-700">{page.definition}</p>
+            <div className="mt-3 text-sm text-rose-600">{page.classification}</div>
+          </div>
+        </header>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <main className="md:col-span-2 space-y-6">
+            <section className="p-4 rounded-lg bg-white border-t-4 border-rose-200 shadow-sm">
+              <h3 className="text-xl font-semibold text-rose-800">Purpose</h3>
+              <p className="text-slate-700 mt-2">{S('puranas.purpose')}</p>
+            </section>
+
+            {page.major_puranas && page.major_puranas.length > 0 && (
+              <section className="p-4 rounded-lg bg-amber-50 border-l-4 border-amber-400">
+                <h4 className="text-lg font-semibold mb-3 text-amber-800">Major Puranas</h4>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {page.major_puranas.map((c: any, idx: number) => (
+                    <article key={idx} className="p-4 bg-white rounded-md border shadow-sm">
+                      <div className="flex items-start justify-between">
+                        <div>
+                          <strong className="text-slate-800">{c.name}</strong>
+                          {c.highlights ? <p className="text-sm text-slate-600">{c.highlights}</p> : null}
+                        </div>
+                        <span className="text-xs px-2 py-1 bg-rose-100 text-rose-800 rounded-full">Purana</span>
+                      </div>
+                    </article>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            <section className="mt-6">
+              <h3 className="text-lg font-semibold mb-2">Explore Sub Puranas</h3>
+              <ul className="space-y-2">
+                <li><a href="/scriptures/puranas/garuda" className="inline-block text-rose-700 hover:underline bg-rose-50 px-3 py-2 rounded-md">Garuda Purana</a></li>
+                <li><a href="/scriptures/puranas/karma" className="inline-block text-rose-700 hover:underline bg-rose-50 px-3 py-2 rounded-md">Karma Purana</a></li>
+              </ul>
+            </section>
+          </main>
+
+          <aside className="space-y-4">
+            <div className="p-4 rounded-lg bg-sky-50 border-l-4 border-sky-400">
+              <h4 className="font-semibold text-sky-800">Classification</h4>
+              <p className="text-sm text-slate-700">{page.classification}</p>
+            </div>
+
+            <div className="p-4 rounded-lg bg-emerald-50 border-l-4 border-emerald-400">
+              <h4 className="font-semibold text-emerald-800">Quick Links</h4>
+              <ul className="text-sm">
+                <li><a href="/scriptures/puranas" className="text-emerald-700 hover:underline">All Puranas</a></li>
               </ul>
             </div>
-          )}
-          {/* Sub Pages Links */}
-          <div className="mt-8">
-            <h3 className="text-lg font-bold mb-2">Explore Sub Puranas:</h3>
-            <ul className="list-disc ml-6">
-              <li><a href="/scriptures/puranas/garuda" className="text-blue-600 hover:underline">Garuda Purana</a></li>
-              <li><a href="/scriptures/puranas/karma" className="text-blue-600 hover:underline">Karma Purana</a></li>
-            </ul>
-          </div>
+          </aside>
         </div>
       </PageLayout>
     </>
