@@ -58,8 +58,6 @@ export default function SanatanadharmaClientPage() {
               key={section.id || index}
               className="relative bg-gradient-to-br from-white via-orange-50/30 to-white border-4 border-orange-200 rounded-lg p-3 shadow-md hover:shadow-2xl hover:border-orange-400 transition-all duration-300 group"
             >
-              <div className="absolute top-0 left-0 w-20 h-20 border-t-4 border-l-4 border-orange-400 rounded-tl-lg" />
-              <div className="absolute bottom-0 right-0 w-20 h-20 border-b-4 border-r-4 border-orange-400 rounded-br-lg" />
               <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-bl from-orange-300/20 via-yellow-200/10 to-transparent" />
               <div className="absolute bottom-0 left-0 w-16 h-16 bg-gradient-to-tr from-orange-300/20 via-yellow-200/10 to-transparent" />
               <div className="relative z-10 space-y-5">
@@ -84,7 +82,7 @@ export default function SanatanadharmaClientPage() {
                 {section?.keypoints && Array.isArray(section.keypoints) && section.keypoints.length > 0 && (
                   <ul className="space-y-4 mt-6 pl-0!">
                     {section.keypoints.map((point: any, idx: number) => (
-                      <li key={idx} className="bg-orange-50 border-l-4 border-orange-400 p-5 rounded-r-lg shadow-sm hover:shadow-md transition-shadow duration-200">
+                      <li key={idx} className="bg-orange-50 p-5 rounded-r-lg shadow-sm hover:shadow-md transition-shadow duration-200">
                         <div className="font-bold text-orange-800 mb-2 text-lg flex items-center gap-2">
                           <span className="w-2 h-2 bg-orange-600 rounded-full" />
                           {point.title}

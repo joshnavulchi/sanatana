@@ -274,15 +274,10 @@ footer {
 .nav-wrapper {
   margin: 0 auto;
   max-width: var(--content-width-default);
-}
-.nav-wrapper {
-  padding: var(--space-xl) 0;
+  padding: var(--space-xl) 0 var(--space-md);
 }
 .nav-wrapper .underline {
   padding: 0 0 var(--space-sm) 0;
-}
-.disclaimer .social-icons {
-  padding-right: var(--space-xl);
 }
 /* Hero section container stability */
 .herosection .herocontent {
@@ -291,11 +286,9 @@ footer {
 /* Global dark mode text color fixes */
 .wordcount {
   display: inline-flex;
-  gap: 6px;
+  gap: 3px;
   padding: 4px 8px;
   font-size: 0.95rem;
-  color: #064e3b;
-  border: 1px solid rgba(6, 78, 59, 0.08);
 }
 .animate-fade-in {
   animation: fadeIn 1s ease;

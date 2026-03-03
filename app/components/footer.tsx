@@ -249,33 +249,35 @@ export default function Footer() {
             </nav>
           </div>
 
-          <div className={`p-3 disclaimer w-full flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0`}>
-            <div>
-              <small className="text-gray-400">{footer && footer?.disclaimer}<br /> {footer && footer?.contentChange}</small>
-              {/* <small> I am using <Link href='https://gemini.google.com/' title='Gemini AI' target='_blank' className='text-white no-underline'>Gemini AI</Link>, <Link href='https://www.meta.ai/' title='Meta AI' target='_blank' className='text-white no-underline'>Meta AI</Link> and  <Link href='https://github.com/features/copilot' title='Github Copilot' target='_blank' className='text-white no-underline'>Github Copilot</Link> basic plan to generating content of the website.</small> */}
+          <div className="nav-wrapper py-0!">
+            <div className={`p-3 disclaimer w-full flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0`}>
+              <div>
+                <small className="text-gray-400">{footer && footer?.disclaimer}<br /> {footer && footer?.contentChange}</small>
+                {/* <small> I am using <Link href='https://gemini.google.com/' title='Gemini AI' target='_blank' className='text-white no-underline'>Gemini AI</Link>, <Link href='https://www.meta.ai/' title='Meta AI' target='_blank' className='text-white no-underline'>Meta AI</Link> and  <Link href='https://github.com/features/copilot' title='Github Copilot' target='_blank' className='text-white no-underline'>Github Copilot</Link> basic plan to generating content of the website.</small> */}
+              </div>
+              <nav role="list" className={`social-icons md:w-1/4 flex items-center justify-end gap-6`}>
+                <Link role="listitem" aria-label="Visit us on LinkedIn" href="https://in.linkedin.com/in/vulchivijayakumar" target="_blank" className=" no-underline">
+                  <LazyImage src="/images/svg/linkedin.svg" alt="linkedin" width={24} height={24} className="inline-block" />
+                </Link>
+                <Link role="listitem" aria-label="Visit us on Codepen" href="https://codepen.io/vulchivijay" target="_blank" className=" no-underline">
+                  <LazyImage src="/images/svg/codepen.svg" alt="codepen" width={24} height={24} className="inline-block" />
+                </Link>
+                <Link role="listitem" aria-label="Visit us on Github" href="https://github.com/vulchivijay" target="_blank" className=" no-underline">
+                  <LazyImage src="/images/svg/github.svg" alt="github" width={24} height={24} className="inline-block" />
+                </Link>
+                <Link role="listitem" aria-label="Visit us on Twitter" href="#" target="_blank" className="no-underline">
+                  <LazyImage src="/images/svg/twitter.svg" alt="twitter" width={24} height={24} className="inline-block" />
+                </Link>
+              </nav>
             </div>
-            <nav role="list" className={`social-icons md:w-1/4 flex items-center justify-end gap-6`}>
-              <Link role="listitem" aria-label="Visit us on LinkedIn" href="https://in.linkedin.com/in/vulchivijayakumar" target="_blank" className=" no-underline">
-                <LazyImage src="/images/svg/linkedin.svg" alt="linkedin" width={24} height={24} className="inline-block" />
-              </Link>
-              <Link role="listitem" aria-label="Visit us on Codepen" href="https://codepen.io/vulchivijay" target="_blank" className=" no-underline">
-                <LazyImage src="/images/svg/codepen.svg" alt="codepen" width={24} height={24} className="inline-block" />
-              </Link>
-              <Link role="listitem" aria-label="Visit us on Github" href="https://github.com/vulchivijay" target="_blank" className=" no-underline">
-                <LazyImage src="/images/svg/github.svg" alt="github" width={24} height={24} className="inline-block" />
-              </Link>
-              <Link role="listitem" aria-label="Visit us on Twitter" href="#" target="_blank" className="no-underline">
-                <LazyImage src="/images/svg/twitter.svg" alt="twitter" width={24} height={24} className="inline-block" />
-              </Link>
-            </nav>
-          </div>
 
-          <div className={`p-3 copyrights w-full md:flex md:items-center md:justify-between`}>
-            <div className="flex items-center gap-4">
-              <Link href="/privacy-policy" className={`${isActive('/privacy-policy') ? "active" : ""} `}>{footer?.privacy}</Link>
-              <Link href="/terms-of-service" className={`${isActive('/terms-of-service') ? "active" : ""} `}>{footer?.terms}</Link>
+            <div className={`p-3 copyrights w-full md:flex md:items-center md:justify-between`}>
+              <div className="flex items-center gap-4">
+                <Link href="/privacy-policy" className={`${isActive('/privacy-policy') ? "active" : ""} `}>{footer?.privacy}</Link>
+                <Link href="/terms-of-service" className={`${isActive('/terms-of-service') ? "active" : ""} `}>{footer?.terms}</Link>
+              </div>
+              <small className="inline-flex mt-3 text-gray-100">{footer?.copyright}</small>
             </div>
-            <small className="inline-flex mt-3 text-gray-100">{footer?.copyright}</small>
           </div>
         </div>
       </footer>
