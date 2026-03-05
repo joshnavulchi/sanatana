@@ -3,15 +3,14 @@ import { createGenerateMetadata } from '@lib/pageUtils';
 export const generateMetadata = createGenerateMetadata('donate');
 
 import DonateClient from './donateclient';
-import StructuredData from '../components/structured-data/StructuredData';
+import StructuredData from '@components/structured-data/StructuredData';
 
 
 export default function Page() {
   return (
     <>
       <StructuredData metaKey="donate" />
-      && <WebVitalsReporter page="donate" />}
-      <DonateClient />;
+      <DonateClient />
     </>
   );
 }
