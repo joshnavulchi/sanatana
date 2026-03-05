@@ -21,10 +21,10 @@ const HomeTemplate: React.FC<HomeTemplateProps> = ({ data }) => {
     <main className="min-h-screen bg-gradient-radial from-indigo-100 via-white to-indigo-300 dark:from-indigo-900 dark:via-gray-900 dark:to-indigo-800 transition-colors duration-300 flex flex-col items-center justify-center">
       <section className="w-full max-w-6xl mx-auto py-16 px-6">
         <div className="relative mb-12">
-          <div className="absolute inset-0 blur-2xl opacity-40 pointer-events-none" style={{background: 'radial-gradient(circle at 60% 40%, #6366f1 0%, transparent 70%)'}} />
+          <div className="absolute inset-0 blur-2xl opacity-40 pointer-events-none" style={{ background: 'radial-gradient(circle at 60% 40%, #6366f1 0%, transparent 70%)' }} />
           <h1 className="relative z-10 text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-indigo-700 via-purple-500 to-pink-400 dark:from-indigo-200 dark:via-purple-300 dark:to-pink-200 drop-shadow-xl mb-4 tracking-tight">{data.title}</h1>
           {data.subtitle && (
-            <p className="relative z-10 text-md md:text-2xl text-indigo-700 dark:text-indigo-200 mb-8 font-medium tracking-wide">{data.subtitle}</p>
+            <p className="relative z-10 text-lg md:text-2xl text-indigo-700 dark:text-indigo-200 mb-8 font-medium tracking-wide">{data.subtitle}</p>
           )}
         </div>
         <div className="grid gap-10 md:grid-cols-3 sm:grid-cols-2">

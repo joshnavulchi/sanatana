@@ -192,9 +192,6 @@ body {
 /* 4) Theming utilities */
 /* 5) Buttons */
 /* 6) Links */
-a {
-  font-size: 1.1rem;
-}
 /* 7) Cards */
 /* 8) Header / Nav (with subtle gradient) */
 /* 9) Focus visibility for accessibility */
@@ -338,7 +335,4 @@ footer {
   }
 }
 @media (min-width: 1024px) {
-  a {
-    font-size: 0.95rem;
-  }
 }

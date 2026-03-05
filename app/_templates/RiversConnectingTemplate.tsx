@@ -21,10 +21,10 @@ const RiversConnectingTemplate: React.FC<RiversConnectingTemplateProps> = ({ dat
     <main className="min-h-screen bg-gradient-radial from-blue-100 via-white to-blue-300 dark:from-blue-900 dark:via-gray-900 dark:to-blue-800 flex items-center justify-center transition-colors duration-300">
       <section className="w-full max-w-6xl mx-auto py-16 px-6">
         <div className="relative mb-12">
-          <div className="absolute inset-0 blur-2xl opacity-30 pointer-events-none" style={{background: 'radial-gradient(circle at 60% 40%, #2563eb 0%, transparent 70%)'}} />
+          <div className="absolute inset-0 blur-2xl opacity-30 pointer-events-none" style={{ background: 'radial-gradient(circle at 60% 40%, #2563eb 0%, transparent 70%)' }} />
           <h1 className="relative z-10 text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-cyan-500 to-teal-400 dark:from-blue-200 dark:via-cyan-300 dark:to-teal-200 drop-shadow-xl mb-4 tracking-tight">{data.title}</h1>
           {data.description && (
-            <p className="relative z-10 text-md md:text-2xl text-blue-700 dark:text-blue-200 mb-8 font-medium tracking-wide">{data.description}</p>
+            <p className="relative z-10 text-lg md:text-2xl text-blue-700 dark:text-blue-200 mb-8 font-medium tracking-wide">{data.description}</p>
           )}
         </div>
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">

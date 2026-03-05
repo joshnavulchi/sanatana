@@ -38,7 +38,7 @@ export default function PageLayout({ metaKey, title, titleColor, titleBorder, de
       {/* `metaKey` is accepted for compatibility; render structured data from server pages to avoid
           importing server-only modules into client bundles. */}
       <main className={`flex flex-col lg:flex-row px-3 ${wrapper}`}>
-        <div className={`w-full pr-4 ${showSimilarCategories ? 'lg:w-3/4' : ''}`}>
+        <div className={`w-full md:pr-4 ${showSimilarCategories ? 'lg:w-3/4' : ''}`}>
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0">
             {/* Breadcrumbs will auto-generate from path if items not provided */}
             <Breadcrumbs items={breadcrumbs} locale={locale} />
@@ -59,7 +59,7 @@ export default function PageLayout({ metaKey, title, titleColor, titleBorder, de
               </div>
               {description && (
                 <div className="max-w-3xl mx-auto">
-                  <p className="text-center text-md text-amber-800 leading-relaxed italic font-medium px-4">
+                  <p className="text-center text-lg text-amber-800 leading-relaxed italic font-medium px-4">
                     &ldquo;{description}&rdquo;
                   </p>
                 </div>

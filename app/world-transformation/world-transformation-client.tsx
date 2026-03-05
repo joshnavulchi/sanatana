@@ -62,15 +62,15 @@ export default function WorldTransformationContent() {
               </div>
 
               {pageContent.meta?.description && (
-                <p className="text-md  leading-relaxed mb-4">
+                <p className="text-lg  leading-relaxed mb-4">
                   {pageContent.meta.description}
                 </p>
               )}
               {pageContent.intro && (
-                <p className="text-md md:text-md md:text-md text-gray-600 leading-relaxed">{pageContent.intro}</p>
+                <p className="text-md text-gray-600 leading-relaxed">{pageContent.intro}</p>
               )}
               {pageContent.description && (
-                <p className="text-md md:text-md md:text-md text-gray-600 leading-relaxed">{pageContent.description}</p>
+                <p className="text-md text-gray-600 leading-relaxed">{pageContent.description}</p>
               )}
             </div>
           </div>
@@ -101,11 +101,11 @@ export default function WorldTransformationContent() {
                       transition-all duration-300
                       transform hover:-translate-y-1
                     ">
-                      <h5 className="text-md font-bold text-gray-900 mb-3 flex items-center gap-2">
-                        <span className="text-md md:text-md">📍</span>
+                      <h5 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+                        <span className="text-md">📍</span>
                         {factor.title}
                       </h5>
-                      <p className="text-md md:text-md  leading-relaxed">{factor.explanation}</p>
+                      <p className="text-md  leading-relaxed">{factor.explanation}</p>
                     </div>
                   ))}
                 </div>
@@ -143,7 +143,7 @@ export default function WorldTransformationContent() {
                       className="w-8 h-6 inline-block rounded-md border-2 border-white shadow-md"
                       style={{ background: ct.color || '#999' }}
                     />
-                    <span className="text-md md:text-md font-medium ">{ct.label}</span>
+                    <span className="text-md font-medium ">{ct.label}</span>
                   </div>
                 ))}
               </div>
@@ -160,7 +160,7 @@ export default function WorldTransformationContent() {
                   </div>
                   <div>
                     <h3 className="text-2xl md:text-3xl font-bold text-gray-900">Historical Decades</h3>
-                    <p className="text-md md:text-md text-gray-600">{pageContent.decades.length} periods of transformation</p>
+                    <p className="text-md text-gray-600">{pageContent.decades.length} periods of transformation</p>
                   </div>
                 </div>
               </div>
@@ -177,17 +177,17 @@ export default function WorldTransformationContent() {
                     {/* Decade card */}
                     <div className="md:ml-20 bg-white  border-2 border-blue-100  hover:border-blue-300  rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group">
                       <div className="flex items-start justify-between gap-4 mb-4">
-                        <h4 className="text-md md:text-md font-bold text-gray-900  group-hover:text-blue-600  transition-colors">
+                        <h4 className="text-md font-bold text-gray-900  group-hover:text-blue-600  transition-colors">
                           {d.decade ?? d.label ?? d.title ?? `Decade ${idx + 1}`}
                         </h4>
-                        <span className="flex-shrink-0 px-3 py-1 bg-gradient-to-r from-blue-100 to-indigo-100   text-blue-700  text-md md:text-md font-semibold rounded-full">
+                        <span className="flex-shrink-0 px-3 py-1 bg-gradient-to-r from-blue-100 to-indigo-100   text-blue-700  text-md font-semibold rounded-full">
                           #{idx + 1}
                         </span>
                       </div>
 
                       {d.theme && (
                         <p className="text-gray-600  italic mb-3 flex items-start gap-2">
-                          <span className="text-md">💭</span>
+                          <span className="text-lg">💭</span>
                           <span className="flex-1">{d.theme}</span>
                         </p>
                       )}
@@ -198,13 +198,13 @@ export default function WorldTransformationContent() {
 
                       {d.whatChanged && Array.isArray(d.whatChanged) && d.whatChanged.length > 0 && (
                         <div className="mb-4">
-                          <h5 className="text-md md:text-md font-bold text-gray-900  mb-2 flex items-center gap-2">
+                          <h5 className="text-md font-bold text-gray-900  mb-2 flex items-center gap-2">
                             <span>🔄</span>
                             What Changed:
                           </h5>
                           <ul className="space-y-2">
                             {d.whatChanged.map((w: string, i: number) => (
-                              <li key={i} className="flex items-start gap-2 text-md md:text-md  ">
+                              <li key={i} className="flex items-start gap-2 text-md  ">
                                 <span className="text-blue-500 mt-1">•</span>
                                 <span className="flex-1">{w}</span>
                               </li>
@@ -215,13 +215,13 @@ export default function WorldTransformationContent() {
 
                       {d.why && Array.isArray(d.why) && d.why.length > 0 && (
                         <div className="mb-4 pt-4 border-t border-gray-200 ">
-                          <h5 className="text-md md:text-md font-bold text-gray-900  mb-2 flex items-center gap-2">
+                          <h5 className="text-md font-bold text-gray-900  mb-2 flex items-center gap-2">
                             <span>❓</span>
                             Why:
                           </h5>
                           <ul className="space-y-2">
                             {d.why.map((w: string, i: number) => (
-                              <li key={i} className="flex items-start gap-2 text-md md:text-md  ">
+                              <li key={i} className="flex items-start gap-2 text-md  ">
                                 <span className="text-indigo-500 mt-1">•</span>
                                 <span className="flex-1">{w}</span>
                               </li>
@@ -239,7 +239,7 @@ export default function WorldTransformationContent() {
                               onChange={() => setSelectedDecade(selectedDecade === idx ? null : idx)}
                               className="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
                             />
-                            <span className="text-md md:text-md font-medium   group-hover/checkbox:text-blue-600  transition-colors">
+                            <span className="text-md font-medium   group-hover/checkbox:text-blue-600  transition-colors">
                               {selectedDecade === idx ? '✓ Shown on map' : '🗺️ Show on map'}
                             </span>
                           </label>

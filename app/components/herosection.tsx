@@ -130,8 +130,8 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
                 <div className="text-center space-y-6">
                   <div className="text-6xl text-amber-300/80  animate-pulse">ॐ</div>
                   <div className="h-px w-full bg-gradient-to-r from-transparent via-amber-400 to-transparent" />
-                  <p className="text-white/90 md:text-md  italic">सत्यमेव जयते</p>
-                  <p className="text-amber-200 text-md">Truth Alone Triumphs</p>
+                  <p className="text-white/90 md:text-lg  italic">सत्यमेव जयते</p>
+                  <p className="text-amber-200 text-lg">Truth Alone Triumphs</p>
                 </div>
               </div>
             </div>
@@ -163,14 +163,14 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
                 {hero?.subheading || 'Eternal Wisdom'}
               </h4>
               {/* Description */}
-              <p className="text-md text-gray-100 drop-shadow-lg [text-shadow:_1px_1px_3px_rgb(0_0_0_/_70%)] mt-6">
+              <p className="text-lg text-gray-100 drop-shadow-lg [text-shadow:_1px_1px_3px_rgb(0_0_0_/_70%)] mt-6">
                 {hero?.description || 'Discover the timeless teachings and sacred wisdom of ancient India'}
               </p>
               {/* CTA Buttons */}
               <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 mt-6">
                 <Link href={hero?.primarycta?.link ? `/${hero.primarycta.link}` : '/scriptures'}
                   className="group relative md:inline-flex px-8 py-3 bg-gradient-to-r from-amber-500 to-orange-600
-                    hover:from-amber-600 hover:to-orange-700 text-white text-md rounded-full shadow-xl font-light hover:shadow-2xl
+                    hover:from-amber-600 hover:to-orange-700 text-white text-lg rounded-full shadow-xl font-light hover:shadow-2xl
                     transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden">
                   <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
                   <span className="relative flex items-center justify-center gap-2">
@@ -185,7 +185,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
                   href={hero?.secondarycta?.link ? `/${hero.secondarycta.link}` : '/sanatanadharma'}
                   className="group md:inline-flex px-8 py-3 bg-white/10 backdrop-blur-md
                     hover:bg-white/20 border-2 border-white/50 hover:border-white
-                    text-white text-md font-light rounded-full shadow-lg hover:shadow-xl
+                    text-white text-lg font-light rounded-full shadow-lg hover:shadow-xl
                     transition-all duration-300 transform hover:-translate-y-1 no-underline">
                   <span className="flex items-center justify-center gap-2">
                     {hero?.secondarycta?.label || 'Start Learning'}
@@ -199,7 +199,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
               {/* Scroll Indicator */}
               <div className="flex justify-center gap-2 mt-6">
                 <LazyImage src="/images/svg/arrow.svg" alt="Scroll Down" width={16} height={16} className="inline-block text-amber-200 animate-bounce" />
-                <span className="text-md drop-shadow-md text-amber-200">{hero?.scroll || 'Scroll to explore'}</span>
+                <span className="text-lg drop-shadow-md text-amber-200">{hero?.scroll || 'Scroll to explore'}</span>
               </div>
             </div>
           </div>
