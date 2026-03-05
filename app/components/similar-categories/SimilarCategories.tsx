@@ -92,28 +92,47 @@ export default function SimilarCategories({
   }, [locale, maxItems]);
   if (categories.length === 0) {
     return (
-      <aside className="p-4 bg-white/80 border-l-4 border-emerald-500 shadow-lg rounded-xl">
-        <h5 className="text-lg font-bold text-emerald-700 mb-2">{title}</h5>
-        <p className="text-xl md:text-lg text-gray-600">Loading categories or no categories available...</p>
+      <aside className="relative overflow-hidden rounded-2xl border-2 border-amber-300 bg-gradient-to-b from-amber-50 via-orange-50 to-stone-50 p-5 shadow-[0_10px_30px_rgba(120,53,15,0.12)]">
+        <div className="pointer-events-none absolute inset-x-5 top-4 h-px bg-gradient-to-r from-transparent via-amber-500/70 to-transparent" />
+        <div className="pointer-events-none absolute inset-x-5 bottom-4 h-px bg-gradient-to-r from-transparent via-amber-500/70 to-transparent" />
+        <h5 className="mb-2 text-md font-bold tracking-wide text-amber-900">{title}</h5>
+        <p className="text-base leading-relaxed text-amber-800/90">
+          Loading categories or no categories available...
+        </p>
       </aside>
     );
   }
   return (
-    <aside className="p-4 bg-white/90 border-l-4 border-emerald-500 shadow-lg rounded-xl">
-      <h5 className="text-xl md:text-lg font-bold text-emerald-700 mb-4 tracking-wide">{title}</h5>
+    <aside className="relative overflow-hidden rounded-2xl border-2 border-amber-300 bg-gradient-to-b from-amber-50 via-orange-50 to-stone-50 p-5 shadow-[0_10px_30px_rgba(120,53,15,0.12)]">
+      <div className="pointer-events-none absolute inset-x-5 top-4 h-px bg-gradient-to-r from-transparent via-amber-500/70 to-transparent" />
+      <div className="pointer-events-none absolute inset-x-5 bottom-4 h-px bg-gradient-to-r from-transparent via-amber-500/70 to-transparent" />
+      <div className="mb-5 rounded-xl border border-amber-200 bg-amber-100/70 px-4 py-3">
+        <h5 className="text-md font-bold tracking-wide text-amber-900">{title}</h5>
+        <p className="mt-1 text-sm text-amber-800">Sacred pathways to explore related wisdom.</p>
+      </div>
       <div className="space-y-4">
         {categories.map((category) => {
           return (
-            <div key={category.key} className="p-3 rounded-lg bg-emerald-50/80 border border-emerald-100 shadow-sm">
-              <h6 className="text-lg mb-2 text-emerald-800 font-semibold">
-                <Link href={normalizeHref(`/${category.key}`)} className="hover:underline hover:text-emerald-600 transition-colors">
+            <div
+              key={category.key}
+              className="rounded-xl border border-orange-200 bg-white/80 p-4 shadow-[0_6px_16px_rgba(120,53,15,0.08)]"
+            >
+              <h6 className="mb-3 border-b border-amber-200 pb-2 text-md font-semibold text-amber-900">
+                <Link
+                  href={normalizeHref(`/${category.key}`)}
+                  className="decoration-amber-500 underline-offset-4 transition-colors hover:text-orange-700 hover:underline"
+                >
                   {category.title}
                 </Link>
               </h6>
               <ul className="space-y-2">
                 {category.links.map((link) => (
-                  <li key={link.key} className="text-lg">
-                    <Link href={normalizeHref(link.href)} className="text-emerald-700 hover:text-emerald-900 hover:underline transition-colors">
+                  <li key={link.key} className="text-base leading-relaxed">
+                    <Link
+                      href={normalizeHref(link.href)}
+                      className="inline-flex items-start gap-2 text-amber-800 transition-colors hover:text-orange-700"
+                    >
+                      <span aria-hidden="true" className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-amber-500" />
                       {link.label}
                     </Link>
                   </li>

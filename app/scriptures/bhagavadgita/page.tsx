@@ -91,7 +91,7 @@ export default function Page({ searchParams }: any) {
                 <div className="absolute top-1/2 left-0 w-full h-0.5 bg-gradient-to-r from-amber-300 via-amber-500 to-amber-300"></div>
               </h3>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
               {page.parts.length === 0 && (
                 <div className="col-span-full text-center text-gray-500 py-12">No content available.</div>
               )}
@@ -130,22 +130,22 @@ export default function Page({ searchParams }: any) {
                             {i + 1}
                           </div>
                           <div className="flex-1">
-                            <h4 className={`text-xl md:text-lg ${color.text} group-hover:${hoverText} transition-colors`}>{part.title}</h4>
+                            <h4 className={`text-md md:text-md ${color.text} group-hover:${hoverText} transition-colors`}>{part.title}</h4>
                           </div>
                         </div>
                         {(() => {
                           const summary = getPartSummary(part);
                           return summary ? (
-                            <p className="text-lg text-gray-700 leading-relaxed overflow-hidden line-clamp-6">{summary}</p>
+                            <p className="text-md text-gray-700 leading-relaxed overflow-hidden line-clamp-6">{summary}</p>
                           ) : null;
                         })()}
                         <div className={`relative z-10 pt-4 flex items-center gap-2 ${color.text} hover:gap-3 transition-all duration-300`}>
                           <Link
                             href={`/scriptures/bhagavadgita/part/bhagavadgita_part_${i + 1}`}
-                            className={`inline-flex text-xl md:text-lg items-center gap-2 ${color.accent} text-white px-3 py-1 rounded-md shadow-md hover:shadow-xl transition-all duration-300`}
+                            className={`inline-flex text-md md:text-md items-center gap-2 ${color.accent} text-white px-3 py-1 rounded-md shadow-md hover:shadow-xl transition-all duration-300`}
                           >
                             <span>Read Part</span>
-                            <span className="text-xl md:text-lg">→</span>
+                            <span className="text-md md:text-md">→</span>
                           </Link>
                         </div>
                       </div>

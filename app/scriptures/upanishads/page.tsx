@@ -41,7 +41,7 @@ export default function Page({ searchParams }: any) {
         <header className="rounded-lg overflow-hidden mb-6 border p-6 bg-gradient-to-r from-indigo-50 via-teal-50 to-emerald-50">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl md:text-4xl font-extrabold text-indigo-800">{page.title}</h1>
-            <p className="mt-3 text-lg text-indigo-700">{page.purpose}</p>
+            <p className="mt-3 text-md text-indigo-700">{page.purpose}</p>
           </div>
         </header>
 
@@ -49,7 +49,7 @@ export default function Page({ searchParams }: any) {
           <main className="lg:col-span-3 space-y-6">
             {(page.list || []).map((group: any, gi: number) => (
               <section key={gi} className="rounded-lg p-6 bg-white shadow-sm border-t-4 border-indigo-200">
-                {group.category ? <h3 className="text-xl font-semibold mb-3 text-indigo-800">{group.category}</h3> : null}
+                {group.category ? <h3 className="text-md font-semibold mb-3 text-indigo-800">{group.category}</h3> : null}
                 {group.description ? <p className="mb-3 text-slate-700">{group.description}</p> : null}
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 list-none p-0">
                   {(group.list || []).map((it: any, idx: number) => (
@@ -59,7 +59,7 @@ export default function Page({ searchParams }: any) {
                           <h4 className="font-semibold text-slate-800">{it.name}</h4>
                           <p className="text-sm text-slate-600">{it.summary}</p>
                         </div>
-                        <div className="text-xs text-amber-700 ml-4 px-2 py-1 bg-amber-100 rounded-full">{it.veda}</div>
+                        <div className="text-base text-amber-700 ml-4 px-2 py-1 bg-amber-100 rounded-full">{it.veda}</div>
                       </div>
                     </li>
                   ))}

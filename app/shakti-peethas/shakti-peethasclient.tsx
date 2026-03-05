@@ -56,7 +56,7 @@ export default function ShaktiPeethasClient() {
               <div className="h-px w-12 bg-gradient-to-l from-transparent to-rose-500" />
             </div>
 
-            <p className="text-lg leading-relaxed">{data.intro}</p>
+            <p className="text-md leading-relaxed">{data.intro}</p>
           </div>
         </div>
 
@@ -76,7 +76,7 @@ export default function ShaktiPeethasClient() {
                   <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-rose-100 to-pink-100 rounded-xl flex items-center justify-center text-2xl ring-1 ring-rose-50/40 group-hover:scale-105 group-hover:rotate-3 transition-transform duration-300">{icon}</div>
                   <Tag className="flex-1 text-2xl md:text-3xl font-bold text-gray-900 group-hover:text-rose-600 transition-colors duration-300">{section.name || section.title}</Tag>
                 </div>
-                <p className="text-xl md:text-lg md:text-md leading-relaxed ">{section.location || section.body_part || section.shakti || ''}</p>
+                <p className="text-md md:text-md md:text-md leading-relaxed ">{section.location || section.body_part || section.shakti || ''}</p>
                 <ul className="mt-3  space-y-2">
                   {section.bhairava && <li><strong>Bhairava:</strong> {section.bhairava}</li>}
                   {section.body_part && <li><strong>Body part:</strong> {section.body_part}</li>}
@@ -97,7 +97,7 @@ export default function ShaktiPeethasClient() {
             <div className="flex items-start gap-4">
               <span className="text-3xl">⚠️</span>
               <div className="flex-1">
-                <h4 className="text-xl md:text-lg font-bold text-gray-900 mb-2">Disclaimer</h4>
+                <h4 className="text-md md:text-md font-bold text-gray-900 mb-2">Disclaimer</h4>
                 <p className="leading-relaxed">{data.disclaimer}</p>
               </div>
             </div>

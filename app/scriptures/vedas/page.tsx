@@ -55,17 +55,17 @@ export default function Page({ searchParams }: any) {
         <header className="rounded-lg overflow-hidden mb-6 border p-6 bg-gradient-to-r from-amber-50 via-amber-100 to-yellow-50">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl md:text-4xl font-extrabold text-amber-800">{page.title}</h1>
-            <p className="mt-3 text-lg text-amber-700">{page.intro}</p>
+            <p className="mt-3 text-md text-amber-700">{page.intro}</p>
             <div className="mt-4 flex flex-wrap gap-2 items-center">
-              {page.language ? <span className="text-xs px-2 py-1 bg-amber-100 text-amber-800 rounded-full">{page.language}</span> : null}
+              {page.language ? <span className="text-base px-2 py-1 bg-amber-100 text-amber-800 rounded-full">{page.language}</span> : null}
               {(page.themes || []).slice(0,4).map((th: string, i: number) => (
-                <span key={i} className="text-xs px-2 py-1 bg-indigo-100 text-indigo-800 rounded-full">{th}</span>
+                <span key={i} className="text-base px-2 py-1 bg-indigo-100 text-indigo-800 rounded-full">{th}</span>
               ))}
             </div>
           </div>
         </header>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           <div className="md:col-span-2">
             <section className="mb-6 border-l-4 border-amber-400 rounded-lg p-6 bg-amber-50">
               <h3 className="text-2xl font-semibold mb-3 text-amber-800">Purpose</h3>
@@ -82,9 +82,9 @@ export default function Page({ searchParams }: any) {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {(page.structure || []).map((v: any, idx: number) => (
                   <article key={idx} className="border-l-4 border-emerald-400 rounded-lg p-4 bg-emerald-50">
-                    <h3 className="text-lg font-bold mb-2 text-emerald-800">{v.name || v.Name}</h3>
+                    <h3 className="text-md font-bold mb-2 text-emerald-800">{v.name || v.Name}</h3>
                     <p className="text-sm mb-2 text-emerald-700">{v.content || v.Content}</p>
-                    {v.features || v.Features ? <p className="text-xs text-emerald-600">{v.features || v.Features}</p> : null}
+                    {v.features || v.Features ? <p className="text-base text-emerald-600">{v.features || v.Features}</p> : null}
                   </article>
                 ))}
               </div>
@@ -102,7 +102,7 @@ export default function Page({ searchParams }: any) {
                           <strong className="text-slate-800">{u.name}</strong>
                           {u.summary ? <p className="text-sm text-slate-600">{u.summary}</p> : null}
                         </div>
-                        <span className="text-xs text-indigo-600">Upanishad</span>
+                        <span className="text-base text-indigo-600">Upanishad</span>
                       </div>
                     </li>
                   ))}
@@ -147,7 +147,7 @@ export default function Page({ searchParams }: any) {
               <h4 className="font-semibold mb-2 text-indigo-800">Themes</h4>
               <div className="flex flex-wrap gap-2">
                 {(page.themes || []).map((t: string, i: number) => (
-                  <span key={i} className="text-xs px-2 py-1 bg-indigo-100 text-indigo-800 rounded-full">{t}</span>
+                  <span key={i} className="text-base px-2 py-1 bg-indigo-100 text-indigo-800 rounded-full">{t}</span>
                 ))}
               </div>
             </div>
@@ -181,21 +181,21 @@ export default function Page({ searchParams }: any) {
         </div>
         {(page.structure || []).map((item: any, i: number) => (
           <div key={i} className="mb-4 p-4 bg-white border rounded-lg shadow-sm">
-            <p className="text-lg font-semibold"><b>Name: </b>{item.name || item.Name}</p>
+            <p className="text-md font-semibold"><b>Name: </b>{item.name || item.Name}</p>
             <p className="text-sm text-slate-700"><b>Content: </b>{item.content || item.Content}</p>
             <p className="text-sm text-slate-600"><b>Features: </b>{item.features || item.Features}</p>
           </div>
         ))}
         {Array.isArray(page.timeline) && page.timeline.length > 0 ? (
           <section className="mt-6">
-            <h4 className="text-xl font-semibold mb-4">Timeline</h4>
+            <h4 className="text-md font-semibold mb-4">Timeline</h4>
             <ol className="border-l-2 border-slate-200 pl-4">
               {page.timeline.map((ev: any, i: number) => (
                 <li key={i} className="mb-4 relative">
                   <span className="absolute -left-6 top-0 w-3 h-3 bg-amber-400 rounded-full"></span>
                   <div className="bg-white p-3 rounded-md border shadow-sm">
                     <div className="text-sm text-slate-800 font-semibold">{ev.title || ev.name || ev.event}</div>
-                    {ev.period ? <div className="text-xs text-slate-600">{ev.period}</div> : null}
+                    {ev.period ? <div className="text-base text-slate-600">{ev.period}</div> : null}
                     {ev.description ? <div className="text-sm text-slate-700 mt-1">{ev.description}</div> : null}
                   </div>
                 </li>

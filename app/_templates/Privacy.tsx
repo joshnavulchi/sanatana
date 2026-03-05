@@ -23,7 +23,7 @@ const PrivacyTemplate: React.FC<PrivacyTemplateProps> = ({ data }) => {
           <div className="absolute inset-0 blur-2xl opacity-20 pointer-events-none" style={{background: 'radial-gradient(circle at 50% 50%, #64748b 0%, transparent 70%)'}} />
           <h1 className="relative z-10 text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-gray-700 via-gray-500 to-gray-400 dark:from-gray-200 dark:via-gray-400 dark:to-gray-500 drop-shadow-xl mb-4 tracking-tight">{data.title}</h1>
           {data.lastUpdated && (
-            <p className="relative z-10 text-xs text-gray-500 dark:text-gray-400 mb-6">{t('privacy.last_updated')}: {data.lastUpdated}</p>
+            <p className="relative z-10 text-base text-gray-500 dark:text-gray-400 mb-6">{t('privacy.last_updated')}: {data.lastUpdated}</p>
           )}
         </div>
         <div className="space-y-10">

@@ -208,7 +208,7 @@ export default function CookieConsent() {
 
                 {/* Text content */}
                 <div className="flex-1">
-                  <h3 className="text-lg font-bold text-gray-900 mb-2 flex items-center gap-2">
+                  <h3 className="text-md font-bold text-gray-900 mb-2 flex items-center gap-2">
                     <span className="md:hidden text-2xl">🍪</span>
                     Cookie Settings
                   </h3>
