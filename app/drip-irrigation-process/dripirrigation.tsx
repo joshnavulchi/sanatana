@@ -178,17 +178,17 @@ export default function DropIrrigationClient() {
               className="rounded-xl border border-slate-200 bg-slate-50 p-4"
             >
               <div className="flex items-start gap-3">
-                <span className="mt-0.5 text-md">{step.icon ?? '•'}</span>
+                <span className="mt-0.5 text-lg">{step.icon ?? '•'}</span>
                 <div>
                   <h3 className="font-semibold text-slate-900">{step.title ?? step.step}</h3>
                   {Array.isArray(step.details) ? (
-                    <ul className="mt-2 list-disc pl-5 text-md text-slate-700">
+                    <ul className="mt-2 list-disc pl-5 text-lg text-slate-700">
                       {step.details.map((detail, detailIndex) => (
                         <li key={`${section.id}-step-${index}-detail-${detailIndex}`}>{detail}</li>
                       ))}
                     </ul>
                   ) : (
-                    <p className="mt-1 text-md text-slate-700">{step.details}</p>
+                    <p className="mt-1 text-lg text-slate-700">{step.details}</p>
                   )}
                 </div>
               </div>
@@ -205,11 +205,11 @@ export default function DropIrrigationClient() {
               className="rounded-xl border border-slate-200 bg-white p-4"
             >
               {item.name ? <h3 className="font-semibold text-slate-900">{item.name}</h3> : null}
-              {item.function ? <p className="mt-1 text-md text-slate-700">{item.function}</p> : null}
+              {item.function ? <p className="mt-1 text-lg text-slate-700">{item.function}</p> : null}
               {item.sizingNotes ? <p className="mt-2 text-base text-slate-600">{item.sizingNotes}</p> : null}
-              {item.symptom ? <p className="mt-1 text-md font-medium text-slate-900">{item.symptom}</p> : null}
-              {item.q ? <p className="mt-1 text-md font-medium text-slate-900">Q. {item.q}</p> : null}
-              {item.a ? <p className="mt-1 text-md text-slate-700">{item.a}</p> : null}
+              {item.symptom ? <p className="mt-1 text-lg font-medium text-slate-900">{item.symptom}</p> : null}
+              {item.q ? <p className="mt-1 text-lg font-medium text-slate-900">Q. {item.q}</p> : null}
+              {item.a ? <p className="mt-1 text-lg text-slate-700">{item.a}</p> : null}
               {item.likelyCauses?.length ? (
                 <p className="mt-2 text-base text-slate-600">
                   Likely causes: {item.likelyCauses.join(', ')}
@@ -232,7 +232,7 @@ export default function DropIrrigationClient() {
             >
               <h3 className="font-semibold text-slate-900">{formula.name}</h3>
               {formula.expr ? (
-                <div className="mt-2 overflow-x-auto rounded-lg bg-slate-900 px-3 py-2 text-md text-emerald-300">
+                <div className="mt-2 overflow-x-auto rounded-lg bg-slate-900 px-3 py-2 text-lg text-emerald-300">
                   {formula.expr}
                 </div>
               ) : null}
@@ -249,21 +249,21 @@ export default function DropIrrigationClient() {
         <div className="rounded-xl border border-emerald-200 bg-emerald-50 p-4">
           <h3 className="font-semibold text-emerald-900">{section.workedExample.title}</h3>
           {section.workedExample.given?.length ? (
-            <ul className="mt-2 list-disc pl-5 text-md text-emerald-900">
+            <ul className="mt-2 list-disc pl-5 text-lg text-emerald-900">
               {section.workedExample.given.map((entry, index) => (
                 <li key={`${section.id}-we-g-${index}`}>{entry}</li>
               ))}
             </ul>
           ) : null}
           {section.workedExample.calc?.length ? (
-            <ol className="mt-2 list-decimal pl-5 text-md text-emerald-900">
+            <ol className="mt-2 list-decimal pl-5 text-lg text-emerald-900">
               {section.workedExample.calc.map((entry, index) => (
                 <li key={`${section.id}-we-c-${index}`}>{entry}</li>
               ))}
             </ol>
           ) : null}
           {section.workedExample.result ? (
-            <p className="mt-2 text-md font-medium text-emerald-900">{section.workedExample.result}</p>
+            <p className="mt-2 text-lg font-medium text-emerald-900">{section.workedExample.result}</p>
           ) : null}
         </div>
       ) : null}
@@ -276,7 +276,7 @@ export default function DropIrrigationClient() {
               className="rounded-xl border border-slate-200 bg-white p-4"
             >
               <h3 className="font-semibold text-slate-900">{pattern.name}</h3>
-              <p className="mt-1 text-md text-slate-700">{pattern.description}</p>
+              <p className="mt-1 text-lg text-slate-700">{pattern.description}</p>
               {pattern.pros?.length ? (
                 <p className="mt-2 text-base text-green-700">Pros: {pattern.pros.join(', ')}</p>
               ) : null}
@@ -290,8 +290,8 @@ export default function DropIrrigationClient() {
 
       {section.method?.length ? (
         <div>
-          <h3 className="text-md font-semibold uppercase tracking-wide text-slate-900">Method</h3>
-          <ol className="mt-2 list-decimal space-y-1 pl-5 text-md text-slate-700">
+          <h3 className="text-lg font-semibold uppercase tracking-wide text-slate-900">Method</h3>
+          <ol className="mt-2 list-decimal space-y-1 pl-5 text-lg text-slate-700">
             {section.method.map((entry, index) => (
               <li key={`${section.id}-m-${index}`}>{entry}</li>
             ))}
@@ -301,7 +301,7 @@ export default function DropIrrigationClient() {
 
       {section.typicalKc?.length ? (
         <div className="overflow-x-auto rounded-xl border border-slate-200">
-          <table className="min-w-full divide-y divide-slate-200 text-md">
+          <table className="min-w-full divide-y divide-slate-200 text-lg">
             <thead className="bg-slate-50">
               <tr>
                 <th className="px-3 py-2 text-left font-semibold text-slate-700">Crop</th>
@@ -321,13 +321,13 @@ export default function DropIrrigationClient() {
       ) : null}
 
       {section.applicationRateNote ? (
-        <p className="rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-md text-amber-900">
+        <p className="rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-lg text-amber-900">
           {section.applicationRateNote}
         </p>
       ) : null}
 
       {section.sensors?.length ? (
-        <ul className="list-disc space-y-1 pl-5 text-md text-slate-700">
+        <ul className="list-disc space-y-1 pl-5 text-lg text-slate-700">
           {section.sensors.map((entry, index) => (
             <li key={`${section.id}-sensor-${index}`}>{entry}</li>
           ))}
@@ -343,10 +343,10 @@ export default function DropIrrigationClient() {
         <Fragment key={`${section.id}-${group.key}`}>
           {group.items?.length ? (
             <div>
-              <h3 className="text-md font-semibold uppercase tracking-wide text-slate-900">
+              <h3 className="text-lg font-semibold uppercase tracking-wide text-slate-900">
                 {group.key}
               </h3>
-              <ul className="mt-2 list-disc space-y-1 pl-5 text-md text-slate-700">
+              <ul className="mt-2 list-disc space-y-1 pl-5 text-lg text-slate-700">
                 {group.items.map((entry, index) => (
                   <li key={`${section.id}-${group.key}-${index}`}>{entry}</li>
                 ))}
@@ -361,7 +361,7 @@ export default function DropIrrigationClient() {
           {section.checklist.map((entry, index) => (
             <li
               key={`${section.id}-check-${index}`}
-              className="rounded-xl border border-slate-200 bg-white px-4 py-3 text-md"
+              className="rounded-xl border border-slate-200 bg-white px-4 py-3 text-lg"
             >
               {entry}
             </li>
@@ -371,7 +371,7 @@ export default function DropIrrigationClient() {
 
       {section.columns?.length && section.rows?.length ? (
         <div className="overflow-x-auto rounded-xl border border-slate-200">
-          <table className="min-w-full divide-y divide-slate-200 text-md">
+          <table className="min-w-full divide-y divide-slate-200 text-lg">
             <thead className="bg-slate-50">
               <tr>
                 {section.columns.map((column) => (
@@ -410,7 +410,7 @@ export default function DropIrrigationClient() {
               className="rounded-xl border border-slate-200 bg-white p-4"
             >
               <h3 className="font-semibold text-slate-900">{term.term}</h3>
-              <p className="mt-1 text-md text-slate-700">{term.def}</p>
+              <p className="mt-1 text-lg text-slate-700">{term.def}</p>
             </article>
           ))}
         </div>
@@ -439,12 +439,12 @@ export default function DropIrrigationClient() {
             {dripIrrigation.hero?.title || dripIrrigation.title}
           </h3>
           {dripIrrigation.hero?.subtitle ? (
-            <p className="mt-3 max-w-3xl text-base text-slate-700 md:text-md">
+            <p className="mt-3 max-w-3xl text-base text-slate-700 md:text-lg">
               {dripIrrigation.hero.subtitle}
             </p>
           ) : null}
           {dripIrrigation.description ? (
-            <p className="mt-4 max-w-4xl text-md leading-7 text-slate-600 md:text-base">
+            <p className="mt-4 max-w-4xl text-lg leading-7 text-slate-600 md:text-base">
               {dripIrrigation.description}
             </p>
           ) : null}
@@ -458,7 +458,7 @@ export default function DropIrrigationClient() {
               className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm"
               aria-label={dripIrrigation.toc?.title || 'On this page'}
             >
-              <h4 className="mb-3 text-md font-semibold uppercase tracking-wide text-slate-900">
+              <h4 className="mb-3 text-lg font-semibold uppercase tracking-wide text-slate-900">
                 {dripIrrigation.toc?.title || 'On this page'}
               </h4>
               <ul className="space-y-1">
@@ -466,7 +466,7 @@ export default function DropIrrigationClient() {
                   <li key={item.id}>
                     <a
                       href={`#${item.id}`}
-                      className="block rounded-lg px-2 py-1.5 text-md text-slate-700 transition hover:bg-emerald-50 hover:text-emerald-800"
+                      className="block rounded-lg px-2 py-1.5 text-lg text-slate-700 transition hover:bg-emerald-50 hover:text-emerald-800"
                     >
                       {item.label}
                     </a>
@@ -512,7 +512,7 @@ export default function DropIrrigationClient() {
               ) : null}
               <button
                 type="button"
-                className="mt-4 items-center rounded-lg bg-white px-4 py-2 text-md font-semibold text-emerald-700 shadow-sm transition hover:bg-emerald-50 hidden"
+                className="mt-4 items-center rounded-lg bg-white px-4 py-2 text-lg font-semibold text-emerald-700 shadow-sm transition hover:bg-emerald-50 hidden"
               >
                 {dripIrrigation.cta.button?.label || 'Get Started'}
               </button>

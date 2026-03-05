@@ -51,7 +51,7 @@ export default function BhishmaClient() {
               {typeof item === 'object' ? Object.entries(item).map(([k, v]) => (
                 <div key={k} className="mb-2">
                   <div className="font-semibold">{fmtLabel(k)}</div>
-                  <div className="text-md md:text-md text-gray-700">{renderValue(v, k)}</div>
+                  <div className="text-md text-gray-700">{renderValue(v, k)}</div>
                 </div>
               )) : <div>{String(item)}</div>}
             </div>
@@ -64,8 +64,8 @@ export default function BhishmaClient() {
         <div className="space-y-3">
           {Object.entries(value).map(([k, v]) => (
             <div key={k}>
-              <div className="text-md font-semibold mb-1">{fmtLabel(k)}</div>
-              <div className="text-md md:text-md text-gray-700">{renderValue(v, k)}</div>
+              <div className="text-lg font-semibold mb-1">{fmtLabel(k)}</div>
+              <div className="text-md text-gray-700">{renderValue(v, k)}</div>
             </div>
           ))}
         </div>
@@ -89,7 +89,7 @@ export default function BhishmaClient() {
             <span className="text-3xl animate-pulse">📖</span>
             <div className="h-px w-12 bg-gradient-to-l from-transparent to-emerald-500" />
           </div>
-          {data.intro && <p className="text-md leading-relaxed">{data.intro}</p>}
+          {data.intro && <p className="text-lg leading-relaxed">{data.intro}</p>}
         </div>
       </div>
       <div className="prose max-w-none text-gray-900">

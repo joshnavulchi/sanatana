@@ -50,7 +50,7 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
       <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" onClick={onClose} aria-label="Close cookie preferences modal" />
       <div className="relative bg-gradient-to-br from-white via-blue-50 to-blue-100 border-2 border-blue-400 shadow-2xl rounded-2xl max-w-lg md:max-w-4xl w-full mx-4 p-6 flex flex-col gap-4 animate-fadeInUp">
         <div className="flex items-center justify-between mb-2">
-          <span className="text-md font-bold text-blue-700">Cookie Preferences</span>
+          <span className="text-lg font-bold text-blue-700">Cookie Preferences</span>
           <button className="cursor-pointer text-blue-500 hover:text-blue-700 text-2xl font-bold px-2 py-1 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400" aria-label="close" onClick={onClose}>✕</button>
         </div>
         <div className="flex flex-col md:flex-row gap-4">
@@ -70,8 +70,8 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
           </nav>
           <div className="md:w-2/3 w-full">
             <div className="mb-2">
-              <span className="text-md font-semibold text-blue-700">{TABS.find(t => t.id === active)?.title}</span>
-              <div className="text-md md:text-sm text-gray-500">{TABS.find(t => t.id === active)?.description}</div>
+              <span className="text-lg font-semibold text-blue-700">{TABS.find(t => t.id === active)?.title}</span>
+              <div className="text-lg md:text-sm text-gray-500">{TABS.find(t => t.id === active)?.description}</div>
             </div>
             {active === 'your-privacy' && (
               <div className="bg-blue-50 rounded-lg p-3 text-sm ">
@@ -79,7 +79,7 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
               </div>
             )}
             {active === 'strictly-necessary' && (
-              <div className="bg-gray-100 rounded-lg p-3 text-md flex items-center gap-2">
+              <div className="bg-gray-100 rounded-lg p-3 text-lg flex items-center gap-2">
                 <input type="checkbox" checked disabled className="accent-blue-500" />
                 <span>Strictly necessary (always enabled)</span>
               </div>
@@ -96,7 +96,7 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
               </div>
             )}
             {active === 'targeting' && (
-              <div className="mt-2 text-md">
+              <div className="mt-2 text-lg">
                 Third-party cookies for analytics and advertising may be set when you enable targeting/performance features. These are controlled by external providers and are only set when you opt in.
               </div>
             )}

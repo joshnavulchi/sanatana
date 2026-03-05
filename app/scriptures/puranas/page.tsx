@@ -41,7 +41,7 @@ export default function PuranasPage({ searchParams }: any) {
         <header className="rounded-lg overflow-hidden mb-6 border p-6 bg-gradient-to-r from-rose-50 via-rose-100 to-pink-50">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl md:text-4xl font-extrabold text-rose-800">{page.title}</h1>
-            <p className="mt-3 text-md text-rose-700">{page.definition}</p>
+            <p className="mt-3 text-lg text-rose-700">{page.definition}</p>
             <div className="mt-3 text-sm text-rose-600">{page.classification}</div>
           </div>
         </header>
@@ -49,13 +49,13 @@ export default function PuranasPage({ searchParams }: any) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <main className="md:col-span-2 space-y-6">
             <section className="p-4 rounded-lg bg-white border-t-4 border-rose-200 shadow-sm">
-              <h3 className="text-md font-semibold text-rose-800">Purpose</h3>
+              <h3 className="text-lg font-semibold text-rose-800">Purpose</h3>
               <p className="text-slate-700 mt-2">{S('puranas.purpose')}</p>
             </section>
 
             {page.major_puranas && page.major_puranas.length > 0 && (
               <section className="p-4 rounded-lg bg-amber-50 border-l-4 border-amber-400">
-                <h4 className="text-md font-semibold mb-3 text-amber-800">Major Puranas</h4>
+                <h4 className="text-lg font-semibold mb-3 text-amber-800">Major Puranas</h4>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   {page.major_puranas.map((c: any, idx: number) => (
                     <article key={idx} className="p-4 bg-white rounded-md border shadow-sm">
@@ -73,7 +73,7 @@ export default function PuranasPage({ searchParams }: any) {
             )}
 
             <section className="mt-6">
-              <h3 className="text-md font-semibold mb-2">Explore Sub Puranas</h3>
+              <h3 className="text-lg font-semibold mb-2">Explore Sub Puranas</h3>
               <ul className="space-y-2">
                 <li><a href="/scriptures/puranas/garuda" className="inline-block text-rose-700 hover:underline bg-rose-50 px-3 py-2 rounded-md">Garuda Purana</a></li>
                 <li><a href="/scriptures/puranas/karma" className="inline-block text-rose-700 hover:underline bg-rose-50 px-3 py-2 rounded-md">Karma Purana</a></li>
