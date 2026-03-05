@@ -318,7 +318,7 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
         <h2 className="text-4xl font-bold bg-gradient-to-r from-amber-400 via-orange-500 to-amber-400 bg-clip-text mb-3">
           🌍 Earth`&apos;`s Continental Timeline 🌏
         </h2>
-        <p className="text-gray-400 text-lg">
+        <p className="text-gray-400 text-md md:text-lg">
           Witness tectonic plates shifting through time - from ancient Pangaea to future supercontinents
         </p>
       </div>
@@ -349,7 +349,7 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
             </span>
-            <span className="text-red-300 text-md font-semibold">High Tectonic Activity</span>
+            <span className="text-red-300 text-base font-semibold">High Tectonic Activity</span>
           </div>
         )}
 
@@ -696,12 +696,12 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
             <h3 className="text-2xl font-bold text-white mb-3 flex items-center gap-3">
               {currentPeriod.name}
               {currentPeriod.tectonicActivity === 'high' && (
-                <span className="px-3 py-1 bg-red-500/20 border border-red-500/50 rounded-full text-red-300 text-md font-semibold">
+                <span className="px-3 py-1 bg-red-500/20 border border-red-500/50 rounded-full text-red-300 text-base font-semibold">
                   🔥 Active Plates
                 </span>
               )}
             </h3>
-            <p className="text-gray-300 leading-relaxed text-lg mb-3">{currentPeriod.description}</p>
+            <p className="text-gray-300 leading-relaxed text-md md:text-lg mb-3">{currentPeriod.description}</p>
             <div className="flex items-center gap-4 flex-wrap">
               <span className="px-4 py-2 bg-amber-500/20 border border-amber-500/50 rounded-full text-amber-400 font-bold">
                 📅 {formatYear(currentPeriod.year)}
@@ -744,7 +744,7 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
             </span>
           </button>
 
-          <div className="text-md text-gray-400">
+          <div className="text-base text-gray-400">
             {show3D ? '🌍 Realistic 3D sphere with depth' : '🗺️ Simple flat projection'}
           </div>
         </div>
@@ -822,7 +822,7 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
                 <div className={`
                   absolute -top-20 left-1/2 -translate-x-1/2
                   px-4 py-2 rounded-lg min-w-max
-                  bg-gray-900 border border-gray-700 text-white text-md
+                  bg-gray-900 border border-gray-700 text-white text-base
                   opacity-0 group-hover:opacity-100
                   transition-all duration-300
                   pointer-events-none
@@ -830,13 +830,13 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
                   shadow-xl
                 `}>
                   <div className="font-bold text-amber-400">{period.name}</div>
-                  <div className="text-gray-300 text-sm mt-1">{formatYear(period.year)}</div>
+                  <div className="text-gray-300 text-xs md:text-base mt-1">{formatYear(period.year)}</div>
                   {/* Arrow */}
                   <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-2 h-2 bg-gray-900 border-r border-b border-gray-700 rotate-45" />
                 </div>
 
                 {/* Period indicator */}
-                <div className="absolute inset-0 flex items-center justify-center text-sm font-bold text-white">
+                <div className="absolute inset-0 flex items-center justify-center text-xs md:text-base font-bold text-white">
                   {index + 1}
                 </div>
 
@@ -852,11 +852,11 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
         {/* Legend with more detail */}
         <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-2xl p-6 border-2 border-amber-400/30 shadow-xl">
           <div className="flex items-start gap-4 mb-4">
-            <div className="w-10 h-10 bg-gradient-to-br from-amber-500 to-orange-600 rounded-lg flex items-center justify-center text-md">
+            <div className="w-10 h-10 bg-gradient-to-br from-amber-500 to-orange-600 rounded-lg flex items-center justify-center text-base">
               📚
             </div>
             <div>
-              <h4 className="text-md font-bold text-white mb-2">About This Timeline</h4>
+              <h4 className="text-base font-bold text-white mb-2">About This Timeline</h4>
               <p className="text-gray-300 leading-relaxed">
                 This visualization shows Earth`&apos;`s continental drift across <span className="text-amber-400 font-semibold">450 million years</span> -
                 from 200 million years in the past through the present day to 250 million years in the future.
@@ -870,7 +870,7 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
                 <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                 <span className="text-green-400 font-semibold">Low Activity</span>
               </div>
-              <p className="text-gray-400 text-md">Stable continental positions with minimal tectonic movement</p>
+              <p className="text-gray-400 text-base">Stable continental positions with minimal tectonic movement</p>
             </div>
 
             <div className="bg-gray-800/50 rounded-xl p-4 border border-gray-700">
@@ -878,7 +878,7 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
                 <div className="w-3 h-3 bg-yellow-500 rounded-full animate-pulse"></div>
                 <span className="text-yellow-400 font-semibold">Moderate Activity</span>
               </div>
-              <p className="text-gray-400 text-md">Continents actively drifting, mountain ranges forming</p>
+              <p className="text-gray-400 text-base">Continents actively drifting, mountain ranges forming</p>
             </div>
 
             <div className="bg-gray-800/50 rounded-xl p-4 border border-gray-700">
@@ -886,12 +886,12 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
                 <div className="w-3 h-3 bg-red-500 rounded-full animate-ping"></div>
                 <span className="text-red-400 font-semibold">High Activity</span>
               </div>
-              <p className="text-gray-400 text-md">Major rifting, collisions, and supercontinent formation</p>
+              <p className="text-gray-400 text-base">Major rifting, collisions, and supercontinent formation</p>
             </div>
           </div>
 
           <div className="mt-4 pt-4 border-t border-gray-700">
-            <p className="text-md text-gray-400 text-center">
+            <p className="text-base text-gray-400 text-center">
               🌏 <span className="text-amber-400 font-semibold">Did you know?</span> Tectonic plates move at about the same rate as your fingernails grow - roughly 2-5 cm per year!
             </p>
           </div>

@@ -73,7 +73,7 @@ export default function UnderstandingOfSanatana() {
                 {section.title}
               </h5>
 
-              <p className="text-lg mb-6">
+              <p className="text-md md:text-lg mb-6">
                 {section.content}
               </p>
 
@@ -104,7 +104,7 @@ export default function UnderstandingOfSanatana() {
                         className="mx-auto inline-flex"
                       />
                     )}
-                    <h6 className="text-lg font-bold text-amber-800">{topic.title}</h6>
+                    <h6 className="text-md md:text-lg font-bold text-amber-800">{topic.title}</h6>
                     <p className="text-gray-600 mb-6">
                       {topic.description}
                     </p>
@@ -135,7 +135,7 @@ export default function UnderstandingOfSanatana() {
 
               {section.points?.map((point, index) => (
                 <div key={`${section.id}-point-${index}`} className="bg-white shadow-md border-2 border-amber-100 rounded-xl p-3">
-                  <p className="text-lg font-semibold text-gray-800">
+                  <p className="text-md md:text-lg font-semibold text-gray-800">
                     {point}
                   </p>
                 </div>

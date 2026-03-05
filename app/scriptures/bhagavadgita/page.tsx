@@ -130,22 +130,22 @@ export default function Page({ searchParams }: any) {
                             {i + 1}
                           </div>
                           <div className="flex-1">
-                            <h4 className={`text-md ${color.text} group-hover:${hoverText} transition-colors`}>{part.title}</h4>
+                            <h4 className={`text-base ${color.text} group-hover:${hoverText} transition-colors`}>{part.title}</h4>
                           </div>
                         </div>
                         {(() => {
                           const summary = getPartSummary(part);
                           return summary ? (
-                            <p className="text-lg text-gray-700 leading-relaxed overflow-hidden line-clamp-6">{summary}</p>
+                            <p className="text-md md:text-lg text-gray-700 leading-relaxed overflow-hidden line-clamp-6">{summary}</p>
                           ) : null;
                         })()}
                         <div className={`relative z-10 pt-4 flex items-center gap-2 ${color.text} hover:gap-3 transition-all duration-300`}>
                           <Link
                             href={`/scriptures/bhagavadgita/part/bhagavadgita_part_${i + 1}`}
-                            className={`inline-flex text-md items-center gap-2 ${color.accent} text-white px-3 py-1 rounded-md shadow-md hover:shadow-xl transition-all duration-300`}
+                            className={`inline-flex text-base items-center gap-2 ${color.accent} text-white px-3 py-1 rounded-md shadow-md hover:shadow-xl transition-all duration-300`}
                           >
                             <span>Read Part</span>
-                            <span className="text-md">→</span>
+                            <span className="text-base">→</span>
                           </Link>
                         </div>
                       </div>

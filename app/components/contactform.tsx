@@ -93,7 +93,7 @@ export default function ContactForm({ fields, submitButton }: Props) {
               </svg>
             </div>
             <h3 className="text-2xl text-white mb-2">Get In Touch</h3>
-            <p className="text-white/90 text-lg">We&apos;d love to hear from you</p>
+            <p className="text-white/90 text-md md:text-lg">We&apos;d love to hear from you</p>
           </div>
         </div>
 
@@ -101,10 +101,10 @@ export default function ContactForm({ fields, submitButton }: Props) {
         <div className="p-8 space-y-6">
           {usedFields.map((f) => (
             <div key={f.name} className="group">
-              <label className="block text-md font-semibold  mb-2 flex items-center gap-2">
+              <label className="block text-base font-semibold  mb-2 flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-amber-500 group-focus-within:scale-150 transition-transform duration-300"></span>
                 {f.label || f.name}
-                {f.required && <span className="text-orange-500 text-sm">*</span>}
+                {f.required && <span className="text-orange-500 text-xs md:text-base">*</span>}
               </label>
               {f.type === 'textarea' ? (
                 <textarea
@@ -150,7 +150,7 @@ export default function ContactForm({ fields, submitButton }: Props) {
           <button
             type="submit"
             disabled={submitting}
-            className="w-full group relative overflow-hidden px-8 py-4 bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 hover:from-amber-600 hover:via-orange-600 hover:to-amber-600 text-white  font-bold text-lg rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+            className="w-full group relative overflow-hidden px-8 py-3 bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 hover:from-amber-600 hover:via-orange-600 hover:to-amber-600 text-white text-md md:text-lg rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
           >
             <span className="relative z-10 flex items-center justify-center gap-3">
               {submitting ? (

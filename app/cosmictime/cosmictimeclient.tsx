@@ -84,16 +84,16 @@ export default function CosmictimeClient() {
 
   // Part-specific visual variants (unique look per part)
   const PART_VARIANTS: Record<string, { card: string; badge: string; title: string; subtitle?: string }> = {
-    part1: { card: 'bg-gradient-to-br from-amber-50 to-amber-100 border-l-8 border-amber-300 p-6 rounded-2xl shadow-md', badge: 'bg-amber-200 text-amber-700', title: 'text-amber-800', subtitle: 'text-lg text-amber-700' },
-    part2: { card: 'bg-gradient-to-br from-orange-50 to-orange-100 border-l-8 border-orange-300 p-6 rounded-2xl shadow-md', badge: 'bg-orange-200 text-orange-700', title: 'text-orange-800', subtitle: 'text-lg text-orange-700' },
-    part3: { card: 'bg-gradient-to-br from-yellow-50 to-yellow-100 border-l-8 border-yellow-300 p-6 rounded-2xl shadow-md', badge: 'bg-yellow-200 text-yellow-700', title: 'text-yellow-800', subtitle: 'text-lg text-yellow-700' },
-    part4: { card: 'bg-gradient-to-br from-amber-50 to-amber-100 border-l-8 border-amber-300 p-6 rounded-2xl shadow-md', badge: 'bg-amber-200 text-amber-700', title: 'text-amber-800', subtitle: 'text-lg text-amber-700' },
-    part5: { card: 'bg-gradient-to-br from-emerald-50 to-emerald-100 border-l-8 border-emerald-300 p-6 rounded-2xl shadow-md', badge: 'bg-emerald-200 text-emerald-700', title: 'text-emerald-800', subtitle: 'text-lg text-emerald-700' },
-    part6: { card: 'bg-gradient-to-br from-lime-50 to-lime-100 border-l-8 border-lime-300 p-6 rounded-2xl shadow-md', badge: 'bg-lime-200 text-lime-700', title: 'text-lime-800', subtitle: 'text-lg text-lime-700' },
-    part7: { card: 'bg-gradient-to-br from-amber-50 to-amber-100 border-l-8 border-amber-300 p-6 rounded-2xl shadow-md', badge: 'bg-amber-200 text-amber-700', title: 'text-amber-800', subtitle: 'text-lg text-amber-700' },
-    part8: { card: 'bg-gradient-to-br from-orange-50 to-orange-100 border-l-8 border-orange-300 p-6 rounded-2xl shadow-md', badge: 'bg-orange-200 text-orange-700', title: 'text-orange-800', subtitle: 'text-lg text-orange-700' },
-    part9: { card: 'bg-gradient-to-br from-yellow-50 to-yellow-100 border-l-8 border-yellow-300 p-6 rounded-2xl shadow-md', badge: 'bg-yellow-200 text-yellow-700', title: 'text-yellow-800', subtitle: 'text-lg text-yellow-700' },
-    part10: { card: 'bg-gradient-to-br from-emerald-50 to-emerald-100 border-l-8 border-emerald-300 p-6 rounded-2xl shadow-md', badge: 'bg-emerald-200 text-emerald-700', title: 'text-emerald-800', subtitle: 'text-lg text-emerald-700' }
+    part1: { card: 'bg-gradient-to-br from-amber-50 to-amber-100 border-l-8 border-amber-300 p-6 rounded-2xl shadow-md', badge: 'bg-amber-200 text-amber-700', title: 'text-amber-800', subtitle: 'text-md md:text-lg text-amber-700' },
+    part2: { card: 'bg-gradient-to-br from-orange-50 to-orange-100 border-l-8 border-orange-300 p-6 rounded-2xl shadow-md', badge: 'bg-orange-200 text-orange-700', title: 'text-orange-800', subtitle: 'text-md md:text-lg text-orange-700' },
+    part3: { card: 'bg-gradient-to-br from-yellow-50 to-yellow-100 border-l-8 border-yellow-300 p-6 rounded-2xl shadow-md', badge: 'bg-yellow-200 text-yellow-700', title: 'text-yellow-800', subtitle: 'text-md md:text-lg text-yellow-700' },
+    part4: { card: 'bg-gradient-to-br from-amber-50 to-amber-100 border-l-8 border-amber-300 p-6 rounded-2xl shadow-md', badge: 'bg-amber-200 text-amber-700', title: 'text-amber-800', subtitle: 'text-md md:text-lg text-amber-700' },
+    part5: { card: 'bg-gradient-to-br from-emerald-50 to-emerald-100 border-l-8 border-emerald-300 p-6 rounded-2xl shadow-md', badge: 'bg-emerald-200 text-emerald-700', title: 'text-emerald-800', subtitle: 'text-md md:text-lg text-emerald-700' },
+    part6: { card: 'bg-gradient-to-br from-lime-50 to-lime-100 border-l-8 border-lime-300 p-6 rounded-2xl shadow-md', badge: 'bg-lime-200 text-lime-700', title: 'text-lime-800', subtitle: 'text-md md:text-lg text-lime-700' },
+    part7: { card: 'bg-gradient-to-br from-amber-50 to-amber-100 border-l-8 border-amber-300 p-6 rounded-2xl shadow-md', badge: 'bg-amber-200 text-amber-700', title: 'text-amber-800', subtitle: 'text-md md:text-lg text-amber-700' },
+    part8: { card: 'bg-gradient-to-br from-orange-50 to-orange-100 border-l-8 border-orange-300 p-6 rounded-2xl shadow-md', badge: 'bg-orange-200 text-orange-700', title: 'text-orange-800', subtitle: 'text-md md:text-lg text-orange-700' },
+    part9: { card: 'bg-gradient-to-br from-yellow-50 to-yellow-100 border-l-8 border-yellow-300 p-6 rounded-2xl shadow-md', badge: 'bg-yellow-200 text-yellow-700', title: 'text-yellow-800', subtitle: 'text-md md:text-lg text-yellow-700' },
+    part10: { card: 'bg-gradient-to-br from-emerald-50 to-emerald-100 border-l-8 border-emerald-300 p-6 rounded-2xl shadow-md', badge: 'bg-emerald-200 text-emerald-700', title: 'text-emerald-800', subtitle: 'text-md md:text-lg text-emerald-700' }
   };
 
   if (isLoading && !data.title) {
@@ -124,8 +124,8 @@ export default function CosmictimeClient() {
                 <h3 className="text-3xl font-extrabold text-orange-900 mb-2">{data.title}</h3>
                 <p className="text-amber-900 max-w-3xl mx-auto">Concise, structured insights from cosmic to human time — organized for clarity and study.</p>
                 <div className="mt-4 flex justify-center gap-3">
-                  <span className="inline-flex items-center gap-2 bg-white/80 border border-amber-100 px-3 py-1 rounded-full text-lg text-amber-800">Research Sections</span>
-                  <span className="inline-flex items-center gap-2 bg-white/80 border border-amber-100 px-3 py-1 rounded-full text-lg text-amber-800">Citable</span>
+                  <span className="inline-flex items-center gap-2 bg-white/80 border border-amber-100 px-3 py-1 rounded-full text-md md:text-lg text-amber-800">Research Sections</span>
+                  <span className="inline-flex items-center gap-2 bg-white/80 border border-amber-100 px-3 py-1 rounded-full text-md md:text-lg text-amber-800">Citable</span>
                 </div>
               </div>
             </header>
@@ -151,9 +151,9 @@ export default function CosmictimeClient() {
                           </svg>
                         </div>
                         <div className="flex-1">
-                          <h3 className={`text-md font-semibold ${variant.title} mb-2`}>{`Part ${sectionKey.replace('part', '')}: ${section?.dataset_metadata?.title || sectionKey.replace(/_/g, ' ')}`}</h3>
+                          <h3 className={`text-base font-semibold ${variant.title} mb-2`}>{`Part ${sectionKey.replace('part', '')}: ${section?.dataset_metadata?.title || sectionKey.replace(/_/g, ' ')}`}</h3>
                           {subtitle && <div className={`${variant.subtitle} mb-3`}>{subtitle}</div>}
-                          <div className="space-y-3 text-amber-900 text-lg">
+                          <div className="space-y-3 text-amber-900 text-md md:text-lg">
                             {renderSectionContent(section)}
                           </div>
                         </div>
@@ -170,8 +170,8 @@ export default function CosmictimeClient() {
                         </svg>
                       </div>
                       <div className="flex-1">
-                        <h3 className="text-md font-semibold text-orange-800 mb-2">{sectionKey.replace(/_/g, ' ')}</h3>
-                        <div className="space-y-3 text-amber-900 text-lg">
+                        <h3 className="text-base font-semibold text-orange-800 mb-2">{sectionKey.replace(/_/g, ' ')}</h3>
+                        <div className="space-y-3 text-amber-900 text-md md:text-lg">
                           {sectionKey === 'timeline' ? renderTimeline(section) : renderSectionContent(section)}
                         </div>
                       </div>

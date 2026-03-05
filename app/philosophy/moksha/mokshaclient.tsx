@@ -61,7 +61,7 @@ export default function MokshaClient() {
             <div className="h-px w-12 bg-gradient-to-l from-transparent to-emerald-600" />
           </div>
           <h3 className="text-4xl font-extrabold text-emerald-700 mb-4">{page.title}</h3>
-          <p className="text-lg text-emerald-900 mb-6 italic">{page.definition}</p>
+          <p className="text-md md:text-lg text-emerald-900 mb-6 italic">{page.definition}</p>
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-emerald-700 mb-2">Core Principles</h2>
             <ul className="list-disc ml-6 text-emerald-900 space-y-1">

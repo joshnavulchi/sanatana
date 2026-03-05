@@ -64,10 +64,10 @@ export default function DashavataraTimeline({
                   <div className={`w-full md:w-5/12 ${isLeft ? '' : ''
                     }`}>
                     <div className="bg-white border border-orange-100 rounded-2xl p-6 shadow-md hover:shadow-xl transition">
-                      <h2 className="text-lg font-semibold text-orange-700">
+                      <h2 className="text-md md:text-lg font-semibold text-orange-700">
                         {avatar.name}
                       </h2>
-                      <p className="text-lg text-gray-500 mb-2">
+                      <p className="text-md md:text-lg text-gray-500 mb-2">
                         {avatar.type} • {avatar.yuga}
                         {avatar.status && ` • ${avatar.status}`}
                       </p>
@@ -75,34 +75,34 @@ export default function DashavataraTimeline({
                         {avatar.purpose}
                       </p>
                       {avatar.primary_antagonist && (
-                        <p className="text-lg text-gray-600">
+                        <p className="text-md md:text-lg text-gray-600">
                           <strong>Antagonist:</strong>{' '}
                           {avatar.primary_antagonist}
                         </p>
                       )}
                       {avatar.primary_event && (
-                        <p className="text-lg text-gray-600">
+                        <p className="text-md md:text-lg text-gray-600">
                           <strong>Event:</strong>{' '}
                           {avatar.primary_event}
                         </p>
                       )}
                       {avatar.weapon && (
-                        <p className="text-lg text-gray-600">
+                        <p className="text-md md:text-lg text-gray-600">
                           <strong>Weapon:</strong> {avatar.weapon}
                         </p>
                       )}
                       {avatar.historical_identity && (
-                        <p className="text-lg text-gray-600">
+                        <p className="text-md md:text-lg text-gray-600">
                           <strong>Identity:</strong>{' '}
                           {avatar.historical_identity}
                         </p>
                       )}
                       <div className="mt-3">
-                        <p className="text-lg">
+                        <p className="text-md md:text-lg">
                           <strong>Symbolism:</strong>{' '}
                           {avatar.symbolism}
                         </p>
-                        <p className="text-lg mt-1">
+                        <p className="text-md md:text-lg mt-1">
                           <strong>Evolution:</strong>{' '}
                           {avatar.evolutionary_symbolism}
                         </p>
@@ -111,7 +111,7 @@ export default function DashavataraTimeline({
                         {avatar.associated_texts.map((text, i) => (
                           <span
                             key={i}
-                            className="text-sm bg-orange-100 text-orange-700 px-2 py-1 rounded-full"
+                            className="text-xs md:text-base bg-orange-100 text-orange-700 px-2 py-1 rounded-full"
                           >
                             {text}
                           </span>

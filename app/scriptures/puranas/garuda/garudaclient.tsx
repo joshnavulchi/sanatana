@@ -52,7 +52,7 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
               <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-bl from-amber-400/10 to-transparent rounded-tr-lg rounded-bl-full" />
               {/* Content */}
               <p className="
-                 text-md
+                 text-base
                 leading-relaxed
                 relative z-10
                 
@@ -80,7 +80,7 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
       {/* Conversation header */}
       <div className="flex items-center justify-center gap-3 mb-8">
         <div className="h-px w-16 bg-gradient-to-r from-transparent to-amber-400" />
-        <span className="text-md text-amber-800 font-semibold tracking-wide animate-fade-in">💬 Conversation</span>
+        <span className="text-base text-amber-800 font-semibold tracking-wide animate-fade-in">💬 Conversation</span>
         <div className="h-px w-16 bg-gradient-to-l from-transparent to-amber-400" />
       </div>
       {convo.map((item: any, idx: number) => {
@@ -102,9 +102,9 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
               {/* Speaker Badge */}
               {item.speaker && (
                 <div className={`
-                  inline-flex items-center gap-2 mb-2 px-4 py-2 ${isEven ? 'bg-gradient-to-r from-blue-500 to-blue-600 text-white' : 'bg-gradient-to-r from-amber-500 to-orange-600 text-white'} rounded-full shadow-lg font-semibold text-md ${isEven ? '' : 'ml-auto'} animate-fade-in
+                  inline-flex items-center gap-2 mb-2 px-4 py-2 ${isEven ? 'bg-gradient-to-r from-blue-500 to-blue-600 text-white' : 'bg-gradient-to-r from-amber-500 to-orange-600 text-white'} rounded-full shadow-lg font-semibold text-base ${isEven ? '' : 'ml-auto'} animate-fade-in
                 `}>
-                  <span className="text-lg">{isEven ? '🧘' : '🕉️'}</span>
+                  <span className="text-md md:text-lg">{isEven ? '🧘' : '🕉️'}</span>
                   <span>{item.speaker}</span>
                 </div>
               )}
@@ -116,7 +116,7 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
                   style={{ animationDelay: `${idx * 120}ms` }}
                 >
                   {/* Message text */}
-                  <p className="text-gray-800 text-md leading-relaxed m-0 ">
+                  <p className="text-gray-800 text-base leading-relaxed m-0 ">
                     {item.message}
                   </p>
                   {/* Decorative quote mark */}
@@ -127,7 +127,7 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
                   ${isEven ? 'bg-blue-500' : 'bg-amber-500'}
                   rounded-full
                   flex items-center justify-center
-                  text-white text-sm
+                  text-white text-xs md:text-base
                   opacity-0 group-hover:opacity-100
                   transition-opacity duration-300
                 `}>
