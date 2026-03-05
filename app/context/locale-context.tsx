@@ -2,13 +2,14 @@
 "use client";
 
 import { createContext, useContext, useEffect, useState } from 'react';
-import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '@lib/i18n';
+import { DEFAULT_LOCALE, SUPPORTED_LOCALES, t as translate } from '@lib/i18n';
 import storage from '@lib/storage';
 import { useSearchParams, useRouter } from 'next/navigation';
 
 type LocaleContextType = {
   locale: string;
   setLocale: (locale: string) => void;
+  t: (key: string, localeOverride?: string) => string;
   isLoading: boolean;
 };
 
@@ -18,6 +19,8 @@ type LocaleContextType = {
 const defaultLocaleContext: LocaleContextType = {
   locale: DEFAULT_LOCALE,
   setLocale: () => { },
+  t: (key: string, localeOverride?: string) =>
+    String(translate(key, localeOverride ?? DEFAULT_LOCALE)),
   isLoading: true,
 };
 
@@ -109,7 +112,15 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
   }
 
   return (
-    <LocaleContext.Provider value={{ locale, setLocale, isLoading }}>
+    <LocaleContext.Provider
+      value={{
+        locale,
+        setLocale,
+        t: (key: string, localeOverride?: string) =>
+          String(translate(key, localeOverride ?? locale)),
+        isLoading,
+      }}
+    >
       {children}
     </LocaleContext.Provider>
   );
