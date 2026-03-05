@@ -3,7 +3,6 @@ import PageLayout from '@components/common/PageLayout';
 import Link from 'next/link';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import { t, detectLocale, getLocaleNamespaceObject, getMeta, DEFAULT_LOCALE } from '@lib/i18n';
-import WebVitalsReporter from '@/app/components/WebVitalsReporter';
 export const generateMetadata = createGenerateMetadata('scriptures_bhagavadgita');
 
 const _localeObj = getLocaleNamespaceObject('scriptures_bhagavadgita');
@@ -72,7 +71,6 @@ export default function Page({ searchParams }: any) {
 
   return (
     <>
-      && <WebVitalsReporter page="bhagavadgita" /> }
       <PageLayout
         metaKey="scriptures_bhagavadgita"
         title={page.title}

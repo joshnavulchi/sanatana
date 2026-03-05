@@ -10,7 +10,6 @@ export default function Page() {
   return (
     <>
       <StructuredData metaKey="historical_timeline" />
-      && <WebVitalsReporter page="historical-timeline" />}
       <HistoricalTimeline />
     </>
   );
