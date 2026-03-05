@@ -451,8 +451,8 @@ export default function DropIrrigationClient() {
         </div>
       </section>
 
-      <div className="mt-8 grid gap-6 lg:grid-cols-[18rem_minmax(0,1fr)]">
-        <aside className="lg:h-fit">
+      <div className="flex flex-col mt-8 gap-6">
+        <aside className="lg:h-fit md:hidden">
           {tocItems.length ? (
             <nav
               className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm"
@@ -479,7 +479,7 @@ export default function DropIrrigationClient() {
 
         <div className="space-y-6">
           <div className="w-full bg-white rounded-2xl border border-slate-200 shadow-sm">
-            <LazyImage src="/images/drip-irrigation.png" width="1600" height="500" className="p-5" alt="Drip Irrigation Process" />
+            <LazyImage src="/images/drip-irrigation.png" width="1600" height="200" className="p-5" alt="Drip Irrigation Process" />
           </div>
 
           {dripIrrigation.sections.map((section) => (
@@ -505,7 +505,7 @@ export default function DropIrrigationClient() {
           ) : null}
 
           {dripIrrigation.cta ? (
-            <section className="rounded-2xl bg-gradient-to-r from-emerald-600 to-cyan-600 p-6 text-white shadow-lg">
+            <section className="rounded-2xl bg-gradient-to-r from-emerald-600 to-cyan-600 p-6 text-white shadow-lg mb-8 md:mb-0">
               <h6 className="text-2xl">{dripIrrigation.cta.title}</h6>
               {dripIrrigation.cta.body ? (
                 <p className="mt-2 max-w-3xl text-emerald-50">{dripIrrigation.cta.body}</p>
