@@ -33,43 +33,36 @@ export default function DharmaClient() {
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Dharma' }]}
       className="layout-md"
     >
-      <div className="flex flex-col lg:flex-row gap-8">
-        <div className="w-full lg:w-3/4">
-          <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-emerald-50 via-emerald-100 to-emerald-50 rounded-2xl border-l-12 border-emerald-200 shadow-lg overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-400/10 rounded-full blur-3xl" />
-            <div className="absolute bottom-0 left-0 w-80 h-80 bg-green-400/8 rounded-full blur-3xl" />
-            <div className="relative z-10">
-              <h3 className="text-3xl font-bold text-emerald-800 mb-4">{title}</h3>
-              <p className="mb-6"><strong>Definition:</strong> {definition.length ? definition.join(', ') : 'No definition found.'}</p>
-              <h2 className="text-2xl md:text-3xl">Categories of Dharma:</h2>
-              <ul className="list-disc ml-6 mb-6">
-                {Object.entries(categories).map(([key, val]: any, idx: number) => (
-                  <li key={idx}><strong>{val.meaning}</strong>{val.examples ? <> - {Array.isArray(val.examples) ? val.examples.join(', ') : val.examples}</> : null}</li>
-                ))}
-              </ul>
-              <h2 className="text-2xl md:text-3xl">Philosophical Dimensions / Goals of Dharma:</h2>
-              <ul className="list-disc ml-6 mb-6">
-                {Object.entries(philosophicalDimensions).map(([key, val]: any, idx: number) => (
-                  <li key={idx}>{val}</li>
-                ))}
-              </ul>
-              <h2 className="text-2xl md:text-3xl">Core Principles of Dharma:</h2>
-              <ul className="list-disc ml-6 mb-6">
-                {Object.entries(corePrinciples).map(([key, val]: any, idx: number) => (
-                  <li key={idx}>{val}</li>
-                ))}
-              </ul>
-              <h2 className="text-2xl md:text-3xl">Dharma in Ramayana:</h2>
-              <ul className="list-disc ml-6 mb-6">
-                {Object.entries(dharmaInRamayana).map(([key, val]: any, idx: number) => (
-                  <li key={idx}>{val}</li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div className="w-full lg:w-1/4">
-          <SimilarCategories />
+      <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-emerald-50 via-emerald-100 to-emerald-50 rounded-2xl border-l-12 border-emerald-200 shadow-lg overflow-hidden">
+        <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-400/10 rounded-full blur-3xl" />
+        <div className="absolute bottom-0 left-0 w-80 h-80 bg-green-400/8 rounded-full blur-3xl" />
+        <div className="relative z-10">
+          <h3 className="text-3xl font-bold text-emerald-800 mb-4">{title}</h3>
+          <p className="mb-6"><strong>Definition:</strong> {definition.length ? definition.join(', ') : 'No definition found.'}</p>
+          <h2 className="text-2xl md:text-3xl">Categories of Dharma:</h2>
+          <ul className="list-disc ml-6 mb-6">
+            {Object.entries(categories).map(([key, val]: any, idx: number) => (
+              <li key={idx}><strong>{val.meaning}</strong>{val.examples ? <> - {Array.isArray(val.examples) ? val.examples.join(', ') : val.examples}</> : null}</li>
+            ))}
+          </ul>
+          <h2 className="text-2xl md:text-3xl">Philosophical Dimensions / Goals of Dharma:</h2>
+          <ul className="list-disc ml-6 mb-6">
+            {Object.entries(philosophicalDimensions).map(([key, val]: any, idx: number) => (
+              <li key={idx}>{val}</li>
+            ))}
+          </ul>
+          <h2 className="text-2xl md:text-3xl">Core Principles of Dharma:</h2>
+          <ul className="list-disc ml-6 mb-6">
+            {Object.entries(corePrinciples).map(([key, val]: any, idx: number) => (
+              <li key={idx}>{val}</li>
+            ))}
+          </ul>
+          <h2 className="text-2xl md:text-3xl">Dharma in Ramayana:</h2>
+          <ul className="list-disc ml-6 mb-6">
+            {Object.entries(dharmaInRamayana).map(([key, val]: any, idx: number) => (
+              <li key={idx}>{val}</li>
+            ))}
+          </ul>
         </div>
       </div>
     </PageLayout>

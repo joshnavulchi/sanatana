@@ -18,7 +18,7 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
       {/* Large intro header */}
       <div className="rounded-xl p-6 bg-gradient-to-r from-amber-50 to-yellow-50 border border-amber-100">
         <h2 className="text-2xl md:text-3xl font-extrabold text-amber-800">Essence & Insights</h2>
-        <p className="mt-2 text-lg text-amber-700">A concise retelling and practical reflections on karma.</p>
+        <p className="mt-2 text-md text-amber-700">A concise retelling and practical reflections on karma.</p>
       </div>
 
       <div className="grid gap-6">
@@ -30,9 +30,9 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
           >
             <div className="absolute left-0 top-4 h-12 w-1 bg-amber-300 rounded-r-md" />
             <div>
-              <p className="text-lg text-gray-800 leading-relaxed ">{line}</p>
+              <p className="text-md text-gray-800 leading-relaxed ">{line}</p>
             </div>
-            <div className="mt-4 flex items-center justify-between text-lg text-gray-500">
+            <div className="mt-4 flex items-center justify-between text-md text-gray-500">
               <span>Reflection</span>
               <span className="px-2 py-0.5 bg-amber-100 text-amber-700 rounded">Karma</span>
             </div>
@@ -48,7 +48,7 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
   return (
     <section className="mt-12">
       <div className="flex items-center gap-3 mb-6">
-        <span className="text-lg text-amber-700 font-semibold">💬 Dialogue</span>
+        <span className="text-md text-amber-700 font-semibold">💬 Dialogue</span>
         <div className="flex-1 h-px bg-gray-100" />
       </div>
       <div className="space-y-4">
@@ -59,7 +59,7 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
               <div className={`max-w-[86%] md:max-w-[70%]`}>
                 <div className={`flex items-center gap-3 ${isLeft ? '' : 'flex-row-reverse'}`}>
                   <div className="w-10 h-10 bg-amber-100 text-amber-700 rounded-full flex items-center justify-center font-medium">{isLeft ? '🧘' : '🕉️'}</div>
-                  <div className="text-lg text-gray-600 font-medium">{item.speaker || (isLeft ? 'Seeker' : 'Teacher')}</div>
+                  <div className="text-md text-gray-600 font-medium">{item.speaker || (isLeft ? 'Seeker' : 'Teacher')}</div>
                 </div>
                 <div className={`mt-2 p-4 rounded-xl border border-gray-100 bg-white shadow-sm ${isLeft ? '' : 'text-right'}`}>
                   <p className="text-gray-800 leading-relaxed ">{item.message}</p>
@@ -119,50 +119,41 @@ export default function KrishnaExplainsFiveKarmasClient() {
       className="layout-md"
     >
       <TextToSpeech sectionId="philosophy-karma-content" className="floating" />
-      <div id="philosophy-karma-content">
-        <div className="flex flex-col lg:flex-row gap-8">
-          <div className="w-full lg:w-3/4">
-            <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-blue-50 via-green-100 to-blue-50  border-l-2 border-blue-200 rounded-2xl overflow-hidden">
-              <div className="absolute top-0 right-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl" />
-              <div className="absolute bottom-0 left-0 w-80 h-80 bg-yellow-400/8 rounded-full blur-3xl" />
-              <div className="relative z-10">
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="h-px w-12 bg-gradient-to-r from-transparent to-amber-600" />
-                  <span className="text-3xl animate-pulse">🧘</span>
-                  <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-600" />
-                </div>
-                {/* Render script paragraphs (para1, para2, ...) then conversation (alternating chat bubbles). */}
-                {(() => {
-                  const script = parseMaybeObject(ns ? ns.script : '') || {};
-                  if (renderStory && renderStory.length > 0) {
-                    return <Paragraphs lines={renderStory} />;
-                  }
-                  const paraKeys = Object.keys(script || {}).filter(k => /^para\d+$/.test(k));
-                  paraKeys.sort((a, b) => {
-                    const na = Number(a.replace(/[^0-9]/g, '')) || 0;
-                    const nb = Number(b.replace(/[^0-9]/g, '')) || 0;
-                    return na - nb;
-                  });
-                  const paras = paraKeys.map(k => script[k]);
-                  const convo = script && Array.isArray(script.conversation)
-                    ? script.conversation
-                    : parseSections(script?.conversation || '');
-                  if ((Array.isArray(paras) && paras.length) || (Array.isArray(convo) && convo.length)) {
-                    return (
-                      <>
-                        {paras.length > 0 && <Paragraphs lines={paras} />}
-                        <Conversation convo={convo} />
-                      </>
-                    );
-                  }
-                  return null;
-                })()}
-              </div>
-            </div>
+      <div id="philosophy-karma-content" className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-blue-50 via-green-100 to-blue-50  border-l-2 border-blue-200 rounded-2xl overflow-hidden">
+        <div className="absolute top-0 right-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl" />
+        <div className="absolute bottom-0 left-0 w-80 h-80 bg-yellow-400/8 rounded-full blur-3xl" />
+        <div className="relative z-10">
+          <div className="flex items-center gap-3 mb-6">
+            <div className="h-px w-12 bg-gradient-to-r from-transparent to-amber-600" />
+            <span className="text-3xl animate-pulse">🧘</span>
+            <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-600" />
           </div>
-          <div className="w-full lg:w-1/4">
-            <SimilarCategories />
-          </div>
+          {/* Render script paragraphs (para1, para2, ...) then conversation (alternating chat bubbles). */}
+          {(() => {
+            const script = parseMaybeObject(ns ? ns.script : '') || {};
+            if (renderStory && renderStory.length > 0) {
+              return <Paragraphs lines={renderStory} />;
+            }
+            const paraKeys = Object.keys(script || {}).filter(k => /^para\d+$/.test(k));
+            paraKeys.sort((a, b) => {
+              const na = Number(a.replace(/[^0-9]/g, '')) || 0;
+              const nb = Number(b.replace(/[^0-9]/g, '')) || 0;
+              return na - nb;
+            });
+            const paras = paraKeys.map(k => script[k]);
+            const convo = script && Array.isArray(script.conversation)
+              ? script.conversation
+              : parseSections(script?.conversation || '');
+            if ((Array.isArray(paras) && paras.length) || (Array.isArray(convo) && convo.length)) {
+              return (
+                <>
+                  {paras.length > 0 && <Paragraphs lines={paras} />}
+                  <Conversation convo={convo} />
+                </>
+              );
+            }
+            return null;
+          })()}
         </div>
       </div>
     </PageLayout>

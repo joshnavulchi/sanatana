@@ -128,7 +128,7 @@ export default function DropIrrigationClient() {
         title={dripIrrigation.title}
         description={dripIrrigation.description}
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: dripIrrigation.title }]}
-        className="layout-sm"
+        className="layout-md"
       >
         <div className="flex items-center justify-center py-12">
           <Loader />
@@ -178,7 +178,7 @@ export default function DropIrrigationClient() {
               className="rounded-xl border border-slate-200 bg-slate-50 p-4"
             >
               <div className="flex items-start gap-3">
-                <span className="mt-0.5 text-xl">{step.icon ?? '•'}</span>
+                <span className="mt-0.5 text-md">{step.icon ?? '•'}</span>
                 <div>
                   <h3 className="font-semibold text-slate-900">{step.title ?? step.step}</h3>
                   {Array.isArray(step.details) ? (
@@ -206,17 +206,17 @@ export default function DropIrrigationClient() {
             >
               {item.name ? <h3 className="font-semibold text-slate-900">{item.name}</h3> : null}
               {item.function ? <p className="mt-1 text-md text-slate-700">{item.function}</p> : null}
-              {item.sizingNotes ? <p className="mt-2 text-xs text-slate-600">{item.sizingNotes}</p> : null}
+              {item.sizingNotes ? <p className="mt-2 text-base text-slate-600">{item.sizingNotes}</p> : null}
               {item.symptom ? <p className="mt-1 text-md font-medium text-slate-900">{item.symptom}</p> : null}
               {item.q ? <p className="mt-1 text-md font-medium text-slate-900">Q. {item.q}</p> : null}
               {item.a ? <p className="mt-1 text-md text-slate-700">{item.a}</p> : null}
               {item.likelyCauses?.length ? (
-                <p className="mt-2 text-xs text-slate-600">
+                <p className="mt-2 text-base text-slate-600">
                   Likely causes: {item.likelyCauses.join(', ')}
                 </p>
               ) : null}
               {item.fixes?.length ? (
-                <p className="mt-1 text-xs text-slate-600">Fixes: {item.fixes.join(', ')}</p>
+                <p className="mt-1 text-base text-slate-600">Fixes: {item.fixes.join(', ')}</p>
               ) : null}
             </article>
           ))}
@@ -236,10 +236,10 @@ export default function DropIrrigationClient() {
                   {formula.expr}
                 </div>
               ) : null}
-              {formula.variables ? <p className="mt-2 text-xs text-slate-600">{formula.variables}</p> : null}
-              {formula.units ? <p className="mt-1 text-xs text-slate-600">{formula.units}</p> : null}
-              {formula.note ? <p className="mt-1 text-xs text-slate-600">{formula.note}</p> : null}
-              {formula.example ? <p className="mt-1 text-xs text-slate-600">{formula.example}</p> : null}
+              {formula.variables ? <p className="mt-2 text-base text-slate-600">{formula.variables}</p> : null}
+              {formula.units ? <p className="mt-1 text-base text-slate-600">{formula.units}</p> : null}
+              {formula.note ? <p className="mt-1 text-base text-slate-600">{formula.note}</p> : null}
+              {formula.example ? <p className="mt-1 text-base text-slate-600">{formula.example}</p> : null}
             </div>
           ))}
         </div>
@@ -278,10 +278,10 @@ export default function DropIrrigationClient() {
               <h3 className="font-semibold text-slate-900">{pattern.name}</h3>
               <p className="mt-1 text-md text-slate-700">{pattern.description}</p>
               {pattern.pros?.length ? (
-                <p className="mt-2 text-xs text-green-700">Pros: {pattern.pros.join(', ')}</p>
+                <p className="mt-2 text-base text-green-700">Pros: {pattern.pros.join(', ')}</p>
               ) : null}
               {pattern.cons?.length ? (
-                <p className="mt-1 text-xs text-red-700">Cons: {pattern.cons.join(', ')}</p>
+                <p className="mt-1 text-base text-red-700">Cons: {pattern.cons.join(', ')}</p>
               ) : null}
             </article>
           ))}
@@ -431,7 +431,7 @@ export default function DropIrrigationClient() {
         <div className="absolute -bottom-20 -left-20 h-56 w-56 rounded-full bg-cyan-100 blur-3xl" aria-hidden="true" />
         <div className="relative">
           {dripIrrigation.hero?.badge ? (
-            <span className="inline-flex rounded-full border border-emerald-200 bg-white px-3 py-1 text-xs font-semibold uppercase tracking-wider text-emerald-700">
+            <span className="inline-flex rounded-full border border-emerald-200 bg-white px-3 py-1 text-base font-semibold uppercase tracking-wider text-emerald-700">
               {dripIrrigation.hero.badge}
             </span>
           ) : null}
@@ -439,7 +439,7 @@ export default function DropIrrigationClient() {
             {dripIrrigation.hero?.title || dripIrrigation.title}
           </h3>
           {dripIrrigation.hero?.subtitle ? (
-            <p className="mt-3 max-w-3xl text-base text-slate-700 md:text-lg">
+            <p className="mt-3 max-w-3xl text-base text-slate-700 md:text-md">
               {dripIrrigation.hero.subtitle}
             </p>
           ) : null}
