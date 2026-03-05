@@ -72,7 +72,7 @@ export default function Page({ searchParams }: any) {
 
   return (
     <>
-      {process.env.NODE_ENV !== 'production' && <WebVitalsReporter page="bhagavadgita" /> }
+      && <WebVitalsReporter page="bhagavadgita" /> }
       <PageLayout
         metaKey="scriptures_bhagavadgita"
         title={page.title}
@@ -159,7 +159,7 @@ export default function Page({ searchParams }: any) {
         )}
       </PageLayout>
     </>
-    
+
   );
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
