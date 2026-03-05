@@ -28,7 +28,7 @@ function resolveLocaleFromHeaders() {
   }
 }
 
-export async function createGenerateMetadata({ params, searchParams }: { params: any, searchParams?: any }) {
+export async function generateMetadata({ params, searchParams }: { params: any, searchParams?: any }) {
   const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
   const S = (k: string) => String(t(k, locale));
   // load chapters from locale translations; if the locale doesn't include

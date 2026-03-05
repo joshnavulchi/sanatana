@@ -1,4 +1,5 @@
 import { t, getMeta, getLocaleNamespaceObject } from '@lib/i18n';
+import { createGenerateMetadata } from '@lib/pageUtils';
 
 const _localeObj = getLocaleNamespaceObject('sharable_strings');
 const ns = (_localeObj && ((_localeObj as any)['sitemap'] || ((_localeObj as any).sharable_strings && (_localeObj as any).sharable_strings['sitemap']) || _localeObj)) || {};
@@ -20,6 +21,7 @@ import { secrets } from '@lib/secrets';
 const SITE_URL = secrets.NEXT_PUBLIC_SITE_URL || 'https://sanatanadharmam.in';
 
 export const dynamic = 'force-static';
+export const generateMetadata = createGenerateMetadata('sitemap');
 
 export default function SitemapPage() {
   const S = (k: string) => String(t(k));
