@@ -78,7 +78,7 @@ export default function Page({ searchParams }: any) {
         {/* Hero Header Section */}
         <div className="flex items-center justify-center gap-3 mb-6">
           <div className="h-px w-24 bg-gradient-to-r from-transparent to-amber-500"></div>
-          <p className="text-lg font-semibold text-amber-900 tracking-wide uppercase">Written by: {page.author}</p>
+          <p className="text-md font-semibold text-amber-900 tracking-wide uppercase">Written by: {page.author}</p>
           <div className="h-px w-24 bg-gradient-to-l from-transparent to-amber-500"></div>
         </div>
         {/* Introduction */}
@@ -94,39 +94,39 @@ export default function Page({ searchParams }: any) {
               {page.introduction.what_is_ramayanam && (
                 <div className="bg-white border-l-4 border-orange-500 shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-r-xl">
                   <div className="bg-orange-100 px-5 py-3 border-b-2 border-orange-200">
-                    <h4 className="text-lg font-bold text-orange-900 flex items-center gap-2">
+                    <h4 className="text-md font-bold text-orange-900 flex items-center gap-2">
                       <span className="text-2xl">📖</span>
                       What is Ramayanam?
                     </h4>
                   </div>
                   <div className="p-5">
-                    <p className="text-lg text-gray-700 leading-relaxed">{page.introduction.what_is_ramayanam}</p>
+                    <p className="text-md text-gray-700 leading-relaxed">{page.introduction.what_is_ramayanam}</p>
                   </div>
                 </div>
               )}
               {page.introduction.who_wrote_it && (
                 <div className="bg-white border-l-4 border-amber-500 shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-r-xl">
                   <div className="bg-amber-100 px-5 py-3 border-b-2 border-amber-200">
-                    <h5 className="text-lg font-bold text-amber-900 flex items-center gap-2">
+                    <h5 className="text-md font-bold text-amber-900 flex items-center gap-2">
                       <span className="text-2xl">✍️</span>
                       Who Wrote It?
                     </h5>
                   </div>
                   <div className="p-5">
-                    <p className="text-lg text-gray-700 leading-relaxed">{page.introduction.who_wrote_it}</p>
+                    <p className="text-md text-gray-700 leading-relaxed">{page.introduction.who_wrote_it}</p>
                   </div>
                 </div>
               )}
               {page.introduction.why_it_is_important && (
                 <div className="bg-white border-l-4 border-red-500 shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-r-xl">
                   <div className="bg-red-100 px-5 py-3 border-b-2 border-red-200">
-                    <h6 className="text-lg font-bold text-red-900 flex items-center gap-2">
+                    <h6 className="text-md font-bold text-red-900 flex items-center gap-2">
                       <span className="text-2xl">⭐</span>
                       Why It Is Important?
                     </h6>
                   </div>
                   <div className="p-5">
-                    <p className="text-lg text-gray-700 leading-relaxed">{page.introduction.why_it_is_important}</p>
+                    <p className="text-md text-gray-700 leading-relaxed">{page.introduction.why_it_is_important}</p>
                   </div>
                 </div>
               )}
@@ -152,11 +152,11 @@ export default function Page({ searchParams }: any) {
                         {idx + 1}
                       </div>
                       <div className="flex-1">
-                        <h6 className="text-lg font-bold text-amber-900 group-hover:text-orange-600 transition-colors">{c.name}</h6>
+                        <h6 className="text-md font-bold text-amber-900 group-hover:text-orange-600 transition-colors">{c.name}</h6>
                       </div>
                     </div>
                     {c.role && (
-                      <p className="text-lg text-gray-700 leading-relaxed">{c.role}</p>
+                      <p className="text-md text-gray-700 leading-relaxed">{c.role}</p>
                     )}
                   </div>
                 </div>
@@ -180,11 +180,11 @@ export default function Page({ searchParams }: any) {
                   <div className="pl-8 pr-6 py-5">
                     <div className="flex items-start gap-4">
                       <div className="flex-shrink-0 w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center border-2 border-amber-400">
-                        <span className="text-lg font-bold text-amber-700">{idx + 1}</span>
+                        <span className="text-md font-bold text-amber-700">{idx + 1}</span>
                       </div>
                       <div className="flex-1">
-                        <h6 className="text-lg font-bold text-amber-900 mb-2">{typeof ct.title === 'string' ? ct.title : ct['title']}</h6>
-                        {ct.description && <p className="text-lg text-gray-700 leading-relaxed">{ct.description}</p>}
+                        <h6 className="text-md font-bold text-amber-900 mb-2">{typeof ct.title === 'string' ? ct.title : ct['title']}</h6>
+                        {ct.description && <p className="text-md text-gray-700 leading-relaxed">{ct.description}</p>}
                       </div>
                     </div>
                   </div>
@@ -208,11 +208,11 @@ export default function Page({ searchParams }: any) {
                 {page.timeline.map((ev: any, idx: number) => (
                   <div key={idx} className="relative flex items-start gap-6 group">
                     <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center border-4 border-white shadow-lg z-10">
-                      <span className="text-white font-bold text-lg">{idx + 1}</span>
+                      <span className="text-white font-bold text-md">{idx + 1}</span>
                     </div>
                     <div className="flex-1 bg-white rounded-xl border-2 border-amber-200 shadow-md hover:shadow-lg transition-shadow duration-300 p-5">
-                      <p className="text-lg font-semibold text-amber-900">{typeof ev === 'string' ? ev : ev.event}</p>
-                      {typeof ev === 'object' && ev.desc && <p className="text-lg text-gray-600 mt-2">{ev.desc}</p>}
+                      <p className="text-md font-semibold text-amber-900">{typeof ev === 'string' ? ev : ev.event}</p>
+                      {typeof ev === 'object' && ev.desc && <p className="text-md text-gray-600 mt-2">{ev.desc}</p>}
                     </div>
                   </div>
                 ))}
@@ -234,11 +234,11 @@ export default function Page({ searchParams }: any) {
                 <div key={idx} className="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl border-2 border-red-300 shadow-lg hover:shadow-xl transition-all duration-300 p-6">
                   <div className="flex items-center gap-3 mb-3">
                     <div className="w-8 h-8 bg-red-500 rounded-lg flex items-center justify-center">
-                      <span className="text-white text-lg">🔸</span>
+                      <span className="text-white text-md">🔸</span>
                     </div>
-                    <h6 className="text-lg font-bold text-red-900 capitalize">{key.replace(/_/g, ' ')}</h6>
+                    <h6 className="text-md font-bold text-red-900 capitalize">{key.replace(/_/g, ' ')}</h6>
                   </div>
-                  <p className="text-lg text-gray-700 leading-relaxed ">{value}</p>
+                  <p className="text-md text-gray-700 leading-relaxed ">{value}</p>
                 </div>
               ))}
             </div>
@@ -252,7 +252,7 @@ export default function Page({ searchParams }: any) {
                 <span className="relative z-10 bg-white px-6">The Seven Kandas</span>
                 <div className="absolute top-1/2 left-0 w-full h-0.5 bg-gradient-to-r from-amber-300 via-amber-500 to-amber-300"></div>
               </h6>
-              <p className="text-center text-gray-600 mt-4 text-md max-w-2xl mx-auto">Experience the complete epic journey through seven magnificent chapters, each revealing profound wisdom and timeless values.</p>
+              <p className="text-center text-gray-600 mt-4 text-base max-w-2xl mx-auto">Experience the complete epic journey through seven magnificent chapters, each revealing profound wisdom and timeless values.</p>
             </div>
             <div className="space-y-8">
               {Object.entries(page.story_divided_by_kandas)
@@ -286,7 +286,7 @@ export default function Page({ searchParams }: any) {
                         {kanda.narrative && (
                           <div className="mb-6 pl-0 md:pl-22">
                             <div className="bg-white bg-opacity-70 rounded-xl p-5 border border-gray-200">
-                              <p className="text-lg text-gray-800 leading-relaxed line-clamp-4">
+                              <p className="text-md text-gray-800 leading-relaxed line-clamp-4">
                                 {kanda.narrative.split('\n\n').slice(0, 2).join('\n\n')}...
                               </p>
                             </div>
@@ -295,8 +295,8 @@ export default function Page({ searchParams }: any) {
                         {kanda.lessons && (
                           <div className="mb-6 pl-0 md:pl-22">
                             <div className="bg-white bg-opacity-90 rounded-xl p-5 border-l-4 border-amber-500">
-                              <p className="text-lg font-bold text-amber-700 uppercase tracking-wider mb-2">📚 Key Lessons</p>
-                              <p className="text-lg text-gray-700 leading-relaxed">{kanda.lessons}</p>
+                              <p className="text-md font-bold text-amber-700 uppercase tracking-wider mb-2">📚 Key Lessons</p>
+                              <p className="text-md text-gray-700 leading-relaxed">{kanda.lessons}</p>
                             </div>
                           </div>
                         )}
@@ -306,7 +306,7 @@ export default function Page({ searchParams }: any) {
                             className={`inline-flex items-center gap-2 ${color.accent} hover:opacity-90 text-white px-3 py-1 rounded-sm shadow-md hover:shadow-xl transition-all duration-300 transform`}
                           >
                             <span>Read Complete Chapter</span>
-                            <span className="text-md">→</span>
+                            <span className="text-base">→</span>
                           </Link>
                         </div>
                       </div>
@@ -330,11 +330,11 @@ export default function Page({ searchParams }: any) {
                 {Object.entries(page.cultural_importance).map(([key, value]: [string, any], idx: number) => (
                   <div key={idx} className="flex gap-4">
                     <div className="flex-shrink-0 w-10 h-10 bg-amber-500 rounded-full flex items-center justify-center shadow-md">
-                      <span className="text-white text-md">✦</span>
+                      <span className="text-white text-base">✦</span>
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-lg font-bold text-amber-900 mb-2 capitalize">{key.replace(/_/g, ' ')}</h3>
-                      <p className="text-md text-gray-700 leading-relaxed">{value}</p>
+                      <h3 className="text-md font-bold text-amber-900 mb-2 capitalize">{key.replace(/_/g, ' ')}</h3>
+                      <p className="text-base text-gray-700 leading-relaxed">{value}</p>
                     </div>
                   </div>
                 ))}

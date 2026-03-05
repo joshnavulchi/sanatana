@@ -48,12 +48,12 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
           <h3 className="text-3xl font-extrabold text-slate-900">
             Sankshepa Ramayanam — Slokas
           </h3>
-          <p className="mt-1 text-md text-slate-500">
+          <p className="mt-1 text-base text-slate-500">
             Showing {visible} of {total} — elegant, readable cards with quick actions
           </p>
         </div>
         <div className="flex items-center gap-3">
-          <span className="text-lg px-3 py-2 bg-amber-50 rounded-full text-amber-700 shadow-sm">
+          <span className="text-md px-3 py-2 bg-amber-50 rounded-full text-amber-700 shadow-sm">
             {total} slokas
           </span>
         </div>
@@ -83,7 +83,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
                   ) : null}
 
                   {s.transliteration ? (
-                    <p className="mt-2 text-lg italic text-slate-700">
+                    <p className="mt-2 text-md italic text-slate-700">
                       {s.transliteration}
                     </p>
                   ) : null}
@@ -112,15 +112,37 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
                       </svg>
                     )}
                   </button>
-                  <span className="text-lg text-slate-700">{idx + 1}</span>
+                  <span className="text-md text-slate-700">{idx + 1}</span>
                 </div>
               </div>
 
               <div className="mt-4">
                 {context ? (
-                  <div className="text-lg text-slate-700 leading-relaxed">
+                  <div className="text-md text-slate-700 leading-relaxed">
                     <p className={`${isExpanded ? "" : "line-clamp-[8]"}`}>{isExpanded ? context : previewContext}</p>
                     {context.length > 220 ? (
+                      <button
+                        onClick={() => toggleExpand(idx)}
+                        className="mt-3 inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-base bg-amber-50 text-amber-700 border border-amber-100 shadow-sm hover:brightness-105 transition"
+                        aria-expanded={isExpanded}
+                      >
+                        {isExpanded ? "Show less" : "Read more"}
+                        <svg className={`w-4 h-4 transition-transform ${isExpanded ? "rotate-180" : ""}`} viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                      </button>
+                    ) : null}
+                  </div>
+                ) : (
+                  <p className="text-md text-slate-700">No context available.</p>
+                )}
+              </div>
+
+              <div className="mt-4">
+                {meaning ? (
+                  <div className="text-md text-slate-400 leading-relaxed">
+                    <p className={`${isExpanded ? "" : "line-clamp-[8]"}`}>{isExpanded ? meaning : previewMeaning}</p>
+                    {meaning.length > 220 ? (
                       <button
                         onClick={() => toggleExpand(idx)}
                         className="mt-3 inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-md bg-amber-50 text-amber-700 border border-amber-100 shadow-sm hover:brightness-105 transition"
@@ -134,29 +156,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
                     ) : null}
                   </div>
                 ) : (
-                  <p className="text-lg text-slate-700">No context available.</p>
-                )}
-              </div>
-
-              <div className="mt-4">
-                {meaning ? (
-                  <div className="text-lg text-slate-400 leading-relaxed">
-                    <p className={`${isExpanded ? "" : "line-clamp-[8]"}`}>{isExpanded ? meaning : previewMeaning}</p>
-                    {meaning.length > 220 ? (
-                      <button
-                        onClick={() => toggleExpand(idx)}
-                        className="mt-3 inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-lg bg-amber-50 text-amber-700 border border-amber-100 shadow-sm hover:brightness-105 transition"
-                        aria-expanded={isExpanded}
-                      >
-                        {isExpanded ? "Show less" : "Read more"}
-                        <svg className={`w-4 h-4 transition-transform ${isExpanded ? "rotate-180" : ""}`} viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
-                        </svg>
-                      </button>
-                    ) : null}
-                  </div>
-                ) : (
-                  <p className="text-lg text-slate-400">No meaning available.</p>
+                  <p className="text-md text-slate-400">No meaning available.</p>
                 )}
               </div>
 
@@ -181,7 +181,7 @@ export default function SlokasClient({ slokas }: { slokas: Sloka[] }) {
           onClick={loadMore}
           disabled={visible >= maxVisible}
           aria-disabled={visible >= maxVisible}
-          className={`cursor-pointer px-6 py-3 rounded-full text-lg shadow-xl transition transform hover:-translate-y-0.5 ${visible >= maxVisible
+          className={`cursor-pointer px-6 py-3 rounded-full text-md shadow-xl transition transform hover:-translate-y-0.5 ${visible >= maxVisible
             ? "bg-slate-200 text-slate-500 cursor-not-allowed"
             : "bg-gradient-to-r from-amber-500 to-orange-500 text-white hover:from-amber-600 hover:to-orange-600"
             }`}

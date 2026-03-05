@@ -35,9 +35,9 @@ export default function PracticesClient() {
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: data.title }]}
       className="layout-md"
     >
-      <p className="mb-8 text-lg leading-relaxed">{data.intro}</p>
+      <p className="mb-8 text-md leading-relaxed">{data.intro}</p>
       <div className="mt-8">
-        <h2 className="text-lg font-bold mb-2">Explore Sub Pages:</h2>
+        <h2 className="text-md font-bold mb-2">Explore Sub Pages:</h2>
         <ul className="list-disc ml-6">
           {data.subpages.map((sp, idx) => (
             <li key={idx}><a href={sp.href} className="text-blue-600 hover:underline">{sp.label}</a></li>

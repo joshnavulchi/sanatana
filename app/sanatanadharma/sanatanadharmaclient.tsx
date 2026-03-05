@@ -70,26 +70,26 @@ export default function SanatanadharmaClientPage() {
                   </Tag>
                 </div>
                 {section?.para1 && (
-                  <p className="text-lg leading-loose text-gray-700 pl-0 first-letter:text-5xl first-letter:font-bold first-letter:text-orange-600 first-letter:mr-1 first-letter:float-left">{section.para1}</p>
+                  <p className="text-md leading-loose text-gray-700 pl-0 first-letter:text-5xl first-letter:font-bold first-letter:text-orange-600 first-letter:mr-1 first-letter:float-left">{section.para1}</p>
                 )}
                 {section?.para2 && (
-                  <p className="text-lg leading-loose text-gray-700 pl-0">{section.para2}</p>
+                  <p className="text-md leading-loose text-gray-700 pl-0">{section.para2}</p>
                 )}
                 {section?.para3 && (
-                  <p className="text-lg leading-loose text-gray-700 pl-0">{section.para3}</p>
+                  <p className="text-md leading-loose text-gray-700 pl-0">{section.para3}</p>
                 )}
                 {/* Keypoints as sub-bullets */}
                 {section?.keypoints && Array.isArray(section.keypoints) && section.keypoints.length > 0 && (
                   <ul className="space-y-4 mt-6 pl-0!">
                     {section.keypoints.map((point: any, idx: number) => (
                       <li key={idx} className="bg-orange-50 p-5 rounded-r-lg shadow-sm hover:shadow-md transition-shadow duration-200">
-                        <div className="font-bold text-orange-800 mb-2 text-lg flex items-center gap-2">
+                        <div className="font-bold text-orange-800 mb-2 text-md flex items-center gap-2">
                           <span className="w-2 h-2 bg-orange-600 rounded-full" />
                           {point.title}
                         </div>
-                        {point.para1 && <div className="text-gray-700 text-md pl-4 leading-relaxed mb-2">{point.para1}</div>}
-                        {point.para2 && <div className="text-gray-700 text-md pl-4 leading-relaxed mb-2">{point.para2}</div>}
-                        {point.para3 && <div className="text-gray-700 text-md pl-4 leading-relaxed">{point.para3}</div>}
+                        {point.para1 && <div className="text-gray-700 text-base pl-4 leading-relaxed mb-2">{point.para1}</div>}
+                        {point.para2 && <div className="text-gray-700 text-base pl-4 leading-relaxed mb-2">{point.para2}</div>}
+                        {point.para3 && <div className="text-gray-700 text-base pl-4 leading-relaxed">{point.para3}</div>}
                       </li>
                     ))}
                   </ul>

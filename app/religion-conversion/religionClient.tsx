@@ -68,7 +68,7 @@ export default function ReligionClient() {
           <h3 className="text-3xl font-extrabold text-indigo-800 mb-4">Theological Analysis</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <h4 className="text-lg font-bold text-blue-700 mb-2">Hinduism</h4>
+              <h4 className="text-md font-bold text-blue-700 mb-2">Hinduism</h4>
               <ul className="list-disc pl-6 text-gray-700 space-y-1">
                 <li><strong>Brahman:</strong> {ns.theological_analysis.hinduism.ultimate_reality}</li>
                 <li><strong>Major Deities:</strong> {ns.theological_analysis.hinduism.major_deities.join(', ')}</li>
@@ -78,7 +78,7 @@ export default function ReligionClient() {
               </ul>
             </div>
             <div>
-              <h5 className="text-lg font-bold text-rose-700 mb-2">Christianity</h5>
+              <h5 className="text-md font-bold text-rose-700 mb-2">Christianity</h5>
               <ul className="list-disc pl-6 text-gray-700 space-y-1">
                 <li><strong>Deity:</strong> {ns.theological_analysis.christianity.deity}</li>
                 <li><strong>Christ Role:</strong> {ns.theological_analysis.christianity.christ_role}</li>
@@ -87,7 +87,7 @@ export default function ReligionClient() {
               </ul>
             </div>
             <div>
-              <h6 className="text-lg font-bold text-green-700 mb-2">Islam</h6>
+              <h6 className="text-md font-bold text-green-700 mb-2">Islam</h6>
               <ul className="list-disc pl-6 text-gray-700 space-y-1">
                 <li><strong>Deity:</strong> {ns.theological_analysis.islam.deity}</li>
                 <li><strong>Theology:</strong> {ns.theological_analysis.islam.theology}</li>
@@ -96,7 +96,7 @@ export default function ReligionClient() {
               </ul>
             </div>
           </div>
-          <div className="mt-6 text-gray-800 italic text-lg">{ns.theological_analysis.comparative_summary}</div>
+          <div className="mt-6 text-gray-800 italic text-md">{ns.theological_analysis.comparative_summary}</div>
         </section>
       )}
 
@@ -106,34 +106,34 @@ export default function ReligionClient() {
           <h6 className="text-3xl font-extrabold text-amber-800 mb-4">Textual Historical Development</h6>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <h5 className="text-lg font-bold text-blue-700 mb-2">Vedic Tradition</h5>
+              <h5 className="text-md font-bold text-blue-700 mb-2">Vedic Tradition</h5>
               <ul className="list-disc pl-6 text-gray-700 space-y-1">
                 <li><strong>Earliest Text:</strong> {ns.textual_historical_development.vedic_tradition.earliest_text}</li>
                 <li><strong>Date:</strong> {ns.textual_historical_development.vedic_tradition.approx_date}</li>
                 <li><strong>Region:</strong> {ns.textual_historical_development.vedic_tradition.region}</li>
                 <li><strong>Structure:</strong> {ns.textual_historical_development.vedic_tradition.religious_structure}</li>
               </ul>
-              <h6 className="text-lg font-bold text-blue-700 mt-4 mb-2">Upanishadic Development</h6>
+              <h6 className="text-md font-bold text-blue-700 mt-4 mb-2">Upanishadic Development</h6>
               <ul className="list-disc pl-6 text-gray-700 space-y-1">
                 <li><strong>Date:</strong> {ns.textual_historical_development.upanishadic_development.approx_date}</li>
                 <li><strong>Development:</strong> {ns.textual_historical_development.upanishadic_development.development}</li>
               </ul>
             </div>
             <div>
-              <h6 className="text-lg font-bold text-rose-700 mb-2">Christianity</h6>
+              <h6 className="text-md font-bold text-rose-700 mb-2">Christianity</h6>
               <ul className="list-disc pl-6 text-gray-700 space-y-1">
                 <li><strong>Founder:</strong> {ns.textual_historical_development.christianity.founder}</li>
                 <li><strong>Lifetime:</strong> {ns.textual_historical_development.christianity.lifetime}</li>
                 <li><strong>NT Composition:</strong> {ns.textual_historical_development.christianity.new_testament_composition}</li>
                 <li><strong>Theological Development:</strong> {ns.textual_historical_development.christianity.theological_development}</li>
               </ul>
-              <h6 className="text-lg font-bold text-green-700 mt-4 mb-2">Abrahamic Traditions</h6>
+              <h6 className="text-md font-bold text-green-700 mt-4 mb-2">Abrahamic Traditions</h6>
               <ul className="list-disc pl-6 text-gray-700 space-y-1">
                 <li><strong>Hebrew Bible:</strong> {ns.textual_historical_development.hebrew_bible_tradition.development}</li>
                 <li><strong>Date:</strong> {ns.textual_historical_development.hebrew_bible_tradition.approx_date}</li>
                 <li><strong>Region:</strong> {ns.textual_historical_development.hebrew_bible_tradition.region}</li>
               </ul>
-              <h6 className="text-lg font-bold text-green-700 mt-4 mb-2">Islam</h6>
+              <h6 className="text-md font-bold text-green-700 mt-4 mb-2">Islam</h6>
               <ul className="list-disc pl-6 text-gray-700 space-y-1">
                 <li><strong>Prophet:</strong> {ns.textual_historical_development.islam.prophet}</li>
                 <li><strong>Lifetime:</strong> {ns.textual_historical_development.islam.lifetime}</li>
@@ -151,14 +151,14 @@ export default function ReligionClient() {
           <h3 className="text-3xl font-extrabold text-blue-800 mb-4">Linguistic Evolution</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <h6 className="text-lg font-bold text-green-700 mb-2">Brahman (Hinduism)</h6>
+              <h6 className="text-md font-bold text-green-700 mb-2">Brahman (Hinduism)</h6>
               <ul className="list-disc pl-6 text-gray-700 space-y-1">
                 <li><strong>Language:</strong> {ns.linguistic_evolution.brahman.language}</li>
                 <li><strong>Meaning:</strong> {ns.linguistic_evolution.brahman.meaning}</li>
               </ul>
             </div>
             <div>
-              <h6 className="text-lg font-bold text-rose-700 mb-2">God (Christianity)</h6>
+              <h6 className="text-md font-bold text-rose-700 mb-2">God (Christianity)</h6>
               <ul className="list-disc pl-6 text-gray-700 space-y-1">
                 <li><strong>Hebrew Root:</strong> {ns.linguistic_evolution.god_in_christianity.hebrew_root}</li>
                 <li><strong>Greek Term:</strong> {ns.linguistic_evolution.god_in_christianity.greek_term}</li>
@@ -166,7 +166,7 @@ export default function ReligionClient() {
               </ul>
             </div>
             <div>
-              <h6 className="text-lg font-bold text-blue-700 mb-2">Allah (Islam)</h6>
+              <h6 className="text-md font-bold text-blue-700 mb-2">Allah (Islam)</h6>
               <ul className="list-disc pl-6 text-gray-700 space-y-1">
                 <li><strong>Root:</strong> {ns.linguistic_evolution.allah.root}</li>
                 <li><strong>Language:</strong> {ns.linguistic_evolution.allah.language}</li>
@@ -195,7 +195,7 @@ export default function ReligionClient() {
           <h3 className="text-3xl font-extrabold text-rose-800 mb-4">Philosophical Differences</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <h6 className="text-lg font-bold text-blue-700 mb-2">Ontology</h6>
+              <h6 className="text-md font-bold text-blue-700 mb-2">Ontology</h6>
               <ul className="list-disc pl-6 text-gray-700 space-y-1">
                 <li><strong>Hinduism:</strong> {ns.philosophical_differences.ontology.hinduism}</li>
                 <li><strong>Islam:</strong> {ns.philosophical_differences.ontology.islam}</li>
@@ -203,7 +203,7 @@ export default function ReligionClient() {
               </ul>
             </div>
             <div>
-              <h6 className="text-lg font-bold text-green-700 mb-2">Incarnation</h6>
+              <h6 className="text-md font-bold text-green-700 mb-2">Incarnation</h6>
               <ul className="list-disc pl-6 text-gray-700 space-y-1">
                 <li><strong>Hinduism:</strong> {ns.philosophical_differences.incarnation.hinduism}</li>
                 <li><strong>Islam:</strong> {ns.philosophical_differences.incarnation.islam}</li>
@@ -211,7 +211,7 @@ export default function ReligionClient() {
               </ul>
             </div>
             <div>
-              <h6 className="text-lg font-bold text-rose-700 mb-2">Time Concept</h6>
+              <h6 className="text-md font-bold text-rose-700 mb-2">Time Concept</h6>
               <ul className="list-disc pl-6 text-gray-700 space-y-1">
                 <li><strong>Hinduism:</strong> {ns.philosophical_differences.time_concept.hinduism}</li>
                 <li><strong>Abrahamic Traditions:</strong> {ns.philosophical_differences.time_concept.abrahamic_traditions}</li>
@@ -252,7 +252,7 @@ export default function ReligionClient() {
           <h6 className="text-2xl font-bold text-blue-800 mb-3 border-l-4 border-blue-400 pl-3">{section.title}</h6>
           {/* Section content: string */}
           {typeof section.content === 'string' && (
-            <p className="text-gray-700 mb-2 text-md leading-relaxed">{section.content}</p>
+            <p className="text-gray-700 mb-2 text-base leading-relaxed">{section.content}</p>
           )}
           {/* Section content: array of strings */}
           {Array.isArray(section.content) && section.content.length > 0 && typeof section.content[0] === 'string' && (
@@ -267,11 +267,11 @@ export default function ReligionClient() {
             <div className="grid grid-cols-1 gap-4 mt-4">
               {section.content.map((item: any, i: number) => (
                 <div key={i} className="bg-gradient-to-br from-blue-50 to-blue-100 border-l-4 border-blue-400 rounded-lg p-4 shadow">
-                  <div className="font-semibold text-blue-700 text-lg mb-1 flex items-center gap-2">
+                  <div className="font-semibold text-blue-700 text-md mb-1 flex items-center gap-2">
                     <span className="inline-block w-2 h-2 bg-blue-400 rounded-full"></span>
                     {item.country}
                   </div>
-                  <div className="text-gray-700 text-md">{item.details}</div>
+                  <div className="text-gray-700 text-base">{item.details}</div>
                 </div>
               ))}
             </div>
@@ -286,11 +286,11 @@ export default function ReligionClient() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {religion.country_conversion_details.map((item, idx) => (
               <div key={idx} className="bg-gradient-to-br from-green-50 to-green-100 border-l-4 border-green-400 rounded-lg p-4 shadow hover:scale-105 transition-transform duration-200">
-                <div className="font-semibold text-green-700 text-lg mb-1 flex items-center gap-2">
+                <div className="font-semibold text-green-700 text-md mb-1 flex items-center gap-2">
                   <span className="inline-block w-2 h-2 bg-green-400 rounded-full"></span>
                   {item.country}
                 </div>
-                <div className="text-gray-700 text-lg">{item.details}</div>
+                <div className="text-gray-700 text-md">{item.details}</div>
               </div>
             ))}
           </div>
@@ -303,7 +303,7 @@ export default function ReligionClient() {
           <div className="flex items-start gap-4">
             <span className="text-2xl">⚠️</span>
             <div className="flex-1">
-              <h6 className="text-lg font-bold text-yellow-800 mb-2">Disclaimer</h6>
+              <h6 className="text-md font-bold text-yellow-800 mb-2">Disclaimer</h6>
               <p className="text-gray-700">{religion.disclaimer}</p>
             </div>
           </div>
