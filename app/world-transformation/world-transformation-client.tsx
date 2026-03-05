@@ -62,7 +62,7 @@ export default function WorldTransformationContent() {
               </div>
 
               {pageContent.meta?.description && (
-                <p className="text-md  leading-relaxed mb-4">
+                <p className="text-md md:text-lg  leading-relaxed mb-4">
                   {pageContent.meta.description}
                 </p>
               )}
@@ -101,7 +101,7 @@ export default function WorldTransformationContent() {
                       transition-all duration-300
                       transform hover:-translate-y-1
                     ">
-                      <h5 className="text-md font-bold text-gray-900 mb-3 flex items-center gap-2">
+                      <h5 className="text-md md:text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
                         <span className="text-base">📍</span>
                         {factor.title}
                       </h5>
@@ -187,7 +187,7 @@ export default function WorldTransformationContent() {
 
                       {d.theme && (
                         <p className="text-gray-600  italic mb-3 flex items-start gap-2">
-                          <span className="text-md">💭</span>
+                          <span className="text-md md:text-lg">💭</span>
                           <span className="flex-1">{d.theme}</span>
                         </p>
                       )}

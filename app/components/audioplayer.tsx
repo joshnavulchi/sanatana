@@ -300,7 +300,7 @@ export default function AudioPlayer({
       {/* Track Info */}
       <div className="text-center w-full hidden">
         <div
-          className="font-semibold text-md text-indigo-900 truncate"
+          className="font-semibold text-md md:text-lg text-indigo-900 truncate"
           title={currentTrack.title}
         >
           {currentTrack.title ?? "Untitled Track"}

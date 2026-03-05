@@ -97,7 +97,7 @@ const Region = ({ title, data }: { title: string; data?: RegionData }) => {
               transition-all duration-300
               transform hover:-translate-y-1
             ">
-              <h5 className="text-md font-bold text-gray-900 mb-3 flex items-center gap-2">
+              <h5 className="text-md md:text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
                 <span className="text-base">👑</span>
                 {ruler.name}
               </h5>
@@ -213,7 +213,7 @@ export default function HistoricalTimeline() {
               <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-500" />
             </div>
 
-            <p className="text-md   leading-relaxed">
+            <p className="text-md md:text-lg   leading-relaxed">
               {timeline.description}
             </p>
           </div>
@@ -272,7 +272,7 @@ export default function HistoricalTimeline() {
                         <div className="flex items-start gap-3">
                           <span className="text-2xl">📝</span>
                           <div className="flex-1">
-                            <strong className="text-md text-gray-900  block mb-3">Notes:</strong>
+                            <strong className="text-md md:text-lg text-gray-900  block mb-3">Notes:</strong>
                             <ul className="space-y-2">
                               {section.notes.map((note: string, i: number) => (
                                 <li key={i} className="flex items-start gap-2  ">

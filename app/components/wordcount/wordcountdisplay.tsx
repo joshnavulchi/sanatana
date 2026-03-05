@@ -95,8 +95,8 @@ export default function WordCountDisplay({ selector, debounce = 250, hideWhenZer
 
   return (
     <span className="wordcount text-gray-900" role="status" aria-live="polite">
-      <span className="label">Read time:</span>
-      <span className="value">{timeLabel}</span>
+      <span className="text-md label">Read time:</span>
+      <span className="text-md value">{timeLabel}</span>
     </span>
   );
 }

@@ -27,7 +27,7 @@ export default function DefinitionOfLife() {
           <h2 className="text-3xl font-bold bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700 bg-clip-text mb-2">
             The Essence of Life
           </h2>
-          <p className="text-md text-amber-700/80  italic">
+          <p className="text-md md:text-lg text-amber-700/80  italic">
             जीवनस्य परमं तत्त्वम्
           </p>
         </div>
@@ -144,7 +144,7 @@ export default function DefinitionOfLife() {
           <p className="text-base text-amber-700 font-medium">
             यत् पिण्डे तत् ब्रह्माण्डे
           </p>
-          <p className="text-xs md:base-sm text-gray-500 italic mt-1">
+          <p className="text-xs md:text-base text-gray-500 italic mt-1">
             As is the individual, so is the universe
           </p>
         </div>

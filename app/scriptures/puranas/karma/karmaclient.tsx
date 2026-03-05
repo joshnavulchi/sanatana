@@ -104,7 +104,7 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
                 <div className={`
                   inline-flex items-center gap-2 mb-2 px-4 py-2 ${isEven ? 'bg-gradient-to-r from-blue-500 to-blue-600 text-white' : 'bg-gradient-to-r from-amber-500 to-orange-600 text-white'} rounded-full shadow-lg font-semibold text-base ${isEven ? '' : 'ml-auto'} animate-fade-in
                 `}>
-                  <span className="text-md">{isEven ? '🧘' : '🕉️'}</span>
+                  <span className="text-md md:text-lg">{isEven ? '🧘' : '🕉️'}</span>
                   <span>{item.speaker}</span>
                 </div>
               )}
@@ -127,7 +127,7 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
                   ${isEven ? 'bg-blue-500' : 'bg-amber-500'}
                   rounded-full
                   flex items-center justify-center
-                  text-white text-xs md:base-sm
+                  text-white text-xs md:text-base
                   opacity-0 group-hover:opacity-100
                   transition-opacity duration-300
                 `}>

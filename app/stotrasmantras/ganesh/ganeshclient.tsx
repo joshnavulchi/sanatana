@@ -50,7 +50,7 @@ export default function GaneshClient() {
             <span className="text-3xl animate-pulse">🛕</span>
             <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-600" />
           </div>
-          <p className="text-md leading-relaxed">{ganesh?.intro}</p>
+          <p className="text-md md:text-lg leading-relaxed">{ganesh?.intro}</p>
         </div>
       </div>
       {Array.isArray(ganesh.ganesh_stotras) && ganesh.ganesh_stotras.map((section: any, index: number) => {

@@ -18,7 +18,7 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
       {/* Large intro header */}
       <div className="rounded-xl p-6 bg-gradient-to-r from-amber-50 to-yellow-50 border border-amber-100">
         <h2 className="text-2xl md:text-3xl font-extrabold text-amber-800">Essence & Insights</h2>
-        <p className="mt-2 text-md text-amber-700">A concise retelling and practical reflections on karma.</p>
+        <p className="mt-2 text-md md:text-lg text-amber-700">A concise retelling and practical reflections on karma.</p>
       </div>
 
       <div className="grid gap-6">
@@ -30,9 +30,9 @@ const Paragraphs = ({ lines }: { lines?: any[] }) => {
           >
             <div className="absolute left-0 top-4 h-12 w-1 bg-amber-300 rounded-r-md" />
             <div>
-              <p className="text-md text-gray-800 leading-relaxed ">{line}</p>
+              <p className="text-md md:text-lg text-gray-800 leading-relaxed ">{line}</p>
             </div>
-            <div className="mt-4 flex items-center justify-between text-md text-gray-500">
+            <div className="mt-4 flex items-center justify-between text-md md:text-lg text-gray-500">
               <span>Reflection</span>
               <span className="px-2 py-0.5 bg-amber-100 text-amber-700 rounded">Karma</span>
             </div>
@@ -48,7 +48,7 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
   return (
     <section className="mt-12">
       <div className="flex items-center gap-3 mb-6">
-        <span className="text-md text-amber-700 font-semibold">💬 Dialogue</span>
+        <span className="text-md md:text-lg text-amber-700 font-semibold">💬 Dialogue</span>
         <div className="flex-1 h-px bg-gray-100" />
       </div>
       <div className="space-y-4">
@@ -59,7 +59,7 @@ const Conversation = ({ convo }: { convo?: any[] }) => {
               <div className={`max-w-[86%] md:max-w-[70%]`}>
                 <div className={`flex items-center gap-3 ${isLeft ? '' : 'flex-row-reverse'}`}>
                   <div className="w-10 h-10 bg-amber-100 text-amber-700 rounded-full flex items-center justify-center font-medium">{isLeft ? '🧘' : '🕉️'}</div>
-                  <div className="text-md text-gray-600 font-medium">{item.speaker || (isLeft ? 'Seeker' : 'Teacher')}</div>
+                  <div className="text-md md:text-lg text-gray-600 font-medium">{item.speaker || (isLeft ? 'Seeker' : 'Teacher')}</div>
                 </div>
                 <div className={`mt-2 p-4 rounded-xl border border-gray-100 bg-white shadow-sm ${isLeft ? '' : 'text-right'}`}>
                   <p className="text-gray-800 leading-relaxed ">{item.message}</p>

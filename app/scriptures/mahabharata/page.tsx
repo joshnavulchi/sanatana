@@ -204,7 +204,7 @@ export default function Page({ searchParams }: any) {
                         {parva.detailednarration && (
                           <div className="mb-6 pl-0 md:pl-22">
                             <div className="bg-white bg-opacity-70 rounded-xl p-5 border border-gray-200">
-                              <p className="text-md text-gray-800 leading-relaxed">
+                              <p className="text-md md:text-lg text-gray-800 leading-relaxed">
                                 {parva.detailednarration.split('\n\n').slice(0, 2).join('\n\n')}...
                               </p>
                             </div>
@@ -213,8 +213,8 @@ export default function Page({ searchParams }: any) {
                         {parva.moralpsychologicalphilosophicallessons && (
                           <div className="mb-6 pl-0 md:pl-22">
                             <div className="bg-white bg-opacity-90 rounded-xl p-5 border-l-4 border-blue-500">
-                              <p className="text-md font-bold text-blue-700 uppercase tracking-wider mb-2">📚 Key Lessons</p>
-                              <p className="text-md text-gray-700 leading-relaxed">{parva.moralpsychologicalphilosophicallessons}</p>
+                              <p className="text-md md:text-lg font-bold text-blue-700 uppercase tracking-wider mb-2">📚 Key Lessons</p>
+                              <p className="text-md md:text-lg text-gray-700 leading-relaxed">{parva.moralpsychologicalphilosophicallessons}</p>
                             </div>
                           </div>
                         )}
@@ -224,7 +224,7 @@ export default function Page({ searchParams }: any) {
                             className={`inline-flex items-center gap-2 ${color.accent} hover:opacity-90 text-white px-4 py-2 rounded-md shadow-lg hover:shadow-xl transition-all duration-300 transform`}
                           >
                             <span>Read Complete Parva</span>
-                            <span className="text-md">→</span>
+                            <span className="text-md md:text-lg">→</span>
                           </Link>
                         </div>
                       </div>

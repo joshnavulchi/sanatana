@@ -60,7 +60,7 @@ export default function JyotirlingsClient() {
             <span className="text-3xl animate-pulse">🛕</span>
             <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-600" />
           </div>
-          <p className="text-md leading-relaxed  text-amber-900 drop-shadow animate-fade-in-up">{data.intro}</p>
+          <p className="text-md md:text-lg leading-relaxed  text-amber-900 drop-shadow animate-fade-in-up">{data.intro}</p>
         </div>
       </div>
 

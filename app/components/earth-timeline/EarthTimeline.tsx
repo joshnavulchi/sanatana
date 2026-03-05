@@ -318,7 +318,7 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
         <h2 className="text-4xl font-bold bg-gradient-to-r from-amber-400 via-orange-500 to-amber-400 bg-clip-text mb-3">
           🌍 Earth`&apos;`s Continental Timeline 🌏
         </h2>
-        <p className="text-gray-400 text-md">
+        <p className="text-gray-400 text-md md:text-lg">
           Witness tectonic plates shifting through time - from ancient Pangaea to future supercontinents
         </p>
       </div>
@@ -701,7 +701,7 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
                 </span>
               )}
             </h3>
-            <p className="text-gray-300 leading-relaxed text-md mb-3">{currentPeriod.description}</p>
+            <p className="text-gray-300 leading-relaxed text-md md:text-lg mb-3">{currentPeriod.description}</p>
             <div className="flex items-center gap-4 flex-wrap">
               <span className="px-4 py-2 bg-amber-500/20 border border-amber-500/50 rounded-full text-amber-400 font-bold">
                 📅 {formatYear(currentPeriod.year)}
@@ -830,13 +830,13 @@ export default function EarthTimeline({ autoPlay = false, speed = 4000, classNam
                   shadow-xl
                 `}>
                   <div className="font-bold text-amber-400">{period.name}</div>
-                  <div className="text-gray-300 text-xs md:base-sm mt-1">{formatYear(period.year)}</div>
+                  <div className="text-gray-300 text-xs md:text-base mt-1">{formatYear(period.year)}</div>
                   {/* Arrow */}
                   <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-2 h-2 bg-gray-900 border-r border-b border-gray-700 rotate-45" />
                 </div>
 
                 {/* Period indicator */}
-                <div className="absolute inset-0 flex items-center justify-center text-xs md:base-sm font-bold text-white">
+                <div className="absolute inset-0 flex items-center justify-center text-xs md:text-base font-bold text-white">
                   {index + 1}
                 </div>
 

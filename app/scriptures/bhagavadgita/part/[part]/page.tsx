@@ -448,7 +448,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
           <div className="relative z-10">
             <div className="flex items-center justify-center mb-4">
               <div className="bg-white bg-opacity-20 backdrop-blur-sm px-6 py-2 rounded-full border-2 border-white border-opacity-50">
-                <p className="text-white text-md font-bold uppercase tracking-widest">Sacred Scripture</p>
+                <p className="text-white text-md md:text-lg font-bold uppercase tracking-widest">Sacred Scripture</p>
               </div>
             </div>
             <h3 className="text-3xl font-black text-white text-center mb-4 leading-tight drop-shadow-lg">

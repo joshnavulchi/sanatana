@@ -24,7 +24,7 @@ const ShaktiPeethasTemplate: React.FC<ShaktiPeethasTemplateProps> = ({ data }) =
           <div className="absolute inset-0 blur-2xl opacity-30 pointer-events-none" style={{ background: 'radial-gradient(circle at 60% 40%, #f472b6 0%, transparent 70%)' }} />
           <h1 className="relative z-10 text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-pink-700 via-red-500 to-yellow-400 dark:from-pink-200 dark:via-red-300 dark:to-yellow-200 drop-shadow-xl mb-4 tracking-tight">{data.title}</h1>
           {data.description && (
-            <p className="relative z-10 text-md md:text-2xl text-pink-700 dark:text-pink-200 mb-8 font-medium tracking-wide">{data.description}</p>
+            <p className="relative z-10 text-md md:text-lg md:text-xl text-pink-700 dark:text-pink-200 mb-8 font-medium tracking-wide">{data.description}</p>
           )}
         </div>
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">

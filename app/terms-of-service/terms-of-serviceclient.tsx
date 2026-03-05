@@ -90,7 +90,7 @@ export default function TermsOfService() {
         <div className="flex items-center justify-between flex-wrap gap-4 pb-6 border-b-2 border-amber-200">
           <div className="flex items-center gap-3">
             <span className="text-2xl">📋</span>
-            <strong className="text-md ">{page.lastupdated}</strong>
+            <strong className="text-md md:text-lg ">{page.lastupdated}</strong>
           </div>
           <TextToSpeech sectionId="terms-of-service-content" />
         </div>

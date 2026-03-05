@@ -51,7 +51,7 @@ export default function TemplesInIndiaClient() {
             <span className="text-3xl animate-pulse">🗺️</span>
             <div className="h-px w-12 bg-gradient-to-l from-transparent to-indigo-600" />
           </div>
-          <p className="text-md leading-relaxed">{data.intro}</p>
+          <p className="text-md md:text-lg leading-relaxed">{data.intro}</p>
         </div>
       </div>
       {data.items.map((section: any, index: number) => {

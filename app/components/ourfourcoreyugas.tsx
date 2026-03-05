@@ -63,7 +63,7 @@ const Segment = ({ title, subtitle, years, isFirst, isLast, index }: any) => {
 
           <div className="text-center sm:text-left">
             <h6 className="text-2xl font-light tracking-wide drop-shadow-lg group-hover:scale-105 transition-transform duration-300 m-0">{title}</h6>
-            <p className="text-md font-light text-white group-hover:text-white transition-colors duration-300 mt-3">{subtitle}</p>
+            <p className="text-md md:text-lg font-light text-white group-hover:text-white transition-colors duration-300 mt-3">{subtitle}</p>
           </div>
         </div>
 
@@ -79,7 +79,7 @@ const Segment = ({ title, subtitle, years, isFirst, isLast, index }: any) => {
         border border-white/20
         rounded-full
         text-white/90
-        text-xs md:base-sm
+        text-xs md:text-base
         font-medium tracking-wide
         shadow-lg
         hover:bg-white/20 hover:scale-105
@@ -137,7 +137,7 @@ export default function OurFourCoreYugas() {
           </h6>
 
           <div className="mx-auto max-w-5xl px-3">
-            <p className="text-md leading-relaxed text-white">
+            <p className="text-md md:text-lg leading-relaxed text-white">
               {subtitle}{' '}
               <Link
                 href="/cosmictime"
@@ -186,15 +186,15 @@ export default function OurFourCoreYugas() {
             ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}
           `}>
           <div className="h-px w-20 bg-gradient-to-r from-transparent to-orange-400" />
-          <span className="text-orange-300 text-md font-light">✦ CYCLE OF TIME ✦</span>
+          <span className="text-orange-300 text-md md:text-lg font-light">✦ CYCLE OF TIME ✦</span>
           <div className="h-px w-20 bg-gradient-to-l from-transparent to-orange-400" />
         </div>
 
         <div className="px-3 my-6">
-          <h6 className="bg-white inline-flex text-md leading-relaxed shadow-md rounded-sm px-6 py-4 border-amber-50">
+          <h6 className="bg-white inline-flex text-md md:text-lg leading-relaxed shadow-md rounded-sm px-6 py-4 border-amber-50">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">{earthAgeComparisonNote}</span>
           </h6>
-          <p className="text-md leading-relaxed my-3 text-white">
+          <p className="text-md md:text-lg leading-relaxed my-3 text-white">
             {scalingComment}
           </p>
         </div>

@@ -220,7 +220,7 @@ export default function Header() {
                 return (
                   <div key={key} className="relative group">
                     <span className="px-3 py-2 rounded-lg font-semibold text-amber-800 group-hover:bg-amber-100 group-hover:text-orange-700 transition-colors duration-150 cursor-pointer select-none flex items-center gap-1">
-                      <span className="text-md">{icon}</span> {val.title}
+                      <span className="text-md md:text-lg">{icon}</span> {val.title}
                     </span>
                     <div className="absolute left-0 pt-2 min-w-[220px] bg-white border border-amber-200 rounded-2xl shadow-2xl opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-all duration-200 z-20 animate-fade-in-down overflow-hidden">
                       {/* Accent bar */}
@@ -281,7 +281,7 @@ export default function Header() {
                   return (
                     <div key={key} className="flex flex-col border-l-4 border-orange-300 pl-2 mb-2">
                       <span className="px-4 py-2 rounded-lg font-semibold text-amber-800 bg-amber-50 mb-1 select-none flex items-center gap-2">
-                        <span className="text-md">{icon}</span> {val.title}
+                        <span className="text-md md:text-lg">{icon}</span> {val.title}
                       </span>
                       {Object.entries(val.nav).map(([subKey, subLabel]) => (
                         <Link

@@ -28,7 +28,7 @@ export default function LakshmiClient() {
             <span className="text-3xl animate-pulse">📖</span>
             <div className="h-px w-12 bg-gradient-to-l from-transparent to-emerald-500" />
           </div>
-          <p className="text-md leading-relaxed">{placeholder}</p>
+          <p className="text-md md:text-lg leading-relaxed">{placeholder}</p>
         </div>
       </div>
     </PageLayout>

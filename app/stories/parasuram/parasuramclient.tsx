@@ -23,7 +23,7 @@ export default function ParasuramClient() {
         <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-400/10 rounded-full blur-3xl" />
         <div className="absolute bottom-0 left-0 w-80 h-80 bg-green-400/8 rounded-full blur-3xl" />
         <div className="relative z-10">
-          <p className="text-md leading-relaxed">{placeholder}</p>
+          <p className="text-md md:text-lg leading-relaxed">{placeholder}</p>
         </div>
       </div>
     </PageLayout>

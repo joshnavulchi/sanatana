@@ -67,7 +67,7 @@ export default function DonateClient() {
     >
       <div id="donate-content" className="space-y-12">
         <div className="text-center max-w-3xl mx-auto">
-          <p className="text-md  leading-relaxed">{donate.subtitle}</p>
+          <p className="text-md md:text-lg  leading-relaxed">{donate.subtitle}</p>
         </div>
 
         {/* Purpose */}
@@ -140,7 +140,7 @@ export default function DonateClient() {
                   </svg>
                 </div>
                 <h5 className="text-3xl font-bold text-amber-900  mb-3">{donate.donateOptions?.oneTime?.heading}</h5>
-                <p className="text-md text-gray-600 ">{donate.donateOptions?.oneTime?.note}</p>
+                <p className="text-md md:text-lg text-gray-600 ">{donate.donateOptions?.oneTime?.note}</p>
               </div>
 
               <div className="flex flex-col md:flex-row items-center justify-center gap-12 my-12">

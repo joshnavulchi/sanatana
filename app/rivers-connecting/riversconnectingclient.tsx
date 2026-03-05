@@ -157,7 +157,7 @@ export default function RiversConnectingClient() {
                                   <div className="flex-1">
                                     <div className="flex items-center gap-3 mb-2">
                                       <span className="text-2xl">{phaseStyle.icon}</span>
-                                      <h5 className={`text-md font-bold ${phaseStyle.textColor}`}>
+                                      <h5 className={`text-md md:text-lg font-bold ${phaseStyle.textColor}`}>
                                         {phase.label}
                                       </h5>
                                     </div>
@@ -175,7 +175,7 @@ export default function RiversConnectingClient() {
                                   </div>
 
                                   {/* Phase type badge */}
-                                  <div className={`${phaseStyle.bg} text-white px-3 py-1 rounded-full text-xs md:base-sm font-bold uppercase shadow-md`}>
+                                  <div className={`${phaseStyle.bg} text-white px-3 py-1 rounded-full text-xs md:text-base font-bold uppercase shadow-md`}>
                                     {phase.type}
                                   </div>
                                 </div>
@@ -222,7 +222,7 @@ export default function RiversConnectingClient() {
                   { type: 'Operations', icon: '🔄', color: 'from-slate-400 to-gray-400' }
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-center gap-3 bg-white rounded-lg p-3 shadow-sm hover:shadow-md transition-shadow">
-                    <div className={`w-10 h-10 bg-gradient-to-r ${item.color} rounded-lg flex items-center justify-center text-md shadow`}>
+                    <div className={`w-10 h-10 bg-gradient-to-r ${item.color} rounded-lg flex items-center justify-center text-md md:text-lg shadow`}>
                       {item.icon}
                     </div>
                     <span className="text-base font-medium text-gray-700">{item.type}</span>

@@ -41,7 +41,7 @@ export default function Page({ searchParams }: any) {
         <header className="rounded-lg overflow-hidden mb-6 border p-6 bg-gradient-to-r from-indigo-50 via-teal-50 to-emerald-50">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl md:text-4xl font-extrabold text-indigo-800">{page.title}</h1>
-            <p className="mt-3 text-md text-indigo-700">{page.purpose}</p>
+            <p className="mt-3 text-md md:text-lg text-indigo-700">{page.purpose}</p>
           </div>
         </header>
 
@@ -49,7 +49,7 @@ export default function Page({ searchParams }: any) {
           <main className="lg:col-span-3 space-y-6">
             {(page.list || []).map((group: any, gi: number) => (
               <section key={gi} className="rounded-lg p-6 bg-white shadow-sm border-t-4 border-indigo-200">
-                {group.category ? <h3 className="text-md font-semibold mb-3 text-indigo-800">{group.category}</h3> : null}
+                {group.category ? <h3 className="text-md md:text-lg font-semibold mb-3 text-indigo-800">{group.category}</h3> : null}
                 {group.description ? <p className="mb-3 text-slate-700">{group.description}</p> : null}
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 list-none p-0">
                   {(group.list || []).map((it: any, idx: number) => (
@@ -57,7 +57,7 @@ export default function Page({ searchParams }: any) {
                       <div className="flex items-start justify-between">
                         <div>
                           <h4 className="font-semibold text-slate-800">{it.name}</h4>
-                          <p className="text-xs md:base-sm text-slate-600">{it.summary}</p>
+                          <p className="text-xs md:text-base text-slate-600">{it.summary}</p>
                         </div>
                         <div className="text-base text-amber-700 ml-4 px-2 py-1 bg-amber-100 rounded-full">{it.veda}</div>
                       </div>
@@ -71,14 +71,14 @@ export default function Page({ searchParams }: any) {
           <aside className="space-y-4">
             <div className="p-4 rounded-lg bg-amber-50 border-l-4 border-amber-400">
               <h4 className="font-semibold mb-2 text-amber-800">Benefits</h4>
-              <ul className="list-disc ml-5 text-xs md:base-sm">
+              <ul className="list-disc ml-5 text-xs md:text-base">
                 {(page.benefits || []).map((b: string, i: number) => <li key={i}>{b}</li>)}
               </ul>
             </div>
 
             <div className="p-4 rounded-lg bg-teal-50 border-l-4 border-teal-400">
               <h4 className="font-semibold mb-2 text-teal-800">Features</h4>
-              <ul className="list-disc ml-5 text-xs md:base-sm">
+              <ul className="list-disc ml-5 text-xs md:text-base">
                 {(page.features || []).map((f: string, i: number) => <li key={i}>{f}</li>)}
               </ul>
             </div>
@@ -86,7 +86,7 @@ export default function Page({ searchParams }: any) {
             {page.unique_insights ? (
               <div className="p-4 rounded-lg bg-indigo-50 border-l-4 border-indigo-400">
                 <h4 className="font-semibold mb-2 text-indigo-800">Unique Insights</h4>
-                <p className="text-xs md:base-sm">{page.unique_insights}</p>
+                <p className="text-xs md:text-base">{page.unique_insights}</p>
               </div>
             ) : null}
           </aside>

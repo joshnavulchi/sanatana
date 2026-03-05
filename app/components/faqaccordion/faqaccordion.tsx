@@ -54,7 +54,7 @@ export default function FaqAccordion({ items, heading }: Props) {
                 onClick={() => setOpenIndex(open ? null : idx)}
                 className="relative w-full text-left flex justify-between items-start gap-4 p-3 z-10"
               >
-                <div className="flex items-start gap-4 flex-1">
+                <div className="flex items-center gap-4 flex-1">
                   <div className={`
                     flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-base font-bold transition-all duration-300
                     ${open
@@ -64,8 +64,7 @@ export default function FaqAccordion({ items, heading }: Props) {
                   `}>
                     {idx + 1}
                   </div>
-                  <span className={`
-                    font-semibold text-base leading-relaxed transition-colors duration-300
+                  <span className={`text-md leading-relaxed transition-colors duration-300
                     ${open
                       ? 'text-amber-900 '
                       : 'text-gray-800  group-hover:text-amber-700 '
@@ -94,8 +93,8 @@ export default function FaqAccordion({ items, heading }: Props) {
                   ${open ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0'}
                 `}
               >
-                <div className="px-6 pb-6 pl-20">
-                  <div className="pt-2   leading-relaxed whitespace-pre-line border-l-4 border-amber-400 pl-6 py-3 bg-white/50 /50 rounded-r-lg">
+                <div className="px-6 pl-20">
+                  <div className="pt-2 leading-relaxed whitespace-pre-line border-l-4 border-amber-400 pl-6 py-3 bg-white/50 /50 rounded-r-lg">
                     {it.a}
                   </div>
                 </div>

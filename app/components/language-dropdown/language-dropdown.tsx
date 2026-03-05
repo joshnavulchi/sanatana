@@ -168,7 +168,7 @@ export default function LanguageDropdown() {
           <div className="absolute -top-1 -right-1 w-2 h-2 bg-amber-500 rounded-full animate-pulse"></div>
         </div>
         {isClient && (
-          <span className="hidden md:flex text-md md:text-xs md:base-sm group-hover:text-amber-700 transition-colors duration-300">
+          <span className="hidden md:flex text-md md:text-lg md:text-xs md:text-base group-hover:text-amber-700 transition-colors duration-300">
             {currentLanguage?.nativeName || locale?.languagedropdown?.english || 'English'}
           </span>
         )}
@@ -311,7 +311,7 @@ export default function LanguageDropdown() {
                           {lang.nativeName}
                         </div>
                         <div className={`
-                          text-md truncate transition-colors duration-300
+                          text-md md:text-lg truncate transition-colors duration-300
                           ${isSelected
                             ? 'text-amber-700'
                             : 'text-gray-600'
@@ -352,7 +352,7 @@ export default function LanguageDropdown() {
                     </svg>
                   </div>
                   <p className="text-gray-600 font-medium">No languages found</p>
-                  <p className="text-md text-gray-500 mt-1">Try a different search term</p>
+                  <p className="text-md md:text-lg text-gray-500 mt-1">Try a different search term</p>
                 </div>
               )}
             </div>
