@@ -5,6 +5,7 @@ import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import Loader from '@components/loader';
+import LazyImage from '../components/lazyimage';
 
 interface TocItem {
   readonly id: string;
@@ -152,8 +153,8 @@ export default function DropIrrigationClient() {
 
       {section.paragraphs?.length
         ? section.paragraphs.map((paragraph, index) => (
-            <p key={`${section.id}-p-${index}`}>{paragraph}</p>
-          ))
+          <p key={`${section.id}-p-${index}`}>{paragraph}</p>
+        ))
         : null}
 
       {section.bullets?.length ? (
@@ -426,23 +427,17 @@ export default function DropIrrigationClient() {
       className="layout-md"
     >
       <section className="relative overflow-hidden rounded-3xl border border-emerald-200 bg-gradient-to-br from-emerald-50 via-white to-cyan-50 p-6 shadow-sm md:p-8">
-        <div
-          className="absolute -right-20 -top-20 h-56 w-56 rounded-full bg-emerald-100 blur-3xl"
-          aria-hidden="true"
-        />
-        <div
-          className="absolute -bottom-20 -left-20 h-56 w-56 rounded-full bg-cyan-100 blur-3xl"
-          aria-hidden="true"
-        />
+        <div className="absolute -right-20 -top-20 h-56 w-56 rounded-full bg-emerald-100 blur-3xl" aria-hidden="true" />
+        <div className="absolute -bottom-20 -left-20 h-56 w-56 rounded-full bg-cyan-100 blur-3xl" aria-hidden="true" />
         <div className="relative">
           {dripIrrigation.hero?.badge ? (
             <span className="inline-flex rounded-full border border-emerald-200 bg-white px-3 py-1 text-xs font-semibold uppercase tracking-wider text-emerald-700">
               {dripIrrigation.hero.badge}
             </span>
           ) : null}
-          <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 md:text-5xl">
+          <h3 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 md:text-5xl">
             {dripIrrigation.hero?.title || dripIrrigation.title}
-          </h1>
+          </h3>
           {dripIrrigation.hero?.subtitle ? (
             <p className="mt-3 max-w-3xl text-base text-slate-700 md:text-lg">
               {dripIrrigation.hero.subtitle}
@@ -457,15 +452,15 @@ export default function DropIrrigationClient() {
       </section>
 
       <div className="mt-8 grid gap-6 lg:grid-cols-[18rem_minmax(0,1fr)]">
-        <aside className="lg:sticky lg:top-20 lg:h-fit">
+        <aside className="lg:h-fit">
           {tocItems.length ? (
             <nav
               className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm"
               aria-label={dripIrrigation.toc?.title || 'On this page'}
             >
-              <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-slate-900">
+              <h4 className="mb-3 text-sm font-semibold uppercase tracking-wide text-slate-900">
                 {dripIrrigation.toc?.title || 'On this page'}
-              </h2>
+              </h4>
               <ul className="space-y-1">
                 {tocItems.map((item) => (
                   <li key={item.id}>
@@ -483,20 +478,24 @@ export default function DropIrrigationClient() {
         </aside>
 
         <div className="space-y-6">
+          <div className="w-full bg-white rounded-2xl border border-slate-200 shadow-sm">
+            <LazyImage src="/images/drip-irrigation.png" width="1600" height="500" className="p-5" alt="Drip Irrigation Process" />
+          </div>
+
           {dripIrrigation.sections.map((section) => (
             <section
               key={section.id}
               id={section.id}
               className="scroll-mt-24 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm md:p-6"
             >
-              <h2 className="text-2xl font-bold text-slate-900">{section.title}</h2>
+              <h5 className="text-2xl font-bold text-slate-900">{section.title}</h5>
               {renderSectionContent(section)}
             </section>
           ))}
 
           {dripIrrigation.diagram ? (
             <section className="rounded-2xl border border-indigo-200 bg-indigo-50 p-5 shadow-sm md:p-6">
-              <h2 className="text-2xl font-bold text-indigo-950">{dripIrrigation.diagram.title}</h2>
+              <h6 className="text-2xl font-bold text-indigo-950">{dripIrrigation.diagram.title}</h6>
               <div className="mt-4 overflow-x-auto rounded-xl bg-indigo-950 p-4">
                 <pre className="whitespace-pre-wrap font-mono text-sm leading-7 text-indigo-100">
                   {(dripIrrigation.diagram.lines || []).join('\n')}
@@ -507,13 +506,13 @@ export default function DropIrrigationClient() {
 
           {dripIrrigation.cta ? (
             <section className="rounded-2xl bg-gradient-to-r from-emerald-600 to-cyan-600 p-6 text-white shadow-lg">
-              <h2 className="text-2xl font-bold">{dripIrrigation.cta.title}</h2>
+              <h6 className="text-2xl">{dripIrrigation.cta.title}</h6>
               {dripIrrigation.cta.body ? (
                 <p className="mt-2 max-w-3xl text-emerald-50">{dripIrrigation.cta.body}</p>
               ) : null}
               <button
                 type="button"
-                className="mt-4 inline-flex items-center rounded-lg bg-white px-4 py-2 text-sm font-semibold text-emerald-700 shadow-sm transition hover:bg-emerald-50"
+                className="mt-4 items-center rounded-lg bg-white px-4 py-2 text-sm font-semibold text-emerald-700 shadow-sm transition hover:bg-emerald-50 hidden"
               >
                 {dripIrrigation.cta.button?.label || 'Get Started'}
               </button>
