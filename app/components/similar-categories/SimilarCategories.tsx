@@ -68,7 +68,7 @@ export default function SimilarCategories({
                 links.push({ key: navKey, label, href });
               }
             });
-            if (links.length > 0) extractedCategories.push({ key, title: categoryTitle, links: links.slice(0, 6) });
+            if (links.length > 0) extractedCategories.push({ key, title: categoryTitle, links: links.slice(0, maxItems) });
           });
         }
         // Ensure philosophy is always included if it exists and not excluded

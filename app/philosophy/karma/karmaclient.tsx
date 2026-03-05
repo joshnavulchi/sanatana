@@ -105,7 +105,7 @@ export default function KrishnaExplainsFiveKarmasClient() {
 
   if (isLoading && !renderTitle) {
     return (
-      <PageLayout metaKey="philosophy_karma" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Philosophy', href: '/philosophy' }, { label: 'Karma' }]} className="layout-md">
+      <PageLayout metaKey="philosophy_karma" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Karma' }]} className="layout-md">
         <div className="flex items-center justify-center py-12"><Loader /></div>
       </PageLayout>
     );
