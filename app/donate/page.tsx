@@ -4,13 +4,13 @@ export const generateMetadata = createGenerateMetadata('donate');
 
 import DonateClient from './donateclient';
 import StructuredData from '../components/structured-data/StructuredData';
-import WebVitalsReporter from '../components/WebVitalsReporter';
+
 
 export default function Page() {
   return (
     <>
       <StructuredData metaKey="donate" />
-      {process.env.NODE_ENV !== 'production' && <WebVitalsReporter page="donate" />}
+      && <WebVitalsReporter page="donate" />}
       <DonateClient />;
     </>
   );
