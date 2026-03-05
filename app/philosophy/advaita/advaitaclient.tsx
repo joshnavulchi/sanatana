@@ -30,7 +30,7 @@ export default function AdvaitaClient() {
 
   if (isLoading && !data.title) {
     return (
-      <PageLayout metaKey="philosophy_advaita" title="" breadcrumbs={[{ label: "Home", href: "/" }, { label: "Philosophy", href: "/philosophy" }, { label: "Advaita" }]} className="layout-md">
+      <PageLayout metaKey="philosophy_advaita" title="" breadcrumbs={[{ label: "Home", href: "/" }, { label: "Advaita" }]} className="layout-md">
         <div className="flex items-center justify-center py-12"><Loader /></div>
       </PageLayout>
     );
@@ -40,7 +40,7 @@ export default function AdvaitaClient() {
     <PageLayout
       metaKey="philosophy_advaita"
       title={data.title}
-      breadcrumbs={[{ label: "Home", href: "/" }, { label: "Philosophy", href: "/philosophy" }, { label: data.title }]}
+      breadcrumbs={[{ label: "Home", href: "/" }, { label: data.title }]}
       className="layout-md"
     >
       <div id="advaita-content">

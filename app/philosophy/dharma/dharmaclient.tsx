@@ -30,7 +30,7 @@ export default function DharmaClient() {
     <PageLayout
       metaKey="philosophy_dharma"
       title={title}
-      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Philosophy', href: '/philosophy' }, { label: 'Dharma' }]}
+      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Dharma' }]}
       className="layout-md"
     >
       <div className="flex flex-col lg:flex-row gap-8">

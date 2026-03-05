@@ -25,7 +25,7 @@ export default function YogaClient() {
 
   if (isLoading || !yoga) {
     return (
-      <PageLayout metaKey="philosophy_yoga" title="" breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Philosophy', href: '/philosophy' }, { label: 'Yoga' }]} className="layout-md">
+      <PageLayout metaKey="philosophy_yoga" title="" breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Yoga' }]} className="layout-md">
         <div className="flex items-center justify-center py-12"><Loader /></div>
       </PageLayout>
     );
@@ -35,7 +35,7 @@ export default function YogaClient() {
     <PageLayout
       metaKey="philosophy_yoga"
       title={page.title}
-      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Philosophy', href: '/philosophy' }, { label: 'Yoga' }]}
+      breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Yoga' }]}
       className="layout-md"
     >
       <div className="flex flex-col lg:flex-row gap-8">
