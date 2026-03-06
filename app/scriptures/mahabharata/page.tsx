@@ -87,7 +87,7 @@ export default function Page({ searchParams }: any) {
               </h4>
             </div>
             <div className="bg-white border-l-4 border-blue-500 shadow-lg rounded-r-xl p-6">
-              <p className="text-base text-gray-700 leading-relaxed">{page.introduction}</p>
+              <p className="text-base md:text-md text-gray-700 leading-relaxed">{page.introduction}</p>
             </div>
           </section>
         )}
@@ -110,11 +110,11 @@ export default function Page({ searchParams }: any) {
                         {idx + 1}
                       </div>
                       <div className="flex-1">
-                        <h3 className="text-base font-bold text-blue-900 group-hover:text-indigo-600 transition-colors">{c.name}</h3>
+                        <h3 className="text-base md:text-md font-bold text-blue-900 group-hover:text-indigo-600 transition-colors">{c.name}</h3>
                       </div>
                     </div>
                     {c.description && (
-                      <p className="text-base text-gray-700 leading-relaxed ">{c.description}</p>
+                      <p className="text-base md:text-md text-gray-700 leading-relaxed ">{c.description}</p>
                     )}
                   </div>
                 </div>
@@ -138,11 +138,11 @@ export default function Page({ searchParams }: any) {
                   <div className="pl-8 pr-6 py-5">
                     <div className="flex items-start gap-4">
                       <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center border-2 border-blue-400">
-                        <span className="text-base font-bold text-blue-700">{idx + 1}</span>
+                        <span className="text-base md:text-md font-bold text-blue-700">{idx + 1}</span>
                       </div>
                       <div className="flex-1">
-                        <h3 className="text-base font-bold text-blue-900 mb-2">{typeof ct.title === 'string' ? ct.title : ct['title']}</h3>
-                        {ct.description && <p className="text-base text-gray-700 leading-relaxed">{ct.description}</p>}
+                        <h3 className="text-base md:text-md font-bold text-blue-900 mb-2">{typeof ct.title === 'string' ? ct.title : ct['title']}</h3>
+                        {ct.description && <p className="text-base md:text-md text-gray-700 leading-relaxed">{ct.description}</p>}
                       </div>
                     </div>
                   </div>
@@ -159,7 +159,7 @@ export default function Page({ searchParams }: any) {
                 <span className="relative z-10 bg-white px-6">The Eighteen Parvas</span>
                 <div className="absolute top-1/2 left-0 w-full h-0.5 bg-gradient-to-r from-blue-300 via-blue-500 to-blue-300"></div>
               </h2>
-              <p className="text-center text-gray-600 mt-4 text-base max-w-2xl mx-auto">Journey through the eighteen books of the Mahabharata, each revealing profound wisdom about duty, morality, and the complexity of human nature.</p>
+              <p className="text-center text-gray-600 mt-4 text-base md:text-md max-w-2xl mx-auto">Journey through the eighteen books of the Mahabharata, each revealing profound wisdom about duty, morality, and the complexity of human nature.</p>
             </div>
             <div className="space-y-8">
               {Object.entries(page.parvas)
@@ -204,7 +204,7 @@ export default function Page({ searchParams }: any) {
                         {parva.detailednarration && (
                           <div className="mb-6 pl-0 md:pl-22">
                             <div className="bg-white bg-opacity-70 rounded-xl p-5 border border-gray-200">
-                              <p className="text-md md:text-lg text-gray-800 leading-relaxed">
+                              <p className="text-xl md:text-lg text-gray-800 leading-relaxed">
                                 {parva.detailednarration.split('\n\n').slice(0, 2).join('\n\n')}...
                               </p>
                             </div>
@@ -213,8 +213,8 @@ export default function Page({ searchParams }: any) {
                         {parva.moralpsychologicalphilosophicallessons && (
                           <div className="mb-6 pl-0 md:pl-22">
                             <div className="bg-white bg-opacity-90 rounded-xl p-5 border-l-4 border-blue-500">
-                              <p className="text-md md:text-lg font-bold text-blue-700 uppercase tracking-wider mb-2">📚 Key Lessons</p>
-                              <p className="text-md md:text-lg text-gray-700 leading-relaxed">{parva.moralpsychologicalphilosophicallessons}</p>
+                              <p className="text-xl md:text-lg font-bold text-blue-700 uppercase tracking-wider mb-2">📚 Key Lessons</p>
+                              <p className="text-xl md:text-lg text-gray-700 leading-relaxed">{parva.moralpsychologicalphilosophicallessons}</p>
                             </div>
                           </div>
                         )}
@@ -224,7 +224,7 @@ export default function Page({ searchParams }: any) {
                             className={`inline-flex items-center gap-2 ${color.accent} hover:opacity-90 text-white px-4 py-2 rounded-md shadow-lg hover:shadow-xl transition-all duration-300 transform`}
                           >
                             <span>Read Complete Parva</span>
-                            <span className="text-md md:text-lg">→</span>
+                            <span className="text-xl md:text-lg">→</span>
                           </Link>
                         </div>
                       </div>
@@ -244,7 +244,7 @@ export default function Page({ searchParams }: any) {
               </h2>
             </div>
             <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl border-2 border-blue-300 shadow-xl p-8">
-              <p className="text-base text-gray-700 leading-relaxed">{page.conclusion}</p>
+              <p className="text-base md:text-md text-gray-700 leading-relaxed">{page.conclusion}</p>
             </div>
           </section>
         )}

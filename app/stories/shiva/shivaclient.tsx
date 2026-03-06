@@ -41,14 +41,14 @@ export default function ShivaClient() {
 
   const renderValue = (value: any, key?: string) => {
     if (value == null) return null;
-    if (typeof value === 'string') return <div className="text-base mb-3">{value}</div>;
+    if (typeof value === 'string') return <div className="text-base md:text-md mb-3">{value}</div>;
 
     if (Array.isArray(value)) {
       if (value.length === 0) return null;
       return (
         <div className="space-y-3">
           {value.map((v, i) => (
-            <div key={i} className="text-base">{renderValue(v)}</div>
+            <div key={i} className="text-base md:text-md">{renderValue(v)}</div>
           ))}
         </div>
       );
@@ -58,13 +58,13 @@ export default function ShivaClient() {
       return (
         <div className="space-y-3">
           {Object.values(value).map((v, i) => (
-            <div key={i} className="text-base">{renderValue(v)}</div>
+            <div key={i} className="text-base md:text-md">{renderValue(v)}</div>
           ))}
         </div>
       );
     }
 
-    return <div className="text-base">{String(value)}</div>;
+    return <div className="text-base md:text-md">{String(value)}</div>;
   };
 
   return (
@@ -83,7 +83,7 @@ export default function ShivaClient() {
             <span className="text-3xl animate-pulse">📖</span>
             <div className="h-px w-12 bg-gradient-to-l from-transparent to-emerald-500" />
           </div>
-          {data.intro && <p className="text-md md:text-lg leading-relaxed">{data.intro}</p>}
+          {data.intro && <p className="text-xl md:text-lg leading-relaxed">{data.intro}</p>}
         </div>
       </div>
       <div className="prose max-w-none text-gray-900 py-3 md:py-12">

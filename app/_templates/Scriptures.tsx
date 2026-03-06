@@ -25,7 +25,7 @@ const ScripturesTemplate: React.FC<ScripturesTemplateProps> = ({ data }) => {
           <div className="absolute inset-0 blur-2xl opacity-30 pointer-events-none" style={{ background: 'radial-gradient(circle at 60% 40%, #a78bfa 0%, transparent 70%)' }} />
           <h1 className="relative z-10 text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-700 via-pink-500 to-indigo-400 dark:from-purple-200 dark:via-pink-300 dark:to-indigo-200 drop-shadow-xl mb-4 tracking-tight">{data.title}</h1>
           {data.description && (
-            <p className="relative z-10 text-md md:text-lg md:text-xl text-purple-700 dark:text-purple-200 mb-8 font-medium tracking-wide">{data.description}</p>
+            <p className="relative z-10 text-xl md:text-lg text-purple-700 dark:text-purple-200 mb-8 font-medium tracking-wide">{data.description}</p>
           )}
         </div>
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
@@ -36,7 +36,7 @@ const ScripturesTemplate: React.FC<ScripturesTemplateProps> = ({ data }) => {
                 <img src={scripture.image} alt={scripture.name} className="w-24 h-24 object-cover rounded-full mb-6 border-4 border-purple-200 dark:border-purple-700 shadow-lg" />
               )}
               <h2 className="text-2xl font-extrabold text-purple-800 dark:text-purple-200 mb-3 text-center drop-shadow-md">{scripture.name}</h2>
-              <p className="text-purple-700 dark:text-purple-100 text-base text-center leading-relaxed mb-2">{scripture.summary}</p>
+              <p className="text-purple-700 dark:text-purple-100 text-base md:text-md text-center leading-relaxed mb-2">{scripture.summary}</p>
               {scripture.link && (
                 <a href={scripture.link} className="text-purple-600 dark:text-purple-300 underline mt-2" target="_blank" rel="noopener noreferrer">{t('scriptures.read_more')}</a>
               )}

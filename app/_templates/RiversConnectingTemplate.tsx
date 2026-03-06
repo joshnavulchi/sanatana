@@ -24,7 +24,7 @@ const RiversConnectingTemplate: React.FC<RiversConnectingTemplateProps> = ({ dat
           <div className="absolute inset-0 blur-2xl opacity-30 pointer-events-none" style={{ background: 'radial-gradient(circle at 60% 40%, #2563eb 0%, transparent 70%)' }} />
           <h1 className="relative z-10 text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-cyan-500 to-teal-400 dark:from-blue-200 dark:via-cyan-300 dark:to-teal-200 drop-shadow-xl mb-4 tracking-tight">{data.title}</h1>
           {data.description && (
-            <p className="relative z-10 text-md md:text-lg md:text-xl text-blue-700 dark:text-blue-200 mb-8 font-medium tracking-wide">{data.description}</p>
+            <p className="relative z-10 text-xl md:text-lg text-blue-700 dark:text-blue-200 mb-8 font-medium tracking-wide">{data.description}</p>
           )}
         </div>
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
@@ -35,7 +35,7 @@ const RiversConnectingTemplate: React.FC<RiversConnectingTemplateProps> = ({ dat
                 <img src={river.image} alt={river.name} className="w-24 h-24 object-cover rounded-full mb-6 border-4 border-blue-200 dark:border-blue-700 shadow-lg" />
               )}
               <h2 className="text-2xl font-extrabold text-blue-800 dark:text-blue-200 mb-3 text-center drop-shadow-md">{river.name}</h2>
-              <p className="text-blue-700 dark:text-blue-100 text-base text-center leading-relaxed mb-2">{river.summary}</p>
+              <p className="text-blue-700 dark:text-blue-100 text-base md:text-md text-center leading-relaxed mb-2">{river.summary}</p>
               {river.link && (
                 <a href={river.link} className="text-blue-600 dark:text-blue-300 underline mt-2" target="_blank" rel="noopener noreferrer">{t('riversconnecting.learn_more')}</a>
               )}

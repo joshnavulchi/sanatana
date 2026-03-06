@@ -60,7 +60,7 @@ export default function JyotirlingsClient() {
             <span className="text-3xl animate-pulse">🛕</span>
             <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-600" />
           </div>
-          <p className="text-md md:text-lg leading-relaxed  text-amber-900 drop-shadow animate-fade-in-up">{data.intro}</p>
+          <p className="text-xl md:text-lg leading-relaxed  text-amber-900 drop-shadow animate-fade-in-up">{data.intro}</p>
         </div>
       </div>
 
@@ -79,10 +79,10 @@ export default function JyotirlingsClient() {
                 <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-yellow-100 to-amber-100 rounded-xl flex items-center justify-center text-2xl shadow-md group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300">{icon}</div>
                 <Tag className="flex-1 text-2xl md:text-3xl font-bold text-gray-900 group-hover:text-amber-700 transition-colors duration-300">{section.name || section.title}</Tag>
               </div>
-              {section?.timeline?.early_mentions && <p className="text-base leading-relaxed ">{section.timeline.early_mentions}</p>}
-              {section?.timeline?.ancient_mentions && <p className="text-base leading-relaxed ">{section.timeline.ancient_mentions}</p>}
-              {section?.unique_features && <p className="text-base leading-relaxed ">{Array.isArray(section.unique_features) ? section.unique_features.join(', ') : section.unique_features}</p>}
-              {section?.dynasties && <p className="text-base leading-relaxed ">{Array.isArray(section.dynasties) ? section.dynasties.join(', ') : section.dynasties}</p>}
+              {section?.timeline?.early_mentions && <p className="text-base md:text-md leading-relaxed ">{section.timeline.early_mentions}</p>}
+              {section?.timeline?.ancient_mentions && <p className="text-base md:text-md leading-relaxed ">{section.timeline.ancient_mentions}</p>}
+              {section?.unique_features && <p className="text-base md:text-md leading-relaxed ">{Array.isArray(section.unique_features) ? section.unique_features.join(', ') : section.unique_features}</p>}
+              {section?.dynasties && <p className="text-base md:text-md leading-relaxed ">{Array.isArray(section.dynasties) ? section.dynasties.join(', ') : section.dynasties}</p>}
             </div>
           </div>
         );
@@ -93,7 +93,7 @@ export default function JyotirlingsClient() {
           <div className="flex items-start gap-4">
             <span className="text-3xl">⚠️</span>
             <div className="flex-1">
-              <h4 className="text-base font-bold text-gray-900 mb-2">Disclaimer</h4>
+              <h4 className="text-base md:text-md font-bold text-gray-900 mb-2">Disclaimer</h4>
               <p className="leading-relaxed">{data.disclaimer}</p>
             </div>
           </div>

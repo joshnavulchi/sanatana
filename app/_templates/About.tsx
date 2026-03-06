@@ -24,7 +24,7 @@ const AboutTemplate: React.FC<AboutTemplateProps> = ({ data }) => {
           <div className="absolute inset-0 blur-2xl opacity-30 pointer-events-none" style={{ background: 'radial-gradient(circle at 60% 40%, #22c55e 0%, transparent 70%)' }} />
           <h1 className="relative z-10 text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-lime-500 to-emerald-400 dark:from-green-200 dark:via-lime-300 dark:to-emerald-200 drop-shadow-xl mb-4 tracking-tight">{data.title}</h1>
           {data.subtitle && (
-            <p className="relative z-10 text-md md:text-lg md:text-xl text-green-700 dark:text-green-200 mb-8 font-medium tracking-wide">{data.subtitle}</p>
+            <p className="relative z-10 text-xl md:text-lg text-green-700 dark:text-green-200 mb-8 font-medium tracking-wide">{data.subtitle}</p>
           )}
         </div>
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
@@ -42,7 +42,7 @@ const AboutTemplate: React.FC<AboutTemplateProps> = ({ data }) => {
                 />
               )}
               <h2 className="text-2xl font-extrabold text-green-800 dark:text-green-200 mb-3 text-center drop-shadow-md">{section.heading}</h2>
-              <p className="text-green-700 dark:text-green-100 text-base text-center leading-relaxed">{section.content}</p>
+              <p className="text-green-700 dark:text-green-100 text-base md:text-md text-center leading-relaxed">{section.content}</p>
             </article>
           ))}
         </div>

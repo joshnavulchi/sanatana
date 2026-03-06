@@ -97,12 +97,12 @@ const Region = ({ title, data }: { title: string; data?: RegionData }) => {
               transition-all duration-300
               transform hover:-translate-y-1
             ">
-              <h5 className="text-md md:text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
-                <span className="text-base">👑</span>
+              <h5 className="text-xl md:text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+                <span className="text-base md:text-md">👑</span>
                 {ruler.name}
               </h5>
 
-              <div className="space-y-2 text-base">
+              <div className="space-y-2 text-base md:text-md">
                 {ruler.dynasty && (
                   <p className="">
                     <strong className="text-amber-800">Dynasty:</strong> {ruler.dynasty}
@@ -213,7 +213,7 @@ export default function HistoricalTimeline() {
               <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-500" />
             </div>
 
-            <p className="text-md md:text-lg   leading-relaxed">
+            <p className="text-xl md:text-lg   leading-relaxed">
               {timeline.description}
             </p>
           </div>
@@ -242,12 +242,12 @@ export default function HistoricalTimeline() {
                         <div className="flex items-start gap-3 mb-4">
                           <span className="text-2xl">📅</span>
                           <div className="flex-1">
-                            <h4 className="text-base font-bold text-gray-900  mb-1">{item.term}</h4>
-                            <p className="text-base text-amber-800  font-semibold">{item.fullForm}</p>
+                            <h4 className="text-base md:text-md font-bold text-gray-900  mb-1">{item.term}</h4>
+                            <p className="text-base md:text-md text-amber-800  font-semibold">{item.fullForm}</p>
                           </div>
                         </div>
 
-                        <div className="space-y-2 text-base">
+                        <div className="space-y-2 text-base md:text-md">
                           <p className=" "><strong className="text-amber-800 ">Time Period:</strong> {item.timePeriod}</p>
                           <p className=" "><strong className="text-amber-800 ">Counting Direction:</strong> {item.countingDirection}</p>
                           <p className=" "><strong className="text-amber-800 ">Equivalent To:</strong> {item.equivalentTo}</p>
@@ -272,7 +272,7 @@ export default function HistoricalTimeline() {
                         <div className="flex items-start gap-3">
                           <span className="text-2xl">📝</span>
                           <div className="flex-1">
-                            <strong className="text-md md:text-lg text-gray-900  block mb-3">Notes:</strong>
+                            <strong className="text-xl md:text-lg text-gray-900  block mb-3">Notes:</strong>
                             <ul className="space-y-2">
                               {section.notes.map((note: string, i: number) => (
                                 <li key={i} className="flex items-start gap-2  ">

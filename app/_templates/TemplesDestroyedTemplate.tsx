@@ -24,7 +24,7 @@ const TemplesDestroyedTemplate: React.FC<TemplesDestroyedTemplateProps> = ({ dat
           <div className="absolute inset-0 blur-2xl opacity-30 pointer-events-none" style={{ background: 'radial-gradient(circle at 60% 40%, #ef4444 0%, transparent 70%)' }} />
           <h1 className="relative z-10 text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-red-700 via-orange-500 to-yellow-400 dark:from-red-200 dark:via-orange-300 dark:to-yellow-200 drop-shadow-xl mb-4 tracking-tight">{data.title}</h1>
           {data.description && (
-            <p className="relative z-10 text-md md:text-lg md:text-xl text-red-700 dark:text-red-200 mb-8 font-medium tracking-wide">{data.description}</p>
+            <p className="relative z-10 text-xl md:text-lg text-red-700 dark:text-red-200 mb-8 font-medium tracking-wide">{data.description}</p>
           )}
         </div>
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
@@ -35,7 +35,7 @@ const TemplesDestroyedTemplate: React.FC<TemplesDestroyedTemplateProps> = ({ dat
                 <img src={temple.image} alt={temple.name} className="w-24 h-24 object-cover rounded-full mb-6 border-4 border-red-200 dark:border-red-700 shadow-lg" />
               )}
               <h2 className="text-2xl font-extrabold text-red-800 dark:text-red-200 mb-3 text-center drop-shadow-md">{temple.name}</h2>
-              <p className="text-red-700 dark:text-red-100 text-base text-center leading-relaxed mb-2">{temple.summary}</p>
+              <p className="text-red-700 dark:text-red-100 text-base md:text-md text-center leading-relaxed mb-2">{temple.summary}</p>
               {temple.link && (
                 <a href={temple.link} className="text-red-600 dark:text-red-300 underline mt-2" target="_blank" rel="noopener noreferrer">{t('templesdestroyed.learn_more')}</a>
               )}
