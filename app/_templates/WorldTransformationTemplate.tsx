@@ -24,7 +24,7 @@ const WorldTransformationTemplate: React.FC<WorldTransformationTemplateProps> = 
           <div className="absolute inset-0 blur-2xl opacity-30 pointer-events-none" style={{ background: 'radial-gradient(circle at 60% 40%, #06b6d4 0%, transparent 70%)' }} />
           <h1 className="relative z-10 text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-700 via-blue-500 to-green-400 dark:from-cyan-200 dark:via-blue-300 dark:to-green-200 drop-shadow-xl mb-4 tracking-tight">{data.title}</h1>
           {data.description && (
-            <p className="relative z-10 text-md md:text-lg md:text-xl text-cyan-700 dark:text-cyan-200 mb-8 font-medium tracking-wide">{data.description}</p>
+            <p className="relative z-10 text-xl md:text-lg text-cyan-700 dark:text-cyan-200 mb-8 font-medium tracking-wide">{data.description}</p>
           )}
         </div>
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
@@ -35,7 +35,7 @@ const WorldTransformationTemplate: React.FC<WorldTransformationTemplateProps> = 
                 <img src={item.image} alt={item.name} className="w-24 h-24 object-cover rounded-full mb-6 border-4 border-cyan-200 dark:border-cyan-700 shadow-lg" />
               )}
               <h2 className="text-2xl font-extrabold text-cyan-800 dark:text-cyan-200 mb-3 text-center drop-shadow-md">{item.name}</h2>
-              <p className="text-cyan-700 dark:text-cyan-100 text-base text-center leading-relaxed mb-2">{item.summary}</p>
+              <p className="text-cyan-700 dark:text-cyan-100 text-base md:text-md text-center leading-relaxed mb-2">{item.summary}</p>
               {item.link && (
                 <a href={item.link} className="text-cyan-600 dark:text-cyan-300 underline mt-2" target="_blank" rel="noopener noreferrer">{t('worldtransformation.learn_more')}</a>
               )}

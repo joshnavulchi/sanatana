@@ -35,7 +35,7 @@ const GenericTemplate: React.FC<GenericTemplateProps> = ({ data }) => {
           <div className="absolute inset-0 blur-2xl opacity-30 pointer-events-none" style={{ background: `radial-gradient(circle at 60% 40%, var(--tw-gradient-stops))` }} />
           <h1 className="relative z-10 text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-gray-700 via-gray-500 to-gray-400 dark:from-gray-200 dark:via-gray-400 dark:to-gray-500 drop-shadow-xl mb-4 tracking-tight">{data.title}</h1>
           {data.description && (
-            <p className="relative z-10 text-md md:text-lg md:text-xl text-gray-700 dark:text-gray-200 mb-8 font-medium tracking-wide">{data.description}</p>
+            <p className="relative z-10 text-xl md:text-lg text-gray-700 dark:text-gray-200 mb-8 font-medium tracking-wide">{data.description}</p>
           )}
         </div>
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
@@ -46,7 +46,7 @@ const GenericTemplate: React.FC<GenericTemplateProps> = ({ data }) => {
                 <img src={item.image} alt={item.name} className="w-24 h-24 object-cover rounded-full mb-6 border-4 border-gray-200 dark:border-gray-700 shadow-lg" />
               )}
               <h2 className="text-2xl font-extrabold text-gray-800 dark:text-gray-200 mb-3 text-center drop-shadow-md">{item.name}</h2>
-              <p className="text-gray-700 dark:text-gray-100 text-base text-center leading-relaxed mb-2">{item.summary}</p>
+              <p className="text-gray-700 dark:text-gray-100 text-base md:text-md text-center leading-relaxed mb-2">{item.summary}</p>
               {item.link && (
                 <a href={item.link} className="text-gray-600 dark:text-gray-300 underline mt-2" target="_blank" rel="noopener noreferrer">{t('generic.learn_more')}</a>
               )}

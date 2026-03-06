@@ -24,7 +24,7 @@ const PracticesTemplate: React.FC<PracticesTemplateProps> = ({ data }) => {
           <div className="absolute inset-0 blur-2xl opacity-30 pointer-events-none" style={{ background: 'radial-gradient(circle at 60% 40%, #14b8a6 0%, transparent 70%)' }} />
           <h1 className="relative z-10 text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-teal-700 via-cyan-500 to-green-400 dark:from-teal-200 dark:via-cyan-300 dark:to-green-200 drop-shadow-xl mb-4 tracking-tight">{data.title}</h1>
           {data.description && (
-            <p className="relative z-10 text-md md:text-lg md:text-xl text-teal-700 dark:text-teal-200 mb-8 font-medium tracking-wide">{data.description}</p>
+            <p className="relative z-10 text-xl md:text-lg text-teal-700 dark:text-teal-200 mb-8 font-medium tracking-wide">{data.description}</p>
           )}
         </div>
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
@@ -35,7 +35,7 @@ const PracticesTemplate: React.FC<PracticesTemplateProps> = ({ data }) => {
                 <img src={practice.image} alt={practice.name} className="w-24 h-24 object-cover rounded-full mb-6 border-4 border-teal-200 dark:border-teal-700 shadow-lg" />
               )}
               <h2 className="text-2xl font-extrabold text-teal-800 dark:text-teal-200 mb-3 text-center drop-shadow-md">{practice.name}</h2>
-              <p className="text-teal-700 dark:text-teal-100 text-base text-center leading-relaxed mb-2">{practice.summary}</p>
+              <p className="text-teal-700 dark:text-teal-100 text-base md:text-md text-center leading-relaxed mb-2">{practice.summary}</p>
               {practice.link && (
                 <a href={practice.link} className="text-teal-600 dark:text-teal-300 underline mt-2" target="_blank" rel="noopener noreferrer">{t('practices.learn_more')}</a>
               )}

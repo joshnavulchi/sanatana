@@ -24,7 +24,7 @@ const StoriesTemplate: React.FC<StoriesTemplateProps> = ({ data }) => {
           <div className="absolute inset-0 blur-2xl opacity-30 pointer-events-none" style={{ background: 'radial-gradient(circle at 60% 40%, #d946ef 0%, transparent 70%)' }} />
           <h1 className="relative z-10 text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-700 via-pink-500 to-indigo-400 dark:from-fuchsia-200 dark:via-pink-300 dark:to-indigo-200 drop-shadow-xl mb-4 tracking-tight">{data.title}</h1>
           {data.description && (
-            <p className="relative z-10 text-md md:text-lg md:text-xl text-fuchsia-700 dark:text-fuchsia-200 mb-8 font-medium tracking-wide">{data.description}</p>
+            <p className="relative z-10 text-xl md:text-lg text-fuchsia-700 dark:text-fuchsia-200 mb-8 font-medium tracking-wide">{data.description}</p>
           )}
         </div>
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
@@ -35,7 +35,7 @@ const StoriesTemplate: React.FC<StoriesTemplateProps> = ({ data }) => {
                 <img src={story.image} alt={story.name} className="w-24 h-24 object-cover rounded-full mb-6 border-4 border-fuchsia-200 dark:border-fuchsia-700 shadow-lg" />
               )}
               <h2 className="text-2xl font-extrabold text-fuchsia-800 dark:text-fuchsia-200 mb-3 text-center drop-shadow-md">{story.name}</h2>
-              <p className="text-fuchsia-700 dark:text-fuchsia-100 text-base text-center leading-relaxed mb-2">{story.summary}</p>
+              <p className="text-fuchsia-700 dark:text-fuchsia-100 text-base md:text-md text-center leading-relaxed mb-2">{story.summary}</p>
               {story.link && (
                 <a href={story.link} className="text-fuchsia-600 dark:text-fuchsia-300 underline mt-2" target="_blank" rel="noopener noreferrer">{t('stories.read_more')}</a>
               )}

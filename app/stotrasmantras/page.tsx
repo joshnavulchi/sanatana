@@ -7,7 +7,7 @@ export default function Page() {
     <>
       <h3 className="text-2xl md:text-3xl text-gray-900 ">Stotras and Mantras</h3>
       <div className="mt-8">
-        <h2 className="text-md md:text-lg font-bold mb-2">Explore Sub Pages:</h2>
+        <h2 className="text-xl md:text-lg font-bold mb-2">Explore Sub Pages:</h2>
         <ul className="list-disc ml-6">
           <li><a href="/stotrasmantras/dailyPrayers" className="text-blue-600 hover:underline">Daily Prayers</a></li>
           <li><a href="/stotrasmantras/devi" className="text-blue-600 hover:underline">Devi</a></li>

@@ -41,15 +41,15 @@ export default function Footer() {
       <footer className={`gradient-background w-full`} style={{ minHeight: '400px' }}>
         <div className={`relative z-29`}>
           <section className="content-wrapper text-center py-30!">
-            <h6 className={`mx-auto max-w-2xl shadow-xl rounded-lg bg-white/94 px-3 py-6`}>
-              <span className="text-3xl/10 md:text-4xl/12 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">{footer?.title || footer?.titleText}</span>
+            <h6 className={`mx-auto max-w-2xl bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl inline-flex text-xl md:text-lg leading-relaxed shadow-md px-16 py-8`}>
+              <span className="text-3xl/10 md:text-4xl/12 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-amber-700 via-rose-800 to-indigo-700 drop-shadow-xl">{footer?.title || footer?.titleText}</span>
             </h6>
-            <p className={`md:mx-auto md:max-w-5xl text-md md:text-lg text-white/90 leading-relaxed px-3 py-6`}>{footer?.quote || footer?.quotes} {footer?.quoteSource || footer?.quotesource}</p>
+            <p className={`md:mx-auto md:max-w-5xl text-xl md:text-lg text-white/90 leading-relaxed px-3 py-6`}>{footer?.quote || footer?.quotes} {footer?.quoteSource || footer?.quotesource}</p>
 
             {/* CTA Buttons */}
             <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 mt-6">
               <Link href="/contact" className="group relative md:inline-flex px-8 py-3 bg-gradient-to-r from-amber-500 to-orange-600
-                    hover:from-amber-600 hover:to-orange-700 text-white text-md md:text-lg rounded-full shadow-xl hover:shadow-2xl
+                    hover:from-amber-600 hover:to-orange-700 text-white text-xl md:text-lg rounded-full shadow-xl hover:shadow-2xl
                     transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden">
                 <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
                 <span className="relative flex items-center justify-center gap-2">
@@ -62,7 +62,7 @@ export default function Footer() {
 
               <Link href="/donate" className="group md:inline-flex px-8 py-3 bg-white/10 backdrop-blur-md
                     hover:bg-white/20 border-2 border-white/50 hover:border-white
-                    text-white text-md md:text-lg rounded-full shadow-lg hover:shadow-xl
+                    text-white text-xl md:text-lg rounded-full shadow-lg hover:shadow-xl
                     transition-all duration-300 transform hover:-translate-y-1 no-underline">
                 <span className="flex items-center justify-center gap-2">
                   {footer?.donate || footer?.donateLabel || 'Donate'}
@@ -92,7 +92,7 @@ export default function Footer() {
                   })() : {})
                   return (
                     <>
-                      <p className="description text-md md:text-lg underline">{title}</p>
+                      <p className="description text-xl md:text-lg underline">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/scriptures/${key}`;
@@ -100,7 +100,7 @@ export default function Footer() {
                           <Link
                             key={key}
                             href={href}
-                            className={isActive(href) ? 'active text-md md:text-lg' : 'text-md md:text-lg'}
+                            className={isActive(href) ? 'active text-md' : 'text-md'}
                             role="menuitem"
                             onClick={e => {
                               if (isActive(href)) {
@@ -132,11 +132,11 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-md md:text-lg underline">{title}</p>
+                      <p className="description text-xl md:text-lg underline">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/philosophy/${key}`;
-                        return <Link key={key} href={href} className={isActive(href) ? 'active text-md md:text-lg' : 'text-md md:text-lg'} role="menuitem">{val}</Link>;
+                        return <Link key={key} href={href} className={isActive(href) ? 'active text-md' : 'text-md'} role="menuitem">{val}</Link>;
                       })}
                     </>
                   );
@@ -158,11 +158,11 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-md md:text-lg underline">{title}</p>
+                      <p className="description text-xl md:text-lg underline">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/stories/${key}`;
-                        return <Link key={key} href={href} className={isActive(href) ? 'active text-md md:text-lg' : 'text-md md:text-lg'} role="menuitem">{val}</Link>;
+                        return <Link key={key} href={href} className={isActive(href) ? 'active text-md' : 'text-md'} role="menuitem">{val}</Link>;
                       })}
                     </>
                   );
@@ -184,11 +184,11 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-md md:text-lg underline">{title}</p>
+                      <p className="description text-xl md:text-lg underline">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/stotrasmantras/${key}`;
-                        return <Link key={key} href={href} className={isActive(href) ? 'active text-md md:text-lg' : 'text-md md:text-lg'} role="menuitem">{val}</Link>;
+                        return <Link key={key} href={href} className={isActive(href) ? 'active text-md' : 'text-md'} role="menuitem">{val}</Link>;
                       })}
                     </>
                   );
@@ -210,11 +210,11 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-md md:text-lg underline">{title}</p>
+                      <p className="description text-xl md:text-lg underline">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/kidszone/${key}`;
-                        return <Link key={key} href={href} className={isActive(href) ? 'active text-md md:text-lg' : 'text-md md:text-lg'} role="menuitem">{val}</Link>;
+                        return <Link key={key} href={href} className={isActive(href) ? 'active text-md' : 'text-md'} role="menuitem">{val}</Link>;
                       })}
                     </>
                   );
@@ -236,11 +236,11 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-md md:text-lg underline">{title}</p>
+                      <p className="description text-xl md:text-lg underline">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/${key}`;
-                        return <Link key={key} href={href} className={isActive(href) ? 'active text-md md:text-lg' : 'text-md md:text-lg'} role="menuitem">{val}</Link>;
+                        return <Link key={key} href={href} className={isActive(href) ? 'active text-md' : 'text-md'} role="menuitem">{val}</Link>;
                       })}
                     </>
                   );
@@ -252,7 +252,7 @@ export default function Footer() {
           <div className="nav-wrapper py-0!">
             <div className={`p-3 disclaimer w-full flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0`}>
               <div>
-                <small className="text-gray-400">{footer && footer?.disclaimer}<br /> {footer && footer?.contentChange}</small>
+                <small className="text-sm md:text-md text-gray-400">{footer && footer?.disclaimer}<br /> {footer && footer?.contentChange}</small>
                 {/* <small> I am using <Link href='https://gemini.google.com/' title='Gemini AI' target='_blank' className='text-white no-underline'>Gemini AI</Link>, <Link href='https://www.meta.ai/' title='Meta AI' target='_blank' className='text-white no-underline'>Meta AI</Link> and  <Link href='https://github.com/features/copilot' title='Github Copilot' target='_blank' className='text-white no-underline'>Github Copilot</Link> basic plan to generating content of the website.</small> */}
               </div>
               <nav role="list" className={`social-icons md:w-1/4 flex items-center justify-end gap-6`}>
@@ -273,8 +273,8 @@ export default function Footer() {
 
             <div className={`p-3 copyrights w-full md:flex md:items-center md:justify-between`}>
               <div className="flex items-center gap-4">
-                <Link href="/privacy-policy" className={`${isActive('/privacy-policy') ? "active" : ""} `}>{footer?.privacy}</Link>
-                <Link href="/terms-of-service" className={`${isActive('/terms-of-service') ? "active" : ""} `}>{footer?.terms}</Link>
+                <Link href="/privacy-policy" className={`text-base md:text-md md:text-sm ${isActive('/privacy-policy') ? "active" : ""} `}>{footer?.privacy}</Link>
+                <Link href="/terms-of-service" className={`text-base md:text-md md:text-sm ${isActive('/terms-of-service') ? "active" : ""} `}>{footer?.terms}</Link>
               </div>
               <small className="inline-flex mt-3 text-gray-100">{footer?.copyright}</small>
             </div>
