@@ -106,6 +106,7 @@ const STATIC_ROUTE_PATHS = new Set<string>([
   '/temples-in-india',
   '/terms-of-service',
   '/timelapse',
+  '/usa-strategies',
   '/world-transformation'
 ]);
 
