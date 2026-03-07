@@ -91,7 +91,7 @@ export default function Page({ searchParams }: any) {
                 <div className="absolute top-1/2 left-0 w-full h-0.5 bg-gradient-to-r from-amber-300 via-amber-500 to-amber-300"></div>
               </h3>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 md:grid-cols-3 gap-8 mt-12">
               {page.parts.length === 0 && (
                 <div className="col-span-full text-center text-gray-500 py-12">No content available.</div>
               )}

@@ -90,7 +90,7 @@ export default function Page({ searchParams }: any) {
                 <div className="absolute top-1/2 left-0 w-full h-0.5 bg-gradient-to-r from-amber-300 via-amber-500 to-amber-300"></div>
               </h3>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {page.introduction.what_is_ramayanam && (
                 <div className="bg-white border-l-4 border-orange-500 shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-r-xl">
                   <div className="bg-orange-100 px-5 py-3 border-b-2 border-orange-200">
@@ -142,7 +142,7 @@ export default function Page({ searchParams }: any) {
                 <div className="absolute top-1/2 left-0 w-full h-0.5 bg-gradient-to-r from-amber-300 via-amber-500 to-amber-300"></div>
               </h6>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {page.main_characters.map((c: any, idx: number) => (
                 <div key={idx} className="group relative bg-gradient-to-br from-white to-amber-50 rounded-xl border-2 border-amber-300 hover:border-amber-500 shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden">
                   <div className="absolute top-0 right-0 w-20 h-20 bg-amber-200 rounded-bl-full opacity-50"></div>
