@@ -38,50 +38,69 @@ export default function Footer() {
 
   return (
     <>
-      <footer className={`gradient-background w-full`} style={{ minHeight: '400px' }}>
-        <div className={`relative z-29`}>
-          <section className="content-wrapper text-center py-30!">
-            <h6 className={`mx-auto max-w-2xl bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl inline-flex text-xl md:text-lg leading-relaxed shadow-md px-16 py-8`}>
-              <span className="text-3xl/10 md:text-4xl/12 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-amber-700 via-rose-800 to-indigo-700 drop-shadow-xl">{footer?.title || footer?.titleText}</span>
-            </h6>
-            <p className={`md:mx-auto md:max-w-5xl text-xl md:text-lg text-white/90 leading-relaxed px-3 py-6`}>{footer?.quote || footer?.quotes} {footer?.quoteSource || footer?.quotesource}</p>
+      <footer className="relative w-full overflow-hidden bg-linear-to-b from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef]">
+        {/* Top ornamental bar */}
+        <div className="h-1.5 w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
+
+        {/* Decorative background blurs */}
+        <div className="pointer-events-none absolute inset-0">
+          <div className="absolute -left-20 top-16 h-72 w-72 rounded-full bg-[#f3b86b]/15 blur-3xl" />
+          <div className="absolute -right-16 bottom-20 h-80 w-80 rounded-full bg-[#d97706]/10 blur-3xl" />
+        </div>
+
+        <div className="relative z-10">
+          {/* ─── Hero CTA Section ─── */}
+          <section className="content-wrapper py-16 text-center md:py-20">
+            <div className="mx-auto max-w-3xl rounded-3xl border border-[#d8a25a]/50 bg-linear-to-br from-[#fff7ed] via-[#fde7c7] to-[#f8d7a0] px-8 py-10 shadow-[0_20px_50px_rgba(166,61,23,0.12)] md:px-16">
+              <h2 className="bg-linear-to-r from-[#7a2e1f] via-[#c2410c] to-[#d97706] bg-clip-text text-3xl font-black leading-tight text-transparent md:text-4xl">
+                {footer?.title || footer?.titleText}
+              </h2>
+            </div>
+
+            <p className="mx-auto mt-6 max-w-4xl px-4 text-base leading-8 text-[#5b2d12] md:text-lg">
+              {footer?.quote || footer?.quotes} {footer?.quoteSource || footer?.quotesource}
+            </p>
 
             {/* CTA Buttons */}
-            <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 mt-6">
-              <Link href="/contact" className="group relative md:inline-flex px-8 py-3 bg-gradient-to-r from-amber-500 to-orange-600
-                    hover:from-amber-600 hover:to-orange-700 text-white text-xl md:text-lg rounded-full shadow-xl hover:shadow-2xl
-                    transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden">
-                <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
-                <span className="relative flex items-center justify-center gap-2">
-                  {footer?.contact || footer?.contactLabel || 'Contact'}
-                  <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                  </svg>
-                </span>
+            <div className="mt-8 flex flex-col items-center justify-center gap-4 md:flex-row">
+              <Link
+                href="/contact"
+                className="group relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-[#7a2e1f] px-8 py-3.5 text-base font-bold tracking-wide text-[#fff4df] shadow-[0_8px_24px_rgba(122,46,31,0.22)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#9a3412] hover:shadow-[0_12px_32px_rgba(122,46,31,0.28)] no-underline"
+              >
+                {footer?.contact || footer?.contactLabel || 'Contact'}
+                <svg className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
               </Link>
 
-              <Link href="/donate" className="group md:inline-flex px-8 py-3 bg-white/10 backdrop-blur-md
-                    hover:bg-white/20 border-2 border-white/50 hover:border-white
-                    text-white text-xl md:text-lg rounded-full shadow-lg hover:shadow-xl
-                    transition-all duration-300 transform hover:-translate-y-1 no-underline">
-                <span className="flex items-center justify-center gap-2">
-                  {footer?.donate || footer?.donateLabel || 'Donate'}
-                  <svg className="w-5 h-5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                  </svg>
-                </span>
+              <Link
+                href="/donate"
+                className="group inline-flex items-center gap-2 rounded-full border-2 border-[#d8a25a] bg-[#fffaf2] px-8 py-3.5 text-base font-bold tracking-wide text-[#7a2e1f] shadow-[0_6px_20px_rgba(146,64,14,0.10)] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#b45309] hover:bg-[#fde7c7] hover:shadow-[0_10px_28px_rgba(146,64,14,0.16)] no-underline"
+              >
+                {footer?.donate || footer?.donateLabel || 'Donate'}
+                <svg className="h-4 w-4 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
               </Link>
             </div>
           </section>
 
-          <div className={`px-3! nav-wrapper w-full relative z-10 flex flex-col md:flex-row md:items-start md:justify-between border-t`}>
-            <nav role="menu" className="md:w-full gap-4 flex flex-col  md:flex-row md:items-start">
-              <div className="md:w-1/5 flex flex-col gap-2">
+          {/* ─── Ornamental Divider ─── */}
+          <div className="flex items-center justify-center gap-3 px-8">
+            <div className="h-px flex-1 max-w-40 bg-linear-to-r from-transparent to-[#d8a25a]/60" />
+            <span className="text-lg text-[#9a3412]" aria-hidden="true">✦</span>
+            <div className="h-px flex-1 max-w-40 bg-linear-to-l from-transparent to-[#d8a25a]/60" />
+          </div>
+
+          {/* ─── Navigation Columns ─── */}
+          <div className="mx-auto max-w-7xl px-4 py-10 md:py-14">
+            <nav role="menu" className="grid gap-8 md:grid-cols-5" aria-label="Footer navigation">
+              {/* Scriptures */}
+              <div className="flex flex-col gap-2">
                 {(() => {
                   const sec = footer?.scriptures || {};
                   const title = sec?.title || footer?.scripturesTitle || 'Scriptures';
                   const nav = sec?.nav || (typeof sec === 'object' ? (() => {
-                    // if sec contains keys that are strings, treat sec itself as nav
                     const maybeNav: Record<string, string> = {} as any;
                     for (const k of Object.keys(sec)) {
                       if (k === 'title' || k === 'nav') continue;
@@ -89,10 +108,14 @@ export default function Footer() {
                       if (typeof v === 'string') maybeNav[k] = v;
                     }
                     return Object.keys(maybeNav).length ? maybeNav : {};
-                  })() : {})
+                  })() : {});
                   return (
                     <>
-                      <p className="description text-xl md:text-lg underline">{title}</p>
+                      <p className="mb-2 flex items-center gap-2 text-sm font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
+                        <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#7a2e1f] text-xs text-[#fff4df]">📜</span>
+                        {title}
+                      </p>
+                      <div className="mb-1 h-px w-12 bg-linear-to-r from-[#d97706] to-transparent" />
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/scriptures/${key}`;
@@ -100,13 +123,9 @@ export default function Footer() {
                           <Link
                             key={key}
                             href={href}
-                            className={isActive(href) ? 'active text-md' : 'text-md'}
+                            className={`text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`}
                             role="menuitem"
-                            onClick={e => {
-                              if (isActive(href)) {
-                                e.preventDefault();
-                              }
-                            }}
+                            onClick={e => { if (isActive(href)) e.preventDefault(); }}
                           >
                             {val}
                           </Link>
@@ -117,7 +136,8 @@ export default function Footer() {
                 })()}
               </div>
 
-              <div className="md:w-1/5 flex flex-col gap-2">
+              {/* Philosophy */}
+              <div className="flex flex-col gap-2">
                 {(() => {
                   const sec = footer?.philosophy || {};
                   const title = sec?.title || footer?.philosophyTitle || 'Philosophy';
@@ -132,18 +152,27 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-xl md:text-lg underline">{title}</p>
+                      <p className="mb-2 flex items-center gap-2 text-sm font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
+                        <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#92400e] text-xs text-[#fff4df]">🧘</span>
+                        {title}
+                      </p>
+                      <div className="mb-1 h-px w-12 bg-linear-to-r from-[#d97706] to-transparent" />
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/philosophy/${key}`;
-                        return <Link key={key} href={href} className={isActive(href) ? 'active text-md' : 'text-md'} role="menuitem">{val}</Link>;
+                        return (
+                          <Link key={key} href={href} className={`text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`} role="menuitem">
+                            {val}
+                          </Link>
+                        );
                       })}
                     </>
                   );
                 })()}
               </div>
 
-              <div className="md:w-1/5 flex flex-col gap-2">
+              {/* Stories */}
+              <div className="flex flex-col gap-2">
                 {(() => {
                   const sec = footer?.stories || {};
                   const title = sec?.title || footer?.philosophyTitle || 'Stories';
@@ -158,17 +187,26 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-xl md:text-lg underline">{title}</p>
+                      <p className="mb-2 flex items-center gap-2 text-sm font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
+                        <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#9a3412] text-xs text-[#fff4df]">📖</span>
+                        {title}
+                      </p>
+                      <div className="mb-1 h-px w-12 bg-linear-to-r from-[#d97706] to-transparent" />
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/stories/${key}`;
-                        return <Link key={key} href={href} className={isActive(href) ? 'active text-md' : 'text-md'} role="menuitem">{val}</Link>;
+                        return (
+                          <Link key={key} href={href} className={`text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`} role="menuitem">
+                            {val}
+                          </Link>
+                        );
                       })}
                     </>
                   );
                 })()}
               </div>
 
+              {/* Stotras Mantras (hidden) */}
               <div className="hidden">
                 {(() => {
                   const sec = footer?.stotrasmantras || {};
@@ -184,18 +222,23 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-xl md:text-lg underline">{title}</p>
+                      <p className="mb-2 text-sm font-black uppercase tracking-[0.25em] text-[#7a2e1f]">{title}</p>
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/stotrasmantras/${key}`;
-                        return <Link key={key} href={href} className={isActive(href) ? 'active text-md' : 'text-md'} role="menuitem">{val}</Link>;
+                        return (
+                          <Link key={key} href={href} className={`text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412]' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`} role="menuitem">
+                            {val}
+                          </Link>
+                        );
                       })}
                     </>
                   );
                 })()}
               </div>
 
-              <div className="md:w-1/5 flex flex-col gap-2">
+              {/* Kids Zone */}
+              <div className="flex flex-col gap-2">
                 {(() => {
                   const sec = footer?.kidszone || {};
                   const title = sec?.title || footer?.kidszoneTitle || 'Kids Zone';
@@ -210,18 +253,27 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-xl md:text-lg underline">{title}</p>
+                      <p className="mb-2 flex items-center gap-2 text-sm font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
+                        <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#b45309] text-xs text-[#fff4df]">🧒</span>
+                        {title}
+                      </p>
+                      <div className="mb-1 h-px w-12 bg-linear-to-r from-[#d97706] to-transparent" />
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/kidszone/${key}`;
-                        return <Link key={key} href={href} className={isActive(href) ? 'active text-md' : 'text-md'} role="menuitem">{val}</Link>;
+                        return (
+                          <Link key={key} href={href} className={`text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`} role="menuitem">
+                            {val}
+                          </Link>
+                        );
                       })}
                     </>
                   );
                 })()}
               </div>
 
-              <div className="md:w-1/5 flex flex-col gap-2">
+              {/* Others / More */}
+              <div className="flex flex-col gap-2">
                 {(() => {
                   const sec = footer?.others || {};
                   const title = sec?.title || footer?.othersTitle || 'More';
@@ -236,11 +288,19 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="description text-xl md:text-lg underline">{title}</p>
+                      <p className="mb-2 flex items-center gap-2 text-sm font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
+                        <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#c2410c] text-xs text-[#fff4df]">✨</span>
+                        {title}
+                      </p>
+                      <div className="mb-1 h-px w-12 bg-linear-to-r from-[#d97706] to-transparent" />
                       {Object.entries(nav).map(([key, val]) => {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/${key}`;
-                        return <Link key={key} href={href} className={isActive(href) ? 'active text-md' : 'text-md'} role="menuitem">{val}</Link>;
+                        return (
+                          <Link key={key} href={href} className={`text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`} role="menuitem">
+                            {val}
+                          </Link>
+                        );
                       })}
                     </>
                   );
@@ -249,36 +309,46 @@ export default function Footer() {
             </nav>
           </div>
 
-          <div className="nav-wrapper py-0!">
-            <div className={`p-3 disclaimer w-full flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0`}>
+          {/* ─── Bottom Bar ─── */}
+          <div className="border-t border-[#d8a25a]/30 bg-linear-to-r from-[#fff7ed] via-[#fde7c7] to-[#fff7ed]">
+            {/* Disclaimer + Socials */}
+            <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-5 md:flex-row">
               <div>
-                <small className="text-sm md:text-md text-gray-400">{footer && footer?.disclaimer}<br /> {footer && footer?.contentChange}</small>
-                {/* <small> I am using <Link href='https://gemini.google.com/' title='Gemini AI' target='_blank' className='text-white no-underline'>Gemini AI</Link>, <Link href='https://www.meta.ai/' title='Meta AI' target='_blank' className='text-white no-underline'>Meta AI</Link> and  <Link href='https://github.com/features/copilot' title='Github Copilot' target='_blank' className='text-white no-underline'>Github Copilot</Link> basic plan to generating content of the website.</small> */}
+                <small className="text-xs leading-5 text-[#6b3a17]">
+                  {footer?.disclaimer}<br />{footer?.contentChange}
+                </small>
               </div>
-              <nav role="list" className={`social-icons md:w-1/4 flex items-center justify-end gap-6`}>
-                <Link role="listitem" aria-label="Visit us on LinkedIn" href="https://in.linkedin.com/in/vulchivijayakumar" target="_blank" className=" no-underline">
-                  <LazyImage src="/images/svg/linkedin.svg" alt="linkedin" width={24} height={24} className="inline-block" />
+              <nav role="list" className="flex items-center gap-5" aria-label="Social links">
+                <Link role="listitem" aria-label="Visit us on LinkedIn" href="https://in.linkedin.com/in/vulchivijayakumar" target="_blank" className="rounded-full border border-[#d8a25a]/40 bg-[#fffaf2] p-2 transition-all duration-200 hover:border-[#d97706] hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
+                  <LazyImage src="/images/svg/linkedin.svg" alt="linkedin" width={20} height={20} className="inline-block" />
                 </Link>
-                <Link role="listitem" aria-label="Visit us on Codepen" href="https://codepen.io/vulchivijay" target="_blank" className=" no-underline">
-                  <LazyImage src="/images/svg/codepen.svg" alt="codepen" width={24} height={24} className="inline-block" />
+                <Link role="listitem" aria-label="Visit us on Codepen" href="https://codepen.io/vulchivijay" target="_blank" className="rounded-full border border-[#d8a25a]/40 bg-[#fffaf2] p-2 transition-all duration-200 hover:border-[#d97706] hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
+                  <LazyImage src="/images/svg/codepen.svg" alt="codepen" width={20} height={20} className="inline-block" />
                 </Link>
-                <Link role="listitem" aria-label="Visit us on Github" href="https://github.com/vulchivijay" target="_blank" className=" no-underline">
-                  <LazyImage src="/images/svg/github.svg" alt="github" width={24} height={24} className="inline-block" />
+                <Link role="listitem" aria-label="Visit us on Github" href="https://github.com/vulchivijay" target="_blank" className="rounded-full border border-[#d8a25a]/40 bg-[#fffaf2] p-2 transition-all duration-200 hover:border-[#d97706] hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
+                  <LazyImage src="/images/svg/github.svg" alt="github" width={20} height={20} className="inline-block" />
                 </Link>
-                <Link role="listitem" aria-label="Visit us on Twitter" href="#" target="_blank" className="no-underline">
-                  <LazyImage src="/images/svg/twitter.svg" alt="twitter" width={24} height={24} className="inline-block" />
+                <Link role="listitem" aria-label="Visit us on Twitter" href="#" target="_blank" className="rounded-full border border-[#d8a25a]/40 bg-[#fffaf2] p-2 transition-all duration-200 hover:border-[#d97706] hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
+                  <LazyImage src="/images/svg/twitter.svg" alt="twitter" width={20} height={20} className="inline-block" />
                 </Link>
               </nav>
             </div>
 
-            <div className={`p-3 copyrights w-full md:flex md:items-center md:justify-between`}>
-              <div className="flex items-center gap-4">
-                <Link href="/privacy-policy" className={`text-base md:text-md md:text-sm ${isActive('/privacy-policy') ? "active" : ""} `}>{footer?.privacy}</Link>
-                <Link href="/terms-of-service" className={`text-base md:text-md md:text-sm ${isActive('/terms-of-service') ? "active" : ""} `}>{footer?.terms}</Link>
+            {/* Copyright bar */}
+            <div className="border-t border-[#d8a25a]/20">
+              <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 py-4 md:flex-row">
+                <div className="flex items-center gap-4">
+                  <Link href="/privacy-policy" className={`text-xs font-semibold transition-colors duration-200 no-underline ${isActive('/privacy-policy') ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`}>{footer?.privacy}</Link>
+                  <span className="text-[#d8a25a]">·</span>
+                  <Link href="/terms-of-service" className={`text-xs font-semibold transition-colors duration-200 no-underline ${isActive('/terms-of-service') ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`}>{footer?.terms}</Link>
+                </div>
+                <small className="text-xs text-[#92400e]">{footer?.copyright}</small>
               </div>
-              <small className="inline-flex mt-3 text-gray-100">{footer?.copyright}</small>
             </div>
           </div>
+
+          {/* Bottom ornamental bar */}
+          <div className="h-1 w-full bg-linear-to-r from-[#f59e0b] via-[#d97706] to-[#7c2d12]" />
         </div>
       </footer>
     </>

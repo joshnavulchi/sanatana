@@ -2,13 +2,11 @@
 import fs from 'fs';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import path from 'path';
-import GitSupport from '@components/git-support';
 import HeroSection from '@components/herosection';
-import OurFourCoreYugas from '@components/ourfourcoreyugas';
-import UnderstandingOfSanatana from '@components/sanatanadharmam';
 import WelcomePage from '@components/welcome';
-import AudioPlayer from '@components/audioplayer';
-import WebVitalsReporter from './components/WebVitalsReporter';
+import UnderstandingOfSanatana from '@components/sanatanadharmam';
+import OurFourCoreYugas from '@components/ourfourcoreyugas';
+import GitSupport from '@components/git-support';
 
 // Cache critical CSS at module level to avoid repeated file reads
 let cachedCriticalCss: string | null = null;
@@ -45,7 +43,6 @@ export default async function Home() {
 
   return (
     <>
-      <WebVitalsReporter page="home" />
       {criticalCss ? <style dangerouslySetInnerHTML={{ __html: criticalCss }} /> : null}
       <main>
         <WelcomePage />
@@ -57,7 +54,7 @@ export default async function Home() {
         {/* <DelayedHomeWidgets />  // Disabled: causes server/client boundary error */}
         {/* <DigitalClockLoader /> */}
         {/* Krishna flute background audio player in footer, loads after 1 minute */}
-        <AudioPlayer
+        {/* <AudioPlayer
           tracks={{
             id: "solo",
             title: "Single Track",
@@ -70,7 +67,7 @@ export default async function Home() {
           muted={false}
           loop={false}
           showPlaylist={false}
-        />
+        /> */}
       </main>
     </>
   );

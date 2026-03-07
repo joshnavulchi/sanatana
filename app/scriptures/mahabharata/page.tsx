@@ -100,7 +100,7 @@ export default function Page({ searchParams }: any) {
                 <div className="absolute top-1/2 left-0 w-full h-0.5 bg-gradient-to-r from-blue-300 via-blue-500 to-blue-300"></div>
               </h5>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {page.major_characters.map((c: any, idx: number) => (
                 <div key={idx} className="group relative bg-gradient-to-br from-white to-blue-100 rounded-xl border-2 border-blue-300 hover:border-blue-500 shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden">
                   <div className="absolute top-0 right-0 w-20 h-20 bg-blue-200 rounded-bl-full opacity-50"></div>
