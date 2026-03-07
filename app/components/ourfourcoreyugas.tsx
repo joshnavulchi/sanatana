@@ -57,9 +57,8 @@ function YugaCard({ name, subtitle, years, description, index, isVisible }: Yuga
 
   return (
     <div
-      className={`group relative flex flex-col overflow-hidden rounded-3xl border-2 ${tone.ring} ${tone.glow} bg-[#fffaf2] transition-all duration-700 ease-out hover:-translate-y-1.5 ${
-        isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
-      }`}
+      className={`group relative flex flex-col overflow-hidden rounded-3xl border-2 ${tone.ring} ${tone.glow} bg-[#fffaf2] transition-all duration-700 ease-out hover:-translate-y-1.5 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
+        }`}
       style={{ transitionDelay: `${index * 160}ms` }}
     >
       {/* Top accent bar */}
@@ -136,9 +135,8 @@ export default function OurFourCoreYugas() {
       <div className="relative z-10 mx-auto w-full max-w-7xl px-4">
         {/* ─── Header ─── */}
         <div
-          className={`mx-auto mb-14 max-w-4xl text-center transition-all duration-1000 ease-out ${
-            isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
-          }`}
+          className={`mx-auto mb-14 max-w-4xl text-center transition-all duration-1000 ease-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
+            }`}
         >
           {/* Ornamental divider */}
           <div className="mb-6 flex items-center justify-center gap-3">
@@ -147,7 +145,7 @@ export default function OurFourCoreYugas() {
             <div className="h-px w-16 bg-linear-to-l from-transparent to-[#d8a25a]" />
           </div>
 
-          <h2 className="bg-linear-to-r from-[#a63d17] via-[#d97706] to-[#f59e0b] bg-clip-text text-4xl font-black leading-tight text-transparent md:text-5xl">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
             {title}
           </h2>
 
@@ -190,9 +188,8 @@ export default function OurFourCoreYugas() {
 
         {/* ─── Bottom Notes ─── */}
         <div
-          className={`mt-14 transition-all duration-1000 ease-out delay-500 ${
-            isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
-          }`}
+          className={`mt-14 transition-all duration-1000 ease-out delay-500 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
+            }`}
         >
           {/* Divider */}
           <div className="mb-8 flex items-center justify-center gap-3">

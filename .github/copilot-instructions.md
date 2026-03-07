@@ -293,89 +293,187 @@ const { messagesData } = useSignalRMessages();
 
 ## Styling Guidelines
 
-### Indian Temple Color Palette
+### Indian Temple Architecture Color Palette
 
-All UI across the application uses an **Indian temple-inspired color palette** — no dark mode. These colors reflect the warm tones of sandstone, saffron, turmeric, kumkum, gold leaf, and sacred wood found in traditional Hindu temples.
+All UI across the application uses an **Indian temple architecture–inspired color palette** — **no dark mode**. Colors are sourced from real temple elements: gopuram painted walls, carved granite & sandstone, lime-washed corridors, laterite red stone, bronze/brass deity statues, gold-leafed vimanas, kumkum-stained thresholds, and painted mandapa ceilings.
 
-#### Primary Colors (use everywhere: backgrounds, borders, text, gradients)
+---
 
-| Token                | Hex       | Usage                                                |
-| -------------------- | --------- | ---------------------------------------------------- |
-| **Temple Maroon**    | `#7a2e1f` | Primary headings, badges, CTA text, icon backgrounds |
-| **Sacred Saffron**   | `#9a3412` | Section accents, numbered badges, bold labels        |
-| **Kumkum Red**       | `#a63d17` | Gradient start for headings, decorative borders      |
-| **Turmeric Orange**  | `#d97706` | Gradient midpoints, link hovers, divider lines       |
-| **Gold Leaf**        | `#f59e0b` | Gradient endpoints, highlights, sparkle accents      |
-| **Burnished Copper** | `#c2410c` | Secondary gradient midpoints, warm accents           |
-| **Terracotta**       | `#ea580c` | Alert accents, alternate gradient stops              |
-| **Deep Teak**        | `#92400e` | Subheadings, subtle badges, label text               |
-| **Sacred Wood**      | `#b45309` | Divider lines, ornamental borders                    |
+#### 1 — Gopuram Wall & Painted Stucco Colors
 
-#### Neutral / Surface Colors (backgrounds, cards, shells)
+Vivid hues from the painted sculpted towers (gopurams) of South Indian temples.
 
-| Token               | Hex       | Usage                            |
-| ------------------- | --------- | -------------------------------- |
-| **Temple Cream**    | `#fffaf3` | Page background start            |
-| **Warm Ivory**      | `#fdf0d7` | Page background mid              |
-| **Sandstone Light** | `#fff8ef` | Page background end              |
-| **Parchment**       | `#fffaf0` | Card backgrounds, inner frames   |
-| **Butter Cream**    | `#fff7ed` | Section shell start              |
-| **Pale Gold**       | `#fde7c7` | Section shell mid                |
-| **Warm Sand**       | `#f8d7a0` | Section shell end                |
-| **Ghee White**      | `#fffaf2` | Card/point card backgrounds      |
-| **Light Saffron**   | `#fff4df` | Point-image backgrounds          |
-| **Honey Wash**      | `#f8e1b9` | Point-image gradient end         |
-| **Temple Dust**     | `#fff5dd` | Image frame inner gradient start |
-| **Aged Gold**       | `#f4d29a` | Image frame inner gradient end   |
+| Token                    | Hex       | Tailwind                | Usage                                             |
+| ------------------------ | --------- | ----------------------- | ------------------------------------------------- |
+| **Gopuram Vermillion**   | `#b5311a` | `text-[#b5311a]`        | Primary CTA text, alert badges, bold ornaments    |
+| **Kumkum Red**           | `#a63d17` | `bg-[#a63d17]`          | Gradient start for headings, decorative borders   |
+| **Temple Maroon**        | `#7a2e1f` | `text-[#7a2e1f]`        | Primary headings, card titles, icon backgrounds   |
+| **Sacred Saffron**       | `#9a3412` | `bg-[#9a3412]`          | Section accents, numbered badges, bold labels     |
+| **Stucco Ochre**         | `#c87c2e` | `border-[#c87c2e]`      | Painted wall borders, ornamental frames           |
+| **Painted Teal**         | `#1a6e5c` | `text-[#1a6e5c]`        | *Accent only* — sparing use for links / highlights|
+| **Corridor Indigo**      | `#3b3270` | `text-[#3b3270]`        | *Accent only* — painted ceiling motifs, tags      |
 
-#### Text Colors
+#### 2 — Stone & Carved Surface Colors
 
-| Token            | Hex       | Usage                             |
-| ---------------- | --------- | --------------------------------- |
-| **Temple Brown** | `#5b2d12` | Body text, paragraph content      |
-| **Rosewood**     | `#6b3a17` | Card descriptions, secondary text |
-| **Clay Brown**   | `#7a2e1f` | Card headings, bold labels        |
+Drawn from granite, sandstone, and laterite found in temple walls and pillars.
 
-#### Border / Ornament Colors
+| Token                    | Hex       | Tailwind                | Usage                                             |
+| ------------------------ | --------- | ----------------------- | ------------------------------------------------- |
+| **Chola Granite**        | `#4a3728` | `text-[#4a3728]`        | Deep body text, footer text, strong labels        |
+| **Hoysala Soapstone**    | `#6b5d4f` | `text-[#6b5d4f]`        | Secondary body text, muted descriptions           |
+| **Laterite Red**         | `#8b3a2a` | `bg-[#8b3a2a]`          | Pillar accents, sidebar highlights, badges        |
+| **Sandstone Buff**       | `#d4a96a` | `border-[#d4a96a]`      | Card borders, section dividers                    |
+| **Weathered Basalt**     | `#5e4e42` | `text-[#5e4e42]`        | Subdued labels, timestamps, captions              |
+| **Carved Shadow**        | `#3d2e22` | `text-[#3d2e22]`        | Deep contrast text for hero sections              |
 
-| Token             | Hex       | Usage                                 |
-| ----------------- | --------- | ------------------------------------- |
-| **Gold Border**   | `#d8a25a` | Primary section borders, inner frames |
-| **Antique Gold**  | `#d9a15d` | Card borders (tone 1)                 |
-| **Aged Brass**    | `#c98a41` | Card borders (tone 2)                 |
-| **Copper Border** | `#cf8f4f` | Card borders (tone 3)                 |
-| **Light Gold**    | `#edc98f` | Icon container borders                |
-| **Sand Border**   | `#e3b36f` | Point card borders                    |
-| **Faded Gold**    | `#efd6ab` | Point-image bottom borders            |
-| **Frame Gold**    | `#f8e2b8` | Image arch frame border               |
+#### 3 — Bronze, Brass & Statue Metal Colors
 
-#### Gradient Presets (commonly used Tailwind gradient combos)
+From Chola bronze murtis, temple bell brass, and gold-plated kalashas.
+
+| Token                    | Hex       | Tailwind                | Usage                                             |
+| ------------------------ | --------- | ----------------------- | ------------------------------------------------- |
+| **Chola Bronze**         | `#8b6914` | `text-[#8b6914]`        | Icon tints, badge accents, ornament details       |
+| **Temple Brass**         | `#b8952e` | `border-[#b8952e]`      | Card borders, button outlines, frame borders      |
+| **Burnished Copper**     | `#c2410c` | `bg-[#c2410c]`          | Secondary gradient midpoints, hover accents       |
+| **Turmeric Orange**      | `#d97706` | `text-[#d97706]`        | Gradient midpoints, link hovers, divider lines    |
+| **Gold Leaf**            | `#f59e0b` | `bg-[#f59e0b]`          | Gradient endpoints, highlights, sparkle accents   |
+| **Panchaloha Dark**      | `#6b4f1d` | `text-[#6b4f1d]`        | Metallic label text, deep badge foregrounds       |
+| **Kalasha Gold**         | `#e0a632` | `border-[#e0a632]`      | Premium borders, featured card outlines           |
+
+#### 4 — Lime-Washed Wall & Surface Colors (backgrounds, cards, shells)
+
+Cool whites and warm creams from lime-plaster temple interiors and corridor walls.
+
+| Token                    | Hex       | Tailwind                | Usage                                             |
+| ------------------------ | --------- | ----------------------- | ------------------------------------------------- |
+| **Temple Cream**         | `#fffaf3` | `bg-[#fffaf3]`          | Page background start                             |
+| **Lime Wash White**      | `#fdf8ef` | `bg-[#fdf8ef]`          | Card backgrounds, modal interiors                 |
+| **Warm Ivory**           | `#fdf0d7` | `bg-[#fdf0d7]`          | Page background mid                               |
+| **Sandstone Light**      | `#fff8ef` | `bg-[#fff8ef]`          | Page background end                               |
+| **Parchment**            | `#fffaf0` | `bg-[#fffaf0]`          | Inner frames, nested card backgrounds             |
+| **Butter Cream**         | `#fff7ed` | `bg-[#fff7ed]`          | Section shell start                               |
+| **Pale Gold**            | `#fde7c7` | `bg-[#fde7c7]`          | Section shell mid                                 |
+| **Warm Sand**            | `#f8d7a0` | `bg-[#f8d7a0]`          | Section shell end                                 |
+| **Ghee White**           | `#fffaf2` | `bg-[#fffaf2]`          | Card/point card backgrounds                       |
+| **Plaster Blush**        | `#f9ece0` | `bg-[#f9ece0]`          | Subtle section alternate backgrounds              |
+| **Corridor Cream**       | `#f5e6d0` | `bg-[#f5e6d0]`          | Sidebar backgrounds, breadcrumb bars              |
+
+#### 5 — Texture & Patina Colors
+
+Aged surfaces, moss-tinged stone, and weathered paint found on ancient temple walls.
+
+| Token                    | Hex       | Tailwind                | Usage                                             |
+| ------------------------ | --------- | ----------------------- | ------------------------------------------------- |
+| **Moss Stone**           | `#7a8b6e` | `text-[#7a8b6e]`        | *Accent only* — success states, subtle tags       |
+| **Terracotta**           | `#ea580c` | `bg-[#ea580c]`          | Alert accents, notification dots, error states    |
+| **Clay Wash**            | `#c49a6c` | `border-[#c49a6c]`      | Soft borders, input field outlines                |
+| **Aged Patina**          | `#a89278` | `text-[#a89278]`        | Placeholder text, disabled states                 |
+| **Smoke Char**           | `#5c4a3a` | `text-[#5c4a3a]`        | Dark captions, code block text                    |
+| **Sun-Bleached Ochre**   | `#e8cc78` | `bg-[#e8cc78]`          | Highlight wash, selected row backgrounds          |
+| **Deep Teak**            | `#92400e` | `text-[#92400e]`        | Subheadings, subtle badges, label text            |
+| **Sacred Wood**          | `#b45309` | `border-[#b45309]`      | Divider lines, ornamental borders                 |
+
+#### 6 — Text Colors
+
+| Token                    | Hex       | Tailwind                | Usage                                             |
+| ------------------------ | --------- | ----------------------- | ------------------------------------------------- |
+| **Temple Brown**         | `#5b2d12` | `text-[#5b2d12]`        | Body text, paragraph content                      |
+| **Rosewood**             | `#6b3a17` | `text-[#6b3a17]`        | Card descriptions, secondary text                 |
+| **Clay Brown**           | `#7a2e1f` | `text-[#7a2e1f]`        | Card headings, bold labels                        |
+| **Carved Shadow**        | `#3d2e22` | `text-[#3d2e22]`        | Hero headings, deep emphasis                      |
+| **Hoysala Soapstone**    | `#6b5d4f` | `text-[#6b5d4f]`        | Muted captions, timestamps                        |
+
+#### 7 — Border & Ornament Colors
+
+| Token                    | Hex       | Tailwind                | Usage                                             |
+| ------------------------ | --------- | ----------------------- | ------------------------------------------------- |
+| **Gold Border**          | `#d8a25a` | `border-[#d8a25a]`      | Primary section borders, inner frames             |
+| **Antique Gold**         | `#d9a15d` | `border-[#d9a15d]`      | Card borders (tone 1)                             |
+| **Aged Brass**           | `#c98a41` | `border-[#c98a41]`      | Card borders (tone 2)                             |
+| **Copper Border**        | `#cf8f4f` | `border-[#cf8f4f]`      | Card borders (tone 3)                             |
+| **Light Gold**           | `#edc98f` | `border-[#edc98f]`      | Icon container borders                            |
+| **Sand Border**          | `#e3b36f` | `border-[#e3b36f]`      | Point card borders                                |
+| **Faded Gold**           | `#efd6ab` | `border-[#efd6ab]`      | Point-image bottom borders                        |
+| **Frame Gold**           | `#f8e2b8` | `border-[#f8e2b8]`      | Image arch frame border                           |
+| **Temple Brass**         | `#b8952e` | `border-[#b8952e]`      | Premium structural borders                        |
+| **Kalasha Gold**         | `#e0a632` | `border-[#e0a632]`      | Featured/highlighted card outlines                |
+
+---
+
+#### Gradient Presets (Tailwind classes — copy-paste ready)
 
 ```
-/* Page background */
+/* Page background — lime-washed temple corridor */
 bg-linear-to-b from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef]
 
-/* Section heading text */
-bg-linear-to-r from-[#a63d17] via-[#d97706] to-[#f59e0b]  (tone 1)
-bg-linear-to-r from-[#92400e] via-[#c2410c] to-[#ea580c]  (tone 2)
-bg-linear-to-r from-[#7c2d12] via-[#c2410c] to-[#fb923c]  (tone 3)
+/* Section heading text — gopuram painted gradient */
+bg-linear-to-r from-[#a63d17] via-[#d97706] to-[#f59e0b]  /* tone 1: kumkum → turmeric → gold */
+bg-linear-to-r from-[#92400e] via-[#c2410c] to-[#ea580c]  /* tone 2: teak → copper → terracotta */
+bg-linear-to-r from-[#7c2d12] via-[#c2410c] to-[#fb923c]  /* tone 3: laterite → copper → amber */
 
-/* Card top accent bar */
+/* Card top accent bar — bronze temple strip */
 bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]
 
-/* Ornamental divider */
+/* Pillar left/right — carved stone gradient */
+bg-linear-to-b from-[#c2410c] to-[#f59e0b]   /* warm pillar */
+bg-linear-to-b from-[#92400e] to-[#ea580c]    /* deep pillar */
+bg-linear-to-b from-[#7c2d12] to-[#fb923c]    /* laterite pillar */
+
+/* Ornamental divider — gold filigree */
 bg-linear-to-r from-[#b45309]/60 to-transparent
+
+/* Section shell backgrounds (3 rotating tones) */
+bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8]   /* shell 1 */
+bg-linear-to-br from-[#fffbf5] via-[#fdf1dc] to-[#f8e4c0]   /* shell 2 */
+bg-linear-to-br from-[#fff9f0] via-[#fce9ce] to-[#f5d9ae]   /* shell 3 */
+
+/* Statue bronze shimmer (hover-only decorative) */
+bg-linear-to-br from-[#8b6914] via-[#b8952e] to-[#e0a632]
+
+/* Warm background glow blobs */
+bg-[#f59e0b]/10 blur-[100px]   /* gold glow */
+bg-[#c2410c]/8  blur-[120px]   /* copper glow */
+bg-[#d97706]/10 blur-[100px]   /* turmeric glow */
 ```
+
+#### Shadow Presets (warm temple stone shadows — never grey)
+
+```
+/* Card resting shadow */
+shadow-[0_8px_30px_rgba(146,64,14,0.08)]
+
+/* Card hover shadow */
+shadow-[0_20px_60px_rgba(166,61,23,0.18)]
+
+/* Image frame shadow */
+shadow-[0_20px_50px_rgba(122,46,31,0.14)]
+
+/* Section container shadow */
+shadow-[0_10px_40px_rgba(122,46,31,0.10)]
+
+/* Floating badge shadow */
+shadow-[0_4px_20px_rgba(122,46,31,0.25)]
+```
+
+---
 
 #### Design Rules
 
-- **No dark mode** — light temple palette only
-- Use `bg-clip-text text-transparent` with heading gradients for rich text effects
-- Alternate section shell tones (3 rotating palettes) for visual rhythm
-- Use rounded arch shapes (`rounded-t-[999px]`) for temple-style image framing
-- Apply warm, translucent blurs (`blur-2xl`, `blur-3xl`) for ornamental background shapes
-- Keep shadows warm-toned: `rgba(166,61,23,0.12)`, `rgba(146,64,14,0.13)`, `rgba(122,46,31,0.09)`
-- Borders should be gold/copper toned, never grey or neutral
+- **No dark mode** — light temple-architecture palette only
+- Use `bg-clip-text text-transparent` with heading gradients for rich gopuram-painted text effects
+- Alternate 3 rotating section shell tones for visual rhythm (like alternating mandapa ceiling panels)
+- Use vertical gradient pillar accents (`w-1.5 bg-linear-to-b`) on card left/right edges for a carved-pillar feel
+- Apply large, warm, translucent blurs (`blur-[100px]`+) as background glow blobs — never crisp circles
+- Keep all shadows warm-toned (brown/copper rgba) — **never use grey or neutral shadows**
+- Borders must be gold, brass, or copper-toned — **never grey or neutral**
+- Prefer `rounded-2xl` / `rounded-3xl` for cards; use `rounded-t-[999px]` for temple-arch image framing
+- Use Grantha/Devanagari glyphs or temple motifs as decorative section anchors
+- Point-card number badges use `rounded-xl` (square-ish) instead of circles for a carved-stone tablet feel
+- Images should have subtle `hover:scale-105` transitions with gradient overlays fading into card background
+- Ornamental separators between sections: diamond shapes (`rotate-45`) and gradient lines
+- Interactive elements (cards, links) should lift on hover: `hover:-translate-y-1.5` with deeper shadow
+- Text hierarchy: `text-[#3d2e22]` for heroes → `text-[#5b2d12]` for body → `text-[#6b5d4f]` for muted
+- Accent colors (teal `#1a6e5c`, indigo `#3b3270`) are **sparing** — max one element per section
 
 ### SCSS Structure
 
