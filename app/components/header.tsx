@@ -142,7 +142,7 @@ export default function Header() {
                 const href = key === "home" ? "/" : `/${key}`;
                 return (
                   <Link key={key} href={href} role="menuitem"
-                    className={`bg-[#ffffff] relative px-3 py-2 rounded-sm text-sm font-bold tracking-wide transition-all duration-200
+                    className={`relative px-3 py-2 rounded-sm text-md font-bold tracking-wide transition-all duration-200
                       ${isActive(href) ? "bg-[#7a2e1f] text-[#fff4df] shadow-[0_2px_12px_rgba(122,46,31,0.22)]"
                         : "text-[#5b2d12] hover:bg-[#fde7c7] hover:text-[#7a2e1f]"
                       }`} >
@@ -157,7 +157,7 @@ export default function Header() {
                 const icon = sectionIcons[key] || "✨";
                 return (
                   <div key={key} className="relative group">
-                    <span className="bg-[#ffffff] flex items-center gap-1.5 px-3 py-2 rounded-sm text-sm font-bold tracking-wide text-[#5b2d12] cursor-pointer select-none transition-all duration-200 group-hover:bg-[#fde7c7] group-hover:text-[#7a2e1f]">
+                    <span className="flex items-center gap-1.5 px-3 py-2 rounded-sm text-md font-bold tracking-wide text-[#5b2d12] cursor-pointer select-none transition-all duration-200 group-hover:bg-[#fde7c7] group-hover:text-[#7a2e1f]">
                       <span className="text-base">{icon}</span>
                       {val.title}
                       <svg className="ml-0.5 h-3.5 w-3.5 text-[#b45309] transition-transform duration-200 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -178,10 +178,10 @@ export default function Header() {
                               role="menuitem"
                               className="group/item flex items-center gap-3 px-5 py-2.5 transition-all duration-150 hover:bg-linear-to-r hover:from-[#fde7c7]/70 hover:to-transparent"
                             >
-                              <span className="flex h-6 w-6 items-center justify-center rounded-full bg-[#9a3412]/10 text-xs text-[#9a3412] transition-colors duration-150 group-hover/item:bg-[#9a3412] group-hover/item:text-[#fff4df]">
+                              <span className="flex h-6 w-6 items-center justify-center rounded-full bg-[#9a3412]/10 text-md text-[#9a3412] transition-colors duration-150 group-hover/item:bg-[#9a3412] group-hover/item:text-[#fff4df]">
                                 ◈
                               </span>
-                              <span className="text-sm font-semibold text-[#5b2d12] group-hover/item:text-[#7a2e1f]">
+                              <span className="text-md font-semibold text-[#5b2d12] group-hover/item:text-[#7a2e1f]">
                                 {String(subLabel)}
                               </span>
                             </Link>
@@ -234,7 +234,7 @@ export default function Header() {
                     <Link
                       key={key}
                       href={href}
-                      className={`block rounded-xl px-4 py-2.5 text-sm font-bold tracking-wide transition-all duration-150
+                      className={`block rounded-xl px-4 py-2.5 text-xl font-bold tracking-wide transition-all duration-150
                         ${isActive(href)
                           ? "bg-[#7a2e1f] text-[#fff4df] shadow-[0_2px_12px_rgba(122,46,31,0.18)]"
                           : "text-[#5b2d12] hover:bg-[#fde7c7] hover:text-[#7a2e1f]"
@@ -252,7 +252,7 @@ export default function Header() {
                       {/* Section header */}
                       <div className="flex items-center gap-2 rounded-xl bg-linear-to-r from-[#fde7c7]/80 to-transparent px-4 py-2 mb-1">
                         <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#9a3412] text-sm text-[#fff4df]">{icon}</span>
-                        <span className="text-sm font-black tracking-wide text-[#7a2e1f]">{val.title}</span>
+                        <span className="text-xl font-black tracking-wide text-[#7a2e1f]">{val.title}</span>
                         <div className="ml-auto h-px flex-1 bg-linear-to-r from-[#d8a25a]/40 to-transparent" />
                       </div>
                       {/* Sub-links */}
@@ -261,7 +261,7 @@ export default function Header() {
                           <Link
                             key={subKey}
                             href={`/${key}/${subKey}`}
-                            className="flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm font-semibold text-[#6b3a17] transition-all duration-150 hover:bg-[#fde7c7] hover:text-[#7a2e1f]"
+                            className="flex items-center gap-2.5 rounded-lg px-3 py-2 text-xl font-semibold text-[#6b3a17] transition-all duration-150 hover:bg-[#fde7c7] hover:text-[#7a2e1f]"
                             onClick={() => setOpen(false)}
                           >
                             <span className="h-1.5 w-1.5 rounded-full bg-[#d97706]" />

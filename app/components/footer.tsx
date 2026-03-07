@@ -51,8 +51,8 @@ export default function Footer() {
         <div className="relative z-10">
           {/* ─── Hero CTA Section ─── */}
           <section className="content-wrapper py-16 text-center md:py-20">
-            <div className="mx-auto max-w-3xl rounded-3xl border border-[#d8a25a]/50 bg-linear-to-br from-[#fff7ed] via-[#fde7c7] to-[#f8d7a0] px-8 py-10 shadow-[0_20px_50px_rgba(166,61,23,0.12)] md:px-16">
-              <h2 className="bg-linear-to-r from-[#7a2e1f] via-[#c2410c] to-[#d97706] bg-clip-text text-3xl font-black leading-tight text-transparent md:text-4xl">
+            <div className="bg-white mx-auto max-w-3xl rounded-2xl shadow-2xl p-4">
+              <h2 className="text-3xl md:text-4xl my-12 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
                 {footer?.title || footer?.titleText}
               </h2>
             </div>
@@ -62,25 +62,33 @@ export default function Footer() {
             </p>
 
             {/* CTA Buttons */}
-            <div className="mt-8 flex flex-col items-center justify-center gap-4 md:flex-row">
+            <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 mt-6">
               <Link
                 href="/contact"
-                className="group relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-[#7a2e1f] px-8 py-3.5 text-base font-bold tracking-wide text-[#fff4df] shadow-[0_8px_24px_rgba(122,46,31,0.22)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#9a3412] hover:shadow-[0_12px_32px_rgba(122,46,31,0.28)] no-underline"
-              >
-                {footer?.contact || footer?.contactLabel || 'Contact'}
-                <svg className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                </svg>
+                className="group relative md:inline-flex px-8 py-3 bg-gradient-to-r from-amber-500 to-orange-600
+                hover:from-amber-600 hover:to-orange-700 text-white text-xl md:text-lg rounded-full shadow-xl font-light hover:shadow-2xl
+                transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden">
+                <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
+                <span className="relative flex items-center justify-center gap-2">
+                  {footer?.contact || footer?.contactLabel || 'Contact'}
+                  <svg className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                </span>
               </Link>
 
               <Link
                 href="/donate"
-                className="group inline-flex items-center gap-2 rounded-full border-2 border-[#d8a25a] bg-[#fffaf2] px-8 py-3.5 text-base font-bold tracking-wide text-[#7a2e1f] shadow-[0_6px_20px_rgba(146,64,14,0.10)] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#b45309] hover:bg-[#fde7c7] hover:shadow-[0_10px_28px_rgba(146,64,14,0.16)] no-underline"
-              >
-                {footer?.donate || footer?.donateLabel || 'Donate'}
-                <svg className="h-4 w-4 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                </svg>
+                className="group md:inline-flex px-8 py-3 bg-white/10 backdrop-blur-md
+                hover:bg-white/20 border-2 border-white/50 hover:border-white
+                text-white text-xl md:text-lg font-light rounded-full shadow-lg hover:shadow-xl
+                transition-all duration-300 transform hover:-translate-y-1 no-underline">
+                <span className="flex items-center justify-center gap-2">
+                  {footer?.donate || footer?.donateLabel || 'Donate'}
+                  <svg className="h-4 w-4 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                  </svg>
+                </span>
               </Link>
             </div>
           </section>
@@ -93,8 +101,8 @@ export default function Footer() {
           </div>
 
           {/* ─── Navigation Columns ─── */}
-          <div className="mx-auto max-w-7xl px-4 py-10 md:py-14">
-            <nav role="menu" className="grid gap-8 md:grid-cols-5" aria-label="Footer navigation">
+          <div className="mx-auto max-w-7xl px-3 md:px-0 py-7 md:py-14">
+            <nav role="menu" className="grid gap-4 md:grid-cols-5" aria-label="Footer navigation">
               {/* Scriptures */}
               <div className="flex flex-col gap-2">
                 {(() => {
@@ -111,7 +119,7 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="mb-2 flex items-center gap-2 text-sm font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
+                      <p className="mb-2 flex items-center gap-2 text-md md:text-sm font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
                         <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#7a2e1f] text-xs text-[#fff4df]">📜</span>
                         {title}
                       </p>
@@ -123,7 +131,7 @@ export default function Footer() {
                           <Link
                             key={key}
                             href={href}
-                            className={`text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`}
+                            className={`text-md md:text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`}
                             role="menuitem"
                             onClick={e => { if (isActive(href)) e.preventDefault(); }}
                           >
@@ -152,7 +160,7 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="mb-2 flex items-center gap-2 text-sm font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
+                      <p className="mb-2 flex items-center gap-2 text-md md:text-sm font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
                         <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#92400e] text-xs text-[#fff4df]">🧘</span>
                         {title}
                       </p>
@@ -161,7 +169,7 @@ export default function Footer() {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/philosophy/${key}`;
                         return (
-                          <Link key={key} href={href} className={`text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`} role="menuitem">
+                          <Link key={key} href={href} className={`text-md md:text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`} role="menuitem">
                             {val}
                           </Link>
                         );
@@ -187,7 +195,7 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="mb-2 flex items-center gap-2 text-sm font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
+                      <p className="mb-2 flex items-center gap-2 text-md md:text-sm font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
                         <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#9a3412] text-xs text-[#fff4df]">📖</span>
                         {title}
                       </p>
@@ -196,7 +204,7 @@ export default function Footer() {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/stories/${key}`;
                         return (
-                          <Link key={key} href={href} className={`text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`} role="menuitem">
+                          <Link key={key} href={href} className={`text-md md:text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`} role="menuitem">
                             {val}
                           </Link>
                         );
@@ -227,7 +235,7 @@ export default function Footer() {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/stotrasmantras/${key}`;
                         return (
-                          <Link key={key} href={href} className={`text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412]' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`} role="menuitem">
+                          <Link key={key} href={href} className={`text-md md:text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412]' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`} role="menuitem">
                             {val}
                           </Link>
                         );
@@ -253,7 +261,7 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="mb-2 flex items-center gap-2 text-sm font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
+                      <p className="mb-2 flex items-center gap-2 text-md md:text-sm font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
                         <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#b45309] text-xs text-[#fff4df]">🧒</span>
                         {title}
                       </p>
@@ -262,7 +270,7 @@ export default function Footer() {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/kidszone/${key}`;
                         return (
-                          <Link key={key} href={href} className={`text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`} role="menuitem">
+                          <Link key={key} href={href} className={`text-md md:text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`} role="menuitem">
                             {val}
                           </Link>
                         );
@@ -288,7 +296,7 @@ export default function Footer() {
                   })() : {});
                   return (
                     <>
-                      <p className="mb-2 flex items-center gap-2 text-sm font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
+                      <p className="mb-2 flex items-center gap-2 text-md md:text-sm font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
                         <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#c2410c] text-xs text-[#fff4df]">✨</span>
                         {title}
                       </p>
@@ -297,7 +305,7 @@ export default function Footer() {
                         if (typeof val !== 'string') return null;
                         const href = key === 'home' ? '/' : `/${key}`;
                         return (
-                          <Link key={key} href={href} className={`text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`} role="menuitem">
+                          <Link key={key} href={href} className={`text-md md:text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`} role="menuitem">
                             {val}
                           </Link>
                         );
@@ -318,17 +326,17 @@ export default function Footer() {
                   {footer?.disclaimer}<br />{footer?.contentChange}
                 </small>
               </div>
-              <nav role="list" className="flex items-center gap-5" aria-label="Social links">
-                <Link role="listitem" aria-label="Visit us on LinkedIn" href="https://in.linkedin.com/in/vulchivijayakumar" target="_blank" className="rounded-full border border-[#d8a25a]/40 bg-[#fffaf2] p-2 transition-all duration-200 hover:border-[#d97706] hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
+              <nav role="list" className="flex items-center gap-4" aria-label="Social links">
+                <Link role="listitem" aria-label="Visit us on LinkedIn" href="https://in.linkedin.com/in/vulchivijayakumar" target="_blank" className="flex items-center justify-center rounded-sm border border-[#d8a25a]/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
                   <LazyImage src="/images/svg/linkedin.svg" alt="linkedin" width={20} height={20} className="inline-block" />
                 </Link>
-                <Link role="listitem" aria-label="Visit us on Codepen" href="https://codepen.io/vulchivijay" target="_blank" className="rounded-full border border-[#d8a25a]/40 bg-[#fffaf2] p-2 transition-all duration-200 hover:border-[#d97706] hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
+                <Link role="listitem" aria-label="Visit us on Codepen" href="https://codepen.io/vulchivijay" target="_blank" className="flex items-center justify-center rounded-sm border border-[#d8a25a]/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
                   <LazyImage src="/images/svg/codepen.svg" alt="codepen" width={20} height={20} className="inline-block" />
                 </Link>
-                <Link role="listitem" aria-label="Visit us on Github" href="https://github.com/vulchivijay" target="_blank" className="rounded-full border border-[#d8a25a]/40 bg-[#fffaf2] p-2 transition-all duration-200 hover:border-[#d97706] hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
+                <Link role="listitem" aria-label="Visit us on Github" href="https://github.com/vulchivijay" target="_blank" className="flex items-center justify-center rounded-sm border border-[#d8a25a]/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
                   <LazyImage src="/images/svg/github.svg" alt="github" width={20} height={20} className="inline-block" />
                 </Link>
-                <Link role="listitem" aria-label="Visit us on Twitter" href="#" target="_blank" className="rounded-full border border-[#d8a25a]/40 bg-[#fffaf2] p-2 transition-all duration-200 hover:border-[#d97706] hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
+                <Link role="listitem" aria-label="Visit us on Twitter" href="#" target="_blank" className="flex items-center justify-center rounded-sm border border-[#d8a25a]/40 px-2 py-1 transition-all duration-200 hover:shadow-[0_4px_12px_rgba(146,64,14,0.12)] no-underline">
                   <LazyImage src="/images/svg/twitter.svg" alt="twitter" width={20} height={20} className="inline-block" />
                 </Link>
               </nav>
