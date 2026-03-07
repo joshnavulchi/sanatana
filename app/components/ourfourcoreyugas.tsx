@@ -1,106 +1,119 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import { parseList } from '@lib/parseList';
 import Link from 'next/link';
 
-const Segment = ({ title, subtitle, years, isFirst, isLast, index }: any) => {
-  const [isVisible] = useState(true);
+/* ── Rotating temple tones for each yuga card ── */
+const YUGA_TONES = [
+  {
+    ring: 'border-[#d8a25a]',
+    badge: 'bg-[#7a2e1f] text-[#fff4df]',
+    accent: 'from-[#a63d17] via-[#d97706] to-[#f59e0b]',
+    glow: 'shadow-[0_20px_50px_rgba(166,61,23,0.16)]',
+    pillBg: 'bg-[#fff7ed]',
+    numBg: 'bg-[#7a2e1f]',
+  },
+  {
+    ring: 'border-[#c98a41]',
+    badge: 'bg-[#92400e] text-[#fff7e6]',
+    accent: 'from-[#92400e] via-[#c2410c] to-[#ea580c]',
+    glow: 'shadow-[0_22px_48px_rgba(146,64,14,0.15)]',
+    pillBg: 'bg-[#fffaf0]',
+    numBg: 'bg-[#92400e]',
+  },
+  {
+    ring: 'border-[#cf8f4f]',
+    badge: 'bg-[#9a3412] text-[#fff3e0]',
+    accent: 'from-[#7c2d12] via-[#c2410c] to-[#fb923c]',
+    glow: 'shadow-[0_20px_44px_rgba(124,45,18,0.16)]',
+    pillBg: 'bg-[#fff8f1]',
+    numBg: 'bg-[#9a3412]',
+  },
+  {
+    ring: 'border-[#d9a15d]',
+    badge: 'bg-[#7c2d12] text-[#fff4df]',
+    accent: 'from-[#7a2e1f] via-[#b45309] to-[#d97706]',
+    glow: 'shadow-[0_22px_50px_rgba(122,46,31,0.16)]',
+    pillBg: 'bg-[#fffaf2]',
+    numBg: 'bg-[#7c2d12]',
+  },
+];
+
+const ROMAN = ['I', 'II', 'III', 'IV'];
+
+interface YugaCardProps {
+  name: string;
+  subtitle: string;
+  years: string;
+  description?: string[];
+  index: number;
+  isVisible: boolean;
+}
+
+function YugaCard({ name, subtitle, years, description, index, isVisible }: YugaCardProps) {
+  const tone = YUGA_TONES[index % YUGA_TONES.length];
+
   return (
-    <div className={`relative flex flex-col items-center transition-all duration-700 ease-out
-        ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'}`}>
-      {/* Arrow segment with enhanced design */}
-      <div className={[
-        "group relative",
-        "text-white",
-        "shadow-2xl hover:shadow-3xl",
-        "transition-all duration-500",
-        "hover:-translate-y-2",
-        // Arrow shape via clip-path polygon
-        !isFirst && !isLast
-          ? "clip-path-[polygon(0%_0%,85%_0%,100%_50%,85%_100%,0%_100%,7%_50%)]"
-          : isFirst
-            ? "clip-path-[polygon(0%_0%,85%_0%,100%_50%,85%_100%,0%_100%)]"
-            : "clip-path-[polygon(0%_0%,85%_0%,100%_50%,85%_100%,0%_100%,0%_50%)]",
-        // Gradient backgrounds
-        "bg-gradient-to-br from-amber-600/90 via-orange-600/90 to-red-700/90",
-        "hover:from-amber-500 hover:via-orange-500 hover:to-red-600",
-        // Backdrop blur
-        "backdrop-blur-sm",
-        // Border effects
-        "ring-2 ring-white/20 group-hover:ring-white/40",
-        "ring-offset-2 ring-offset-transparent",
-        // Inner glow
-        "before:absolute before:inset-0",
-        "before:bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.25),transparent_70%)]",
-        "before:pointer-events-none",
-        "before:opacity-50 group-hover:before:opacity-100",
-        "before:transition-opacity before:duration-500",
-      ].join(" ")}>
-        {/* Animated shimmer effect */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
+    <div
+      className={`group relative flex flex-col overflow-hidden rounded-3xl border-2 ${tone.ring} ${tone.glow} bg-[#fffaf2] transition-all duration-700 ease-out hover:-translate-y-1.5 ${
+        isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
+      }`}
+      style={{ transitionDelay: `${index * 160}ms` }}
+    >
+      {/* Top accent bar */}
+      <div className={`h-1.5 w-full bg-linear-to-r ${tone.accent}`} />
+
+      {/* Ornamental blurs */}
+      <div className="absolute -right-6 -top-6 h-20 w-20 rounded-full bg-[#f4c98b]/30 blur-2xl" />
+      <div className="absolute -left-4 bottom-4 h-14 w-14 rounded-full bg-[#d97706]/15 blur-2xl" />
+
+      <div className="relative flex flex-1 flex-col p-6">
+        {/* Roman numeral badge */}
+        <div className="mb-4 flex items-center gap-3">
+          <span className={`inline-flex h-10 w-10 items-center justify-center rounded-full ${tone.numBg} text-sm font-black text-[#fff4df] tracking-wider`}>
+            {ROMAN[index] || index + 1}
+          </span>
+          <div className="h-px flex-1 bg-linear-to-r from-[#d8a25a]/50 to-transparent" />
         </div>
 
-        {/* Title + subtitle container */}
-        <div className="relative flex items-center gap-3 px-6 py-6 md:px-8 md:py-8">
-          {/* Arrow glyph */}
-          {!isFirst && (
-            <span className="hidden sm:inline-block text-white/80 group-hover:text-white transition-colors duration-300">
-              <svg width="24" height="24" viewBox="0 0 24 24" className="animate-pulse">
-                <path
-                  d="M3 12h14M13 6l6 6-6 6"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </span>
-          )}
+        {/* Title */}
+        <h3 className={`bg-linear-to-r ${tone.accent} bg-clip-text text-2xl font-black leading-tight text-transparent md:text-3xl`}>
+          {name}
+        </h3>
 
-          <div className="text-center sm:text-left">
-            <h6 className="text-2xl font-light tracking-wide drop-shadow-lg group-hover:scale-105 transition-transform duration-300 m-0">{title}</h6>
-            <p className="text-xl md:text-lg font-light text-white group-hover:text-white transition-colors duration-300 mt-3">{subtitle}</p>
-          </div>
+        {/* Subtitle */}
+        <p className="mt-1 text-sm font-bold uppercase tracking-[0.25em] text-[#92400e]">
+          {subtitle}
+        </p>
+
+        {/* Description points */}
+        {description && description.length > 0 && (
+          <ul className="mt-5 flex flex-col gap-2">
+            {description.map((point, i) => (
+              <li key={i} className="flex items-start gap-2.5 text-sm leading-relaxed text-[#5b2d12]">
+                <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[#d97706]" />
+                {point}
+              </li>
+            ))}
+          </ul>
+        )}
+
+        {/* Years pill — pushed to bottom */}
+        <div className="mt-auto pt-6">
+          <span className={`inline-flex items-center gap-2 rounded-full border ${tone.ring} ${tone.pillBg} px-5 py-2 text-xs font-bold tracking-widest text-[#7a2e1f] transition-all duration-300 group-hover:shadow-[0_4px_16px_rgba(146,64,14,0.14)]`}>
+            <svg className="h-3.5 w-3.5 text-[#d97706]" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+              <circle cx="12" cy="12" r="10" strokeWidth="2" />
+              <path d="M12 6v6l4 2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+            {years}
+          </span>
         </div>
-
-        {/* Corner decorative elements */}
-        <div className="absolute top-2 right-4 w-2 h-2 bg-white/40 rounded-full group-hover:scale-150 group-hover:bg-white/60 transition-all duration-300" />
-        <div className="absolute bottom-2 left-4 w-1.5 h-1.5 bg-white/30 rounded-full group-hover:scale-150 group-hover:bg-white/50 transition-all duration-300" />
       </div>
-
-      {/* Years badge */}
-      <div className="
-        relative mt-6 px-6 py-2
-        bg-white/10 backdrop-blur-md
-        border border-white/20
-        rounded-full
-        text-white/90
-        text-xs md:text-sm
-        font-medium tracking-wide
-        shadow-lg
-        hover:bg-white/20 hover:scale-105
-        transition-all duration-300
-      ">
-        {years}
-      </div>
-
-      {/* Connecting line */}
-      {!isLast && (
-        <div className="
-          absolute top-full mt-4 md:top-1/2 md:left-full md:mt-0 md:ml-4
-          w-0.5 h-8 md:w-8 md:h-0.5
-          bg-gradient-to-b md:bg-gradient-to-r from-white/50 to-white/20
-          animate-pulse
-        " />
-      )}
     </div>
   );
-};
-
+}
 
 export default function OurFourCoreYugas() {
   const locale = useLocaleSection('home');
@@ -112,97 +125,100 @@ export default function OurFourCoreYugas() {
   const [isVisible] = useState(true);
 
   return (
-    <section className="relative z-0 bg-[radial-gradient(120%_120%_at_50%_0%,#8a3a31_10%,#b25435_40%,#502a26_100%)] text-center py-20 md:py-32 overflow-hidden">
-      {/* Animated background elements */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-10 left-10 w-72 h-72 bg-amber-500/10 rounded-full blur-3xl animate-pulse" />
-        <div className="absolute bottom-10 right-10 w-96 h-96 bg-orange-500/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }} />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-1 bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+    <section className="relative overflow-hidden bg-linear-to-b from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] py-16 md:py-24">
+      {/* Ornamental background shapes */}
+      <div className="pointer-events-none absolute inset-0">
+        <div className="absolute -left-20 top-20 h-72 w-72 rounded-full bg-[#f3b86b]/15 blur-3xl" />
+        <div className="absolute -right-16 bottom-12 h-80 w-80 rounded-full bg-[#d97706]/10 blur-3xl" />
+        <div className="absolute left-1/2 top-0 h-32 w-[60%] -translate-x-1/2 rounded-b-full bg-[#f4c98b]/20 blur-3xl" />
       </div>
 
-      <div className="w-full md:mx-auto md:max-w-7xl relative z-10">
-        {/* Header Section */}
-        <div className={`mb-16 md:mb-24 transition-all duration-1000 ease-out
-            ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}
-          `}>
-          {/* Decorative top accent */}
-          <div className="flex items-center justify-center gap-3 mb-8">
-            <div className="h-px w-20 bg-gradient-to-r from-transparent to-amber-400" />
-            <span className="text-3xl text-amber-300 animate-pulse">🕉️</span>
-            <div className="h-px w-20 bg-gradient-to-l from-transparent to-amber-400" />
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-4">
+        {/* ─── Header ─── */}
+        <div
+          className={`mx-auto mb-14 max-w-4xl text-center transition-all duration-1000 ease-out ${
+            isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
+          }`}
+        >
+          {/* Ornamental divider */}
+          <div className="mb-6 flex items-center justify-center gap-3">
+            <div className="h-px w-16 bg-linear-to-r from-transparent to-[#d8a25a]" />
+            <span className="text-2xl text-[#9a3412]" aria-hidden="true">🕉️</span>
+            <div className="h-px w-16 bg-linear-to-l from-transparent to-[#d8a25a]" />
           </div>
 
-          <h6 className="text-4xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-md drop-shadow-black my-6">
+          <h2 className="bg-linear-to-r from-[#a63d17] via-[#d97706] to-[#f59e0b] bg-clip-text text-4xl font-black leading-tight text-transparent md:text-5xl">
             {title}
-          </h6>
+          </h2>
 
-          <div className="mx-auto max-w-5xl px-3">
-            <p className="text-xl md:text-lg leading-relaxed text-white">
-              {subtitle}{' '}
-              <Link
-                href="/cosmictime"
-                className="inline-flex items-center gap-1 text-amber-300 hover:text-amber-200 underline underline-offset-8 decoration-1 decoration-amber-400/50 hover:decoration-amber-400 transition-all duration-300 group"
-                aria-label="Learn more about Cosmic Time"
-              >
-                Learn more about Cosmic Time
-                <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                </svg>
-              </Link>
-            </p>
-          </div>
+          <p className="mt-6 text-base leading-8 text-[#5b2d12] md:text-lg">
+            {subtitle}{' '}
+            <Link
+              href="/cosmictime"
+              className="group inline-flex items-center gap-1 font-bold text-[#9a3412] underline decoration-[#d97706]/40 underline-offset-4 transition-all duration-300 hover:text-[#7a2e1f] hover:decoration-[#d97706]"
+              aria-label="Learn more about Cosmic Time"
+            >
+              Learn more about Cosmic Time
+              <svg className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </Link>
+          </p>
 
-          {/* Decorative divider */}
-          <div className="flex items-center justify-center gap-2 pt-4">
-            <div className="w-2 h-2 bg-amber-400 rounded-full animate-pulse" />
-            <div className="w-2 h-2 bg-orange-400 rounded-full animate-pulse" style={{ animationDelay: '200ms' }} />
-            <div className="w-2 h-2 bg-amber-400 rounded-full animate-pulse" style={{ animationDelay: '400ms' }} />
+          {/* Dot accent */}
+          <div className="mt-6 flex items-center justify-center gap-2">
+            <span className="h-1.5 w-1.5 rounded-full bg-[#d97706]" />
+            <span className="h-1.5 w-1.5 rounded-full bg-[#9a3412]" />
+            <span className="h-1.5 w-1.5 rounded-full bg-[#d97706]" />
           </div>
         </div>
 
-        {/* Yugas Timeline Container */}
-        <div className="relative w-full flex flex-col md:flex-row md:items-center md:justify-center gap-16 md:gap-8 lg:gap-12">
-          {/* Background connecting line */}
-          <div className="hidden md:block absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-y-1/2" />
-
-          {/* Yugas Segments */}
-          {yugas.map((y, idx) => (
-            <Segment
+        {/* ─── Yuga Cards Grid ─── */}
+        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+          {yugas.map((y: any, idx: number) => (
+            <YugaCard
               key={y.name}
-              title={y.name}
+              name={y.name}
               subtitle={y.subtitle}
               years={y.years}
-              gradientFrom={y.gradientFrom}
-              gradientTo={y.gradientTo}
-              isFirst={idx === 0}
-              isLast={idx === yugas.length - 1}
+              description={y.description}
               index={idx}
+              isVisible={isVisible}
             />
           ))}
         </div>
 
-        {/* Bottom decorative accent */}
-        <div className={`mt-16 flex items-center justify-center gap-3 transition-all duration-1000 ease-out delay-700
-            ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}
-          `}>
-          <div className="h-px w-20 bg-gradient-to-r from-transparent to-orange-400" />
-          <span className="text-orange-300 text-xl md:text-lg font-light">✦ CYCLE OF TIME ✦</span>
-          <div className="h-px w-20 bg-gradient-to-l from-transparent to-orange-400" />
-        </div>
+        {/* ─── Bottom Notes ─── */}
+        <div
+          className={`mt-14 transition-all duration-1000 ease-out delay-500 ${
+            isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
+          }`}
+        >
+          {/* Divider */}
+          <div className="mb-8 flex items-center justify-center gap-3">
+            <div className="h-px w-16 bg-linear-to-r from-transparent to-[#b45309]/50" />
+            <span className="text-xs font-black uppercase tracking-[0.35em] text-[#92400e]">
+              ✦ Cycle of Time ✦
+            </span>
+            <div className="h-px w-16 bg-linear-to-l from-transparent to-[#b45309]/50" />
+          </div>
 
-        <div className="px-3 my-6">
-          <h6 className="bg-white/10 backdrop-blur-md border border-white/20 rounded-full inline-flex text-xl md:text-lg leading-relaxed shadow-md px-6 py-4">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-neutral-100 via-neutral-200 to-neutral-100 drop-shadow-xl">{earthAgeComparisonNote}</span>
-          </h6>
-          <p className="text-xl md:text-lg leading-relaxed my-3 text-white">
-            {scalingComment}
-          </p>
-        </div>
+          {/* Highlight note */}
+          {earthAgeComparisonNote && (
+            <div className="mx-auto max-w-3xl rounded-2xl border border-[#d8a25a]/50 bg-linear-to-br from-[#fff7ed] via-[#fde7c7] to-[#f8d7a0] px-6 py-5 text-center shadow-[0_16px_40px_rgba(166,61,23,0.10)]">
+              <p className="bg-linear-to-r from-[#7a2e1f] via-[#9a3412] to-[#7a2e1f] bg-clip-text text-base font-bold leading-7 text-transparent md:text-lg">
+                {earthAgeComparisonNote}
+              </p>
+            </div>
+          )}
 
+          {scalingComment && (
+            <p className="mx-auto mt-5 max-w-3xl text-center text-base leading-7 text-[#5b2d12] md:text-lg">
+              {scalingComment}
+            </p>
+          )}
+        </div>
       </div>
-
-      {/* Soft vignette overlay */}
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(120%_120%_at_50%_50%,transparent_0%,rgba(0,0,0,0.3)_100%)]" />
     </section>
-  )
+  );
 }

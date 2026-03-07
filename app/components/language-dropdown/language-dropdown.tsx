@@ -154,15 +154,10 @@ export default function LanguageDropdown() {
   return (
     <div role="menuItem" ref={dropdownRef} className="relative">
       {/* Dropdown Button */}
-      <button
-        role="button"
-        aria-haspopup="menu"
-        aria-controls="language-menu"
-        onClick={() => setOpen(!open)}
-        className="group relative inline-flex items-center gap-2 py-2 px-3 bg-gradient-to-r from-amber-50 to-orange-50 hover:from-amber-100 hover:to-orange-100 rounded-full border-2 border-amber-200 shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer transform"
+      <button role="button" aria-haspopup="menu" aria-controls="language-menu" onClick={() => setOpen(!open)}
+        className="bg-white group relative inline-flex items-center gap-1 py-1 px-3 rounded-sm shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer transform"
         aria-label={locale?.languagedropdown?.arialabel || 'Choose language'}
-        aria-expanded={open}
-      >
+        aria-expanded={open} >
         <div className="relative">
           <img src="/images/svg/ml.svg" alt={locale?.languagedropdown?.iconalt || 'Language selector'} width={24} height={24} className="transition-transform duration-300 group-hover:rotate-12" />
           <div className="absolute -top-1 -right-1 w-2 h-2 bg-amber-500 rounded-full animate-pulse"></div>

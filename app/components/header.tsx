@@ -4,16 +4,13 @@
 import { useEffect, useRef, useState } from 'react';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import { usePathname } from 'next/navigation';
-// import { loadLocaleNamespace, DEFAULT_LOCALE } from '@lib/i18n';
 import { useLocale } from '@app/context/locale-context';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import LazyImage from './lazyimage';
-// import BannerNotifications from './bannernotifications';
 import ThemeToggle from './theme-toggle/ThemeToggle';
 
 const LanguageDropdown = dynamic(() => import("./language-dropdown/language-dropdown"), { ssr: false });
-// Start with default-locale fallbacks so header can render synchronously
 
 // Default fallback values
 const defaultSiteTitle = 'Sanātana Dharma';
@@ -36,6 +33,7 @@ export default function Header() {
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
+
   const { locale } = useLocale();
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
@@ -45,68 +43,13 @@ export default function Header() {
     banner: null,
     banner2: null,
   });
-  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
-  const [expandedKeys, setExpandedKeys] = useState<Record<string, boolean>>({});
-  const [dropdownAligns, setDropdownAligns] = useState<Record<string, 'left' | 'center' | 'right'>>({});
-  const [dropdownPositions, setDropdownPositions] = useState<Record<string, number>>({});
-  const dropdownRefs = useRef<Record<string, (HTMLElement | null)[]>>({});
-  const triggerRefs = useRef<Record<string, HTMLButtonElement | null>>({});
-  const headerRef = useRef<HTMLElement | null>(null);
-  const lastOpenKeyRef = useRef<string | null>(null);
 
-  const openDropdownForKey = (k: string) => {
-    lastOpenKeyRef.current = k;
-    try {
-      const trigger = triggerRefs.current[k];
-      if (trigger && typeof window !== 'undefined') {
-        const rect = trigger.getBoundingClientRect();
-        const dropdownWidth = 14 * 16; // w-56 -> 14rem * 16px
-        const padding = 12; // keep a small padding from viewport edge
-        // compute left so panel stays within viewport
-        let left = Math.max(padding, rect.left);
-        if (left + dropdownWidth > window.innerWidth - padding) {
-          // align to the right edge of viewport minus dropdown width
-          left = Math.max(padding, window.innerWidth - padding - dropdownWidth);
-          setDropdownAligns((s) => ({ ...s, [k]: 'right' }));
-        } else {
-          setDropdownAligns((s) => ({ ...s, [k]: 'left' }));
-        }
-        setDropdownPositions((s) => ({ ...s, [k]: Math.round(left) }));
-      }
-    } catch (e) {
-      // ignore measurement errors
-    }
-    setOpenDropdown(k);
-  };
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const headerRef = useRef<HTMLElement | null>(null);
+
   const closeDropdown = () => {
     setOpenDropdown(null);
   };
-
-  // Small animated panel used for desktop submenus so open/close animate
-  function DropdownPanel({ open, id, align = 'left', positionLeft, children }: { open: boolean; id?: string; align?: 'left' | 'center' | 'right'; positionLeft?: number; children: React.ReactNode }) {
-    const [render, setRender] = useState(open);
-    const [visible, setVisible] = useState(false);
-    useEffect(() => {
-      if (open) {
-        setRender(true);
-        // next tick so transition from initial -> visible runs
-        requestAnimationFrame(() => setVisible(true));
-      } else {
-        setVisible(false);
-        const t = setTimeout(() => setRender(false), 160);
-        return () => clearTimeout(t);
-      }
-    }, [open]);
-
-    if (!render) return null;
-    const alignClass = align === 'center' ? 'left-1/2 -translate-x-1/2' : (align === 'right' ? 'right-0' : 'left-0');
-    const style = positionLeft != null ? { left: `${positionLeft}px` } : undefined;
-    return (
-      <div id={id} role="menu" aria-hidden={!open} style={style as any} className={`absolute top-full w-56 rounded bg-white shadow-md overflow-hidden transition-all duration-150 transform origin-top ${positionLeft != null ? '' : alignClass} ${visible ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-95 -translate-y-1"} `}>
-        {children}
-      </div>
-    );
-  }
 
   // Use centralized hook to read `sharable_strings` section (synchronous if cached,
   // otherwise will fetch and update state). Keeps pattern consistent with footer.
@@ -144,7 +87,6 @@ export default function Header() {
   useEffect(() => {
     // Close the mobile drawer and any open dropdowns when pathname changes
     setOpen(false);
-    setExpandedKeys({});
     setOpenDropdown(null);
   }, [pathname]);
 
@@ -161,145 +103,181 @@ export default function Header() {
     return () => document.removeEventListener("mousedown", onDocMouseDown);
   }, []);
 
-  // When a dropdown closes (openDropdown becomes null) return focus to its trigger
-  useEffect(() => {
-    if (openDropdown === null && lastOpenKeyRef.current) {
-      const key = lastOpenKeyRef.current;
-      // give the DOM a tick in case focus changes concurrently
-      setTimeout(() => {
-        triggerRefs.current[key]?.focus();
-      }, 0);
-      lastOpenKeyRef.current = null;
-    }
-  }, [openDropdown]);
-
   if (!translations) return null;
 
+  const sectionIcons: Record<string, string> = {
+    scriptures: "📜",
+    philosophy: "🧘",
+    kidszone: "🧒",
+  };
+
   return (
-    <header ref={headerRef} className={`w-full sticky top-0 z-30 shadow-md`}>
-      {/* <BannerNotifications id="first_banner" message={translations.banner} marquee="true" />
-      {/* <BannerNotifications id="second_banner" message={translations.banner2} marquee="false" showClose={true} backgroundclass="notification-alternative-background-color" /> */}
-      <div className="w-full px-4 md:px-0 bg-white/95 shadow-md sticky top-0 z-30 py-1">
+    <header ref={headerRef} className="w-full sticky top-0 z-30">
+      {/* Ornamental top accent — saffron / gold / copper gradient */}
+      <div className="h-1 w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
+      <div className="w-full bg-linear-to-r from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] shadow-[0_4px_20px_rgba(166,61,23,0.10)] px-4 py-1 md:px-0">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
-          {/* Logo and Title */}
+          {/* ─── Logo & Title ─── */}
           <h1 className="m-0 p-0">
-            <Link href="/" className="flex items-center gap-1 group">
-              <LazyImage
-                src="/images/logo.png"
-                alt="Sanatanadharmam Logo"
-                width={logoWidth}
-                height={40}
-                className="md:flex"
-              />
+            <Link href="/" className="flex items-center gap-2 group">
+              <span className="relative flex items-center justify-center">
+                <LazyImage
+                  src="/images/logo.png"
+                  alt="Sanatanadharmam Logo"
+                  width={logoWidth}
+                  height={40}
+                  className="md:flex"
+                />
+              </span>
               <span className="max-w-50 md:max-w-100 text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
                 {translations.siteTitle}
               </span>
             </Link>
           </h1>
 
-          {/* Desktop Nav */}
-          <nav className="hidden md:flex items-center gap-2" role="menubar" aria-label="Main navigation">
+          {/* ─── Desktop Nav ─── */}
+          <nav className="hidden md:flex items-center gap-1" role="menubar" aria-label="Main navigation">
             {Object.entries(translations.header).map(([key, val]: [string, any]) => {
               if (typeof val === "string") {
                 const href = key === "home" ? "/" : `/${key}`;
                 return (
-                  <Link key={key} href={href} role="menuitem" className={`px-4 py-2 rounded-lg font-semibold text-amber-800 hover:bg-amber-100 hover:text-orange-700 transition-colors duration-150 ${isActive(href) ? "bg-orange-100 text-orange-700" : ""}`}>
+                  <Link key={key} href={href} role="menuitem"
+                    className={`bg-[#ffffff] relative px-3 py-2 rounded-sm text-sm font-bold tracking-wide transition-all duration-200
+                      ${isActive(href) ? "bg-[#7a2e1f] text-[#fff4df] shadow-[0_2px_12px_rgba(122,46,31,0.22)]"
+                        : "text-[#5b2d12] hover:bg-[#fde7c7] hover:text-[#7a2e1f]"
+                      }`} >
                     {val}
+                    {isActive(href) && (
+                      <span className="absolute inset-x-2 -bottom-px h-0.5 rounded-full bg-linear-to-r from-[#d97706] to-[#f59e0b]" />
+                    )}
                   </Link>
                 );
               }
-              // Dropdown nav: flatten and show all children as sub-links
               if (typeof val === "object" && val.title && val.nav) {
-                // Unique icon per section (simple emoji, can be replaced with SVG)
-                const sectionIcons: Record<string, string> = {
-                  scriptures: "📜",
-                  philosophy: "🧘",
-                  kidszone: "🧒",
-                };
-                const icon = sectionIcons[key as string] || "✨";
+                const icon = sectionIcons[key] || "✨";
                 return (
                   <div key={key} className="relative group">
-                    <span className="px-3 py-2 rounded-lg font-semibold text-amber-800 group-hover:bg-amber-100 group-hover:text-orange-700 transition-colors duration-150 cursor-pointer select-none flex items-center gap-1">
-                      <span className="text-xl md:text-lg">{icon}</span> {val.title}
+                    <span className="bg-[#ffffff] flex items-center gap-1.5 px-3 py-2 rounded-sm text-sm font-bold tracking-wide text-[#5b2d12] cursor-pointer select-none transition-all duration-200 group-hover:bg-[#fde7c7] group-hover:text-[#7a2e1f]">
+                      <span className="text-base">{icon}</span>
+                      {val.title}
+                      <svg className="ml-0.5 h-3.5 w-3.5 text-[#b45309] transition-transform duration-200 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+                      </svg>
                     </span>
-                    <div className="absolute left-0 pt-2 min-w-[220px] bg-white border border-amber-200 rounded-2xl shadow-2xl opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-all duration-200 z-20 animate-fade-in-down overflow-hidden">
-                      {/* Accent bar */}
-                      <div className="h-1 w-full bg-gradient-to-r from-orange-400 via-amber-400 to-yellow-300" />
-                      {Object.entries(val.nav).map(([subKey, subLabel], idx) => (
-                        <Link key={subKey} href={`/${key}/${subKey}`} role="menuitem" className="flex items-center gap-3 px-5 py-2 text-amber-800 rounded transition-colors duration-150 hover:bg-orange-100 hover:text-orange-700 focus:bg-orange-200 focus:text-orange-800" style={{ animationDelay: `${idx * 40}ms` }}>
-                          <span className="text-base md:text-md">🔸</span>
-                          <span>{String(subLabel)}</span>
-                        </Link>
-                      ))}
+
+                    {/* Dropdown */}
+                    <div className="absolute left-0 pt-3 min-w-60 opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-200 z-20">
+                      <div className="overflow-hidden rounded-2xl border border-[#d8a25a]/50 bg-[#fffaf0] shadow-[0_20px_50px_rgba(166,61,23,0.14)]">
+                        {/* Gold accent bar */}
+                        <div className="h-1 w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
+                        <div className="py-2">
+                          {Object.entries(val.nav).map(([subKey, subLabel]) => (
+                            <Link
+                              key={subKey}
+                              href={`/${key}/${subKey}`}
+                              role="menuitem"
+                              className="group/item flex items-center gap-3 px-5 py-2.5 transition-all duration-150 hover:bg-linear-to-r hover:from-[#fde7c7]/70 hover:to-transparent"
+                            >
+                              <span className="flex h-6 w-6 items-center justify-center rounded-full bg-[#9a3412]/10 text-xs text-[#9a3412] transition-colors duration-150 group-hover/item:bg-[#9a3412] group-hover/item:text-[#fff4df]">
+                                ◈
+                              </span>
+                              <span className="text-sm font-semibold text-[#5b2d12] group-hover/item:text-[#7a2e1f]">
+                                {String(subLabel)}
+                              </span>
+                            </Link>
+                          ))}
+                        </div>
+                      </div>
                     </div>
                   </div>
                 );
               }
               return null;
             })}
-            <LanguageDropdown />
-            <ThemeToggle />
+            <div className="ml-1 pl-2 border-l border-[#d8a25a]/40 flex items-center gap-1">
+              <LanguageDropdown />
+              <ThemeToggle />
+            </div>
           </nav>
 
-          {/* Mobile Nav Toggle */}
+          {/* ─── Mobile Toggle ─── */}
           <div className="flex items-center md:hidden gap-2">
             <LanguageDropdown />
             <ThemeToggle />
-            <button aria-label="Open menu" onClick={() => setOpen((s) => !s)} className="inline-flex items-center justify-center rounded-lg hover:bg-amber-100 focus:outline-none focus:ring-2 focus:ring-amber-400">
-              <svg className="h-8 w-8 text-orange-600" fill="none" viewBox="0 0 32 32" stroke="currentColor" aria-hidden="true">
+            <button
+              aria-label={open ? "Close menu" : "Open menu"}
+              onClick={() => setOpen((s) => !s)}
+              className="inline-flex items-center justify-center rounded-xl p-1.5 text-[#7a2e1f] transition-all duration-200 hover:bg-[#fde7c7] focus:outline-none focus:ring-2 focus:ring-[#d97706]/50"
+            >
+              <svg className="h-7 w-7" fill="none" viewBox="0 0 32 32" stroke="currentColor" aria-hidden="true">
                 {open ? (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M8 8l16 16M8 24L24 8" />
                 ) : (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8h24M4 16h24M4 24h24" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M4 8h24M4 16h24M4 24h24" />
                 )}
               </svg>
             </button>
           </div>
         </div>
 
-        {/* Mobile Drawer */}
+        {/* ─── Mobile Drawer ─── */}
         {open && (
-          <div className="md:hidden relative z-50 bg-white/95 border-t border-b border-amber-100 shadow-lg animate-fade-in-down">
-            <div className="flex flex-col gap-2 py-4 px-4 max-h-[70vh] overflow-y-auto scrollbar-thin scrollbar-thumb-amber-400 scrollbar-track-amber-100" style={{ WebkitOverflowScrolling: 'touch' }}>
+          <div className="md:hidden relative z-50 mt-1 overflow-hidden rounded-b-2xl border-t border-[#d8a25a]/40 bg-linear-to-b from-[#fffaf0] to-[#fdf0d7] shadow-[0_16px_40px_rgba(166,61,23,0.12)] animate-fade-in-down">
+            {/* Top accent */}
+            <div className="h-0.5 w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
+
+            <div className="flex flex-col gap-1 py-4 px-4 max-h-[70vh] overflow-y-auto" style={{ WebkitOverflowScrolling: 'touch' }}>
               {Object.entries(translations.header).map(([key, val]: [string, any]) => {
                 if (typeof val === "string") {
                   const href = key === "home" ? "/" : `/${key}`;
                   return (
-                    <Link key={key} href={href} className={`block px-4 py-2 rounded-lg font-semibold text-amber-800 hover:bg-amber-100 hover:text-orange-700 transition-colors duration-150 ${isActive(href) ? "bg-orange-100 text-orange-700" : ""}`} onClick={() => setOpen(false)}>
+                    <Link
+                      key={key}
+                      href={href}
+                      className={`block rounded-xl px-4 py-2.5 text-sm font-bold tracking-wide transition-all duration-150
+                        ${isActive(href)
+                          ? "bg-[#7a2e1f] text-[#fff4df] shadow-[0_2px_12px_rgba(122,46,31,0.18)]"
+                          : "text-[#5b2d12] hover:bg-[#fde7c7] hover:text-[#7a2e1f]"
+                        }`}
+                      onClick={() => setOpen(false)}
+                    >
                       {val}
                     </Link>
                   );
                 }
-                // Dropdown nav: flatten and show all children as sub-links
                 if (typeof val === "object" && val.title && val.nav) {
-                  const sectionIcons: Record<string, string> = {
-                    scriptures: "📜",
-                    philosophy: "🧘",
-                    kidszone: "🧒",
-                  };
-                  const icon = sectionIcons[key as string] || "✨";
+                  const icon = sectionIcons[key] || "✨";
                   return (
-                    <div key={key} className="flex flex-col border-l-4 border-orange-300 pl-2 mb-2">
-                      <span className="px-4 py-2 rounded-lg font-semibold text-amber-800 bg-amber-50 mb-1 select-none flex items-center gap-2">
-                        <span className="text-xl md:text-lg">{icon}</span> {val.title}
-                      </span>
-                      {Object.entries(val.nav).map(([subKey, subLabel]) => (
-                        <Link
-                          key={subKey}
-                          href={`/${key}/${subKey}`}
-                          className="flex items-center gap-2 px-7 py-2 text-amber-700 rounded transition-colors duration-150 hover:bg-orange-100 hover:text-orange-700 focus:bg-orange-200 focus:text-orange-800"
-                          onClick={() => setOpen(false)}
-                        >
-                          <span className="text-base md:text-md">🔸</span>
-                          <span>{String(subLabel)}</span>
-                        </Link>
-                      ))}
+                    <div key={key} className="mt-1">
+                      {/* Section header */}
+                      <div className="flex items-center gap-2 rounded-xl bg-linear-to-r from-[#fde7c7]/80 to-transparent px-4 py-2 mb-1">
+                        <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#9a3412] text-sm text-[#fff4df]">{icon}</span>
+                        <span className="text-sm font-black tracking-wide text-[#7a2e1f]">{val.title}</span>
+                        <div className="ml-auto h-px flex-1 bg-linear-to-r from-[#d8a25a]/40 to-transparent" />
+                      </div>
+                      {/* Sub-links */}
+                      <div className="ml-4 border-l-2 border-[#d8a25a]/30 pl-3 flex flex-col gap-0.5">
+                        {Object.entries(val.nav).map(([subKey, subLabel]) => (
+                          <Link
+                            key={subKey}
+                            href={`/${key}/${subKey}`}
+                            className="flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm font-semibold text-[#6b3a17] transition-all duration-150 hover:bg-[#fde7c7] hover:text-[#7a2e1f]"
+                            onClick={() => setOpen(false)}
+                          >
+                            <span className="h-1.5 w-1.5 rounded-full bg-[#d97706]" />
+                            {String(subLabel)}
+                          </Link>
+                        ))}
+                      </div>
                     </div>
                   );
                 }
                 return null;
               })}
             </div>
+
+            {/* Bottom ornament */}
+            <div className="h-0.5 w-full bg-linear-to-r from-[#f59e0b] via-[#d97706] to-[#7c2d12]" />
           </div>
         )}
       </div>

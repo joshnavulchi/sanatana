@@ -227,7 +227,7 @@ textarea {
   var(--color-blue));
 }
 .content-wrapper {
-  padding: var(--space-2xl) var(--space-md);
+  padding: var(--space-xl) var(--space-md);
 }
 .layout-sm {
   margin: 0 auto;
