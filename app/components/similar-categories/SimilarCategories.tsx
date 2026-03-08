@@ -13,194 +13,119 @@ interface SimilarCategoriesProps {
 }
 
 const INITIAL_VISIBLE_LINKS = 5;
-const MAX_LINKS_PER_CATEGORY = 8;
 
-const CATEGORY_ALIASES: Record<string, string> = {
-  others: 'sanatanadharma',
-  stotras: 'stotrasmantras'
+type LinkItem = { key: string; label: string; href: string };
+type CategoryItem = { key: string; title: string; links: LinkItem[] };
+
+type CategoryMode = 'array-name' | 'object-nav' | 'itihasa';
+
+const CATEGORY_CONFIG: Record<string, { basePath: string; mode: CategoryMode }> = {
+  vedas: { basePath: '/vedas', mode: 'array-name' },
+  upanishads: { basePath: '/upanishads', mode: 'object-nav' },
+  puranas: { basePath: '/puranas', mode: 'object-nav' },
+  itihasa: { basePath: '/itihasa', mode: 'itihasa' },
+  philosophy: { basePath: '/philosophy', mode: 'object-nav' },
+  science: { basePath: '/vedic-philosophy', mode: 'object-nav' },
+  others: { basePath: '', mode: 'object-nav' }
 };
-
-const NAV_KEY_ALIASES: Record<string, string> = {
-  adishankaracharya: 'adishankar',
-  dailypoojas: 'dailypuja',
-  parashurama: 'parasuram',
-  parvathi: 'parvati',
-  purans: 'puranas',
-  vasistamaharshi: 'vasistamhari',
-  vastushastra: 'vastu',
-  vishwamitra: 'visvamitra',
-  yogasanas: 'yoga'
-};
-
-const STATIC_ROUTE_PATHS = new Set<string>([
-  '/',
-  '/about',
-  '/contact',
-  '/cosmictime',
-  '/diseases-curing-temples',
-  '/donate',
-  '/drip-irrigation-process',
-  '/historical-timeline',
-  '/horoscope',
-  '/indian-constitution',
-  '/jyotirlings',
-  '/kidszone',
-  '/kidszone/easymantras',
-  '/kidszone/illustratedstories',
-  '/kidszone/mythologicalquizzes',
-  '/philosophy',
-  '/philosophy/advaita',
-  '/philosophy/ahimsa',
-  '/philosophy/dharma',
-  '/philosophy/karma',
-  '/philosophy/moksha',
-  '/philosophy/purushartha',
-  '/philosophy/samsara',
-  '/philosophy/satya',
-  '/philosophy/yoga',
-  '/practices',
-  '/practices/dailypuja',
-  '/practices/festivals',
-  '/practices/rituals',
-  '/practices/vastu',
-  '/privacy-policy',
-  '/religion-conversion',
-  '/rivers-connecting',
-  '/sanatanadharma',
-  '/scriptures',
-  '/scriptures/bhagavadgita',
-  '/scriptures/itihasas',
-  '/scriptures/mahabharata',
-  '/scriptures/puranas',
-  '/scriptures/puranas/garuda',
-  '/scriptures/puranas/karma',
-  '/scriptures/ramayana',
-  '/scriptures/sanksheparamayanam',
-  '/scriptures/upanishads',
-  '/scriptures/vedas',
-  '/shakti-peethas',
-  '/stotrasmantras',
-  '/stotrasmantras/dailyPrayers',
-  '/stotrasmantras/devi',
-  '/stotrasmantras/ganesh',
-  '/stotrasmantras/hanuman',
-  '/stotrasmantras/shiva',
-  '/stotrasmantras/vishnu',
-  '/stories',
-  '/stories/adishankar',
-  '/stories/bhishma',
-  '/stories/bramha',
-  '/stories/karna',
-  '/stories/krishna',
-  '/stories/lakshmi',
-  '/stories/parasuram',
-  '/stories/parvati',
-  '/stories/puranic',
-  '/stories/ramanamaharshi',
-  '/stories/saraswati',
-  '/stories/shiva',
-  '/stories/vasistamhari',
-  '/stories/visvamitra',
-  '/stories/vishnu',
-  '/temples-destroyed',
-  '/temples-in-india',
-  '/terms-of-service',
-  '/timelapse',
-  '/usa-strategies',
-  '/world-transformation'
-]);
-
-const DYNAMIC_ROUTE_PATTERNS = [
-  /^\/scriptures\/bhagavadgita\/part\/[^/]+$/,
-  /^\/scriptures\/mahabharata\/parva\/[^/]+$/,
-  /^\/scriptures\/ramayana\/kandas\/[^/]+$/
-];
 
 function normalizeHref(href?: string) {
   if (!href) return '#';
   let out = String(href);
   if (!out.startsWith('/')) out = '/' + out;
-  out = out.replace(/\/others\//g, '/');
   out = out.replace(/\/+/g, '/');
   return out === '/' ? '/' : out;
 }
 
-function isKnownRoute(pathname: string) {
-  return STATIC_ROUTE_PATHS.has(pathname) || DYNAMIC_ROUTE_PATTERNS.some((pattern) => pattern.test(pathname));
+function isPlainObject(value: unknown): value is Record<string, unknown> {
+  return !!value && typeof value === 'object' && !Array.isArray(value);
 }
 
-function normalizeNavKey(value: string) {
-  return NAV_KEY_ALIASES[value] || value;
+function slugFromName(name: string) {
+  return name
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, '')
+    .replace(/\s+/g, '');
 }
 
-function resolveCategoryHref(categoryKey: string) {
-  const category = CATEGORY_ALIASES[categoryKey] || categoryKey;
-  const direct = normalizeHref(`/${category}`);
-  return isKnownRoute(direct) ? direct : '/';
+function toCategoryHref(categoryKey: string, basePath: string) {
+  if (basePath) return basePath;
+  // Categories like "others" have top-level links, not a section landing page.
+  return '/';
 }
 
-function resolveSimilarHref(categoryKey: string, navKey: string, rawHref?: string) {
-  const category = CATEGORY_ALIASES[categoryKey] || categoryKey;
-  const normalizedNavKey = normalizeNavKey(navKey);
-  const candidates: string[] = [];
+function normalizeLinksForCategory(categoryKey: string, section: Record<string, unknown>): LinkItem[] {
+  const cfg = CATEGORY_CONFIG[categoryKey];
+  const basePath =
+    typeof section.basePath === 'string'
+      ? section.basePath
+      : cfg
+        ? cfg.basePath
+        : '';
 
-  if (rawHref && typeof rawHref === 'string') {
-    const trimmed = rawHref.trim();
-    if (trimmed.startsWith('/')) {
-      candidates.push(trimmed);
-    } else if (trimmed && trimmed !== '#') {
-      const normalizedRaw = normalizeNavKey(trimmed);
-      candidates.push(`/${category}/${normalizedRaw}`);
-      candidates.push(`/${normalizedRaw}`);
-    }
+  const nav = section.nav;
+  if (!nav) return [];
+
+  const mode: CategoryMode =
+    typeof section.mode === 'string' && ['array-name', 'object-nav', 'itihasa'].includes(section.mode)
+      ? (section.mode as CategoryMode)
+      : (cfg?.mode ?? 'object-nav');
+
+  if (mode === 'array-name' && Array.isArray(nav)) {
+    return nav
+      .map((item, index) => {
+        const obj = isPlainObject(item) ? item : null;
+        const name = obj && typeof obj.name === 'string' ? obj.name : null;
+        if (!name) return null;
+        const href = normalizeHref(`${basePath}/${slugFromName(name)}`);
+        return { key: `${categoryKey}:${index}`, label: name, href };
+      })
+      .filter((x): x is LinkItem => !!x);
   }
 
-  if (category === 'scriptures') {
-    if (/^bhagavadgita_part_\d+$/i.test(normalizedNavKey)) {
-      candidates.push(`/scriptures/bhagavadgita/part/${normalizedNavKey}`);
-    }
-    if (/_kanda$/i.test(normalizedNavKey)) {
-      candidates.push(`/scriptures/ramayana/kandas/${normalizedNavKey}`);
-    }
-    if (/_parva_/i.test(normalizedNavKey) || /_parva$/i.test(normalizedNavKey)) {
-      candidates.push(`/scriptures/mahabharata/parva/${normalizedNavKey}`);
-    }
+  if (mode === 'itihasa' && Array.isArray(nav)) {
+    const links: LinkItem[] = [];
+
+    nav.forEach((entry, index) => {
+      const epic = isPlainObject(entry) ? entry : null;
+      if (!epic) return;
+
+      const isGita = isPlainObject(epic.chapters_list);
+      const epicName = typeof epic.name === 'string' ? epic.name : isGita ? 'Bhagavad Gita' : 'Epic';
+      const epicSlug = typeof epic.name === 'string' ? slugFromName(epic.name) : isGita ? 'bhagavadgita' : `epic${index + 1}`;
+      const epicHref = normalizeHref(`${basePath}/${epicSlug}`);
+      links.push({ key: `${categoryKey}:${epicSlug}`, label: epicName, href: epicHref });
+
+      const subNav =
+        (isPlainObject(epic.kandas) ? epic.kandas : null) ||
+        (isPlainObject(epic.chapters_list) ? epic.chapters_list : null);
+
+      if (subNav) {
+        Object.entries(subNav).forEach(([subKey, subLabel]) => {
+          if (typeof subLabel !== 'string') return;
+          links.push({
+            key: `${categoryKey}:${epicSlug}:${subKey}`,
+            label: subLabel,
+            href: normalizeHref(`${epicHref}/${subKey}`)
+          });
+        });
+      }
+    });
+
+    return links;
   }
 
-  candidates.push(`/${category}/${normalizedNavKey}`);
-  candidates.push(`/${normalizedNavKey}`);
-
-  const uniqueCandidates = Array.from(new Set(candidates.map((candidate) => normalizeHref(candidate))));
-  const matched = uniqueCandidates.find((candidate) => isKnownRoute(candidate));
-  return matched || uniqueCandidates[0] || '/';
-}
-
-function pathSegments(pathname: string) {
-  return pathname.split('/').filter(Boolean);
-}
-
-function getSimilarityScore(linkHref: string, currentPath: string) {
-  const normalizedLink = normalizeHref(linkHref);
-  const normalizedCurrent = normalizeHref(currentPath);
-
-  if (normalizedLink === normalizedCurrent) return -1000;
-
-  const linkSegs = pathSegments(normalizedLink);
-  const currentSegs = pathSegments(normalizedCurrent);
-
-  let commonPrefix = 0;
-  const minLength = Math.min(linkSegs.length, currentSegs.length);
-  for (let index = 0; index < minLength; index += 1) {
-    if (linkSegs[index] !== currentSegs[index]) break;
-    commonPrefix += 1;
+  if (isPlainObject(nav)) {
+    return Object.entries(nav)
+      .map(([navKey, navLabel]) => {
+        if (typeof navLabel !== 'string') return null;
+        const href = basePath ? normalizeHref(`${basePath}/${navKey}`) : normalizeHref(`/${navKey}`);
+        return { key: `${categoryKey}:${navKey}`, label: navLabel, href };
+      })
+      .filter((x): x is LinkItem => !!x);
   }
 
-  const sameSection = linkSegs[0] && currentSegs[0] && linkSegs[0] === currentSegs[0] ? 15 : 0;
-  const depthPenalty = Math.abs(linkSegs.length - currentSegs.length);
-  const ancestryBoost =
-    normalizedLink.startsWith(`${normalizedCurrent}/`) || normalizedCurrent.startsWith(`${normalizedLink}/`) ? 8 : 0;
-
-  return commonPrefix * 20 + sameSection + ancestryBoost - depthPenalty;
+  return [];
 }
 
 export default function SimilarCategories({
@@ -210,7 +135,7 @@ export default function SimilarCategories({
 }: SimilarCategoriesProps) {
   const { locale } = useLocale();
   const pathname = normalizeHref(usePathname() || '/');
-  const [categories, setCategories] = useState<Array<{ key: string; title: string; links: Array<{ key: string; label: string; href: string }> }>>([]);
+  const [categories, setCategories] = useState<CategoryItem[]>([]);
   const [expandedByCategory, setExpandedByCategory] = useState<Record<string, boolean>>({});
   useEffect(() => {
     let mounted = true;
@@ -218,71 +143,32 @@ export default function SimilarCategories({
       try {
         const ns = await loadLocaleNamespace(locale, 'sharable_strings');
         if (!mounted) return;
-        const locObj = (ns && typeof ns === 'object') ? ns : {};
-        // The navigation data is under sharable_strings.header or sharable_strings.footer
-        const sharableStrings = (locObj as any)?.sharable_strings;
-        // Prefer footer nav when available, fall back to header
-        const navData = sharableStrings?.similar_categories || (locObj as any)?.similar_categories || {};
-        // Extract categories with their navigation items
-        const extractedCategories: Array<{ key: string; title: string; links: Array<{ key: string; label: string; href: string }> }> = [];
-        // Define all known categories to ensure they're included
-        const knownCategories = ['philosophy', 'scriptures', 'kidszone', 'practices', 'stories', 'stotras', 'others'];
+        const locObj = isPlainObject(ns) ? ns : {};
+        const sharableStrings = isPlainObject(locObj.sharable_strings) ? (locObj.sharable_strings as Record<string, unknown>) : {};
 
-        // navData can be an object of categories or an array of links
-        if (Array.isArray(navData)) {
-          // footer as an array of link objects? try to group under 'footer'
-          const links = navData.slice(0, 6).map((l: any, i: number) => ({ key: l.key || `f${i}`, label: l.label || l.title || l, href: l.href || l.url || '#' }));
-          if (links.length) {
-            extractedCategories.push({ key: 'footer', title: 'Footer', links });
-          }
-        } else {
-          Object.entries(navData).forEach(([key, value]: [string, any]) => {
-            // If value has a 'nav' object, use that
-            const navObj = value?.nav || value?.links || (typeof value === 'object' && value ? value : null);
-            if (!navObj || typeof navObj !== 'object') return;
-            const categoryTitle = (value && value.title) ? value.title : key;
-            const links: Array<{ key: string; label: string; href: string }> = [];
-            Object.entries(navObj).forEach(([navKey, navLabel]: [string, any]) => {
-              if (typeof navLabel === 'string') {
-                links.push({ key: navKey, label: navLabel, href: resolveSimilarHref(key, navKey) });
-              } else if (typeof navLabel === 'object' && navLabel) {
-                const label = navLabel.label || navLabel.title || JSON.stringify(navLabel);
-                const href = resolveSimilarHref(key, navKey, navLabel.href || navLabel.url);
-                links.push({ key: navKey, label, href });
-              }
-            });
-            if (links.length > 0) {
-              extractedCategories.push({
-                key,
-                title: categoryTitle,
-                links: links
-                  .sort((first, second) => getSimilarityScore(second.href, pathname) - getSimilarityScore(first.href, pathname))
-                  .slice(0, Math.min(MAX_LINKS_PER_CATEGORY, maxItems))
-              });
-            }
-          });
-        }
-        // Ensure philosophy is always included if it exists and not excluded
-        const priorityCategories = knownCategories;
-        extractedCategories.sort((a, b) => {
-          const aPriority = priorityCategories.indexOf(a.key);
-          const bPriority = priorityCategories.indexOf(b.key);
-          if (aPriority !== -1 && bPriority !== -1) return aPriority - bPriority;
-          if (aPriority !== -1) return -1;
-          if (bPriority !== -1) return 1;
-          return 0;
+        const source =
+          isPlainObject(sharableStrings.similar_categories)
+            ? (sharableStrings.similar_categories as Record<string, unknown>)
+            : isPlainObject(sharableStrings.footer)
+              ? (sharableStrings.footer as Record<string, unknown>)
+              : {};
+
+        const extracted: CategoryItem[] = [];
+        const categoryOrder = Object.keys(CATEGORY_CONFIG);
+
+        categoryOrder.forEach((categoryKey) => {
+          const value = source[categoryKey];
+          if (!isPlainObject(value)) return;
+          const titleText = typeof value.title === 'string' ? value.title : categoryKey;
+          const links = normalizeLinksForCategory(categoryKey, value)
+            .filter((link) => !excludeCurrent || normalizeHref(link.href) !== pathname)
+            .slice(0, maxItems);
+
+          if (links.length === 0) return;
+          extracted.push({ key: categoryKey, title: titleText, links });
         });
-        // Limit total categories
-        const filteredCategories = excludeCurrent
-          ? extractedCategories
-            .map((category) => ({
-              ...category,
-              links: category.links.filter((link) => normalizeHref(link.href) !== pathname)
-            }))
-            .filter((category) => category.links.length > 0)
-          : extractedCategories;
-        const finalCategories = filteredCategories.slice(0, maxItems);
-        setCategories(finalCategories);
+
+        setCategories(extracted.slice(0, maxItems));
       } catch (e) {
         console.error('Error loading categories:', e);
       }
@@ -318,7 +204,7 @@ export default function SimilarCategories({
             >
               <h6 className="mb-3 border-b border-amber-200 pb-2 text-lg md:text-md font-semibold text-amber-900">
                 <Link
-                  href={resolveCategoryHref(category.key)}
+                  href={toCategoryHref(category.key, CATEGORY_CONFIG[category.key]?.basePath ?? '')}
                   className="decoration-amber-500 underline-offset-4 transition-colors hover:text-orange-700 hover:underline"
                 >
                   {category.title}
@@ -355,7 +241,7 @@ export default function SimilarCategories({
                   </button>
                 )}
                 <Link
-                  href={resolveCategoryHref(category.key)}
+                  href={toCategoryHref(category.key, CATEGORY_CONFIG[category.key]?.basePath ?? '')}
                   className="inline-flex items-center gap-1.5 rounded-full border border-orange-300 bg-orange-100 px-3 py-1.5 text-sm font-semibold tracking-wide text-orange-900 transition-colors hover:bg-orange-200"
                 >
                   View all

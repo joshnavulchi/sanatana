@@ -126,7 +126,7 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
   /* Derive a display name and sub-items for each epic entry */
   const epicEntries = epics.map((epic) => {
     const name = (epic.name as string) || (epic.chapters_list ? 'Bhagavad Gita' : 'Epic');
-    const slug = name.toLowerCase().replace(/\s+/g, '-');
+    const slug = name.toLowerCase().replace(/\s+/g, '');
     const href = `/itihasa/${slug}`;
 
     // Collect sub-items from kandas, parvas (if object), or chapters_list
