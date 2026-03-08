@@ -25,7 +25,10 @@
       }
     ],
     "baseUrl": ".",
-    "typeRoots": ["./types", "./node_modules/@types"],
+    "typeRoots": [
+      "./types",
+      "./node_modules/@types"
+    ],
     "paths": {
       "@/*": [
         "./*"
@@ -57,6 +60,8 @@
     "node_modules",
     ".next",
     "data",
-    "lib"
+    "lib",
+    "app/_backup",
+    "app/components/_backup"
   ]
 }

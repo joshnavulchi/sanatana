@@ -22,7 +22,7 @@ const SLUG_CONFIG: Record<string, {
     accentFrom: 'from-[#7c2d12]', accentVia: 'via-[#c2410c]', accentTo: 'to-[#f59e0b]',
     textAccent: 'text-[#7c2d12]', borderAccent: 'border-[#c2410c]',
     chaptersKey: 'mandalas', chaptersLabel: 'The 10 Mandalas of Rigveda', itemLabel: 'Mandala',
-    chapterPrefix: 'madala',
+    chapterPrefix: 'mandala',
     deitiesKey: 'major_rigvedic_deities', deitiesLabel: 'Major Rigvedic Deities',
   },
   yajurveda: {

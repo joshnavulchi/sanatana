@@ -18,8 +18,8 @@
 /docs
 
 # ignore backup pages and backup components
-/app/backup pages/
-/app/components/backup components/
+/app/_backup/
+/app/components/_backup/
 
 # production
 /build
