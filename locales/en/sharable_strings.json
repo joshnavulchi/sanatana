@@ -1,5 +1,6 @@
 {
   "sharable_strings": {
+    "sitetitle": "Sanātana Dharma",
     "banner_notifications": {
       "title": "If you find our work helpful, consider supporting us to keep this web page ",
       "links": {
@@ -11,29 +12,142 @@
       "title": "Protecting the roots of Sanātana Dharma for a brighter future.",
       "subtitle": "Empowering future generations through timeless Vedic knowledge."
     },
-    "cookieconsent": {
-      "acceptall": "Accept all",
-      "cookiepolicy": "Cookie Policy",
-      "managerbutton": "Cookie Preference Manager",
-      "paragraph": "We use cookies to track visitors, measure ads, ad campaign effectiveness and analyze site traffic. We may also share information about your use of our site with 3rd parties. For more info, see our {cookiePolicyLink} and {privacyPolicyLink}. By clicking on \"{managerLabel}\" you can choose to enable only certain cookie categories. By clicking \"{acceptAllLabel}\" you agree to the storing of all cookies on your device. In case you don't choose one of these options and use our website we will treat it as if you have accepted all cookies.",
-      "privacypolicy": "Privacy Policy"
-    },
-    "cookiepolicy": {
-      "title": "Cookie Policy",
-      "datasharing": "Data sharing",
-      "datasharingdesc": "We may share aggregated information with third parties for analytics and advertising. No sensitive personal data is shared by default.",
-      "intro": "This Cookie Policy explains how we use cookies and similar technologies on our website.",
-      "lastupdated": "Last updated: {date}",
-      "managing": "Managing your preferences",
-      "managingdesc": "Open the Cookie Preference Manager from the banner to enable or disable categories. If you accept all cookies, we will store your choices and apply them across visits.",
-      "types": {
-        "functionality": "Functionality: Remember choices and preferences.",
-        "performance": "Performance: Help us analyze traffic and performance.",
-        "strictlynecessary": "Strictly necessary: Required for the site to function.",
-        "targeting": "Targeting: Used for advertising and personalization."
+    "header": {
+      "vedas": {
+        "title": "Vedas",
+        "nav": [
+          {
+            "name": "Rigveda",
+            "description": "Oldest Veda consisting of hymns dedicated to various deities."
+          },
+          {
+            "name": "Yajurveda",
+            "description": "Contains sacrificial formulas used in rituals."
+          },
+          {
+            "name": "Samaveda",
+            "description": "Collection of melodies and chants used for ritual singing."
+          },
+          {
+            "name": "Atharvaveda",
+            "description": "Contains hymns, spells, and philosophical teachings."
+          }
+        ]
       },
-      "typesheading": "Types of cookies we use",
-      "whatarecookies": "What are cookies?"
+      "upanishads": {
+        "title": "Upanishads",
+        "nav": {
+          "isha-upanishad": "Isha Upanishad",
+          "kena-upanishad": "Kena Upanishad",
+          "katha-upanishad": "Katha Upanishad",
+          "prashna-upanishad": "Prashna Upanishad",
+          "mundaka-upanishad": "Mundaka Upanishad",
+          "mandukya-upanishad": "Mandukya Upanishad",
+          "taittiriya-upanishad": "Taittiriya Upanishad",
+          "aitareya-upanishad": "Aitareya Upanishad",
+          "chandogya-upanishad": "Chandogya Upanishad",
+          "brihadaranyaka-upanishad": "Brihadaranyaka Upanishad",
+          "shvetashvatara-upanishad": "Shvetashvatara Upanishad",
+          "kaushitaki-upanishad": "Kaushitaki Upanishad",
+          "maitri-upanishad": "Maitri Upanishad"
+        }
+      },
+      "puranas": {
+        "title": "Puranas",
+        "nav": {
+          "brahma-purana": "Brahma Purana",
+          "padma-purana": "Padma Purana",
+          "vishnu-purana": "Vishnu Purana",
+          "shiva-purana": "Shiva Purana",
+          "bhagavata-purana": "Bhagavata Purana",
+          "narada-purana": "Narada Purana",
+          "markandeya-purana": "Markandeya Purana",
+          "agni-purana": "Agni Purana",
+          "bhavishya-purana": "Bhavishya Purana",
+          "brahmavaivarta-purana": "Brahmavaivarta Purana",
+          "linga-purana": "Linga Purana",
+          "varaha-purana": "Varaha Purana",
+          "skanda-purana": "Skanda Purana",
+          "vamana-purana": "Vamana Purana",
+          "kurma-purana": "Kurma Purana",
+          "matsya-purana": "Matsya Purana",
+          "garuda-purana": "Garuda Purana",
+          "brahmanda-purana": "Brahmanda Purana"
+        }
+      },
+      "itihasa": {
+        "title": "Itihasa",
+        "nav": [
+          {
+            "name": "Ramayana",
+            "author": "Valmiki",
+            "description": "Epic describing the life of Lord Rama.",
+            "kandas": {
+              "bala-kanda": "Bala Kanda",
+              "ayodhya-kanda": "Ayodhya Kanda",
+              "aranya-kanda": "Aranya Kanda",
+              "kishkinda-kanda": "Kishkindha Kanda",
+              "sundara-kanda": "Sundara Kanda",
+              "yuddha-kanda": "Yuddha Kanda",
+              "uttara-kanda": "Uttara Kanda"
+            }
+          },
+          {
+            "name": "Mahabharata",
+            "author": "Vyasa",
+            "description": "Epic describing the Kurukshetra war and dharma.",
+            "parvas": 18
+          },
+          {
+            "description": "Sacred dialogue between Lord Krishna and Arjuna.",
+            "chapters": 18,
+            "verses": 700,
+            "chapters_list": {
+              "arjuna-vishada-yoga": "Arjuna Vishada Yoga",
+              "sankhya-yoga": "Sankhya Yoga",
+              "karma-yoga": "Karma Yoga",
+              "jnana-karma-sanyasa-yoga": "Jnana Karma Sanyasa Yoga",
+              "karma-sanyasa-yoga": "Karma Sanyasa Yoga",
+              "dhyana-yoga": "Dhyana Yoga",
+              "jnana-vijnana-yoga": "Jnana Vijnana Yoga",
+              "akshara-brahma-yoga": "Akshara Brahma Yoga",
+              "raja-vidya-raja-guhya-yoga": "Raja Vidya Raja Guhya Yoga",
+              "vibhuti-yoga": "Vibhuti Yoga",
+              "vishvarupa-darshana-yoga": "Vishvarupa Darshana Yoga",
+              "bhakti-yoga": "Bhakti Yoga",
+              "kshetra-kshetrajna-vibhaga-yoga": "Kshetra Kshetrajna Vibhaga Yoga",
+              "gunatraya-vibhaga-yoga": "Gunatraya Vibhaga Yoga",
+              "purushottama-yoga": "Purushottama Yoga",
+              "daivasura-sampad-vibhaga-yoga": "Daivasura Sampad Vibhaga Yoga",
+              "shraddhatray-vibhaga-yoga": "Shraddhatraya Vibhaga Yoga",
+              "moksha-sanyasa-yoga": "Moksha Sanyasa Yoga"
+            }
+          }
+        ]
+      },
+      "philosopy": {
+        "title": "Philosophy",
+        "subtitle": "Vedic",
+        "nav": {
+          "advaita": "Advaita",
+          "purushartha": "Purushartha",
+          "samsara": "Samsara",
+          "dharma": "Dharma",
+          "karma": "Karma",
+          "moksha": "Moksha"
+        }
+      },
+      "science": {
+        "title": "Science",
+        "subtitle": "Vedic",
+        "nav": {
+          "astronomy": "Astronomy",
+          "mathematics": "Mathematics",
+          "medicine": "Medicine",
+          "metallurgy": "Metallurgy",
+          "architecture": "Architecture"
+        }
+      }
     },
     "footer": {
       "title": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत। अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम्॥",
@@ -191,9 +305,10 @@
       "quotesource": "(Bhagavad Gītā 4.7)",
       "terms": "Terms of Service"
     },
-    "header": {
+    "similar_categories": {
       "vedas": {
         "title": "Vedas",
+        "basePath": "/vedas",
         "nav": [
           {
             "name": "Rigveda",
@@ -215,6 +330,7 @@
       },
       "upanishads": {
         "title": "Upanishads",
+        "basePath": "/upanishads",
         "nav": {
           "isha-upanishad": "Isha Upanishad",
           "kena-upanishad": "Kena Upanishad",
@@ -233,6 +349,7 @@
       },
       "puranas": {
         "title": "Puranas",
+        "basePath": "/puranas",
         "nav": {
           "brahma-purana": "Brahma Purana",
           "padma-purana": "Padma Purana",
@@ -256,6 +373,7 @@
       },
       "itihasa": {
         "title": "Itihasa",
+        "basePath": "/itihasa",
         "nav": [
           {
             "name": "Ramayana",
@@ -304,8 +422,9 @@
           }
         ]
       },
-      "philosopy": {
+      "philosophy": {
         "title": "Philosophy",
+        "basePath": "/philosophy",
         "subtitle": "Vedic",
         "nav": {
           "advaita": "Advaita",
@@ -318,6 +437,7 @@
       },
       "science": {
         "title": "Science",
+        "basePath": "/vedic-philosophy",
         "subtitle": "Vedic",
         "nav": {
           "astronomy": "Astronomy",
@@ -326,7 +446,45 @@
           "metallurgy": "Metallurgy",
           "architecture": "Architecture"
         }
+      },
+      "others": {
+        "title": "Sanātana dharmam",
+        "basePath": "",
+        "nav": {
+          "vedic-gods": "Vedic Gods",
+          "sanskrit-concepts": "Sanskrit Concepts",
+          "festivals": "Festivals",
+          "about": "About"
+        }
       }
+    },
+    "scrolltotop": {
+      "title": "Back to top",
+      "arialabel": "Scroll to top"
+    },
+    "cookieconsent": {
+      "acceptall": "Accept all",
+      "cookiepolicy": "Cookie Policy",
+      "managerbutton": "Cookie Preference Manager",
+      "paragraph": "We use cookies to track visitors, measure ads, ad campaign effectiveness and analyze site traffic. We may also share information about your use of our site with 3rd parties. For more info, see our {cookiePolicyLink} and {privacyPolicyLink}. By clicking on \"{managerLabel}\" you can choose to enable only certain cookie categories. By clicking \"{acceptAllLabel}\" you agree to the storing of all cookies on your device. In case you don't choose one of these options and use our website we will treat it as if you have accepted all cookies.",
+      "privacypolicy": "Privacy Policy"
+    },
+    "cookiepolicy": {
+      "title": "Cookie Policy",
+      "datasharing": "Data sharing",
+      "datasharingdesc": "We may share aggregated information with third parties for analytics and advertising. No sensitive personal data is shared by default.",
+      "intro": "This Cookie Policy explains how we use cookies and similar technologies on our website.",
+      "lastupdated": "Last updated: {date}",
+      "managing": "Managing your preferences",
+      "managingdesc": "Open the Cookie Preference Manager from the banner to enable or disable categories. If you accept all cookies, we will store your choices and apply them across visits.",
+      "types": {
+        "functionality": "Functionality: Remember choices and preferences.",
+        "performance": "Performance: Help us analyze traffic and performance.",
+        "strictlynecessary": "Strictly necessary: Required for the site to function.",
+        "targeting": "Targeting: Used for advertising and personalization."
+      },
+      "typesheading": "Types of cookies we use",
+      "whatarecookies": "What are cookies?"
     },
     "policies": {
       "cookiepolicy": {
@@ -356,147 +514,6 @@
         "lastupdated": "Last updated: {date}",
         "yourrights": "Your rights",
         "yourrightsdesc": "You can request access, correction or deletion of your personal data by contacting us on the site."
-      }
-    },
-    "scrolltotop": {
-      "title": "Back to top",
-      "arialabel": "Scroll to top"
-    },
-    "sitetitle": "Sanātana Dharma",
-    "similar_categories": {
-      "scriptures": {
-        "title": "Scriptures",
-        "nav": {
-          "ramayana": "Ramayana",
-          "bala_kanda": "Bala Kanda",
-          "ayodhya_kanda": "Ayodhya Kanda",
-          "aranya_kanda": "Aranya Kanda",
-          "kishkindha_kanda": "Kishkindha Kanda",
-          "sundara_kanda": "Sundara Kanda",
-          "yuddha_kanda": "Yuddha Kanda",
-          "uttara_kanda": "Uttara Kanda",
-          "mahabharata": "Mahabharata",
-          "adi_parva_the_book_of_beginnings": "Adi Parva The Book of Beginnings",
-          "sabha_parva_the_book_of_the_royal_assembly": "Sabha Parva The Book of the Royal Assembly",
-          "vana_parva_the_book_of_the_forest": "Vana Parva The Book of the Forest",
-          "virata_parva_the_book_of_virata": "Virata Parva The Book of Virata",
-          "udyoga_parva_the_book_of_effort_and_preparation": "Udyoga Parva The Book of Effort and Preparation",
-          "bhishma_parva_the_book_of_bhishma": "Bhishma Parva The Book of Bhishma",
-          "drona_parva_the_book_of_drona": "Drona Parva The Book of Drona",
-          "karna_parva_the_book_of_karna": "Karna Parva The Book of Karna",
-          "shalya_parva_the_book_of_shalya": "Shalya Parva The Book of Shalya",
-          "sauptika_parva_the_book_of_the_sleeping_warriors": "Sauptika Parva The Book of the Sleeping Warriors",
-          "stri_parva_the_book_of_the_women": "Stri Parva The Book of the Women",
-          "shanti_parva_the_book_of_peace": "Shanti Parva The Book of Peace",
-          "ashvamedhika_parva_the_book_of_the_horse_sacrifice": "Ashvamedhika Parva The Book of the Horse Sacrifice",
-          "ashramavasika_parva_the_book_of_the_hermitage": "Ashramavasika Parva The Book of the Hermitage",
-          "mausala_parva_the_book_of_the_clubs": "Mausala Parva The Book of the Clubs",
-          "mahaprasthanika_parva_the_book_of_the_great_journey": "Mahaprasthanika Parva The Book of the Great Journey",
-          "svargarohana_parva_the_book_of_the_ascent_to_heaven": "Svargarohana Parva The Book of the Ascent to Heaven",
-          "sanksheparamayanam": "Sankshepa Ramayanam",
-          "bhagavadgita": "Bhagavad Gita",
-          "bhagavadgita_part_1": "Bhagavad Gita Part 1",
-          "bhagavadgita_part_2": "Bhagavad Gita Part 2",
-          "bhagavadgita_part_3": "Bhagavad Gita Part 3",
-          "bhagavadgita_part_4": "Bhagavad Gita Part 4",
-          "bhagavadgita_part_5": "Bhagavad Gita Part 5",
-          "bhagavadgita_part_6": "Bhagavad Gita Part 6",
-          "bhagavadgita_part_7": "Bhagavad Gita Part 7",
-          "bhagavadgita_part_8": "Bhagavad Gita Part 8",
-          "bhagavadgita_part_9": "Bhagavad Gita Part 9",
-          "bhagavadgita_part_10": "Bhagavad Gita Part 10",
-          "bhagavadgita_part_11": "Bhagavad Gita Part 11",
-          "bhagavadgita_part_12": "Bhagavad Gita Part 12",
-          "bhagavadgita_part_13": "Bhagavad Gita Part 13",
-          "bhagavadgita_part_14": "Bhagavad Gita Part 14",
-          "bhagavadgita_part_15": "Bhagavad Gita Part 15",
-          "bhagavadgita_part_16": "Bhagavad Gita Part 16",
-          "bhagavadgita_part_17": "Bhagavad Gita Part 17",
-          "bhagavadgita_part_18": "Bhagavad Gita Part 18",
-          "bhagavadgita_part_19": "Bhagavad Gita Part 19",
-          "bhagavadgita_part_20": "Bhagavad Gita Part 20",
-          "bhagavadgita_part_21": "Bhagavad Gita Part 21",
-          "bhagavadgita_part_22": "Bhagavad Gita Part 22",
-          "bhagavadgita_part_23": "Bhagavad Gita Part 23",
-          "bhagavadgita_part_24": "Bhagavad Gita Part 24",
-          "bhagavadgita_part_25": "Bhagavad Gita Part 25",
-          "bhagavadgita_part_26": "Bhagavad Gita Part 26",
-          "bhagavadgita_part_27": "Bhagavad Gita Part 27",
-          "bhagavadgita_part_28": "Bhagavad Gita Part 28",
-          "bhagavadgita_part_29": "Bhagavad Gita Part 29",
-          "bhagavadgita_part_30": "Bhagavad Gita Part 30",
-          "bhagavadgita_part_31": "Bhagavad Gita Part 31",
-          "bhagavadgita_part_32": "Bhagavad Gita Part 32",
-          "bhagavadgita_part_33": "Bhagavad Gita Part 33",
-          "bhagavadgita_part_34": "Bhagavad Gita Part 34",
-          "bhagavadgita_part_35": "Bhagavad Gita Part 35",
-          "bhagavadgita_part_36": "Bhagavad Gita Part 36",
-          "bhagavadgita_part_37": "Bhagavad Gita Part 37",
-          "purans": "Purans",
-          "upanishads": "Upanishads",
-          "vedas": "Vedas"
-        }
-      },
-      "philosophy": {
-        "title": "Philosophy",
-        "nav": {
-          "advaita": "Advaita",
-          "purushartha": "Purushartha",
-          "samsara": "Samsara",
-          "dharma": "Dharma",
-          "karma": "Karma",
-          "moksha": "Moksha"
-        }
-      },
-      "practices": {
-        "title": "Practices",
-        "nav": {
-          "dailypoojas": "Daily Poojas",
-          "festivals": "Festivals",
-          "rituals": "Rituals",
-          "vastushastra": "Vastushastra",
-          "yogasanas": "Yoga Asanas",
-          "meditation": "Meditation",
-          "horoscope": "Horoscope"
-        }
-      },
-      "stories": {
-        "title": "Some more Stories",
-        "nav": {
-          "adishankaracharya": "Adi Shankaracharya",
-          "bhishma": "Bhishma",
-          "bramha": "Brahma",
-          "lakshmi": "Goddess Lakshmi",
-          "parashurama": "Parashurama",
-          "parvathi": "Goddess Parvathi",
-          "saraswati": "Goddess Saraswati",
-          "vasistamaharshi": "Vasista Maharshi",
-          "vishwamitra": "Vishwamitra"
-        }
-      },
-      "stotras": {
-        "title": "Stotras",
-        "nav": {
-          "ganesh": "Ganesh",
-          "hanuman": "Hanuman",
-          "devi": "Devi",
-          "shiva": "Shiva",
-          "vishnu": "Vishnu",
-          "dailyprayers": "Daily Prayers"
-        }
-      },
-      "others": {
-        "title": "Sanātana Dharmam",
-        "nav": {
-          "cosmictime": "Cosmic Times",
-          "temples-destroyed": "Temples Destroyed",
-          "temples-in-india": "Temples in India",
-          "world-transformation": "World Transformation",
-          "historical-timeline": "Historical Timeline",
-          "sanatanadharma": "Sanātana Dharmam",
-          "shakti-peethas": "Shakti Peethas",
-          "drip-irrigation-process": "Drip Irrigation Process"
-        }
       }
     },
     "cosmic_time_structure": {
