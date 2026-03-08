@@ -1,20 +1,70 @@
 {
   "mandala-8": {
+    "title": "Rigveda Mandala 8 – Hymns of the Vedic Sages",
+    "description": "Rigveda Mandala 8 contains 103 hymns composed by various Vedic sages praising deities such as Indra, Soma and the Ashvins, reflecting diverse devotional and ritual traditions.",
     "meta": {
-      "title": "Rigveda Mandala 8 – Diverse Hymns of Vedic Sages",
-      "description": "Mandala 8 contains 103 hymns composed by various sages praising Indra, Soma and other deities.",
-      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-8"
+      "title": "Rigveda Mandala 8 – Hymns of the Vedic Sages",
+      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-8",
+      "description": "Rigveda Mandala 8 contains 103 hymns composed by various Vedic sages praising deities such as Indra, Soma and the Ashvins, reflecting diverse devotional and ritual traditions.",
+      "keywords": [
+        "Rigveda Mandala 8",
+        "Rigveda hymns Mandala 8",
+        "Indra hymns Rigveda",
+        "Soma hymns Rigveda",
+        "Ashvins Rigveda hymns",
+        "Vedic sages hymns",
+        "Rigveda scriptures",
+        "Sanatana Dharma Vedas"
+      ],
+      "robots": "index, follow",
+      "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-8"
     },
     "openGraph": {
-      "title": "Rigveda Mandala 8 – Ancient Vedic Hymns",
-      "description": "Collection of hymns from multiple Vedic sages.",
+      "title": "Rigveda Mandala 8 – Hymns of Vedic Sages",
+      "description": "Explore Mandala 8 of the Rigveda containing 103 hymns praising Indra, Soma and other Vedic deities.",
       "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-8",
-      "type": "article"
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/rigveda-mandala-8.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Rigveda Mandala 8 Hymns"
+        }
+      ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Rigveda Mandala 8"
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Rigveda Mandala 8",
+          "isPartOf": {
+            "@type": "Book",
+            "name": "Rigveda"
+          },
+          "description": "Mandala 8 of the Rigveda contains 103 hymns composed by different Vedic sages praising deities such as Indra, Soma and the Ashvins.",
+          "inLanguage": "Sanskrit",
+          "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-8"
+        },
+        {
+          "@type": "Article",
+          "headline": "Rigveda Mandala 8 – Diverse Hymns of Vedic Sages",
+          "about": [
+            "Rigveda",
+            "Indra",
+            "Soma",
+            "Ashvins",
+            "Vedic hymns"
+          ],
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          }
+        }
+      ]
     },
     "hymns": [
       {

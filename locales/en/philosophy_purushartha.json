@@ -1,69 +1,73 @@
 {
   "philosophy_purushartha": {
+    "title": "Purusharthas – Four Goals of Life in Sanatana Dharma",
+    "description": "Learn about the Purusharthas in Sanatana Dharma — Dharma, Artha, Kama and Moksha — the four goals of human life guiding ethical living, prosperity and spiritual liberation.",
     "meta": {
+      "title": "Purusharthas – Four Goals of Life in Sanatana Dharma",
       "canonical": "https://sanatanadharmam.in/philosophy/purushartha",
-      "description": "Purusharthas — Philosophy — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Purusharthas. Explore practices, history, and guiding principles...",
+      "description": "Learn about the Purusharthas in Sanatana Dharma — Dharma, Artha, Kama and Moksha — the four goals of human life guiding ethical living, prosperity and spiritual liberation.",
       "keywords": [
-        "artha",
-        "bhagavadgita purusharthas",
-        "desire fulfillment",
-        "dharma",
-        "ethical living",
+        "Purusharthas meaning",
         "four goals of life",
-        "hindu philosophy",
-        "kama",
-        "manusmriti purusharthas",
-        "material prosperity",
-        "moksha",
-        "purusharthas",
-        "purusharthas concepts",
-        "purusharthas in modern life",
-        "purusharthas origin",
-        "purusharthas personal development",
-        "purusharthas principles",
-        "purusharthas q&a",
-        "purusharthas relation to other concepts",
-        "purusharthas relevance",
-        "purusharthas scriptural references",
-        "purusharthas society",
-        "purusharthas well-being",
-        "spiritual liberation"
+        "Dharma Artha Kama Moksha",
+        "Purusharthas philosophy",
+        "Hindu philosophy Purusharthas",
+        "Purusharthas in Bhagavad Gita",
+        "Purusharthas concept",
+        "Sanatana Dharma philosophy",
+        "Purusharthas spiritual goals",
+        "Purusharthas Hinduism"
       ],
-      "ogimage": "/og/purusharthas-philosophy.png",
-      "title": "Purusharthas Philosophy — In-depth Q&A and Concepts",
+      "robots": "index, follow",
       "url": "https://sanatanadharmam.in/philosophy/purushartha"
+    },
+    "openGraph": {
+      "title": "Purusharthas – Four Goals of Life in Sanatana Dharma",
+      "description": "Explore the Purusharthas — Dharma, Artha, Kama and Moksha — the four guiding goals of life in Sanatana Dharma philosophy.",
+      "url": "https://sanatanadharmam.in/philosophy/purushartha",
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/purusharthas-philosophy.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Purusharthas Philosophy"
+        }
+      ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availablelanguage": [
-            "العربية",
-            "Deutsch",
-            "English",
-            "Español",
-            "Français",
-            "हिन्दी",
-            "日本語",
-            "नेपाली",
-            "Nederlands",
-            "Português",
-            "Русский",
-            "తెలుగు",
-            "اردو",
-            "中文 (简体)"
-          ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
+      "@graph": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Purusharthas",
+          "description": "Purusharthas are the four goals of human life in Sanatana Dharma: Dharma, Artha, Kama and Moksha.",
+          "url": "https://sanatanadharmam.in/philosophy/purushartha",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Sanatana Dharma Philosophy"
+          }
         },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
+        {
+          "@type": "Article",
+          "headline": "Purusharthas – The Four Goals of Human Life",
+          "about": [
+            "Purusharthas",
+            "Dharma",
+            "Artha",
+            "Kama",
+            "Moksha",
+            "Sanatana Dharma philosophy"
+          ],
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          },
+          "url": "https://sanatanadharmam.in/philosophy/purushartha"
+        }
+      ]
     },
     "core_principles": [
       "Balance between material and spiritual pursuits",

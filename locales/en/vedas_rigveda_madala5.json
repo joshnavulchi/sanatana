@@ -1,20 +1,71 @@
 {
   "mandala-5": {
+    "title": "Rigveda Mandala 5 – Hymns of the Atri Rishis",
+    "description": "Rigveda Mandala 5 contains 87 hymns composed by the Atri lineage of sages praising deities such as Agni, Indra and the Ashvins, reflecting early Vedic rituals and devotion.",
     "meta": {
       "title": "Rigveda Mandala 5 – Hymns of the Atri Rishis",
-      "description": "Mandala 5 of the Rigveda includes hymns dedicated to Agni, Indra and the Ashvins composed by the Atri lineage.",
-      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-5"
+      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-5",
+      "description": "Rigveda Mandala 5 contains 87 hymns composed by the Atri lineage of sages praising deities such as Agni, Indra and the Ashvins, reflecting early Vedic rituals and devotion.",
+      "keywords": [
+        "Rigveda Mandala 5",
+        "Atri rishis Rigveda",
+        "Rigveda Mandala 5 hymns",
+        "Ashvins hymns Rigveda",
+        "Indra hymns Rigveda",
+        "Agni hymns Rigveda",
+        "Rigveda sages Atri",
+        "Sanatana Dharma Vedas"
+      ],
+      "robots": "index, follow",
+      "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-5"
     },
     "openGraph": {
-      "title": "Rigveda Mandala 5 – Atri Family Hymns",
-      "description": "Mandala 5 contains hymns praising divine healers Ashvins.",
+      "title": "Rigveda Mandala 5 – Hymns of the Atri Sages",
+      "description": "Explore Mandala 5 of the Rigveda containing 87 hymns composed by the Atri lineage praising Agni, Indra and the divine healers Ashvins.",
       "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-5",
-      "type": "article"
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/rigveda-mandala-5.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Rigveda Mandala 5 Hymns"
+        }
+      ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Rigveda Mandala 5"
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Rigveda Mandala 5",
+          "isPartOf": {
+            "@type": "Book",
+            "name": "Rigveda"
+          },
+          "description": "Mandala 5 of the Rigveda contains 87 hymns attributed to the Atri sages praising Agni, Indra and the Ashvins.",
+          "inLanguage": "Sanskrit",
+          "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-5"
+        },
+        {
+          "@type": "Article",
+          "headline": "Rigveda Mandala 5 – Hymns of the Atri Rishis",
+          "about": [
+            "Rigveda",
+            "Atri rishis",
+            "Ashvins",
+            "Indra",
+            "Agni",
+            "Vedic hymns"
+          ],
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          }
+        }
+      ]
     },
     "hymns": [
       {

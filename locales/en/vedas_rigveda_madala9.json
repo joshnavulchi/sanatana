@@ -1,20 +1,70 @@
 {
   "mandala-9": {
+    "title": "Rigveda Mandala 9 – Soma Pavamana Hymns",
+    "description": "Rigveda Mandala 9 contains 114 hymns dedicated entirely to Soma, the sacred ritual drink and divine purifier known as Soma Pavamana in the Vedic tradition.",
     "meta": {
-      "title": "Rigveda Mandala 9 – Soma Hymns",
-      "description": "Mandala 9 contains 114 hymns dedicated entirely to Soma and the sacred Soma ritual.",
-      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-9"
+      "title": "Rigveda Mandala 9 – Soma Pavamana Hymns",
+      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-9",
+      "description": "Rigveda Mandala 9 contains 114 hymns dedicated entirely to Soma, the sacred ritual drink and divine purifier known as Soma Pavamana in the Vedic tradition.",
+      "keywords": [
+        "Rigveda Mandala 9",
+        "Soma Pavamana hymns",
+        "Rigveda Soma hymns",
+        "Vedic Soma ritual",
+        "Rigveda Soma Mandala",
+        "Vedic hymns to Soma",
+        "Rigveda scriptures",
+        "Sanatana Dharma Vedas"
+      ],
+      "robots": "index, follow",
+      "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-9"
     },
     "openGraph": {
-      "title": "Rigveda Mandala 9 – Soma Hymns",
-      "description": "Sacred hymns dedicated to Soma, the divine elixir.",
+      "title": "Rigveda Mandala 9 – Soma Pavamana Hymns",
+      "description": "Explore Mandala 9 of the Rigveda containing 114 sacred hymns dedicated to Soma, the divine elixir and purifier of the Vedic ritual tradition.",
       "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-9",
-      "type": "article"
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/rigveda-mandala-9.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Rigveda Mandala 9 Soma Hymns"
+        }
+      ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Rigveda Mandala 9"
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Rigveda Mandala 9",
+          "isPartOf": {
+            "@type": "Book",
+            "name": "Rigveda"
+          },
+          "description": "Mandala 9 of the Rigveda contains 114 Soma Pavamana hymns dedicated to the sacred Soma ritual and divine purification.",
+          "inLanguage": "Sanskrit",
+          "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-9"
+        },
+        {
+          "@type": "Article",
+          "headline": "Rigveda Mandala 9 – Soma Hymns",
+          "about": [
+            "Rigveda",
+            "Soma",
+            "Soma Pavamana",
+            "Vedic rituals",
+            "Vedic hymns"
+          ],
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          }
+        }
+      ]
     },
     "hymns": [
       {

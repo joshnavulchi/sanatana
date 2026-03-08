@@ -1,20 +1,70 @@
 {
   "mandala-7": {
+    "title": "Rigveda Mandala 7 – Hymns of Sage Vasistha",
+    "description": "Rigveda Mandala 7 contains 104 hymns attributed to the Vedic sage Vasistha praising deities such as Varuna, Indra and Agni while emphasizing cosmic order (Rta) and divine protection.",
     "meta": {
       "title": "Rigveda Mandala 7 – Hymns of Sage Vasistha",
-      "description": "Mandala 7 contains 104 hymns attributed to the sage Vasistha praising Varuna and cosmic order.",
-      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-7"
+      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-7",
+      "description": "Rigveda Mandala 7 contains 104 hymns attributed to the Vedic sage Vasistha praising deities such as Varuna, Indra and Agni while emphasizing cosmic order (Rta) and divine protection.",
+      "keywords": [
+        "Rigveda Mandala 7",
+        "Vasistha hymns Rigveda",
+        "Varuna hymns Rigveda",
+        "Rigveda Mandala 7 hymns",
+        "Vedic cosmic order Rta",
+        "Rigveda sages",
+        "Rigveda scriptures",
+        "Sanatana Dharma Vedas"
+      ],
+      "robots": "index, follow",
+      "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-7"
     },
     "openGraph": {
-      "title": "Rigveda Mandala 7 – Vasistha Hymns",
-      "description": "Ancient hymns describing cosmic order and divine protection.",
+      "title": "Rigveda Mandala 7 – Hymns of Sage Vasistha",
+      "description": "Explore Mandala 7 of the Rigveda containing 104 hymns composed by Sage Vasistha praising Varuna, Indra and the cosmic order.",
       "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-7",
-      "type": "article"
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/rigveda-mandala-7.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Rigveda Mandala 7 Hymns"
+        }
+      ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Rigveda Mandala 7"
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Rigveda Mandala 7",
+          "isPartOf": {
+            "@type": "Book",
+            "name": "Rigveda"
+          },
+          "description": "Mandala 7 of the Rigveda contains 104 hymns attributed to Sage Vasistha praising Varuna and emphasizing the cosmic order known as Rta.",
+          "inLanguage": "Sanskrit",
+          "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-7"
+        },
+        {
+          "@type": "Article",
+          "headline": "Rigveda Mandala 7 – Hymns of Sage Vasistha",
+          "about": [
+            "Rigveda",
+            "Vasistha",
+            "Varuna",
+            "Rta cosmic order",
+            "Vedic hymns"
+          ],
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          }
+        }
+      ]
     },
     "hymns": [
       {

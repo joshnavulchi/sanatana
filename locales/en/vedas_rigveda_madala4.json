@@ -1,20 +1,68 @@
 {
   "mandala-4": {
     "meta": {
-      "title": "Rigveda Mandala 4 – Hymns of the Sage Vamadeva",
-      "description": "Mandala 4 of the Rigveda contains 58 hymns composed by the sage Vamadeva praising Indra and other deities.",
-      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4"
+      "title": "Rigveda Mandala 4 – Hymns of Sage Vamadeva",
+      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4",
+      "description": "Rigveda Mandala 4 contains 58 hymns composed by the Vedic sage Vamadeva praising deities such as Indra, Agni and other divine powers described in the Rigveda.",
+      "keywords": [
+        "Rigveda Mandala 4",
+        "Vamadeva hymns Rigveda",
+        "Rigveda Mandala 4 hymns",
+        "Indra hymns Rigveda",
+        "Agni hymns Rigveda",
+        "Rigveda sages Vamadeva",
+        "Rigveda scriptures",
+        "Sanatana Dharma Vedas"
+      ],
+      "robots": "index, follow",
+      "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4"
     },
     "openGraph": {
-      "title": "Rigveda Mandala 4 – Vamadeva Hymns",
-      "description": "Ancient Vedic hymns composed by the sage Vamadeva.",
+      "title": "Rigveda Mandala 4 – Hymns of Sage Vamadeva",
+      "description": "Explore Mandala 4 of the Rigveda containing 58 hymns composed by Sage Vamadeva praising Indra, Agni and other Vedic deities.",
       "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4",
-      "type": "article"
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/rigveda-mandala-4.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Rigveda Mandala 4 Hymns"
+        }
+      ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Rigveda Mandala 4"
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Rigveda Mandala 4",
+          "isPartOf": {
+            "@type": "Book",
+            "name": "Rigveda"
+          },
+          "description": "Mandala 4 of the Rigveda contains 58 hymns attributed to Sage Vamadeva praising Indra, Agni and other Vedic deities.",
+          "inLanguage": "Sanskrit",
+          "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4"
+        },
+        {
+          "@type": "Article",
+          "headline": "Rigveda Mandala 4 – Hymns of Sage Vamadeva",
+          "about": [
+            "Rigveda",
+            "Vamadeva",
+            "Indra",
+            "Agni",
+            "Vedic hymns"
+          ],
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          }
+        }
+      ]
     },
     "hymns": [
       {

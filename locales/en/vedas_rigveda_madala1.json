@@ -1,30 +1,70 @@
 {
   "mandala-1": {
+    "title": "Rigveda Mandala 1 – Hymns to Agni, Indra and Vedic Deities",
+    "description": "Rigveda Mandala 1 contains 191 hymns praising Agni, Indra, Soma and other Vedic deities. It introduces key themes of Vedic cosmology, ritual and spiritual wisdom.",
     "meta": {
       "title": "Rigveda Mandala 1 – Hymns to Agni, Indra and Vedic Deities",
-      "description": "Explore Rigveda Mandala 1 containing 191 hymns praising Agni, Indra and other Vedic deities. Learn the philosophical insights of early Vedic wisdom.",
+      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-1",
+      "description": "Rigveda Mandala 1 contains 191 hymns praising Agni, Indra, Soma and other Vedic deities. It introduces key themes of Vedic cosmology, ritual and spiritual wisdom.",
       "keywords": [
         "Rigveda Mandala 1",
-        "Rigveda hymns",
-        "Agni hymns",
-        "Vedic scriptures",
-        "Sanatana Dharma Rigveda"
+        "Rigveda hymns Mandala 1",
+        "Agni hymns Rigveda",
+        "Indra hymns Rigveda",
+        "Vedic deities Rigveda",
+        "Rigveda scriptures",
+        "Vedic cosmology",
+        "Sanatana Dharma Vedas"
       ],
-      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-1"
+      "robots": "index, follow",
+      "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-1"
     },
     "openGraph": {
       "title": "Rigveda Mandala 1 – Ancient Vedic Hymns",
-      "description": "Mandala 1 of the Rigveda contains 191 hymns dedicated to Agni, Indra and other cosmic forces.",
+      "description": "Explore Mandala 1 of the Rigveda containing 191 hymns dedicated to Agni, Indra, Soma and other Vedic deities.",
       "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-1",
-      "type": "article"
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/rigveda-mandala-1.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Rigveda Mandala 1 Hymns"
+        }
+      ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Rigveda Mandala 1",
-      "description": "First book of the Rigveda containing hymns dedicated to Agni, Indra and other Vedic deities.",
-      "isPartOf": "Rigveda",
-      "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-1"
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Rigveda Mandala 1",
+          "isPartOf": {
+            "@type": "Book",
+            "name": "Rigveda"
+          },
+          "description": "Mandala 1 of the Rigveda contains 191 hymns praising Agni, Indra and other Vedic deities and introduces foundational Vedic spiritual themes.",
+          "inLanguage": "Sanskrit",
+          "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-1"
+        },
+        {
+          "@type": "Article",
+          "headline": "Rigveda Mandala 1 – Hymns to Agni, Indra and Vedic Deities",
+          "about": [
+            "Rigveda",
+            "Agni",
+            "Indra",
+            "Soma",
+            "Vedic hymns"
+          ],
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          }
+        }
+      ]
     },
     "hymns": [
       {

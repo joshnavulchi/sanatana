@@ -1,28 +1,70 @@
 {
   "mandala-2": {
+    "title": "Rigveda Mandala 2 – Hymns of the Gritsamada Rishi Family",
+    "description": "Rigveda Mandala 2 contains 43 hymns attributed to the Gritsamada lineage praising deities such as Agni and Indra and reflecting early Vedic ritual traditions.",
     "meta": {
       "title": "Rigveda Mandala 2 – Hymns of the Gritsamada Rishi Family",
-      "description": "Rigveda Mandala 2 contains 43 hymns composed by the Gritsamada lineage praising Agni and Indra.",
+      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2",
+      "description": "Rigveda Mandala 2 contains 43 hymns attributed to the Gritsamada lineage praising deities such as Agni and Indra and reflecting early Vedic ritual traditions.",
       "keywords": [
         "Rigveda Mandala 2",
         "Gritsamada hymns",
-        "Rigvedic deities",
-        "Agni Indra hymns"
+        "Rigveda Mandala 2 hymns",
+        "Agni hymns Rigveda",
+        "Indra hymns Rigveda",
+        "Rigveda sages Gritsamada",
+        "Rigveda scriptures",
+        "Sanatana Dharma Vedas"
       ],
-      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-2"
+      "robots": "index, follow",
+      "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2"
     },
     "openGraph": {
-      "title": "Rigveda Mandala 2 – Vedic Hymns of Gritsamada",
-      "description": "Mandala 2 of the Rigveda contains hymns praising Agni and Indra.",
+      "title": "Rigveda Mandala 2 – Hymns of the Gritsamada Rishis",
+      "description": "Explore Mandala 2 of the Rigveda containing 43 hymns composed by the Gritsamada sages praising Agni, Indra and other Vedic deities.",
       "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2",
-      "type": "article"
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/rigveda-mandala-2.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Rigveda Mandala 2 Hymns"
+        }
+      ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Rigveda Mandala 2",
-      "description": "Second book of the Rigveda attributed to the Gritsamada family.",
-      "isPartOf": "Rigveda"
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Rigveda Mandala 2",
+          "isPartOf": {
+            "@type": "Book",
+            "name": "Rigveda"
+          },
+          "description": "Mandala 2 of the Rigveda contains 43 hymns attributed to the Gritsamada family praising Agni and Indra.",
+          "inLanguage": "Sanskrit",
+          "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-2"
+        },
+        {
+          "@type": "Article",
+          "headline": "Rigveda Mandala 2 – Hymns of the Gritsamada Rishi Family",
+          "about": [
+            "Rigveda",
+            "Gritsamada",
+            "Agni",
+            "Indra",
+            "Vedic hymns"
+          ],
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          }
+        }
+      ]
     },
     "hymns": [
       {

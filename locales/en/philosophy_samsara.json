@@ -1,84 +1,72 @@
 {
   "philosophy_samsara": {
-    "title": "Samsara Philosophy — In-depth Q&A and Concepts",
+    "title": "Samsara – Cycle of Birth, Death and Rebirth | Sanatana Dharma",
+    "description": "Learn about Samsara in Sanatana Dharma, the cycle of birth, death and rebirth governed by Karma. Explore its meaning in the Upanishads, Bhagavad Gita and Hindu philosophy.",
     "meta": {
-      "title": "Philosophy | Samsara — Sanātana Dharma - Explore Sanatan Dharma",
+      "title": "Samsara – Cycle of Birth, Death and Rebirth | Sanatana Dharma",
       "canonical": "https://sanatanadharmam.in/philosophy/samsara",
-      "description": "Philosophy — Samsara — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Philosophy. Explore practices, history, and guiding principles...",
+      "description": "Learn about Samsara in Sanatana Dharma, the cycle of birth, death and rebirth governed by Karma. Explore its meaning in the Upanishads, Bhagavad Gita and Hindu philosophy.",
       "keywords": [
-        "bhagavadgita samsara",
-        "buddhist philosophy",
-        "cycle of life and death",
+        "Samsara meaning",
         "cycle of rebirth",
-        "hindu philosophy",
-        "jain philosophy",
-        "karma",
-        "moksha",
-        "samsara",
-        "samsara concepts",
-        "samsara definition",
-        "samsara ethical implications",
-        "samsara goals",
-        "samsara in daily life",
-        "samsara in modern life",
-        "samsara key concepts",
-        "samsara meaning",
-        "samsara modern relevance",
-        "samsara origin",
-        "samsara origin and history",
-        "samsara personal development",
-        "samsara philosophical insights",
-        "samsara philosophy",
-        "samsara principles",
-        "samsara psychological insights",
-        "samsara q&a",
-        "samsara q&a for students",
-        "samsara relation to dharma and karma",
-        "samsara relation to other concepts",
-        "samsara relevance",
-        "samsara scriptural references",
-        "samsara society",
-        "samsara spiritual significance",
-        "samsara ultimate goal",
-        "samsara well-being",
-        "spiritual liberation",
-        "upanishads samsara",
-        "yoga sutras samsara"
+        "Samsara philosophy",
+        "Samsara and Karma",
+        "Samsara and Moksha",
+        "Hindu philosophy Samsara",
+        "Samsara Upanishads",
+        "Samsara Bhagavad Gita",
+        "Sanatana Dharma Samsara",
+        "cycle of birth and death"
       ],
-      "ogimage": "/og/philosophy-samsara.png",
+      "robots": "index, follow",
       "url": "https://sanatanadharmam.in/philosophy/samsara"
+    },
+    "openGraph": {
+      "title": "Samsara – Cycle of Birth and Rebirth",
+      "description": "Discover Samsara, the cycle of birth, death and rebirth explained in Sanatana Dharma philosophy.",
+      "url": "https://sanatanadharmam.in/philosophy/samsara",
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/philosophy-samsara.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Samsara Philosophy"
+        }
+      ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availablelanguage": [
-            "العربية",
-            "Deutsch",
-            "English",
-            "Español",
-            "Français",
-            "हिन्दी",
-            "日本語",
-            "नेपाली",
-            "Nederlands",
-            "Português",
-            "Русский",
-            "తెలుగు",
-            "اردو",
-            "中文 (简体)"
-          ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
+      "@graph": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Samsara",
+          "description": "Samsara is the cycle of birth, death and rebirth governed by karma in Sanatana Dharma and other Indian philosophical traditions.",
+          "url": "https://sanatanadharmam.in/philosophy/samsara",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Sanatana Dharma Philosophy"
+          }
         },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
+        {
+          "@type": "Article",
+          "headline": "Samsara – Cycle of Rebirth in Sanatana Dharma",
+          "about": [
+            "Samsara",
+            "Karma",
+            "Moksha",
+            "Sanatana Dharma philosophy",
+            "Hindu philosophy"
+          ],
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          },
+          "url": "https://sanatanadharmam.in/philosophy/samsara"
+        }
+      ]
     },
     "components": {
       "birth": "Entry into physical existence based on past karma.",

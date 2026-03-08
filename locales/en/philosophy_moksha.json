@@ -1,77 +1,73 @@
 {
   "philosophy_moksha": {
-    "title": "Moksha Philosophy — In-depth Q&A and Concepts",
+    "title": "Moksha – Spiritual Liberation in Sanatana Dharma",
+    "description": "Learn about Moksha in Sanatana Dharma, the ultimate liberation from samsara. Explore its meaning in the Upanishads, Bhagavad Gita and Hindu philosophy.",
     "meta": {
-      "title": "Philosophy | Moksha — Sanātana Dharma - Explore Sanatan Dharma",
+      "title": "Moksha – Spiritual Liberation in Sanatana Dharma",
       "canonical": "https://sanatanadharmam.in/philosophy/moksha",
-      "description": "Philosophy — Moksha — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Philosophy. Explore practices, history, and guiding principles at ...",
+      "description": "Learn about Moksha in Sanatana Dharma, the ultimate liberation from samsara. Explore its meaning in the Upanishads, Bhagavad Gita and Hindu philosophy.",
       "keywords": [
-        "atman",
-        "brahman",
-        "hindu metaphysics",
-        "hindu philosophy",
-        "liberation",
-        "moksha",
-        "moksha advaita",
-        "moksha and guru",
+        "Moksha meaning",
+        "spiritual liberation",
+        "moksha in hinduism",
         "moksha and karma",
-        "moksha and meditation",
-        "moksha and purusharthas",
-        "moksha concepts",
-        "moksha dvaita",
-        "moksha for all",
-        "moksha goals",
-        "moksha in daily life",
-        "moksha in scriptures",
-        "moksha jivanmukti",
-        "moksha modern relevance",
-        "moksha obstacles",
-        "moksha origin",
-        "moksha paths",
-        "moksha practical steps",
-        "moksha q&a",
-        "moksha relation to other concepts",
-        "moksha scriptural references",
-        "moksha signs",
-        "moksha videhamukti",
-        "moksha vs heaven",
-        "samsara",
-        "spiritual liberation"
+        "moksha and samsara",
+        "moksha philosophy",
+        "moksha in Bhagavad Gita",
+        "moksha Upanishads",
+        "Sanatana Dharma moksha",
+        "Hindu liberation philosophy"
       ],
-      "ogimage": "/og/philosophy-moksha.png",
+      "robots": "index, follow",
       "url": "https://sanatanadharmam.in/philosophy/moksha"
+    },
+    "openGraph": {
+      "title": "Moksha – Spiritual Liberation in Sanatana Dharma",
+      "description": "Discover Moksha, the ultimate spiritual liberation from samsara according to Sanatana Dharma philosophy.",
+      "url": "https://sanatanadharmam.in/philosophy/moksha",
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/philosophy-moksha.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Moksha Philosophy"
+        }
+      ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availablelanguage": [
-            "العربية",
-            "Deutsch",
-            "English",
-            "Español",
-            "Français",
-            "हिन्दी",
-            "日本語",
-            "नेपाली",
-            "Nederlands",
-            "Português",
-            "Русский",
-            "తెలుగు",
-            "اردو",
-            "中文 (简体)"
-          ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
+      "@graph": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Moksha",
+          "description": "Moksha is the concept of spiritual liberation from the cycle of birth and death (samsara) in Sanatana Dharma.",
+          "url": "https://sanatanadharmam.in/philosophy/moksha",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Sanatana Dharma Philosophy"
+          }
         },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
+        {
+          "@type": "Article",
+          "headline": "Moksha – Path to Spiritual Liberation",
+          "about": [
+            "Moksha",
+            "Sanatana Dharma",
+            "Hindu philosophy",
+            "Samsara",
+            "Upanishads",
+            "Bhagavad Gita"
+          ],
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          },
+          "url": "https://sanatanadharmam.in/philosophy/moksha"
+        }
+      ]
     },
     "core_principles": [
       "Freedom from samsara (cycle of rebirth)",

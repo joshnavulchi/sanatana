@@ -1,26 +1,70 @@
 {
   "mandala-3": {
+    "title": "Rigveda Mandala 3 – Vishvamitra Hymns and the Gayatri Mantra",
+    "description": "Rigveda Mandala 3 contains 62 hymns composed by the sage Vishvamitra including the famous Gayatri Mantra (Rigveda 3.62.10), one of the most sacred mantras in Vedic tradition.",
     "meta": {
-      "title": "Rigveda Mandala 3 – Vishvamitra Hymns and Gayatri Mantra",
-      "description": "Mandala 3 of the Rigveda contains 62 hymns by the sage Vishvamitra including the famous Gayatri Mantra.",
+      "title": "Rigveda Mandala 3 – Vishvamitra Hymns and the Gayatri Mantra",
+      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-3",
+      "description": "Rigveda Mandala 3 contains 62 hymns composed by the sage Vishvamitra including the famous Gayatri Mantra (Rigveda 3.62.10), one of the most sacred mantras in Vedic tradition.",
       "keywords": [
         "Rigveda Mandala 3",
         "Gayatri Mantra Rigveda",
-        "Vishvamitra hymns"
+        "Vishvamitra hymns",
+        "Rigveda Mandala 3 hymns",
+        "Savitr Gayatri Mantra",
+        "Rigveda scriptures",
+        "Vedic mantras",
+        "Sanatana Dharma Vedas"
       ],
-      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-3"
+      "robots": "index, follow",
+      "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-3"
     },
     "openGraph": {
       "title": "Rigveda Mandala 3 – Home of the Gayatri Mantra",
-      "description": "Mandala 3 contains hymns attributed to the sage Vishvamitra.",
+      "description": "Explore Mandala 3 of the Rigveda containing 62 hymns attributed to Sage Vishvamitra including the sacred Gayatri Mantra.",
       "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-3",
-      "type": "article"
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/rigveda-mandala-3.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Rigveda Mandala 3 Gayatri Mantra Hymns"
+        }
+      ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Rigveda Mandala 3",
-      "isPartOf": "Rigveda"
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Rigveda Mandala 3",
+          "isPartOf": {
+            "@type": "Book",
+            "name": "Rigveda"
+          },
+          "description": "Mandala 3 of the Rigveda contains 62 hymns attributed to Sage Vishvamitra including the famous Gayatri Mantra dedicated to Savitr.",
+          "inLanguage": "Sanskrit",
+          "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-3"
+        },
+        {
+          "@type": "Article",
+          "headline": "Rigveda Mandala 3 – Vishvamitra Hymns and Gayatri Mantra",
+          "about": [
+            "Rigveda",
+            "Gayatri Mantra",
+            "Vishvamitra",
+            "Savitr",
+            "Vedic hymns"
+          ],
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          }
+        }
+      ]
     },
     "hymns": [
       {
