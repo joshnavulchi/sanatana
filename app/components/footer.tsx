@@ -69,8 +69,10 @@ function NavColumn({ title, links, icon, iconBg }: {
 
   return (
     <div className="flex flex-col gap-2">
-      <p className="mb-2 flex items-center gap-2 text-md md:text-sm font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
-        <span className={`inline-flex h-6 w-6 items-center justify-center rounded-full ${iconBg} text-xs text-[#fff4df]`}>{icon}</span>
+      <p className="mb-2 flex items-center gap-2 text-md font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
+        <span className={`inline-flex h-6 w-6 p-[2] rounded-full ${iconBg} text-sm text-[#fff4df]`}>
+          {icon}
+        </span>
         {title}
       </p>
       <div className="mb-1 h-px w-12 bg-linear-to-r from-[#d97706] to-transparent" />
@@ -78,7 +80,7 @@ function NavColumn({ title, links, icon, iconBg }: {
         <Link
           key={href}
           href={href}
-          className={`text-md md:text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`}
+          className={`text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`}
           role="menuitem"
           onClick={e => { if (isActive(href)) e.preventDefault(); }}
         >
@@ -89,12 +91,12 @@ function NavColumn({ title, links, icon, iconBg }: {
         <button
           type="button"
           onClick={() => setExpanded(prev => !prev)}
-          className="mt-1 flex items-center gap-1 text-xs font-semibold text-[#92400e] hover:text-[#7a2e1f] transition-colors duration-200 cursor-pointer"
+          className="mt-1 flex items-center gap-1 text-sm font-semibold text-[#92400e] hover:text-[#7a2e1f] transition-colors duration-200 cursor-pointer"
           aria-expanded={expanded}
         >
           {expanded ? 'Show less' : `Show more (${links.length - INITIAL_VISIBLE})`}
           <svg
-            className={`h-3 w-3 transition-transform duration-200 ${expanded ? 'rotate-180' : ''}`}
+            className={`bg-white h-4 w-4 p-1 rounded-sm transition-transform duration-200 ${expanded ? 'rotate-180' : ''}`}
             fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -138,7 +140,7 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
 
   return (
     <div className="flex flex-col gap-2">
-      <p className="mb-2 flex items-center gap-2 text-md md:text-sm font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
+      <p className="mb-2 flex items-center gap-2 text-md font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
         <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#b45309] text-xs text-[#fff4df]">⚔️</span>
         {title}
       </p>
@@ -150,7 +152,7 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
           <div className="flex items-center gap-1">
             <Link
               href={href}
-              className={`text-md md:text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`}
+              className={`text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`}
               role="menuitem"
               onClick={e => { if (isActive(href)) e.preventDefault(); }}
             >
@@ -160,7 +162,7 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
               <button
                 type="button"
                 onClick={() => setExpandedEpic(prev => prev === slug ? null : slug)}
-                className="ml-1 inline-flex items-center justify-center rounded-full h-4 w-4 text-[#92400e] hover:text-[#7a2e1f] hover:bg-[#fde7c7] transition-all duration-200 cursor-pointer"
+                className="bg-white ml-1 inline-flex items-center justify-center rounded-sm h-4 w-4 text-[#92400e] hover:text-[#7a2e1f] hover:bg-[#fde7c7] transition-all duration-200 cursor-pointer"
                 aria-expanded={expandedEpic === slug}
                 aria-label={`Toggle ${name} sub-items`}
               >
@@ -176,14 +178,14 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
 
           {/* Sub-items (kandas / chapters) */}
           {hasSubItems && expandedEpic === slug && (
-            <div className="ml-4 mt-1 flex flex-col gap-1 border-l-2 border-[#d8a25a]/30 pl-3">
+            <div className="ml-1 mt-1 flex flex-col gap-1 border-l-2 border-[#d8a25a]/30 pl-3">
               {Object.entries(subNav).map(([subKey, subLabel]) => {
                 const subHref = `${href}/${subKey}`;
                 return (
                   <Link
                     key={subKey}
                     href={subHref}
-                    className={`text-xs font-medium transition-colors duration-200 ${isActive(subHref) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b5d4f] hover:text-[#7a2e1f]'}`}
+                    className={`text-sm font-semibold transition-colors duration-200 ${isActive(subHref) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-2' : 'text-[#6b5d4f] hover:text-[#7a2e1f]'}`}
                     role="menuitem"
                     onClick={e => { if (isActive(subHref)) e.preventDefault(); }}
                   >
@@ -214,7 +216,7 @@ export default function Footer() {
     <>
       <footer className="relative w-full overflow-hidden bg-linear-to-b from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef]">
         {/* Top ornamental bar */}
-        <div className="h-1.5 w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
+        <div className="h-[3] w-full bg-linear-to-r from-[#f59e0b] via-[#d97706] to-[#7c2d12]" />
 
         {/* Decorative background blurs */}
         <div className="pointer-events-none absolute inset-0">
@@ -224,14 +226,14 @@ export default function Footer() {
 
         <div className="relative z-10">
           {/* ─── Hero CTA Section ─── */}
-          <section className="content-wrapper py-16 text-center md:py-20">
-            <div className="bg-white mx-auto max-w-3xl rounded-2xl shadow-2xl p-4">
+          <section className="content-wrapper text-center py-16 md:py-20">
+            <div className="bg-white mx-auto max-w-3xl rounded-xl shadow-xl my-16 p-4">
               <h2 className="text-3xl md:text-4xl my-12 font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
                 {footer.title}
               </h2>
             </div>
 
-            <p className="mx-auto mt-6 max-w-4xl px-4 text-base leading-8 text-[#5b2d12] md:text-lg">
+            <p className="mx-auto max-w-4xl text-xl md:text-lg mt-6 px-4 leading-8 text-[#5b2d12]">
               {footer.quote} {footer.quotesource}
             </p>
 
