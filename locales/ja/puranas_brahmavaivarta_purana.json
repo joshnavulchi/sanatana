@@ -1,61 +1,61 @@
 {
-  "puranas_brahmavaivarta-purana": {
-    "title": "Brahmavaivarta Purana – Purana Overview and Key Themes",
-    "description": "A structured overview of Brahmavaivarta Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-    "meta": {
-      "title": "Brahmavaivarta Purana – Purana Overview and Key Themes",
-      "canonical": "https://sanatanadharmam.in/puranas/brahmavaivarta-purana",
-      "description": "A structured overview of Brahmavaivarta Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "keywords": [
-        "Brahmavaivarta Purana",
-        "Purana",
-        "Puranas",
-        "Sanatana Dharma",
-        "bhakti",
-        "dharma"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/puranas/brahmavaivarta-purana",
-      "ogImage": "https://sanatanadharmam.in/og/puranas_brahmavaivarta_purana.png"
-    },
-    "openGraph": {
-      "title": "Brahmavaivarta Purana – Purana Overview and Key Themes",
-      "description": "A structured overview of Brahmavaivarta Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas/brahmavaivarta-purana",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/puranas_brahmavaivarta_purana.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Brahmavaivarta Purana – Purana Overview and Key Themes"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Brahmavaivarta Purana – Purana Overview and Key Themes",
-      "description": "A structured overview of Brahmavaivarta Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas/brahmavaivarta-purana",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "Brahmavaivarta Purana is one of the Mahapuranas in the broader Puranic literature of Sanātana Dharma. Puranas transmit philosophy, devotion, and cultural memory through stories, dialogues, hymns, and guidance for ethical living.\n\nTraditionally, Brahmavaivarta Purana is associated with Puranic tradition. Readers often approach it as a devotional-philosophical text rather than a single-genre book: it may include cosmology, sacred geography, ethics, vows, and narratives that illustrate dharma in action.",
-    "scripture_text": [
-      {
-        "section": "What you will find on this page",
-        "content": "A structured overview: (1) context and themes, (2) key narrative ideas, (3) devotional emphasis, and (4) philosophical reflections that connect story to inner practice."
-      },
-      {
-        "section": "How to read Puranic material",
-        "content": "Puranic narratives can be read on multiple levels—devotional, ethical, and symbolic. When details vary across retellings, the enduring value is often the dharmic lesson: the cultivation of character, devotion, and discernment."
-      }
-    ],
-    "philosophical_explanation": "Philosophically, the Puranas teach through lived scenarios: how desire, fear, pride, and compassion shape destiny. They also emphasize cyclical time and impermanence, encouraging humility and steadiness. Devotion (bhakti) is often presented as a direct, accessible discipline that purifies the heart and supports wisdom."
-  }
+    "puranas_brahmavaivarta-purana": {
+        "title": "ブラフマヴァイヴァルタ プラーナ – プラーナの概要と主要テーマ",
+        "description": "ブラフマーヴァイヴァルタ プラーナの構造化された概要: テーマ、目的、それがサナータナ ダルマにおける信心、ダルマ、文化的記憶にどのように貢献するか。",
+        "meta": {
+            "title": "ブラフマヴァイヴァルタ プラーナ – プラーナの概要と主要テーマ",
+            "canonical": "https://sanatanadharmam.in/puranas/brahmavaivarta-purana",
+            "description": "ブラフマーヴァイヴァルタ プラーナの構造化された概要: テーマ、目的、それがサナータナ ダルマにおける信心、ダルマ、文化的記憶にどのように貢献するか。",
+            "keywords": [
+                "ブラフマバイヴァルタ プラーナ",
+                "プラーナ",
+                "プラーナ",
+                "サタナダルマ",
+                "バクティ",
+                "ダルマ"
+            ],
+            "robots": "インデックス、フォロー",
+            "url": "https://sanatanadharmam.in/puranas/brahmavaivarta-purana",
+            "ogImage": "https://sanatanadharmam.in/og/puranas_brahmavaivarta_purana.png"
+        },
+        "openGraph": {
+            "title": "ブラフマヴァイヴァルタ プラーナ – プラーナの概要と主要テーマ",
+            "description": "ブラフマーヴァイヴァルタ プラーナの構造化された概要: テーマ、目的、それがサナータナ ダルマにおける信心、ダルマ、文化的記憶にどのように貢献するか。",
+            "url": "https://sanatanadharmam.in/puranas/brahmavaivarta-purana",
+            "siteName": "サナタナダルマム",
+            "type": "記事",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/puranas_brahmavaivarta_purana.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Brahmavaivarta Purana – Purana Overview and Key Themes"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "記事",
+            "name": "ブラフマヴァイヴァルタ プラーナ – プラーナの概要と主要テーマ",
+            "description": "ブラフマーヴァイヴァルタ プラーナの構造化された概要: テーマ、目的、それがサナータナ ダルマにおける信心、ダルマ、文化的記憶にどのように貢献するか。",
+            "url": "https://sanatanadharmam.in/puranas/brahmavaivarta-purana",
+            "isPartOf": {
+                "@type": "ウェブサイト",
+                "name": "サナタナダルマム",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "ブラフマヴァイヴァルタ プラーナは、サナータナ ダルマのより広範なプラーナ文献におけるマハプラーナの 1 つです。プラーナは、物語、対話、賛美歌、倫理的な生活への導きを通じて、哲学、献身、文化的記憶を伝えます。\n\n伝統的に、ブラフマバイヴァルタ プラーナはプラーナの伝統と関連付けられています。読者は、単一ジャンルの本ではなく、信仰哲学的なテキストとしてこの本にアプローチすることがよくあります。この本には、宇宙論、神聖な地理、倫理、誓い、実践中のダルマを説明する物語が含まれる場合があります。",
+        "scripture_text": [
+            {
+                "section": "このページでわかること",
+                "content": "構造化された概要: (1) 文脈とテーマ、(2) 重要な物語のアイデア、(3) 信仰の強調、(4) 物語を内面の実践に結びつける哲学的考察。"
+            },
+            {
+                "section": "プラーナ物質の読み方",
+                "content": "プラーナの物語は、信仰的、倫理的、象徴的といった複数のレベルで読み取ることができます。再話ごとに細部が異なる場合でも、不朽の価値は多くの場合、人格、献身、洞察力の育成というダルマ的教訓です。"
+            }
+        ],
+        "philosophical_explanation": "哲学的には、プラーナは実際のシナリオを通して、欲望、恐怖、プライド、慈悲がどのように運命を形作るのかを教えています。また、周期的な時間と無常性を強調し、謙虚さと安定を奨励します。帰依心（バクティ）は、心を浄化し、知恵をサポートする、直接的でアクセスしやすい規律として表現されることがよくあります。"
+    }
 }

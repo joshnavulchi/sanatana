@@ -1,63 +1,63 @@
 {
-  "itihasa": {
-    "title": "Itihasa – Ramayana, Mahabharata and Bhagavad Gita | Sanatana Dharma",
-    "description": "Discover the Itihasas of Sanatana Dharma including the Ramayana, Mahabharata and Bhagavad Gita. These ancient epics teach dharma, devotion and spiritual wisdom.",
-    "meta": {
-      "title": "Itihasa – Ramayana, Mahabharata and Bhagavad Gita | Sanatana Dharma",
-      "canonical": "https://sanatanadharmam.in/itihasa",
-      "description": "Discover the Itihasas of Sanatana Dharma including the Ramayana, Mahabharata and Bhagavad Gita. These ancient epics teach dharma, devotion and spiritual wisdom.",
-      "keywords": [
-        "Itihasa",
-        "Ramayana",
-        "Mahabharata",
-        "Bhagavad Gita",
-        "Hindu epics",
-        "Sanatana Dharma epics",
-        "Indian epics",
-        "Itihasa meaning"
-      ],
-      "url": "https://sanatanadharmam.in/itihasa"
-    },
-    "openGraph": {
-      "title": "Itihasa – Sacred Epics of Sanatana Dharma",
-      "description": "Explore the great epics of Sanatana Dharma including the Ramayana, Mahabharata and Bhagavad Gita.",
-      "url": "https://sanatanadharmam.in/itihasa",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/itihasa.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Itihasa – Ramayana Mahabharata Bhagavad Gita"
+    "itihasa": {
+        "title": "اتہاس – رامائن، مہابھارت اور بھگواد گیتا | سناتن دھرم",
+        "description": "سناتن دھرم کے اتہاسوں کو دریافت کریں بشمول رامائن، مہابھارت اور بھگواد گیتا۔ یہ قدیم مہاکاوی دھرم، عقیدت اور روحانی حکمت سکھاتے ہیں۔",
+        "meta": {
+            "title": "اتہاس – رامائن، مہابھارت اور بھگواد گیتا | سناتن دھرم",
+            "canonical": "https://sanatanadharmam.in/itihasa",
+            "description": "سناتن دھرم کے اتہاسوں کو دریافت کریں بشمول رامائن، مہابھارت اور بھگواد گیتا۔ یہ قدیم مہاکاوی دھرم، عقیدت اور روحانی حکمت سکھاتے ہیں۔",
+            "keywords": [
+                "اتحاسا",
+                "رامائن",
+                "مہابھارت",
+                "بھگواد گیتا",
+                "ہندو مہاکاوی",
+                "سناتن دھرم کی مہاکاوی",
+                "ہندوستانی مہاکاوی",
+                "اِتحاس کے معنی"
+            ],
+            "url": "https://sanatanadharmam.in/itihasa"
+        },
+        "openGraph": {
+            "title": "Ithasa - سناتن دھرم کے مقدس مہاکاوی",
+            "description": "سناتن دھرم کے عظیم مہاکاوی کو دریافت کریں بشمول رامائن، مہابھارت اور بھگواد گیتا۔",
+            "url": "https://sanatanadharmam.in/itihasa",
+            "siteName": "سناتندھرم",
+            "type": "مضمون",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/itihasa.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Itihasa – Ramayana Mahabharata Bhagavad Gita"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "مجموعہ کا صفحہ",
+                    "name": "اتحاسا",
+                    "description": "اتہاس سناتن دھرم کی تاریخی مہاکاوی ہیں جن میں رامائن، مہابھارت اور بھگواد گیتا شامل ہیں۔",
+                    "url": "https://sanatanadharmam.in/itihasa"
+                },
+                {
+                    "@type": "تخلیقی کام",
+                    "name": "رامائن",
+                    "author": "والمیکی"
+                },
+                {
+                    "@type": "تخلیقی کام",
+                    "name": "مہابھارت",
+                    "author": "وید ویاس"
+                },
+                {
+                    "@type": "تخلیقی کام",
+                    "name": "بھگواد گیتا",
+                    "isPartOf": "مہابھارت"
+                }
+            ]
         }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "CollectionPage",
-          "name": "Itihasa",
-          "description": "The Itihasas are historical epics of Sanatana Dharma including Ramayana, Mahabharata and Bhagavad Gita.",
-          "url": "https://sanatanadharmam.in/itihasa"
-        },
-        {
-          "@type": "CreativeWork",
-          "name": "Ramayana",
-          "author": "Valmiki"
-        },
-        {
-          "@type": "CreativeWork",
-          "name": "Mahabharata",
-          "author": "Ved Vyasa"
-        },
-        {
-          "@type": "CreativeWork",
-          "name": "Bhagavad Gita",
-          "isPartOf": "Mahabharata"
-        }
-      ]
     }
-  }
 }

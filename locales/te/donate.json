@@ -1,31 +1,31 @@
 {
   "donate": {
-    "title": "Donate – Support Sanatanadharmam | Preserve Sanatana Dharma Knowledge",
-    "description": "Support Sanatanadharmam through donations to help preserve Vedic knowledge, translations, and spiritual teachings of Sanatana Dharma.",
+    "title": "దానం – సనాతనధర్మం మద్దతు | సనాతన ధర్మ జ్ఞానాన్ని కాపాడుకోండి",
+    "description": "సనాతన ధర్మం యొక్క వేద జ్ఞానం, అనువాదాలు మరియు ఆధ్యాత్మిక బోధనలను సంరక్షించడంలో సహాయం చేయడానికి విరాళాల ద్వారా సనాతనధర్మానికి మద్దతు ఇవ్వండి.",
     "meta": {
-      "title": "Donate – Support Sanatanadharmam | Preserve Sanatana Dharma Knowledge",
+      "title": "దానం – సనాతనధర్మం మద్దతు | సనాతన ధర్మ జ్ఞానాన్ని కాపాడుకోండి",
       "canonical": "https://sanatanadharmam.in/donate",
-      "description": "Support Sanatanadharmam through donations to help preserve Vedic knowledge, translations, and spiritual teachings of Sanatana Dharma.",
+      "description": "సనాతన ధర్మం యొక్క వేద జ్ఞానం, అనువాదాలు మరియు ఆధ్యాత్మిక బోధనలను సంరక్షించడంలో సహాయం చేయడానికి విరాళాల ద్వారా సనాతనధర్మానికి మద్దతు ఇవ్వండి.",
       "keywords": [
-        "donate sanatanadharmam",
-        "support sanatana dharma",
-        "sanatana dharma donations",
-        "vedic knowledge support",
-        "donate for spiritual education",
-        "support hindu philosophy website",
-        "sanatana dharma donation",
-        "support vedic scriptures project",
-        "donation for dharma knowledge"
+        "సనాతనధర్మం దానం చేయండి",
+        "సనాతన ధర్మానికి మద్దతు ఇవ్వండి",
+        "సనాతన ధర్మ దానాలు",
+        "వేద జ్ఞానం మద్దతు",
+        "ఆధ్యాత్మిక విద్య కోసం దానం చేయండి",
+        "హిందూ ఫిలాసఫీ వెబ్‌సైట్‌కి మద్దతు ఇవ్వండి",
+        "సనాతన ధర్మ దానం",
+        "వేద గ్రంథాల ప్రాజెక్ట్‌కు మద్దతు ఇవ్వండి",
+        "ధర్మ జ్ఞానం కోసం దానం"
       ],
-      "robots": "index, follow",
+      "robots": "సూచిక, అనుసరించండి",
       "url": "https://sanatanadharmam.in/donate"
     },
     "openGraph": {
-      "title": "Support Sanatanadharmam – Help Preserve Sanatana Dharma",
-      "description": "Contribute to Sanatanadharmam to support preservation and sharing of Vedic knowledge, scriptures and spiritual wisdom.",
+      "title": "సనాతనధర్మానికి మద్దతు ఇవ్వండి - సనాతన ధర్మాన్ని పరిరక్షించడానికి సహాయం చేయండి",
+      "description": "వేద విజ్ఞానం, గ్రంధాలు మరియు ఆధ్యాత్మిక జ్ఞానాన్ని సంరక్షించడం మరియు పంచుకోవడం కోసం సనాతనధర్మానికి సహకరించండి.",
       "url": "https://sanatanadharmam.in/donate",
-      "siteName": "Sanatanadharmam",
-      "type": "website",
+      "siteName": "సనాతనధర్మం",
+      "type": "వెబ్సైట్",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/donate.png",
@@ -39,35 +39,35 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "DonateAction",
-          "name": "Donate to Support Sanatanadharmam",
+          "@type": "విరాళం యాక్షన్",
+          "name": "సనాతనధర్మానికి మద్దతుగా విరాళం ఇవ్వండి",
           "target": "https://sanatanadharmam.in/donate",
-          "description": "Donation page supporting preservation and sharing of Sanatana Dharma knowledge."
+          "description": "సనాతన ధర్మ జ్ఞానాన్ని సంరక్షించడానికి మరియు పంచుకోవడానికి మద్దతు ఇచ్చే విరాళాల పేజీ."
         },
         {
-          "@type": "Organization",
-          "name": "Sanatanadharmam",
+          "@type": "సంస్థ",
+          "name": "సనాతనధర్మం",
           "url": "https://sanatanadharmam.in",
           "logo": "https://sanatanadharmam.in/images/logo.png",
           "contactPoint": {
-            "@type": "ContactPoint",
-            "contactType": "customer support",
-            "areaServed": "Worldwide",
+            "@type": "కాంటాక్ట్ పాయింట్",
+            "contactType": "కస్టమర్ మద్దతు",
+            "areaServed": "ప్రపంచవ్యాప్తంగా",
             "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Arabic",
-              "German",
-              "Spanish",
-              "French",
-              "Japanese",
-              "Nepali",
-              "Dutch",
-              "Portuguese",
-              "Russian",
-              "Urdu",
-              "Chinese"
+              "ఇంగ్లీష్",
+              "హిందీ",
+              "తెలుగు",
+              "అరబిక్",
+              "జర్మన్",
+              "స్పానిష్",
+              "ఫ్రెంచ్",
+              "జపనీస్",
+              "నేపాలీ",
+              "డచ్",
+              "పోర్చుగీస్",
+              "రష్యన్",
+              "ఉర్దూ",
+              "చైనీస్"
             ],
             "email": "info@sanatanadharmam.in",
             "telephone": "+91-8099181075"
@@ -77,64 +77,64 @@
     },
     "donateoptions": {
       "bank": {
-        "accountname": "V Vijaya Kumar",
+        "accountname": "వి విజయ కుమార్",
         "accountnumber": "32160808608",
-        "heading": "UPI / Bank Transfer",
+        "heading": "UPI / బ్యాంక్ బదిలీ",
         "ifsc": "SBIN0010677",
         "upi": "809918075@ybl"
       },
       "onetime": {
-        "heading": "One-Time Donation",
-        "note": "Make a secure one-time donation via UPI or international payment methods."
+        "heading": "వన్-టైమ్ విరాళం",
+        "note": "UPI లేదా అంతర్జాతీయ చెల్లింపు పద్ధతుల ద్వారా సురక్షితమైన వన్-టైమ్ డొనేషన్ చేయండి."
       }
     },
     "expenses": {
-      "heading": "Transparency: Current Expenses",
+      "heading": "పారదర్శకత: ప్రస్తుత ఖర్చులు",
       "table": [
         {
           "cost": "₹3,500",
-          "cycle": "3 Years",
-          "name": "Domain & Hosting",
-          "provider": "Hostinger"
+          "cycle": "3 సంవత్సరాలు",
+          "name": "డొమైన్ & హోస్టింగ్",
+          "provider": "హోస్టింగర్"
         },
         {
-          "cost": "Free",
-          "cycle": "Unlimited",
-          "name": "GitHub Pages",
+          "cost": "ఉచిత",
+          "cycle": "అపరిమిత",
+          "name": "GitHub పేజీలు",
           "provider": "GitHub"
         },
         {
-          "cost": "Free Plans",
-          "cycle": "Ongoing",
-          "name": "AI Tools (Research)",
+          "cost": "ఉచిత ప్రణాళికలు",
+          "cycle": "కొనసాగుతున్నది",
+          "name": "AI సాధనాలు (పరిశోధన)",
           "provider": "Google / Microsoft / Meta"
         }
       ]
     },
     "faq": {
-      "heading": "Frequently Asked Questions",
+      "heading": "తరచుగా అడిగే ప్రశ్నలు",
       "items": [
         {
-          "a": "Yes. Donations are processed via trusted payment providers and direct bank transfers.",
-          "q": "Is my donation secure?"
+          "a": "అవును. విశ్వసనీయ చెల్లింపు ప్రదాతలు మరియు డైరెక్ట్ బ్యాంక్ బదిలీల ద్వారా విరాళాలు ప్రాసెస్ చేయబడతాయి.",
+          "q": "నా విరాళం సురక్షితంగా ఉందా?"
         },
         {
-          "a": "Your contribution supports hosting, maintenance, and creation of educational spiritual content.",
-          "q": "How will my donation be used?"
+          "a": "మీ సహకారం హోస్టింగ్, నిర్వహణ మరియు విద్యా ఆధ్యాత్మిక కంటెంట్ యొక్క సృష్టికి మద్దతు ఇస్తుంది.",
+          "q": "నా విరాళం ఎలా ఉపయోగించబడుతుంది?"
         },
         {
-          "a": "No. Sanātana Dharma is a non-commercial, knowledge-focused initiative.",
-          "q": "Is this a commercial organization?"
+          "a": "నం. సనాతన ధర్మం అనేది వాణిజ్యేతర, జ్ఞాన-కేంద్రీకృత కార్యక్రమం.",
+          "q": "ఇది వాణిజ్య సంస్థా?"
         }
       ]
     },
     "purpose": {
-      "heading": "Why Your Support Matters",
+      "heading": "మీ మద్దతు ఎందుకు ముఖ్యం",
       "points": [
-        "Preserves free access to Sanātana Dharma knowledge",
-        "Supports website hosting, domain, and maintenance",
-        "Enables creation of high-quality spiritual content",
-        "Keeps the platform independent and non-commercial"
+        "సనాతన ధర్మ జ్ఞానానికి ఉచిత ప్రాప్తిని కాపాడుతుంది",
+        "వెబ్‌సైట్ హోస్టింగ్, డొమైన్ మరియు నిర్వహణకు మద్దతు ఇస్తుంది",
+        "అధిక-నాణ్యత ఆధ్యాత్మిక కంటెంట్ సృష్టిని ప్రారంభిస్తుంది",
+        "ప్లాట్‌ఫారమ్‌ను స్వతంత్రంగా మరియు వాణిజ్యేతరంగా ఉంచుతుంది"
       ]
     }
   }

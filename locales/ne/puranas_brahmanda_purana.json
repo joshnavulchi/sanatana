@@ -1,61 +1,61 @@
 {
-  "puranas_brahmanda-purana": {
-    "title": "Brahmanda Purana – Purana Overview and Key Themes",
-    "description": "A structured overview of Brahmanda Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-    "meta": {
-      "title": "Brahmanda Purana – Purana Overview and Key Themes",
-      "canonical": "https://sanatanadharmam.in/puranas/brahmanda-purana",
-      "description": "A structured overview of Brahmanda Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "keywords": [
-        "Brahmanda Purana",
-        "Purana",
-        "Puranas",
-        "Sanatana Dharma",
-        "bhakti",
-        "dharma"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/puranas/brahmanda-purana",
-      "ogImage": "https://sanatanadharmam.in/og/puranas_brahmanda_purana.png"
-    },
-    "openGraph": {
-      "title": "Brahmanda Purana – Purana Overview and Key Themes",
-      "description": "A structured overview of Brahmanda Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas/brahmanda-purana",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/puranas_brahmanda_purana.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Brahmanda Purana – Purana Overview and Key Themes"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Brahmanda Purana – Purana Overview and Key Themes",
-      "description": "A structured overview of Brahmanda Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas/brahmanda-purana",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "Brahmanda Purana is one of the Mahapuranas in the broader Puranic literature of Sanātana Dharma. Puranas transmit philosophy, devotion, and cultural memory through stories, dialogues, hymns, and guidance for ethical living.\n\nTraditionally, Brahmanda Purana is associated with Puranic tradition. Readers often approach it as a devotional-philosophical text rather than a single-genre book: it may include cosmology, sacred geography, ethics, vows, and narratives that illustrate dharma in action.",
-    "scripture_text": [
-      {
-        "section": "What you will find on this page",
-        "content": "A structured overview: (1) context and themes, (2) key narrative ideas, (3) devotional emphasis, and (4) philosophical reflections that connect story to inner practice."
-      },
-      {
-        "section": "How to read Puranic material",
-        "content": "Puranic narratives can be read on multiple levels—devotional, ethical, and symbolic. When details vary across retellings, the enduring value is often the dharmic lesson: the cultivation of character, devotion, and discernment."
-      }
-    ],
-    "philosophical_explanation": "Philosophically, the Puranas teach through lived scenarios: how desire, fear, pride, and compassion shape destiny. They also emphasize cyclical time and impermanence, encouraging humility and steadiness. Devotion (bhakti) is often presented as a direct, accessible discipline that purifies the heart and supports wisdom."
-  }
+    "puranas_brahmanda-purana": {
+        "title": "ब्रह्माण्ड पुराण - पुराण सिंहावलोकन र प्रमुख विषयवस्तुहरू",
+        "description": "ब्रह्माण्ड पुराणको एक संरचित सिंहावलोकन: विषयवस्तु, उद्देश्य, र यसले सनातन धर्ममा भक्ति, धर्म र सांस्कृतिक स्मृतिमा कसरी योगदान गर्दछ।",
+        "meta": {
+            "title": "ब्रह्माण्ड पुराण - पुराण सिंहावलोकन र प्रमुख विषयवस्तुहरू",
+            "canonical": "https://sanatanadharmam.in/puranas/brahmanda-purana",
+            "description": "ब्रह्माण्ड पुराणको एक संरचित सिंहावलोकन: विषयवस्तु, उद्देश्य, र यसले सनातन धर्ममा भक्ति, धर्म र सांस्कृतिक स्मृतिमा कसरी योगदान गर्दछ।",
+            "keywords": [
+                "ब्रह्माण्ड पुराण",
+                "पुराण",
+                "पुराण",
+                "सनातन धर्म",
+                "भक्ति",
+                "धर्म"
+            ],
+            "robots": "अनुक्रमणिका, पालना गर्नुहोस्",
+            "url": "https://sanatanadharmam.in/puranas/brahmanda-purana",
+            "ogImage": "https://sanatanadharmam.in/og/puranas_brahmanda_purana.png"
+        },
+        "openGraph": {
+            "title": "ब्रह्माण्ड पुराण - पुराण सिंहावलोकन र प्रमुख विषयवस्तुहरू",
+            "description": "ब्रह्माण्ड पुराणको एक संरचित सिंहावलोकन: विषयवस्तु, उद्देश्य, र यसले सनातन धर्ममा भक्ति, धर्म र सांस्कृतिक स्मृतिमा कसरी योगदान गर्दछ।",
+            "url": "https://sanatanadharmam.in/puranas/brahmanda-purana",
+            "siteName": "सनातन धर्मम",
+            "type": "लेख",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/puranas_brahmanda_purana.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Brahmanda Purana – Purana Overview and Key Themes"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "लेख",
+            "name": "ब्रह्माण्ड पुराण - पुराण सिंहावलोकन र प्रमुख विषयवस्तुहरू",
+            "description": "ब्रह्माण्ड पुराणको एक संरचित सिंहावलोकन: विषयवस्तु, उद्देश्य, र यसले सनातन धर्ममा भक्ति, धर्म र सांस्कृतिक स्मृतिमा कसरी योगदान गर्दछ।",
+            "url": "https://sanatanadharmam.in/puranas/brahmanda-purana",
+            "isPartOf": {
+                "@type": "वेबसाइट",
+                "name": "सनातन धर्मम",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "ब्रह्माण्ड पुराण सनातन धर्मको बृहत् पुराण साहित्यमा महापुराणहरू मध्ये एक हो। पुराणहरूले कथा, संवाद, भजन र नैतिक जीवनको लागि मार्गदर्शनको माध्यमबाट दर्शन, भक्ति र सांस्कृतिक स्मृतिलाई प्रसारित गर्दछ।\n\nपरम्परागत रूपमा, ब्रह्माण्ड पुराण पुराणिक परम्परासँग सम्बन्धित छ। पाठकहरूले प्राय: यसलाई एकल-विधाको पुस्तकको सट्टा भक्ति-दार्शनिक पाठको रूपमा सम्पर्क गर्छन्: यसले ब्रह्माण्डविज्ञान, पवित्र भूगोल, नैतिकता, भाकल, र कथाहरू समावेश गर्न सक्छ जसले धर्मलाई व्यवहारमा चित्रण गर्दछ।",
+        "scripture_text": [
+            {
+                "section": "तपाईले यो पृष्ठमा के पाउनुहुनेछ",
+                "content": "एक संरचित सिंहावलोकन: (1) सन्दर्भ र विषयवस्तुहरू, (2) मुख्य कथा विचारहरू, (3) भक्तिपूर्ण जोड, र (4) दार्शनिक प्रतिबिम्ब जसले कथालाई भित्री अभ्याससँग जोड्दछ।"
+            },
+            {
+                "section": "पुराण सामग्री कसरी पढ्ने",
+                "content": "पौराणिक कथाहरू भक्ति, नैतिक र प्रतीकात्मक रूपमा धेरै तहमा पढ्न सकिन्छ। जब विवरणहरू रिटेलिङहरूमा भिन्न हुन्छन्, स्थायी मूल्य प्राय: धार्मिक पाठ हो: चरित्र, भक्ति, र विवेकको खेती।"
+            }
+        ],
+        "philosophical_explanation": "दार्शनिक रूपमा, पुराणहरूले जीवित परिदृश्यहरू मार्फत सिकाउँछन्: कसरी इच्छा, डर, गर्व, र करुणाले भाग्यलाई आकार दिन्छ। तिनीहरूले चक्रीय समय र अस्थिरतालाई पनि जोड दिन्छ, नम्रता र स्थिरतालाई प्रोत्साहन दिन्छ। भक्ति (भक्ति) लाई प्रायः प्रत्यक्ष, पहुँचयोग्य अनुशासनको रूपमा प्रस्तुत गरिन्छ जसले हृदयलाई शुद्ध पार्छ र बुद्धिलाई समर्थन गर्दछ।"
+    }
 }

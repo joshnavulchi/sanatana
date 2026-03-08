@@ -5,11 +5,28 @@
 const fs = require('fs');
 const path = require('path');
 
-const localesBaseDir = path.join(__dirname, '..', '..', 'locales');
-const [, , oldFileName, newFileName] = process.argv;
+const argv = process.argv.slice(2);
+const REPO_ROOT = path.resolve(__dirname, '..', '..');
+
+function getArgValue(prefix) {
+  const hit = argv.find((a) => a.startsWith(prefix));
+  return hit ? hit.slice(prefix.length) : undefined;
+}
+
+function resolveDir(inputPath, fallbackPath) {
+  if (!inputPath) return fallbackPath;
+  return path.isAbsolute(inputPath) ? inputPath : path.resolve(REPO_ROOT, inputPath);
+}
+
+function getNonFlagArgs(args) {
+  return args.filter((a) => !(a.startsWith('--') || a.startsWith('-')));
+}
+
+const [oldFileName, newFileName] = getNonFlagArgs(argv);
+const localesBaseDir = resolveDir(getArgValue('--locales-dir='), path.join(REPO_ROOT, 'locales'));
 
 if (!oldFileName || !newFileName) {
-  console.error('Usage: node rename_locale_json_and_update_index.js oldFileName.json newFileName.json');
+  console.error('Usage: node rename_locale_json.js oldFileName.json newFileName.json [--locales-dir=./locales]');
   process.exit(1);
 }
 

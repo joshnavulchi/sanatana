@@ -1,65 +1,65 @@
 {
-  "bhagavadgita_vishvarupa-darshana-yoga": {
-    "title": "Vishvarupa Darshana Yoga – Bhagavad Gita Chapter Overview",
-    "description": "Chapter overview for Vishvarupa Darshana Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-    "meta": {
-      "title": "Vishvarupa Darshana Yoga – Bhagavad Gita Chapter Overview",
-      "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/vishvarupa-darshana-yoga",
-      "description": "Chapter overview for Vishvarupa Darshana Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "keywords": [
-        "Vishvarupa Darshana Yoga",
-        "Bhagavad Gita",
-        "Krishna",
-        "Yoga",
-        "dharma",
-        "Vedanta"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/vishvarupa-darshana-yoga",
-      "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_vishvarupa_darshana_yoga.png"
-    },
-    "openGraph": {
-      "title": "Vishvarupa Darshana Yoga – Bhagavad Gita Chapter Overview",
-      "description": "Chapter overview for Vishvarupa Darshana Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/vishvarupa-darshana-yoga",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/bhagavadgita_vishvarupa_darshana_yoga.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Vishvarupa Darshana Yoga – Bhagavad Gita Chapter Overview"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Vishvarupa Darshana Yoga – Bhagavad Gita Chapter Overview",
-      "description": "Chapter overview for Vishvarupa Darshana Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/vishvarupa-darshana-yoga",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "Vishvarupa Darshana Yoga is a chapter of the Bhagavad Gita. Each chapter traditionally carries a “yoga” emphasis—an angle of practice or understanding—while keeping the teaching integrated: act with clarity, cultivate devotion, and refine knowledge so the mind becomes steady.\n\nThis page summarizes the chapter’s usual themes and offers reflection prompts without quoting specific verses.",
-    "scripture_text": [
-      {
-        "section": "Key ideas",
-        "content": "A compact overview of the main teachings typically associated with this chapter, and how they relate to dharma and yoga."
-      },
-      {
-        "section": "Practical application",
-        "content": "How the chapter’s teaching can be applied to daily work, relationships, and decision-making—especially under stress."
-      },
-      {
-        "section": "Reflection prompts",
-        "content": "What am I attached to? Where is my duty unclear? Can I act with sincerity while releasing obsession with outcomes?"
-      }
-    ],
-    "philosophical_explanation": "Gita philosophy centers on inner freedom: not the absence of action, but the purification of intention. When ego-driven attachment reduces, action becomes cleaner and the mind becomes capable of deeper insight."
-  }
+    "bhagavadgita_vishvarupa-darshana-yoga": {
+        "title": "Vishvarupa Darshana Yoga – Bhagavad Gita Hoofdstukoverzicht",
+        "description": "Hoofdstukoverzicht voor Vishvarupa Darshana Yoga: centrale leringen, sleutelconcepten en praktische begeleiding uit de Bhagavad Gita.",
+        "meta": {
+            "title": "Vishvarupa Darshana Yoga – Bhagavad Gita Hoofdstukoverzicht",
+            "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/vishvarupa-darshana-yoga",
+            "description": "Hoofdstukoverzicht voor Vishvarupa Darshana Yoga: centrale leringen, sleutelconcepten en praktische begeleiding uit de Bhagavad Gita.",
+            "keywords": [
+                "Vishvarupa Darshana-yoga",
+                "Bhagavad Gita",
+                "Krishna",
+                "Yoga",
+                "dharma",
+                "Vedanta"
+            ],
+            "robots": "indexeren, volgen",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/vishvarupa-darshana-yoga",
+            "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_vishvarupa_darshana_yoga.png"
+        },
+        "openGraph": {
+            "title": "Vishvarupa Darshana Yoga – Bhagavad Gita Hoofdstukoverzicht",
+            "description": "Hoofdstukoverzicht voor Vishvarupa Darshana Yoga: centrale leringen, sleutelconcepten en praktische begeleiding uit de Bhagavad Gita.",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/vishvarupa-darshana-yoga",
+            "siteName": "Sanatanadharam",
+            "type": "artikel",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/bhagavadgita_vishvarupa_darshana_yoga.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Vishvarupa Darshana Yoga – Bhagavad Gita Chapter Overview"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "Artikel",
+            "name": "Vishvarupa Darshana Yoga – Bhagavad Gita Hoofdstukoverzicht",
+            "description": "Hoofdstukoverzicht voor Vishvarupa Darshana Yoga: centrale leringen, sleutelconcepten en praktische begeleiding uit de Bhagavad Gita.",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/vishvarupa-darshana-yoga",
+            "isPartOf": {
+                "@type": "Website",
+                "name": "Sanatanadharam",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "Vishvarupa Darshana Yoga is een hoofdstuk uit de Bhagavad Gita. Elk hoofdstuk legt traditioneel de nadruk op ‘yoga’ – een invalshoek van beoefening of begrip – terwijl de leer geïntegreerd blijft: handel met helderheid, cultiveer toewijding en verfijn kennis zodat de geest stabiel wordt.\n\nDeze pagina vat de gebruikelijke thema's van het hoofdstuk samen en biedt reflectie-aanwijzingen zonder specifieke verzen te citeren.",
+        "scripture_text": [
+            {
+                "section": "Belangrijkste ideeën",
+                "content": "Een compact overzicht van de belangrijkste leringen die doorgaans met dit hoofdstuk worden geassocieerd, en hoe deze zich verhouden tot dharma en yoga."
+            },
+            {
+                "section": "Praktische toepassing",
+                "content": "Hoe de leerstellingen uit dit hoofdstuk kunnen worden toegepast op het dagelijkse werk, relaties en besluitvorming – vooral onder stress."
+            },
+            {
+                "section": "Reflectie vraagt",
+                "content": "Waar ben ik aan gehecht? Waar is mijn plicht onduidelijk? Kan ik oprecht handelen en tegelijkertijd mijn obsessie met de resultaten loslaten?"
+            }
+        ],
+        "philosophical_explanation": "De Gita-filosofie concentreert zich op innerlijke vrijheid: niet de afwezigheid van actie, maar de zuivering van intentie. Wanneer de egogedreven gehechtheid afneemt, wordt het handelen schoner en wordt de geest in staat tot dieper inzicht."
+    }
 }

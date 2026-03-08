@@ -1,71 +1,71 @@
 {
-  "puranas_garuda": {
-    "meta": {
-      "title": "Garuda Purana – Teachings on Afterlife and Dharma",
-      "canonical": "https://sanatanadharmam.in/scriptures/puranas/garuda",
-      "description": "Explore the Garuda Purana, a sacred Hindu text describing the journey of the soul after death, karma, funeral rites, and spiritual teachings of Sanatana Dharma.",
-      "keywords": [
-        "Garuda Purana",
-        "Garuda Purana afterlife",
-        "Garuda Purana teachings",
-        "Garuda Purana karma",
-        "Garuda Purana funeral rites",
-        "Garuda Purana soul journey",
-        "Garuda Purana Vaitarani river",
-        "Garuda Purana philosophy",
-        "Garuda Purana reincarnation",
-        "Hindu scriptures Garuda Purana"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
-    },
-    "openGraph": {
-      "title": "Garuda Purana – Sacred Teachings on Life, Death and Afterlife",
-      "description": "Learn the profound teachings of the Garuda Purana about karma, death, afterlife, funeral rites and the soul's journey.",
-      "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/puranas-garuda.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Garuda Purana Scripture"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Book",
-          "name": "Garuda Purana",
-          "description": "Garuda Purana is one of the eighteen Mahapuranas of Hinduism, discussing the afterlife, karma, funeral rites, and spiritual philosophy.",
-          "author": {
-            "@type": "Person",
-            "name": "Ved Vyasa"
-          },
-          "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
-          "inLanguage": "Sanskrit"
+    "puranas_garuda": {
+        "meta": {
+            "title": "ガルーダ プラーナ – 死後の世界とダルマについての教え",
+            "canonical": "https://sanatanadharmam.in/scriptures/puranas/garuda",
+            "description": "死後の魂の旅、カルマ、葬儀の儀式、サナタナ ダルマの精神的な教えを記したヒンズー教の聖典であるガルーダ プラーナを探索してみましょう。",
+            "keywords": [
+                "ガルーダ プラーナ",
+                "ガルーダ プラーナの死後の世界",
+                "ガルーダ・プラーナの教え",
+                "ガルーダ プラーナ カルマ",
+                "ガルーダ・プラーナの葬儀",
+                "ガルーダ プラーナ 魂の旅",
+                "ガルーダ プラーナ ヴァイタラニ川",
+                "ガルーダ プラーナの哲学",
+                "ガルーダ・プラーナの転生",
+                "ヒンズー教の経典「ガルーダ・プラーナ」"
+            ],
+            "robots": "インデックス、フォロー",
+            "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
         },
-        {
-          "@type": "Article",
-          "headline": "Garuda Purana – Journey of the Soul After Death",
-          "about": [
-            "Garuda Purana",
-            "Afterlife",
-            "Karma",
-            "Reincarnation",
-            "Sanatana Dharma"
-          ],
-          "isPartOf": {
-            "@type": "WebSite",
-            "name": "Sanatanadharmam",
-            "url": "https://sanatanadharmam.in"
-          },
-          "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
+        "openGraph": {
+            "title": "ガルーダ プラーナ – 生、死、死後の世界に関する神聖な教え",
+            "description": "カルマ、死、死後の世界、葬儀、魂の旅についてのガルーダ プラーナの深い教えを学びましょう。",
+            "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
+            "siteName": "サナタナダルマム",
+            "type": "記事",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/puranas-garuda.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Garuda Purana Scripture"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "本",
+                    "name": "ガルーダ プラーナ",
+                    "description": "ガルーダ プラーナはヒンドゥー教の 18 のマハープラーナの 1 つであり、死後の世界、カルマ、葬儀、精神哲学について論じています。",
+                    "author": {
+                        "@type": "人",
+                        "name": "ヴェド・ヴィヤーサ"
+                    },
+                    "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
+                    "inLanguage": "サンスクリット語"
+                },
+                {
+                    "@type": "記事",
+                    "headline": "ガルーダ プラーナ – 死後の魂の旅",
+                    "about": [
+                        "ガルーダ プラーナ",
+                        "死後の世界",
+                        "カルマ",
+                        "輪廻転生",
+                        "サタナダルマ"
+                    ],
+                    "isPartOf": {
+                        "@type": "ウェブサイト",
+                        "name": "サナタナダルマム",
+                        "url": "https://sanatanadharmam.in"
+                    },
+                    "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
+                }
+            ]
         }
-      ]
     }
-  }
 }

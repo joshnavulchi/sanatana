@@ -1,61 +1,61 @@
 {
-  "puranas_agni-purana": {
-    "title": "Agni Purana – Purana Overview and Key Themes",
-    "description": "A structured overview of Agni Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-    "meta": {
-      "title": "Agni Purana – Purana Overview and Key Themes",
-      "canonical": "https://sanatanadharmam.in/puranas/agni-purana",
-      "description": "A structured overview of Agni Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "keywords": [
-        "Agni Purana",
-        "Purana",
-        "Puranas",
-        "Sanatana Dharma",
-        "bhakti",
-        "dharma"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/puranas/agni-purana",
-      "ogImage": "https://sanatanadharmam.in/og/puranas_agni_purana.png"
-    },
-    "openGraph": {
-      "title": "Agni Purana – Purana Overview and Key Themes",
-      "description": "A structured overview of Agni Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas/agni-purana",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/puranas_agni_purana.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Agni Purana – Purana Overview and Key Themes"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Agni Purana – Purana Overview and Key Themes",
-      "description": "A structured overview of Agni Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas/agni-purana",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "Agni Purana is one of the Mahapuranas in the broader Puranic literature of Sanātana Dharma. Puranas transmit philosophy, devotion, and cultural memory through stories, dialogues, hymns, and guidance for ethical living.\n\nTraditionally, Agni Purana is associated with Puranic tradition. Readers often approach it as a devotional-philosophical text rather than a single-genre book: it may include cosmology, sacred geography, ethics, vows, and narratives that illustrate dharma in action.",
-    "scripture_text": [
-      {
-        "section": "What you will find on this page",
-        "content": "A structured overview: (1) context and themes, (2) key narrative ideas, (3) devotional emphasis, and (4) philosophical reflections that connect story to inner practice."
-      },
-      {
-        "section": "How to read Puranic material",
-        "content": "Puranic narratives can be read on multiple levels—devotional, ethical, and symbolic. When details vary across retellings, the enduring value is often the dharmic lesson: the cultivation of character, devotion, and discernment."
-      }
-    ],
-    "philosophical_explanation": "Philosophically, the Puranas teach through lived scenarios: how desire, fear, pride, and compassion shape destiny. They also emphasize cyclical time and impermanence, encouraging humility and steadiness. Devotion (bhakti) is often presented as a direct, accessible discipline that purifies the heart and supports wisdom."
-  }
+    "puranas_agni-purana": {
+        "title": "அக்னி புராணம் - புராண கண்ணோட்டம் மற்றும் முக்கிய கருப்பொருள்கள்",
+        "description": "அக்னி புராணத்தின் கட்டமைக்கப்பட்ட கண்ணோட்டம்: கருப்பொருள்கள், நோக்கம் மற்றும் சனாதன தர்மத்தில் பக்தி, தர்மம் மற்றும் கலாச்சார நினைவாற்றலுக்கு அது எவ்வாறு பங்களிக்கிறது.",
+        "meta": {
+            "title": "அக்னி புராணம் - புராண கண்ணோட்டம் மற்றும் முக்கிய கருப்பொருள்கள்",
+            "canonical": "https://sanatanadharmam.in/puranas/agni-purana",
+            "description": "அக்னி புராணத்தின் கட்டமைக்கப்பட்ட கண்ணோட்டம்: கருப்பொருள்கள், நோக்கம் மற்றும் சனாதன தர்மத்தில் பக்தி, தர்மம் மற்றும் கலாச்சார நினைவாற்றலுக்கு அது எவ்வாறு பங்களிக்கிறது.",
+            "keywords": [
+                "அக்னி புராணம்",
+                "புராணம்",
+                "புராணங்கள்",
+                "சனாதன தர்மம்",
+                "பக்தி",
+                "தர்மம்"
+            ],
+            "robots": "குறியீட்டு, பின்பற்றவும்",
+            "url": "https://sanatanadharmam.in/puranas/agni-purana",
+            "ogImage": "https://sanatanadharmam.in/og/puranas_agni_purana.png"
+        },
+        "openGraph": {
+            "title": "அக்னி புராணம் - புராண கண்ணோட்டம் மற்றும் முக்கிய கருப்பொருள்கள்",
+            "description": "அக்னி புராணத்தின் கட்டமைக்கப்பட்ட கண்ணோட்டம்: கருப்பொருள்கள், நோக்கம் மற்றும் சனாதன தர்மத்தில் பக்தி, தர்மம் மற்றும் கலாச்சார நினைவாற்றலுக்கு அது எவ்வாறு பங்களிக்கிறது.",
+            "url": "https://sanatanadharmam.in/puranas/agni-purana",
+            "siteName": "சனாதனதர்மம்",
+            "type": "கட்டுரை",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/puranas_agni_purana.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Agni Purana – Purana Overview and Key Themes"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "கட்டுரை",
+            "name": "அக்னி புராணம் - புராண கண்ணோட்டம் மற்றும் முக்கிய கருப்பொருள்கள்",
+            "description": "அக்னி புராணத்தின் கட்டமைக்கப்பட்ட கண்ணோட்டம்: கருப்பொருள்கள், நோக்கம் மற்றும் சனாதன தர்மத்தில் பக்தி, தர்மம் மற்றும் கலாச்சார நினைவாற்றலுக்கு அது எவ்வாறு பங்களிக்கிறது.",
+            "url": "https://sanatanadharmam.in/puranas/agni-purana",
+            "isPartOf": {
+                "@type": "இணையத்தளம்",
+                "name": "சனாதனதர்மம்",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "அக்னி புராணம் என்பது சனாதன தர்மத்தின் பரந்த புராண இலக்கியங்களில் உள்ள மகாபுராணங்களில் ஒன்றாகும். புராணங்கள் கதைகள், உரையாடல்கள், பாடல்கள் மற்றும் நெறிமுறை வாழ்க்கைக்கான வழிகாட்டுதல்கள் மூலம் தத்துவம், பக்தி மற்றும் கலாச்சார நினைவகத்தை கடத்துகின்றன.\n\nபாரம்பரியமாக, அக்னி புராணம் புராண பாரம்பரியத்துடன் தொடர்புடையது. வாசகர்கள் பெரும்பாலும் இதை ஒரு வகை புத்தகமாக இல்லாமல் பக்தி-தத்துவ உரையாக அணுகுகிறார்கள்: இதில் அண்டவியல், புனித புவியியல், நெறிமுறைகள், சபதம் மற்றும் செயலில் உள்ள தர்மத்தை விளக்கும் கதைகள் இருக்கலாம்.",
+        "scripture_text": [
+            {
+                "section": "இந்தப் பக்கத்தில் நீங்கள் என்ன காணலாம்",
+                "content": "ஒரு கட்டமைக்கப்பட்ட கண்ணோட்டம்: (1) சூழல் மற்றும் கருப்பொருள்கள், (2) முக்கிய கதைக் கருத்துக்கள், (3) பக்தி முக்கியத்துவம் மற்றும் (4) உள் நடைமுறையுடன் கதையை இணைக்கும் தத்துவ பிரதிபலிப்புகள்."
+            },
+            {
+                "section": "புராணப் பொருட்களை எவ்வாறு படிப்பது",
+                "content": "புராணக் கதைகளை பல நிலைகளில் படிக்கலாம் - பக்தி, நெறிமுறை மற்றும் குறியீட்டு. மறுபரிசீலனைகள் முழுவதும் விவரங்கள் மாறுபடும் போது, ​​நிலையான மதிப்பு பெரும்பாலும் தர்ம பாடமாக இருக்கும்: பண்பு, பக்தி மற்றும் விவேகத்தை வளர்ப்பது."
+            }
+        ],
+        "philosophical_explanation": "தத்துவ ரீதியாக, புராணங்கள் வாழும் காட்சிகள் மூலம் கற்பிக்கின்றன: ஆசை, பயம், பெருமை மற்றும் இரக்கம் எவ்வாறு விதியை வடிவமைக்கின்றன. அவை சுழற்சி நேரத்தையும் நிலையற்ற தன்மையையும் வலியுறுத்துகின்றன, பணிவு மற்றும் நிலைத்தன்மையை ஊக்குவிக்கின்றன. பக்தி (பக்தி) பெரும்பாலும் இதயத்தைத் தூய்மைப்படுத்தும் மற்றும் ஞானத்தை ஆதரிக்கும் நேரடியான, அணுகக்கூடிய ஒழுக்கமாக வழங்கப்படுகிறது."
+    }
 }

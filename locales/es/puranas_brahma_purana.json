@@ -1,61 +1,61 @@
 {
-  "puranas_brahma-purana": {
-    "title": "Brahma Purana – Purana Overview and Key Themes",
-    "description": "A structured overview of Brahma Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-    "meta": {
-      "title": "Brahma Purana – Purana Overview and Key Themes",
-      "canonical": "https://sanatanadharmam.in/puranas/brahma-purana",
-      "description": "A structured overview of Brahma Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "keywords": [
-        "Brahma Purana",
-        "Purana",
-        "Puranas",
-        "Sanatana Dharma",
-        "bhakti",
-        "dharma"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/puranas/brahma-purana",
-      "ogImage": "https://sanatanadharmam.in/og/puranas_brahma_purana.png"
-    },
-    "openGraph": {
-      "title": "Brahma Purana – Purana Overview and Key Themes",
-      "description": "A structured overview of Brahma Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas/brahma-purana",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/puranas_brahma_purana.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Brahma Purana – Purana Overview and Key Themes"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Brahma Purana – Purana Overview and Key Themes",
-      "description": "A structured overview of Brahma Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas/brahma-purana",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "Brahma Purana is one of the Mahapuranas in the broader Puranic literature of Sanātana Dharma. Puranas transmit philosophy, devotion, and cultural memory through stories, dialogues, hymns, and guidance for ethical living.\n\nTraditionally, Brahma Purana is associated with Puranic tradition. Readers often approach it as a devotional-philosophical text rather than a single-genre book: it may include cosmology, sacred geography, ethics, vows, and narratives that illustrate dharma in action.",
-    "scripture_text": [
-      {
-        "section": "What you will find on this page",
-        "content": "A structured overview: (1) context and themes, (2) key narrative ideas, (3) devotional emphasis, and (4) philosophical reflections that connect story to inner practice."
-      },
-      {
-        "section": "How to read Puranic material",
-        "content": "Puranic narratives can be read on multiple levels—devotional, ethical, and symbolic. When details vary across retellings, the enduring value is often the dharmic lesson: the cultivation of character, devotion, and discernment."
-      }
-    ],
-    "philosophical_explanation": "Philosophically, the Puranas teach through lived scenarios: how desire, fear, pride, and compassion shape destiny. They also emphasize cyclical time and impermanence, encouraging humility and steadiness. Devotion (bhakti) is often presented as a direct, accessible discipline that purifies the heart and supports wisdom."
-  }
+    "puranas_brahma-purana": {
+        "title": "Brahma Purana: descripción general de Purana y temas clave",
+        "description": "Una descripción general estructurada de Brahma Purana: temas, propósito y cómo contribuye a la devoción, el dharma y la memoria cultural en Sanātana Dharma.",
+        "meta": {
+            "title": "Brahma Purana: descripción general de Purana y temas clave",
+            "canonical": "https://sanatanadharmam.in/puranas/brahma-purana",
+            "description": "Una descripción general estructurada de Brahma Purana: temas, propósito y cómo contribuye a la devoción, el dharma y la memoria cultural en Sanātana Dharma.",
+            "keywords": [
+                "Brahma Purana",
+                "Purana",
+                "Puranas",
+                "Sanatana Dharma",
+                "bhakti",
+                "dharma"
+            ],
+            "robots": "indexar, seguir",
+            "url": "https://sanatanadharmam.in/puranas/brahma-purana",
+            "ogImage": "https://sanatanadharmam.in/og/puranas_brahma_purana.png"
+        },
+        "openGraph": {
+            "title": "Brahma Purana: descripción general de Purana y temas clave",
+            "description": "Una descripción general estructurada de Brahma Purana: temas, propósito y cómo contribuye a la devoción, el dharma y la memoria cultural en Sanātana Dharma.",
+            "url": "https://sanatanadharmam.in/puranas/brahma-purana",
+            "siteName": "Sanatanadharmam",
+            "type": "artículo",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/puranas_brahma_purana.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Brahma Purana – Purana Overview and Key Themes"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "Artículo",
+            "name": "Brahma Purana: descripción general de Purana y temas clave",
+            "description": "Una descripción general estructurada de Brahma Purana: temas, propósito y cómo contribuye a la devoción, el dharma y la memoria cultural en Sanātana Dharma.",
+            "url": "https://sanatanadharmam.in/puranas/brahma-purana",
+            "isPartOf": {
+                "@type": "Sitio web",
+                "name": "Sanatanadharmam",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "Brahma Purana es uno de los Mahapuranas de la literatura puránica más amplia del Sanātana Dharma. Los puranas transmiten filosofía, devoción y memoria cultural a través de historias, diálogos, himnos y guías para una vida ética.\n\nTradicionalmente, Brahma Purana se asocia con la tradición puránica. Los lectores a menudo lo abordan como un texto devocional-filosófico en lugar de un libro de un solo género: puede incluir cosmología, geografía sagrada, ética, votos y narrativas que ilustran el dharma en acción.",
+        "scripture_text": [
+            {
+                "section": "Qué encontrarás en esta página",
+                "content": "Una descripción general estructurada: (1) contexto y temas, (2) ideas narrativas clave, (3) énfasis devocional y (4) reflexiones filosóficas que conectan la historia con la práctica interna."
+            },
+            {
+                "section": "Cómo leer material puránico",
+                "content": "Las narrativas puránicas se pueden leer en múltiples niveles: devocional, ético y simbólico. Cuando los detalles varían según la narración, el valor perdurable suele ser la lección dhármica: el cultivo del carácter, la devoción y el discernimiento."
+            }
+        ],
+        "philosophical_explanation": "Filosóficamente, los Puranas enseñan a través de escenarios vividos: cómo el deseo, el miedo, el orgullo y la compasión dan forma al destino. También enfatizan el tiempo cíclico y la impermanencia, fomentando la humildad y la firmeza. La devoción (bhakti) a menudo se presenta como una disciplina directa y accesible que purifica el corazón y sustenta la sabiduría."
+    }
 }

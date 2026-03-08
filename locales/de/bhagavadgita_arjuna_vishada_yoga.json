@@ -1,65 +1,65 @@
 {
-  "bhagavadgita_arjuna-vishada-yoga": {
-    "title": "Arjuna Vishada Yoga – Bhagavad Gita Chapter Overview",
-    "description": "Chapter overview for Arjuna Vishada Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-    "meta": {
-      "title": "Arjuna Vishada Yoga – Bhagavad Gita Chapter Overview",
-      "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/arjuna-vishada-yoga",
-      "description": "Chapter overview for Arjuna Vishada Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "keywords": [
-        "Arjuna Vishada Yoga",
-        "Bhagavad Gita",
-        "Krishna",
-        "Yoga",
-        "dharma",
-        "Vedanta"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/arjuna-vishada-yoga",
-      "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_arjuna_vishada_yoga.png"
-    },
-    "openGraph": {
-      "title": "Arjuna Vishada Yoga – Bhagavad Gita Chapter Overview",
-      "description": "Chapter overview for Arjuna Vishada Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/arjuna-vishada-yoga",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/bhagavadgita_arjuna_vishada_yoga.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Arjuna Vishada Yoga – Bhagavad Gita Chapter Overview"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Arjuna Vishada Yoga – Bhagavad Gita Chapter Overview",
-      "description": "Chapter overview for Arjuna Vishada Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/arjuna-vishada-yoga",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "Arjuna Vishada Yoga is a chapter of the Bhagavad Gita. Each chapter traditionally carries a “yoga” emphasis—an angle of practice or understanding—while keeping the teaching integrated: act with clarity, cultivate devotion, and refine knowledge so the mind becomes steady.\n\nThis page summarizes the chapter’s usual themes and offers reflection prompts without quoting specific verses.",
-    "scripture_text": [
-      {
-        "section": "Key ideas",
-        "content": "A compact overview of the main teachings typically associated with this chapter, and how they relate to dharma and yoga."
-      },
-      {
-        "section": "Practical application",
-        "content": "How the chapter’s teaching can be applied to daily work, relationships, and decision-making—especially under stress."
-      },
-      {
-        "section": "Reflection prompts",
-        "content": "What am I attached to? Where is my duty unclear? Can I act with sincerity while releasing obsession with outcomes?"
-      }
-    ],
-    "philosophical_explanation": "Gita philosophy centers on inner freedom: not the absence of action, but the purification of intention. When ego-driven attachment reduces, action becomes cleaner and the mind becomes capable of deeper insight."
-  }
+    "bhagavadgita_arjuna-vishada-yoga": {
+        "title": "Arjuna Vishada Yoga – Kapitelübersicht der Bhagavad Gita",
+        "description": "Kapitelübersicht für Arjuna Vishada Yoga: zentrale Lehren, Schlüsselkonzepte und praktische Anleitung aus der Bhagavad Gita.",
+        "meta": {
+            "title": "Arjuna Vishada Yoga – Kapitelübersicht der Bhagavad Gita",
+            "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/arjuna-vishada-yoga",
+            "description": "Kapitelübersicht für Arjuna Vishada Yoga: zentrale Lehren, Schlüsselkonzepte und praktische Anleitung aus der Bhagavad Gita.",
+            "keywords": [
+                "Arjuna Vishada Yoga",
+                "Bhagavad Gita",
+                "Krishna",
+                "Yoga",
+                "Dharma",
+                "Vedanta"
+            ],
+            "robots": "Index, folgen",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/arjuna-vishada-yoga",
+            "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_arjuna_vishada_yoga.png"
+        },
+        "openGraph": {
+            "title": "Arjuna Vishada Yoga – Kapitelübersicht der Bhagavad Gita",
+            "description": "Kapitelübersicht für Arjuna Vishada Yoga: zentrale Lehren, Schlüsselkonzepte und praktische Anleitung aus der Bhagavad Gita.",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/arjuna-vishada-yoga",
+            "siteName": "Sanatanadharam",
+            "type": "Artikel",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/bhagavadgita_arjuna_vishada_yoga.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Arjuna Vishada Yoga – Bhagavad Gita Chapter Overview"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "Artikel",
+            "name": "Arjuna Vishada Yoga – Kapitelübersicht der Bhagavad Gita",
+            "description": "Kapitelübersicht für Arjuna Vishada Yoga: zentrale Lehren, Schlüsselkonzepte und praktische Anleitung aus der Bhagavad Gita.",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/arjuna-vishada-yoga",
+            "isPartOf": {
+                "@type": "Website",
+                "name": "Sanatanadharam",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "Arjuna Vishada Yoga ist ein Kapitel der Bhagavad Gita. Jedes Kapitel hat traditionell einen „Yoga“-Schwerpunkt – einen Aspekt der Praxis oder des Verständnisses –, während die Lehre integriert bleibt: Handeln Sie mit Klarheit, kultivieren Sie Hingabe und verfeinern Sie Ihr Wissen, damit der Geist stabil wird.\n\nDiese Seite fasst die üblichen Themen des Kapitels zusammen und bietet Anregungen zum Nachdenken, ohne bestimmte Verse zu zitieren.",
+        "scripture_text": [
+            {
+                "section": "Schlüsselideen",
+                "content": "Ein kompakter Überblick über die wichtigsten Lehren, die normalerweise mit diesem Kapitel verbunden sind, und wie sie sich auf Dharma und Yoga beziehen."
+            },
+            {
+                "section": "Praktische Anwendung",
+                "content": "Wie die Lehren des Kapitels auf die tägliche Arbeit, Beziehungen und Entscheidungsfindung angewendet werden können – insbesondere unter Stress."
+            },
+            {
+                "section": "Denkanstöße",
+                "content": "Woran hänge ich? Wo ist meine Pflicht unklar? Kann ich aufrichtig handeln und gleichzeitig die Ergebnisbesessenheit loslassen?"
+            }
+        ],
+        "philosophical_explanation": "Die Gita-Philosophie konzentriert sich auf die innere Freiheit: nicht auf die Abwesenheit von Taten, sondern auf die Reinigung der Absicht. Wenn die vom Ego getriebene Bindung abnimmt, wird das Handeln sauberer und der Geist wird zu tieferen Einsichten fähig."
+    }
 }

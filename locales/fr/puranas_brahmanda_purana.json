@@ -1,61 +1,61 @@
 {
-  "puranas_brahmanda-purana": {
-    "title": "Brahmanda Purana – Purana Overview and Key Themes",
-    "description": "A structured overview of Brahmanda Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-    "meta": {
-      "title": "Brahmanda Purana – Purana Overview and Key Themes",
-      "canonical": "https://sanatanadharmam.in/puranas/brahmanda-purana",
-      "description": "A structured overview of Brahmanda Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "keywords": [
-        "Brahmanda Purana",
-        "Purana",
-        "Puranas",
-        "Sanatana Dharma",
-        "bhakti",
-        "dharma"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/puranas/brahmanda-purana",
-      "ogImage": "https://sanatanadharmam.in/og/puranas_brahmanda_purana.png"
-    },
-    "openGraph": {
-      "title": "Brahmanda Purana – Purana Overview and Key Themes",
-      "description": "A structured overview of Brahmanda Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas/brahmanda-purana",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/puranas_brahmanda_purana.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Brahmanda Purana – Purana Overview and Key Themes"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Brahmanda Purana – Purana Overview and Key Themes",
-      "description": "A structured overview of Brahmanda Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas/brahmanda-purana",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "Brahmanda Purana is one of the Mahapuranas in the broader Puranic literature of Sanātana Dharma. Puranas transmit philosophy, devotion, and cultural memory through stories, dialogues, hymns, and guidance for ethical living.\n\nTraditionally, Brahmanda Purana is associated with Puranic tradition. Readers often approach it as a devotional-philosophical text rather than a single-genre book: it may include cosmology, sacred geography, ethics, vows, and narratives that illustrate dharma in action.",
-    "scripture_text": [
-      {
-        "section": "What you will find on this page",
-        "content": "A structured overview: (1) context and themes, (2) key narrative ideas, (3) devotional emphasis, and (4) philosophical reflections that connect story to inner practice."
-      },
-      {
-        "section": "How to read Puranic material",
-        "content": "Puranic narratives can be read on multiple levels—devotional, ethical, and symbolic. When details vary across retellings, the enduring value is often the dharmic lesson: the cultivation of character, devotion, and discernment."
-      }
-    ],
-    "philosophical_explanation": "Philosophically, the Puranas teach through lived scenarios: how desire, fear, pride, and compassion shape destiny. They also emphasize cyclical time and impermanence, encouraging humility and steadiness. Devotion (bhakti) is often presented as a direct, accessible discipline that purifies the heart and supports wisdom."
-  }
+    "puranas_brahmanda-purana": {
+        "title": "Brahmanda Purana – Aperçu du Purana et thèmes clés",
+        "description": "Un aperçu structuré du Brahmanda Purana : thèmes, objectif et comment il contribue à la dévotion, au dharma et à la mémoire culturelle du Sanātana Dharma.",
+        "meta": {
+            "title": "Brahmanda Purana – Aperçu du Purana et thèmes clés",
+            "canonical": "https://sanatanadharmam.in/puranas/brahmanda-purana",
+            "description": "Un aperçu structuré du Brahmanda Purana : thèmes, objectif et comment il contribue à la dévotion, au dharma et à la mémoire culturelle du Sanātana Dharma.",
+            "keywords": [
+                "Brahmanda Purana",
+                "Purâna",
+                "Puranas",
+                "Sanatana Dharma",
+                "Bhakti",
+                "dharma"
+            ],
+            "robots": "indexer, suivre",
+            "url": "https://sanatanadharmam.in/puranas/brahmanda-purana",
+            "ogImage": "https://sanatanadharmam.in/og/puranas_brahmanda_purana.png"
+        },
+        "openGraph": {
+            "title": "Brahmanda Purana – Aperçu du Purana et thèmes clés",
+            "description": "Un aperçu structuré du Brahmanda Purana : thèmes, objectif et comment il contribue à la dévotion, au dharma et à la mémoire culturelle du Sanātana Dharma.",
+            "url": "https://sanatanadharmam.in/puranas/brahmanda-purana",
+            "siteName": "Sanatanadharman",
+            "type": "article",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/puranas_brahmanda_purana.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Brahmanda Purana – Purana Overview and Key Themes"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "Articles",
+            "name": "Brahmanda Purana – Aperçu du Purana et thèmes clés",
+            "description": "Un aperçu structuré du Brahmanda Purana : thèmes, objectif et comment il contribue à la dévotion, au dharma et à la mémoire culturelle du Sanātana Dharma.",
+            "url": "https://sanatanadharmam.in/puranas/brahmanda-purana",
+            "isPartOf": {
+                "@type": "Site Web",
+                "name": "Sanatanadharman",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "Brahmanda Purana est l'un des Mahapuranas de la littérature puranique plus large du Sanātana Dharma. Les Puranas transmettent la philosophie, la dévotion et la mémoire culturelle à travers des histoires, des dialogues, des hymnes et des conseils pour une vie éthique.\n\nTraditionnellement, Brahmanda Purana est associé à la tradition puranique. Les lecteurs l’abordent souvent comme un texte dévotionnel et philosophique plutôt que comme un livre monogenre : il peut inclure la cosmologie, la géographie sacrée, l’éthique, les vœux et les récits illustrant le dharma en action.",
+        "scripture_text": [
+            {
+                "section": "Ce que vous trouverez sur cette page",
+                "content": "Un aperçu structuré : (1) contexte et thèmes, (2) idées narratives clés, (3) accent dévotionnel et (4) réflexions philosophiques qui relient l'histoire à la pratique intérieure."
+            },
+            {
+                "section": "Comment lire le matériel puranique",
+                "content": "Les récits puraniques peuvent être lus à plusieurs niveaux : dévotionnel, éthique et symbolique. Lorsque les détails varient selon les récits, la valeur durable est souvent la leçon dharmique : la culture du caractère, la dévotion et le discernement."
+            }
+        ],
+        "philosophical_explanation": "Philosophiquement, les Puranas enseignent à travers des scénarios vécus : comment le désir, la peur, la fierté et la compassion façonnent le destin. Ils mettent également l’accent sur le temps cyclique et l’impermanence, encourageant l’humilité et la stabilité. La dévotion (bhakti) est souvent présentée comme une discipline directe et accessible qui purifie le cœur et soutient la sagesse."
+    }
 }

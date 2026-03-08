@@ -6,8 +6,20 @@
 const fs = require('fs'); // Node.js file system module for file operations
 const path = require('path'); // Node.js path module for handling file paths
 
-const root = path.resolve(__dirname, '..', '..'); // Project root directory
-const localesDir = path.join(root, 'locales'); // Path to locales directory
+const argv = process.argv.slice(2);
+const REPO_ROOT = path.resolve(__dirname, '..', '..'); // Project root directory
+
+function getArgValue(prefix) {
+  const hit = argv.find((a) => a.startsWith(prefix));
+  return hit ? hit.slice(prefix.length) : undefined;
+}
+
+function resolveDir(inputPath, fallbackPath) {
+  if (!inputPath) return fallbackPath;
+  return path.isAbsolute(inputPath) ? inputPath : path.resolve(REPO_ROOT, inputPath);
+}
+
+const localesDir = resolveDir(getArgValue('--locales-dir='), path.join(REPO_ROOT, 'locales')); // Path to locales directory
 
 /**
  * Generates index.ts for a locale folder by deep-merging all JSON files.

@@ -1,141 +1,141 @@
 {
-  "donate": {
-    "title": "Donate – Support Sanatanadharmam | Preserve Sanatana Dharma Knowledge",
-    "description": "Support Sanatanadharmam through donations to help preserve Vedic knowledge, translations, and spiritual teachings of Sanatana Dharma.",
-    "meta": {
-      "title": "Donate – Support Sanatanadharmam | Preserve Sanatana Dharma Knowledge",
-      "canonical": "https://sanatanadharmam.in/donate",
-      "description": "Support Sanatanadharmam through donations to help preserve Vedic knowledge, translations, and spiritual teachings of Sanatana Dharma.",
-      "keywords": [
-        "donate sanatanadharmam",
-        "support sanatana dharma",
-        "sanatana dharma donations",
-        "vedic knowledge support",
-        "donate for spiritual education",
-        "support hindu philosophy website",
-        "sanatana dharma donation",
-        "support vedic scriptures project",
-        "donation for dharma knowledge"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/donate"
-    },
-    "openGraph": {
-      "title": "Support Sanatanadharmam – Help Preserve Sanatana Dharma",
-      "description": "Contribute to Sanatanadharmam to support preservation and sharing of Vedic knowledge, scriptures and spiritual wisdom.",
-      "url": "https://sanatanadharmam.in/donate",
-      "siteName": "Sanatanadharmam",
-      "type": "website",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/donate.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Support Sanatanadharmam Donations"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "DonateAction",
-          "name": "Donate to Support Sanatanadharmam",
-          "target": "https://sanatanadharmam.in/donate",
-          "description": "Donation page supporting preservation and sharing of Sanatana Dharma knowledge."
-        },
-        {
-          "@type": "Organization",
-          "name": "Sanatanadharmam",
-          "url": "https://sanatanadharmam.in",
-          "logo": "https://sanatanadharmam.in/images/logo.png",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "contactType": "customer support",
-            "areaServed": "Worldwide",
-            "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Arabic",
-              "German",
-              "Spanish",
-              "French",
-              "Japanese",
-              "Nepali",
-              "Dutch",
-              "Portuguese",
-              "Russian",
-              "Urdu",
-              "Chinese"
+    "donate": {
+        "title": "दान गर्नुहोस् - सनातन धर्ममलाई समर्थन गर्नुहोस् | सनातन धर्म ज्ञानको रक्षा गर",
+        "description": "सनातन धर्मको वैदिक ज्ञान, अनुवाद, र आध्यात्मिक शिक्षाहरू जोगाउन मद्दत गर्न दानहरूद्वारा सनातन धर्मलाई समर्थन गर्नुहोस्।",
+        "meta": {
+            "title": "दान गर्नुहोस् - सनातन धर्ममलाई समर्थन गर्नुहोस् | सनातन धर्म ज्ञानको रक्षा गर",
+            "canonical": "https://sanatanadharmam.in/donate",
+            "description": "सनातन धर्मको वैदिक ज्ञान, अनुवाद, र आध्यात्मिक शिक्षाहरू जोगाउन मद्दत गर्न दानहरूद्वारा सनातन धर्मलाई समर्थन गर्नुहोस्।",
+            "keywords": [
+                "सनातन धर्म दान गर्नुहोस्",
+                "सनातन धर्मको समर्थन गर्नुहोस्",
+                "सनातन धर्म दान",
+                "वैदिक ज्ञान समर्थन",
+                "आध्यात्मिक शिक्षाको लागि दान गर्नुहोस्",
+                "समर्थन हिन्दू दर्शन वेबसाइट",
+                "सनातन धर्म दान",
+                "समर्थन वैदिक शास्त्र परियोजना",
+                "धर्म ज्ञानको लागि दान"
             ],
-            "email": "info@sanatanadharmam.in",
-            "telephone": "+91-8099181075"
-          }
+            "robots": "अनुक्रमणिका, पालना गर्नुहोस्",
+            "url": "https://sanatanadharmam.in/donate"
+        },
+        "openGraph": {
+            "title": "सनातन धर्मलाई समर्थन गर्नुहोस् - सनातन धर्मको रक्षा गर्न मद्दत गर्नुहोस्",
+            "description": "वैदिक ज्ञान, शास्त्र र आध्यात्मिक ज्ञानको संरक्षण र आदानप्रदानलाई समर्थन गर्न सनातन धर्ममा योगदान गर्नुहोस्।",
+            "url": "https://sanatanadharmam.in/donate",
+            "siteName": "सनातन धर्मम",
+            "type": "वेबसाइट",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/donate.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Support Sanatanadharmam Donations"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "दान कार्य",
+                    "name": "सनातन धर्मलाई समर्थन गर्न दान गर्नुहोस्",
+                    "target": "https://sanatanadharmam.in/donate",
+                    "description": "सनातन धर्म ज्ञानको संरक्षण र साझेदारीलाई समर्थन गर्ने दान पृष्ठ।"
+                },
+                {
+                    "@type": "संगठन",
+                    "name": "सनातन धर्मम",
+                    "url": "https://sanatanadharmam.in",
+                    "logo": "https://sanatanadharmam.in/images/logo.png",
+                    "contactPoint": {
+                        "@type": "सम्पर्क बिन्दु",
+                        "contactType": "ग्राहक समर्थन",
+                        "areaServed": "विश्वव्यापी",
+                        "availableLanguage": [
+                            "अंग्रेजी",
+                            "हिन्दी",
+                            "तेलुगु",
+                            "अरबी",
+                            "जर्मन",
+                            "स्पेनिस",
+                            "फ्रान्सेली",
+                            "जापानी",
+                            "नेपाली",
+                            "डच",
+                            "पोर्चुगिज",
+                            "रुसी",
+                            "उर्दू",
+                            "चिनियाँ"
+                        ],
+                        "email": "info@sanatanadharmam.in",
+                        "telephone": "+९१-८०९९१८१०७५"
+                    }
+                }
+            ]
+        },
+        "donateoptions": {
+            "bank": {
+                "accountname": "वी विजय कुमार",
+                "accountnumber": "३२१६०८०८६०८",
+                "heading": "UPI / बैंक स्थानान्तरण",
+                "ifsc": "SBIN0010677",
+                "upi": "809918075@ybl"
+            },
+            "onetime": {
+                "heading": "एक पटक दान",
+                "note": "UPI वा अन्तर्राष्ट्रिय भुक्तानी विधिहरू मार्फत सुरक्षित एक-पटक दान गर्नुहोस्।"
+            }
+        },
+        "expenses": {
+            "heading": "पारदर्शिता: वर्तमान खर्च",
+            "table": [
+                {
+                    "cost": "₹3,500",
+                    "cycle": "३ वर्ष",
+                    "name": "डोमेन र होस्टिङ",
+                    "provider": "होस्टिंगर"
+                },
+                {
+                    "cost": "नि:शुल्क",
+                    "cycle": "असीमित",
+                    "name": "GitHub पृष्ठहरू",
+                    "provider": "GitHub"
+                },
+                {
+                    "cost": "नि: शुल्क योजनाहरू",
+                    "cycle": "जारी छ",
+                    "name": "एआई उपकरण (अनुसन्धान)",
+                    "provider": "गुगल / माइक्रोसफ्ट / मेटा"
+                }
+            ]
+        },
+        "faq": {
+            "heading": "बारम्बार सोधिने प्रश्नहरू",
+            "items": [
+                {
+                    "a": "हो। दानहरू विश्वसनीय भुक्तानी प्रदायकहरू र प्रत्यक्ष बैंक स्थानान्तरणहरू मार्फत प्रशोधन गरिन्छ।",
+                    "q": "के मेरो दान सुरक्षित छ?"
+                },
+                {
+                    "a": "तपाईंको योगदानले शैक्षिक आध्यात्मिक सामग्रीको होस्टिङ, मर्मत र सिर्जनालाई समर्थन गर्छ।",
+                    "q": "मेरो दान कसरी प्रयोग गरिनेछ?"
+                },
+                {
+                    "a": "सनातन धर्म एक गैर-व्यावसायिक, ज्ञान-केन्द्रित पहल हो।",
+                    "q": "के यो व्यावसायिक संस्था हो?"
+                }
+            ]
+        },
+        "purpose": {
+            "heading": "तपाईंको समर्थन किन महत्त्वपूर्ण छ",
+            "points": [
+                "सनातन धर्म ज्ञानमा नि:शुल्क पहुँच सुरक्षित गर्दछ",
+                "वेबसाइट होस्टिंग, डोमेन, र मर्मत समर्थन गर्दछ",
+                "उच्च-गुणस्तरको आध्यात्मिक सामग्री सिर्जना गर्न सक्षम बनाउँछ",
+                "प्लेटफर्मलाई स्वतन्त्र र गैर-व्यावसायिक राख्छ"
+            ]
         }
-      ]
-    },
-    "donateoptions": {
-      "bank": {
-        "accountname": "V Vijaya Kumar",
-        "accountnumber": "32160808608",
-        "heading": "UPI / Bank Transfer",
-        "ifsc": "SBIN0010677",
-        "upi": "809918075@ybl"
-      },
-      "onetime": {
-        "heading": "One-Time Donation",
-        "note": "Make a secure one-time donation via UPI or international payment methods."
-      }
-    },
-    "expenses": {
-      "heading": "Transparency: Current Expenses",
-      "table": [
-        {
-          "cost": "₹3,500",
-          "cycle": "3 Years",
-          "name": "Domain & Hosting",
-          "provider": "Hostinger"
-        },
-        {
-          "cost": "Free",
-          "cycle": "Unlimited",
-          "name": "GitHub Pages",
-          "provider": "GitHub"
-        },
-        {
-          "cost": "Free Plans",
-          "cycle": "Ongoing",
-          "name": "AI Tools (Research)",
-          "provider": "Google / Microsoft / Meta"
-        }
-      ]
-    },
-    "faq": {
-      "heading": "Frequently Asked Questions",
-      "items": [
-        {
-          "a": "Yes. Donations are processed via trusted payment providers and direct bank transfers.",
-          "q": "Is my donation secure?"
-        },
-        {
-          "a": "Your contribution supports hosting, maintenance, and creation of educational spiritual content.",
-          "q": "How will my donation be used?"
-        },
-        {
-          "a": "No. Sanātana Dharma is a non-commercial, knowledge-focused initiative.",
-          "q": "Is this a commercial organization?"
-        }
-      ]
-    },
-    "purpose": {
-      "heading": "Why Your Support Matters",
-      "points": [
-        "Preserves free access to Sanātana Dharma knowledge",
-        "Supports website hosting, domain, and maintenance",
-        "Enables creation of high-quality spiritual content",
-        "Keeps the platform independent and non-commercial"
-      ]
     }
-  }
 }

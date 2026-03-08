@@ -1,71 +1,71 @@
 {
-  "puranas_garuda": {
-    "meta": {
-      "title": "Garuda Purana – Teachings on Afterlife and Dharma",
-      "canonical": "https://sanatanadharmam.in/scriptures/puranas/garuda",
-      "description": "Explore the Garuda Purana, a sacred Hindu text describing the journey of the soul after death, karma, funeral rites, and spiritual teachings of Sanatana Dharma.",
-      "keywords": [
-        "Garuda Purana",
-        "Garuda Purana afterlife",
-        "Garuda Purana teachings",
-        "Garuda Purana karma",
-        "Garuda Purana funeral rites",
-        "Garuda Purana soul journey",
-        "Garuda Purana Vaitarani river",
-        "Garuda Purana philosophy",
-        "Garuda Purana reincarnation",
-        "Hindu scriptures Garuda Purana"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
-    },
-    "openGraph": {
-      "title": "Garuda Purana – Sacred Teachings on Life, Death and Afterlife",
-      "description": "Learn the profound teachings of the Garuda Purana about karma, death, afterlife, funeral rites and the soul's journey.",
-      "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/puranas-garuda.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Garuda Purana Scripture"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Book",
-          "name": "Garuda Purana",
-          "description": "Garuda Purana is one of the eighteen Mahapuranas of Hinduism, discussing the afterlife, karma, funeral rites, and spiritual philosophy.",
-          "author": {
-            "@type": "Person",
-            "name": "Ved Vyasa"
-          },
-          "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
-          "inLanguage": "Sanskrit"
+    "puranas_garuda": {
+        "meta": {
+            "title": "Garuda Purana – 关于来世和佛法的教义",
+            "canonical": "https://sanatanadharmam.in/scriptures/puranas/garuda",
+            "description": "探索《金翅鸟往世书》，这是一部神圣的印度教文本，描述了死后灵魂的旅程、业力、葬礼仪式和萨那塔纳佛法的精神教义。",
+            "keywords": [
+                "嘉鲁达往世书",
+                "嘉鲁达往世书来世",
+                "嘉鲁达往世书的教义",
+                "嘉鲁达往世书业力",
+                "嘉鲁达往世书葬礼",
+                "嘉鲁达往世书灵魂之旅",
+                "嘉鲁达往世书维塔拉尼河",
+                "嘉鲁达往世书哲学",
+                "嘉鲁达往世书转世",
+                "印度教经典《迦楼罗往世书》"
+            ],
+            "robots": "索引，关注",
+            "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
         },
-        {
-          "@type": "Article",
-          "headline": "Garuda Purana – Journey of the Soul After Death",
-          "about": [
-            "Garuda Purana",
-            "Afterlife",
-            "Karma",
-            "Reincarnation",
-            "Sanatana Dharma"
-          ],
-          "isPartOf": {
-            "@type": "WebSite",
-            "name": "Sanatanadharmam",
-            "url": "https://sanatanadharmam.in"
-          },
-          "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
+        "openGraph": {
+            "title": "Garuda Purana – 关于生命、死亡和来世的神圣教义",
+            "description": "了解《金翅鸟往世书》关于业力、死亡、来世、葬礼仪式和灵魂之旅的深刻教义。",
+            "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
+            "siteName": "萨那塔达曼",
+            "type": "文章",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/puranas-garuda.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Garuda Purana Scripture"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "书",
+                    "name": "嘉鲁达往世书",
+                    "description": "《金翅鸟往世书》是印度教十八位玛哈普拉纳之一，讨论来世、业力、葬礼仪式和精神哲学。",
+                    "author": {
+                        "@type": "人",
+                        "name": "韦德维亚萨"
+                    },
+                    "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
+                    "inLanguage": "梵文"
+                },
+                {
+                    "@type": "文章",
+                    "headline": "Garuda Purana – 死后灵魂之旅",
+                    "about": [
+                        "嘉鲁达往世书",
+                        "来世",
+                        "业力",
+                        "投胎",
+                        "萨那塔那佛法"
+                    ],
+                    "isPartOf": {
+                        "@type": "网站",
+                        "name": "萨那塔达曼",
+                        "url": "https://sanatanadharmam.in"
+                    },
+                    "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
+                }
+            ]
         }
-      ]
     }
-  }
 }

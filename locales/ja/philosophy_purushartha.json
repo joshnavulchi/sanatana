@@ -1,149 +1,149 @@
 {
-  "philosophy_purushartha": {
-    "title": "Purusharthas – Four Goals of Life in Sanatana Dharma",
-    "description": "Learn about the Purusharthas in Sanatana Dharma — Dharma, Artha, Kama and Moksha — the four goals of human life guiding ethical living, prosperity and spiritual liberation.",
-    "meta": {
-      "title": "Purusharthas – Four Goals of Life in Sanatana Dharma",
-      "canonical": "https://sanatanadharmam.in/philosophy/purushartha",
-      "description": "Learn about the Purusharthas in Sanatana Dharma — Dharma, Artha, Kama and Moksha — the four goals of human life guiding ethical living, prosperity and spiritual liberation.",
-      "keywords": [
-        "Purusharthas meaning",
-        "four goals of life",
-        "Dharma Artha Kama Moksha",
-        "Purusharthas philosophy",
-        "Hindu philosophy Purusharthas",
-        "Purusharthas in Bhagavad Gita",
-        "Purusharthas concept",
-        "Sanatana Dharma philosophy",
-        "Purusharthas spiritual goals",
-        "Purusharthas Hinduism"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/philosophy/purushartha"
-    },
-    "openGraph": {
-      "title": "Purusharthas – Four Goals of Life in Sanatana Dharma",
-      "description": "Explore the Purusharthas — Dharma, Artha, Kama and Moksha — the four guiding goals of life in Sanatana Dharma philosophy.",
-      "url": "https://sanatanadharmam.in/philosophy/purushartha",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/purusharthas-philosophy.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Purusharthas Philosophy"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "DefinedTerm",
-          "name": "Purusharthas",
-          "description": "Purusharthas are the four goals of human life in Sanatana Dharma: Dharma, Artha, Kama and Moksha.",
-          "url": "https://sanatanadharmam.in/philosophy/purushartha",
-          "inDefinedTermSet": {
-            "@type": "DefinedTermSet",
-            "name": "Sanatana Dharma Philosophy"
-          }
+    "philosophy_purushartha": {
+        "title": "プルシャルタス – サナタナ ダルマにおける人生の 4 つの目標",
+        "description": "サナタナ ダルマのプルシャルタ (ダルマ、アルタ、カーマ、モクシャ) について学びましょう。倫理的な生活、繁栄、精神的解放を導く人間の人生の 4 つの目標です。",
+        "meta": {
+            "title": "プルシャルタス – サナタナ ダルマにおける人生の 4 つの目標",
+            "canonical": "https://sanatanadharmam.in/philosophy/purushartha",
+            "description": "サナタナ ダルマのプルシャルタ (ダルマ、アルタ、カーマ、モクシャ) について学びましょう。倫理的な生活、繁栄、精神的解放を導く人間の人生の 4 つの目標です。",
+            "keywords": [
+                "プルシャルタの意味",
+                "人生の4つの目標",
+                "ダルマ アルタ カーマ モクシャ",
+                "プルシャルタの哲学",
+                "ヒンドゥー教の哲学プルシャルタ",
+                "『バガヴァッド・ギーター』のプルシャルタ",
+                "プルシャルタのコンセプト",
+                "サナタナ ダルマの哲学",
+                "プルシャルタの精神的な目標",
+                "プルシャルタ ヒンドゥー教"
+            ],
+            "robots": "インデックス、フォロー",
+            "url": "https://sanatanadharmam.in/philosophy/purushartha"
         },
-        {
-          "@type": "Article",
-          "headline": "Purusharthas – The Four Goals of Human Life",
-          "about": [
-            "Purusharthas",
-            "Dharma",
-            "Artha",
-            "Kama",
-            "Moksha",
-            "Sanatana Dharma philosophy"
-          ],
-          "isPartOf": {
-            "@type": "WebSite",
-            "name": "Sanatanadharmam",
-            "url": "https://sanatanadharmam.in"
-          },
-          "url": "https://sanatanadharmam.in/philosophy/purushartha"
-        }
-      ]
-    },
-    "core_principles": [
-      "Balance between material and spiritual pursuits",
-      "Ethical framework for achieving goals",
-      "Progressive evolution from desire to liberation"
-    ],
-    "definition": "Purusharthas are the four fundamental goals of human life in Hindu philosophy, guiding individuals toward a balanced and meaningful existence.",
-    "four_goals": {
-      "artha": "Material prosperity, wealth, and resources for sustenance.",
-      "dharma": "Righteousness, moral duties, and ethical living.",
-      "kama": "Desires, pleasures, and emotional fulfillment.",
-      "moksha": "Liberation from the cycle of birth and death; spiritual freedom."
-    },
-    "key_scriptural_references": [
-      {
-        "quote_summary": "Perform duties without attachment to results for spiritual progress.",
-        "text": "Bhagavathgita"
-      },
-      {
-        "quote_summary": "Defines the role of Dharma in guiding Artha and Kama.",
-        "text": "Manusmriti"
-      }
-    ],
-    "modern_relevance": {
-      "personal_development": "Encourages holistic growth—ethical, material, emotional, and spiritual.",
-      "society": "Promotes harmony through balanced living.",
-      "well-being": "Integrates duty, wealth, pleasure, and liberation for a fulfilling life."
-    },
-    "origin": {
-      "meaning": "Derived from Sanskrit 'Purusha' (human being) and 'Artha' (purpose or goal).",
-      "roots": "Vedic and Dharmashastra teachings",
-      "texts": [
-        "Vedas",
-        "Upanishads",
-        "Manusmriti",
-        "Bhagavathgita"
-      ]
-    },
-    "relation_to_other_concepts": {
-      "dharma": "Acts as a guiding principle for Artha and Kama.",
-      "karma": "Actions in pursuit of these goals create karmic consequences.",
-      "moksha": "The ultimate goal beyond worldly pursuits."
-    },
-    "purushartha_qa": [
-      {
-        "question": "What are the Purusharthas?",
-        "answer": "The Purusharthas are the four fundamental aims of human life in Hindu philosophy: Dharma (righteousness), Artha (prosperity), Kama (desire), and Moksha (liberation). They provide a holistic framework for a balanced and meaningful life."
-      },
-      {
-        "question": "How do the Purusharthas relate to each other?",
-        "answer": "Dharma guides the pursuit of Artha and Kama, ensuring that wealth and desires are sought ethically. Moksha is the ultimate goal, transcending the other three. All four are interdependent and must be balanced for true fulfillment."
-      },
-      {
-        "question": "Is one Purushartha more important than the others?",
-        "answer": "While all are important, Moksha is considered the highest goal. However, neglecting Dharma, Artha, or Kama can lead to imbalance. The ideal is to harmonize all four according to one’s stage of life and personal nature."
-      },
-      {
-        "question": "How are the Purusharthas relevant today?",
-        "answer": "They offer timeless guidance for ethical living, responsible wealth creation, healthy relationships, and spiritual growth. In modern life, they help individuals find purpose, balance, and inner peace."
-      },
-      {
-        "question": "What scriptures discuss the Purusharthas?",
-        "answer": "The Vedas, Upanishads, Manusmriti, and Bhagavad Gita all discuss the Purusharthas, providing philosophical and practical insights."
-      },
-      {
-        "question": "Can the Purusharthas conflict with each other?",
-        "answer": "Yes, sometimes desires (Kama) or pursuit of wealth (Artha) may conflict with Dharma. In such cases, Dharma should take precedence, as it upholds ethical and social order."
-      },
-      {
-        "question": "How do the Purusharthas support spiritual progress?",
-        "answer": "By fulfilling worldly duties and desires ethically, the mind becomes purified and prepared for the pursuit of Moksha, the ultimate liberation."
-      },
-      {
-        "question": "Are the Purusharthas unique to Hinduism?",
-        "answer": "While the framework is most developed in Hindu philosophy, similar ideas about balancing duty, wealth, desire, and spiritual freedom are found in other world traditions."
-      }
-    ]
-  }
+        "openGraph": {
+            "title": "プルシャルタス – サナタナ ダルマにおける人生の 4 つの目標",
+            "description": "サナタナ ダルマ哲学における人生の 4 つの指針となる目標であるプルシャルタ (ダルマ、アルタ、カーマ、モクシャ) を探求します。",
+            "url": "https://sanatanadharmam.in/philosophy/purushartha",
+            "siteName": "サナタナダルマム",
+            "type": "記事",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/purusharthas-philosophy.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Purusharthas Philosophy"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "定義された用語",
+                    "name": "プルシャルタス",
+                    "description": "プルシャルタとは、サナタナ ダルマにおける人間の人生の 4 つの目標、つまりダルマ、アルタ、カーマ、モクシャです。",
+                    "url": "https://sanatanadharmam.in/philosophy/purushartha",
+                    "inDefinedTermSet": {
+                        "@type": "定義された用語セット",
+                        "name": "サナタナ ダルマの哲学"
+                    }
+                },
+                {
+                    "@type": "記事",
+                    "headline": "プルシャルタス – 人間の人生の 4 つの目標",
+                    "about": [
+                        "プルシャルタス",
+                        "ダルマ",
+                        "アーサ",
+                        "カマ",
+                        "モクシャ",
+                        "サナタナ ダルマの哲学"
+                    ],
+                    "isPartOf": {
+                        "@type": "Webサイト",
+                        "name": "サナタナダルマム",
+                        "url": "https://sanatanadharmam.in"
+                    },
+                    "url": "https://sanatanadharmam.in/philosophy/purushartha"
+                }
+            ]
+        },
+        "core_principles": [
+            "物質的な追求と精神的な追求の間のバランス",
+            "目標を達成するための倫理的枠組み",
+            "欲望から解放への漸進的な進化"
+        ],
+        "definition": "プルシャルタはヒンズー教哲学における人間の人生の 4 つの基本的な目標であり、個人をバランスのとれた意味のある存在へと導きます。",
+        "four_goals": {
+            "artha": "物質的な繁栄、富、そして生活を支えるための資源。",
+            "dharma": "義、道徳的義務、倫理的な生活。",
+            "kama": "欲望、喜び、そして感情的な充足。",
+            "moksha": "誕生と死のサイクルからの解放。精神的な自由。"
+        },
+        "key_scriptural_references": [
+            {
+                "quote_summary": "霊的な進歩のために、結果に執着せず義務を果たしましょう。",
+                "text": "バガヴァトギーター"
+            },
+            {
+                "quote_summary": "アルタとカーマを導く上でのダルマの役割を定義します。",
+                "text": "マヌスムリティ"
+            }
+        ],
+        "modern_relevance": {
+            "personal_development": "倫理的、物質的、感情的、精神的な総合的な成長を促します。",
+            "society": "バランスの取れた生活を通じて調和を促進します。",
+            "well-being": "義務、富、喜び、解放を統合して充実した人生を実現します。"
+        },
+        "origin": {
+            "meaning": "サンスクリット語の「プルシャ」（人間）と「アルタ」（目的または目標）に由来します。",
+            "roots": "ヴェーダとダルマシャーストラの教え",
+            "texts": [
+                "ヴェーダ",
+                "ウパニシャッド",
+                "マヌスムリティ",
+                "バガヴァトギーター"
+            ]
+        },
+        "relation_to_other_concepts": {
+            "dharma": "アルサとカーマの指針として機能します。",
+            "karma": "これらの目標を追求する行動はカルマ的な結果を生み出します。",
+            "moksha": "世俗的な追求を超えた究極の目標。"
+        },
+        "purushartha_qa": [
+            {
+                "question": "プルシャルタとは何ですか?",
+                "answer": "プルシャルタとは、ヒンドゥー教哲学における人間の人生の 4 つの基本的な目的です。ダルマ (正義)、アルタ (繁栄)、カーマ (欲望)、およびモクシャ (解放) です。これらは、バランスの取れた有意義な生活のための総合的な枠組みを提供します。"
+            },
+            {
+                "question": "プルシャルタはお互いにどのような関係がありますか?",
+                "answer": "ダルマはアルタとカーマの追求を導き、富と欲望が倫理的に追求されるようにします。モクシャは他の 3 つを超越した究極の目標です。 4 つはすべて相互に依存しており、真の満足感を得るにはバランスが取れている必要があります。"
+            },
+            {
+                "question": "1 つのプルシャルタが他のプルシャルタよりも重要ですか?",
+                "answer": "すべてが重要ですが、モクシャは最高の目標とみなされます。しかし、ダルマ、アルタ、カーマを無視すると、バランスが崩れる可能性があります。人生のステージや性格に応じて、この4つがすべて調和することが理想です。"
+            },
+            {
+                "question": "プルシャルタは今日どのように関連していますか?",
+                "answer": "これらは、倫理的な生活、責任ある富の創造、健全な人間関係、精神的な成長のための時代を超えた指針を提供します。現代の生活では、それらは個人が目的、バランス、心の平安を見つけるのに役立ちます。"
+            },
+            {
+                "question": "プルシャルタについて論じている経典は何ですか?",
+                "answer": "ヴェーダ、ウパニシャッド、マヌスムリティ、バガヴァッド ギーターはすべてプルシャルタについて論じており、哲学的かつ実践的な洞察を提供しています。"
+            },
+            {
+                "question": "プルシャルタは互いに対立する可能性がありますか?",
+                "answer": "そうです、時には欲望（カーマ）や富の追求（アルタ）がダルマと衝突することがあります。このような場合、倫理的および社会的秩序を守るダルマが優先されるべきです。"
+            },
+            {
+                "question": "プルシャルタは霊的な進歩をどのようにサポートしていますか?",
+                "answer": "世俗的な義務と欲望を倫理的に満たすことによって、心は浄化され、究極の解放であるモクシャを追求する準備が整います。"
+            },
+            {
+                "question": "プルシャルタはヒンドゥー教に特有のものですか?",
+                "answer": "この枠組みはヒンズー教の哲学で最も発展していますが、義務、富、欲望、精神的自由のバランスに関する同様の考え方は他の世界の伝統にも見られます。"
+            }
+        ]
+    }
 }

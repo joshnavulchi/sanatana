@@ -1,208 +1,208 @@
 {
-  "about": {
-    "title": "About Sanatana Dharma – History, Philosophy and Spiritual Wisdom",
-    "description": "Learn about Sanatana Dharma, the eternal spiritual tradition of Hindu philosophy. Explore its history, principles, scriptures and timeless teachings.",
-    "meta": {
-      "title": "About Sanatana Dharma – History, Philosophy and Spiritual Wisdom",
-      "canonical": "https://sanatanadharmam.in/about",
-      "description": "Learn about Sanatana Dharma, the eternal spiritual tradition of Hindu philosophy. Explore its history, principles, scriptures and timeless teachings.",
-      "keywords": [
-        "Sanatana Dharma",
-        "Sanatana Dharma meaning",
-        "Hindu philosophy",
-        "Sanatana Dharma history",
-        "Vedic traditions",
-        "Hindu scriptures",
-        "Dharma karma moksha",
-        "Sanatana Dharma teachings",
-        "Hindu spiritual philosophy",
-        "Sanatana Dharma principles"
-      ],
-      "url": "https://sanatanadharmam.in/about"
-    },
-    "openGraph": {
-      "title": "About Sanatana Dharma – Eternal Spiritual Tradition",
-      "description": "Discover the meaning, philosophy and principles of Sanatana Dharma including Vedic teachings, scriptures and spiritual practices.",
-      "url": "https://sanatanadharmam.in/about",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/about.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "About Sanatana Dharma"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "AboutPage",
-          "name": "About Sanatanadharmam",
-          "url": "https://sanatanadharmam.in/about",
-          "description": "Information about Sanatana Dharma including its philosophy, scriptures and spiritual traditions.",
-          "isPartOf": {
-            "@type": "WebSite",
-            "name": "Sanatanadharmam",
-            "url": "https://sanatanadharmam.in"
-          }
-        },
-        {
-          "@type": "Organization",
-          "name": "Sanatanadharmam",
-          "url": "https://sanatanadharmam.in",
-          "logo": "https://sanatanadharmam.in/images/logo.png",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "contactType": "customer support",
-            "areaServed": "Worldwide",
-            "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Arabic",
-              "German",
-              "Spanish",
-              "French",
-              "Japanese",
-              "Nepali",
-              "Dutch",
-              "Portuguese",
-              "Russian",
-              "Urdu",
-              "Chinese"
+    "about": {
+        "title": "Über Sanatana Dharma – Geschichte, Philosophie und spirituelle Weisheit",
+        "description": "Erfahren Sie mehr über Sanatana Dharma, die ewige spirituelle Tradition der hinduistischen Philosophie. Entdecken Sie seine Geschichte, Prinzipien, Schriften und zeitlosen Lehren.",
+        "meta": {
+            "title": "Über Sanatana Dharma – Geschichte, Philosophie und spirituelle Weisheit",
+            "canonical": "https://sanatanadharmam.in/about",
+            "description": "Erfahren Sie mehr über Sanatana Dharma, die ewige spirituelle Tradition der hinduistischen Philosophie. Entdecken Sie seine Geschichte, Prinzipien, Schriften und zeitlosen Lehren.",
+            "keywords": [
+                "Sanatana Dharma",
+                "Sanatana Dharma Bedeutung",
+                "Hinduistische Philosophie",
+                "Geschichte des Sanatana Dharma",
+                "Vedische Traditionen",
+                "Hindu scriptures",
+                "Dharma Karma Moksha",
+                "Sanatana Dharma-Lehren",
+                "Hinduistische spirituelle Philosophie",
+                "Prinzipien des Sanatana Dharma"
             ],
-            "email": "info@sanatanadharmam.in",
-            "telephone": "+91-8099181075"
-          }
+            "url": "https://sanatanadharmam.in/about"
+        },
+        "openGraph": {
+            "title": "Über Sanatana Dharma – Ewige spirituelle Tradition",
+            "description": "Entdecken Sie die Bedeutung, Philosophie und Prinzipien des Sanatana Dharma, einschließlich vedischer Lehren, Schriften und spiritueller Praktiken.",
+            "url": "https://sanatanadharmam.in/about",
+            "siteName": "Sanatanadharam",
+            "type": "Artikel",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/about.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "About Sanatana Dharma"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "AboutPage",
+                    "name": "Über Sanatanadharam",
+                    "url": "https://sanatanadharmam.in/about",
+                    "description": "Informationen über Sanatana Dharma, einschließlich seiner Philosophie, Schriften und spirituellen Traditionen.",
+                    "isPartOf": {
+                        "@type": "Webseite",
+                        "name": "Sanatanadharam",
+                        "url": "https://sanatanadharmam.in"
+                    }
+                },
+                {
+                    "@type": "Organisation",
+                    "name": "Sanatanadharam",
+                    "url": "https://sanatanadharmam.in",
+                    "logo": "https://sanatanadharmam.in/images/logo.png",
+                    "contactPoint": {
+                        "@type": "Kontaktpunkt",
+                        "contactType": "Kundenbetreuung",
+                        "areaServed": "Weltweit",
+                        "availableLanguage": [
+                            "Englisch",
+                            "Hindi",
+                            "Telugu",
+                            "Arabisch",
+                            "Deutsch",
+                            "Spanisch",
+                            "Französisch",
+                            "japanisch",
+                            "Nepali",
+                            "Niederländisch",
+                            "Portugiesisch",
+                            "Russisch",
+                            "Urdu",
+                            "chinesisch"
+                        ],
+                        "email": "info@sanatanadharmam.in",
+                        "telephone": "+91-8099181075"
+                    }
+                }
+            ]
+        },
+        "commitment": [
+            "Kontinuierliche Verbesserung von Genauigkeit und Klarheit",
+            "Um die Bibliothek mit weiteren Schriften, Kommentaren und Andachtsmaterial zu aktualisieren",
+            "Die Heiligkeit und Vielfalt des traditionellen Wissens respektieren",
+            "Um wichtige Inhalte frei und allgemein zugänglich zu halten",
+            "Quellen eindeutig zitieren und wissenschaftliche Überprüfung fördern"
+        ],
+        "definationoflife": {
+            "artha": "Artha",
+            "as_individu": "Wie das Individuum ist es auch das Universum",
+            "atman_true": "Der Atman, Ihr wahres Selbst, ist ewig und göttlich.",
+            "brahmach": "Brahmacharya",
+            "desires": "(Wünsche) und",
+            "dharma": "Dharma",
+            "essence_life": "Die Essenz des Lebens",
+            "eternal_soul": "आत्मा – Die ewige Seele",
+            "eternal_truth": "ewige Wahrheit",
+            "every_action": "Jede Handlung erzeugt Karma und prägt unser Schicksal.",
+            "four_stages": "आश्रम – Die vier Phasen des Lebens",
+            "grihasth": "Grihastha",
+            "have_right": "– Du hast das Recht, deine Pflicht zu erfüllen, aber die Früchte gehören dem Göttlichen.",
+            "househol_family": "Haushälter – Familie & Pflicht",
+            "illusion_truth": "माया – Illusion & Wahrheit",
+            "kama": "Kama",
+            "know_thyself": "Erkenne dich selbst",
+            "law_action": "कर्म – Gesetz des Handelns",
+            "liberati": "(Befreiung).",
+            "life_divine": "Das Leben ist die göttliche Gelegenheit, deine wahre Natur zu erkennen – nicht dieser vorübergehende Körper,\n                  aber das unsterbliche Bewusstsein, das alles miterlebt, unberührt von Geburt oder Tod,\n                  Freude oder Schmerz. Diese Erkenntnis ist das höchste Ziel der menschlichen Existenz.",
+            "life_play": "Das Leben ist ein Spiel der Maya, der kosmischen Illusion. Wahre Weisheit liegt darin, über den Schein hinauszuschauen, um das zu erkennen",
+            "life_s": "पुरुषार्थ – Der Sinn des Lebens",
+            "life_sacred": "Das Leben ist eine heilige Reise zu den vier Purusharthas:",
+            "moksha": "Moksha",
+            "never_born": "– Es wird nie geboren und stirbt auch nicht. Das Leben ist die Reise der Seele, um ihre Einheit mit Brahman zu erkennen.",
+            "pervades_all": "das alles Dasein durchdringt.",
+            "prosperi": "(Wohlstand),",
+            "renuncia_complete": "Verzicht – Vollständige Befreiung",
+            "retireme_detachme": "Ruhestand – Losgelöstheit und Reflexion",
+            "righteou": "(Gerechtigkeit),",
+            "sannyasa": "Sannyasa",
+            "student_life": "Studentenleben – Lernen und Disziplin",
+            "vanapras": "Vanaprastha"
+        },
+        "introduction": "Sanatanadharmam.in ist eine engagierte digitale Initiative, die gegründet wurde, um das spirituelle, kulturelle und praktische Wissen zu sammeln, zu bewahren, zu erklären und zu teilen, das durch Sanātana Dharma über Jahrtausende weitergegeben wurde. Unser Ziel ist es, diese lebendige Tradition für Suchende, Studenten, Praktiker und neugierige Leser aller Hintergründe zugänglich zu machen, indem wir authentische Texte, Andachtshymnen, rituelle Abläufe, philosophische Essays und hilfreiche kontextbezogene Kommentare in klaren, nutzbaren Formaten präsentieren.\n\nWir sind uns bewusst, dass Sanātana Dharma kein einzelnes monolithisches System ist, sondern ein riesiger, sich entwickelnder Gedanken- und Praxiskomplex, der viele Sprachen, Abstammungslinien und regionale Ausdrucksformen umfasst. Diese Seite versucht, diese Vielfalt zu würdigen und gleichzeitig einen kohärenten Einstiegspunkt für diejenigen zu bieten, die neu in der Tradition sind. Wir konzentrieren uns auf Authentizität, Klarheit und Benutzerfreundlichkeit: Bereitstellung präziser Transliteration und sauberer Texte für den Gesang, zuverlässiger Übersetzungen, die Nuancen bewahren, und Erklärungen in einfacher Sprache, die die historische, kulturelle und spirituelle Bedeutung des Materials beleuchten.\n\nZu unseren Prioritäten gehört das Sammeln von Quellenmaterial aus vertrauenswürdigen Ausgaben, die Präsentation von Stotras und Mantras mit korrekten diakritischen Zeichen und Transliterationen für Lernende, das Anbieten von Schritt-für-Schritt-Puja-Vidhi-Anleitungen für gängige Rituale und Feste im Haushalt sowie die Erstellung verständlicher Zusammenfassungen wichtiger philosophischer Lehren, damit die Leser praktische Implikationen und nicht nur akademische Beschreibungen verstehen können. Wo immer möglich, beziehen wir Verweise auf Originalquellen ein, schlagen weiterführende Lektüre vor und weisen auf abweichende Lesarten oder regionale Unterschiede hin, um den Lesern das Verständnis von Kontext und Herkunft zu erleichtern.\n\nÜber das Angebot von Texten hinaus möchten wir, dass die Seite ein praktischer Begleiter für das tägliche spirituelle Leben ist. Zu diesem Zweck kuratieren wir Sammlungen täglicher Gebete, Morgen- und Abendroutinen, kurze Stotras, die für die tägliche Rezitation geeignet sind, und prägnante Leitfäden für gemeinsame Bräuche. Wir veröffentlichen auch erklärende Artikel, die Rituale und Schriften in ihren breiteren kulturellen und ethischen Rahmen einordnen und den Lesern dabei helfen, Praxis und Bedeutung miteinander zu verbinden. Die Website ist bewusst nicht-sektiererisch und zielt darauf ab, einen respektvollen Raum zu schaffen, in dem Traditionen mit gemeinsamen Wurzeln Seite an Seite präsentiert werden können und gleichzeitig auf ihre Unterschiede geachtet wird.\n\nBarrierefreiheit ist uns wichtig. Wir veröffentlichen Inhalte in mehreren indischen und internationalen Sprachen, um ein breites Publikum zu erreichen und diejenigen zu unterstützen, deren Hauptsprache nicht Englisch ist. Texte umfassen, soweit möglich, Transliteration und Audio, damit die Lernenden die korrekte Aussprache und den richtigen Rhythmus üben können. Wir sind bestrebt, den Inhalt sowohl für Anfänger als auch für Fortgeschrittene navigierbar, durchsuchbar und benutzerfreundlich zu gestalten, indem wir mehrschichtige Erklärungen anbieten: kurze Zusammenfassungen zum schnellen Lesen, gefolgt von detaillierteren Notizen und Referenzen für diejenigen, die tiefer in die Materie einsteigen möchten.\n\nWir glauben, dass die verantwortungsvolle Bewahrung und Weitergabe des Sanātana Dharma eine Mischung aus Hingabe, wissenschaftlicher Sorgfalt und modernen Veröffentlichungspraktiken erfordert. Alle Materialien werden mit Respekt vor traditionellen Formen und mit Blick auf Klarheit zusammengestellt, damit sie im zeitgenössischen Leben gelesen, gesungen und praktiziert werden können.",
+        "disclaimer": "Wir erheben nicht den Anspruch, traditionelle Autoritäten oder eine erschöpfende wissenschaftliche Presse zu sein. Diese Website wird mit Hingabe, Sorgfalt und der Verpflichtung zur Genauigkeit gepflegt. Für kanonische oder liturgische Entscheidungen sollten die Leser etablierte Ausgaben oder anerkannte Lehrer konsultieren. Wir empfehlen bei Bedarf die Gegenüberprüfung wichtiger Texte mit maßgeblichen Quellen.",
+        "faq": {
+            "heading": "Häufig gestellte Fragen",
+            "items": [
+                {
+                    "a": "Ziel der Website ist es, Texte, Stotras, Ritualführer und erklärende Artikel zum Sanātana Dharma in zugänglichen Formaten für Lernende, Praktiker und Forscher zu sammeln, zu bewahren und zu präsentieren.",
+                    "q": "Was ist der Zweck von Sanatanadharmam.in?"
+                },
+                {
+                    "a": "Wir sind bestrebt, zuverlässige Ausgaben zu verwenden und Quellen zu zitieren. Allerdings sind wir kein formeller wissenschaftlicher Verlag; Leser sollten für kanonische Entscheidungen Primärausgaben und anerkannte Lehrer konsultieren.",
+                    "q": "Sind die Texte auf der Website maßgeblich?"
+                },
+                {
+                    "a": "Ja. Wir freuen uns über Beiträge; Bitte nutzen Sie die Kontaktseite, um Korrekturvorschläge, Übersetzungen oder Quellen zusammen mit Referenzen einzureichen. Beiträge werden vor der Veröffentlichung überprüft.",
+                    "q": "Kann ich Korrekturen oder Übersetzungen beisteuern?"
+                },
+                {
+                    "a": "Wir bieten nach Möglichkeit standardisierte Transliteration und diakritische Zeichen an, um die korrekte Aussprache zu unterstützen, sowie Klartextversionen und Audioaufnahmen, sofern verfügbar.",
+                    "q": "Wie wird mit der Transliteration umgegangen?"
+                }
+            ]
+        },
+        "joinus": {
+            "invite": [
+                "Teilen Sie die Website mit anderen, um das Bewusstsein zu schärfen",
+                "Schlagen Sie über unsere Feedback-Kanäle Verbesserungen oder Korrekturen vor",
+                "Reichen Sie Übersetzungen, Aufnahmen oder Texte zur Überprüfung ein",
+                "Unterstützen Sie das Projekt, indem Sie ehrenamtlich redaktionelle Hilfe oder technische Hilfe leisten"
+            ],
+            "message": "Sanātana Dharma ist eine Lebensweise, die auf Wahrheit, Mitgefühl und Dienst basiert. Wir laden die Leser ein, mit Bescheidenheit und Forschergeist zu lernen, zu üben und einen Beitrag zu leisten."
+        },
+        "longdescription": "This site grew from the recognition that living spiritual traditions require both preservation and renewal. Preservation means careful transcription of texts, responsible citation of sources, and a commitment to accuracy in transliteration and translation. Renewal means presenting those texts in ways that resonate with contemporary life, clarifying how ancient practices relate to modern ethical concerns, family life, community service, and personal development.\n\nWe approach content curation through several complementary practices. Source integrity is central: whenever a text is digitized, we note the edition, provide bibliographic details, and indicate any editorial decisions we have made. For stotras and mantras, we offer guidance on pronunciation and rhythm, and when recordings are available we include short audio clips to assist learners. For ritual instructions, we break down the sequence into clear steps, articulate the meaning behind each action, and note regional or lineage-based variations so readers can adapt practice while understanding why variations exist.\n\nPedagogy matters. Learners often need short, practical introductions before engaging with longer texts. Therefore our articles begin with concise, plain-language overviews, followed by progressively detailed sections that discuss historical background, scriptural references, linguistic notes, and suggested further reading. This layered format allows casual readers to find quick answers and serious students to pursue deeper study.\n\nCommunity contribution is encouraged. While we are not a scholarly press, we welcome input from practitioners, teachers, and scholars who wish to suggest corrections, offer additional sources, or contribute translations and commentary. All contributions are reviewed for fidelity to sources and clarity. We maintain a modest editorial policy intended to balance open collaboration with the responsibilities of curating sacred texts.\n\nEthical considerations shape our approach. Sanātana Dharma teaches values such as dharma, compassion, truthfulness, and selfless service. We aim to reflect those values through respectful presentation, inclusivity, and avoidance of polemics. We do not promote commercial exploitation of sacred materials; most content is freely available on the site, and we explicitly credit sources and contributors. When material is used under specific permissions or licenses, that information is clearly provided.\n\nPractical use cases guide content design. A household practitioner looking for the correct sequence of a common puja should be able to find step-by-step guidance and an explanation of the essential mantras and gestures. A student preparing for a recitation should be able to access a clean text with transliteration and an audio model. A curious reader should be able to find a concise introduction to the Bhagavathgita, with links to primary verses and readable commentary. By focusing on real needs, we make the tradition more accessible while preserving depth.\n\nTechnology is a tool, not a replacement for lived tradition. We use the web to index, search, and present materials; to host audio and transliteration tools; and to enable multilingual navigation. Yet we recognize that direct guidance from a teacher and participation in community practice remain vital. Our content is designed to complement—not replace—personal instruction and community-based learning.\n\nLooking ahead, we plan to expand audio and multimedia resources, to incorporate more regional and language-specific editions, and to build tools that help teachers and students interact with texts (for example, bookmarking, shared notes, and small-group reading guides). We also plan to strengthen citations and bibliographic references so that researchers and teachers can trace the textual lineage of materials found on the site.\n\nWe invite readers to treat the site as a starting point: a careful, compassionate introduction to a living tradition. For those who wish to explore further, we provide pathways into primary sources, classical commentaries, and reputable contemporary expositions. Whether your interest is devotional, scholarly, cultural, or practical, Sanatanadharmam.in aims to offer resources that are accurate, accessible, and useful.\n\nIf you find errors, omissions, or ways to improve presentation, please share them. Contributions that improve accuracy, add missing source citations, supply high-quality translations, or provide helpful audio recordings are especially welcome. We hope this work supports individual practice, communal life, and the intergenerational transmission of knowledge in ways that are respectful, open-hearted, and responsible.\n\nIn sum, Sanatanadharmam.in seeks to safeguard a broad spectrum of knowledge from Sanātana Dharma, to present it with integrity and care, and to make it a living, usable resource for anyone seeking to learn, practice, or simply understand. We are guided by the conviction that ancient wisdom, when presented honestly and thoughtfully, can help individuals and communities cultivate insight, compassion, and a deeper sense of meaning.",
+        "sections": [
+            {
+                "title": "Wer wir sind",
+                "text": "Sanātana Dharmam ist eine spezielle Online-Plattform, die von spirituellen Suchenden geschaffen wurde, die sich leidenschaftlich dafür einsetzen, die universellen Werte zu teilen, die in den ältesten spirituellen Traditionen des indischen Subkontinents verankert sind. Obwohl unsere Arbeit auf heiligen Schriften wie den Veden und Upaniṣaden basiert, erheben wir nicht den Anspruch, spirituelle Autoritäten zu sein – wir sind Mitreisende, die einen sorgfältig kuratierten Überblick über diese tiefgreifende Lebensweise bieten."
+            },
+            {
+                "title": "Unsere Mission",
+                "bullets": [
+                    "Erziehen und stärken – Präsentieren Sie Erkenntnisse aus vedischen Texten und klassischen Kommentaren, um Sanātana Dharma zugänglich und nachvollziehbar zu machen.",
+                    "Authentizität bewahren – Betonen Sie die Genauigkeit und den Respekt vor den ursprünglichen Sanskrit-Quellen.",
+                    "Inspirieren Sie Harmonie – Entdecken Sie tiefere spirituelle Wahrheiten, integrative Rituale und eine ethische Lebensweise, um Einheit in Vielfalt zu fördern."
+                ]
+            },
+            {
+                "title": "Was wir abdecken",
+                "bullets": [
+                    "Grundprinzipien wie Svadharma und Sanātana-Dharma",
+                    "Sechs große philosophische Systeme: Nyāya, Vaiśeṣika, Vedānta, Samkhya, Yoga und Mīmāṃsā",
+                    "Praktische Anleitung zu Yoga, Meditation und Übungen für den feinstofflichen Körper",
+                    "Rituale, Heiratsbräuche, Vegetarismus, Bhakti und interreligiöse Verständigung"
+                ]
+            },
+            {
+                "title": "Warum es heute wichtig ist",
+                "text": "Sanātana Dharma ist nicht nur eine Religion – es ist eine sich entwickelnde, lebendige Philosophie, die über Jahrtausende hinweg kulturelle, ethische und spirituelle Rahmenbedingungen geprägt hat. Der Begriff selbst bedeutet „ewiger Weg“ oder „ewiges Gesetz“ und spiegelt dauerhafte Weisheit wider, die über Zeit, Ort oder Dogma hinausgeht. In einer Zeit des schnellen Wandels bietet die Rückbesinnung auf diese Grundwerte – Wahrheit, Gewaltlosigkeit, Mitgefühl, Selbstverwirklichung – ganzheitliche Orientierung für Einzelpersonen und Gesellschaften gleichermaßen."
+            }
+        ],
+        "vision": {
+            "description": "Als zuverlässiges, gut kuratiertes digitales Archiv dienen, das die wesentlichen Lehren, Andachtsliteratur, rituelles Wissen und praktische Anleitung des Sanātana Dharma bewahrt und sie gleichzeitig für gegenwärtige und zukünftige Generationen zugänglich, verständlich und nutzbar macht.",
+            "focusareas": [
+                "Mehrsprachige Inhalte, die Sanskrit, regionale indische Sprachen und Englisch umfassen",
+                "Andachtsstotras, Mantras und tägliche Gebete mit Transliteration und Audiounterstützung",
+                "Detaillierte Puja-Vidhis, Festivalführer und Anweisungen für Haushaltsrituale",
+                "Klare Darlegungen philosophischer Konzepte aus den Upanishaden, Bhagavathgita, Puranas und klassischen Kommentaren",
+                "Kontextuelle Essays, die die Heilige Schrift mit der gelebten Praxis und dem ethischen Leben verbinden",
+                "Durchsuchbare, gut katalogisierte Archive mit Zitaten zu maßgeblichen Ausgaben"
+            ],
+            "goal": "Aufbau einer dauerhaften digitalen Bibliothek, die sowohl wertvolle Texte bewahrt als auch praktische Wege für Studium und Praxis bietet und Lernende, Praktiker und Wissenschaftler über Generationen hinweg unterstützt."
+        },
+        "whywecreated": {
+            "problemsaddressed": [
+                "Schwer zu findende, inkonsistente oder schlecht digitalisierte Versionen wichtiger Texte",
+                "Fragmentierung von Ressourcen über mehrere Websites und Formate hinweg",
+                "Mangel an zugänglichen Übersetzungen und Transliterationen für Lernende",
+                "Unzureichende kontextbezogene Anleitung zur Anwendung ritueller und philosophischer Lehren im täglichen Leben",
+                "Hindernisse für Laien, sich ohne vorherige Ausbildung der Heiligen Schrift zu nähern"
+            ],
+            "purpose": "Wir haben Sanatanadharmam.in erstellt, um vertrauenswürdige Materialien zu zentralisieren und vielschichtige Erklärungen bereitzustellen, die den Lesern helfen, von der Neugier zur sinnvollen Praxis überzugehen. Durch die Kombination sauberer digitaler Ausgaben, sorgfältiger Übersetzungen, Transliterationshilfen, praktischer Ritualführer und einfühlsamer Interpretation hoffen wir, die Eintrittsbarriere zu senken und gleichzeitig die Tiefe und Vielfalt der Tradition zu respektieren."
         }
-      ]
-    },
-    "commitment": [
-      "To continually improve accuracy and clarity",
-      "To update the library with more scriptures, commentaries, and devotional material",
-      "To respect the sanctity and diversity of traditional knowledge",
-      "To keep essential content free and widely accessible",
-      "To clearly cite sources and encourage scholarly verification"
-    ],
-    "definationoflife": {
-      "artha": "Artha",
-      "as_individu": "As is the individual, so is the universe",
-      "atman_true": "The Atman, your true self, is eternal and divine.",
-      "brahmach": "Brahmacharya",
-      "desires": "(desires), and",
-      "dharma": "Dharma",
-      "essence_life": "The Essence of Life",
-      "eternal_soul": "आत्मा - The Eternal Soul",
-      "eternal_truth": "eternal truth",
-      "every_action": "Every action creates karma, shaping our destiny.",
-      "four_stages": "आश्रम - The Four Stages of Life",
-      "grihasth": "Grihastha",
-      "have_right": "— You have the right to perform your duty, but the fruits belong to the divine.",
-      "househol_family": "Householder - Family & Duty",
-      "illusion_truth": "माया - Illusion & Truth",
-      "kama": "Kama",
-      "know_thyself": "Know Thyself",
-      "law_action": "कर्म - Law of Action",
-      "liberati": "(liberation).",
-      "life_divine": "Life is the divine opportunity to realize your true nature—not this temporary body,\n                  but the immortal consciousness that witnesses all, untouched by birth or death,\n                  pleasure or pain. This realization is the highest goal of human existence.",
-      "life_play": "Life is a play of Maya, the cosmic illusion. True wisdom lies in seeing beyond appearances to recognize the",
-      "life_s": "पुरुषार्थ - Life`'`s Purpose",
-      "life_sacred": "Life is a sacred journey toward the four Purusharthas:",
-      "moksha": "Moksha",
-      "never_born": "— It is never born, nor does it die. Life is the soul`'`s journey to realize its oneness with Brahman.",
-      "pervades_all": "that pervades all existence.",
-      "prosperi": "(prosperity),",
-      "renuncia_complete": "Renunciation - Complete Liberation",
-      "retireme_detachme": "Retirement - Detachment & Reflection",
-      "righteou": "(righteousness),",
-      "sannyasa": "Sannyasa",
-      "student_life": "Student Life - Learning & Discipline",
-      "vanapras": "Vanaprastha"
-    },
-    "introduction": "Sanatanadharmam.in is a dedicated digital initiative created to collect, preserve, explain, and share the spiritual, cultural, and practical knowledge that has been transmitted through Sanātana Dharma over millennia. Our aim is to make this living tradition approachable to seekers, students, practitioners, and curious readers from all backgrounds by presenting authentic texts, devotional hymns, ritual procedures, philosophical essays, and helpful contextual commentary in clear, usable formats.\n\nWe recognize that Sanātana Dharma is not a single monolithic system but a vast, evolving body of thought and practice spanning many languages, lineages, and regional expressions. This site tries to honour that diversity while also offering a coherent entry point for those who are new to the tradition. We focus on authenticity, clarity, and usability: providing accurate transliteration and clean text for chanting, reliable translations that preserve nuance, and plain-language explanations that illuminate the historical, cultural, and spiritual significance of the material.\n\nOur priorities include collecting source materials from trusted editions, presenting stotras and mantras with correct diacritics and transliteration for learners, offering step-by-step puja vidhi guides for common household rituals and festivals, and creating accessible summaries of key philosophical teachings so readers can grasp practical implications rather than just academic descriptions. Wherever possible we include references to original sources, suggest further reading, and indicate variant readings or regional differences to help readers understand context and provenance.\n\nBeyond offering texts, we want the site to be a practical companion for daily spiritual life. To that end we curate collections of daily prayers, morning and evening routines, short stotras suitable for daily recitation, and concise guides for common observances. We also publish explanatory articles that place rituals and scriptures within their broader cultural and ethical frameworks, helping readers connect practice and meaning. The site is intentionally non-sectarian and aims to create a respectful space where traditions that share common roots can be presented side by side with sensitivity to their differences.\n\nAccessibility is important to us. We publish content in multiple Indian and international languages to reach a broad audience and to support those whose primary language is not English. Texts include transliteration and audio where feasible, so that learners can practice correct pronunciation and rhythm. We strive to make content navigable, searchable, and friendly for both beginners and advanced readers by offering layered explanations: short summaries for quick reading, followed by more detailed notes and references for those who wish to study more deeply.\n\nWe believe that preserving and sharing Sanātana Dharma responsibly requires a blend of devotion, scholarly care, and modern publishing practices. All materials are collated with respect for traditional forms and with an eye toward clarity, so they can be read, chanted, and practiced in contemporary life.",
-    "disclaimer": "We do not claim to be traditional authorities or an exhaustive scholarly press. This website is maintained with devotion, care, and a commitment to accuracy. Readers should consult established editions or recognized teachers for canonical or liturgical decisions. We encourage cross-verification of important texts with authoritative sources when required.",
-    "faq": {
-      "heading": "Frequently asked questions",
-      "items": [
-        {
-          "a": "The site aims to collect, preserve, and present texts, stotras, ritual guides, and explanatory articles related to Sanātana Dharma in accessible formats for learners, practitioners, and researchers.",
-          "q": "What is the purpose of Sanatanadharmam.in?"
-        },
-        {
-          "a": "We strive to use reliable editions and cite sources. However, we are not a formal scholarly press; readers should consult primary editions and recognized teachers for canonical decisions.",
-          "q": "Are the texts on the site authoritative?"
-        },
-        {
-          "a": "Yes. We welcome contributions; please use the contact page to submit suggested corrections, translations, or sources along with references. Contributions are reviewed before publication.",
-          "q": "Can I contribute corrections or translations?"
-        },
-        {
-          "a": "We provide standardized transliteration and diacritics where possible to aid correct pronunciation, alongside plain-text versions and audio recordings when available.",
-          "q": "How is transliteration handled?"
-        }
-      ]
-    },
-    "joinus": {
-      "invite": [
-        "Share the website with others to spread awareness",
-        "Suggest improvements or corrections through our feedback channels",
-        "Contribute translations, recordings, or texts for review",
-        "Support the project by volunteering editorial help or technical assistance"
-      ],
-      "message": "Sanātana Dharma is a way of life rooted in truth, compassion, and service. We invite readers to learn, practice, and contribute with humility and a spirit of inquiry."
-    },
-    "longdescription": "This site grew from the recognition that living spiritual traditions require both preservation and renewal. Preservation means careful transcription of texts, responsible citation of sources, and a commitment to accuracy in transliteration and translation. Renewal means presenting those texts in ways that resonate with contemporary life, clarifying how ancient practices relate to modern ethical concerns, family life, community service, and personal development.\n\nWe approach content curation through several complementary practices. Source integrity is central: whenever a text is digitized, we note the edition, provide bibliographic details, and indicate any editorial decisions we have made. For stotras and mantras, we offer guidance on pronunciation and rhythm, and when recordings are available we include short audio clips to assist learners. For ritual instructions, we break down the sequence into clear steps, articulate the meaning behind each action, and note regional or lineage-based variations so readers can adapt practice while understanding why variations exist.\n\nPedagogy matters. Learners often need short, practical introductions before engaging with longer texts. Therefore our articles begin with concise, plain-language overviews, followed by progressively detailed sections that discuss historical background, scriptural references, linguistic notes, and suggested further reading. This layered format allows casual readers to find quick answers and serious students to pursue deeper study.\n\nCommunity contribution is encouraged. While we are not a scholarly press, we welcome input from practitioners, teachers, and scholars who wish to suggest corrections, offer additional sources, or contribute translations and commentary. All contributions are reviewed for fidelity to sources and clarity. We maintain a modest editorial policy intended to balance open collaboration with the responsibilities of curating sacred texts.\n\nEthical considerations shape our approach. Sanātana Dharma teaches values such as dharma, compassion, truthfulness, and selfless service. We aim to reflect those values through respectful presentation, inclusivity, and avoidance of polemics. We do not promote commercial exploitation of sacred materials; most content is freely available on the site, and we explicitly credit sources and contributors. When material is used under specific permissions or licenses, that information is clearly provided.\n\nPractical use cases guide content design. A household practitioner looking for the correct sequence of a common puja should be able to find step-by-step guidance and an explanation of the essential mantras and gestures. A student preparing for a recitation should be able to access a clean text with transliteration and an audio model. A curious reader should be able to find a concise introduction to the Bhagavathgita, with links to primary verses and readable commentary. By focusing on real needs, we make the tradition more accessible while preserving depth.\n\nTechnology is a tool, not a replacement for lived tradition. We use the web to index, search, and present materials; to host audio and transliteration tools; and to enable multilingual navigation. Yet we recognize that direct guidance from a teacher and participation in community practice remain vital. Our content is designed to complement—not replace—personal instruction and community-based learning.\n\nLooking ahead, we plan to expand audio and multimedia resources, to incorporate more regional and language-specific editions, and to build tools that help teachers and students interact with texts (for example, bookmarking, shared notes, and small-group reading guides). We also plan to strengthen citations and bibliographic references so that researchers and teachers can trace the textual lineage of materials found on the site.\n\nWe invite readers to treat the site as a starting point: a careful, compassionate introduction to a living tradition. For those who wish to explore further, we provide pathways into primary sources, classical commentaries, and reputable contemporary expositions. Whether your interest is devotional, scholarly, cultural, or practical, Sanatanadharmam.in aims to offer resources that are accurate, accessible, and useful.\n\nIf you find errors, omissions, or ways to improve presentation, please share them. Contributions that improve accuracy, add missing source citations, supply high-quality translations, or provide helpful audio recordings are especially welcome. We hope this work supports individual practice, communal life, and the intergenerational transmission of knowledge in ways that are respectful, open-hearted, and responsible.\n\nIn sum, Sanatanadharmam.in seeks to safeguard a broad spectrum of knowledge from Sanātana Dharma, to present it with integrity and care, and to make it a living, usable resource for anyone seeking to learn, practice, or simply understand. We are guided by the conviction that ancient wisdom, when presented honestly and thoughtfully, can help individuals and communities cultivate insight, compassion, and a deeper sense of meaning.",
-    "sections": [
-      {
-        "title": "Who We Are",
-        "text": "Sanātana Dharmam is a dedicated online platform created by spiritual seekers passionate about sharing the universal values embedded in the oldest spiritual traditions of the Indian subcontinent. While our work is grounded in sacred scriptures like the Vedas and Upaniṣads, we are not claiming to be spiritual authorities—we are fellow travelers offering a thoughtfully curated overview of this profound way of life."
-      },
-      {
-        "title": "Our Mission",
-        "bullets": [
-          "Educate & Empower – Present insights derived from Vedic texts and classical commentaries to make Sanātana Dharma accessible and relatable.",
-          "Preserve Authenticity – Emphasize accuracy and respect for original Sanskrit sources.",
-          "Inspire Harmony – Explore deeper spiritual truths, inclusive rituals, and ethical living to nurture unity in diversity."
-        ]
-      },
-      {
-        "title": "What We Cover",
-        "bullets": [
-          "Core principles like Svadharma and Sanātana-dharma",
-          "Six major philosophical systems: Nyāya, Vaiśeṣika, Vedānta, Samkhya, Yoga, and Mīmāṃsā",
-          "Practical guidance on yoga, meditation, and subtle-body practices",
-          "Rituals, marriage customs, vegetarianism, bhakti, and interfaith understanding"
-        ]
-      },
-      {
-        "title": "Why It Matters Today",
-        "text": "Sanātana Dharma isn’t merely a religion—it’s an evolving, living philosophy that has shaped cultural, ethical, and spiritual frameworks across millennia. The term itself means 'eternal way' or 'eternal law,' reflecting enduring wisdom that transcends time, place, or dogma. In an age of rapid change, reconnecting with these core values—truth, nonviolence, compassion, self-realization—offers holistic guidance for individuals and societies alike."
-      }
-    ],
-    "vision": {
-      "description": "To serve as a reliable, well-curated digital repository that preserves the essential teachings, devotional literature, ritual knowledge, and practical guidance of Sanātana Dharma while making them accessible, comprehensible, and usable for present and future generations.",
-      "focusareas": [
-        "Multilingual content spanning Sanskrit, regional Indian languages, and English",
-        "Devotional stotras, mantras, and daily prayers with transliteration and audio support",
-        "Detailed puja-vidhis, festival guides, and household ritual instructions",
-        "Clear expositions of philosophical concepts from the Upanishads, Bhagavathgita, Puranas, and classical commentaries",
-        "Contextual essays connecting scripture to lived practice and ethical life",
-        "Searchable, well-cataloged archives with citations to authoritative editions"
-      ],
-      "goal": "To build an enduring digital library that both conserves treasured texts and provides practical pathways for study and practice, supporting learners, practitioners, and scholars across generations."
-    },
-    "whywecreated": {
-      "problemsaddressed": [
-        "Hard-to-find, inconsistent, or poorly digitized versions of important texts",
-        "Fragmentation of resources across multiple sites and formats",
-        "Lack of accessible translations and transliteration for learners",
-        "Insufficient contextual guidance for applying ritual and philosophical teachings in daily life",
-        "Barriers for non-specialists to approach scripture without prior training"
-      ],
-      "purpose": "We created Sanatanadharmam.in to centralize trustworthy materials and to provide layered explanations that help readers move from curiosity to meaningful practice. By combining clean digital editions, careful translations, transliteration aids, practical ritual guides, and empathetic interpretation, we hope to lower the barrier to entry while maintaining respect for the tradition's depth and variety."
     }
-  }
 }

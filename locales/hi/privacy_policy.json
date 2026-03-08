@@ -1,150 +1,150 @@
 {
-  "privacy_policy": {
-    "title": "Privacy Policy | Sanatanadharmam",
-    "description": "Read the Privacy Policy of Sanatanadharmam to understand how we collect, use, and protect your information when you visit our website.",
-    "meta": {
-      "title": "Privacy Policy | Sanatanadharmam",
-      "canonical": "https://sanatanadharmam.in/our-privacy-policy",
-      "description": "Read the Privacy Policy of Sanatanadharmam to understand how we collect, use, and protect your information when you visit our website.",
-      "keywords": [
-        "privacy policy",
-        "Sanatanadharmam privacy",
-        "user privacy policy",
-        "data protection policy",
-        "website privacy policy",
-        "cookies and tracking policy",
-        "user data rights",
-        "Sanatana Dharma website privacy"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/our-privacy-policy"
-    },
-    "openGraph": {
-      "title": "Privacy Policy | Sanatanadharmam",
-      "description": "Learn how Sanatanadharmam collects, uses and protects your information when using this website.",
-      "url": "https://sanatanadharmam.in/our-privacy-policy",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/privacy.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Sanatanadharmam Privacy Policy"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "WebPage",
-          "name": "Privacy Policy",
-          "url": "https://sanatanadharmam.in/our-privacy-policy",
-          "description": "Privacy policy explaining how Sanatanadharmam collects and protects user data."
-        },
-        {
-          "@type": "PrivacyPolicy",
-          "name": "Sanatanadharmam Privacy Policy",
-          "url": "https://sanatanadharmam.in/our-privacy-policy"
-        },
-        {
-          "@type": "Organization",
-          "name": "Sanatanadharmam",
-          "url": "https://sanatanadharmam.in",
-          "logo": "https://sanatanadharmam.in/images/logo.png",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "contactType": "customer support",
-            "areaServed": "Worldwide",
-            "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Arabic",
-              "German",
-              "Spanish",
-              "French",
-              "Japanese",
-              "Nepali",
-              "Dutch",
-              "Portuguese",
-              "Russian",
-              "Urdu",
-              "Chinese"
+    "privacy_policy": {
+        "title": "गोपनीयता नीति | सनातनधर्मम्",
+        "description": "जब आप हमारी वेबसाइट पर आते हैं तो हम आपकी जानकारी कैसे एकत्र करते हैं, उपयोग करते हैं और उसकी सुरक्षा कैसे करते हैं, यह समझने के लिए सनातनधर्मम की गोपनीयता नीति पढ़ें।",
+        "meta": {
+            "title": "गोपनीयता नीति | सनातनधर्मम्",
+            "canonical": "https://sanatanadharmam.in/our-privacy-policy",
+            "description": "जब आप हमारी वेबसाइट पर आते हैं तो हम आपकी जानकारी कैसे एकत्र करते हैं, उपयोग करते हैं और उसकी सुरक्षा कैसे करते हैं, यह समझने के लिए सनातनधर्मम की गोपनीयता नीति पढ़ें।",
+            "keywords": [
+                "गोपनीयता नीति",
+                "सनातनधर्मम् गोपनीयता",
+                "उपयोगकर्ता गोपनीयता नीति",
+                "डेटा सुरक्षा नीति",
+                "वेबसाइट गोपनीयता नीति",
+                "कुकीज़ और ट्रैकिंग नीति",
+                "उपयोगकर्ता डेटा अधिकार",
+                "सनातन धर्म वेबसाइट गोपनीयता"
             ],
+            "robots": "अनुक्रमणिका, अनुसरण करें",
+            "url": "https://sanatanadharmam.in/our-privacy-policy"
+        },
+        "openGraph": {
+            "title": "गोपनीयता नीति | सनातनधर्मम्",
+            "description": "जानें कि इस वेबसाइट का उपयोग करते समय सनातनधर्मम आपकी जानकारी कैसे एकत्र करता है, उपयोग करता है और उसकी सुरक्षा कैसे करता है।",
+            "url": "https://sanatanadharmam.in/our-privacy-policy",
+            "siteName": "सनातनधर्मम्",
+            "type": "लेख",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/privacy.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Sanatanadharmam Privacy Policy"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "वेब पृष्ठ",
+                    "name": "गोपनीयता नीति",
+                    "url": "https://sanatanadharmam.in/our-privacy-policy",
+                    "description": "गोपनीयता नीति यह बताती है कि सनातनधर्मम उपयोगकर्ता डेटा को कैसे एकत्र और संरक्षित करता है।"
+                },
+                {
+                    "@type": "गोपनीयता नीति",
+                    "name": "सनातनधर्मम् गोपनीयता नीति",
+                    "url": "https://sanatanadharmam.in/our-privacy-policy"
+                },
+                {
+                    "@type": "संगठन",
+                    "name": "सनातनधर्मम्",
+                    "url": "https://sanatanadharmam.in",
+                    "logo": "https://sanatanadharmam.in/images/logo.png",
+                    "contactPoint": {
+                        "@type": "संपर्क बिंदु",
+                        "contactType": "ग्राहक सहेयता",
+                        "areaServed": "दुनिया भर में",
+                        "availableLanguage": [
+                            "अंग्रेज़ी",
+                            "हिंदी",
+                            "तेलुगू",
+                            "अरबी",
+                            "जर्मन",
+                            "स्पैनिश",
+                            "फ़्रेंच",
+                            "जापानी",
+                            "नेपाली",
+                            "डच",
+                            "पुर्तगाली",
+                            "रूसी",
+                            "उर्दू",
+                            "चीनी"
+                        ],
+                        "email": "contact@sanatanadharmam.in",
+                        "telephone": "+91-8099181075"
+                    }
+                }
+            ]
+        },
+        "changes": {
+            "title": "9. इस नीति में परिवर्तन",
+            "text": "हम अपनी प्रथाओं में बदलावों को दर्शाने के लिए या अन्य परिचालन, कानूनी या नियामक कारणों से इस गोपनीयता नीति को समय-समय पर अपडेट कर सकते हैं। हम इस नीति के शीर्ष पर \"अंतिम अद्यतन\" तिथि को अपडेट करके किसी भी महत्वपूर्ण परिवर्तन के बारे में आपको सूचित करेंगे। संशोधित गोपनीयता नीति पोस्ट करने के बाद आपके द्वारा वेबसाइट का उपयोग जारी रखने का मतलब है कि आप परिवर्तनों को स्वीकार करते हैं और उनसे सहमत हैं।"
+        },
+        "children": {
+            "title": "8. बच्चों की गोपनीयता",
+            "text": "हमारी वेबसाइट 13 वर्ष से कम उम्र के बच्चों के लिए नहीं है। हम जानबूझकर बच्चों से व्यक्तिगत जानकारी एकत्र नहीं करते हैं। यदि हमें पता चलता है कि हमने 13 वर्ष से कम उम्र के बच्चे से जानकारी एकत्र की है, तो हम तुरंत ऐसी जानकारी हटा देंगे।"
+        },
+        "contact": {
+            "title": "10. हमसे संपर्क करें",
+            "closing": "सनातन धर्म तक पहुंच और उपयोग करके, आप स्वीकार करते हैं कि आपने इस गोपनीयता नीति को पढ़ लिया है, समझ लिया है और इससे बंधे होने के लिए सहमत हैं।",
             "email": "contact@sanatanadharmam.in",
-            "telephone": "+91-8099181075"
-          }
+            "emaillabel": "Email:",
+            "lead": "यदि आपके पास इस गोपनीयता नीति या हमारी गोपनीयता प्रथाओं के बारे में कोई प्रश्न हैं, तो कृपया हमसे यहां संपर्क करें:",
+            "website": "https://sanatanadharmam.in",
+            "websitelabel": "वेबसाइट:"
+        },
+        "cookieslocalstorage": {
+            "title": "4. कुकीज़ और स्थानीय भंडारण",
+            "text": "हम आपकी चयनित भाषा प्राथमिकता को याद रखने के लिए ब्राउज़र लोकल स्टोरेज का उपयोग करते हैं। यह डेटा केवल आपके डिवाइस पर संग्रहीत किया जाता है और हमारे सर्वर पर प्रसारित नहीं किया जाता है। आप अपने ब्राउज़र के स्थानीय संग्रहण को साफ़ करके इस डेटा को कभी भी साफ़ कर सकते हैं।"
+        },
+        "howweuse": {
+            "title": "3. हम आपकी जानकारी का उपयोग कैसे करते हैं",
+            "items": [
+                "अपनी वेबसाइट के अनुभव को सुधारना और वैयक्तिकृत करना",
+                "अपनी भाषा प्राथमिकता और सेटिंग्स को याद रखना",
+                "वेबसाइट के प्रदर्शन और उपयोगकर्ता के व्यवहार का विश्लेषण करना",
+                "आपकी पूछताछ और प्रतिक्रिया का जवाब देना",
+                "कानूनी दायित्वों का पालन करना"
+            ],
+            "lead": "हम एकत्रित जानकारी का उपयोग निम्नलिखित उद्देश्यों के लिए करते हैं:"
+        },
+        "informationwecollect": {
+            "title": "2. जानकारी जो हम एकत्र करते हैं",
+            "contact": "यदि आप कोई फॉर्म जमा करते हैं या हमसे संपर्क करते हैं, तो हम आपके द्वारा स्वेच्छा से प्रदान की गई जानकारी एकत्र करते हैं।",
+            "contactlabel": "संपर्क जानकारी:",
+            "cookies": "हम आपकी प्राथमिकताओं और भाषा चयन को याद रखने के लिए कुकीज़ और समान तकनीकों का उपयोग करते हैं।",
+            "cookieslabel": "कुकीज़ और ट्रैकिंग:",
+            "device": "आपके डिवाइस, ब्राउज़र प्रकार, आईपी पते और ऑपरेटिंग सिस्टम के बारे में विवरण।",
+            "devicelabel": "डिवाइस की जानकारी:",
+            "lead": "हम निम्नलिखित प्रकार की जानकारी एकत्र कर सकते हैं:",
+            "usage": "इस बारे में जानकारी कि आप हमारी वेबसाइट के साथ कैसे इंटरैक्ट करते हैं, जिसमें देखे गए पेज, बिताया गया समय और क्लिक किए गए लिंक शामिल हैं।",
+            "usagelabel": "डेटा का उपयोग:"
+        },
+        "intro": {
+            "title": "1 परिचय",
+            "text": "सनातन धर्म (sanatandharmam.in) में आपका स्वागत है। हम आपकी गोपनीयता की रक्षा करने और यह सुनिश्चित करने के लिए प्रतिबद्ध हैं कि आपको हमारी वेबसाइट पर सकारात्मक अनुभव मिले। यह गोपनीयता नीति हमारी डेटा प्रथाओं की व्याख्या करती है, जिसमें हम कौन सी जानकारी एकत्र करते हैं, हम इसका उपयोग कैसे करते हैं, और आपकी व्यक्तिगत जानकारी के संबंध में आपके अधिकार शामिल हैं।"
+        },
+        "rights": {
+            "title": "7. आपके अधिकार",
+            "contacttext": "इनमें से किसी भी अधिकार का प्रयोग करने के लिए, कृपया नीचे दी गई जानकारी का उपयोग करके हमसे संपर्क करें।",
+            "items": [
+                "आपकी व्यक्तिगत जानकारी तक पहुँचने का अधिकार",
+                "गलत डेटा में सुधार का अनुरोध करने का अधिकार",
+                "अपना डेटा हटाने का अनुरोध करने का अधिकार",
+                "कुछ डेटा प्रोसेसिंग गतिविधियों से बाहर निकलने का अधिकार"
+            ],
+            "lead": "आपके स्थान के आधार पर, आपके पास निम्नलिखित अधिकार हो सकते हैं:"
+        },
+        "security": {
+            "title": "6. डेटा सुरक्षा",
+            "text": "हम उचित तकनीकी और संगठनात्मक सुरक्षा उपायों के माध्यम से आपकी जानकारी की सुरक्षा के लिए प्रतिबद्ध हैं। हालाँकि, इंटरनेट या इलेक्ट्रॉनिक स्टोरेज पर ट्रांसमिशन का कोई भी तरीका पूरी तरह से सुरक्षित नहीं है। यदि आपको सुरक्षा को लेकर चिंता है तो कृपया हमसे संपर्क करें।"
+        },
+        "thirdparty": {
+            "title": "5. तृतीय-पक्ष सेवाएँ",
+            "text": "वेबसाइट उपयोग पैटर्न को समझने के लिए हम तृतीय-पक्ष विश्लेषण सेवाओं का उपयोग कर सकते हैं। ये सेवाएँ आपकी यात्रा के बारे में गुमनाम डेटा एकत्र कर सकती हैं। हम आपकी सहमति के बिना व्यक्तिगत पहचान योग्य जानकारी तीसरे पक्ष के साथ साझा नहीं करते हैं।"
         }
-      ]
-    },
-    "changes": {
-      "title": "9. Changes to This Policy",
-      "text": "We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you of any significant changes by updating the \"Last Updated\" date at the top of this policy. Your continued use of the website following the posting of revised Privacy Policy means that you accept and agree to the changes."
-    },
-    "children": {
-      "title": "8. Children's Privacy",
-      "text": "Our website is not directed to children under the age of 13. We do not knowingly collect personal information from children. If we become aware that we have collected information from a child under 13, we will promptly delete such information."
-    },
-    "contact": {
-      "title": "10. Contact Us",
-      "closing": "By accessing and using Sanātana Dharma, you acknowledge that you have read, understood, and agree to be bound by this Privacy Policy.",
-      "email": "contact@sanatanadharmam.in",
-      "emaillabel": "Email:",
-      "lead": "If you have questions about this Privacy Policy or our privacy practices, please contact us at:",
-      "website": "https://sanatanadharmam.in",
-      "websitelabel": "Website:"
-    },
-    "cookieslocalstorage": {
-      "title": "4. Cookies and Local Storage",
-      "text": "We use browser local storage to remember your selected language preference. This data is stored only on your device and is not transmitted to our servers. You can clear this data anytime by clearing your browser's local storage."
-    },
-    "howweuse": {
-      "title": "3. How We Use Your Information",
-      "items": [
-        "Improving and personalizing your website experience",
-        "Remembering your language preference and settings",
-        "Analyzing website performance and user behavior",
-        "Responding to your inquiries and feedback",
-        "Complying with legal obligations"
-      ],
-      "lead": "We use the collected information for the following purposes:"
-    },
-    "informationwecollect": {
-      "title": "2. Information We Collect",
-      "contact": "If you submit a form or contact us, we collect the information you voluntarily provide.",
-      "contactlabel": "Contact Information:",
-      "cookies": "We use cookies and similar technologies to remember your preferences and language selection.",
-      "cookieslabel": "Cookies and Tracking:",
-      "device": "Details about your device, browser type, IP address, and operating system.",
-      "devicelabel": "Device Information:",
-      "lead": "We may collect the following types of information:",
-      "usage": "Information about how you interact with our website, including pages visited, time spent, and links clicked.",
-      "usagelabel": "Usage Data:"
-    },
-    "intro": {
-      "title": "1. Introduction",
-      "text": "Welcome to Sanātana Dharma (sanatanadharmam.in). We are committed to protecting your privacy and ensuring you have a positive experience on our website. This Privacy Policy explains our data practices, including what information we collect, how we use it, and your rights regarding your personal information."
-    },
-    "rights": {
-      "title": "7. Your Rights",
-      "contacttext": "To exercise any of these rights, please contact us using the information provided below.",
-      "items": [
-        "Right to access your personal information",
-        "Right to request correction of inaccurate data",
-        "Right to request deletion of your data",
-        "Right to opt-out of certain data processing activities"
-      ],
-      "lead": "Depending on your location, you may have the following rights:"
-    },
-    "security": {
-      "title": "6. Data Security",
-      "text": "We are committed to protecting your information through appropriate technical and organizational security measures. However, no method of transmission over the internet or electronic storage is completely secure. If you have concerns about security, please contact us."
-    },
-    "thirdparty": {
-      "title": "5. Third-Party Services",
-      "text": "We may use third-party analytics services to understand website usage patterns. These services may collect anonymous data about your visit. We do not share personally identifiable information with third parties without your consent."
     }
-  }
 }

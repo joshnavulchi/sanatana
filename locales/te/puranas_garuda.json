@@ -1,71 +1,71 @@
 {
-  "puranas_garuda": {
-    "meta": {
-      "title": "Garuda Purana – Teachings on Afterlife and Dharma",
-      "canonical": "https://sanatanadharmam.in/scriptures/puranas/garuda",
-      "description": "Explore the Garuda Purana, a sacred Hindu text describing the journey of the soul after death, karma, funeral rites, and spiritual teachings of Sanatana Dharma.",
-      "keywords": [
-        "Garuda Purana",
-        "Garuda Purana afterlife",
-        "Garuda Purana teachings",
-        "Garuda Purana karma",
-        "Garuda Purana funeral rites",
-        "Garuda Purana soul journey",
-        "Garuda Purana Vaitarani river",
-        "Garuda Purana philosophy",
-        "Garuda Purana reincarnation",
-        "Hindu scriptures Garuda Purana"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
-    },
-    "openGraph": {
-      "title": "Garuda Purana – Sacred Teachings on Life, Death and Afterlife",
-      "description": "Learn the profound teachings of the Garuda Purana about karma, death, afterlife, funeral rites and the soul's journey.",
-      "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/puranas-garuda.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Garuda Purana Scripture"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Book",
-          "name": "Garuda Purana",
-          "description": "Garuda Purana is one of the eighteen Mahapuranas of Hinduism, discussing the afterlife, karma, funeral rites, and spiritual philosophy.",
-          "author": {
-            "@type": "Person",
-            "name": "Ved Vyasa"
-          },
-          "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
-          "inLanguage": "Sanskrit"
+    "puranas_garuda": {
+        "meta": {
+            "title": "గరుడ పురాణం - మరణానంతర జీవితం మరియు ధర్మంపై బోధనలు",
+            "canonical": "https://sanatanadharmam.in/scriptures/puranas/garuda",
+            "description": "మరణం తర్వాత ఆత్మ యొక్క ప్రయాణం, కర్మ, అంత్యక్రియల ఆచారాలు మరియు సనాతన ధర్మం యొక్క ఆధ్యాత్మిక బోధనలను వివరించే పవిత్ర హిందూ గ్రంథమైన గరుడ పురాణాన్ని అన్వేషించండి.",
+            "keywords": [
+                "గరుడ పురాణం",
+                "గరుడ పురాణం మరణానంతర జీవితం",
+                "గరుడ పురాణ బోధనలు",
+                "గరుడ పురాణం కర్మ",
+                "గరుడ పురాణం అంత్యక్రియలు",
+                "గరుడ పురాణం ఆత్మ ప్రయాణం",
+                "గరుడ పురాణ వైతరణి నది",
+                "గరుడ పురాణం వేదాంతం",
+                "గరుడ పురాణం పునర్జన్మ",
+                "హిందూ గ్రంధాలు గరుడ పురాణం"
+            ],
+            "robots": "సూచిక, అనుసరించండి",
+            "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
         },
-        {
-          "@type": "Article",
-          "headline": "Garuda Purana – Journey of the Soul After Death",
-          "about": [
-            "Garuda Purana",
-            "Afterlife",
-            "Karma",
-            "Reincarnation",
-            "Sanatana Dharma"
-          ],
-          "isPartOf": {
-            "@type": "WebSite",
-            "name": "Sanatanadharmam",
-            "url": "https://sanatanadharmam.in"
-          },
-          "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
+        "openGraph": {
+            "title": "గరుడ పురాణం - జీవితం, మరణం మరియు మరణానంతర జీవితంపై పవిత్ర బోధనలు",
+            "description": "కర్మ, మరణం, మరణానంతర జీవితం, అంత్యక్రియలు మరియు ఆత్మ యొక్క ప్రయాణం గురించి గరుడ పురాణం యొక్క లోతైన బోధనలను తెలుసుకోండి.",
+            "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
+            "siteName": "సనాతనధర్మం",
+            "type": "వ్యాసం",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/puranas-garuda.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Garuda Purana Scripture"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "పుస్తకం",
+                    "name": "గరుడ పురాణం",
+                    "description": "గరుడ పురాణం హిందూమతంలోని పద్దెనిమిది మహాపురాణాలలో ఒకటి, మరణానంతర జీవితం, కర్మ, అంత్యక్రియల ఆచారాలు మరియు ఆధ్యాత్మిక తత్వశాస్త్రం గురించి చర్చిస్తుంది.",
+                    "author": {
+                        "@type": "వ్యక్తి",
+                        "name": "వేద వ్యాసుడు"
+                    },
+                    "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
+                    "inLanguage": "సంస్కృతం"
+                },
+                {
+                    "@type": "వ్యాసం",
+                    "headline": "గరుడ పురాణం - మరణం తరువాత ఆత్మ యొక్క ప్రయాణం",
+                    "about": [
+                        "గరుడ పురాణం",
+                        "మరణానంతర జీవితం",
+                        "కర్మ",
+                        "పునర్జన్మ",
+                        "సనాతన ధర్మం"
+                    ],
+                    "isPartOf": {
+                        "@type": "వెబ్‌సైట్",
+                        "name": "సనాతనధర్మం",
+                        "url": "https://sanatanadharmam.in"
+                    },
+                    "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
+                }
+            ]
         }
-      ]
     }
-  }
 }

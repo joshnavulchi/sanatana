@@ -1,21 +1,21 @@
 {
-  "festivals": {
-    "title": "Hindu Festivals — Celebrations of Sanātana Dharma",
-    "description": "Explore the sacred festivals and celebrations of Sanātana Dharma, including Diwali, Holi, Navaratri, and more.",
-    "meta": {
-      "title": "Hindu Festivals — Celebrations of Sanātana Dharma",
-      "canonical": "https://sanatanadharmam.in/festivals",
-      "description": "Explore the sacred festivals and celebrations of Sanātana Dharma, including Diwali, Holi, Navaratri, and more.",
-      "keywords": [
-        "hindu festivals",
-        "diwali",
-        "holi",
-        "navaratri",
-        "pongal",
-        "sanatana dharma",
-        "indian festivals"
-      ],
-      "url": "https://sanatanadharmam.in/festivals"
+    "festivals": {
+        "title": "Hindoefestivals – Vieringen van Sanātana Dharma",
+        "description": "Ontdek de heilige festivals en vieringen van Sanātana Dharma, waaronder Diwali, Holi, Navaratri en meer.",
+        "meta": {
+            "title": "Hindoefestivals – Vieringen van Sanātana Dharma",
+            "canonical": "https://sanatanadharmam.in/festivals",
+            "description": "Ontdek de heilige festivals en vieringen van Sanātana Dharma, waaronder Diwali, Holi, Navaratri en meer.",
+            "keywords": [
+                "hindoeïstische feesten",
+                "divali",
+                "holi",
+                "navaratri",
+                "Pongaal",
+                "sanatana-dharma",
+                "Indiase feesten"
+            ],
+            "url": "https://sanatanadharmam.in/festivals"
+        }
     }
-  }
 }

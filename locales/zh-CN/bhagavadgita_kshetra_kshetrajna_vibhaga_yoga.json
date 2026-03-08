@@ -1,65 +1,65 @@
 {
-  "bhagavadgita_kshetra-kshetrajna-vibhaga-yoga": {
-    "title": "Kshetra Kshetrajna Vibhaga Yoga – Bhagavad Gita Chapter Overview",
-    "description": "Chapter overview for Kshetra Kshetrajna Vibhaga Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-    "meta": {
-      "title": "Kshetra Kshetrajna Vibhaga Yoga – Bhagavad Gita Chapter Overview",
-      "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/kshetra-kshetrajna-vibhaga-yoga",
-      "description": "Chapter overview for Kshetra Kshetrajna Vibhaga Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "keywords": [
-        "Kshetra Kshetrajna Vibhaga Yoga",
-        "Bhagavad Gita",
-        "Krishna",
-        "Yoga",
-        "dharma",
-        "Vedanta"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/kshetra-kshetrajna-vibhaga-yoga",
-      "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_kshetra_kshetrajna_vibhaga_yoga.png"
-    },
-    "openGraph": {
-      "title": "Kshetra Kshetrajna Vibhaga Yoga – Bhagavad Gita Chapter Overview",
-      "description": "Chapter overview for Kshetra Kshetrajna Vibhaga Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/kshetra-kshetrajna-vibhaga-yoga",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/bhagavadgita_kshetra_kshetrajna_vibhaga_yoga.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Kshetra Kshetrajna Vibhaga Yoga – Bhagavad Gita Chapter Overview"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Kshetra Kshetrajna Vibhaga Yoga – Bhagavad Gita Chapter Overview",
-      "description": "Chapter overview for Kshetra Kshetrajna Vibhaga Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/kshetra-kshetrajna-vibhaga-yoga",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "Kshetra Kshetrajna Vibhaga Yoga is a chapter of the Bhagavad Gita. Each chapter traditionally carries a “yoga” emphasis—an angle of practice or understanding—while keeping the teaching integrated: act with clarity, cultivate devotion, and refine knowledge so the mind becomes steady.\n\nThis page summarizes the chapter’s usual themes and offers reflection prompts without quoting specific verses.",
-    "scripture_text": [
-      {
-        "section": "Key ideas",
-        "content": "A compact overview of the main teachings typically associated with this chapter, and how they relate to dharma and yoga."
-      },
-      {
-        "section": "Practical application",
-        "content": "How the chapter’s teaching can be applied to daily work, relationships, and decision-making—especially under stress."
-      },
-      {
-        "section": "Reflection prompts",
-        "content": "What am I attached to? Where is my duty unclear? Can I act with sincerity while releasing obsession with outcomes?"
-      }
-    ],
-    "philosophical_explanation": "Gita philosophy centers on inner freedom: not the absence of action, but the purification of intention. When ego-driven attachment reduces, action becomes cleaner and the mind becomes capable of deeper insight."
-  }
+    "bhagavadgita_kshetra-kshetrajna-vibhaga-yoga": {
+        "title": "Kshetra Kshetrajna Vibhaga Yoga – Bhagavad Gita 章节概述",
+        "description": "Kshetra Kshetrajna Vibhaga Yoga 的章节概述：《薄伽梵歌》的中心教义、关键概念和实践指导。",
+        "meta": {
+            "title": "Kshetra Kshetrajna Vibhaga Yoga – Bhagavad Gita 章节概述",
+            "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/kshetra-kshetrajna-vibhaga-yoga",
+            "description": "Kshetra Kshetrajna Vibhaga Yoga 的章节概述：《薄伽梵歌》的中心教义、关键概念和实践指导。",
+            "keywords": [
+                "Kshetra Kshetrajna Vibhaga 瑜伽",
+                "薄伽梵歌",
+                "克里希纳",
+                "瑜伽",
+                "法",
+                "吠檀多"
+            ],
+            "robots": "索引，关注",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/kshetra-kshetrajna-vibhaga-yoga",
+            "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_kshetra_kshetrajna_vibhaga_yoga.png"
+        },
+        "openGraph": {
+            "title": "Kshetra Kshetrajna Vibhaga Yoga – Bhagavad Gita 章节概述",
+            "description": "Kshetra Kshetrajna Vibhaga Yoga 的章节概述：《薄伽梵歌》的中心教义、关键概念和实践指导。",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/kshetra-kshetrajna-vibhaga-yoga",
+            "siteName": "萨那塔达曼",
+            "type": "文章",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/bhagavadgita_kshetra_kshetrajna_vibhaga_yoga.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Kshetra Kshetrajna Vibhaga Yoga – Bhagavad Gita Chapter Overview"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "文章",
+            "name": "Kshetra Kshetrajna Vibhaga Yoga – Bhagavad Gita 章节概述",
+            "description": "Kshetra Kshetrajna Vibhaga Yoga 的章节概述：《薄伽梵歌》的中心教义、关键概念和实践指导。",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/kshetra-kshetrajna-vibhaga-yoga",
+            "isPartOf": {
+                "@type": "网站",
+                "name": "萨那塔达曼",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "Kshetra Kshetrajna Vibhaga Yoga 是《薄伽梵歌》的一个章节。传统上，每一章都强调“瑜伽”——练习或理解的角度——同时保持教学的完整性：行动清晰，培养奉献精神，精炼知识，使思想变得稳定。\n\n本页总结了本章的常见主题，并提供了反思提示，但没有引用特定的经文。",
+        "scripture_text": [
+            {
+                "section": "关键想法",
+                "content": "简要概述通常与本章相关的主要教义，以及它们与佛法和瑜伽的关系。"
+            },
+            {
+                "section": "实际应用",
+                "content": "本章的教学如何应用于日常工作、人际关系和决策——尤其是在压力下。"
+            },
+            {
+                "section": "反思提示",
+                "content": "我执着于什么？我的职责哪里不明确？我可以真诚地行事，同时摆脱对结果的迷恋吗？"
+            }
+        ],
+        "philosophical_explanation": "梵歌哲学以内在自由为中心：不是没有行动，而是意图的净化。当自我驱动的依恋减少时，行动就会变得更清晰，头脑也能获得更深刻的洞察力。"
+    }
 }

@@ -1,65 +1,65 @@
 {
-  "bhagavadgita_daivasura-sampad-vibhaga-yoga": {
-    "title": "Daivasura Sampad Vibhaga Yoga – Bhagavad Gita Chapter Overview",
-    "description": "Chapter overview for Daivasura Sampad Vibhaga Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-    "meta": {
-      "title": "Daivasura Sampad Vibhaga Yoga – Bhagavad Gita Chapter Overview",
-      "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/daivasura-sampad-vibhaga-yoga",
-      "description": "Chapter overview for Daivasura Sampad Vibhaga Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "keywords": [
-        "Daivasura Sampad Vibhaga Yoga",
-        "Bhagavad Gita",
-        "Krishna",
-        "Yoga",
-        "dharma",
-        "Vedanta"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/daivasura-sampad-vibhaga-yoga",
-      "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_daivasura_sampad_vibhaga_yoga.png"
-    },
-    "openGraph": {
-      "title": "Daivasura Sampad Vibhaga Yoga – Bhagavad Gita Chapter Overview",
-      "description": "Chapter overview for Daivasura Sampad Vibhaga Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/daivasura-sampad-vibhaga-yoga",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/bhagavadgita_daivasura_sampad_vibhaga_yoga.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Daivasura Sampad Vibhaga Yoga – Bhagavad Gita Chapter Overview"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Daivasura Sampad Vibhaga Yoga – Bhagavad Gita Chapter Overview",
-      "description": "Chapter overview for Daivasura Sampad Vibhaga Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/daivasura-sampad-vibhaga-yoga",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "Daivasura Sampad Vibhaga Yoga is a chapter of the Bhagavad Gita. Each chapter traditionally carries a “yoga” emphasis—an angle of practice or understanding—while keeping the teaching integrated: act with clarity, cultivate devotion, and refine knowledge so the mind becomes steady.\n\nThis page summarizes the chapter’s usual themes and offers reflection prompts without quoting specific verses.",
-    "scripture_text": [
-      {
-        "section": "Key ideas",
-        "content": "A compact overview of the main teachings typically associated with this chapter, and how they relate to dharma and yoga."
-      },
-      {
-        "section": "Practical application",
-        "content": "How the chapter’s teaching can be applied to daily work, relationships, and decision-making—especially under stress."
-      },
-      {
-        "section": "Reflection prompts",
-        "content": "What am I attached to? Where is my duty unclear? Can I act with sincerity while releasing obsession with outcomes?"
-      }
-    ],
-    "philosophical_explanation": "Gita philosophy centers on inner freedom: not the absence of action, but the purification of intention. When ego-driven attachment reduces, action becomes cleaner and the mind becomes capable of deeper insight."
-  }
+    "bhagavadgita_daivasura-sampad-vibhaga-yoga": {
+        "title": "Daivasura Sampad Vibhaga Yoga - Descripción general del capítulo del Bhagavad Gita",
+        "description": "Descripción general del capítulo de Daivasura Sampad Vibhaga Yoga: enseñanzas centrales, conceptos clave y orientación práctica del Bhagavad Gita.",
+        "meta": {
+            "title": "Daivasura Sampad Vibhaga Yoga - Descripción general del capítulo del Bhagavad Gita",
+            "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/daivasura-sampad-vibhaga-yoga",
+            "description": "Descripción general del capítulo de Daivasura Sampad Vibhaga Yoga: enseñanzas centrales, conceptos clave y orientación práctica del Bhagavad Gita.",
+            "keywords": [
+                "Yoga Daivasura Sampad Vibhaga",
+                "Bhagavad Gita",
+                "krishna",
+                "yoga",
+                "dharma",
+                "vedanta"
+            ],
+            "robots": "indexar, seguir",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/daivasura-sampad-vibhaga-yoga",
+            "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_daivasura_sampad_vibhaga_yoga.png"
+        },
+        "openGraph": {
+            "title": "Daivasura Sampad Vibhaga Yoga - Descripción general del capítulo del Bhagavad Gita",
+            "description": "Descripción general del capítulo de Daivasura Sampad Vibhaga Yoga: enseñanzas centrales, conceptos clave y orientación práctica del Bhagavad Gita.",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/daivasura-sampad-vibhaga-yoga",
+            "siteName": "Sanatanadharmam",
+            "type": "artículo",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/bhagavadgita_daivasura_sampad_vibhaga_yoga.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Daivasura Sampad Vibhaga Yoga – Bhagavad Gita Chapter Overview"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "Artículo",
+            "name": "Daivasura Sampad Vibhaga Yoga - Descripción general del capítulo del Bhagavad Gita",
+            "description": "Descripción general del capítulo de Daivasura Sampad Vibhaga Yoga: enseñanzas centrales, conceptos clave y orientación práctica del Bhagavad Gita.",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/daivasura-sampad-vibhaga-yoga",
+            "isPartOf": {
+                "@type": "Sitio web",
+                "name": "Sanatanadharmam",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "Daivasura Sampad Vibhaga Yoga es un capítulo del Bhagavad Gita. Tradicionalmente, cada capítulo conlleva un énfasis de “yoga” (un ángulo de práctica o comprensión) al tiempo que mantiene la enseñanza integrada: actúa con claridad, cultiva la devoción y perfecciona el conocimiento para que la mente se vuelva estable.\n\nEsta página resume los temas habituales del capítulo y ofrece sugerencias para la reflexión sin citar versículos específicos.",
+        "scripture_text": [
+            {
+                "section": "ideas clave",
+                "content": "Una descripción general compacta de las principales enseñanzas típicamente asociadas con este capítulo y cómo se relacionan con el dharma y el yoga."
+            },
+            {
+                "section": "Aplicación práctica",
+                "content": "Cómo se pueden aplicar las enseñanzas del capítulo al trabajo diario, las relaciones y la toma de decisiones, especialmente en situaciones de estrés."
+            },
+            {
+                "section": "Indicaciones de reflexión",
+                "content": "¿A qué estoy apegado? ¿Dónde no está claro mi deber? ¿Puedo actuar con sinceridad y al mismo tiempo liberarme de la obsesión por los resultados?"
+            }
+        ],
+        "philosophical_explanation": "La filosofía Gita se centra en la libertad interior: no la ausencia de acción, sino la purificación de la intención. Cuando el apego impulsado por el ego se reduce, la acción se vuelve más limpia y la mente se vuelve capaz de tener una visión más profunda."
+    }
 }

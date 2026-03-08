@@ -25,7 +25,7 @@ function getArgValue(prefix) {
 
 function resolveDir(inputPath, fallbackPath) {
   if (!inputPath) return fallbackPath;
-  return path.isAbsolute(inputPath) ? inputPath : path.resolve(process.cwd(), inputPath);
+  return path.isAbsolute(inputPath) ? inputPath : path.resolve(REPO_ROOT, inputPath);
 }
 
 const CONFIG = {

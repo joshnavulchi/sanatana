@@ -1,61 +1,61 @@
 {
-  "puranas": {
-    "title": "Puranas – Sacred Traditions and Stories of Sanātana Dharma",
-    "description": "Explore the Puranas: ancient texts that preserve stories, cosmology, devotion, dharma, and cultural memory within Sanātana Dharma.",
-    "meta": {
-      "title": "Puranas – Sacred Traditions and Stories of Sanātana Dharma",
-      "canonical": "https://sanatanadharmam.in/puranas",
-      "description": "Explore the Puranas: ancient texts that preserve stories, cosmology, devotion, dharma, and cultural memory within Sanātana Dharma.",
-      "keywords": [
-        "Puranas",
-        "Sanatana Dharma",
-        "Hindu scriptures",
-        "cosmology",
-        "bhakti",
-        "dharma"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/puranas",
-      "ogImage": "https://sanatanadharmam.in/og/puranas.png"
-    },
-    "openGraph": {
-      "title": "Puranas – Sacred Traditions and Stories of Sanātana Dharma",
-      "description": "Explore the Puranas: ancient texts that preserve stories, cosmology, devotion, dharma, and cultural memory within Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas",
-      "siteName": "Sanatanadharmam",
-      "type": "website",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/puranas.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Puranas – Sacred Traditions and Stories of Sanātana Dharma"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "CollectionPage",
-      "name": "Puranas – Sacred Traditions and Stories of Sanātana Dharma",
-      "description": "Explore the Puranas: ancient texts that preserve stories, cosmology, devotion, dharma, and cultural memory within Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "The Puranas are a large body of Sanskrit literature that preserve sacred history, cosmology, devotional traditions, and ethical guidance. They present philosophy through narrative—stories of sages and kings, teachings on worship and duty, and reflections on time cycles and creation.\n\nTraditionally, the Puranas are grouped into the Mahapuranas and Upapuranas, with many texts closely associated with particular deities and devotional lineages. As living tradition, the Puranas have shaped temple culture, festivals, pilgrimage, and household devotion across India for centuries.",
-    "scripture_text": [
-      {
-        "section": "What a Purana typically contains",
-        "content": "Many Puranas are described as containing the classic five themes (panchalakshana): creation (sarga), recreation after dissolution (pratisarga), genealogies (vamsha), cosmic epochs and Manu cycles (manvantara), and dynastic histories (vamshanucharita). In practice, each Purana also includes hymns, dialogues, ethical teachings, pilgrimage guides, and sections on ritual and devotion."
-      },
-      {
-        "section": "How to read Puranic narratives",
-        "content": "Puranic stories are often multi-layered: they can be read as devotion (bhakti), as moral instruction (dharma), and as symbolic teaching about the mind, time, and the relationship between the individual self and the divine. This site treats them as a devotional-philosophical tradition, not merely as folklore."
-      }
-    ],
-    "philosophical_explanation": "The Puranas transmit philosophical ideas in an accessible form. Instead of presenting doctrine only through abstraction, they use characters, vows, crises, and transformations to show how dharma is applied under real-world pressure. Their cosmology teaches cyclical time and impermanence, while devotional sections cultivate surrender, gratitude, and inner steadiness.\n\nFor many readers, the Puranas serve as a bridge: from story and worship to deeper inquiry into the Upanishadic vision of the Self, the nature of reality, and liberation (moksha)."
-  }
+    "puranas": {
+        "title": "پران – سناتن دھرم کی مقدس روایات اور کہانیاں",
+        "description": "پرانوں کو دریافت کریں: قدیم تحریریں جو سناتن دھرم کے اندر کہانیوں، کائناتیات، عقیدت، دھرم اور ثقافتی یادوں کو محفوظ رکھتی ہیں۔",
+        "meta": {
+            "title": "پران – سناتن دھرم کی مقدس روایات اور کہانیاں",
+            "canonical": "https://sanatanadharmam.in/puranas",
+            "description": "پرانوں کو دریافت کریں: قدیم تحریریں جو سناتن دھرم کے اندر کہانیوں، کائناتیات، عقیدت، دھرم اور ثقافتی یادوں کو محفوظ رکھتی ہیں۔",
+            "keywords": [
+                "پرانوں",
+                "سناتن دھرم",
+                "ہندو صحیفے",
+                "کاسمولوجی",
+                "بھکتی",
+                "دھرم"
+            ],
+            "robots": "انڈیکس، پیروی کریں",
+            "url": "https://sanatanadharmam.in/puranas",
+            "ogImage": "https://sanatanadharmam.in/og/puranas.png"
+        },
+        "openGraph": {
+            "title": "پران – سناتن دھرم کی مقدس روایات اور کہانیاں",
+            "description": "پرانوں کو دریافت کریں: قدیم تحریریں جو سناتن دھرم کے اندر کہانیوں، کائناتیات، عقیدت، دھرم اور ثقافتی یادوں کو محفوظ رکھتی ہیں۔",
+            "url": "https://sanatanadharmam.in/puranas",
+            "siteName": "سناتندھرم",
+            "type": "ویب سائٹ",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/puranas.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Puranas – Sacred Traditions and Stories of Sanātana Dharma"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "مجموعہ کا صفحہ",
+            "name": "پران – سناتن دھرم کی مقدس روایات اور کہانیاں",
+            "description": "پرانوں کو دریافت کریں: قدیم تحریریں جو سناتن دھرم کے اندر کہانیوں، کائناتیات، عقیدت، دھرم اور ثقافتی یادوں کو محفوظ رکھتی ہیں۔",
+            "url": "https://sanatanadharmam.in/puranas",
+            "isPartOf": {
+                "@type": "ویب سائٹ",
+                "name": "سناتندھرم",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "پران سنسکرت ادب کا ایک بڑا حصہ ہے جو مقدس تاریخ، کائناتی، عقیدتی روایات، اور اخلاقی رہنمائی کو محفوظ رکھتا ہے۔ وہ فلسفہ کو داستان کے ذریعے پیش کرتے ہیں - باباؤں اور بادشاہوں کی کہانیاں، عبادت اور فرض کی تعلیمات، اور وقت کے چکر اور تخلیق کے بارے میں مظاہر۔\n\nروایتی طور پر، پرانوں کو مہاپوران اور اپپوران میں گروپ کیا گیا ہے، بہت سے متن کے ساتھ خاص دیوتاؤں اور عقیدت کے سلسلے سے قریبی تعلق ہے۔ زندہ روایت کے طور پر، پرانوں نے صدیوں سے پورے ہندوستان میں مندر کی ثقافت، تہواروں، یاترا اور گھریلو عقیدت کو تشکیل دیا ہے۔",
+        "scripture_text": [
+            {
+                "section": "ایک پران میں عام طور پر کیا ہوتا ہے۔",
+                "content": "بہت سے پرانوں کو کلاسک پانچ موضوعات (پنچالکشن) کے طور پر بیان کیا گیا ہے: تخلیق (سرگ)، تحلیل کے بعد تفریح ​​(پرتیسرگ)، نسب نامے (ومشا)، کائناتی عہد اور منو چکر (منونتر)، اور خاندانی تاریخیں (ومشنوچریت)۔ عملی طور پر، ہر پران میں بھجن، مکالمے، اخلاقی تعلیمات، یاترا کے رہنما، اور رسم اور عقیدت کے حصے بھی شامل ہیں۔"
+            },
+            {
+                "section": "پرانی حکایات کو کیسے پڑھیں؟",
+                "content": "پرانک کہانیاں اکثر کثیرالجہتی ہوتی ہیں: انہیں عقیدت (بھکتی)، اخلاقی ہدایت (دھرم) کے طور پر، اور ذہن، وقت، اور انفرادی نفس اور الہی کے درمیان تعلق کے بارے میں علامتی تعلیم کے طور پر پڑھا جا سکتا ہے۔ یہ سائٹ انہیں صرف لوک داستان کے طور پر نہیں بلکہ ایک عقیدت مند فلسفیانہ روایت کے طور پر پیش کرتی ہے۔"
+            }
+        ],
+        "philosophical_explanation": "پرانیں فلسفیانہ خیالات کو قابل رسائی شکل میں منتقل کرتی ہیں۔ صرف تجرید کے ذریعے نظریے کو پیش کرنے کے بجائے، وہ کرداروں، منتوں، بحرانوں اور تبدیلیوں کو یہ دکھانے کے لیے استعمال کرتے ہیں کہ حقیقی دنیا کے دباؤ میں دھرم کا اطلاق کیسے ہوتا ہے۔ ان کی کاسمولوجی چکراتی وقت اور عدم استحکام کا درس دیتی ہے، جب کہ عقیدت مند حصے ہتھیار ڈالنے، شکرگزاری اور اندرونی استحکام کو فروغ دیتے ہیں۔\n\nبہت سے قارئین کے لیے، پران ایک پُل کا کام کرتے ہیں: کہانی اور عبادت سے لے کر خود کے اپنشدک وژن، حقیقت کی نوعیت، اور آزادی (موکشا) کی گہری تحقیقات تک۔"
+    }
 }

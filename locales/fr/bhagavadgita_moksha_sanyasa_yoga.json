@@ -1,65 +1,65 @@
 {
-  "bhagavadgita_moksha-sanyasa-yoga": {
-    "title": "Moksha Sanyasa Yoga – Bhagavad Gita Chapter Overview",
-    "description": "Chapter overview for Moksha Sanyasa Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-    "meta": {
-      "title": "Moksha Sanyasa Yoga – Bhagavad Gita Chapter Overview",
-      "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/moksha-sanyasa-yoga",
-      "description": "Chapter overview for Moksha Sanyasa Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "keywords": [
-        "Moksha Sanyasa Yoga",
-        "Bhagavad Gita",
-        "Krishna",
-        "Yoga",
-        "dharma",
-        "Vedanta"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/moksha-sanyasa-yoga",
-      "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_moksha_sanyasa_yoga.png"
-    },
-    "openGraph": {
-      "title": "Moksha Sanyasa Yoga – Bhagavad Gita Chapter Overview",
-      "description": "Chapter overview for Moksha Sanyasa Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/moksha-sanyasa-yoga",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/bhagavadgita_moksha_sanyasa_yoga.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Moksha Sanyasa Yoga – Bhagavad Gita Chapter Overview"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Moksha Sanyasa Yoga – Bhagavad Gita Chapter Overview",
-      "description": "Chapter overview for Moksha Sanyasa Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/moksha-sanyasa-yoga",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "Moksha Sanyasa Yoga is a chapter of the Bhagavad Gita. Each chapter traditionally carries a “yoga” emphasis—an angle of practice or understanding—while keeping the teaching integrated: act with clarity, cultivate devotion, and refine knowledge so the mind becomes steady.\n\nThis page summarizes the chapter’s usual themes and offers reflection prompts without quoting specific verses.",
-    "scripture_text": [
-      {
-        "section": "Key ideas",
-        "content": "A compact overview of the main teachings typically associated with this chapter, and how they relate to dharma and yoga."
-      },
-      {
-        "section": "Practical application",
-        "content": "How the chapter’s teaching can be applied to daily work, relationships, and decision-making—especially under stress."
-      },
-      {
-        "section": "Reflection prompts",
-        "content": "What am I attached to? Where is my duty unclear? Can I act with sincerity while releasing obsession with outcomes?"
-      }
-    ],
-    "philosophical_explanation": "Gita philosophy centers on inner freedom: not the absence of action, but the purification of intention. When ego-driven attachment reduces, action becomes cleaner and the mind becomes capable of deeper insight."
-  }
+    "bhagavadgita_moksha-sanyasa-yoga": {
+        "title": "Moksha Sanyasa Yoga – Aperçu du chapitre de la Bhagavad Gita",
+        "description": "Aperçu du chapitre du Moksha Sanyasa Yoga : enseignements centraux, concepts clés et conseils pratiques de la Bhagavad Gita.",
+        "meta": {
+            "title": "Moksha Sanyasa Yoga – Aperçu du chapitre de la Bhagavad Gita",
+            "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/moksha-sanyasa-yoga",
+            "description": "Aperçu du chapitre du Moksha Sanyasa Yoga : enseignements centraux, concepts clés et conseils pratiques de la Bhagavad Gita.",
+            "keywords": [
+                "Yoga Moksha Sanyasa",
+                "Bhagavad Gita",
+                "Krishna",
+                "Yoga",
+                "dharma",
+                "Védanta"
+            ],
+            "robots": "indexer, suivre",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/moksha-sanyasa-yoga",
+            "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_moksha_sanyasa_yoga.png"
+        },
+        "openGraph": {
+            "title": "Moksha Sanyasa Yoga – Aperçu du chapitre de la Bhagavad Gita",
+            "description": "Aperçu du chapitre du Moksha Sanyasa Yoga : enseignements centraux, concepts clés et conseils pratiques de la Bhagavad Gita.",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/moksha-sanyasa-yoga",
+            "siteName": "Sanatanadharman",
+            "type": "article",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/bhagavadgita_moksha_sanyasa_yoga.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Moksha Sanyasa Yoga – Bhagavad Gita Chapter Overview"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "Articles",
+            "name": "Moksha Sanyasa Yoga – Aperçu du chapitre de la Bhagavad Gita",
+            "description": "Aperçu du chapitre du Moksha Sanyasa Yoga : enseignements centraux, concepts clés et conseils pratiques de la Bhagavad Gita.",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/moksha-sanyasa-yoga",
+            "isPartOf": {
+                "@type": "Site Web",
+                "name": "Sanatanadharman",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "Moksha Sanyasa Yoga est un chapitre de la Bhagavad Gita. Chaque chapitre met traditionnellement l'accent sur le « yoga » – un angle de pratique ou de compréhension – tout en gardant l'enseignement intégré : agir avec clarté, cultiver la dévotion et affiner les connaissances pour que l'esprit devienne stable.\n\nCette page résume les thèmes habituels du chapitre et propose des pistes de réflexion sans citer de versets spécifiques.",
+        "scripture_text": [
+            {
+                "section": "Idées clés",
+                "content": "Un aperçu compact des principaux enseignements généralement associés à ce chapitre et de leur lien avec le dharma et le yoga."
+            },
+            {
+                "section": "Application pratique",
+                "content": "Comment l’enseignement du chapitre peut être appliqué au travail quotidien, aux relations et à la prise de décision, en particulier dans des situations de stress."
+            },
+            {
+                "section": "Invites à la réflexion",
+                "content": "A quoi suis-je attaché ? Où mon devoir n'est-il pas clair ? Puis-je agir avec sincérité tout en me libérant de l’obsession des résultats ?"
+            }
+        ],
+        "philosophical_explanation": "La philosophie de Gita se concentre sur la liberté intérieure : non pas l’absence d’action, mais la purification de l’intention. Lorsque l’attachement motivé par l’ego diminue, l’action devient plus propre et l’esprit devient capable d’une vision plus profonde."
+    }
 }

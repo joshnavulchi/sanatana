@@ -9,6 +9,19 @@ from deep_translator import GoogleTranslator
 from deep_translator import exceptions as dt_exceptions
 
 
+def resolve_locales_root(locales_dir_arg: str | None) -> str:
+    repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+    default_locales = os.path.join(repo_root, "locales")
+
+    if not locales_dir_arg:
+        return default_locales
+
+    # Allow relative paths (relative to repo root)
+    if os.path.isabs(locales_dir_arg):
+        return locales_dir_arg
+    return os.path.abspath(os.path.join(repo_root, locales_dir_arg))
+
+
 def translate_text(text, target_lang, chunk_size=500):
     """Translate long text by splitting into chunks under 5000 characters."""
     translator = GoogleTranslator(source="en", target=target_lang)
@@ -300,15 +313,22 @@ def safe_write_json(path, data):
 
 
 def main():
-    source_dir = os.path.join("locales", "en")
-
     parser = argparse.ArgumentParser(description="Translate locale JSON files")
     parser.add_argument("--non-interactive", action="store_true", help="Run without prompts (all files → all locales)")
     parser.add_argument("--files", help="Comma-separated filenames from locales/en to translate (e.g. donate.json,home.json)")
     parser.add_argument("--locales", help="Comma-separated locale codes to translate into (e.g. es,fr)")
+    parser.add_argument("--locales-dir", help="Path to locales directory (default: <repo>/locales)")
     parser.add_argument("--translate-workers", type=int, help="Per-locale batch workers (overrides TRANSLATE_WORKERS env)")
     parser.add_argument("--locale-workers", type=int, help="Parallel locale workers (overrides TRANSLATE_LOCALE_WORKERS env)")
     args = parser.parse_args()
+
+    locales_root = resolve_locales_root(args.locales_dir)
+    source_dir = os.path.join(locales_root, "en")
+
+    if not os.path.isdir(source_dir):
+        print(f"Locales source directory not found: {source_dir}")
+        print("Tip: run from the repo root or pass --locales-dir=./locales")
+        sys.exit(1)
 
     non_interactive = args.non_interactive
 
@@ -347,7 +367,6 @@ def main():
                 sys.exit(1)
 
     # Determine available locale directories (exclude 'en')
-    locales_root = "locales"
     all_locales = [d for d in os.listdir(locales_root) if os.path.isdir(os.path.join(locales_root, d))]
     available_locales = [lc for lc in all_locales if lc.lower() != "en"]
     if not available_locales:

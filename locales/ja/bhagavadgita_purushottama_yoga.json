@@ -1,65 +1,65 @@
 {
-  "bhagavadgita_purushottama-yoga": {
-    "title": "Purushottama Yoga – Bhagavad Gita Chapter Overview",
-    "description": "Chapter overview for Purushottama Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-    "meta": {
-      "title": "Purushottama Yoga – Bhagavad Gita Chapter Overview",
-      "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/purushottama-yoga",
-      "description": "Chapter overview for Purushottama Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "keywords": [
-        "Purushottama Yoga",
-        "Bhagavad Gita",
-        "Krishna",
-        "Yoga",
-        "dharma",
-        "Vedanta"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/purushottama-yoga",
-      "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_purushottama_yoga.png"
-    },
-    "openGraph": {
-      "title": "Purushottama Yoga – Bhagavad Gita Chapter Overview",
-      "description": "Chapter overview for Purushottama Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/purushottama-yoga",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/bhagavadgita_purushottama_yoga.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Purushottama Yoga – Bhagavad Gita Chapter Overview"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Purushottama Yoga – Bhagavad Gita Chapter Overview",
-      "description": "Chapter overview for Purushottama Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/purushottama-yoga",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "Purushottama Yoga is a chapter of the Bhagavad Gita. Each chapter traditionally carries a “yoga” emphasis—an angle of practice or understanding—while keeping the teaching integrated: act with clarity, cultivate devotion, and refine knowledge so the mind becomes steady.\n\nThis page summarizes the chapter’s usual themes and offers reflection prompts without quoting specific verses.",
-    "scripture_text": [
-      {
-        "section": "Key ideas",
-        "content": "A compact overview of the main teachings typically associated with this chapter, and how they relate to dharma and yoga."
-      },
-      {
-        "section": "Practical application",
-        "content": "How the chapter’s teaching can be applied to daily work, relationships, and decision-making—especially under stress."
-      },
-      {
-        "section": "Reflection prompts",
-        "content": "What am I attached to? Where is my duty unclear? Can I act with sincerity while releasing obsession with outcomes?"
-      }
-    ],
-    "philosophical_explanation": "Gita philosophy centers on inner freedom: not the absence of action, but the purification of intention. When ego-driven attachment reduces, action becomes cleaner and the mind becomes capable of deeper insight."
-  }
+    "bhagavadgita_purushottama-yoga": {
+        "title": "プルショタマ ヨガ – バガヴァッド ギーター章の概要",
+        "description": "プルショタマ ヨガの章の概要: バガヴァッド ギーターの中心的な教え、主要な概念、実践的なガイダンス。",
+        "meta": {
+            "title": "プルショタマ ヨガ – バガヴァッド ギーター章の概要",
+            "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/purushottama-yoga",
+            "description": "プルショタマ ヨガの章の概要: バガヴァッド ギーターの中心的な教え、主要な概念、実践的なガイダンス。",
+            "keywords": [
+                "プルショタマヨガ",
+                "バガヴァッド・ギーター",
+                "クリシュナ",
+                "ヨガ",
+                "ダルマ",
+                "ヴェダンタ"
+            ],
+            "robots": "インデックス、フォロー",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/purushottama-yoga",
+            "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_purushottama_yoga.png"
+        },
+        "openGraph": {
+            "title": "プルショタマ ヨガ – バガヴァッド ギーター章の概要",
+            "description": "プルショタマ ヨガの章の概要: バガヴァッド ギーターの中心的な教え、主要な概念、実践的なガイダンス。",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/purushottama-yoga",
+            "siteName": "サナタナダルマム",
+            "type": "記事",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/bhagavadgita_purushottama_yoga.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Purushottama Yoga – Bhagavad Gita Chapter Overview"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "記事",
+            "name": "プルショタマ ヨガ – バガヴァッド ギーター章の概要",
+            "description": "プルショタマ ヨガの章の概要: バガヴァッド ギーターの中心的な教え、主要な概念、実践的なガイダンス。",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/purushottama-yoga",
+            "isPartOf": {
+                "@type": "ウェブサイト",
+                "name": "サナタナダルマム",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "プルショタマ ヨガはバガヴァッド ギーターの一章です。各章は伝統的に、実践や理解の角度である「ヨガ」に重点を置き、その教えを統合しつつ、明晰に行動し、帰依心を養い、心が安定するように知識を磨くというものです。\n\nこのページでは、その章の通常のテーマを要約し、特定の節を引用せずに考察を促します。",
+        "scripture_text": [
+            {
+                "section": "重要なアイデア",
+                "content": "この章に関連する主な教えと、それらがダルマとヨーガにどのように関連しているかを簡潔にまとめたものです。"
+            },
+            {
+                "section": "実用化",
+                "content": "この章の教えを、特にストレス下での日常の仕事、人間関係、意思決定にどのように適用できるか。"
+            },
+            {
+                "section": "反省のプロンプト",
+                "content": "私は何に執着しているのでしょうか？私の義務のどこが不明確ですか?結果への執着を手放し、誠実に行動できるか？"
+            }
+        ],
+        "philosophical_explanation": "ギータ哲学は内なる自由、つまり行為の不在ではなく、意図の浄化に重点を置いています。エゴによる執着が減少すると、行動はよりクリーンになり、心はより深い洞察力を得ることができるようになります。"
+    }
 }

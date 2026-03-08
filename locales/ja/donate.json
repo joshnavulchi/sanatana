@@ -1,141 +1,141 @@
 {
-  "donate": {
-    "title": "Donate – Support Sanatanadharmam | Preserve Sanatana Dharma Knowledge",
-    "description": "Support Sanatanadharmam through donations to help preserve Vedic knowledge, translations, and spiritual teachings of Sanatana Dharma.",
-    "meta": {
-      "title": "Donate – Support Sanatanadharmam | Preserve Sanatana Dharma Knowledge",
-      "canonical": "https://sanatanadharmam.in/donate",
-      "description": "Support Sanatanadharmam through donations to help preserve Vedic knowledge, translations, and spiritual teachings of Sanatana Dharma.",
-      "keywords": [
-        "donate sanatanadharmam",
-        "support sanatana dharma",
-        "sanatana dharma donations",
-        "vedic knowledge support",
-        "donate for spiritual education",
-        "support hindu philosophy website",
-        "sanatana dharma donation",
-        "support vedic scriptures project",
-        "donation for dharma knowledge"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/donate"
-    },
-    "openGraph": {
-      "title": "Support Sanatanadharmam – Help Preserve Sanatana Dharma",
-      "description": "Contribute to Sanatanadharmam to support preservation and sharing of Vedic knowledge, scriptures and spiritual wisdom.",
-      "url": "https://sanatanadharmam.in/donate",
-      "siteName": "Sanatanadharmam",
-      "type": "website",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/donate.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Support Sanatanadharmam Donations"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "DonateAction",
-          "name": "Donate to Support Sanatanadharmam",
-          "target": "https://sanatanadharmam.in/donate",
-          "description": "Donation page supporting preservation and sharing of Sanatana Dharma knowledge."
-        },
-        {
-          "@type": "Organization",
-          "name": "Sanatanadharmam",
-          "url": "https://sanatanadharmam.in",
-          "logo": "https://sanatanadharmam.in/images/logo.png",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "contactType": "customer support",
-            "areaServed": "Worldwide",
-            "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Arabic",
-              "German",
-              "Spanish",
-              "French",
-              "Japanese",
-              "Nepali",
-              "Dutch",
-              "Portuguese",
-              "Russian",
-              "Urdu",
-              "Chinese"
+    "donate": {
+        "title": "寄付 – Sanatanadharmam をサポート |サナタナ ダルマの知識を保持する",
+        "description": "ヴェーダの知識、翻訳、サナタナ ダルマの精神的な教えを保存するために、寄付を通じてサナタナダルマムを支援してください。",
+        "meta": {
+            "title": "寄付 – Sanatanadharmam をサポート |サナタナ ダルマの知識を保持する",
+            "canonical": "https://sanatanadharmam.in/donate",
+            "description": "ヴェーダの知識、翻訳、サナタナ ダルマの精神的な教えを保存するために、寄付を通じてサナタナダルマムを支援してください。",
+            "keywords": [
+                "サナタナダルマムを寄付する",
+                "サナタナ・ダルマをサポートします",
+                "サナタナダルマ寄付",
+                "ヴェーダ知識のサポート",
+                "精神的な教育のために寄付する",
+                "ヒンドゥー教哲学のウェブサイトをサポート",
+                "サナタナダルマ寄付",
+                "ヴェーダ経典プロジェクトを支援する",
+                "ダルマ知識のための寄付"
             ],
-            "email": "info@sanatanadharmam.in",
-            "telephone": "+91-8099181075"
-          }
+            "robots": "インデックス、フォロー",
+            "url": "https://sanatanadharmam.in/donate"
+        },
+        "openGraph": {
+            "title": "Sanatanadharmam をサポート – Sanatana Dharma の保存を支援します",
+            "description": "ヴェーダの知識、経典、霊的知恵の保存と共有を支援するために、Sanatanadharmam に寄付してください。",
+            "url": "https://sanatanadharmam.in/donate",
+            "siteName": "サナタナダルマム",
+            "type": "ウェブサイト",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/donate.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Support Sanatanadharmam Donations"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "寄付アクション",
+                    "name": "サナタナダルマムをサポートするために寄付する",
+                    "target": "https://sanatanadharmam.in/donate",
+                    "description": "Sanatana Dharma の知識の保存と共有をサポートする寄付ページ。"
+                },
+                {
+                    "@type": "組織",
+                    "name": "サナタナダルマム",
+                    "url": "https://sanatanadharmam.in",
+                    "logo": "https://sanatanadharmam.in/images/logo.png",
+                    "contactPoint": {
+                        "@type": "連絡先",
+                        "contactType": "カスタマーサポート",
+                        "areaServed": "世界中",
+                        "availableLanguage": [
+                            "英語",
+                            "ヒンディー語",
+                            "テルグ語",
+                            "アラビア語",
+                            "ドイツ語",
+                            "スペイン語",
+                            "フランス語",
+                            "日本語",
+                            "ネパール語",
+                            "オランダ語",
+                            "ポルトガル語",
+                            "ロシア語",
+                            "ウルドゥー語",
+                            "中国語"
+                        ],
+                        "email": "info@sanatanadharmam.in",
+                        "telephone": "+91-8099181075"
+                    }
+                }
+            ]
+        },
+        "donateoptions": {
+            "bank": {
+                "accountname": "V ヴィジャヤ クマール",
+                "accountnumber": "32160808608",
+                "heading": "UPI / 銀行振込",
+                "ifsc": "SBIN0010677",
+                "upi": "809918075@ybl"
+            },
+            "onetime": {
+                "heading": "1回限りの寄付",
+                "note": "UPI または国際的な支払い方法を使用して、安全な 1 回限りの寄付を行ってください。"
+            }
+        },
+        "expenses": {
+            "heading": "透明性: 現在の経費",
+            "table": [
+                {
+                    "cost": "₹3,500",
+                    "cycle": "3年",
+                    "name": "ドメインとホスティング",
+                    "provider": "ホスティンガー"
+                },
+                {
+                    "cost": "無料",
+                    "cycle": "無制限",
+                    "name": "GitHub ページ",
+                    "provider": "GitHub"
+                },
+                {
+                    "cost": "無料プラン",
+                    "cycle": "進行中",
+                    "name": "AIツール（研究）",
+                    "provider": "Google / マイクロソフト / メタ"
+                }
+            ]
+        },
+        "faq": {
+            "heading": "よくある質問",
+            "items": [
+                {
+                    "a": "はい。寄付は、信頼できる決済プロバイダーと直接銀行振込によって処理されます。",
+                    "q": "私の寄付は安全ですか?"
+                },
+                {
+                    "a": "あなたの貢献は、教育的なスピリチュアル コンテンツのホスティング、保守、作成をサポートします。",
+                    "q": "私の寄付金はどのように使われるのでしょうか？"
+                },
+                {
+                    "a": "いいえ、Sanātana Dharma は非営利の知識中心の取り組みです。",
+                    "q": "これは営利団体ですか?"
+                }
+            ]
+        },
+        "purpose": {
+            "heading": "あなたのサポートが重要な理由",
+            "points": [
+                "Sanātana Dharma の知識への無料アクセスを維持します",
+                "ウェブサイトのホスティング、ドメイン、メンテナンスをサポート",
+                "高品質なスピリチュアルコンテンツの制作が可能",
+                "プラットフォームを独立性と非営利性を維持します"
+            ]
         }
-      ]
-    },
-    "donateoptions": {
-      "bank": {
-        "accountname": "V Vijaya Kumar",
-        "accountnumber": "32160808608",
-        "heading": "UPI / Bank Transfer",
-        "ifsc": "SBIN0010677",
-        "upi": "809918075@ybl"
-      },
-      "onetime": {
-        "heading": "One-Time Donation",
-        "note": "Make a secure one-time donation via UPI or international payment methods."
-      }
-    },
-    "expenses": {
-      "heading": "Transparency: Current Expenses",
-      "table": [
-        {
-          "cost": "₹3,500",
-          "cycle": "3 Years",
-          "name": "Domain & Hosting",
-          "provider": "Hostinger"
-        },
-        {
-          "cost": "Free",
-          "cycle": "Unlimited",
-          "name": "GitHub Pages",
-          "provider": "GitHub"
-        },
-        {
-          "cost": "Free Plans",
-          "cycle": "Ongoing",
-          "name": "AI Tools (Research)",
-          "provider": "Google / Microsoft / Meta"
-        }
-      ]
-    },
-    "faq": {
-      "heading": "Frequently Asked Questions",
-      "items": [
-        {
-          "a": "Yes. Donations are processed via trusted payment providers and direct bank transfers.",
-          "q": "Is my donation secure?"
-        },
-        {
-          "a": "Your contribution supports hosting, maintenance, and creation of educational spiritual content.",
-          "q": "How will my donation be used?"
-        },
-        {
-          "a": "No. Sanātana Dharma is a non-commercial, knowledge-focused initiative.",
-          "q": "Is this a commercial organization?"
-        }
-      ]
-    },
-    "purpose": {
-      "heading": "Why Your Support Matters",
-      "points": [
-        "Preserves free access to Sanātana Dharma knowledge",
-        "Supports website hosting, domain, and maintenance",
-        "Enables creation of high-quality spiritual content",
-        "Keeps the platform independent and non-commercial"
-      ]
     }
-  }
 }

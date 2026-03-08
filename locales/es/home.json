@@ -1,303 +1,303 @@
 {
-  "home": {
-    "title": "Sanatana Dharma – Vedas, Upanishads, Hindu Philosophy & Spiritual Wisdom",
-    "description": "Explore Sanatana Dharma, the eternal tradition of Hindu philosophy. Learn about the Vedas, Upanishads, Bhagavad Gita, epics, spiritual practices, and timeless wisdom.",
-    "meta": {
-      "title": "Sanatana Dharma – Vedas, Upanishads, Hindu Philosophy & Spiritual Wisdom",
-      "canonical": "https://sanatanadharmam.in",
-      "description": "Explore Sanatana Dharma, the eternal tradition of Hindu philosophy. Learn about the Vedas, Upanishads, Bhagavad Gita, epics, spiritual practices, and timeless wisdom.",
-      "keywords": [
-        "Sanatana Dharma",
-        "Hindu philosophy",
-        "Vedas",
-        "Upanishads",
-        "Bhagavad Gita",
-        "Hindu scriptures",
-        "Dharma karma moksha",
-        "Vedic traditions",
-        "Hindu spiritual teachings",
-        "Sanatana Dharma meaning"
-      ],
-      "ogImage": "https://sanatanadharmam.in/images/og/home.png",
-      "url": "https://sanatanadharmam.in"
-    },
-    "openGraph": {
-      "title": "Sanatana Dharma – Vedas, Upanishads, Hindu Philosophy & Spiritual Wisdom",
-      "description": "Explore Sanatana Dharma, the eternal tradition of Hindu philosophy. Discover the Vedas, Upanishads, Bhagavad Gita, epics, and timeless spiritual wisdom.",
-      "url": "https://sanatanadharmam.in",
-      "siteName": "Sanatanadharmam",
-      "type": "website",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/images/og/home.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Sanatana Dharma – Eternal Wisdom and Vedic Knowledge"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Organization",
-          "name": "Sanatanadharmam",
-          "url": "https://sanatanadharmam.in",
-          "logo": "https://sanatanadharmam.in/images/logo.png",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "contactType": "customer support",
-            "areaServed": "Worldwide",
-            "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Arabic",
-              "German",
-              "Spanish",
-              "French",
-              "Japanese",
-              "Nepali",
-              "Dutch",
-              "Portuguese",
-              "Russian",
-              "Urdu",
-              "Chinese"
+    "home": {
+        "title": "Sanatana Dharma: Vedas, Upanishads, filosofía hindú y sabiduría espiritual",
+        "description": "Explora Sanatana Dharma, la eterna tradición de la filosofía hindú. Aprenda sobre los Vedas, Upanishads, Bhagavad Gita, epopeyas, prácticas espirituales y sabiduría eterna.",
+        "meta": {
+            "title": "Sanatana Dharma: Vedas, Upanishads, filosofía hindú y sabiduría espiritual",
+            "canonical": "https://sanatanadharmam.in",
+            "description": "Explora Sanatana Dharma, la eterna tradición de la filosofía hindú. Aprenda sobre los Vedas, Upanishads, Bhagavad Gita, epopeyas, prácticas espirituales y sabiduría eterna.",
+            "keywords": [
+                "Sanatana Dharma",
+                "Filosofía hindú",
+                "Vedas",
+                "Upanishads",
+                "Bhagavad Gita",
+                "escrituras hindúes",
+                "Dharma karma moksha",
+                "Tradiciones védicas",
+                "Enseñanzas espirituales hindúes",
+                "Significado de Sanatana Dharma"
             ],
-            "email": "info@sanatanadharmam.in",
-            "telephone": "+91-8099181075"
-          }
+            "ogImage": "https://sanatanadharmam.in/images/og/home.png",
+            "url": "https://sanatanadharmam.in"
         },
-        {
-          "@type": "WebSite",
-          "name": "Sanatanadharmam",
-          "url": "https://sanatanadharmam.in",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://sanatanadharmam.in/search?q={search_term_string}",
-            "query-input": "required name=search_term_string"
-          }
+        "openGraph": {
+            "title": "Sanatana Dharma: Vedas, Upanishads, filosofía hindú y sabiduría espiritual",
+            "description": "Explora Sanatana Dharma, la eterna tradición de la filosofía hindú. Descubra los Vedas, los Upanishads, el Bhagavad Gita, las epopeyas y la sabiduría espiritual eterna.",
+            "url": "https://sanatanadharmam.in",
+            "siteName": "Sanatanadharmam",
+            "type": "sitio web",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/images/og/home.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Sanatana Dharma – Eternal Wisdom and Vedic Knowledge"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "Organización",
+                    "name": "Sanatanadharmam",
+                    "url": "https://sanatanadharmam.in",
+                    "logo": "https://sanatanadharmam.in/images/logo.png",
+                    "contactPoint": {
+                        "@type": "Punto de contacto",
+                        "contactType": "atención al cliente",
+                        "areaServed": "Mundial",
+                        "availableLanguage": [
+                            "Inglés",
+                            "hindi",
+                            "telugu",
+                            "árabe",
+                            "Alemán",
+                            "Español",
+                            "Francés",
+                            "japonés",
+                            "nepalí",
+                            "Holandés",
+                            "portugués",
+                            "ruso",
+                            "urdu",
+                            "Chino"
+                        ],
+                        "email": "info@sanatanadharmam.in",
+                        "telephone": "+91-8099181075"
+                    }
+                },
+                {
+                    "@type": "Sitio web",
+                    "name": "Sanatanadharmam",
+                    "url": "https://sanatanadharmam.in",
+                    "potentialAction": {
+                        "@type": "Acción de búsqueda",
+                        "target": "https://sanatanadharmam.in/search?q={search_term_string}",
+                        "query-input": "nombre requerido=cadena_término_búsqueda"
+                    }
+                }
+            ]
+        },
+        "welcome": {
+            "clarity_devotion": "claridad, devoción y gracia divina.",
+            "close": "Cerca",
+            "deeply_honored": "Nos sentimos profundamente honrados y bendecidos por su presencia aquí.",
+            "do_not": "No volver a mostrar este mensaje de bienvenida",
+            "eternal_truths": "verdades eternas del Sanātana Dharma",
+            "may_journey": "Que tu viaje a través de estas antiguas enseñanzas te traiga",
+            "namaste_welcome": "Namasté y Bienvenida",
+            "thank_taking": "Gracias por dar este paso sagrado hacia la comprensión y la aceptación de la",
+            "timeless_wisdom": "— la sabiduría eterna que ilumina el camino hacia la paz interior, la rectitud y el despertar espiritual.",
+            "truth_alone": "Sólo la verdad triunfa · El Dharma protege a quienes lo protegen"
+        },
+        "hero": {
+            "description": "Una tradición espiritual atemporal arraigada en el darma, el karma y la autorrealización, que guía a la humanidad más allá del tiempo, la cultura y las creencias.",
+            "heading": "Sanātana Dharma",
+            "primarycta": {
+                "label": "Explorar las Escrituras",
+                "link": "scriptures/bhagavadgita"
+            },
+            "scroll": "Desplácese para obtener más información",
+            "secondarycta": {
+                "label": "Empezar a aprender",
+                "link": "sanatanadharma"
+            },
+            "subheading": "El camino de vida eterno"
+        },
+        "sections": [
+            {
+                "title": "¿Qué es el Sanātana Dharma?",
+                "content": "Sanātana Dharma, a menudo traducido como “camino eterno”, no es simplemente una religión sino un marco atemporal que guía la vida humana hacia la armonía con la verdad cósmica. Arraigado en la sabiduría védica, enfatiza los principios universales: Dharma (deber justo), Karma (acción y consecuencia), Moksha (liberación) y la búsqueda de la verdad. Enseña compasión, no violencia, respeto por todos los seres y reverencia por la naturaleza divina. A diferencia de los dogmas rígidos, se adapta a todas las edades, culturas y contextos, ofreciendo una filosofía viva de equilibrio, autorrealización y unidad. Sanātana Dharma afirma en última instancia que la existencia misma es sagrada y que el propósito de la vida es realizar la unidad con lo eterno.",
+                "id": "introducción",
+                "nodecaration": true,
+                "src": "/images/home/om.png"
+            },
+            {
+                "title": "¿Cuáles son las Sagradas Escrituras?",
+                "content": "Las Sagradas Escrituras son textos venerados que encarnan la sabiduría divina y guían a la humanidad hacia la verdad, la virtud y la liberación. No son meros registros históricos sino fuentes vivas de luz espiritual que ofrecen principios eternos para una vida recta. Las Escrituras preservan revelaciones, himnos y enseñanzas que inspiran devoción, disciplina y autorrealización. Conectan a los buscadores con lo eterno, recordándonos lo sagrado de la existencia y la unidad de todos los seres. A través de historias, filosofía y códigos morales, fomentan la compasión, la fe y la fuerza interior. Las Sagradas Escrituras sirven en última instancia como puentes entre lo humano y lo divino, iluminando el camino eterno de la armonía.",
+                "id": "escrituras",
+                "items": [
+                    {
+                        "title": "Los Vedas",
+                        "description": "Sabiduría · Himnos · Dharma · Cosmos · Liberación",
+                        "href": "/scriptures/vedas",
+                        "src": "/images/home/the-vedas.png"
+                    },
+                    {
+                        "title": "Los Upanishads",
+                        "description": "Brahman · Atman · Conocimiento · Liberación · Unidad",
+                        "href": "/scriptures/upanishads",
+                        "src": "/images/home/the-upanishads.png"
+                    },
+                    {
+                        "title": "Los Itihāsas",
+                        "description": "Deber · Devoción · Conflicto · Dharma · Legado",
+                        "href": "/scriptures/itihasas",
+                        "src": "/images/home/the-ithihas.png"
+                    },
+                    {
+                        "title": "Puranas",
+                        "description": "Mitología · Cosmología · Leyendas · Devoción · Dharma",
+                        "href": "/scriptures/puranas",
+                        "src": "/images/home/the-puranas.png"
+                    }
+                ]
+            },
+            {
+                "title": "🌿 ¿Una Tradición Espiritual Viva significa?",
+                "content": "Una Tradición Espiritual Viva no es una reliquia del pasado sino una corriente de sabiduría vibrante y en evolución que fluye a través de generaciones. Encarna valores atemporales mientras se adapta a la vida contemporánea, guiando a los buscadores con relevancia y autenticidad. Esta tradición se sustenta en la práctica, la comunidad y la devoción, donde los rituales, las historias y las enseñanzas permanecen dinámicos en lugar de estáticos. Se respira a través de acciones diarias, decisiones éticas y celebraciones compartidas, fomentando tanto el crecimiento individual como la armonía colectiva. Al honrar las raíces y al mismo tiempo abrazar el cambio, se garantiza la continuidad del espíritu y se ofrece a la humanidad un puente vivo entre la visión antigua y la experiencia moderna.",
+                "id": "tradición viva",
+                "nodecaration": true
+            },
+            {
+                "title": "¿Principios básicos del Sanātana Dharma?",
+                "content": "Los principios básicos del Sanātana Dharma son pautas eternas para una vida recta y la realización espiritual. El Dharma enseña el deber, la verdad y la armonía con el orden cósmico. Karma revela la ley de causa y efecto, instando a una acción consciente. Atman significa el alma inmortal, mientras que Brahman es la realidad infinita; darse cuenta de su unidad conduce a la liberación. Moksha, la libertad del renacimiento, es el objetivo más elevado. Los Purusharthas (Dharma, Artha, Kama, Moksha) equilibran la ética, la prosperidad, el deseo y la liberación. Arraigados en los Vedas y los Upanishads, estos principios siguen siendo atemporales e inspiran a la humanidad a vivir con compasión, sabiduría y equilibrio, uniendo el conocimiento antiguo con la vida moderna.",
+                "id": "principios",
+                "items": [
+                    {
+                        "title": "Dharma",
+                        "description": "Rectitud · Deber · Armonía · Justicia · Verdad",
+                        "href": "/philosophy/dharma",
+                        "src": "/images/home/dharma.png"
+                    },
+                    {
+                        "title": "Karma",
+                        "description": "Acción · Causa · Efecto · Responsabilidad · Consecuencia",
+                        "href": "/philosophy/karma",
+                        "src": "/images/home/karma.png"
+                    },
+                    {
+                        "title": "Moksha",
+                        "description": "Liberación · Libertad · Unidad · Bienaventuranza · Eternidad",
+                        "href": "/philosophy/moksha",
+                        "src": "/images/home/moksha.png"
+                    },
+                    {
+                        "title": "Ahimsa",
+                        "description": "No violencia · Compasión · Respeto · Armonía · Amor",
+                        "href": "/philosophy/ahimsa",
+                        "src": "/images/home/ahimsa.png"
+                    },
+                    {
+                        "title": "Satya",
+                        "description": "Verdad · Honestidad · Integridad · Autenticidad · Rectitud",
+                        "href": "/philosophy/satya",
+                        "src": "/images/home/satya.png"
+                    }
+                ]
+            },
+            {
+                "title": "Compromiso con la autenticidad",
+                "content": "El compromiso con la autenticidad significa vivir con sinceridad, honrar los valores, expresar una identidad genuina, rechazar la falsedad, fomentar la integridad y encarnar la transparencia en las relaciones, las acciones y la práctica espiritual.",
+                "id": "autenticidad",
+                "nodecaration": true
+            },
+            {
+                "title": "¿Por qué es importante el Sanātana Dharma hoy?",
+                "content": "Sanātana Dharma es importante hoy porque ofrece sabiduría eterna para los desafíos modernos. Arraigada en los valores universales de verdad, compasión y armonía, trasciende la religión para guiar a la humanidad hacia una vida ética y un equilibrio espiritual. En una era de cambios rápidos, sus principios (Dharma, Karma y Moksha) nos recuerdan la responsabilidad, la acción consciente y la liberación más allá de las actividades materiales. Fomenta la inclusión, el respeto por la diversidad y la reverencia por la naturaleza, alineándose con una vida sostenible. Al unir la visión antigua con las necesidades contemporáneas, Sanātana Dharma inspira resiliencia, paz y unidad, mostrando que las verdades eternas siguen siendo relevantes para dar forma a un mundo justo, compasivo y equilibrado.",
+                "id": "pertinencia",
+                "points": [
+                    "Claridad mental en un mundo acelerado",
+                    "Fundamentos éticos para la sociedad moderna.",
+                    "Visibilidad de la conciencia y la atención plena.",
+                    "Armonía entre progreso y responsabilidad"
+                ],
+                "pointsrc": [
+                    "/images/home/why-sanatana-1.png",
+                    "/images/home/why-sanatana-2.png",
+                    "/images/home/why-sanatana-3.png",
+                    "/images/home/why-sanatana-4.png"
+                ]
+            },
+            {
+                "title": "¿Propósito del Sanātana Dharma?",
+                "content": "El propósito del Sanātana Dharma es guiar a la humanidad hacia una vida recta, un despertar espiritual y la armonía con el cosmos. Enseña que la vida no es meramente material sino un viaje sagrado de autorrealización. A través del Dharma uno aprende el deber y la verdad; a través del Karma, la ley de acción; a través de Moksha, la liberación del renacimiento. Su objetivo es el equilibrio (entre las actividades mundanas y la sabiduría eterna) para que las personas vivan éticamente, prosperen de manera responsable, disfruten sus deseos con atención y, en última instancia, trasciendan las limitaciones. Arraigado en la compasión, la inclusión y la reverencia por la naturaleza, Sanātana Dharma fomenta la paz, la unidad y los valores atemporales, ofreciendo a la humanidad un camino hacia la plenitud duradera y la conexión divina.",
+                "id": "objetivo",
+                "nodecaration": true
+            },
+            {
+                "title": "¿Qué encontrarás aquí?",
+                "content": "Lo que encontrará aquí sobre Sanātana Dharma es un tesoro viviente de sabiduría eterna, que guía a los buscadores hacia la verdad, la armonía y la liberación. No se limita únicamente a los rituales, sino que abarca la filosofía, la ética y la devoción. Descubrirás la esencia del Dharma, la ley del Karma, la búsqueda de Moksha y el equilibrio de Purusharthas. Aquí, escrituras sagradas como los Vedas, los Upanishads y el Bhagavathgita iluminan valores eternos. Sanātana Dharma fomenta la compasión, la inclusión y la reverencia por la naturaleza, ofreciendo a la humanidad un camino de resiliencia y paz. Une la visión antigua con la relevancia moderna, inspirando una vida equilibrada y con propósito.",
+                "id": "ofrendas",
+                "points": [
+                    "Explicaciones del Bhagavathgita por capítulos",
+                    "Introducciones a los Vedas y Upanishads",
+                    "Claridad de conceptos sobre Karma y Dharma.",
+                    "Ideas filosóficas de los Puranas",
+                    "Relevancia práctica para la vida moderna"
+                ],
+                "pointsrc": ""
+            },
+            {
+                "title": "Un viaje atemporal",
+                "content": "Un viaje eterno en el Sanātana Dharma es el camino eterno del autodescubrimiento, el deber y la liberación. Comienza con el Dharma, la práctica de la verdad y la rectitud, que guía la vida diaria con armonía. Karma enseña que cada acción moldea el destino, instando a tomar decisiones conscientes. La búsqueda del alma es realizar su unidad con Brahman, la realidad infinita. A través de la devoción, la sabiduría y la disciplina, los buscadores progresan hacia Moksha, la libertad del renacimiento. Este viaje no está limitado por el tiempo o la cultura; fluye a través de generaciones, fomentando la compasión, la inclusión y la reverencia por la naturaleza. Sanātana Dharma ofrece a la humanidad un puente vivo entre la sabiduría antigua y la relevancia moderna.",
+                "id": "viaje",
+                "nodecaration": true
+            }
+        ],
+        "ourfourcoreyugas": [
+            {
+                "description": [
+                    "La verdad y la rectitud prevalecen",
+                    "Larga vida y perfecta salud.",
+                    "Conciencia divina directa"
+                ],
+                "gradientfrom": "de-ámbar-700",
+                "gradientto": "a-naranja-600",
+                "name": "Satya Yuga",
+                "subtitle": "edad del dharma",
+                "years": "1.728.000 años"
+            },
+            {
+                "description": [
+                    "Ligera decadencia del dharma",
+                    "Era del Ramayana",
+                    "La disciplina espiritual sigue siendo fuerte"
+                ],
+                "gradientfrom": "de-naranja-500",
+                "gradientto": "a-ámbar-400",
+                "name": "Treta-Yuga",
+                "subtitle": "edad de divorcio",
+                "years": "1.296.000 años"
+            },
+            {
+                "description": [
+                    "Dharma reducido a la mitad",
+                    "Era del Mahabharata",
+                    "Aumento del conflicto y la complejidad."
+                ],
+                "gradientfrom": "de-rosa-500",
+                "gradientto": "a-naranja-500",
+                "name": "Dvapara Yuga",
+                "subtitle": "edad del dharma",
+                "years": "864.000 años"
+            },
+            {
+                "description": [
+                    "El materialismo y la ignorancia dominan",
+                    "La práctica espiritual es difícil.",
+                    "La liberación es posible a través de la devoción."
+                ],
+                "gradientfrom": "de-rojo-700",
+                "gradientto": "a-rosa-700",
+                "name": "Kali Yuga",
+                "subtitle": "edad popular",
+                "years": "432.000 años"
+            }
+        ],
+        "earth_age_comparison_note": "1 Kalpa (4,32 mil millones de años) está sorprendentemente cerca de la estimación científica moderna de la edad de la Tierra (~4,54 mil millones de años).",
+        "scaling_comment": "Esta escala matemática está altamente estructurada y proporcional en todos los niveles cósmicos.",
+        "ourfourcoreyugassubtitle": "La forma de vida eterna y universal basada en la verdad, la rectitud y los principios espirituales que sostienen el orden cósmico. Estos números no son aleatorios. Se derivan de una unidad base de 432.000, multiplicada proporcionalmente (4: 3: 2: 1). Un día completo de Brahma: Vida de Brahma - 100 años de Brahma - Cada año = 360 días - Cada día = 4 yugas (edades) - Total = 311.040.000.000 de años humanos.",
+        "ourfourcoreyugastitle": "Explora Sanātana Dharma",
+        "cta": {
+            "title": "¡Ayúdanos a hacer que este sitio web sea multilingüe!",
+            "badge": "Compatible: EN, TA, HI",
+            "contribute": "Contribuya ahora",
+            "guidelines": "Directrices de traducción",
+            "subtitle": "Su contribución hace que nuestro sitio web sea accesible para todos. Únase a nuestra comunidad global de traductores.",
+            "targeting": "Orientación: 10 idiomas · 60% completado"
         }
-      ]
-    },
-    "welcome": {
-      "clarity_devotion": "clarity, devotion, and divine grace",
-      "close": "Close",
-      "deeply_honored": "We are deeply honored and blessed by your presence here.",
-      "do_not": "Do not show this welcome message again",
-      "eternal_truths": "eternal truths of Sanātana Dharma",
-      "may_journey": "May your journey through these ancient teachings bring you",
-      "namaste_welcome": "Namaste & Welcome",
-      "thank_taking": "Thank you for taking this sacred step towards understanding and embracing the",
-      "timeless_wisdom": "— the timeless wisdom that illuminates the path to inner peace, righteousness, and spiritual awakening.",
-      "truth_alone": "Truth Alone Triumphs · Dharma Protects Those Who Protect It"
-    },
-    "hero": {
-      "description": "A timeless spiritual tradition rooted in darma, karma, and self-realization, guiding humanity beyond time, culture, and belief.",
-      "heading": "Sanātana Dharma",
-      "primarycta": {
-        "label": "Explore scriptures",
-        "link": "scriptures/bhagavadgita"
-      },
-      "scroll": "Scroll to Learn More",
-      "secondarycta": {
-        "label": "Start Learning",
-        "link": "sanatanadharma"
-      },
-      "subheading": "The Eternal Way of Life"
-    },
-    "sections": [
-      {
-        "title": "What is Sanātana Dharma?",
-        "content": "Sanātana Dharma, often translated as the “eternal way,” is not merely a religion but a timeless framework guiding human life toward harmony with cosmic truth. Rooted in Vedic wisdom, it emphasizes universal principles—Dharma (righteous duty), Karma (action and consequence), Moksha (liberation), and the pursuit of truth. It teaches compassion, non-violence, respect for all beings, and reverence for nature as divine. Unlike rigid dogma, it adapts across ages, cultures, and contexts, offering a living philosophy of balance, self-realization, and unity. Sanātana Dharma ultimately affirms that existence itself is sacred, and life’s purpose is realizing oneness with the eternal.",
-        "id": "introduction",
-        "nodecaration": true,
-        "src": "/images/home/om.png"
-      },
-      {
-        "title": "The are the Sacred Scriptures?",
-        "content": "The Sacred Scriptures are revered texts that embody divine wisdom, guiding humanity toward truth, virtue, and liberation. They are not merely historical records but living sources of spiritual light, offering timeless principles for righteous living. Scriptures preserve revelations, hymns, and teachings that inspire devotion, discipline, and self‑realization. They connect seekers with the eternal, reminding us of the sacredness of existence and the unity of all beings. Through stories, philosophy, and moral codes, they nurture compassion, faith, and inner strength. The Sacred Scriptures ultimately serve as bridges between the human and the divine, illuminating the eternal path of harmony.",
-        "id": "scriptures",
-        "items": [
-          {
-            "title": "The Vedas",
-            "description": "Wisdom · Hymns · Dharma · Cosmos · Liberation",
-            "href": "/scriptures/vedas",
-            "src": "/images/home/the-vedas.png"
-          },
-          {
-            "title": "The Upanishads",
-            "description": "Brahman · Atman · Knowledge · Liberation · Unity",
-            "href": "/scriptures/upanishads",
-            "src": "/images/home/the-upanishads.png"
-          },
-          {
-            "title": "The Itihāsas",
-            "description": "Duty · Devotion · Conflict · Dharma · Legacy",
-            "href": "/scriptures/itihasas",
-            "src": "/images/home/the-ithihas.png"
-          },
-          {
-            "title": "Purānas",
-            "description": "Mythology · Cosmology · Legends · Devotion · Dharma",
-            "href": "/scriptures/puranas",
-            "src": "/images/home/the-puranas.png"
-          }
-        ]
-      },
-      {
-        "title": "🌿 A Living Spiritual Tradition means?",
-        "content": "A Living Spiritual Tradition is not a relic of the past but a vibrant, evolving stream of wisdom that flows through generations. It embodies timeless values while adapting to contemporary life, guiding seekers with relevance and authenticity. Such a tradition is sustained by practice, community, and devotion, where rituals, stories, and teachings remain dynamic rather than static. It breathes through daily actions, ethical choices, and shared celebrations, nurturing both individual growth and collective harmony. By honoring roots yet embracing change, it ensures continuity of spirit, offering humanity a living bridge between ancient insight and modern experience.",
-        "id": "living-tradition",
-        "nodecaration": true
-      },
-      {
-        "title": "Core Principles of Sanātana Dharma?",
-        "content": "The core principles of Sanātana Dharma are eternal guidelines for righteous living and spiritual realization. Dharma teaches duty, truth, and harmony with cosmic order. Karma reveals the law of cause and effect, urging mindful action. Atman signifies the immortal soul, while Brahman is the infinite reality; realizing their unity leads to liberation. Moksha, freedom from rebirth, is the highest goal. The Purusharthas—Dharma, Artha, Kama, Moksha—balance ethics, prosperity, desire, and liberation. Rooted in the Vedas and Upanishads, these principles remain timeless, inspiring humanity to live with compassion, wisdom, and balance, bridging ancient insight with modern life.",
-        "id": "principles",
-        "items": [
-          {
-            "title": "Dharma",
-            "description": "Righteousness · Duty · Harmony · Justice · Truth",
-            "href": "/philosophy/dharma",
-            "src": "/images/home/dharma.png"
-          },
-          {
-            "title": "Karma",
-            "description": "Action · Cause · Effect · Responsibility · Consequence",
-            "href": "/philosophy/karma",
-            "src": "/images/home/karma.png"
-          },
-          {
-            "title": "Moksha",
-            "description": "Liberation · Freedom · Oneness · Bliss · Eternity",
-            "href": "/philosophy/moksha",
-            "src": "/images/home/moksha.png"
-          },
-          {
-            "title": "Ahimsa",
-            "description": "Non‑violence · Compassion · Respect · Harmony · Love",
-            "href": "/philosophy/ahimsa",
-            "src": "/images/home/ahimsa.png"
-          },
-          {
-            "title": "Satya",
-            "description": "Truth · Honesty · Integrity · Authenticity · Righteousness",
-            "href": "/philosophy/satya",
-            "src": "/images/home/satya.png"
-          }
-        ]
-      },
-      {
-        "title": "Commitment to Authenticity",
-        "content": "Commitment to authenticity means living truthfully, honoring values, expressing genuine identity, rejecting falsehood, fostering integrity, and embodying transparency in relationships, actions, and spiritual practice.",
-        "id": "authenticity",
-        "nodecaration": true
-      },
-      {
-        "title": "Why Sanātana Dharma Matters Today?",
-        "content": "Sanātana Dharma matters today because it offers timeless wisdom for modern challenges. Rooted in universal values of truth, compassion, and harmony, it transcends religion to guide humanity toward ethical living and spiritual balance. In an age of rapid change, its principles—Dharma, Karma, and Moksha—remind us of responsibility, mindful action, and liberation beyond material pursuits. It nurtures inclusivity, respect for diversity, and reverence for nature, aligning with sustainable living. By bridging ancient insight with contemporary needs, Sanātana Dharma inspires resilience, peace, and unity, showing that eternal truths remain relevant in shaping a just, compassionate, and balanced world.",
-        "id": "relevance",
-        "points": [
-          "Mental clarity in a fast-paced world",
-          "Ethical foundations for modern society",
-          "Visibility of consciousness and mindfulness",
-          "Harmony between progress and responsibility"
-        ],
-        "pointsrc": [
-          "/images/home/why-sanatana-1.png",
-          "/images/home/why-sanatana-2.png",
-          "/images/home/why-sanatana-3.png",
-          "/images/home/why-sanatana-4.png"
-        ]
-      },
-      {
-        "title": "Purpose of Sanātana Dharma?",
-        "content": "The purpose of Sanātana Dharma is to guide humanity toward righteous living, spiritual awakening, and harmony with the cosmos. It teaches that life is not merely material but a sacred journey of self-realization. Through Dharma, one learns duty and truth; through Karma, the law of action; through Moksha, liberation from rebirth. Its aim is balance—between worldly pursuits and eternal wisdom—so individuals live ethically, prosper responsibly, enjoy desires mindfully, and ultimately transcend limitations. Rooted in compassion, inclusivity, and reverence for nature, Sanātana Dharma nurtures peace, unity, and timeless values, offering humanity a path to enduring fulfillment and divine connection.",
-        "id": "purpose",
-        "nodecaration": true
-      },
-      {
-        "title": "What You Will Find Here?",
-        "content": "What you will find here about Sanātana Dharma is a living treasury of eternal wisdom, guiding seekers toward truth, harmony, and liberation. It is not confined to rituals alone but embraces philosophy, ethics, and devotion. You will discover the essence of Dharma, the law of Karma, the pursuit of Moksha, and the balance of Purusharthas. Here, sacred scriptures like the Vedas, Upanishads, and Bhagavathgita illuminate timeless values. Sanātana Dharma nurtures compassion, inclusivity, and reverence for nature, offering humanity a path of resilience and peace. It bridges ancient insight with modern relevance, inspiring a balanced and purposeful life.",
-        "id": "offerings",
-        "points": [
-          "Chapter-wise Bhagavathgita explanations",
-          "Introductions to Vedas and Upanishads",
-          "Concept clarity on Karma and Dharma",
-          "Philosophical insights from Puranas",
-          "Practical relevance for modern life"
-        ],
-        "pointsrc": ""
-      },
-      {
-        "title": "A Timeless Journey",
-        "content": "A timeless journey in Sanātana Dharma is the eternal path of self-discovery, duty, and liberation. It begins with Dharma, the practice of truth and righteousness, guiding daily life with harmony. Karma teaches that every action shapes destiny, urging mindful choices. The soul’s quest is to realize its unity with Brahman, the infinite reality. Through devotion, wisdom, and discipline, seekers progress toward Moksha, freedom from rebirth. This journey is not bound by time or culture; it flows across generations, nurturing compassion, inclusivity, and reverence for nature. Sanātana Dharma offers humanity a living bridge between ancient wisdom and modern relevance.",
-        "id": "journey",
-        "nodecaration": true
-      }
-    ],
-    "ourfourcoreyugas": [
-      {
-        "description": [
-          "Truth and righteousness prevail",
-          "Long lifespan and perfect health",
-          "Direct divine awareness"
-        ],
-        "gradientfrom": "from-amber-700",
-        "gradientto": "to-orange-600",
-        "name": "Satya Yuga",
-        "subtitle": "Dharma age",
-        "years": "1,728,000 years"
-      },
-      {
-        "description": [
-          "Slight decline of dharma",
-          "Age of the Ramayana",
-          "Spiritual discipline remains strong"
-        ],
-        "gradientfrom": "from-orange-500",
-        "gradientto": "to-amber-400",
-        "name": "Treta Yuga",
-        "subtitle": "Divor age",
-        "years": "1,296,000 years"
-      },
-      {
-        "description": [
-          "Dharma reduced to half",
-          "Era of Mahabharata",
-          "Increase in conflict and complexity"
-        ],
-        "gradientfrom": "from-rose-500",
-        "gradientto": "to-orange-500",
-        "name": "Dvapara Yuga",
-        "subtitle": "Dharma age",
-        "years": "864,000 years"
-      },
-      {
-        "description": [
-          "Materialism and ignorance dominate",
-          "Spiritual practice is difficult",
-          "Liberation possible through devotion"
-        ],
-        "gradientfrom": "from-red-700",
-        "gradientto": "to-rose-700",
-        "name": "Kali Yuga",
-        "subtitle": "Folk age",
-        "years": "432,000 years"
-      }
-    ],
-    "earth_age_comparison_note": "1 Kalpa (4.32 billion years) is surprisingly close to the modern scientific estimate of Earth's age (~4.54 billion years).",
-    "scaling_comment": "This mathematical scaling is highly structured and proportional across all cosmic levels.",
-    "ourfourcoreyugassubtitle": "The eternal and universal way of life based on truth, righteousness, and spiritual principles that uphold cosmic order. These numbers are not random. They are derived from a base unit of 432,000, multiplied proportionally (4: 3: 2: 1). One Full Day of Brahma: Lifetime of Brahma - 100 Brahma years - Each year = 360 days - Each day = 4 yugas (ages) - Total = 311,040,000,000 human years.",
-    "ourfourcoreyugastitle": "Explore Sanātana Dharma",
-    "cta": {
-      "title": "Help us make this website multilingual!",
-      "badge": "Supported: EN, TA, HI",
-      "contribute": "Contribute Now",
-      "guidelines": "Translation Guidelines",
-      "subtitle": "Your contribution makes our website accessible to everyone. Join our global community of translators.",
-      "targeting": "Targeting: 10 languages · 60% completed"
     }
-  }
 }

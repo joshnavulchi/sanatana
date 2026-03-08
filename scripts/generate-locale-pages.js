@@ -19,6 +19,8 @@
 const fs = require('fs');
 const path = require('path');
 
+const REPO_ROOT = path.resolve(__dirname, '..');
+
 const SITE_URL = 'https://sanatanadharmam.in';
 
 function titleCaseFromSlug(slug) {
@@ -582,7 +584,7 @@ function writeOrUpdate(localesDir, namespace, jsonObj, { fillPlaceholders }) {
 
 function run() {
   const fillPlaceholders = process.argv.includes('--fill-placeholders');
-  const localesDir = path.join(process.cwd(), 'locales', 'en');
+  const localesDir = path.join(REPO_ROOT, 'locales', 'en');
   if (!fs.existsSync(localesDir)) {
     throw new Error(`Missing locales/en directory at: ${localesDir}`);
   }

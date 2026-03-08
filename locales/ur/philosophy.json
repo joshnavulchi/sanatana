@@ -1,93 +1,93 @@
 {
-  "philosophy": {
-    "title": "Sanatana Dharma Philosophy – Dharma, Karma, Moksha and Advaita",
-    "description": "Explore the philosophy of Sanatana Dharma including Dharma, Karma, Moksha, Samsara, Purusharthas and Advaita Vedanta explained through Hindu scriptures.",
-    "meta": {
-      "title": "Sanatana Dharma Philosophy – Dharma, Karma, Moksha and Advaita",
-      "canonical": "https://sanatanadharmam.in/philosophy",
-      "description": "Explore the philosophy of Sanatana Dharma including Dharma, Karma, Moksha, Samsara, Purusharthas and Advaita Vedanta explained through Hindu scriptures.",
-      "keywords": [
-        "Sanatana Dharma philosophy",
-        "Hindu philosophy",
-        "Vedic philosophy",
-        "Upanishads philosophy",
-        "Dharma Karma Moksha",
-        "Advaita Vedanta philosophy",
-        "Purusharthas philosophy",
-        "Samsara philosophy",
-        "Indian philosophy",
-        "Bhagavad Gita philosophy"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/philosophy"
-    },
-    "openGraph": {
-      "title": "Sanatana Dharma Philosophy – Core Concepts Explained",
-      "description": "Discover the philosophical teachings of Sanatana Dharma including Dharma, Karma, Moksha, Samsara and Advaita.",
-      "url": "https://sanatanadharmam.in/philosophy",
-      "siteName": "Sanatanadharmam",
-      "type": "website",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/philosophy.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Sanatana Dharma Philosophy"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "CollectionPage",
-          "name": "Sanatana Dharma Philosophy",
-          "description": "Collection of philosophical concepts in Sanatana Dharma including Dharma, Karma, Moksha, Samsara and Advaita.",
-          "url": "https://sanatanadharmam.in/philosophy"
+    "philosophy": {
+        "title": "سناتن دھرم فلسفہ - دھرم، کرما، موکشا اور ادویت",
+        "description": "سناتن دھرم کے فلسفے کو دریافت کریں جس میں دھرم، کرما، موکش، سمسارا، پروشارتھ اور ادویت ویدانت کو ہندو صحیفوں کے ذریعے بیان کیا گیا ہے۔",
+        "meta": {
+            "title": "سناتن دھرم فلسفہ - دھرم، کرما، موکشا اور ادویت",
+            "canonical": "https://sanatanadharmam.in/philosophy",
+            "description": "سناتن دھرم کے فلسفے کو دریافت کریں جس میں دھرم، کرما، موکش، سمسارا، پروشارتھ اور ادویت ویدانت کو ہندو صحیفوں کے ذریعے بیان کیا گیا ہے۔",
+            "keywords": [
+                "سناتن دھرم کا فلسفہ",
+                "ہندو فلسفہ",
+                "ویدک فلسفہ",
+                "اپنشد کا فلسفہ",
+                "دھرم کرما موکشا۔",
+                "ادویت ویدانت کا فلسفہ",
+                "پروشارت کا فلسفہ",
+                "سمسارا فلسفہ",
+                "ہندوستانی فلسفہ",
+                "بھگواد گیتا کا فلسفہ"
+            ],
+            "robots": "انڈیکس، پیروی کریں",
+            "url": "https://sanatanadharmam.in/philosophy"
         },
-        {
-          "@type": "ItemList",
-          "name": "Sanatana Dharma Philosophy Topics",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Dharma",
-              "url": "https://sanatanadharmam.in/philosophy/dharma"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Karma",
-              "url": "https://sanatanadharmam.in/philosophy/karma"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Moksha",
-              "url": "https://sanatanadharmam.in/philosophy/moksha"
-            },
-            {
-              "@type": "ListItem",
-              "position": 4,
-              "name": "Samsara",
-              "url": "https://sanatanadharmam.in/philosophy/samsara"
-            },
-            {
-              "@type": "ListItem",
-              "position": 5,
-              "name": "Purusharthas",
-              "url": "https://sanatanadharmam.in/philosophy/purushartha"
-            },
-            {
-              "@type": "ListItem",
-              "position": 6,
-              "name": "Advaita Vedanta",
-              "url": "https://sanatanadharmam.in/philosophy/advaita"
-            }
-          ]
+        "openGraph": {
+            "title": "سناتن دھرم فلسفہ - بنیادی تصورات کی وضاحت",
+            "description": "سناتن دھرم کی فلسفیانہ تعلیمات دریافت کریں جن میں دھرم، کرما، موکش، سمسارا اور ادویت شامل ہیں۔",
+            "url": "https://sanatanadharmam.in/philosophy",
+            "siteName": "سناتندھرم",
+            "type": "ویب سائٹ",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/philosophy.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Sanatana Dharma Philosophy"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "مجموعہ کا صفحہ",
+                    "name": "سناتن دھرم فلسفہ",
+                    "description": "سناتن دھرم میں فلسفیانہ تصورات کا مجموعہ بشمول دھرم، کرما، موکش، سمسارا اور ادویت۔",
+                    "url": "https://sanatanadharmam.in/philosophy"
+                },
+                {
+                    "@type": "آئٹم لسٹ",
+                    "name": "سناتن دھرم فلسفہ کے موضوعات",
+                    "itemListElement": [
+                        {
+                            "@type": "فہرست آئٹم",
+                            "position": 1,
+                            "name": "دھرم",
+                            "url": "https://sanatanadharmam.in/philosophy/dharma"
+                        },
+                        {
+                            "@type": "فہرست آئٹم",
+                            "position": 2,
+                            "name": "کرما",
+                            "url": "https://sanatanadharmam.in/philosophy/karma"
+                        },
+                        {
+                            "@type": "فہرست آئٹم",
+                            "position": 3,
+                            "name": "موکشا۔",
+                            "url": "https://sanatanadharmam.in/philosophy/moksha"
+                        },
+                        {
+                            "@type": "فہرست آئٹم",
+                            "position": 4,
+                            "name": "سمسارا",
+                            "url": "https://sanatanadharmam.in/philosophy/samsara"
+                        },
+                        {
+                            "@type": "فہرست آئٹم",
+                            "position": 5,
+                            "name": "پروشارتھس",
+                            "url": "https://sanatanadharmam.in/philosophy/purushartha"
+                        },
+                        {
+                            "@type": "فہرست آئٹم",
+                            "position": 6,
+                            "name": "ادویت ویدانت",
+                            "url": "https://sanatanadharmam.in/philosophy/advaita"
+                        }
+                    ]
+                }
+            ]
         }
-      ]
     }
-  }
 }

@@ -1,63 +1,63 @@
 {
-  "itihasa": {
-    "title": "Itihasa – Ramayana, Mahabharata and Bhagavad Gita | Sanatana Dharma",
-    "description": "Discover the Itihasas of Sanatana Dharma including the Ramayana, Mahabharata and Bhagavad Gita. These ancient epics teach dharma, devotion and spiritual wisdom.",
-    "meta": {
-      "title": "Itihasa – Ramayana, Mahabharata and Bhagavad Gita | Sanatana Dharma",
-      "canonical": "https://sanatanadharmam.in/itihasa",
-      "description": "Discover the Itihasas of Sanatana Dharma including the Ramayana, Mahabharata and Bhagavad Gita. These ancient epics teach dharma, devotion and spiritual wisdom.",
-      "keywords": [
-        "Itihasa",
-        "Ramayana",
-        "Mahabharata",
-        "Bhagavad Gita",
-        "Hindu epics",
-        "Sanatana Dharma epics",
-        "Indian epics",
-        "Itihasa meaning"
-      ],
-      "url": "https://sanatanadharmam.in/itihasa"
-    },
-    "openGraph": {
-      "title": "Itihasa – Sacred Epics of Sanatana Dharma",
-      "description": "Explore the great epics of Sanatana Dharma including the Ramayana, Mahabharata and Bhagavad Gita.",
-      "url": "https://sanatanadharmam.in/itihasa",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/itihasa.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Itihasa – Ramayana Mahabharata Bhagavad Gita"
+    "itihasa": {
+        "title": "ఇతిహాస – రామాయణం, మహాభారతం మరియు భగవద్గీత | సనాతన ధర్మం",
+        "description": "రామాయణం, మహాభారతం మరియు భగవద్గీతతో సహా సనాతన ధర్మంలోని ఇతిహాసాలను కనుగొనండి. ఈ ప్రాచీన ఇతిహాసాలు ధర్మం, భక్తి మరియు ఆధ్యాత్మిక జ్ఞానాన్ని బోధిస్తాయి.",
+        "meta": {
+            "title": "ఇతిహాస – రామాయణం, మహాభారతం మరియు భగవద్గీత | సనాతన ధర్మం",
+            "canonical": "https://sanatanadharmam.in/itihasa",
+            "description": "రామాయణం, మహాభారతం మరియు భగవద్గీతతో సహా సనాతన ధర్మంలోని ఇతిహాసాలను కనుగొనండి. ఈ ప్రాచీన ఇతిహాసాలు ధర్మం, భక్తి మరియు ఆధ్యాత్మిక జ్ఞానాన్ని బోధిస్తాయి.",
+            "keywords": [
+                "ఇతిహాస",
+                "రామాయణం",
+                "మహాభారతం",
+                "భగవద్గీత",
+                "హిందూ ఇతిహాసాలు",
+                "సనాతన ధర్మ ఇతిహాసాలు",
+                "భారతీయ ఇతిహాసాలు",
+                "ఇతిహాస అర్థం"
+            ],
+            "url": "https://sanatanadharmam.in/itihasa"
+        },
+        "openGraph": {
+            "title": "ఇతిహాస - సనాతన ధర్మం యొక్క పవిత్ర ఇతిహాసాలు",
+            "description": "రామాయణం, మహాభారతం మరియు భగవద్గీతతో సహా సనాతన ధర్మంలోని గొప్ప ఇతిహాసాలను అన్వేషించండి.",
+            "url": "https://sanatanadharmam.in/itihasa",
+            "siteName": "సనాతనధర్మం",
+            "type": "వ్యాసం",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/itihasa.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Itihasa – Ramayana Mahabharata Bhagavad Gita"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "సేకరణపేజీ",
+                    "name": "ఇతిహాస",
+                    "description": "ఇతిహాసాలు రామాయణం, మహాభారతం మరియు భగవద్గీతతో సహా సనాతన ధర్మానికి సంబంధించిన చారిత్రక ఇతిహాసాలు.",
+                    "url": "https://sanatanadharmam.in/itihasa"
+                },
+                {
+                    "@type": "సృజనాత్మక పని",
+                    "name": "రామాయణం",
+                    "author": "వాల్మీకి"
+                },
+                {
+                    "@type": "సృజనాత్మక పని",
+                    "name": "మహాభారతం",
+                    "author": "వేద వ్యాసుడు"
+                },
+                {
+                    "@type": "సృజనాత్మక పని",
+                    "name": "భగవద్గీత",
+                    "isPartOf": "మహాభారతం"
+                }
+            ]
         }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "CollectionPage",
-          "name": "Itihasa",
-          "description": "The Itihasas are historical epics of Sanatana Dharma including Ramayana, Mahabharata and Bhagavad Gita.",
-          "url": "https://sanatanadharmam.in/itihasa"
-        },
-        {
-          "@type": "CreativeWork",
-          "name": "Ramayana",
-          "author": "Valmiki"
-        },
-        {
-          "@type": "CreativeWork",
-          "name": "Mahabharata",
-          "author": "Ved Vyasa"
-        },
-        {
-          "@type": "CreativeWork",
-          "name": "Bhagavad Gita",
-          "isPartOf": "Mahabharata"
-        }
-      ]
     }
-  }
 }

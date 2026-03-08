@@ -1,152 +1,152 @@
 {
-  "philosophy_samsara": {
-    "title": "Samsara – Cycle of Birth, Death and Rebirth | Sanatana Dharma",
-    "description": "Learn about Samsara in Sanatana Dharma, the cycle of birth, death and rebirth governed by Karma. Explore its meaning in the Upanishads, Bhagavad Gita and Hindu philosophy.",
-    "meta": {
-      "title": "Samsara – Cycle of Birth, Death and Rebirth | Sanatana Dharma",
-      "canonical": "https://sanatanadharmam.in/philosophy/samsara",
-      "description": "Learn about Samsara in Sanatana Dharma, the cycle of birth, death and rebirth governed by Karma. Explore its meaning in the Upanishads, Bhagavad Gita and Hindu philosophy.",
-      "keywords": [
-        "Samsara meaning",
-        "cycle of rebirth",
-        "Samsara philosophy",
-        "Samsara and Karma",
-        "Samsara and Moksha",
-        "Hindu philosophy Samsara",
-        "Samsara Upanishads",
-        "Samsara Bhagavad Gita",
-        "Sanatana Dharma Samsara",
-        "cycle of birth and death"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/philosophy/samsara"
-    },
-    "openGraph": {
-      "title": "Samsara – Cycle of Birth and Rebirth",
-      "description": "Discover Samsara, the cycle of birth, death and rebirth explained in Sanatana Dharma philosophy.",
-      "url": "https://sanatanadharmam.in/philosophy/samsara",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/philosophy-samsara.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Samsara Philosophy"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "DefinedTerm",
-          "name": "Samsara",
-          "description": "Samsara is the cycle of birth, death and rebirth governed by karma in Sanatana Dharma and other Indian philosophical traditions.",
-          "url": "https://sanatanadharmam.in/philosophy/samsara",
-          "inDefinedTermSet": {
-            "@type": "DefinedTermSet",
-            "name": "Sanatana Dharma Philosophy"
-          }
+    "philosophy_samsara": {
+        "title": "संसार - जन्म, मृत्यु र पुनर्जन्मको चक्र | सनातन धर्म",
+        "description": "सनातन धर्ममा संसारको बारेमा जान्नुहोस्, जन्म, मृत्यु र पुनर्जन्मको चक्र कर्मद्वारा नियन्त्रित हुन्छ। उपनिषद, भगवद् गीता र हिन्दू दर्शनमा यसको अर्थ अन्वेषण गर्नुहोस्।",
+        "meta": {
+            "title": "संसार - जन्म, मृत्यु र पुनर्जन्मको चक्र | सनातन धर्म",
+            "canonical": "https://sanatanadharmam.in/philosophy/samsara",
+            "description": "सनातन धर्ममा संसारको बारेमा जान्नुहोस्, जन्म, मृत्यु र पुनर्जन्मको चक्र कर्मद्वारा नियन्त्रित हुन्छ। उपनिषद, भगवद् गीता र हिन्दू दर्शनमा यसको अर्थ अन्वेषण गर्नुहोस्।",
+            "keywords": [
+                "संसारको अर्थ",
+                "पुनर्जन्मको चक्र",
+                "संसार दर्शन",
+                "संसार र कर्म",
+                "संसार र मोक्ष",
+                "हिन्दू दर्शन संसार",
+                "संसार उपनिषद",
+                "संसार भगवद् गीता",
+                "सनातन धर्म संसार",
+                "जन्म र मृत्युको चक्र"
+            ],
+            "robots": "अनुक्रमणिका, पालना गर्नुहोस्",
+            "url": "https://sanatanadharmam.in/philosophy/samsara"
         },
-        {
-          "@type": "Article",
-          "headline": "Samsara – Cycle of Rebirth in Sanatana Dharma",
-          "about": [
-            "Samsara",
-            "Karma",
-            "Moksha",
-            "Sanatana Dharma philosophy",
-            "Hindu philosophy"
-          ],
-          "isPartOf": {
-            "@type": "WebSite",
-            "name": "Sanatanadharmam",
-            "url": "https://sanatanadharmam.in"
-          },
-          "url": "https://sanatanadharmam.in/philosophy/samsara"
-        }
-      ]
-    },
-    "components": {
-      "birth": "Entry into physical existence based on past karma.",
-      "death": "Transition to another state of existence.",
-      "rebirth": "New life determined by accumulated karma."
-    },
-    "core_principles": [
-      "Cycle of birth and death",
-      "Governed by karma",
-      "Ignorance (Avidya) binds beings to Samsara",
-      "Liberation (Moksha) ends Samsara"
-    ],
-    "definition": "Samsara refers to the continuous cycle of birth, death, and rebirth in Hindu, Buddhist, and Jain philosophies, driven by karma and ignorance.",
-    "goals": [
-      "Understand the nature of Samsara",
-      "Reduce karmic accumulation",
-      "Seek liberation through spiritual practice"
-    ],
-    "key_scriptural_references": [
-      {
-        "quote_summary": "The soul is eternal, taking new bodies as old ones perish.",
-        "text": "Bhagavathgita"
-      },
-      {
-        "quote_summary": "Liberation comes when one realizes the Self beyond birth and death.",
-        "text": "Upanishads"
-      }
-    ],
-    "modern_relevance": {
-      "ethics": "Encourages mindful living and responsibility.",
-      "psychology": "Explains patterns of suffering and attachment.",
-      "spirituality": "Motivates pursuit of higher consciousness."
-    },
-    "origin": {
-      "meaning": "Derived from Sanskrit 'samsṛ', meaning 'to flow or wander'.",
-      "roots": "Vedic and Upanishadic teachings",
-      "texts": [
-        "Upanishads",
-        "Bhagavathgita",
-        "Yoga Sutras"
-      ]
-    },
-    "relation_to_other_concepts": {
-      "dharma": "Righteous living helps reduce karmic bondage.",
-      "karma": "Actions determine future births.",
-      "moksha": "Freedom from Samsara is the ultimate goal."
-    },
-    "samsara_qa": [
-      {
-        "answer": "Samsara is the endless cycle of birth, death, and rebirth, driven by karma and ignorance. It is the state of worldly existence from which liberation (moksha) is sought.",
-        "question": "What is Samsara?"
-      },
-      {
-        "answer": "Karma, the law of cause and effect, determines the circumstances of each birth. Good actions lead to favorable rebirths, while negative actions result in suffering.",
-        "question": "How does karma influence Samsara?"
-      },
-      {
-        "answer": "Ignorance (avidya), attachment, and desires bind beings to the cycle of Samsara. Only through knowledge, detachment, and spiritual practice can one break free.",
-        "question": "What causes beings to remain in Samsara?"
-      },
-      {
-        "answer": "By following Dharma, purifying the mind, practicing selfless action, devotion, and meditation, one can attain Moksha and be freed from Samsara.",
-        "question": "How can one escape Samsara?"
-      },
-      {
-        "answer": "The Upanishads, Bhagavad Gita, and Yoga Sutras describe Samsara as a state of bondage and suffering, and teach the path to liberation.",
-        "question": "What do scriptures say about Samsara?"
-      },
-      {
-        "answer": "No, the concept of Samsara is also central to Buddhism and Jainism, though each tradition explains it differently.",
-        "question": "Is Samsara unique to Hinduism?"
-      },
-      {
-        "answer": "Yes, the cycles of pleasure and pain, success and failure, and repeated patterns in life reflect the nature of Samsara. Recognizing this inspires the search for lasting freedom.",
-        "question": "Can Samsara be experienced in daily life?"
-      },
-      {
-        "answer": "The ultimate goal is to transcend Samsara by realizing the true Self and attaining Moksha, ending the cycle of rebirth and suffering.",
-        "question": "What is the ultimate goal regarding Samsara?"
-      }
-    ]
-  }
+        "openGraph": {
+            "title": "संसार - जन्म र पुनर्जन्मको चक्र",
+            "description": "सनातन धर्म दर्शनमा वर्णन गरिएको जन्म, मृत्यु र पुनर्जन्मको चक्र, संसार पत्ता लगाउनुहोस्।",
+            "url": "https://sanatanadharmam.in/philosophy/samsara",
+            "siteName": "सनातन धर्मम",
+            "type": "लेख",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/philosophy-samsara.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Samsara Philosophy"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "परिभाषित अवधि",
+                    "name": "संसार",
+                    "description": "संसार सनातन धर्म र अन्य भारतीय दार्शनिक परम्पराहरूमा कर्मद्वारा शासित जन्म, मृत्यु र पुनर्जन्मको चक्र हो।",
+                    "url": "https://sanatanadharmam.in/philosophy/samsara",
+                    "inDefinedTermSet": {
+                        "@type": "परिभाषित टर्मसेट",
+                        "name": "सनातन धर्म दर्शन"
+                    }
+                },
+                {
+                    "@type": "लेख",
+                    "headline": "संसार - सनातन धर्ममा पुनर्जन्मको चक्र",
+                    "about": [
+                        "संसार",
+                        "कर्म",
+                        "मोक्ष",
+                        "सनातन धर्म दर्शन",
+                        "हिन्दू दर्शन"
+                    ],
+                    "isPartOf": {
+                        "@type": "वेबसाइट",
+                        "name": "सनातन धर्मम",
+                        "url": "https://sanatanadharmam.in"
+                    },
+                    "url": "https://sanatanadharmam.in/philosophy/samsara"
+                }
+            ]
+        },
+        "components": {
+            "birth": "विगत कर्ममा आधारित भौतिक अस्तित्वमा प्रवेश।",
+            "death": "अस्तित्वको अर्को राज्यमा संक्रमण।",
+            "rebirth": "संचित कर्म द्वारा निर्धारण गरिएको नयाँ जीवन।"
+        },
+        "core_principles": [
+            "जन्म र मृत्युको चक्र",
+            "कर्म द्वारा शासित",
+            "अज्ञानता (अविद्या) ले प्राणीलाई संसारमा बाँध्छ",
+            "मुक्ति (मोक्ष) ले संसार समाप्त हुन्छ"
+        ],
+        "definition": "संसारले हिन्दू, बौद्ध र जैन दर्शनमा जन्म, मृत्यु र पुनर्जन्मको निरन्तर चक्रलाई जनाउँछ, कर्म र अज्ञानताद्वारा संचालित।",
+        "goals": [
+            "संसारको प्रकृति बुझ्नुहोस्",
+            "कर्म संचय कम गर्नुहोस्",
+            "साधनाद्वारा मुक्ति खोज्नुहोस्"
+        ],
+        "key_scriptural_references": [
+            {
+                "quote_summary": "आत्मा शाश्वत छ, पुरानो नाश भएर नयाँ शरीर लिन्छ।",
+                "text": "भगवतगीता"
+            },
+            {
+                "quote_summary": "मुक्ति तब आउँछ जब व्यक्तिले जन्म र मृत्युभन्दा परको आत्मलाई बुझ्छ।",
+                "text": "उपनिषद"
+            }
+        ],
+        "modern_relevance": {
+            "ethics": "सचेत जीवन र जिम्मेवारीलाई प्रोत्साहित गर्दछ।",
+            "psychology": "पीडा र संलग्नताको ढाँचाहरू व्याख्या गर्दछ।",
+            "spirituality": "उच्च चेतनाको खोजीमा उत्प्रेरित गर्दछ।"
+        },
+        "origin": {
+            "meaning": "संस्कृत 'samsṛ' बाट व्युत्पन्न, जसको अर्थ 'प्रवाह वा घुम्नु'।",
+            "roots": "वैदिक र उपनिषदिक शिक्षा",
+            "texts": [
+                "उपनिषद",
+                "भगवतगीता",
+                "योग सूत्र"
+            ]
+        },
+        "relation_to_other_concepts": {
+            "dharma": "धार्मिक जीवनले कर्म बन्धन कम गर्न मद्दत गर्दछ।",
+            "karma": "कर्मले भविष्यको जन्म निर्धारण गर्छ।",
+            "moksha": "संसारबाट मुक्ति नै अन्तिम लक्ष्य हो।"
+        },
+        "samsara_qa": [
+            {
+                "answer": "संसार जन्म, मृत्यु र पुनर्जन्मको अनन्त चक्र हो, कर्म र अज्ञानता द्वारा संचालित। यो सांसारिक अस्तित्वको अवस्था हो जसबाट मुक्ति (मोक्ष) खोजिएको छ।",
+                "question": "संसार भनेको के हो ?"
+            },
+            {
+                "answer": "कर्म, कारण र प्रभावको नियम, प्रत्येक जन्मको परिस्थितिहरू निर्धारण गर्दछ। राम्रो कर्मले अनुकूल पुनर्जन्म ल्याउँछ, जबकि नकारात्मक कार्यले दुःख दिन्छ।",
+                "question": "कर्मले संसारलाई कसरी प्रभाव पार्छ?"
+            },
+            {
+                "answer": "अज्ञान (अविद्या), आसक्ति र कामनाले प्राणीलाई संसारको चक्रमा बाँध्छ। ज्ञान, वियोग र साधनाले मात्र मुक्ति पाउन सक्छ।",
+                "question": "प्राणीहरू संसारमा रहनुको कारण के हो?"
+            },
+            {
+                "answer": "धर्मको पालना, मन शुद्ध, नि:स्वार्थ कर्म, भक्ति र ध्यानको अभ्यास गरेर मोक्ष प्राप्त गर्न सकिन्छ र संसारबाट मुक्त हुन सक्छ।",
+                "question": "संसारबाट कसरी बच्न सकिन्छ ?"
+            },
+            {
+                "answer": "उपनिषद, भगवद् गीता, र योग सूत्रले संसारलाई बन्धन र कष्टको अवस्थाको रूपमा वर्णन गर्दछ, र मुक्तिको मार्ग सिकाउँछ।",
+                "question": "संसारको बारेमा शास्त्रले के भन्छ?"
+            },
+            {
+                "answer": "होइन, संसारको अवधारणा बौद्ध र जैन धर्मको पनि केन्द्रबिन्दु हो, यद्यपि प्रत्येक परम्पराले यसलाई फरक तरिकाले व्याख्या गर्दछ।",
+                "question": "के संसार हिन्दू धर्मको लागि अद्वितीय छ?"
+            },
+            {
+                "answer": "हो, सुख र दुख, सफलता र असफलताको चक्र र जीवनमा दोहोरिने ढाँचाले संसारको प्रकृति झल्काउँछ। यो मान्यताले दिगो स्वतन्त्रताको खोजीलाई प्रेरित गर्छ।",
+                "question": "दैनिक जीवनमा संसारको अनुभव गर्न सकिन्छ?"
+            },
+            {
+                "answer": "परम लक्ष्य भनेको साँचो आत्मको अनुभूति र पुनर्जन्म र दुःखको चक्रको अन्त्य गरी मोक्ष प्राप्त गरेर संसार पार गर्नु हो।",
+                "question": "संसारको बारेमा अन्तिम लक्ष्य के हो?"
+            }
+        ]
+    }
 }
