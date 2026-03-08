@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This repository is a Next.js (App Router, TypeScript) project using Tailwind CSS for styling, Yarn for package management, and Turbopack for builds. All code is written in TypeScript and follows strict linting and formatting standards.
+This repository is a Next.js (App Router, TypeScript) project using Tailwind CSS for styling, npm for package management, and Turbopack for builds. All code is written in TypeScript and follows strict linting and formatting standards.
 
 ## Technology Stack
 
@@ -12,7 +12,7 @@ This repository is a Next.js (App Router, TypeScript) project using Tailwind CSS
 - **Build:** Turbopack (default, no custom Webpack)
 - **Testing:** Jest, @testing-library/react
 - **Linting:** ESLint v10+ (flat config, ES module)
-- **Package Manager:** Yarn
+- **Package Manager:** npm
 
 ## Folder Structure Standards
 
@@ -22,7 +22,7 @@ This repository is a Next.js (App Router, TypeScript) project using Tailwind CSS
 - **Lib:** Shared utilities in `lib/`.
 - **Types:** TypeScript types in `types/`.
 - **Tests:** Colocated in `__tests__/` folders within component/page directories.
-- **Locales:** Translation files in `public/locales/`.
+- **Locales:** Translation files in `data/`.
 
 ### Example File Organization
 
@@ -79,7 +79,7 @@ export default function AboutClient() {
 
 ## Internationalization (i18n)
 
-- All user-facing text is sourced from locale files in `public/locales/`.
+- All user-facing text is sourced from locale files in `data/`.
 - Use `useLocale` hook from `app/context/locale-context`.
 - Support for multiple languages and RTL where possible.
 
@@ -93,14 +93,14 @@ export default function AboutClient() {
 
 - ESLint v10+ (flat config, ES module syntax)
 - Prettier for formatting
-- All scripts use Yarn (not npm)
+- All scripts use npm
 - Lint and format scripts target only source files (not build output)
 
 ## Build & Development
 
-- Use Yarn for all scripts: `yarn dev`, `yarn build`, `yarn lint`, `yarn format`, `yarn test`
+- Use npm for all scripts: `npm run dev`, `npm run build`, `npm run lint`, `npm run format`, `npm run test`
 - Turbopack is default, no custom Webpack config
-- All build/lint/test scripts are Yarn-native
+- All build/lint/test scripts use npm
 
 ## Accessibility & Localization
 
@@ -134,7 +134,7 @@ export default function Page() {
 
 1. Create feature branch from main
 2. Write/update tests for new functionality
-3. Run `yarn check` before committing
+3. Run `npm run check` before committing
 4. Ensure TypeScript compilation succeeds
 5. Document significant changes
 6. Create pull request with clear description
@@ -641,10 +641,10 @@ describe('ComponentName', () => {
 ### Test Commands
 
 ```bash
-yarn run test          # Run all tests once
-yarn run test:watch    # Watch mode for development
-yarn run test:coverage # Generate coverage report
-yarn run test:ci       # CI mode with coverage
+npm run test          # Run all tests once
+npm run test:watch    # Watch mode for development
+npm run test:coverage # Generate coverage report
+npm run test:ci       # CI mode with coverage
 ```
 
 ### Test Coverage Goals
@@ -657,11 +657,11 @@ yarn run test:ci       # CI mode with coverage
 
 ### Linting and Formatting
 
-- **ESLint**: Run `yarn run lint` to ensure code adheres to ESLint rules with auto-fix
-- **Prettier**: Run `yarn run format` to ensure code adheres to Prettier formatting rules
-- **SCSS Linting**: Run `yarn run lint:scss` to lint SCSS files
+- **ESLint**: Run `npm run lint` to ensure code adheres to ESLint rules with auto-fix
+- **Prettier**: Run `npm run format` to ensure code adheres to Prettier formatting rules
+- **SCSS Linting**: Run `npm run lint:scss` to lint SCSS files
 - **Pre-commit Hooks**: Husky runs lint-staged to auto-fix issues before commits
-- **Combined Check**: Run `yarn run check` to execute lint + format + test before commits
+- **Combined Check**: Run `npm run check` to execute lint + format + test before commits
 
 ### Code Style Standards
 
@@ -678,18 +678,18 @@ yarn run test:ci       # CI mode with coverage
 ### Development
 
 ```bash
-yarn run dev          # Start dev server with host access
-yarn run build        # TypeScript compilation + Vite build
-yarn run preview      # Preview production build
+npm run dev          # Start dev server with host access
+npm run build        # TypeScript compilation + Vite build
+npm run preview      # Preview production build
 ```
 
 ### Code Quality
 
 ```bash
-yarn run lint         # ESLint auto-fix
-yarn run format       # Prettier formatting
-yarn run lint:scss    # SCSS linting
-yarn run check        # Run lint + format + test
+npm run lint         # ESLint auto-fix
+npm run format       # Prettier formatting
+npm run lint:scss    # SCSS linting
+npm run check        # Run lint + format + test
 ```
 
 ### Pre-commit Hooks
@@ -714,7 +714,7 @@ import { Button, TextInput, Dropdown } from "flex-custom-lib";
 1. Build new TGZ in xwuikit project
 2. Copy to `src/lib/`
 3. Update version in `package.json` if needed
-4. Run `yarn install`
+4. Run `npm install`
 
 ## Multi-Tenancy Support
 
@@ -860,7 +860,7 @@ When making changes:
 
 1. Create feature branch from main
 2. Write/update tests for new functionality
-3. Run `yarn run check` before committing
+3. Run `npm run check` before committing
 4. Ensure TypeScript compilation succeeds
 5. Document significant changes
 6. Create pull request with clear description

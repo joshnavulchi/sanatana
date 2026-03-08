@@ -2,11 +2,6 @@ services:
   - type: static_site
     name: sanatanadharmam.in
     env: node
-    installCommand: |
-      # Ensure Render uses Yarn v4 (Berry) to match this repo's lockfile
-      corepack enable || true
-      corepack prepare yarn@4.12.0 --activate || true
-      yarn install --check-files
     plan: free
     envVars:
       - key: NEXT_PUBLIC_GA_ID
@@ -15,12 +10,6 @@ services:
       - key: NEXT_PUBLIC_GTM_ID
         sync: false
         value: "${NEXT_PUBLIC_GTM_ID}"
-    # Recommended: enable a persistent disk or build cache for `public/locales` in Render
-    # so locale downloads are cached between builds.
-    # Cache the `public/locales` folder between builds so the download script
-    # can use `.branch-meta.json` to skip unchanged files.
-    cacheDirectories:
-      - public/locales
     installCommand: |
       npm install
     buildCommand: |
@@ -28,7 +17,6 @@ services:
       git fetch --all || true
       git checkout production || git checkout -b production origin/production || true
       npm install
-      (node scripts/download-locales.js --skip-if-meta || echo "⚠️ Locale download failed or returned 403, continuing with cached locales")
       npm run render-build
     publishPath: out
 

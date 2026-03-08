@@ -12,7 +12,7 @@ export default function SamsaraClient() {
   useEffect(() => {
     let mounted = true;
     async function fetchData() {
-      const res = await fetch(`/locales/${locale}/philosophy_samsara.json`);
+      const res = await fetch(`/api/locale/${locale}/philosophy_samsara`);
       const data = await res.json();
       const nsObj = data?.philosophy_samsara || {};
       if (!mounted) return;

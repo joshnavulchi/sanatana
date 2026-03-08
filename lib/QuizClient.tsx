@@ -27,7 +27,7 @@ export default function QuizClient() {
     try {
       const params = typeof window !== 'undefined' ? new URLSearchParams(window.location.search) : null;
       const lang = params ? params.get('lang') : null;
-      const url = lang ? `/locales/${encodeURIComponent(lang)}/questions.json` : '/locales/en/questions.json';
+      const url = lang ? `/api/locale/${encodeURIComponent(lang)}/questions` : '/api/locale/en/questions';
       fetch(url)
         .then((r) => r.json())
         .then((data: any) => {

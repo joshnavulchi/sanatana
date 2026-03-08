@@ -12,7 +12,7 @@ export default function AhimsaClient() {
   useEffect(() => {
     let mounted = true;
     async function fetchData() {
-      const res = await fetch(`/locales/${locale}/philosophy_ahimsa.json`);
+      const res = await fetch(`/api/locale/${locale}/philosophy_ahimsa`);
       const data = await res.json();
       const nsObj = data?.philosophy_ahimsa || {};
       if (!mounted) return;

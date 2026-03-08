@@ -3,7 +3,7 @@ export const DEFAULT_LOCALE = "en";
 import storage from "./storage";
 
 export const SUPPORTED_LOCALES = [
-  'ar', 'de', 'en', 'es', 'fr', 'hi', 'ja', 'ne', 'nl', 'pt', 'ru', 'te', 'ur', 'zh-CN'
+  'ar', 'de', 'en', 'es', 'fr', 'hi', 'ja', 'ne', 'nl', 'pt', 'ru', 'ta', 'te', 'ur', 'zh-CN'
 ];
 
 const REMOTE_LOCALES_BASE = process.env.NEXT_PUBLIC_REMOTE_LOCALES_BASE || '';
@@ -38,7 +38,7 @@ export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = ''
     try {
       const fs = require('fs');
       const path = require('path');
-      
+
       // Try various file naming patterns
       const candidates = [
         namespace,
@@ -47,9 +47,9 @@ export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = ''
         namespace.split('_').reverse().join('_'),
         namespace.split('-').reverse().join('-')
       ];
-      
+
       for (const candidate of candidates) {
-        const filePath = path.join(process.cwd(), 'public', 'locales', locale, `${candidate}.json`);
+        const filePath = path.join(process.cwd(), 'data', locale, `${candidate}.json`);
         if (fs.existsSync(filePath)) {
           const content = fs.readFileSync(filePath, 'utf8');
           return JSON.parse(content);
@@ -82,18 +82,18 @@ export async function loadLocaleNamespace(locale: string, namespace: string) {
 
   for (const candidate of candidates) {
     try {
-      const url = `/locales/${encodeURIComponent(locale)}/${encodeURIComponent(candidate)}.json`;
+      const url = `/api/locale/${encodeURIComponent(locale)}/${encodeURIComponent(candidate)}`;
       const resp = await fetch(url);
       if (resp.ok) {
         const parsed = await resp.json();
         try { (localesCache[locale] as any)[namespace] = parsed; } catch (_) { }
         return parsed;
       }
-    } catch (e) { 
+    } catch (e) {
       // Continue to next candidate
     }
   }
-  
+
   console.warn(`[i18n] loadLocaleNamespace: could not load ${namespace} for ${locale}`);
 
   // No fallback to full locale object; only per-namespace files are supported now.

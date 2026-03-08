@@ -69,7 +69,7 @@ async function main() {
       const r = routeFromAppPath(f);
       if (r) routes.add(r);
       else fallbackAll = true;
-    } else if (f.startsWith('public/locales') || f.startsWith('lib/') || f.startsWith('data/') || f.startsWith('scripts/')) {
+    } else if (f.startsWith('data/') || f.startsWith('lib/') || f.startsWith('scripts/')) {
       // changes to locales, lib or data could affect many pages — fallback to full export
       fallbackAll = true;
     }

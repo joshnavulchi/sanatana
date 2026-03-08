@@ -12,7 +12,7 @@ export default function MokshaClient() {
   useEffect(() => {
     let mounted = true;
     async function fetchData() {
-      const res = await fetch(`/locales/${locale}/philosophy_moksha.json`);
+      const res = await fetch(`/api/locale/${locale}/philosophy_moksha`);
       const data = await res.json();
       const nsObj = data?.philosophy_moksha || {};
       if (!mounted) return;
