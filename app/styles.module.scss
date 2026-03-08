@@ -15,30 +15,6 @@
     color: var(--color-blue);
   }
 }
-.categoryCard {
-  padding: 1rem;
-  border: 1px solid var(--border-color, #e5e7eb);
-  border-radius: 0.2rem;
-  background: var(--card-background, #ffffff);
-  transition: all 0.3s ease;
-  &:hover {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    transform: translateY(-2px);
-  }
-}
-.categoryTitle {
-  margin: 0 0 0.5rem;
-  padding: 0 0 0.24rem;
-  border-bottom: 2px solid var(--primary-color, #f59e0b);
-}
-.categoryLink {
-  color: var(--text-primary, #1f2937);
-  text-decoration: none;
-  transition: color 0.2s ease;
-  &:hover {
-    color: var(--primary-color, #f59e0b);
-  }
-}
 .linkList {
   list-style: none;
   padding: 0;
@@ -158,17 +134,6 @@
   // Inline position option
   &.inline {
     margin: 1rem 0;
-  }
-}
-.contactform {
-  padding: var(--space-md);
-  box-shadow: var(--shadow-strong);
-  border-radius: var(--space-sm);
-  label {
-    text-transform: capitalize;
-    font-weight: 600;
-    margin-bottom: var(--space-xs);
-    display: block;
   }
 }
 @media (min-width: 1024px) {
