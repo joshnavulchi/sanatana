@@ -2,73 +2,77 @@
   "contact": {
     "title": "Contact Us",
     "meta": {
-      "title": "Contact Us — Sanātana Dharma",
+      "title": "Contact Us – Sanatanadharmam | Sanatana Dharma Website",
       "canonical": "https://sanatanadharmam.in/contact",
-      "description": "Get in touch with Sanatanadharmam.in for inquiries, collaborations, or spiritual guidance. Reach us via email, phone, or contact form.",
+      "description": "Contact Sanatanadharmam for questions about Sanatana Dharma, collaborations, feedback, or website inquiries. Reach us by email or phone.",
       "keywords": [
-        "Sanatana Dharma collaboration proposals",
-        "Sanatana Dharma communication",
-        "Sanatana Dharma community engagement",
-        "Sanatana Dharma contact information",
-        "Sanatana Dharma content suggestions",
-        "Sanatana Dharma editorial feedback",
-        "Sanatana Dharma general questions",
-        "Sanatana Dharma outreach",
-        "Sanatana Dharma project inquiries",
-        "Sanatana Dharma spiritual questions",
-        "Sanatana Dharma support",
-        "Sanatana Dharma text corrections",
-        "Sanatana Dharma translation suggestions",
-        "Sanatana Dharma volunteer coordination",
-        "Sanatana Dharma website contact",
-        "collaborations",
-        "contact Sanatanadharmam.in",
-        "contact form",
-        "email",
-        "feedback",
-        "general questions",
-        "inquiries",
-        "phone",
-        "spiritual guidance",
-        "text corrections",
-        "translation suggestions",
-        "volunteer opportunities"
+        "contact sanatanadharmam",
+        "sanatana dharma contact",
+        "sanatanadharmam email",
+        "sanatana dharma inquiries",
+        "sanatana dharma collaboration",
+        "sanatanadharmam support",
+        "sanatana dharma feedback",
+        "sanatanadharmam contact form",
+        "sanatana dharma website contact"
       ],
-      "ogimage": "/og/contact.png",
       "robots": "index, follow",
       "url": "https://sanatanadharmam.in/contact"
     },
+    "openGraph": {
+      "title": "Contact Sanatanadharmam – Sanatana Dharma Website",
+      "description": "Reach Sanatanadharmam for inquiries, collaborations, and spiritual discussions about Sanatana Dharma.",
+      "url": "https://sanatanadharmam.in/contact",
+      "siteName": "Sanatanadharmam",
+      "type": "website",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/contact.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Contact Sanatanadharmam"
+        }
+      ]
+    },
     "schema": {
       "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availablelanguage": [
-            "العربية",
-            "Deutsch",
-            "English",
-            "Español",
-            "Français",
-            "हिन्दी",
-            "日本語",
-            "नेपाली",
-            "Nederlands",
-            "Português",
-            "Русский",
-            "తెలుగు",
-            "اردو",
-            "中文 (简体)"
-          ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
+      "@graph": [
+        {
+          "@type": "ContactPage",
+          "name": "Contact Sanatanadharmam",
+          "url": "https://sanatanadharmam.in/contact",
+          "description": "Contact page for Sanatanadharmam where visitors can reach the organization for inquiries and collaborations."
         },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
+        {
+          "@type": "Organization",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "areaServed": "Worldwide",
+            "availableLanguage": [
+              "English",
+              "Hindi",
+              "Telugu",
+              "Arabic",
+              "German",
+              "Spanish",
+              "French",
+              "Japanese",
+              "Nepali",
+              "Dutch",
+              "Portuguese",
+              "Russian",
+              "Urdu",
+              "Chinese"
+            ],
+            "email": "info@sanatanadharmam.in",
+            "telephone": "+91-8099181075"
+          }
+        }
+      ]
     },
     "faq": {
       "heading": "Frequently asked questions",
