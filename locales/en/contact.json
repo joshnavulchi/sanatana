@@ -1,6 +1,7 @@
 {
   "contact": {
     "title": "Contact Us",
+    "description": "We’d love to hear from you",
     "meta": {
       "title": "Contact Us – Sanatanadharmam | Sanatana Dharma Website",
       "canonical": "https://sanatanadharmam.in/contact",
@@ -155,7 +156,6 @@
         "type": "text"
       }
     ],
-    "subtitle": "We’d love to hear from you",
     "volunteer": {
       "guidance": "We welcome volunteers who can help with proofreading, typesetting, translations, audio recording, web development, and community moderation. Please describe your skills, availability, and any relevant samples of previous work. Submissions are reviewed and, if accepted, coordinated through a modest onboarding process so volunteers understand editorial standards and the project's code of conduct.",
       "heading": "Volunteer and contribution guidelines"

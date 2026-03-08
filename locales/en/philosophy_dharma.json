@@ -1,99 +1,72 @@
 {
   "philosophy_dharma": {
-    "title": "Dharma Philosophy — In-depth Q&A and Concepts",
+    "title": "Dharma – Meaning, Principles and Philosophy | Sanatana Dharma",
+    "description": "Learn the meaning of Dharma in Sanatana Dharma. Explore its principles, role in the Bhagavad Gita, Ramayana and Mahabharata, and its importance in ethical and spiritual life.",
     "meta": {
-      "title": "Philosophy | Dharma — Sanatana - Explore Sanatan Dharma",
+      "title": "Dharma – Meaning, Principles and Philosophy | Sanatana Dharma",
       "canonical": "https://sanatanadharmam.in/philosophy/dharma",
-      "description": "Philosophy — Dharma — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Philosophy. Explore practices, history, and guiding principles at ...",
+      "description": "Learn the meaning of Dharma in Sanatana Dharma. Explore its principles, role in the Bhagavad Gita, Ramayana and Mahabharata, and its importance in ethical and spiritual life.",
       "keywords": [
-        "categories of dharma",
-        "core principles of dharma",
-        "daily life application of dharma",
-        "dharma and karma",
-        "dharma and moksha",
-        "dharma and other concepts",
-        "dharma and rita",
-        "dharma concepts",
-        "dharma definition",
-        "dharma duties",
-        "dharma ethics",
-        "dharma examples",
-        "dharma guidance",
-        "dharma in bhagavad gita",
-        "dharma in cosmic order",
-        "dharma in daily life",
-        "dharma in environmental ethics",
-        "dharma in equality",
-        "dharma in family life",
-        "dharma in individual conduct",
-        "dharma in justice",
-        "dharma in mahabharata",
-        "dharma in mental peace",
-        "dharma in mimamsa",
-        "dharma in modern times",
-        "dharma in nyaya",
-        "dharma in personal growth",
-        "dharma in professional life",
-        "dharma in purpose",
-        "dharma in ramayana",
-        "dharma in scriptures",
-        "dharma in self-discipline",
-        "dharma in social ethics",
-        "dharma in social life",
-        "dharma in societal harmony",
-        "dharma in spiritual life",
-        "dharma in spiritual path",
-        "dharma in vedanta",
-        "dharma in yoga",
-        "dharma insights",
-        "dharma philosophy",
-        "dharma practices",
-        "dharma principles",
-        "dharma q&a",
-        "dharma responsibilities",
-        "dharma teachings",
-        "dharma values",
-        "dharma wisdom",
-        "hindu dharma",
-        "modern relevance of dharma",
-        "philosophical dimensions of dharma",
-        "schools related to dharma",
-        "scriptural sources on dharma"
+        "Dharma meaning",
+        "Hindu Dharma philosophy",
+        "Dharma in Bhagavad Gita",
+        "Dharma in Mahabharata",
+        "Dharma principles",
+        "Sanatana Dharma philosophy",
+        "Dharma and Karma",
+        "Dharma ethics",
+        "Dharma in Hinduism",
+        "Dharma spiritual path"
       ],
-      "ogimage": "/og/philosophy-dharma.png",
+      "robots": "index, follow",
       "url": "https://sanatanadharmam.in/philosophy/dharma"
+    },
+    "openGraph": {
+      "title": "Dharma – Core Principle of Sanatana Dharma",
+      "description": "Understand Dharma, the guiding principle of righteousness and cosmic order in Sanatana Dharma philosophy.",
+      "url": "https://sanatanadharmam.in/philosophy/dharma",
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/philosophy-dharma.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Dharma Philosophy"
+        }
+      ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availablelanguage": [
-            "العربية",
-            "Deutsch",
-            "English",
-            "Español",
-            "Français",
-            "हिन्दी",
-            "日本語",
-            "नेपाली",
-            "Nederlands",
-            "Português",
-            "Русский",
-            "తెలుగు",
-            "اردو",
-            "中文 (简体)"
-          ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
+      "@graph": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Dharma",
+          "description": "Dharma is a central concept in Sanatana Dharma referring to righteousness, duty, moral law and the cosmic order governing the universe.",
+          "url": "https://sanatanadharmam.in/philosophy/dharma",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Sanatana Dharma Philosophy"
+          }
         },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
+        {
+          "@type": "Article",
+          "headline": "Dharma – Philosophy of Righteous Living",
+          "about": [
+            "Dharma",
+            "Sanatana Dharma",
+            "Hindu philosophy",
+            "Bhagavad Gita",
+            "Mahabharata"
+          ],
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          },
+          "url": "https://sanatanadharmam.in/philosophy/dharma"
+        }
+      ]
     },
     "categories_of_dharma": {
       "apad_dharma": {
