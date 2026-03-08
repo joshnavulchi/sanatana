@@ -1,65 +1,65 @@
 {
-  "bhagavadgita_shraddhatray-vibhaga-yoga": {
-    "title": "Shraddhatray Vibhaga Yoga – Bhagavad Gita Chapter Overview",
-    "description": "Chapter overview for Shraddhatray Vibhaga Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-    "meta": {
-      "title": "Shraddhatray Vibhaga Yoga – Bhagavad Gita Chapter Overview",
-      "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/shraddhatray-vibhaga-yoga",
-      "description": "Chapter overview for Shraddhatray Vibhaga Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "keywords": [
-        "Shraddhatray Vibhaga Yoga",
-        "Bhagavad Gita",
-        "Krishna",
-        "Yoga",
-        "dharma",
-        "Vedanta"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/shraddhatray-vibhaga-yoga",
-      "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_shraddhatray_vibhaga_yoga.png"
-    },
-    "openGraph": {
-      "title": "Shraddhatray Vibhaga Yoga – Bhagavad Gita Chapter Overview",
-      "description": "Chapter overview for Shraddhatray Vibhaga Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/shraddhatray-vibhaga-yoga",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/bhagavadgita_shraddhatray_vibhaga_yoga.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Shraddhatray Vibhaga Yoga – Bhagavad Gita Chapter Overview"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Shraddhatray Vibhaga Yoga – Bhagavad Gita Chapter Overview",
-      "description": "Chapter overview for Shraddhatray Vibhaga Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/shraddhatray-vibhaga-yoga",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "Shraddhatray Vibhaga Yoga is a chapter of the Bhagavad Gita. Each chapter traditionally carries a “yoga” emphasis—an angle of practice or understanding—while keeping the teaching integrated: act with clarity, cultivate devotion, and refine knowledge so the mind becomes steady.\n\nThis page summarizes the chapter’s usual themes and offers reflection prompts without quoting specific verses.",
-    "scripture_text": [
-      {
-        "section": "Key ideas",
-        "content": "A compact overview of the main teachings typically associated with this chapter, and how they relate to dharma and yoga."
-      },
-      {
-        "section": "Practical application",
-        "content": "How the chapter’s teaching can be applied to daily work, relationships, and decision-making—especially under stress."
-      },
-      {
-        "section": "Reflection prompts",
-        "content": "What am I attached to? Where is my duty unclear? Can I act with sincerity while releasing obsession with outcomes?"
-      }
-    ],
-    "philosophical_explanation": "Gita philosophy centers on inner freedom: not the absence of action, but the purification of intention. When ego-driven attachment reduces, action becomes cleaner and the mind becomes capable of deeper insight."
-  }
+    "bhagavadgita_shraddhatray-vibhaga-yoga": {
+        "title": "श्रद्धात्रय विभाग योग - भगवद गीता अध्याय अवलोकन",
+        "description": "श्रद्धात्रय विभाग योग के लिए अध्याय का अवलोकन: भगवद गीता से केंद्रीय शिक्षाएं, मुख्य अवधारणाएं और व्यावहारिक मार्गदर्शन।",
+        "meta": {
+            "title": "श्रद्धात्रय विभाग योग - भगवद गीता अध्याय अवलोकन",
+            "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/shraddhatray-vibhaga-yoga",
+            "description": "श्रद्धात्रय विभाग योग के लिए अध्याय का अवलोकन: भगवद गीता से केंद्रीय शिक्षाएं, मुख्य अवधारणाएं और व्यावहारिक मार्गदर्शन।",
+            "keywords": [
+                "श्रद्धात्रय विभाग योग",
+                "भगवत गीता",
+                "कृष्ण",
+                "योग",
+                "धर्म",
+                "वेदांत"
+            ],
+            "robots": "अनुक्रमणिका, अनुसरण करें",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/shraddhatray-vibhaga-yoga",
+            "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_shraddhatray_vibhaga_yoga.png"
+        },
+        "openGraph": {
+            "title": "श्रद्धात्रय विभाग योग - भगवद गीता अध्याय अवलोकन",
+            "description": "श्रद्धात्रय विभाग योग के लिए अध्याय का अवलोकन: भगवद गीता से केंद्रीय शिक्षाएं, मुख्य अवधारणाएं और व्यावहारिक मार्गदर्शन।",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/shraddhatray-vibhaga-yoga",
+            "siteName": "सनातनधर्मम्",
+            "type": "आलेख",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/bhagavadgita_shraddhatray_vibhaga_yoga.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Shraddhatray Vibhaga Yoga – Bhagavad Gita Chapter Overview"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "आलेख",
+            "name": "श्रद्धात्रय विभाग योग - भगवद गीता अध्याय अवलोकन",
+            "description": "श्रद्धात्रय विभाग योग के लिए अध्याय का अवलोकन: भगवद गीता से केंद्रीय शिक्षाएं, मुख्य अवधारणाएं और व्यावहारिक मार्गदर्शन।",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/shraddhatray-vibhaga-yoga",
+            "isPartOf": {
+                "@type": "वेबसाइट",
+                "name": "सनातनधर्मम्",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "श्रद्धात्रय विभाग योग भगवत गीता का एक अध्याय है। प्रत्येक अध्याय पारंपरिक रूप से \"योग\" पर जोर देता है - अभ्यास या समझ का एक कोण - शिक्षण को एकीकृत रखते हुए: स्पष्टता के साथ कार्य करें, भक्ति विकसित करें और ज्ञान को परिष्कृत करें ताकि मन स्थिर हो जाए।\n\nयह पृष्ठ अध्याय के सामान्य विषयों का सारांश देता है और विशिष्ट छंदों को उद्धृत किए बिना प्रतिबिंब संकेत प्रदान करता है।",
+        "scripture_text": [
+            {
+                "section": "मुख्य विचार",
+                "content": "आमतौर पर इस अध्याय से जुड़ी मुख्य शिक्षाओं का एक संक्षिप्त अवलोकन, और वे धर्म और योग से कैसे संबंधित हैं।"
+            },
+            {
+                "section": "व्यावहारिक अनुप्रयोग",
+                "content": "अध्याय की शिक्षा को दैनिक कार्य, रिश्तों और निर्णय लेने पर कैसे लागू किया जा सकता है - विशेषकर तनाव में।"
+            },
+            {
+                "section": "प्रतिबिंब संकेत देता है",
+                "content": "मैं किससे जुड़ा हूँ? मेरा कर्तव्य कहाँ अस्पष्ट है? क्या मैं परिणामों के प्रति जुनून को दूर करते हुए ईमानदारी से कार्य कर सकता हूँ?"
+            }
+        ],
+        "philosophical_explanation": "गीता दर्शन आंतरिक स्वतंत्रता पर केंद्रित है: कर्म की अनुपस्थिति पर नहीं, बल्कि इरादे की शुद्धि पर। जब अहंकार से प्रेरित लगाव कम हो जाता है, तो कार्य स्वच्छ हो जाता है और मन गहरी अंतर्दृष्टि के लिए सक्षम हो जाता है।"
+    }
 }

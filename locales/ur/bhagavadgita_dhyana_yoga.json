@@ -1,65 +1,65 @@
 {
-  "bhagavadgita_dhyana-yoga": {
-    "title": "Dhyana Yoga – Bhagavad Gita Chapter Overview",
-    "description": "Chapter overview for Dhyana Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-    "meta": {
-      "title": "Dhyana Yoga – Bhagavad Gita Chapter Overview",
-      "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/dhyana-yoga",
-      "description": "Chapter overview for Dhyana Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "keywords": [
-        "Dhyana Yoga",
-        "Bhagavad Gita",
-        "Krishna",
-        "Yoga",
-        "dharma",
-        "Vedanta"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/dhyana-yoga",
-      "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_dhyana_yoga.png"
-    },
-    "openGraph": {
-      "title": "Dhyana Yoga – Bhagavad Gita Chapter Overview",
-      "description": "Chapter overview for Dhyana Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/dhyana-yoga",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/bhagavadgita_dhyana_yoga.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Dhyana Yoga – Bhagavad Gita Chapter Overview"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Dhyana Yoga – Bhagavad Gita Chapter Overview",
-      "description": "Chapter overview for Dhyana Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/dhyana-yoga",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "Dhyana Yoga is a chapter of the Bhagavad Gita. Each chapter traditionally carries a “yoga” emphasis—an angle of practice or understanding—while keeping the teaching integrated: act with clarity, cultivate devotion, and refine knowledge so the mind becomes steady.\n\nThis page summarizes the chapter’s usual themes and offers reflection prompts without quoting specific verses.",
-    "scripture_text": [
-      {
-        "section": "Key ideas",
-        "content": "A compact overview of the main teachings typically associated with this chapter, and how they relate to dharma and yoga."
-      },
-      {
-        "section": "Practical application",
-        "content": "How the chapter’s teaching can be applied to daily work, relationships, and decision-making—especially under stress."
-      },
-      {
-        "section": "Reflection prompts",
-        "content": "What am I attached to? Where is my duty unclear? Can I act with sincerity while releasing obsession with outcomes?"
-      }
-    ],
-    "philosophical_explanation": "Gita philosophy centers on inner freedom: not the absence of action, but the purification of intention. When ego-driven attachment reduces, action becomes cleaner and the mind becomes capable of deeper insight."
-  }
+    "bhagavadgita_dhyana-yoga": {
+        "title": "دھیان یوگا - بھگواد گیتا باب کا جائزہ",
+        "description": "دھیان یوگا کے لیے باب کا جائزہ: مرکزی تعلیمات، کلیدی تصورات، اور بھگواد گیتا سے عملی رہنمائی۔",
+        "meta": {
+            "title": "دھیان یوگا - بھگواد گیتا باب کا جائزہ",
+            "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/dhyana-yoga",
+            "description": "دھیان یوگا کے لیے باب کا جائزہ: مرکزی تعلیمات، کلیدی تصورات، اور بھگواد گیتا سے عملی رہنمائی۔",
+            "keywords": [
+                "دھیان یوگا",
+                "بھگواد گیتا",
+                "کرشنا۔",
+                "یوگا",
+                "دھرم",
+                "ویدانت"
+            ],
+            "robots": "انڈیکس، پیروی کریں",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/dhyana-yoga",
+            "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_dhyana_yoga.png"
+        },
+        "openGraph": {
+            "title": "دھیان یوگا - بھگواد گیتا باب کا جائزہ",
+            "description": "دھیان یوگا کے لیے باب کا جائزہ: مرکزی تعلیمات، کلیدی تصورات، اور بھگواد گیتا سے عملی رہنمائی۔",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/dhyana-yoga",
+            "siteName": "سناتندھرم",
+            "type": "مضمون",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/bhagavadgita_dhyana_yoga.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Dhyana Yoga – Bhagavad Gita Chapter Overview"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "مضمون",
+            "name": "دھیان یوگا - بھگواد گیتا باب کا جائزہ",
+            "description": "دھیان یوگا کے لیے باب کا جائزہ: مرکزی تعلیمات، کلیدی تصورات، اور بھگواد گیتا سے عملی رہنمائی۔",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/dhyana-yoga",
+            "isPartOf": {
+                "@type": "ویب سائٹ",
+                "name": "سناتندھرم",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "دھیان یوگا بھگواد گیتا کا ایک باب ہے۔ ہر باب روایتی طور پر ایک \"یوگا\" پر زور دیتا ہے — مشق یا تفہیم کا ایک زاویہ — تدریس کو مربوط رکھتے ہوئے: وضاحت کے ساتھ عمل کریں، عقیدت کو فروغ دیں، اور علم کو بہتر بنائیں تاکہ ذہن مستحکم ہو۔\n\nیہ صفحہ باب کے معمول کے موضوعات کا خلاصہ کرتا ہے اور مخصوص آیات کا حوالہ دیئے بغیر عکاسی کے اشارے پیش کرتا ہے۔",
+        "scripture_text": [
+            {
+                "section": "کلیدی خیالات",
+                "content": "عام طور پر اس باب سے وابستہ اہم تعلیمات کا ایک مختصر جائزہ، اور یہ کہ وہ دھرم اور یوگا سے کیسے متعلق ہیں۔"
+            },
+            {
+                "section": "عملی درخواست",
+                "content": "باب کی تعلیم کو روزمرہ کے کام، تعلقات، اور فیصلہ سازی پر کیسے لاگو کیا جا سکتا ہے—خاص طور پر دباؤ میں۔"
+            },
+            {
+                "section": "عکاسی کا اشارہ",
+                "content": "میں کس چیز سے منسلک ہوں؟ میرا فرض کہاں غیر واضح ہے؟ کیا میں نتائج کے جنون کو چھوڑ کر اخلاص کے ساتھ کام کر سکتا ہوں؟"
+            }
+        ],
+        "philosophical_explanation": "گیتا کا فلسفہ اندرونی آزادی پر مرکوز ہے: عمل کی عدم موجودگی نہیں بلکہ نیت کی تطہیر۔ جب انا پر مبنی لگاؤ ​​کم ہو جاتا ہے تو عمل صاف ہو جاتا ہے اور ذہن گہری بصیرت کے قابل ہو جاتا ہے۔"
+    }
 }

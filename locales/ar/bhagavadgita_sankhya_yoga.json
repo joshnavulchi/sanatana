@@ -1,65 +1,65 @@
 {
-  "bhagavadgita_sankhya-yoga": {
-    "title": "Sankhya Yoga – Bhagavad Gita Chapter Overview",
-    "description": "Chapter overview for Sankhya Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-    "meta": {
-      "title": "Sankhya Yoga – Bhagavad Gita Chapter Overview",
-      "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/sankhya-yoga",
-      "description": "Chapter overview for Sankhya Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "keywords": [
-        "Sankhya Yoga",
-        "Bhagavad Gita",
-        "Krishna",
-        "Yoga",
-        "dharma",
-        "Vedanta"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/sankhya-yoga",
-      "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_sankhya_yoga.png"
-    },
-    "openGraph": {
-      "title": "Sankhya Yoga – Bhagavad Gita Chapter Overview",
-      "description": "Chapter overview for Sankhya Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/sankhya-yoga",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/bhagavadgita_sankhya_yoga.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Sankhya Yoga – Bhagavad Gita Chapter Overview"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Sankhya Yoga – Bhagavad Gita Chapter Overview",
-      "description": "Chapter overview for Sankhya Yoga: central teachings, key concepts, and practical guidance from the Bhagavad Gita.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/sankhya-yoga",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "Sankhya Yoga is a chapter of the Bhagavad Gita. Each chapter traditionally carries a “yoga” emphasis—an angle of practice or understanding—while keeping the teaching integrated: act with clarity, cultivate devotion, and refine knowledge so the mind becomes steady.\n\nThis page summarizes the chapter’s usual themes and offers reflection prompts without quoting specific verses.",
-    "scripture_text": [
-      {
-        "section": "Key ideas",
-        "content": "A compact overview of the main teachings typically associated with this chapter, and how they relate to dharma and yoga."
-      },
-      {
-        "section": "Practical application",
-        "content": "How the chapter’s teaching can be applied to daily work, relationships, and decision-making—especially under stress."
-      },
-      {
-        "section": "Reflection prompts",
-        "content": "What am I attached to? Where is my duty unclear? Can I act with sincerity while releasing obsession with outcomes?"
-      }
-    ],
-    "philosophical_explanation": "Gita philosophy centers on inner freedom: not the absence of action, but the purification of intention. When ego-driven attachment reduces, action becomes cleaner and the mind becomes capable of deeper insight."
-  }
+    "bhagavadgita_sankhya-yoga": {
+        "title": "سانخيا يوجا - نظرة عامة على فصل بهاجافاد جيتا",
+        "description": "نظرة عامة على الفصل الخاص بـ Sankhya Yoga: التعاليم المركزية والمفاهيم الأساسية والإرشادات العملية من Bhagavad Gita.",
+        "meta": {
+            "title": "سانخيا يوجا - نظرة عامة على فصل بهاجافاد جيتا",
+            "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/sankhya-yoga",
+            "description": "نظرة عامة على الفصل الخاص بـ Sankhya Yoga: التعاليم المركزية والمفاهيم الأساسية والإرشادات العملية من Bhagavad Gita.",
+            "keywords": [
+                "سانخيا يوجا",
+                "باجافاد جيتا",
+                "كريشنا",
+                "اليوغا",
+                "دارما",
+                "فيدانتا"
+            ],
+            "robots": "الفهرس، اتبع",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/sankhya-yoga",
+            "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_sankhya_yoga.png"
+        },
+        "openGraph": {
+            "title": "سانخيا يوجا - نظرة عامة على فصل بهاجافاد جيتا",
+            "description": "نظرة عامة على الفصل الخاص بـ Sankhya Yoga: التعاليم المركزية والمفاهيم الأساسية والإرشادات العملية من Bhagavad Gita.",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/sankhya-yoga",
+            "siteName": "ساناتانادارمام",
+            "type": "شرط",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/bhagavadgita_sankhya_yoga.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Sankhya Yoga – Bhagavad Gita Chapter Overview"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "شرط",
+            "name": "سانخيا يوجا - نظرة عامة على فصل بهاجافاد جيتا",
+            "description": "نظرة عامة على الفصل الخاص بـ Sankhya Yoga: التعاليم المركزية والمفاهيم الأساسية والإرشادات العملية من Bhagavad Gita.",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/sankhya-yoga",
+            "isPartOf": {
+                "@type": "موقع إلكتروني",
+                "name": "ساناتانادارمام",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "سانكيا يوجا هو فصل من البهاغافاد غيتا. يحمل كل فصل تقليديًا تركيزًا على \"اليوغا\" - زاوية الممارسة أو الفهم - مع الحفاظ على تكامل التدريس: التصرف بوضوح، وتنمية الإخلاص، وصقل المعرفة حتى يصبح العقل ثابتًا.\n\nتلخص هذه الصفحة المواضيع المعتادة للفصل وتقدم مطالبات للتأمل دون اقتباس آيات محددة.",
+        "scripture_text": [
+            {
+                "section": "الأفكار الرئيسية",
+                "content": "نظرة عامة مختصرة على التعاليم الرئيسية المرتبطة عادة بهذا الفصل، وكيفية ارتباطها بالدارما واليوجا."
+            },
+            {
+                "section": "التطبيق العملي",
+                "content": "كيف يمكن تطبيق تعاليم الفصل على العمل اليومي والعلاقات وصنع القرار - خاصة تحت الضغط."
+            },
+            {
+                "section": "يطالب الانعكاس",
+                "content": "ما الذي أتعلق به؟ أين واجبي غير واضح؟ هل يمكنني التصرف بصدق مع التخلص من الهوس بالنتائج؟"
+            }
+        ],
+        "philosophical_explanation": "تركز فلسفة جيتا على الحرية الداخلية: ليس غياب الفعل، بل تنقية النية. عندما يقل الارتباط المدفوع بالأنا، يصبح الفعل أنظف ويصبح العقل قادرًا على رؤية أعمق."
+    }
 }
