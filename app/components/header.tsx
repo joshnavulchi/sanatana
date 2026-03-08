@@ -109,7 +109,6 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
     return (
       <Link
         href={item.href}
-        role="menuitem"
         className="group/item flex items-center gap-3 px-5 py-2.5 transition-all duration-150 hover:bg-linear-to-r hover:from-[#fde7c7]/70 hover:to-transparent"
       >
         <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#9a3412]/10 text-xs text-[#9a3412] transition-colors duration-150 group-hover/item:bg-[#9a3412] group-hover/item:text-[#fff4df]">
@@ -157,7 +156,6 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
             <Link
               key={child.href}
               href={child.href}
-              role="menuitem"
               className="group/child flex items-center gap-2 px-2 py-1.5 transition-all duration-150 hover:bg-linear-to-r hover:from-[#fde7c7]/70 hover:to-transparent rounded-lg"
             >
               <span className="h-1.5 w-1.5 rounded-full bg-[#d97706] shrink-0" />
@@ -396,7 +394,7 @@ export default function Header() {
           </h1>
 
           {/* ─── Desktop Nav ─── */}
-          <nav className="hidden md:flex items-center gap-2" role="menubar" aria-label="Main navigation">
+          <nav className="hidden md:flex items-center gap-2" aria-label="Main navigation">
             {navSections.map((section) => (
               <DesktopDropdown key={section.key} section={section} isActive={isActive} />
             ))}

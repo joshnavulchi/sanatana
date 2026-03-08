@@ -81,7 +81,6 @@ function NavColumn({ title, links, icon, iconBg }: {
           key={href}
           href={href}
           className={`text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`}
-          role="menuitem"
           onClick={e => { if (isActive(href)) e.preventDefault(); }}
         >
           {label}
@@ -153,7 +152,6 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
             <Link
               href={href}
               className={`text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`}
-              role="menuitem"
               onClick={e => { if (isActive(href)) e.preventDefault(); }}
             >
               {name}
@@ -186,7 +184,6 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
                     key={subKey}
                     href={subHref}
                     className={`text-sm font-semibold transition-colors duration-200 ${isActive(subHref) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-2' : 'text-[#6b5d4f] hover:text-[#7a2e1f]'}`}
-                    role="menuitem"
                     onClick={e => { if (isActive(subHref)) e.preventDefault(); }}
                   >
                     {subLabel}
@@ -278,7 +275,7 @@ export default function Footer() {
 
           {/* ─── Navigation Columns ─── */}
           <div className="mx-auto max-w-7xl px-3 md:px-0 py-7 md:py-14">
-            <nav role="menu" className="grid gap-6 grid-cols-2 md:grid-cols-3 lg:grid-cols-4" aria-label="Footer navigation">
+            <nav className="grid gap-6 grid-cols-2 md:grid-cols-3 lg:grid-cols-4" aria-label="Footer navigation">
               {SECTION_CONFIG.map(({ key, icon, iconBg, basePath }) => {
                 const section = footer[key];
                 if (!section || typeof section !== 'object') return null;
