@@ -2,8 +2,6 @@
 "use client";
 import { useEffect, useState } from 'react';
 import storage from '@lib/storage';
-import { loadGtag, loadGTM } from '@lib/analyticsLoader';
-import { DEFAULT_LOCALE } from '@lib/i18n';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import CookiePreferencesModal from './CookiePreferencesModal';
 
@@ -138,8 +136,6 @@ export default function CookieConsent() {
     }
     try { await saveToServer(p); } catch (err) { /* ignore */ }
     // Load analytics now that user consented
-    try { loadGtag(process.env.NEXT_PUBLIC_GA_ID); } catch { }
-    try { loadGTM(process.env.NEXT_PUBLIC_GTM_ID); } catch { }
     setVisible(false);
   }
 
@@ -159,8 +155,6 @@ export default function CookieConsent() {
     try { await saveToServer(p); } catch (err) { /* ignore */ }
     // Load analytics selectively based on granted preferences
     if (p.performance || p.targeting) {
-      try { loadGtag(process.env.NEXT_PUBLIC_GA_ID); } catch { }
-      try { loadGTM(process.env.NEXT_PUBLIC_GTM_ID); } catch { }
     }
   }
 

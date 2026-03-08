@@ -46,14 +46,10 @@ export default async function Home() {
       {criticalCss ? <style dangerouslySetInnerHTML={{ __html: criticalCss }} /> : null}
       <main>
         <WelcomePage />
-        {/* <HeroSection />
+        <HeroSection />
         <UnderstandingOfSanatana />
         <GitSupport />
         <OurFourCoreYugas />
-         */}
-        {/* Delayed widgets: cookies and clock */}
-        {/* <DelayedHomeWidgets />  // Disabled: causes server/client boundary error */}
-        {/* <DigitalClockLoader /> */}
         {/* Krishna flute background audio player in footer, loads after 1 minute */}
         {/* <AudioPlayer
           tracks={{

@@ -62,12 +62,10 @@ export default async function RootLayout({
     // Use default locale on error
   }
 
-  // Note: We don't pre-inject locale data here anymore since we load namespace files on-demand
-  // This reduces initial HTML size and allows for better code splitting
-
   return (
     <html lang={lang} translate="no">
       <head>
+        <meta name="robots" content="index,follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
         {/* Prevent browser automatic translation UI (Chrome/Google Translate) */}
         <meta name="google" content="notranslate" />
@@ -241,7 +239,6 @@ export default async function RootLayout({
               </Suspense>
               <ScrollToTop />
               <CookieConsent />
-              {/* WebVitalsReporter removed */}
             </ThemeProvider>
           </LocaleProvider>
         </Suspense>

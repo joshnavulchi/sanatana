@@ -1,5 +1,3 @@
 User-agent: *
 Allow: /
-
-# Sitemap location
 Sitemap: https://sanatanadharmam.in/sitemap.xml
