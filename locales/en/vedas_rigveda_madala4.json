@@ -1,5 +1,21 @@
 {
-  "mandala": {
+  "mandala-4": {
+    "meta": {
+      "title": "Rigveda Mandala 4 – Hymns of the Sage Vamadeva",
+      "description": "Mandala 4 of the Rigveda contains 58 hymns composed by the sage Vamadeva praising Indra and other deities.",
+      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-4"
+    },
+    "openGraph": {
+      "title": "Rigveda Mandala 4 – Vamadeva Hymns",
+      "description": "Ancient Vedic hymns composed by the sage Vamadeva.",
+      "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-4",
+      "type": "article"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "name": "Rigveda Mandala 4"
+    },
     "hymns": [
       {
         "hymn_number": 1,

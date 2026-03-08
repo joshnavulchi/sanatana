@@ -1,5 +1,21 @@
 {
-  "mandala": {
+  "mandala-9": {
+    "meta": {
+      "title": "Rigveda Mandala 9 – Soma Hymns",
+      "description": "Mandala 9 contains 114 hymns dedicated entirely to Soma and the sacred Soma ritual.",
+      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-9"
+    },
+    "openGraph": {
+      "title": "Rigveda Mandala 9 – Soma Hymns",
+      "description": "Sacred hymns dedicated to Soma, the divine elixir.",
+      "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-9",
+      "type": "article"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "name": "Rigveda Mandala 9"
+    },
     "hymns": [
       {
         "hymn_number": 1,

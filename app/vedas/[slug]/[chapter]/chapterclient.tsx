@@ -1,4 +1,5 @@
 "use client";
+import { useState } from 'react';
 import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
@@ -11,28 +12,17 @@ const SLUG_CONFIG: Record<string, {
   icon: string;
   accentFrom: string; accentVia: string; accentTo: string;
   textAccent: string; borderAccent: string;
-  chaptersKey: string; numKey: string; itemLabel: string;
+  chapterPrefix: string; itemLabel: string;
+  filePattern: string;
+  totalChapters: number;
 }> = {
   rigveda: {
     icon: '🔥', accentFrom: 'from-[#7c2d12]', accentVia: 'via-[#c2410c]', accentTo: 'to-[#f59e0b]',
     textAccent: 'text-[#7c2d12]', borderAccent: 'border-[#c2410c]',
-    chaptersKey: 'rigveda_mandalas', numKey: 'mandala', itemLabel: 'Mandala',
+    chapterPrefix: 'madala', itemLabel: 'Mandala',
+    filePattern: 'vedas_rigveda_madala', totalChapters: 10,
   },
-  yajurveda: {
-    icon: '🪔', accentFrom: 'from-[#92400e]', accentVia: 'via-[#d97706]', accentTo: 'to-[#fde68a]',
-    textAccent: 'text-[#92400e]', borderAccent: 'border-[#d97706]',
-    chaptersKey: 'yajurveda_chapters', numKey: 'chapter', itemLabel: 'Chapter',
-  },
-  samaveda: {
-    icon: '🎵', accentFrom: 'from-[#3b3270]', accentVia: 'via-[#8b6914]', accentTo: 'to-[#e0a632]',
-    textAccent: 'text-[#3b3270]', borderAccent: 'border-[#8b6914]',
-    chaptersKey: 'samaveda_sections', numKey: 'section', itemLabel: 'Section',
-  },
-  atharvaveda: {
-    icon: '🌿', accentFrom: 'from-[#1a6e5c]', accentVia: 'via-[#b45309]', accentTo: 'to-[#f59e0b]',
-    textAccent: 'text-[#1a6e5c]', borderAccent: 'border-[#b45309]',
-    chaptersKey: 'atharvaveda_books', numKey: 'book', itemLabel: 'Book',
-  },
+  /* Other vedas can be added when their chapter JSONs become available */
 };
 
 const FALLBACK = SLUG_CONFIG.rigveda;
@@ -65,30 +55,94 @@ function parseChapterNum(chapter: string): number {
   return match ? parseInt(match[1], 10) : 1;
 }
 
+/* ── Hymn card (accordion) ── */
+function HymnCard({ hymn, index, accentFrom, accentTo }: {
+  hymn: Record<string, unknown>; index: number;
+  accentFrom: string; accentTo: string;
+}) {
+  const [open, setOpen] = useState(false);
+  const num = (hymn.hymn_number ?? (index + 1)) as number;
+  const title = typeof hymn.title === 'string' ? hymn.title : `Hymn ${num}`;
+  const intro = typeof hymn.introduction === 'string' ? hymn.introduction : '';
+  const scripture = typeof hymn.scripture_text === 'string' ? hymn.scripture_text : '';
+  const philo = typeof hymn.philosophical_explanation === 'string' ? hymn.philosophical_explanation : '';
+
+  const shells = [
+    'bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8]',
+    'bg-linear-to-br from-[#fffbf5] via-[#fdf1dc] to-[#f8e4c0]',
+    'bg-linear-to-br from-[#fff9f0] via-[#fce9ce] to-[#f5d9ae]',
+  ];
+
+  return (
+    <div className={`rounded-2xl border border-[#d8a25a]/30 overflow-hidden ${shells[index % 3]} transition-shadow duration-300 hover:shadow-[0_8px_30px_rgba(146,64,14,0.08)]`}>
+      <button
+        type="button"
+        onClick={() => setOpen(!open)}
+        className="w-full flex items-center gap-4 p-4 md:p-5 text-left cursor-pointer"
+      >
+        <span className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-linear-to-br ${accentFrom} ${accentTo} text-xs font-extrabold text-[#fffaf0] shadow-[0_4px_20px_rgba(122,46,31,0.25)]`}>
+          {num}
+        </span>
+        <div className="flex-1 min-w-0">
+          <h4 className="text-sm md:text-base font-bold text-[#3d2e22] truncate">{title}</h4>
+        </div>
+        <svg
+          className={`h-4 w-4 text-[#b45309] shrink-0 transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
+          fill="none" viewBox="0 0 24 24" stroke="currentColor"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+
+      {open && (
+        <div className="px-4 md:px-5 pb-5 pt-0 border-t border-[#edc98f]/40 space-y-4">
+          {intro && (
+            <div className="mt-4">
+              <p className="text-sm text-[#5b2d12] leading-relaxed">{intro}</p>
+            </div>
+          )}
+          {scripture && (
+            <div className="rounded-xl border border-[#edc98f]/50 bg-[#fffaf3] p-4">
+              <h5 className="text-[10px] font-bold uppercase tracking-widest text-[#a89278] mb-2">Scripture Text</h5>
+              <div className="text-sm text-[#5b2d12] leading-relaxed">
+                <Paragraphs text={scripture} />
+              </div>
+            </div>
+          )}
+          {philo && (
+            <div className="rounded-xl border border-[#e0a632]/30 bg-[#fffaf3] p-4">
+              <h5 className="text-[10px] font-bold uppercase tracking-widest text-[#a89278] mb-2">Philosophical Significance</h5>
+              <div className="text-sm text-[#5b2d12] leading-relaxed">
+                <Paragraphs text={philo} />
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
 /* ══════════════════════════════════════
    Main ChapterClient
    ══════════════════════════════════════ */
 export default function ChapterClient({ slug, chapter }: { slug: string; chapter: string }) {
   const { isLoading } = useLocale();
-  const ns = useLocaleSection(slug);
 
   const cfg = SLUG_CONFIG[slug] || FALLBACK;
   const chapterNum = parseChapterNum(chapter);
   const vedaTitle = slug.replace(/\b\w/g, (c) => c.toUpperCase());
 
-  // Find the specific chapter data from the chapters array
-  const allChapters: Record<string, unknown>[] = Array.isArray(ns?.[cfg.chaptersKey]) ? ns[cfg.chaptersKey] : [];
-  const chapterData = allChapters.find((c) => (c[cfg.numKey] as number) === chapterNum) || null;
+  // Load chapter-specific locale file, e.g. vedas_rigveda_madala1
+  const fileKey = `${cfg.filePattern}${chapterNum}`;
+  const ns = useLocaleSection(fileKey);
 
-  const title = typeof chapterData?.title === 'string' ? chapterData.title : `${cfg.itemLabel} ${chapterNum}`;
-  const introduction = typeof chapterData?.introduction === 'string' ? chapterData.introduction : '';
-  const scriptureText = typeof chapterData?.scripture_text === 'string' ? chapterData.scripture_text : '';
-  const philoExplanation = typeof chapterData?.philosophical_explanation === 'string' ? chapterData.philosophical_explanation : '';
+  // The JSON structure is { "mandala": { "hymns": [...] } } — auto-unwrapped by the hook
+  const hymns: Record<string, unknown>[] = Array.isArray(ns?.hymns) ? ns.hymns : [];
 
   // Prev / Next navigation
   const prevNum = chapterNum > 1 ? chapterNum - 1 : null;
-  const nextNum = chapterNum < allChapters.length ? chapterNum + 1 : null;
-  const prefixSlug = chapter.replace(/\d+$/, ''); // e.g. "mandala-"
+  const nextNum = chapterNum < cfg.totalChapters ? chapterNum + 1 : null;
 
   const breadcrumbs = [
     { label: 'Home', href: '/' },
@@ -97,16 +151,18 @@ export default function ChapterClient({ slug, chapter }: { slug: string; chapter
     { label: `${cfg.itemLabel} ${chapterNum}` },
   ];
 
-  if (isLoading && !chapterData) {
+  const pageTitle = `${vedaTitle} – ${cfg.itemLabel} ${chapterNum}`;
+
+  if (isLoading && hymns.length === 0) {
     return (
-      <PageLayout metaKey={slug} title="" breadcrumbs={breadcrumbs} className="layout-md">
+      <PageLayout metaKey={fileKey} title="" breadcrumbs={breadcrumbs} className="layout-md">
         <div className="flex items-center justify-center py-12"><Loader /></div>
       </PageLayout>
     );
   }
 
   return (
-    <PageLayout metaKey={slug} title={title} breadcrumbs={breadcrumbs} className="layout-md">
+    <PageLayout metaKey={fileKey} title={pageTitle} breadcrumbs={breadcrumbs} className="layout-md">
 
       {/* ═══════════ Hero ═══════════ */}
       <section className="relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 bg-linear-to-br from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] p-6 md:p-10">
@@ -130,54 +186,34 @@ export default function ChapterClient({ slug, chapter }: { slug: string; chapter
             </div>
           </div>
 
-          {/* Title */}
-          <h1 className="text-2xl md:text-3xl font-extrabold text-[#3d2e22] mb-3">{title}</h1>
+          {/* Title + stats */}
+          <h1 className="text-2xl md:text-3xl font-extrabold text-[#3d2e22] mb-3">{pageTitle}</h1>
+          {hymns.length > 0 && (
+            <p className="text-base text-[#6b5d4f]">
+              {hymns.length} Hymns in this {cfg.itemLabel}
+            </p>
+          )}
         </div>
       </section>
 
-      {/* ═══════════ Introduction ═══════════ */}
-      {introduction && (
+      {/* ═══════════ Hymns List ═══════════ */}
+      {hymns.length > 0 && (
         <>
           <OrnamentDivider />
-          <section className="rounded-3xl border border-[#d8a25a]/20 bg-[#fffaf0] p-6 md:p-10 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
-            <h2 className={`text-2xl md:text-3xl font-extrabold bg-linear-to-r ${cfg.accentFrom} ${cfg.accentVia} ${cfg.accentTo} bg-clip-text text-transparent mb-6`}>
-              Introduction
+          <section>
+            <h2 className={`text-2xl md:text-3xl font-extrabold bg-linear-to-r ${cfg.accentFrom} ${cfg.accentVia} ${cfg.accentTo} bg-clip-text text-transparent mb-8 text-center`}>
+              Hymns of {cfg.itemLabel} {chapterNum}
             </h2>
-            <div className="text-base text-[#5b2d12] leading-relaxed">
-              <Paragraphs text={introduction} />
-            </div>
-          </section>
-        </>
-      )}
-
-      {/* ═══════════ Scripture Text ═══════════ */}
-      {scriptureText && (
-        <>
-          <OrnamentDivider />
-          <section className="relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8] p-6 md:p-10">
-            <div className={`absolute top-0 left-0 right-0 h-1 bg-linear-to-r ${cfg.accentFrom} ${cfg.accentVia} ${cfg.accentTo}`} />
-            <div className={`absolute left-0 top-1 bottom-0 w-1 bg-linear-to-b ${cfg.accentFrom} ${cfg.accentTo}`} />
-
-            <h2 className="text-2xl md:text-3xl font-extrabold bg-linear-to-r from-[#92400e] via-[#c2410c] to-[#ea580c] bg-clip-text text-transparent mb-6 pl-2">
-              Scripture Text
-            </h2>
-            <div className="text-base text-[#5b2d12] leading-relaxed pl-2">
-              <Paragraphs text={scriptureText} />
-            </div>
-          </section>
-        </>
-      )}
-
-      {/* ═══════════ Philosophical Explanation ═══════════ */}
-      {philoExplanation && (
-        <>
-          <OrnamentDivider />
-          <section className="rounded-3xl border border-[#d8a25a]/20 bg-[#fffaf0] p-6 md:p-10 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
-            <h2 className={`text-2xl md:text-3xl font-extrabold bg-linear-to-r ${cfg.accentFrom} ${cfg.accentVia} ${cfg.accentTo} bg-clip-text text-transparent mb-6`}>
-              Philosophical Significance
-            </h2>
-            <div className="text-base text-[#5b2d12] leading-relaxed">
-              <Paragraphs text={philoExplanation} />
+            <div className="space-y-3">
+              {hymns.map((hymn, i) => (
+                <HymnCard
+                  key={i}
+                  hymn={hymn}
+                  index={i}
+                  accentFrom={cfg.accentFrom}
+                  accentTo={cfg.accentTo}
+                />
+              ))}
             </div>
           </section>
         </>
@@ -188,7 +224,7 @@ export default function ChapterClient({ slug, chapter }: { slug: string; chapter
       <nav className="flex items-center justify-between gap-4">
         {prevNum ? (
           <Link
-            href={`/vedas/${slug}/${prefixSlug}${prevNum}`}
+            href={`/vedas/${slug}/${cfg.chapterPrefix}-${prevNum}`}
             className="group flex items-center gap-2 rounded-2xl border border-[#d8a25a]/40 bg-[#fffaf0] px-5 py-3 shadow-[0_4px_20px_rgba(139,105,20,0.08)] hover:shadow-[0_8px_30px_rgba(166,61,23,0.14)] transition-all duration-300 hover:-translate-y-0.5"
           >
             <svg className="h-4 w-4 text-[#b45309] transition-transform group-hover:-translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -207,7 +243,7 @@ export default function ChapterClient({ slug, chapter }: { slug: string; chapter
 
         {nextNum ? (
           <Link
-            href={`/vedas/${slug}/${prefixSlug}${nextNum}`}
+            href={`/vedas/${slug}/${cfg.chapterPrefix}-${nextNum}`}
             className="group flex items-center gap-2 rounded-2xl border border-[#d8a25a]/40 bg-[#fffaf0] px-5 py-3 shadow-[0_4px_20px_rgba(139,105,20,0.08)] hover:shadow-[0_8px_30px_rgba(166,61,23,0.14)] transition-all duration-300 hover:-translate-y-0.5"
           >
             <span className="text-sm font-semibold text-[#7a2e1f]">{cfg.itemLabel} {nextNum}</span>
@@ -219,7 +255,7 @@ export default function ChapterClient({ slug, chapter }: { slug: string; chapter
       </nav>
 
       {/* ═══════════ Other Chapters Quick Links ═══════════ */}
-      {allChapters.length > 1 && (
+      {cfg.totalChapters > 1 && (
         <>
           <OrnamentDivider />
           <section className="rounded-3xl border border-[#d8a25a]/20 bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8] p-6 md:p-8">
@@ -227,27 +263,25 @@ export default function ChapterClient({ slug, chapter }: { slug: string; chapter
               All {cfg.itemLabel}s of {vedaTitle}
             </h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
-              {allChapters.map((ch) => {
-                const n = ch[cfg.numKey] as number;
-                const chTitle = typeof ch.title === 'string' ? ch.title : `${cfg.itemLabel} ${n}`;
+              {Array.from({ length: cfg.totalChapters }, (_, i) => i + 1).map((n) => {
                 const isCurrent = n === chapterNum;
                 return (
                   <Link
                     key={n}
-                    href={`/vedas/${slug}/${prefixSlug}${n}`}
+                    href={`/vedas/${slug}/${cfg.chapterPrefix}-${n}`}
                     className={`group flex flex-col items-center gap-1.5 rounded-xl border p-3 transition-all duration-200 hover:-translate-y-0.5 ${isCurrent
-                        ? `${cfg.borderAccent} bg-[#fffaf3] shadow-[0_4px_20px_rgba(122,46,31,0.15)]`
-                        : 'border-[#edc98f]/50 bg-[#fffaf3] hover:shadow-[0_4px_20px_rgba(139,105,20,0.10)]'
+                      ? `${cfg.borderAccent} bg-[#fffaf3] shadow-[0_4px_20px_rgba(122,46,31,0.15)]`
+                      : 'border-[#edc98f]/50 bg-[#fffaf3] hover:shadow-[0_4px_20px_rgba(139,105,20,0.10)]'
                       }`}
                   >
                     <span className={`flex h-8 w-8 items-center justify-center rounded-lg text-xs font-extrabold ${isCurrent
-                        ? `bg-linear-to-br ${cfg.accentFrom} ${cfg.accentTo} text-[#fffaf0] shadow-[0_2px_10px_rgba(122,46,31,0.25)]`
-                        : 'bg-[#fde7c7]/60 text-[#92400e]'
+                      ? `bg-linear-to-br ${cfg.accentFrom} ${cfg.accentTo} text-[#fffaf0] shadow-[0_2px_10px_rgba(122,46,31,0.25)]`
+                      : 'bg-[#fde7c7]/60 text-[#92400e]'
                       }`}>
                       {n}
                     </span>
                     <span className={`text-[10px] font-semibold text-center leading-tight ${isCurrent ? cfg.textAccent : 'text-[#6b5d4f]'}`}>
-                      {chTitle.length > 30 ? `${cfg.itemLabel} ${n}` : chTitle}
+                      {cfg.itemLabel} {n}
                     </span>
                   </Link>
                 );

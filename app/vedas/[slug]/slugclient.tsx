@@ -1,5 +1,6 @@
 "use client";
 import { useState } from 'react';
+import Link from 'next/link';
 import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
@@ -21,7 +22,7 @@ const SLUG_CONFIG: Record<string, {
     accentFrom: 'from-[#7c2d12]', accentVia: 'via-[#c2410c]', accentTo: 'to-[#f59e0b]',
     textAccent: 'text-[#7c2d12]', borderAccent: 'border-[#c2410c]',
     chaptersKey: 'mandalas', chaptersLabel: 'The 10 Mandalas of Rigveda', itemLabel: 'Mandala',
-    chapterPrefix: 'madal',
+    chapterPrefix: 'madala',
     deitiesKey: 'major_rigvedic_deities', deitiesLabel: 'Major Rigvedic Deities',
   },
   yajurveda: {
@@ -109,9 +110,10 @@ function ScriptureSection({ item, index, accentFrom, accentVia, accentTo }: {
 }
 
 /* ── Chapter/Mandala/Book accordion row ── */
-function ChapterRow({ item, index, itemLabel, accentFrom, accentTo }: {
+function ChapterRow({ item, index, itemLabel, accentFrom, accentTo, slug, chapterPrefix }: {
   item: Record<string, unknown>; index: number; itemLabel: string;
   accentFrom: string; accentTo: string;
+  slug: string; chapterPrefix: string;
 }) {
   const [open, setOpen] = useState(false);
 
@@ -121,6 +123,9 @@ function ChapterRow({ item, index, itemLabel, accentFrom, accentTo }: {
   const intro = typeof item.introduction === 'string' ? item.introduction : '';
   const scriptureText = typeof item.scripture_text === 'string' ? item.scripture_text : '';
   const philoExplanation = typeof item.philosophical_explanation === 'string' ? item.philosophical_explanation : '';
+  const totalHymns = typeof item.total_hymns === 'number' ? item.total_hymns : 0;
+  const hasExpandableContent = intro || scriptureText || philoExplanation;
+  const chapterHref = `/vedas/${slug}/${chapterPrefix}-${num}`;
 
   const shells = [
     'bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8]',
@@ -140,16 +145,23 @@ function ChapterRow({ item, index, itemLabel, accentFrom, accentTo }: {
         </span>
         <div className="flex-1 min-w-0">
           <h4 className="text-base md:text-lg font-bold text-[#3d2e22] truncate">{title}</h4>
+          {totalHymns > 0 && <p className="text-xs text-[#6b5d4f] mt-0.5">{totalHymns} Hymns</p>}
         </div>
-        <svg
-          className={`h-4 w-4 text-[#b45309] shrink-0 transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
-          fill="none" viewBox="0 0 24 24" stroke="currentColor"
-        >
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
-        </svg>
+        {hasExpandableContent ? (
+          <svg
+            className={`h-4 w-4 text-[#b45309] shrink-0 transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
+            fill="none" viewBox="0 0 24 24" stroke="currentColor"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+          </svg>
+        ) : (
+          <Link href={chapterHref} className="text-xs font-bold text-[#b45309] hover:text-[#92400e] transition-colors">
+            View →
+          </Link>
+        )}
       </button>
 
-      {open && (
+      {open && hasExpandableContent && (
         <div className="px-4 md:px-5 pb-5 pt-0 border-t border-[#edc98f]/40 space-y-4">
           {intro && (
             <div className="mt-4">
@@ -174,6 +186,15 @@ function ChapterRow({ item, index, itemLabel, accentFrom, accentTo }: {
               </div>
             </div>
           )}
+
+          <div className="text-right">
+            <Link href={chapterHref} className="inline-flex items-center gap-1.5 text-sm font-bold text-[#b45309] hover:text-[#92400e] transition-colors">
+              View {itemLabel} {num} Details
+              <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </div>
         </div>
       )}
     </div>
@@ -344,6 +365,8 @@ export default function SlugClient({ slug }: { slug: string }) {
                   itemLabel={cfg.itemLabel}
                   accentFrom={cfg.accentFrom}
                   accentTo={cfg.accentTo}
+                  slug={slug}
+                  chapterPrefix={cfg.chapterPrefix}
                 />
               ))}
             </div>
