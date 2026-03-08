@@ -1,11 +1,15 @@
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { createGenerateMetadata } from '@lib/pageUtils';
-
+import StructuredData from '@components/structured-data/StructuredData';
+import PhilosophyListClient from './philosophylistclient';
 export const generateMetadata = createGenerateMetadata('philosophy');
 
 export default function Page() {
   return (
     <>
-      <h3 className="text-2xl md:text-3xl text-gray-900">Philosophy</h3>
+      <StructuredData metaKey="philosophy" />
+      <PhilosophyListClient />
     </>
-  )
+  );
 }
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

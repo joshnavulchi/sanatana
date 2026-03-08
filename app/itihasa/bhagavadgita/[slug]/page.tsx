@@ -3,10 +3,11 @@ import { createGenerateMetadata } from '@lib/pageUtils';
 import SlugClient from './slugclient';
 
 const VALID_SLUGS = [
-  'brahma-purana', 'padma-purana', 'vishnu-purana', 'shiva-purana', 'bhagavata-purana',
-  'narada-purana', 'markandeya-purana', 'agni-purana', 'bhavishya-purana',
-  'brahmavaivarta-purana', 'linga-purana', 'varaha-purana', 'skanda-purana',
-  'vamana-purana', 'kurma-purana', 'matsya-purana', 'garuda-purana', 'brahmanda-purana',
+  'arjuna-vishada-yoga', 'sankhya-yoga', 'karma-yoga', 'jnana-karma-sanyasa-yoga',
+  'karma-sanyasa-yoga', 'dhyana-yoga', 'jnana-vijnana-yoga', 'akshara-brahma-yoga',
+  'raja-vidya-raja-guhya-yoga', 'vibhuti-yoga', 'vishvarupa-darshana-yoga', 'bhakti-yoga',
+  'kshetra-kshetrajna-vibhaga-yoga', 'gunatraya-vibhaga-yoga', 'purushottama-yoga',
+  'daivasura-sampad-vibhaga-yoga', 'shraddhatray-vibhaga-yoga', 'moksha-sanyasa-yoga',
 ];
 
 export function generateStaticParams() {
@@ -15,7 +16,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata(props: { params: Promise<{ slug: string }> }) {
   const { slug } = await props.params;
-  const generate = createGenerateMetadata(`puranas_${slug}`);
+  const generate = createGenerateMetadata(`bhagavadgita_${slug}`);
   return generate({});
 }
 

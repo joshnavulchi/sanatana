@@ -220,15 +220,15 @@ export default function Footer() {
 
         {/* Decorative background blurs */}
         <div className="pointer-events-none absolute inset-0">
-          <div className="absolute -left-20 top-16 h-72 w-72 rounded-full bg-[#f3b86b]/15 blur-3xl" />
-          <div className="absolute -right-16 bottom-20 h-80 w-80 rounded-full bg-[#d97706]/10 blur-3xl" />
+          <div className="absolute -left-20 top-20 h-40 w-40 rounded-2xl bg-[#d97706] blur-2xl animate-ping" />
+          <div className="absolute -right-20 bottom-20 h-40 w-40 rounded-2xl bg-[#7c2d12] blur-2xl animate-ping" />
         </div>
 
         <div className="relative z-10">
           {/* ─── Hero CTA Section ─── */}
           <section className="content-wrapper text-center py-16 md:py-20">
-            <div className="bg-white mx-auto max-w-3xl rounded-xl shadow-xl my-16 p-4">
-              <h2 className="text-3xl md:text-4xl my-12 font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
+            <div className="bg-white mx-auto max-w-3xl rounded-xl shadow-xs my-16 p-4">
+              <h2 className="text-3xl/10 md:text-4xl/12 my-12 font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
                 {footer.title}
               </h2>
             </div>
@@ -343,7 +343,7 @@ export default function Footer() {
           </div>
 
           {/* Bottom ornamental bar */}
-          <div className="h-1 w-full bg-linear-to-r from-[#f59e0b] via-[#d97706] to-[#7c2d12]" />
+          <div className="h-[4] w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
         </div>
       </footer>
     </>

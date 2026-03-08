@@ -3,10 +3,8 @@ import { createGenerateMetadata } from '@lib/pageUtils';
 import SlugClient from './slugclient';
 
 const VALID_SLUGS = [
-  'brahma-purana', 'padma-purana', 'vishnu-purana', 'shiva-purana', 'bhagavata-purana',
-  'narada-purana', 'markandeya-purana', 'agni-purana', 'bhavishya-purana',
-  'brahmavaivarta-purana', 'linga-purana', 'varaha-purana', 'skanda-purana',
-  'vamana-purana', 'kurma-purana', 'matsya-purana', 'garuda-purana', 'brahmanda-purana',
+  'bala-kanda', 'ayodhya-kanda', 'aranya-kanda', 'kishkinda-kanda',
+  'sundara-kanda', 'yuddha-kanda', 'uttara-kanda',
 ];
 
 export function generateStaticParams() {
@@ -15,7 +13,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata(props: { params: Promise<{ slug: string }> }) {
   const { slug } = await props.params;
-  const generate = createGenerateMetadata(`puranas_${slug}`);
+  const generate = createGenerateMetadata(`ramayana_${slug}`);
   return generate({});
 }
 
