@@ -1,0 +1,55 @@
+{
+  "vedic_philosophy_metallurgy": {
+    "title": "Metallurgy – Vedic Science and Knowledge Traditions",
+    "description": "Explore Metallurgy in the Vedic knowledge traditions: historical context, core ideas, and how these disciplines connect to dharma and learning.",
+    "meta": {
+      "title": "Metallurgy – Vedic Science and Knowledge Traditions",
+      "canonical": "https://sanatanadharmam.in/vedic-philosophy/metallurgy",
+      "description": "Explore Metallurgy in the Vedic knowledge traditions: historical context, core ideas, and how these disciplines connect to dharma and learning.",
+      "keywords": [
+        "Metallurgy",
+        "Vedic science",
+        "Sanatana Dharma",
+        "knowledge traditions"
+      ],
+      "robots": "index, follow",
+      "url": "https://sanatanadharmam.in/vedic-philosophy/metallurgy",
+      "ogImage": "https://sanatanadharmam.in/og/vedic_philosophy_metallurgy.png"
+    },
+    "openGraph": {
+      "title": "Metallurgy – Vedic Science and Knowledge Traditions",
+      "description": "Explore Metallurgy in the Vedic knowledge traditions: historical context, core ideas, and how these disciplines connect to dharma and learning.",
+      "url": "https://sanatanadharmam.in/vedic-philosophy/metallurgy",
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/vedic_philosophy_metallurgy.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Metallurgy – Vedic Science and Knowledge Traditions"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "name": "Metallurgy – Vedic Science and Knowledge Traditions",
+      "description": "Explore Metallurgy in the Vedic knowledge traditions: historical context, core ideas, and how these disciplines connect to dharma and learning.",
+      "url": "https://sanatanadharmam.in/vedic-philosophy/metallurgy",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Sanatanadharmam",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "introduction": "Metallurgy reflects the practical side of Indian knowledge traditions: mining, smelting, alloying, coinage, tools, and artistic metalwork. Temple culture also preserved advanced craftsmanship through bronze and metal iconography, bells, lamps, and ritual vessels.\n\nThis page offers a high-level overview of metallurgical traditions and their relationship to craft, economy, and sacred art.",
+    "scripture_text": [
+      {
+        "section": "Traditional context",
+        "content": "Knowledge about metals is preserved across technical treatises, craft lineages, and regional practices. Here we present history and concepts rather than detailed instructions."
+      }
+    ],
+    "philosophical_explanation": "A philosophical lens on metallurgy is transformation: raw material becomes refined through heat, patience, and skill. This mirrors many spiritual metaphors—discipline as the fire that purifies intention and turns potential into clarity."
+  }
+}

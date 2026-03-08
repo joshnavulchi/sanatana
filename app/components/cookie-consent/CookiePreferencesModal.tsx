@@ -54,7 +54,7 @@ export default function CookiePreferencesModal({ open, onClose, onSave, initial 
           <button className="cursor-pointer text-blue-500 hover:text-blue-700 text-2xl font-bold px-2 py-1 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400" aria-label="close" onClick={onClose}>✕</button>
         </div>
         <div className="flex flex-col md:flex-row gap-4">
-          <nav role="menu" className="md:w-1/3 w-full">
+          <nav className="md:w-1/3 w-full" aria-label="Cookie preference sections">
             <ul className="space-y-2">
               {TABS.map((t, idx) => (
                 <li key={idx}>

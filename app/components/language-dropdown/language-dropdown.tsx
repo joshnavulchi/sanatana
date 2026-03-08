@@ -152,9 +152,9 @@ export default function LanguageDropdown() {
   }, [filteredLanguages, open, currentLang]);
 
   return (
-    <div role="menuItem" ref={dropdownRef} className="relative hidden">
+    <div ref={dropdownRef} className="relative">
       {/* Dropdown Button */}
-      <button role="button" aria-haspopup="menu" aria-controls="language-menu" onClick={() => setOpen(!open)}
+      <button aria-haspopup="dialog" aria-controls="language-dialog" onClick={() => setOpen(!open)}
         className="group relative inline-flex items-center gap-1 py-1 px-3 rounded-sm shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer transform"
         aria-label={locale?.languagedropdown?.arialabel || 'Choose language'}
         aria-expanded={open} >
@@ -163,7 +163,7 @@ export default function LanguageDropdown() {
           <div className="absolute -top-1 -right-1 w-2 h-2 bg-amber-500 rounded-full animate-pulse"></div>
         </div>
         {isClient && (
-          <span className="hidden md:flex text-xl md:text-lg md:text-base md:text-md md:text-sm group-hover:text-amber-700 transition-colors duration-300">
+          <span className="hidden md:flex text-md md:text-sm group-hover:text-amber-700 transition-colors duration-300">
             {currentLanguage?.nativeName || locale?.languagedropdown?.english || 'English'}
           </span>
         )}
@@ -174,7 +174,7 @@ export default function LanguageDropdown() {
 
       {/* Popup Modal */}
       {open && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 animate-fade-in" role="dialog" aria-modal="true" aria-labelledby="language-dialog-title">
+        <div id="language-dialog" className="fixed inset-0 z-50 flex items-center justify-center p-4 animate-fade-in" role="dialog" aria-modal="true" aria-labelledby="language-dialog-title">
           {/* Backdrop with blur */}
           <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/50 to-black/60 backdrop-blur-sm animate-fade-in" onClick={() => setOpen(false)} />
 
@@ -197,7 +197,6 @@ export default function LanguageDropdown() {
                 </div>
               </div>
               <button
-                role="button"
                 aria-label="Close"
                 onClick={() => setOpen(false)}
                 className="group w-10 h-10 flex items-center justify-center bg-white  hover:bg-red-50 border-2 border-amber-200 hover:border-red-300 rounded-full transition-all duration-300 cursor-pointer transform hover:rotate-90 hover:scale-110 shadow-md"
@@ -256,7 +255,7 @@ export default function LanguageDropdown() {
             </div>
 
             {/* Language List */}
-            <div id="language-menu" role="menu" className="max-h-96 overflow-y-auto px-4 pb-4 scrollbar-thin scrollbar-thumb-amber-400 scrollbar-track-amber-100 ">
+            <div className="max-h-96 overflow-y-auto px-4 pb-4 scrollbar-thin scrollbar-thumb-amber-400 scrollbar-track-amber-100 ">
               <div className="flex flex-wrap gap-3">
                 {filteredLanguages.map((lang, idx) => {
                   const meta = (localeMeta as any)[lang.code] || {};
@@ -267,7 +266,6 @@ export default function LanguageDropdown() {
                   return (
                     <button
                       key={lang.code}
-                      role="menuitem"
                       onMouseEnter={() => {
                         setHighlighted(idx);
                       }}

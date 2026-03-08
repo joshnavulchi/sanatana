@@ -1,0 +1,152 @@
+{
+  "philosophy_samsara": {
+    "title": "Samsara – Cycle of Birth, Death and Rebirth | Sanatana Dharma",
+    "description": "Learn about Samsara in Sanatana Dharma, the cycle of birth, death and rebirth governed by Karma. Explore its meaning in the Upanishads, Bhagavad Gita and Hindu philosophy.",
+    "meta": {
+      "title": "Samsara – Cycle of Birth, Death and Rebirth | Sanatana Dharma",
+      "canonical": "https://sanatanadharmam.in/philosophy/samsara",
+      "description": "Learn about Samsara in Sanatana Dharma, the cycle of birth, death and rebirth governed by Karma. Explore its meaning in the Upanishads, Bhagavad Gita and Hindu philosophy.",
+      "keywords": [
+        "Samsara meaning",
+        "cycle of rebirth",
+        "Samsara philosophy",
+        "Samsara and Karma",
+        "Samsara and Moksha",
+        "Hindu philosophy Samsara",
+        "Samsara Upanishads",
+        "Samsara Bhagavad Gita",
+        "Sanatana Dharma Samsara",
+        "cycle of birth and death"
+      ],
+      "robots": "index, follow",
+      "url": "https://sanatanadharmam.in/philosophy/samsara"
+    },
+    "openGraph": {
+      "title": "Samsara – Cycle of Birth and Rebirth",
+      "description": "Discover Samsara, the cycle of birth, death and rebirth explained in Sanatana Dharma philosophy.",
+      "url": "https://sanatanadharmam.in/philosophy/samsara",
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/philosophy-samsara.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Samsara Philosophy"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Samsara",
+          "description": "Samsara is the cycle of birth, death and rebirth governed by karma in Sanatana Dharma and other Indian philosophical traditions.",
+          "url": "https://sanatanadharmam.in/philosophy/samsara",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Sanatana Dharma Philosophy"
+          }
+        },
+        {
+          "@type": "Article",
+          "headline": "Samsara – Cycle of Rebirth in Sanatana Dharma",
+          "about": [
+            "Samsara",
+            "Karma",
+            "Moksha",
+            "Sanatana Dharma philosophy",
+            "Hindu philosophy"
+          ],
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          },
+          "url": "https://sanatanadharmam.in/philosophy/samsara"
+        }
+      ]
+    },
+    "components": {
+      "birth": "Entry into physical existence based on past karma.",
+      "death": "Transition to another state of existence.",
+      "rebirth": "New life determined by accumulated karma."
+    },
+    "core_principles": [
+      "Cycle of birth and death",
+      "Governed by karma",
+      "Ignorance (Avidya) binds beings to Samsara",
+      "Liberation (Moksha) ends Samsara"
+    ],
+    "definition": "Samsara refers to the continuous cycle of birth, death, and rebirth in Hindu, Buddhist, and Jain philosophies, driven by karma and ignorance.",
+    "goals": [
+      "Understand the nature of Samsara",
+      "Reduce karmic accumulation",
+      "Seek liberation through spiritual practice"
+    ],
+    "key_scriptural_references": [
+      {
+        "quote_summary": "The soul is eternal, taking new bodies as old ones perish.",
+        "text": "Bhagavathgita"
+      },
+      {
+        "quote_summary": "Liberation comes when one realizes the Self beyond birth and death.",
+        "text": "Upanishads"
+      }
+    ],
+    "modern_relevance": {
+      "ethics": "Encourages mindful living and responsibility.",
+      "psychology": "Explains patterns of suffering and attachment.",
+      "spirituality": "Motivates pursuit of higher consciousness."
+    },
+    "origin": {
+      "meaning": "Derived from Sanskrit 'samsṛ', meaning 'to flow or wander'.",
+      "roots": "Vedic and Upanishadic teachings",
+      "texts": [
+        "Upanishads",
+        "Bhagavathgita",
+        "Yoga Sutras"
+      ]
+    },
+    "relation_to_other_concepts": {
+      "dharma": "Righteous living helps reduce karmic bondage.",
+      "karma": "Actions determine future births.",
+      "moksha": "Freedom from Samsara is the ultimate goal."
+    },
+    "samsara_qa": [
+      {
+        "answer": "Samsara is the endless cycle of birth, death, and rebirth, driven by karma and ignorance. It is the state of worldly existence from which liberation (moksha) is sought.",
+        "question": "What is Samsara?"
+      },
+      {
+        "answer": "Karma, the law of cause and effect, determines the circumstances of each birth. Good actions lead to favorable rebirths, while negative actions result in suffering.",
+        "question": "How does karma influence Samsara?"
+      },
+      {
+        "answer": "Ignorance (avidya), attachment, and desires bind beings to the cycle of Samsara. Only through knowledge, detachment, and spiritual practice can one break free.",
+        "question": "What causes beings to remain in Samsara?"
+      },
+      {
+        "answer": "By following Dharma, purifying the mind, practicing selfless action, devotion, and meditation, one can attain Moksha and be freed from Samsara.",
+        "question": "How can one escape Samsara?"
+      },
+      {
+        "answer": "The Upanishads, Bhagavad Gita, and Yoga Sutras describe Samsara as a state of bondage and suffering, and teach the path to liberation.",
+        "question": "What do scriptures say about Samsara?"
+      },
+      {
+        "answer": "No, the concept of Samsara is also central to Buddhism and Jainism, though each tradition explains it differently.",
+        "question": "Is Samsara unique to Hinduism?"
+      },
+      {
+        "answer": "Yes, the cycles of pleasure and pain, success and failure, and repeated patterns in life reflect the nature of Samsara. Recognizing this inspires the search for lasting freedom.",
+        "question": "Can Samsara be experienced in daily life?"
+      },
+      {
+        "answer": "The ultimate goal is to transcend Samsara by realizing the true Self and attaining Moksha, ending the cycle of rebirth and suffering.",
+        "question": "What is the ultimate goal regarding Samsara?"
+      }
+    ]
+  }
+}
