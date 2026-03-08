@@ -119,9 +119,8 @@ export default function PageLayout({ metaKey, title, titleColor, titleBorder, de
 
           {/* Slide-in panel */}
           <aside
-            className={`fixed right-0 top-0 z-50 flex h-full w-85 max-w-[85vw] flex-col border-l border-[#d8a25a]/40 bg-linear-to-b from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] shadow-[−12px_0_40px_rgba(166,61,23,0.12)] transition-transform duration-300 ease-out ${
-              panelOpen ? 'translate-x-0' : 'translate-x-full'
-            }`}
+            className={`fixed right-0 top-0 z-50 flex h-full w-85 max-w-[85vw] flex-col border-l border-[#d8a25a]/40 bg-linear-to-b from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] shadow-[−12px_0_40px_rgba(166,61,23,0.12)] transition-transform duration-300 ease-out ${panelOpen ? 'translate-x-0' : 'translate-x-full'
+              }`}
             aria-label="Explore related topics"
           >
             {/* Panel header */}

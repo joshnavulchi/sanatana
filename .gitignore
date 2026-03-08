@@ -2,8 +2,6 @@
 
 # dependencies
 /node_modules
-/yarn-cache
-/.yarn
 /.pnp
 .pnp.*
 
@@ -18,6 +16,10 @@
 /.next/
 /out/
 /docs
+
+# ignore backup pages and backup components
+/app/backup pages/
+/app/components/backup components/
 
 # production
 /build
@@ -65,7 +67,3 @@ dist/
 .recovery_backups/
 # External locales (downloaded from external repository)
 locales-external/
-# Downloaded locales (regenerated during build)
-public/locales/
-# Keep .locales-meta.json for production builds to avoid re-downloading
-!public/locales/.locales-meta.json

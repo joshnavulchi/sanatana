@@ -44,10 +44,11 @@ const nextConfig = {
   // SWC minify removed — Next.js may warn about `swcMinify` in newer versions.
   // Experimental CSS optimization (dedupe & minimize CSS across pages).
   experimental: {
-    optimizeCss: true,
+    // optimizeCss requires the `critters` package and is incompatible with
+    // output: 'export'. Critical CSS is handled by scripts/generate-critical-css.js.
+    optimizeCss: false,
     // Enable optimized resource loading hints
     optimizePackageImports: ['react', 'react-dom'],
-      // reactTurbo removed; Next.js 16+ uses Turbopack by default
   },
   // This app is statically exported. `output: 'export'` and `trailingSlash: true`
   // are set to produce a static site suitable for static hosts.

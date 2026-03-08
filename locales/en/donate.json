@@ -1,0 +1,136 @@
+{
+  "donate": {
+    "title": "Support Sanātana Dharma",
+    "meta": {
+      "title": "Donate | Overview — Sanātana Dharma - Explore Sanatan Dharma",
+      "canonical": "https://sanatanadharmam.in/donate",
+      "description": "Donate — Support Sanātana Dharma — Articles, translations and concise commentary on Donate. Explore practices, history, and guiding principles at...",
+      "keywords": [
+        "UPI donation for Sanātana Dharma",
+        "bank transfer for Sanātana Dharma donation",
+        "commercial status of Sanātana Dharma",
+        "contact information for Sanātana Dharma donations",
+        "contribute to Sanātana Dharma",
+        "current expenses of Sanātana Dharma",
+        "donate to Sanātana Dharma",
+        "donation options for Sanātana Dharma",
+        "donation security for Sanātana Dharma",
+        "donation usage for Sanātana Dharma",
+        "enabling creation of spiritual content for Sanātana Dharma",
+        "frequently asked questions about donating to Sanātana Dharma",
+        "fund Sanātana Dharma",
+        "how to donate to Sanātana Dharma",
+        "impact of donations on Sanātana Dharma",
+        "international donation for Sanātana Dharma",
+        "keeping Sanātana Dharma independent and non-commercial",
+        "non-commercial nature of Sanātana Dharma",
+        "one-time donation for Sanātana Dharma",
+        "preserving free access to Sanātana Dharma knowledge",
+        "recurring donation for Sanātana Dharma",
+        "support Sanātana Dharma",
+        "supporting translations and philosophical knowledge at Sanātana Dharma",
+        "supporting website hosting and maintenance for Sanātana Dharma",
+        "sustaining free access to ancient wisdom through donations",
+        "transparency of donations at Sanātana Dharma",
+        "why donate to Sanātana Dharma"
+      ],
+      "ogimage": "/og/donate.png",
+      "url": "https://sanatanadharmam.in/donate"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "English",
+            "Español",
+            "Français",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Nederlands",
+            "Português",
+            "Русский",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "donateoptions": {
+      "bank": {
+        "accountname": "V Vijaya Kumar",
+        "accountnumber": "32160808608",
+        "heading": "UPI / Bank Transfer",
+        "ifsc": "SBIN0010677",
+        "upi": "809918075@ybl"
+      },
+      "onetime": {
+        "heading": "One-Time Donation",
+        "note": "Make a secure one-time donation via UPI or international payment methods."
+      }
+    },
+    "expenses": {
+      "heading": "Transparency: Current Expenses",
+      "table": [
+        {
+          "cost": "₹3,500",
+          "cycle": "3 Years",
+          "name": "Domain & Hosting",
+          "provider": "Hostinger"
+        },
+        {
+          "cost": "Free",
+          "cycle": "Unlimited",
+          "name": "GitHub Pages",
+          "provider": "GitHub"
+        },
+        {
+          "cost": "Free Plans",
+          "cycle": "Ongoing",
+          "name": "AI Tools (Research)",
+          "provider": "Google / Microsoft / Meta"
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "a": "Yes. Donations are processed via trusted payment providers and direct bank transfers.",
+          "q": "Is my donation secure?"
+        },
+        {
+          "a": "Your contribution supports hosting, maintenance, and creation of educational spiritual content.",
+          "q": "How will my donation be used?"
+        },
+        {
+          "a": "No. Sanātana Dharma is a non-commercial, knowledge-focused initiative.",
+          "q": "Is this a commercial organization?"
+        }
+      ]
+    },
+    "purpose": {
+      "heading": "Why Your Support Matters",
+      "points": [
+        "Preserves free access to Sanātana Dharma knowledge",
+        "Supports website hosting, domain, and maintenance",
+        "Enables creation of high-quality spiritual content",
+        "Keeps the platform independent and non-commercial"
+      ]
+    },
+    "subtitle": "Your donation sustains free access to ancient wisdom, scriptures, translations, and philosophical knowledge for seekers worldwide."
+  }
+}

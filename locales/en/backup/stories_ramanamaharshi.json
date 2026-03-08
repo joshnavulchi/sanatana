@@ -1,0 +1,188 @@
+{
+  "stories_ramanamaharshi": {
+    "title": "Stories | Ramana Maharshi — Sanātana Dharma - Explore Sanatan Dharma",
+    "meta": {
+      "title": "Stories | Ramana Maharshi — Sanātana Dharma - Explore Sanatan Dharma",
+      "canonical": "https://sanatanadharmam.in/stories/ramanamaharshi",
+      "description": "Learn about Ramanamaharshi on SanatanaDharma.in — articles, translations and commentary.",
+      "keywords": [
+        "Ramana Maharshi Arunachala",
+        "Ramana Maharshi Arunachala in English",
+        "Ramana Maharshi Biography",
+        "Ramana Maharshi Biography in English",
+        "Ramana Maharshi Early Life",
+        "Ramana Maharshi Early Life in English",
+        "Ramana Maharshi Key Teachings",
+        "Ramana Maharshi Key Teachings in English",
+        "Ramana Maharshi Legacy",
+        "Ramana Maharshi Legacy in English",
+        "Ramana Maharshi Lineage",
+        "Ramana Maharshi Lineage in English",
+        "Ramana Maharshi Major Works",
+        "Ramana Maharshi Major Works in English",
+        "Ramana Maharshi Philosophy",
+        "Ramana Maharshi Philosophy in English",
+        "Ramana Maharshi Realization",
+        "Ramana Maharshi Realization in English",
+        "Ramana Maharshi Significance",
+        "Ramana Maharshi Significance in English",
+        "Ramana Maharshi Stories",
+        "Ramana Maharshi Teaching Style",
+        "Ramana Maharshi Teaching Style in English",
+        "Ramana Maharshi Teachings",
+        "Ramana Maharshi Teachings in English",
+        "Ramana Maharshi Texts and Verses",
+        "Ramana Maharshi Texts and Verses in English",
+        "Ramana Maharshi Timeline",
+        "Ramana Maharshi Timeline in English"
+      ],
+      "ogimage": "/og/home.png",
+      "url": "https://sanatanadharmam.in/stories/ramanamaharshi"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "English",
+            "Español",
+            "Français",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Nederlands",
+            "Português",
+            "Русский",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "attributes": {
+      "iconography": [
+        "Seated in silence at Arunachala",
+        "Radiant calm expression",
+        "Minimalistic lifestyle"
+      ],
+      "virtues": [
+        "Compassion",
+        "Detachment",
+        "Simplicity",
+        "Wisdom"
+      ]
+    },
+    "biography": {
+      "arunachala": "Drawn to the sacred hill Arunachala, he left home and spent years in deep meditation, living in caves and silence.",
+      "birth": {
+        "place": "Tiruchuli, Tamil Nadu, India",
+        "year": "1879"
+      },
+      "early_life": "Ramana Maharshi was born as Venkataraman Iyer. At age 16, he experienced a profound spiritual awakening after a near-death experience, realizing the Self as pure consciousness.",
+      "full_name": "Ramana Maharshi (Venkataraman Iyer)",
+      "legacy": "Ramana Maharshi is revered as a modern sage of Advaita Vedanta. His teachings and ashram at Arunachala continue to inspire spiritual seekers worldwide. He attained Mahasamadhi in 1950.",
+      "teaching": "Ramana taught the path of Self-Inquiry (Atma-Vichara), guiding seekers to ask 'Who am I?' and realize their true nature. His presence radiated peace, and he often taught through silence."
+    },
+    "keyteachings": [
+      {
+        "concept": "Atma-Vichara",
+        "description": "Investigate the source of the 'I' thought to realize the Self"
+      },
+      {
+        "concept": "Silence",
+        "description": "True teaching is beyond words; silence conveys the highest truth"
+      },
+      {
+        "concept": "Surrender",
+        "description": "Complete surrender to the Self or God leads to liberation"
+      }
+    ],
+    "lineage": {
+      "birth": {
+        "name": "Venkataraman Iyer",
+        "place": "Tiruchuli, Tamil Nadu",
+        "year": "1879"
+      },
+      "realization": {
+        "event": "Spontaneous awakening at age 16 after a near-death experience",
+        "insight": "Realized the Self as deathless, pure consciousness"
+      }
+    },
+    "majorworks": [
+      "Upadesa Saram (Essence of Instruction)",
+      "Nan Yar? (Who am I?)",
+      "Forty Verses on Reality"
+    ],
+    "philosophicalthemes": [
+      "Self alone is real; ego is an illusion",
+      "Liberation through Self-Inquiry: 'Who am I?'",
+      "Silence as the highest teaching"
+    ],
+    "role": "Modern Advaita Vedanta Sage, Teacher of Self-Inquiry",
+    "significance": {
+      "coreidentity": [
+        "Advocate of Atma-Vichara (Self-Inquiry)",
+        "Silent teacher of non-dual truth",
+        "Established Arunachala as a spiritual center"
+      ],
+      "titles": [
+        "Bhagavan",
+        "Maharshi"
+      ]
+    },
+    "textsandverses": [
+      {
+        "meaning": "Who am I? The core question for Self-Inquiry.",
+        "name": "Who am I?",
+        "transliteration": "Nan Yar?",
+        "verse": "नान् यार्?"
+      },
+      {
+        "meaning": "Action yields fruit according to its nature; liberation comes only through knowledge.",
+        "name": "Upadesa Saram",
+        "transliteration": "Karma kritam karmanaam phalam",
+        "verse": "कर्म कृतं कर्मणां फलदं।"
+      },
+      {
+        "meaning": "The 'I-I' shines as the Self when the ego subsides.",
+        "name": "Forty Verses",
+        "transliteration": "Aham Aham Ayam Aham",
+        "verse": "अहम् अहं अयम् अहम्।"
+      }
+    ],
+    "timeline": [
+      {
+        "event": "Born in Tiruchuli, Tamil Nadu in 1879",
+        "phase": "Birth"
+      },
+      {
+        "event": "At age 16, experienced ego-death and awakening",
+        "phase": "Realization"
+      },
+      {
+        "event": "Moved to Arunachala Hill; lived in caves in deep meditation",
+        "phase": "Arunachala"
+      },
+      {
+        "event": "Taught Self-Inquiry through silence and brief instructions",
+        "phase": "Teaching"
+      },
+      {
+        "event": "Established Ramanashram; continued guiding seekers until Mahasamadhi in 1950",
+        "phase": "Later Life"
+      }
+    ]
+  }
+}

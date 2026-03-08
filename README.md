@@ -58,23 +58,9 @@ For inquiries, permissions, or to report misuse of this repository, please conta
 
 If you'd like, I can also pin an updated `baseline-browser-mapping` version in `package.json` for you to `npm install` locally. Let me know if you want me to do that.
 
-## Caching locales on Render (recommended)
+## Locale Data
 
-When deploying on Render, the `scripts/download-locales.js` helper fetches locale JSON files from a remote GitHub repo. To avoid downloading all locales on every clean deploy, persist the `public/locales` folder (and the generated `.locale-metadata.json`) between builds using Render's build cache or a persistent disk.
-
-Behavior:
-- If a cached `public/locales/.locale-metadata.json` is present, the script will compare remote SHAs and only download changed files.
-- On a clean build (no cached metadata), the script will skip downloading all locales when it detects a Render deployment, unless you explicitly force downloads.
-
-To force downloads during a deploy, set the environment variable `FORCE_LOCALE_DOWNLOAD=1` (or `DOWNLOAD_LOCALES=1`) in your Render service settings, or run the script locally with `--force`.
-
-Example Render Build Command (force):
-
-```bash
-FORCE_LOCALE_DOWNLOAD=1 npm run build
-```
-
-Recommendation: enable caching for `public/locales` in Render so builds only download updated locale files.
+Locale/translation JSON files are stored in the `locales/` folder (e.g. `locales/en/`, `locales/hi/`, etc.) and are read directly at build time via dynamic imports. No API route or remote download step is needed.
 
 ## Critical CSS — Home
 

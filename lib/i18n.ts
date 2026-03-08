@@ -3,7 +3,7 @@ export const DEFAULT_LOCALE = "en";
 import storage from "./storage";
 
 export const SUPPORTED_LOCALES = [
-  'ar', 'de', 'en', 'es', 'fr', 'hi', 'ja', 'ne', 'nl', 'pt', 'ru', 'te', 'ur', 'zh-CN'
+  'ar', 'de', 'en', 'es', 'fr', 'hi', 'ja', 'ne', 'nl', 'pt', 'ru', 'ta', 'te', 'ur', 'zh-CN'
 ];
 
 const REMOTE_LOCALES_BASE = process.env.NEXT_PUBLIC_REMOTE_LOCALES_BASE || '';
@@ -38,18 +38,16 @@ export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = ''
     try {
       const fs = require('fs');
       const path = require('path');
-      
+
       // Try various file naming patterns
       const candidates = [
         namespace,
         namespace.replace(/-/g, '_'),
         namespace.replace(/_/g, '-'),
-        namespace.split('_').reverse().join('_'),
-        namespace.split('-').reverse().join('-')
       ];
-      
+
       for (const candidate of candidates) {
-        const filePath = path.join(process.cwd(), 'public', 'locales', locale, `${candidate}.json`);
+        const filePath = path.join(process.cwd(), 'locales', locale, `${candidate}.json`);
         if (fs.existsSync(filePath)) {
           const content = fs.readFileSync(filePath, 'utf8');
           return JSON.parse(content);
@@ -76,24 +74,38 @@ export async function loadLocaleNamespace(locale: string, namespace: string) {
     namespace,
     namespace.replace(/-/g, '_'),
     namespace.replace(/_/g, '-'),
-    namespace.split('_').reverse().join('_'),
-    namespace.split('-').reverse().join('-')
   ];
 
+  // Server-side: use fs directly (most reliable for static export)
+  if (typeof window === 'undefined') {
+    try {
+      const fs = require('fs');
+      const path = require('path');
+      for (const candidate of candidates) {
+        const filePath = path.join(process.cwd(), 'locales', locale, `${candidate}.json`);
+        if (fs.existsSync(filePath)) {
+          const content = fs.readFileSync(filePath, 'utf8');
+          const parsed = JSON.parse(content);
+          try { (localesCache[locale] as any)[namespace] = parsed; } catch (_) { }
+          return parsed;
+        }
+      }
+    } catch (_) { }
+    return {};
+  }
+
+  // Client-side: use dynamic import (bundled by Turbopack)
   for (const candidate of candidates) {
     try {
-      const url = `/locales/${encodeURIComponent(locale)}/${encodeURIComponent(candidate)}.json`;
-      const resp = await fetch(url);
-      if (resp.ok) {
-        const parsed = await resp.json();
-        try { (localesCache[locale] as any)[namespace] = parsed; } catch (_) { }
-        return parsed;
-      }
-    } catch (e) { 
+      const mod = await import(`../locales/${locale}/${candidate}.json`);
+      const parsed = mod.default || mod;
+      try { (localesCache[locale] as any)[namespace] = parsed; } catch (_) { }
+      return parsed;
+    } catch (e) {
       // Continue to next candidate
     }
   }
-  
+
   console.warn(`[i18n] loadLocaleNamespace: could not load ${namespace} for ${locale}`);
 
   // No fallback to full locale object; only per-namespace files are supported now.

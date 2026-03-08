@@ -36,10 +36,19 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
             meta = (ns as any)[metaKey].meta as Record<string, unknown>;
           } else if ((ns as any).meta && typeof (ns as any).meta === 'object') {
             meta = (ns as any).meta as Record<string, unknown>;
-          } else if (ns.meta && typeof ns.meta === 'object') {
-            meta = ns.meta as Record<string, unknown>;
           } else {
-            meta = ns as Record<string, unknown>;
+            // Auto-unwrap: if ns has exactly 1 top-level key that is an object with `meta`, use it
+            const topKeys = Object.keys(ns);
+            if (topKeys.length === 1 && typeof (ns as any)[topKeys[0]] === 'object' && !Array.isArray((ns as any)[topKeys[0]])) {
+              const inner = (ns as any)[topKeys[0]];
+              if (inner?.meta && typeof inner.meta === 'object') {
+                meta = inner.meta as Record<string, unknown>;
+              } else {
+                meta = inner as Record<string, unknown>;
+              }
+            } else {
+              meta = ns as Record<string, unknown>;
+            }
           }
         }
       } catch (e) { /* ignore and continue with empty meta */ }

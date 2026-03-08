@@ -1,36 +1,25 @@
 "use client";
-import { useEffect, useState } from 'react';
 import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '@app/context/locale-context';
+import useLocaleSection from '@app/hooks/useLocaleSection';
 import Loader from '@components/loader';
 import SimilarCategories from '@components/similar-categories/SimilarCategories';
 
 export default function MokshaClient() {
-  const { locale, isLoading } = useLocale();
-  const [page, setPage] = useState<any | null>(null);
+  const { isLoading } = useLocale();
+  const nsObj = useLocaleSection('philosophy_moksha');
 
-  useEffect(() => {
-    let mounted = true;
-    async function fetchData() {
-      const res = await fetch(`/locales/${locale}/philosophy_moksha.json`);
-      const data = await res.json();
-      const nsObj = data?.philosophy_moksha || {};
-      if (!mounted) return;
-      setPage({
-        title: nsObj.title || 'Moksha Philosophy',
-        definition: nsObj.definition,
-        core_principles: Array.isArray(nsObj.core_principles) ? nsObj.core_principles : [],
-        origin: nsObj.origin || {},
-        paths_to_moksha: nsObj.paths_to_moksha || {},
-        goals: Array.isArray(nsObj.goals) ? nsObj.goals : [],
-        relation_to_other_concepts: nsObj.relation_to_other_concepts || {},
-        modern_relevance: nsObj.modern_relevance || {},
-        key_scriptural_references: Array.isArray(nsObj.key_scriptural_references) ? nsObj.key_scriptural_references : []
-      });
-    }
-    fetchData();
-    return () => { mounted = false; };
-  }, [locale]);
+  const page = Object.keys(nsObj).length > 0 ? {
+    title: nsObj.title || 'Moksha Philosophy',
+    definition: nsObj.definition,
+    core_principles: Array.isArray(nsObj.core_principles) ? nsObj.core_principles : [],
+    origin: nsObj.origin || {},
+    paths_to_moksha: nsObj.paths_to_moksha || {},
+    goals: Array.isArray(nsObj.goals) ? nsObj.goals : [],
+    relation_to_other_concepts: nsObj.relation_to_other_concepts || {},
+    modern_relevance: nsObj.modern_relevance || {},
+    key_scriptural_references: Array.isArray(nsObj.key_scriptural_references) ? nsObj.key_scriptural_references : []
+  } : null;
 
   if (isLoading && !page) {
     return (

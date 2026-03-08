@@ -1,0 +1,474 @@
+{
+  "humans": {
+    "title": "human_civilization_evolution",
+    "timeline_start": "300000 years ago",
+    "timeline_end": "present",
+    "eras": [
+      {
+        "era": "Hunter-Gatherer Era",
+        "time_range": "300000 BCE – 10000 BCE",
+        "population_estimate": {
+          "start": "100,000",
+          "end": "5 million"
+        },
+        "daily_life": {
+          "housing": "temporary shelters, caves, animal skins",
+          "food_sources": [
+            "wild fruits",
+            "roots",
+            "nuts",
+            "hunted animals",
+            "fish"
+          ],
+          "clothing": "animal skins and plant fibers",
+          "social_structure": "small nomadic tribes",
+          "family_structure": "extended family groups"
+        },
+        "technology": {
+          "tools": [
+            "stone hand axes",
+            "wooden spears",
+            "bone tools"
+          ],
+          "discoveries": [
+            "control of fire",
+            "early language",
+            "stone tool crafting"
+          ]
+        },
+        "religion_culture": {
+          "beliefs": [
+            "animism",
+            "nature worship",
+            "ancestor spirits"
+          ],
+          "art": [
+            "cave paintings",
+            "ritual objects"
+          ]
+        },
+        "economic_system": "subsistence hunting and gathering"
+      },
+      {
+        "era": "Agricultural Revolution",
+        "time_range": "10000 BCE – 4000 BCE",
+        "population_estimate": {
+          "start": "5 million",
+          "end": "50 million"
+        },
+        "daily_life": {
+          "housing": "mud and wood houses in permanent villages",
+          "food_sources": [
+            "wheat",
+            "barley",
+            "rice",
+            "domesticated animals"
+          ],
+          "clothing": "woven plant fibers",
+          "community_life": "larger settlements and cooperation"
+        },
+        "technology": {
+          "tools": [
+            "plows",
+            "sickles",
+            "pottery",
+            "irrigation systems"
+          ],
+          "discoveries": [
+            "domestication of plants",
+            "animal husbandry"
+          ]
+        },
+        "religion_culture": {
+          "beliefs": [
+            "fertility gods",
+            "agricultural rituals"
+          ],
+          "cultural_practices": [
+            "seasonal festivals",
+            "village rituals"
+          ]
+        },
+        "economic_system": "early agriculture and barter trade"
+      },
+      {
+        "era": "Ancient Civilizations",
+        "time_range": "4000 BCE – 500 CE",
+        "population_estimate": {
+          "start": "50 million",
+          "end": "300 million"
+        },
+        "daily_life": {
+          "housing": "brick houses and organized cities",
+          "food_sources": [
+            "grain agriculture",
+            "livestock",
+            "trade goods"
+          ],
+          "urban_life": "cities with markets, temples, and governance",
+          "education": "early schools and scribes"
+        },
+        "technology": {
+          "tools": [
+            "bronze tools",
+            "iron tools"
+          ],
+          "major_innovations": [
+            "writing systems",
+            "wheel",
+            "mathematics",
+            "astronomy"
+          ]
+        },
+        "religion_culture": {
+          "beliefs": [
+            "polytheism",
+            "organized priesthood"
+          ],
+          "major_religious_developments": [
+            "Vedic traditions",
+            "Buddhism",
+            "Jainism",
+            "Greek and Roman religions"
+          ]
+        },
+        "economic_system": [
+          "agriculture",
+          "long-distance trade",
+          "tax-based kingdoms"
+        ]
+      },
+      {
+        "era": "Medieval Era",
+        "time_range": "500 CE – 1500 CE",
+        "population_estimate": {
+          "start": "300 million",
+          "end": "500 million"
+        },
+        "daily_life": {
+          "housing": "villages, castles, fortified towns",
+          "food_sources": [
+            "grain",
+            "livestock",
+            "local agriculture"
+          ],
+          "community": "feudal villages and guild towns"
+        },
+        "technology": {
+          "tools": [
+            "iron farming tools",
+            "watermills",
+            "windmills"
+          ],
+          "transport": [
+            "horse riding",
+            "caravans",
+            "sailing ships"
+          ]
+        },
+        "religion_culture": {
+          "dominant_religions": [
+            "Hindu traditions",
+            "Christianity",
+            "Islam",
+            "Buddhism"
+          ],
+          "cultural_features": [
+            "temples",
+            "churches",
+            "mosques",
+            "monasteries"
+          ]
+        },
+        "economic_system": [
+          "feudalism",
+          "agriculture",
+          "guild trade"
+        ]
+      },
+      {
+        "era": "Early Modern Era",
+        "time_range": "1500 CE – 1800 CE",
+        "population_estimate": {
+          "start": "500 million",
+          "end": "1 billion"
+        },
+        "daily_life": {
+          "housing": "growing cities and towns",
+          "education": "universities and printing",
+          "food": "expanded agriculture and global crops"
+        },
+        "technology": {
+          "inventions": [
+            "printing press",
+            "navigation instruments",
+            "scientific revolution tools"
+          ]
+        },
+        "religion_culture": {
+          "changes": [
+            "religious reforms",
+            "spread of global religions",
+            "cultural exchange"
+          ]
+        },
+        "economic_system": [
+          "global trade networks",
+          "merchant economies"
+        ]
+      },
+      {
+        "era": "Industrial Era",
+        "time_range": "1800 CE – 1950 CE",
+        "population_estimate": {
+          "start": "1 billion",
+          "end": "2.5 billion"
+        },
+        "daily_life": {
+          "housing": "industrial cities and worker housing",
+          "work": "factory labor and urban employment",
+          "transport": "railways and steamships"
+        },
+        "technology": {
+          "major_inventions": [
+            "steam engine",
+            "electricity",
+            "telegraph",
+            "railways"
+          ]
+        },
+        "religion_culture": {
+          "changes": [
+            "urban religious institutions",
+            "education expansion"
+          ]
+        },
+        "economic_system": [
+          "industrial capitalism",
+          "factory production"
+        ]
+      },
+      {
+        "era": "Modern Digital Era",
+        "time_range": "1950 CE – present",
+        "population_estimate": {
+          "start": "2.5 billion",
+          "current": "8+ billion"
+        },
+        "daily_life": {
+          "housing": "urban cities, apartments, suburban homes",
+          "work": "service economy and technology jobs",
+          "communication": [
+            "internet",
+            "smartphones",
+            "social media"
+          ]
+        },
+        "technology": {
+          "major_innovations": [
+            "computers",
+            "internet",
+            "satellites",
+            "artificial intelligence"
+          ]
+        },
+        "religion_culture": {
+          "trends": [
+            "global religious diversity",
+            "secular societies",
+            "cultural globalization"
+          ]
+        },
+        "economic_system": [
+          "global capitalism",
+          "digital economy",
+          "information economy"
+        ]
+      }
+    ],
+    "title2": "human_lifestyle_evolution",
+    "species": "Homo sapiens",
+    "stages": [
+      {
+        "stage": "Early Hunter-Gatherer Life",
+        "time_range": "300000 BCE – 10000 BCE",
+        "population_estimate": "1–10 million globally",
+        "lifestyle": {
+          "housing": "Temporary shelters, caves, natural structures",
+          "food": [
+            "wild plants",
+            "fruits",
+            "roots",
+            "hunted animals"
+          ],
+          "tools": [
+            "stone tools",
+            "wooden spears",
+            "bone tools"
+          ],
+          "social_structure": "small tribes of 20–50 people",
+          "technology_level": "Stone Age technology",
+          "transport": "walking",
+          "communication": "early spoken language and gestures"
+        }
+      },
+      {
+        "stage": "Agricultural Revolution",
+        "time_range": "10000 BCE – 4000 BCE",
+        "population_estimate": "5–50 million",
+        "lifestyle": {
+          "housing": "Permanent villages made of mud, wood, and stone",
+          "food": [
+            "domesticated crops",
+            "wheat",
+            "barley",
+            "rice",
+            "domesticated animals"
+          ],
+          "tools": [
+            "farming tools",
+            "plows",
+            "pottery"
+          ],
+          "social_structure": "larger villages and early social hierarchy",
+          "technology_level": "Neolithic technology",
+          "transport": "animals and simple carts"
+        }
+      },
+      {
+        "stage": "Ancient Civilizations",
+        "time_range": "4000 BCE – 500 CE",
+        "population_estimate": "100–300 million",
+        "lifestyle": {
+          "housing": "organized cities with brick and stone buildings",
+          "food": [
+            "grain agriculture",
+            "livestock",
+            "trade goods"
+          ],
+          "technology": [
+            "writing systems",
+            "metal tools",
+            "irrigation"
+          ],
+          "transport": [
+            "horse",
+            "boats",
+            "chariots"
+          ],
+          "social_structure": [
+            "kings",
+            "priests",
+            "warriors",
+            "farmers"
+          ],
+          "major_civilizations": [
+            "Mesopotamia",
+            "Indus Valley",
+            "Egypt",
+            "China",
+            "Greece",
+            "Rome"
+          ]
+        }
+      },
+      {
+        "stage": "Medieval Societies",
+        "time_range": "500 CE – 1500 CE",
+        "population_estimate": "300–500 million",
+        "lifestyle": {
+          "housing": "villages, castles, towns",
+          "economy": "agriculture and feudal systems",
+          "technology": [
+            "iron tools",
+            "water mills",
+            "windmills"
+          ],
+          "transport": [
+            "horses",
+            "ships",
+            "caravans"
+          ],
+          "social_structure": [
+            "kings",
+            "lords",
+            "knights",
+            "peasants"
+          ]
+        }
+      },
+      {
+        "stage": "Early Modern Era",
+        "time_range": "1500 CE – 1800 CE",
+        "population_estimate": "500 million – 1 billion",
+        "lifestyle": {
+          "housing": "towns and growing cities",
+          "technology": [
+            "printing press",
+            "navigation instruments",
+            "scientific discoveries"
+          ],
+          "transport": [
+            "sailing ships",
+            "horse carriages"
+          ],
+          "global_changes": [
+            "global exploration",
+            "colonization",
+            "expansion of trade networks"
+          ]
+        }
+      },
+      {
+        "stage": "Industrial Society",
+        "time_range": "1800 CE – 1950 CE",
+        "population_estimate": "1–2.5 billion",
+        "lifestyle": {
+          "housing": "industrial cities",
+          "technology": [
+            "steam engines",
+            "electricity",
+            "telegraph",
+            "railways"
+          ],
+          "transport": [
+            "trains",
+            "steamships",
+            "early automobiles"
+          ],
+          "economy": "industrial production and factories",
+          "social_structure": [
+            "industrial workers",
+            "middle class",
+            "industrial capitalists"
+          ]
+        }
+      },
+      {
+        "stage": "Modern Digital Civilization",
+        "time_range": "1950 CE – present",
+        "population_estimate": "8+ billion",
+        "lifestyle": {
+          "housing": "modern urban cities and suburbs",
+          "technology": [
+            "computers",
+            "internet",
+            "smartphones",
+            "artificial intelligence"
+          ],
+          "transport": [
+            "cars",
+            "airplanes",
+            "high-speed trains"
+          ],
+          "economy": "global digital economy",
+          "communication": [
+            "internet",
+            "social media",
+            "global telecommunications"
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "contact": {
+    "title": "Contact Us",
+    "meta": {
+      "title": "Contact Us — Sanātana Dharma",
+      "canonical": "https://sanatanadharmam.in/contact",
+      "description": "Get in touch with Sanatanadharmam.in for inquiries, collaborations, or spiritual guidance. Reach us via email, phone, or contact form.",
+      "keywords": [
+        "Sanatana Dharma collaboration proposals",
+        "Sanatana Dharma communication",
+        "Sanatana Dharma community engagement",
+        "Sanatana Dharma contact information",
+        "Sanatana Dharma content suggestions",
+        "Sanatana Dharma editorial feedback",
+        "Sanatana Dharma general questions",
+        "Sanatana Dharma outreach",
+        "Sanatana Dharma project inquiries",
+        "Sanatana Dharma spiritual questions",
+        "Sanatana Dharma support",
+        "Sanatana Dharma text corrections",
+        "Sanatana Dharma translation suggestions",
+        "Sanatana Dharma volunteer coordination",
+        "Sanatana Dharma website contact",
+        "collaborations",
+        "contact Sanatanadharmam.in",
+        "contact form",
+        "email",
+        "feedback",
+        "general questions",
+        "inquiries",
+        "phone",
+        "spiritual guidance",
+        "text corrections",
+        "translation suggestions",
+        "volunteer opportunities"
+      ],
+      "ogimage": "/og/contact.png",
+      "robots": "index, follow",
+      "url": "https://sanatanadharmam.in/contact"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "English",
+            "Español",
+            "Français",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Nederlands",
+            "Português",
+            "Русский",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "faq": {
+      "heading": "Frequently asked questions",
+      "items": [
+        {
+          "a": "Please include the URL, the exact passage (quote the line or verse), and a reference or scan of the source edition if possible. We will verify and, if necessary, publish an errata note describing the correction.",
+          "q": "I found an error in a text — what should I do?"
+        },
+        {
+          "a": "Yes. Send the bibliographic details and any relevant permissions. We prioritize texts that are in the public domain or available with clear permissions, and we may coordinate with contributors for digitization.",
+          "q": "Can I request a new text or chapter to be added?"
+        },
+        {
+          "a": "Send your CV or a short note describing your skills and availability. We will follow up if we have a good match for current needs.",
+          "q": "How do I get involved as a volunteer?"
+        }
+      ]
+    },
+    "sections": [
+      {
+        "content": "Sanatanadharmam.in is dedicated to spreading authentic knowledge of Sanatana Dharma. Whether you have questions, feedback, or collaboration ideas, we welcome your message.",
+        "id": "intro",
+        "type": "text"
+      },
+      {
+        "columns": [
+          {
+            "title": "📧 Email",
+            "content": "vulchi.vijay@gmail.com"
+          },
+          {
+            "title": "📞 Phone",
+            "content": "+91-8099181075"
+          },
+          {
+            "title": "📍 Address",
+            "content": "Tirupati, Andhra Pradesh, India"
+          }
+        ],
+        "id": "intro",
+        "type": "text"
+      },
+      {
+        "fields": [
+          {
+            "name": "name",
+            "placeholder": "Your Name",
+            "required": true,
+            "type": "text"
+          },
+          {
+            "name": "email",
+            "placeholder": "Your Email",
+            "required": true,
+            "type": "email"
+          },
+          {
+            "name": "subject",
+            "placeholder": "Subject",
+            "required": false,
+            "type": "text"
+          },
+          {
+            "name": "message",
+            "placeholder": "Your Message",
+            "required": true,
+            "type": "textarea"
+          }
+        ],
+        "id": "intro",
+        "submitbutton": {
+          "action": "/api/contact/submit",
+          "label": "Send Message"
+        },
+        "type": "text"
+      },
+      {
+        "content": "Sanatanadharmam.in is dedicated to spreading authentic knowledge of Sanatana Dharma. Whether you have questions, feedback, or collaboration ideas, we welcome your message.",
+        "id": "intro",
+        "type": "text"
+      }
+    ],
+    "subtitle": "We’d love to hear from you",
+    "volunteer": {
+      "guidance": "We welcome volunteers who can help with proofreading, typesetting, translations, audio recording, web development, and community moderation. Please describe your skills, availability, and any relevant samples of previous work. Submissions are reviewed and, if accepted, coordinated through a modest onboarding process so volunteers understand editorial standards and the project's code of conduct.",
+      "heading": "Volunteer and contribution guidelines"
+    },
+    "whattoinclude": {
+      "guidance": "To help us respond efficiently, please include: a clear subject line, the page or URL you are referring to (if applicable), a concise description of the issue or request, and your preferred contact method. For corrections to texts, indicate the exact line or verse and, if possible, provide a reliable source or edition reference. For translation suggestions, include both the suggested wording and brief reasoning for the change.",
+      "heading": "What to include in your message"
+    }
+  }
+}

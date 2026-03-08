@@ -50,9 +50,6 @@ export default async function Home() {
         <UnderstandingOfSanatana />
         <GitSupport />
         <OurFourCoreYugas />
-        {/* Delayed widgets: cookies and clock */}
-        {/* <DelayedHomeWidgets />  // Disabled: causes server/client boundary error */}
-        {/* <DigitalClockLoader /> */}
         {/* Krishna flute background audio player in footer, loads after 1 minute */}
         {/* <AudioPlayer
           tracks={{

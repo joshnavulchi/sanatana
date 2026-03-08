@@ -152,10 +152,10 @@ export default function LanguageDropdown() {
   }, [filteredLanguages, open, currentLang]);
 
   return (
-    <div role="menuItem" ref={dropdownRef} className="relative">
+    <div role="menuItem" ref={dropdownRef} className="relative hidden">
       {/* Dropdown Button */}
       <button role="button" aria-haspopup="menu" aria-controls="language-menu" onClick={() => setOpen(!open)}
-        className="bg-white group relative inline-flex items-center gap-1 py-1 px-3 rounded-sm shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer transform"
+        className="group relative inline-flex items-center gap-1 py-1 px-3 rounded-sm shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer transform"
         aria-label={locale?.languagedropdown?.arialabel || 'Choose language'}
         aria-expanded={open} >
         <div className="relative">

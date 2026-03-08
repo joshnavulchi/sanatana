@@ -1,19 +1,21 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { Poppins } from 'next/font/google';
 import { headers } from 'next/headers';
+
 import Script from 'next/script';
 import { Suspense } from 'react';
+
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '@lib/i18n';
 import { buildOrganizationJsonLd, buildWebSiteJsonLd, renderJsonLdScript } from '@lib/jsonld';
 import { secrets } from '@lib/secrets';
 import CookieConsent from '@components/cookie-consent/CookieConsent';
 
-import Footer from '@components/footer';
 import Header from '@components/header';
+import Footer from '@components/footer';
+
 import TopProgress from '@components/topprogress';
-import ResourceHints from '@components/resource-hints/ResourceHints';
 import ScrollToTop from '@components/scroll-to-top';
-// WebVitalsReporter removed
+
 import { LocaleProvider } from './context/locale-context';
 import { ThemeProvider } from './context/theme-context';
 
@@ -60,17 +62,13 @@ export default async function RootLayout({
     // Use default locale on error
   }
 
-  // Note: We don't pre-inject locale data here anymore since we load namespace files on-demand
-  // This reduces initial HTML size and allows for better code splitting
-
   return (
     <html lang={lang} translate="no">
       <head>
+        <meta name="robots" content="index,follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
         {/* Prevent browser automatic translation UI (Chrome/Google Translate) */}
         <meta name="google" content="notranslate" />
-        {/* Early resource hints to reduce network latency */}
-        <ResourceHints />
         {/* Favicons: use site logo for broad compatibility */}
         <link rel="icon" href="/images/logo.png" type="image/png" sizes="64x64" />
         <link rel="shortcut icon" href="/images/logo.png" />
@@ -241,7 +239,6 @@ export default async function RootLayout({
               </Suspense>
               <ScrollToTop />
               <CookieConsent />
-              {/* WebVitalsReporter removed */}
             </ThemeProvider>
           </LocaleProvider>
         </Suspense>

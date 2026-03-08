@@ -124,12 +124,12 @@ export default function OurFourCoreYugas() {
   const [isVisible] = useState(true);
 
   return (
-    <section className="relative overflow-hidden bg-linear-to-b from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] py-16 md:py-24">
+    <section className="relative overflow-hidden bg-linear-to-b from-[#fffaf1] via-[#fdf0d4] to-[#fff8ef] py-16 md:py-24">
       {/* Ornamental background shapes */}
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute -left-20 top-20 h-72 w-72 rounded-full bg-[#f3b86b]/15 blur-3xl" />
-        <div className="absolute -right-16 bottom-12 h-80 w-80 rounded-full bg-[#d97706]/10 blur-3xl" />
-        <div className="absolute left-1/2 top-0 h-32 w-[60%] -translate-x-1/2 rounded-b-full bg-[#f4c98b]/20 blur-3xl" />
+        <div className="absolute -left-20 top-20 h-72 w-72 rounded-full bg-[#f3b86b]/15 blur-3xl animate-ping" />
+        <div className="absolute -right-16 bottom-12 h-80 w-80 rounded-full bg-[#d97706]/15 blur-3xl animate-ping" />
+        <div className="absolute left-1/2 top-0 h-32 w-[60%] -translate-x-1/2 rounded-b-full bg-[#f4c98b]/15 blur-3xl animate-ping" />
       </div>
 
       <div className="relative z-10 mx-auto w-full max-w-7xl px-4">
@@ -141,19 +141,19 @@ export default function OurFourCoreYugas() {
           {/* Ornamental divider */}
           <div className="mb-6 flex items-center justify-center gap-3">
             <div className="h-px w-16 bg-linear-to-r from-transparent to-[#d8a25a]" />
-            <span className="text-2xl text-[#9a3412]" aria-hidden="true">🕉️</span>
+            <span className="text-2xl text-[#9a3412] animate-bounce" aria-hidden="true">🕉️</span>
             <div className="h-px w-16 bg-linear-to-l from-transparent to-[#d8a25a]" />
           </div>
 
-          <h2 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
+          <h6 className="text-3xl md:text-4xl bg-linear-to-r from-[#a63d17] via-[#d97706] to-[#f59e0b] bg-clip-text font-black leading-tight text-transparent">
             {title}
-          </h2>
+          </h6>
 
           <p className="mt-6 text-base leading-8 text-[#5b2d12] md:text-lg">
             {subtitle}{' '}
             <Link
               href="/cosmictime"
-              className="group inline-flex items-center gap-1 font-bold text-[#9a3412] underline decoration-[#d97706]/40 underline-offset-4 transition-all duration-300 hover:text-[#7a2e1f] hover:decoration-[#d97706]"
+              className="group inline-flex items-center gap-1 text-[#9a3412] underline decoration-[#d97706]/40 underline-offset-4 transition-all duration-300 hover:text-[#7a2e1f] hover:decoration-[#d97706]"
               aria-label="Learn more about Cosmic Time"
             >
               Learn more about Cosmic Time
@@ -187,10 +187,7 @@ export default function OurFourCoreYugas() {
         </div>
 
         {/* ─── Bottom Notes ─── */}
-        <div
-          className={`mt-14 transition-all duration-1000 ease-out delay-500 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
-            }`}
-        >
+        <div className={`mt-14 transition-all duration-1000 ease-out delay-500 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
           {/* Divider */}
           <div className="mb-8 flex items-center justify-center gap-3">
             <div className="h-px w-16 bg-linear-to-r from-transparent to-[#b45309]/50" />
@@ -202,8 +199,8 @@ export default function OurFourCoreYugas() {
 
           {/* Highlight note */}
           {earthAgeComparisonNote && (
-            <div className="mx-auto max-w-3xl rounded-2xl border border-[#d8a25a]/50 bg-linear-to-br from-[#fff7ed] via-[#fde7c7] to-[#f8d7a0] px-6 py-5 text-center shadow-[0_16px_40px_rgba(166,61,23,0.10)]">
-              <p className="bg-linear-to-r from-[#7a2e1f] via-[#9a3412] to-[#7a2e1f] bg-clip-text text-base font-bold leading-7 text-transparent md:text-lg">
+            <div className="mx-auto max-w-3xl rounded-2xl border border-[#d8a25a]/50 px-6 py-5 text-center shadow-[0_16px_40px_rgba(166,61,23,0.10)]">
+              <p className="bg-linear-to-r from-[#7a2e1f] via-[#9a3412] to-[#7a2e1f] bg-clip-text text-sm font-semibold leading-7 text-transparent md:text-lg">
                 {earthAgeComparisonNote}
               </p>
             </div>
