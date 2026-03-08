@@ -6,7 +6,7 @@ description: This custom agent researches, plans, and guides new features for th
 - Use Tailwind CSS for all styling (no inline styles except dynamic cases)
 - Use modular, reusable functional React components
 - Use React Context and custom hooks for state/locale
-- Locale JSON files live in `data/{locale}/` and are read via the `/api/locale/[locale]/[namespace]` API route
+- Locale JSON files live in `locales/{locale}/` and are read via dynamic imports from the `locales/` folder
 - Render content dynamically from JSON/locale objects when possible
 - Use semantic HTML and utility classes for layout and spacing
 - Use `PageLayout` for consistent page structure and meta

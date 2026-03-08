@@ -46,10 +46,11 @@ export default async function Home() {
       {criticalCss ? <style dangerouslySetInnerHTML={{ __html: criticalCss }} /> : null}
       <main>
         <WelcomePage />
-        <HeroSection />
+        {/* <HeroSection />
         <UnderstandingOfSanatana />
         <GitSupport />
         <OurFourCoreYugas />
+         */}
         {/* Delayed widgets: cookies and clock */}
         {/* <DelayedHomeWidgets />  // Disabled: causes server/client boundary error */}
         {/* <DigitalClockLoader /> */}

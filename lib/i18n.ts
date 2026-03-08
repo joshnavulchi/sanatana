@@ -44,12 +44,10 @@ export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = ''
         namespace,
         namespace.replace(/-/g, '_'),
         namespace.replace(/_/g, '-'),
-        namespace.split('_').reverse().join('_'),
-        namespace.split('-').reverse().join('-')
       ];
 
       for (const candidate of candidates) {
-        const filePath = path.join(process.cwd(), 'data', locale, `${candidate}.json`);
+        const filePath = path.join(process.cwd(), 'locales', locale, `${candidate}.json`);
         if (fs.existsSync(filePath)) {
           const content = fs.readFileSync(filePath, 'utf8');
           return JSON.parse(content);
@@ -76,19 +74,33 @@ export async function loadLocaleNamespace(locale: string, namespace: string) {
     namespace,
     namespace.replace(/-/g, '_'),
     namespace.replace(/_/g, '-'),
-    namespace.split('_').reverse().join('_'),
-    namespace.split('-').reverse().join('-')
   ];
 
+  // Server-side: use fs directly (most reliable for static export)
+  if (typeof window === 'undefined') {
+    try {
+      const fs = require('fs');
+      const path = require('path');
+      for (const candidate of candidates) {
+        const filePath = path.join(process.cwd(), 'locales', locale, `${candidate}.json`);
+        if (fs.existsSync(filePath)) {
+          const content = fs.readFileSync(filePath, 'utf8');
+          const parsed = JSON.parse(content);
+          try { (localesCache[locale] as any)[namespace] = parsed; } catch (_) { }
+          return parsed;
+        }
+      }
+    } catch (_) { }
+    return {};
+  }
+
+  // Client-side: use dynamic import (bundled by Turbopack)
   for (const candidate of candidates) {
     try {
-      const url = `/api/locale/${encodeURIComponent(locale)}/${encodeURIComponent(candidate)}`;
-      const resp = await fetch(url);
-      if (resp.ok) {
-        const parsed = await resp.json();
-        try { (localesCache[locale] as any)[namespace] = parsed; } catch (_) { }
-        return parsed;
-      }
+      const mod = await import(`../locales/${locale}/${candidate}.json`);
+      const parsed = mod.default || mod;
+      try { (localesCache[locale] as any)[namespace] = parsed; } catch (_) { }
+      return parsed;
     } catch (e) {
       // Continue to next candidate
     }

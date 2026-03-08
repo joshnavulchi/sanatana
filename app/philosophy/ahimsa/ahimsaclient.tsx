@@ -1,33 +1,22 @@
 "use client";
-import { useEffect, useState } from 'react';
 import { useLocale } from '@app/context/locale-context';
+import useLocaleSection from '@app/hooks/useLocaleSection';
 import PageLayout from '@components/common/PageLayout';
 import Loader from '@components/loader';
 import SimilarCategories from '@components/similar-categories/SimilarCategories';
 
 export default function AhimsaClient() {
-  const { locale, isLoading } = useLocale();
-  const [page, setPage] = useState<any | null>(null);
+  const { isLoading } = useLocale();
+  const nsObj = useLocaleSection('philosophy_ahimsa');
 
-  useEffect(() => {
-    let mounted = true;
-    async function fetchData() {
-      const res = await fetch(`/api/locale/${locale}/philosophy_ahimsa`);
-      const data = await res.json();
-      const nsObj = data?.philosophy_ahimsa || {};
-      if (!mounted) return;
-      setPage({
-        title: nsObj.title || 'Ahimsa Philosophy',
-        definition: Array.isArray(nsObj.definition) ? nsObj.definition : (nsObj.definition ? [String(nsObj.definition)] : []),
-        categories: nsObj.categories_of_ahimsa || {},
-        philosophicalDimensions: nsObj.philosophical_dimensions || {},
-        corePrinciples: nsObj.core_principles || {},
-        ahimsaInRamayana: nsObj.ahimsa_in_ramayana || {},
-      });
-    }
-    fetchData();
-    return () => { mounted = false; };
-  }, [locale]);
+  const page = Object.keys(nsObj).length > 0 ? {
+    title: nsObj.title || 'Ahimsa Philosophy',
+    definition: Array.isArray(nsObj.definition) ? nsObj.definition : (nsObj.definition ? [String(nsObj.definition)] : []),
+    categories: nsObj.categories_of_ahimsa || {},
+    philosophicalDimensions: nsObj.philosophical_dimensions || {},
+    corePrinciples: nsObj.core_principles || {},
+    ahimsaInRamayana: nsObj.ahimsa_in_ramayana || {},
+  } : null;
 
   if (isLoading && !page) {
     return (

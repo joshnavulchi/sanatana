@@ -87,32 +87,36 @@
       "terms": "Terms of Service"
     },
     "header": {
-      "scriptures": {
-        "title": "Scriptures",
+      "vedas": {
+        "title": "Vedas",
+        "nav": {}
+      },
+      "upanishads": {
+        "title": "Upanishads",
+        "nav": {}
+      },
+      "puranas": {
+        "title": "Puranas",
+        "nav": {}
+      },
+      "itihasa": {
+        "title": "Itihasa",
         "nav": {
-          "bhagavadgita": "Bhagavathgita",
-          "mahabharata": "Mahabharata",
           "ramayana": "Ramayana",
-          "sanksheparamayanam": "Sankshepa Ramayana"
+          "mahabharata": "Mahabharata",
+          "bhagavadgita": "Bhagavad Gita"
         }
       },
-      "philosophy": {
+      "philosopy": {
         "title": "Philosophy",
-        "nav": {
-          "dharma": "Dharma",
-          "karma": "Karma",
-          "moksha": "Moksha",
-          "samsara": "Samsara"
-        }
+        "subtitle": "Vedic",
+        "nav": {}
       },
-      "kidszone": {
-        "title": "Kids Zone",
-        "nav": {
-          "illustratedstories": "Illustrated Stories",
-          "mythologicalquizzes": "Mythological Quizzes"
-        }
-      },
-      "about": "About"
+      "science": {
+        "title": "Science",
+        "subtitle": "Vedic",
+        "nav": {}
+      }
     },
     "policies": {
       "cookiepolicy": {

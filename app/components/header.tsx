@@ -114,7 +114,7 @@ export default function Header() {
   return (
     <header ref={headerRef} className="w-full sticky top-0 z-30">
       {/* Ornamental top accent — saffron / gold / copper gradient */}
-      <div className="h-1 w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
+      <div className="h-[2] w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
       <div className="w-full bg-linear-to-r from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] shadow-[0_4px_20px_rgba(166,61,23,0.10)] px-4 py-1 md:px-0">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* ─── Logo & Title ─── */}
@@ -136,13 +136,13 @@ export default function Header() {
           </h1>
 
           {/* ─── Desktop Nav ─── */}
-          <nav className="hidden md:flex items-center gap-1" role="menubar" aria-label="Main navigation">
+          <nav className="hidden md:flex items-center gap-2" role="menubar" aria-label="Main navigation">
             {Object.entries(translations.header).map(([key, val]: [string, any]) => {
               if (typeof val === "string") {
                 const href = key === "home" ? "/" : `/${key}`;
                 return (
                   <Link key={key} href={href} role="menuitem"
-                    className={`relative px-3 py-2 rounded-sm text-md font-bold tracking-wide transition-all duration-200
+                    className={`relative rounded-sm text-sm font-semibold p-1 tracking-wide transition-all duration-200
                       ${isActive(href) ? "bg-[#7a2e1f] text-[#fff4df] shadow-[0_2px_12px_rgba(122,46,31,0.22)]"
                         : "text-[#5b2d12] hover:bg-[#fde7c7] hover:text-[#7a2e1f]"
                       }`} >
@@ -157,7 +157,7 @@ export default function Header() {
                 const icon = sectionIcons[key] || "✨";
                 return (
                   <div key={key} className="relative group">
-                    <span className="flex items-center gap-1.5 px-3 py-2 rounded-sm text-md font-bold tracking-wide text-[#5b2d12] cursor-pointer select-none transition-all duration-200 group-hover:bg-[#fde7c7] group-hover:text-[#7a2e1f]">
+                    <span className="flex items-center rounded-sm font-semibold p-1 tracking-wide text-[#5b2d12] cursor-pointer select-none transition-all duration-200 group-hover:bg-[#fde7c7] group-hover:text-[#7a2e1f]">
                       <span className="text-base">{icon}</span>
                       {val.title}
                       <svg className="ml-0.5 h-3.5 w-3.5 text-[#b45309] transition-transform duration-200 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">

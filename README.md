@@ -60,7 +60,7 @@ If you'd like, I can also pin an updated `baseline-browser-mapping` version in `
 
 ## Locale Data
 
-Locale/translation JSON files are stored in the `data/` folder (e.g. `data/en/`, `data/hi/`, etc.) and are read directly at build time and via the `/api/locale/[locale]/[namespace]` API route at runtime. No remote download step is needed.
+Locale/translation JSON files are stored in the `locales/` folder (e.g. `locales/en/`, `locales/hi/`, etc.) and are read directly at build time via dynamic imports. No API route or remote download step is needed.
 
 ## Critical CSS — Home
 
