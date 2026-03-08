@@ -7,16 +7,29 @@
  * - If extra keys exist in other locale that are not present in English, they are removed.
  *
  * Usage:
- *   node scripts/sync_locales_with_en.js
- *   node scripts/sync_locales_with_en.js --locales-dir=./locales --dry-run
+ *   node scripts/locale-scripts/sync_locales_with_en.js
+ *   node scripts/locale-scripts/sync_locales_with_en.js --locales-dir=./locales --dry-run
  */
 
 const fs = require('fs');
 const path = require('path');
 
 const argv = process.argv.slice(2);
+
+const REPO_ROOT = path.resolve(__dirname, '..', '..');
+
+function getArgValue(prefix) {
+  const hit = argv.find((a) => a.startsWith(prefix));
+  return hit ? hit.slice(prefix.length) : undefined;
+}
+
+function resolveDir(inputPath, fallbackPath) {
+  if (!inputPath) return fallbackPath;
+  return path.isAbsolute(inputPath) ? inputPath : path.resolve(process.cwd(), inputPath);
+}
+
 const CONFIG = {
-  localesDir: argv.find(a => a.startsWith('--locales-dir='))?.split('=')[1] || path.join(process.cwd(), 'locales'),
+  localesDir: resolveDir(getArgValue('--locales-dir='), path.join(REPO_ROOT, 'locales')),
   enLocale: 'en',
   dryRun: argv.includes('--dry-run'),
 };
