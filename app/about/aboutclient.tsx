@@ -14,7 +14,7 @@ export default function AboutClient() {
   // Compute about object directly from ns
   const about = {
     title: String(ns?.title || ''),
-    intro: String(ns?.intro || ''),
+    description: String(ns?.description || ''),
     sections: Array.isArray(ns?.sections) ? ns.sections : [],
     disclaimer: String(ns?.disclaimer || ''),
   };
@@ -40,7 +40,7 @@ export default function AboutClient() {
       <PageLayout
         metaKey="about"
         title={about.title}
-        description={about.intro || ''}
+        description={about.description || ''}
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'About' }]}
         className="layout-sm"
       >
@@ -48,25 +48,6 @@ export default function AboutClient() {
         <TextToSpeech sectionId="about-content" className="floating" />
 
         <div id="about-content">
-          {/* Hero intro section */}
-          <div className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 rounded-2xl overflow-hidden">
-            {/* Decorative elements */}
-            <div className="absolute top-0 right-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl" />
-            <div className="absolute bottom-0 left-0 w-80 h-80 bg-orange-400/10 rounded-full blur-3xl" />
-
-            {/* Content */}
-            <div className="relative z-10">
-              <div className="flex items-center gap-3 mb-6">
-                <div className="h-px w-12 bg-gradient-to-r from-transparent to-amber-500 animate-ping" />
-                <span className="text-3xl animate-pulse">🙏</span>
-                <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-500 animate-bounce" />
-              </div>
-
-              <p className="text-xl md:text-lg leading-relaxed">
-                {about.intro}
-              </p>
-            </div>
-          </div>
 
           {/* Sections as cards */}
           {about.sections.map((section: any, index: number) => {

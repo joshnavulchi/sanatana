@@ -8,21 +8,93 @@ import SimilarCategories from '@components/similar-categories/SimilarCategories'
 import Link from 'next/link';
 
 /* ── Per-veda configuration ── */
-const SLUG_CONFIG: Record<string, {
+type PerFileConfig = {
+  mode: 'per-file';
   icon: string;
-  accentFrom: string; accentVia: string; accentTo: string;
-  textAccent: string; borderAccent: string;
-  chapterPrefix: string; itemLabel: string;
+  accentFrom: string;
+  accentVia: string;
+  accentTo: string;
+  textAccent: string;
+  borderAccent: string;
+  chapterPrefix: string;
+  itemLabel: string;
   filePattern: string;
-  totalChapters: number;
-}> = {
+  totalItems: number;
+};
+
+type FromMainConfig = {
+  mode: 'from-main';
+  icon: string;
+  accentFrom: string;
+  accentVia: string;
+  accentTo: string;
+  textAccent: string;
+  borderAccent: string;
+  chapterPrefix: string;
+  itemLabel: string;
+  fileKey: string;
+  listKey: string;
+  idKey: string;
+};
+
+type SlugConfig = PerFileConfig | FromMainConfig;
+
+const SLUG_CONFIG: Record<string, SlugConfig> = {
   rigveda: {
-    icon: '🔥', accentFrom: 'from-[#7c2d12]', accentVia: 'via-[#c2410c]', accentTo: 'to-[#f59e0b]',
-    textAccent: 'text-[#7c2d12]', borderAccent: 'border-[#c2410c]',
-    chapterPrefix: 'mandala', itemLabel: 'Mandala',
-    filePattern: 'vedas_rigveda_madala', totalChapters: 10,
+    mode: 'per-file',
+    icon: '🔥',
+    accentFrom: 'from-[#7c2d12]',
+    accentVia: 'via-[#c2410c]',
+    accentTo: 'to-[#f59e0b]',
+    textAccent: 'text-[#7c2d12]',
+    borderAccent: 'border-[#c2410c]',
+    chapterPrefix: 'mandala',
+    itemLabel: 'Mandala',
+    filePattern: 'vedas_rigveda_madala',
+    totalItems: 10,
   },
-  /* Other vedas can be added when their chapter JSONs become available */
+  yajurveda: {
+    mode: 'from-main',
+    icon: '🪔',
+    accentFrom: 'from-[#92400e]',
+    accentVia: 'via-[#d97706]',
+    accentTo: 'to-[#fde68a]',
+    textAccent: 'text-[#92400e]',
+    borderAccent: 'border-[#d97706]',
+    chapterPrefix: 'chapter',
+    itemLabel: 'Chapter',
+    fileKey: 'vedas_yajurveda',
+    listKey: 'yajurveda_chapters',
+    idKey: 'chapter',
+  },
+  samaveda: {
+    mode: 'from-main',
+    icon: '🎵',
+    accentFrom: 'from-[#3b3270]',
+    accentVia: 'via-[#8b6914]',
+    accentTo: 'to-[#e0a632]',
+    textAccent: 'text-[#3b3270]',
+    borderAccent: 'border-[#8b6914]',
+    chapterPrefix: 'section',
+    itemLabel: 'Section',
+    fileKey: 'vedas_samaveda',
+    listKey: 'samaveda_sections',
+    idKey: 'section',
+  },
+  atharvaveda: {
+    mode: 'from-main',
+    icon: '🌿',
+    accentFrom: 'from-[#1a6e5c]',
+    accentVia: 'via-[#b45309]',
+    accentTo: 'to-[#f59e0b]',
+    textAccent: 'text-[#1a6e5c]',
+    borderAccent: 'border-[#b45309]',
+    chapterPrefix: 'book',
+    itemLabel: 'Book',
+    fileKey: 'vedas_atharvaveda',
+    listKey: 'atharvaveda_books',
+    idKey: 'book',
+  },
 };
 
 const FALLBACK = SLUG_CONFIG.rigveda;
@@ -133,16 +205,54 @@ export default function ChapterClient({ slug, chapter }: { slug: string; chapter
   const chapterNum = parseChapterNum(chapter);
   const vedaTitle = slug.replace(/\b\w/g, (c) => c.toUpperCase());
 
-  // Load chapter-specific locale file, e.g. vedas_rigveda_madala1
-  const fileKey = `${cfg.filePattern}${chapterNum}`;
+  const fileKey = cfg.mode === 'per-file' ? `${cfg.filePattern}${chapterNum}` : cfg.fileKey;
   const ns = useLocaleSection(fileKey);
 
-  // The JSON structure is { "mandala": { "hymns": [...] } } — auto-unwrapped by the hook
-  const hymns: Record<string, unknown>[] = Array.isArray(ns?.hymns) ? ns.hymns : [];
+  const hymns: Record<string, unknown>[] =
+    cfg.mode === 'per-file' && Array.isArray(ns?.hymns) ? (ns.hymns as Record<string, unknown>[]) : [];
 
-  // Prev / Next navigation
+  const mainItems: Record<string, unknown>[] =
+    cfg.mode === 'from-main' && Array.isArray((ns as Record<string, unknown> | null | undefined)?.[cfg.listKey])
+      ? (((ns as Record<string, unknown>)[cfg.listKey] as unknown[]) || []).filter(
+        (x): x is Record<string, unknown> => !!x && typeof x === 'object'
+      )
+      : [];
+
+  const selectedMain =
+    cfg.mode === 'from-main'
+      ? mainItems.find((item) => Number(item[cfg.idKey]) === chapterNum)
+      : undefined;
+
+  const titleFromJson =
+    cfg.mode === 'from-main'
+      ? typeof selectedMain?.title === 'string'
+        ? selectedMain.title
+        : typeof ns?.title === 'string'
+          ? ns.title
+          : undefined
+      : typeof ns?.title === 'string'
+        ? ns.title
+        : undefined;
+
+  const descriptionFromJson =
+    cfg.mode === 'from-main'
+      ? typeof selectedMain?.introduction === 'string'
+        ? selectedMain.introduction
+        : typeof ns?.description === 'string'
+          ? ns.description
+          : undefined
+      : typeof ns?.description === 'string'
+        ? ns.description
+        : undefined;
+
+  const entryIntro = typeof selectedMain?.introduction === 'string' ? selectedMain.introduction : '';
+  const entryScripture = typeof selectedMain?.scripture_text === 'string' ? selectedMain.scripture_text : '';
+  const entryPhilo =
+    typeof selectedMain?.philosophical_explanation === 'string' ? selectedMain.philosophical_explanation : '';
+
+  const totalItems = cfg.mode === 'per-file' ? cfg.totalItems : mainItems.length;
   const prevNum = chapterNum > 1 ? chapterNum - 1 : null;
-  const nextNum = chapterNum < cfg.totalChapters ? chapterNum + 1 : null;
+  const nextNum = totalItems > 0 && chapterNum < totalItems ? chapterNum + 1 : null;
 
   const breadcrumbs = [
     { label: 'Home', href: '/' },
@@ -151,9 +261,14 @@ export default function ChapterClient({ slug, chapter }: { slug: string; chapter
     { label: `${cfg.itemLabel} ${chapterNum}` },
   ];
 
-  const pageTitle = `${vedaTitle} – ${cfg.itemLabel} ${chapterNum}`;
+  const pageTitle = titleFromJson || `${vedaTitle} – ${cfg.itemLabel} ${chapterNum}`;
 
-  if (isLoading && hymns.length === 0) {
+  const hasContent =
+    cfg.mode === 'per-file'
+      ? !!titleFromJson || hymns.length > 0
+      : !!titleFromJson || !!entryIntro || !!entryScripture || !!entryPhilo;
+
+  if (isLoading && !hasContent) {
     return (
       <PageLayout metaKey={fileKey} title="" breadcrumbs={breadcrumbs} className="layout-md">
         <div className="flex items-center justify-center py-12"><Loader /></div>
@@ -188,9 +303,19 @@ export default function ChapterClient({ slug, chapter }: { slug: string; chapter
 
           {/* Title + stats */}
           <h1 className="text-2xl md:text-3xl font-extrabold text-[#3d2e22] mb-3">{pageTitle}</h1>
+          {descriptionFromJson && (
+            <p className="text-base text-[#6b5d4f] leading-relaxed max-w-3xl">
+              {descriptionFromJson}
+            </p>
+          )}
           {hymns.length > 0 && (
-            <p className="text-base text-[#6b5d4f]">
+            <p className="text-base text-[#6b5d4f] mt-3">
               {hymns.length} Hymns in this {cfg.itemLabel}
+            </p>
+          )}
+          {cfg.mode === 'from-main' && totalItems > 0 && (
+            <p className="text-base text-[#6b5d4f] mt-3">
+              {totalItems} {cfg.itemLabel}s in {vedaTitle}
             </p>
           )}
         </div>
@@ -215,6 +340,41 @@ export default function ChapterClient({ slug, chapter }: { slug: string; chapter
                 />
               ))}
             </div>
+          </section>
+        </>
+      )}
+
+      {/* ═══════════ Chapter Entry Content (non-Rigveda) ═══════════ */}
+      {cfg.mode === 'from-main' && (entryIntro || entryScripture || entryPhilo) && (
+        <>
+          <OrnamentDivider />
+          <section className="space-y-4">
+            {entryIntro && (
+              <div className="rounded-2xl border border-[#d8a25a]/30 bg-[#fffaf3] p-5 md:p-6 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
+                <h2 className="text-sm font-extrabold uppercase tracking-widest text-[#a89278] mb-3">Introduction</h2>
+                <div className="text-base text-[#5b2d12] leading-relaxed">
+                  <Paragraphs text={entryIntro} />
+                </div>
+              </div>
+            )}
+
+            {entryScripture && (
+              <div className="rounded-2xl border border-[#edc98f]/50 bg-[#fffaf3] p-5 md:p-6">
+                <h2 className="text-sm font-extrabold uppercase tracking-widest text-[#a89278] mb-3">Scripture Text</h2>
+                <div className="text-base text-[#5b2d12] leading-relaxed">
+                  <Paragraphs text={entryScripture} />
+                </div>
+              </div>
+            )}
+
+            {entryPhilo && (
+              <div className="rounded-2xl border border-[#e0a632]/30 bg-[#fffaf3] p-5 md:p-6">
+                <h2 className="text-sm font-extrabold uppercase tracking-widest text-[#a89278] mb-3">Philosophical Significance</h2>
+                <div className="text-base text-[#5b2d12] leading-relaxed">
+                  <Paragraphs text={entryPhilo} />
+                </div>
+              </div>
+            )}
           </section>
         </>
       )}
@@ -255,7 +415,7 @@ export default function ChapterClient({ slug, chapter }: { slug: string; chapter
       </nav>
 
       {/* ═══════════ Other Chapters Quick Links ═══════════ */}
-      {cfg.totalChapters > 1 && (
+      {totalItems > 1 && (
         <>
           <OrnamentDivider />
           <section className="rounded-3xl border border-[#d8a25a]/20 bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8] p-6 md:p-8">
@@ -263,7 +423,7 @@ export default function ChapterClient({ slug, chapter }: { slug: string; chapter
               All {cfg.itemLabel}s of {vedaTitle}
             </h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
-              {Array.from({ length: cfg.totalChapters }, (_, i) => i + 1).map((n) => {
+              {Array.from({ length: totalItems }, (_, i) => i + 1).map((n) => {
                 const isCurrent = n === chapterNum;
                 return (
                   <Link
@@ -290,10 +450,6 @@ export default function ChapterClient({ slug, chapter }: { slug: string; chapter
           </section>
         </>
       )}
-
-      <div className="mt-10">
-        <SimilarCategories />
-      </div>
     </PageLayout>
   );
 }

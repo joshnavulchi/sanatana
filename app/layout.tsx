@@ -65,7 +65,6 @@ export default async function RootLayout({
   return (
     <html lang={lang} translate="no">
       <head>
-        <meta name="robots" content="index,follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
         {/* Prevent browser automatic translation UI (Chrome/Google Translate) */}
         <meta name="google" content="notranslate" />

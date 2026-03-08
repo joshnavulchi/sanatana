@@ -581,10 +581,6 @@ export default function VedasClient() {
           </section>
         </>
       )}
-
-      <div className="mt-10">
-        <SimilarCategories />
-      </div>
     </PageLayout>
   );
 }

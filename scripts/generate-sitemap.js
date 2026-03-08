@@ -1,320 +1,276 @@
 #!/usr/bin/env node
 /**
  * generate-sitemap.js
- * Purpose: Build a sitemap.xml for the site using `lib/sitemapPaths.ts`.
- * Usage: node scripts/generate-sitemap.js  (expects to be run from repo root)
+ *
+ * Build-time sitemap.xml generator that discovers routes directly from the
+ * `app/` directory tree.  Static pages produce a single URL; dynamic `[slug]`
+ * / `[chapter]` segments are expanded by reading `VALID_SLUGS`,
+ * `VEDA_CHAPTERS` or `generateStaticParams` from the page source.
+ *
+ * No external config (sitemapInclude.json, nav.json) is needed – the app/
+ * directory is the single source of truth.
+ *
+ * Usage:  node scripts/generate-sitemap.js          (run from repo root)
+ *
+ * The script writes sitemap.xml to both `out/` and `public/`.
  */
 const fs = require('fs');
 const path = require('path');
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://sanatanadharmam.in';
-// If invoked with --fresh, skip using .next prerender manifest and always
-// compute paths from source (sitemapPaths.ts / nav) or includes.
-const FRESH = process.argv.includes('--fresh');
-// Derive locales from lib/localesList.json when present; fall back to English-only.
+const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || 'https://sanatanadharmam.in').replace(/\/$/, '');
+
+// ── Locales ────────────────────────────────────────────────────────
 function loadLocales() {
   try {
     const listPath = path.join(process.cwd(), 'lib', 'localesList.json');
     if (fs.existsSync(listPath)) {
-      const raw = fs.readFileSync(listPath, 'utf8');
-      const parsed = JSON.parse(raw);
-      return (Array.isArray(parsed) ? parsed.map((o) => o.code).filter(Boolean) : ['en']);
+      const parsed = JSON.parse(fs.readFileSync(listPath, 'utf8'));
+      return Array.isArray(parsed) ? parsed.map((o) => o.code).filter(Boolean) : ['en'];
     }
-  } catch (err) {
-    // ignore and fall back
-  }
+  } catch (_) { /* ignore */ }
   return ['en'];
 }
-
 const LOCALES = loadLocales();
 
-// Optional: allow excluding unwanted paths via lib/sitemapExclude.json
+// ── Excludes ───────────────────────────────────────────────────────
 function loadExcludes() {
   try {
     const p = path.join(process.cwd(), 'lib', 'sitemapExclude.json');
     if (fs.existsSync(p)) {
-      const raw = fs.readFileSync(p, 'utf8');
-      const arr = JSON.parse(raw);
+      const arr = JSON.parse(fs.readFileSync(p, 'utf8'));
       if (Array.isArray(arr)) return new Set(arr);
     }
-  } catch (err) {
-    // ignore
-  }
+  } catch (_) { /* ignore */ }
   return new Set();
 }
-
-// Optional: allow explicitly selecting which paths to include via lib/sitemapInclude.json
-function loadIncludes() {
-  try {
-    const p = path.join(process.cwd(), 'lib', 'sitemapInclude.json');
-    if (fs.existsSync(p)) {
-      const raw = fs.readFileSync(p, 'utf8');
-      const arr = JSON.parse(raw);
-      if (Array.isArray(arr)) {
-        // normalize to leading-slash paths
-        const items = arr
-          .map(s => (typeof s === 'string' ? (s.startsWith('/') ? s : `/${s}`) : null))
-          .filter(Boolean);
-        if (items.length > 0) {
-          console.log('Loaded lib/sitemapInclude.json with', items.length, 'entries');
-          return new Set(items);
-        }
-        return new Set();
-      }
-    }
-  } catch (err) {
-    console.error('Failed to parse lib/sitemapInclude.json:', err && err.message ? err.message : err);
-  }
-  return null;
-}
-
-const INCLUDES = loadIncludes();
-
 const EXCLUDES = loadExcludes();
 
-function readPaths() {
-  // Compute auto-discovered paths from prerender manifest, sitemapPaths.ts,
-  // or nav.json (legacy), and then optionally validate `lib/sitemapInclude.json`.
-  let autoPaths = null;
+// ── Helpers ────────────────────────────────────────────────────────
 
-  // Prefer Next's prerender manifest (routes actually built) when available.
-  try {
-    const manifestPath = path.join(process.cwd(), '.next', 'prerender-manifest.json');
-    if (!FRESH && fs.existsSync(manifestPath)) {
-      const raw = fs.readFileSync(manifestPath, 'utf8');
-      const manifest = JSON.parse(raw);
-      const routes = manifest && manifest.routes ? Object.keys(manifest.routes) : [];
-      // Filter out API routes, route handlers, sitemap route, and special internal routes
-        const filtered = routes.filter((r) => {
-          if (!r || typeof r !== 'string') return false;
-          if (r.startsWith('/api')) return false;
-          if (r === '/sitemap.xml' || r === '/sitemap') return false;
-          if (r === '/favicon.ico') return false;
-          if (r.startsWith('/_')) return false;
-          return true;
-        });
-        // Expand dynamic routes like [id] or [chapter]
-        const expanded = [];
-        for (const r of Array.from(new Set(filtered)).sort()) {
-          if (r.includes('[')) {
-            // handle illustrated stories: /kidszone/illustratedstories/[id]
-            if (/kidszone\/illustratedstories\/\[id\]/.test(r) || /kidszone\/illustratedstories\/\[id\]\/page/.test(r)) {
-              try {
-                const file = path.join(process.cwd(), 'locales', 'en', 'illustrated_stories.json');
-                if (fs.existsSync(file)) {
-                  const raw = fs.readFileSync(file, 'utf8');
-                  const doc = JSON.parse(raw);
-                  const stories = doc && (doc.illustrated_stories || doc.illustratedstories) && (doc.illustrated_stories.kids_indian_stories || doc.illustratedstories.kids_indian_stories) ? (doc.illustrated_stories?.kids_indian_stories || doc.illustratedstories?.kids_indian_stories) : [];
-                  if (Array.isArray(stories) && stories.length > 0) {
-                    for (const s of stories) {
-                      if (s && (s.id || s.chapter || s.slug)) {
-                        const id = s.id || s.chapter || s.slug;
-                        expanded.push(`/kidszone/illustratedstories/${id}`);
-                      }
-                    }
-                    continue;
-                  }
-                }
-              } catch (e) { }
-              // fallback: skip if no data
-              continue;
-            }
+/**
+ * Extract a JS array literal from page source code.
+ * Handles `const VALID_SLUGS = ['a','b'];` and `VEDA_CHAPTERS` object arrays.
+ * Correctly skips type annotations like `: { ... }[] =` before the value.
+ */
+function extractArrayLiteral(source, varName) {
+  // Match the variable declaration up to and including the `= [`
+  const re = new RegExp(`(?:const|let|var)\\s+${varName}\\b[^=]*=\\s*\\[`, 'm');
+  const m = re.exec(source);
+  if (!m) return null;
 
-            // handle scriptures chapter dynamic routes: /scriptures/:book/chapter/[chapter]
-            const chapMatch = r.match(/^\/scriptures\/([^\/]+)\/chapter\/\[chapter\]/);
-            if (chapMatch) {
-              const book = chapMatch[1];
-              // attempt to find a matching locale scriptures file in locales/en
-              try {
-                const localeDir = path.join(process.cwd(), 'locales');
-                const files = fs.readdirSync(localeDir);
-                // find file that contains the book name
-                const candidate = files.find(f => f.toLowerCase().includes(book.replace(/[^a-z0-9]/gi, '').toLowerCase()));
-                if (candidate) {
-                  const filePath = path.join(localeDir, candidate);
-                  const raw = fs.readFileSync(filePath, 'utf8');
-                  const doc = JSON.parse(raw);
-                  // find chapters array inside doc
-                  const chaptersKey = Object.keys(doc).find(k => k.toLowerCase().includes('chap') || k.toLowerCase().includes('chapter'));
-                  let chapters = [];
-                  if (chaptersKey && Array.isArray(doc[chaptersKey].chapters)) {
-                    chapters = doc[chaptersKey].chapters;
-                  } else if (Array.isArray(doc[`${book}_scriptures`]?.chapters)) {
-                    chapters = doc[`${book}_scriptures`].chapters;
-                  } else if (Array.isArray(doc.chapters)) {
-                    chapters = doc.chapters;
-                  }
-                  if (Array.isArray(chapters) && chapters.length > 0) {
-                    for (const c of chapters) {
-                      const num = c && (c.chapter || c.chapter_number || c.chapterNo || c.number) ? (c.chapter || c.chapter_number || c.chapterNo || c.number) : (typeof c === 'number' ? c : null);
-                      if (num !== null) expanded.push(`/scriptures/${book}/chapter/${num}`);
-                    }
-                    continue;
-                  }
-                }
-              } catch (e) { }
-              // Fallback: add a reasonable default range
-              const fallbackCount = /bhagavathgita|bhagavadgita/.test(book) ? 18 : 12;
-              for (let i = 1; i <= fallbackCount; i++) expanded.push(`/scriptures/${book}/chapter/${i}`);
-              continue;
-            }
+  // The `[` we care about is the LAST `[` in the match (after the `=`)
+  const matchEnd = m.index + m[0].length;
+  let start = matchEnd - 1; // points to the `[` at the end of the match
 
-            // unknown dynamic route: skip
-            continue;
-          }
-          expanded.push(r);
-        }
-        autoPaths = expanded;
-    }
-  } catch (err) {
-    // ignore and fall back to previous behavior
+  let depth = 1; // we already consumed the opening `[`
+  let end = start;
+  for (let i = matchEnd; i < source.length; i++) {
+    if (source[i] === '[') depth++;
+    if (source[i] === ']') depth--;
+    if (depth === 0) { end = i; break; }
   }
-
-  // Fallback: read lib/sitemapPaths.ts and locales nav (legacy behavior)
-  if (!autoPaths) {
-    const p = path.join(process.cwd(), 'lib', 'sitemapPaths.ts');
-    if (fs.existsSync(p)) {
-      const src = fs.readFileSync(p, 'utf8');
-      const m = src.match(/export const PATHS\s*=\s*\[(([\s\S]*?)\];)/m);
-      if (m) {
-        const arrSrc = m[0].replace(/export const PATHS\s*=\s*/m, '');
-        const items = [];
-        const re = /'([^']+)'/g;
-        let it;
-        while ((it = re.exec(arrSrc)) !== null) items.push(it[1]);
-        autoPaths = items;
-      } else {
-        // Support generated PATHS via buildPaths() in the TS file by reading nav.json
-        const m2 = src.match(/export const PATHS\s*=\s*buildPaths\(\)/m);
-        if (m2) {
-          try {
-            const navPath = path.join(process.cwd(), 'public', 'locales', 'en', 'nav.json');
-            if (fs.existsSync(navPath)) {
-              const navRaw = fs.readFileSync(navPath, 'utf8');
-              const nav = JSON.parse(navRaw);
-              const navRoot = nav && nav.nav ? nav.nav : (nav && nav.default && nav.default.nav) || {};
-              const set = new Set(['/']);
-              const staticExtras = ['/privacy-policy', '/terms-of-service'];
-              for (const s of staticExtras) set.add(s);
-              for (const key of Object.keys(navRoot)) {
-                if (key === 'home') continue;
-                const topPath = `/${key}`;
-                set.add(topPath);
-                const item = navRoot[key];
-                if (item && typeof item === 'object') {
-                  const children = item.nav || item['nav'];
-                  if (children && typeof children === 'object') {
-                    for (const childKey of Object.keys(children)) set.add(`${topPath}/${childKey}`);
-                  }
-                }
-              }
-              autoPaths = Array.from(set).sort();
-            }
-          } catch (e) {
-            // fall through and let later fallback handle errors
-          }
-        }
-      }
-    }
-  }
-  
-  // If an explicit include list exists, prefer it even if auto discovery failed
-  if (!autoPaths && INCLUDES && INCLUDES.size > 0) {
-    return Array.from(INCLUDES).sort();
-  }
-
-  if (!autoPaths) {
-    try {
-      const navPath = path.join(process.cwd(), 'locales', 'en', 'nav.json');
-      const navRaw = fs.readFileSync(navPath, 'utf8');
-      const nav = JSON.parse(navRaw);
-      const navRoot = nav && nav.nav ? nav.nav : (nav && nav.default && nav.default.nav) || {};
-      const set = new Set(['/']);
-      const staticExtras = ['/privacy-policy', '/terms-of-service'];
-      for (const s of staticExtras) set.add(s);
-      for (const key of Object.keys(navRoot)) {
-        if (key === 'home') continue;
-        const topPath = `/${key}`;
-        set.add(topPath);
-        const item = navRoot[key];
-        if (item && typeof item === 'object') {
-          const children = item.nav || item['nav'];
-          if (children && typeof children === 'object') {
-            for (const childKey of Object.keys(children)) set.add(`${topPath}/${childKey}`);
-          }
-        }
-      }
-      autoPaths = Array.from(set).sort();
-    } catch (err) {
-      throw new Error('PATHS not found in lib/sitemapPaths.ts and fallback failed');
-    }
-  }
-
-  // If a sitemapInclude.json exists, validate includes against autoPaths and warn
-  if (INCLUDES && INCLUDES.size > 0) {
-    const autoSet = new Set(autoPaths);
-    const includesArr = Array.from(INCLUDES).sort();
-    const missing = includesArr.filter(p => !autoSet.has(p));
-    if (missing.length > 0) {
-      console.warn('Warning: the following paths in lib/sitemapInclude.json were not found in auto-discovered paths:');
-      for (const m of missing) console.warn('  -', m);
-      console.warn('They will still be included in the sitemap, but double-check these paths are correct.');
-    }
-    return includesArr;
-  }
-
-  return autoPaths;
+  return source.substring(start, end + 1);
 }
 
+/**
+ * Parse simple string arrays like `['a','b','c']`.
+ */
+function parseStringArray(raw) {
+  const items = [];
+  const re = /['"`]([^'"`]+)['"`]/g;
+  let m;
+  while ((m = re.exec(raw)) !== null) items.push(m[1]);
+  return items;
+}
+
+/**
+ * Parse VEDA_CHAPTERS-style object arrays and return static params.
+ * Each entry like { slug:'rigveda', prefix:'mandala', count:10 }
+ * produces params [{slug:'rigveda', chapter:'mandala-1'}, …].
+ */
+function parseVedaChapters(raw) {
+  const params = [];
+  const objRe = /\{([^}]+)\}/g;
+  let om;
+  while ((om = objRe.exec(raw)) !== null) {
+    const body = om[1];
+    // Skip commented-out entries
+    const before = raw.substring(0, om.index);
+    const lastNewline = before.lastIndexOf('\n');
+    const lineStart = before.substring(lastNewline + 1).trim();
+    if (lineStart.startsWith('*') || lineStart.startsWith('//') || lineStart.startsWith('/*')) continue;
+
+    const slugM = body.match(/slug\s*:\s*['"`]([^'"`]+)['"`]/);
+    const prefixM = body.match(/prefix\s*:\s*['"`]([^'"`]+)['"`]/);
+    const countM = body.match(/count\s*:\s*(\d+)/);
+    if (slugM && prefixM && countM) {
+      const slug = slugM[1];
+      const prefix = prefixM[1];
+      const count = parseInt(countM[1], 10);
+      for (let i = 1; i <= count; i++) {
+        params.push({ slug, chapter: `${prefix}-${i}` });
+      }
+    }
+  }
+  return params;
+}
+
+// ── Route Discovery ────────────────────────────────────────────────
+
+/**
+ * Recursively walk the `app/` directory and collect every `page.tsx` / `page.ts`.
+ */
+function findPages(dir, results) {
+  results = results || [];
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
+  for (const ent of entries) {
+    const full = path.join(dir, ent.name);
+    if (ent.isDirectory()) {
+      // Skip private/internal folders
+      if (/^[_.]|^api$|^components$|^context$|^hooks$/.test(ent.name)) continue;
+      findPages(full, results);
+    } else if (ent.name === 'page.tsx' || ent.name === 'page.ts') {
+      results.push(full);
+    }
+  }
+  return results;
+}
+
+/**
+ * Convert an `app/`-relative page path to a URL route pattern.
+ * e.g. `app/philosophy/karma/page.tsx` → `/philosophy/karma`
+ *      `app/vedas/[slug]/page.tsx`      → `/vedas/[slug]`
+ */
+function pageToRoute(pagePath, appDir) {
+  let rel = path.relative(appDir, path.dirname(pagePath)).replace(/\\/g, '/');
+  if (rel === '.' || rel === '') return '/';
+  return '/' + rel;
+}
+
+/**
+ * Expand a route pattern into concrete URLs.
+ * Static routes (no `[` segments) map 1:1.
+ * Dynamic segments are resolved by reading the page source.
+ */
+function expandRoute(routePattern, pagePath) {
+  if (!routePattern.includes('[')) {
+    return [routePattern];
+  }
+
+  const source = fs.readFileSync(pagePath, 'utf8');
+  const segments = routePattern.split('/').filter(Boolean);
+  const dynamicNames = segments
+    .filter((s) => s.startsWith('[') && s.endsWith(']'))
+    .map((s) => s.slice(1, -1));
+
+  // ── Two-level dynamic: e.g. /vedas/[slug]/[chapter] ──
+  if (dynamicNames.length === 2) {
+    const vedaRaw = extractArrayLiteral(source, 'VEDA_CHAPTERS');
+    if (vedaRaw) {
+      const params = parseVedaChapters(vedaRaw);
+      return params.map((p) => {
+        let r = routePattern;
+        r = r.replace(`[${dynamicNames[0]}]`, p[dynamicNames[0]] || p.slug);
+        r = r.replace(`[${dynamicNames[1]}]`, p[dynamicNames[1]] || p.chapter);
+        return r;
+      });
+    }
+    return resolveFromGenerateStaticParams(source, routePattern, dynamicNames);
+  }
+
+  // ── Single-level dynamic: e.g. /puranas/[slug] ──
+  const slugVarRaw = extractArrayLiteral(source, 'VALID_SLUGS');
+  if (slugVarRaw) {
+    const slugs = parseStringArray(slugVarRaw);
+    return slugs.map((s) => routePattern.replace(`[${dynamicNames[0]}]`, s));
+  }
+
+  return resolveFromGenerateStaticParams(source, routePattern, dynamicNames);
+}
+
+/**
+ * Last-resort: extract params from `generateStaticParams` body.
+ */
+function resolveFromGenerateStaticParams(source, routePattern, dynamicNames) {
+  const fnMatch = source.match(/generateStaticParams[^{]*\{([\s\S]*?)\n\}/);
+  if (!fnMatch) return [];
+
+  const body = fnMatch[1];
+  const mapMatch = body.match(/return\s+(\w+)\.map/);
+  if (mapMatch) {
+    const varName = mapMatch[1];
+    const raw = extractArrayLiteral(source, varName);
+    if (raw) {
+      const items = parseStringArray(raw);
+      return items.map((s) => routePattern.replace(`[${dynamicNames[0]}]`, s));
+    }
+  }
+  return [];
+}
+
+// ── Sitemap XML ────────────────────────────────────────────────────
+
 function buildSitemap(paths) {
-  const hostname = SITE_URL.replace(/\/$/, '');
   const lastmod = new Date().toISOString();
   let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
   xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n';
+
   for (const p of paths) {
     if (EXCLUDES.has(p)) continue;
+    let loc = `${SITE_URL}${p === '/' ? '' : p}`;
+    // trailing slash to match `trailingSlash: true` in next.config
+    if (p !== '/' && !loc.endsWith('/')) loc += '/';
+
     xml += '  <url>\n';
-    let loc = `${hostname}${p === '/' ? '' : p}`;
-    // Ensure trailing slash for non-root paths to match exported site routing
-    if (p !== '/' && !loc.endsWith('/')) loc = `${loc}/`;
     xml += `    <loc>${loc}</loc>\n`;
     xml += `    <lastmod>${lastmod}</lastmod>\n`;
+
     for (const l of LOCALES) {
-      let href = l === 'en' ? `${hostname}${p === '/' ? '' : p}` : `${hostname}${p === '/' ? '' : p}?lang=${l}`;
-      if (p !== '/' && !href.endsWith('/')) href = `${href}/`;
+      let href = l === 'en'
+        ? `${SITE_URL}${p === '/' ? '' : p}`
+        : `${SITE_URL}${p === '/' ? '' : p}?lang=${l}`;
+      if (p !== '/' && !href.endsWith('/') && !href.includes('?')) href += '/';
       xml += `    <xhtml:link rel="alternate" hreflang="${l}" href="${href}"/>\n`;
     }
     xml += '  </url>\n';
   }
+
   xml += '</urlset>\n';
   return xml;
 }
 
-function writeSitemap(xml) {
-  const out = path.join(process.cwd(), 'out', 'sitemap.xml');
-  fs.mkdirSync(path.dirname(out), { recursive: true });
-  fs.writeFileSync(out, xml, 'utf8');
-  console.log('Wrote', out);
+// ── Write ──────────────────────────────────────────────────────────
+
+function writeTo(filePath, xml) {
+  fs.mkdirSync(path.dirname(filePath), { recursive: true });
+  fs.writeFileSync(filePath, xml, 'utf8');
+  console.log('Wrote', filePath);
 }
 
-function writePublicSitemap(xml) {
-  const pub = path.join(process.cwd(), 'public', 'sitemap.xml');
-  fs.mkdirSync(path.dirname(pub), { recursive: true });
-  fs.writeFileSync(pub, xml, 'utf8');
-  console.log('Wrote', pub);
-}
+// ── Main ───────────────────────────────────────────────────────────
 
 try {
-  const paths = readPaths();
-  const xml = buildSitemap(paths);
-  writeSitemap(xml);
-  // Also update public sitemap so deployments serve the latest file
-  try {
-    writePublicSitemap(xml);
-  } catch (e) {
-    // non-fatal
+  const appDir = path.join(process.cwd(), 'app');
+  const pages = findPages(appDir);
+  const routeSet = new Set();
+
+  for (const pagePath of pages) {
+    const pattern = pageToRoute(pagePath, appDir);
+    const expanded = expandRoute(pattern, pagePath);
+    for (const r of expanded) routeSet.add(r);
   }
+
+  const paths = Array.from(routeSet).sort();
+  console.log(`Discovered ${paths.length} routes from app/ pages:`);
+  for (const p of paths) console.log('  ', p);
+
+  const xml = buildSitemap(paths);
+  writeTo(path.join(process.cwd(), 'out', 'sitemap.xml'), xml);
+  // Also update public/ so next dev and deployments serve the latest
+  try {
+    writeTo(path.join(process.cwd(), 'public', 'sitemap.xml'), xml);
+  } catch (_) { /* non-fatal */ }
 } catch (err) {
-  console.error(err);
+  console.error('generate-sitemap error:', err);
   process.exit(1);
 }

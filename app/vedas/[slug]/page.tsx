@@ -7,9 +7,9 @@ const VALID_SLUGS = ['rigveda', 'yajurveda', 'samaveda', 'atharvaveda'];
 /* Map URL slug → locale file key (filename without .json) */
 const FILE_MAP: Record<string, string> = {
   rigveda: 'vedas_rigveda',
-  yajurveda: 'yajurveda',
-  samaveda: 'samaveda',
-  atharvaveda: 'atharvaveda',
+  yajurveda: 'vedas_yajurveda',
+  samaveda: 'vedas_samaveda',
+  atharvaveda: 'vedas_atharvaveda',
 };
 
 export function generateStaticParams() {
