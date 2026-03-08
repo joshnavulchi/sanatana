@@ -4,7 +4,7 @@ import ChapterClient from './chapterclient';
 
 /* ── Static params for all veda + chapter combos ── */
 const VEDA_CHAPTERS: { slug: string; prefix: string; count: number; filePattern: string }[] = [
-  { slug: 'rigveda', prefix: 'madala', count: 10, filePattern: 'vedas_rigveda_madala' },
+  { slug: 'rigveda', prefix: 'mandala', count: 10, filePattern: 'vedas_rigveda_madala' },
   /*
    * Other vedas can be added here when their chapter-level JSONs become available:
    * { slug: 'yajurveda', prefix: 'chapter', count: 10, filePattern: 'vedas_yajurveda_chapter' },

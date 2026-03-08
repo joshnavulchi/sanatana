@@ -19,7 +19,7 @@ const SLUG_CONFIG: Record<string, {
   rigveda: {
     icon: '🔥', accentFrom: 'from-[#7c2d12]', accentVia: 'via-[#c2410c]', accentTo: 'to-[#f59e0b]',
     textAccent: 'text-[#7c2d12]', borderAccent: 'border-[#c2410c]',
-    chapterPrefix: 'madala', itemLabel: 'Mandala',
+    chapterPrefix: 'mandala', itemLabel: 'Mandala',
     filePattern: 'vedas_rigveda_madala', totalChapters: 10,
   },
   /* Other vedas can be added when their chapter JSONs become available */
