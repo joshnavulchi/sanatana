@@ -1,125 +1,125 @@
 {
-  "cookies-policy": {
-    "title": "Cookies Policy",
-    "meta": {
-      "title": "Cookies Policy | Cookies — Sanātana Dharma - Explore Sanatan Dharma",
-      "canonical": "https://sanatanadharmam.in/cookies-policy",
-      "description": "Cookies Policy — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Cookies Policy. Explore practices, history, and guiding principles at...",
-      "keywords": [
-        "cookies",
-        "dharma",
-        "hindu puranas",
-        "katha",
-        "kena",
-        "mahabharata",
-        "policy",
-        "ramayana",
-        "sanātana",
-        "upanishad",
-        "veda"
-      ],
-      "ogimage": "/og/privacy.png",
-      "url": "https://sanatanadharmam.in/cookies-policy"
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availablelanguage": [
-            "العربية",
-            "Deutsch",
-            "English",
-            "Español",
-            "Français",
-            "हिन्दी",
-            "日本語",
-            "नेपाली",
-            "Nederlands",
-            "Português",
-            "Русский",
-            "తెలుగు",
-            "اردو",
-            "中文 (简体)"
-          ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
+    "cookies-policy": {
+        "title": "Política de cookies",
+        "meta": {
+            "title": "Política de Cookies | Galletas — Sanātana Dharma - Explora Sanatan Dharma",
+            "canonical": "https://sanatanadharmam.in/cookies-policy",
+            "description": "Política de cookies — Sanātana Dharma - Explore Sanatan Dharma — Artículos, traducciones y comentarios concisos sobre la Política de cookies. Explore las prácticas, la historia y los principios rectores en...",
+            "keywords": [
+                "galletas",
+                "dharma",
+                "puranas hindúes",
+                "katha",
+                "Kena",
+                "mahabharata",
+                "política",
+                "ramayana",
+                "sanatana",
+                "upanishad",
+                "veda"
+            ],
+            "ogimage": "/og/privacy.png",
+            "url": "https://sanatanadharmam.in/cookies-policy"
         },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "changes": {
-      "title": "9. Changes to This Policy",
-      "text": "We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you of any significant changes by updating the \"Last Updated\" date at the top of this policy. Your continued use of the website following the posting of revised Privacy Policy means that you accept and agree to the changes."
-    },
-    "children": {
-      "title": "8. Children's Privacy",
-      "text": "Our website is not directed to children under the age of 13. We do not knowingly collect personal information from children. If we become aware that we have collected information from a child under 13, we will promptly delete such information."
-    },
-    "contact": {
-      "title": "10. Contact Us",
-      "closing": "By accessing and using Sanātana Dharma, you acknowledge that you have read, understood, and agree to be bound by this Privacy Policy.",
-      "email": "contact@sanatanadharmam.in",
-      "emaillabel": "Email:",
-      "lead": "If you have questions about this Privacy Policy or our privacy practices, please contact us at:",
-      "website": "https://sanatanadharmam.in",
-      "websitelabel": "Website:"
-    },
-    "cookieslocalstorage": {
-      "title": "4. Cookies and Local Storage",
-      "text": "We use browser local storage to remember your selected language preference. This data is stored only on your device and is not transmitted to our servers. You can clear this data anytime by clearing your browser's local storage."
-    },
-    "howweuse": {
-      "title": "3. How We Use Your Information",
-      "items": [
-        "Improving and personalizing your website experience",
-        "Remembering your language preference and settings",
-        "Analyzing website performance and user behavior",
-        "Responding to your inquiries and feedback",
-        "Complying with legal obligations"
-      ],
-      "lead": "We use the collected information for the following purposes:"
-    },
-    "informationwecollect": {
-      "title": "2. Information We Collect",
-      "contact": "If you submit a form or contact us, we collect the information you voluntarily provide.",
-      "contactlabel": "Contact Information:",
-      "cookies": "We use cookies and similar technologies to remember your preferences and language selection.",
-      "cookieslabel": "Cookies and Tracking:",
-      "device": "Details about your device, browser type, IP address, and operating system.",
-      "devicelabel": "Device Information:",
-      "lead": "We may collect the following types of information:",
-      "usage": "Information about how you interact with our website, including pages visited, time spent, and links clicked.",
-      "usagelabel": "Usage Data:"
-    },
-    "intro": {
-      "title": "1. Introduction",
-      "text": "Welcome to Sanātana Dharma (sanatanadharmam.in). We are committed to protecting your privacy and ensuring you have a positive experience on our website. This Privacy Policy explains our data practices, including what information we collect, how we use it, and your rights regarding your personal information."
-    },
-    "lastupdated": "November 2025",
-    "rights": {
-      "title": "7. Your Rights",
-      "contacttext": "To exercise any of these rights, please contact us using the information provided below.",
-      "items": [
-        "Right to access your personal information",
-        "Right to request correction of inaccurate data",
-        "Right to request deletion of your data",
-        "Right to opt-out of certain data processing activities"
-      ],
-      "lead": "Depending on your location, you may have the following rights:"
-    },
-    "security": {
-      "title": "6. Data Security",
-      "text": "We are committed to protecting your information through appropriate technical and organizational security measures. However, no method of transmission over the internet or electronic storage is completely secure. If you have concerns about security, please contact us."
-    },
-    "thirdparty": {
-      "title": "5. Third-Party Services",
-      "text": "We may use third-party analytics services to understand website usage patterns. These services may collect anonymous data about your visit. We do not share personally identifiable information with third parties without your consent."
+        "schema": {
+            "@context": "https://schema.org",
+            "mainentity": {
+                "@type": "Organización",
+                "contactpoint": {
+                    "@type": "Punto de contacto",
+                    "areaserved": "Mundial",
+                    "availablelanguage": [
+                        "العربية",
+                        "alemán",
+                        "Inglés",
+                        "Español",
+                        "francés",
+                        "हिन्दी",
+                        "日本語",
+                        "नेपाली",
+                        "Países Bajos",
+                        "portugués",
+                        "ruso",
+                        "తెలుగు",
+                        "اردو",
+                        "中文 (简体)"
+                    ],
+                    "contacttype": "Atención al cliente",
+                    "email": "info@sanatanadharmam.in",
+                    "telephone": "+91-8099181075"
+                },
+                "logo": "https://sanatanadharmam.in/images/logo.png",
+                "name": "Acerca de Sanatanadharmam.in",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "changes": {
+            "title": "9. Cambios a esta política",
+            "text": "Podemos actualizar esta Política de Privacidad de vez en cuando para reflejar cambios en nuestras prácticas o por otras razones operativas, legales o regulatorias. Le notificaremos cualquier cambio significativo actualizando la fecha de \"Última actualización\" en la parte superior de esta política. Su uso continuado del sitio web después de la publicación de la Política de Privacidad revisada significa que acepta los cambios."
+        },
+        "children": {
+            "title": "8. Privacidad de los niños",
+            "text": "Nuestro sitio web no está dirigido a niños menores de 13 años. No recopilamos conscientemente información personal de niños. Si nos damos cuenta de que hemos recopilado información de un niño menor de 13 años, eliminaremos dicha información de inmediato."
+        },
+        "contact": {
+            "title": "10. Contáctenos",
+            "closing": "Al acceder y utilizar Sanātana Dharma, usted reconoce que ha leído, comprendido y aceptado regirse por esta Política de Privacidad.",
+            "email": "contact@sanatanadharmam.in",
+            "emaillabel": "Email:",
+            "lead": "Si tiene preguntas sobre esta Política de Privacidad o nuestras prácticas de privacidad, contáctenos en:",
+            "website": "https://sanatanadharmam.in",
+            "websitelabel": "Sitio web:"
+        },
+        "cookieslocalstorage": {
+            "title": "4. Cookies y almacenamiento local",
+            "text": "Utilizamos el almacenamiento local del navegador para recordar su preferencia de idioma seleccionada. Estos datos se almacenan únicamente en su dispositivo y no se transmiten a nuestros servidores. Puede borrar estos datos en cualquier momento borrando el almacenamiento local de su navegador."
+        },
+        "howweuse": {
+            "title": "3. Cómo utilizamos su información",
+            "items": [
+                "Mejorar y personalizar la experiencia de su sitio web",
+                "Recordar sus preferencias y configuraciones de idioma",
+                "Analizar el rendimiento del sitio web y el comportamiento del usuario.",
+                "Respondiendo a sus consultas y comentarios",
+                "Cumplir con las obligaciones legales"
+            ],
+            "lead": "Utilizamos la información recopilada para los siguientes propósitos:"
+        },
+        "informationwecollect": {
+            "title": "2. Información que recopilamos",
+            "contact": "Si envía un formulario o se comunica con nosotros, recopilamos la información que proporciona voluntariamente.",
+            "contactlabel": "Información del contacto:",
+            "cookies": "Utilizamos cookies y tecnologías similares para recordar sus preferencias y selección de idioma.",
+            "cookieslabel": "Cookies y seguimiento:",
+            "device": "Detalles sobre su dispositivo, tipo de navegador, dirección IP y sistema operativo.",
+            "devicelabel": "Información del dispositivo:",
+            "lead": "Podemos recopilar los siguientes tipos de información:",
+            "usage": "Información sobre cómo interactúa con nuestro sitio web, incluidas las páginas visitadas, el tiempo invertido y los enlaces en los que se hizo clic.",
+            "usagelabel": "Datos de uso:"
+        },
+        "intro": {
+            "title": "1. Introducción",
+            "text": "Bienvenido a Sanātana Dharma (sanatanadharmam.in). Estamos comprometidos a proteger su privacidad y garantizar que tenga una experiencia positiva en nuestro sitio web. Esta Política de Privacidad explica nuestras prácticas de datos, incluida qué información recopilamos, cómo la usamos y sus derechos con respecto a su información personal."
+        },
+        "lastupdated": "noviembre 2025",
+        "rights": {
+            "title": "7. Tus derechos",
+            "contacttext": "Para ejercer cualquiera de estos derechos, comuníquese con nosotros utilizando la información proporcionada a continuación.",
+            "items": [
+                "Derecho a acceder a su información personal",
+                "Derecho a solicitar la corrección de datos inexactos",
+                "Derecho a solicitar la eliminación de sus datos",
+                "Derecho a optar por no participar en determinadas actividades de procesamiento de datos"
+            ],
+            "lead": "Dependiendo de su ubicación, puede tener los siguientes derechos:"
+        },
+        "security": {
+            "title": "6. Seguridad de los datos",
+            "text": "Nos comprometemos a proteger su información a través de medidas de seguridad técnicas y organizativas adecuadas. Sin embargo, ningún método de transmisión a través de Internet o de almacenamiento electrónico es completamente seguro. Si tiene dudas sobre la seguridad, contáctenos."
+        },
+        "thirdparty": {
+            "title": "5. Servicios de terceros",
+            "text": "Podemos utilizar servicios de análisis de terceros para comprender los patrones de uso del sitio web. Estos servicios pueden recopilar datos anónimos sobre su visita. No compartimos información de identificación personal con terceros sin su consentimiento."
+        }
     }
-  }
 }

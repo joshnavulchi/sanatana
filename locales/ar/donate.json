@@ -1,31 +1,31 @@
 {
   "donate": {
-    "title": "Donate – Support Sanatanadharmam | Preserve Sanatana Dharma Knowledge",
-    "description": "Support Sanatanadharmam through donations to help preserve Vedic knowledge, translations, and spiritual teachings of Sanatana Dharma.",
+    "title": "تبرع – ادعم ساناتانادارمام | الحفاظ على المعرفة ساناتانا دارما",
+    "description": "ادعم Sanatanadharmam من خلال التبرعات للمساعدة في الحفاظ على المعرفة الفيدية والترجمات والتعاليم الروحية لـ Sanatana Dharma.",
     "meta": {
-      "title": "Donate – Support Sanatanadharmam | Preserve Sanatana Dharma Knowledge",
+      "title": "تبرع – ادعم ساناتانادارمام | الحفاظ على المعرفة ساناتانا دارما",
       "canonical": "https://sanatanadharmam.in/donate",
-      "description": "Support Sanatanadharmam through donations to help preserve Vedic knowledge, translations, and spiritual teachings of Sanatana Dharma.",
+      "description": "ادعم Sanatanadharmam من خلال التبرعات للمساعدة في الحفاظ على المعرفة الفيدية والترجمات والتعاليم الروحية لـ Sanatana Dharma.",
       "keywords": [
-        "donate sanatanadharmam",
-        "support sanatana dharma",
-        "sanatana dharma donations",
-        "vedic knowledge support",
-        "donate for spiritual education",
-        "support hindu philosophy website",
-        "sanatana dharma donation",
-        "support vedic scriptures project",
-        "donation for dharma knowledge"
+        "تبرع ساناتانادارمام",
+        "دعم ساناتانا دارما",
+        "تبرعات ساناتانا دارما",
+        "دعم المعرفة الفيدية",
+        "التبرع للتعليم الروحي",
+        "دعم موقع الفلسفة الهندوسية",
+        "التبرع ساناتانا دارما",
+        "دعم مشروع الكتب المقدسة الفيدية",
+        "التبرع للمعرفة دارما"
       ],
-      "robots": "index, follow",
+      "robots": "الفهرس، اتبع",
       "url": "https://sanatanadharmam.in/donate"
     },
     "openGraph": {
-      "title": "Support Sanatanadharmam – Help Preserve Sanatana Dharma",
-      "description": "Contribute to Sanatanadharmam to support preservation and sharing of Vedic knowledge, scriptures and spiritual wisdom.",
+      "title": "ادعم Sanatanadharmam - ساعد في الحفاظ على Sanatana Dharma",
+      "description": "ساهم في Sanatanadharmam لدعم الحفاظ على المعرفة الفيدية والكتب المقدسة والحكمة الروحية ومشاركتها.",
       "url": "https://sanatanadharmam.in/donate",
-      "siteName": "Sanatanadharmam",
-      "type": "website",
+      "siteName": "ساناتانادارمام",
+      "type": "موقع إلكتروني",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/donate.png",
@@ -39,35 +39,35 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "DonateAction",
-          "name": "Donate to Support Sanatanadharmam",
+          "@type": "تبرع",
+          "name": "تبرع لدعم Sanatanadharmam",
           "target": "https://sanatanadharmam.in/donate",
-          "description": "Donation page supporting preservation and sharing of Sanatana Dharma knowledge."
+          "description": "صفحة التبرع تدعم الحفاظ على معرفة Sanatana Dharma ومشاركتها."
         },
         {
-          "@type": "Organization",
-          "name": "Sanatanadharmam",
+          "@type": "منظمة",
+          "name": "ساناتانادارمام",
           "url": "https://sanatanadharmam.in",
           "logo": "https://sanatanadharmam.in/images/logo.png",
           "contactPoint": {
-            "@type": "ContactPoint",
-            "contactType": "customer support",
-            "areaServed": "Worldwide",
+            "@type": "نقطة الاتصال",
+            "contactType": "دعم العملاء",
+            "areaServed": "في جميع أنحاء العالم",
             "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Arabic",
-              "German",
-              "Spanish",
-              "French",
-              "Japanese",
-              "Nepali",
-              "Dutch",
-              "Portuguese",
-              "Russian",
-              "Urdu",
-              "Chinese"
+              "إنجليزي",
+              "الهندية",
+              "التيلجو",
+              "عربي",
+              "الألمانية",
+              "الأسبانية",
+              "فرنسي",
+              "اليابانية",
+              "النيبالية",
+              "هولندي",
+              "البرتغالية",
+              "الروسية",
+              "الأردية",
+              "الصينية"
             ],
             "email": "info@sanatanadharmam.in",
             "telephone": "+91-8099181075"
@@ -77,64 +77,64 @@
     },
     "donateoptions": {
       "bank": {
-        "accountname": "V Vijaya Kumar",
+        "accountname": "في فيجايا كومار",
         "accountnumber": "32160808608",
-        "heading": "UPI / Bank Transfer",
+        "heading": "واجهة الدفع الموحدة / التحويل البنكي",
         "ifsc": "SBIN0010677",
         "upi": "809918075@ybl"
       },
       "onetime": {
-        "heading": "One-Time Donation",
-        "note": "Make a secure one-time donation via UPI or international payment methods."
+        "heading": "التبرع لمرة واحدة",
+        "note": "قم بالتبرع الآمن لمرة واحدة عبر UPI أو طرق الدفع الدولية."
       }
     },
     "expenses": {
-      "heading": "Transparency: Current Expenses",
+      "heading": "الشفافية: النفقات الجارية",
       "table": [
         {
-          "cost": "₹3,500",
-          "cycle": "3 Years",
-          "name": "Domain & Hosting",
-          "provider": "Hostinger"
+          "cost": "3500 روبية هندية",
+          "cycle": "3 سنوات",
+          "name": "المجال والاستضافة",
+          "provider": "هوستنجر"
         },
         {
-          "cost": "Free",
-          "cycle": "Unlimited",
-          "name": "GitHub Pages",
-          "provider": "GitHub"
+          "cost": "حر",
+          "cycle": "غير محدود",
+          "name": "صفحات جيثب",
+          "provider": "جيثب"
         },
         {
-          "cost": "Free Plans",
-          "cycle": "Ongoing",
-          "name": "AI Tools (Research)",
-          "provider": "Google / Microsoft / Meta"
+          "cost": "خطط مجانية",
+          "cycle": "مستمر",
+          "name": "أدوات الذكاء الاصطناعي (البحث)",
+          "provider": "جوجل / مايكروسوفت / ميتا"
         }
       ]
     },
     "faq": {
-      "heading": "Frequently Asked Questions",
+      "heading": "الأسئلة المتداولة",
       "items": [
         {
-          "a": "Yes. Donations are processed via trusted payment providers and direct bank transfers.",
-          "q": "Is my donation secure?"
+          "a": "نعم. تتم معالجة التبرعات عبر مزودي الدفع الموثوقين والتحويلات المصرفية المباشرة.",
+          "q": "هل تبرعي آمن؟"
         },
         {
-          "a": "Your contribution supports hosting, maintenance, and creation of educational spiritual content.",
-          "q": "How will my donation be used?"
+          "a": "مساهمتك تدعم استضافة وصيانة وإنشاء المحتوى الروحي التعليمي.",
+          "q": "كيف سيتم استخدام تبرعي؟"
         },
         {
-          "a": "No. Sanātana Dharma is a non-commercial, knowledge-focused initiative.",
-          "q": "Is this a commercial organization?"
+          "a": "لا، Sanātana Dharma هي مبادرة غير تجارية تركز على المعرفة.",
+          "q": "هل هذه منظمة تجارية؟"
         }
       ]
     },
     "purpose": {
-      "heading": "Why Your Support Matters",
+      "heading": "لماذا يهم دعمك",
       "points": [
-        "Preserves free access to Sanātana Dharma knowledge",
-        "Supports website hosting, domain, and maintenance",
-        "Enables creation of high-quality spiritual content",
-        "Keeps the platform independent and non-commercial"
+        "يحافظ على حرية الوصول إلى المعرفة Sanātana Dharma",
+        "يدعم استضافة الموقع والمجال والصيانة",
+        "تمكن من إنشاء محتوى روحي عالي الجودة",
+        "يحافظ على المنصة مستقلة وغير تجارية"
       ]
     }
   }

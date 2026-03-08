@@ -1,65 +1,65 @@
 {
-    "bhagavadgita_akshara-brahma-yoga": {
-        "title": "أكشارا براهما يوجا - نظرة عامة على فصل بهاجافاد جيتا",
-        "description": "نظرة عامة على الفصل الخاص بـ Akshara Brahma Yoga: التعاليم المركزية والمفاهيم الأساسية والإرشادات العملية من Bhagavad Gita.",
-        "meta": {
-            "title": "أكشارا براهما يوجا - نظرة عامة على فصل بهاجافاد جيتا",
-            "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/akshara-brahma-yoga",
-            "description": "نظرة عامة على الفصل الخاص بـ Akshara Brahma Yoga: التعاليم المركزية والمفاهيم الأساسية والإرشادات العملية من Bhagavad Gita.",
-            "keywords": [
-                "أكشارا براهما يوجا",
-                "باجافاد جيتا",
-                "كريشنا",
-                "اليوغا",
-                "دارما",
-                "فيدانتا"
-            ],
-            "robots": "الفهرس، اتبع",
-            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/akshara-brahma-yoga",
-            "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_akshara_brahma_yoga.png"
-        },
-        "openGraph": {
-            "title": "أكشارا براهما يوجا - نظرة عامة على فصل بهاجافاد جيتا",
-            "description": "نظرة عامة على الفصل الخاص بـ Akshara Brahma Yoga: التعاليم المركزية والمفاهيم الأساسية والإرشادات العملية من Bhagavad Gita.",
-            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/akshara-brahma-yoga",
-            "siteName": "ساناتانادارمام",
-            "type": "شرط",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/bhagavadgita_akshara_brahma_yoga.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Akshara Brahma Yoga – Bhagavad Gita Chapter Overview"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@type": "شرط",
-            "name": "أكشارا براهما يوجا - نظرة عامة على فصل بهاجافاد جيتا",
-            "description": "نظرة عامة على الفصل الخاص بـ Akshara Brahma Yoga: التعاليم المركزية والمفاهيم الأساسية والإرشادات العملية من Bhagavad Gita.",
-            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/akshara-brahma-yoga",
-            "isPartOf": {
-                "@type": "موقع إلكتروني",
-                "name": "ساناتانادارمام",
-                "url": "https://sanatanadharmam.in"
-            }
-        },
-        "introduction": "أكشارا براهما يوجا هو فصل من البهاغافاد غيتا. يحمل كل فصل تقليديًا تركيزًا على \"اليوغا\" - زاوية الممارسة أو الفهم - مع الحفاظ على تكامل التدريس: التصرف بوضوح، وتنمية الإخلاص، وصقل المعرفة حتى يصبح العقل ثابتًا.\n\nتلخص هذه الصفحة المواضيع المعتادة للفصل وتقدم مطالبات للتأمل دون اقتباس آيات محددة.",
-        "scripture_text": [
-            {
-                "section": "الأفكار الرئيسية",
-                "content": "نظرة عامة مختصرة على التعاليم الرئيسية المرتبطة عادة بهذا الفصل، وكيفية ارتباطها بالدارما واليوجا."
-            },
-            {
-                "section": "التطبيق العملي",
-                "content": "كيف يمكن تطبيق تعاليم الفصل على العمل اليومي والعلاقات وصنع القرار - خاصة تحت الضغط."
-            },
-            {
-                "section": "يطالب الانعكاس",
-                "content": "ما الذي أتعلق به؟ أين واجبي غير واضح؟ هل يمكنني التصرف بصدق مع التخلص من الهوس بالنتائج؟"
-            }
-        ],
-        "philosophical_explanation": "تركز فلسفة جيتا على الحرية الداخلية: ليس غياب الفعل، بل تنقية النية. عندما يقل الارتباط المدفوع بالأنا، يصبح الفعل أنظف ويصبح العقل قادرًا على رؤية أعمق."
-    }
+  "bhagavadgita_akshara-brahma-yoga": {
+    "title": "أكشارا براهما يوجا - نظرة عامة على فصل بهاجافاد جيتا",
+    "description": "نظرة عامة على الفصل الخاص بـ Akshara Brahma Yoga: التعاليم المركزية والمفاهيم الأساسية والإرشادات العملية من Bhagavad Gita.",
+    "meta": {
+      "title": "أكشارا براهما يوجا - نظرة عامة على فصل بهاجافاد جيتا",
+      "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/akshara-brahma-yoga",
+      "description": "نظرة عامة على الفصل الخاص بـ Akshara Brahma Yoga: التعاليم المركزية والمفاهيم الأساسية والإرشادات العملية من Bhagavad Gita.",
+      "keywords": [
+        "أكشارا براهما يوجا",
+        "باجافاد جيتا",
+        "كريشنا",
+        "اليوغا",
+        "دارما",
+        "فيدانتا"
+      ],
+      "robots": "الفهرس، اتبع",
+      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/akshara-brahma-yoga",
+      "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_akshara_brahma_yoga.png"
+    },
+    "openGraph": {
+      "title": "أكشارا براهما يوجا - نظرة عامة على فصل بهاجافاد جيتا",
+      "description": "نظرة عامة على الفصل الخاص بـ Akshara Brahma Yoga: التعاليم المركزية والمفاهيم الأساسية والإرشادات العملية من Bhagavad Gita.",
+      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/akshara-brahma-yoga",
+      "siteName": "ساناتانادارمام",
+      "type": "شرط",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/bhagavadgita_akshara_brahma_yoga.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Akshara Brahma Yoga – Bhagavad Gita Chapter Overview"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "شرط",
+      "name": "أكشارا براهما يوجا - نظرة عامة على فصل بهاجافاد جيتا",
+      "description": "نظرة عامة على الفصل الخاص بـ Akshara Brahma Yoga: التعاليم المركزية والمفاهيم الأساسية والإرشادات العملية من Bhagavad Gita.",
+      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/akshara-brahma-yoga",
+      "isPartOf": {
+        "@type": "موقع إلكتروني",
+        "name": "ساناتانادارمام",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "introduction": "أكشارا براهما يوجا هو فصل من البهاغافاد غيتا. يحمل كل فصل تقليديًا تركيزًا على \"اليوغا\" - زاوية الممارسة أو الفهم - مع الحفاظ على تكامل التدريس: التصرف بوضوح، وتنمية الإخلاص، وصقل المعرفة حتى يصبح العقل ثابتًا.\n\nتلخص هذه الصفحة المواضيع المعتادة للفصل وتقدم مطالبات للتأمل دون اقتباس آيات محددة.",
+    "scripture_text": [
+      {
+        "section": "الأفكار الرئيسية",
+        "content": "نظرة عامة مختصرة على التعاليم الرئيسية المرتبطة عادة بهذا الفصل، وكيفية ارتباطها بالدارما واليوجا."
+      },
+      {
+        "section": "التطبيق العملي",
+        "content": "كيف يمكن تطبيق تعاليم الفصل على العمل اليومي والعلاقات وصنع القرار - خاصة تحت الضغط."
+      },
+      {
+        "section": "يطالب الانعكاس",
+        "content": "ما الذي أتعلق به؟ أين واجبي غير واضح؟ هل يمكنني التصرف بصدق مع التخلص من الهوس بالنتائج؟"
+      }
+    ],
+    "philosophical_explanation": "تركز فلسفة جيتا على الحرية الداخلية: ليس غياب الفعل، بل تنقية النية. عندما يقل الارتباط المدفوع بالأنا، يصبح الفعل أنظف ويصبح العقل قادرًا على رؤية أعمق."
+  }
 }

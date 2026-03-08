@@ -1,208 +1,208 @@
 {
-    "about": {
-        "title": "حول ساناتانا دارما – التاريخ والفلسفة والحكمة الروحية",
-        "description": "تعرف على ساناتانا دارما، التقليد الروحي الأبدي للفلسفة الهندوسية. استكشف تاريخها ومبادئها وكتبها المقدسة وتعاليمها الخالدة.",
-        "meta": {
-            "title": "حول ساناتانا دارما – التاريخ والفلسفة والحكمة الروحية",
-            "canonical": "https://sanatanadharmam.in/about",
-            "description": "تعرف على ساناتانا دارما، التقليد الروحي الأبدي للفلسفة الهندوسية. استكشف تاريخها ومبادئها وكتبها المقدسة وتعاليمها الخالدة.",
-            "keywords": [
-                "ساناتانا دارما",
-                "معنى ساناتانا دارما",
-                "الفلسفة الهندوسية",
-                "تاريخ ساناتانا دارما",
-                "التقاليد الفيدية",
-                "الكتب المقدسة الهندوسية",
-                "دارما كارما موكشا",
-                "تعاليم ساناتانا دارما",
-                "الفلسفة الروحية الهندوسية",
-                "مبادئ ساناتانا دارما"
-            ],
-            "url": "https://sanatanadharmam.in/about"
-        },
-        "openGraph": {
-            "title": "حول ساناتانا دارما - التقليد الروحي الأبدي",
-            "description": "اكتشف معنى وفلسفة ومبادئ Sanatana Dharma بما في ذلك التعاليم الفيدية والكتب المقدسة والممارسات الروحية.",
-            "url": "https://sanatanadharmam.in/about",
-            "siteName": "ساناتانادارمام",
-            "type": "شرط",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/about.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "About Sanatana Dharma"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "حول الصفحة",
-                    "name": "حول ساناتانادارمام",
-                    "url": "https://sanatanadharmam.in/about",
-                    "description": "معلومات حول Sanatana Dharma بما في ذلك فلسفتها وكتبها المقدسة وتقاليدها الروحية.",
-                    "isPartOf": {
-                        "@type": "موقع إلكتروني",
-                        "name": "ساناتانادارمام",
-                        "url": "https://sanatanadharmam.in"
-                    }
-                },
-                {
-                    "@type": "منظمة",
-                    "name": "ساناتانادارمام",
-                    "url": "https://sanatanadharmam.in",
-                    "logo": "https://sanatanadharmam.in/images/logo.png",
-                    "contactPoint": {
-                        "@type": "نقطة الاتصال",
-                        "contactType": "دعم العملاء",
-                        "areaServed": "في جميع أنحاء العالم",
-                        "availableLanguage": [
-                            "إنجليزي",
-                            "الهندية",
-                            "التيلجو",
-                            "عربي",
-                            "الألمانية",
-                            "الأسبانية",
-                            "فرنسي",
-                            "اليابانية",
-                            "النيبالية",
-                            "هولندي",
-                            "البرتغالية",
-                            "الروسية",
-                            "الأردية",
-                            "الصينية"
-                        ],
-                        "email": "info@sanatanadharmam.in",
-                        "telephone": "+91-8099181075"
-                    }
-                }
-            ]
-        },
-        "commitment": [
-            "التحسين المستمر للدقة والوضوح",
-            "تحديث المكتبة بمزيد من الكتب المقدسة والتعليقات والمواد التعبدية",
-            "- احترام قدسية وتنوع المعارف التقليدية",
-            "للحفاظ على المحتوى الأساسي مجانيًا ويمكن الوصول إليه على نطاق واسع",
-            "الاستشهاد بالمصادر بوضوح وتشجيع التحقق العلمي"
-        ],
-        "definationoflife": {
-            "artha": "ارتا",
-            "as_individu": "كما هو الفرد كذلك الكون",
-            "atman_true": "أتمان، ذاتك الحقيقية، أبدية وإلهية.",
-            "brahmach": "براهماتشاريا",
-            "desires": "(الرغبات)، و",
-            "dharma": "دارما",
-            "essence_life": "جوهر الحياة",
-            "eternal_soul": "आत्MA - الروح الأبدية",
-            "eternal_truth": "الحقيقة الأبدية",
-            "every_action": "كل عمل يخلق الكارما، ويشكل مصيرنا.",
-            "four_stages": "الفطر - مراحل الحياة الأربع",
-            "grihasth": "جريهاستا",
-            "have_right": "- لك الحق في أداء واجبك، ولكن الثمار لله.",
-            "househol_family": "رب البيت - الأسرة والواجب",
-            "illusion_truth": "مايا - الوهم والحقيقة",
-            "kama": "كاما",
-            "know_thyself": "اعرف نفسك",
-            "law_action": "كرم - قانون العمل",
-            "liberati": "(تحرير).",
-            "life_divine": "الحياة هي الفرصة الإلهية لتدرك طبيعتك الحقيقية، وليس هذا الجسد المؤقت،\n                  لكن الوعي الخالد الذي يشهد كل شيء، لم يمسه ولادة أو موت،\n                  المتعة أو الألم. وهذا الإدراك هو الهدف الأسمى للوجود الإنساني.",
-            "life_play": "الحياة هي مسرحية مايا، الوهم الكوني. الحكمة الحقيقية تكمن في رؤية ما وراء المظاهر للتعرف على ما هو موجود",
-            "life_s": "purudaharth - الغرض من الحياة",
-            "life_sacred": "الحياة هي رحلة مقدسة نحو Purusharthas الأربعة:",
-            "moksha": "موكشا",
-            "never_born": "- لا يولد ولا يموت. الحياة هي رحلة الروح لتحقيق وحدتها مع براهمان.",
-            "pervades_all": "التي تعم كل الوجود.",
-            "prosperi": "(ازدهار)،",
-            "renuncia_complete": "التنازل - التحرير الكامل",
-            "retireme_detachme": "التقاعد - الانفصال والتفكير",
-            "righteou": "(البر)،",
-            "sannyasa": "سانياسا",
-            "student_life": "الحياة الطلابية - التعلم والانضباط",
-            "vanapras": "فانابراسثا"
-        },
-        "introduction": "Sanatanadharmam.in هي مبادرة رقمية مخصصة تم إنشاؤها لجمع وحفظ وشرح ومشاركة المعرفة الروحية والثقافية والعملية التي تم نقلها عبر Sanātana Dharma على مدى آلاف السنين. هدفنا هو جعل هذا التقليد الحي في متناول الباحثين والطلاب والممارسين والقراء الفضوليين من جميع الخلفيات من خلال تقديم نصوص أصلية وتراتيل تعبدية وإجراءات طقسية ومقالات فلسفية وتعليقات سياقية مفيدة بتنسيقات واضحة وقابلة للاستخدام.\n\nنحن ندرك أن Sanātana Dharma ليس نظامًا واحدًا متجانسًا ولكنه مجموعة واسعة ومتطورة من الأفكار والممارسات التي تغطي العديد من اللغات والأنساب والتعبيرات الإقليمية. يحاول هذا الموقع تكريم هذا التنوع بينما يقدم أيضًا نقطة دخول متماسكة لأولئك الجدد في هذا التقليد. نحن نركز على الأصالة والوضوح وسهولة الاستخدام: توفير ترجمة صوتية دقيقة ونص نظيف للإنشاد، وترجمات موثوقة تحافظ على الفروق الدقيقة، وتفسيرات بلغة واضحة تسلط الضوء على الأهمية التاريخية والثقافية والروحية للمادة.\n\nتشمل أولوياتنا جمع المواد المصدرية من الإصدارات الموثوقة، وتقديم stotras وmantras مع علامات التشكيل الصحيحة والترجمة الصوتية للمتعلمين، وتقديم أدلة puja vidhi خطوة بخطوة للطقوس والمهرجانات المنزلية الشائعة، وإنشاء ملخصات يسهل الوصول إليها للتعاليم الفلسفية الرئيسية حتى يتمكن القراء من فهم الآثار العملية بدلاً من مجرد الأوصاف الأكاديمية. حيثما أمكن، نقوم بتضمين مراجع للمصادر الأصلية، ونقترح المزيد من القراءة، ونشير إلى قراءات مختلفة أو اختلافات إقليمية لمساعدة القراء على فهم السياق والمصدر.\n\nبالإضافة إلى تقديم النصوص، نريد أن يكون الموقع رفيقًا عمليًا للحياة الروحية اليومية. ولتحقيق هذه الغاية، نقوم برعاية مجموعات من الصلوات اليومية، وروتين الصباح والمساء، وستورات قصيرة مناسبة للتلاوة اليومية، وأدلة موجزة للاحتفالات المشتركة. ننشر أيضًا مقالات توضيحية تضع الطقوس والكتب المقدسة ضمن أطرها الثقافية والأخلاقية الأوسع، مما يساعد القراء على ربط الممارسة والمعنى. الموقع غير طائفي عن عمد ويهدف إلى خلق مساحة محترمة حيث يمكن عرض التقاليد التي تشترك في جذور مشتركة جنبًا إلى جنب مع مراعاة الاختلافات بينها.\n\nإمكانية الوصول مهمة بالنسبة لنا. ننشر المحتوى بلغات هندية ودولية متعددة للوصول إلى جمهور واسع ولدعم أولئك الذين لغتهم الأساسية ليست الإنجليزية. تتضمن النصوص الترجمة الصوتية والصوت حيثما أمكن ذلك، حتى يتمكن المتعلمون من ممارسة النطق والإيقاع الصحيحين. نحن نسعى جاهدين لجعل المحتوى قابلاً للتنقل والبحث وسهل الاستخدام لكل من القراء المبتدئين والمتقدمين من خلال تقديم تفسيرات متعددة الطبقات: ملخصات قصيرة للقراءة السريعة، تليها ملاحظات ومراجع أكثر تفصيلاً لأولئك الذين يرغبون في الدراسة بشكل أكثر عمقًا.\n\nنحن نؤمن بأن الحفاظ على Sanātana Dharma ومشاركتها بشكل مسؤول يتطلب مزيجًا من التفاني والرعاية العلمية وممارسات النشر الحديثة. يتم تجميع جميع المواد مع احترام الأشكال التقليدية ومع مراعاة الوضوح، بحيث يمكن قراءتها وترديدها وممارستها في الحياة المعاصرة.",
-        "disclaimer": "نحن لا ندعي أننا سلطات تقليدية أو صحافة علمية شاملة. تتم صيانة هذا الموقع بكل تفان وعناية والتزام بالدقة. يجب على القراء الرجوع إلى الإصدارات المعتمدة أو المعلمين المعترف بهم لاتخاذ القرارات القانونية أو الليتورجية. نحن نشجع التحقق المتبادل من النصوص المهمة مع المصادر الرسمية عند الحاجة.",
-        "faq": {
-            "heading": "الأسئلة المتداولة",
-            "items": [
-                {
-                    "a": "يهدف الموقع إلى جمع وحفظ وتقديم النصوص والستوترا وأدلة الطقوس والمقالات التوضيحية المتعلقة بـ Sanātana Dharma بتنسيقات يسهل على المتعلمين والممارسين والباحثين الوصول إليها.",
-                    "q": "ما هو الغرض من Sanatanadharmam.in؟"
-                },
-                {
-                    "a": "نحن نسعى جاهدين لاستخدام الإصدارات الموثوقة والاستشهاد بالمصادر. ومع ذلك، نحن لسنا صحافة علمية رسمية؛ يجب على القراء استشارة الطبعات الأولية والمعلمين المعترف بهم لاتخاذ القرارات الأساسية.",
-                    "q": "هل النصوص الموجودة على الموقع موثوقة؟"
-                },
-                {
-                    "a": "نعم. نحن نرحب بالمساهمات. يرجى استخدام صفحة الاتصال لإرسال التصحيحات أو الترجمات أو المصادر المقترحة بالإضافة إلى المراجع. تتم مراجعة المساهمات قبل النشر.",
-                    "q": "هل يمكنني المساهمة بالتصحيحات أو الترجمات؟"
-                },
-                {
-                    "a": "نحن نوفر تحويلًا صوتيًا موحدًا وعلامات التشكيل حيثما أمكن ذلك للمساعدة في النطق الصحيح، إلى جانب إصدارات النص العادي والتسجيلات الصوتية عندما تكون متاحة.",
-                    "q": "كيف يتم التعامل مع الترجمة الصوتية؟"
-                }
-            ]
-        },
-        "joinus": {
-            "invite": [
-                "شارك الموقع مع الآخرين لنشر الوعي",
-                "اقتراح التحسينات أو التصحيحات من خلال قنوات ردود الفعل لدينا",
-                "المساهمة بالترجمات أو التسجيلات أو النصوص للمراجعة",
-                "ادعم المشروع من خلال التطوع بالمساعدة التحريرية أو المساعدة الفنية"
-            ],
-            "message": "Sanātana Dharma هي طريقة حياة متجذرة في الحقيقة والرحمة والخدمة. نحن ندعو القراء إلى التعلم والممارسة والمساهمة بتواضع وروح الاستفسار."
-        },
-        "longdescription": "This site grew from the recognition that living spiritual traditions require both preservation and renewal. Preservation means careful transcription of texts, responsible citation of sources, and a commitment to accuracy in transliteration and translation. Renewal means presenting those texts in ways that resonate with contemporary life, clarifying how ancient practices relate to modern ethical concerns, family life, community service, and personal development.\n\nWe approach content curation through several complementary practices. Source integrity is central: whenever a text is digitized, we note the edition, provide bibliographic details, and indicate any editorial decisions we have made. For stotras and mantras, we offer guidance on pronunciation and rhythm, and when recordings are available we include short audio clips to assist learners. For ritual instructions, we break down the sequence into clear steps, articulate the meaning behind each action, and note regional or lineage-based variations so readers can adapt practice while understanding why variations exist.\n\nPedagogy matters. Learners often need short, practical introductions before engaging with longer texts. Therefore our articles begin with concise, plain-language overviews, followed by progressively detailed sections that discuss historical background, scriptural references, linguistic notes, and suggested further reading. This layered format allows casual readers to find quick answers and serious students to pursue deeper study.\n\nCommunity contribution is encouraged. While we are not a scholarly press, we welcome input from practitioners, teachers, and scholars who wish to suggest corrections, offer additional sources, or contribute translations and commentary. All contributions are reviewed for fidelity to sources and clarity. We maintain a modest editorial policy intended to balance open collaboration with the responsibilities of curating sacred texts.\n\nEthical considerations shape our approach. Sanātana Dharma teaches values such as dharma, compassion, truthfulness, and selfless service. We aim to reflect those values through respectful presentation, inclusivity, and avoidance of polemics. We do not promote commercial exploitation of sacred materials; most content is freely available on the site, and we explicitly credit sources and contributors. When material is used under specific permissions or licenses, that information is clearly provided.\n\nPractical use cases guide content design. A household practitioner looking for the correct sequence of a common puja should be able to find step-by-step guidance and an explanation of the essential mantras and gestures. A student preparing for a recitation should be able to access a clean text with transliteration and an audio model. A curious reader should be able to find a concise introduction to the Bhagavathgita, with links to primary verses and readable commentary. By focusing on real needs, we make the tradition more accessible while preserving depth.\n\nTechnology is a tool, not a replacement for lived tradition. We use the web to index, search, and present materials; to host audio and transliteration tools; and to enable multilingual navigation. Yet we recognize that direct guidance from a teacher and participation in community practice remain vital. Our content is designed to complement—not replace—personal instruction and community-based learning.\n\nLooking ahead, we plan to expand audio and multimedia resources, to incorporate more regional and language-specific editions, and to build tools that help teachers and students interact with texts (for example, bookmarking, shared notes, and small-group reading guides). We also plan to strengthen citations and bibliographic references so that researchers and teachers can trace the textual lineage of materials found on the site.\n\nWe invite readers to treat the site as a starting point: a careful, compassionate introduction to a living tradition. For those who wish to explore further, we provide pathways into primary sources, classical commentaries, and reputable contemporary expositions. Whether your interest is devotional, scholarly, cultural, or practical, Sanatanadharmam.in aims to offer resources that are accurate, accessible, and useful.\n\nIf you find errors, omissions, or ways to improve presentation, please share them. Contributions that improve accuracy, add missing source citations, supply high-quality translations, or provide helpful audio recordings are especially welcome. We hope this work supports individual practice, communal life, and the intergenerational transmission of knowledge in ways that are respectful, open-hearted, and responsible.\n\nIn sum, Sanatanadharmam.in seeks to safeguard a broad spectrum of knowledge from Sanātana Dharma, to present it with integrity and care, and to make it a living, usable resource for anyone seeking to learn, practice, or simply understand. We are guided by the conviction that ancient wisdom, when presented honestly and thoughtfully, can help individuals and communities cultivate insight, compassion, and a deeper sense of meaning.",
-        "sections": [
-            {
-                "title": "من نحن",
-                "text": "Sanātana Dharmam عبارة عن منصة مخصصة عبر الإنترنت أنشأها باحثون روحانيون متحمسون لمشاركة القيم العالمية المضمنة في أقدم التقاليد الروحية في شبه القارة الهندية. في حين أن عملنا يرتكز على الكتب المقدسة مثل الفيدا والأوبانساد، إلا أننا لا ندعي أننا سلطات روحية - فنحن زملاء مسافرون نقدم نظرة عامة منسقة بعناية عن طريقة الحياة العميقة هذه."
-            },
-            {
-                "title": "مهمتنا",
-                "bullets": [
-                    "التثقيف والتمكين - تقديم رؤى مستمدة من النصوص الفيدية والتعليقات الكلاسيكية لتسهيل الوصول إلى Sanātana Dharma وربطها.",
-                    "الحفاظ على الأصالة - التأكيد على الدقة واحترام المصادر السنسكريتية الأصلية.",
-                    "إلهام الانسجام - اكتشف الحقائق الروحية الأعمق والطقوس الشاملة والحياة الأخلاقية لتعزيز الوحدة في التنوع."
-                ]
-            },
-            {
-                "title": "ما نغطيه",
-                "bullets": [
-                    "المبادئ الأساسية مثل Svadharma وSanatana-dharma",
-                    "ستة أنظمة فلسفية رئيسية: نيايا، وفايزيكا، وفيدانتا، وسامخيا، واليوجا، ومومسا.",
-                    "إرشادات عملية حول اليوغا والتأمل وممارسات الجسم الدقيقة",
-                    "الطقوس وعادات الزواج والنباتية والبهاكتي والتفاهم بين الأديان"
-                ]
-            },
-            {
-                "title": "لماذا يهم اليوم",
-                "text": "Sanātana Dharma ليست مجرد دين - إنها فلسفة حية ومتطورة شكلت الأطر الثقافية والأخلاقية والروحية عبر آلاف السنين. المصطلح نفسه يعني \"الطريق الأبدي\" أو \"القانون الأبدي\"، مما يعكس الحكمة الدائمة التي تتجاوز الزمان أو المكان أو العقيدة. وفي عصر التغير السريع، فإن إعادة التواصل مع هذه القيم الأساسية - الحقيقة، واللاعنف، والرحمة، وتحقيق الذات - تقدم توجيهًا شاملاً للأفراد والمجتمعات على حد سواء."
-            }
-        ],
-        "vision": {
-            "description": "أن يكون بمثابة مستودع رقمي موثوق به وجيد التنظيم يحافظ على التعاليم الأساسية والأدب التعبدي ومعرفة الطقوس والتوجيه العملي لـ Sanātana Dharma مع جعلها في متناول الجميع ومفهومة وقابلة للاستخدام للأجيال الحالية والمستقبلية.",
-            "focusareas": [
-                "محتوى متعدد اللغات يشمل اللغة السنسكريتية واللغات الهندية الإقليمية والإنجليزية",
-                "stotras التعبدية، والتغني، والصلوات اليومية مع الترجمة الصوتية والدعم الصوتي",
-                "تفاصيل Puja-vidhis، وأدلة المهرجانات، وتعليمات الطقوس المنزلية",
-                "عروض واضحة للمفاهيم الفلسفية من الأوبنشاد، والبهاغافاثجيتا، والبوراناس، والتعليقات الكلاسيكية",
-                "مقالات سياقية تربط الكتاب المقدس بالممارسة الحياتية والحياة الأخلاقية",
-                "أرشيفات قابلة للبحث ومفهرسة جيدًا مع الاستشهادات بالإصدارات الرسمية"
-            ],
-            "goal": "لبناء مكتبة رقمية دائمة تحافظ على النصوص الثمينة وتوفر مسارات عملية للدراسة والممارسة، وتدعم المتعلمين والممارسين والعلماء عبر الأجيال."
-        },
-        "whywecreated": {
-            "problemsaddressed": [
-                "يصعب العثور عليها، أو غير متسقة، أو نسخ رقمية سيئة من النصوص المهمة",
-                "تجزئة الموارد عبر مواقع وتنسيقات متعددة",
-                "عدم توفر الترجمات والترجمة الصوتية للمتعلمين",
-                "عدم كفاية التوجيه السياقي لتطبيق التعاليم الطقسية والفلسفية في الحياة اليومية",
-                "عوائق أمام غير المتخصصين للتعامل مع الكتاب المقدس دون تدريب مسبق"
-            ],
-            "purpose": "لقد أنشأنا Sanatanadharmam.in لتجميع المواد الجديرة بالثقة وتقديم تفسيرات متعددة الطبقات تساعد القراء على الانتقال من الفضول إلى الممارسة الهادفة. من خلال الجمع بين الإصدارات الرقمية النظيفة، والترجمات الدقيقة، ومساعدات الترجمة الصوتية، وأدلة الطقوس العملية، والترجمة الفورية المتعاطفة، نأمل في خفض حاجز الدخول مع الحفاظ على احترام عمق التقاليد وتنوعها."
+  "about": {
+    "title": "حول ساناتانا دارما – التاريخ والفلسفة والحكمة الروحية",
+    "description": "تعرف على ساناتانا دارما، التقليد الروحي الأبدي للفلسفة الهندوسية. استكشف تاريخها ومبادئها وكتبها المقدسة وتعاليمها الخالدة.",
+    "meta": {
+      "title": "حول ساناتانا دارما – التاريخ والفلسفة والحكمة الروحية",
+      "canonical": "https://sanatanadharmam.in/about",
+      "description": "تعرف على ساناتانا دارما، التقليد الروحي الأبدي للفلسفة الهندوسية. استكشف تاريخها ومبادئها وكتبها المقدسة وتعاليمها الخالدة.",
+      "keywords": [
+        "ساناتانا دارما",
+        "معنى ساناتانا دارما",
+        "الفلسفة الهندوسية",
+        "تاريخ ساناتانا دارما",
+        "التقاليد الفيدية",
+        "الكتب المقدسة الهندوسية",
+        "دارما كارما موكشا",
+        "تعاليم ساناتانا دارما",
+        "الفلسفة الروحية الهندوسية",
+        "مبادئ ساناتانا دارما"
+      ],
+      "url": "https://sanatanadharmam.in/about"
+    },
+    "openGraph": {
+      "title": "حول ساناتانا دارما - التقليد الروحي الأبدي",
+      "description": "اكتشف معنى وفلسفة ومبادئ Sanatana Dharma بما في ذلك التعاليم الفيدية والكتب المقدسة والممارسات الروحية.",
+      "url": "https://sanatanadharmam.in/about",
+      "siteName": "ساناتانادارمام",
+      "type": "شرط",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/about.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "About Sanatana Dharma"
         }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "حول الصفحة",
+          "name": "حول ساناتانادارمام",
+          "url": "https://sanatanadharmam.in/about",
+          "description": "معلومات حول Sanatana Dharma بما في ذلك فلسفتها وكتبها المقدسة وتقاليدها الروحية.",
+          "isPartOf": {
+            "@type": "موقع إلكتروني",
+            "name": "ساناتانادارمام",
+            "url": "https://sanatanadharmam.in"
+          }
+        },
+        {
+          "@type": "منظمة",
+          "name": "ساناتانادارمام",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png",
+          "contactPoint": {
+            "@type": "نقطة الاتصال",
+            "contactType": "دعم العملاء",
+            "areaServed": "في جميع أنحاء العالم",
+            "availableLanguage": [
+              "إنجليزي",
+              "الهندية",
+              "التيلجو",
+              "عربي",
+              "الألمانية",
+              "الأسبانية",
+              "فرنسي",
+              "اليابانية",
+              "النيبالية",
+              "هولندي",
+              "البرتغالية",
+              "الروسية",
+              "الأردية",
+              "الصينية"
+            ],
+            "email": "info@sanatanadharmam.in",
+            "telephone": "+91-8099181075"
+          }
+        }
+      ]
+    },
+    "commitment": [
+      "التحسين المستمر للدقة والوضوح",
+      "تحديث المكتبة بمزيد من الكتب المقدسة والتعليقات والمواد التعبدية",
+      "- احترام قدسية وتنوع المعارف التقليدية",
+      "للحفاظ على المحتوى الأساسي مجانيًا ويمكن الوصول إليه على نطاق واسع",
+      "الاستشهاد بالمصادر بوضوح وتشجيع التحقق العلمي"
+    ],
+    "definationoflife": {
+      "artha": "ارتا",
+      "as_individu": "كما هو الفرد كذلك الكون",
+      "atman_true": "أتمان، ذاتك الحقيقية، أبدية وإلهية.",
+      "brahmach": "براهماتشاريا",
+      "desires": "(الرغبات)، و",
+      "dharma": "دارما",
+      "essence_life": "جوهر الحياة",
+      "eternal_soul": "आत्MA - الروح الأبدية",
+      "eternal_truth": "الحقيقة الأبدية",
+      "every_action": "كل عمل يخلق الكارما، ويشكل مصيرنا.",
+      "four_stages": "الفطر - مراحل الحياة الأربع",
+      "grihasth": "جريهاستا",
+      "have_right": "- لك الحق في أداء واجبك، ولكن الثمار لله.",
+      "househol_family": "رب البيت - الأسرة والواجب",
+      "illusion_truth": "مايا - الوهم والحقيقة",
+      "kama": "كاما",
+      "know_thyself": "اعرف نفسك",
+      "law_action": "كرم - قانون العمل",
+      "liberati": "(تحرير).",
+      "life_divine": "الحياة هي الفرصة الإلهية لتدرك طبيعتك الحقيقية، وليس هذا الجسد المؤقت،\n                  لكن الوعي الخالد الذي يشهد كل شيء، لم يمسه ولادة أو موت،\n                  المتعة أو الألم. وهذا الإدراك هو الهدف الأسمى للوجود الإنساني.",
+      "life_play": "الحياة هي مسرحية مايا، الوهم الكوني. الحكمة الحقيقية تكمن في رؤية ما وراء المظاهر للتعرف على ما هو موجود",
+      "life_s": "purudaharth - الغرض من الحياة",
+      "life_sacred": "الحياة هي رحلة مقدسة نحو Purusharthas الأربعة:",
+      "moksha": "موكشا",
+      "never_born": "- لا يولد ولا يموت. الحياة هي رحلة الروح لتحقيق وحدتها مع براهمان.",
+      "pervades_all": "التي تعم كل الوجود.",
+      "prosperi": "(ازدهار)،",
+      "renuncia_complete": "التنازل - التحرير الكامل",
+      "retireme_detachme": "التقاعد - الانفصال والتفكير",
+      "righteou": "(البر)،",
+      "sannyasa": "سانياسا",
+      "student_life": "الحياة الطلابية - التعلم والانضباط",
+      "vanapras": "فانابراسثا"
+    },
+    "introduction": "Sanatanadharmam.in هي مبادرة رقمية مخصصة تم إنشاؤها لجمع وحفظ وشرح ومشاركة المعرفة الروحية والثقافية والعملية التي تم نقلها عبر Sanātana Dharma على مدى آلاف السنين. هدفنا هو جعل هذا التقليد الحي في متناول الباحثين والطلاب والممارسين والقراء الفضوليين من جميع الخلفيات من خلال تقديم نصوص أصلية وتراتيل تعبدية وإجراءات طقسية ومقالات فلسفية وتعليقات سياقية مفيدة بتنسيقات واضحة وقابلة للاستخدام.\n\nنحن ندرك أن Sanātana Dharma ليس نظامًا واحدًا متجانسًا ولكنه مجموعة واسعة ومتطورة من الأفكار والممارسات التي تغطي العديد من اللغات والأنساب والتعبيرات الإقليمية. يحاول هذا الموقع تكريم هذا التنوع بينما يقدم أيضًا نقطة دخول متماسكة لأولئك الجدد في هذا التقليد. نحن نركز على الأصالة والوضوح وسهولة الاستخدام: توفير ترجمة صوتية دقيقة ونص نظيف للإنشاد، وترجمات موثوقة تحافظ على الفروق الدقيقة، وتفسيرات بلغة واضحة تسلط الضوء على الأهمية التاريخية والثقافية والروحية للمادة.\n\nتشمل أولوياتنا جمع المواد المصدرية من الإصدارات الموثوقة، وتقديم stotras وmantras مع علامات التشكيل الصحيحة والترجمة الصوتية للمتعلمين، وتقديم أدلة puja vidhi خطوة بخطوة للطقوس والمهرجانات المنزلية الشائعة، وإنشاء ملخصات يسهل الوصول إليها للتعاليم الفلسفية الرئيسية حتى يتمكن القراء من فهم الآثار العملية بدلاً من مجرد الأوصاف الأكاديمية. حيثما أمكن، نقوم بتضمين مراجع للمصادر الأصلية، ونقترح المزيد من القراءة، ونشير إلى قراءات مختلفة أو اختلافات إقليمية لمساعدة القراء على فهم السياق والمصدر.\n\nبالإضافة إلى تقديم النصوص، نريد أن يكون الموقع رفيقًا عمليًا للحياة الروحية اليومية. ولتحقيق هذه الغاية، نقوم برعاية مجموعات من الصلوات اليومية، وروتين الصباح والمساء، وستورات قصيرة مناسبة للتلاوة اليومية، وأدلة موجزة للاحتفالات المشتركة. ننشر أيضًا مقالات توضيحية تضع الطقوس والكتب المقدسة ضمن أطرها الثقافية والأخلاقية الأوسع، مما يساعد القراء على ربط الممارسة والمعنى. الموقع غير طائفي عن عمد ويهدف إلى خلق مساحة محترمة حيث يمكن عرض التقاليد التي تشترك في جذور مشتركة جنبًا إلى جنب مع مراعاة الاختلافات بينها.\n\nإمكانية الوصول مهمة بالنسبة لنا. ننشر المحتوى بلغات هندية ودولية متعددة للوصول إلى جمهور واسع ولدعم أولئك الذين لغتهم الأساسية ليست الإنجليزية. تتضمن النصوص الترجمة الصوتية والصوت حيثما أمكن ذلك، حتى يتمكن المتعلمون من ممارسة النطق والإيقاع الصحيحين. نحن نسعى جاهدين لجعل المحتوى قابلاً للتنقل والبحث وسهل الاستخدام لكل من القراء المبتدئين والمتقدمين من خلال تقديم تفسيرات متعددة الطبقات: ملخصات قصيرة للقراءة السريعة، تليها ملاحظات ومراجع أكثر تفصيلاً لأولئك الذين يرغبون في الدراسة بشكل أكثر عمقًا.\n\nنحن نؤمن بأن الحفاظ على Sanātana Dharma ومشاركتها بشكل مسؤول يتطلب مزيجًا من التفاني والرعاية العلمية وممارسات النشر الحديثة. يتم تجميع جميع المواد مع احترام الأشكال التقليدية ومع مراعاة الوضوح، بحيث يمكن قراءتها وترديدها وممارستها في الحياة المعاصرة.",
+    "disclaimer": "نحن لا ندعي أننا سلطات تقليدية أو صحافة علمية شاملة. تتم صيانة هذا الموقع بكل تفان وعناية والتزام بالدقة. يجب على القراء الرجوع إلى الإصدارات المعتمدة أو المعلمين المعترف بهم لاتخاذ القرارات القانونية أو الليتورجية. نحن نشجع التحقق المتبادل من النصوص المهمة مع المصادر الرسمية عند الحاجة.",
+    "faq": {
+      "heading": "الأسئلة المتداولة",
+      "items": [
+        {
+          "a": "يهدف الموقع إلى جمع وحفظ وتقديم النصوص والستوترا وأدلة الطقوس والمقالات التوضيحية المتعلقة بـ Sanātana Dharma بتنسيقات يسهل على المتعلمين والممارسين والباحثين الوصول إليها.",
+          "q": "ما هو الغرض من Sanatanadharmam.in؟"
+        },
+        {
+          "a": "نحن نسعى جاهدين لاستخدام الإصدارات الموثوقة والاستشهاد بالمصادر. ومع ذلك، نحن لسنا صحافة علمية رسمية؛ يجب على القراء استشارة الطبعات الأولية والمعلمين المعترف بهم لاتخاذ القرارات الأساسية.",
+          "q": "هل النصوص الموجودة على الموقع موثوقة؟"
+        },
+        {
+          "a": "نعم. نحن نرحب بالمساهمات. يرجى استخدام صفحة الاتصال لإرسال التصحيحات أو الترجمات أو المصادر المقترحة بالإضافة إلى المراجع. تتم مراجعة المساهمات قبل النشر.",
+          "q": "هل يمكنني المساهمة بالتصحيحات أو الترجمات؟"
+        },
+        {
+          "a": "نحن نوفر تحويلًا صوتيًا موحدًا وعلامات التشكيل حيثما أمكن ذلك للمساعدة في النطق الصحيح، إلى جانب إصدارات النص العادي والتسجيلات الصوتية عندما تكون متاحة.",
+          "q": "كيف يتم التعامل مع الترجمة الصوتية؟"
+        }
+      ]
+    },
+    "joinus": {
+      "invite": [
+        "شارك الموقع مع الآخرين لنشر الوعي",
+        "اقتراح التحسينات أو التصحيحات من خلال قنوات ردود الفعل لدينا",
+        "المساهمة بالترجمات أو التسجيلات أو النصوص للمراجعة",
+        "ادعم المشروع من خلال التطوع بالمساعدة التحريرية أو المساعدة الفنية"
+      ],
+      "message": "Sanātana Dharma هي طريقة حياة متجذرة في الحقيقة والرحمة والخدمة. نحن ندعو القراء إلى التعلم والممارسة والمساهمة بتواضع وروح الاستفسار."
+    },
+    "longdescription": "This site grew from the recognition that living spiritual traditions require both preservation and renewal. Preservation means careful transcription of texts, responsible citation of sources, and a commitment to accuracy in transliteration and translation. Renewal means presenting those texts in ways that resonate with contemporary life, clarifying how ancient practices relate to modern ethical concerns, family life, community service, and personal development.\n\nWe approach content curation through several complementary practices. Source integrity is central: whenever a text is digitized, we note the edition, provide bibliographic details, and indicate any editorial decisions we have made. For stotras and mantras, we offer guidance on pronunciation and rhythm, and when recordings are available we include short audio clips to assist learners. For ritual instructions, we break down the sequence into clear steps, articulate the meaning behind each action, and note regional or lineage-based variations so readers can adapt practice while understanding why variations exist.\n\nPedagogy matters. Learners often need short, practical introductions before engaging with longer texts. Therefore our articles begin with concise, plain-language overviews, followed by progressively detailed sections that discuss historical background, scriptural references, linguistic notes, and suggested further reading. This layered format allows casual readers to find quick answers and serious students to pursue deeper study.\n\nCommunity contribution is encouraged. While we are not a scholarly press, we welcome input from practitioners, teachers, and scholars who wish to suggest corrections, offer additional sources, or contribute translations and commentary. All contributions are reviewed for fidelity to sources and clarity. We maintain a modest editorial policy intended to balance open collaboration with the responsibilities of curating sacred texts.\n\nEthical considerations shape our approach. Sanātana Dharma teaches values such as dharma, compassion, truthfulness, and selfless service. We aim to reflect those values through respectful presentation, inclusivity, and avoidance of polemics. We do not promote commercial exploitation of sacred materials; most content is freely available on the site, and we explicitly credit sources and contributors. When material is used under specific permissions or licenses, that information is clearly provided.\n\nPractical use cases guide content design. A household practitioner looking for the correct sequence of a common puja should be able to find step-by-step guidance and an explanation of the essential mantras and gestures. A student preparing for a recitation should be able to access a clean text with transliteration and an audio model. A curious reader should be able to find a concise introduction to the Bhagavathgita, with links to primary verses and readable commentary. By focusing on real needs, we make the tradition more accessible while preserving depth.\n\nTechnology is a tool, not a replacement for lived tradition. We use the web to index, search, and present materials; to host audio and transliteration tools; and to enable multilingual navigation. Yet we recognize that direct guidance from a teacher and participation in community practice remain vital. Our content is designed to complement—not replace—personal instruction and community-based learning.\n\nLooking ahead, we plan to expand audio and multimedia resources, to incorporate more regional and language-specific editions, and to build tools that help teachers and students interact with texts (for example, bookmarking, shared notes, and small-group reading guides). We also plan to strengthen citations and bibliographic references so that researchers and teachers can trace the textual lineage of materials found on the site.\n\nWe invite readers to treat the site as a starting point: a careful, compassionate introduction to a living tradition. For those who wish to explore further, we provide pathways into primary sources, classical commentaries, and reputable contemporary expositions. Whether your interest is devotional, scholarly, cultural, or practical, Sanatanadharmam.in aims to offer resources that are accurate, accessible, and useful.\n\nIf you find errors, omissions, or ways to improve presentation, please share them. Contributions that improve accuracy, add missing source citations, supply high-quality translations, or provide helpful audio recordings are especially welcome. We hope this work supports individual practice, communal life, and the intergenerational transmission of knowledge in ways that are respectful, open-hearted, and responsible.\n\nIn sum, Sanatanadharmam.in seeks to safeguard a broad spectrum of knowledge from Sanātana Dharma, to present it with integrity and care, and to make it a living, usable resource for anyone seeking to learn, practice, or simply understand. We are guided by the conviction that ancient wisdom, when presented honestly and thoughtfully, can help individuals and communities cultivate insight, compassion, and a deeper sense of meaning.",
+    "sections": [
+      {
+        "title": "من نحن",
+        "text": "Sanātana Dharmam عبارة عن منصة مخصصة عبر الإنترنت أنشأها باحثون روحانيون متحمسون لمشاركة القيم العالمية المضمنة في أقدم التقاليد الروحية في شبه القارة الهندية. في حين أن عملنا يرتكز على الكتب المقدسة مثل الفيدا والأوبانساد، إلا أننا لا ندعي أننا سلطات روحية - فنحن زملاء مسافرون نقدم نظرة عامة منسقة بعناية عن طريقة الحياة العميقة هذه."
+      },
+      {
+        "title": "مهمتنا",
+        "bullets": [
+          "التثقيف والتمكين - تقديم رؤى مستمدة من النصوص الفيدية والتعليقات الكلاسيكية لتسهيل الوصول إلى Sanātana Dharma وربطها.",
+          "الحفاظ على الأصالة - التأكيد على الدقة واحترام المصادر السنسكريتية الأصلية.",
+          "إلهام الانسجام - اكتشف الحقائق الروحية الأعمق والطقوس الشاملة والحياة الأخلاقية لتعزيز الوحدة في التنوع."
+        ]
+      },
+      {
+        "title": "ما نغطيه",
+        "bullets": [
+          "المبادئ الأساسية مثل Svadharma وSanatana-dharma",
+          "ستة أنظمة فلسفية رئيسية: نيايا، وفايزيكا، وفيدانتا، وسامخيا، واليوجا، ومومسا.",
+          "إرشادات عملية حول اليوغا والتأمل وممارسات الجسم الدقيقة",
+          "الطقوس وعادات الزواج والنباتية والبهاكتي والتفاهم بين الأديان"
+        ]
+      },
+      {
+        "title": "لماذا يهم اليوم",
+        "text": "Sanātana Dharma ليست مجرد دين - إنها فلسفة حية ومتطورة شكلت الأطر الثقافية والأخلاقية والروحية عبر آلاف السنين. المصطلح نفسه يعني \"الطريق الأبدي\" أو \"القانون الأبدي\"، مما يعكس الحكمة الدائمة التي تتجاوز الزمان أو المكان أو العقيدة. وفي عصر التغير السريع، فإن إعادة التواصل مع هذه القيم الأساسية - الحقيقة، واللاعنف، والرحمة، وتحقيق الذات - تقدم توجيهًا شاملاً للأفراد والمجتمعات على حد سواء."
+      }
+    ],
+    "vision": {
+      "description": "أن يكون بمثابة مستودع رقمي موثوق به وجيد التنظيم يحافظ على التعاليم الأساسية والأدب التعبدي ومعرفة الطقوس والتوجيه العملي لـ Sanātana Dharma مع جعلها في متناول الجميع ومفهومة وقابلة للاستخدام للأجيال الحالية والمستقبلية.",
+      "focusareas": [
+        "محتوى متعدد اللغات يشمل اللغة السنسكريتية واللغات الهندية الإقليمية والإنجليزية",
+        "stotras التعبدية، والتغني، والصلوات اليومية مع الترجمة الصوتية والدعم الصوتي",
+        "تفاصيل Puja-vidhis، وأدلة المهرجانات، وتعليمات الطقوس المنزلية",
+        "عروض واضحة للمفاهيم الفلسفية من الأوبنشاد، والبهاغافاثجيتا، والبوراناس، والتعليقات الكلاسيكية",
+        "مقالات سياقية تربط الكتاب المقدس بالممارسة الحياتية والحياة الأخلاقية",
+        "أرشيفات قابلة للبحث ومفهرسة جيدًا مع الاستشهادات بالإصدارات الرسمية"
+      ],
+      "goal": "لبناء مكتبة رقمية دائمة تحافظ على النصوص الثمينة وتوفر مسارات عملية للدراسة والممارسة، وتدعم المتعلمين والممارسين والعلماء عبر الأجيال."
+    },
+    "whywecreated": {
+      "problemsaddressed": [
+        "يصعب العثور عليها، أو غير متسقة، أو نسخ رقمية سيئة من النصوص المهمة",
+        "تجزئة الموارد عبر مواقع وتنسيقات متعددة",
+        "عدم توفر الترجمات والترجمة الصوتية للمتعلمين",
+        "عدم كفاية التوجيه السياقي لتطبيق التعاليم الطقسية والفلسفية في الحياة اليومية",
+        "عوائق أمام غير المتخصصين للتعامل مع الكتاب المقدس دون تدريب مسبق"
+      ],
+      "purpose": "لقد أنشأنا Sanatanadharmam.in لتجميع المواد الجديرة بالثقة وتقديم تفسيرات متعددة الطبقات تساعد القراء على الانتقال من الفضول إلى الممارسة الهادفة. من خلال الجمع بين الإصدارات الرقمية النظيفة، والترجمات الدقيقة، ومساعدات الترجمة الصوتية، وأدلة الطقوس العملية، والترجمة الفورية المتعاطفة، نأمل في خفض حاجز الدخول مع الحفاظ على احترام عمق التقاليد وتنوعها."
     }
+  }
 }
