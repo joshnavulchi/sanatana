@@ -50,7 +50,7 @@ export default function PuranasClient() {
           </Link>
         ))}
       </div>
-      <SimilarCategories />
+
     </PageLayout>
   );
 }

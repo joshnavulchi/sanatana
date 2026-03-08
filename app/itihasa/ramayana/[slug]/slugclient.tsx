@@ -24,7 +24,7 @@ export default function SlugClient({ slug }: { slug: string }) {
 
   return (
     <PageLayout metaKey={`ramayana_${slug}`} title={displayTitle} breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Itihasa', href: '/itihasa' }, { label: 'Ramayana', href: '/itihasa/ramayana' }, { label: displayTitle }]} className="layout-md">
-      <SimilarCategories />
+
     </PageLayout>
   );
 }

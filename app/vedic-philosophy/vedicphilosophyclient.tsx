@@ -50,7 +50,7 @@ export default function VedicPhilosophyClient() {
           </Link>
         ))}
       </div>
-      <SimilarCategories />
+
     </PageLayout>
   );
 }

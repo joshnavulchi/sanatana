@@ -60,7 +60,7 @@ export default function VedasClient() {
           </Link>
         ))}
       </div>
-      <SimilarCategories />
+
     </PageLayout>
   );
 }

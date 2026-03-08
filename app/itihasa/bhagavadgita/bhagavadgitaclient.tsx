@@ -62,7 +62,6 @@ export default function BhagavadGitaClient() {
           </div>
         </div>
       )}
-      <SimilarCategories />
     </PageLayout>
   );
 }

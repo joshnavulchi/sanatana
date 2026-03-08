@@ -40,7 +40,7 @@ export default function VedicGodsClient() {
           })}
         </div>
       )}
-      <SimilarCategories />
+
     </PageLayout>
   );
 }

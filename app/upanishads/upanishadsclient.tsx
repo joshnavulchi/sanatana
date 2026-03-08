@@ -50,7 +50,7 @@ export default function UpanishadsClient() {
           </Link>
         ))}
       </div>
-      <SimilarCategories />
+
     </PageLayout>
   );
 }

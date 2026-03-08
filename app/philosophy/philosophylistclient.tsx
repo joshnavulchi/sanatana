@@ -50,7 +50,7 @@ export default function PhilosophyListClient() {
           </Link>
         ))}
       </div>
-      <SimilarCategories />
+
     </PageLayout>
   );
 }

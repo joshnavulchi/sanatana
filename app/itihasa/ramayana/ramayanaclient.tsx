@@ -62,7 +62,6 @@ export default function RamayanaClient() {
           </div>
         </div>
       )}
-      <SimilarCategories />
     </PageLayout>
   );
 }

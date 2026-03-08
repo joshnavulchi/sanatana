@@ -40,7 +40,7 @@ export default function SanskritConceptsClient() {
           })}
         </div>
       )}
-      <SimilarCategories />
+
     </PageLayout>
   );
 }

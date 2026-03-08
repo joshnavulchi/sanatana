@@ -24,7 +24,6 @@ export default function SlugClient({ slug }: { slug: string }) {
 
   return (
     <PageLayout metaKey={`bhagavadgita_${slug}`} title={displayTitle} breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Itihasa', href: '/itihasa' }, { label: 'Bhagavad Gita', href: '/itihasa/bhagavadgita' }, { label: displayTitle }]} className="layout-md">
-      <SimilarCategories />
     </PageLayout>
   );
 }

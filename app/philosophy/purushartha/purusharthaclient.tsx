@@ -60,7 +60,7 @@ export default function PurusharthaClient() {
           </ul>
         </div>
       )}
-      <SimilarCategories />
+
     </PageLayout>
   );
 }

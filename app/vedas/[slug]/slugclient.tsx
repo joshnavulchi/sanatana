@@ -31,7 +31,7 @@ export default function SlugClient({ slug }: { slug: string }) {
           <p className="text-lg text-[#5b2d12]">{description}</p>
         </div>
       )}
-      <SimilarCategories />
+
     </PageLayout>
   );
 }

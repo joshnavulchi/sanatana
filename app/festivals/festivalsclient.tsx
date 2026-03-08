@@ -42,7 +42,6 @@ export default function FestivalsClient() {
           })}
         </div>
       )}
-      <SimilarCategories />
     </PageLayout>
   );
 }
