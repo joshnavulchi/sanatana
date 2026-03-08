@@ -1,89 +1,94 @@
 {
   "home": {
     "meta": {
-      "title": "Sanātana Dharma - The Eternal Way of Life",
+      "title": "Sanatana Dharma – Vedas, Upanishads, Hindu Philosophy & Spiritual Wisdom",
       "canonical": "https://sanatanadharmam.in",
-      "description": "Sanātana Dharma — Explore Sanātana Dharma: the eternal principles of Hinduism, Vedic traditions, spiritual practices, and wisdom from scriptures like the...",
+      "description": "Explore Sanatana Dharma, the eternal tradition of Hindu philosophy. Learn about the Vedas, Upanishads, Bhagavad Gita, epics, spiritual practices, and timeless wisdom.",
       "keywords": [
-        "Ancient Spiritual Teachings",
-        "Ancient Wisdom for Modern Seekers",
-        "Dharma, Karma, Moksha Explained",
-        "Dharma, Karma, Moksha Unveiled",
-        "Discover Ancient Hinduism",
-        "Discover Hindu Practices",
-        "Discover The Eternal Way",
-        "Discover Your Eternal Path",
-        "Discover Your Spiritual Path",
-        "Embrace Eternal Values",
-        "Embrace The Eternal Truths",
-        "Embrace Your Spiritual Journey",
-        "Embrace the Spiritual Path",
-        "Explore Hindu Principles",
-        "Explore The Eternal Way",
-        "Explore The Way Of Life",
-        "Explore Vedic Traditions",
-        "Find Your Spiritual Awakening",
-        "Harmony with Nature",
-        "Harmony with the Cosmos",
-        "Hindu Philosophy Unveiled",
-        "Hinduism's Eternal Principles",
-        "Hinduism: Beyond the Myths",
-        "Path to Inner Peace",
-        "Path to Self-Realization",
-        "Sanātana Dharma Insights",
-        "Sanātana Dharma Principles",
-        "Sanātana Dharma Wisdom",
-        "Sanātana Dharma for All",
-        "Sanātana Dharma for Everyone",
-        "Timeless Spiritual Principles",
-        "Timeless Spiritual Teachings",
-        "Understand Sanātana Dharma",
-        "Unlocking Ancient Wisdom",
-        "Unlocking Spiritual Truths",
-        "Vedic Knowledge for Modern Life"
+        "Sanatana Dharma",
+        "Hindu philosophy",
+        "Vedas",
+        "Upanishads",
+        "Bhagavad Gita",
+        "Hindu scriptures",
+        "Dharma karma moksha",
+        "Vedic traditions",
+        "Hindu spiritual teachings",
+        "Sanatana Dharma meaning"
       ],
-      "ogimage": "images/og/home.png",
+      "ogImage": "https://sanatanadharmam.in/images/og/home.png",
       "url": "https://sanatanadharmam.in"
+    },
+    "openGraph": {
+      "title": "Sanatana Dharma – Vedas, Upanishads, Hindu Philosophy & Spiritual Wisdom",
+      "description": "Explore Sanatana Dharma, the eternal tradition of Hindu philosophy. Discover the Vedas, Upanishads, Bhagavad Gita, epics, and timeless spiritual wisdom.",
+      "url": "https://sanatanadharmam.in",
+      "siteName": "Sanatanadharmam",
+      "type": "website",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/images/og/home.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Sanatana Dharma – Eternal Wisdom and Vedic Knowledge"
+        }
+      ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availablelanguage": [
-            "العربية",
-            "Deutsch",
-            "English",
-            "Español",
-            "Français",
-            "हिन्दी",
-            "日本語",
-            "नेपाली",
-            "Nederlands",
-            "Português",
-            "Русский",
-            "తెలుగు",
-            "اردو",
-            "中文 (简体)"
-          ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
+      "@graph": [
+        {
+          "@type": "Organization",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "areaServed": "Worldwide",
+            "availableLanguage": [
+              "English",
+              "Hindi",
+              "Telugu",
+              "Arabic",
+              "German",
+              "Spanish",
+              "French",
+              "Japanese",
+              "Nepali",
+              "Dutch",
+              "Portuguese",
+              "Russian",
+              "Urdu",
+              "Chinese"
+            ],
+            "email": "info@sanatanadharmam.in",
+            "telephone": "+91-8099181075"
+          }
         },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
+        {
+          "@type": "WebSite",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://sanatanadharmam.in/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+      ]
     },
-    "cta": {
-      "title": "Help us make this website multilingual!",
-      "badge": "Supported: EN, TA, HI",
-      "contribute": "Contribute Now",
-      "guidelines": "Translation Guidelines",
-      "subtitle": "Your contribution makes our website accessible to everyone. Join our global community of translators.",
-      "targeting": "Targeting: 10 languages · 60% completed"
+    "welcome": {
+      "clarity_devotion": "clarity, devotion, and divine grace",
+      "close": "Close",
+      "deeply_honored": "We are deeply honored and blessed by your presence here.",
+      "do_not": "Do not show this welcome message again",
+      "eternal_truths": "eternal truths of Sanātana Dharma",
+      "may_journey": "May your journey through these ancient teachings bring you",
+      "namaste_welcome": "Namaste & Welcome",
+      "thank_taking": "Thank you for taking this sacred step towards understanding and embracing the",
+      "timeless_wisdom": "— the timeless wisdom that illuminates the path to inner peace, righteousness, and spiritual awakening.",
+      "truth_alone": "Truth Alone Triumphs · Dharma Protects Those Who Protect It"
     },
     "hero": {
       "description": "A timeless spiritual tradition rooted in darma, karma, and self-realization, guiding humanity beyond time, culture, and belief.",
@@ -99,60 +104,6 @@
       },
       "subheading": "The Eternal Way of Life"
     },
-    "ourfourcoreyugas": [
-      {
-        "description": [
-          "Truth and righteousness prevail",
-          "Long lifespan and perfect health",
-          "Direct divine awareness"
-        ],
-        "gradientfrom": "from-amber-700",
-        "gradientto": "to-orange-600",
-        "name": "Satya Yuga",
-        "subtitle": "Dharma age",
-        "years": "1,728,000 years"
-      },
-      {
-        "description": [
-          "Slight decline of dharma",
-          "Age of the Ramayana",
-          "Spiritual discipline remains strong"
-        ],
-        "gradientfrom": "from-orange-500",
-        "gradientto": "to-amber-400",
-        "name": "Treta Yuga",
-        "subtitle": "Divor age",
-        "years": "1,296,000 years"
-      },
-      {
-        "description": [
-          "Dharma reduced to half",
-          "Era of Mahabharata",
-          "Increase in conflict and complexity"
-        ],
-        "gradientfrom": "from-rose-500",
-        "gradientto": "to-orange-500",
-        "name": "Dvapara Yuga",
-        "subtitle": "Dharma age",
-        "years": "864,000 years"
-      },
-      {
-        "description": [
-          "Materialism and ignorance dominate",
-          "Spiritual practice is difficult",
-          "Liberation possible through devotion"
-        ],
-        "gradientfrom": "from-red-700",
-        "gradientto": "to-rose-700",
-        "name": "Kali Yuga",
-        "subtitle": "Folk age",
-        "years": "432,000 years"
-      }
-    ],
-    "earth_age_comparison_note": "1 Kalpa (4.32 billion years) is surprisingly close to the modern scientific estimate of Earth's age (~4.54 billion years).",
-    "scaling_comment": "This mathematical scaling is highly structured and proportional across all cosmic levels.",
-    "ourfourcoreyugassubtitle": "The eternal and universal way of life based on truth, righteousness, and spiritual principles that uphold cosmic order. These numbers are not random. They are derived from a base unit of 432,000, multiplied proportionally (4: 3: 2: 1). One Full Day of Brahma: Lifetime of Brahma - 100 Brahma years - Each year = 360 days - Each day = 4 yugas (ages) - Total = 311,040,000,000 human years.",
-    "ourfourcoreyugastitle": "Explore Sanātana Dharma",
     "sections": [
       {
         "title": "What is Sanātana Dharma?",
@@ -284,17 +235,67 @@
         "nodecaration": true
       }
     ],
-    "welcome": {
-      "clarity_devotion": "clarity, devotion, and divine grace",
-      "close": "Close",
-      "deeply_honored": "We are deeply honored and blessed by your presence here.",
-      "do_not": "Do not show this welcome message again",
-      "eternal_truths": "eternal truths of Sanātana Dharma",
-      "may_journey": "May your journey through these ancient teachings bring you",
-      "namaste_welcome": "Namaste & Welcome",
-      "thank_taking": "Thank you for taking this sacred step towards understanding and embracing the",
-      "timeless_wisdom": "— the timeless wisdom that illuminates the path to inner peace, righteousness, and spiritual awakening.",
-      "truth_alone": "Truth Alone Triumphs · Dharma Protects Those Who Protect It"
+    "ourfourcoreyugas": [
+      {
+        "description": [
+          "Truth and righteousness prevail",
+          "Long lifespan and perfect health",
+          "Direct divine awareness"
+        ],
+        "gradientfrom": "from-amber-700",
+        "gradientto": "to-orange-600",
+        "name": "Satya Yuga",
+        "subtitle": "Dharma age",
+        "years": "1,728,000 years"
+      },
+      {
+        "description": [
+          "Slight decline of dharma",
+          "Age of the Ramayana",
+          "Spiritual discipline remains strong"
+        ],
+        "gradientfrom": "from-orange-500",
+        "gradientto": "to-amber-400",
+        "name": "Treta Yuga",
+        "subtitle": "Divor age",
+        "years": "1,296,000 years"
+      },
+      {
+        "description": [
+          "Dharma reduced to half",
+          "Era of Mahabharata",
+          "Increase in conflict and complexity"
+        ],
+        "gradientfrom": "from-rose-500",
+        "gradientto": "to-orange-500",
+        "name": "Dvapara Yuga",
+        "subtitle": "Dharma age",
+        "years": "864,000 years"
+      },
+      {
+        "description": [
+          "Materialism and ignorance dominate",
+          "Spiritual practice is difficult",
+          "Liberation possible through devotion"
+        ],
+        "gradientfrom": "from-red-700",
+        "gradientto": "to-rose-700",
+        "name": "Kali Yuga",
+        "subtitle": "Folk age",
+        "years": "432,000 years"
+      }
+    ],
+    "earth_age_comparison_note": "1 Kalpa (4.32 billion years) is surprisingly close to the modern scientific estimate of Earth's age (~4.54 billion years).",
+    "scaling_comment": "This mathematical scaling is highly structured and proportional across all cosmic levels.",
+    "ourfourcoreyugassubtitle": "The eternal and universal way of life based on truth, righteousness, and spiritual principles that uphold cosmic order. These numbers are not random. They are derived from a base unit of 432,000, multiplied proportionally (4: 3: 2: 1). One Full Day of Brahma: Lifetime of Brahma - 100 Brahma years - Each year = 360 days - Each day = 4 yugas (ages) - Total = 311,040,000,000 human years.",
+    "ourfourcoreyugastitle": "Explore Sanātana Dharma",
+    "cta": {
+      "title": "Help us make this website multilingual!",
+      "badge": "Supported: EN, TA, HI",
+      "contribute": "Contribute Now",
+      "guidelines": "Translation Guidelines",
+      "subtitle": "Your contribution makes our website accessible to everyone. Join our global community of translators.",
+      "targeting": "Targeting: 10 languages · 60% completed"
     }
   }
 }
