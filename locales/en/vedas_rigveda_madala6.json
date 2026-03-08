@@ -1,20 +1,70 @@
 {
   "mandala-6": {
+    "title": "Rigveda Mandala 6 – Bharadvaja Hymns",
+    "description": "Rigveda Mandala 6 contains 75 hymns composed by the Bharadvaja sages praising deities such as Indra, Agni and other Vedic gods while describing rituals and divine power.",
     "meta": {
       "title": "Rigveda Mandala 6 – Bharadvaja Hymns",
-      "description": "Mandala 6 of the Rigveda contains 75 hymns composed by the Bharadvaja sages.",
-      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-6"
+      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-6",
+      "description": "Rigveda Mandala 6 contains 75 hymns composed by the Bharadvaja sages praising deities such as Indra, Agni and other Vedic gods while describing rituals and divine power.",
+      "keywords": [
+        "Rigveda Mandala 6",
+        "Bharadvaja hymns Rigveda",
+        "Rigveda Mandala 6 hymns",
+        "Indra hymns Rigveda",
+        "Agni hymns Rigveda",
+        "Rigveda sages Bharadvaja",
+        "Rigveda scriptures",
+        "Sanatana Dharma Vedas"
+      ],
+      "robots": "index, follow",
+      "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-6"
     },
     "openGraph": {
-      "title": "Rigveda Mandala 6 – Bharadvaja Hymns",
-      "description": "Sacred hymns dedicated to Indra and Agni.",
+      "title": "Rigveda Mandala 6 – Hymns of the Bharadvaja Sages",
+      "description": "Explore Mandala 6 of the Rigveda containing 75 hymns composed by the Bharadvaja sages praising Indra, Agni and other Vedic deities.",
       "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-6",
-      "type": "article"
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/rigveda-mandala-6.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Rigveda Mandala 6 Hymns"
+        }
+      ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Rigveda Mandala 6"
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Rigveda Mandala 6",
+          "isPartOf": {
+            "@type": "Book",
+            "name": "Rigveda"
+          },
+          "description": "Mandala 6 of the Rigveda contains 75 hymns attributed to the Bharadvaja sages praising Indra, Agni and other Vedic deities.",
+          "inLanguage": "Sanskrit",
+          "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-6"
+        },
+        {
+          "@type": "Article",
+          "headline": "Rigveda Mandala 6 – Bharadvaja Hymns",
+          "about": [
+            "Rigveda",
+            "Bharadvaja sages",
+            "Indra",
+            "Agni",
+            "Vedic hymns"
+          ],
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          }
+        }
+      ]
     },
     "hymns": [
       {

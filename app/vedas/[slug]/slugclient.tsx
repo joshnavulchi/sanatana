@@ -26,7 +26,7 @@ const SLUG_CONFIG: Record<string, {
     deitiesKey: 'major_rigvedic_deities', deitiesLabel: 'Major Rigvedic Deities',
   },
   yajurveda: {
-    icon: '🪔', fileKey: 'yajurveda',
+    icon: '🪔', fileKey: 'vedas_yajurveda',
     accentFrom: 'from-[#92400e]', accentVia: 'via-[#d97706]', accentTo: 'to-[#fde68a]',
     textAccent: 'text-[#92400e]', borderAccent: 'border-[#d97706]',
     chaptersKey: 'yajurveda_chapters', chaptersLabel: 'Chapters of the Yajurveda', itemLabel: 'Chapter',
@@ -34,7 +34,7 @@ const SLUG_CONFIG: Record<string, {
     deitiesKey: 'major_yajurvedic_deities', deitiesLabel: 'Major Yajurvedic Deities',
   },
   samaveda: {
-    icon: '🎵', fileKey: 'samaveda',
+    icon: '🎵', fileKey: 'vedas_samaveda',
     accentFrom: 'from-[#3b3270]', accentVia: 'via-[#8b6914]', accentTo: 'to-[#e0a632]',
     textAccent: 'text-[#3b3270]', borderAccent: 'border-[#8b6914]',
     chaptersKey: 'samaveda_sections', chaptersLabel: 'Sections of the Samaveda', itemLabel: 'Section',
@@ -42,7 +42,7 @@ const SLUG_CONFIG: Record<string, {
     deitiesKey: 'major_samavedic_deities', deitiesLabel: 'Major Samavedic Deities',
   },
   atharvaveda: {
-    icon: '🌿', fileKey: 'atharvaveda',
+    icon: '🌿', fileKey: 'vedas_atharvaveda',
     accentFrom: 'from-[#1a6e5c]', accentVia: 'via-[#b45309]', accentTo: 'to-[#f59e0b]',
     textAccent: 'text-[#1a6e5c]', borderAccent: 'border-[#b45309]',
     chaptersKey: 'atharvaveda_books', chaptersLabel: 'Books of the Atharvaveda', itemLabel: 'Book',
@@ -243,14 +243,14 @@ export default function SlugClient({ slug }: { slug: string }) {
 
   if (isLoading && !ns?.title) {
     return (
-      <PageLayout metaKey={slug} title="" breadcrumbs={breadcrumbs} className="layout-md">
+      <PageLayout metaKey={cfg.fileKey} title="" breadcrumbs={breadcrumbs} className="layout-md">
         <div className="flex items-center justify-center py-12"><Loader /></div>
       </PageLayout>
     );
   }
 
   return (
-    <PageLayout metaKey={slug} title={title} breadcrumbs={breadcrumbs} className="layout-md">
+    <PageLayout metaKey={cfg.fileKey} title={title} breadcrumbs={breadcrumbs} className="layout-md">
 
       {/* ═══════════ Hero Section ═══════════ */}
       <section className="relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 bg-linear-to-br from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] p-6 md:p-10">
@@ -390,10 +390,6 @@ export default function SlugClient({ slug }: { slug: string }) {
           </section>
         </>
       )}
-
-      <div className="mt-10">
-        <SimilarCategories />
-      </div>
     </PageLayout>
   );
 }

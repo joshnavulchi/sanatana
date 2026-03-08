@@ -1,73 +1,79 @@
 {
   "donate": {
-    "title": "Support Sanātana Dharma",
+    "title": "Donate – Support Sanatanadharmam | Preserve Sanatana Dharma Knowledge",
+    "description": "Support Sanatanadharmam through donations to help preserve Vedic knowledge, translations, and spiritual teachings of Sanatana Dharma.",
     "meta": {
-      "title": "Donate | Overview — Sanātana Dharma - Explore Sanatan Dharma",
+      "title": "Donate – Support Sanatanadharmam | Preserve Sanatana Dharma Knowledge",
       "canonical": "https://sanatanadharmam.in/donate",
-      "description": "Donate — Support Sanātana Dharma — Articles, translations and concise commentary on Donate. Explore practices, history, and guiding principles at...",
+      "description": "Support Sanatanadharmam through donations to help preserve Vedic knowledge, translations, and spiritual teachings of Sanatana Dharma.",
       "keywords": [
-        "UPI donation for Sanātana Dharma",
-        "bank transfer for Sanātana Dharma donation",
-        "commercial status of Sanātana Dharma",
-        "contact information for Sanātana Dharma donations",
-        "contribute to Sanātana Dharma",
-        "current expenses of Sanātana Dharma",
-        "donate to Sanātana Dharma",
-        "donation options for Sanātana Dharma",
-        "donation security for Sanātana Dharma",
-        "donation usage for Sanātana Dharma",
-        "enabling creation of spiritual content for Sanātana Dharma",
-        "frequently asked questions about donating to Sanātana Dharma",
-        "fund Sanātana Dharma",
-        "how to donate to Sanātana Dharma",
-        "impact of donations on Sanātana Dharma",
-        "international donation for Sanātana Dharma",
-        "keeping Sanātana Dharma independent and non-commercial",
-        "non-commercial nature of Sanātana Dharma",
-        "one-time donation for Sanātana Dharma",
-        "preserving free access to Sanātana Dharma knowledge",
-        "recurring donation for Sanātana Dharma",
-        "support Sanātana Dharma",
-        "supporting translations and philosophical knowledge at Sanātana Dharma",
-        "supporting website hosting and maintenance for Sanātana Dharma",
-        "sustaining free access to ancient wisdom through donations",
-        "transparency of donations at Sanātana Dharma",
-        "why donate to Sanātana Dharma"
+        "donate sanatanadharmam",
+        "support sanatana dharma",
+        "sanatana dharma donations",
+        "vedic knowledge support",
+        "donate for spiritual education",
+        "support hindu philosophy website",
+        "sanatana dharma donation",
+        "support vedic scriptures project",
+        "donation for dharma knowledge"
       ],
-      "ogimage": "/og/donate.png",
+      "robots": "index, follow",
       "url": "https://sanatanadharmam.in/donate"
+    },
+    "openGraph": {
+      "title": "Support Sanatanadharmam – Help Preserve Sanatana Dharma",
+      "description": "Contribute to Sanatanadharmam to support preservation and sharing of Vedic knowledge, scriptures and spiritual wisdom.",
+      "url": "https://sanatanadharmam.in/donate",
+      "siteName": "Sanatanadharmam",
+      "type": "website",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/donate.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Support Sanatanadharmam Donations"
+        }
+      ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availablelanguage": [
-            "العربية",
-            "Deutsch",
-            "English",
-            "Español",
-            "Français",
-            "हिन्दी",
-            "日本語",
-            "नेपाली",
-            "Nederlands",
-            "Português",
-            "Русский",
-            "తెలుగు",
-            "اردو",
-            "中文 (简体)"
-          ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
+      "@graph": [
+        {
+          "@type": "DonateAction",
+          "name": "Donate to Support Sanatanadharmam",
+          "target": "https://sanatanadharmam.in/donate",
+          "description": "Donation page supporting preservation and sharing of Sanatana Dharma knowledge."
         },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
+        {
+          "@type": "Organization",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "areaServed": "Worldwide",
+            "availableLanguage": [
+              "English",
+              "Hindi",
+              "Telugu",
+              "Arabic",
+              "German",
+              "Spanish",
+              "French",
+              "Japanese",
+              "Nepali",
+              "Dutch",
+              "Portuguese",
+              "Russian",
+              "Urdu",
+              "Chinese"
+            ],
+            "email": "info@sanatanadharmam.in",
+            "telephone": "+91-8099181075"
+          }
+        }
+      ]
     },
     "donateoptions": {
       "bank": {
@@ -130,7 +136,6 @@
         "Enables creation of high-quality spiritual content",
         "Keeps the platform independent and non-commercial"
       ]
-    },
-    "subtitle": "Your donation sustains free access to ancient wisdom, scriptures, translations, and philosophical knowledge for seekers worldwide."
+    }
   }
 }

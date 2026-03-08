@@ -1,79 +1,72 @@
 {
   "philosophy_karma": {
-    "title": "Lord Sri Krishna explaining the five secrets of karma.",
+    "title": "Karma – Law of Cause and Effect | Sanatana Dharma Philosophy",
+    "description": "Understand Karma in Sanatana Dharma, the law of cause and effect governing actions and consequences. Explore its meaning in the Bhagavad Gita, Upanishads and Hindu philosophy.",
     "meta": {
-      "title": "Philosophy | Karma — Sanātana Dharma - Explore Sanatan Dharma",
+      "title": "Karma – Law of Cause and Effect | Sanatana Dharma Philosophy",
       "canonical": "https://sanatanadharmam.in/philosophy/karma",
-      "description": "Philosophy — Karma — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Philosophy. Explore practices, history, and guiding principles at...",
+      "description": "Understand Karma in Sanatana Dharma, the law of cause and effect governing actions and consequences. Explore its meaning in the Bhagavad Gita, Upanishads and Hindu philosophy.",
       "keywords": [
-        "adi shankaracharya",
-        "atman",
-        "avidya",
-        "bhagavadgita",
-        "brahma sutras",
-        "brahman",
-        "continuity across lifetimes",
-        "freedom through right action",
-        "hindu metaphysics",
-        "hindu philosophy",
-        "jnana yoga",
-        "karma",
-        "karma benefits",
-        "karma concepts",
-        "karma features",
-        "karma goals",
-        "karma key concepts",
-        "karma modern relevance",
-        "karma origin",
-        "karma paths to realization",
-        "karma principles",
-        "karma purpose",
-        "karma relation to other concepts",
-        "karma scriptural references",
-        "karma teachings",
-        "karma unique insights",
-        "law of cause and effect",
-        "maya",
-        "moksha",
-        "moral responsibility",
-        "philosophy of oneness",
-        "spiritual philosophy",
-        "upanishads"
+        "Karma meaning",
+        "law of karma",
+        "karma philosophy",
+        "karma in Bhagavad Gita",
+        "karma and dharma",
+        "karma and rebirth",
+        "Sanatana Dharma karma",
+        "karma spiritual philosophy",
+        "karma Hinduism",
+        "karma cause and effect"
       ],
-      "ogimage": "/og/philosophy-karma.png",
+      "robots": "index, follow",
       "url": "https://sanatanadharmam.in/philosophy/karma"
+    },
+    "openGraph": {
+      "title": "Karma – Law of Cause and Effect",
+      "description": "Explore the philosophy of Karma in Sanatana Dharma and how actions influence future experiences and spiritual evolution.",
+      "url": "https://sanatanadharmam.in/philosophy/karma",
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/philosophy-karma.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Karma Philosophy"
+        }
+      ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availablelanguage": [
-            "العربية",
-            "Deutsch",
-            "English",
-            "Español",
-            "Français",
-            "हिन्दी",
-            "日本語",
-            "नेपाली",
-            "Nederlands",
-            "Português",
-            "Русский",
-            "తెలుగు",
-            "اردو",
-            "中文 (简体)"
-          ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
+      "@graph": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Karma",
+          "description": "Karma is the law of cause and effect in Sanatana Dharma where every action produces corresponding consequences across lifetimes.",
+          "url": "https://sanatanadharmam.in/philosophy/karma",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Sanatana Dharma Philosophy"
+          }
         },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
+        {
+          "@type": "Article",
+          "headline": "Karma – Philosophy of Action and Consequence",
+          "about": [
+            "Karma",
+            "Sanatana Dharma",
+            "Hindu philosophy",
+            "Bhagavad Gita",
+            "Rebirth"
+          ],
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          },
+          "url": "https://sanatanadharmam.in/philosophy/karma"
+        }
+      ]
     },
     "core_principles": [
       "Law of Cause and Effect",
@@ -81,7 +74,6 @@
       "Continuity across lifetimes",
       "Freedom through right action"
     ],
-    "definition": "Karma is the principle of cause and effect, where every action (physical, mental, or verbal) produces consequences that shape future experiences.",
     "goals": [
       "Understand consequences of actions",
       "Live ethically and consciously",

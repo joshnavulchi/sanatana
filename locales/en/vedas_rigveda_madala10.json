@@ -1,20 +1,69 @@
 {
   "mandala-10": {
+    "title": "Rigveda Mandala 10 – Philosophical Hymns of Creation",
+    "description": "Rigveda Mandala 10 contains some of the most profound philosophical hymns including the Purusha Sukta and Nasadiya Sukta, exploring cosmic creation, existence and metaphysical thought.",
     "meta": {
       "title": "Rigveda Mandala 10 – Philosophical Hymns of Creation",
-      "description": "Mandala 10 contains famous hymns such as Purusha Sukta and Nasadiya Sukta exploring cosmic creation.",
-      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-10"
+      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-10",
+      "description": "Rigveda Mandala 10 contains some of the most profound philosophical hymns including the Purusha Sukta and Nasadiya Sukta, exploring cosmic creation, existence and metaphysical thought.",
+      "keywords": [
+        "Rigveda Mandala 10",
+        "Purusha Sukta",
+        "Nasadiya Sukta",
+        "Rigveda creation hymns",
+        "Vedic cosmology",
+        "Vedic philosophy",
+        "Rigveda hymns",
+        "Sanatana Dharma scriptures"
+      ],
+      "robots": "index, follow",
+      "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-10"
     },
     "openGraph": {
-      "title": "Rigveda Mandala 10 – Creation Hymns",
-      "description": "Philosophical hymns discussing the origin of the universe.",
+      "title": "Rigveda Mandala 10 – Creation Hymns of the Vedas",
+      "description": "Explore Mandala 10 of the Rigveda featuring philosophical hymns such as the Purusha Sukta and Nasadiya Sukta discussing the origin of the universe.",
       "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-10",
-      "type": "article"
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/rigveda-mandala-10.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Rigveda Mandala 10 Hymns"
+        }
+      ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Rigveda Mandala 10"
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Rigveda Mandala 10",
+          "isPartOf": {
+            "@type": "Book",
+            "name": "Rigveda"
+          },
+          "description": "Mandala 10 of the Rigveda contains philosophical hymns on cosmology, existence and creation including the famous Purusha Sukta and Nasadiya Sukta.",
+          "inLanguage": "Sanskrit",
+          "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-10"
+        },
+        {
+          "@type": "Article",
+          "headline": "Rigveda Mandala 10 – Philosophical Hymns of Creation",
+          "about": [
+            "Rigveda",
+            "Vedic cosmology",
+            "Purusha Sukta",
+            "Nasadiya Sukta"
+          ],
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          }
+        }
+      ]
     },
     "hymns": [
       {

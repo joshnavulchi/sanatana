@@ -1,77 +1,67 @@
 {
   "philosophy_advaita": {
-    "title": "Advaita Vedanta — Non-Dual Wisdom",
+    "title": "Advaita Vedanta – Non-Dual Philosophy of Sanatana Dharma",
+    "description": "Learn about Advaita Vedanta, the non-dual philosophy of Sanatana Dharma taught by Adi Shankaracharya. Understand Brahman, Atman, Maya and the path to Moksha.",
     "meta": {
-      "title": "Philosophy | Advaita — Sanātana Dharma - Explore Sanatan Dharma",
+      "title": "Advaita Vedanta – Non-Dual Philosophy of Sanatana Dharma",
       "canonical": "https://sanatanadharmam.in/philosophy/advaita",
-      "description": "Philosophy — Advaita — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Philosophy. Explore practices, history, and guiding principles...",
+      "description": "Learn about Advaita Vedanta, the non-dual philosophy of Sanatana Dharma taught by Adi Shankaracharya. Understand Brahman, Atman, Maya and the path to Moksha.",
       "keywords": [
-        "adi shankaracharya",
-        "advaita benefits",
-        "advaita concepts",
-        "advaita features",
-        "advaita goals",
-        "advaita key concepts",
-        "advaita modern relevance",
-        "advaita origin",
-        "advaita paths to realization",
-        "advaita principles",
-        "advaita purpose",
-        "advaita relation to other concepts",
-        "advaita scriptural references",
-        "advaita teachings",
-        "advaita unique insights",
-        "advaita vedanta",
-        "atman",
-        "avidya",
-        "bhagavadgita",
-        "brahma sutras",
-        "brahman",
-        "hindu metaphysics",
-        "hindu philosophy",
-        "jnana yoga",
-        "maya",
-        "moksha",
-        "non-dual philosophy",
-        "non-dualism",
-        "philosophy of oneness",
-        "spiritual philosophy",
-        "upanishads"
+        "Advaita Vedanta",
+        "non dualism",
+        "Adi Shankaracharya",
+        "Brahman and Atman",
+        "Advaita philosophy",
+        "Hindu philosophy Advaita",
+        "Maya concept",
+        "Jnana Yoga",
+        "Upanishads philosophy",
+        "Sanatana Dharma philosophy"
       ],
-      "ogimage": "/og/philosophy-advaita.png",
+      "robots": "index, follow",
       "url": "https://sanatanadharmam.in/philosophy/advaita"
+    },
+    "openGraph": {
+      "title": "Advaita Vedanta – Non-Dual Philosophy",
+      "description": "Explore Advaita Vedanta, the non-dual philosophical tradition of Sanatana Dharma explained through the teachings of Adi Shankaracharya.",
+      "url": "https://sanatanadharmam.in/philosophy/advaita",
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/philosophy-advaita.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Advaita Vedanta Philosophy"
+        }
+      ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availablelanguage": [
-            "العربية",
-            "Deutsch",
-            "English",
-            "Español",
-            "Français",
-            "हिन्दी",
-            "日本語",
-            "नेपाली",
-            "Nederlands",
-            "Português",
-            "Русский",
-            "తెలుగు",
-            "اردو",
-            "中文 (简体)"
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Advaita Vedanta – Non-Dual Philosophy",
+          "description": "Advaita Vedanta is a school of Hindu philosophy that teaches the unity of Atman and Brahman.",
+          "author": {
+            "@type": "Person",
+            "name": "Adi Shankaracharya"
+          },
+          "about": [
+            "Advaita Vedanta",
+            "Brahman",
+            "Atman",
+            "Maya",
+            "Jnana Yoga"
           ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
-        },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
+          "url": "https://sanatanadharmam.in/philosophy/advaita",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          }
+        }
+      ]
     },
     "benefits": [
       "Brings lasting inner peace and freedom from fear",
@@ -86,7 +76,6 @@
       "Ignorance (Avidya) causes the illusion of separateness.",
       "Knowledge (Jnana) leads to liberation (Moksha)."
     ],
-    "definition": "Advaita Vedanta is a school of Hindu philosophy that teaches non-dualism, asserting that the individual self (Atman) and the ultimate reality (Brahman) are one and the same.",
     "features": [
       "Radical non-dualism—asserts absolute unity of Atman and Brahman",
       "Emphasizes direct experience over ritual or belief",

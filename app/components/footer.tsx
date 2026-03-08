@@ -220,7 +220,7 @@ export default function Footer() {
 
         {/* Decorative background blurs */}
         <div className="pointer-events-none absolute inset-0">
-          <div className="absolute -left-20 top-20 h-40 w-40 rounded-2xl bg-[#d97706] blur-2xl animate-ping" />
+          <div className="absolute -left-16 -top-16 h-40 w-40 rounded-2xl bg-[#d97706] blur-2xl animate-ping" />
           <div className="absolute -right-20 bottom-20 h-40 w-40 rounded-2xl bg-[#7c2d12] blur-2xl animate-ping" />
         </div>
 

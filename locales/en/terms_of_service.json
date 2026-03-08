@@ -1,83 +1,64 @@
 {
   "terms_of_service": {
-    "title": "Terms of Service",
+    "title": "Terms of Service – Sanatanadharmam",
+    "description": "Read the Terms of Service for Sanatanadharmam.in outlining the rules, responsibilities, intellectual property rights, and acceptable use of this website.",
     "meta": {
-      "title": "Terms Of Service | Overview — Sanātana Dharma - Explore Sanatan Dharma",
+      "title": "Terms of Service – Sanatanadharmam",
       "canonical": "https://sanatanadharmam.in/terms-of-service",
-      "description": "Terms of Service — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Terms of Service. Explore practices, history, and guiding principles ...",
+      "description": "Read the Terms of Service for Sanatanadharmam.in outlining the rules, responsibilities, intellectual property rights, and acceptable use of this website.",
       "keywords": [
-        "Acceptance of Terms",
-        "Account Termination",
-        "Changes to Services",
-        "Contact Information",
-        "Contacting Us",
-        "Content Ownership",
-        "Data Protection",
-        "Disclaimer of Warranties",
-        "Dispute Resolution",
-        "Effective Date",
-        "External Links",
-        "Feedback and Suggestions",
-        "Governing Law",
-        "Indemnification",
-        "Intellectual Property",
-        "Intellectual Property Rights",
-        "Last Updated",
-        "Legal Agreement",
-        "Limitation of Liability",
-        "Limitation of Use",
-        "Modifications to Terms",
-        "Online Services",
-        "Privacy Policy",
-        "Privacy Practices",
-        "Prohibited Activities",
-        "Service Availability",
-        "Severability",
-        "Termination",
-        "Terms of Service",
-        "Third-Party Links",
-        "Use License",
-        "User Agreement",
-        "User Conduct",
-        "User Responsibilities",
-        "User Rights",
-        "User-Generated Content",
-        "Website Terms"
+        "terms of service",
+        "website terms",
+        "user agreement",
+        "sanatanadharmam terms",
+        "website legal terms"
       ],
-      "ogimage": "/og/terms.png",
+      "robots": "index, follow",
       "url": "https://sanatanadharmam.in/terms-of-service"
+    },
+    "openGraph": {
+      "title": "Terms of Service – Sanatanadharmam",
+      "description": "Understand the rules, responsibilities, and legal terms governing the use of Sanatanadharmam.in.",
+      "url": "https://sanatanadharmam.in/terms-of-service",
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/terms.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Sanatanadharmam Terms of Service"
+        }
+      ]
     },
     "schema": {
       "@context": "https://schema.org",
-      "mainentity": {
-        "@type": "Organization",
-        "contactpoint": {
-          "@type": "ContactPoint",
-          "areaserved": "Worldwide",
-          "availablelanguage": [
-            "العربية",
-            "Deutsch",
-            "English",
-            "Español",
-            "Français",
-            "हिन्दी",
-            "日本語",
-            "नेपाली",
-            "Nederlands",
-            "Português",
-            "Русский",
-            "తెలుగు",
-            "اردو",
-            "中文 (简体)"
-          ],
-          "contacttype": "Customer Support",
-          "email": "info@sanatanadharmam.in",
-          "telephone": "+91-8099181075"
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "name": "Terms of Service",
+          "url": "https://sanatanadharmam.in/terms-of-service",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          }
         },
-        "logo": "https://sanatanadharmam.in/images/logo.png",
-        "name": "About Sanatanadharmam.in",
-        "url": "https://sanatanadharmam.in"
-      }
+        {
+          "@type": "TermsOfService",
+          "name": "Terms of Service",
+          "url": "https://sanatanadharmam.in/terms-of-service",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://sanatanadharmam.in/images/logo.png"
+            }
+          }
+        }
+      ]
     },
     "acceptancetitle": "1. Acceptance of Terms",
     "closing": "By accessing and using Sanātana Dharma, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.",
