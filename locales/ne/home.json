@@ -1,303 +1,303 @@
 {
-  "home": {
-    "title": "Sanatana Dharma – Vedas, Upanishads, Hindu Philosophy & Spiritual Wisdom",
-    "description": "Explore Sanatana Dharma, the eternal tradition of Hindu philosophy. Learn about the Vedas, Upanishads, Bhagavad Gita, epics, spiritual practices, and timeless wisdom.",
-    "meta": {
-      "title": "Sanatana Dharma – Vedas, Upanishads, Hindu Philosophy & Spiritual Wisdom",
-      "canonical": "https://sanatanadharmam.in",
-      "description": "Explore Sanatana Dharma, the eternal tradition of Hindu philosophy. Learn about the Vedas, Upanishads, Bhagavad Gita, epics, spiritual practices, and timeless wisdom.",
-      "keywords": [
-        "Sanatana Dharma",
-        "Hindu philosophy",
-        "Vedas",
-        "Upanishads",
-        "Bhagavad Gita",
-        "Hindu scriptures",
-        "Dharma karma moksha",
-        "Vedic traditions",
-        "Hindu spiritual teachings",
-        "Sanatana Dharma meaning"
-      ],
-      "ogImage": "https://sanatanadharmam.in/images/og/home.png",
-      "url": "https://sanatanadharmam.in"
-    },
-    "openGraph": {
-      "title": "Sanatana Dharma – Vedas, Upanishads, Hindu Philosophy & Spiritual Wisdom",
-      "description": "Explore Sanatana Dharma, the eternal tradition of Hindu philosophy. Discover the Vedas, Upanishads, Bhagavad Gita, epics, and timeless spiritual wisdom.",
-      "url": "https://sanatanadharmam.in",
-      "siteName": "Sanatanadharmam",
-      "type": "website",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/images/og/home.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Sanatana Dharma – Eternal Wisdom and Vedic Knowledge"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Organization",
-          "name": "Sanatanadharmam",
-          "url": "https://sanatanadharmam.in",
-          "logo": "https://sanatanadharmam.in/images/logo.png",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "contactType": "customer support",
-            "areaServed": "Worldwide",
-            "availableLanguage": [
-              "English",
-              "Hindi",
-              "Telugu",
-              "Arabic",
-              "German",
-              "Spanish",
-              "French",
-              "Japanese",
-              "Nepali",
-              "Dutch",
-              "Portuguese",
-              "Russian",
-              "Urdu",
-              "Chinese"
+    "home": {
+        "title": "सनातन धर्म - वेद, उपनिषद, हिन्दू दर्शन र आध्यात्मिक ज्ञान",
+        "description": "हिन्दू दर्शनको सनातन परम्परा, सनातन धर्मको अन्वेषण गर्नुहोस्। वेद, उपनिषद, भगवद् गीता, महाकाव्यहरू, आध्यात्मिक अभ्यासहरू, र कालातीत ज्ञानको बारेमा जान्नुहोस्।",
+        "meta": {
+            "title": "सनातन धर्म - वेद, उपनिषद, हिन्दू दर्शन र आध्यात्मिक ज्ञान",
+            "canonical": "https://sanatanadharmam.in",
+            "description": "हिन्दू दर्शनको सनातन परम्परा, सनातन धर्मको अन्वेषण गर्नुहोस्। वेद, उपनिषद, भगवद् गीता, महाकाव्यहरू, आध्यात्मिक अभ्यासहरू, र कालातीत ज्ञानको बारेमा जान्नुहोस्।",
+            "keywords": [
+                "सनातन धर्म",
+                "हिन्दू दर्शन",
+                "वेद",
+                "उपनिषद",
+                "भगवद् गीता",
+                "हिन्दू शास्त्रहरू",
+                "धर्म कर्म मोक्ष",
+                "वैदिक परम्पराहरू",
+                "हिन्दू आध्यात्मिक शिक्षा",
+                "सनातन धर्मको अर्थ"
             ],
-            "email": "info@sanatanadharmam.in",
-            "telephone": "+91-8099181075"
-          }
+            "ogImage": "https://sanatanadharmam.in/images/og/home.png",
+            "url": "https://sanatanadharmam.in"
         },
-        {
-          "@type": "WebSite",
-          "name": "Sanatanadharmam",
-          "url": "https://sanatanadharmam.in",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://sanatanadharmam.in/search?q={search_term_string}",
-            "query-input": "required name=search_term_string"
-          }
+        "openGraph": {
+            "title": "सनातन धर्म - वेद, उपनिषद, हिन्दू दर्शन र आध्यात्मिक ज्ञान",
+            "description": "हिन्दू दर्शनको सनातन परम्परा, सनातन धर्मको अन्वेषण गर्नुहोस्। वेद, उपनिषद, भगवद् गीता, महाकाव्यहरू, र कालातीत आध्यात्मिक ज्ञान पत्ता लगाउनुहोस्।",
+            "url": "https://sanatanadharmam.in",
+            "siteName": "सनातन धर्मम",
+            "type": "वेबसाइट",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/images/og/home.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Sanatana Dharma – Eternal Wisdom and Vedic Knowledge"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "संगठन",
+                    "name": "सनातन धर्मम",
+                    "url": "https://sanatanadharmam.in",
+                    "logo": "https://sanatanadharmam.in/images/logo.png",
+                    "contactPoint": {
+                        "@type": "सम्पर्क बिन्दु",
+                        "contactType": "ग्राहक समर्थन",
+                        "areaServed": "विश्वव्यापी",
+                        "availableLanguage": [
+                            "अंग्रेजी",
+                            "हिन्दी",
+                            "तेलुगु",
+                            "अरबी",
+                            "जर्मन",
+                            "स्पेनिस",
+                            "फ्रान्सेली",
+                            "जापानी",
+                            "नेपाली",
+                            "डच",
+                            "पोर्चुगिज",
+                            "रुसी",
+                            "उर्दू",
+                            "चिनियाँ"
+                        ],
+                        "email": "info@sanatanadharmam.in",
+                        "telephone": "+९१-८०९९१८१०७५"
+                    }
+                },
+                {
+                    "@type": "वेबसाइट",
+                    "name": "सनातन धर्मम",
+                    "url": "https://sanatanadharmam.in",
+                    "potentialAction": {
+                        "@type": "खोज कार्य",
+                        "target": "https://sanatanadharmam.in/search?q={search_term_string}",
+                        "query-input": "आवश्यक नाम=search_term_string"
+                    }
+                }
+            ]
+        },
+        "welcome": {
+            "clarity_devotion": "स्पष्टता, भक्ति, र ईश्वरीय अनुग्रह",
+            "close": "बन्द गर्नुहोस्",
+            "deeply_honored": "हामी यहाँ तपाईंको उपस्थितिबाट गहिरो सम्मान र आशिष् पाएका छौं।",
+            "do_not": "यो स्वागत सन्देश फेरि नदेखाउनुहोस्",
+            "eternal_truths": "सनातन धर्मको शाश्वत सत्य",
+            "may_journey": "यी प्राचीन शिक्षाहरू मार्फत तपाईंको यात्राले तपाईंलाई ल्याउनेछ",
+            "namaste_welcome": "नमस्ते र स्वागत छ",
+            "thank_taking": "बुझ्ने र अँगाल्ने दिशामा यो पवित्र कदम चाल्नु भएकोमा धन्यवाद",
+            "timeless_wisdom": "- कालातीत ज्ञान जसले आन्तरिक शान्ति, धार्मिकता र आध्यात्मिक जागरणको मार्गलाई उज्यालो पार्छ।",
+            "truth_alone": "सत्यको एक्लै विजय हुन्छ · धर्मले रक्षा गर्नेहरूलाई रक्षा गर्छ"
+        },
+        "hero": {
+            "description": "धर्म, कर्म, र आत्म-अनुभूतिमा जरा गाडिएको एक कालातीत आध्यात्मिक परम्परा, समय, संस्कृति र विश्वास भन्दा पर मानवतालाई मार्गदर्शन गर्दछ।",
+            "heading": "सनातन धर्म",
+            "primarycta": {
+                "label": "शास्त्रहरू अन्वेषण गर्नुहोस्",
+                "link": "scriptures/bhagavadgita"
+            },
+            "scroll": "थप जान्नको लागि स्क्रोल गर्नुहोस्",
+            "secondarycta": {
+                "label": "सिक्न सुरु गर्नुहोस्",
+                "link": "sanatanadharma"
+            },
+            "subheading": "जीवनको अनन्त मार्ग"
+        },
+        "sections": [
+            {
+                "title": "सनातन धर्म भनेको के हो ?",
+                "content": "सनातन धर्म, प्रायः \"अनन्त मार्ग\" को रूपमा अनुवाद गरिएको धर्म मात्र होइन तर ब्रह्माण्डीय सत्यसँग मेलमिलापतर्फ मानव जीवनलाई मार्गदर्शन गर्ने कालातीत रूपरेखा हो। वैदिक ज्ञानमा जडित, यसले विश्वव्यापी सिद्धान्तहरूलाई जोड दिन्छ - धर्म (धार्मिक कर्तव्य), कर्म (कार्य र परिणाम), मोक्ष (मुक्ति), र सत्यको खोजी। यसले करुणा, अहिंसा, सबै प्राणीहरूको सम्मान, र ईश्वरीय रूपमा प्रकृतिप्रति सम्मान सिकाउँछ। कठोर सिद्धान्तको विपरीत, यसले सन्तुलन, आत्म-अनुभूति र एकताको जीवित दर्शन प्रदान गर्दै, युग, संस्कृति र सन्दर्भहरूमा अनुकूलन गर्दछ। सनातन धर्मले अन्ततः अस्तित्व नै पवित्र छ भन्ने पुष्टि गर्छ, र जीवनको उद्देश्य शाश्वतसँग एकताको अनुभूति गर्नु हो।",
+                "id": "परिचय",
+                "nodecaration": true,
+                "src": "/images/home/om.png"
+            },
+            {
+                "title": "पवित्र शास्त्रहरू के हो?",
+                "content": "पवित्र शास्त्रहरू आदरणीय ग्रन्थहरू हुन् जसले ईश्वरीय ज्ञानलाई मूर्तरूप दिन्छ, मानवतालाई सत्य, सद्गुण र मुक्तितर्फ डोऱ्याउछ। तिनीहरू केवल ऐतिहासिक अभिलेखहरू मात्र होइनन् तर आध्यात्मिक प्रकाशको जीवित स्रोतहरू हुन्, जसले धार्मिक जीवनको लागि कालातीत सिद्धान्तहरू प्रदान गर्दछ। धर्मशास्त्रले भक्ति, अनुशासन र आत्म-अनुभूतिलाई प्रेरित गर्ने प्रकाशहरू, भजनहरू र शिक्षाहरू सुरक्षित गर्दछ। तिनीहरूले खोजकर्ताहरूलाई अनन्तसँग जोड्छन्, हामीलाई अस्तित्वको पवित्रता र सबै प्राणीहरूको एकताको सम्झना गराउँछन्। कथाहरू, दर्शन र नैतिक संहिताहरू मार्फत, तिनीहरूले करुणा, विश्वास, र भित्री शक्तिलाई पोषण गर्छन्। पवित्र धर्मशास्त्रले अन्ततः मानव र ईश्वरीय बीचको पुलको रूपमा काम गर्दछ, सद्भावको अनन्त मार्गलाई उज्यालो पार्छ।",
+                "id": "शास्त्रहरू",
+                "items": [
+                    {
+                        "title": "वेद",
+                        "description": "बुद्धि · भजन · धर्म · ब्रह्मांड · मुक्ति",
+                        "href": "/scriptures/vedas",
+                        "src": "/images/home/the-vedas.png"
+                    },
+                    {
+                        "title": "उपनिषदहरू",
+                        "description": "ब्राह्मण · आत्मा · ज्ञान · मुक्ति · एकता",
+                        "href": "/scriptures/upanishads",
+                        "src": "/images/home/the-upanishads.png"
+                    },
+                    {
+                        "title": "इतिहास",
+                        "description": "कर्तव्य · भक्ति · द्वन्द्व · धर्म · विरासत",
+                        "href": "/scriptures/itihasas",
+                        "src": "/images/home/the-ithihas.png"
+                    },
+                    {
+                        "title": "पुराण",
+                        "description": "पौराणिक कथा · ब्रह्माण्ड विज्ञान · महापुरुष · भक्ति · धर्म",
+                        "href": "/scriptures/puranas",
+                        "src": "/images/home/the-puranas.png"
+                    }
+                ]
+            },
+            {
+                "title": "🌿 जीवित आध्यात्मिक परम्परा भनेको के हो?",
+                "content": "जीवित आध्यात्मिक परम्परा अतीतको अवशेष होइन तर एक जीवन्त, विकसित ज्ञानको प्रवाह हो जुन पुस्ताहरूबाट बग्दछ। यसले समयहीन मूल्यहरूलाई समकालीन जीवनमा अनुकूलन गर्दै, खोजकर्ताहरूलाई प्रासंगिकता र प्रामाणिकताका साथ मार्गदर्शन गर्दछ। यस्तो परम्परा अभ्यास, समुदाय र भक्तिद्वारा कायम रहन्छ, जहाँ कर्मकाण्ड, कथा र शिक्षा स्थिर भन्दा गतिशील रहन्छ। यसले दैनिक कार्यहरू, नैतिक छनौटहरू, र साझा उत्सवहरू मार्फत सास फेर्छ, व्यक्तिगत वृद्धि र सामूहिक सद्भाव दुवैलाई पोषण गर्दछ। जरालाई सम्मान गरेर परिवर्तनलाई अँगालेर, यसले आत्माको निरन्तरता सुनिश्चित गर्दछ, मानवतालाई पुरानो अन्तर्दृष्टि र आधुनिक अनुभव बीचको जीवित पुल प्रदान गर्दछ।",
+                "id": "जीवित परम्परा",
+                "nodecaration": true
+            },
+            {
+                "title": "सनातन धर्मका मूल सिद्धान्तहरू?",
+                "content": "सनातन धर्मका मूल सिद्धान्तहरू धार्मिक जीवन र आध्यात्मिक अनुभूतिको लागि शाश्वत दिशानिर्देश हुन्। धर्मले कर्तव्य, सत्य र ब्रह्माण्डीय व्यवस्थासँग मेलमिलाप सिकाउँछ। कर्मले कारण र प्रभावको नियमलाई प्रकट गर्दछ, ध्यानपूर्वक कार्य गर्न आग्रह गर्दछ। आत्माले अमर आत्मालाई जनाउँछ, जबकि ब्रह्म अनन्त वास्तविकता हो; तिनीहरूको एकताको अनुभूतिले मुक्ति ल्याउँछ। मोक्ष, पुनर्जन्मबाट मुक्ति, सर्वोच्च लक्ष्य हो। पुरुषार्थ - धर्म, अर्थ, काम, मोक्ष - सन्तुलन नैतिकता, समृद्धि, इच्छा र मुक्ति। वेद र उपनिषदहरूमा जडित, यी सिद्धान्तहरू कालातीत रहन्छन्, मानवतालाई करुणा, बुद्धि र सन्तुलनका साथ बाँच्न प्रेरित गर्दै, आधुनिक जीवनसँग पुरातन अन्तरदृष्टि ब्रिज गर्दै।",
+                "id": "सिद्धान्तहरू",
+                "items": [
+                    {
+                        "title": "धर्म",
+                        "description": "धार्मिकता · कर्तव्य · सद्भाव · न्याय · सत्य",
+                        "href": "/philosophy/dharma",
+                        "src": "/images/home/dharma.png"
+                    },
+                    {
+                        "title": "कर्म",
+                        "description": "कार्य · कारण · प्रभाव · जिम्मेवारी · परिणाम",
+                        "href": "/philosophy/karma",
+                        "src": "/images/home/karma.png"
+                    },
+                    {
+                        "title": "मोक्ष",
+                        "description": "मुक्ति · स्वतन्त्रता · एकता · आनन्द · अनन्तता",
+                        "href": "/philosophy/moksha",
+                        "src": "/images/home/moksha.png"
+                    },
+                    {
+                        "title": "अहिंसा",
+                        "description": "अहिंसा · करुणा · आदर · सद्भाव · प्रेम",
+                        "href": "/philosophy/ahimsa",
+                        "src": "/images/home/ahimsa.png"
+                    },
+                    {
+                        "title": "सत्य",
+                        "description": "सत्य · ईमानदारी · निष्ठा · प्रामाणिकता · धार्मिकता",
+                        "href": "/philosophy/satya",
+                        "src": "/images/home/satya.png"
+                    }
+                ]
+            },
+            {
+                "title": "प्रामाणिकता प्रति प्रतिबद्धता",
+                "content": "प्रामाणिकताप्रति प्रतिबद्धता भनेको सत्यताका साथ बाँच्नु, मूल्यमान्यताको सम्मान गर्नु, वास्तविक पहिचान व्यक्त गर्नु, झूटलाई अस्वीकार गर्नु, इमान्दारीतालाई बढावा दिनु र सम्बन्ध, कार्य र आध्यात्मिक अभ्यासमा पारदर्शितालाई मूर्त रूप दिनु हो।",
+                "id": "प्रामाणिकता",
+                "nodecaration": true
+            },
+            {
+                "title": "सनातन धर्म आज किन महत्त्वपूर्ण छ?",
+                "content": "सनातन धर्म आज महत्त्वपूर्ण छ किनभने यसले आधुनिक चुनौतीहरूको लागि कालातीत ज्ञान प्रदान गर्दछ। सत्य, करुणा र सद्भावको विश्वव्यापी मूल्यहरूमा जरा गाडिएको, यसले नैतिक जीवन र आध्यात्मिक सन्तुलन तर्फ मानवतालाई मार्गदर्शन गर्न धर्मलाई पार गर्दछ। द्रुत परिवर्तनको युगमा, यसका सिद्धान्तहरू - धर्म, कर्म र मोक्षले हामीलाई जिम्मेवारी, सजग कार्य र भौतिक खोजहरूभन्दा परको मुक्तिको सम्झना गराउँछन्। यसले समावेशीता, विविधताको सम्मान, र प्रकृतिप्रति सम्मान, दिगो जीवनसँग पङ्क्तिबद्ध गर्दै पोषण गर्दछ। समकालीन आवश्यकताहरूसँग पुरातन अन्तरदृष्टिलाई जोडेर, सनातन धर्मले लचिलोपन, शान्ति र एकतालाई प्रेरित गर्दछ, जसले शाश्वत सत्यहरू न्यायपूर्ण, दयालु र सन्तुलित संसारको आकारमा सान्दर्भिक रहन्छ भनेर देखाउँछ।",
+                "id": "प्रासंगिकता",
+                "points": [
+                    "द्रुत गतिको संसारमा मानसिक स्पष्टता",
+                    "आधुनिक समाजको लागि नैतिक आधारहरू",
+                    "चेतना र दिमागको दृश्यता",
+                    "प्रगति र उत्तरदायित्व बीचको तालमेल"
+                ],
+                "pointsrc": [
+                    "/images/home/why-sanatana-1.png",
+                    "/images/home/why-sanatana-2.png",
+                    "/images/home/why-sanatana-3.png",
+                    "/images/home/why-sanatana-4.png"
+                ]
+            },
+            {
+                "title": "सनातन धर्मको उद्देश्य?",
+                "content": "सनातन धर्मको उद्देश्य मानवतालाई धार्मिक जीवन, आध्यात्मिक जागरण र ब्रह्माण्डसँग मेलमिलापतर्फ मार्गदर्शन गर्नु हो। यसले सिकाउँछ कि जीवन भौतिक मात्र होइन आत्म-साक्षात्कारको पवित्र यात्रा हो। धर्मद्वारा, व्यक्तिले कर्तव्य र सत्य सिक्छ; कर्म मार्फत, कार्यको नियम; मोक्षद्वारा, पुनर्जन्मबाट मुक्ति। यसको उद्देश्य भनेको सन्तुलन हो - सांसारिक खोज र अनन्त ज्ञानको बीचमा - त्यसैले व्यक्तिहरू नैतिक रूपमा बाँच्छन्, जिम्मेवारीपूर्वक समृद्ध हुन्छन्, मनमा इच्छाहरूको आनन्द लिन्छन्, र अन्ततः सीमितताहरू पार गर्छन्। करुणा, समावेशीता, र प्रकृतिप्रति श्रद्धामा जरा गाडिएको, सनातन धर्मले शान्ति, एकता र कालातीत मूल्यहरूको पालनपोषण गर्दछ, मानवतालाई स्थायी पूर्ति र ईश्वरीय जडानको लागि मार्ग प्रदान गर्दछ।",
+                "id": "उद्देश्य",
+                "nodecaration": true
+            },
+            {
+                "title": "तपाईले यहाँ के पाउनुहुनेछ?",
+                "content": "तपाईंले यहाँ सनातन धर्मको बारेमा के पाउनुहुनेछ जुन शाश्वत ज्ञानको जीवित भण्डार हो, जसले खोजकर्ताहरूलाई सत्य, सद्भाव र मुक्तितर्फ डोऱ्‍याउँछ। यो केवल कर्मकाण्डमा मात्र सीमित छैन तर दर्शन, नैतिकता र भक्तिलाई अँगालेको छ। तपाईंले धर्मको सार, कर्मको नियम, मोक्षको खोज र पुरुषार्थको सन्तुलन पत्ता लगाउनुहुनेछ। यहाँ, वेद, उपनिषद, र भगवत्गीता जस्ता पवित्र शास्त्रहरूले कालातीत मूल्यहरू प्रकाश पार्दछ। सनातन धर्मले मानवतालाई लचिलोपन र शान्तिको मार्ग प्रदान गर्दै प्रकृतिप्रति अनुकम्पा, समावेशीता र श्रद्धालाई पोषण गर्दछ। यसले पुरातन अन्तरदृष्टिलाई आधुनिक सान्दर्भिकतासँग जोड्छ, सन्तुलित र उद्देश्यपूर्ण जीवनलाई प्रेरणा दिन्छ।",
+                "id": "प्रस्तावहरू",
+                "points": [
+                    "अध्याय-वार भगवतगीता व्याख्या",
+                    "वेद र उपनिषद को परिचय",
+                    "कर्म र धर्मको अवधारणा स्पष्टता",
+                    "पुराणबाट दार्शनिक अन्तर्दृष्टि",
+                    "आधुनिक जीवनको लागि व्यावहारिक प्रासंगिकता"
+                ],
+                "pointsrc": ""
+            },
+            {
+                "title": "एक कालातीत यात्रा",
+                "content": "सनातन धर्ममा कालहीन यात्रा भनेको आत्म-अन्वेषण, कर्तव्य र मुक्तिको अनन्त मार्ग हो। यो धर्मबाट सुरु हुन्छ, सत्य र धार्मिकताको अभ्यास, सद्भावको साथ दैनिक जीवनलाई निर्देशित गर्दछ। कर्मले सिकाउँछ कि हरेक कार्यले नियतिलाई आकार दिन्छ, ध्यानपूर्वक छनौट गर्न आग्रह गर्दछ। आत्माको खोज भनेको अनन्त यथार्थ ब्रह्मसँगको आफ्नो एकता महसुस गर्नु हो। भक्ति, बुद्धि र अनुशासनद्वारा, साधकहरू मोक्षतर्फ, पुनर्जन्मबाट मुक्तितर्फ अघि बढ्छन्। यो यात्रा समय वा संस्कृतिले बाँधिएको छैन; यो पुस्तामा प्रवाहित हुन्छ, अनुकम्पा, समावेशीता, र प्रकृतिप्रति आदरको पोषण गर्दै। सनातन धर्मले मानवतालाई प्राचीन ज्ञान र आधुनिक सान्दर्भिकता बीचको जीवित पुल प्रदान गर्दछ।",
+                "id": "यात्रा",
+                "nodecaration": true
+            }
+        ],
+        "ourfourcoreyugas": [
+            {
+                "description": [
+                    "सत्य र धर्मको विजय हुन्छ",
+                    "लामो आयु र पूर्ण स्वास्थ्य",
+                    "प्रत्यक्ष दिव्य चेतना"
+                ],
+                "gradientfrom": "बाट-एम्बर-700",
+                "gradientto": "सुन्तला-600 सम्म",
+                "name": "सत्ययुग",
+                "subtitle": "धर्म युग",
+                "years": "1,728,000 वर्ष"
+            },
+            {
+                "description": [
+                    "धर्मको अलिकति पतन",
+                    "रामायणको युग",
+                    "आध्यात्मिक अनुशासन बलियो रहन्छ"
+                ],
+                "gradientfrom": "सुन्तला-500 बाट",
+                "gradientto": "to-amber-400",
+                "name": "त्रेतायुग",
+                "subtitle": "सम्बन्धविच्छेदको उमेर",
+                "years": "1,296,000 वर्ष"
+            },
+            {
+                "description": [
+                    "धर्म आधा घट्यो",
+                    "महाभारत युग",
+                    "विवाद र जटिलता बढ्नेछ"
+                ],
+                "gradientfrom": "बाट-गुलाब-500",
+                "gradientto": "सुन्तला-500 सम्म",
+                "name": "द्वापर युग",
+                "subtitle": "धर्म युग",
+                "years": "864,000 वर्ष"
+            },
+            {
+                "description": [
+                    "भौतिकवाद र अज्ञानता हावी छ",
+                    "आध्यात्मिक अभ्यास कठिन छ",
+                    "भक्तिद्वारा मुक्ति सम्भव छ"
+                ],
+                "gradientfrom": "बाट-रातो-700",
+                "gradientto": "to-rose-700",
+                "name": "कलियुग",
+                "subtitle": "लोक युग",
+                "years": "432,000 वर्ष"
+            }
+        ],
+        "earth_age_comparison_note": "1 कल्प (4.32 बिलियन वर्ष) आश्चर्यजनक रूपमा पृथ्वीको आयु (~ 4.54 बिलियन वर्ष) को आधुनिक वैज्ञानिक अनुमानको नजिक छ।",
+        "scaling_comment": "यो गणितीय मापन सबै ब्रह्माण्ड स्तरहरूमा उच्च संरचित र समानुपातिक छ।",
+        "ourfourcoreyugassubtitle": "सत्य, धार्मिकता, र ब्रह्माण्डीय व्यवस्थालाई समर्थन गर्ने आध्यात्मिक सिद्धान्तहरूमा आधारित अनन्त र विश्वव्यापी जीवन शैली। यी संख्याहरू अनियमित छैनन्। तिनीहरू 432,000 को आधार एकाइबाट व्युत्पन्न हुन्छन्, समानुपातिक रूपमा गुणा (4: 3: 2: 1)। ब्रह्माको एक पूर्ण दिन: ब्रह्माको जीवनकाल - 100 ब्रह्म वर्ष - प्रत्येक वर्ष = 360 दिन - प्रत्येक दिन = 4 युग (उमेर) - कुल = 311,040,000,000 मानव वर्ष।",
+        "ourfourcoreyugastitle": "सनातन धर्म अन्वेषण गर्नुहोस्",
+        "cta": {
+            "title": "हामीलाई यो वेबसाइट बहुभाषी बनाउन मद्दत गर्नुहोस्!",
+            "badge": "समर्थित: EN, TA, HI",
+            "contribute": "अब योगदान गर्नुहोस्",
+            "guidelines": "अनुवाद दिशानिर्देश",
+            "subtitle": "तपाईंको योगदानले हाम्रो वेबसाइटलाई सबैको लागि पहुँचयोग्य बनाउँछ। हाम्रो अनुवादकहरूको विश्वव्यापी समुदायमा सामेल हुनुहोस्।",
+            "targeting": "लक्ष्यीकरण: 10 भाषाहरू · 60% पूरा भयो"
         }
-      ]
-    },
-    "welcome": {
-      "clarity_devotion": "clarity, devotion, and divine grace",
-      "close": "Close",
-      "deeply_honored": "We are deeply honored and blessed by your presence here.",
-      "do_not": "Do not show this welcome message again",
-      "eternal_truths": "eternal truths of Sanātana Dharma",
-      "may_journey": "May your journey through these ancient teachings bring you",
-      "namaste_welcome": "Namaste & Welcome",
-      "thank_taking": "Thank you for taking this sacred step towards understanding and embracing the",
-      "timeless_wisdom": "— the timeless wisdom that illuminates the path to inner peace, righteousness, and spiritual awakening.",
-      "truth_alone": "Truth Alone Triumphs · Dharma Protects Those Who Protect It"
-    },
-    "hero": {
-      "description": "A timeless spiritual tradition rooted in darma, karma, and self-realization, guiding humanity beyond time, culture, and belief.",
-      "heading": "Sanātana Dharma",
-      "primarycta": {
-        "label": "Explore scriptures",
-        "link": "scriptures/bhagavadgita"
-      },
-      "scroll": "Scroll to Learn More",
-      "secondarycta": {
-        "label": "Start Learning",
-        "link": "sanatanadharma"
-      },
-      "subheading": "The Eternal Way of Life"
-    },
-    "sections": [
-      {
-        "title": "What is Sanātana Dharma?",
-        "content": "Sanātana Dharma, often translated as the “eternal way,” is not merely a religion but a timeless framework guiding human life toward harmony with cosmic truth. Rooted in Vedic wisdom, it emphasizes universal principles—Dharma (righteous duty), Karma (action and consequence), Moksha (liberation), and the pursuit of truth. It teaches compassion, non-violence, respect for all beings, and reverence for nature as divine. Unlike rigid dogma, it adapts across ages, cultures, and contexts, offering a living philosophy of balance, self-realization, and unity. Sanātana Dharma ultimately affirms that existence itself is sacred, and life’s purpose is realizing oneness with the eternal.",
-        "id": "introduction",
-        "nodecaration": true,
-        "src": "/images/home/om.png"
-      },
-      {
-        "title": "The are the Sacred Scriptures?",
-        "content": "The Sacred Scriptures are revered texts that embody divine wisdom, guiding humanity toward truth, virtue, and liberation. They are not merely historical records but living sources of spiritual light, offering timeless principles for righteous living. Scriptures preserve revelations, hymns, and teachings that inspire devotion, discipline, and self‑realization. They connect seekers with the eternal, reminding us of the sacredness of existence and the unity of all beings. Through stories, philosophy, and moral codes, they nurture compassion, faith, and inner strength. The Sacred Scriptures ultimately serve as bridges between the human and the divine, illuminating the eternal path of harmony.",
-        "id": "scriptures",
-        "items": [
-          {
-            "title": "The Vedas",
-            "description": "Wisdom · Hymns · Dharma · Cosmos · Liberation",
-            "href": "/scriptures/vedas",
-            "src": "/images/home/the-vedas.png"
-          },
-          {
-            "title": "The Upanishads",
-            "description": "Brahman · Atman · Knowledge · Liberation · Unity",
-            "href": "/scriptures/upanishads",
-            "src": "/images/home/the-upanishads.png"
-          },
-          {
-            "title": "The Itihāsas",
-            "description": "Duty · Devotion · Conflict · Dharma · Legacy",
-            "href": "/scriptures/itihasas",
-            "src": "/images/home/the-ithihas.png"
-          },
-          {
-            "title": "Purānas",
-            "description": "Mythology · Cosmology · Legends · Devotion · Dharma",
-            "href": "/scriptures/puranas",
-            "src": "/images/home/the-puranas.png"
-          }
-        ]
-      },
-      {
-        "title": "🌿 A Living Spiritual Tradition means?",
-        "content": "A Living Spiritual Tradition is not a relic of the past but a vibrant, evolving stream of wisdom that flows through generations. It embodies timeless values while adapting to contemporary life, guiding seekers with relevance and authenticity. Such a tradition is sustained by practice, community, and devotion, where rituals, stories, and teachings remain dynamic rather than static. It breathes through daily actions, ethical choices, and shared celebrations, nurturing both individual growth and collective harmony. By honoring roots yet embracing change, it ensures continuity of spirit, offering humanity a living bridge between ancient insight and modern experience.",
-        "id": "living-tradition",
-        "nodecaration": true
-      },
-      {
-        "title": "Core Principles of Sanātana Dharma?",
-        "content": "The core principles of Sanātana Dharma are eternal guidelines for righteous living and spiritual realization. Dharma teaches duty, truth, and harmony with cosmic order. Karma reveals the law of cause and effect, urging mindful action. Atman signifies the immortal soul, while Brahman is the infinite reality; realizing their unity leads to liberation. Moksha, freedom from rebirth, is the highest goal. The Purusharthas—Dharma, Artha, Kama, Moksha—balance ethics, prosperity, desire, and liberation. Rooted in the Vedas and Upanishads, these principles remain timeless, inspiring humanity to live with compassion, wisdom, and balance, bridging ancient insight with modern life.",
-        "id": "principles",
-        "items": [
-          {
-            "title": "Dharma",
-            "description": "Righteousness · Duty · Harmony · Justice · Truth",
-            "href": "/philosophy/dharma",
-            "src": "/images/home/dharma.png"
-          },
-          {
-            "title": "Karma",
-            "description": "Action · Cause · Effect · Responsibility · Consequence",
-            "href": "/philosophy/karma",
-            "src": "/images/home/karma.png"
-          },
-          {
-            "title": "Moksha",
-            "description": "Liberation · Freedom · Oneness · Bliss · Eternity",
-            "href": "/philosophy/moksha",
-            "src": "/images/home/moksha.png"
-          },
-          {
-            "title": "Ahimsa",
-            "description": "Non‑violence · Compassion · Respect · Harmony · Love",
-            "href": "/philosophy/ahimsa",
-            "src": "/images/home/ahimsa.png"
-          },
-          {
-            "title": "Satya",
-            "description": "Truth · Honesty · Integrity · Authenticity · Righteousness",
-            "href": "/philosophy/satya",
-            "src": "/images/home/satya.png"
-          }
-        ]
-      },
-      {
-        "title": "Commitment to Authenticity",
-        "content": "Commitment to authenticity means living truthfully, honoring values, expressing genuine identity, rejecting falsehood, fostering integrity, and embodying transparency in relationships, actions, and spiritual practice.",
-        "id": "authenticity",
-        "nodecaration": true
-      },
-      {
-        "title": "Why Sanātana Dharma Matters Today?",
-        "content": "Sanātana Dharma matters today because it offers timeless wisdom for modern challenges. Rooted in universal values of truth, compassion, and harmony, it transcends religion to guide humanity toward ethical living and spiritual balance. In an age of rapid change, its principles—Dharma, Karma, and Moksha—remind us of responsibility, mindful action, and liberation beyond material pursuits. It nurtures inclusivity, respect for diversity, and reverence for nature, aligning with sustainable living. By bridging ancient insight with contemporary needs, Sanātana Dharma inspires resilience, peace, and unity, showing that eternal truths remain relevant in shaping a just, compassionate, and balanced world.",
-        "id": "relevance",
-        "points": [
-          "Mental clarity in a fast-paced world",
-          "Ethical foundations for modern society",
-          "Visibility of consciousness and mindfulness",
-          "Harmony between progress and responsibility"
-        ],
-        "pointsrc": [
-          "/images/home/why-sanatana-1.png",
-          "/images/home/why-sanatana-2.png",
-          "/images/home/why-sanatana-3.png",
-          "/images/home/why-sanatana-4.png"
-        ]
-      },
-      {
-        "title": "Purpose of Sanātana Dharma?",
-        "content": "The purpose of Sanātana Dharma is to guide humanity toward righteous living, spiritual awakening, and harmony with the cosmos. It teaches that life is not merely material but a sacred journey of self-realization. Through Dharma, one learns duty and truth; through Karma, the law of action; through Moksha, liberation from rebirth. Its aim is balance—between worldly pursuits and eternal wisdom—so individuals live ethically, prosper responsibly, enjoy desires mindfully, and ultimately transcend limitations. Rooted in compassion, inclusivity, and reverence for nature, Sanātana Dharma nurtures peace, unity, and timeless values, offering humanity a path to enduring fulfillment and divine connection.",
-        "id": "purpose",
-        "nodecaration": true
-      },
-      {
-        "title": "What You Will Find Here?",
-        "content": "What you will find here about Sanātana Dharma is a living treasury of eternal wisdom, guiding seekers toward truth, harmony, and liberation. It is not confined to rituals alone but embraces philosophy, ethics, and devotion. You will discover the essence of Dharma, the law of Karma, the pursuit of Moksha, and the balance of Purusharthas. Here, sacred scriptures like the Vedas, Upanishads, and Bhagavathgita illuminate timeless values. Sanātana Dharma nurtures compassion, inclusivity, and reverence for nature, offering humanity a path of resilience and peace. It bridges ancient insight with modern relevance, inspiring a balanced and purposeful life.",
-        "id": "offerings",
-        "points": [
-          "Chapter-wise Bhagavathgita explanations",
-          "Introductions to Vedas and Upanishads",
-          "Concept clarity on Karma and Dharma",
-          "Philosophical insights from Puranas",
-          "Practical relevance for modern life"
-        ],
-        "pointsrc": ""
-      },
-      {
-        "title": "A Timeless Journey",
-        "content": "A timeless journey in Sanātana Dharma is the eternal path of self-discovery, duty, and liberation. It begins with Dharma, the practice of truth and righteousness, guiding daily life with harmony. Karma teaches that every action shapes destiny, urging mindful choices. The soul’s quest is to realize its unity with Brahman, the infinite reality. Through devotion, wisdom, and discipline, seekers progress toward Moksha, freedom from rebirth. This journey is not bound by time or culture; it flows across generations, nurturing compassion, inclusivity, and reverence for nature. Sanātana Dharma offers humanity a living bridge between ancient wisdom and modern relevance.",
-        "id": "journey",
-        "nodecaration": true
-      }
-    ],
-    "ourfourcoreyugas": [
-      {
-        "description": [
-          "Truth and righteousness prevail",
-          "Long lifespan and perfect health",
-          "Direct divine awareness"
-        ],
-        "gradientfrom": "from-amber-700",
-        "gradientto": "to-orange-600",
-        "name": "Satya Yuga",
-        "subtitle": "Dharma age",
-        "years": "1,728,000 years"
-      },
-      {
-        "description": [
-          "Slight decline of dharma",
-          "Age of the Ramayana",
-          "Spiritual discipline remains strong"
-        ],
-        "gradientfrom": "from-orange-500",
-        "gradientto": "to-amber-400",
-        "name": "Treta Yuga",
-        "subtitle": "Divor age",
-        "years": "1,296,000 years"
-      },
-      {
-        "description": [
-          "Dharma reduced to half",
-          "Era of Mahabharata",
-          "Increase in conflict and complexity"
-        ],
-        "gradientfrom": "from-rose-500",
-        "gradientto": "to-orange-500",
-        "name": "Dvapara Yuga",
-        "subtitle": "Dharma age",
-        "years": "864,000 years"
-      },
-      {
-        "description": [
-          "Materialism and ignorance dominate",
-          "Spiritual practice is difficult",
-          "Liberation possible through devotion"
-        ],
-        "gradientfrom": "from-red-700",
-        "gradientto": "to-rose-700",
-        "name": "Kali Yuga",
-        "subtitle": "Folk age",
-        "years": "432,000 years"
-      }
-    ],
-    "earth_age_comparison_note": "1 Kalpa (4.32 billion years) is surprisingly close to the modern scientific estimate of Earth's age (~4.54 billion years).",
-    "scaling_comment": "This mathematical scaling is highly structured and proportional across all cosmic levels.",
-    "ourfourcoreyugassubtitle": "The eternal and universal way of life based on truth, righteousness, and spiritual principles that uphold cosmic order. These numbers are not random. They are derived from a base unit of 432,000, multiplied proportionally (4: 3: 2: 1). One Full Day of Brahma: Lifetime of Brahma - 100 Brahma years - Each year = 360 days - Each day = 4 yugas (ages) - Total = 311,040,000,000 human years.",
-    "ourfourcoreyugastitle": "Explore Sanātana Dharma",
-    "cta": {
-      "title": "Help us make this website multilingual!",
-      "badge": "Supported: EN, TA, HI",
-      "contribute": "Contribute Now",
-      "guidelines": "Translation Guidelines",
-      "subtitle": "Your contribution makes our website accessible to everyone. Join our global community of translators.",
-      "targeting": "Targeting: 10 languages · 60% completed"
     }
-  }
 }

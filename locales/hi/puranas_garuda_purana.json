@@ -1,61 +1,61 @@
 {
-  "puranas_garuda-purana": {
-    "title": "Garuda Purana – Purana Overview and Key Themes",
-    "description": "A structured overview of Garuda Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-    "meta": {
-      "title": "Garuda Purana – Purana Overview and Key Themes",
-      "canonical": "https://sanatanadharmam.in/puranas/garuda-purana",
-      "description": "A structured overview of Garuda Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "keywords": [
-        "Garuda Purana",
-        "Purana",
-        "Puranas",
-        "Sanatana Dharma",
-        "bhakti",
-        "dharma"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/puranas/garuda-purana",
-      "ogImage": "https://sanatanadharmam.in/og/puranas_garuda_purana.png"
-    },
-    "openGraph": {
-      "title": "Garuda Purana – Purana Overview and Key Themes",
-      "description": "A structured overview of Garuda Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas/garuda-purana",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/puranas_garuda_purana.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Garuda Purana – Purana Overview and Key Themes"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Garuda Purana – Purana Overview and Key Themes",
-      "description": "A structured overview of Garuda Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas/garuda-purana",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "Garuda Purana is one of the Mahapuranas in the broader Puranic literature of Sanātana Dharma. Puranas transmit philosophy, devotion, and cultural memory through stories, dialogues, hymns, and guidance for ethical living.\n\nTraditionally, Garuda Purana is associated with ethics, rites, and reflective teachings. Readers often approach it as a devotional-philosophical text rather than a single-genre book: it may include cosmology, sacred geography, ethics, vows, and narratives that illustrate dharma in action.",
-    "scripture_text": [
-      {
-        "section": "What you will find on this page",
-        "content": "A structured overview: (1) context and themes, (2) key narrative ideas, (3) devotional emphasis, and (4) philosophical reflections that connect story to inner practice."
-      },
-      {
-        "section": "How to read Puranic material",
-        "content": "Puranic narratives can be read on multiple levels—devotional, ethical, and symbolic. When details vary across retellings, the enduring value is often the dharmic lesson: the cultivation of character, devotion, and discernment."
-      }
-    ],
-    "philosophical_explanation": "Philosophically, the Puranas teach through lived scenarios: how desire, fear, pride, and compassion shape destiny. They also emphasize cyclical time and impermanence, encouraging humility and steadiness. Devotion (bhakti) is often presented as a direct, accessible discipline that purifies the heart and supports wisdom."
-  }
+    "puranas_garuda-purana": {
+        "title": "गरुड़ पुराण - पुराण अवलोकन और मुख्य विषय",
+        "description": "गरुड़ पुराण का एक संरचित अवलोकन: विषय, उद्देश्य, और यह सनातन धर्म में भक्ति, धर्म और सांस्कृतिक स्मृति में कैसे योगदान देता है।",
+        "meta": {
+            "title": "गरुड़ पुराण - पुराण अवलोकन और मुख्य विषय",
+            "canonical": "https://sanatanadharmam.in/puranas/garuda-purana",
+            "description": "गरुड़ पुराण का एक संरचित अवलोकन: विषय, उद्देश्य, और यह सनातन धर्म में भक्ति, धर्म और सांस्कृतिक स्मृति में कैसे योगदान देता है।",
+            "keywords": [
+                "गरुड़ पुराण",
+                "पुराण",
+                "पुराण",
+                "सनातन धर्म",
+                "भक्ति",
+                "धर्म"
+            ],
+            "robots": "अनुक्रमणिका, अनुसरण करें",
+            "url": "https://sanatanadharmam.in/puranas/garuda-purana",
+            "ogImage": "https://sanatanadharmam.in/og/puranas_garuda_purana.png"
+        },
+        "openGraph": {
+            "title": "गरुड़ पुराण - पुराण अवलोकन और मुख्य विषय",
+            "description": "गरुड़ पुराण का एक संरचित अवलोकन: विषय, उद्देश्य, और यह सनातन धर्म में भक्ति, धर्म और सांस्कृतिक स्मृति में कैसे योगदान देता है।",
+            "url": "https://sanatanadharmam.in/puranas/garuda-purana",
+            "siteName": "सनातनधर्मम्",
+            "type": "आलेख",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/puranas_garuda_purana.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Garuda Purana – Purana Overview and Key Themes"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "आलेख",
+            "name": "गरुड़ पुराण - पुराण अवलोकन और मुख्य विषय",
+            "description": "गरुड़ पुराण का एक संरचित अवलोकन: विषय, उद्देश्य, और यह सनातन धर्म में भक्ति, धर्म और सांस्कृतिक स्मृति में कैसे योगदान देता है।",
+            "url": "https://sanatanadharmam.in/puranas/garuda-purana",
+            "isPartOf": {
+                "@type": "वेबसाइट",
+                "name": "सनातनधर्मम्",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "गरुड़ पुराण सनातन धर्म के व्यापक पौराणिक साहित्य में महापुराणों में से एक है। पुराण कहानियों, संवादों, भजनों और नैतिक जीवन के लिए मार्गदर्शन के माध्यम से दर्शन, भक्ति और सांस्कृतिक स्मृति को प्रसारित करते हैं।\n\nपरंपरागत रूप से, गरुड़ पुराण नैतिकता, संस्कार और चिंतनशील शिक्षाओं से जुड़ा हुआ है। पाठक अक्सर इसे एकल-शैली की पुस्तक के बजाय एक भक्ति-दार्शनिक पाठ के रूप में देखते हैं: इसमें ब्रह्मांड विज्ञान, पवित्र भूगोल, नैतिकता, प्रतिज्ञा और आख्यान शामिल हो सकते हैं जो कार्रवाई में धर्म का वर्णन करते हैं।",
+        "scripture_text": [
+            {
+                "section": "इस पेज पर आपको क्या मिलेगा",
+                "content": "एक संरचित अवलोकन: (1) संदर्भ और विषय, (2) मुख्य कथा विचार, (3) भक्ति पर जोर, और (4) दार्शनिक प्रतिबिंब जो कहानी को आंतरिक अभ्यास से जोड़ते हैं।"
+            },
+            {
+                "section": "पौराणिक सामग्री कैसे पढ़ें",
+                "content": "पौराणिक आख्यानों को कई स्तरों पर पढ़ा जा सकता है - भक्ति, नैतिक और प्रतीकात्मक। जब विवरण अलग-अलग होते हैं, तो स्थायी मूल्य अक्सर धार्मिक सबक होता है: चरित्र, भक्ति और विवेक की खेती।"
+            }
+        ],
+        "philosophical_explanation": "दार्शनिक रूप से, पुराण जीवित परिदृश्यों के माध्यम से सिखाते हैं: कैसे इच्छा, भय, गर्व और करुणा भाग्य को आकार देते हैं। वे विनम्रता और स्थिरता को प्रोत्साहित करते हुए चक्रीय समय और अनित्यता पर भी जोर देते हैं। भक्ति (भक्ति) को अक्सर एक प्रत्यक्ष, सुलभ अनुशासन के रूप में प्रस्तुत किया जाता है जो हृदय को शुद्ध करता है और ज्ञान का समर्थन करता है।"
+    }
 }

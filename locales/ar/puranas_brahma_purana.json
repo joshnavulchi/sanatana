@@ -1,61 +1,61 @@
 {
-  "puranas_brahma-purana": {
-    "title": "Brahma Purana – Purana Overview and Key Themes",
-    "description": "A structured overview of Brahma Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-    "meta": {
-      "title": "Brahma Purana – Purana Overview and Key Themes",
-      "canonical": "https://sanatanadharmam.in/puranas/brahma-purana",
-      "description": "A structured overview of Brahma Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "keywords": [
-        "Brahma Purana",
-        "Purana",
-        "Puranas",
-        "Sanatana Dharma",
-        "bhakti",
-        "dharma"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/puranas/brahma-purana",
-      "ogImage": "https://sanatanadharmam.in/og/puranas_brahma_purana.png"
-    },
-    "openGraph": {
-      "title": "Brahma Purana – Purana Overview and Key Themes",
-      "description": "A structured overview of Brahma Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas/brahma-purana",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/puranas_brahma_purana.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Brahma Purana – Purana Overview and Key Themes"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Brahma Purana – Purana Overview and Key Themes",
-      "description": "A structured overview of Brahma Purana: themes, purpose, and how it contributes to devotion, dharma, and cultural memory in Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas/brahma-purana",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "Brahma Purana is one of the Mahapuranas in the broader Puranic literature of Sanātana Dharma. Puranas transmit philosophy, devotion, and cultural memory through stories, dialogues, hymns, and guidance for ethical living.\n\nTraditionally, Brahma Purana is associated with Puranic tradition. Readers often approach it as a devotional-philosophical text rather than a single-genre book: it may include cosmology, sacred geography, ethics, vows, and narratives that illustrate dharma in action.",
-    "scripture_text": [
-      {
-        "section": "What you will find on this page",
-        "content": "A structured overview: (1) context and themes, (2) key narrative ideas, (3) devotional emphasis, and (4) philosophical reflections that connect story to inner practice."
-      },
-      {
-        "section": "How to read Puranic material",
-        "content": "Puranic narratives can be read on multiple levels—devotional, ethical, and symbolic. When details vary across retellings, the enduring value is often the dharmic lesson: the cultivation of character, devotion, and discernment."
-      }
-    ],
-    "philosophical_explanation": "Philosophically, the Puranas teach through lived scenarios: how desire, fear, pride, and compassion shape destiny. They also emphasize cyclical time and impermanence, encouraging humility and steadiness. Devotion (bhakti) is often presented as a direct, accessible discipline that purifies the heart and supports wisdom."
-  }
+    "puranas_brahma-purana": {
+        "title": "براهما بورانا – نظرة عامة على بورانا والموضوعات الرئيسية",
+        "description": "نظرة عامة منظمة على Brahma Purana: الموضوعات والغرض وكيف تساهم في التفاني والدارما والذاكرة الثقافية في Sanātana Dharma.",
+        "meta": {
+            "title": "براهما بورانا – نظرة عامة على بورانا والموضوعات الرئيسية",
+            "canonical": "https://sanatanadharmam.in/puranas/brahma-purana",
+            "description": "نظرة عامة منظمة على Brahma Purana: الموضوعات والغرض وكيف تساهم في التفاني والدارما والذاكرة الثقافية في Sanātana Dharma.",
+            "keywords": [
+                "براهما بورانا",
+                "بورانا",
+                "بوراناس",
+                "ساناتانا دارما",
+                "بهاكتي",
+                "دارما"
+            ],
+            "robots": "الفهرس، اتبع",
+            "url": "https://sanatanadharmam.in/puranas/brahma-purana",
+            "ogImage": "https://sanatanadharmam.in/og/puranas_brahma_purana.png"
+        },
+        "openGraph": {
+            "title": "براهما بورانا – نظرة عامة على بورانا والموضوعات الرئيسية",
+            "description": "نظرة عامة منظمة على Brahma Purana: الموضوعات والغرض وكيف تساهم في التفاني والدارما والذاكرة الثقافية في Sanātana Dharma.",
+            "url": "https://sanatanadharmam.in/puranas/brahma-purana",
+            "siteName": "ساناتانادارمام",
+            "type": "شرط",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/puranas_brahma_purana.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Brahma Purana – Purana Overview and Key Themes"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "شرط",
+            "name": "براهما بورانا – نظرة عامة على بورانا والموضوعات الرئيسية",
+            "description": "نظرة عامة منظمة على Brahma Purana: الموضوعات والغرض وكيف تساهم في التفاني والدارما والذاكرة الثقافية في Sanātana Dharma.",
+            "url": "https://sanatanadharmam.in/puranas/brahma-purana",
+            "isPartOf": {
+                "@type": "موقع إلكتروني",
+                "name": "ساناتانادارمام",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "Brahma Purana هو أحد Mahapuranas في الأدب البوراني الأوسع لـ Sanātana Dharma. ينقل بوراناس الفلسفة والتفاني والذاكرة الثقافية من خلال القصص والحوارات والتراتيل والتوجيه للحياة الأخلاقية.\n\nتقليديا، يرتبط براهما بورانا بالتقاليد البورانية. غالبًا ما يتعامل القراء معه باعتباره نصًا فلسفيًا تعبديًا وليس كتابًا من نوع واحد: فقد يشمل علم الكونيات والجغرافيا المقدسة والأخلاق والنذور والروايات التي توضح الدارما أثناء العمل.",
+        "scripture_text": [
+            {
+                "section": "ما سوف تجده في هذه الصفحة",
+                "content": "نظرة عامة منظمة: (1) السياق والموضوعات، (2) الأفكار السردية الرئيسية، (3) التركيز التعبدي، و (4) التأملات الفلسفية التي تربط القصة بالممارسة الداخلية."
+            },
+            {
+                "section": "كيفية قراءة المواد البورانية",
+                "content": "يمكن قراءة الروايات البورانية على مستويات متعددة: التعبدية والأخلاقية والرمزية. عندما تختلف التفاصيل عبر الروايات، غالبًا ما تكون القيمة الدائمة هي الدرس الدارمي: تنمية الشخصية، والتفاني، والفطنة."
+            }
+        ],
+        "philosophical_explanation": "من الناحية الفلسفية، يعلم البوراناس من خلال السيناريوهات الحية: كيف تشكل الرغبة والخوف والفخر والرحمة المصير. كما أنها تؤكد على الوقت الدوري وعدم الثبات، وتشجيع التواضع والثبات. غالبًا ما يتم تقديم التفاني (بهاكتي) على أنه نظام مباشر وسهل الوصول إليه ينقي القلب ويدعم الحكمة."
+    }
 }

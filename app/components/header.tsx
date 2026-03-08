@@ -373,8 +373,8 @@ export default function Header() {
     <header ref={headerRef} className="w-full sticky top-0 z-30">
       {/* Ornamental top accent */}
       <div className="h-[2] w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
-      <div className="w-full bg-linear-to-r from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] shadow-[0_4px_20px_rgba(166,61,23,0.10)] px-4 py-1 md:px-0">
-        <div className="flex items-center justify-between px-4 md:px-8">
+      <div className="w-full bg-linear-to-r from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] shadow-[0_4px_20px_rgba(166,61,23,0.10)] md:px-0">
+        <div className="flex items-center justify-between px-3 py-1">
           {/* ─── Logo & Title ─── */}
           <h1 className="m-0 p-0">
             <Link href="/" className="flex items-center gap-2 group">

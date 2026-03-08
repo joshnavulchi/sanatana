@@ -1,152 +1,152 @@
 {
-  "philosophy_samsara": {
-    "title": "Samsara – Cycle of Birth, Death and Rebirth | Sanatana Dharma",
-    "description": "Learn about Samsara in Sanatana Dharma, the cycle of birth, death and rebirth governed by Karma. Explore its meaning in the Upanishads, Bhagavad Gita and Hindu philosophy.",
-    "meta": {
-      "title": "Samsara – Cycle of Birth, Death and Rebirth | Sanatana Dharma",
-      "canonical": "https://sanatanadharmam.in/philosophy/samsara",
-      "description": "Learn about Samsara in Sanatana Dharma, the cycle of birth, death and rebirth governed by Karma. Explore its meaning in the Upanishads, Bhagavad Gita and Hindu philosophy.",
-      "keywords": [
-        "Samsara meaning",
-        "cycle of rebirth",
-        "Samsara philosophy",
-        "Samsara and Karma",
-        "Samsara and Moksha",
-        "Hindu philosophy Samsara",
-        "Samsara Upanishads",
-        "Samsara Bhagavad Gita",
-        "Sanatana Dharma Samsara",
-        "cycle of birth and death"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/philosophy/samsara"
-    },
-    "openGraph": {
-      "title": "Samsara – Cycle of Birth and Rebirth",
-      "description": "Discover Samsara, the cycle of birth, death and rebirth explained in Sanatana Dharma philosophy.",
-      "url": "https://sanatanadharmam.in/philosophy/samsara",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/philosophy-samsara.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Samsara Philosophy"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "DefinedTerm",
-          "name": "Samsara",
-          "description": "Samsara is the cycle of birth, death and rebirth governed by karma in Sanatana Dharma and other Indian philosophical traditions.",
-          "url": "https://sanatanadharmam.in/philosophy/samsara",
-          "inDefinedTermSet": {
-            "@type": "DefinedTermSet",
-            "name": "Sanatana Dharma Philosophy"
-          }
+    "philosophy_samsara": {
+        "title": "சம்சாரம் – பிறப்பு, இறப்பு மற்றும் மறுபிறப்பு சுழற்சி | சனாதன தர்மம்",
+        "description": "கர்மாவால் நிர்வகிக்கப்படும் பிறப்பு, இறப்பு மற்றும் மறுபிறப்பு சுழற்சியான சனாதன தர்மத்தில் உள்ள சம்சாரத்தைப் பற்றி அறிக. உபநிடதங்கள், பகவத் கீதை மற்றும் இந்து தத்துவங்களில் அதன் அர்த்தத்தை ஆராயுங்கள்.",
+        "meta": {
+            "title": "சம்சாரம் – பிறப்பு, இறப்பு மற்றும் மறுபிறப்பு சுழற்சி | சனாதன தர்மம்",
+            "canonical": "https://sanatanadharmam.in/philosophy/samsara",
+            "description": "கர்மாவால் நிர்வகிக்கப்படும் பிறப்பு, இறப்பு மற்றும் மறுபிறப்பு சுழற்சியான சனாதன தர்மத்தில் உள்ள சம்சாரத்தைப் பற்றி அறிக. உபநிடதங்கள், பகவத் கீதை மற்றும் இந்து தத்துவங்களில் அதன் அர்த்தத்தை ஆராயுங்கள்.",
+            "keywords": [
+                "சம்சாரத்தின் பொருள்",
+                "மறுபிறப்பு சுழற்சி",
+                "சம்சார தத்துவம்",
+                "சம்சாரம் மற்றும் கர்மா",
+                "சம்சாரமும் மோட்சமும்",
+                "இந்து தத்துவம் சம்சாரம்",
+                "சம்சார உபநிடதங்கள்",
+                "சம்சார பகவத் கீதை",
+                "சனாதன தர்ம சம்சாரம்",
+                "பிறப்பு மற்றும் இறப்பு சுழற்சி"
+            ],
+            "robots": "குறியீட்டு, பின்பற்றவும்",
+            "url": "https://sanatanadharmam.in/philosophy/samsara"
         },
-        {
-          "@type": "Article",
-          "headline": "Samsara – Cycle of Rebirth in Sanatana Dharma",
-          "about": [
-            "Samsara",
-            "Karma",
-            "Moksha",
-            "Sanatana Dharma philosophy",
-            "Hindu philosophy"
-          ],
-          "isPartOf": {
-            "@type": "WebSite",
-            "name": "Sanatanadharmam",
-            "url": "https://sanatanadharmam.in"
-          },
-          "url": "https://sanatanadharmam.in/philosophy/samsara"
-        }
-      ]
-    },
-    "components": {
-      "birth": "Entry into physical existence based on past karma.",
-      "death": "Transition to another state of existence.",
-      "rebirth": "New life determined by accumulated karma."
-    },
-    "core_principles": [
-      "Cycle of birth and death",
-      "Governed by karma",
-      "Ignorance (Avidya) binds beings to Samsara",
-      "Liberation (Moksha) ends Samsara"
-    ],
-    "definition": "Samsara refers to the continuous cycle of birth, death, and rebirth in Hindu, Buddhist, and Jain philosophies, driven by karma and ignorance.",
-    "goals": [
-      "Understand the nature of Samsara",
-      "Reduce karmic accumulation",
-      "Seek liberation through spiritual practice"
-    ],
-    "key_scriptural_references": [
-      {
-        "quote_summary": "The soul is eternal, taking new bodies as old ones perish.",
-        "text": "Bhagavathgita"
-      },
-      {
-        "quote_summary": "Liberation comes when one realizes the Self beyond birth and death.",
-        "text": "Upanishads"
-      }
-    ],
-    "modern_relevance": {
-      "ethics": "Encourages mindful living and responsibility.",
-      "psychology": "Explains patterns of suffering and attachment.",
-      "spirituality": "Motivates pursuit of higher consciousness."
-    },
-    "origin": {
-      "meaning": "Derived from Sanskrit 'samsṛ', meaning 'to flow or wander'.",
-      "roots": "Vedic and Upanishadic teachings",
-      "texts": [
-        "Upanishads",
-        "Bhagavathgita",
-        "Yoga Sutras"
-      ]
-    },
-    "relation_to_other_concepts": {
-      "dharma": "Righteous living helps reduce karmic bondage.",
-      "karma": "Actions determine future births.",
-      "moksha": "Freedom from Samsara is the ultimate goal."
-    },
-    "samsara_qa": [
-      {
-        "answer": "Samsara is the endless cycle of birth, death, and rebirth, driven by karma and ignorance. It is the state of worldly existence from which liberation (moksha) is sought.",
-        "question": "What is Samsara?"
-      },
-      {
-        "answer": "Karma, the law of cause and effect, determines the circumstances of each birth. Good actions lead to favorable rebirths, while negative actions result in suffering.",
-        "question": "How does karma influence Samsara?"
-      },
-      {
-        "answer": "Ignorance (avidya), attachment, and desires bind beings to the cycle of Samsara. Only through knowledge, detachment, and spiritual practice can one break free.",
-        "question": "What causes beings to remain in Samsara?"
-      },
-      {
-        "answer": "By following Dharma, purifying the mind, practicing selfless action, devotion, and meditation, one can attain Moksha and be freed from Samsara.",
-        "question": "How can one escape Samsara?"
-      },
-      {
-        "answer": "The Upanishads, Bhagavad Gita, and Yoga Sutras describe Samsara as a state of bondage and suffering, and teach the path to liberation.",
-        "question": "What do scriptures say about Samsara?"
-      },
-      {
-        "answer": "No, the concept of Samsara is also central to Buddhism and Jainism, though each tradition explains it differently.",
-        "question": "Is Samsara unique to Hinduism?"
-      },
-      {
-        "answer": "Yes, the cycles of pleasure and pain, success and failure, and repeated patterns in life reflect the nature of Samsara. Recognizing this inspires the search for lasting freedom.",
-        "question": "Can Samsara be experienced in daily life?"
-      },
-      {
-        "answer": "The ultimate goal is to transcend Samsara by realizing the true Self and attaining Moksha, ending the cycle of rebirth and suffering.",
-        "question": "What is the ultimate goal regarding Samsara?"
-      }
-    ]
-  }
+        "openGraph": {
+            "title": "சம்சாரம் - பிறப்பு மற்றும் மறுபிறப்பு சுழற்சி",
+            "description": "சனாதன தர்ம தத்துவத்தில் விளக்கப்பட்டுள்ள பிறப்பு, இறப்பு மற்றும் மறுபிறப்பு சுழற்சியான சம்சாரத்தைக் கண்டறியவும்.",
+            "url": "https://sanatanadharmam.in/philosophy/samsara",
+            "siteName": "சனாதனதர்மம்",
+            "type": "கட்டுரை",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/philosophy-samsara.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Samsara Philosophy"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "வரையறுக்கப்பட்ட கால",
+                    "name": "சம்சாரம்",
+                    "description": "சம்சாரம் என்பது சனாதன தர்மம் மற்றும் பிற இந்திய தத்துவ மரபுகளில் கர்மாவால் நிர்வகிக்கப்படும் பிறப்பு, இறப்பு மற்றும் மறுபிறப்பு சுழற்சி ஆகும்.",
+                    "url": "https://sanatanadharmam.in/philosophy/samsara",
+                    "inDefinedTermSet": {
+                        "@type": "வரையறுக்கப்பட்ட காலக்கெடு",
+                        "name": "சனாதன தர்ம தத்துவம்"
+                    }
+                },
+                {
+                    "@type": "கட்டுரை",
+                    "headline": "சம்சாரம் - சனாதன தர்மத்தில் மறுபிறப்பு சுழற்சி",
+                    "about": [
+                        "சம்சாரம்",
+                        "கர்மா",
+                        "மோக்ஷா",
+                        "சனாதன தர்மத்தின் தத்துவம்",
+                        "இந்து தத்துவம்"
+                    ],
+                    "isPartOf": {
+                        "@type": "இணையத்தளம்",
+                        "name": "சனாதனதர்மம்",
+                        "url": "https://sanatanadharmam.in"
+                    },
+                    "url": "https://sanatanadharmam.in/philosophy/samsara"
+                }
+            ]
+        },
+        "components": {
+            "birth": "கடந்த கால கர்மாவின் அடிப்படையில் உடல் இருப்பில் நுழைதல்.",
+            "death": "இருத்தலின் மற்றொரு நிலைக்கு மாறுதல்.",
+            "rebirth": "திரட்டப்பட்ட கர்மாவால் தீர்மானிக்கப்படும் புதிய வாழ்க்கை."
+        },
+        "core_principles": [
+            "பிறப்பு மற்றும் இறப்பு சுழற்சி",
+            "கர்மாவால் ஆளப்படுகிறது",
+            "அறியாமை (அவித்யா) உயிர்களை சம்சாரத்துடன் பிணைக்கிறது",
+            "விடுதலை (மோட்சம்) சம்சாரத்தை முடிக்கிறது"
+        ],
+        "definition": "சம்சாரம் என்பது கர்மா மற்றும் அறியாமையால் இயக்கப்படும் இந்து, பௌத்த மற்றும் ஜைன தத்துவங்களில் பிறப்பு, இறப்பு மற்றும் மறுபிறப்பு ஆகியவற்றின் தொடர்ச்சியான சுழற்சியைக் குறிக்கிறது.",
+        "goals": [
+            "சம்சாரத்தின் தன்மையை புரிந்து கொள்ளுங்கள்",
+            "கர்ம திரட்சியைக் குறைக்கவும்",
+            "ஆன்மீகப் பயிற்சியின் மூலம் விடுதலையைத் தேடுங்கள்"
+        ],
+        "key_scriptural_references": [
+            {
+                "quote_summary": "ஆன்மா நித்தியமானது, பழையவை அழிந்துவிடுவதால் புதிய உடல்களை எடுத்துக்கொள்கிறது.",
+                "text": "பகவத்கீதை"
+            },
+            {
+                "quote_summary": "பிறப்பு இறப்புக்கு அப்பாற்பட்ட சுயத்தை உணர்ந்தால் விடுதலை கிடைக்கும்.",
+                "text": "உபநிடதங்கள்"
+            }
+        ],
+        "modern_relevance": {
+            "ethics": "கவனமுள்ள வாழ்க்கை மற்றும் பொறுப்பை ஊக்குவிக்கிறது.",
+            "psychology": "துன்பம் மற்றும் பற்றுதலின் வடிவங்களை விளக்குகிறது.",
+            "spirituality": "உயர்ந்த நனவைத் தொடரத் தூண்டுகிறது."
+        },
+        "origin": {
+            "meaning": "சமஸ்கிருத 'சம்ஸ்ரு' என்பதிலிருந்து பெறப்பட்டது, அதாவது 'ஓடுவது அல்லது அலைவது'.",
+            "roots": "வேத மற்றும் உபநிடத போதனைகள்",
+            "texts": [
+                "உபநிடதங்கள்",
+                "பகவத்கீதை",
+                "யோக சூத்திரங்கள்"
+            ]
+        },
+        "relation_to_other_concepts": {
+            "dharma": "நேர்மையான வாழ்க்கை கர்ம பந்தத்தை குறைக்க உதவுகிறது.",
+            "karma": "செயல்கள் எதிர்கால பிறப்பை தீர்மானிக்கின்றன.",
+            "moksha": "சம்சாரத்திலிருந்து விடுதலை பெறுவதே இறுதி இலக்கு."
+        },
+        "samsara_qa": [
+            {
+                "answer": "சம்சாரம் என்பது கர்மா மற்றும் அறியாமையால் இயக்கப்படும் பிறப்பு, இறப்பு மற்றும் மறுபிறப்பு ஆகியவற்றின் முடிவற்ற சுழற்சியாகும். இது உலக இருப்பின் நிலையாகும், அதில் இருந்து விடுதலை (மோட்சம்) தேடப்படுகிறது.",
+                "question": "சம்சாரம் என்றால் என்ன?"
+            },
+            {
+                "answer": "கர்மா, காரணம் மற்றும் விளைவு விதி, ஒவ்வொரு பிறப்பின் சூழ்நிலைகளையும் தீர்மானிக்கிறது. நல்ல செயல்கள் சாதகமான மறுபிறப்புகளுக்கு வழிவகுக்கும், எதிர்மறையான செயல்கள் துன்பத்தை விளைவிக்கும்.",
+                "question": "கர்மா சம்சாரத்தை எவ்வாறு பாதிக்கிறது?"
+            },
+            {
+                "answer": "அறியாமை (அவித்யா), பற்றுதல் மற்றும் ஆசைகள் ஆகியவை மனிதர்களை சம்சார சுழற்சியில் பிணைக்கின்றன. அறிவு, பற்றின்மை மற்றும் ஆன்மிகப் பயிற்சியின் மூலம் மட்டுமே ஒருவர் விடுபட முடியும்.",
+                "question": "உயிர்கள் சம்சாரத்தில் இருக்க என்ன காரணம்?"
+            },
+            {
+                "answer": "தர்மத்தைப் பின்பற்றி, மனதைத் தூய்மைப்படுத்தி, தன்னலமற்ற செயல், பக்தி, தியானம் போன்றவற்றைக் கடைப்பிடிப்பதன் மூலம் ஒருவர் மோட்சத்தை அடைந்து சம்சாரத்திலிருந்து விடுபடலாம்.",
+                "question": "சம்சாரத்திலிருந்து எப்படி தப்பிக்க முடியும்?"
+            },
+            {
+                "answer": "உபநிடதங்கள், பகவத் கீதை மற்றும் யோகா சூத்திரங்கள் சம்சாரத்தை அடிமைத்தனம் மற்றும் துன்பத்தின் நிலை என்று விவரிக்கின்றன, மேலும் விடுதலைக்கான பாதையை கற்பிக்கின்றன.",
+                "question": "சம்சாரம் பற்றி வேதம் என்ன சொல்கிறது?"
+            },
+            {
+                "answer": "இல்லை, சம்சாரம் என்ற கருத்து பௌத்தம் மற்றும் ஜைன மதத்திற்கும் மையமானது, இருப்பினும் ஒவ்வொரு பாரம்பரியமும் அதை வெவ்வேறு விதமாக விளக்குகிறது.",
+                "question": "சம்சாரம் என்பது இந்து மதத்திற்கு மட்டுமே உரியதா?"
+            },
+            {
+                "answer": "ஆம், இன்பம் மற்றும் துன்பம், வெற்றி மற்றும் தோல்வியின் சுழற்சிகள் மற்றும் வாழ்க்கையில் மீண்டும் மீண்டும் வரும் முறைகள் சம்சாரத்தின் தன்மையை பிரதிபலிக்கின்றன. இதை அங்கீகரிப்பது நீடித்த சுதந்திரத்திற்கான தேடலைத் தூண்டுகிறது.",
+                "question": "அன்றாட வாழ்வில் சம்சாரத்தை அனுபவிக்க முடியுமா?"
+            },
+            {
+                "answer": "உண்மையான சுயத்தை உணர்ந்து மோட்சத்தை அடைவதன் மூலம் சம்சாரத்தைக் கடப்பது, மறுபிறப்பு மற்றும் துன்பத்தின் சுழற்சியை முடிவுக்குக் கொண்டுவருவதே இறுதி இலக்கு.",
+                "question": "சம்சாரத்தைப் பற்றிய இறுதி இலக்கு என்ன?"
+            }
+        ]
+    }
 }

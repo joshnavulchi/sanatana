@@ -1,289 +1,289 @@
 {
-  "philosophy_dharma": {
-    "title": "Dharma – Meaning, Principles and Philosophy | Sanatana Dharma",
-    "description": "Learn the meaning of Dharma in Sanatana Dharma. Explore its principles, role in the Bhagavad Gita, Ramayana and Mahabharata, and its importance in ethical and spiritual life.",
-    "meta": {
-      "title": "Dharma – Meaning, Principles and Philosophy | Sanatana Dharma",
-      "canonical": "https://sanatanadharmam.in/philosophy/dharma",
-      "description": "Learn the meaning of Dharma in Sanatana Dharma. Explore its principles, role in the Bhagavad Gita, Ramayana and Mahabharata, and its importance in ethical and spiritual life.",
-      "keywords": [
-        "Dharma meaning",
-        "Hindu Dharma philosophy",
-        "Dharma in Bhagavad Gita",
-        "Dharma in Mahabharata",
-        "Dharma principles",
-        "Sanatana Dharma philosophy",
-        "Dharma and Karma",
-        "Dharma ethics",
-        "Dharma in Hinduism",
-        "Dharma spiritual path"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/philosophy/dharma"
-    },
-    "openGraph": {
-      "title": "Dharma – Core Principle of Sanatana Dharma",
-      "description": "Understand Dharma, the guiding principle of righteousness and cosmic order in Sanatana Dharma philosophy.",
-      "url": "https://sanatanadharmam.in/philosophy/dharma",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/philosophy-dharma.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Dharma Philosophy"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "DefinedTerm",
-          "name": "Dharma",
-          "description": "Dharma is a central concept in Sanatana Dharma referring to righteousness, duty, moral law and the cosmic order governing the universe.",
-          "url": "https://sanatanadharmam.in/philosophy/dharma",
-          "inDefinedTermSet": {
-            "@type": "DefinedTermSet",
-            "name": "Sanatana Dharma Philosophy"
-          }
+    "philosophy_dharma": {
+        "title": "தர்மம் – பொருள், கோட்பாடுகள் மற்றும் தத்துவம் | சனாதன தர்மம்",
+        "description": "சனாதன தர்மத்தில் தர்மத்தின் அர்த்தத்தை அறிக. அதன் கொள்கைகள், பகவத் கீதை, ராமாயணம் மற்றும் மகாபாரதத்தில் உள்ள பங்கு மற்றும் நெறிமுறை மற்றும் ஆன்மீக வாழ்க்கையில் அதன் முக்கியத்துவத்தை ஆராயுங்கள்.",
+        "meta": {
+            "title": "தர்மம் – பொருள், கோட்பாடுகள் மற்றும் தத்துவம் | சனாதன தர்மம்",
+            "canonical": "https://sanatanadharmam.in/philosophy/dharma",
+            "description": "சனாதன தர்மத்தில் தர்மத்தின் அர்த்தத்தை அறிக. அதன் கொள்கைகள், பகவத் கீதை, ராமாயணம் மற்றும் மகாபாரதத்தில் உள்ள பங்கு மற்றும் நெறிமுறை மற்றும் ஆன்மீக வாழ்க்கையில் அதன் முக்கியத்துவத்தை ஆராயுங்கள்.",
+            "keywords": [
+                "தர்மத்தின் பொருள்",
+                "இந்து தர்ம தத்துவம்",
+                "பகவத் கீதையில் தர்மம்",
+                "மகாபாரதத்தில் தர்மம்",
+                "தர்ம கோட்பாடுகள்",
+                "சனாதன தர்மத்தின் தத்துவம்",
+                "தர்மம் மற்றும் கர்மா",
+                "தர்ம நெறிமுறைகள்",
+                "இந்து மதத்தில் தர்மம்",
+                "தர்ம ஆன்மீக பாதை"
+            ],
+            "robots": "குறியீட்டு, பின்பற்றவும்",
+            "url": "https://sanatanadharmam.in/philosophy/dharma"
         },
-        {
-          "@type": "Article",
-          "headline": "Dharma – Philosophy of Righteous Living",
-          "about": [
-            "Dharma",
-            "Sanatana Dharma",
-            "Hindu philosophy",
-            "Bhagavad Gita",
-            "Mahabharata"
-          ],
-          "isPartOf": {
-            "@type": "WebSite",
-            "name": "Sanatanadharmam",
-            "url": "https://sanatanadharmam.in"
-          },
-          "url": "https://sanatanadharmam.in/philosophy/dharma"
-        }
-      ]
-    },
-    "categories_of_dharma": {
-      "apad_dharma": {
-        "examples": [
-          "Self-defense",
-          "Breaking normal rules to preserve life"
-        ],
-        "meaning": "Duties during emergencies"
-      },
-      "sadharana_dharma": {
-        "examples": [
-          "Ahimsa (non-violence)",
-          "Satya (truthfulness)",
-          "Asteya (non-stealing)",
-          "Shaucha (cleanliness)",
-          "Daya (compassion)"
-        ],
-        "meaning": "Universal duties applicable to all"
-      },
-      "svadharma": {
-        "examples": "Highly emphasized in the Bhagavathgita.",
-        "meaning": "Personal duty according to one’s nature, abilities, and circumstances"
-      },
-      "varnashrama_dharma": {
-        "components": {
-          "ashrama_duties": [
-            "Brahmacharya",
-            "Grihastha",
-            "Vanaprastha",
-            "Sannyasa"
-          ],
-          "varna_duties": [
-            "Brahmana",
-            "Kshatriya",
-            "Vaishya",
-            "Shudra"
-          ]
+        "openGraph": {
+            "title": "Dharma – Core Principle of Sanatana Dharma",
+            "description": "சனாதன தர்ம தத்துவத்தில் நீதி மற்றும் பிரபஞ்ச ஒழுங்கின் வழிகாட்டும் கொள்கையான தர்மத்தைப் புரிந்து கொள்ளுங்கள்.",
+            "url": "https://sanatanadharmam.in/philosophy/dharma",
+            "siteName": "சனாதனதர்மம்",
+            "type": "கட்டுரை",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/philosophy-dharma.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Dharma Philosophy"
+                }
+            ]
         },
-        "meaning": "Duties based on one's stage of life and role in society"
-      },
-      "yugadharma": {
-        "examples": [
-          "Satya Yuga",
-          "Treta",
-          "Dvapara",
-          "Kali Yuga"
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "வரையறுக்கப்பட்ட கால",
+                    "name": "தர்மம்",
+                    "description": "தர்மம் என்பது சனாதன தர்மத்தின் ஒரு மையக் கருத்தாகும், இது நீதி, கடமை, தார்மீக சட்டம் மற்றும் பிரபஞ்சத்தை ஆளும் அண்ட ஒழுங்கு ஆகியவற்றைக் குறிக்கிறது.",
+                    "url": "https://sanatanadharmam.in/philosophy/dharma",
+                    "inDefinedTermSet": {
+                        "@type": "வரையறுக்கப்பட்ட காலக்கெடு",
+                        "name": "சனாதன தர்ம தத்துவம்"
+                    }
+                },
+                {
+                    "@type": "கட்டுரை",
+                    "headline": "தர்மம் - நேர்மையான வாழ்க்கையின் தத்துவம்",
+                    "about": [
+                        "தர்மம்",
+                        "சனாதன தர்மம்",
+                        "இந்து தத்துவம்",
+                        "பகவத் கீதை",
+                        "மகாபாரதம்"
+                    ],
+                    "isPartOf": {
+                        "@type": "இணையத்தளம்",
+                        "name": "சனாதனதர்மம்",
+                        "url": "https://sanatanadharmam.in"
+                    },
+                    "url": "https://sanatanadharmam.in/philosophy/dharma"
+                }
+            ]
+        },
+        "categories_of_dharma": {
+            "apad_dharma": {
+                "examples": [
+                    "தற்காப்பு",
+                    "உயிரைப் பாதுகாக்க சாதாரண விதிகளை மீறுதல்"
+                ],
+                "meaning": "அவசர காலங்களில் கடமைகள்"
+            },
+            "sadharana_dharma": {
+                "examples": [
+                    "அஹிம்சை (அகிம்சை)",
+                    "சத்யா (உண்மை)",
+                    "அஸ்தேயா (திருடாதது)",
+                    "ஷௌச்சா (தூய்மை)",
+                    "தயா (இரக்கம்)"
+                ],
+                "meaning": "அனைவருக்கும் பொருந்தும் உலகளாவிய கடமைகள்"
+            },
+            "svadharma": {
+                "examples": "பகவத்கீதையில் மிகவும் வலியுறுத்தப்பட்டது.",
+                "meaning": "ஒருவரின் இயல்பு, திறன்கள் மற்றும் சூழ்நிலைகளுக்கு ஏற்ப தனிப்பட்ட கடமை"
+            },
+            "varnashrama_dharma": {
+                "components": {
+                    "ashrama_duties": [
+                        "பிரம்மச்சரியம்",
+                        "க்ரிஹஸ்தா",
+                        "வானபிரஸ்தம்",
+                        "சந்நியாசம்"
+                    ],
+                    "varna_duties": [
+                        "பிராமணன்",
+                        "க்ஷத்ரிய",
+                        "வைஷ்ய",
+                        "சூத்திரன்"
+                    ]
+                },
+                "meaning": "ஒருவரின் வாழ்க்கை நிலை மற்றும் சமூகத்தில் பங்கு ஆகியவற்றின் அடிப்படையில் கடமைகள்"
+            },
+            "yugadharma": {
+                "examples": [
+                    "சத்ய யுகம்",
+                    "திரேதா",
+                    "துவாபர",
+                    "கலியுகம்"
+                ],
+                "meaning": "சமுதாயத் தேவைகளின் அடிப்படையில் சகாப்தத்திற்கு (யுகத்திற்கு) பொருத்தமான தர்மம்."
+            }
+        },
+        "core_principles": {
+            "ahimsa": "எண்ணம், சொல், செயலில் அகிம்சை",
+            "aparigraha": "உடைமையற்ற தன்மை",
+            "asteya": "திருடாதது",
+            "dama": "புலன்களின் கட்டுப்பாடு",
+            "dana": "தொண்டு மற்றும் பெருந்தன்மை",
+            "daya": "இரக்கம்",
+            "kshama": "மன்னிப்பு",
+            "satya": "உண்மைக்கு அர்ப்பணிப்பு",
+            "swadhyaya": "சுய ஆய்வு மற்றும் பிரதிபலிப்பு",
+            "tapas": "சுய ஒழுக்கம்"
+        },
+        "daily_life_application": {
+            "family_dharma": [
+                "மரியாதை",
+                "பொறுப்பு",
+                "கவனிப்பு"
+            ],
+            "global_dharma": [
+                "நிலையாக வாழ்தல்",
+                "அமைதியை ஊக்குவித்தல்"
+            ],
+            "professional_dharma": [
+                "நேர்மை",
+                "திறமை",
+                "பொறுப்புக்கூறல்"
+            ],
+            "spiritual_dharma": [
+                "தியானம்",
+                "சுய ஆய்வு",
+                "இரக்கம்"
+            ]
+        },
+        "definition": [
+            "நீதி",
+            "கடமை",
+            "அண்ட ஒழுங்கு",
+            "தார்மீக சட்டம்",
+            "வாழ்க்கை முறை"
         ],
-        "meaning": "Dharma suited to the era (Yuga) based on societal needs."
-      }
-    },
-    "core_principles": {
-      "ahimsa": "Non-violence in thought, word, and action",
-      "aparigraha": "Non-possessiveness",
-      "asteya": "Non-stealing",
-      "dama": "Control of senses",
-      "dana": "Charity and generosity",
-      "daya": "Compassion",
-      "kshama": "Forgiveness",
-      "satya": "Commitment to truth",
-      "swadhyaya": "Self-study and reflection",
-      "tapas": "Self-discipline"
-    },
-    "daily_life_application": {
-      "family_dharma": [
-        "Respect",
-        "Responsibility",
-        "Care"
-      ],
-      "global_dharma": [
-        "Living sustainably",
-        "Promoting peace"
-      ],
-      "professional_dharma": [
-        "Honesty",
-        "Competence",
-        "Accountability"
-      ],
-      "spiritual_dharma": [
-        "Meditation",
-        "Self-study",
-        "Compassion"
-      ]
-    },
-    "definition": [
-      "righteousness",
-      "duty",
-      "cosmic order",
-      "moral law",
-      "way of life"
-    ],
-    "dharma_and_other_concepts": {
-      "dharma_artha_kama": "Dharma guides the pursuit of wealth and desire ethically.",
-      "dharma_karma_relation": "Actions aligned with dharma reduce karma; wrong actions generate bondage.",
-      "dharma_moksha_relation": "Right living purifies the mind and leads to liberation.",
-      "dharma_rita_connection": "Dharma is the human expression of cosmic order (Rta)."
-    },
-    "dharma_in_bhagavad_gita": {
-      "important_verses": [
-        "Chapter 2.47 — Karmanye vadhikaraste...",
-        "Chapter 3 — Karma Yoga",
-        "Chapter 18.66 — Surrender to Divine Dharma"
-      ],
-      "key_ideas": {
-        "detachment": "Letting go of ego and desires to act righteously.",
-        "nishkama_karma": "Performing duty without attachment to outcomes.",
-        "svadharma_supremacy": "Better to follow one's own duty imperfectly than another’s perfectly.",
-        "yoga_as_dharma": "Selfless action aligned with divine order."
-      }
-    },
-    "dharma_in_mahabharata": {
-      "bhishma_dharma": "Duty over personal desire",
-      "krishna_dharma": "Acting for dharma even through unconventional methods",
-      "kshatriya_dharma": "Courage, protection, righteousness",
-      "yudhishthira_dharma": "Truth, justice, compassion"
-    },
-    "dharma_in_ramayana": {
-      "hanuman_dharma": "Bhakti, fearless duty, intelligence",
-      "lakshmana_dharma": "Loyalty, service, brotherly duty",
-      "rama_dharma": "Ideal king, ideal son, ideal human (Maryada Purushottama)",
-      "sita_dharma": "Purity, strength, devotion, sacrifice"
-    },
-    "dharma_qa": [
-      {
-        "answer": "Dharma is a complex term that means righteousness, duty, moral law, and the path of right living. It is the principle that upholds the order of the universe and guides individuals to act ethically and responsibly according to their role, nature, and circumstances.",
-        "question": "What is the true meaning of Dharma?"
-      },
-      {
-        "answer": "No, Dharma is both universal and individual. While there are universal values (like truth and non-violence), each person has a unique 'svadharma'—their own duty based on their nature, stage of life, and situation. Fulfilling one's own dharma is considered superior to imitating another's.",
-        "question": "Is Dharma the same for everyone?"
-      },
-      {
-        "answer": "Dharma guides actions (karma). Actions performed in accordance with dharma lead to spiritual growth and reduce bondage, while actions against dharma create negative karma and suffering.",
-        "question": "How does Dharma relate to Karma?"
-      },
-      {
-        "answer": "Sometimes, following dharma may involve personal sacrifice or hardship. Scriptures teach that upholding dharma, even in adversity, leads to long-term well-being and spiritual progress. The Mahabharata and Ramayana are filled with examples of characters facing such dilemmas.",
-        "question": "What if following Dharma causes suffering?"
-      },
-      {
-        "answer": "Self-reflection, study of scriptures, guidance from wise teachers, and understanding one's own nature help in discerning one's dharma. The Bhagavad Gita emphasizes acting according to one's inner nature and role in society.",
-        "question": "How can one know their Dharma?"
-      },
-      {
-        "answer": "Yes, dharma can change with age, circumstances, and societal needs. For example, a student’s dharma is to learn, while a householder’s is to support family and society. In emergencies, special rules (apad dharma) may apply.",
-        "question": "Can Dharma change over time?"
-      },
-      {
-        "answer": "No, dharma is not limited to religious rituals. It encompasses all aspects of life—personal, social, professional, and spiritual. It is about living ethically, fulfilling responsibilities, and contributing to the greater good.",
-        "question": "Is Dharma only about religion?"
-      },
-      {
-        "answer": "Speaking the truth, being compassionate, fulfilling family and professional duties, protecting the environment, and helping those in need are all expressions of dharma.",
-        "question": "What are some examples of Dharma in daily life?"
-      },
-      {
-        "answer": "Scriptures like the Vedas, Upanishads, Bhagavad Gita, Ramayana, and Mahabharata discuss dharma extensively, offering guidance through stories, teachings, and direct instructions.",
-        "question": "What do the scriptures say about Dharma?"
-      },
-      {
-        "answer": "Dharma provides a timeless ethical framework for individuals and societies. In a rapidly changing world, it helps maintain harmony, justice, and purpose, guiding us to act with integrity and compassion.",
-        "question": "Why is Dharma important in modern times?"
-      }
-    ],
-    "modern_relevance": {
-      "environment": [
-        "Harmony with nature",
-        "Sustainability"
-      ],
-      "ethics": [
-        "Truth",
-        "Non-violence",
-        "Respect"
-      ],
-      "individual": [
-        "Mental peace",
-        "Self-discipline",
-        "Purpose"
-      ],
-      "society": [
-        "Equality",
-        "Justice",
-        "Responsibility"
-      ]
-    },
-    "philosophical_dimensions": {
-      "cosmic_dharma": "Universal order (Rta) that governs nature and balance.",
-      "individual_dharma": "Personal conduct based on ethics, duty, and inner nature.",
-      "social_dharma": "Ethical frameworks for society, relations, justice, and governance.",
-      "spiritual_dharma": "Path towards liberation — self-realization and purity."
-    },
-    "schools_related_to_dharma": {
-      "mimamsa": "Focus on rituals and actions as dharma.",
-      "nyaya": "Dharma through correct knowledge and logic.",
-      "vedanta": "Dharma as preparation for liberation (moksha).",
-      "yoga": "Ethical foundations — Yamas & Niyamas."
-    },
-    "scriptural_sources": {
-      "epics": [
-        "Ramayana",
-        "Mahabharata",
-        "Bhagavathgita"
-      ],
-      "puranas": [
-        "Bhagavata Purana",
-        "Padma Purana",
-        "Vishnu Purana",
-        "Skanda Purana"
-      ],
-      "shruti": [
-        "Vedas",
-        "Upanishads"
-      ],
-      "smriti": [
-        "Manusmriti",
-        "Yajnavalkya Smriti",
-        "Narada Smriti"
-      ]
+        "dharma_and_other_concepts": {
+            "dharma_artha_kama": "செல்வத்தையும் ஆசையையும் நெறிமுறையாகப் பின்தொடர்வதை தர்மம் வழிநடத்துகிறது.",
+            "dharma_karma_relation": "தர்மத்துடன் இணைந்த செயல்கள் கர்மாவைக் குறைக்கின்றன; தவறான செயல்கள் அடிமைத்தனத்தை உருவாக்குகின்றன.",
+            "dharma_moksha_relation": "சரியான வாழ்க்கை மனதை தூய்மையாக்கி விடுதலைக்கு வழிவகுக்கும்.",
+            "dharma_rita_connection": "தர்மம் என்பது பிரபஞ்ச ஒழுங்கின் (Rta) மனித வெளிப்பாடு."
+        },
+        "dharma_in_bhagavad_gita": {
+            "important_verses": [
+                "அத்தியாயம் 2.47 — கர்மண்யே வாதிகாரஸ்தே...",
+                "அத்தியாயம் 3 - கர்ம யோகம்",
+                "அத்தியாயம் 18.66 - தெய்வீக தர்மத்திற்கு சரணடைதல்"
+            ],
+            "key_ideas": {
+                "detachment": "ஈகோவை விட்டுவிட்டு நேர்மையாக செயல்பட வேண்டும்.",
+                "nishkama_karma": "விளைவுகளுடன் பற்று இல்லாமல் கடமையைச் செய்தல்.",
+                "svadharma_supremacy": "ஒருவரின் சொந்தக் கடமையை மற்றவருடைய கச்சிதமாகப் பின்பற்றுவதை விடச் சரியாகப் பின்பற்றுவது நல்லது.",
+                "yoga_as_dharma": "தன்னலமற்ற செயல் தெய்வீக ஒழுங்குடன் இணைந்தது."
+            }
+        },
+        "dharma_in_mahabharata": {
+            "bhishma_dharma": "தனிப்பட்ட ஆசை மீது கடமை",
+            "krishna_dharma": "வழக்கத்திற்கு மாறான முறைகளிலும் தர்மத்திற்காக செயல்படுவது",
+            "kshatriya_dharma": "தைரியம், பாதுகாப்பு, நீதி",
+            "yudhishthira_dharma": "உண்மை, நீதி, கருணை"
+        },
+        "dharma_in_ramayana": {
+            "hanuman_dharma": "பக்தி, அச்சமற்ற கடமை, புத்திசாலித்தனம்",
+            "lakshmana_dharma": "விசுவாசம், சேவை, சகோதர கடமை",
+            "rama_dharma": "சிறந்த அரசர், சிறந்த மகன், சிறந்த மனிதர் (மர்யதா புருஷோத்தமா)",
+            "sita_dharma": "தூய்மை, வலிமை, பக்தி, தியாகம்"
+        },
+        "dharma_qa": [
+            {
+                "answer": "தர்மம் என்பது ஒரு சிக்கலான சொல், அதாவது நீதி, கடமை, தார்மீக சட்டம் மற்றும் சரியான வாழ்க்கையின் பாதை. இது பிரபஞ்சத்தின் ஒழுங்கை நிலைநிறுத்துகிறது மற்றும் தனிநபர்கள் தங்கள் பங்கு, இயல்பு மற்றும் சூழ்நிலைகளுக்கு ஏற்ப நெறிமுறை மற்றும் பொறுப்புடன் செயல்பட வழிகாட்டுகிறது.",
+                "question": "தர்மத்தின் உண்மையான அர்த்தம் என்ன?"
+            },
+            {
+                "answer": "இல்லை, தர்மம் என்பது உலகளாவியது மற்றும் தனிப்பட்டது. உலகளாவிய மதிப்புகள் (உண்மை மற்றும் அகிம்சை போன்றவை) இருக்கும்போது, ​​ஒவ்வொரு நபருக்கும் ஒரு தனித்துவமான 'ஸ்வதர்மம்' உள்ளது-அவர்களின் இயல்பு, வாழ்க்கை நிலை மற்றும் சூழ்நிலையின் அடிப்படையில் அவரவர் கடமை. ஒருவரின் தர்மத்தை நிறைவேற்றுவது, மற்றவரின் தர்மத்தைப் பின்பற்றுவதை விட உயர்ந்ததாகக் கருதப்படுகிறது.",
+                "question": "அனைவருக்கும் தர்மம் ஒன்றா?"
+            },
+            {
+                "answer": "தர்மம் செயல்களை (கர்மா) வழிநடத்துகிறது. தர்மத்தின்படி செய்யப்படும் செயல்கள் ஆன்மீக வளர்ச்சிக்கு வழிவகுக்கும் மற்றும் அடிமைத்தனத்தை குறைக்கின்றன, அதே நேரத்தில் தர்மத்திற்கு எதிரான செயல்கள் எதிர்மறையான கர்மாவையும் துன்பத்தையும் உருவாக்குகின்றன.",
+                "question": "தர்மத்திற்கும் கர்மாவிற்கும் எப்படி தொடர்பு?"
+            },
+            {
+                "answer": "சில நேரங்களில், தர்மத்தைப் பின்பற்றுவது தனிப்பட்ட தியாகம் அல்லது கஷ்டங்களை உள்ளடக்கியதாக இருக்கலாம். துன்பங்களில் கூட தர்மத்தை நிலைநிறுத்துவது நீண்ட கால நல்வாழ்வுக்கும் ஆன்மீக முன்னேற்றத்திற்கும் வழிவகுக்கும் என்று வேதங்கள் கற்பிக்கின்றன. மகாபாரதமும் ராமாயணமும் இத்தகைய இக்கட்டான சூழ்நிலைகளை எதிர்கொள்ளும் கதாபாத்திரங்களின் உதாரணங்களால் நிரப்பப்பட்டுள்ளன.",
+                "question": "தர்மத்தைப் பின்பற்றினால் துன்பம் உண்டானால்?"
+            },
+            {
+                "answer": "சுயசிந்தனை, வேதங்களைப் படிப்பது, ஞானிகளான ஆசிரியர்களின் வழிகாட்டுதல், ஒருவரின் சொந்த இயல்பைப் புரிந்துகொள்வது ஆகியவை ஒருவரின் தர்மத்தைக் கண்டறிய உதவுகின்றன. பகவத் கீதை ஒருவரின் உள்ளார்ந்த இயல்பு மற்றும் சமூகத்தில் உள்ள பங்கிற்கு ஏற்ப செயல்படுவதை வலியுறுத்துகிறது.",
+                "question": "அவர்களின் தர்மத்தை எப்படி அறிய முடியும்?"
+            },
+            {
+                "answer": "ஆம், வயது, சூழ்நிலைகள் மற்றும் சமூகத் தேவைகளுக்கு ஏற்ப தர்மம் மாறலாம். உதாரணமாக, ஒரு மாணவனின் தர்மம் கற்றுக்கொள்வது, அதே சமயம் வீட்டுக்காரன் குடும்பத்தையும் சமுதாயத்தையும் ஆதரிப்பது. அவசர காலங்களில், சிறப்பு விதிகள் (apad dharma) பொருந்தும்.",
+                "question": "காலப்போக்கில் தர்மம் மாறுமா?"
+            },
+            {
+                "answer": "இல்லை, தர்மம் என்பது மதச் சடங்குகளுக்கு மட்டும் அல்ல. இது வாழ்க்கையின் அனைத்து அம்சங்களையும் உள்ளடக்கியது - தனிப்பட்ட, சமூக, தொழில்முறை மற்றும் ஆன்மீகம். இது நெறிமுறையாக வாழ்வதும், பொறுப்புகளை நிறைவேற்றுவதும், அதிக நன்மைக்கு பங்களிப்பதும் ஆகும்.",
+                "question": "தர்மம் என்பது மதம் மட்டும்தானா?"
+            },
+            {
+                "answer": "உண்மையைப் பேசுவது, கருணையுடன் இருப்பது, குடும்பம் மற்றும் தொழில்சார் கடமைகளை நிறைவேற்றுவது, சுற்றுச்சூழலைப் பாதுகாப்பது, தேவைப்படுபவர்களுக்கு உதவுவது ஆகிய அனைத்தும் தர்மத்தின் வெளிப்பாடுகள்.",
+                "question": "அன்றாட வாழ்வில் தர்மத்தின் சில உதாரணங்கள் யாவை?"
+            },
+            {
+                "answer": "வேதங்கள், உபநிடதங்கள், பகவத் கீதை, ராமாயணம் மற்றும் மகாபாரதம் போன்ற வேதங்கள் தர்மத்தைப் பற்றி விரிவாக விவாதிக்கின்றன, கதைகள், போதனைகள் மற்றும் நேரடி அறிவுறுத்தல்கள் மூலம் வழிகாட்டுதலை வழங்குகின்றன.",
+                "question": "தர்மத்தைப் பற்றி வேதம் என்ன சொல்கிறது?"
+            },
+            {
+                "answer": "தர்மம் தனிநபர்கள் மற்றும் சமூகங்களுக்கு காலமற்ற நெறிமுறை கட்டமைப்பை வழங்குகிறது. வேகமாக மாறிவரும் உலகில், இது நல்லிணக்கம், நீதி மற்றும் நோக்கத்தை பராமரிக்க உதவுகிறது, நேர்மை மற்றும் இரக்கத்துடன் செயல்பட நம்மை வழிநடத்துகிறது.",
+                "question": "நவீன காலத்தில் தர்மம் ஏன் முக்கியமானது?"
+            }
+        ],
+        "modern_relevance": {
+            "environment": [
+                "இயற்கையோடு இணக்கம்",
+                "நிலைத்தன்மை"
+            ],
+            "ethics": [
+                "உண்மை",
+                "அகிம்சை",
+                "மரியாதை"
+            ],
+            "individual": [
+                "மன அமைதி",
+                "சுய ஒழுக்கம்",
+                "நோக்கம்"
+            ],
+            "society": [
+                "சமத்துவம்",
+                "நீதி",
+                "பொறுப்பு"
+            ]
+        },
+        "philosophical_dimensions": {
+            "cosmic_dharma": "இயற்கை மற்றும் சமநிலையை நிர்வகிக்கும் உலகளாவிய ஒழுங்கு (Rta).",
+            "individual_dharma": "நெறிமுறைகள், கடமை மற்றும் உள் இயல்பு ஆகியவற்றின் அடிப்படையில் தனிப்பட்ட நடத்தை.",
+            "social_dharma": "சமூகம், உறவுகள், நீதி மற்றும் நிர்வாகத்திற்கான நெறிமுறை கட்டமைப்புகள்.",
+            "spiritual_dharma": "விடுதலையை நோக்கிய பாதை - சுய-உணர்தல் மற்றும் தூய்மை."
+        },
+        "schools_related_to_dharma": {
+            "mimamsa": "சடங்குகள் மற்றும் செயல்களை தர்மமாக கவனியுங்கள்.",
+            "nyaya": "சரியான அறிவு மற்றும் தர்க்கத்தின் மூலம் தர்மம்.",
+            "vedanta": "தர்மம் என்பது விடுதலைக்கான தயாரிப்பு (மோட்சம்).",
+            "yoga": "நெறிமுறை அடிப்படைகள் - யமஸ் & நியாமாஸ்."
+        },
+        "scriptural_sources": {
+            "epics": [
+                "ராமாயணம்",
+                "மகாபாரதம்",
+                "பகவத்கீதை"
+            ],
+            "puranas": [
+                "பாகவத புராணம்",
+                "பத்ம புராணம்",
+                "விஷ்ணு புராணம்",
+                "ஸ்கந்த புராணம்"
+            ],
+            "shruti": [
+                "வேதங்கள்",
+                "உபநிடதங்கள்"
+            ],
+            "smriti": [
+                "மனுஸ்மிருதி",
+                "யாக்ஞவல்கிய ஸ்மிருதி",
+                "நாரத ஸ்மிருதி"
+            ]
+        }
     }
-  }
 }

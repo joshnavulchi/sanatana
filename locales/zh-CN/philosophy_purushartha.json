@@ -1,149 +1,149 @@
 {
-  "philosophy_purushartha": {
-    "title": "Purusharthas – Four Goals of Life in Sanatana Dharma",
-    "description": "Learn about the Purusharthas in Sanatana Dharma — Dharma, Artha, Kama and Moksha — the four goals of human life guiding ethical living, prosperity and spiritual liberation.",
-    "meta": {
-      "title": "Purusharthas – Four Goals of Life in Sanatana Dharma",
-      "canonical": "https://sanatanadharmam.in/philosophy/purushartha",
-      "description": "Learn about the Purusharthas in Sanatana Dharma — Dharma, Artha, Kama and Moksha — the four goals of human life guiding ethical living, prosperity and spiritual liberation.",
-      "keywords": [
-        "Purusharthas meaning",
-        "four goals of life",
-        "Dharma Artha Kama Moksha",
-        "Purusharthas philosophy",
-        "Hindu philosophy Purusharthas",
-        "Purusharthas in Bhagavad Gita",
-        "Purusharthas concept",
-        "Sanatana Dharma philosophy",
-        "Purusharthas spiritual goals",
-        "Purusharthas Hinduism"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/philosophy/purushartha"
-    },
-    "openGraph": {
-      "title": "Purusharthas – Four Goals of Life in Sanatana Dharma",
-      "description": "Explore the Purusharthas — Dharma, Artha, Kama and Moksha — the four guiding goals of life in Sanatana Dharma philosophy.",
-      "url": "https://sanatanadharmam.in/philosophy/purushartha",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/purusharthas-philosophy.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Purusharthas Philosophy"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "DefinedTerm",
-          "name": "Purusharthas",
-          "description": "Purusharthas are the four goals of human life in Sanatana Dharma: Dharma, Artha, Kama and Moksha.",
-          "url": "https://sanatanadharmam.in/philosophy/purushartha",
-          "inDefinedTermSet": {
-            "@type": "DefinedTermSet",
-            "name": "Sanatana Dharma Philosophy"
-          }
+    "philosophy_purushartha": {
+        "title": "Purusharthas – Sanatana Dharma 的四个人生目标",
+        "description": "了解 Sanatana Dharma 中的 Purusharthas（Dharma、Artha、Kama 和 Moksha）——指导道德生活、繁荣和精神解放的人类生活的四个目标。",
+        "meta": {
+            "title": "Purusharthas – Sanatana Dharma 的四个人生目标",
+            "canonical": "https://sanatanadharmam.in/philosophy/purushartha",
+            "description": "了解 Sanatana Dharma 中的 Purusharthas（Dharma、Artha、Kama 和 Moksha）——指导道德生活、繁荣和精神解放的人类生活的四个目标。",
+            "keywords": [
+                "普鲁萨塔斯的含义",
+                "人生的四个目标",
+                "达摩阿塔卡玛莫克沙",
+                "普鲁萨塔哲学",
+                "印度教哲学普鲁萨塔斯",
+                "《薄伽梵歌》中的普鲁萨塔斯",
+                "普鲁萨塔概念",
+                "萨那塔那佛法哲学",
+                "普鲁萨塔的精神目标",
+                "普鲁萨塔斯印度教"
+            ],
+            "robots": "索引，关注",
+            "url": "https://sanatanadharmam.in/philosophy/purushartha"
         },
-        {
-          "@type": "Article",
-          "headline": "Purusharthas – The Four Goals of Human Life",
-          "about": [
-            "Purusharthas",
-            "Dharma",
-            "Artha",
-            "Kama",
-            "Moksha",
-            "Sanatana Dharma philosophy"
-          ],
-          "isPartOf": {
-            "@type": "WebSite",
-            "name": "Sanatanadharmam",
-            "url": "https://sanatanadharmam.in"
-          },
-          "url": "https://sanatanadharmam.in/philosophy/purushartha"
-        }
-      ]
-    },
-    "core_principles": [
-      "Balance between material and spiritual pursuits",
-      "Ethical framework for achieving goals",
-      "Progressive evolution from desire to liberation"
-    ],
-    "definition": "Purusharthas are the four fundamental goals of human life in Hindu philosophy, guiding individuals toward a balanced and meaningful existence.",
-    "four_goals": {
-      "artha": "Material prosperity, wealth, and resources for sustenance.",
-      "dharma": "Righteousness, moral duties, and ethical living.",
-      "kama": "Desires, pleasures, and emotional fulfillment.",
-      "moksha": "Liberation from the cycle of birth and death; spiritual freedom."
-    },
-    "key_scriptural_references": [
-      {
-        "quote_summary": "Perform duties without attachment to results for spiritual progress.",
-        "text": "Bhagavathgita"
-      },
-      {
-        "quote_summary": "Defines the role of Dharma in guiding Artha and Kama.",
-        "text": "Manusmriti"
-      }
-    ],
-    "modern_relevance": {
-      "personal_development": "Encourages holistic growth—ethical, material, emotional, and spiritual.",
-      "society": "Promotes harmony through balanced living.",
-      "well-being": "Integrates duty, wealth, pleasure, and liberation for a fulfilling life."
-    },
-    "origin": {
-      "meaning": "Derived from Sanskrit 'Purusha' (human being) and 'Artha' (purpose or goal).",
-      "roots": "Vedic and Dharmashastra teachings",
-      "texts": [
-        "Vedas",
-        "Upanishads",
-        "Manusmriti",
-        "Bhagavathgita"
-      ]
-    },
-    "relation_to_other_concepts": {
-      "dharma": "Acts as a guiding principle for Artha and Kama.",
-      "karma": "Actions in pursuit of these goals create karmic consequences.",
-      "moksha": "The ultimate goal beyond worldly pursuits."
-    },
-    "purushartha_qa": [
-      {
-        "question": "What are the Purusharthas?",
-        "answer": "The Purusharthas are the four fundamental aims of human life in Hindu philosophy: Dharma (righteousness), Artha (prosperity), Kama (desire), and Moksha (liberation). They provide a holistic framework for a balanced and meaningful life."
-      },
-      {
-        "question": "How do the Purusharthas relate to each other?",
-        "answer": "Dharma guides the pursuit of Artha and Kama, ensuring that wealth and desires are sought ethically. Moksha is the ultimate goal, transcending the other three. All four are interdependent and must be balanced for true fulfillment."
-      },
-      {
-        "question": "Is one Purushartha more important than the others?",
-        "answer": "While all are important, Moksha is considered the highest goal. However, neglecting Dharma, Artha, or Kama can lead to imbalance. The ideal is to harmonize all four according to one’s stage of life and personal nature."
-      },
-      {
-        "question": "How are the Purusharthas relevant today?",
-        "answer": "They offer timeless guidance for ethical living, responsible wealth creation, healthy relationships, and spiritual growth. In modern life, they help individuals find purpose, balance, and inner peace."
-      },
-      {
-        "question": "What scriptures discuss the Purusharthas?",
-        "answer": "The Vedas, Upanishads, Manusmriti, and Bhagavad Gita all discuss the Purusharthas, providing philosophical and practical insights."
-      },
-      {
-        "question": "Can the Purusharthas conflict with each other?",
-        "answer": "Yes, sometimes desires (Kama) or pursuit of wealth (Artha) may conflict with Dharma. In such cases, Dharma should take precedence, as it upholds ethical and social order."
-      },
-      {
-        "question": "How do the Purusharthas support spiritual progress?",
-        "answer": "By fulfilling worldly duties and desires ethically, the mind becomes purified and prepared for the pursuit of Moksha, the ultimate liberation."
-      },
-      {
-        "question": "Are the Purusharthas unique to Hinduism?",
-        "answer": "While the framework is most developed in Hindu philosophy, similar ideas about balancing duty, wealth, desire, and spiritual freedom are found in other world traditions."
-      }
-    ]
-  }
+        "openGraph": {
+            "title": "Purusharthas – Sanatana Dharma 的四个人生目标",
+            "description": "探索 Purusharthas——Dharma、Artha、Kama 和 Moksha——Sanatana Dharma 哲学中的四个人生指导目标。",
+            "url": "https://sanatanadharmam.in/philosophy/purushartha",
+            "siteName": "萨那塔达曼",
+            "type": "文章",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/purusharthas-philosophy.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Purusharthas Philosophy"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "定义术语",
+                    "name": "普鲁萨塔斯",
+                    "description": "Purusharthas 是 Sanatana Dharma 中人类生活的四个目标：Dharma、Artha、Kama 和 Moksha。",
+                    "url": "https://sanatanadharmam.in/philosophy/purushartha",
+                    "inDefinedTermSet": {
+                        "@type": "定义术语集",
+                        "name": "萨纳塔纳佛法哲学"
+                    }
+                },
+                {
+                    "@type": "文章",
+                    "headline": "Purusharthas——人类生活的四个目标",
+                    "about": [
+                        "普鲁萨塔斯",
+                        "法",
+                        "阿尔萨",
+                        "卡马",
+                        "解脱",
+                        "萨那塔那佛法哲学"
+                    ],
+                    "isPartOf": {
+                        "@type": "网站",
+                        "name": "萨那塔达曼",
+                        "url": "https://sanatanadharmam.in"
+                    },
+                    "url": "https://sanatanadharmam.in/philosophy/purushartha"
+                }
+            ]
+        },
+        "core_principles": [
+            "物质追求与精神追求的平衡",
+            "实现目标的道德框架",
+            "从欲望到解脱的渐进演变"
+        ],
+        "definition": "Purusharthas 是印度教哲学中人类生活的四个基本目标，引导个人走向平衡和有意义的存在。",
+        "four_goals": {
+            "artha": "物质繁荣、财富和生存资源。",
+            "dharma": "正义、道德义务和有道德的生活。",
+            "kama": "欲望、快乐和情感的满足。",
+            "moksha": "从生死轮回中解脱出来； spiritual freedom."
+        },
+        "key_scriptural_references": [
+            {
+                "quote_summary": "履行职责而不执着于精神进步的结果。",
+                "text": "薄伽梵歌"
+            },
+            {
+                "quote_summary": "定义了 Dharma 在指导 Artha 和 Kama 中的作用。",
+                "text": "手奴"
+            }
+        ],
+        "modern_relevance": {
+            "personal_development": "鼓励全面成长——道德、物质、情感和精神。",
+            "society": "通过平衡的生活促进和谐。",
+            "well-being": "将责任、财富、快乐和解放融为一体，打造充实的生活。"
+        },
+        "origin": {
+            "meaning": "源自梵文“Purusha”（人类）和“Artha”（目的或目标）。",
+            "roots": "吠陀和佛法教义",
+            "texts": [
+                "吠陀经",
+                "奥义书",
+                "手奴",
+                "薄伽梵歌"
+            ]
+        },
+        "relation_to_other_concepts": {
+            "dharma": "充当 Artha 和 Kama 的指导原则。",
+            "karma": "追求这些目标的行动会产生业力后果。",
+            "moksha": "超越世俗追求的终极目标。"
+        },
+        "purushartha_qa": [
+            {
+                "question": "什么是普鲁沙塔？",
+                "answer": "Purusharthas 是印度教哲学中人类生活的四个基本目标：Dharma（正义）、Artha（繁荣）、Kama（欲望）和 Moksha（解脱）。它们为平衡和有意义的生活提供了一个整体框架。"
+            },
+            {
+                "question": "Purusharthas 之间有何关系？",
+                "answer": "佛法指导着阿尔塔和卡玛的追求，确保财富和欲望得到合乎道德的追求。解脱是终极目标，超越其他三个目标。所有四个都是相互依存的，必须平衡才能真正实现。"
+            },
+            {
+                "question": "一位普鲁萨塔（Puruhartha）比其他人更重要吗？",
+                "answer": "虽然一切都很重要，但解脱被认为是最高目标。然而，忽视 Dharma、Artha 或 Kama 可能会导致不平衡。理想的是根据一个人的人生阶段和个人本性来协调这四个方面。"
+            },
+            {
+                "question": "Purusharthas 与今天有什么关系？",
+                "answer": "它们为道德生活、负责任的财富创造、健康的人际关系和精神成长提供了永恒的指导。在现代生活中，它们帮助个人找到目标、平衡和内心的平静。"
+            },
+            {
+                "question": "哪些经文讨论了普鲁萨塔斯？",
+                "answer": "《吠陀经》、《奥义书》、《Manusmriti》和《薄伽梵歌》都讨论了《普鲁萨塔》，提供了哲学和实践见解。"
+            },
+            {
+                "question": "Purusharthas 会互相冲突吗？",
+                "answer": "是的，有时欲望（Kama）或追求财富（Artha）可能与佛法发生冲突。在这种情况下，佛法应该优先，因为它维护道德和社会秩序。"
+            },
+            {
+                "question": "Purusharthas 如何支持灵性进步？",
+                "answer": "通过道德地履行世俗的义务和欲望，心灵就会变得纯净，并为追求最终的解脱做好准备。"
+            },
+            {
+                "question": "Purusharthas 是印度教独有的吗？",
+                "answer": "虽然这个框架在印度教哲学中最为发达，但在其他世界传统中也发现了关于平衡责任、财富、欲望和精神自由的类似想法。"
+            }
+        ]
+    }
 }

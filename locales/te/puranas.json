@@ -1,61 +1,61 @@
 {
-  "puranas": {
-    "title": "Puranas – Sacred Traditions and Stories of Sanātana Dharma",
-    "description": "Explore the Puranas: ancient texts that preserve stories, cosmology, devotion, dharma, and cultural memory within Sanātana Dharma.",
-    "meta": {
-      "title": "Puranas – Sacred Traditions and Stories of Sanātana Dharma",
-      "canonical": "https://sanatanadharmam.in/puranas",
-      "description": "Explore the Puranas: ancient texts that preserve stories, cosmology, devotion, dharma, and cultural memory within Sanātana Dharma.",
-      "keywords": [
-        "Puranas",
-        "Sanatana Dharma",
-        "Hindu scriptures",
-        "cosmology",
-        "bhakti",
-        "dharma"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/puranas",
-      "ogImage": "https://sanatanadharmam.in/og/puranas.png"
-    },
-    "openGraph": {
-      "title": "Puranas – Sacred Traditions and Stories of Sanātana Dharma",
-      "description": "Explore the Puranas: ancient texts that preserve stories, cosmology, devotion, dharma, and cultural memory within Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas",
-      "siteName": "Sanatanadharmam",
-      "type": "website",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/puranas.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Puranas – Sacred Traditions and Stories of Sanātana Dharma"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "CollectionPage",
-      "name": "Puranas – Sacred Traditions and Stories of Sanātana Dharma",
-      "description": "Explore the Puranas: ancient texts that preserve stories, cosmology, devotion, dharma, and cultural memory within Sanātana Dharma.",
-      "url": "https://sanatanadharmam.in/puranas",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "The Puranas are a large body of Sanskrit literature that preserve sacred history, cosmology, devotional traditions, and ethical guidance. They present philosophy through narrative—stories of sages and kings, teachings on worship and duty, and reflections on time cycles and creation.\n\nTraditionally, the Puranas are grouped into the Mahapuranas and Upapuranas, with many texts closely associated with particular deities and devotional lineages. As living tradition, the Puranas have shaped temple culture, festivals, pilgrimage, and household devotion across India for centuries.",
-    "scripture_text": [
-      {
-        "section": "What a Purana typically contains",
-        "content": "Many Puranas are described as containing the classic five themes (panchalakshana): creation (sarga), recreation after dissolution (pratisarga), genealogies (vamsha), cosmic epochs and Manu cycles (manvantara), and dynastic histories (vamshanucharita). In practice, each Purana also includes hymns, dialogues, ethical teachings, pilgrimage guides, and sections on ritual and devotion."
-      },
-      {
-        "section": "How to read Puranic narratives",
-        "content": "Puranic stories are often multi-layered: they can be read as devotion (bhakti), as moral instruction (dharma), and as symbolic teaching about the mind, time, and the relationship between the individual self and the divine. This site treats them as a devotional-philosophical tradition, not merely as folklore."
-      }
-    ],
-    "philosophical_explanation": "The Puranas transmit philosophical ideas in an accessible form. Instead of presenting doctrine only through abstraction, they use characters, vows, crises, and transformations to show how dharma is applied under real-world pressure. Their cosmology teaches cyclical time and impermanence, while devotional sections cultivate surrender, gratitude, and inner steadiness.\n\nFor many readers, the Puranas serve as a bridge: from story and worship to deeper inquiry into the Upanishadic vision of the Self, the nature of reality, and liberation (moksha)."
-  }
+    "puranas": {
+        "title": "పురాణాలు - సనాతన ధర్మం యొక్క పవిత్ర సంప్రదాయాలు మరియు కథలు",
+        "description": "పురాణాలను అన్వేషించండి: సనాతన ధర్మంలో కథలు, విశ్వోద్భవం, భక్తి, ధర్మం మరియు సాంస్కృతిక జ్ఞాపకాలను సంరక్షించే పురాతన గ్రంథాలు.",
+        "meta": {
+            "title": "పురాణాలు - సనాతన ధర్మం యొక్క పవిత్ర సంప్రదాయాలు మరియు కథలు",
+            "canonical": "https://sanatanadharmam.in/puranas",
+            "description": "పురాణాలను అన్వేషించండి: సనాతన ధర్మంలో కథలు, విశ్వోద్భవం, భక్తి, ధర్మం మరియు సాంస్కృతిక జ్ఞాపకాలను సంరక్షించే పురాతన గ్రంథాలు.",
+            "keywords": [
+                "పురాణాలు",
+                "సనాతన ధర్మం",
+                "హిందూ గ్రంధాలు",
+                "విశ్వరూపం",
+                "భక్తి",
+                "ధర్మము"
+            ],
+            "robots": "సూచిక, అనుసరించండి",
+            "url": "https://sanatanadharmam.in/puranas",
+            "ogImage": "https://sanatanadharmam.in/og/puranas.png"
+        },
+        "openGraph": {
+            "title": "పురాణాలు - సనాతన ధర్మం యొక్క పవిత్ర సంప్రదాయాలు మరియు కథలు",
+            "description": "పురాణాలను అన్వేషించండి: సనాతన ధర్మంలో కథలు, విశ్వోద్భవం, భక్తి, ధర్మం మరియు సాంస్కృతిక జ్ఞాపకాలను సంరక్షించే పురాతన గ్రంథాలు.",
+            "url": "https://sanatanadharmam.in/puranas",
+            "siteName": "సనాతనధర్మం",
+            "type": "వెబ్సైట్",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/puranas.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Puranas – Sacred Traditions and Stories of Sanātana Dharma"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "సేకరణపేజీ",
+            "name": "పురాణాలు - సనాతన ధర్మం యొక్క పవిత్ర సంప్రదాయాలు మరియు కథలు",
+            "description": "పురాణాలను అన్వేషించండి: సనాతన ధర్మంలో కథలు, విశ్వోద్భవం, భక్తి, ధర్మం మరియు సాంస్కృతిక జ్ఞాపకాలను సంరక్షించే పురాతన గ్రంథాలు.",
+            "url": "https://sanatanadharmam.in/puranas",
+            "isPartOf": {
+                "@type": "వెబ్‌సైట్",
+                "name": "సనాతనధర్మం",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "పురాణాలు పవిత్ర చరిత్ర, విశ్వోద్భవం, భక్తి సంప్రదాయాలు మరియు నైతిక మార్గదర్శకత్వాన్ని సంరక్షించే సంస్కృత సాహిత్యం యొక్క పెద్ద భాగం. వారు కథనం ద్వారా తత్వశాస్త్రాన్ని ప్రదర్శిస్తారు-ఋషులు మరియు రాజుల కథలు, ఆరాధన మరియు విధిపై బోధనలు మరియు కాలచక్రాలు మరియు సృష్టిపై ప్రతిబింబాలు.\n\nసాంప్రదాయకంగా, పురాణాలు మహాపురాణాలు మరియు ఉపపురాణాలుగా విభజించబడ్డాయి, అనేక గ్రంథాలు నిర్దిష్ట దేవతలు మరియు భక్తి వంశాలకు దగ్గరి సంబంధం కలిగి ఉంటాయి. జీవన సంప్రదాయంగా, పురాణాలు శతాబ్దాలుగా భారతదేశం అంతటా ఆలయ సంస్కృతి, పండుగలు, తీర్థయాత్ర మరియు గృహ భక్తిని రూపొందించాయి.",
+        "scripture_text": [
+            {
+                "section": "పురాణం సాధారణంగా ఏమి కలిగి ఉంటుంది",
+                "content": "అనేక పురాణాలు క్లాసిక్ ఐదు ఇతివృత్తాలను (పంచలక్షణాలు) కలిగి ఉన్నట్లు వివరించబడ్డాయి: సృష్టి (సర్గ), రద్దు తర్వాత వినోదం (ప్రతిసర్గ), వంశావళి (వంశం), విశ్వ యుగాలు మరియు మను చక్రాలు (మన్వంతర), మరియు రాజవంశ చరిత్రలు (వంశానుచరిత). ఆచరణలో, ప్రతి పురాణంలో శ్లోకాలు, డైలాగ్‌లు, నైతిక బోధనలు, తీర్థయాత్ర మార్గదర్శకాలు మరియు ఆచారం మరియు భక్తికి సంబంధించిన విభాగాలు కూడా ఉన్నాయి."
+            },
+            {
+                "section": "పురాణ కథనాలను ఎలా చదవాలి",
+                "content": "పౌరాణిక కథలు తరచుగా బహుళ-పొరలుగా ఉంటాయి: వాటిని భక్తి (భక్తి), నైతిక సూచన (ధర్మం), మరియు మనస్సు, సమయం మరియు వ్యక్తిగత స్వీయ మరియు దైవిక మధ్య సంబంధం గురించి ప్రతీకాత్మక బోధనగా చదవవచ్చు. ఈ సైట్ వాటిని కేవలం జానపద కథలుగా కాకుండా భక్తి-తాత్విక సంప్రదాయంగా పరిగణిస్తుంది."
+            }
+        ],
+        "philosophical_explanation": "పురాణాలు తాత్విక ఆలోచనలను ప్రాప్యత రూపంలో ప్రసారం చేస్తాయి. నైరూప్యత ద్వారా మాత్రమే సిద్ధాంతాన్ని ప్రదర్శించడానికి బదులుగా, వారు వాస్తవ ప్రపంచ ఒత్తిడిలో ధర్మం ఎలా వర్తించబడుతుందో చూపించడానికి పాత్రలు, ప్రమాణాలు, సంక్షోభాలు మరియు పరివర్తనలను ఉపయోగిస్తారు. వారి విశ్వోద్భవ శాస్త్రం చక్రీయ సమయం మరియు అశాశ్వతతను బోధిస్తుంది, అయితే భక్తి విభాగాలు శరణాగతి, కృతజ్ఞత మరియు అంతర్గత స్థిరత్వాన్ని పెంపొందిస్తాయి.\n\nచాలా మంది పాఠకులకు, పురాణాలు వారధిగా పనిచేస్తాయి: కథ మరియు ఆరాధన నుండి స్వీయ యొక్క ఉపనిషదిక్ దృష్టి, వాస్తవిక స్వభావం మరియు విముక్తి (మోక్షం) గురించి లోతైన విచారణ వరకు."
+    }
 }

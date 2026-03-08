@@ -1,289 +1,289 @@
 {
-  "philosophy_dharma": {
-    "title": "Dharma – Meaning, Principles and Philosophy | Sanatana Dharma",
-    "description": "Learn the meaning of Dharma in Sanatana Dharma. Explore its principles, role in the Bhagavad Gita, Ramayana and Mahabharata, and its importance in ethical and spiritual life.",
-    "meta": {
-      "title": "Dharma – Meaning, Principles and Philosophy | Sanatana Dharma",
-      "canonical": "https://sanatanadharmam.in/philosophy/dharma",
-      "description": "Learn the meaning of Dharma in Sanatana Dharma. Explore its principles, role in the Bhagavad Gita, Ramayana and Mahabharata, and its importance in ethical and spiritual life.",
-      "keywords": [
-        "Dharma meaning",
-        "Hindu Dharma philosophy",
-        "Dharma in Bhagavad Gita",
-        "Dharma in Mahabharata",
-        "Dharma principles",
-        "Sanatana Dharma philosophy",
-        "Dharma and Karma",
-        "Dharma ethics",
-        "Dharma in Hinduism",
-        "Dharma spiritual path"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/philosophy/dharma"
-    },
-    "openGraph": {
-      "title": "Dharma – Core Principle of Sanatana Dharma",
-      "description": "Understand Dharma, the guiding principle of righteousness and cosmic order in Sanatana Dharma philosophy.",
-      "url": "https://sanatanadharmam.in/philosophy/dharma",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/philosophy-dharma.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Dharma Philosophy"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "DefinedTerm",
-          "name": "Dharma",
-          "description": "Dharma is a central concept in Sanatana Dharma referring to righteousness, duty, moral law and the cosmic order governing the universe.",
-          "url": "https://sanatanadharmam.in/philosophy/dharma",
-          "inDefinedTermSet": {
-            "@type": "DefinedTermSet",
-            "name": "Sanatana Dharma Philosophy"
-          }
+    "philosophy_dharma": {
+        "title": "Dharma – Betekenis, principes en filosofie | Sanatana Dharma",
+        "description": "Leer de betekenis van Dharma in Sanatana Dharma. Ontdek de principes ervan, de rol ervan in de Bhagavad Gita, Ramayana en Mahabharata, en het belang ervan in het ethische en spirituele leven.",
+        "meta": {
+            "title": "Dharma – Betekenis, principes en filosofie | Sanatana Dharma",
+            "canonical": "https://sanatanadharmam.in/philosophy/dharma",
+            "description": "Leer de betekenis van Dharma in Sanatana Dharma. Ontdek de principes ervan, de rol ervan in de Bhagavad Gita, Ramayana en Mahabharata, en het belang ervan in het ethische en spirituele leven.",
+            "keywords": [
+                "Dharma betekenis",
+                "Hindoeïstische Dharma-filosofie",
+                "Dharma in de Bhagavad Gita",
+                "Dharma in Mahabharata",
+                "Dharma-principes",
+                "Sanatana Dharma-filosofie",
+                "Dharma en Karma",
+                "Dharma-ethiek",
+                "Dharma in het hindoeïsme",
+                "Dharma spiritueel pad"
+            ],
+            "robots": "indexeren, volgen",
+            "url": "https://sanatanadharmam.in/philosophy/dharma"
         },
-        {
-          "@type": "Article",
-          "headline": "Dharma – Philosophy of Righteous Living",
-          "about": [
-            "Dharma",
-            "Sanatana Dharma",
-            "Hindu philosophy",
-            "Bhagavad Gita",
-            "Mahabharata"
-          ],
-          "isPartOf": {
-            "@type": "WebSite",
-            "name": "Sanatanadharmam",
-            "url": "https://sanatanadharmam.in"
-          },
-          "url": "https://sanatanadharmam.in/philosophy/dharma"
-        }
-      ]
-    },
-    "categories_of_dharma": {
-      "apad_dharma": {
-        "examples": [
-          "Self-defense",
-          "Breaking normal rules to preserve life"
-        ],
-        "meaning": "Duties during emergencies"
-      },
-      "sadharana_dharma": {
-        "examples": [
-          "Ahimsa (non-violence)",
-          "Satya (truthfulness)",
-          "Asteya (non-stealing)",
-          "Shaucha (cleanliness)",
-          "Daya (compassion)"
-        ],
-        "meaning": "Universal duties applicable to all"
-      },
-      "svadharma": {
-        "examples": "Highly emphasized in the Bhagavathgita.",
-        "meaning": "Personal duty according to one’s nature, abilities, and circumstances"
-      },
-      "varnashrama_dharma": {
-        "components": {
-          "ashrama_duties": [
-            "Brahmacharya",
-            "Grihastha",
-            "Vanaprastha",
-            "Sannyasa"
-          ],
-          "varna_duties": [
-            "Brahmana",
-            "Kshatriya",
-            "Vaishya",
-            "Shudra"
-          ]
+        "openGraph": {
+            "title": "Dharma – Kernprincipe van Sanatana Dharma",
+            "description": "Begrijp Dharma, het leidende principe van gerechtigheid en kosmische orde in de Sanatana Dharma-filosofie.",
+            "url": "https://sanatanadharmam.in/philosophy/dharma",
+            "siteName": "Sanatanadharam",
+            "type": "artikel",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/philosophy-dharma.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Dharma Philosophy"
+                }
+            ]
         },
-        "meaning": "Duties based on one's stage of life and role in society"
-      },
-      "yugadharma": {
-        "examples": [
-          "Satya Yuga",
-          "Treta",
-          "Dvapara",
-          "Kali Yuga"
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "Gedefinieerde term",
+                    "name": "Dharma",
+                    "description": "Dharma is een centraal concept in Sanatana Dharma dat verwijst naar gerechtigheid, plicht, morele wetten en de kosmische orde die het universum regeert.",
+                    "url": "https://sanatanadharmam.in/philosophy/dharma",
+                    "inDefinedTermSet": {
+                        "@type": "GedefinieerdeTermSet",
+                        "name": "Sanatana Dharma-filosofie"
+                    }
+                },
+                {
+                    "@type": "Artikel",
+                    "headline": "Dharma – Filosofie van rechtschapen leven",
+                    "about": [
+                        "Dharma",
+                        "Sanatana Dharma",
+                        "Hindoeïstische filosofie",
+                        "Bhagavad Gita",
+                        "Mahabharata"
+                    ],
+                    "isPartOf": {
+                        "@type": "Website",
+                        "name": "Sanatanadharam",
+                        "url": "https://sanatanadharmam.in"
+                    },
+                    "url": "https://sanatanadharmam.in/philosophy/dharma"
+                }
+            ]
+        },
+        "categories_of_dharma": {
+            "apad_dharma": {
+                "examples": [
+                    "Zelfverdediging",
+                    "Het overtreden van normale regels om het leven te behouden"
+                ],
+                "meaning": "Taken tijdens calamiteiten"
+            },
+            "sadharana_dharma": {
+                "examples": [
+                    "Ahimsa (geweldloosheid)",
+                    "Satya (waarheid)",
+                    "Asteya (niet stelen)",
+                    "Shaucha (reinheid)",
+                    "Daya (medeleven)"
+                ],
+                "meaning": "Universele plichten die voor iedereen gelden"
+            },
+            "svadharma": {
+                "examples": "Sterk benadrukt in de Bhagavathgita.",
+                "meaning": "Persoonlijke plicht overeenkomstig iemands aard, capaciteiten en omstandigheden"
+            },
+            "varnashrama_dharma": {
+                "components": {
+                    "ashrama_duties": [
+                        "Brahmacharya",
+                        "Grihastha",
+                        "Vanaprastha",
+                        "Sannyasa"
+                    ],
+                    "varna_duties": [
+                        "Brahmaan",
+                        "Kshatriya",
+                        "Vaishya",
+                        "Shudra"
+                    ]
+                },
+                "meaning": "Taken gebaseerd op iemands levensfase en rol in de samenleving"
+            },
+            "yugadharma": {
+                "examples": [
+                    "Satya Yuga",
+                    "Treta",
+                    "Dvapara",
+                    "Kali Yuga"
+                ],
+                "meaning": "Dharma aangepast aan het tijdperk (Yuga) gebaseerd op maatschappelijke behoeften."
+            }
+        },
+        "core_principles": {
+            "ahimsa": "Geweldloosheid in gedachte, woord en daad",
+            "aparigraha": "Niet-bezitterigheid",
+            "asteya": "Niet stelen",
+            "dama": "Controle van zintuigen",
+            "dana": "Liefdadigheid en vrijgevigheid",
+            "daya": "Medeleven",
+            "kshama": "Vergiffenis",
+            "satya": "Toewijding aan de waarheid",
+            "swadhyaya": "Zelfstudie en reflectie",
+            "tapas": "Zelfdiscipline"
+        },
+        "daily_life_application": {
+            "family_dharma": [
+                "Respect",
+                "Verantwoordelijkheid",
+                "Zorg"
+            ],
+            "global_dharma": [
+                "Duurzaam leven",
+                "Het bevorderen van de vrede"
+            ],
+            "professional_dharma": [
+                "Eerlijkheid",
+                "Bevoegdheid",
+                "Verantwoordelijkheid"
+            ],
+            "spiritual_dharma": [
+                "Meditatie",
+                "Zelfstudie",
+                "Medeleven"
+            ]
+        },
+        "definition": [
+            "gerechtigheid",
+            "plicht",
+            "kosmische orde",
+            "morele wet",
+            "manier van leven"
         ],
-        "meaning": "Dharma suited to the era (Yuga) based on societal needs."
-      }
-    },
-    "core_principles": {
-      "ahimsa": "Non-violence in thought, word, and action",
-      "aparigraha": "Non-possessiveness",
-      "asteya": "Non-stealing",
-      "dama": "Control of senses",
-      "dana": "Charity and generosity",
-      "daya": "Compassion",
-      "kshama": "Forgiveness",
-      "satya": "Commitment to truth",
-      "swadhyaya": "Self-study and reflection",
-      "tapas": "Self-discipline"
-    },
-    "daily_life_application": {
-      "family_dharma": [
-        "Respect",
-        "Responsibility",
-        "Care"
-      ],
-      "global_dharma": [
-        "Living sustainably",
-        "Promoting peace"
-      ],
-      "professional_dharma": [
-        "Honesty",
-        "Competence",
-        "Accountability"
-      ],
-      "spiritual_dharma": [
-        "Meditation",
-        "Self-study",
-        "Compassion"
-      ]
-    },
-    "definition": [
-      "righteousness",
-      "duty",
-      "cosmic order",
-      "moral law",
-      "way of life"
-    ],
-    "dharma_and_other_concepts": {
-      "dharma_artha_kama": "Dharma guides the pursuit of wealth and desire ethically.",
-      "dharma_karma_relation": "Actions aligned with dharma reduce karma; wrong actions generate bondage.",
-      "dharma_moksha_relation": "Right living purifies the mind and leads to liberation.",
-      "dharma_rita_connection": "Dharma is the human expression of cosmic order (Rta)."
-    },
-    "dharma_in_bhagavad_gita": {
-      "important_verses": [
-        "Chapter 2.47 — Karmanye vadhikaraste...",
-        "Chapter 3 — Karma Yoga",
-        "Chapter 18.66 — Surrender to Divine Dharma"
-      ],
-      "key_ideas": {
-        "detachment": "Letting go of ego and desires to act righteously.",
-        "nishkama_karma": "Performing duty without attachment to outcomes.",
-        "svadharma_supremacy": "Better to follow one's own duty imperfectly than another’s perfectly.",
-        "yoga_as_dharma": "Selfless action aligned with divine order."
-      }
-    },
-    "dharma_in_mahabharata": {
-      "bhishma_dharma": "Duty over personal desire",
-      "krishna_dharma": "Acting for dharma even through unconventional methods",
-      "kshatriya_dharma": "Courage, protection, righteousness",
-      "yudhishthira_dharma": "Truth, justice, compassion"
-    },
-    "dharma_in_ramayana": {
-      "hanuman_dharma": "Bhakti, fearless duty, intelligence",
-      "lakshmana_dharma": "Loyalty, service, brotherly duty",
-      "rama_dharma": "Ideal king, ideal son, ideal human (Maryada Purushottama)",
-      "sita_dharma": "Purity, strength, devotion, sacrifice"
-    },
-    "dharma_qa": [
-      {
-        "answer": "Dharma is a complex term that means righteousness, duty, moral law, and the path of right living. It is the principle that upholds the order of the universe and guides individuals to act ethically and responsibly according to their role, nature, and circumstances.",
-        "question": "What is the true meaning of Dharma?"
-      },
-      {
-        "answer": "No, Dharma is both universal and individual. While there are universal values (like truth and non-violence), each person has a unique 'svadharma'—their own duty based on their nature, stage of life, and situation. Fulfilling one's own dharma is considered superior to imitating another's.",
-        "question": "Is Dharma the same for everyone?"
-      },
-      {
-        "answer": "Dharma guides actions (karma). Actions performed in accordance with dharma lead to spiritual growth and reduce bondage, while actions against dharma create negative karma and suffering.",
-        "question": "How does Dharma relate to Karma?"
-      },
-      {
-        "answer": "Sometimes, following dharma may involve personal sacrifice or hardship. Scriptures teach that upholding dharma, even in adversity, leads to long-term well-being and spiritual progress. The Mahabharata and Ramayana are filled with examples of characters facing such dilemmas.",
-        "question": "What if following Dharma causes suffering?"
-      },
-      {
-        "answer": "Self-reflection, study of scriptures, guidance from wise teachers, and understanding one's own nature help in discerning one's dharma. The Bhagavad Gita emphasizes acting according to one's inner nature and role in society.",
-        "question": "How can one know their Dharma?"
-      },
-      {
-        "answer": "Yes, dharma can change with age, circumstances, and societal needs. For example, a student’s dharma is to learn, while a householder’s is to support family and society. In emergencies, special rules (apad dharma) may apply.",
-        "question": "Can Dharma change over time?"
-      },
-      {
-        "answer": "No, dharma is not limited to religious rituals. It encompasses all aspects of life—personal, social, professional, and spiritual. It is about living ethically, fulfilling responsibilities, and contributing to the greater good.",
-        "question": "Is Dharma only about religion?"
-      },
-      {
-        "answer": "Speaking the truth, being compassionate, fulfilling family and professional duties, protecting the environment, and helping those in need are all expressions of dharma.",
-        "question": "What are some examples of Dharma in daily life?"
-      },
-      {
-        "answer": "Scriptures like the Vedas, Upanishads, Bhagavad Gita, Ramayana, and Mahabharata discuss dharma extensively, offering guidance through stories, teachings, and direct instructions.",
-        "question": "What do the scriptures say about Dharma?"
-      },
-      {
-        "answer": "Dharma provides a timeless ethical framework for individuals and societies. In a rapidly changing world, it helps maintain harmony, justice, and purpose, guiding us to act with integrity and compassion.",
-        "question": "Why is Dharma important in modern times?"
-      }
-    ],
-    "modern_relevance": {
-      "environment": [
-        "Harmony with nature",
-        "Sustainability"
-      ],
-      "ethics": [
-        "Truth",
-        "Non-violence",
-        "Respect"
-      ],
-      "individual": [
-        "Mental peace",
-        "Self-discipline",
-        "Purpose"
-      ],
-      "society": [
-        "Equality",
-        "Justice",
-        "Responsibility"
-      ]
-    },
-    "philosophical_dimensions": {
-      "cosmic_dharma": "Universal order (Rta) that governs nature and balance.",
-      "individual_dharma": "Personal conduct based on ethics, duty, and inner nature.",
-      "social_dharma": "Ethical frameworks for society, relations, justice, and governance.",
-      "spiritual_dharma": "Path towards liberation — self-realization and purity."
-    },
-    "schools_related_to_dharma": {
-      "mimamsa": "Focus on rituals and actions as dharma.",
-      "nyaya": "Dharma through correct knowledge and logic.",
-      "vedanta": "Dharma as preparation for liberation (moksha).",
-      "yoga": "Ethical foundations — Yamas & Niyamas."
-    },
-    "scriptural_sources": {
-      "epics": [
-        "Ramayana",
-        "Mahabharata",
-        "Bhagavathgita"
-      ],
-      "puranas": [
-        "Bhagavata Purana",
-        "Padma Purana",
-        "Vishnu Purana",
-        "Skanda Purana"
-      ],
-      "shruti": [
-        "Vedas",
-        "Upanishads"
-      ],
-      "smriti": [
-        "Manusmriti",
-        "Yajnavalkya Smriti",
-        "Narada Smriti"
-      ]
+        "dharma_and_other_concepts": {
+            "dharma_artha_kama": "Dharma begeleidt het nastreven van rijkdom en verlangen op ethische wijze.",
+            "dharma_karma_relation": "Acties die in lijn zijn met dharma verminderen karma; Verkeerde daden veroorzaken gebondenheid.",
+            "dharma_moksha_relation": "Een juist leven zuivert de geest en leidt tot bevrijding.",
+            "dharma_rita_connection": "Dharma is de menselijke uitdrukking van kosmische orde (Rta)."
+        },
+        "dharma_in_bhagavad_gita": {
+            "important_verses": [
+                "Hoofdstuk 2.47 — Karmanye vadhikaraste...",
+                "Hoofdstuk 3 – Karma-yoga",
+                "Hoofdstuk 18.66 – Overgave aan de goddelijke Dharma"
+            ],
+            "key_ideas": {
+                "detachment": "Het loslaten van het ego en het verlangen om rechtvaardig te handelen.",
+                "nishkama_karma": "Het uitvoeren van plichten zonder gehechtheid aan resultaten.",
+                "svadharma_supremacy": "Het is beter om je eigen plicht onvolmaakt te vervullen, dan die van een ander perfect.",
+                "yoga_as_dharma": "Onbaatzuchtige actie in lijn met goddelijke orde."
+            }
+        },
+        "dharma_in_mahabharata": {
+            "bhishma_dharma": "Plicht boven persoonlijk verlangen",
+            "krishna_dharma": "Handelen voor dharma, zelfs via onconventionele methoden",
+            "kshatriya_dharma": "Moed, bescherming, gerechtigheid",
+            "yudhishthira_dharma": "Waarheid, gerechtigheid, mededogen"
+        },
+        "dharma_in_ramayana": {
+            "hanuman_dharma": "Bhakti, onbevreesde plicht, intelligentie",
+            "lakshmana_dharma": "Loyaliteit, dienstbaarheid, broederlijke plicht",
+            "rama_dharma": "Ideale koning, ideale zoon, ideale mens (Maryada Purushottama)",
+            "sita_dharma": "Zuiverheid, kracht, toewijding, opoffering"
+        },
+        "dharma_qa": [
+            {
+                "answer": "Dharma is een complexe term die rechtvaardigheid, plicht, morele wetten en het pad van het juiste leven betekent. Het is het principe dat de orde van het universum handhaaft en individuen begeleidt om ethisch en verantwoordelijk te handelen in overeenstemming met hun rol, aard en omstandigheden.",
+                "question": "Wat is de ware betekenis van Dharma?"
+            },
+            {
+                "answer": "Nee, Dharma is zowel universeel als individueel. Hoewel er universele waarden bestaan ​​(zoals waarheid en geweldloosheid), heeft ieder mens een unieke 'svadharma': zijn eigen plicht, gebaseerd op zijn aard, levensfase en situatie. Het vervullen van de eigen dharma wordt als superieur beschouwd aan het imiteren van die van iemand anders.",
+                "question": "Is Dharma voor iedereen hetzelfde?"
+            },
+            {
+                "answer": "Dharma begeleidt acties (karma). Acties uitgevoerd in overeenstemming met dharma leiden tot spirituele groei en verminderen gebondenheid, terwijl acties tegen dharma negatief karma en lijden creëren.",
+                "question": "Hoe verhoudt Dharma zich tot Karma?"
+            },
+            {
+                "answer": "Soms kan het volgen van de dharma persoonlijke opoffering of ontberingen met zich meebrengen. De Schrift leert dat het hooghouden van de dharma, zelfs in tegenspoed, leidt tot welzijn op de lange termijn en spirituele vooruitgang. De Mahabharata en Ramayana staan ​​vol met voorbeelden van personages die met dergelijke dilemma's worden geconfronteerd.",
+                "question": "Wat als het volgen van Dharma lijden veroorzaakt?"
+            },
+            {
+                "answer": "Zelfreflectie, studie van de Schriften, begeleiding van wijze leraren en het begrijpen van de eigen aard helpen bij het onderscheiden van iemands dharma. De Bhagavad Gita legt de nadruk op handelen in overeenstemming met iemands innerlijke aard en rol in de samenleving.",
+                "question": "Hoe kan iemand hun Dharma kennen?"
+            },
+            {
+                "answer": "Ja, dharma kan veranderen met de leeftijd, omstandigheden en maatschappelijke behoeften. De dharma van een student is bijvoorbeeld om te leren, terwijl die van een huisbewoner het gezin en de samenleving moet ondersteunen. In noodgevallen kunnen speciale regels (apad dharma) van toepassing zijn.",
+                "question": "Kan Dharma in de loop van de tijd veranderen?"
+            },
+            {
+                "answer": "Nee, dharma beperkt zich niet tot religieuze rituelen. Het omvat alle aspecten van het leven: persoonlijk, sociaal, professioneel en spiritueel. Het gaat over ethisch leven, het vervullen van verantwoordelijkheden en het bijdragen aan het grotere goed.",
+                "question": "Gaat Dharma alleen over religie?"
+            },
+            {
+                "answer": "De waarheid spreken, medelevend zijn, gezins- en professionele plichten vervullen, het milieu beschermen en mensen in nood helpen zijn allemaal uitingen van dharma.",
+                "question": "Wat zijn enkele voorbeelden van Dharma in het dagelijks leven?"
+            },
+            {
+                "answer": "Geschriften als de Veda's, Upanishads, Bhagavad Gita, Ramayana en Mahabharata bespreken dharma uitgebreid en bieden begeleiding door middel van verhalen, leringen en directe instructies.",
+                "question": "Wat zeggen de Schriften over Dharma?"
+            },
+            {
+                "answer": "Dharma biedt een tijdloos ethisch raamwerk voor individuen en samenlevingen. In een snel veranderende wereld helpt het de harmonie, rechtvaardigheid en doelgerichtheid te behouden, en leidt het ons ertoe om met integriteit en mededogen te handelen.",
+                "question": "Waarom is Dharma belangrijk in de moderne tijd?"
+            }
+        ],
+        "modern_relevance": {
+            "environment": [
+                "Harmonie met de natuur",
+                "Duurzaamheid"
+            ],
+            "ethics": [
+                "Waarheid",
+                "Geweldloosheid",
+                "Respect"
+            ],
+            "individual": [
+                "Geestelijke vrede",
+                "Zelfdiscipline",
+                "Doel"
+            ],
+            "society": [
+                "Gelijkwaardigheid",
+                "Gerechtigheid",
+                "Verantwoordelijkheid"
+            ]
+        },
+        "philosophical_dimensions": {
+            "cosmic_dharma": "Universele orde (Rta) die de natuur en het evenwicht regelt.",
+            "individual_dharma": "Persoonlijk gedrag gebaseerd op ethiek, plicht en innerlijke natuur.",
+            "social_dharma": "Ethische kaders voor de samenleving, relaties, rechtvaardigheid en bestuur.",
+            "spiritual_dharma": "Pad naar bevrijding – zelfrealisatie en zuiverheid."
+        },
+        "schools_related_to_dharma": {
+            "mimamsa": "Focus op rituelen en handelingen als dharma.",
+            "nyaya": "Dharma door correcte kennis en logica.",
+            "vedanta": "Dharma als voorbereiding op de bevrijding (moksha).",
+            "yoga": "Ethische grondslagen – Yamas & Niyamas."
+        },
+        "scriptural_sources": {
+            "epics": [
+                "Ramayana",
+                "Mahabharata",
+                "Bhagavathgita"
+            ],
+            "puranas": [
+                "Bhagavata Purana",
+                "Padma Purana",
+                "Vishnu Purana",
+                "Skanda Purana"
+            ],
+            "shruti": [
+                "Veda's",
+                "Upanishads"
+            ],
+            "smriti": [
+                "Manusmriti",
+                "Yajnavalkya Smriti",
+                "Narada Smriti"
+            ]
+        }
     }
-  }
 }

@@ -1,152 +1,152 @@
 {
-  "philosophy_samsara": {
-    "title": "Samsara – Cycle of Birth, Death and Rebirth | Sanatana Dharma",
-    "description": "Learn about Samsara in Sanatana Dharma, the cycle of birth, death and rebirth governed by Karma. Explore its meaning in the Upanishads, Bhagavad Gita and Hindu philosophy.",
-    "meta": {
-      "title": "Samsara – Cycle of Birth, Death and Rebirth | Sanatana Dharma",
-      "canonical": "https://sanatanadharmam.in/philosophy/samsara",
-      "description": "Learn about Samsara in Sanatana Dharma, the cycle of birth, death and rebirth governed by Karma. Explore its meaning in the Upanishads, Bhagavad Gita and Hindu philosophy.",
-      "keywords": [
-        "Samsara meaning",
-        "cycle of rebirth",
-        "Samsara philosophy",
-        "Samsara and Karma",
-        "Samsara and Moksha",
-        "Hindu philosophy Samsara",
-        "Samsara Upanishads",
-        "Samsara Bhagavad Gita",
-        "Sanatana Dharma Samsara",
-        "cycle of birth and death"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/philosophy/samsara"
-    },
-    "openGraph": {
-      "title": "Samsara – Cycle of Birth and Rebirth",
-      "description": "Discover Samsara, the cycle of birth, death and rebirth explained in Sanatana Dharma philosophy.",
-      "url": "https://sanatanadharmam.in/philosophy/samsara",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/philosophy-samsara.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Samsara Philosophy"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "DefinedTerm",
-          "name": "Samsara",
-          "description": "Samsara is the cycle of birth, death and rebirth governed by karma in Sanatana Dharma and other Indian philosophical traditions.",
-          "url": "https://sanatanadharmam.in/philosophy/samsara",
-          "inDefinedTermSet": {
-            "@type": "DefinedTermSet",
-            "name": "Sanatana Dharma Philosophy"
-          }
+    "philosophy_samsara": {
+        "title": "سامسارا – دورة الميلاد والموت والبعث | ساناتانا دارما",
+        "description": "تعرف على Samsara في Sanatana Dharma، دورة الولادة والموت والبعث التي تحكمها الكارما. اكتشف معناها في الأوبنشاد والبهاغافاد غيتا والفلسفة الهندوسية.",
+        "meta": {
+            "title": "سامسارا – دورة الميلاد والموت والبعث | ساناتانا دارما",
+            "canonical": "https://sanatanadharmam.in/philosophy/samsara",
+            "description": "تعرف على Samsara في Sanatana Dharma، دورة الولادة والموت والبعث التي تحكمها الكارما. اكتشف معناها في الأوبنشاد والبهاغافاد غيتا والفلسفة الهندوسية.",
+            "keywords": [
+                "معنى سامسارا",
+                "دورة ولادة جديدة",
+                "فلسفة سامسارا",
+                "سامسارا والكرمة",
+                "سامسارا وموكشا",
+                "الفلسفة الهندوسية سامسارا",
+                "سامسارا الأوبنشاد",
+                "سامسارا بهاجافاد جيتا",
+                "ساناتانا دارما سامسارا",
+                "دورة الولادة والموت"
+            ],
+            "robots": "الفهرس، اتبع",
+            "url": "https://sanatanadharmam.in/philosophy/samsara"
         },
-        {
-          "@type": "Article",
-          "headline": "Samsara – Cycle of Rebirth in Sanatana Dharma",
-          "about": [
-            "Samsara",
-            "Karma",
-            "Moksha",
-            "Sanatana Dharma philosophy",
-            "Hindu philosophy"
-          ],
-          "isPartOf": {
-            "@type": "WebSite",
-            "name": "Sanatanadharmam",
-            "url": "https://sanatanadharmam.in"
-          },
-          "url": "https://sanatanadharmam.in/philosophy/samsara"
-        }
-      ]
-    },
-    "components": {
-      "birth": "Entry into physical existence based on past karma.",
-      "death": "Transition to another state of existence.",
-      "rebirth": "New life determined by accumulated karma."
-    },
-    "core_principles": [
-      "Cycle of birth and death",
-      "Governed by karma",
-      "Ignorance (Avidya) binds beings to Samsara",
-      "Liberation (Moksha) ends Samsara"
-    ],
-    "definition": "Samsara refers to the continuous cycle of birth, death, and rebirth in Hindu, Buddhist, and Jain philosophies, driven by karma and ignorance.",
-    "goals": [
-      "Understand the nature of Samsara",
-      "Reduce karmic accumulation",
-      "Seek liberation through spiritual practice"
-    ],
-    "key_scriptural_references": [
-      {
-        "quote_summary": "The soul is eternal, taking new bodies as old ones perish.",
-        "text": "Bhagavathgita"
-      },
-      {
-        "quote_summary": "Liberation comes when one realizes the Self beyond birth and death.",
-        "text": "Upanishads"
-      }
-    ],
-    "modern_relevance": {
-      "ethics": "Encourages mindful living and responsibility.",
-      "psychology": "Explains patterns of suffering and attachment.",
-      "spirituality": "Motivates pursuit of higher consciousness."
-    },
-    "origin": {
-      "meaning": "Derived from Sanskrit 'samsṛ', meaning 'to flow or wander'.",
-      "roots": "Vedic and Upanishadic teachings",
-      "texts": [
-        "Upanishads",
-        "Bhagavathgita",
-        "Yoga Sutras"
-      ]
-    },
-    "relation_to_other_concepts": {
-      "dharma": "Righteous living helps reduce karmic bondage.",
-      "karma": "Actions determine future births.",
-      "moksha": "Freedom from Samsara is the ultimate goal."
-    },
-    "samsara_qa": [
-      {
-        "answer": "Samsara is the endless cycle of birth, death, and rebirth, driven by karma and ignorance. It is the state of worldly existence from which liberation (moksha) is sought.",
-        "question": "What is Samsara?"
-      },
-      {
-        "answer": "Karma, the law of cause and effect, determines the circumstances of each birth. Good actions lead to favorable rebirths, while negative actions result in suffering.",
-        "question": "How does karma influence Samsara?"
-      },
-      {
-        "answer": "Ignorance (avidya), attachment, and desires bind beings to the cycle of Samsara. Only through knowledge, detachment, and spiritual practice can one break free.",
-        "question": "What causes beings to remain in Samsara?"
-      },
-      {
-        "answer": "By following Dharma, purifying the mind, practicing selfless action, devotion, and meditation, one can attain Moksha and be freed from Samsara.",
-        "question": "How can one escape Samsara?"
-      },
-      {
-        "answer": "The Upanishads, Bhagavad Gita, and Yoga Sutras describe Samsara as a state of bondage and suffering, and teach the path to liberation.",
-        "question": "What do scriptures say about Samsara?"
-      },
-      {
-        "answer": "No, the concept of Samsara is also central to Buddhism and Jainism, though each tradition explains it differently.",
-        "question": "Is Samsara unique to Hinduism?"
-      },
-      {
-        "answer": "Yes, the cycles of pleasure and pain, success and failure, and repeated patterns in life reflect the nature of Samsara. Recognizing this inspires the search for lasting freedom.",
-        "question": "Can Samsara be experienced in daily life?"
-      },
-      {
-        "answer": "The ultimate goal is to transcend Samsara by realizing the true Self and attaining Moksha, ending the cycle of rebirth and suffering.",
-        "question": "What is the ultimate goal regarding Samsara?"
-      }
-    ]
-  }
+        "openGraph": {
+            "title": "سامسارا – دورة الميلاد والبعث",
+            "description": "اكتشف Samsara، دورة الولادة والموت والولادة الموضحة في فلسفة Sanatana Dharma.",
+            "url": "https://sanatanadharmam.in/philosophy/samsara",
+            "siteName": "ساناتانادارمام",
+            "type": "شرط",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/philosophy-samsara.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Samsara Philosophy"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "مصطلح محدد",
+                    "name": "سامسارا",
+                    "description": "سامسارا هي دورة الولادة والموت والبعث التي تحكمها الكارما في ساناتانا دارما والتقاليد الفلسفية الهندية الأخرى.",
+                    "url": "https://sanatanadharmam.in/philosophy/samsara",
+                    "inDefinedTermSet": {
+                        "@type": "DefinedTermSet",
+                        "name": "فلسفة ساناتانا دارما"
+                    }
+                },
+                {
+                    "@type": "شرط",
+                    "headline": "سامسارا – دورة إعادة الميلاد في ساناتانا دارما",
+                    "about": [
+                        "سامسارا",
+                        "كارما",
+                        "موكشا",
+                        "فلسفة ساناتانا دارما",
+                        "الفلسفة الهندوسية"
+                    ],
+                    "isPartOf": {
+                        "@type": "موقع إلكتروني",
+                        "name": "ساناتانادارمام",
+                        "url": "https://sanatanadharmam.in"
+                    },
+                    "url": "https://sanatanadharmam.in/philosophy/samsara"
+                }
+            ]
+        },
+        "components": {
+            "birth": "الدخول إلى الوجود المادي على أساس الكارما الماضية.",
+            "death": "الانتقال إلى حالة أخرى من الوجود.",
+            "rebirth": "حياة جديدة تحددها الكارما المتراكمة."
+        },
+        "core_principles": [
+            "دورة الولادة والوفاة",
+            "تحكمها الكرمة",
+            "الجهل (أفيديا) يربط الكائنات بسامسارا",
+            "تحرير (موكشا) ينتهي بسامسارا"
+        ],
+        "definition": "يشير سامسارا إلى الدورة المستمرة للولادة والموت والبعث في الفلسفات الهندوسية والبوذية والجاينية، مدفوعة بالكارما والجهل.",
+        "goals": [
+            "فهم طبيعة سامسارا",
+            "تقليل تراكم الكرمية",
+            "ابحث عن التحرر من خلال الممارسة الروحية"
+        ],
+        "key_scriptural_references": [
+            {
+                "quote_summary": "الروح أبدية، تأخذ أجسادًا جديدة كما تهلك الأجساد القديمة.",
+                "text": "بهاجافاثجيتا"
+            },
+            {
+                "quote_summary": "يأتي التحرير عندما يدرك المرء ذاته بعد الولادة والموت.",
+                "text": "الأوبنشاد"
+            }
+        ],
+        "modern_relevance": {
+            "ethics": "يشجع على العيش الواعي والمسؤولية.",
+            "psychology": "يشرح أنماط المعاناة والتعلق.",
+            "spirituality": "يحفز السعي لتحقيق وعي أعلى."
+        },
+        "origin": {
+            "meaning": "مشتقة من اللغة السنسكريتية \"samsṛ\"، وتعني \"التدفق أو التجول\".",
+            "roots": "التعاليم الفيدية والأوبنشادية",
+            "texts": [
+                "الأوبنشاد",
+                "بهاجافاثجيتا",
+                "سوترا اليوغا"
+            ]
+        },
+        "relation_to_other_concepts": {
+            "dharma": "الحياة الصالحة تساعد على تقليل عبودية الكارما.",
+            "karma": "الإجراءات تحدد الولادات المستقبلية.",
+            "moksha": "التحرر من سامسارا هو الهدف النهائي."
+        },
+        "samsara_qa": [
+            {
+                "answer": "سامسارا هي دورة لا نهاية لها من الولادة والموت والبعث، مدفوعة بالكارما والجهل. إنها حالة الوجود الدنيوي التي يُطلب منها التحرر (موكشا).",
+                "question": "ما هو سامسارا؟"
+            },
+            {
+                "answer": "الكارما، قانون السبب والنتيجة، يحدد ظروف كل ولادة. الأفعال الصالحة تؤدي إلى ولادة جديدة إيجابية، بينما الأفعال السلبية تؤدي إلى المعاناة.",
+                "question": "كيف تؤثر الكارما على سامسارا؟"
+            },
+            {
+                "answer": "الجهل (أفيديا)، والتعلق، والرغبات تربط الكائنات بدورة سامسارا. فقط من خلال المعرفة والانفصال والممارسة الروحية يمكن للمرء أن يتحرر.",
+                "question": "ما الذي يسبب بقاء الكائنات في سامسارا؟"
+            },
+            {
+                "answer": "من خلال اتباع الدارما، وتنقية العقل، وممارسة العمل غير الأناني، والتفاني، والتأمل، يمكن للمرء أن يصل إلى موكشا ويتحرر من سامسارا.",
+                "question": "كيف يمكن للمرء الهروب من سامسارا؟"
+            },
+            {
+                "answer": "تصف الأوبنشاد والبهاغافاد غيتا واليوجا سوترا سامسارا بأنها حالة من العبودية والمعاناة، وتعلم الطريق إلى التحرر.",
+                "question": "ماذا يقول الكتاب المقدس عن سامسارا؟"
+            },
+            {
+                "answer": "لا، إن مفهوم سامسارا يعد أيضًا محوريًا في البوذية والجاينية، على الرغم من أن كل تقليد يشرحه بشكل مختلف.",
+                "question": "هل سامسارا فريدة من نوعها بالنسبة للهندوسية؟"
+            },
+            {
+                "answer": "نعم، إن دورات المتعة والألم، والنجاح والفشل، والأنماط المتكررة في الحياة تعكس طبيعة سامسارا. وإدراك ذلك يلهم البحث عن الحرية الدائمة.",
+                "question": "هل يمكن تجربة Samsara في الحياة اليومية؟"
+            },
+            {
+                "answer": "الهدف النهائي هو تجاوز سامسارا من خلال إدراك الذات الحقيقية وتحقيق موكشا، وإنهاء دورة الميلاد والمعاناة.",
+                "question": "ما هو الهدف النهائي بخصوص سامسارا؟"
+            }
+        ]
+    }
 }
