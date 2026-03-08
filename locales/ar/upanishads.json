@@ -55,12 +55,7 @@
         {
           "@type": "Article",
           "headline": "Isha Upanishad – Teachings on Brahman and Renunciation",
-          "about": [
-            "Upanishads",
-            "Vedanta",
-            "Brahman",
-            "Atman"
-          ],
+          "about": ["Upanishads", "Vedanta", "Brahman", "Atman"],
           "isPartOf": {
             "@type": "WebSite",
             "name": "Sanatanadharmam",

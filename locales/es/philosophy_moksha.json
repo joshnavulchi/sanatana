@@ -1,202 +1,198 @@
 {
-    "philosophy_moksha": {
-        "title": "Moksha – Liberación Espiritual en Sanatana Dharma",
-        "description": "Aprenda sobre Moksha en Sanatana Dharma, la liberación definitiva del samsara. Explora su significado en los Upanishads, el Bhagavad Gita y la filosofía hindú.",
-        "meta": {
-            "title": "Moksha – Liberación Espiritual en Sanatana Dharma",
-            "canonical": "https://sanatanadharmam.in/philosophy/moksha",
-            "description": "Aprenda sobre Moksha en Sanatana Dharma, la liberación definitiva del samsara. Explora su significado en los Upanishads, el Bhagavad Gita y la filosofía hindú.",
-            "keywords": [
-                "Moksha significado",
-                "liberación espiritual",
-                "moksha en el hinduismo",
-                "moksha y karma",
-                "moksha y samsara",
-                "filosofía moksha",
-                "moksha en el Bhagavad Gita",
-                "moksha Upanishads",
-                "Sanatana Dharma moksha",
-                "Filosofía de liberación hindú"
-            ],
-            "robots": "indexar, seguir",
-            "url": "https://sanatanadharmam.in/philosophy/moksha"
-        },
-        "openGraph": {
-            "title": "Moksha – Liberación Espiritual en Sanatana Dharma",
-            "description": "Descubra Moksha, la máxima liberación espiritual del samsara según la filosofía Sanatana Dharma.",
-            "url": "https://sanatanadharmam.in/philosophy/moksha",
-            "siteName": "Sanatanadharmam",
-            "type": "artículo",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/philosophy-moksha.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Moksha Philosophy"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "Término definido",
-                    "name": "Moksha",
-                    "description": "Moksha es el concepto de liberación espiritual del ciclo de nacimiento y muerte (samsara) en Sanatana Dharma.",
-                    "url": "https://sanatanadharmam.in/philosophy/moksha",
-                    "inDefinedTermSet": {
-                        "@type": "Conjunto de términos definidos",
-                        "name": "Filosofía Sanatana Dharma"
-                    }
-                },
-                {
-                    "@type": "Artículo",
-                    "headline": "Moksha – Camino a la Liberación Espiritual",
-                    "about": [
-                        "Moksha",
-                        "Sanatana Dharma",
-                        "Filosofía hindú",
-                        "samsara",
-                        "Upanishads",
-                        "Bhagavad Gita"
-                    ],
-                    "isPartOf": {
-                        "@type": "Sitio web",
-                        "name": "Sanatanadharmam",
-                        "url": "https://sanatanadharmam.in"
-                    },
-                    "url": "https://sanatanadharmam.in/philosophy/moksha"
-                }
-            ]
-        },
-        "core_principles": [
-            "Libertad del samsara (ciclo de renacimiento)",
-            "Realización del Ser (Atman)",
-            "Unión con Brahman (Realidad Suprema)",
-            "Desapego de los deseos materiales"
-        ],
-        "definition": "Moksha es el objetivo final de la filosofía hindú y significa la liberación del ciclo de nacimiento y muerte (samsara) y la unión con la Realidad Suprema.",
-        "goals": [
-            "Acabar con el sufrimiento y la ignorancia",
-            "Alcanza la dicha eterna",
-            "Darse cuenta de la verdadera naturaleza de la existencia."
-        ],
-        "key_scriptural_references": [
-            {
-                "quote_summary": "La liberación llega a través de la devoción, el conocimiento y la acción desinteresada.",
-                "text": "Bhagavathgita"
-            },
-            {
-                "quote_summary": "El Ser es Brahman; darse cuenta de esta verdad conduce a Moksha.",
-                "text": "Upanishads"
-            }
-        ],
-        "modern_relevance": {
-            "inner_peace": "Fomenta el desapego y la atención plena.",
-            "spiritual_growth": "Se centra en la autorrealización más allá del materialismo.",
-            "universal_harmony": "Promueve la compasión y la unidad."
-        },
-        "moksha_qa": [
-            {
-                "answer": "Moksha es la liberación del ciclo de nacimiento y muerte (samsara) y la unión con la Realidad Suprema (Brahman). Es el objetivo final de la filosofía hindú y representa la libertad del sufrimiento, la ignorancia y todas las limitaciones.",
-                "question": "¿Qué es Moksha?"
-            },
-            {
-                "answer": "El cielo (Svarga) es un estado temporal de placer, mientras que Moksha es la liberación permanente. Después de disfrutar los frutos de las buenas obras en el cielo, las almas regresan al ciclo de renacimiento, pero Moksha es final y eterno.",
-                "question": "¿En qué se diferencia Moksha del cielo?"
-            },
-            {
-                "answer": "Los cuatro caminos principales son: Bhakti Yoga (devoción), Jnana Yoga (conocimiento), Karma Yoga (acción desinteresada) y Raja Yoga (meditación y disciplina). Cada camino se adapta a diferentes temperamentos y puede conducir a la liberación.",
-                "question": "¿Cuáles son los principales caminos hacia Moksha?"
-            },
-            {
-                "answer": "Sí, Moksha está abierto a todos, independientemente de su origen, género o estatus social. El esfuerzo sincero, la autodisciplina y la gracia son esenciales.",
-                "question": "¿Alguien puede alcanzar Moksha?"
-            },
-            {
-                "answer": "No siempre. Mientras que algunos renuncian a la vida mundana, otros alcanzan Moksha mientras cumplen con sus deberes en el mundo, practicando el desapego y la acción desinteresada.",
-                "question": "¿Es necesaria la renuncia para Moksha?"
-            },
-            {
-                "answer": "Karma une el alma al ciclo de renacimiento. Actuando desinteresadamente y entregando los frutos de las acciones, uno puede purificar la mente y liberarse de la esclavitud kármica, allanando el camino hacia Moksha.",
-                "question": "¿Cómo afecta el Karma a Moksha?"
-            },
-            {
-                "answer": "Un Gurú (maestro espiritual) brinda guía, elimina dudas y ayuda al buscador a comprender la verdadera naturaleza del Ser, que es esencial para la liberación.",
-                "question": "¿Cuál es el papel de un Guru para alcanzar Moksha?"
-            },
-            {
-                "answer": "Los Upanishads, el Bhagavad Gita, los Brahma Sutras y varios Puranas analizan Moksha en detalle y ofrecen orientación filosófica y práctica.",
-                "question": "¿Qué escrituras hablan de Moksha?"
-            },
-            {
-                "answer": "Sí. Moksha inspira paz interior, desapego y autorrealización, ayudando a las personas a vivir con propósito, compasión y resiliencia en un mundo cambiante.",
-                "question": "¿Es Moksha relevante en la vida moderna?"
-            },
-            {
-                "answer": "Comience con la autoindagación, la vida ética, la devoción, la meditación y la búsqueda de la compañía de maestros sabios. La práctica constante y la aspiración sincera son clave.",
-                "question": "¿Cómo se puede iniciar el viaje hacia Moksha?"
-            },
-            {
-                "answer": "Jivanmukti es liberación mientras se vive: alguien que está libre de ataduras incluso en el cuerpo. Videhamukti es la liberación que se alcanza después de la muerte del cuerpo. Ambos son reconocidos en la filosofía vedántica.",
-                "question": "¿Cuál es la diferencia entre Jivanmukti y Videhamukti?"
-            },
-            {
-                "answer": "Advaita (no dualismo) enseña que Moksha es darse cuenta de la unidad de Atman y Brahman: no existe una separación real. Dvaita (dualismo) sostiene que el alma permanece distinta de Dios pero alcanza la bienaventuranza eterna en la presencia de Dios. Ambos coinciden en la liberación del samsara pero difieren en detalles metafísicos.",
-                "question": "¿Cómo ven a Moksha las filosofías Advaita y Dvaita?"
-            },
-            {
-                "answer": "La ignorancia (avidya), el apego, el ego y los deseos son los principales obstáculos. Superarlos a través del conocimiento, la devoción y la autodisciplina es esencial para la liberación.",
-                "question": "¿Qué obstáculos impiden a Moksha?"
-            },
-            {
-                "answer": "Sí. Los Upanishads enfatizan el conocimiento y la realización, el Bhagavad Gita destaca la acción desinteresada y la devoción, y los Puranas a menudo se centran en la gracia divina. Todos coinciden en el fin del sufrimiento y el renacimiento.",
-                "question": "¿Moksha se describe de manera diferente en varias escrituras?"
-            },
-            {
-                "answer": "Sí. Incluso antes de la liberación final, uno puede experimentar destellos de Moksha como paz interior, desapego y alegría a través de la práctica espiritual y la autorrealización.",
-                "question": "¿Se puede experimentar Moksha en la vida diaria?"
-            },
-            {
-                "answer": "La meditación (dhyana) es una poderosa herramienta para la autorrealización. Ayuda a calmar la mente, disolver el ego y revelar la verdadera naturaleza del Ser, lo que conduce a la liberación.",
-                "question": "¿Cuál es el papel de la meditación para alcanzar Moksha?"
-            },
-            {
-                "answer": "Moksha es el más elevado de los cuatro Purusharthas (Dharma, Artha, Kama, Moksha). Mientras que los tres primeros abordan la vida ética, la riqueza y el deseo, Moksha los trasciende y ofrece máxima libertad y plenitud.",
-                "question": "¿Cómo se relaciona Moksha con otros objetivos de la vida (Purusharthas)?"
-            },
-            {
-                "answer": "Una persona así es serena, desapegada, compasiva, libre de ego y no afectada por el placer o el dolor. El Bhagavad Gita describe estas cualidades en detalle (ver Capítulo 2, versículos 54-72).",
-                "question": "¿Hay señales de una persona cercana a Moksha?"
-            },
-            {
-                "answer": "No. Moksha es permanente e irreversible. Una vez que el alma se libera, no regresa al ciclo de nacimiento y muerte.",
-                "question": "¿Se puede perder Moksha una vez alcanzado?"
-            },
-            {
-                "answer": "Practica la autoindagación, cultiva el desapego, sirve desinteresadamente, medita con regularidad, estudia las Escrituras y busca la guía de maestros realizados.",
-                "question": "¿Qué pasos prácticos pueden ayudar a avanzar hacia Moksha?"
-            }
-        ],
-        "origin": {
-            "meaning": "Derivado del sánscrito \"muc\", que significa \"liberar o liberar\".",
-            "roots": "Enseñanzas védicas y upanishádicas",
-            "texts": [
-                "Upanishads",
-                "Bhagavathgita",
-                "Brahma Sutras"
-            ]
-        },
-        "paths_to_moksha": {
-            "bhakti_yoga": "Path of devotion and surrender to God.",
-            "jnana_yoga": "Path of knowledge and self-realization.",
-            "karma_yoga": "Path of selfless action without attachment.",
-            "raja_yoga": "Path of meditation and discipline."
-        },
-        "relation_to_other_concepts": {
-            "atman": "Comprender el Ser eterno conduce a la liberación.",
-            "dharma": "Vivir según el Dharma prepara la mente para la liberación.",
-            "karma": "La libertad de la esclavitud kármica es esencial para Moksha."
+  "philosophy_moksha": {
+    "title": "Moksha – Liberación Espiritual en Sanatana Dharma",
+    "description": "Aprenda sobre Moksha en Sanatana Dharma, la liberación definitiva del samsara. Explora su significado en los Upanishads, el Bhagavad Gita y la filosofía hindú.",
+    "meta": {
+      "title": "Moksha – Liberación Espiritual en Sanatana Dharma",
+      "canonical": "https://sanatanadharmam.in/philosophy/moksha",
+      "description": "Aprenda sobre Moksha en Sanatana Dharma, la liberación definitiva del samsara. Explora su significado en los Upanishads, el Bhagavad Gita y la filosofía hindú.",
+      "keywords": [
+        "Moksha significado",
+        "liberación espiritual",
+        "moksha en el hinduismo",
+        "moksha y karma",
+        "moksha y samsara",
+        "filosofía moksha",
+        "moksha en el Bhagavad Gita",
+        "moksha Upanishads",
+        "Sanatana Dharma moksha",
+        "Filosofía de liberación hindú"
+      ],
+      "robots": "indexar, seguir",
+      "url": "https://sanatanadharmam.in/philosophy/moksha"
+    },
+    "openGraph": {
+      "title": "Moksha – Liberación Espiritual en Sanatana Dharma",
+      "description": "Descubra Moksha, la máxima liberación espiritual del samsara según la filosofía Sanatana Dharma.",
+      "url": "https://sanatanadharmam.in/philosophy/moksha",
+      "siteName": "Sanatanadharmam",
+      "type": "artículo",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/philosophy-moksha.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Moksha Philosophy"
         }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Término definido",
+          "name": "Moksha",
+          "description": "Moksha es el concepto de liberación espiritual del ciclo de nacimiento y muerte (samsara) en Sanatana Dharma.",
+          "url": "https://sanatanadharmam.in/philosophy/moksha",
+          "inDefinedTermSet": {
+            "@type": "Conjunto de términos definidos",
+            "name": "Filosofía Sanatana Dharma"
+          }
+        },
+        {
+          "@type": "Artículo",
+          "headline": "Moksha – Camino a la Liberación Espiritual",
+          "about": [
+            "Moksha",
+            "Sanatana Dharma",
+            "Filosofía hindú",
+            "samsara",
+            "Upanishads",
+            "Bhagavad Gita"
+          ],
+          "isPartOf": {
+            "@type": "Sitio web",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          },
+          "url": "https://sanatanadharmam.in/philosophy/moksha"
+        }
+      ]
+    },
+    "core_principles": [
+      "Libertad del samsara (ciclo de renacimiento)",
+      "Realización del Ser (Atman)",
+      "Unión con Brahman (Realidad Suprema)",
+      "Desapego de los deseos materiales"
+    ],
+    "definition": "Moksha es el objetivo final de la filosofía hindú y significa la liberación del ciclo de nacimiento y muerte (samsara) y la unión con la Realidad Suprema.",
+    "goals": [
+      "Acabar con el sufrimiento y la ignorancia",
+      "Alcanza la dicha eterna",
+      "Darse cuenta de la verdadera naturaleza de la existencia."
+    ],
+    "key_scriptural_references": [
+      {
+        "quote_summary": "La liberación llega a través de la devoción, el conocimiento y la acción desinteresada.",
+        "text": "Bhagavathgita"
+      },
+      {
+        "quote_summary": "El Ser es Brahman; darse cuenta de esta verdad conduce a Moksha.",
+        "text": "Upanishads"
+      }
+    ],
+    "modern_relevance": {
+      "inner_peace": "Fomenta el desapego y la atención plena.",
+      "spiritual_growth": "Se centra en la autorrealización más allá del materialismo.",
+      "universal_harmony": "Promueve la compasión y la unidad."
+    },
+    "moksha_qa": [
+      {
+        "answer": "Moksha es la liberación del ciclo de nacimiento y muerte (samsara) y la unión con la Realidad Suprema (Brahman). Es el objetivo final de la filosofía hindú y representa la libertad del sufrimiento, la ignorancia y todas las limitaciones.",
+        "question": "¿Qué es Moksha?"
+      },
+      {
+        "answer": "El cielo (Svarga) es un estado temporal de placer, mientras que Moksha es la liberación permanente. Después de disfrutar los frutos de las buenas obras en el cielo, las almas regresan al ciclo de renacimiento, pero Moksha es final y eterno.",
+        "question": "¿En qué se diferencia Moksha del cielo?"
+      },
+      {
+        "answer": "Los cuatro caminos principales son: Bhakti Yoga (devoción), Jnana Yoga (conocimiento), Karma Yoga (acción desinteresada) y Raja Yoga (meditación y disciplina). Cada camino se adapta a diferentes temperamentos y puede conducir a la liberación.",
+        "question": "¿Cuáles son los principales caminos hacia Moksha?"
+      },
+      {
+        "answer": "Sí, Moksha está abierto a todos, independientemente de su origen, género o estatus social. El esfuerzo sincero, la autodisciplina y la gracia son esenciales.",
+        "question": "¿Alguien puede alcanzar Moksha?"
+      },
+      {
+        "answer": "No siempre. Mientras que algunos renuncian a la vida mundana, otros alcanzan Moksha mientras cumplen con sus deberes en el mundo, practicando el desapego y la acción desinteresada.",
+        "question": "¿Es necesaria la renuncia para Moksha?"
+      },
+      {
+        "answer": "Karma une el alma al ciclo de renacimiento. Actuando desinteresadamente y entregando los frutos de las acciones, uno puede purificar la mente y liberarse de la esclavitud kármica, allanando el camino hacia Moksha.",
+        "question": "¿Cómo afecta el Karma a Moksha?"
+      },
+      {
+        "answer": "Un Gurú (maestro espiritual) brinda guía, elimina dudas y ayuda al buscador a comprender la verdadera naturaleza del Ser, que es esencial para la liberación.",
+        "question": "¿Cuál es el papel de un Guru para alcanzar Moksha?"
+      },
+      {
+        "answer": "Los Upanishads, el Bhagavad Gita, los Brahma Sutras y varios Puranas analizan Moksha en detalle y ofrecen orientación filosófica y práctica.",
+        "question": "¿Qué escrituras hablan de Moksha?"
+      },
+      {
+        "answer": "Sí. Moksha inspira paz interior, desapego y autorrealización, ayudando a las personas a vivir con propósito, compasión y resiliencia en un mundo cambiante.",
+        "question": "¿Es Moksha relevante en la vida moderna?"
+      },
+      {
+        "answer": "Comience con la autoindagación, la vida ética, la devoción, la meditación y la búsqueda de la compañía de maestros sabios. La práctica constante y la aspiración sincera son clave.",
+        "question": "¿Cómo se puede iniciar el viaje hacia Moksha?"
+      },
+      {
+        "answer": "Jivanmukti es liberación mientras se vive: alguien que está libre de ataduras incluso en el cuerpo. Videhamukti es la liberación que se alcanza después de la muerte del cuerpo. Ambos son reconocidos en la filosofía vedántica.",
+        "question": "¿Cuál es la diferencia entre Jivanmukti y Videhamukti?"
+      },
+      {
+        "answer": "Advaita (no dualismo) enseña que Moksha es darse cuenta de la unidad de Atman y Brahman: no existe una separación real. Dvaita (dualismo) sostiene que el alma permanece distinta de Dios pero alcanza la bienaventuranza eterna en la presencia de Dios. Ambos coinciden en la liberación del samsara pero difieren en detalles metafísicos.",
+        "question": "¿Cómo ven a Moksha las filosofías Advaita y Dvaita?"
+      },
+      {
+        "answer": "La ignorancia (avidya), el apego, el ego y los deseos son los principales obstáculos. Superarlos a través del conocimiento, la devoción y la autodisciplina es esencial para la liberación.",
+        "question": "¿Qué obstáculos impiden a Moksha?"
+      },
+      {
+        "answer": "Sí. Los Upanishads enfatizan el conocimiento y la realización, el Bhagavad Gita destaca la acción desinteresada y la devoción, y los Puranas a menudo se centran en la gracia divina. Todos coinciden en el fin del sufrimiento y el renacimiento.",
+        "question": "¿Moksha se describe de manera diferente en varias escrituras?"
+      },
+      {
+        "answer": "Sí. Incluso antes de la liberación final, uno puede experimentar destellos de Moksha como paz interior, desapego y alegría a través de la práctica espiritual y la autorrealización.",
+        "question": "¿Se puede experimentar Moksha en la vida diaria?"
+      },
+      {
+        "answer": "La meditación (dhyana) es una poderosa herramienta para la autorrealización. Ayuda a calmar la mente, disolver el ego y revelar la verdadera naturaleza del Ser, lo que conduce a la liberación.",
+        "question": "¿Cuál es el papel de la meditación para alcanzar Moksha?"
+      },
+      {
+        "answer": "Moksha es el más elevado de los cuatro Purusharthas (Dharma, Artha, Kama, Moksha). Mientras que los tres primeros abordan la vida ética, la riqueza y el deseo, Moksha los trasciende y ofrece máxima libertad y plenitud.",
+        "question": "¿Cómo se relaciona Moksha con otros objetivos de la vida (Purusharthas)?"
+      },
+      {
+        "answer": "Una persona así es serena, desapegada, compasiva, libre de ego y no afectada por el placer o el dolor. El Bhagavad Gita describe estas cualidades en detalle (ver Capítulo 2, versículos 54-72).",
+        "question": "¿Hay señales de una persona cercana a Moksha?"
+      },
+      {
+        "answer": "No. Moksha es permanente e irreversible. Una vez que el alma se libera, no regresa al ciclo de nacimiento y muerte.",
+        "question": "¿Se puede perder Moksha una vez alcanzado?"
+      },
+      {
+        "answer": "Practica la autoindagación, cultiva el desapego, sirve desinteresadamente, medita con regularidad, estudia las Escrituras y busca la guía de maestros realizados.",
+        "question": "¿Qué pasos prácticos pueden ayudar a avanzar hacia Moksha?"
+      }
+    ],
+    "origin": {
+      "meaning": "Derivado del sánscrito \"muc\", que significa \"liberar o liberar\".",
+      "roots": "Enseñanzas védicas y upanishádicas",
+      "texts": ["Upanishads", "Bhagavathgita", "Brahma Sutras"]
+    },
+    "paths_to_moksha": {
+      "bhakti_yoga": "Path of devotion and surrender to God.",
+      "jnana_yoga": "Path of knowledge and self-realization.",
+      "karma_yoga": "Path of selfless action without attachment.",
+      "raja_yoga": "Path of meditation and discipline."
+    },
+    "relation_to_other_concepts": {
+      "atman": "Comprender el Ser eterno conduce a la liberación.",
+      "dharma": "Vivir según el Dharma prepara la mente para la liberación.",
+      "karma": "La libertad de la esclavitud kármica es esencial para Moksha."
     }
+  }
 }

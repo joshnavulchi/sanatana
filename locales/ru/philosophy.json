@@ -1,93 +1,93 @@
 {
-    "philosophy": {
-        "title": "Философия Санатана Дхармы – Дхарма, Карма, Мокша и Адвайта.",
-        "description": "Изучите философию Санатана Дхармы, включая Дхарму, Карму, Мокшу, Самсару, Пурушартхи и Адвайта Веданту, объясненную в индуистских писаниях.",
-        "meta": {
-            "title": "Философия Санатана Дхармы – Дхарма, Карма, Мокша и Адвайта.",
-            "canonical": "https://sanatanadharmam.in/philosophy",
-            "description": "Изучите философию Санатана Дхармы, включая Дхарму, Карму, Мокшу, Самсару, Пурушартхи и Адвайта Веданту, объясненную в индуистских писаниях.",
-            "keywords": [
-                "Философия Санатана Дхармы",
-                "Индуистская философия",
-                "Ведическая философия",
-                "Философия Упанишад",
-                "Дхарма Карма Мокша",
-                "Философия Адвайта Веданты",
-                "Философия Пурушартхи",
-                "Философия самсары",
-                "Индийская философия",
-                "Философия Бхагавад Гиты"
-            ],
-            "robots": "индекс, следовать",
-            "url": "https://sanatanadharmam.in/philosophy"
-        },
-        "openGraph": {
-            "title": "Философия Санатана Дхармы – объяснение основных концепций",
-            "description": "Откройте для себя философские учения Санатана Дхармы, включая Дхарму, Карму, Мокшу, Самсару и Адвайту.",
-            "url": "https://sanatanadharmam.in/philosophy",
-            "siteName": "Санатанадхармам",
-            "type": "веб-сайт",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/philosophy.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Sanatana Dharma Philosophy"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "Страница коллекции",
-                    "name": "Философия Санатана Дхармы",
-                    "description": "Сборник философских концепций Санатана Дхармы, включая Дхарму, Карму, Мокшу, Самсару и Адвайту.",
-                    "url": "https://sanatanadharmam.in/philosophy"
-                },
-                {
-                    "@type": "Список предметов",
-                    "name": "Темы философии Санатана Дхармы",
-                    "itemListElement": [
-                        {
-                            "@type": "ListItem",
-                            "position": 1,
-                            "name": "Дхарма",
-                            "url": "https://sanatanadharmam.in/philosophy/dharma"
-                        },
-                        {
-                            "@type": "ListItem",
-                            "position": 2,
-                            "name": "Карма",
-                            "url": "https://sanatanadharmam.in/philosophy/karma"
-                        },
-                        {
-                            "@type": "ListItem",
-                            "position": 3,
-                            "name": "Мокша",
-                            "url": "https://sanatanadharmam.in/philosophy/moksha"
-                        },
-                        {
-                            "@type": "ListItem",
-                            "position": 4,
-                            "name": "Самсара",
-                            "url": "https://sanatanadharmam.in/philosophy/samsara"
-                        },
-                        {
-                            "@type": "ListItem",
-                            "position": 5,
-                            "name": "Пурушартхи",
-                            "url": "https://sanatanadharmam.in/philosophy/purushartha"
-                        },
-                        {
-                            "@type": "ListItem",
-                            "position": 6,
-                            "name": "Адвайта Веданта",
-                            "url": "https://sanatanadharmam.in/philosophy/advaita"
-                        }
-                    ]
-                }
-            ]
+  "philosophy": {
+    "title": "Философия Санатана Дхармы – Дхарма, Карма, Мокша и Адвайта.",
+    "description": "Изучите философию Санатана Дхармы, включая Дхарму, Карму, Мокшу, Самсару, Пурушартхи и Адвайта Веданту, объясненную в индуистских писаниях.",
+    "meta": {
+      "title": "Философия Санатана Дхармы – Дхарма, Карма, Мокша и Адвайта.",
+      "canonical": "https://sanatanadharmam.in/philosophy",
+      "description": "Изучите философию Санатана Дхармы, включая Дхарму, Карму, Мокшу, Самсару, Пурушартхи и Адвайта Веданту, объясненную в индуистских писаниях.",
+      "keywords": [
+        "Философия Санатана Дхармы",
+        "Индуистская философия",
+        "Ведическая философия",
+        "Философия Упанишад",
+        "Дхарма Карма Мокша",
+        "Философия Адвайта Веданты",
+        "Философия Пурушартхи",
+        "Философия самсары",
+        "Индийская философия",
+        "Философия Бхагавад Гиты"
+      ],
+      "robots": "индекс, следовать",
+      "url": "https://sanatanadharmam.in/philosophy"
+    },
+    "openGraph": {
+      "title": "Философия Санатана Дхармы – объяснение основных концепций",
+      "description": "Откройте для себя философские учения Санатана Дхармы, включая Дхарму, Карму, Мокшу, Самсару и Адвайту.",
+      "url": "https://sanatanadharmam.in/philosophy",
+      "siteName": "Санатанадхармам",
+      "type": "веб-сайт",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/philosophy.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Sanatana Dharma Philosophy"
         }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Страница коллекции",
+          "name": "Философия Санатана Дхармы",
+          "description": "Сборник философских концепций Санатана Дхармы, включая Дхарму, Карму, Мокшу, Самсару и Адвайту.",
+          "url": "https://sanatanadharmam.in/philosophy"
+        },
+        {
+          "@type": "Список предметов",
+          "name": "Темы философии Санатана Дхармы",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Дхарма",
+              "url": "https://sanatanadharmam.in/philosophy/dharma"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Карма",
+              "url": "https://sanatanadharmam.in/philosophy/karma"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Мокша",
+              "url": "https://sanatanadharmam.in/philosophy/moksha"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Самсара",
+              "url": "https://sanatanadharmam.in/philosophy/samsara"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Пурушартхи",
+              "url": "https://sanatanadharmam.in/philosophy/purushartha"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "Адвайта Веданта",
+              "url": "https://sanatanadharmam.in/philosophy/advaita"
+            }
+          ]
+        }
+      ]
     }
+  }
 }

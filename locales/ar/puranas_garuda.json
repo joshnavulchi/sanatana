@@ -1,71 +1,71 @@
 {
-    "puranas_garuda": {
-        "meta": {
-            "title": "جارودا بورانا – تعاليم عن الحياة الآخرة والدارما",
-            "canonical": "https://sanatanadharmam.in/scriptures/puranas/garuda",
-            "description": "استكشف جارودا بورانا، وهو نص هندوسي مقدس يصف رحلة الروح بعد الموت، والكارما، والطقوس الجنائزية، والتعاليم الروحية لساناتانا دارما.",
-            "keywords": [
-                "جارودا بورانا",
-                "جارودا بورانا الآخرة",
-                "تعاليم جارودا بورانا",
-                "جارودا بورانا كارما",
-                "طقوس جنازة جارودا بورانا",
-                "رحلة الروح جارودا بورانا",
-                "نهر جارودا بورانا فايتاراني",
-                "فلسفة جارودا بورانا",
-                "التناسخ جارودا بورانا",
-                "الكتب المقدسة الهندوسية جارودا بورانا"
-            ],
-            "robots": "الفهرس، اتبع",
-            "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
-        },
-        "openGraph": {
-            "title": "جارودا بورانا – التعاليم المقدسة عن الحياة والموت والآخرة",
-            "description": "تعلم التعاليم العميقة لجارودا بورانا حول الكارما والموت والحياة الآخرة وطقوس الجنازة ورحلة الروح.",
-            "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
-            "siteName": "ساناتانادارمام",
-            "type": "شرط",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/puranas-garuda.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Garuda Purana Scripture"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "كتاب",
-                    "name": "جارودا بورانا",
-                    "description": "جارودا بورانا هو واحد من ثمانية عشر ماهابورانا في الهندوسية، يناقش الحياة الآخرة، والكارما، والطقوس الجنائزية، والفلسفة الروحية.",
-                    "author": {
-                        "@type": "شخص",
-                        "name": "فيد فياسا"
-                    },
-                    "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
-                    "inLanguage": "السنسكريتية"
-                },
-                {
-                    "@type": "شرط",
-                    "headline": "جارودا بورانا – رحلة الروح بعد الموت",
-                    "about": [
-                        "جارودا بورانا",
-                        "الآخرة",
-                        "كارما",
-                        "التناسخ",
-                        "ساناتانا دارما"
-                    ],
-                    "isPartOf": {
-                        "@type": "موقع إلكتروني",
-                        "name": "ساناتانادارمام",
-                        "url": "https://sanatanadharmam.in"
-                    },
-                    "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
-                }
-            ]
+  "puranas_garuda": {
+    "meta": {
+      "title": "جارودا بورانا – تعاليم عن الحياة الآخرة والدارما",
+      "canonical": "https://sanatanadharmam.in/scriptures/puranas/garuda",
+      "description": "استكشف جارودا بورانا، وهو نص هندوسي مقدس يصف رحلة الروح بعد الموت، والكارما، والطقوس الجنائزية، والتعاليم الروحية لساناتانا دارما.",
+      "keywords": [
+        "جارودا بورانا",
+        "جارودا بورانا الآخرة",
+        "تعاليم جارودا بورانا",
+        "جارودا بورانا كارما",
+        "طقوس جنازة جارودا بورانا",
+        "رحلة الروح جارودا بورانا",
+        "نهر جارودا بورانا فايتاراني",
+        "فلسفة جارودا بورانا",
+        "التناسخ جارودا بورانا",
+        "الكتب المقدسة الهندوسية جارودا بورانا"
+      ],
+      "robots": "الفهرس، اتبع",
+      "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
+    },
+    "openGraph": {
+      "title": "جارودا بورانا – التعاليم المقدسة عن الحياة والموت والآخرة",
+      "description": "تعلم التعاليم العميقة لجارودا بورانا حول الكارما والموت والحياة الآخرة وطقوس الجنازة ورحلة الروح.",
+      "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
+      "siteName": "ساناتانادارمام",
+      "type": "شرط",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/puranas-garuda.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Garuda Purana Scripture"
         }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "كتاب",
+          "name": "جارودا بورانا",
+          "description": "جارودا بورانا هو واحد من ثمانية عشر ماهابورانا في الهندوسية، يناقش الحياة الآخرة، والكارما، والطقوس الجنائزية، والفلسفة الروحية.",
+          "author": {
+            "@type": "شخص",
+            "name": "فيد فياسا"
+          },
+          "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
+          "inLanguage": "السنسكريتية"
+        },
+        {
+          "@type": "شرط",
+          "headline": "جارودا بورانا – رحلة الروح بعد الموت",
+          "about": [
+            "جارودا بورانا",
+            "الآخرة",
+            "كارما",
+            "التناسخ",
+            "ساناتانا دارما"
+          ],
+          "isPartOf": {
+            "@type": "موقع إلكتروني",
+            "name": "ساناتانادارمام",
+            "url": "https://sanatanadharmam.in"
+          },
+          "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
+        }
+      ]
     }
+  }
 }

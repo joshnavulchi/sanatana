@@ -1,71 +1,71 @@
 {
-    "puranas_garuda": {
-        "meta": {
-            "title": "Garuda Purana – Enseñanzas sobre la otra vida y el Dharma",
-            "canonical": "https://sanatanadharmam.in/scriptures/puranas/garuda",
-            "description": "Explore el Garuda Purana, un texto sagrado hindú que describe el viaje del alma después de la muerte, el karma, los ritos funerarios y las enseñanzas espirituales del Sanatana Dharma.",
-            "keywords": [
-                "Garuda Purana",
-                "Más allá de Garuda Purana",
-                "Enseñanzas de Garuda Purana",
-                "Karma Garuda Purana",
-                "Ritos funerarios del Garuda Purana",
-                "Viaje del alma de Garuda Purana",
-                "Río Garuda Purana Vaitarani",
-                "Filosofía Garuda Purana",
-                "Reencarnación de Garuda Purana",
-                "Escrituras hindúes Garuda Purana"
-            ],
-            "robots": "indexar, seguir",
-            "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
-        },
-        "openGraph": {
-            "title": "Garuda Purana – Enseñanzas sagradas sobre la vida, la muerte y el más allá",
-            "description": "Conozca las profundas enseñanzas del Garuda Purana sobre el karma, la muerte, la otra vida, los ritos funerarios y el viaje del alma.",
-            "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
-            "siteName": "Sanatanadharmam",
-            "type": "artículo",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/puranas-garuda.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Garuda Purana Scripture"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "Reservar",
-                    "name": "Garuda Purana",
-                    "description": "Garuda Purana es uno de los dieciocho Mahapuranas del hinduismo y analiza la vida futura, el karma, los ritos funerarios y la filosofía espiritual.",
-                    "author": {
-                        "@type": "persona",
-                        "name": "Ved Vyasa"
-                    },
-                    "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
-                    "inLanguage": "sánscrito"
-                },
-                {
-                    "@type": "Artículo",
-                    "headline": "Garuda Purana – Viaje del alma después de la muerte",
-                    "about": [
-                        "Garuda Purana",
-                        "Más allá",
-                        "Karma",
-                        "Reencarnación",
-                        "Sanatana Dharma"
-                    ],
-                    "isPartOf": {
-                        "@type": "Sitio web",
-                        "name": "Sanatanadharmam",
-                        "url": "https://sanatanadharmam.in"
-                    },
-                    "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
-                }
-            ]
+  "puranas_garuda": {
+    "meta": {
+      "title": "Garuda Purana – Enseñanzas sobre la otra vida y el Dharma",
+      "canonical": "https://sanatanadharmam.in/scriptures/puranas/garuda",
+      "description": "Explore el Garuda Purana, un texto sagrado hindú que describe el viaje del alma después de la muerte, el karma, los ritos funerarios y las enseñanzas espirituales del Sanatana Dharma.",
+      "keywords": [
+        "Garuda Purana",
+        "Más allá de Garuda Purana",
+        "Enseñanzas de Garuda Purana",
+        "Karma Garuda Purana",
+        "Ritos funerarios del Garuda Purana",
+        "Viaje del alma de Garuda Purana",
+        "Río Garuda Purana Vaitarani",
+        "Filosofía Garuda Purana",
+        "Reencarnación de Garuda Purana",
+        "Escrituras hindúes Garuda Purana"
+      ],
+      "robots": "indexar, seguir",
+      "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
+    },
+    "openGraph": {
+      "title": "Garuda Purana – Enseñanzas sagradas sobre la vida, la muerte y el más allá",
+      "description": "Conozca las profundas enseñanzas del Garuda Purana sobre el karma, la muerte, la otra vida, los ritos funerarios y el viaje del alma.",
+      "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
+      "siteName": "Sanatanadharmam",
+      "type": "artículo",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/puranas-garuda.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Garuda Purana Scripture"
         }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Reservar",
+          "name": "Garuda Purana",
+          "description": "Garuda Purana es uno de los dieciocho Mahapuranas del hinduismo y analiza la vida futura, el karma, los ritos funerarios y la filosofía espiritual.",
+          "author": {
+            "@type": "persona",
+            "name": "Ved Vyasa"
+          },
+          "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
+          "inLanguage": "sánscrito"
+        },
+        {
+          "@type": "Artículo",
+          "headline": "Garuda Purana – Viaje del alma después de la muerte",
+          "about": [
+            "Garuda Purana",
+            "Más allá",
+            "Karma",
+            "Reencarnación",
+            "Sanatana Dharma"
+          ],
+          "isPartOf": {
+            "@type": "Sitio web",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          },
+          "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
+        }
+      ]
     }
+  }
 }

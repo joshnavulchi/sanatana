@@ -861,19 +861,9 @@
           "name": "Atharvaveda"
         }
       ],
-      "subdivisions": [
-        "Samhitas",
-        "Brahmanas",
-        "Aranyakas",
-        "Upanishads"
-      ]
+      "subdivisions": ["Samhitas", "Brahmanas", "Aranyakas", "Upanishads"]
     },
-    "themes": [
-      "Cosmology",
-      "Ethics",
-      "Rituals",
-      "Philosophy"
-    ],
+    "themes": ["Cosmology", "Ethics", "Rituals", "Philosophy"],
     "timeline": [
       {
         "date": "1500 BCE – 1200 BCE",
@@ -926,23 +916,17 @@
       "definition": "Philosophical texts forming the concluding part of the Vedas, focusing on spiritual knowledge.",
       "major_upanishads": [
         {
-          "links": [
-            "https://www.gutenberg.org/ebooks/3283"
-          ],
+          "links": ["https://www.gutenberg.org/ebooks/3283"],
           "name": "Isha",
           "summary": "Teaches renunciation and unity of Brahman in all beings."
         },
         {
-          "links": [
-            "https://scriptures.ru/upanishad/"
-          ],
+          "links": ["https://scriptures.ru/upanishad/"],
           "name": "Kena",
           "summary": "Explores the source of perception and ultimate reality."
         },
         {
-          "links": [
-            "https://kaalchakra.in/108-upanishads-all-in-one/"
-          ],
+          "links": ["https://kaalchakra.in/108-upanishads-all-in-one/"],
           "name": "Katha",
           "summary": "Dialogue between Nachiketa and Yama on immortality."
         },
@@ -961,16 +945,12 @@
           "summary": "Analysis of Om and states of consciousness."
         },
         {
-          "links": [
-            "https://scriptures.ru/upanishad/"
-          ],
+          "links": ["https://scriptures.ru/upanishad/"],
           "name": "Taittiriya",
           "summary": "Layers of human existence; bliss of Brahman."
         },
         {
-          "links": [
-            "https://kaalchakra.in/108-upanishads-all-in-one/"
-          ],
+          "links": ["https://kaalchakra.in/108-upanishads-all-in-one/"],
           "name": "Chandogya",
           "summary": "Meditation, ethics, and the concept of 'Tat Tvam Asi'."
         },

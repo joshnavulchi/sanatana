@@ -150,40 +150,25 @@
     "origin": {
       "purpose": "To honor deities, express gratitude, and reinforce Dharma in community life.",
       "roots": "Vedic and Puranic traditions",
-      "texts": [
-        "Vedas",
-        "Puranas",
-        "Smritis"
-      ]
+      "texts": ["Vedas", "Puranas", "Smritis"]
     },
     "seasonal_festivals": {
       "autumn": [
         {
           "name": "Navaratri",
-          "practices": [
-            "Fasting",
-            "Garba dance",
-            "Reciting scriptures"
-          ],
+          "practices": ["Fasting", "Garba dance", "Reciting scriptures"],
           "significance": "Nine nights of Devi worship."
         },
         {
           "name": "Diwali",
-          "practices": [
-            "Lighting lamps",
-            "Lakshmi Puja",
-            "Fireworks"
-          ],
+          "practices": ["Lighting lamps", "Lakshmi Puja", "Fireworks"],
           "significance": "Festival of Lights."
         }
       ],
       "monsoon": [
         {
           "name": "Krishna Janmashtami",
-          "practices": [
-            "Midnight puja",
-            "Dahi Handi celebrations"
-          ],
+          "practices": ["Midnight puja", "Dahi Handi celebrations"],
           "significance": "Birth of Lord Krishna."
         }
       ],
@@ -229,10 +214,7 @@
         },
         {
           "name": "Maha Shivaratri",
-          "practices": [
-            "Night-long vigil",
-            "Bilva leaf offerings"
-          ],
+          "practices": ["Night-long vigil", "Bilva leaf offerings"],
           "significance": "Night of Shiva."
         }
       ]

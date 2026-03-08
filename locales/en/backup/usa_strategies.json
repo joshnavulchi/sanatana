@@ -135,16 +135,11 @@
         "key_strategies": [
           "Flexible response; tech/space signaling; foreign aid competition in Global South."
         ],
-        "tools_used": [
-          "Alliances/Bases",
-          "Aid/Development"
-        ],
+        "tools_used": ["Alliances/Bases", "Aid/Development"],
         "notable_policies_events": [
           "Crisis management approach; continued NATO investment"
         ],
-        "sources": [
-          "turn1search55"
-        ]
+        "sources": ["turn1search55"]
       },
       {
         "years": "1963-1969",
@@ -152,16 +147,9 @@
         "key_strategies": [
           "Vietnam commitment; continued use of Bretton Woods tools."
         ],
-        "tools_used": [
-          "Conventional force",
-          "IMF/World Bank"
-        ],
-        "notable_policies_events": [
-          "Large SE Asia deployments"
-        ],
-        "sources": [
-          "turn1search37"
-        ]
+        "tools_used": ["Conventional force", "IMF/World Bank"],
+        "notable_policies_events": ["Large SE Asia deployments"],
+        "sources": ["turn1search37"]
       },
       {
         "years": "1969-1974",
@@ -169,35 +157,21 @@
         "key_strategies": [
           "Dollar off gold; manage oil shock via Saudi ties; détente with USSR/PRC."
         ],
-        "tools_used": [
-          "Dollar liquidity",
-          "Energy diplomacy",
-          "Alliances"
-        ],
+        "tools_used": ["Dollar liquidity", "Energy diplomacy", "Alliances"],
         "notable_policies_events": [
           "1971 end of gold convertibility; 1973–74 oil shock; 1974 US–Saudi Joint Commission"
         ],
-        "sources": [
-          "turn1search6",
-          "turn1search3"
-        ]
+        "sources": ["turn1search6", "turn1search3"]
       },
       {
         "years": "1974-1977",
         "president": "Gerald Ford",
-        "key_strategies": [
-          "Stabilize post-oil-shock system; alliance upkeep."
-        ],
-        "tools_used": [
-          "Energy/finance diplomacy",
-          "Alliances"
-        ],
+        "key_strategies": ["Stabilize post-oil-shock system; alliance upkeep."],
+        "tools_used": ["Energy/finance diplomacy", "Alliances"],
         "notable_policies_events": [
           "Institutionalization of US–Saudi commissions and recycling mechanisms"
         ],
-        "sources": [
-          "turn1search3"
-        ]
+        "sources": ["turn1search3"]
       },
       {
         "years": "1977-1981",
@@ -205,16 +179,11 @@
         "key_strategies": [
           "Human rights + Gulf security (Carter Doctrine, 1980)."
         ],
-        "tools_used": [
-          "Rapid deployment capability",
-          "Alliances/Bases"
-        ],
+        "tools_used": ["Rapid deployment capability", "Alliances/Bases"],
         "notable_policies_events": [
           "Persian Gulf identified as vital interest"
         ],
-        "sources": [
-          "turn1search55"
-        ]
+        "sources": ["turn1search55"]
       },
       {
         "years": "1981-1989",
@@ -222,17 +191,11 @@
         "key_strategies": [
           "Defense-tech buildup; market liberalization within US-led order."
         ],
-        "tools_used": [
-          "Advanced weapons",
-          "Alliances",
-          "Financial openness"
-        ],
+        "tools_used": ["Advanced weapons", "Alliances", "Financial openness"],
         "notable_policies_events": [
           "Tech overmatch initiatives; ideological offensive"
         ],
-        "sources": [
-          "turn1search22"
-        ]
+        "sources": ["turn1search22"]
       },
       {
         "years": "1989-1993",
@@ -240,17 +203,11 @@
         "key_strategies": [
           "Coalition warfare + sanctions to police order in Gulf War."
         ],
-        "tools_used": [
-          "Bases/logistics",
-          "Sanctions",
-          "Alliances"
-        ],
+        "tools_used": ["Bases/logistics", "Sanctions", "Alliances"],
         "notable_policies_events": [
           "1991 Gulf War; UN-backed sanctions and force projection"
         ],
-        "sources": [
-          "turn1search55"
-        ]
+        "sources": ["turn1search55"]
       },
       {
         "years": "1993-2001",
@@ -266,9 +223,7 @@
         "notable_policies_events": [
           "1999 NATO enlargement (Poland, Hungary, Czech Republic)"
         ],
-        "sources": [
-          "turn1search56"
-        ]
+        "sources": ["turn1search56"]
       },
       {
         "years": "2001-2009",
@@ -284,9 +239,7 @@
         "notable_policies_events": [
           "Afghanistan and Iraq wars; intensified terror finance controls"
         ],
-        "sources": [
-          "turn1search31"
-        ]
+        "sources": ["turn1search31"]
       },
       {
         "years": "2009-2017",
@@ -294,17 +247,11 @@
         "key_strategies": [
           "Pivot to Asia; drones/cyber; Iran sanctions leading to JCPOA."
         ],
-        "tools_used": [
-          "Sanctions diplomacy",
-          "Cyber/ISR",
-          "Alliances in Asia"
-        ],
+        "tools_used": ["Sanctions diplomacy", "Cyber/ISR", "Alliances in Asia"],
         "notable_policies_events": [
           "Sanctions architecture on Iran tightened pre-JCPOA (2015)"
         ],
-        "sources": [
-          "turn1search36"
-        ]
+        "sources": ["turn1search36"]
       },
       {
         "years": "2017-2021",
@@ -320,9 +267,7 @@
         "notable_policies_events": [
           "Huawei/tech restrictions; broader decoupling rhetoric"
         ],
-        "sources": [
-          "turn1search46"
-        ]
+        "sources": ["turn1search46"]
       },
       {
         "years": "2021-2025",
@@ -362,10 +307,7 @@
         "notable_policies_events": [
           "Presidency resumed Jan 20, 2025 (non-consecutive)."
         ],
-        "sources": [
-          "turn1search25",
-          "turn1search26"
-        ]
+        "sources": ["turn1search25", "turn1search26"]
       }
     ],
     "cross_cutting_tools": {
@@ -381,11 +323,7 @@
         },
         "dollar_centrality_petrodollar_practice": {
           "description": "Post-1971 dollar dominance sustained by liquidity, Treasury markets, and US–Saudi economic/security cooperation (1974 Joint Commission), not a formal dollar-only oil treaty.",
-          "sources": [
-            "turn1search6",
-            "turn1search3",
-            "turn1search2"
-          ]
+          "sources": ["turn1search6", "turn1search3", "turn1search2"]
         },
         "sanctions_payments_plumbing": {
           "description": "OFAC sanctions and selective SWIFT disconnections (Iran 2012, Russia 2022) leverage network effects of the dollar; encourage partial alternatives (SPFS/CIPS).",
@@ -411,46 +349,28 @@
       "machines_security": {
         "overseas_bases": {
           "description": "Forward presence for deterrence/logistics. Official counts acknowledge ~128 bases in ≥51 countries; broader civil tallies cite ~750 sites depending on definitions.",
-          "sources": [
-            "turn1search49",
-            "turn1search51"
-          ]
+          "sources": ["turn1search49", "turn1search51"]
         },
         "alliances": {
           "description": "NATO creation and successive enlargements; Indo-Pacific relies on bilateral treaties and newer minilateral frameworks (Quad, AUKUS).",
-          "sources": [
-            "turn1search55",
-            "turn1search56"
-          ]
+          "sources": ["turn1search55", "turn1search56"]
         }
       },
       "grand_strategy_context": {
         "description": "US-led liberal order (open markets, alliances, institutions) with debates over primacy vs. restraint across administrations.",
-        "sources": [
-          "turn1search20",
-          "turn1search22",
-          "turn1search21"
-        ]
+        "sources": ["turn1search20", "turn1search22", "turn1search21"]
       }
     },
     "interaction_patterns": [
       {
         "pattern": "Network finance + sanctions",
         "insight": "Dollar scale/liquidity and SWIFT access make sanctions potent but also catalyze alternative rails (SPFS/CIPS) with repeated use.",
-        "sources": [
-          "turn1search31",
-          "turn1search33",
-          "turn1search35"
-        ]
+        "sources": ["turn1search31", "turn1search33", "turn1search35"]
       },
       {
         "pattern": "Semiconductor chokepoints",
         "insight": "Performance-threshold controls plus U.S.-person rules constrain AI compute; long-run effectiveness depends on allied sync and China’s indigenization timeline.",
-        "sources": [
-          "turn1search45",
-          "turn1search46",
-          "turn1search43"
-        ]
+        "sources": ["turn1search45", "turn1search46", "turn1search43"]
       },
       {
         "pattern": "Bases + alliances enforce rules",
@@ -477,67 +397,46 @@
       {
         "strategy": "Sanctions/finance",
         "effectiveness": "High leverage via dollar/SWIFT network; catalyzes workarounds over time",
-        "evidence": [
-          "turn1search31",
-          "turn1search35",
-          "turn1search33"
-        ]
+        "evidence": ["turn1search31", "turn1search35", "turn1search33"]
       },
       {
         "strategy": "Alliances/minilaterals",
         "effectiveness": "High for policy synchronization and deterrence",
-        "evidence": [
-          "turn10search163",
-          "turn10search165"
-        ]
+        "evidence": ["turn10search163", "turn10search165"]
       },
       {
         "strategy": "Tech/export controls",
         "effectiveness": "Effective at chokepoints; depends on allied alignment",
-        "evidence": [
-          "turn1search45"
-        ]
+        "evidence": ["turn1search45"]
       }
     ],
     "us_targeting_motives": {
       "latin_america": [
         {
           "reason": "Hemispheric primacy rooted in the Monroe Doctrine and its evolution into a justification for frequent intervention to secure a U.S.-led order in the Western Hemisphere.",
-          "sources": [
-            "turn9search138"
-          ]
+          "sources": ["turn9search138"]
         },
         {
           "reason": "Domestic security spillovers: reduce mass migration, neutralize drug cartels and transnational crime, prevent hostile ownership of critical assets, and secure nearby strategic locations (\"front yard\" framing).",
-          "sources": [
-            "turn9search137"
-          ]
+          "sources": ["turn9search137"]
         },
         {
           "reason": "Countering extra‑hemispheric rivals (China, Russia) expanding influence and investments in Latin America.",
-          "sources": [
-            "turn9search137"
-          ]
+          "sources": ["turn9search137"]
         },
         {
           "reason": "Regime change / anti‑communism during the Cold War and after (e.g., Guatemala 1954; Chile 1973) using sanctions, covert action, and direct/multilateral force.",
-          "sources": [
-            "turn9search133"
-          ]
+          "sources": ["turn9search133"]
         },
         {
           "reason": "Protection of U.S. commercial interests and energy/resource access through embargoes, sanctions, and political pressure (e.g., Cuba, Venezuela).",
-          "sources": [
-            "turn9search133"
-          ]
+          "sources": ["turn9search133"]
         }
       ],
       "asia_pacific": [
         {
           "reason": "Protect global trade routes and supply chains; maintain access to key strategic locations, sea lanes, and basing/overflight rights.",
-          "sources": [
-            "turn9search137"
-          ]
+          "sources": ["turn9search137"]
         },
         {
           "reason": "Counterbalance the rise of China via alliances and minilateral frameworks (AUKUS, Quad) and military-technological cooperation.",
@@ -550,19 +449,11 @@
         },
         {
           "reason": "Counterterrorism and denial of safe havens (post‑9/11) leading to Afghanistan operations and broader War on Terror.",
-          "sources": [
-            "turn10search157",
-            "turn10search158",
-            "turn10search162"
-          ]
+          "sources": ["turn10search157", "turn10search158", "turn10search162"]
         },
         {
           "reason": "Preserve regional stability through forward presence and alliance commitments (Japan, ROK, Philippines, Australia).",
-          "sources": [
-            "turn10search163",
-            "turn10search165",
-            "turn10search167"
-          ]
+          "sources": ["turn10search163", "turn10search165", "turn10search167"]
         }
       ]
     },
@@ -574,20 +465,13 @@
           "Internal U.S. security concerns (migration, narco‑crime) and regime alignment near U.S. borders.",
           "Countering China/Russia’s influence and protecting U.S. commercial/energy interests."
         ],
-        "sources": [
-          "turn9search138",
-          "turn9search137",
-          "turn9search133"
-        ],
+        "sources": ["turn9search138", "turn9search137", "turn9search133"],
         "typical_mechanisms": [
           "Sanctions/embargoes (e.g., Cuba; Venezuela).",
           "Covert action, support for coups or friendly regimes (e.g., Guatemala 1954; Chile 1973).",
           "Limited/direct interventions and maritime deployments in the Caribbean basin."
         ],
-        "mechanism_sources": [
-          "turn9search133",
-          "turn9search137"
-        ]
+        "mechanism_sources": ["turn9search133", "turn9search137"]
       },
       "asia_pacific": {
         "primary_drivers": [
@@ -640,18 +524,13 @@
               "name": "Covert/Political Operations",
               "effectiveness": "Medium",
               "why": "Historically decisive in some cases (e.g., Guatemala 1954, Chile 1973), but reputational costs and regional backlash limit repeatability today.",
-              "evidence": [
-                "turn9search133"
-              ]
+              "evidence": ["turn9search133"]
             },
             {
               "name": "Alliance/Security Leverage & Diplomatic Isolation",
               "effectiveness": "Medium",
               "why": "Hemispheric primacy/Monroe legacy and regional coalitions amplify pressure but face pushback from growing extra‑regional actors.",
-              "evidence": [
-                "turn9search138",
-                "turn9search137"
-              ]
+              "evidence": ["turn9search138", "turn9search137"]
             }
           ]
         },
@@ -662,37 +541,25 @@
               "name": "Major Combat / Occupation (historical)",
               "effectiveness": "High (historical); Low (today’s threshold)",
               "why": "Compelled surrender (Japan 1945), enabled constitutional redesign; but today’s costs/risks + nuclear/peer dynamics raise thresholds.",
-              "evidence": [
-                "turn3search73",
-                "turn10search147"
-              ]
+              "evidence": ["turn3search73", "turn10search147"]
             },
             {
               "name": "Alliances, Minilaterals & Access/Basing",
               "effectiveness": "High",
               "why": "Defense treaties (Japan/ROK/Philippines) + AUKUS/Quad synchronize policies and posture across the Indo‑Pacific.",
-              "evidence": [
-                "turn10search163",
-                "turn10search165"
-              ]
+              "evidence": ["turn10search163", "turn10search165"]
             },
             {
               "name": "Tech/Export Controls",
               "effectiveness": "Medium",
               "why": "BIS rules restrict advanced compute; effectiveness depends on allied alignment and evasion limits.",
-              "evidence": [
-                "turn1search45",
-                "turn1search44"
-              ]
+              "evidence": ["turn1search45", "turn1search44"]
             },
             {
               "name": "Sanctions",
               "effectiveness": "Variable",
               "why": "Impacts hinge on target’s dollar exposure and alternative networks (e.g., CIPS/SPFS) mitigating effects.",
-              "evidence": [
-                "turn1search35",
-                "turn1search33"
-              ]
+              "evidence": ["turn1search35", "turn1search33"]
             }
           ]
         },
@@ -703,19 +570,13 @@
               "name": "Counterterrorism/Major Combat Operations",
               "effectiveness": "Mixed",
               "why": "Taliban toppled (2001) but long insurgency; Iraq 2003 toppled Saddam but met prolonged insurgency and high costs.",
-              "evidence": [
-                "turn10search157",
-                "turn10search151"
-              ]
+              "evidence": ["turn10search157", "turn10search151"]
             },
             {
               "name": "Coalition Warfare & Sanctions",
               "effectiveness": "Medium–High (short run); Mixed (long run)",
               "why": "Gulf War expelled Iraq from Kuwait quickly; sanctions often extract concessions but can entrench regimes.",
-              "evidence": [
-                "turn3search70",
-                "turn1search31"
-              ]
+              "evidence": ["turn3search70", "turn1search31"]
             }
           ]
         }
@@ -726,67 +587,43 @@
         "years": "1899–1902",
         "event": "Philippine–American War",
         "summary": "U.S. fought Filipino revolutionaries after annexation; American victory established U.S. rule; heavy civilian toll.",
-        "sources": [
-          "turn10search142",
-          "turn10search139"
-        ]
+        "sources": ["turn10search142", "turn10search139"]
       },
       {
         "years": "1945–1952",
         "event": "Allied (U.S.-led) Occupation of Japan",
         "summary": "U.S.-led occupation transformed Japan’s political economy and security posture; ended with 1952 peace treaty.",
-        "sources": [
-          "turn10search147",
-          "turn10search145"
-        ]
+        "sources": ["turn10search147", "turn10search145"]
       },
       {
         "years": "1950–1953",
         "event": "Korean War",
         "summary": "U.S.-led UN Command intervened to defend South Korea; war ended in armistice and creation of DMZ.",
-        "sources": [
-          "turn10search169",
-          "turn10search174"
-        ]
+        "sources": ["turn10search169", "turn10search174"]
       },
       {
         "years": "1955–1975 (major U.S. combat 1965–1973)",
         "event": "Vietnam War (U.S. involvement)",
         "summary": "Escalating U.S. advisory and combat role under Cold War containment; withdrawal completed by 1973.",
-        "sources": [
-          "turn10search176",
-          "turn10search177",
-          "turn10search175"
-        ]
+        "sources": ["turn10search176", "turn10search177", "turn10search175"]
       },
       {
         "years": "1990–1991",
         "event": "Gulf War",
         "summary": "U.S.-led coalition expelled Iraqi forces from Kuwait; cease-fire framework shaped 1990s sanctions/inspections.",
-        "sources": [
-          "turn3search70",
-          "turn3search68"
-        ]
+        "sources": ["turn3search70", "turn3search68"]
       },
       {
         "years": "2001–2014 (combat mission) / 2001–2021 (overall U.S. presence)",
         "event": "War in Afghanistan",
         "summary": "Response to 9/11: toppled Taliban, long counterinsurgency; NATO/ISAF mission ended 2014; U.S. presence ended 2021.",
-        "sources": [
-          "turn10search157",
-          "turn10search158",
-          "turn10search161"
-        ]
+        "sources": ["turn10search157", "turn10search158", "turn10search161"]
       },
       {
         "years": "2003–2011",
         "event": "Iraq War",
         "summary": "U.S.-led invasion toppled Saddam; prolonged insurgency; withdrawal completed Dec 2011.",
-        "sources": [
-          "turn10search151",
-          "turn10search152",
-          "turn10search153"
-        ]
+        "sources": ["turn10search151", "turn10search152", "turn10search153"]
       }
     ],
     "map_targeted_regions": {
@@ -803,10 +640,7 @@
           "Panama"
         ],
         "explanatory_note": "These exemplify historical patterns of U.S. interventions (direct, covert, sanctions) across two centuries.",
-        "sources": [
-          "turn9search133",
-          "turn9search137"
-        ]
+        "sources": ["turn9search133", "turn9search137"]
       },
       "asia_pacific_layer": {
         "label": "Asia-Pacific – major U.S. wars/occupations/alliances",
@@ -974,86 +808,63 @@
         "when": "September 3, 1783",
         "why": "Defeat in the American Revolutionary War; Treaty of Paris recognized U.S. independence.",
         "who_signed_for_opponent": "British Crown representatives",
-        "sources": [
-          "turn3search62"
-        ]
+        "sources": ["turn3search62"]
       },
       {
         "country": "Germany",
         "when": "May 7–8, 1945",
         "why": "Unconditional surrender of Nazi Germany at the end of WWII.",
         "who_signed_for_opponent": "Gen. Alfred Jodl (German High Command)",
-        "sources": [
-          "turn3search63"
-        ]
+        "sources": ["turn3search63"]
       },
       {
         "country": "Japan",
         "when": "September 2, 1945",
         "why": "Unconditional surrender after atomic bombings and Soviet entry into the war.",
         "who_signed_for_opponent": "Foreign Minister Mamoru Shigemitsu and Gen. Yoshijiro Umezu",
-        "sources": [
-          "turn3search73"
-        ]
+        "sources": ["turn3search73"]
       },
       {
         "country": "Mexico",
         "when": "February 2, 1848",
         "why": "Defeat in the Mexican–American War; Treaty of Guadalupe Hidalgo.",
         "who_signed_for_opponent": "José Bernardo Couto, Miguel de Atristain, Luis Gonzaga Cuevas (Mexico); Nicholas Trist (U.S.)",
-        "sources": [
-          "turn4search104",
-          "turn4search103"
-        ]
+        "sources": ["turn4search104", "turn4search103"]
       },
       {
         "country": "Spain",
         "when": "December 10, 1898",
         "why": "Defeat in the Spanish–American War; Treaty of Paris (1898).",
         "who_signed_for_opponent": "Eugenio Montero Ríos, Buenaventura de Abarzuza, José de Garnica, Wenceslao Ramírez de Villa-Urrutia, Rafael Cerero (Spain); William R. Day and others (U.S.)",
-        "sources": [
-          "turn4search109",
-          "turn4search112"
-        ]
+        "sources": ["turn4search109", "turn4search112"]
       },
       {
         "country": "Italy",
         "when": "September 3 (signed) / September 8 (announced), 1943",
         "why": "Collapse of Mussolini’s government; Italy accepted unconditional armistice with Allies.",
         "who_signed_for_opponent": "General Giuseppe Castellano (Italy); General Walter Bedell Smith (Allies)",
-        "sources": [
-          "turn4search97",
-          "turn4search98"
-        ]
+        "sources": ["turn4search97", "turn4search98"]
       },
       {
         "country": "Bulgaria",
         "when": "October 28, 1944",
         "why": "Bulgarian military/political collapse; accepted Allied armistice terms.",
         "who_signed_for_opponent": "P. Stainov, D. Terpeshev, N. Petkov, P. Stoyanov (Bulgaria); Lt. Gen. James Gammell, Marshal F.I. Tolbukhin (Allies)",
-        "sources": [
-          "turn4search91"
-        ]
+        "sources": ["turn4search91"]
       },
       {
         "country": "Hungary",
         "when": "January 20, 1945 (armistice) / February 13, 1945 (Budapest surrender)",
         "why": "Military defeat and encirclement by Soviet forces; Hungary accepted Allied terms.",
         "who_signed_for_opponent": "Gyöngyosi János, Vörös János, Balogh István (Hungary); Marshal K.E. Voroshilov (Allies)",
-        "sources": [
-          "turn4search79",
-          "turn4search81"
-        ]
+        "sources": ["turn4search79", "turn4search81"]
       },
       {
         "country": "Romania",
         "when": "September 12, 1944",
         "why": "King Michael's coup; Romania ceased hostilities and surrendered to the Allies.",
         "who_signed_for_opponent": "Lucrețiu Pătrășcanu, Gen. D. Dămăceanu, Prince Știrbey, G. Popp (Romania); Marshal R.Y. Malinovski (Allies)",
-        "sources": [
-          "turn4search90",
-          "turn4search85"
-        ]
+        "sources": ["turn4search90", "turn4search85"]
       }
     ],
     "additional_forced_surrenders_not_directly_to_us": [
@@ -1062,29 +873,21 @@
         "when": "October 30, 1918",
         "why": "Military defeat in WWI; Armistice of Mudros ended Ottoman participation in the war.",
         "who_signed_for_opponent": "Rauf Bey (Ottoman Empire); Admiral Gough-Calthorpe (Great Britain for Allies)",
-        "sources": [
-          "turn6search115",
-          "turn6search116"
-        ]
+        "sources": ["turn6search115", "turn6search116"]
       },
       {
         "country": "Austria (as part of Nazi Germany)",
         "when": "May 8, 1945",
         "why": "Austria had been annexed by Nazi Germany (Anschluss, 1938); thus surrendered implicitly with Germany.",
         "who_signed_for_opponent": "German High Command (Austria had no separate delegation).",
-        "sources": [
-          "turn6search121"
-        ]
+        "sources": ["turn6search121"]
       },
       {
         "country": "German Forces in Northern Italy and Western Austria",
         "when": "May 2, 1945",
         "why": "Operation Sunrise led to German surrender of nearly 1 million troops in Italy and Austria.",
         "who_signed_for_opponent": "Gen. von Vietinghoff (Germany); Lt. Gen. Morgan for Field Marshal Harold Alexander (Allies)",
-        "sources": [
-          "turn6search123",
-          "turn6search125"
-        ]
+        "sources": ["turn6search123", "turn6search125"]
       }
     ],
     "notes": [

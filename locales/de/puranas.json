@@ -1,61 +1,61 @@
 {
-    "puranas": {
-        "title": "Puranas – Heilige Traditionen und Geschichten des Sanātana Dharma",
-        "description": "Entdecken Sie die Puranas: alte Texte, die Geschichten, Kosmologie, Hingabe, Dharma und kulturelles Gedächtnis innerhalb des Sanātana Dharma bewahren.",
-        "meta": {
-            "title": "Puranas – Heilige Traditionen und Geschichten des Sanātana Dharma",
-            "canonical": "https://sanatanadharmam.in/puranas",
-            "description": "Entdecken Sie die Puranas: alte Texte, die Geschichten, Kosmologie, Hingabe, Dharma und kulturelles Gedächtnis innerhalb des Sanātana Dharma bewahren.",
-            "keywords": [
-                "Puranas",
-                "Sanatana Dharma",
-                "Hinduistische Schriften",
-                "Kosmologie",
-                "Bhakti",
-                "Dharma"
-            ],
-            "robots": "Index, folgen",
-            "url": "https://sanatanadharmam.in/puranas",
-            "ogImage": "https://sanatanadharmam.in/og/puranas.png"
-        },
-        "openGraph": {
-            "title": "Puranas – Heilige Traditionen und Geschichten des Sanātana Dharma",
-            "description": "Entdecken Sie die Puranas: alte Texte, die Geschichten, Kosmologie, Hingabe, Dharma und kulturelles Gedächtnis innerhalb des Sanātana Dharma bewahren.",
-            "url": "https://sanatanadharmam.in/puranas",
-            "siteName": "Sanatanadharam",
-            "type": "Website",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/puranas.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Puranas – Sacred Traditions and Stories of Sanātana Dharma"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@type": "Sammlungsseite",
-            "name": "Puranas – Heilige Traditionen und Geschichten des Sanātana Dharma",
-            "description": "Entdecken Sie die Puranas: alte Texte, die Geschichten, Kosmologie, Hingabe, Dharma und kulturelles Gedächtnis innerhalb des Sanātana Dharma bewahren.",
-            "url": "https://sanatanadharmam.in/puranas",
-            "isPartOf": {
-                "@type": "Website",
-                "name": "Sanatanadharam",
-                "url": "https://sanatanadharmam.in"
-            }
-        },
-        "introduction": "Die Puranas sind ein großer Teil der Sanskrit-Literatur, die heilige Geschichte, Kosmologie, Andachtstraditionen und ethische Leitlinien bewahren. Sie präsentieren Philosophie durch Erzählungen – Geschichten über Weise und Könige, Lehren über Anbetung und Pflicht sowie Überlegungen zu Zeitzyklen und der Schöpfung.\n\nTraditionell werden die Puranas in Mahapuranas und Upapuranas eingeteilt, wobei viele Texte eng mit bestimmten Gottheiten und Andachtslinien verbunden sind. Als lebendige Tradition prägen die Puranas seit Jahrhunderten die Tempelkultur, Feste, Pilgerfahrten und die Frömmigkeit der Haushalte in ganz Indien.",
-        "scripture_text": [
-            {
-                "section": "Was ein Purana normalerweise enthält",
-                "content": "Es wird beschrieben, dass viele Puranas die klassischen fünf Themen (Panchalakshana) enthalten: Schöpfung (Sarga), Erholung nach Auflösung (Pratisarga), Genealogie (Vamsha), kosmische Epochen und Manu-Zyklen (Manvantara) sowie dynastische Geschichten (Vamshanucharita). In der Praxis enthält jedes Purana auch Hymnen, Dialoge, ethische Lehren, Pilgerführer und Abschnitte über Rituale und Hingabe."
-            },
-            {
-                "section": "Wie man puranische Erzählungen liest",
-                "content": "Puranische Geschichten sind oft vielschichtig: Sie können als Hingabe (Bhakti), als moralische Belehrung (Dharma) und als symbolische Lehre über den Geist, die Zeit und die Beziehung zwischen dem individuellen Selbst und dem Göttlichen gelesen werden. Diese Seite behandelt sie als hingebungsvolle philosophische Tradition und nicht nur als Folklore."
-            }
-        ],
-        "philosophical_explanation": "Die Puranas vermitteln philosophische Ideen in einer zugänglichen Form. Anstatt Lehren nur durch Abstraktion darzustellen, verwenden sie Charaktere, Gelübde, Krisen und Transformationen, um zu zeigen, wie Dharma unter dem Druck der realen Welt angewendet wird. Ihre Kosmologie lehrt zyklische Zeit und Vergänglichkeit, während Andachtsabschnitte Hingabe, Dankbarkeit und innere Stabilität fördern.\n\nFür viele Leser dienen die Puranas als Brücke: von der Geschichte und Anbetung bis hin zu einer tieferen Untersuchung der Upanishaden-Vision des Selbst, der Natur der Realität und der Befreiung (Moksha)."
-    }
+  "puranas": {
+    "title": "Puranas – Heilige Traditionen und Geschichten des Sanātana Dharma",
+    "description": "Entdecken Sie die Puranas: alte Texte, die Geschichten, Kosmologie, Hingabe, Dharma und kulturelles Gedächtnis innerhalb des Sanātana Dharma bewahren.",
+    "meta": {
+      "title": "Puranas – Heilige Traditionen und Geschichten des Sanātana Dharma",
+      "canonical": "https://sanatanadharmam.in/puranas",
+      "description": "Entdecken Sie die Puranas: alte Texte, die Geschichten, Kosmologie, Hingabe, Dharma und kulturelles Gedächtnis innerhalb des Sanātana Dharma bewahren.",
+      "keywords": [
+        "Puranas",
+        "Sanatana Dharma",
+        "Hinduistische Schriften",
+        "Kosmologie",
+        "Bhakti",
+        "Dharma"
+      ],
+      "robots": "Index, folgen",
+      "url": "https://sanatanadharmam.in/puranas",
+      "ogImage": "https://sanatanadharmam.in/og/puranas.png"
+    },
+    "openGraph": {
+      "title": "Puranas – Heilige Traditionen und Geschichten des Sanātana Dharma",
+      "description": "Entdecken Sie die Puranas: alte Texte, die Geschichten, Kosmologie, Hingabe, Dharma und kulturelles Gedächtnis innerhalb des Sanātana Dharma bewahren.",
+      "url": "https://sanatanadharmam.in/puranas",
+      "siteName": "Sanatanadharam",
+      "type": "Website",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/puranas.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Puranas – Sacred Traditions and Stories of Sanātana Dharma"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Sammlungsseite",
+      "name": "Puranas – Heilige Traditionen und Geschichten des Sanātana Dharma",
+      "description": "Entdecken Sie die Puranas: alte Texte, die Geschichten, Kosmologie, Hingabe, Dharma und kulturelles Gedächtnis innerhalb des Sanātana Dharma bewahren.",
+      "url": "https://sanatanadharmam.in/puranas",
+      "isPartOf": {
+        "@type": "Website",
+        "name": "Sanatanadharam",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "introduction": "Die Puranas sind ein großer Teil der Sanskrit-Literatur, die heilige Geschichte, Kosmologie, Andachtstraditionen und ethische Leitlinien bewahren. Sie präsentieren Philosophie durch Erzählungen – Geschichten über Weise und Könige, Lehren über Anbetung und Pflicht sowie Überlegungen zu Zeitzyklen und der Schöpfung.\n\nTraditionell werden die Puranas in Mahapuranas und Upapuranas eingeteilt, wobei viele Texte eng mit bestimmten Gottheiten und Andachtslinien verbunden sind. Als lebendige Tradition prägen die Puranas seit Jahrhunderten die Tempelkultur, Feste, Pilgerfahrten und die Frömmigkeit der Haushalte in ganz Indien.",
+    "scripture_text": [
+      {
+        "section": "Was ein Purana normalerweise enthält",
+        "content": "Es wird beschrieben, dass viele Puranas die klassischen fünf Themen (Panchalakshana) enthalten: Schöpfung (Sarga), Erholung nach Auflösung (Pratisarga), Genealogie (Vamsha), kosmische Epochen und Manu-Zyklen (Manvantara) sowie dynastische Geschichten (Vamshanucharita). In der Praxis enthält jedes Purana auch Hymnen, Dialoge, ethische Lehren, Pilgerführer und Abschnitte über Rituale und Hingabe."
+      },
+      {
+        "section": "Wie man puranische Erzählungen liest",
+        "content": "Puranische Geschichten sind oft vielschichtig: Sie können als Hingabe (Bhakti), als moralische Belehrung (Dharma) und als symbolische Lehre über den Geist, die Zeit und die Beziehung zwischen dem individuellen Selbst und dem Göttlichen gelesen werden. Diese Seite behandelt sie als hingebungsvolle philosophische Tradition und nicht nur als Folklore."
+      }
+    ],
+    "philosophical_explanation": "Die Puranas vermitteln philosophische Ideen in einer zugänglichen Form. Anstatt Lehren nur durch Abstraktion darzustellen, verwenden sie Charaktere, Gelübde, Krisen und Transformationen, um zu zeigen, wie Dharma unter dem Druck der realen Welt angewendet wird. Ihre Kosmologie lehrt zyklische Zeit und Vergänglichkeit, während Andachtsabschnitte Hingabe, Dankbarkeit und innere Stabilität fördern.\n\nFür viele Leser dienen die Puranas als Brücke: von der Geschichte und Anbetung bis hin zu einer tieferen Untersuchung der Upanishaden-Vision des Selbst, der Natur der Realität und der Befreiung (Moksha)."
+  }
 }

@@ -1,65 +1,65 @@
 {
-    "bhagavadgita_sankhya-yoga": {
-        "title": "Sankhya Yoga – Visão geral do capítulo do Bhagavad Gita",
-        "description": "Visão geral do capítulo do Sankhya Yoga: ensinamentos centrais, conceitos-chave e orientação prática do Bhagavad Gita.",
-        "meta": {
-            "title": "Sankhya Yoga – Visão geral do capítulo do Bhagavad Gita",
-            "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/sankhya-yoga",
-            "description": "Visão geral do capítulo do Sankhya Yoga: ensinamentos centrais, conceitos-chave e orientação prática do Bhagavad Gita.",
-            "keywords": [
-                "Sankhya Yoga",
-                "Bhagavad Gita",
-                "Krsna",
-                "Ioga",
-                "dharma",
-                "Vedanta"
-            ],
-            "robots": "índice, siga",
-            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/sankhya-yoga",
-            "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_sankhya_yoga.png"
-        },
-        "openGraph": {
-            "title": "Sankhya Yoga – Visão geral do capítulo do Bhagavad Gita",
-            "description": "Visão geral do capítulo do Sankhya Yoga: ensinamentos centrais, conceitos-chave e orientação prática do Bhagavad Gita.",
-            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/sankhya-yoga",
-            "siteName": "Sanatanadharm",
-            "type": "artigo",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/bhagavadgita_sankhya_yoga.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Sankhya Yoga – Bhagavad Gita Chapter Overview"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@type": "Artigo",
-            "name": "Sankhya Yoga – Visão geral do capítulo do Bhagavad Gita",
-            "description": "Visão geral do capítulo do Sankhya Yoga: ensinamentos centrais, conceitos-chave e orientação prática do Bhagavad Gita.",
-            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/sankhya-yoga",
-            "isPartOf": {
-                "@type": "Site",
-                "name": "Sanatanadharm",
-                "url": "https://sanatanadharmam.in"
-            }
-        },
-        "introduction": "Sankhya Yoga é um capítulo do Bhagavad Gita. Cada capítulo tradicionalmente traz uma ênfase em “ioga” – um ângulo de prática ou compreensão – enquanto mantém o ensino integrado: aja com clareza, cultive a devoção e refine o conhecimento para que a mente se torne estável.\n\nEsta página resume os temas habituais do capítulo e oferece sugestões de reflexão sem citar versículos específicos.",
-        "scripture_text": [
-            {
-                "section": "Ideias-chave",
-                "content": "Uma visão geral compacta dos principais ensinamentos normalmente associados a este capítulo e como eles se relacionam com o dharma e o yoga."
-            },
-            {
-                "section": "Aplicação prática",
-                "content": "Como os ensinamentos do capítulo podem ser aplicados ao trabalho diário, aos relacionamentos e à tomada de decisões – especialmente sob estresse."
-            },
-            {
-                "section": "Solicitações de reflexão",
-                "content": "A que estou apegado? Onde meu dever não está claro? Posso agir com sinceridade e ao mesmo tempo liberar a obsessão pelos resultados?"
-            }
-        ],
-        "philosophical_explanation": "A filosofia Gita centra-se na liberdade interior: não na ausência de ação, mas na purificação da intenção. Quando o apego impulsionado pelo ego diminui, a ação torna-se mais limpa e a mente torna-se capaz de uma visão mais profunda."
-    }
+  "bhagavadgita_sankhya-yoga": {
+    "title": "Sankhya Yoga – Visão geral do capítulo do Bhagavad Gita",
+    "description": "Visão geral do capítulo do Sankhya Yoga: ensinamentos centrais, conceitos-chave e orientação prática do Bhagavad Gita.",
+    "meta": {
+      "title": "Sankhya Yoga – Visão geral do capítulo do Bhagavad Gita",
+      "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/sankhya-yoga",
+      "description": "Visão geral do capítulo do Sankhya Yoga: ensinamentos centrais, conceitos-chave e orientação prática do Bhagavad Gita.",
+      "keywords": [
+        "Sankhya Yoga",
+        "Bhagavad Gita",
+        "Krsna",
+        "Ioga",
+        "dharma",
+        "Vedanta"
+      ],
+      "robots": "índice, siga",
+      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/sankhya-yoga",
+      "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_sankhya_yoga.png"
+    },
+    "openGraph": {
+      "title": "Sankhya Yoga – Visão geral do capítulo do Bhagavad Gita",
+      "description": "Visão geral do capítulo do Sankhya Yoga: ensinamentos centrais, conceitos-chave e orientação prática do Bhagavad Gita.",
+      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/sankhya-yoga",
+      "siteName": "Sanatanadharm",
+      "type": "artigo",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/bhagavadgita_sankhya_yoga.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Sankhya Yoga – Bhagavad Gita Chapter Overview"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Artigo",
+      "name": "Sankhya Yoga – Visão geral do capítulo do Bhagavad Gita",
+      "description": "Visão geral do capítulo do Sankhya Yoga: ensinamentos centrais, conceitos-chave e orientação prática do Bhagavad Gita.",
+      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/sankhya-yoga",
+      "isPartOf": {
+        "@type": "Site",
+        "name": "Sanatanadharm",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "introduction": "Sankhya Yoga é um capítulo do Bhagavad Gita. Cada capítulo tradicionalmente traz uma ênfase em “ioga” – um ângulo de prática ou compreensão – enquanto mantém o ensino integrado: aja com clareza, cultive a devoção e refine o conhecimento para que a mente se torne estável.\n\nEsta página resume os temas habituais do capítulo e oferece sugestões de reflexão sem citar versículos específicos.",
+    "scripture_text": [
+      {
+        "section": "Ideias-chave",
+        "content": "Uma visão geral compacta dos principais ensinamentos normalmente associados a este capítulo e como eles se relacionam com o dharma e o yoga."
+      },
+      {
+        "section": "Aplicação prática",
+        "content": "Como os ensinamentos do capítulo podem ser aplicados ao trabalho diário, aos relacionamentos e à tomada de decisões – especialmente sob estresse."
+      },
+      {
+        "section": "Solicitações de reflexão",
+        "content": "A que estou apegado? Onde meu dever não está claro? Posso agir com sinceridade e ao mesmo tempo liberar a obsessão pelos resultados?"
+      }
+    ],
+    "philosophical_explanation": "A filosofia Gita centra-se na liberdade interior: não na ausência de ação, mas na purificação da intenção. Quando o apego impulsionado pelo ego diminui, a ação torna-se mais limpa e a mente torna-se capaz de uma visão mais profunda."
+  }
 }

@@ -1,65 +1,65 @@
 {
-    "bhagavadgita_raja-vidya-raja-guhya-yoga": {
-        "title": "Raja Vidya Raja Guhya Yoga – Kapitelübersicht der Bhagavad Gita",
-        "description": "Kapitelübersicht für Raja Vidya Raja Guhya Yoga: zentrale Lehren, Schlüsselkonzepte und praktische Anleitung aus der Bhagavad Gita.",
-        "meta": {
-            "title": "Raja Vidya Raja Guhya Yoga – Kapitelübersicht der Bhagavad Gita",
-            "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/raja-vidya-raja-guhya-yoga",
-            "description": "Kapitelübersicht für Raja Vidya Raja Guhya Yoga: zentrale Lehren, Schlüsselkonzepte und praktische Anleitung aus der Bhagavad Gita.",
-            "keywords": [
-                "Raja Vidya Raja Guhya Yoga",
-                "Bhagavad Gita",
-                "Krishna",
-                "Yoga",
-                "Dharma",
-                "Vedanta"
-            ],
-            "robots": "Index, folgen",
-            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/raja-vidya-raja-guhya-yoga",
-            "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_raja_vidya_raja_guhya_yoga.png"
-        },
-        "openGraph": {
-            "title": "Raja Vidya Raja Guhya Yoga – Kapitelübersicht der Bhagavad Gita",
-            "description": "Kapitelübersicht für Raja Vidya Raja Guhya Yoga: zentrale Lehren, Schlüsselkonzepte und praktische Anleitung aus der Bhagavad Gita.",
-            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/raja-vidya-raja-guhya-yoga",
-            "siteName": "Sanatanadharam",
-            "type": "Artikel",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/bhagavadgita_raja_vidya_raja_guhya_yoga.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Raja Vidya Raja Guhya Yoga – Bhagavad Gita Chapter Overview"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@type": "Artikel",
-            "name": "Raja Vidya Raja Guhya Yoga – Kapitelübersicht der Bhagavad Gita",
-            "description": "Kapitelübersicht für Raja Vidya Raja Guhya Yoga: zentrale Lehren, Schlüsselkonzepte und praktische Anleitung aus der Bhagavad Gita.",
-            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/raja-vidya-raja-guhya-yoga",
-            "isPartOf": {
-                "@type": "Website",
-                "name": "Sanatanadharam",
-                "url": "https://sanatanadharmam.in"
-            }
-        },
-        "introduction": "Raja Vidya Raja Guhya Yoga ist ein Kapitel der Bhagavad Gita. Jedes Kapitel hat traditionell einen „Yoga“-Schwerpunkt – einen Aspekt der Praxis oder des Verständnisses –, während die Lehre integriert bleibt: Handeln Sie mit Klarheit, kultivieren Sie Hingabe und verfeinern Sie Ihr Wissen, damit der Geist stabil wird.\n\nDiese Seite fasst die üblichen Themen des Kapitels zusammen und bietet Anregungen zum Nachdenken, ohne bestimmte Verse zu zitieren.",
-        "scripture_text": [
-            {
-                "section": "Schlüsselideen",
-                "content": "Ein kompakter Überblick über die wichtigsten Lehren, die normalerweise mit diesem Kapitel verbunden sind, und wie sie sich auf Dharma und Yoga beziehen."
-            },
-            {
-                "section": "Praktische Anwendung",
-                "content": "Wie die Lehren des Kapitels auf die tägliche Arbeit, Beziehungen und Entscheidungsfindung angewendet werden können – insbesondere unter Stress."
-            },
-            {
-                "section": "Denkanstöße",
-                "content": "Woran hänge ich? Wo ist meine Pflicht unklar? Kann ich aufrichtig handeln und gleichzeitig die Ergebnisbesessenheit loslassen?"
-            }
-        ],
-        "philosophical_explanation": "Die Gita-Philosophie konzentriert sich auf die innere Freiheit: nicht auf die Abwesenheit von Taten, sondern auf die Reinigung der Absicht. Wenn die vom Ego getriebene Bindung abnimmt, wird das Handeln sauberer und der Geist wird zu tieferen Einsichten fähig."
-    }
+  "bhagavadgita_raja-vidya-raja-guhya-yoga": {
+    "title": "Raja Vidya Raja Guhya Yoga – Kapitelübersicht der Bhagavad Gita",
+    "description": "Kapitelübersicht für Raja Vidya Raja Guhya Yoga: zentrale Lehren, Schlüsselkonzepte und praktische Anleitung aus der Bhagavad Gita.",
+    "meta": {
+      "title": "Raja Vidya Raja Guhya Yoga – Kapitelübersicht der Bhagavad Gita",
+      "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/raja-vidya-raja-guhya-yoga",
+      "description": "Kapitelübersicht für Raja Vidya Raja Guhya Yoga: zentrale Lehren, Schlüsselkonzepte und praktische Anleitung aus der Bhagavad Gita.",
+      "keywords": [
+        "Raja Vidya Raja Guhya Yoga",
+        "Bhagavad Gita",
+        "Krishna",
+        "Yoga",
+        "Dharma",
+        "Vedanta"
+      ],
+      "robots": "Index, folgen",
+      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/raja-vidya-raja-guhya-yoga",
+      "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_raja_vidya_raja_guhya_yoga.png"
+    },
+    "openGraph": {
+      "title": "Raja Vidya Raja Guhya Yoga – Kapitelübersicht der Bhagavad Gita",
+      "description": "Kapitelübersicht für Raja Vidya Raja Guhya Yoga: zentrale Lehren, Schlüsselkonzepte und praktische Anleitung aus der Bhagavad Gita.",
+      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/raja-vidya-raja-guhya-yoga",
+      "siteName": "Sanatanadharam",
+      "type": "Artikel",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/bhagavadgita_raja_vidya_raja_guhya_yoga.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Raja Vidya Raja Guhya Yoga – Bhagavad Gita Chapter Overview"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Artikel",
+      "name": "Raja Vidya Raja Guhya Yoga – Kapitelübersicht der Bhagavad Gita",
+      "description": "Kapitelübersicht für Raja Vidya Raja Guhya Yoga: zentrale Lehren, Schlüsselkonzepte und praktische Anleitung aus der Bhagavad Gita.",
+      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/raja-vidya-raja-guhya-yoga",
+      "isPartOf": {
+        "@type": "Website",
+        "name": "Sanatanadharam",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "introduction": "Raja Vidya Raja Guhya Yoga ist ein Kapitel der Bhagavad Gita. Jedes Kapitel hat traditionell einen „Yoga“-Schwerpunkt – einen Aspekt der Praxis oder des Verständnisses –, während die Lehre integriert bleibt: Handeln Sie mit Klarheit, kultivieren Sie Hingabe und verfeinern Sie Ihr Wissen, damit der Geist stabil wird.\n\nDiese Seite fasst die üblichen Themen des Kapitels zusammen und bietet Anregungen zum Nachdenken, ohne bestimmte Verse zu zitieren.",
+    "scripture_text": [
+      {
+        "section": "Schlüsselideen",
+        "content": "Ein kompakter Überblick über die wichtigsten Lehren, die normalerweise mit diesem Kapitel verbunden sind, und wie sie sich auf Dharma und Yoga beziehen."
+      },
+      {
+        "section": "Praktische Anwendung",
+        "content": "Wie die Lehren des Kapitels auf die tägliche Arbeit, Beziehungen und Entscheidungsfindung angewendet werden können – insbesondere unter Stress."
+      },
+      {
+        "section": "Denkanstöße",
+        "content": "Woran hänge ich? Wo ist meine Pflicht unklar? Kann ich aufrichtig handeln und gleichzeitig die Ergebnisbesessenheit loslassen?"
+      }
+    ],
+    "philosophical_explanation": "Die Gita-Philosophie konzentriert sich auf die innere Freiheit: nicht auf die Abwesenheit von Taten, sondern auf die Reinigung der Absicht. Wenn die vom Ego getriebene Bindung abnimmt, wird das Handeln sauberer und der Geist wird zu tieferen Einsichten fähig."
+  }
 }

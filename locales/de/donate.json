@@ -1,141 +1,141 @@
 {
-    "donate": {
-        "title": "Spenden – Unterstützen Sie Sanatanadharam | Bewahren Sie das Sanatana-Dharma-Wissen",
-        "description": "Unterstützen Sie Sanatanadharma durch Spenden, um dabei zu helfen, vedisches Wissen, Übersetzungen und spirituelle Lehren des Sanatana Dharma zu bewahren.",
-        "meta": {
-            "title": "Spenden – Unterstützen Sie Sanatanadharam | Bewahren Sie das Sanatana-Dharma-Wissen",
-            "canonical": "https://sanatanadharmam.in/donate",
-            "description": "Unterstützen Sie Sanatanadharma durch Spenden, um dabei zu helfen, vedisches Wissen, Übersetzungen und spirituelle Lehren des Sanatana Dharma zu bewahren.",
-            "keywords": [
-                "Spende Sanatanadharam",
-                "Unterstützen Sie Sanatana Dharma",
-                "Sanatana-Dharma-Spenden",
-                "Unterstützung des vedischen Wissens",
-                "Spenden Sie für spirituelle Bildung",
-                "Unterstützen Sie die Website zur hinduistischen Philosophie",
-                "Sanatana-Dharma-Spende",
-                "Unterstützen Sie das Projekt „Vedische Schriften“.",
-                "Spende für Dharma-Wissen"
-            ],
-            "robots": "Index, folgen",
-            "url": "https://sanatanadharmam.in/donate"
-        },
-        "openGraph": {
-            "title": "Unterstützen Sie Sanatanadharma – helfen Sie, Sanatana Dharma zu bewahren",
-            "description": "Tragen Sie zu Sanatanadharam bei, um die Bewahrung und Weitergabe von vedischem Wissen, Schriften und spiritueller Weisheit zu unterstützen.",
-            "url": "https://sanatanadharmam.in/donate",
-            "siteName": "Sanatanadharam",
-            "type": "Website",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/donate.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Support Sanatanadharmam Donations"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "SpendenAktion",
-                    "name": "Spenden Sie, um Sanatanadharam zu unterstützen",
-                    "target": "https://sanatanadharmam.in/donate",
-                    "description": "Spendenseite zur Unterstützung der Bewahrung und Weitergabe des Sanatana-Dharma-Wissens."
-                },
-                {
-                    "@type": "Organisation",
-                    "name": "Sanatanadharam",
-                    "url": "https://sanatanadharmam.in",
-                    "logo": "https://sanatanadharmam.in/images/logo.png",
-                    "contactPoint": {
-                        "@type": "Kontaktpunkt",
-                        "contactType": "Kundenbetreuung",
-                        "areaServed": "Weltweit",
-                        "availableLanguage": [
-                            "Englisch",
-                            "Hindi",
-                            "Telugu",
-                            "Arabisch",
-                            "Deutsch",
-                            "Spanisch",
-                            "Französisch",
-                            "Japanisch",
-                            "Nepali",
-                            "Niederländisch",
-                            "Portugiesisch",
-                            "Russisch",
-                            "Urdu",
-                            "Chinesisch"
-                        ],
-                        "email": "info@sanatanadharmam.in",
-                        "telephone": "+91-8099181075"
-                    }
-                }
-            ]
-        },
-        "donateoptions": {
-            "bank": {
-                "accountname": "V Vijaya Kumar",
-                "accountnumber": "32160808608",
-                "heading": "UPI / Banküberweisung",
-                "ifsc": "SBIN0010677",
-                "upi": "809918075@ybl"
-            },
-            "onetime": {
-                "heading": "Einmalige Spende",
-                "note": "Machen Sie eine sichere einmalige Spende über UPI oder internationale Zahlungsmethoden."
-            }
-        },
-        "expenses": {
-            "heading": "Transparenz: Aktuelle Ausgaben",
-            "table": [
-                {
-                    "cost": "₹3.500",
-                    "cycle": "3 Jahre",
-                    "name": "Domain & Hosting",
-                    "provider": "Hostinger"
-                },
-                {
-                    "cost": "Kostenlos",
-                    "cycle": "Unbegrenzt",
-                    "name": "GitHub-Seiten",
-                    "provider": "GitHub"
-                },
-                {
-                    "cost": "Kostenlose Pläne",
-                    "cycle": "Laufend",
-                    "name": "KI-Tools (Forschung)",
-                    "provider": "Google / Microsoft / Meta"
-                }
-            ]
-        },
-        "faq": {
-            "heading": "Häufig gestellte Fragen",
-            "items": [
-                {
-                    "a": "Ja. Die Spendenabwicklung erfolgt über vertrauenswürdige Zahlungsanbieter und direkte Banküberweisungen.",
-                    "q": "Ist meine Spende sicher?"
-                },
-                {
-                    "a": "Ihr Beitrag unterstützt das Hosting, die Pflege und die Erstellung spiritueller Bildungsinhalte.",
-                    "q": "Wie wird meine Spende verwendet?"
-                },
-                {
-                    "a": "Nein. Sanātana Dharma ist eine nichtkommerzielle, wissensorientierte Initiative.",
-                    "q": "Ist das eine kommerzielle Organisation?"
-                }
-            ]
-        },
-        "purpose": {
-            "heading": "Warum Ihre Unterstützung wichtig ist",
-            "points": [
-                "Bewahrt den freien Zugang zum Sanātana-Dharma-Wissen",
-                "Unterstützt Website-Hosting, Domain und Wartung",
-                "Ermöglicht die Erstellung hochwertiger spiritueller Inhalte",
-                "Hält die Plattform unabhängig und nicht kommerziell"
-            ]
+  "donate": {
+    "title": "Spenden – Unterstützen Sie Sanatanadharam | Bewahren Sie das Sanatana-Dharma-Wissen",
+    "description": "Unterstützen Sie Sanatanadharma durch Spenden, um dabei zu helfen, vedisches Wissen, Übersetzungen und spirituelle Lehren des Sanatana Dharma zu bewahren.",
+    "meta": {
+      "title": "Spenden – Unterstützen Sie Sanatanadharam | Bewahren Sie das Sanatana-Dharma-Wissen",
+      "canonical": "https://sanatanadharmam.in/donate",
+      "description": "Unterstützen Sie Sanatanadharma durch Spenden, um dabei zu helfen, vedisches Wissen, Übersetzungen und spirituelle Lehren des Sanatana Dharma zu bewahren.",
+      "keywords": [
+        "Spende Sanatanadharam",
+        "Unterstützen Sie Sanatana Dharma",
+        "Sanatana-Dharma-Spenden",
+        "Unterstützung des vedischen Wissens",
+        "Spenden Sie für spirituelle Bildung",
+        "Unterstützen Sie die Website zur hinduistischen Philosophie",
+        "Sanatana-Dharma-Spende",
+        "Unterstützen Sie das Projekt „Vedische Schriften“.",
+        "Spende für Dharma-Wissen"
+      ],
+      "robots": "Index, folgen",
+      "url": "https://sanatanadharmam.in/donate"
+    },
+    "openGraph": {
+      "title": "Unterstützen Sie Sanatanadharma – helfen Sie, Sanatana Dharma zu bewahren",
+      "description": "Tragen Sie zu Sanatanadharam bei, um die Bewahrung und Weitergabe von vedischem Wissen, Schriften und spiritueller Weisheit zu unterstützen.",
+      "url": "https://sanatanadharmam.in/donate",
+      "siteName": "Sanatanadharam",
+      "type": "Website",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/donate.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Support Sanatanadharmam Donations"
         }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SpendenAktion",
+          "name": "Spenden Sie, um Sanatanadharam zu unterstützen",
+          "target": "https://sanatanadharmam.in/donate",
+          "description": "Spendenseite zur Unterstützung der Bewahrung und Weitergabe des Sanatana-Dharma-Wissens."
+        },
+        {
+          "@type": "Organisation",
+          "name": "Sanatanadharam",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png",
+          "contactPoint": {
+            "@type": "Kontaktpunkt",
+            "contactType": "Kundenbetreuung",
+            "areaServed": "Weltweit",
+            "availableLanguage": [
+              "Englisch",
+              "Hindi",
+              "Telugu",
+              "Arabisch",
+              "Deutsch",
+              "Spanisch",
+              "Französisch",
+              "Japanisch",
+              "Nepali",
+              "Niederländisch",
+              "Portugiesisch",
+              "Russisch",
+              "Urdu",
+              "Chinesisch"
+            ],
+            "email": "info@sanatanadharmam.in",
+            "telephone": "+91-8099181075"
+          }
+        }
+      ]
+    },
+    "donateoptions": {
+      "bank": {
+        "accountname": "V Vijaya Kumar",
+        "accountnumber": "32160808608",
+        "heading": "UPI / Banküberweisung",
+        "ifsc": "SBIN0010677",
+        "upi": "809918075@ybl"
+      },
+      "onetime": {
+        "heading": "Einmalige Spende",
+        "note": "Machen Sie eine sichere einmalige Spende über UPI oder internationale Zahlungsmethoden."
+      }
+    },
+    "expenses": {
+      "heading": "Transparenz: Aktuelle Ausgaben",
+      "table": [
+        {
+          "cost": "₹3.500",
+          "cycle": "3 Jahre",
+          "name": "Domain & Hosting",
+          "provider": "Hostinger"
+        },
+        {
+          "cost": "Kostenlos",
+          "cycle": "Unbegrenzt",
+          "name": "GitHub-Seiten",
+          "provider": "GitHub"
+        },
+        {
+          "cost": "Kostenlose Pläne",
+          "cycle": "Laufend",
+          "name": "KI-Tools (Forschung)",
+          "provider": "Google / Microsoft / Meta"
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Häufig gestellte Fragen",
+      "items": [
+        {
+          "a": "Ja. Die Spendenabwicklung erfolgt über vertrauenswürdige Zahlungsanbieter und direkte Banküberweisungen.",
+          "q": "Ist meine Spende sicher?"
+        },
+        {
+          "a": "Ihr Beitrag unterstützt das Hosting, die Pflege und die Erstellung spiritueller Bildungsinhalte.",
+          "q": "Wie wird meine Spende verwendet?"
+        },
+        {
+          "a": "Nein. Sanātana Dharma ist eine nichtkommerzielle, wissensorientierte Initiative.",
+          "q": "Ist das eine kommerzielle Organisation?"
+        }
+      ]
+    },
+    "purpose": {
+      "heading": "Warum Ihre Unterstützung wichtig ist",
+      "points": [
+        "Bewahrt den freien Zugang zum Sanātana-Dharma-Wissen",
+        "Unterstützt Website-Hosting, Domain und Wartung",
+        "Ermöglicht die Erstellung hochwertiger spiritueller Inhalte",
+        "Hält die Plattform unabhängig und nicht kommerziell"
+      ]
     }
+  }
 }

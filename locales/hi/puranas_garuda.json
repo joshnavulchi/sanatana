@@ -1,71 +1,71 @@
 {
-    "puranas_garuda": {
-        "meta": {
-            "title": "गरुड़ पुराण - पुनर्जन्म और धर्म पर शिक्षाएँ",
-            "canonical": "https://sanatanadharmam.in/scriptures/puranas/garuda",
-            "description": "गरुड़ पुराण का अन्वेषण करें, जो एक पवित्र हिंदू पाठ है जो मृत्यु के बाद आत्मा की यात्रा, कर्म, अंतिम संस्कार और सनातन धर्म की आध्यात्मिक शिक्षाओं का वर्णन करता है।",
-            "keywords": [
-                "गरुड़ पुराण",
-                "गरुड़ पुराण पुनर्जन्म",
-                "गरुड़ पुराण की शिक्षाएँ",
-                "गरुड़ पुराण कर्म",
-                "गरुड़ पुराण अंत्येष्टि संस्कार",
-                "गरुड़ पुराण आत्मा यात्रा",
-                "गरुड़ पुराण वैतरणी नदी",
-                "गरुड़ पुराण दर्शन",
-                "गरुड़ पुराण पुनर्जन्म",
-                "हिंदू धर्मग्रंथ गरुड़ पुराण"
-            ],
-            "robots": "अनुक्रमणिका, अनुसरण करें",
-            "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
-        },
-        "openGraph": {
-            "title": "गरुड़ पुराण - जीवन, मृत्यु और उसके बाद के जीवन पर पवित्र शिक्षाएँ",
-            "description": "कर्म, मृत्यु, पुनर्जन्म, अंतिम संस्कार और आत्मा की यात्रा के बारे में गरुड़ पुराण की गहन शिक्षाएँ जानें।",
-            "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
-            "siteName": "सनातनधर्मम्",
-            "type": "आलेख",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/puranas-garuda.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Garuda Purana Scripture"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "किताब",
-                    "name": "गरुड़ पुराण",
-                    "description": "गरुड़ पुराण हिंदू धर्म के अठारह महापुराणों में से एक है, जो पुनर्जन्म, कर्म, अंतिम संस्कार और आध्यात्मिक दर्शन पर चर्चा करता है।",
-                    "author": {
-                        "@type": "व्यक्ति",
-                        "name": "वेदव्यास"
-                    },
-                    "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
-                    "inLanguage": "संस्कृत"
-                },
-                {
-                    "@type": "आलेख",
-                    "headline": "गरुड़ पुराण - मृत्यु के बाद आत्मा की यात्रा",
-                    "about": [
-                        "गरुड़ पुराण",
-                        "पुनर्जन्म",
-                        "कर्म",
-                        "पुनर्जन्म",
-                        "सनातन धर्म"
-                    ],
-                    "isPartOf": {
-                        "@type": "वेबसाइट",
-                        "name": "सनातनधर्मम्",
-                        "url": "https://sanatanadharmam.in"
-                    },
-                    "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
-                }
-            ]
+  "puranas_garuda": {
+    "meta": {
+      "title": "गरुड़ पुराण - पुनर्जन्म और धर्म पर शिक्षाएँ",
+      "canonical": "https://sanatanadharmam.in/scriptures/puranas/garuda",
+      "description": "गरुड़ पुराण का अन्वेषण करें, जो एक पवित्र हिंदू पाठ है जो मृत्यु के बाद आत्मा की यात्रा, कर्म, अंतिम संस्कार और सनातन धर्म की आध्यात्मिक शिक्षाओं का वर्णन करता है।",
+      "keywords": [
+        "गरुड़ पुराण",
+        "गरुड़ पुराण पुनर्जन्म",
+        "गरुड़ पुराण की शिक्षाएँ",
+        "गरुड़ पुराण कर्म",
+        "गरुड़ पुराण अंत्येष्टि संस्कार",
+        "गरुड़ पुराण आत्मा यात्रा",
+        "गरुड़ पुराण वैतरणी नदी",
+        "गरुड़ पुराण दर्शन",
+        "गरुड़ पुराण पुनर्जन्म",
+        "हिंदू धर्मग्रंथ गरुड़ पुराण"
+      ],
+      "robots": "अनुक्रमणिका, अनुसरण करें",
+      "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
+    },
+    "openGraph": {
+      "title": "गरुड़ पुराण - जीवन, मृत्यु और उसके बाद के जीवन पर पवित्र शिक्षाएँ",
+      "description": "कर्म, मृत्यु, पुनर्जन्म, अंतिम संस्कार और आत्मा की यात्रा के बारे में गरुड़ पुराण की गहन शिक्षाएँ जानें।",
+      "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
+      "siteName": "सनातनधर्मम्",
+      "type": "आलेख",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/puranas-garuda.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Garuda Purana Scripture"
         }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "किताब",
+          "name": "गरुड़ पुराण",
+          "description": "गरुड़ पुराण हिंदू धर्म के अठारह महापुराणों में से एक है, जो पुनर्जन्म, कर्म, अंतिम संस्कार और आध्यात्मिक दर्शन पर चर्चा करता है।",
+          "author": {
+            "@type": "व्यक्ति",
+            "name": "वेदव्यास"
+          },
+          "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
+          "inLanguage": "संस्कृत"
+        },
+        {
+          "@type": "आलेख",
+          "headline": "गरुड़ पुराण - मृत्यु के बाद आत्मा की यात्रा",
+          "about": [
+            "गरुड़ पुराण",
+            "पुनर्जन्म",
+            "कर्म",
+            "पुनर्जन्म",
+            "सनातन धर्म"
+          ],
+          "isPartOf": {
+            "@type": "वेबसाइट",
+            "name": "सनातनधर्मम्",
+            "url": "https://sanatanadharmam.in"
+          },
+          "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
+        }
+      ]
     }
+  }
 }

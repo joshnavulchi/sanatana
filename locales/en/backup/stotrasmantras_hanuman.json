@@ -192,11 +192,7 @@
         "description": "A simple stotra containing 12 powerful names of Lord Hanuman.",
         "id": 8,
         "name": "Hanuman Dwadasha Nama Stotram",
-        "names": [
-          "ॐ हनुमन्ते नमः",
-          "ॐ अञ्जनेयाय नमः",
-          "ॐ महाबलाय नमः"
-        ],
+        "names": ["ॐ हनुमन्ते नमः", "ॐ अञ्जनेयाय नमः", "ॐ महाबलाय नमः"],
         "origin": "Traditional Sanskrit Stotra",
         "type": "12 Names Hymn"
       },

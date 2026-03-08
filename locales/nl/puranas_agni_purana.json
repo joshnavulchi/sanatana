@@ -1,61 +1,61 @@
 {
-    "puranas_agni-purana": {
-        "title": "Agni Purana – Purana-overzicht en belangrijkste thema's",
-        "description": "Een gestructureerd overzicht van Agni Purana: thema's, doel en hoe het bijdraagt aan toewijding, dharma en cultureel geheugen in Sanātana Dharma.",
-        "meta": {
-            "title": "Agni Purana – Purana-overzicht en belangrijkste thema's",
-            "canonical": "https://sanatanadharmam.in/puranas/agni-purana",
-            "description": "Een gestructureerd overzicht van Agni Purana: thema's, doel en hoe het bijdraagt aan toewijding, dharma en cultureel geheugen in Sanātana Dharma.",
-            "keywords": [
-                "Agni Purana",
-                "Purana",
-                "Purana's",
-                "Sanatana Dharma",
-                "bhakti",
-                "dharma"
-            ],
-            "robots": "indexeren, volgen",
-            "url": "https://sanatanadharmam.in/puranas/agni-purana",
-            "ogImage": "https://sanatanadharmam.in/og/puranas_agni_purana.png"
-        },
-        "openGraph": {
-            "title": "Agni Purana – Purana-overzicht en belangrijkste thema's",
-            "description": "Een gestructureerd overzicht van Agni Purana: thema's, doel en hoe het bijdraagt aan toewijding, dharma en cultureel geheugen in Sanātana Dharma.",
-            "url": "https://sanatanadharmam.in/puranas/agni-purana",
-            "siteName": "Sanatanadharam",
-            "type": "artikel",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/puranas_agni_purana.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Agni Purana – Purana Overview and Key Themes"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@type": "Artikel",
-            "name": "Agni Purana – Purana-overzicht en belangrijkste thema's",
-            "description": "Een gestructureerd overzicht van Agni Purana: thema's, doel en hoe het bijdraagt aan toewijding, dharma en cultureel geheugen in Sanātana Dharma.",
-            "url": "https://sanatanadharmam.in/puranas/agni-purana",
-            "isPartOf": {
-                "@type": "Website",
-                "name": "Sanatanadharam",
-                "url": "https://sanatanadharmam.in"
-            }
-        },
-        "introduction": "Agni Purana is een van de Mahapurana's in de bredere Puranische literatuur van Sanātana Dharma. Purana's brengen filosofie, toewijding en culturele herinnering over door middel van verhalen, dialogen, hymnen en begeleiding voor ethisch leven.\n\nTraditioneel wordt Agni Purana geassocieerd met de Puranische traditie. Lezers benaderen het vaak als een devotioneel-filosofische tekst in plaats van als een boek met één genre: het kan kosmologie, heilige geografie, ethiek, geloften en verhalen bevatten die dharma in actie illustreren.",
-        "scripture_text": [
-            {
-                "section": "Wat vindt u op deze pagina",
-                "content": "Een gestructureerd overzicht: (1) context en thema's, (2) belangrijkste verhalende ideeën, (3) devotionele nadruk, en (4) filosofische reflecties die het verhaal verbinden met de innerlijke praktijk."
-            },
-            {
-                "section": "Hoe Puranisch materiaal te lezen",
-                "content": "Puranische verhalen kunnen op meerdere niveaus worden gelezen: devotioneel, ethisch en symbolisch. Wanneer details variëren tussen hervertellingen, is de blijvende waarde vaak de dharmische les: het cultiveren van karakter, toewijding en onderscheidingsvermogen."
-            }
-        ],
-        "philosophical_explanation": "Filosofisch leren de Purana's door middel van geleefde scenario's: hoe verlangen, angst, trots en mededogen het lot bepalen. Ze leggen ook de nadruk op cyclische tijd en vergankelijkheid, waardoor nederigheid en standvastigheid worden aangemoedigd. Toewijding (bhakti) wordt vaak gepresenteerd als een directe, toegankelijke discipline die het hart zuivert en wijsheid ondersteunt."
-    }
+  "puranas_agni-purana": {
+    "title": "Agni Purana – Purana-overzicht en belangrijkste thema's",
+    "description": "Een gestructureerd overzicht van Agni Purana: thema's, doel en hoe het bijdraagt aan toewijding, dharma en cultureel geheugen in Sanātana Dharma.",
+    "meta": {
+      "title": "Agni Purana – Purana-overzicht en belangrijkste thema's",
+      "canonical": "https://sanatanadharmam.in/puranas/agni-purana",
+      "description": "Een gestructureerd overzicht van Agni Purana: thema's, doel en hoe het bijdraagt aan toewijding, dharma en cultureel geheugen in Sanātana Dharma.",
+      "keywords": [
+        "Agni Purana",
+        "Purana",
+        "Purana's",
+        "Sanatana Dharma",
+        "bhakti",
+        "dharma"
+      ],
+      "robots": "indexeren, volgen",
+      "url": "https://sanatanadharmam.in/puranas/agni-purana",
+      "ogImage": "https://sanatanadharmam.in/og/puranas_agni_purana.png"
+    },
+    "openGraph": {
+      "title": "Agni Purana – Purana-overzicht en belangrijkste thema's",
+      "description": "Een gestructureerd overzicht van Agni Purana: thema's, doel en hoe het bijdraagt aan toewijding, dharma en cultureel geheugen in Sanātana Dharma.",
+      "url": "https://sanatanadharmam.in/puranas/agni-purana",
+      "siteName": "Sanatanadharam",
+      "type": "artikel",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/puranas_agni_purana.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Agni Purana – Purana Overview and Key Themes"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Artikel",
+      "name": "Agni Purana – Purana-overzicht en belangrijkste thema's",
+      "description": "Een gestructureerd overzicht van Agni Purana: thema's, doel en hoe het bijdraagt aan toewijding, dharma en cultureel geheugen in Sanātana Dharma.",
+      "url": "https://sanatanadharmam.in/puranas/agni-purana",
+      "isPartOf": {
+        "@type": "Website",
+        "name": "Sanatanadharam",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "introduction": "Agni Purana is een van de Mahapurana's in de bredere Puranische literatuur van Sanātana Dharma. Purana's brengen filosofie, toewijding en culturele herinnering over door middel van verhalen, dialogen, hymnen en begeleiding voor ethisch leven.\n\nTraditioneel wordt Agni Purana geassocieerd met de Puranische traditie. Lezers benaderen het vaak als een devotioneel-filosofische tekst in plaats van als een boek met één genre: het kan kosmologie, heilige geografie, ethiek, geloften en verhalen bevatten die dharma in actie illustreren.",
+    "scripture_text": [
+      {
+        "section": "Wat vindt u op deze pagina",
+        "content": "Een gestructureerd overzicht: (1) context en thema's, (2) belangrijkste verhalende ideeën, (3) devotionele nadruk, en (4) filosofische reflecties die het verhaal verbinden met de innerlijke praktijk."
+      },
+      {
+        "section": "Hoe Puranisch materiaal te lezen",
+        "content": "Puranische verhalen kunnen op meerdere niveaus worden gelezen: devotioneel, ethisch en symbolisch. Wanneer details variëren tussen hervertellingen, is de blijvende waarde vaak de dharmische les: het cultiveren van karakter, toewijding en onderscheidingsvermogen."
+      }
+    ],
+    "philosophical_explanation": "Filosofisch leren de Purana's door middel van geleefde scenario's: hoe verlangen, angst, trots en mededogen het lot bepalen. Ze leggen ook de nadruk op cyclische tijd en vergankelijkheid, waardoor nederigheid en standvastigheid worden aangemoedigd. Toewijding (bhakti) wordt vaak gepresenteerd als een directe, toegankelijke discipline die het hart zuivert en wijsheid ondersteunt."
+  }
 }

@@ -51,13 +51,7 @@
         {
           "@type": "Article",
           "headline": "Rigveda Mandala 8 – Diverse Hymns of Vedic Sages",
-          "about": [
-            "Rigveda",
-            "Indra",
-            "Soma",
-            "Ashvins",
-            "Vedic hymns"
-          ],
+          "about": ["Rigveda", "Indra", "Soma", "Ashvins", "Vedic hymns"],
           "isPartOf": {
             "@type": "WebSite",
             "name": "Sanatanadharmam",

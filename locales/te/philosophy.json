@@ -1,93 +1,93 @@
 {
-    "philosophy": {
-        "title": "సనాతన ధర్మ తత్వశాస్త్రం - ధర్మం, కర్మ, మోక్షం మరియు అద్వైతం",
-        "description": "హిందూ గ్రంధాల ద్వారా వివరించబడిన ధర్మం, కర్మ, మోక్షం, సంసారం, పురుషార్థాలు మరియు అద్వైత వేదాంతాలతో సహా సనాతన ధర్మం యొక్క తత్వశాస్త్రాన్ని అన్వేషించండి.",
-        "meta": {
-            "title": "సనాతన ధర్మ తత్వశాస్త్రం - ధర్మం, కర్మ, మోక్షం మరియు అద్వైతం",
-            "canonical": "https://sanatanadharmam.in/philosophy",
-            "description": "హిందూ గ్రంధాల ద్వారా వివరించబడిన ధర్మం, కర్మ, మోక్షం, సంసారం, పురుషార్థాలు మరియు అద్వైత వేదాంతాలతో సహా సనాతన ధర్మం యొక్క తత్వశాస్త్రాన్ని అన్వేషించండి.",
-            "keywords": [
-                "సనాతన ధర్మ తత్వశాస్త్రం",
-                "హిందూ తత్వశాస్త్రం",
-                "వేద తత్వశాస్త్రం",
-                "ఉపనిషత్తుల తత్వశాస్త్రం",
-                "ధర్మ కర్మ మోక్షం",
-                "అద్వైత వేదాంత తత్వశాస్త్రం",
-                "పురుషార్థ తత్వశాస్త్రం",
-                "సంసార తత్వం",
-                "భారతీయ తత్వశాస్త్రం",
-                "భగవద్గీత తత్వశాస్త్రం"
-            ],
-            "robots": "సూచిక, అనుసరించండి",
-            "url": "https://sanatanadharmam.in/philosophy"
-        },
-        "openGraph": {
-            "title": "సనాతన ధర్మ తత్వశాస్త్రం – ప్రధాన అంశాలు వివరించబడ్డాయి",
-            "description": "ధర్మం, కర్మ, మోక్షం, సంసారం మరియు అద్వైతంతో సహా సనాతన ధర్మం యొక్క తాత్విక బోధనలను కనుగొనండి.",
-            "url": "https://sanatanadharmam.in/philosophy",
-            "siteName": "సనాతనధర్మం",
-            "type": "వెబ్సైట్",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/philosophy.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Sanatana Dharma Philosophy"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "సేకరణపేజీ",
-                    "name": "సనాతన ధర్మ తత్వశాస్త్రం",
-                    "description": "ధర్మం, కర్మ, మోక్షం, సంసారం మరియు అద్వైతంతో సహా సనాతన ధర్మంలో తాత్విక భావనల సేకరణ.",
-                    "url": "https://sanatanadharmam.in/philosophy"
-                },
-                {
-                    "@type": "వస్తువుల జాబితా",
-                    "name": "సనాతన ధర్మ తత్వశాస్త్ర అంశాలు",
-                    "itemListElement": [
-                        {
-                            "@type": "జాబితా అంశం",
-                            "position": 1,
-                            "name": "ధర్మము",
-                            "url": "https://sanatanadharmam.in/philosophy/dharma"
-                        },
-                        {
-                            "@type": "జాబితా అంశం",
-                            "position": 2,
-                            "name": "కర్మ",
-                            "url": "https://sanatanadharmam.in/philosophy/karma"
-                        },
-                        {
-                            "@type": "జాబితా అంశం",
-                            "position": 3,
-                            "name": "మోక్షము",
-                            "url": "https://sanatanadharmam.in/philosophy/moksha"
-                        },
-                        {
-                            "@type": "జాబితా అంశం",
-                            "position": 4,
-                            "name": "సంసారం",
-                            "url": "https://sanatanadharmam.in/philosophy/samsara"
-                        },
-                        {
-                            "@type": "జాబితా అంశం",
-                            "position": 5,
-                            "name": "పురుషార్థులు",
-                            "url": "https://sanatanadharmam.in/philosophy/purushartha"
-                        },
-                        {
-                            "@type": "జాబితా అంశం",
-                            "position": 6,
-                            "name": "అద్వైత వేదాంత",
-                            "url": "https://sanatanadharmam.in/philosophy/advaita"
-                        }
-                    ]
-                }
-            ]
+  "philosophy": {
+    "title": "సనాతన ధర్మ తత్వశాస్త్రం - ధర్మం, కర్మ, మోక్షం మరియు అద్వైతం",
+    "description": "హిందూ గ్రంధాల ద్వారా వివరించబడిన ధర్మం, కర్మ, మోక్షం, సంసారం, పురుషార్థాలు మరియు అద్వైత వేదాంతాలతో సహా సనాతన ధర్మం యొక్క తత్వశాస్త్రాన్ని అన్వేషించండి.",
+    "meta": {
+      "title": "సనాతన ధర్మ తత్వశాస్త్రం - ధర్మం, కర్మ, మోక్షం మరియు అద్వైతం",
+      "canonical": "https://sanatanadharmam.in/philosophy",
+      "description": "హిందూ గ్రంధాల ద్వారా వివరించబడిన ధర్మం, కర్మ, మోక్షం, సంసారం, పురుషార్థాలు మరియు అద్వైత వేదాంతాలతో సహా సనాతన ధర్మం యొక్క తత్వశాస్త్రాన్ని అన్వేషించండి.",
+      "keywords": [
+        "సనాతన ధర్మ తత్వశాస్త్రం",
+        "హిందూ తత్వశాస్త్రం",
+        "వేద తత్వశాస్త్రం",
+        "ఉపనిషత్తుల తత్వశాస్త్రం",
+        "ధర్మ కర్మ మోక్షం",
+        "అద్వైత వేదాంత తత్వశాస్త్రం",
+        "పురుషార్థ తత్వశాస్త్రం",
+        "సంసార తత్వం",
+        "భారతీయ తత్వశాస్త్రం",
+        "భగవద్గీత తత్వశాస్త్రం"
+      ],
+      "robots": "సూచిక, అనుసరించండి",
+      "url": "https://sanatanadharmam.in/philosophy"
+    },
+    "openGraph": {
+      "title": "సనాతన ధర్మ తత్వశాస్త్రం – ప్రధాన అంశాలు వివరించబడ్డాయి",
+      "description": "ధర్మం, కర్మ, మోక్షం, సంసారం మరియు అద్వైతంతో సహా సనాతన ధర్మం యొక్క తాత్విక బోధనలను కనుగొనండి.",
+      "url": "https://sanatanadharmam.in/philosophy",
+      "siteName": "సనాతనధర్మం",
+      "type": "వెబ్సైట్",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/philosophy.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Sanatana Dharma Philosophy"
         }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "సేకరణపేజీ",
+          "name": "సనాతన ధర్మ తత్వశాస్త్రం",
+          "description": "ధర్మం, కర్మ, మోక్షం, సంసారం మరియు అద్వైతంతో సహా సనాతన ధర్మంలో తాత్విక భావనల సేకరణ.",
+          "url": "https://sanatanadharmam.in/philosophy"
+        },
+        {
+          "@type": "వస్తువుల జాబితా",
+          "name": "సనాతన ధర్మ తత్వశాస్త్ర అంశాలు",
+          "itemListElement": [
+            {
+              "@type": "జాబితా అంశం",
+              "position": 1,
+              "name": "ధర్మము",
+              "url": "https://sanatanadharmam.in/philosophy/dharma"
+            },
+            {
+              "@type": "జాబితా అంశం",
+              "position": 2,
+              "name": "కర్మ",
+              "url": "https://sanatanadharmam.in/philosophy/karma"
+            },
+            {
+              "@type": "జాబితా అంశం",
+              "position": 3,
+              "name": "మోక్షము",
+              "url": "https://sanatanadharmam.in/philosophy/moksha"
+            },
+            {
+              "@type": "జాబితా అంశం",
+              "position": 4,
+              "name": "సంసారం",
+              "url": "https://sanatanadharmam.in/philosophy/samsara"
+            },
+            {
+              "@type": "జాబితా అంశం",
+              "position": 5,
+              "name": "పురుషార్థులు",
+              "url": "https://sanatanadharmam.in/philosophy/purushartha"
+            },
+            {
+              "@type": "జాబితా అంశం",
+              "position": 6,
+              "name": "అద్వైత వేదాంత",
+              "url": "https://sanatanadharmam.in/philosophy/advaita"
+            }
+          ]
+        }
+      ]
     }
+  }
 }

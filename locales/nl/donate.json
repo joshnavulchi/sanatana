@@ -1,141 +1,141 @@
 {
-    "donate": {
-        "title": "Doneer – Steun Sanatanadharam | Behoud Sanatana Dharma-kennis",
-        "description": "Steun Sanatanadharmam door middel van donaties om de Vedische kennis, vertalingen en spirituele leringen van Sanatana Dharma te helpen behouden.",
-        "meta": {
-            "title": "Doneer – Steun Sanatanadharam | Behoud Sanatana Dharma-kennis",
-            "canonical": "https://sanatanadharmam.in/donate",
-            "description": "Steun Sanatanadharmam door middel van donaties om de Vedische kennis, vertalingen en spirituele leringen van Sanatana Dharma te helpen behouden.",
-            "keywords": [
-                "doneer sanatanadharam",
-                "steun sanatana-dharma",
-                "sanatana dharma-donaties",
-                "Vedische kennisondersteuning",
-                "doneren voor spirituele opvoeding",
-                "ondersteuning hindoeïstische filosofie website",
-                "sanatana dharma donatie",
-                "ondersteuning van het vedische geschriftenproject",
-                "donatie voor dharmakennis"
-            ],
-            "robots": "indexeren, volgen",
-            "url": "https://sanatanadharmam.in/donate"
-        },
-        "openGraph": {
-            "title": "Steun Sanatanadharm – Help Sanatana Dharma behouden",
-            "description": "Draag bij aan Sanatanadharmam om het behoud en het delen van Vedische kennis, geschriften en spirituele wijsheid te ondersteunen.",
-            "url": "https://sanatanadharmam.in/donate",
-            "siteName": "Sanatanadharam",
-            "type": "website",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/donate.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Support Sanatanadharmam Donations"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "DoneerActie",
-                    "name": "Doneer ter ondersteuning van Sanatanadharam",
-                    "target": "https://sanatanadharmam.in/donate",
-                    "description": "Donatiepagina ter ondersteuning van het behoud en delen van Sanatana Dharma-kennis."
-                },
-                {
-                    "@type": "Organisatie",
-                    "name": "Sanatanadharam",
-                    "url": "https://sanatanadharmam.in",
-                    "logo": "https://sanatanadharmam.in/images/logo.png",
-                    "contactPoint": {
-                        "@type": "ContactPunt",
-                        "contactType": "klantenondersteuning",
-                        "areaServed": "Wereldwijd",
-                        "availableLanguage": [
-                            "Engels",
-                            "Hindi",
-                            "Telugu",
-                            "Arabisch",
-                            "Duits",
-                            "Spaans",
-                            "Frans",
-                            "Japans",
-                            "Nepalees",
-                            "Nederlands",
-                            "Portugees",
-                            "Russisch",
-                            "Urdu",
-                            "Chinees"
-                        ],
-                        "email": "info@sanatanadharmam.in",
-                        "telephone": "+91-8099181075"
-                    }
-                }
-            ]
-        },
-        "donateoptions": {
-            "bank": {
-                "accountname": "V Vijaya Kumar",
-                "accountnumber": "32160808608",
-                "heading": "UPI / Bankoverschrijving",
-                "ifsc": "SBIN0010677",
-                "upi": "809918075@ybl"
-            },
-            "onetime": {
-                "heading": "Eenmalige donatie",
-                "note": "Doe een veilige eenmalige donatie via UPI of internationale betaalmethoden."
-            }
-        },
-        "expenses": {
-            "heading": "Transparantie: lopende uitgaven",
-            "table": [
-                {
-                    "cost": "₹ 3.500",
-                    "cycle": "3 jaar",
-                    "name": "Domein & Hosting",
-                    "provider": "Hostinger"
-                },
-                {
-                    "cost": "Gratis",
-                    "cycle": "Onbeperkt",
-                    "name": "GitHub-pagina's",
-                    "provider": "GitHub"
-                },
-                {
-                    "cost": "Gratis abonnementen",
-                    "cycle": "Lopend",
-                    "name": "AI-tools (onderzoek)",
-                    "provider": "Google/Microsoft/Meta"
-                }
-            ]
-        },
-        "faq": {
-            "heading": "Veelgestelde vragen",
-            "items": [
-                {
-                    "a": "Ja. Donaties worden verwerkt via vertrouwde betalingsproviders en directe bankoverschrijvingen.",
-                    "q": "Is mijn donatie veilig?"
-                },
-                {
-                    "a": "Jouw bijdrage ondersteunt het hosten, onderhouden en creëren van educatieve spirituele inhoud.",
-                    "q": "Hoe wordt mijn donatie gebruikt?"
-                },
-                {
-                    "a": "Nee. Sanātana Dharma is een niet-commercieel, kennisgericht initiatief.",
-                    "q": "Is dit een commerciële organisatie?"
-                }
-            ]
-        },
-        "purpose": {
-            "heading": "Waarom uw steun belangrijk is",
-            "points": [
-                "Behoudt vrije toegang tot Sanātana Dharma-kennis",
-                "Ondersteunt websitehosting, domein en onderhoud",
-                "Maakt het creëren van hoogwaardige spirituele inhoud mogelijk",
-                "Houdt het platform onafhankelijk en niet-commercieel"
-            ]
+  "donate": {
+    "title": "Doneer – Steun Sanatanadharam | Behoud Sanatana Dharma-kennis",
+    "description": "Steun Sanatanadharmam door middel van donaties om de Vedische kennis, vertalingen en spirituele leringen van Sanatana Dharma te helpen behouden.",
+    "meta": {
+      "title": "Doneer – Steun Sanatanadharam | Behoud Sanatana Dharma-kennis",
+      "canonical": "https://sanatanadharmam.in/donate",
+      "description": "Steun Sanatanadharmam door middel van donaties om de Vedische kennis, vertalingen en spirituele leringen van Sanatana Dharma te helpen behouden.",
+      "keywords": [
+        "doneer sanatanadharam",
+        "steun sanatana-dharma",
+        "sanatana dharma-donaties",
+        "Vedische kennisondersteuning",
+        "doneren voor spirituele opvoeding",
+        "ondersteuning hindoeïstische filosofie website",
+        "sanatana dharma donatie",
+        "ondersteuning van het vedische geschriftenproject",
+        "donatie voor dharmakennis"
+      ],
+      "robots": "indexeren, volgen",
+      "url": "https://sanatanadharmam.in/donate"
+    },
+    "openGraph": {
+      "title": "Steun Sanatanadharm – Help Sanatana Dharma behouden",
+      "description": "Draag bij aan Sanatanadharmam om het behoud en het delen van Vedische kennis, geschriften en spirituele wijsheid te ondersteunen.",
+      "url": "https://sanatanadharmam.in/donate",
+      "siteName": "Sanatanadharam",
+      "type": "website",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/donate.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Support Sanatanadharmam Donations"
         }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "DoneerActie",
+          "name": "Doneer ter ondersteuning van Sanatanadharam",
+          "target": "https://sanatanadharmam.in/donate",
+          "description": "Donatiepagina ter ondersteuning van het behoud en delen van Sanatana Dharma-kennis."
+        },
+        {
+          "@type": "Organisatie",
+          "name": "Sanatanadharam",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png",
+          "contactPoint": {
+            "@type": "ContactPunt",
+            "contactType": "klantenondersteuning",
+            "areaServed": "Wereldwijd",
+            "availableLanguage": [
+              "Engels",
+              "Hindi",
+              "Telugu",
+              "Arabisch",
+              "Duits",
+              "Spaans",
+              "Frans",
+              "Japans",
+              "Nepalees",
+              "Nederlands",
+              "Portugees",
+              "Russisch",
+              "Urdu",
+              "Chinees"
+            ],
+            "email": "info@sanatanadharmam.in",
+            "telephone": "+91-8099181075"
+          }
+        }
+      ]
+    },
+    "donateoptions": {
+      "bank": {
+        "accountname": "V Vijaya Kumar",
+        "accountnumber": "32160808608",
+        "heading": "UPI / Bankoverschrijving",
+        "ifsc": "SBIN0010677",
+        "upi": "809918075@ybl"
+      },
+      "onetime": {
+        "heading": "Eenmalige donatie",
+        "note": "Doe een veilige eenmalige donatie via UPI of internationale betaalmethoden."
+      }
+    },
+    "expenses": {
+      "heading": "Transparantie: lopende uitgaven",
+      "table": [
+        {
+          "cost": "₹ 3.500",
+          "cycle": "3 jaar",
+          "name": "Domein & Hosting",
+          "provider": "Hostinger"
+        },
+        {
+          "cost": "Gratis",
+          "cycle": "Onbeperkt",
+          "name": "GitHub-pagina's",
+          "provider": "GitHub"
+        },
+        {
+          "cost": "Gratis abonnementen",
+          "cycle": "Lopend",
+          "name": "AI-tools (onderzoek)",
+          "provider": "Google/Microsoft/Meta"
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Veelgestelde vragen",
+      "items": [
+        {
+          "a": "Ja. Donaties worden verwerkt via vertrouwde betalingsproviders en directe bankoverschrijvingen.",
+          "q": "Is mijn donatie veilig?"
+        },
+        {
+          "a": "Jouw bijdrage ondersteunt het hosten, onderhouden en creëren van educatieve spirituele inhoud.",
+          "q": "Hoe wordt mijn donatie gebruikt?"
+        },
+        {
+          "a": "Nee. Sanātana Dharma is een niet-commercieel, kennisgericht initiatief.",
+          "q": "Is dit een commerciële organisatie?"
+        }
+      ]
+    },
+    "purpose": {
+      "heading": "Waarom uw steun belangrijk is",
+      "points": [
+        "Behoudt vrije toegang tot Sanātana Dharma-kennis",
+        "Ondersteunt websitehosting, domein en onderhoud",
+        "Maakt het creëren van hoogwaardige spirituele inhoud mogelijk",
+        "Houdt het platform onafhankelijk en niet-commercieel"
+      ]
     }
+  }
 }

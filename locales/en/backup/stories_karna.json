@@ -68,19 +68,9 @@
       }
     },
     "attributes": {
-      "iconography": [
-        "Golden armor and earrings",
-        "Charioteer background"
-      ],
-      "virtues": [
-        "Generosity",
-        "Valor",
-        "Loyalty"
-      ],
-      "weapons": [
-        "Vijaya Bow",
-        "Nagastram"
-      ]
+      "iconography": ["Golden armor and earrings", "Charioteer background"],
+      "virtues": ["Generosity", "Valor", "Loyalty"],
+      "weapons": ["Vijaya Bow", "Nagastram"]
     },
     "biography": {
       "full_name": "Karna (Karnā)",

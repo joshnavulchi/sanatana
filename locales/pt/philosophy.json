@@ -1,93 +1,93 @@
 {
-    "philosophy": {
-        "title": "Filosofia Sanatana Dharma – Dharma, Karma, Moksha e Advaita",
-        "description": "Explore the philosophy of Sanatana Dharma including Dharma, Karma, Moksha, Samsara, Purusharthas and Advaita Vedanta explained through Hindu scriptures.",
-        "meta": {
-            "title": "Filosofia Sanatana Dharma – Dharma, Karma, Moksha e Advaita",
-            "canonical": "https://sanatanadharmam.in/philosophy",
-            "description": "Explore the philosophy of Sanatana Dharma including Dharma, Karma, Moksha, Samsara, Purusharthas and Advaita Vedanta explained through Hindu scriptures.",
-            "keywords": [
-                "Filosofia Sanatana Dharma",
-                "Filosofia hindu",
-                "Filosofia Védica",
-                "Filosofia dos Upanishads",
-                "Dharma Karma Moksha",
-                "Filosofia Advaita Vedanta",
-                "Filosofia de Purushartha",
-                "Filosofia Samsara",
-                "Filosofia indiana",
-                "Filosofia do Bhagavad Gita"
-            ],
-            "robots": "índice, siga",
-            "url": "https://sanatanadharmam.in/philosophy"
-        },
-        "openGraph": {
-            "title": "Filosofia Sanatana Dharma – Conceitos Básicos Explicados",
-            "description": "Descubra os ensinamentos filosóficos do Sanatana Dharma, incluindo Dharma, Karma, Moksha, Samsara e Advaita.",
-            "url": "https://sanatanadharmam.in/philosophy",
-            "siteName": "Sanatanadharm",
-            "type": "site",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/philosophy.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Sanatana Dharma Philosophy"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "Página de coleção",
-                    "name": "Filosofia Sanatana Dharma",
-                    "description": "Coleção de conceitos filosóficos do Sanatana Dharma, incluindo Dharma, Karma, Moksha, Samsara e Advaita.",
-                    "url": "https://sanatanadharmam.in/philosophy"
-                },
-                {
-                    "@type": "Lista de itens",
-                    "name": "Tópicos da Filosofia Sanatana Dharma",
-                    "itemListElement": [
-                        {
-                            "@type": "ListaItem",
-                            "position": 1,
-                            "name": "Dharma",
-                            "url": "https://sanatanadharmam.in/philosophy/dharma"
-                        },
-                        {
-                            "@type": "ListaItem",
-                            "position": 2,
-                            "name": "Carma",
-                            "url": "https://sanatanadharmam.in/philosophy/karma"
-                        },
-                        {
-                            "@type": "ListaItem",
-                            "position": 3,
-                            "name": "Moksha",
-                            "url": "https://sanatanadharmam.in/philosophy/moksha"
-                        },
-                        {
-                            "@type": "ListaItem",
-                            "position": 4,
-                            "name": "Samsara",
-                            "url": "https://sanatanadharmam.in/philosophy/samsara"
-                        },
-                        {
-                            "@type": "ListaItem",
-                            "position": 5,
-                            "name": "Purusharthas",
-                            "url": "https://sanatanadharmam.in/philosophy/purushartha"
-                        },
-                        {
-                            "@type": "ListaItem",
-                            "position": 6,
-                            "name": "Advaita Vedanta",
-                            "url": "https://sanatanadharmam.in/philosophy/advaita"
-                        }
-                    ]
-                }
-            ]
+  "philosophy": {
+    "title": "Filosofia Sanatana Dharma – Dharma, Karma, Moksha e Advaita",
+    "description": "Explore the philosophy of Sanatana Dharma including Dharma, Karma, Moksha, Samsara, Purusharthas and Advaita Vedanta explained through Hindu scriptures.",
+    "meta": {
+      "title": "Filosofia Sanatana Dharma – Dharma, Karma, Moksha e Advaita",
+      "canonical": "https://sanatanadharmam.in/philosophy",
+      "description": "Explore the philosophy of Sanatana Dharma including Dharma, Karma, Moksha, Samsara, Purusharthas and Advaita Vedanta explained through Hindu scriptures.",
+      "keywords": [
+        "Filosofia Sanatana Dharma",
+        "Filosofia hindu",
+        "Filosofia Védica",
+        "Filosofia dos Upanishads",
+        "Dharma Karma Moksha",
+        "Filosofia Advaita Vedanta",
+        "Filosofia de Purushartha",
+        "Filosofia Samsara",
+        "Filosofia indiana",
+        "Filosofia do Bhagavad Gita"
+      ],
+      "robots": "índice, siga",
+      "url": "https://sanatanadharmam.in/philosophy"
+    },
+    "openGraph": {
+      "title": "Filosofia Sanatana Dharma – Conceitos Básicos Explicados",
+      "description": "Descubra os ensinamentos filosóficos do Sanatana Dharma, incluindo Dharma, Karma, Moksha, Samsara e Advaita.",
+      "url": "https://sanatanadharmam.in/philosophy",
+      "siteName": "Sanatanadharm",
+      "type": "site",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/philosophy.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Sanatana Dharma Philosophy"
         }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Página de coleção",
+          "name": "Filosofia Sanatana Dharma",
+          "description": "Coleção de conceitos filosóficos do Sanatana Dharma, incluindo Dharma, Karma, Moksha, Samsara e Advaita.",
+          "url": "https://sanatanadharmam.in/philosophy"
+        },
+        {
+          "@type": "Lista de itens",
+          "name": "Tópicos da Filosofia Sanatana Dharma",
+          "itemListElement": [
+            {
+              "@type": "ListaItem",
+              "position": 1,
+              "name": "Dharma",
+              "url": "https://sanatanadharmam.in/philosophy/dharma"
+            },
+            {
+              "@type": "ListaItem",
+              "position": 2,
+              "name": "Carma",
+              "url": "https://sanatanadharmam.in/philosophy/karma"
+            },
+            {
+              "@type": "ListaItem",
+              "position": 3,
+              "name": "Moksha",
+              "url": "https://sanatanadharmam.in/philosophy/moksha"
+            },
+            {
+              "@type": "ListaItem",
+              "position": 4,
+              "name": "Samsara",
+              "url": "https://sanatanadharmam.in/philosophy/samsara"
+            },
+            {
+              "@type": "ListaItem",
+              "position": 5,
+              "name": "Purusharthas",
+              "url": "https://sanatanadharmam.in/philosophy/purushartha"
+            },
+            {
+              "@type": "ListaItem",
+              "position": 6,
+              "name": "Advaita Vedanta",
+              "url": "https://sanatanadharmam.in/philosophy/advaita"
+            }
+          ]
+        }
+      ]
     }
+  }
 }

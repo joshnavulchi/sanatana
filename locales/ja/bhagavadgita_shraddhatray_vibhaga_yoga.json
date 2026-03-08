@@ -1,65 +1,65 @@
 {
-    "bhagavadgita_shraddhatray-vibhaga-yoga": {
-        "title": "シュラダトレイ ヴィバガ ヨガ – バガヴァッド ギーター章の概要",
-        "description": "シュラダトレイ ヴィバーガ ヨガの章の概要: 『バガヴァッド ギーター』の中心的な教え、重要な概念、実践的なガイダンス。",
-        "meta": {
-            "title": "シュラダトレイ ヴィバガ ヨガ – バガヴァッド ギーター章の概要",
-            "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/shraddhatray-vibhaga-yoga",
-            "description": "シュラダトレイ ヴィバーガ ヨガの章の概要: 『バガヴァッド ギーター』の中心的な教え、重要な概念、実践的なガイダンス。",
-            "keywords": [
-                "シュラダトレイ ヴィバーガ ヨガ",
-                "バガヴァッド・ギーター",
-                "クリシュナ",
-                "ヨガ",
-                "ダルマ",
-                "ヴェダンタ"
-            ],
-            "robots": "インデックス、フォロー",
-            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/shraddhatray-vibhaga-yoga",
-            "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_shraddhatray_vibhaga_yoga.png"
-        },
-        "openGraph": {
-            "title": "シュラダトレイ ヴィバガ ヨガ – バガヴァッド ギーター章の概要",
-            "description": "シュラダトレイ ヴィバーガ ヨガの章の概要: 『バガヴァッド ギーター』の中心的な教え、重要な概念、実践的なガイダンス。",
-            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/shraddhatray-vibhaga-yoga",
-            "siteName": "サナタナダルマム",
-            "type": "記事",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/bhagavadgita_shraddhatray_vibhaga_yoga.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Shraddhatray Vibhaga Yoga – Bhagavad Gita Chapter Overview"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@type": "記事",
-            "name": "シュラダトレイ ヴィバガ ヨガ – バガヴァッド ギーター章の概要",
-            "description": "シュラダトレイ ヴィバーガ ヨガの章の概要: 『バガヴァッド ギーター』の中心的な教え、重要な概念、実践的なガイダンス。",
-            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/shraddhatray-vibhaga-yoga",
-            "isPartOf": {
-                "@type": "ウェブサイト",
-                "name": "サナタナダルマム",
-                "url": "https://sanatanadharmam.in"
-            }
-        },
-        "introduction": "シュラダトレイ ヴィバーガ ヨガは、『バガヴァッド ギーター』の一章です。各章は伝統的に、実践や理解の角度である「ヨガ」に重点を置き、その教えを統合しつつ、明晰に行動し、帰依心を養い、心が安定するように知識を磨くというものです。\n\nこのページでは、その章の通常のテーマを要約し、特定の節を引用せずに考察を促します。",
-        "scripture_text": [
-            {
-                "section": "重要なアイデア",
-                "content": "この章に関連する主な教えと、それらがダルマとヨーガにどのように関連しているかを簡潔にまとめたものです。"
-            },
-            {
-                "section": "実用化",
-                "content": "この章の教えを、特にストレス下での日常の仕事、人間関係、意思決定にどのように適用できるか。"
-            },
-            {
-                "section": "反省のプロンプト",
-                "content": "私は何に執着しているのでしょうか？私の義務のどこが不明確ですか?結果への執着を手放し、誠実に行動できるか？"
-            }
-        ],
-        "philosophical_explanation": "ギータ哲学は内なる自由、つまり行為の不在ではなく、意図の浄化に重点を置いています。エゴによる執着が減少すると、行動はよりクリーンになり、心はより深い洞察力を得ることができるようになります。"
-    }
+  "bhagavadgita_shraddhatray-vibhaga-yoga": {
+    "title": "シュラダトレイ ヴィバガ ヨガ – バガヴァッド ギーター章の概要",
+    "description": "シュラダトレイ ヴィバーガ ヨガの章の概要: 『バガヴァッド ギーター』の中心的な教え、重要な概念、実践的なガイダンス。",
+    "meta": {
+      "title": "シュラダトレイ ヴィバガ ヨガ – バガヴァッド ギーター章の概要",
+      "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita/shraddhatray-vibhaga-yoga",
+      "description": "シュラダトレイ ヴィバーガ ヨガの章の概要: 『バガヴァッド ギーター』の中心的な教え、重要な概念、実践的なガイダンス。",
+      "keywords": [
+        "シュラダトレイ ヴィバーガ ヨガ",
+        "バガヴァッド・ギーター",
+        "クリシュナ",
+        "ヨガ",
+        "ダルマ",
+        "ヴェダンタ"
+      ],
+      "robots": "インデックス、フォロー",
+      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/shraddhatray-vibhaga-yoga",
+      "ogImage": "https://sanatanadharmam.in/og/bhagavadgita_shraddhatray_vibhaga_yoga.png"
+    },
+    "openGraph": {
+      "title": "シュラダトレイ ヴィバガ ヨガ – バガヴァッド ギーター章の概要",
+      "description": "シュラダトレイ ヴィバーガ ヨガの章の概要: 『バガヴァッド ギーター』の中心的な教え、重要な概念、実践的なガイダンス。",
+      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/shraddhatray-vibhaga-yoga",
+      "siteName": "サナタナダルマム",
+      "type": "記事",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/bhagavadgita_shraddhatray_vibhaga_yoga.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Shraddhatray Vibhaga Yoga – Bhagavad Gita Chapter Overview"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "記事",
+      "name": "シュラダトレイ ヴィバガ ヨガ – バガヴァッド ギーター章の概要",
+      "description": "シュラダトレイ ヴィバーガ ヨガの章の概要: 『バガヴァッド ギーター』の中心的な教え、重要な概念、実践的なガイダンス。",
+      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita/shraddhatray-vibhaga-yoga",
+      "isPartOf": {
+        "@type": "ウェブサイト",
+        "name": "サナタナダルマム",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "introduction": "シュラダトレイ ヴィバーガ ヨガは、『バガヴァッド ギーター』の一章です。各章は伝統的に、実践や理解の角度である「ヨガ」に重点を置き、その教えを統合しつつ、明晰に行動し、帰依心を養い、心が安定するように知識を磨くというものです。\n\nこのページでは、その章の通常のテーマを要約し、特定の節を引用せずに考察を促します。",
+    "scripture_text": [
+      {
+        "section": "重要なアイデア",
+        "content": "この章に関連する主な教えと、それらがダルマとヨーガにどのように関連しているかを簡潔にまとめたものです。"
+      },
+      {
+        "section": "実用化",
+        "content": "この章の教えを、特にストレス下での日常の仕事、人間関係、意思決定にどのように適用できるか。"
+      },
+      {
+        "section": "反省のプロンプト",
+        "content": "私は何に執着しているのでしょうか？私の義務のどこが不明確ですか?結果への執着を手放し、誠実に行動できるか？"
+      }
+    ],
+    "philosophical_explanation": "ギータ哲学は内なる自由、つまり行為の不在ではなく、意図の浄化に重点を置いています。エゴによる執着が減少すると、行動はよりクリーンになり、心はより深い洞察力を得ることができるようになります。"
+  }
 }

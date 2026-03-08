@@ -1,208 +1,208 @@
 {
-    "about": {
-        "title": "关于 Sanatana Dharma – 历史、哲学和精神智慧",
-        "description": "了解萨纳塔纳佛法（Sanatana Dharma），印度教哲学永恒的精神传统。探索其历史、原则、经文和永恒的教义。",
-        "meta": {
-            "title": "关于 Sanatana Dharma – 历史、哲学和精神智慧",
-            "canonical": "https://sanatanadharmam.in/about",
-            "description": "了解萨纳塔纳佛法（Sanatana Dharma），印度教哲学永恒的精神传统。探索其历史、原则、经文和永恒的教义。",
-            "keywords": [
-                "萨那塔那佛法",
-                "萨那塔那佛法意义",
-                "印度教哲学",
-                "萨那塔那佛法历史",
-                "吠陀传统",
-                "印度教经文",
-                "法业解脱",
-                "萨那塔那佛法教义",
-                "印度教精神哲学",
-                "萨那塔那佛法原则"
-            ],
-            "url": "https://sanatanadharmam.in/about"
-        },
-        "openGraph": {
-            "title": "关于 Sanatana Dharma – 永恒的精神传统",
-            "description": "探索 Sanatana Dharma 的意义、哲学和原则，包括吠陀教义、经文和精神实践。",
-            "url": "https://sanatanadharmam.in/about",
-            "siteName": "萨那塔达曼",
-            "type": "文章",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/about.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "About Sanatana Dharma"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "关于页面",
-                    "name": "关于萨那塔达玛",
-                    "url": "https://sanatanadharmam.in/about",
-                    "description": "有关 Sanatana Dharma 的信息，包括其哲学、经文和精神传统。",
-                    "isPartOf": {
-                        "@type": "网站",
-                        "name": "萨那塔达曼",
-                        "url": "https://sanatanadharmam.in"
-                    }
-                },
-                {
-                    "@type": "组织",
-                    "name": "萨那塔达曼",
-                    "url": "https://sanatanadharmam.in",
-                    "logo": "https://sanatanadharmam.in/images/logo.png",
-                    "contactPoint": {
-                        "@type": "联络点",
-                        "contactType": "客户支持",
-                        "areaServed": "全世界",
-                        "availableLanguage": [
-                            "英语",
-                            "印地语",
-                            "泰卢固语",
-                            "阿拉伯",
-                            "德语",
-                            "西班牙语",
-                            "法语",
-                            "日本人",
-                            "尼泊尔语",
-                            "荷兰语",
-                            "葡萄牙语",
-                            "俄语",
-                            "乌尔都语",
-                            "中国人"
-                        ],
-                        "email": "info@sanatanadharmam.in",
-                        "telephone": "+91-8099181075"
-                    }
-                }
-            ]
-        },
-        "commitment": [
-            "不断提高准确性和清晰度",
-            "更新图书馆，提供更多经文、注释和灵修材料",
-            "尊重传统知识的神圣性和多样性",
-            "确保重要内容免费且可广泛访问",
-            "明确引用来源并鼓励学术验证"
-        ],
-        "definationoflife": {
-            "artha": "阿尔萨",
-            "as_individu": "个体如此，宇宙亦如此",
-            "atman_true": "阿特曼，你的真实自我，是永恒和神圣的。",
-            "brahmach": "婆罗门",
-            "desires": "（欲望），以及",
-            "dharma": "法",
-            "essence_life": "生命的本质",
-            "eternal_soul": "आत्मा - 永恒的灵魂",
-            "eternal_truth": "永恒的真理",
-            "every_action": "每一个行为都会创造业力，塑造我们的命运。",
-            "four_stages": "आश्रम - 人生的四个阶段",
-            "grihasth": "格里哈斯塔",
-            "have_right": "——你有权利履行你的职责，但成果属于神圣。",
-            "househol_family": "户主 - 家庭与责任",
-            "illusion_truth": "माया - 幻觉与真相",
-            "kama": "卡马",
-            "know_thyself": "认识你自己",
-            "law_action": "कर्म - 行动法则",
-            "liberati": "（解放）。",
-            "life_divine": "生命是实现你真实本性的神圣机会——而不是这个暂时的身体，\n                  但见证一切的不朽意识，不受出生或死亡的影响，\n                  快乐或痛苦。这种认识是人类存在的最高目标。",
-            "life_play": "生命是玛雅人的一场戏剧，宇宙的幻象。真正的智慧在于透过现象看本质",
-            "life_s": "生活的目的",
-            "life_sacred": "生命是通往四个普鲁萨塔的神圣旅程：",
-            "moksha": "解脱",
-            "never_born": "——它永远不会出生，也不会死亡。生命是灵魂实现与婆罗门合一的旅程。",
-            "pervades_all": "遍及一切存在。",
-            "prosperi": "（繁荣），",
-            "renuncia_complete": "出离心——彻底解脱",
-            "retireme_detachme": "退休——脱离与反思",
-            "righteou": "（义），",
-            "sannyasa": "萨尼亚萨",
-            "student_life": "学生生活 - 学习与纪律",
-            "vanapras": "瓦纳帕斯塔"
-        },
-        "introduction": "Sanatanadharmam.in 是一项专门的数字倡议，旨在收集、保存、解释和分享数千年来通过 Sanātana Dharma 传播的精神、文化和实践知识。我们的目标是通过以清晰、可用的格式呈现真实的文本、虔诚的赞美诗、仪式程序、哲学论文和有用的上下文评论，让来自不同背景的寻求者、学生、实践者和好奇的读者都能接触到这一活生生的传统。\n\n我们认识到，萨那塔那佛法不是一个单一的整体系统，而是一个庞大的、不断发展的思想和实践体系，跨越多种语言、血统和地区表达方式。该网站试图尊重这种多样性，同时也为那些刚接触这一传统的人提供一个连贯的切入点。我们专注于真实性、清晰度和可用性：为诵经提供准确的音译和干净的文本，保留细微差别的可靠翻译，以及阐明材料的历史、文化和精神意义的通俗易懂的语言解释。\n\n我们的首要任务包括从值得信赖的版本中收集源材料，为学习者提供带有正确变音符号和音译的经义和咒语，为常见的家庭仪式和节日提供分步的 puja vidhi 指南，以及创建重要哲学教义的易于理解的摘要，以便读者能够掌握实际含义，而不仅仅是学术描述。只要有可能，我们都会引用原始资料，建议进一步阅读，并指出不同的阅读方式或地区差异，以帮助读者理解背景和出处。\n\n除了提供文本之外，我们希望该网站成为日常精神生活的实用伴侣。为此，我们整理了每日祈祷、早晚例行公事、适合日常背诵的简短经文以及常见纪念活动的简明指南。我们还发表解释性文章，将仪式和经文置于更广泛的文化和道德框架内，帮助读者将实践和意义联系起来。该网站有意不分宗派，旨在创造一个相互尊重的空间，让具有共同根源的传统能够并列呈现，同时对其差异保持敏感。\n\n可访问性对我们来说很重要。我们以多种印度和国际语言发布内容，以覆盖广泛的受众并支持那些主要语言不是英语的人。文本在可行的情况下包括音译和音频，以便学习者可以练习正确的发音和节奏。我们通过提供分层解释，努力使内容易于导航、可搜索且对初学者和高级读者都友好：用于快速阅读的简短摘要，随后为那些希望更深入学习的人提供更详细的注释和参考资料。\n\n我们相信，负责任地保存和分享萨那塔纳佛法需要将奉献精神、学术关怀和现代出版实践结合起来。所有材料的整理都尊重传统形式并着眼于清晰度，因此它们可以在当代生活中阅读、吟诵和实践。",
-        "disclaimer": "我们并不声称自己是传统权威或详尽的学术出版社。本网站的维护是出于奉献、细心和对准确性的承诺。读者应咨询已建立的版本或公认的教师以了解规范或礼拜仪式的决定。我们鼓励在需要时对重要文本与权威来源进行交叉验证。",
-        "faq": {
-            "heading": "常见问题",
-            "items": [
-                {
-                    "a": "该网站旨在以易于学习的形式收集、保存和呈现与 Sanātana Dharma 相关的文本、经论、仪式指南和解释性文章，供学习者、实践者和研究人员使用。",
-                    "q": "Sanatanadharmam.in 的目的是什么？"
-                },
-                {
-                    "a": "我们努力使用可靠的版本并引用来源。然而，我们不是一家正式的学术出版社；读者应咨询初级版本和公认的教师以获得规范的决定。",
-                    "q": "网站上的文字是否具有权威性？"
-                },
-                {
-                    "a": "是的。我们欢迎贡献；请使用联系页面提交建议的更正、翻译或来源以及参考文献。贡献在发表前会经过审查。",
-                    "q": "我可以提供更正或翻译吗？"
-                },
-                {
-                    "a": "我们尽可能提供标准化的音译和变音符号，以帮助正确发音，并提供纯文本版本和录音（如果有）。",
-                    "q": "音译是如何处理的？"
-                }
-            ]
-        },
-        "joinus": {
-            "invite": [
-                "与其他人分享网站以传播意识",
-                "通过我们的反馈渠道提出改进或更正建议",
-                "提供翻译、录音或文本以供审阅",
-                "通过自愿提供编辑帮助或技术援助来支持该项目"
-            ],
-            "message": "Sanātana Dharma 是一种植根于真理、慈悲和服务的生活方式。我们邀请读者以谦逊和探究的精神学习、实践和贡献。"
-        },
-        "longdescription": "This site grew from the recognition that living spiritual traditions require both preservation and renewal. Preservation means careful transcription of texts, responsible citation of sources, and a commitment to accuracy in transliteration and translation. Renewal means presenting those texts in ways that resonate with contemporary life, clarifying how ancient practices relate to modern ethical concerns, family life, community service, and personal development.\n\nWe approach content curation through several complementary practices. Source integrity is central: whenever a text is digitized, we note the edition, provide bibliographic details, and indicate any editorial decisions we have made. For stotras and mantras, we offer guidance on pronunciation and rhythm, and when recordings are available we include short audio clips to assist learners. For ritual instructions, we break down the sequence into clear steps, articulate the meaning behind each action, and note regional or lineage-based variations so readers can adapt practice while understanding why variations exist.\n\nPedagogy matters. Learners often need short, practical introductions before engaging with longer texts. Therefore our articles begin with concise, plain-language overviews, followed by progressively detailed sections that discuss historical background, scriptural references, linguistic notes, and suggested further reading. This layered format allows casual readers to find quick answers and serious students to pursue deeper study.\n\nCommunity contribution is encouraged. While we are not a scholarly press, we welcome input from practitioners, teachers, and scholars who wish to suggest corrections, offer additional sources, or contribute translations and commentary. All contributions are reviewed for fidelity to sources and clarity. We maintain a modest editorial policy intended to balance open collaboration with the responsibilities of curating sacred texts.\n\nEthical considerations shape our approach. Sanātana Dharma teaches values such as dharma, compassion, truthfulness, and selfless service. We aim to reflect those values through respectful presentation, inclusivity, and avoidance of polemics. We do not promote commercial exploitation of sacred materials; most content is freely available on the site, and we explicitly credit sources and contributors. When material is used under specific permissions or licenses, that information is clearly provided.\n\nPractical use cases guide content design. A household practitioner looking for the correct sequence of a common puja should be able to find step-by-step guidance and an explanation of the essential mantras and gestures. A student preparing for a recitation should be able to access a clean text with transliteration and an audio model. A curious reader should be able to find a concise introduction to the Bhagavathgita, with links to primary verses and readable commentary. By focusing on real needs, we make the tradition more accessible while preserving depth.\n\nTechnology is a tool, not a replacement for lived tradition. We use the web to index, search, and present materials; to host audio and transliteration tools; and to enable multilingual navigation. Yet we recognize that direct guidance from a teacher and participation in community practice remain vital. Our content is designed to complement—not replace—personal instruction and community-based learning.\n\nLooking ahead, we plan to expand audio and multimedia resources, to incorporate more regional and language-specific editions, and to build tools that help teachers and students interact with texts (for example, bookmarking, shared notes, and small-group reading guides). We also plan to strengthen citations and bibliographic references so that researchers and teachers can trace the textual lineage of materials found on the site.\n\nWe invite readers to treat the site as a starting point: a careful, compassionate introduction to a living tradition. For those who wish to explore further, we provide pathways into primary sources, classical commentaries, and reputable contemporary expositions. Whether your interest is devotional, scholarly, cultural, or practical, Sanatanadharmam.in aims to offer resources that are accurate, accessible, and useful.\n\nIf you find errors, omissions, or ways to improve presentation, please share them. Contributions that improve accuracy, add missing source citations, supply high-quality translations, or provide helpful audio recordings are especially welcome. We hope this work supports individual practice, communal life, and the intergenerational transmission of knowledge in ways that are respectful, open-hearted, and responsible.\n\nIn sum, Sanatanadharmam.in seeks to safeguard a broad spectrum of knowledge from Sanātana Dharma, to present it with integrity and care, and to make it a living, usable resource for anyone seeking to learn, practice, or simply understand. We are guided by the conviction that ancient wisdom, when presented honestly and thoughtfully, can help individuals and communities cultivate insight, compassion, and a deeper sense of meaning.",
-        "sections": [
-            {
-                "title": "我们是谁",
-                "text": "Sanātana Dharmam 是一个专门的在线平台，由热衷于分享印度次大陆最古老精神传统中蕴含的普世价值观的精神寻求者创建。虽然我们的工作以《吠陀经》和《奥义书》等神圣经典为基础，但我们并不自称是精神权威——我们只是同行者，为这种深刻的生活方式提供了精心策划的概述。"
-            },
-            {
-                "title": "我们的使命",
-                "bullets": [
-                    "教育和赋权——呈现源自吠陀文本和经典评论的见解，使萨纳塔纳佛法易于理解和产生共鸣。",
-                    "保持真实性——强调准确性并尊重原始梵文来源。",
-                    "激发和谐——探索更深层次的精神真理、包容性仪式和道德生活，以培养多样性中的团结。"
-                ]
-            },
-            {
-                "title": "我们涵盖的内容",
-                "bullets": [
-                    "Svadharma 和 Sanātana-dharma 等核心原则",
-                    "六大哲学体系：Nyāya、Vaiśeṣika、Vedanta、Samkhya、Yoga 和 Mīmāṃsā",
-                    "瑜伽、冥想和微妙身体练习的实用指导",
-                    "仪式、婚姻习俗、素食主义、奉爱和跨宗教理解"
-                ]
-            },
-            {
-                "title": "为什么它在今天很重要",
-                "text": "Sanātana Dharma 不仅仅是一种宗教，它是一种不断发展的、鲜活的哲学，几千年来塑造了文化、伦理和精神框架。这个词本身的意思是“永恒的道路”或“永恒的法则”，反映了超越时间、地点或教条的持久智慧。在快速变化的时代，重新认识这些核心价值观——真理、非暴力、同情心、自我实现——可以为个人和社会提供全面的指导。"
-            }
-        ],
-        "vision": {
-            "description": "作为一个可靠、精心策划的数字存储库，保存萨那塔那佛法的基本教义、虔诚文献、仪式知识和实践指导，同时使它们可供当代和后代访问、理解和使用。",
-            "focusareas": [
-                "多语言内容涵盖梵语、印度地方语言和英语",
-                "带有音译和音频支持的虔诚经文、咒语和每日祈祷",
-                "详细的 puja-vidhis、节日指南和家庭仪式说明",
-                "对《奥义书》、《薄伽梵歌》、《往世书》和经典评论中的哲学概念进行清晰的阐述",
-                "将经文与生活实践和道德生活联系起来的语境文章",
-                "可搜索、编目良好的档案，并引用权威版本"
-            ],
-            "goal": "建立一个持久的数字图书馆，既保存珍贵的文本，又提供学习和实践的实用途径，为各代学习者、从业者和学者提供支持。"
-        },
-        "whywecreated": {
-            "problemsaddressed": [
-                "重要文本难以找到、不一致或数字化程度较差的版本",
-                "跨多个站点和格式的资源碎片",
-                "缺乏可供学习者使用的翻译和音译",
-                "在日常生活中应用仪式和哲学教义的情境指导不足",
-                "非专业人士在未经事先培训的情况下接触经文的障碍"
-            ],
-            "purpose": "我们创建 Sanatanadharmam.in 是为了集中值得信赖的材料并提供分层解释，帮助读者从好奇心转向有意义的实践。通过将干净的数字版本、仔细的翻译、音译辅助、实用的仪式指南和善解人意的解释相结合，我们希望降低进入门槛，同时保持对传统深度和多样性的尊重。"
+  "about": {
+    "title": "关于 Sanatana Dharma – 历史、哲学和精神智慧",
+    "description": "了解萨纳塔纳佛法（Sanatana Dharma），印度教哲学永恒的精神传统。探索其历史、原则、经文和永恒的教义。",
+    "meta": {
+      "title": "关于 Sanatana Dharma – 历史、哲学和精神智慧",
+      "canonical": "https://sanatanadharmam.in/about",
+      "description": "了解萨纳塔纳佛法（Sanatana Dharma），印度教哲学永恒的精神传统。探索其历史、原则、经文和永恒的教义。",
+      "keywords": [
+        "萨那塔那佛法",
+        "萨那塔那佛法意义",
+        "印度教哲学",
+        "萨那塔那佛法历史",
+        "吠陀传统",
+        "印度教经文",
+        "法业解脱",
+        "萨那塔那佛法教义",
+        "印度教精神哲学",
+        "萨那塔那佛法原则"
+      ],
+      "url": "https://sanatanadharmam.in/about"
+    },
+    "openGraph": {
+      "title": "关于 Sanatana Dharma – 永恒的精神传统",
+      "description": "探索 Sanatana Dharma 的意义、哲学和原则，包括吠陀教义、经文和精神实践。",
+      "url": "https://sanatanadharmam.in/about",
+      "siteName": "萨那塔达曼",
+      "type": "文章",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/about.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "About Sanatana Dharma"
         }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "关于页面",
+          "name": "关于萨那塔达玛",
+          "url": "https://sanatanadharmam.in/about",
+          "description": "有关 Sanatana Dharma 的信息，包括其哲学、经文和精神传统。",
+          "isPartOf": {
+            "@type": "网站",
+            "name": "萨那塔达曼",
+            "url": "https://sanatanadharmam.in"
+          }
+        },
+        {
+          "@type": "组织",
+          "name": "萨那塔达曼",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png",
+          "contactPoint": {
+            "@type": "联络点",
+            "contactType": "客户支持",
+            "areaServed": "全世界",
+            "availableLanguage": [
+              "英语",
+              "印地语",
+              "泰卢固语",
+              "阿拉伯",
+              "德语",
+              "西班牙语",
+              "法语",
+              "日本人",
+              "尼泊尔语",
+              "荷兰语",
+              "葡萄牙语",
+              "俄语",
+              "乌尔都语",
+              "中国人"
+            ],
+            "email": "info@sanatanadharmam.in",
+            "telephone": "+91-8099181075"
+          }
+        }
+      ]
+    },
+    "commitment": [
+      "不断提高准确性和清晰度",
+      "更新图书馆，提供更多经文、注释和灵修材料",
+      "尊重传统知识的神圣性和多样性",
+      "确保重要内容免费且可广泛访问",
+      "明确引用来源并鼓励学术验证"
+    ],
+    "definationoflife": {
+      "artha": "阿尔萨",
+      "as_individu": "个体如此，宇宙亦如此",
+      "atman_true": "阿特曼，你的真实自我，是永恒和神圣的。",
+      "brahmach": "婆罗门",
+      "desires": "（欲望），以及",
+      "dharma": "法",
+      "essence_life": "生命的本质",
+      "eternal_soul": "आत्मा - 永恒的灵魂",
+      "eternal_truth": "永恒的真理",
+      "every_action": "每一个行为都会创造业力，塑造我们的命运。",
+      "four_stages": "आश्रम - 人生的四个阶段",
+      "grihasth": "格里哈斯塔",
+      "have_right": "——你有权利履行你的职责，但成果属于神圣。",
+      "househol_family": "户主 - 家庭与责任",
+      "illusion_truth": "माया - 幻觉与真相",
+      "kama": "卡马",
+      "know_thyself": "认识你自己",
+      "law_action": "कर्म - 行动法则",
+      "liberati": "（解放）。",
+      "life_divine": "生命是实现你真实本性的神圣机会——而不是这个暂时的身体，\n                  但见证一切的不朽意识，不受出生或死亡的影响，\n                  快乐或痛苦。这种认识是人类存在的最高目标。",
+      "life_play": "生命是玛雅人的一场戏剧，宇宙的幻象。真正的智慧在于透过现象看本质",
+      "life_s": "生活的目的",
+      "life_sacred": "生命是通往四个普鲁萨塔的神圣旅程：",
+      "moksha": "解脱",
+      "never_born": "——它永远不会出生，也不会死亡。生命是灵魂实现与婆罗门合一的旅程。",
+      "pervades_all": "遍及一切存在。",
+      "prosperi": "（繁荣），",
+      "renuncia_complete": "出离心——彻底解脱",
+      "retireme_detachme": "退休——脱离与反思",
+      "righteou": "（义），",
+      "sannyasa": "萨尼亚萨",
+      "student_life": "学生生活 - 学习与纪律",
+      "vanapras": "瓦纳帕斯塔"
+    },
+    "introduction": "Sanatanadharmam.in 是一项专门的数字倡议，旨在收集、保存、解释和分享数千年来通过 Sanātana Dharma 传播的精神、文化和实践知识。我们的目标是通过以清晰、可用的格式呈现真实的文本、虔诚的赞美诗、仪式程序、哲学论文和有用的上下文评论，让来自不同背景的寻求者、学生、实践者和好奇的读者都能接触到这一活生生的传统。\n\n我们认识到，萨那塔那佛法不是一个单一的整体系统，而是一个庞大的、不断发展的思想和实践体系，跨越多种语言、血统和地区表达方式。该网站试图尊重这种多样性，同时也为那些刚接触这一传统的人提供一个连贯的切入点。我们专注于真实性、清晰度和可用性：为诵经提供准确的音译和干净的文本，保留细微差别的可靠翻译，以及阐明材料的历史、文化和精神意义的通俗易懂的语言解释。\n\n我们的首要任务包括从值得信赖的版本中收集源材料，为学习者提供带有正确变音符号和音译的经义和咒语，为常见的家庭仪式和节日提供分步的 puja vidhi 指南，以及创建重要哲学教义的易于理解的摘要，以便读者能够掌握实际含义，而不仅仅是学术描述。只要有可能，我们都会引用原始资料，建议进一步阅读，并指出不同的阅读方式或地区差异，以帮助读者理解背景和出处。\n\n除了提供文本之外，我们希望该网站成为日常精神生活的实用伴侣。为此，我们整理了每日祈祷、早晚例行公事、适合日常背诵的简短经文以及常见纪念活动的简明指南。我们还发表解释性文章，将仪式和经文置于更广泛的文化和道德框架内，帮助读者将实践和意义联系起来。该网站有意不分宗派，旨在创造一个相互尊重的空间，让具有共同根源的传统能够并列呈现，同时对其差异保持敏感。\n\n可访问性对我们来说很重要。我们以多种印度和国际语言发布内容，以覆盖广泛的受众并支持那些主要语言不是英语的人。文本在可行的情况下包括音译和音频，以便学习者可以练习正确的发音和节奏。我们通过提供分层解释，努力使内容易于导航、可搜索且对初学者和高级读者都友好：用于快速阅读的简短摘要，随后为那些希望更深入学习的人提供更详细的注释和参考资料。\n\n我们相信，负责任地保存和分享萨那塔纳佛法需要将奉献精神、学术关怀和现代出版实践结合起来。所有材料的整理都尊重传统形式并着眼于清晰度，因此它们可以在当代生活中阅读、吟诵和实践。",
+    "disclaimer": "我们并不声称自己是传统权威或详尽的学术出版社。本网站的维护是出于奉献、细心和对准确性的承诺。读者应咨询已建立的版本或公认的教师以了解规范或礼拜仪式的决定。我们鼓励在需要时对重要文本与权威来源进行交叉验证。",
+    "faq": {
+      "heading": "常见问题",
+      "items": [
+        {
+          "a": "该网站旨在以易于学习的形式收集、保存和呈现与 Sanātana Dharma 相关的文本、经论、仪式指南和解释性文章，供学习者、实践者和研究人员使用。",
+          "q": "Sanatanadharmam.in 的目的是什么？"
+        },
+        {
+          "a": "我们努力使用可靠的版本并引用来源。然而，我们不是一家正式的学术出版社；读者应咨询初级版本和公认的教师以获得规范的决定。",
+          "q": "网站上的文字是否具有权威性？"
+        },
+        {
+          "a": "是的。我们欢迎贡献；请使用联系页面提交建议的更正、翻译或来源以及参考文献。贡献在发表前会经过审查。",
+          "q": "我可以提供更正或翻译吗？"
+        },
+        {
+          "a": "我们尽可能提供标准化的音译和变音符号，以帮助正确发音，并提供纯文本版本和录音（如果有）。",
+          "q": "音译是如何处理的？"
+        }
+      ]
+    },
+    "joinus": {
+      "invite": [
+        "与其他人分享网站以传播意识",
+        "通过我们的反馈渠道提出改进或更正建议",
+        "提供翻译、录音或文本以供审阅",
+        "通过自愿提供编辑帮助或技术援助来支持该项目"
+      ],
+      "message": "Sanātana Dharma 是一种植根于真理、慈悲和服务的生活方式。我们邀请读者以谦逊和探究的精神学习、实践和贡献。"
+    },
+    "longdescription": "This site grew from the recognition that living spiritual traditions require both preservation and renewal. Preservation means careful transcription of texts, responsible citation of sources, and a commitment to accuracy in transliteration and translation. Renewal means presenting those texts in ways that resonate with contemporary life, clarifying how ancient practices relate to modern ethical concerns, family life, community service, and personal development.\n\nWe approach content curation through several complementary practices. Source integrity is central: whenever a text is digitized, we note the edition, provide bibliographic details, and indicate any editorial decisions we have made. For stotras and mantras, we offer guidance on pronunciation and rhythm, and when recordings are available we include short audio clips to assist learners. For ritual instructions, we break down the sequence into clear steps, articulate the meaning behind each action, and note regional or lineage-based variations so readers can adapt practice while understanding why variations exist.\n\nPedagogy matters. Learners often need short, practical introductions before engaging with longer texts. Therefore our articles begin with concise, plain-language overviews, followed by progressively detailed sections that discuss historical background, scriptural references, linguistic notes, and suggested further reading. This layered format allows casual readers to find quick answers and serious students to pursue deeper study.\n\nCommunity contribution is encouraged. While we are not a scholarly press, we welcome input from practitioners, teachers, and scholars who wish to suggest corrections, offer additional sources, or contribute translations and commentary. All contributions are reviewed for fidelity to sources and clarity. We maintain a modest editorial policy intended to balance open collaboration with the responsibilities of curating sacred texts.\n\nEthical considerations shape our approach. Sanātana Dharma teaches values such as dharma, compassion, truthfulness, and selfless service. We aim to reflect those values through respectful presentation, inclusivity, and avoidance of polemics. We do not promote commercial exploitation of sacred materials; most content is freely available on the site, and we explicitly credit sources and contributors. When material is used under specific permissions or licenses, that information is clearly provided.\n\nPractical use cases guide content design. A household practitioner looking for the correct sequence of a common puja should be able to find step-by-step guidance and an explanation of the essential mantras and gestures. A student preparing for a recitation should be able to access a clean text with transliteration and an audio model. A curious reader should be able to find a concise introduction to the Bhagavathgita, with links to primary verses and readable commentary. By focusing on real needs, we make the tradition more accessible while preserving depth.\n\nTechnology is a tool, not a replacement for lived tradition. We use the web to index, search, and present materials; to host audio and transliteration tools; and to enable multilingual navigation. Yet we recognize that direct guidance from a teacher and participation in community practice remain vital. Our content is designed to complement—not replace—personal instruction and community-based learning.\n\nLooking ahead, we plan to expand audio and multimedia resources, to incorporate more regional and language-specific editions, and to build tools that help teachers and students interact with texts (for example, bookmarking, shared notes, and small-group reading guides). We also plan to strengthen citations and bibliographic references so that researchers and teachers can trace the textual lineage of materials found on the site.\n\nWe invite readers to treat the site as a starting point: a careful, compassionate introduction to a living tradition. For those who wish to explore further, we provide pathways into primary sources, classical commentaries, and reputable contemporary expositions. Whether your interest is devotional, scholarly, cultural, or practical, Sanatanadharmam.in aims to offer resources that are accurate, accessible, and useful.\n\nIf you find errors, omissions, or ways to improve presentation, please share them. Contributions that improve accuracy, add missing source citations, supply high-quality translations, or provide helpful audio recordings are especially welcome. We hope this work supports individual practice, communal life, and the intergenerational transmission of knowledge in ways that are respectful, open-hearted, and responsible.\n\nIn sum, Sanatanadharmam.in seeks to safeguard a broad spectrum of knowledge from Sanātana Dharma, to present it with integrity and care, and to make it a living, usable resource for anyone seeking to learn, practice, or simply understand. We are guided by the conviction that ancient wisdom, when presented honestly and thoughtfully, can help individuals and communities cultivate insight, compassion, and a deeper sense of meaning.",
+    "sections": [
+      {
+        "title": "我们是谁",
+        "text": "Sanātana Dharmam 是一个专门的在线平台，由热衷于分享印度次大陆最古老精神传统中蕴含的普世价值观的精神寻求者创建。虽然我们的工作以《吠陀经》和《奥义书》等神圣经典为基础，但我们并不自称是精神权威——我们只是同行者，为这种深刻的生活方式提供了精心策划的概述。"
+      },
+      {
+        "title": "我们的使命",
+        "bullets": [
+          "教育和赋权——呈现源自吠陀文本和经典评论的见解，使萨纳塔纳佛法易于理解和产生共鸣。",
+          "保持真实性——强调准确性并尊重原始梵文来源。",
+          "激发和谐——探索更深层次的精神真理、包容性仪式和道德生活，以培养多样性中的团结。"
+        ]
+      },
+      {
+        "title": "我们涵盖的内容",
+        "bullets": [
+          "Svadharma 和 Sanātana-dharma 等核心原则",
+          "六大哲学体系：Nyāya、Vaiśeṣika、Vedanta、Samkhya、Yoga 和 Mīmāṃsā",
+          "瑜伽、冥想和微妙身体练习的实用指导",
+          "仪式、婚姻习俗、素食主义、奉爱和跨宗教理解"
+        ]
+      },
+      {
+        "title": "为什么它在今天很重要",
+        "text": "Sanātana Dharma 不仅仅是一种宗教，它是一种不断发展的、鲜活的哲学，几千年来塑造了文化、伦理和精神框架。这个词本身的意思是“永恒的道路”或“永恒的法则”，反映了超越时间、地点或教条的持久智慧。在快速变化的时代，重新认识这些核心价值观——真理、非暴力、同情心、自我实现——可以为个人和社会提供全面的指导。"
+      }
+    ],
+    "vision": {
+      "description": "作为一个可靠、精心策划的数字存储库，保存萨那塔那佛法的基本教义、虔诚文献、仪式知识和实践指导，同时使它们可供当代和后代访问、理解和使用。",
+      "focusareas": [
+        "多语言内容涵盖梵语、印度地方语言和英语",
+        "带有音译和音频支持的虔诚经文、咒语和每日祈祷",
+        "详细的 puja-vidhis、节日指南和家庭仪式说明",
+        "对《奥义书》、《薄伽梵歌》、《往世书》和经典评论中的哲学概念进行清晰的阐述",
+        "将经文与生活实践和道德生活联系起来的语境文章",
+        "可搜索、编目良好的档案，并引用权威版本"
+      ],
+      "goal": "建立一个持久的数字图书馆，既保存珍贵的文本，又提供学习和实践的实用途径，为各代学习者、从业者和学者提供支持。"
+    },
+    "whywecreated": {
+      "problemsaddressed": [
+        "重要文本难以找到、不一致或数字化程度较差的版本",
+        "跨多个站点和格式的资源碎片",
+        "缺乏可供学习者使用的翻译和音译",
+        "在日常生活中应用仪式和哲学教义的情境指导不足",
+        "非专业人士在未经事先培训的情况下接触经文的障碍"
+      ],
+      "purpose": "我们创建 Sanatanadharmam.in 是为了集中值得信赖的材料并提供分层解释，帮助读者从好奇心转向有意义的实践。通过将干净的数字版本、仔细的翻译、音译辅助、实用的仪式指南和善解人意的解释相结合，我们希望降低进入门槛，同时保持对传统深度和多样性的尊重。"
     }
+  }
 }

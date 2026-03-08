@@ -1,61 +1,61 @@
 {
-    "puranas_bhavishya-purana": {
-        "title": "Bhavishya Purana - Visão geral do Purana e temas principais",
-        "description": "Uma visão geral estruturada do Bhavishya Purana: temas, propósito e como ele contribui para a devoção, o dharma e a memória cultural no Sanātana Dharma.",
-        "meta": {
-            "title": "Bhavishya Purana - Visão geral do Purana e temas principais",
-            "canonical": "https://sanatanadharmam.in/puranas/bhavishya-purana",
-            "description": "Uma visão geral estruturada do Bhavishya Purana: temas, propósito e como ele contribui para a devoção, o dharma e a memória cultural no Sanātana Dharma.",
-            "keywords": [
-                "Bhavishya Purana",
-                "Purana",
-                "Puranas",
-                "Sanatana Dharma",
-                "bhakti",
-                "dharma"
-            ],
-            "robots": "índice, siga",
-            "url": "https://sanatanadharmam.in/puranas/bhavishya-purana",
-            "ogImage": "https://sanatanadharmam.in/og/puranas_bhavishya_purana.png"
-        },
-        "openGraph": {
-            "title": "Bhavishya Purana - Visão geral do Purana e temas principais",
-            "description": "Uma visão geral estruturada do Bhavishya Purana: temas, propósito e como ele contribui para a devoção, o dharma e a memória cultural no Sanātana Dharma.",
-            "url": "https://sanatanadharmam.in/puranas/bhavishya-purana",
-            "siteName": "Sanatanadharm",
-            "type": "artigo",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/puranas_bhavishya_purana.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Bhavishya Purana – Purana Overview and Key Themes"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@type": "Artigo",
-            "name": "Bhavishya Purana - Visão geral do Purana e temas principais",
-            "description": "Uma visão geral estruturada do Bhavishya Purana: temas, propósito e como ele contribui para a devoção, o dharma e a memória cultural no Sanātana Dharma.",
-            "url": "https://sanatanadharmam.in/puranas/bhavishya-purana",
-            "isPartOf": {
-                "@type": "Site",
-                "name": "Sanatanadharm",
-                "url": "https://sanatanadharmam.in"
-            }
-        },
-        "introduction": "Bhavishya Purana é um dos Mahapuranas na literatura purânica mais ampla do Sanātana Dharma. Os Puranas transmitem filosofia, devoção e memória cultural por meio de histórias, diálogos, hinos e orientações para uma vida ética.\n\nTradicionalmente, Bhavishya Purana está associado à tradição Purânica. Os leitores muitas vezes o abordam como um texto devocional-filosófico, em vez de um livro de gênero único: pode incluir cosmologia, geografia sagrada, ética, votos e narrativas que ilustram o dharma em ação.",
-        "scripture_text": [
-            {
-                "section": "O que você encontrará nesta página",
-                "content": "Uma visão geral estruturada: (1) contexto e temas, (2) ideias narrativas principais, (3) ênfase devocional e (4) reflexões filosóficas que conectam a história à prática interna."
-            },
-            {
-                "section": "Como ler o material Purânico",
-                "content": "As narrativas purânicas podem ser lidas em vários níveis – devocional, ético e simbólico. Quando os detalhes variam entre as recontagens, o valor duradouro é muitas vezes a lição dhármica: o cultivo do caráter, da devoção e do discernimento."
-            }
-        ],
-        "philosophical_explanation": "Filosoficamente, os Puranas ensinam através de cenários vividos: como o desejo, o medo, o orgulho e a compaixão moldam o destino. Eles também enfatizam o tempo cíclico e a impermanência, incentivando a humildade e a firmeza. A devoção (bhakti) é frequentemente apresentada como uma disciplina direta e acessível que purifica o coração e apoia a sabedoria."
-    }
+  "puranas_bhavishya-purana": {
+    "title": "Bhavishya Purana - Visão geral do Purana e temas principais",
+    "description": "Uma visão geral estruturada do Bhavishya Purana: temas, propósito e como ele contribui para a devoção, o dharma e a memória cultural no Sanātana Dharma.",
+    "meta": {
+      "title": "Bhavishya Purana - Visão geral do Purana e temas principais",
+      "canonical": "https://sanatanadharmam.in/puranas/bhavishya-purana",
+      "description": "Uma visão geral estruturada do Bhavishya Purana: temas, propósito e como ele contribui para a devoção, o dharma e a memória cultural no Sanātana Dharma.",
+      "keywords": [
+        "Bhavishya Purana",
+        "Purana",
+        "Puranas",
+        "Sanatana Dharma",
+        "bhakti",
+        "dharma"
+      ],
+      "robots": "índice, siga",
+      "url": "https://sanatanadharmam.in/puranas/bhavishya-purana",
+      "ogImage": "https://sanatanadharmam.in/og/puranas_bhavishya_purana.png"
+    },
+    "openGraph": {
+      "title": "Bhavishya Purana - Visão geral do Purana e temas principais",
+      "description": "Uma visão geral estruturada do Bhavishya Purana: temas, propósito e como ele contribui para a devoção, o dharma e a memória cultural no Sanātana Dharma.",
+      "url": "https://sanatanadharmam.in/puranas/bhavishya-purana",
+      "siteName": "Sanatanadharm",
+      "type": "artigo",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/puranas_bhavishya_purana.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Bhavishya Purana – Purana Overview and Key Themes"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Artigo",
+      "name": "Bhavishya Purana - Visão geral do Purana e temas principais",
+      "description": "Uma visão geral estruturada do Bhavishya Purana: temas, propósito e como ele contribui para a devoção, o dharma e a memória cultural no Sanātana Dharma.",
+      "url": "https://sanatanadharmam.in/puranas/bhavishya-purana",
+      "isPartOf": {
+        "@type": "Site",
+        "name": "Sanatanadharm",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "introduction": "Bhavishya Purana é um dos Mahapuranas na literatura purânica mais ampla do Sanātana Dharma. Os Puranas transmitem filosofia, devoção e memória cultural por meio de histórias, diálogos, hinos e orientações para uma vida ética.\n\nTradicionalmente, Bhavishya Purana está associado à tradição Purânica. Os leitores muitas vezes o abordam como um texto devocional-filosófico, em vez de um livro de gênero único: pode incluir cosmologia, geografia sagrada, ética, votos e narrativas que ilustram o dharma em ação.",
+    "scripture_text": [
+      {
+        "section": "O que você encontrará nesta página",
+        "content": "Uma visão geral estruturada: (1) contexto e temas, (2) ideias narrativas principais, (3) ênfase devocional e (4) reflexões filosóficas que conectam a história à prática interna."
+      },
+      {
+        "section": "Como ler o material Purânico",
+        "content": "As narrativas purânicas podem ser lidas em vários níveis – devocional, ético e simbólico. Quando os detalhes variam entre as recontagens, o valor duradouro é muitas vezes a lição dhármica: o cultivo do caráter, da devoção e do discernimento."
+      }
+    ],
+    "philosophical_explanation": "Filosoficamente, os Puranas ensinam através de cenários vividos: como o desejo, o medo, o orgulho e a compaixão moldam o destino. Eles também enfatizam o tempo cíclico e a impermanência, incentivando a humildade e a firmeza. A devoção (bhakti) é frequentemente apresentada como uma disciplina direta e acessível que purifica o coração e apoia a sabedoria."
+  }
 }

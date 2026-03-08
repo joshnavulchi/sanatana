@@ -1,63 +1,63 @@
 {
-    "itihasa": {
-        "title": "イティハーサ – ラーマーヤナ、マハーバーラタ、バガヴァッド ギーター |サタナダルマ",
-        "description": "ラーマーヤナ、マハーバーラタ、バガヴァッド ギーターなどのサナタナ ダルマのイティハーサを発見してください。これらの古代の叙事詩は、ダルマ、献身、精神的な知恵を教えています。",
-        "meta": {
-            "title": "イティハーサ – ラーマーヤナ、マハーバーラタ、バガヴァッド ギーター |サタナダルマ",
-            "canonical": "https://sanatanadharmam.in/itihasa",
-            "description": "ラーマーヤナ、マハーバーラタ、バガヴァッド ギーターなどのサナタナ ダルマのイティハーサを発見してください。これらの古代の叙事詩は、ダルマ、献身、精神的な知恵を教えています。",
-            "keywords": [
-                "イティハーサ",
-                "ラーマーヤナ",
-                "マハーバーラタ",
-                "バガヴァッド・ギーター",
-                "ヒンドゥー教の叙事詩",
-                "サナタナ ダルマ叙事詩",
-                "インドの叙事詩",
-                "イティハーサの意味"
-            ],
-            "url": "https://sanatanadharmam.in/itihasa"
-        },
-        "openGraph": {
-            "title": "イティハーサ – サナタナ・ダルマの神聖な叙事詩",
-            "description": "ラーマーヤナ、マハーバーラタ、バガヴァッド ギーターなど、サナタナ ダルマの偉大な叙事詩を探索してください。",
-            "url": "https://sanatanadharmam.in/itihasa",
-            "siteName": "サナタナダルマム",
-            "type": "記事",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/itihasa.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Itihasa – Ramayana Mahabharata Bhagavad Gita"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "コレクションページ",
-                    "name": "イティハーサ",
-                    "description": "イティハーサは、ラーマーヤナ、マハーバーラタ、バガヴァッド ギーターを含むサナタナ ダルマの歴史的叙事詩です。",
-                    "url": "https://sanatanadharmam.in/itihasa"
-                },
-                {
-                    "@type": "クリエイティブワーク",
-                    "name": "ラーマーヤナ",
-                    "author": "ヴァルミキ"
-                },
-                {
-                    "@type": "クリエイティブワーク",
-                    "name": "マハーバーラタ",
-                    "author": "ヴェド・ヴィヤーサ"
-                },
-                {
-                    "@type": "クリエイティブワーク",
-                    "name": "バガヴァッド・ギーター",
-                    "isPartOf": "マハーバーラタ"
-                }
-            ]
+  "itihasa": {
+    "title": "イティハーサ – ラーマーヤナ、マハーバーラタ、バガヴァッド ギーター |サタナダルマ",
+    "description": "ラーマーヤナ、マハーバーラタ、バガヴァッド ギーターなどのサナタナ ダルマのイティハーサを発見してください。これらの古代の叙事詩は、ダルマ、献身、精神的な知恵を教えています。",
+    "meta": {
+      "title": "イティハーサ – ラーマーヤナ、マハーバーラタ、バガヴァッド ギーター |サタナダルマ",
+      "canonical": "https://sanatanadharmam.in/itihasa",
+      "description": "ラーマーヤナ、マハーバーラタ、バガヴァッド ギーターなどのサナタナ ダルマのイティハーサを発見してください。これらの古代の叙事詩は、ダルマ、献身、精神的な知恵を教えています。",
+      "keywords": [
+        "イティハーサ",
+        "ラーマーヤナ",
+        "マハーバーラタ",
+        "バガヴァッド・ギーター",
+        "ヒンドゥー教の叙事詩",
+        "サナタナ ダルマ叙事詩",
+        "インドの叙事詩",
+        "イティハーサの意味"
+      ],
+      "url": "https://sanatanadharmam.in/itihasa"
+    },
+    "openGraph": {
+      "title": "イティハーサ – サナタナ・ダルマの神聖な叙事詩",
+      "description": "ラーマーヤナ、マハーバーラタ、バガヴァッド ギーターなど、サナタナ ダルマの偉大な叙事詩を探索してください。",
+      "url": "https://sanatanadharmam.in/itihasa",
+      "siteName": "サナタナダルマム",
+      "type": "記事",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/itihasa.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Itihasa – Ramayana Mahabharata Bhagavad Gita"
         }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "コレクションページ",
+          "name": "イティハーサ",
+          "description": "イティハーサは、ラーマーヤナ、マハーバーラタ、バガヴァッド ギーターを含むサナタナ ダルマの歴史的叙事詩です。",
+          "url": "https://sanatanadharmam.in/itihasa"
+        },
+        {
+          "@type": "クリエイティブワーク",
+          "name": "ラーマーヤナ",
+          "author": "ヴァルミキ"
+        },
+        {
+          "@type": "クリエイティブワーク",
+          "name": "マハーバーラタ",
+          "author": "ヴェド・ヴィヤーサ"
+        },
+        {
+          "@type": "クリエイティブワーク",
+          "name": "バガヴァッド・ギーター",
+          "isPartOf": "マハーバーラタ"
+        }
+      ]
     }
+  }
 }

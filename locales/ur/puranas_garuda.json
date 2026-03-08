@@ -1,71 +1,65 @@
 {
-    "puranas_garuda": {
-        "meta": {
-            "title": "گروڈ پران - بعد کی زندگی اور دھرم پر تعلیمات",
-            "canonical": "https://sanatanadharmam.in/scriptures/puranas/garuda",
-            "description": "گروڈا پران کو دریافت کریں، ایک مقدس ہندو متن جس میں موت کے بعد روح کے سفر، کرما، آخری رسومات، اور سناتن دھرم کی روحانی تعلیمات کو بیان کیا گیا ہے۔",
-            "keywords": [
-                "گروڈ پران",
-                "گروڈ پران بعد کی زندگی",
-                "گروڈ پران کی تعلیمات",
-                "گروڈ پران کرما",
-                "گروڈ پران کی آخری رسومات",
-                "گرود پران روح کا سفر",
-                "گروڈ پرانا ویترانی ندی",
-                "گروڈ پران کا فلسفہ",
-                "گروڈ پران کا اوتار",
-                "ہندو صحیفے گروڈ پران"
-            ],
-            "robots": "انڈیکس، پیروی کریں",
-            "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
-        },
-        "openGraph": {
-            "title": "گروڈ پران - زندگی، موت اور بعد کی زندگی کے بارے میں مقدس تعلیمات",
-            "description": "کرما، موت، بعد کی زندگی، آخری رسومات اور روح کے سفر کے بارے میں گروڈ پران کی گہری تعلیمات سیکھیں۔",
-            "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
-            "siteName": "سناتندھرم",
-            "type": "مضمون",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/puranas-garuda.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Garuda Purana Scripture"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "کتاب",
-                    "name": "گروڈ پران",
-                    "description": "گرود پران ہندو مت کے اٹھارہ مہا پورنوں میں سے ایک ہے، جس میں بعد کی زندگی، کرما، آخری رسومات، اور روحانی فلسفے پر بحث کی گئی ہے۔",
-                    "author": {
-                        "@type": "شخص",
-                        "name": "وید ویاس"
-                    },
-                    "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
-                    "inLanguage": "سنسکرت"
-                },
-                {
-                    "@type": "مضمون",
-                    "headline": "گروڈ پران - موت کے بعد روح کا سفر",
-                    "about": [
-                        "گروڈ پران",
-                        "بعد کی زندگی",
-                        "کرما",
-                        "تناسخ",
-                        "سناتن دھرم"
-                    ],
-                    "isPartOf": {
-                        "@type": "ویب سائٹ",
-                        "name": "سناتندھرم",
-                        "url": "https://sanatanadharmam.in"
-                    },
-                    "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
-                }
-            ]
+  "puranas_garuda": {
+    "meta": {
+      "title": "گروڈ پران - بعد کی زندگی اور دھرم پر تعلیمات",
+      "canonical": "https://sanatanadharmam.in/scriptures/puranas/garuda",
+      "description": "گروڈا پران کو دریافت کریں، ایک مقدس ہندو متن جس میں موت کے بعد روح کے سفر، کرما، آخری رسومات، اور سناتن دھرم کی روحانی تعلیمات کو بیان کیا گیا ہے۔",
+      "keywords": [
+        "گروڈ پران",
+        "گروڈ پران بعد کی زندگی",
+        "گروڈ پران کی تعلیمات",
+        "گروڈ پران کرما",
+        "گروڈ پران کی آخری رسومات",
+        "گرود پران روح کا سفر",
+        "گروڈ پرانا ویترانی ندی",
+        "گروڈ پران کا فلسفہ",
+        "گروڈ پران کا اوتار",
+        "ہندو صحیفے گروڈ پران"
+      ],
+      "robots": "انڈیکس، پیروی کریں",
+      "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
+    },
+    "openGraph": {
+      "title": "گروڈ پران - زندگی، موت اور بعد کی زندگی کے بارے میں مقدس تعلیمات",
+      "description": "کرما، موت، بعد کی زندگی، آخری رسومات اور روح کے سفر کے بارے میں گروڈ پران کی گہری تعلیمات سیکھیں۔",
+      "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
+      "siteName": "سناتندھرم",
+      "type": "مضمون",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/puranas-garuda.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Garuda Purana Scripture"
         }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "کتاب",
+          "name": "گروڈ پران",
+          "description": "گرود پران ہندو مت کے اٹھارہ مہا پورنوں میں سے ایک ہے، جس میں بعد کی زندگی، کرما، آخری رسومات، اور روحانی فلسفے پر بحث کی گئی ہے۔",
+          "author": {
+            "@type": "شخص",
+            "name": "وید ویاس"
+          },
+          "url": "https://sanatanadharmam.in/scriptures/puranas/garuda",
+          "inLanguage": "سنسکرت"
+        },
+        {
+          "@type": "مضمون",
+          "headline": "گروڈ پران - موت کے بعد روح کا سفر",
+          "about": ["گروڈ پران", "بعد کی زندگی", "کرما", "تناسخ", "سناتن دھرم"],
+          "isPartOf": {
+            "@type": "ویب سائٹ",
+            "name": "سناتندھرم",
+            "url": "https://sanatanadharmam.in"
+          },
+          "url": "https://sanatanadharmam.in/scriptures/puranas/garuda"
+        }
+      ]
     }
+  }
 }
