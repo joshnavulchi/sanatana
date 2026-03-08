@@ -1,0 +1,1026 @@
+{
+  "temples_destroyed": {
+    "title": "సంఘటన-స్థాయి డాక్యుమెంటేషన్: భారతదేశంలో హిందూ దేవాలయ నష్టం (సాక్ష్యం ఆధారితం)",
+    "meta": {
+      "title": "సంఘటన-స్థాయి డాక్యుమెంటేషన్: భారతదేశంలో హిందూ దేవాలయ నష్టం (సాక్ష్యం ఆధారితం)",
+      "canonical": "https://sanatanadharmam.in/temples-destroyed",
+      "description": "పొందబడిన మూలాల ద్వారా అటువంటి ధృవీకరించబడిన ఎంట్రీలు అందించబడనందున నిర్దిష్ట ఆలయ పేర్లను చేర్చడం సాధ్యం కాదు.",
+      "keywords": [
+        "Hindu temple damage",
+        "India",
+        "archaeological evidence",
+        "contemporary temple attacks",
+        "cultural heritage",
+        "dynastic warfare and temples",
+        "economic plunder and temples",
+        "evidence-based documentation",
+        "historical context",
+        "historical incidents",
+        "historical temple incidents",
+        "multisource verification",
+        "political motives",
+        "primary sources",
+        "religious conflict",
+        "scholarly analysis",
+        "secondary sources",
+        "sectarian violence and temples",
+        "statecraft and temples",
+        "temple damage patterns",
+        "temple desecration",
+        "temple destruction",
+        "temple destruction patterns",
+        "temple incident IDs",
+        "temple incident context",
+        "temple incident deities",
+        "temple incident event types",
+        "temple incident locations",
+        "temple incident motives",
+        "temple incident periods",
+        "temple incident perpetrators",
+        "temple incident sources",
+        "temple incident summaries",
+        "temple incident timelines",
+        "temple incident traditions",
+        "temple incident verification",
+        "temple incident verification status",
+        "temple preservation",
+        "temple protection policies",
+        "temple reconstruction",
+        "verified cases"
+      ],
+      "ogimage": "images/og/temples-destroyed.png",
+      "url": "https://sanatanadharmam.in/temples-destroyed"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "సంస్థ",
+        "contactpoint": {
+          "@type": "కాంటాక్ట్ పాయింట్",
+          "areaserved": "ప్రపంచవ్యాప్తంగా",
+          "availablelanguage": [
+            "العربية",
+            "డ్యూచ్",
+            "ఇంగ్లీష్",
+            "ఎస్పానోల్",
+            "ఫ్రాంకైస్",
+            "హిందీ",
+            "ఎస్",
+            "నేపాలీ",
+            "నెదర్లాండ్స్",
+            "పోర్చుగీస్",
+            "రస్కియ్",
+            "తెలుగు",
+            "అరేడు",
+            "中文 (简体)"
+          ],
+          "contacttype": "కస్టమర్ మద్దతు",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "సనాతనధర్మం.ఇన్ గురించి",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "canonical": "https://sanatanadharmam.in/temples-destroyed",
+    "incidents": [
+      {
+        "alleged_perpetrator_affiliation": "ఘురిద్/ప్రారంభ ఇండో-ముస్లిం రాష్ట్ర సైన్యం",
+        "approx_date": "1192 CE",
+        "context_motive": [
+          "రాజవంశ_యుద్ధం",
+          "రాజకీయ_సంకేతం"
+        ],
+        "deity": "శివ (ప్రాంతీయ ప్రాబల్యం నుండి ఊహించబడింది)",
+        "event_type": [
+          "అపవిత్రం"
+        ],
+        "id": "ఈటన్_కేస్_01_ఢిల్లీ_సుల్తానేట్_1192",
+        "location": {
+          "city_or_district": "ఉత్తర భారతదేశం",
+          "country": "భారతదేశం",
+          "state_province": "ఢిల్లీ-హర్యానా-రాజస్థాన్ బెల్ట్"
+        },
+        "period": "ప్రారంభ ఢిల్లీ సుల్తానేట్",
+        "sources": [
+          {
+            "title": "రిచర్డ్ ఎమ్. ఈటన్ - పూర్వ-ఆధునిక భారతదేశంలో ఆలయ అపవిత్రత",
+            "type": "విద్యాసంబంధమైన",
+            "url": "https://franpritchett.com/00islamlinks/txt_eaton_temples1.pdf"
+          }
+        ],
+        "summary": "1192 CEలో రాజ్‌పుత్ పాలకుల ఓటమి తర్వాత, ఓడిపోయిన రాజవంశంతో సంబంధం ఉన్న కొన్ని రాజకీయంగా ముఖ్యమైన దేవాలయాలు విజయానికి చిహ్నాలుగా అపవిత్రం చేయబడ్డాయి, ఇది ముందుగా ఉన్న భారతీయ స్టేట్‌క్రాఫ్ట్ నిబంధనలకు అనుగుణంగా ఉంది.",
+        "temple_name": "ఓడిపోయిన రాజ్‌పుత్ రాజకీయాలకు సంబంధించిన ఆలయం (మూలాల్లో పేరు అందించబడలేదు)",
+        "timeline": [
+          "1192: రాజపుత్ర సమాఖ్య ఓటమి",
+          "పోస్ట్-1192: రాజకీయ-చిహ్నమైన అపవిత్రం"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "ధృవీకరించబడిన_మల్టీసోర్స్"
+      },
+      {
+        "alleged_perpetrator_affiliation": "తుగ్లక్ పరిపాలన అధికారులు",
+        "approx_date": "1326 CE",
+        "context_motive": [
+          "రాష్ట్ర_నిర్వహణ"
+        ],
+        "deity": "శివుడు",
+        "event_type": [
+          "మరమ్మత్తు",
+          "రాష్ట్ర_జోక్యం"
+        ],
+        "id": "ఈటన్_కేస్_02_తుగ్లుక్_డెక్కన్_1326",
+        "location": {
+          "city_or_district": "కల్యాణ",
+          "country": "భారతదేశం",
+          "state_province": "బీదర్ (దక్కన్)"
+        },
+        "period": "తుగ్లక్ సామ్రాజ్యం",
+        "sources": [
+          {
+            "title": "ఆలయ అపవిత్రత మరియు ఇండో-ముస్లిం రాష్ట్రాలు (ఈటన్)",
+            "type": "విద్యాసంబంధమైన",
+            "url": "https://docslib.org/doc/2884327/temple-desecration-in-pre-modern-india"
+          }
+        ],
+        "summary": "ఒక సంస్కృత శాసనం (ఈటన్ యొక్క విశ్లేషణలో ఉదహరించబడింది) 1326 CEలో, సుల్తాన్ ముహమ్మద్ బిన్ తుగ్లక్ కళ్యాణలోని ఒక శివాలయాన్ని మరమ్మత్తు చేయడానికి ముస్లిం అధికారులను నియమించాడు - ఇది దుప్పటి మత విధ్వంసం యొక్క వాదనలకు విరుద్ధంగా ఉంది.",
+        "temple_name": "కళ్యాణంలోని శివాలయం (శోధన ఫలితాల్లో ఖచ్చితమైన నిర్మాణ వివరాలు చేర్చబడలేదు)",
+        "timeline": [
+          "1326: రాష్ట్ర అధికారం కింద ఆలయ మరమ్మత్తు ఆదేశించబడింది"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "ధృవీకరించబడిన_మల్టీసోర్స్"
+      },
+      {
+        "alleged_perpetrator_affiliation": "కాశ్మీర్ సుల్తానేట్",
+        "approx_date": "1355–1373 CE",
+        "context_motive": [
+          "స్టేట్ క్రాఫ్ట్",
+          "మత_బహుత్వవాదం"
+        ],
+        "deity": "వివిధ",
+        "event_type": [
+          "రక్షణ"
+        ],
+        "id": "ఈటన్_కేస్_03_కాశ్మీర్_1355_1373",
+        "location": {
+          "city_or_district": "కాశ్మీర్ లోయ",
+          "country": "భారతదేశం",
+          "state_province": "కాశ్మీర్"
+        },
+        "period": "షిహాబ్ అల్-దిన్ యొక్క కాశ్మీర్ సుల్తానేట్",
+        "sources": [
+          {
+            "title": "ఆలయ అపవిత్రత మరియు ఇండో-ముస్లిం రాష్ట్రాలు (ఈటన్)",
+            "type": "విద్యాసంబంధమైన",
+            "url": "https://vdoc.pub/documents/temple-desecration-and-muslim-states-in-medieval-india-57n804cku1p0"
+          }
+        ],
+        "summary": "సుల్తాన్ షిహాబ్ అల్-దిన్ ఆదాయం కోసం హిందూ/బౌద్ధ దేవాలయాల చిత్రాలను కరిగించమని సూచించినందుకు మంత్రులను మందలించారు, సాంప్రదాయ హిందూ రాజులను ఆలయ రక్షణకు ఉదాహరణలుగా ఉదహరించారు, ఇండో-ముస్లిం పాలకులందరూ విధ్వంసాన్ని అనుసరించలేదని చూపారు.",
+        "temple_name": "బహుళ హిందూ/బౌద్ధ దేవాలయాలు (పేర్లు పేర్కొనబడలేదు)",
+        "timeline": [
+          "1355–1373: డాక్యుమెంటెడ్ టెంపుల్ ప్రొటెక్షన్ పాలసీ"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "ధృవీకరించబడిన_మల్టీసోర్స్"
+      },
+      {
+        "alleged_perpetrator_affiliation": "ప్రాంతాన్ని జయించే సైన్యాలు",
+        "approx_date": "14వ శతాబ్దం",
+        "context_motive": [
+          "రాజవంశ_యుద్ధం",
+          "రాజకీయ_సంకేతం"
+        ],
+        "deity": "శివుడు లేదా ప్రాంతీయ దేవతలు",
+        "event_type": [
+          "అపవిత్రం"
+        ],
+        "id": "ఈటన్_కేస్_04_డెక్కన్_స్టేట్ బిల్డింగ్_14వ_శతాబ్దం",
+        "location": {
+          "city_or_district": "ఉత్తర దక్కన్",
+          "country": "భారతదేశం",
+          "state_province": "మహారాష్ట్ర-కర్ణాటక ప్రాంతం"
+        },
+        "period": "తొలి బహమనీ సుల్తానేట్ & తుగ్లక్ ప్రచారాలు",
+        "sources": [
+          {
+            "title": "ఈటన్ - పూర్వ-ఆధునిక భారతదేశంలో ఆలయ అపవిత్రత",
+            "type": "విద్యాసంబంధమైన",
+            "url": "https://franpritchett.com/00islamlinks/txt_eaton_temples1.pdf"
+          }
+        ],
+        "summary": "14వ-శతాబ్దపు దక్కన్‌లో, పాలక రాజవంశాలకు సంబంధించిన దేవాలయాలు (యాదృచ్ఛిక సమాజ దేవాలయాలు కాదు) సైనిక విజయాల తర్వాత, పాత భారతీయ రాజకీయ సంప్రదాయాలకు అనుగుణంగా ఎంపిక చేయబడినట్లు ఈటన్ పేర్కొన్నాడు.",
+        "temple_name": "ప్రత్యర్థి రాజ్యాల రాజవంశ దేవాలయాలు (పేర్కొనబడలేదు)",
+        "timeline": [
+          "1300లు: రాజవంశ యుద్ధం",
+          "విజయానంతర సంకేత అపవిత్రతలు"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "పాక్షికంగా_ధృవీకరించబడింది"
+      },
+      {
+        "alleged_perpetrator_affiliation": "మొఘల్ సామ్రాజ్య పరిపాలన",
+        "approx_date": "16-17వ శతాబ్దం",
+        "context_motive": [
+          "స్టేట్ క్రాఫ్ట్",
+          "రాబడి_విధానం"
+        ],
+        "deity": "శివ/వివిధ",
+        "event_type": [
+          "రక్షణ",
+          "పోషణ"
+        ],
+        "id": "ఈటన్_కేస్_05_స్టేట్‌క్రాఫ్ట్_ప్రొటెక్షన్_ఎర్లీ_ఆధునిక",
+        "location": {
+          "city_or_district": "బహుళ",
+          "country": "భారతదేశం",
+          "state_province": "భారతదేశం"
+        },
+        "period": "మొఘల్ సామ్రాజ్యం",
+        "sources": [
+          {
+            "title": "ఆలయ అపవిత్రత మరియు ఇండో-ముస్లిం రాష్ట్రాలు (ఈటన్)",
+            "type": "విద్యాసంబంధమైన",
+            "url": "https://docslib.org/doc/2884327/temple-desecration-in-pre-modern-india"
+          }
+        ],
+        "summary": "ఈటన్ యొక్క సంశ్లేషణ అనేక హిందూ దేవాలయాలు మొఘల్ పాలనలో గ్రాంట్లు, ఎండోమెంట్లు మరియు చట్టపరమైన రక్షణను పొందాయని చూపిస్తుంది, ఏకరీతి మత విధ్వంసం గురించి తరువాతి కాలంలోని రాజకీయ కథనాలకు విరుద్ధంగా ఉంది.",
+        "temple_name": "మొఘల్ భారతదేశంలోని వివిధ దేవాలయాలు (పేర్లు పేర్కొనబడలేదు)",
+        "timeline": [
+          "1500లు–1600లు: డాక్యుమెంటెడ్ రెవెన్యూ గ్రాంట్లు & రక్షణ డిక్రీలు"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "ధృవీకరించబడిన_మల్టీసోర్స్"
+      },
+      {
+        "alleged_perpetrator_affiliation": "గజ్నీకి చెందిన మహమూద్ నేతృత్వంలోని గజ్నవిద్ దళాలు",
+        "approx_date": "1026-01-08",
+        "context_motive": [
+          "రాజవంశ_యుద్ధం",
+          "ఆర్థిక_దోపిడీ",
+          "రాజకీయ_సంకేతం"
+        ],
+        "deity": "శివుడు",
+        "event_type": [
+          "సాక్",
+          "దోపిడీ",
+          "కూల్చివేత"
+        ],
+        "id": "సోమనాథ్_1026_ఘజనీ",
+        "location": {
+          "city_or_district": "ప్రభాస్ పటాన్ (వెరావల్)",
+          "country": "భారతదేశం",
+          "state_province": "గుజరాత్"
+        },
+        "period": "మధ్యయుగం",
+        "sources": [
+          {
+            "title": "జిల్లా గిర్ సోమనాథ్-చరిత్ర (గుజరాత్ ప్రభుత్వం)",
+            "type": "ప్రభుత్వం",
+            "url": "https://girsomnath.nic.in/about-district/history/"
+          },
+          {
+            "title": "సోమనాథ్ తొలగింపు (వికీపీడియా అవలోకనం)",
+            "type": "వార్తలు/విజ్ఞాన సర్వస్వం",
+            "url": "https://en.wikipedia.org/wiki/Sack_of_Somnath"
+          }
+        ],
+        "summary": "గజ్నవిద్ సైన్యం సోమనాథ్ ఆలయాన్ని కొల్లగొట్టింది; తరువాత పునర్నిర్మాణాలు నమోదు చేయబడ్డాయి.",
+        "temple_name": "సోమనాథ్ జ్యోతిర్లింగ",
+        "timeline": [
+          "1025–1026: గజ్నీ ప్రచారం",
+          "12వ, 14వ, 15వ శతాబ్దంలో దశలను పునర్నిర్మించండి; ఆధునిక పవిత్రీకరణ 1951"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "ధృవీకరించబడిన_మల్టీసోర్స్"
+      },
+      {
+        "alleged_perpetrator_affiliation": "ఢిల్లీ సుల్తానేట్ (అల్లావుద్దీన్ ఖాల్జీ ఆధ్వర్యంలో ఉలుగ్ ఖాన్)",
+        "approx_date": "1299",
+        "context_motive": [
+          "రాజవంశ_యుద్ధం",
+          "ఆర్థిక_దోపిడీ"
+        ],
+        "deity": "శివుడు",
+        "event_type": [
+          "సాక్"
+        ],
+        "id": "సోమనాథ్_1299_ఖల్జీ",
+        "location": {
+          "city_or_district": "ప్రభాస్ పటాన్ (వెరావల్)",
+          "country": "భారతదేశం",
+          "state_province": "గుజరాత్"
+        },
+        "period": "ఢిల్లీ సుల్తానేట్",
+        "sources": [
+          {
+            "title": "జిల్లా గిర్ సోమనాథ్-చరిత్ర",
+            "type": "ప్రభుత్వం",
+            "url": "https://girsomnath.nic.in/about-district/history/"
+          }
+        ],
+        "summary": "1299లో ఢిల్లీ సుల్తానేట్ ప్రచారంలో సోమనాథ్ తొలగించబడ్డాడు; పునర్నిర్మాణం అనుసరించింది.",
+        "temple_name": "సోమనాథ్ జ్యోతిర్లింగ",
+        "timeline": [
+          "1299: ఉలుగ్ ఖాన్ ఆధ్వర్యంలో తొలగించబడింది",
+          "1308+: చూడాసమ రాజవంశంచే స్థానిక పునర్నిర్మాణాలు"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "ధృవీకరించబడిన_మల్టీసోర్స్"
+      },
+      {
+        "alleged_perpetrator_affiliation": "మొఘల్ ఇంపీరియల్ ఆర్డర్ (ఔరంగజేబు)",
+        "approx_date": "1669",
+        "context_motive": [
+          "రాజకీయ_సంకేతం",
+          "రాష్ట్ర_విధానం"
+        ],
+        "deity": "శివుడు",
+        "event_type": [
+          "కూల్చివేత",
+          "మార్పిడి"
+        ],
+        "id": "కాశీ_విశ్వనాథ్_1669",
+        "location": {
+          "city_or_district": "వారణాసి",
+          "country": "భారతదేశం",
+          "state_province": "ఉత్తర ప్రదేశ్"
+        },
+        "period": "మొఘల్",
+        "sources": [
+          {
+            "title": "కాశీ విశ్వనాథ దేవాలయం (అవలోకనం)",
+            "type": "వార్తలు/విజ్ఞాన సర్వస్వం",
+            "url": "https://en.wikipedia.org/wiki/Kashi_Vishwanath_Temple"
+          },
+          {
+            "title": "ఇండియన్ ఎక్స్‌ప్రెస్ వివరణకర్త (ASI & పర్షియన్ మూలాలు)",
+            "type": "వార్తలు",
+            "url": "https://www.hinduismtoday.com/hpi/2024/01/30/the-temple-that-aurangzeb-razed-evidence-from-history/"
+          }
+        ],
+        "summary": "ప్రాథమిక పెర్షియన్ క్రానికల్ మరియు ASI-సూచించిన అధ్యయనాలు 1669 కూల్చివేతను ధృవీకరించాయి; జ్ఞాన్వాపి మసీదు నిర్మించబడింది; ప్రస్తుత KV ఆలయం 1780లో పునర్నిర్మించబడింది.",
+        "temple_name": "కాశీ విశ్వనాథ్ (విశ్వేశ్వర) / జ్ఞాన్వాపి సైట్",
+        "timeline": [
+          "1669: కూల్చివేత ఆర్డర్",
+          "1670లు: మసీదు పెంచబడింది",
+          "1780: అహల్యాబాయి హోల్కర్ చేత ప్రస్తుత ఆలయం"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "ధృవీకరించబడిన_మల్టీసోర్స్"
+      },
+      {
+        "alleged_perpetrator_affiliation": "మొఘల్ ఇంపీరియల్ ఆర్డర్ (ఔరంగజేబు)",
+        "approx_date": "1670",
+        "context_motive": [
+          "రాజకీయ_సంకేతం",
+          "రాష్ట్ర_విధానం"
+        ],
+        "deity": "కృష్ణ (కేశవదేవ్)",
+        "event_type": [
+          "కూల్చివేత",
+          "మార్పిడి"
+        ],
+        "id": "మధుర_కేశవదేవ్_1670",
+        "location": {
+          "city_or_district": "మధుర",
+          "country": "భారతదేశం",
+          "state_province": "ఉత్తర ప్రదేశ్"
+        },
+        "period": "మొఘల్",
+        "sources": [
+          {
+            "title": "వ్యాపార ప్రమాణం (ASI RTI-గెజెట్ 1920)",
+            "type": "వార్తలు",
+            "url": "https://www.business-standard.com/india-news/asi-reveals-records-on-demolition-of-mathura-s-keshavdev-temple-rti-124020600548_1.html"
+          },
+          {
+            "title": "ఎకనామిక్ టైమ్స్ (RTI కవరేజ్)",
+            "type": "వార్తలు",
+            "url": "https://economictimes.indiatimes.com/news/india/aurangzeb-demolished-keshavdev-temple-krishna-janmabhoomi-site-to-built-mosque-in-mathura-says-asi-in-rti-reply/articleshow/107447699.cms"
+          }
+        ],
+        "summary": "ASI-ఉదహరించబడిన 1920 గెజిట్ (RTI ద్వారా వెల్లడి చేయబడింది): మాజీ కేశవదేవ్ ఆలయం కూల్చివేయబడింది; ఔరంగజేబు మసీదు కోసం ఉపయోగించబడిన స్థలం.",
+        "temple_name": "కేశవదేవ్ ఆలయం / షాహి ఈద్గా కాంప్లెక్స్",
+        "timeline": [
+          "1670: కూల్చివేత & మసీదు నిర్మాణం (ప్రతి చారిత్రక రికార్డు)"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "ధృవీకరించబడిన_మల్టీసోర్స్"
+      },
+      {
+        "alleged_perpetrator_affiliation": "దక్కన్ సుల్తానేట్ కూటమి",
+        "approx_date": "1565",
+        "context_motive": [
+          "రాజవంశ_యుద్ధం",
+          "రాజకీయ_సంకేతం",
+          "ఆర్థిక_దోపిడీ"
+        ],
+        "deity": "వివిధ",
+        "event_type": [
+          "సాక్",
+          "దోపిడీ",
+          "విడిచిపెట్టడం"
+        ],
+        "id": "హంపి_1565",
+        "location": {
+          "city_or_district": "హంపి/విజయనగర",
+          "country": "భారతదేశం",
+          "state_province": "కర్ణాటక"
+        },
+        "period": "విజయనగరం/దక్కన్ సుల్తానేట్స్",
+        "sources": [
+          {
+            "title": "యునెస్కో - హంపి వద్ద ఉన్న స్మారక చిహ్నాల సమూహం",
+            "type": "IO",
+            "url": "https://whc.unesco.org/en/list/241"
+          },
+          {
+            "title": "హంపి (ఎన్సైక్లోపెడిక్ అవలోకనం)",
+            "type": "వార్తలు/విజ్ఞాన సర్వస్వం",
+            "url": "https://en.wikipedia.org/wiki/Hampi"
+          }
+        ],
+        "summary": "UNESCO: నగరం 1565లో స్వాధీనం చేసుకుంది మరియు ఆరు నెలల పాటు దోచుకుంది; తర్వాత విడిచిపెట్టారు.",
+        "temple_name": "హంపి వద్ద స్మారక కట్టడాలు (బహుళ దేవాలయాలు)",
+        "timeline": [
+          "1565: కాంక్వెస్ట్ & సాక్",
+          "తరువాత శతాబ్దాలు: ASI పరిరక్షణ/UNESCO శాసనం (1986)"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "ధృవీకరించబడిన_మల్టీసోర్స్"
+      },
+      {
+        "alleged_perpetrator_affiliation": "కాశ్మీర్ సుల్తానేట్ (సికందర్ షా మిరీకి ఆపాదించబడింది)",
+        "approx_date": "సి. 1390–1413 (విధ్వంసం దశ)",
+        "context_motive": [
+          "రాజకీయ_సంకేతం",
+          "రాష్ట్ర_విధానం",
+          "ఇతర_లేదా_వివాదం"
+        ],
+        "deity": "సూర్య (మార్తాండ్)",
+        "event_type": [
+          "కూల్చివేత",
+          "నాశనము"
+        ],
+        "id": "మార్తాండ్_సూర్య దేవాలయం_15c",
+        "location": {
+          "city_or_district": "మట్టన్ (అనంతనాగ్)",
+          "country": "భారతదేశం",
+          "state_province": "జమ్మూ & కాశ్మీర్"
+        },
+        "period": "షా మీర్ సుల్తానేట్",
+        "sources": [
+          {
+            "title": "మార్తాండ్ సూర్య దేవాలయం (అవలోకనం)",
+            "type": "వార్తలు/విజ్ఞాన సర్వస్వం",
+            "url": "https://en.wikipedia.org/wiki/Martand_Sun_Temple"
+          },
+          {
+            "title": "హెరిటేజ్ జర్నల్ కథనం (2020)",
+            "type": "విద్యాసంబంధమైన",
+            "url": "https://www.heritageuniversityofkerala.com/JournalPDF/Volume8.2/60.pdf"
+          }
+        ],
+        "summary": "ఎనిమిదవ శతాబ్దపు దేవాలయం తరువాత నాశనం చేయబడింది; పాండిత్య సాహిత్యం రాజకీయ/మతపరమైన సందర్భాలు మరియు మూలాలపై హెచ్చరికలను సూచిస్తుంది.",
+        "temple_name": "మార్తాండ్ సూర్య దేవాలయం",
+        "timeline": [
+          "8వ సి.: నిర్మాణం",
+          "సి. 15వ సి.: విధ్వంసం",
+          "ఆధునిక: ASI-రక్షిత శిథిలాలు"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "ధృవీకరించబడిన_మల్టీసోర్స్"
+      },
+      {
+        "alleged_perpetrator_affiliation": "కాలాపహాడ్ అని పిలువబడే బెంగాల్ సుల్తానేట్ జనరల్",
+        "approx_date": "1568",
+        "context_motive": [
+          "రాజవంశ_యుద్ధం",
+          "రాజకీయ_సంకేతం"
+        ],
+        "deity": "జగన్నాథ్ (విష్ణు అవతార సంప్రదాయం)",
+        "event_type": [
+          "అపవిత్రం",
+          "దోపిడీ"
+        ],
+        "id": "పూరి_జగన్నాథ్_1568",
+        "location": {
+          "city_or_district": "పూరి",
+          "country": "భారతదేశం",
+          "state_province": "ఒడిశా"
+        },
+        "period": "ఆఫ్ఘన్ బెంగాల్-ఒడిశా వివాదం",
+        "sources": [
+          {
+            "title": "ఒరిస్సా సమీక్ష (ప్రభుత్వం)-ఆలయ నిర్వహణ & చరిత్ర",
+            "type": "ప్రభుత్వం",
+            "url": "https://magazines.odisha.gov.in/Orissareview/2011/july/engpdf/5-8.pdf"
+          },
+          {
+            "title": "కాలాపహార్ (అవలోకనం)",
+            "type": "వార్తలు/విజ్ఞాన సర్వస్వం",
+            "url": "https://en.wikipedia.org/wiki/Kalapahar"
+          }
+        ],
+        "summary": "రాష్ట్ర సమీక్ష మరియు క్రానికల్స్ అపవిత్రతను తిరిగి లెక్కించడం; పునఃస్థాపనకు ముందు పూజారులు దేవతా సారాన్ని కాపాడారు.",
+        "temple_name": "శ్రీ జగన్నాథ దేవాలయం",
+        "timeline": [
+          "1568: దండయాత్ర/ అపవిత్రం",
+          "1575: రామచంద్ర దేవ I ద్వారా పునఃస్థాపన (ప్రతి రాష్ట్ర చరిత్ర)"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "ధృవీకరించబడిన_మల్టీసోర్స్"
+      },
+      {
+        "alleged_perpetrator_affiliation": "మాలిక్ కాఫుర్ (ఢిల్లీ సుల్తానేట్)",
+        "approx_date": "1311-02",
+        "context_motive": [
+          "ఆర్థిక_దోపిడీ",
+          "రాజవంశ_యుద్ధం"
+        ],
+        "deity": "శివుడు",
+        "event_type": [
+          "సాక్",
+          "నివాళి",
+          "నష్టం"
+        ],
+        "id": "హళేబీడు_1311",
+        "location": {
+          "city_or_district": "హళేబీడు (ద్వారసముద్రం)",
+          "country": "భారతదేశం",
+          "state_province": "కర్ణాటక"
+        },
+        "period": "ఢిల్లీ సుల్తానేట్",
+        "sources": [
+          {
+            "title": "ద్వారసముద్రం ముట్టడి",
+            "type": "వార్తలు/విజ్ఞాన సర్వస్వం",
+            "url": "https://en.wikipedia.org/wiki/Siege_of_Dwarasamudra"
+          }
+        ],
+        "summary": "నివాళి వెలికితీతతో ప్రచారం హోయసల రాజధానిని ఆక్రమించింది; తరువాతి కథనాలు ఈ ప్రాంతంలోని దేవాలయాలకు జరిగిన నష్టాన్ని సూచిస్తాయి.",
+        "temple_name": "హోయసలేశ్వర దేవాలయం (హళేబీడు)",
+        "timeline": [
+          "1311: ముట్టడి మరియు లొంగిపోవడం",
+          "అనంతర పరిణామాలు: నివాళి, నష్టాలు, ప్రాంతీయ నష్టం ఖాతాలు"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "పాక్షికంగా_ధృవీకరించబడింది"
+      },
+      {
+        "alleged_perpetrator_affiliation": "పోర్చుగీస్ కలోనియల్ అధికారులు (ఎస్టాడో డా ఆండియా), మతపరమైన చర్యలు",
+        "approx_date": "1540-1600లు",
+        "context_motive": [
+          "రాష్ట్ర_విధానం"
+        ],
+        "deity": "వివిధ",
+        "event_type": [
+          "కూల్చివేత",
+          "జప్తు",
+          "పునరావాసం"
+        ],
+        "id": "goa_old_conquests_16c",
+        "location": {
+          "city_or_district": "తిస్వాడి/బర్డెజ్/సాల్సెట్ (పాత గోవా); తరువాత పోండా",
+          "country": "భారతదేశం",
+          "state_province": "గోవా"
+        },
+        "period": "పోర్చుగీస్ వలసరాజ్యం",
+        "sources": [
+          {
+            "title": "ఆధునిక ఆసియన్ స్టడీస్-ఫ్లైట్ ఆఫ్ ది డీటీస్ (ఆక్సెల్‌రోడ్ & ఫ్యూర్చ్)",
+            "type": "విద్యాసంబంధమైన",
+            "url": "https://www.cambridge.org/core/journals/modern-asian-studies/article/abs/flight-of-the-deities-hindu-resistance-in-portuguese-goa/FC375FC6905C07727E26A1C9F2659322"
+          },
+          {
+            "title": "JSTOR స్థిరమైన ప్రవేశం",
+            "type": "విద్యాసంబంధమైన",
+            "url": "https://www.jstor.org/stable/313013"
+          }
+        ],
+        "summary": "పీర్-రివ్యూడ్ వర్క్ డాక్యుమెంట్లు ఆలయ విధ్వంసం మరియు 'దేవుళ్ల విమాన' లోతట్టు; పోండాలో అనేక ప్రధాన పుణ్యక్షేత్రాలు తిరిగి స్థాపించబడ్డాయి.",
+        "temple_name": "బహుళ (ఉదా., మంగేషి/శాంతదుర్గ పునరావాసాలు)",
+        "timeline": [
+          "మధ్య-16వ శ.: విధ్వంసాలు/బెదిరింపులు",
+          "16-17వ సి.: భూభాగంలో పునరావాసాలు మరియు పునర్విభజనలు"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "ధృవీకరించబడిన_మల్టీసోర్స్"
+      },
+      {
+        "alleged_perpetrator_affiliation": "స్థానిక గుంపు; రాజకీయ/మత ఆందోళనకారులు",
+        "approx_date": "2020-12-30",
+        "context_motive": [
+          "సెక్టారియన్_టార్గెటింగ్"
+        ],
+        "deity": "కృష్ణ/పరమహంస్ జీ (సమాధి)",
+        "event_type": [
+          "దహనం",
+          "కూల్చివేత",
+          "మూక_హింస"
+        ],
+        "id": "పాకిస్తాన్_కరక్_2020",
+        "location": {
+          "city_or_district": "తేరి, కరక్",
+          "country": "పాకిస్తాన్",
+          "state_province": "ఖైబర్ పఖ్తున్ఖ్వా"
+        },
+        "period": "సమకాలీన",
+        "sources": [
+          {
+            "title": "అల్ జజీరా - పునర్నిర్మాణానికి SC ఆదేశాలు",
+            "type": "వార్తలు",
+            "url": "https://www.aljazeera.com/news/2021/1/6/pakistani-top-court-orders-rebuilding-of-destroyed-hindu-temple"
+          },
+          {
+            "title": "DW-మాబ్ టార్చ్ దేవాలయం",
+            "type": "వార్తలు",
+            "url": "https://www.dw.com/en/pakistan-mob-torches-hindu-temple/a-56101422"
+          }
+        ],
+        "summary": "ఆలయంపై దాడి చేసి తగులబెట్టారు; పాకిస్తాన్ సుప్రీం కోర్ట్ పునర్నిర్మాణాన్ని ఆదేశించింది; అరెస్టులు అనుసరించాయి.",
+        "temple_name": "శ్రీ పరమహంస్ జీ మహారాజ్ సమాధి & కృష్ణ ద్వార ఆలయం",
+        "timeline": [
+          "30 డిసెంబర్ 2020: దాడి",
+          "జనవరి 2021: పునర్నిర్మాణానికి SC ఆదేశాలు; అరెస్టులు/పోలీసు సస్పెన్షన్‌లు"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "ధృవీకరించబడిన_మల్టీసోర్స్"
+      },
+      {
+        "alleged_perpetrator_affiliation": "మత అశాంతిలో గుంపులు",
+        "approx_date": "1992-12",
+        "context_motive": [
+          "ప్రతీకారం",
+          "సెక్టారియన్_టార్గెటింగ్"
+        ],
+        "deity": "వివిధ",
+        "event_type": [
+          "విధ్వంసం",
+          "దహనం",
+          "కూల్చివేత"
+        ],
+        "id": "పాకిస్తాన్_అయోధ్య తర్వాత_1992",
+        "location": {
+          "country": "పాకిస్తాన్"
+        },
+        "period": "సమకాలీన",
+        "sources": [
+          {
+            "title": "ఆసియా సర్వే (JSTOR)-అయోధ్యకు ఎదురుదెబ్బ",
+            "type": "విద్యాసంబంధమైన",
+            "url": "https://www.jstor.org/stable/2645358"
+          },
+          {
+            "title": "MAR క్రోనాలజీ-పాకిస్తాన్‌లోని హిందువులు",
+            "type": "విద్యాసంబంధమైన",
+            "url": "http://mar.umd.edu/chronology.asp?groupId=77004"
+          }
+        ],
+        "summary": "బాబ్రీ కూల్చివేత తర్వాత దేవాలయాలపై విస్తృతంగా దాడులు జరిగినట్లు పండితుల మరియు పత్రికా నివేదికలు నమోదు చేశాయి.",
+        "temple_name": "బహుళ హిందూ దేవాలయాలు (దేశవ్యాప్తంగా)",
+        "timeline": [
+          "డిసెంబరు 1992: నగరాల్లో దాడులు నమోదయ్యాయి; అరెస్టులు/మూసివేతలు నివేదించబడ్డాయి"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "ధృవీకరించబడిన_మల్టీసోర్స్"
+      },
+      {
+        "alleged_perpetrator_affiliation": "వైరల్ రూమర్‌పై గుంపులు స్పందిస్తున్నారు",
+        "approx_date": "2021-10",
+        "context_motive": [
+          "సెక్టారియన్_టార్గెటింగ్",
+          "సోషల్_మీడియా_పుకారు"
+        ],
+        "deity": "దుర్గ/అనుబంధ దేవతలు",
+        "event_type": [
+          "విధ్వంసం",
+          "దహనం",
+          "అల్లర్లు"
+        ],
+        "id": "బంగ్లాదేశ్_దుర్గా_పూజ_2021",
+        "location": {
+          "country": "బంగ్లాదేశ్"
+        },
+        "period": "సమకాలీన",
+        "sources": [
+          {
+            "title": "హ్యూమన్ రైట్స్ వాచ్-హిందూ పండుగపై ఘోరమైన దాడులు",
+            "type": "NGO",
+            "url": "https://www.hrw.org/news/2021/10/21/bangladesh-deadly-attacks-hindu-festival"
+          },
+          {
+            "title": "ఢాకా ట్రిబ్యూన్-హింసపై చుట్టుముట్టింది",
+            "type": "వార్తలు",
+            "url": "https://www.dhakatribune.com/bangladesh/315597/durga-puja-ends-amid-tension-violence-across-the"
+          }
+        ],
+        "summary": "HRW మరియు జాతీయ అవుట్‌లెట్‌లు ధ్వంసం చేయబడిన దేవాలయాలు/మండపాలు, మరణాలు మరియు 450+ అరెస్టులను నివేదించాయి.",
+        "temple_name": "బహుళ దేవాలయాలు/మండపాలు (దేశవ్యాప్తంగా)",
+        "timeline": [
+          "13–19 అక్టోబర్ 2021: జిల్లాల అంతటా సంఘటనలు; పోలీసు/పారామిలిటరీ మోహరింపులు; అరెస్టులు"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "ధృవీకరించబడిన_మల్టీసోర్స్"
+      },
+      {
+        "alleged_perpetrator_affiliation": "రాజకీయ అశాంతి మధ్య తీవ్రవాద మూకలు",
+        "approx_date": "2013-02 నుండి 2013-06 వరకు",
+        "context_motive": [
+          "రాజకీయ_అశాంతి",
+          "సెక్టారియన్_టార్గెటింగ్"
+        ],
+        "deity": "వివిధ",
+        "event_type": [
+          "విధ్వంసం",
+          "దహనం",
+          "దాడి"
+        ],
+        "id": "బంగ్లాదేశ్_2013_హిందూ_హింస వ్యతిరేకత",
+        "location": {
+          "country": "బంగ్లాదేశ్"
+        },
+        "period": "సమకాలీన",
+        "sources": [
+          {
+            "title": "U.S. స్టేట్ డిపార్ట్‌మెంట్-బంగ్లాదేశ్ 2013 మానవ హక్కుల నివేదిక",
+            "type": "ప్రభుత్వం",
+            "url": "https://2009-2017.state.gov/documents/organization/220600.pdf"
+          },
+          {
+            "title": "అమ్నెస్టీ ఇంటర్నేషనల్—వార్షిక నివేదిక 2013 (బంగ్లాదేశ్)",
+            "type": "NGO",
+            "url": "https://www.refworld.org/reference/annualreport/amnesty/2013/en/56780"
+          }
+        ],
+        "summary": "అంతర్జాతీయ హక్కుల నివేదికలు 2013 అల్లకల్లోలం మధ్య హిందూ మైనారిటీలు మరియు ప్రార్థనా స్థలాలపై విస్తృతంగా దాడులు జరిగాయి.",
+        "temple_name": "బహుళ దేవాలయాలు (జిల్లాల అంతటా)",
+        "timeline": [
+          "ఫిబ్రవరి–జూన్ 2013: పలు జిల్లాలు ప్రభావితమయ్యాయి; అధికారిక/NGO డాక్యుమెంటేషన్ సేకరించబడింది"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "పాక్షికంగా_ధృవీకరించబడింది"
+      },
+      {
+        "alleged_perpetrator_affiliation": "అద్దె ఆందోళనకారులు; పునరావాస వివాదం చుట్టూ ఉన్న ప్రత్యర్థి సమూహాలు (ప్రభుత్వ ప్రకటనలు/కేసుల ప్రకారం)",
+        "approx_date": "2018-11-26",
+        "context_motive": [
+          "ఆస్తి_వివాదం",
+          "కమ్యూనల్_టెన్షన్"
+        ],
+        "deity": "మరియమ్మన్ (శక్తి)",
+        "event_type": [
+          "అల్లర్లు",
+          "దహనం",
+          "దాడి"
+        ],
+        "id": "మలేషియా_సీఫీల్డ్_2018",
+        "location": {
+          "city_or_district": "USJ 25, సుబాంగ్ జయ",
+          "country": "మలేషియా",
+          "state_province": "సెలంగర్"
+        },
+        "period": "సమకాలీన",
+        "sources": [
+          {
+            "title": "శ్రీ మహా మరియమ్మన్ ఆలయంలో కోలాహలం",
+            "type": "వార్తలు/విజ్ఞాన సర్వస్వం",
+            "url": "https://en.wikipedia.org/wiki/Sri_Maha_Mariamman_Temple_riot"
+          },
+          {
+            "title": "మలేయ్ మెయిల్-చరిత్ర/చట్టపరమైన సందర్భం",
+            "type": "వార్తలు",
+            "url": "https://www.malaymail.com/news/malaysia/2018/11/29/the-subang-hindu-temple-its-history-and-legal-dramas/1698165"
+          }
+        ],
+        "summary": "ఆలయ తరలింపు చుట్టూ రెండు రోజుల అల్లర్లు; ఒక అగ్నిమాపక సిబ్బంది మరణించారు; 100+ అరెస్టులు; సుదీర్ఘ కోర్టు ప్రక్రియ.",
+        "temple_name": "శ్రీ మహా మరియమ్మన్ దేవస్థానం (సీఫీల్డ్)",
+        "timeline": [
+          "26–27 నవంబర్ 2018: అల్లర్లు",
+          "2019–2023: విచారణ/విచారణ, తర్వాత ఒక కేసులో నిర్దోషిగా విడుదల"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "ధృవీకరించబడిన_మల్టీసోర్స్"
+      },
+      {
+        "alleged_perpetrator_affiliation": "తెలియదు (పోలీసు విచారణ)",
+        "approx_date": "2023-05",
+        "context_motive": [
+          "రాజకీయ_ఉద్రిక్తత"
+        ],
+        "deity": "స్వామినారాయణ సంప్రదాయం",
+        "event_type": [
+          "విధ్వంసం"
+        ],
+        "id": "ఆస్ట్రేలియా_సిడ్నీ_బాప్స్_2023",
+        "location": {
+          "city_or_district": "రోజ్‌హిల్ (పర్రమట్ట)",
+          "country": "ఆస్ట్రేలియా",
+          "state_province": "న్యూ సౌత్ వేల్స్"
+        },
+        "period": "సమకాలీన",
+        "sources": [
+          {
+            "title": "ABC న్యూస్-సిడ్నీ వాండలిజం కవరేజ్",
+            "type": "వార్తలు",
+            "url": "https://www.abc.net.au/news/2023-05-14/sikh-leaders-call-for-peace-after-sydney-hindu-temple-vandalised/102343878"
+          }
+        ],
+        "summary": "ఆలయం రాజకీయ పదబంధాలతో పాడు చేయబడింది; సిక్కు నాయకులు ఖండించారు మరియు శాంతిని కోరారు; NSW పోలీసులు విచారణ చేపట్టారు.",
+        "temple_name": "BAPS స్వామినారాయణ దేవాలయం (రోజ్‌హిల్)",
+        "timeline": [
+          "మే 2023: సంఘటన నమోదు చేయబడింది; సంఘం నాయకులు & పోలీసు ప్రతిస్పందనలు"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "ధృవీకరించబడిన_మల్టీసోర్స్"
+      },
+      {
+        "alleged_perpetrator_affiliation": "తెలియదు (పరిశోధనలు)",
+        "approx_date": "2023-01",
+        "context_motive": [
+          "రాజకీయ_ఉద్రిక్తత"
+        ],
+        "deity": "వివిధ",
+        "event_type": [
+          "విధ్వంసం",
+          "గ్రాఫిటీ"
+        ],
+        "id": "australia_melbourne_iskcon_2023",
+        "location": {
+          "city_or_district": "మెల్బోర్న్",
+          "country": "ఆస్ట్రేలియా",
+          "state_province": "విక్టోరియా"
+        },
+        "period": "సమకాలీన",
+        "sources": [
+          {
+            "title": "SBS హిందీ—మూడవ ఆలయం ధ్వంసం చేయబడింది",
+            "type": "వార్తలు",
+            "url": "https://www.sbs.com.au/language/hindi/en/article/another-hindu-temple-vandalised-days-after-india-seeks-speedy-investigation-and-action/cfn23dnt6"
+          },
+          {
+            "title": "ఆలయ దాడులపై ABC-PMs చర్చ",
+            "type": "వార్తలు",
+            "url": "https://www.abc.net.au/news/2023-03-11/modi-calls-on-albanese-to-combat-attacks-on-hindu-temples-in-aus/102083152"
+          }
+        ],
+        "summary": "కనీసం మూడు మెల్‌బోర్న్ దేవాలయాలు రాజకీయ నినాదాలతో ధ్వంసమయ్యాయి; భారతదేశం వేగవంతమైన చర్యను కోరింది; పోలీసు సోదాలు తెరిచారు.",
+        "temple_name": "ఇస్కాన్ & ఇతర దేవాలయాలు (మెల్బోర్న్ ప్రాంతం)",
+        "timeline": [
+          "జనవరి 2023: డిఫేస్‌మెంట్‌లు నివేదించబడ్డాయి; మార్చి 2023: నాయకులు రక్షణ గురించి చర్చిస్తారు"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "ధృవీకరించబడిన_మల్టీసోర్స్"
+      },
+      {
+        "alleged_perpetrator_affiliation": "తెలియదు (పోలీసు విచారణ)",
+        "approx_date": "2025-07-21",
+        "context_motive": [
+          "జాతి_ద్వేషం"
+        ],
+        "deity": "స్వామినారాయణ సంప్రదాయం",
+        "event_type": [
+          "విధ్వంసం",
+          "ద్వేషం_గ్రాఫిటీ"
+        ],
+        "id": "ఆస్ట్రేలియా_బోరోనియా_2025",
+        "location": {
+          "city_or_district": "బోరోనియా (మెల్బోర్న్)",
+          "country": "ఆస్ట్రేలియా",
+          "state_province": "విక్టోరియా"
+        },
+        "period": "సమకాలీన",
+        "sources": [
+          {
+            "title": "మొదటి పోస్ట్-జాత్యహంకార గ్రాఫిటీ సంఘటన",
+            "type": "వార్తలు",
+            "url": "https://www.firstpost.com/world/australia-swaminarayan-temple-defaced-with-racist-graffiti-days-after-attack-on-indian-national-13911800.html"
+          },
+          {
+            "title": "డెక్కన్ క్రానికల్-పోలీసు ప్రకటనలు",
+            "type": "వార్తలు",
+            "url": "https://www.deccanchronicle.com/world/australia-and-new-zealand/australia-hindu-temple-vandalised-with-racist-slurs-1893399"
+          }
+        ],
+        "summary": "జాత్యహంకార దూషణలతో ఆలయం అపవిత్రం; విక్టోరియా పోలీస్ సంబంధిత సంఘటనలను దర్యాప్తు చేస్తోంది; బలమైన ప్రజా ఖండన.",
+        "temple_name": "శ్రీ స్వామినారాయణ దేవాలయం (బోరోనియా)",
+        "timeline": [
+          "21–24 జూలై 2025: గ్రాఫిటీ కనుగొనబడింది; పోలీసులు, నాయకులు స్పందించారు"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "ధృవీకరించబడిన_మల్టీసోర్స్"
+      },
+      {
+        "alleged_perpetrator_affiliation": "పోటీ నిరసన సమూహాలు; అనేక మంది పోలీసులు అభియోగాలు మోపారు",
+        "approx_date": "2024-11-03",
+        "context_motive": [
+          "డయాస్పోరా_రాజకీయ_టెన్షన్"
+        ],
+        "deity": "వివిధ",
+        "event_type": [
+          "హింస",
+          "గొడవలు",
+          "విధ్వంసం"
+        ],
+        "id": "కెనడా_బ్రాంప్టన్_హిందూ_సభ_2024",
+        "location": {
+          "city_or_district": "బ్రాంప్టన్ (GTA)",
+          "country": "కెనడా",
+          "state_province": "అంటారియో"
+        },
+        "period": "సమకాలీన",
+        "sources": [
+          {
+            "title": "VOA- అరెస్టులు & ఖండనలు",
+            "type": "వార్తలు",
+            "url": "https://www.voanews.com/a/7851724.html"
+          }
+        ],
+        "summary": "ఆలయం వద్ద/సమీపంలో హింస తర్వాత పోలీసులు అనేక మంది వ్యక్తులపై అభియోగాలు మోపారు; కెనడా, భారత ప్రధానులు ఖండించారు.",
+        "temple_name": "హిందూ సభ మందిరం",
+        "timeline": [
+          "నవంబర్ 2024: సంఘటన; అరెస్టులు మరియు విచారణలు ప్రకటించారు"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "ధృవీకరించబడిన_మల్టీసోర్స్"
+      },
+      {
+        "alleged_perpetrator_affiliation": "తెలియని; అనుమానాస్పద ఫోటోలను పోలీసులు విడుదల చేశారు",
+        "approx_date": "2025-03/04",
+        "context_motive": [
+          "ద్వేషం_సంఘటన"
+        ],
+        "deity": "కృష్ణుడు",
+        "event_type": [
+          "విధ్వంసం"
+        ],
+        "id": "canada_georgetown_skb_2025",
+        "location": {
+          "city_or_district": "హాల్టన్ హిల్స్ (GTA)",
+          "country": "కెనడా",
+          "state_province": "అంటారియో"
+        },
+        "period": "సమకాలీన",
+        "sources": [
+          {
+            "title": "CNBC TV18—అనుమానితుల కోసం పోలీసులు శోధిస్తున్నారు",
+            "type": "వార్తలు",
+            "url": "https://www.cnbctv18.com/world/hindu-temple-vandalised-in-canada-police-race-to-find-culprits-19584789.htm"
+          },
+          {
+            "title": "News18—మ్యాన్‌హంట్ నివేదిక",
+            "type": "వార్తలు",
+            "url": "https://www.news18.com/world/hindu-temple-vandalised-in-canada-police-launch-manhunt-to-nab-two-suspects-ws-kl-9286838.html"
+          }
+        ],
+        "summary": "ఆలయ చిహ్నం కూల్చివేయబడింది / దెబ్బతిన్నది; పోలీసులు మానవ వేట ప్రారంభించారు; కమ్యూనిటీ గ్రూపులు పెరుగుతున్న తీవ్రవాద సందర్భాన్ని ధ్వజమెత్తాయి.",
+        "temple_name": "శ్రీ కృష్ణ బృందావన (జార్జిటౌన్)",
+        "timeline": [
+          "మార్చి-ఏప్రి 2025: సంఘటన & అనుమానిత చిత్రాలు ప్రచురించబడ్డాయి"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "ధృవీకరించబడిన_మల్టీసోర్స్"
+      },
+      {
+        "alleged_perpetrator_affiliation": "తెలియదు (పోలీసు విచారణ; ద్వేషపూరిత నేరం)",
+        "approx_date": "2023-12-23/24",
+        "context_motive": [
+          "డయాస్పోరా_రాజకీయ_టెన్షన్"
+        ],
+        "deity": "స్వామినారాయణ సంప్రదాయం",
+        "event_type": [
+          "విధ్వంసం",
+          "ద్వేషం_గ్రాఫిటీ"
+        ],
+        "id": "USA_newark_ca_2023",
+        "location": {
+          "city_or_district": "నెవార్క్ (బే ఏరియా)",
+          "country": "యునైటెడ్ స్టేట్స్",
+          "state_province": "కాలిఫోర్నియా"
+        },
+        "period": "సమకాలీన",
+        "sources": [
+          {
+            "title": "NBC బే ఏరియా-పోలీసులు దర్యాప్తు చేస్తున్నారు",
+            "type": "వార్తలు",
+            "url": "https://www.nbcbayarea.com/news/local/graffiti-vandalism-newark-hindu-temple-hate-crime/3405591/"
+          },
+          {
+            "title": "CBS SF-విధ్వంసక సందర్భం",
+            "type": "వార్తలు",
+            "url": "https://www.cbsnews.com/sanfrancisco/news/vandalism-of-newark-hindu-temple-highlights-geopolitical-issue/"
+          }
+        ],
+        "summary": "ఆలయంపై భారత వ్యతిరేక గ్రాఫిటీ స్ప్రే చేయబడింది; నెవార్క్ పోలీసులు ద్వేషపూరిత నేరంగా దర్యాప్తు చేస్తున్నారు; విస్తృత సమాజ ఖండన.",
+        "temple_name": "SMVS శ్రీ స్వామినారాయణ మందిర్ (నెవార్క్, CA)",
+        "timeline": [
+          "24–26 డిసెంబర్ 2023: సంఘటన నివేదించబడింది; పోలీసు + సంఘం ప్రకటనలు"
+        ],
+        "tradition": "హిందూ",
+        "verification_status": "ధృవీకరించబడిన_మల్టీసోర్స్"
+      }
+    ]
+  }
+}

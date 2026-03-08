@@ -1,0 +1,536 @@
+{
+  "world_transformation": {
+    "meta": {
+      "title": "De aarde verandert met tientallen jaren - Sanātana Dharma - De eeuwige manier van leven",
+      "canonical": "https://sanatanadharmam.in/world-transformation",
+      "description": "De aarde verandert met tientallen jaren - Sanātana Dharma — Ontdek Sanātana Dharma: de eeuwige principes van het hindoeïsme, Vedische tradities, spirituele praktijken en wijsheid uit geschriften als de...",
+      "keywords": [
+        "20th century history",
+        "21st century history",
+        "Border changes",
+        "Cold War influence",
+        "Decadal transformations",
+        "Decolonization effects",
+        "Earth changes",
+        "Educational resources on history",
+        "Geopolitical history",
+        "Geopolitical shifts",
+        "Global events timeline",
+        "Global history overview",
+        "Globalization impact on borders",
+        "Historical border changes",
+        "Historical cartography",
+        "Historical events impact",
+        "Historical geography",
+        "Historical map accessibility",
+        "Historical map accuracy",
+        "Historical map analysis",
+        "Historical map best practices",
+        "Historical map bias",
+        "Historical map case studies",
+        "Historical map challenges",
+        "Historical map collaboration",
+        "Historical map community",
+        "Historical map creation tools",
+        "Historical map data sources",
+        "Historical map design",
+        "Historical map diversity",
+        "Historical map education",
+        "Historical map engagement",
+        "Historical map ethics",
+        "Historical map examples",
+        "Historical map features",
+        "Historical map feedback",
+        "Historical map future directions",
+        "Historical map impact",
+        "Historical map improvement",
+        "Historical map inclusivity",
+        "Historical map innovation",
+        "Historical map interactivity",
+        "Historical map interpretation",
+        "Historical map legends",
+        "Historical map outreach",
+        "Historical map overlays",
+        "Historical map projections",
+        "Historical map relevance",
+        "Historical map representation",
+        "Historical map significance",
+        "Historical map storytelling",
+        "Historical map sustainability",
+        "Historical map technology",
+        "Historical map visualizations",
+        "Historical maps",
+        "Historical timelines",
+        "Interactive world maps",
+        "International relations evolution",
+        "Modern geopolitical trends",
+        "Post-Cold War changes",
+        "World transformation",
+        "World wars impact"
+      ],
+      "ogimage": "images/og/earth_changes_by_decade.json.png",
+      "url": "https://sanatanadharmam.in/world-transformation"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organisatie",
+        "contactpoint": {
+          "@type": "ContactPunt",
+          "areaserved": "Wereldwijd",
+          "availablelanguage": [
+            "العربية",
+            "Duits",
+            "Engels",
+            "Spaans",
+            "Frans",
+            "Ja",
+            "日本語",
+            "Ja",
+            "Nederlands",
+            "Portugees",
+            "Русский",
+            "Ja",
+            "Ja",
+            "中文 (简体)"
+          ],
+          "contacttype": "Klantenondersteuning",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Over Sanatanadharam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "decades": [
+      {
+        "decade": "1900–1909",
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/kaarten/wereld-1900.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "mandaat",
+              "d": "M 820 710 L 860 690 L 890 730 L 865 760 Z",
+              "featurename": "Koloniale reorganisatie (Afrika, voorbeelden)",
+              "id": "afr_mandates_placeholder",
+              "notes": "Vervangen door echte polygoon(en) afgeleid van GIS.",
+              "tooltip": "Koloniale protectoraten en mandaten geformaliseerd (illustratief)",
+              "type": "pad"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Koloniale expansie",
+        "whatchanged": [
+          "De koloniale grenzen werden uitgebreid",
+          "Er zijn maar weinig onafhankelijke nieuwe staten"
+        ],
+        "why": [
+          "Europees imperialisme"
+        ]
+      },
+      {
+        "decade": "1910–1919",
+        "examples": [
+          "Polen opnieuw gecreëerd",
+          "Ottomaanse gebieden verdeeld"
+        ],
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/kaarten/wereld-1918.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "nieuwe_staat",
+              "d": "M 1050 360 L 1100 355 L 1125 380 L 1080 395 Z",
+              "featurename": "Polen (heropgericht)",
+              "id": "europa_polen_1918",
+              "notes": "Gebruik een nauwkeurige vorm voor de finale.",
+              "tooltip": "Polen hersteld na WOI (illustratieve omvang)",
+              "type": "pad"
+            },
+            {
+              "changetype": "mandaat",
+              "d": "M 1205 455 L 1260 470 L 1245 505 L 1198 495 Z",
+              "featurename": "Ottomaanse partitie (geselecteerde mandaten)",
+              "id": "ik_partitie_1919",
+              "tooltip": "Ottomaanse Arabische provincies onder mandaten geplaatst (illustratief)",
+              "type": "pad"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Eerste Wereldoorlog opnieuw getekend",
+        "whatchanged": [
+          "Ineenstorting van rijken",
+          "Nieuwe Europese staten"
+        ],
+        "why": [
+          "Eerste Wereldoorlog",
+          "Verdragsregelingen"
+        ]
+      },
+      {
+        "decade": "1920–1929",
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/kaarten/wereld-1925.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "status_verandering",
+              "d": "M 900 720 L 960 710 L 980 750 L 920 770 Z",
+              "featurename": "Vaste koloniale lijnen (Afrika, voorbeelden)",
+              "id": "afrika_lijnen_jaren 1920",
+              "tooltip": "Koloniale grenzen geformaliseerd (illustratief)",
+              "type": "pad"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Mandaatsysteem",
+        "whatchanged": [
+          "Grenzen geformaliseerd",
+          "Mandaten vervangen imperiums"
+        ],
+        "why": [
+          "Mandaten van de Volkenbond"
+        ]
+      },
+      {
+        "decade": "1930–1939",
+        "examples": [
+          "Duitse expansie",
+          "Japanse expansie"
+        ],
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/kaarten/wereld-1939.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "annexatie",
+              "d": "M 1040 420 L 1065 418 L 1075 430 L 1050 435 Z",
+              "featurename": "Oostenrijk naar Duitsland (Anschluss)",
+              "id": "europa_anschluss_1938",
+              "tooltip": "Oostenrijk geannexeerd door Duitsland (illustratief)",
+              "type": "pad"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Agressieve expansie",
+        "whatchanged": [
+          "Grenzen zijn met geweld veranderd"
+        ],
+        "why": [
+          "Opkomst van het fascisme",
+          "Militarisering vóór de Tweede Wereldoorlog"
+        ]
+      },
+      {
+        "decade": "1940–1949",
+        "examples": [
+          "Duitsland verdeeld",
+          "Korea verdeeld",
+          "Verdeling tussen India en Pakistan"
+        ],
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1947.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "partitie",
+              "d": "M 1325 565 L 1385 565 L 1390 600 L 1335 600 Z",
+              "featurename": "Verdeling van Brits-Indië",
+              "id": "zuid_azië_partitie_1947",
+              "tooltip": "Partitie die India en Pakistan creëert (illustratief)",
+              "type": "pad"
+            },
+            {
+              "changetype": "partitie",
+              "d": "M 1545 470 L 1560 465 L 1568 478 L 1550 485 Z",
+              "featurename": "Verdeling van Korea",
+              "id": "korea_divisie_1945",
+              "tooltip": "Korea verdeeld op ~38e breedtegraad (illustratief)",
+              "type": "pad"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Hertekening van de Tweede Wereldoorlog",
+        "whatchanged": [
+          "Enorme grensveranderingen",
+          "Partities"
+        ],
+        "why": [
+          "Resultaat WO II",
+          "Begin van de Koude Oorlog"
+        ]
+      },
+      {
+        "decade": "1950–1959",
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/kaarten/wereld-1955.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "nieuwe_staat",
+              "d": "M 1060 640 L 1160 635 L 1165 670 L 1065 675 Z",
+              "featurename": "Noord-Afrikaanse onafhankelijkheid (voorbeelden)",
+              "id": "noord_afrika_jaren 50",
+              "tooltip": "Onafhankelijkheidsbewegingen slagen (illustratief)",
+              "type": "pad"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Vroege dekolonisatie",
+        "whatchanged": [
+          "Aziatische en Afrikaanse landen komen tevoorschijn"
+        ],
+        "why": [
+          "Onafhankelijkheidsbewegingen"
+        ]
+      },
+      {
+        "decade": "1960–1969",
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/kaarten/wereld-1965.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "nieuwe_staat",
+              "d": "M 880 720 L 1000 700 L 1005 790 L 900 800 Z",
+              "featurename": "Afrikaanse onafhankelijkheidsgolf",
+              "id": "afrika_golf_jaren 60",
+              "tooltip": "Meerdere nieuwe staten in heel Afrika (illustratief)",
+              "type": "pad"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Afrikaanse onafhankelijkheidsgolf",
+        "whatchanged": [
+          "Tientallen nieuwe landen"
+        ],
+        "why": [
+          "Snelle dekolonisatie"
+        ]
+      },
+      {
+        "decade": "1970–1989",
+        "examples": [
+          "Onafhankelijkheid van Bangladesh (1971)",
+          "Hereniging van Vietnam (1976)"
+        ],
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1980.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "nieuwe_staat",
+              "d": "M 1395 590 L 1410 592 L 1415 605 L 1398 607 Z",
+              "featurename": "Bangladesh",
+              "id": "bangladesh_1971",
+              "tooltip": "Onafhankelijkheid van Bangladesh (illustratief)",
+              "type": "pad"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Stabiliteit uit de Koude Oorlog",
+        "whatchanged": [
+          "Weinig formele grenswijzigingen"
+        ],
+        "why": [
+          "Machtsevenwicht en afschrikking"
+        ]
+      },
+      {
+        "decade": "1990–1999",
+        "examples": [
+          "15 post-Sovjetstaten",
+          "Balkan opnieuw getekend"
+        ],
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/kaarten/wereld-1995.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "ontbinding",
+              "d": "M 1180 260 L 1500 260 L 1500 420 L 1180 420 Z",
+              "featurename": "Post-Sovjetstaten",
+              "id": "ussr_breakup_1991",
+              "tooltip": "Ontbinding van de USSR (illustratief grenskader)",
+              "type": "pad"
+            },
+            {
+              "changetype": "ontbinding",
+              "d": "M 1120 420 L 1160 420 L 1170 450 L 1125 455 Z",
+              "featurename": "Voormalig Joegoslavië",
+              "id": "Joegoslavië_breakup_1990s",
+              "tooltip": "Het uiteenvallen van Joegoslavië (illustratief)",
+              "type": "pad"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Ineenstorting van socialistische federaties",
+        "whatchanged": [
+          "Er ontstonden veel nieuwe landen"
+        ],
+        "why": [
+          "Ontbinding van de Sovjet-Unie en Joegoslavië"
+        ]
+      },
+      {
+        "decade": "2000–2025",
+        "examples": [
+          "Zuid-Soedan (2011)"
+        ],
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/wereld-2025.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "nieuwe_staat",
+              "d": "M 1140 720 L 1165 718 L 1170 740 L 1145 742 Z",
+              "featurename": "Zuid-Soedan",
+              "id": "zuid_soedan_2011",
+              "tooltip": "Onafhankelijkheid van Zuid-Soedan (illustratief)",
+              "type": "pad"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Moderne grensstabiliteit",
+        "whatchanged": [
+          "Zeldzame nieuwe landen",
+          "Grenzen grotendeels ongewijzigd"
+        ],
+        "why": [
+          "Internationaal recht",
+          "Globalisering",
+          "Afschrikking"
+        ]
+      }
+    ],
+    "historic_decades": "Historische decennia",
+    "legend": {
+      "aria": {
+        "title": "Decennium-overlay van grensveranderingen",
+        "desc": "Gekleurde gebieden geven gebieden aan die zijn getroffen door grenstransformaties in het geselecteerde decennium."
+      },
+      "changetypes": [
+        {
+          "color": "#1f77b4",
+          "key": "nieuwe_staat",
+          "label": "Nieuwe staat"
+        },
+        {
+          "color": "#ff7f0e",
+          "key": "partitie",
+          "label": "Partitie/Splitsing"
+        },
+        {
+          "color": "#2ca02c",
+          "key": "annexatie",
+          "label": "Annexatie/fusie"
+        },
+        {
+          "color": "#9467bd",
+          "key": "mandaat",
+          "label": "Mandaat-/trustgebied"
+        },
+        {
+          "color": "#d62728",
+          "key": "ontbinding",
+          "label": "Ontbinding / Opsplitsing van de Federatie"
+        },
+        {
+          "color": "#8c564b",
+          "key": "status_verandering",
+          "label": "Status/naamwijziging"
+        },
+        {
+          "color": "#e377c2",
+          "key": "geschil",
+          "label": "Betwist/onbetwist"
+        }
+      ],
+      "fillopacity": 0.35,
+      "projection": {
+        "id": "gelijke aarde",
+        "name": "Gelijke aarde",
+        "notes": "Gebruik dezelfde projectie voor basis-PNG- en SVG-overlays."
+      },
+      "stroke": {
+        "color": "#111",
+        "opacity": 0.8,
+        "width": 0.75
+      },
+      "viewbox": "0 0 2048 1024"
+    },
+    "legend2": "Legende",
+    "periods_transfor": "periodes van transformatie",
+    "test": [
+      "# Kern voor padgeneratie en projecties:",
+      "npm i d3-geo d3-geo-projectie topojson-client topojson-server topojson-vereenvoudigen",
+      "# Als u herprojectie nodig heeft van niet-WGS84 GeoJSON (optioneel):",
+      "npm i proj4 @mapbox/geojson-rewind"
+    ],
+    "what_changed": "Wat is er veranderd:",
+    "why": "Waarom:",
+    "why_borders": "Waarom grenzen stabiel werden",
+    "whybordersbecamestable": {
+      "factors": [
+        {
+          "title": "Internationaal recht en VN",
+          "explanation": "Het VN-Handvest en de normen beschermen de territoriale integriteit."
+        },
+        {
+          "title": "Einde van koloniale rijken",
+          "explanation": "De meeste dekolonisatie eindigde in de jaren zeventig; de grenzen werden bevroren (uti possidetis juris)."
+        },
+        {
+          "title": "Ineenstorting van grote federaties voltooid",
+          "explanation": "USSR en Joegoslavië ontbonden; er bleven geen soortgelijke entiteiten over om te fragmenteren."
+        },
+        {
+          "title": "Globalisering",
+          "explanation": "Onderlinge afhankelijkheid vermindert de voordelen van verovering."
+        },
+        {
+          "title": "Afschrikking en sancties",
+          "explanation": "De kosten van het veranderen van grenzen zijn hoog."
+        },
+        {
+          "title": "Geschillenbeheer",
+          "explanation": "Conflicten afgehandeld via autonomie/bevroren conflicten in plaats van opnieuw te tekenen."
+        }
+      ],
+      "keytakeaway": "Moderne grenzen zijn juridisch en politiek rigide, zelfs als er geschillen bestaan.",
+      "summary": "Na het einde van de 20e eeuw stabiliseerden de grenzen zich als gevolg van juridische, politieke, economische en afschrikkingsfactoren."
+    }
+  }
+}

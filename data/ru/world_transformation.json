@@ -1,0 +1,536 @@
+{
+  "world_transformation": {
+    "meta": {
+      "title": "Земля меняется десятилетиями - Санатана Дхарма - Вечный образ жизни",
+      "canonical": "https://sanatanadharmam.in/world-transformation",
+      "description": "Земля меняется десятилетиями - Санатана Дхарма. Изучите Санатана Дхарму: вечные принципы индуизма, ведические традиции, духовные практики и мудрость таких писаний, как...",
+      "keywords": [
+        "20th century history",
+        "21st century history",
+        "Border changes",
+        "Cold War influence",
+        "Decadal transformations",
+        "Decolonization effects",
+        "Earth changes",
+        "Educational resources on history",
+        "Geopolitical history",
+        "Geopolitical shifts",
+        "Global events timeline",
+        "Global history overview",
+        "Globalization impact on borders",
+        "Historical border changes",
+        "Historical cartography",
+        "Historical events impact",
+        "Historical geography",
+        "Historical map accessibility",
+        "Historical map accuracy",
+        "Historical map analysis",
+        "Historical map best practices",
+        "Historical map bias",
+        "Historical map case studies",
+        "Historical map challenges",
+        "Historical map collaboration",
+        "Historical map community",
+        "Historical map creation tools",
+        "Historical map data sources",
+        "Historical map design",
+        "Historical map diversity",
+        "Historical map education",
+        "Historical map engagement",
+        "Historical map ethics",
+        "Historical map examples",
+        "Historical map features",
+        "Historical map feedback",
+        "Historical map future directions",
+        "Historical map impact",
+        "Historical map improvement",
+        "Historical map inclusivity",
+        "Historical map innovation",
+        "Historical map interactivity",
+        "Historical map interpretation",
+        "Historical map legends",
+        "Historical map outreach",
+        "Historical map overlays",
+        "Historical map projections",
+        "Historical map relevance",
+        "Historical map representation",
+        "Historical map significance",
+        "Historical map storytelling",
+        "Historical map sustainability",
+        "Historical map technology",
+        "Historical map visualizations",
+        "Historical maps",
+        "Historical timelines",
+        "Interactive world maps",
+        "International relations evolution",
+        "Modern geopolitical trends",
+        "Post-Cold War changes",
+        "World transformation",
+        "World wars impact"
+      ],
+      "ogimage": "images/og/earth_changes_by_decade.json.png",
+      "url": "https://sanatanadharmam.in/world-transformation"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Организация",
+        "contactpoint": {
+          "@type": "Контактная точка",
+          "areaserved": "По всему миру",
+          "availablelanguage": [
+            "عربية",
+            "немецкий",
+            "Английский",
+            "испанский",
+            "Франсэ",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Нидерланды",
+            "Португальский",
+            "Русский",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Служба поддержки клиентов",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "О Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "decades": [
+      {
+        "decade": "1900–1909 гг.",
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1900.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "мандат",
+              "d": "М 820 710 Л 860 690 Л 890 730 Л 865 760 З",
+              "featurename": "Колониальная реорганизация (Африка, примеры)",
+              "id": "afr_mandates_placeholder",
+              "notes": "Замените реальными полигонами, полученными из ГИС.",
+              "tooltip": "Оформление колониальных протекторатов и мандатов (иллюстративное)",
+              "type": "путь"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Колониальная экспансия",
+        "whatchanged": [
+          "Колониальные границы расширились",
+          "Несколько независимых новых государств"
+        ],
+        "why": [
+          "Европейский империализм"
+        ]
+      },
+      {
+        "decade": "1910–1919 гг.",
+        "examples": [
+          "Польша воссоздана",
+          "Османские территории разделены"
+        ],
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1918.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "новое_состояние",
+              "d": "М 1050 360 Л 1100 355 Л 1125 380 Л 1080 395 З",
+              "featurename": "Польша (восстановлена)",
+              "id": "Европа_Польша_1918",
+              "notes": "Используйте точную форму для финала.",
+              "tooltip": "Польша восстановлена ​​после Первой мировой войны (иллюстративный масштаб)",
+              "type": "путь"
+            },
+            {
+              "changetype": "мандат",
+              "d": "М 1205 455 Л 1260 470 Л 1245 505 Л 1198 495 З",
+              "featurename": "Османский раздел (отдельные мандаты)",
+              "id": "me_partition_1919",
+              "tooltip": "Османские арабские провинции, находящиеся под мандатами (иллюстративное)",
+              "type": "путь"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Перерисовка Первой мировой войны",
+        "whatchanged": [
+          "Крах империй",
+          "Новые европейские государства"
+        ],
+        "why": [
+          "Первая мировая война",
+          "Договорные соглашения"
+        ]
+      },
+      {
+        "decade": "1920–1929 гг.",
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1925.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "status_change",
+              "d": "М 900 720 Л 960 710 Л 980 750 Л 920 770 З",
+              "featurename": "Фиксированные колониальные линии (Африка, примеры)",
+              "id": "Africa_lines_1920-е годы",
+              "tooltip": "Колониальные границы формализованы (иллюстративно)",
+              "type": "путь"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Мандатная система",
+        "whatchanged": [
+          "Границы формализованы",
+          "Мандаты заменяют империи"
+        ],
+        "why": [
+          "Мандаты Лиги Наций"
+        ]
+      },
+      {
+        "decade": "1930–1939 гг.",
+        "examples": [
+          "Немецкая экспансия",
+          "Японская экспансия"
+        ],
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1939.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "аннексия",
+              "d": "М 1040 420 Л 1065 418 Л 1075 430 Л 1050 435 З",
+              "featurename": "Австрия в Германию (аншлюс)",
+              "id": "europe_anschluss_1938",
+              "tooltip": "Австрия аннексирована Германией (иллюстративно)",
+              "type": "путь"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Агрессивное расширение",
+        "whatchanged": [
+          "Границы изменены силой"
+        ],
+        "why": [
+          "Возвышение фашизма",
+          "Милитаризация перед Второй мировой войной"
+        ]
+      },
+      {
+        "decade": "1940–1949 гг.",
+        "examples": [
+          "Германия разделена",
+          "Корея разделена",
+          "Раздел Индии и Пакистана"
+        ],
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1947.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "раздел",
+              "d": "М 1325 565 Л 1385 565 Л 1390 600 Л 1335 600 З",
+              "featurename": "Раздел Британской Индии",
+              "id": "южная_азиатская_партиция_1947",
+              "tooltip": "Создание раздела Индии и Пакистана (иллюстративно)",
+              "type": "путь"
+            },
+            {
+              "changetype": "раздел",
+              "d": "М 1545 470 Л 1560 465 Л 1568 478 Л 1550 485 З",
+              "featurename": "Отдел Кореи",
+              "id": "korea_division_1945",
+              "tooltip": "Корея разделена по ~ 38-й параллели (иллюстративно)",
+              "type": "путь"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Перерисовка Второй мировой войны",
+        "whatchanged": [
+          "Массовые изменения границ",
+          "Перегородки"
+        ],
+        "why": [
+          "Результат Второй мировой войны",
+          "Начало холодной войны"
+        ]
+      },
+      {
+        "decade": "1950–1959 гг.",
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1955.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "новое_состояние",
+              "d": "М 1060 640 Л 1160 635 Л 1165 670 Л 1065 675 З",
+              "featurename": "Независимость Северной Африки (примеры)",
+              "id": "север_африка_1950-е",
+              "tooltip": "Движения за независимость добиваются успеха (показательно)",
+              "type": "путь"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Ранняя деколонизация",
+        "whatchanged": [
+          "Появляются азиатские и африканские страны"
+        ],
+        "why": [
+          "Движения за независимость"
+        ]
+      },
+      {
+        "decade": "1960–1969 гг.",
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1965.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "новое_состояние",
+              "d": "М 880 720 Л 1000 700 Л 1005 790 Л 900 800 З",
+              "featurename": "Волна независимости Африки",
+              "id": "africa_wave_1960-е",
+              "tooltip": "Множество новых государств по всей Африке (иллюстративно)",
+              "type": "путь"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Волна независимости Африки",
+        "whatchanged": [
+          "Десятки новых стран"
+        ],
+        "why": [
+          "Быстрая деколонизация"
+        ]
+      },
+      {
+        "decade": "1970–1989 гг.",
+        "examples": [
+          "Независимость Бангладеш (1971 г.)",
+          "Воссоединение Вьетнама (1976)"
+        ],
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1980.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "новое_состояние",
+              "d": "М 1395 590 Л 1410 592 Л 1415 605 Л 1398 607 З",
+              "featurename": "Бангладеш",
+              "id": "Бангладеш_1971",
+              "tooltip": "Независимость Бангладеш (иллюстративно)",
+              "type": "путь"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Стабильность холодной войны",
+        "whatchanged": [
+          "Несколько формальных изменений границ"
+        ],
+        "why": [
+          "Баланс сил и сдерживание"
+        ]
+      },
+      {
+        "decade": "1990–1999 гг.",
+        "examples": [
+          "15 постсоветских государств",
+          "Балканы перерисованы"
+        ],
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1995.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "растворение",
+              "d": "М 1180 260 Л 1500 260 Л 1500 420 Л 1180 420 З",
+              "featurename": "Постсоветские государства",
+              "id": "ussr_breakup_1991",
+              "tooltip": "Распад СССР (иллюстрация в ограничивающей рамке)",
+              "type": "путь"
+            },
+            {
+              "changetype": "растворение",
+              "d": "М 1120 420 Л 1160 420 Л 1170 450 Л 1125 455 З",
+              "featurename": "Бывшая Югославия",
+              "id": "югославия_распад_1990-е",
+              "tooltip": "Распад Югославии (иллюстративное)",
+              "type": "путь"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Распад социалистических федераций",
+        "whatchanged": [
+          "Образовалось много новых стран"
+        ],
+        "why": [
+          "Распад СССР и Югославии"
+        ]
+      },
+      {
+        "decade": "2000–2025 гг.",
+        "examples": [
+          "Южный Судан (2011)"
+        ],
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-2025.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "новое_состояние",
+              "d": "М 1140 720 Л 1165 718 Л 1170 740 Л 1145 742 З",
+              "featurename": "Южный Судан",
+              "id": "юг_судана_2011",
+              "tooltip": "Независимость Южного Судана (иллюстративное)",
+              "type": "путь"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Современная пограничная стабильность",
+        "whatchanged": [
+          "Редкие новые страны",
+          "Границы практически не изменились"
+        ],
+        "why": [
+          "Международное право",
+          "Глобализация",
+          "Сдерживание"
+        ]
+      }
+    ],
+    "historic_decades": "Исторические десятилетия",
+    "legend": {
+      "aria": {
+        "title": "Десятилетие наложения изменений границ",
+        "desc": "Цветные регионы обозначают территории, затронутые трансформацией границ в выбранное десятилетие."
+      },
+      "changetypes": [
+        {
+          "color": "#1f77b4",
+          "key": "новое_состояние",
+          "label": "Новое государство"
+        },
+        {
+          "color": "#ff7f0e",
+          "key": "раздел",
+          "label": "Раздел/Разделение"
+        },
+        {
+          "color": "#2ca02c",
+          "key": "аннексия",
+          "label": "Аннексия/Слияние"
+        },
+        {
+          "color": "#9467бд",
+          "key": "мандат",
+          "label": "Мандат/Подопечная территория"
+        },
+        {
+          "color": "#d62728",
+          "key": "растворение",
+          "label": "Роспуск/Распад Федерации"
+        },
+        {
+          "color": "#8c564b",
+          "key": "status_change",
+          "label": "Изменение статуса/имени"
+        },
+        {
+          "color": "#e377c2",
+          "key": "спор",
+          "label": "Спорный/нерешенный"
+        }
+      ],
+      "fillopacity": 0.35,
+      "projection": {
+        "id": "равноземельный",
+        "name": "Равная Земля",
+        "notes": "Используйте одну и ту же проекцию для базовых наложений PNG и SVG."
+      },
+      "stroke": {
+        "color": "#111",
+        "opacity": 0.8,
+        "width": 0.75
+      },
+      "viewbox": "0 0 2048 1024"
+    },
+    "legend2": "Легенда",
+    "periods_transfor": "периоды трансформации",
+    "test": [
+      "# Ядро для генерации пути и прогнозов:",
+      "npm я d3-geo d3-geo-проекция topojson-клиент topojson-сервер topojson-simplify",
+      "# Если вам нужно перепроецирование из GeoJSON, отличного от WGS84 (необязательно):",
+      "npm и proj4 @mapbox/geojson-rewind"
+    ],
+    "what_changed": "Что изменилось:",
+    "why": "Почему:",
+    "why_borders": "Почему границы стали стабильными",
+    "whybordersbecamestable": {
+      "factors": [
+        {
+          "title": "Международное право и ООН",
+          "explanation": "Устав и нормы ООН защищают территориальную целостность."
+        },
+        {
+          "title": "Конец колониальных империй",
+          "explanation": "Большая часть деколонизации завершилась к 1970-м годам; границы были заморожены (uti possidetis juris)."
+        },
+        {
+          "title": "Распад больших федераций завершен",
+          "explanation": "СССР и Югославия распались; не осталось подобных объектов, которые можно было бы фрагментировать."
+        },
+        {
+          "title": "Глобализация",
+          "explanation": "Взаимозависимость уменьшает выгоды от завоевания."
+        },
+        {
+          "title": "Сдерживание и санкции",
+          "explanation": "Затраты на изменение границ высоки."
+        },
+        {
+          "title": "Управление спорами",
+          "explanation": "Конфликты решаются посредством автономии/замороженных конфликтов, а не путем перерисовки."
+        }
+      ],
+      "keytakeaway": "Современные границы юридически и политически жесткие, даже там, где существуют споры.",
+      "summary": "После конца 20 века границы стабилизировались благодаря правовым, политическим, экономическим факторам и факторам сдерживания."
+    }
+  }
+}

@@ -1,0 +1,1026 @@
+{
+  "temples_destroyed": {
+    "title": "واقعہ کی سطح کی دستاویز: ہندوستان میں ہندو مندر کو نقصان (ثبوت پر مبنی)",
+    "meta": {
+      "title": "واقعہ کی سطح کی دستاویز: ہندوستان میں ہندو مندر کو نقصان (ثبوت پر مبنی)",
+      "canonical": "https://sanatanadharmam.in/temples-destroyed",
+      "description": "مخصوص مندروں کے نام شامل نہیں کیے جا سکتے کیونکہ حاصل کردہ ذرائع سے ایسی کوئی تصدیق شدہ اندراجات فراہم نہیں کی گئیں۔",
+      "keywords": [
+        "Hindu temple damage",
+        "India",
+        "archaeological evidence",
+        "contemporary temple attacks",
+        "cultural heritage",
+        "dynastic warfare and temples",
+        "economic plunder and temples",
+        "evidence-based documentation",
+        "historical context",
+        "historical incidents",
+        "historical temple incidents",
+        "multisource verification",
+        "political motives",
+        "primary sources",
+        "religious conflict",
+        "scholarly analysis",
+        "secondary sources",
+        "sectarian violence and temples",
+        "statecraft and temples",
+        "temple damage patterns",
+        "temple desecration",
+        "temple destruction",
+        "temple destruction patterns",
+        "temple incident IDs",
+        "temple incident context",
+        "temple incident deities",
+        "temple incident event types",
+        "temple incident locations",
+        "temple incident motives",
+        "temple incident periods",
+        "temple incident perpetrators",
+        "temple incident sources",
+        "temple incident summaries",
+        "temple incident timelines",
+        "temple incident traditions",
+        "temple incident verification",
+        "temple incident verification status",
+        "temple preservation",
+        "temple protection policies",
+        "temple reconstruction",
+        "verified cases"
+      ],
+      "ogimage": "images/og/temples-destroyed.png",
+      "url": "https://sanatanadharmam.in/temples-destroyed"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "تنظیم",
+        "contactpoint": {
+          "@type": "رابطہ پوائنٹ",
+          "areaserved": "دنیا بھر میں",
+          "availablelanguage": [
+            "العربية",
+            "ڈوئچ",
+            "انگریزی",
+            "اسپینول",
+            "Français",
+            "ہندی",
+            "日本語",
+            "नेपाली",
+            "نیدرلینڈز",
+            "پرتگالی",
+            "روسی",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "کسٹمر سپورٹ",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sanatanadharmam.in کے بارے میں",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "canonical": "https://sanatanadharmam.in/temples-destroyed",
+    "incidents": [
+      {
+        "alleged_perpetrator_affiliation": "غورید/ ابتدائی ہند-مسلم ریاست کی فوج",
+        "approx_date": "1192 عیسوی",
+        "context_motive": [
+          "خاندانی_جنگ",
+          "سیاسی_سگنل"
+        ],
+        "deity": "شیوا (علاقائی پھیلاؤ سے اندازہ لگایا گیا)",
+        "event_type": [
+          "بے حرمتی"
+        ],
+        "id": "eaton_case_01_Delhi_sultanate_1192",
+        "location": {
+          "city_or_district": "شمالی ہند",
+          "country": "انڈیا",
+          "state_province": "دہلی-ہریانہ-راجستھان بیلٹ"
+        },
+        "period": "ابتدائی دہلی سلطنت",
+        "sources": [
+          {
+            "title": "رچرڈ ایم ایٹن – قبل از جدید ہندوستان میں مندر کی بے حرمتی",
+            "type": "تعلیمی",
+            "url": "https://franpritchett.com/00islamlinks/txt_eaton_temples1.pdf"
+          }
+        ],
+        "summary": "تاریخی تجزیہ نوٹ کرتا ہے کہ 1192 عیسوی میں راجپوت حکمرانوں کی شکست کے بعد، شکست خوردہ خاندان سے وابستہ کچھ سیاسی طور پر اہم مندروں کو فتح کی علامت کے طور پر بے حرمتی کیا گیا، جو پہلے سے موجود ہندوستانی ریاستی اصولوں کے مطابق تھے۔",
+        "temple_name": "شکست خوردہ راجپوت سیاست سے وابستہ مندر (ذرائع میں نام فراہم نہیں کیا گیا)",
+        "timeline": [
+          "1192: راجپوت اتحاد کی شکست",
+          "پوسٹ 1192: سیاسی علامتی بے حرمتی"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "تصدیق شدہ_ملٹی سورس"
+      },
+      {
+        "alleged_perpetrator_affiliation": "تغلق انتظامی اہلکار",
+        "approx_date": "1326 عیسوی",
+        "context_motive": [
+          "ریاستی دیکھ بھال"
+        ],
+        "deity": "شیوا",
+        "event_type": [
+          "مرمت",
+          "ریاستی_مداخلت"
+        ],
+        "id": "eaton_case_02_tughluq_deccan_1326",
+        "location": {
+          "city_or_district": "کلیانہ",
+          "country": "انڈیا",
+          "state_province": "بیدر (دکن)"
+        },
+        "period": "تغلق سلطنت",
+        "sources": [
+          {
+            "title": "مندر کی بے حرمتی اور ہند-مسلم ریاستیں (ایٹن)",
+            "type": "تعلیمی",
+            "url": "https://docslib.org/doc/2884327/temple-desecration-in-pre-modern-india"
+          }
+        ],
+        "summary": "ایک سنسکرت نوشتہ (ایٹن کے تجزیے میں نقل کیا گیا ہے) ریکارڈ کرتا ہے کہ 1326 عیسوی میں، سلطان محمد بن تغلق نے کلیانہ میں ایک شیو مندر کی مرمت کے لیے مسلمان عہدیداروں کو مقرر کیا - جو کہ مذہبی تباہی کے مکمل دعووں سے متصادم ہے۔",
+        "temple_name": "کلیانہ میں شیو مندر (درست ساختی تفصیلات تلاش کے نتائج میں شامل نہیں ہیں)",
+        "timeline": [
+          "1326: ریاستی اتھارٹی کے تحت مندر کی مرمت کا حکم دیا گیا۔"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "تصدیق شدہ_ملٹی سورس"
+      },
+      {
+        "alleged_perpetrator_affiliation": "کشمیر سلطنت",
+        "approx_date": "1355-1373 عیسوی",
+        "context_motive": [
+          "ریاستی دستکاری",
+          "مذہبی_تکثیریت"
+        ],
+        "deity": "مختلف",
+        "event_type": [
+          "تحفظ"
+        ],
+        "id": "eaton_case_03_کشمیر_1355_1373",
+        "location": {
+          "city_or_district": "وادی کشمیر",
+          "country": "انڈیا",
+          "state_province": "کشمیر"
+        },
+        "period": "شہاب الدین کی سلطنت کشمیر",
+        "sources": [
+          {
+            "title": "مندر کی بے حرمتی اور ہند-مسلم ریاستیں (ایٹن)",
+            "type": "تعلیمی",
+            "url": "https://vdoc.pub/documents/temple-desecration-and-muslim-states-in-medieval-india-57n804cku1p0"
+          }
+        ],
+        "summary": "سلطان شہاب الدین نے آمدنی کے لیے ہندو/بدھ مندر کی تصاویر کو پگھلانے کا مشورہ دینے پر وزراء کی سرزنش کی، کلاسیکی ہندو بادشاہوں کو مندر کے تحفظ کی مثالوں کے طور پر پیش کیا، جس سے یہ ظاہر ہوتا ہے کہ تمام ہند-مسلم حکمرانوں نے تباہی کا پیچھا نہیں کیا۔",
+        "temple_name": "متعدد ہندو/بدھ مندر (نام نہیں بتائے گئے)",
+        "timeline": [
+          "1355-1373: مندر کے تحفظ کی دستاویزی پالیسی"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "تصدیق شدہ_ملٹی سورس"
+      },
+      {
+        "alleged_perpetrator_affiliation": "علاقہ فتح کرنے والی فوجیں۔",
+        "approx_date": "14ویں صدی",
+        "context_motive": [
+          "خاندانی_جنگ",
+          "سیاسی_سگنل"
+        ],
+        "deity": "شیو یا علاقائی دیوتا",
+        "event_type": [
+          "بے حرمتی"
+        ],
+        "id": "eaton_case_04_deccan_statebuilding_14th_century",
+        "location": {
+          "city_or_district": "شمالی دکن",
+          "country": "انڈیا",
+          "state_province": "مہاراشٹر کرناٹک علاقہ"
+        },
+        "period": "ابتدائی بہمنی سلطنت اور تغلق مہمات",
+        "sources": [
+          {
+            "title": "ایٹن - ماقبل جدید ہندوستان میں مندر کی بے حرمتی",
+            "type": "تعلیمی",
+            "url": "https://franpritchett.com/00islamlinks/txt_eaton_temples1.pdf"
+          }
+        ],
+        "summary": "ایٹن نے نوٹ کیا کہ 14 ویں صدی دکن میں، حکمران خاندانوں سے منسلک مندروں (بے ترتیب کمیونٹی مندروں کو نہیں) کو فوجی فتوحات کے بعد منتخب طور پر نشانہ بنایا گیا تھا، جو پرانی ہندوستانی سیاسی روایات سے مطابقت رکھتے تھے۔",
+        "temple_name": "حریف ریاستوں کے خاندانی مندر (غیر متعینہ)",
+        "timeline": [
+          "1300s: خاندانی جنگ",
+          "فتح کے بعد کی علامتی بے حرمتی"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "جزوی طور پر_تصدیق شدہ"
+      },
+      {
+        "alleged_perpetrator_affiliation": "مغل شاہی انتظامیہ",
+        "approx_date": "16-17 ویں صدی",
+        "context_motive": [
+          "ریاستی دستکاری",
+          "آمدنی_پالیسی"
+        ],
+        "deity": "شیوا/مختلف",
+        "event_type": [
+          "تحفظ",
+          "سرپرستی"
+        ],
+        "id": "eaton_case_05_statecraft_protection_early_modern",
+        "location": {
+          "city_or_district": "متعدد",
+          "country": "انڈیا",
+          "state_province": "انڈیا"
+        },
+        "period": "مغلیہ سلطنت",
+        "sources": [
+          {
+            "title": "مندر کی بے حرمتی اور ہند-مسلم ریاستیں (ایٹن)",
+            "type": "تعلیمی",
+            "url": "https://docslib.org/doc/2884327/temple-desecration-in-pre-modern-india"
+          }
+        ],
+        "summary": "ایٹن کی ترکیب سے پتہ چلتا ہے کہ بہت سے ہندو مندروں کو مغل دور حکومت میں گرانٹ، اوقاف اور قانونی تحفظ حاصل ہوا، جو کہ یکساں مذہبی تباہی کے بارے میں بعد کے دور کے سیاسی بیانیے سے متصادم ہے۔",
+        "temple_name": "مغل ہندوستان کے مختلف مندر (نام نہیں بتائے گئے)",
+        "timeline": [
+          "1500-1600s: دستاویزی ریونیو گرانٹس اور تحفظ کے احکام"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "تصدیق شدہ_ملٹی سورس"
+      },
+      {
+        "alleged_perpetrator_affiliation": "غزنی کی فوجوں کی قیادت محمود غزنی کر رہے تھے۔",
+        "approx_date": "1026-01-08",
+        "context_motive": [
+          "خاندانی_جنگ",
+          "معاشی_لوٹ مار",
+          "سیاسی_سگنل"
+        ],
+        "deity": "شیوا",
+        "event_type": [
+          "بوری",
+          "لوٹ مار",
+          "انہدام"
+        ],
+        "id": "سومناتھ_1026_غزنی",
+        "location": {
+          "city_or_district": "پربھاس پٹن (ویراول)",
+          "country": "انڈیا",
+          "state_province": "گجرات"
+        },
+        "period": "قرون وسطی",
+        "sources": [
+          {
+            "title": "ضلع گر سومناتھ - تاریخ (حکومت گجرات)",
+            "type": "حکومت",
+            "url": "https://girsomnath.nic.in/about-district/history/"
+          },
+          {
+            "title": "سومناتھ کی بوری (ویکیپیڈیا کا جائزہ)",
+            "type": "خبریں/انسائیکلوپیڈک",
+            "url": "https://en.wikipedia.org/wiki/Sack_of_Somnath"
+          }
+        ],
+        "summary": "غزنوی فوج نے سومناتھ مندر کو توڑ دیا۔ بعد میں تعمیر نو ریکارڈ کی گئی۔",
+        "temple_name": "سومناتھ جیوترلنگ",
+        "timeline": [
+          "1025-1026: غزنی مہم",
+          "12ویں، 14ویں، 15ویں سی میں مراحل کی تعمیر نو۔ جدید تقدیس 1951"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "تصدیق شدہ_ملٹی سورس"
+      },
+      {
+        "alleged_perpetrator_affiliation": "دہلی سلطنت (علاؤ الدین خلجی کے ماتحت الغ خان)",
+        "approx_date": "1299",
+        "context_motive": [
+          "خاندانی_جنگ",
+          "معاشی_لوٹ مار"
+        ],
+        "deity": "شیوا",
+        "event_type": [
+          "بوری"
+        ],
+        "id": "somnath_1299_khalji",
+        "location": {
+          "city_or_district": "پربھاس پٹن (ویراول)",
+          "country": "انڈیا",
+          "state_province": "گجرات"
+        },
+        "period": "دہلی سلطنت",
+        "sources": [
+          {
+            "title": "ضلع گر سومناتھ - تاریخ",
+            "type": "حکومت",
+            "url": "https://girsomnath.nic.in/about-district/history/"
+          }
+        ],
+        "summary": "سومناتھ کو 1299 میں دہلی سلطنت کی مہم کے دوران برطرف کیا گیا۔ تعمیر نو کے بعد.",
+        "temple_name": "سومناتھ جیوترلنگ",
+        "timeline": [
+          "1299: الغ خان کے ماتحت برطرف",
+          "1308+: چوڈاسامہ خاندان کے ذریعہ مقامی تعمیر نو"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "تصدیق شدہ_ملٹی سورس"
+      },
+      {
+        "alleged_perpetrator_affiliation": "مغل شاہی حکم (اورنگ زیب)",
+        "approx_date": "1669",
+        "context_motive": [
+          "سیاسی_سگنل",
+          "ریاستی_پالیسی"
+        ],
+        "deity": "شیوا",
+        "event_type": [
+          "انہدام",
+          "تبدیلی"
+        ],
+        "id": "کاشی_وشوناتھ_1669",
+        "location": {
+          "city_or_district": "وارانسی",
+          "country": "انڈیا",
+          "state_province": "اتر پردیش"
+        },
+        "period": "مغل",
+        "sources": [
+          {
+            "title": "کاشی وشوناتھ مندر (جائزہ)",
+            "type": "خبریں/انسائیکلوپیڈک",
+            "url": "https://en.wikipedia.org/wiki/Kashi_Vishwanath_Temple"
+          },
+          {
+            "title": "انڈین ایکسپریس وضاحت کنندہ (اے ایس آئی اور فارسی ذرائع)",
+            "type": "خبریں",
+            "url": "https://www.hinduismtoday.com/hpi/2024/01/30/the-temple-that-aurangzeb-razed-evidence-from-history/"
+          }
+        ],
+        "summary": "پرائمری فارسی کرانیکل اور ASI کے حوالے سے مطالعہ 1669 کے انہدام کی تصدیق کرتے ہیں۔ گیانواپی مسجد کی تعمیر موجودہ KV مندر 1780 میں دوبارہ تعمیر ہوا۔",
+        "temple_name": "کاشی وشوناتھ (وشویشور) / گیان واپی سائٹ",
+        "timeline": [
+          "1669: مسماری کا حکم",
+          "1670 کی دہائی: مسجد اٹھائی گئی۔",
+          "1780: اہلیابائی ہولکر کا موجودہ مندر"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "تصدیق شدہ_ملٹی سورس"
+      },
+      {
+        "alleged_perpetrator_affiliation": "مغل شاہی حکم (اورنگ زیب)",
+        "approx_date": "1670",
+        "context_motive": [
+          "سیاسی_سگنل",
+          "ریاستی_پالیسی"
+        ],
+        "deity": "کرشنا (کیشودیو)",
+        "event_type": [
+          "انہدام",
+          "تبدیلی"
+        ],
+        "id": "mathura_keshavdev_1670",
+        "location": {
+          "city_or_district": "متھرا",
+          "country": "انڈیا",
+          "state_province": "اتر پردیش"
+        },
+        "period": "مغل",
+        "sources": [
+          {
+            "title": "بزنس سٹینڈرڈ (ASI RTI-گزٹ 1920)",
+            "type": "خبریں",
+            "url": "https://www.business-standard.com/india-news/asi-reveals-records-on-demolition-of-mathura-s-keshavdev-temple-rti-124020600548_1.html"
+          },
+          {
+            "title": "اکنامک ٹائمز (آر ٹی آئی کوریج)",
+            "type": "خبریں",
+            "url": "https://economictimes.indiatimes.com/news/india/aurangzeb-demolished-keshavdev-temple-krishna-janmabhoomi-site-to-built-mosque-in-mathura-says-asi-in-rti-reply/articleshow/107447699.cms"
+          }
+        ],
+        "summary": "ASI کا حوالہ دیا گیا 1920 گزٹ (آر ٹی آئی کے ذریعے انکشاف): سابق کیشو دیو مندر کو توڑ دیا گیا؛ اورنگ زیب کی مسجد کے لیے استعمال ہونے والی جگہ۔",
+        "temple_name": "کیشو دیو مندر / شاہی عیدگاہ کمپلیکس",
+        "timeline": [
+          "1670: مسماری اور مسجد کی تعمیر (فی تاریخی ریکارڈ)"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "تصدیق شدہ_ملٹی سورس"
+      },
+      {
+        "alleged_perpetrator_affiliation": "دکن سلطانی اتحاد",
+        "approx_date": "1565",
+        "context_motive": [
+          "خاندانی_جنگ",
+          "سیاسی_سگنل",
+          "معاشی_لوٹ مار"
+        ],
+        "deity": "مختلف",
+        "event_type": [
+          "بوری",
+          "لوٹنا",
+          "ترک کرنا"
+        ],
+        "id": "hampi_1565",
+        "location": {
+          "city_or_district": "ہمپی/وجیا نگر",
+          "country": "انڈیا",
+          "state_province": "کرناٹک"
+        },
+        "period": "وجے نگر/ دکن سلاطین",
+        "sources": [
+          {
+            "title": "یونیسکو - ہمپی میں یادگاروں کا گروپ",
+            "type": "آئی او",
+            "url": "https://whc.unesco.org/en/list/241"
+          },
+          {
+            "title": "ہمپی (انسائیکلوپیڈیک جائزہ)",
+            "type": "خبریں/انسائیکلوپیڈک",
+            "url": "https://en.wikipedia.org/wiki/Hampi"
+          }
+        ],
+        "summary": "یونیسکو: شہر 1565 میں فتح کیا گیا اور چھ ماہ تک لوٹا گیا۔ بعد میں چھوڑ دیا.",
+        "temple_name": "ہمپی میں یادگاروں کا گروپ (متعدد مندر)",
+        "timeline": [
+          "1565: فتح اور بوری۔",
+          "بعد کی صدیوں: ASI تحفظ/یونیسکو کا نوشتہ (1986)"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "تصدیق شدہ_ملٹی سورس"
+      },
+      {
+        "alleged_perpetrator_affiliation": "کشمیر سلطنت (سکندر شاہ میری سے منسوب)",
+        "approx_date": "c 1390-1413 (تباہی کا مرحلہ)",
+        "context_motive": [
+          "سیاسی_سگنل",
+          "ریاستی_پالیسی",
+          "دیگر_یا_متنازعہ"
+        ],
+        "deity": "سوریا (مارتنڈ)",
+        "event_type": [
+          "انہدام",
+          "بربادی"
+        ],
+        "id": "martand_sun_temple_15c",
+        "location": {
+          "city_or_district": "متن (اننت ناگ)",
+          "country": "انڈیا",
+          "state_province": "جموں و کشمیر"
+        },
+        "period": "شاہ میر سلطنت",
+        "sources": [
+          {
+            "title": "مارٹنڈ سورج مندر (جائزہ)",
+            "type": "خبریں/انسائیکلوپیڈک",
+            "url": "https://en.wikipedia.org/wiki/Martand_Sun_Temple"
+          },
+          {
+            "title": "ہیریٹیج جرنل آرٹیکل (2020)",
+            "type": "تعلیمی",
+            "url": "https://www.heritageuniversityofkerala.com/JournalPDF/Volume8.2/60.pdf"
+          }
+        ],
+        "summary": "آٹھویں صدی کا مندر بعد میں تباہ ہو گیا۔ علمی ادب سیاسی/مذہبی سیاق و سباق کو نوٹ کرتا ہے اور ذرائع پر احتیاط کرتا ہے۔",
+        "temple_name": "مارٹنڈ سن ٹیمپل",
+        "timeline": [
+          "8th c.: تعمیر",
+          "c 15ویں ج: تباہی",
+          "جدید: ASI سے محفوظ کھنڈر"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "تصدیق شدہ_ملٹی سورس"
+      },
+      {
+        "alleged_perpetrator_affiliation": "بنگال سلطانی جنرل جو کالاپہاد کے نام سے جانا جاتا ہے۔",
+        "approx_date": "1568",
+        "context_motive": [
+          "خاندانی_جنگ",
+          "سیاسی_سگنل"
+        ],
+        "deity": "جگناتھ (وشنو اوتار روایت)",
+        "event_type": [
+          "بے حرمتی",
+          "لوٹ مار"
+        ],
+        "id": "پوری_جگن ناتھ_1568",
+        "location": {
+          "city_or_district": "پوری",
+          "country": "انڈیا",
+          "state_province": "اوڈیشہ"
+        },
+        "period": "افغان بنگال-اوڈیشہ تنازعہ",
+        "sources": [
+          {
+            "title": "اڑیسہ کا جائزہ (گورنمنٹ) - مندر کا انتظام اور تاریخ",
+            "type": "حکومت",
+            "url": "https://magazines.odisha.gov.in/Orissareview/2011/july/engpdf/5-8.pdf"
+          },
+          {
+            "title": "کالاپہار (جائزہ)",
+            "type": "خبریں/انسائیکلوپیڈک",
+            "url": "https://en.wikipedia.org/wiki/Kalapahar"
+          }
+        ],
+        "summary": "ریاستی جائزہ اور تاریخ میں بے حرمتی کا دوبارہ گنتی پادریوں نے بحالی سے پہلے دیوتا کے جوہر کی حفاظت کی۔",
+        "temple_name": "شری جگناتھ مندر",
+        "timeline": [
+          "1568: حملہ/بے حرمتی",
+          "1575: رامچندر دیوا اول کے ذریعے بحالی (فی ریاستی تاریخ)"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "تصدیق شدہ_ملٹی سورس"
+      },
+      {
+        "alleged_perpetrator_affiliation": "ملک کافور (سلطنت دہلی)",
+        "approx_date": "1311-02",
+        "context_motive": [
+          "معاشی_لوٹ مار",
+          "خاندانی_جنگ"
+        ],
+        "deity": "شیوا",
+        "event_type": [
+          "بوری",
+          "خراج تحسین",
+          "نقصان"
+        ],
+        "id": "halebidu_1311",
+        "location": {
+          "city_or_district": "ہیلیبیڈو (دوارسمودرا)",
+          "country": "انڈیا",
+          "state_province": "کرناٹک"
+        },
+        "period": "دہلی سلطنت",
+        "sources": [
+          {
+            "title": "دواراسمودر کا محاصرہ",
+            "type": "خبریں/انسائیکلوپیڈک",
+            "url": "https://en.wikipedia.org/wiki/Siege_of_Dwarasamudra"
+          }
+        ],
+        "summary": "مہم نے خراج تحسین لینے کے ساتھ ہویسالہ کے دارالحکومت پر قبضہ کر لیا۔ بعد کی داستانیں اس علاقے میں مندروں کو پہنچنے والے نقصان کا حوالہ دیتی ہیں۔",
+        "temple_name": "Hoysaleswara مندر (Halebidu)",
+        "timeline": [
+          "1311: محاصرہ اور ہتھیار ڈالنا",
+          "نتیجہ: خراج تحسین، نقصانات، علاقائی نقصان کے حسابات"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "جزوی طور پر_تصدیق شدہ"
+      },
+      {
+        "alleged_perpetrator_affiliation": "پرتگالی نوآبادیاتی حکام (Estado da Índia)، کلیسیائی اقدامات",
+        "approx_date": "1540-1600s",
+        "context_motive": [
+          "ریاستی_پالیسی"
+        ],
+        "deity": "مختلف",
+        "event_type": [
+          "انہدام",
+          "ضبطی",
+          "نقل مکانی"
+        ],
+        "id": "goa_old_conquests_16c",
+        "location": {
+          "city_or_district": "Tiswadi/Bardez/Salcete (پرانا گوا)؛ بعد میں پونڈا۔",
+          "country": "انڈیا",
+          "state_province": "گوا"
+        },
+        "period": "پرتگالی نوآبادیاتی",
+        "sources": [
+          {
+            "title": "ماڈرن ایشین اسٹڈیز - دیوتاؤں کی پرواز (ایکسلروڈ اور فیورچ)",
+            "type": "تعلیمی",
+            "url": "https://www.cambridge.org/core/journals/modern-asian-studies/article/abs/flight-of-the-deities-hindu-resistance-in-portuguese-goa/FC375FC6905C07727E26A1C9F2659322"
+          },
+          {
+            "title": "JSTOR مستحکم اندراج",
+            "type": "تعلیمی",
+            "url": "https://www.jstor.org/stable/313013"
+          }
+        ],
+        "summary": "ہم مرتبہ کا جائزہ لیا گیا کام کی دستاویزات مندر کی تباہی اور اندرون ملک 'دیوتاؤں کی پرواز'؛ پونڈہ میں کئی بڑے مزاروں کو دوبارہ قائم کیا گیا۔",
+        "temple_name": "متعدد (مثال کے طور پر، منگشی/شانتادرگا کی جگہ جگہ)",
+        "timeline": [
+          "وسط 16 سی.: تباہی/دھمکی",
+          "16-17 ویں سی.: اندرون ملک نقل مکانی اور بحالی"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "تصدیق شدہ_ملٹی سورس"
+      },
+      {
+        "alleged_perpetrator_affiliation": "مقامی ہجوم؛ سیاسی/مذہبی مشتعل",
+        "approx_date": "2020-12-30",
+        "context_motive": [
+          "فرقہ وارانہ_ہدف بندی"
+        ],
+        "deity": "کرشنا/پرمہانس جی (سمادھی)",
+        "event_type": [
+          "آگ لگانا",
+          "انہدام",
+          "ہجومی_تشدد"
+        ],
+        "id": "پاکستان_کرک_2020",
+        "location": {
+          "city_or_district": "تیری، کرک",
+          "country": "پاکستان",
+          "state_province": "خیبر پختونخواہ"
+        },
+        "period": "ہم عصر",
+        "sources": [
+          {
+            "title": "الجزیرہ - سپریم کورٹ نے دوبارہ تعمیر کا حکم دیا۔",
+            "type": "خبریں",
+            "url": "https://www.aljazeera.com/news/2021/1/6/pakistani-top-court-orders-rebuilding-of-destroyed-hindu-temple"
+          },
+          {
+            "title": "DW—ہجوم نے مندر کو آگ لگا دی۔",
+            "type": "خبریں",
+            "url": "https://www.dw.com/en/pakistan-mob-torches-hindu-temple/a-56101422"
+          }
+        ],
+        "summary": "مندر پر حملہ کر کے جلایا گیا۔ پاکستان سپریم کورٹ نے تعمیر نو کا حکم دیا۔ گرفتاریوں کے بعد.",
+        "temple_name": "شری پرہنس جی مہاراج سمادھی اور کرشن دوارا مندر",
+        "timeline": [
+          "30 دسمبر 2020: حملہ",
+          "جنوری 2021: سپریم کورٹ نے دوبارہ تعمیر کا حکم دیا۔ گرفتاریاں/پولیس معطلی۔"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "تصدیق شدہ_ملٹی سورس"
+      },
+      {
+        "alleged_perpetrator_affiliation": "فرقہ وارانہ بدامنی میں ہجوم",
+        "approx_date": "1992-12",
+        "context_motive": [
+          "انتقامی کارروائی",
+          "فرقہ وارانہ_ہدف بندی"
+        ],
+        "deity": "مختلف",
+        "event_type": [
+          "توڑ پھوڑ",
+          "آگ لگانا",
+          "انہدام"
+        ],
+        "id": "پاکستان_پوسٹ_ایودھیا_1992",
+        "location": {
+          "country": "پاکستان"
+        },
+        "period": "ہم عصر",
+        "sources": [
+          {
+            "title": "ایشین سروے (جے ایس ٹی او آر) - ایودھیا پر ردعمل",
+            "type": "تعلیمی",
+            "url": "https://www.jstor.org/stable/2645358"
+          },
+          {
+            "title": "MAR تاریخ - پاکستان میں ہندو",
+            "type": "تعلیمی",
+            "url": "http://mar.umd.edu/chronology.asp?groupId=77004"
+          }
+        ],
+        "summary": "علمی اور اخباری رپورٹس میں بابری کے انہدام کے بعد مندروں پر بڑے پیمانے پر حملے ریکارڈ کیے گئے۔",
+        "temple_name": "متعدد ہندو مندر (ملک بھر میں)",
+        "timeline": [
+          "دسمبر 1992: شہروں میں حملے ریکارڈ کیے گئے۔ گرفتاریوں/بندیوں کی اطلاع دی گئی۔"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "تصدیق شدہ_ملٹی سورس"
+      },
+      {
+        "alleged_perpetrator_affiliation": "وائرل افواہ پر ہجوم کا رد عمل",
+        "approx_date": "2021-10",
+        "context_motive": [
+          "فرقہ وارانہ_ہدف بندی",
+          "سوشل_میڈیا_افواہ"
+        ],
+        "deity": "درگا/متعلق دیوتا",
+        "event_type": [
+          "توڑ پھوڑ",
+          "آگ لگانا",
+          "فسادات"
+        ],
+        "id": "بنگلہ دیش_درگا_پوجا_2021",
+        "location": {
+          "country": "بنگلہ دیش"
+        },
+        "period": "ہم عصر",
+        "sources": [
+          {
+            "title": "ہیومن رائٹس واچ - ہندو تہوار پر مہلک حملے",
+            "type": "این جی او",
+            "url": "https://www.hrw.org/news/2021/10/21/bangladesh-deadly-attacks-hindu-festival"
+          },
+          {
+            "title": "ڈھاکہ ٹریبیون — تشدد پر لپیٹ",
+            "type": "خبریں",
+            "url": "https://www.dhakatribune.com/bangladesh/315597/durga-puja-ends-amid-tension-violence-across-the"
+          }
+        ],
+        "summary": "HRW اور قومی دکانوں نے مندروں/منڈپوں میں توڑ پھوڑ، اموات اور 450+ گرفتاریوں کی اطلاع دی۔",
+        "temple_name": "متعدد مندر/منڈپ (ملک بھر میں)",
+        "timeline": [
+          "13-19 اکتوبر 2021: تمام اضلاع میں واقعات؛ پولیس/ نیم فوجی تعیناتیاں؛ گرفتاریاں"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "تصدیق شدہ_ملٹی سورس"
+      },
+      {
+        "alleged_perpetrator_affiliation": "سیاسی بدامنی کے درمیان انتہا پسند ہجوم",
+        "approx_date": "2013-02 سے 2013-06",
+        "context_motive": [
+          "سیاسی_بدامنی",
+          "فرقہ وارانہ_ہدف بندی"
+        ],
+        "deity": "مختلف",
+        "event_type": [
+          "توڑ پھوڑ",
+          "آگ لگانا",
+          "حملہ"
+        ],
+        "id": "بنگلہ دیش_2013_مخالف_ہندو_تشدد",
+        "location": {
+          "country": "بنگلہ دیش"
+        },
+        "period": "ہم عصر",
+        "sources": [
+          {
+            "title": "یو ایس اسٹیٹ ڈپارٹمنٹ—بنگلہ دیش 2013 انسانی حقوق کی رپورٹ",
+            "type": "حکومت",
+            "url": "https://2009-2017.state.gov/documents/organization/220600.pdf"
+          },
+          {
+            "title": "ایمنسٹی انٹرنیشنل—سالانہ رپورٹ 2013 (بنگلہ دیش)",
+            "type": "این جی او",
+            "url": "https://www.refworld.org/reference/annualreport/amnesty/2013/en/56780"
+          }
+        ],
+        "summary": "بین الاقوامی حقوق کی رپورٹوں میں 2013 کے ہنگاموں کے دوران ہندو اقلیتوں اور عبادت گاہوں پر بڑے پیمانے پر حملوں کو نوٹ کیا گیا ہے۔",
+        "temple_name": "متعدد مندر (اضلاع بھر میں)",
+        "timeline": [
+          "فروری-جون 2013: متعدد اضلاع متاثر ہوئے۔ سرکاری/این جی او کی دستاویزات جمع کی گئیں۔"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "جزوی طور پر_تصدیق شدہ"
+      },
+      {
+        "alleged_perpetrator_affiliation": "کرائے کے مظاہرین؛ نقل مکانی کے تنازعہ کے گرد حریف گروپ (فی حکومتی بیانات/مقدمات)",
+        "approx_date": "26-11-2018",
+        "context_motive": [
+          "جائیداد_تنازعہ",
+          "فرقہ وارانہ_تناؤ"
+        ],
+        "deity": "مریم من (شکتی)",
+        "event_type": [
+          "فسادات",
+          "آگ لگانا",
+          "حملہ"
+        ],
+        "id": "ملائیشیا_سیفیلڈ_2018",
+        "location": {
+          "city_or_district": "USJ 25، Subang Jaya",
+          "country": "ملائیشیا",
+          "state_province": "سیلنگور"
+        },
+        "period": "ہم عصر",
+        "sources": [
+          {
+            "title": "سری مہا مریممان مندر میں فسادات",
+            "type": "خبریں/انسائیکلوپیڈک",
+            "url": "https://en.wikipedia.org/wiki/Sri_Maha_Mariamman_Temple_riot"
+          },
+          {
+            "title": "مالائی میل — تاریخ/قانونی سیاق و سباق",
+            "type": "خبریں",
+            "url": "https://www.malaymail.com/news/malaysia/2018/11/29/the-subang-hindu-temple-its-history-and-legal-dramas/1698165"
+          }
+        ],
+        "summary": "مندر کی منتقلی کے ارد گرد دو روزہ فسادات؛ ایک فائر فائٹر مر گیا؛ 100+ گرفتاریاں؛ طویل عدالتی عمل.",
+        "temple_name": "سری مہا مریم من دیوستھانم (سمندری میدان)",
+        "timeline": [
+          "26-27 نومبر 2018: فسادات",
+          "2019-2023: تفتیش/مقدمات، بعد میں ایک کیس میں بری"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "تصدیق شدہ_ملٹی سورس"
+      },
+      {
+        "alleged_perpetrator_affiliation": "نامعلوم (پولیس تفتیش)",
+        "approx_date": "2023-05",
+        "context_motive": [
+          "سیاسی_تناؤ"
+        ],
+        "deity": "سوامی نارائن روایت",
+        "event_type": [
+          "توڑ پھوڑ"
+        ],
+        "id": "australia_sydney_baps_2023",
+        "location": {
+          "city_or_district": "روز ہل (پیرامٹا)",
+          "country": "آسٹریلیا",
+          "state_province": "نیو ساؤتھ ویلز"
+        },
+        "period": "ہم عصر",
+        "sources": [
+          {
+            "title": "اے بی سی نیوز - سڈنی میں توڑ پھوڑ کی کوریج",
+            "type": "خبریں",
+            "url": "https://www.abc.net.au/news/2023-05-14/sikh-leaders-call-for-peace-after-sydney-hindu-temple-vandalised/102343878"
+          }
+        ],
+        "summary": "سیاسی جملے سے مندر کو خراب کیا گیا سکھ رہنماؤں نے مذمت کی اور امن پر زور دیا۔ NSW پولیس نے تفتیش کی۔",
+        "temple_name": "بی اے پی ایس سوامی نارائن مندر (روز ہل)",
+        "timeline": [
+          "مئی 2023: واقعہ ریکارڈ کیا گیا۔ کمیونٹی رہنماؤں اور پولیس کے جوابات"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "تصدیق شدہ_ملٹی سورس"
+      },
+      {
+        "alleged_perpetrator_affiliation": "نامعلوم (تحقیقات)",
+        "approx_date": "2023-01",
+        "context_motive": [
+          "سیاسی_تناؤ"
+        ],
+        "deity": "مختلف",
+        "event_type": [
+          "توڑ پھوڑ",
+          "گرافٹی"
+        ],
+        "id": "australia_melbourne_iskcon_2023",
+        "location": {
+          "city_or_district": "میلبورن",
+          "country": "آسٹریلیا",
+          "state_province": "وکٹوریہ"
+        },
+        "period": "ہم عصر",
+        "sources": [
+          {
+            "title": "ایس بی ایس ہندی—تیسرے مندر میں توڑ پھوڑ",
+            "type": "خبریں",
+            "url": "https://www.sbs.com.au/language/hindi/en/article/another-hindu-temple-vandalised-days-after-india-seeks-speedy-investigation-and-action/cfn23dnt6"
+          },
+          {
+            "title": "ABC — مندروں پر حملوں پر وزیر اعظم کی گفتگو",
+            "type": "خبریں",
+            "url": "https://www.abc.net.au/news/2023-03-11/modi-calls-on-albanese-to-combat-attacks-on-hindu-temples-in-aus/102083152"
+          }
+        ],
+        "summary": "میلبورن کے کم از کم تین مندروں کو سیاسی نعروں سے خراب کیا گیا۔ بھارت نے فوری کارروائی کا مطالبہ کیا۔ پولیس کی تحقیقات شروع.",
+        "temple_name": "اسکون اور دیگر مندر (میلبورن کا علاقہ)",
+        "timeline": [
+          "جنوری 2023: بدکاری کی اطلاع دی گئی؛ مارچ 2023: رہنما تحفظات پر تبادلہ خیال کر رہے ہیں۔"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "تصدیق شدہ_ملٹی سورس"
+      },
+      {
+        "alleged_perpetrator_affiliation": "نامعلوم (پولیس تفتیش)",
+        "approx_date": "21-07-2025",
+        "context_motive": [
+          "نسلی_نفرت"
+        ],
+        "deity": "سوامی نارائن روایت",
+        "event_type": [
+          "توڑ پھوڑ",
+          "نفرت_گریفیٹی"
+        ],
+        "id": "australia_boronia_2025",
+        "location": {
+          "city_or_district": "بورونیا (میلبورن)",
+          "country": "آسٹریلیا",
+          "state_province": "وکٹوریہ"
+        },
+        "period": "ہم عصر",
+        "sources": [
+          {
+            "title": "پہلی پوسٹ — نسل پرستانہ گرافٹی کا واقعہ",
+            "type": "خبریں",
+            "url": "https://www.firstpost.com/world/australia-swaminarayan-temple-defaced-with-racist-graffiti-days-after-attack-on-indian-national-13911800.html"
+          },
+          {
+            "title": "دکن کرانیکل — پولیس کے بیانات",
+            "type": "خبریں",
+            "url": "https://www.deccanchronicle.com/world/australia-and-new-zealand/australia-hindu-temple-vandalised-with-racist-slurs-1893399"
+          }
+        ],
+        "summary": "مندر نسل پرستانہ گالیوں سے خراب وکٹوریہ پولیس منسلک واقعات کی تحقیقات کر رہی ہے۔ شدید عوامی مذمت.",
+        "temple_name": "شری سوامینرائن مندر (بورونیا)",
+        "timeline": [
+          "21-24 جولائی 2025: گرافٹی دریافت پولیس اور قائدین جواب دیں۔"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "تصدیق شدہ_ملٹی سورس"
+      },
+      {
+        "alleged_perpetrator_affiliation": "مسابقتی احتجاجی گروپ؛ پولیس کی طرف سے کئی الزامات",
+        "approx_date": "2024-11-03",
+        "context_motive": [
+          "تارکین وطن_سیاسی_تناؤ"
+        ],
+        "deity": "مختلف",
+        "event_type": [
+          "تشدد",
+          "جھڑپیں",
+          "توڑ پھوڑ"
+        ],
+        "id": "کینیڈا_برامپٹن_ہندو_سبھا_2024",
+        "location": {
+          "city_or_district": "برامپٹن (GTA)",
+          "country": "کینیڈا",
+          "state_province": "اونٹاریو"
+        },
+        "period": "ہم عصر",
+        "sources": [
+          {
+            "title": "VOA - گرفتاریاں اور مذمت",
+            "type": "خبریں",
+            "url": "https://www.voanews.com/a/7851724.html"
+          }
+        ],
+        "summary": "پولیس نے مندر کے قریب/تشدد کے بعد متعدد افراد پر فرد جرم عائد کی۔ کینیڈین اور بھارتی وزرائے اعظم نے مذمت کی۔",
+        "temple_name": "ہندو سبھا مندر",
+        "timeline": [
+          "نومبر 2024: واقعہ؛ گرفتاریوں اور تحقیقات کا اعلان"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "تصدیق شدہ_ملٹی سورس"
+      },
+      {
+        "alleged_perpetrator_affiliation": "نامعلوم؛ پولیس نے مشتبہ تصاویر جاری کر دیں۔",
+        "approx_date": "2025-03/04",
+        "context_motive": [
+          "نفرت_واقعہ"
+        ],
+        "deity": "کرشنا۔",
+        "event_type": [
+          "توڑ پھوڑ"
+        ],
+        "id": "canada_georgetown_skb_2025",
+        "location": {
+          "city_or_district": "ہالٹن ہلز (GTA)",
+          "country": "کینیڈا",
+          "state_province": "اونٹاریو"
+        },
+        "period": "ہم عصر",
+        "sources": [
+          {
+            "title": "CNBC TV18—پولیس مشتبہ افراد کی تلاش کر رہی ہے۔",
+            "type": "خبریں",
+            "url": "https://www.cnbctv18.com/world/hindu-temple-vandalised-in-canada-police-race-to-find-culprits-19584789.htm"
+          },
+          {
+            "title": "نیوز 18 — مین ہنٹ رپورٹ",
+            "type": "خبریں",
+            "url": "https://www.news18.com/world/hindu-temple-vandalised-in-canada-police-launch-manhunt-to-nab-two-suspects-ws-kl-9286838.html"
+          }
+        ],
+        "summary": "مندر کا نشان ٹوٹ گیا/ نقصان پہنچا؛ پولیس نے تلاش شروع کر دی کمیونٹی گروپس نے بڑھتے ہوئے انتہا پسندی کے تناظر کو جھنڈا دیا۔",
+        "temple_name": "سری کرشنا برنداوانا (جارج ٹاؤن)",
+        "timeline": [
+          "مارچ-اپریل 2025: واقعہ اور مشتبہ تصاویر شائع کی گئیں۔"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "تصدیق شدہ_ملٹی سورس"
+      },
+      {
+        "alleged_perpetrator_affiliation": "نامعلوم (پولیس تفتیش؛ ممکنہ نفرت انگیز جرم)",
+        "approx_date": "23-12-2023/24",
+        "context_motive": [
+          "تارکین وطن_سیاسی_تناؤ"
+        ],
+        "deity": "سوامی نارائن روایت",
+        "event_type": [
+          "توڑ پھوڑ",
+          "نفرت_گریفیٹی"
+        ],
+        "id": "usa_newark_ca_2023",
+        "location": {
+          "city_or_district": "نیوارک (بے ایریا)",
+          "country": "ریاستہائے متحدہ",
+          "state_province": "کیلیفورنیا"
+        },
+        "period": "ہم عصر",
+        "sources": [
+          {
+            "title": "این بی سی بے ایریا — پولیس تفتیش کر رہی ہے۔",
+            "type": "خبریں",
+            "url": "https://www.nbcbayarea.com/news/local/graffiti-vandalism-newark-hindu-temple-hate-crime/3405591/"
+          },
+          {
+            "title": "CBS SF - توڑ پھوڑ کا سیاق و سباق",
+            "type": "خبریں",
+            "url": "https://www.cbsnews.com/sanfrancisco/news/vandalism-of-newark-hindu-temple-highlights-geopolitical-issue/"
+          }
+        ],
+        "summary": "مندر پر بھارت مخالف گرافٹی سپرے نیوارک پولیس ممکنہ نفرت انگیز جرم کی تحقیقات کر رہی ہے۔ وسیع برادری کی مذمت۔",
+        "temple_name": "ایس ایم وی ایس شری سوامی نارائن مندر (نیوارک، سی اے)",
+        "timeline": [
+          "24-26 دسمبر 2023: واقعہ کی اطلاع دی گئی؛ پولیس + کمیونٹی کے بیانات"
+        ],
+        "tradition": "ہندو",
+        "verification_status": "تصدیق شدہ_ملٹی سورس"
+      }
+    ]
+  }
+}

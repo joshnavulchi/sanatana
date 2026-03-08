@@ -1,0 +1,145 @@
+{
+  "philosophy_purushartha": {
+    "meta": {
+      "canonical": "https://sanatanadharmam.in/philosophy/purushartha",
+      "description": "Purusharthas — Philosophy — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Purusharthas. Explore practices, history, and guiding principles...",
+      "keywords": [
+        "artha",
+        "bhagavadgita purusharthas",
+        "desire fulfillment",
+        "dharma",
+        "ethical living",
+        "four goals of life",
+        "hindu philosophy",
+        "kama",
+        "manusmriti purusharthas",
+        "material prosperity",
+        "moksha",
+        "purusharthas",
+        "purusharthas concepts",
+        "purusharthas in modern life",
+        "purusharthas origin",
+        "purusharthas personal development",
+        "purusharthas principles",
+        "purusharthas q&a",
+        "purusharthas relation to other concepts",
+        "purusharthas relevance",
+        "purusharthas scriptural references",
+        "purusharthas society",
+        "purusharthas well-being",
+        "spiritual liberation"
+      ],
+      "ogimage": "/og/purusharthas-philosophy.png",
+      "title": "Purusharthas | Philosophy — Sanātana Dharma - Explore Sanatan Dharma",
+      "url": "https://sanatanadharmam.in/philosophy/purushartha"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "English",
+            "Español",
+            "Français",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Nederlands",
+            "Português",
+            "Русский",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "core_principles": [
+      "Balance between material and spiritual pursuits",
+      "Ethical framework for achieving goals",
+      "Progressive evolution from desire to liberation"
+    ],
+    "definition": "Purusharthas are the four fundamental goals of human life in Hindu philosophy, guiding individuals toward a balanced and meaningful existence.",
+    "four_goals": {
+      "artha": "Material prosperity, wealth, and resources for sustenance.",
+      "dharma": "Righteousness, moral duties, and ethical living.",
+      "kama": "Desires, pleasures, and emotional fulfillment.",
+      "moksha": "Liberation from the cycle of birth and death; spiritual freedom."
+    },
+    "key_scriptural_references": [
+      {
+        "quote_summary": "Perform duties without attachment to results for spiritual progress.",
+        "text": "Bhagavathgita"
+      },
+      {
+        "quote_summary": "Defines the role of Dharma in guiding Artha and Kama.",
+        "text": "Manusmriti"
+      }
+    ],
+    "modern_relevance": {
+      "personal_development": "Encourages holistic growth—ethical, material, emotional, and spiritual.",
+      "society": "Promotes harmony through balanced living.",
+      "well-being": "Integrates duty, wealth, pleasure, and liberation for a fulfilling life."
+    },
+    "origin": {
+      "meaning": "Derived from Sanskrit 'Purusha' (human being) and 'Artha' (purpose or goal).",
+      "roots": "Vedic and Dharmashastra teachings",
+      "texts": [
+        "Vedas",
+        "Upanishads",
+        "Manusmriti",
+        "Bhagavathgita"
+      ]
+    },
+    "relation_to_other_concepts": {
+      "dharma": "Acts as a guiding principle for Artha and Kama.",
+      "karma": "Actions in pursuit of these goals create karmic consequences.",
+      "moksha": "The ultimate goal beyond worldly pursuits."
+    },
+    "purushartha_qa": [
+      {
+        "question": "What are the Purusharthas?",
+        "answer": "The Purusharthas are the four fundamental aims of human life in Hindu philosophy: Dharma (righteousness), Artha (prosperity), Kama (desire), and Moksha (liberation). They provide a holistic framework for a balanced and meaningful life."
+      },
+      {
+        "question": "पुरुषार्थहरू एकअर्कासँग कसरी सम्बन्धित छन्?",
+        "answer": "धर्मले अर्थ र कामको खोजीलाई मार्गदर्शन गर्दछ, यो सुनिश्चित गर्दै कि धन र इच्छा नैतिक रूपमा खोजिएको छ। मोक्ष अन्तिम लक्ष्य हो, अन्य तीनलाई पार गर्दै। सबै चार एक अर्कामा निर्भर छन् र साँचो पूर्तिको लागि सन्तुलित हुनुपर्छ।"
+      },
+      {
+        "question": "के एक पुरुषार्थ अरु भन्दा महत्वपूर्ण छ?",
+        "answer": "जबकि सबै महत्त्वपूर्ण छन्, मोक्ष उच्चतम लक्ष्य मानिन्छ। यद्यपि, धर्म, अर्थ वा कामलाई बेवास्ता गर्दा असंतुलन हुन सक्छ। आदर्श जीवनको चरण र व्यक्तिगत प्रकृति अनुसार चारैवटै मिलाउनु हो।"
+      },
+      {
+        "question": "आज पुरुषार्थहरू कसरी सान्दर्भिक छन्?",
+        "answer": "तिनीहरू नैतिक जीवन, जिम्मेवार धन सृजन, स्वस्थ सम्बन्ध, र आध्यात्मिक वृद्धिको लागि कालातीत मार्गदर्शन प्रदान गर्छन्। आधुनिक जीवनमा, तिनीहरूले व्यक्तिहरूलाई उद्देश्य, सन्तुलन र आन्तरिक शान्ति खोज्न मद्दत गर्छन्।"
+      },
+      {
+        "question": "कुन शास्त्रमा पुरुषार्थको चर्चा छ ?",
+        "answer": "वेद, उपनिषद, मनुस्मृति र भगवद् गीता सबैले पुरुषार्थको चर्चा गर्दछ, दार्शनिक र व्यावहारिक अन्तर्दृष्टि प्रदान गर्दछ।"
+      },
+      {
+        "question": "के पुरुषार्थले एकअर्कासँग झगडा गर्न सक्छ?",
+        "answer": "हो, कहिलेकाहीं इच्छा (काम) वा धनको खोजी (अर्थ) धर्मसँग द्वन्द्व हुन सक्छ। त्यस्ता अवस्थामा, धर्मले नैतिक र सामाजिक व्यवस्थालाई समर्थन गर्ने भएकाले प्राथमिकता दिनुपर्छ।"
+      },
+      {
+        "question": "पुरुषार्थहरूले आध्यात्मिक उन्नतिलाई कसरी समर्थन गर्छन्?",
+        "answer": "सांसारिक कर्तव्य र इच्छाहरू नैतिक रूपमा पूरा गर्नाले मन शुद्ध र परम मुक्ति मोक्षको लागि तयार हुन्छ।"
+      },
+      {
+        "question": "के पुरुषार्थहरू हिन्दू धर्ममा अद्वितीय छन्?",
+        "answer": "जबकि ढाँचा हिन्दू दर्शनमा सबैभन्दा विकसित भएको छ, कर्तव्य, धन, इच्छा, र आध्यात्मिक स्वतन्त्रता सन्तुलनको बारेमा समान विचारहरू अन्य विश्व परम्पराहरूमा पाइन्छ।"
+      }
+    ]
+  }
+}

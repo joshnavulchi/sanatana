@@ -1,0 +1,203 @@
+{
+  "stories_adishankaracharya": {
+    "meta": {
+      "title": "கதைகள் | ஆதி சங்கராச்சாரியார் — சனாதன தர்மம் - சனாதன தர்மத்தை ஆராயுங்கள்",
+      "canonical": "https://sanatanadharmam.in/stories/adishankaracharya",
+      "description": "சனாதன தர்மா.இன் - கட்டுரைகள், மொழிபெயர்ப்புகள் மற்றும் வர்ணனைகளில் ஆதிசங்கரரைப் பற்றி அறிக.",
+      "keywords": [
+        "Adi Shankaracharya Stories",
+        "Shankaracharya Biography",
+        "Shankaracharya Biography in English",
+        "Shankaracharya Early Life",
+        "Shankaracharya Early Life in English",
+        "Shankaracharya Institutions Founded",
+        "Shankaracharya Institutions Founded in English",
+        "Shankaracharya Key Teachings",
+        "Shankaracharya Key Teachings in English",
+        "Shankaracharya Legacy",
+        "Shankaracharya Legacy in English",
+        "Shankaracharya Lineage",
+        "Shankaracharya Lineage in English",
+        "Shankaracharya Major Works",
+        "Shankaracharya Major Works in English",
+        "Shankaracharya Philosophical Themes",
+        "Shankaracharya Philosophical Themes in English",
+        "Shankaracharya Philosophy",
+        "Shankaracharya Philosophy in English",
+        "Shankaracharya Renunciation",
+        "Shankaracharya Renunciation in English",
+        "Shankaracharya Role",
+        "Shankaracharya Role in English",
+        "Shankaracharya Samadhi",
+        "Shankaracharya Samadhi in English",
+        "Shankaracharya Significance",
+        "Shankaracharya Significance in English",
+        "Shankaracharya Teachings",
+        "Shankaracharya Teachings in English",
+        "Shankaracharya Texts and Verses",
+        "Shankaracharya Texts and Verses in English",
+        "Shankaracharya Timeline",
+        "Shankaracharya Timeline in English",
+        "Shankaracharya Travels",
+        "Shankaracharya Travels in English"
+      ],
+      "ogimage": "/og/home.png",
+      "url": "https://sanatanadharmam.in/stories/adishankaracharya"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "அமைப்பு",
+        "contactpoint": {
+          "@type": "தொடர்பு புள்ளி",
+          "areaserved": "உலகம் முழுவதும்",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "ஆங்கிலம்",
+            "எஸ்பானோல்",
+            "பிரான்சிஸ்",
+            "ஹிந்தி",
+            "எஸ்",
+            "நேபாளி",
+            "நெதர்லாந்து",
+            "போர்த்துகீசியர்கள்",
+            "ருஸ்கி",
+            "தெலுங்கு",
+            "அர்து",
+            "中文 (简体)"
+          ],
+          "contacttype": "வாடிக்கையாளர் ஆதரவு",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "சனாதனதர்மம்.இன் பற்றி",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "biography": {
+      "birth": {
+        "parents": "சிவகுரு மற்றும் ஆர்யாம்பா",
+        "place": "காலடி, கேரளா, இந்தியா",
+        "year": "c. 788 CE (பாரம்பரிய தேதி)"
+      },
+      "early_life": "சிறு வயதிலிருந்தே, சங்கரர் அசாதாரண புத்திசாலித்தனத்தையும் ஆன்மீக நாட்டத்தையும் வெளிப்படுத்தினார். அவர் ஆரம்பத்திலேயே வேதங்கள் மற்றும் வேதங்களில் தேர்ச்சி பெற்றார், மேலும் துறவின் பாதைக்கு ஈர்க்கப்பட்டார்.",
+      "founding_mathas": "அவர் சிருங்கேரி, துவாரகா, பூரி மற்றும் ஜோதிர்மத் ஆகிய நான்கு பெரிய துறவு மையங்களை (மடங்கள்) நிறுவினார், அவை அவரது போதனைகளைத் தொடர்ந்து பாதுகாக்கின்றன.",
+      "full_name": "ஆதி சங்கராச்சாரியார்",
+      "legacy": "ஆதி சங்கராச்சாரியார் இந்து சிந்தனையின் பல்வேறு பள்ளிகளை ஒருங்கிணைத்தார், அத்வைத வேதாந்தத்தை ஒரு மைய தத்துவமாக நிறுவினார், மேலும் தேடுபவர்களின் தலைமுறைகளை ஊக்கப்படுத்தினார். அவர் ஜகத்குரு (உலக ஆசிரியர்) என்று போற்றப்படுகிறார் மற்றும் ஆன்மீக ஆர்வலர்களுக்கு வழிகாட்டும் ஒளியாக இருக்கிறார்.",
+      "major_works": "சங்கரர் உபநிடதங்கள், பகவத் கீதை மற்றும் பிரம்ம சூத்திரங்கள் மற்றும் அசல் கட்டுரைகள் மற்றும் பக்தி பாடல்கள் பற்றிய ஆழமான விளக்கங்களை எழுதியுள்ளார்.",
+      "renunciation": "அவர் சிறுவயதில் சந்நியாசம் (துறவு) எடுத்து, குருவை நாடி, கோவிந்த பகவத்பாதாவின் சீடரானார்.",
+      "samadhi": "அவர் தனது 32வது வயதில் கேதார்நாத்தில் மகாசமாதி அடைந்ததாக நம்பப்படுகிறது.",
+      "travels": "சங்கரர் இந்தியா முழுவதும் பயணம் செய்தார், தத்துவ விவாதங்களில் ஈடுபட்டார், அத்வைத வேதாந்தத்தின் போதனைகளைப் பரப்பினார், மேலும் சனாதன தர்மத்திற்கு புத்துயிர் அளித்தார்."
+    },
+    "institutionsfounded": [
+      {
+        "matha": "சிருங்கேரி சாரதா பீடம்",
+        "region": "தென் இந்தியா"
+      },
+      {
+        "matha": "துவாரகா மாதா",
+        "region": "மேற்கு இந்தியா"
+      },
+      {
+        "matha": "பூரி கோவர்தன் மாதா",
+        "region": "கிழக்கு இந்தியா"
+      },
+      {
+        "matha": "ஜோதிர் மாதா",
+        "region": "வட இந்தியா"
+      }
+    ],
+    "keyteachings": [
+      {
+        "concept": "அத்வைதம்",
+        "description": "இரட்டை அல்லாத உண்மை; பிரம்மம் ஒன்றே உண்மை, உலகம் மாயை"
+      },
+      {
+        "concept": "மாயா",
+        "description": "உண்மையான அறிவை மறைக்கும் பிரபஞ்ச மாயை"
+      },
+      {
+        "concept": "ஞான யோகம்",
+        "description": "விடுதலைக்கு வழிவகுக்கும் அறிவின் பாதை"
+      }
+    ],
+    "lineage": {
+      "birth": {
+        "parents": "சிவகுரு மற்றும் ஆர்யாம்பா",
+        "period": "8 ஆம் நூற்றாண்டு கி.பி",
+        "place": "காலடி, கேரளா"
+      }
+    },
+    "majorworks": [
+      "பிரம்மசூத்திரங்கள் பற்றிய விளக்கம் (பிரம்மசூத்திர பாஷ்யம்)",
+      "பகவத்கீதை பற்றிய விளக்கம்",
+      "உபநிடதங்கள் பற்றிய வர்ணனை",
+      "பிரகாரண கிரந்தங்கள் (விவேகசூடாமணி போன்ற அறிமுக நூல்கள்)"
+    ],
+    "philosophicalthemes": [
+      "அத்வைத வேதாந்தம்: பிரம்மம் மட்டுமே உண்மையானது; உலகம் மாயா",
+      "சுயம் (ஆத்மன்) பிரம்மனுடன் ஒத்திருக்கிறது",
+      "ஞான (அறிவு) மூலம் விடுதலை, சடங்குகள் அல்ல"
+    ],
+    "role": "தத்துவவாதி, இறையியலாளர், அத்வைத வேதாந்தத்தின் நிறுவனர்",
+    "significance": {
+      "coreidentity": [
+        "இருமை அல்லாத (அத்வைதம்) முன்மொழிபவர்",
+        "இந்து சிந்தனையை ஒருங்கிணைத்தவர்",
+        "நான்கு மடங்களின் (துறவற மையங்கள்) நிறுவனர்"
+      ],
+      "titles": [
+        "ஜகத்குரு",
+        "ஆச்சார்யா"
+      ]
+    },
+    "textsandverses": [
+      {
+        "meaning": "பிரம்மம் உண்மையானது, உலகம் மாயையானது, தனிப்பட்ட ஆன்மா பிரம்மத்தைத் தவிர வேறில்லை.",
+        "name": "அத்வைத மகாவாக்கியம்",
+        "transliteration": "ব்ரஹ்ம ஸத்யம் ஜগந்மித்யா ஜீவோ ব்ரஹ்மைவ ந அபரঃ",
+        "verse": "பிரம்ம சத்தியம் ஜகன்மித்யா ஜீவோ ப்ரஹ்மைவ நாபரঃ ।"
+      },
+      {
+        "meaning": "நான் மனமோ, புத்தியோ, அகங்காரமோ, நினைவோ அல்ல; நான் தூய உணர்வு.",
+        "name": "விவேகசூடாமணி",
+        "transliteration": "மனோ-புத்தி-அஹங்கார சித்தாநி நஹம்",
+        "verse": "மனோபுத்யஹங்கார் சித்தானி நாஹம்."
+      },
+      {
+        "meaning": "கோவிந்தாவை வணங்கு, மூடனே! மரணம் வரும்போது, ​​இலக்கண விதிகள் உங்களைக் காப்பாற்றாது.",
+        "name": "பஜ கோவிந்தம்",
+        "transliteration": "ভஜ கோவிந்தம் ভஜ கோவிந்தம் கோவிந்தம் ভஜ மூধமதே",
+        "verse": "भஜ கோவிந்தம் பஜ கோவிந்தம் கோவிந்தம் பஜ மூதமே."
+      }
+    ],
+    "timeline": [
+      {
+        "event": "கேரளாவின் காலடியில் பிறந்தார்; ஆரம்பத்தில் ஆன்மீக நாட்டம் காட்டியது",
+        "phase": "பிறப்பு"
+      },
+      {
+        "event": "சிறு வயதிலேயே சன்னியாசம் எடுத்தார்; கோவிந்த பகவத்பாதாவின் சீடரானார்",
+        "phase": "துறத்தல்"
+      },
+      {
+        "event": "போட்டி பள்ளிகளை தோற்கடித்தது; அத்வைத மேலாதிக்கத்தை நிறுவினார்",
+        "phase": "தத்துவ விவாதங்கள்"
+      },
+      {
+        "event": "இந்தியா முழுவதும் நான்கு மடாலய மையங்களை நிறுவினார்",
+        "phase": "மத்ஸ் நிறுவுதல்"
+      },
+      {
+        "event": "உபநிடதங்கள், கீதை, பிரம்மசூத்திரங்கள் பற்றிய விளக்கவுரைகளை எழுதியவர்; பக்திப் பாடல்கள் எழுதினார்",
+        "phase": "கலவைகள்"
+      },
+      {
+        "event": "கேதார்நாத்தில் சமாதி அடைந்தார் (பாரம்பரிய நம்பிக்கை)",
+        "phase": "மகாசமாதி"
+      }
+    ]
+  }
+}

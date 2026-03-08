@@ -1,0 +1,89 @@
+{
+  "kidszone_mythologicalquizzes": {
+    "title": "مسابقات الأسطورية",
+    "meta": {
+      "title": "منطقة الاطفال | الاختبارات الأسطورية - ساناتانا دارما - اكتشف ساناتان دارما",
+      "canonical": "https://sanatanadharmam.in/kidszone/mythologicalquizzes",
+      "description": "KidsZone — اختبارات أسطورية — Sanātana Dharma - اكتشف Sanātana Dharma — مقالات وترجمات وتعليقات موجزة على KidsZone. استكشاف الممارسات والتاريخ والتوجيه...",
+      "keywords": [
+        "hindu epics quizzes",
+        "hindu gods and goddesses quizzes",
+        "hindu mythology games for kids",
+        "hindu mythology quizzes for children",
+        "hindu mythology trivia",
+        "hindu mythology worksheets for kids",
+        "hinduism for kids",
+        "kids learning hinduism",
+        "kids zone",
+        "kids zone activities",
+        "kids zone educational content",
+        "kids zone learning",
+        "kids zone mythological quizzes",
+        "kids zone resources",
+        "mythological characters quiz",
+        "mythological quizzes",
+        "mythological quizzes for classrooms",
+        "mythological quizzes for students",
+        "mythological quizzes interactive",
+        "mythological quizzes online",
+        "mythological quizzes printable",
+        "mythological quizzes with answers",
+        "mythological stories for kids",
+        "mythology education for children",
+        "mythology fun facts for kids",
+        "mythology quizzes for children",
+        "sanatana dharma",
+        "vedic mythology"
+      ],
+      "ogimage": "/og/kidszone-mythologicalquizzes.png",
+      "url": "https://sanatanadharmam.in/kidszone/mythologicalquizzes"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "منظمة",
+        "contactpoint": {
+          "@type": "نقطة الاتصال",
+          "areaserved": "في جميع أنحاء العالم",
+          "availablelanguage": [
+            "العربية",
+            "الألمانية",
+            "إنجليزي",
+            "الاسبانية",
+            "الفرنسية",
+            "الهندية",
+            "日本語",
+            "النيبالية",
+            "هولندا",
+            "البرتغالية",
+            "الروسية",
+            "نعم",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "دعم العملاء",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "حول Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "allorigins": "جميع الأصول",
+    "allthemes": "جميع المواضيع",
+    "characterslabel": "الشخصيات:",
+    "comicnotfounddesc": "لم نتمكن من العثور على هذا الكوميدي.",
+    "comicnotfoundtitle": "لم يتم العثور على الهزلي",
+    "description": "أجب عن 10 أسئلة عشوائية في 10 دقائق. حظ سعيد!",
+    "filter": "فلتر",
+    "morallabel": "أخلاقي:",
+    "next": "التالي",
+    "originlabel": "أصل",
+    "previous": "سابق",
+    "searchlabel": "يبحث",
+    "showing": "عرض {البداية}–{النهاية} من {total}",
+    "themelabel": "سمة",
+    "themeslabel": "المواضيع:"
+  }
+}

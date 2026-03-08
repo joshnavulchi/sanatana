@@ -1,0 +1,300 @@
+{
+  "home": {
+    "meta": {
+      "title": "Sanātana Dharma - 永恒的生活方式",
+      "canonical": "https://sanatanadharmam.in",
+      "description": "Sanātana Dharma — 探索 Sanātana Dharma：印度教的永恒原则、吠陀传统、精神实践和来自经典的智慧，如……",
+      "keywords": [
+        "Ancient Spiritual Teachings",
+        "Ancient Wisdom for Modern Seekers",
+        "Dharma, Karma, Moksha Explained",
+        "Dharma, Karma, Moksha Unveiled",
+        "Discover Ancient Hinduism",
+        "Discover Hindu Practices",
+        "Discover The Eternal Way",
+        "Discover Your Eternal Path",
+        "Discover Your Spiritual Path",
+        "Embrace Eternal Values",
+        "Embrace The Eternal Truths",
+        "Embrace Your Spiritual Journey",
+        "Embrace the Spiritual Path",
+        "Explore Hindu Principles",
+        "Explore The Eternal Way",
+        "Explore The Way Of Life",
+        "Explore Vedic Traditions",
+        "Find Your Spiritual Awakening",
+        "Harmony with Nature",
+        "Harmony with the Cosmos",
+        "Hindu Philosophy Unveiled",
+        "Hinduism's Eternal Principles",
+        "Hinduism: Beyond the Myths",
+        "Path to Inner Peace",
+        "Path to Self-Realization",
+        "Sanātana Dharma Insights",
+        "Sanātana Dharma Principles",
+        "Sanātana Dharma Wisdom",
+        "Sanātana Dharma for All",
+        "Sanātana Dharma for Everyone",
+        "Timeless Spiritual Principles",
+        "Timeless Spiritual Teachings",
+        "Understand Sanātana Dharma",
+        "Unlocking Ancient Wisdom",
+        "Unlocking Spiritual Truths",
+        "Vedic Knowledge for Modern Life"
+      ],
+      "ogimage": "images/og/home.png",
+      "url": "https://sanatanadharmam.in"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "组织",
+        "contactpoint": {
+          "@type": "联络点",
+          "areaserved": "全世界",
+          "availablelanguage": [
+            "巴黎",
+            "德语",
+            "英语",
+            "西班牙语",
+            "法国人",
+            "हिन्दी",
+            "日本语",
+            "नेपाली",
+            "荷兰",
+            "葡萄牙语",
+            "俄罗斯",
+            "తెలుగు",
+            "阿鲁多",
+            "中文 (简体)"
+          ],
+          "contacttype": "客户支持",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "关于 Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "cta": {
+      "title": "帮助我们使该网站成为多语言！",
+      "badge": "支持：EN、TA、HI",
+      "contribute": "立即贡献",
+      "guidelines": "翻译指南",
+      "subtitle": "您的贡献使每个人都可以访问我们的网站。加入我们的全球翻译社区。",
+      "targeting": "目标：10 种语言 · 已完成 60%"
+    },
+    "hero": {
+      "description": "植根于达玛、业力和自我实现的永恒精神传统，引导人类超越时间、文化和信仰。",
+      "heading": "萨那塔那佛法",
+      "primarycta": {
+        "label": "探索经文",
+        "link": "scriptures/bhagavadgita"
+      },
+      "scroll": "滚动了解更多",
+      "secondarycta": {
+        "label": "开始学习",
+        "link": "sanatanadharma"
+      },
+      "subheading": "永恒的生活方式"
+    },
+    "ourfourcoreyugas": [
+      {
+        "description": [
+          "真理和正义必将获胜",
+          "长寿和完美的健康",
+          "直接的神圣意识"
+        ],
+        "gradientfrom": "来自-琥珀-700",
+        "gradientto": "至-橙色-600",
+        "name": "萨蒂亚尤加",
+        "subtitle": "佛法时代",
+        "years": "1,728,000 年"
+      },
+      {
+        "description": [
+          "佛法略有衰退",
+          "罗摩衍那时代",
+          "精神纪律依然坚强"
+        ],
+        "gradientfrom": "从-橙色-500",
+        "gradientto": "至琥珀色 400",
+        "name": "特雷塔尤加",
+        "subtitle": "离婚年龄",
+        "years": "1,296,000 年"
+      },
+      {
+        "description": [
+          "佛法减半",
+          "摩诃婆罗多时代",
+          "冲突和复杂性增加"
+        ],
+        "gradientfrom": "来自-玫瑰-500",
+        "gradientto": "到-橙色-500",
+        "name": "德瓦帕拉尤加",
+        "subtitle": "佛法时代",
+        "years": "864,000 年"
+      },
+      {
+        "description": [
+          "唯物主义和无知占主导地位",
+          "修行是困难的",
+          "通过奉献可以得到解脱"
+        ],
+        "gradientfrom": "从-红色-700",
+        "gradientto": "to-玫瑰-700",
+        "name": "卡利时代",
+        "subtitle": "民间时代",
+        "years": "432,000 年"
+      }
+    ],
+    "earth_age_comparison_note": "1 劫（43.2 亿年）与现代科学估计的地球年龄（约 45.4 亿年）惊人地接近。",
+    "scaling_comment": "这种数学尺度是高度结构化的，并且在所有宇宙层面上都成比例。",
+    "ourfourcoreyugassubtitle": "基于真理、正义和维护宇宙秩序的精神原则的永恒和普遍的生活方式。这些数字不是随机的。它们是根据 432,000 的基本单位按比例（4:3:2:1）相乘得出的。梵天一整天：梵天的一生 - 100 梵天年 - 每年 = 360 天 - 每天 = 4 yugas（年龄） - 总计 = 311,040,000,000 人类年。",
+    "ourfourcoreyugastitle": "探索萨那塔那佛法",
+    "sections": [
+      {
+        "title": "什么是萨那塔那佛法？",
+        "content": "Sanātana Dharma，通常被翻译为“永恒之道”，不仅是一种宗教，而且是指导人类生活与宇宙真理和谐相处的永恒框架。它植根于吠陀智慧，强调普遍原则——Dharma（正义义务）、Karma（行动和后果）、Moksha（解脱）和对真理的追求。它教导人们慈悲、非暴力、尊重众生以及敬畏自然。与僵化的教条不同，它适应年龄、文化和环境，提供平衡、自我实现和团结的生动哲学。 Sanātana Dharma 最终确认存在本身是神圣的，生命的目的是实现与永恒的合一。",
+        "id": "介绍",
+        "nodecaration": true,
+        "src": "/images/home/om.png"
+      },
+      {
+        "title": "圣经是圣经吗？",
+        "content": "圣经是受人尊敬的文本，体现了神圣的智慧，引导人类走向真理、美德和解放。它们不仅是历史记录，而且是精神之光的活源泉，为正义的生活提供了永恒的原则。圣经保存了激发奉献、纪律和自我实现的启示、赞美诗和教义。它们将探索者与永恒联系起来，提醒我们存在的神圣性和所有存在的统一性。通过故事、哲学和道德准则，他们培养同情心、信仰和内在力量。圣经最终成为人与神之间的桥梁，照亮永恒的和谐之路。",
+        "id": "经文",
+        "items": [
+          {
+            "title": "吠陀经",
+            "description": "智慧·颂歌·佛法·宇宙·解脱",
+            "href": "/scriptures/vedas",
+            "src": "/images/home/the-vedas.png"
+          },
+          {
+            "title": "奥义书",
+            "description": "婆罗门·阿特曼·知识·解放·统一",
+            "href": "/scriptures/upanishads",
+            "src": "/images/home/the-upanishads.png"
+          },
+          {
+            "title": "伊蒂哈萨人",
+            "description": "责任·奉献·冲突·佛法·遗产",
+            "href": "/scriptures/itihasas",
+            "src": "/images/home/the-ithihas.png"
+          },
+          {
+            "title": "往世书",
+            "description": "神话·宇宙学·传说·奉献·佛法",
+            "href": "/scriptures/puranas",
+            "src": "/images/home/the-puranas.png"
+          }
+        ]
+      },
+      {
+        "title": "🌿 活生生的精神传统意味着什么？",
+        "content": "活生生的精神传统不是过去的遗迹，而是世代相传、充满活力、不断发展的智慧之流。它体现了永恒的价值观，同时适应当代生活，以相关性和真实性引导寻求者。这样的传统是通过实践、社区和奉献来维持的，其中仪式、故事和教义保持动态而不是静态。它通过日常行动、道德选择和共同庆祝活动来体现，促进个人成长和集体和谐。通过尊重根源并拥抱变化，它确保了精神的连续性，为人类在古代洞察力和现代经验之间架起了一座活生生的桥梁。",
+        "id": "生活传统",
+        "nodecaration": true
+      },
+      {
+        "title": "Sanātana Dharma 的核心原则？",
+        "content": "Sanātana Dharma 的核心原则是正义生活和灵性证悟的永恒准则。佛法教导责任、真理以及与宇宙秩序的和谐。业力揭示因果法则，敦促正念行动。阿特曼（Atman）象征不朽的灵魂，而婆罗门（Brahman）则是无限的现实；实现他们的团结就会带来解放。 Moksha，即免于重生的自由，是最高目标。 Purusharthas——Dharma、Artha、Kama、Moksha——平衡道德、繁荣、欲望和解放。这些原则植根于吠陀经和奥义书，历久弥新，激励人类以慈悲、智慧和平衡的态度生活，将古代的洞察力与现代生活联系起来。",
+        "id": "原则",
+        "items": [
+          {
+            "title": "法",
+            "description": "正义·责任·和谐·正义·真理",
+            "href": "/philosophy/dharma",
+            "src": "/images/home/dharma.png"
+          },
+          {
+            "title": "业力",
+            "description": "行动·原因·结果·责任·后果",
+            "href": "/philosophy/karma",
+            "src": "/images/home/karma.png"
+          },
+          {
+            "title": "解脱",
+            "description": "解脱·自由·合一·极乐·永恒",
+            "href": "/philosophy/moksha",
+            "src": "/images/home/moksha.png"
+          },
+          {
+            "title": "不杀生",
+            "description": "非暴力·同情·尊重·和谐·爱",
+            "href": "/philosophy/ahimsa",
+            "src": "/images/home/ahimsa.png"
+          },
+          {
+            "title": "萨提亚",
+            "description": "真实·诚实·正直·真实·正义",
+            "href": "/philosophy/satya",
+            "src": "/images/home/satya.png"
+          }
+        ]
+      },
+      {
+        "title": "对真实性的承诺",
+        "content": "对真实性的承诺意味着诚实地生活，尊重价值观，表达真实的身份，拒绝谎言，培养正直，并在关系、行动和精神实践中体现透明度。",
+        "id": "真实性",
+        "nodecaration": true
+      },
+      {
+        "title": "为什么萨那塔那佛法在今天很重要？",
+        "content": "萨那塔那佛法在今天很重要，因为它为应对现代挑战提供了永恒的智慧。它植根于真理、慈悲与和谐的普世价值观，超越宗教，引导人类走向道德生活和精神平衡。在一个快速变化的时代，它的原则——佛法、业力和解脱——提醒我们责任、正念行动和超越物质追求的解放。它培养包容性、对多样性的尊重和对自然的敬畏，与可持续生活保持一致。通过将古老的洞察力与当代的需求联系起来，萨那塔纳佛法激发了坚韧、和平与团结，表明永恒的真理在塑造一个公正、富有同情心和平衡的世界方面仍然具有重要意义。",
+        "id": "关联",
+        "points": [
+          "在快节奏的世界中保持头脑清晰",
+          "现代社会的伦理基础",
+          "意识和正念的可见性",
+          "进步与责任的和谐"
+        ],
+        "pointsrc": [
+          "/images/home/why-sanatana-1.png",
+          "/images/home/why-sanatana-2.png",
+          "/images/home/why-sanatana-3.png",
+          "/images/home/why-sanatana-4.png"
+        ]
+      },
+      {
+        "title": "萨那塔那佛法的目的？",
+        "content": "萨那塔那佛法的目的是引导人类走向正义的生活、精神的觉醒以及与宇宙的和谐。它教导我们，生命不仅仅是物质的，而且是自我实现的神圣旅程。通过佛法，人们学习责任和真理；通过业力，行动法则；通过解脱，从重生中解脱。其目标是在世俗的追求和永恒的智慧之间取得平衡，使个人能够道德地生活，负责任地繁荣，用心地享受欲望，并最终超越限制。 Sanātana Dharma 植根于同情心、包容性和对自然的敬畏，培育和平、团结和永恒的价值观，为人类提供一条通往持久满足和神圣联系的道路。",
+        "id": "目的",
+        "nodecaration": true
+      },
+      {
+        "title": "您会在这里找到什么？",
+        "content": "在这里，你会发现萨那塔那佛法是永恒智慧的活宝库，引导寻求者走向真理、和谐与解脱。它不仅仅局限于仪式，还包含哲学、伦理和奉献。您将发现佛法的本质、业力法则、对解脱的追求以及普鲁萨塔斯的平衡。在这里，《吠陀经》、《奥义书》和《薄伽梵歌》等神圣经典阐明了永恒的价值观。 Sanātana Dharma 培养同情心、包容性和对自然的敬畏，为人类提供一条坚韧与和平的道路。它将古老的洞察力与现代意义联系起来，激发平衡和有目标的生活。",
+        "id": "供品",
+        "points": [
+          "《博伽梵歌》逐章解释",
+          "吠陀经和奥义书简介",
+          "业力和佛法的概念清晰",
+          "往世书的哲学见解",
+          "与现代生活的实际相关性"
+        ],
+        "pointsrc": ""
+      },
+      {
+        "title": "永恒的旅程",
+        "content": "Sanātana Dharma 的永恒旅程是自我发现、责任和解脱的永恒之路。它始于佛法，即实践真理和正义，以和谐指导日常生活。业力告诉我们，每一个行动都会塑造命运，促使人们做出谨慎的选择。灵魂的追求是实现与梵、无限现实的统一。通过奉献、智慧和纪律，求知者朝着莫克沙（Moksha）（免于重生的自由）前进。这个旅程不受时间或文化的束缚；它代代相传，培养同情心、包容性和对自然的敬畏。 Sanātana Dharma 为人类在古代智慧和现代意义之间架起了一座活生生的桥梁。",
+        "id": "旅行",
+        "nodecaration": true
+      }
+    ],
+    "welcome": {
+      "clarity_devotion": "清晰、虔诚和神圣的恩典",
+      "close": "关闭",
+      "deeply_honored": "您的光临使我们深感荣幸和祝福。",
+      "do_not": "不再显示此欢迎消息",
+      "eternal_truths": "萨那塔那佛法的永恒真理",
+      "may_journey": "愿你通过这些古老教义的旅程为你带来",
+      "namaste_welcome": "合十礼和欢迎",
+      "thank_taking": "感谢您迈出这一神圣的一步来理解和拥抱",
+      "timeless_wisdom": "——永恒的智慧照亮了通往内心平静、正义和精神觉醒的道路。",
+      "truth_alone": "真理唯有胜利 · 佛法保护那些保护它的人"
+    }
+  }
+}

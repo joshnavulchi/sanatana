@@ -1,0 +1,858 @@
+{
+  "temples_in_india": {
+    "meta": {
+      "title": "భారతదేశంలోని పురాతన దేవాలయాలు — తేదీలు, వాస్తుశిల్పం, నిర్మాణం & కాలక్రమాలు",
+      "canonical": "https://sanatanadharmam.in/temples-in-india",
+      "description": "భారతదేశంలోని పురాతన మరియు మధ్యయుగానికి చెందిన దేవాలయాలను ఎలా-నిర్మించారో, చారిత్రాత్మకంగా ధృవీకరించబడిన గమనికలు, నిర్మాణ శైలులు, రాజవంశ సందర్భం మరియు ఈవెంట్ టైమ్‌లైన్‌లు.",
+      "keywords": [
+        "Adi Kumbeswarar Kumbakonam",
+        "Ancient Hindu Temples",
+        "Ancient Indian architecture",
+        "Archaeological studies of temples",
+        "Ashlar masonry",
+        "Brihadeeswarar Temple Thanjavur",
+        "Chennakesava Temple Belur",
+        "Comparative temple studies",
+        "Construction Methods",
+        "Cultural significance of temples",
+        "Dashavatara Temple",
+        "Durga Temple Aihole",
+        "Dynastic Associations",
+        "Hindu temple history",
+        "Historical Timelines",
+        "Historical sources on temples",
+        "Iconography and temple sculpture",
+        "Indian temple construction",
+        "Inscriptions and temple history",
+        "Jagannath Temple Puri",
+        "Kailasa Ellora",
+        "Kailasanathar Temple",
+        "Konark Sun Temple",
+        "Lingaraja Temple Bhubaneswar",
+        "Medieval Hindu Temples",
+        "Medieval Indian architecture",
+        "Modhera Sun Temple",
+        "Monolithic temples",
+        "Mukteshwara Temple Bhubaneswar",
+        "Mundeshwari Temple",
+        "Oldest Temples in India",
+        "Palaeographic dating",
+        "Pancha Rathas",
+        "Religious practices and temples",
+        "Rock-cut temples",
+        "Shore Temple",
+        "Structural stone temples",
+        "Temple Architecture",
+        "Temple architecture and community bonds",
+        "Temple architecture and cosmology",
+        "Temple architecture and cultural identity",
+        "Temple architecture and ethical decision-making",
+        "Temple architecture and religious beliefs",
+        "Temple architecture and social structure",
+        "Temple architecture and spiritual reflection",
+        "Temple architecture evolution",
+        "Temple architecture styles",
+        "Temple art and aesthetics",
+        "Temple conservation and restoration",
+        "Temple dynasties",
+        "Temple engineering and construction techniques",
+        "Temple festivals and rituals",
+        "Temple legends and folklore",
+        "Temple patronage and politics",
+        "Temple rituals and ceremonies",
+        "Temple symbolism and meaning",
+        "Temple timelines",
+        "Temple tourism in India",
+        "UNESCO World Heritage temples",
+        "Vaikuntha Perumal Kanchipuram",
+        "Virupaksha Temple Pattadakal"
+      ],
+      "ogimage": "images/og/home.png",
+      "url": "https://sanatanadharmam.in/temples-in-india"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "సంస్థ",
+        "contactpoint": {
+          "@type": "కాంటాక్ట్ పాయింట్",
+          "areaserved": "ప్రపంచవ్యాప్తంగా",
+          "availablelanguage": [
+            "العربية",
+            "డ్యూచ్",
+            "ఇంగ్లీష్",
+            "ఎస్పానోల్",
+            "ఫ్రాంకైస్",
+            "హిందీ",
+            "ఎస్",
+            "నేపాలీ",
+            "నెదర్లాండ్స్",
+            "పోర్చుగీస్",
+            "రస్కియ్",
+            "తెలుగు",
+            "అరేడు",
+            "中文 (简体)"
+          ],
+          "contacttype": "కస్టమర్ మద్దతు",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "సనాతనధర్మం.ఇన్ గురించి",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "dynasty_timeline": [
+      {
+        "architectural_contributions": [
+          "క్లాసికల్ ప్లానింగ్: చదరపు గర్భగుడి + ప్రారంభ శిఖర",
+          "కథన ఉపశమన ప్యానెల్లు; శుద్ధి చేసిన ఐకానోగ్రఫీ"
+        ],
+        "name": "గుప్తా",
+        "notes": "తరచుగా హిందూ దేవాలయ నిర్మాణంలో 'క్లాసికల్' మలుపుగా పేర్కొనబడింది.",
+        "period": "సి. 320–550 CE",
+        "regions": [
+          "ఉత్తర-మధ్య భారతదేశం"
+        ],
+        "representative_temples": [
+          "దశావతారా-డియోగర్"
+        ],
+        "sources": [
+          "https://hindu.mythologyworldwide.com/the-evolution-of-hindu-temple-architecture-through-the-ages/"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "ద్రవిడ + నగరాల ప్రయోగాత్మక వేసారా",
+          "అప్సిడల్ మరియు స్టెలేట్ గ్రౌండ్ ప్లాన్స్; భారీ సహాయ కార్యక్రమాలు"
+        ],
+        "name": "తొలి పశ్చిమ చాళుక్య (బాదామి)",
+        "period": "6వ-8వ శ. CE",
+        "regions": [
+          "మలప్రభ లోయ, కర్ణాటక"
+        ],
+        "representative_temples": [
+          "దుర్గా-ఐహోల్",
+          "విరూపాక్ష-పట్టడకల్"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Durga_temple,_Aihole",
+          "https://en.wikipedia.org/wiki/Pattadakal"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "రాక్ కట్ నుండి స్ట్రక్చరల్ స్టోన్‌కి మారండి",
+          "ఏకశిలా నమూనాలు (రథాలు) మరియు ప్రారంభ ద్రావిడ విమానాలు"
+        ],
+        "name": "పల్లవ",
+        "period": "7వ-8వ శ. CE",
+        "regions": [
+          "తమిళనాడు (కాంచీపురం–మహాబలిపురం)"
+        ],
+        "representative_temples": [
+          "పంచ-రథములు",
+          "తీరం-ఆలయం",
+          "కైలాసనాథర్-కంచి"
+        ],
+        "sources": [
+          "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/",
+          "https://en.wikipedia.org/wiki/Tiru_parameswara_vinnagaram"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "పీక్ మోనోలిథిక్ రాక్-కట్ ఇంజనీరింగ్",
+          "పెద్ద స్థాయిలో ఐకానోగ్రాఫిక్ సంక్లిష్టత"
+        ],
+        "name": "రాష్ట్రకూట",
+        "period": "8వ-9వ శ. CE",
+        "regions": [
+          "దక్కన్ (మహారాష్ట్ర)"
+        ],
+        "representative_temples": [
+          "కైలాస-ఎల్లోర"
+        ],
+        "sources": [
+          "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "గ్రానైట్ స్ట్రక్చరల్ జిగాంటిజం; ఎగురుతున్న విమానాలు",
+          "అక్షసంబంధ సమరూపత; విస్తృతమైన శాసనాలు"
+        ],
+        "name": "చోళుడు",
+        "period": "10వ-11వ శ. CE",
+        "regions": [
+          "తమిళనాడు (కావేరి డెల్టా)"
+        ],
+        "representative_temples": [
+          "బృహదీశ్వర-తంజావూరు"
+        ],
+        "sources": [
+          "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "సంక్లిష్టంగా చెక్కబడిన బాహ్య భాగాలు; అసెంబ్లీ+క్షేత్రం+కుండ్ బృందాలు"
+        ],
+        "name": "చౌళుక్య/సోలంకి (మారు-గుర్జార)",
+        "period": "11వ శ. CE",
+        "regions": [
+          "గుజరాత్"
+        ],
+        "representative_temples": [
+          "మోధేరా-సూర్య దేవాలయం"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Sun_Temple,_Modhera"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "పరిపక్వ కళింగ (డ్యూలా) రూపం; తోరణ ప్రయోగాలు",
+          "స్మారక రథ-రూప దేవాలయం (కోణార్క్)"
+        ],
+        "name": "సోమవంశీ & తూర్పు గంగ",
+        "period": "10వ-13వ శ. CE",
+        "regions": [
+          "ఒడిశా"
+        ],
+        "representative_temples": [
+          "ముక్తేశ్వర-భువనేశ్వర్",
+          "లింగరాజ-భువనేశ్వర్",
+          "జగన్నాథ్-పూరి",
+          "కోణార్క్-సూర్య దేవాలయం"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mukteshwara_Temple,_Bhubaneswar",
+          "https://en.wikipedia.org/wiki/Lingaraja_Temple",
+          "https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri",
+          "https://en.wikipedia.org/wiki/Konark_Sun_Temple"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "సబ్బు రాయి; నక్షత్ర ప్రణాళికలు; లాత్-మారిన స్తంభాలు; కథనం ఫ్రైజ్ చేస్తుంది"
+        ],
+        "name": "హోయసల",
+        "period": "11వ-12వ శ. CE",
+        "regions": [
+          "కర్ణాటక"
+        ],
+        "representative_temples": [
+          "చెన్నకేశవ-బేలూరు"
+        ],
+        "sources": [
+          "https://www.oldest.org/structures/oldest-temples-in-india/"
+        ]
+      }
+    ],
+    "temples": [
+      {
+        "architecture_style": "ప్రారంభ నగారా (అష్టభుజి గర్భగుడి)",
+        "build_type": "నిర్మాణ రాయి",
+        "construction_method": "అష్టభుజి ప్రణాళికలో ధరించే రాతి కట్టడం.",
+        "dynasty_association": [
+          "ఎర్లీ కుషానా/ప్రారంభ చారిత్రాత్మకం (శాసనాత్మక డేటింగ్ ద్వారా)"
+        ],
+        "end_year_ce": 200,
+        "estimated_date": "1వ-2వ శతాబ్దం CE",
+        "how_it_was_built": "ధరించిన రాతి దిమ్మెలతో అష్టభుజి గర్భగుడి; ప్రారంభ షిఖారా నమూనాలు.",
+        "id": "ముండేశ్వరి-బీహార్",
+        "location": "కైమూర్",
+        "materials": [
+          "రాయి"
+        ],
+        "name": "ముండేశ్వరి దేవి ఆలయం",
+        "slug": "ముండేశ్వరి-బీహార్",
+        "sources": [
+          "https://oldest.info/oldest-temples-in-india/",
+          "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/"
+        ],
+        "start_year_ce": 100,
+        "state": "బీహార్",
+        "timeline": {
+          "events": [
+            {
+              "label": "స్థాపన ధృవీకరించబడింది",
+              "sources": [
+                "https://oldest.info/oldest-temples-in-india/",
+                "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/"
+              ],
+              "start": "1వ-2వ సి. CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "గుప్తా క్లాసికల్",
+        "build_type": "నిర్మాణ రాయి",
+        "construction_method": "అష్లార్ రాతి; చెక్కిన కథన ప్యానెల్లు.",
+        "dynasty_association": [
+          "గుప్తా"
+        ],
+        "end_year_ce": 550,
+        "estimated_date": "సి. 500–550 CE",
+        "how_it_was_built": "ప్రారంభ శిఖారాతో చతురస్ర గర్భగుడి; విష్ణువు అవతారాల ఉపశమనాలు.",
+        "id": "దశావతారా-డియోగర్",
+        "location": "డియోగర్",
+        "materials": [
+          "ఇసుకరాయి"
+        ],
+        "name": "దశావతార దేవాలయం",
+        "slug": "దశావతారా-డియోగర్",
+        "sources": [
+          "https://hindu.mythologyworldwide.com/the-evolution-of-hindu-temple-architecture-through-the-ages/"
+        ],
+        "start_year_ce": 500,
+        "state": "ఉత్తర ప్రదేశ్",
+        "timeline": {
+          "events": [
+            {
+              "label": "నిర్మాణం",
+              "sources": [
+                "https://hindu.mythologyworldwide.com/the-evolution-of-hindu-temple-architecture-through-the-ages/"
+              ],
+              "start": 500
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "పల్లవ ఏకశిలా, తొలి ద్రావిడ రూపాలు",
+        "build_type": "రాక్-కట్ ఏకశిలా",
+        "construction_method": "ప్రోటోటైప్ పుణ్యక్షేత్రాలుగా ఒకే గ్రానైట్ ఉద్గారాల నుండి చెక్కబడ్డాయి.",
+        "dynasty_association": [
+          "పల్లవ"
+        ],
+        "end_year_ce": 700,
+        "estimated_date": "7వ శతాబ్దం CE (c. 630–668 CE; కొంతమంది పండితులు తర్వాత ఉంచారు)",
+        "how_it_was_built": "మోనోలిత్‌లు సిటులో చెక్కబడ్డాయి; అసంపూర్తి మరియు పవిత్రం కాని నమూనాలు.",
+        "id": "పంచ-రథములు",
+        "location": "మహాబలిపురం",
+        "materials": [
+          "గ్రానైట్"
+        ],
+        "name": "పంచ రథాలు (ఐదు రథాలు)",
+        "slug": "పంచ-రథములు",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Pancha_Rathas"
+        ],
+        "start_year_ce": 630,
+        "state": "తమిళనాడు",
+        "timeline": {
+          "events": [
+            {
+              "label": "పల్లవుల క్రింద చెక్కడం",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Pancha_Rathas"
+              ],
+              "start": "7వ శ. CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "తొలి ద్రావిడ (పల్లవ)",
+        "build_type": "నిర్మాణ రాయి",
+        "construction_method": "ధరించిన గ్రానైట్ బ్లాక్స్; గాలులను నిరోధించడానికి తీరప్రాంత ఇంజనీరింగ్.",
+        "dynasty_association": [
+          "పల్లవ (నరసింహవర్మన్ II)"
+        ],
+        "end_year_ce": 728,
+        "estimated_date": "సి. 700–728 CE",
+        "how_it_was_built": "పిరమిడ్ సూపర్ స్ట్రక్చర్ (విమాన)తో గ్రానైట్ కోర్స్డ్ రాతి.",
+        "id": "తీరం-ఆలయం",
+        "location": "మహాబలిపురం",
+        "materials": [
+          "గ్రానైట్"
+        ],
+        "name": "తీర దేవాలయం",
+        "slug": "తీరం-ఆలయం",
+        "sources": [
+          "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/"
+        ],
+        "start_year_ce": 700,
+        "state": "తమిళనాడు",
+        "timeline": {
+          "events": [
+            {
+              "label": "పల్లవ అత్యున్నత కాలంలో నిర్మాణం",
+              "sources": [
+                "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/"
+              ],
+              "start": "7వ-8వ శ. CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "పల్లవ ద్రావిడ (ప్రారంభ నిర్మాణ)",
+        "build_type": "నిర్మాణ రాయి",
+        "construction_method": "ఇసుకరాయి బ్లాక్స్; ఉప-పుణ్యక్షేత్రాలతో కూడిన ఆవరణ.",
+        "dynasty_association": [
+          "పల్లవ (నరసింహవర్మన్ II)"
+        ],
+        "end_year_ce": 728,
+        "estimated_date": "సి. 700–728 CE",
+        "how_it_was_built": "ప్రారంభ నిర్మాణ ద్రావిడ విమానం; కోర్ చుట్టూ 58 చిన్న పుణ్యక్షేత్రాలు.",
+        "id": "కైలాసనాథర్-కంచి",
+        "location": "కాంచీపురం",
+        "materials": [
+          "ఇసుకరాయి"
+        ],
+        "name": "కైలాసనాథర్ ఆలయం",
+        "slug": "కైలాసనాథర్-కంచి",
+        "sources": [
+          "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/"
+        ],
+        "start_year_ce": 700,
+        "state": "తమిళనాడు",
+        "timeline": {
+          "events": [
+            {
+              "label": "పల్లవ నిర్మాణం",
+              "sources": [
+                "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/"
+              ],
+              "start": "8వ శతాబ్దం ప్రారంభంలో. CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "తొలి చాళుక్య (వేసర మిశ్రమం)",
+        "build_type": "నిర్మాణ రాయి",
+        "construction_method": "అప్సిడల్ ప్లాన్; అలంకరించబడిన ఉపశమన ప్యానెల్లు; ప్రదక్షిణ కొలనేడ్.",
+        "dynasty_association": [
+          "తొలి పశ్చిమ చాళుక్యులు"
+        ],
+        "end_year_ce": 725,
+        "estimated_date": "7వ శతాబ్దం చివరలో - 8వ శతాబ్దం CE ప్రారంభంలో",
+        "how_it_was_built": "అప్సిడల్ (గజపృష్ఠ) ప్రణాళిక ఇసుకరాయిలో అమలు చేయబడింది; సూర్య అనుబంధం.",
+        "id": "దుర్గా-ఐహోల్",
+        "location": "ఐహోల్",
+        "materials": [
+          "ఇసుకరాయి"
+        ],
+        "name": "దుర్గ గుడి",
+        "slug": "దుర్గా-ఐహోల్",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Durga_temple,_Aihole"
+        ],
+        "start_year_ce": 690,
+        "state": "కర్ణాటక",
+        "timeline": {
+          "events": [
+            {
+              "label": "పాలియోగ్రాఫిక్ ప్రాతిపదికన తేదీ",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Durga_temple,_Aihole"
+              ],
+              "start": "సి. 700 CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "నాగరా మూలకాలతో ద్రావిడ (పట్టడకల్ సంశ్లేషణ)",
+        "build_type": "నిర్మాణ రాయి",
+        "construction_method": "ఎత్తైన పునాది; అక్ష మండపాలు; పురాణాల నుండి ఉపశమనం పొందుతుంది.",
+        "dynasty_association": [
+          "తొలి పశ్చిమ చాళుక్య (విక్రమాదిత్య II)"
+        ],
+        "end_year_ce": 745,
+        "estimated_date": "సి. 740–745 CE",
+        "how_it_was_built": "రాణి లోకమహాదేవి కమిషన్; అధునాతన శిల్ప కార్యక్రమం.",
+        "id": "విరూపాక్ష-పట్టడకల్",
+        "location": "పట్టడకల్",
+        "materials": [
+          "ఇసుకరాయి"
+        ],
+        "name": "విరూపాక్ష దేవాలయం",
+        "slug": "విరూపాక్ష-పట్టడకల్",
+        "sources": [
+          "https://prepp.in/news/e-492-virupaksha-temple-pattadakkal-temples-ancient-india-history-notes",
+          "https://mapacademy.io/article/sculpture-at-virupaksha-temple-pattadakal/"
+        ],
+        "start_year_ce": 740,
+        "state": "కర్ణాటక",
+        "timeline": {
+          "events": [
+            {
+              "label": "స్మారక నిర్మాణం",
+              "sources": [
+                "https://prepp.in/news/e-492-virupaksha-temple-pattadakkal-temples-ancient-india-history-notes",
+                "https://en.wikipedia.org/wiki/Pattadakal"
+              ],
+              "start": 745
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "రాష్ట్రకూట ద్రావిడ (రాక్-కట్)",
+        "build_type": "రాక్-కట్ ఏకశిలా (పై నుండి క్రిందికి తవ్వకం)",
+        "construction_method": "ఏకశిలా తవ్వకం; కొండ నుండి చెక్కబడిన స్వతంత్ర రూపాలు.",
+        "dynasty_association": [
+          "రాష్ట్రకూట (కృష్ణుడు I)"
+        ],
+        "end_year_ce": 773,
+        "estimated_date": "సి. 756–773 CE",
+        "how_it_was_built": "ఒకే సామూహిక తవ్వకం ఒక ఫ్రీ-స్టాండింగ్ కాంప్లెక్స్‌ను అందిస్తుంది.",
+        "id": "కైలాస-ఎల్లోర",
+        "location": "ఎల్లోరా",
+        "materials": [
+          "బసాల్ట్"
+        ],
+        "name": "కైలాస దేవాలయం (గుహ 16)",
+        "slug": "కైలాస-ఎల్లోర",
+        "sources": [
+          "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+        ],
+        "start_year_ce": 756,
+        "state": "మహారాష్ట్ర",
+        "timeline": {
+          "events": [
+            {
+              "label": "కృష్ణ I కింద చెక్కడం",
+              "sources": [
+                "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+              ],
+              "start": "8వ శ. CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "చోళ ద్రావిడ",
+        "build_type": "నిర్మాణ రాయి",
+        "construction_method": "పెద్ద-స్థాయి గ్రానైట్ ఆష్లార్; ఎగురుతున్న విమానం.",
+        "dynasty_association": [
+          "చోళ (రాజరాజ I)"
+        ],
+        "end_year_ce": 1010,
+        "estimated_date": "1003–1010 CE",
+        "how_it_was_built": "భారీ గ్రానైట్ కార్యక్రమం; ఖచ్చితమైన అక్షసంబంధ లేఅవుట్ మరియు శాసనాలు.",
+        "id": "బృహదీశ్వర-తంజావూరు",
+        "location": "తంజావూరు",
+        "materials": [
+          "గ్రానైట్"
+        ],
+        "name": "బృహదీశ్వరార్ (పెరువుడైయార్) ఆలయం",
+        "slug": "బృహదీశ్వర-తంజావూరు",
+        "sources": [
+          "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+        ],
+        "start_year_ce": 1003,
+        "state": "తమిళనాడు",
+        "timeline": {
+          "events": [
+            {
+              "label": "సన్యాసం",
+              "sources": [
+                "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+              ],
+              "start": 1010
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "మరు-గుర్జార (చౌళుక్య/సోలంకి)",
+        "build_type": "నిర్మాణ రాతి సమిష్టి",
+        "construction_method": "గుఢమండప + సభామండప + మెట్ల సూర్య-కుండ్ E‑W అక్షంపై సమలేఖనం చేయబడింది.",
+        "dynasty_association": [
+          "చౌళుక్య/సోలంకి (భీమ I)"
+        ],
+        "end_year_ce": 1030,
+        "estimated_date": "1026-27 CE తర్వాత",
+        "how_it_was_built": "బాగా చెక్కబడిన బాహ్య భాగాలు; పుణ్యక్షేత్రాలతో మెట్ల జలాశయం.",
+        "id": "మోధేరా-సూర్య దేవాలయం",
+        "location": "మోధేరా, మెహసానా",
+        "materials": [
+          "ఇసుకరాయి"
+        ],
+        "name": "సూర్య దేవాలయం, మోధేరా",
+        "slug": "మోధేరా-సూర్య దేవాలయం",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Sun_Temple,_Modhera",
+          "https://inditales.com/architecture-of-sun-temple-modhera/",
+          "https://whc.unesco.org/en/tentativelists/6627/"
+        ],
+        "start_year_ce": 1026,
+        "state": "గుజరాత్",
+        "timeline": {
+          "events": [
+            {
+              "label": "శాసన మార్కర్; భీమ I ​​ఆధ్వర్యంలో పునర్నిర్మించబడిన/నిర్మించబడిన మందిరం",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Sun_Temple,_Modhera",
+                "https://whc.unesco.org/en/tentativelists/6627/"
+              ],
+              "start": 1026
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "తొలి కళింగ (సోమవంశీ కాలం)",
+        "build_type": "నిర్మాణ రాయి",
+        "construction_method": "రేఖ దేవుల గర్భగుడి + పిరమిడల్ జగమోహన; ఐకానిక్ ఫ్రీస్టాండింగ్ తోరణ.",
+        "dynasty_association": [
+          "సోమవంశీ"
+        ],
+        "end_year_ce": 975,
+        "estimated_date": "950–975 CE",
+        "how_it_was_built": "ట్రాన్సిషనల్ ఒడిషన్ ఇడియమ్; లింగరాజును ఊహించిన ప్రయోగం.",
+        "id": "ముక్తేశ్వర-భువనేశ్వర్",
+        "location": "ఓల్డ్ టౌన్, భువనేశ్వర్",
+        "materials": [
+          "ఇసుకరాయి",
+          "లేటరైట్"
+        ],
+        "name": "ముక్తేశ్వర దేవాలయం",
+        "slug": "ముక్తేశ్వర-భువనేశ్వర్",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mukteshwara_Temple,_Bhubaneswar"
+        ],
+        "start_year_ce": 950,
+        "state": "ఒడిశా",
+        "timeline": {
+          "events": [
+            {
+              "label": "సంభావ్య నిర్మాణ విండో",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Mukteshwara_Temple,_Bhubaneswar"
+              ],
+              "start": 966
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "పరిణతి చెందిన కళింగ",
+        "build_type": "నిర్మాణ రాతి సముదాయం",
+        "construction_method": "దేయులా శైలి చతుష్టయం: విమాన, జగమోహన, నట-మందిర, భోగ-మండప.",
+        "dynasty_association": [
+          "సోమవంశీ",
+          "తూర్పు గంగ"
+        ],
+        "end_year_ce": 1100,
+        "estimated_date": "11వ శతాబ్దం CE",
+        "how_it_was_built": "భువనేశ్వర్ మధ్యయుగ శైలికి పరాకాష్ట; 180-అడుగుల కర్విలినియర్ టవర్.",
+        "id": "లింగరాజ-భువనేశ్వర్",
+        "location": "ఏకామ్ర క్షేత్రం, భువనేశ్వర్",
+        "materials": [
+          "ఇసుకరాయి",
+          "లేటరైట్"
+        ],
+        "name": "లింగరాజ దేవాలయం",
+        "slug": "లింగరాజ-భువనేశ్వర్",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Lingaraja_Temple",
+          "https://vajiramandravi.com/upsc-exam/lingaraja-temple/"
+        ],
+        "start_year_ce": 1000,
+        "state": "ఒడిశా",
+        "timeline": {
+          "events": [
+            {
+              "label": "ప్రధాన నిర్మాణం (సోమవంశీ), తరువాత గంగ జోడింపులు",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Lingaraja_Temple"
+              ],
+              "start": "11వ శ. CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "కళింగ (ఒడిశా నగారా)",
+        "build_type": "నిర్మాణ రాతి సముదాయం",
+        "construction_method": "విశాలమైన ఆవరణతో కళింగ రేఖ దేయులా; చెక్క చిహ్నాలు క్రమానుగతంగా పునరుద్ధరించబడతాయి.",
+        "dynasty_association": [
+          "తూర్పు గంగ (అనంతవర్మన్ చోడగంగ)"
+        ],
+        "end_year_ce": 1200,
+        "estimated_date": "12వ శతాబ్దం CE (c. 1161 CE)",
+        "how_it_was_built": "భారీ ఎన్‌క్లోజర్ మరియు రేఖ డ్యూలా టవర్; జీవన కర్మ వ్యవస్థ (రథ యాత్ర).",
+        "id": "జగన్నాథ్-పూరి",
+        "location": "పూరి",
+        "materials": [
+          "రాయి (ఆలయం)",
+          "వేప చెక్క (విగ్రహాలు)"
+        ],
+        "name": "జగన్నాథ దేవాలయం",
+        "slug": "జగన్నాథ్-పూరి",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri"
+        ],
+        "start_year_ce": 1100,
+        "state": "ఒడిశా",
+        "timeline": {
+          "events": [
+            {
+              "label": "తూర్పు గంగ కింద పునర్నిర్మాణం/విస్తరణ",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri"
+              ],
+              "start": 1161
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "కళింగ ఉన్నత మధ్యయుగం",
+        "build_type": "నిర్మాణ రాయి (పాక్షికంగా శిధిలమైంది)",
+        "construction_method": "24 చక్రాలతో రథ-రూప ప్రణాళిక; స్మారక శిల్ప కార్యక్రమం.",
+        "dynasty_association": [
+          "తూర్పు గంగ (నరసింహదేవ I)"
+        ],
+        "end_year_ce": 1260,
+        "estimated_date": "సి. 1250 CE",
+        "how_it_was_built": "సింబాలిక్ సౌర రథం; అధునాతన ఇంజనీరింగ్; ఇప్పుడు UNESCO సైట్.",
+        "id": "కోణార్క్-సూర్య దేవాలయం",
+        "location": "కోణార్క్, పూరి జిల్లా",
+        "materials": [
+          "ఖోండలైట్ రాయి"
+        ],
+        "name": "కోణార్క్ సూర్య దేవాలయం",
+        "slug": "కోణార్క్-సూర్య దేవాలయం",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Konark_Sun_Temple",
+          "https://www.worldhistory.org/Konarak_Sun_Temple/"
+        ],
+        "start_year_ce": 1240,
+        "state": "ఒడిశా",
+        "timeline": {
+          "events": [
+            {
+              "label": "నరసింహదేవ I ఆధ్వర్యంలో నిర్మాణం",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Konark_Sun_Temple"
+              ],
+              "start": 1250
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "హోయసల",
+        "build_type": "నిర్మాణ రాయి",
+        "construction_method": "అధిక జగతిపై నక్షత్ర ప్రణాళిక; లాత్-మారిన స్తంభాలు; అపారమైన శిల్పం.",
+        "dynasty_association": [
+          "హోయసల (విష్ణువర్ధన)"
+        ],
+        "end_year_ce": 1117,
+        "estimated_date": "1117 CE",
+        "how_it_was_built": "సాఫ్ట్ సోప్‌స్టోన్ అనుమతించబడిన సూక్ష్మ-వివరాలు; కథన ఫ్రైజ్‌లు మరియు ఐకానోగ్రాఫిక్ పరిధి.",
+        "id": "చెన్నకేశవ-బేలూరు",
+        "location": "బేలూరు",
+        "materials": [
+          "క్లోరిటిక్ స్కిస్ట్ (సబ్బు రాయి)"
+        ],
+        "name": "చెన్నకేశవ దేవాలయం",
+        "slug": "చెన్నకేశవ-బేలూరు",
+        "sources": [
+          "https://www.oldest.org/structures/oldest-temples-in-india/"
+        ],
+        "start_year_ce": 1117,
+        "state": "కర్ణాటక",
+        "timeline": {
+          "events": [
+            {
+              "label": "విష్ణువర్ధన ప్రారంభోత్సవం",
+              "sources": [
+                "https://www.oldest.org/structures/oldest-temples-in-india/"
+              ],
+              "start": 1117
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "పల్లవ ద్రావిడ",
+        "build_type": "నిర్మాణ రాయి",
+        "construction_method": "మూడు అంచెల గర్భాలయాలు (నిలబడి/కూర్చున్న/కూర్చున్న విష్ణువు); సింహ మూల స్తంభాలు.",
+        "dynasty_association": [
+          "పల్లవ (నందివర్మన్ II)"
+        ],
+        "end_year_ce": 780,
+        "estimated_date": "8వ శతాబ్దం చివరి CE",
+        "how_it_was_built": "ప్రాకార గోడలపై చారిత్రక ఉపశమన చక్రాలతో కూడిన కాంపాక్ట్ స్ట్రక్చరల్ టెంపుల్.",
+        "id": "వైకుంఠ-పెరుమాళ్-కంచి",
+        "location": "కాంచీపురం",
+        "materials": [
+          "ఇసుకరాయి"
+        ],
+        "name": "వైకుంఠ పెరుమాళ్ (తిరు పరమేశ్వర విన్నగరం)",
+        "slug": "వైకుంఠ-పెరుమాళ్-కంచి",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Tiru_parameswara_vinnagaram",
+          "https://www.worldhistory.org/article/1336/on-the-pallava-trail-in-kanchipuram/"
+        ],
+        "start_year_ce": 770,
+        "state": "తమిళనాడు",
+        "timeline": {
+          "events": [
+            {
+              "label": "నందివర్మన్ II ఆధ్వర్యంలో నిర్మాణం",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Tiru_parameswara_vinnagaram"
+              ],
+              "start": 775
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "చోళ కోర్; తరువాత విజయనగరం/నాయక్ చేరికలు",
+        "build_type": "నిర్మాణ రాతి సముదాయం",
+        "construction_method": "పొడవైన తూర్పు గోపురంతో ద్రావిడ ప్రణాళిక; విజయనగరం/నాయక్ మండపాలు.",
+        "dynasty_association": [
+          "చోళుడు",
+          "విజయనగరం",
+          "నాయక్"
+        ],
+        "end_year_ce": 900,
+        "estimated_date": "9వ శతాబ్దం CE (కోర్), తరువాత విస్తరణలు 16వ శతాబ్దం.",
+        "how_it_was_built": "ఐకానిక్ రాశిచక్రం చెక్కిన మండపంతో చోళ కాలం నాటి రాతి కట్టడం విస్తరించింది.",
+        "id": "adi-kumbeswarar-kumbakonam",
+        "location": "కుంభకోణం",
+        "materials": [
+          "గ్రానైట్",
+          "ఇసుకరాయి"
+        ],
+        "name": "ఆది కుంబేశ్వర ఆలయం",
+        "slug": "adi-kumbeswarar-kumbakonam",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Adi_Kumbeswarar_Temple,_Kumbakonam"
+        ],
+        "start_year_ce": 850,
+        "state": "తమిళనాడు",
+        "timeline": {
+          "events": [
+            {
+              "label": "చోళ దశ",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Adi_Kumbeswarar_Temple,_Kumbakonam"
+              ],
+              "start": 900
+            },
+            {
+              "label": "విజయనగరం/నాయక్ విస్తరణలు",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Adi_Kumbeswarar_Temple,_Kumbakonam"
+              ],
+              "start": 1500
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

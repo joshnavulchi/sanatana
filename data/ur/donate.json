@@ -1,0 +1,136 @@
+{
+  "donate": {
+    "title": "سناتن دھرم کی حمایت کریں۔",
+    "meta": {
+      "title": "عطیہ | جائزہ — سناتن دھرم - سناتن دھرم کو دریافت کریں۔",
+      "canonical": "https://sanatanadharmam.in/donate",
+      "description": "عطیہ کریں — سناتن دھرم کی حمایت کریں — عطیہ پر مضامین، ترجمے اور مختصر تبصرہ۔ پر عمل، تاریخ، اور رہنما اصولوں کو دریافت کریں...",
+      "keywords": [
+        "UPI donation for Sanātana Dharma",
+        "bank transfer for Sanātana Dharma donation",
+        "commercial status of Sanātana Dharma",
+        "contact information for Sanātana Dharma donations",
+        "contribute to Sanātana Dharma",
+        "current expenses of Sanātana Dharma",
+        "donate to Sanātana Dharma",
+        "donation options for Sanātana Dharma",
+        "donation security for Sanātana Dharma",
+        "donation usage for Sanātana Dharma",
+        "enabling creation of spiritual content for Sanātana Dharma",
+        "frequently asked questions about donating to Sanātana Dharma",
+        "fund Sanātana Dharma",
+        "how to donate to Sanātana Dharma",
+        "impact of donations on Sanātana Dharma",
+        "international donation for Sanātana Dharma",
+        "keeping Sanātana Dharma independent and non-commercial",
+        "non-commercial nature of Sanātana Dharma",
+        "one-time donation for Sanātana Dharma",
+        "preserving free access to Sanātana Dharma knowledge",
+        "recurring donation for Sanātana Dharma",
+        "support Sanātana Dharma",
+        "supporting translations and philosophical knowledge at Sanātana Dharma",
+        "supporting website hosting and maintenance for Sanātana Dharma",
+        "sustaining free access to ancient wisdom through donations",
+        "transparency of donations at Sanātana Dharma",
+        "why donate to Sanātana Dharma"
+      ],
+      "ogimage": "/og/donate.png",
+      "url": "https://sanatanadharmam.in/donate"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "تنظیم",
+        "contactpoint": {
+          "@type": "رابطہ پوائنٹ",
+          "areaserved": "دنیا بھر میں",
+          "availablelanguage": [
+            "العربية",
+            "ڈوئچ",
+            "انگریزی",
+            "اسپینول",
+            "Français",
+            "ہندی",
+            "日本語",
+            "नेपाली",
+            "نیدرلینڈز",
+            "پرتگالی",
+            "روسی",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "کسٹمر سپورٹ",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sanatanadharmam.in کے بارے میں",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "donateoptions": {
+      "bank": {
+        "accountname": "وی وجئے کمار",
+        "accountnumber": "32160808608",
+        "heading": "UPI/بینک ٹرانسفر",
+        "ifsc": "SBIN0010677",
+        "upi": "809918075@ybl"
+      },
+      "onetime": {
+        "heading": "ایک بار کا عطیہ",
+        "note": "UPI یا بین الاقوامی ادائیگی کے طریقوں کے ذریعے ایک محفوظ ایک بار عطیہ کریں۔"
+      }
+    },
+    "expenses": {
+      "heading": "شفافیت: موجودہ اخراجات",
+      "table": [
+        {
+          "cost": "₹3,500",
+          "cycle": "3 سال",
+          "name": "ڈومین اور ہوسٹنگ",
+          "provider": "ہوسٹنگر"
+        },
+        {
+          "cost": "مفت",
+          "cycle": "لا محدود",
+          "name": "GitHub صفحات",
+          "provider": "گٹ ہب"
+        },
+        {
+          "cost": "مفت منصوبے",
+          "cycle": "جاری ہے۔",
+          "name": "اے آئی ٹولز (تحقیق)",
+          "provider": "گوگل / مائیکروسافٹ / میٹا"
+        }
+      ]
+    },
+    "faq": {
+      "heading": "اکثر پوچھے گئے سوالات",
+      "items": [
+        {
+          "a": "جی ہاں عطیات پر بھروسہ مند ادائیگی فراہم کنندگان اور براہ راست بینک ٹرانسفر کے ذریعے کارروائی کی جاتی ہے۔",
+          "q": "کیا میرا عطیہ محفوظ ہے؟"
+        },
+        {
+          "a": "آپ کا تعاون تعلیمی روحانی مواد کی میزبانی، دیکھ بھال اور تخلیق میں معاونت کرتا ہے۔",
+          "q": "میرا عطیہ کیسے استعمال کیا جائے گا؟"
+        },
+        {
+          "a": "نمبر سناتن دھرم ایک غیر تجارتی، علم پر مبنی پہل ہے۔",
+          "q": "کیا یہ تجارتی تنظیم ہے؟"
+        }
+      ]
+    },
+    "purpose": {
+      "heading": "آپ کی حمایت کیوں اہمیت رکھتی ہے۔",
+      "points": [
+        "سناتن دھرم کے علم تک مفت رسائی کو محفوظ رکھتا ہے۔",
+        "ویب سائٹ ہوسٹنگ، ڈومین اور دیکھ بھال کو سپورٹ کرتا ہے۔",
+        "اعلیٰ معیار کے روحانی مواد کی تخلیق کو قابل بناتا ہے۔",
+        "پلیٹ فارم کو آزاد اور غیر تجارتی رکھتا ہے۔"
+      ]
+    },
+    "subtitle": "آپ کا عطیہ دنیا بھر کے متلاشیوں کے لیے قدیم حکمت، صحیفوں، تراجم اور فلسفیانہ علم تک مفت رسائی کو برقرار رکھتا ہے۔"
+  }
+}

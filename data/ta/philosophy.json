@@ -1,0 +1,91 @@
+{
+  "philosophy": {
+    "meta": {
+      "title": "தத்துவம் | கண்ணோட்டம் — சனாதன தர்மம் - சனாதன தர்மத்தை ஆராயுங்கள்",
+      "canonical": "https://sanatanadharmam.in/philosophy",
+      "description": "தத்துவம் — அத்வைதம் — சனாதன தர்மம் – சனாதன தர்மத்தை ஆராயுங்கள் — கட்டுரைகள், மொழிபெயர்ப்புகள் மற்றும் தத்துவம் பற்றிய சுருக்கமான வர்ணனைகள். நடைமுறைகள், வரலாறு மற்றும் வழிகாட்டும் கொள்கைகளை ஆராயுங்கள்...",
+      "keywords": [
+        "bhagavadgita philosophy",
+        "hindu philosophy",
+        "philosophical concepts explained in sanatana dharma",
+        "philosophical concepts for beginners",
+        "philosophical concepts for students",
+        "philosophical concepts in modern life",
+        "philosophical concepts in sanatana dharma",
+        "philosophical history explained in sanatana dharma",
+        "philosophical history for beginners",
+        "philosophical history for students",
+        "philosophical history in modern life",
+        "philosophical history of sanatana dharma",
+        "philosophical insights explained in sanatana dharma",
+        "philosophical insights for beginners",
+        "philosophical insights for students",
+        "philosophical insights from sanatana dharma",
+        "philosophical insights in modern life",
+        "philosophical practices explained in sanatana dharma",
+        "philosophical practices for beginners",
+        "philosophical practices for students",
+        "philosophical practices in modern life",
+        "philosophical practices in sanatana dharma",
+        "philosophical principles explained in sanatana dharma",
+        "philosophical principles for beginners",
+        "philosophical principles for students",
+        "philosophical principles in modern life",
+        "philosophical principles of sanatana dharma",
+        "philosophical q&a explained in sanatana dharma",
+        "philosophical q&a for beginners",
+        "philosophical q&a for students",
+        "philosophical q&a in modern life",
+        "philosophical q&a on sanatana dharma",
+        "philosophical relevance explained in sanatana dharma",
+        "philosophical relevance for beginners",
+        "philosophical relevance for students",
+        "philosophical relevance in modern life",
+        "philosophical relevance of sanatana dharma in modern life",
+        "philosophical teachings explained in sanatana dharma",
+        "philosophical teachings for beginners",
+        "philosophical teachings for students",
+        "philosophical teachings in modern life",
+        "philosophical teachings of sanatana dharma",
+        "philosophy",
+        "sanatana dharma philosophy",
+        "upanishads philosophy",
+        "vedic philosophy"
+      ],
+      "ogimage": "/og/philosophy-advaita.png",
+      "url": "https://sanatanadharmam.in/philosophy"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "அமைப்பு",
+        "contactpoint": {
+          "@type": "தொடர்பு புள்ளி",
+          "areaserved": "உலகம் முழுவதும்",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "ஆங்கிலம்",
+            "எஸ்பானோல்",
+            "பிரான்சிஸ்",
+            "ஹிந்தி",
+            "எஸ்",
+            "நேபாளி",
+            "நெதர்லாந்து",
+            "போர்த்துகீசியர்கள்",
+            "ருஸ்கி",
+            "தெலுங்கு",
+            "அர்து",
+            "中文 (简体)"
+          ],
+          "contacttype": "வாடிக்கையாளர் ஆதரவு",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "சனாதனதர்மம்.இன் பற்றி",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
+  }
+}

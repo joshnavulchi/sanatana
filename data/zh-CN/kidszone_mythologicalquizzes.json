@@ -1,0 +1,89 @@
+{
+  "kidszone_mythologicalquizzes": {
+    "title": "神话测验",
+    "meta": {
+      "title": "儿童区 |神话测验 — Sanātana Dharma - 探索 Sanatana Dharma",
+      "canonical": "https://sanatanadharmam.in/kidszone/mythologicalquizzes",
+      "description": "KidsZone — 神话测验 — Sanātana Dharma - 探索 Sanatana Dharma — KidsZone 上的文章、翻译和简明评论。探索实践、历史和指导……",
+      "keywords": [
+        "hindu epics quizzes",
+        "hindu gods and goddesses quizzes",
+        "hindu mythology games for kids",
+        "hindu mythology quizzes for children",
+        "hindu mythology trivia",
+        "hindu mythology worksheets for kids",
+        "hinduism for kids",
+        "kids learning hinduism",
+        "kids zone",
+        "kids zone activities",
+        "kids zone educational content",
+        "kids zone learning",
+        "kids zone mythological quizzes",
+        "kids zone resources",
+        "mythological characters quiz",
+        "mythological quizzes",
+        "mythological quizzes for classrooms",
+        "mythological quizzes for students",
+        "mythological quizzes interactive",
+        "mythological quizzes online",
+        "mythological quizzes printable",
+        "mythological quizzes with answers",
+        "mythological stories for kids",
+        "mythology education for children",
+        "mythology fun facts for kids",
+        "mythology quizzes for children",
+        "sanatana dharma",
+        "vedic mythology"
+      ],
+      "ogimage": "/og/kidszone-mythologicalquizzes.png",
+      "url": "https://sanatanadharmam.in/kidszone/mythologicalquizzes"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "组织",
+        "contactpoint": {
+          "@type": "联络点",
+          "areaserved": "全世界",
+          "availablelanguage": [
+            "巴黎",
+            "德语",
+            "英语",
+            "西班牙语",
+            "法国人",
+            "हिन्दी",
+            "日本语",
+            "नेपाली",
+            "荷兰",
+            "葡萄牙语",
+            "俄罗斯",
+            "తెలుగు",
+            "阿鲁多",
+            "中文 (简体)"
+          ],
+          "contacttype": "客户支持",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "关于 Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "allorigins": "所有起源",
+    "allthemes": "所有主题",
+    "characterslabel": "人物：",
+    "comicnotfounddesc": "我们找不到那部漫画。",
+    "comicnotfoundtitle": "找不到漫画",
+    "description": "10 分钟内回答 10 个随机问题。祝你好运！",
+    "filter": "筛选",
+    "morallabel": "道德：",
+    "next": "下一个",
+    "originlabel": "起源",
+    "previous": "以前的",
+    "searchlabel": "搜索",
+    "showing": "显示 {start}–{end}（共 {total}）",
+    "themelabel": "主题",
+    "themeslabel": "主题："
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "philosophy_purushartha": {
+    "meta": {
+      "canonical": "https://sanatanadharmam.in/philosophy/purushartha",
+      "description": "Purusharthas — Philosophy — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Purusharthas. Explore practices, history, and guiding principles...",
+      "keywords": [
+        "artha",
+        "bhagavadgita purusharthas",
+        "desire fulfillment",
+        "dharma",
+        "ethical living",
+        "four goals of life",
+        "hindu philosophy",
+        "kama",
+        "manusmriti purusharthas",
+        "material prosperity",
+        "moksha",
+        "purusharthas",
+        "purusharthas concepts",
+        "purusharthas in modern life",
+        "purusharthas origin",
+        "purusharthas personal development",
+        "purusharthas principles",
+        "purusharthas q&a",
+        "purusharthas relation to other concepts",
+        "purusharthas relevance",
+        "purusharthas scriptural references",
+        "purusharthas society",
+        "purusharthas well-being",
+        "spiritual liberation"
+      ],
+      "ogimage": "/og/purusharthas-philosophy.png",
+      "title": "Purusharthas | Philosophy — Sanātana Dharma - Explore Sanatan Dharma",
+      "url": "https://sanatanadharmam.in/philosophy/purushartha"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "English",
+            "Español",
+            "Français",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Nederlands",
+            "Português",
+            "Русский",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "core_principles": [
+      "Balance between material and spiritual pursuits",
+      "Ethical framework for achieving goals",
+      "Progressive evolution from desire to liberation"
+    ],
+    "definition": "Purusharthas are the four fundamental goals of human life in Hindu philosophy, guiding individuals toward a balanced and meaningful existence.",
+    "four_goals": {
+      "artha": "Material prosperity, wealth, and resources for sustenance.",
+      "dharma": "Righteousness, moral duties, and ethical living.",
+      "kama": "Desires, pleasures, and emotional fulfillment.",
+      "moksha": "Liberation from the cycle of birth and death; spiritual freedom."
+    },
+    "key_scriptural_references": [
+      {
+        "quote_summary": "Perform duties without attachment to results for spiritual progress.",
+        "text": "Bhagavathgita"
+      },
+      {
+        "quote_summary": "Defines the role of Dharma in guiding Artha and Kama.",
+        "text": "Manusmriti"
+      }
+    ],
+    "modern_relevance": {
+      "personal_development": "Encourages holistic growth—ethical, material, emotional, and spiritual.",
+      "society": "Promotes harmony through balanced living.",
+      "well-being": "Integrates duty, wealth, pleasure, and liberation for a fulfilling life."
+    },
+    "origin": {
+      "meaning": "Derived from Sanskrit 'Purusha' (human being) and 'Artha' (purpose or goal).",
+      "roots": "Vedic and Dharmashastra teachings",
+      "texts": [
+        "Vedas",
+        "Upanishads",
+        "Manusmriti",
+        "Bhagavathgita"
+      ]
+    },
+    "relation_to_other_concepts": {
+      "dharma": "Acts as a guiding principle for Artha and Kama.",
+      "karma": "Actions in pursuit of these goals create karmic consequences.",
+      "moksha": "The ultimate goal beyond worldly pursuits."
+    },
+    "purushartha_qa": [
+      {
+        "question": "Wat zijn de Purusarthas?",
+        "answer": "The Purusharthas are the four fundamental aims of human life in Hindu philosophy: Dharma (righteousness), Artha (prosperity), Kama (desire), and Moksha (liberation). They provide a holistic framework for a balanced and meaningful life."
+      },
+      {
+        "question": "Hoe verhouden de Purusarthas zich tot elkaar?",
+        "answer": "Dharma begeleidt het nastreven van Artha en Kama en zorgt ervoor dat rijkdom en verlangens ethisch worden nagestreefd. Moksha is het ultieme doel en overstijgt de andere drie. Alle vier zijn onderling afhankelijk en moeten in evenwicht zijn voor echte vervulling."
+      },
+      {
+        "question": "Is één Purushartha belangrijker dan de andere?",
+        "answer": "Hoewel ze allemaal belangrijk zijn, wordt Moksha als het hoogste doel beschouwd. Het verwaarlozen van Dharma, Artha of Kama kan echter tot onevenwichtigheid leiden. Het ideaal is om ze alle vier te harmoniseren, afhankelijk van iemands levensfase en persoonlijke aard."
+      },
+      {
+        "question": "Hoe zijn de Purushartha’s vandaag de dag relevant?",
+        "answer": "Ze bieden tijdloze begeleiding voor ethisch leven, het verantwoord creëren van rijkdom, gezonde relaties en spirituele groei. In het moderne leven helpen ze individuen een doel, evenwicht en innerlijke vrede te vinden."
+      },
+      {
+        "question": "Welke geschriften bespreken de Purusharthas?",
+        "answer": "De Veda's, Upanishads, Manusmriti en Bhagavad Gita bespreken allemaal de Purusharthas en bieden filosofische en praktische inzichten."
+      },
+      {
+        "question": "Kunnen de Purusharthas met elkaar in conflict komen?",
+        "answer": "Ja, soms kunnen verlangens (Kama) of het nastreven van rijkdom (Artha) in strijd zijn met Dharma. In dergelijke gevallen moet Dharma voorrang krijgen, omdat het de ethische en sociale orde handhaaft."
+      },
+      {
+        "question": "Hoe ondersteunen de Purusharthas spirituele vooruitgang?",
+        "answer": "Door wereldse plichten en verlangens ethisch te vervullen, wordt de geest gezuiverd en voorbereid op het nastreven van Moksha, de ultieme bevrijding."
+      },
+      {
+        "question": "Zijn de Purusarthas uniek voor het hindoeïsme?",
+        "answer": "Hoewel het raamwerk het meest ontwikkeld is in de hindoefilosofie, worden soortgelijke ideeën over het balanceren van plicht, rijkdom, verlangen en spirituele vrijheid ook in andere wereldtradities aangetroffen."
+      }
+    ]
+  }
+}

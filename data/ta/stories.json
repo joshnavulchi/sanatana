@@ -1,0 +1,88 @@
+{
+  "stories": {
+    "meta": {
+      "title": "கதைகள் | கண்ணோட்டம் — சனாதன தர்மம் - சனாதன தர்மத்தை ஆராயுங்கள்",
+      "canonical": "https://sanatanadharmam.in/stories",
+      "description": "KidsZone — இல்லஸ்ட்ரேட்டட் கதைகள் — சனாதன தர்மம் - சனாதன தர்மத்தை ஆராயுங்கள் — கட்டுரைகள், மொழிபெயர்ப்புகள் மற்றும் KidsZone பற்றிய சுருக்கமான வர்ணனைகள். நடைமுறைகள், வரலாறு மற்றும் வழிகாட்டுதல் ஆகியவற்றை ஆராயுங்கள்...",
+      "keywords": [
+        "Ancient Wisdom Stories",
+        "Ayurveda Stories",
+        "Bhagavad Gita Stories",
+        "Deities Stories",
+        "Festivals and Traditions Stories",
+        "Hindu Mythology Stories",
+        "Hinduism Stories",
+        "Indian Culture Stories",
+        "Indian Festivals Stories",
+        "Indian Philosophy Stories",
+        "Mahabharata Stories",
+        "Mythology Stories",
+        "Philosophy Stories",
+        "Pilgrimage Stories",
+        "Puranas Stories",
+        "Ramayana Stories",
+        "Religious Knowledge Stories",
+        "Rituals Stories",
+        "Sanatanadharmam Stories",
+        "Sanskrit Stories",
+        "Spiritual Practices Stories",
+        "Spirituality Stories",
+        "Stories Overview",
+        "Temples Stories",
+        "Upanishads Stories",
+        "Vedas Stories",
+        "Yoga and Meditation Stories"
+      ],
+      "ogimage": "/og/kidszone-illustratedstories.png",
+      "url": "https://sanatanadharmam.in/stories"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "அமைப்பு",
+        "contactpoint": {
+          "@type": "தொடர்பு புள்ளி",
+          "areaserved": "உலகம் முழுவதும்",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "ஆங்கிலம்",
+            "எஸ்பானோல்",
+            "பிரான்சிஸ்",
+            "ஹிந்தி",
+            "எஸ்",
+            "நேபாளி",
+            "நெதர்லாந்து",
+            "போர்த்துகீசியர்கள்",
+            "ருஸ்கி",
+            "தெலுங்கு",
+            "அர்து",
+            "中文 (简体)"
+          ],
+          "contacttype": "வாடிக்கையாளர் ஆதரவு",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "சனாதனதர்மம்.இன் பற்றி",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
+  },
+  "biography": {
+    "full_name": "சனாதன தர்மக் கதைகள் (கண்ணோட்டம்)",
+    "mythic_origin": "சனாதன தர்மத்தின் கதைகள் வேதங்கள், புராணங்கள், இதிஹாசங்கள் மற்றும் நாட்டுப்புறக் கதைகளிலிருந்து எடுக்கப்பட்டவை, இது இந்தியாவின் ஆன்மீக, நெறிமுறை மற்றும் கலாச்சார பாரம்பரியத்தை பிரதிபலிக்கிறது. எல்லா வயதினரையும் தேடுபவர்களை ஊக்குவிக்கவும், கல்வி கற்பிக்கவும், வழிகாட்டவும் அவை வடிவமைக்கப்பட்டுள்ளன.",
+    "attributes": [
+      "கடவுள்கள், முனிவர்கள், நாயகர்கள் மற்றும் சாதாரண மனிதர்கள் என பலதரப்பட்ட கதைகள்",
+      "தர்மம், கர்மா மற்றும் ஆன்மீக உண்மைகளை விளக்குகிறது",
+      "குழந்தைகள் மற்றும் பெரியவர்கள் அனைவரும் அணுகக்கூடியது"
+    ],
+    "roles": [
+      "பண்டைய ஞானத்தை கடத்துபவர்கள்",
+      "நெறிமுறை மற்றும் ஆன்மீக வழிகாட்டுதலின் ஆதாரங்கள்",
+      "இந்திய சமூகத்திற்கான கலாச்சார தொடுகல்கள்"
+    ],
+    "legacy": "இந்தக் கதைகள் எண்ணற்ற தலைமுறைகளின் மதிப்புகள், நம்பிக்கைகள் மற்றும் நடைமுறைகளை வடிவமைத்துள்ளன. சமூகத்தின் தார்மீக மற்றும் ஆன்மீக கட்டமைப்பை வளர்க்கும் வகையில் அவை வீடுகளிலும், கோயில்களிலும், பள்ளிகளிலும் தொடர்ந்து மீண்டும் கூறப்படுகின்றன.",
+    "influence": "சனாதன தர்மத்தின் கதைகள், இலக்கியம், கலை மற்றும் ஊடகங்களில் புதிய விளக்கங்களைத் தூண்டி, நவீன உலகிற்கு காலத்தால் அழியாத பாடங்களை வழங்கும் ஒரு வாழும் பாரம்பரியமாக உள்ளது."
+  }
+}

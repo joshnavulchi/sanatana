@@ -1,0 +1,1026 @@
+{
+  "temples_destroyed": {
+    "title": "घटना-स्तरीय दस्तावेज़ीकरण: भारत में हिंदू मंदिर क्षति (साक्ष्य-आधारित)",
+    "meta": {
+      "title": "घटना-स्तरीय दस्तावेज़ीकरण: भारत में हिंदू मंदिर क्षति (साक्ष्य-आधारित)",
+      "canonical": "https://sanatanadharmam.in/temples-destroyed",
+      "description": "विशिष्ट मंदिर के नाम शामिल नहीं किए जा सकते क्योंकि प्राप्त स्रोतों द्वारा ऐसी कोई सत्यापित प्रविष्टियाँ प्रदान नहीं की गईं।",
+      "keywords": [
+        "Hindu temple damage",
+        "India",
+        "archaeological evidence",
+        "contemporary temple attacks",
+        "cultural heritage",
+        "dynastic warfare and temples",
+        "economic plunder and temples",
+        "evidence-based documentation",
+        "historical context",
+        "historical incidents",
+        "historical temple incidents",
+        "multisource verification",
+        "political motives",
+        "primary sources",
+        "religious conflict",
+        "scholarly analysis",
+        "secondary sources",
+        "sectarian violence and temples",
+        "statecraft and temples",
+        "temple damage patterns",
+        "temple desecration",
+        "temple destruction",
+        "temple destruction patterns",
+        "temple incident IDs",
+        "temple incident context",
+        "temple incident deities",
+        "temple incident event types",
+        "temple incident locations",
+        "temple incident motives",
+        "temple incident periods",
+        "temple incident perpetrators",
+        "temple incident sources",
+        "temple incident summaries",
+        "temple incident timelines",
+        "temple incident traditions",
+        "temple incident verification",
+        "temple incident verification status",
+        "temple preservation",
+        "temple protection policies",
+        "temple reconstruction",
+        "verified cases"
+      ],
+      "ogimage": "images/og/temples-destroyed.png",
+      "url": "https://sanatanadharmam.in/temples-destroyed"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "संगठन",
+        "contactpoint": {
+          "@type": "संपर्क बिंदु",
+          "areaserved": "दुनिया भर में",
+          "availablelanguage": [
+            "धन्यवाद",
+            "जर्मन",
+            "अंग्रेजी",
+            "Español",
+            "फ़्रांसीसी",
+            "हिन्दी",
+            "ठीक है",
+            "नेपाली",
+            "नीदरलैंड",
+            "पुर्तगाली",
+            "Русский",
+            "ठीक है",
+            "धन्यवाद",
+            "中文 (简体)"
+          ],
+          "contacttype": "ग्राहक सहायता",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "सनातनधर्मम.इन के बारे में",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "canonical": "https://sanatanadharmam.in/temples-destroyed",
+    "incidents": [
+      {
+        "alleged_perpetrator_affiliation": "घुरिद/प्रारंभिक इंडो-मुस्लिम राज्य की सेना",
+        "approx_date": "1192 ई",
+        "context_motive": [
+          "वंशवादी_युद्ध",
+          "राजनीतिक_संकेत"
+        ],
+        "deity": "शिव (क्षेत्रीय व्यापकता से अनुमान)",
+        "event_type": [
+          "अपवित्रता"
+        ],
+        "id": "ईटन_केस_01_डेल्ही_सल्तनत_1192",
+        "location": {
+          "city_or_district": "उत्तर भारत",
+          "country": "भारत",
+          "state_province": "दिल्ली-हरियाणा-राजस्थान बेल्ट"
+        },
+        "period": "प्रारंभिक दिल्ली सल्तनत",
+        "sources": [
+          {
+            "title": "रिचर्ड एम. ईटन - पूर्व-आधुनिक भारत में मंदिर का अपवित्रीकरण",
+            "type": "शैक्षणिक",
+            "url": "https://franpritchett.com/00islamlinks/txt_eaton_temples1.pdf"
+          }
+        ],
+        "summary": "ऐतिहासिक विश्लेषण से पता चलता है कि 1192 ईस्वी में राजपूत शासकों की हार के बाद, पराजित राजवंश से जुड़े कुछ राजनीतिक रूप से महत्वपूर्ण मंदिरों को विजय के प्रतीक के रूप में अपवित्र कर दिया गया था, जो पहले से मौजूद भारतीय शासन मानदंडों के अनुरूप था।",
+        "temple_name": "पराजित राजपूत राजव्यवस्था से जुड़ा मंदिर (स्रोतों में नाम नहीं दिया गया है)",
+        "timeline": [
+          "1192: राजपूत संघ की हार",
+          "पोस्ट‑1192: राजनीतिक-प्रतीकात्मक अपवित्रता"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "सत्यापित_मल्टीसोर्स"
+      },
+      {
+        "alleged_perpetrator_affiliation": "तुगलक प्रशासनिक अधिकारी",
+        "approx_date": "1326 ई",
+        "context_motive": [
+          "राज्य_रखरखाव"
+        ],
+        "deity": "शिव",
+        "event_type": [
+          "मरम्मत",
+          "राज्य_हस्तक्षेप"
+        ],
+        "id": "ईटन_केस_02_तुगलक_डेक्कन_1326",
+        "location": {
+          "city_or_district": "कल्याणा",
+          "country": "भारत",
+          "state_province": "बीदर (डेक्कन)"
+        },
+        "period": "तुगलक साम्राज्य",
+        "sources": [
+          {
+            "title": "मंदिर अपवित्रता और भारत-मुस्लिम राज्य (ईटन)",
+            "type": "शैक्षणिक",
+            "url": "https://docslib.org/doc/2884327/temple-desecration-in-pre-modern-india"
+          }
+        ],
+        "summary": "एक संस्कृत शिलालेख (ईटन के विश्लेषण में उद्धृत) में दर्ज है कि 1326 ई. में, सुल्तान मुहम्मद बिन तुगलक ने कल्याण में एक शिव मंदिर की मरम्मत के लिए मुस्लिम अधिकारियों को नियुक्त किया था - जो व्यापक धार्मिक विनाश के दावों का खंडन करता है।",
+        "temple_name": "कल्याण में शिव मंदिर (सटीक संरचनात्मक विवरण खोज परिणामों में शामिल नहीं हैं)",
+        "timeline": [
+          "1326: राज्य के अधिकार के तहत मंदिर की मरम्मत का आदेश दिया गया"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "सत्यापित_मल्टीसोर्स"
+      },
+      {
+        "alleged_perpetrator_affiliation": "कश्मीर सल्तनत",
+        "approx_date": "1355-1373 ई",
+        "context_motive": [
+          "राजकाज",
+          "धार्मिक_बहुलवाद"
+        ],
+        "deity": "विविध",
+        "event_type": [
+          "सुरक्षा"
+        ],
+        "id": "ईटन_केस_03_कश्मीर_1355_1373",
+        "location": {
+          "city_or_district": "कश्मीर घाटी",
+          "country": "भारत",
+          "state_province": "कश्मीर"
+        },
+        "period": "शिहाब अल-दीन की कश्मीर सल्तनत",
+        "sources": [
+          {
+            "title": "मंदिर अपवित्रता और भारत-मुस्लिम राज्य (ईटन)",
+            "type": "शैक्षणिक",
+            "url": "https://vdoc.pub/documents/temple-desecration-and-muslim-states-in-medieval-india-57n804cku1p0"
+          }
+        ],
+        "summary": "सुल्तान शिहाब अल-दीन ने राजस्व के लिए हिंदू/बौद्ध मंदिर की छवियों को पिघलाने का सुझाव देने के लिए मंत्रियों को फटकार लगाई, उन्होंने शास्त्रीय हिंदू राजाओं को मंदिर संरक्षण के उदाहरण के रूप में उद्धृत किया, जिससे पता चला कि सभी भारत-मुस्लिम शासकों ने विनाश का प्रयास नहीं किया।",
+        "temple_name": "एकाधिक हिंदू/बौद्ध मंदिर (नाम निर्दिष्ट नहीं)",
+        "timeline": [
+          "1355-1373: मंदिर संरक्षण नीति का दस्तावेजीकरण"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "सत्यापित_मल्टीसोर्स"
+      },
+      {
+        "alleged_perpetrator_affiliation": "क्षेत्र-विजयी सेनाएँ",
+        "approx_date": "14वीं सदी",
+        "context_motive": [
+          "वंशवादी_युद्ध",
+          "राजनीतिक_संकेत"
+        ],
+        "deity": "शिव या क्षेत्रीय देवता",
+        "event_type": [
+          "अपवित्रता"
+        ],
+        "id": "ईटन_केस_04_डेक्कन_स्टेटबिल्डिंग_14वीं_सदी",
+        "location": {
+          "city_or_district": "उत्तरी दक्कन",
+          "country": "भारत",
+          "state_province": "महाराष्ट्र-कर्नाटक क्षेत्र"
+        },
+        "period": "प्रारंभिक बहमनी सल्तनत और तुगलक अभियान",
+        "sources": [
+          {
+            "title": "ईटन - पूर्व-आधुनिक भारत में मंदिर का अपवित्रीकरण",
+            "type": "शैक्षणिक",
+            "url": "https://franpritchett.com/00islamlinks/txt_eaton_temples1.pdf"
+          }
+        ],
+        "summary": "ईटन का कहना है कि 14वीं सदी के दक्कन में, पुरानी भारतीय राजनीतिक परंपराओं के अनुरूप, सैन्य जीत के बाद शासक राजवंशों से जुड़े मंदिरों (यादृच्छिक सामुदायिक मंदिर नहीं) को चुनिंदा रूप से निशाना बनाया गया था।",
+        "temple_name": "प्रतिद्वंद्वी राज्यों के राजवंशीय मंदिर (अनिर्दिष्ट)",
+        "timeline": [
+          "1300 का दशक: राजवंशीय युद्ध",
+          "विजय के बाद प्रतीकात्मक अपवित्रता"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "आंशिक_सत्यापित"
+      },
+      {
+        "alleged_perpetrator_affiliation": "मुगल शाही प्रशासन",
+        "approx_date": "16वीं-17वीं शताब्दी",
+        "context_motive": [
+          "राजकाज",
+          "राजस्व_नीति"
+        ],
+        "deity": "शिव/विभिन्न",
+        "event_type": [
+          "सुरक्षा",
+          "संरक्षण"
+        ],
+        "id": "ईटन_केस_05_स्टेटक्राफ्ट_प्रोटेक्शन_अर्ली_मॉडर्न",
+        "location": {
+          "city_or_district": "एकाधिक",
+          "country": "भारत",
+          "state_province": "भारत"
+        },
+        "period": "मुग़ल साम्राज्य",
+        "sources": [
+          {
+            "title": "मंदिर अपवित्रता और भारत-मुस्लिम राज्य (ईटन)",
+            "type": "शैक्षणिक",
+            "url": "https://docslib.org/doc/2884327/temple-desecration-in-pre-modern-india"
+          }
+        ],
+        "summary": "ईटन के संश्लेषण से पता चलता है कि कई हिंदू मंदिरों को मुगल शासन के तहत अनुदान, बंदोबस्ती और कानूनी संरक्षण प्राप्त हुआ, जो समान धार्मिक विनाश के बारे में बाद के युग के राजनीतिक आख्यानों का खंडन करता है।",
+        "temple_name": "मुगलकालीन भारत में विभिन्न मंदिर (नाम निर्दिष्ट नहीं)",
+        "timeline": [
+          "1500-1600 के दशक: प्रलेखित राजस्व अनुदान और सुरक्षा आदेश"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "सत्यापित_मल्टीसोर्स"
+      },
+      {
+        "alleged_perpetrator_affiliation": "गजनी के महमूद के नेतृत्व में गजनवी सेना",
+        "approx_date": "1026-01-08",
+        "context_motive": [
+          "वंशवादी_युद्ध",
+          "आर्थिक_लूट",
+          "राजनीतिक_संकेत"
+        ],
+        "deity": "शिव",
+        "event_type": [
+          "बोरी",
+          "लूटना",
+          "विध्वंस"
+        ],
+        "id": "सोमनाथ_1026_गजनी",
+        "location": {
+          "city_or_district": "प्रभास पाटन (वेरावल)",
+          "country": "भारत",
+          "state_province": "गुजरात"
+        },
+        "period": "मध्यकालीन",
+        "sources": [
+          {
+            "title": "गिर सोमनाथ जिला-इतिहास (गुजरात सरकार)",
+            "type": "सरकार",
+            "url": "https://girsomnath.nic.in/about-district/history/"
+          },
+          {
+            "title": "सोमनाथ की बोरी (विकिपीडिया सिंहावलोकन)",
+            "type": "समाचार/विश्वकोश",
+            "url": "https://en.wikipedia.org/wiki/Sack_of_Somnath"
+          }
+        ],
+        "summary": "गजनवी सेना ने सोमनाथ मंदिर को लूटा; बाद में पुनर्निर्माण दर्ज किए गए।",
+        "temple_name": "सोमनाथ ज्योतिर्लिंग",
+        "timeline": [
+          "1025-1026: गजनी अभियान",
+          "12वीं, 14वीं, 15वीं शताब्दी में पुनर्निर्माण के चरण; आधुनिक अभिषेक 1951"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "सत्यापित_मल्टीसोर्स"
+      },
+      {
+        "alleged_perpetrator_affiliation": "दिल्ली सल्तनत (अलाउद्दीन खिलजी के अधीन उलुग खान)",
+        "approx_date": "1299",
+        "context_motive": [
+          "वंशवादी_युद्ध",
+          "आर्थिक_लूट"
+        ],
+        "deity": "शिव",
+        "event_type": [
+          "बोरी"
+        ],
+        "id": "सोमनाथ_1299_खलजी",
+        "location": {
+          "city_or_district": "प्रभास पाटन (वेरावल)",
+          "country": "भारत",
+          "state_province": "गुजरात"
+        },
+        "period": "दिल्ली सल्तनत",
+        "sources": [
+          {
+            "title": "जिला गिर सोमनाथ-इतिहास",
+            "type": "सरकार",
+            "url": "https://girsomnath.nic.in/about-district/history/"
+          }
+        ],
+        "summary": "1299 में दिल्ली सल्तनत अभियान के दौरान सोमनाथ को बर्खास्त कर दिया गया; पुनर्निर्माण का पालन किया गया।",
+        "temple_name": "सोमनाथ ज्योतिर्लिंग",
+        "timeline": [
+          "1299: उलुग खान के अधीन बर्खास्त",
+          "1308+: चुडासमा राजवंश द्वारा स्थानीय पुनर्निर्माण"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "सत्यापित_मल्टीसोर्स"
+      },
+      {
+        "alleged_perpetrator_affiliation": "मुगल शाही व्यवस्था (औरंगजेब)",
+        "approx_date": "1669",
+        "context_motive": [
+          "राजनीतिक_संकेत",
+          "राज्य_नीति"
+        ],
+        "deity": "शिव",
+        "event_type": [
+          "विध्वंस",
+          "रूपांतरण"
+        ],
+        "id": "काशी_विश्वनाथ_1669",
+        "location": {
+          "city_or_district": "वाराणसी",
+          "country": "भारत",
+          "state_province": "उत्तर प्रदेश"
+        },
+        "period": "मुग़ल",
+        "sources": [
+          {
+            "title": "काशी विश्वनाथ मंदिर (अवलोकन)",
+            "type": "समाचार/विश्वकोश",
+            "url": "https://en.wikipedia.org/wiki/Kashi_Vishwanath_Temple"
+          },
+          {
+            "title": "इंडियन एक्सप्रेस व्याख्याता (एएसआई और फ़ारसी स्रोत)",
+            "type": "समाचार",
+            "url": "https://www.hinduismtoday.com/hpi/2024/01/30/the-temple-that-aurangzeb-razed-evidence-from-history/"
+          }
+        ],
+        "summary": "प्राथमिक फ़ारसी इतिहास और एएसआई-संदर्भित अध्ययन 1669 के विध्वंस की पुष्टि करते हैं; ज्ञानवापी मस्जिद बनी; वर्तमान केवी मंदिर का पुनर्निर्माण 1780 में हुआ।",
+        "temple_name": "काशी विश्वनाथ (विश्वेश्वर)/ज्ञानवापी स्थल",
+        "timeline": [
+          "1669: विध्वंस आदेश",
+          "1670 का दशक: मस्जिद का निर्माण किया गया",
+          "1780: अहिल्याबाई होल्कर द्वारा वर्तमान मंदिर"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "सत्यापित_मल्टीसोर्स"
+      },
+      {
+        "alleged_perpetrator_affiliation": "मुगल शाही व्यवस्था (औरंगजेब)",
+        "approx_date": "1670",
+        "context_motive": [
+          "राजनीतिक_संकेत",
+          "राज्य_नीति"
+        ],
+        "deity": "कृष्ण (केशवदेव)",
+        "event_type": [
+          "विध्वंस",
+          "रूपांतरण"
+        ],
+        "id": "मथुरा_केशवदेव_1670",
+        "location": {
+          "city_or_district": "मथुरा",
+          "country": "भारत",
+          "state_province": "उत्तर प्रदेश"
+        },
+        "period": "मुग़ल",
+        "sources": [
+          {
+            "title": "बिजनेस स्टैंडर्ड (एएसआई आरटीआई-गजट 1920)",
+            "type": "समाचार",
+            "url": "https://www.business-standard.com/india-news/asi-reveals-records-on-demolition-of-mathura-s-keshavdev-temple-rti-124020600548_1.html"
+          },
+          {
+            "title": "इकोनॉमिक टाइम्स (आरटीआई कवरेज)",
+            "type": "समाचार",
+            "url": "https://economictimes.indiatimes.com/news/india/aurangzeb-demolished-keshavdev-temple-krishna-janmabhoomi-site-to-built-mosque-in-mathura-says-asi-in-rti-reply/articleshow/107447699.cms"
+          }
+        ],
+        "summary": "एएसआई-उद्धृत 1920 राजपत्र (आरटीआई के माध्यम से खुलासा): पूर्व केशवदेव मंदिर को नष्ट कर दिया गया; औरंगजेब की मस्जिद के लिए उपयोग की जाने वाली जगह।",
+        "temple_name": "केशवदेव मंदिर/शाही ईदगाह परिसर",
+        "timeline": [
+          "1670: विध्वंस और मस्जिद निर्माण (ऐतिहासिक रिकॉर्ड के अनुसार)"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "सत्यापित_मल्टीसोर्स"
+      },
+      {
+        "alleged_perpetrator_affiliation": "डेक्कन सल्तनत गठबंधन",
+        "approx_date": "1565",
+        "context_motive": [
+          "वंशवादी_युद्ध",
+          "राजनीतिक_संकेत",
+          "आर्थिक_लूट"
+        ],
+        "deity": "विविध",
+        "event_type": [
+          "बोरी",
+          "लूटपाट",
+          "परित्याग"
+        ],
+        "id": "हम्पी_1565",
+        "location": {
+          "city_or_district": "हम्पी/विजयनगर",
+          "country": "भारत",
+          "state_province": "कर्नाटक"
+        },
+        "period": "विजयनगर/दक्कन सल्तनत",
+        "sources": [
+          {
+            "title": "यूनेस्को- हम्पी में स्मारकों का समूह",
+            "type": "आईओ",
+            "url": "https://whc.unesco.org/en/list/241"
+          },
+          {
+            "title": "हम्पी (विश्वकोश सिंहावलोकन)",
+            "type": "समाचार/विश्वकोश",
+            "url": "https://en.wikipedia.org/wiki/Hampi"
+          }
+        ],
+        "summary": "यूनेस्को: 1565 में शहर पर विजय प्राप्त की गई और छह महीने तक लूटपाट की गई; बाद में छोड़ दिया गया।",
+        "temple_name": "हम्पी में स्मारकों का समूह (कई मंदिर)",
+        "timeline": [
+          "1565: विजय और बर्खास्तगी",
+          "बाद की शताब्दियाँ: एएसआई संरक्षण/यूनेस्को शिलालेख (1986)"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "सत्यापित_मल्टीसोर्स"
+      },
+      {
+        "alleged_perpetrator_affiliation": "कश्मीर सल्तनत (सिकंदर शाह मिरी को जिम्मेदार ठहराया गया)",
+        "approx_date": "सी. 1390-1413 (विनाश चरण)",
+        "context_motive": [
+          "राजनीतिक_संकेत",
+          "राज्य_नीति",
+          "अन्य_या_विवादित"
+        ],
+        "deity": "सूर्य (मार्तंड)",
+        "event_type": [
+          "विध्वंस",
+          "बर्बादी"
+        ],
+        "id": "मार्तण्ड_सूर्य_मंदिर_15सी",
+        "location": {
+          "city_or_district": "मट्टन (अनंतनाग)",
+          "country": "भारत",
+          "state_province": "जम्मू एवं कश्मीर"
+        },
+        "period": "शाह मीर सल्तनत",
+        "sources": [
+          {
+            "title": "मार्तंड सूर्य मंदिर (अवलोकन)",
+            "type": "समाचार/विश्वकोश",
+            "url": "https://en.wikipedia.org/wiki/Martand_Sun_Temple"
+          },
+          {
+            "title": "हेरिटेज जर्नल लेख (2020)",
+            "type": "शैक्षणिक",
+            "url": "https://www.heritageuniversityofkerala.com/JournalPDF/Volume8.2/60.pdf"
+          }
+        ],
+        "summary": "आठवीं सदी का मंदिर बाद में नष्ट कर दिया गया; विद्वतापूर्ण साहित्य राजनीतिक/धार्मिक संदर्भों पर ध्यान देता है और स्रोतों पर सावधान करता है।",
+        "temple_name": "मार्तंड सूर्य मंदिर",
+        "timeline": [
+          "आठवीं सदी: निर्माण",
+          "सी. 15वीं सदी: विनाश",
+          "आधुनिक: एएसआई-संरक्षित खंडहर"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "सत्यापित_मल्टीसोर्स"
+      },
+      {
+        "alleged_perpetrator_affiliation": "बंगाल सल्तनत के सेनापति को कालापहाड़ के नाम से जाना जाता है",
+        "approx_date": "1568",
+        "context_motive": [
+          "वंशवादी_युद्ध",
+          "राजनीतिक_संकेत"
+        ],
+        "deity": "जगन्नाथ (विष्णु अवतार परंपरा)",
+        "event_type": [
+          "अपवित्रता",
+          "लूटपाट"
+        ],
+        "id": "पुरी_जगन्नाथ_1568",
+        "location": {
+          "city_or_district": "पुरी",
+          "country": "भारत",
+          "state_province": "ओडिशा"
+        },
+        "period": "अफगान बंगाल-ओडिशा संघर्ष",
+        "sources": [
+          {
+            "title": "उड़ीसा समीक्षा (सरकार)-मंदिर प्रबंधन और इतिहास",
+            "type": "सरकार",
+            "url": "https://magazines.odisha.gov.in/Orissareview/2011/july/engpdf/5-8.pdf"
+          },
+          {
+            "title": "कालापहाड़ (अवलोकन)",
+            "type": "समाचार/विश्वकोश",
+            "url": "https://en.wikipedia.org/wiki/Kalapahar"
+          }
+        ],
+        "summary": "राज्य की समीक्षा और इतिहास में अपमान का वर्णन किया गया है; पुजारियों ने पुनर्स्थापना से पहले देवता के सार की रक्षा की।",
+        "temple_name": "श्रीजगन्नाथ मंदिर",
+        "timeline": [
+          "1568: आक्रमण/अपवित्रता",
+          "1575: रामचन्द्र देव प्रथम द्वारा पुनर्स्थापना (प्रति राज्य इतिहास)"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "सत्यापित_मल्टीसोर्स"
+      },
+      {
+        "alleged_perpetrator_affiliation": "मलिक काफूर (दिल्ली सल्तनत)",
+        "approx_date": "1311-02",
+        "context_motive": [
+          "आर्थिक_लूट",
+          "वंशवादी_युद्ध"
+        ],
+        "deity": "शिव",
+        "event_type": [
+          "बोरी",
+          "श्रद्धांजलि",
+          "क्षति"
+        ],
+        "id": "halebidu_1311",
+        "location": {
+          "city_or_district": "हलेबिडु (द्वारसमुद्र)",
+          "country": "भारत",
+          "state_province": "कर्नाटक"
+        },
+        "period": "दिल्ली सल्तनत",
+        "sources": [
+          {
+            "title": "द्वारसमुद्र की घेराबंदी",
+            "type": "समाचार/विश्वकोश",
+            "url": "https://en.wikipedia.org/wiki/Siege_of_Dwarasamudra"
+          }
+        ],
+        "summary": "श्रद्धांजलि वसूली के साथ अभियान ने होयसला राजधानी पर कब्ज़ा कर लिया; बाद के आख्यानों में क्षेत्र में मंदिरों को हुए नुकसान का उल्लेख है।",
+        "temple_name": "होयसलेश्वर मंदिर (हालेबिडु)",
+        "timeline": [
+          "1311: घेराबंदी और समर्पण",
+          "परिणाम: श्रद्धांजलि, हानि, क्षेत्रीय क्षति खाते"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "आंशिक_सत्यापित"
+      },
+      {
+        "alleged_perpetrator_affiliation": "पुर्तगाली औपनिवेशिक अधिकारी (एस्टाडो दा इंडिया), चर्च संबंधी कार्रवाई",
+        "approx_date": "1540-1600 के दशक",
+        "context_motive": [
+          "राज्य_नीति"
+        ],
+        "deity": "विविध",
+        "event_type": [
+          "विध्वंस",
+          "ज़ब्ती",
+          "स्थानांतरण"
+        ],
+        "id": "गोवा_पुरानी_विजय_16सी",
+        "location": {
+          "city_or_district": "तिस्वाड़ी/बारदेज़/साल्सेटे (पुराना गोवा); बाद में पोंडा",
+          "country": "भारत",
+          "state_province": "गोवा"
+        },
+        "period": "पुर्तगाली औपनिवेशिक",
+        "sources": [
+          {
+            "title": "आधुनिक एशियाई अध्ययन-देवताओं की उड़ान (एक्सलरोड और फ़्यूर्च)",
+            "type": "शैक्षणिक",
+            "url": "https://www.cambridge.org/core/journals/modern-asian-studies/article/abs/flight-of-the-deities-hindu-resistance-in-portuguese-goa/FC375FC6905C07727E26A1C9F2659322"
+          },
+          {
+            "title": "JSTOR स्थिर प्रविष्टि",
+            "type": "शैक्षणिक",
+            "url": "https://www.jstor.org/stable/313013"
+          }
+        ],
+        "summary": "सहकर्मी ने मंदिर के विनाश और अंतर्देशीय 'देवताओं की उड़ान' के दस्तावेज़ों की समीक्षा की; पोंडा में कई प्रमुख मंदिरों की पुनः स्थापना की गई।",
+        "temple_name": "एकाधिक (जैसे, मंगेशी/शांतादुर्गा स्थानांतरण)",
+        "timeline": [
+          "16वीं सदी के मध्य: विनाश/धमकी",
+          "16-17वीं सदी: अंतर्देशीय पुनर्वास और पुनर्स्थापन"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "सत्यापित_मल्टीसोर्स"
+      },
+      {
+        "alleged_perpetrator_affiliation": "स्थानीय भीड़; राजनीतिक/धार्मिक आंदोलनकारी",
+        "approx_date": "2020-12-30",
+        "context_motive": [
+          "सांप्रदायिक_लक्ष्यीकरण"
+        ],
+        "deity": "कृष्ण/परमहंस जी (समाधि)",
+        "event_type": [
+          "आगजनी",
+          "विध्वंस",
+          "भीड़_हिंसा"
+        ],
+        "id": "पाकिस्तान_कारक_2020",
+        "location": {
+          "city_or_district": "तेरी, कारक",
+          "country": "पाकिस्तान",
+          "state_province": "खैबर पख्तूनख्वा"
+        },
+        "period": "समसामयिक",
+        "sources": [
+          {
+            "title": "अल जज़ीरा- SC ने पुनर्निर्माण का आदेश दिया",
+            "type": "समाचार",
+            "url": "https://www.aljazeera.com/news/2021/1/6/pakistani-top-court-orders-rebuilding-of-destroyed-hindu-temple"
+          },
+          {
+            "title": "डीडब्ल्यू-भीड़ ने मंदिर में आग लगा दी",
+            "type": "समाचार",
+            "url": "https://www.dw.com/en/pakistan-mob-torches-hindu-temple/a-56101422"
+          }
+        ],
+        "summary": "मंदिर पर हमला किया गया और जला दिया गया; पाकिस्तान सुप्रीम कोर्ट ने दिया पुनर्निर्माण का आदेश; गिरफ़्तारियाँ हुईं।",
+        "temple_name": "श्री परमहंस जी महाराज समाधि और कृष्ण द्वार मंदिर",
+        "timeline": [
+          "30 दिसंबर 2020: हमला",
+          "जनवरी 2021: सुप्रीम कोर्ट ने पुनर्निर्माण का आदेश दिया; गिरफ़्तारी/पुलिस निलंबन"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "सत्यापित_मल्टीसोर्स"
+      },
+      {
+        "alleged_perpetrator_affiliation": "सांप्रदायिक अशांति में भीड़",
+        "approx_date": "1992-12",
+        "context_motive": [
+          "प्रतिशोध",
+          "सांप्रदायिक_लक्ष्यीकरण"
+        ],
+        "deity": "विविध",
+        "event_type": [
+          "बर्बरता",
+          "आगजनी",
+          "विध्वंस"
+        ],
+        "id": "पाकिस्तान_पोस्ट_अयोध्या_1992",
+        "location": {
+          "country": "पाकिस्तान"
+        },
+        "period": "समसामयिक",
+        "sources": [
+          {
+            "title": "एशियन सर्वे (जेएसटीओआर)-अयोध्या पर प्रतिक्रिया",
+            "type": "शैक्षणिक",
+            "url": "https://www.jstor.org/stable/2645358"
+          },
+          {
+            "title": "मार्च कालक्रम-पाकिस्तान में हिंदू",
+            "type": "शैक्षणिक",
+            "url": "http://mar.umd.edu/chronology.asp?groupId=77004"
+          }
+        ],
+        "summary": "विद्वानों और प्रेस रिपोर्टों में बाबरी विध्वंस के बाद मंदिरों पर व्यापक हमले दर्ज किए गए।",
+        "temple_name": "एकाधिक हिंदू मंदिर (राष्ट्रव्यापी)",
+        "timeline": [
+          "दिसंबर 1992: विभिन्न शहरों में हमले दर्ज किये गये; गिरफ्तारियों/बंदियों की सूचना दी गई"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "सत्यापित_मल्टीसोर्स"
+      },
+      {
+        "alleged_perpetrator_affiliation": "वायरल अफवाह पर प्रतिक्रिया देती भीड़",
+        "approx_date": "2021-10",
+        "context_motive": [
+          "सांप्रदायिक_लक्ष्यीकरण",
+          "सोशल_मीडिया_अफवाह"
+        ],
+        "deity": "दुर्गा/संबंधित देवता",
+        "event_type": [
+          "बर्बरता",
+          "आगजनी",
+          "दंगा"
+        ],
+        "id": "बांग्लादेश_दुर्गा_पूजा_2021",
+        "location": {
+          "country": "बांग्लादेश"
+        },
+        "period": "समसामयिक",
+        "sources": [
+          {
+            "title": "ह्यूमन राइट्स वॉच- हिंदू त्योहार पर घातक हमले",
+            "type": "एनजीओ",
+            "url": "https://www.hrw.org/news/2021/10/21/bangladesh-deadly-attacks-hindu-festival"
+          },
+          {
+            "title": "ढाका ट्रिब्यून-हिंसा पर विराम",
+            "type": "समाचार",
+            "url": "https://www.dhakatribune.com/bangladesh/315597/durga-puja-ends-amid-tension-violence-across-the"
+          }
+        ],
+        "summary": "एचआरडब्ल्यू और राष्ट्रीय आउटलेट्स ने मंदिरों/मंडपों में तोड़फोड़, मौतों और 450 से अधिक गिरफ्तारियों की सूचना दी।",
+        "temple_name": "एकाधिक मंदिर/मंडप (देशव्यापी)",
+        "timeline": [
+          "13-19 अक्टूबर 2021: जिलों में घटनाएं; पुलिस/अर्धसैनिक बलों की तैनाती; गिरफ़्तारियाँ"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "सत्यापित_मल्टीसोर्स"
+      },
+      {
+        "alleged_perpetrator_affiliation": "राजनीतिक अशांति के बीच चरमपंथी भीड़",
+        "approx_date": "2013-02 से 2013-06",
+        "context_motive": [
+          "राजनीतिक_अशांति",
+          "सांप्रदायिक_लक्ष्यीकरण"
+        ],
+        "deity": "विविध",
+        "event_type": [
+          "बर्बरता",
+          "आगजनी",
+          "हमला"
+        ],
+        "id": "बांग्लादेश_2013_हिन्दू_विरोधी_हिंसा",
+        "location": {
+          "country": "बांग्लादेश"
+        },
+        "period": "समसामयिक",
+        "sources": [
+          {
+            "title": "अमेरिकी राज्य विभाग-बांग्लादेश 2013 मानवाधिकार रिपोर्ट",
+            "type": "सरकार",
+            "url": "https://2009-2017.state.gov/documents/organization/220600.pdf"
+          },
+          {
+            "title": "एमनेस्टी इंटरनेशनल-वार्षिक रिपोर्ट 2013 (बांग्लादेश)",
+            "type": "एनजीओ",
+            "url": "https://www.refworld.org/reference/annualreport/amnesty/2013/en/56780"
+          }
+        ],
+        "summary": "अंतर्राष्ट्रीय अधिकार रिपोर्ट में 2013 की अशांति के बीच हिंदू अल्पसंख्यकों और पूजा स्थलों पर व्यापक हमलों का उल्लेख किया गया है।",
+        "temple_name": "एकाधिक मंदिर (जिलों में)",
+        "timeline": [
+          "फरवरी-जून 2013: कई जिले प्रभावित; आधिकारिक/एनजीओ दस्तावेज़ एकत्र किए गए"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "आंशिक_सत्यापित"
+      },
+      {
+        "alleged_perpetrator_affiliation": "भाड़े के आंदोलनकारी; स्थानांतरण विवाद को लेकर प्रतिद्वंद्वी समूह (सरकारी बयानों/मामलों के अनुसार)",
+        "approx_date": "2018-11-26",
+        "context_motive": [
+          "संपत्ति_विवाद",
+          "सांप्रदायिक_तनाव"
+        ],
+        "deity": "मरियम्मन (शक्ति)",
+        "event_type": [
+          "दंगे",
+          "आगजनी",
+          "हमला"
+        ],
+        "id": "मलेशिया_सीफ़ील्ड_2018",
+        "location": {
+          "city_or_district": "यूएसजे 25, सुबंग जया",
+          "country": "मलेशिया",
+          "state_province": "सेलांगोर"
+        },
+        "period": "समसामयिक",
+        "sources": [
+          {
+            "title": "श्री महा मरियम्मन मंदिर दंगा",
+            "type": "समाचार/विश्वकोश",
+            "url": "https://en.wikipedia.org/wiki/Sri_Maha_Mariamman_Temple_riot"
+          },
+          {
+            "title": "मलय मेल-इतिहास/कानूनी संदर्भ",
+            "type": "समाचार",
+            "url": "https://www.malaymail.com/news/malaysia/2018/11/29/the-subang-hindu-temple-its-history-and-legal-dramas/1698165"
+          }
+        ],
+        "summary": "मंदिर स्थानांतरण को लेकर दो दिवसीय दंगा; एक अग्निशामक की मृत्यु हो गई; 100+ गिरफ़्तारियाँ; लंबी अदालती प्रक्रिया.",
+        "temple_name": "श्री महा मरियम्मन देवस्थानम (समुद्री क्षेत्र)",
+        "timeline": [
+          "26-27 नवंबर 2018: दंगे",
+          "2019-2023: पूछताछ/मुकदमा, बाद में एक मामले में बरी होना"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "सत्यापित_मल्टीसोर्स"
+      },
+      {
+        "alleged_perpetrator_affiliation": "अज्ञात (पुलिस जांच)",
+        "approx_date": "2023-05",
+        "context_motive": [
+          "राजनीतिक_तनाव"
+        ],
+        "deity": "स्वामीनारायण परंपरा",
+        "event_type": [
+          "बर्बरता"
+        ],
+        "id": "ऑस्ट्रेलिया_सिडनी_बैप्स_2023",
+        "location": {
+          "city_or_district": "रोज़हिल (पररामट्टा)",
+          "country": "ऑस्ट्रेलिया",
+          "state_province": "न्यू साउथ वेल्स"
+        },
+        "period": "समसामयिक",
+        "sources": [
+          {
+            "title": "एबीसी न्यूज-सिडनी बर्बरता कवरेज",
+            "type": "समाचार",
+            "url": "https://www.abc.net.au/news/2023-05-14/sikh-leaders-call-for-peace-after-sydney-hindu-temple-vandalised/102343878"
+          }
+        ],
+        "summary": "राजनीतिक मुहावरों से मंदिर को विरूपित किया गया; सिख नेताओं ने निंदा की और शांति का आग्रह किया; एनएसडब्ल्यू पुलिस ने जांच की।",
+        "temple_name": "बीएपीएस स्वामीनारायण मंदिर (रोज़हिल)",
+        "timeline": [
+          "मई 2023: घटना दर्ज की गई; समुदाय के नेता और पुलिस की प्रतिक्रियाएँ"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "सत्यापित_मल्टीसोर्स"
+      },
+      {
+        "alleged_perpetrator_affiliation": "अज्ञात (जांच)",
+        "approx_date": "2023-01",
+        "context_motive": [
+          "राजनीतिक_तनाव"
+        ],
+        "deity": "विविध",
+        "event_type": [
+          "बर्बरता",
+          "भित्तिचित्र"
+        ],
+        "id": "ऑस्ट्रेलिया_मेलबोर्न_इस्ककॉन_2023",
+        "location": {
+          "city_or_district": "मेलबर्न",
+          "country": "ऑस्ट्रेलिया",
+          "state_province": "विक्टोरिया"
+        },
+        "period": "समसामयिक",
+        "sources": [
+          {
+            "title": "एसबीएस हिंदी-तीसरे मंदिर में तोड़फोड़",
+            "type": "समाचार",
+            "url": "https://www.sbs.com.au/language/hindi/en/article/another-hindu-temple-vandalised-days-after-india-seeks-speedy-investigation-and-action/cfn23dnt6"
+          },
+          {
+            "title": "एबीसी—मंदिर हमलों पर प्रधानमंत्रियों की चर्चा",
+            "type": "समाचार",
+            "url": "https://www.abc.net.au/news/2023-03-11/modi-calls-on-albanese-to-combat-attacks-on-hindu-temples-in-aus/102083152"
+          }
+        ],
+        "summary": "मेलबर्न के कम से कम तीन मंदिरों को राजनीतिक नारों से विरूपित किया गया; भारत ने त्वरित कार्रवाई की मांग की; पुलिस जांच खुली.",
+        "temple_name": "इस्कॉन और अन्य मंदिर (मेलबोर्न क्षेत्र)",
+        "timeline": [
+          "जनवरी 2023: विरूपण की सूचना दी गई; मार्च 2023: नेताओं ने सुरक्षा पर चर्चा की"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "सत्यापित_मल्टीसोर्स"
+      },
+      {
+        "alleged_perpetrator_affiliation": "अज्ञात (पुलिस जांच)",
+        "approx_date": "2025-07-21",
+        "context_motive": [
+          "जातीय_नफरत"
+        ],
+        "deity": "स्वामीनारायण परंपरा",
+        "event_type": [
+          "बर्बरता",
+          "नफरत_भित्तिचित्र"
+        ],
+        "id": "ऑस्ट्रेलिया_बोरोनिया_2025",
+        "location": {
+          "city_or_district": "बोरोनिया (मेलबोर्न)",
+          "country": "ऑस्ट्रेलिया",
+          "state_province": "विक्टोरिया"
+        },
+        "period": "समसामयिक",
+        "sources": [
+          {
+            "title": "फ़र्स्टपोस्ट-नस्लवादी भित्तिचित्र घटना",
+            "type": "समाचार",
+            "url": "https://www.firstpost.com/world/australia-swaminarayan-temple-defaced-with-racist-graffiti-days-after-attack-on-indian-national-13911800.html"
+          },
+          {
+            "title": "डेक्कन क्रॉनिकल-पुलिस के बयान",
+            "type": "समाचार",
+            "url": "https://www.deccanchronicle.com/world/australia-and-new-zealand/australia-hindu-temple-vandalised-with-racist-slurs-1893399"
+          }
+        ],
+        "summary": "नस्लवादी अपशब्दों से मंदिर को विरूपित किया गया; विक्टोरिया पुलिस संबंधित घटनाओं की जांच कर रही है; कड़ी सार्वजनिक निंदा.",
+        "temple_name": "श्री स्वामीनारायण मंदिर (बोरोनिया)",
+        "timeline": [
+          "21-24 जुलाई 2025: भित्तिचित्र की खोज; पुलिस और नेता जवाब दें"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "सत्यापित_मल्टीसोर्स"
+      },
+      {
+        "alleged_perpetrator_affiliation": "प्रतिस्पर्धी विरोध समूह; पुलिस ने कई लोगों पर आरोप लगाए",
+        "approx_date": "2024-11-03",
+        "context_motive": [
+          "प्रवासी_राजनीतिक_तनाव"
+        ],
+        "deity": "विविध",
+        "event_type": [
+          "हिंसा",
+          "झड़पें",
+          "बर्बरता"
+        ],
+        "id": "कनाडा_ब्रैम्पटन_हिन्दू_सभा_2024",
+        "location": {
+          "city_or_district": "ब्रैम्पटन (जीटीए)",
+          "country": "कनाडा",
+          "state_province": "ओंटारियो"
+        },
+        "period": "समसामयिक",
+        "sources": [
+          {
+            "title": "वीओए-गिरफ्तारी और निंदा",
+            "type": "समाचार",
+            "url": "https://www.voanews.com/a/7851724.html"
+          }
+        ],
+        "summary": "मंदिर में/उसके निकट हिंसा के बाद पुलिस ने कई व्यक्तियों पर आरोप लगाया; कनाडाई और भारतीय पीएम ने की निंदा.",
+        "temple_name": "हिंदू सभा मंदिर",
+        "timeline": [
+          "नवंबर 2024: घटना; गिरफ़्तारी और जाँच की घोषणा की गई"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "सत्यापित_मल्टीसोर्स"
+      },
+      {
+        "alleged_perpetrator_affiliation": "अज्ञात; पुलिस ने जारी की संदिग्ध तस्वीरें",
+        "approx_date": "2025-03/04",
+        "context_motive": [
+          "नफरत_घटना"
+        ],
+        "deity": "कृष्ण",
+        "event_type": [
+          "बर्बरता"
+        ],
+        "id": "कनाडा_जॉर्जटाउन_एसकेबी_2025",
+        "location": {
+          "city_or_district": "हॉल्टन हिल्स (जीटीए)",
+          "country": "कनाडा",
+          "state_province": "ओंटारियो"
+        },
+        "period": "समसामयिक",
+        "sources": [
+          {
+            "title": "सीएनबीसी टीवी18—पुलिस संदिग्धों की तलाश कर रही है",
+            "type": "समाचार",
+            "url": "https://www.cnbctv18.com/world/hindu-temple-vandalised-in-canada-police-race-to-find-culprits-19584789.htm"
+          },
+          {
+            "title": "न्यूज18—मैनहंट रिपोर्ट",
+            "type": "समाचार",
+            "url": "https://www.news18.com/world/hindu-temple-vandalised-in-canada-police-launch-manhunt-to-nab-two-suspects-ws-kl-9286838.html"
+          }
+        ],
+        "summary": "मंदिर का चिन्ह तोड़ दिया गया/क्षतिग्रस्त कर दिया गया; पुलिस ने तलाशी अभियान चलाया; सामुदायिक समूहों ने बढ़ते उग्रवाद संदर्भ को चिह्नित किया।",
+        "temple_name": "श्री कृष्णा बृंदावन (जॉर्जटाउन)",
+        "timeline": [
+          "मार्च-अप्रैल 2025: घटना और संदिग्ध तस्वीरें प्रकाशित"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "सत्यापित_मल्टीसोर्स"
+      },
+      {
+        "alleged_perpetrator_affiliation": "अज्ञात (पुलिस जांच; संभावित घृणा अपराध)",
+        "approx_date": "2023-12-23/24",
+        "context_motive": [
+          "प्रवासी_राजनीतिक_तनाव"
+        ],
+        "deity": "स्वामीनारायण परंपरा",
+        "event_type": [
+          "बर्बरता",
+          "नफरत_भित्तिचित्र"
+        ],
+        "id": "यूएसए_नेवार्क_सीए_2023",
+        "location": {
+          "city_or_district": "नेवार्क (खाड़ी क्षेत्र)",
+          "country": "संयुक्त राज्य अमेरिका",
+          "state_province": "कैलिफोर्निया"
+        },
+        "period": "समसामयिक",
+        "sources": [
+          {
+            "title": "एनबीसी बे एरिया-पुलिस जांच कर रही है",
+            "type": "समाचार",
+            "url": "https://www.nbcbayarea.com/news/local/graffiti-vandalism-newark-hindu-temple-hate-crime/3405591/"
+          },
+          {
+            "title": "सीबीएस एसएफ-बर्बरता प्रसंग",
+            "type": "समाचार",
+            "url": "https://www.cbsnews.com/sanfrancisco/news/vandalism-of-newark-hindu-temple-highlights-geopolitical-issue/"
+          }
+        ],
+        "summary": "मंदिर पर भारत विरोधी भित्तिचित्रों का छिड़काव; न्यूर्क पुलिस संभावित घृणा अपराध के रूप में जांच कर रही है; व्यापक सामुदायिक निंदा.",
+        "temple_name": "एसएमवीएस श्री स्वामीनारायण मंदिर (नेवार्क, सीए)",
+        "timeline": [
+          "24-26 दिसंबर 2023: घटना की सूचना दी गई; पुलिस+सामुदायिक बयान"
+        ],
+        "tradition": "हिंदू",
+        "verification_status": "सत्यापित_मल्टीसोर्स"
+      }
+    ]
+  }
+}

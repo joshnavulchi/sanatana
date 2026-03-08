@@ -1,0 +1,858 @@
+{
+  "temples_in_india": {
+    "meta": {
+      "title": "भारत में सबसे पुराने मंदिर - तिथियां, वास्तुकला, निर्माण और समयरेखा",
+      "canonical": "https://sanatanadharmam.in/temples-in-india",
+      "description": "भारत में ऐतिहासिक रूप से सत्यापित प्राचीन और मध्यकालीन मंदिर, कैसे निर्मित नोट्स, स्थापत्य शैली, राजवंशीय संदर्भ और घटना समयरेखा के साथ।",
+      "keywords": [
+        "Adi Kumbeswarar Kumbakonam",
+        "Ancient Hindu Temples",
+        "Ancient Indian architecture",
+        "Archaeological studies of temples",
+        "Ashlar masonry",
+        "Brihadeeswarar Temple Thanjavur",
+        "Chennakesava Temple Belur",
+        "Comparative temple studies",
+        "Construction Methods",
+        "Cultural significance of temples",
+        "Dashavatara Temple",
+        "Durga Temple Aihole",
+        "Dynastic Associations",
+        "Hindu temple history",
+        "Historical Timelines",
+        "Historical sources on temples",
+        "Iconography and temple sculpture",
+        "Indian temple construction",
+        "Inscriptions and temple history",
+        "Jagannath Temple Puri",
+        "Kailasa Ellora",
+        "Kailasanathar Temple",
+        "Konark Sun Temple",
+        "Lingaraja Temple Bhubaneswar",
+        "Medieval Hindu Temples",
+        "Medieval Indian architecture",
+        "Modhera Sun Temple",
+        "Monolithic temples",
+        "Mukteshwara Temple Bhubaneswar",
+        "Mundeshwari Temple",
+        "Oldest Temples in India",
+        "Palaeographic dating",
+        "Pancha Rathas",
+        "Religious practices and temples",
+        "Rock-cut temples",
+        "Shore Temple",
+        "Structural stone temples",
+        "Temple Architecture",
+        "Temple architecture and community bonds",
+        "Temple architecture and cosmology",
+        "Temple architecture and cultural identity",
+        "Temple architecture and ethical decision-making",
+        "Temple architecture and religious beliefs",
+        "Temple architecture and social structure",
+        "Temple architecture and spiritual reflection",
+        "Temple architecture evolution",
+        "Temple architecture styles",
+        "Temple art and aesthetics",
+        "Temple conservation and restoration",
+        "Temple dynasties",
+        "Temple engineering and construction techniques",
+        "Temple festivals and rituals",
+        "Temple legends and folklore",
+        "Temple patronage and politics",
+        "Temple rituals and ceremonies",
+        "Temple symbolism and meaning",
+        "Temple timelines",
+        "Temple tourism in India",
+        "UNESCO World Heritage temples",
+        "Vaikuntha Perumal Kanchipuram",
+        "Virupaksha Temple Pattadakal"
+      ],
+      "ogimage": "images/og/home.png",
+      "url": "https://sanatanadharmam.in/temples-in-india"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "संगठन",
+        "contactpoint": {
+          "@type": "संपर्क बिंदु",
+          "areaserved": "दुनिया भर में",
+          "availablelanguage": [
+            "धन्यवाद",
+            "जर्मन",
+            "अंग्रेजी",
+            "Español",
+            "फ़्रांसीसी",
+            "हिन्दी",
+            "ठीक है",
+            "नेपाली",
+            "नीदरलैंड",
+            "पुर्तगाली",
+            "Русский",
+            "ठीक है",
+            "धन्यवाद",
+            "中文 (简体)"
+          ],
+          "contacttype": "ग्राहक सहायता",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "सनातनधर्मम.इन के बारे में",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "dynasty_timeline": [
+      {
+        "architectural_contributions": [
+          "शास्त्रीय योजना: वर्गाकार गर्भगृह + प्रारंभिक शिखर",
+          "कथात्मक राहत पैनल; परिष्कृत प्रतिमा विज्ञान"
+        ],
+        "name": "गुप्ता",
+        "notes": "इसे अक्सर हिंदू मंदिर वास्तुकला में 'शास्त्रीय' मोड़ के रूप में उद्धृत किया जाता है।",
+        "period": "सी. 320-550 ई.पू",
+        "regions": [
+          "उत्तर-मध्य भारत"
+        ],
+        "representative_temples": [
+          "दशावतार-देवगढ़"
+        ],
+        "sources": [
+          "https://hindu.mythologyworldide.com/the-evolution-of-hindu-temple-architecture-throw-the-ages/"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "द्रविड़ + नागर का प्रायोगिक वेसर मिश्रण",
+          "अप्साइडल और तारकीय ज़मीनी योजनाएँ; भारी राहत कार्यक्रम"
+        ],
+        "name": "प्रारंभिक पश्चिमी चालुक्य (बादामी)",
+        "period": "छठी-आठवीं सी. सीई",
+        "regions": [
+          "मालाप्रभा घाटी, कर्नाटक"
+        ],
+        "representative_temples": [
+          "दुर्गा-ऐहोल",
+          "विरुपाक्ष-पट्टदकल"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Durga_temple,_Aihole",
+          "https://en.wikipedia.org/wiki/Pattadakal"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "रॉक-कट से संरचनात्मक पत्थर में बदलाव",
+          "अखंड प्रोटोटाइप (रथ) और प्रारंभिक द्रविड़ विमान"
+        ],
+        "name": "पल्लव",
+        "period": "7वीं-8वीं सदी सीई",
+        "regions": [
+          "तमिलनाडु (कांचीपुरम-महाबलीपुरम)"
+        ],
+        "representative_temples": [
+          "पंच-रथ",
+          "तट-मंदिर",
+          "कैलासनाथर-कांची"
+        ],
+        "sources": [
+          "https://hindusanatanvahibini.com/en/ancient-hindu-temples-of-india/",
+          "https://en.wikipedia.org/wiki/Tiru_paramesवाड़ा_vinngaram"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "चरम अखंड रॉक-कट इंजीनियरिंग",
+          "बड़े पैमाने पर प्रतीकात्मक जटिलता"
+        ],
+        "name": "राष्ट्रकूट",
+        "period": "8वीं-9वीं सी. सीई",
+        "regions": [
+          "डेक्कन (महाराष्ट्र)"
+        ],
+        "representative_temples": [
+          "कैलासा-एलोरा"
+        ],
+        "sources": [
+          "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "ग्रेनाइट संरचनात्मक विशालता; उड़ते विमान",
+          "अक्षीय समरूपता; व्यापक शिलालेख"
+        ],
+        "name": "चोल",
+        "period": "10वीं-11वीं सदी सीई",
+        "regions": [
+          "तमिलनाडु (कावेरी डेल्टा)"
+        ],
+        "representative_temples": [
+          "बृहदेश्वर-तंजावुर"
+        ],
+        "sources": [
+          "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "जटिल नक्काशीदार बाहरी भाग; सभा+मंदिर+कुंड समूह"
+        ],
+        "name": "चौलुक्य/सोलंकी (मारू‑गुर्जरा)",
+        "period": "11वीं सदी. सीई",
+        "regions": [
+          "गुजरात"
+        ],
+        "representative_temples": [
+          "मोढेरा-सूर्य-मंदिर"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Sun_Temple,_Modheri"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "परिपक्व कलिंग (देउला) रूप; तोरण प्रयोग",
+          "स्मारकीय रथ-रूप मंदिर (कोणार्क)"
+        ],
+        "name": "सोमवंशी और पूर्वी गंगा",
+        "period": "10वीं-13वीं सदी सीई",
+        "regions": [
+          "ओडिशा"
+        ],
+        "representative_temples": [
+          "मुक्तेश्वर-भुवनेश्वर",
+          "लिंगराज-भुवनेश्वर",
+          "जगन्नाथ-पुरी",
+          "कोणार्क-सूर्य-मंदिर"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mukteshvara_Temple,_Bhubaneswar",
+          "https://en.wikipedia.org/wiki/Lingaraja_Temple",
+          "https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri",
+          "https://en.wikipedia.org/wiki/Konark_Sun_Temple"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "सोपस्टोन; तारकीय योजनाएँ; खराद से बने खंभे; कथात्मक फ्रिज़"
+        ],
+        "name": "होयसल",
+        "period": "11वीं-12वीं सी. सीई",
+        "regions": [
+          "कर्नाटक"
+        ],
+        "representative_temples": [
+          "चेन्नाकेशव-बेलूर"
+        ],
+        "sources": [
+          "https://www.oldest.org/structures/oldest-temples-in-india/"
+        ]
+      }
+    ],
+    "temples": [
+      {
+        "architecture_style": "प्रारंभिक नागरा (अष्टकोणीय गर्भगृह)",
+        "build_type": "संरचनात्मक पत्थर",
+        "construction_method": "अष्टकोणीय योजना में सुसज्जित पत्थर की चिनाई।",
+        "dynasty_association": [
+          "प्रारंभिक कुषाण/प्रारंभिक ऐतिहासिक (शिलालेख डेटिंग के अनुसार)"
+        ],
+        "end_year_ce": 200,
+        "estimated_date": "पहली-दूसरी शताब्दी ई.पू",
+        "how_it_was_built": "सुसज्जित पत्थर के खंडों के साथ अष्टकोणीय गर्भगृह; प्रारंभिक शिखर प्रोटोटाइप।",
+        "id": "मुंडेश्वरी-बिहार",
+        "location": "कैमूर",
+        "materials": [
+          "पत्थर"
+        ],
+        "name": "मुंडेश्वरी देवी मंदिर",
+        "slug": "मुंडेश्वरी-बिहार",
+        "sources": [
+          "https://oldest.info/oldest-temples-in-india/",
+          "https://hindusanatanvahibini.com/en/ancient-hindu-temples-of-india/"
+        ],
+        "start_year_ce": 100,
+        "state": "बिहार",
+        "timeline": {
+          "events": [
+            {
+              "label": "स्थापना प्रमाणित",
+              "sources": [
+                "https://oldest.info/oldest-temples-in-india/",
+                "https://hindusanatanvahibini.com/en/ancient-hindu-temples-of-india/"
+              ],
+              "start": "पहली-दूसरी सदी. सीई"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "गुप्त शास्त्रीय",
+        "build_type": "संरचनात्मक पत्थर",
+        "construction_method": "एशलर चिनाई; गढ़े गए कथा पैनल।",
+        "dynasty_association": [
+          "गुप्ता"
+        ],
+        "end_year_ce": 550,
+        "estimated_date": "सी. 500-550 ई.पू",
+        "how_it_was_built": "प्रारंभिक शिखर के साथ वर्गाकार गर्भगृह; विष्णु के अवतारों की राहतें।",
+        "id": "दशावतार-देवगढ़",
+        "location": "देवगढ़",
+        "materials": [
+          "बलुआ पत्थर"
+        ],
+        "name": "दशावतार मंदिर",
+        "slug": "दशावतार-देवगढ़",
+        "sources": [
+          "https://hindu.mythologyworldide.com/the-evolution-of-hindu-temple-architecture-throw-the-ages/"
+        ],
+        "start_year_ce": 500,
+        "state": "उत्तर प्रदेश",
+        "timeline": {
+          "events": [
+            {
+              "label": "निर्माण",
+              "sources": [
+                "https://hindu.mythologyworldide.com/the-evolution-of-hindu-temple-architecture-throw-the-ages/"
+              ],
+              "start": 500
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "पल्लव अखंड, प्रारंभिक द्रविड़ रूप",
+        "build_type": "रॉक-कट मोनोलिथिक",
+        "construction_method": "प्रोटोटाइप मंदिरों के रूप में एकल ग्रेनाइट आउटक्रॉप्स से नक्काशी की गई।",
+        "dynasty_association": [
+          "पल्लव"
+        ],
+        "end_year_ce": 700,
+        "estimated_date": "7वीं शताब्दी ई.पू. (लगभग 630-668 ई.; कुछ विद्वान बाद में कहते हैं)",
+        "how_it_was_built": "यथास्थान तराशी गई मोनोलिथ; अधूरे और अपवित्र प्रोटोटाइप।",
+        "id": "पंच-रथ",
+        "location": "महाबलीपुरम",
+        "materials": [
+          "ग्रेनाइट"
+        ],
+        "name": "पंच रथ (पांच रथ)",
+        "slug": "पंच-रथ",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Pancha_Rathas"
+        ],
+        "start_year_ce": 630,
+        "state": "तमिलनाडु",
+        "timeline": {
+          "events": [
+            {
+              "label": "पल्लवों के अधीन नक्काशी",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Pancha_Rathas"
+              ],
+              "start": "सातवीं सदी सीई"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "प्रारंभिक द्रविड़ (पल्लव)",
+        "build_type": "संरचनात्मक पत्थर",
+        "construction_method": "सुसज्जित ग्रेनाइट ब्लॉक; हवाओं का विरोध करने के लिए तटीय इंजीनियरिंग।",
+        "dynasty_association": [
+          "पल्लव (नरसिम्हावर्मन द्वितीय)"
+        ],
+        "end_year_ce": 728,
+        "estimated_date": "सी. 700-728 ई.पू",
+        "how_it_was_built": "पिरामिडनुमा अधिरचना (विमना) के साथ ग्रेनाइट से बनी चिनाई।",
+        "id": "तट-मंदिर",
+        "location": "महाबलीपुरम",
+        "materials": [
+          "ग्रेनाइट"
+        ],
+        "name": "तट मंदिर",
+        "slug": "तट-मंदिर",
+        "sources": [
+          "https://hindusanatanvahibini.com/en/ancient-hindu-temples-of-india/"
+        ],
+        "start_year_ce": 700,
+        "state": "तमिलनाडु",
+        "timeline": {
+          "events": [
+            {
+              "label": "पल्लव चरमोत्कर्ष के दौरान निर्माण",
+              "sources": [
+                "https://hindusanatanvahibini.com/en/ancient-hindu-temples-of-india/"
+              ],
+              "start": "7वीं-8वीं सदी सीई"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "पल्लव द्रविड़ियन (प्रारंभिक संरचनात्मक)",
+        "build_type": "संरचनात्मक पत्थर",
+        "construction_method": "बलुआ पत्थर के ब्लॉक; उप-मंदिरों के साथ परिक्षेत्र।",
+        "dynasty_association": [
+          "पल्लव (नरसिम्हावर्मन द्वितीय)"
+        ],
+        "end_year_ce": 728,
+        "estimated_date": "सी. 700-728 ई.पू",
+        "how_it_was_built": "प्रारंभिक संरचनात्मक द्रविड़ विमान; कोर के चारों ओर 58 छोटे मंदिर।",
+        "id": "कैलासनाथर-कांची",
+        "location": "कांचीपुरम",
+        "materials": [
+          "बलुआ पत्थर"
+        ],
+        "name": "कैलासनाथर मंदिर",
+        "slug": "कैलासनाथर-कांची",
+        "sources": [
+          "https://hindusanatanvahibini.com/en/ancient-hindu-temples-of-india/"
+        ],
+        "start_year_ce": 700,
+        "state": "तमिलनाडु",
+        "timeline": {
+          "events": [
+            {
+              "label": "पल्लव निर्माण",
+              "sources": [
+                "https://hindusanatanvahibini.com/en/ancient-hindu-temples-of-india/"
+              ],
+              "start": "आठवीं सदी की शुरुआत में सीई"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "प्रारंभिक चालुक्य (वेसर मिश्रण)",
+        "build_type": "संरचनात्मक पत्थर",
+        "construction_method": "अपसाइडल योजना; अलंकृत राहत पैनल; परिक्रमा स्तंभ.",
+        "dynasty_association": [
+          "प्रारंभिक पश्चिमी चालुक्य"
+        ],
+        "end_year_ce": 725,
+        "estimated_date": "7वीं शताब्दी के उत्तरार्ध - 8वीं शताब्दी के आरंभ में",
+        "how_it_was_built": "बलुआ पत्थर में क्रियान्वित अपसाइडल (गजपृष्ट) योजना; सूर्या संबद्धता.",
+        "id": "दुर्गा-ऐहोल",
+        "location": "ऐहोल",
+        "materials": [
+          "बलुआ पत्थर"
+        ],
+        "name": "दुर्गा मंदिर",
+        "slug": "दुर्गा-ऐहोल",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Durga_temple,_Aihole"
+        ],
+        "start_year_ce": 690,
+        "state": "कर्नाटक",
+        "timeline": {
+          "events": [
+            {
+              "label": "पुरापाषाणिक आधार पर दिनांकित",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Durga_temple,_Aihole"
+              ],
+              "start": "सी. 700 ई.पू"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "नागर तत्वों के साथ द्रविड़ियन (पट्टडकल संश्लेषण)",
+        "build_type": "संरचनात्मक पत्थर",
+        "construction_method": "उच्च कुर्सी; अक्षीय मंडप; महाकाव्यों से राहत फ्रिज़।",
+        "dynasty_association": [
+          "प्रारंभिक पश्चिमी चालुक्य (विक्रमादित्य द्वितीय)"
+        ],
+        "end_year_ce": 745,
+        "estimated_date": "सी. 740-745 ई.पू",
+        "how_it_was_built": "रानी लोकमहादेवी का आयोग; परिष्कृत मूर्तिकला कार्यक्रम.",
+        "id": "विरुपाक्ष-पट्टदकल",
+        "location": "पत्तदकल",
+        "materials": [
+          "बलुआ पत्थर"
+        ],
+        "name": "विरुपाक्ष मंदिर",
+        "slug": "विरुपाक्ष-पट्टदकल",
+        "sources": [
+          "https://prepp.in/news/e-492-virupaksha-temple-pattadakkal-temples-ancient-india-history-notes",
+          "https://mapacademy.io/article/sculpture-at-virupaksha-temple-pattadakal/"
+        ],
+        "start_year_ce": 740,
+        "state": "कर्नाटक",
+        "timeline": {
+          "events": [
+            {
+              "label": "स्मारक निर्माण",
+              "sources": [
+                "https://prepp.in/news/e-492-virupaksha-temple-pattadakkal-temples-ancient-india-history-notes",
+                "https://en.wikipedia.org/wiki/Pattadakal"
+              ],
+              "start": 745
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "राष्ट्रकूट द्रविड़ियन (रॉक-कट)",
+        "build_type": "रॉक-कट मोनोलिथिक (ऊपर से नीचे की खुदाई)",
+        "construction_method": "अखंड उत्खनन; चट्टान से उकेरे गए स्वतंत्र रूप।",
+        "dynasty_association": [
+          "राष्ट्रकूट (कृष्ण प्रथम)"
+        ],
+        "end_year_ce": 773,
+        "estimated_date": "सी. 756-773 ई",
+        "how_it_was_built": "एकल-सामूहिक उत्खनन से मुक्त-खड़े परिसर का निर्माण हो रहा है।",
+        "id": "कैलासा-एलोरा",
+        "location": "एलोरा",
+        "materials": [
+          "बेसाल्ट"
+        ],
+        "name": "कैलासा मंदिर (गुफा 16)",
+        "slug": "कैलासा-एलोरा",
+        "sources": [
+          "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+        ],
+        "start_year_ce": 756,
+        "state": "महाराष्ट्र",
+        "timeline": {
+          "events": [
+            {
+              "label": "कृष्ण प्रथम के अधीन नक्काशी",
+              "sources": [
+                "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+              ],
+              "start": "आठवीं सदी सीई"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "चोल द्रविड़",
+        "build_type": "संरचनात्मक पत्थर",
+        "construction_method": "बड़े पैमाने पर ग्रेनाइट ऐशलर; उड़ता हुआ विमान.",
+        "dynasty_association": [
+          "चोल (राजराज प्रथम)"
+        ],
+        "end_year_ce": 1010,
+        "estimated_date": "1003-1010 ई.पू",
+        "how_it_was_built": "विशाल ग्रेनाइट कार्यक्रम; सटीक अक्षीय लेआउट और शिलालेख।",
+        "id": "बृहदेश्वर-तंजावुर",
+        "location": "तंजावुर",
+        "materials": [
+          "ग्रेनाइट"
+        ],
+        "name": "बृहदेश्वर (पेरुवुदैयार) मंदिर",
+        "slug": "बृहदेश्वर-तंजावुर",
+        "sources": [
+          "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+        ],
+        "start_year_ce": 1003,
+        "state": "तमिलनाडु",
+        "timeline": {
+          "events": [
+            {
+              "label": "अभिषेक",
+              "sources": [
+                "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+              ],
+              "start": 1010
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "मारु‑गुर्जर (चौलुक्य/सोलंकी)",
+        "build_type": "संरचनात्मक पत्थर पहनावा",
+        "construction_method": "गूढ़मंडप + सभामंडप + सीढ़ीदार सूर्यकुंड E‑W अक्ष पर संरेखित।",
+        "dynasty_association": [
+          "चौलुक्य/सोलंकी (भीम प्रथम)"
+        ],
+        "end_year_ce": 1030,
+        "estimated_date": "1026-27 ई. के बाद",
+        "how_it_was_built": "अत्यधिक नक्काशीदार बाहरी भाग; तीर्थस्थलों के साथ सीढ़ीनुमा जलाशय।",
+        "id": "मोढेरा-सूर्य-मंदिर",
+        "location": "मोढेरा, मेहसाणा",
+        "materials": [
+          "बलुआ पत्थर"
+        ],
+        "name": "सूर्य मंदिर, मोढेरा",
+        "slug": "मोढेरा-सूर्य-मंदिर",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Sun_Temple,_Modheri",
+          "https://inditales.com/architecture-of-sun-temple-modera/",
+          "https://whc.unesco.org/en/tentativelists/6627/"
+        ],
+        "start_year_ce": 1026,
+        "state": "गुजरात",
+        "timeline": {
+          "events": [
+            {
+              "label": "शिलालेखात्मक मार्कर; भीम प्रथम के तहत मंदिर का पुनर्निर्माण/निर्माण किया गया",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Sun_Temple,_Modheri",
+                "https://whc.unesco.org/en/tentativelists/6627/"
+              ],
+              "start": 1026
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "प्रारंभिक कलिंग (सोमवंशी काल)",
+        "build_type": "संरचनात्मक पत्थर",
+        "construction_method": "रेखा देउला गर्भगृह + पिरामिडनुमा जगमोहन; प्रतिष्ठित फ्रीस्टैंडिंग तोरण।",
+        "dynasty_association": [
+          "सोमवंशी"
+        ],
+        "end_year_ce": 975,
+        "estimated_date": "950-975 ई.पू",
+        "how_it_was_built": "संक्रमणकालीन ओडिशाई मुहावरा; प्रयोग जो लिंगराज की आशा करता है।",
+        "id": "मुक्तेश्वर-भुवनेश्वर",
+        "location": "ओल्ड टाउन, भुवनेश्वर",
+        "materials": [
+          "बलुआ पत्थर",
+          "लेटराइट"
+        ],
+        "name": "मुक्तेश्वर मंदिर",
+        "slug": "मुक्तेश्वर-भुवनेश्वर",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mukteshvara_Temple,_Bhubaneswar"
+        ],
+        "start_year_ce": 950,
+        "state": "ओडिशा",
+        "timeline": {
+          "events": [
+            {
+              "label": "संभावित निर्माण खिड़की",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Mukteshvara_Temple,_Bhubaneswar"
+              ],
+              "start": 966
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "परिपक्व कलिंग",
+        "build_type": "संरचनात्मक पत्थर परिसर",
+        "construction_method": "देउला शैली चौकड़ी: विमान, जगमोहन, नट-मंदिर, भोग-मंडप।",
+        "dynasty_association": [
+          "सोमवंशी",
+          "पूर्वी गंगा"
+        ],
+        "end_year_ce": 1100,
+        "estimated_date": "11वीं शताब्दी ई.पू",
+        "how_it_was_built": "भुवनेश्वर की मध्यकालीन शैली की पराकाष्ठा; 180 फीट घुमावदार टॉवर।",
+        "id": "लिंगराज-भुवनेश्वर",
+        "location": "एकाम्र क्षेत्र, भुवनेश्वर",
+        "materials": [
+          "बलुआ पत्थर",
+          "लेटराइट"
+        ],
+        "name": "लिंगराज मंदिर",
+        "slug": "लिंगराज-भुवनेश्वर",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Lingaraja_Temple",
+          "https://vajiramandravi.com/upsc-exam/lingaraja-temple/"
+        ],
+        "start_year_ce": 1000,
+        "state": "ओडिशा",
+        "timeline": {
+          "events": [
+            {
+              "label": "मुख्य निर्माण (सोमवंशी), बाद में गंगा परिवर्धन",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Lingaraja_Temple"
+              ],
+              "start": "11वीं सदी. सीई"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "कलिंग (ओडिशा नगर)",
+        "build_type": "संरचनात्मक पत्थर परिसर",
+        "construction_method": "विशाल परिक्षेत्र के साथ कलिंग रेखा देउला; लकड़ी के प्रतीक समय-समय पर नवीनीकृत होते रहते हैं।",
+        "dynasty_association": [
+          "पूर्वी गंगा (अनंतवर्मन चोडगंगा)"
+        ],
+        "end_year_ce": 1200,
+        "estimated_date": "12वीं शताब्दी ई.पू. (लगभग 1161 ई.)",
+        "how_it_was_built": "विशाल घेरा और रेखा देउला टावर; जीवित अनुष्ठान प्रणाली (रथ यात्रा)।",
+        "id": "जगन्नाथ-पुरी",
+        "location": "पुरी",
+        "materials": [
+          "पत्थर (मंदिर)",
+          "नीम की लकड़ी (मूर्तियाँ)"
+        ],
+        "name": "जगन्नाथ मंदिर",
+        "slug": "जगन्नाथ-पुरी",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri"
+        ],
+        "start_year_ce": 1100,
+        "state": "ओडिशा",
+        "timeline": {
+          "events": [
+            {
+              "label": "पूर्वी गंगा के अंतर्गत पुनर्निर्माण/विस्तार",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri"
+              ],
+              "start": 1161
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "कलिंग उच्च मध्यकालीन",
+        "build_type": "संरचनात्मक पत्थर (आंशिक रूप से बर्बाद)",
+        "construction_method": "24 पहियों वाली रथ-रूप योजना; स्मारकीय मूर्तिकला कार्यक्रम.",
+        "dynasty_association": [
+          "पूर्वी गंगा (नरसिम्हादेव प्रथम)"
+        ],
+        "end_year_ce": 1260,
+        "estimated_date": "सी. 1250 ई",
+        "how_it_was_built": "प्रतीकात्मक सौर रथ; उन्नत इंजीनियरिंग; अब यूनेस्को साइट.",
+        "id": "कोणार्क-सूर्य-मंदिर",
+        "location": "कोणार्क, पुरी जिला",
+        "materials": [
+          "खोंडालाइट पत्थर"
+        ],
+        "name": "कोणार्क सूर्य मंदिर",
+        "slug": "कोणार्क-सूर्य-मंदिर",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Konark_Sun_Temple",
+          "https://www.worldhistory.org/Konarak_Sun_Temple/"
+        ],
+        "start_year_ce": 1240,
+        "state": "ओडिशा",
+        "timeline": {
+          "events": [
+            {
+              "label": "नरसिम्हादेव प्रथम के अधीन निर्माण",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Konark_Sun_Temple"
+              ],
+              "start": 1250
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "होयसल",
+        "build_type": "संरचनात्मक पत्थर",
+        "construction_method": "उच्च जगती पर तारकीय योजना; खराद से बने खंभे; विपुल मूर्तिकला.",
+        "dynasty_association": [
+          "होयसल (विष्णुवर्धन)"
+        ],
+        "end_year_ce": 1117,
+        "estimated_date": "1117 ई",
+        "how_it_was_built": "नरम सोपस्टोन ने सूक्ष्म विवरण की अनुमति दी; कथात्मक फ्रिज़ और आइकनोग्राफ़िक रेंज।",
+        "id": "चेन्नाकेशव-बेलूर",
+        "location": "बेलूर",
+        "materials": [
+          "क्लोरीटिक शिस्ट (सोपस्टोन)"
+        ],
+        "name": "चेन्नाकेशव मंदिर",
+        "slug": "चेन्नाकेशव-बेलूर",
+        "sources": [
+          "https://www.oldest.org/structures/oldest-temples-in-india/"
+        ],
+        "start_year_ce": 1117,
+        "state": "कर्नाटक",
+        "timeline": {
+          "events": [
+            {
+              "label": "उद्घाटन विष्णुवर्धन ने किया",
+              "sources": [
+                "https://www.oldest.org/structures/oldest-temples-in-india/"
+              ],
+              "start": 1117
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "पल्लव द्रविड़ियन",
+        "build_type": "संरचनात्मक पत्थर",
+        "construction_method": "त्रिस्तरीय गर्भगृह (खड़े/लेटे हुए/बैठे हुए विष्णु); सिंह आधार स्तम्भ.",
+        "dynasty_association": [
+          "पल्लव (नंदिवर्मन द्वितीय)"
+        ],
+        "end_year_ce": 780,
+        "estimated_date": "आठवीं शताब्दी के अंत में ई.पू",
+        "how_it_was_built": "प्राकार दीवारों पर ऐतिहासिक राहत चक्रों के साथ कॉम्पैक्ट संरचनात्मक मंदिर।",
+        "id": "वैकुंठ-पेरुमल-कांची",
+        "location": "कांचीपुरम",
+        "materials": [
+          "बलुआ पत्थर"
+        ],
+        "name": "वैकुंठ पेरुमल (तिरु परमेश्वर विन्नगरम)",
+        "slug": "वैकुंठ-पेरुमल-कांची",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Tiru_paramesवाड़ा_vinngaram",
+          "https://www.worldhistory.org/article/1336/on-the-palava-trail-in-kanchiपुरम/"
+        ],
+        "start_year_ce": 770,
+        "state": "तमिलनाडु",
+        "timeline": {
+          "events": [
+            {
+              "label": "नंदिवर्मन द्वितीय के तहत निर्माण",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Tiru_paramesवाड़ा_vinngaram"
+              ],
+              "start": 775
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "चोल कोर; बाद में विजयनगर/नायक परिवर्धन",
+        "build_type": "संरचनात्मक पत्थर परिसर",
+        "construction_method": "ऊँचे पूर्वी गोपुरम के साथ द्रविड़ योजना; विजयनगर/नायक मंडप।",
+        "dynasty_association": [
+          "चोल",
+          "विजयनगर",
+          "नायक"
+        ],
+        "end_year_ce": 900,
+        "estimated_date": "9वीं शताब्दी सीई (कोर), बाद में विस्तार 16वीं सी।",
+        "how_it_was_built": "चोल-काल की चिनाई का विस्तार प्रतिष्ठित राशि चक्र-नक्काशीदार मंडप के साथ किया गया।",
+        "id": "आदि-कुंभेश्वर-कुंभकोणम",
+        "location": "कुम्भकोणम",
+        "materials": [
+          "ग्रेनाइट",
+          "बलुआ पत्थर"
+        ],
+        "name": "आदि कुम्बेश्वर मंदिर",
+        "slug": "आदि-कुंभेश्वर-कुंभकोणम",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Adi_Kumbeswarar_Temple,_Kumbakonam"
+        ],
+        "start_year_ce": 850,
+        "state": "तमिलनाडु",
+        "timeline": {
+          "events": [
+            {
+              "label": "चोल चरण",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Adi_Kumbeswarar_Temple,_Kumbakonam"
+              ],
+              "start": 900
+            },
+            {
+              "label": "विजयनगर/नायक विस्तार",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Adi_Kumbeswarar_Temple,_Kumbakonam"
+              ],
+              "start": 1500
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,858 @@
+{
+  "temples_in_india": {
+    "meta": {
+      "title": "印度最古老的寺庙—​​—日期、建筑、建造和时间表",
+      "canonical": "https://sanatanadharmam.in/temples-in-india",
+      "description": "经过历史验证的印度古代和中世纪寺庙，包括建造注释、建筑风格、王朝背景和事件时间表。",
+      "keywords": [
+        "Adi Kumbeswarar Kumbakonam",
+        "Ancient Hindu Temples",
+        "Ancient Indian architecture",
+        "Archaeological studies of temples",
+        "Ashlar masonry",
+        "Brihadeeswarar Temple Thanjavur",
+        "Chennakesava Temple Belur",
+        "Comparative temple studies",
+        "Construction Methods",
+        "Cultural significance of temples",
+        "Dashavatara Temple",
+        "Durga Temple Aihole",
+        "Dynastic Associations",
+        "Hindu temple history",
+        "Historical Timelines",
+        "Historical sources on temples",
+        "Iconography and temple sculpture",
+        "Indian temple construction",
+        "Inscriptions and temple history",
+        "Jagannath Temple Puri",
+        "Kailasa Ellora",
+        "Kailasanathar Temple",
+        "Konark Sun Temple",
+        "Lingaraja Temple Bhubaneswar",
+        "Medieval Hindu Temples",
+        "Medieval Indian architecture",
+        "Modhera Sun Temple",
+        "Monolithic temples",
+        "Mukteshwara Temple Bhubaneswar",
+        "Mundeshwari Temple",
+        "Oldest Temples in India",
+        "Palaeographic dating",
+        "Pancha Rathas",
+        "Religious practices and temples",
+        "Rock-cut temples",
+        "Shore Temple",
+        "Structural stone temples",
+        "Temple Architecture",
+        "Temple architecture and community bonds",
+        "Temple architecture and cosmology",
+        "Temple architecture and cultural identity",
+        "Temple architecture and ethical decision-making",
+        "Temple architecture and religious beliefs",
+        "Temple architecture and social structure",
+        "Temple architecture and spiritual reflection",
+        "Temple architecture evolution",
+        "Temple architecture styles",
+        "Temple art and aesthetics",
+        "Temple conservation and restoration",
+        "Temple dynasties",
+        "Temple engineering and construction techniques",
+        "Temple festivals and rituals",
+        "Temple legends and folklore",
+        "Temple patronage and politics",
+        "Temple rituals and ceremonies",
+        "Temple symbolism and meaning",
+        "Temple timelines",
+        "Temple tourism in India",
+        "UNESCO World Heritage temples",
+        "Vaikuntha Perumal Kanchipuram",
+        "Virupaksha Temple Pattadakal"
+      ],
+      "ogimage": "images/og/home.png",
+      "url": "https://sanatanadharmam.in/temples-in-india"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "组织",
+        "contactpoint": {
+          "@type": "联络点",
+          "areaserved": "全世界",
+          "availablelanguage": [
+            "巴黎",
+            "德语",
+            "英语",
+            "西班牙语",
+            "法国人",
+            "हिन्दी",
+            "日本语",
+            "नेपाली",
+            "荷兰",
+            "葡萄牙语",
+            "俄罗斯",
+            "తెలుగు",
+            "阿鲁多",
+            "中文 (简体)"
+          ],
+          "contacttype": "客户支持",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "关于 Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "dynasty_timeline": [
+      {
+        "architectural_contributions": [
+          "经典规划：方形圣所+早期śikhara",
+          "叙事浮雕板；精致的图像"
+        ],
+        "name": "古普塔",
+        "notes": "经常被认为是印度教寺庙建筑的“古典”转变。",
+        "period": "c.公元 320–550 年",
+        "regions": [
+          "印度中北部"
+        ],
+        "representative_temples": [
+          "达沙瓦塔拉德奥加尔"
+        ],
+        "sources": [
+          "https://hindu.mythologyworldwide.com/the-evolution-of-hindu-temple-architecture-through-the-ages/"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "Dravida + Nagara 的实验性 Vesara 混合物",
+          "近缘和星状平面图；重大救济计划"
+        ],
+        "name": "早期西遮卢其语（巴达米）",
+        "period": "6-8世纪CE",
+        "regions": [
+          "卡纳塔克邦马拉帕帕山谷"
+        ],
+        "representative_temples": [
+          "杜尔加艾霍尔",
+          "维茹巴沙帕塔达卡"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Durga_temple,_Aihole",
+          "https://en.wikipedia.org/wiki/Pattadakal"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "从岩石切割到结构石材的转变",
+          "整体原型（rathas）和早期德拉威维曼纳斯"
+        ],
+        "name": "帕拉瓦",
+        "period": "7-8世纪CE",
+        "regions": [
+          "泰米尔纳德邦（甘吉布勒姆-马哈巴利普拉姆）"
+        ],
+        "representative_temples": [
+          "潘查拉塔斯",
+          "岸寺",
+          "凯拉萨纳塔尔坎奇"
+        ],
+        "sources": [
+          "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/",
+          "https://en.wikipedia.org/wiki/Tiru_parameswara_vinnagaram"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "峰值整体岩石切割工程",
+          "大尺度图像的复杂性"
+        ],
+        "name": "拉什特拉库塔",
+        "period": "8-9世纪CE",
+        "regions": [
+          "德干（马哈拉施特拉邦）"
+        ],
+        "representative_temples": [
+          "凯拉萨埃洛拉"
+        ],
+        "sources": [
+          "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "花岗岩结构巨人症；翱翔的维曼纳斯",
+          "轴对称；大量铭文"
+        ],
+        "name": "乔拉",
+        "period": "10世纪至11世纪CE",
+        "regions": [
+          "泰米尔纳德邦（高韦里三角洲）"
+        ],
+        "representative_temples": [
+          "布里哈迪斯瓦拉尔坦贾武尔"
+        ],
+        "sources": [
+          "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "外部雕刻精美；集会+神社+昆德合奏团"
+        ],
+        "name": "Chaulukya/索兰基 (Maru-Gurjara)",
+        "period": "十一世纪CE",
+        "regions": [
+          "古吉拉特邦"
+        ],
+        "representative_temples": [
+          "莫德赫拉太阳神庙"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Sun_Temple,_Modhera"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "成熟的卡林加（Deula）形态；托拉纳实验",
+          "巨大的战车式寺庙（科纳克）"
+        ],
+        "name": "索马瓦姆希和东恒河",
+        "period": "10世纪至13世纪CE",
+        "regions": [
+          "奥里萨邦"
+        ],
+        "representative_temples": [
+          "穆克泰什瓦拉-布巴内斯瓦尔",
+          "林加拉贾-布巴内斯瓦尔",
+          "贾格纳普里",
+          "科纳克太阳神庙"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mukteshvara_Temple,_Bhubaneswar",
+          "https://en.wikipedia.org/wiki/Lingaraja_Temple",
+          "https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri",
+          "https://en.wikipedia.org/wiki/Konark_Sun_Temple"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "滑石;星状计划；车床加工的支柱；叙事饰带"
+        ],
+        "name": "霍伊萨拉",
+        "period": "11世纪至12世纪CE",
+        "regions": [
+          "卡纳塔克邦"
+        ],
+        "representative_temples": [
+          "钦纳凯萨瓦贝鲁尔"
+        ],
+        "sources": [
+          "https://www.oldest.org/structs/oldest-temples-in-india/"
+        ]
+      }
+    ],
+    "temples": [
+      {
+        "architecture_style": "早期的长良（八角圣殿）",
+        "build_type": "结构石",
+        "construction_method": "八角形的石砌体。",
+        "dynasty_association": [
+          "早期贵霜/早期历史（根据铭文年代测定）"
+        ],
+        "end_year_ce": 200,
+        "estimated_date": "公元一世纪至二世纪",
+        "how_it_was_built": "八角形的圣殿，有经过修饰的石块；早期的 śikhara 原型。",
+        "id": "蒙德什瓦里-比哈尔邦",
+        "location": "凯穆尔",
+        "materials": [
+          "石头"
+        ],
+        "name": "蒙德什瓦里德维神庙",
+        "slug": "蒙德什瓦里-比哈尔邦",
+        "sources": [
+          "https://oldest.info/oldest-temples-in-india/",
+          "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/"
+        ],
+        "start_year_ce": 100,
+        "state": "比哈尔邦",
+        "timeline": {
+          "events": [
+            {
+              "label": "经机构认证",
+              "sources": [
+                "https://oldest.info/oldest-temples-in-india/",
+                "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/"
+              ],
+              "start": "1-2世纪CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "古普塔古典",
+        "build_type": "结构石",
+        "construction_method": "方石砌体；雕刻的叙事面板。",
+        "dynasty_association": [
+          "古普塔"
+        ],
+        "end_year_ce": 550,
+        "estimated_date": "c.公元 500–550 年",
+        "how_it_was_built": "带有早期 śikhara 的方形圣所；毗湿奴头像的浮雕。",
+        "id": "达沙瓦塔拉德奥加尔",
+        "location": "德奥加尔",
+        "materials": [
+          "砂岩"
+        ],
+        "name": "达沙瓦塔拉寺",
+        "slug": "达沙瓦塔拉德奥加尔",
+        "sources": [
+          "https://hindu.mythologyworldwide.com/the-evolution-of-hindu-temple-architecture-through-the-ages/"
+        ],
+        "start_year_ce": 500,
+        "state": "北方邦",
+        "timeline": {
+          "events": [
+            {
+              "label": "建造",
+              "sources": [
+                "https://hindu.mythologyworldwide.com/the-evolution-of-hindu-temple-architecture-through-the-ages/"
+              ],
+              "start": 500
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "帕拉瓦整体式早期德拉威形式",
+        "build_type": "岩石切割整体",
+        "construction_method": "由单个花岗岩露头雕刻而成，作为原型神殿。",
+        "dynasty_association": [
+          "帕拉瓦"
+        ],
+        "end_year_ce": 700,
+        "estimated_date": "公元 7 世纪（约公元 630-668 年；一些学者将其定为更晚）",
+        "how_it_was_built": "现场凿凿的巨石；未完成和未奉献的原型。",
+        "id": "潘查拉塔斯",
+        "location": "马哈巴利普拉姆",
+        "materials": [
+          "花岗岩"
+        ],
+        "name": "五拉塔 (Pancha Rathas)",
+        "slug": "潘查拉塔斯",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Pancha_Rathas"
+        ],
+        "start_year_ce": 630,
+        "state": "泰米尔纳德邦",
+        "timeline": {
+          "events": [
+            {
+              "label": "帕拉瓦斯下的雕刻",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Pancha_Rathas"
+              ],
+              "start": "七世纪CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "早期德拉威语（帕拉瓦）",
+        "build_type": "结构石",
+        "construction_method": "修整过的花岗岩块；海岸工程抗风。",
+        "dynasty_association": [
+          "帕拉瓦 (Narasimhavarman II)"
+        ],
+        "end_year_ce": 728,
+        "estimated_date": "c.公元 700–728 年",
+        "how_it_was_built": "花岗岩砌体与金字塔形上部结构（vimana）。",
+        "id": "岸寺",
+        "location": "马哈巴利普拉姆",
+        "materials": [
+          "花岗岩"
+        ],
+        "name": "岸边寺庙",
+        "slug": "岸寺",
+        "sources": [
+          "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/"
+        ],
+        "start_year_ce": 700,
+        "state": "泰米尔纳德邦",
+        "timeline": {
+          "events": [
+            {
+              "label": "帕拉瓦鼎盛时期的建设",
+              "sources": [
+                "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/"
+              ],
+              "start": "7-8世纪CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "帕拉瓦德拉威风格（早期结构）",
+        "build_type": "结构石",
+        "construction_method": "砂岩块；带有子神殿的外壳。",
+        "dynasty_association": [
+          "帕拉瓦 (Narasimhavarman II)"
+        ],
+        "end_year_ce": 728,
+        "estimated_date": "c.公元 700–728 年",
+        "how_it_was_built": "早期结构的德拉威维曼纳；核心周围有 58 个小神社。",
+        "id": "凯拉萨纳塔尔坎奇",
+        "location": "甘吉布勒姆",
+        "materials": [
+          "砂岩"
+        ],
+        "name": "凯拉萨纳塔寺",
+        "slug": "凯拉萨纳塔尔坎奇",
+        "sources": [
+          "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/"
+        ],
+        "start_year_ce": 700,
+        "state": "泰米尔纳德邦",
+        "timeline": {
+          "events": [
+            {
+              "label": "帕拉瓦建筑",
+              "sources": [
+                "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/"
+              ],
+              "start": "8世纪初CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "早期遮卢基亚（Vesara 混合）",
+        "build_type": "结构石",
+        "construction_method": "拱门计划；华丽的浮雕板；绕行柱廊。",
+        "dynasty_association": [
+          "早期西遮娄其"
+        ],
+        "end_year_ce": 725,
+        "estimated_date": "公元七世纪末至八世纪初",
+        "how_it_was_built": "在砂岩中执行的 Apsidal (gajaprishtha) 计划；苏里亚隶属关系。",
+        "id": "杜尔加艾霍尔",
+        "location": "艾霍勒",
+        "materials": [
+          "砂岩"
+        ],
+        "name": "杜尔迦神庙",
+        "slug": "杜尔加艾霍尔",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Durga_temple,_Aihole"
+        ],
+        "start_year_ce": 690,
+        "state": "卡纳塔克邦",
+        "timeline": {
+          "events": [
+            {
+              "label": "根据古文字学的理由确定日期",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Durga_temple,_Aihole"
+              ],
+              "start": "c.公元700年"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "带有 Nagara 元素的德拉威语（Pattadakal 合成）",
+        "build_type": "结构石",
+        "construction_method": "高底座；轴向曼达帕；史诗中的浮雕饰带。",
+        "dynasty_association": [
+          "早期西遮娄其王朝（Vikramaditya II）"
+        ],
+        "end_year_ce": 745,
+        "estimated_date": "c.公元 740–745 年",
+        "how_it_was_built": "洛卡玛哈黛薇女王的委托；复杂的雕塑程序。",
+        "id": "维茹巴沙帕塔达卡",
+        "location": "帕塔达卡尔",
+        "materials": [
+          "砂岩"
+        ],
+        "name": "维鲁巴克夏寺",
+        "slug": "维茹巴沙帕塔达卡",
+        "sources": [
+          "https://prepp.in/news/e-492-virupaksha-temple-pattadakkal-temples-ancient-india-history-notes",
+          "https://mapacademy.io/article/sculpture-at-virupaksha-temple-pattadakal/"
+        ],
+        "start_year_ce": 740,
+        "state": "卡纳塔克邦",
+        "timeline": {
+          "events": [
+            {
+              "label": "纪念建筑",
+              "sources": [
+                "https://prepp.in/news/e-492-virupaksha-temple-pattadakkal-temples-ancient-india-history-notes",
+                "https://en.wikipedia.org/wiki/Pattadakal"
+              ],
+              "start": 745
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Rashtrakuta 德拉威（岩石切割）",
+        "build_type": "岩石切割整体式（自上而下开挖）",
+        "construction_method": "整体开挖；从悬崖上雕刻而成的独立形式。",
+        "dynasty_association": [
+          "拉什特拉库塔（克里希纳一世）"
+        ],
+        "end_year_ce": 773,
+        "estimated_date": "c.公元 756–773 年",
+        "how_it_was_built": "单一体量的挖掘产生了一个独立的综合体。",
+        "id": "凯拉萨埃洛拉",
+        "location": "埃洛拉",
+        "materials": [
+          "玄武岩"
+        ],
+        "name": "凯拉萨寺（第 16 窟）",
+        "slug": "凯拉萨埃洛拉",
+        "sources": [
+          "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+        ],
+        "start_year_ce": 756,
+        "state": "马哈拉施特拉邦",
+        "timeline": {
+          "events": [
+            {
+              "label": "克里希纳一世统治下的雕刻",
+              "sources": [
+                "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+              ],
+              "start": "8世纪CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "朱拉达罗毗荼语",
+        "build_type": "结构石",
+        "construction_method": "大型花岗岩方石；飞翔的维曼纳。",
+        "dynasty_association": [
+          "乔拉（拉贾拉贾一世）"
+        ],
+        "end_year_ce": 1010,
+        "estimated_date": "公元 1003 年–1010 年",
+        "how_it_was_built": "大型花岗岩项目；精确的轴向布局和铭文。",
+        "id": "布里哈迪斯瓦拉尔坦贾武尔",
+        "location": "坦贾武尔",
+        "materials": [
+          "花岗岩"
+        ],
+        "name": "Brihadeeswarar（Peruvudaiyar）寺庙",
+        "slug": "布里哈迪斯瓦拉尔坦贾武尔",
+        "sources": [
+          "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+        ],
+        "start_year_ce": 1003,
+        "state": "泰米尔纳德邦",
+        "timeline": {
+          "events": [
+            {
+              "label": "奉献",
+              "sources": [
+                "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+              ],
+              "start": 1010
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Maru‑Gurjara（乔卢基亚/索兰基）",
+        "build_type": "结构石群",
+        "construction_method": "Gudhamandapa + Sabhamandapa + 阶梯式 Surya-kund 在东西轴上对齐。",
+        "dynasty_association": [
+          "乔卢基亚/索兰基 (Bhima I)"
+        ],
+        "end_year_ce": 1030,
+        "estimated_date": "公元 1026–27 年之后",
+        "how_it_was_built": "外部雕刻精美；带神殿的阶梯式水库。",
+        "id": "莫德赫拉太阳神庙",
+        "location": "莫德拉·梅赫萨纳",
+        "materials": [
+          "砂岩"
+        ],
+        "name": "莫德拉太阳神庙",
+        "slug": "莫德赫拉太阳神庙",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Sun_Temple,_Modhera",
+          "https://inditales.com/architecture-of-sun-temple-modhera/",
+          "https://whc.unesco.org/en/tentativelists/6627/"
+        ],
+        "start_year_ce": 1026,
+        "state": "古吉拉特邦",
+        "timeline": {
+          "events": [
+            {
+              "label": "铭文标记；比玛一世时期重建/建造的圣殿",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Sun_Temple,_Modhera",
+                "https://whc.unesco.org/en/tentativelists/6627/"
+              ],
+              "start": 1026
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "早期卡林伽（Somavamshi 时期）",
+        "build_type": "结构石",
+        "construction_method": "Rekha deula sainttum + 金字塔 Jagamohana；标志性的独立式托拉纳。",
+        "dynasty_association": [
+          "索马瓦姆希"
+        ],
+        "end_year_ce": 975,
+        "estimated_date": "公元 950–975 年",
+        "how_it_was_built": "过渡奥迪山习语；预示着 Lingaraja 的实验。",
+        "id": "穆克泰什瓦拉-布巴内斯瓦尔",
+        "location": "老城区, 布巴内斯瓦尔",
+        "materials": [
+          "砂岩",
+          "红土"
+        ],
+        "name": "穆克特什瓦拉寺",
+        "slug": "穆克泰什瓦拉-布巴内斯瓦尔",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mukteshvara_Temple,_Bhubaneswar"
+        ],
+        "start_year_ce": 950,
+        "state": "奥里萨邦",
+        "timeline": {
+          "events": [
+            {
+              "label": "可能的施工窗口",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Mukteshvara_Temple,_Bhubaneswar"
+              ],
+              "start": 966
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "成熟的卡林加",
+        "build_type": "结构石材综合体",
+        "construction_method": "Deula 风格四重奏：vimana、jagamohana、nata-mandira、bhoga-mandapa。",
+        "dynasty_association": [
+          "索马瓦姆希",
+          "东恒河"
+        ],
+        "end_year_ce": 1100,
+        "estimated_date": "公元十一世纪",
+        "how_it_was_built": "布巴内斯瓦尔中世纪风格的顶峰； 180 英尺的曲线塔。",
+        "id": "林加拉贾-布巴内斯瓦尔",
+        "location": "埃卡姆拉·克舍特拉 (Ekamra Kshetra), 布巴内斯瓦尔",
+        "materials": [
+          "砂岩",
+          "红土"
+        ],
+        "name": "林加拉贾寺",
+        "slug": "林加拉贾-布巴内斯瓦尔",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Lingaraja_Temple",
+          "https://vajiramandravi.com/upsc-exam/lingaraja-temple/"
+        ],
+        "start_year_ce": 1000,
+        "state": "奥里萨邦",
+        "timeline": {
+          "events": [
+            {
+              "label": "主要建筑（Somavamshi），后来加建恒河",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Lingaraja_Temple"
+              ],
+              "start": "十一世纪CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "卡林加（奥里萨邦那加拉）",
+        "build_type": "结构石材综合体",
+        "construction_method": "Kalinga rekha deula 拥有广阔的围墙；木制图标定期更新。",
+        "dynasty_association": [
+          "东恒河（Anantavarman Chodaganga）"
+        ],
+        "end_year_ce": 1200,
+        "estimated_date": "公元 12 世纪（约公元 1161 年）",
+        "how_it_was_built": "巨大的围墙和雷卡德乌拉塔；生活仪式系统（Ratha Yatra）。",
+        "id": "贾格纳普里",
+        "location": "普里",
+        "materials": [
+          "石头（寺庙）",
+          "印楝木（偶像）"
+        ],
+        "name": "贾格纳神庙",
+        "slug": "贾格纳普里",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri"
+        ],
+        "start_year_ce": 1100,
+        "state": "奥里萨邦",
+        "timeline": {
+          "events": [
+            {
+              "label": "东恒河下的重建/扩建",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri"
+              ],
+              "start": 1161
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "卡林加中世纪时期",
+        "build_type": "结构石（部分毁坏）",
+        "construction_method": "24个轮子的战车形状设计；不朽的雕塑计划。",
+        "dynasty_association": [
+          "东恒河（Narasimhadeva I）"
+        ],
+        "end_year_ce": 1260,
+        "estimated_date": "c.公元1250年",
+        "how_it_was_built": "象征性的太阳能战车；先进的工程；现在是联合国教科文组织遗址。",
+        "id": "科纳克太阳神庙",
+        "location": "普里区科纳克",
+        "materials": [
+          "孔兹石"
+        ],
+        "name": "科纳克太阳神庙",
+        "slug": "科纳克太阳神庙",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Konark_Sun_Temple",
+          "https://www.worldhistory.org/Konarak_Sun_Temple/"
+        ],
+        "start_year_ce": 1240,
+        "state": "奥里萨邦",
+        "timeline": {
+          "events": [
+            {
+              "label": "纳拉辛哈戴瓦一世 (Narasimhadeva I) 的建设",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Konark_Sun_Temple"
+              ],
+              "start": 1250
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "霍伊萨拉",
+        "build_type": "结构石",
+        "construction_method": "高贾加蒂星图；车床加工的支柱；丰富的雕塑。",
+        "dynasty_association": [
+          "曷萨拉 (Vishnuvardhana)"
+        ],
+        "end_year_ce": 1117,
+        "estimated_date": "公元1117年",
+        "how_it_was_built": "软皂石允许微观细节；叙事饰带和图像范围。",
+        "id": "钦纳凯萨瓦贝鲁尔",
+        "location": "贝鲁尔",
+        "materials": [
+          "绿泥石片岩（皂石）"
+        ],
+        "name": "钦纳克萨瓦寺",
+        "slug": "钦纳凯萨瓦贝鲁尔",
+        "sources": [
+          "https://www.oldest.org/structs/oldest-temples-in-india/"
+        ],
+        "start_year_ce": 1117,
+        "state": "卡纳塔克邦",
+        "timeline": {
+          "events": [
+            {
+              "label": "毗湿奴瓦尔丹 (Vishnuvardhana) 主持就职典礼",
+              "sources": [
+                "https://www.oldest.org/structs/oldest-temples-in-india/"
+              ],
+              "start": 1117
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "帕拉瓦达罗毗荼语",
+        "build_type": "结构石",
+        "construction_method": "三层圣所（毗湿奴立式/卧式/坐式）；狮子座的柱子。",
+        "dynasty_association": [
+          "帕拉瓦（南迪瓦尔曼二世）"
+        ],
+        "end_year_ce": 780,
+        "estimated_date": "公元8世纪末",
+        "how_it_was_built": "结构紧凑的寺庙，普拉卡拉墙上有历史浮雕。",
+        "id": "外昆塔佩鲁马尔坎奇",
+        "location": "甘吉布勒姆",
+        "materials": [
+          "砂岩"
+        ],
+        "name": "Vaikuntha Perumal（Tiru Parameswara Vinnagaram）",
+        "slug": "外昆塔佩鲁马尔坎奇",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Tiru_parameswara_vinnagaram",
+          "https://www.worldhistory.org/article/1336/on-the-palllava-trail-in-kanchipuram/"
+        ],
+        "start_year_ce": 770,
+        "state": "泰米尔纳德邦",
+        "timeline": {
+          "events": [
+            {
+              "label": "南迪瓦尔曼二世 (Nandivarman II) 的建设",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Tiru_parameswara_vinnagaram"
+              ],
+              "start": 775
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "朱罗核心；后来毗奢耶那伽罗/纳亚克添加",
+        "build_type": "结构石材综合体",
+        "construction_method": "达罗毗荼计划与高大的东部高普拉姆；毗奢耶那伽罗/纳亚克曼达帕。",
+        "dynasty_association": [
+          "乔拉",
+          "毗奢耶那伽罗",
+          "纳亚克"
+        ],
+        "end_year_ce": 900,
+        "estimated_date": "公元 9 世纪（核心），后来在 16 世纪进行了扩展。",
+        "how_it_was_built": "朱罗时期的砖石建筑随着标志性的十二生肖雕刻曼达帕而得到扩展。",
+        "id": "阿迪·昆贝斯瓦拉尔·昆巴科南",
+        "location": "昆巴科南",
+        "materials": [
+          "花岗岩",
+          "砂岩"
+        ],
+        "name": "阿迪库姆贝斯瓦拉尔寺",
+        "slug": "阿迪·昆贝斯瓦拉尔·昆巴科南",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Adi_Kumbeswarar_Temple,_Kumbakonam"
+        ],
+        "start_year_ce": 850,
+        "state": "泰米尔纳德邦",
+        "timeline": {
+          "events": [
+            {
+              "label": "朱罗相",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Adi_Kumbeswarar_Temple,_Kumbakonam"
+              ],
+              "start": 900
+            },
+            {
+              "label": "毗奢耶那伽罗/纳亚克扩张",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Adi_Kumbeswarar_Temple,_Kumbakonam"
+              ],
+              "start": 1500
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

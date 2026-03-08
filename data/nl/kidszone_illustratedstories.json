@@ -1,0 +1,917 @@
+{
+  "kidszone_illustratedstories": {
+    "title": "Geïllustreerde verhalen",
+    "meta": {
+      "title": "Kinderzone | Geïllustreerde verhalen — Sanātana Dharma - Ontdek Sanatan Dharma",
+      "canonical": "https://sanatanadharmam.in/kidszone/illustratedstories",
+      "description": "KidsZone — IllustratedStories — Sanātana Dharma - Ontdek Sanatan Dharma — Artikelen, vertalingen en beknopt commentaar op KidsZone. Ontdek praktijken, geschiedenis en begeleiding...",
+      "keywords": [
+        "Animal Fables",
+        "Bedtime Stories for Kids",
+        "Children's Stories",
+        "Classic Indian Stories",
+        "Educational Stories",
+        "Folk Tales with Morals",
+        "Illustrated Stories",
+        "Indian Culture for Kids",
+        "Indian Folktales",
+        "Indian Heritage for Children",
+        "Jataka Tales",
+        "KidsZone",
+        "Moral Stories",
+        "Mythological Stories for Kids",
+        "Panchatantra",
+        "Short Stories for Children",
+        "Stories from Indian Tradition",
+        "Stories of Animals with Morals",
+        "Stories of Compassion and Empathy",
+        "Stories of Courage and Bravery",
+        "Stories of Courage and Wisdom",
+        "Stories of Creativity and Imagination",
+        "Stories of Cultural Values and Traditions",
+        "Stories of Everyday Heroes",
+        "Stories of Family and Relationships",
+        "Stories of Festivals and Celebrations",
+        "Stories of Friendship and Kindness",
+        "Stories of Generosity and Sharing",
+        "Stories of Good vs Evil",
+        "Stories of Honesty and Integrity",
+        "Stories of Humility and Gratitude",
+        "Stories of Kindness and Compassion",
+        "Stories of Kings and Queens",
+        "Stories of Mythological Characters",
+        "Stories of Nature and Environment",
+        "Stories of Perseverance and Hard Work",
+        "Stories of Problem-Solving and Critical Thinking",
+        "Stories of Respect and Responsibility",
+        "Stories of Sages and Saints",
+        "Stories of Self-Control and Discipline",
+        "Stories of Teamwork and Cooperation",
+        "Stories of Wisdom and Intelligence",
+        "Stories with Life Lessons"
+      ],
+      "ogimage": "/og/kidszone-illustratedstories.png",
+      "url": "https://sanatanadharmam.in/kidszone/illustratedstories"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organisatie",
+        "contactpoint": {
+          "@type": "ContactPunt",
+          "areaserved": "Wereldwijd",
+          "availablelanguage": [
+            "العربية",
+            "Duits",
+            "Engels",
+            "Spaans",
+            "Frans",
+            "Ja",
+            "日本語",
+            "Ja",
+            "Nederlands",
+            "Portugees",
+            "Русский",
+            "Ja",
+            "Ja",
+            "中文 (简体)"
+          ],
+          "contacttype": "Klantenondersteuning",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Over Sanatanadharam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "description": "Een samengestelde verzameling korte geïllustreerde verhalen en moraal uit de Indiase traditie. Klik op een verhaal om de samenvatting en moraal ervan te lezen.",
+    "kids_indian_stories": [
+      {
+        "title": "Het slimme konijn en de leeuw",
+        "characters": [
+          "Konijn",
+          "Leeuw"
+        ],
+        "id": 1,
+        "imgalt": "The Clever Rabbit and the Lion",
+        "imgsrc": "/images/illustrate/thumbs/1.png",
+        "moral": "Wijsheid is sterker dan kracht.",
+        "origin": "Panchatantra",
+        "summary": "Een klein konijn is een woeste leeuw te slim af door hem te misleiden zodat hij in een put springt nadat hij zijn spiegelbeeld heeft gezien.",
+        "themes": [
+          "Moed",
+          "Intelligentie"
+        ]
+      },
+      {
+        "title": "De aap en de krokodil",
+        "characters": [
+          "Aap",
+          "Krokodil"
+        ],
+        "id": 2,
+        "imgalt": "The Monkey and the Crocodile",
+        "imgsrc": "/images/illustrate/thumbs/2.png",
+        "moral": "Tegenwoordigheid van geest redt levens.",
+        "origin": "Panchatantra",
+        "summary": "Een aap vermijdt gevaar door een krokodil te misleiden die zijn hart probeert op te eten.",
+        "themes": [
+          "Vriendschap",
+          "Bedrog"
+        ]
+      },
+      {
+        "title": "De dorstige kraai",
+        "characters": [
+          "Kraai"
+        ],
+        "id": 3,
+        "imgalt": "The Thirsty Crow",
+        "imgsrc": "/images/illustrate/thumbs/3.png",
+        "moral": "Waar een wil is, is een weg.",
+        "origin": "Indiaas volksverhaal",
+        "summary": "Een dorstige kraai laat steentjes in een pot vallen om het waterpeil te verhogen en drinkt het op.",
+        "themes": [
+          "Doorzettingsvermogen",
+          "Creativiteit"
+        ]
+      },
+      {
+        "title": "De dwaze leeuw en de slimme vos",
+        "characters": [
+          "Leeuw",
+          "Vos"
+        ],
+        "id": 4,
+        "imgalt": "The Foolish Lion and the Clever Fox",
+        "imgsrc": "/images/illustrate/thumbs/4.png",
+        "moral": "Hebzucht leidt tot ondergang.",
+        "origin": "Panchatantra",
+        "summary": "Een vos verleidt een leeuw om een verlaten grot binnen te gaan en de leeuw komt voor altijd vast te zitten.",
+        "themes": [
+          "Hebzucht",
+          "Intelligentie"
+        ]
+      },
+      {
+        "title": "De spraakzame schildpad",
+        "characters": [
+          "Schildpad",
+          "Zwanen"
+        ],
+        "id": 5,
+        "imgalt": "The Talkative Tortoise",
+        "imgsrc": "/images/illustrate/thumbs/5.png",
+        "moral": "Te veel praten kan tot problemen leiden.",
+        "origin": "Panchatantra",
+        "summary": "Een schildpad valt uit de lucht omdat hij zijn bek opent terwijl hij wordt gedragen door twee vogels.",
+        "themes": [
+          "Discipline",
+          "Humor"
+        ]
+      },
+      {
+        "title": "Tenali Rama en de dieven",
+        "characters": [
+          "Tenali Rama",
+          "Dieven"
+        ],
+        "id": 6,
+        "imgalt": "Tenali Rama and the Thieves",
+        "imgsrc": "/images/illustrate/thumbs/6.png",
+        "moral": "Slim denken kan uw huis redden.",
+        "origin": "Tenali Raman-verhalen",
+        "summary": "Tenali Rama bedriegt dieven door de hele nacht te doen alsof hij zijn put schoonmaakt terwijl hij er stenen in laat vallen.",
+        "themes": [
+          "Wijsheid",
+          "Strategie"
+        ]
+      },
+      {
+        "title": "Birbal's Khichdi-verhaal",
+        "characters": [
+          "Birbal",
+          "Akbar"
+        ],
+        "id": 7,
+        "imgalt": "Birbal’s Khichdi Story",
+        "imgsrc": "/images/illustrate/thumbs/7.png",
+        "moral": "Geduld en tegenwoordigheid van geest winnen.",
+        "origin": "Akbar-Birbal",
+        "summary": "Birbal bewijst dat nadenken over warmte van ver weg hetzelfde is als het opwarmen van voedsel van ver weg.",
+        "themes": [
+          "Justitie",
+          "Logica"
+        ]
+      },
+      {
+        "title": "De trouwe mangoest",
+        "characters": [
+          "Mongoes",
+          "Schat",
+          "Moeder"
+        ],
+        "id": 8,
+        "imgalt": "The Loyal Mongoose",
+        "imgsrc": "/images/illustrate/thumbs/8.png",
+        "moral": "Trek niet te snel conclusies.",
+        "origin": "Indiase folklore",
+        "summary": "Een mangoest redt een baby van een slang, maar wordt per ongeluk gestraft.",
+        "themes": [
+          "Loyaliteit",
+          "Vertrouwen"
+        ]
+      },
+      {
+        "title": "Krishna en de boterpot",
+        "characters": [
+          "Krishna",
+          "Gopi's"
+        ],
+        "id": 9,
+        "imgalt": "Krishna and the Butter Pot",
+        "imgsrc": "/images/illustrate/thumbs/9.png",
+        "moral": "Nieuwsgierigheid en speelsheid zijn natuurlijk, maar eerlijkheid is belangrijk.",
+        "origin": "Krishna-kinderverhalen",
+        "summary": "Baby Krishna steelt boter met zijn vrienden en charmeert iedereen met zijn onschuld.",
+        "themes": [
+          "Onheil",
+          "Liefde"
+        ]
+      },
+      {
+        "title": "Sudama en Krishna",
+        "characters": [
+          "Krishna",
+          "Sudama"
+        ],
+        "id": 10,
+        "imgalt": "Sudama and Krishna",
+        "imgsrc": "/images/illustrate/thumbs/10.png",
+        "moral": "Echte vriendschap is onvoorwaardelijk.",
+        "origin": "Bhagavata Purana",
+        "summary": "De arme Sudama bezoekt Krishna met een bescheiden geschenk, en Krishna overlaadt hem met liefde en zegeningen.",
+        "themes": [
+          "Vriendschap",
+          "Vriendelijkheid"
+        ]
+      },
+      {
+        "title": "De olifant en de kleermaker",
+        "characters": [
+          "Olifant",
+          "Kleermaker"
+        ],
+        "id": 11,
+        "imgalt": "The Elephant and the Tailor",
+        "imgsrc": "/images/illustrate/thumbs/11.png",
+        "moral": "Vriendelijkheid geeft vriendelijkheid terug; wreedheid retourneert wreedheid.",
+        "origin": "Indiaas volksverhaal",
+        "summary": "Een kleermaker prikt een olifant, en de olifant gooit uit wraak modderig water over hem heen.",
+        "themes": [
+          "Gedrag",
+          "Gevolgen"
+        ]
+      },
+      {
+        "title": "De wijze papegaai",
+        "characters": [
+          "Papegaai",
+          "Koning"
+        ],
+        "id": 12,
+        "imgalt": "The Wise Parrot",
+        "imgsrc": "/images/illustrate/thumbs/12.png",
+        "moral": "Goed advies kan levens redden.",
+        "origin": "Panchatantra",
+        "summary": "Een papegaai waarschuwt een koning voor de gevaren van zijn koninkrijk en wordt zijn vertrouwde vriend.",
+        "themes": [
+          "Wijsheid",
+          "Verantwoordelijkheid"
+        ]
+      },
+      {
+        "title": "De toewijding van Shravan Kumar",
+        "characters": [
+          "Shravan",
+          "Ouders",
+          "Koning Dasharatha"
+        ],
+        "id": 13,
+        "imgalt": "Shravan Kumar’s Devotion",
+        "imgsrc": "/images/illustrate/thumbs/13.png",
+        "moral": "Ouders dienen is nobel.",
+        "origin": "Ramayana",
+        "summary": "Shravan Kumar zorgt voor zijn blinde ouders en wordt een symbool van toewijding.",
+        "themes": [
+          "Toewijding",
+          "Familie"
+        ]
+      },
+      {
+        "title": "Ganesha en de mango",
+        "characters": [
+          "Ganesha",
+          "Kartikeya",
+          "Shiva",
+          "Parvati"
+        ],
+        "id": 14,
+        "imgalt": "Ganesha and the Mango",
+        "imgsrc": "/images/illustrate/thumbs/14.png",
+        "moral": "Wijsheid is groter dan snelheid.",
+        "origin": "Purana's",
+        "summary": "Ganesha wint een wedstrijd door om zijn ouders te cirkelen in plaats van om de wereld.",
+        "themes": [
+          "Familie",
+          "Wijsheid"
+        ]
+      },
+      {
+        "title": "De koning en de mus",
+        "characters": [
+          "Koning",
+          "Mus"
+        ],
+        "id": 15,
+        "imgalt": "The King and the Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/15.png",
+        "moral": "Kleine daden van vriendelijkheid zijn belangrijk.",
+        "origin": "Indiaas volksverhaal",
+        "summary": "Een mus helpt een koning nederigheid te leren.",
+        "themes": [
+          "Vriendelijkheid",
+          "Nederigheid"
+        ]
+      },
+      {
+        "title": "De Gouden Zwaan",
+        "characters": [
+          "Gouden Zwaan",
+          "Moeder",
+          "Dochters"
+        ],
+        "id": 16,
+        "imgalt": "The Golden Swan",
+        "imgsrc": "/images/illustrate/thumbs/16.png",
+        "moral": "Hebzucht vernietigt geluk.",
+        "origin": "Jataka-verhalen",
+        "summary": "Een gouden zwaan geeft veren aan een arm gezin, maar hebzucht verpest alles.",
+        "themes": [
+          "Hebzucht",
+          "Vrijgevigheid"
+        ]
+      },
+      {
+        "title": "De hongerige muis",
+        "characters": [
+          "Muis"
+        ],
+        "id": 17,
+        "imgalt": "The Hungry Mouse",
+        "imgsrc": "/images/illustrate/thumbs/17.png",
+        "moral": "Zelfbeheersing is belangrijk.",
+        "origin": "Panchatantra",
+        "summary": "Een muis komt vast te zitten in een hol nadat hij te veel heeft gegeten.",
+        "themes": [
+          "Discipline"
+        ]
+      },
+      {
+        "title": "De leeuw en de muis",
+        "characters": [
+          "Leeuw",
+          "Muis"
+        ],
+        "id": 18,
+        "imgalt": "The Lion and the Mouse",
+        "imgsrc": "/images/illustrate/thumbs/18.png",
+        "moral": "Zelfs de kleintjes kunnen de machtigen helpen.",
+        "origin": "Indiase aanpassing",
+        "summary": "Een leeuw spaart een muis en de muis redt de leeuw later.",
+        "themes": [
+          "Vriendelijkheid",
+          "Vriendschap"
+        ]
+      },
+      {
+        "title": "De wijze timmerman",
+        "characters": [
+          "Timmerman",
+          "Dorpelingen"
+        ],
+        "id": 19,
+        "imgalt": "The Wise Carpenter",
+        "imgsrc": "/images/illustrate/thumbs/19.png",
+        "moral": "Wijsheid lost conflicten op.",
+        "origin": "Indiaas dorpsverhaal",
+        "summary": "Een timmerman lost op vreedzame wijze een geschil over land op met behulp van slimme planning.",
+        "themes": [
+          "Vrede",
+          "Justitie"
+        ]
+      },
+      {
+        "title": "De magische trommel",
+        "characters": [
+          "Jongen",
+          "Feeën"
+        ],
+        "id": 20,
+        "imgalt": "The Magic Drum",
+        "imgsrc": "/images/illustrate/thumbs/20.png",
+        "moral": "Eerlijkheid wordt beloond.",
+        "origin": "Indiaas volksverhaal",
+        "summary": "Een vriendelijke jongen krijgt een magische trommel waarmee voedsel en speelgoed wordt gemaakt.",
+        "themes": [
+          "Magie",
+          "Vriendelijkheid"
+        ]
+      },
+      {
+        "title": "Het dappere kleine musje",
+        "characters": [
+          "Mus",
+          "Olifant"
+        ],
+        "id": 21,
+        "imgalt": "The Brave Little Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/21.png",
+        "moral": "Moed kan de machtigen verslaan.",
+        "origin": "Indië",
+        "summary": "Een mus redt haar kinderen van een enorme olifant.",
+        "themes": [
+          "Moed"
+        ]
+      },
+      {
+        "title": "Arjuna en het vogeloog",
+        "characters": [
+          "Arjuna",
+          "Drona"
+        ],
+        "id": 22,
+        "imgalt": "Arjuna and the Bird’s Eye",
+        "imgsrc": "/images/illustrate/thumbs/22.png",
+        "moral": "Focus leidt tot succes.",
+        "origin": "Mahabharata",
+        "summary": "Arjuna maakt indruk op zijn goeroe door zich uitsluitend op het oog van een vogel te concentreren.",
+        "themes": [
+          "Discipline",
+          "Opleiding"
+        ]
+      },
+      {
+        "title": "De kromme boom",
+        "characters": [
+          "Kromme boom",
+          "Hoge bomen"
+        ],
+        "id": 23,
+        "imgalt": "The Crooked Tree",
+        "imgsrc": "/images/illustrate/thumbs/23.png",
+        "moral": "Wees tevreden met wie je bent.",
+        "origin": "Indiaas bosverhaal",
+        "summary": "Een kromme boom overleeft houthakkers vanwege zijn vorm.",
+        "themes": [
+          "Eigenwaarde"
+        ]
+      },
+      {
+        "title": "De magische pot",
+        "characters": [
+          "Boer"
+        ],
+        "id": 24,
+        "imgalt": "The Magic Pot",
+        "imgsrc": "/images/illustrate/thumbs/24.png",
+        "moral": "Goede dingen komen naar goede mensen.",
+        "origin": "Indiase folklore",
+        "summary": "Een boer vindt een pot die alles wat hij erin stopt verdubbelt.",
+        "themes": [
+          "Magie",
+          "Veel geluk"
+        ]
+      },
+      {
+        "title": "Het vriendelijke hert",
+        "characters": [
+          "Herten koning",
+          "Doe",
+          "Menselijke koning"
+        ],
+        "id": 25,
+        "imgalt": "The Kind Deer",
+        "imgsrc": "/images/illustrate/thumbs/25.png",
+        "moral": "Vriendelijkheid inspireert vriendelijkheid.",
+        "origin": "Jataka-verhalen",
+        "summary": "Een hertenkoning redt een hinde en verdient het respect van de koning.",
+        "themes": [
+          "Mededogen"
+        ]
+      },
+      {
+        "title": "De vliegende olifant",
+        "characters": [
+          "Olifant",
+          "Salie"
+        ],
+        "id": 26,
+        "imgalt": "The Flying Elephant",
+        "imgsrc": "/images/illustrate/thumbs/26.png",
+        "moral": "Wees bescheiden.",
+        "origin": "Indiase fantasie",
+        "summary": "Een olifant met vleugels verliest ze nadat hij zijn krachten heeft misbruikt.",
+        "themes": [
+          "Nederigheid"
+        ]
+      },
+      {
+        "title": "De pot van wijsheid",
+        "characters": [
+          "Jongen",
+          "Salie"
+        ],
+        "id": 27,
+        "imgalt": "The Pot of Wisdom",
+        "imgsrc": "/images/illustrate/thumbs/27.png",
+        "moral": "Wijsheid groeit als het wordt gedeeld.",
+        "origin": "Zuid-Indiaas verhaal",
+        "summary": "Een jongen leert dat niemand alle wijsheid alleen kan houden.",
+        "themes": [
+          "Leren"
+        ]
+      },
+      {
+        "title": "De magische vis",
+        "characters": [
+          "Visser",
+          "Magische vis"
+        ],
+        "id": 28,
+        "imgalt": "The Magic Fish",
+        "imgsrc": "/images/illustrate/thumbs/28.png",
+        "moral": "Dankbaarheid is belangrijk.",
+        "origin": "Volksverhaal uit de Indische Oceaan",
+        "summary": "Een visser vangt een magische vis die hulp biedt in ruil voor vrijheid.",
+        "themes": [
+          "Dankbaarheid",
+          "Magie"
+        ]
+      },
+      {
+        "title": "De kokosnoot en de mier",
+        "characters": [
+          "Mieren",
+          "Kokosnoot"
+        ],
+        "id": 29,
+        "imgalt": "The Coconut and the Ant",
+        "imgsrc": "/images/illustrate/thumbs/29.png",
+        "moral": "Zelfs de kleinste inspanning doet ertoe.",
+        "origin": "Dorpsverhaal",
+        "summary": "Mieren helpen samen een kokosnoot de zee te bereiken.",
+        "themes": [
+          "Teamwerk"
+        ]
+      },
+      {
+        "title": "De tijger en de houthakker",
+        "characters": [
+          "Tijger",
+          "Houthakker"
+        ],
+        "id": 30,
+        "imgalt": "The Tiger and the Woodcutter",
+        "imgsrc": "/images/illustrate/thumbs/30.png",
+        "moral": "Help anderen en je zult geholpen worden.",
+        "origin": "Indiaas jungleverhaal",
+        "summary": "Een houthakker bevrijdt een gevangen tijger die op verrassende wijze zijn leven spaart.",
+        "themes": [
+          "Mededogen",
+          "Moed"
+        ]
+      },
+      {
+        "title": "De twee katten en de aap",
+        "characters": [
+          "Katten",
+          "Aap"
+        ],
+        "id": 31,
+        "imgalt": "The Two Cats and the Monkey",
+        "imgsrc": "/images/illustrate/thumbs/31.png",
+        "moral": "Laat anderen uw ruzies niet beslechten.",
+        "origin": "Panchatantra",
+        "summary": "Een aap eet het brood terwijl hij doet alsof hij het eerlijk verdeelt over twee katten.",
+        "themes": [
+          "Justitie",
+          "Dwaasheid"
+        ]
+      },
+      {
+        "title": "De mus en de zee",
+        "characters": [
+          "Mus",
+          "Zee",
+          "Rama"
+        ],
+        "id": 32,
+        "imgalt": "The Sparrow and the Sea",
+        "imgsrc": "/images/illustrate/thumbs/32.png",
+        "moral": "Vastberadenheid verzet bergen.",
+        "origin": "Rama-verhaal",
+        "summary": "Een mus bedreigt de zee als ze haar eieren pakt, wat Heer Rama inspireert.",
+        "themes": [
+          "Vastberadenheid"
+        ]
+      },
+      {
+        "title": "De jongen die tijger huilde",
+        "characters": [
+          "Jongen",
+          "Dorpelingen",
+          "Tijger"
+        ],
+        "id": 33,
+        "imgalt": "The Boy Who Cried Tiger",
+        "imgsrc": "/images/illustrate/thumbs/33.png",
+        "moral": "Lieg nooit.",
+        "origin": "Indiase aanpassing",
+        "summary": "Een jongen houdt dorpelingen voor de gek, maar lijdt als er echt een tijger verschijnt.",
+        "themes": [
+          "Eerlijkheid"
+        ]
+      },
+      {
+        "title": "De magische Banyanboom",
+        "characters": [
+          "Boom",
+          "Reiziger"
+        ],
+        "id": 34,
+        "imgalt": "The Magic Banyan Tree",
+        "imgsrc": "/images/illustrate/thumbs/34.png",
+        "moral": "Vrijgevigheid brengt geluk.",
+        "origin": "Volksverhaal",
+        "summary": "Een boom geeft fruit, schaduw en gouden munten aan een vriendelijke reiziger.",
+        "themes": [
+          "Vriendelijkheid"
+        ]
+      },
+      {
+        "title": "De nieuwsgierige pauw",
+        "characters": [
+          "Pauw",
+          "Nachtegaal"
+        ],
+        "id": 35,
+        "imgalt": "The Curious Peacock",
+        "imgsrc": "/images/illustrate/thumbs/35.png",
+        "moral": "Wees blij met je sterke punten.",
+        "origin": "Indiaas dierenverhaal",
+        "summary": "Een pauw wil de stem van een nachtegaal, maar ontdekt dat schoonheid zijn eigen charme heeft.",
+        "themes": [
+          "Eigenliefde"
+        ]
+      },
+      {
+        "title": "De slimme wever",
+        "characters": [
+          "Wever",
+          "Geest"
+        ],
+        "id": 36,
+        "imgalt": "The Clever Weaver",
+        "imgsrc": "/images/illustrate/thumbs/36.png",
+        "moral": "Slim werken wint.",
+        "origin": "Zuid-India",
+        "summary": "Een wever houdt een geest voor de gek en wordt rijk.",
+        "themes": [
+          "Moed",
+          "Wijsheid"
+        ]
+      },
+      {
+        "title": "De vruchten van hard werken",
+        "characters": [
+          "Broers"
+        ],
+        "id": 37,
+        "imgalt": "The Fruits of Hard Work",
+        "imgsrc": "/images/illustrate/thumbs/37.png",
+        "moral": "Hard werken loont altijd.",
+        "origin": "Indiaas dorp",
+        "summary": "Twee broers leren dat inspanning belangrijker is dan geluk.",
+        "themes": [
+          "Hard werken"
+        ]
+      },
+      {
+        "title": "De kleine trommel",
+        "characters": [
+          "Jongen"
+        ],
+        "id": 38,
+        "imgalt": "The Little Drum",
+        "imgsrc": "/images/illustrate/thumbs/38.png",
+        "moral": "Goede daden vermenigvuldigen zich.",
+        "origin": "Noord-India",
+        "summary": "Een jongen krijgt een trommel cadeau die hem overal geluk brengt.",
+        "themes": [
+          "Vriendelijkheid"
+        ]
+      },
+      {
+        "title": "De ezel en de tijgerhuid",
+        "characters": [
+          "Ezel",
+          "Boer"
+        ],
+        "id": 39,
+        "imgalt": "The Donkey and the Tiger Skin",
+        "imgsrc": "/images/illustrate/thumbs/39.png",
+        "moral": "Doen alsof je iemand anders bent, leidt tot problemen.",
+        "origin": "Panchatantra",
+        "summary": "Een ezel draagt een tijgervel, maar verpest alles door te balken.",
+        "themes": [
+          "Identiteit"
+        ]
+      },
+      {
+        "title": "De verborgen schat",
+        "characters": [
+          "Vader",
+          "Zonen"
+        ],
+        "id": 40,
+        "imgalt": "The Hidden Treasure",
+        "imgsrc": "/images/illustrate/thumbs/40.png",
+        "moral": "Het werk zelf is een schat.",
+        "origin": "Indiaas dorpsverhaal",
+        "summary": "Een vader verleidt zijn zonen tot landbouw door hen te vertellen dat er schatten in het veld begraven liggen.",
+        "themes": [
+          "Hard werken"
+        ]
+      },
+      {
+        "title": "De dappere papegaai",
+        "characters": [
+          "Papegaai",
+          "God"
+        ],
+        "id": 41,
+        "imgalt": "The Brave Parrot",
+        "imgsrc": "/images/illustrate/thumbs/41.png",
+        "moral": "Moed helpt anderen.",
+        "origin": "Jataka-verhalen",
+        "summary": "Een papegaai probeert een brandend bos te redden en inspireert de goden.",
+        "themes": [
+          "Moed"
+        ]
+      },
+      {
+        "title": "De jongen en de trommel",
+        "characters": [
+          "Jongen"
+        ],
+        "id": 42,
+        "imgalt": "The Boy and the Drum",
+        "imgsrc": "/images/illustrate/thumbs/42.png",
+        "moral": "Kleine geschenken kunnen een groot verschil maken.",
+        "origin": "Indiaas volksverhaal",
+        "summary": "Een jongen gebruikt een trommel om geluk te verspreiden.",
+        "themes": [
+          "Vriendelijkheid"
+        ]
+      },
+      {
+        "title": "De muizenhandelaar",
+        "characters": [
+          "Koopman"
+        ],
+        "id": 43,
+        "imgalt": "The Mouse Merchant",
+        "imgsrc": "/images/illustrate/thumbs/43.png",
+        "moral": "Fortuin is voorstander van moed.",
+        "origin": "Panchatantra",
+        "summary": "Een man wordt rijk door te beginnen met een enkele muis.",
+        "themes": [
+          "Moed"
+        ]
+      },
+      {
+        "title": "De Sprekende Grot",
+        "characters": [
+          "Leeuw",
+          "Jakhals"
+        ],
+        "id": 44,
+        "imgalt": "The Talking Cave",
+        "imgsrc": "/images/illustrate/thumbs/44.png",
+        "moral": "Overdenken leidt tot problemen.",
+        "origin": "Panchatantra",
+        "summary": "Een leeuw verstopt zich in een grot en een slimme jakhals vermijdt gevaar.",
+        "themes": [
+          "Let op"
+        ]
+      },
+      {
+        "title": "De hebzuchtige kapper",
+        "characters": [
+          "Kapper"
+        ],
+        "id": 45,
+        "imgalt": "The Greedy Barber",
+        "imgsrc": "/images/illustrate/thumbs/45.png",
+        "moral": "Hebzucht vernietigt wijsheid.",
+        "origin": "Indië",
+        "summary": "Een kapper verliest al zijn rijkdom door hebzucht.",
+        "themes": [
+          "Hebzucht"
+        ]
+      },
+      {
+        "title": "De droom van het melkmeisje",
+        "characters": [
+          "Melkmeisje"
+        ],
+        "id": 46,
+        "imgalt": "The Milkmaid’s Dream",
+        "imgsrc": "/images/illustrate/thumbs/46.png",
+        "moral": "Tel uw kippen niet voordat ze uitkomen.",
+        "origin": "Indië",
+        "summary": "Een melkmeisje droomt van rijkdom en morst haar melk.",
+        "themes": [
+          "Plannen"
+        ]
+      },
+      {
+        "title": "De magische mus",
+        "characters": [
+          "Mus",
+          "Boer"
+        ],
+        "id": 47,
+        "imgalt": "The Magical Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/47.png",
+        "moral": "Hulp brengt beloning.",
+        "origin": "Indiaas dorp",
+        "summary": "Een mus helpt een boer en zijn gewassen op magische wijze groeien.",
+        "themes": [
+          "Magie",
+          "Vriendelijkheid"
+        ]
+      },
+      {
+        "title": "De wijze oude olifant",
+        "characters": [
+          "Olifant"
+        ],
+        "id": 48,
+        "imgalt": "The Wise Old Elephant",
+        "imgsrc": "/images/illustrate/thumbs/48.png",
+        "moral": "Leeftijd brengt wijsheid.",
+        "origin": "Indiaas jungleverhaal",
+        "summary": "Een oudere olifant begeleidt zijn kudde in veiligheid tijdens droogte.",
+        "themes": [
+          "Wijsheid"
+        ]
+      },
+      {
+        "title": "De Lotus en de Kikker",
+        "characters": [
+          "Kikker",
+          "Lotus"
+        ],
+        "id": 49,
+        "imgalt": "The Lotus and the Frog",
+        "imgsrc": "/images/illustrate/thumbs/49.png",
+        "moral": "Geduld is krachtig.",
+        "origin": "Indian River-verhaal",
+        "summary": "Een lotus leert een rusteloze kikker om te vertragen.",
+        "themes": [
+          "Geduld"
+        ]
+      },
+      {
+        "title": "De koning die te veel snoep at",
+        "characters": [
+          "Koning",
+          "Koninklijke kok"
+        ],
+        "id": 50,
+        "imgalt": "The King Who Ate Too Many Sweets",
+        "imgsrc": "/images/illustrate/thumbs/50.png",
+        "moral": "Matiging is belangrijk.",
+        "origin": "Verhaal over het Indiase paleis",
+        "summary": "Een koning eet te veel snoep en leert zijn verlangens onder controle te houden.",
+        "themes": [
+          "Gezondheid",
+          "Discipline"
+        ]
+      }
+    ]
+  }
+}

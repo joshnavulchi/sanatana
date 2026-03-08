@@ -1,0 +1,464 @@
+{
+  "sharable_strings": {
+    "banner_notifications": {
+      "title": "यदि तपाइँ हाम्रो काम उपयोगी पाउनुभयो भने, यो वेब पृष्ठ राख्नको लागि हामीलाई समर्थन गर्ने विचार गर्नुहोस्",
+      "links": {
+        "alive": "/donate"
+      },
+      "subtitle": "र हामीलाई सानो दान गरेर बढ्न मद्दत गर्नुहोस् ।"
+    },
+    "banner_notifications2": {
+      "title": "उज्ज्वल भविष्यको लागि सनातन धर्मको जराको रक्षा गर्दै।",
+      "subtitle": "कालातीत वैदिक ज्ञान मार्फत भावी पुस्तालाई सशक्त बनाउने।"
+    },
+    "cookieconsent": {
+      "acceptall": "सबै स्वीकार गर्नुहोस्",
+      "cookiepolicy": "कुकी नीति",
+      "managerbutton": "कुकी प्राथमिकता प्रबन्धक",
+      "paragraph": "हामी आगन्तुकहरू ट्र्याक गर्न, विज्ञापनहरू, विज्ञापन अभियान प्रभावकारिता र साइट ट्राफिक विश्लेषण गर्न कुकीहरू प्रयोग गर्छौं। हामी तेस्रो पक्षहरूसँग हाम्रो साइटको तपाईंको प्रयोगको बारेमा जानकारी पनि साझा गर्न सक्छौं। थप जानकारीको लागि, हाम्रो {cookiePolicyLink} र {privacyPolicyLink} हेर्नुहोस्। \"{managerLabel}\" मा क्लिक गरेर तपाईले निश्चित कुकी कोटिहरू मात्र सक्षम गर्न रोज्न सक्नुहुन्छ। \"{acceptAllLabel}\" मा क्लिक गरेर तपाईं आफ्नो यन्त्रमा सबै कुकीहरू भण्डारण गर्न सहमत हुनुहुन्छ। यदि तपाईंले यी विकल्पहरू मध्ये कुनै एक रोज्नुभएन र हाम्रो वेबसाइट प्रयोग गर्नुभएन भने हामी यसलाई तपाईंले सबै कुकीहरू स्वीकार गर्नुभएको जस्तो व्यवहार गर्नेछौं।",
+      "privacypolicy": "गोपनीयता नीति"
+    },
+    "cookiepolicy": {
+      "title": "कुकी नीति",
+      "datasharing": "डाटा साझेदारी",
+      "datasharingdesc": "हामी विश्लेषण र विज्ञापनको लागि तेस्रो पक्षहरूसँग एकत्रित जानकारी साझा गर्न सक्छौं। पूर्वनिर्धारित रूपमा कुनै पनि संवेदनशील व्यक्तिगत डेटा साझेदारी गरिएको छैन।",
+      "intro": "यो कुकी नीतिले हामी कसरी हाम्रो वेबसाइटमा कुकीहरू र यस्तै प्रविधिहरू प्रयोग गर्छौं भनेर बताउँछ।",
+      "lastupdated": "पछिल्लो पटक अद्यावधिक गरिएको: {date}",
+      "managing": "आफ्नो प्राथमिकताहरू प्रबन्ध गर्नुहोस्",
+      "managingdesc": "कोटिहरू सक्षम वा असक्षम गर्न ब्यानरबाट कुकी प्राथमिकता प्रबन्धक खोल्नुहोस्। यदि तपाइँ सबै कुकीहरू स्वीकार गर्नुहुन्छ भने, हामी तपाइँका छनौटहरू भण्डार गर्नेछौं र भ्रमणहरूमा लागू गर्नेछौं।",
+      "types": {
+        "functionality": "कार्यक्षमता: छनौट र प्राथमिकताहरू सम्झनुहोस्।",
+        "performance": "प्रदर्शन: हामीलाई ट्राफिक र कार्यसम्पादन विश्लेषण गर्न मद्दत गर्नुहोस्।",
+        "strictlynecessary": "कडा रूपमा आवश्यक: साइट कार्य गर्न को लागी आवश्यक छ।",
+        "targeting": "लक्ष्यीकरण: विज्ञापन र निजीकरणको लागि प्रयोग गरिन्छ।"
+      },
+      "typesheading": "हामीले प्रयोग गर्ने कुकीहरूका प्रकारहरू",
+      "whatarecookies": "कुकीहरू के हुन्?"
+    },
+    "footer": {
+      "title": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत । अभ्युत्थानमधर्मस्य तदात्मानं सृजाम् यहम् ॥",
+      "contact": "हामीलाई सम्पर्क गर्नुहोस्",
+      "contentchange": "सामग्री अपूर्ण वा परिवर्तनको विषय हुन सक्छ।",
+      "copyright": "Vulchi विजय कुमार राजु © 2025।",
+      "disclaimer": "अस्वीकरण: यो वेबसाइट हाल विकासमा छ।",
+      "donate": "दान गर्नुहोस्",
+      "scriptures": {
+        "title": "धर्मशास्त्र",
+        "nav": {
+          "bhagavadgita": "भगवतगीता",
+          "mahabharata": "महाभारत",
+          "ramayana": "रामायण"
+        }
+      },
+      "stories": {
+        "title": "कथाहरू",
+        "nav": {
+          "shiva": "भगवान शिव",
+          "vishnu": "भगवान विष्णु",
+          "krishna": "भगवान कृष्ण"
+        }
+      },
+      "philosophy": {
+        "title": "दर्शन",
+        "nav": {
+          "dharma": "धर्म",
+          "karma": "कर्म",
+          "moksha": "मोक्ष"
+        }
+      },
+      "kidszone": {
+        "title": "बालबालिका क्षेत्र",
+        "nav": {
+          "illustratedstories": "चित्रित कथाहरू",
+          "mythologicalquizzes": "पौराणिक क्विजहरू"
+        }
+      },
+      "others": {
+        "title": "सनातन धर्मम",
+        "nav": {
+          "religion-conversion": "धर्म परिवर्तन",
+          "jyotirlings": "ज्योतिर्लिंग",
+          "rivers-connecting": "नदीहरू जडान"
+        }
+      },
+      "privacy": "गोपनीयता नीति",
+      "quote": "जब जब धार्मिकता घट्छ र अधर्म बढ्छ, म आफैं प्रकट हुन्छु। धर्मीहरूको रक्षा गर्न, दुष्टको नाश गर्न र धर्मका सिद्धान्तहरूको पुनर्स्थापना गर्न, म सहस्राब्दी पछि प्रकट हुन्छु।",
+      "quotesource": "(भगवत गीता ४.७)",
+      "terms": "सेवाका सर्तहरू"
+    },
+    "header": {
+      "scriptures": {
+        "title": "धर्मशास्त्र",
+        "nav": {
+          "bhagavadgita": "भगवतगीता",
+          "mahabharata": "महाभारत",
+          "ramayana": "रामायण",
+          "sanksheparamayanam": "सङ्क्षेपा रामायण"
+        }
+      },
+      "philosophy": {
+        "title": "दर्शन",
+        "nav": {
+          "dharma": "धर्म",
+          "karma": "कर्म",
+          "moksha": "मोक्ष",
+          "samsara": "संसार"
+        }
+      },
+      "kidszone": {
+        "title": "बालबालिका क्षेत्र",
+        "nav": {
+          "illustratedstories": "चित्रित कथाहरू",
+          "mythologicalquizzes": "पौराणिक क्विजहरू"
+        }
+      },
+      "about": "बारे"
+    },
+    "policies": {
+      "cookiepolicy": {
+        "title": "कुकी नीति",
+        "datasharing": "डाटा साझेदारी",
+        "datasharingdesc": "हामी विश्लेषण र विज्ञापनको लागि तेस्रो पक्षहरूसँग एकत्रित जानकारी साझा गर्न सक्छौं। पूर्वनिर्धारित रूपमा कुनै पनि संवेदनशील व्यक्तिगत डेटा साझेदारी गरिएको छैन।",
+        "intro": "यो कुकी नीतिले हामी कसरी हाम्रो वेबसाइटमा कुकीहरू र यस्तै प्रविधिहरू प्रयोग गर्छौं भनेर बताउँछ।",
+        "lastupdated": "पछिल्लो पटक अद्यावधिक गरिएको: {date}",
+        "managing": "आफ्नो प्राथमिकताहरू प्रबन्ध गर्नुहोस्",
+        "managingdesc": "कोटिहरू सक्षम वा असक्षम गर्न ब्यानरबाट कुकी प्राथमिकता प्रबन्धक खोल्नुहोस्। यदि तपाइँ सबै कुकीहरू स्वीकार गर्नुहुन्छ भने, हामी तपाइँका छनौटहरू भण्डार गर्नेछौं र भ्रमणहरूमा लागू गर्नेछौं।",
+        "types": {
+          "functionality": "कार्यक्षमता: छनौट र प्राथमिकताहरू सम्झनुहोस्।",
+          "performance": "प्रदर्शन: हामीलाई ट्राफिक र कार्यसम्पादन विश्लेषण गर्न मद्दत गर्नुहोस्।",
+          "strictlynecessary": "कडा रूपमा आवश्यक: साइट कार्य गर्न को लागी आवश्यक छ।",
+          "targeting": "लक्ष्यीकरण: विज्ञापन र निजीकरणको लागि प्रयोग गरिन्छ।"
+        },
+        "typesheading": "हामीले प्रयोग गर्ने कुकीहरूका प्रकारहरू",
+        "whatarecookies": "कुकीहरू के हुन्?"
+      },
+      "privacypolicy": {
+        "title": "गोपनीयता नीति",
+        "howweuse": "हामी जानकारी कसरी प्रयोग गर्छौं",
+        "howweusedesc": "जानकारी सञ्चालन, मर्मत र वेबसाइट को सुविधाहरू प्रदान गर्न, र उपयोग ढाँचा विश्लेषण गर्न प्रयोग गरिन्छ।",
+        "informationdesc": "हामीले सेवामा सुधार गर्नको लागि तपाईंले उपलब्ध गराउनुभएको जानकारी, कुकीहरू, र बेनामी एनालिटिक्स डेटा सङ्कलन गर्छौं।",
+        "informationheading": "जानकारी हामीले सङ्कलन गर्छौं",
+        "intro": "यो गोपनीयता नीतिले हामीले तपाइँको व्यक्तिगत जानकारी कसरी सङ्कलन, प्रयोग र संरक्षण गर्छौं भनेर वर्णन गर्दछ।",
+        "lastupdated": "पछिल्लो पटक अद्यावधिक गरिएको: {date}",
+        "yourrights": "आफ्नो अधिकार",
+        "yourrightsdesc": "तपाईंले साइटमा हामीलाई सम्पर्क गरेर आफ्नो व्यक्तिगत डेटा पहुँच, सुधार वा मेटाउन अनुरोध गर्न सक्नुहुन्छ।"
+      }
+    },
+    "scrolltotop": {
+      "title": "शीर्षमा फर्कनुहोस्",
+      "arialabel": "शीर्षमा स्क्रोल गर्नुहोस्"
+    },
+    "sitetitle": "सनातन धर्म",
+    "similar_categories": {
+      "scriptures": {
+        "title": "धर्मशास्त्र",
+        "nav": {
+          "purans": "पुराण",
+          "upanishads": "उपनिषद",
+          "vedas": "वेद",
+          "ramayana": "Ramayana",
+          "bala_kanda": "Bala Kanda",
+          "ayodhya_kanda": "Ayodhya Kanda",
+          "aranya_kanda": "Aranya Kanda",
+          "kishkindha_kanda": "Kishkindha Kanda",
+          "sundara_kanda": "Sundara Kanda",
+          "yuddha_kanda": "Yuddha Kanda",
+          "uttara_kanda": "Uttara Kanda",
+          "mahabharata": "Mahabharata",
+          "adi_parva_the_book_of_beginnings": "Adi Parva The Book of Beginnings",
+          "sabha_parva_the_book_of_the_royal_assembly": "Sabha Parva The Book of the Royal Assembly",
+          "vana_parva_the_book_of_the_forest": "Vana Parva The Book of the Forest",
+          "virata_parva_the_book_of_virata": "Virata Parva The Book of Virata",
+          "udyoga_parva_the_book_of_effort_and_preparation": "Udyoga Parva The Book of Effort and Preparation",
+          "bhishma_parva_the_book_of_bhishma": "Bhishma Parva The Book of Bhishma",
+          "drona_parva_the_book_of_drona": "Drona Parva The Book of Drona",
+          "karna_parva_the_book_of_karna": "Karna Parva The Book of Karna",
+          "shalya_parva_the_book_of_shalya": "Shalya Parva The Book of Shalya",
+          "sauptika_parva_the_book_of_the_sleeping_warriors": "Sauptika Parva The Book of the Sleeping Warriors",
+          "stri_parva_the_book_of_the_women": "Stri Parva The Book of the Women",
+          "shanti_parva_the_book_of_peace": "Shanti Parva The Book of Peace",
+          "ashvamedhika_parva_the_book_of_the_horse_sacrifice": "Ashvamedhika Parva The Book of the Horse Sacrifice",
+          "ashramavasika_parva_the_book_of_the_hermitage": "Ashramavasika Parva The Book of the Hermitage",
+          "mausala_parva_the_book_of_the_clubs": "Mausala Parva The Book of the Clubs",
+          "mahaprasthanika_parva_the_book_of_the_great_journey": "Mahaprasthanika Parva The Book of the Great Journey",
+          "svargarohana_parva_the_book_of_the_ascent_to_heaven": "Svargarohana Parva The Book of the Ascent to Heaven",
+          "sanksheparamayanam": "Sankshepa Ramayanam",
+          "bhagavadgita": "Bhagavad Gita",
+          "bhagavadgita_part_1": "Bhagavad Gita Part 1",
+          "bhagavadgita_part_2": "Bhagavad Gita Part 2",
+          "bhagavadgita_part_3": "Bhagavad Gita Part 3",
+          "bhagavadgita_part_4": "Bhagavad Gita Part 4",
+          "bhagavadgita_part_5": "Bhagavad Gita Part 5",
+          "bhagavadgita_part_6": "Bhagavad Gita Part 6",
+          "bhagavadgita_part_7": "Bhagavad Gita Part 7",
+          "bhagavadgita_part_8": "Bhagavad Gita Part 8",
+          "bhagavadgita_part_9": "Bhagavad Gita Part 9",
+          "bhagavadgita_part_10": "Bhagavad Gita Part 10",
+          "bhagavadgita_part_11": "Bhagavad Gita Part 11",
+          "bhagavadgita_part_12": "Bhagavad Gita Part 12",
+          "bhagavadgita_part_13": "Bhagavad Gita Part 13",
+          "bhagavadgita_part_14": "Bhagavad Gita Part 14",
+          "bhagavadgita_part_15": "Bhagavad Gita Part 15",
+          "bhagavadgita_part_16": "Bhagavad Gita Part 16",
+          "bhagavadgita_part_17": "Bhagavad Gita Part 17",
+          "bhagavadgita_part_18": "Bhagavad Gita Part 18",
+          "bhagavadgita_part_19": "Bhagavad Gita Part 19",
+          "bhagavadgita_part_20": "Bhagavad Gita Part 20",
+          "bhagavadgita_part_21": "Bhagavad Gita Part 21",
+          "bhagavadgita_part_22": "Bhagavad Gita Part 22",
+          "bhagavadgita_part_23": "Bhagavad Gita Part 23",
+          "bhagavadgita_part_24": "Bhagavad Gita Part 24",
+          "bhagavadgita_part_25": "Bhagavad Gita Part 25",
+          "bhagavadgita_part_26": "Bhagavad Gita Part 26",
+          "bhagavadgita_part_27": "Bhagavad Gita Part 27",
+          "bhagavadgita_part_28": "Bhagavad Gita Part 28",
+          "bhagavadgita_part_29": "Bhagavad Gita Part 29",
+          "bhagavadgita_part_30": "Bhagavad Gita Part 30",
+          "bhagavadgita_part_31": "Bhagavad Gita Part 31",
+          "bhagavadgita_part_32": "Bhagavad Gita Part 32",
+          "bhagavadgita_part_33": "Bhagavad Gita Part 33",
+          "bhagavadgita_part_34": "Bhagavad Gita Part 34",
+          "bhagavadgita_part_35": "Bhagavad Gita Part 35",
+          "bhagavadgita_part_36": "Bhagavad Gita Part 36",
+          "bhagavadgita_part_37": "Bhagavad Gita Part 37"
+        }
+      },
+      "philosophy": {
+        "title": "दर्शन",
+        "nav": {
+          "advaita": "अद्वैत",
+          "purushartha": "पुरुषार्थ",
+          "samsara": "संसार",
+          "dharma": "धर्म",
+          "karma": "कर्म",
+          "moksha": "मोक्ष"
+        }
+      },
+      "practices": {
+        "title": "अभ्यासहरू",
+        "nav": {
+          "dailypoojas": "दैनिक पूजा",
+          "festivals": "चाडपर्वहरू",
+          "rituals": "संस्कार",
+          "vastushastra": "वास्तुशास्त्र",
+          "yogasanas": "योग आसनहरू",
+          "meditation": "ध्यान",
+          "horoscope": "राशिफल"
+        }
+      },
+      "stories": {
+        "title": "केहि थप कथाहरू",
+        "nav": {
+          "adishankaracharya": "आदि शंकराचार्य",
+          "bhishma": "भीष्म",
+          "bramha": "ब्रह्मा",
+          "lakshmi": "देवी लक्ष्मी",
+          "parashurama": "परशुराम",
+          "parvathi": "पार्वती देवी",
+          "saraswati": "देवी सरस्वती",
+          "vasistamaharshi": "वसिष्ठ महर्षि",
+          "vishwamitra": "विश्वामित्र"
+        }
+      },
+      "stotras": {
+        "title": "स्तोत्र",
+        "nav": {
+          "ganesh": "गणेश",
+          "hanuman": "हनुमान",
+          "devi": "देवी",
+          "shiva": "शिव",
+          "vishnu": "विष्णु",
+          "dailyprayers": "दैनिक प्रार्थनाहरू"
+        }
+      },
+      "others": {
+        "title": "सनातन धर्मम्",
+        "nav": {
+          "cosmictime": "कोस्मिक टाइम्स",
+          "temples-destroyed": "मन्दिरहरू भत्किए",
+          "temples-in-india": "भारतमा मन्दिरहरू",
+          "world-transformation": "विश्व रूपान्तरण",
+          "historical-timeline": "ऐतिहासिक टाइमलाइन",
+          "sanatanadharma": "सनातन धर्मम्",
+          "shakti-peethas": "शक्तिपीठहरू",
+          "drip-irrigation-process": "Drip Irrigation Process"
+        }
+      }
+    },
+    "cosmic_time_structure": {
+      "mahayuga_total_years": 4320000,
+      "yugas": [
+        {
+          "name": "सत्ययुग",
+          "duration_years": 1728000,
+          "dharma_percentage": 100
+        },
+        {
+          "name": "त्रेतायुग",
+          "duration_years": 1296000,
+          "dharma_percentage": 75
+        },
+        {
+          "name": "द्वापर युग",
+          "duration_years": 864000,
+          "dharma_percentage": 50
+        },
+        {
+          "name": "कलियुग",
+          "duration_years": 432000,
+          "dharma_percentage": 25
+        }
+      ]
+    },
+    "dashavatara": [
+      {
+        "order": 1,
+        "name": "मत्स्य",
+        "type": "जलीय",
+        "yuga": "सत्ययुग",
+        "purpose": "वेद र मनुलाई ब्रह्माण्डीय बाढीबाट बचाउनुहोस्",
+        "primary_antagonist": "हयग्रीव (केही परम्पराहरूमा)",
+        "associated_texts": [
+          "भागवत पुराण",
+          "विष्णु पुराण"
+        ],
+        "symbolism": "जीवनको सुरुवात; ज्ञान को संरक्षण",
+        "evolutionary_symbolism": "जलीय जीवन चरण"
+      },
+      {
+        "order": 2,
+        "name": "कुर्मा",
+        "type": "उभयचर",
+        "yuga": "सत्ययुग",
+        "purpose": "समुद्र मन्थनाको समयमा माउन्ट मन्दारालाई समर्थन गर्नुहोस्",
+        "primary_event": "महासागर मन्थन",
+        "associated_texts": [
+          "भागवत पुराण",
+          "महाभारत"
+        ],
+        "symbolism": "स्थिरता र ब्रह्माण्ड समर्थन",
+        "evolutionary_symbolism": "उभयचर संक्रमण"
+      },
+      {
+        "order": 3,
+        "name": "वराह",
+        "type": "स्थलीय स्तनपायी",
+        "yuga": "सत्ययुग",
+        "purpose": "हिरण्यक्षबाट भूदेवी (पृथ्वी) को उद्धार",
+        "primary_antagonist": "हिरण्यक्ष",
+        "associated_texts": [
+          "विष्णु पुराण"
+        ],
+        "symbolism": "पृथ्वी र ब्रह्माण्ड क्रम को पुनर्स्थापना",
+        "evolutionary_symbolism": "भूमि पशु चरण"
+      },
+      {
+        "order": 4,
+        "name": "नरसिंह",
+        "type": "मनुष्य - सिंह",
+        "yuga": "सत्ययुग",
+        "purpose": "प्रह्लादको रक्षा गर र हिरण्यकशिपुको विनाश गर",
+        "primary_antagonist": "हिरण्यकशिपु",
+        "associated_texts": [
+          "भागवत पुराण"
+        ],
+        "symbolism": "तार्किक अवरोधहरू बाहिर ईश्वरीय हस्तक्षेप",
+        "evolutionary_symbolism": "जनावरबाट मानिसमा संक्रमण"
+      },
+      {
+        "order": 5,
+        "name": "वामन",
+        "type": "बौना ब्राह्मण",
+        "yuga": "त्रेतायुग",
+        "purpose": "राजा बालीलाई वशमा राख्नुहोस् र ब्रह्माण्डीय सन्तुलन पुनर्स्थापित गर्नुहोस्",
+        "primary_antagonist": "महाबली",
+        "associated_texts": [
+          "विष्णु पुराण"
+        ],
+        "symbolism": "नम्रता र दिव्य बुद्धि",
+        "evolutionary_symbolism": "बौद्धिक मानवको उदय"
+      },
+      {
+        "order": 6,
+        "name": "परशुराम",
+        "type": "योद्धा ऋषि",
+        "yuga": "त्रेतायुगको उत्तरार्ध",
+        "purpose": "भ्रष्ट क्षत्रिय शासकहरुलाई नष्ट गर",
+        "weapon": "परशु (बचरा)",
+        "associated_texts": [
+          "महाभारत",
+          "पुराण"
+        ],
+        "symbolism": "सामाजिक व्यवस्थाको पुनर्स्थापना",
+        "evolutionary_symbolism": "आदिम योद्धा समाज"
+      },
+      {
+        "order": 7,
+        "name": "रामा",
+        "type": "आदर्श राजा",
+        "yuga": "त्रेतायुग",
+        "purpose": "रावणलाई नष्ट गरेर धर्मी शासन स्थापना गर",
+        "primary_antagonist": "रावण",
+        "associated_texts": [
+          "रामायण"
+        ],
+        "symbolism": "धर्मको अवतार",
+        "evolutionary_symbolism": "सभ्य नैतिक राज्य"
+      },
+      {
+        "order": 8,
+        "name": "कृष्ण",
+        "type": "ईश्वरीय राज्यकर्ता",
+        "yuga": "द्वापर युग",
+        "purpose": "महाभारत युद्ध मार्फत मानवतालाई मार्गदर्शन गर्नुहोस्",
+        "primary_antagonist": "कौरव (सामूहिक अधर्म)",
+        "associated_texts": [
+          "महाभारत",
+          "भगवद् गीता"
+        ],
+        "symbolism": "दिव्य ज्ञान र भक्ति",
+        "evolutionary_symbolism": "उन्नत सामाजिक चेतना"
+      },
+      {
+        "order": 9,
+        "name": "बुद्ध",
+        "type": "प्रबुद्ध शिक्षक",
+        "yuga": "प्रारम्भिक कलियुग",
+        "purpose": "अनुष्ठान अतिरिक्त सुधार र करुणा प्रवर्द्धन",
+        "historical_identity": "सिद्धार्थ गौतम",
+        "associated_texts": [
+          "भागवत पुराण (वैष्णव व्याख्या)"
+        ],
+        "symbolism": "करुणा र आत्मनिरीक्षण",
+        "evolutionary_symbolism": "दार्शनिक जागरण"
+      },
+      {
+        "order": 10,
+        "name": "कल्कि",
+        "type": "भावी योद्धा",
+        "yuga": "कलियुगको अन्त्य",
+        "status": "भविष्य",
+        "purpose": "अधर्म नष्ट गर्नुहोस् र ब्रह्माण्ड चक्र रिसेट गर्नुहोस्",
+        "associated_texts": [
+          "विष्णु पुराण",
+          "भागवत पुराण"
+        ],
+        "symbolism": "चक्रीय नवीकरण",
+        "evolutionary_symbolism": "परिवर्तन र पुनर्जन्म"
+      }
+    ],
+    "interpretations": {
+      "theological_view": "अवतारहरू धर्मलाई पुनर्स्थापित गर्न प्रकट हुन्छन् जब यो घट्छ (भगवत गीता 4.7-8)।",
+      "symbolic_view": "चेतनाको आध्यात्मिक विकासको प्रतिनिधित्व गर्दछ।",
+      "comparative_mythology_view": "बाढी मिथक विश्वव्यापी परम्पराहरू समानान्तर छ।",
+      "cyclical_time_concept": "समय गैर-रेखीय र पुनरुत्पादक छ।",
+      "current_cycle": {
+        "current_yuga": "कलियुग",
+        "kali_yuga_started_bce": 3102,
+        "years_elapsed_in_kali_yuga_approx": 5100
+      },
+      "earth_age_comparison_note": "1 कल्प (4.32 बिलियन वर्ष) आश्चर्यजनक रूपमा पृथ्वीको आयु (~ 4.54 बिलियन वर्ष) को आधुनिक वैज्ञानिक अनुमानको नजिक छ।",
+      "scaling_comment": "यो गणितीय मापन सबै ब्रह्माण्ड स्तरहरूमा उच्च संरचित र समानुपातिक छ।"
+    }
+  }
+}

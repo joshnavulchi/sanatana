@@ -1,0 +1,328 @@
+{
+  "indian_constition": {
+    "title": "Конституция Индии",
+    "meta": {
+      "title": "Конституция Индии: историческая эволюция, процесс разработки и конституционная философия",
+      "canonical": "https://sanatanadharmam.in/indian-constition",
+      "description": "Всесторонний научный анализ Конституции Индии, ее исторической подоплеки, членов редакционного комитета, роли доктора Б. Р. Амбедкара, сроков, структуры, иностранных влияний и критической оценки.",
+      "keywords": [
+        "Amendment Process of Indian Constitution",
+        "Constituent Assembly",
+        "Constitution of India",
+        "Constitutional Amendments Cases in India",
+        "Constitutional Amendments in India",
+        "Constitutional Democracy Cases in India",
+        "Constitutional Democracy in India",
+        "Constitutional Development in India",
+        "Constitutional Duties in India",
+        "Constitutional Framework of India",
+        "Constitutional Governance Cases in India",
+        "Constitutional Governance in India",
+        "Constitutional Interpretation Cases in India",
+        "Constitutional Interpretation in India",
+        "Constitutional Justice Cases in India",
+        "Constitutional Justice in India",
+        "Constitutional Law Cases in India",
+        "Constitutional Law in India",
+        "Constitutional Morality Cases in India",
+        "Constitutional Morality in India",
+        "Constitutional Philosophy of Indian Constitution",
+        "Constitutional Principles Cases in India",
+        "Constitutional Principles in India",
+        "Constitutional Provisions Cases in India",
+        "Constitutional Provisions in India",
+        "Constitutional Republic Cases in India",
+        "Constitutional Republic in India",
+        "Constitutional Rights Cases in India",
+        "Constitutional Rights in India",
+        "Constitutional Values Cases in India",
+        "Constitutional Values in India",
+        "Critical Analysis of Indian Constitution",
+        "Directive Principles of State Policy",
+        "Dr. B. R. Ambedkar",
+        "Drafting Committee",
+        "Emergency Provisions in Indian Constitution",
+        "Evolution of Indian Constitution",
+        "Federal Structure of India",
+        "Foreign Influences on Indian Constitution",
+        "Fundamental Rights in India",
+        "Historical Background of Indian Constitution",
+        "Indian Constitution",
+        "Indian Independence Movement",
+        "Indian Political History",
+        "Preamble of Indian Constitution",
+        "Strengths and Criticisms of Indian Constitution",
+        "Timeline of Indian Constitution"
+      ],
+      "ogimage": "images/og/indian_constitution.png",
+      "url": "https://sanatanadharmam.in/indian-constition"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Организация",
+        "contactpoint": {
+          "@type": "Контактная точка",
+          "areaserved": "По всему миру",
+          "availablelanguage": [
+            "عربية",
+            "немецкий",
+            "Английский",
+            "испанский",
+            "Франсэ",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Нидерланды",
+            "Португальский",
+            "Русский",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Служба поддержки клиентов",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "О Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "overview": {
+      "adoptiondate": "26 ноября 1949 г.",
+      "amendmentsmoved": 2473,
+      "amendmentsproposed": 7653,
+      "enforcementdate": "26 января 1950 г.",
+      "originalarticles": 395,
+      "originalschedules": 8,
+      "totaldraftingtime": "2 года, 11 месяцев, 18 дней",
+      "totalsessions": 11,
+      "totalsittings": 165
+    },
+    "sections": [
+      {
+        "title": "Историческая справка (1858–1946 гг.)",
+        "content": {
+          "cabinetmissionplan1946": "Предложил сформировать Учредительное собрание и заложил основы для разработки конституции.",
+          "colonialcontext": "После восстания 1857 года управление перешло от Ост-Индской компании к британской короне в соответствии с Законом о правительстве Индии 1858 года. Эта централизованная имперская власть положила начало конституционному развитию в колониальной Индии.",
+          "globalinfluences": "Американский конституционализм, британские парламентские традиции, ирландские директивные принципы и послевоенная философия прав человека оказали влияние на индийских создателей.",
+          "governmentofindiaacts": {
+            "1858": "Передал власть Британской Короне.",
+            "1909": "Введены отдельные электораты в рамках реформ Морли-Минто.",
+            "1919": "Введена двоевластие в рамках реформ Монтегю-Челмсфорда.",
+            "1935": "Установлена ​​автономия провинций и проект федеральной структуры."
+          },
+          "nationalmovementinfluence": "Индийский национальный конгресс, основанный в 1885 году, постепенно трансформировался из умеренного реформаторского органа в массовое политическое движение, требующее самоуправления.",
+          "needforconstitution": "Индии требовалась суверенная, демократическая, республиканская структура, обеспечивающая права, федеральный баланс и социальную справедливость.",
+          "regulatingact1773": "Закон о регулировании 1773 года был первым парламентским вмешательством Великобритании, регулирующим деятельность Ост-Индской компании. Он ввел централизованное управление и заложил основы конституционного управления."
+        },
+        "id": "историческая справка"
+      },
+      {
+        "title": "Образование Учредительного собрания (1946 г.)",
+        "details": {
+          "electionmethod": "Непрямые выборы законодательными собраниями провинций в соответствии с Планом миссии Кабинета министров.",
+          "firstmeeting": "9 декабря 1946 г.",
+          "keyfigures": {
+            "constitutionaladvisor": "Б. Н. Рау",
+            "president": "Доктор Раджендра Прасад",
+            "vicepresident": "Х. К. Мукерджи"
+          },
+          "representationbreakdown": {
+            "britishindianprovinces": 292,
+            "chiefcommissionersprovinces": 4,
+            "princelystates": 93
+          },
+          "totalmembersafterpartition": 299,
+          "totalmembersinitial": 389
+        },
+        "id": "учредительное собрание"
+      },
+      {
+        "title": "Редакционный комитет (сформирован 29 августа 1947 г.)",
+        "chairman": "Доктор Б.Р. Амбедкар",
+        "id": "редакционная комиссия",
+        "members": [
+          {
+            "biography": "Юрист, экономист, социальный реформатор, главный создатель Конституции.",
+            "contributions": [
+              "Разработан проект структуры основных прав",
+              "Выступал за социальную справедливость и равенство",
+              "Структурированная федеральная система с сильным центром"
+            ],
+            "name": "Доктор Б.Р. Амбедкар",
+            "politicalbackground": "Лидер депрессивных классов, министр юстиции независимой Индии.",
+            "specialization": "Конституционное право, экономика, теория социальной справедливости"
+          },
+          {
+            "biography": "Государственный деятель и бывший премьер-министр Джамму и Кашмира.",
+            "contributions": [
+              "Разработаны положения о судебной власти",
+              "Участвовал в разработке федеральной структуры."
+            ],
+            "name": "Н. Гопаласвами Айянгар",
+            "politicalbackground": "Член Учредительного собрания и министр кабинета министров.",
+            "specialization": "Административное право, федеральное управление"
+          },
+          {
+            "biography": "Выдающийся юрист и генеральный прокурор Мадраса.",
+            "contributions": [
+              "Уточнена точность составления законопроектов",
+              "Внес вклад в дебаты о фундаментальных правах."
+            ],
+            "name": "Аллади Кришнасвами Айяр",
+            "politicalbackground": "Эксперт по конституционному праву.",
+            "specialization": "Конституционная интерпретация"
+          },
+          {
+            "biography": "Юрист, писатель и лидер националистов.",
+            "contributions": [
+              "Составление основных прав",
+              "Разработка директивных принципов"
+            ],
+            "name": "К. М. Мунши",
+            "politicalbackground": "Лидер Конгресса и культурный националист.",
+            "specialization": "Гражданские свободы, культурные права"
+          },
+          {
+            "biography": "Бывший премьер Ассама.",
+            "contributions": [
+              "Обсуждения гарантий меньшинств"
+            ],
+            "name": "Мохаммад Саадулла",
+            "politicalbackground": "Представитель Мусульманской лиги.",
+            "specialization": "Провинциальная автономия"
+          },
+          {
+            "biography": "Юрист; ушёл в отставку по состоянию здоровья.",
+            "name": "Б. Л. Миттер",
+            "replacement": "Н. Мадхава Рао",
+            "specialization": "Административное право"
+          },
+          {
+            "biography": "Известный юрист; умер во время составления проекта.",
+            "name": "Д. П. Хайтан",
+            "replacement": "Т. Т. Кришнамачари",
+            "specialization": "Коммерческое и конституционное право"
+          }
+        ]
+      },
+      {
+        "title": "Роль доктора Б. Р. Амбедкара",
+        "analysis": {
+          "architecttitlejustification": "Руководил процессом разработки, защищал положения по пунктам, интегрировал различные отчеты комитетов.",
+          "constitutionalphilosophy": "Социал-демократия, основанная на свободе, равенстве и братстве.",
+          "finalspeechsummary": "Предостерегал от поклонения героям, подчеркивал конституционную мораль и социал-демократию.",
+          "selectionreason": "Признан за юридические знания, представительство меньшинств и конституционный опыт.",
+          "views": {
+            "federalism": "Союз государств с сильным центром для сохранения единства.",
+            "fundamentalrights": "Необходим для обеспечения человеческого достоинства и защиты от государственных излишеств.",
+            "minoritysafeguards": "Механизмы политической и культурной защиты.",
+            "parliamentarydemocracy": "Подотчетный исполнительный орган, ответственный перед законодательным органом.",
+            "socialjustice": "Позитивные действия для зарегистрированных каст и отсталых классов."
+          }
+        },
+        "id": "роль амбедкара"
+      },
+      {
+        "title": "Хронологический график",
+        "events": [
+          {
+            "event": "Объявлен план миссии кабинета министров.",
+            "year": 1946
+          },
+          {
+            "date": "9 декабря 1946 г.",
+            "event": "Первое заседание Учредительного собрания."
+          },
+          {
+            "date": "15 августа 1947 г.",
+            "event": "Индия добилась независимости."
+          },
+          {
+            "date": "29 августа 1947 г.",
+            "event": "Создан Редакционный комитет."
+          },
+          {
+            "date": "февраль 1948 г.",
+            "event": "Опубликован первый проект Конституции."
+          },
+          {
+            "date": "26 ноября 1949 г.",
+            "event": "Конституция принята."
+          },
+          {
+            "date": "24 января 1950 г.",
+            "event": "Депутаты подписали Конституцию."
+          },
+          {
+            "date": "26 января 1950 г.",
+            "event": "Конституция вступила в силу."
+          }
+        ],
+        "id": "график времени"
+      },
+      {
+        "title": "Структура Конституции",
+        "components": {
+          "amendmentprocess": "Статья 368 предусматривает модель гибко-жесткой поправки.",
+          "directiveprinciples": "Часть IV представляет принципы социально-экономического управления.",
+          "emergencyprovisions": "Статьи 352, 356, 360.",
+          "federalstructure": "Списки союзов, штатов и параллельных списков.",
+          "fundamentalduties": "Добавлено 42-й поправкой (1976 г.).",
+          "fundamentalrights": "Часть III гарантирует гражданские и политические права, соблюдение которых осуществляется судами.",
+          "judiciary": "Интегрированная судебная система с Верховным судом на вершине.",
+          "parliamentarysystem": "Исполнительный директор подотчетен Лок Сабхе.",
+          "preamble": "Объявляет Индию суверенной, социалистической, светской, демократической республикой, обеспечивающей справедливость, свободу, равенство и братство."
+        },
+        "id": "структура"
+      },
+      {
+        "title": "Иностранные влияния",
+        "id": "иностранные влияния",
+        "influences": {
+          "australia": "Концепция параллельного списка.",
+          "canada": "Федеративная структура с сильным центром.",
+          "germany": "Чрезвычайные положения.",
+          "ireland": "Директивные принципы.",
+          "southafrica": "Процедуры внесения изменений.",
+          "uk": "Парламентская система, верховенство закона.",
+          "usa": "Основные права, судебный контроль.",
+          "ussr": "Основные обязанности (позже добавлено)."
+        }
+      },
+      {
+        "title": "Критический анализ",
+        "criticisms": [
+          "Продолжительность и сложность",
+          "Централизация власти",
+          "Частые поправки"
+        ],
+        "evolution": "Более 100 поправок изменили структуру управления, укрепив демократию и одновременно отреагировав на социально-политические вызовы.",
+        "id": "критический анализ",
+        "strengths": [
+          "Комплексная система прав",
+          "Баланс жесткости и гибкости",
+          "Независимая судебная власть",
+          "Сильная федеральная, но единая структура"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "keywords": [
+      "veda",
+      "upanishad",
+      "kena",
+      "katha",
+      "mundaka",
+      "mandukya",
+      "purana",
+      "bhagavata",
+      "garuda",
+      "ramayana",
+      "mahabharata"
+    ]
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "indian_constition": {
+    "title": "La Constitution de l'Inde",
+    "meta": {
+      "title": "La Constitution de l'Inde : évolution historique, processus de rédaction et philosophie constitutionnelle",
+      "canonical": "https://sanatanadharmam.in/indian-constition",
+      "description": "Une analyse scientifique complète de la Constitution de l'Inde, de son contexte historique, des membres du comité de rédaction, du rôle du Dr B. R. Ambedkar, de sa chronologie, de sa structure, des influences étrangères et de son évaluation critique.",
+      "keywords": [
+        "Amendment Process of Indian Constitution",
+        "Constituent Assembly",
+        "Constitution of India",
+        "Constitutional Amendments Cases in India",
+        "Constitutional Amendments in India",
+        "Constitutional Democracy Cases in India",
+        "Constitutional Democracy in India",
+        "Constitutional Development in India",
+        "Constitutional Duties in India",
+        "Constitutional Framework of India",
+        "Constitutional Governance Cases in India",
+        "Constitutional Governance in India",
+        "Constitutional Interpretation Cases in India",
+        "Constitutional Interpretation in India",
+        "Constitutional Justice Cases in India",
+        "Constitutional Justice in India",
+        "Constitutional Law Cases in India",
+        "Constitutional Law in India",
+        "Constitutional Morality Cases in India",
+        "Constitutional Morality in India",
+        "Constitutional Philosophy of Indian Constitution",
+        "Constitutional Principles Cases in India",
+        "Constitutional Principles in India",
+        "Constitutional Provisions Cases in India",
+        "Constitutional Provisions in India",
+        "Constitutional Republic Cases in India",
+        "Constitutional Republic in India",
+        "Constitutional Rights Cases in India",
+        "Constitutional Rights in India",
+        "Constitutional Values Cases in India",
+        "Constitutional Values in India",
+        "Critical Analysis of Indian Constitution",
+        "Directive Principles of State Policy",
+        "Dr. B. R. Ambedkar",
+        "Drafting Committee",
+        "Emergency Provisions in Indian Constitution",
+        "Evolution of Indian Constitution",
+        "Federal Structure of India",
+        "Foreign Influences on Indian Constitution",
+        "Fundamental Rights in India",
+        "Historical Background of Indian Constitution",
+        "Indian Constitution",
+        "Indian Independence Movement",
+        "Indian Political History",
+        "Preamble of Indian Constitution",
+        "Strengths and Criticisms of Indian Constitution",
+        "Timeline of Indian Constitution"
+      ],
+      "ogimage": "images/og/indian_constitution.png",
+      "url": "https://sanatanadharmam.in/indian-constition"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organisation",
+        "contactpoint": {
+          "@type": "Point de contact",
+          "areaserved": "Dans le monde entier",
+          "availablelanguage": [
+            "العربية",
+            "Allemand",
+            "Anglais",
+            "espagnol",
+            "Français",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Pays-Bas",
+            "Portugais",
+            "russe",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Service client",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "À propos de Sanatanadharman.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "overview": {
+      "adoptiondate": "26 novembre 1949",
+      "amendmentsmoved": 2473,
+      "amendmentsproposed": 7653,
+      "enforcementdate": "26 janvier 1950",
+      "originalarticles": 395,
+      "originalschedules": 8,
+      "totaldraftingtime": "2 ans, 11 mois, 18 jours",
+      "totalsessions": 11,
+      "totalsittings": 165
+    },
+    "sections": [
+      {
+        "title": "Contexte historique (1858-1946)",
+        "content": {
+          "cabinetmissionplan1946": "Création proposée d'une Assemblée constituante et cadre établi pour la rédaction de la Constitution.",
+          "colonialcontext": "À la suite de la révolte de 1857, la gouvernance est passée de la Compagnie des Indes orientales à la Couronne britannique en vertu de la loi sur le gouvernement indien de 1858. Cette loi centralisait l'autorité impériale et marquait le début des développements constitutionnels dans l'Inde coloniale.",
+          "globalinfluences": "Le constitutionnalisme américain, les traditions parlementaires britanniques, les principes directeurs irlandais et la philosophie des droits de l’homme d’après-guerre ont influencé les rédacteurs indiens.",
+          "governmentofindiaacts": {
+            "1858": "Autorité transférée à la Couronne britannique.",
+            "1909": "Introduit des électorats séparés sous les réformes Morley-Minto.",
+            "1919": "Dyarchie introduite sous les réformes Montagu-Chelmsford.",
+            "1935": "Établissement d’un plan d’autonomie provinciale et de structure fédérale."
+          },
+          "nationalmovementinfluence": "Le Congrès national indien, fondé en 1885, s'est progressivement transformé d'un organisme réformateur modéré en un mouvement politique de masse exigeant l'autonomie.",
+          "needforconstitution": "L’Inde avait besoin d’un cadre républicain souverain et démocratique garantissant les droits, l’équilibre fédéral et la justice sociale.",
+          "regulatingact1773": "La loi régulatrice de 1773 fut la première intervention parlementaire britannique visant à réglementer le régime de la Compagnie des Indes orientales. Il a introduit une administration centralisée et jeté les bases d’une gouvernance constitutionnelle."
+        },
+        "id": "contexte historique"
+      },
+      {
+        "title": "Formation de l'Assemblée constituante (1946)",
+        "details": {
+          "electionmethod": "Élection indirecte par les assemblées législatives provinciales dans le cadre du plan de mission du Cabinet.",
+          "firstmeeting": "9 décembre 1946",
+          "keyfigures": {
+            "constitutionaladvisor": "BN Rau",
+            "president": "Dr Rajendra Prasad",
+            "vicepresident": "H.C. Mukherjee"
+          },
+          "representationbreakdown": {
+            "britishindianprovinces": 292,
+            "chiefcommissionersprovinces": 4,
+            "princelystates": 93
+          },
+          "totalmembersafterpartition": 299,
+          "totalmembersinitial": 389
+        },
+        "id": "assemblée constituante"
+      },
+      {
+        "title": "Comité de rédaction (créé le 29 août 1947)",
+        "chairman": "Dr BR Ambedkar",
+        "id": "comité de rédaction",
+        "members": [
+          {
+            "biography": "Juriste, économiste, réformateur social, principal architecte de la Constitution.",
+            "contributions": [
+              "Projet de structure des droits fondamentaux",
+              "Défenseur de la justice sociale et de l’égalité",
+              "Système fédéral structuré avec un centre fort"
+            ],
+            "name": "Dr BR Ambedkar",
+            "politicalbackground": "Leader des classes déprimées, ministre de la Justice de l'Inde indépendante.",
+            "specialization": "Droit constitutionnel, économie, théorie de la justice sociale"
+          },
+          {
+            "biography": "Homme d'État et ancien Premier ministre du Jammu-et-Cachemire.",
+            "contributions": [
+              "Dispositions rédigées sur le pouvoir judiciaire",
+              "Contribution à la conception de la structure fédérale"
+            ],
+            "name": "N. Gopalaswami Ayyangar",
+            "politicalbackground": "Membre de l'Assemblée constituante et ministre du Cabinet.",
+            "specialization": "Droit administratif, gouvernance fédérale"
+          },
+          {
+            "biography": "Avocat distingué et avocat général de Madras.",
+            "contributions": [
+              "Précision rédactionnelle clarifiée",
+              "Contribution au débat sur les droits fondamentaux"
+            ],
+            "name": "Alladi Krishnaswamy Ayyar",
+            "politicalbackground": "Conseiller constitutionnel expert.",
+            "specialization": "Interprétation constitutionnelle"
+          },
+          {
+            "biography": "Avocat, écrivain et leader nationaliste.",
+            "contributions": [
+              "Rédaction des droits fondamentaux",
+              "Rédaction des principes directifs"
+            ],
+            "name": "KM Munshi",
+            "politicalbackground": "Leader du Congrès et nationaliste culturel.",
+            "specialization": "Libertés civiles, droits culturels"
+          },
+          {
+            "biography": "Ancien Premier ministre de l'Assam.",
+            "contributions": [
+              "Discussions sur les garanties des minorités"
+            ],
+            "name": "Mohammed Saadulla",
+            "politicalbackground": "Représentant de la Ligue musulmane.",
+            "specialization": "Autonomie provinciale"
+          },
+          {
+            "biography": "Juriste; a démissionné en raison de problèmes de santé.",
+            "name": "B. L. Mitter",
+            "replacement": "N. Madhava Rao",
+            "specialization": "Droit administratif"
+          },
+          {
+            "biography": "Avocat réputé; est décédé pendant la rédaction.",
+            "name": "D.P. Khaitan",
+            "replacement": "T.T. Krishnamahari",
+            "specialization": "Droit commercial et constitutionnel"
+          }
+        ]
+      },
+      {
+        "title": "Rôle du Dr B. R. Ambedkar",
+        "analysis": {
+          "architecttitlejustification": "Diriger le processus de rédaction, défendre les dispositions article par article, intégrer divers rapports de commissions.",
+          "constitutionalphilosophy": "Une social-démocratie fondée sur la liberté, l'égalité et la fraternité.",
+          "finalspeechsummary": "A mis en garde contre le culte des héros, a mis l'accent sur la moralité constitutionnelle et la social-démocratie.",
+          "selectionreason": "Reconnu pour ses études juridiques, sa représentation des minorités et son expertise constitutionnelle.",
+          "views": {
+            "federalism": "Union d'États avec un centre fort pour maintenir l'unité.",
+            "fundamentalrights": "Indispensable pour la dignité individuelle et la protection contre les excès de l’État.",
+            "minoritysafeguards": "Mécanismes de protection politique et culturelle.",
+            "parliamentarydemocracy": "Exécutif responsable devant le pouvoir législatif.",
+            "socialjustice": "Action positive pour les castes programmées et les classes arriérées."
+          }
+        },
+        "id": "rôle d'Ambedkar"
+      },
+      {
+        "title": "Chronologie chronologique",
+        "events": [
+          {
+            "event": "Annonce du plan de mission du Cabinet.",
+            "year": 1946
+          },
+          {
+            "date": "9 décembre 1946",
+            "event": "Première réunion de l'Assemblée constituante."
+          },
+          {
+            "date": "15 août 1947",
+            "event": "L'Inde a obtenu son indépendance."
+          },
+          {
+            "date": "29 août 1947",
+            "event": "Comité de rédaction formé."
+          },
+          {
+            "date": "Février 1948",
+            "event": "Publication du premier projet de Constitution."
+          },
+          {
+            "date": "26 novembre 1949",
+            "event": "Constitution adoptée."
+          },
+          {
+            "date": "24 janvier 1950",
+            "event": "Les membres ont signé la Constitution."
+          },
+          {
+            "date": "26 janvier 1950",
+            "event": "La Constitution est entrée en vigueur."
+          }
+        ],
+        "id": "chronologie"
+      },
+      {
+        "title": "Structure de la Constitution",
+        "components": {
+          "amendmentprocess": "L'article 368 prévoit un modèle de modification flexible-rigide.",
+          "directiveprinciples": "La partie IV présente les principes de gouvernance socio-économique.",
+          "emergencyprovisions": "Articles 352, 356, 360.",
+          "federalstructure": "Listes d’union, d’état et concurrentes.",
+          "fundamentalduties": "Ajouté par le 42e amendement (1976).",
+          "fundamentalrights": "La partie III garantit les droits civils et politiques exécutoires par les tribunaux.",
+          "judiciary": "Système judiciaire intégré avec Cour suprême au sommet.",
+          "parliamentarysystem": "Exécutif responsable devant Lok Sabha.",
+          "preamble": "Déclare l'Inde République souveraine, socialiste, laïque et démocratique garantissant la justice, la liberté, l'égalité et la fraternité."
+        },
+        "id": "structures"
+      },
+      {
+        "title": "Influences étrangères",
+        "id": "influences étrangères",
+        "influences": {
+          "australia": "Concept de liste simultanée.",
+          "canada": "Structure fédérale avec centre fort.",
+          "germany": "Dispositions d'urgence.",
+          "ireland": "Principes directifs.",
+          "southafrica": "Procédures de modification.",
+          "uk": "Système parlementaire, État de droit.",
+          "usa": "Droits fondamentaux, contrôle juridictionnel.",
+          "ussr": "Devoirs fondamentaux (ajout ultérieur)."
+        }
+      },
+      {
+        "title": "Analyse critique",
+        "criticisms": [
+          "Longueur et complexité",
+          "Centralisation du pouvoir",
+          "Modifications fréquentes"
+        ],
+        "evolution": "Plus de 100 amendements ont remodelé la gouvernance, renforçant la démocratie tout en répondant aux défis sociopolitiques.",
+        "id": "analyse-critique",
+        "strengths": [
+          "Cadre global des droits",
+          "Équilibre entre rigidité et flexibilité",
+          "Un pouvoir judiciaire indépendant",
+          "Structure fédérale forte mais unifiée"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "keywords": [
+      "veda",
+      "upanishad",
+      "kena",
+      "katha",
+      "mundaka",
+      "mandukya",
+      "purana",
+      "bhagavata",
+      "garuda",
+      "ramayana",
+      "mahabharata"
+    ]
+  }
+}

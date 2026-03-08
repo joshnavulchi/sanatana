@@ -1,0 +1,145 @@
+{
+  "philosophy_purushartha": {
+    "meta": {
+      "canonical": "https://sanatanadharmam.in/philosophy/purushartha",
+      "description": "Purusharthas — Philosophy — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Purusharthas. Explore practices, history, and guiding principles...",
+      "keywords": [
+        "artha",
+        "bhagavadgita purusharthas",
+        "desire fulfillment",
+        "dharma",
+        "ethical living",
+        "four goals of life",
+        "hindu philosophy",
+        "kama",
+        "manusmriti purusharthas",
+        "material prosperity",
+        "moksha",
+        "purusharthas",
+        "purusharthas concepts",
+        "purusharthas in modern life",
+        "purusharthas origin",
+        "purusharthas personal development",
+        "purusharthas principles",
+        "purusharthas q&a",
+        "purusharthas relation to other concepts",
+        "purusharthas relevance",
+        "purusharthas scriptural references",
+        "purusharthas society",
+        "purusharthas well-being",
+        "spiritual liberation"
+      ],
+      "ogimage": "/og/purusharthas-philosophy.png",
+      "title": "Purusharthas | Philosophy — Sanātana Dharma - Explore Sanatan Dharma",
+      "url": "https://sanatanadharmam.in/philosophy/purushartha"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "English",
+            "Español",
+            "Français",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Nederlands",
+            "Português",
+            "Русский",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "core_principles": [
+      "Balance between material and spiritual pursuits",
+      "Ethical framework for achieving goals",
+      "Progressive evolution from desire to liberation"
+    ],
+    "definition": "Purusharthas are the four fundamental goals of human life in Hindu philosophy, guiding individuals toward a balanced and meaningful existence.",
+    "four_goals": {
+      "artha": "Material prosperity, wealth, and resources for sustenance.",
+      "dharma": "Righteousness, moral duties, and ethical living.",
+      "kama": "Desires, pleasures, and emotional fulfillment.",
+      "moksha": "Liberation from the cycle of birth and death; spiritual freedom."
+    },
+    "key_scriptural_references": [
+      {
+        "quote_summary": "Perform duties without attachment to results for spiritual progress.",
+        "text": "Bhagavathgita"
+      },
+      {
+        "quote_summary": "Defines the role of Dharma in guiding Artha and Kama.",
+        "text": "Manusmriti"
+      }
+    ],
+    "modern_relevance": {
+      "personal_development": "Encourages holistic growth—ethical, material, emotional, and spiritual.",
+      "society": "Promotes harmony through balanced living.",
+      "well-being": "Integrates duty, wealth, pleasure, and liberation for a fulfilling life."
+    },
+    "origin": {
+      "meaning": "Derived from Sanskrit 'Purusha' (human being) and 'Artha' (purpose or goal).",
+      "roots": "Vedic and Dharmashastra teachings",
+      "texts": [
+        "Vedas",
+        "Upanishads",
+        "Manusmriti",
+        "Bhagavathgita"
+      ]
+    },
+    "relation_to_other_concepts": {
+      "dharma": "Acts as a guiding principle for Artha and Kama.",
+      "karma": "Actions in pursuit of these goals create karmic consequences.",
+      "moksha": "The ultimate goal beyond worldly pursuits."
+    },
+    "purushartha_qa": [
+      {
+        "question": "What are the Purusharthas?",
+        "answer": "The Purusharthas are the four fundamental aims of human life in Hindu philosophy: Dharma (righteousness), Artha (prosperity), Kama (desire), and Moksha (liberation). They provide a holistic framework for a balanced and meaningful life."
+      },
+      {
+        "question": "كيف يرتبط Purusharthas ببعضهم البعض؟",
+        "answer": "دارما توجه السعي وراء أرثا وكاما، مما يضمن البحث عن الثروة والرغبات بشكل أخلاقي. موكشا هو الهدف النهائي، الذي يتجاوز الثلاثة الأخرى. الأربعة مترابطة ويجب أن تكون متوازنة لتحقيق الإنجاز الحقيقي."
+      },
+      {
+        "question": "هل واحد Purushartha أكثر أهمية من الآخرين؟",
+        "answer": "في حين أن كل شيء مهم، يعتبر موكشا الهدف الأسمى. ومع ذلك، فإن إهمال الدارما، أو أرثا، أو كاما يمكن أن يؤدي إلى خلل في التوازن. والمثالي هو التوفيق بين الأربعة وفقًا لمرحلة حياة الفرد وطبيعته الشخصية."
+      },
+      {
+        "question": "ما مدى أهمية Purusharthas اليوم؟",
+        "answer": "أنها توفر التوجيه الخالدة للحياة الأخلاقية، وخلق الثروة المسؤولة، والعلاقات الصحية، والنمو الروحي. في الحياة الحديثة، يساعدون الأفراد على إيجاد الهدف والتوازن والسلام الداخلي."
+      },
+      {
+        "question": "ما الكتب المقدسة مناقشة Purusharthas؟",
+        "answer": "تناقش كل من الفيدا والأوبنشاد والمانوسمريتي والبهاغافاد غيتا البوروشارتاس، وتقدم رؤى فلسفية وعملية."
+      },
+      {
+        "question": "هل يمكن أن يتعارض Purusharthas مع بعضهم البعض؟",
+        "answer": "نعم، في بعض الأحيان قد تتعارض الرغبات (كاما) أو السعي وراء الثروة (آرثا) مع الدارما. في مثل هذه الحالات، يجب أن تكون للدارما الأسبقية، لأنها تدعم النظام الأخلاقي والاجتماعي."
+      },
+      {
+        "question": "كيف يدعم Purusharthas التقدم الروحي؟",
+        "answer": "من خلال الوفاء بالواجبات والرغبات الدنيوية بشكل أخلاقي، يصبح العقل نقيًا ومستعدًا للسعي وراء موكشا، التحرر النهائي."
+      },
+      {
+        "question": "هل Purusharthas فريدة من نوعها بالنسبة للهندوسية؟",
+        "answer": "في حين أن الإطار هو الأكثر تطورًا في الفلسفة الهندوسية، إلا أن أفكارًا مماثلة حول الموازنة بين الواجب والثروة والرغبة والحرية الروحية موجودة في تقاليد عالمية أخرى."
+      }
+    ]
+  }
+}

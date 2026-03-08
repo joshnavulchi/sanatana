@@ -1,0 +1,581 @@
+{
+  "historical_timeline": {
+    "title": "CE e BCE explicados: significado, conceito do ano zero, regras e exemplos",
+    "meta": {
+      "title": "CE e BCE explicados: significado, conceito do ano zero, regras e exemplos",
+      "canonical": "https://sanatanadharmam.in/historical-timeline",
+      "description": "Aprenda o significado de AEC e EC, por que não existe ano zero, como os cronogramas são contados e veja exemplos claros com um diagrama simples.",
+      "keywords": [
+        "BC/AD equivalence",
+        "BCE",
+        "CE",
+        "CE/BCE guide",
+        "CE/BCE transition",
+        "astronomical year numbering",
+        "calendar systems",
+        "century definitions",
+        "chronology rules",
+        "common mistakes in dating",
+        "cross-era calculations",
+        "dating conventions",
+        "dating historical events",
+        "historical chronology",
+        "historical dating",
+        "historical dating systems",
+        "historical events dating",
+        "historical timeline FAQ",
+        "historical timeline astronomy system",
+        "historical timeline calculation",
+        "historical timeline century rules",
+        "historical timeline diagram",
+        "historical timeline examples",
+        "historical timeline explanation",
+        "historical timeline history",
+        "historical timeline history system",
+        "historical timeline implications",
+        "historical timeline mistakes",
+        "historical timeline rules",
+        "historical timeline worked examples",
+        "historical timelines",
+        "historical timelines explained",
+        "historical year numbering",
+        "timeline calculation",
+        "year zero"
+      ],
+      "ogimage": "images/og/homhistoricl_timeline.png",
+      "url": "https://sanatanadharmam.in/historical-timeline"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organização",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Em todo o mundo",
+          "availablelanguage": [
+            "العربية",
+            "Alemão",
+            "Inglês",
+            "Espanhol",
+            "Francês",
+            "Adeus",
+            "日本語",
+            "Adeus",
+            "Holanda",
+            "Português",
+            "Russo",
+            "Mais",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Suporte ao Cliente",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sobre Sanatanadharm.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "academic": {
+      "title": "Compreendendo o sistema de datação CE e AEC: a ausência do ano zero e suas implicações históricas",
+      "abstract": "Este artigo esclarece o sistema da Era Comum (EC) e Antes da Era Comum (AEC), enfatizando a ausência histórica do ano zero, suas implicações matemáticas e cronológicas e diferenças em relação à numeração astronômica dos anos. Exemplos claros e cronogramas visuais apoiam um raciocínio histórico preciso.",
+      "articletype": "Estudo Educacional",
+      "author": {
+        "affiliation": "Sua instituição",
+        "department": "Seu departamento",
+        "email": "you@university.edu",
+        "name": "Seu nome",
+        "orcid": "0000-0000-0000-0000"
+      },
+      "citationtemplate": "[Autor]. (Ano). Compreendendo o sistema de datação CE e AEC: a ausência do ano zero e suas implicações históricas. Nome do periódico, volume (edição), páginas. https://doi.org/xx.xxxx/xxxx",
+      "conflictofinterest": "O autor declara não haver conflito de interesses.",
+      "dataavailability": "Nenhum conjunto de dados foi gerado ou analisado.",
+      "dates": {
+        "accepted": "AAAA-MM-DD",
+        "published": "AAAA-MM-DD",
+        "received": "AAAA-MM-DD"
+      },
+      "funding": "Sem financiamento específico.",
+      "keywords": [
+        "CE",
+        "AC",
+        "ano zero",
+        "cronologia",
+        "sistemas de calendário",
+        "Equivalência BC/AD",
+        "cálculo da linha do tempo"
+      ],
+      "license": "CC POR 4,0",
+      "shorttitle": "CE/AC e Ano Zero",
+      "subjectclassification": [
+        "História da cronometragem",
+        "Cronologia e estudos de calendário",
+        "Metodologia Histórica"
+      ]
+    },
+    "advaita_vedanta": {
+      "heading": "Advaita Vedanta e Adi Shankara (século VIII dC)",
+      "influence": "Advaita Vedanta influenciou profundamente a espiritualidade, a literatura e o diálogo inter-religioso indiano. Seus ensinamentos continuam a inspirar buscadores em todo o mundo.",
+      "key_concepts": [
+        "Brahman é a única realidade; o mundo é, em última análise, ilusório (maya).",
+        "Atman (Eu) não é diferente de Brahman.",
+        "A ignorância (avidya) causa escravidão; o conhecimento leva à libertação.",
+        "Enfatiza o estudo das escrituras, o raciocínio e a meditação."
+      ],
+      "summary": "Advaita Vedanta é uma importante escola de filosofia indiana que ensina o não-dualismo – a unidade essencial da alma individual (Atman) e a Realidade Suprema (Brahman). Adi Shankara (c. 788–820 dC) revitalizou Advaita, viajando pela Índia para debater, ensinar e estabelecer centros monásticos (mathas). Seus comentários sobre os Upanishads, o Bhagavad Gita e os Brahma Sutras permanecem fundamentais. Advaita enfatiza que a libertação (moksha) é alcançada através do conhecimento (jnana) do verdadeiro Eu, transcendendo todas as distinções.",
+      "timeline": [
+        {
+          "date": "c. 788 d.C.",
+          "event": "Nascimento de Adi Shankara",
+          "notes": "Nasceu em Kalady, Kerala, Índia."
+        },
+        {
+          "date": "c. 800–820 d.C.",
+          "event": "As viagens e debates de Shankara",
+          "notes": "Estabeleceu quatro mathas na Índia; espalhar a filosofia Advaita."
+        },
+        {
+          "date": "c. 800–820 d.C.",
+          "event": "Principais obras compostas",
+          "notes": "Comentários sobre Upanishads, Bhagavad Gita, Brahma Sutras."
+        }
+      ]
+    },
+    "astronom": "Astronômico",
+    "astronom_system": "Sistema de Astronomia:",
+    "century_rules": "Regras do Século:",
+    "china": {
+      "description": "Governantes notáveis ​​a.C. da China antiga",
+      "rulers": [
+        {
+          "name": "Qin Shi Huang",
+          "notes": "Primeiro Imperador da China",
+          "reign": "221–210 AC"
+        },
+        {
+          "name": "Imperador Gaozu de Han",
+          "notes": "Dinastia Han fundada",
+          "reign": "202–195 AC"
+        }
+      ]
+    },
+    "common_mistakes": "Erros comuns:",
+    "content": {
+      "intro": {
+        "summary": "CE (Era Comum) e AEC (Antes da Era Comum) são rótulos de data neutros que usam a mesma numeração de ano de AD e AC. Não existe ano zero na datação histórica; 1 AC transiciona diretamente para 1 DC."
+      },
+      "sections": [
+        {
+          "heading": "Definições: AC e CE",
+          "id": "definições",
+          "items": [
+            {
+              "countingdirection": "Para trás (números decrescentes à medida que você retrocede)",
+              "equivalentto": "AC (antes de Cristo)",
+              "examples": [
+                "3000 a.C.",
+                "500 a.C.",
+                "100 AC",
+                "2600 AC (Civilização do Vale do Indo)"
+              ],
+              "fullform": "Antes da Era Comum",
+              "term": "AC",
+              "timeperiod": "Antes do 1º ano"
+            },
+            {
+              "countingdirection": "Avançar (números ascendentes)",
+              "equivalentto": "AD (Anno Domini)",
+              "examples": [
+                "1 CE",
+                "610 dC (início do Islã)",
+                "1947 dC (Independência da Índia)",
+                "2026 dC"
+              ],
+              "fullform": "Era Comum",
+              "term": "CE",
+              "timeperiod": "Do 1º ano em diante"
+            }
+          ],
+          "notes": [
+            "A base do calendário é o sistema gregoriano proléptico em uso moderno.",
+            "A neutralidade cultural é a razão pela qual muitos educadores preferem a rotulagem CE/BCE."
+          ],
+          "summary": "AEC conta regressivamente antes do ano 1; CE conta progressivamente após o ano 1. A numeração corresponde a BC/AD; apenas os rótulos diferem."
+        },
+        {
+          "heading": "Definições: AC e CE",
+          "id": "definições",
+          "mapping": [
+            {
+              "new": "1 CE",
+              "old": "1 DC"
+            },
+            {
+              "new": "500 d.C.",
+              "old": "500 DC"
+            },
+            {
+              "new": "1 AC",
+              "old": "1 AC"
+            },
+            {
+              "new": "44 AC",
+              "old": "44 AC"
+            }
+          ],
+          "rules": [
+            "Os números dos anos são idênticos entre os sistemas.",
+            "As faixas de século também são idênticas; apenas os rótulos mudam."
+          ],
+          "summary": "AEC conta regressivamente antes do ano 1; CE conta progressivamente após o ano 1. A numeração corresponde a BC/AD; apenas os rótulos diferem."
+        },
+        {
+          "commonmistakes": [
+            "Inserindo um ano 0 ao calcular períodos.",
+            "Erros off-by-one através da fronteira BCE→CE."
+          ],
+          "exists": false,
+          "heading": "Definições: AC e CE",
+          "id": "definições",
+          "implications": [
+            "Os períodos de anos entre épocas devem levar em conta o zero ausente.",
+            "De 1 aC a 1 dC é igual a 1 ano, não a 2."
+          ],
+          "reason": [
+            "Os primeiros esquemas usavam algarismos romanos, que não tinham símbolo para zero.",
+            "O sistema foi formalizado antes que o zero fosse comum na matemática europeia."
+          ],
+          "sequenceexample": [
+            "3 AC",
+            "2 AC",
+            "1 AC",
+            "1 CE",
+            "2 d.C.",
+            "3 d.C."
+          ],
+          "summary": "AEC conta regressivamente antes do ano 1; CE conta progressivamente após o ano 1. A numeração corresponde a BC/AD; apenas os rótulos diferem.",
+          "transition": "1 AC → 1 DC (diretamente; sem ano 0)"
+        },
+        {
+          "astronomysystem": {
+            "label": "Numeração do ano astronômico",
+            "mapping": [
+              {
+                "astronomical": "Ano 0",
+                "historical": "1 AC"
+              },
+              {
+                "astronomical": "Ano -1",
+                "historical": "2 AC"
+              },
+              {
+                "astronomical": "Ano +1",
+                "historical": "1 CE"
+              }
+            ],
+            "usesyearzero": true
+          },
+          "heading": "Definições: AC e CE",
+          "historysystem": {
+            "examplemapping": {
+              "1 bce": "1 AC",
+              "1 ce": "1 CE"
+            },
+            "label": "AC/CE (ou AC/AD)",
+            "usesyearzero": false
+          },
+          "id": "definições",
+          "note": "Esta diferença explica discrepâncias ocasionais entre tabelas astronômicas e textos históricos.",
+          "summary": "AEC conta regressivamente antes do ano 1; CE conta progressivamente após o ano 1. A numeração corresponde a BC/AD; apenas os rótulos diferem."
+        },
+        {
+          "centuryrules": [
+            "Século I dC = 1–100 dC",
+            "Século I a.C. = 100-1 a.C.",
+            "Século 20 dC = 1901–2000 dC",
+            "Século 21 dC = 2001–2100 dC"
+          ],
+          "heading": "Definições: AC e CE",
+          "id": "definições",
+          "rules": [
+            "Somente dentro do CE: duração = endYear − startYear.",
+            "Somente dentro do BCE: duração = startBCE - endBCE.",
+            "Em AEC → CE: duração = (anos do início aC a 1 aC) + (anos de 1 dC ao final dC) + 1."
+          ],
+          "summary": "AEC conta regressivamente antes do ano 1; CE conta progressivamente após o ano 1. A numeração corresponde a BC/AD; apenas os rótulos diferem.",
+          "workedexamples": [
+            {
+              "explanation": "Transição direta sobre a fronteira sem ano zero.",
+              "label": "1 AC a 1 DC",
+              "years": 1
+            },
+            {
+              "explanation": "5→1 AC = 4 anos; mais 1 (para 1 AC→1 CE); mais 4 anos (1→5 CE) = 9.",
+              "label": "5 AC a 5 DC",
+              "years": 9
+            },
+            {
+              "explanation": "44→1 AC = 43; +1 (limite) = 44; +13 (1→14 CE) = 57.",
+              "label": "44 AC a 14 DC",
+              "years": 57
+            },
+            {
+              "explanation": "Mesma época: 1200 − 500 = 700 anos.",
+              "label": "500 dC a 1200 dC",
+              "years": 700
+            },
+            {
+              "explanation": "Dentro de AEC: 1000 − 500 = 500 anos.",
+              "label": "1000 AC a 500 AC",
+              "years": 500
+            }
+          ]
+        },
+        {
+          "examples": [
+            {
+              "label": "Civilização do Vale do Indo (fase madura)",
+              "year": "2600 a.C."
+            },
+            {
+              "label": "Vida de Gautama Buda (aprox.)",
+              "year": "Século VI a.C."
+            },
+            {
+              "label": "Período tradicional de Jesus de Nazaré",
+              "year": "~1 CE (virada da era)"
+            },
+            {
+              "label": "A primeira revelação do Profeta Muhammad",
+              "year": "610 d.C."
+            },
+            {
+              "label": "Independência Indiana",
+              "year": "1947 dC"
+            },
+            {
+              "label": "Ano de referência atual",
+              "year": "2026 dC"
+            }
+          ],
+          "heading": "Definições: AC e CE",
+          "id": "definições",
+          "note": "Aproximações de século (por exemplo, século 6 aC) indicam intervalos em vez de anos únicos.",
+          "summary": "AEC conta regressivamente antes do ano 1; CE conta progressivamente após o ano 1. A numeração corresponde a BC/AD; apenas os rótulos diferem."
+        }
+      ]
+    },
+    "counting_directio": "Direção de contagem:",
+    "description": "CE e BCE - O guia completo (com o ano zero esclarecido)",
+    "diagrams": {
+      "ascii": {
+        "art": "PASSADO PRESENTE\n←─────── AC ────────│────── CE ──────→\n 5 4 3 2 1 AC │ 1 2 3 4 5 DC\n                      (SEM ANO 0)",
+        "caption": "Transição de AC para CE sem ano zero."
+      },
+      "mermaid": {
+        "caption": "Linha do tempo Mermaid (renderização com um componente cliente Mermaid).",
+        "code": "linha do tempo\n  título BCE a CE (sem ano zero)\n  seção AC\n    5 AC: 5\n    4 AC: 4\n    3 AC: 3\n    2 AC: 2\n    1 AC: 1\n  seção Transição\n    Não Ano 0: marco\n  seção CE\n    1 CE: 1\n    2 CE: 2\n    3 CE: 3\n    4 CE: 4\n    5 CE: 5"
+      }
+    },
+    "duration": "Duração:",
+    "dynasty": "Dinastia:",
+    "egypt": {
+      "description": "Faraós egípcios selecionados do Novo Reino",
+      "rulers": [
+        {
+          "name": "Hatshepsut",
+          "reign": "1479–1458 AC"
+        },
+        {
+          "name": "Tutmés III",
+          "reign": "1479–1425 AC"
+        },
+        {
+          "name": "Akhenaton",
+          "reign": "1353–1336 AC"
+        },
+        {
+          "name": "Tutancâmon",
+          "reign": "1332–1323 AC"
+        },
+        {
+          "name": "Ramsés II",
+          "reign": "1279–1213 AC"
+        }
+      ]
+    },
+    "equivale": "Equivalente a:",
+    "examples": "Exemplos:",
+    "exists": "Existe:",
+    "faq": {
+      "heading": "Perguntas frequentes",
+      "qa": [
+        {
+          "a": "Sim. CE usa os mesmos números de ano que AD; é apenas um rótulo neutro.",
+          "q": "CE é o mesmo que AD?"
+        },
+        {
+          "a": "O nº 1 AC transita diretamente para 1 DC sem o ano 0.",
+          "q": "Existe um ano zero na história?"
+        },
+        {
+          "a": "A numeração do ano astronômico inclui o ano 0 (equivalente a 1 AEC, historicamente).",
+          "q": "Por que algumas tabelas mostram o ano 0?"
+        },
+        {
+          "a": "Não. Os séculos são mapeados de forma idêntica; apenas os rótulos diferem.",
+          "q": "CE/BCE mudam as definições de século?"
+        }
+      ]
+    },
+    "greece": {
+      "description": "Principais governantes gregos e macedônios",
+      "rulers": [
+        {
+          "name": "Péricles",
+          "notes": "Líder de Atenas",
+          "reign": "c. 461–429 AC"
+        },
+        {
+          "name": "Filipe II da Macedônia",
+          "reign": "359–336 AC"
+        },
+        {
+          "name": "Alexandre, o Grande",
+          "notes": "Criou um vasto império",
+          "reign": "336–323 AC"
+        }
+      ]
+    },
+    "historic": "Histórico",
+    "historic_rulers": "Governantes históricos por região",
+    "history_system": "Sistema de histórico:",
+    "implicat": "Implicações:",
+    "india": {
+      "description": "Principais governantes e dinastias no subcontinente indiano durante o período AEC",
+      "rulers": [
+        {
+          "dynasty": "Haryanka (Magadha)",
+          "name": "Bimbisara",
+          "notes": "Contemporâneo de Buda; Magadha expandida",
+          "reign": "544–492 AC"
+        },
+        {
+          "dynasty": "Haryanka (Magadha)",
+          "name": "Ajatashatru",
+          "notes": "Sucedeu Bimbisara; Pataliputra fortificada",
+          "reign": "492–460 AC"
+        },
+        {
+          "dynasty": "Nanda",
+          "name": "Dhana Nanda",
+          "notes": "Último governante Nanda",
+          "reign": "c. 329–321 AC"
+        },
+        {
+          "dynasty": "Maurya",
+          "name": "Chandragupta Maurya",
+          "notes": "Fundou o Império Maurya",
+          "reign": "321–297 AC"
+        },
+        {
+          "dynasty": "Maurya",
+          "name": "Bindusara",
+          "notes": "Império expandido na Índia peninsular",
+          "reign": "297–273 AC"
+        },
+        {
+          "dynasty": "Maurya",
+          "name": "Ashoka, o Grande",
+          "notes": "Após a guerra de Kalinga, promoveu o budismo",
+          "reign": "273–232 AC"
+        }
+      ]
+    },
+    "mapping": "Mapeamento:",
+    "new_bce": "Novo (AC/CE)",
+    "note": "Nota:",
+    "notes": "Notas:",
+    "old_bc": "Antigo (AC/AD)",
+    "persia": {
+      "description": "Governantes do Império Aquemênida (Primeiro Império Persa)",
+      "rulers": [
+        {
+          "name": "Ciro, o Grande",
+          "notes": "Fundador do Império Aquemênida",
+          "reign": "559–530 AC"
+        },
+        {
+          "name": "Cambises II",
+          "notes": "Conquistou o Egito",
+          "reign": "530–522 AC"
+        },
+        {
+          "name": "Dario I (o Grande)",
+          "notes": "Reformas administrativas",
+          "reign": "522–486 AC"
+        },
+        {
+          "name": "Xerxes I",
+          "notes": "Guerras Greco-Persas",
+          "reign": "486-465 AC"
+        },
+        {
+          "name": "Artaxerxes I",
+          "notes": "Império estabilizado",
+          "reign": "465–424 AC"
+        },
+        {
+          "name": "Dario III",
+          "notes": "Derrotado por Alexandre",
+          "reign": "336–330 AC"
+        }
+      ]
+    },
+    "reason": "Razão:",
+    "reign": "Reinado:",
+    "rome": {
+      "description": "Reis de Roma durante o período real",
+      "rulers": [
+        {
+          "name": "Rômulo",
+          "reign": "753–715 AC"
+        },
+        {
+          "name": "Numa Pompílio",
+          "reign": "715-673 AC"
+        },
+        {
+          "name": "Tulo Hostilius",
+          "reign": "673-642 AC"
+        },
+        {
+          "name": "Ancus Márcio",
+          "reign": "642-617 AC"
+        },
+        {
+          "name": "Lúcio Tarquínio Prisco",
+          "reign": "616-579 AC"
+        },
+        {
+          "name": "Sérvio Túlio",
+          "reign": "578–535 AC"
+        },
+        {
+          "name": "Lúcio Tarquínio Superbus",
+          "notes": "Último rei romano",
+          "reign": "535–510 AC"
+        }
+      ]
+    },
+    "rules": "Regras:",
+    "sequence_example": "Exemplo de sequência:",
+    "time_period": "Período de tempo:",
+    "transiti": "Transição:",
+    "uses_year": "Usa Ano Zero:",
+    "visual_timeline": "Linha do tempo visual",
+    "worked_examples": "Exemplos trabalhados:",
+    "years": "anos"
+  }
+}

@@ -1,0 +1,536 @@
+{
+  "world_transformation": {
+    "meta": {
+      "title": "భూమి దశాబ్దాలుగా మారుతుంది - సనాతన ధర్మం - నిత్య జీవన విధానం",
+      "canonical": "https://sanatanadharmam.in/world-transformation",
+      "description": "దశాబ్దాలుగా భూమి మారుతుంది - సనాతన ధర్మం — సనాతన ధర్మాన్ని అన్వేషించండి: హిందూమతం యొక్క శాశ్వతమైన సూత్రాలు, వైదిక సంప్రదాయాలు, ఆధ్యాత్మిక పద్ధతులు మరియు గ్రంధాల నుండి జ్ఞానం...",
+      "keywords": [
+        "20th century history",
+        "21st century history",
+        "Border changes",
+        "Cold War influence",
+        "Decadal transformations",
+        "Decolonization effects",
+        "Earth changes",
+        "Educational resources on history",
+        "Geopolitical history",
+        "Geopolitical shifts",
+        "Global events timeline",
+        "Global history overview",
+        "Globalization impact on borders",
+        "Historical border changes",
+        "Historical cartography",
+        "Historical events impact",
+        "Historical geography",
+        "Historical map accessibility",
+        "Historical map accuracy",
+        "Historical map analysis",
+        "Historical map best practices",
+        "Historical map bias",
+        "Historical map case studies",
+        "Historical map challenges",
+        "Historical map collaboration",
+        "Historical map community",
+        "Historical map creation tools",
+        "Historical map data sources",
+        "Historical map design",
+        "Historical map diversity",
+        "Historical map education",
+        "Historical map engagement",
+        "Historical map ethics",
+        "Historical map examples",
+        "Historical map features",
+        "Historical map feedback",
+        "Historical map future directions",
+        "Historical map impact",
+        "Historical map improvement",
+        "Historical map inclusivity",
+        "Historical map innovation",
+        "Historical map interactivity",
+        "Historical map interpretation",
+        "Historical map legends",
+        "Historical map outreach",
+        "Historical map overlays",
+        "Historical map projections",
+        "Historical map relevance",
+        "Historical map representation",
+        "Historical map significance",
+        "Historical map storytelling",
+        "Historical map sustainability",
+        "Historical map technology",
+        "Historical map visualizations",
+        "Historical maps",
+        "Historical timelines",
+        "Interactive world maps",
+        "International relations evolution",
+        "Modern geopolitical trends",
+        "Post-Cold War changes",
+        "World transformation",
+        "World wars impact"
+      ],
+      "ogimage": "images/og/earth_changes_by_decade.json.png",
+      "url": "https://sanatanadharmam.in/world-transformation"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "సంస్థ",
+        "contactpoint": {
+          "@type": "కాంటాక్ట్ పాయింట్",
+          "areaserved": "ప్రపంచవ్యాప్తంగా",
+          "availablelanguage": [
+            "العربية",
+            "డ్యూచ్",
+            "ఇంగ్లీష్",
+            "ఎస్పానోల్",
+            "ఫ్రాంకైస్",
+            "హిందీ",
+            "ఎస్",
+            "నేపాలీ",
+            "నెదర్లాండ్స్",
+            "పోర్చుగీస్",
+            "రస్కియ్",
+            "తెలుగు",
+            "అరేడు",
+            "中文 (简体)"
+          ],
+          "contacttype": "కస్టమర్ మద్దతు",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "సనాతనధర్మం.ఇన్ గురించి",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "decades": [
+      {
+        "decade": "1900–1909",
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1900.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "ఆదేశం",
+              "d": "M 820 710 L 860 690 L 890 730 L 865 760 Z",
+              "featurename": "వలసరాజ్యాల పునర్వ్యవస్థీకరణ (ఆఫ్రికా, ఉదాహరణలు)",
+              "id": "afr_mandates_placeholder",
+              "notes": "GIS నుండి పొందిన నిజమైన బహుభుజి(ల)తో భర్తీ చేయండి.",
+              "tooltip": "కలోనియల్ ప్రొటెక్టరేట్‌లు మరియు విధివిధానాలు లాంఛనప్రాయంగా (ఇలస్ట్రేటివ్)",
+              "type": "మార్గం"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "వలస విస్తరణ",
+        "whatchanged": [
+          "వలసరాజ్యాల సరిహద్దులు విస్తరించాయి",
+          "కొన్ని స్వతంత్ర కొత్త రాష్ట్రాలు"
+        ],
+        "why": [
+          "యూరోపియన్ సామ్రాజ్యవాదం"
+        ]
+      },
+      {
+        "decade": "1910–1919",
+        "examples": [
+          "పోలాండ్ తిరిగి సృష్టించబడింది",
+          "ఒట్టోమన్ భూభాగాలు విభజించబడ్డాయి"
+        ],
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1918.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "కొత్త_రాష్ట్రం",
+              "d": "M 1050 360 L 1100 355 L 1125 380 L 1080 395 Z",
+              "featurename": "పోలాండ్ (పున: స్థాపించబడింది)",
+              "id": "యూరోప్_పోలాండ్_1918",
+              "notes": "ఫైనల్ కోసం ఖచ్చితమైన ఆకారాన్ని ఉపయోగించండి.",
+              "tooltip": "WWI తర్వాత పోలాండ్ తిరిగి స్థాపించబడింది (ఇలస్ట్రేటివ్ పరిధి)",
+              "type": "మార్గం"
+            },
+            {
+              "changetype": "ఆదేశం",
+              "d": "M 1205 455 L 1260 470 L 1245 505 L 1198 495 Z",
+              "featurename": "ఒట్టోమన్ విభజన (ఎంచుకున్న ఆదేశాలు)",
+              "id": "నా_విభజన_1919",
+              "tooltip": "ఒట్టోమన్ అరబ్ ప్రావిన్సులు ఆదేశాల క్రింద ఉంచబడ్డాయి (ఇలస్ట్రేటివ్)",
+              "type": "మార్గం"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "మొదటి ప్రపంచ యుద్ధం రీడ్రా",
+        "whatchanged": [
+          "సామ్రాజ్యాల పతనం",
+          "కొత్త యూరోపియన్ రాష్ట్రాలు"
+        ],
+        "why": [
+          "మొదటి ప్రపంచ యుద్ధం",
+          "ఒప్పంద పరిష్కారాలు"
+        ]
+      },
+      {
+        "decade": "1920–1929",
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1925.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "స్థితి_మార్పు",
+              "d": "M 900 720 L 960 710 L 980 750 L 920 770 Z",
+              "featurename": "స్థిర కలోనియల్ లైన్స్ (ఆఫ్రికా, ఉదాహరణలు)",
+              "id": "ఆఫ్రికా_లైన్లు_1920లు",
+              "tooltip": "కలోనియల్ సరిహద్దులు అధికారికీకరించబడ్డాయి (ఇలస్ట్రేటివ్)",
+              "type": "మార్గం"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "ఆదేశ వ్యవస్థ",
+        "whatchanged": [
+          "సరిహద్దులు అధికారికం చేయబడ్డాయి",
+          "శాసనాలు సామ్రాజ్యాలను భర్తీ చేస్తాయి"
+        ],
+        "why": [
+          "లీగ్ ఆఫ్ నేషన్స్ ఆదేశాలు"
+        ]
+      },
+      {
+        "decade": "1930–1939",
+        "examples": [
+          "జర్మన్ విస్తరణ",
+          "జపనీస్ విస్తరణ"
+        ],
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1939.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "అనుబంధం",
+              "d": "M 1040 420 L 1065 418 L 1075 430 L 1050 435 Z",
+              "featurename": "ఆస్ట్రియా నుండి జర్మనీ (అన్స్‌లస్)",
+              "id": "europe_anschluss_1938",
+              "tooltip": "ఆస్ట్రియా జర్మనీచే విలీనం చేయబడింది (ఇలస్ట్రేటివ్)",
+              "type": "మార్గం"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "దూకుడు విస్తరణ",
+        "whatchanged": [
+          "బలవంతంగా సరిహద్దులు మార్చబడ్డాయి"
+        ],
+        "why": [
+          "ఫాసిజం యొక్క పెరుగుదల",
+          "WWIIకి ముందు సైనికీకరణ"
+        ]
+      },
+      {
+        "decade": "1940–1949",
+        "examples": [
+          "జర్మనీ విభజించబడింది",
+          "కొరియా విభజించబడింది",
+          "భారత్-పాకిస్థాన్ విభజన"
+        ],
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1947.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "విభజన",
+              "d": "M 1325 565 L 1385 565 L 1390 600 L 1335 600 Z",
+              "featurename": "బ్రిటిష్ ఇండియా విభజన",
+              "id": "దక్షిణ_ఆసియా_విభజన_1947",
+              "tooltip": "భారతదేశం & పాకిస్తాన్‌ని సృష్టించడం విభజన (సచిత్ర)",
+              "type": "మార్గం"
+            },
+            {
+              "changetype": "విభజన",
+              "d": "M 1545 470 L 1560 465 L 1568 478 L 1550 485 Z",
+              "featurename": "కొరియా యొక్క విభాగం",
+              "id": "కొరియా_డివిజన్_1945",
+              "tooltip": "కొరియా ~38వ సమాంతరంగా విభజించబడింది (ఇలస్ట్రేటివ్)",
+              "type": "మార్గం"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "రెండవ ప్రపంచ యుద్ధం రీడ్రా",
+        "whatchanged": [
+          "భారీ సరిహద్దు మార్పులు",
+          "విభజనలు"
+        ],
+        "why": [
+          "WWII ఫలితం",
+          "ప్రచ్ఛన్న యుద్ధం ప్రారంభం"
+        ]
+      },
+      {
+        "decade": "1950–1959",
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1955.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "కొత్త_రాష్ట్రం",
+              "d": "M 1060 640 L 1160 635 L 1165 670 L 1065 675 Z",
+              "featurename": "ఉత్తర ఆఫ్రికా స్వాతంత్ర్యం (ఉదాహరణలు)",
+              "id": "ఉత్తర_ఆఫ్రికా_1950లు",
+              "tooltip": "స్వాతంత్ర్య ఉద్యమాలు విజయవంతమవుతాయి (ఉదాహరణ)",
+              "type": "మార్గం"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "ప్రారంభ డీకోలనైజేషన్",
+        "whatchanged": [
+          "ఆసియా & ఆఫ్రికన్ దేశాలు ఉద్భవించాయి"
+        ],
+        "why": [
+          "స్వాతంత్ర్య ఉద్యమాలు"
+        ]
+      },
+      {
+        "decade": "1960–1969",
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1965.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "కొత్త_రాష్ట్రం",
+              "d": "M 880 720 L 1000 700 L 1005 790 L 900 800 Z",
+              "featurename": "ఆఫ్రికన్ ఇండిపెండెన్స్ వేవ్",
+              "id": "ఆఫ్రికా_వేవ్_1960లు",
+              "tooltip": "ఆఫ్రికా అంతటా అనేక కొత్త రాష్ట్రాలు (ఇలస్ట్రేటివ్)",
+              "type": "మార్గం"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "ఆఫ్రికన్ ఇండిపెండెన్స్ వేవ్",
+        "whatchanged": [
+          "డజన్ల కొద్దీ కొత్త దేశాలు"
+        ],
+        "why": [
+          "వేగవంతమైన డీకోలనైజేషన్"
+        ]
+      },
+      {
+        "decade": "1970–1989",
+        "examples": [
+          "బంగ్లాదేశ్ స్వాతంత్ర్యం (1971)",
+          "వియత్నాం పునరేకీకరణ (1976)"
+        ],
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1980.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "కొత్త_రాష్ట్రం",
+              "d": "M 1395 590 L 1410 592 L 1415 605 L 1398 607 Z",
+              "featurename": "బంగ్లాదేశ్",
+              "id": "బంగ్లాదేశ్_1971",
+              "tooltip": "బంగ్లాదేశ్ స్వాతంత్ర్యం (ఇలస్ట్రేటివ్)",
+              "type": "మార్గం"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "ప్రచ్ఛన్న యుద్ధ స్థిరత్వం",
+        "whatchanged": [
+          "కొన్ని అధికారిక సరిహద్దు మార్పులు"
+        ],
+        "why": [
+          "పవర్ బ్యాలెన్స్ & డిటరెన్స్"
+        ]
+      },
+      {
+        "decade": "1990–1999",
+        "examples": [
+          "15 సోవియట్ అనంతర రాష్ట్రాలు",
+          "బాల్కన్‌లు మళ్లీ గీయబడ్డాయి"
+        ],
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1995.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "రద్దు",
+              "d": "M 1180 260 L 1500 260 L 1500 420 L 1180 420 Z",
+              "featurename": "సోవియట్ అనంతర రాష్ట్రాలు",
+              "id": "ussr_breakup_1991",
+              "tooltip": "USSR రద్దు (బౌండింగ్ బాక్స్ ఇలస్ట్రేటివ్)",
+              "type": "మార్గం"
+            },
+            {
+              "changetype": "రద్దు",
+              "d": "M 1120 420 L 1160 420 L 1170 450 L 1125 455 Z",
+              "featurename": "మాజీ యుగోస్లేవియా",
+              "id": "యుగోస్లేవియా_బ్రేకప్_1990లు",
+              "tooltip": "యుగోస్లేవియా విడిపోవడం (ఇలస్ట్రేటివ్)",
+              "type": "మార్గం"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "సోషలిస్ట్ ఫెడరేషన్ల పతనం",
+        "whatchanged": [
+          "ఎన్నో కొత్త దేశాలు ఏర్పడ్డాయి"
+        ],
+        "why": [
+          "USSR & యుగోస్లేవియా రద్దు"
+        ]
+      },
+      {
+        "decade": "2000–2025",
+        "examples": [
+          "దక్షిణ సూడాన్ (2011)"
+        ],
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-2025.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "కొత్త_రాష్ట్రం",
+              "d": "M 1140 720 L 1165 718 L 1170 740 L 1145 742 Z",
+              "featurename": "దక్షిణ సూడాన్",
+              "id": "దక్షిణ_సూడాన్_2011",
+              "tooltip": "దక్షిణ సూడాన్ స్వాతంత్ర్యం (ఇలస్ట్రేటివ్)",
+              "type": "మార్గం"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "ఆధునిక సరిహద్దు స్థిరత్వం",
+        "whatchanged": [
+          "అరుదైన కొత్త దేశాలు",
+          "సరిహద్దులు పెద్దగా మారలేదు"
+        ],
+        "why": [
+          "అంతర్జాతీయ చట్టం",
+          "ప్రపంచీకరణ",
+          "నిరోధం"
+        ]
+      }
+    ],
+    "historic_decades": "చారిత్రక దశాబ్దాలు",
+    "legend": {
+      "aria": {
+        "title": "సరిహద్దు మార్పుల యొక్క దశాబ్దపు అతివ్యాప్తి",
+        "desc": "ఎంచుకున్న దశాబ్దంలో సరిహద్దు పరివర్తనాల ద్వారా ప్రభావితమైన భూభాగాలను రంగు ప్రాంతాలు సూచిస్తాయి."
+      },
+      "changetypes": [
+        {
+          "color": "#1f77b4",
+          "key": "కొత్త_రాష్ట్రం",
+          "label": "కొత్త రాష్ట్రం"
+        },
+        {
+          "color": "#ff7f0e",
+          "key": "విభజన",
+          "label": "విభజన/విభజన"
+        },
+        {
+          "color": "#2ca02c",
+          "key": "అనుబంధం",
+          "label": "అనుబంధం/విలీనం"
+        },
+        {
+          "color": "#9467bd",
+          "key": "ఆదేశం",
+          "label": "మాండేట్/ట్రస్ట్ టెరిటరీ"
+        },
+        {
+          "color": "#d62728",
+          "key": "రద్దు",
+          "label": "రద్దు/ఫెడరేషన్ విచ్ఛిన్నం"
+        },
+        {
+          "color": "#8c564b",
+          "key": "స్థితి_మార్పు",
+          "label": "స్థితి/పేరు మార్పు"
+        },
+        {
+          "color": "#e377c2",
+          "key": "వివాదం",
+          "label": "వివాదాస్పద/అపరిష్కృతం"
+        }
+      ],
+      "fillopacity": 0.35,
+      "projection": {
+        "id": "సమాన భూమి",
+        "name": "సమాన భూమి",
+        "notes": "బేస్ PNG మరియు SVG ఓవర్‌లేల కోసం అదే ప్రొజెక్షన్‌ని ఉపయోగించండి."
+      },
+      "stroke": {
+        "color": "#111",
+        "opacity": 0.8,
+        "width": 0.75
+      },
+      "viewbox": "0 0 2048 1024"
+    },
+    "legend2": "లెజెండ్",
+    "periods_transfor": "పరివర్తన కాలాలు",
+    "test": [
+      "# పాత్ జనరేషన్ & ప్రొజెక్షన్‌ల కోసం కోర్:",
+      "npm i d3-geo d3-geo-projection topojson-client topojson-server topojson-simplify",
+      "# మీకు WGS84 కాని GeoJSON నుండి రీప్రొజెక్షన్ అవసరమైతే (ఐచ్ఛికం):",
+      "npm i proj4 @mapbox/geojson-rewind"
+    ],
+    "what_changed": "ఏమి మారింది:",
+    "why": "ఎందుకు:",
+    "why_borders": "సరిహద్దులు ఎందుకు స్థిరంగా మారాయి",
+    "whybordersbecamestable": {
+      "factors": [
+        {
+          "title": "అంతర్జాతీయ చట్టం & UN",
+          "explanation": "UN చార్టర్ మరియు నిబంధనలు ప్రాదేశిక సమగ్రతను కాపాడతాయి."
+        },
+        {
+          "title": "వలస సామ్రాజ్యాల ముగింపు",
+          "explanation": "1970ల నాటికి చాలా డీకోలనైజేషన్ ముగిసింది; సరిహద్దులు స్తంభింపజేయబడ్డాయి (యుటి పాసిడెటిస్ జ్యూరిస్)."
+        },
+        {
+          "title": "పెద్ద ఫెడరేషన్ల పతనం పూర్తయింది",
+          "explanation": "USSR & యుగోస్లేవియా రద్దు; ఏ విధమైన సారూప్యమైన అంశాలు విచ్ఛిన్నం కాలేదు."
+        },
+        {
+          "title": "ప్రపంచీకరణ",
+          "explanation": "పరస్పర ఆధారపడటం విజయం యొక్క ప్రయోజనాలను తగ్గిస్తుంది."
+        },
+        {
+          "title": "నిరోధం & ఆంక్షలు",
+          "explanation": "సరిహద్దులను మార్చడానికి ఖర్చులు ఎక్కువగా ఉంటాయి."
+        },
+        {
+          "title": "వివాద నిర్వహణ",
+          "explanation": "స్వయంప్రతిపత్తి/ఘనీభవించిన సంఘర్షణల ద్వారా తిరిగి గీయడం కంటే వైరుధ్యాలు నిర్వహించబడతాయి."
+        }
+      ],
+      "keytakeaway": "వివాదాలు ఉన్న చోట కూడా ఆధునిక సరిహద్దులు చట్టబద్ధంగా మరియు రాజకీయంగా దృఢంగా ఉంటాయి.",
+      "summary": "20వ శతాబ్దం చివరి తర్వాత, చట్టపరమైన, రాజకీయ, ఆర్థిక మరియు నిరోధక కారకాల కారణంగా సరిహద్దులు స్థిరీకరించబడ్డాయి."
+    }
+  }
+}

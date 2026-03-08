@@ -1,0 +1,1026 @@
+{
+  "temples_destroyed": {
+    "title": "Документация на уровне инцидента: повреждение индуистского храма в Индии (основано на фактических данных)",
+    "meta": {
+      "title": "Документация на уровне инцидента: повреждение индуистского храма в Индии (основано на фактических данных)",
+      "canonical": "https://sanatanadharmam.in/temples-destroyed",
+      "description": "Конкретные названия храмов не могут быть включены, поскольку в полученных источниках не было таких проверенных записей.",
+      "keywords": [
+        "Hindu temple damage",
+        "India",
+        "archaeological evidence",
+        "contemporary temple attacks",
+        "cultural heritage",
+        "dynastic warfare and temples",
+        "economic plunder and temples",
+        "evidence-based documentation",
+        "historical context",
+        "historical incidents",
+        "historical temple incidents",
+        "multisource verification",
+        "political motives",
+        "primary sources",
+        "religious conflict",
+        "scholarly analysis",
+        "secondary sources",
+        "sectarian violence and temples",
+        "statecraft and temples",
+        "temple damage patterns",
+        "temple desecration",
+        "temple destruction",
+        "temple destruction patterns",
+        "temple incident IDs",
+        "temple incident context",
+        "temple incident deities",
+        "temple incident event types",
+        "temple incident locations",
+        "temple incident motives",
+        "temple incident periods",
+        "temple incident perpetrators",
+        "temple incident sources",
+        "temple incident summaries",
+        "temple incident timelines",
+        "temple incident traditions",
+        "temple incident verification",
+        "temple incident verification status",
+        "temple preservation",
+        "temple protection policies",
+        "temple reconstruction",
+        "verified cases"
+      ],
+      "ogimage": "images/og/temples-destroyed.png",
+      "url": "https://sanatanadharmam.in/temples-destroyed"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Организация",
+        "contactpoint": {
+          "@type": "Контактная точка",
+          "areaserved": "По всему миру",
+          "availablelanguage": [
+            "عربية",
+            "немецкий",
+            "Английский",
+            "испанский",
+            "Франсэ",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Нидерланды",
+            "Португальский",
+            "Русский",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Служба поддержки клиентов",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "О Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "canonical": "https://sanatanadharmam.in/temples-destroyed",
+    "incidents": [
+      {
+        "alleged_perpetrator_affiliation": "Армия Гуридов/раннего индо-мусульманского государства",
+        "approx_date": "1192 г. н.э.",
+        "context_motive": [
+          "династическая_война",
+          "политический_сигнал"
+        ],
+        "deity": "Шива (выведено на основе региональной распространенности)",
+        "event_type": [
+          "осквернение"
+        ],
+        "id": "eaton_case_01_delhi_sultanate_1192",
+        "location": {
+          "city_or_district": "Северная Индия",
+          "country": "Индия",
+          "state_province": "Пояс Дели-Харьяна-Раджастан"
+        },
+        "period": "Ранний Делийский султанат",
+        "sources": [
+          {
+            "title": "Ричард М. Итон – Осквернение храмов в досовременной Индии",
+            "type": "академический",
+            "url": "https://franpritchett.com/00islamlinks/txt_eaton_temples1.pdf"
+          }
+        ],
+        "summary": "Исторический анализ отмечает, что после поражения раджпутских правителей в 1192 году н.э. некоторые политически значимые храмы, связанные с побежденной династией, были осквернены как символы завоевания, что соответствовало ранее существовавшим нормам индийского государственного управления.",
+        "temple_name": "Храм, связанный с побежденным раджпутским государством (название в источниках не указано)",
+        "timeline": [
+          "1192: Поражение конфедерации раджпутов.",
+          "После 1192 года: Политико-символическое осквернение"
+        ],
+        "tradition": "индуистский",
+        "verification_status": "проверенный_мультиисточник"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Должностные лица администрации Туглука",
+        "approx_date": "1326 г. н.э.",
+        "context_motive": [
+          "состояние_обслуживание"
+        ],
+        "deity": "Шива",
+        "event_type": [
+          "ремонт",
+          "state_intervention"
+        ],
+        "id": "eaton_case_02_tugluq_deccan_1326",
+        "location": {
+          "city_or_district": "Кальяна",
+          "country": "Индия",
+          "state_province": "Бидар (Деккан)"
+        },
+        "period": "Империя Туглук",
+        "sources": [
+          {
+            "title": "Осквернение храма и индо-мусульманские государства (Итон)",
+            "type": "академический",
+            "url": "https://docslib.org/doc/2884327/temple-desecration-in-pre-modern-india"
+          }
+        ],
+        "summary": "Надпись на санскрите (цитируемая в анализе Итона) сообщает, что в 1326 году н. э. султан Мухаммад бин Туглук поручил мусульманским чиновникам отремонтировать храм Шивы в Кальяне, что противоречит утверждениям о тотальном религиозном разрушении.",
+        "temple_name": "Храм Шивы в Кальяне (точные структурные детали не включены в результаты поиска)",
+        "timeline": [
+          "1326: Приказ о ремонте храма был отдан под власть государства."
+        ],
+        "tradition": "индуистский",
+        "verification_status": "проверенный_мультиисточник"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Кашмирский султанат",
+        "approx_date": "1355–1373 гг. н. э.",
+        "context_motive": [
+          "управление государством",
+          "религиозный_плюрализм"
+        ],
+        "deity": "Различный",
+        "event_type": [
+          "защита"
+        ],
+        "id": "eaton_case_03_kashmir_1355_1373",
+        "location": {
+          "city_or_district": "Кашмирская долина",
+          "country": "Индия",
+          "state_province": "Кашмир"
+        },
+        "period": "Кашмирский султанат Шихаб ад-Дина",
+        "sources": [
+          {
+            "title": "Осквернение храма и индо-мусульманские государства (Итон)",
+            "type": "академический",
+            "url": "https://vdoc.pub/documents/temple-desecration-and-muslim-states-in-medieval-india-57n804cku1p0"
+          }
+        ],
+        "summary": "Султан Шихаб ад-Дин сделал выговор министрам за предложение переплавить изображения индуистских/буддийских храмов ради получения дохода, приведя классических индуистских королей в качестве примеров защиты храмов, показав, что не все индо-мусульманские правители стремились к разрушению.",
+        "temple_name": "Несколько индуистских/буддийских храмов (названия не указаны)",
+        "timeline": [
+          "1355–1373: Документированная политика защиты храмов."
+        ],
+        "tradition": "индуистский",
+        "verification_status": "проверенный_мультиисточник"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Армии, завоевывающие регионы",
+        "approx_date": "14 век",
+        "context_motive": [
+          "династическая_война",
+          "политический_сигнал"
+        ],
+        "deity": "Шива или региональные божества",
+        "event_type": [
+          "осквернение"
+        ],
+        "id": "eaton_case_04_deccan_statebuilding_14th_ Century",
+        "location": {
+          "city_or_district": "Северный Декан",
+          "country": "Индия",
+          "state_province": "Регион Махараштра – Карнатака"
+        },
+        "period": "Ранние кампании Бахманийского султаната и Туглука",
+        "sources": [
+          {
+            "title": "Итон – Осквернение храма в досовременной Индии",
+            "type": "академический",
+            "url": "https://franpritchett.com/00islamlinks/txt_eaton_temples1.pdf"
+          }
+        ],
+        "summary": "Итон отмечает, что в Декане XIV века храмы, связанные с правящими династиями (а не случайные общинные храмы), выборочно подвергались нападениям после военных побед, что соответствует более старым индийским политическим традициям.",
+        "temple_name": "Династические храмы соперничающих королевств (не указано)",
+        "timeline": [
+          "1300-е годы: Династические войны",
+          "Символические осквернения после завоевания"
+        ],
+        "tradition": "индуистский",
+        "verification_status": "частично_проверено"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Имперская администрация Великих Моголов",
+        "approx_date": "16–17 века",
+        "context_motive": [
+          "управление государством",
+          "доход_политика"
+        ],
+        "deity": "Шива/разное",
+        "event_type": [
+          "защита",
+          "покровительство"
+        ],
+        "id": "eaton_case_05_statecraft_protection_early_modern",
+        "location": {
+          "city_or_district": "Несколько",
+          "country": "Индия",
+          "state_province": "Индия"
+        },
+        "period": "Империя Великих Моголов",
+        "sources": [
+          {
+            "title": "Осквернение храма и индо-мусульманские государства (Итон)",
+            "type": "академический",
+            "url": "https://docslib.org/doc/2884327/temple-desecration-in-pre-modern-india"
+          }
+        ],
+        "summary": "Синтез Итона показывает, что многие индуистские храмы получали гранты, пожертвования и правовую защиту при правлении Великих Моголов, что противоречит политическим повествованиям более поздней эпохи о единообразном религиозном разрушении.",
+        "temple_name": "Различные храмы по всей Индии Великих Моголов (названия не указаны)",
+        "timeline": [
+          "1500–1600-е годы: документированные гранты и указы о защите доходов."
+        ],
+        "tradition": "индуистский",
+        "verification_status": "проверенный_мультиисточник"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Войска Газневидов под предводительством Махмуда Газни",
+        "approx_date": "1026-01-08",
+        "context_motive": [
+          "династическая_война",
+          "экономический_грабеж",
+          "политический_сигнал"
+        ],
+        "deity": "Шива",
+        "event_type": [
+          "мешок",
+          "грабить",
+          "снос"
+        ],
+        "id": "somnath_1026_ghazni",
+        "location": {
+          "city_or_district": "Прабхас Патан (Веравал)",
+          "country": "Индия",
+          "state_province": "Гуджарат"
+        },
+        "period": "Средневековый",
+        "sources": [
+          {
+            "title": "Район Гир Сомнатх - История (правительство Гуджарата)",
+            "type": "правительство",
+            "url": "https://girsomnath.nic.in/about-district/history/"
+          },
+          {
+            "title": "Мешок Сомнатха (обзор в Википедии)",
+            "type": "новости/энциклопедические",
+            "url": "https://en.wikipedia.org/wiki/Sack_of_Somnath"
+          }
+        ],
+        "summary": "Армия Газневидов разграбила храм Сомнатха; зафиксированы более поздние реконструкции.",
+        "temple_name": "Сомнатх Джьотирлинга",
+        "timeline": [
+          "1025–1026: Кампания Газни.",
+          "Фазы восстановления в 12, 14, 15 вв.; современное освящение 1951 г."
+        ],
+        "tradition": "индуистский",
+        "verification_status": "проверенный_мультиисточник"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Делийский султанат (Улугхан при Алауддине Халджи)",
+        "approx_date": "1299",
+        "context_motive": [
+          "династическая_война",
+          "экономический_грабеж"
+        ],
+        "deity": "Шива",
+        "event_type": [
+          "мешок"
+        ],
+        "id": "somnath_1299_khalji",
+        "location": {
+          "city_or_district": "Прабхас Патан (Веравал)",
+          "country": "Индия",
+          "state_province": "Гуджарат"
+        },
+        "period": "Делийский султанат",
+        "sources": [
+          {
+            "title": "Район Гир Сомнатх - История",
+            "type": "правительство",
+            "url": "https://girsomnath.nic.in/about-district/history/"
+          }
+        ],
+        "summary": "Сомнатх разграблен в 1299 году во время кампании Делийского султаната; последовала реконструкция.",
+        "temple_name": "Сомнатх Джьотирлинга",
+        "timeline": [
+          "1299: Разграбление при Улуг-хане",
+          "1308+: Местные перестройки династии Чудасама."
+        ],
+        "tradition": "индуистский",
+        "verification_status": "проверенный_мультиисточник"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Императорский орден Великих Моголов (Аурангзеб)",
+        "approx_date": "1669 г.",
+        "context_motive": [
+          "политический_сигнал",
+          "государственная_политика"
+        ],
+        "deity": "Шива",
+        "event_type": [
+          "снос",
+          "преобразование"
+        ],
+        "id": "kashi_vishwanath_1669",
+        "location": {
+          "city_or_district": "Варанаси",
+          "country": "Индия",
+          "state_province": "Уттар-Прадеш"
+        },
+        "period": "Могол",
+        "sources": [
+          {
+            "title": "Храм Каши Вишванатх (обзор)",
+            "type": "новости/энциклопедические",
+            "url": "https://en.wikipedia.org/wiki/Kashi_Vishwanath_Temple"
+          },
+          {
+            "title": "Объяснитель Indian Express (ASI и персидские источники)",
+            "type": "новости",
+            "url": "https://www.hinduismtoday.com/hpi/2024/01/30/the-temple-that-aurangzeb-razed-evidence-from-history/"
+          }
+        ],
+        "summary": "Первичные персидские хроники и исследования, на которые ссылается ASI, свидетельствуют о сносе здания в 1669 году; построена мечеть Гьянвапи; нынешний храм КВ перестроен в 1780 году.",
+        "temple_name": "Каши Вишванатх (Вишвешвара) / сайт Гьянвапи",
+        "timeline": [
+          "1669: Приказ о сносе",
+          "1670-е: возведена мечеть.",
+          "1780: Нынешний храм Ахилиабаи Холкара."
+        ],
+        "tradition": "индуистский",
+        "verification_status": "проверенный_мультиисточник"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Императорский орден Великих Моголов (Аурангзеб)",
+        "approx_date": "1670 г.",
+        "context_motive": [
+          "политический_сигнал",
+          "государственная_политика"
+        ],
+        "deity": "Кришна (Кешавдев)",
+        "event_type": [
+          "снос",
+          "преобразование"
+        ],
+        "id": "mathura_keshavdev_1670",
+        "location": {
+          "city_or_district": "Матхура",
+          "country": "Индия",
+          "state_province": "Уттар-Прадеш"
+        },
+        "period": "Могол",
+        "sources": [
+          {
+            "title": "Бизнес-стандарт (ASI RTI — Gazette, 1920 г.)",
+            "type": "новости",
+            "url": "https://www.business-standard.com/india-news/asi-reveals-records-on-demolition-of-mathura-s-keshavdev-temple-rti-124020600548_1.html"
+          },
+          {
+            "title": "Economic Times (освещение РТИ)",
+            "type": "новости",
+            "url": "https://economictimes.indiatimes.com/news/india/aurangzeb-demolished-keshavdev-temple-krishna-janmabhoomi-site-to-built-mosque-in-mathura-says-asi-in-rti-reply/articleshow/107447699.cms"
+          }
+        ],
+        "summary": "Газета за 1920 год, цитируемая ASI (раскрыта через RTI): бывший храм Кешавдева демонтирован; участок, используемый для мечети Аурангзеба.",
+        "temple_name": "Храм Кешавдев / комплекс Шахи Идга",
+        "timeline": [
+          "1670: Снос и строительство мечети (согласно историческим данным)"
+        ],
+        "tradition": "индуистский",
+        "verification_status": "проверенный_мультиисточник"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Коалиция Деканского султаната",
+        "approx_date": "1565 г.",
+        "context_motive": [
+          "династическая_война",
+          "политический_сигнал",
+          "экономический_грабеж"
+        ],
+        "deity": "Различный",
+        "event_type": [
+          "мешок",
+          "грабеж",
+          "оставление"
+        ],
+        "id": "hampi_1565",
+        "location": {
+          "city_or_district": "Хампи/Виджаянагара",
+          "country": "Индия",
+          "state_province": "Карнатака"
+        },
+        "period": "Виджаянагара/Декканские султанаты",
+        "sources": [
+          {
+            "title": "ЮНЕСКО — Группа памятников в Хампи",
+            "type": "ИО",
+            "url": "https://whc.unesco.org/en/list/241"
+          },
+          {
+            "title": "Хампи (энциклопедический обзор)",
+            "type": "новости/энциклопедические",
+            "url": "https://en.wikipedia.org/wiki/Hampi"
+          }
+        ],
+        "summary": "ЮНЕСКО: город завоеван в 1565 году и разграблен в течение шести месяцев; впоследствии заброшен.",
+        "temple_name": "Группа памятников в Хампи (несколько храмов)",
+        "timeline": [
+          "1565: Завоевание и разграбление",
+          "Более поздние века: сохранение ASI / надпись ЮНЕСКО (1986 г.)"
+        ],
+        "tradition": "индуистский",
+        "verification_status": "проверенный_мультиисточник"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Кашмирский султанат (приписывается Сикандар Шаху Мири)",
+        "approx_date": "в. 1390–1413 (фаза разрушения)",
+        "context_motive": [
+          "политический_сигнал",
+          "государственная_политика",
+          "другое_или_оспаривается"
+        ],
+        "deity": "Сурья (Мартанд)",
+        "event_type": [
+          "снос",
+          "разорение"
+        ],
+        "id": "martand_sun_temple_15c",
+        "location": {
+          "city_or_district": "Маттан (Анантнаг)",
+          "country": "Индия",
+          "state_province": "Джамму и Кашмир"
+        },
+        "period": "Султанат Шах Мир",
+        "sources": [
+          {
+            "title": "Мартандский Храм Солнца (обзор)",
+            "type": "новости/энциклопедические",
+            "url": "https://en.wikipedia.org/wiki/Martand_Sun_Temple"
+          },
+          {
+            "title": "Статья в журнале Heritage (2020)",
+            "type": "академический",
+            "url": "https://www.heritageuniversityofkerala.com/JournalPDF/Volume8.2/60.pdf"
+          }
+        ],
+        "summary": "Храм восьмого века позже был разрушен; в научной литературе отмечается политический/религиозный контекст и предостерегают относительно источников.",
+        "temple_name": "Мартандский Храм Солнца",
+        "timeline": [
+          "8 век: Строительство",
+          "в. 15 век: Разрушение",
+          "Современность: руины, защищенные ASI"
+        ],
+        "tradition": "индуистский",
+        "verification_status": "проверенный_мультиисточник"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Генерал Бенгальского султаната, известный как Калапахад",
+        "approx_date": "1568",
+        "context_motive": [
+          "династическая_война",
+          "политический_сигнал"
+        ],
+        "deity": "Джаганнатх (традиция аватара Вишну)",
+        "event_type": [
+          "осквернение",
+          "грабеж"
+        ],
+        "id": "puri_jagannath_1568",
+        "location": {
+          "city_or_district": "Пури",
+          "country": "Индия",
+          "state_province": "Одиша"
+        },
+        "period": "Афгано-Бенгальско-Одишский конфликт",
+        "sources": [
+          {
+            "title": "Обзор Ориссы (правительство) — Управление храмом и история",
+            "type": "правительство",
+            "url": "https://magazines.odisha.gov.in/Orissareview/2011/july/engpdf/5-8.pdf"
+          },
+          {
+            "title": "Калапахар (обзор)",
+            "type": "новости/энциклопедические",
+            "url": "https://en.wikipedia.org/wiki/Kalapahar"
+          }
+        ],
+        "summary": "Государственный обзор и летописи повествуют о надругательствах; жрецы сохраняли сущность божества до восстановления.",
+        "temple_name": "Храм Шри Джаганнатхи",
+        "timeline": [
+          "1568: Вторжение/осквернение",
+          "1575: Восстановление в должности Рамачандрой Девой I (хроника штата)"
+        ],
+        "tradition": "индуистский",
+        "verification_status": "проверенный_мультиисточник"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Малик Кафур (Делийский султанат)",
+        "approx_date": "1311-02",
+        "context_motive": [
+          "экономический_грабеж",
+          "династическая_война"
+        ],
+        "deity": "Шива",
+        "event_type": [
+          "мешок",
+          "дань",
+          "повреждать"
+        ],
+        "id": "халебиду_1311",
+        "location": {
+          "city_or_district": "Халебиду (Дварасамудра)",
+          "country": "Индия",
+          "state_province": "Карнатака"
+        },
+        "period": "Делийский султанат",
+        "sources": [
+          {
+            "title": "Осада Дварасамудры",
+            "type": "новости/энциклопедические",
+            "url": "https://en.wikipedia.org/wiki/Siege_of_Dwarasamudra"
+          }
+        ],
+        "summary": "Кампания захватила столицу Хойсала с сбором дани; в более поздних рассказах говорится о повреждении храмов в этом регионе.",
+        "temple_name": "Храм Хойсалесвара (Халебиду)",
+        "timeline": [
+          "1311: Осада и капитуляция.",
+          "Последствия: дань, потери, отчеты о региональном ущербе"
+        ],
+        "tradition": "индуистский",
+        "verification_status": "частично_проверено"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Португальские колониальные власти (Estado da Índia), церковные действия",
+        "approx_date": "1540–1600-е гг.",
+        "context_motive": [
+          "государственная_политика"
+        ],
+        "deity": "Различный",
+        "event_type": [
+          "снос",
+          "конфискация",
+          "переезд"
+        ],
+        "id": "goa_old_conquests_16c",
+        "location": {
+          "city_or_district": "Тисвади/Бардез/Сальсете (Старый Гоа); позже Понда",
+          "country": "Индия",
+          "state_province": "Гоа"
+        },
+        "period": "Португальский колониальный",
+        "sources": [
+          {
+            "title": "Современные азиатские исследования — бегство божеств (Аксельрод и Фюрх)",
+            "type": "академический",
+            "url": "https://www.cambridge.org/core/journals/modern-asian-studies/article/abs/flight-of-the-deities-hindu-resistance-in-portuguese-goa/FC375FC6905C07727E26A1C9F2659322"
+          },
+          {
+            "title": "Стабильная запись JSTOR",
+            "type": "академический",
+            "url": "https://www.jstor.org/stable/313013"
+          }
+        ],
+        "summary": "Рецензируемые работы документируют разрушения храмов и «бегство божеств» вглубь страны; в Понде было восстановлено несколько крупных святынь.",
+        "temple_name": "Множественные (например, переезды в Мангеши/Шантадургу)",
+        "timeline": [
+          "Середина XVI в.: Разрушения/запугивание",
+          "16–17 вв.: Переселения и повторное освящение вглубь страны."
+        ],
+        "tradition": "индуистский",
+        "verification_status": "проверенный_мультиисточник"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Местный моб; политические/религиозные агитаторы",
+        "approx_date": "2020-12-30",
+        "context_motive": [
+          "sectarian_targeting"
+        ],
+        "deity": "Кришна/Парамханс Джи (самадхи)",
+        "event_type": [
+          "поджог",
+          "снос",
+          "mob_violence"
+        ],
+        "id": "Пакистан_карак_2020",
+        "location": {
+          "city_or_district": "Тери, Карак",
+          "country": "Пакистан",
+          "state_province": "Хайбер-Пахтунхва"
+        },
+        "period": "Современный",
+        "sources": [
+          {
+            "title": "Аль-Джазира: СК приказывает восстановить",
+            "type": "новости",
+            "url": "https://www.aljazeera.com/news/2021/1/6/pakistani-top-court-orders-rebuilding-of-destroyed-hindu-temple"
+          },
+          {
+            "title": "DW — Толпа поджигает храм",
+            "type": "новости",
+            "url": "https://www.dw.com/en/pakistan-mob-torches-hindu-temple/a-56101422"
+          }
+        ],
+        "summary": "Храм атаковали и сожгли; Верховный суд Пакистана распорядился о реконструкции; последовали аресты.",
+        "temple_name": "Шри Парамханс Джи Махарадж Самадхи и храм Кришны Двара",
+        "timeline": [
+          "30 декабря 2020 г.: Атака",
+          "Январь 2021 г.: заказ на восстановление SC; аресты/отстранения от полиции"
+        ],
+        "tradition": "индуистский",
+        "verification_status": "проверенный_мультиисточник"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Толпа в общественных беспорядках",
+        "approx_date": "1992-12",
+        "context_motive": [
+          "возмездие",
+          "sectarian_targeting"
+        ],
+        "deity": "Различный",
+        "event_type": [
+          "вандализм",
+          "поджог",
+          "снос"
+        ],
+        "id": "Пакистан_post_ayodhya_1992",
+        "location": {
+          "country": "Пакистан"
+        },
+        "period": "Современный",
+        "sources": [
+          {
+            "title": "Азиатское исследование (JSTOR) — негативная реакция на Айодхью",
+            "type": "академический",
+            "url": "https://www.jstor.org/stable/2645358"
+          },
+          {
+            "title": "Хронология MAR — индусы в Пакистане",
+            "type": "академический",
+            "url": "http://mar.umd.edu/chronology.asp?groupId=77004"
+          }
+        ],
+        "summary": "В научных сообщениях и сообщениях прессы зафиксированы массовые нападения на храмы после сноса Бабри.",
+        "temple_name": "Несколько индуистских храмов (по всей стране)",
+        "timeline": [
+          "Декабрь 1992 г.: Нападения зафиксированы в городах; сообщалось об арестах/закрытиях"
+        ],
+        "tradition": "индуистский",
+        "verification_status": "проверенный_мультиисточник"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Мобы реагируют на вирусные слухи",
+        "approx_date": "2021-10",
+        "context_motive": [
+          "sectarian_targeting",
+          "Social_media_rumor"
+        ],
+        "deity": "Дурга/связанные божества",
+        "event_type": [
+          "вандализм",
+          "поджог",
+          "бунт"
+        ],
+        "id": "бангладеш_durga_puja_2021",
+        "location": {
+          "country": "Бангладеш"
+        },
+        "period": "Современный",
+        "sources": [
+          {
+            "title": "Хьюман Райтс Вотч — Смертельные нападения на индуистский фестиваль",
+            "type": "НПО",
+            "url": "https://www.hrw.org/news/2021/10/21/bangladesh-deadly-attacks-hindu-festival"
+          },
+          {
+            "title": "Dhaka Tribune — подведем итоги насилия",
+            "type": "новости",
+            "url": "https://www.dhakatribune.com/bangladesh/315597/durga-puja-ends-amid-tension-violence-across-the"
+          }
+        ],
+        "summary": "HRW и национальные СМИ сообщили о вандализме храмов/мандапов, смертях и более чем 450 арестах.",
+        "temple_name": "Несколько храмов/мандапов (по всей стране)",
+        "timeline": [
+          "13–19 октября 2021 г.: инциденты в округах; развертывание полиции/военизированных формирований; аресты"
+        ],
+        "tradition": "индуистский",
+        "verification_status": "проверенный_мультиисточник"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Экстремистские толпы на фоне политических волнений",
+        "approx_date": "С 2013-02 по 2013-06",
+        "context_motive": [
+          "политические_беспорядки",
+          "sectarian_targeting"
+        ],
+        "deity": "Различный",
+        "event_type": [
+          "вандализм",
+          "поджог",
+          "атаковать"
+        ],
+        "id": "бангладеш_2013_анти_индуистское_насилие",
+        "location": {
+          "country": "Бангладеш"
+        },
+        "period": "Современный",
+        "sources": [
+          {
+            "title": "Госдепартамент США – Отчет о правах человека в Бангладеш, 2013 г.",
+            "type": "правительство",
+            "url": "https://2009-2017.state.gov/documents/organization/220600.pdf"
+          },
+          {
+            "title": "Amnesty International — Годовой отчет 2013 (Бангладеш)",
+            "type": "НПО",
+            "url": "https://www.refworld.org/reference/annualreport/amnesty/2013/en/56780"
+          }
+        ],
+        "summary": "В международных отчетах по правам человека отмечаются массовые нападения на индуистские меньшинства и места отправления культа на фоне потрясений 2013 года.",
+        "temple_name": "Несколько храмов (по районам)",
+        "timeline": [
+          "Февраль – июнь 2013 г.: затронуто несколько районов; собрана официальная документация/документация НПО"
+        ],
+        "tradition": "индуистский",
+        "verification_status": "частично_проверено"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Наемные агитаторы; конкурирующие группы вокруг спора о переселении (согласно заявлениям/случаям правительства)",
+        "approx_date": "2018-11-26",
+        "context_motive": [
+          "property_dispute",
+          "коммунальное_напряжение"
+        ],
+        "deity": "Мариамман (Шакти)",
+        "event_type": [
+          "беспорядки",
+          "поджог",
+          "атаковать"
+        ],
+        "id": "Малайзия_морефилд_2018",
+        "location": {
+          "city_or_district": "USJ 25, Субанг Джая",
+          "country": "Малайзия",
+          "state_province": "Селангор"
+        },
+        "period": "Современный",
+        "sources": [
+          {
+            "title": "Бунт в храме Шри Маха Мариаммана",
+            "type": "новости/энциклопедические",
+            "url": "https://en.wikipedia.org/wiki/Sri_Maha_Mariamman_Temple_riot"
+          },
+          {
+            "title": "Малайская почта — история/правовой контекст",
+            "type": "новости",
+            "url": "https://www.malaymail.com/news/malaysia/2018/11/29/the-subang-hindu-temple-its-history-and-legal-dramas/1698165"
+          }
+        ],
+        "summary": "Двухдневные беспорядки вокруг переноса храма; один пожарный погиб; 100+ арестов; долгий судебный процесс.",
+        "temple_name": "Шри Маха Мариамман Девастханам (Морское поле)",
+        "timeline": [
+          "26–27 ноября 2018 г.: Беспорядки.",
+          "2019–2023 гг.: Следствие/суды, позднее по одному делу оправданы."
+        ],
+        "tradition": "индуистский",
+        "verification_status": "проверенный_мультиисточник"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Неизвестно (полицейское расследование)",
+        "approx_date": "2023-05",
+        "context_motive": [
+          "политическая_напряженность"
+        ],
+        "deity": "Сваминараянская традиция",
+        "event_type": [
+          "вандализм"
+        ],
+        "id": "australia_sydney_baps_2023",
+        "location": {
+          "city_or_district": "Роузхилл (Парраматта)",
+          "country": "Австралия",
+          "state_province": "Новый Южный Уэльс"
+        },
+        "period": "Современный",
+        "sources": [
+          {
+            "title": "ABC News - освещение вандализма в Сиднее",
+            "type": "новости",
+            "url": "https://www.abc.net.au/news/2023-05-14/sikh-leaders-call-for-peace-after-sydney-hindu-temple-vandalised/102343878"
+          }
+        ],
+        "summary": "Храм испорчен политическими фразами; Лидеры сикхов осудили и призвали к миру; Полиция Нового Южного Уэльса провела расследование.",
+        "temple_name": "Храм BAPS Сваминараян (Роузхилл)",
+        "timeline": [
+          "Май 2023 г.: инцидент зафиксирован; лидеры сообщества и реакция полиции"
+        ],
+        "tradition": "индуистский",
+        "verification_status": "проверенный_мультиисточник"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Неизвестно (расследования)",
+        "approx_date": "2023-01",
+        "context_motive": [
+          "политическая_напряженность"
+        ],
+        "deity": "Различный",
+        "event_type": [
+          "вандализм",
+          "граффити"
+        ],
+        "id": "australia_melbourne_iskcon_2023",
+        "location": {
+          "city_or_district": "Мельбурн",
+          "country": "Австралия",
+          "state_province": "Виктория"
+        },
+        "period": "Современный",
+        "sources": [
+          {
+            "title": "SBS Хинди — Третий храм подвергся вандализму",
+            "type": "новости",
+            "url": "https://www.sbs.com.au/language/hindi/en/article/another-hindu-temple-vandalised-days-after-india-seeks-speedy-investigation-and-action/cfn23dnt6"
+          },
+          {
+            "title": "ABC — обсуждение премьер-министра о нападениях на храмы",
+            "type": "новости",
+            "url": "https://www.abc.net.au/news/2023-03-11/modi-calls-on-albanese-to-combat-attacks-on-hindu-temples-in-aus/102083152"
+          }
+        ],
+        "summary": "По крайней мере, три храма в Мельбурне испорчены политическими лозунгами; Индия стремилась к быстрым действиям; открылись полицейские расследования.",
+        "temple_name": "ИСККОН и другие храмы (район Мельбурна)",
+        "timeline": [
+          "Январь 2023 г.: сообщалось об искажениях; Март 2023 г.: Лидеры обсуждают меры защиты"
+        ],
+        "tradition": "индуистский",
+        "verification_status": "проверенный_мультиисточник"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Неизвестно (полицейское расследование)",
+        "approx_date": "2025-07-21",
+        "context_motive": [
+          "расовая_ненависть"
+        ],
+        "deity": "Сваминараянская традиция",
+        "event_type": [
+          "вандализм",
+          "ненависть_граффити"
+        ],
+        "id": "австралия_борония_2025",
+        "location": {
+          "city_or_district": "Борония (Мельбурн)",
+          "country": "Австралия",
+          "state_province": "Виктория"
+        },
+        "period": "Современный",
+        "sources": [
+          {
+            "title": "Первый пост — инцидент с расистскими граффити",
+            "type": "новости",
+            "url": "https://www.firstpost.com/world/australia-swaminarayan-temple-defaced-with-racist-graffiti-days-after-attack-on-indian-national-13911800.html"
+          },
+          {
+            "title": "Deccan Chronicle - заявления полиции",
+            "type": "новости",
+            "url": "https://www.deccanchronicle.com/world/australia-and-new-zealand/australia-hindu-temple-vandalised-with-racist-slurs-1893399"
+          }
+        ],
+        "summary": "Темпл испорчен расистскими оскорблениями; Полиция Виктории расследует связанные инциденты; резкое общественное осуждение.",
+        "temple_name": "Храм Шри Сваминараян (Борония)",
+        "timeline": [
+          "21–24 июля 2025 г.: обнаружены граффити; полиция и лидеры отвечают"
+        ],
+        "tradition": "индуистский",
+        "verification_status": "проверенный_мультиисточник"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Конкурирующие протестные группы; нескольким предъявлены обвинения полицией",
+        "approx_date": "03.11.2024",
+        "context_motive": [
+          "диаспора_политическое_напряжение"
+        ],
+        "deity": "Различный",
+        "event_type": [
+          "насилие",
+          "столкновения",
+          "вандализм"
+        ],
+        "id": "canada_brampton_hindu_sabha_2024",
+        "location": {
+          "city_or_district": "Брэмптон (GTA)",
+          "country": "Канада",
+          "state_province": "Онтарио"
+        },
+        "period": "Современный",
+        "sources": [
+          {
+            "title": "«Голос Америки» — аресты и осуждения",
+            "type": "новости",
+            "url": "https://www.voanews.com/a/7851724.html"
+          }
+        ],
+        "summary": "Полиция предъявила обвинения нескольким лицам после насилия в храме или рядом с ним; Премьер-министры Канады и Индии осудили это решение.",
+        "temple_name": "Индуистский Сабха Мандир",
+        "timeline": [
+          "Ноябрь 2024 г.: Инцидент; объявлены аресты и расследования"
+        ],
+        "tradition": "индуистский",
+        "verification_status": "проверенный_мультиисточник"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Неизвестный; полиция опубликовала фотографии подозреваемых",
+        "approx_date": "2025-03/04",
+        "context_motive": [
+          "ненавистный_инцидент"
+        ],
+        "deity": "Кришна",
+        "event_type": [
+          "вандализм"
+        ],
+        "id": "канада_джорджтаун_skb_2025",
+        "location": {
+          "city_or_district": "Хэлтон-Хиллз (GTA)",
+          "country": "Канада",
+          "state_province": "Онтарио"
+        },
+        "period": "Современный",
+        "sources": [
+          {
+            "title": "CNBC TV18 — полиция ищет подозреваемых",
+            "type": "новости",
+            "url": "https://www.cnbctv18.com/world/hindu-temple-vandalised-in-canada-police-race-to-find-culprits-19584789.htm"
+          },
+          {
+            "title": "News18 — отчет о розыске",
+            "type": "новости",
+            "url": "https://www.news18.com/world/hindu-temple-vandalised-in-canada-police-launch-manhunt-to-nab-two-suspects-ws-kl-9286838.html"
+          }
+        ],
+        "summary": "Вывеска храма снесена/повреждена; полиция начала розыск; общественные группы отметили усиление экстремистского контекста.",
+        "temple_name": "Шри Кришна Брундаван (Джорджтаун)",
+        "timeline": [
+          "Март–апрель 2025 г.: опубликованы изображения происшествий и подозреваемых."
+        ],
+        "tradition": "индуистский",
+        "verification_status": "проверенный_мультиисточник"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Неизвестно (полицейское расследование; возможно преступление на почве ненависти)",
+        "approx_date": "2023-12-23/24",
+        "context_motive": [
+          "диаспора_политическое_напряжение"
+        ],
+        "deity": "Сваминараянская традиция",
+        "event_type": [
+          "вандализм",
+          "ненависть_граффити"
+        ],
+        "id": "США_newark_ca_2023",
+        "location": {
+          "city_or_district": "Ньюарк (район залива)",
+          "country": "Соединенные Штаты",
+          "state_province": "Калифорния"
+        },
+        "period": "Современный",
+        "sources": [
+          {
+            "title": "Район залива NBC — полицейское расследование",
+            "type": "новости",
+            "url": "https://www.nbcbayarea.com/news/local/graffiti-vandalism-newark-hindu-temple-hate-crime/3405591/"
+          },
+          {
+            "title": "CBS SF — контекст вандализма",
+            "type": "новости",
+            "url": "https://www.cbsnews.com/sanfrancisco/news/vandalism-of-newark-hindu-temple-highlights-geopolitical-issue/"
+          }
+        ],
+        "summary": "На храме нарисованы антииндийские граффити; Полиция Ньюарка расследует возможное преступление на почве ненависти; широкое осуждение общества.",
+        "temple_name": "SMVS Шри Сваминараян Мандир (Ньюарк, Калифорния)",
+        "timeline": [
+          "24–26 декабря 2023 г.: Сообщено об инциденте; заявления полиции + сообщества"
+        ],
+        "tradition": "индуистский",
+        "verification_status": "проверенный_мультиисточник"
+      }
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "practices_dailypoojas": {
+    "meta": {
+      "title": "الممارسات | ديلي بوجا - ساناتانا دارما - اكتشف ساناتان دارما",
+      "canonical": "https://sanatanadharmam.in/practices/dailypoojas",
+      "description": "الممارسات — Dailypuja — Sanātana Dharma - استكشف Sanatan Dharma — مقالات وترجمات وتعليقات موجزة عن الممارسات. استكشاف الممارسات والتاريخ والمبادئ التوجيهية...",
+      "keywords": [
+        "daily puja",
+        "daily puja benefits",
+        "daily puja concepts",
+        "daily puja for beginners",
+        "daily puja for modern life",
+        "daily puja for students",
+        "daily puja modern relevance",
+        "daily puja origin and history",
+        "daily puja personal development",
+        "daily puja practices",
+        "daily puja principles",
+        "daily puja q&a",
+        "daily puja relation to other concepts",
+        "daily puja scriptural references",
+        "daily puja significance",
+        "daily puja society",
+        "daily puja steps",
+        "daily puja symbolism",
+        "daily puja well-being",
+        "home puja",
+        "puja benefits",
+        "puja for family bonding",
+        "puja for mindfulness",
+        "puja for spirituality",
+        "puja modern relevance",
+        "puja origin and history",
+        "puja rituals",
+        "puja scriptural references",
+        "puja significance",
+        "puja steps",
+        "puja symbolism",
+        "temple puja"
+      ],
+      "ogimage": "/og/practices-dailypuja.png",
+      "url": "https://sanatanadharmam.in/practices/dailypoojas"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "منظمة",
+        "contactpoint": {
+          "@type": "نقطة الاتصال",
+          "areaserved": "في جميع أنحاء العالم",
+          "availablelanguage": [
+            "العربية",
+            "الألمانية",
+            "إنجليزي",
+            "الاسبانية",
+            "الفرنسية",
+            "الهندية",
+            "日本語",
+            "النيبالية",
+            "هولندا",
+            "البرتغالية",
+            "الروسية",
+            "نعم",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "دعم العملاء",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "حول Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "benefits_of_daily_puja": {
+      "mental": [
+        "يقلل من التوتر والقلق من خلال الممارسات التأملية.",
+        "يخلق شعورا بالانضباط والروتين.",
+        "يعزز التركيز ووضوح الفكر."
+      ],
+      "physical": [
+        "طقوس الصباح الباكر تشجع العادات الصحية.",
+        "التنفس والترديد يحسن صحة الجهاز التنفسي.",
+        "الاهتزازات الإيجابية تعزز الرفاهية العامة."
+      ],
+      "social": [
+        "يقوي الترابط الأسري من خلال الطقوس المشتركة.",
+        "يحافظ على التراث الثقافي والروحي.",
+        "يشجع على الوئام المجتمعي أثناء الصلوات الجماعية."
+      ],
+      "spiritual": [
+        "يعزز السلام الداخلي واليقظة.",
+        "يقوي التفاني والاتصال مع الإلهي.",
+        "ينقي العقل ويقلل من الميول السلبية."
+      ]
+    },
+    "common_daily_pujas": [
+      {
+        "name": "سانديافاندانام",
+        "practices": [
+          "تلاوة غاياتري تعويذة",
+          "قربان الماء (ارغيا)",
+          "تأمل"
+        ],
+        "significance": "صلاة الفيدية للتطهير والامتنان لإله الشمس.",
+        "time": "الصباح، الظهر، المساء"
+      },
+      {
+        "name": "سوريا بوجا",
+        "practices": [
+          "تقديم الماء للشمس",
+          "يرددون سوريا التغني"
+        ],
+        "significance": "عبادة إله الشمس للصحة والحيوية.",
+        "time": "صباح"
+      },
+      {
+        "name": "تولسي بوجا",
+        "practices": [
+          "مصباح الإضاءة بالقرب من تولسي",
+          "تقديم الماء والزهور"
+        ],
+        "significance": "عبادة نبات التولسي للنقاء والرخاء.",
+        "time": "صباحا أو مساءا"
+      },
+      {
+        "name": "شيفا بوجا",
+        "practices": [
+          "تقديم أوراق بيلفا",
+          "ترديد \"أوم نامة شيفايا\""
+        ],
+        "significance": "عبادة اللورد شيفا من أجل السلام والتحرر.",
+        "time": "صباحا أو مساءا"
+      },
+      {
+        "name": "لاكشمي بوجا",
+        "practices": [
+          "مصابيح الإضاءة",
+          "تقديم الزهور والحلويات"
+        ],
+        "significance": "عبادة الإلهة لاكشمي من أجل الثروة والوئام.",
+        "time": "مساء"
+      }
+    ],
+    "definition": "البوجا اليومية هي طقوس تعبدية يتم إجراؤها في المنزل أو في المعابد لتكريم الآلهة والحفاظ على الانضباط الروحي والتعبير عن الامتنان.",
+    "key_scriptural_references": [
+      {
+        "quote_summary": "قدم كل عمل كعبادة للإله.",
+        "text": "بهاجافاثجيتا"
+      },
+      {
+        "quote_summary": "يصف إجراءات مفصلة للبوجا اليومية.",
+        "text": "أجاماس"
+      }
+    ],
+    "modern_relevance": {
+      "family_bonding": "الطقوس المشتركة تقوي العلاقات.",
+      "mindfulness": "تعزز البوجا اليومية الهدوء والامتنان.",
+      "spirituality": "يربط الأفراد بالوعي العالي."
+    },
+    "origin": {
+      "purpose": "لاستدعاء البركات الإلهية وتنقية العقل.",
+      "roots": "التقليد الفيدي",
+      "texts": [
+        "أجاماس",
+        "سمريتيس",
+        "بوراناس"
+      ]
+    },
+    "steps_in_home_puja": [
+      "تنظيف المذبح والمنطقة المحيطة به.",
+      "ضع أصنام الإله أو الصور على منصة نظيفة.",
+      "أشعل مصباحًا (ديبا) وأعواد البخور.",
+      "تقديم الزهور والفواكه والمياه.",
+      "ردد التغني أو مارس التأمل الصامت.",
+      "اختتم مع آرتي ووزع براسادام."
+    ],
+    "symbolism": [
+      "المصباح يدل على إزالة الظلمة (الجهل).",
+      "الزهور تمثل النقاء والتفاني.",
+      "عرض الماء يرمز إلى الاستسلام وطاقة الحياة."
+    ]
+  }
+}

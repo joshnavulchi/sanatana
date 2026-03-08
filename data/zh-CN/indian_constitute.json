@@ -1,0 +1,328 @@
+{
+  "indian_constition": {
+    "title": "印度宪法",
+    "meta": {
+      "title": "印度宪法：历史沿革、起草过程和宪法哲学",
+      "canonical": "https://sanatanadharmam.in/indian-constition",
+      "description": "对印度宪法、其历史背景、起草委员会成员、B. R. Ambedkar 博士的角色、时间表、结构、外国影响和批判性评价进行全面的学术分析。",
+      "keywords": [
+        "Amendment Process of Indian Constitution",
+        "Constituent Assembly",
+        "Constitution of India",
+        "Constitutional Amendments Cases in India",
+        "Constitutional Amendments in India",
+        "Constitutional Democracy Cases in India",
+        "Constitutional Democracy in India",
+        "Constitutional Development in India",
+        "Constitutional Duties in India",
+        "Constitutional Framework of India",
+        "Constitutional Governance Cases in India",
+        "Constitutional Governance in India",
+        "Constitutional Interpretation Cases in India",
+        "Constitutional Interpretation in India",
+        "Constitutional Justice Cases in India",
+        "Constitutional Justice in India",
+        "Constitutional Law Cases in India",
+        "Constitutional Law in India",
+        "Constitutional Morality Cases in India",
+        "Constitutional Morality in India",
+        "Constitutional Philosophy of Indian Constitution",
+        "Constitutional Principles Cases in India",
+        "Constitutional Principles in India",
+        "Constitutional Provisions Cases in India",
+        "Constitutional Provisions in India",
+        "Constitutional Republic Cases in India",
+        "Constitutional Republic in India",
+        "Constitutional Rights Cases in India",
+        "Constitutional Rights in India",
+        "Constitutional Values Cases in India",
+        "Constitutional Values in India",
+        "Critical Analysis of Indian Constitution",
+        "Directive Principles of State Policy",
+        "Dr. B. R. Ambedkar",
+        "Drafting Committee",
+        "Emergency Provisions in Indian Constitution",
+        "Evolution of Indian Constitution",
+        "Federal Structure of India",
+        "Foreign Influences on Indian Constitution",
+        "Fundamental Rights in India",
+        "Historical Background of Indian Constitution",
+        "Indian Constitution",
+        "Indian Independence Movement",
+        "Indian Political History",
+        "Preamble of Indian Constitution",
+        "Strengths and Criticisms of Indian Constitution",
+        "Timeline of Indian Constitution"
+      ],
+      "ogimage": "images/og/indian_constitution.png",
+      "url": "https://sanatanadharmam.in/indian-constition"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "组织",
+        "contactpoint": {
+          "@type": "联络点",
+          "areaserved": "全世界",
+          "availablelanguage": [
+            "巴黎",
+            "德语",
+            "英语",
+            "西班牙语",
+            "法国人",
+            "हिन्दी",
+            "日本语",
+            "नेपाली",
+            "荷兰",
+            "葡萄牙语",
+            "俄罗斯",
+            "తెలుగు",
+            "阿鲁多",
+            "中文 (简体)"
+          ],
+          "contacttype": "客户支持",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "关于 Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "overview": {
+      "adoptiondate": "1949 年 11 月 26 日",
+      "amendmentsmoved": 2473,
+      "amendmentsproposed": 7653,
+      "enforcementdate": "1950 年 1 月 26 日",
+      "originalarticles": 395,
+      "originalschedules": 8,
+      "totaldraftingtime": "2年11个月18天",
+      "totalsessions": 11,
+      "totalsittings": 165
+    },
+    "sections": [
+      {
+        "title": "历史背景（1858年–1946年）",
+        "content": {
+          "cabinetmissionplan1946": "提议组建制宪会议并制定宪法起草框架。",
+          "colonialcontext": "1857 年起义之后，根据 1858 年《印度政府法》，治理权从东印度公司转移到英国王室。这种中央集权的帝国权力标志着殖民地印度宪政发展的开始。",
+          "globalinfluences": "美国的宪政主义、英国的议会传统、爱尔兰的指导原则和战后人权哲学都影响了印度的制宪者。",
+          "governmentofindiaacts": {
+            "1858": "将权力移交给英国王室。",
+            "1909": "在莫利-明托改革中引入了单独的选民。",
+            "1919": "蒙塔古-切姆斯福德改革引入了二元制。",
+            "1935": "制定了省级自治和联邦结构蓝图。"
+          },
+          "nationalmovementinfluence": "印度国大党成立于1885年，逐渐从温和的改革机构转变为要求自治的群众政治运动。",
+          "needforconstitution": "印度需要一个主权、民主、共和的框架，确保权利、联邦平衡和社会正义。",
+          "regulatingact1773": "1773年的《管制法案》是英国首次通过议会干预来规范东印度公司的统治。它引入了中央集权，为宪政奠定了基础。"
+        },
+        "id": "历史背景"
+      },
+      {
+        "title": "制宪会议的成立（1946年）",
+        "details": {
+          "electionmethod": "根据内阁任务计划，由省立法议会进行间接选举。",
+          "firstmeeting": "1946 年 12 月 9 日",
+          "keyfigures": {
+            "constitutionaladvisor": "B·N·劳",
+            "president": "拉金德拉·普拉萨德博士",
+            "vicepresident": "H.C.慕克吉"
+          },
+          "representationbreakdown": {
+            "britishindianprovinces": 292,
+            "chiefcommissionersprovinces": 4,
+            "princelystates": 93
+          },
+          "totalmembersafterpartition": 299,
+          "totalmembersinitial": 389
+        },
+        "id": "制宪会议"
+      },
+      {
+        "title": "起草委员会（1947年8月29日成立）",
+        "chairman": "B.R.安贝德卡博士",
+        "id": "起草委员会",
+        "members": [
+          {
+            "biography": "法学家、经济学家、社会改革家、宪法的主要制定者。",
+            "contributions": [
+              "起草基本权利结构",
+              "倡导社会正义与平等",
+              "具有强大中心的结构化联邦体系"
+            ],
+            "name": "B.R.安贝德卡博士",
+            "politicalbackground": "抑郁阶层领袖、独立印度法律部长。",
+            "specialization": "宪法、经济学、社会正义理论"
+          },
+          {
+            "biography": "查谟和克什米尔的政治家和前总理。",
+            "contributions": [
+              "司法规定草案",
+              "为联邦结构设计做出了贡献"
+            ],
+            "name": "N·戈帕拉斯瓦米·艾扬加尔",
+            "politicalbackground": "制宪议会议员兼内阁部长。",
+            "specialization": "行政法、联邦治理"
+          },
+          {
+            "biography": "杰出律师和马德拉斯总检察长。",
+            "contributions": [
+              "澄清了法律起草的准确性",
+              "为基本权利辩论做出贡献"
+            ],
+            "name": "阿拉迪·克里希纳斯瓦米·艾亚尔",
+            "politicalbackground": "宪法专家顾问。",
+            "specialization": "宪法解释"
+          },
+          {
+            "biography": "律师、作家和民族主义领袖。",
+            "contributions": [
+              "基本权利起草",
+              "指导原则起草"
+            ],
+            "name": "K·M·蒙希",
+            "politicalbackground": "国会领袖和文化民族主义者。",
+            "specialization": "公民自由、文化权利"
+          },
+          {
+            "biography": "阿萨姆邦前总理。",
+            "contributions": [
+              "少数群体保障讨论"
+            ],
+            "name": "穆罕默德·萨杜拉",
+            "politicalbackground": "穆斯林联盟代表。",
+            "specialization": "省级自治"
+          },
+          {
+            "biography": "法学家；因健康不佳而辞职。",
+            "name": "B·L·米特",
+            "replacement": "N·马达瓦·拉奥",
+            "specialization": "行政法"
+          },
+          {
+            "biography": "知名律师；在起草过程中去世。",
+            "name": "D·P·凯坦",
+            "replacement": "T.T.克里希纳马查里",
+            "specialization": "商业法和宪法"
+          }
+        ]
+      },
+      {
+        "title": "B. R. Ambedkar 博士的角色",
+        "analysis": {
+          "architecttitlejustification": "领导起草过程，逐条捍卫条款，整合不同的委员会报告。",
+          "constitutionalphilosophy": "社会民主主义以自由、平等、博爱为基础。",
+          "finalspeechsummary": "警告反对英雄崇拜，强调宪法道德和社会民主。",
+          "selectionreason": "因法律学术、少数族裔代表性和宪法专业知识而受到认可。",
+          "views": {
+            "federalism": "国家联盟有强大的中心来维持统一。",
+            "fundamentalrights": "对于个人尊严和防止国家过度行为至关重要。",
+            "minoritysafeguards": "政治和文化保护机制。",
+            "parliamentarydemocracy": "负责的行政人员对立法机关负责。",
+            "socialjustice": "针对在册种姓和落后阶层的平权行动。"
+          }
+        },
+        "id": "安贝德卡角色"
+      },
+      {
+        "title": "按时间顺序排列的时间轴",
+        "events": [
+          {
+            "event": "内阁任务计划公布。",
+            "year": 1946
+          },
+          {
+            "date": "1946 年 12 月 9 日",
+            "event": "制宪会议第一次会议。"
+          },
+          {
+            "date": "1947 年 8 月 15 日",
+            "event": "印度获得独立。"
+          },
+          {
+            "date": "1947 年 8 月 29 日",
+            "event": "起草委员会成立。"
+          },
+          {
+            "date": "1948 年 2 月",
+            "event": "宪法初稿公布。"
+          },
+          {
+            "date": "1949 年 11 月 26 日",
+            "event": "宪法获得通过。"
+          },
+          {
+            "date": "1950 年 1 月 24 日",
+            "event": "会员签署了章程。"
+          },
+          {
+            "date": "1950 年 1 月 26 日",
+            "event": "宪法生效。"
+          }
+        ],
+        "id": "时间线"
+      },
+      {
+        "title": "宪法的结构",
+        "components": {
+          "amendmentprocess": "第368条规定了灵活-刚性修正模式。",
+          "directiveprinciples": "第四部分规定了社会经济治理原则。",
+          "emergencyprovisions": "第 352 条、第 356 条、第 360 条。",
+          "federalstructure": "联盟、州和并发列表。",
+          "fundamentalduties": "由第 42 条修正案（1976 年）添加。",
+          "fundamentalrights": "第三部分保障法院可执行的公民权利和政治权利。",
+          "judiciary": "司法机构一体化，最高法院为最高法院。",
+          "parliamentarysystem": "行政人员对人民院负责。",
+          "preamble": "宣布印度为主权、社会主义、世俗、民主共和国，确保正义、自由、平等、博爱。"
+        },
+        "id": "结构"
+      },
+      {
+        "title": "外国影响",
+        "id": "外国影响",
+        "influences": {
+          "australia": "并发列表概念。",
+          "canada": "具有强大中心的联邦结构。",
+          "germany": "紧急规定。",
+          "ireland": "指导原则。",
+          "southafrica": "修改程序。",
+          "uk": "议会制，法治。",
+          "usa": "基本权利，司法审查。",
+          "ussr": "基本职责（稍后添加）。"
+        }
+      },
+      {
+        "title": "批判性分析",
+        "criticisms": [
+          "长度和复杂性",
+          "权力集中",
+          "频繁修改"
+        ],
+        "evolution": "100 多项修正案重塑了治理，加强了民主，同时应对了社会政治挑战。",
+        "id": "批判性分析",
+        "strengths": [
+          "全面的权利框架",
+          "刚性与柔性的平衡",
+          "司法独立",
+          "强大的联邦但统一的结构"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "keywords": [
+      "veda",
+      "upanishad",
+      "kena",
+      "katha",
+      "mundaka",
+      "mandukya",
+      "purana",
+      "bhagavata",
+      "garuda",
+      "ramayana",
+      "mahabharata"
+    ]
+  }
+}

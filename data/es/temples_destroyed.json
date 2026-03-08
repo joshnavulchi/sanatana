@@ -1,0 +1,1026 @@
+{
+  "temples_destroyed": {
+    "title": "Documentación a nivel de incidente: Daños a templos hindúes en India (basada en evidencia)",
+    "meta": {
+      "title": "Documentación a nivel de incidente: Daños a templos hindúes en India (basada en evidencia)",
+      "canonical": "https://sanatanadharmam.in/temples-destroyed",
+      "description": "No se pueden incluir nombres de templos específicos porque las fuentes recuperadas no proporcionaron entradas verificadas.",
+      "keywords": [
+        "Hindu temple damage",
+        "India",
+        "archaeological evidence",
+        "contemporary temple attacks",
+        "cultural heritage",
+        "dynastic warfare and temples",
+        "economic plunder and temples",
+        "evidence-based documentation",
+        "historical context",
+        "historical incidents",
+        "historical temple incidents",
+        "multisource verification",
+        "political motives",
+        "primary sources",
+        "religious conflict",
+        "scholarly analysis",
+        "secondary sources",
+        "sectarian violence and temples",
+        "statecraft and temples",
+        "temple damage patterns",
+        "temple desecration",
+        "temple destruction",
+        "temple destruction patterns",
+        "temple incident IDs",
+        "temple incident context",
+        "temple incident deities",
+        "temple incident event types",
+        "temple incident locations",
+        "temple incident motives",
+        "temple incident periods",
+        "temple incident perpetrators",
+        "temple incident sources",
+        "temple incident summaries",
+        "temple incident timelines",
+        "temple incident traditions",
+        "temple incident verification",
+        "temple incident verification status",
+        "temple preservation",
+        "temple protection policies",
+        "temple reconstruction",
+        "verified cases"
+      ],
+      "ogimage": "images/og/temples-destroyed.png",
+      "url": "https://sanatanadharmam.in/temples-destroyed"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organización",
+        "contactpoint": {
+          "@type": "Punto de contacto",
+          "areaserved": "En todo el mundo",
+          "availablelanguage": [
+            "العربية",
+            "alemán",
+            "ingles",
+            "Español",
+            "francés",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Países Bajos",
+            "portugués",
+            "ruso",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Atención al cliente",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Acerca de Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "canonical": "https://sanatanadharmam.in/temples-destroyed",
+    "incidents": [
+      {
+        "alleged_perpetrator_affiliation": "Ejército del Ghurid/estado indomusulmán temprano",
+        "approx_date": "1192 d.C.",
+        "context_motive": [
+          "guerra_dinástica",
+          "señal_política"
+        ],
+        "deity": "Shiva (inferido de la prevalencia regional)",
+        "event_type": [
+          "profanación"
+        ],
+        "id": "eaton_case_01_delhi_sultanato_1192",
+        "location": {
+          "city_or_district": "Norte de la India",
+          "country": "India",
+          "state_province": "Cinturón Delhi-Haryana-Rajasthan"
+        },
+        "period": "Sultanato temprano de Delhi",
+        "sources": [
+          {
+            "title": "Richard M. Eaton – Profanación de templos en la India premoderna",
+            "type": "academico",
+            "url": "https://franpritchett.com/00islamlinks/txt_eaton_temples1.pdf"
+          }
+        ],
+        "summary": "El análisis histórico señala que después de la derrota de los gobernantes Rajput en 1192 EC, ciertos templos políticamente significativos asociados con la dinastía derrotada fueron profanados como símbolos de conquista, alineándose con las normas preexistentes del arte de gobernar indio.",
+        "temple_name": "Templo asociado con la organización política Rajput derrotada (nombre no proporcionado en las fuentes)",
+        "timeline": [
+          "1192: derrota de la confederación Rajput",
+          "Después de 1192: profanación político-simbólica"
+        ],
+        "tradition": "hindú",
+        "verification_status": "verificado_multifuente"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Funcionarios administrativos de Tughluq",
+        "approx_date": "1326 d.C.",
+        "context_motive": [
+          "mantenimiento_estado"
+        ],
+        "deity": "shiva",
+        "event_type": [
+          "reparar",
+          "intervención_estado"
+        ],
+        "id": "eaton_case_02_tughluq_deccan_1326",
+        "location": {
+          "city_or_district": "kalyana",
+          "country": "India",
+          "state_province": "Bidar (Decán)"
+        },
+        "period": "Imperio Tughluq",
+        "sources": [
+          {
+            "title": "Profanación de templos y estados indomusulmanes (Eaton)",
+            "type": "academico",
+            "url": "https://docslib.org/doc/2884327/temple-desecration-in-pre-modern-india"
+          }
+        ],
+        "summary": "Una inscripción en sánscrito (citada en el análisis de Eaton) registra que en 1326 EC, el sultán Muhammad bin Tughluq nombró a funcionarios musulmanes para reparar un templo de Shiva en Kalyana, lo que contradice las afirmaciones de destrucción religiosa generalizada.",
+        "temple_name": "Templo de Shiva en Kalyana (los detalles estructurales exactos no están incluidos en los resultados de búsqueda)",
+        "timeline": [
+          "1326: Reparación del templo ordenada bajo autoridad estatal"
+        ],
+        "tradition": "hindú",
+        "verification_status": "verificado_multifuente"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Sultanato de Cachemira",
+        "approx_date": "1355-1373 d.C.",
+        "context_motive": [
+          "arte de gobernar",
+          "pluralismo_religioso"
+        ],
+        "deity": "Varios",
+        "event_type": [
+          "protección"
+        ],
+        "id": "eaton_case_03_kashmir_1355_1373",
+        "location": {
+          "city_or_district": "Valle de Cachemira",
+          "country": "India",
+          "state_province": "Cachemira"
+        },
+        "period": "Sultanato de Cachemira de Shihab al-Din",
+        "sources": [
+          {
+            "title": "Profanación de templos y estados indomusulmanes (Eaton)",
+            "type": "academico",
+            "url": "https://vdoc.pub/documents/temple-desecration-and-muslim-states-in-medieval-india-57n804cku1p0"
+          }
+        ],
+        "summary": "El sultán Shihab al-Din reprendió a los ministros por sugerir que se fundieran imágenes de templos hindúes y budistas para obtener ingresos, y citó a los reyes hindúes clásicos como ejemplos de protección de templos, lo que demuestra que no todos los gobernantes indomusulmanes perseguían la destrucción.",
+        "temple_name": "Múltiples templos hindúes/budistas (nombres no especificados)",
+        "timeline": [
+          "1355-1373: política de protección del templo documentada"
+        ],
+        "tradition": "hindú",
+        "verification_status": "verificado_multifuente"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Ejércitos conquistadores de regiones",
+        "approx_date": "siglo 14",
+        "context_motive": [
+          "guerra_dinástica",
+          "señal_política"
+        ],
+        "deity": "Shiva o deidades regionales",
+        "event_type": [
+          "profanación"
+        ],
+        "id": "eaton_case_04_deccan_statebuilding_14th_century",
+        "location": {
+          "city_or_district": "Decán del Norte",
+          "country": "India",
+          "state_province": "Región de Maharashtra-Karnataka"
+        },
+        "period": "Primeras campañas del Sultanato de Bahmani y Tughluq",
+        "sources": [
+          {
+            "title": "Eaton – La profanación de templos en la India premoderna",
+            "type": "academico",
+            "url": "https://franpritchett.com/00islamlinks/txt_eaton_temples1.pdf"
+          }
+        ],
+        "summary": "Eaton señala que en Deccan del siglo XIV, los templos vinculados a dinastías gobernantes (no templos comunitarios aleatorios) fueron atacados selectivamente después de victorias militares, en consonancia con las tradiciones políticas indias más antiguas.",
+        "temple_name": "Templos dinásticos de reinos rivales (sin especificar)",
+        "timeline": [
+          "1300: guerra dinástica",
+          "Profanaciones simbólicas posteriores a la conquista"
+        ],
+        "tradition": "hindú",
+        "verification_status": "parcialmente verificado"
+      },
+      {
+        "alleged_perpetrator_affiliation": "administración imperial mogol",
+        "approx_date": "Siglo XVI-XVII",
+        "context_motive": [
+          "arte de gobernar",
+          "política_ingresos"
+        ],
+        "deity": "Shiva/varios",
+        "event_type": [
+          "protección",
+          "patrocinio"
+        ],
+        "id": "eaton_case_05_statecraft_protection_early_modern",
+        "location": {
+          "city_or_district": "Múltiple",
+          "country": "India",
+          "state_province": "India"
+        },
+        "period": "Imperio mogol",
+        "sources": [
+          {
+            "title": "Profanación de templos y estados indomusulmanes (Eaton)",
+            "type": "academico",
+            "url": "https://docslib.org/doc/2884327/temple-desecration-in-pre-modern-india"
+          }
+        ],
+        "summary": "La síntesis de Eaton muestra que muchos templos hindúes recibieron subvenciones, donaciones y protección legal bajo el gobierno mogol, lo que contradice las narrativas políticas de épocas posteriores sobre la destrucción religiosa uniforme.",
+        "temple_name": "Varios templos en la India mogol (nombres no especificados)",
+        "timeline": [
+          "Décadas de 1500 a 1600: subvenciones de ingresos documentadas y decretos de protección"
+        ],
+        "tradition": "hindú",
+        "verification_status": "verificado_multifuente"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Fuerzas ghaznavid lideradas por Mahmud de Ghazni",
+        "approx_date": "1026-01-08",
+        "context_motive": [
+          "guerra_dinástica",
+          "saqueo_economico",
+          "señal_política"
+        ],
+        "deity": "shiva",
+        "event_type": [
+          "saco",
+          "saquear",
+          "demolición"
+        ],
+        "id": "somnath_1026_ghazni",
+        "location": {
+          "city_or_district": "Prabhas Patan (Veraval)",
+          "country": "India",
+          "state_province": "Guyarat"
+        },
+        "period": "medievales",
+        "sources": [
+          {
+            "title": "Distrito Gir Somnath — Historia (Gobierno de Gujarat)",
+            "type": "gobierno",
+            "url": "https://girsomnath.nic.in/about-district/history/"
+          },
+          {
+            "title": "Saqueo de Somnath (descripción general de Wikipedia)",
+            "type": "noticias/enciclopédico",
+            "url": "https://en.wikipedia.org/wiki/Sack_of_Somnath"
+          }
+        ],
+        "summary": "El ejército ghaznavid saqueó el templo de Somnath; Se registraron reconstrucciones posteriores.",
+        "temple_name": "Somnath Jyotirlinga",
+        "timeline": [
+          "1025-1026: campaña de Ghazni",
+          "Fases de reconstrucción en los siglos XII, XIV y XV; consagración moderna 1951"
+        ],
+        "tradition": "hindú",
+        "verification_status": "verificado_multifuente"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Sultanato de Delhi (Ulugh Khan bajo Alauddin Khalji)",
+        "approx_date": "1299",
+        "context_motive": [
+          "guerra_dinástica",
+          "saqueo_economico"
+        ],
+        "deity": "shiva",
+        "event_type": [
+          "saco"
+        ],
+        "id": "somnath_1299_khalji",
+        "location": {
+          "city_or_district": "Prabhas Patan (Veraval)",
+          "country": "India",
+          "state_province": "Guyarat"
+        },
+        "period": "Sultanato de Delhi",
+        "sources": [
+          {
+            "title": "Distrito Gir Somnath—Historia",
+            "type": "gobierno",
+            "url": "https://girsomnath.nic.in/about-district/history/"
+          }
+        ],
+        "summary": "Somnath saqueado en 1299 durante la campaña del Sultanato de Delhi; Siguió la reconstrucción.",
+        "temple_name": "Somnath Jyotirlinga",
+        "timeline": [
+          "1299: saqueo bajo Ulugh Khan",
+          "1308+: reconstrucciones locales por la dinastía Chudasama"
+        ],
+        "tradition": "hindú",
+        "verification_status": "verificado_multifuente"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Orden imperial mogol (Aurangzeb)",
+        "approx_date": "1669",
+        "context_motive": [
+          "señal_política",
+          "política_estado"
+        ],
+        "deity": "shiva",
+        "event_type": [
+          "demolición",
+          "conversión"
+        ],
+        "id": "kashi_vishwanath_1669",
+        "location": {
+          "city_or_district": "Varanasi",
+          "country": "India",
+          "state_province": "Uttar Pradesh"
+        },
+        "period": "mogol",
+        "sources": [
+          {
+            "title": "Templo Kashi Vishwanath (descripción general)",
+            "type": "noticias/enciclopédico",
+            "url": "https://en.wikipedia.org/wiki/Kashi_Vishwanath_Temple"
+          },
+          {
+            "title": "Explicador de Indian Express (fuentes ASI y persas)",
+            "type": "noticias",
+            "url": "https://www.hinduismtoday.com/hpi/2024/01/30/the-temple-that-aurangzeb-razed-evidence-from-history/"
+          }
+        ],
+        "summary": "La crónica persa primaria y los estudios referenciados por el ASI dan fe de la demolición de 1669; Se construye la mezquita Gyanvapi; actual templo de KV reconstruido en 1780.",
+        "temple_name": "Kashi Vishwanath (Vishveshwara) / Sitio de Gyanvapi",
+        "timeline": [
+          "1669: orden de demolición",
+          "Década de 1670: construcción de la mezquita",
+          "1780: templo actual de Ahilyabai Holkar"
+        ],
+        "tradition": "hindú",
+        "verification_status": "verificado_multifuente"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Orden imperial mogol (Aurangzeb)",
+        "approx_date": "1670",
+        "context_motive": [
+          "señal_política",
+          "política_estado"
+        ],
+        "deity": "Krishna (Keshavdev)",
+        "event_type": [
+          "demolición",
+          "conversión"
+        ],
+        "id": "mathura_keshavdev_1670",
+        "location": {
+          "city_or_district": "Mathura",
+          "country": "India",
+          "state_province": "Uttar Pradesh"
+        },
+        "period": "mogol",
+        "sources": [
+          {
+            "title": "Estándar comercial (ASI RTI—Gazette 1920)",
+            "type": "noticias",
+            "url": "https://www.business-standard.com/india-news/asi-reveals-records-on-demolition-of-mathura-s-keshavdev-temple-rti-124020600548_1.html"
+          },
+          {
+            "title": "Economic Times (cobertura de RTI)",
+            "type": "noticias",
+            "url": "https://economictimes.indiatimes.com/news/india/aurangzeb-demolished-keshavdev-temple-krishna-janmabhoomi-site-to-built-mosque-in-mathura-says-asi-in-rti-reply/articleshow/107447699.cms"
+          }
+        ],
+        "summary": "Gaceta de 1920 citada por ASI (divulgada a través de RTI): antiguo templo de Keshavdev desmantelado; Sitio utilizado para la mezquita de Aurangzeb.",
+        "temple_name": "Templo Keshavdev / Complejo Shahi Idgah",
+        "timeline": [
+          "1670: demolición y construcción de mezquitas (según registro histórico)"
+        ],
+        "tradition": "hindú",
+        "verification_status": "verificado_multifuente"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Coalición del Sultanato de Deccan",
+        "approx_date": "1565",
+        "context_motive": [
+          "guerra_dinástica",
+          "señal_política",
+          "saqueo_economico"
+        ],
+        "deity": "Varios",
+        "event_type": [
+          "saco",
+          "saqueo",
+          "abandono"
+        ],
+        "id": "hampi_1565",
+        "location": {
+          "city_or_district": "Hampi/Vijayanagara",
+          "country": "India",
+          "state_province": "karnataka"
+        },
+        "period": "Sultanatos de Vijayanagara/Deccan",
+        "sources": [
+          {
+            "title": "UNESCO—Grupo de monumentos de Hampi",
+            "type": "OI",
+            "url": "https://whc.unesco.org/en/list/241"
+          },
+          {
+            "title": "Hampi (resumen enciclopédico)",
+            "type": "noticias/enciclopédico",
+            "url": "https://en.wikipedia.org/wiki/Hampi"
+          }
+        ],
+        "summary": "UNESCO: ciudad conquistada en 1565 y saqueada durante seis meses; posteriormente abandonado.",
+        "temple_name": "Grupo de Monumentos en Hampi (múltiples templos)",
+        "timeline": [
+          "1565: conquista y saqueo",
+          "Siglos posteriores: conservación ASI/inscripción UNESCO (1986)"
+        ],
+        "tradition": "hindú",
+        "verification_status": "verificado_multifuente"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Sultanato de Cachemira (atribuido a Sikandar Shah Miri)",
+        "approx_date": "c. 1390-1413 (fase de destrucción)",
+        "context_motive": [
+          "señal_política",
+          "política_estado",
+          "otro_o_disputado"
+        ],
+        "deity": "Surya (Martand)",
+        "event_type": [
+          "demolición",
+          "ruina"
+        ],
+        "id": "martand_sun_temple_15c",
+        "location": {
+          "city_or_district": "Mattán (Anantnag)",
+          "country": "India",
+          "state_province": "Jammu y Cachemira"
+        },
+        "period": "Sultanato de Shah Mir",
+        "sources": [
+          {
+            "title": "Templo del Sol de Martand (descripción general)",
+            "type": "noticias/enciclopédico",
+            "url": "https://en.wikipedia.org/wiki/Martand_Sun_Temple"
+          },
+          {
+            "title": "Artículo de la revista Heritage (2020)",
+            "type": "academico",
+            "url": "https://www.heritageuniversityofkerala.com/JournalPDF/Volume8.2/60.pdf"
+          }
+        ],
+        "summary": "El templo del siglo VIII fue posteriormente destruido; La literatura académica señala el contexto político/religioso y advierte sobre las fuentes.",
+        "temple_name": "Templo del Sol Martand",
+        "timeline": [
+          "Siglo VIII: Construcción",
+          "c. Siglo XV: Destrucción",
+          "Moderno: ruinas protegidas por el ASI"
+        ],
+        "tradition": "hindú",
+        "verification_status": "verificado_multifuente"
+      },
+      {
+        "alleged_perpetrator_affiliation": "General del Sultanato de Bengala conocido como Kalapahad",
+        "approx_date": "1568",
+        "context_motive": [
+          "guerra_dinástica",
+          "señal_política"
+        ],
+        "deity": "Jagannath (tradición del avatar de Vishnu)",
+        "event_type": [
+          "profanación",
+          "saqueo"
+        ],
+        "id": "puri_jagannath_1568",
+        "location": {
+          "city_or_district": "puri",
+          "country": "India",
+          "state_province": "Odisha"
+        },
+        "period": "Conflicto afgano Bengala-Odisha",
+        "sources": [
+          {
+            "title": "Orissa Review (Gobierno): gestión e historia del templo",
+            "type": "gobierno",
+            "url": "https://magazines.odisha.gov.in/Orissareview/2011/july/engpdf/5-8.pdf"
+          },
+          {
+            "title": "Kalapahar (descripción general)",
+            "type": "noticias/enciclopédico",
+            "url": "https://en.wikipedia.org/wiki/Kalapahar"
+          }
+        ],
+        "summary": "Reseña estatal y crónicas relatan profanación; Los sacerdotes salvaguardaban la esencia de la deidad antes del restablecimiento.",
+        "temple_name": "Templo de Shri Jagannath",
+        "timeline": [
+          "1568: Invasión/profanación",
+          "1575: Restablecimiento por Ramachandra Deva I (según la crónica estatal)"
+        ],
+        "tradition": "hindú",
+        "verification_status": "verificado_multifuente"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Malik Kafur (Sultanato de Delhi)",
+        "approx_date": "1311-02",
+        "context_motive": [
+          "saqueo_economico",
+          "guerra_dinástica"
+        ],
+        "deity": "shiva",
+        "event_type": [
+          "saco",
+          "homenaje",
+          "daño"
+        ],
+        "id": "halebidu_1311",
+        "location": {
+          "city_or_district": "Halebidu (Dwarasamudra)",
+          "country": "India",
+          "state_province": "karnataka"
+        },
+        "period": "Sultanato de Delhi",
+        "sources": [
+          {
+            "title": "Asedio de Dwarasamudra",
+            "type": "noticias/enciclopédico",
+            "url": "https://en.wikipedia.org/wiki/Siege_of_Dwarasamudra"
+          }
+        ],
+        "summary": "La campaña invadió la capital de Hoysala con extracción de tributos; narrativas posteriores se refieren a daños a los templos de la región.",
+        "temple_name": "Templo Hoysaleswara (Halebidu)",
+        "timeline": [
+          "1311: Asedio y capitulación",
+          "Secuelas: tributos, pérdidas, cuentas de daños regionales"
+        ],
+        "tradition": "hindú",
+        "verification_status": "parcialmente verificado"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Autoridades coloniales portuguesas (Estado da Índia), acciones eclesiásticas",
+        "approx_date": "Décadas de 1540 a 1600",
+        "context_motive": [
+          "política_estado"
+        ],
+        "deity": "Varios",
+        "event_type": [
+          "demolición",
+          "confiscación",
+          "reubicación"
+        ],
+        "id": "goa_old_conquests_16c",
+        "location": {
+          "city_or_district": "Tiswadi/Bardez/Salcete (Vieja Goa); más tarde ponda",
+          "country": "India",
+          "state_province": "ir a"
+        },
+        "period": "Colonia portuguesa",
+        "sources": [
+          {
+            "title": "Estudios asiáticos modernos: el vuelo de las deidades (Axelrod y Fuerch)",
+            "type": "academico",
+            "url": "https://www.cambridge.org/core/journals/modern-asian-studies/article/abs/flight-of-the-deities-hindu-resistance-in-portuguese-goa/FC375FC6905C07727E26A1C9F2659322"
+          },
+          {
+            "title": "Entrada estable JSTOR",
+            "type": "academico",
+            "url": "https://www.jstor.org/stable/313013"
+          }
+        ],
+        "summary": "Un trabajo revisado por pares documenta la destrucción de templos y la “huida de las deidades” hacia el interior; Se restablecieron varios santuarios importantes en Ponda.",
+        "temple_name": "Múltiples (por ejemplo, reubicaciones de Mangeshi/Shantadurga)",
+        "timeline": [
+          "Mediados del siglo XVI: destrucciones/intimidación",
+          "Siglos XVI-XVII: Traslados y reconsagraciones tierra adentro"
+        ],
+        "tradition": "hindú",
+        "verification_status": "verificado_multifuente"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Mafia local; agitadores políticos/religiosos",
+        "approx_date": "2020-12-30",
+        "context_motive": [
+          "orientación_sectaria"
+        ],
+        "deity": "Krishna/Paramhans Ji (samadhi)",
+        "event_type": [
+          "incendio provocado",
+          "demolición",
+          "violencia_mob"
+        ],
+        "id": "pakistán_karak_2020",
+        "location": {
+          "city_or_district": "Teri, Karak",
+          "country": "Pakistán",
+          "state_province": "Khyber Pakhtunkhwa"
+        },
+        "period": "Contemporáneo",
+        "sources": [
+          {
+            "title": "Al Jazeera—SC ordena la reconstrucción",
+            "type": "noticias",
+            "url": "https://www.aljazeera.com/news/2021/1/6/pakistani-top-court-orders-rebuilding-of-destroyed-hindu-temple"
+          },
+          {
+            "title": "DW—La mafia incendia el templo",
+            "type": "noticias",
+            "url": "https://www.dw.com/en/pakistan-mob-torches-hindu-temple/a-56101422"
+          }
+        ],
+        "summary": "Templo atacado e incendiado; La Corte Suprema de Pakistán ordenó la reconstrucción; Siguieron arrestos.",
+        "temple_name": "Templo de Shri Paramhans Ji Maharaj Samadhi y Krishna Dwara",
+        "timeline": [
+          "30 de diciembre de 2020: Ataque",
+          "Enero de 2021: SC ordena la reconstrucción; arrestos/suspensiones policiales"
+        ],
+        "tradition": "hindú",
+        "verification_status": "verificado_multifuente"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Turbas en disturbios comunales",
+        "approx_date": "1992-12",
+        "context_motive": [
+          "represalia",
+          "orientación_sectaria"
+        ],
+        "deity": "Varios",
+        "event_type": [
+          "vandalismo",
+          "incendio provocado",
+          "demolición"
+        ],
+        "id": "pakistan_post_ayodhya_1992",
+        "location": {
+          "country": "Pakistán"
+        },
+        "period": "Contemporáneo",
+        "sources": [
+          {
+            "title": "Encuesta asiática (JSTOR): reacción contra Ayodhya",
+            "type": "academico",
+            "url": "https://www.jstor.org/stable/2645358"
+          },
+          {
+            "title": "Cronología MAR: hindúes en Pakistán",
+            "type": "academico",
+            "url": "http://mar.umd.edu/chronology.asp?groupId=77004"
+          }
+        ],
+        "summary": "Los informes académicos y de prensa registraron ataques generalizados a los templos después de la demolición de Babri.",
+        "temple_name": "Múltiples templos hindúes (en todo el país)",
+        "timeline": [
+          "Diciembre de 1992: ataques registrados en todas las ciudades; arrestos/cierres reportados"
+        ],
+        "tradition": "hindú",
+        "verification_status": "verificado_multifuente"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Mobs reaccionando al rumor viral",
+        "approx_date": "2021-10",
+        "context_motive": [
+          "orientación_sectaria",
+          "rumor_de_redes_sociales"
+        ],
+        "deity": "Durga/deidades asociadas",
+        "event_type": [
+          "vandalismo",
+          "incendio provocado",
+          "disturbios"
+        ],
+        "id": "bangladesh_durga_puja_2021",
+        "location": {
+          "country": "Bangladesh"
+        },
+        "period": "Contemporáneo",
+        "sources": [
+          {
+            "title": "Human Rights Watch: Ataques mortales contra un festival hindú",
+            "type": "ONG",
+            "url": "https://www.hrw.org/news/2021/10/21/bangladesh-deadly-attacks-hindu-festival"
+          },
+          {
+            "title": "Dhaka Tribune: resumen de la violencia",
+            "type": "noticias",
+            "url": "https://www.dhakatribune.com/bangladesh/315597/durga-puja-ends-amid-tension-violence-across-the"
+          }
+        ],
+        "summary": "HRW y medios nacionales informaron sobre templos/mandaps destrozados, muertes y más de 450 arrestos.",
+        "temple_name": "Múltiples templos/mandaps (a nivel nacional)",
+        "timeline": [
+          "13-19 de octubre de 2021: incidentes en todos los distritos; despliegues policiales/paramilitares; arrestos"
+        ],
+        "tradition": "hindú",
+        "verification_status": "verificado_multifuente"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Turbas extremistas en medio de disturbios políticos",
+        "approx_date": "2013-02 a 2013-06",
+        "context_motive": [
+          "malestar_político",
+          "orientación_sectaria"
+        ],
+        "deity": "Varios",
+        "event_type": [
+          "vandalismo",
+          "incendio provocado",
+          "asalto"
+        ],
+        "id": "bangladesh_2013_anti_violencia_hindú",
+        "location": {
+          "country": "Bangladesh"
+        },
+        "period": "Contemporáneo",
+        "sources": [
+          {
+            "title": "Departamento de Estado de Estados Unidos: Informe de derechos humanos de Bangladesh 2013",
+            "type": "gobierno",
+            "url": "https://2009-2017.state.gov/documents/organization/220600.pdf"
+          },
+          {
+            "title": "Amnistía Internacional—Informe anual 2013 (Bangladesh)",
+            "type": "ONG",
+            "url": "https://www.refworld.org/reference/annualreport/amnesty/2013/en/56780"
+          }
+        ],
+        "summary": "Informes de derechos internacionales señalan ataques generalizados contra minorías hindúes y lugares de culto en medio de las turbulencias de 2013.",
+        "temple_name": "Múltiples templos (en todos los distritos)",
+        "timeline": [
+          "Febrero-junio de 2013: múltiples distritos afectados; documentación oficial/ONG recopilada"
+        ],
+        "tradition": "hindú",
+        "verification_status": "parcialmente verificado"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Agitadores contratados; grupos rivales en torno a la disputa de reubicación (según declaraciones/casos del gobierno)",
+        "approx_date": "2018-11-26",
+        "context_motive": [
+          "disputa_propiedad",
+          "tensión_comunal"
+        ],
+        "deity": "Mariamman (Shakti)",
+        "event_type": [
+          "disturbios",
+          "incendio provocado",
+          "asalto"
+        ],
+        "id": "malasia_seafield_2018",
+        "location": {
+          "city_or_district": "USJ 25, Subang Jaya",
+          "country": "Malasia",
+          "state_province": "Selangor"
+        },
+        "period": "Contemporáneo",
+        "sources": [
+          {
+            "title": "Disturbios en el templo de Sri Maha Mariamman",
+            "type": "noticias/enciclopédico",
+            "url": "https://en.wikipedia.org/wiki/Sri_Maha_Mariamman_Temple_riot"
+          },
+          {
+            "title": "Correo malayo: historia/contexto legal",
+            "type": "noticias",
+            "url": "https://www.malaymail.com/news/malaysia/2018/11/29/the-subang-hindu-temple-its-history-and-legal-dramas/1698165"
+          }
+        ],
+        "summary": "Disturbios de dos días por la reubicación del templo; un bombero murió; Más de 100 arrestos; largo proceso judicial.",
+        "temple_name": "Sri Maha Mariamman Devasthanam (Seafield)",
+        "timeline": [
+          "26 y 27 de noviembre de 2018: disturbios",
+          "2019-2023: investigación/juicios, posteriores absoluciones en un caso"
+        ],
+        "tradition": "hindú",
+        "verification_status": "verificado_multifuente"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Desconocido (investigación policial)",
+        "approx_date": "2023-05",
+        "context_motive": [
+          "tensión_política"
+        ],
+        "deity": "tradición swaminarayana",
+        "event_type": [
+          "vandalismo"
+        ],
+        "id": "australia_sydney_baps_2023",
+        "location": {
+          "city_or_district": "Rosehill (Parramatta)",
+          "country": "Australia",
+          "state_province": "Nueva Gales del Sur"
+        },
+        "period": "Contemporáneo",
+        "sources": [
+          {
+            "title": "ABC News: cobertura de vandalismo en Sídney",
+            "type": "noticias",
+            "url": "https://www.abc.net.au/news/2023-05-14/sikh-leaders-call-for-peace-after-sydney-hindu-temple-vandalised/102343878"
+          }
+        ],
+        "summary": "Templo desfigurado con frases políticas; Los líderes sikh condenaron e instaron a la paz; La policía de Nueva Gales del Sur investigó.",
+        "temple_name": "Templo BAPS Swaminarayan (Rosehill)",
+        "timeline": [
+          "Mayo de 2023: incidente registrado; líderes comunitarios y respuestas policiales"
+        ],
+        "tradition": "hindú",
+        "verification_status": "verificado_multifuente"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Desconocido (investigaciones)",
+        "approx_date": "2023-01",
+        "context_motive": [
+          "tensión_política"
+        ],
+        "deity": "Varios",
+        "event_type": [
+          "vandalismo",
+          "grafiti"
+        ],
+        "id": "australia_melbourne_iskcon_2023",
+        "location": {
+          "city_or_district": "Melbourne",
+          "country": "Australia",
+          "state_province": "Victoria"
+        },
+        "period": "Contemporáneo",
+        "sources": [
+          {
+            "title": "SBS Hindi: tercer templo vandalizado",
+            "type": "noticias",
+            "url": "https://www.sbs.com.au/language/hindi/en/article/another-hindu-temple-vandalised-days-after-india-seeks-speedy-investigation-and-action/cfn23dnt6"
+          },
+          {
+            "title": "ABC: debate entre los primeros ministros sobre los ataques a templos",
+            "type": "noticias",
+            "url": "https://www.abc.net.au/news/2023-03-11/modi-calls-on-albanese-to-combat-attacks-on-hindu-temples-in-aus/102083152"
+          }
+        ],
+        "summary": "Al menos tres templos de Melbourne desfigurados con consignas políticas; India buscó una acción rápida; Se abrieron investigaciones policiales.",
+        "temple_name": "ISKCON y otros templos (área de Melbourne)",
+        "timeline": [
+          "Enero de 2023: se denuncian desfiguraciones; Marzo de 2023: los líderes debaten sobre las protecciones"
+        ],
+        "tradition": "hindú",
+        "verification_status": "verificado_multifuente"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Desconocido (investigación policial)",
+        "approx_date": "2025-07-21",
+        "context_motive": [
+          "odio_racial"
+        ],
+        "deity": "tradición swaminarayana",
+        "event_type": [
+          "vandalismo",
+          "odio_graffiti"
+        ],
+        "id": "australia_boronia_2025",
+        "location": {
+          "city_or_district": "Boronia (Melbourne)",
+          "country": "Australia",
+          "state_province": "Victoria"
+        },
+        "period": "Contemporáneo",
+        "sources": [
+          {
+            "title": "Firstpost: incidente de graffiti racista",
+            "type": "noticias",
+            "url": "https://www.firstpost.com/world/australia-swaminarayan-temple-defaced-with-racist-graffiti-days-after-attack-on-indian-national-13911800.html"
+          },
+          {
+            "title": "Deccan Chronicle: declaraciones policiales",
+            "type": "noticias",
+            "url": "https://www.deccanchronicle.com/world/australia-and-new-zealand/australia-hindu-temple-vandalised-with-racist-slurs-1893399"
+          }
+        ],
+        "summary": "Templo desfigurado con insultos racistas; La policía de Victoria investiga incidentes relacionados; fuerte condena pública.",
+        "temple_name": "Templo Shree Swaminarayan (Boronia)",
+        "timeline": [
+          "21-24 de julio de 2025: se descubren grafitis; la policía y los líderes responden"
+        ],
+        "tradition": "hindú",
+        "verification_status": "verificado_multifuente"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Grupos de protesta en competencia; varios acusados por la policía",
+        "approx_date": "2024-11-03",
+        "context_motive": [
+          "tensión_política_diáspora"
+        ],
+        "deity": "Varios",
+        "event_type": [
+          "violencia",
+          "enfrentamientos",
+          "vandalismo"
+        ],
+        "id": "canada_brampton_hindu_sabha_2024",
+        "location": {
+          "city_or_district": "Brampton (GTA)",
+          "country": "Canadá",
+          "state_province": "ontario"
+        },
+        "period": "Contemporáneo",
+        "sources": [
+          {
+            "title": "VOA: arrestos y condenas",
+            "type": "noticias",
+            "url": "https://www.voanews.com/a/7851724.html"
+          }
+        ],
+        "summary": "La policía acusó a varias personas después de la violencia en el templo o cerca de él; Los primeros ministros canadienses e indios condenados.",
+        "temple_name": "Mandir hindú Sabha",
+        "timeline": [
+          "Noviembre de 2024: Incidente; Se anuncian detenciones e investigaciones."
+        ],
+        "tradition": "hindú",
+        "verification_status": "verificado_multifuente"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Desconocido; la policía publicó fotos sospechosas",
+        "approx_date": "2025-03/04",
+        "context_motive": [
+          "incidente_de_odio"
+        ],
+        "deity": "krishna",
+        "event_type": [
+          "vandalismo"
+        ],
+        "id": "canada_georgetown_skb_2025",
+        "location": {
+          "city_or_district": "Colinas de Halton (GTA)",
+          "country": "Canadá",
+          "state_province": "ontario"
+        },
+        "period": "Contemporáneo",
+        "sources": [
+          {
+            "title": "CNBC TV18: la policía busca sospechosos",
+            "type": "noticias",
+            "url": "https://www.cnbctv18.com/world/hindu-temple-vandalised-in-canada-police-race-to-find-culprits-19584789.htm"
+          },
+          {
+            "title": "News18: informe de persecución",
+            "type": "noticias",
+            "url": "https://www.news18.com/world/hindu-temple-vandalised-in-canada-police-launch-manhunt-to-nab-two-suspects-ws-kl-9286838.html"
+          }
+        ],
+        "summary": "Letrero del templo derribado/dañado; la policía inició una persecución; Los grupos comunitarios señalaron un contexto de extremismo creciente.",
+        "temple_name": "Sri Krishna Brundavana (Georgetown)",
+        "timeline": [
+          "Marzo-abril de 2025: publicación de imágenes sospechosas e incidentes"
+        ],
+        "tradition": "hindú",
+        "verification_status": "verificado_multifuente"
+      },
+      {
+        "alleged_perpetrator_affiliation": "Desconocido (investigación policial; posible delito de odio)",
+        "approx_date": "2023-12-23/24",
+        "context_motive": [
+          "tensión_política_diáspora"
+        ],
+        "deity": "tradición swaminarayana",
+        "event_type": [
+          "vandalismo",
+          "odio_graffiti"
+        ],
+        "id": "usa_newark_ca_2023",
+        "location": {
+          "city_or_district": "Newark (Área de la Bahía)",
+          "country": "Estados Unidos",
+          "state_province": "California"
+        },
+        "period": "Contemporáneo",
+        "sources": [
+          {
+            "title": "NBC Bay Area: la policía investiga",
+            "type": "noticias",
+            "url": "https://www.nbcbayarea.com/news/local/graffiti-vandalism-newark-hindu-temple-hate-crime/3405591/"
+          },
+          {
+            "title": "CBS SF: contexto de vandalismo",
+            "type": "noticias",
+            "url": "https://www.cbsnews.com/sanfrancisco/news/vandalism-of-newark-hindu-temple-highlights-geopolitical-issue/"
+          }
+        ],
+        "summary": "Pintadas contra la India pintadas en el templo; La policía de Newark investiga un posible crimen de odio; amplia condena comunitaria.",
+        "temple_name": "SMVS Shri Swaminarayan Mandir (Newark, CA)",
+        "timeline": [
+          "24-26 de diciembre de 2023: incidente reportado; policía + declaraciones comunitarias"
+        ],
+        "tradition": "hindú",
+        "verification_status": "verificado_multifuente"
+      }
+    ]
+  }
+}

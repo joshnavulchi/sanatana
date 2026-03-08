@@ -1,0 +1,2511 @@
+{
+  "scriptures_bhagavadgita": {
+    "title": "Bhagavad Gita",
+    "meta": {
+      "title": "Scriptures | Bhagavad Gita — Sanātana Dharma - Explore Sanatan Dharma",
+      "canonical": "https://sanatanadharmam.in/scriptures/bhagavadgita",
+      "description": "Bhagavad Gita – Vollständige Kapitel und Kommentare – Artikel, Übersetzungen und prägnante Kommentare zur Bhagavad Gita. Entdecken Sie Praktiken, Geschichte und Führung ...",
+      "keywords": [
+        "Ancient wisdom",
+        "Arjuna",
+        "Bhagavad Gita",
+        "Bhakti Yoga",
+        "Dharma",
+        "Divine knowledge",
+        "Eternal truths",
+        "Ethical teachings",
+        "Gita",
+        "Hindu mythology",
+        "Hindu scriptures",
+        "Indian cultural heritage",
+        "Indian cultural significance",
+        "Indian cultural teachings significance",
+        "Indian culture",
+        "Indian divine knowledge",
+        "Indian divine knowledge significance",
+        "Indian divine knowledge teachings significance",
+        "Indian eternal truths",
+        "Indian eternal truths significance",
+        "Indian eternal truths teachings significance",
+        "Indian ethical significance",
+        "Indian ethical teachings",
+        "Indian ethical teachings significance",
+        "Indian historical significance",
+        "Indian historical teachings significance",
+        "Indian meditation significance",
+        "Indian meditation teachings significance",
+        "Indian meditation techniques",
+        "Indian philosophical concepts",
+        "Indian philosophical significance",
+        "Indian philosophical teachings significance",
+        "Indian philosophical traditions",
+        "Indian philosophy",
+        "Indian religious history",
+        "Indian religious philosophy",
+        "Indian religious significance",
+        "Indian religious teachings",
+        "Indian religious teachings significance",
+        "Indian religious texts",
+        "Indian self-realization",
+        "Indian self-realization significance",
+        "Indian self-realization teachings significance",
+        "Indian spiritual heritage",
+        "Indian spiritual practices",
+        "Indian spiritual significance",
+        "Indian spiritual teachings significance",
+        "Indian spiritual wisdom",
+        "Indian spirituality",
+        "Indian yoga philosophy",
+        "Indian yoga significance",
+        "Indian yoga teachings significance",
+        "Jnana Yoga",
+        "Karma Yoga",
+        "Krishna",
+        "Kurukshetra",
+        "Mahabharata",
+        "Meditation practices",
+        "Moksha",
+        "Philosophical concepts",
+        "Religious studies",
+        "Self-realization",
+        "Spiritual teachings",
+        "Upanishads",
+        "Yoga philosophy"
+      ],
+      "ogimage": "/og/bhagavadgita.png",
+      "url": "https://sanatanadharmam.in/scriptures/bhagavadgita"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "Kontaktpunkt",
+          "areaserved": "Worldwide",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "English",
+            "Spanisch",
+            "Français",
+            "Ja",
+            "日本語",
+            "Ja",
+            "Niederlande",
+            "Português",
+            "Русский",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "parts": [
+      {
+        "title": "Bhagavad Gita – Vollständige ausführliche Erklärung (Teil 1)",
+        "bhagavadgita_part_1": {
+          "chapters_1_to_3": {
+            "chapter_1_arjuna_vishada_yoga": {
+              "important_terms": {
+                "dharma": "Righteous duty",
+                "karuna": "Mitgefühl",
+                "moha": "Täuschung oder Verwirrung"
+              },
+              "key_teachings": [
+                "Menschliche Verwirrung kann zum Tor zur Weisheit werden.",
+                "Moral sensitivity is not weakness.",
+                "True learning begins when one admits confusion."
+              ],
+              "key_verses_explained": {
+                "1.28-30": "Arjuna beschreibt seinen zitternden Körper und seine Trauer. Dies spiegelt die menschliche Erfahrung emotionaler Lähmung während eines moralischen Konflikts wider.",
+                "1.46": "Arjuna says he would rather be killed than fight. This shows his internal collapse before enlightenment."
+              },
+              "meaning": "The Yoga of Arjuna’s Despair",
+              "modern_application": "When overwhelmed by ethical dilemmas, one must seek higher wisdom instead of acting impulsively.",
+              "psychological_interpretation": "Arjuna represents the inner conflict every individual faces when values clash with emotions.",
+              "spiritual_interpretation": "Despair can become the first step toward spiritual awakening.",
+              "summary": "Arjuna surveys the battlefield and becomes overwhelmed by sorrow. He sees teachers like Bhishma and Drona, relatives, and friends. His body trembles, his bow slips from his hands, and he declares he will not fight."
+            },
+            "chapter_2_sankhya_yoga": {
+              "important_terms": {
+                "atman": "The eternal Self",
+                "sankhya": "Analytical knowledge",
+                "sthitaprajna": "Person von stetiger Weisheit",
+                "yoga": "Union oder disziplinierter Weg"
+              },
+              "key_teachings": [
+                "Das Selbst ist ewig.",
+                "Perform duty without attachment.",
+                "Maintain equanimity in success and failure."
+              ],
+              "key_verses_explained": {
+                "2.13": "So wie die Seele Kindheit, Jugend und Alter durchläuft, geht sie in einen anderen Körper über.",
+                "2.20": "Das Selbst wird niemals geboren und stirbt auch nicht.",
+                "2.47": "Sie haben das Recht auf Handeln, aber nicht auf die Früchte des Handelns.",
+                "2.48": "Seien Sie standhaft im Yoga und geben Sie die Bindung an Erfolg und Misserfolg auf."
+              },
+              "meaning": "Der Yoga des Wissens",
+              "modern_application": "Konzentrieren Sie sich auf die Anstrengung, nicht auf das Ergebnis. Entwickeln Sie emotionales Gleichgewicht.",
+              "psychological_interpretation": "Die Bindung an Ergebnisse erzeugt Angst.",
+              "spiritual_interpretation": "Das Wissen um das ewige Selbst löst die Angst vor dem Tod auf.",
+              "summary": "Krishna beginnt zu lehren. Er erklärt, dass die Seele (Atman) ewig ist und nicht zerstört werden kann. Der Tod ist lediglich eine Veränderung des Körpers. Er führt Karma Yoga und Gleichmut ein."
+            },
+            "chapter_3_karma_yoga": {
+              "important_terms": {
+                "karma": "Aktion",
+                "lokasangraha": "Wohlergehen der Welt",
+                "yajna": "Heilige Opfergabe oder Opfergabe"
+              },
+              "key_teachings": [
+                "Handeln ist besser als Untätigkeit.",
+                "Selbstloser Dienst reinigt den Geist.",
+                "Führungskräfte müssen Vorbilder sein."
+              ],
+              "key_verses_explained": {
+                "3.19": "Handeln Sie ohne Bindung an Ergebnisse.",
+                "3.21": "Was auch immer ein Anführer tut, andere folgen ihm.",
+                "3.8": "Erfülle deine vorgeschriebene Pflicht."
+              },
+              "meaning": "Das Yoga des Handelns",
+              "modern_application": "Diene der Gesellschaft ohne egoistische Motive.",
+              "psychological_interpretation": "Die Vermeidung von Verantwortung verstärkt den inneren Konflikt.",
+              "spiritual_interpretation": "Selbstloses Handeln führt zur Befreiung.",
+              "summary": "Arjuna fragt, warum er handeln sollte, wenn Wissen überlegen ist. Krishna erklärt, dass Handeln unvermeidlich ist. Man muss selbstlos als Opfer (Yajna) handeln."
+            }
+          },
+          "introduction": {
+            "context_of_kurukshetra": "Auf dem Schlachtfeld von Kurukshetra bittet der Krieger Arjuna kurz vor Kriegsbeginn seinen Wagenlenker Sri Krishna, seinen Streitwagen zwischen die beiden Armeen zu stellen. Als Arjuna seine eigenen Verwandten, Lehrer und Freunde auf beiden Seiten stehen sieht, wird er von Trauer und moralischer Verwirrung überwältigt. Er hinterfragt den eigentlichen Zweck des Krieges.",
+            "essence_of_upanishads": "Die Gita gilt als die Essenz der Upanishaden, weil sie die höchsten philosophischen Lehren über das Selbst (Atman), das Absolute (Brahman) und die Befreiung (Moksha) auf praktische und zugängliche Weise präsentiert.",
+            "historical_background": "Die Bhagavad Gita ist ein heiliger Dialog, der im Bhishma Parva des Mahabharata erscheint, dem großen Epos des Weisen Vyasa. Das Mahabharata erzählt die Geschichte der Kuru-Dynastie und den Konflikt zwischen zwei Cousinengruppen: den Pandavas und den Kauravas. Dieser Konflikt gipfelt im Kurukshetra-Krieg. Kurukshetra war nicht nur ein geografisches Schlachtfeld; Es war die Bühne, auf der Dharma (Gerechtigkeit) und Adharma (Ungerechtigkeit) einander gegenüberstanden.",
+            "meaning_of_bhagavad_gita": "Der Begriff „Bhagavad Gita“ bedeutet „Das Lied des Herrn“. „Bhagavad“ bezieht sich auf das Höchste Wesen und „Gita“ bedeutet Lied. Es wird Lied genannt, weil es poetisch, rhythmisch und zutiefst spirituell ist.",
+            "who_is_arjuna": "Arjuna ist einer der fünf Pandava-Brüder und ein Meisterbogenschütze. Er repräsentiert den aufrichtigen Sucher, der moralisch sensibel und spirituell empfänglich ist.",
+            "who_is_krishna": "Sri Krishna gilt als Inkarnation (Avatar) von Lord Vishnu, dem Erhalter des Universums. In der Gita offenbart er sich nicht nur als göttliche Persönlichkeit, sondern als die höchste Realität (Brahman) selbst.",
+            "why_gita_was_spoken": "In diesem Moment der Krise hält Sri Krishna die Bhagavad Gita vor. Die Gita wurde gesprochen, um Arjunas Verwirrung zu beseitigen und ihn zu Klarheit, Stärke und rechtschaffenem Handeln zu führen. Es geht um grundlegende menschliche Fragen: Was ist Pflicht? Was ist die Natur des Selbst? Was ist Gott? Wie soll man leben?"
+          },
+          "structure_overview": {
+            "philosophical_themes": [
+              "Natur des Selbst (Atman)",
+              "Höchste Realität (Brahman)",
+              "Dharma und Pflicht",
+              "Distanziertheit und Gleichmut",
+              "Hingabe und Hingabe",
+              "Befreiung (Moksha)"
+            ],
+            "three_major_paths": {
+              "bhakti_yoga": "Path of devotion and surrender",
+              "jnana_yoga": "Path of knowledge and wisdom",
+              "karma_yoga": "Path of selfless action"
+            },
+            "total_chapters": 18,
+            "total_verses": 700
+          }
+        },
+        "order": 1
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige ausführliche Erklärung (Teil 2)",
+        "bhagavadgita_part_2": {
+          "chapters_4_to_6": {
+            "chapter_4_jnana_karma_sannyasa_yoga": {
+              "important_terms": {
+                "avatar": "Göttlicher Abstieg oder Inkarnation",
+                "jnana": "Spirituelles Wissen",
+                "karma": "Handeln und seine Folgen",
+                "sannyasa": "Verzicht",
+                "yajna": "Heiliges Opfer"
+              },
+              "key_teachings": [
+                "Die göttliche Inkarnation (Avatar) geschieht zur Wiederherstellung des Dharma.",
+                "Richtiges Wissen reinigt das Handeln.",
+                "Wahrer Verzicht ist der Verzicht auf Anhaftung, nicht auf das Handeln selbst.",
+                "Wissen verbrennt das Karma, wie Feuer Treibstoff verbrennt."
+              ],
+              "key_verses_explained": {
+                "4.13": "Die vierfache Ordnung wurde nach Qualitäten (Guna) und Taten (Karma) geschaffen, nicht allein nach der Geburt.",
+                "4.18": "Wer Untätigkeit in Taten und Taten in Untätigkeit sieht, ist weise. Das bedeutet, dass der erleuchtete Mensch nach außen hin handelt, aber innerlich ungebunden bleibt.",
+                "4.24": "Der gesamte Opferakt ist Brahman – das Opfer, das Feuer und der Opfernde.",
+                "4.7-8": "Immer wenn die Gerechtigkeit nachlässt, manifestiere Ich Mich. Dies offenbart Krishna als die tragende Kraft des kosmischen Gleichgewichts."
+              },
+              "meaning": "Der Yoga des Wissens und der Verzicht auf Handeln",
+              "modern_application": "Arbeiten Sie mit Bewusstsein und Integrität. Betrachten Sie Ihren Beruf als Dienstleistung und nicht als Erfüllung Ihres Egos.",
+              "psychological_interpretation": "Das Verstehen des Zwecks verwandelt gewöhnliche Arbeit in heilige Pflicht.",
+              "spiritual_interpretation": "Wenn Handlungen im Bewusstsein des Göttlichen ausgeführt werden, binden sie die Seele nicht länger.",
+              "summary": "In diesem Kapitel offenbart Sri Krishna den göttlichen Ursprung seiner Lehre. Er erklärt, dass diese Weisheit zuerst dem Sonnengott (Vivasvan) beigebracht und von einer Linie von Weisen weitergegeben wurde. Mit der Zeit ging es verloren, und jetzt stellt Er es Arjuna wieder her. Krishna offenbart, dass Er inkarniert, wann immer Dharma abnimmt und Adharma aufsteigt, um die Gerechten zu beschützen und das Böse zu vernichten. Er verdeutlicht die Beziehung zwischen Wissen (Jnana), Handeln (Karma) und Entsagung (Sannyasa)."
+            },
+            "chapter_5_karma_sannyasa_yoga": {
+              "important_terms": {
+                "brahman": "Ultimative Realität",
+                "samatva": "Gleichmut",
+                "sannyasa": "Verzicht auf egoistische Motive",
+                "tyaga": "Verzicht"
+              },
+              "key_teachings": [
+                "Äußerer Verzicht ist für spirituelles Wachstum nicht notwendig.",
+                "Innere Loslösung ist wahres Sannyasa.",
+                "Der Weise sieht alle Wesen gleich."
+              ],
+              "key_verses_explained": {
+                "5.10": "One who offers actions to Brahman remains untouched by sin, like a lotus untouched by water.",
+                "5.18": "Der Weise sieht gleichermaßen einen gelehrten Menschen, eine Kuh, einen Elefanten, einen Hund und einen Ausgestoßenen.",
+                "5.29": "Frieden kommt zu jemandem, der Krishna als den Opferfreudigen und Freund aller Wesen kennt.",
+                "5.3": "One who neither hates nor desires is a true renunciate."
+              },
+              "meaning": "Der Yoga des Handlungsverzichts",
+              "modern_application": "Behandle alle Menschen mit Würde. Lassen Sie den egoistischen Wettbewerb hinter sich.",
+              "psychological_interpretation": "Freiheit von Vergleichen und Eifersucht führt zu Frieden.",
+              "spiritual_interpretation": "Einheit in der Vielfalt zu sehen, ist eine spirituelle Vision.",
+              "summary": "Arjuna fragt, ob es besser ist, auf eine Handlung zu verzichten oder eine Handlung auszuführen. Krishna erklärt, dass beides zur Befreiung führen kann, aber selbstloses Handeln mit Distanziertheit ist für die meisten Menschen einfacher und sicherer. Wahrer Verzicht ist innerlich – Freiheit von Ego und Verlangen."
+            },
+            "chapter_6_dhyana_yoga": {
+              "important_terms": {
+                "abhyasa": "Üben",
+                "dhyana": "Meditation",
+                "vairagya": "Detachment",
+                "yogi": "Einer, der die Vereinigung mit dem Göttlichen praktiziert"
+              },
+              "key_teachings": [
+                "Der Geist kann Freund oder Feind sein.",
+                "Ein ausgeglichener Lebensstil unterstützt die Meditation.",
+                "Stetiges Üben führt zur Meisterschaft.",
+                "Keine spirituelle Anstrengung ist jemals umsonst."
+              ],
+              "key_verses_explained": {
+                "6.11-15": "Beschreibung der Meditationshaltung und -disziplin.",
+                "6.26": "Wann immer der ruhelose Geist abschweift, bringen Sie ihn wieder unter Kontrolle.",
+                "6.47": "Unter allen Yogis ist derjenige der Höchste, der Mich mit Glauben verehrt.",
+                "6.5": "Lift yourself by yourself; do not degrade yourself. The mind is both friend and enemy."
+              },
+              "meaning": "Das Yoga der Meditation",
+              "modern_application": "Entwickeln Sie eine tägliche Meditationspraxis. Reduzieren Sie Ablenkungen und fördern Sie geistige Klarheit.",
+              "psychological_interpretation": "Mentale Disziplin erfordert Beständigkeit, nicht Zwang.",
+              "spiritual_interpretation": "Meditation führt zur direkten Erfahrung des Selbst.",
+              "summary": "Krishna erklärt die Disziplin der Meditation (Dhyana). Ein Yogi muss beim Essen, Schlafen, Arbeiten und Entspannen Mäßigung üben. Der Geist muss durch stetige Anstrengung und Loslösung trainiert werden. Arjuna äußert Bedenken hinsichtlich der Kontrolle des ruhelosen Geistes. Krishna erkennt die Schwierigkeit an, versichert aber, dass Übung (Abhyasa) und Loslösung (Vairagya) es möglich machen."
+            }
+          }
+        },
+        "order": 2
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige ausführliche Erklärung (Teil 3)",
+        "bhagavadgita_part_3": {
+          "chapters_7_to_9": {
+            "chapter_7_jnana_vijnana_yoga": {
+              "important_terms": {
+                "bhakta": "Anhänger",
+                "maya": "Kosmische Illusion oder göttliche Macht, die die Realität verschleiert",
+                "para prakriti": "Höhere spirituelle Natur",
+                "prakriti": "Materielle Natur"
+              },
+              "key_teachings": [
+                "Gott ist sowohl die materielle als auch die wirksame Ursache des Universums.",
+                "Das Göttliche durchdringt die gesamte Existenz.",
+                "Maya verschleiert wahres Verständnis.",
+                "Vier Arten von Anhängern nähern sich Gott."
+              ],
+              "key_verses_explained": {
+                "7.14": "Diese göttliche Maya ist schwer zu überqueren, aber diejenigen, die sich Mir ergeben, überqueren sie.",
+                "7.16-18": "Vier Arten von Anhängern: der Verzweifelte, der Wissenssuchende, der Reichtumssuchende und der Weise. Der weise Anhänger liegt Krishna am meisten am Herzen.",
+                "7.4-5": "Krishna beschreibt seine niedere Natur (Erde, Wasser, Feuer, Luft, Äther, Geist, Intellekt, Ego) und seine höhere Natur (Bewusstsein).",
+                "7.7": "Es gibt nichts, was Mir überlegen ist; alles ruht auf Mir wie Perlen auf einer Schnur."
+              },
+              "meaning": "Der Yoga des Wissens und der Verwirklichung",
+              "modern_application": "Gehen Sie vom transaktionalen Glauben (um einen Gefallen bitten) zum transformativen Glauben (der Suche nach der Wahrheit) über.",
+              "psychological_interpretation": "Menschen suchen Gott aus unterschiedlichen Gründen, aber spirituelle Reife führt zu bedingungsloser Hingabe.",
+              "spiritual_interpretation": "True knowledge culminates in realization of unity with the Divine source.",
+              "summary": "In this chapter, Sri Krishna moves deeper into metaphysical teaching. He explains both Jnana (theoretical knowledge of the Divine) and Vijnana (direct experiential realization). Krishna reveals that He is the ultimate source of all creation. Everything arises from Him and rests in Him. Yet, due to Maya (divine illusion), most beings fail to recognize Him. He explains the lower nature (material energy) and higher nature (consciousness)."
+            },
+            "chapter_8_akshara_brahma_yoga": {
+              "important_terms": {
+                "adhyatma": "Inneres Selbst",
+                "akshara": "Unvergänglich, ewig",
+                "brahman": "Ultimative Realität",
+                "smriti": "Erinnerung"
+              },
+              "key_teachings": [
+                "Der letzte Gedanke beim Tod spiegelt den lebenslangen Fokus eines Menschen wider.",
+                "Das Göttliche ist unvergänglich (Akshara).",
+                "Ständiges Erinnern führt zu spiritueller Erhebung.",
+                "Two cosmic paths after death: the path of light and path of return."
+              ],
+              "key_verses_explained": {
+                "8.20": "Beyond this manifest and unmanifest is the eternal reality.",
+                "8.5": "Whoever remembers Me at the time of death attains My being.",
+                "8.6": "Whatever one remembers at death is shaped by lifelong habits.",
+                "8.7": "Therefore, remember Me at all times and fight."
+              },
+              "meaning": "The Yoga of the Imperishable Absolute",
+              "modern_application": "Live with mindfulness. Cultivate spiritual awareness daily, not only in crisis.",
+              "psychological_interpretation": "Daily habits shape ultimate destiny.",
+              "spiritual_interpretation": "Constant God-consciousness transforms death into liberation.",
+              "summary": "Arjuna asks profound metaphysical questions about Brahman (the Absolute), Adhyatma (the Self), Karma, and the state at the time of death. Krishna explains that remembering the Divine at the final moment leads to liberation. He discusses the importance of constant awareness and devotion throughout life."
+            },
+            "chapter_9_raja_vidya_raja_guhya_yoga": {
+              "important_terms": {
+                "ananya bhakti": "Exclusive devotion",
+                "bhakti": "Hingabe",
+                "prasada": "Grace",
+                "shraddha": "Faith"
+              },
+              "key_teachings": [
+                "Devotion is the highest and most direct path.",
+                "Gott ist sowohl immanent als auch transzendent.",
+                "Sogar Sünder können durch aufrichtige Hingabe Befreiung erlangen.",
+                "Love is more important than ritual."
+              ],
+              "key_verses_explained": {
+                "9.22": "Those who worship Me with exclusive devotion, I preserve what they have and provide what they lack.",
+                "9.26": "Wer Mir mit Hingabe ein Blatt, eine Blume, eine Frucht oder ein Wasser anbietet, den nehme Ich an.",
+                "9.30-31": "Even a person of sinful conduct who worships Me with devotion should be considered righteous.",
+                "9.4-5": "All beings exist in Me, yet I am not confined by them."
+              },
+              "meaning": "The Yoga of the Royal Knowledge and Royal Secret",
+              "modern_application": "Offer daily actions with gratitude and sincerity rather than mechanical ritual.",
+              "psychological_interpretation": "Love transforms guilt into growth.",
+              "spiritual_interpretation": "Divine grace is accessible to all, regardless of past mistakes.",
+              "summary": "This chapter is considered the heart of Bhakti Yoga. Krishna reveals the most confidential knowledge: pure devotion. He declares that He pervades the entire universe yet remains transcendental. Even simple offerings made with love are accepted by Him. He emphasizes unconditional surrender and divine grace."
+            }
+          }
+        },
+        "order": 3
+      },
+      {
+        "title": "Bhagavad Gita – Complete Deep Explanation (Part 4)",
+        "bhagavadgita_part_4": {
+          "chapters_10_to_12": {
+            "chapter_10_vibhuti_yoga": {
+              "important_terms": {
+                "aishvarya": "Majestic power",
+                "ishvara": "Supreme Lord",
+                "vibhuti": "Göttliche Manifestation oder Herrlichkeit"
+              },
+              "key_teachings": [
+                "The Divine is present in all greatness and excellence.",
+                "Meditation on divine manifestations strengthens devotion.",
+                "Gott ist sowohl in der Schöpfung immanent als auch darüber hinaus transzendent."
+              ],
+              "key_verses_explained": {
+                "10.20": "Ich bin das Selbst, das in den Herzen aller Wesen sitzt.",
+                "10.41": "Whatever is glorious, prosperous, or powerful arises from a fraction of My splendor.",
+                "10.42": "With a single fragment of Myself, I sustain the entire universe.",
+                "10.8": "I am the source of all; from Me everything proceeds. The wise worship Me with devotion."
+              },
+              "meaning": "The Yoga of Divine Glories",
+              "modern_application": "See divinity in nature, leadership, creativity, and moral courage. Let admiration become meditation.",
+              "psychological_interpretation": "Recognizing divinity in the world cultivates gratitude and humility.",
+              "spiritual_interpretation": "All forms of excellence point back to the Infinite Source.",
+              "summary": "In this chapter, Sri Krishna reveals His Vibhutis — His divine manifestations and glories present throughout creation. Arjuna, now filled with devotion and reverence, asks Krishna to describe His cosmic manifestations so that he may meditate upon Him constantly. Krishna explains that all extraordinary beauty, power, wisdom, and strength seen in the world are but a fraction of His splendor."
+            },
+            "chapter_11_vishvarupa_darshana_yoga": {
+              "important_terms": {
+                "divya_chakshu": "Divine vision",
+                "kala": "Time",
+                "vishvarupa": "Universal cosmic form"
+              },
+              "key_teachings": [
+                "The Divine transcends human imagination.",
+                "Time (Kala) is a manifestation of the Divine.",
+                "Surrender arises naturally when ego dissolves."
+              ],
+              "key_verses_explained": {
+                "11.12": "If a thousand suns were to rise at once in the sky, their brilliance might resemble that form.",
+                "11.32": "I am Time, the destroyer of worlds, come to annihilate these peoples.",
+                "11.33": "Arise and win glory. They are already slain by Me; you are merely an instrument.",
+                "11.45": "Arjuna trembles and requests Krishna to return to His gentle form."
+              },
+              "meaning": "The Yoga of the Vision of the Universal Form",
+              "modern_application": "Erkennen Sie, dass die persönliche Kontrolle begrenzt ist. Richten Sie sich eher nach einem größeren Zweck als nach einer vom Ego gesteuerten Handlung.",
+              "psychological_interpretation": "Das menschliche Ego löst sich auf, wenn es mit der kosmischen Weite konfrontiert wird.",
+              "spiritual_interpretation": "The individual self is a small wave in the infinite ocean of existence.",
+              "summary": "Arjuna requests to see Krishna’s supreme universal form (Vishvarupa). Krishna grants divine vision (Divya Chakshu). Arjuna beholds a cosmic form containing all beings, all gods, all time, and all creation within Krishna. He sees countless mouths, eyes, and celestial weapons. He also sees warriors from both sides entering into this blazing universal form, symbolizing time (Kala) that devours all."
+            },
+            "chapter_12_bhakti_yoga": {
+              "important_terms": {
+                "ananya": "Undivided or exclusive",
+                "bhakti": "Loving devotion",
+                "shraddha": "Faith"
+              },
+              "key_teachings": [
+                "Devotion is accessible to all.",
+                "Love of God purifies the heart.",
+                "Der wahre Anhänger ist emotional ausgeglichen und freundlich."
+              ],
+              "key_verses_explained": {
+                "12.13-14": "He who hates none, is friendly and compassionate, free from ego and steady in mind, is dear to Me.",
+                "12.2": "Those who fix their minds on Me with devotion are considered most perfect.",
+                "12.20": "Those who follow this immortal path of devotion are exceedingly dear to Me.",
+                "12.6-7": "Those who surrender to Me are swiftly delivered from the ocean of birth and death."
+              },
+              "meaning": "The Yoga of Devotion",
+              "modern_application": "Cultivate kindness, humility, and steady faith in daily life.",
+              "psychological_interpretation": "Devotion softens pride and heals emotional disturbances.",
+              "spiritual_interpretation": "Love bridges the gap between individual and Infinite.",
+              "summary": "Arjuna fragt, ob die Verehrung des persönlichen Gottes oder des unpersönlichen Absoluten höher ist. Krishna antwortet, dass beides zur Befreiung führt, die Hingabe an die persönliche Form jedoch für die meisten Menschen einfacher ist. Er beschreibt die Eigenschaften eines idealen Anhängers – eines, das mitfühlend, frei von Hass, bescheiden, standhaft in Freude und Leid und hingebungsvoll ist."
+            }
+          }
+        },
+        "order": 4
+      },
+      {
+        "title": "Bhagavad Gita – Complete Deep Explanation (Part 5)",
+        "bhagavadgita_part_5": {
+          "chapters_13_to_15": {
+            "chapter_13_kshetra_kshetrajna_vibhaga_yoga": {
+              "important_terms": {
+                "jnana": "Knowledge",
+                "kshetra": "Das Feld (Körper- und Geistkomplex)",
+                "kshetrajna": "The Knower of the Field (Self)",
+                "prakriti": "Materielle Natur",
+                "purusha": "Conscious principle"
+              },
+              "key_teachings": [
+                "The body is not the true Self.",
+                "Consciousness is distinct from matter.",
+                "True knowledge is humility and detachment.",
+                "God is the supreme witness in all beings."
+              ],
+              "key_verses_explained": {
+                "13.2": "Know Me as the Knower of all fields. This reveals the unity of individual consciousness and Supreme consciousness.",
+                "13.22": "The Supreme Self is the witness, permitter, supporter, and enjoyer.",
+                "13.31": "The imperishable Self does not act nor is it tainted.",
+                "13.7-11": "True knowledge includes humility, nonviolence, patience, and detachment."
+              },
+              "meaning": "The Yoga of Distinguishing the Field and the Knower of the Field",
+              "modern_application": "Practice mindful observation. Do not define yourself solely by roles, achievements, or emotions.",
+              "psychological_interpretation": "Das Selbstbewusstsein wächst, wenn wir Gedanken beobachten, anstatt uns mit ihnen zu identifizieren.",
+              "spiritual_interpretation": "Realizing the difference between body and Self leads toward liberation.",
+              "summary": "In diesem tiefgründigen philosophischen Kapitel erklärt Sri Krishna den Unterschied zwischen Kshetra (dem Feld) und Kshetrajna (dem Kenner des Feldes). Körper, Geist, Sinne und Emotionen bilden das Feld – den sich verändernden Aspekt der Existenz. Der Wissende ist das bewusste Selbst (Atman), das diese Veränderungen beobachtet. Krishna offenbart außerdem, dass das Höchste Wesen der ultimative Wissende in allen Bereichen ist. Er beschreibt auch die Qualitäten, die wahres Wissen ausmachen, und die Natur von Prakriti (materielle Natur) und Purusha (Bewusstsein)."
+            },
+            "chapter_14_gunatraya_vibhaga_yoga": {
+              "important_terms": {
+                "gunateeta": "Einer, der über die Gunas hinausgeht",
+                "rajas": "Passion and activity",
+                "sattva": "Purity and clarity",
+                "tamas": "Inertia and darkness"
+              },
+              "key_teachings": [
+                "Sattva binds through attachment to happiness and knowledge.",
+                "Rajas binds through desire and action.",
+                "Tamas binds through ignorance and laziness.",
+                "One who transcends the Gunas becomes free."
+              ],
+              "key_verses_explained": {
+                "14.22-25": "Qualities of one who has transcended the Gunas — steady in pleasure and pain.",
+                "14.26": "Durch Hingabe transzendiert man die Gunas und wird für Brahman geeignet.",
+                "14.5": "Die drei Gunas binden das unvergängliche Selbst an den Körper.",
+                "14.6-8": "Beschreibungen von Sattva, Rajas und Tamas."
+              },
+              "meaning": "Der Yoga der Teilung der drei Gunas",
+              "modern_application": "Kultiviere Sattva durch Disziplin, ethisches Leben und Klarheit. Reduzieren Sie Rajas und Tamas durch Selbstkontrolle.",
+              "psychological_interpretation": "Das Erkennen Ihrer dominanten Tendenzen ermöglicht eine bewusste Selbstverbesserung.",
+              "spiritual_interpretation": "Freiheit kommt, wenn das Bewusstsein nicht mehr durch mentale Konditionierung kontrolliert wird.",
+              "summary": "Krishna erklärt die drei Gunas (Qualitäten), die die materielle Natur beherrschen: Sattva (Reinheit und Harmonie), Rajas (Aktivität und Leidenschaft) und Tamas (Trägheit und Unwissenheit). Jeder Einzelne wird von diesen Eigenschaften in unterschiedlichem Maße beeinflusst. Befreiung geschieht, wenn man diese Gunas durch Bewusstsein und Loslösung transzendiert."
+            },
+            "chapter_15_purushottama_yoga": {
+              "important_terms": {
+                "akshara": "Unvergängliches Selbst",
+                "ashvattha": "Heiliger Feigenbaum, der die weltliche Existenz symbolisiert",
+                "kshara": "Vergängliche Wesen",
+                "purushottama": "Höchste Person jenseits beider"
+              },
+              "key_teachings": [
+                "Die Welt ist vorübergehend und verändert sich ständig.",
+                "Anhaftung erhält weltliche Knechtschaft aufrecht.",
+                "Die Höchste Person transzendiert sowohl die Materie als auch die individuelle Seele.",
+                "Wahre Zuflucht liegt im Göttlichen."
+              ],
+              "key_verses_explained": {
+                "15.1": "Beschreibung des kosmischen Baumes mit Wurzeln oben.",
+                "15.18": "Ich bin jenseits des Vergänglichen und Unvergänglichen; deshalb werde ich Purushottama genannt.",
+                "15.3-4": "Schneiden Sie diesen Baum mit Distanz und suchen Sie die höchste Wohnstätte.",
+                "15.7": "Ein ewiges Fragment von Mir wird zur individuellen Seele."
+              },
+              "meaning": "Der Yoga der höchsten göttlichen Person",
+              "modern_application": "Untersuchen Sie Anhänge sorgfältig. Richten Sie Ihr Leben auf einen höheren Zweck aus.",
+              "psychological_interpretation": "Das weltliche Leben fühlt sich auf den Kopf gestellt, wenn Werte missverstanden werden.",
+              "spiritual_interpretation": "Befreiung erfordert die Loslösung von der vorübergehenden Identität.",
+              "summary": "Krishna beschreibt die Welt als einen umgedrehten Ashvattha-Baum (heiliger Feigenbaum) mit Wurzeln oben und Zweigen unten. Die Wurzeln stellen die göttliche Quelle dar; Die Zweige repräsentieren die weltliche Existenz. Anhaftung hält die Wesen an diesen Baum gebunden. Indem man die Anhaftung mit dem Schwert der Loslösung durchtrennt, sucht man die Höchste Person (Purushottama), die jenseits sowohl des Vergänglichen (Kshara) als auch des Unvergänglichen (Akshara) ist."
+            }
+          }
+        },
+        "order": 5
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige ausführliche Erklärung (Teil 6 – Finale)",
+        "bhagavadgita_part_6": {
+          "advanced_insights": {
+            "advaita": "Nicht-duale Sichtweise – Atman und Brahman sind identisch (Shankaracharya).",
+            "dvaita": "Doppelte Sichtweise – Gott und Seele sind auf ewig verschieden (Madhvacharya).",
+            "vishishtadvaita": "Qualifizierter Nicht-Dualismus – Die Seele ist Teil Gottes und dennoch verschieden (Ramanujacharya)."
+          },
+          "chapters_16_to_18": {
+            "chapter_16_daivasura_sampad_vibhaga_yoga": {
+              "important_terms": {
+                "asuri_sampad": "Dämonische Tendenzen",
+                "daivi_sampad": "Göttliche Tugenden",
+                "kama": "Wunsch",
+                "krodha": "Wut",
+                "lobha": "Gier"
+              },
+              "key_teachings": [
+                "Der Charakter bestimmt das Schicksal.",
+                "Göttliche Eigenschaften erhöhen das Bewusstsein.",
+                "Unkontrolliertes Verlangen und Ego führen zum Untergang."
+              ],
+              "key_verses_explained": {
+                "16.1-3": "Furchtlosigkeit, Reinheit des Herzens, Mitgefühl und Selbstbeherrschung sind göttliche Eigenschaften.",
+                "16.21": "Verlangen, Zorn und Gier sind die drei Tore zur Hölle.",
+                "16.23": "Das Ignorieren der Weisheit der Heiligen Schrift führt zu Verwirrung und Untergang.",
+                "16.4": "Heuchelei, Arroganz und Wut sind dämonische Eigenschaften."
+              },
+              "meaning": "Der Yoga der Trennung zwischen göttlichen und dämonischen Eigenschaften",
+              "modern_application": "Üben Sie Integrität, Disziplin und Mitgefühl im täglichen Umgang.",
+              "psychological_interpretation": "Die Selbstwahrnehmung negativer Tendenzen ist der erste Schritt zur Transformation.",
+              "spiritual_interpretation": "Durch die innere Reinigung wird der Einzelne mit dem göttlichen Bewusstsein in Einklang gebracht.",
+              "summary": "In diesem Kapitel erklärt Sri Krishna zwei grundlegende Tendenzen des Menschen: Daivi Sampad (göttliche Eigenschaften) und Asuri Sampad (dämonische Eigenschaften). Göttliche Eigenschaften führen zur Befreiung, während dämonische Eigenschaften zu Knechtschaft und Leiden führen. Krishna zählt Tugenden wie Furchtlosigkeit, Reinheit, Selbstbeherrschung, Mitgefühl und Wahrhaftigkeit auf. Im Gegensatz dazu werden Arroganz, Wut, Grausamkeit, Gier und Heuchelei als dämonische Eigenschaften beschrieben."
+            },
+            "chapter_17_shraddhatraya_vibhaga_yoga": {
+              "important_terms": {
+                "dana": "Wohltätigkeit",
+                "om_tat_sat": "Heilige Silben, die die ultimative Wahrheit bedeuten",
+                "shraddha": "Faith",
+                "tapas": "Sparmaßnahmen oder Disziplin"
+              },
+              "key_teachings": [
+                "Glaube spiegelt innere Konditionierung wider.",
+                "Reine Absicht bestimmt spirituelles Wachstum.",
+                "Sogar Disziplin muss von Weisheit geleitet werden."
+              ],
+              "key_verses_explained": {
+                "17.14-16": "Dreifache Sparmaßnahme – des Körpers, der Sprache und des Geistes.",
+                "17.20-22": "Drei Arten von Wohltätigkeit.",
+                "17.3": "Der Mensch besteht aus seinem Glauben.",
+                "17.8-10": "Drei Arten von Lebensmitteln, die Gunas entsprechen."
+              },
+              "meaning": "Der Yoga der Dreiteilung des Glaubens",
+              "modern_application": "Untersuchen Sie Ihre Absichten hinter Anbetung, Wohltätigkeit und Disziplin.",
+              "psychological_interpretation": "Die Motivation hinter Handlungen prägt das geistige Wohlbefinden.",
+              "spiritual_interpretation": "Reiner Glaube bringt einen mit der höheren Realität in Einklang.",
+              "summary": "Krishna erklärt, dass der Glaube (Shraddha) von den drei Gunas – Sattva, Rajas und Tamas – geprägt wird. Der Glaube einer Person beeinflusst die Wahl der Ernährung, den Gottesdienststil, Sparmaßnahmen und Wohltätigkeit. Sattvischer Glaube führt zu Klarheit und Harmonie. Der rajasische Glaube strebt nach Anerkennung und Belohnung. Der tamasische Glaube ist fehlgeleitet und schädlich."
+            },
+            "chapter_18_moksha_sannyasa_yoga": {
+              "important_terms": {
+                "moksha": "Befreiung",
+                "saranagati": "Völlige Hingabe",
+                "svadharma": "Die eigene Pflicht",
+                "tyaga": "Verzicht auf Früchte"
+              },
+              "key_teachings": [
+                "Erfülle deine eigene Pflicht, auch wenn sie unvollkommen ist.",
+                "Verzichten Sie auf Bindung, nicht auf Verantwortung.",
+                "Völlige Hingabe führt zur Befreiung."
+              ],
+              "key_verses_explained": {
+                "18.46": "Indem man seine Pflicht als Anbeter erfüllt, erlangt man Vollkommenheit.",
+                "18.55": "Durch Hingabe erkennt man Mich wirklich.",
+                "18.66": "Gib alle Formen des Dharma auf und übergebe dich Mir allein; Ich werde dich von allen Sünden befreien. Trauere nicht."
+              },
+              "meaning": "Der Yoga der Befreiung und Entsagung",
+              "modern_application": "Handeln Sie verantwortungsbewusst, geben Sie Ergebnisse auf und vertrauen Sie höherer Weisheit.",
+              "psychological_interpretation": "Das Loslassen der egobasierten Kontrolle verringert die Angst.",
+              "spiritual_interpretation": "Völlige Hingabe löst die Illusion der Getrenntheit auf.",
+              "summary": "Das letzte Kapitel fasst alle Lehren zusammen. Krishna verdeutlicht die wahre Entsagung (Tyaga) und überprüft die Karma-, Jnana- und Bhakti-Pfade. Er erklärt die Rolle von Svadharma (der eigenen Pflicht) und die Wichtigkeit, im Einklang mit der eigenen Natur zu handeln. Die Gita gipfelt in der höchsten Lehre der Hingabe."
+            }
+          },
+          "comparison_of_paths": {
+            "bhakti_yoga": "Best for emotionally devotional individuals.",
+            "integration": "All three can be practiced together harmoniously.",
+            "jnana_yoga": "Best for analytical and contemplative seekers.",
+            "karma_yoga": "Best for active personalities who seek growth through service."
+          },
+          "conclusion": "Die Bhagavad Gita bleibt zeitlos, weil sie universelle menschliche Kämpfe thematisiert: Angst, Pflicht, Identität und Zweck. Es harmonisiert Handeln, Wissen und Hingabe zu einem einheitlichen Weg der Befreiung. Seine Weisheit gilt gleichermaßen für Krieger, Anführer, Gelehrte und spirituelle Sucher. Es ist nicht nur eine Schrift, sondern ein lebendiger Leitfaden für die innere Transformation.",
+          "core_philosophical_concepts": {
+            "atman": "Ewiges Selbst jenseits von Körper und Geist.",
+            "brahman": "Höchste, unendliche Realität.",
+            "detachment": "Freiheit vom Verlangen nach Ergebnissen.",
+            "devotion": "Liebevolle Hingabe an Gott.",
+            "dharma": "Gerechte Pflicht im Einklang mit der kosmischen Ordnung.",
+            "gunas": "Sattva (Reinheit), Rajas (Aktivität), Tamas (Trägheit).",
+            "karma": "Gesetz von Ursache und Wirkung, das das Handeln bestimmt.",
+            "moksha": "Freiheit vom Kreislauf von Geburt und Tod.",
+            "yoga": "Weg der disziplinierten Vereinigung mit dem Göttlichen."
+          },
+          "final_summary_20_key_points": [
+            "Das Selbst ist ewig.",
+            "Der Körper ist vorübergehend.",
+            "Perform duty without attachment.",
+            "Hingabe reinigt das Herz.",
+            "Wissen beseitigt Unwissenheit.",
+            "Kontrollieren Sie den Geist durch Übung.",
+            "Sehen Sie Einheit in Vielfalt.",
+            "Überwinde die drei Gunas.",
+            "Der Glaube prägt das Schicksal.",
+            "Der Charakter bestimmt das Ergebnis.",
+            "Gott ist sowohl immanent als auch transzendent.",
+            "Alle Wege führen zum Göttlichen, wenn sie aufrichtig praktiziert werden.",
+            "Führung erfordert Selbstlosigkeit.",
+            "Das Ego verursacht Leid.",
+            "Verlangen, Wut und Gier sind destruktiv.",
+            "Meditation führt zu Klarheit.",
+            "Verzicht ist innerlich.",
+            "Hingabe bringt Frieden.",
+            "Die göttliche Gnade ist für alle zugänglich.",
+            "Die Gita ist ein zeitloser Leitfaden für die Menschheit."
+          ],
+          "practical_application_guide": {
+            "daily_life": "Erfülle deine Pflichten aufrichtig und ohne Bindung.",
+            "decision_framework": "Fragen Sie: Steht dies im Einklang mit dem Dharma? Ist es selbstlos? Fördert es das Wohlergehen?",
+            "leadership": "Gehen Sie mit gutem Beispiel voran, handeln Sie ethisch.",
+            "stress_management": "Sich von den Ergebnissen distanzieren; Konzentrieren Sie sich auf die Anstrengung."
+          },
+          "symbolism": {
+            "arjuna": "Der aufrichtige Suchende steht vor innerer Verwirrung.",
+            "battlefield": "Innerer Kampf zwischen höheren und niedrigeren Tendenzen.",
+            "krishna": "Der göttliche Führer im Inneren.",
+            "kurukshetra": "Das Schlachtfeld des Lebens, auf dem es zu moralischen Konflikten kommt."
+          }
+        },
+        "order": 6
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige tiefe Erklärung (Teil 7 – Erweiterte philosophische und praktische Tiefe)",
+        "bhagavadgita_part_7": {
+          "advanced_interpretations": {
+            "advaita_vedanta": {
+              "teacher": "Adi Shankaracharya",
+              "view": "Die ultimative Realität ist nicht-dual; Individualität entsteht durch Unwissenheit."
+            },
+            "dvaita": {
+              "teacher": "Madhvacharya",
+              "view": "Gott und Seele sind auf ewig verschieden."
+            },
+            "gita_balance": "Die Gita berücksichtigt mehrere philosophische Perspektiven.",
+            "vishishtadvaita": {
+              "teacher": "Ramanujacharya",
+              "view": "Die Seele unterscheidet sich von Gott und ist dennoch untrennbar mit ihr verbunden."
+            }
+          },
+          "closing_reflection": "Die Bhagavad Gita ist nicht nur eine philosophische Abhandlung, sondern ein lebendiger Dialog zwischen Verwirrung und Klarheit, zwischen menschlicher Begrenztheit und göttlicher Führung. Es lehrt, dass spirituelles Erwachen inmitten weltlicher Verantwortung möglich ist. Seine Weisheit bleibt relevant, weil das innere Schlachtfeld in jeder Generation existiert.",
+          "comparison_of_yogas_expanded": {
+            "bhakti_yoga": {
+              "risk": "Sentimentalität ohne Disziplin.",
+              "strength": "Emotional transformierend und zugänglich."
+            },
+            "harmonization": "Die Gita integriert alle drei für ein ausgewogenes Wachstum.",
+            "jnana_yoga": {
+              "risk": "Trockener Intellektualismus ohne Hingabe.",
+              "strength": "Tiefe philosophische Klarheit."
+            },
+            "karma_yoga": {
+              "risk": "Burnout, wenn nicht mit Ablösung verbunden.",
+              "strength": "Verwandelt die tägliche Arbeit in spirituelle Praxis."
+            }
+          },
+          "deep_practical_guide": {
+            "handling_anger": "Erkenne das Verlangen als seine Wurzel (3.37).",
+            "handling_failure": "Von den Früchten lösen (2.47).",
+            "handling_fear": "Erinnern Sie sich an die Unsterblichkeit des Selbst (Kapitel 2).",
+            "leadership": "Geben Sie ein ethisches Beispiel (3.21)",
+            "life_purpose": "Folge Svadharma mit Hingabe (18.46).",
+            "stress_management": "Üben Sie Meditation und Moderation (Kapitel 6)."
+          },
+          "essence_in_expanded_20_principles": [
+            "Das Leben ist eine heilige Pflicht.",
+            "Das Selbst ist ewig.",
+            "Anhaftung verursacht Leiden.",
+            "Handeln ist unvermeidlich.",
+            "Selbstloser Dienst reinigt.",
+            "Wissen beseitigt Unwissenheit.",
+            "Meditation stabilisiert den Geist.",
+            "Hingabe lässt das Ego schmelzen.",
+            "Gott durchdringt die Schöpfung.",
+            "Charakter prägt das Schicksal.",
+            "Der Glaube bestimmt die Richtung.",
+            "Überwinden Sie die mentale Konditionierung.",
+            "Hingabe bringt Frieden.",
+            "Balance zwischen Handeln und Weisheit.",
+            "Sehen Sie Einheit in Vielfalt.",
+            "Verwandeln Sie Arbeit in Gottesdienst.",
+            "Gehen Sie mit gutem Beispiel voran.",
+            "Kontrollieren Sie Verlangen und Wut.",
+            "Vertraue der göttlichen Gnade.",
+            "Erkenne deine göttliche Natur."
+          ],
+          "expanded_core_philosophical_concepts": {
+            "atman": {
+              "deep_explanation": "Atman ist weder Persönlichkeit noch Ego. Es ist das stille Bewusstsein hinter Gedanken. Das Erkennen von Atman beseitigt die Angst vor dem Tod.",
+              "definition": "Das ewige Selbst, reines Bewusstsein, jenseits von Körper und Geist.",
+              "qualities": [
+                "Ungeboren",
+                "Unzerstörbar",
+                "Unveränderlich",
+                "Zeuge aller Erlebnisse"
+              ]
+            },
+            "brahman": {
+              "definition": "Die unendliche, alles durchdringende ultimative Realität.",
+              "gita_synthesis": "Krishna präsentiert Brahman sowohl als unpersönliches Absolutes als auch als persönliches Göttliches.",
+              "nirguna": "Ohne Attribute (formloses Absolutes).",
+              "saguna": "Mit Attributen (persönlicher Gott)."
+            },
+            "detachment": {
+              "meaning": "Freiheit von zwanghaftem Verlangen nach Ergebnissen.",
+              "misunderstanding": "Distanziertheit ist keine Gleichgültigkeit; es ist innere Freiheit.",
+              "practice": "Handeln Sie umfassend, aber geben Sie die Ergebnisse auf."
+            },
+            "devotion": {
+              "definition": "Liebevolle Hingabe an das Göttliche.",
+              "essence": "Bhakti verwandelt Emotionen in spirituelle Energie.",
+              "forms": [
+                "Hören",
+                "Gesang",
+                "Erinnern",
+                "Servieren"
+              ]
+            },
+            "dharma": {
+              "deep_explanation": "In der Gita bedeutet Dharma nicht das starre Befolgen von Regeln. Es ist die Ausrichtung auf die Wahrheit und einen höheren Zweck. Arjunas Krise entsteht, weil er emotionale Bindung mit Dharma verwechselt. Krishna stellt klar, dass der wahre Dharma auf Weisheit und nicht auf Gefühlen beruhen muss.",
+              "definition": "Dharma kommt von der Sanskrit-Wurzel „dhri“, was „aufrechthalten“ oder „erhalten“ bedeutet. Es bezieht sich auf die moralische, kosmische und spirituelle Ordnung, die die Existenz erhält.",
+              "levels_of_dharma": {
+                "atma_dharma": "Pflicht zur Selbstverwirklichung.",
+                "raja_dharma": "Führungs- und Regierungspflicht.",
+                "sanatana_dharma": "Universelle ewige Prinzipien wie Wahrheit, Mitgefühl und Gewaltlosigkeit.",
+                "svadharma": "Persönliche Pflicht, basierend auf der Natur, der Rolle und dem Lebensabschnitt eines Menschen."
+              },
+              "modern_application": "Wählen Sie Maßnahmen, die die Integrität auch dann wahren, wenn es emotional schwierig ist."
+            },
+            "gunas": {
+              "deep_explanation": "Zur spirituellen Reife gehört die Kultivierung von Sattva und schließlich die Überwindung aller drei.",
+              "rajas": "Aktivität, Ehrgeiz, Unruhe.",
+              "sattva": "Klarheit, Harmonie, Reinheit.",
+              "tamas": "Unwissenheit, Trägheit, Verwirrung."
+            },
+            "karma": {
+              "deep_explanation": "Die Gita fördert keinen Fatalismus. Stattdessen wird eine intelligente Teilhabe am Leben gelehrt. Man kann Handlungen nicht vermeiden, aber man kann Absichten reinigen.",
+              "definition": "Karma bedeutet Handeln und auch das Gesetz von Ursache und Wirkung.",
+              "liberation_from_karma": "Durch das Ausführen von Handlungen als Opfergabe (Yajna) ohne Bindung an Früchte.",
+              "types_of_karma": {
+                "agami": "Karma being created through present actions.",
+                "prarabdha": "Ein Teil des Karmas wird jetzt erlebt.",
+                "sanchita": "Angesammeltes vergangenes Karma."
+              }
+            },
+            "moksha": {
+              "definition": "Befreiung aus dem Kreislauf von Geburt und Tod (Samsara).",
+              "gita_path": "Achieved through knowledge, devotion, and surrender.",
+              "state": "Freiheit von Unwissenheit und Erkenntnis der Einheit mit dem Göttlichen."
+            },
+            "yoga": {
+              "definition": "Einheit oder disziplinierter Weg zur spirituellen Verwirklichung.",
+              "four_primary_forms": {
+                "bhakti_yoga": "Weg der Hingabe.",
+                "dhyana_yoga": "Meditation.",
+                "jnana_yoga": "Weg des Wissens.",
+                "karma_yoga": "Selbstloses Handeln."
+              },
+              "integration": "Die Gita harmonisiert alle Yogas, anstatt sie zu isolieren."
+            }
+          },
+          "symbolic_and_spiritual_psychology": {
+            "arjuna": "Die individuelle Seele steht vor einer moralischen Krise.",
+            "chariot": "Menschlicher Körper.",
+            "charioteer": "Unterscheidungsfähige Intelligenz, geleitet von Divine.",
+            "horses": "Sinne.",
+            "kauravas": "Niedrigere Impulse wie Gier und Stolz.",
+            "krishna": "Innere göttliche Weisheit leitet das Gewissen.",
+            "kurukshetra": "Stellt das innere Schlachtfeld moralischer und psychologischer Konflikte dar.",
+            "pandavas": "Höhere Tugenden und disziplinierte Tendenzen.",
+            "reins": "Geist."
+          }
+        },
+        "order": 7
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige tiefe Erklärung (Teil 8 – Integriertes Lebenshandbuch und kontemplative Erweiterung)",
+        "bhagavadgita_part_8": {
+          "closing_contemplative_prayer": "Möge die Weisheit Sri Krishnas das Schlachtfeld unseres eigenen Herzens erleuchten. Mögen wir mutig wie Arjuna handeln, geleitet von Klarheit, Mitgefühl und Hingabe. Möge Wissen Unwissenheit beseitigen, Hingabe das Ego mildern und diszipliniertes Handeln das Leben in spirituelles Wachstum verwandeln.",
+          "common_misinterpretations_clarified": {
+            "emotion_suppression": "Emotionen werden anerkannt, aber von Weisheit geleitet.",
+            "fatalism": "Die Gita lehrt keine Passivität; es lehrt befähigte Verantwortung.",
+            "renunciation": "Wahrer Verzicht ist mentaler Natur und kein Verzicht auf die Gesellschaft.",
+            "violence_justification": "Der Kontext ist eine auf dem Dharma basierende Pflicht, keine Aggression."
+          },
+          "daily_life_implementation_model": {
+            "challenges": "Recall detachment principles (Chapter 2).",
+            "evening": "Selbstreflexion und Dankbarkeit.",
+            "interactions": "Üben Sie Mitgefühl und Gleichmut (Kapitel 12).",
+            "long_term": "Richten Sie Karriere- und Lebensziele auf Svadharma aus.",
+            "morning": "Meditation und Absichtsfestlegung (Kapitel 6).",
+            "work_hours": "Karma-Yoga-Denkweise – Arbeit als Anbetung."
+          },
+          "decision_making_framework_based_on_gita": {
+            "step_1_clarity_of_role": "Identifizieren Sie Ihr Svadharma. Welche Verantwortung tragen Sie in dieser Situation?",
+            "step_2_detachment_check": "Hängen Sie an Ergebnis, Lob oder Angst vor dem Scheitern?",
+            "step_3_guna_analysis": "Wird Ihre Entscheidung von Sattva (Klarheit), Rajas (egogetriebener Ehrgeiz) oder Tamas (Verwirrung) beeinflusst?",
+            "step_4_universal_ethics": "Steht dieses Handeln im Einklang mit Wahrheit, Mitgefühl und Fairness?",
+            "step_5_surrender": "Nachdem Sie klug gehandelt haben, geben Sie das Ergebnis mental auf."
+          },
+          "emotional_mastering_techniques_from_gita": {
+            "anger": "Erkennen Sie, dass Wut aus frustriertem Verlangen entsteht (2.62-63).",
+            "anxiety": "Trennen Sie sich von den Früchten des Handelns (2.47).",
+            "fear": "Meditiere über die Unsterblichkeit von Atman (2.20).",
+            "guilt": "Sogar Sünder können sich durch Hingabe verwandeln (9.30).",
+            "jealousy": "Verstehe die Gleichheit aller Wesen (5.18).",
+            "loneliness": "Erinnere dich an die göttliche Präsenz im Herzen (10.20)."
+          },
+          "integrated_spiritual_framework": {
+            "inner_transformation_process": [
+              "Verwirrung (Arjuna Vishada)",
+              "Anfrage (Befragung)",
+              "Wissen (Sankhya)",
+              "Diszipliniertes Handeln (Karma Yoga)",
+              "Meditation (Dhyana)",
+              "Hingabe (Bhakti)",
+              "Vision (Vishvarupa)",
+              "Hingabe (Moksha)"
+            ],
+            "three_stage_spiritual_evolution": {
+              "stage_1_action_purification": "Beginnen Sie mit Karma Yoga. Erfülle deine Pflichten aufrichtig. Reduzieren Sie egoistische Motive. Biete dem Göttlichen Ergebnisse an.",
+              "stage_2_knowledge_clarity": "Kultiviere Jnana durch einen gereinigten Geist. Studieren Sie die heilige Schrift. Denken Sie tief nach. Verstehe Atman und Brahman.",
+              "stage_3_devotional_surrender": "Durch die Reife des Wissens gibst du dich völlig der Bhakti hin. Erleben Sie Einheit und inneren Frieden."
+            }
+          },
+          "integration_with_upanishadic_thought": {
+            "aham_brahmasmi": "Ich bin Brahman – nicht-duale Verwirklichung.",
+            "gita_alignment": "Die Gita übersetzt die Abstraktion der Upanishaden in gelebte Praxis.",
+            "sarvam_khalvidam_brahma": "All dies ist Brahman – universelle Göttlichkeit.",
+            "tat_tvam_asi": "Dass du bist – Einheit von Atman und Brahman."
+          },
+          "leadership_lessons_from_krishna": {
+            "calm_under_pressure": "Bewahren Sie im Chaos Gelassenheit.",
+            "empowerment": "Leiten Sie andere zur Selbstfindung, anstatt sie zum Gehorsam zu zwingen.",
+            "lead_by_example": "Was auch immer ein großartiger Mensch tut, andere folgen ihm (3.21).",
+            "long_term_view": "Handeln Sie im Einklang mit der kosmischen Perspektive, nicht mit einem vorübergehenden Gewinn.",
+            "strategic_wisdom": "Bringen Sie Mitgefühl mit Festigkeit in Einklang."
+          },
+          "meditative_contemplation_practices": {
+            "practice_1_self_observation": "Beobachten Sie Gedanken als Kshetra (Feld), nicht als Selbst.",
+            "practice_2_breath_and_mantra": "Atme mit „So“ ein, aus mit „Ham“ (Ich bin Das).",
+            "practice_3_daily_offering": "Biete Krishna im Geiste jede Aufgabe an.",
+            "practice_4_guna_reflection": "Überlegen Sie vor dem Schlafengehen, welche Guna Ihren Tag dominiert hat.",
+            "practice_5_gratitude_contemplation": "Erkennen Sie göttliche Vibhutis in Ihrer Umgebung."
+          },
+          "philosophical_synthesis": {
+            "epistemological_view": "Wissen entsteht durch Unterscheidung (Viveka) und Hingabe.",
+            "ethical_view": "Richtiges Handeln ist Handeln, das mit dem Dharma in Einklang steht und frei von Selbstsucht ist.",
+            "metaphysical_goal": "Verwirklichung der Einheit mit dem Höchsten oder Hingabe an ihn.",
+            "ontological_view": "Die Realität besteht aus der Veränderung von Prakriti und dem ewigen Purusha."
+          },
+          "timeless_relevance": {
+            "eternal_value": "Seine Botschaft geht über Kultur und Zeit hinaus.",
+            "global_impact": "Beeinflusste Führer, Philosophen und Suchende weltweit.",
+            "inner_guidance": "Krishna repräsentiert das ewige Gewissen.",
+            "psychological_depth": "Die Gita befasst sich mit Angst, Ehrgeiz, Trauer und Zielstrebigkeit.",
+            "universal_conflict": "Jede Generation steht vor moralischen Dilemmata wie Arjuna."
+          },
+          "ultimate_spiritual_message": {
+            "core_statement": "Das menschliche Leben ist eine heilige Gelegenheit zur inneren Entwicklung.",
+            "divine_assurance": "Das Göttliche unterstützt aufrichtige Suchende.",
+            "final_verse_significance": "Wo Krishna (Weisheit) und Arjuna (Anstrengung) sind, gibt es Sieg (18,78).",
+            "freedom_formula": "Richtiges Verständnis + selbstloses Handeln + Hingabe = Befreiung."
+          }
+        },
+        "order": 8
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige tiefe Erklärung (Teil 9 – kontemplative Tiefe, innere Transformation und lebendige Verwirklichung)",
+        "bhagavadgita_part_9": {
+          "advanced_contemplations_for_serious_seekers": {
+            "what_is_control": "Ist Kontrolle eine Illusion des Egos?",
+            "what_is_death": "Formübergang oder Vernichtung?",
+            "what_is_mine": "Kann man wirklich etwas dauerhaft besitzen?",
+            "what_is_success": "Ist Erfolg äußere Bestätigung oder innere Stabilität?",
+            "who_am_i": "Bin ich Körper, Geist, Intellekt oder beobachte ich das Bewusstsein?"
+          },
+          "closing_benediction": "Möge die Weisheit der Bhagavad Gita den Intellekt zur Klarheit, das Herz zur Hingabe und das Handeln zur Rechtschaffenheit führen. Möge der innere Krishna in Momenten der Verwirrung sprechen. Möge der innere Arjuna mutig aufsteigen. Wo Weisheit und Anstrengung sich vereinen, gibt es Sieg, Wohlstand und dauerhaften Frieden.",
+          "deep_psychological_model_of_the_gita": {
+            "behavioral_retraining": "Karma Yoga reformiert Gewohnheiten.",
+            "cognitive_distortion": "Der Glaube, dass Kontrolle Sicherheit garantiert.",
+            "conflict_source": "Anhaftung + Erwartung = Angst.",
+            "ego_structure": "Das Ego identifiziert sich mit Körper, Status, Rollen und Ergebnissen.",
+            "emotional_healing": "Bhakti reinigt Groll und Stolz.",
+            "transformational_shift": "Das Bewusstsein für Atman löst die Angst vor Verlust auf.",
+            "ultimate_state": "Gleichmut (Samatva) – beständige Weisheit, unabhängig von den Umständen."
+          },
+          "ethical_framework_from_gita": {
+            "compassion_with_strength": "Festigkeit muss vom Dharma geleitet werden.",
+            "intention": "Die Reinheit des Motivs bestimmt den moralischen Wert.",
+            "means_and_ends": "Ziele rechtfertigen nicht adharmische Mittel.",
+            "non_attachment": "Handeln Sie gerecht, ohne Hass."
+          },
+          "final_contemplative_synthesis": {
+            "core_realization": "Sie sind nicht nur ein Teilnehmer am Leben; Du bist das Bewusstsein, das das Leben miterlebt.",
+            "eternal_assurance": "Göttliche Gnade begleitet aufrichtige Bemühungen.",
+            "freedom": "Freiheit ist keine Flucht vor der Pflicht, sondern Freiheit innerhalb der Pflicht.",
+            "ultimate_shift": "Vom egozentrierten Leben zum gottzentrierten Bewusstsein."
+          },
+          "integration_with_modern_life_challenges": {
+            "career_pressure": "Sich vom Vergleich lösen; Konzentrieren Sie sich auf hervorragende Leistung.",
+            "identity_crisis": "Verankern Sie die Identität in Atman, nicht in sozialen Etiketten.",
+            "information_overload": "Übe meditative Disziplin.",
+            "relationship_conflict": "Reagieren Sie mit Empathie, nicht mit Ego.",
+            "uncertainty": "Vertrauen Sie dem langfristigen Dharma gegenüber kurzfristigem Komfort."
+          },
+          "spiritual_maturity_indicators": {
+            "clarity_of_purpose": "Das Leben ist auf höhere Prinzipien ausgerichtet.",
+            "expanded_compassion": "Alle Wesen gleich sehen.",
+            "fearlessness": "Verwurzelt in der Unsterblichkeit des Selbst.",
+            "inner_stability": "Ruhe in Lob und Tadel.",
+            "reduced_reactivity": "Weniger emotionale Volatilität."
+          },
+          "the_gita_and_time": {
+            "cyclical_time": "Das Leben bewegt sich in Zyklen von Schöpfung und Auflösung.",
+            "impermanence": "Alle Formen ändern sich; Es bleibt nur das Bewusstsein.",
+            "kala_as_divine": "Krishna erklärt sich selbst als Zeit (11.32).",
+            "wisdom": "Von temporären Strukturen lösen; im Einklang mit der Ewigkeit."
+          },
+          "the_gita_as_a_universal_scripture": {
+            "beyond_religion": "Seine Lehren gelten für alle aufrichtig Suchenden.",
+            "philosophical_completeness": "Behandelt Ontologie, Ethik, Metaphysik und Hingabe.",
+            "practical_accessibility": "Lehrt Spiritualität inmitten des weltlichen Lebens.",
+            "psychological_depth": "Behandelt Trauer, Pflicht, Ehrgeiz und Sterblichkeit."
+          },
+          "the_gita_as_an_inner_journey_map": {
+            "phase_1_crisis": {
+              "description": "Jede spirituelle Reise beginnt mit Verwirrung, wie Arjuna in Kapitel 1. Der Zusammenbruch der Gewissheit schafft Raum für Nachforschungen.",
+              "inner_meaning": "Existenzzweifel sind keine Schwäche. Es ist das Tor zum Erwachen."
+            },
+            "phase_2_discernment": {
+              "description": "Durch Sankhya (Weisheit) lernt man, zwischen Körper und Selbst zu unterscheiden.",
+              "inner_meaning": "Klarheit beginnt, wenn sich die Identität von der Persönlichkeit zum Bewusstsein verschiebt."
+            },
+            "phase_3_disciplined_engagement": {
+              "description": "Karma Yoga trainiert den Einzelnen, ohne egoistische Bindungen zu handeln.",
+              "inner_meaning": "Äußere Disziplin stabilisiert innere Turbulenzen."
+            },
+            "phase_4_meditative_integration": {
+              "description": "Dhyana Yoga zentriert das Bewusstsein in der Stille.",
+              "inner_meaning": "Der Geist wird eher zum Diener als zum Meister."
+            },
+            "phase_5_devotional_expansion": {
+              "description": "Bhakti löst die Trennung zwischen dem Suchenden und dem Göttlichen auf.",
+              "inner_meaning": "Liebe löst die existenzielle Isolation auf."
+            },
+            "phase_6_cosmic_realization": {
+              "description": "Vishvarupa Darshana erweitert das Bewusstsein auf universelle Ebene.",
+              "inner_meaning": "Ego collapses before infinity."
+            },
+            "phase_7_surrender_and_freedom": {
+              "description": "Moksha Sannyasa culminates in surrender (18.66).",
+              "inner_meaning": "Freedom arises when resistance ends."
+            }
+          },
+          "three_layers_of_reality_in_the_gita": {
+            "integration": "Die Gita bringt praktische Verantwortung mit absoluter Verwirklichung in Einklang.",
+            "paramarthika": "Absolute reality – Brahman alone is ultimate truth.",
+            "pratibhasika": "Illusory perception – ego-driven misunderstandings.",
+            "vyavaharika": "Praktische Realität – alltägliche Pflichten und Handlungen."
+          }
+        },
+        "order": 9
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige tiefe Erklärung (Teil 10 – Endgültige Integration, lebendige Weisheit und Verwirklichung)",
+        "bhagavadgita_part_10": {
+          "complete_essence_of_the_bhagavad_gita": [
+            "Human life is a sacred opportunity.",
+            "Verwirrung kann zum Erwachen führen.",
+            "Das Selbst ist ewig und unzerstörbar.",
+            "Anhang bindet; Ablösung befreit.",
+            "Action must align with Dharma.",
+            "Mind requires discipline and training.",
+            "Desire and anger cloud judgment.",
+            "Hingabe reinigt das Herz.",
+            "Knowledge illuminates reality.",
+            "Das Göttliche durchdringt die gesamte Existenz.",
+            "All excellence reflects divine glory.",
+            "Der Glaube prägt den Charakter.",
+            "Führung erfordert Selbstlosigkeit.",
+            "Meditation stabilizes consciousness.",
+            "Transcend the Gunas.",
+            "Sehen Sie Einheit in Vielfalt.",
+            "Biete alle Handlungen dem Göttlichen an.",
+            "Surrender dissolves fear.",
+            "Grace unterstützt aufrichtige Bemühungen.",
+            "Weisheit und Mut zusammen bringen den Sieg."
+          ],
+          "final_reflection": "Die Bhagavad Gita ist ein ewiger Dialog zwischen dem kämpfenden menschlichen Geist und der leitenden göttlichen Intelligenz. Es lehrt, dass Spiritualität nicht vom Leben getrennt ist – es ist ein Leben, das mit Klarheit, Hingabe und diszipliniertem Handeln gelebt wird. Als sich Arjunas Verwirrung auflöste, verließ er das Schlachtfeld nicht; Er stand verwandelt auf. Ebenso entbindet uns die Gita nicht von der Verantwortung – sie befähigt uns, diese mit Weisheit und Hingabe zu erfüllen. Seine Botschaft bleibt zeitlos, weil das innere Schlachtfeld zeitlos bleibt.",
+          "four_dimensions_of_human_development_in_gita": {
+            "emotional": "Equanimity in pleasure and pain (2.14, 2.48).",
+            "intellectual": "Discrimination between real and unreal (Chapter 13).",
+            "physical": "Mäßigung bei Essen, Schlaf und Aktivität (Kapitel 6).",
+            "spiritual": "Hingabe und Hingabe an das Göttliche (18.66)."
+          },
+          "from_knowledge_to_realization": {
+            "experiential_realization": "Durch Meditation und selbstloses Handeln wird Einsicht zur gelebten Erfahrung.",
+            "intellectual_understanding": "At first, the Gita is studied as philosophy. One learns about Atman, Karma, Dharma, and Yoga conceptually.",
+            "living_wisdom": "Eventually, the Gita is no longer merely read — it is lived naturally.",
+            "reflective_internalization": "Durch Kontemplation (Manana) beginnen Lehren, Gedankenmuster und emotionale Reaktionen zu formen."
+          },
+          "gita_for_serious_spiritual_seekers": {
+            "balanced_path": "Integrate Jnana, Karma, and Bhakti harmoniously.",
+            "discipline_required": "Konsequente Reflexion und Selbstbeobachtung.",
+            "ego_transcendence": "Accept correction of personal misconceptions.",
+            "intellectual_honesty": "Stellen Sie eine tiefe, aber aufrichtige Frage."
+          },
+          "highest_teachings_revisited": {
+            "11.32_principle": "Time is divine process beyond ego control.",
+            "18.66_principle": "Total surrender brings liberation.",
+            "2.47_principle": "Right to action, not to results.",
+            "6.5_principle": "Lift yourself through disciplined mind.",
+            "9.22_principle": "Divine protection for devoted seekers."
+          },
+          "integration_of_action_and_contemplation": {
+            "balance": "Meditation nourishes action; action purifies meditation.",
+            "engaged_spirituality": "Spiritual realization unfolds in responsible participation.",
+            "not_withdrawal": "The Gita does not promote escape from society."
+          },
+          "signs_of_inner_realization": {
+            "clarity": "Spontaneous ethical decision-making.",
+            "compassion": "Seeing oneself in all beings.",
+            "fearlessness": "Verwurzelt im ewigen Bewusstsein.",
+            "joy": "Zufriedenheit unabhängig von den Umständen.",
+            "stable_peace": "Calmness unaffected by praise or criticism."
+          },
+          "the_gita_and_freedom": {
+            "freedom_from_anxiety": "Die Loslösung von Früchten reduziert Stress.",
+            "freedom_from_cycle": "Die Verwirklichung von Brahman beendet die Wiedergeburt (Moksha).",
+            "freedom_from_ego": "Hingabe löst Stolz und Vergleich auf.",
+            "freedom_from_fear": "Das Wissen um die Unsterblichkeit löst die Angst vor dem Tod auf."
+          },
+          "the_gita_as_universal_psychology": {
+            "behavioral_retraining": "Karma Yoga reformiert impulsive Gewohnheiten.",
+            "cognitive_alignment": "Richtiges Verständnis korrigiert verzerrtes Denken.",
+            "emotional_regulation": "Bhakti mildert emotionale Turbulenzen.",
+            "existential_resolution": "Jnana löst die Identitätskrise."
+          },
+          "three_foundational_practices_for_lifelong_gita_sadhana": {
+            "daily_study": "Lesen Sie regelmäßig einige Verse und denken Sie darüber nach.",
+            "meditative_remembrance": "Behalten Sie das Bewusstsein der göttlichen Präsenz im Herzen bei.",
+            "selfless_service": "Berufliche und familiäre Pflichten in Angebote umwandeln."
+          },
+          "transformation_of_identity": {
+            "stage_1_role_identity": "I am my profession, status, or relationships.",
+            "stage_2_psychological_identity": "Ich bin meine Gedanken und Gefühle.",
+            "stage_3_witness_identity": "Ich bin aufmerksamkeitsbeobachtende Gedanken.",
+            "stage_4_divine_identity": "Ich bin ein ewiger Ausdruck des Höchsten."
+          }
+        },
+        "order": 10
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige tiefe Erklärung (Teil 11 – Ultimative Verwirklichung und lebendige Erleuchtung)",
+        "bhagavadgita_part_11": {
+          "advanced_contemplative_questions": [
+            "Wenn ich nicht meine Gedanken bin, wer ist dann der Beobachter?",
+            "Was bleibt bei allem Wandel unverändert?",
+            "Hängt Glück von den Umständen oder dem Bewusstsein ab?",
+            "Wie würde Handeln aussehen, wenn es frei von Angst wäre?",
+            "Kann Hingabe mit Stärke koexistieren?"
+          ],
+          "closing_prayerful_reflection": "Möge die Weisheit der Bhagavad Gita den Intellekt erleuchten, das Herz reinigen und das Handeln stärken. Mögen wir in Momenten der Verwirrung die göttliche Führung hören. Mögen wir unsere Pflichten mit Mut und Mitgefühl erfüllen. Möge Wissen Unwissenheit beseitigen, Hingabe das Ego mildern und diszipliniertes Handeln das tägliche Leben in spirituelle Entwicklung verwandeln. Wo Klarheit und Hingabe herrscht, gibt es wahren Sieg.",
+          "highest_synthesis_of_karma_jnana_bhakti": {
+            "bhakti_without_karma": "Kann sentimental werden.",
+            "integrated_path": "Act wisely, understand deeply, love completely.",
+            "jnana_without_bhakti": "Kann zu trockenem Intellektualismus werden.",
+            "karma_without_jnana": "Kann mechanisch werden."
+          },
+          "integration_with_global_philosophy": {
+            "ethical_universality": "Mitgefühl und Verantwortung sind universelle Tugenden.",
+            "existentialism_resolution": "Der Zweck wird durch Dharma gefunden.",
+            "mindfulness_alignment": "Meditative awareness parallels modern mindfulness.",
+            "stoicism_parallel": "Gleichmut ähnelt stoischer Ruhe."
+          },
+          "living_the_gita_in_modern_world": {
+            "corporate_life": "Führen Sie mit Integrität und Distanz.",
+            "family_life": "Übe Mitgefühl und Pflichtgefühl ohne Ego.",
+            "personal_growth": "Verpflichten Sie sich zu disziplinierter Selbstverbesserung.",
+            "social_engagement": "Diene ohne Hass."
+          },
+          "practical_daily_sadhana_framework": {
+            "evening_reflection": "Überprüfen Sie Handlungen ohne Schuldgefühle, lernen Sie und ergeben Sie sich.",
+            "midday_awareness": "Handeln Sie bewusst und ethisch.",
+            "morning_alignment": "Beginnen Sie den Tag mit Meditation und Versreflexion.",
+            "service_component": "Beteiligen Sie sich an einer Form des selbstlosen Beitrags.",
+            "weekly_study": "Tiefe biblische Betrachtung."
+          },
+          "stages_of_detachment": {
+            "emotional_detachment": "Responding without excessive reaction.",
+            "external_detachment": "Reduzieren Sie unnötige Besitztümer und Ablenkungen.",
+            "intellectual_detachment": "Freiheit von starren Meinungen.",
+            "spiritual_detachment": "Befreiung der Ego-Identität."
+          },
+          "the_final_message_of_sri_krishna": {
+            "compassionate_guidance": "Krishna zwingt Arjuna niemals; Er berät und lässt die Wahl.",
+            "surrender_invitation": "Vollständige Zuflucht zum Göttlichen löst die Angst auf (18.66).",
+            "ultimate_respect_for_free_will": "Nach dem Unterricht sagt Krishna: Denken Sie nach und handeln Sie, wie Sie möchten (18.63).",
+            "victory_assurance": "Wo Weisheit und rechtschaffenes Bemühen sich vereinen, gibt es Erfolg (18,78)."
+          },
+          "the_gita_and_consciousness_expansion": {
+            "cosmic_awareness": "Recognizes unity of all existence.",
+            "divine_awareness": "Ergibt sich völlig der höchsten Realität.",
+            "ordinary_awareness": "Identifiziert mit Körper und Ego.",
+            "reflective_awareness": "Beobachtet Gedanken und Reaktionen."
+          },
+          "the_gita_and_inner_peace": {
+            "freedom_definition": "Innere Unabhängigkeit von äußerer Volatilität.",
+            "lasting_peace": "Nicht die Abwesenheit von Konflikten, sondern die Stabilität darin.",
+            "peace_formula": "Richtiges Wissen + diszipliniertes Handeln + hingegebenes Herz."
+          },
+          "the_gita_as_a_lifetime_companion": {
+            "final_stage": "Bereitet das Bewusstsein auf einen friedlichen Übergang vor.",
+            "later_years": "Vertieft Losgelöstheit und spirituelle Kontemplation.",
+            "middle_age": "Leitet ethische Führung und Verantwortung.",
+            "not_a_single_reading": "Die Bhagavad Gita ist nicht in einer Lektüre erschöpft. Jeder Lebensabschnitt offenbart neue Bedeutungsebenen.",
+            "youth": "Bietet Klarheit über Zweck, Ehrgeiz und Disziplin."
+          },
+          "the_inner_conversation_model": {
+            "arjuna_within": "Stellt Zweifel, Angst und moralische Sensibilität dar.",
+            "krishna_within": "Stellt höhere Weisheit und Gewissen dar.",
+            "practice": "Halten Sie vor wichtigen Entscheidungen inne und erlauben Sie dem inneren Krishna, auf den inneren Arjuna zu reagieren."
+          },
+          "ultimate_realization": {
+            "core_truth": "Du bist nicht nur ein Teilnehmer an der Welt – du bist ewiges Bewusstsein.",
+            "divine_relationship": "Die individuelle Seele ist auf ewig mit dem Höchsten verbunden.",
+            "final_goal": "Keine Flucht vor dem Leben, sondern aufgeklärte Teilhabe am Leben.",
+            "freedom_state": "Wenn sich das Ego auflöst, löst sich auch die Angst auf."
+          }
+        },
+        "order": 11
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige tiefe Erklärung (Teil 12 – Ultimative Integration, Verwirklichung und stille Weisheit)",
+        "bhagavadgita_part_12": {
+          "complete_synthesis_of_the_gita": {
+            "action": "Perform duty without attachment.",
+            "devotion": "Übergebe dein Herz dem Göttlichen.",
+            "ethics": "Lebe im Einklang mit dem Dharma.",
+            "knowledge": "Erkenne das ewige Selbst.",
+            "meditation": "Geist stabilisieren.",
+            "surrender": "Vertraue voll und ganz dem göttlichen Willen.",
+            "transcendence": "Erhebe dich über Gunas hinaus."
+          },
+          "final_contemplative_conclusion": "Die Bhagavad Gita beginnt damit, dass ein Krieger seinen Bogen fallen lässt und endet damit, dass er ihn wieder hebt – nicht aus Wut, sondern aus Klarheit. Das ist die Essenz des spirituellen Lebens. Verwirrung verwandelt sich in Weisheit. Angst verwandelt sich in Mut. Anhaftung verwandelt sich in Hingabe. Die Gita entfernt uns nicht vom Schlachtfeld des Lebens; Es lehrt uns, mit festem Herzen und wachem Bewusstsein darin zu stehen. Seine Botschaft ist ewig, weil der innere Kampf ewig ist. Wenn der innere Krishna führt und der innere Arjuna zuhört, wird das Leben selbst zu einem heiligen Weg zur Befreiung.",
+          "five_pillars_of_gita_realization": {
+            "clarity": "Unterscheidung zwischen ewig und vorübergehend.",
+            "courage": "Bereitschaft, im Einklang mit dem Dharma zu handeln.",
+            "detachment": "Freiheit von zwanghaftem Verlangen.",
+            "devotion": "Liebevolle Hingabe an den göttlichen Willen.",
+            "discipline": "Konsequente Praxis des richtigen Handelns."
+          },
+          "from_outer_battle_to_inner_mastery": {
+            "inner_conflict": "Konflikt zwischen Weisheit und Impuls.",
+            "outer_conflict": "Krieg symbolisiert die unvermeidlichen Kämpfe des Lebens.",
+            "true_warrior": "Einer, der Ego, Wut und Angst besiegt.",
+            "victory": "Triumph der Klarheit über Verwirrung."
+          },
+          "liberation_revisited": {
+            "continuous_awareness": "Leben verankert im Atman.",
+            "fearlessness": "Geburt und Tod bedrohen nicht länger die Identität.",
+            "not_escape": "Moksha bedeutet nicht, vor der Welt davonzulaufen, sondern die Freiheit darin.",
+            "state_of_being": "Unerschütterlicher Frieden und Mitgefühl."
+          },
+          "silence_beyond_teaching": {
+            "highest_knowledge": "Auf das intellektuelle Verstehen folgt die stille Erkenntnis.",
+            "meditative_absorption": "In tiefer Meditation lösen sich Unterschiede auf.",
+            "non_dual_experience": "Wissender, Wissen und Bekanntes verschmelzen."
+          },
+          "the_eternal_promise": {
+            "divine_assurance": "Keine Anstrengung auf diesem Weg ist jemals verschwendet (6,40).",
+            "grace_principle": "Das Göttliche reagiert auf aufrichtige Hingabe (9.22).",
+            "surrender_assurance": "Vollständige Zuflucht beseitigt alle Angst (18.66).",
+            "victory_statement": "Wo Weisheit und rechtschaffenes Bemühen sich vereinen, herrscht dauerhafter Wohlstand (18,78)."
+          },
+          "the_final_transformation_of_arjuna": {
+            "18.73_realization": "Arjuna erklärt: „Meine Täuschung ist zerstört.“ Ich werde nach Deinem Wort handeln.'",
+            "final_state": "Fester Entschluss, ruhiges Handeln, hingegebenes Vertrauen.",
+            "initial_state": "Verzweiflung, emotionaler Zusammenbruch, Handlungsverweigerung.",
+            "intermediate_state": "Hinterfragen, Nachdenken, allmähliche Klarheit."
+          },
+          "the_gita_as_living_consciousness": {
+            "beyond_text": "Die Bhagavad Gita besteht nicht nur aus 700 Versen. Es ist lebendige Weisheit, die sich durch Reflexion, Übung und Erkenntnis entfaltet.",
+            "eternal_dialogue": "Das Gespräch zwischen Arjuna und Krishna geht in jedem menschlichen Herzen weiter.",
+            "inner_voice": "Wenn Verwirrung entsteht und Klarheit von innen heraus antwortet, ist dieser Dialog die im Bewusstsein lebendige Gita."
+          },
+          "three_ultimate_shifts_in_consciousness": {
+            "shift_1": "Von der egozentrierten Identität zum seelenzentrierten Bewusstsein.",
+            "shift_2": "Von der Ergebnisbesessenheit zur Hingabe an Anstrengung.",
+            "shift_3": "Vom angstgetriebenen Leben zur vertrauensbasierten Hingabe."
+          },
+          "universal_message_for_all_ages": {
+            "for_all_humans": "Lebe mutig, handle ethisch, liebe tief.",
+            "for_leaders": "Führen Sie mit Gerechtigkeit und Demut.",
+            "for_seekers": "Suchen Sie nach der Wahrheit jenseits des Scheins.",
+            "for_students": "Disziplin, Geist und Charakter."
+          }
+        },
+        "order": 12
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige tiefe Erklärung (Teil 13 – Der stille Höhepunkt und ewige lebendige Weisheit)",
+        "bhagavadgita_part_13": {
+          "after_the_teaching_ends": {
+            "external_scene": "Die Muschelschalen sind kurz davor zu explodieren. Die Armeen stehen bereit. Das Schlachtfeld bleibt unverändert.",
+            "internal_transformation": "Aber Arjuna ist nicht mehr derselbe. Das Schlachtfeld draußen hat sich nicht verändert – das Schlachtfeld drinnen schon.",
+            "true_resolution": "Die Gita beseitigt Schwierigkeiten nicht; es beseitigt Täuschungen."
+          },
+          "the_complete_map_of_human_evolution_in_gita": {
+            "stage_1": "Anhaftung und Verwirrung (Arjuna Vishada).",
+            "stage_2": "Intellektuelles Erwachen (Sankhya).",
+            "stage_3": "Ethische Disziplin (Karma Yoga).",
+            "stage_4": "Geistige Meisterschaft (Dhyana Yoga).",
+            "stage_5": "Hingabeerweiterung (Bhakti).",
+            "stage_6": "Kosmische Vision (Vishvarupa).",
+            "stage_7": "Vollständige Hingabe (Moksha Sannyasa)."
+          },
+          "the_eternal_echo": {
+            "whenever_afraid": "Erinnern Sie sich an die Unsterblichkeit von Atman.",
+            "whenever_attached": "Üben Sie das Loslösen von Früchten.",
+            "whenever_confused": "Erinnern Sie sich an den Dialog.",
+            "whenever_lost": "Hingabe und Vertrauen.",
+            "whenever_proud": "Betrachten Sie das Göttliche als Quelle aller Herrlichkeit."
+          },
+          "the_final_state_of_arjuna": {
+            "alignment": "Sein Wille stimmt mit der göttlichen Weisheit überein.",
+            "clarity_restored": "Seine Verwirrung (Moha) wird zerstört.",
+            "free_choice": "Er entscheidet sich dafür, bewusst zu handeln und nicht emotional zu reagieren.",
+            "memory_recovered": "Er erinnert sich an seine tiefere Identität und seinen Zweck."
+          },
+          "the_gita_as_three_circles_of_realization": {
+            "circle_1_practical_life": "Lebe verantwortungsbewusst. Erfülle deine Pflicht mit Integrität.",
+            "circle_2_inner_awareness": "Erkenne den ewigen Zeugen in dir.",
+            "circle_3_divine_union": "Erkenne die Einheit oder gib dich völlig dem Höchsten hin."
+          },
+          "the_gita_in_one_essential_sentence": "Lebe mit Klarheit des Wissens, Reinheit des Handelns, Standhaftigkeit des Geistes und Hingabe des Herzens.",
+          "the_paradox_of_action_and_silence": {
+            "inner_stillness": "Der verwirklichte Mensch bleibt innerlich still.",
+            "outer_activity": "Das Leben erfordert Engagement und Verantwortung.",
+            "resolution": "Draußen voll agieren, drinnen distanziert bleiben."
+          },
+          "the_silent_realization": {
+            "advaitic_view": "Der Suchende erkennt die Identität mit Brahman.",
+            "bhakti_view": "Der Suchende ruht in liebevoller Vereinigung mit Krishna.",
+            "synthesis": "Ob Einheit oder Hingabe, das Ego löst sich auf."
+          },
+          "three_types_of_readers_of_the_gita": {
+            "devotional_reader": "Sucht eine emotionale Verbindung zu Krishna.",
+            "intellectual_reader": "Sucht nach philosophischer Klarheit.",
+            "transformational_reader": "Wendet Lehren an und erlebt innere Veränderungen."
+          },
+          "ultimate_closing_reflection": "Die Bhagavad Gita ist nicht einfach ein Gespräch zwischen zwei historischen Persönlichkeiten. Es ist das ewige Gespräch zwischen dem Endlichen und dem Unendlichen. Es beginnt in Trauer und endet in Weisheit. Es beginnt im Zittern und endet in der Stärke. Wenn es tiefgreifend verstanden wird, verändert es nicht nur die Art und Weise, wie wir denken, sondern auch die Art und Weise, wie wir leben, handeln, lieben und letztendlich transzendieren. Sein letztes Geschenk ist Freiheit: Freiheit von Angst, von Unwissenheit, von Ego und von Knechtschaft. Die Lehre endet, aber die Reise geht weiter – im Bewusstsein, in der Hingabe und im bewussten Handeln.",
+          "what_remains_when_all_teaching_is_assimilated": {
+            "no_arrogance": "Weil die individuelle Handlungsfähigkeit begrenzt ist.",
+            "no_despair": "Weil die göttliche Gnade die Anstrengung unterstützt.",
+            "no_fear": "Weil das Selbst ewig ist.",
+            "no_hatred": "Weil alle Wesen Ausdruck desselben Göttlichen sind."
+          }
+        },
+        "order": 13
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige tiefe Erklärung (Teil 14 – Die ewig lebende Gita und ewige Anwendung)",
+        "bhagavadgita_part_14": {
+          "inner_signs_of_gita_integration": {
+            "calm_strength": "Selbstvertrauen ohne Arroganz.",
+            "clarified_values": "Entscheidungen stimmen leichter mit dem Dharma überein.",
+            "expanding_empathy": "You feel interconnectedness with others.",
+            "reduced_reactivity": "Sie halten inne, bevor Sie antworten.",
+            "steady_joy": "Glück ist weniger von äußeren Bedingungen abhängig."
+          },
+          "the_eternal_blessing": "Möge die Weisheit von Sri Krishna das Denken leiten, die Absicht reinigen und das beständige Handeln fördern. Möge der Mut von Arjuna in uns aufsteigen, wann immer Verwirrung auftritt. Möge Dharma Entscheidungen prägen, Hingabe das Herz erweichen und Wissen die Identität erhellen. Die Bhagavad Gita endet nicht mit der Schrift – sie setzt sich im bewussten Leben fort. Wo Klarheit, Mut und Hingabe vereinen, herrscht dauerhafter Frieden.",
+          "the_final_integration_of_all_teachings": {
+            "bhakti": "Liebe.",
+            "dhyana": "Stabilisieren.",
+            "jnana": "Verstehe.",
+            "karma": "Handeln.",
+            "moksha": "Sei frei.",
+            "tyaga": "Lass los."
+          },
+          "the_gita_and_death": {
+            "continuity_of_consciousness": "Der letzte Gedanke spiegelt die lebenslange Orientierung wider (8.6).",
+            "fearlessness": "Die Erkenntnis beseitigt existenzielle Ängste.",
+            "not_ending": "Der Tod ist ein Übergang des Körpers, nicht die Vernichtung des Selbst (2.20)."
+          },
+          "the_gita_and_inner_freedom_revisited": {
+            "freedom_from_comparison": "Erfolg wird an Integrität gemessen, nicht an Wettbewerb.",
+            "freedom_from_fear_of_loss": "Das Verstehen der Vergänglichkeit löst Ängste auf.",
+            "freedom_from_identity_attachment": "Die Rollen ändern sich, aber das innere Bewusstsein bleibt stabil.",
+            "freedom_from_outcome_dependency": "Sie arbeiten aufrichtig, lassen sich aber von den Ergebnissen nicht erschüttern."
+          },
+          "the_gita_and_responsibility": {
+            "balance": "Mitgefühl hebt Festigkeit nicht auf; Festigkeit hebt das Mitgefühl nicht auf.",
+            "engaged_righteousness": "Spirituelle Reife drückt sich durch verantwortungsvolle Teilnahme aus.",
+            "no_escape_theology": "Die Gita befürwortet niemals Passivität."
+          },
+          "the_gita_as_universal_human_manual": {
+            "for_leaders": "Führen Sie durch moralisches Beispiel (3.21).",
+            "for_parents": "Führer mit Liebe und Verantwortung.",
+            "for_professionals": "Arbeiten Sie ethisch, ohne an Beförderung zu denken.",
+            "for_seekers": "Balance zwischen Forschung und Hingabe.",
+            "for_students": "Kultivieren Sie Disziplin und Zielstrebigkeit."
+          },
+          "the_last_unspoken_lesson": {
+            "integration": "Die Gita führt letztendlich über Worte hinaus – in gelebtes Bewusstsein.",
+            "realization": "Wahre Weisheit ist stille Stärke.",
+            "silence": "Nach dem Dialog bleibt Stille."
+          },
+          "three_permanent_practices_for_lifelong_gita_living": {
+            "awareness": "Ständige Erinnerung daran, dass du das beobachtende Bewusstsein (Atman) bist.",
+            "offering": "Bieten Sie jede Handlung im Geiste als Yajna (heilige Handlung) an.",
+            "surrender": "Vertrauen Sie darauf, dass göttliche Intelligenz über größere Ergebnisse entscheidet."
+          },
+          "what_remains_after_all_practice": {
+            "clarity": "Richtiges Handeln fühlt sich intuitiv an.",
+            "devotion": "Dankbarkeit fließt auf natürliche Weise.",
+            "presence": "Das Leben wird bewusst gelebt, nicht mechanisch.",
+            "stillness": "Der Geist wird transparent."
+          },
+          "when_the_scripture_becomes_experience": {
+            "experiential_stage": "Irgendwann „versucht“ man nicht mehr, die Gita zu praktizieren – Gleichmut, Mitgefühl und Klarheit entstehen auf natürliche Weise.",
+            "intellectual_stage": "Zunächst wird die Gita als Philosophie gelesen – Verse werden studiert, Bedeutungen analysiert, Lehren verglichen.",
+            "realization": "Die Schriftstelle bewegt sich von Seite zu Persönlichkeit.",
+            "reflective_stage": "Allmählich beginnen seine Lehren, Reaktionen, Entscheidungen und Beziehungen zu formen."
+          }
+        },
+        "order": 14
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige tiefe Erklärung (Teil 15 – Das zeitlose Echo und die allgegenwärtige Weisheit)",
+        "bhagavadgita_part_15": {
+          "eternal_closing_reflection": "Die Bhagavad Gita beginnt mit einem von Trauer überwältigten Krieger und endet mit einem Krieger, der in Klarheit steht. Diese Transformation ist die Essenz des spirituellen Lebens. Das Schlachtfeld bleibt, aber die Angst löst sich auf. Die Pflichten bleiben bestehen, aber die Bindung wird schwächer. Beziehungen bleiben bestehen, aber das Ego wird weicher. Das Leben bleibt, aber die Identität vertieft sich. Die Gita verspricht keinen Ausweg aus dem Kampf – sie verspricht Weisheit im Kampf. Wenn Weisheit das Handeln leitet und Hingabe das Herz stabilisiert, ist die Befreiung nicht mehr fern; es wird von Moment zu Moment gelebt.",
+          "living_equanimity": {
+            "in_blame": "Remain calm.",
+            "in_failure": "Bleiben Sie ruhig.",
+            "in_loss": "Seien Sie sich der Vergänglichkeit bewusst.",
+            "in_praise": "Bleiben Sie distanziert.",
+            "in_success": "Bleiben Sie bescheiden."
+          },
+          "the_final_transformation_of_the_seeker": {
+            "after_gita": "Stabiles Selbstbewusstsein, furchtloses Engagement im Leben.",
+            "before_gita": "Identität ist an Rollen, Ergebnisse und emotionale Reaktionen gebunden.",
+            "during_gita": "Allmähliches Verständnis von Pflicht, Distanziertheit und Hingabe."
+          },
+          "the_gita_after_all_explanations": {
+            "beyond_analysis": "Nach dem Studium von Philosophie, Kommentaren und Lehren lädt die Gita letztendlich zur direkten inneren Verwirklichung ein.",
+            "beyond_words": "Its highest truth cannot be fully captured in language; it must be lived.",
+            "from_dialogue_to_silence": "Die gesprochene Lehre führt zur stillen Transformation."
+          },
+          "the_gita_and_global_relevance": {
+            "transcultural_message": "Über Nationalität oder Epoche hinaus spricht die Gita die menschliche Verfassung an.",
+            "universal_solution": "Weisheit, Disziplin, Hingabe und Hingabe.",
+            "universal_struggle": "Jede Ära ist wie Arjuna mit moralischer Verwirrung konfrontiert."
+          },
+          "the_last_synthesis": {
+            "you_are_not_alone": "Das Göttliche wohnt im Herzen aller Wesen (10.20).",
+            "you_are_not_the_body": "Du bist das beobachtende Bewusstsein.",
+            "you_are_not_the_outcome": "Anstrengung definiert Wachstum, nicht Ergebnis.",
+            "you_are_not_the_role": "Rollen ändern sich; Das Bewusstsein bleibt bestehen."
+          },
+          "the_spiritual_center_of_the_gita": {
+            "action": "Fulfill your responsibility.",
+            "devotion": "Biete dein Herz an.",
+            "knowledge": "Verstehe, wer du wirklich bist.",
+            "surrender": "Befreien Sie sich von der Angst vor Ergebnissen."
+          },
+          "three_eternal_anchors_from_the_gita": {
+            "action_is_inevitable": "No one can remain without action (3.5).",
+            "self_is_eternal": "Nichts Wirkliches kann zerstört werden (2.16).",
+            "surrender_is_liberation": "Nimm Zuflucht bei mir allein (18,66)."
+          },
+          "when_the_gita_is_fully_integrated": {
+            "decision_clarity": "Entscheidungen stehen auf natürliche Weise im Einklang mit dem Dharma.",
+            "deep_compassion": "Es wird selbstverständlich, sich selbst in anderen zu sehen.",
+            "emotional_balance": "Wut und Angst verlieren an Intensität.",
+            "inner_freedom": "Glück hängt nicht mehr vom Besitz ab."
+          }
+        },
+        "order": 15
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige tiefe Erklärung (Teil 16 – Der ewige innere Dialog)",
+        "bhagavadgita_part_16": {
+          "arjuna_revisited": {
+            "symbol_of_action": "Handeln, nachdem Klarheit gewonnen wurde.",
+            "symbol_of_seeker": "Aufrichtig, aber verwirrt.",
+            "symbol_of_strength": "Mut, Fragen zu stellen.",
+            "symbol_of_transformation": "Bereitschaft zum Perspektivwechsel."
+          },
+          "eternal_principles_for_all_time": [
+            "Handeln Sie ohne egoistische Bindung.",
+            "Sehen Sie das Göttliche in allen Wesen.",
+            "Kontrolliere den ruhelosen Geist.",
+            "Transcend negative tendencies.",
+            "Lebe nach dem Dharma.",
+            "Kultiviere Hingabe.",
+            "Embrace knowledge.",
+            "Kapitulationsangst.",
+            "Vertraue der göttlichen Gnade.",
+            "Bleiben Sie in Widrigkeiten standhaft."
+          ],
+          "final_echo_of_the_gita": "Die Gita endet nicht mit dem Schweigen der Niederlage, sondern mit dem Schweigen der Stärke. Arjuna steht verwandelt da. Der Krieg mag weitergehen, aber die Verwirrung hat ein Ende. Ebenso geht das Leben mit seinen Herausforderungen weiter, aber der erwachte Mensch begegnet ihnen mit Klarheit und Beständigkeit. Die letzte Gabe der Gita ist nicht die Flucht vom Schlachtfeld – sie ist die Meisterschaft darin. Seine Weisheit ist ewig, weil der menschliche Kampf ewig ist. Immer wenn Verwirrung entsteht, kann der Dialog von vorne beginnen.",
+          "gita_and_inner_silence": {
+            "clarity": "Wenn der Geist zur Ruhe kommt, wird Weisheit hörbar.",
+            "discipline": "Meditation stabilisiert den Geist.",
+            "mental_noise": "Verlangen, Vergleich, Bedauern und Angst.",
+            "peace": "Stille ist keine Leere; es ist Fülle ohne Aufregung."
+          },
+          "krishna_revisited": {
+            "divine_reality": "Höchstes Bewusstsein selbst.",
+            "friend": "Mitfühlender Begleiter.",
+            "inner_voice": "Subtile moralische Intuition.",
+            "teacher": "Patientenratgeber."
+          },
+          "the_gita's_four_eternal_invitations": {
+            "act": "Erfüllen Sie Ihre Verantwortung mutig.",
+            "awaken": "Erkennen Sie Ihre tiefere Identität jenseits von Körper und Ego.",
+            "offer": "Wandeln Sie Arbeit durch Absicht in Gottesdienst um.",
+            "surrender": "Vertrauen Sie auf die göttliche Ordnung, die sich der persönlichen Kontrolle entzieht."
+          },
+          "the_gita_as_eternal_presence": {
+            "inner_guide": "Krishna repräsentiert die erwachte Intelligenz in jedem Herzen.",
+            "living_scripture": "Sie bleibt überall dort lebendig, wo ein Mensch inmitten der Verwirrung Klarheit sucht.",
+            "not_confined_to_history": "Obwohl die Gita auf dem Schlachtfeld von Kurukshetra gesprochen wurde, geht sie über Zeit und Geographie hinaus."
+          },
+          "the_last_internal_shift": {
+            "after": "Ich übe Hingabe.",
+            "before": "Ich suche Kontrolle."
+          },
+          "the_spiritual_reorientation": {
+            "from_attachment_to_participation": "Vollständig eingreifen, ohne zu klammern.",
+            "from_control_to_trust": "Verständnis dafür, dass nicht alles kontrolliert werden kann.",
+            "from_fear_to_understanding": "Die Erkenntnis des Selbst bleibt von Veränderungen unberührt.",
+            "from_isolation_to_interconnectedness": "Alle Wesen als Ausdruck einer einzigen Realität sehen."
+          },
+          "when_life_becomes_kurukshetra": {
+            "career_conflict": "Integrität statt Ehrgeiz wählen.",
+            "ethical_decisions": "Trotz Druck der Wahrheit treu bleiben.",
+            "personal_crisis": "Mit Bewusstsein auf Verlust oder Unsicherheit reagieren.",
+            "relationship_dilemma": "Mitgefühl und Grenzen in Einklang bringen."
+          }
+        },
+        "order": 16
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige tiefe Erklärung (Teil 17 – Die unendliche Fortsetzung)",
+        "bhagavadgita_part_17": {
+          "eternal_closing_reflection": "Die Bhagavad Gita beginnt mit einem zitternden Krieger und endet mit einem entschlossenen Sucher. Diese Transformation ist ihr wahres Wunder. Es beseitigt nicht die Herausforderungen der Welt; es verfeinert das Individuum, das ihm gegenübersteht. Es lehrt, dass Klarheit stärker ist als Angst, Hingabe stärker als Kontrolle und Weisheit stärker als Verwirrung. Wo immer ein Mensch innehält, bevor er etwas tut, und auf höhere Führung hört, ist die Gita präsent. Wo immer Pflicht mit Distanz und Hingabe erfüllt wird, ist die Gita lebendig. Seine Verse mögen enden, aber seine lebendige Präsenz geht endlos weiter.",
+          "the_final_integration_of_arjuna": {
+            "clarity_of_duty": "Er erkennt, dass der Dharma das Handeln leiten muss und nicht nur Emotionen.",
+            "clarity_of_identity": "Er versteht, dass er nicht nur ein Krieger ist, sondern ein ewiges Selbst, das eine Rolle spielt.",
+            "clarity_of_surrender": "Er handelt ohne Bindung an eine persönliche Belohnung.",
+            "clarity_of_trust": "Er vertraut der göttlichen Weisheit, die über seine begrenzte Wahrnehmung hinausgeht."
+          },
+          "the_final_silent_state": {
+            "no_ego_clinging": "Reduzierte egozentrische Erzählung.",
+            "no_existential_fear": "Frieden in der Vergänglichkeit.",
+            "no_inner_conflict": "Harmonie zwischen Wissen, Handeln und Hingabe.",
+            "pure_awareness": "Leben als Zeugenbewusstsein."
+          },
+          "the_gita_as_a_lens_for_seeing_life": {
+            "conflict": "Eine Gelegenheit, Dharma zu praktizieren.",
+            "failure": "Eine Gelegenheit, die Distanz zu vertiefen.",
+            "loss": "Eine Gelegenheit, über Vergänglichkeit nachzudenken.",
+            "love": "Eine Gelegenheit, Hingabe auszudrücken.",
+            "success": "Eine Gelegenheit, bescheiden zu bleiben."
+          },
+          "the_gita_as_path_of_love": {
+            "devotion_not_weakness": "Bhakti is strength rooted in surrender.",
+            "gratitude_not_dependency": "Gratitude expresses spiritual maturity.",
+            "humility_not_inferiority": "Humility arises from awareness of divine source."
+          },
+          "the_gita_as_universal_leadership_manual": {
+            "detached_service": "Servieren Sie, ohne sich nach Lob zu sehnen.",
+            "ethical_example": "Von Gerechtigkeit geführt.",
+            "self_governance": "Kontrolliere Sinne und Geist.",
+            "strategic_vision": "Sehen Sie langfristige Konsequenzen."
+          },
+          "the_gita_never_truly_ends": {
+            "inner_scripture": "Schließlich wird das äußere Buch zum inneren Kompass.",
+            "living_dialogue": "Die Bhagavad Gita endet nicht mit dem achtzehnten Kapitel. Es setzt sich überall dort fort, wo ein menschliches Herz der Verwirrung gegenübersteht und nach der Wahrheit sucht.",
+            "timelessness": "Solange moralische Dilemmata, Angst, Ehrgeiz, Liebe und Tod bestehen, bleibt die Gita relevant."
+          },
+          "the_last_spiritual_maturity": {
+            "compassionate_strength": "Fest und doch freundlich.",
+            "effort_with_surrender": "Arbeiten Sie intensiv, lassen Sie ängstlich los.",
+            "inner_anchor": "Bleiben Sie inmitten des Wandels in Atman zentriert.",
+            "non_reactivity": "Reagieren statt reagieren."
+          },
+          "three_eternal_remedies_from_the_gita": {
+            "for_anger": "Erkenne das Verlangen als Wurzel (3.37).",
+            "for_anxiety": "Von den Früchten lösen (2.47).",
+            "for_fear": "Denken Sie an die Unsterblichkeit des Selbst (2.20)."
+          },
+          "what_the_gita_ultimately_transforms": {
+            "emotion": "Von Turbulenzen zu Stabilität.",
+            "identity": "Von körperbasiert zu bewusstseinsbasiert.",
+            "motivation": "Von Ego-getrieben zu Service-getrieben.",
+            "purpose": "Vom egozentrischen Ehrgeiz zum Dharma-zentrierten Beitrag."
+          }
+        },
+        "order": 17
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige tiefe Erklärung (Teil 18 – Die ewige innere Erleuchtung)",
+        "bhagavadgita_part_18": {
+          "inner_liberation_explained": {
+            "freedom_from_attachment": "Kann lieben, ohne zu klammern.",
+            "freedom_from_fear": "Gegründet in der Unsterblichkeit von Atman.",
+            "freedom_from_identity_fixation": "Rollen sind temporäre Ausdrücke.",
+            "freedom_from_reactivity": "Weniger von Impulsen beherrscht."
+          },
+          "the_eternal_relevance_of_kurukshetra": {
+            "inner_war": "Konflikt zwischen höherem Anspruch und geringerem Impuls.",
+            "permanent_truth": "Dieses Schlachtfeld existiert in jeder Epoche, Kultur und jedem Menschen.",
+            "symbolic_meaning": "Kurukshetra repräsentiert das Feld der menschlichen Erfahrung.",
+            "victory_definition": "Sieg ist Selbstbeherrschung, nicht Herrschaft über andere."
+          },
+          "the_final_illumination": {
+            "detachment": "Befreien Sie sich von der Angst vor den Ergebnissen.",
+            "engagement": "Lebe voll und ganz, handle verantwortungsbewusst, liebe tief.",
+            "realization": "Du bist ewiges Bewusstsein, das an vorübergehenden Erfahrungen teilnimmt.",
+            "surrender": "Vertraue der größeren Intelligenz, die die Existenz leitet."
+          },
+          "the_gita_and_freedom_of_choice": {
+            "18.63_principle": "Denken Sie gründlich nach und handeln Sie, wie Sie möchten.",
+            "divine_teaching": "Krishna präsentiert Weisheit, zwingt ihn jedoch nicht zum Gehorsam.",
+            "responsibility": "Freiheit erfordert Verantwortung.",
+            "spiritual_autonomy": "Wahres Wachstum erfordert bewusste Teilnahme."
+          },
+          "the_gita_and_grace": {
+            "18.66_promise": "Vollständige Hingabe löst Angst und Schuldgefühle auf.",
+            "9.22_assurance": "Das Göttliche bewahrt, was der Anhänger hat, und stellt bereit, was er braucht.",
+            "balance": "Gnade ergänzt die Disziplin, ersetzt sie nicht.",
+            "effort_and_grace": "Menschliche Anstrengung lädt zu göttlicher Unterstützung ein."
+          },
+          "the_gita_as_awakening_of_consciousness": {
+            "awakening_trigger": "Die Krise erschüttert die Gewissheit und eröffnet Raum für tiefergehende Untersuchungen.",
+            "guiding_light": "Wisdom (Krishna) emerges when the seeker (Arjuna) sincerely questions.",
+            "initial_state": "Das menschliche Leben beginnt oft mit der Identifikation mit Körper, Rolle und Emotionen.",
+            "transformation": "Verstehen formt Identität und Handeln neu."
+          },
+          "the_gita_as_ethical_foundation": {
+            "compassion_with_strength": "Entschlossenes Handeln ohne Hass.",
+            "dharma_first": "Righteousness precedes convenience.",
+            "means_matter": "Ziele rechtfertigen keine unethischen Methoden.",
+            "service_mindset": "Persönlicher Ehrgeiz im Einklang mit dem kollektiven Wohlergehen."
+          },
+          "the_gita_in_one_comprehensive_view": {
+            "ethics": "Leitet eine gerechte Entscheidungsfindung.",
+            "philosophy": "Erklärt die Natur des Selbst und der Realität.",
+            "psychology": "Behandelt Angst, Wut, Anhaftung und Zweifel.",
+            "spirituality": "Leads toward liberation through surrender."
+          },
+          "the_integrated_human_ideal": {
+            "clarity_of_intellect": "Unterscheidung zwischen ewig und vorübergehend.",
+            "discipline_of_mind": "Meisterschaft durch Übung und Distanz.",
+            "purity_of_heart": "Hingabe ohne Ego.",
+            "strength_of_action": "Mutige Pflichterfüllung."
+          },
+          "timeless_closing_benediction": "Möge die Weisheit der Bhagavad Gita im Herzen jedes Suchenden lebendig bleiben. Möge sich Verwirrung in Klarheit verwandeln, Angst in Mut, Anhaftung in Hingabe und Handeln in heilige Opfergabe. Mögen wir uns daran erinnern, dass das Schlachtfeld im Inneren liegt, der Führer im Inneren und die Befreiung im Inneren liegt. Die Verse enden, aber das Bewusstsein geht weiter. Wo Wissen erleuchtet, Hingabe milder wird und rechtschaffenes Handeln sich entfaltet, dort strahlt der Geist der Gita ewig."
+        },
+        "order": 18
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige tiefe Erklärung (Teil 19 – Das endlose Kontinuum der Weisheit)",
+        "bhagavadgita_part_19": {
+          "closing_eternal_message": "Die Bhagavad Gita ist kein Ende, sondern ein Kontinuum. Jedes Mal, wenn eine Person innehält, bevor sie handelt, und nach Weisheit statt nach Impulsen sucht, wird die Gita wiedergeboren. Jedes Mal, wenn jemand den Dharma der Bequemlichkeit vorzieht, lebt die Gita. Jedes Mal, wenn Hingabe an die Stelle von Angst tritt, erfüllt die Gita ihren Zweck. Es bleibt ewig, weil das menschliche Herz weiterhin nach der Wahrheit sucht. Solange es Verwirrung gibt, wird es einen Dialog geben. Solange es einen Dialog gibt, wird es ein Erwachen geben.",
+          "living_the_gita_through_all_phases_of_life": {
+            "career_phase": "Balance ambition with ethics.",
+            "education_phase": "Kultivieren Sie Konzentration und Selbstbeherrschung.",
+            "family_phase": "Dienen Sie mit Liebe, ohne Besitzgier.",
+            "final_transition": "Erinnere dich mit Frieden an das Göttliche.",
+            "retirement_phase": "Vertiefen Sie Distanz und Kontemplation."
+          },
+          "the_final_internal_shift_revisited": {
+            "from_attachment_to_service": "Arbeit wird zum Angebot.",
+            "from_confusion_to_clarity": "Verständnis ersetzt Zweifel.",
+            "from_fear_to_freedom": "Knowledge removes existential anxiety.",
+            "from_isolation_to_unity": "Anerkennung der gemeinsamen göttlichen Essenz."
+          },
+          "the_gita_and_inner_stability": {
+            "clarity": "Separate reaction from response.",
+            "equanimity": "Maintain balance in pleasure and pain.",
+            "presence": "Lebe bewusst statt mechanisch.",
+            "trust": "Vertraue auf die göttliche Ordnung."
+          },
+          "the_gita_as_perpetual_reflection": {
+            "cyclical_learning": "Jede Lektüre der Gita offenbart neue Erkenntnisse, weil sich der Leser weiterentwickelt.",
+            "dynamic_interpretation": "Seine Lehren vertiefen sich, wenn sich die Lebensumstände ändern.",
+            "mirror_function": "Die Gita fungiert als Spiegel und spiegelt den aktuellen Verständnisstand des Suchenden wider."
+          },
+          "the_seeker’s_ongoing_refinement": {
+            "advanced_stage": "Spontaner Gleichmut und Mitgefühl.",
+            "early_stage": "Kämpfe mit Bindung und emotionalen Turbulenzen.",
+            "intermediate_stage": "Bewusstes Bemühen um diszipliniertes Handeln.",
+            "realized_stage": "Effortless alignment with Dharma."
+          },
+          "the_supreme_synthesis_reaffirmed": {
+            "bhakti": "Rechte Hingabe verändert.",
+            "dhyana": "Richtige Meditation stabilisiert.",
+            "jnana": "Richtiges Verständnis befreit.",
+            "karma": "Richtiges Handeln reinigt.",
+            "surrender": "Die richtige Zuflucht löst die Angst auf."
+          },
+          "three_final_living_principles": {
+            "act_with_integrity": "Lassen Sie sich bei Entscheidungen vom Dharma leiten.",
+            "detach_from_outcome": "Befreien Sie sich von der Angst vor Ergebnissen.",
+            "surrender_with_trust": "Biete das Endergebnis dem Göttlichen an."
+          },
+          "what_the_gita_always_does": {
+            "clarifies_identity": "Du bist mehr als Körper und Emotionen.",
+            "grants_peace": "Durch Hingabe.",
+            "opens_heart": "Durch Hingabe.",
+            "purifies_action": "Durch selbstlose Absicht.",
+            "stabilizes_mind": "Durch Disziplin und Meditation."
+          },
+          "what_the_gita_does_not_do": {
+            "does_not_demand_blind_faith": "Es regt zum Hinterfragen und Nachdenken an.",
+            "does_not_encourage_escape": "Pflicht muss erfüllt werden.",
+            "does_not_remove_struggle": "Herausforderungen bleiben Teil des Lebens."
+          }
+        },
+        "order": 19
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige tiefe Erklärung (Teil 20 – Die unendliche Kontinuität des Dharma)",
+        "bhagavadgita_part_20": {
+          "advanced_spiritual_maturity": {
+            "balanced_action": "Mut ohne Aggression.",
+            "devotional_surrender": "Herz im Einklang mit dem göttlichen Willen.",
+            "fearless_living": "Verankert in ewiger Identität.",
+            "non_dual_awareness": "Die Einheit hinter der Vielfalt sehen."
+          },
+          "living_dharma_in_modern_complexity": {
+            "competition": "Strebe ohne Neid.",
+            "ethical_challenges": "Navigieren Sie mit Integrität durch moralische Grauzonen.",
+            "information_age": "Bleiben Sie trotz Ablenkung konzentriert.",
+            "uncertainty": "Vertrauen Sie auf die göttliche Ordnung und handeln Sie gleichzeitig verantwortungsbewusst."
+          },
+          "the_cycle_of_application": {
+            "act": "Mit Bewusstsein umsetzen.",
+            "contemplate": "Wenden Sie sie auf aktuelle Lebenssituationen an.",
+            "refine": "Setzen Sie den Zyklus mit tieferem Verständnis fort.",
+            "reflect": "Evaluate actions without self-condemnation.",
+            "study": "Lesen Sie Verse und denken Sie darüber nach."
+          },
+          "the_everlasting_echo": "The Bhagavad Gita never truly concludes. Its wisdom resurfaces each time life presents uncertainty. Whenever courage is chosen over fear, duty over convenience, and surrender over anxiety, the Gita is alive. It is not confined to verses; it is expressed through conscious living. As long as humanity seeks clarity, the dialogue between the finite and the Infinite continues. In that dialogue, the path to freedom remains eternally open.",
+          "the_final_principle_of_the_gita": {
+            "effort_is_yours": "You are responsible for disciplined action.",
+            "grace_is_available": "Divine support accompanies sincerity.",
+            "identity_is_eternal": "You are consciousness, not circumstance.",
+            "result_is_not_yours": "Outcome rests within larger cosmic order."
+          },
+          "the_gita_and_emotional_resilience": {
+            "anger": "Trace to frustrated desire.",
+            "anxiety": "Detach from imagined outcomes.",
+            "envy": "Erkenne die göttliche Gleichheit in allen Wesen.",
+            "grief": "Vergänglichkeit verstehen."
+          },
+          "the_gita_as_an_ongoing_practice": {
+            "daily_engagement": "Die Bhagavad Gita wird kraftvoll, wenn sie regelmäßig studiert und täglich reflektiert wird.",
+            "embodied_wisdom": "Die Lehren bewegen sich vom Denken über das Sprechen zum Handeln.",
+            "habitual_integration": "Wiederholte Betrachtung verwandelt Philosophie in Charakter."
+          },
+          "the_gita’s_resolution_to_these_conflicts": {
+            "attachment_resolution": "Verzichte auf Früchte und bemühe dich gleichzeitig.",
+            "duty_resolution": "Perform Svadharma sincerely.",
+            "identity_resolution": "Recognize Atman as your true nature."
+          },
+          "the_three_eternal_conflicts_in_every_human_life": {
+            "attachment_conflict": "Should I cling to results or surrender outcomes?",
+            "duty_conflict": "Should I act for comfort or for Dharma?",
+            "identity_conflict": "Am I the body or the eternal Self?"
+          },
+          "when_the_gita_is_fully_realized": {
+            "ego_becomes_light": "Self-importance diminishes.",
+            "heart_becomes_soft": "Mitgefühl nimmt zu.",
+            "life_becomes_service": "Jede Aktion bietet.",
+            "mind_becomes_clear": "Less dominated by agitation.",
+            "peace_becomes_constant": "Inner stillness remains."
+          }
+        },
+        "order": 20
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige tiefe Erklärung (Teil 21 – Die ewige Flamme des Bewusstseins)",
+        "bhagavadgita_part_21": {
+          "eternal_closing_message": "Die Bhagavad Gita ist eine immer brennende Flamme des Bewusstseins. Es beginnt in der Krise und gipfelt in Klarheit. Es beginnt im Zittern und endet im Mut. Es verändert nicht die Welt draußen, sondern das Bewusstsein im Inneren. Immer wenn ein Mensch an einem Scheideweg steht und sich bewusst und hingebungsvoll für den Dharma entscheidet, lebt die Gita wieder auf. Sein Dialog ist ewig, weil die Suche nach der Wahrheit ewig ist. Bei dieser Suche scheint das Licht der Gita ohne Ende weiter.",
+          "the_final_spiritual_state": {
+            "devotion": "Liebe ausgedrückt ohne Nachfrage.",
+            "equanimity": "Ausgeglichen zwischen Gewinn und Verlust.",
+            "fearlessness": "Verwurzelt in der Unsterblichkeit von Atman.",
+            "wisdom": "Klare Wahrnehmung, die das Handeln leitet."
+          },
+          "the_gita_and_continuous_growth": {
+            "correction": "Passen Sie Ihre Handlungen an den Dharma an.",
+            "renewal": "Beginnen Sie jeden Tag erneut mit Klarheit und Hingabe.",
+            "self_examination": "Regularly examine motives and reactions."
+          },
+          "the_gita_and_universal_unity": {
+            "compassion": "Understanding unity dissolves hatred.",
+            "equality": "The wise see all beings equally (5.18).",
+            "interconnectedness": "Das Göttliche wohnt in jedem Herzen (10.20)."
+          },
+          "the_gita_as_an_unending_light": {
+            "eternal_relevance": "The Bhagavad Gita continues to illuminate because human dilemmas continue to arise.",
+            "inner_guidance": "Whenever confusion seeks clarity, the voice of Krishna re-emerges within.",
+            "timeless_dialogue": "Der Suchende und der Führer existieren in jeder Generation."
+          },
+          "the_last_layer_of_understanding": {
+            "beyond_emotion": "It is not emotional comfort alone, but steady courage.",
+            "beyond_intellect": "The deepest truth of the Gita is not intellectual agreement but lived realization.",
+            "beyond_ritual": "It is not mechanical devotion, but conscious surrender."
+          },
+          "the_still_point_in_all_change": {
+            "inner_anchor": "The Self remains unchanged.",
+            "outer_flux": "Circumstances rise and fall.",
+            "realization": "Peace is found not in controlling events but in recognizing the unchanging witness."
+          },
+          "the_ultimate_synthesis_reaffirmed": {
+            "act": "Fulfill your role sincerely.",
+            "love": "Offer devotion.",
+            "meditate": "Stabilize the mind.",
+            "surrender": "Vertraue dem göttlichen Willen.",
+            "understand": "Erkenne das ewige Selbst."
+          },
+          "three_final_transformations": {
+            "transformation_of_action": "Handeln ohne selbstsüchtige Erwartungen.",
+            "transformation_of_identity": "Living from awareness rather than ego.",
+            "transformation_of_view": "Vergänglichkeit klar erkennen."
+          },
+          "what_remains_after_all_study": {
+            "clarity": "Verwirrung wurde durch Verständnis ersetzt.",
+            "peace": "Tiefe innere Stille.",
+            "purpose": "Leben im Einklang mit dem Dharma.",
+            "steadiness": "Emotionale Extreme mildern sich."
+          }
+        },
+        "order": 21
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige tiefe Erklärung (Teil 22 – Das unendliche Kontinuum der Weisheit)",
+        "bhagavadgita_part_22": {
+          "eternal_benediction": "Möge sich die Weisheit der Bhagavad Gita weiterhin in jedem aufrichtigen Suchenden entfalten. Möge seine Führung Gedanken formen, Emotionen festigen und Handlungen reinigen. Mögen wir mutig handeln wie Arjuna, geleitet von Klarheit wie Krishna. Die Verse enden, doch das Erwachen geht weiter. Solange die Menschheit nach Wahrheit und Sinn sucht, bleibt das Licht der Gita unvermindert.",
+          "the_final_completion_that_is_not_an_end": {
+            "continuous_refinement": "Sogar Klarheit vertieft sich zu größerer Demut.",
+            "ever_expanding_awareness": "Das Bewusstsein dehnt sich grenzenlos aus.",
+            "no_final_sentence": "Spirituelles Wachstum hat keinen Endpunkt."
+          },
+          "the_final_inner_equilibrium": {
+            "balanced_mind": "Lust und Schmerz dominieren nicht mehr.",
+            "compassionate_action": "Stärke drückt sich durch Freundlichkeit aus.",
+            "fearless_identity": "Der Tod verliert seinen Schrecken.",
+            "silent_confidence": "Keine externe Validierung erforderlich."
+          },
+          "the_gita_and_eternal_time": {
+            "cyclical_history": "Das Zeitalter ändert sich, aber der menschliche Kampf wiederholt sich.",
+            "eternal_solution": "Die Weisheit bleibt über Zyklen hinweg konstant.",
+            "timeless_relevance": "Der Dialog zwischen Arjuna und Krishna wird nie obsolet."
+          },
+          "the_gita_as_perpetual_awakening": {
+            "layered_meaning": "Jeder Vers trägt philosophische, psychologische, ethische und spirituelle Dimensionen.",
+            "living_revelation": "Seine Wahrheiten entfalten sich eher durch gelebte Erfahrung als durch bloße Wiederholung.",
+            "never_exhausted": "Egal wie oft man sie studiert, die Bhagavad Gita offenbart mit zunehmender Bewusstseinsreife neue Tiefe."
+          },
+          "the_gita’s_permanent_internal_shifts": {
+            "clarity_over_confusion": "Verständnis ersetzt emotionalen Zusammenbruch.",
+            "discipline_over_impulse": "Der Geist wird eher geführt als unkontrolliert.",
+            "service_over_selfishness": "Arbeit wird zum Angebot.",
+            "trust_over_anxiety": "Surrender dissolves fear."
+          },
+          "the_three_eternal_relationships": {
+            "self_and_divine": "Bleiben Sie durch Hingabe und Hingabe verbunden.",
+            "self_and_duty": "Führen Sie Aufgaben ohne Bindung aus.",
+            "self_and_world": "Beteiligen Sie sich an der Welt, ohne das Bewusstsein für sich selbst zu verlieren."
+          },
+          "three_continuing_practices": {
+            "detachment": "Lassen Sie die Erwartung nach der Anstrengung los.",
+            "devotion": "Bewahre die Dankbarkeit gegenüber dem Göttlichen.",
+            "discernment": "Tägliche Unterscheidung zwischen ewig und vorübergehend."
+          },
+          "ultimate_essence_reaffirmed": [
+            "Du bist ewig.",
+            "Deine Pflicht ist heilig.",
+            "Dein Geist erfordert Disziplin.",
+            "Deine Taten formen deinen Charakter.",
+            "Deine Hingabe reinigt dein Herz.",
+            "Deine Hingabe bringt Frieden."
+          ]
+        },
+        "order": 22
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige tiefe Erklärung (Teil 23 – Der ewig fließende Strom der Weisheit)",
+        "bhagavadgita_part_23": {
+          "advanced_inner_observation": {
+            "observe_anger": "Verfolgen Sie es bis zum Anhang.",
+            "observe_desire": "Sehen Sie seinen Aufstieg ohne sofortige Reaktion.",
+            "observe_fear": "Denken Sie an die Vergänglichkeit der Umstände.",
+            "observe_pride": "Erkenne seine Zerbrechlichkeit."
+          },
+          "eternal_closing_reflection": "Die Bhagavad Gita ist wie ein Fluss der Weisheit, der niemals versiegt. Jede Generation trinkt daraus und findet Erneuerung. Jeder Suchende hört darin die Führung, die er für diesen Moment braucht. Seine Lehre beschränkt sich nicht auf antike Schlachtfelder; es fließt durch moderne Dilemmata, private Kämpfe und stille Reflexionen. Immer wenn Klarheit an die Stelle von Verwirrung und Pflicht an die Stelle von Zögern tritt, fließt die Gita erneut. Es hat kein wahres Ende, denn das Erwachen selbst kennt keine Grenzen.",
+          "perennial_principles_for_all_eras": [
+            "Handeln Sie mit Integrität.",
+            "Trennen Sie sich von der Belohnung.",
+            "Diszipliniere den Geist.",
+            "Vergänglichkeit erkennen.",
+            "Kultiviere Mitgefühl.",
+            "Vertraue der göttlichen Ordnung.",
+            "Wissen suchen.",
+            "Offer devotion.",
+            "Akzeptiere die Hingabe.",
+            "Lebe mutig."
+          ],
+          "the_gita_and_endless_refinement": {
+            "lifelong_learning": "Weisheit vertieft sich mit Demut.",
+            "silent_devotion": "Innere Dankbarkeit ersetzt Zurschaustellung.",
+            "subtle_detachment": "Sogar der Stolz auf die Spiritualität muss losgelassen werden."
+          },
+          "the_gita_and_matured_intelligence": {
+            "emotional_intelligence": "Reagieren ohne unkontrollierte Reaktion.",
+            "ethical_intelligence": "Wählen Sie „Recht“ statt „Bequem“.",
+            "integrated_intelligence": "Kopf, Herz und Hand in Einklang bringen.",
+            "spiritual_intelligence": "Das Ewige hinter dem Vorübergehenden erkennen."
+          },
+          "the_gita_and_personal_responsibility": {
+            "conscious_choice": "Jede Aktion prägt den zukünftigen Charakter.",
+            "no_blame": "Umstände sind keine Entschuldigung für adharmisches Handeln.",
+            "self_mastery": "Geist und Sinne müssen diszipliniert sein."
+          },
+          "the_gita_as_compass_in_uncertain_times": {
+            "when_decisions_are_complex": "Fragen Sie, was mit dem Dharma übereinstimmt.",
+            "when_doubt_arises": "Streben Sie nach höherer Weisheit statt nach Impulsen.",
+            "when_outcomes_are_uncertain": "Gib nach Anstrengung Früchte ab.",
+            "when_world_is_chaotic": "Kehren Sie zur inneren Stille zurück."
+          },
+          "the_gita_as_inner_recalibration": {
+            "awareness_cycle": "Beachten → Nachdenken → Korrigieren → Hingeben.",
+            "continuous_adjustment": "Spirituelles Wachstum ist keine einzelne Transformation, sondern eine ständige Neuausrichtung von Denken, Motiv und Handeln.",
+            "course_correction": "Immer wenn das Ego die Kontrolle wiedererlangt, lädt die Gita zur Neuausrichtung auf den Dharma ein."
+          },
+          "the_last_internal_integration": {
+            "clarity_in_thought": "Der Geist ist nicht mehr durch Verwirrung getrübt.",
+            "purity_in_intent": "Durch Service motiviertes Handeln.",
+            "softness_in_heart": "Mitgefühl ohne Schwäche.",
+            "steadiness_in_action": "Festigkeit ohne Aggression."
+          },
+          "the_three_great_freedoms_revisited": {
+            "freedom_from_attachment": "Verankert in der Loslösung von Ergebnissen.",
+            "freedom_from_fear": "Basierend auf dem Wissen über den unsterblichen Atman.",
+            "freedom_from_ignorance": "Erleuchtet durch unterscheidende Weisheit (Viveka)."
+          }
+        },
+        "order": 23
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige tiefe Erklärung (Teil 24 – Die grenzenlose Fortsetzung der Weisheit)",
+        "bhagavadgita_part_24": {
+          "infinite_closing_reflection": "Die Bhagavad Gita geht endlos weiter, weil das Bewusstsein selbst grenzenlos ist. Jede Lesung wird zu einem Neuanfang. Jede Anwendung wird zu tieferer Hingabe. Jede Erkenntnis eröffnet weitere Erkenntnisse. Der Dialog zwischen Arjuna und Krishna ist nicht auf die Zeit beschränkt; Es entfaltet sich in jedem Herzen, das vor dem Handeln innehält und nach höherer Weisheit sucht. Solange der menschliche Geist nach Sinn sucht, wird die Gita lebendig bleiben – nicht als bloße Schrift, sondern als lebendiges Bewusstsein, das Denken, Handeln und Hingabe leitet.",
+          "perpetual_principles_reaffirmed": [
+            "Klarheit ist größer als Verwirrung.",
+            "Pflicht geht über Komfort.",
+            "Selbsterkenntnis ist wichtiger als äußerer Status.",
+            "Hingabe ist größer als Ego.",
+            "Hingabe ist wichtiger als Kontrolle."
+          ],
+          "the_final_inner_alignment": {
+            "action": "Directed by Dharma.",
+            "emotion": "Durch Hingabe (Bhakti) gereinigt.",
+            "identity": "Verwurzelt im ewigen Bewusstsein.",
+            "thought": "Geleitet von Diskriminierung (Viveka)."
+          },
+          "the_gita_and_continuous_self_purification": {
+            "correction": "Ersetzen Sie impulsive Reaktionen durch achtsame Reaktionen.",
+            "daily_reflection": "Beobachten Sie, ob Handlungen aus Sattva, Rajas oder Tamas entstehen.",
+            "renewal": "Beginnen Sie jeden Tag als neue Gelegenheit zur Ausrichtung."
+          },
+          "the_gita_and_ego_dissolution": {
+            "ego_definition": "Falsche Identifikation mit temporären Rollen und Ergebnissen.",
+            "ego_transformation": "Durch Hingabe wird das Ego zum Instrument und nicht zum Meister.",
+            "humility": "Erkennen der göttlichen Quelle von Fähigkeiten und Möglichkeiten."
+          },
+          "the_gita_and_silent_strength": {
+            "confidence_without_arrogance": "Bewusstsein ohne Überlegenheit.",
+            "detachment_without_coldness": "Freiheit ohne Gleichgültigkeit.",
+            "firmness_without_harshness": "Stärke, geleitet von Weisheit."
+          },
+          "the_gita_and_universal_compassion": {
+            "active_kindness": "Mitgefühl, ausgedrückt durch verantwortungsvolles Handeln.",
+            "reducing_judgment": "Wir verstehen, dass sich alle unter Gunas weiterentwickeln.",
+            "seeing_equality": "Die göttliche Präsenz in allen Wesen erkennen (5.18)."
+          },
+          "the_gita_as_an_ever_deepening_ocean": {
+            "limitless_depth": "Der Ozean der Gita hat kein letztes Ufer; Die Erkenntnis weitet sich immer weiter aus.",
+            "mid_depth_understanding": "Ein tiefergehendes Studium offenbart die philosophische Einheit von Atman und Brahman.",
+            "profound_depth": "Anhaltende Kontemplation löst das Gefühl der Getrenntheit auf.",
+            "surface_understanding": "Erste Lesungen bieten ethische Orientierung und motivierende Klarheit."
+          },
+          "the_last_shift_of_consciousness": {
+            "from_anxiety_to_trust": "Vertrauen ersetzt ständiges Kopfrechnen.",
+            "from_division_to_unity": "Das Leben als zusammenhängendes Ganzes sehen.",
+            "from_striving_to_being": "Anstrengung wird zu natürlichem Ausdruck und nicht zu Spannung."
+          },
+          "three_eternal_questions_answered_by_gita": {
+            "how_should_i_live": "Handeln Sie selbstlos, meditieren Sie stetig, geben Sie sich treu hin.",
+            "what_should_i_do": "Erfülle meine Pflicht im Einklang mit dem Dharma.",
+            "who_am_i": "Ich bin das ewige Selbst, nicht der sich verändernde Körper."
+          }
+        },
+        "order": 24
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige tiefe Erklärung (Teil 25 – Die ewige Resonanz der Weisheit)",
+        "bhagavadgita_part_25": {
+          "final_everlasting_reflection": "Die Bhagavad Gita endet nicht mit einer Endgültigkeit; es öffnet sich endlos. Seine Verse hallen über Jahrhunderte hinweg wider, weil die menschliche Natur weiterhin mit Angst, Pflicht, Ehrgeiz und Identität ringt. Immer wenn Mut an die Stelle von Verwirrung tritt und Hingabe an die Stelle von Angst, atmet die Gita wieder auf. Es wird nicht nur gelesen – es wird realisiert. Es wird nicht nur zitiert – es wird verkörpert. Solange das Bewusstsein nach der Wahrheit sucht, geht der Dialog zwischen dem Suchenden und dem göttlichen Führer ohne Ende weiter.",
+          "the_final_purification_of_motive": {
+            "from_fear_to_trust": "Ergebnisse werden nach ernsthafter Anstrengung erzielt.",
+            "from_gain_to_service": "Das Handeln verlagert sich von der persönlichen Belohnung zum kollektiven Wohlergehen (Lokasangraha).",
+            "from_pride_to_gratitude": "Leistung wird eher zum Angebot als zur Zurschaustellung des Egos."
+          },
+          "the_gita_and_endless_beginning": {
+            "every_choice": "Jede Aktion prägt den Charakter.",
+            "every_moment": "Jede Entscheidung wird zu einem neuen Kurukshetra.",
+            "every_surrender": "Jedes Angebot vertieft die Freiheit."
+          },
+          "the_gita_and_human_dignity": {
+            "equal_vision": "Der Weise sieht alle Wesen gleich (5.18).",
+            "respect_for_others": "Die göttliche Präsenz in jedem Herzen erkennen.",
+            "self_respect": "Identität basiert auf dem ewigen Selbst und nicht auf externer Bestätigung."
+          },
+          "the_gita_and_the_mastery_of_mind": {
+            "awareness_of_thought": "Beobachten Sie mentale Muster ohne Identifikation.",
+            "detachment": "Lösen Sie die obsessive Bindung an Ergebnisse (Vairagya).",
+            "discipline": "Wiederholte Neuausrichtung auf ein höheres Ziel (Abhyasa).",
+            "stability": "Der Geist wird eher zum Verbündeten als zum Gegner (6.5)."
+          },
+          "the_gita_and_unending_responsibility": {
+            "courageous_action": "Trotz Schwierigkeiten für den Dharma einstehen.",
+            "ethical_consistency": "Integrität im öffentlichen und privaten Leben.",
+            "self_governance": "Regulierung von Sinnen und Wünschen."
+          },
+          "the_gita_as_inner_resonance": {
+            "awakening_call": "Immer wenn die Verwirrung der Reflexion weicht, ist ihre Schwingung wieder zu hören.",
+            "living_vibration": "Die Bhagavad Gita ist keine statische Lehre, sondern eine lebendige Resonanz im Bewusstsein.",
+            "silent_companion": "It remains present even when not actively studied."
+          },
+          "the_last_internal_realization": {
+            "devotion_is_internal": "Stille Opfergabe des Herzens.",
+            "freedom_is_internal": "Nicht abhängig von den Umständen.",
+            "peace_is_internal": "Unabhängig von der äußeren Anordnung.",
+            "strength_is_internal": "Verwurzelt in der Klarheit des Selbst."
+          },
+          "the_perennial_truths": [
+            "Du bist ewiges Bewusstsein.",
+            "Das Leben ist eine heilige Verantwortung.",
+            "Mind requires disciplined training.",
+            "Anhaftung bindet das Herz.",
+            "Hingabe reinigt die Absicht.",
+            "Hingabe befreit das Bewusstsein."
+          ],
+          "three_eternal_practices_reaffirmed": {
+            "alignment": "Act according to Dharma.",
+            "reflection": "Pause vor der Reaktion.",
+            "surrender": "Geben Sie dem Göttlichen Früchte frei."
+          }
+        },
+        "order": 25
+      },
+      {
+        "title": "Bhagavad Gita – Complete Deep Explanation (Part 26 – The Completion Beyond Continuation)",
+        "bhagavadgita_part_26": {
+          "final_reflection": "Die Bhagavad Gita wurde nun in den Bereichen Philosophie, Psychologie, Hingabe, Handeln, Hingabe und Verwirklichung entfaltet. Doch die ultimative Botschaft ist einfach: Lebe mit Klarheit, handle mit Integrität, Liebe mit Hingabe und Hingabe mit Vertrauen. Das Schlachtfeld des Lebens wird weitergehen, aber Verwirrung muss nicht sein. Wenn Weisheit die Anstrengung leitet und Hingabe das Herz stabilisiert, hat die Lehre ihren Zweck erfüllt. Die Fortsetzung liegt nun nicht mehr in weiteren Worten, sondern in gelebter Transformation.",
+          "the_final_internal_state": {
+            "compassionate_strength": "Festigkeit und Freundlichkeit existieren nebeneinander.",
+            "detached_engagement": "Volle Teilnahme ohne Festhalten.",
+            "quiet_confidence": "Keine externe Validierung erforderlich.",
+            "steady_awareness": "Das Bewusstsein ruht im Zeugenmodus."
+          },
+          "the_gita_as_an_eternal_principle": {
+            "not_bound_by_time": "Seine Relevanz bleibt über Generationen hinweg bestehen.",
+            "not_confined_to_religion": "Seine Psychologie und Ethik sind universell.",
+            "not_limited_to_verses": "Seine Weisheit überschreitet Textgrenzen."
+          },
+          "the_gita_reaches_its_fulfillment_when": {
+            "clarity_guides_action": "Decisions arise from Dharma rather than impulse.",
+            "devotion_becomes_natural": "Dankbarkeit fließt ohne Anstrengung.",
+            "fear_of_loss_diminishes": "Identität ist nicht mehr an temporäre Rollen gebunden.",
+            "mind_remains_balanced": "Lob und Kritik stören die innere Stabilität nicht.",
+            "work_becomes_worship": "Tägliche Pflichten werden als heilige Opfergaben verrichtet."
+          },
+          "the_point_of_completion": {
+            "from_words_to_being": "Ab einem bestimmten Punkt muss sich das Studium in gelebtes Bewusstsein verwandeln.",
+            "silence_after_knowledge": "Wenn das Verständnis reift, sind weniger Worte nötig.",
+            "understanding_completion": "Die wahre Vervollständigung der Bhagavad Gita besteht nicht darin, weitere Erklärungen hinzuzufügen, sondern in der Aneignung ihrer Weisheit."
+          },
+          "the_true_ending": {
+            "external_end": "Der Dialog zwischen Krishna und Arjuna endet in der Heiligen Schrift.",
+            "internal_beginning": "Der Dialog im Inneren des Suchenden beginnt ernsthaft.",
+            "living_continuation": "Jede bewusste Entscheidung wird zu einem neuen Vers der Gita."
+          },
+          "ultimate_essence_compressed": [
+            "Erkenne dein wahres Selbst.",
+            "Erfülle deine Pflicht.",
+            "Kontrolliere deinen Geist.",
+            "Detach from results.",
+            "Kultiviere Hingabe.",
+            "Gib dich völlig hin."
+          ]
+        },
+        "order": 26
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige tiefe Erklärung (Teil 27 – Die lebendige Stille nach der Weisheit)",
+        "bhagavadgita_part_27": {
+          "six_eternal_reminders": [
+            "Du bist nicht der Körper; Du bist der Zeuge.",
+            "Keine Handlung ist unbedeutend, wenn sie mit dem Dharma in Einklang steht.",
+            "Der Geist wird zum Freund, wenn er diszipliniert wird.",
+            "Attachment is the root of sorrow.",
+            "Hingabe verwandelt das Ego in Opferbereitschaft.",
+            "Die Hingabe vollendet die Reise."
+          ],
+          "the_closing_stillness": {
+            "action_resumes": "Der Dienst geht weiter.",
+            "arjuna_understands": "Die Verwirrung löst sich auf.",
+            "krishna_speaks": "Anleitung wird gegeben.",
+            "silence_remains": "Weisheit liegt im Inneren."
+          },
+          "the_final_integration_checklist": {
+            "do_i_act_with_dharma": "Sind meine Handlungen eher auf Gerechtigkeit als auf Bequemlichkeit ausgerichtet?",
+            "do_i_detach_from_results": "Kann ich meine Angst nach ernsthafter Anstrengung loslassen?",
+            "do_i_practice_devotion": "Ist Dankbarkeit in meinem Herzen vorhanden?",
+            "do_i_remember_the_self": "Identifiziere ich mich mit dem ewigen Bewusstsein oder einer vorübergehenden Rolle?",
+            "do_i_surrender_control": "Vertraue ich einer höheren Ordnung, die über die persönliche Planung hinausgeht?"
+          },
+          "the_final_peace": {
+            "not_escape": "Befreiung ist Freiheit in Verantwortung.",
+            "not_indifference": "Loslösung ist Liebe ohne Anhaftung.",
+            "not_passivity": "Frieden ist aktive Klarheit, kein Rückzug."
+          },
+          "the_gita_as_lived_reality": {
+            "in_conflict": "Halten Sie inne und antworten Sie klar und deutlich.",
+            "in_failure": "Bleiben Sie ruhig und nachdenklich.",
+            "in_loss": "Erinnere dich an die Vergänglichkeit.",
+            "in_service": "Biete stillschweigend an.",
+            "in_success": "Bleiben Sie bescheiden und distanziert."
+          },
+          "the_last_philosophical_synthesis": {
+            "epistemology": "Wahres Wissen entsteht durch Unterscheidungsvermögen und Hingabe.",
+            "ethics": "Richtiges Handeln steht im Einklang mit Dharma und Selbstlosigkeit.",
+            "ontology": "Die Realität besteht aus ewigem Bewusstsein und sich verändernder Materie.",
+            "psychology": "Der Geist wird durch Disziplin und Distanziertheit friedvoll.",
+            "soteriology": "Befreiung entsteht durch Hingabe und Erkenntnis."
+          },
+          "ultimate_conclusion": "The Bhagavad Gita has unfolded from crisis to clarity, from despair to devotion, from confusion to conscious action. Its purpose is fulfilled when knowledge becomes character, devotion becomes humility, and surrender becomes peace. There is nothing more to add, only something to live. The continuation now exists in awareness, discipline, and surrender. In that living practice, the Gita continues eternally.",
+          "when_words_are_complete": {
+            "limit_of_explanation": "Every scripture reaches a point where explanation must give way to contemplation.",
+            "shift_to_experience": "Intellectual clarity must now become direct inner awareness.",
+            "silent_assimilation": "The deepest truths of the Gita are realized in quiet reflection."
+          }
+        },
+        "order": 27
+      },
+      {
+        "title": "Bhagavad Gita – Complete Deep Explanation (Part 28 – The Eternal Return to Awareness)",
+        "bhagavadgita_part_28": {
+          "eternal_closing_reflection": "The Bhagavad Gita has unfolded across philosophy, psychology, devotion, ethics, and surrender. Yet its truest form is not explanation but embodiment. When action aligns with Dharma, when mind rests in clarity, when heart bows in gratitude, and when outcomes are surrendered with trust — the Gita is fulfilled. The dialogue may cease in words, but it continues in awareness. And in that awareness, freedom quietly shines.",
+          "final_integration_of_all_yogas": {
+            "bhakti": "Liebe aufrichtig.",
+            "dhyana": "Denken Sie still nach.",
+            "jnana": "Know deeply.",
+            "karma": "Work diligently.",
+            "tyaga": "Lasse anmutig los."
+          },
+          "four_signs_of_mature_gita_living": {
+            "calm_responsibility": "Fulfilling duty without agitation.",
+            "measured_speech": "Words guided by truth and compassion.",
+            "natural_gratitude": "Quiet devotion without display.",
+            "steady_mind": "Reduced emotional oscillation."
+          },
+          "the_final_liberating_perspective": {
+            "nothing_is_lost": "No sincere effort is wasted (6.40).",
+            "nothing_is_permanent": "All forms are temporary (2.16).",
+            "nothing_is_separate": "The Divine dwells in all hearts (10.20).",
+            "nothing_is_unreachable": "Hingabe eröffnet die höchste Freiheit (18.66)."
+          },
+          "the_gita_and_eternal_repetition": {
+            "compassion_for_self": "Spiritual growth includes patience with imperfection.",
+            "learning_is_cyclical": "Momente der Klarheit können sich mit Momenten der Verwirrung abwechseln.",
+            "return_to_practice": "Each time confusion appears, return to awareness."
+          },
+          "the_gita_and_simplicity": {
+            "clear_priorities": "Truth over convenience, integrity over popularity.",
+            "inner_order": "Mental clarity reduces unnecessary conflict.",
+            "less_complexity": "Life becomes simpler when guided by Dharma."
+          },
+          "the_gita_returns_to_you": {
+            "circle_complete": "Die Reise, die mit Arjunas Verzweiflung begann, kehrt nun in das eigene Leben des Lesers zurück.",
+            "inner_kurukshetra": "Every decision point becomes a battlefield of clarity versus confusion.",
+            "living_dialogue": "Krishna’s guidance becomes the voice of awakened discrimination (Viveka) within."
+          },
+          "the_last_refinement_of_practice": {
+            "ego_of_knowledge": "Pride in understanding must dissolve into humility.",
+            "silent_service": "The highest action seeks no recognition.",
+            "subtle_attachment": "Even attachment to being 'spiritual' must be observed and released."
+          },
+          "the_quiet_ending": {
+            "the_awareness_deepens": "Wisdom integrates gradually.",
+            "the_dialogue_remains": "Die innere Führung hört nie auf.",
+            "the_practice_continues": "Daily life becomes the field of application.",
+            "the_text_ends": "Verses conclude."
+          }
+        },
+        "order": 28
+      },
+      {
+        "title": "Bhagavad Gita – Complete Deep Explanation (Part 29 – The Final Dissolution into Practice)",
+        "bhagavadgita_part_29": {
+          "beyond_continuation": {
+            "absorption": "The teachings must be digested through lived discipline.",
+            "no_more_accumulation": "At this stage, adding more explanation does not deepen realization.",
+            "shift_from_expansion_to_depth": "Wisdom now grows vertically within, not horizontally through more words."
+          },
+          "completion_statement": "The Bhagavad Gita has now been unfolded to its conceptual limits. Further continuation would only repeat what has already been integrated. True continuation exists not in additional commentary but in disciplined living, conscious reflection, and surrendered action. The scripture fulfills itself when explanation gives way to embodiment. From this point onward, the Gita continues through practice, not prose.",
+          "the_gita_as_silent_companion": {
+            "natural_expression": "Right action arises without strain.",
+            "not_constant_thought": "It does not require mental repetition at all times.",
+            "subtle_presence": "It becomes a background orientation of consciousness."
+          },
+          "the_last_possible_summary": {
+            "do_the_right": "Act according to your duty.",
+            "know_the_self": "Du bist ewiges Bewusstsein.",
+            "let_go_of_fruit": "Detach from reward and fear.",
+            "love_the_divine": "Offer devotion sincerely.",
+            "trust_the_order": "Surrender fully."
+          },
+          "the_last_test_of_gita_understanding": {
+            "in_conflict": "Can I remain calm and dharmic?",
+            "in_failure": "Can I remain steady and reflective?",
+            "in_solitude": "Can I rest in silent awareness?",
+            "in_success": "Can I remain humble and detached?",
+            "in_uncertainty": "Can I act sincerely and surrender outcome?"
+          },
+          "the_three_final_anchors": {
+            "awareness": "Ich bin das beobachtende Selbst.",
+            "responsibility": "I must act according to Dharma.",
+            "surrender": "Results are not mine to control."
+          },
+          "when_the_gita_is_alive": {
+            "clarity_guides": "Die Entscheidungsfindung wird weniger konfliktreich.",
+            "compassion_expands": "Seeing shared humanity in all.",
+            "ego_softens": "Less need to prove superiority.",
+            "peace_remains": "Stability amidst change.",
+            "reaction_slows": "Der Antwort geht eine Pause voraus."
+          }
+        },
+        "order": 29
+      },
+      {
+        "title": "Bhagavad Gita – Complete Deep Explanation (Part 30 – The Silence Where Wisdom Rests)",
+        "bhagavadgita_part_30": {
+          "the_end_of_explanation": {
+            "living_truth": "The Bhagavad Gita is now to be practiced rather than prolonged.",
+            "natural_limit": "Jede Schriftstelle erreicht eine Schwelle, an der Erklärung zur Wiederholung wird.",
+            "transition_point": "In diesem Stadium muss sich die Weisheit vom intellektuellen Verstehen zur kontemplativen Vertiefung verlagern."
+          },
+          "the_final_essence_condensed": [
+            "Clarity over confusion.",
+            "Pflicht statt Komfort.",
+            "Distanziertheit über Angst.",
+            "Hingabe über Ego.",
+            "Surrender over control."
+          ],
+          "the_final_threefold_remembrance": {
+            "remember_what_to_do": "Act according to Dharma with sincerity.",
+            "remember_what_to_release": "Let go of attachment to fruits.",
+            "remember_who_you_are": "You are not the perishable body but the eternal Atman."
+          },
+          "the_gita_in_silent_form": {
+            "no_agitation": "Equanimity replaces emotional volatility.",
+            "no_argument": "Klarheit ersetzt Debatte.",
+            "no_compulsion": "Action flows naturally without ego-driven urgency."
+          },
+          "the_living_sign_of_realization": {
+            "balanced_response": "Sie reagieren eher, als dass Sie reagieren.",
+            "fearless_acceptance": "Impermanence no longer disturbs.",
+            "quiet_devotion": "Gratitude becomes constant.",
+            "steady_identity": "Sie bleiben inmitten äußerer Schwankungen innerlich verankert."
+          },
+          "the_true_continuation": {
+            "in_daily_life": "Every interaction becomes field of Dharma.",
+            "in_decision_making": "Jede Wahl wird zum Test der Ausrichtung.",
+            "in_service": "Jede Anstrengung wird zum Angebot.",
+            "in_solitude": "Every moment of silence becomes meditation."
+          },
+          "ultimate_conclusion": "The Bhagavad Gita has been unfolded across its philosophical, psychological, devotional, ethical, and practical dimensions. There is no further extension required. Its wisdom is complete, and its purpose fulfilled when embodied. The battlefield of life continues, but the confusion need not. The dialogue has served its role. What remains now is quiet strength, disciplined action, compassionate clarity, and surrendered trust. In that lived state, the Gita continues eternally — not in additional words, but in awakened awareness."
+        },
+        "order": 30
+      },
+      {
+        "title": "Bhagavad Gita – Complete Deep Explanation (Part 31 – The Return to the Beginning)",
+        "bhagavadgita_part_31": {
+          "back_to_arjuna": {
+            "the_inner_state": "Verwirrung, Trauer, moralische Lähmung.",
+            "the_invitation": "Anstatt zusammenzubrechen, erkundigen Sie sich.",
+            "the_opening_scene": "Ein Krieger steht zitternd zwischen zwei Armeen.",
+            "the_universal_truth": "Jeder Mensch erreicht einen solchen Moment im Leben."
+          },
+          "back_to_krishna": {
+            "the_method": "Nicht Zwang, sondern Dialog.",
+            "the_principle": "Wisdom is offered, not imposed.",
+            "the_respect": "Free will remains intact.",
+            "the_role": "Führer, Lehrer, Freund und göttliche Realität."
+          },
+          "closing_return": "The Bhagavad Gita began with a bow falling from trembling hands. It ends with the same bow lifted in clarity. That arc — from paralysis to purpose — is the entire journey. And because human beings will always face moments of doubt, the Gita will always begin again. Its continuation is not in further chapters, but in every courageous act guided by wisdom and surrendered to the Divine.",
+          "the_complete_cycle": {
+            "action": "Returning to duty transformed.",
+            "despair": "Recognition of inner conflict.",
+            "inquiry": "Seeking higher understanding.",
+            "knowledge": "Learning nature of Self and Dharma.",
+            "practice": "Acting with discipline and detachment.",
+            "surrender": "Angst und Ego loslassen.",
+            "vision": "Recognizing divine presence everywhere."
+          },
+          "the_final_repetition_not_as_repetition_but_as_truth": [
+            "Du bist ewig.",
+            "Deine Pflicht ist heilig.",
+            "Dein Geist muss diszipliniert sein.",
+            "Dein Herz muss gereinigt werden.",
+            "Ihr Handeln muss aufeinander abgestimmt sein.",
+            "Ihre Ergebnisse müssen aufgegeben werden."
+          ],
+          "the_final_state_of_the_seeker": {
+            "but_awakened": "Conscious of deeper identity.",
+            "but_detached": "Free from compulsive clinging.",
+            "not_perfection": "Immer noch menschlich, immer noch engagiert.",
+            "not_withdrawn": "Vollständig am Leben teilnehmen."
+          },
+          "the_true_reason_there_is_no_end": {
+            "ego_returns": "Das Bewusstsein muss wachsam bleiben.",
+            "life_continues": "Es entstehen neue Herausforderungen.",
+            "mind_fluctuates": "Klarheit muss erneuert werden.",
+            "practice_deepens": "Das Verstehen wird subtiler."
+          },
+          "what_has_truly_been_accomplished": {
+            "emotional_shift": "Von Turbulenzen zu Stabilität.",
+            "existential_shift": "Von der Angst vor dem Tod zum Bewusstsein der Unsterblichkeit.",
+            "identity_shift": "Vom körperzentrierten zum egozentrischen Bewusstsein.",
+            "motivation_shift": "Vom egogetriebenen zum dienstleistungsgetriebenen Handeln."
+          }
+        },
+        "order": 31
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige tiefe Erklärung (Teil 32 – Die endgültige Integration in das Sein)",
+        "bhagavadgita_part_32": {
+          "final_eternal_statement": "Die Bhagavad Gita erreicht ihre Erfüllung nicht, wenn mehr Worte geschrieben werden, sondern wenn das Leben ihre Weisheit widerspiegelt. Es ist vollständig, wenn Wissen zu Charakter wird, wenn Hingabe zu Demut wird, wenn Disziplin zu Beständigkeit wird und wenn Hingabe zu Frieden wird. Die Fortsetzung gehört nun zum gelebten Handeln, zum stillen Bewusstsein und zum unerschütterlichen Dharma. In diesem gelebten Zustand bleibt die Gita ewig bestehen – nicht durch zusätzlichen Diskurs, sondern durch erwachtes Sein.",
+          "the_final_practical_checkpoint": {
+            "when_afraid": "Erinnere ich mich an das ewige Selbst?",
+            "when_challenged": "Bleibe ich ruhig?",
+            "when_confused": "Suche ich nach höherer Weisheit?",
+            "when_criticized": "Bleibe ich ruhig?",
+            "when_praised": "Bleibe ich bescheiden?"
+          },
+          "the_gita_as_four_lifelong_disciplines": {
+            "duty_performance": "Treue Erfüllung der Verantwortung.",
+            "mental_discipline": "Meditation und Impulsregulierung.",
+            "self_knowledge": "Regelmäßige Reflexion über die ewige Natur von Atman.",
+            "surrender": "Vertrauen in die göttliche Ordnung, die sich der persönlichen Kontrolle entzieht."
+          },
+          "the_inner_state_after_complete_assimilation": {
+            "balanced_action": "Der Aufwand ist stetig; Angst ist minimal.",
+            "ethical_consistency": "Der Dharma führt auch dann, wenn andere ihn nicht sehen.",
+            "quiet_devotion": "Dankbarkeit fließt auf natürliche Weise.",
+            "reduced_fear": "Vergänglichkeit wird ohne Panik akzeptiert.",
+            "stable_equanimity": "Gewinn und Verlust stören den Kern nicht mehr."
+          },
+          "the_last_turning_point": {
+            "from_discussion_to_practice": "Spirituelle Reife erfordert eine disziplinierte Umsetzung.",
+            "from_learning_to_living": "Irgendwann kommt der Punkt, an dem das Wiederholen von Prinzipien keine Tiefe mehr verleiht; sie zu verkörpern, tut es.",
+            "from_seeking_to_being": "Der Suchende wird allmählich im Bewusstsein etabliert."
+          },
+          "the_silent_completion": {
+            "nothing_more_to_add": "Alle philosophischen Dimensionen wurden entfaltet.",
+            "nothing_more_to_repeat": "Kernlehren wurden integriert.",
+            "only_practice_remains": "Verkörperung ersetzt Erklärung."
+          },
+          "the_true_spiritual_maturity": {
+            "no_escape": "Der Umgang mit dem Leben bleibt aktiv und verantwortungsvoll.",
+            "no_fanaticism": "Ausgewogene und mitfühlende Einstellung.",
+            "no_showmanship": "Spirituelles Wachstum findet innerlich statt performativ statt."
+          }
+        },
+        "order": 32
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige tiefe Erklärung (Teil 33 – Das letzte Wort, das über Worte hinausweist)",
+        "bhagavadgita_part_33": {
+          "final_closure_statement": "Ohne Wiederholung ist keine weitere sinnvolle Erweiterung möglich. Die Bhagavad Gita wurde bis zur konzeptionellen Vollendung entfaltet. Von diesem Punkt an besteht ein wahrer Fortbestand nur durch diszipliniertes Handeln, stille Meditation, mitfühlenden Dienst und hingegebenes Vertrauen. Die Schrift erfüllt ihren Zweck, wenn sich Worte im Bewusstsein auflösen. Daher ist dies die letzte Fortsetzung in der Sprache. Die nächste Fortsetzung gehört zum Leben selbst.",
+          "the_gita_ends_where_practice_begins": {
+            "awareness_guides": "Der innere Krishna spricht ohne äußeren Diskurs.",
+            "living_commences": "Das tägliche Verhalten wird zum Anwendungsfeld.",
+            "silence_teaches": "Meditation ersetzt Erklärung.",
+            "study_concludes": "Die konzeptionelle Expansion hat ihre Grenzen erreicht."
+          },
+          "the_last_possible_continuation": {
+            "act": "Mit Klarheit und Aufrichtigkeit.",
+            "pause": "Vor jeder wichtigen Aktion.",
+            "reflect": "Steht das im Einklang mit dem Dharma?",
+            "release": "Trennen Sie sich vom Ergebnis.",
+            "remember": "Du bist ewig."
+          },
+          "the_last_summary_of_all_summaries": {
+            "devotion": "Bhakti reinigt das Ego und richtet das Herz aus.",
+            "discipline": "Geist und Sinne müssen durch Übung (Abhyasa) und Losgelöstheit (Vairagya) geschult werden.",
+            "identity": "Du bist der ewige Atman, nicht der sich verändernde Körper-Geist-Komplex.",
+            "liberation": "Moksha ist Freiheit von Unwissenheit, nicht Flucht vor dem Leben.",
+            "responsibility": "Ihr Svadharma muss mit Integrität ausgeführt werden.",
+            "surrender": "Tyaga aus Früchten löst Ängste."
+          },
+          "the_true_test_of_completion": {
+            "greater_clarity": "Schnelleres Erkennen der dharmischen Wahl.",
+            "inner_trust": "Vertrauen wurzelt in Hingabe.",
+            "less_reactivity": "Reduzierte emotionale Turbulenzen.",
+            "quiet_peace": "Ruhige Präsenz auch inmitten der Komplexität.",
+            "steady_effort": "Konsequentes Handeln ohne Burnout."
+          },
+          "when_continuation_becomes_repetition": {
+            "depth_now_internal": "Eine weitere Fortsetzung würde eher Prinzipien wiederholen als die Erkenntnis vertiefen.",
+            "natural_limit_reached": "Alle wichtigen philosophischen, psychologischen, ethischen, hingebungsvollen und praktischen Dimensionen der Bhagavad Gita wurden entfaltet.",
+            "shift_required": "Die einzige authentische Fortsetzung ist jetzt die kontemplative Assimilation."
+          }
+        },
+        "order": 33
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige, tiefe Erklärung (Teil 34 – Die letzte Bestätigung der Vollendung)",
+        "bhagavadgita_part_34": {
+          "acknowledgment_of_completion": {
+            "conceptual_limit": "Eine weitere Fortführung würde lediglich die zuvor integrierten Grundsätze erneut bekräftigen.",
+            "philosophical_scope": "Alle wichtigen metaphysischen, ethischen, hingebungsvollen und psychologischen Lehren der Bhagavad Gita wurden systematisch erklärt.",
+            "structural_completion": "Alle 18 Kapitel, Kernkonzepte, symbolische Bedeutungen, Yogapfade, praktische Anwendungen und fortgeschrittene Interpretationen wurden entfaltet."
+          },
+          "definitive_closure": {
+            "living_application": "Von hier an setzt sich die Gita nur noch durch gelebte Erfahrung fort.",
+            "no_additional_layer": "All layers — practical, philosophical, symbolic, devotional — are complete.",
+            "no_further_expansion": "There is no new conceptual dimension left to unfold."
+          },
+          "final_compressed_essence": [
+            "You are eternal consciousness (Atman).",
+            "Perform your duty (Svadharma).",
+            "Handle ohne Anhaftung (Karma Yoga).",
+            "Diszipliniere den Geist (Dhyana Yoga).",
+            "Kultiviere Hingabe (Bhakti Yoga).",
+            "Realize truth through knowledge (Jnana Yoga).",
+            "Transcend the Gunas.",
+            "Gib dich ganz dem Göttlichen hin."
+          ],
+          "final_statement": "This marks the final textual continuation. The Bhagavad Gita has been unfolded comprehensively across multiple dimensions and integrations. Further continuation would merely repeat established truths. The remaining journey is internal, experiential, and contemplative. The scripture now rests in silence, awaiting embodiment through disciplined action, steady awareness, and surrendered devotion.",
+          "the_only_authentic_continuation": {
+            "discipline_over_discussion": "Konsequentes Leben drückt wahres Verständnis aus.",
+            "practice_over_prose": "Die Weisheit muss nun von der Erklärung zur Verkörperung übergehen.",
+            "reflection_over_repetition": "Contemplation replaces accumulation of words."
+          }
+        },
+        "order": 34
+      },
+      {
+        "title": "Bhagavad Gita – Complete Deep Explanation (Part 35 – The True Final Word)",
+        "bhagavadgita_part_35": {
+          "absolute_closure": {
+            "continuation_is_practical_only": "Any meaningful continuation now exists solely in lived application.",
+            "no_additional_layer_to_expand": "Die Schriftstelle wird innerhalb der Textgrenzen vollständig erklärt.",
+            "no_further_extension_possible": "All essential teachings have been completely unfolded."
+          },
+          "final_concluding_statement": "Dies ist die endgültige Schlussfolgerung der erweiterten Erklärung. Die Weisheit der Bhagavad Gita ist vollständig. Seine Botschaft wurde gründlich artikuliert. Die verbleibende Reise liegt nicht in zusätzlichen Worten, sondern im bewussten Leben. Der Dialog zwischen Krishna und Arjuna hat seine Rolle in der Sprache erfüllt. Von hier an muss es sich in Bewusstsein, Handeln, Hingabe und Hingabe entfalten. Dem Text ist nichts weiter hinzuzufügen.",
+          "final_essence_in_its_most_condensed_form": [
+            "Du bist nicht der Körper; Du bist ewiges Bewusstsein.",
+            "Life is a field of responsibility (Kshetra).",
+            "Richtiges Handeln reinigt den Geist.",
+            "Wissen beseitigt Unwissenheit.",
+            "Hingabe mildert das Ego.",
+            "Distanziertheit löst Angst auf.",
+            "Hingabe bringt Frieden.",
+            "Befreiung ist Freiheit im Leben."
+          ],
+          "recognition_of_natural_end": {
+            "full_unfolding": "Die Bhagavad Gita wurde anhand ihres narrativen Rahmens, ihrer philosophischen Struktur, ihrer psychologischen Einsichten, ihres ethischen Rahmens, ihres hingebungsvollen Kerns, ihrer symbolischen Bedeutung, ihrer Yoga-Disziplinen und ihrer praktischen Anwendungen erklärt.",
+            "no_new_dimension_remaining": "Alle konzeptionellen Möglichkeiten wurden ausgelotet. Eine weitere Fortsetzung würde nur das wiederholen, was bereits integriert wurde.",
+            "wisdom_requires_silence": "Auf der höchsten Ebene reift spirituelles Wissen in der Kontemplation, nicht in der Anhäufung."
+          },
+          "the_only_remaining_action": {
+            "discipline": "Trainieren Sie den Geist durch Meditation und Zurückhaltung.",
+            "practice": "Wenden Sie Dharma bei Entscheidungen im wirklichen Leben an.",
+            "reflect": "Verinnerlichen Sie die Lehren durch tägliche Selbstprüfung.",
+            "serve": "Transform work into offering.",
+            "surrender": "Befreien Sie sich von der Angst vor den Ergebnissen."
+          }
+        },
+        "order": 35
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige tiefe Erklärung (Teil 36 – Die letzte Stille)",
+        "bhagavadgita_part_36": {
+          "closing": "Die Bhagavad Gita hat ihren vollständigen erklärenden Abschluss erreicht. Ohne Wiederholung gibt es in der Sprache nichts weiter zu machen. Was bleibt, ist gelebte Praxis, kontemplative Versenkung und stille Erkenntnis. Dies ist die letzte Fortsetzung.",
+          "definitive_end": {
+            "practical_continuation_begins": "Verkörperung ersetzt Erweiterung.",
+            "silence_remains": "The highest teaching rests beyond words.",
+            "textual_continuation_ceases": "No further explanation is necessary or meaningful."
+          },
+          "final_compression_of_all_wisdom": [
+            "Erkenne das Selbst.",
+            "Do your duty.",
+            "Detach from results.",
+            "Control the mind.",
+            "Liebe das Göttliche.",
+            "Gib dich völlig hin."
+          ],
+          "the_inevitable_silence": {
+            "completion_acknowledged": "All teachings, interpretations, applications, and integrations of the Bhagavad Gita have been comprehensively unfolded.",
+            "no_new_content_remaining": "There is no additional philosophical, symbolic, practical, or devotional dimension left to expand.",
+            "spiritual_limit": "Beyond this point, continuation would merely recycle established truths."
+          },
+          "the_true_continuation": {
+            "in_action": "Perform duty aligned with Dharma.",
+            "in_awareness": "Remember the eternal Self.",
+            "in_heart": "Cultivate devotion and humility.",
+            "in_mind": "Maintain discipline and clarity.",
+            "in_surrender": "Release attachment to outcomes."
+          }
+        },
+        "order": 36
+      },
+      {
+        "title": "Bhagavad Gita – Vollständige tiefe Erklärung (abschließende Kündigungserklärung)",
+        "bhagavadgita_part_37": {
+          "completion_confirmation": "Die Bhagavad Gita wurde nun in allen Kapiteln, philosophischen Systemen, symbolischen Interpretationen, psychologischen Rahmenwerken, ethischen Strukturen, praktischen Anwendungen, yogischen Integrationen und kontemplativen Schlussfolgerungen ausführlich erklärt.",
+          "continuation_limit_reached": "Es bleiben keine konzeptionellen, strukturellen oder interpretativen Dimensionen übrig, die ohne direkte Wiederholung erweitert werden könnten.",
+          "definitive_closure": "Damit ist die vollständige textliche Entfaltung der Bhagavad Gita abgeschlossen. Ohne Redundanz ist kein weiterer Ausbau möglich.",
+          "final_essence": [
+            "Du bist das ewige Selbst (Atman).",
+            "Das Leben ist das Feld des Dharma.",
+            "Handeln muss selbstlos sein.",
+            "Der Geist muss diszipliniert sein.",
+            "Das Herz muss hingebungsvoll sein.",
+            "Ergebnisse müssen abgegeben werden.",
+            "Befreiung ist innere Freiheit."
+          ],
+          "reason_for_termination": "Eine weitere Fortsetzung würde nur die zuvor formulierten Grundsätze in geänderter Form wiedergeben, was weder Tiefe noch Klarheit noch Mehrwert bringt.",
+          "true_continuation": "Die einzige sinnvolle Fortsetzung von diesem Punkt an ist die gelebte Verkörperung – diszipliniertes Handeln (Karma Yoga), reflektierendes Verständnis (Jnana Yoga), meditative Beständigkeit (Dhyana Yoga) und hingebungsvolle Hingabe (Bhakti Yoga)."
+        },
+        "order": 37
+      }
+    ]
+  }
+}

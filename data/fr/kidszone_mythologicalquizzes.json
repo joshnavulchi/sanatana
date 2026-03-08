@@ -1,0 +1,89 @@
+{
+  "kidszone_mythologicalquizzes": {
+    "title": "Quiz mythologiques",
+    "meta": {
+      "title": "Espace enfants | Quiz mythologiques — Sanātana Dharma - Explorez le Sanatan Dharma",
+      "canonical": "https://sanatanadharmam.in/kidszone/mythologicalquizzes",
+      "description": "KidsZone — quiz mythologiques — Sanātana Dharma - Explorez Sanatan Dharma — Articles, traductions et commentaires concis sur KidsZone. Explorez les pratiques, l'histoire et le guidage...",
+      "keywords": [
+        "hindu epics quizzes",
+        "hindu gods and goddesses quizzes",
+        "hindu mythology games for kids",
+        "hindu mythology quizzes for children",
+        "hindu mythology trivia",
+        "hindu mythology worksheets for kids",
+        "hinduism for kids",
+        "kids learning hinduism",
+        "kids zone",
+        "kids zone activities",
+        "kids zone educational content",
+        "kids zone learning",
+        "kids zone mythological quizzes",
+        "kids zone resources",
+        "mythological characters quiz",
+        "mythological quizzes",
+        "mythological quizzes for classrooms",
+        "mythological quizzes for students",
+        "mythological quizzes interactive",
+        "mythological quizzes online",
+        "mythological quizzes printable",
+        "mythological quizzes with answers",
+        "mythological stories for kids",
+        "mythology education for children",
+        "mythology fun facts for kids",
+        "mythology quizzes for children",
+        "sanatana dharma",
+        "vedic mythology"
+      ],
+      "ogimage": "/og/kidszone-mythologicalquizzes.png",
+      "url": "https://sanatanadharmam.in/kidszone/mythologicalquizzes"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organisation",
+        "contactpoint": {
+          "@type": "Point de contact",
+          "areaserved": "Dans le monde entier",
+          "availablelanguage": [
+            "العربية",
+            "Allemand",
+            "Anglais",
+            "espagnol",
+            "Français",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Pays-Bas",
+            "Portugais",
+            "russe",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Service client",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "À propos de Sanatanadharman.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "allorigins": "Toutes origines",
+    "allthemes": "Tous les thèmes",
+    "characterslabel": "Personnages :",
+    "comicnotfounddesc": "Nous n'avons pas pu trouver cette bande dessinée.",
+    "comicnotfoundtitle": "Bande dessinée introuvable",
+    "description": "Répondez à 10 questions aléatoires en 10 minutes. Bonne chance!",
+    "filter": "Filtrer",
+    "morallabel": "Moralité :",
+    "next": "Suivant",
+    "originlabel": "Origine",
+    "previous": "Précédent",
+    "searchlabel": "Rechercher",
+    "showing": "Affichage de {start} à {end} sur {total}",
+    "themelabel": "Thème",
+    "themeslabel": "Thèmes :"
+  }
+}

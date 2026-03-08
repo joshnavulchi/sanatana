@@ -1,0 +1,604 @@
+{
+  "drip-irrigation-process": {
+    "title": "Irrigação por gotejamento — Projeto e operação de ponta a ponta",
+    "discription": "Guia abrangente que abrange princípios, componentes, projeto hidráulico, programação, fertirrigação, manutenção, solução de problemas e um modelo de lista de materiais para irrigação por gotejamento.",
+    "meta": {
+      "title": "Irrigação por gotejamento — Projeto e operação de ponta a ponta",
+      "canonical": "https://sanatanadharmam.in/drip-irrigation-process",
+      "description": "Guia abrangente que abrange princípios, componentes, projeto hidráulico, programação, fertirrigação, manutenção, solução de problemas e um modelo de lista de materiais para irrigação por gotejamento. - Sanātana Dharma - Explore Sanatan Dharma.",
+      "keywords": [
+        "Perda de cabeça de Hazen-Williams",
+        "Perguntas frequentes sobre irrigação por gotejamento",
+        "capacidade de retenção de água no solo",
+        "cloração para biofilme",
+        "coeficiente de colheita",
+        "componentes de irrigação por gotejamento",
+        "dimensionamento de bomba para irrigação",
+        "emissores de compensação de pressão",
+        "evapotranspiração",
+        "filtros de retrolavagem",
+        "fluxo de trabalho de projeto de sistema de irrigação",
+        "guia de solução de problemas de irrigação por gotejamento",
+        "hidráulica de irrigação por gotejamento",
+        "irrigation scheduling",
+        "irrigação por gotejamento para pomares",
+        "irrigação por gotejamento para vegetais",
+        "lista de materiais de irrigação por gotejamento",
+        "manutenção do sistema de gotejamento",
+        "melhores práticas de fertirrigação",
+        "necessidade de água da colheita",
+        "padrões de layout de irrigação por gotejamento",
+        "padrões de layout do sistema de irrigação",
+        "projeto de irrigação por gotejamento",
+        "solução de problemas de irrigação",
+        "sondas de capacitância",
+        "tensiômetros",
+        "tratamento ácido para escala",
+        "uniformidade de irrigação"
+      ],
+      "ogimage": "/og/drip-irrigation-process.png",
+      "url": "https://sanatanadharmam.in/drip-irrigation-process"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organização",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Mundialmente",
+          "availablelanguage": [
+            "العربية",
+            "Alemão",
+            "Inglês",
+            "Espanhol",
+            "Francês",
+            "Adeus",
+            "日本語",
+            "Adeus",
+            "Holanda",
+            "Português",
+            "Russo",
+            "Mais",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Suporte ao Cliente",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sobre Sanatanadharm.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "hero": {
+      "title": "Irrigação por gotejamento",
+      "subtitle": "Planejar • Projetar • Instalar • Operar • Manter",
+      "badge": "Pronto para campo e estufa"
+    },
+    "toc": {
+      "title": "Nesta página",
+      "items": [
+        {
+          "id": "visão geral",
+          "label": "Visão geral"
+        },
+        {
+          "id": "princípio",
+          "label": "Como funciona"
+        },
+        {
+          "id": "componentes",
+          "label": "Componentes do sistema"
+        },
+        {
+          "id": "projeto",
+          "label": "Fluxo de trabalho de design"
+        },
+        {
+          "id": "hidráulica",
+          "label": "Cálculos hidráulicos"
+        },
+        {
+          "id": "layout",
+          "label": "Padrões de layout"
+        },
+        {
+          "id": "agendamento",
+          "label": "Programação de irrigação"
+        },
+        {
+          "id": "fertirrigação",
+          "label": "Fertirrigação"
+        },
+        {
+          "id": "manutenção",
+          "label": "Manutenção e lavagem"
+        },
+        {
+          "id": "solução de problemas",
+          "label": "Solução de problemas"
+        },
+        {
+          "id": "bom",
+          "label": "Lista de materiais (modelo)"
+        },
+        {
+          "id": "glossário",
+          "label": "Glossário"
+        },
+        {
+          "id": "Perguntas frequentes",
+          "label": "Perguntas frequentes"
+        }
+      ]
+    },
+    "sections": [
+      {
+        "id": "visão geral",
+        "title": "Visão geral",
+        "paragraphs": [
+          "A irrigação por gotejamento fornece água com vazão baixa e controlada diretamente para a zona radicular usando emissores distribuídos ao longo das laterais. O objetivo é combinar a capacidade de absorção do solo e a demanda da cultura, minimizando ao mesmo tempo a evaporação, o escoamento e a percolação profunda.",
+          "Um sistema completo normalmente inclui: fonte e bombeamento de água, filtração, regulação de pressão, transporte principal e secundário, laterais com emissores, válvulas e automação, fertirrigação e pontos de descarga."
+        ],
+        "bullets": [
+          "Pressão operacional típica nos emissores: 0,7–1,5 bar (10–22 psi).",
+          "Descargas de emissores comuns: 1, 2, 4, 8 LPH (litros por hora).",
+          "A uniformidade depende da estabilidade da pressão, da eficiência da filtragem e do projeto hidráulico."
+        ]
+      },
+      {
+        "id": "princípio",
+        "title": "Como funciona",
+        "steps": [
+          {
+            "icon": null,
+            "title": "Aplicação controlada",
+            "details": "Os emissores convertem a pressão de entrada em um fluxo pequeno e constante (gotas ou pequenos fluxos). A água se infiltra ao redor do gotejador, formando um bulbo úmido que se sobrepõe aos bulbos vizinhos quando o espaçamento está correto."
+          },
+          {
+            "icon": null,
+            "title": "Filtragem primeiro",
+            "details": "Filtros de tela, areia/meio ou disco removem sólidos suspensos e carga biológica que, de outra forma, obstruiriam os emissores. A filtragem é dimensionada de acordo com a qualidade da água e o orifício do emissor."
+          },
+          {
+            "icon": null,
+            "title": "Pressão estável",
+            "details": "Os reguladores de pressão e o dimensionamento balanceado da tubulação mantêm a variação de pressão baixa em todo o bloco para que cada emissor forneça próximo à sua descarga nominal."
+          },
+          {
+            "icon": null,
+            "title": "Lavagem periódica",
+            "details": "As extremidades da rede elétrica e laterais incluem válvulas de descarga ou tampas removíveis para purgar sedimentos e biofilme na inicialização e após a fertirrigação."
+          }
+        ]
+      },
+      {
+        "id": "componentes",
+        "title": "Componentes do sistema",
+        "items": [
+          {
+            "name": "Fonte de água e bomba",
+            "function": "Fornece fluxo e altura manométrica adequados. Inclua válvula de pé/filtro ao extrair de fontes abertas.",
+            "sizingNotes": "A cabeça da bomba deve cobrir a perda do filtro, perda do regulador, perda no tubo/fricção, elevação e pressão mínima do emissor."
+          },
+          {
+            "name": "Unidade de filtragem",
+            "function": "Proteja os emissores contra entupimentos.",
+            "sizingNotes": "Utilize filtro de areia/mídia para alta carga orgânica, tela ou disco para partículas finas; tamanho para o fluxo do sistema com capacidade de retrolavagem."
+          },
+          {
+            "name": "Injeção de fertilizante (venturi ou bomba doseadora)",
+            "function": "Injete fertilizantes solúveis na água de irrigação.",
+            "sizingNotes": "Fornecer válvulas de retenção e bypass; coloque após os filtros para evitar contaminação do meio."
+          },
+          {
+            "name": "Tubos principais e secundários",
+            "function": "Transporte água para blocos de campo com perda mínima de carga.",
+            "sizingNotes": "Mantenha a velocidade de 0,6–1,5 m/s; adicione válvulas de liberação de ar em pontos altos; forneça pontos de descarga nas extremidades."
+          },
+          {
+            "name": "Laterais",
+            "function": "Leve água para os emissores ao longo das fileiras de cultivo.",
+            "sizingNotes": "Limite o comprimento lateral com base no diâmetro, espaçamento entre emissores e variação de pressão permitida (geralmente ≤20%)."
+          },
+          {
+            "name": "Emissores/gotejadores",
+            "function": "Medir o fluxo para a zona raiz.",
+            "sizingNotes": "Escolha a vazão (LPH) por cultura/solo; tipos de compensação de pressão ajudam em declives ou com comprimentos variados."
+          },
+          {
+            "name": "Válvulas e automação",
+            "function": "Controle liga/desliga, seleção de zona, programação automática.",
+            "sizingNotes": "Combine válvulas manuais/solenóides com temporizadores/controladores; adicione medidores de pressão nos filtros."
+          }
+        ]
+      },
+      {
+        "id": "projeto",
+        "title": "Fluxo de trabalho de design",
+        "steps": [
+          {
+            "step": "Pesquisa de local",
+            "details": [
+              "Mapeie dimensões de campo, inclinações e diferenças de elevação.",
+              "Localize fonte de água, eletricidade e acesso para manutenção.",
+              "Identifique a textura do solo (areia/argila/argila) e a taxa de infiltração."
+            ]
+          },
+          {
+            "step": "Espaçamento e layout de corte",
+            "details": [
+              "Documente o espaçamento entre linhas e entre plantas; estimar a propagação do dossel.",
+              "Decida as laterais por linha (vegetais: 1–2; pomares: emissores ou disposição em anel)."
+            ]
+          },
+          {
+            "step": "Seleção de emissor",
+            "details": [
+              "Descarga de seleção: 1–8 LPH são comuns.",
+              "Defina o espaçamento dos emissores por zona radicular e distribuição do solo.",
+              "Taxa de aplicação alvo igual ou inferior à taxa de absorção do solo."
+            ]
+          },
+          {
+            "step": "Dimensionamento de bloco",
+            "details": [
+              "Divida a fazenda em blocos hidráulicos para que o fluxo total se ajuste à capacidade da bomba e à classificação do filtro.",
+              "Mantenha os comprimentos laterais uniformes dentro de um bloco."
+            ]
+          },
+          {
+            "step": "Dimensionamento de tubos",
+            "details": [
+              "Selecione os diâmetros principal/subprincipal para manter as perdas por atrito razoáveis.",
+              "Confirme a velocidade de 0,6–1,5 m/s para evitar sedimentação ou golpe de aríete."
+            ]
+          },
+          {
+            "step": "Regulação e controle de pressão",
+            "details": [
+              "Coloque o regulador após os filtros.",
+              "Adicione válvulas de isolamento por bloco e manômetros para monitoramento."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hidráulica",
+        "title": "Cálculos hidráulicos",
+        "notes": "Mantenha a pressão no emissor mais a jusante ≥ o valor nominal mínimo. Some todas as perdas de carga e mudanças de elevação.",
+        "formulae": [
+          {
+            "name": "Bloquear fluxo",
+            "expr": "Q_bloco = n_emissores × q_emissor",
+            "units": "LPH ou L/min (converter conforme necessário)",
+            "example": "1.200 emissores × 4 LPH = 4.800 LPH = 80 L/min"
+          },
+          {
+            "name": "Perda de cabeça Hazen-Williams (SI)",
+            "expr": "H_f = 10,67 × L × Q ^ 1,852 / (C ^ 1,852 × d ^ 4,871)",
+            "variables": "L: comprimento (m), Q: fluxo (L/s), C: coeficiente HW (PVC ≈ 150), d: diâmetro interno (m)",
+            "note": "Converter para pressão com 1 bar ≈ 10 m de altura manométrica."
+          },
+          {
+            "name": "Requisito de pressão do emissor",
+            "expr": "P_emissor ≥ P_min_rated (normalmente 0,7–1,5 bar)"
+          },
+          {
+            "name": "Variação de pressão admissível ao longo de uma lateral",
+            "expr": "ΔP_lateral ≤ 20% de P_emissor",
+            "note": "Use ≤10% para culturas de alto valor ou laterais muito longas."
+          }
+        ],
+        "workedExample": {
+          "title": "Verificação lateral rápida",
+          "given": [
+            "Emissor: 4 LPH",
+            "Espaçamento do emissor: 0,5 m",
+            "Comprimento lateral: 60 m (Ø16 mm)",
+            "ΔP alvo ≤ 0,2 bar"
+          ],
+          "calc": [
+            "Emissores por lateral = 60 / 0,5 = 120",
+            "Fluxo por lateral = 120 × 4 LPH = 480 LPH = 0,133 L/s",
+            "Estime o atrito usando Hazen-Williams (C = 150) e verifique ΔP <0,2 bar",
+            "Se ΔP for alto, encurte a lateral ou aumente o diâmetro."
+          ],
+          "result": "Escolha o comprimento/diâmetro lateral para atender à restrição ΔP; em seguida, dimensione as subredes para pressão de bloco equilibrada."
+        }
+      },
+      {
+        "id": "layout",
+        "title": "Padrões de layout",
+        "patterns": [
+          {
+            "name": "Canteiros de vegetais (fita adesiva)",
+            "description": "Laterais paralelas ao longo de cada leito; Espaçamento entre emissores de 20–30 cm; fita 12–16 mm.",
+            "pros": [
+              "Baixo custo",
+              "Implantação rápida"
+            ],
+            "cons": [
+              "Substituição sazonal",
+              "Risco de danos à fita"
+            ]
+          },
+          {
+            "name": "Pomares (fonte pontual)",
+            "description": "2–4 emissores por árvore; expanda para soar conforme o dossel cresce.",
+            "pros": [
+              "Umedecimento direcionado",
+              "Escalas com idade da árvore"
+            ],
+            "cons": [
+              "Necessita de reposicionamento periódico"
+            ]
+          },
+          {
+            "name": "Vinhedos (PC em linha)",
+            "description": "Laterais em linha com compensação de pressão em blocos inclinados.",
+            "pros": [
+              "Uniforme em encostas",
+              "Laterais longas possíveis"
+            ],
+            "cons": [
+              "Maior custo do emissor"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "agendamento",
+        "title": "Programação de irrigação",
+        "summary": "Programação por necessidade de água da cultura (ETc), capacidade de retenção de água no solo e taxa de aplicação do sistema.",
+        "method": [
+          "Calcule a evapotranspiração de referência (ETo) a partir de dados meteorológicos locais ou de estações.",
+          "Selecione o coeficiente de cultivo (Kc) por estágio; ETc = ETo × Kc.",
+          "Tempo de aplicação por evento = Profundidade líquida / Taxa de aplicação × Eficiência de campo."
+        ],
+        "typicalKc": [
+          {
+            "crop": "Legumes (meia temporada)",
+            "range": "0,95–1,05"
+          },
+          {
+            "crop": "Cítricos (meia temporada)",
+            "range": "0,65–0,80"
+          },
+          {
+            "crop": "Videira (meia temporada)",
+            "range": "0,70–0,85"
+          }
+        ],
+        "applicationRateNote": "Mantenha a taxa de aplicação do emissor abaixo da ingestão do solo para evitar poças – as areias aceitam taxas mais altas do que as argilas.",
+        "sensors": [
+          "Use tensiômetros ou sondas de capacitância para acionar a irrigação nos limites.",
+          "A cobertura morta reduz a evaporação; ajuste o tempo de execução para baixo quando coberto com cobertura morta."
+        ]
+      },
+      {
+        "id": "fertirrigação",
+        "title": "Fertirrigação",
+        "why": [
+          "Fornece nutrientes à zona radicular ativa com alta eficiência.",
+          "Permite dividir aplicações sincronizadas com estágios de crescimento."
+        ],
+        "hardware": [
+          "Injetor Venturi ou bomba doseadora",
+          "Válvulas de retenção/antiretorno",
+          "Circuito de bypass e válvulas de isolamento",
+          "Tanque de mistura com agitação"
+        ],
+        "procedure": [
+          "Filtros de retrolavagem; injetar através do coletor após a filtração.",
+          "Comece com água limpa, comece a injeção nas ppm desejadas e termine com enxágue com água limpa.",
+          "Monitorar CE e pH; evitar precipitação (por exemplo, cálcio com fosfatos)."
+        ],
+        "safety": [
+          "Instale proteção antisifão/refluxo.",
+          "Armazene ácidos/fertilizantes separadamente; use EPI durante a mistura."
+        ]
+      },
+      {
+        "id": "manutenção",
+        "title": "Manutenção e lavagem",
+        "checklist": [
+          "Diariamente: leia a pressão de entrada/saída através dos filtros; retrolavagem quando o diferencial excede o limite.",
+          "Semanalmente: abra as tampas laterais e lave até a água sair limpa.",
+          "Mensalmente: tratamento químico (cloração/ácido) caso seja observado biofilme ou incrustações.",
+          "Sazonal: inspecione os emissores, repare danos mecânicos/roedores, substitua a fita desgastada."
+        ]
+      },
+      {
+        "id": "solução de problemas",
+        "title": "Solução de problemas",
+        "items": [
+          {
+            "symptom": "Umedecimento irregular no bloco",
+            "likelyCauses": [
+              "Queda de pressão excessiva",
+              "Entupimento parcial",
+              "Diferenças de elevação"
+            ],
+            "fixes": [
+              "Aumente o diâmetro do tubo ou encurte as laterais",
+              "Filtros de limpeza/retrolavagem",
+              "Use emissores de compensação de pressão"
+            ]
+          },
+          {
+            "symptom": "Obstrução frequente do emissor",
+            "likelyCauses": [
+              "Filtragem insuficiente",
+              "Algas/biofilme",
+              "Precipitação de sal"
+            ],
+            "fixes": [
+              "Atualizar filtros e cronograma de retrolavagem",
+              "Cloração de choque",
+              "Ajustar a química da fertirrigação; injetar ácidos se formar incrustações"
+            ]
+          },
+          {
+            "symptom": "Cavitação/ruído da bomba",
+            "likelyCauses": [
+              "Sucção bloqueada",
+              "Baixo nível de origem"
+            ],
+            "fixes": [
+              "Limpe a válvula/filtro de pé",
+              "Garantir um NPSH adequado; ajustar o nível da bomba/água"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bom",
+        "title": "Lista de materiais (modelo)",
+        "columns": [
+          "Item",
+          "Especificação/tamanho",
+          "Quantidade",
+          "Notas"
+        ],
+        "rows": [
+          [
+            "Bombear",
+            "Fluxo ___ L/min, Altura manométrica ___ m",
+            "",
+            ""
+          ],
+          [
+            "Filtro de areia",
+            "Diâmetro ___, Vazão ___ m³/h",
+            "",
+            ""
+          ],
+          [
+            "Filtro de tela/disco",
+            "Malha/classe ___",
+            "",
+            ""
+          ],
+          [
+            "Injetor de fertilizante",
+            "Bomba Venturi ou Dosadora",
+            "",
+            ""
+          ],
+          [
+            "Regulador de pressão",
+            "Definir barra ___",
+            "",
+            ""
+          ],
+          [
+            "Tubo principal",
+            "Material ___, Ø ___ mm, Comprimento ___ m",
+            "",
+            ""
+          ],
+          [
+            "Tubo subprincipal",
+            "Ø ___ mm, Comprimento ___ m",
+            "",
+            ""
+          ],
+          [
+            "Laterais",
+            "Ø 12/16 mm, Comprimento ___ m",
+            "",
+            ""
+          ],
+          [
+            "Emissores",
+            "___ LPH, espaçamento ___ cm",
+            "",
+            ""
+          ],
+          [
+            "Válvulas (isolamento/solenóide)",
+            "Tamanho ___",
+            "",
+            ""
+          ],
+          [
+            "Medidores e acessórios",
+            "0–6 barras",
+            "",
+            ""
+          ],
+          [
+            "Válvulas/tampas de descarga final",
+            "-",
+            "",
+            ""
+          ],
+          [
+            "Acessórios",
+            "Cotovelos/tees/adaptadores",
+            "",
+            ""
+          ]
+        ]
+      },
+      {
+        "id": "glossário",
+        "title": "Glossário",
+        "terms": [
+          {
+            "term": "LPH",
+            "def": "Litros por hora — classificação de descarga de gotejador comum."
+          },
+          {
+            "term": "Emissor de PC",
+            "def": "Emissor compensador de pressão que mantém fluxo constante em uma faixa de pressões de entrada."
+          },
+          {
+            "term": "Uniformidade",
+            "def": "Uniformidade de distribuição de água; influenciada pela variação de pressão e entupimento."
+          },
+          {
+            "term": "Retrolavagem",
+            "def": "Reverter o fluxo através de um filtro para remover partículas presas."
+          }
+        ]
+      },
+      {
+        "id": "Perguntas frequentes",
+        "title": "Perguntas frequentes",
+        "items": [
+          {
+            "q": "Quanto tempo pode ter uma lateral de 16 mm?",
+            "a": "Depende do espaçamento/fluxo do emissor e da variação de pressão permitida; muitos projetos mantêm as laterais entre 60–100 m. Encurte em encostas íngremes ou use emissores de PC."
+          },
+          {
+            "q": "Preciso de filtros de areia e de tela?",
+            "a": "Se a fonte contiver substâncias orgânicas ou algas, inclua um filtro de areia/meio seguido de tela/disco para proteção contra partículas finas."
+          },
+          {
+            "q": "Qual é uma boa pressão inicial nos emissores?",
+            "a": "Muitos emissores funcionam bem em torno de 1,0 bar; verifique a classificação do seu modelo e mantenha a variação baixa em todo o bloco."
+          }
+        ]
+      }
+    ],
+    "diagram": {
+      "title": "Fluxo do sistema (esquema de texto)",
+      "lines": [
+        "Fonte de água → Bomba → Filtro de areia → Filtro de tela/disco → Regulador de pressão → Linha principal",
+        "Linha Principal → Sub-rede → Válvulas → Laterais → Emissores → Zona Raiz",
+        "Bypass: Injetor de Fertilizante (após filtros) → Voltar ao Principal",
+        "Lavagem: tampas/válvulas de descarga na rede elétrica e nas laterais"
+      ]
+    },
+    "cta": {
+      "title": "Precisa de um design personalizado?",
+      "body": "Forneça detalhes de cultivo, espaçamento, área, fonte de água e inclinação para gerar um plano hidráulico em blocos.",
+      "button": {
+        "label": "Solicite um projeto"
+      }
+    }
+  }
+}

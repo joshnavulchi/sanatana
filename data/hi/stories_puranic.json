@@ -1,0 +1,73 @@
+{
+  "stories_puranic": {
+    "title": "कहानियाँ | पौराणिक - सनातन धर्म - सनातन धर्म का अन्वेषण करें",
+    "meta": {
+      "title": "कहानियाँ | पौराणिक - सनातन धर्म - सनातन धर्म का अन्वेषण करें",
+      "canonical": "https://sanatanadharmam.in/stories/puranic",
+      "description": "कहानियाँ - पौराणिक - सनातन धर्म - सनातन धर्म का अन्वेषण करें - कहानियों पर लेख, अनुवाद और संक्षिप्त टिप्पणियाँ। यहां प्रथाओं, इतिहास और मार्गदर्शक सिद्धांतों का अन्वेषण करें...",
+      "keywords": [
+        "Ancient Wisdom Stories Puranic",
+        "Ayurveda Stories Puranic",
+        "Bhagavad Gita Stories Puranic",
+        "Deities Stories Puranic",
+        "Festivals and Traditions Stories Puranic",
+        "Hindu Mythology Stories Puranic",
+        "Hinduism Stories Puranic",
+        "Indian Culture Stories Puranic",
+        "Indian Festivals Stories Puranic",
+        "Indian Philosophy Stories Puranic",
+        "Mahabharata Stories Puranic",
+        "Mythology Stories Puranic",
+        "Philosophy Stories Puranic",
+        "Pilgrimage Stories Puranic",
+        "Puranas Stories Puranic",
+        "Ramayana Stories Puranic",
+        "Religious Knowledge Stories Puranic",
+        "Rituals Stories Puranic",
+        "Sanatanadharmam Stories Puranic",
+        "Sanskrit Stories Puranic",
+        "Spiritual Practices Stories Puranic",
+        "Spirituality Stories Puranic",
+        "Stories Puranic Overview",
+        "Temples Stories Puranic",
+        "Upanishads Stories Puranic",
+        "Vedas Stories Puranic",
+        "Yoga and Meditation Stories Puranic"
+      ],
+      "ogimage": "/og/stories-puranic.png",
+      "url": "https://sanatanadharmam.in/stories/puranic"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "संगठन",
+        "contactpoint": {
+          "@type": "संपर्क बिंदु",
+          "areaserved": "दुनिया भर में",
+          "availablelanguage": [
+            "धन्यवाद",
+            "जर्मन",
+            "अंग्रेजी",
+            "Español",
+            "फ़्रांसीसी",
+            "हिन्दी",
+            "ठीक है",
+            "नेपाली",
+            "नीदरलैंड",
+            "पुर्तगाली",
+            "Русский",
+            "ठीक है",
+            "धन्यवाद",
+            "中文 (简体)"
+          ],
+          "contacttype": "ग्राहक सहायता",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "सनातनधर्मम.इन के बारे में",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
+  }
+}

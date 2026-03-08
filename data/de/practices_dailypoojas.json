@@ -1,0 +1,185 @@
+{
+  "practices_dailypoojas": {
+    "meta": {
+      "title": "Praktiken | Tägliche Puja – Sanātana Dharma – Entdecken Sie Sanatan Dharma",
+      "canonical": "https://sanatanadharmam.in/practices/dailypoojas",
+      "description": "Praktiken – Dailypuja – Sanātana Dharma – Entdecken Sie Sanatan Dharma – Artikel, Übersetzungen und prägnante Kommentare zu Praktiken. Entdecken Sie Praktiken, Geschichte und Leitprinzipien ...",
+      "keywords": [
+        "daily puja",
+        "daily puja benefits",
+        "daily puja concepts",
+        "daily puja for beginners",
+        "daily puja for modern life",
+        "daily puja for students",
+        "daily puja modern relevance",
+        "daily puja origin and history",
+        "daily puja personal development",
+        "daily puja practices",
+        "daily puja principles",
+        "daily puja q&a",
+        "daily puja relation to other concepts",
+        "daily puja scriptural references",
+        "daily puja significance",
+        "daily puja society",
+        "daily puja steps",
+        "daily puja symbolism",
+        "daily puja well-being",
+        "home puja",
+        "puja benefits",
+        "puja for family bonding",
+        "puja for mindfulness",
+        "puja for spirituality",
+        "puja modern relevance",
+        "puja origin and history",
+        "puja rituals",
+        "puja scriptural references",
+        "puja significance",
+        "puja steps",
+        "puja symbolism",
+        "temple puja"
+      ],
+      "ogimage": "/og/practices-dailypuja.png",
+      "url": "https://sanatanadharmam.in/practices/dailypoojas"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organisation",
+        "contactpoint": {
+          "@type": "Kontaktpunkt",
+          "areaserved": "Weltweit",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "Englisch",
+            "Spanisch",
+            "Französisch",
+            "Ja",
+            "日本語",
+            "Ja",
+            "Niederlande",
+            "Portugiesisch",
+            "Russisch",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Kundensupport",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Über Sanatanadharam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "benefits_of_daily_puja": {
+      "mental": [
+        "Reduziert Stress und Ängste durch meditative Praktiken.",
+        "Schafft ein Gefühl von Disziplin und Routine.",
+        "Verbessert den Fokus und die Klarheit des Denkens."
+      ],
+      "physical": [
+        "Rituale am frühen Morgen fördern gesunde Gewohnheiten.",
+        "Atmen und Singen verbessern die Gesundheit der Atemwege.",
+        "Positive Schwingungen fördern das allgemeine Wohlbefinden."
+      ],
+      "social": [
+        "Stärkt den familiären Zusammenhalt durch gemeinsame Rituale.",
+        "Bewahrt das kulturelle und spirituelle Erbe.",
+        "Fördert die Harmonie in der Gemeinschaft während gemeinsamer Gebete."
+      ],
+      "spiritual": [
+        "Fördert inneren Frieden und Achtsamkeit.",
+        "Stärkt die Hingabe und Verbindung mit dem Göttlichen.",
+        "Reinigt den Geist und reduziert negative Tendenzen."
+      ]
+    },
+    "common_daily_pujas": [
+      {
+        "name": "Sandhyavandanam",
+        "practices": [
+          "Rezitation des Gayatri-Mantras",
+          "Wasseropfer (Arghya)",
+          "Meditation"
+        ],
+        "significance": "Vedisches Gebet für Reinigung und Dankbarkeit gegenüber dem Sonnengott.",
+        "time": "Morgen, Mittag, Abend"
+      },
+      {
+        "name": "Surya Puja",
+        "practices": [
+          "Der Sonne Wasser anbieten",
+          "Surya-Mantras singen"
+        ],
+        "significance": "Anbetung des Sonnengottes für Gesundheit und Vitalität.",
+        "time": "Morgen"
+      },
+      {
+        "name": "Tulsi Puja",
+        "practices": [
+          "Beleuchtungslampe in der Nähe von Tulsi",
+          "Wasser und Blumen anbieten"
+        ],
+        "significance": "Verehrung der Tulsi-Pflanze für Reinheit und Wohlstand.",
+        "time": "Morgens oder abends"
+      },
+      {
+        "name": "Shiva Puja",
+        "practices": [
+          "Biete Bilva-Blätter an",
+          "„Om Namah Shivaya“ singen"
+        ],
+        "significance": "Anbetung von Lord Shiva für Frieden und Befreiung.",
+        "time": "Morgens oder abends"
+      },
+      {
+        "name": "Lakshmi Puja",
+        "practices": [
+          "Beleuchtungslampen",
+          "Blumen und Süßigkeiten anbieten"
+        ],
+        "significance": "Anbetung der Göttin Lakshmi für Wohlstand und Harmonie.",
+        "time": "Abend"
+      }
+    ],
+    "definition": "Tägliche Pujas sind Andachtsrituale, die zu Hause oder in Tempeln durchgeführt werden, um Gottheiten zu ehren, spirituelle Disziplin aufrechtzuerhalten und Dankbarkeit auszudrücken.",
+    "key_scriptural_references": [
+      {
+        "quote_summary": "Biete jede Handlung als Anbetung des Göttlichen an.",
+        "text": "Bhagavathgita"
+      },
+      {
+        "quote_summary": "Schreibt detaillierte Vorgehensweisen für die tägliche Puja vor.",
+        "text": "Agamas"
+      }
+    ],
+    "modern_relevance": {
+      "family_bonding": "Gemeinsame Rituale stärken die Beziehungen.",
+      "mindfulness": "Tägliche Puja fördert Ruhe und Dankbarkeit.",
+      "spirituality": "Verbindet den Einzelnen mit einem höheren Bewusstsein."
+    },
+    "origin": {
+      "purpose": "Um göttlichen Segen zu erbitten und den Geist zu reinigen.",
+      "roots": "Vedische Tradition",
+      "texts": [
+        "Agamas",
+        "Smritis",
+        "Puranas"
+      ]
+    },
+    "steps_in_home_puja": [
+      "Reinigen Sie den Altar und die Umgebung.",
+      "Platzieren Sie Götterbilder oder Bilder auf einer sauberen Plattform.",
+      "Zünde eine Lampe (Deepa) und Räucherstäbchen an.",
+      "Bieten Sie Blumen, Früchte und Wasser an.",
+      "Singen Sie Mantras oder führen Sie eine stille Meditation durch.",
+      "Schließen Sie mit Aarti ab und verteilen Sie Prasadam."
+    ],
+    "symbolism": [
+      "Lampe bedeutet Entfernung der Dunkelheit (Unwissenheit).",
+      "Blumen stehen für Reinheit und Hingabe.",
+      "Wasseropfer symbolisiert Hingabe und Lebensenergie."
+    ]
+  }
+}

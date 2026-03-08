@@ -1,0 +1,917 @@
+{
+  "kidszone_illustratedstories": {
+    "title": "Иллюстрированные рассказы",
+    "meta": {
+      "title": "Детская зона | Иллюстрированные истории — Санатана Дхарма - Познакомьтесь с Санатана Дхармой",
+      "canonical": "https://sanatanadharmam.in/kidszone/illustratedstories",
+      "description": "KidsZone — Иллюстрированные истории — Санатана Дхарма — Изучите Санатана Дхарму — Статьи, переводы и краткие комментарии на KidsZone. Изучите практики, историю и рекомендации...",
+      "keywords": [
+        "Animal Fables",
+        "Bedtime Stories for Kids",
+        "Children's Stories",
+        "Classic Indian Stories",
+        "Educational Stories",
+        "Folk Tales with Morals",
+        "Illustrated Stories",
+        "Indian Culture for Kids",
+        "Indian Folktales",
+        "Indian Heritage for Children",
+        "Jataka Tales",
+        "KidsZone",
+        "Moral Stories",
+        "Mythological Stories for Kids",
+        "Panchatantra",
+        "Short Stories for Children",
+        "Stories from Indian Tradition",
+        "Stories of Animals with Morals",
+        "Stories of Compassion and Empathy",
+        "Stories of Courage and Bravery",
+        "Stories of Courage and Wisdom",
+        "Stories of Creativity and Imagination",
+        "Stories of Cultural Values and Traditions",
+        "Stories of Everyday Heroes",
+        "Stories of Family and Relationships",
+        "Stories of Festivals and Celebrations",
+        "Stories of Friendship and Kindness",
+        "Stories of Generosity and Sharing",
+        "Stories of Good vs Evil",
+        "Stories of Honesty and Integrity",
+        "Stories of Humility and Gratitude",
+        "Stories of Kindness and Compassion",
+        "Stories of Kings and Queens",
+        "Stories of Mythological Characters",
+        "Stories of Nature and Environment",
+        "Stories of Perseverance and Hard Work",
+        "Stories of Problem-Solving and Critical Thinking",
+        "Stories of Respect and Responsibility",
+        "Stories of Sages and Saints",
+        "Stories of Self-Control and Discipline",
+        "Stories of Teamwork and Cooperation",
+        "Stories of Wisdom and Intelligence",
+        "Stories with Life Lessons"
+      ],
+      "ogimage": "/og/kidszone-illustratedstories.png",
+      "url": "https://sanatanadharmam.in/kidszone/illustratedstories"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Организация",
+        "contactpoint": {
+          "@type": "Контактная точка",
+          "areaserved": "По всему миру",
+          "availablelanguage": [
+            "عربية",
+            "немецкий",
+            "Английский",
+            "испанский",
+            "Франсэ",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Нидерланды",
+            "Португальский",
+            "Русский",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Служба поддержки клиентов",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "О Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "description": "Тщательно подобранная коллекция коротких иллюстрированных рассказов и морали из индийской традиции. Нажмите на историю, чтобы прочитать ее краткое содержание и мораль.",
+    "kids_indian_stories": [
+      {
+        "title": "Умный кролик и лев",
+        "characters": [
+          "Кролик",
+          "Лев"
+        ],
+        "id": 1,
+        "imgalt": "The Clever Rabbit and the Lion",
+        "imgsrc": "/images/illustrate/thumbs/1.png",
+        "moral": "Мудрость сильнее силы.",
+        "origin": "Панчатантра",
+        "summary": "Маленький кролик перехитрил свирепого льва, обманом заставив его прыгнуть в колодец, увидев свое отражение.",
+        "themes": [
+          "Храбрость",
+          "Интеллект"
+        ]
+      },
+      {
+        "title": "Обезьяна и крокодил",
+        "characters": [
+          "Обезьяна",
+          "Крокодил"
+        ],
+        "id": 2,
+        "imgalt": "The Monkey and the Crocodile",
+        "imgsrc": "/images/illustrate/thumbs/2.png",
+        "moral": "Присутствие духа спасает жизни.",
+        "origin": "Панчатантра",
+        "summary": "Обезьяна избегает опасности, обманывая крокодила, пытающегося съесть его сердце.",
+        "themes": [
+          "Дружба",
+          "Обман"
+        ]
+      },
+      {
+        "title": "Жаждущий ворон",
+        "characters": [
+          "Ворона"
+        ],
+        "id": 3,
+        "imgalt": "The Thirsty Crow",
+        "imgsrc": "/images/illustrate/thumbs/3.png",
+        "moral": "Есть желание, есть и способ.",
+        "origin": "Индийская сказка",
+        "summary": "Измученная жаждой ворона бросает камешки в горшок, чтобы поднять уровень воды, и пьет ее.",
+        "themes": [
+          "Упорство",
+          "Креативность"
+        ]
+      },
+      {
+        "title": "Глупый лев и умная лиса",
+        "characters": [
+          "Лев",
+          "Лиса"
+        ],
+        "id": 4,
+        "imgalt": "The Foolish Lion and the Clever Fox",
+        "imgsrc": "/images/illustrate/thumbs/4.png",
+        "moral": "Жадность ведет к падению.",
+        "origin": "Панчатантра",
+        "summary": "Лиса обманом заставляет льва войти в пустынную пещеру, и лев навсегда попадает в ловушку.",
+        "themes": [
+          "Жадность",
+          "Интеллект"
+        ]
+      },
+      {
+        "title": "Разговорчивая черепаха",
+        "characters": [
+          "Черепаха",
+          "Лебеди"
+        ],
+        "id": 5,
+        "imgalt": "The Talkative Tortoise",
+        "imgsrc": "/images/illustrate/thumbs/5.png",
+        "moral": "Слишком много разговоров может привести к неприятностям.",
+        "origin": "Панчатантра",
+        "summary": "Черепаха падает с неба, потому что открывает пасть, когда ее несут две птицы.",
+        "themes": [
+          "Дисциплина",
+          "Юмор"
+        ]
+      },
+      {
+        "title": "Тенали Рама и воры",
+        "characters": [
+          "Тенали Рама",
+          "Воры"
+        ],
+        "id": 6,
+        "imgalt": "Tenali Rama and the Thieves",
+        "imgsrc": "/images/illustrate/thumbs/6.png",
+        "moral": "Разумное мышление может спасти ваш дом.",
+        "origin": "Сказки Тенали Рамана",
+        "summary": "Тенали Рама обманывает воров, притворяясь, что всю ночь чистит колодец, бросая в него камни.",
+        "themes": [
+          "Мудрость",
+          "Стратегия"
+        ]
+      },
+      {
+        "title": "История Хичди Бирбала",
+        "characters": [
+          "Бирбал",
+          "Акбар"
+        ],
+        "id": 7,
+        "imgalt": "Birbal’s Khichdi Story",
+        "imgsrc": "/images/illustrate/thumbs/7.png",
+        "moral": "Терпение и присутствие духа побеждают.",
+        "origin": "Акбар-Бирбал",
+        "summary": "Бирбал доказывает, что думать о тепле издалека — то же самое, что согревать еду издалека.",
+        "themes": [
+          "Справедливость",
+          "Логика"
+        ]
+      },
+      {
+        "title": "Верный Мангуст",
+        "characters": [
+          "Мангуста",
+          "Малыш",
+          "Мать"
+        ],
+        "id": 8,
+        "imgalt": "The Loyal Mongoose",
+        "imgsrc": "/images/illustrate/thumbs/8.png",
+        "moral": "Не спешите с выводами.",
+        "origin": "Индийский фольклор",
+        "summary": "Мангуст спасает ребенка от змеи, но по ошибке его наказывают.",
+        "themes": [
+          "Верность",
+          "Доверять"
+        ]
+      },
+      {
+        "title": "Кришна и горшок с маслом",
+        "characters": [
+          "Кришна",
+          "Гопи"
+        ],
+        "id": 9,
+        "imgalt": "Krishna and the Butter Pot",
+        "imgsrc": "/images/illustrate/thumbs/9.png",
+        "moral": "Любопытство и игривость естественны, но честность имеет значение.",
+        "origin": "Истории детства Кришны",
+        "summary": "Малыш Кришна крадет масло со своими друзьями и очаровывает всех своей невинностью.",
+        "themes": [
+          "Зло",
+          "Любовь"
+        ]
+      },
+      {
+        "title": "Судама и Кришна",
+        "characters": [
+          "Кришна",
+          "Судама"
+        ],
+        "id": 10,
+        "imgalt": "Sudama and Krishna",
+        "imgsrc": "/images/illustrate/thumbs/10.png",
+        "moral": "Настоящая дружба безусловна.",
+        "origin": "Бхагавата Пурана",
+        "summary": "Бедный Судама приходит к Кришне со скромным подарком, и Кришна осыпает его любовью и благословениями.",
+        "themes": [
+          "Дружба",
+          "Доброта"
+        ]
+      },
+      {
+        "title": "Слон и портной",
+        "characters": [
+          "Слон",
+          "Портной"
+        ],
+        "id": 11,
+        "imgalt": "The Elephant and the Tailor",
+        "imgsrc": "/images/illustrate/thumbs/11.png",
+        "moral": "Доброта возвращает доброту; жестокость возвращает жестокость.",
+        "origin": "Индийская сказка",
+        "summary": "Портной укалывает слона, и слон в отместку обливает его мутной водой.",
+        "themes": [
+          "Поведение",
+          "Последствия"
+        ]
+      },
+      {
+        "title": "Мудрый попугай",
+        "characters": [
+          "Попугай",
+          "Король"
+        ],
+        "id": 12,
+        "imgalt": "The Wise Parrot",
+        "imgsrc": "/images/illustrate/thumbs/12.png",
+        "moral": "Хороший совет может спасти жизнь.",
+        "origin": "Панчатантра",
+        "summary": "Попугай предупреждает короля об опасностях его королевства и становится его верным другом.",
+        "themes": [
+          "Мудрость",
+          "Ответственность"
+        ]
+      },
+      {
+        "title": "Преданность Шравана Кумара",
+        "characters": [
+          "Шраван",
+          "Родители",
+          "Царь Дашаратха"
+        ],
+        "id": 13,
+        "imgalt": "Shravan Kumar’s Devotion",
+        "imgsrc": "/images/illustrate/thumbs/13.png",
+        "moral": "Служить родителям – это благородно.",
+        "origin": "Рамаяна",
+        "summary": "Шраван Кумар заботится о своих слепых родителях и становится символом преданности.",
+        "themes": [
+          "Преданность",
+          "Семья"
+        ]
+      },
+      {
+        "title": "Ганеша и манго",
+        "characters": [
+          "Ганеша",
+          "Картикея",
+          "Шива",
+          "Парвати"
+        ],
+        "id": 14,
+        "imgalt": "Ganesha and the Mango",
+        "imgsrc": "/images/illustrate/thumbs/14.png",
+        "moral": "Мудрость важнее скорости.",
+        "origin": "Пураны",
+        "summary": "Ганеша побеждает в состязании, облетая своих родителей, а не весь мир.",
+        "themes": [
+          "Семья",
+          "Мудрость"
+        ]
+      },
+      {
+        "title": "Король и Воробей",
+        "characters": [
+          "Король",
+          "Воробей"
+        ],
+        "id": 15,
+        "imgalt": "The King and the Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/15.png",
+        "moral": "Маленькие добрые дела имеют значение.",
+        "origin": "Индийская сказка",
+        "summary": "Воробей помогает царю научиться смирению.",
+        "themes": [
+          "Доброта",
+          "Смирение"
+        ]
+      },
+      {
+        "title": "Золотой лебедь",
+        "characters": [
+          "Золотой лебедь",
+          "Мать",
+          "Дочери"
+        ],
+        "id": 16,
+        "imgalt": "The Golden Swan",
+        "imgsrc": "/images/illustrate/thumbs/16.png",
+        "moral": "Жадность разрушает счастье.",
+        "origin": "Сказки Джатаки",
+        "summary": "Золотой лебедь дарит перья бедной семье, но жадность все портит.",
+        "themes": [
+          "Жадность",
+          "Щедрость"
+        ]
+      },
+      {
+        "title": "Голодная мышь",
+        "characters": [
+          "Мышь"
+        ],
+        "id": 17,
+        "imgalt": "The Hungry Mouse",
+        "imgsrc": "/images/illustrate/thumbs/17.png",
+        "moral": "Самоконтроль важен.",
+        "origin": "Панчатантра",
+        "summary": "Мышь застревает в норе после переедания.",
+        "themes": [
+          "Дисциплина"
+        ]
+      },
+      {
+        "title": "Лев и мышь",
+        "characters": [
+          "Лев",
+          "Мышь"
+        ],
+        "id": 18,
+        "imgalt": "The Lion and the Mouse",
+        "imgsrc": "/images/illustrate/thumbs/18.png",
+        "moral": "Даже маленький может помочь сильному.",
+        "origin": "Индийская адаптация",
+        "summary": "Лев щадит мышь, а мышь позже спасает льва.",
+        "themes": [
+          "Доброта",
+          "Дружба"
+        ]
+      },
+      {
+        "title": "Мудрый плотник",
+        "characters": [
+          "Плотник",
+          "Жители деревни"
+        ],
+        "id": 19,
+        "imgalt": "The Wise Carpenter",
+        "imgsrc": "/images/illustrate/thumbs/19.png",
+        "moral": "Мудрость разрешает конфликты.",
+        "origin": "Индийская деревенская сказка",
+        "summary": "Плотник мирно разрешает земельный спор, используя хитрое планирование.",
+        "themes": [
+          "Мир",
+          "Справедливость"
+        ]
+      },
+      {
+        "title": "Волшебный барабан",
+        "characters": [
+          "Мальчик",
+          "Феи"
+        ],
+        "id": 20,
+        "imgalt": "The Magic Drum",
+        "imgsrc": "/images/illustrate/thumbs/20.png",
+        "moral": "Честность вознаграждается.",
+        "origin": "Индийская сказка",
+        "summary": "Добрый мальчик получает волшебный барабан, из которого создаются еда и игрушки.",
+        "themes": [
+          "Магия",
+          "Доброта"
+        ]
+      },
+      {
+        "title": "Храбрый маленький воробей",
+        "characters": [
+          "Воробей",
+          "Слон"
+        ],
+        "id": 21,
+        "imgalt": "The Brave Little Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/21.png",
+        "moral": "Мужество может победить сильного.",
+        "origin": "Индия",
+        "summary": "Воробей спасает своих детей от огромного слона.",
+        "themes": [
+          "Храбрость"
+        ]
+      },
+      {
+        "title": "Арджуна и птичий глаз",
+        "characters": [
+          "Арджуна",
+          "Дрона"
+        ],
+        "id": 22,
+        "imgalt": "Arjuna and the Bird’s Eye",
+        "imgsrc": "/images/illustrate/thumbs/22.png",
+        "moral": "Фокус ведет к успеху.",
+        "origin": "Махабхарата",
+        "summary": "Арджуна впечатляет своего гуру, сосредоточив внимание исключительно на птичьем глазе.",
+        "themes": [
+          "Дисциплина",
+          "Обучение"
+        ]
+      },
+      {
+        "title": "Кривое дерево",
+        "characters": [
+          "Кривое дерево",
+          "Высокие деревья"
+        ],
+        "id": 23,
+        "imgalt": "The Crooked Tree",
+        "imgsrc": "/images/illustrate/thumbs/23.png",
+        "moral": "Будьте довольны тем, кто вы есть.",
+        "origin": "Индийская лесная сказка",
+        "summary": "Кривое дерево выживает среди лесорубов благодаря своей форме.",
+        "themes": [
+          "Самооценка"
+        ]
+      },
+      {
+        "title": "Волшебный горшок",
+        "characters": [
+          "Фермер"
+        ],
+        "id": 24,
+        "imgalt": "The Magic Pot",
+        "imgsrc": "/images/illustrate/thumbs/24.png",
+        "moral": "Хорошие вещи приходят к хорошим людям.",
+        "origin": "Индийский фольклор",
+        "summary": "Фермер находит горшок, который удваивает все, что он в него кладет.",
+        "themes": [
+          "Магия",
+          "удачи"
+        ]
+      },
+      {
+        "title": "Добрый олень",
+        "characters": [
+          "Король оленей",
+          "Доу",
+          "Человеческий король"
+        ],
+        "id": 25,
+        "imgalt": "The Kind Deer",
+        "imgsrc": "/images/illustrate/thumbs/25.png",
+        "moral": "Доброта вдохновляет на доброту.",
+        "origin": "Сказки Джатаки",
+        "summary": "Король оленей спасает лань и заслужил уважение короля.",
+        "themes": [
+          "Сострадание"
+        ]
+      },
+      {
+        "title": "Летающий слон",
+        "characters": [
+          "Слон",
+          "Мудрец"
+        ],
+        "id": 26,
+        "imgalt": "The Flying Elephant",
+        "imgsrc": "/images/illustrate/thumbs/26.png",
+        "moral": "Будьте скромными.",
+        "origin": "Индийская фантазия",
+        "summary": "Слон с крыльями теряет их из-за злоупотребления своими силами.",
+        "themes": [
+          "Смирение"
+        ]
+      },
+      {
+        "title": "Горшок мудрости",
+        "characters": [
+          "Мальчик",
+          "Мудрец"
+        ],
+        "id": 27,
+        "imgalt": "The Pot of Wisdom",
+        "imgsrc": "/images/illustrate/thumbs/27.png",
+        "moral": "Мудрость растет, когда ею делятся.",
+        "origin": "Южно-индийская сказка",
+        "summary": "Мальчик узнает, что никто не может обладать всей мудростью в одиночку.",
+        "themes": [
+          "Обучение"
+        ]
+      },
+      {
+        "title": "Волшебная рыба",
+        "characters": [
+          "Рыбак",
+          "Волшебная рыба"
+        ],
+        "id": 28,
+        "imgalt": "The Magic Fish",
+        "imgsrc": "/images/illustrate/thumbs/28.png",
+        "moral": "Благодарность важна.",
+        "origin": "Сказка Индийского океана",
+        "summary": "Рыбак ловит волшебную рыбу, которая предлагает помощь в обмен на свободу.",
+        "themes": [
+          "Благодарность",
+          "Магия"
+        ]
+      },
+      {
+        "title": "Кокос и муравей",
+        "characters": [
+          "Муравьи",
+          "Кокос"
+        ],
+        "id": 29,
+        "imgalt": "The Coconut and the Ant",
+        "imgsrc": "/images/illustrate/thumbs/29.png",
+        "moral": "Даже самое незначительное усилие имеет значение.",
+        "origin": "Деревенская история",
+        "summary": "Муравьи объединяются, чтобы помочь кокосу добраться до моря.",
+        "themes": [
+          "Работа в команде"
+        ]
+      },
+      {
+        "title": "Тигр и дровосек",
+        "characters": [
+          "Тигр",
+          "Дровосек"
+        ],
+        "id": 30,
+        "imgalt": "The Tiger and the Woodcutter",
+        "imgsrc": "/images/illustrate/thumbs/30.png",
+        "moral": "Помогайте другим и вам помогут.",
+        "origin": "История индийских джунглей",
+        "summary": "Дровосек освобождает попавшего в ловушку тигра, который неожиданно сохраняет ему жизнь.",
+        "themes": [
+          "Сострадание",
+          "Храбрость"
+        ]
+      },
+      {
+        "title": "Две кошки и обезьяна",
+        "characters": [
+          "Кошки",
+          "Обезьяна"
+        ],
+        "id": 31,
+        "imgalt": "The Two Cats and the Monkey",
+        "imgsrc": "/images/illustrate/thumbs/31.png",
+        "moral": "Не позволяйте другим решать ваши споры.",
+        "origin": "Панчатантра",
+        "summary": "Обезьяна ест хлеб, делая вид, что делит его поровну на двух кошек.",
+        "themes": [
+          "Справедливость",
+          "глупость"
+        ]
+      },
+      {
+        "title": "Воробей и море",
+        "characters": [
+          "Воробей",
+          "Море",
+          "Рама"
+        ],
+        "id": 32,
+        "imgalt": "The Sparrow and the Sea",
+        "imgsrc": "/images/illustrate/thumbs/32.png",
+        "moral": "Решительность сворачивает горы.",
+        "origin": "История Рамы",
+        "summary": "Воробей угрожает морю, когда забирает ее яйца, вдохновляя Господа Раму.",
+        "themes": [
+          "Определение"
+        ]
+      },
+      {
+        "title": "Мальчик, который кричал «Тигр»",
+        "characters": [
+          "Мальчик",
+          "Жители деревни",
+          "Тигр"
+        ],
+        "id": 33,
+        "imgalt": "The Boy Who Cried Tiger",
+        "imgsrc": "/images/illustrate/thumbs/33.png",
+        "moral": "Никогда не лги.",
+        "origin": "Индийская адаптация",
+        "summary": "Мальчик обманывает жителей деревни, но страдает, когда на самом деле появляется тигр.",
+        "themes": [
+          "Честность"
+        ]
+      },
+      {
+        "title": "Волшебный баньян",
+        "characters": [
+          "Дерево",
+          "Путешественник"
+        ],
+        "id": 34,
+        "imgalt": "The Magic Banyan Tree",
+        "imgsrc": "/images/illustrate/thumbs/34.png",
+        "moral": "Щедрость приносит удачу.",
+        "origin": "Сказка",
+        "summary": "Дерево дарит доброму путнику плоды, тень и золотые монеты.",
+        "themes": [
+          "Доброта"
+        ]
+      },
+      {
+        "title": "Любопытный павлин",
+        "characters": [
+          "Павлин",
+          "Соловей"
+        ],
+        "id": 35,
+        "imgalt": "The Curious Peacock",
+        "imgsrc": "/images/illustrate/thumbs/35.png",
+        "moral": "Будьте довольны своими сильными сторонами.",
+        "origin": "Индийская сказка о животных",
+        "summary": "Павлину нужен голос соловья, но он понимает, что красота имеет свое очарование.",
+        "themes": [
+          "Любовь к себе"
+        ]
+      },
+      {
+        "title": "Умный ткач",
+        "characters": [
+          "Ткач",
+          "Призрак"
+        ],
+        "id": 36,
+        "imgalt": "The Clever Weaver",
+        "imgsrc": "/images/illustrate/thumbs/36.png",
+        "moral": "Умная работа побеждает.",
+        "origin": "Южная Индия",
+        "summary": "Ткач обманывает привидение и становится богатым.",
+        "themes": [
+          "Храбрость",
+          "Мудрость"
+        ]
+      },
+      {
+        "title": "Плоды упорного труда",
+        "characters": [
+          "Братья"
+        ],
+        "id": 37,
+        "imgalt": "The Fruits of Hard Work",
+        "imgsrc": "/images/illustrate/thumbs/37.png",
+        "moral": "Тяжелая работа всегда окупается.",
+        "origin": "Индийская деревня",
+        "summary": "Два брата узнают, что усилия важнее удачи.",
+        "themes": [
+          "тяжелая работа"
+        ]
+      },
+      {
+        "title": "Маленький барабан",
+        "characters": [
+          "Мальчик"
+        ],
+        "id": 38,
+        "imgalt": "The Little Drum",
+        "imgsrc": "/images/illustrate/thumbs/38.png",
+        "moral": "Добрые дела умножаются.",
+        "origin": "Северная Индия",
+        "summary": "Мальчику дарят барабан, который приносит счастье, куда бы он ни пошел.",
+        "themes": [
+          "Доброта"
+        ]
+      },
+      {
+        "title": "Осел и шкура тигра",
+        "characters": [
+          "Осел",
+          "Фермер"
+        ],
+        "id": 39,
+        "imgalt": "The Donkey and the Tiger Skin",
+        "imgsrc": "/images/illustrate/thumbs/39.png",
+        "moral": "Притворство кем-то другим приводит к неприятностям.",
+        "origin": "Панчатантра",
+        "summary": "Осел носит тигровую шкуру, но все портит своим ревом.",
+        "themes": [
+          "Личность"
+        ]
+      },
+      {
+        "title": "Скрытое сокровище",
+        "characters": [
+          "Отец",
+          "Сыновья"
+        ],
+        "id": 40,
+        "imgalt": "The Hidden Treasure",
+        "imgsrc": "/images/illustrate/thumbs/40.png",
+        "moral": "Работа сама по себе является сокровищем.",
+        "origin": "Индийская деревенская сказка",
+        "summary": "Отец обманом заставляет своих сыновей заниматься сельским хозяйством, рассказывая им, что в поле зарыты сокровища.",
+        "themes": [
+          "тяжелая работа"
+        ]
+      },
+      {
+        "title": "Храбрый попугай",
+        "characters": [
+          "Попугай",
+          "Бог"
+        ],
+        "id": 41,
+        "imgalt": "The Brave Parrot",
+        "imgsrc": "/images/illustrate/thumbs/41.png",
+        "moral": "Мужество помогает другим.",
+        "origin": "Сказки Джатаки",
+        "summary": "Попугай пытается спасти горящий лес и вдохновляет богов.",
+        "themes": [
+          "Храбрость"
+        ]
+      },
+      {
+        "title": "Мальчик и барабан",
+        "characters": [
+          "Мальчик"
+        ],
+        "id": 42,
+        "imgalt": "The Boy and the Drum",
+        "imgsrc": "/images/illustrate/thumbs/42.png",
+        "moral": "Маленькие подарки могут иметь большое значение.",
+        "origin": "Индийская сказка",
+        "summary": "Мальчик использует барабан, чтобы распространять счастье.",
+        "themes": [
+          "Доброта"
+        ]
+      },
+      {
+        "title": "Мышиный торговец",
+        "characters": [
+          "Торговец"
+        ],
+        "id": 43,
+        "imgalt": "The Mouse Merchant",
+        "imgsrc": "/images/illustrate/thumbs/43.png",
+        "moral": "Фортуна любит смелость.",
+        "origin": "Панчатантра",
+        "summary": "Человек становится богатым, начиная с одной мыши.",
+        "themes": [
+          "Храбрость"
+        ]
+      },
+      {
+        "title": "Говорящая пещера",
+        "characters": [
+          "Лев",
+          "Шакал"
+        ],
+        "id": 44,
+        "imgalt": "The Talking Cave",
+        "imgsrc": "/images/illustrate/thumbs/44.png",
+        "moral": "Чрезмерное мышление приводит к неприятностям.",
+        "origin": "Панчатантра",
+        "summary": "Лев прячется в пещере, а ловкий шакал избегает опасности.",
+        "themes": [
+          "Осторожность"
+        ]
+      },
+      {
+        "title": "Жадный парикмахер",
+        "characters": [
+          "Парикмахерская"
+        ],
+        "id": 45,
+        "imgalt": "The Greedy Barber",
+        "imgsrc": "/images/illustrate/thumbs/45.png",
+        "moral": "Жадность разрушает мудрость.",
+        "origin": "Индия",
+        "summary": "Парикмахер теряет все свое богатство из-за жадности.",
+        "themes": [
+          "Жадность"
+        ]
+      },
+      {
+        "title": "Мечта доярки",
+        "characters": [
+          "Доярка"
+        ],
+        "id": 46,
+        "imgalt": "The Milkmaid’s Dream",
+        "imgsrc": "/images/illustrate/thumbs/46.png",
+        "moral": "Не считайте цыплят до того, как они вылупятся.",
+        "origin": "Индия",
+        "summary": "Доярка мечтает о богатстве и проливает молоко.",
+        "themes": [
+          "Планирование"
+        ]
+      },
+      {
+        "title": "Волшебный воробей",
+        "characters": [
+          "Воробей",
+          "Фермер"
+        ],
+        "id": 47,
+        "imgalt": "The Magical Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/47.png",
+        "moral": "Помощь приносит награду.",
+        "origin": "Индийская деревня",
+        "summary": "Воробей помогает фермеру и его урожаю волшебным образом расти.",
+        "themes": [
+          "Магия",
+          "Доброта"
+        ]
+      },
+      {
+        "title": "Мудрый старый слон",
+        "characters": [
+          "Слон"
+        ],
+        "id": 48,
+        "imgalt": "The Wise Old Elephant",
+        "imgsrc": "/images/illustrate/thumbs/48.png",
+        "moral": "Возраст приносит мудрость.",
+        "origin": "Индийская сказка о джунглях",
+        "summary": "Пожилой слон уводит свое стадо в безопасное место во время засухи.",
+        "themes": [
+          "Мудрость"
+        ]
+      },
+      {
+        "title": "Лотос и лягушка",
+        "characters": [
+          "Лягушка",
+          "Лотос"
+        ],
+        "id": 49,
+        "imgalt": "The Lotus and the Frog",
+        "imgsrc": "/images/illustrate/thumbs/49.png",
+        "moral": "Терпение имеет силу.",
+        "origin": "Индийская речная сказка",
+        "summary": "Лотос учит беспокойную лягушку замедляться.",
+        "themes": [
+          "Терпение"
+        ]
+      },
+      {
+        "title": "Король, который съел слишком много сладостей",
+        "characters": [
+          "Король",
+          "Королевский повар"
+        ],
+        "id": 50,
+        "imgalt": "The King Who Ate Too Many Sweets",
+        "imgsrc": "/images/illustrate/thumbs/50.png",
+        "moral": "Умеренность важна.",
+        "origin": "История Индийского дворца",
+        "summary": "Король переедает сладости и учится контролировать свою тягу.",
+        "themes": [
+          "Здоровье",
+          "Дисциплина"
+        ]
+      }
+    ]
+  }
+}

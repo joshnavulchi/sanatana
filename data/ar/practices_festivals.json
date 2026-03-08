@@ -1,0 +1,246 @@
+{
+  "practices_festivals": {
+    "meta": {
+      "title": "الممارسات | المهرجانات - ساناتانا دارما - اكتشف ساناتان دارما",
+      "canonical": "https://sanatanadharmam.in/practices/festivals",
+      "description": "الممارسات - المهرجانات - Sanātana Dharma - اكتشف Sanātana Dharma - مقالات وترجمات وتعليقات موجزة على الممارسات. استكشاف الممارسات والتاريخ والمبادئ التوجيهية...",
+      "keywords": [
+        "diwali",
+        "diwali explained",
+        "festivals concepts",
+        "festivals for beginners",
+        "festivals for students",
+        "festivals in sanatana dharma",
+        "festivals modern relevance",
+        "festivals modern relevance explained",
+        "festivals origin and history",
+        "festivals origin and history explained",
+        "festivals practices",
+        "festivals practices explained",
+        "festivals principles",
+        "festivals q&a",
+        "festivals scriptural references",
+        "festivals scriptural references explained",
+        "festivals significance",
+        "festivals significance explained",
+        "festivals symbolism",
+        "festivals symbolism explained",
+        "hindu festivals",
+        "holi",
+        "holi explained",
+        "janmashtami",
+        "janmashtami explained",
+        "maha shivaratri",
+        "maha shivaratri explained",
+        "major hindu festivals",
+        "major hindu festivals explained",
+        "major hindu festivals modern relevance",
+        "major hindu festivals origin and history",
+        "major hindu festivals practices",
+        "major hindu festivals scriptural references",
+        "major hindu festivals significance",
+        "major hindu festivals symbolism",
+        "makar sankranti",
+        "makar sankranti explained",
+        "navaratri",
+        "navaratri explained",
+        "ratha yatra",
+        "ratha yatra explained",
+        "seasonal festivals in hinduism",
+        "seasonal festivals in hinduism explained",
+        "seasonal festivals in hinduism modern relevance",
+        "seasonal festivals in hinduism origin and history",
+        "seasonal festivals in hinduism practices",
+        "seasonal festivals in hinduism scriptural references",
+        "seasonal festivals in hinduism significance",
+        "seasonal festivals in hinduism symbolism",
+        "vasant panchami",
+        "vasant panchami explained",
+        "vedic festivals"
+      ],
+      "ogimage": "/og/practices-festivals.png",
+      "url": "https://sanatanadharmam.in/practices/festivals"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "منظمة",
+        "contactpoint": {
+          "@type": "نقطة الاتصال",
+          "areaserved": "في جميع أنحاء العالم",
+          "availablelanguage": [
+            "العربية",
+            "الألمانية",
+            "إنجليزي",
+            "الاسبانية",
+            "الفرنسية",
+            "الهندية",
+            "日本語",
+            "النيبالية",
+            "هولندا",
+            "البرتغالية",
+            "الروسية",
+            "نعم",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "دعم العملاء",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "حول Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "definition": "المهرجانات في ساناتانا دارما هي مناسبات مقدسة تحتفل بالمبادئ الكونية والآلهة والتغيرات الموسمية، وتجمع بين الأبعاد الروحية والثقافية والاجتماعية.",
+    "key_scriptural_references": [
+      {
+        "quote_summary": "تحافظ الطقوس الموسمية على الانسجام مع النظام الكوني.",
+        "text": "ريج فيدا"
+      },
+      {
+        "quote_summary": "العروض والتفاني تنقي العقل وتؤدي إلى التحرر.",
+        "text": "بهاجافاثجيتا"
+      }
+    ],
+    "major_festivals": {
+      "diwali": {
+        "practices": [
+          "إضاءة مصابيح الزيت (ديبا) في المنازل والمعابد.",
+          "لاكشمي بوجا للثروة والازدهار.",
+          "إطلاق الألعاب النارية ومشاركة الحلوى."
+        ],
+        "season": "خريف",
+        "significance": "مهرجان الأضواء يرمز إلى انتصار النور على الظلام."
+      },
+      "janmashtami": {
+        "practices": [
+          "بوجا منتصف الليل وترديد أسماء كريشنا.",
+          "ضاحي هاندي (كسر وعاء اللبن الرائب) في ولاية ماهاراشترا.",
+          "تلاوة البهاجان والبهاجافاثجيتا."
+        ],
+        "season": "الرياح الموسمية",
+        "significance": "يحتفل بميلاد اللورد كريشنا."
+      },
+      "maha_shivaratri": {
+        "practices": [
+          "الصيام وقيام الليل.",
+          "تقديم أوراق بيلفا والماء إلى شيفا لينجام.",
+          "يرددون \"أم نامة شيفايا\"."
+        ],
+        "season": "أواخر الشتاء",
+        "significance": "ليلة شيفا، ترمز إلى اليقظة الروحية."
+      },
+      "navaratri": {
+        "practices": [
+          "العبادة اليومية لأشكال مختلفة من ديفي.",
+          "صيام وتلاوة ديفي مهاتمية.",
+          "رقصة جاربا ودانديا في غرب الهند."
+        ],
+        "season": "خريف",
+        "significance": "تسع ليالٍ مخصصة للإلهة دورجا وأشكالها."
+      }
+    },
+    "modern_relevance": {
+      "community": "تعزز المهرجانات الروابط الاجتماعية والهوية الثقافية.",
+      "spirituality": "يشجع على التفاني واليقظة.",
+      "sustainability": "يعزز الممارسات الصديقة للبيئة في الاحتفالات الحديثة."
+    },
+    "origin": {
+      "purpose": "لتكريم الآلهة، والتعبير عن الامتنان، وتعزيز الدارما في حياة المجتمع.",
+      "roots": "التقاليد الفيدية والبورانية",
+      "texts": [
+        "الفيدا",
+        "بوراناس",
+        "سمريتيس"
+      ]
+    },
+    "seasonal_festivals": {
+      "autumn": [
+        {
+          "name": "نافاراتري",
+          "practices": [
+            "صيام",
+            "رقصة جاربا",
+            "تلاوة الكتب المقدسة"
+          ],
+          "significance": "تسع ليال من عبادة ديفي."
+        },
+        {
+          "name": "ديوالي",
+          "practices": [
+            "مصابيح الإضاءة",
+            "لاكشمي بوجا",
+            "ألعاب نارية"
+          ],
+          "significance": "مهرجان الاضواء."
+        }
+      ],
+      "monsoon": [
+        {
+          "name": "كريشنا جانماشتامي",
+          "practices": [
+            "بوجا منتصف الليل",
+            "احتفالات ضاحي هاندي"
+          ],
+          "significance": "ميلاد اللورد كريشنا."
+        }
+      ],
+      "spring": [
+        {
+          "name": "هولي",
+          "practices": [
+            "اللعب بالألوان",
+            "طقوس إشعال النار (هوليكا دهان)",
+            "الغناء والرقص المجتمعي"
+          ],
+          "significance": "مهرجان الألوان إيذانا بقدوم الربيع وانتصار الخير على الشر."
+        },
+        {
+          "name": "فاسانت بانشامي",
+          "practices": [
+            "عبادة ساراسواتي",
+            "الملابس الصفراء وعروض الطعام"
+          ],
+          "significance": "مخصص للإلهة ساراسواتي، بمناسبة بداية الربيع."
+        }
+      ],
+      "summer": [
+        {
+          "name": "راثا ياترا",
+          "practices": [
+            "سحب العربات",
+            "أعياد المجتمع",
+            "طقوس المعبد"
+          ],
+          "significance": "مهرجان عربة اللورد جاغاناث في أوديشا."
+        }
+      ],
+      "winter": [
+        {
+          "name": "مكار سانكرانتي",
+          "practices": [
+            "الطائرات الورقية",
+            "تقديم حلويات السمسم",
+            "عبادة الشمس"
+          ],
+          "significance": "مهرجان الحصاد بمناسبة انتقال الشمس إلى برج الجدي."
+        },
+        {
+          "name": "مها شيفاراتري",
+          "practices": [
+            "الوقفة الاحتجاجية طوال الليل",
+            "عروض أوراق بيلفا"
+          ],
+          "significance": "ليلة شيفا."
+        }
+      ]
+    },
+    "symbolism": [
+      "النور يمثل المعرفة وإزالة الجهل.",
+      "الألوان ترمز إلى الفرح والتنوع.",
+      "الصوم ينقي الجسم والعقل للتركيز الروحي."
+    ]
+  }
+}

@@ -1,0 +1,536 @@
+{
+  "world_transformation": {
+    "meta": {
+      "title": "பூமி பல தசாப்தங்களாக மாறுகிறது - சனாதன தர்மம் - நித்திய வாழ்க்கை முறை",
+      "canonical": "https://sanatanadharmam.in/world-transformation",
+      "description": "பூமி பல தசாப்தங்களாக மாறுகிறது - சனாதன தர்மம் - சனாதன தர்மத்தை ஆராயுங்கள்: இந்து மதத்தின் நித்திய கொள்கைகள், வேத மரபுகள், ஆன்மீக நடைமுறைகள் மற்றும் வேதங்களில் இருந்து ஞானம்...",
+      "keywords": [
+        "20th century history",
+        "21st century history",
+        "Border changes",
+        "Cold War influence",
+        "Decadal transformations",
+        "Decolonization effects",
+        "Earth changes",
+        "Educational resources on history",
+        "Geopolitical history",
+        "Geopolitical shifts",
+        "Global events timeline",
+        "Global history overview",
+        "Globalization impact on borders",
+        "Historical border changes",
+        "Historical cartography",
+        "Historical events impact",
+        "Historical geography",
+        "Historical map accessibility",
+        "Historical map accuracy",
+        "Historical map analysis",
+        "Historical map best practices",
+        "Historical map bias",
+        "Historical map case studies",
+        "Historical map challenges",
+        "Historical map collaboration",
+        "Historical map community",
+        "Historical map creation tools",
+        "Historical map data sources",
+        "Historical map design",
+        "Historical map diversity",
+        "Historical map education",
+        "Historical map engagement",
+        "Historical map ethics",
+        "Historical map examples",
+        "Historical map features",
+        "Historical map feedback",
+        "Historical map future directions",
+        "Historical map impact",
+        "Historical map improvement",
+        "Historical map inclusivity",
+        "Historical map innovation",
+        "Historical map interactivity",
+        "Historical map interpretation",
+        "Historical map legends",
+        "Historical map outreach",
+        "Historical map overlays",
+        "Historical map projections",
+        "Historical map relevance",
+        "Historical map representation",
+        "Historical map significance",
+        "Historical map storytelling",
+        "Historical map sustainability",
+        "Historical map technology",
+        "Historical map visualizations",
+        "Historical maps",
+        "Historical timelines",
+        "Interactive world maps",
+        "International relations evolution",
+        "Modern geopolitical trends",
+        "Post-Cold War changes",
+        "World transformation",
+        "World wars impact"
+      ],
+      "ogimage": "images/og/earth_changes_by_decade.json.png",
+      "url": "https://sanatanadharmam.in/world-transformation"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "அமைப்பு",
+        "contactpoint": {
+          "@type": "தொடர்பு புள்ளி",
+          "areaserved": "உலகம் முழுவதும்",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "ஆங்கிலம்",
+            "எஸ்பானோல்",
+            "பிரான்சிஸ்",
+            "ஹிந்தி",
+            "எஸ்",
+            "நேபாளி",
+            "நெதர்லாந்து",
+            "போர்த்துகீசியர்கள்",
+            "ருஸ்கி",
+            "தெலுங்கு",
+            "அர்து",
+            "中文 (简体)"
+          ],
+          "contacttype": "வாடிக்கையாளர் ஆதரவு",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "சனாதனதர்மம்.இன் பற்றி",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "decades": [
+      {
+        "decade": "1900–1909",
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1900.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "ஆணை",
+              "d": "M 820 710 L 860 690 L 890 730 L 865 760 Z",
+              "featurename": "காலனித்துவ மறுசீரமைப்பு (ஆப்பிரிக்கா, எடுத்துக்காட்டுகள்)",
+              "id": "afr_mandates_placeholder",
+              "notes": "GIS இலிருந்து பெறப்பட்ட உண்மையான பலகோணத்துடன் (களை) மாற்றவும்.",
+              "tooltip": "காலனித்துவ பாதுகாப்புகள் மற்றும் ஆணைகள் முறைப்படுத்தப்பட்டன (விளக்க)",
+              "type": "பாதை"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "காலனித்துவ விரிவாக்கம்",
+        "whatchanged": [
+          "காலனித்துவ எல்லைகள் விரிவடைந்தன",
+          "சில சுதந்திரமான புதிய மாநிலங்கள்"
+        ],
+        "why": [
+          "ஐரோப்பிய ஏகாதிபத்தியம்"
+        ]
+      },
+      {
+        "decade": "1910–1919",
+        "examples": [
+          "போலந்து மீண்டும் உருவாக்கப்பட்டது",
+          "ஒட்டோமான் பிரதேசங்கள் பிரிக்கப்பட்டன"
+        ],
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1918.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "புதிய_மாநிலம்",
+              "d": "M 1050 360 L 1100 355 L 1125 380 L 1080 395 Z",
+              "featurename": "போலந்து (மீண்டும் நிறுவப்பட்டது)",
+              "id": "ஐரோப்பா_போலந்து_1918",
+              "notes": "இறுதிக்கு துல்லியமான வடிவத்தைப் பயன்படுத்தவும்.",
+              "tooltip": "WWI க்குப் பிறகு போலந்து மீண்டும் நிறுவப்பட்டது (விளக்க அளவு)",
+              "type": "பாதை"
+            },
+            {
+              "changetype": "ஆணை",
+              "d": "M 1205 455 L 1260 470 L 1245 505 L 1198 495 Z",
+              "featurename": "ஒட்டோமான் பகிர்வு (தேர்ந்தெடுக்கப்பட்ட ஆணைகள்)",
+              "id": "என்னை_பகிர்வு_1919",
+              "tooltip": "ஒட்டோமான் அரபு மாகாணங்கள் ஆணைகளின் கீழ் வைக்கப்பட்டுள்ளன (விளக்கம்)",
+              "type": "பாதை"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "முதலாம் உலகப் போர் மீண்டும் வரையப்பட்டது",
+        "whatchanged": [
+          "பேரரசுகளின் சரிவு",
+          "புதிய ஐரோப்பிய நாடுகள்"
+        ],
+        "why": [
+          "முதலாம் உலகப் போர்",
+          "ஒப்பந்த தீர்வுகள்"
+        ]
+      },
+      {
+        "decade": "1920–1929",
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1925.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "நிலை_மாற்றம்",
+              "d": "M 900 720 L 960 710 L 980 750 L 920 770 Z",
+              "featurename": "நிலையான காலனித்துவ கோடுகள் (ஆப்பிரிக்கா, எடுத்துக்காட்டுகள்)",
+              "id": "ஆப்பிரிக்க_கோடுகள்_1920கள்",
+              "tooltip": "காலனித்துவ எல்லைகள் முறைப்படுத்தப்பட்டன (விளக்க)",
+              "type": "பாதை"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "ஆணை அமைப்பு",
+        "whatchanged": [
+          "எல்லைகள் முறைப்படுத்தப்பட்டன",
+          "ஆணைகள் பேரரசுகளை மாற்றுகின்றன"
+        ],
+        "why": [
+          "லீக் ஆஃப் நேஷன்ஸ் ஆணைகள்"
+        ]
+      },
+      {
+        "decade": "1930–1939",
+        "examples": [
+          "ஜெர்மன் விரிவாக்கம்",
+          "ஜப்பானிய விரிவாக்கம்"
+        ],
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1939.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "இணைப்பு",
+              "d": "M 1040 420 L 1065 418 L 1075 430 L 1050 435 Z",
+              "featurename": "ஆஸ்திரியா முதல் ஜெர்மனி வரை (அன்ஸ்க்லஸ்)",
+              "id": "europe_anschluss_1938",
+              "tooltip": "ஆஸ்திரியா ஜெர்மனியால் இணைக்கப்பட்டது (விளக்கம்)",
+              "type": "பாதை"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "ஆக்கிரமிப்பு விரிவாக்கம்",
+        "whatchanged": [
+          "பலத்தால் எல்லைகள் மாற்றப்பட்டன"
+        ],
+        "why": [
+          "பாசிசத்தின் எழுச்சி",
+          "இரண்டாம் உலகப் போருக்கு முந்தைய இராணுவமயமாக்கல்"
+        ]
+      },
+      {
+        "decade": "1940–1949",
+        "examples": [
+          "ஜெர்மனி பிரிந்தது",
+          "கொரியா பிரிந்தது",
+          "இந்தியா-பாகிஸ்தான் பிரிவினை"
+        ],
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1947.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "பிரிவினை",
+              "d": "M 1325 565 L 1385 565 L 1390 600 L 1335 600 Z",
+              "featurename": "பிரிட்டிஷ் இந்தியாவின் பிரிவினை",
+              "id": "தெற்காசியா_பிரிவினை_1947",
+              "tooltip": "இந்தியா மற்றும் பாகிஸ்தானை உருவாக்கும் பிரிவினை (விளக்கம்)",
+              "type": "பாதை"
+            },
+            {
+              "changetype": "பிரிவினை",
+              "d": "M 1545 470 L 1560 465 L 1568 478 L 1550 485 Z",
+              "featurename": "கொரியாவின் பிரிவு",
+              "id": "கொரியா_பிரிவு_1945",
+              "tooltip": "கொரியா ~38 வது இணையாக பிரிக்கப்பட்டுள்ளது (விளக்க)",
+              "type": "பாதை"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "இரண்டாம் உலகப் போர் மீண்டும் வரைதல்",
+        "whatchanged": [
+          "பாரிய எல்லை மாற்றங்கள்",
+          "பகிர்வுகள்"
+        ],
+        "why": [
+          "WWII முடிவு",
+          "பனிப்போர் ஆரம்பம்"
+        ]
+      },
+      {
+        "decade": "1950–1959",
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1955.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "புதிய_மாநிலம்",
+              "d": "M 1060 640 L 1160 635 L 1165 670 L 1065 675 Z",
+              "featurename": "வட ஆப்பிரிக்க சுதந்திரம் (உதாரணங்கள்)",
+              "id": "வடக்கு_ஆப்பிரிக்கா_1950கள்",
+              "tooltip": "சுதந்திர இயக்கங்கள் வெற்றி (விளக்க)",
+              "type": "பாதை"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "ஆரம்பகால மறுகாலனியாக்கம்",
+        "whatchanged": [
+          "ஆசிய மற்றும் ஆப்பிரிக்க நாடுகள் உருவாகின்றன"
+        ],
+        "why": [
+          "சுதந்திர இயக்கங்கள்"
+        ]
+      },
+      {
+        "decade": "1960–1969",
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1965.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "புதிய_மாநிலம்",
+              "d": "M 880 720 L 1000 700 L 1005 790 L 900 800 Z",
+              "featurename": "ஆப்பிரிக்க சுதந்திர அலை",
+              "id": "africa_wave_1960s",
+              "tooltip": "ஆப்பிரிக்கா முழுவதும் பல புதிய மாநிலங்கள் (விளக்க)",
+              "type": "பாதை"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "ஆப்பிரிக்க சுதந்திர அலை",
+        "whatchanged": [
+          "டஜன் கணக்கான புதிய நாடுகள்"
+        ],
+        "why": [
+          "விரைவான காலனித்துவ நீக்கம்"
+        ]
+      },
+      {
+        "decade": "1970–1989",
+        "examples": [
+          "பங்களாதேஷ் சுதந்திரம் (1971)",
+          "வியட்நாம் மீண்டும் ஒன்றிணைதல் (1976)"
+        ],
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1980.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "புதிய_மாநிலம்",
+              "d": "M 1395 590 L 1410 592 L 1415 605 L 1398 607 Z",
+              "featurename": "பங்களாதேஷ்",
+              "id": "பங்களாதேஷ்_1971",
+              "tooltip": "பங்களாதேஷ் சுதந்திரம் (விளக்க)",
+              "type": "பாதை"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "பனிப்போர் நிலைத்தன்மை",
+        "whatchanged": [
+          "சில முறையான எல்லை மாற்றங்கள்"
+        ],
+        "why": [
+          "சக்தி சமநிலை மற்றும் தடுப்பு"
+        ]
+      },
+      {
+        "decade": "1990–1999",
+        "examples": [
+          "15 பிந்தைய சோவியத் நாடுகள்",
+          "பால்கன் மீண்டும் வரையப்பட்டது"
+        ],
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1995.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "கரைதல்",
+              "d": "M 1180 260 L 1500 260 L 1500 420 L 1180 420 Z",
+              "featurename": "சோவியத்துக்கு பிந்தைய நாடுகள்",
+              "id": "ussr_breakup_1991",
+              "tooltip": "யுஎஸ்எஸ்ஆர் கலைப்பு (கட்டுப்பாட்டு பெட்டி விளக்கப்படம்)",
+              "type": "பாதை"
+            },
+            {
+              "changetype": "கரைதல்",
+              "d": "M 1120 420 L 1160 420 L 1170 450 L 1125 455 Z",
+              "featurename": "முன்னாள் யூகோஸ்லாவியா",
+              "id": "யுகோஸ்லாவியா_பிரேக்அப்_1990கள்",
+              "tooltip": "யூகோஸ்லாவியா முறிவு (விளக்க)",
+              "type": "பாதை"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "சோசலிச கூட்டமைப்புகளின் சரிவு",
+        "whatchanged": [
+          "பல புதிய நாடுகள் உருவாகின"
+        ],
+        "why": [
+          "சோவியத் ஒன்றியம் & யூகோஸ்லாவியா கலைப்பு"
+        ]
+      },
+      {
+        "decade": "2000–2025",
+        "examples": [
+          "தெற்கு சூடான் (2011)"
+        ],
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-2025.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "புதிய_மாநிலம்",
+              "d": "M 1140 720 L 1165 718 L 1170 740 L 1145 742 Z",
+              "featurename": "தெற்கு சூடான்",
+              "id": "தெற்கு_சூடான்_2011",
+              "tooltip": "தெற்கு சூடான் சுதந்திரம் (விளக்கம்)",
+              "type": "பாதை"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "நவீன எல்லை நிலைத்தன்மை",
+        "whatchanged": [
+          "அரிய புதிய நாடுகள்",
+          "எல்லைகள் பெரிய அளவில் மாறவில்லை"
+        ],
+        "why": [
+          "சர்வதேச சட்டம்",
+          "உலகமயமாக்கல்",
+          "தடுப்பு"
+        ]
+      }
+    ],
+    "historic_decades": "வரலாற்று பத்தாண்டுகள்",
+    "legend": {
+      "aria": {
+        "title": "எல்லை மாற்றங்களின் தசாப்த மேலடுக்கு",
+        "desc": "தேர்ந்தெடுக்கப்பட்ட தசாப்தத்தில் எல்லை மாற்றங்களால் பாதிக்கப்பட்ட பகுதிகளை வண்ணப் பகுதிகள் குறிப்பிடுகின்றன."
+      },
+      "changetypes": [
+        {
+          "color": "#1f77b4",
+          "key": "புதிய_மாநிலம்",
+          "label": "புதிய மாநிலம்"
+        },
+        {
+          "color": "#ff7f0e",
+          "key": "பிரிவினை",
+          "label": "பகிர்வு/பிளவு"
+        },
+        {
+          "color": "#2ca02c",
+          "key": "இணைப்பு",
+          "label": "இணைப்பு/இணைப்பு"
+        },
+        {
+          "color": "#9467bd",
+          "key": "ஆணை",
+          "label": "ஆணை/அறக்கட்டளை பிரதேசம்"
+        },
+        {
+          "color": "#d62728",
+          "key": "கரைதல்",
+          "label": "கலைப்பு/கூட்டமைப்பு முறிவு"
+        },
+        {
+          "color": "#8c564b",
+          "key": "நிலை_மாற்றம்",
+          "label": "நிலை/பெயர் மாற்றம்"
+        },
+        {
+          "color": "#e377c2",
+          "key": "தகராறு",
+          "label": "சர்ச்சைக்குரிய / தீர்க்கப்படாத"
+        }
+      ],
+      "fillopacity": 0.35,
+      "projection": {
+        "id": "சம-பூமி",
+        "name": "சம பூமி",
+        "notes": "அடிப்படை PNG மற்றும் SVG மேலடுக்குகளுக்கு அதே ப்ரொஜெக்ஷனைப் பயன்படுத்தவும்."
+      },
+      "stroke": {
+        "color": "#111",
+        "opacity": 0.8,
+        "width": 0.75
+      },
+      "viewbox": "0 0 2048 1024"
+    },
+    "legend2": "புராணக்கதை",
+    "periods_transfor": "மாற்றத்தின் காலங்கள்",
+    "test": [
+      "# பாதை உருவாக்கம் மற்றும் கணிப்புகளுக்கான கோர்:",
+      "npm i d3-geo d3-geo-projection topojson-client topojson-server topojson-எளிமைப்படுத்து",
+      "# WGS84 அல்லாத GeoJSON இலிருந்து மறுபிரதிபலிப்பு தேவைப்பட்டால் (விரும்பினால்):",
+      "npm i proj4 @mapbox/geojson-rewind"
+    ],
+    "what_changed": "என்ன மாறியது:",
+    "why": "ஏன்:",
+    "why_borders": "எல்லைகள் ஏன் நிலையானதாக மாறியது",
+    "whybordersbecamestable": {
+      "factors": [
+        {
+          "title": "சர்வதேச சட்டம் & ஐ.நா",
+          "explanation": "ஐநா சாசனம் மற்றும் விதிமுறைகள் பிராந்திய ஒருமைப்பாட்டைப் பாதுகாக்கின்றன."
+        },
+        {
+          "title": "காலனித்துவ பேரரசுகளின் முடிவு",
+          "explanation": "பெரும்பாலான மறுகாலனியாக்கம் 1970களில் முடிவுக்கு வந்தது; எல்லைகள் உறைந்தன (uti possidetis juris)."
+        },
+        {
+          "title": "பெரிய கூட்டமைப்புகளின் சரிவு முடிந்தது",
+          "explanation": "USSR & யூகோஸ்லாவியா கலைக்கப்பட்டது; எந்த ஒத்த நிறுவனங்களும் துண்டு துண்டாக இருக்கவில்லை."
+        },
+        {
+          "title": "உலகமயமாக்கல்",
+          "explanation": "ஒன்றுக்கொன்று சார்ந்திருப்பது வெற்றியின் பலன்களைக் குறைக்கிறது."
+        },
+        {
+          "title": "தடுப்பு மற்றும் தடைகள்",
+          "explanation": "எல்லைகளை மாற்றுவதற்கான செலவுகள் அதிகம்."
+        },
+        {
+          "title": "சர்ச்சை மேலாண்மை",
+          "explanation": "மீண்டும் வரையப்படுவதை விட சுயாட்சி/உறைந்த மோதல்கள் மூலம் மோதல்கள் கையாளப்படுகின்றன."
+        }
+      ],
+      "keytakeaway": "நவீன எல்லைகள் சட்டரீதியாகவும் அரசியல் ரீதியாகவும் தகராறுகள் இருக்கும் இடங்களிலும் கடுமையானவை.",
+      "summary": "20 ஆம் நூற்றாண்டின் பிற்பகுதிக்குப் பிறகு, சட்ட, அரசியல், பொருளாதார மற்றும் தடுப்புக் காரணிகளால் எல்லைகள் உறுதிப்படுத்தப்பட்டன."
+    }
+  }
+}

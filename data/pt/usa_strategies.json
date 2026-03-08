@@ -1,0 +1,1096 @@
+{
+  "usa-strategies": {
+    "title": "US Strategies, Effectiveness, Motives, Timelines with Map & Money, Technologies, Machines",
+    "description": "Uma visão estruturada de como os Estados Unidos influenciaram o sistema internacional através de finanças (dólar/FMI/Banco Mundial/sanções), tecnologias (normas e controlos de exportação) e máquinas (bases/alianças), organizadas pela presidência.",
+    "meta": {
+      "title": "US Strategies, Effectiveness, Motives, Timelines with Map & Money, Technologies, Machines",
+      "canonical": "https://sanatanadharmam.in/usa-strategies",
+      "description": "Uma visão estruturada de como os Estados Unidos influenciaram o sistema internacional através de finanças (dólar/FMI/Banco Mundial/sanções), tecnologias (normas e controlos de exportação) e máquinas (bases/alianças), organizadas pela presidência.",
+      "keywords": [
+        "IMF World Bank",
+        "US economic statecraft",
+        "US foreign aid",
+        "US foreign policy",
+        "US foreign policy analysis",
+        "US foreign policy datasets",
+        "US foreign policy effectiveness",
+        "US foreign policy history",
+        "US foreign policy map",
+        "US foreign policy motives",
+        "US foreign policy timelines",
+        "US foreign policy visualization",
+        "US geopolitical tools",
+        "US global influence",
+        "US grand strategy",
+        "US interventions",
+        "US military strategy",
+        "US presidential strategies",
+        "US sanctions",
+        "US technology policy",
+        "US wars",
+        "alliances",
+        "dollar diplomacy",
+        "export controls",
+        "military bases",
+        "sanctions"
+      ],
+      "ogimage": "images/og/usa-strategies.png",
+      "url": "https://sanatanadharmam.in/usa-strategies"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organização",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Mundialmente",
+          "availablelanguage": [
+            "العربية",
+            "Alemão",
+            "Inglês",
+            "Espanhol",
+            "Francês",
+            "Adeus",
+            "日本語",
+            "Adeus",
+            "Holanda",
+            "Português",
+            "Russo",
+            "Mais",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Suporte ao Cliente",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sobre Sanatanadharm.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "flowchart": {
+      "format": "sereia",
+      "file": "us_strategies_flowchart.mmd",
+      "content": "fluxograma TD\n    A[Objetivos dos EUA] --> B[Obrigar Rendição (Guerra)]\n    A -> C[Forma Comportamento em Tempo de Paz]\n\n    B --> B1[Principais Operações de Combate]\n    B1 --> B2[Entrega Incondicional/Condicional]\n    B2 --> B3[Engenharia Ocupacional e Constitucional]\n\n    C -> C1 [Sanções e alavancagem do sistema monetário]\n    C --> C2[Operações secretas/políticas]\n    C -> C3[Dependência de Aliança e Segurança]\n    C -> C4 [Isolamento Diplomático e Enquadramento Narrativo]\n    C --> C5[Controles de tecnologia/exportação]\n\n    C1 --> D1[Acesso Bancário (SWIFT), Embargos Comerciais]\n    C3 --> D3[Tratados de Defesa, Venda de Armas, Bases]\n    C5 --> D5[Chips/controles de IA via BIS]\n\n    B3 --> E1[Alinhamento de Longo Prazo]\n    D1 --> E2[Concessões de Política]\n    D3 --> E3[Sincronização de Política]\n    D5 --> E4[Negação de capacidade]",
+      "sources": [
+        "turn3search63",
+        "turn3search73",
+        "turn1search31",
+        "turn1search35",
+        "turn10search163",
+        "turn1search45"
+      ]
+    },
+    "timeline_by_president": [
+      {
+        "years": "1945-1953",
+        "president": "Harry S. Truman",
+        "key_strategies": [
+          "Contenção; criação da OTAN (1949).",
+          "O Plano Marshall reconstrói a Europa Ocidental para estabilizar a política e os mercados."
+        ],
+        "tools_used": [
+          "FMI/Banco Mundial",
+          "Financiamento do Plano Marshall",
+          "Alianças/Bases"
+        ],
+        "notable_policies_events": [
+          "Programa Europeu de Recuperação (Plano Marshall), US$ 13,3 bilhões 1948–1951",
+          "Guarnições permanentes na Europa/Ásia sob a égide da OTAN"
+        ],
+        "sources": [
+          "turn1search10",
+          "turn1search9",
+          "turn1search55",
+          "turn1search37"
+        ]
+      },
+      {
+        "years": "1953-1961",
+        "president": "Dwight D. Eisenhower",
+        "key_strategies": [
+          "Alianças + ação secreta para combater o comunismo.",
+          "Coordenação inicial do controle de exportações e expansão militar-industrial."
+        ],
+        "tools_used": [
+          "Operações secretas",
+          "Guerra psicológica",
+          "Alianças/Bases"
+        ],
+        "notable_policies_events": [
+          "Guatemala 1954 (Operação PBSUCCESS): paramilitares, operações aéreas, propaganda",
+          "Expansão da infraestrutura da OTAN"
+        ],
+        "sources": [
+          "turn1search15",
+          "turn1search13",
+          "turn1search14",
+          "turn1search55"
+        ]
+      },
+      {
+        "years": "1961-1963",
+        "president": "John F. Kennedy",
+        "key_strategies": [
+          "Resposta flexível; sinalização tecnológica/espacial; competição de ajuda externa no Sul Global."
+        ],
+        "tools_used": [
+          "Alianças/Bases",
+          "Ajuda/Desenvolvimento"
+        ],
+        "notable_policies_events": [
+          "Abordagem de gestão de crises; investimento contínuo da OTAN"
+        ],
+        "sources": [
+          "turn1search55"
+        ]
+      },
+      {
+        "years": "1963-1969",
+        "president": "Lyndon B. Johnson",
+        "key_strategies": [
+          "Compromisso do Vietname; uso contínuo das ferramentas de Bretton Woods."
+        ],
+        "tools_used": [
+          "Força convencional",
+          "FMI/Banco Mundial"
+        ],
+        "notable_policies_events": [
+          "Grandes implantações no Sudeste Asiático"
+        ],
+        "sources": [
+          "turn1search37"
+        ]
+      },
+      {
+        "years": "1969-1974",
+        "president": "Richard Nixon",
+        "key_strategies": [
+          "Dólar fora do ouro; gerir o choque petrolífero através dos laços sauditas; distensão com a URSS/RPC."
+        ],
+        "tools_used": [
+          "Liquidez em dólar",
+          "Diplomacia energética",
+          "Alianças"
+        ],
+        "notable_policies_events": [
+          "Fim da conversibilidade do ouro em 1971; Choque do petróleo de 1973–74; Comissão Conjunta EUA-Saudita de 1974"
+        ],
+        "sources": [
+          "turn1search6",
+          "turn1search3"
+        ]
+      },
+      {
+        "years": "1974-1977",
+        "president": "Gerald Ford",
+        "key_strategies": [
+          "Estabilizar o sistema pós-choque petrolífero; manutenção da aliança."
+        ],
+        "tools_used": [
+          "Diplomacia energética/financeira",
+          "Alianças"
+        ],
+        "notable_policies_events": [
+          "Institucionalização de comissões EUA-Sauditas e mecanismos de reciclagem"
+        ],
+        "sources": [
+          "turn1search3"
+        ]
+      },
+      {
+        "years": "1977-1981",
+        "president": "Jimmy Carter",
+        "key_strategies": [
+          "Direitos humanos + segurança do Golfo (Doutrina Carter, 1980)."
+        ],
+        "tools_used": [
+          "Capacidade de implantação rápida",
+          "Alianças/Bases"
+        ],
+        "notable_policies_events": [
+          "Golfo Pérsico identificado como interesse vital"
+        ],
+        "sources": [
+          "turn1search55"
+        ]
+      },
+      {
+        "years": "1981-1989",
+        "president": "Ronald Reagan",
+        "key_strategies": [
+          "Acúmulo de tecnologia de defesa; liberalização do mercado dentro da ordem liderada pelos EUA."
+        ],
+        "tools_used": [
+          "Armas avançadas",
+          "Alianças",
+          "Abertura financeira"
+        ],
+        "notable_policies_events": [
+          "Iniciativas de superação tecnológica; ofensiva ideológica"
+        ],
+        "sources": [
+          "turn1search22"
+        ]
+      },
+      {
+        "years": "1989-1993",
+        "president": "George HW Bush",
+        "key_strategies": [
+          "Guerra de coligação + sanções à ordem policial na Guerra do Golfo."
+        ],
+        "tools_used": [
+          "Bases/logística",
+          "Sanções",
+          "Alianças"
+        ],
+        "notable_policies_events": [
+          "Guerra do Golfo de 1991; Sanções apoiadas pela ONU e projeção de força"
+        ],
+        "sources": [
+          "turn1search55"
+        ]
+      },
+      {
+        "years": "1993-2001",
+        "president": "Bill Clinton",
+        "key_strategies": [
+          "Alargamento da OTAN, globalização e ascensão das plataformas tecnológicas dos EUA."
+        ],
+        "tools_used": [
+          "OTAN",
+          "OMC/globalização",
+          "Padrões tecnológicos via poder de mercado"
+        ],
+        "notable_policies_events": [
+          "Alargamento da OTAN em 1999 (Polónia, Hungria, República Checa)"
+        ],
+        "sources": [
+          "turn1search56"
+        ]
+      },
+      {
+        "years": "2001-2009",
+        "president": "George W. Bush",
+        "key_strategies": [
+          "Guerras pós-11 de setembro; expansão das sanções; Análise de dados SWIFT para combater o financiamento do terrorismo."
+        ],
+        "tools_used": [
+          "Implantações em grande escala",
+          "Sanções OFAC",
+          "Medidas relacionadas com SWIFT"
+        ],
+        "notable_policies_events": [
+          "Guerras do Afeganistão e do Iraque; intensificação dos controles de financiamento do terrorismo"
+        ],
+        "sources": [
+          "turn1search31"
+        ]
+      },
+      {
+        "years": "2009-2017",
+        "president": "Barack Obama",
+        "key_strategies": [
+          "Pivô para a Ásia; drones/cibernéticos; Sanções ao Irã levando ao JCPOA."
+        ],
+        "tools_used": [
+          "Diplomacia de sanções",
+          "Cibernético/ISR",
+          "Alianças na Ásia"
+        ],
+        "notable_policies_events": [
+          "Arquitetura de sanções contra o Irã foi reforçada antes do PACG (2015)"
+        ],
+        "sources": [
+          "turn1search36"
+        ]
+      },
+      {
+        "years": "2017-2021",
+        "president": "Donald J. Trump (primeiro mandato)",
+        "key_strategies": [
+          "Coerção comercial/tecnológica versus China; armamento tarifário; ações da lista de entidades."
+        ],
+        "tools_used": [
+          "Tarifas",
+          "Exportar controles/lista de entidades",
+          "Pressão aliada"
+        ],
+        "notable_policies_events": [
+          "Restrições da Huawei/tecnologia; retórica de dissociação mais ampla"
+        ],
+        "sources": [
+          "turn1search46"
+        ]
+      },
+      {
+        "years": "2021-2025",
+        "president": "Joe Biden",
+        "key_strategies": [
+          "Política industrial interna (CHIPS/IRA) e controles de exportação no exterior (2022–24).",
+          "Reparação de alianças; AUKUS/Quad; sanções e SWIFT contra a Rússia (2022)."
+        ],
+        "tools_used": [
+          "Regras do chip BIS",
+          "Subsídios industriais",
+          "Alianças",
+          "Sanções/SWIFT"
+        ],
+        "notable_policies_events": [
+          "Regra do BIS de 7 de outubro de 2022; Atualizações de outubro de 2023; Refinamentos de 2024",
+          "AUKUS (2021) e Quad revivido; Sanções da Rússia e proibições de SWIFT (2022)"
+        ],
+        "sources": [
+          "turn1search45",
+          "turn1search44",
+          "turn1search43",
+          "turn1search31",
+          "turn1search35"
+        ]
+      },
+      {
+        "years": "2025 até o presente",
+        "president": "Donald J. Trump (segundo mandato)",
+        "key_strategies": [
+          "A recalibração precoce dos controlos tecnológicos/subsídios industriais e a partilha de encargos da aliança estão em revisão."
+        ],
+        "tools_used": [
+          "Controles de exportação (continuidade/ajuste)",
+          "Compartilhamento de custos de alianças"
+        ],
+        "notable_policies_events": [
+          "A presidência foi retomada em 20 de janeiro de 2025 (não consecutivas)."
+        ],
+        "sources": [
+          "turn1search25",
+          "turn1search26"
+        ]
+      }
+    ],
+    "cross_cutting_tools": {
+      "finance": {
+        "bretton_woods_imf_world_bank": {
+          "description": "A ordem monetária pós-1944 com o FMI e o Banco Mundial permitiu a reconstrução, o apoio à balança de pagamentos e o poder de definição da agenda dos EUA.",
+          "sources": [
+            "turn1search37",
+            "turn1search39",
+            "turn1search41",
+            "turn1search42"
+          ]
+        },
+        "dollar_centrality_petrodollar_practice": {
+          "description": "Domínio do dólar pós-1971 sustentado pela liquidez, pelos mercados do Tesouro e pela cooperação económica/segurança EUA-Saudita (Comissão Conjunta de 1974), e não por um tratado petrolífero formal apenas em dólares.",
+          "sources": [
+            "turn1search6",
+            "turn1search3",
+            "turn1search2"
+          ]
+        },
+        "sanctions_payments_plumbing": {
+          "description": "As sanções do OFAC e as desconexões seletivas do SWIFT (Irã 2012, Rússia 2022) alavancam os efeitos de rede do dólar; incentivar alternativas parciais (SPFS/CIPS).",
+          "sources": [
+            "turn1search31",
+            "turn1search33",
+            "turn1search35",
+            "turn1search36"
+          ]
+        }
+      },
+      "technology_controls": {
+        "semiconductor_rules_2022_2024": {
+          "description": "As regras do BIS restringem chips avançados de IA, equipamentos e suporte de pessoas dos EUA; ampliado em 2023–24; eficácia ligada ao alinhamento aliado (Japão/Holanda).",
+          "sources": [
+            "turn1search45",
+            "turn1search44",
+            "turn1search46",
+            "turn1search43"
+          ]
+        }
+      },
+      "machines_security": {
+        "overseas_bases": {
+          "description": "Presença avançada para dissuasão/logística. As contagens oficiais reconhecem cerca de 128 bases em ≥51 países; contagens civis mais amplas citam cerca de 750 locais, dependendo das definições.",
+          "sources": [
+            "turn1search49",
+            "turn1search51"
+          ]
+        },
+        "alliances": {
+          "description": "Criação da NATO e sucessivos alargamentos; O Indo-Pacífico depende de tratados bilaterais e de estruturas minilaterais mais recentes (Quad, AUKUS).",
+          "sources": [
+            "turn1search55",
+            "turn1search56"
+          ]
+        }
+      },
+      "grand_strategy_context": {
+        "description": "Ordem liberal liderada pelos EUA (mercados abertos, alianças, instituições) com debates sobre primazia versus contenção entre administrações.",
+        "sources": [
+          "turn1search20",
+          "turn1search22",
+          "turn1search21"
+        ]
+      }
+    },
+    "interaction_patterns": [
+      {
+        "pattern": "Financiamento de rede + sanções",
+        "insight": "A escala/liquidez do dólar e o acesso ao SWIFT tornam as sanções potentes, mas também catalisam trilhos alternativos (SPFS/CIPS) com uso repetido.",
+        "sources": [
+          "turn1search31",
+          "turn1search33",
+          "turn1search35"
+        ]
+      },
+      {
+        "pattern": "Pontos de estrangulamento de semicondutores",
+        "insight": "Os controles de limite de desempenho mais as regras dos EUA restringem a computação de IA; a eficácia a longo prazo depende da sincronização dos aliados e do cronograma de indigenização da China.",
+        "sources": [
+          "turn1search45",
+          "turn1search46",
+          "turn1search43"
+        ]
+      },
+      {
+        "pattern": "Bases + alianças impõem regras",
+        "insight": "A base avançada garante a dissuasão, a aplicação do controle de exportações e as sanções; as contagens diferem consoante a metodologia, mas mostram uma concentração duradoura na Europa/Indo-Pacífico.",
+        "sources": [
+          "turn1search49",
+          "turn1search51",
+          "turn1search55",
+          "turn1search56"
+        ]
+      }
+    ],
+    "strategies_effectiveness": [
+      {
+        "strategy": "Guerra/ocupação direta",
+        "effectiveness": "Historicamente decisivo nos casos da Segunda Guerra Mundial; misto e caro nas últimas décadas",
+        "evidence": [
+          "turn3search73",
+          "turn3search63",
+          "turn10search157",
+          "turn10search151"
+        ]
+      },
+      {
+        "strategy": "Sanções/finanças",
+        "effectiveness": "Alta alavancagem via rede dólar/SWIFT; catalisa soluções alternativas ao longo do tempo",
+        "evidence": [
+          "turn1search31",
+          "turn1search35",
+          "turn1search33"
+        ]
+      },
+      {
+        "strategy": "Alianças/minilaterais",
+        "effectiveness": "Alto para sincronização e dissuasão de políticas",
+        "evidence": [
+          "turn10search163",
+          "turn10search165"
+        ]
+      },
+      {
+        "strategy": "Controles de tecnologia/exportação",
+        "effectiveness": "Eficaz em pontos de estrangulamento; depende do alinhamento aliado",
+        "evidence": [
+          "turn1search45"
+        ]
+      }
+    ],
+    "us_targeting_motives": {
+      "latin_america": [
+        {
+          "reason": "A primazia hemisférica está enraizada na Doutrina Monroe e na sua evolução para uma justificação para intervenções frequentes para garantir uma ordem liderada pelos EUA no Hemisfério Ocidental.",
+          "sources": [
+            "turn9search138"
+          ]
+        },
+        {
+          "reason": "Repercussões na segurança interna: reduzir a migração em massa, neutralizar os cartéis de drogas e o crime transnacional, prevenir a propriedade hostil de bens críticos e proteger locais estratégicos próximos (enquadramento de “jardim frontal”).",
+          "sources": [
+            "turn9search137"
+          ]
+        },
+        {
+          "reason": "Combater os rivais extra-hemisféricos (China, Rússia), expandindo a influência e os investimentos na América Latina.",
+          "sources": [
+            "turn9search137"
+          ]
+        },
+        {
+          "reason": "Mudança de regime/anticomunismo durante e depois da Guerra Fria (por exemplo, Guatemala 1954; Chile 1973) recorrendo a sanções, acção encoberta e força directa/multilateral.",
+          "sources": [
+            "turn9search133"
+          ]
+        },
+        {
+          "reason": "Proteção dos interesses comerciais dos EUA e do acesso à energia/recursos através de embargos, sanções e pressão política (por exemplo, Cuba, Venezuela).",
+          "sources": [
+            "turn9search133"
+          ]
+        }
+      ],
+      "asia_pacific": [
+        {
+          "reason": "Proteger as rotas comerciais globais e as cadeias de abastecimento; manter o acesso a locais estratégicos importantes, rotas marítimas e direitos de base/sobrevoo.",
+          "sources": [
+            "turn9search137"
+          ]
+        },
+        {
+          "reason": "Contrabalançar a ascensão da China através de alianças e quadros minilaterais (AUKUS, Quad) e da cooperação tecnológico-militar.",
+          "sources": [
+            "turn10search163",
+            "turn10search165",
+            "turn10search166",
+            "turn10search168"
+          ]
+        },
+        {
+          "reason": "Contraterrorismo e negação de refúgios seguros (após o 11 de Setembro), conduzindo a operações no Afeganistão e a uma Guerra ao Terror mais ampla.",
+          "sources": [
+            "turn10search157",
+            "turn10search158",
+            "turn10search162"
+          ]
+        },
+        {
+          "reason": "Preservar a estabilidade regional através de presença avançada e compromissos de aliança (Japão, ROK, Filipinas, Austrália).",
+          "sources": [
+            "turn10search163",
+            "turn10search165",
+            "turn10search167"
+          ]
+        }
+      ]
+    },
+    "comparison_latin_america_vs_asia": {
+      "overview": "Contrastando os motivos, ferramentas e mecanismos dos EUA em todas as regiões.",
+      "latin_america": {
+        "primary_drivers": [
+          "Primazia hemisférica e legados da Doutrina Monroe (manter os poderes externos afastados; justificar intervenções).",
+          "Preocupações com a segurança interna dos EUA (migração, narcocrime) e alinhamento do regime perto das fronteiras dos EUA.",
+          "Combater a influência da China/Rússia e proteger os interesses comerciais/energéticos dos EUA."
+        ],
+        "sources": [
+          "turn9search138",
+          "turn9search137",
+          "turn9search133"
+        ],
+        "typical_mechanisms": [
+          "Sanções/embargos (por exemplo, Cuba; Venezuela).",
+          "Acção encoberta, apoio a golpes de estado ou regimes amigos (por exemplo, Guatemala 1954; Chile 1973).",
+          "Intervenções limitadas/diretas e implantações marítimas na bacia do Caribe."
+        ],
+        "mechanism_sources": [
+          "turn9search133",
+          "turn9search137"
+        ]
+      },
+      "asia_pacific": {
+        "primary_drivers": [
+          "Equilíbrio das grandes potências – contra a China; sustentar a ordem baseada em regras através de alianças e minilaterais.",
+          "Proteção das cadeias de abastecimento globais e das rotas marítimas críticas.",
+          "Contraterrorismo e negação de refúgios seguros (pós-11 de Setembro)."
+        ],
+        "sources": [
+          "turn10search163",
+          "turn10search165",
+          "turn10search166",
+          "turn9search137",
+          "turn10search157",
+          "turn10search162"
+        ],
+        "typical_mechanisms": [
+          "Principais operações/ocupações de combate (Japão 1945–52; Coreia; Vietname; Afeganistão; Iraque).",
+          "Tratados de defesa e pactos minilaterais (EUA – Japão, EUA – ROK, Filipinas; AUKUS; Quad).",
+          "Controles de exportação/alianças tecnológicas para restringir as capacidades rivais."
+        ],
+        "mechanism_sources": [
+          "turn10search147",
+          "turn10search169",
+          "turn10search176",
+          "turn10search157",
+          "turn10search151",
+          "turn10search163",
+          "turn10search165"
+        ]
+      }
+    },
+    "regional_strategy_comparison_v3": {
+      "last_updated_utc": "2026-03-06T06:18:59Z",
+      "regions": [
+        {
+          "region": "América Latina e Caribe",
+          "top_strategies": [
+            {
+              "name": "Sanções e pressão financeira",
+              "effectiveness": "Médio-Alto",
+              "why": "Proximidade + exposição ao dólar + laços comerciais fazem com que as sanções e a pressão de acesso bancário diminuam rapidamente; muitas vezes resulta em concessões ou tensões no regime.",
+              "evidence": [
+                "turn1search31",
+                "turn1search35",
+                "turn9search133",
+                "turn9search137"
+              ]
+            },
+            {
+              "name": "Operações secretas/políticas",
+              "effectiveness": "Médio",
+              "why": "Historicamente decisivo em alguns casos (por exemplo, Guatemala 1954, Chile 1973), mas os custos de reputação e a reação regional limitam hoje a repetibilidade.",
+              "evidence": [
+                "turn9search133"
+              ]
+            },
+            {
+              "name": "Aliança/Alavancagem de Segurança e Isolamento Diplomático",
+              "effectiveness": "Médio",
+              "why": "A primazia hemisférica/o legado de Monroe e as coligações regionais amplificam a pressão, mas enfrentam a resistência dos crescentes intervenientes extra-regionais.",
+              "evidence": [
+                "turn9search138",
+                "turn9search137"
+              ]
+            }
+          ]
+        },
+        {
+          "region": "Ásia-Pacífico",
+          "top_strategies": [
+            {
+              "name": "Combate Principal/Ocupação (histórico)",
+              "effectiveness": "Alto (histórico); Baixo (limite de hoje)",
+              "why": "A rendição forçada (Japão 1945), permitiu uma reformulação constitucional; mas os custos/riscos actuais + a dinâmica nuclear/entre pares aumentam os limiares.",
+              "evidence": [
+                "turn3search73",
+                "turn10search147"
+              ]
+            },
+            {
+              "name": "Alianças, Minilaterais e Acesso/Base",
+              "effectiveness": "Alto",
+              "why": "Tratados de defesa (Japão/ROK/Filipinas) + AUKUS/Quad sincronizam políticas e postura em todo o Indo-Pacífico.",
+              "evidence": [
+                "turn10search163",
+                "turn10search165"
+              ]
+            },
+            {
+              "name": "Controles de tecnologia/exportação",
+              "effectiveness": "Médio",
+              "why": "As regras do BIS restringem a computação avançada; a eficácia depende do alinhamento aliado e dos limites de evasão.",
+              "evidence": [
+                "turn1search45",
+                "turn1search44"
+              ]
+            },
+            {
+              "name": "Sanções",
+              "effectiveness": "Variável",
+              "why": "Os impactos dependem da exposição ao dólar do alvo e dos efeitos mitigadores de redes alternativas (por exemplo, CIPS/SPFS).",
+              "evidence": [
+                "turn1search35",
+                "turn1search33"
+              ]
+            }
+          ]
+        },
+        {
+          "region": "Oriente Médio/Estados de maioria islâmica (subconjunto da Ásia/África)",
+          "top_strategies": [
+            {
+              "name": "Contraterrorismo/Grandes Operações de Combate",
+              "effectiveness": "Misturado",
+              "why": "Talibã derrubado (2001), mas insurgência longa; O Iraque em 2003 derrubou Saddam, mas enfrentou uma insurgência prolongada e custos elevados.",
+              "evidence": [
+                "turn10search157",
+                "turn10search151"
+              ]
+            },
+            {
+              "name": "Guerra de coalizão e sanções",
+              "effectiveness": "Médio–Alto (curto prazo); Misto (longo prazo)",
+              "why": "A Guerra do Golfo expulsou rapidamente o Iraque do Kuwait; as sanções muitas vezes extraem concessões, mas podem consolidar regimes.",
+              "evidence": [
+                "turn3search70",
+                "turn1search31"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "asia_interventions_timeline": [
+      {
+        "years": "1899–1902",
+        "event": "Guerra Filipino-Americana",
+        "summary": "Os EUA lutaram contra os revolucionários filipinos após a anexação; A vitória americana estabeleceu o domínio dos EUA; pesado tributo civil.",
+        "sources": [
+          "turn10search142",
+          "turn10search139"
+        ]
+      },
+      {
+        "years": "1945–1952",
+        "event": "Ocupação Aliada (liderada pelos EUA) do Japão",
+        "summary": "A ocupação liderada pelos EUA transformou a economia política e a postura de segurança do Japão; terminou com o tratado de paz de 1952.",
+        "sources": [
+          "turn10search147",
+          "turn10search145"
+        ]
+      },
+      {
+        "years": "1950–1953",
+        "event": "Guerra da Coréia",
+        "summary": "O Comando da ONU liderado pelos EUA interveio para defender a Coreia do Sul; a guerra terminou em armistício e criação de DMZ.",
+        "sources": [
+          "turn10search169",
+          "turn10search174"
+        ]
+      },
+      {
+        "years": "1955–1975 (grande combate nos EUA 1965–1973)",
+        "event": "Guerra do Vietnã (envolvimento dos EUA)",
+        "summary": "Aumento do papel consultivo e de combate dos EUA sob a contenção da Guerra Fria; retirada concluída em 1973.",
+        "sources": [
+          "turn10search176",
+          "turn10search177",
+          "turn10search175"
+        ]
+      },
+      {
+        "years": "1990–1991",
+        "event": "Guerra do Golfo",
+        "summary": "A coalizão liderada pelos EUA expulsou as forças iraquianas do Kuwait; o quadro de cessar-fogo moldou as sanções/inspeções da década de 1990.",
+        "sources": [
+          "turn3search70",
+          "turn3search68"
+        ]
+      },
+      {
+        "years": "2001–2014 (missão de combate) / 2001–2021 (presença geral dos EUA)",
+        "event": "Guerra no Afeganistão",
+        "summary": "Resposta ao 11 de Setembro: derrubada dos Taliban, longa contrainsurgência; A missão NATO/ISAF terminou em 2014; A presença nos EUA terminou em 2021.",
+        "sources": [
+          "turn10search157",
+          "turn10search158",
+          "turn10search161"
+        ]
+      },
+      {
+        "years": "2003–2011",
+        "event": "Guerra do Iraque",
+        "summary": "A invasão liderada pelos EUA derrubou Saddam; insurgência prolongada; retirada concluída em dezembro de 2011.",
+        "sources": [
+          "turn10search151",
+          "turn10search152",
+          "turn10search153"
+        ]
+      }
+    ],
+    "map_targeted_regions": {
+      "projection_hint": "Qualquer mapa da web moderno (Web Mercator/GeoJSON). Renderize duas camadas com cores distintas: América Latina (vizinhas) e Ásia-Pacífico.",
+      "latin_america_layer": {
+        "label": "América Latina e Caribe – foco recorrente em intervenções/sanções dos EUA",
+        "countries": [
+          "Cuba",
+          "Haiti",
+          "Guatemala",
+          "Nicarágua",
+          "Chile",
+          "Venezuela",
+          "Panamá"
+        ],
+        "explanatory_note": "Estes exemplificam padrões históricos de intervenções dos EUA (diretas, encobertas, sanções) ao longo de dois séculos.",
+        "sources": [
+          "turn9search133",
+          "turn9search137"
+        ]
+      },
+      "asia_pacific_layer": {
+        "label": "Ásia-Pacífico – grandes guerras/ocupações/alianças dos EUA",
+        "countries": [
+          "Filipinas",
+          "Japão",
+          "Coréia do Sul",
+          "Coréia do Norte",
+          "Vietnã",
+          "Afeganistão",
+          "Iraque",
+          "Austrália (parceiro AUKUS)",
+          "Índia (parceiro quádruplo)"
+        ],
+        "explanatory_note": "Reflete as guerras dos EUA (1899 até o presente) e estruturas de alianças contemporâneas (AUKUS, Quad).",
+        "sources": [
+          "turn10search142",
+          "turn10search145",
+          "turn10search169",
+          "turn10search176",
+          "turn10search157",
+          "turn10search151",
+          "turn10search163",
+          "turn10search165"
+        ]
+      }
+    },
+    "map_visualization": {
+      "type": "vega-lite",
+      "spec_file": "us_world_map_spec.json",
+      "description": "Mapa de símbolos mundiais destacando países frequentemente referenciados em intervenções/sanções dos EUA (América Latina), guerras/ocupações na Ásia e principais aliados/minilaterais.",
+      "categories": {
+        "LATAM_SANCTIONS_INTERVENTIONS": "Países da América Latina e do Caribe proeminentemente envolvidos em ações/sanções/intervenções secretas dos EUA",
+        "ASIA_WARS_OCCUPATIONS": "Teatros Ásia-Pacífico das principais guerras/ocupações dos EUA",
+        "ALLIES_MINILATERALS": "Principais aliados/parceiros minilaterais dos EUA no Indo-Pacífico"
+      },
+      "sources": [
+        "turn9search133",
+        "turn9search137",
+        "turn10search142",
+        "turn10search147",
+        "turn10search163",
+        "turn10search165"
+      ]
+    },
+    "datasets": {
+      "map_points": [
+        {
+          "name": "Cuba",
+          "iso3": "FILHOTE",
+          "lat": 23.1136,
+          "lon": -82.3666,
+          "group": "LATAM_SANCTIONS_INTERVENTIONS"
+        },
+        {
+          "name": "Haiti",
+          "iso3": "IHT",
+          "lat": 18.5944,
+          "lon": -72.3074,
+          "group": "LATAM_SANCTIONS_INTERVENTIONS"
+        },
+        {
+          "name": "Guatemala",
+          "iso3": "GTM",
+          "lat": 14.6349,
+          "lon": -90.5069,
+          "group": "LATAM_SANCTIONS_INTERVENTIONS"
+        },
+        {
+          "name": "Nicarágua",
+          "iso3": "Placa de rede",
+          "lat": 12.1364,
+          "lon": -86.2514,
+          "group": "LATAM_SANCTIONS_INTERVENTIONS"
+        },
+        {
+          "name": "Chile",
+          "iso3": "CHL",
+          "lat": -33.4489,
+          "lon": -70.6693,
+          "group": "LATAM_SANCTIONS_INTERVENTIONS"
+        },
+        {
+          "name": "Venezuela",
+          "iso3": "VEN",
+          "lat": 10.4806,
+          "lon": -66.9036,
+          "group": "LATAM_SANCTIONS_INTERVENTIONS"
+        },
+        {
+          "name": "Panamá",
+          "iso3": "FRIGIDEIRA",
+          "lat": 8.9824,
+          "lon": -79.5199,
+          "group": "LATAM_SANCTIONS_INTERVENTIONS"
+        },
+        {
+          "name": "Filipinas",
+          "iso3": "PHL",
+          "lat": 14.5995,
+          "lon": 120.9842,
+          "group": "ÁSIA_WARS_OCCUPATIONS"
+        },
+        {
+          "name": "Japão",
+          "iso3": "Japão",
+          "lat": 35.6762,
+          "lon": 139.6503,
+          "group": "ÁSIA_WARS_OCCUPATIONS"
+        },
+        {
+          "name": "Coréia do Sul",
+          "iso3": "COR",
+          "lat": 37.5665,
+          "lon": 126.978,
+          "group": "ÁSIA_WARS_OCCUPATIONS"
+        },
+        {
+          "name": "Coréia do Norte",
+          "iso3": "PRK",
+          "lat": 39.0392,
+          "lon": 125.7625,
+          "group": "ÁSIA_WARS_OCCUPATIONS"
+        },
+        {
+          "name": "Vietnã",
+          "iso3": "VNM",
+          "lat": 21.0278,
+          "lon": 105.8342,
+          "group": "ÁSIA_WARS_OCCUPATIONS"
+        },
+        {
+          "name": "Afeganistão",
+          "iso3": "AFG",
+          "lat": 34.5553,
+          "lon": 69.2075,
+          "group": "ÁSIA_WARS_OCCUPATIONS"
+        },
+        {
+          "name": "Iraque",
+          "iso3": "IRQ",
+          "lat": 33.3152,
+          "lon": 44.3661,
+          "group": "ÁSIA_WARS_OCCUPATIONS"
+        },
+        {
+          "name": "Austrália",
+          "iso3": "EUA",
+          "lat": -35.2809,
+          "lon": 149.13,
+          "group": "ALLIES_MINILATERALS"
+        },
+        {
+          "name": "Índia",
+          "iso3": "IND",
+          "lat": 28.6139,
+          "lon": 77.209,
+          "group": "ALLIES_MINILATERALS"
+        }
+      ]
+    },
+    "forced_surrenders": [
+      {
+        "country": "Grã-Bretanha",
+        "when": "3 de setembro de 1783",
+        "why": "Derrota na Guerra Revolucionária Americana; O Tratado de Paris reconheceu a independência dos EUA.",
+        "who_signed_for_opponent": "Representantes da Coroa Britânica",
+        "sources": [
+          "turn3search62"
+        ]
+      },
+      {
+        "country": "Alemanha",
+        "when": "7 a 8 de maio de 1945",
+        "why": "Rendição incondicional da Alemanha nazista no final da Segunda Guerra Mundial.",
+        "who_signed_for_opponent": "General Alfred Jodl (Alto Comando Alemão)",
+        "sources": [
+          "turn3search63"
+        ]
+      },
+      {
+        "country": "Japão",
+        "when": "2 de setembro de 1945",
+        "why": "Rendição incondicional após os bombardeios atômicos e a entrada soviética na guerra.",
+        "who_signed_for_opponent": "Ministro das Relações Exteriores, Mamoru Shigemitsu, e General Yoshijiro Umezu",
+        "sources": [
+          "turn3search73"
+        ]
+      },
+      {
+        "country": "México",
+        "when": "2 de fevereiro de 1848",
+        "why": "Derrota na Guerra Mexicano-Americana; Tratado de Guadalupe Hidalgo.",
+        "who_signed_for_opponent": "José Bernardo Couto, Miguel de Atristain, Luis Gonzaga Cuevas (México); Nicholas Trist (EUA)",
+        "sources": [
+          "turn4search104",
+          "turn4search103"
+        ]
+      },
+      {
+        "country": "Espanha",
+        "when": "10 de dezembro de 1898",
+        "why": "Derrota na Guerra Hispano-Americana; Tratado de Paris (1898).",
+        "who_signed_for_opponent": "Eugenio Montero Ríos, Buenaventura de Abarzuza, José de Garnica, Wenceslao Ramírez de Villa-Urrutia, Rafael Cerero (Espanha); William R. Day e outros (EUA)",
+        "sources": [
+          "turn4search109",
+          "turn4search112"
+        ]
+      },
+      {
+        "country": "Itália",
+        "when": "3 de setembro (assinado) / 8 de setembro (anunciado), 1943",
+        "why": "Colapso do governo de Mussolini; A Itália aceitou o armistício incondicional com os Aliados.",
+        "who_signed_for_opponent": "General Giuseppe Castellano (Itália); General Walter Bedell Smith (Aliados)",
+        "sources": [
+          "turn4search97",
+          "turn4search98"
+        ]
+      },
+      {
+        "country": "Bulgária",
+        "when": "28 de outubro de 1944",
+        "why": "Colapso militar/político búlgaro; aceitou os termos do armistício aliado.",
+        "who_signed_for_opponent": "P. Stainov, D. Terpeshev, N. Petkov, P. Stoyanov (Bulgária); Tenente-General James Gammell, Marechal F.I. Tolbukhin (Aliados)",
+        "sources": [
+          "turn4search91"
+        ]
+      },
+      {
+        "country": "Hungria",
+        "when": "20 de janeiro de 1945 (armistício) / 13 de fevereiro de 1945 (rendição de Budapeste)",
+        "why": "Derrota militar e cerco pelas forças soviéticas; A Hungria aceitou os termos dos Aliados.",
+        "who_signed_for_opponent": "Gyöngyosi János, Vörös János, Balogh István (Hungria); Marechal K.E. Voroshilov (Aliados)",
+        "sources": [
+          "turn4search79",
+          "turn4search81"
+        ]
+      },
+      {
+        "country": "Romênia",
+        "when": "12 de setembro de 1944",
+        "why": "Golpe do Rei Miguel; A Roménia cessou as hostilidades e rendeu-se aos Aliados.",
+        "who_signed_for_opponent": "Lucrețiu Pătrășcanu, General D. Dămăceanu, Príncipe Știrbey, G. Popp (Romênia); Marechal R.Y. Malinovski (Aliados)",
+        "sources": [
+          "turn4search90",
+          "turn4search85"
+        ]
+      }
+    ],
+    "additional_forced_surrenders_not_directly_to_us": [
+      {
+        "country": "Império Otomano",
+        "when": "30 de outubro de 1918",
+        "why": "Derrota militar na Primeira Guerra Mundial; O armistício de Mudros pôs fim à participação otomana na guerra.",
+        "who_signed_for_opponent": "Rauf Bey (Império Otomano); Almirante Gough-Calthorpe (Grã-Bretanha para Aliados)",
+        "sources": [
+          "turn6search115",
+          "turn6search116"
+        ]
+      },
+      {
+        "country": "Áustria (como parte da Alemanha nazista)",
+        "when": "8 de maio de 1945",
+        "why": "A Áustria foi anexada pela Alemanha nazista (Anschluss, 1938); rendeu-se assim implicitamente à Alemanha.",
+        "who_signed_for_opponent": "Alto Comando Alemão (a Áustria não tinha delegação separada).",
+        "sources": [
+          "turn6search121"
+        ]
+      },
+      {
+        "country": "Forças Alemãs no Norte da Itália e na Áustria Ocidental",
+        "when": "2 de maio de 1945",
+        "why": "A Operação Sunrise levou à rendição alemã de quase 1 milhão de soldados na Itália e na Áustria.",
+        "who_signed_for_opponent": "General von Vietinghoff (Alemanha); Tenente-General Morgan para o Marechal de Campo Harold Alexander (Aliados)",
+        "sources": [
+          "turn6search123",
+          "turn6search125"
+        ]
+      }
+    ],
+    "notes": [
+      "As categorias de países são ilustrativas e baseadas em casos historicamente proeminentes citados nas fontes; eles não são exaustivos de todos os estados ou episódios.",
+      "A especificação Vega-Lite faz referência a um TopoJSON externo para mapa base; aberto em um visualizador compatível com Vega-Lite."
+    ],
+    "source_lookup_hint": "Cada reference_id corresponde a uma fonte web específica."
+  }
+}

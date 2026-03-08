@@ -1,0 +1,93 @@
+{
+  "horoscope": {
+    "title": "Generador de horóscopo",
+    "meta": {
+      "title": "Generador de horóscopo",
+      "canonical": "https://sanatanadharmam.in/horoscope",
+      "description": "Horóscopo de Sanātana Dharma - Explora Sanātana Dharma: los principios eternos del hinduismo, las tradiciones védicas, las prácticas espirituales y la sabiduría de escrituras como...",
+      "keywords": [
+        "astrology",
+        "daily horoscope",
+        "horoscope",
+        "horoscope analysis",
+        "horoscope aspects",
+        "horoscope career",
+        "horoscope compatibility",
+        "horoscope eclipses",
+        "horoscope elements",
+        "horoscope finance",
+        "horoscope forecast",
+        "horoscope generator",
+        "horoscope guidance",
+        "horoscope health",
+        "horoscope houses",
+        "horoscope insights",
+        "horoscope interpretation",
+        "horoscope love",
+        "horoscope lunar phases",
+        "horoscope modalities",
+        "horoscope natal chart",
+        "horoscope personality",
+        "horoscope prediction",
+        "horoscope progressions",
+        "horoscope reading",
+        "horoscope retrogrades",
+        "horoscope solar return",
+        "horoscope symbolism",
+        "horoscope traits",
+        "horoscope transits",
+        "horoscope trends",
+        "horoscope vedic astrology",
+        "monthly horoscope",
+        "natal chart",
+        "vedic astrology",
+        "weekly horoscope",
+        "yearly horoscope",
+        "zodiac signs"
+      ],
+      "ogimage": "images/og/home.png",
+      "url": "https://sanatanadharmam.in/horoscope"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organización",
+        "contactpoint": {
+          "@type": "Punto de contacto",
+          "areaserved": "En todo el mundo",
+          "availablelanguage": [
+            "العربية",
+            "alemán",
+            "ingles",
+            "Español",
+            "francés",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Países Bajos",
+            "portugués",
+            "ruso",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Atención al cliente",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Acerca de Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "birthdate": "fecha de nacimiento",
+    "errorlabel": "Error:",
+    "generate": "generar",
+    "luckynumber": "Número de la suerte: {num} · Periodo: {periodLabel}",
+    "namelabel": "Nombre (opcional)",
+    "period": "Periodo",
+    "periodday": "dia",
+    "periodmonth": "Mes",
+    "periodweek": "Semana"
+  }
+}

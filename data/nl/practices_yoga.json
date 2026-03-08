@@ -1,0 +1,150 @@
+{
+  "practices_yoga": {
+    "title": "",
+    "meta": {
+      "title": "Filosofie | Yoga — Sanātana Dharma - Ontdek Sanatan Dharma",
+      "canonical": "https://sanatanadharmam.in/philosophy/yoga",
+      "description": "Filosofie — Yoga — Sanātana Dharma - Ontdek Sanatan Dharma — Artikelen, vertalingen en beknopt commentaar op filosofie. Ontdek praktijken, geschiedenis en leidende principes bij...",
+      "keywords": [
+        "bhagavadgita yoga",
+        "hindu yoga",
+        "upanishads yoga",
+        "vedic yoga",
+        "yoga concepts explained in sanatana dharma",
+        "yoga concepts for beginners",
+        "yoga concepts for students",
+        "yoga concepts in modern life",
+        "yoga concepts in sanatana dharma",
+        "yoga history explained in sanatana dharma",
+        "yoga history for beginners",
+        "yoga history for students",
+        "yoga history in modern life",
+        "yoga history of sanatana dharma",
+        "yoga insights explained in sanatana dharma",
+        "yoga insights for beginners",
+        "yoga insights for students",
+        "yoga insights from sanatana dharma",
+        "yoga insights in modern life",
+        "yoga philosophy",
+        "yoga practices explained in sanatana dharma",
+        "yoga practices for beginners",
+        "yoga practices for students",
+        "yoga practices in modern life",
+        "yoga practices in sanatana dharma",
+        "yoga principles explained in sanatana dharma",
+        "yoga principles for beginners",
+        "yoga principles for students",
+        "yoga principles in modern life",
+        "yoga principles of sanatana dharma",
+        "yoga q&a explained in sanatana dharma",
+        "yoga q&a for beginners",
+        "yoga q&a for students",
+        "yoga q&a in modern life",
+        "yoga q&a on sanatana dharma",
+        "yoga relevance explained in sanatana dharma",
+        "yoga relevance for beginners",
+        "yoga relevance for students",
+        "yoga relevance in modern life",
+        "yoga relevance of sanatana dharma in modern life",
+        "yoga sutras of patanjali",
+        "yoga teachings explained in sanatana dharma",
+        "yoga teachings for beginners",
+        "yoga teachings for students",
+        "yoga teachings in modern life",
+        "yoga teachings of sanatana dharma"
+      ],
+      "ogimage": "/og/philosophy-yoga.png",
+      "url": "https://sanatanadharmam.in/philosophy/yoga"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organisatie",
+        "contactpoint": {
+          "@type": "ContactPunt",
+          "areaserved": "Wereldwijd",
+          "availablelanguage": [
+            "العربية",
+            "Duits",
+            "Engels",
+            "Spaans",
+            "Frans",
+            "Ja",
+            "日本語",
+            "Ja",
+            "Nederlands",
+            "Portugees",
+            "Русский",
+            "Ja",
+            "Ja",
+            "中文 (简体)"
+          ],
+          "contacttype": "Klantenondersteuning",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Over Sanatanadharam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "core_principles": [
+      "Vereniging van het individuele zelf (Atman) met universeel bewustzijn (Brahman)",
+      "Balans tussen fysieke, mentale en spirituele aspecten",
+      "Discipline en ethisch leven"
+    ],
+    "definition": "Yoga is een spirituele discipline en filosofie gericht op het harmoniseren van lichaam, geest en ziel om zelfrealisatie en bevrijding (Moksha) te bereiken.",
+    "eight_limbs_of_yoga": [
+      "Yama (Ethische beperkingen)",
+      "Niyama (persoonlijke observaties)",
+      "Asana (houdingen)",
+      "Pranayama (Adembeheersing)",
+      "Pratyahara (terugtrekking van zintuigen)",
+      "Dharana (concentratie)",
+      "Dhyana (meditatie)",
+      "Samadhi (absorptie of vereniging)"
+    ],
+    "goals": [
+      "Zelfrealisatie",
+      "Mentale helderheid en vrede",
+      "Lichamelijke gezondheid en vitaliteit",
+      "Bevrijding van lijden"
+    ],
+    "key_scriptural_references": [
+      {
+        "quote_summary": "Yoga is het stoppen van mentale fluctuaties.",
+        "text": "Yoga Sutra's van Patanjali"
+      },
+      {
+        "quote_summary": "Yoga is vaardigheid in actie en balans in het leven.",
+        "text": "Bhagavathgita"
+      }
+    ],
+    "modern_relevance": {
+      "health": "Verbetert de fysieke fitheid en het mentale welzijn.",
+      "spiritual_growth": "Moedigt mindfulness en innerlijke vrede aan.",
+      "stress_management": "Vermindert angst en bevordert kalmte."
+    },
+    "origin": {
+      "meaning": "Afgeleid van het Sanskriet ‘yuj’, wat ‘verenigen of zich aansluiten’ betekent.",
+      "roots": "Vedische traditie en Upanishads",
+      "texts": [
+        "Yoga Sutra's van Patanjali",
+        "Bhagavathgita",
+        "Upanishads"
+      ]
+    },
+    "paths_of_yoga": {
+      "bhakti_yoga": "Path of devotion and love for the divine.",
+      "hatha_yoga": "Path of physical postures and breath control.",
+      "jnana_yoga": "Path of knowledge and wisdom.",
+      "karma_yoga": "Path of selfless action.",
+      "raja_yoga": "Path of meditation and mental discipline."
+    },
+    "relation_to_other_concepts": {
+      "dharma": "Yoga ondersteunt een rechtvaardig leven.",
+      "karma": "Yoga zuivert acties en intenties.",
+      "moksha": "Yoga is een directe weg naar bevrijding."
+    }
+  }
+}

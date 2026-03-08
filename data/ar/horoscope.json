@@ -1,0 +1,93 @@
+{
+  "horoscope": {
+    "title": "مولد ابراج",
+    "meta": {
+      "title": "مولد ابراج",
+      "canonical": "https://sanatanadharmam.in/horoscope",
+      "description": "برجك من Sanātana Dharma - اكتشف Sanātana Dharma: المبادئ الأبدية للهندوسية والتقاليد الفيدية والممارسات الروحية والحكمة من الكتب المقدسة مثل...",
+      "keywords": [
+        "astrology",
+        "daily horoscope",
+        "horoscope",
+        "horoscope analysis",
+        "horoscope aspects",
+        "horoscope career",
+        "horoscope compatibility",
+        "horoscope eclipses",
+        "horoscope elements",
+        "horoscope finance",
+        "horoscope forecast",
+        "horoscope generator",
+        "horoscope guidance",
+        "horoscope health",
+        "horoscope houses",
+        "horoscope insights",
+        "horoscope interpretation",
+        "horoscope love",
+        "horoscope lunar phases",
+        "horoscope modalities",
+        "horoscope natal chart",
+        "horoscope personality",
+        "horoscope prediction",
+        "horoscope progressions",
+        "horoscope reading",
+        "horoscope retrogrades",
+        "horoscope solar return",
+        "horoscope symbolism",
+        "horoscope traits",
+        "horoscope transits",
+        "horoscope trends",
+        "horoscope vedic astrology",
+        "monthly horoscope",
+        "natal chart",
+        "vedic astrology",
+        "weekly horoscope",
+        "yearly horoscope",
+        "zodiac signs"
+      ],
+      "ogimage": "images/og/home.png",
+      "url": "https://sanatanadharmam.in/horoscope"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "منظمة",
+        "contactpoint": {
+          "@type": "نقطة الاتصال",
+          "areaserved": "في جميع أنحاء العالم",
+          "availablelanguage": [
+            "العربية",
+            "الألمانية",
+            "إنجليزي",
+            "الاسبانية",
+            "الفرنسية",
+            "الهندية",
+            "日本語",
+            "النيبالية",
+            "هولندا",
+            "البرتغالية",
+            "الروسية",
+            "نعم",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "دعم العملاء",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "حول Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "birthdate": "تاريخ الميلاد",
+    "errorlabel": "خطأ:",
+    "generate": "يولد",
+    "luckynumber": "رقم الحظ: {num} · الفترة: {periodLabel}",
+    "namelabel": "الاسم (اختياري)",
+    "period": "فترة",
+    "periodday": "يوم",
+    "periodmonth": "شهر",
+    "periodweek": "أسبوع"
+  }
+}

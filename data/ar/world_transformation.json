@@ -1,0 +1,536 @@
+{
+  "world_transformation": {
+    "meta": {
+      "title": "تتغير الأرض بعقود - ساناتانا دارما - طريقة الحياة الأبدية",
+      "canonical": "https://sanatanadharmam.in/world-transformation",
+      "description": "تتغير الأرض بعقود - Sanātana Dharma - اكتشف Sanātana Dharma: المبادئ الأبدية للهندوسية، والتقاليد الفيدية، والممارسات الروحية، والحكمة من الكتب المقدسة مثل...",
+      "keywords": [
+        "20th century history",
+        "21st century history",
+        "Border changes",
+        "Cold War influence",
+        "Decadal transformations",
+        "Decolonization effects",
+        "Earth changes",
+        "Educational resources on history",
+        "Geopolitical history",
+        "Geopolitical shifts",
+        "Global events timeline",
+        "Global history overview",
+        "Globalization impact on borders",
+        "Historical border changes",
+        "Historical cartography",
+        "Historical events impact",
+        "Historical geography",
+        "Historical map accessibility",
+        "Historical map accuracy",
+        "Historical map analysis",
+        "Historical map best practices",
+        "Historical map bias",
+        "Historical map case studies",
+        "Historical map challenges",
+        "Historical map collaboration",
+        "Historical map community",
+        "Historical map creation tools",
+        "Historical map data sources",
+        "Historical map design",
+        "Historical map diversity",
+        "Historical map education",
+        "Historical map engagement",
+        "Historical map ethics",
+        "Historical map examples",
+        "Historical map features",
+        "Historical map feedback",
+        "Historical map future directions",
+        "Historical map impact",
+        "Historical map improvement",
+        "Historical map inclusivity",
+        "Historical map innovation",
+        "Historical map interactivity",
+        "Historical map interpretation",
+        "Historical map legends",
+        "Historical map outreach",
+        "Historical map overlays",
+        "Historical map projections",
+        "Historical map relevance",
+        "Historical map representation",
+        "Historical map significance",
+        "Historical map storytelling",
+        "Historical map sustainability",
+        "Historical map technology",
+        "Historical map visualizations",
+        "Historical maps",
+        "Historical timelines",
+        "Interactive world maps",
+        "International relations evolution",
+        "Modern geopolitical trends",
+        "Post-Cold War changes",
+        "World transformation",
+        "World wars impact"
+      ],
+      "ogimage": "images/og/earth_changes_by_decade.json.png",
+      "url": "https://sanatanadharmam.in/world-transformation"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "منظمة",
+        "contactpoint": {
+          "@type": "نقطة الاتصال",
+          "areaserved": "في جميع أنحاء العالم",
+          "availablelanguage": [
+            "العربية",
+            "الألمانية",
+            "إنجليزي",
+            "الاسبانية",
+            "الفرنسية",
+            "الهندية",
+            "日本語",
+            "النيبالية",
+            "هولندا",
+            "البرتغالية",
+            "الروسية",
+            "نعم",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "دعم العملاء",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "حول Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "decades": [
+      {
+        "decade": "1900-1909",
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1900.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "تفويض",
+              "d": "م 820 710 لتر 860 690 لتر 890 730 لتر 865 760 ض",
+              "featurename": "إعادة التنظيم الاستعماري (أفريقيا، أمثلة)",
+              "id": "afr_mandates_placeholder",
+              "notes": "استبدل بالمضلع (المضلعات) الحقيقية المستمدة من نظم المعلومات الجغرافية.",
+              "tooltip": "المحميات والانتدابات الاستعمارية تم إضفاء الطابع الرسمي عليها (توضيحية)",
+              "type": "طريق"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "التوسع الاستعماري",
+        "whatchanged": [
+          "توسعت الحدود الاستعمارية",
+          "عدد قليل من الدول الجديدة المستقلة"
+        ],
+        "why": [
+          "الإمبريالية الأوروبية"
+        ]
+      },
+      {
+        "decade": "1910-1919",
+        "examples": [
+          "إعادة إنشاء بولندا",
+          "تقسيم الأراضي العثمانية"
+        ],
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1918.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "new_state",
+              "d": "م 1050 360 لتر 1100 355 لتر 1125 380 لتر 1080 395 ض",
+              "featurename": "بولندا (أعيد تأسيسها)",
+              "id": "أوروبا_بولندا_1918",
+              "notes": "استخدم الشكل الدقيق للنهائي.",
+              "tooltip": "إعادة تأسيس بولندا بعد الحرب العالمية الأولى (مدى توضيحي)",
+              "type": "طريق"
+            },
+            {
+              "changetype": "تفويض",
+              "d": "م 1205 455 لتر 1260 470 لتر 1245 505 لتر 1198 495 ض",
+              "featurename": "التقسيم العثماني (ولايات مختارة)",
+              "id": "me_partition_1919",
+              "tooltip": "الولايات العربية العثمانية الخاضعة للانتداب (توضيحية)",
+              "type": "طريق"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "إعادة رسم الحرب العالمية الأولى",
+        "whatchanged": [
+          "انهيار الإمبراطوريات",
+          "دول أوروبية جديدة"
+        ],
+        "why": [
+          "الحرب العالمية الأولى",
+          "تسويات المعاهدة"
+        ]
+      },
+      {
+        "decade": "1920-1929",
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1925.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "Status_change",
+              "d": "م 900720 لتر 960710 لتر 980750 لتر 920770 ض",
+              "featurename": "الخطوط الاستعمارية الثابتة (إفريقيا، أمثلة)",
+              "id": "africa_lines_1920s",
+              "tooltip": "إضفاء الطابع الرسمي على الحدود الاستعمارية (توضيحية)",
+              "type": "طريق"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "نظام التفويض",
+        "whatchanged": [
+          "تم إضفاء الطابع الرسمي على الحدود",
+          "الانتدابات تحل محل الإمبراطوريات"
+        ],
+        "why": [
+          "ولايات عصبة الأمم"
+        ]
+      },
+      {
+        "decade": "1930-1939",
+        "examples": [
+          "التوسع الألماني",
+          "التوسع الياباني"
+        ],
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1939.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "الضم",
+              "d": "م 1040 420 لتر 1065 418 لتر 1075 430 لتر 1050 435 ض",
+              "featurename": "النمسا إلى ألمانيا (الضم)",
+              "id": "أوروبا_أنشلوس_1938",
+              "tooltip": "ضم النمسا إلى ألمانيا (توضيحية)",
+              "type": "طريق"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "التوسع العدواني",
+        "whatchanged": [
+          "الحدود تغيرت بالقوة"
+        ],
+        "why": [
+          "صعود الفاشية",
+          "العسكرة قبل الحرب العالمية الثانية"
+        ]
+      },
+      {
+        "decade": "1940-1949",
+        "examples": [
+          "ألمانيا مقسمة",
+          "كوريا منقسمة",
+          "تقسيم الهند وباكستان"
+        ],
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1947.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "تقسيم",
+              "d": "م 1325565 لتر 1385565 لتر 1390600 لتر 1335600 ض",
+              "featurename": "تقسيم الهند البريطانية",
+              "id": "جنوب_آسيا_تقسيم_1947",
+              "tooltip": "التقسيم المنشئ للهند وباكستان (توضيحية)",
+              "type": "طريق"
+            },
+            {
+              "changetype": "تقسيم",
+              "d": "م 1545 470 لتر 1560 465 لتر 1568 478 لتر 1550 485 ض",
+              "featurename": "تقسيم كوريا",
+              "id": "كوريا_تقسيم_1945",
+              "tooltip": "كوريا مقسمة عند خط العرض 38 ~ (توضيحي)",
+              "type": "طريق"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "إعادة رسم الحرب العالمية الثانية",
+        "whatchanged": [
+          "تغييرات الحدود واسعة النطاق",
+          "أقسام"
+        ],
+        "why": [
+          "نتيجة الحرب العالمية الثانية",
+          "بداية الحرب الباردة"
+        ]
+      },
+      {
+        "decade": "1950-1959",
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1955.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "new_state",
+              "d": "م 1060640 لتر 1160635 لتر 1165670 لتر 1065675 ض",
+              "featurename": "استقلال شمال أفريقيا (أمثلة)",
+              "id": "north_africa_1950s",
+              "tooltip": "حركات الاستقلال تنجح (توضيحية)",
+              "type": "طريق"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "إنهاء الاستعمار المبكر",
+        "whatchanged": [
+          "ظهور دول آسيوية وإفريقية"
+        ],
+        "why": [
+          "حركات الاستقلال"
+        ]
+      },
+      {
+        "decade": "1960-1969",
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1965.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "new_state",
+              "d": "م 880 720 لتر 1000 700 لتر 1005 790 لتر 900 800 ض",
+              "featurename": "موجة الاستقلال الأفريقية",
+              "id": "africa_wave_1960s",
+              "tooltip": "دول جديدة متعددة في جميع أنحاء أفريقيا (توضيحية)",
+              "type": "طريق"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "موجة الاستقلال الأفريقية",
+        "whatchanged": [
+          "عشرات الدول الجديدة"
+        ],
+        "why": [
+          "إنهاء الاستعمار السريع"
+        ]
+      },
+      {
+        "decade": "1970-1989",
+        "examples": [
+          "استقلال بنجلاديش (1971)",
+          "إعادة توحيد فيتنام (1976)"
+        ],
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1980.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "new_state",
+              "d": "م 1395 590 لتر 1410 592 لتر 1415 605 لتر 1398 607 ض",
+              "featurename": "بنغلاديش",
+              "id": "بنجلاديش_1971",
+              "tooltip": "استقلال بنجلاديش (توضيحي)",
+              "type": "طريق"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "استقرار الحرب الباردة",
+        "whatchanged": [
+          "بعض التغييرات الحدودية الرسمية"
+        ],
+        "why": [
+          "توازن القوى والردع"
+        ]
+      },
+      {
+        "decade": "1990-1999",
+        "examples": [
+          "15 دولة ما بعد الاتحاد السوفيتي",
+          "إعادة رسم منطقة البلقان"
+        ],
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1995.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "الحل",
+              "d": "م 1180 260 لتر 1500 260 لتر 1500 420 لتر 1180 420 ض",
+              "featurename": "دول ما بعد الاتحاد السوفيتي",
+              "id": "ussr_breakup_1991",
+              "tooltip": "تفكك الاتحاد السوفييتي (المربع المحيطي توضيحي)",
+              "type": "طريق"
+            },
+            {
+              "changetype": "الحل",
+              "d": "م 1120 420 لتر 1160 420 لتر 1170 450 لتر 1125 455 ض",
+              "featurename": "يوغوسلافيا السابقة",
+              "id": "يوغوسلافيا_تفكك_التسعينيات",
+              "tooltip": "تفكك يوغوسلافيا (توضيحي)",
+              "type": "طريق"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "انهيار الاتحادات الاشتراكية",
+        "whatchanged": [
+          "تشكلت العديد من الدول الجديدة"
+        ],
+        "why": [
+          "تفكك الاتحاد السوفييتي ويوغوسلافيا"
+        ]
+      },
+      {
+        "decade": "2000-2025",
+        "examples": [
+          "جنوب السودان (2011)"
+        ],
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-2025.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "new_state",
+              "d": "م 1140720 لتر 1165718 لتر 1170740 لتر 1145742 ض",
+              "featurename": "جنوب السودان",
+              "id": "جنوب_السودان_2011",
+              "tooltip": "استقلال جنوب السودان (توضيحي)",
+              "type": "طريق"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "استقرار الحدود الحديثة",
+        "whatchanged": [
+          "دول جديدة نادرة",
+          "الحدود لم تتغير إلى حد كبير"
+        ],
+        "why": [
+          "القانون الدولي",
+          "العولمة",
+          "الردع"
+        ]
+      }
+    ],
+    "historic_decades": "العقود التاريخية",
+    "legend": {
+      "aria": {
+        "title": "تراكب العقد من التغييرات الحدودية",
+        "desc": "تشير المناطق الملونة إلى المناطق المتأثرة بالتحولات الحدودية في العقد المحدد."
+      },
+      "changetypes": [
+        {
+          "color": "#1f77b4",
+          "key": "new_state",
+          "label": "الدولة الجديدة"
+        },
+        {
+          "color": "#ff7f0e",
+          "key": "تقسيم",
+          "label": "التقسيم / الانقسام"
+        },
+        {
+          "color": "#2ca02c",
+          "key": "الضم",
+          "label": "الضم/الاندماج"
+        },
+        {
+          "color": "#9467BD",
+          "key": "تفويض",
+          "label": "منطقة الانتداب/الوصاية"
+        },
+        {
+          "color": "#d62728",
+          "key": "الحل",
+          "label": "حل/تفكك الاتحاد"
+        },
+        {
+          "color": "#8c564ب",
+          "key": "Status_change",
+          "label": "تغيير الحالة/الاسم"
+        },
+        {
+          "color": "#e377c2",
+          "key": "ينازع",
+          "label": "المتنازع عليها / غير المستقرة"
+        }
+      ],
+      "fillopacity": 0.35,
+      "projection": {
+        "id": "الأرض المتساوية",
+        "name": "الأرض المتساوية",
+        "notes": "استخدم نفس الإسقاط لتراكبات PNG وSVG الأساسية."
+      },
+      "stroke": {
+        "color": "#111",
+        "opacity": 0.8,
+        "width": 0.75
+      },
+      "viewbox": "0 0 2048 1024"
+    },
+    "legend2": "أسطورة",
+    "periods_transfor": "فترات التحول",
+    "test": [
+      "# الأساسية لتوليد المسار والإسقاطات:",
+      "npm i d3-geo d3-geo-projection topojson-client topojson-server topojson-simplify",
+      "# إذا كنت بحاجة إلى إعادة الإسقاط من GeoJSON غير WGS84 (اختياري):",
+      "npm i proj4 @mapbox/geojson-rewind"
+    ],
+    "what_changed": "ما الذي تغير:",
+    "why": "لماذا:",
+    "why_borders": "لماذا أصبحت الحدود مستقرة؟",
+    "whybordersbecamestable": {
+      "factors": [
+        {
+          "title": "القانون الدولي والأمم المتحدة",
+          "explanation": "ويحمي ميثاق الأمم المتحدة وقواعدها السلامة الإقليمية."
+        },
+        {
+          "title": "نهاية الإمبراطوريات الاستعمارية",
+          "explanation": "انتهت معظم عمليات إنهاء الاستعمار بحلول السبعينيات؛ وتم تجميد الحدود (uti possidetis juris)."
+        },
+        {
+          "title": "اكتمل انهيار الاتحادات الكبرى",
+          "explanation": "تم حل الاتحاد السوفييتي ويوغوسلافيا؛ ولم يبق أي كيانات مماثلة للتجزئة."
+        },
+        {
+          "title": "العولمة",
+          "explanation": "الترابط يقلل من فوائد الغزو."
+        },
+        {
+          "title": "الردع والعقوبات",
+          "explanation": "تكاليف تغيير الحدود مرتفعة."
+        },
+        {
+          "title": "إدارة المنازعات",
+          "explanation": "يتم التعامل مع الصراعات من خلال الحكم الذاتي/الصراعات المجمدة بدلاً من إعادة الرسم."
+        }
+      ],
+      "keytakeaway": "الحدود الحديثة صارمة من الناحية القانونية والسياسية حتى في حالة وجود نزاعات.",
+      "summary": "وبعد أواخر القرن العشرين، استقرت الحدود بسبب عوامل قانونية وسياسية واقتصادية وعوامل رادعة."
+    }
+  }
+}

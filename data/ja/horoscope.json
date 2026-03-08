@@ -1,0 +1,93 @@
+{
+  "horoscope": {
+    "title": "ホロスコープジェネレーター",
+    "meta": {
+      "title": "ホロスコープジェネレーター",
+      "canonical": "https://sanatanadharmam.in/horoscope",
+      "description": "サナータナ ダルマのホロスコープ — サナータナ ダルマを探る: ヒンドゥー教の永遠の原則、ヴェーダの伝統、精神的実践、聖典などの経典からの知恵...",
+      "keywords": [
+        "astrology",
+        "daily horoscope",
+        "horoscope",
+        "horoscope analysis",
+        "horoscope aspects",
+        "horoscope career",
+        "horoscope compatibility",
+        "horoscope eclipses",
+        "horoscope elements",
+        "horoscope finance",
+        "horoscope forecast",
+        "horoscope generator",
+        "horoscope guidance",
+        "horoscope health",
+        "horoscope houses",
+        "horoscope insights",
+        "horoscope interpretation",
+        "horoscope love",
+        "horoscope lunar phases",
+        "horoscope modalities",
+        "horoscope natal chart",
+        "horoscope personality",
+        "horoscope prediction",
+        "horoscope progressions",
+        "horoscope reading",
+        "horoscope retrogrades",
+        "horoscope solar return",
+        "horoscope symbolism",
+        "horoscope traits",
+        "horoscope transits",
+        "horoscope trends",
+        "horoscope vedic astrology",
+        "monthly horoscope",
+        "natal chart",
+        "vedic astrology",
+        "weekly horoscope",
+        "yearly horoscope",
+        "zodiac signs"
+      ],
+      "ogimage": "images/og/home.png",
+      "url": "https://sanatanadharmam.in/horoscope"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "組織",
+        "contactpoint": {
+          "@type": "連絡先",
+          "areaserved": "世界中",
+          "availablelanguage": [
+            "ああ",
+            "ドイツ語",
+            "英語",
+            "スペイン語",
+            "フランセ",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "オランダ",
+            "ポルトガル語",
+            "Русский",
+            "తెలుగు",
+            "ああ",
+            "中文 (简体)"
+          ],
+          "contacttype": "カスタマーサポート",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sanatanadharmam.in について",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "birthdate": "生年月日",
+    "errorlabel": "エラー:",
+    "generate": "生成する",
+    "luckynumber": "ラッキーナンバー: {num} · 期間: {periodLabel}",
+    "namelabel": "名前 (オプション)",
+    "period": "期間",
+    "periodday": "日",
+    "periodmonth": "月",
+    "periodweek": "週"
+  }
+}

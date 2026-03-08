@@ -1,0 +1,536 @@
+{
+  "world_transformation": {
+    "meta": {
+      "title": "地球は数十年で変化する - Sanātana Dharma - 永遠の生き方",
+      "canonical": "https://sanatanadharmam.in/world-transformation",
+      "description": "地球は数十年ごとに変化します - Sanātana Dharma — Sanātana Dharma を探索してください: ヒンドゥー教、ヴェーダの伝統、精神的実践、聖典などの経典からの知恵の永遠の原則。",
+      "keywords": [
+        "20th century history",
+        "21st century history",
+        "Border changes",
+        "Cold War influence",
+        "Decadal transformations",
+        "Decolonization effects",
+        "Earth changes",
+        "Educational resources on history",
+        "Geopolitical history",
+        "Geopolitical shifts",
+        "Global events timeline",
+        "Global history overview",
+        "Globalization impact on borders",
+        "Historical border changes",
+        "Historical cartography",
+        "Historical events impact",
+        "Historical geography",
+        "Historical map accessibility",
+        "Historical map accuracy",
+        "Historical map analysis",
+        "Historical map best practices",
+        "Historical map bias",
+        "Historical map case studies",
+        "Historical map challenges",
+        "Historical map collaboration",
+        "Historical map community",
+        "Historical map creation tools",
+        "Historical map data sources",
+        "Historical map design",
+        "Historical map diversity",
+        "Historical map education",
+        "Historical map engagement",
+        "Historical map ethics",
+        "Historical map examples",
+        "Historical map features",
+        "Historical map feedback",
+        "Historical map future directions",
+        "Historical map impact",
+        "Historical map improvement",
+        "Historical map inclusivity",
+        "Historical map innovation",
+        "Historical map interactivity",
+        "Historical map interpretation",
+        "Historical map legends",
+        "Historical map outreach",
+        "Historical map overlays",
+        "Historical map projections",
+        "Historical map relevance",
+        "Historical map representation",
+        "Historical map significance",
+        "Historical map storytelling",
+        "Historical map sustainability",
+        "Historical map technology",
+        "Historical map visualizations",
+        "Historical maps",
+        "Historical timelines",
+        "Interactive world maps",
+        "International relations evolution",
+        "Modern geopolitical trends",
+        "Post-Cold War changes",
+        "World transformation",
+        "World wars impact"
+      ],
+      "ogimage": "images/og/earth_changes_by_decade.json.png",
+      "url": "https://sanatanadharmam.in/world-transformation"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "組織",
+        "contactpoint": {
+          "@type": "連絡先",
+          "areaserved": "世界中",
+          "availablelanguage": [
+            "ああ",
+            "ドイツ語",
+            "英語",
+            "スペイン語",
+            "フランセ",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "オランダ",
+            "ポルトガル語",
+            "Русский",
+            "తెలుగు",
+            "ああ",
+            "中文 (简体)"
+          ],
+          "contacttype": "カスタマーサポート",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sanatanadharmam.in について",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "decades": [
+      {
+        "decade": "1900 ～ 1909 年",
+        "map": {
+          "interactivemap": "https://www.histchart.com",
+          "staticmap": "/maps/world-1900.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "委任する",
+              "d": "M 820 710 L 860 690 L 890 730 L 865 760 Z",
+              "featurename": "植民地再編（アフリカ、例）",
+              "id": "afr_mandates_placeholder",
+              "notes": "GIS から派生した実際のポリゴンに置き換えます。",
+              "tooltip": "正式に定められた植民地の保護国と委任統治（例示）",
+              "type": "パス"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "植民地時代の拡大",
+        "whatchanged": [
+          "植民地の国境が拡大されました",
+          "独立した新しい国家はほとんどない"
+        ],
+        "why": [
+          "ヨーロッパ帝国主義"
+        ]
+      },
+      {
+        "decade": "1910 ～ 1919 年",
+        "examples": [
+          "ポーランドが再創造されました",
+          "分割されたオスマン帝国の領土"
+        ],
+        "map": {
+          "interactivemap": "https://www.histchart.com",
+          "staticmap": "/maps/world-1918.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "新しい状態",
+              "d": "M 1050 360 L 1100 355 L 1125 380 L 1080 395 Z",
+              "featurename": "ポーランド (再設立)",
+              "id": "ヨーロッパ_ポーランド_1918",
+              "notes": "最終的には正確な形状を使用してください。",
+              "tooltip": "第一次世界大戦後にポーランドが再建された（例示範囲）",
+              "type": "パス"
+            },
+            {
+              "changetype": "委任する",
+              "d": "M 1205 455 L 1260 470 L 1245 505 L 1198 495 Z",
+              "featurename": "オスマン帝国のパーティション (選択された委任)",
+              "id": "私_パーティション_1919",
+              "tooltip": "委任統治下に置かれたオスマン帝国のアラブ諸州（例示）",
+              "type": "パス"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "第一次世界大戦の描き直し",
+        "whatchanged": [
+          "帝国の崩壊",
+          "ヨーロッパの新しい国家"
+        ],
+        "why": [
+          "第一次世界大戦",
+          "条約和解"
+        ]
+      },
+      {
+        "decade": "1920 ～ 1929 年",
+        "map": {
+          "interactivemap": "https://www.histchart.com",
+          "staticmap": "/maps/world-1925.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "ステータス変更",
+              "d": "M 900 720 L 960 710 L 980 750 L 920 770 Z",
+              "featurename": "固定植民地線 (アフリカ、例)",
+              "id": "アフリカ線_1920年代",
+              "tooltip": "正式に定められた植民地国境（例示）",
+              "type": "パス"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "委任制度",
+        "whatchanged": [
+          "国境の正式化",
+          "帝国に代わる委任統治"
+        ],
+        "why": [
+          "国際連盟の任務"
+        ]
+      },
+      {
+        "decade": "1930 ～ 1939 年",
+        "examples": [
+          "ドイツの拡張",
+          "日本での展開"
+        ],
+        "map": {
+          "interactivemap": "https://www.histchart.com",
+          "staticmap": "/maps/world-1939.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "併合",
+              "d": "M 1040 420 L 1065 418 L 1075 430 L 1050 435 Z",
+              "featurename": "オーストリアからドイツへ (Anschluss)",
+              "id": "ヨーロッパ_アンシュルス_1938",
+              "tooltip": "ドイツに併合されたオーストリア（例示）",
+              "type": "パス"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "積極的な拡大",
+        "whatchanged": [
+          "力によって変えられた国境"
+        ],
+        "why": [
+          "ファシズムの台頭",
+          "第二次世界大戦前の軍事化"
+        ]
+      },
+      {
+        "decade": "1940 ～ 1949 年",
+        "examples": [
+          "ドイツ分割",
+          "韓国が分断される",
+          "インド・パキスタン分割"
+        ],
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1947.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "パーティション",
+              "d": "M 1325 565 L 1385 565 L 1390 600 L 1335 600 Z",
+              "featurename": "英領インドの分割",
+              "id": "南アジア_パーティション_1947",
+              "tooltip": "インドとパキスタンを作成するパーティション (例)",
+              "type": "パス"
+            },
+            {
+              "changetype": "パーティション",
+              "d": "M 1545 470 L 1560 465 L 1568 478 L 1550 485 Z",
+              "featurename": "韓国の分断",
+              "id": "韓国_部門_1945",
+              "tooltip": "〜38度線で分断された韓国（例示）",
+              "type": "パス"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "第二次世界大戦の描き直し",
+        "whatchanged": [
+          "大規模な境界変更",
+          "パーティション"
+        ],
+        "why": [
+          "第二次世界大戦の結果",
+          "冷戦開始"
+        ]
+      },
+      {
+        "decade": "1950 ～ 1959 年",
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1955.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "新しい状態",
+              "d": "M 1060 640 L 1160 635 L 1165 670 L 1065 675 Z",
+              "featurename": "北アフリカの独立（例）",
+              "id": "北アフリカ_1950年代",
+              "tooltip": "独立運動は成功する（例）",
+              "type": "パス"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "早期の非植民地化",
+        "whatchanged": [
+          "アジアとアフリカ諸国の台頭"
+        ],
+        "why": [
+          "独立運動"
+        ]
+      },
+      {
+        "decade": "1960 ～ 1969 年",
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1965.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "新しい状態",
+              "d": "M 880 720 L 1000 700 L 1005 790 L 900 800 Z",
+              "featurename": "アフリカ独立の波",
+              "id": "アフリカ_ウェーブ_1960年代",
+              "tooltip": "アフリカ全土に複数の新しい国家（例）",
+              "type": "パス"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "アフリカ独立の波",
+        "whatchanged": [
+          "数十の新しい国"
+        ],
+        "why": [
+          "急速な脱植民地化"
+        ]
+      },
+      {
+        "decade": "1970 ～ 1989 年",
+        "examples": [
+          "バングラデシュ独立 (1971)",
+          "ベトナム統一 (1976)"
+        ],
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1980.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "新しい状態",
+              "d": "M 1395 590 L 1410 592 L 1415 605 L 1398 607 Z",
+              "featurename": "バングラデシュ",
+              "id": "バングラデシュ_1971",
+              "tooltip": "バングラデシュ独立（イメージ）",
+              "type": "パス"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "冷戦時代の安定",
+        "whatchanged": [
+          "正式な境界変更はほとんどない"
+        ],
+        "why": [
+          "パワーバランスと抑止力"
+        ]
+      },
+      {
+        "decade": "1990 ～ 1999 年",
+        "examples": [
+          "ソ連崩壊後の 15 か国",
+          "バルカン半島の再描画"
+        ],
+        "map": {
+          "interactivemap": "https://www.histchart.com",
+          "staticmap": "/maps/world-1995.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "解散",
+              "d": "M 1180 260 L 1500 260 L 1500 420 L 1180 420 Z",
+              "featurename": "ソ連崩壊後の国家",
+              "id": "ussr_breakup_1991",
+              "tooltip": "ソ連の解体 (境界ボックスの例)",
+              "type": "パス"
+            },
+            {
+              "changetype": "解散",
+              "d": "M 1120 420 L 1160 420 L 1170 450 L 1125 455 Z",
+              "featurename": "旧ユーゴスラビア",
+              "id": "ユーゴスラビア_崩壊_1990年代",
+              "tooltip": "ユーゴスラビア崩壊（例示）",
+              "type": "パス"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "社会主義連邦の崩壊",
+        "whatchanged": [
+          "多くの新しい国が形成されました"
+        ],
+        "why": [
+          "ソ連とユーゴスラビアの解体"
+        ]
+      },
+      {
+        "decade": "2000 ～ 2025 年",
+        "examples": [
+          "南スーダン (2011)"
+        ],
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-2025.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "新しい状態",
+              "d": "M 1140 720 L 1165 718 L 1170 740 L 1145 742 Z",
+              "featurename": "南スーダン",
+              "id": "南スーダン_2011",
+              "tooltip": "南スーダン独立（イメージ）",
+              "type": "パス"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "最新の国境安定性",
+        "whatchanged": [
+          "珍しい新しい国",
+          "国境はほとんど変わっていない"
+        ],
+        "why": [
+          "国際法",
+          "グローバリゼーション",
+          "抑止力"
+        ]
+      }
+    ],
+    "historic_decades": "歴史の数十年",
+    "legend": {
+      "aria": {
+        "title": "10年間の境界変更のオーバーレイ",
+        "desc": "色付きの領域は、選択した 10 年間に境界変換の影響を受けた地域を示します。"
+      },
+      "changetypes": [
+        {
+          "color": "#1f77b4",
+          "key": "新しい状態",
+          "label": "新しい状態"
+        },
+        {
+          "color": "#ff7f0e",
+          "key": "パーティション",
+          "label": "パーティション/分割"
+        },
+        {
+          "color": "#2ca02c",
+          "key": "併合",
+          "label": "併合・合併"
+        },
+        {
+          "color": "#9467bd",
+          "key": "委任する",
+          "label": "委任/信託地域"
+        },
+        {
+          "color": "#d62728",
+          "key": "解散",
+          "label": "解散・連盟解散"
+        },
+        {
+          "color": "#8c564b",
+          "key": "ステータス変更",
+          "label": "ステータス/名前の変更"
+        },
+        {
+          "color": "#e377c2",
+          "key": "論争",
+          "label": "係争中/未解決"
+        }
+      ],
+      "fillopacity": 0.35,
+      "projection": {
+        "id": "平等な地球",
+        "name": "イコールアース",
+        "notes": "ベース PNG および SVG オーバーレイに同じ投影法を使用します。"
+      },
+      "stroke": {
+        "color": "#111",
+        "opacity": 0.8,
+        "width": 0.75
+      },
+      "viewbox": "0 0 2048 1024"
+    },
+    "legend2": "凡例",
+    "periods_transfor": "変革期",
+    "test": [
+      "# パス生成と投影のためのコア:",
+      "npm i d3-geo d3-geo-projection topojson-client topojson-server topojson-simplify",
+      "# 非 WGS84 GeoJSON からの再投影が必要な場合 (オプション):",
+      "npm i proj4 @mapbox/geojson-rewind"
+    ],
+    "what_changed": "何が変わったのか:",
+    "why": "理由:",
+    "why_borders": "なぜ国境が安定したのか",
+    "whybordersbecamestable": {
+      "factors": [
+        {
+          "title": "国際法と国連",
+          "explanation": "国連憲章と規範は領土保全を保護します。"
+        },
+        {
+          "title": "植民地帝国の終焉",
+          "explanation": "ほとんどの脱植民地化は 1970 年代までに終了しました。国境は凍結された（uti possidetis juris）。"
+        },
+        {
+          "title": "大連邦崩壊完了",
+          "explanation": "ソ連とユーゴスラビアは解体。同様のエンティティが断片化することはありませんでした。"
+        },
+        {
+          "title": "グローバリゼーション",
+          "explanation": "相互依存は征服の利益を減少させます。"
+        },
+        {
+          "title": "抑止と制裁",
+          "explanation": "国境変更には多額の費用がかかります。"
+        },
+        {
+          "title": "紛争管理",
+          "explanation": "競合は再描画ではなく自律性/凍結された競合によって処理されます。"
+        }
+      ],
+      "keytakeaway": "現代の国境は、紛争が存在する場合でも法的および政治的に厳格です。",
+      "summary": "20 世紀後半以降、法律、政治、経済、抑止力の要因により国境は安定しました。"
+    }
+  }
+}

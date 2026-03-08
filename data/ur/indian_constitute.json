@@ -1,0 +1,328 @@
+{
+  "indian_constition": {
+    "title": "ہندوستان کا آئین",
+    "meta": {
+      "title": "ہندوستان کا آئین: تاریخی ارتقا، مسودہ تیار کرنے کا عمل، اور آئینی فلسفہ",
+      "canonical": "https://sanatanadharmam.in/indian-constition",
+      "description": "آئین ہند، اس کے تاریخی پس منظر، مسودہ سازی کمیٹی کے ارکان، ڈاکٹر بی آر امبیڈکر کا کردار، ٹائم لائن، ساخت، غیر ملکی اثرات، اور تنقیدی جائزہ کا ایک جامع علمی تجزیہ۔",
+      "keywords": [
+        "Amendment Process of Indian Constitution",
+        "Constituent Assembly",
+        "Constitution of India",
+        "Constitutional Amendments Cases in India",
+        "Constitutional Amendments in India",
+        "Constitutional Democracy Cases in India",
+        "Constitutional Democracy in India",
+        "Constitutional Development in India",
+        "Constitutional Duties in India",
+        "Constitutional Framework of India",
+        "Constitutional Governance Cases in India",
+        "Constitutional Governance in India",
+        "Constitutional Interpretation Cases in India",
+        "Constitutional Interpretation in India",
+        "Constitutional Justice Cases in India",
+        "Constitutional Justice in India",
+        "Constitutional Law Cases in India",
+        "Constitutional Law in India",
+        "Constitutional Morality Cases in India",
+        "Constitutional Morality in India",
+        "Constitutional Philosophy of Indian Constitution",
+        "Constitutional Principles Cases in India",
+        "Constitutional Principles in India",
+        "Constitutional Provisions Cases in India",
+        "Constitutional Provisions in India",
+        "Constitutional Republic Cases in India",
+        "Constitutional Republic in India",
+        "Constitutional Rights Cases in India",
+        "Constitutional Rights in India",
+        "Constitutional Values Cases in India",
+        "Constitutional Values in India",
+        "Critical Analysis of Indian Constitution",
+        "Directive Principles of State Policy",
+        "Dr. B. R. Ambedkar",
+        "Drafting Committee",
+        "Emergency Provisions in Indian Constitution",
+        "Evolution of Indian Constitution",
+        "Federal Structure of India",
+        "Foreign Influences on Indian Constitution",
+        "Fundamental Rights in India",
+        "Historical Background of Indian Constitution",
+        "Indian Constitution",
+        "Indian Independence Movement",
+        "Indian Political History",
+        "Preamble of Indian Constitution",
+        "Strengths and Criticisms of Indian Constitution",
+        "Timeline of Indian Constitution"
+      ],
+      "ogimage": "images/og/indian_constitution.png",
+      "url": "https://sanatanadharmam.in/indian-constition"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "تنظیم",
+        "contactpoint": {
+          "@type": "رابطہ پوائنٹ",
+          "areaserved": "دنیا بھر میں",
+          "availablelanguage": [
+            "العربية",
+            "ڈوئچ",
+            "انگریزی",
+            "اسپینول",
+            "Français",
+            "ہندی",
+            "日本語",
+            "नेपाली",
+            "نیدرلینڈز",
+            "پرتگالی",
+            "روسی",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "کسٹمر سپورٹ",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sanatanadharmam.in کے بارے میں",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "overview": {
+      "adoptiondate": "26 نومبر 1949",
+      "amendmentsmoved": 2473,
+      "amendmentsproposed": 7653,
+      "enforcementdate": "26 جنوری 1950",
+      "originalarticles": 395,
+      "originalschedules": 8,
+      "totaldraftingtime": "2 سال، 11 ماہ، 18 دن",
+      "totalsessions": 11,
+      "totalsittings": 165
+    },
+    "sections": [
+      {
+        "title": "تاریخی پس منظر (1858-1946)",
+        "content": {
+          "cabinetmissionplan1946": "آئین ساز اسمبلی کی تشکیل کی تجویز دی اور آئینی مسودہ تیار کرنے کا فریم ورک رکھا۔",
+          "colonialcontext": "1857 کی بغاوت کے بعد گورنمنٹ آف انڈیا ایکٹ 1858 کے تحت گورننس ایسٹ انڈیا کمپنی سے برطانوی ولی عہد کو منتقل ہو گئی۔",
+          "globalinfluences": "امریکی آئین پرستی، برطانوی پارلیمانی روایات، آئرش ہدایتی اصول، اور جنگ کے بعد کے انسانی حقوق کے فلسفے نے ہندوستانی فریمرز کو متاثر کیا۔",
+          "governmentofindiaacts": {
+            "1858": "برطانوی ولی عہد کو اختیار منتقل کر دیا گیا۔",
+            "1909": "مورلے منٹو ریفارمز کے تحت الگ الگ انتخابی حلقے متعارف کرائے گئے۔",
+            "1919": "مونٹاگو-چیلمسفورڈ ریفارمز کے تحت ڈایارکی متعارف کرایا۔",
+            "1935": "صوبائی خود مختاری اور وفاقی ڈھانچے کا بلیو پرنٹ قائم کیا۔"
+          },
+          "nationalmovementinfluence": "انڈین نیشنل کانگریس، جس کی بنیاد 1885 میں رکھی گئی تھی، آہستہ آہستہ ایک اعتدال پسند اصلاحی ادارے سے ایک عوامی سیاسی تحریک میں تبدیل ہو گئی جو خود حکمرانی کا مطالبہ کرتی ہے۔",
+          "needforconstitution": "ہندوستان کو حقوق، وفاقی توازن اور سماجی انصاف کو یقینی بنانے کے لیے ایک خودمختار، جمہوری، ریپبلکن فریم ورک کی ضرورت تھی۔",
+          "regulatingact1773": "1773 کا ریگولیٹنگ ایکٹ برطانیہ کی طرف سے ایسٹ انڈیا کمپنی کی حکمرانی کو منظم کرنے کے لیے پہلی پارلیمانی مداخلت تھی۔ اس نے مرکزی انتظامیہ کو متعارف کرایا اور آئینی حکمرانی کی بنیاد رکھی۔"
+        },
+        "id": "تاریخی پس منظر"
+      },
+      {
+        "title": "آئین ساز اسمبلی کی تشکیل (1946)",
+        "details": {
+          "electionmethod": "کیبنٹ مشن پلان کے تحت صوبائی قانون ساز اسمبلیوں کے بالواسطہ انتخابات۔",
+          "firstmeeting": "9 دسمبر 1946",
+          "keyfigures": {
+            "constitutionaladvisor": "بی این راؤ",
+            "president": "ڈاکٹر راجندر پرساد",
+            "vicepresident": "ایچ سی مکھرجی"
+          },
+          "representationbreakdown": {
+            "britishindianprovinces": 292,
+            "chiefcommissionersprovinces": 4,
+            "princelystates": 93
+          },
+          "totalmembersafterpartition": 299,
+          "totalmembersinitial": 389
+        },
+        "id": "آئین ساز اسمبلی"
+      },
+      {
+        "title": "ڈرافٹنگ کمیٹی (تشکیل 29 اگست 1947)",
+        "chairman": "ڈاکٹر بی آر امبیڈکر",
+        "id": "ڈرافٹنگ کمیٹی",
+        "members": [
+          {
+            "biography": "قانون دان، ماہر اقتصادیات، سماجی مصلح، آئین کے پرنسپل معمار۔",
+            "contributions": [
+              "بنیادی حقوق کے ڈھانچے کا مسودہ تیار کیا۔",
+              "سماجی انصاف اور مساوات کی وکالت کی۔",
+              "مضبوط مرکز کے ساتھ تشکیل شدہ وفاقی نظام"
+            ],
+            "name": "ڈاکٹر بی آر امبیڈکر",
+            "politicalbackground": "افسردہ طبقات کے رہنما، آزاد ہندوستان کے وزیر قانون۔",
+            "specialization": "آئینی قانون، معاشیات، سماجی انصاف کا نظریہ"
+          },
+          {
+            "biography": "اسٹیٹس مین اور جموں و کشمیر کے سابق وزیر اعظم۔",
+            "contributions": [
+              "عدلیہ سے متعلق دفعات کا مسودہ تیار کیا۔",
+              "وفاقی ڈھانچے کے ڈیزائن میں تعاون کیا۔"
+            ],
+            "name": "این گوپالسوامی آیانگر",
+            "politicalbackground": "آئین ساز اسمبلی کے رکن اور کابینہ کے وزیر۔",
+            "specialization": "انتظامی قانون، وفاقی حکومت"
+          },
+          {
+            "biography": "ممتاز وکیل اور مدراس کے ایڈوکیٹ جنرل۔",
+            "contributions": [
+              "واضح قانونی مسودہ کی درستگی",
+              "بنیادی حقوق کی بحث میں حصہ لیا۔"
+            ],
+            "name": "علادی کرشنسوامی عیار",
+            "politicalbackground": "ماہر آئینی مشیر۔",
+            "specialization": "آئینی تشریح"
+          },
+          {
+            "biography": "وکیل، مصنف، اور قوم پرست رہنما۔",
+            "contributions": [
+              "بنیادی حقوق کا مسودہ",
+              "ہدایتی اصولوں کا مسودہ تیار کرنا"
+            ],
+            "name": "کے ایم منشی",
+            "politicalbackground": "کانگریس لیڈر اور ثقافتی قوم پرست۔",
+            "specialization": "شہری آزادی، ثقافتی حقوق"
+          },
+          {
+            "biography": "آسام کے سابق وزیر اعظم۔",
+            "contributions": [
+              "اقلیتی تحفظات پر بات چیت"
+            ],
+            "name": "محمد سعد اللہ",
+            "politicalbackground": "مسلم لیگ کا نمائندہ۔",
+            "specialization": "صوبائی خودمختاری"
+          },
+          {
+            "biography": "فقیہ؛ خرابی صحت کی وجہ سے استعفیٰ دے دیا۔",
+            "name": "بی ایل مٹر",
+            "replacement": "این مادھوا راؤ",
+            "specialization": "انتظامی قانون"
+          },
+          {
+            "biography": "معروف وکیل؛ ڈرافٹنگ کے دوران مر گیا.",
+            "name": "ڈی پی کھیتان",
+            "replacement": "ٹی ٹی کرشنماچاری",
+            "specialization": "تجارتی اور آئینی قانون"
+          }
+        ]
+      },
+      {
+        "title": "ڈاکٹر بی آر امبیڈکر کا کردار",
+        "analysis": {
+          "architecttitlejustification": "ڈرافٹنگ کے عمل کی قیادت کی، شق بہ شق کا دفاع کیا، متنوع کمیٹی کی رپورٹس کو مربوط کیا۔",
+          "constitutionalphilosophy": "سماجی جمہوریت آزادی، مساوات، بھائی چارے پر مبنی ہے۔",
+          "finalspeechsummary": "ہیرو پوجا کے خلاف خبردار کیا، آئینی اخلاقیات اور سماجی جمہوریت پر زور دیا۔",
+          "selectionreason": "قانونی اسکالرشپ، اقلیتی نمائندگی، اور آئینی مہارت کے لیے تسلیم شدہ۔",
+          "views": {
+            "federalism": "اتحاد کو برقرار رکھنے کے لیے مضبوط مرکز کے ساتھ ریاستوں کا اتحاد۔",
+            "fundamentalrights": "انفرادی وقار اور ریاست کی زیادتی سے تحفظ کے لیے ضروری ہے۔",
+            "minoritysafeguards": "سیاسی اور ثقافتی تحفظ کا طریقہ کار۔",
+            "parliamentarydemocracy": "مقننہ کے لیے جوابدہ ایگزیکٹو۔",
+            "socialjustice": "درج فہرست ذاتوں اور پسماندہ طبقات کے لیے مثبت کارروائی۔"
+          }
+        },
+        "id": "امبیڈکر کا کردار"
+      },
+      {
+        "title": "تاریخی ٹائم لائن",
+        "events": [
+          {
+            "event": "کیبنٹ مشن پلان کا اعلان۔",
+            "year": 1946
+          },
+          {
+            "date": "9 دسمبر 1946",
+            "event": "دستور ساز اسمبلی کا پہلا اجلاس۔"
+          },
+          {
+            "date": "15 اگست 1947",
+            "event": "ہندوستان نے آزادی حاصل کی۔"
+          },
+          {
+            "date": "29 اگست 1947",
+            "event": "ڈرافٹنگ کمیٹی تشکیل دی گئی۔"
+          },
+          {
+            "date": "فروری 1948",
+            "event": "آئین کا پہلا مسودہ شائع ہوا۔"
+          },
+          {
+            "date": "26 نومبر 1949",
+            "event": "آئین اپنایا۔"
+          },
+          {
+            "date": "24 جنوری 1950",
+            "event": "ارکان نے آئین پر دستخط کئے۔"
+          },
+          {
+            "date": "26 جنوری 1950",
+            "event": "آئین نافذ ہو گیا۔"
+          }
+        ],
+        "id": "ٹائم لائن"
+      },
+      {
+        "title": "آئین کا ڈھانچہ",
+        "components": {
+          "amendmentprocess": "آرٹیکل 368 لچکدار-سخت ترمیمی ماڈل فراہم کرتا ہے۔",
+          "directiveprinciples": "حصہ IV سماجی و اقتصادی حکمرانی کے اصول فراہم کرتا ہے۔",
+          "emergencyprovisions": "آرٹیکلز 352، 356، 360۔",
+          "federalstructure": "یونین، ریاست اور ہم آہنگی کی فہرستیں۔",
+          "fundamentalduties": "42ویں ترمیم (1976) کے ذریعے شامل کیا گیا۔",
+          "fundamentalrights": "حصہ III عدالتوں کے ذریعے قابل نفاذ شہری اور سیاسی حقوق کی ضمانت دیتا ہے۔",
+          "judiciary": "سپریم کورٹ کے ساتھ مربوط عدلیہ۔",
+          "parliamentarysystem": "ایگزیکٹو لوک سبھا کو جوابدہ ہے۔",
+          "preamble": "ہندوستان کو خودمختار، سوشلسٹ، سیکولر، جمہوری جمہوریہ قرار دیتا ہے جو انصاف، آزادی، مساوات، بھائی چارے کو یقینی بناتا ہے۔"
+        },
+        "id": "ساخت"
+      },
+      {
+        "title": "غیر ملکی اثرات",
+        "id": "غیر ملکی اثرات",
+        "influences": {
+          "australia": "کنکرنٹ لسٹ کا تصور۔",
+          "canada": "مضبوط مرکز کے ساتھ وفاقی ڈھانچہ۔",
+          "germany": "ہنگامی شرائط۔",
+          "ireland": "ہدایتی اصول۔",
+          "southafrica": "ترمیم کے طریقہ کار۔",
+          "uk": "پارلیمانی نظام، قانون کی حکمرانی۔",
+          "usa": "بنیادی حقوق، عدالتی جائزہ۔",
+          "ussr": "بنیادی فرائض (بعد میں اضافہ)۔"
+        }
+      },
+      {
+        "title": "تنقیدی تجزیہ",
+        "criticisms": [
+          "لمبائی اور پیچیدگی",
+          "طاقت کی مرکزیت",
+          "متواتر ترامیم"
+        ],
+        "evolution": "100 سے زیادہ ترامیم نے طرز حکمرانی کو نئی شکل دی ہے، سماجی و سیاسی چیلنجوں کا جواب دیتے ہوئے جمہوریت کو مضبوط کیا ہے۔",
+        "id": "تنقیدی تجزیہ",
+        "strengths": [
+          "جامع حقوق کا فریم ورک",
+          "سختی اور لچک کا توازن",
+          "آزاد عدلیہ",
+          "مضبوط وفاقی لیکن متحد ڈھانچہ"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "keywords": [
+      "veda",
+      "upanishad",
+      "kena",
+      "katha",
+      "mundaka",
+      "mandukya",
+      "purana",
+      "bhagavata",
+      "garuda",
+      "ramayana",
+      "mahabharata"
+    ]
+  }
+}

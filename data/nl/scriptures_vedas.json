@@ -1,0 +1,965 @@
+{
+  "scriptures_vedas": {
+    "title": "Oude hindoegeschriften beschouwden goddelijke openbaringen en vormden de basis van Sanatan Dharma.",
+    "meta": {
+      "title": "Schriften | Veda's - Sanātana Dharma - Ontdek Sanatan Dharma",
+      "canonical": "https://sanatanadharmam.in/scriptures/vedas",
+      "description": "Veda's - Rigveda, Yajurveda, Samaveda, Atharvaveda - Artikelen, vertalingen en beknopt commentaar op Veda's. Ontdek praktijken, geschiedenis en begeleiding...",
+      "keywords": [
+        "atharvaveda",
+        "dharma",
+        "explore",
+        "kena",
+        "rigveda",
+        "samaveda",
+        "sanātana",
+        "scriptures",
+        "upanishad",
+        "vedas",
+        "yajurveda"
+      ],
+      "ogimage": "/og/vedas.png",
+      "url": "https://sanatanadharmam.in/scriptures/vedas"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organisatie",
+        "contactpoint": {
+          "@type": "ContactPunt",
+          "areaserved": "Wereldwijd",
+          "availablelanguage": [
+            "العربية",
+            "Duits",
+            "Engels",
+            "Spaans",
+            "Frans",
+            "Ja",
+            "日本語",
+            "Ja",
+            "Nederlands",
+            "Portugees",
+            "Русский",
+            "Ja",
+            "Ja",
+            "中文 (简体)"
+          ],
+          "contacttype": "Klantenondersteuning",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Over Sanatanadharam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "all_108_upanishads": {
+      "description": "Volledige lijst van 108 Upanishads volgens de Muktika-traditie.",
+      "list": [
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Isja",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Isha Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Kena",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Kena Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Katha",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Katha Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Prashna",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Prashna Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Mundaka",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Mundaka Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Mandukya",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Mandukya Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Taittiriya",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Taittiriya Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Aitareya",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Aitareya Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Chandogya",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Chandogya Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Brihadaranyaka",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Brihadaranyaka Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Svetasvatara",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Svetasvatara Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Kaivalya",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Kaivalya Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Maitri",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Maitri Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Mahanarayana",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Mahanarayana Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Narasimha",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Narasimha Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Paramahamsa",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Paramahamsa Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Subala",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Subala Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Garuda",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Garuda Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Jabala",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Jabala Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Paingala",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Paingala Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Kaushitaki",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Kaushitaki Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Sankhya",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Sankhya Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Yoga",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Yoga Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Vajrasuchi",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Vajrasuchi Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Hamsa",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Hamsa Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Avyakta",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Avyakta Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Atma",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Atma Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Sariraka",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Sariraka Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Adhyatma",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Adhyatma Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Skanda",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Skanda Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Tripadvibhuti",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Tripadvibhuti Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Rudra",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Rudra Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Bhasma",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Bhasma Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Kalagni",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Kalagni Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Dakshinamurti",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Dakshinamurti Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Tejobindu",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Tejobindu Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Brahmabindu",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Brahmabindu Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Amritabindu",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Amritabindu Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Atmabodha",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Atmabodha Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Paramananda",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Paramananda Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Mandala",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Mandala Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Tarasara",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Tarasara Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Muktika",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Muktika Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Annapurna",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Annapurna Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Surya",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Surya Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Akshi",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Akshi Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Chakshus",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Chakshus Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranagnihotra",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranagnihotra Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Vidya",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Vidya Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Sariraka",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Sariraka Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-yoga",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Yoga Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Brahma",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Brahma Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Upanishad",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Upanishad Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Samhita",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Samhita Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Tattva",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Tattva Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Dhyana",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Dhyana Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-mantra",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Mantra Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Siddhi",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Siddhi Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Mukti",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Mukti Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Jnana",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Jnana Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Vidya-Upanishad",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Vidya-Upanishad Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Sariraka-Upanishad",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Sariraka-Upanishad Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Yoga-Upanishad",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Yoga-Upanishad Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Brahma-Upanishad",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Brahma-Upanishad Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Upanishad-2",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Upanishad-2 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Samhita-Upanishad",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Samhita-Upanishad Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Tattva-Upanishad",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Tattva-Upanishad Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Dhyana-Upanishad",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Dhyana-Upanishad Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Mantra-Upanishad",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Mantra-Upanishad Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Siddhi-Upanishad",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Siddhi-Upanishad Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Mukti-Upanishad",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Mukti-Upanishad Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Jnana-Upanishad",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Jnana-Upanishad Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Vidya-Upanishad-2",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Vidya-Upanishad-2 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Sariraka-Upanishad-2",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Sariraka-Upanishad-2 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Yoga-Upanishad-2",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Yoga-Upanishad-2 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Brahma-Upanishad-2",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Brahma-Upanishad-2 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Upanishad-3",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Upanishad-3 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Samhita-Upanishad-2",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Samhita-Upanishad-2 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Tattva-Upanishad-2",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Tattva-Upanishad-2 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Dhyana-Upanishad-2",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Dhyana-Upanishad-2 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Mantra-Upanishad-2",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Mantra-Upanishad-2 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Siddhi-Upanishad-2",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Siddhi-Upanishad-2 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Mukti-Upanishad-2",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Mukti-Upanishad-2 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Jnana-Upanishad-2",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Jnana-Upanishad-2 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Vidya-Upanishad-3",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Vidya-Upanishad-3 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Sariraka-Upanishad-3",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Sariraka-Upanishad-3 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Yoga-Upanishad-3",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Yoga-Upanishad-3 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Brahma-Upanishad-3",
+          "summary": "Korte samenvatting tijdelijke aanduiding voor Pranava-Brahma-Upanishad-3 Upanishad."
+        }
+      ],
+      "resource_links": [
+        {
+          "title": "Schriften.ru – Volledige tekstverzameling",
+          "url": "https://scriptures.ru/upanishad/"
+        },
+        {
+          "title": "Gita Society – 108 Upanishads PDF",
+          "url": "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+        },
+        {
+          "title": "Kaalchakra – Alles in één collectie",
+          "url": "https://kaalchakra.in/108-upanishads-all-in-one/"
+        },
+        {
+          "title": "Archive.org - Engelse vertaling",
+          "url": "https://archive.org/stream/1UpanishadsRigVeda/5Upanishads%20-%20Atharva%20Veda_djvu.txt"
+        }
+      ]
+    },
+    "authorship": {
+      "compiler": "Traditioneel toegeschreven aan Vyasa",
+      "nature": "Apauruṣeya (niet van menselijke oorsprong)",
+      "process": "Geopenbaard aan wijzen (rishi’s) tijdens meditatie"
+    },
+    "benefits": [
+      "Wekt spiritueel inzicht en zelfrealisatie",
+      "Biedt een basis voor ethisch leven en sociale harmonie",
+      "Inspireert wetenschappelijk, artistiek en filosofisch onderzoek",
+      "Verbindt individuen met de kosmische orde en het universele bewustzijn",
+      "Biedt tijdloze begeleiding voor meditatie, toewijding en juiste actie"
+    ],
+    "features": [
+      "Gecomponeerd in poëtische, symbolische taal met meerdere betekenislagen",
+      "Al duizenden jaren mondeling overgedragen met nauwkeurige memorisatietechnieken",
+      "Verdeeld in vier Veda's, elk met secties Samhita, Brahmana, Aranyaka en Upanishad",
+      "Integreert hymnen, rituelen, filosofie, kosmologie en praktische begeleiding",
+      "Benadrukt eenheid in verscheidenheid – één waarheid, uitgedrukt in vele vormen"
+    ],
+    "intro": "De Veda’s (van de Sanskrietwortel ‘vid’ – weten) vormen de oudste laag van de Zuid-Aziatische heilige literatuur. Gecomponeerd in het Vedisch Sanskriet en bewaard gebleven via conservatieve mondelinge overdracht, vormden ze rituele praktijken, sociale idealen en het vroege Indiase denken.",
+    "language": "Vedisch Sanskriet",
+    "origin": {
+      "meaning": "Veda betekent 'kennis' in het Sanskriet.",
+      "period": "1500 BCE – 500 BCE (Vedische periode)",
+      "transmission": "Eeuwenlang oraal bewaard voordat het in het Vedisch Sanskriet werd geschreven."
+    },
+    "purpose": "Om de fundamentele waarheden van het bestaan, de aard van de kosmos en het pad naar harmonie met het goddelijke te onthullen. De Veda's zijn bedoeld om het menselijk bewustzijn te verheffen, de innerlijke en uiterlijke orde (rita) te bevorderen en het streven naar waarheid (satya) en onsterfelijkheid (amrita) te inspireren.",
+    "significance": "Basis van de hindoeïstische filosofie, rituelen en spirituele praktijken. De Veda's worden vereerd als de eeuwige bron van kennis, die de mensheid in alle aspecten van het leven leidt: spiritueel, ethisch, sociaal en kosmisch. Het zijn niet zomaar teksten, maar levende wijsheid, bedoeld om gerealiseerd en ervaren te worden.",
+    "structure": {
+      "fourvedas": [
+        {
+          "content": "Hymnen waarin goden als Agni, Indra en Varuna worden geprezen",
+          "features": "Oudste Veda, 1028 hymnen",
+          "name": "Rigveda"
+        },
+        {
+          "content": "Melodieën en gezangen voor rituelen",
+          "features": "Muzikale bewerking van Rigvedische hymnen",
+          "name": "Samaveda"
+        },
+        {
+          "content": "Proza-mantra's voor offers en rituelen",
+          "features": "Gebruikt door priesters tijdens yajna's",
+          "name": "Yajurveda"
+        },
+        {
+          "content": "Hymnen, spreuken en bezweringen voor het dagelijks leven",
+          "features": "Praktische en filosofische aspecten",
+          "name": "Atharvaveda"
+        }
+      ],
+      "subdivisions": [
+        "Samhitas",
+        "Brahmana's",
+        "Aranyaka's",
+        "Upanishads"
+      ]
+    },
+    "themes": [
+      "Kosmologie",
+      "Ethiek",
+      "Rituelen",
+      "Filosofie"
+    ],
+    "timeline": [
+      {
+        "date": "1500 v.Chr. – 1200 v.Chr",
+        "description": "Samenstelling van Rigveda-hymnen; mondelinge overlevering begint.",
+        "phase": "Vroege Vedische periode"
+      },
+      {
+        "date": "1200 v.Chr. – 900 v.Chr",
+        "description": "Ontwikkeling van Samaveda en Yajurveda; rituele focus.",
+        "phase": "Midden-Vedische periode"
+      },
+      {
+        "date": "900 v.Chr. – 500 v.Chr",
+        "description": "Atharvaveda componeerde; Brahmana's en Aranyaka's geschreven.",
+        "phase": "Late Vedische periode"
+      },
+      {
+        "date": "800 v.Chr. – 200 v.Chr",
+        "description": "Filosofische verschuiving; Upanishads samengesteld met de nadruk op spirituele kennis.",
+        "phase": "Upanishadische leeftijd"
+      },
+      {
+        "date": "Rond 500 v.Chr",
+        "description": "Veda's en Upanishads gedocumenteerd in schriftelijke vorm.",
+        "phase": "Schriftelijke compilatie"
+      },
+      {
+        "date": "Traditioneel: Treta Yuga | Astronomische schatting: ~5114 v.Chr",
+        "description": "Zevende avatar van Vishnu geboren in Ayodhya; gevierd als Rama Navami.",
+        "phase": "Geboorte van Heer Rama"
+      },
+      {
+        "date": "Traditioneel: Dvapara Yuga | Astronomische schatting: ~3228 v.Chr",
+        "description": "Achtste avatar van Vishnu geboren in Mathura; gevierd als Janmashtami.",
+        "phase": "Geboorte van Heer Krishna"
+      },
+      {
+        "date": "Ongeveer. 6 v.Chr. – 4 v.Chr",
+        "description": "Traditioneel christelijk geloof plaatst de geboorte van Jezus vóór de dood van koning Herodes.",
+        "phase": "Geboorte van Jezus Christus"
+      },
+      {
+        "date": "Tijdloos (Anadi-Ananta)",
+        "description": "Shiva is eeuwig, voorbij geboorte en dood; manifesteert zich als kosmisch bewustzijn.",
+        "phase": "Heer Shiva"
+      }
+    ],
+    "unique_insights": "De Veda’s zijn uniek in hun universaliteit en diepgang. Ze behoren niet tot één sekte of tijdperk, maar gaan over de eeuwige zoektocht naar betekenis en transcendentie. Er wordt gezegd dat hun mantra's een intrinsieke spirituele kracht in zich dragen (shabda brahman), en hun wijsheid blijft zoekers, geleerden en samenlevingen over de hele wereld inspireren.",
+    "upanishads": {
+      "definition": "Filosofische teksten vormen het slotdeel van de Veda's en richten zich op spirituele kennis.",
+      "major_upanishads": [
+        {
+          "links": [
+            "https://www.gutenberg.org/ebooks/3283"
+          ],
+          "name": "Isja",
+          "summary": "Leert verzaking en eenheid van Brahman in alle wezens."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/"
+          ],
+          "name": "Kena",
+          "summary": "Onderzoekt de bron van perceptie en de uiteindelijke realiteit."
+        },
+        {
+          "links": [
+            "https://kaalchakra.in/108-upanishads-all-in-one/"
+          ],
+          "name": "Katha",
+          "summary": "Dialoog tussen Nachiketa en Yama over onsterfelijkheid."
+        },
+        {
+          "links": [
+            "https://archive.org/stream/1UpanishadsRigVeda/5Upanishads%20-%20Atharva%20Veda_djvu.txt"
+          ],
+          "name": "Mundaka",
+          "summary": "Hogere en lagere kennis; Brahman als hoogste werkelijkheid."
+        },
+        {
+          "links": [
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Mandukya",
+          "summary": "Analyse van Om en bewustzijnstoestanden."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/"
+          ],
+          "name": "Taittiriya",
+          "summary": "Lagen van het menselijk bestaan; gelukzaligheid van Brahman."
+        },
+        {
+          "links": [
+            "https://kaalchakra.in/108-upanishads-all-in-one/"
+          ],
+          "name": "Chandogya",
+          "summary": "Meditatie, ethiek en het concept van 'Tat Tvam Asi'."
+        },
+        {
+          "links": [
+            "https://archive.org/stream/1UpanishadsRigVeda/5Upanishads%20-%20Atharva%20Veda_djvu.txt"
+          ],
+          "name": "Brihadaranyaka",
+          "summary": "Zelfkennis; filosofische dialogen over Atman."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "philosophy_vastu": {
+    "meta": {
+      "title": "实践| Vastu — Sanatana Dharma - 探索 Sanatana Dharma",
+      "canonical": "https://sanatanadharmam.in/practices/vastu",
+      "description": "实践 — Vastu — Sanātana Dharma - 探索 Sanatan Dharma — 有关实践的文章、翻译和简明评论。探索实践、历史和指导原则……",
+      "keywords": [
+        "Sanātana dharma 对科学和灵性的看法",
+        "sanātana dharma 和自然之间有什么关系？",
+        "sanātana dharma 的核心价值是什么？",
+        "《薄伽梵歌》对道德困境和决策的指导",
+        "《薄伽梵歌》解释为什么祈祷不能立即起作用",
+        "上师-希夏传统在萨纳塔那佛法中的重要性是什么？",
+        "上帝考验每个人吗？达摩的解释",
+        "世界宗教",
+        "业力",
+        "业力、命运和自由意志之间的区别",
+        "业力是惩罚还是教训？克里希纳的真实答案",
+        "东方哲学",
+        "为什么坏人看似成功，而好人却苦苦挣扎？",
+        "为什么好人会因业力而受苦呢？",
+        "为什么要修习正法？",
+        "什么是 sanātana dharma？",
+        "伊蒂哈萨斯",
+        "使用 ChatGPT、Micro Soft 365 Copilot 使用 Vivi 编码进行构建",
+        "使用 github copilot 使用 vivi 编码进行构建",
+        "克里希纳对恐惧、焦虑、失败和压力有何评价？",
+        "全球灵性",
+        "关于应对生活中的挑战，罗摩怎么说？",
+        "内心的平静",
+        "冥想",
+        "冥想和瑜伽在 sanātana dharma 中的作用是什么？",
+        "前世的业力今生可以改变吗？",
+        "印度",
+        "印度教",
+        "印度教经文",
+        "印度文化",
+        "古老的智慧",
+        "吠陀传统",
+        "吠陀经",
+        "命运是固定的还是可以改变的？萨那塔那佛法说了什么",
+        "哲学",
+        "奥义书",
+        "如何在 sanātana dharma 中培养虔敬心 (bhakti)？",
+        "如何在日常生活中修行正法？",
+        "如何在现代世界过上正法的生活？",
+        "如何学习正法？",
+        "如何根据 sanātana dharma 克服痛苦并找到内心的平静？",
+        "如何根据 sanātana dharma 培养慈悲心和同理心？",
+        "如何根据 sanātana dharma 平衡物质和精神生活？",
+        "如何根据 sanātana dharma 找到人生的目的和意义？",
+        "巴拉特",
+        "往世书",
+        "德拉帕蒂关于韧性和毅力的智慧",
+        "摩诃婆罗多",
+        "摩诃婆罗多关于领导力和治理的教义",
+        "普遍意识",
+        "根据萨那塔那佛法，死后会发生什么？",
+        "正法",
+        "永恒的真理",
+        "法",
+        "灵性",
+        "瑜伽",
+        "神圣的文本",
+        "罗摩衍那",
+        "自我实现",
+        "萨纳塔纳佛法如何看待其他宗教和信仰？",
+        "萨那塔达曼",
+        "萨那塔那佛法",
+        "萨那塔那佛法中的仪式有何意义？",
+        "萨那塔那佛法中解脱的概念是什么？",
+        "萨那塔那佛法解释",
+        "萨那塔那法",
+        "萨那塔那达摩",
+        "薄伽梵歌",
+        "解脱"
+      ],
+      "ogimage": "/og/practices-vastu.png",
+      "url": "https://sanatanadharmam.in/practices/vastu"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "组织",
+        "contactpoint": {
+          "@type": "联络点",
+          "areaserved": "全世界",
+          "availablelanguage": [
+            "巴黎",
+            "德语",
+            "英语",
+            "西班牙语",
+            "法国人",
+            "हिन्दी",
+            "日本语",
+            "नेपाली",
+            "荷兰",
+            "葡萄牙语",
+            "俄罗斯",
+            "తెలుగు",
+            "阿鲁多",
+            "中文 (简体)"
+          ],
+          "contacttype": "客户支持",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "关于 Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "common_vastu_doshas": [
+      {
+        "dosha": "主入口朝向错误的方向",
+        "impact": "阻碍正能量，导致金融不稳定。",
+        "remedies": [
+          "在入口附近放置一个 Vastu Yantra。",
+          "在门上安装十字记号或唵符号。",
+          "使用明亮的灯光并保持入口清洁。"
+        ]
+      },
+      {
+        "dosha": "厨房在东北角",
+        "impact": "造成健康问题和家庭冲突。",
+        "remedies": [
+          "如果可能的话，将炉灶移至东南方。",
+          "在北墙上放一面镜子来反射炉子。",
+          "将水元素与火元素分开。"
+        ]
+      },
+      {
+        "dosha": "厕所在东北角",
+        "impact": "阻碍精神能量，造成精神压力。",
+        "remedies": [
+          "在厕所里放一个风水金字塔或水晶。",
+          "保持厕所门关闭并保持清洁。",
+          "使用浅色并安装排气扇。"
+        ]
+      },
+      {
+        "dosha": "卧室在东南角",
+        "impact": "导致攻击性和关系问题。",
+        "remedies": [
+          "如果可能的话，将卧室移至西南方向。",
+          "使用舒缓的颜色，如浅蓝色或绿色。",
+          "放置一盏 Vastu Yantra 或喜马拉雅盐灯。"
+        ]
+      },
+      {
+        "dosha": "楼梯在东北角",
+        "impact": "阻碍繁荣和精神成长。",
+        "remedies": [
+          "将楼梯涂成浅色。",
+          "在楼梯底部放置一个风水金字塔。",
+          "避免在楼梯下存放大量物品。"
+        ]
+      }
+    ],
+    "definition": "Vastu Doshas 是建筑物空间布局的不平衡或缺陷，扰乱自然能量流动，导致健康、财务和情感问题。",
+    "general_remedies": [
+      "保持空间干净整洁。",
+      "有策略地使用镜子来纠正能量流。",
+      "安装 Vastu Yantras、水晶和金字塔。",
+      "将植物放置在北方或东方以获得正能量。",
+      "确保适当的通风和自然光线。"
+    ],
+    "key_scriptural_references": [
+      {
+        "quote_summary": "描述方向不平衡的补救措施。",
+        "text": "真山又"
+      },
+      {
+        "quote_summary": "规定结构缺陷的纠正措施。",
+        "text": "马纳萨拉"
+      }
+    ],
+    "modern_relevance": {
+      "architecture": "应用于家居设计和室内规划。",
+      "corporate_spaces": "优化生产力和和谐。",
+      "psychology": "通过平衡的空间改善心理健康。"
+    },
+    "symbolism": [
+      "Yantras 代表宇宙能量排列。",
+      "颜色影响情绪和能量平衡。",
+      "植物净化空气并吸引积极的振动。"
+    ]
+  }
+}

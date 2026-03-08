@@ -1,0 +1,210 @@
+{
+  "stotrasmantras_ganesh": {
+    "title": "स्तोत्र एवं मंत्र | गणेश - सनातन धर्म - सनातन धर्म का अन्वेषण करें",
+    "meta": {
+      "title": "स्तोत्र एवं मंत्र | गणेश - सनातन धर्म - सनातन धर्म का अन्वेषण करें",
+      "canonical": "https://sanatanadharmam.in/stotrasmantras/ganesha",
+      "description": "स्तोत्रमंत्र - गणेश - सनातन धर्म - सनातन धर्म का अन्वेषण करें - स्तोत्रमंत्र पर लेख, अनुवाद और संक्षिप्त टिप्पणी। प्रथाओं, इतिहास और मार्गदर्शन का अन्वेषण करें...",
+      "keywords": [
+        "Ancient Wisdom Stotrasmantras Ganesha",
+        "Ayurveda Stotrasmantras Ganesha",
+        "Bhagavad Gita Stotrasmantras Ganesha",
+        "Deities Stotrasmantras Ganesha",
+        "Festivals and Traditions Stotrasmantras Ganesha",
+        "Hindu Mythology Stotrasmantras Ganesha",
+        "Hinduism Stotrasmantras Ganesha",
+        "Indian Culture Stotrasmantras Ganesha",
+        "Indian Festivals Stotrasmantras Ganesha",
+        "Indian Philosophy Stotrasmantras Ganesha",
+        "Mahabharata Stotrasmantras Ganesha",
+        "Mythology Stotrasmantras Ganesha",
+        "Philosophy Stotrasmantras Ganesha",
+        "Pilgrimage Stotrasmantras Ganesha",
+        "Puranas Stotrasmantras Ganesha",
+        "Ramayana Stotrasmantras Ganesha",
+        "Religious Knowledge Stotrasmantras Ganesha",
+        "Rituals Stotrasmantras Ganesha",
+        "Sanatanadharmam Stotrasmantras Ganesha",
+        "Sanskrit Stotrasmantras Ganesha",
+        "Spiritual Practices Stotrasmantras Ganesha",
+        "Spirituality Stotrasmantras Ganesha",
+        "Stotrasmantras Ganesha Overview",
+        "Temples Stotrasmantras Ganesha",
+        "Upanishads Stotrasmantras Ganesha",
+        "Vedas Stotrasmantras Ganesha",
+        "Yoga and Meditation Stotrasmantras Ganesha"
+      ],
+      "ogimage": "/og/stotrasmantras-ganesha.png",
+      "url": "https://sanatanadharmam.in/stotrasmantras/ganesha"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "संगठन",
+        "contactpoint": {
+          "@type": "संपर्क बिंदु",
+          "areaserved": "दुनिया भर में",
+          "availablelanguage": [
+            "धन्यवाद",
+            "deutsch",
+            "अंग्रेज़ी",
+            "Español",
+            "फ़्रांसीसी",
+            "हिन्दी",
+            "ठीक है",
+            "नेपाली",
+            "नीदरलैंड",
+            "पुर्तगाली",
+            "Русский",
+            "ठीक है",
+            "धन्यवाद",
+            "中文 (简体)"
+          ],
+          "contacttype": "ग्राहक सहेयता",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "सनातनधर्मम.इन के बारे में",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "ganesh_stotras": [
+      {
+        "author": "आदि शंकराचार्य",
+        "benefits": [
+          "बाधाओं को दूर करता है",
+          "बुद्धि और याददाश्त को बढ़ाता है",
+          "सकारात्मक ऊर्जा बढ़ती है",
+          "मन को शुद्ध करता है"
+        ],
+        "description": "आदि शंकराचार्य द्वारा रचित एक पंचरत्न भजन, जिसमें विघ्नहर्ता और बुद्धि के दाता के रूप में भगवान गणेश की स्तुति की गई है।",
+        "id": 1,
+        "key_excerpt": "मुदाकरत्तमोदकं सदाविमुक्तिसाधकम्।",
+        "language": "संस्कृत",
+        "name": "गणेश पंचरत्नम",
+        "structure": {
+          "theme": "भक्ति, बाधाओं का निवारण, दैवीय कृपा",
+          "verses": 5
+        },
+        "type": "स्तोत्र"
+      },
+      {
+        "benefits": [
+          "आध्यात्मिक शक्ति",
+          "नकारात्मकता से सुरक्षा",
+          "मन और वातावरण को शुद्ध करता है",
+          "सभी प्रयासों में सफलता प्रदान करता है"
+        ],
+        "description": "एक पवित्र उपनिषद पाठ जो गणेश को सर्वोच्च ब्रह्म, ओम की अभिव्यक्ति और ब्रह्मांडीय वास्तविकता घोषित करता है।",
+        "id": 2,
+        "key_excerpt": "त्वं एव प्रत्यक्षं तत्त्वम् असि।",
+        "language": "संस्कृत",
+        "name": "गणेश अथर्वशीर्ष",
+        "origin": "अथर्ववेद (गणपति उपनिषद)",
+        "sections": [
+          "गणपति को नमस्कार",
+          "ब्रह्म से तादात्म्य",
+          "ध्यान और बीज मंत्र",
+          "फल श्रुति"
+        ],
+        "type": "उपनिषदिक भजन"
+      },
+      {
+        "benefits": [
+          "हानि से सुरक्षा",
+          "डर को दूर करता है",
+          "नकारात्मक प्रभावों को नष्ट करता है",
+          "साहस बढ़ाता है"
+        ],
+        "coverage": {
+          "body_protection": "सिर, हृदय, अंग, इंद्रियाँ",
+          "closing": "सफलता के लिए आशीर्वाद"
+        },
+        "description": "शरीर और मन की रक्षा के लिए गणेश के विभिन्न रूपों का आह्वान करते हुए एक सुरक्षा कवच प्रार्थना।",
+        "id": 3,
+        "key_excerpt": "लम्बोदरः पातु मे हृदयं",
+        "language": "संस्कृत",
+        "name": "नारद पुराण से गणेश स्तोत्र (गणेश कवचम)",
+        "origin": "नारद पुराण",
+        "type": "कवच"
+      },
+      {
+        "benefits": [
+          "फोकस और स्पष्टता",
+          "आंतरिक बाधाओं को दूर करता है",
+          "भावनात्मक संतुलन में सुधार होता है"
+        ],
+        "description": "मूल गणेश मूल मंत्र 'ओम गं गणपतये नमः' के आसपास बनाया गया एक भजन, उनके ब्रह्मांडीय रूप की प्रशंसा करता है।",
+        "id": 4,
+        "key_excerpt": "ॐ गं गणपतये नमः",
+        "language": "संस्कृत",
+        "name": "गणेश मूल मंत्र स्तोत्र",
+        "origin": "तांत्रिक परंपरा",
+        "type": "स्तोत्र/मंत्र"
+      },
+      {
+        "benefits": [
+          "कार्य प्रारम्भ करने से पहले ही कठिनाइयों को दूर कर देता है",
+          "एकाग्रता बढ़ाता है",
+          "सफलता के लिए आशीर्वाद मांगते हैं"
+        ],
+        "description": "किसी भी कार्य या पूजा को शुरू करने से पहले उपयोग किए जाने वाले सबसे लोकप्रिय लघु स्तोत्रों में से एक।",
+        "id": 5,
+        "key_excerpt": "वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ।",
+        "language": "संस्कृत",
+        "name": "वक्रतुंड महाकाय स्तोत्र",
+        "origin": "पौराणिक परंपरा",
+        "type": "ध्यानम्/आह्वान",
+        "verses": 1
+      },
+      {
+        "benefits": [
+          "स्थान को शुद्ध करता है",
+          "शांति और स्पष्टता लाता है",
+          "शुभता का आह्वान करता है"
+        ],
+        "description": "एक लोकप्रिय गणेश ध्यान श्लोक, जिसमें बाधाओं को दूर करने वाले एक दांत वाले भगवान का वर्णन किया गया है।",
+        "id": 6,
+        "key_excerpt": "गजाननं भूतगणादि सेवितम्",
+        "language": "संस्कृत",
+        "name": "गजाननं भूत गणादि सेवितम्",
+        "origin": "अनुष्ठान आह्वान (देव पूजा)",
+        "type": "ध्यानम",
+        "verses": 1
+      },
+      {
+        "benefits": [
+          "भौतिक समृद्धि",
+          "लक्ष्यों की प्राप्ति",
+          "कानूनी और व्यावसायिक बाधाओं पर काबू पाता है"
+        ],
+        "description": "पूर्णता और सफलता प्रदान करने वाले गणेश के सिद्धि-विनायक रूप को समर्पित एक भजन।",
+        "id": 7,
+        "key_excerpt": "सिद्धि विनायकं वन्दे",
+        "language": "संस्कृत",
+        "name": "श्री सिद्धि विनायक स्तोत्रम्",
+        "origin": "पौराणिक परंपरा",
+        "sections": {
+          "theme": "सफलता, समृद्धि, दिव्य आशीर्वाद",
+          "verses": 16
+        },
+        "type": "स्तोत्र"
+      },
+      {
+        "benefits": [
+          "कर्म बाधाओं को दूर करता है",
+          "भक्ति को मजबूत करता है",
+          "पारिवारिक शांति लाता है"
+        ],
+        "description": "एक भजन जिसमें गणेश को शिव का प्रिय पुत्र बताया गया है जो तुरंत वरदान देता है।",
+        "id": 8,
+        "key_excerpt": "सुरासुरैर्यत् परिपूज्यमानम्",
+        "language": "संस्कृत",
+        "name": "रूद्र संहिता से गणपति स्तोत्रम्",
+        "origin": "शिव पुराण - रूद्र संहिता",
+        "type": "स्तोत्र"
+      }
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "donate": {
+    "title": "Поддержите Санатана Дхарму",
+    "meta": {
+      "title": "Пожертвовать | Обзор — Санатана Дхарма - Познакомьтесь с Санатана Дхармой",
+      "canonical": "https://sanatanadharmam.in/donate",
+      "description": "Пожертвовать — Поддержите Санатана Дхарму — Статьи, переводы и краткие комментарии к пожертвованию. Изучите практику, историю и руководящие принципы на...",
+      "keywords": [
+        "UPI donation for Sanātana Dharma",
+        "bank transfer for Sanātana Dharma donation",
+        "commercial status of Sanātana Dharma",
+        "contact information for Sanātana Dharma donations",
+        "contribute to Sanātana Dharma",
+        "current expenses of Sanātana Dharma",
+        "donate to Sanātana Dharma",
+        "donation options for Sanātana Dharma",
+        "donation security for Sanātana Dharma",
+        "donation usage for Sanātana Dharma",
+        "enabling creation of spiritual content for Sanātana Dharma",
+        "frequently asked questions about donating to Sanātana Dharma",
+        "fund Sanātana Dharma",
+        "how to donate to Sanātana Dharma",
+        "impact of donations on Sanātana Dharma",
+        "international donation for Sanātana Dharma",
+        "keeping Sanātana Dharma independent and non-commercial",
+        "non-commercial nature of Sanātana Dharma",
+        "one-time donation for Sanātana Dharma",
+        "preserving free access to Sanātana Dharma knowledge",
+        "recurring donation for Sanātana Dharma",
+        "support Sanātana Dharma",
+        "supporting translations and philosophical knowledge at Sanātana Dharma",
+        "supporting website hosting and maintenance for Sanātana Dharma",
+        "sustaining free access to ancient wisdom through donations",
+        "transparency of donations at Sanātana Dharma",
+        "why donate to Sanātana Dharma"
+      ],
+      "ogimage": "/og/donate.png",
+      "url": "https://sanatanadharmam.in/donate"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Организация",
+        "contactpoint": {
+          "@type": "Контактная точка",
+          "areaserved": "По всему миру",
+          "availablelanguage": [
+            "عربية",
+            "немецкий",
+            "Английский",
+            "испанский",
+            "Франсэ",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Нидерланды",
+            "Португальский",
+            "Русский",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Служба поддержки клиентов",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "О Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "donateoptions": {
+      "bank": {
+        "accountname": "В. Виджая Кумар",
+        "accountnumber": "32160808608",
+        "heading": "УПИ / Банковский перевод",
+        "ifsc": "СБИН0010677",
+        "upi": "809918075@ybl"
+      },
+      "onetime": {
+        "heading": "Единовременное пожертвование",
+        "note": "Сделайте безопасное единоразовое пожертвование через UPI или международные способы оплаты."
+      }
+    },
+    "expenses": {
+      "heading": "Прозрачность: текущие расходы",
+      "table": [
+        {
+          "cost": "3500 ₹",
+          "cycle": "3 года",
+          "name": "Домен и хостинг",
+          "provider": "Хостингер"
+        },
+        {
+          "cost": "Бесплатно",
+          "cycle": "Безлимитный",
+          "name": "Страницы GitHub",
+          "provider": "GitHub"
+        },
+        {
+          "cost": "Бесплатные планы",
+          "cycle": "Непрерывный",
+          "name": "Инструменты искусственного интеллекта (исследования)",
+          "provider": "Гугл/Майкрософт/Мета"
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Часто задаваемые вопросы",
+      "items": [
+        {
+          "a": "Да. Пожертвования обрабатываются через надежных платежных систем и прямыми банковскими переводами.",
+          "q": "Безопасно ли мое пожертвование?"
+        },
+        {
+          "a": "Ваш вклад поддерживает размещение, обслуживание и создание образовательного духовного контента.",
+          "q": "Как будет использовано мое пожертвование?"
+        },
+        {
+          "a": "Нет. Санатана Дхарма — это некоммерческая инициатива, ориентированная на знания.",
+          "q": "Это коммерческая организация?"
+        }
+      ]
+    },
+    "purpose": {
+      "heading": "Почему ваша поддержка важна",
+      "points": [
+        "Сохраняет свободный доступ к знаниям Санатана Дхармы.",
+        "Поддерживает хостинг, домен и обслуживание веб-сайтов.",
+        "Позволяет создавать высококачественный духовный контент.",
+        "Сохраняет платформу независимой и некоммерческой"
+      ]
+    },
+    "subtitle": "Ваше пожертвование обеспечивает бесплатный доступ к древней мудрости, Священным Писаниям, переводам и философским знаниям для искателей по всему миру."
+  }
+}

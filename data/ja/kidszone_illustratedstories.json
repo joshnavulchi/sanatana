@@ -1,0 +1,917 @@
+{
+  "kidszone_illustratedstories": {
+    "title": "イラスト付きストーリー",
+    "meta": {
+      "title": "キッズゾーン |イラスト付きストーリー — Sanātana Dharma - Sanātana Dharma を探索する",
+      "canonical": "https://sanatanadharmam.in/kidszone/illustratedstories",
+      "description": "KidsZone — イラスト付きストーリー — Sanātana Dharma - Sanātana Dharma の探索 — KidsZone に関する記事、翻訳、簡潔な解説。実践、歴史、指導について調べてみましょう...",
+      "keywords": [
+        "Animal Fables",
+        "Bedtime Stories for Kids",
+        "Children's Stories",
+        "Classic Indian Stories",
+        "Educational Stories",
+        "Folk Tales with Morals",
+        "Illustrated Stories",
+        "Indian Culture for Kids",
+        "Indian Folktales",
+        "Indian Heritage for Children",
+        "Jataka Tales",
+        "KidsZone",
+        "Moral Stories",
+        "Mythological Stories for Kids",
+        "Panchatantra",
+        "Short Stories for Children",
+        "Stories from Indian Tradition",
+        "Stories of Animals with Morals",
+        "Stories of Compassion and Empathy",
+        "Stories of Courage and Bravery",
+        "Stories of Courage and Wisdom",
+        "Stories of Creativity and Imagination",
+        "Stories of Cultural Values and Traditions",
+        "Stories of Everyday Heroes",
+        "Stories of Family and Relationships",
+        "Stories of Festivals and Celebrations",
+        "Stories of Friendship and Kindness",
+        "Stories of Generosity and Sharing",
+        "Stories of Good vs Evil",
+        "Stories of Honesty and Integrity",
+        "Stories of Humility and Gratitude",
+        "Stories of Kindness and Compassion",
+        "Stories of Kings and Queens",
+        "Stories of Mythological Characters",
+        "Stories of Nature and Environment",
+        "Stories of Perseverance and Hard Work",
+        "Stories of Problem-Solving and Critical Thinking",
+        "Stories of Respect and Responsibility",
+        "Stories of Sages and Saints",
+        "Stories of Self-Control and Discipline",
+        "Stories of Teamwork and Cooperation",
+        "Stories of Wisdom and Intelligence",
+        "Stories with Life Lessons"
+      ],
+      "ogimage": "/og/kidszone-illustratedstories.png",
+      "url": "https://sanatanadharmam.in/kidszone/illustratedstories"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "組織",
+        "contactpoint": {
+          "@type": "連絡先",
+          "areaserved": "世界中",
+          "availablelanguage": [
+            "ああ",
+            "ドイツ語",
+            "英語",
+            "スペイン語",
+            "フランセ",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "オランダ",
+            "ポルトガル語",
+            "Русский",
+            "తెలుగు",
+            "ああ",
+            "中文 (简体)"
+          ],
+          "contacttype": "カスタマーサポート",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sanatanadharmam.in について",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "description": "インドの伝統に基づいた短い絵付きの物語と道徳を厳選したコレクション。ストーリーをクリックすると、その概要と教訓が表示されます。",
+    "kids_indian_stories": [
+      {
+        "title": "賢いウサギとライオン",
+        "characters": [
+          "ウサギ",
+          "ライオン"
+        ],
+        "id": 1,
+        "imgalt": "The Clever Rabbit and the Lion",
+        "imgsrc": "/images/illustrate/thumbs/1.png",
+        "moral": "知恵は力より強い。",
+        "origin": "パンチャタントラ",
+        "summary": "小さなウサギは、猛々しいライオンをだまして、ライオンの反射を見て井戸に飛び込むように仕向けます。",
+        "themes": [
+          "勇気",
+          "インテリジェンス"
+        ]
+      },
+      {
+        "title": "猿とワニ",
+        "characters": [
+          "猿",
+          "ワニ"
+        ],
+        "id": 2,
+        "imgalt": "The Monkey and the Crocodile",
+        "imgsrc": "/images/illustrate/thumbs/2.png",
+        "moral": "心の存在が命を救います。",
+        "origin": "パンチャタントラ",
+        "summary": "心臓を食べようとするワニを騙して危険を回避するサル。",
+        "themes": [
+          "友情",
+          "欺瞞"
+        ]
+      },
+      {
+        "title": "渇いたカラス",
+        "characters": [
+          "カラス"
+        ],
+        "id": 3,
+        "imgalt": "The Thirsty Crow",
+        "imgsrc": "/images/illustrate/thumbs/3.png",
+        "moral": "意志あるところに道はあります。",
+        "origin": "インドの民話",
+        "summary": "のどが渇いたカラスは、鍋に小石を落として水位を上げ、それを飲みます。",
+        "themes": [
+          "忍耐力",
+          "創造性"
+        ]
+      },
+      {
+        "title": "愚かなライオンと賢いキツネ",
+        "characters": [
+          "ライオン",
+          "キツネ"
+        ],
+        "id": 4,
+        "imgalt": "The Foolish Lion and the Clever Fox",
+        "imgsrc": "/images/illustrate/thumbs/4.png",
+        "moral": "貪欲は破滅につながります。",
+        "origin": "パンチャタントラ",
+        "summary": "キツネがライオンをだまして人気のない洞窟に入ると、ライオンは永遠に閉じ込められてしまいます。",
+        "themes": [
+          "強欲",
+          "インテリジェンス"
+        ]
+      },
+      {
+        "title": "おしゃべりなカメ",
+        "characters": [
+          "カメ",
+          "白鳥"
+        ],
+        "id": 5,
+        "imgalt": "The Talkative Tortoise",
+        "imgsrc": "/images/illustrate/thumbs/5.png",
+        "moral": "あまり話しすぎるとトラブルにつながる可能性があります。",
+        "origin": "パンチャタントラ",
+        "summary": "2羽の鳥に抱えられて口を開けた亀が空から落ちてくる。",
+        "themes": [
+          "規律",
+          "ユーモア"
+        ]
+      },
+      {
+        "title": "テナリ・ラーマと盗賊たち",
+        "characters": [
+          "テナリ・ラーマ",
+          "泥棒"
+        ],
+        "id": 6,
+        "imgalt": "Tenali Rama and the Thieves",
+        "imgsrc": "/images/illustrate/thumbs/6.png",
+        "moral": "賢明な考え方があなたの家を救います。",
+        "origin": "テナリ・ラマンの物語",
+        "summary": "テナリ・ラーマは、井戸に石を落としながら一晩中井戸を掃除するふりをして泥棒をだまします。",
+        "themes": [
+          "知恵",
+          "戦略"
+        ]
+      },
+      {
+        "title": "ビルバルのキチディ物語",
+        "characters": [
+          "バーバル",
+          "アクバル"
+        ],
+        "id": 7,
+        "imgalt": "Birbal’s Khichdi Story",
+        "imgsrc": "/images/illustrate/thumbs/7.png",
+        "moral": "忍耐と心の安定が勝ちます。",
+        "origin": "アクバル・ビルバル",
+        "summary": "バーバルは、遠くからの熱について考えることは、遠くから食べ物を温めることと同じであることを証明しました。",
+        "themes": [
+          "正義",
+          "ロジック"
+        ]
+      },
+      {
+        "title": "ロイヤルマングース",
+        "characters": [
+          "マングース",
+          "赤ちゃん",
+          "母"
+        ],
+        "id": 8,
+        "imgalt": "The Loyal Mongoose",
+        "imgsrc": "/images/illustrate/thumbs/8.png",
+        "moral": "結論を急がないでください。",
+        "origin": "インドの民間伝承",
+        "summary": "マングースは赤ちゃんをヘビから救いますが、間違って罰を受けます。",
+        "themes": [
+          "忠誠心",
+          "信頼"
+        ]
+      },
+      {
+        "title": "クリシュナとバターポット",
+        "characters": [
+          "クリシュナ",
+          "ゴピス"
+        ],
+        "id": 9,
+        "imgalt": "Krishna and the Butter Pot",
+        "imgsrc": "/images/illustrate/thumbs/9.png",
+        "moral": "好奇心と遊び心は自然なものですが、誠実さが重要です。",
+        "origin": "クリシュナの子供時代の物語",
+        "summary": "赤ちゃんクリシュナは友達と一緒にバターを盗み、その無邪気さでみんなを魅了します。",
+        "themes": [
+          "いたずら",
+          "愛"
+        ]
+      },
+      {
+        "title": "スダマとクリシュナ",
+        "characters": [
+          "クリシュナ",
+          "須玉"
+        ],
+        "id": 10,
+        "imgalt": "Sudama and Krishna",
+        "imgsrc": "/images/illustrate/thumbs/10.png",
+        "moral": "本当の友情は無条件です。",
+        "origin": "バーガヴァタ プラーナ",
+        "summary": "哀れなスダマはささやかな贈り物を持ってクリシュナを訪ね、クリシュナは彼に愛と祝福を注ぎます。",
+        "themes": [
+          "友情",
+          "優しさ"
+        ]
+      },
+      {
+        "title": "象と仕立て屋",
+        "characters": [
+          "ゾウ",
+          "仕立て屋"
+        ],
+        "id": 11,
+        "imgalt": "The Elephant and the Tailor",
+        "imgsrc": "/images/illustrate/thumbs/11.png",
+        "moral": "優しさは優しさを返します。残酷さは残酷さを返します。",
+        "origin": "インドの民話",
+        "summary": "仕立屋が象を刺し、象は仕返しに彼に泥水をかけてしまう。",
+        "themes": [
+          "行動",
+          "結果"
+        ]
+      },
+      {
+        "title": "賢いオウム",
+        "characters": [
+          "オウム",
+          "キング"
+        ],
+        "id": 12,
+        "imgalt": "The Wise Parrot",
+        "imgsrc": "/images/illustrate/thumbs/12.png",
+        "moral": "良いアドバイスは命を救うことができます。",
+        "origin": "パンチャタントラ",
+        "summary": "オウムは王に王国の危険について警告し、彼の信頼できる友人になります。",
+        "themes": [
+          "知恵",
+          "責任"
+        ]
+      },
+      {
+        "title": "シュラヴァン・クマールの献身",
+        "characters": [
+          "シュラヴァン",
+          "両親",
+          "ダシャラタ王"
+        ],
+        "id": 13,
+        "imgalt": "Shravan Kumar’s Devotion",
+        "imgsrc": "/images/illustrate/thumbs/13.png",
+        "moral": "親に仕えることは尊いことです。",
+        "origin": "ラーマーヤナ",
+        "summary": "シュラヴァン クマールは盲目の両親を気遣い、献身の象徴となっています。",
+        "themes": [
+          "献身",
+          "家族"
+        ]
+      },
+      {
+        "title": "ガネーシャとマンゴー",
+        "characters": [
+          "ガネーシャ",
+          "カルティケヤ",
+          "シヴァ",
+          "パールヴァティー"
+        ],
+        "id": 14,
+        "imgalt": "Ganesha and the Mango",
+        "imgsrc": "/images/illustrate/thumbs/14.png",
+        "moral": "知恵はスピードよりも優れています。",
+        "origin": "プラーナ",
+        "summary": "ガネーシャは世界の代わりに両親を一周してコンテストに勝ちました。",
+        "themes": [
+          "家族",
+          "知恵"
+        ]
+      },
+      {
+        "title": "王様と雀",
+        "characters": [
+          "キング",
+          "スズメ"
+        ],
+        "id": 15,
+        "imgalt": "The King and the Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/15.png",
+        "moral": "小さな親切な行為は大切です。",
+        "origin": "インドの民話",
+        "summary": "スズメは王が謙虚さを学ぶのを助けます。",
+        "themes": [
+          "優しさ",
+          "謙虚さ"
+        ]
+      },
+      {
+        "title": "ゴールデン・スワン",
+        "characters": [
+          "ゴールデンスワン",
+          "母",
+          "娘たち"
+        ],
+        "id": 16,
+        "imgalt": "The Golden Swan",
+        "imgsrc": "/images/illustrate/thumbs/16.png",
+        "moral": "貪欲は幸福を破壊します。",
+        "origin": "ジャータカ物語",
+        "summary": "金の白鳥は貧しい家族に羽を与えますが、貪欲がすべてを台無しにします。",
+        "themes": [
+          "強欲",
+          "寛大さ"
+        ]
+      },
+      {
+        "title": "お腹を空かせたネズミ",
+        "characters": [
+          "マウス"
+        ],
+        "id": 17,
+        "imgalt": "The Hungry Mouse",
+        "imgsrc": "/images/illustrate/thumbs/17.png",
+        "moral": "自制心は重要です。",
+        "origin": "パンチャタントラ",
+        "summary": "ネズミが食べ過ぎた後、穴にはまってしまいます。",
+        "themes": [
+          "規律"
+        ]
+      },
+      {
+        "title": "ライオンとネズミ",
+        "characters": [
+          "ライオン",
+          "マウス"
+        ],
+        "id": 18,
+        "imgalt": "The Lion and the Mouse",
+        "imgsrc": "/images/illustrate/thumbs/18.png",
+        "moral": "小さな者でも力ある者を助けることができます。",
+        "origin": "インディアンの適応",
+        "summary": "ライオンはネズミを助け、ネズミは後でライオンを救います。",
+        "themes": [
+          "優しさ",
+          "友情"
+        ]
+      },
+      {
+        "title": "賢い大工",
+        "characters": [
+          "大工",
+          "村人"
+        ],
+        "id": 19,
+        "imgalt": "The Wise Carpenter",
+        "imgsrc": "/images/illustrate/thumbs/19.png",
+        "moral": "知恵は対立を解決します。",
+        "origin": "インディアン村の物語",
+        "summary": "大工は賢明な計画を立てて土地紛争を平和的に解決します。",
+        "themes": [
+          "平和",
+          "正義"
+        ]
+      },
+      {
+        "title": "マジックドラム",
+        "characters": [
+          "男の子",
+          "妖精"
+        ],
+        "id": 20,
+        "imgalt": "The Magic Drum",
+        "imgsrc": "/images/illustrate/thumbs/20.png",
+        "moral": "誠実さは報われます。",
+        "origin": "インドの民話",
+        "summary": "優しい少年が食べ物やおもちゃを生み出す魔法のドラムを受け取ります。",
+        "themes": [
+          "魔法",
+          "優しさ"
+        ]
+      },
+      {
+        "title": "勇敢な小さなスズメ",
+        "characters": [
+          "スズメ",
+          "ゾウ"
+        ],
+        "id": 21,
+        "imgalt": "The Brave Little Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/21.png",
+        "moral": "勇気は強者を倒すことができます。",
+        "origin": "インド",
+        "summary": "スズメが巨大な象から子供たちを救います。",
+        "themes": [
+          "勇気"
+        ]
+      },
+      {
+        "title": "アルジュナと鳥の目",
+        "characters": [
+          "アルジュナ",
+          "ドローナ"
+        ],
+        "id": 22,
+        "imgalt": "Arjuna and the Bird’s Eye",
+        "imgsrc": "/images/illustrate/thumbs/22.png",
+        "moral": "集中力が成功につながります。",
+        "origin": "マハーバーラタ",
+        "summary": "アルジュナは鳥の目だけに焦点を当てることで教祖に感銘を与えます。",
+        "themes": [
+          "規律",
+          "トレーニング"
+        ]
+      },
+      {
+        "title": "曲がった木",
+        "characters": [
+          "曲がった木",
+          "高い木"
+        ],
+        "id": 23,
+        "imgalt": "The Crooked Tree",
+        "imgsrc": "/images/illustrate/thumbs/23.png",
+        "moral": "ありのままの自分に満足してください。",
+        "origin": "インディアンの森の物語",
+        "summary": "曲がった木は、その形のおかげで木こりに耐えられます。",
+        "themes": [
+          "自尊心"
+        ]
+      },
+      {
+        "title": "魔法のポット",
+        "characters": [
+          "農民"
+        ],
+        "id": 24,
+        "imgalt": "The Magic Pot",
+        "imgsrc": "/images/illustrate/thumbs/24.png",
+        "moral": "良いものは良い人のもとにやって来ます。",
+        "origin": "インドの民間伝承",
+        "summary": "農夫は、中に入れたものを2倍にする壺を見つけました。",
+        "themes": [
+          "魔法",
+          "幸運を祈ります"
+        ]
+      },
+      {
+        "title": "優しい鹿",
+        "characters": [
+          "ディアキング",
+          "ドウ",
+          "人間の王"
+        ],
+        "id": 25,
+        "imgalt": "The Kind Deer",
+        "imgsrc": "/images/illustrate/thumbs/25.png",
+        "moral": "優しさは優しさを呼び起こします。",
+        "origin": "ジャータカ物語",
+        "summary": "鹿の王は雌鹿を救い、王の尊敬を集めます。",
+        "themes": [
+          "思いやり"
+        ]
+      },
+      {
+        "title": "空飛ぶ象",
+        "characters": [
+          "ゾウ",
+          "セージ"
+        ],
+        "id": 26,
+        "imgalt": "The Flying Elephant",
+        "imgsrc": "/images/illustrate/thumbs/26.png",
+        "moral": "謙虚であれ。",
+        "origin": "インディアンファンタジー",
+        "summary": "翼のあるゾウは、力を悪用して翼を失いました。",
+        "themes": [
+          "謙虚さ"
+        ]
+      },
+      {
+        "title": "知恵の壺",
+        "characters": [
+          "男の子",
+          "セージ"
+        ],
+        "id": 27,
+        "imgalt": "The Pot of Wisdom",
+        "imgsrc": "/images/illustrate/thumbs/27.png",
+        "moral": "知恵は共有することで成長します。",
+        "origin": "南インドの物語",
+        "summary": "少年は、誰も一人ですべての知恵を保持することはできないことを学びます。",
+        "themes": [
+          "学習"
+        ]
+      },
+      {
+        "title": "魔法の魚",
+        "characters": [
+          "漁師",
+          "マジックフィッシュ"
+        ],
+        "id": 28,
+        "imgalt": "The Magic Fish",
+        "imgsrc": "/images/illustrate/thumbs/28.png",
+        "moral": "感謝の気持ちは大切です。",
+        "origin": "インド洋の民話",
+        "summary": "漁師は、自由と引き換えに助けを提供する魔法の魚を捕まえます。",
+        "themes": [
+          "感謝の気持ち",
+          "魔法"
+        ]
+      },
+      {
+        "title": "ココナッツとアリ",
+        "characters": [
+          "アリ",
+          "ココナッツ"
+        ],
+        "id": 29,
+        "imgalt": "The Coconut and the Ant",
+        "imgsrc": "/images/illustrate/thumbs/29.png",
+        "moral": "どんなに小さな努力でも大切です。",
+        "origin": "村の物語",
+        "summary": "アリが力を合わせて、ココナッツが海にたどり着くのを助けます。",
+        "themes": [
+          "チームワーク"
+        ]
+      },
+      {
+        "title": "虎と木こり",
+        "characters": [
+          "タイガー",
+          "木こり"
+        ],
+        "id": 30,
+        "imgalt": "The Tiger and the Woodcutter",
+        "imgsrc": "/images/illustrate/thumbs/30.png",
+        "moral": "他の人を助ければ、あなたも助けられます。",
+        "origin": "インディアン・ジャングル・ストーリー",
+        "summary": "木こりは閉じ込められたトラを解放しますが、トラは驚くほど命を取り留めます。",
+        "themes": [
+          "思いやり",
+          "勇気"
+        ]
+      },
+      {
+        "title": "二匹の猫と猿",
+        "characters": [
+          "猫",
+          "猿"
+        ],
+        "id": 31,
+        "imgalt": "The Two Cats and the Monkey",
+        "imgsrc": "/images/illustrate/thumbs/31.png",
+        "moral": "他人に喧嘩を解決させないでください。",
+        "origin": "パンチャタントラ",
+        "summary": "猿は二匹の猫に公平に分けるふりをしながらパンを食べます。",
+        "themes": [
+          "正義",
+          "愚かさ"
+        ]
+      },
+      {
+        "title": "スズメと海",
+        "characters": [
+          "スズメ",
+          "海",
+          "ラーマ"
+        ],
+        "id": 32,
+        "imgalt": "The Sparrow and the Sea",
+        "imgsrc": "/images/illustrate/thumbs/32.png",
+        "moral": "決意は山をも動かす。",
+        "origin": "ラーマ物語",
+        "summary": "スズメが卵を奪うと海を脅かすと、ラーマ卿は感動します。",
+        "themes": [
+          "決意"
+        ]
+      },
+      {
+        "title": "タイガーを鳴らした少年",
+        "characters": [
+          "男の子",
+          "村人",
+          "タイガー"
+        ],
+        "id": 33,
+        "imgalt": "The Boy Who Cried Tiger",
+        "imgsrc": "/images/illustrate/thumbs/33.png",
+        "moral": "決して嘘をつかないでください。",
+        "origin": "インディアンの適応",
+        "summary": "少年は村人を騙すが、本当に虎が現れて苦しむ。",
+        "themes": [
+          "正直さ"
+        ]
+      },
+      {
+        "title": "魔法のガジュマルの木",
+        "characters": [
+          "木",
+          "旅行者"
+        ],
+        "id": 34,
+        "imgalt": "The Magic Banyan Tree",
+        "imgsrc": "/images/illustrate/thumbs/34.png",
+        "moral": "寛大さは幸運をもたらします。",
+        "origin": "民話",
+        "summary": "木は親切な旅人に実と日陰と金貨を与えます。",
+        "themes": [
+          "優しさ"
+        ]
+      },
+      {
+        "title": "好奇心旺盛な孔雀",
+        "characters": [
+          "孔雀",
+          "ナイチンゲール"
+        ],
+        "id": 35,
+        "imgalt": "The Curious Peacock",
+        "imgsrc": "/images/illustrate/thumbs/35.png",
+        "moral": "自分の強みに満足してください。",
+        "origin": "インドの動物物語",
+        "summary": "クジャクはナイチンゲールの声を求めますが、美しさには独自の魅力があることを学びます。",
+        "themes": [
+          "自己愛"
+        ]
+      },
+      {
+        "title": "賢い織り手",
+        "characters": [
+          "ウィーバー",
+          "ゴースト"
+        ],
+        "id": 36,
+        "imgalt": "The Clever Weaver",
+        "imgsrc": "/images/illustrate/thumbs/36.png",
+        "moral": "賢明な仕事が勝利をもたらします。",
+        "origin": "南インド",
+        "summary": "織物屋が幽霊をだまして金持ちになる。",
+        "themes": [
+          "勇気",
+          "知恵"
+        ]
+      },
+      {
+        "title": "勤勉の成果",
+        "characters": [
+          "兄弟"
+        ],
+        "id": 37,
+        "imgalt": "The Fruits of Hard Work",
+        "imgsrc": "/images/illustrate/thumbs/37.png",
+        "moral": "努力は必ず報われます。",
+        "origin": "インディアンビレッジ",
+        "summary": "二人の兄弟は、運よりも努力が重要であることを学びます。",
+        "themes": [
+          "ハードワーク"
+        ]
+      },
+      {
+        "title": "リトルドラム",
+        "characters": [
+          "男の子"
+        ],
+        "id": 38,
+        "imgalt": "The Little Drum",
+        "imgsrc": "/images/illustrate/thumbs/38.png",
+        "moral": "善行は増えます。",
+        "origin": "北インド",
+        "summary": "少年は、どこへ行っても幸せをもたらす太鼓をプレゼントされました。",
+        "themes": [
+          "優しさ"
+        ]
+      },
+      {
+        "title": "ロバとトラの皮",
+        "characters": [
+          "ロバ",
+          "農民"
+        ],
+        "id": 39,
+        "imgalt": "The Donkey and the Tiger Skin",
+        "imgsrc": "/images/illustrate/thumbs/39.png",
+        "moral": "他人のふりをするとトラブルが発生します。",
+        "origin": "パンチャタントラ",
+        "summary": "ロバは虎の皮をかぶっていますが、喧嘩ですべてを台無しにします。",
+        "themes": [
+          "アイデンティティ"
+        ]
+      },
+      {
+        "title": "隠された宝物",
+        "characters": [
+          "父",
+          "息子たち"
+        ],
+        "id": 40,
+        "imgalt": "The Hidden Treasure",
+        "imgsrc": "/images/illustrate/thumbs/40.png",
+        "moral": "仕事そのものが宝物です。",
+        "origin": "インディアン村の物語",
+        "summary": "父親は、畑に宝が眠っていると言って息子たちを騙して農業をさせます。",
+        "themes": [
+          "ハードワーク"
+        ]
+      },
+      {
+        "title": "勇敢なオウム",
+        "characters": [
+          "オウム",
+          "神"
+        ],
+        "id": 41,
+        "imgalt": "The Brave Parrot",
+        "imgsrc": "/images/illustrate/thumbs/41.png",
+        "moral": "勇気は他の人を助けます。",
+        "origin": "ジャータカ物語",
+        "summary": "オウムは燃え盛る森を救おうとして、神々にインスピレーションを与えます。",
+        "themes": [
+          "勇気"
+        ]
+      },
+      {
+        "title": "少年と太鼓",
+        "characters": [
+          "男の子"
+        ],
+        "id": 42,
+        "imgalt": "The Boy and the Drum",
+        "imgsrc": "/images/illustrate/thumbs/42.png",
+        "moral": "小さな贈り物が大きな違いを生むことがあります。",
+        "origin": "インドの民話",
+        "summary": "少年はドラムを使って幸せを広めます。",
+        "themes": [
+          "優しさ"
+        ]
+      },
+      {
+        "title": "ねずみの商人",
+        "characters": [
+          "商人"
+        ],
+        "id": 43,
+        "imgalt": "The Mouse Merchant",
+        "imgsrc": "/images/illustrate/thumbs/43.png",
+        "moral": "幸運は勇気を支持します。",
+        "origin": "パンチャタントラ",
+        "summary": "人は一匹のネズミから金持ちになります。",
+        "themes": [
+          "勇気"
+        ]
+      },
+      {
+        "title": "話す洞窟",
+        "characters": [
+          "ライオン",
+          "ジャッカル"
+        ],
+        "id": 44,
+        "imgalt": "The Talking Cave",
+        "imgsrc": "/images/illustrate/thumbs/44.png",
+        "moral": "考えすぎるとトラブルが発生します。",
+        "origin": "パンチャタントラ",
+        "summary": "ライオンは洞窟に隠れ、賢いジャッカルは危険を避けます。",
+        "themes": [
+          "注意"
+        ]
+      },
+      {
+        "title": "貪欲な理髪師",
+        "characters": [
+          "理容師"
+        ],
+        "id": 45,
+        "imgalt": "The Greedy Barber",
+        "imgsrc": "/images/illustrate/thumbs/45.png",
+        "moral": "貪欲は知恵を破壊します。",
+        "origin": "インド",
+        "summary": "理髪師は貪欲のために全財産を失います。",
+        "themes": [
+          "強欲"
+        ]
+      },
+      {
+        "title": "牛乳を注ぐ女の夢",
+        "characters": [
+          "ミルクメイド"
+        ],
+        "id": 46,
+        "imgalt": "The Milkmaid’s Dream",
+        "imgsrc": "/images/illustrate/thumbs/46.png",
+        "moral": "鶏が孵化する前に数を数えないでください。",
+        "origin": "インド",
+        "summary": "牛乳を注ぐ女は富を夢見てミルクをこぼしてしまう。",
+        "themes": [
+          "企画"
+        ]
+      },
+      {
+        "title": "魔法のスズメ",
+        "characters": [
+          "スズメ",
+          "農民"
+        ],
+        "id": 47,
+        "imgalt": "The Magical Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/47.png",
+        "moral": "助ければ報酬がもたらされる。",
+        "origin": "インディアンビレッジ",
+        "summary": "スズメは農家を助け、作物は魔法のように成長します。",
+        "themes": [
+          "魔法",
+          "優しさ"
+        ]
+      },
+      {
+        "title": "賢い年老いた象",
+        "characters": [
+          "ゾウ"
+        ],
+        "id": 48,
+        "imgalt": "The Wise Old Elephant",
+        "imgsrc": "/images/illustrate/thumbs/48.png",
+        "moral": "年齢は知恵をもたらします。",
+        "origin": "インディアンジャングル物語",
+        "summary": "干ばつの中、年老いたゾウが群れを安全な場所へ導く。",
+        "themes": [
+          "知恵"
+        ]
+      },
+      {
+        "title": "蓮とカエル",
+        "characters": [
+          "カエル",
+          "ロータス"
+        ],
+        "id": 49,
+        "imgalt": "The Lotus and the Frog",
+        "imgsrc": "/images/illustrate/thumbs/49.png",
+        "moral": "忍耐力は強力です。",
+        "origin": "インディアン・リバー・テイル",
+        "summary": "蓮は落ち着きのないカエルに速度を緩めるように教えます。",
+        "themes": [
+          "忍耐"
+        ]
+      },
+      {
+        "title": "お菓子を食べすぎた王様",
+        "characters": [
+          "キング",
+          "ロイヤルクック"
+        ],
+        "id": 50,
+        "imgalt": "The King Who Ate Too Many Sweets",
+        "imgsrc": "/images/illustrate/thumbs/50.png",
+        "moral": "節度は重要です。",
+        "origin": "インドの宮殿物語",
+        "summary": "王様は甘いものを食べ過ぎて、自分の欲求をコントロールする方法を学びます。",
+        "themes": [
+          "健康",
+          "規律"
+        ]
+      }
+    ]
+  }
+}

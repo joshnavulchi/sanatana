@@ -1,0 +1,125 @@
+{
+  "cookies-policy": {
+    "title": "Política de Cookies",
+    "meta": {
+      "title": "Política de Cookies | Biscoitos — Sanātana Dharma - Explore Sanatan Dharma",
+      "canonical": "https://sanatanadharmam.in/cookies-policy",
+      "description": "Política de Cookies — Sanātana Dharma - Explore Sanatan Dharma — Artigos, traduções e comentários concisos sobre Política de Cookies. Explore práticas, história e princípios orientadores em...",
+      "keywords": [
+        "Bhagavad Gita Inglês",
+        "Mahabharata",
+        "Ramayana",
+        "biscoitos",
+        "citações do Bhagavad Gita",
+        "dharma",
+        "livro bhagavad gita",
+        "o que é o Bhagavad Gita",
+        "política",
+        "puranas hindus",
+        "sanātana"
+      ],
+      "ogimage": "/og/privacy.png",
+      "url": "https://sanatanadharmam.in/cookies-policy"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organização",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Mundialmente",
+          "availablelanguage": [
+            "العربية",
+            "Alemão",
+            "Inglês",
+            "Espanhol",
+            "Francês",
+            "Adeus",
+            "日本語",
+            "Adeus",
+            "Holanda",
+            "Português",
+            "Russo",
+            "Mais",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Suporte ao Cliente",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sobre Sanatanadharm.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "changes": {
+      "title": "9. Mudanças nesta Política",
+      "text": "Poderemos atualizar esta Política de Privacidade periodicamente para refletir alterações em nossas práticas ou por outros motivos operacionais, legais ou regulatórios. Iremos notificá-lo sobre quaisquer alterações significativas atualizando a data da “Última Atualização” no topo desta política. O uso continuado do site após a publicação da Política de Privacidade revisada significa que você aceita e concorda com as alterações."
+    },
+    "children": {
+      "title": "8. Privacidade das Crianças",
+      "text": "Nosso site não é direcionado a crianças menores de 13 anos. Não coletamos intencionalmente informações pessoais de crianças. Se tomarmos conhecimento de que coletamos informações de uma criança menor de 13 anos, excluiremos imediatamente tais informações."
+    },
+    "contact": {
+      "title": "10. Contate-nos",
+      "closing": "Ao acessar e usar o Sanātana Dharma, você reconhece que leu, compreendeu e concorda em ficar vinculado a esta Política de Privacidade.",
+      "email": "contact@sanatanadharmam.in",
+      "emaillabel": "E-mail:",
+      "lead": "Se você tiver dúvidas sobre esta Política de Privacidade ou nossas práticas de privacidade, entre em contato conosco:",
+      "website": "https://sanatanadharm.in",
+      "websitelabel": "Site:"
+    },
+    "cookieslocalstorage": {
+      "title": "4. Cookies e armazenamento local",
+      "text": "Usamos o armazenamento local do navegador para lembrar a preferência de idioma selecionada. Esses dados são armazenados apenas no seu dispositivo e não são transmitidos aos nossos servidores. Você pode limpar esses dados a qualquer momento limpando o armazenamento local do seu navegador."
+    },
+    "howweuse": {
+      "title": "3. Como usamos suas informações",
+      "items": [
+        "Melhorando e personalizando a experiência do seu site",
+        "Lembrando sua preferência de idioma e configurações",
+        "Analisando o desempenho do site e o comportamento do usuário",
+        "Respondendo às suas perguntas e comentários",
+        "Cumprir as obrigações legais"
+      ],
+      "lead": "Utilizamos as informações coletadas para os seguintes fins:"
+    },
+    "informationwecollect": {
+      "title": "2. Informações que coletamos",
+      "contact": "Se você enviar um formulário ou entrar em contato conosco, coletaremos as informações que você fornece voluntariamente.",
+      "contactlabel": "Informações de contato:",
+      "cookies": "Usamos cookies e tecnologias semelhantes para lembrar suas preferências e seleção de idioma.",
+      "cookieslabel": "Cookies e rastreamento:",
+      "device": "Detalhes sobre seu dispositivo, tipo de navegador, endereço IP e sistema operacional.",
+      "devicelabel": "Informações do dispositivo:",
+      "lead": "Podemos coletar os seguintes tipos de informações:",
+      "usage": "Informações sobre como você interage com nosso site, incluindo páginas visitadas, tempo gasto e links clicados.",
+      "usagelabel": "Dados de uso:"
+    },
+    "intro": {
+      "title": "1. Introdução",
+      "text": "Bem-vindo ao Sanātana Dharma (sanatanadharm.in). Estamos empenhados em proteger a sua privacidade e garantir que você tenha uma experiência positiva em nosso site. Esta Política de Privacidade explica nossas práticas de dados, incluindo quais informações coletamos, como as utilizamos e seus direitos em relação às suas informações pessoais."
+    },
+    "lastupdated": "Novembro de 2025",
+    "rights": {
+      "title": "7. Seus direitos",
+      "contacttext": "Para exercer qualquer um destes direitos, entre em contacto connosco através das informações fornecidas abaixo.",
+      "items": [
+        "Direito de acessar suas informações pessoais",
+        "Direito de solicitar a correção de dados imprecisos",
+        "Direito de solicitar a eliminação dos seus dados",
+        "Direito de cancelar determinadas atividades de processamento de dados"
+      ],
+      "lead": "Dependendo da sua localização, você pode ter os seguintes direitos:"
+    },
+    "security": {
+      "title": "6. Segurança de dados",
+      "text": "Estamos empenhados em proteger as suas informações através de medidas de segurança técnicas e organizacionais adequadas. No entanto, nenhum método de transmissão pela Internet ou armazenamento eletrônico é totalmente seguro. Se você tiver dúvidas sobre segurança, entre em contato conosco."
+    },
+    "thirdparty": {
+      "title": "5. Serviços de terceiros",
+      "text": "Podemos usar serviços analíticos de terceiros para compreender os padrões de uso do site. Estes serviços podem recolher dados anónimos sobre a sua visita. Não compartilhamos informações de identificação pessoal com terceiros sem o seu consentimento."
+    }
+  }
+}

@@ -1,0 +1,581 @@
+{
+  "historical_timeline": {
+    "title": "CE y BCE explicados: significado, concepto del año cero, reglas y ejemplos",
+    "meta": {
+      "title": "CE y BCE explicados: significado, concepto del año cero, reglas y ejemplos",
+      "canonical": "https://sanatanadharmam.in/historical-timeline",
+      "description": "Conozca el significado de BCE y CE, por qué no existe el año cero, cómo se cuentan los plazos y vea ejemplos claros con un diagrama simple.",
+      "keywords": [
+        "BC/AD equivalence",
+        "BCE",
+        "CE",
+        "CE/BCE guide",
+        "CE/BCE transition",
+        "astronomical year numbering",
+        "calendar systems",
+        "century definitions",
+        "chronology rules",
+        "common mistakes in dating",
+        "cross-era calculations",
+        "dating conventions",
+        "dating historical events",
+        "historical chronology",
+        "historical dating",
+        "historical dating systems",
+        "historical events dating",
+        "historical timeline FAQ",
+        "historical timeline astronomy system",
+        "historical timeline calculation",
+        "historical timeline century rules",
+        "historical timeline diagram",
+        "historical timeline examples",
+        "historical timeline explanation",
+        "historical timeline history",
+        "historical timeline history system",
+        "historical timeline implications",
+        "historical timeline mistakes",
+        "historical timeline rules",
+        "historical timeline worked examples",
+        "historical timelines",
+        "historical timelines explained",
+        "historical year numbering",
+        "timeline calculation",
+        "year zero"
+      ],
+      "ogimage": "images/og/homhistoricl_timeline.png",
+      "url": "https://sanatanadharmam.in/historical-timeline"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organización",
+        "contactpoint": {
+          "@type": "Punto de contacto",
+          "areaserved": "En todo el mundo",
+          "availablelanguage": [
+            "العربية",
+            "alemán",
+            "ingles",
+            "Español",
+            "francés",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Países Bajos",
+            "portugués",
+            "ruso",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Atención al cliente",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Acerca de Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "academic": {
+      "title": "Comprensión del sistema de datación CE y BCE: la ausencia del año cero y sus implicaciones históricas",
+      "abstract": "Este artículo aclara el sistema de la Era Común (EC) y Antes de la Era Común (BCE), enfatizando la ausencia histórica del año cero, sus implicaciones matemáticas y cronológicas, y las diferencias con la numeración de años astronómicos. Ejemplos claros y cronogramas visuales respaldan un razonamiento histórico preciso.",
+      "articletype": "Estudio Educativo",
+      "author": {
+        "affiliation": "Tu Institución",
+        "department": "Su departamento",
+        "email": "you@university.edu",
+        "name": "Tu nombre",
+        "orcid": "0000-0000-0000-0000"
+      },
+      "citationtemplate": "[Autor]. (Año). Comprensión del sistema de citas CE y BCE: la ausencia del año cero y sus implicaciones históricas. Nombre de la revista, volumen (número), páginas. https://doi.org/xx.xxxx/xxxxx",
+      "conflictofinterest": "El autor declara no tener ningún conflicto de intereses.",
+      "dataavailability": "No se generaron ni analizaron conjuntos de datos.",
+      "dates": {
+        "accepted": "AAAA-MM-DD",
+        "published": "AAAA-MM-DD",
+        "received": "AAAA-MM-DD"
+      },
+      "funding": "Sin financiación específica.",
+      "keywords": [
+        "CE",
+        "antes de Cristo",
+        "año cero",
+        "cronología",
+        "sistemas de calendario",
+        "Equivalencia BC/AD",
+        "cálculo de línea de tiempo"
+      ],
+      "license": "CC POR 4.0",
+      "shorttitle": "CE/BCE y año cero",
+      "subjectclassification": [
+        "Historia del cronometraje",
+        "Cronología y estudios calendáricos",
+        "Metodología histórica"
+      ]
+    },
+    "advaita_vedanta": {
+      "heading": "Advaita Vedanta y Adi Shankara (siglo VIII d.C.)",
+      "influence": "Advaita Vedanta ha influido profundamente en la espiritualidad, la literatura y el diálogo interreligioso de la India. Sus enseñanzas continúan inspirando a buscadores de todo el mundo.",
+      "key_concepts": [
+        "Brahman es la única realidad; el mundo es en última instancia ilusorio (maya).",
+        "Atman (Yo) no es diferente de Brahman.",
+        "La ignorancia (avidya) causa esclavitud; el conocimiento conduce a la liberación.",
+        "Enfatiza el estudio, el razonamiento y la meditación de las Escrituras."
+      ],
+      "summary": "Advaita Vedanta es una importante escuela de filosofía india que enseña el no dualismo: la unidad esencial del alma individual (Atman) y la Realidad Suprema (Brahman). Adi Shankara (c. 788–820 d.C.) revitalizó el Advaita y viajó por la India para debatir, enseñar y establecer centros monásticos (mathas). Sus comentarios sobre los Upanishads, el Bhagavad Gita y los Brahma Sutras siguen siendo fundamentales. Advaita enfatiza que la liberación (moksha) se logra a través del conocimiento (jnana) del verdadero Ser, trascendiendo todas las distinciones.",
+      "timeline": [
+        {
+          "date": "c. 788 d.C.",
+          "event": "Nacimiento de Adi Shankara",
+          "notes": "Nacido en Kalady, Kerala, India."
+        },
+        {
+          "date": "c. 800–820 CE",
+          "event": "Los viajes y debates de Shankara",
+          "notes": "Estableció cuatro mathas en la India; difundir la filosofía Advaita."
+        },
+        {
+          "date": "c. 800–820 CE",
+          "event": "Principales obras compuestas",
+          "notes": "Comentarios sobre Upanishads, Bhagavad Gita, Brahma Sutras."
+        }
+      ]
+    },
+    "astronom": "astronómico",
+    "astronom_system": "Sistema de Astronomía:",
+    "century_rules": "Reglas del siglo:",
+    "china": {
+      "description": "Gobernantes notables de la antigua China a. C.",
+      "rulers": [
+        {
+          "name": "Qin Shi Huang",
+          "notes": "Primer emperador de China",
+          "reign": "221-210 a. C."
+        },
+        {
+          "name": "Emperador Gaozu de Han",
+          "notes": "Dinastía Han fundada",
+          "reign": "202-195 a. C."
+        }
+      ]
+    },
+    "common_mistakes": "Errores comunes:",
+    "content": {
+      "intro": {
+        "summary": "CE (Era común) y BCE (Antes de la era común) son etiquetas de fecha neutrales que utilizan la misma numeración de años que AD y BC. No existe un año cero en las dataciones históricas; 1 A.C. pasa directamente a 1 CE."
+      },
+      "sections": [
+        {
+          "heading": "Definiciones: BCE y CE",
+          "id": "definiciones",
+          "items": [
+            {
+              "countingdirection": "Hacia atrás (números descendentes a medida que retrocede)",
+              "equivalentto": "antes de Cristo (Antes de Cristo)",
+              "examples": [
+                "3000 a. C.",
+                "500 a. C.",
+                "100 a. C.",
+                "2600 a. C. (Civilización del valle del Indo)"
+              ],
+              "fullform": "Antes de la era común",
+              "term": "antes de Cristo",
+              "timeperiod": "Antes del año 1"
+            },
+            {
+              "countingdirection": "Adelante (números ascendentes)",
+              "equivalentto": "ANUNCIO (Anno Domini)",
+              "examples": [
+                "1 CE",
+                "610 CE (Inicio del Islam)",
+                "1947 CE (Independencia de la India)",
+                "2026 CE"
+              ],
+              "fullform": "Era común",
+              "term": "CE",
+              "timeperiod": "Desde el año 1 en adelante"
+            }
+          ],
+          "notes": [
+            "La base del calendario es el sistema gregoriano proléptico en el uso moderno.",
+            "La neutralidad cultural es la razón por la que muchos educadores prefieren el etiquetado CE/BCE."
+          ],
+          "summary": "BCE cuenta hacia atrás antes del año 1; CE cuenta hacia adelante después del año 1. La numeración coincide con BC/AD; Sólo las etiquetas difieren."
+        },
+        {
+          "heading": "Definiciones: BCE y CE",
+          "id": "definiciones",
+          "mapping": [
+            {
+              "new": "1 CE",
+              "old": "1 d.C."
+            },
+            {
+              "new": "500 d.C.",
+              "old": "500 d.C."
+            },
+            {
+              "new": "1 a. C.",
+              "old": "1 a.C."
+            },
+            {
+              "new": "44 a. C.",
+              "old": "44 a.C."
+            }
+          ],
+          "rules": [
+            "Los números de año son idénticos entre sistemas.",
+            "Los rangos de siglo también son idénticos; sólo cambian las etiquetas."
+          ],
+          "summary": "BCE cuenta hacia atrás antes del año 1; CE cuenta hacia adelante después del año 1. La numeración coincide con BC/AD; Sólo las etiquetas difieren."
+        },
+        {
+          "commonmistakes": [
+            "Insertar un año 0 al calcular los tramos.",
+            "Errores de uno en uno a lo largo del límite BCE→CE."
+          ],
+          "exists": false,
+          "heading": "Definiciones: BCE y CE",
+          "id": "definiciones",
+          "implications": [
+            "Los períodos de años entre épocas deben tener en cuenta el cero faltante.",
+            "Del 1 a.C. al 1 CE equivale a 1 año, no a 2."
+          ],
+          "reason": [
+            "Los primeros esquemas utilizaban números romanos, que no tenían ningún símbolo para el cero.",
+            "El sistema se formalizó antes de que el cero fuera común en las matemáticas europeas."
+          ],
+          "sequenceexample": [
+            "3 a. C.",
+            "2 a. C.",
+            "1 a. C.",
+            "1 CE",
+            "2 d.C.",
+            "3 d.C."
+          ],
+          "summary": "BCE cuenta hacia atrás antes del año 1; CE cuenta hacia adelante después del año 1. La numeración coincide con BC/AD; Sólo las etiquetas difieren.",
+          "transition": "1 a. C. → 1 CE (directamente; sin año 0)"
+        },
+        {
+          "astronomysystem": {
+            "label": "Numeración de años astronómicos",
+            "mapping": [
+              {
+                "astronomical": "Año 0",
+                "historical": "1 a. C."
+              },
+              {
+                "astronomical": "Año -1",
+                "historical": "2 a. C."
+              },
+              {
+                "astronomical": "Año +1",
+                "historical": "1 CE"
+              }
+            ],
+            "usesyearzero": true
+          },
+          "heading": "Definiciones: BCE y CE",
+          "historysystem": {
+            "examplemapping": {
+              "1 bce": "1 a. C.",
+              "1 ce": "1 CE"
+            },
+            "label": "BCE/CE (o BC/AD)",
+            "usesyearzero": false
+          },
+          "id": "definiciones",
+          "note": "Esta diferencia explica las discrepancias ocasionales entre tablas astronómicas y textos históricos.",
+          "summary": "BCE cuenta hacia atrás antes del año 1; CE cuenta hacia adelante después del año 1. La numeración coincide con BC/AD; Sólo las etiquetas difieren."
+        },
+        {
+          "centuryrules": [
+            "Siglo I d.C. = 1-100 d.C.",
+            "Siglo I a. C. = 100-1 a. C.",
+            "Siglo XX d.C. = 1901-2000 d.C.",
+            "Siglo XXI d.C. = 2001-2100 d.C."
+          ],
+          "heading": "Definiciones: BCE y CE",
+          "id": "definiciones",
+          "rules": [
+            "Sólo dentro de CE: duración = endYear − startYear.",
+            "Sólo dentro de BCE: duración = inicioBCE – finBCE.",
+            "A lo largo de BCE→CE: duración = (años desde el inicio BCE hasta 1 BCE) + (años desde 1 CE hasta el final CE) + 1."
+          ],
+          "summary": "BCE cuenta hacia atrás antes del año 1; CE cuenta hacia adelante después del año 1. La numeración coincide con BC/AD; Sólo las etiquetas difieren.",
+          "workedexamples": [
+            {
+              "explanation": "Transición directa sobre el límite sin año cero.",
+              "label": "1 a. C. a 1 d. C.",
+              "years": 1
+            },
+            {
+              "explanation": "5 → 1 a. C. = 4 años; más 1 (para 1 a. C. → 1 d. C.); más 4 años (1→5 CE) = 9.",
+              "label": "5 a. C. al 5 d. C.",
+              "years": 9
+            },
+            {
+              "explanation": "44 → 1 a. C. = 43; +1 (límite) = 44; +13 (1→14 CE) = 57.",
+              "label": "44 a. C. al 14 d. C.",
+              "years": 57
+            },
+            {
+              "explanation": "Misma época: 1200 − 500 = 700 años.",
+              "label": "500 CE a 1200 CE",
+              "years": 700
+            },
+            {
+              "explanation": "Dentro de BCE: 1000 − 500 = 500 años.",
+              "label": "1000 a. C. a 500 a. C.",
+              "years": 500
+            }
+          ]
+        },
+        {
+          "examples": [
+            {
+              "label": "Civilización del valle del Indo (fase madura)",
+              "year": "2600 a. C."
+            },
+            {
+              "label": "Vida de Gautama Buda (aprox.)",
+              "year": "Siglo VI a.C."
+            },
+            {
+              "label": "Rango de fechas tradicional de Jesús de Nazaret",
+              "year": "~1 CE (cambio de era)"
+            },
+            {
+              "label": "La primera revelación del profeta Mahoma",
+              "year": "610 d.C."
+            },
+            {
+              "label": "Independencia india",
+              "year": "1947 d.C."
+            },
+            {
+              "label": "Año de referencia actual",
+              "year": "2026 CE"
+            }
+          ],
+          "heading": "Definiciones: BCE y CE",
+          "id": "definiciones",
+          "note": "Las aproximaciones de siglos (p. ej., siglo VI a. C.) indican rangos en lugar de años individuales.",
+          "summary": "BCE cuenta hacia atrás antes del año 1; CE cuenta hacia adelante después del año 1. La numeración coincide con BC/AD; Sólo las etiquetas difieren."
+        }
+      ]
+    },
+    "counting_directio": "Dirección de conteo:",
+    "description": "CE y BCE: la guía completa (con el año cero aclarado)",
+    "diagrams": {
+      "ascii": {
+        "art": "PASADO PRESENTE\n←─────── AEC ────────│────── CE ──────→\n 5 4 3 2 1 a. C. │ 1 2 3 4 5 d. C.\n                      (SIN AÑO 0)",
+        "caption": "Transición de BCE a CE que no muestra el año cero."
+      },
+      "mermaid": {
+        "caption": "Línea de tiempo de Mermaid (renderizada con un componente Mermaid del cliente).",
+        "code": "línea de tiempo\n  título BCE a CE (sin año cero)\n  sección a.C.\n    5 a. C.: 5\n    4 a. C.: 4\n    3 a. C.: 3\n    2 a. C.: 2\n    1 a. C.: 1\n  sección Transición\n    No Año 0: hito\n  sección CE\n    1 CE: 1\n    2 CE: 2\n    3 CE: 3\n    4 CE: 4\n    5 CE: 5"
+      }
+    },
+    "duration": "Duración:",
+    "dynasty": "Dinastía:",
+    "egypt": {
+      "description": "Faraones egipcios seleccionados del Nuevo Reino",
+      "rulers": [
+        {
+          "name": "Hatshepsut",
+          "reign": "1479-1458 a. C."
+        },
+        {
+          "name": "Tutmosis III",
+          "reign": "1479-1425 a. C."
+        },
+        {
+          "name": "Akenatón",
+          "reign": "1353-1336 a. C."
+        },
+        {
+          "name": "Tutankamón",
+          "reign": "1332-1323 a. C."
+        },
+        {
+          "name": "Ramsés II",
+          "reign": "1279-1213 a. C."
+        }
+      ]
+    },
+    "equivale": "Equivalente a:",
+    "examples": "Ejemplos:",
+    "exists": "Existe:",
+    "faq": {
+      "heading": "Preguntas frecuentes",
+      "qa": [
+        {
+          "a": "Sí. CE utiliza los mismos números de año que AD; es solo una etiqueta neutral.",
+          "q": "¿Es lo mismo CE que AD?"
+        },
+        {
+          "a": "El No. 1 BCE pasa directamente a 1 CE sin año 0.",
+          "q": "¿Existe un año cero en la historia?"
+        },
+        {
+          "a": "La numeración de años astronómicos incluye el año 0 (equivalente históricamente al 1 a. C.).",
+          "q": "¿Por qué algunas tablas muestran un año 0?"
+        },
+        {
+          "a": "No. Los siglos se trazan de forma idéntica; sólo las etiquetas difieren.",
+          "q": "¿CE/BCE cambian las definiciones de siglo?"
+        }
+      ]
+    },
+    "greece": {
+      "description": "Gobernantes clave de Grecia y Macedonia",
+      "rulers": [
+        {
+          "name": "Pericles",
+          "notes": "Líder de Atenas",
+          "reign": "c. 461–429 a. C."
+        },
+        {
+          "name": "Felipe II de Macedonia",
+          "reign": "359-336 a. C."
+        },
+        {
+          "name": "Alejandro Magno",
+          "notes": "Creó un vasto imperio",
+          "reign": "336-323 a. C."
+        }
+      ]
+    },
+    "historic": "Histórico",
+    "historic_rulers": "Gobernantes históricos por región",
+    "history_system": "Sistema de Historia:",
+    "implicat": "Implicaciones:",
+    "india": {
+      "description": "Principales gobernantes y dinastías del subcontinente indio durante el período a. C.",
+      "rulers": [
+        {
+          "dynasty": "Haryanka (Magadha)",
+          "name": "Bimbisara",
+          "notes": "Contemporáneo de Buda; Magadha ampliado",
+          "reign": "544–492 a. C."
+        },
+        {
+          "dynasty": "Haryanka (Magadha)",
+          "name": "Ajatashatru",
+          "notes": "Sucedió a Bimbisara; Pataliputra fortificada",
+          "reign": "492–460 a. C."
+        },
+        {
+          "dynasty": "Nanda",
+          "name": "Dhana Nanda",
+          "notes": "Último gobernante Nanda",
+          "reign": "c. 329-321 a. C."
+        },
+        {
+          "dynasty": "maurya",
+          "name": "Chandragupta Maurya",
+          "notes": "Fundó el Imperio Maurya",
+          "reign": "321-297 a. C."
+        },
+        {
+          "dynasty": "maurya",
+          "name": "Bindusara",
+          "notes": "Imperio expandido en la India peninsular",
+          "reign": "297-273 a. C."
+        },
+        {
+          "dynasty": "maurya",
+          "name": "Ashoka el grande",
+          "notes": "Después de la guerra de Kalinga, promovió el budismo.",
+          "reign": "273-232 a. C."
+        }
+      ]
+    },
+    "mapping": "Mapeo:",
+    "new_bce": "Nuevo (AEC/CE)",
+    "note": "Nota:",
+    "notes": "Notas:",
+    "old_bc": "Antiguo (BC/AD)",
+    "persia": {
+      "description": "Gobernantes del Imperio Aqueménida (Primer Imperio Persa)",
+      "rulers": [
+        {
+          "name": "Ciro el grande",
+          "notes": "Fundador del Imperio Aqueménida",
+          "reign": "559-530 a. C."
+        },
+        {
+          "name": "Cambises II",
+          "notes": "Egipto conquistado",
+          "reign": "530-522 a. C."
+        },
+        {
+          "name": "Darío I (el Grande)",
+          "notes": "Reformas administrativas",
+          "reign": "522–486 a. C."
+        },
+        {
+          "name": "Jerjes I",
+          "notes": "Guerras greco-persas",
+          "reign": "486–465 a. C."
+        },
+        {
+          "name": "Artajerjes I",
+          "notes": "Imperio estabilizado",
+          "reign": "465–424 a. C."
+        },
+        {
+          "name": "Darío III",
+          "notes": "Derrotado por Alejandro",
+          "reign": "336-330 a. C."
+        }
+      ]
+    },
+    "reason": "Razón:",
+    "reign": "Reinado:",
+    "rome": {
+      "description": "Reyes de Roma durante el Período Regio",
+      "rulers": [
+        {
+          "name": "Rómulo",
+          "reign": "753–715 a. C."
+        },
+        {
+          "name": "Numa Pompilio",
+          "reign": "715–673 a. C."
+        },
+        {
+          "name": "Tulo Hostilio",
+          "reign": "673–642 a. C."
+        },
+        {
+          "name": "Anco Marcio",
+          "reign": "642-617 a. C."
+        },
+        {
+          "name": "Lucio Tarquinio Prisco",
+          "reign": "616-579 a. C."
+        },
+        {
+          "name": "Servio Tulio",
+          "reign": "578-535 a. C."
+        },
+        {
+          "name": "Lucio Tarquinio el Soberbio",
+          "notes": "último rey romano",
+          "reign": "535-510 a. C."
+        }
+      ]
+    },
+    "rules": "Reglas:",
+    "sequence_example": "Ejemplo de secuencia:",
+    "time_period": "Período de tiempo:",
+    "transiti": "Transición:",
+    "uses_year": "Utiliza el año cero:",
+    "visual_timeline": "Línea de tiempo visual",
+    "worked_examples": "Ejemplos resueltos:",
+    "years": "años"
+  }
+}

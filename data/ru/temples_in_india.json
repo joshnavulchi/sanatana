@@ -1,0 +1,858 @@
+{
+  "temples_in_india": {
+    "meta": {
+      "title": "Старейшие храмы Индии — даты, архитектура, строительство и сроки",
+      "canonical": "https://sanatanadharmam.in/temples-in-india",
+      "description": "Исторически подтвержденные древние и средневековые храмы в Индии с заметками о том, как они были построены, архитектурными стилями, династическим контекстом и графиком событий.",
+      "keywords": [
+        "Adi Kumbeswarar Kumbakonam",
+        "Ancient Hindu Temples",
+        "Ancient Indian architecture",
+        "Archaeological studies of temples",
+        "Ashlar masonry",
+        "Brihadeeswarar Temple Thanjavur",
+        "Chennakesava Temple Belur",
+        "Comparative temple studies",
+        "Construction Methods",
+        "Cultural significance of temples",
+        "Dashavatara Temple",
+        "Durga Temple Aihole",
+        "Dynastic Associations",
+        "Hindu temple history",
+        "Historical Timelines",
+        "Historical sources on temples",
+        "Iconography and temple sculpture",
+        "Indian temple construction",
+        "Inscriptions and temple history",
+        "Jagannath Temple Puri",
+        "Kailasa Ellora",
+        "Kailasanathar Temple",
+        "Konark Sun Temple",
+        "Lingaraja Temple Bhubaneswar",
+        "Medieval Hindu Temples",
+        "Medieval Indian architecture",
+        "Modhera Sun Temple",
+        "Monolithic temples",
+        "Mukteshwara Temple Bhubaneswar",
+        "Mundeshwari Temple",
+        "Oldest Temples in India",
+        "Palaeographic dating",
+        "Pancha Rathas",
+        "Religious practices and temples",
+        "Rock-cut temples",
+        "Shore Temple",
+        "Structural stone temples",
+        "Temple Architecture",
+        "Temple architecture and community bonds",
+        "Temple architecture and cosmology",
+        "Temple architecture and cultural identity",
+        "Temple architecture and ethical decision-making",
+        "Temple architecture and religious beliefs",
+        "Temple architecture and social structure",
+        "Temple architecture and spiritual reflection",
+        "Temple architecture evolution",
+        "Temple architecture styles",
+        "Temple art and aesthetics",
+        "Temple conservation and restoration",
+        "Temple dynasties",
+        "Temple engineering and construction techniques",
+        "Temple festivals and rituals",
+        "Temple legends and folklore",
+        "Temple patronage and politics",
+        "Temple rituals and ceremonies",
+        "Temple symbolism and meaning",
+        "Temple timelines",
+        "Temple tourism in India",
+        "UNESCO World Heritage temples",
+        "Vaikuntha Perumal Kanchipuram",
+        "Virupaksha Temple Pattadakal"
+      ],
+      "ogimage": "images/og/home.png",
+      "url": "https://sanatanadharmam.in/temples-in-india"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Организация",
+        "contactpoint": {
+          "@type": "Контактная точка",
+          "areaserved": "По всему миру",
+          "availablelanguage": [
+            "عربية",
+            "немецкий",
+            "Английский",
+            "испанский",
+            "Франсэ",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Нидерланды",
+            "Португальский",
+            "Русский",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Служба поддержки клиентов",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "О Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "dynasty_timeline": [
+      {
+        "architectural_contributions": [
+          "Классическая планировка: квадратное святилище + ранняя шихара.",
+          "Сюжетные рельефные панели; изысканная иконография"
+        ],
+        "name": "Гупта",
+        "notes": "Часто упоминается как «классический» поворот в архитектуре индуистских храмов.",
+        "period": "в. 320–550 гг. н. э.",
+        "regions": [
+          "Северо-Центральная Индия"
+        ],
+        "representative_temples": [
+          "дашаватара-деогарх"
+        ],
+        "sources": [
+          "https://hindu.mythologyworldwide.com/the-evolution-of-hindu-temple-architecture-through-the-ages/"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "Экспериментальная смесь Весара Дравида + Нагара",
+          "Апсидальные и звездчатые планы местности; программы тяжелой помощи"
+        ],
+        "name": "Ранняя Западная Чалукья (Бадами)",
+        "period": "6–8 вв. CE",
+        "regions": [
+          "Долина Малапрабха, Карнатака"
+        ],
+        "representative_temples": [
+          "Дурга-Айхоле",
+          "вирупакша-паттадакал"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Durga_temple,_Aihole",
+          "https://en.wikipedia.org/wiki/Паттадакал"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "Переход от каменной высечки к структурному камню",
+          "Монолитные прототипы (ратхи) и ранние дравидийские виманы"
+        ],
+        "name": "Паллава",
+        "period": "7–8 вв. CE",
+        "regions": [
+          "Тамил Наду (Канчипурам – Махабалипурам)"
+        ],
+        "representative_temples": [
+          "панча-ратхи",
+          "береговой храм",
+          "Кайласанатар-Канчи"
+        ],
+        "sources": [
+          "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/",
+          "https://en.wikipedia.org/wiki/Tiru_parameswara_vinnagaram"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "Пиковая монолитная скальная инженерия",
+          "Иконографическая сложность в большом масштабе"
+        ],
+        "name": "Раштракута",
+        "period": "8–9 вв. CE",
+        "regions": [
+          "Декан (Махараштра)"
+        ],
+        "representative_temples": [
+          "Кайласа-Эллора"
+        ],
+        "sources": [
+          "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "Гранитный структурный гигантизм; парящие виманы",
+          "Осевая симметрия; обширные надписи"
+        ],
+        "name": "Чола",
+        "period": "10–11 вв. CE",
+        "regions": [
+          "Тамил Наду (дельта Кавери)"
+        ],
+        "representative_temples": [
+          "Брихадисварар-Тханджавур"
+        ],
+        "sources": [
+          "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "Замысловатая резьба снаружи; ансамбли ассамблеи+храм+кунд"
+        ],
+        "name": "Чаулукья/Соланки (Мару-Гурджара)",
+        "period": "11 в. CE",
+        "regions": [
+          "Гуджарат"
+        ],
+        "representative_temples": [
+          "Модхера-Храм Солнца"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Sun_Temple,_Modhera"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "Зрелая форма Калинга (Деула); эксперименты с тораной",
+          "Монументальный храм в форме колесницы (Конарк)"
+        ],
+        "name": "Сомавамши и Восточная Ганга",
+        "period": "10–13 вв. CE",
+        "regions": [
+          "Одиша"
+        ],
+        "representative_temples": [
+          "муктешвара-бхубанешвар",
+          "Лингараджа-Бхубанешвар",
+          "Джаганнатх-Пури",
+          "Конарк-Храм Солнца"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mukteshvara_Temple,_Bhubaneswar",
+          "https://en.wikipedia.org/wiki/Lingaraja_Temple",
+          "https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri",
+          "https://en.wikipedia.org/wiki/Konark_Sun_Temple"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "мыльный камень; звездные планы; токарные колонны; повествовательные фризы"
+        ],
+        "name": "Хойсала",
+        "period": "11–12 вв. CE",
+        "regions": [
+          "Карнатака"
+        ],
+        "representative_temples": [
+          "Ченнакешава-Белур"
+        ],
+        "sources": [
+          "https://www.oldest.org/structures/oldest-temples-in-india/"
+        ]
+      }
+    ],
+    "temples": [
+      {
+        "architecture_style": "Ранняя Нагара (восьмиугольное святилище)",
+        "build_type": "Структурный камень",
+        "construction_method": "Одетая каменная кладка восьмиугольного плана.",
+        "dynasty_association": [
+          "Ранняя Кушана / ранний исторический (по письменной датировке)"
+        ],
+        "end_year_ce": 200,
+        "estimated_date": "1–2 века н.э.",
+        "how_it_was_built": "Восьмиугольное святилище с тесаными каменными блоками; ранние прототипы шикхары.",
+        "id": "Мундешвари-Бихар",
+        "location": "Каймур",
+        "materials": [
+          "камень"
+        ],
+        "name": "Храм Мундешвари Деви",
+        "slug": "Мундешвари-Бихар",
+        "sources": [
+          "https://oldest.info/oldest-temples-in-india/",
+          "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/"
+        ],
+        "start_year_ce": 100,
+        "state": "Бихар",
+        "timeline": {
+          "events": [
+            {
+              "label": "Учреждение сертифицировано",
+              "sources": [
+                "https://oldest.info/oldest-temples-in-india/",
+                "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/"
+              ],
+              "start": "1–2 вв. CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Гупта классическая",
+        "build_type": "Структурный камень",
+        "construction_method": "Тесаная кладка; скульптурные повествовательные панно.",
+        "dynasty_association": [
+          "Гупта"
+        ],
+        "end_year_ce": 550,
+        "estimated_date": "в. 500–550 гг. н.э.",
+        "how_it_was_built": "Квадратное святилище с ранней шикхарой; рельефы аватаров Вишну.",
+        "id": "дашаватара-деогарх",
+        "location": "Деогарх",
+        "materials": [
+          "песчаник"
+        ],
+        "name": "Храм Дашаватара",
+        "slug": "дашаватара-деогарх",
+        "sources": [
+          "https://hindu.mythologyworldwide.com/the-evolution-of-hindu-temple-architecture-through-the-ages/"
+        ],
+        "start_year_ce": 500,
+        "state": "Уттар-Прадеш",
+        "timeline": {
+          "events": [
+            {
+              "label": "Строительство",
+              "sources": [
+                "https://hindu.mythologyworldwide.com/the-evolution-of-hindu-temple-architecture-through-the-ages/"
+              ],
+              "start": 500
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Паллава монолитная, раннедравидские формы",
+        "build_type": "Скальный монолитный",
+        "construction_method": "Высечены из одиночных гранитных обнажений как прототипы святынь.",
+        "dynasty_association": [
+          "Паллава"
+        ],
+        "end_year_ce": 700,
+        "estimated_date": "VII век н.э. (ок. 630–668 гг. н.э.; некоторые ученые указывают позже)",
+        "how_it_was_built": "Монолиты, высеченные на месте; незавершенные и неосвященные прототипы.",
+        "id": "панча-ратхи",
+        "location": "Махабалипурам",
+        "materials": [
+          "гранит"
+        ],
+        "name": "Панча Ратхи (Пять Ратх)",
+        "slug": "панча-ратхи",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Pancha_Rathas"
+        ],
+        "start_year_ce": 630,
+        "state": "Тамил Наду",
+        "timeline": {
+          "events": [
+            {
+              "label": "Резьба под Паллавы",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Pancha_Rathas"
+              ],
+              "start": "7 в. CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Ранний дравид (Паллава)",
+        "build_type": "Структурный камень",
+        "construction_method": "Одетые гранитные блоки; береговая инженерия для защиты от ветров.",
+        "dynasty_association": [
+          "Паллава (Нарасимхаварман II)"
+        ],
+        "end_year_ce": 728,
+        "estimated_date": "в. 700–728 гг. н.э.",
+        "how_it_was_built": "Гранитная кладка с пирамидальной надстройкой (вимана).",
+        "id": "береговой храм",
+        "location": "Махабалипурам",
+        "materials": [
+          "гранит"
+        ],
+        "name": "Береговой храм",
+        "slug": "береговой храм",
+        "sources": [
+          "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/"
+        ],
+        "start_year_ce": 700,
+        "state": "Тамил Наду",
+        "timeline": {
+          "events": [
+            {
+              "label": "Строительство во время зенита Паллавы",
+              "sources": [
+                "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/"
+              ],
+              "start": "7–8 вв. CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Паллавский дравид (ранний структурный)",
+        "build_type": "Структурный камень",
+        "construction_method": "Блоки песчаника; ограждение с дополнительными святынями.",
+        "dynasty_association": [
+          "Паллава (Нарасимхаварман II)"
+        ],
+        "end_year_ce": 728,
+        "estimated_date": "в. 700–728 гг. н.э.",
+        "how_it_was_built": "Ранняя структурная дравидийская вимана; 58 второстепенных святынь вокруг ядра.",
+        "id": "Кайласанатар-Канчи",
+        "location": "Канчипурам",
+        "materials": [
+          "песчаник"
+        ],
+        "name": "Храм Кайласанатар",
+        "slug": "Кайласанатар-Канчи",
+        "sources": [
+          "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/"
+        ],
+        "start_year_ce": 700,
+        "state": "Тамил Наду",
+        "timeline": {
+          "events": [
+            {
+              "label": "Строительство Паллавы",
+              "sources": [
+                "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/"
+              ],
+              "start": "начало 8 в. CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Ранняя Чалукья (смесь Весара)",
+        "build_type": "Структурный камень",
+        "construction_method": "Апсидальный план; богато украшенные рельефные панели; обходная колоннада.",
+        "dynasty_association": [
+          "Ранняя Западная Чалукья"
+        ],
+        "end_year_ce": 725,
+        "estimated_date": "конец 7 - начало 8 века н.э.",
+        "how_it_was_built": "План апсидала (гаджаприштха), выполненный из песчаника; Принадлежность Сурьи.",
+        "id": "Дурга-Айхоле",
+        "location": "Айхол",
+        "materials": [
+          "песчаник"
+        ],
+        "name": "Храм Дурги",
+        "slug": "Дурга-Айхоле",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Durga_temple,_Aihole"
+        ],
+        "start_year_ce": 690,
+        "state": "Карнатака",
+        "timeline": {
+          "events": [
+            {
+              "label": "Датируется по палеографическим основаниям",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Durga_temple,_Aihole"
+              ],
+              "start": "в. 700 г. н.э."
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Дравидийский с элементами Нагара (синтез Паттадакала)",
+        "build_type": "Структурный камень",
+        "construction_method": "Высокий цоколь; осевые мандапы; рельефные фризы из былин.",
+        "dynasty_association": [
+          "Ранняя Западная Чалукья (Викрамадитья II)"
+        ],
+        "end_year_ce": 745,
+        "estimated_date": "в. 740–745 гг. н.э.",
+        "how_it_was_built": "комиссия королевы Локамахадеви; сложная скульптурная программа.",
+        "id": "вирупакша-паттадакал",
+        "location": "Паттадакал",
+        "materials": [
+          "песчаник"
+        ],
+        "name": "Храм Вирупакши",
+        "slug": "вирупакша-паттадакал",
+        "sources": [
+          "https://prepp.in/news/e-492-virupaksha-temple-pattadakkal-temples-ancient-india-history-notes",
+          "https://mapacademy.io/article/sculpture-at-virupaksha-temple-pattadakal/"
+        ],
+        "start_year_ce": 740,
+        "state": "Карнатака",
+        "timeline": {
+          "events": [
+            {
+              "label": "Памятное сооружение",
+              "sources": [
+                "https://prepp.in/news/e-492-virupaksha-temple-pattadakkal-temples-ancient-india-history-notes",
+                "https://en.wikipedia.org/wiki/Паттадакал"
+              ],
+              "start": 745
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Раштракута дравидийский (вырезанный в скале)",
+        "build_type": "Скальный монолитный (выемка сверху вниз)",
+        "construction_method": "Монолитный котлован; отдельно стоящие формы, высеченные в скале.",
+        "dynasty_association": [
+          "Раштракута (Кришна I)"
+        ],
+        "end_year_ce": 773,
+        "estimated_date": "в. 756–773 гг. н. э.",
+        "how_it_was_built": "Одиночные раскопки привели к созданию отдельно стоящего комплекса.",
+        "id": "Кайласа-Эллора",
+        "location": "Эллора",
+        "materials": [
+          "базальт"
+        ],
+        "name": "Храм Кайласа (пещера 16)",
+        "slug": "Кайласа-Эллора",
+        "sources": [
+          "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+        ],
+        "start_year_ce": 756,
+        "state": "Махараштра",
+        "timeline": {
+          "events": [
+            {
+              "label": "Резьба под Кришну I",
+              "sources": [
+                "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+              ],
+              "start": "8 в. CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Чола Дравидийский",
+        "build_type": "Структурный камень",
+        "construction_method": "Крупномасштабный гранитный камень; парящая вимана.",
+        "dynasty_association": [
+          "Чола (Раджараджа I)"
+        ],
+        "end_year_ce": 1010,
+        "estimated_date": "1003–1010 гг. Н. Э.",
+        "how_it_was_built": "Массивная гранитная программа; точная осевая разметка и надписи.",
+        "id": "Брихадисварар-Тханджавур",
+        "location": "Танджавур",
+        "materials": [
+          "гранит"
+        ],
+        "name": "Храм Брихадисварар (Перувадайяр)",
+        "slug": "Брихадисварар-Тханджавур",
+        "sources": [
+          "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+        ],
+        "start_year_ce": 1003,
+        "state": "Тамил Наду",
+        "timeline": {
+          "events": [
+            {
+              "label": "Посвящение",
+              "sources": [
+                "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+              ],
+              "start": 1010
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Мару-Гурджара (Чаулукья/Соланки)",
+        "build_type": "Структурный каменный ансамбль",
+        "construction_method": "Гудхамандапа + Сабхамандапа + ступенчатая Сурья-кунда, выровненная по оси восток-запад.",
+        "dynasty_association": [
+          "Чаулукья/Соланки (Бхима I)"
+        ],
+        "end_year_ce": 1030,
+        "estimated_date": "после 1026–27 гг. Н. Э.",
+        "how_it_was_built": "Резной экстерьер; ступенчатый водоем со святынями.",
+        "id": "Модхера-Храм Солнца",
+        "location": "Модхера, Мехсана",
+        "materials": [
+          "песчаник"
+        ],
+        "name": "Храм Солнца, Модхера",
+        "slug": "Модхера-Храм Солнца",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Sun_Temple,_Modhera",
+          "https://inditales.com/architecture-of-sun-temple-modhera/",
+          "https://whc.unesco.org/en/tentativelists/6627/"
+        ],
+        "start_year_ce": 1026,
+        "state": "Гуджарат",
+        "timeline": {
+          "events": [
+            {
+              "label": "Надписной маркер; храм перестроен / построен при Бхиме I",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Sun_Temple,_Modhera",
+                "https://whc.unesco.org/en/tentativelists/6627/"
+              ],
+              "start": 1026
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Ранняя Калинга (период Сомавамши)",
+        "build_type": "Структурный камень",
+        "construction_method": "Рекха деула святилище + пирамидальная джагамохана; культовая отдельно стоящая Торана.",
+        "dynasty_association": [
+          "Сомавамши"
+        ],
+        "end_year_ce": 975,
+        "estimated_date": "950–975 гг. н. э.",
+        "how_it_was_built": "Переходная одишанская идиома; экспериментирование, предвосхищающее Лингараджа.",
+        "id": "муктешвара-бхубанешвар",
+        "location": "Старый город, Бхубанешвар",
+        "materials": [
+          "песчаник",
+          "латерит"
+        ],
+        "name": "Храм Муктешвара",
+        "slug": "муктешвара-бхубанешвар",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mukteshvara_Temple,_Bhubaneswar"
+        ],
+        "start_year_ce": 950,
+        "state": "Одиша",
+        "timeline": {
+          "events": [
+            {
+              "label": "Вероятное окно строительства",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Mukteshvara_Temple,_Bhubaneswar"
+              ],
+              "start": 966
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Зрелая Калинга",
+        "build_type": "Строительный каменный комплекс",
+        "construction_method": "Квартет стиля Деула: вимана, джагамохана, ната-мандира, бхога-мандапа.",
+        "dynasty_association": [
+          "Сомавамши",
+          "Восточная Ганга"
+        ],
+        "end_year_ce": 1100,
+        "estimated_date": "11 век н.э.",
+        "how_it_was_built": "Кульминация средневекового стиля Бхубанешвара; Криволинейная башня высотой 180 футов.",
+        "id": "Лингараджа-Бхубанешвар",
+        "location": "Экамра Кшетра, Бхубанешвар",
+        "materials": [
+          "песчаник",
+          "латерит"
+        ],
+        "name": "Храм Лингараджа",
+        "slug": "Лингараджа-Бхубанешвар",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Lingaraja_Temple",
+          "https://vajiramandravi.com/upsc-exam/lingaraja-temple/"
+        ],
+        "start_year_ce": 1000,
+        "state": "Одиша",
+        "timeline": {
+          "events": [
+            {
+              "label": "Основная конструкция (Сомавамши), позже пристройки к Ганге.",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Lingaraja_Temple"
+              ],
+              "start": "11 в. CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Калинга (Одиша Нагара)",
+        "build_type": "Строительный каменный комплекс",
+        "construction_method": "Калинга Рекха Деула с обширным ограждением; деревянные иконы периодически обновлялись.",
+        "dynasty_association": [
+          "Восточная Ганга (Анантаварман Чодаганга)"
+        ],
+        "end_year_ce": 1200,
+        "estimated_date": "XII век н.э. (ок. 1161 г. н.э.)",
+        "how_it_was_built": "Массивный корпус и башня Рекха Деула; живая ритуальная система (Ратха-ятра).",
+        "id": "Джаганнатх-Пури",
+        "location": "Пури",
+        "materials": [
+          "камень (храм)",
+          "дерево нима (идолы)"
+        ],
+        "name": "Храм Джаганнатхи",
+        "slug": "Джаганнатх-Пури",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri"
+        ],
+        "start_year_ce": 1100,
+        "state": "Одиша",
+        "timeline": {
+          "events": [
+            {
+              "label": "Реконструкция/расширение под Восточной Гангой",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri"
+              ],
+              "start": 1161
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Калинга высокое средневековье",
+        "build_type": "Структурный камень (частично разрушен)",
+        "construction_method": "План в форме колесницы с 24 колесами; монументальная скульптурная программа.",
+        "dynasty_association": [
+          "Восточная Ганга (Нарасимхадева I)"
+        ],
+        "end_year_ce": 1260,
+        "estimated_date": "в. 1250 г. н.э.",
+        "how_it_was_built": "Символическая солнечная колесница; передовая инженерия; теперь сайт ЮНЕСКО.",
+        "id": "Конарк-Храм Солнца",
+        "location": "Конарк, район Пури",
+        "materials": [
+          "хондалитовый камень"
+        ],
+        "name": "Конарк Храм Солнца",
+        "slug": "Конарк-Храм Солнца",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Konark_Sun_Temple",
+          "https://www.worldhistory.org/Konarak_Sun_Temple/"
+        ],
+        "start_year_ce": 1240,
+        "state": "Одиша",
+        "timeline": {
+          "events": [
+            {
+              "label": "Строительство при Нарасимхадеве I",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Konark_Sun_Temple"
+              ],
+              "start": 1250
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Хойсала",
+        "build_type": "Структурный камень",
+        "construction_method": "Звездчатый план на высоком джагати; токарные колонны; обильная скульптура.",
+        "dynasty_association": [
+          "Хойсала (Вишнувардхана)"
+        ],
+        "end_year_ce": 1117,
+        "estimated_date": "1117 г. н. э.",
+        "how_it_was_built": "Мягкий мыльный камень допускал мельчайшие детали; повествовательные фризы и иконографический ряд.",
+        "id": "Ченнакешава-Белур",
+        "location": "Белур",
+        "materials": [
+          "хлоритовый сланец (мыльный камень)"
+        ],
+        "name": "Храм Ченнакесава",
+        "slug": "Ченнакешава-Белур",
+        "sources": [
+          "https://www.oldest.org/structures/oldest-temples-in-india/"
+        ],
+        "start_year_ce": 1117,
+        "state": "Карнатака",
+        "timeline": {
+          "events": [
+            {
+              "label": "Инаугурация Вишнувардхана",
+              "sources": [
+                "https://www.oldest.org/structures/oldest-temples-in-india/"
+              ],
+              "start": 1117
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Паллава Дравидийская",
+        "build_type": "Структурный камень",
+        "construction_method": "Трехъярусные святилища (стоящий/лежащий/сидящий Вишну); Столбы на львиной основе.",
+        "dynasty_association": [
+          "Паллава (Нандиварман II)"
+        ],
+        "end_year_ce": 780,
+        "estimated_date": "конец 8 века н.э.",
+        "how_it_was_built": "Компактный структурный храм с историческими рельефными циклами на стенах пракары.",
+        "id": "Вайкунтха-перумал-канчи",
+        "location": "Канчипурам",
+        "materials": [
+          "песчаник"
+        ],
+        "name": "Вайкунтха Перумал (Тиру Парамешвара Виннагарам)",
+        "slug": "Вайкунтха-перумал-канчи",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Tiru_parameswara_vinnagaram",
+          "https://www.worldhistory.org/article/1336/on-the-pallava-trail-in-kanchipuram/"
+        ],
+        "start_year_ce": 770,
+        "state": "Тамил Наду",
+        "timeline": {
+          "events": [
+            {
+              "label": "Строительство при Нандивармане II",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Tiru_parameswara_vinnagaram"
+              ],
+              "start": 775
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Ядро Чола; более поздние дополнения Виджаянагара / наяка",
+        "build_type": "Строительный каменный комплекс",
+        "construction_method": "Дравидийский план с высоким восточным гопурамом; Виджаянагара/наяк мандапы.",
+        "dynasty_association": [
+          "Чола",
+          "Виджаянагара",
+          "Наяк"
+        ],
+        "end_year_ce": 900,
+        "estimated_date": "9 век н.э. (ядро), более поздние расширения 16 в.",
+        "how_it_was_built": "Кладка периода Чола дополнена культовой мандапой с резным изображением зодиака.",
+        "id": "ади-кумбешварар-кумбаконам",
+        "location": "Кумбаконам",
+        "materials": [
+          "гранит",
+          "песчаник"
+        ],
+        "name": "Храм Ади Кумбесварар",
+        "slug": "ади-кумбешварар-кумбаконам",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Adi_Kumbeswarar_Temple,_Кумбаконам"
+        ],
+        "start_year_ce": 850,
+        "state": "Тамил Наду",
+        "timeline": {
+          "events": [
+            {
+              "label": "Фаза Чола",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Adi_Kumbeswarar_Temple,_Кумбаконам"
+              ],
+              "start": 900
+            },
+            {
+              "label": "Расширения Виджаянагара/Наяка",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Adi_Kumbeswarar_Temple,_Кумбаконам"
+              ],
+              "start": 1500
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

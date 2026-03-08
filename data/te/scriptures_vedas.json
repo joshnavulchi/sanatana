@@ -1,0 +1,965 @@
+{
+  "scriptures_vedas": {
+    "title": "ప్రాచీన హిందూ గ్రంధాలు సనాతన ధర్మానికి పునాదిని ఏర్పరిచే దైవిక ద్యోతకాలుగా పరిగణించబడ్డాయి.",
+    "meta": {
+      "title": "గ్రంథాలు | వేదాలు — సనాతన ధర్మం - సనాతన ధర్మాన్ని అన్వేషించండి",
+      "canonical": "https://sanatanadharmam.in/scriptures/vedas",
+      "description": "వేదాలు — ఋగ్వేదం, యజుర్వేదం, సామవేదం, అథర్వవేదం — వ్యాసాలు, అనువాదాలు మరియు వేదాలపై సంక్షిప్త వ్యాఖ్యానం. అభ్యాసాలు, చరిత్ర మరియు మార్గదర్శకాలను అన్వేషించండి...",
+      "keywords": [
+        "atharvaveda",
+        "dharma",
+        "explore",
+        "rigveda",
+        "samaveda",
+        "sanātana",
+        "scriptures",
+        "upanishad",
+        "vedas",
+        "yajurveda",
+        "హిందూ పురాణాలు"
+      ],
+      "ogimage": "/og/vedas.png",
+      "url": "https://sanatanadharmam.in/scriptures/vedas"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "సంస్థ",
+        "contactpoint": {
+          "@type": "కాంటాక్ట్ పాయింట్",
+          "areaserved": "ప్రపంచవ్యాప్తంగా",
+          "availablelanguage": [
+            "العربية",
+            "డ్యూచ్",
+            "ఇంగ్లీష్",
+            "ఎస్పానోల్",
+            "ఫ్రాంకైస్",
+            "హిందీ",
+            "ఎస్",
+            "నేపాలీ",
+            "నెదర్లాండ్స్",
+            "పోర్చుగీస్",
+            "రస్కియ్",
+            "తెలుగు",
+            "అరేడు",
+            "中文 (简体)"
+          ],
+          "contacttype": "కస్టమర్ మద్దతు",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "సనాతనధర్మం.ఇన్ గురించి",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "all_108_upanishads": {
+      "description": "ముక్తికా సంప్రదాయం ప్రకారం 108 ఉపనిషత్తుల పూర్తి జాబితా.",
+      "list": [
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ఇషా",
+          "summary": "ఈశా ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "కేన",
+          "summary": "కేన ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "కథ",
+          "summary": "కథా ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రశ్న",
+          "summary": "ప్రశ్న ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ముండక",
+          "summary": "ముండక ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "మాండూక్య",
+          "summary": "మాండూక్య ఉపనిషత్తు కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "తైత్తిరియా",
+          "summary": "తైత్తిరీయ ఉపనిషత్తు కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ఐతరేయ",
+          "summary": "ఐతరేయ ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ఛాందోగ్య",
+          "summary": "ఛాందోగ్య ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "బృహదారణ్యక",
+          "summary": "బృహదారణ్యక ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "శ్వేతాశ్వతార",
+          "summary": "శ్వేతాశ్వతర ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "కైవల్య",
+          "summary": "కైవల్య ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "మైత్రి",
+          "summary": "మైత్రి ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "మహానారాయణుడు",
+          "summary": "మహానారాయణ ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "నరసింహ",
+          "summary": "నరసింహ ఉపనిషత్తు కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "పరమహంస",
+          "summary": "పరమహంస ఉపనిషత్తు కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "సుబల",
+          "summary": "సుబల ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "గరుడ",
+          "summary": "గరుడ ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "జాబాలా",
+          "summary": "జబాల ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "పైంగళ",
+          "summary": "పైంగళ ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "కౌశితకి",
+          "summary": "కౌషితకీ ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "సంఖ్య",
+          "summary": "సాంఖ్య ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "యోగా",
+          "summary": "యోగ ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "వజ్రశుచి",
+          "summary": "వజ్రశుచి ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "హంస",
+          "summary": "హంస ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "అవ్యక్త",
+          "summary": "అవ్యక్త ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ఆత్మ",
+          "summary": "ఆత్మ ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "శరీరాక",
+          "summary": "శరీరాక ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "అధ్యాత్మ",
+          "summary": "అధ్యాత్మ ఉపనిషత్తు కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "స్కంద",
+          "summary": "స్కంద ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "త్రిపాద్విభూతి",
+          "summary": "త్రిపాద్విభూతి ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "రుద్రుడు",
+          "summary": "రుద్ర ఉపనిషత్తు కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "భస్మ",
+          "summary": "భస్మ ఉపనిషత్తు కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "కాలాగ్ని",
+          "summary": "కాలాగ్ని ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "దక్షిణామూర్తి",
+          "summary": "దక్షిణామూర్తి ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "తేజోబిందు",
+          "summary": "తేజోబిందు ఉపనిషత్తు కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "బ్రహ్మబిందు",
+          "summary": "బ్రహ్మబిందు ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "అమృతబిందు",
+          "summary": "అమృతబిందు ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ఆత్మబోధ",
+          "summary": "ఆత్మబోధ ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "పరమానంద",
+          "summary": "పరమానంద ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "మండల",
+          "summary": "మండల ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "తారసరా",
+          "summary": "తారాసార ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ముక్తికా",
+          "summary": "ముక్తికా ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "అన్నపూర్ణ",
+          "summary": "అన్నపూర్ణ ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "సూర్య",
+          "summary": "సూర్య ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "అక్షి",
+          "summary": "అక్షి ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "చక్షులు",
+          "summary": "చక్షుస్ ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రాణాగ్నిహోత్రం",
+          "summary": "ప్రాణాగ్నిహోత్ర ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ",
+          "summary": "ప్రణవ ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-విద్య",
+          "summary": "ప్రణవ-విద్యా ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-శరీరక",
+          "summary": "ప్రణవ-శరీరక ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-యోగ",
+          "summary": "ప్రణవ-యోగ ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-బ్రహ్మ",
+          "summary": "ప్రణవ-బ్రహ్మ ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-ఉపనిషత్తు",
+          "summary": "ప్రణవ-ఉపనిషద్ ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-సంహిత",
+          "summary": "ప్రణవ-సంహిత ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-తత్త్వ",
+          "summary": "ప్రణవ-తత్త్వ ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-ధ్యాన",
+          "summary": "ప్రణవ-ధ్యాన ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-మంత్రం",
+          "summary": "ప్రణవ-మంత్ర ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-సిద్ధి",
+          "summary": "ప్రణవ-సిద్ధి ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-ముక్తి",
+          "summary": "ప్రణవ-ముక్తి ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-జ్ఞాన",
+          "summary": "ప్రణవ-జ్ఞాన ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-విద్య-ఉపనిషత్",
+          "summary": "ప్రణవ-విద్య-ఉపనిషద్ ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-శరీరక-ఉపనిషద్",
+          "summary": "ప్రణవ-శరీరక-ఉపనిషద్ ఉపనిషద్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-యోగ-ఉపనిషత్తు",
+          "summary": "ప్రణవ-యోగ-ఉపనిషద్ ఉపనిషద్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-బ్రహ్మ-ఉపనిషత్తు",
+          "summary": "ప్రణవ-బ్రహ్మ-ఉపనిషద్ ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-ఉపనిషత్తు-2",
+          "summary": "ప్రణవ-ఉపనిషత్-2 ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-సంహిత-ఉపనిషద్",
+          "summary": "ప్రణవ-సంహిత-ఉపనిషద్ ఉపనిషద్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-తత్త్వ-ఉపనిషద్",
+          "summary": "ప్రణవ-తత్త్వ-ఉపనిషద్ ఉపనిషద్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-ధ్యాన-ఉపనిషత్తు",
+          "summary": "ప్రణవ-ధ్యాన-ఉపనిషద్ ఉపనిషద్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-మంత్ర-ఉపనిషత్తు",
+          "summary": "ప్రణవ-మంత్ర-ఉపనిషద్ ఉపనిషద్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-సిద్ధి-ఉపనిషత్తు",
+          "summary": "ప్రణవ-సిద్ధి-ఉపనిషద్ ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-ముక్తి-ఉపనిషత్తు",
+          "summary": "ప్రణవ-ముక్తి-ఉపనిషద్ ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-జ్ఞాన-ఉపనిషత్తు",
+          "summary": "ప్రణవ-జ్ఞాన-ఉపనిషద్ ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-విద్య-ఉపనిషద్-2",
+          "summary": "ప్రణవ-విద్య-ఉపనిషద్-2 ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-శరీరక-ఉపనిషద్-2",
+          "summary": "ప్రణవ-శరీరక-ఉపనిషద్-2 ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-యోగ-ఉపనిషద్-2",
+          "summary": "ప్రణవ-యోగ-ఉపనిషద్-2 ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-బ్రహ్మ-ఉపనిషత్తు-2",
+          "summary": "ప్రణవ-బ్రహ్మ-ఉపనిషద్-2 ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-ఉపనిషత్తు-3",
+          "summary": "ప్రణవ-ఉపనిషద్-3 ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-సంహిత-ఉపనిషత్తు-2",
+          "summary": "ప్రణవ-సంహిత-ఉపనిషద్-2 ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-తత్త్వ-ఉపనిషద్-2",
+          "summary": "ప్రణవ-తత్త్వ-ఉపనిషద్-2 ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-ధ్యాన-ఉపనిషత్-2",
+          "summary": "ప్రణవ-ధ్యాన-ఉపనిషద్-2 ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-మంత్ర-ఉపనిషత్తు-2",
+          "summary": "ప్రణవ-మంత్ర-ఉపనిషద్-2 ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-సిద్ధి-ఉపనిషత్తు-2",
+          "summary": "ప్రణవ-సిద్ధి-ఉపనిషద్-2 ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-ముక్తి-ఉపనిషత్తు-2",
+          "summary": "ప్రణవ-ముక్తి-ఉపనిషద్-2 ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-జ్ఞాన-ఉపనిషత్తు-2",
+          "summary": "ప్రణవ-జ్ఞాన-ఉపనిషద్-2 ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-విద్య-ఉపనిషద్-3",
+          "summary": "ప్రణవ-విద్య-ఉపనిషద్-3 ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-శరీరక-ఉపనిషద్-3",
+          "summary": "ప్రణవ-శరీరక-ఉపనిషద్-3 ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-యోగ-ఉపనిషత్తు-3",
+          "summary": "ప్రణవ-యోగ-ఉపనిషద్-3 ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ప్రణవ-బ్రహ్మ-ఉపనిషత్తు-3",
+          "summary": "ప్రణవ-బ్రహ్మ-ఉపనిషద్-3 ఉపనిషత్ కోసం సంక్షిప్త సారాంశం ప్లేస్‌హోల్డర్."
+        }
+      ],
+      "resource_links": [
+        {
+          "title": "Scriptures.ru - పూర్తి టెక్స్ట్ సేకరణ",
+          "url": "https://scriptures.ru/upanishad/"
+        },
+        {
+          "title": "గీతా సంఘం – 108 ఉపనిషత్తులు PDF",
+          "url": "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+        },
+        {
+          "title": "కాలచక్ర - అన్నీ ఒకే సేకరణ",
+          "url": "https://kaalchakra.in/108-upanishads-all-in-one/"
+        },
+        {
+          "title": "Archive.org – ఆంగ్ల అనువాదం",
+          "url": "https://archive.org/stream/1UpanishadsRigVeda/5Upanishads%20-%20Atharva%20Veda_djvu.txt"
+        }
+      ]
+    },
+    "authorship": {
+      "compiler": "సాంప్రదాయకంగా వ్యాసునికి ఆపాదించబడింది",
+      "nature": "అపౌరుషేయ (మానవ మూలం కాదు)",
+      "process": "ధ్యాన సమయంలో ఋషులకు (ఋషులు) వెల్లడి చేయబడింది"
+    },
+    "benefits": [
+      "ఆధ్యాత్మిక అంతర్దృష్టిని మరియు స్వీయ-సాక్షాత్కారాన్ని మేల్కొల్పుతుంది",
+      "నైతిక జీవనం మరియు సామాజిక సామరస్యానికి పునాదిని అందిస్తుంది",
+      "శాస్త్రీయ, కళాత్మక మరియు తాత్విక విచారణను ప్రేరేపిస్తుంది",
+      "కాస్మిక్ ఆర్డర్ మరియు సార్వత్రిక స్పృహతో వ్యక్తులను కలుపుతుంది",
+      "ధ్యానం, భక్తి మరియు సరైన చర్య కోసం కలకాలం మార్గదర్శకత్వం అందిస్తుంది"
+    ],
+    "features": [
+      "కవితాత్మకమైన, ప్రతీకాత్మకమైన భాషలో బహుళ అర్థ పొరలతో రూపొందించబడింది",
+      "సహస్రాబ్దాలుగా కచ్చితమైన మెమోరైజేషన్ టెక్నిక్‌లతో నోటి ద్వారా ప్రసారం చేయబడింది",
+      "సంహిత, బ్రాహ్మణ, అరణ్యక మరియు ఉపనిషత్ విభాగాలతో నాలుగు వేదాలుగా విభజించబడింది.",
+      "స్తోత్రాలు, ఆచారాలు, తత్వశాస్త్రం, విశ్వోద్భవ శాస్త్రం మరియు ఆచరణాత్మక మార్గదర్శకత్వాన్ని ఏకీకృతం చేస్తుంది",
+      "భిన్నత్వంలో ఏకత్వాన్ని నొక్కి చెబుతుంది-ఒక నిజం అనేక రూపాల్లో వ్యక్తీకరించబడింది"
+    ],
+    "intro": "వేదాలు (సంస్కృత మూలం 'విద్' నుండి — తెలుసుకోవాలంటే) దక్షిణాసియా పవిత్ర సాహిత్యం యొక్క పురాతన స్ట్రాటమ్. వేద సంస్కృతంలో కంపోజ్ చేయబడింది మరియు సాంప్రదాయిక మౌఖిక ప్రసారం ద్వారా సంరక్షించబడింది, వారు ఆచార అభ్యాసం, సామాజిక ఆదర్శాలు మరియు ప్రారంభ భారతీయ ఆలోచనలను రూపొందించారు.",
+    "language": "వేద సంస్కృతం",
+    "origin": {
+      "meaning": "వేదం అంటే సంస్కృతంలో 'జ్ఞానం'.",
+      "period": "1500 BCE – 500 BCE (వేద కాలం)",
+      "transmission": "వేద సంస్కృతంలో వ్రాయబడటానికి ముందు శతాబ్దాలుగా మౌఖికంగా భద్రపరచబడింది."
+    },
+    "purpose": "ఉనికి యొక్క ప్రాథమిక సత్యాలను, విశ్వం యొక్క స్వభావాన్ని మరియు దైవంతో సామరస్యానికి మార్గాన్ని బహిర్గతం చేయడానికి. వేదాలు మానవ స్పృహను పెంపొందించడం, అంతర్గత మరియు బాహ్య క్రమాన్ని (రీటా) పెంపొందించడం మరియు సత్యం (సత్య) మరియు అమరత్వం (అమృతం) కోసం ప్రేరేపించడం లక్ష్యంగా పెట్టుకున్నాయి.",
+    "significance": "హిందూ తత్వశాస్త్రం, ఆచారాలు మరియు ఆధ్యాత్మిక అభ్యాసాల ఆధారంగా. వేదాలు జీవితంలోని ఆధ్యాత్మిక, నైతిక, సామాజిక మరియు విశ్వసంబంధమైన అన్ని అంశాలలో మానవాళికి మార్గనిర్దేశం చేసే శాశ్వతమైన జ్ఞానం యొక్క మూలంగా గౌరవించబడ్డాయి. అవి కేవలం గ్రంథాలు మాత్రమే కాదు, సజీవ జ్ఞానం, గ్రహించడానికి మరియు అనుభవించడానికి ఉద్దేశించబడింది.",
+    "structure": {
+      "fourvedas": [
+        {
+          "content": "అగ్ని, ఇంద్రుడు, వరుణుడు వంటి దేవతలను స్తుతించే స్తోత్రాలు",
+          "features": "పురాతన వేదం, 1,028 శ్లోకాలు",
+          "name": "ఋగ్వేదం"
+        },
+        {
+          "content": "ఆచారాల కోసం రాగాలు మరియు కీర్తనలు",
+          "features": "ఋగ్వేద శ్లోకాల సంగీత అమరిక",
+          "name": "సామవేదం"
+        },
+        {
+          "content": "త్యాగాలు మరియు ఆచారాలకు గద్య మంత్రాలు",
+          "features": "యజ్ఞాల సమయంలో పూజారులు ఉపయోగిస్తారు",
+          "name": "యజుర్వేదం"
+        },
+        {
+          "content": "రోజువారీ జీవితంలో స్తోత్రాలు, మంత్రాలు మరియు మంత్రాలు",
+          "features": "ఆచరణాత్మక మరియు తాత్విక అంశాలు",
+          "name": "అథర్వవేదం"
+        }
+      ],
+      "subdivisions": [
+        "సంహితలు",
+        "బ్రాహ్మణులు",
+        "అరణ్యకాలు",
+        "ఉపనిషత్తులు"
+      ]
+    },
+    "themes": [
+      "విశ్వవిజ్ఞానం",
+      "నీతిశాస్త్రం",
+      "ఆచారాలు",
+      "తత్వశాస్త్రం"
+    ],
+    "timeline": [
+      {
+        "date": "1500 BCE - 1200 BCE",
+        "description": "ఋగ్వేద శ్లోకాల కూర్పు; మౌఖిక సంప్రదాయం ప్రారంభమవుతుంది.",
+        "phase": "ప్రారంభ వేద కాలం"
+      },
+      {
+        "date": "1200 BCE - 900 BCE",
+        "description": "సామవేదం మరియు యజుర్వేద అభివృద్ధి; కర్మ దృష్టి.",
+        "phase": "మధ్య వేద కాలం"
+      },
+      {
+        "date": "900 BCE - 500 BCE",
+        "description": "అథర్వవేద కంపోజ్డ్; బ్రాహ్మణాలు మరియు అరణ్యకాలు వ్రాయబడ్డాయి.",
+        "phase": "చివరి వేద కాలం"
+      },
+      {
+        "date": "800 BCE - 200 BCE",
+        "description": "తాత్విక మార్పు; ఆధ్యాత్మిక జ్ఞానాన్ని నొక్కి చెబుతూ ఉపనిషత్తులు సంకలనం చేయబడ్డాయి.",
+        "phase": "ఉపనిషత్తు యుగం"
+      },
+      {
+        "date": "సుమారు 500 BCE నుండి",
+        "description": "వేదాలు మరియు ఉపనిషత్తులు లిఖిత రూపంలో నమోదు చేయబడ్డాయి.",
+        "phase": "వ్రాసిన సంకలనం"
+      },
+      {
+        "date": "సాంప్రదాయం: త్రేతా యుగం | ఖగోళ అంచనా: ~5114 BCE",
+        "description": "అయోధ్యలో జన్మించిన విష్ణువు యొక్క ఏడవ అవతారం; రామ నవమిగా జరుపుకుంటారు.",
+        "phase": "శ్రీరాముని జననం"
+      },
+      {
+        "date": "సాంప్రదాయం: ద్వాపర యుగం | ఖగోళ అంచనా: ~3228 BCE",
+        "description": "మధురలో జన్మించిన విష్ణువు యొక్క ఎనిమిదవ అవతారం; జన్మాష్టమిగా జరుపుకుంటారు.",
+        "phase": "శ్రీకృష్ణుని జననం"
+      },
+      {
+        "date": "సుమారు 6 BCE - 4 BCE",
+        "description": "సాంప్రదాయ క్రైస్తవ విశ్వాసం హేరోదు రాజు మరణానికి ముందు యేసు జన్మనిస్తుంది.",
+        "phase": "యేసు క్రీస్తు జననం"
+      },
+      {
+        "date": "టైమ్‌లెస్ (అనాది-అనంత)",
+        "description": "శివుడు శాశ్వతుడు, జనన మరణాలకు అతీతుడు; విశ్వ చైతన్యంగా వ్యక్తమవుతుంది.",
+        "phase": "శివుడు"
+      }
+    ],
+    "unique_insights": "వేదాలు వాటి సార్వత్రికత మరియు లోతులో ప్రత్యేకమైనవి. అవి ఏ ఒక్క శాఖకు లేదా యుగానికి చెందినవి కావు, కానీ అర్థం మరియు అతీతం కోసం శాశ్వతమైన అన్వేషణను సూచిస్తాయి. వారి మంత్రాలు అంతర్గత ఆధ్యాత్మిక శక్తిని (శబ్ద బ్రాహ్మణం) కలిగి ఉన్నాయని చెబుతారు మరియు వారి జ్ఞానం ప్రపంచవ్యాప్తంగా అన్వేషకులు, పండితులు మరియు సమాజాలను ప్రేరేపిస్తూనే ఉంది.",
+    "upanishads": {
+      "definition": "ఆధ్యాత్మిక జ్ఞానాన్ని దృష్టిలో ఉంచుకుని వేదాల ముగింపు భాగమైన తాత్విక గ్రంథాలు.",
+      "major_upanishads": [
+        {
+          "links": [
+            "https://www.gutenberg.org/ebooks/3283"
+          ],
+          "name": "ఇషా",
+          "summary": "సమస్త జీవరాశులలో బ్రహ్మను త్యజించడం మరియు ఐక్యతను బోధిస్తుంది."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/"
+          ],
+          "name": "కేన",
+          "summary": "అవగాహన మరియు అంతిమ వాస్తవికత యొక్క మూలాన్ని అన్వేషిస్తుంది."
+        },
+        {
+          "links": [
+            "https://kaalchakra.in/108-upanishads-all-in-one/"
+          ],
+          "name": "కథ",
+          "summary": "అమరత్వంపై నచికేత మరియు యమ మధ్య సంభాషణ."
+        },
+        {
+          "links": [
+            "https://archive.org/stream/1UpanishadsRigVeda/5Upanishads%20-%20Atharva%20Veda_djvu.txt"
+          ],
+          "name": "ముండక",
+          "summary": "అధిక మరియు తక్కువ జ్ఞానం; సర్వోన్నత వాస్తవంగా బ్రహ్మం."
+        },
+        {
+          "links": [
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "మాండూక్య",
+          "summary": "ఓం యొక్క విశ్లేషణ మరియు స్పృహ స్థితి."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/"
+          ],
+          "name": "తైత్తిరియా",
+          "summary": "మానవ ఉనికి యొక్క పొరలు; బ్రహ్మానందం."
+        },
+        {
+          "links": [
+            "https://kaalchakra.in/108-upanishads-all-in-one/"
+          ],
+          "name": "ఛాందోగ్య",
+          "summary": "ధ్యానం, నీతి, మరియు 'తత్ త్వం అసి' భావన."
+        },
+        {
+          "links": [
+            "https://archive.org/stream/1UpanishadsRigVeda/5Upanishads%20-%20Atharva%20Veda_djvu.txt"
+          ],
+          "name": "బృహదారణ్యక",
+          "summary": "స్వీయ జ్ఞానం; ఆత్మపై తాత్విక సంభాషణలు."
+        }
+      ]
+    }
+  }
+}

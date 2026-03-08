@@ -1,0 +1,185 @@
+{
+  "practices_dailypoojas": {
+    "meta": {
+      "title": "实践|每日法会 — Sanatana Dharma - 探索 Sanatana Dharma",
+      "canonical": "https://sanatanadharmam.in/practices/dailypoojas",
+      "description": "修行 — Dailypuja — Sanātana Dharma - 探索 Sanatan Dharma — 有关修行的文章、翻译和简明评论。探索实践、历史和指导原则......",
+      "keywords": [
+        "daily puja",
+        "daily puja benefits",
+        "daily puja concepts",
+        "daily puja for beginners",
+        "daily puja for modern life",
+        "daily puja for students",
+        "daily puja modern relevance",
+        "daily puja origin and history",
+        "daily puja personal development",
+        "daily puja practices",
+        "daily puja principles",
+        "daily puja q&a",
+        "daily puja relation to other concepts",
+        "daily puja scriptural references",
+        "daily puja significance",
+        "daily puja society",
+        "daily puja steps",
+        "daily puja symbolism",
+        "daily puja well-being",
+        "home puja",
+        "puja benefits",
+        "puja for family bonding",
+        "puja for mindfulness",
+        "puja for spirituality",
+        "puja modern relevance",
+        "puja origin and history",
+        "puja rituals",
+        "puja scriptural references",
+        "puja significance",
+        "puja steps",
+        "puja symbolism",
+        "temple puja"
+      ],
+      "ogimage": "/og/practices-dailypuja.png",
+      "url": "https://sanatanadharmam.in/practices/dailypoojas"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "组织",
+        "contactpoint": {
+          "@type": "联络点",
+          "areaserved": "全世界",
+          "availablelanguage": [
+            "巴黎",
+            "德语",
+            "英语",
+            "西班牙语",
+            "法国人",
+            "हिन्दी",
+            "日本语",
+            "नेपाली",
+            "荷兰",
+            "葡萄牙语",
+            "俄罗斯",
+            "తెలుగు",
+            "阿鲁多",
+            "中文 (简体)"
+          ],
+          "contacttype": "客户支持",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "关于 Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "benefits_of_daily_puja": {
+      "mental": [
+        "通过冥想练习减轻压力和焦虑。",
+        "创造一种纪律感和常规感。",
+        "增强思维的焦点和清晰度。"
+      ],
+      "physical": [
+        "清晨的仪式鼓励健康的习惯。",
+        "呼吸和念诵可以改善呼吸系统健康。",
+        "积极的振动可以促进整体健康。"
+      ],
+      "social": [
+        "通过共同的仪式加强家庭联系。",
+        "保护文化和精神遗产。",
+        "在集体祈祷期间鼓励社区和谐。"
+      ],
+      "spiritual": [
+        "促进内心的平静和正念。",
+        "加强与神圣的奉献和联系。",
+        "净化心灵并减少负面倾向。"
+      ]
+    },
+    "common_daily_pujas": [
+      {
+        "name": "桑迪亚万达南",
+        "practices": [
+          "念诵伽耶特黎真言",
+          "水供（Arghya）",
+          "冥想"
+        ],
+        "significance": "吠陀祈祷净化和感谢太阳神。",
+        "time": "早上、中午、晚上"
+      },
+      {
+        "name": "苏里亚法会",
+        "practices": [
+          "向太阳提供水",
+          "念诵苏里亚咒语"
+        ],
+        "significance": "崇拜太阳神以获得健康和活力。",
+        "time": "早晨"
+      },
+      {
+        "name": "图尔西法会",
+        "practices": [
+          "图尔西附近的照明灯",
+          "献上水和鲜花"
+        ],
+        "significance": "崇拜图尔西植物以求纯洁和繁荣。",
+        "time": "早上或晚上"
+      },
+      {
+        "name": "湿婆祭",
+        "practices": [
+          "供奉比尔瓦叶",
+          "念诵“Om Namah Shivaya”"
+        ],
+        "significance": "崇拜湿婆神以获得和平与解放。",
+        "time": "早上或晚上"
+      },
+      {
+        "name": "拉克希米法会",
+        "practices": [
+          "照明灯具",
+          "提供鲜花和糖果"
+        ],
+        "significance": "崇拜拉克希米女神，祈求财富与和谐。",
+        "time": "晚上"
+      }
+    ],
+    "definition": "每日法会是在家中或寺庙中举行的虔诚仪式，以纪念神灵、维持精神纪律并表达感激之情。",
+    "key_scriptural_references": [
+      {
+        "quote_summary": "将每一个行为都视为对神的崇拜。",
+        "text": "薄伽梵歌"
+      },
+      {
+        "quote_summary": "规定了每日法会的详细程序。",
+        "text": "阿伽马斯"
+      }
+    ],
+    "modern_relevance": {
+      "family_bonding": "共同的仪式可以加强关系。",
+      "mindfulness": "每日法会促进平静和感恩。",
+      "spirituality": "将个人与更高的意识联系起来。"
+    },
+    "origin": {
+      "purpose": "祈求神圣的祝福并净化心灵。",
+      "roots": "吠陀传统",
+      "texts": [
+        "阿伽马斯",
+        "斯姆里蒂斯",
+        "往世书"
+      ]
+    },
+    "steps_in_home_puja": [
+      "清洁祭坛及周围区域。",
+      "将神像或图片放置在干净的平台上。",
+      "点燃一盏灯（迪帕）和香。",
+      "提供鲜花、水果和水。",
+      "念诵咒语或进行静默冥想。",
+      "与 Aarti 达成协议并分发 Prasadam。"
+    ],
+    "symbolism": [
+      "灯象征着除去黑暗（无明）。",
+      "鲜花代表纯洁和奉献。",
+      "水供象征着臣服和生命能量。"
+    ]
+  }
+}

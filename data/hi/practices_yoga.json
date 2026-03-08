@@ -1,0 +1,150 @@
+{
+  "practices_yoga": {
+    "title": "",
+    "meta": {
+      "title": "दर्शन | योग - सनातन धर्म - सनातन धर्म का अन्वेषण करें",
+      "canonical": "https://sanatanadharmam.in/philosophy/yoga",
+      "description": "दर्शन - योग - सनातन धर्म - सनातन धर्म का अन्वेषण - दर्शन पर लेख, अनुवाद और संक्षिप्त टिप्पणी। यहां प्रथाओं, इतिहास और मार्गदर्शक सिद्धांतों का अन्वेषण करें...",
+      "keywords": [
+        "bhagavadgita yoga",
+        "hindu yoga",
+        "upanishads yoga",
+        "vedic yoga",
+        "yoga concepts explained in sanatana dharma",
+        "yoga concepts for beginners",
+        "yoga concepts for students",
+        "yoga concepts in modern life",
+        "yoga concepts in sanatana dharma",
+        "yoga history explained in sanatana dharma",
+        "yoga history for beginners",
+        "yoga history for students",
+        "yoga history in modern life",
+        "yoga history of sanatana dharma",
+        "yoga insights explained in sanatana dharma",
+        "yoga insights for beginners",
+        "yoga insights for students",
+        "yoga insights from sanatana dharma",
+        "yoga insights in modern life",
+        "yoga philosophy",
+        "yoga practices explained in sanatana dharma",
+        "yoga practices for beginners",
+        "yoga practices for students",
+        "yoga practices in modern life",
+        "yoga practices in sanatana dharma",
+        "yoga principles explained in sanatana dharma",
+        "yoga principles for beginners",
+        "yoga principles for students",
+        "yoga principles in modern life",
+        "yoga principles of sanatana dharma",
+        "yoga q&a explained in sanatana dharma",
+        "yoga q&a for beginners",
+        "yoga q&a for students",
+        "yoga q&a in modern life",
+        "yoga q&a on sanatana dharma",
+        "yoga relevance explained in sanatana dharma",
+        "yoga relevance for beginners",
+        "yoga relevance for students",
+        "yoga relevance in modern life",
+        "yoga relevance of sanatana dharma in modern life",
+        "yoga sutras of patanjali",
+        "yoga teachings explained in sanatana dharma",
+        "yoga teachings for beginners",
+        "yoga teachings for students",
+        "yoga teachings in modern life",
+        "yoga teachings of sanatana dharma"
+      ],
+      "ogimage": "/og/philosophy-yoga.png",
+      "url": "https://sanatanadharmam.in/philosophy/yoga"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "संगठन",
+        "contactpoint": {
+          "@type": "संपर्क बिंदु",
+          "areaserved": "दुनिया भर में",
+          "availablelanguage": [
+            "धन्यवाद",
+            "जर्मन",
+            "अंग्रेजी",
+            "Español",
+            "फ़्रांसीसी",
+            "हिन्दी",
+            "ठीक है",
+            "नेपाली",
+            "नीदरलैंड",
+            "पुर्तगाली",
+            "Русский",
+            "ठीक है",
+            "धन्यवाद",
+            "中文 (简体)"
+          ],
+          "contacttype": "ग्राहक सहायता",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "सनातनधर्मम.इन के बारे में",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "core_principles": [
+      "वैयक्तिक स्व (आत्मान) का सार्वभौमिक चेतना (ब्राह्मण) के साथ मिलन",
+      "शारीरिक, मानसिक और आध्यात्मिक पहलुओं का संतुलन",
+      "अनुशासन और नैतिक जीवन"
+    ],
+    "definition": "योग एक आध्यात्मिक अनुशासन और दर्शन है जिसका उद्देश्य आत्म-प्राप्ति और मुक्ति (मोक्ष) प्राप्त करने के लिए शरीर, मन और आत्मा में सामंजस्य स्थापित करना है।",
+    "eight_limbs_of_yoga": [
+      "यम (नैतिक संयम)",
+      "नियम (व्यक्तिगत अनुष्ठान)",
+      "आसन",
+      "प्राणायाम (सांस पर नियंत्रण)",
+      "प्रत्याहार (इंद्रियों की वापसी)",
+      "धारणा (एकाग्रता)",
+      "ध्यान (ध्यान)",
+      "समाधि (अवशोषण या मिलन)"
+    ],
+    "goals": [
+      "आत्मबोध",
+      "मानसिक स्पष्टता और शांति",
+      "शारीरिक स्वास्थ्य और जीवन शक्ति",
+      "कष्ट से मुक्ति"
+    ],
+    "key_scriptural_references": [
+      {
+        "quote_summary": "मानसिक उतार-चढ़ाव की समाप्ति ही योग है।",
+        "text": "पतंजलि के योग सूत्र"
+      },
+      {
+        "quote_summary": "योग कर्म में कुशलता और जीवन में संतुलन है।",
+        "text": "भगवतगीता"
+      }
+    ],
+    "modern_relevance": {
+      "health": "शारीरिक फिटनेस और मानसिक स्वास्थ्य में सुधार करता है।",
+      "spiritual_growth": "दिमागीपन और आंतरिक शांति को प्रोत्साहित करता है।",
+      "stress_management": "चिंता को कम करता है और शांति को बढ़ावा देता है।"
+    },
+    "origin": {
+      "meaning": "यह संस्कृत के 'युज' से बना है, जिसका अर्थ है 'एकजुट होना या जुड़ना'।",
+      "roots": "वैदिक परंपरा और उपनिषद",
+      "texts": [
+        "पतंजलि के योग सूत्र",
+        "भगवतगीता",
+        "उपनिषद"
+      ]
+    },
+    "paths_of_yoga": {
+      "bhakti_yoga": "Path of devotion and love for the divine.",
+      "hatha_yoga": "Path of physical postures and breath control.",
+      "jnana_yoga": "Path of knowledge and wisdom.",
+      "karma_yoga": "Path of selfless action.",
+      "raja_yoga": "Path of meditation and mental discipline."
+    },
+    "relation_to_other_concepts": {
+      "dharma": "योग धार्मिक जीवन का समर्थन करता है।",
+      "karma": "योग कार्यों और इरादों को शुद्ध करता है।",
+      "moksha": "योग मुक्ति का सीधा मार्ग है।"
+    }
+  }
+}

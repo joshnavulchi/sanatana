@@ -1,0 +1,246 @@
+{
+  "practices_festivals": {
+    "meta": {
+      "title": "Praktijken | Festivals — Sanātana Dharma - Ontdek Sanatan Dharma",
+      "canonical": "https://sanatanadharmam.in/practices/festivals",
+      "description": "Praktijken — Festivals — Sanātana Dharma - Ontdek Sanatan Dharma — Artikelen, vertalingen en beknopt commentaar op praktijken. Ontdek praktijken, geschiedenis en leidende principes...",
+      "keywords": [
+        "diwali",
+        "diwali explained",
+        "festivals concepts",
+        "festivals for beginners",
+        "festivals for students",
+        "festivals in sanatana dharma",
+        "festivals modern relevance",
+        "festivals modern relevance explained",
+        "festivals origin and history",
+        "festivals origin and history explained",
+        "festivals practices",
+        "festivals practices explained",
+        "festivals principles",
+        "festivals q&a",
+        "festivals scriptural references",
+        "festivals scriptural references explained",
+        "festivals significance",
+        "festivals significance explained",
+        "festivals symbolism",
+        "festivals symbolism explained",
+        "hindu festivals",
+        "holi",
+        "holi explained",
+        "janmashtami",
+        "janmashtami explained",
+        "maha shivaratri",
+        "maha shivaratri explained",
+        "major hindu festivals",
+        "major hindu festivals explained",
+        "major hindu festivals modern relevance",
+        "major hindu festivals origin and history",
+        "major hindu festivals practices",
+        "major hindu festivals scriptural references",
+        "major hindu festivals significance",
+        "major hindu festivals symbolism",
+        "makar sankranti",
+        "makar sankranti explained",
+        "navaratri",
+        "navaratri explained",
+        "ratha yatra",
+        "ratha yatra explained",
+        "seasonal festivals in hinduism",
+        "seasonal festivals in hinduism explained",
+        "seasonal festivals in hinduism modern relevance",
+        "seasonal festivals in hinduism origin and history",
+        "seasonal festivals in hinduism practices",
+        "seasonal festivals in hinduism scriptural references",
+        "seasonal festivals in hinduism significance",
+        "seasonal festivals in hinduism symbolism",
+        "vasant panchami",
+        "vasant panchami explained",
+        "vedic festivals"
+      ],
+      "ogimage": "/og/practices-festivals.png",
+      "url": "https://sanatanadharmam.in/practices/festivals"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organisatie",
+        "contactpoint": {
+          "@type": "ContactPunt",
+          "areaserved": "Wereldwijd",
+          "availablelanguage": [
+            "العربية",
+            "Duits",
+            "Engels",
+            "Spaans",
+            "Frans",
+            "Ja",
+            "日本語",
+            "Ja",
+            "Nederlands",
+            "Portugees",
+            "Русский",
+            "Ja",
+            "Ja",
+            "中文 (简体)"
+          ],
+          "contacttype": "Klantenondersteuning",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Over Sanatanadharam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "definition": "Festivals in Sanātana Dharma zijn heilige gelegenheden die kosmische principes, goden en seizoensveranderingen vieren, waarbij spirituele, culturele en sociale dimensies worden gecombineerd.",
+    "key_scriptural_references": [
+      {
+        "quote_summary": "Seizoensrituelen zorgen voor harmonie met de kosmische orde.",
+        "text": "Rig Veda"
+      },
+      {
+        "quote_summary": "Offers en toewijding zuiveren de geest en leiden tot bevrijding.",
+        "text": "Bhagavathgita"
+      }
+    ],
+    "major_festivals": {
+      "diwali": {
+        "practices": [
+          "Het aansteken van olielampen (Deepa) in huizen en tempels.",
+          "Lakshmi Puja voor rijkdom en welvaart.",
+          "Vuurwerk afsteken en snoep delen."
+        ],
+        "season": "Herfst",
+        "significance": "Festival of Lights symboliseert de overwinning van het licht op de duisternis."
+      },
+      "janmashtami": {
+        "practices": [
+          "Middernachtse puja en het zingen van Krishna's namen.",
+          "Dahi Handi (brekende wrongelpot) in Maharashtra.",
+          "Bhajans en Bhagavathgita-recitatie."
+        ],
+        "season": "Moesson",
+        "significance": "Viert de geboorte van Heer Krishna."
+      },
+      "maha_shivaratri": {
+        "practices": [
+          "Vasten en nachtelijke wake.",
+          "Bilvabladeren en water aanbieden aan Shiva Lingam.",
+          "Het zingen van 'Om Namah Shivaya'."
+        ],
+        "season": "Late winter",
+        "significance": "Nacht van Shiva, symbool voor spiritueel ontwaken."
+      },
+      "navaratri": {
+        "practices": [
+          "Dagelijkse aanbidding van verschillende vormen van Devi.",
+          "Vasten en reciteren van Devi Mahatmya.",
+          "Garba en Dandiya dansen in West-India."
+        ],
+        "season": "Herfst",
+        "significance": "Negen nachten gewijd aan godin Durga en haar vormen."
+      }
+    },
+    "modern_relevance": {
+      "community": "Festivals versterken sociale banden en culturele identiteit.",
+      "spirituality": "Moedigt toewijding en mindfulness aan.",
+      "sustainability": "Bevordert milieuvriendelijke praktijken bij moderne feesten."
+    },
+    "origin": {
+      "purpose": "Om goden te eren, dankbaarheid te uiten en de Dharma in het gemeenschapsleven te versterken.",
+      "roots": "Vedische en Puranische tradities",
+      "texts": [
+        "Veda's",
+        "Purana's",
+        "Smritis"
+      ]
+    },
+    "seasonal_festivals": {
+      "autumn": [
+        {
+          "name": "Navaratri",
+          "practices": [
+            "Vasten",
+            "Garba-dans",
+            "Het reciteren van geschriften"
+          ],
+          "significance": "Negen nachten van Devi-aanbidding."
+        },
+        {
+          "name": "Diwali",
+          "practices": [
+            "Verlichting lampen",
+            "Lakshmi Puja",
+            "Vuurwerk"
+          ],
+          "significance": "Festival van Lichten."
+        }
+      ],
+      "monsoon": [
+        {
+          "name": "Krishna Janmashtami",
+          "practices": [
+            "Middernacht puja",
+            "Dahi Handi-vieringen"
+          ],
+          "significance": "Geboorte van Heer Krishna."
+        }
+      ],
+      "spring": [
+        {
+          "name": "Holi",
+          "practices": [
+            "Spelen met kleuren",
+            "Vreugdevuurrituelen (Holika Dahan)",
+            "Gemeenschappelijke zang en dans"
+          ],
+          "significance": "Kleurenfestival dat de komst van de lente markeert en de overwinning van het goede op het kwade."
+        },
+        {
+          "name": "Vasant Panchami",
+          "practices": [
+            "Aanbidding van Saraswati",
+            "Gele kledij en voedselaanbod"
+          ],
+          "significance": "Opgedragen aan de godin Saraswati, ter gelegenheid van het begin van de lente."
+        }
+      ],
+      "summer": [
+        {
+          "name": "Ratha Yatra",
+          "practices": [
+            "Het trekken van strijdwagens",
+            "Gemeenschapsfeesten",
+            "Tempelrituelen"
+          ],
+          "significance": "Strijdwagenfestival van Lord Jagannath in Odisha."
+        }
+      ],
+      "winter": [
+        {
+          "name": "Makar Sankranti",
+          "practices": [
+            "Vliegende vliegers",
+            "Het aanbieden van sesamsnoepjes",
+            "Aanbidding van de zon"
+          ],
+          "significance": "Oogstfeest ter gelegenheid van de overgang van de zon naar Steenbok."
+        },
+        {
+          "name": "Maha Shivaratri",
+          "practices": [
+            "Nachtelijke wake",
+            "Bilvabladaanbod"
+          ],
+          "significance": "Nacht van Shiva."
+        }
+      ]
+    },
+    "symbolism": [
+      "Licht vertegenwoordigt kennis en het verwijderen van onwetendheid.",
+      "Kleuren staan voor vreugde en diversiteit.",
+      "Vasten zuivert lichaam en geest voor spirituele focus."
+    ]
+  }
+}

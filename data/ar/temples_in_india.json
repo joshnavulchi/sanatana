@@ -1,0 +1,858 @@
+{
+  "temples_in_india": {
+    "meta": {
+      "title": "أقدم المعابد في الهند - التواريخ والهندسة المعمارية والبناء والجداول الزمنية",
+      "canonical": "https://sanatanadharmam.in/temples-in-india",
+      "description": "المعابد القديمة والعصور الوسطى التي تم التحقق منها تاريخيًا في الهند مع ملاحظات حول كيفية البناء والأنماط المعمارية وسياق السلالات الحاكمة والجداول الزمنية للأحداث.",
+      "keywords": [
+        "Adi Kumbeswarar Kumbakonam",
+        "Ancient Hindu Temples",
+        "Ancient Indian architecture",
+        "Archaeological studies of temples",
+        "Ashlar masonry",
+        "Brihadeeswarar Temple Thanjavur",
+        "Chennakesava Temple Belur",
+        "Comparative temple studies",
+        "Construction Methods",
+        "Cultural significance of temples",
+        "Dashavatara Temple",
+        "Durga Temple Aihole",
+        "Dynastic Associations",
+        "Hindu temple history",
+        "Historical Timelines",
+        "Historical sources on temples",
+        "Iconography and temple sculpture",
+        "Indian temple construction",
+        "Inscriptions and temple history",
+        "Jagannath Temple Puri",
+        "Kailasa Ellora",
+        "Kailasanathar Temple",
+        "Konark Sun Temple",
+        "Lingaraja Temple Bhubaneswar",
+        "Medieval Hindu Temples",
+        "Medieval Indian architecture",
+        "Modhera Sun Temple",
+        "Monolithic temples",
+        "Mukteshwara Temple Bhubaneswar",
+        "Mundeshwari Temple",
+        "Oldest Temples in India",
+        "Palaeographic dating",
+        "Pancha Rathas",
+        "Religious practices and temples",
+        "Rock-cut temples",
+        "Shore Temple",
+        "Structural stone temples",
+        "Temple Architecture",
+        "Temple architecture and community bonds",
+        "Temple architecture and cosmology",
+        "Temple architecture and cultural identity",
+        "Temple architecture and ethical decision-making",
+        "Temple architecture and religious beliefs",
+        "Temple architecture and social structure",
+        "Temple architecture and spiritual reflection",
+        "Temple architecture evolution",
+        "Temple architecture styles",
+        "Temple art and aesthetics",
+        "Temple conservation and restoration",
+        "Temple dynasties",
+        "Temple engineering and construction techniques",
+        "Temple festivals and rituals",
+        "Temple legends and folklore",
+        "Temple patronage and politics",
+        "Temple rituals and ceremonies",
+        "Temple symbolism and meaning",
+        "Temple timelines",
+        "Temple tourism in India",
+        "UNESCO World Heritage temples",
+        "Vaikuntha Perumal Kanchipuram",
+        "Virupaksha Temple Pattadakal"
+      ],
+      "ogimage": "images/og/home.png",
+      "url": "https://sanatanadharmam.in/temples-in-india"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "منظمة",
+        "contactpoint": {
+          "@type": "نقطة الاتصال",
+          "areaserved": "في جميع أنحاء العالم",
+          "availablelanguage": [
+            "العربية",
+            "الألمانية",
+            "إنجليزي",
+            "الاسبانية",
+            "الفرنسية",
+            "الهندية",
+            "日本語",
+            "النيبالية",
+            "هولندا",
+            "البرتغالية",
+            "الروسية",
+            "نعم",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "دعم العملاء",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "حول Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "dynasty_timeline": [
+      {
+        "architectural_contributions": [
+          "التخطيط الكلاسيكي: الحرم المربع + سيخارا المبكر",
+          "لوحات الإغاثة السردية؛ الايقونية المكررة"
+        ],
+        "name": "غوبتا",
+        "notes": "غالبًا ما يُشار إليه على أنه المنعطف \"الكلاسيكي\" في عمارة المعابد الهندوسية.",
+        "period": "ج. 320-550 م",
+        "regions": [
+          "شمال وسط الهند"
+        ],
+        "representative_temples": [
+          "Dashavatara-deogarh"
+        ],
+        "sources": [
+          "https://hindu.mythologyworldwide.com/the-evolution-of-hindu-temple-architecture-through-the-ages/"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "مزيج فيسارا التجريبي من درافيدا + ناجارا",
+          "المخططات الأرضية المقلوبة والنجمية؛ برامج الإغاثة الثقيلة"
+        ],
+        "name": "تشالوكيا الغربية المبكرة (بادامي)",
+        "period": "السادس إلى الثامن ج. م",
+        "regions": [
+          "(وادي مالابرابها في كارناتاكا)."
+        ],
+        "representative_temples": [
+          "durga aihole",
+          "virupaksha-pattadakal"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Durga_temple,_Aihole",
+          "https://en.wikipedia.org/wiki/Pattadakal"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "التحول من قطع الصخور إلى الحجر الهيكلي",
+          "النماذج الأولية المتجانسة (راثاس) وفيمانات درافيديون المبكرة"
+        ],
+        "name": "بالافا",
+        "period": "السابع إلى الثامن ج. م",
+        "regions": [
+          "تاميل نادو (كانشيبورام – ماهاباليبورام)"
+        ],
+        "representative_temples": [
+          "بانشا راثاس",
+          "معبد الشاطئ",
+          "kailasanathar-kanchi"
+        ],
+        "sources": [
+          "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/",
+          "https://en.wikipedia.org/wiki/Tiru_parameswara_vinnagaram"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "ذروة هندسة القطع الصخرية المتجانسة",
+          "التعقيد الأيقوني على نطاق واسع"
+        ],
+        "name": "راشتراكوتا",
+        "period": "الثامن إلى التاسع ج. م",
+        "regions": [
+          "ديكان (ماهاراشترا)"
+        ],
+        "representative_temples": [
+          "كايلاسا إيلورا"
+        ],
+        "sources": [
+          "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "العملقة الهيكلية للجرانيت. ارتفاع الفيمانا",
+          "التماثل المحوري. نقوش واسعة النطاق"
+        ],
+        "name": "تشولا",
+        "period": "العاشر إلى الحادي عشر ج. م",
+        "regions": [
+          "تاميل نادو (دلتا كوفري)"
+        ],
+        "representative_temples": [
+          "brihadeeswarar-thanjavur"
+        ],
+        "sources": [
+          "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "تصميمات خارجية منحوتة بشكل معقد؛ تجميع + ضريح + مجموعات كوند"
+        ],
+        "name": "تشولوكيا/سولانكي (مارو-جورجارا)",
+        "period": "الحادي عشر ج. م",
+        "regions": [
+          "ولاية غوجارات"
+        ],
+        "representative_temples": [
+          "معبد موديرا الشمس"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Sun_Temple,_Modhera"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "نموذج كالينجا الناضج (ديولا)؛ تجارب تورانا",
+          "معبد ضخم على شكل عربة (كونارك)"
+        ],
+        "name": "سومافامشي وجانجا الشرقية",
+        "period": "العاشر إلى الثالث عشر ج. م",
+        "regions": [
+          "أوديشا"
+        ],
+        "representative_temples": [
+          "موكتيشوارا بوبانسوار",
+          "lingaraja-bhubaneswar",
+          "جاغاناث بوري",
+          "معبد كونارك الشمس"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mukteshvara_Temple,_Bhubaneswar",
+          "https://en.wikipedia.org/wiki/Lingaraja_Temple",
+          "https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri",
+          "https://en.wikipedia.org/wiki/Konark_Sun_Temple"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "الحجر الأملس؛ خطط نجمية؛ أعمدة مخرطة؛ أفاريز سردية"
+        ],
+        "name": "هويسالا",
+        "period": "الحادي عشر والثاني عشر ج. م",
+        "regions": [
+          "كارناتاكا"
+        ],
+        "representative_temples": [
+          "chennakesava-belur"
+        ],
+        "sources": [
+          "https://www.oldest.org/structures/oldest-temples-in-india/"
+        ]
+      }
+    ],
+    "temples": [
+      {
+        "architecture_style": "ناجارا المبكرة (حرم مثمن)",
+        "build_type": "الحجر الهيكلي",
+        "construction_method": "يرتدي البناء الحجري في خطة مثمنة.",
+        "dynasty_association": [
+          "كوشانا المبكرة/التاريخية المبكرة (من خلال التأريخ المنقوش)"
+        ],
+        "end_year_ce": 200,
+        "estimated_date": "القرن الأول والثاني الميلادي",
+        "how_it_was_built": "حرم مثمن مع كتل حجرية ملبسة. نماذج śikhara المبكرة.",
+        "id": "موندشواري بيهار",
+        "location": "كايمور",
+        "materials": [
+          "حجر"
+        ],
+        "name": "معبد موندشواري ديفي",
+        "slug": "موندشواري بيهار",
+        "sources": [
+          "https://oldest.info/oldest-temples-in-india/",
+          "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/"
+        ],
+        "start_year_ce": 100,
+        "state": "بيهار",
+        "timeline": {
+          "events": [
+            {
+              "label": "المؤسسة مصدقة",
+              "sources": [
+                "https://oldest.info/oldest-temples-in-india/",
+                "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/"
+              ],
+              "start": "الأول والثاني ج. م"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "غوبتا الكلاسيكية",
+        "build_type": "الحجر الهيكلي",
+        "construction_method": "البناء الحجري لوحات سردية منحوتة.",
+        "dynasty_association": [
+          "غوبتا"
+        ],
+        "end_year_ce": 550,
+        "estimated_date": "ج. 500-550 م",
+        "how_it_was_built": "الحرم المربع مع śikhara المبكر. نقوش من تجسدات فيشنو.",
+        "id": "Dashavatara-deogarh",
+        "location": "ديوغاره",
+        "materials": [
+          "الحجر الرملي"
+        ],
+        "name": "معبد داشافاتارا",
+        "slug": "Dashavatara-deogarh",
+        "sources": [
+          "https://hindu.mythologyworldwide.com/the-evolution-of-hindu-temple-architecture-through-the-ages/"
+        ],
+        "start_year_ce": 500,
+        "state": "ولاية اوتار براديش",
+        "timeline": {
+          "events": [
+            {
+              "label": "بناء",
+              "sources": [
+                "https://hindu.mythologyworldwide.com/the-evolution-of-hindu-temple-architecture-through-the-ages/"
+              ],
+              "start": 500
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "بالافا متجانسة، وأشكال درافيديون في وقت مبكر",
+        "build_type": "متجانسة مقطوعة بالصخر",
+        "construction_method": "منحوتة من نتوءات الجرانيت المفردة كأضرحة نموذجية.",
+        "dynasty_association": [
+          "بالافا"
+        ],
+        "end_year_ce": 700,
+        "estimated_date": "القرن السابع الميلادي (حوالي 630–668 م، ويضعه بعض العلماء في وقت لاحق)",
+        "how_it_was_built": "أحجار متراصة محفورة في الموقع؛ نماذج أولية غير مكتملة وغير مكرسة.",
+        "id": "بانشا راثاس",
+        "location": "ماهاباليبورام",
+        "materials": [
+          "الجرانيت"
+        ],
+        "name": "بانشا راثاس (خمسة راثاس)",
+        "slug": "بانشا راثاس",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Pancha_Rathas"
+        ],
+        "start_year_ce": 630,
+        "state": "تاميل نادو",
+        "timeline": {
+          "events": [
+            {
+              "label": "نحت تحت بالافاس",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Pancha_Rathas"
+              ],
+              "start": "السابع ج. م"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "أوائل درافيديون (بالافا)",
+        "build_type": "الحجر الهيكلي",
+        "construction_method": "كتل الجرانيت الملبسة الهندسة الساحلية لمقاومة الرياح.",
+        "dynasty_association": [
+          "بالافا (ناراسيمهافارمان الثاني)"
+        ],
+        "end_year_ce": 728,
+        "estimated_date": "ج. 700-728 م",
+        "how_it_was_built": "بناء حجري من الجرانيت مع بنية فوقية هرمية (فيمانا).",
+        "id": "معبد الشاطئ",
+        "location": "ماهاباليبورام",
+        "materials": [
+          "الجرانيت"
+        ],
+        "name": "معبد الشاطئ",
+        "slug": "معبد الشاطئ",
+        "sources": [
+          "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/"
+        ],
+        "start_year_ce": 700,
+        "state": "تاميل نادو",
+        "timeline": {
+          "events": [
+            {
+              "label": "البناء خلال ذروة بالافا",
+              "sources": [
+                "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/"
+              ],
+              "start": "السابع إلى الثامن ج. م"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "بالافا درافيديون (الهيكلية المبكرة)",
+        "build_type": "الحجر الهيكلي",
+        "construction_method": "كتل الحجر الرملي. الضميمة مع الأضرحة الفرعية.",
+        "dynasty_association": [
+          "بالافا (ناراسيمهافارمان الثاني)"
+        ],
+        "end_year_ce": 728,
+        "estimated_date": "ج. 700-728 م",
+        "how_it_was_built": "فيمانا Dravidian البنيوية المبكرة؛ 58 مزارًا صغيرًا حول القلب.",
+        "id": "kailasanathar-kanchi",
+        "location": "كانشيبورام",
+        "materials": [
+          "الحجر الرملي"
+        ],
+        "name": "معبد كايلاساناتار",
+        "slug": "kailasanathar-kanchi",
+        "sources": [
+          "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/"
+        ],
+        "start_year_ce": 700,
+        "state": "تاميل نادو",
+        "timeline": {
+          "events": [
+            {
+              "label": "بناء بالافا",
+              "sources": [
+                "https://hindusanatanvahini.com/en/ancient-hindu-temples-of-india/"
+              ],
+              "start": "أوائل الثامن ج. م"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "تشالوكيا المبكرة (مزيج فيسارا)",
+        "build_type": "الحجر الهيكلي",
+        "construction_method": "خطة أبسيدال؛ لوحات الإغاثة المزخرفة؛ الأعمدة الطوافة.",
+        "dynasty_association": [
+          "تشالوكيا الغربية المبكرة"
+        ],
+        "end_year_ce": 725,
+        "estimated_date": "أواخر السابع - أوائل القرن الثامن الميلادي",
+        "how_it_was_built": "مخطط أبسيدال (gajaprishtha) تم تنفيذه في الحجر الرملي؛ الانتماء السوري.",
+        "id": "durga aihole",
+        "location": "ايهول",
+        "materials": [
+          "الحجر الرملي"
+        ],
+        "name": "معبد دورجا",
+        "slug": "durga aihole",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Durga_temple,_Aihole"
+        ],
+        "start_year_ce": 690,
+        "state": "كارناتاكا",
+        "timeline": {
+          "events": [
+            {
+              "label": "مؤرخة لأسباب باليوغرافية",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Durga_temple,_Aihole"
+              ],
+              "start": "ج. 700 م"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "درافيديون مع عناصر ناجارا (تخليق باتاداكال)",
+        "build_type": "الحجر الهيكلي",
+        "construction_method": "قاعدة عالية الماندابا المحورية أفاريز الإغاثة من الملاحم.",
+        "dynasty_association": [
+          "تشالوكيا الغربية المبكرة (فيكراماديتيا الثانية)"
+        ],
+        "end_year_ce": 745,
+        "estimated_date": "ج. 740-745 م",
+        "how_it_was_built": "لجنة الملكة لوكاماهاديفي؛ برنامج نحتي متطور.",
+        "id": "virupaksha-pattadakal",
+        "location": "باتاداكال",
+        "materials": [
+          "الحجر الرملي"
+        ],
+        "name": "معبد فيروباكشا",
+        "slug": "virupaksha-pattadakal",
+        "sources": [
+          "https://prepp.in/news/e-492-virupaksha-temple-pattadakkal-temples-ancient-india-history-notes",
+          "https://mapacademy.io/article/culpture-at-virupaksha-temple-pattadakal/"
+        ],
+        "start_year_ce": 740,
+        "state": "كارناتاكا",
+        "timeline": {
+          "events": [
+            {
+              "label": "البناء التذكاري",
+              "sources": [
+                "https://prepp.in/news/e-492-virupaksha-temple-pattadakkal-temples-ancient-india-history-notes",
+                "https://en.wikipedia.org/wiki/Pattadakal"
+              ],
+              "start": 745
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "راشتراكوتا درافيديون (قطع صخري)",
+        "build_type": "قطع صخرية متجانسة (الحفر من أعلى إلى أسفل)",
+        "construction_method": "الحفريات المتجانسة؛ أشكال قائمة بذاتها منحوتة من الهاوية.",
+        "dynasty_association": [
+          "راشتراكوتا (كريشنا الأول)"
+        ],
+        "end_year_ce": 773,
+        "estimated_date": "ج. 756-773 م",
+        "how_it_was_built": "الحفريات ذات الكتلة الواحدة تؤدي إلى مجمع قائم بذاته.",
+        "id": "كايلاسا إيلورا",
+        "location": "الورا",
+        "materials": [
+          "البازلت"
+        ],
+        "name": "معبد كايلاسا (الكهف 16)",
+        "slug": "كايلاسا إيلورا",
+        "sources": [
+          "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+        ],
+        "start_year_ce": 756,
+        "state": "ماهاراشترا",
+        "timeline": {
+          "events": [
+            {
+              "label": "نحت تحت كريشنا الأول",
+              "sources": [
+                "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+              ],
+              "start": "الثامن ج. م"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "تشولا درافيديون",
+        "build_type": "الحجر الهيكلي",
+        "construction_method": "حجر الجرانيت على نطاق واسع. ارتفاع فيمانا.",
+        "dynasty_association": [
+          "تشولا (راجاراجا الأول)"
+        ],
+        "end_year_ce": 1010,
+        "estimated_date": "1003-1010 م",
+        "how_it_was_built": "برنامج الجرانيت الضخم. تخطيط محوري ونقوش دقيقة.",
+        "id": "brihadeeswarar-thanjavur",
+        "location": "ثانجافور",
+        "materials": [
+          "الجرانيت"
+        ],
+        "name": "معبد بريهاديسوارار (بيروفدايار).",
+        "slug": "brihadeeswarar-thanjavur",
+        "sources": [
+          "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+        ],
+        "start_year_ce": 1003,
+        "state": "تاميل نادو",
+        "timeline": {
+          "events": [
+            {
+              "label": "تكريس",
+              "sources": [
+                "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+              ],
+              "start": 1010
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "مارو-جورجارا (تشولوكيا/سولانكي)",
+        "build_type": "مجموعة الحجر الهيكلي",
+        "construction_method": "Gudhamandapa + Sabhamandapa + صعدت Surya‑kund بمحاذاة المحور E‑W.",
+        "dynasty_association": [
+          "تشولوكيا/سولانكي (بهيما الأول)"
+        ],
+        "end_year_ce": 1030,
+        "estimated_date": "بعد 1026-27 م",
+        "how_it_was_built": "تصميمات خارجية منحوتة للغاية؛ خزان متدرج مع الأضرحة.",
+        "id": "معبد موديرا الشمس",
+        "location": "مودهيرا، مهسانا",
+        "materials": [
+          "الحجر الرملي"
+        ],
+        "name": "معبد الشمس، مودهيرا",
+        "slug": "معبد موديرا الشمس",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Sun_Temple,_Modhera",
+          "https://inditales.com/architecture-of-sun-temple-modhera/",
+          "https://whc.unesco.org/en/tentativelists/6627/"
+        ],
+        "start_year_ce": 1026,
+        "state": "ولاية غوجارات",
+        "timeline": {
+          "events": [
+            {
+              "label": "علامة نقشية أعيد بناء/بناء الضريح في عهد بهيما الأول",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Sun_Temple,_Modhera",
+                "https://whc.unesco.org/en/tentativelists/6627/"
+              ],
+              "start": 1026
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "أوائل كالينجا (فترة سومافامشي)",
+        "build_type": "الحجر الهيكلي",
+        "construction_method": "Rekha deula Sanctum + Jagamohana الهرمي؛ تورانا مبدعة قائمة بذاتها.",
+        "dynasty_association": [
+          "سومافامشي"
+        ],
+        "end_year_ce": 975,
+        "estimated_date": "950-975 م",
+        "how_it_was_built": "لغة أوديشان الانتقالية؛ التجارب التي تتوقع Lingaraja.",
+        "id": "موكتيشوارا بوبانسوار",
+        "location": "المدينة القديمة، بوبانسوار",
+        "materials": [
+          "الحجر الرملي",
+          "لاتريت"
+        ],
+        "name": "معبد موكتيشوارا",
+        "slug": "موكتيشوارا بوبانسوار",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mukteshvara_Temple,_Bhubaneswar"
+        ],
+        "start_year_ce": 950,
+        "state": "أوديشا",
+        "timeline": {
+          "events": [
+            {
+              "label": "نافذة البناء المحتملة",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Mukteshvara_Temple,_Bhubaneswar"
+              ],
+              "start": 966
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "كالينجا الناضجة",
+        "build_type": "مجمع الحجر الهيكلي",
+        "construction_method": "أسلوب ديولا الرباعي: فيمانا، جاغاموهانا، ناتا مانديرا، بهوجا ماندابا.",
+        "dynasty_association": [
+          "سومافامشي",
+          "الجانج الشرقية"
+        ],
+        "end_year_ce": 1100,
+        "estimated_date": "القرن الحادي عشر الميلادي",
+        "how_it_was_built": "تتويجا لأسلوب بوبانسوار في القرون الوسطى؛ برج منحني بطول 180 قدم.",
+        "id": "lingaraja-bhubaneswar",
+        "location": "إيكامرا كشيترا، بوبانسوار",
+        "materials": [
+          "الحجر الرملي",
+          "لاتريت"
+        ],
+        "name": "معبد لينجاراجا",
+        "slug": "lingaraja-bhubaneswar",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Lingaraja_Temple",
+          "https://vajiramandravi.com/upsc-exam/lingaraja-temple/"
+        ],
+        "start_year_ce": 1000,
+        "state": "أوديشا",
+        "timeline": {
+          "events": [
+            {
+              "label": "البناء الرئيسي (سومافامشي)، وإضافات الجانج لاحقًا",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Lingaraja_Temple"
+              ],
+              "start": "الحادي عشر ج. م"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "كالينجا (أوديشا ناجارا)",
+        "build_type": "مجمع الحجر الهيكلي",
+        "construction_method": "كالينجا ريخا ديولا ذات سياج واسع؛ أيقونات خشبية متجددة بشكل دوري.",
+        "dynasty_association": [
+          "الجانج الشرقي (أنانتافارمان تشوداجانجا)"
+        ],
+        "end_year_ce": 1200,
+        "estimated_date": "القرن الثاني عشر الميلادي (حوالي 1161 م)",
+        "how_it_was_built": "الضميمة الضخمة وبرج ريخا ديولا. نظام الطقوس الحية (راثا ياترا).",
+        "id": "جاغاناث بوري",
+        "location": "بوري",
+        "materials": [
+          "حجر (معبد)",
+          "خشب النيم (الأصنام)"
+        ],
+        "name": "معبد جاغاناث",
+        "slug": "جاغاناث بوري",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri"
+        ],
+        "start_year_ce": 1100,
+        "state": "أوديشا",
+        "timeline": {
+          "events": [
+            {
+              "label": "إعادة الإعمار/التوسيع تحت نهر الجانج الشرقي",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri"
+              ],
+              "start": 1161
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "كالينجا في العصور الوسطى العالية",
+        "build_type": "الحجر الهيكلي (مدمر جزئيا)",
+        "construction_method": "مخطط على شكل عربة به 24 عجلة؛ برنامج النحت الضخم.",
+        "dynasty_association": [
+          "الجانج الشرقي (ناراسيمهاديفا الأول)"
+        ],
+        "end_year_ce": 1260,
+        "estimated_date": "ج. 1250 م",
+        "how_it_was_built": "عربة شمسية رمزية؛ الهندسة المتقدمة. الآن موقع اليونسكو.",
+        "id": "معبد كونارك الشمس",
+        "location": "(كونارك في منطقة بوري).",
+        "materials": [
+          "حجر الخونداليت"
+        ],
+        "name": "معبد كونارك صن",
+        "slug": "معبد كونارك الشمس",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Konark_Sun_Temple",
+          "https://www.worldhistory.org/Konarak_Sun_Temple/"
+        ],
+        "start_year_ce": 1240,
+        "state": "أوديشا",
+        "timeline": {
+          "events": [
+            {
+              "label": "البناء في عهد ناراسيمهاديفا الأول",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Konark_Sun_Temple"
+              ],
+              "start": 1250
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "هويسالا",
+        "build_type": "الحجر الهيكلي",
+        "construction_method": "خطة نجمية على جاجاتي عالية؛ أعمدة مخرطة؛ النحت الغزير.",
+        "dynasty_association": [
+          "هويسالا (فيشنوفاردهانا)"
+        ],
+        "end_year_ce": 1117,
+        "estimated_date": "1117 م",
+        "how_it_was_built": "يسمح الحجر الأملس الناعم بالتفاصيل الدقيقة؛ الأفاريز السردية والمدى الأيقوني.",
+        "id": "chennakesava-belur",
+        "location": "بيلور",
+        "materials": [
+          "الشيست الكلوريتي (الحجر الأملس)"
+        ],
+        "name": "معبد تشيناكسافا",
+        "slug": "chennakesava-belur",
+        "sources": [
+          "https://www.oldest.org/structures/oldest-temples-in-india/"
+        ],
+        "start_year_ce": 1117,
+        "state": "كارناتاكا",
+        "timeline": {
+          "events": [
+            {
+              "label": "الافتتاح من قبل فيشنوفاردهانا",
+              "sources": [
+                "https://www.oldest.org/structures/oldest-temples-in-india/"
+              ],
+              "start": 1117
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "بالافا درافيديون",
+        "build_type": "الحجر الهيكلي",
+        "construction_method": "ثلاثة مستويات من المقدسات (واقفًا / راقدًا / جالسًا فيشنو) ؛ أعمدة قاعدة الأسد.",
+        "dynasty_association": [
+          "بالافا (نانديفارمان الثاني)"
+        ],
+        "end_year_ce": 780,
+        "estimated_date": "أواخر القرن الثامن الميلادي",
+        "how_it_was_built": "معبد هيكلي مدمج به دورات إغاثة تاريخية على جدران براكارا.",
+        "id": "فايكونثا بيرومال كانشي",
+        "location": "كانشيبورام",
+        "materials": [
+          "الحجر الرملي"
+        ],
+        "name": "فايكونثا بيرومال (تيرو باراميسوارا فيناجارام)",
+        "slug": "فايكونثا بيرومال كانشي",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Tiru_parameswara_vinnagaram",
+          "https://www.worldhistory.org/article/1336/on-the-palava-trail-in-kanchipuram/"
+        ],
+        "start_year_ce": 770,
+        "state": "تاميل نادو",
+        "timeline": {
+          "events": [
+            {
+              "label": "البناء في عهد نانديفارمان الثاني",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Tiru_parameswara_vinnagaram"
+              ],
+              "start": 775
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "تشولا الأساسية؛ لاحقًا إضافات Vijayanagara/Nayak",
+        "build_type": "مجمع الحجر الهيكلي",
+        "construction_method": "خطة درافيديون مع جوبورام شرقي طويل القامة؛ فيجاياناجارا/ناياك مانداباس.",
+        "dynasty_association": [
+          "تشولا",
+          "فيجاياناجارا",
+          "ناياك"
+        ],
+        "end_year_ce": 900,
+        "estimated_date": "القرن التاسع الميلادي (الأساسي)، التوسعات اللاحقة في القرن السادس عشر.",
+        "how_it_was_built": "توسعت أعمال البناء في فترة تشولا لتشمل ماندابا الشهيرة المنحوتة على شكل الأبراج.",
+        "id": "adi-kumbeswarar-kumbakonam",
+        "location": "كومباكونام",
+        "materials": [
+          "الجرانيت",
+          "الحجر الرملي"
+        ],
+        "name": "معبد عدي كومبيسوارار",
+        "slug": "adi-kumbeswarar-kumbakonam",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Adi_Kumbeswarar_Temple,_Kumbakonam"
+        ],
+        "start_year_ce": 850,
+        "state": "تاميل نادو",
+        "timeline": {
+          "events": [
+            {
+              "label": "مرحلة تشولا",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Adi_Kumbeswarar_Temple,_Kumbakonam"
+              ],
+              "start": 900
+            },
+            {
+              "label": "توسعات فيجاياناجارا/ناياك",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Adi_Kumbeswarar_Temple,_Kumbakonam"
+              ],
+              "start": 1500
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "contact": {
+    "title": "اتصل بنا",
+    "meta": {
+      "title": "اتصل بنا – ساناتانا دارما",
+      "canonical": "https://sanatanadharmam.in/contact",
+      "description": "تواصل مع Sanatanadharmam.in للاستفسارات أو التعاون أو التوجيه الروحي. تواصل معنا عبر البريد الإلكتروني أو الهاتف أو نموذج الاتصال.",
+      "keywords": [
+        "Sanatana Dharma collaboration proposals",
+        "Sanatana Dharma communication",
+        "Sanatana Dharma community engagement",
+        "Sanatana Dharma contact information",
+        "Sanatana Dharma content suggestions",
+        "Sanatana Dharma editorial feedback",
+        "Sanatana Dharma general questions",
+        "Sanatana Dharma outreach",
+        "Sanatana Dharma project inquiries",
+        "Sanatana Dharma spiritual questions",
+        "Sanatana Dharma support",
+        "Sanatana Dharma text corrections",
+        "Sanatana Dharma translation suggestions",
+        "Sanatana Dharma volunteer coordination",
+        "Sanatana Dharma website contact",
+        "collaborations",
+        "contact Sanatanadharmam.in",
+        "contact form",
+        "email",
+        "feedback",
+        "general questions",
+        "inquiries",
+        "phone",
+        "spiritual guidance",
+        "text corrections",
+        "translation suggestions",
+        "volunteer opportunities"
+      ],
+      "ogimage": "/og/contact.png",
+      "robots": "الفهرس، اتبع",
+      "url": "https://sanatanadharmam.in/contact"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "منظمة",
+        "contactpoint": {
+          "@type": "نقطة الاتصال",
+          "areaserved": "في جميع أنحاء العالم",
+          "availablelanguage": [
+            "العربية",
+            "الألمانية",
+            "إنجليزي",
+            "الاسبانية",
+            "الفرنسية",
+            "الهندية",
+            "日本語",
+            "النيبالية",
+            "هولندا",
+            "البرتغالية",
+            "الروسية",
+            "نعم",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "دعم العملاء",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "حول Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "faq": {
+      "heading": "الأسئلة المتداولة",
+      "items": [
+        {
+          "a": "يرجى تضمين عنوان URL، والمقطع الدقيق (اقتباس السطر أو الآية)، ومرجع أو مسح ضوئي للإصدار المصدر إن أمكن. سوف نقوم بالتحقق، وإذا لزم الأمر، سننشر ملاحظة مغلوطة تصف التصحيح.",
+          "q": "لقد وجدت خطأ في النص - ماذا علي أن أفعل؟"
+        },
+        {
+          "a": "نعم. أرسل التفاصيل الببليوغرافية وأي أذونات ذات صلة. نحن نعطي الأولوية للنصوص الموجودة في الملكية العامة أو المتاحة بأذونات واضحة، وقد ننسق مع المساهمين من أجل الرقمنة.",
+          "q": "هل يمكنني طلب إضافة نص أو فصل جديد؟"
+        },
+        {
+          "a": "أرسل سيرتك الذاتية أو ملاحظة قصيرة تصف مهاراتك ومدى توفرك. سنقوم بالمتابعة إذا كان لدينا تطابق جيد مع الاحتياجات الحالية.",
+          "q": "كيف يمكنني المشاركة كمتطوع؟"
+        }
+      ]
+    },
+    "sections": [
+      {
+        "content": "Sanatanadharmam.in مكرس لنشر المعرفة الأصيلة لـ Sanatana Dharma. سواء كانت لديك أسئلة أو تعليقات أو أفكار للتعاون، فنحن نرحب برسالتك.",
+        "id": "مقدمة",
+        "type": "نص"
+      },
+      {
+        "columns": [
+          {
+            "title": "📧 البريد الإلكتروني",
+            "content": "vulchi.vijay@gmail.com"
+          },
+          {
+            "title": "📞 الهاتف",
+            "content": "+91-8099181075"
+          },
+          {
+            "title": "📍العنوان",
+            "content": "تيروباتي، أندرا براديش، الهند"
+          }
+        ],
+        "id": "مقدمة",
+        "type": "نص"
+      },
+      {
+        "fields": [
+          {
+            "name": "اسم",
+            "placeholder": "اسمك",
+            "required": true,
+            "type": "نص"
+          },
+          {
+            "name": "بريد إلكتروني",
+            "placeholder": "البريد الإلكتروني الخاص بك",
+            "required": true,
+            "type": "بريد إلكتروني"
+          },
+          {
+            "name": "موضوع",
+            "placeholder": "موضوع",
+            "required": false,
+            "type": "نص"
+          },
+          {
+            "name": "رسالة",
+            "placeholder": "رسالتك",
+            "required": true,
+            "type": "منطقة النص"
+          }
+        ],
+        "id": "مقدمة",
+        "submitbutton": {
+          "action": "/api/contact/submit",
+          "label": "أرسل رسالة"
+        },
+        "type": "نص"
+      },
+      {
+        "content": "Sanatanadharmam.in مكرس لنشر المعرفة الأصيلة لـ Sanatana Dharma. سواء كانت لديك أسئلة أو تعليقات أو أفكار للتعاون، فنحن نرحب برسالتك.",
+        "id": "مقدمة",
+        "type": "نص"
+      }
+    ],
+    "subtitle": "نحن نحب أن نسمع منك",
+    "volunteer": {
+      "guidance": "نرحب بالمتطوعين الذين يمكنهم المساعدة في التدقيق اللغوي والتنضيد والترجمة والتسجيل الصوتي وتطوير الويب والإشراف على المجتمع. يرجى وصف مهاراتك ومدى توفرك وأي عينات ذات صلة من العمل السابق. تتم مراجعة التقديمات، وفي حالة قبولها، يتم تنسيقها من خلال عملية تأهيل متواضعة حتى يفهم المتطوعون معايير التحرير ومدونة قواعد السلوك الخاصة بالمشروع.",
+      "heading": "المبادئ التوجيهية للتطوع والمساهمة"
+    },
+    "whattoinclude": {
+      "guidance": "لمساعدتنا في الاستجابة بكفاءة، يرجى تضمين: سطر موضوع واضح، والصفحة أو عنوان URL الذي تشير إليه (إن أمكن)، ووصف موجز للمشكلة أو الطلب، وطريقة الاتصال المفضلة لديك. لتصحيح النصوص، حدد السطر أو الآية بالضبط، وإذا أمكن، قدم مصدرًا موثوقًا أو مرجعًا للطبعة. للحصول على اقتراحات الترجمة، قم بتضمين الصياغة المقترحة والسبب الموجز للتغيير.",
+      "heading": "ما يجب تضمينه في رسالتك"
+    }
+  }
+}

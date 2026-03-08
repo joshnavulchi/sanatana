@@ -1,0 +1,164 @@
+{
+  "contact": {
+    "title": "Связаться с нами",
+    "meta": {
+      "title": "Свяжитесь с нами — Санатана Дхарма",
+      "canonical": "https://sanatanadharmam.in/contact",
+      "description": "Свяжитесь с Sanatanadharmam.in для запросов, сотрудничества или духовного руководства. Свяжитесь с нами по электронной почте, телефону или через контактную форму.",
+      "keywords": [
+        "Sanatana Dharma collaboration proposals",
+        "Sanatana Dharma communication",
+        "Sanatana Dharma community engagement",
+        "Sanatana Dharma contact information",
+        "Sanatana Dharma content suggestions",
+        "Sanatana Dharma editorial feedback",
+        "Sanatana Dharma general questions",
+        "Sanatana Dharma outreach",
+        "Sanatana Dharma project inquiries",
+        "Sanatana Dharma spiritual questions",
+        "Sanatana Dharma support",
+        "Sanatana Dharma text corrections",
+        "Sanatana Dharma translation suggestions",
+        "Sanatana Dharma volunteer coordination",
+        "Sanatana Dharma website contact",
+        "collaborations",
+        "contact Sanatanadharmam.in",
+        "contact form",
+        "email",
+        "feedback",
+        "general questions",
+        "inquiries",
+        "phone",
+        "spiritual guidance",
+        "text corrections",
+        "translation suggestions",
+        "volunteer opportunities"
+      ],
+      "ogimage": "/og/contact.png",
+      "robots": "индекс, следовать",
+      "url": "https://sanatanadharmam.in/contact"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Организация",
+        "contactpoint": {
+          "@type": "Контактная точка",
+          "areaserved": "По всему миру",
+          "availablelanguage": [
+            "عربية",
+            "немецкий",
+            "Английский",
+            "испанский",
+            "Франсэ",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Нидерланды",
+            "Португальский",
+            "Русский",
+            "తెలుగు",
+            "ردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Служба поддержки клиентов",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "О Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "faq": {
+      "heading": "Часто задаваемые вопросы",
+      "items": [
+        {
+          "a": "Пожалуйста, укажите URL-адрес, точный отрывок (цитируйте строку или стих), а также ссылку или скан исходного издания, если это возможно. Мы проверим и, при необходимости, опубликуем сообщение об ошибке с описанием исправления.",
+          "q": "Я нашел ошибку в тексте — что мне делать?"
+        },
+        {
+          "a": "Да. Отправьте библиографические данные и все соответствующие разрешения. Мы отдаем приоритет текстам, которые находятся в общественном достоянии или доступны с четких разрешений, и можем координировать свои действия с участниками для оцифровки.",
+          "q": "Могу ли я запросить добавление нового текста или главы?"
+        },
+        {
+          "a": "Отправьте свое резюме или короткую заметку с описанием ваших навыков и доступности. Мы будем следить за тем, если у нас будет хорошее соответствие текущим потребностям.",
+          "q": "Как мне стать волонтером?"
+        }
+      ]
+    },
+    "sections": [
+      {
+        "content": "Sanatanadharmam.in посвящен распространению подлинных знаний Санатана Дхармы. Если у вас есть вопросы, отзывы или идеи сотрудничества, мы будем рады вашему сообщению.",
+        "id": "вступление",
+        "type": "текст"
+      },
+      {
+        "columns": [
+          {
+            "title": "📧 Электронная почта",
+            "content": "vulchi.vijay@gmail.com"
+          },
+          {
+            "title": "📞 Телефон",
+            "content": "+91-8099181075"
+          },
+          {
+            "title": "📍Адрес",
+            "content": "Тирупати, Андхра-Прадеш, Индия"
+          }
+        ],
+        "id": "вступление",
+        "type": "текст"
+      },
+      {
+        "fields": [
+          {
+            "name": "имя",
+            "placeholder": "Ваше имя",
+            "required": true,
+            "type": "текст"
+          },
+          {
+            "name": "электронная почта",
+            "placeholder": "Ваш адрес электронной почты",
+            "required": true,
+            "type": "электронная почта"
+          },
+          {
+            "name": "предмет",
+            "placeholder": "Предмет",
+            "required": false,
+            "type": "текст"
+          },
+          {
+            "name": "сообщение",
+            "placeholder": "Ваше сообщение",
+            "required": true,
+            "type": "текстовая область"
+          }
+        ],
+        "id": "вступление",
+        "submitbutton": {
+          "action": "/api/contact/submit",
+          "label": "Отправить сообщение"
+        },
+        "type": "текст"
+      },
+      {
+        "content": "Sanatanadharmam.in посвящен распространению подлинных знаний Санатана Дхармы. Если у вас есть вопросы, отзывы или идеи сотрудничества, мы будем рады вашему сообщению.",
+        "id": "вступление",
+        "type": "текст"
+      }
+    ],
+    "subtitle": "Мы хотели бы услышать от вас",
+    "volunteer": {
+      "guidance": "Мы приветствуем волонтеров, которые могут помочь с корректурой, версткой, переводами, аудиозаписью, веб-разработкой и модерацией сообщества. Пожалуйста, опишите свои навыки, доступность и любые соответствующие образцы предыдущей работы. Представленные материалы проверяются и, в случае принятия, координируются посредством скромного процесса адаптации, чтобы волонтеры понимали редакционные стандарты и кодекс поведения проекта.",
+      "heading": "Руководство по волонтерству и пожертвованиям"
+    },
+    "whattoinclude": {
+      "guidance": "Чтобы помочь нам ответить эффективно, укажите: четкую тему письма, страницу или URL-адрес, на который вы ссылаетесь (если применимо), краткое описание проблемы или запроса и предпочтительный способ связи. Для исправлений в текстах указывайте точную строку или стих и, по возможности, указывайте достоверный источник или ссылку на издание. Для предложений по переводу укажите предложенную формулировку и краткое обоснование изменения.",
+      "heading": "Что включить в ваше сообщение"
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "horoscope": {
+    "title": "ஜாதக ஜெனரேட்டர்",
+    "meta": {
+      "title": "ஜாதக ஜெனரேட்டர்",
+      "canonical": "https://sanatanadharmam.in/horoscope",
+      "description": "சனாதன தர்மத்தின் ஜாதகம் - சனாதன தர்மத்தை ஆராயுங்கள்: இந்து மதத்தின் நித்திய கொள்கைகள், வேத மரபுகள், ஆன்மீக நடைமுறைகள் மற்றும் இது போன்ற வேதங்களிலிருந்து ஞானம்...",
+      "keywords": [
+        "astrology",
+        "daily horoscope",
+        "horoscope",
+        "horoscope analysis",
+        "horoscope aspects",
+        "horoscope career",
+        "horoscope compatibility",
+        "horoscope eclipses",
+        "horoscope elements",
+        "horoscope finance",
+        "horoscope forecast",
+        "horoscope generator",
+        "horoscope guidance",
+        "horoscope health",
+        "horoscope houses",
+        "horoscope insights",
+        "horoscope interpretation",
+        "horoscope love",
+        "horoscope lunar phases",
+        "horoscope modalities",
+        "horoscope natal chart",
+        "horoscope personality",
+        "horoscope prediction",
+        "horoscope progressions",
+        "horoscope reading",
+        "horoscope retrogrades",
+        "horoscope solar return",
+        "horoscope symbolism",
+        "horoscope traits",
+        "horoscope transits",
+        "horoscope trends",
+        "horoscope vedic astrology",
+        "monthly horoscope",
+        "natal chart",
+        "vedic astrology",
+        "weekly horoscope",
+        "yearly horoscope",
+        "zodiac signs"
+      ],
+      "ogimage": "images/og/home.png",
+      "url": "https://sanatanadharmam.in/horoscope"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "அமைப்பு",
+        "contactpoint": {
+          "@type": "தொடர்பு புள்ளி",
+          "areaserved": "உலகம் முழுவதும்",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "ஆங்கிலம்",
+            "எஸ்பானோல்",
+            "பிரான்சிஸ்",
+            "ஹிந்தி",
+            "எஸ்",
+            "நேபாளி",
+            "நெதர்லாந்து",
+            "போர்த்துகீசியர்கள்",
+            "ருஸ்கி",
+            "தெலுங்கு",
+            "அர்து",
+            "中文 (简体)"
+          ],
+          "contacttype": "வாடிக்கையாளர் ஆதரவு",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "சனாதனதர்மம்.இன் பற்றி",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "birthdate": "பிறந்த தேதி",
+    "errorlabel": "பிழை:",
+    "generate": "உருவாக்கு",
+    "luckynumber": "அதிர்ஷ்ட எண்: {num} · காலம்: {periodLabel}",
+    "namelabel": "பெயர் (விரும்பினால்)",
+    "period": "காலம்",
+    "periodday": "நாள்",
+    "periodmonth": "மாதம்",
+    "periodweek": "வாரம்"
+  }
+}

@@ -1,0 +1,527 @@
+{
+  "shakti_peethas": {
+    "title": "शक्ति पीठ | सनातन धर्म - जीवन का शाश्वत मार्ग",
+    "meta": {
+      "title": "शक्ति पीठ | सनातन धर्म - जीवन का शाश्वत मार्ग",
+      "canonical": "https://sanatanadharmam.in/shakti-peethas",
+      "keywords": [
+        "Shakti Peethas",
+        "Shakti Peethas Architecture",
+        "Shakti Peethas Art and Iconography",
+        "Shakti Peethas Culture",
+        "Shakti Peethas Devotees",
+        "Shakti Peethas Festivals",
+        "Shakti Peethas History",
+        "Shakti Peethas Legends",
+        "Shakti Peethas List",
+        "Shakti Peethas Map",
+        "Shakti Peethas Mythology",
+        "Shakti Peethas Pilgrimage",
+        "Shakti Peethas Rituals",
+        "Shakti Peethas Significance",
+        "Shakti Peethas Significance in Ancient Wisdom",
+        "Shakti Peethas Significance in Ancient Wisdom Facts",
+        "Shakti Peethas Significance in Ayurveda",
+        "Shakti Peethas Significance in Ayurveda Facts",
+        "Shakti Peethas Significance in Bhagavad Gita",
+        "Shakti Peethas Significance in Bhagavad Gita Facts",
+        "Shakti Peethas Significance in Deities",
+        "Shakti Peethas Significance in Deities Facts",
+        "Shakti Peethas Significance in Festivals and Traditions",
+        "Shakti Peethas Significance in Festivals and Traditions Facts",
+        "Shakti Peethas Significance in Hindu Mythology",
+        "Shakti Peethas Significance in Hindu Mythology Facts",
+        "Shakti Peethas Significance in Hinduism",
+        "Shakti Peethas Significance in Hinduism Facts",
+        "Shakti Peethas Significance in Indian Culture",
+        "Shakti Peethas Significance in Indian Culture Facts",
+        "Shakti Peethas Significance in Indian Festivals",
+        "Shakti Peethas Significance in Indian Festivals Facts",
+        "Shakti Peethas Significance in Indian Philosophy",
+        "Shakti Peethas Significance in Indian Philosophy Facts",
+        "Shakti Peethas Significance in Mahabharata",
+        "Shakti Peethas Significance in Mahabharata Facts",
+        "Shakti Peethas Significance in Mythology",
+        "Shakti Peethas Significance in Mythology Facts",
+        "Shakti Peethas Significance in Philosophy",
+        "Shakti Peethas Significance in Philosophy Facts",
+        "Shakti Peethas Significance in Pilgrimage",
+        "Shakti Peethas Significance in Pilgrimage Facts",
+        "Shakti Peethas Significance in Puranas",
+        "Shakti Peethas Significance in Puranas Facts",
+        "Shakti Peethas Significance in Ramayana",
+        "Shakti Peethas Significance in Ramayana Facts",
+        "Shakti Peethas Significance in Religious Knowledge",
+        "Shakti Peethas Significance in Religious Knowledge Facts",
+        "Shakti Peethas Significance in Rituals",
+        "Shakti Peethas Significance in Rituals Facts",
+        "Shakti Peethas Significance in Sanatanadharmam Knowledge",
+        "Shakti Peethas Significance in Sanatanadharmam Knowledge Facts",
+        "Shakti Peethas Significance in Sanskrit",
+        "Shakti Peethas Significance in Sanskrit Facts",
+        "Shakti Peethas Significance in Scriptures",
+        "Shakti Peethas Significance in Scriptures Facts",
+        "Shakti Peethas Significance in Spiritual Practices",
+        "Shakti Peethas Significance in Spiritual Practices Facts",
+        "Shakti Peethas Significance in Spirituality",
+        "Shakti Peethas Significance in Spirituality Facts",
+        "Shakti Peethas Significance in Temples",
+        "Shakti Peethas Significance in Temples Facts",
+        "Shakti Peethas Significance in Upanishads",
+        "Shakti Peethas Significance in Upanishads Facts",
+        "Shakti Peethas Significance in Vedas",
+        "Shakti Peethas Significance in Vedas Facts",
+        "Shakti Peethas Significance in Yoga and Meditation",
+        "Shakti Peethas Significance in Yoga and Meditation Facts",
+        "Shakti Peethas Spirituality",
+        "Shakti Peethas Stories",
+        "Shakti Peethas Temples",
+        "Shakti Peethas Worship"
+      ],
+      "ogimage": "images/og/home.png",
+      "url": "https://sanatanadharmam.in/shakti-peethas"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "संगठन",
+        "contactpoint": {
+          "@type": "संपर्क बिंदु",
+          "areaserved": "दुनिया भर में",
+          "availablelanguage": [
+            "धन्यवाद",
+            "deutsch",
+            "अंग्रेज़ी",
+            "Español",
+            "फ़्रांसीसी",
+            "हिन्दी",
+            "ठीक है",
+            "नेपाली",
+            "नीदरलैंड",
+            "पुर्तगाली",
+            "Русский",
+            "ठीक है",
+            "धन्यवाद",
+            "中文 (简体)"
+          ],
+          "contacttype": "ग्राहक सहेयता",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "सनातनधर्मम.इन के बारे में",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "peethas": [
+      {
+        "bhairava": "उमानंद",
+        "body_part": "योनि (गर्भ)",
+        "id": 1,
+        "location": "गुवाहाटी, असम, भारत",
+        "name": "कामाख्या",
+        "shakti": "कामाख्या"
+      },
+      {
+        "bhairava": "भैरव",
+        "body_part": "फिंगर्स",
+        "id": 2,
+        "location": "इलाहाबाद, उत्तर प्रदेश, भारत",
+        "name": "प्रयाग (ललिता)",
+        "shakti": "ललिता"
+      },
+      {
+        "bhairava": "वत्सनाभ",
+        "body_part": "नाभि",
+        "id": 3,
+        "location": "मीरपुर, बांग्लादेश",
+        "name": "कामरूप (शरवानी)",
+        "shakti": "शरवनी"
+      },
+      {
+        "bhairava": "उन्मत्ता",
+        "body_part": "जीभ",
+        "id": 4,
+        "location": "कांगड़ा, हिमाचल प्रदेश, भारत",
+        "name": "ज्वालामुखी",
+        "shakti": "सिद्धिदा"
+      },
+      {
+        "bhairava": "भीमलोचन",
+        "body_part": "ब्रह्मरंध्र",
+        "id": 5,
+        "location": "बलूचिस्तान, पाकिस्तान",
+        "name": "हिंगलाज",
+        "shakti": "हिंगुला"
+      },
+      {
+        "bhairava": "त्रिकम्बक",
+        "body_part": "खोपड़ी",
+        "id": 6,
+        "location": "जम्मू, भारत",
+        "name": "वैष्णो देवी",
+        "shakti": "महामाया"
+      },
+      {
+        "bhairava": "नकुलेश्वर",
+        "body_part": "पैर की उंगलियां (दाहिना पैर)",
+        "id": 7,
+        "location": "कोलकाता, पश्चिम बंगाल, भारत",
+        "name": "कालीघाट",
+        "shakti": "कालिका"
+      },
+      {
+        "bhairava": "महाकाल",
+        "body_part": "होंठ के ऊपर का हिस्सा",
+        "id": 8,
+        "location": "उज्जैन, मध्य प्रदेश, भारत",
+        "name": "उज्जैन (अवंती)",
+        "shakti": "महाकाली"
+      },
+      {
+        "bhairava": "विश्वेश",
+        "body_part": "निचले होंठ",
+        "id": 9,
+        "location": "लाभपुर, पश्चिम बंगाल, भारत",
+        "name": "अट्टाहास",
+        "shakti": "फुलारा"
+      },
+      {
+        "bhairava": "भूतेश",
+        "body_part": "दिल",
+        "id": 10,
+        "location": "सीतापुर, उत्तर प्रदेश, भारत",
+        "name": "नैमिषारण्य",
+        "shakti": "लिंगधारणी"
+      },
+      {
+        "bhairava": "क्रोधीश",
+        "body_part": "आँखें",
+        "id": 11,
+        "location": "कोल्हापुर, महाराष्ट्र, भारत",
+        "name": "कोल्हापुर (करवीर)",
+        "shakti": "महालक्ष्मी"
+      },
+      {
+        "bhairava": "शंबरानंद",
+        "body_part": "दाहिनी पायल",
+        "id": 12,
+        "location": "श्रीशैलम, आंध्र प्रदेश, भारत",
+        "name": "श्री पर्वत (श्रीशैलम)",
+        "shakti": "शिवरानी"
+      },
+      {
+        "bhairava": "ईश्वर",
+        "body_part": "बायां पैर",
+        "id": 13,
+        "location": "जलपाईगुड़ी, पश्चिम बंगाल, भारत",
+        "name": "त्रिस्रोता (भ्रामरी)",
+        "shakti": "Bhramari"
+      },
+      {
+        "bhairava": "कपाली",
+        "body_part": "घुटनों",
+        "id": 14,
+        "location": "काठमांडू, नेपाल",
+        "name": "गुह्येश्वरी",
+        "shakti": "महाशिरा"
+      },
+      {
+        "bhairava": "कालभैरव",
+        "body_part": "झुमके",
+        "id": 15,
+        "location": "वाराणसी, उत्तर प्रदेश, भारत",
+        "name": "मणिकर्णिका (वाराणसी)",
+        "shakti": "विशालाक्षी"
+      },
+      {
+        "bhairava": "रुद्रानंद",
+        "body_part": "सिर",
+        "id": 16,
+        "location": "चिंतपूर्णी, हिमाचल प्रदेश, भारत",
+        "name": "छिन्नमस्तिका",
+        "shakti": "छिन्नमस्तिका"
+      },
+      {
+        "bhairava": "अमशा",
+        "body_part": "बाल",
+        "id": 17,
+        "location": "मथुरा, उत्तर प्रदेश, भारत",
+        "name": "कात्यायनी",
+        "shakti": "कात्यायनी"
+      },
+      {
+        "bhairava": "त्रिलोचन",
+        "body_part": "बायां स्तन",
+        "id": 18,
+        "location": "जालंधर, पंजाब, भारत",
+        "name": "त्रिपुरमालिनी",
+        "shakti": "त्रिपुरमालिनी"
+      },
+      {
+        "bhairava": "स्थाणु",
+        "body_part": "दाहिना टखना",
+        "id": 19,
+        "location": "कुरूक्षेत्र, हरियाणा, भारत",
+        "name": "सावित्री",
+        "shakti": "सावित्री"
+      },
+      {
+        "bhairava": "रतालू",
+        "body_part": "शरीर का दाहिना भाग",
+        "id": 20,
+        "location": "पटना, बिहार, भारत",
+        "name": "मगध",
+        "shakti": "मगध"
+      },
+      {
+        "bhairava": "अमर",
+        "body_part": "दाहिनी हथेली",
+        "id": 21,
+        "location": "बुरांग, तिब्बत",
+        "name": "दाक्षायणी",
+        "shakti": "दाक्षायणी"
+      },
+      {
+        "bhairava": "क्रोधीश",
+        "body_part": "तीसरी आँख क्षेत्र",
+        "id": 22,
+        "location": "कोल्हापुर, महाराष्ट्र",
+        "name": "महिषासुरमर्दिनी",
+        "shakti": "महिषासुरमर्दिनी"
+      },
+      {
+        "bhairava": "अंबर",
+        "body_part": "ठोड़ी",
+        "id": 23,
+        "location": "नासिक, महाराष्ट्र, भारत",
+        "name": "भ्रामरी (नासिक)",
+        "shakti": "Bhramari"
+      },
+      {
+        "bhairava": "बटुक भैरव",
+        "body_part": "दिल",
+        "id": 24,
+        "location": "अम्बाजी, गुजरात, भारत",
+        "name": "अम्बाजी",
+        "shakti": "अम्बाजी"
+      },
+      {
+        "bhairava": "सर्वानंद",
+        "body_part": "कलाई",
+        "id": 25,
+        "location": "पुष्कर, राजस्थान, भारत",
+        "name": "गायत्री",
+        "shakti": "गायत्री"
+      },
+      {
+        "bhairava": "भैरव",
+        "body_part": "बाया पैर",
+        "id": 26,
+        "location": "भरतपुर, राजस्थान, भारत",
+        "name": "अंबिका",
+        "shakti": "अंबिका"
+      },
+      {
+        "bhairava": "कपालभैरव",
+        "body_part": "बायां गाल",
+        "id": 27,
+        "location": "पूर्वी गोदावरी, आंध्र प्रदेश",
+        "name": "सर्वशैल",
+        "shakti": "सर्वशैल"
+      },
+      {
+        "bhairava": "भीमाभैरव",
+        "body_part": "पीठ और रीढ़",
+        "id": 28,
+        "location": "कन्याकुमारी, तमिलनाडु",
+        "name": "श्रावणी",
+        "shakti": "श्रावणी"
+      },
+      {
+        "bhairava": "मल्लिकार्जुन",
+        "body_part": "दाहिनी पायल",
+        "id": 29,
+        "location": "कुरनूल, आंध्र प्रदेश",
+        "name": "भ्रमरम्बा",
+        "shakti": "भ्रमरम्बा"
+      },
+      {
+        "bhairava": "नायकर",
+        "body_part": "ऊपरी दांत",
+        "id": 30,
+        "location": "कन्याकुमारी, तमिलनाडु",
+        "name": "नारायणी",
+        "shakti": "नारायणी"
+      },
+      {
+        "bhairava": "विश्वेश",
+        "body_part": "निचले होंठ",
+        "id": 31,
+        "location": "बीरभूम, पश्चिम बंगाल",
+        "name": "फुलारा",
+        "shakti": "फुलारा"
+      },
+      {
+        "bhairava": "भिरूक",
+        "body_part": "बांया हाथ",
+        "id": 32,
+        "location": "बीरभूम, पश्चिम बंगाल",
+        "name": "बहुला",
+        "shakti": "बहुला"
+      },
+      {
+        "bhairava": "नंदीकेश्वर",
+        "body_part": "गले का हार",
+        "id": 33,
+        "location": "बीरभूम, पश्चिम बंगाल",
+        "name": "नंदिनी",
+        "shakti": "नंदिनी"
+      },
+      {
+        "bhairava": "रुरु",
+        "body_part": "हड्डी",
+        "id": 34,
+        "location": "बीरभूम, पश्चिम बंगाल",
+        "name": "देवगर्भा",
+        "shakti": "देवगर्भा"
+      },
+      {
+        "bhairava": "समहारा",
+        "body_part": "ताज",
+        "id": 35,
+        "location": "मुर्शिदाबाद, पश्चिम बंगाल",
+        "name": "विमला",
+        "shakti": "विमला"
+      },
+      {
+        "bhairava": "महादेव",
+        "body_part": "दाहिना कंधा",
+        "id": 36,
+        "location": "हुगली, पश्चिम बंगाल",
+        "name": "कुमारी शक्ति",
+        "shakti": "कुमारी शक्ति"
+      },
+      {
+        "bhairava": "Kshetrapal",
+        "body_part": "दाहिनी कलाई",
+        "id": 37,
+        "location": "बर्धमान, पश्चिम बंगाल",
+        "name": "मंगल चंडिका",
+        "shakti": "मंगल चंडिका"
+      },
+      {
+        "bhairava": "रुरु",
+        "body_part": "बायां टखना",
+        "id": 38,
+        "location": "पुरबा मेदिनीपुर, पश्चिम बंगाल",
+        "name": "कपालिनी",
+        "shakti": "कपालिनी"
+      },
+      {
+        "bhairava": "क्रोधीश",
+        "body_part": "बाईं जांघ",
+        "id": 39,
+        "location": "जयन्तिया हिल्स, मेघालय",
+        "name": "जयंती",
+        "shakti": "जयंती"
+      },
+      {
+        "bhairava": "चंद्रमौली",
+        "body_part": "दाहिना पैर",
+        "id": 40,
+        "location": "त्रिपुरा, भारत",
+        "name": "त्रिपुर सुंदरी",
+        "shakti": "त्रिपुर सुंदरी"
+      },
+      {
+        "bhairava": "जगन्नाथ",
+        "body_part": "नाभि",
+        "id": 41,
+        "location": "जाजपुर, ओडिशा",
+        "name": "बिराजा",
+        "shakti": "बिराजा"
+      },
+      {
+        "bhairava": "भैरव",
+        "body_part": "कान",
+        "id": 42,
+        "location": "देवघर, झारखंड",
+        "name": "जय दुर्गा",
+        "shakti": "जय दुर्गा"
+      },
+      {
+        "bhairava": "महाकाल",
+        "body_part": "ऊपरी होंठ/कोहनी",
+        "id": 43,
+        "location": "उज्जैन, मध्य प्रदेश",
+        "name": "अवंती",
+        "shakti": "अवंती"
+      },
+      {
+        "bhairava": "भैरव",
+        "body_part": "पसलियाँ",
+        "id": 44,
+        "location": "अमरकंटक, मध्य प्रदेश",
+        "name": "नर्मदा",
+        "shakti": "नर्मदा"
+      },
+      {
+        "bhairava": "भैरव",
+        "body_part": "शरीर का टुकड़ा",
+        "id": 45,
+        "location": "पटना, बिहार",
+        "name": "पटन देवी",
+        "shakti": "पटन देवी"
+      },
+      {
+        "bhairava": "Kshetrapal",
+        "body_part": "आंखें (बाएं)",
+        "id": 46,
+        "location": "नैनीताल, उत्तराखंड",
+        "name": "नैना देवी",
+        "shakti": "नैना देवी"
+      },
+      {
+        "bhairava": "भैरव",
+        "body_part": "पीछे",
+        "id": 47,
+        "location": "चंपावत, उत्तराखंड",
+        "name": "पूर्णागिरि",
+        "shakti": "पूर्णागिरि"
+      },
+      {
+        "bhairava": "भैरव",
+        "body_part": "सिर",
+        "id": 48,
+        "location": "टेहरी, उत्तराखंड",
+        "name": "सुरकंडा",
+        "shakti": "सुरकंडा"
+      },
+      {
+        "bhairava": "एकंबरनाथर",
+        "body_part": "पिछला भाग",
+        "id": 49,
+        "location": "कांचीपुरम, तमिलनाडु",
+        "name": "कामाक्षी",
+        "shakti": "कामाक्षी"
+      },
+      {
+        "bhairava": "सुंदरेश्वर",
+        "body_part": "कंधा",
+        "id": 50,
+        "location": "मदुरै, तमिलनाडु",
+        "name": "मीनाक्षी",
+        "shakti": "मीनाक्षी"
+      },
+      {
+        "bhairava": "जंबुकेश्वर",
+        "body_part": "चेहरे का बायां भाग",
+        "id": 51,
+        "location": "तिरुवनैकवल, तमिलनाडु",
+        "name": "अखिलंदेश्वरी",
+        "shakti": "अखिलंदेश्वरी"
+      }
+    ]
+  }
+}

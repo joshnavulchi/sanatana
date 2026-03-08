@@ -1,0 +1,164 @@
+{
+  "philosophy_samsara": {
+    "title": "संसार दर्शन - गहन प्रश्नोत्तर और अवधारणाएँ",
+    "meta": {
+      "title": "दर्शन | संसार - सनातन धर्म - सनातन धर्म का अन्वेषण करें",
+      "canonical": "https://sanatanadharmam.in/philosophy/samsara",
+      "description": "दर्शन - संसार - सनातन धर्म - सनातन धर्म का अन्वेषण करें - दर्शन पर लेख, अनुवाद और संक्षिप्त टिप्पणी। प्रथाओं, इतिहास और मार्गदर्शक सिद्धांतों का अन्वेषण करें...",
+      "keywords": [
+        "bhagavadgita samsara",
+        "buddhist philosophy",
+        "cycle of life and death",
+        "cycle of rebirth",
+        "hindu philosophy",
+        "jain philosophy",
+        "karma",
+        "moksha",
+        "samsara",
+        "samsara concepts",
+        "samsara definition",
+        "samsara ethical implications",
+        "samsara goals",
+        "samsara in daily life",
+        "samsara in modern life",
+        "samsara key concepts",
+        "samsara meaning",
+        "samsara modern relevance",
+        "samsara origin",
+        "samsara origin and history",
+        "samsara personal development",
+        "samsara philosophical insights",
+        "samsara philosophy",
+        "samsara principles",
+        "samsara psychological insights",
+        "samsara q&a",
+        "samsara q&a for students",
+        "samsara relation to dharma and karma",
+        "samsara relation to other concepts",
+        "samsara relevance",
+        "samsara scriptural references",
+        "samsara society",
+        "samsara spiritual significance",
+        "samsara ultimate goal",
+        "samsara well-being",
+        "spiritual liberation",
+        "upanishads samsara",
+        "yoga sutras samsara"
+      ],
+      "ogimage": "/og/philosophy-samsara.png",
+      "url": "https://sanatanadharmam.in/philosophy/samsara"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "संगठन",
+        "contactpoint": {
+          "@type": "संपर्क बिंदु",
+          "areaserved": "दुनिया भर में",
+          "availablelanguage": [
+            "धन्यवाद",
+            "जर्मन",
+            "अंग्रेजी",
+            "Español",
+            "फ़्रांसीसी",
+            "हिन्दी",
+            "ठीक है",
+            "नेपाली",
+            "नीदरलैंड",
+            "पुर्तगाली",
+            "Русский",
+            "ठीक है",
+            "धन्यवाद",
+            "中文 (简体)"
+          ],
+          "contacttype": "ग्राहक सहायता",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "सनातनधर्मम.इन के बारे में",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "components": {
+      "birth": "पिछले कर्मों के आधार पर भौतिक अस्तित्व में प्रवेश।",
+      "death": "अस्तित्व की दूसरी अवस्था में संक्रमण।",
+      "rebirth": "नया जीवन संचित कर्मों से निर्धारित होता है।"
+    },
+    "core_principles": [
+      "जन्म और मृत्यु का चक्र",
+      "कर्म द्वारा शासित",
+      "अज्ञान (अविद्या) प्राणियों को संसार से बांधता है",
+      "मुक्ति (मोक्ष) संसार को समाप्त करती है"
+    ],
+    "definition": "संसार हिंदू, बौद्ध और जैन दर्शन में कर्म और अज्ञान से प्रेरित जन्म, मृत्यु और पुनर्जन्म के निरंतर चक्र को संदर्भित करता है।",
+    "goals": [
+      "संसार की प्रकृति को समझें",
+      "कर्म संचय कम करें",
+      "आध्यात्मिक अभ्यास के माध्यम से मुक्ति की तलाश करें"
+    ],
+    "key_scriptural_references": [
+      {
+        "quote_summary": "आत्मा शाश्वत है, पुराने शरीर नष्ट होते ही नये शरीर धारण करती है।",
+        "text": "भगवतगीता"
+      },
+      {
+        "quote_summary": "मुक्ति तब मिलती है जब व्यक्ति जन्म और मृत्यु से परे स्वयं को पहचान लेता है।",
+        "text": "उपनिषद"
+      }
+    ],
+    "modern_relevance": {
+      "ethics": "सचेत जीवन और जिम्मेदारी को प्रोत्साहित करता है।",
+      "psychology": "पीड़ा और लगाव के पैटर्न की व्याख्या करता है।",
+      "spirituality": "उच्च चेतना की खोज को प्रेरित करता है।"
+    },
+    "origin": {
+      "meaning": "यह संस्कृत के 'संस्र' से बना है, जिसका अर्थ है 'बहना या भटकना'।",
+      "roots": "वैदिक और उपनिषदिक शिक्षाएँ",
+      "texts": [
+        "उपनिषद",
+        "भगवतगीता",
+        "योग सूत्र"
+      ]
+    },
+    "relation_to_other_concepts": {
+      "dharma": "धार्मिक जीवन कर्म बंधन को कम करने में मदद करता है।",
+      "karma": "कर्म ही भविष्य का जन्म निर्धारित करते हैं।",
+      "moksha": "संसार से मुक्ति ही अंतिम लक्ष्य है।"
+    },
+    "samsara_qa": [
+      {
+        "answer": "संसार जन्म, मृत्यु और पुनर्जन्म का अंतहीन चक्र है, जो कर्म और अज्ञान से प्रेरित है। यह सांसारिक अस्तित्व की वह अवस्था है जिससे मुक्ति (मोक्ष) मांगी जाती है।",
+        "question": "संसार क्या है?"
+      },
+      {
+        "answer": "कर्म, कारण और प्रभाव का नियम, प्रत्येक जन्म की परिस्थितियों को निर्धारित करता है। अच्छे कर्मों के परिणामस्वरूप अनुकूल पुनर्जन्म होता है, जबकि नकारात्मक कर्मों के परिणामस्वरूप कष्ट होता है।",
+        "question": "कर्म संसार को कैसे प्रभावित करता है?"
+      },
+      {
+        "answer": "अज्ञान (अविद्या), आसक्ति और इच्छाएं प्राणियों को संसार के चक्र में बांधती हैं। केवल ज्ञान, वैराग्य और आध्यात्मिक अभ्यास के माध्यम से ही कोई व्यक्ति मुक्त हो सकता है।",
+        "question": "प्राणियों के संसार में बने रहने का क्या कारण है?"
+      },
+      {
+        "answer": "धर्म का पालन करके, मन को शुद्ध करके, निःस्वार्थ कर्म, भक्ति और ध्यान का अभ्यास करके, व्यक्ति मोक्ष प्राप्त कर सकता है और संसार से मुक्त हो सकता है।",
+        "question": "संसार से कोई कैसे बच सकता है?"
+      },
+      {
+        "answer": "उपनिषद, भगवद गीता और योग सूत्र संसार को बंधन और पीड़ा की स्थिति के रूप में वर्णित करते हैं, और मुक्ति का मार्ग सिखाते हैं।",
+        "question": "संसार के बारे में शास्त्र क्या कहते हैं?"
+      },
+      {
+        "answer": "नहीं, संसार की अवधारणा बौद्ध धर्म और जैन धर्म का भी केंद्र है, हालांकि प्रत्येक परंपरा इसे अलग तरह से समझाती है।",
+        "question": "क्या संसार हिंदू धर्म के लिए अद्वितीय है?"
+      },
+      {
+        "answer": "हाँ, सुख और दुःख, सफलता और विफलता के चक्र और जीवन में बार-बार आने वाले पैटर्न संसार की प्रकृति को दर्शाते हैं। इसे पहचानने से स्थायी स्वतंत्रता की खोज की प्रेरणा मिलती है।",
+        "question": "क्या दैनिक जीवन में संसार का अनुभव किया जा सकता है?"
+      },
+      {
+        "answer": "अंतिम लक्ष्य सच्चे आत्म का एहसास करके और मोक्ष प्राप्त करके, पुनर्जन्म और पीड़ा के चक्र को समाप्त करके संसार से परे जाना है।",
+        "question": "संसार के संबंध में अंतिम लक्ष्य क्या है?"
+      }
+    ]
+  }
+}

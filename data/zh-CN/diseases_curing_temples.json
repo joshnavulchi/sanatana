@@ -1,0 +1,222 @@
+{
+  "diseases_curing_temples": {
+    "title": "寺庙治病| Sanātana Dharma - 永恒的生活方式",
+    "meta": {
+      "title": "寺庙治病| Sanātana Dharma - 永恒的生活方式",
+      "canonical": "https://sanatanadharmam.in/diseases-curing-temples",
+      "description": "治疗寺庙疾病。",
+      "keywords": [
+        "anxiety and stress relief",
+        "chronic diseases",
+        "chronic illness relief",
+        "diseases curing temples",
+        "fertility blessings",
+        "general health protection",
+        "healing temples in India",
+        "long-term suffering",
+        "mental health",
+        "neurological issues",
+        "physical and mental well-being",
+        "psychosomatic disorders",
+        "recovery after illness",
+        "respiratory issues",
+        "skin diseases",
+        "spiritual healing temples",
+        "temples associated with health benefits",
+        "temples for curing diseases",
+        "temples for health and healing",
+        "traditional healing temples"
+      ],
+      "ogimage": "images/og/home.png",
+      "url": "https://sanatanadharmam.in/diseases-curing-temples"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "组织",
+        "contactpoint": {
+          "@type": "联络点",
+          "areaserved": "全世界",
+          "availablelanguage": [
+            "巴黎",
+            "德语",
+            "英语",
+            "西班牙语",
+            "法国人",
+            "हिन्दी",
+            "日本语",
+            "नेपाली",
+            "荷兰",
+            "葡萄牙语",
+            "俄罗斯",
+            "తెలుగు",
+            "阿鲁多",
+            "中文 (简体)"
+          ],
+          "contacttype": "客户支持",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "关于 Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "healing_temples_india": [
+      {
+        "city_or_district": "马伊拉·杜图拉伊",
+        "deity": "湿婆 饰演 Vaidyanathar（神医）",
+        "id": "TN_VAIDYANATHAR_VAITHEESWARAN",
+        "state": "泰米尔纳德邦",
+        "temple_name": "Vaitheeswaran Koil（斯里维迪亚纳塔寺）",
+        "traditional_belief_about_diseases": [
+          "皮肤病",
+          "慢性病",
+          "一般健康问题"
+        ]
+      },
+      {
+        "city_or_district": "钦奈",
+        "deity": "湿婆 (Shiva) 饰演 Marundeeswarar（医药之王）",
+        "id": "TN_MARUNDEESWARAR_TIRUVANMIYUR",
+        "state": "泰米尔纳德邦",
+        "temple_name": "马伦德斯瓦拉尔神庙 (Thiruvanmiyur)",
+        "traditional_belief_about_diseases": [
+          "一般疾病",
+          "久病后身体虚弱",
+          "身体疼痛和疲劳"
+        ]
+      },
+      {
+        "city_or_district": "帕拉尼",
+        "deity": "穆卢干勋爵",
+        "id": "TN_PALANI_DHANDAYUTHAPANI",
+        "state": "泰米尔纳德邦",
+        "temple_name": "帕拉尼·丹达乌塔帕尼·斯瓦米神庙",
+        "traditional_belief_about_diseases": [
+          "慢性病",
+          "成瘾",
+          "虚弱和低能量"
+        ]
+      },
+      {
+        "city_or_district": "埃尔讷古勒姆",
+        "deity": "薄伽瓦蒂女神",
+        "id": "KL_CHOTTANIKKARA_BHAGAVATHY",
+        "state": "喀拉拉邦",
+        "temple_name": "Chottanikkara Bhagavathy 寺庙",
+        "traditional_belief_about_diseases": [
+          "精神疾病",
+          "焦虑和抑郁",
+          "心身疾病"
+        ]
+      },
+      {
+        "city_or_district": "古鲁瓦尤尔",
+        "deity": "克里希纳勋爵 (Guruvayurappan)",
+        "id": "KL_GURUVAYUR_KRISHNA",
+        "state": "喀拉拉邦",
+        "temple_name": "古鲁瓦尤尔·斯里·奎师那寺庙",
+        "traditional_belief_about_diseases": [
+          "儿童健康问题",
+          "一般疾病",
+          "与生育相关的祝福"
+        ]
+      },
+      {
+        "city_or_district": "斯里卡拉哈斯蒂",
+        "deity": "湿婆（Vayu Linga）",
+        "id": "AP_斯里卡拉哈斯蒂",
+        "state": "安得拉邦",
+        "temple_name": "斯里卡拉哈斯蒂寺",
+        "traditional_belief_about_diseases": [
+          "呼吸问题（类似哮喘）",
+          "皮肤问题",
+          "Dosha 相关的健康障碍"
+        ]
+      },
+      {
+        "city_or_district": "亚达德里-布瓦纳吉里",
+        "deity": "拉克希米·纳拉辛哈",
+        "id": "TS_YADADRI_NARASIMHA",
+        "state": "特兰加纳",
+        "temple_name": "亚达德里·拉克希米·纳拉辛哈神庙",
+        "traditional_belief_about_diseases": [
+          "恐惧和焦虑",
+          "一般健康保护",
+          "病后康复"
+        ]
+      },
+      {
+        "city_or_district": "海得拉巴",
+        "deity": "耶拉玛女神",
+        "id": "TS_BALKAMPET_YELLAMMA",
+        "state": "特兰加纳",
+        "temple_name": "巴尔坎佩耶拉玛寺庙",
+        "traditional_belief_about_diseases": [
+          "皮肤病",
+          "慢性健康状况"
+        ]
+      },
+      {
+        "city_or_district": "德奥加尔",
+        "deity": "湿婆作为 Vaidyanath",
+        "id": "JH_BABA_拜迪亚纳斯",
+        "state": "贾坎德邦",
+        "temple_name": "巴巴·拜迪亚纳特·乔蒂林加",
+        "traditional_belief_about_diseases": [
+          "慢性病",
+          "一般健康问题",
+          "长期身体虚弱"
+        ]
+      },
+      {
+        "city_or_district": "道萨",
+        "deity": "哈努曼勋爵（巴拉吉）",
+        "id": "RJ_MEHANDIPUR_BALAJI",
+        "state": "拉贾斯坦邦",
+        "temple_name": "梅汉迪普尔巴拉吉寺",
+        "traditional_belief_about_diseases": [
+          "精神痛苦",
+          "心身问题",
+          "被认为本质上是精神上的干扰"
+        ]
+      },
+      {
+        "city_or_district": "卡拉布拉吉地区",
+        "deity": "达塔特雷亚勋爵",
+        "id": "KA_GANAGAPUR_DATTATREYA",
+        "state": "卡纳塔克邦",
+        "temple_name": "Sri Kshetra Ganagapur (Dattatreya Padukas)",
+        "traditional_belief_about_diseases": [
+          "神经系统问题",
+          "慢性病",
+          "长期受苦"
+        ]
+      },
+      {
+        "city_or_district": "古瓦哈提",
+        "deity": "卡玛基亚女神",
+        "id": "AS_KAMAKHYA",
+        "state": "阿萨姆邦",
+        "temple_name": "卡玛加庙",
+        "traditional_belief_about_diseases": [
+          "女性健康问题",
+          "生育问题"
+        ]
+      },
+      {
+        "city_or_district": "瓦拉纳西",
+        "deity": "哈努曼勋爵",
+        "id": "UP_SANKAT_MOCHAN",
+        "state": "北方邦",
+        "temple_name": "Sankat Mochan 哈努曼寺",
+        "traditional_belief_about_diseases": [
+          "焦虑",
+          "一般健康问题",
+          "摆脱障碍和痛苦"
+        ]
+      }
+    ]
+  }
+}

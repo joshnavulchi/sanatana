@@ -1,0 +1,164 @@
+{
+  "philosophy_samsara": {
+    "title": "Samsara-Philosophie – Ausführliche Fragen und Antworten und Konzepte",
+    "meta": {
+      "title": "Philosophie | Samsara – Sanātana Dharma – Entdecken Sie Sanatan Dharma",
+      "canonical": "https://sanatanadharmam.in/philosophy/samsara",
+      "description": "Philosophie – Samsara – Sanātana Dharma – Entdecken Sie Sanatan Dharma – Artikel, Übersetzungen und prägnante Kommentare zur Philosophie. Entdecken Sie Praktiken, Geschichte und Leitprinzipien ...",
+      "keywords": [
+        "bhagavadgita samsara",
+        "buddhist philosophy",
+        "cycle of life and death",
+        "cycle of rebirth",
+        "hindu philosophy",
+        "jain philosophy",
+        "karma",
+        "moksha",
+        "samsara",
+        "samsara concepts",
+        "samsara definition",
+        "samsara ethical implications",
+        "samsara goals",
+        "samsara in daily life",
+        "samsara in modern life",
+        "samsara key concepts",
+        "samsara meaning",
+        "samsara modern relevance",
+        "samsara origin",
+        "samsara origin and history",
+        "samsara personal development",
+        "samsara philosophical insights",
+        "samsara philosophy",
+        "samsara principles",
+        "samsara psychological insights",
+        "samsara q&a",
+        "samsara q&a for students",
+        "samsara relation to dharma and karma",
+        "samsara relation to other concepts",
+        "samsara relevance",
+        "samsara scriptural references",
+        "samsara society",
+        "samsara spiritual significance",
+        "samsara ultimate goal",
+        "samsara well-being",
+        "spiritual liberation",
+        "upanishads samsara",
+        "yoga sutras samsara"
+      ],
+      "ogimage": "/og/philosophy-samsara.png",
+      "url": "https://sanatanadharmam.in/philosophy/samsara"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organisation",
+        "contactpoint": {
+          "@type": "Kontaktpunkt",
+          "areaserved": "Weltweit",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "Englisch",
+            "Spanisch",
+            "Französisch",
+            "Ja",
+            "日本語",
+            "Ja",
+            "Niederlande",
+            "Portugiesisch",
+            "Russisch",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Kundensupport",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Über Sanatanadharam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "components": {
+      "birth": "Eintritt in die physische Existenz basierend auf vergangenem Karma.",
+      "death": "Übergang in einen anderen Existenzzustand.",
+      "rebirth": "Neues Leben, bestimmt durch angesammeltes Karma."
+    },
+    "core_principles": [
+      "Zyklus von Geburt und Tod",
+      "Von Karma regiert",
+      "Unwissenheit (Avidya) bindet Wesen an Samsara",
+      "Die Befreiung (Moksha) beendet Samsara"
+    ],
+    "definition": "Samsara bezieht sich auf den kontinuierlichen Zyklus von Geburt, Tod und Wiedergeburt in hinduistischen, buddhistischen und jainistischen Philosophien, der von Karma und Unwissenheit angetrieben wird.",
+    "goals": [
+      "Verstehen Sie die Natur von Samsara",
+      "Reduzieren Sie die karmische Ansammlung",
+      "Suche nach Befreiung durch spirituelle Praxis"
+    ],
+    "key_scriptural_references": [
+      {
+        "quote_summary": "Die Seele ist ewig und nimmt neue Körper an, während alte sterben.",
+        "text": "Bhagavathgita"
+      },
+      {
+        "quote_summary": "Befreiung kommt, wenn man das Selbst jenseits von Geburt und Tod erkennt.",
+        "text": "Upanishaden"
+      }
+    ],
+    "modern_relevance": {
+      "ethics": "Fördert achtsames Leben und Verantwortung.",
+      "psychology": "Erklärt Muster des Leidens und der Bindung.",
+      "spirituality": "Motiviert das Streben nach höherem Bewusstsein."
+    },
+    "origin": {
+      "meaning": "Abgeleitet vom Sanskrit „samsṛ“, was „fließen oder wandern“ bedeutet.",
+      "roots": "Vedische und upanischadische Lehren",
+      "texts": [
+        "Upanishaden",
+        "Bhagavathgita",
+        "Yoga-Sutras"
+      ]
+    },
+    "relation_to_other_concepts": {
+      "dharma": "Ein rechtschaffenes Leben trägt dazu bei, karmische Bindungen zu reduzieren.",
+      "karma": "Handlungen bestimmen zukünftige Geburten.",
+      "moksha": "Freiheit von Samsara ist das ultimative Ziel."
+    },
+    "samsara_qa": [
+      {
+        "answer": "Samsara ist der endlose Kreislauf von Geburt, Tod und Wiedergeburt, angetrieben von Karma und Unwissenheit. Es ist der Zustand der weltlichen Existenz, aus dem Befreiung (Moksha) angestrebt wird.",
+        "question": "Was ist Samsara?"
+      },
+      {
+        "answer": "Karma, das Gesetz von Ursache und Wirkung, bestimmt die Umstände jeder Geburt. Gute Taten führen zu günstigen Wiedergeburten, während negative Taten zu Leid führen.",
+        "question": "Wie beeinflusst Karma Samsara?"
+      },
+      {
+        "answer": "Unwissenheit (Avidya), Anhaftung und Wünsche binden Wesen an den Kreislauf von Samsara. Nur durch Wissen, Distanz und spirituelle Praxis kann man sich befreien.",
+        "question": "Was bewirkt, dass Wesen in Samsara bleiben?"
+      },
+      {
+        "answer": "Indem man dem Dharma folgt, den Geist reinigt, selbstloses Handeln, Hingabe und Meditation praktiziert, kann man Moksha erreichen und von Samsara befreit werden.",
+        "question": "Wie kann man Samsara entkommen?"
+      },
+      {
+        "answer": "Die Upanishaden, die Bhagavad Gita und die Yoga-Sutras beschreiben Samsara als einen Zustand der Knechtschaft und des Leidens und lehren den Weg zur Befreiung.",
+        "question": "Was sagen die heiligen Schriften über Samsara?"
+      },
+      {
+        "answer": "Nein, das Konzept von Samsara ist auch im Buddhismus und Jainismus von zentraler Bedeutung, obwohl jede Tradition es anders erklärt.",
+        "question": "Ist Samsara einzigartig im Hinduismus?"
+      },
+      {
+        "answer": "Ja, die Zyklen von Freude und Schmerz, Erfolg und Misserfolg und sich wiederholenden Mustern im Leben spiegeln die Natur von Samsara wider. Dies zu erkennen inspiriert die Suche nach dauerhafter Freiheit.",
+        "question": "Kann Samsara im täglichen Leben erlebt werden?"
+      },
+      {
+        "answer": "Das ultimative Ziel besteht darin, Samsara zu überwinden, indem man das wahre Selbst erkennt und Moksha erreicht, wodurch der Kreislauf von Wiedergeburt und Leiden beendet wird.",
+        "question": "Was ist das ultimative Ziel in Bezug auf Samsara?"
+      }
+    ]
+  }
+}

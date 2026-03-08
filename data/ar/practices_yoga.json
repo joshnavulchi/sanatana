@@ -1,0 +1,150 @@
+{
+  "practices_yoga": {
+    "title": "",
+    "meta": {
+      "title": "فلسفة | اليوغا - ساناتانا دارما - اكتشف ساناتان دارما",
+      "canonical": "https://sanatanadharmam.in/philosophy/yoga",
+      "description": "الفلسفة - اليوغا - ساناتانا دارما - اكتشف ساناتان دارما - مقالات وترجمات وتعليقات موجزة عن الفلسفة. استكشف الممارسات والتاريخ والمبادئ التوجيهية في...",
+      "keywords": [
+        "bhagavadgita yoga",
+        "hindu yoga",
+        "upanishads yoga",
+        "vedic yoga",
+        "yoga concepts explained in sanatana dharma",
+        "yoga concepts for beginners",
+        "yoga concepts for students",
+        "yoga concepts in modern life",
+        "yoga concepts in sanatana dharma",
+        "yoga history explained in sanatana dharma",
+        "yoga history for beginners",
+        "yoga history for students",
+        "yoga history in modern life",
+        "yoga history of sanatana dharma",
+        "yoga insights explained in sanatana dharma",
+        "yoga insights for beginners",
+        "yoga insights for students",
+        "yoga insights from sanatana dharma",
+        "yoga insights in modern life",
+        "yoga philosophy",
+        "yoga practices explained in sanatana dharma",
+        "yoga practices for beginners",
+        "yoga practices for students",
+        "yoga practices in modern life",
+        "yoga practices in sanatana dharma",
+        "yoga principles explained in sanatana dharma",
+        "yoga principles for beginners",
+        "yoga principles for students",
+        "yoga principles in modern life",
+        "yoga principles of sanatana dharma",
+        "yoga q&a explained in sanatana dharma",
+        "yoga q&a for beginners",
+        "yoga q&a for students",
+        "yoga q&a in modern life",
+        "yoga q&a on sanatana dharma",
+        "yoga relevance explained in sanatana dharma",
+        "yoga relevance for beginners",
+        "yoga relevance for students",
+        "yoga relevance in modern life",
+        "yoga relevance of sanatana dharma in modern life",
+        "yoga sutras of patanjali",
+        "yoga teachings explained in sanatana dharma",
+        "yoga teachings for beginners",
+        "yoga teachings for students",
+        "yoga teachings in modern life",
+        "yoga teachings of sanatana dharma"
+      ],
+      "ogimage": "/og/philosophy-yoga.png",
+      "url": "https://sanatanadharmam.in/philosophy/yoga"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "منظمة",
+        "contactpoint": {
+          "@type": "نقطة الاتصال",
+          "areaserved": "في جميع أنحاء العالم",
+          "availablelanguage": [
+            "العربية",
+            "الألمانية",
+            "إنجليزي",
+            "الاسبانية",
+            "الفرنسية",
+            "الهندية",
+            "日本語",
+            "النيبالية",
+            "هولندا",
+            "البرتغالية",
+            "الروسية",
+            "نعم",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "دعم العملاء",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "حول Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "core_principles": [
+      "اتحاد الذات الفردية (عتمان) مع الوعي العالمي (براهمان)",
+      "التوازن في الجوانب الجسدية والعقلية والروحية",
+      "الانضباط والحياة الأخلاقية"
+    ],
+    "definition": "اليوغا هي نظام روحي وفلسفة تهدف إلى تحقيق الانسجام بين الجسم والعقل والروح لتحقيق تحقيق الذات والتحرر (موكشا).",
+    "eight_limbs_of_yoga": [
+      "ياما (القيود الأخلاقية)",
+      "نياما (احتفالات شخصية)",
+      "أسانا (المواقف)",
+      "البراناياما (التحكم في التنفس)",
+      "براتياهارا (انسحاب الحواس)",
+      "الظهرانه (التركيز)",
+      "ديانا (التأمل)",
+      "السمادهي (الامتصاص أو الاتحاد)"
+    ],
+    "goals": [
+      "تحقيق الذات",
+      "الوضوح العقلي والسلام",
+      "الصحة البدنية والحيوية",
+      "التحرر من المعاناة"
+    ],
+    "key_scriptural_references": [
+      {
+        "quote_summary": "اليوغا هي وقف التقلبات العقلية.",
+        "text": "سوترا اليوغا من باتانجالي"
+      },
+      {
+        "quote_summary": "اليوغا هي المهارة في العمل والتوازن في الحياة.",
+        "text": "بهاجافاثجيتا"
+      }
+    ],
+    "modern_relevance": {
+      "health": "يحسن اللياقة البدنية والصحة العقلية.",
+      "spiritual_growth": "يشجع الذهن والسلام الداخلي.",
+      "stress_management": "يقلل من القلق ويعزز الهدوء."
+    },
+    "origin": {
+      "meaning": "مشتقة من اللغة السنسكريتية \"yuj\"، وتعني \"الاتحاد أو الانضمام\".",
+      "roots": "التقليد الفيدي والأوبنشاد",
+      "texts": [
+        "سوترا اليوغا من باتانجالي",
+        "بهاجافاثجيتا",
+        "الأوبنشاد"
+      ]
+    },
+    "paths_of_yoga": {
+      "bhakti_yoga": "Path of devotion and love for the divine.",
+      "hatha_yoga": "Path of physical postures and breath control.",
+      "jnana_yoga": "Path of knowledge and wisdom.",
+      "karma_yoga": "Path of selfless action.",
+      "raja_yoga": "Path of meditation and mental discipline."
+    },
+    "relation_to_other_concepts": {
+      "dharma": "اليوغا تدعم الحياة الصالحة.",
+      "karma": "اليوغا تنقي الأعمال والنوايا.",
+      "moksha": "اليوغا هي طريق مباشر للتحرر."
+    }
+  }
+}

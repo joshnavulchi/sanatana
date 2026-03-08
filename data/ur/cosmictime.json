@@ -1,0 +1,2300 @@
+{
+  "cosmictime": {
+    "title": "1,728,000 انسانی سال کا دورانیہ کیسے ممکن ہے؟",
+    "meta": {
+      "title": "سناتن دھرم میں کائناتی وقت: یوگاس، منونتر، اور سائنسی موازنہ",
+      "canonical": "https://sanatanadharmam.in/philosophy/cosmictime",
+      "description": "یوگا سائیکل، منونتر، کلپا، اور جدید سائنسی کاسمولوجی کے ساتھ ان کا موازنہ کی گہرائی سے وضاحت۔",
+      "keywords": [
+        "Kalpa",
+        "Manvantara",
+        "Manvantara and Kalpa explained",
+        "Sanātana Dharma cosmology",
+        "Satya Yuga duration",
+        "Yuga cycles",
+        "Yuga durations explained",
+        "Yuga system mathematical structure",
+        "ancient timekeeping",
+        "comparison with science",
+        "consciousness",
+        "cosmic administration",
+        "cosmic cosmology",
+        "cosmic cycles",
+        "cosmic enlightenment",
+        "cosmic experience",
+        "cosmic function",
+        "cosmic implications",
+        "cosmic insights",
+        "cosmic knowledge",
+        "cosmic metaphysics",
+        "cosmic mythology",
+        "cosmic order",
+        "cosmic philosophy",
+        "cosmic purpose",
+        "cosmic realization",
+        "cosmic significance",
+        "cosmic structure",
+        "cosmic symbolism",
+        "cosmic theology",
+        "cosmic time",
+        "cosmic time scales in Hinduism",
+        "cosmic time vs human time",
+        "cosmic timekeeping",
+        "cosmic understanding",
+        "cosmic wisdom",
+        "cyclical time",
+        "cyclical universe concept",
+        "divine time vs human time",
+        "geological time",
+        "geological time scales",
+        "modern science",
+        "moral and spiritual decline",
+        "moral decline",
+        "philosophy of time",
+        "scientific perspective on Yugas",
+        "spiritual states",
+        "time in Sanātana Dharma"
+      ],
+      "ogimage": "/og/cosmictime.png",
+      "url": "https://sanatanadharmam.in/philosophy/cosmictime"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "تنظیم",
+        "contactpoint": {
+          "@type": "رابطہ پوائنٹ",
+          "areaserved": "دنیا بھر میں",
+          "availablelanguage": [
+            "العربية",
+            "ڈوئچ",
+            "انگریزی",
+            "اسپینول",
+            "Français",
+            "ہندی",
+            "日本語",
+            "नेपाली",
+            "نیدرلینڈز",
+            "پرتگالی",
+            "روسی",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "کسٹمر سپورٹ",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sanatanadharmam.in کے بارے میں",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "earth_age_comparison_note": "1 کلپا (4.32 بلین سال) حیرت انگیز طور پر زمین کی عمر (~4.54 بلین سال) کے جدید سائنسی اندازے کے قریب ہے۔",
+    "scaling_comment": "یہ ریاضیاتی پیمانہ تمام کائناتی سطحوں پر انتہائی منظم اور متناسب ہے۔",
+    "answer": "کیونکہ: وقت چکراتی ہے، لکیری نہیں، تخلیق اور تحلیل لامتناہی طور پر دہرائی جاتی ہے، شعور وقت کے بہاؤ کو کنٹرول کرتا ہے، وسیع پیمانے متوقع ہیں، غیر معمولی نہیں",
+    "assumes": "سناتن دھرم فرض کرتا ہے: تخلیق → تحفظ → تحلیل → تفریح ​​(دوہرائیں)",
+    "brahma_full_day": "برہما کا ایک پورا دن",
+    "cosmictimesystem": {
+      "baseunithumanyears": 432000,
+      "brahmalifetimeyears": 311040000000000,
+      "chaturyuga": {
+        "durationyears": 4320000,
+        "ratio": "4:3:2:1",
+        "yugas": [
+          {
+            "dharma": "100%",
+            "duration": 1728000,
+            "name": "ستیہ یوگا"
+          },
+          {
+            "dharma": "75%",
+            "duration": 1296000,
+            "name": "تریتا یوگ"
+          },
+          {
+            "dharma": "50%",
+            "duration": 864000,
+            "name": "دوپارہ یوگا"
+          },
+          {
+            "dharma": "25%",
+            "duration": 432000,
+            "name": "کالی یوگ"
+          }
+        ]
+      },
+      "kalpa": {
+        "description": "برہما کا ایک دن",
+        "durationyears": 4320000000,
+        "manvantaras": 14
+      },
+      "manvantara": {
+        "chaturyugas": 71,
+        "durationyears": 306720000
+      }
+    },
+    "cyclical_universe": "چکراتی کائنات، لکیری تاریخ نہیں۔",
+    "definition": "سناتن دھرم میں، وقت کو مختصر، لکیری اسپین (صدیوں یا ہزار سال) میں تصور نہیں کیا جاتا ہے بلکہ وسیع، چکراتی، کائناتی پیمانے کے طور پر تصور کیا جاتا ہے۔ ستیہ یوگ کی مدت = 1,728,000 انسانی سال جب اس فریم ورک کے ذریعے دیکھے جائیں تو سمجھ میں آتا ہے۔",
+    "final_consolidated_insight": {
+      "kalpas_explain": "سیاروں کے پیمانے پر وجود",
+      "manvantaras_explain": "تہذیبی ری سیٹ",
+      "overall_conclusion": "وہ مل کر کائناتی وقت کا ایک مکمل میکرو – مائیکرو فلسفہ بناتے ہیں۔",
+      "sanatana_dharma_explains": "سائیکلک فطرت اور اخلاقی حرکیات",
+      "science_validates": "وقت کا پیمانہ",
+      "yugas_explain": "اخلاقی اور روحانی زوال"
+    },
+    "human_years": "جب انسانی سالوں میں دورانیے کا اظہار کیا جاتا ہے، تو وہ بہت زیادہ ظاہر ہوتے ہیں، لیکن کائناتی ٹائم کیپنگ کے اندر، وہ متناسب اور محدود ہوتے ہیں۔",
+    "keypoint": "یہ نمبر بے ترتیب نہیں ہیں۔ وہ 432,000 کی بنیادی اکائی سے اخذ کیے گئے ہیں، متناسب طور پر ضرب (4:3:2:1)۔",
+    "lifetime_brahma": "برہما کی زندگی - 100 برہما سال - ہر سال = 360 دن",
+    "longduration": "کیا چیز اتنی لمبی مدت کو \"ممکن\" بناتی ہے؟",
+    "manvantara": {
+      "definition": "منونتر ایک بڑا کائناتی دور ہے جس پر ایک منو کی حکمرانی ہے، جو انسانیت کا پیشوا اور قانون ساز ہے۔",
+      "each_manvantara": [
+        "ایک مانو",
+        "ایک اندرا۔",
+        "نئے رشی۔",
+        "نئی کائناتی اور اخلاقی ترتیب"
+      ],
+      "explains": [
+        "تہذیبوں کا بار بار عروج و زوال",
+        "علم کا کھو جانا اور دوبارہ پیدا ہونا",
+        "واحد پہلی انسانیت کی عدم موجودگی",
+        "کائناتی انتظامی ڈھانچہ"
+      ],
+      "fourteen_kalpas": [
+        "سویمبھووا",
+        "سواروسیسا",
+        "اتمہ",
+        "تماس",
+        "رائوتا",
+        "کاکسوسا",
+        "ویواسواتا",
+        "مستقبل کا مانو"
+      ],
+      "human_history": {
+        "implications": [
+          "بڑے آثار قدیمہ کے خلاء متوقع ہیں۔",
+          "جدید تصورات کا اچانک ظہور",
+          "بار بار آنے والے عالمی افسانوی نمونے۔"
+        ],
+        "one_manvantara_years": 306720000,
+        "recorded_human_history_years": 6000
+      },
+      "manvantara_within_kalpa": {
+        "kalpa": "1 کلپا = 14",
+        "periods": "منونترس کے درمیان سندھیا کے مراحل",
+        "type": "ٹرانزیشن پر جزوی تحلیل"
+      },
+      "purpose": "تہذیب، حکمرانی، اور کائناتی انتظامیہ کے مکمل ری سیٹ کی نمائندگی کرتا ہے۔",
+      "structure_of_manvantara": {
+        "calculation": "71 × 4,320,000",
+        "chaturyugas_per_manvantara": 71,
+        "duration_human_years": 306720000
+      }
+    },
+    "modern_thinking_assumes": "جدید سوچ فرض کرتی ہے: تہذیب → ترقی → اختتام",
+    "night_of_brahma": "برہما کی رات - لمبائی میں ایک کلپا کے برابر، کائنات جزوی تحلیل میں داخل ہوتی ہے، کوئی ظاہری زندگی نہیں",
+    "non_contradictory": "سائنسی نقطہ نظر (غیر متضاد) - اگرچہ جدید سائنس باضابطہ طور پر یوگا ٹائم لائنز کو قبول نہیں کرتی ہے، لیکن یہ طویل عہدوں کو غلط ثابت نہیں کرتی ہے: زمین ~ 4.54 بلین سال پرانی ہے، ہومو سیپینز ~ 300،000 سال پرانی ہے، ارضیاتی عمر لاکھوں سال پر محیط ہے، تہذیبوں کا وجود ہو سکتا ہے یا مادی تسلسل کے بغیر غائب ہو گیا ہے۔",
+    "non_contradictory_thus": "اس طرح، طویل دورانیے سائنسی طور پر قابل فہم ہیں، چاہے تشریحات مختلف ہوں۔",
+    "numericalradio": "چار یوگا سخت عددی تناسب کی پیروی کرتے ہیں۔",
+    "question": "یہ نمبر \"ممکن\" کیوں ہیں؟",
+    "ratio": [
+      "یوگا تناسب کا دورانیہ (انسانی سال)",
+      "ستیہ (کرتا) 4 1,728,000",
+      "ٹریٹا 3 1,296,000",
+      "دواپارہ 2 864,000",
+      "کالی 1432,000"
+    ],
+    "satya_yuga_long_design": "ستیہ یوگا ڈیزائن کے لحاظ سے لمبا ہے، جو اپنے اعلیٰ اخلاقی اور روحانی توازن پر کام کرنے والی کائنات کی عکاسی کرتا ہے۔ کل وقتی درجہ بندی (چھوٹا → وسیع)",
+    "scale_of_time": "وقت کا مختلف پیمانہ (الٰہی بمقابلہ انسان) قدیم متن میں فرق ہے: منوشیا کالا (انسانی وقت)، دیویا کالا (خدائی/ کائناتی وقت)",
+    "scientific": {
+      "evolution_vs_moral": {
+        "key_insight": "سائنسی ترقی اور اخلاقی زوال ایک ساتھ بغیر تضاد کے ہو سکتا ہے۔",
+        "modern_science": {
+          "focus": "حیاتیاتی ارتقاء",
+          "moral_dimension": "کوئی موروثی اخلاقی یا روحانی میٹرک",
+          "time_nature": "قدر غیر جانبدار",
+          "trend": "جسمانی اور تکنیکی پیچیدگی میں اضافہ"
+        },
+        "yuga_system": {
+          "focus": "اخلاقی اور روحانی حالت",
+          "physical_progress": "روحانی زوال کے ساتھ ساتھ رہ سکتا ہے۔",
+          "time_nature": "شعور پر منحصر",
+          "trend": "یوگوں میں دھرم کا زوال"
+        }
+      },
+      "fundamental_approach_difference": {
+        "modern_science": {
+          "creation_process": "بگ بینگ کی توسیع",
+          "end_state": "گرمی کی موت یا گرنا (نظریاتی)",
+          "measurement_basis": "مادہ، توانائی، اور طبعی قوانین",
+          "time_model": "لکیری",
+          "universe_nature": "واحد قابل مشاہدہ کائنات"
+        },
+        "sanatana_dharma": {
+          "creation_process": "بار بار تخلیق، تحفظ، اور تحلیل",
+          "end_state": "تحلیل کے بعد دوبارہ جنم لینا",
+          "measurement_basis": "شعور، دھرم، اور کائناتی ترتیب",
+          "time_model": "چکراتی",
+          "universe_nature": "ابدی اور بار بار آنے والا"
+        }
+      },
+      "reason_for_vast_numbers_in_ancient_texts": {
+        "base_number_significance": {
+          "properties": [
+            "انتہائی قابل تقسیم",
+            "سائیکلک",
+            "ساختی طور پر توسیع پذیر"
+          ],
+          "value": 432000
+        },
+        "cosmic_reference": "وقت ایک آفاقی، انسانی نہیں، پیمانے پر ماپا جاتا ہے۔",
+        "numerical_structure": "تکرار اور اسکیل ایبلٹی",
+        "oral_tradition_support": "عین مطابق تناسب یادداشت میں مدد کرتا ہے۔"
+      },
+      "scientific_acceptability_of_long_time_spans": {
+        "accepted_by_science": [
+          "اربوں سالوں پر محیط تارکیی زندگی",
+          "کھربوں سالوں پر محیط Galactic سائیکل",
+          "بگ بینگ سے پہلے کے نامعلوم حالات"
+        ],
+        "conclusion": "یوگا دوروں پر اعتراضات سائنسی کے بجائے فلسفیانہ ہیں۔"
+      },
+      "scientific_summary": {
+        "core_difference": "مقصد، پیمانہ نہیں۔",
+        "sanatana_dharma_role": "اخلاقی اور کائناتی ترتیب کے زوال کی وضاحت کرتا ہے۔",
+        "science_role": "مادے اور توانائی کے رویے کی وضاحت کرتا ہے۔",
+        "shared_ground": "وسیع کائناتی وقت کی قبولیت"
+      },
+      "timeline_comparison_years": {
+        "age_of_earth_science": {
+          "description": "زمین کی تخمینی ارضیاتی عمر",
+          "value_years": 4540000000
+        },
+        "age_of_universe_science": {
+          "description": "بگ بینگ کے بعد سے متوقع عمر",
+          "value_years": 13800000000
+        },
+        "day_and_night_of_brahma": {
+          "description": "برہما کا ایک مکمل دن رات کا چکر",
+          "value_years": 8640000000
+        },
+        "lifespan_of_brahma": {
+          "description": "100 برہما سال",
+          "value_years": 311040000000000
+        },
+        "observation": "کلپا کا دورانیہ زمین کی ارضیاتی عمر سے بڑے پیمانے پر میل کھاتا ہے، حالانکہ تشریح میں نہیں۔",
+        "one_kalpa": {
+          "description": "برہما کا ایک دن",
+          "value_years": 4320000000
+        }
+      }
+    },
+    "scope": "سناتن دھرم کاسمولوجی اور جدید سائنس کے درمیان موازنہ، بشمول یوگس، منونتر، کلپا، اور وقت کی فلسفیانہ تشریحات۔",
+    "staya_yuga_longest": "ستیہ یوگا سب سے طویل کیوں ہے؟",
+    "staya_yuga_longest_definition": "ستیہ یوگ کو سنہری دور کہا جاتا ہے کیونکہ: دھرم چاروں ٹانگوں پر کھڑا ہے (سچائی، ہمدردی، پاکیزگی، سادگی)، انسان کی عمر بہت لمبی ہے، بیماری، تنازعہ، اور فریب کم سے کم ہے، شعور بنیادی طور پر ساتوک (خالص، چمکدار) ہے۔ اعلی روحانی استحکام → سست اخلاقی زوال → طویل دور۔ جیسا کہ بعد کے یوگوں میں دھرم کا زوال ہوتا ہے، وقت کا معاہدہ ہوتا ہے، جس کی وجہ سے عمر کم ہوتی ہے۔",
+    "summary_direct_answer": "خلاصہ (براہ راست جواب) - یہ ممکن ہے کیونکہ: سناتن دھرم کائناتی وقت کے چکروں کا استعمال کرتا ہے، یوگا کے دورانیے عین ریاضیاتی تناسب کی پیروی کرتے ہیں، وقت چکراتی ہے، لکیری نہیں، الہی اور انسانی وقت کے پیمانے مختلف ہیں، طویل عہد مابعد الطبیعات اور ارضیات دونوں کے ساتھ مطابقت رکھتے ہیں۔",
+    "symbolic_structural": "علامتی + ساختی معنی (دونوں کا اطلاق) - ستیہ یوگا کا دورانیہ بیک وقت دو سطحوں پر کام کرتا ہے: لغوی کائناتی وقت، اخلاقی – شعور کی پیمائش۔ جیسا کہ سچائی اور ہم آہنگی طویل عرصے تک حاوی رہتی ہے، خود وقت کو \"آہستہ بہاؤ\" کہا جاتا ہے۔ جیسے جیسے افراتفری بڑھتی ہے، وقت \"تیز\" ہوتا ہے (کالی یوگا کا تجربہ)۔",
+    "symbolic_structural_this": "یہ انسانی نفسیات کے مطابق ہے: پرامن زندگی طویل محسوس ہوتی ہے۔ افراتفری کی زندگی مختصر محسوس ہوتی ہے۔",
+    "system": "1 الہی سال = 360 انسانی سال",
+    "thus": "کائناتیں پیدا ہوتی ہیں اور تحلیل ہوتی ہیں، تہذیبیں عروج اور دوبارہ قائم ہوتی ہیں، اخلاقی اور روحانی حالتیں چکر لگاتی ہیں، مستقل طور پر آگے نہیں بڑھتی ہیں، ایسے ماڈل میں لاکھوں سال متوقع ہیں، غیر معمولی نہیں۔",
+    "yugasystem": "یوگا نظام ریاضیاتی ہے، علامتی اندازے کا کام نہیں۔"
+  },
+  "cosmic_evolution": {
+    "big_bang": {
+      "time": "13.8 بلین سال پہلے",
+      "physics": {
+        "planck_epoch": "کوانٹم کشش ثقل کا غلبہ؛ طبیعیات پوری طرح سے سمجھ نہیں آتی۔",
+        "inflation_epoch": "10^-36 سے 10^-32 سیکنڈ؛ کفایتی توسیع",
+        "baryogenesis": "مادّہ مخالف مادّہ کی غیر متناسب تشکیل۔",
+        "nucleosynthesis": {
+          "elements_formed": [
+            "ہائیڈروجن",
+            "ہیلیم -4",
+            "ڈیوٹیریم",
+            "لیتھیم"
+          ],
+          "time": "پہلے 3 منٹ"
+        }
+      },
+      "evidence": [
+        "کاسمک مائکروویو پس منظر کی تابکاری",
+        "ہبل کی توسیع",
+        "بنیادی عنصر کی کثرت کا تناسب"
+      ]
+    },
+    "stellar_evolution": {
+      "first_stars": {
+        "time": "بگ بینگ کے 200 ملین سال بعد",
+        "type": "آبادی III ستارے۔",
+        "role": "فیوژن کے ذریعے بھاری عناصر بنائے"
+      },
+      "supernovae": {
+        "role": "کاربن، آکسیجن، آئرن کو انٹرسٹیلر میڈیم میں تقسیم کیا۔"
+      }
+    }
+  },
+  "planetary_evolution": {
+    "solar_system": {
+      "time": "4.6 بلین سال پہلے",
+      "mechanism": "سالماتی بادل کا کشش ثقل کا خاتمہ",
+      "accretion_stages": [
+        "دھول دانوں کا تصادم",
+        "سیاروں کی تشکیل",
+        "پروٹوپلینیٹ کی تشکیل",
+        "مداری کلیئرنگ"
+      ]
+    },
+    "earth_formation": {
+      "time": "4.54 بلین سال پہلے",
+      "core_formation": {
+        "iron_catastrophe": "لوہا دھاتی کور بنانے کے لیے ڈوب گیا۔",
+        "magnetic_field": "geodynamo کے ذریعہ تیار کردہ"
+      },
+      "moon_formation": {
+        "theia_impact": "مریخ کے سائز کے جسم کے تصادم کا مفروضہ"
+      },
+      "early_atmosphere": {
+        "composition": [
+          "CO2",
+          "نائٹروجن",
+          "پانی کے بخارات",
+          "میتھین"
+        ],
+        "source": "آتش فشاں کا اخراج"
+      }
+    }
+  },
+  "abiogenesis": {
+    "chemical_evolution": {
+      "prebiotic_synthesis": {
+        "miller_urey": "قدیم ماحول میں برقی مادہ سے امینو ایسڈ"
+      },
+      "rna_world": {
+        "self_replicating_molecules": "RNA بطور جینیاتی + کیٹلیٹک ایجنٹ"
+      },
+      "lipid_world": {
+        "protocells": "بے ساختہ لپڈ بیلیئر ویسیکل کی تشکیل"
+      }
+    },
+    "earliest_life": {
+      "time": "3.7-3.5 بلین سال پہلے",
+      "organisms": "پروکریوٹک جرثومے",
+      "evidence": [
+        "سٹرومیٹولائٹس",
+        "آاسوٹوپک کاربن فریکشن"
+      ]
+    }
+  },
+  "biological_evolution": {
+    "oxygenation_event": {
+      "time": "2.4 بلین سال پہلے",
+      "impact": [
+        "ایروبک سانس کا ارتقاء",
+        "اوزون کی تہہ کی تشکیل"
+      ]
+    },
+    "eukaryotic_cells": {
+      "time": "2.1 بلین سال پہلے",
+      "theory": "Endosymbiosis"
+    },
+    "cambrian_explosion": {
+      "time": "541 ملین سال پہلے",
+      "diversification": "جانوروں کے جسم کے بڑے منصوبے سامنے آئے"
+    },
+    "mass_extinctions": [
+      {
+        "event": "پرمین-ٹریاسک",
+        "time": "252 ملین سال پہلے",
+        "loss": "96% سمندری انواع"
+      },
+      {
+        "event": "کریٹاسیئس-پیالوجین",
+        "time": "66 ملین سال پہلے",
+        "cause": "کشودرگرہ کا اثر",
+        "effect": "ڈایناسور کا خاتمہ"
+      }
+    ]
+  },
+  "human_evolution_global": {
+    "hominin_divergence": {
+      "time": "7 ملین سال پہلے",
+      "species": [
+        "Sahelanthropus",
+        "اوررورین",
+        "Ardipithecus"
+      ]
+    },
+    "australopithecus": {
+      "time": "4-2 ملین سال پہلے",
+      "traits": [
+        "بائی پیڈل ازم",
+        "دماغ کا چھوٹا سائز"
+      ]
+    },
+    "genus_homo": {
+      "homo_habilis": {
+        "time": "2.4 ملین سال پہلے",
+        "innovation": "اولڈووان کے اوزار"
+      },
+      "homo_erectus": {
+        "time": "1.9 ملین سال پہلے",
+        "innovation": "آگ پر قابو پایا",
+        "migration": "افریقہ سے باہر پہلی توسیع"
+      },
+      "homo_sapiens": {
+        "time": "300,000 سال پہلے",
+        "cognitive_traits": [
+          "علامتی استدلال",
+          "پیچیدہ زبان",
+          "فن تخلیق"
+        ]
+      }
+    },
+    "genetic_evidence": {
+      "mitochondrial_eve": "150,000–200,000 سال پہلے کا مشترکہ مادری اجداد",
+      "neanderthal_interbreeding": "غیر افریقی آبادی میں 1–2% DNA"
+    }
+  },
+  "human_evolution_india": {
+    "early_hominin_presence": {
+      "narmada_hominin": {
+        "location": "وادی نرمدا",
+        "estimated_age": "250,000-300,000 سال پہلے",
+        "classification": "قدیم ہومو پرجاتی"
+      }
+    },
+    "paleolithic_india": {
+      "sites": [
+        "بھیمبیٹکا راک شیلٹرز",
+        "اٹیرامپکم (تامل ناڈو)"
+      ],
+      "stone_tool_cultures": [
+        "اچیولین",
+        "درمیانی پیلیولتھک"
+      ]
+    },
+    "genetic_history": {
+      "ani_asi_model": {
+        "ANI": "آبائی شمالی ہند (مغربی یوریشین سے متعلق)",
+        "ASI": "آبائی جنوبی ہند (گہرا دیسی نسب)"
+      },
+      "migration_waves": [
+        {
+          "wave": "افریقہ سے باہر",
+          "time": "65,000 سال پہلے"
+        },
+        {
+          "wave": "وادی سندھ کی تہذیب",
+          "time": "3300-1300 قبل مسیح"
+        }
+      ]
+    }
+  },
+  "timeline": [
+    {
+      "event": "بگ بینگ",
+      "years_ago": 13800000000,
+      "category": "کائناتی"
+    },
+    {
+      "event": "نظام شمسی کی تشکیل",
+      "years_ago": 4600000000,
+      "category": "سیاروں"
+    },
+    {
+      "event": "زندگی کی اصل",
+      "years_ago": 3800000000,
+      "category": "حیاتیاتی"
+    },
+    {
+      "event": "کیمبرین دھماکہ",
+      "years_ago": 541000000,
+      "category": "حیاتیاتی"
+    },
+    {
+      "event": "ڈایناسور کا خاتمہ",
+      "years_ago": 66000000,
+      "category": "حیاتیاتی"
+    },
+    {
+      "event": "ہومو سیپینز کا ظہور",
+      "years_ago": 300000,
+      "category": "انسانی_عالمی"
+    },
+    {
+      "event": "ہندوستان میں انسانی ہجرت",
+      "years_ago": 65000,
+      "category": "ہیومن_انڈیا"
+    },
+    {
+      "event": "وادی سندھ کی تہذیب",
+      "years_ago": 4500,
+      "category": "ہیومن_انڈیا"
+    }
+  ],
+  "part1": {
+    "dataset_metadata": {
+      "title": "کائناتی تا انسانی ارتقاء الٹرا ڈیپ ریسرچ ڈیٹاسیٹ",
+      "volume": 1,
+      "scope": "ابتدائی سیاروں کی تفریق کے ذریعے کائناتی ارتقاء",
+      "academic_level": "گریجویٹ / ریسرچ",
+      "chronological_span_years": "13.8 بلین سال پہلے - 4.0 بلین سال پہلے",
+      "methodology_sources": [
+        "کائناتی مائکروویو پس منظر کی پیمائش",
+        "ریڈیو میٹرک ڈیٹنگ",
+        "ایسٹرو فزیکل سپیکٹروسکوپی",
+        "آاسوٹوپ جیو کیمسٹری",
+        "سیاروں کی نقلی ماڈلنگ"
+      ]
+    },
+    "section_1_cosmic_origin": {
+      "epoch_1_planck_epoch": {
+        "time_range": "0 - 10^-43 سیکنڈ",
+        "physical_state": "کوانٹم کشش ثقل کا نظام؛ کلاسیکل اسپیس ٹائم غیر متعینہ",
+        "dominant_forces": "چاروں بنیادی قوتیں متحد ہیں۔",
+        "theoretical_framework": [
+          "سٹرنگ تھیوری (فرضی)",
+          "لوپ کوانٹم کشش ثقل (فرضی)"
+        ],
+        "observational_status": "فی الحال تجرباتی توثیق سے باہر ہے۔",
+        "research_questions": [
+          "کوانٹم کشش ثقل کی نوعیت",
+          "پری بگ بینگ ریاست",
+          "کثیر الجہتی امکان"
+        ]
+      },
+      "epoch_2_inflation": {
+        "time_range": "10^-36 سے 10^-32 سیکنڈز",
+        "mechanism": "اسکیلر فیلڈ (انفلاٹون) کی وجہ سے ایکسپونینشل توسیع ہوئی۔",
+        "expansion_factor": "کم از کم 10^26 سائز میں اضافہ",
+        "cosmological_implications": [
+          "چپٹا پن کا مسئلہ حل ہو گیا۔",
+          "افق کا مسئلہ حل ہو گیا۔",
+          "ساخت کی تشکیل کے لیے بیج کے اتار چڑھاؤ"
+        ],
+        "evidence": [
+          "سی ایم بی انیسوٹروپی پیٹرن",
+          "بڑے پیمانے پر ڈھانچے کی تقسیم"
+        ]
+      },
+      "epoch_3_baryogenesis": {
+        "time_range": "پہلے سیکنڈ کے اندر",
+        "problem_addressed": "مادّہ مخالف مادّہ کی توازن",
+        "sakharov_conditions": [
+          "بیریون نمبر کی خلاف ورزی",
+          "C اور CP کی خلاف ورزی",
+          "تھرمل توازن سے نکلنا"
+        ],
+        "unknowns": "درست طریقہ کار کی تجرباتی طور پر تصدیق نہیں ہوئی۔"
+      },
+      "epoch_4_primordial_nucleosynthesis": {
+        "time_range": "پہلے 3-20 منٹ",
+        "temperature_range_kelvin": "10^9 - 10^7 K",
+        "elements_produced": {
+          "hydrogen": "≈75%",
+          "helium_4": "≈25%",
+          "lithium_7": "ٹریس"
+        },
+        "importance": "کائنات کی ابتدائی کیمیائی ساخت کا تعین",
+        "evidence": "ابتدائی عنصر کے تناسب کا مشاہدہ کیا گیا۔"
+      },
+      "epoch_5_recombination": {
+        "time": "ابتدا کے 380,000 سال بعد",
+        "event": "الیکٹران نیوکلی کے ساتھ مل کر نیوٹرل ایٹم بناتے ہیں۔",
+        "photon_decoupling": "روشنی آزادانہ سفر کرنے لگی",
+        "result": "کاسمک مائکروویو پس منظر کی تابکاری",
+        "temperature_kelvin": 3000
+      }
+    },
+    "section_2_structure_formation": {
+      "dark_matter_role": {
+        "description": "غیر بیریونک مادہ جو ثقلی ماس پر غالب ہے۔",
+        "percentage_of_universe": "≈27%",
+        "function": "کہکشاں کی تشکیل کے لیے کشش ثقل کا سہار"
+      },
+      "first_stars_population_III": {
+        "time": "بگ بینگ کے 100-200 ملین سال بعد",
+        "composition": "صرف ہائیڈروجن اور ہیلیم",
+        "mass_range": "انتہائی بڑے پیمانے پر (100+ شمسی ماس)",
+        "lifespan": "بہت مختصر (~ چند ملین سال)",
+        "importance": "پہلے بھاری عناصر بنائے"
+      },
+      "supernova_nucleosynthesis": {
+        "process": "تارکیی دھماکے کے دوران بھاری عناصر جعلی",
+        "elements_produced": [
+          "کاربن",
+          "آکسیجن",
+          "لوہا",
+          "سلکان",
+          "نکل"
+        ],
+        "distribution": "انٹرسٹیلر میڈیم میں نکالا گیا۔"
+      }
+    },
+    "section_3_solar_system_formation": {
+      "molecular_cloud_collapse": {
+        "time": "4.6 بلین سال پہلے",
+        "trigger": "قریبی سپرنووا شاک ویو (مفروضہ)",
+        "angular_momentum": "گھومنے والی ڈسک میں چپٹا بادل",
+        "central_mass": "پروٹو سن تشکیل دیا گیا۔"
+      },
+      "accretion_process": {
+        "dust_coagulation": "مائکرو میٹر کے ذرات الیکٹرو اسٹاٹک قوتوں کے ذریعے پھنس گئے۔",
+        "planetesimal_growth": "کلومیٹر پیمانے پر لاشیں بنیں۔",
+        "runaway_growth": "بڑے جسموں میں تیزی سے اضافہ ہوا۔",
+        "oligarchic_growth": "پروٹوپلینٹس نے مداری علاقوں پر غلبہ حاصل کیا۔"
+      },
+      "gas_giant_formation": {
+        "location": "فراسٹ لائن سے آگے",
+        "core_accretion_model": "راکی کور + تیز گیس کی گرفت",
+        "alternative_model": "ڈسک کے عدم استحکام کا مفروضہ"
+      }
+    },
+    "section_4_earth_formation": {
+      "iron_catastrophe": {
+        "time": "پہلے 100 ملین سالوں میں",
+        "mechanism": "کشش ثقل کی تفریق",
+        "layers_formed": [
+          "اندرونی کور (ٹھوس لوہا)",
+          "بیرونی کور (مائع آئرن نکل)",
+          "مینٹل (سلیکیٹ چٹان)",
+          "کرسٹ"
+        ],
+        "geodynamo": "پیدا شدہ سیاروں کا مقناطیسی میدان"
+      },
+      "theia_impact_hypothesis": {
+        "collision_partner": "مریخ کے سائز کا پروٹوپلینیٹ",
+        "result": "ملبہ ڈسک → چاند کی تشکیل",
+        "supporting_evidence": [
+          "آاسوٹوپک مماثلت زمین چاند",
+          "کونیی رفتار کی تقسیم"
+        ]
+      },
+      "late_heavy_bombardment": {
+        "time_range": "4.1–3.8 بلین سال پہلے",
+        "cause": "دیو سیاروں کی مداری ہجرت",
+        "impact": "پرت پگھلنا؛ ممکنہ نس بندی کے واقعات"
+      }
+    },
+    "section_5_early_earth_environment": {
+      "atmosphere": {
+        "composition": [
+          "کاربن ڈائی آکسائیڈ",
+          "نائٹروجن",
+          "میتھین",
+          "امونیا",
+          "پانی کے بخارات"
+        ],
+        "oxygen_absent": true
+      },
+      "ocean_formation": {
+        "mechanism_1": "آتش فشاں آؤٹ گیسنگ گاڑھا ہونا",
+        "mechanism_2": "مزاحیہ پانی کی ترسیل",
+        "zircon_evidence": "مائع پانی 4.4 بلین سال پہلے موجود تھا۔"
+      },
+      "tectonic_activity": {
+        "plate_tectonics_origin": "بحث ہوئی؛ ممکنہ طور پر ابتدائی آرکیئن",
+        "heat_sources": [
+          "تابکار کشی",
+          "اضافہ توانائی",
+          "بنیادی تشکیل توانائی"
+        ]
+      }
+    }
+  },
+  "part2": {
+    "dataset_metadata": {
+      "title": "کائناتی تا انسانی ارتقاء الٹرا ڈیپ ریسرچ ڈیٹاسیٹ",
+      "volume": 2,
+      "scope": "ابتدائی سیلولر ارتقاء کے ذریعے ابیوجنسیس",
+      "chronological_span_years": "4.4 - 1.5 بلین سال پہلے",
+      "academic_level": "گریجویٹ / ریسرچ",
+      "primary_disciplines": [
+        "جیو کیمسٹری",
+        "سالماتی حیاتیات",
+        "بائیو کیمسٹری",
+        "فلکیات",
+        "ارتقائی حیاتیات"
+      ]
+    },
+    "section_1_prebiotic_earth_chemistry": {
+      "environmental_context": {
+        "surface_conditions": {
+          "temperature_range_celsius": "ممکنہ طور پر 0–100°C علاقائی طور پر متغیر",
+          "ocean_chemistry": "لوہے سے بھرپور، ماحول کو کم کرنے والا",
+          "atmosphere": {
+            "composition_estimated": [
+              "CO2",
+              "N2",
+              "H2O بخارات",
+              "CH4",
+              "NH3 (ٹریس)"
+            ],
+            "oxygen_absent": true
+          }
+        },
+        "energy_sources": [
+          "الٹرا وایلیٹ تابکاری",
+          "بجلی گرنا",
+          "آتش فشاں جیوتھرمل گرمی",
+          "ہائیڈرو تھرمل وینٹ ریڈوکس گریڈینٹ",
+          "سمندری حرارتی نظام"
+        ]
+      },
+      "prebiotic_molecule_synthesis": {
+        "miller_urey_experiment": {
+          "year": 1953,
+          "result": "امینو ایسڈ غیر نامیاتی پیشرو سے ترکیب شدہ",
+          "limitations": "وایمنڈلیی کمپوزیشن اصل ماڈل سے کم کم ہونے کا امکان ہے۔"
+        },
+        "hydrothermal_vent_synthesis": {
+          "alkaline_vents": {
+            "location_model": "لوسٹ سٹی ہائیڈرو تھرمل فیلڈ اینالاگ",
+            "chemical_gradients": "مائکرو پورس کے پار پروٹون گریڈینٹ",
+            "importance": "قدرتی پروٹون موٹیو فورس پروٹو ٹائپ"
+          }
+        },
+        "extraterrestrial_contribution": {
+          "meteorite_evidence": {
+            "murchison_meteorite": "امینو ایسڈ اور نیوکلیوبیس پر مشتمل ہے۔",
+            "implication": "نامیاتی کیمسٹری کاسموس میں وسیع پیمانے پر"
+          }
+        }
+      }
+    },
+    "section_2_rna_world_hypothesis": {
+      "core_concept": "آر این اے جینیاتی مواد اور اتپریرک مالیکیول دونوں کے طور پر کام کرتا ہے۔",
+      "supporting_evidence": {
+        "ribozymes": "اتپریرک سرگرمی کے ساتھ آر این اے مالیکیول",
+        "ribosome_structure": "پیپٹائڈ بانڈ کی تشکیل آر این اے کور کے ذریعہ اتپریرک ہے۔",
+        "self_splicing_introns": "RNA خود مختار ترمیم کے قابل"
+      },
+      "challenges": [
+        "رائبوس عدم استحکام",
+        "ابتدائی حالات میں نیوکلیوٹائڈ ترکیب میں دشواری",
+        "نقل کی وفاداری کی حدود"
+      ],
+      "alternative_models": [
+        "پی این اے (پیپٹائڈ نیوکلک ایسڈ)",
+        "TNA (تھریوز نیوکلک ایسڈ)",
+        "میٹابولزم - پہلا مفروضہ"
+      ]
+    },
+    "section_3_protocell_formation": {
+      "lipid_self_assembly": {
+        "mechanism": "ایمفیفیلک مالیکیولز خود بخود بیلیئر ویسکلز بناتے ہیں۔",
+        "properties": [
+          "منتخب پارگمیتا",
+          "تقسیم کاری",
+          "خود مرمت کی صلاحیت"
+        ]
+      },
+      "encapsulation": {
+        "importance": "ری ایکٹنٹس کا ارتکاز ردعمل کے امکان کو بڑھاتا ہے۔",
+        "co-evolution": "لپڈ ویسکلز کے اندر آر این اے کی نقل"
+      },
+      "selection_pressure": {
+        "competition_between_protocells": "وسائل کے حصول کی کارکردگی",
+        "evolutionary_advantage": "جھلی کی استحکام اور نقل کی رفتار"
+      }
+    },
+    "section_4_first_cells_prokaryotes": {
+      "time": "3.7-3.5 بلین سال پہلے",
+      "evidence": {
+        "stromatolites": {
+          "location": "مغربی آسٹریلیا",
+          "age": "3.5 بلین سال",
+          "significance": "پرتوں والے مائکروبیل بائیو فلم فوسلز"
+        },
+        "isotopic_fractionation": {
+          "carbon_isotope_ratio": "ہلکی کاربن کی ترجیح حیاتیاتی تحول کی نشاندہی کرتی ہے۔"
+        }
+      },
+      "cellular_structure": {
+        "no_nucleus": true,
+        "dna_location": "سائٹوپلاسمک نیوکلیائیڈ",
+        "metabolism_types": [
+          "اینیروبک سانس",
+          "ابال",
+          "کیمولتھوٹرافی"
+        ]
+      }
+    },
+    "section_5_metabolic_diversification": {
+      "anoxygenic_photosynthesis": {
+        "electron_donors": [
+          "ہائیڈروجن سلفائیڈ",
+          "فیرس آئرن"
+        ],
+        "oxygen_production": false
+      },
+      "oxygenic_photosynthesis": {
+        "organisms": "سیانو بیکٹیریا",
+        "innovation": "پانی کی تقسیم کا رد عمل",
+        "byproduct": "سالماتی آکسیجن (O2)"
+      },
+      "methanogenesis": {
+        "domain": "آثار قدیمہ",
+        "role": "انیروبک حالات میں میتھین کی پیداوار"
+      }
+    },
+    "section_6_great_oxygenation_event": {
+      "time": "2.4 بلین سال پہلے",
+      "atmospheric_transition": {
+        "oxygen_increase": "<0.001% سے قابل پیمائش % تک",
+        "iron_oxidation": "بینڈڈ آئرن فارمیشنوں کی تشکیل"
+      },
+      "ecological_consequences": [
+        "انیروبک معدومیت",
+        "ایروبک سانس کا اضافہ",
+        "اوزون کی تہہ کی تشکیل"
+      ],
+      "climate_effect": "ہورونین گلیشیشن کا ممکنہ محرک"
+    },
+    "section_7_origin_of_eukaryotes": {
+      "time": "2.1–1.8 بلین سال پہلے",
+      "endosymbiotic_theory": {
+        "mitochondria_origin": "لپیٹ الفا پروٹو بیکٹیریا",
+        "chloroplast_origin": "سیانوبیکٹیریا کی لپیٹ میں ہے۔"
+      },
+      "cellular_advancements": [
+        "جوہری جھلی",
+        "سائٹوسکلٹن",
+        "جنسی تولید (بعد میں ترقی)"
+      ],
+      "genomic_complexity": {
+        "linear_chromosomes": true,
+        "introns_present": true
+      }
+    },
+    "section_8_multicellularity": {
+      "independent_origins": [
+        "جانور",
+        "پودے",
+        "پھپھوندی",
+        "طحالب"
+      ],
+      "cellular_specialization": {
+        "gene_regulation": "امتیازی اظہار",
+        "adhesion_molecules": "Cadherins اور integrins"
+      },
+      "advantages": [
+        "محنت کی تقسیم",
+        "سائز میں اضافہ",
+        "شکاری سے بچنا"
+      ]
+    },
+    "section_9_genetic_mechanisms": {
+      "mutation": {
+        "types": [
+          "پوائنٹ میوٹیشن",
+          "داخل کرنا",
+          "حذف کرنا",
+          "نقل"
+        ]
+      },
+      "horizontal_gene_transfer": {
+        "mechanisms": [
+          "تبدیلی",
+          "نقل و حمل",
+          "کنجگیشن"
+        ],
+        "impact": "تیز رفتار ابتدائی ارتقاء"
+      },
+      "natural_selection": {
+        "definition": "امتیازی تولیدی کامیابی خاصیت کے فائدہ کی بنیاد پر"
+      }
+    },
+    "section_10_astrobio_implications": {
+      "extremophiles": {
+        "habitats": [
+          "گہرے سمندر کے راستے",
+          "تیزابی گرم چشمے ۔",
+          "ذیلی برفانی جھیلیں۔"
+        ],
+        "implication": "زمین سے باہر زندگی ممکن ہے۔"
+      },
+      "mars_and_europa": {
+        "habitability_factors": [
+          "مائع پانی",
+          "توانائی کا میلان",
+          "نامیاتی مالیکیولز"
+        ]
+      }
+    }
+  },
+  "part3": {
+    "dataset_metadata": {
+      "title": "کائناتی تا انسانی ارتقاء الٹرا ڈیپ ریسرچ ڈیٹاسیٹ",
+      "volume": 3,
+      "scope": "ڈائنوسار کے معدوم ہونے کے ذریعے پیچیدہ کثیر خلوی زندگی",
+      "chronological_span_years": "1.5 بلین سال پہلے - 66 ملین سال پہلے",
+      "academic_level": "گریجویٹ / ریسرچ",
+      "disciplines": [
+        "پیلیوبیولوجی",
+        "ارتقائی ترقیاتی حیاتیات",
+        "ارتھ سسٹم سائنس",
+        "Paleoclimatology",
+        "تقابلی اناٹومی۔"
+      ]
+    },
+    "section_1_multicellular_complexity": {
+      "time_range": "1.5 بلین - 600 ملین سال پہلے",
+      "transition_mechanisms": {
+        "cell_adhesion_evolution": {
+          "molecules": [
+            "Cadherins",
+            "انٹیگرینز"
+          ],
+          "role": "مستحکم بافتوں کی تشکیل"
+        },
+        "gene_regulatory_networks": {
+          "innovation": "ماسٹر کنٹرول جینز (مثلاً، ہاکس جینز)",
+          "effect": "مقامی جسم کی پیٹرننگ"
+        },
+        "developmental_signaling_pathways": [
+          "Wnt signaling",
+          "Notch signaling",
+          "Hedgehog pathway"
+        ]
+      },
+      "early_multicellular_forms": {
+        "eukaryotic_algae": "1.2 بلین سال پہلے",
+        "fungal_lineages": "ابتدائی heterotrophic multicellularity",
+        "colonial_protists": "جانوروں کے لیے ممکنہ پیشرو"
+      }
+    },
+    "section_2_ediacaran_biota": {
+      "time": "635-541 ملین سال پہلے",
+      "organisms": [
+        "ڈکنسونیا",
+        "Charniodiscus",
+        "سپریگینا"
+      ],
+      "body_plan_characteristics": {
+        "soft_bodied": true,
+        "bilateral_symmetry": "کچھ شکلوں میں ابھرنا",
+        "feeding_strategy": "Osmotrophy مشتبہ"
+      },
+      "evolutionary_significance": "کیمبرین حیوانات کا پیشگی ماحولیاتی نظام"
+    },
+    "section_3_cambrian_explosion": {
+      "time": "541-520 ملین سال پہلے",
+      "diversification_features": {
+        "major_animal_phyla": [
+          "آرتھروپوڈا",
+          "Mollusca",
+          "کورڈاٹا",
+          "اینیلیڈا",
+          "Echinodermata"
+        ],
+        "hard_parts": "کیلشیم کاربونیٹ اور chitin exoskeletons",
+        "predator_prey_arms_race": "ارتقائی اضافہ"
+      },
+      "possible_causes": [
+        "آکسیجن کی سطح میں اضافہ",
+        "جینیاتی اختراع (ہکس جین کی توسیع)",
+        "ماحولیاتی طاق کی تعمیر",
+        "کانٹینینٹل فریگمنٹیشن"
+      ],
+      "key_fossil_sites": [
+        "برجیس شیل (کینیڈا)",
+        "چینگ جیانگ بائیوٹا (چین)"
+      ]
+    },
+    "section_4_vertebrate_origins": {
+      "early_chordates": {
+        "organisms": [
+          "پکایا",
+          "Haikouichthys"
+        ],
+        "traits": [
+          "نوٹچورڈ",
+          "ڈورسل اعصاب کی ہڈی",
+          "فارینجیل سلٹس"
+        ]
+      },
+      "jawed_vertebrates": {
+        "innovation": "Gnathostomes",
+        "advantage": "بہتر شکار اور کھانا کھلانے کی کارکردگی"
+      }
+    },
+    "section_5_land_colonization": {
+      "plants": {
+        "time": "470 ملین سال پہلے",
+        "innovations": [
+          "کٹیکل",
+          "عروقی ٹشو",
+          "بیضہ خشک ہونے کے خلاف مزاحم"
+        ]
+      },
+      "arthropods": {
+        "time": "450 ملین سال پہلے",
+        "advantage": "پانی کو برقرار رکھنے کے لیے Exoskeleton"
+      },
+      "tetrapods": {
+        "transition_from_lobe_finned_fish": "ٹکٹالک بطور عبوری فوسل",
+        "limb_evolution": "فن کی شعاعوں سے ہندسے",
+        "lungs_development": "ہوا کی سانس لینے کی موافقت"
+      }
+    },
+    "section_6_paleozoic_mass_extinctions": {
+      "ordovician_silurian": {
+        "time": "444 ملین سال پہلے",
+        "cause": "برفانی طوفان اور سطح سمندر میں کمی"
+      },
+      "late_devonian": {
+        "time": "372 ملین سال پہلے",
+        "possible_causes": [
+          "اوقیانوس اینوکسیا",
+          "پودوں سے چلنے والی موسمیاتی تبدیلی"
+        ]
+      },
+      "permian_triassic": {
+        "time": "252 ملین سال پہلے",
+        "severity": "96% سمندری انواع ناپید",
+        "probable_cause": "سائبیرین ٹریپس آتش فشاں",
+        "mechanisms": [
+          "بڑے پیمانے پر CO2 کی رہائی",
+          "سمندری تیزابیت",
+          "میتھین ہائیڈریٹ عدم استحکام"
+        ]
+      }
+    },
+    "section_7_mesozoic_dominance": {
+      "triassic_recovery": {
+        "ecological_reset": "آرکوسارز اٹھتے ہیں۔"
+      },
+      "dinosaurs": {
+        "time_range": "230-66 ملین سال پہلے",
+        "clades": [
+          "تھیروپوڈس",
+          "سورپوڈس",
+          "Ornithischians"
+        ],
+        "adaptive_features": [
+          "موثر تنفس (ہوا کے تھیلے)",
+          "سیدھی کرنسی",
+          "اعلی ترقی کی شرح"
+        ]
+      },
+      "birds": {
+        "origin": "تھیروپوڈ ڈائنوسار سے ماخوذ",
+        "transitional_fossil": "آثار قدیمہ"
+      }
+    },
+    "section_8_mammalian_origins": {
+      "synapsids": {
+        "time": "پیرمین دور",
+        "features": "سنگل عارضی کھوپڑی کا افتتاح"
+      },
+      "therapsids": {
+        "transitional_group": "ستنداریوں کی طرف"
+      },
+      "true_mammals": {
+        "time": "لیٹ ٹریاسک",
+        "traits": [
+          "بال",
+          "میمری غدود",
+          "تفریق شدہ دانت"
+        ]
+      },
+      "nocturnal_adaptation": "ڈایناسور کے غلبے کے دوران ممکنہ طور پر بقا کی حکمت عملی"
+    },
+    "section_9_cretaceous_paleogene_extinction": {
+      "time": "66 ملین سال پہلے",
+      "impact_site": "Chicxulub crater (Yucatán Peninsula)",
+      "evidence": [
+        "اریڈیم کی تہہ",
+        "شاک کوارٹج",
+        "ٹیکٹائٹس"
+      ],
+      "global_effects": [
+        "موسم سرما کا اثر",
+        "فوٹو سنتھیس کا خاتمہ",
+        "فوڈ چین میں خلل"
+      ],
+      "result": "غیر ایویئن ڈایناسور معدومیت؛ ممالیہ تابکاری کا موقع"
+    }
+  },
+  "part4": {
+    "dataset_metadata": {
+      "title": "کائناتی تا انسانی ارتقاء الٹرا ڈیپ ریسرچ ڈیٹاسیٹ",
+      "volume": 4,
+      "scope": "پرائمیٹ ارتقاء اور ابتدائی ہومینین ڈائیورژن",
+      "chronological_span_years": "66 ملین سال پہلے - 1 ملین سال پہلے",
+      "academic_level": "گریجویٹ / ریسرچ",
+      "disciplines": [
+        "پیلیو اینتھروپولوجی",
+        "تقابلی نیورو بائیولوجی",
+        "فنکشنل مورفولوجی",
+        "پرائمیٹولوجی",
+        "Paleoclimatology",
+        "ارتقائی ماحولیات"
+      ]
+    },
+    "section_1_mammalian_radiation": {
+      "post_kpg_ecological_release": {
+        "time": "66 ملین سال پہلے",
+        "mechanism": "غیر ایویئن ڈایناسور کو ہٹانے سے ماحولیاتی طاق کھل گئے۔",
+        "adaptive_radiation": [
+          "کیڑے مارنے والے",
+          "سبزی خور",
+          "گوشت خور",
+          "کھیتی باڑی کے ماہرین"
+        ],
+        "genetic_acceleration": "ممالیہ کے نسبوں کی تیزی سے تنوع"
+      },
+      "placental_diversification": {
+        "time": "65-50 ملین سال پہلے",
+        "innovation": "اعلی درجے کی نال طویل حمل کو چالو کرتی ہے۔",
+        "advantage": "نوزائیدہ دماغ کی نشوونما میں اضافہ"
+      }
+    },
+    "section_2_primate_origins": {
+      "time": "55-65 ملین سال پہلے",
+      "environment": "گرم پیلیوسین-ایوسین جنگلات",
+      "arboreal_adaptations": {
+        "grasping_hands": true,
+        "opposable_thumb": true,
+        "nails_instead_of_claws": true,
+        "stereoscopic_vision": "گہرائی کے ادراک کے لیے آگے کی طرف دیکھنے والی آنکھیں"
+      },
+      "early_primate_groups": [
+        "Plesiadapiforms",
+        "اڈاپیفارمز",
+        "Omomyiforms"
+      ]
+    },
+    "section_3_neurobiological_expansion": {
+      "encephalization_trend": {
+        "definition": "دماغ سے جسم کے سائز کے تناسب میں اضافہ",
+        "drivers": [
+          "پیچیدہ آربوریل لوکوموشن",
+          "سوشل گروپ کوآرڈینیشن",
+          "غذائی پیچیدگی (پھلوں پر مبنی)"
+        ]
+      },
+      "visual_cortex_expansion": "پھلوں کی کھوج کے لیے بہتر رنگ کی تفریق",
+      "prefrontal_cortex_growth": "بہتر منصوبہ بندی اور میموری"
+    },
+    "section_4_catarrhine_and_ape_divergence": {
+      "catarrhine_monkeys": {
+        "time": "30-25 ملین سال پہلے",
+        "traits": [
+          "نیچے کی طرف منہ کرنے والے نتھنے",
+          "دانتوں کا فارمولا 2.1.2.3"
+        ]
+      },
+      "hominoids": {
+        "time": "20-15 ملین سال پہلے",
+        "groups": [
+          "گبنز",
+          "اورنگوٹین",
+          "گوریلے",
+          "چمپینزی",
+          "انسانوں"
+        ]
+      }
+    },
+    "section_5_climate_and_hominin_divergence": {
+      "miocene_climate_shift": {
+        "time": "23-5 ملین سال پہلے",
+        "trend": "ٹھنڈا اور خشک کرنا",
+        "result": "جنگل کا ٹکڑا → سوانا کی توسیع"
+      },
+      "human_chimp_split": {
+        "time": "6-7 ملین سال پہلے",
+        "evidence": "جینیاتی انحراف ~1–2% فرق"
+      }
+    },
+    "section_6_early_hominins": {
+      "sahelanthropus_tchadensis": {
+        "time": "7 ملین سال پہلے",
+        "traits": [
+          "ممکنہ بائی پیڈل کرنسی",
+          "کینائن کا کم سائز"
+        ]
+      },
+      "ardipithecus_ramidus": {
+        "time": "4.4 ملین سال پہلے",
+        "locomotion": "اربوریل صلاحیت کے ساتھ جزوی دوئپیڈیلزم"
+      },
+      "australopithecus_afarensis": {
+        "time": "3.9-2.9 ملین سال پہلے",
+        "notable_specimen": "لوسی",
+        "pelvic_structure": "سیدھا چلنے کے لیے موزوں ہے۔",
+        "brain_volume_cc": 400
+      }
+    },
+    "section_7_bipedalism_mechanics": {
+      "anatomical_changes": {
+        "foramen_magnum_position": "کھوپڑی کے نیچے مرکز",
+        "spinal_curvature": "ایس کی شکل کا کشیرکا کالم",
+        "pelvis_shape": "چھوٹا، پیالے کی شکل کا شرونی",
+        "femur_angle": "والگس گھٹنے کی سیدھ"
+      },
+      "energy_efficiency": "بائی پیڈل چال لمبی دوری پر لوکوموشن توانائی کی لاگت کو کم کرتی ہے۔",
+      "thermoregulation": "شمسی تابکاری کی سطح کی نمائش میں کمی"
+    },
+    "section_8_genus_homo_emergence": {
+      "homo_habilis": {
+        "time": "2.4-1.4 ملین سال پہلے",
+        "brain_volume_cc": 600,
+        "tool_industry": "اولڈووان (موڈ 1)"
+      },
+      "dietary_shift": {
+        "meat_consumption": "کیلوری کثافت میں اضافہ",
+        "cooking_hypothesis": "بعد میں لیکن توانائی کی تبدیلی"
+      },
+      "social_complexity": "کوآپریٹو سکیوینگ اور شکار"
+    },
+    "section_9_homo_erectus_expansion": {
+      "time": "1.9 ملین سال پہلے",
+      "brain_volume_cc": 900,
+      "technological_innovation": "اچیولین ہینڈیکسز (موڈ 2)",
+      "fire_control": {
+        "estimated_time": "1-1.5 ملین سال پہلے",
+        "benefits": [
+          "کھانا پکانا",
+          "شکاری روک تھام",
+          "توسیع شدہ سماجی تعامل"
+        ]
+      },
+      "migration": {
+        "regions": [
+          "جارجیا (Dmanisi)",
+          "انڈونیشیا (جاوا)",
+          "چین (Zhoukoudian)"
+        ]
+      }
+    },
+    "section_10_paleoecology_and_selection_pressures": {
+      "african_rift_valley": {
+        "tectonic_activity": "ماحولیاتی تنوع پیدا کیا۔",
+        "climate_variability": "دوہری گیلے خشک چکر"
+      },
+      "selection_pressures": [
+        "موسمی خوراک کی کمی",
+        "شکاری کی نمائش",
+        "لمبی دوری کی نقل و حرکت کی ضرورت"
+      ]
+    }
+  },
+  "part5": {
+    "dataset_metadata": {
+      "title": "کائناتی تا انسانی ارتقاء الٹرا ڈیپ ریسرچ ڈیٹاسیٹ",
+      "volume": 5,
+      "scope": "قدیم انسانوں کا ہومو سیپینز کا ظہور اور ہندوستان میں ہجرت",
+      "chronological_span_years": "1 ملین سال پہلے - 10,000 BCE",
+      "academic_level": "گریجویٹ / ریسرچ",
+      "disciplines": [
+        "پیلیو اینتھروپولوجی",
+        "آثار قدیمہ",
+        "علمی ارتقاء",
+        "لیتھک ٹیکنالوجی اسٹڈیز",
+        "جنوبی ایشیائی قبل از تاریخ"
+      ]
+    },
+    "section_1_late_homo_erectus_transition": {
+      "time_range": "1 ملین - 300,000 سال پہلے",
+      "anatomical_trends": {
+        "brain_expansion_cc": "900 → 1100",
+        "cranial_vault": "اونچائی میں اضافہ",
+        "reduced_prognathism": true
+      },
+      "regional_variation": {
+        "africa": "ہومو ہائیڈلبرجینس کا ابھرنا",
+        "asia": "دیر سے ہومو ایریکٹس استقامت"
+      },
+      "technological_complexity": {
+        "acheulean_refinement": "ہم آہنگی اور معیاری کاری میں اضافہ ہوا۔",
+        "planned_flake_production": "اعلی درجے کی علمی ترتیب"
+      }
+    },
+    "section_2_homo_heidelbergensis": {
+      "time": "700,000 - 300,000 سال پہلے",
+      "geographic_distribution": [
+        "افریقہ",
+        "یورپ"
+      ],
+      "brain_volume_cc": 1100,
+      "significance": "Neanderthals اور Homo sapiens کے مشترکہ اجداد",
+      "behavioral_traits": [
+        "بڑے کھیل کا شکار",
+        "لکڑی کے نیزے کا استعمال",
+        "ممکنہ پناہ گاہ کی تعمیر"
+      ]
+    },
+    "section_3_neanderthals": {
+      "time": "400,000 - 40,000 سال پہلے",
+      "region": "یورپ اور مغربی ایشیا",
+      "brain_volume_cc": 1400,
+      "anatomical_adaptations": {
+        "robust_skeleton": "سرد آب و ہوا کی موافقت",
+        "large_nasal_cavity": "ایئر وارمنگ کی کارکردگی",
+        "short_limb_proportions": "گرمی کا نقصان کم ہوا۔"
+      },
+      "cognition_and_culture": {
+        "mousterian_tools": "تیار شدہ کور Levallois تکنیک",
+        "burial_practices": true,
+        "symbolic_objects": [
+          "روغن کا استعمال (اوچر)",
+          "ذاتی زیورات"
+        ],
+        "language_capacity": "FOXP2 جین ویرینٹ سیپینز کے ساتھ شیئر کیا گیا۔"
+      },
+      "extinction_factors": [
+        "موسمیاتی عدم استحکام",
+        "ہومو سیپینز کے ساتھ مقابلہ",
+        "چھوٹی آبادی کا سائز"
+      ]
+    },
+    "section_4_denisovans": {
+      "time": "300,000 - 30,000 سال پہلے",
+      "discovery": "ڈینیسووا غار، سائبیریا",
+      "genetic_significance": {
+        "interbreeding": "میلانیشیائی اور جنوبی ایشیائی آبادیوں میں ڈی این اے کا تعاون کیا۔",
+        "adaptations": [
+          "اونچائی کی موافقت (تبتیوں میں EPAS1 جین)"
+        ]
+      }
+    },
+    "section_5_emergence_of_homo_sapiens": {
+      "time": "300,000 سال پہلے",
+      "location": "افریقہ (جیبل ایرہاؤڈ فوسلز)",
+      "anatomical_modernity": {
+        "globular_cranium": true,
+        "reduced_brow_ridge": true,
+        "chin_presence": true
+      },
+      "cognitive_modernity": {
+        "abstract_thought": true,
+        "complex_language": true,
+        "symbolic_art": true
+      }
+    },
+    "section_6_cognitive_revolution": {
+      "time": "70,000 - 40,000 سال پہلے",
+      "neural_changes": {
+        "prefrontal_cortex_organization": "بہتر ایگزیکٹو فنکشن",
+        "temporal_lobe_language_circuits": "پیچیدہ نحوی ترقی"
+      },
+      "behavioral_manifestations": [
+        "غار آرٹ (چوویٹ، لاسکاکس)",
+        "موسیقی کے آلات",
+        "افسانہ سازی اور کہانی سنانا"
+      ],
+      "social_structures": {
+        "Large cooperative groups": true,
+        "Long-distance trade networks": true
+      }
+    },
+    "section_7_out_of_africa_migration": {
+      "primary_wave": {
+        "time": "65,000 - 70,000 سال پہلے",
+        "route": "جنوبی ساحلی راستہ",
+        "mechanism": "سازگار آب و ہوا کی کھڑکی کے دوران آبادی میں توسیع"
+      },
+      "genetic_bottleneck": "غیر افریقی آبادی میں بانی اثر"
+    },
+    "section_8_migration_into_india": {
+      "time": "65,000 سال پہلے",
+      "route": "ساحلی بحیرہ عرب کا راستہ",
+      "archaeological_sites": [
+        "جوالاپورم (آندھرا پردیش)",
+        "اٹیرامپکم (تامل ناڈو)",
+        "بھیمبیٹکا (مدھیہ پردیش)"
+      ],
+      "tool_traditions": [
+        "درمیانی پیلیولتھک فلیکس",
+        "Microlithic ٹیکنالوجی (بعد میں مدت)"
+      ],
+      "genetic_impact": {
+        "ancestral_components": [
+          "قدیم جنوبی ایشیائی شکاری جمع کرنے والے",
+          "ڈینیسووان مرکب کے نشانات"
+        ]
+      }
+    },
+    "section_9_indian_paleolithic_sequence": {
+      "lower_paleolithic": {
+        "time": "1.5 ملین - 200,000 سال پہلے",
+        "culture": "اچیولین",
+        "site": "اسام پور کان"
+      },
+      "middle_paleolithic": {
+        "time": "200,000 - 45,000 سال پہلے",
+        "technology": "تیار بنیادی تکنیک"
+      },
+      "upper_paleolithic": {
+        "time": "45,000 - 10,000 سال پہلے",
+        "innovation": "بلیڈ کے اوزار اور ابتدائی آرٹ"
+      }
+    },
+    "section_10_symbolism_and_culture": {
+      "ritual_behavior": {
+        "burials": "قبر کا سامان اور روغن کا استعمال",
+        "body_adornment": "شیل موتیوں کی مالا"
+      },
+      "artistic_expression": {
+        "rock_art_india": "بھیمبیٹکا غار کی پینٹنگز",
+        "symbolic_motifs": "جانور، شکار کے مناظر"
+      },
+      "language_evolution": {
+        "syntax_complexity": "تکراری گرامر کی صلاحیت",
+        "cultural_transmission": "زبانی روایت کی بنیادیں"
+      }
+    }
+  },
+  "part6": {
+    "dataset_metadata": {
+      "title": "کائناتی تا انسانی ارتقاء الٹرا ڈیپ ریسرچ ڈیٹاسیٹ",
+      "volume": 6,
+      "scope": "برصغیر پاک و ہند میں نو پستان کی منتقلی اور ابتدائی تہذیب",
+      "chronological_span_years": "10,000 BCE - 1500 BCE",
+      "academic_level": "گریجویٹ / ریسرچ",
+      "disciplines": [
+        "آثار قدیمہ",
+        "آثار قدیمہ",
+        "Paleoclimatology",
+        "بشریات",
+        "ابتدائی شہری مطالعہ",
+        "تاریخی لسانیات"
+      ]
+    },
+    "section_1_terminal_pleistocene_transition": {
+      "younger_dryas_event": {
+        "time": "12,900–11,700 سال پہلے",
+        "characteristic": "برفانی جیسے حالات میں اچانک واپسی",
+        "possible_cause": "شمالی بحر اوقیانوس کے میٹھے پانی کی آمد تھرموہالین گردش میں خلل ڈال رہی ہے۔",
+        "impact": [
+          "میگا فاونل معدومیت",
+          "انسانی رزق کا تناؤ",
+          "پودوں کو پالنے کے تجربات کی طرف منتقل کریں۔"
+        ]
+      },
+      "holocene_onset": {
+        "time": "11,700 سال پہلے",
+        "climatic_stability": true,
+        "importance": "زرعی شدت کو فعال کیا۔"
+      }
+    },
+    "section_2_global_neolithic_revolution": {
+      "fertile_crescent": {
+        "domesticated_plants": [
+          "گندم",
+          "جَو"
+        ],
+        "domesticated_animals": [
+          "بکری",
+          "بھیڑ"
+        ],
+        "sedentism": "مستقل گاؤں کی تشکیل"
+      },
+      "independent_centers": [
+        "چین (چاول، باجرا)",
+        "میسوامریکہ (مکئی)",
+        "نیو گنی (تارو)",
+        "جنوبی ایشیا (زیبو مویشی، جو کی موافقت)"
+      ],
+      "technological_innovations": [
+        "پیسنے والے پتھر",
+        "مٹی کے برتن",
+        "آبپاشی کا آغاز"
+      ]
+    },
+    "section_3_mehrgarh_and_early_south_asian_agriculture": {
+      "location": "مہر گڑھ (بلوچستان کا علاقہ)",
+      "time_range": "7000-2600 قبل مسیح",
+      "economic_structure": {
+        "farming": [
+          "جَو",
+          "گندم"
+        ],
+        "animal_domestication": [
+          "زیبو مویشی",
+          "بھیڑ",
+          "بکری"
+        ]
+      },
+      "cultural_traits": [
+        "کچی اینٹوں کے گھر",
+        "قبر کے سامان کے ساتھ تدفین",
+        "مالا سازی اور ابتدائی دستکاری کی مہارت"
+      ],
+      "genetic_significance": {
+        "ancestry_components": [
+          "قدیم ایرانی ماہرین زراعت",
+          "مقامی جنوبی ایشیائی شکاری جمع کرنے والے"
+        ]
+      }
+    },
+    "section_4_indus_valley_civilization": {
+      "time_range": "3300-1300 قبل مسیح",
+      "major_sites": [
+        "ہڑپہ",
+        "موہنجوداڑو",
+        "دھولاویرا",
+        "راکھی گڑھی۔"
+      ],
+      "urban_planning": {
+        "grid_layout": true,
+        "drainage_system": "اعلی درجے کا احاطہ شدہ سیوریج",
+        "standardized_bricks": true
+      },
+      "economic_system": {
+        "trade_networks": [
+          "میسوپوٹیمیا",
+          "خلیج فارس",
+          "وسطی ایشیا"
+        ],
+        "craft_specialization": [
+          "مالا کی صنعت",
+          "دھات کاری (تانبا/کانسی)",
+          "مہر نقش و نگار ۔"
+        ]
+      },
+      "writing_system": {
+        "indus_script": "ناقابل فہم",
+        "mediums": [
+          "مہریں",
+          "مٹی کے برتن",
+          "گولیاں"
+        ]
+      },
+      "social_structure": {
+        "evidence_of_palaces": false,
+        "relative_egalitarianism": "زیر بحث لیکن محدود یادگاری درجہ بندی"
+      }
+    },
+    "section_5_climate_and_ivc_transformation": {
+      "monsoon_shift": {
+        "time": "2200-1900 قبل مسیح",
+        "pattern": "کمزور موسم گرما مانسون",
+        "effect": "دریا کا خشک ہونا، خاص طور پر گھگر ہاکرہ کا نظام"
+      },
+      "urban_decline": {
+        "process": "بتدریج ڈیوربنائزیشن",
+        "shift": "شہروں سے دیہی بستیوں تک"
+      },
+      "no_clear_invasion_evidence": true
+    },
+    "section_6_archaeogenetics_of_india": {
+      "ani_asi_model": {
+        "ANI": {
+          "description": "آبائی شمالی ہند",
+          "related_to": [
+            "قدیم ایرانی کسان",
+            "سٹیپ پادری"
+          ]
+        },
+        "ASI": {
+          "description": "آبائی جنوبی ہند",
+          "deep_lineage": "مقامی شکاری جمع کرنے والا نسب"
+        }
+      },
+      "steppe_migration": {
+        "time": "2000-1500 قبل مسیح",
+        "associated_culture": "ہند ایرانی پادری",
+        "genetic_marker": "Y-کروموزوم R1a-Z93 نسب"
+      },
+      "modern_population_structure": {
+        "admixture": "تمام ہندوستانی آبادی ANI اور ASI اجزاء کا مرکب ہے۔",
+        "gradient_pattern": "شمال-جنوب کلینیکل تقسیم"
+      }
+    },
+    "section_7_linguistic_development": {
+      "proto_indo_iranian": {
+        "arrival_window": "2000 قبل مسیح کے بعد",
+        "relation": "ہند-یورپی زبان کا خاندان"
+      },
+      "dravidians": {
+        "possible_pre_ivc_presence": true,
+        "southern_continuity": "جزیرہ نما ہندوستان میں محفوظ ہے۔"
+      },
+      "language_diversification": {
+        "mechanism": "ہجرت + تنہائی + ماحولیاتی علیحدگی"
+      }
+    },
+    "section_8_technological_and_social_evolution": {
+      "metallurgy": {
+        "copper_bronze_transition": true,
+        "tool_advancement": "زرعی اور فوجی ایپلی کیشنز"
+      },
+      "religious_symbolism": {
+        "proto_shiva_seal": "پشوپتی موٹف کی تشریح پر بحث ہوئی۔",
+        "mother_goddess_figures": true
+      },
+      "trade_standardization": {
+        "weights_and_measures": "انتہائی معیاری کیوبیکل وزن",
+        "maritime_trade": "لوتھل میں ڈاکیارڈ"
+      }
+    }
+  },
+  "part7": {
+    "dataset_metadata": {
+      "title": "کائناتی تا انسانی ارتقاء الٹرا ڈیپ ریسرچ ڈیٹاسیٹ",
+      "volume": 7,
+      "scope": "ابتدائی آئرن ایج ریاست کی تشکیل کے ذریعے دیر سے ہڑپہ کی تبدیلی",
+      "chronological_span_years": "1500 قبل مسیح - 500 قبل مسیح",
+      "academic_level": "گریجویٹ / ریسرچ",
+      "disciplines": [
+        "جنوبی ایشیائی آثار قدیمہ",
+        "ویدک اسٹڈیز",
+        "آثار قدیمہ",
+        "تاریخی لسانیات",
+        "ابتدائی ریاست کی تشکیل کا نظریہ",
+        "مذہبی علوم"
+      ]
+    },
+    "section_1_late_harappan_transition": {
+      "time_range": "1900-1300 قبل مسیح",
+      "characteristics": {
+        "deurbanization": true,
+        "ruralization": "چھوٹی زرعی پادری بستیوں میں شفٹ ہو جائیں۔",
+        "material_changes": [
+          "معیاری وزن میں کمی",
+          "علاقائی مٹی کے برتنوں کے انداز",
+          "لمبی دوری کی تجارت میں کمی"
+        ]
+      },
+      "continuity_elements": [
+        "زرعی طریقوں",
+        "مویشی پالنا",
+        "ندیوں کے کنارے آباد بستیوں کا جھرمٹ"
+      ],
+      "climate_factor": "مون سون کا کمزور ہونا اور دریا کی تبدیلی"
+    },
+    "section_2_steppe_associated_migration": {
+      "time_range": "2000-1500 قبل مسیح",
+      "genetic_markers": [
+        "Y-کروموزوم R1a-Z93 نسب",
+        "Steppe_MLBA نسب کا جزو"
+      ],
+      "cultural_associations": [
+        "گھوڑے پالنے",
+        "رتھ ٹیکنالوجی",
+        "پروٹو-انڈو-ایرانی زبان کا پھیلاؤ"
+      ],
+      "interaction_model": {
+        "type": "ثقافتی اور جینیاتی مرکب",
+        "result": "ہڑپہ کے بعد کی آبادی کے ساتھ انضمام"
+      }
+    },
+    "section_3_early_vedic_society": {
+      "primary_textual_source": "رگ وید (زبانی ساخت کا مرحلہ)",
+      "social_structure": {
+        "tribal_polities": "جانس",
+        "chieftainship": "راجن لیڈر شپ ماڈل",
+        "varna_system": "ابھرتی ہوئی چار گنا درجہ بندی"
+      },
+      "economic_model": {
+        "pastoralism": "مال کا مرکز مویشی",
+        "agriculture": "بعد کے ویدک مرحلے میں بڑھتی ہوئی اہمیت"
+      },
+      "religious_practice": {
+        "ritual_fire_sacrifices": true,
+        "deities": [
+          "اندرا",
+          "اگنی",
+          "ورونا۔",
+          "سوما"
+        ],
+        "cosmic_order_concept": "آر ٹی اے (کائناتی قانون)"
+      }
+    },
+    "section_4_linguistic_structuring": {
+      "indo_aryan_language": {
+        "branch": "ہند-یورپی خاندان",
+        "phonetic_features": [
+          "Retroflex consonants (ممکنہ طور پر سبسٹریٹ اثر)",
+          "پیچیدہ انفلیکشنل مورفولوجی"
+        ]
+      },
+      "substrate_influence": {
+        "dravidian_elements": "قرض کے الفاظ اور صوتیاتی خصوصیات",
+        "munda_hypothesis": "ممکنہ آسٹرواسیٹک تعامل"
+      }
+    },
+    "section_5_iron_age_transformation": {
+      "time_range": "1200-600 قبل مسیح",
+      "technological_shift": {
+        "iron_smelted_tools": true,
+        "agricultural_expansion": "گنگا کے میدانی علاقوں میں جنگلات کی منظوری"
+      },
+      "archaeological_culture": {
+        "painted_grey_ware": "بعد میں ویدک بستیوں سے وابستہ",
+        "northern_black_polished_ware": "بعد میں شہری بحالی کا مرحلہ"
+      }
+    },
+    "section_6_second_urbanization": {
+      "time_range": "800-500 قبل مسیح",
+      "region": "گنگا جمنا دوآب اور مشرقی ہندوستان",
+      "drivers": [
+        "زراعت کے قابل بنانے والے لوہے کے اوزار",
+        "آبادی میں اضافہ",
+        "تجارت میں شدت"
+      ],
+      "mahajanapadas": [
+        "مگدھ",
+        "کوسل",
+        "وتسا",
+        "اونتی"
+      ],
+      "political_evolution": {
+        "monarchies": true,
+        "republican_ganasanghas": true
+      }
+    },
+    "section_7_philosophical_transformation": {
+      "upanishadic_thought": {
+        "concepts": [
+          "اتمان (خود)",
+          "برہمن (حتمی حقیقت)",
+          "کرما",
+          "سمسارا"
+        ],
+        "shift": "رسمی آرتھوپراکسی سے مابعد الطبیعیاتی انکوائری تک"
+      },
+      "sramana_movements": {
+        "time": "چھٹی صدی قبل مسیح",
+        "traditions": [
+          "ابتدائی بدھ مت",
+          "جین مت"
+        ],
+        "themes": [
+          "ترک کرنا",
+          "عدم تشدد",
+          "آزادی (موکش/نروان)"
+        ]
+      }
+    },
+    "section_8_genetic_stabilization_phase": {
+      "time_range": "1000-500 قبل مسیح",
+      "pattern": {
+        "admixture_completion": "میجر ANI-ASI مرکب بڑی حد تک مکمل",
+        "increasing_endogamy": "بتدریج سماجی استحکام جینیاتی طور پر ظاہر ہوتا ہے۔"
+      },
+      "evidence_sources": [
+        "قدیم ڈی این اے مطالعہ",
+        "جدید آبادی کی جینومک ماڈلنگ"
+      ]
+    },
+    "section_9_economic_and_trade_networks": {
+      "internal_trade": "گنگا کے نظام کے ذریعے دریا کی نقل و حمل",
+      "external_trade": [
+        "فارسی Achaemenid رابطے (بعد میں)",
+        "شمال مغربی سرحدی تبادلے کے راستے"
+      ],
+      "coinage_emergence": "پنچ کے نشان والے سکے ۔"
+    },
+    "section_10_civilizational_significance": {
+      "cultural_synthesis": "ہڑپہ کی وراثت کا امتزاج، سٹیپے کے پادری اثر، اور مقامی روایات",
+      "intellectual_foundations": "کلاسیکی ہندوستانی فلسفہ کی بنیاد",
+      "state_formation_trajectory": "موری سامراجی استحکام کا پیش خیمہ"
+    }
+  },
+  "part8": {
+    "dataset_metadata": {
+      "title": "کائناتی تا انسانی ارتقاء الٹرا ڈیپ ریسرچ ڈیٹاسیٹ",
+      "volume": 8,
+      "scope": "کلاسیکی جنوبی ایشیائی ریاست کی تشکیل اور فکری استحکام",
+      "chronological_span_years": "500 قبل مسیح - 600 عیسوی",
+      "academic_level": "گریجویٹ / ریسرچ",
+      "disciplines": [
+        "قدیم تاریخ",
+        "سیاسی بشریات",
+        "ایپی گرافی",
+        "علمیات",
+        "فلسفہ",
+        "آبادی جینیات"
+      ]
+    },
+    "section_1_late_mahajanapada_phase": {
+      "time_range": "600-321 قبل مسیح",
+      "major_powers": [
+        "مگدھ",
+        "کوسل",
+        "اونتی",
+        "وتسا"
+      ],
+      "magadha_advantages": {
+        "geography": "گنگا کے زرخیز میدان",
+        "iron_resources": "مشرقی معدنی علاقوں تک رسائی",
+        "river_transport": true
+      },
+      "political_evolution": {
+        "bimbisara_and_ajatasatru": "علاقائی توسیع",
+        "administrative_centralization": "ابتدائی بیوروکریٹک ڈھانچے"
+      }
+    },
+    "section_2_achaemenid_and_hellenistic_interactions": {
+      "achaemenid_presence": {
+        "time": "چھٹی سے چوتھی صدی قبل مسیح",
+        "region": "شمال مغربی ہندوستان",
+        "impact": [
+          "انتظامی ماڈلز",
+          "آرامی رسم الخط کا اثر"
+        ]
+      },
+      "alexander_campaign": {
+        "time": "327-325 قبل مسیح",
+        "impact": [
+          "شمال مغرب میں سیاسی تقسیم",
+          "گریکو-انڈین ثقافتی تبادلہ"
+        ]
+      }
+    },
+    "section_3_mauryan_empire": {
+      "time_range": "321-185 قبل مسیح",
+      "founder": "چندرگپت موریہ",
+      "territorial_extent": "سب سے بڑی ماقبل جدید جنوبی ایشیائی سلطنت",
+      "administrative_system": {
+        "arthashastra_model": "مرکزی ٹیکسیشن اور جاسوسی۔",
+        "provincial_governors": true
+      },
+      "ashoka": {
+        "conversion_to_buddhism": true,
+        "dhamma_policy": "اخلاقی حکمرانی۔",
+        "rock_edicts": "قدیم ترین وسیع تحریری نوشتہ جات",
+        "international_missions": [
+          "سری لنکا",
+          "وسطی ایشیا"
+        ]
+      }
+    },
+    "section_4_post_mauryan_polities": {
+      "indo_greek_kingdoms": {
+        "cultural_exchange": "یونانی بدھ آرٹ (گندھارا)"
+      },
+      "saka_and_parthian": {
+        "steppe_origin": true,
+        "integration": "مقامی اشرافیہ کا انضمام"
+      },
+      "kushan_empire": {
+        "time": "پہلی تا تیسری صدی عیسوی",
+        "role": "سلک روڈ تجارتی کنیکٹر",
+        "religious_pluralism": true
+      }
+    },
+    "section_5_religious_and_philosophical_systems": {
+      "classical_hindu_philosophy": {
+        "schools": [
+          "نیایا",
+          "وشیشیکا",
+          "سمکھیا",
+          "یوگا",
+          "میمسا",
+          "ویدانت"
+        ],
+        "metaphysical_concepts": [
+          "برہمن",
+          "اتمان",
+          "پراکرتی",
+          "پروشا۔"
+        ]
+      },
+      "buddhist_schools": [
+        "تھیرواد",
+        "مہایانا"
+      ],
+      "jain_philosophy": {
+        "anekantavada": "متعدد نقطہ نظر کا نظریہ"
+      }
+    },
+    "section_6_scientific_and_mathematical_developments": {
+      "mathematics": {
+        "concept_of_zero": "گپتا دور میں رسمیت",
+        "decimal_system": true
+      },
+      "astronomy": {
+        "aryabhata": "سیاروں کے ماڈلز میں Heliocentric عناصر",
+        "sidereal_calculations": true
+      },
+      "medicine": {
+        "charaka_samhita": "اندرونی دوائی",
+        "sushruta_samhita": "جراحی کی تکنیک"
+      }
+    },
+    "section_7_gupta_classical_age": {
+      "time_range": "320-550 عیسوی",
+      "characteristics": [
+        "سیاسی استحکام",
+        "ثقافتی پھول",
+        "سنسکرت ادبی توسیع"
+      ],
+      "economic_structure": {
+        "agrarian_base": true,
+        "guild_organization": "شہری کرافٹ گلڈز"
+      },
+      "art_and_architecture": {
+        "temple_architecture_emergence": true,
+        "iconography_standardization": true
+      }
+    },
+    "section_8_genetic_and_demographic_patterns": {
+      "post_admixture_phase": {
+        "limited_new_large_scale_migrations": true,
+        "regional_endogamy_increase": true
+      },
+      "population_growth": {
+        "agrarian_expansion": "لے جانے کی صلاحیت میں اضافہ",
+        "urban_centers": "تجارت پر مبنی ڈیموگرافک کلسٹرنگ"
+      }
+    },
+    "section_9_trade_networks": {
+      "silk_road": {
+        "goods": [
+          "مصالحہ",
+          "ٹیکسٹائل",
+          "قیمتی پتھر"
+        ],
+        "cultural_transmission": "مذہبی نظریات پھیلتے ہیں۔"
+      },
+      "maritime_trade": {
+        "indian_ocean_routes": true,
+        "roman_trade_links": "آثار قدیمہ کے سکے کا ثبوت"
+      }
+    },
+    "section_10_civilizational_legacy": {
+      "institutional_foundations": [
+        "امپیریل گورننس ماڈل",
+        "کوڈفائیڈ قانونی روایات",
+        "فلسفیانہ نظام اب بھی بااثر ہیں۔"
+      ],
+      "knowledge_transmission": "ریاضی اور فلکیات مغرب کی طرف منتقل ہو گئے۔"
+    }
+  },
+  "part9": {
+    "dataset_metadata": {
+      "title": "کائناتی تا انسانی ارتقاء الٹرا ڈیپ ریسرچ ڈیٹاسیٹ",
+      "volume": 9,
+      "scope": "قرون وسطی کے جنوبی ایشیائی سیاسی، ثقافتی، اور آبادیاتی تبدیلیاں",
+      "chronological_span_years": "600 عیسوی - 1700 عیسوی",
+      "academic_level": "گریجویٹ / ریسرچ",
+      "disciplines": [
+        "قرون وسطی کی تاریخ",
+        "تاریخی سوشیالوجی",
+        "آبادی جینیات",
+        "معاشی تاریخ",
+        "مذہبی علوم",
+        "فن کی تاریخ"
+      ]
+    },
+    "section_1_post_gupta_regionalization": {
+      "time_range": "600-1000 عیسوی",
+      "political_pattern": "بکھری ہوئی علاقائی سلطنتیں۔",
+      "major_powers": [
+        "ہرشا کی بادشاہی",
+        "چلوکیہ",
+        "پلاواس",
+        "راشٹرکوٹاس",
+        "پالس"
+      ],
+      "administrative_features": {
+        "land_grant_system": "برہمدیہ اور مندر گرانٹ",
+        "agrarian_expansion": "جنگل کی منظوری اور آبادکاری کی ترقی"
+      },
+      "temple_urbanism": {
+        "role": "اقتصادی، رسمی اور انتظامی مرکز",
+        "architectural_styles": [
+          "ناگارا (شمالی ہندوستان)",
+          "دراوڑ (جنوبی ہندوستان)"
+        ]
+      }
+    },
+    "section_2_religious_and_intellectual_flourishing": {
+      "bhakti_movements": {
+        "time_range": "7ویں-15ویں صدی",
+        "features": [
+          "ذاتی عقیدت",
+          "زبانی شاعری۔",
+          "سماجی شمولیت کے موضوعات"
+        ]
+      },
+      "tantric_traditions": {
+        "ritual_complexity": true,
+        "integration_with_buddhist_and_hindu_streams": true
+      },
+      "buddhist_decline_in_india": {
+        "factors": [
+          "ہندو فریم ورک میں انضمام",
+          "خانقاہی سرپرستی کا نقصان"
+        ]
+      }
+    },
+    "section_3_early_islamic_contacts": {
+      "arab_trade_links": {
+        "time_range": "7ویں-10ویں صدی",
+        "coastal_centers": [
+          "کیرالہ",
+          "گجرات"
+        ],
+        "exchange_goods": [
+          "مصالحہ",
+          "ٹیکسٹائل",
+          "گھوڑے"
+        ]
+      },
+      "cultural_exchange": {
+        "introduction_of_islam": "بنیادی طور پر تجارت اور صوفی نیٹ ورک کے ذریعے",
+        "syncretic_practices": true
+      }
+    },
+    "section_4_delhi_sultanate": {
+      "time_range": "1206-1526 عیسوی",
+      "dynasties": [
+        "مملوک",
+        "خلجی",
+        "تغلق",
+        "سید",
+        "لودی"
+      ],
+      "administrative_changes": {
+        "centralized_taxation": true,
+        "iqta_system": "لینڈ ریونیو اسائنمنٹس"
+      },
+      "military_innovation": {
+        "mounted_cavalry": true,
+        "use_of_composite_bows": true
+      },
+      "urban_growth": "دہلی اہم سیاسی دارالحکومت کے طور پر"
+    },
+    "section_5_mughal_empire": {
+      "time_range": "1526-1707 عیسوی",
+      "founder": "بابر",
+      "administrative_model": {
+        "mansabdari_system": true,
+        "land_revenue_system": "زبت اور جاگیرداری"
+      },
+      "religious_policy": {
+        "akbar": "سلح کل (عالمی رواداری)",
+        "integration_of_elites": "راجپوت اتحاد"
+      },
+      "economic_scale": {
+        "global_gdp_share": "17ویں صدی میں تخمینہ ~20–25%",
+        "textile_exports": "عالمی تجارت میں اہم شراکت دار"
+      },
+      "art_and_architecture": [
+        "تاج محل",
+        "ہمایوں کا مقبرہ",
+        "چھوٹے پینٹنگ کی روایات"
+      ]
+    },
+    "section_6_maritime_and_global_trade": {
+      "indian_ocean_network": {
+        "participants": [
+          "عربوں",
+          "فارسی",
+          "چینی",
+          "یورپین"
+        ],
+        "ports": [
+          "کالی کٹ",
+          "سورت",
+          "مسولیپٹنم"
+        ]
+      },
+      "european_entry": {
+        "portuguese_arrival": "1498 عیسوی (واسکو ڈی گاما)",
+        "subsequent_powers": [
+          "ڈچ",
+          "فرانسیسی",
+          "برطانوی"
+        ]
+      }
+    },
+    "section_7_social_stratification_and_endogamy": {
+      "caste_solidification": {
+        "period": "1000-1600 عیسوی",
+        "genetic_evidence": "جینومک اسٹڈیز میں قابل شناخت اینڈوگیمی میں اضافہ",
+        "jati_localization": "مقامی پیشہ ورانہ گروپ کی حدود"
+      },
+      "religious_conversion_patterns": {
+        "islamic_conversion": "بتدریج، علاقائی طور پر مختلف",
+        "sufi_influence": "روحانی مساوات کی اپیل"
+      }
+    },
+    "section_8_population_genetics_medieval_phase": {
+      "admixture_patterns": {
+        "west_eurasian_gene_flow": "محدود لیکن علاقائی طور پر قابل شناخت",
+        "continuity_of_asi_component": true
+      },
+      "genetic_isolation_trends": {
+        "increasing_endogamy": true,
+        "founder_effects": "بعض ذات پات کے گروہ مضبوط رکاوٹیں دکھاتے ہیں۔"
+      }
+    },
+    "section_9_intellectual_and_scientific_currents": {
+      "astronomy": {
+        "kerala_school": "ابتدائی کیلکولس کی طرح لامحدود سیریز کا کام"
+      },
+      "medicine": {
+        "unani_system": "یونانی عربی انضمام"
+      },
+      "literature": {
+        "persianate_culture": true,
+        "regional_languages_flourish": [
+          "ہندی",
+          "بنگالی",
+          "تامل",
+          "مراٹھی"
+        ]
+      }
+    },
+    "section_10_structural_transition_to_early_modernity": {
+      "economic_strain": "حد سے زیادہ توسیع اور علاقائی بغاوتیں۔",
+      "european_commercial_dominance": "عالمی تجارتی طاقت میں تبدیلی",
+      "foundation_for_colonial_phase": true
+    }
+  },
+  "part10": {
+    "dataset_metadata": {
+      "title": "کائناتی تا انسانی ارتقاء الٹرا ڈیپ ریسرچ ڈیٹاسیٹ",
+      "volume": 10,
+      "scope": "نوآبادیاتی تبدیلی جدید بشریاتی ترکیب میں",
+      "chronological_span_years": "1700 عیسوی - موجودہ",
+      "academic_level": "گریجویٹ / ریسرچ",
+      "disciplines": [
+        "جدید تاریخ",
+        "سیاسی معیشت",
+        "ڈیموگرافی",
+        "آبادی جینیات",
+        "بشریات",
+        "گلوبلائزیشن اسٹڈیز"
+      ]
+    },
+    "section_1_late_mughal_fragmentation": {
+      "time_range": "1707-1757 عیسوی",
+      "structural_weakening": [
+        "صوبائی خودمختاری میں اضافہ",
+        "مالی تناؤ",
+        "مراٹھا توسیع"
+      ],
+      "regional_polities": [
+        "مراٹھا کنفیڈریسی",
+        "سکھ ملی",
+        "میسور کنگڈم",
+        "بنگال کے نواب"
+      ]
+    },
+    "section_2_european_colonial_dominance": {
+      "east_india_company_phase": {
+        "battle_of_plassey": "1757 عیسوی",
+        "revenue_extraction": "مستقل تصفیہ (1793)",
+        "economic_shift": "مینوفیکچرنگ ایکسپورٹر سے لے کر خام مال فراہم کرنے والے تک"
+      },
+      "industrial_impact": {
+        "deindustrialization": "ہینڈلوم ٹیکسٹائل سیکٹرز کا زوال",
+        "railway_infrastructure": "مربوط نوآبادیاتی معیشت"
+      }
+    },
+    "section_3_demographic_transformation": {
+      "population_trends": {
+        "1700_estimate_millions": 165,
+        "1900_estimate_millions": 300,
+        "2020_estimate_millions": 1380
+      },
+      "mortality_shift": {
+        "vaccination": true,
+        "public_health_improvements": true
+      },
+      "urbanization": {
+        "colonial_cities": [
+          "کلکتہ",
+          "بمبئی",
+          "مدراس"
+        ],
+        "post_independence_expansion": true
+      }
+    },
+    "section_4_nationalism_and_state_formation": {
+      "intellectual_currents": [
+        "اصلاحی تحریکیں (برہمو سماج، آریہ سماج)",
+        "پرنٹ سرمایہ داری اور مقامی پریس"
+      ],
+      "independence": {
+        "year": 1947,
+        "partition": "ہندوستان پاکستان ڈویژن",
+        "migration_scale": "سب سے بڑی انسانی ہجرت میں سے ایک"
+      },
+      "constitutional_framework": {
+        "democratic_republic": true,
+        "universal_suffrage": true
+      }
+    },
+    "section_5_post_independence_development": {
+      "economic_model": {
+        "planned_economy_phase": "1950-1990",
+        "liberalization": "1991 کی اصلاحات"
+      },
+      "green_revolution": {
+        "impact": "غذائی اجناس میں خود کفالت",
+        "environmental_cost": "زمینی پانی کی کمی"
+      }
+    },
+    "section_6_population_genetics_revolution": {
+      "genome_sequencing": {
+        "human_genome_project": "2003 کی تکمیل",
+        "high_throughput_sequencing": true
+      },
+      "south_asian_studies": {
+        "ancient_dna": "راکھی گڑھی ہڑپہ جینوم",
+        "ani_asi_clarification": "بہتر مرکب ٹائم لائنز",
+        "steppe_component_modeling": true
+      },
+      "medical_genomics": {
+        "founder_effects": "ذات سے منسلک متواتر عوارض",
+        "precision_medicine": "جینیاتی خطرے کی پروفائلنگ"
+      }
+    },
+    "section_7_modern_anthropological_synthesis": {
+      "paradigm_shift": {
+        "race_rejected": "حیاتیاتی نسل سائنسی زمرہ کے طور پر غلط ہے۔",
+        "cline_model": "جغرافیہ میں بتدریج تغیر"
+      },
+      "cultural_identity": {
+        "constructed_identity": true,
+        "diaspora_expansion": "عالمی ہندوستانی کمیونٹیز"
+      }
+    },
+    "section_8_globalization_and_technology": {
+      "digital_revolution": {
+        "internet_penetration": true,
+        "ai_and_biotechnology": "ابھرتے ہوئے میدان"
+      },
+      "migration_patterns": {
+        "skilled_migration": "آئی ٹی اور طبی پیشہ ور افراد",
+        "remittance_flows": "اہم اقتصادی عنصر"
+      }
+    },
+    "section_9_environmental_constraints": {
+      "climate_change": {
+        "temperature_rise": "اینتھروپوجنک گرین ہاؤس گیسیں",
+        "monsoon_variability": "غیر متوقع صلاحیت میں اضافہ"
+      },
+      "biodiversity_loss": true,
+      "sustainability_challenges": [
+        "شہری آلودگی",
+        "پانی کی کمی",
+        "زرعی دباؤ"
+      ]
+    },
+    "section_10_contemporary_human_condition": {
+      "lifespan_increase": {
+        "preindustrial": "~30-40 سال",
+        "modern_india": "~ 69 سال"
+      },
+      "education_expansion": true,
+      "technological_dependency": true,
+      "future_questions": [
+        "AI-انسانی انضمام",
+        "جینیاتی ترمیم (CRISPR)",
+        "موسمیاتی موافقت کی صلاحیت"
+      ]
+    }
+  }
+}

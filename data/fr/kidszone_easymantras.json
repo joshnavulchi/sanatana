@@ -1,0 +1,899 @@
+{
+  "kidszone_easymantras": {
+    "title": "Mantras faciles",
+    "meta": {
+      "title": "Espace enfants | Mantras faciles — Sanātana Dharma - Explorez le Sanatan Dharma",
+      "canonical": "https://sanatanadharmam.in/kidszone/easymantras",
+      "description": "KidsZone — Easymantras — Sanātana Dharma - Explorez Sanatan Dharma — Articles, traductions et commentaires concis sur KidsZone. Explorez les pratiques, l'histoire et les principes directeurs...",
+      "keywords": [
+        "Child-Friendly Mantras",
+        "Easy Mantras",
+        "Kids Zone",
+        "Mantra Benefits for Children",
+        "Mantra Chanting for Kids",
+        "Mantra Explanation for Kids",
+        "Mantra Guide for Kids",
+        "Mantra Learning for Children",
+        "Mantra List for Children",
+        "Mantra Meanings for Kids",
+        "Mantra Meditation for Children",
+        "Mantra Practice for Kids",
+        "Mantra Resources for Kids",
+        "Mantra Significance for Children",
+        "Mantras for Calmness",
+        "Mantras for Compassion",
+        "Mantras for Confidence",
+        "Mantras for Courage",
+        "Mantras for Emotional Balance",
+        "Mantras for Energy",
+        "Mantras for Focus",
+        "Mantras for Focus and Concentration",
+        "Mantras for Gratitude",
+        "Mantras for Happiness",
+        "Mantras for Health",
+        "Mantras for Joy",
+        "Mantras for Kids",
+        "Mantras for Kids' Calmness",
+        "Mantras for Kids' Confidence",
+        "Mantras for Kids' Development",
+        "Mantras for Kids' Energy",
+        "Mantras for Kids' Focus",
+        "Mantras for Kids' Happiness",
+        "Mantras for Kids' Health",
+        "Mantras for Kids' Mindfulness",
+        "Mantras for Kids' Positivity",
+        "Mantras for Kids' Protection",
+        "Mantras for Kids' Spiritual Growth",
+        "Mantras for Kids' Strength",
+        "Mantras for Kids' Wellbeing",
+        "Mantras for Kindness",
+        "Mantras for Mindfulness",
+        "Mantras for Positive Energy",
+        "Mantras for Positivity",
+        "Mantras for Protection",
+        "Mantras for Relaxation",
+        "Mantras for Self-Love",
+        "Mantras for Sleep",
+        "Mantras for Spiritual Growth",
+        "Mantras for Strength",
+        "Simple Mantras"
+      ],
+      "ogimage": "/og/kidszone-easymantras.png",
+      "url": "https://sanatanadharmam.in/kidszone/easymantras"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organisation",
+        "contactpoint": {
+          "@type": "Point de contact",
+          "areaserved": "Dans le monde entier",
+          "availablelanguage": [
+            "العربية",
+            "Allemand",
+            "Anglais",
+            "espagnol",
+            "Français",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Pays-Bas",
+            "Portugais",
+            "russe",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Service client",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "À propos de Sanatanadharman.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "mantras": [
+      {
+        "mantra": "Ôm",
+        "meaning": "Son primordial ; vibration universelle ; essence de la création et de la conscience."
+      },
+      {
+        "mantra": "Aum",
+        "meaning": "Son triple cosmique (A-U-M) symbolisant l'éveil, le rêve, le sommeil profond et l'absolu."
+      },
+      {
+        "mantra": "Hreem",
+        "meaning": "Graine de puissance divine et de clarté centrée sur le cœur ; invoque la lumière intérieure."
+      },
+      {
+        "mantra": "Shreem",
+        "meaning": "Graine de bon augure et d'abondance ; invoque la grâce et la prospérité."
+      },
+      {
+        "mantra": "Kleem",
+        "meaning": "Graine d’attraction et d’harmonie amoureuse ; magnétise les résultats bienveillants."
+      },
+      {
+        "mantra": "Objectif",
+        "meaning": "Graine de Saraswati ; sagesse, apprentissage, parole et créativité."
+      },
+      {
+        "mantra": "Gam",
+        "meaning": "Graine de Ganesha ; qui élimine les obstacles et donne les commencements."
+      },
+      {
+        "mantra": "Dum",
+        "meaning": "Graine de Durga ; protecteur, énergisant, éloignant la négativité."
+      },
+      {
+        "mantra": "Krim",
+        "meaning": "Graine d’énergie transformatrice ; éveille la puissance intérieure et la purification."
+      },
+      {
+        "mantra": "Hum",
+        "meaning": "Graine de protection et de coupe à travers la négativité ; clarté ardente."
+      },
+      {
+        "mantra": "Lam",
+        "meaning": "Graine de chakra racine ; mise à la terre, stabilité, sécurité."
+      },
+      {
+        "mantra": "Vam",
+        "meaning": "Graine de chakra sacré ; fluidité, créativité, équilibre émotionnel."
+      },
+      {
+        "mantra": "Bélier",
+        "meaning": "Graine de plexus solaire ; vitalité, volonté, digestion de la vie."
+      },
+      {
+        "mantra": "Igname",
+        "meaning": "Graine de chakra du cœur ; compassion, amour, ouverture."
+      },
+      {
+        "mantra": "Jambon",
+        "meaning": "Graine de chakra de la gorge ; expression, vérité, voix authentique."
+      },
+      {
+        "mantra": "Som",
+        "meaning": "Essence lunaire rafraîchissante ; apaiser l'esprit et les émotions."
+      },
+      {
+        "mantra": "Om Namah",
+        "meaning": "Un simple salut au sacré ; humble offrande au divin intérieur."
+      },
+      {
+        "mantra": "Om Shanti",
+        "meaning": "Invocation de la paix; esprit et environnement apaisants."
+      },
+      {
+        "mantra": "Om Shri",
+        "meaning": "Appel au bon augure et à la bienveillance ; invoquer la grâce."
+      },
+      {
+        "mantra": "Om Hreem",
+        "meaning": "Om avec la graine du cœur ; appelle le rayonnement divin à la conscience."
+      },
+      {
+        "mantra": "Om Kleem",
+        "meaning": "Om avec graine d'attraction; harmonise les relations et les intentions."
+      },
+      {
+        "mantra": "Om Objectif",
+        "meaning": "Om avec la graine de sagesse ; ouvre l'intelligence et l'éloquence."
+      },
+      {
+        "mantra": "Om Gam",
+        "meaning": "Om avec la graine de Ganesha ; élimine les obstacles et la confusion."
+      },
+      {
+        "mantra": "Om Dum",
+        "meaning": "Om avec des graines de Durga ; aura protectrice et courage intérieur."
+      },
+      {
+        "mantra": "Om Krim",
+        "meaning": "Om avec graine transformatrice ; enflamme un élan spirituel."
+      },
+      {
+        "mantra": "Om Hum",
+        "meaning": "Om avec graine protectrice ; dissipe la négativité et le doute."
+      },
+      {
+        "mantra": "Om Lam",
+        "meaning": "Om mettant à la terre la racine; stabilité et présence."
+      },
+      {
+        "mantra": "Om Vam",
+        "meaning": "Om circulant à travers le sacré ; créativité et harmonie."
+      },
+      {
+        "mantra": "Om Ram",
+        "meaning": "Om alimentant le plexus solaire ; force et clarté du but."
+      },
+      {
+        "mantra": "Om Yam",
+        "meaning": "Om ouvrant le cœur; gentillesse et connexion."
+      },
+      {
+        "mantra": "Om Jambon",
+        "meaning": "Om clarifiant la gorge; expression véridique."
+      },
+      {
+        "mantra": "Om Som",
+        "meaning": "Om avec une essence lunaire rafraîchissante ; redonne calme et douceur."
+      },
+      {
+        "mantra": "Hreem Namah",
+        "meaning": "Salutation à la lumière divine centrée sur le cœur."
+      },
+      {
+        "mantra": "Kleem Namah",
+        "meaning": "Salutation à l’harmonie et au magnétisme amoureux."
+      },
+      {
+        "mantra": "Shreem Namah",
+        "meaning": "Salutation à l'abondance et à la grâce de bon augure."
+      },
+      {
+        "mantra": "Gam Ganapataye",
+        "meaning": "Appeler la force de Ganesha ; invitation à franchir les obstacles."
+      },
+      {
+        "mantra": "Dum Durgayei Namah",
+        "meaning": "Révérence à Durga ; protection, courage et force."
+      },
+      {
+        "mantra": "Objectif Saraswatyai Namah",
+        "meaning": "Révérence à Saraswati ; sagesse, savoir, éloquence."
+      },
+      {
+        "mantra": "Ram Ramaya Namah",
+        "meaning": "Salutation à Rama; la droiture, le courage et la vertu."
+      },
+      {
+        "mantra": "Om Tat Sat",
+        "meaning": "La Vérité Suprême ; se souvient de la réalité absolue qui sous-tend tout."
+      },
+      {
+        "mantra": "Om Shanti Shanti Shanti",
+        "meaning": "Invocation de la paix dans le corps, l'esprit et l'environnement (triple paix)."
+      },
+      {
+        "mantra": "Lokah Samastah Sukhino Bhavantu",
+        "meaning": "Que tous les êtres, dans tous les mondes, soient heureux et libres."
+      },
+      {
+        "mantra": "Sarve Bhavantu Sukhinah",
+        "meaning": "Que tous soient heureux ; prière de bonne volonté universelle."
+      },
+      {
+        "mantra": "Sarve Santu Niramayah",
+        "meaning": "Que tous soient exempts de maladie ; bénédiction pour le bien-être."
+      },
+      {
+        "mantra": "Sarve Bhadrani Pashyantu",
+        "meaning": "Que tous voient et expérimentent ce qui est de bon augure et bon."
+      },
+      {
+        "mantra": "Om Shanthi Om",
+        "meaning": "Une invocation simple et apaisante de la paix avec Om."
+      },
+      {
+        "mantra": "Om Shivo'ham",
+        "meaning": "Je suis de nature Shiva ; se souvenir de la pure conscience en soi."
+      },
+      {
+        "mantra": "Om Namo Bhagavate Vasudevaya",
+        "meaning": "Salutations au Suprême (Vasudeva) ; abandon et protection."
+      },
+      {
+        "mantra": "Om Namah Shivaya",
+        "meaning": "Je m'incline devant Shiva ; honorant la conscience pure et le calme intérieur."
+      },
+      {
+        "mantra": "Om Namo Narayanaya",
+        "meaning": "Salutations à Narayana; dévotion et refuge intérieur."
+      },
+      {
+        "mantra": "Om Mani Padmé Hum",
+        "meaning": "Joyau dans le lotus ; compassion et sagesse unies (bouddhiste tibétain)."
+      },
+      {
+        "mantra": "Om Purnamadah Purnamidam",
+        "meaning": "C'est la plénitude ; c’est la plénitude – un rappel de la complétude inhérente."
+      },
+      {
+        "mantra": "Sahana Vavatu",
+        "meaning": "Puissions-nous être protégés et nourris ; prière pour un apprentissage harmonieux ensemble."
+      },
+      {
+        "mantra": "Om Shreem Shanti",
+        "meaning": "Paix de bon augure ; invoque un calme doux et prospère."
+      },
+      {
+        "mantra": "Om Hreem Shanti",
+        "meaning": "Paix légère du cœur ; apaise l'esprit et ouvre la compassion."
+      },
+      {
+        "mantra": "Om Shanti Omkaram",
+        "meaning": "Paix née d'Om; centrage et équilibrage."
+      },
+      {
+        "mantra": "Om Satyam Shivam Sundaram",
+        "meaning": "Vérité, bon augure et beauté : qualités de la réalité divine."
+      },
+      {
+        "mantra": "Om Karuna Mai",
+        "meaning": "Invoquer la compassion ; devenir un instrument de gentillesse."
+      },
+      {
+        "mantra": "Om Prem Shanti",
+        "meaning": "Amour et paix ; harmonise le cœur et l’esprit."
+      },
+      {
+        "mantra": "Shanti Patha",
+        "meaning": "Terme générique pour invocation de paix ; invite à une coexistence tranquille."
+      },
+      {
+        "mantra": "Om Paix Paix Paix",
+        "meaning": "Chant de paix en anglais ; simple et apaisant."
+      },
+      {
+        "mantra": "Om Nilakanthaya Namah",
+        "meaning": "Vénération au Shiva à gorge bleue ; purificateur de poison et de négativité."
+      },
+      {
+        "mantra": "Om Santatman Namah",
+        "meaning": "Salutation au moi toujours paisible ; stabilise la sérénité."
+      },
+      {
+        "mantra": "Om Shreen Shanti",
+        "meaning": "Paix de bon augure ; bénédiction de quiétude bienveillante."
+      },
+      {
+        "mantra": "Om Maitri",
+        "meaning": "Convivialité et bienveillance envers tous les êtres."
+      },
+      {
+        "mantra": "Om Karunyam",
+        "meaning": "Cultiver la compassion ; adoucir la position intérieure."
+      },
+      {
+        "mantra": "Om Dayanidhi Namah",
+        "meaning": "Salut au trésor de la compassion."
+      },
+      {
+        "mantra": "Om Shanatayai Namah",
+        "meaning": "Hommage à l'incarnation de la paix."
+      },
+      {
+        "mantra": "Om Param Shantih",
+        "meaning": "Paix suprême ; le plus grand calme."
+      },
+      {
+        "mantra": "Om Shantidham Namah",
+        "meaning": "Saluez la demeure de la paix ; demeurer au calme."
+      },
+      {
+        "mantra": "Om Shantipurnaya Namah",
+        "meaning": "Hommage à celui rempli de paix."
+      },
+      {
+        "mantra": "Om Samarpitam",
+        "meaning": "J'offre et je m'abandonne ; lâcher prise en paix."
+      },
+      {
+        "mantra": "Om Shanti Pradayakaya Namah",
+        "meaning": "Salut au donneur de paix."
+      },
+      {
+        "mantra": "Om Premamaya Namah",
+        "meaning": "Hommage à celui qui est plein d'amour ; une paix centrée sur le cœur."
+      },
+      {
+        "mantra": "Om Santamaya Namah",
+        "meaning": "Salut à celui qui est rempli de paix."
+      },
+      {
+        "mantra": "Om Dharmam Sharanam Gacchami",
+        "meaning": "Je me réfugie dans le Dharma ; s'aligner sur la vérité et la paix."
+      },
+      {
+        "mantra": "Om Shanti Swarupaya Namah",
+        "meaning": "Hommage à la forme même de la paix."
+      },
+      {
+        "mantra": "Om Samahitaya Namah",
+        "meaning": "Salut à l’esprit recueilli et posé ; calme en un seul point."
+      },
+      {
+        "mantra": "Om Shanakaraya Namah",
+        "meaning": "Hommage au bienfaiteur dispensateur de paix et de bon augure."
+      },
+      {
+        "mantra": "Om Shanti Devo Namah",
+        "meaning": "Salut à la divinité de la paix ; invoquant la sérénité."
+      },
+      {
+        "mantra": "Om Namo Bhagavate",
+        "meaning": "Révérence au Seigneur; simple dévotion et abandon."
+      },
+      {
+        "mantra": "Om Shri Ramaya Namah",
+        "meaning": "Salut à Rama; vertu, courage et constance."
+      },
+      {
+        "mantra": "Om Radha Krishnaya Namah",
+        "meaning": "Hommage à Radha-Krishna ; l'amour et la dévotion divins."
+      },
+      {
+        "mantra": "Om Namo Venkateshaya",
+        "meaning": "Salutations au Seigneur Venkateshwara ; grâce et protection."
+      },
+      {
+        "mantra": "Om Govindaaya Namah",
+        "meaning": "Révérence à Govinda (Krishna); joie et jeu divin."
+      },
+      {
+        "mantra": "Om Gopala Krishna",
+        "meaning": "Appeler Krishna le vacher ; l'innocence et l'amour divin."
+      },
+      {
+        "mantra": "Om Rama Rama",
+        "meaning": "Chanter le nom de Rama ; purifie l'esprit et renforce la volonté."
+      },
+      {
+        "mantra": "Om Hare Rama",
+        "meaning": "Éloge de Rama ; dévouement et force intérieure."
+      },
+      {
+        "mantra": "Om Hare Krishna",
+        "meaning": "Louange à Krishna ; joie et dévotion aimante."
+      },
+      {
+        "mantra": "Hare Krishna Hare Rama",
+        "meaning": "Paire de Mahamantra ; dévotion, purification et bonheur."
+      },
+      {
+        "mantra": "Om Shri Lakshmi Namah",
+        "meaning": "Salutation à Lakshmi ; l'abondance, la beauté et la grâce."
+      },
+      {
+        "mantra": "Om Shri Maha Lakshme Namah",
+        "meaning": "Hommage au Grand Lakshmi ; prospérité et bon augure."
+      },
+      {
+        "mantra": "Om Durgayei Namah",
+        "meaning": "Salut à Durga; protection et force intérieure."
+      },
+      {
+        "mantra": "Om Namah Shivaya",
+        "meaning": "Je m'incline devant Shiva ; pure conscience et libération."
+      },
+      {
+        "mantra": "Om Shivaya Namah",
+        "meaning": "Un autre salut à Shiva ; abandon à la conscience."
+      },
+      {
+        "mantra": "Om Namo Mahadeva",
+        "meaning": "Salutations au Grand Dieu; respect et humilité."
+      },
+      {
+        "mantra": "Om Rudraya Namah",
+        "meaning": "Salut à Rudra; puissance divine transformatrice."
+      },
+      {
+        "mantra": "Om Someshwaraya Namah",
+        "meaning": "Hommage au Seigneur à la crête lunaire ; grâce apaisante."
+      },
+      {
+        "mantra": "Om Skandaya Namah",
+        "meaning": "Révérence à Skanda/Kartikeya ; courage et victoire."
+      },
+      {
+        "mantra": "Om Ganeshaya Namah",
+        "meaning": "Salut à Ganesha; éliminateur d'obstacles."
+      },
+      {
+        "mantra": "Om Gam Ganapataye Namah",
+        "meaning": "Invocation de la graine de Ganesha ; chemin clair et bénédictions."
+      },
+      {
+        "mantra": "Om Vighneshwaraya Namah",
+        "meaning": "Hommage au Seigneur des obstacles ; une progression en douceur."
+      },
+      {
+        "mantra": "Om Saraswatyai Namah",
+        "meaning": "Révérence à Saraswati ; la connaissance, les arts et la parole."
+      },
+      {
+        "mantra": "Om Narayanaya Namah",
+        "meaning": "Salutations à Narayana ; refuge et subsistance."
+      },
+      {
+        "mantra": "Om Namo Arya Tara",
+        "meaning": "Hommage à la noble Tara ; compassion rapide (bouddhiste)."
+      },
+      {
+        "mantra": "Om Mani Padme Hum Hrih",
+        "meaning": "Joyau dans le lotus avec graine de cœur ; compassion élargie."
+      },
+      {
+        "mantra": "Om Krishnaaya Namah",
+        "meaning": "Salut à Krishna; joie, amour et jeu divin."
+      },
+      {
+        "mantra": "Om Raghavaya Namah",
+        "meaning": "Révérence à Raghava (Rama); Dharma et force."
+      },
+      {
+        "mantra": "Om Hanumate Namah",
+        "meaning": "Salut à Hanuman; dévouement, pouvoir et intrépidité."
+      },
+      {
+        "mantra": "Om Rudram Namah",
+        "meaning": "Hommage au principe Rudra ; purification transformatrice."
+      },
+      {
+        "mantra": "Om Keshavaya Namah",
+        "meaning": "Salutations à Keshava; présence protectrice et compatissante."
+      },
+      {
+        "mantra": "Om Madhavaya Namah",
+        "meaning": "Révérence à Madhava; douceur et divinité."
+      },
+      {
+        "mantra": "Om Govindaya Namah",
+        "meaning": "Hommage à Govinda ; conseils et joie."
+      },
+      {
+        "mantra": "Om Devaya Namah",
+        "meaning": "Salutations au Divin ; culte universel."
+      },
+      {
+        "mantra": "Om Subrahmanyaya Namah",
+        "meaning": "Salut à Subrahmanya ; valeur et sagesse."
+      },
+      {
+        "mantra": "Om Karthikeyaya Namah",
+        "meaning": "Révérence à Kartikeya ; victoire et concentration."
+      },
+      {
+        "mantra": "Om Shaktaye Namah",
+        "meaning": "Salut à Shakti ; énergie divine et autonomisation."
+      },
+      {
+        "mantra": "Om Parameshwaraya Namah",
+        "meaning": "Hommage au Seigneur Suprême ; abandonnez-vous au plus haut."
+      },
+      {
+        "mantra": "Om Jagadishaya Namah",
+        "meaning": "Révérence au Seigneur de l'univers; soins cosmiques."
+      },
+      {
+        "mantra": "Om Shri Guruve Namah",
+        "meaning": "Salutations au Gourou ; lumière de sagesse et de guidance."
+      },
+      {
+        "mantra": "Om Tryambakam Yajamahe",
+        "meaning": "Début du Mahamrityunjaya ; guérison, longévité, vaincre la peur de la mort."
+      },
+      {
+        "mantra": "Om Mrityunjaya Namah",
+        "meaning": "Salut au vainqueur de la mort ; protection et renouvellement."
+      },
+      {
+        "mantra": "Om Jum Sah",
+        "meaning": "Un court énoncé protecteur lié à l'énergie Mrityunjaya ; courage."
+      },
+      {
+        "mantra": "Om Sarva Roga Nivaranaya Namah",
+        "meaning": "Salut à Celui qui éloigne toute maladie ; bénédiction de la santé."
+      },
+      {
+        "mantra": "Om Shree Dhanvantre Namah",
+        "meaning": "Révérence au Seigneur Dhanvantari ; guérisseur divin et médecine."
+      },
+      {
+        "mantra": "Om Aarogyam Namah",
+        "meaning": "Hommage au bien-être ; invite à la santé et à la vitalité."
+      },
+      {
+        "mantra": "Om Raksha Raksha",
+        "meaning": "Protégez, protégez – une simple prière pour la sécurité."
+      },
+      {
+        "mantra": "Om Kripa Kara",
+        "meaning": "Ô donneur de grâce, invoque la miséricorde et l'aide."
+      },
+      {
+        "mantra": "Om Sharanam",
+        "meaning": "Je me réfugie ; se rendre pour obtenir protection et conseils."
+      },
+      {
+        "mantra": "Om Ashokaaya Namah",
+        "meaning": "Hommage au dissolvant du chagrin ; confort et soulagement."
+      },
+      {
+        "mantra": "Om Bhaya Nashaya Namah",
+        "meaning": "Salut au destructeur de la peur ; courage et calme."
+      },
+      {
+        "mantra": "Om Durga Raksha",
+        "meaning": "La protection de Durga ; protéger du mal."
+      },
+      {
+        "mantra": "Om Shree Durga Smaranam",
+        "meaning": "En souvenir de Durga ; appelant à la force et à la sécurité."
+      },
+      {
+        "mantra": "Om Devi Namostute",
+        "meaning": "Hommage à la Déesse ; respect du féminin divin."
+      },
+      {
+        "mantra": "Om Narayani Namostute",
+        "meaning": "Salut à Narayani; protection nourrissante."
+      },
+      {
+        "mantra": "Om Vajra Hum",
+        "meaning": "Esprit éclair de diamant ; protection inébranlable (graine bouddhiste)."
+      },
+      {
+        "mantra": "Om Hum Phat",
+        "meaning": "Couper la négativité ; nettoyage énergique."
+      },
+      {
+        "mantra": "Om Dum Durgayei Namah",
+        "meaning": "La graine protectrice de Durga ; force et protection contre le mal."
+      },
+      {
+        "mantra": "Om Chamundaye Namah",
+        "meaning": "Hommage à Chamunda; protection farouche et courage."
+      },
+      {
+        "mantra": "Om Kalikaye Namah",
+        "meaning": "Révérence à Kali; transformation radicale et protection."
+      },
+      {
+        "mantra": "Om Varadaya Namah",
+        "meaning": "Saluez celui qui donne la bénédiction ; recevoir de bonnes bénédictions."
+      },
+      {
+        "mantra": "Om Tejas Namah",
+        "meaning": "Hommage au rayonnement ; feu intérieur et vitalité."
+      },
+      {
+        "mantra": "Om Mahaprana Namah",
+        "meaning": "Salut à la grande force vitale ; respiration et énergie renforcées."
+      },
+      {
+        "mantra": "Om Raksha Devi",
+        "meaning": "Ô Déesse, protège – en appelant la tutelle maternelle."
+      },
+      {
+        "mantra": "Om Datta Guru Namah",
+        "meaning": "Révérence à Dattatreya ; la direction et la grâce du Guru."
+      },
+      {
+        "mantra": "Om Sharanagata Namah",
+        "meaning": "Hommage au protecteur de ceux qui se rendent."
+      },
+      {
+        "mantra": "Om Balaya Namah",
+        "meaning": "Salut à la force ; résilience et vigueur."
+      },
+      {
+        "mantra": "Om Viraya Namah",
+        "meaning": "Hommage à l'héroïsme ; courage et détermination."
+      },
+      {
+        "mantra": "Om Shubham Bhavatu",
+        "meaning": "Qu'il y ait de bon augure ; bénédiction pour la bonté."
+      },
+      {
+        "mantra": "Om Mangalam Namah",
+        "meaning": "Hommage au bon augure ; des résultats sains."
+      },
+      {
+        "mantra": "Om Pavitraya Namah",
+        "meaning": "Salut à la pureté ; nettoyer l'esprit et l'espace."
+      },
+      {
+        "mantra": "Om Shuddhaye Namah",
+        "meaning": "Hommage à la purification ; clarté intérieure et extérieure."
+      },
+      {
+        "mantra": "Om Ayushmaan Bhava",
+        "meaning": "Vivez longtemps; bénédiction pour la longévité et la santé."
+      },
+      {
+        "mantra": "Om Sarva Mangala",
+        "meaning": "Tout bon augure ; bénédiction fourre-tout pour la bonté."
+      },
+      {
+        "mantra": "Om Bhavani Namah",
+        "meaning": "Hommage à Bhavani ; protection compatissante."
+      },
+      {
+        "mantra": "Om Shakti Namah",
+        "meaning": "Salut à l'énergie divine; l'autonomisation et le dynamisme."
+      },
+      {
+        "mantra": "Om Nityananda Namah",
+        "meaning": "Hommage au bonheur éternel ; joie apaisante et curative."
+      },
+      {
+        "mantra": "Om Shree Ram Raksha",
+        "meaning": "La protection de Rama ; courage et droiture gardés."
+      },
+      {
+        "mantra": "Om Shiv Shakti",
+        "meaning": "Union de conscience et d'énergie ; puissance équilibrée."
+      },
+      {
+        "mantra": "Om Adi Shakti Namah",
+        "meaning": "Salut au pouvoir primordial ; source d'énergie et de protection."
+      },
+      {
+        "mantra": "Soham",
+        "meaning": "Je suis Cela; conscience du Soi supérieur liée à la respiration."
+      },
+      {
+        "mantra": "Hamsa",
+        "meaning": "Sagesse discriminante semblable à celle d'un cygne ; conscience synchronisée avec la respiration."
+      },
+      {
+        "mantra": "Om Tat Tvam Asi",
+        "meaning": "Tu es Cela ; votre essence est l'Absolu."
+      },
+      {
+        "mantra": "Aham Brahmasmi",
+        "meaning": "Je suis Brahman ; identité avec la réalité suprême."
+      },
+      {
+        "mantra": "Om Sat Chit Ananda",
+        "meaning": "Être-Conscience-Bliss; nature du Soi."
+      },
+      {
+        "mantra": "Om Nirmala",
+        "meaning": "Inoxydable, pur ; cultiver la clarté intérieure et la simplicité."
+      },
+      {
+        "mantra": "Om Prakashaya Namah",
+        "meaning": "Salut à la lumière ; illumination de la compréhension."
+      },
+      {
+        "mantra": "Om Jyotir Namah",
+        "meaning": "Hommage au rayonnement ; lampe intérieure de conscience."
+      },
+      {
+        "mantra": "Om Anandaya Namah",
+        "meaning": "Salut au bonheur ; se reposer dans une joie naturelle."
+      },
+      {
+        "mantra": "Om Paramatmane Namah",
+        "meaning": "Hommage au Soi Suprême ; s'aligner sur le témoignage intérieur."
+      },
+      {
+        "mantra": "Om Chaitanyam Namah",
+        "meaning": "Salutations à la pure conscience ; conscience vivante."
+      },
+      {
+        "mantra": "Om Antaratma Namah",
+        "meaning": "Hommage au Soi intérieur ; se tournant vers l'intérieur."
+      },
+      {
+        "mantra": "Om Parabrahma Namah",
+        "meaning": "Salut au Brahman Suprême ; au-delà de toutes les formes."
+      },
+      {
+        "mantra": "Om Shivoham",
+        "meaning": "Je suis la nature de Shiva ; demeurer en tant que pure conscience."
+      },
+      {
+        "mantra": "Om Chidatma Namah",
+        "meaning": "Hommage à la conscience-soi ; présence lucide."
+      },
+      {
+        "mantra": "Om Niranjanaya Namah",
+        "meaning": "Salut aux intacts ; conscience inoxydable."
+      },
+      {
+        "mantra": "Om Sohum Shivoham",
+        "meaning": "Mantra respiratoire avec la nature de Shiva ; Je suis Cela, pure conscience."
+      },
+      {
+        "mantra": "Om Poornamadah",
+        "meaning": "C'est la plénitude ; se souvenir de la totalité inhérente."
+      },
+      {
+        "mantra": "Om Satchitananda",
+        "meaning": "Forme compressée de Sat-Chit-Ananda ; essence du Soi."
+      },
+      {
+        "mantra": "Om Ekam Evadvitiyam",
+        "meaning": "L'Un, sans seconde ; souvenir non double."
+      },
+      {
+        "mantra": "Om Namo Bhagavate Vasudevaya",
+        "meaning": "Abandon dévotionnel au Suprême ; refuge intérieur et grâce."
+      },
+      {
+        "mantra": "Om Hridaya Namah",
+        "meaning": "Hommage au coeur; demeurer dans l’espace du cœur spirituel."
+      },
+      {
+        "mantra": "Om Sharanam Maman",
+        "meaning": "Mon refuge est le divin ; humble confiance."
+      },
+      {
+        "mantra": "Om Samarpanam",
+        "meaning": "Offre complète ; lâcher prise vers Soi."
+      },
+      {
+        "mantra": "Om Sakshi Aham",
+        "meaning": "Je suis le témoin ; se reposer comme observer la conscience."
+      },
+      {
+        "mantra": "Om Anandam Brahma",
+        "meaning": "La félicité est Brahman ; reconnaître la joie comme l'absolu."
+      },
+      {
+        "mantra": "Om Paramjyoti Namah",
+        "meaning": "Salut à la lumière suprême ; orientation et clarté."
+      },
+      {
+        "mantra": "Om Svaroopa Namah",
+        "meaning": "Hommage à la vraie nature ; demeurer comme le Soi."
+      },
+      {
+        "mantra": "Om Tejomaya Namah",
+        "meaning": "Salut à celui qui est rempli de lumière ; être lumineux."
+      },
+      {
+        "mantra": "Om Shantam Shivam Advaitam",
+        "meaning": "Réalité paisible, propice et non duelle ; repos dans l'absolu."
+      },
+      {
+        "mantra": "Om Anantaya Namah",
+        "meaning": "Hommage à l'infini ; une conscience illimitée."
+      },
+      {
+        "mantra": "Om Kaivalya Namah",
+        "meaning": "Salut à la libération en soi ; liberté et solitude du Soi."
+      },
+      {
+        "mantra": "Om Namo Paramatmane",
+        "meaning": "Je m'incline devant le Soi Suprême ; méditation respectueuse."
+      },
+      {
+        "mantra": "Om Chidananda Rupa",
+        "meaning": "Forme de bonheur de conscience ; identité avec le Soi."
+      },
+      {
+        "mantra": "Om Nirvikalpa",
+        "meaning": "Au-delà des concepts ; absorption méditative profonde."
+      },
+      {
+        "mantra": "Bouddha Om Nitya Shuddha",
+        "meaning": "Éternel, pur, éveillé ; état naturel du Soi."
+      },
+      {
+        "mantra": "Om Paripoorna Namah",
+        "meaning": "Hommage à la plénitude complète ; rien ne manque."
+      },
+      {
+        "mantra": "Om Advaitaaya Namah",
+        "meaning": "Salut à la non-dualité ; une réalité sans division."
+      },
+      {
+        "mantra": "Om Sahasraraaya Namah",
+        "meaning": "Hommage au centre de la couronne ; transcendance et unité."
+      },
+      {
+        "mantra": "Om Sarva Atmane Namah",
+        "meaning": "Salut au Soi de tous ; conscience universelle."
+      }
+    ]
+  }
+}

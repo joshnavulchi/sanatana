@@ -1,0 +1,917 @@
+{
+  "kidszone_illustratedstories": {
+    "title": "Histórias ilustradas",
+    "meta": {
+      "title": "Zona Infantil | Histórias ilustradas - Sanātana Dharma - Explore Sanatan Dharma",
+      "canonical": "https://sanatanadharmam.in/kidszone/illustratedstories",
+      "description": "KidsZone — IllustratedStories — Sanātana Dharma - Explore Sanatan Dharma — Artigos, traduções e comentários concisos sobre KidsZone. Explore práticas, história e orientação...",
+      "keywords": [
+        "Animal Fables",
+        "Bedtime Stories for Kids",
+        "Children's Stories",
+        "Classic Indian Stories",
+        "Educational Stories",
+        "Folk Tales with Morals",
+        "Illustrated Stories",
+        "Indian Culture for Kids",
+        "Indian Folktales",
+        "Indian Heritage for Children",
+        "Jataka Tales",
+        "KidsZone",
+        "Moral Stories",
+        "Mythological Stories for Kids",
+        "Panchatantra",
+        "Short Stories for Children",
+        "Stories from Indian Tradition",
+        "Stories of Animals with Morals",
+        "Stories of Compassion and Empathy",
+        "Stories of Courage and Bravery",
+        "Stories of Courage and Wisdom",
+        "Stories of Creativity and Imagination",
+        "Stories of Cultural Values and Traditions",
+        "Stories of Everyday Heroes",
+        "Stories of Family and Relationships",
+        "Stories of Festivals and Celebrations",
+        "Stories of Friendship and Kindness",
+        "Stories of Generosity and Sharing",
+        "Stories of Good vs Evil",
+        "Stories of Honesty and Integrity",
+        "Stories of Humility and Gratitude",
+        "Stories of Kindness and Compassion",
+        "Stories of Kings and Queens",
+        "Stories of Mythological Characters",
+        "Stories of Nature and Environment",
+        "Stories of Perseverance and Hard Work",
+        "Stories of Problem-Solving and Critical Thinking",
+        "Stories of Respect and Responsibility",
+        "Stories of Sages and Saints",
+        "Stories of Self-Control and Discipline",
+        "Stories of Teamwork and Cooperation",
+        "Stories of Wisdom and Intelligence",
+        "Stories with Life Lessons"
+      ],
+      "ogimage": "/og/kidszone-illustratedstories.png",
+      "url": "https://sanatanadharmam.in/kidszone/illustratedstories"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organização",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Em todo o mundo",
+          "availablelanguage": [
+            "العربية",
+            "Alemão",
+            "Inglês",
+            "Espanhol",
+            "Francês",
+            "Adeus",
+            "日本語",
+            "Adeus",
+            "Holanda",
+            "Português",
+            "Russo",
+            "Mais",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Suporte ao Cliente",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sobre Sanatanadharm.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "description": "Uma coleção com curadoria de pequenas histórias ilustradas e morais da tradição indiana. Clique em uma história para ler seu resumo e moral.",
+    "kids_indian_stories": [
+      {
+        "title": "O Coelho Inteligente e o Leão",
+        "characters": [
+          "Coelho",
+          "Leão"
+        ],
+        "id": 1,
+        "imgalt": "The Clever Rabbit and the Lion",
+        "imgsrc": "/images/illustrate/thumbs/1.png",
+        "moral": "A sabedoria é mais forte que a força.",
+        "origin": "Panchatantra",
+        "summary": "Um pequeno coelho engana um leão feroz, enganando-o e fazendo-o pular em um poço depois de ver seu reflexo.",
+        "themes": [
+          "Coragem",
+          "Inteligência"
+        ]
+      },
+      {
+        "title": "O Macaco e o Crocodilo",
+        "characters": [
+          "Macaco",
+          "Crocodilo"
+        ],
+        "id": 2,
+        "imgalt": "The Monkey and the Crocodile",
+        "imgsrc": "/images/illustrate/thumbs/2.png",
+        "moral": "Presença de espírito salva vidas.",
+        "origin": "Panchatantra",
+        "summary": "Um macaco evita o perigo enganando um crocodilo que tenta comer seu coração.",
+        "themes": [
+          "Amizade",
+          "Decepção"
+        ]
+      },
+      {
+        "title": "O corvo sedento",
+        "characters": [
+          "Corvo"
+        ],
+        "id": 3,
+        "imgalt": "The Thirsty Crow",
+        "imgsrc": "/images/illustrate/thumbs/3.png",
+        "moral": "Onde há vontade, há um caminho.",
+        "origin": "Conto popular indiano",
+        "summary": "Um corvo sedento joga pedras em uma panela para aumentar o nível da água e bebe.",
+        "themes": [
+          "Perseverança",
+          "Criatividade"
+        ]
+      },
+      {
+        "title": "O leão tolo e a raposa esperta",
+        "characters": [
+          "Leão",
+          "Raposa"
+        ],
+        "id": 4,
+        "imgalt": "The Foolish Lion and the Clever Fox",
+        "imgsrc": "/images/illustrate/thumbs/4.png",
+        "moral": "A ganância leva à queda.",
+        "origin": "Panchatantra",
+        "summary": "Uma raposa engana um leão para que ele entre em uma caverna deserta e o leão fica preso para sempre.",
+        "themes": [
+          "Ganância",
+          "Inteligência"
+        ]
+      },
+      {
+        "title": "A tartaruga falante",
+        "characters": [
+          "Tartaruga",
+          "Cisnes"
+        ],
+        "id": 5,
+        "imgalt": "The Talkative Tortoise",
+        "imgsrc": "/images/illustrate/thumbs/5.png",
+        "moral": "Falar demais pode causar problemas.",
+        "origin": "Panchatantra",
+        "summary": "Uma tartaruga cai do céu porque abre a boca enquanto é carregada por dois pássaros.",
+        "themes": [
+          "Disciplina",
+          "Humor"
+        ]
+      },
+      {
+        "title": "Tenali Rama e os Ladrões",
+        "characters": [
+          "Tenali Rama",
+          "Ladrões"
+        ],
+        "id": 6,
+        "imgalt": "Tenali Rama and the Thieves",
+        "imgsrc": "/images/illustrate/thumbs/6.png",
+        "moral": "O pensamento inteligente pode salvar sua casa.",
+        "origin": "Contos de Tenali Raman",
+        "summary": "Tenali Rama engana os ladrões fingindo limpar seu poço a noite toda enquanto joga pedras nele.",
+        "themes": [
+          "Sabedoria",
+          "Estratégia"
+        ]
+      },
+      {
+        "title": "A história Khichdi de Birbal",
+        "characters": [
+          "Birbal",
+          "Akbar"
+        ],
+        "id": 7,
+        "imgalt": "Birbal’s Khichdi Story",
+        "imgsrc": "/images/illustrate/thumbs/7.png",
+        "moral": "Paciência e presença de espírito vencem.",
+        "origin": "Akbar-Birbal",
+        "summary": "Birbal prova que pensar no calor de longe é o mesmo que aquecer comida de longe.",
+        "themes": [
+          "Justiça",
+          "Lógica"
+        ]
+      },
+      {
+        "title": "O mangusto leal",
+        "characters": [
+          "Mangusto",
+          "bebê",
+          "Mãe"
+        ],
+        "id": 8,
+        "imgalt": "The Loyal Mongoose",
+        "imgsrc": "/images/illustrate/thumbs/8.png",
+        "moral": "Não tire conclusões precipitadas.",
+        "origin": "Folclore Indiano",
+        "summary": "Um mangusto salva um bebê de uma cobra, mas é punido por engano.",
+        "themes": [
+          "Lealdade",
+          "Confiança"
+        ]
+      },
+      {
+        "title": "Krishna e o pote de manteiga",
+        "characters": [
+          "Krsna",
+          "gopis"
+        ],
+        "id": 9,
+        "imgalt": "Krishna and the Butter Pot",
+        "imgsrc": "/images/illustrate/thumbs/9.png",
+        "moral": "A curiosidade e a diversão são naturais, mas a honestidade é importante.",
+        "origin": "Histórias da infância de Krishna",
+        "summary": "O bebê Krishna rouba manteiga com os amigos e encanta a todos com sua inocência.",
+        "themes": [
+          "Travessura",
+          "Amor"
+        ]
+      },
+      {
+        "title": "Sudama e Krishna",
+        "characters": [
+          "Krsna",
+          "Sudama"
+        ],
+        "id": 10,
+        "imgalt": "Sudama and Krishna",
+        "imgsrc": "/images/illustrate/thumbs/10.png",
+        "moral": "A verdadeira amizade é incondicional.",
+        "origin": "Bhagavata Purana",
+        "summary": "O pobre Sudama visita Krishna com um humilde presente, e Krishna o enche de amor e bênçãos.",
+        "themes": [
+          "Amizade",
+          "Bondade"
+        ]
+      },
+      {
+        "title": "O Elefante e o Alfaiate",
+        "characters": [
+          "Elefante",
+          "Alfaiate"
+        ],
+        "id": 11,
+        "imgalt": "The Elephant and the Tailor",
+        "imgsrc": "/images/illustrate/thumbs/11.png",
+        "moral": "A bondade devolve bondade; crueldade retorna crueldade.",
+        "origin": "Conto popular indiano",
+        "summary": "Um alfaiate pica um elefante e o elefante joga água lamacenta nele como vingança.",
+        "themes": [
+          "Comportamento",
+          "Consequências"
+        ]
+      },
+      {
+        "title": "O papagaio sábio",
+        "characters": [
+          "Papagaio",
+          "Rei"
+        ],
+        "id": 12,
+        "imgalt": "The Wise Parrot",
+        "imgsrc": "/images/illustrate/thumbs/12.png",
+        "moral": "Bons conselhos podem salvar vidas.",
+        "origin": "Panchatantra",
+        "summary": "Um papagaio avisa um rei sobre os perigos do seu reino e se torna seu amigo de confiança.",
+        "themes": [
+          "Sabedoria",
+          "Responsabilidade"
+        ]
+      },
+      {
+        "title": "Devoção de Shravan Kumar",
+        "characters": [
+          "Shravan",
+          "Pais",
+          "Rei Dasharatha"
+        ],
+        "id": 13,
+        "imgalt": "Shravan Kumar’s Devotion",
+        "imgsrc": "/images/illustrate/thumbs/13.png",
+        "moral": "Servir aos pais é nobre.",
+        "origin": "Ramayana",
+        "summary": "Shravan Kumar cuida de seus pais cegos e se torna um símbolo de devoção.",
+        "themes": [
+          "Devoção",
+          "Família"
+        ]
+      },
+      {
+        "title": "Ganesha e a Manga",
+        "characters": [
+          "Ganesha",
+          "Kartikeya",
+          "Shiva",
+          "Parvati"
+        ],
+        "id": 14,
+        "imgalt": "Ganesha and the Mango",
+        "imgsrc": "/images/illustrate/thumbs/14.png",
+        "moral": "A sabedoria é maior que a velocidade.",
+        "origin": "Puranas",
+        "summary": "Ganesha vence um concurso ao circular seus pais em vez do mundo.",
+        "themes": [
+          "Família",
+          "Sabedoria"
+        ]
+      },
+      {
+        "title": "O Rei e o Pardal",
+        "characters": [
+          "Rei",
+          "Pardal"
+        ],
+        "id": 15,
+        "imgalt": "The King and the Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/15.png",
+        "moral": "Pequenos atos de bondade são importantes.",
+        "origin": "Conto popular indiano",
+        "summary": "Um pardal ajuda um rei a aprender a humildade.",
+        "themes": [
+          "Bondade",
+          "Humildade"
+        ]
+      },
+      {
+        "title": "O Cisne Dourado",
+        "characters": [
+          "Cisne Dourado",
+          "Mãe",
+          "Filhas"
+        ],
+        "id": 16,
+        "imgalt": "The Golden Swan",
+        "imgsrc": "/images/illustrate/thumbs/16.png",
+        "moral": "A ganância destrói a felicidade.",
+        "origin": "Contos de Jataka",
+        "summary": "Um cisne dourado dá penas a uma família pobre, mas a ganância estraga tudo.",
+        "themes": [
+          "Ganância",
+          "Generosidade"
+        ]
+      },
+      {
+        "title": "O rato faminto",
+        "characters": [
+          "Rato"
+        ],
+        "id": 17,
+        "imgalt": "The Hungry Mouse",
+        "imgsrc": "/images/illustrate/thumbs/17.png",
+        "moral": "O autocontrole é importante.",
+        "origin": "Panchatantra",
+        "summary": "Um rato fica preso em um buraco depois de comer demais.",
+        "themes": [
+          "Disciplina"
+        ]
+      },
+      {
+        "title": "O Leão e o Rato",
+        "characters": [
+          "Leão",
+          "Rato"
+        ],
+        "id": 18,
+        "imgalt": "The Lion and the Mouse",
+        "imgsrc": "/images/illustrate/thumbs/18.png",
+        "moral": "Até os pequenos podem ajudar os poderosos.",
+        "origin": "Adaptação Indiana",
+        "summary": "Um leão poupa um rato e o rato resgata o leão mais tarde.",
+        "themes": [
+          "Bondade",
+          "Amizade"
+        ]
+      },
+      {
+        "title": "O Sábio Carpinteiro",
+        "characters": [
+          "Carpinteiro",
+          "Aldeões"
+        ],
+        "id": 19,
+        "imgalt": "The Wise Carpenter",
+        "imgsrc": "/images/illustrate/thumbs/19.png",
+        "moral": "A sabedoria resolve conflitos.",
+        "origin": "Conto da Aldeia Indiana",
+        "summary": "Um carpinteiro resolve pacificamente uma disputa de terras usando um planejamento inteligente.",
+        "themes": [
+          "Paz",
+          "Justiça"
+        ]
+      },
+      {
+        "title": "O Tambor Mágico",
+        "characters": [
+          "Garoto",
+          "Fadas"
+        ],
+        "id": 20,
+        "imgalt": "The Magic Drum",
+        "imgsrc": "/images/illustrate/thumbs/20.png",
+        "moral": "A honestidade é recompensada.",
+        "origin": "Conto popular indiano",
+        "summary": "Um menino gentil recebe um tambor mágico que cria comida e brinquedos.",
+        "themes": [
+          "Magia",
+          "Bondade"
+        ]
+      },
+      {
+        "title": "O pardalzinho corajoso",
+        "characters": [
+          "Pardal",
+          "Elefante"
+        ],
+        "id": 21,
+        "imgalt": "The Brave Little Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/21.png",
+        "moral": "A coragem pode derrotar os poderosos.",
+        "origin": "Índia",
+        "summary": "Um pardal salva seus filhos de um enorme elefante.",
+        "themes": [
+          "Coragem"
+        ]
+      },
+      {
+        "title": "Arjuna e o Olho do Pássaro",
+        "characters": [
+          "Arjuna",
+          "Drona"
+        ],
+        "id": 22,
+        "imgalt": "Arjuna and the Bird’s Eye",
+        "imgsrc": "/images/illustrate/thumbs/22.png",
+        "moral": "O foco leva ao sucesso.",
+        "origin": "Mahabharata",
+        "summary": "Arjuna impressiona seu guru ao focar apenas na visão de um pássaro.",
+        "themes": [
+          "Disciplina",
+          "Treinamento"
+        ]
+      },
+      {
+        "title": "A árvore torta",
+        "characters": [
+          "Árvore Torta",
+          "Árvores altas"
+        ],
+        "id": 23,
+        "imgalt": "The Crooked Tree",
+        "imgsrc": "/images/illustrate/thumbs/23.png",
+        "moral": "Esteja satisfeito com quem você é.",
+        "origin": "Conto da Floresta Indiana",
+        "summary": "Uma árvore torta sobrevive aos lenhadores por causa de seu formato.",
+        "themes": [
+          "Autovalorização"
+        ]
+      },
+      {
+        "title": "O pote mágico",
+        "characters": [
+          "Fazendeiro"
+        ],
+        "id": 24,
+        "imgalt": "The Magic Pot",
+        "imgsrc": "/images/illustrate/thumbs/24.png",
+        "moral": "Coisas boas acontecem para pessoas boas.",
+        "origin": "Folclore Indiano",
+        "summary": "Um fazendeiro encontra um pote que dobra tudo o que ele coloca dentro dele.",
+        "themes": [
+          "Magia",
+          "Boa sorte"
+        ]
+      },
+      {
+        "title": "O gentil cervo",
+        "characters": [
+          "Rei Veado",
+          "Doe",
+          "Rei Humano"
+        ],
+        "id": 25,
+        "imgalt": "The Kind Deer",
+        "imgsrc": "/images/illustrate/thumbs/25.png",
+        "moral": "A bondade inspira bondade.",
+        "origin": "Contos de Jataka",
+        "summary": "Um rei cervo salva uma corça e ganha o respeito do rei.",
+        "themes": [
+          "Compaixão"
+        ]
+      },
+      {
+        "title": "O Elefante Voador",
+        "characters": [
+          "Elefante",
+          "Sábio"
+        ],
+        "id": 26,
+        "imgalt": "The Flying Elephant",
+        "imgsrc": "/images/illustrate/thumbs/26.png",
+        "moral": "Seja humilde.",
+        "origin": "Fantasia indiana",
+        "summary": "Um elefante com asas as perde após usar mal seus poderes.",
+        "themes": [
+          "Humildade"
+        ]
+      },
+      {
+        "title": "O Pote da Sabedoria",
+        "characters": [
+          "Garoto",
+          "Sábio"
+        ],
+        "id": 27,
+        "imgalt": "The Pot of Wisdom",
+        "imgsrc": "/images/illustrate/thumbs/27.png",
+        "moral": "A sabedoria cresce quando compartilhada.",
+        "origin": "Conto do Sul da Índia",
+        "summary": "Um menino aprende que ninguém consegue manter toda a sabedoria sozinho.",
+        "themes": [
+          "Aprendizagem"
+        ]
+      },
+      {
+        "title": "O peixe mágico",
+        "characters": [
+          "Pescador",
+          "Peixe Mágico"
+        ],
+        "id": 28,
+        "imgalt": "The Magic Fish",
+        "imgsrc": "/images/illustrate/thumbs/28.png",
+        "moral": "A gratidão é importante.",
+        "origin": "Conto popular do Oceano Índico",
+        "summary": "Um pescador pega um peixe mágico que oferece ajuda em troca de liberdade.",
+        "themes": [
+          "Gratidão",
+          "Magia"
+        ]
+      },
+      {
+        "title": "O coco e a formiga",
+        "characters": [
+          "Formigas",
+          "Coco"
+        ],
+        "id": 29,
+        "imgalt": "The Coconut and the Ant",
+        "imgsrc": "/images/illustrate/thumbs/29.png",
+        "moral": "Até o menor esforço é importante.",
+        "origin": "História da Aldeia",
+        "summary": "Formigas se unem para ajudar um coco a chegar ao mar.",
+        "themes": [
+          "Trabalho em equipe"
+        ]
+      },
+      {
+        "title": "O Tigre e o Lenhador",
+        "characters": [
+          "Tigre",
+          "Lenhador"
+        ],
+        "id": 30,
+        "imgalt": "The Tiger and the Woodcutter",
+        "imgsrc": "/images/illustrate/thumbs/30.png",
+        "moral": "Ajude os outros e você será ajudado.",
+        "origin": "História da Selva Indiana",
+        "summary": "Um lenhador liberta um tigre preso que surpreendentemente poupa sua vida.",
+        "themes": [
+          "Compaixão",
+          "Coragem"
+        ]
+      },
+      {
+        "title": "Os dois gatos e o macaco",
+        "characters": [
+          "Gatos",
+          "Macaco"
+        ],
+        "id": 31,
+        "imgalt": "The Two Cats and the Monkey",
+        "imgsrc": "/images/illustrate/thumbs/31.png",
+        "moral": "Não deixe que outros resolvam suas brigas.",
+        "origin": "Panchatantra",
+        "summary": "Um macaco come o pão enquanto finge dividi-lo de forma justa entre dois gatos.",
+        "themes": [
+          "Justiça",
+          "Tolice"
+        ]
+      },
+      {
+        "title": "O pardal e o mar",
+        "characters": [
+          "Pardal",
+          "Mar",
+          "Rama"
+        ],
+        "id": 32,
+        "imgalt": "The Sparrow and the Sea",
+        "imgsrc": "/images/illustrate/thumbs/32.png",
+        "moral": "A determinação move montanhas.",
+        "origin": "História de Rama",
+        "summary": "Um pardal ameaça o mar quando pega seus ovos, inspirando o Senhor Rama.",
+        "themes": [
+          "Determinação"
+        ]
+      },
+      {
+        "title": "O menino que chorou tigre",
+        "characters": [
+          "Garoto",
+          "Aldeões",
+          "Tigre"
+        ],
+        "id": 33,
+        "imgalt": "The Boy Who Cried Tiger",
+        "imgsrc": "/images/illustrate/thumbs/33.png",
+        "moral": "Nunca minta.",
+        "origin": "Adaptação Indiana",
+        "summary": "Um menino engana os moradores, mas sofre quando um tigre realmente aparece.",
+        "themes": [
+          "Honestidade"
+        ]
+      },
+      {
+        "title": "A Figueira Mágica",
+        "characters": [
+          "Árvore",
+          "Viajante"
+        ],
+        "id": 34,
+        "imgalt": "The Magic Banyan Tree",
+        "imgsrc": "/images/illustrate/thumbs/34.png",
+        "moral": "Generosidade traz sorte.",
+        "origin": "Conto popular",
+        "summary": "Uma árvore dá frutos, sombra e moedas de ouro a um viajante gentil.",
+        "themes": [
+          "Bondade"
+        ]
+      },
+      {
+        "title": "O pavão curioso",
+        "characters": [
+          "Pavão",
+          "Rouxinol"
+        ],
+        "id": 35,
+        "imgalt": "The Curious Peacock",
+        "imgsrc": "/images/illustrate/thumbs/35.png",
+        "moral": "Fique feliz com seus pontos fortes.",
+        "origin": "Conto de Animal Indiano",
+        "summary": "Um pavão quer a voz de um rouxinol, mas aprende que a beleza tem seu próprio charme.",
+        "themes": [
+          "Amor próprio"
+        ]
+      },
+      {
+        "title": "O tecelão inteligente",
+        "characters": [
+          "Tecelão",
+          "Fantasma"
+        ],
+        "id": 36,
+        "imgalt": "The Clever Weaver",
+        "imgsrc": "/images/illustrate/thumbs/36.png",
+        "moral": "O trabalho inteligente vence.",
+        "origin": "Sul da Índia",
+        "summary": "Um tecelão engana um fantasma e fica rico.",
+        "themes": [
+          "Coragem",
+          "Sabedoria"
+        ]
+      },
+      {
+        "title": "Os frutos do trabalho duro",
+        "characters": [
+          "Irmãos"
+        ],
+        "id": 37,
+        "imgalt": "The Fruits of Hard Work",
+        "imgsrc": "/images/illustrate/thumbs/37.png",
+        "moral": "O trabalho duro sempre compensa.",
+        "origin": "Aldeia Indiana",
+        "summary": "Dois irmãos aprendem que o esforço é mais importante que a sorte.",
+        "themes": [
+          "Trabalho duro"
+        ]
+      },
+      {
+        "title": "O pequeno tambor",
+        "characters": [
+          "Garoto"
+        ],
+        "id": 38,
+        "imgalt": "The Little Drum",
+        "imgsrc": "/images/illustrate/thumbs/38.png",
+        "moral": "As boas ações se multiplicam.",
+        "origin": "Norte da Índia",
+        "summary": "Um menino ganha um tambor que traz felicidade por onde passa.",
+        "themes": [
+          "Bondade"
+        ]
+      },
+      {
+        "title": "O burro e a pele do tigre",
+        "characters": [
+          "Burro",
+          "Fazendeiro"
+        ],
+        "id": 39,
+        "imgalt": "The Donkey and the Tiger Skin",
+        "imgsrc": "/images/illustrate/thumbs/39.png",
+        "moral": "Fingir ser outra pessoa causa problemas.",
+        "origin": "Panchatantra",
+        "summary": "Um burro usa pele de tigre, mas estraga tudo zurrando.",
+        "themes": [
+          "Identidade"
+        ]
+      },
+      {
+        "title": "O Tesouro Escondido",
+        "characters": [
+          "Pai",
+          "Filhos"
+        ],
+        "id": 40,
+        "imgalt": "The Hidden Treasure",
+        "imgsrc": "/images/illustrate/thumbs/40.png",
+        "moral": "O trabalho em si é um tesouro.",
+        "origin": "Conto da Aldeia Indiana",
+        "summary": "Um pai engana seus filhos para que eles trabalhem na agricultura, dizendo-lhes que há um tesouro enterrado no campo.",
+        "themes": [
+          "Trabalho duro"
+        ]
+      },
+      {
+        "title": "O papagaio corajoso",
+        "characters": [
+          "Papagaio",
+          "Deus"
+        ],
+        "id": 41,
+        "imgalt": "The Brave Parrot",
+        "imgsrc": "/images/illustrate/thumbs/41.png",
+        "moral": "A coragem ajuda os outros.",
+        "origin": "Contos de Jataka",
+        "summary": "Um papagaio tenta salvar uma floresta em chamas e inspira os deuses.",
+        "themes": [
+          "Bravura"
+        ]
+      },
+      {
+        "title": "O menino e o tambor",
+        "characters": [
+          "Garoto"
+        ],
+        "id": 42,
+        "imgalt": "The Boy and the Drum",
+        "imgsrc": "/images/illustrate/thumbs/42.png",
+        "moral": "Pequenos presentes podem fazer uma grande diferença.",
+        "origin": "Conto popular indiano",
+        "summary": "Um menino usa um tambor para espalhar felicidade.",
+        "themes": [
+          "Bondade"
+        ]
+      },
+      {
+        "title": "O Mercador de Ratos",
+        "characters": [
+          "Comerciante"
+        ],
+        "id": 43,
+        "imgalt": "The Mouse Merchant",
+        "imgsrc": "/images/illustrate/thumbs/43.png",
+        "moral": "A fortuna favorece a coragem.",
+        "origin": "Panchatantra",
+        "summary": "Um homem fica rico começando com um único rato.",
+        "themes": [
+          "Coragem"
+        ]
+      },
+      {
+        "title": "A Caverna Falante",
+        "characters": [
+          "Leão",
+          "Chacal"
+        ],
+        "id": 44,
+        "imgalt": "The Talking Cave",
+        "imgsrc": "/images/illustrate/thumbs/44.png",
+        "moral": "Pensar demais leva a problemas.",
+        "origin": "Panchatantra",
+        "summary": "Um leão se esconde em uma caverna e um chacal esperto evita o perigo.",
+        "themes": [
+          "Cuidado"
+        ]
+      },
+      {
+        "title": "O barbeiro ganancioso",
+        "characters": [
+          "Barbeiro"
+        ],
+        "id": 45,
+        "imgalt": "The Greedy Barber",
+        "imgsrc": "/images/illustrate/thumbs/45.png",
+        "moral": "A ganância destrói a sabedoria.",
+        "origin": "Índia",
+        "summary": "Um barbeiro perde todas as suas riquezas por causa da ganância.",
+        "themes": [
+          "Ganância"
+        ]
+      },
+      {
+        "title": "O sonho da leiteira",
+        "characters": [
+          "Leiteira"
+        ],
+        "id": 46,
+        "imgalt": "The Milkmaid’s Dream",
+        "imgsrc": "/images/illustrate/thumbs/46.png",
+        "moral": "Não conte suas galinhas antes de eclodirem.",
+        "origin": "Índia",
+        "summary": "Uma leiteira sonha com riquezas e derrama seu leite.",
+        "themes": [
+          "Planejamento"
+        ]
+      },
+      {
+        "title": "O pardal mágico",
+        "characters": [
+          "Pardal",
+          "Fazendeiro"
+        ],
+        "id": 47,
+        "imgalt": "The Magical Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/47.png",
+        "moral": "A ajuda traz recompensa.",
+        "origin": "Aldeia Indiana",
+        "summary": "Um pardal ajuda um fazendeiro e suas colheitas a crescerem magicamente.",
+        "themes": [
+          "Magia",
+          "Bondade"
+        ]
+      },
+      {
+        "title": "O Velho Elefante Sábio",
+        "characters": [
+          "Elefante"
+        ],
+        "id": 48,
+        "imgalt": "The Wise Old Elephant",
+        "imgsrc": "/images/illustrate/thumbs/48.png",
+        "moral": "A idade traz sabedoria.",
+        "origin": "Conto da Selva Indiana",
+        "summary": "Um elefante idoso guia seu rebanho para um local seguro durante a seca.",
+        "themes": [
+          "Sabedoria"
+        ]
+      },
+      {
+        "title": "O Lótus e o Sapo",
+        "characters": [
+          "Sapo",
+          "Lótus"
+        ],
+        "id": 49,
+        "imgalt": "The Lotus and the Frog",
+        "imgsrc": "/images/illustrate/thumbs/49.png",
+        "moral": "A paciência é poderosa.",
+        "origin": "Conto do Rio Indiano",
+        "summary": "Um lótus ensina um sapo inquieto a desacelerar.",
+        "themes": [
+          "Paciência"
+        ]
+      },
+      {
+        "title": "O rei que comeu muitos doces",
+        "characters": [
+          "Rei",
+          "Cozinheiro Real"
+        ],
+        "id": 50,
+        "imgalt": "The King Who Ate Too Many Sweets",
+        "imgsrc": "/images/illustrate/thumbs/50.png",
+        "moral": "A moderação é importante.",
+        "origin": "História do Palácio Indiano",
+        "summary": "Um rei come doces demais e aprende a controlar seus desejos.",
+        "themes": [
+          "Saúde",
+          "Disciplina"
+        ]
+      }
+    ]
+  }
+}

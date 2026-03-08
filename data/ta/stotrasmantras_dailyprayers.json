@@ -1,0 +1,74 @@
+{
+  "stotrasmantras_dailyprayers": {
+    "title": "",
+    "meta": {
+      "title": "ஸ்தோத்திரங்கள் & மந்திரங்கள் | தினசரி பிரார்த்தனைகள் — சனாதன தர்மம் - சனாதன தர்மத்தை ஆராயுங்கள்",
+      "canonical": "https://sanatanadharmam.in/stotrasmantras/dailyprayers",
+      "description": "ஸ்தோத்ரஸ்மந்த்ரங்கள் — தினசரி பிரார்த்தனைகள் — சனாதன தர்மம் – சனாதன தர்மத்தை ஆராயுங்கள் — கட்டுரைகள், மொழிபெயர்ப்புகள் மற்றும் ஸ்தோத்ர மந்திரங்கள் பற்றிய சுருக்கமான வர்ணனைகள். நடைமுறைகள், வரலாறு மற்றும் வழிகாட்டுதலை ஆராயுங்கள்...",
+      "keywords": [
+        "Ancient Wisdom Stotrasmantras DailyPrayers",
+        "Ayurveda Stotrasmantras DailyPrayers",
+        "Bhagavad Gita Stotrasmantras DailyPrayers",
+        "Deities Stotrasmantras DailyPrayers",
+        "Festivals and Traditions Stotrasmantras DailyPrayers",
+        "Hindu Mythology Stotrasmantras DailyPrayers",
+        "Hinduism Stotrasmantras DailyPrayers",
+        "Indian Culture Stotrasmantras DailyPrayers",
+        "Indian Festivals Stotrasmantras DailyPrayers",
+        "Indian Philosophy Stotrasmantras DailyPrayers",
+        "Mahabharata Stotrasmantras DailyPrayers",
+        "Mythology Stotrasmantras DailyPrayers",
+        "Philosophy Stotrasmantras DailyPrayers",
+        "Pilgrimage Stotrasmantras DailyPrayers",
+        "Puranas Stotrasmantras DailyPrayers",
+        "Ramayana Stotrasmantras DailyPrayers",
+        "Religious Knowledge Stotrasmantras DailyPrayers",
+        "Rituals Stotrasmantras DailyPrayers",
+        "Sanatanadharmam Stotrasmantras DailyPrayers",
+        "Sanskrit Stotrasmantras DailyPrayers",
+        "Spiritual Practices Stotrasmantras DailyPrayers",
+        "Spirituality Stotrasmantras DailyPrayers",
+        "Stotrasmantras DailyPrayers Overview",
+        "Temples Stotrasmantras DailyPrayers",
+        "Upanishads Stotrasmantras DailyPrayers",
+        "Vedas Stotrasmantras DailyPrayers",
+        "Yoga and Meditation Stotrasmantras DailyPrayers"
+      ],
+      "ogimage": "/og/stotrasmantras-dailyPrayers.png",
+      "url": "https://sanatanadharmam.in/stotrasmantras/dailyprayers"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "அமைப்பு",
+        "contactpoint": {
+          "@type": "தொடர்பு புள்ளி",
+          "areaserved": "உலகம் முழுவதும்",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "ஆங்கிலம்",
+            "எஸ்பானோல்",
+            "பிரான்சிஸ்",
+            "ஹிந்தி",
+            "எஸ்",
+            "நேபாளி",
+            "நெதர்லாந்து",
+            "போர்த்துகீசியர்கள்",
+            "ருஸ்கி",
+            "தெலுங்கு",
+            "அர்து",
+            "中文 (简体)"
+          ],
+          "contacttype": "வாடிக்கையாளர் ஆதரவு",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "சனாதனதர்மம்.இன் பற்றி",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "daily_prayers_stotras": []
+  }
+}

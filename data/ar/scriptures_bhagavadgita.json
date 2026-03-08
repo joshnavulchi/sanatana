@@ -1,0 +1,2511 @@
+{
+  "scriptures_bhagavadgita": {
+    "title": "باجافاد جيتا",
+    "meta": {
+      "title": "الكتب المقدسة | بهاجافاد جيتا - ساناتانا دارما - اكتشف ساناتان دارما",
+      "canonical": "https://sanatanadharmam.in/scriptures/bhagavadgita",
+      "description": "Bhagavad Gita - فصول كاملة وتعليقات - مقالات وترجمات وتعليقات موجزة عن Bhagavad Gita. استكشاف الممارسات والتاريخ والتوجيه...",
+      "keywords": [
+        "Ancient wisdom",
+        "Arjuna",
+        "Bhagavad Gita",
+        "Bhakti Yoga",
+        "Dharma",
+        "Divine knowledge",
+        "Eternal truths",
+        "Ethical teachings",
+        "Gita",
+        "Hindu mythology",
+        "Hindu scriptures",
+        "Indian cultural heritage",
+        "Indian cultural significance",
+        "Indian cultural teachings significance",
+        "Indian culture",
+        "Indian divine knowledge",
+        "Indian divine knowledge significance",
+        "Indian divine knowledge teachings significance",
+        "Indian eternal truths",
+        "Indian eternal truths significance",
+        "Indian eternal truths teachings significance",
+        "Indian ethical significance",
+        "Indian ethical teachings",
+        "Indian ethical teachings significance",
+        "Indian historical significance",
+        "Indian historical teachings significance",
+        "Indian meditation significance",
+        "Indian meditation teachings significance",
+        "Indian meditation techniques",
+        "Indian philosophical concepts",
+        "Indian philosophical significance",
+        "Indian philosophical teachings significance",
+        "Indian philosophical traditions",
+        "Indian philosophy",
+        "Indian religious history",
+        "Indian religious philosophy",
+        "Indian religious significance",
+        "Indian religious teachings",
+        "Indian religious teachings significance",
+        "Indian religious texts",
+        "Indian self-realization",
+        "Indian self-realization significance",
+        "Indian self-realization teachings significance",
+        "Indian spiritual heritage",
+        "Indian spiritual practices",
+        "Indian spiritual significance",
+        "Indian spiritual teachings significance",
+        "Indian spiritual wisdom",
+        "Indian spirituality",
+        "Indian yoga philosophy",
+        "Indian yoga significance",
+        "Indian yoga teachings significance",
+        "Jnana Yoga",
+        "Karma Yoga",
+        "Krishna",
+        "Kurukshetra",
+        "Mahabharata",
+        "Meditation practices",
+        "Moksha",
+        "Philosophical concepts",
+        "Religious studies",
+        "Self-realization",
+        "Spiritual teachings",
+        "Upanishads",
+        "Yoga philosophy"
+      ],
+      "ogimage": "/og/bhagavadgita.png",
+      "url": "https://sanatanadharmam.in/scriptures/bhagavadgita"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "English",
+            "Español",
+            "الفرنسية",
+            "الهندية",
+            "日本語",
+            "नेपाली",
+            "Nederlands",
+            "البرتغالية",
+            "Русский",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "parts": [
+      {
+        "title": "البهاغافاد غيتا – الشرح العميق الكامل (الجزء الأول)",
+        "bhagavadgita_part_1": {
+          "chapters_1_to_3": {
+            "chapter_1_arjuna_vishada_yoga": {
+              "important_terms": {
+                "dharma": "Righteous duty",
+                "karuna": "Compassion",
+                "moha": "Delusion or confusion"
+              },
+              "key_teachings": [
+                "Human confusion can become the doorway to wisdom.",
+                "الحساسية الأخلاقية ليست ضعفا.",
+                "True learning begins when one admits confusion."
+              ],
+              "key_verses_explained": {
+                "1.28-30": "Arjuna describes his trembling body and grief. This reflects the human experience of emotional paralysis during moral conflict.",
+                "1.46": "Arjuna says he would rather be killed than fight. This shows his internal collapse before enlightenment."
+              },
+              "meaning": "The Yoga of Arjuna’s Despair",
+              "modern_application": "When overwhelmed by ethical dilemmas, one must seek higher wisdom instead of acting impulsively.",
+              "psychological_interpretation": "يمثل أرجونا الصراع الداخلي الذي يواجهه كل فرد عندما تتصادم القيم مع العواطف.",
+              "spiritual_interpretation": "Despair can become the first step toward spiritual awakening.",
+              "summary": "Arjuna surveys the battlefield and becomes overwhelmed by sorrow. He sees teachers like Bhishma and Drona, relatives, and friends. His body trembles, his bow slips from his hands, and he declares he will not fight."
+            },
+            "chapter_2_sankhya_yoga": {
+              "important_terms": {
+                "atman": "The eternal Self",
+                "sankhya": "Analytical knowledge",
+                "sthitaprajna": "Person of steady wisdom",
+                "yoga": "Union or disciplined path"
+              },
+              "key_teachings": [
+                "The Self is eternal.",
+                "Perform duty without attachment.",
+                "Maintain equanimity in success and failure."
+              ],
+              "key_verses_explained": {
+                "2.13": "Just as the soul passes through childhood, youth, and old age, it passes into another body.",
+                "2.20": "The Self is never born nor does it die.",
+                "2.47": "You have the right to action, but not to the fruits of action.",
+                "2.48": "Be steady in yoga, abandoning attachment to success and failure."
+              },
+              "meaning": "The Yoga of Knowledge",
+              "modern_application": "Focus on effort, not outcome. Develop emotional balance.",
+              "psychological_interpretation": "Attachment to outcomes creates anxiety.",
+              "spiritual_interpretation": "Knowledge of the eternal Self dissolves fear of death.",
+              "summary": "Krishna begins teaching. He explains that the soul (Atman) is eternal and cannot be destroyed. Death is merely a change of body. He introduces Karma Yoga and equanimity."
+            },
+            "chapter_3_karma_yoga": {
+              "important_terms": {
+                "karma": "Action",
+                "lokasangraha": "Welfare of the world",
+                "yajna": "Sacred offering or sacrifice"
+              },
+              "key_teachings": [
+                "Action is better than inaction.",
+                "الخدمة المتفانية تطهر العقل.",
+                "يجب على القادة أن يضربوا الأمثلة."
+              ],
+              "key_verses_explained": {
+                "3.19": "التصرف دون الارتباط بالنتائج.",
+                "3.21": "مهما فعل القائد، يتبعه الآخرون.",
+                "3.8": "أداء واجبك المقررة."
+              },
+              "meaning": "يوجا العمل",
+              "modern_application": "خدمة المجتمع دون دوافع أنانية.",
+              "psychological_interpretation": "تجنب المسؤولية يزيد من الصراع الداخلي.",
+              "spiritual_interpretation": "العمل غير الأناني يؤدي إلى التحرر.",
+              "summary": "يسأل أرجونا لماذا يتصرف إذا كانت المعرفة متفوقة. يوضح كريشنا أن هذا الإجراء لا مفر منه. يجب على المرء أن يتصرف بنكران الذات كذبيحة (ياجنا)."
+            }
+          },
+          "introduction": {
+            "context_of_kurukshetra": "في ساحة معركة كوروكشيترا، قبل بدء الحرب مباشرة، يطلب المحارب أرجونا من قائد عربته، سري كريشنا، أن يضع عربته بين الجيشين. عندما يرى أرجونا أقاربه ومعلميه وأصدقائه يقفون على كلا الجانبين، يغمره الحزن والارتباك الأخلاقي. إنه يتساءل عن الغرض الأساسي من الحرب.",
+            "essence_of_upanishads": "تعتبر الجيتا جوهر الأوبنشاد لأنها تقدم أعلى التعاليم الفلسفية حول الذات (أتمان)، والمطلق (براهمان)، والتحرر (موكشا) بطريقة عملية وسهلة المنال.",
+            "historical_background": "البهاغافاد غيتا هو حوار مقدس يظهر في بهيشما بارفا للماهابهاراتا، الملحمة العظيمة التي ألفها سيج فياسا. يحكي ماهابهاراتا قصة سلالة كورو والصراع بين مجموعتين من أبناء العمومة: باندافاس وكاورافاس. بلغ هذا الصراع ذروته في حرب كوروكشترا. لم تكن كوروكشترا مجرد ساحة معركة جغرافية؛ لقد كانت المرحلة التي واجه فيها دارما (البر) وأدارما (الظلم) بعضهما البعض.",
+            "meaning_of_bhagavad_gita": "The term 'Bhagavad Gita' means 'The Song of the Lord.' 'Bhagavad' refers to the Supreme Being, and 'Gita' means song. It is called a song because it is poetic, rhythmic, and deeply spiritual.",
+            "who_is_arjuna": "Arjuna is one of the five Pandava brothers and a master archer. He represents the sincere seeker who is morally sensitive and spiritually receptive.",
+            "who_is_krishna": "Sri Krishna is regarded as an incarnation (Avatar) of Lord Vishnu, the sustainer of the universe. In the Gita, he reveals himself not merely as a divine personality but as the Supreme Reality (Brahman) itself.",
+            "why_gita_was_spoken": "At that moment of crisis, Sri Krishna delivers the Bhagavad Gita. The Gita was spoken to remove Arjuna’s confusion and guide him toward clarity, strength, and righteous action. It addresses fundamental human questions: What is duty? What is the nature of the Self? What is God? How should one live?"
+          },
+          "structure_overview": {
+            "philosophical_themes": [
+              "Nature of the Self (Atman)",
+              "Supreme Reality (Brahman)",
+              "Dharma and duty",
+              "Detachment and equanimity",
+              "Devotion and surrender",
+              "Liberation (Moksha)"
+            ],
+            "three_major_paths": {
+              "bhakti_yoga": "Path of devotion and surrender",
+              "jnana_yoga": "Path of knowledge and wisdom",
+              "karma_yoga": "Path of selfless action"
+            },
+            "total_chapters": 18,
+            "total_verses": 700
+          }
+        },
+        "order": 1
+      },
+      {
+        "title": "البهاغافاد غيتا – الشرح العميق الكامل (الجزء الثاني)",
+        "bhagavadgita_part_2": {
+          "chapters_4_to_6": {
+            "chapter_4_jnana_karma_sannyasa_yoga": {
+              "important_terms": {
+                "avatar": "Divine descent or incarnation",
+                "jnana": "Spiritual knowledge",
+                "karma": "Action and its consequences",
+                "sannyasa": "التنازل",
+                "yajna": "Sacred offering"
+              },
+              "key_teachings": [
+                "Divine incarnation (Avatar) happens for restoration of Dharma.",
+                "Right knowledge purifies action.",
+                "إن الزهد الحقيقي هو نبذ التعلق، وليس الفعل نفسه.",
+                "Knowledge burns past karmas like fire burns fuel."
+              ],
+              "key_verses_explained": {
+                "4.13": "The fourfold order was created according to qualities (Guna) and actions (Karma), not birth alone.",
+                "4.18": "He who sees inaction in action and action in inaction is wise. This means the enlightened person acts outwardly but remains inwardly unattached.",
+                "4.24": "The entire act of sacrifice is Brahman — the offering, the fire, and the offerer.",
+                "4.7-8": "عندما يتراجع البر، أُظهر نفسي. وهذا يكشف عن كريشنا باعتباره القوة الداعمة للتوازن الكوني."
+              },
+              "meaning": "يوجا المعرفة والتخلي عن العمل",
+              "modern_application": "Work with awareness and integrity. See your profession as service rather than ego fulfillment.",
+              "psychological_interpretation": "Understanding purpose transforms ordinary work into sacred duty.",
+              "spiritual_interpretation": "When actions are performed with awareness of the Divine, they no longer bind the soul.",
+              "summary": "في هذا الفصل، يكشف شري كريشنا عن الأصل الإلهي لتعاليمه. ويوضح أن هذه الحكمة تم تدريسها لأول مرة لإله الشمس (فيفافان) وانتقلت عبر سلالة من الحكماء. ومع مرور الوقت، ضاع، وهو الآن يعيده إلى أرجونا. يكشف كريشنا أنه كلما تراجعت دارما وارتفع أدهارما، فإنه يتجسد لحماية الصالحين وتدمير الشر. ويوضح العلاقة بين المعرفة (جنانا)، والعمل (الكرمة)، والتخلي (سانياسا)."
+            },
+            "chapter_5_karma_sannyasa_yoga": {
+              "important_terms": {
+                "brahman": "Ultimate Reality",
+                "samatva": "Equanimity",
+                "sannyasa": "Renunciation of selfish motives",
+                "tyaga": "التنازل"
+              },
+              "key_teachings": [
+                "External renunciation is not necessary for spiritual growth.",
+                "Inner detachment is true Sannyasa.",
+                "The wise see all beings equally."
+              ],
+              "key_verses_explained": {
+                "5.10": "One who offers actions to Brahman remains untouched by sin, like a lotus untouched by water.",
+                "5.18": "The wise see equally a learned person, a cow, an elephant, a dog, and an outcaste.",
+                "5.29": "Peace comes to one who knows Krishna as the enjoyer of sacrifices and friend of all beings.",
+                "5.3": "من لا يكره ولا يرغب فهو مرتد حقيقي."
+              },
+              "meaning": "يوجا التخلي عن العمل",
+              "modern_application": "تعامل مع جميع الناس بكرامة. ترك المنافسة القائمة على الأنا.",
+              "psychological_interpretation": "Freedom from comparison and jealousy leads to peace.",
+              "spiritual_interpretation": "رؤية الوحدة في التنوع هي رؤية روحية.",
+              "summary": "Arjuna asks whether renouncing action or performing action is superior. Krishna explains that both can lead to liberation, but selfless action performed with detachment is easier and safer for most people. True renunciation is internal — freedom from ego and desire."
+            },
+            "chapter_6_dhyana_yoga": {
+              "important_terms": {
+                "abhyasa": "Practice",
+                "dhyana": "Meditation",
+                "vairagya": "مفرزة",
+                "yogi": "One who practices union with the Divine"
+              },
+              "key_teachings": [
+                "العقل يمكن أن يكون صديقا أو عدوا.",
+                "Balance in lifestyle supports meditation.",
+                "الممارسة الثابتة تؤدي إلى الإتقان.",
+                "لا يضيع أي جهد روحي على الإطلاق."
+              ],
+              "key_verses_explained": {
+                "6.11-15": "Description of meditation posture and discipline.",
+                "6.26": "عندما يتجول العقل المضطرب، أعده تحت السيطرة.",
+                "6.47": "من بين جميع اليوغيين، الذي يعبدني بإيمان هو الأعلى.",
+                "6.5": "Lift yourself by yourself; do not degrade yourself. The mind is both friend and enemy."
+              },
+              "meaning": "يوجا التأمل",
+              "modern_application": "تطوير ممارسة التأمل اليومية. تقليل الانحرافات وتنمية الوضوح العقلي.",
+              "psychological_interpretation": "Mental discipline requires consistency, not force.",
+              "spiritual_interpretation": "Meditation leads to direct experience of the Self.",
+              "summary": "يشرح كريشنا نظام التأمل (ديانا). يجب على اليوغي أن يمارس الاعتدال في الأكل والنوم والعمل والترفيه. يجب تدريب العقل من خلال الجهد المستمر والانفصال. يعرب أرجونا عن قلقه بشأن السيطرة على العقل المضطرب. يعترف كريشنا بالصعوبة لكنه يؤكد أن الممارسة (أبهياسا) والانفصال (فيراجيا) تجعل ذلك ممكنًا."
+            }
+          }
+        },
+        "order": 2
+      },
+      {
+        "title": "البهاغافاد غيتا – الشرح العميق الكامل (الجزء الثالث)",
+        "bhagavadgita_part_3": {
+          "chapters_7_to_9": {
+            "chapter_7_jnana_vijnana_yoga": {
+              "important_terms": {
+                "bhakta": "Devotee",
+                "maya": "الوهم الكوني أو القوة الإلهية التي تحجب الواقع",
+                "para prakriti": "Higher spiritual nature",
+                "prakriti": "الطبيعة المادية"
+              },
+              "key_teachings": [
+                "الله هو السبب المادي والفعال للكون.",
+                "The Divine pervades all existence.",
+                "Maya veils true understanding.",
+                "أربعة أنواع من المصلين يتقربون إلى الله."
+              ],
+              "key_verses_explained": {
+                "7.14": "من الصعب عبور هذه المايا الإلهية، لكن أولئك الذين يستسلمون لي يعبرونها.",
+                "7.16-18": "Four types of devotees: the distressed, the seeker of knowledge, the seeker of wealth, and the wise. The wise devotee is most dear to Krishna.",
+                "7.4-5": "يصف كريشنا طبيعته الدنيا (الأرض، الماء، النار، الهواء، الأثير، العقل، الفكر، الأنا) والطبيعة العليا (الوعي).",
+                "7.7": "There is nothing superior to Me; everything rests upon Me like pearls on a thread."
+              },
+              "meaning": "The Yoga of Knowledge and Realization",
+              "modern_application": "الانتقال من الإيمان المعاملاتي (طلب الخدمات) إلى الإيمان التحويلي (البحث عن الحقيقة).",
+              "psychological_interpretation": "يبحث البشر عن الله لأسباب مختلفة، لكن النضج الروحي يؤدي إلى التكريس غير المشروط.",
+              "spiritual_interpretation": "المعرفة الحقيقية تبلغ ذروتها في تحقيق الوحدة مع المصدر الإلهي.",
+              "summary": "في هذا الفصل، يتعمق سري كريشنا في التدريس الميتافيزيقي. يشرح كلاً من Jnana (المعرفة النظرية الإلهية) وVijnana (الإدراك التجريبي المباشر). يكشف كريشنا أنه المصدر النهائي لكل الخليقة. كل شيء ينشأ منه ويستقر فيه. ومع ذلك، بسبب مايا (الوهم الإلهي)، تفشل معظم الكائنات في التعرف عليه. يشرح الطبيعة السفلية (الطاقة المادية) والطبيعة العليا (الوعي)."
+            },
+            "chapter_8_akshara_brahma_yoga": {
+              "important_terms": {
+                "adhyatma": "الذات الداخلية",
+                "akshara": "Imperishable, eternal",
+                "brahman": "Ultimate Reality",
+                "smriti": "ذكرى"
+              },
+              "key_teachings": [
+                "The final thought at death reflects one's lifelong focus.",
+                "الإلهية غير قابلة للفناء (أكشارا).",
+                "Continuous remembrance leads to spiritual elevation.",
+                "Two cosmic paths after death: the path of light and path of return."
+              ],
+              "key_verses_explained": {
+                "8.20": "Beyond this manifest and unmanifest is the eternal reality.",
+                "8.5": "Whoever remembers Me at the time of death attains My being.",
+                "8.6": "Whatever one remembers at death is shaped by lifelong habits.",
+                "8.7": "لذلك اذكروني في كل وقت وقاتلوا."
+              },
+              "meaning": "يوغا المطلق الذي لا يفنى",
+              "modern_application": "العيش مع اليقظه. زراعة الوعي الروحي يوميا، وليس فقط في الأزمات.",
+              "psychological_interpretation": "Daily habits shape ultimate destiny.",
+              "spiritual_interpretation": "Constant God-consciousness transforms death into liberation.",
+              "summary": "يطرح أرجونا أسئلة ميتافيزيقية عميقة حول براهمان (المطلق)، وأدياتما (الذات)، والكرمة، والدولة وقت الوفاة. يوضح كريشنا أن تذكر الإلهية في اللحظة الأخيرة يؤدي إلى التحرر. ويناقش أهمية الوعي المستمر والتفاني طوال الحياة."
+            },
+            "chapter_9_raja_vidya_raja_guhya_yoga": {
+              "important_terms": {
+                "ananya bhakti": "Exclusive devotion",
+                "bhakti": "الإخلاص",
+                "prasada": "جمال",
+                "shraddha": "Faith"
+              },
+              "key_teachings": [
+                "الإخلاص هو الطريق الأسمى والأكثر مباشرة.",
+                "God is both immanent and transcendent.",
+                "حتى الخطاة يمكنهم تحقيق التحرر من خلال التكريس الصادق.",
+                "Love is more important than ritual."
+              ],
+              "key_verses_explained": {
+                "9.22": "أولئك الذين يعبدونني بإخلاص حصري، أحافظ على ما لديهم وأوفر لهم ما يفتقرون إليه.",
+                "9.26": "Whoever offers Me a leaf, flower, fruit, or water with devotion, I accept it.",
+                "9.30-31": "Even a person of sinful conduct who worships Me with devotion should be considered righteous.",
+                "9.4-5": "كل الكائنات موجودة في داخلي، لكنني لست مقيدًا بها."
+              },
+              "meaning": "يوغا المعرفة الملكية والسر الملكي",
+              "modern_application": "قم بتقديم الأعمال اليومية بامتنان وإخلاص بدلاً من الطقوس الميكانيكية.",
+              "psychological_interpretation": "الحب يحول الذنب إلى نمو.",
+              "spiritual_interpretation": "النعمة الإلهية متاحة للجميع، بغض النظر عن أخطاء الماضي.",
+              "summary": "This chapter is considered the heart of Bhakti Yoga. Krishna reveals the most confidential knowledge: pure devotion. He declares that He pervades the entire universe yet remains transcendental. Even simple offerings made with love are accepted by Him. He emphasizes unconditional surrender and divine grace."
+            }
+          }
+        },
+        "order": 3
+      },
+      {
+        "title": "Bhagavad Gita – Complete Deep Explanation (Part 4)",
+        "bhagavadgita_part_4": {
+          "chapters_10_to_12": {
+            "chapter_10_vibhuti_yoga": {
+              "important_terms": {
+                "aishvarya": "Majestic power",
+                "ishvara": "Supreme Lord",
+                "vibhuti": "الظهور الإلهي أو المجد"
+              },
+              "key_teachings": [
+                "الإلهية حاضرة بكل عظمة وتميز.",
+                "Meditation on divine manifestations strengthens devotion.",
+                "God is both immanent in creation and transcendent beyond it."
+              ],
+              "key_verses_explained": {
+                "10.20": "I am the Self seated in the hearts of all beings.",
+                "10.41": "كل ما هو مجيد أو مزدهر أو قوي ينشأ من جزء صغير من بهائي.",
+                "10.42": "بجزء واحد من نفسي، أحافظ على الكون بأكمله.",
+                "10.8": "I am the source of all; from Me everything proceeds. The wise worship Me with devotion."
+              },
+              "meaning": "يوجا الأمجاد الإلهية",
+              "modern_application": "انظر الألوهية في الطبيعة والقيادة والإبداع والشجاعة الأخلاقية. دع الإعجاب يصبح تأملاً.",
+              "psychological_interpretation": "إن الاعتراف بالألوهية في العالم ينمي الامتنان والتواضع.",
+              "spiritual_interpretation": "All forms of excellence point back to the Infinite Source.",
+              "summary": "في هذا الفصل، يكشف سري كريشنا عن الـ Vibhutis الخاص به – ظهوراته وأمجاده الإلهية الموجودة في جميع أنحاء الخليقة. أرجونا، المملوء الآن بالإخلاص والتبجيل، يطلب من كريشنا أن يصف مظاهره الكونية حتى يتمكن من التأمل فيه باستمرار. يوضح كريشنا أن كل الجمال والقوة والحكمة والقوة غير العادية التي نراها في العالم ليست سوى جزء صغير من بهائه."
+            },
+            "chapter_11_vishvarupa_darshana_yoga": {
+              "important_terms": {
+                "divya_chakshu": "Divine vision",
+                "kala": "Time",
+                "vishvarupa": "الشكل الكوني العالمي"
+              },
+              "key_teachings": [
+                "The Divine transcends human imagination.",
+                "الوقت (كالا) هو مظهر من مظاهر الإلهية.",
+                "Surrender arises naturally when ego dissolves."
+              ],
+              "key_verses_explained": {
+                "11.12": "إذا ظهرت ألف شمس في السماء مرة واحدة، فقد يشبه تألقها هذا الشكل.",
+                "11.32": "أنا الزمن، مدمر العوالم، جاء لإبادة هذه الشعوب.",
+                "11.33": "قم واربح المجد. لقد قتلتهم بالفعل؛ أنت مجرد أداة.",
+                "11.45": "Arjuna trembles and requests Krishna to return to His gentle form."
+              },
+              "meaning": "The Yoga of the Vision of the Universal Form",
+              "modern_application": "Recognize that personal control is limited. Align with larger purpose rather than ego-driven action.",
+              "psychological_interpretation": "Human ego dissolves when confronted with cosmic vastness.",
+              "spiritual_interpretation": "الذات الفردية هي موجة صغيرة في محيط الوجود اللامتناهي.",
+              "summary": "يطلب أرجونا رؤية الشكل العالمي الأعلى لكريشنا (فيشفاروبا). كريشنا يمنح الرؤية الإلهية (ديفيا تشاكشو). يرى أرجونا شكلًا كونيًا يحتوي على جميع الكائنات، وجميع الآلهة، وكل العصور، وكل الخليقة داخل كريشنا. يرى عددًا لا يحصى من الأفواه والعيون والأسلحة السماوية. كما يرى المحاربين من كلا الجانبين يدخلون في هذا الشكل العالمي المشتعل، الذي يرمز إلى الزمن (كالا) الذي يلتهم الجميع."
+            },
+            "chapter_12_bhakti_yoga": {
+              "important_terms": {
+                "ananya": "غير مقسمة أو حصرية",
+                "bhakti": "محبة التفاني",
+                "shraddha": "Faith"
+              },
+              "key_teachings": [
+                "الإخلاص في متناول الجميع.",
+                "محبة الله تطهر القلب.",
+                "The true devotee is emotionally balanced and kind."
+              ],
+              "key_verses_explained": {
+                "12.13-14": "من لا يكره أحدًا، يكون ودودًا ورحيمًا، وخاليًا من الأنا وثابت العقل، فهو عزيز عليّ.",
+                "12.2": "أولئك الذين يركزون أذهانهم علي بإخلاص يعتبرون الأكثر كمالًا.",
+                "12.20": "أولئك الذين يتبعون طريق التكريس الخالد هذا هم أعزاء جدًا عليّ.",
+                "12.6-7": "Those who surrender to Me are swiftly delivered from the ocean of birth and death."
+              },
+              "meaning": "يوجا الإخلاص",
+              "modern_application": "تنمية اللطف والتواضع والإيمان الثابت في الحياة اليومية.",
+              "psychological_interpretation": "الإخلاص يخفف من الكبرياء ويشفي الاضطرابات العاطفية.",
+              "spiritual_interpretation": "Love bridges the gap between individual and Infinite.",
+              "summary": "يسأل أرجونا ما إذا كانت عبادة الإله الشخصي أم المطلق غير الشخصي هي الأفضل. يجيب كريشنا أن كلاهما يؤدي إلى التحرر، لكن التفاني في الشكل الشخصي أسهل بالنسبة لمعظم الناس. ويصف صفات المخلص المثالي - الشخص الرحيم، الخالي من الكراهية، المتواضع، الثابت في الفرح والحزن، والمستسلم."
+            }
+          }
+        },
+        "order": 4
+      },
+      {
+        "title": "البهاغافاد غيتا – الشرح العميق الكامل (الجزء الخامس)",
+        "bhagavadgita_part_5": {
+          "chapters_13_to_15": {
+            "chapter_13_kshetra_kshetrajna_vibhaga_yoga": {
+              "important_terms": {
+                "jnana": "معرفة",
+                "kshetra": "الميدان (مجمع الجسد والعقل)",
+                "kshetrajna": "العليم بالمجال (النفس)",
+                "prakriti": "الطبيعة المادية",
+                "purusha": "مبدأ واعي"
+              },
+              "key_teachings": [
+                "الجسد ليس هو الذات الحقيقية.",
+                "فالوعي يختلف عن المادة.",
+                "المعرفة الحقيقية هي التواضع والانفصال.",
+                "والله هو الشاهد الأسمى في جميع الكائنات."
+              ],
+              "key_verses_explained": {
+                "13.2": "اعرفني كعالم بجميع المجالات. وهذا يكشف عن وحدة الوعي الفردي والوعي الأسمى.",
+                "13.22": "The Supreme Self is the witness, permitter, supporter, and enjoyer.",
+                "13.31": "إن الذات الخالدة لا تعمل ولا تشوبها شائبة.",
+                "13.7-11": "المعرفة الحقيقية تشمل التواضع واللاعنف والصبر والانفصال."
+              },
+              "meaning": "يوغا تمييز المجال وعارف المجال",
+              "modern_application": "ممارسة الملاحظة الواعية. لا تحدد نفسك فقط من خلال الأدوار أو الإنجازات أو العواطف.",
+              "psychological_interpretation": "ينمو الوعي الذاتي عندما نلاحظ الأفكار بدلاً من التماثل معها.",
+              "spiritual_interpretation": "إن إدراك الفرق بين الجسد والذات يؤدي إلى التحرر.",
+              "summary": "في هذا الفصل الفلسفي العميق، يشرح شري كريشنا الفرق بين كشترا (الحقل) وكشتراجنا (عارف الحقل). يشكل الجسد والعقل والحواس والعواطف المجال - الجانب المتغير للوجود. العليم هو الذات الواعية (أتمان) التي تراقب هذه التغيرات. يكشف كريشنا كذلك أن الكائن الأسمى هو العليم المطلق في جميع المجالات. كما يصف أيضًا الصفات التي تشكل المعرفة الحقيقية وطبيعة براكريتي (الطبيعة المادية) وبوروشا (الوعي)."
+            },
+            "chapter_14_gunatraya_vibhaga_yoga": {
+              "important_terms": {
+                "gunateeta": "الشخص الذي يتجاوز Gunas",
+                "rajas": "Passion and activity",
+                "sattva": "النقاء والوضوح",
+                "tamas": "الجمود والظلام"
+              },
+              "key_teachings": [
+                "Sattva binds through attachment to happiness and knowledge.",
+                "رجاس يربط من خلال الرغبة والعمل.",
+                "تاماس يربط بالجهل والكسل.",
+                "الشخص الذي يتجاوز Gunas يصبح حرا."
+              ],
+              "key_verses_explained": {
+                "14.22-25": "صفات الشخص الذي تجاوز الجونا - ثابت في المتعة والألم.",
+                "14.26": "من خلال الإخلاص، يتجاوز المرء الجونا ويصبح مناسبًا للبراهمان.",
+                "14.5": "الجونا الثلاثة تربط الذات الخالدة بالجسد.",
+                "14.6-8": "أوصاف ساتفا، راجاس، وتاماس."
+              },
+              "meaning": "يوغا تقسيم الجونا الثلاثة",
+              "modern_application": "زراعة ساتفا من خلال الانضباط والحياة الأخلاقية والوضوح. قلل من الراجاس والتاماس من خلال ضبط النفس.",
+              "psychological_interpretation": "إن التعرف على ميولك المهيمنة يسمح لك بالتحسين الذاتي الواعي.",
+              "spiritual_interpretation": "تأتي الحرية عندما لا يعود الوعي خاضعًا لسيطرة التكييف العقلي.",
+              "summary": "يشرح كريشنا الصفات الثلاث التي تحكم الطبيعة المادية: ساتفا (النقاء والانسجام)، راجاس (النشاط والعاطفة)، وتاماس (القصور الذاتي والجهل). ويتأثر كل فرد بهذه الصفات بنسب متفاوتة. يحدث التحرير عندما يتجاوز المرء هذه الجونا من خلال الوعي والانفصال."
+            },
+            "chapter_15_purushottama_yoga": {
+              "important_terms": {
+                "akshara": "الذات التي لا تفنى",
+                "ashvattha": "Sacred fig tree symbolizing worldly existence",
+                "kshara": "كائنات قابلة للتلف",
+                "purushottama": "الشخص الأسمى وراء كليهما"
+              },
+              "key_teachings": [
+                "العالم مؤقت ومتغير باستمرار.",
+                "التعلق يحافظ على العبودية الدنيوية.",
+                "الشخص الأسمى يتجاوز المادة والروح الفردية.",
+                "الملجأ الحقيقي يكمن في الإلهية."
+              ],
+              "key_verses_explained": {
+                "15.1": "وصف الشجرة الكونية ذات الجذور أعلاها.",
+                "15.18": "أنا فوق ما هو قابل للفناء وغير قابل للفناء؛ لذلك أنا أدعى بوروشوتاما.",
+                "15.3-4": "اقطعوا هذه الشجرة بالانقطاع واطلبوا المنزل الأعلى.",
+                "15.7": "جزء أبدي من نفسي يصبح الروح الفردية."
+              },
+              "meaning": "يوجا الشخص الإلهي الأسمى",
+              "modern_application": "فحص المرفقات بعناية. قم بمواءمة حياتك نحو الهدف الأعلى.",
+              "psychological_interpretation": "تبدو الحياة الدنيوية مقلوبة عندما يساء فهم القيم.",
+              "spiritual_interpretation": "فالتحرر يتطلب الانفصال عن الهوية المؤقتة.",
+              "summary": "يصف كريشنا العالم بأنه شجرة اشفاتا مقلوبة (شجرة التين المقدسة)، ذات جذور في الأعلى وفروع في الأسفل. تمثل الجذور المصدر الإلهي. الفروع تمثل الوجود الدنيوي. التعلق يبقي الكائنات مرتبطة بهذه الشجرة. من خلال قطع الارتباط بسيف الانفصال، يسعى المرء إلى الشخص الأسمى (بوروشوتاما)، الذي يتجاوز كلًا من القابل للفناء (كشارا) وغير القابل للفناء (أكشارا)."
+            }
+          }
+        },
+        "order": 5
+      },
+      {
+        "title": "البهاغافاد غيتا - الشرح العميق الكامل (الجزء السادس - النهائي)",
+        "bhagavadgita_part_6": {
+          "advanced_insights": {
+            "advaita": "عرض غير مزدوج – عتمان وبراهمان متطابقان (شانكراتشاريا).",
+            "dvaita": "الرؤية المزدوجة – الله والروح مختلفان إلى الأبد (Madhvacharya).",
+            "vishishtadvaita": "اللاثنائية المؤهلة – الروح جزء من الله ولكنها متميزة (Ramanujacharya)."
+          },
+          "chapters_16_to_18": {
+            "chapter_16_daivasura_sampad_vibhaga_yoga": {
+              "important_terms": {
+                "asuri_sampad": "الميول الشيطانية",
+                "daivi_sampad": "الفضائل الالهية",
+                "kama": "Desire",
+                "krodha": "الغضب",
+                "lobha": "جشع"
+              },
+              "key_teachings": [
+                "الشخصية تحدد المصير.",
+                "الصفات الإلهية ترفع مستوى الوعي.",
+                "الرغبة والأنا غير المقيدة تؤدي إلى السقوط."
+              ],
+              "key_verses_explained": {
+                "16.1-3": "إن الجرأة ونقاء القلب والرحمة وضبط النفس هي سمات إلهية.",
+                "16.21": "الرغبة والغضب والجشع هي أبواب الجحيم الثلاثة.",
+                "16.23": "Ignoring scriptural wisdom leads to confusion and downfall.",
+                "16.4": "النفاق والكبرياء والغضب هي صفات شيطانية."
+              },
+              "meaning": "يوجا الفصل بين الصفات الإلهية والشيطانية",
+              "modern_application": "ممارسة النزاهة والانضباط والرحمة في التفاعلات اليومية.",
+              "psychological_interpretation": "الوعي الذاتي بالميول السلبية هو الخطوة الأولى نحو التحول.",
+              "spiritual_interpretation": "التطهير الداخلي يربط الفرد بالوعي الإلهي.",
+              "summary": "في هذا الفصل، يشرح سري كريشنا اتجاهين أساسيين موجودين في البشر: دايفي سامباد (الصفات الإلهية) وأسوري سامباد (الصفات الشيطانية). الصفات الإلهية تؤدي إلى التحرر، في حين أن الصفات الشيطانية تؤدي إلى العبودية والمعاناة. يسرد كريشنا فضائل مثل الجرأة والنقاء وضبط النفس والرحمة والصدق. وفي المقابل، فإن الغطرسة والغضب والقسوة والجشع والنفاق توصف بأنها صفات شيطانية."
+            },
+            "chapter_17_shraddhatraya_vibhaga_yoga": {
+              "important_terms": {
+                "dana": "صدقة",
+                "om_tat_sat": "المقاطع المقدسة تدل على الحقيقة المطلقة",
+                "shraddha": "Faith",
+                "tapas": "التقشف أو الانضباط"
+              },
+              "key_teachings": [
+                "الإيمان يعكس التكييف الداخلي.",
+                "Pure intention determines spiritual growth.",
+                "حتى الانضباط يجب أن يسترشد بالحكمة."
+              ],
+              "key_verses_explained": {
+                "17.14-16": "التقشف الثلاثي - الجسد والكلام والعقل.",
+                "17.20-22": "ثلاثة أنواع من الصدقات.",
+                "17.3": "A person is made of their faith.",
+                "17.8-10": "ثلاثة أنواع من الطعام تتوافق مع Gunas."
+              },
+              "meaning": "يوغا قسم الإيمان الثلاثي",
+              "modern_application": "افحص نواياك وراء العبادة والإحسان والانضباط.",
+              "psychological_interpretation": "الدافع وراء الأفعال يشكل الصحة العقلية.",
+              "spiritual_interpretation": "الإيمان النقي يربط المرء بالواقع الأعلى.",
+              "summary": "يوضح كريشنا أن الإيمان (شرادها) يتشكل من خلال الغونات الثلاثة - ساتفا، وراجاس، وتاماس. يؤثر إيمان الشخص على اختياراته الغذائية، وأسلوب عبادته، والتقشف، والأعمال الخيرية. الإيمان الساتفي يؤدي إلى الوضوح والانسجام. يسعى الإيمان الراجاسي إلى التقدير والمكافأة. الإيمان التاماسي مضلل وضار."
+            },
+            "chapter_18_moksha_sannyasa_yoga": {
+              "important_terms": {
+                "moksha": "تحرير",
+                "saranagati": "Total surrender",
+                "svadharma": "One’s own duty",
+                "tyaga": "Renunciation of fruits"
+              },
+              "key_teachings": [
+                "Perform your own duty, even imperfectly.",
+                "Renounce attachment, not responsibility.",
+                "Complete surrender leads to liberation."
+              ],
+              "key_verses_explained": {
+                "18.46": "ومن خلال أداء واجبه كعبادة، يصل المرء إلى الكمال.",
+                "18.55": "Through devotion, one truly knows Me.",
+                "18.66": "Abandon all forms of Dharma and surrender unto Me alone; I shall liberate you from all sins. Do not grieve."
+              },
+              "meaning": "The Yoga of Liberation and Renunciation",
+              "modern_application": "تصرف بمسؤولية، واستسلم للنتائج، وثق بالحكمة العليا.",
+              "psychological_interpretation": "Letting go of ego-based control reduces anxiety.",
+              "spiritual_interpretation": "Total surrender dissolves the illusion of separateness.",
+              "summary": "The final chapter summarizes all teachings. Krishna clarifies true renunciation (Tyaga) and reviews Karma, Jnana, and Bhakti paths. He explains the role of Svadharma (one’s own duty) and the importance of acting according to one’s nature. The Gita culminates in the supreme teaching of surrender."
+            }
+          },
+          "comparison_of_paths": {
+            "bhakti_yoga": "Best for emotionally devotional individuals.",
+            "integration": "All three can be practiced together harmoniously.",
+            "jnana_yoga": "Best for analytical and contemplative seekers.",
+            "karma_yoga": "Best for active personalities who seek growth through service."
+          },
+          "conclusion": "The Bhagavad Gita remains timeless because it addresses universal human struggles: fear, duty, identity, and purpose. It harmonizes action, knowledge, and devotion into a unified path of liberation. Its wisdom applies equally to warriors, leaders, scholars, and spiritual seekers. It is not merely a scripture, but a living guide for inner transformation.",
+          "core_philosophical_concepts": {
+            "atman": "Eternal Self beyond body and mind.",
+            "brahman": "Supreme, infinite reality.",
+            "detachment": "Freedom from craving outcomes.",
+            "devotion": "Loving surrender to God.",
+            "dharma": "الواجب الصالح يتماشى مع النظام الكوني.",
+            "gunas": "Sattva (purity), Rajas (activity), Tamas (inertia).",
+            "karma": "Law of cause and effect governing action.",
+            "moksha": "Freedom from cycle of birth and death.",
+            "yoga": "طريق الاتحاد المنضبط مع الإلهية."
+          },
+          "final_summary_20_key_points": [
+            "The Self is eternal.",
+            "Body is temporary.",
+            "Perform duty without attachment.",
+            "Devotion purifies the heart.",
+            "Knowledge removes ignorance.",
+            "Control the mind through practice.",
+            "See unity in diversity.",
+            "Transcend the three Gunas.",
+            "Faith shapes destiny.",
+            "Character determines outcome.",
+            "God is both immanent and transcendent.",
+            "All paths lead to the Divine when practiced sincerely.",
+            "Leadership requires selflessness.",
+            "Ego causes suffering.",
+            "الرغبة والغضب والجشع مدمرة.",
+            "Meditation leads to clarity.",
+            "Renunciation is internal.",
+            "Surrender brings peace.",
+            "Divine grace is accessible to all.",
+            "The Gita is a timeless guide for humanity."
+          ],
+          "practical_application_guide": {
+            "daily_life": "Perform duties sincerely without attachment.",
+            "decision_framework": "Ask: Is this aligned with Dharma? Is it selfless? Does it promote welfare?",
+            "leadership": "Lead by example, act ethically.",
+            "stress_management": "Detach from outcomes; focus on effort."
+          },
+          "symbolism": {
+            "arjuna": "The sincere seeker facing inner confusion.",
+            "battlefield": "Inner struggle between higher and lower tendencies.",
+            "krishna": "The Divine guide within.",
+            "kurukshetra": "The battlefield of life where moral conflicts occur."
+          }
+        },
+        "order": 6
+      },
+      {
+        "title": "Bhagavad Gita – Complete Deep Explanation (Part 7 – Expanded Philosophical & Practical Depth)",
+        "bhagavadgita_part_7": {
+          "advanced_interpretations": {
+            "advaita_vedanta": {
+              "teacher": "Adi Shankaracharya",
+              "view": "Ultimate reality is non-dual; individuality is due to ignorance."
+            },
+            "dvaita": {
+              "teacher": "Madhvacharya",
+              "view": "الله والروح متميزان إلى الأبد."
+            },
+            "gita_balance": "تستوعب جيتا وجهات نظر فلسفية متعددة.",
+            "vishishtadvaita": {
+              "teacher": "Ramanujacharya",
+              "view": "Soul is distinct yet inseparable from God."
+            }
+          },
+          "closing_reflection": "إن البهاغافاد غيتا ليست مجرد أطروحة فلسفية، بل هي حوار حي بين الارتباك والوضوح، بين محدودية الإنسان والتوجيه الإلهي. إنه يعلم أن الصحوة الروحية ممكنة في خضم المسؤولية الدنيوية. وتظل حكمتها ذات صلة لأن ساحة المعركة الداخلية موجودة في كل جيل.",
+          "comparison_of_yogas_expanded": {
+            "bhakti_yoga": {
+              "risk": "عاطفية بدون انضباط.",
+              "strength": "التحول عاطفيا ويمكن الوصول إليها."
+            },
+            "harmonization": "يدمج Gita الثلاثة لتحقيق نمو متوازن.",
+            "jnana_yoga": {
+              "risk": "Dry intellectualism without devotion.",
+              "strength": "Deep philosophical clarity."
+            },
+            "karma_yoga": {
+              "risk": "Burnout if not combined with detachment.",
+              "strength": "Transforms daily work into spiritual practice."
+            }
+          },
+          "deep_practical_guide": {
+            "handling_anger": "Recognize desire as its root (3.37).",
+            "handling_failure": "Detach from fruits (2.47).",
+            "handling_fear": "Remember the immortality of the Self (Chapter 2).",
+            "leadership": "Set ethical example (3.21)",
+            "life_purpose": "Follow Svadharma with devotion (18.46).",
+            "stress_management": "ممارسة التأمل والاعتدال (الفصل 6)."
+          },
+          "essence_in_expanded_20_principles": [
+            "الحياة واجب مقدس.",
+            "The Self is eternal.",
+            "Attachment causes suffering.",
+            "Action is unavoidable.",
+            "Selfless service purifies.",
+            "Knowledge removes ignorance.",
+            "Meditation stabilizes mind.",
+            "Devotion melts ego.",
+            "God pervades creation.",
+            "Character shapes destiny.",
+            "Faith determines direction.",
+            "Transcend mental conditioning.",
+            "Surrender brings peace.",
+            "Balance action and wisdom.",
+            "See unity in diversity.",
+            "تحويل العمل إلى عبادة.",
+            "القيادة بالقدوة.",
+            "Control desire and anger.",
+            "Trust divine grace.",
+            "أدرك طبيعتك الإلهية."
+          ],
+          "expanded_core_philosophical_concepts": {
+            "atman": {
+              "deep_explanation": "Atman is not personality or ego. It is the silent awareness behind thoughts. Realizing Atman removes fear of death.",
+              "definition": "الذات الأبدية، الوعي النقي، ما وراء الجسد والعقل.",
+              "qualities": [
+                "Unborn",
+                "Indestructible",
+                "Unchanging",
+                "Witness of all experiences"
+              ]
+            },
+            "brahman": {
+              "definition": "The infinite, all-pervading ultimate reality.",
+              "gita_synthesis": "Krishna presents Brahman as both impersonal absolute and personal Divine.",
+              "nirguna": "Without attributes (formless absolute).",
+              "saguna": "With attributes (personal God)."
+            },
+            "detachment": {
+              "meaning": "التحرر من الرغبة القهرية للنتائج.",
+              "misunderstanding": "Detachment is not indifference; it is inner freedom.",
+              "practice": "Act fully, but surrender results."
+            },
+            "devotion": {
+              "definition": "Loving surrender to the Divine.",
+              "essence": "Bhakti transforms emotion into spiritual energy.",
+              "forms": [
+                "Hearing",
+                "Chanting",
+                "Remembering",
+                "Serving"
+              ]
+            },
+            "dharma": {
+              "deep_explanation": "In the Gita, Dharma is not rigid rule-following. It is alignment with truth and higher purpose. Arjuna's crisis arises because he confuses emotional attachment with Dharma. Krishna clarifies that true Dharma must be rooted in wisdom, not sentiment.",
+              "definition": "Dharma comes from the Sanskrit root 'dhri', meaning 'to uphold' or 'to sustain'. It refers to the moral, cosmic, and spiritual order that sustains existence.",
+              "levels_of_dharma": {
+                "atma_dharma": "Duty toward self-realization.",
+                "raja_dharma": "Duty of leadership and governance.",
+                "sanatana_dharma": "Universal eternal principles such as truth, compassion, and nonviolence.",
+                "svadharma": "Personal duty based on one's nature, role, and stage of life."
+              },
+              "modern_application": "Choose actions that uphold integrity even when emotionally difficult."
+            },
+            "gunas": {
+              "deep_explanation": "Spiritual maturity involves cultivating Sattva and eventually transcending all three.",
+              "rajas": "Activity, ambition, restlessness.",
+              "sattva": "الوضوح والانسجام والنقاء.",
+              "tamas": "Ignorance, inertia, confusion."
+            },
+            "karma": {
+              "deep_explanation": "غيتا لا يروج للقدرية. وبدلا من ذلك، فإنه يعلم المشاركة الذكية في الحياة. لا يمكن للمرء أن يتجنب العمل، ولكن يمكن للمرء أن ينقي النية.",
+              "definition": "الكارما تعني الفعل وأيضا قانون السبب والنتيجة.",
+              "liberation_from_karma": "بالقيام بأعمال قربان (ياجنا) دون التعلق بالفاكهة.",
+              "types_of_karma": {
+                "agami": "يتم إنشاء الكارما من خلال الإجراءات الحالية.",
+                "prarabdha": "جزء من الكارما التي يتم تجربتها الآن.",
+                "sanchita": "الكارما الماضية المتراكمة."
+              }
+            },
+            "moksha": {
+              "definition": "التحرر من دورة الولادة والموت (سامسارا).",
+              "gita_path": "Achieved through knowledge, devotion, and surrender.",
+              "state": "التحرر من الجهل وتحقيق الوحدة مع الإلهية."
+            },
+            "yoga": {
+              "definition": "الاتحاد أو المسار المنضبط نحو الإدراك الروحي.",
+              "four_primary_forms": {
+                "bhakti_yoga": "طريق الإخلاص.",
+                "dhyana_yoga": "تأمل.",
+                "jnana_yoga": "طريق المعرفة.",
+                "karma_yoga": "Selfless action."
+              },
+              "integration": "The Gita harmonizes all yogas rather than isolating them."
+            }
+          },
+          "symbolic_and_spiritual_psychology": {
+            "arjuna": "The individual soul facing moral crisis.",
+            "chariot": "جسم الإنسان.",
+            "charioteer": "Discriminative intelligence guided by Divine.",
+            "horses": "الحواس.",
+            "kauravas": "الدوافع السفلية مثل الجشع والكبرياء.",
+            "krishna": "الحكمة الإلهية الداخلية التي توجه الضمير.",
+            "kurukshetra": "Represents the inner battlefield of moral and psychological conflict.",
+            "pandavas": "الفضائل العليا والميول المنضبطة.",
+            "reins": "عقل."
+          }
+        },
+        "order": 7
+      },
+      {
+        "title": "Bhagavad Gita – Complete Deep Explanation (Part 8 – Integrated Life Manual & Contemplative Expansion)",
+        "bhagavadgita_part_8": {
+          "closing_contemplative_prayer": "نرجو أن تنير حكمة سري كريشنا ساحة المعركة في قلوبنا. نرجو أن نتصرف بشجاعة مثل أرجونا، مسترشدين بالوضوح والرحمة والاستسلام. أتمنى أن تزيل المعرفة الجهل، وأن يخفف الإخلاص الأنا، وأن يحول العمل المنضبط الحياة إلى نمو روحي.",
+          "common_misinterpretations_clarified": {
+            "emotion_suppression": "العواطف معترف بها، ولكن تسترشد بالحكمة.",
+            "fatalism": "The Gita does not teach passivity; it teaches empowered responsibility.",
+            "renunciation": "True renunciation is mental, not abandonment of society.",
+            "violence_justification": "Context is Dharma-based duty, not aggression."
+          },
+          "daily_life_implementation_model": {
+            "challenges": "أذكر مبادئ الانفصال (الفصل 2).",
+            "evening": "Self-reflection and gratitude.",
+            "interactions": "ممارسة الرحمة والاتزان (الفصل 12).",
+            "long_term": "قم بمواءمة الأهداف المهنية والحياة مع Svadharma.",
+            "morning": "التأمل وتحديد النية (الفصل 6).",
+            "work_hours": "عقلية كارما يوغا - العمل كعبادة."
+          },
+          "decision_making_framework_based_on_gita": {
+            "step_1_clarity_of_role": "تحديد سفادارما الخاص بك. ما هي مسؤوليتك في هذه الحالة؟",
+            "step_2_detachment_check": "Are you attached to outcome, praise, or fear of failure?",
+            "step_3_guna_analysis": "Is your decision influenced by Sattva (clarity), Rajas (ego-driven ambition), or Tamas (confusion)?",
+            "step_4_universal_ethics": "Does this action align with truth, compassion, and fairness?",
+            "step_5_surrender": "بعد التصرف بحكمة، استسلم للنتيجة عقليا."
+          },
+          "emotional_mastering_techniques_from_gita": {
+            "anger": "إدراك أن الغضب ينشأ من الرغبة المحبطة (2.62-63).",
+            "anxiety": "اتّخذ من ثمرات العمل (2.47).",
+            "fear": "Meditate on immortality of Atman (2.20).",
+            "guilt": "Even sinners can transform through devotion (9.30).",
+            "jealousy": "فهم المساواة بين جميع الكائنات (5.18).",
+            "loneliness": "تذكر الحضور الإلهي في القلب (20:10)."
+          },
+          "integrated_spiritual_framework": {
+            "inner_transformation_process": [
+              "الارتباك (أرجونا فيشادا)",
+              "Inquiry (Questioning)",
+              "المعرفة (سانخيا)",
+              "Disciplined Action (Karma Yoga)",
+              "التأمل (ديانا)",
+              "التفاني (بهاكتي)",
+              "Vision (Vishvarupa)",
+              "Surrender (Moksha)"
+            ],
+            "three_stage_spiritual_evolution": {
+              "stage_1_action_purification": "Begin with Karma Yoga. Perform duties sincerely. Reduce selfish motives. Offer results to the Divine.",
+              "stage_2_knowledge_clarity": "Through purified mind, cultivate Jnana. Study scripture. Reflect deeply. Understand Atman and Brahman.",
+              "stage_3_devotional_surrender": "Through maturity of knowledge, surrender fully in Bhakti. Experience unity and inner peace."
+            }
+          },
+          "integration_with_upanishadic_thought": {
+            "aham_brahmasmi": "I am Brahman – non-dual realization.",
+            "gita_alignment": "The Gita translates Upanishadic abstraction into lived practice.",
+            "sarvam_khalvidam_brahma": "All this is Brahman – universal divinity.",
+            "tat_tvam_asi": "That Thou Art – unity of Atman and Brahman."
+          },
+          "leadership_lessons_from_krishna": {
+            "calm_under_pressure": "Maintain equanimity amidst chaos.",
+            "empowerment": "أرشد الآخرين إلى اكتشاف الذات بدلًا من إجبارهم على الطاعة.",
+            "lead_by_example": "Whatever a great person does, others follow (3.21).",
+            "long_term_view": "تصرف بما يتوافق مع المنظور الكوني، وليس لتحقيق مكاسب مؤقتة.",
+            "strategic_wisdom": "وازن بين الرحمة والحزم."
+          },
+          "meditative_contemplation_practices": {
+            "practice_1_self_observation": "Observe thoughts as Kshetra (field), not Self.",
+            "practice_2_breath_and_mantra": "Inhale with 'So', exhale with 'Ham' (I am That).",
+            "practice_3_daily_offering": "اعرض كل مهمة عقليًا على كريشنا.",
+            "practice_4_guna_reflection": "Before sleep, reflect which Guna dominated your day.",
+            "practice_5_gratitude_contemplation": "تعرف على الإلهية Vibhutis في محيطك."
+          },
+          "philosophical_synthesis": {
+            "epistemological_view": "المعرفة تنشأ من خلال التمييز (فيفيكا) والتفاني.",
+            "ethical_view": "العمل الصحيح هو العمل المتوافق مع الدارما والخالي من الأنانية.",
+            "metaphysical_goal": "تحقيق الوحدة مع الأعلى أو الاستسلام له.",
+            "ontological_view": "يتكون الواقع من تغيير براكريتي وبوروشا الأبدية."
+          },
+          "timeless_relevance": {
+            "eternal_value": "رسالتها تتجاوز الثقافة والوقت.",
+            "global_impact": "أثر في القادة والفلاسفة والباحثين في جميع أنحاء العالم.",
+            "inner_guidance": "Krishna represents eternal conscience.",
+            "psychological_depth": "The Gita addresses fear, ambition, grief, and purpose.",
+            "universal_conflict": "Every generation faces moral dilemmas like Arjuna."
+          },
+          "ultimate_spiritual_message": {
+            "core_statement": "حياة الإنسان هي فرصة مقدسة للتطور الداخلي.",
+            "divine_assurance": "The Divine supports sincere seekers.",
+            "final_verse_significance": "حيث يوجد كريشنا (الحكمة) وأرجونا (الجهد)، يوجد النصر (18.78).",
+            "freedom_formula": "Right understanding + selfless action + devotion = liberation."
+          }
+        },
+        "order": 8
+      },
+      {
+        "title": "البهاغافاد غيتا – شرح عميق كامل (الجزء التاسع – العمق التأملي، التحول الداخلي وإدراك الحياة)",
+        "bhagavadgita_part_9": {
+          "advanced_contemplations_for_serious_seekers": {
+            "what_is_control": "Is control an illusion of ego?",
+            "what_is_death": "انتقال الشكل أم الإبادة؟",
+            "what_is_mine": "هل يمكن حقًا امتلاك أي شيء بشكل دائم؟",
+            "what_is_success": "Is success external validation or inner steadiness?",
+            "who_am_i": "Am I body, mind, intellect, or witnessing awareness?"
+          },
+          "closing_benediction": "فلترشد حكمة البهاغافاد غيتا العقل نحو الوضوح، والقلب نحو الإخلاص، والعمل نحو البر. أتمنى أن يتكلم كريشنا الداخلي في لحظات الارتباك. أتمنى أن ينهض أرجونا الداخلي بشجاعة. فحيث تتحد الحكمة والجهد، يوجد النصر والازدهار والسلام الدائم.",
+          "deep_psychological_model_of_the_gita": {
+            "behavioral_retraining": "Karma Yoga reforms habits.",
+            "cognitive_distortion": "Belief that control guarantees security.",
+            "conflict_source": "Attachment + expectation = anxiety.",
+            "ego_structure": "Ego identifies with body, status, roles, and outcomes.",
+            "emotional_healing": "Bhakti purifies resentment and pride.",
+            "transformational_shift": "وعي عتمان يذيب الخوف من الخسارة.",
+            "ultimate_state": "Equanimity (Samatva) – steady wisdom regardless of circumstance."
+          },
+          "ethical_framework_from_gita": {
+            "compassion_with_strength": "يجب أن يسترشد الحزم بالدارما.",
+            "intention": "نقاء الدافع يحدد القيمة الأخلاقية.",
+            "means_and_ends": "Ends do not justify adharmic means.",
+            "non_attachment": "التصرف بالعدل دون كراهية."
+          },
+          "final_contemplative_synthesis": {
+            "core_realization": "أنت لست مجرد مشارك في الحياة؛ أنت وعي يشهد الحياة.",
+            "eternal_assurance": "Divine grace accompanies sincere effort.",
+            "freedom": "Freedom is not escape from duty but freedom within duty.",
+            "ultimate_shift": "من الحياة المتمحورة حول الأنا إلى الوعي المتمحور حول الله."
+          },
+          "integration_with_modern_life_challenges": {
+            "career_pressure": "ابتعد عن المقارنة؛ التركيز على التميز في الجهد.",
+            "identity_crisis": "هوية الارتساء في عتمان، وليس التسميات الاجتماعية.",
+            "information_overload": "ممارسة الانضباط التأملي.",
+            "relationship_conflict": "الرد بالتعاطف، وليس الأنا.",
+            "uncertainty": "ثق بالدارما طويلة المدى بدلًا من الراحة قصيرة المدى."
+          },
+          "spiritual_maturity_indicators": {
+            "clarity_of_purpose": "الحياة تتماشى مع المبدأ الأعلى.",
+            "expanded_compassion": "رؤية جميع الكائنات على قدم المساواة.",
+            "fearlessness": "متجذرة في خلود الذات.",
+            "inner_stability": "Calm in praise and blame.",
+            "reduced_reactivity": "- تقلبات عاطفية أقل."
+          },
+          "the_gita_and_time": {
+            "cyclical_time": "تتحرك الحياة في دورات من الخلق والانحلال.",
+            "impermanence": "All forms change; only consciousness remains.",
+            "kala_as_divine": "Krishna declares Himself as Time (11.32).",
+            "wisdom": "الانفصال عن الهياكل المؤقتة؛ تتماشى مع الأبدية."
+          },
+          "the_gita_as_a_universal_scripture": {
+            "beyond_religion": "Its teachings apply to all sincere seekers.",
+            "philosophical_completeness": "Covers ontology, ethics, metaphysics, and devotion.",
+            "practical_accessibility": "Teaches spirituality amidst worldly life.",
+            "psychological_depth": "Addresses grief, duty, ambition, mortality."
+          },
+          "the_gita_as_an_inner_journey_map": {
+            "phase_1_crisis": {
+              "description": "Every spiritual journey begins with confusion, like Arjuna in Chapter 1. The collapse of certainty creates space for inquiry.",
+              "inner_meaning": "Existential doubt is not weakness. It is the doorway to awakening."
+            },
+            "phase_2_discernment": {
+              "description": "Through Sankhya (wisdom), one learns to distinguish between body and Self.",
+              "inner_meaning": "Clarity begins when identity shifts from personality to consciousness."
+            },
+            "phase_3_disciplined_engagement": {
+              "description": "Karma Yoga trains the individual to act without selfish attachment.",
+              "inner_meaning": "Outer discipline stabilizes inner turbulence."
+            },
+            "phase_4_meditative_integration": {
+              "description": "مراكز يوغا ديانا للوعي في السكون.",
+              "inner_meaning": "يصبح العقل خادمًا وليس سيدًا."
+            },
+            "phase_5_devotional_expansion": {
+              "description": "بهاكتي تذيب الانفصال بين الطالب والإلهي.",
+              "inner_meaning": "Love dissolves existential isolation."
+            },
+            "phase_6_cosmic_realization": {
+              "description": "Vishvarupa Darshana expands awareness to universal scale.",
+              "inner_meaning": "الأنا تنهار قبل اللانهاية."
+            },
+            "phase_7_surrender_and_freedom": {
+              "description": "تبلغ موكشا سانياسا ذروتها بالاستسلام (18.66).",
+              "inner_meaning": "الحرية تنشأ عندما تنتهي المقاومة."
+            }
+          },
+          "three_layers_of_reality_in_the_gita": {
+            "integration": "تعمل غيتا على تنسيق المسؤولية العملية مع الإدراك المطلق.",
+            "paramarthika": "الحقيقة المطلقة – براهمان وحده هو الحقيقة المطلقة.",
+            "pratibhasika": "Illusory perception – ego-driven misunderstandings.",
+            "vyavaharika": "الواقع العملي – الواجبات والأفعال اليومية."
+          }
+        },
+        "order": 9
+      },
+      {
+        "title": "البهاغافاد غيتا - الشرح العميق الكامل (الجزء العاشر - التكامل النهائي، الحكمة الحية والإدراك)",
+        "bhagavadgita_part_10": {
+          "complete_essence_of_the_bhagavad_gita": [
+            "حياة الإنسان هي فرصة مقدسة.",
+            "يمكن أن يؤدي الارتباك إلى الاستيقاظ.",
+            "الذات أبدية وغير قابلة للتدمير.",
+            "ربط المرفقات؛ مفرزة يحرر.",
+            "يجب أن يتوافق العمل مع الدارما.",
+            "العقل يتطلب الانضباط والتدريب.",
+            "الرغبة والغضب سحابة الحكم.",
+            "Devotion purifies the heart.",
+            "المعرفة تنير الواقع.",
+            "The Divine pervades all existence.",
+            "كل التميز يعكس المجد الإلهي.",
+            "الإيمان يشكل الشخصية.",
+            "القيادة تتطلب نكران الذات.",
+            "التأمل يستقر الوعي.",
+            "تجاوز Gunas.",
+            "See unity in diversity.",
+            "تقديم جميع الأعمال إلى الإلهية.",
+            "الاستسلام يذيب الخوف.",
+            "النعمة تدعم الجهد المخلص.",
+            "الحكمة والشجاعة معًا يجلبان النصر."
+          ],
+          "final_reflection": "البهاغافاد غيتا هو حوار أبدي بين العقل البشري المكافح والذكاء الإلهي المرشد. إنه يعلم أن الروحانية ليست منفصلة عن الحياة - إنها حياة تُعاش بوضوح وإخلاص وعمل منضبط. عندما تبددت ارتباك أرجونا، لم يتخل عن ساحة المعركة؛ لقد وقف متحولا. وبالمثل، فإن الجيتا لا تعفينا من المسؤولية، بل إنها تمكننا من الوفاء بها بالحكمة والاستسلام. تظل رسالتها خالدة لأن ساحة المعركة الداخلية تظل خالدة.",
+          "four_dimensions_of_human_development_in_gita": {
+            "emotional": "الاتزان في اللذة والألم (2.14، 2.48).",
+            "intellectual": "التمييز بين الحقيقي وغير الحقيقي (الفصل 13).",
+            "physical": "الاعتدال في الطعام والنوم والنشاط (الفصل السادس).",
+            "spiritual": "الاستسلام والإخلاص للإله (18.66)."
+          },
+          "from_knowledge_to_realization": {
+            "experiential_realization": "ومن خلال التأمل والعمل غير الأناني، تصبح البصيرة تجربة حية.",
+            "intellectual_understanding": "في البداية، تمت دراسة الجيتا كفلسفة. يتعلم المرء عن عتمان، والكرمة، والدارما، واليوجا من الناحية النظرية.",
+            "living_wisdom": "وفي نهاية المطاف، لم تعد الجيتا مجرد قراءة، بل أصبحت تُعاش بشكل طبيعي.",
+            "reflective_internalization": "ومن خلال التأمل (المنانا)، تبدأ التعاليم في تشكيل أنماط التفكير والاستجابات العاطفية."
+          },
+          "gita_for_serious_spiritual_seekers": {
+            "balanced_path": "Integrate Jnana, Karma, and Bhakti harmoniously.",
+            "discipline_required": "التفكير المستمر والملاحظة الذاتية.",
+            "ego_transcendence": "قبول تصحيح المفاهيم الشخصية الخاطئة.",
+            "intellectual_honesty": "السؤال بعمق ولكن بصدق."
+          },
+          "highest_teachings_revisited": {
+            "11.32_principle": "الوقت هو عملية إلهية خارجة عن سيطرة الأنا.",
+            "18.66_principle": "الاستسلام الكامل يجلب التحرر.",
+            "2.47_principle": "الحق في العمل، وليس في النتائج.",
+            "6.5_principle": "ارفع نفسك من خلال العقل المنضبط.",
+            "9.22_principle": "الحماية الإلهية للباحثين المخلصين."
+          },
+          "integration_of_action_and_contemplation": {
+            "balance": "التأمل يغذي العمل. العمل ينقي التأمل.",
+            "engaged_spirituality": "يتجلى الإدراك الروحي في المشاركة المسؤولة.",
+            "not_withdrawal": "لا تشجع غيتا الهروب من المجتمع."
+          },
+          "signs_of_inner_realization": {
+            "clarity": "اتخاذ القرارات الأخلاقية العفوية.",
+            "compassion": "رؤية نفسه في جميع الكائنات.",
+            "fearlessness": "متجذرة في الوعي الأبدي.",
+            "joy": "Contentment independent of circumstance.",
+            "stable_peace": "الهدوء الذي لا يتأثر بالمدح أو الانتقاد."
+          },
+          "the_gita_and_freedom": {
+            "freedom_from_anxiety": "الانفصال عن الفاكهة يقلل من التوتر.",
+            "freedom_from_cycle": "إدراك براهمان ينهي إعادة الميلاد (موكشا).",
+            "freedom_from_ego": "الإخلاص يذيب الكبرياء والمقارنة.",
+            "freedom_from_fear": "معرفة الخلود تذيب الخوف من الموت."
+          },
+          "the_gita_as_universal_psychology": {
+            "behavioral_retraining": "تقوم كارما يوجا بإصلاح العادات المندفعة.",
+            "cognitive_alignment": "الفهم الصحيح يصحح التفكير المشوه.",
+            "emotional_regulation": "بهاكتي يخفف من الاضطراب العاطفي.",
+            "existential_resolution": "جنانا تحل أزمة الهوية."
+          },
+          "three_foundational_practices_for_lifelong_gita_sadhana": {
+            "daily_study": "قراءة والتأمل في بعض الآيات بانتظام.",
+            "meditative_remembrance": "الحفاظ على الوعي بالحضور الإلهي في القلب.",
+            "selfless_service": "تحويل الواجبات المهنية والعائلية إلى عروض."
+          },
+          "transformation_of_identity": {
+            "stage_1_role_identity": "أنا مهنتي أو مكانتي أو علاقاتي.",
+            "stage_2_psychological_identity": "أنا أفكاري ومشاعري.",
+            "stage_3_witness_identity": "أنا الوعي ومراقبة الأفكار.",
+            "stage_4_divine_identity": "أنا التعبير الأبدي عن الأسمى."
+          }
+        },
+        "order": 10
+      },
+      {
+        "title": "البهاغافاد غيتا – الشرح العميق الكامل (الجزء 11 – الإدراك النهائي والتنوير الحي)",
+        "bhagavadgita_part_11": {
+          "advanced_contemplative_questions": [
+            "إذا لم أكن أفكاري فمن هو الراصد؟",
+            "ما الذي يبقى دون تغيير وسط كل التغيير؟",
+            "هل السعادة تعتمد على الظروف أم على الوعي؟",
+            "كيف سيكون شكل العمل إذا كان خاليًا من الخوف؟",
+            "هل يمكن للاستسلام أن يتعايش مع القوة؟"
+          ],
+          "closing_prayerful_reflection": "نرجو أن تنير حكمة البهاغافاد غيتا الفكر، وتنقي القلب، وتقوي العمل. نرجو أن نسمع التوجيه الإلهي في لحظات الارتباك. نرجو أن نقوم بواجباتنا بشجاعة ورحمة. نرجو أن تزيل المعرفة الجهل، وأن يخفف الإخلاص الأنا، وأن يحول العمل المنضبط الحياة اليومية إلى تطور روحي. حيثما يوجد الوضوح والاستسلام، يوجد النصر الحقيقي.",
+          "highest_synthesis_of_karma_jnana_bhakti": {
+            "bhakti_without_karma": "يمكن أن تصبح عاطفية.",
+            "integrated_path": "Act wisely, understand deeply, love completely.",
+            "jnana_without_bhakti": "يمكن أن تصبح فكرية جافة.",
+            "karma_without_jnana": "يمكن أن تصبح ميكانيكية."
+          },
+          "integration_with_global_philosophy": {
+            "ethical_universality": "الرحمة والمسؤولية هي فضائل عالمية.",
+            "existentialism_resolution": "تم العثور على الهدف من خلال دارما.",
+            "mindfulness_alignment": "الوعي التأملي يوازي الوعي الذهني الحديث.",
+            "stoicism_parallel": "Equanimity resembles Stoic calmness."
+          },
+          "living_the_gita_in_modern_world": {
+            "corporate_life": "القيادة بنزاهة وانفصال.",
+            "family_life": "ممارسة الرحمة والواجب دون الأنا.",
+            "personal_growth": "الالتزام بالتحسين الذاتي المنضبط.",
+            "social_engagement": "اخدم بدون كراهية."
+          },
+          "practical_daily_sadhana_framework": {
+            "evening_reflection": "قم بمراجعة الإجراءات دون الشعور بالذنب، وتعلم، واستسلم.",
+            "midday_awareness": "التصرف بوعي وأخلاق.",
+            "morning_alignment": "Begin day with meditation and verse reflection.",
+            "service_component": "الانخراط في شكل من أشكال المساهمة نكران الذات.",
+            "weekly_study": "التأمل الكتابي العميق."
+          },
+          "stages_of_detachment": {
+            "emotional_detachment": "الرد دون المبالغة في رد الفعل.",
+            "external_detachment": "تقليل الممتلكات والمشتتات غير الضرورية.",
+            "intellectual_detachment": "التحرر من الآراء الجامدة.",
+            "spiritual_detachment": "الافراج عن هوية الأنا."
+          },
+          "the_final_message_of_sri_krishna": {
+            "compassionate_guidance": "كريشنا لا يجبر أرجونا أبدًا. ينصح ويترك الاختيار.",
+            "surrender_invitation": "اللجوء الكامل إلى الإلهية يذيب الخوف (18.66).",
+            "ultimate_respect_for_free_will": "بعد التدريس، يقول كريشنا: فكر وتصرف حسب اختيارك (١٨.٦٣).",
+            "victory_assurance": "حيث تجتمع الحكمة والجهد الصالح يكون النجاح (18: 78)."
+          },
+          "the_gita_and_consciousness_expansion": {
+            "cosmic_awareness": "يعترف بوحدة الوجود كله.",
+            "divine_awareness": "يستسلم بالكامل للواقع الأسمى.",
+            "ordinary_awareness": "تم تحديده مع الجسد والأنا.",
+            "reflective_awareness": "يراقب الأفكار وردود الفعل."
+          },
+          "the_gita_and_inner_peace": {
+            "freedom_definition": "Inner independence from external volatility.",
+            "lasting_peace": "ليس غياب الصراع، بل الاستقرار وسطه.",
+            "peace_formula": "العلم الصحيح + العمل المنضبط + القلب المستسلم."
+          },
+          "the_gita_as_a_lifetime_companion": {
+            "final_stage": "يعد الوعي للانتقال السلمي.",
+            "later_years": "يعمق الانفصال والتأمل الروحي.",
+            "middle_age": "يوجه القيادة الأخلاقية والمسؤولية.",
+            "not_a_single_reading": "لا يتم استنفاد البهاغافاد غيتا في قراءة واحدة. كل مرحلة من مراحل الحياة تكشف عن طبقات جديدة من المعنى.",
+            "youth": "يوفر الوضوح بشأن الهدف والطموح والانضباط."
+          },
+          "the_inner_conversation_model": {
+            "arjuna_within": "يمثل الشك والخوف والحساسية الأخلاقية.",
+            "krishna_within": "يمثل الحكمة والضمير العالي.",
+            "practice": "قبل اتخاذ القرارات الكبرى، توقف مؤقتًا واسمح لكريشنا الداخلي بالرد على أرجونا الداخلي."
+          },
+          "ultimate_realization": {
+            "core_truth": "أنت لست مجرد مشارك في العالم – أنت الوعي الأبدي.",
+            "divine_relationship": "الروح الفردية مرتبطة إلى الأبد بالأعلى.",
+            "final_goal": "ليس الهروب من الحياة، بل المشاركة المستنيرة في الحياة.",
+            "freedom_state": "عندما تذوب الأنا، يذوب الخوف."
+          }
+        },
+        "order": 11
+      },
+      {
+        "title": "البهاغافاد غيتا - الشرح العميق الكامل (الجزء 12 - التكامل النهائي والإدراك والحكمة الصامتة)",
+        "bhagavadgita_part_12": {
+          "complete_synthesis_of_the_gita": {
+            "action": "Perform duty without attachment.",
+            "devotion": "أسلم القلب لله.",
+            "ethics": "العيش في توافق مع الدارما.",
+            "knowledge": "تحقيق الذات الأبدية.",
+            "meditation": "استقرار العقل.",
+            "surrender": "ثق بالإرادة الإلهية بشكل كامل.",
+            "transcendence": "تجاوز Gunas."
+          },
+          "final_contemplative_conclusion": "يبدأ البهاغافاد غيتا بإسقاط المحارب لقوسه وينتهي برفعه مرة أخرى - ليس بغضب، بل بوضوح. وهذا هو جوهر الحياة الروحية. يتحول الحيرة إلى حكمة. ويتحول الخوف إلى شجاعة. يتحول التعلق إلى استسلام. الجيتا لا تخرجنا من ساحة معركة الحياة؛ ويعلمنا كيف نقف فيه بقلب ثابت ووعي مستيقظ. رسالتها أبدية لأن الصراع الداخلي أبدي. عندما يرشد كريشنا الداخلي ويستمع أرجونا الداخلي، تصبح الحياة نفسها طريقًا مقدسًا للتحرر.",
+          "five_pillars_of_gita_realization": {
+            "clarity": "التمييز بين الأبدي والمؤقت.",
+            "courage": "الرغبة في التصرف بما يتماشى مع دارما.",
+            "detachment": "التحرر من الرغبة القهرية.",
+            "devotion": "Loving surrender to Divine will.",
+            "discipline": "Consistent practice of right action."
+          },
+          "from_outer_battle_to_inner_mastery": {
+            "inner_conflict": "Conflict between wisdom and impulse.",
+            "outer_conflict": "War symbolizes life’s unavoidable struggles.",
+            "true_warrior": "One who conquers ego, anger, and fear.",
+            "victory": "Triumph of clarity over confusion."
+          },
+          "liberation_revisited": {
+            "continuous_awareness": "العيش الراسخ في عتمان.",
+            "fearlessness": "Birth and death no longer threaten identity.",
+            "not_escape": "Moksha is not running from world, but freedom within it.",
+            "state_of_being": "Unshakeable peace and compassion."
+          },
+          "silence_beyond_teaching": {
+            "highest_knowledge": "بعد الفهم الفكري يأتي الإدراك الصامت.",
+            "meditative_absorption": "In deep meditation, distinctions dissolve.",
+            "non_dual_experience": "Knower, knowing, and known merge."
+          },
+          "the_eternal_promise": {
+            "divine_assurance": "No effort on this path is ever wasted (6.40).",
+            "grace_principle": "Divine responds to sincere devotion (9.22).",
+            "surrender_assurance": "Complete refuge removes all fear (18.66).",
+            "victory_statement": "Where wisdom and righteous effort unite, there is lasting prosperity (18.78)."
+          },
+          "the_final_transformation_of_arjuna": {
+            "18.73_realization": "Arjuna declares: 'My delusion is destroyed. I will act according to Your word.'",
+            "final_state": "Firm resolve, calm action, surrendered confidence.",
+            "initial_state": "Despair, emotional collapse, refusal to act.",
+            "intermediate_state": "الاستفسار والتفكير والوضوح التدريجي."
+          },
+          "the_gita_as_living_consciousness": {
+            "beyond_text": "البهاغافاد غيتا ليست مجرد 700 آية. إنها حكمة حية تتكشف من خلال التفكير والممارسة والإدراك.",
+            "eternal_dialogue": "The conversation between Arjuna and Krishna continues in every human heart.",
+            "inner_voice": "When confusion arises and clarity answers from within, that dialogue is the Gita alive in consciousness."
+          },
+          "three_ultimate_shifts_in_consciousness": {
+            "shift_1": "From ego-centered identity to soul-centered awareness.",
+            "shift_2": "From result-obsession to effort-devotion.",
+            "shift_3": "من العيش المدفوع بالخوف إلى الاستسلام القائم على الثقة."
+          },
+          "universal_message_for_all_ages": {
+            "for_all_humans": "عش بشجاعة، تصرف بشكل أخلاقي، أحب بعمق.",
+            "for_leaders": "Lead with righteousness and humility.",
+            "for_seekers": "Seek truth beyond appearances.",
+            "for_students": "Discipline mind and character."
+          }
+        },
+        "order": 12
+      },
+      {
+        "title": "Bhagavad Gita – Complete Deep Explanation (Part 13 – The Silent Culmination & Eternal Living Wisdom)",
+        "bhagavadgita_part_13": {
+          "after_the_teaching_ends": {
+            "external_scene": "قذائف المحارة على وشك الانفجار. الجيوش على أهبة الاستعداد. ساحة المعركة لا تزال دون تغيير.",
+            "internal_transformation": "لكن أرجونا لم يعد كما كان. ساحة المعركة في الخارج لم تتغير، بل ساحة المعركة في الداخل تغيرت.",
+            "true_resolution": "The Gita does not remove difficulty; it removes delusion."
+          },
+          "the_complete_map_of_human_evolution_in_gita": {
+            "stage_1": "Attachment and confusion (Arjuna Vishada).",
+            "stage_2": "Intellectual awakening (Sankhya).",
+            "stage_3": "Ethical discipline (Karma Yoga).",
+            "stage_4": "Mental mastery (Dhyana Yoga).",
+            "stage_5": "Devotional expansion (Bhakti).",
+            "stage_6": "Cosmic vision (Vishvarupa).",
+            "stage_7": "Complete surrender (Moksha Sannyasa)."
+          },
+          "the_eternal_echo": {
+            "whenever_afraid": "Recall immortality of Atman.",
+            "whenever_attached": "Practice detachment from fruits.",
+            "whenever_confused": "Remember the dialogue.",
+            "whenever_lost": "Surrender and trust.",
+            "whenever_proud": "See Divine as source of all glory."
+          },
+          "the_final_state_of_arjuna": {
+            "alignment": "His will aligns with Divine wisdom.",
+            "clarity_restored": "His confusion (Moha) is destroyed.",
+            "free_choice": "He chooses to act consciously, not react emotionally.",
+            "memory_recovered": "He remembers his deeper identity and purpose."
+          },
+          "the_gita_as_three_circles_of_realization": {
+            "circle_1_practical_life": "Live responsibly. Perform duty with integrity.",
+            "circle_2_inner_awareness": "Recognize the eternal witness within.",
+            "circle_3_divine_union": "Realize oneness or surrender fully to the Supreme."
+          },
+          "the_gita_in_one_essential_sentence": "عش بوضوح العلم، وصفاء العمل، وثبات العقل، واستسلام القلب.",
+          "the_paradox_of_action_and_silence": {
+            "inner_stillness": "The realized person remains inwardly silent.",
+            "outer_activity": "الحياة تتطلب المشاركة والمسؤولية.",
+            "resolution": "تصرف بشكل كامل في الخارج، وابقَ منعزلًا في الداخل."
+          },
+          "the_silent_realization": {
+            "advaitic_view": "يدرك الباحث الهوية مع براهمان.",
+            "bhakti_view": "The seeker rests in loving union with Krishna.",
+            "synthesis": "Whether unity or surrender, ego dissolves."
+          },
+          "three_types_of_readers_of_the_gita": {
+            "devotional_reader": "Seeks emotional connection with Krishna.",
+            "intellectual_reader": "Seeks philosophical clarity.",
+            "transformational_reader": "Applies teachings and experiences inner change."
+          },
+          "ultimate_closing_reflection": "The Bhagavad Gita is not simply a conversation between two historical figures. It is the eternal conversation between the finite and the Infinite. It begins in sorrow and ends in wisdom. It begins in trembling and ends in strength. When understood deeply, it transforms not only how we think — but how we live, act, love, and ultimately transcend. Its final gift is freedom: freedom from fear, from ignorance, from ego, and from bondage. The teaching ends, but the journey continues — in awareness, in devotion, and in conscious action.",
+          "what_remains_when_all_teaching_is_assimilated": {
+            "no_arrogance": "Because individual agency is limited.",
+            "no_despair": "Because Divine grace supports effort.",
+            "no_fear": "Because the Self is eternal.",
+            "no_hatred": "Because all beings are expressions of the same Divine."
+          }
+        },
+        "order": 13
+      },
+      {
+        "title": "البهاغافاد غيتا - الشرح العميق الكامل (الجزء 14 - غيتا الحية والتطبيق الأبدي)",
+        "bhagavadgita_part_14": {
+          "inner_signs_of_gita_integration": {
+            "calm_strength": "Confidence without arrogance.",
+            "clarified_values": "Decisions align more easily with Dharma.",
+            "expanding_empathy": "You feel interconnectedness with others.",
+            "reduced_reactivity": "You pause before responding.",
+            "steady_joy": "Happiness is less dependent on external conditions."
+          },
+          "the_eternal_blessing": "May the wisdom of Sri Krishna guide thought, purify intention, and steady action. May the courage of Arjuna arise within whenever confusion appears. May Dharma shape decisions, devotion soften the heart, and knowledge illuminate identity. The Bhagavad Gita does not end in scripture — it continues in conscious living. Where clarity, courage, and surrender unite, there is enduring peace.",
+          "the_final_integration_of_all_teachings": {
+            "bhakti": "Love.",
+            "dhyana": "Stabilize.",
+            "jnana": "Understand.",
+            "karma": "يمثل.",
+            "moksha": "Be free.",
+            "tyaga": "Let go."
+          },
+          "the_gita_and_death": {
+            "continuity_of_consciousness": "الفكر النهائي يعكس التوجه مدى الحياة (8.6).",
+            "fearlessness": "Realization removes existential anxiety.",
+            "not_ending": "Death is transition of body, not annihilation of Self (2.20)."
+          },
+          "the_gita_and_inner_freedom_revisited": {
+            "freedom_from_comparison": "Success is measured by integrity, not competition.",
+            "freedom_from_fear_of_loss": "Understanding impermanence dissolves anxiety.",
+            "freedom_from_identity_attachment": "Roles change, but inner awareness remains steady.",
+            "freedom_from_outcome_dependency": "You work sincerely but are not shattered by results."
+          },
+          "the_gita_and_responsibility": {
+            "balance": "Compassion does not cancel firmness; firmness does not cancel compassion.",
+            "engaged_righteousness": "يتم التعبير عن النضج الروحي من خلال المشاركة المسؤولة.",
+            "no_escape_theology": "غيتا لا تؤيد السلبية أبدًا."
+          },
+          "the_gita_as_universal_human_manual": {
+            "for_leaders": "Lead by moral example (3.21).",
+            "for_parents": "توجيه مع الحب والمسؤولية.",
+            "for_professionals": "Work ethically without attachment to promotion.",
+            "for_seekers": "تحقيق التوازن مع التفاني.",
+            "for_students": "Cultivate discipline and purpose."
+          },
+          "the_last_unspoken_lesson": {
+            "integration": "The Gita ultimately leads beyond words — into lived awareness.",
+            "realization": "True wisdom is quiet strength.",
+            "silence": "After dialogue, silence remains."
+          },
+          "three_permanent_practices_for_lifelong_gita_living": {
+            "awareness": "Constant remembrance that you are the witnessing consciousness (Atman).",
+            "offering": "Mentally offer every action as Yajna (sacred act).",
+            "surrender": "Trust that Divine intelligence governs larger outcomes."
+          },
+          "what_remains_after_all_practice": {
+            "clarity": "Right action feels intuitive.",
+            "devotion": "Gratitude flows naturally.",
+            "presence": "Life is lived consciously, not mechanically.",
+            "stillness": "Mind becomes transparent."
+          },
+          "when_the_scripture_becomes_experience": {
+            "experiential_stage": "Eventually, one no longer 'tries' to practice the Gita — equanimity, compassion, and clarity arise naturally.",
+            "intellectual_stage": "At first, the Gita is read as philosophy — verses are studied, meanings analyzed, doctrines compared.",
+            "realization": "The scripture moves from page to personality.",
+            "reflective_stage": "Gradually, its teachings begin shaping reactions, choices, and relationships."
+          }
+        },
+        "order": 14
+      },
+      {
+        "title": "Bhagavad Gita – Complete Deep Explanation (Part 15 – The Timeless Echo & Ever-Present Wisdom)",
+        "bhagavadgita_part_15": {
+          "eternal_closing_reflection": "يبدأ البهاغافاد غيتا بمحارب غارق في الحزن وينتهي بمحارب يقف في صفاء. وهذا التحول هو جوهر الحياة الروحية. ساحة المعركة باقية، لكن الخوف يتلاشى. الواجبات تبقى لكن التعلق يضعف. العلاقات تبقى، لكن الأنا تضعف. الحياة تبقى، لكن الهوية تتعمق. لا تعد الجيتا بالهروب من النضال، بل تعد بالحكمة في النضال. عندما تقود الحكمة العمل، والإخلاص يثبت القلب، فإن التحرر ليس بعيدًا؛ بل نعيشها لحظة بلحظة.",
+          "living_equanimity": {
+            "in_blame": "ابقَ هادئًا.",
+            "in_failure": "تبقى ثابتة.",
+            "in_loss": "Remain aware of impermanence.",
+            "in_praise": "تبقى منفصلة.",
+            "in_success": "ابق متواضعا."
+          },
+          "the_final_transformation_of_the_seeker": {
+            "after_gita": "الوعي المستقر بالذات، والانخراط الشجاع في الحياة.",
+            "before_gita": "Identity tied to roles, results, and emotional reactions.",
+            "during_gita": "Gradual understanding of duty, detachment, and devotion."
+          },
+          "the_gita_after_all_explanations": {
+            "beyond_analysis": "بعد دراسة الفلسفة والتعليق والعقيدة، تدعو غيتا في النهاية إلى الإدراك الداخلي المباشر.",
+            "beyond_words": "لا يمكن التعبير عن حقيقتها الأسمى بالكامل باللغة؛ يجب أن يعيش.",
+            "from_dialogue_to_silence": "The spoken teaching leads to silent transformation."
+          },
+          "the_gita_and_global_relevance": {
+            "transcultural_message": "Beyond nationality or era, the Gita speaks to the human condition.",
+            "universal_solution": "الحكمة والانضباط والتفاني والاستسلام.",
+            "universal_struggle": "يواجه كل عصر ارتباكًا أخلاقيًا مثل أرجونا."
+          },
+          "the_last_synthesis": {
+            "you_are_not_alone": "The Divine dwells in the heart of all beings (10.20).",
+            "you_are_not_the_body": "أنت الوعي الشاهد.",
+            "you_are_not_the_outcome": "الجهد هو الذي يحدد النمو وليس النتيجة.",
+            "you_are_not_the_role": "تتغير الأدوار؛ ويبقى الوعي."
+          },
+          "the_spiritual_center_of_the_gita": {
+            "action": "Fulfill your responsibility.",
+            "devotion": "تقدم قلبك.",
+            "knowledge": "Understand who you truly are.",
+            "surrender": "Release anxiety about results."
+          },
+          "three_eternal_anchors_from_the_gita": {
+            "action_is_inevitable": "No one can remain without action (3.5).",
+            "self_is_eternal": "لا شيء حقيقي يمكن تدميره (٢.١٦).",
+            "surrender_is_liberation": "لجأ إلي وحدي (18.66)."
+          },
+          "when_the_gita_is_fully_integrated": {
+            "decision_clarity": "الاختيارات تتماشى بشكل طبيعي مع الدارما.",
+            "deep_compassion": "رؤية الذات في الآخرين تصبح أمراً طبيعياً.",
+            "emotional_balance": "Anger and fear lose intensity.",
+            "inner_freedom": "السعادة لم تعد تعتمد على التملك."
+          }
+        },
+        "order": 15
+      },
+      {
+        "title": "البهاغافاد غيتا – الشرح العميق الكامل (الجزء السادس عشر – الحوار الداخلي الدائم)",
+        "bhagavadgita_part_16": {
+          "arjuna_revisited": {
+            "symbol_of_action": "التصرف بعد الحصول على الوضوح.",
+            "symbol_of_seeker": "Sincere but confused.",
+            "symbol_of_strength": "الشجاعة لطرح الأسئلة.",
+            "symbol_of_transformation": "الرغبة في تغيير المنظور."
+          },
+          "eternal_principles_for_all_time": [
+            "التصرف دون الارتباط الأناني.",
+            "See the Divine in all beings.",
+            "السيطرة على العقل الذي لا يهدأ.",
+            "Transcend negative tendencies.",
+            "عش وفقًا للدارما.",
+            "Cultivate devotion.",
+            "Embrace knowledge.",
+            "Surrender anxiety.",
+            "Trust divine grace.",
+            "كن ثابتًا في الشدائد."
+          ],
+          "final_echo_of_the_gita": "The Gita concludes not with silence of defeat, but with silence of strength. Arjuna stands transformed. The war may proceed, but confusion has ended. In the same way, life continues with its challenges, but the awakened person meets them with clarity and steadiness. The Gita’s final gift is not escape from the battlefield — it is mastery within it. Its wisdom is eternal because the human struggle is eternal. Whenever confusion arises, the dialogue can begin again.",
+          "gita_and_inner_silence": {
+            "clarity": "When mind quiets, wisdom becomes audible.",
+            "discipline": "Meditation stabilizes the mind.",
+            "mental_noise": "Desire, comparison, regret, and anxiety.",
+            "peace": "Silence is not emptiness; it is fullness without agitation."
+          },
+          "krishna_revisited": {
+            "divine_reality": "Supreme consciousness itself.",
+            "friend": "Compassionate companion.",
+            "inner_voice": "Subtle moral intuition.",
+            "teacher": "Patient guide."
+          },
+          "the_gita's_four_eternal_invitations": {
+            "act": "Fulfill your responsibilities courageously.",
+            "awaken": "Recognize your deeper identity beyond body and ego.",
+            "offer": "Convert work into worship through intention.",
+            "surrender": "ثق بالأمر الإلهي الخارج عن السيطرة الشخصية."
+          },
+          "the_gita_as_eternal_presence": {
+            "inner_guide": "يمثل كريشنا الذكاء المستيقظ داخل كل قلب.",
+            "living_scripture": "ويبقى حياً أينما يبحث الإنسان عن الوضوح وسط الارتباك.",
+            "not_confined_to_history": "Though spoken on the battlefield of Kurukshetra, the Gita transcends time and geography."
+          },
+          "the_last_internal_shift": {
+            "after": "I practice surrender.",
+            "before": "أسعى للسيطرة."
+          },
+          "the_spiritual_reorientation": {
+            "from_attachment_to_participation": "الانخراط بشكل كامل دون التشبث.",
+            "from_control_to_trust": "فهم أنه ليس كل شيء يمكن السيطرة عليه.",
+            "from_fear_to_understanding": "إن إدراك الذات لا يمسه التغيير.",
+            "from_isolation_to_interconnectedness": "رؤية جميع الكائنات باعتبارها تعبيرات عن حقيقة واحدة."
+          },
+          "when_life_becomes_kurukshetra": {
+            "career_conflict": "اختيار النزاهة على الطموح.",
+            "ethical_decisions": "Standing firm in truth despite pressure.",
+            "personal_crisis": "الاستجابة للخسارة أو عدم اليقين بالوعي.",
+            "relationship_dilemma": "Balancing compassion and boundaries."
+          }
+        },
+        "order": 16
+      },
+      {
+        "title": "Bhagavad Gita – Complete Deep Explanation (Part 17 – The Infinite Continuation)",
+        "bhagavadgita_part_17": {
+          "eternal_closing_reflection": "يبدأ البهاغافاد غيتا بمحارب مرتجف وينتهي بباحث حازم. وهذا التحول هو المعجزة الحقيقية. إنه لا يزيل تحديات العالم؛ إنه ينقي الفرد الذي يواجههم. إنه يعلم أن الوضوح أقوى من الخوف، والاستسلام أقوى من السيطرة، والحكمة أقوى من الارتباك. أينما يتوقف الإنسان قبل العمل ويستمع إلى التوجيهات العليا، فإن الجيتا تكون حاضرة. أينما يتم أداء الواجب بتجرد وتفان، فإن الجيتا حية. قد تنتهي أبياتها، لكن حضورها الحي يستمر إلى ما لا نهاية.",
+          "the_final_integration_of_arjuna": {
+            "clarity_of_duty": "He recognizes that Dharma must guide action, not emotion alone.",
+            "clarity_of_identity": "He understands he is not merely a warrior, but an eternal Self performing a role.",
+            "clarity_of_surrender": "يتصرف دون الارتباط بالمكافأة الشخصية.",
+            "clarity_of_trust": "إنه يثق بالحكمة الإلهية التي تتجاوز إدراكه المحدود."
+          },
+          "the_final_silent_state": {
+            "no_ego_clinging": "Reduced self-centered narrative.",
+            "no_existential_fear": "السلام في عدم الثبات.",
+            "no_inner_conflict": "Harmony between knowledge, action, and devotion.",
+            "pure_awareness": "Living as witness-consciousness."
+          },
+          "the_gita_as_a_lens_for_seeing_life": {
+            "conflict": "An opportunity to practice Dharma.",
+            "failure": "فرصة لتعميق الانفصال.",
+            "loss": "An opportunity to reflect on impermanence.",
+            "love": "An opportunity to express devotion.",
+            "success": "An opportunity to remain humble."
+          },
+          "the_gita_as_path_of_love": {
+            "devotion_not_weakness": "Bhakti is strength rooted in surrender.",
+            "gratitude_not_dependency": "Gratitude expresses spiritual maturity.",
+            "humility_not_inferiority": "Humility arises from awareness of divine source."
+          },
+          "the_gita_as_universal_leadership_manual": {
+            "detached_service": "Serve without craving praise.",
+            "ethical_example": "يقود بالعدل.",
+            "self_governance": "السيطرة على الحواس والعقل.",
+            "strategic_vision": "انظر العواقب طويلة المدى."
+          },
+          "the_gita_never_truly_ends": {
+            "inner_scripture": "Eventually, the external book becomes an internal compass.",
+            "living_dialogue": "لا ينتهي البهاغافاد غيتا بالفصل الثامن عشر. ويستمر حيثما يواجه قلب الإنسان الحيرة ويبحث عن الحقيقة.",
+            "timelessness": "As long as moral dilemmas, fear, ambition, love, and death exist, the Gita remains relevant."
+          },
+          "the_last_spiritual_maturity": {
+            "compassionate_strength": "Firm yet kind.",
+            "effort_with_surrender": "اعمل بشكل مكثف، حرر بفارغ الصبر.",
+            "inner_anchor": "تبقى متمركزة في عتمان وسط التغيير.",
+            "non_reactivity": "Respond rather than react."
+          },
+          "three_eternal_remedies_from_the_gita": {
+            "for_anger": "التعرف على الرغبة كجذر (3.37).",
+            "for_anxiety": "Detach from fruits (2.47).",
+            "for_fear": "تذكر خلود الذات (2.20)."
+          },
+          "what_the_gita_ultimately_transforms": {
+            "emotion": "من الاضطراب إلى الثبات.",
+            "identity": "From body-based to consciousness-based.",
+            "motivation": "من مدفوعة بالأنا إلى مدفوعة بالخدمة.",
+            "purpose": "From self-centered ambition to Dharma-centered contribution."
+          }
+        },
+        "order": 17
+      },
+      {
+        "title": "Bhagavad Gita – Complete Deep Explanation (Part 18 – The Everlasting Inner Illumination)",
+        "bhagavadgita_part_18": {
+          "inner_liberation_explained": {
+            "freedom_from_attachment": "Able to love without clinging.",
+            "freedom_from_fear": "ترتكز على خلود عتمان.",
+            "freedom_from_identity_fixation": "Roles are temporary expressions.",
+            "freedom_from_reactivity": "Less governed by impulse."
+          },
+          "the_eternal_relevance_of_kurukshetra": {
+            "inner_war": "Conflict between higher aspiration and lower impulse.",
+            "permanent_truth": "This battlefield exists in every era, culture, and individual.",
+            "symbolic_meaning": "Kurukshetra represents the field of human experience.",
+            "victory_definition": "Victory is mastery of self, not domination of others."
+          },
+          "the_final_illumination": {
+            "detachment": "Release anxiety about outcomes.",
+            "engagement": "Live fully, act responsibly, love deeply.",
+            "realization": "You are eternal consciousness participating in temporary experience.",
+            "surrender": "Trust the larger intelligence guiding existence."
+          },
+          "the_gita_and_freedom_of_choice": {
+            "18.63_principle": "Reflect deeply and act as you choose.",
+            "divine_teaching": "Krishna presents wisdom but does not force obedience.",
+            "responsibility": "Freedom demands accountability.",
+            "spiritual_autonomy": "النمو الحقيقي يتطلب مشاركة واعية."
+          },
+          "the_gita_and_grace": {
+            "18.66_promise": "الاستسلام الكامل يذيب الخوف والشعور بالذنب.",
+            "9.22_assurance": "فالله يحفظ ما عند العبد ويعطي ما يحتاج إليه.",
+            "balance": "Grace complements discipline, not replaces it.",
+            "effort_and_grace": "Human effort invites divine support."
+          },
+          "the_gita_as_awakening_of_consciousness": {
+            "awakening_trigger": "الأزمة تهز اليقين وتفتح المجال لمزيد من التحقيق.",
+            "guiding_light": "تظهر الحكمة (كريشنا) عندما يتساءل الباحث (أرجونا) بصدق.",
+            "initial_state": "غالبًا ما تبدأ حياة الإنسان بالتعرف على الجسد والدور والعاطفة.",
+            "transformation": "الفهم يعيد تشكيل الهوية والعمل."
+          },
+          "the_gita_as_ethical_foundation": {
+            "compassion_with_strength": "عمل حازم بدون كراهية.",
+            "dharma_first": "Righteousness precedes convenience.",
+            "means_matter": "الغايات لا تبرر الأساليب غير الأخلاقية.",
+            "service_mindset": "الطموح الشخصي يتوافق مع الرفاهية الجماعية."
+          },
+          "the_gita_in_one_comprehensive_view": {
+            "ethics": "يرشد اتخاذ القرار الصحيح.",
+            "philosophy": "يشرح طبيعة الذات والواقع.",
+            "psychology": "يعالج الخوف والغضب والتعلق والشك.",
+            "spirituality": "يؤدي نحو التحرر من خلال الاستسلام."
+          },
+          "the_integrated_human_ideal": {
+            "clarity_of_intellect": "التمييز بين الأبدي والمؤقت.",
+            "discipline_of_mind": "الإتقان من خلال الممارسة والانفصال.",
+            "purity_of_heart": "التفاني دون الأنا.",
+            "strength_of_action": "الوفاء بالواجب الشجاع."
+          },
+          "timeless_closing_benediction": "أتمنى أن تظل حكمة البهاغافاد غيتا حية في قلب كل باحث. أتمنى أن يتحول الارتباك إلى وضوح، والخوف إلى شجاعة، والتعلق إلى استسلام، والعمل إلى تقدمة مقدسة. ولنتذكر أن ساحة المعركة في الداخل، والدليل في الداخل، والتحرير في الداخل. تنتهي الآيات ولكن الوعي مستمر. حيث تنير المعرفة، ويخفف الإخلاص، ويتكشف العمل الصالح، هناك تشرق روح الجيتا إلى الأبد."
+        },
+        "order": 18
+      },
+      {
+        "title": "البهاغافاد غيتا – الشرح العميق الكامل (الجزء 19 – سلسلة الحكمة التي لا نهاية لها)",
+        "bhagavadgita_part_19": {
+          "closing_eternal_message": "البهاغافاد غيتا ليست نهاية بل سلسلة متصلة. في كل مرة يتوقف فيها الشخص قبل التصرف ويبحث عن الحكمة بدلاً من الاندفاع، تولد الجيتا من جديد. في كل مرة يختار شخص ما الدارما على الراحة، تعيش الجيتا. في كل مرة يحل الاستسلام محل الخوف، تحقق الجيتا غرضها. ويبقى أبديًا لأن قلب الإنسان يستمر في البحث عن الحقيقة. وطالما هناك ارتباك، سيكون هناك حوار. وطالما هناك حوار، ستكون هناك صحوة.",
+          "living_the_gita_through_all_phases_of_life": {
+            "career_phase": "الموازنة بين الطموح والأخلاق.",
+            "education_phase": "زراعة التركيز وضبط النفس.",
+            "family_phase": "اخدم بمحبة دون تملّك.",
+            "final_transition": "اذكروا الله بسلام.",
+            "retirement_phase": "تعميق الانفصال والتأمل."
+          },
+          "the_final_internal_shift_revisited": {
+            "from_attachment_to_service": "يصبح العمل عرضا.",
+            "from_confusion_to_clarity": "الفهم يحل محل الشك.",
+            "from_fear_to_freedom": "المعرفة تزيل القلق الوجودي.",
+            "from_isolation_to_unity": "الاعتراف بالجوهر الإلهي المشترك."
+          },
+          "the_gita_and_inner_stability": {
+            "clarity": "رد فعل منفصل عن الاستجابة.",
+            "equanimity": "الحفاظ على التوازن في المتعة والألم.",
+            "presence": "عش بوعي وليس بطريقة ميكانيكية.",
+            "trust": "تمتع بالإيمان بالأمر الإلهي."
+          },
+          "the_gita_as_perpetual_reflection": {
+            "cyclical_learning": "كل قراءة لجيتا تكشف عن رؤية جديدة لأن القارئ يتطور.",
+            "dynamic_interpretation": "وتتعمق تعاليمها مع تغير ظروف الحياة.",
+            "mirror_function": "تعمل الجيتا كمرآة تعكس مستوى الفهم الحالي للباحث."
+          },
+          "the_seeker’s_ongoing_refinement": {
+            "advanced_stage": "الاتزان والرحمة العفوية.",
+            "early_stage": "صراع مع التعلق والاضطراب العاطفي.",
+            "intermediate_stage": "جهد واعي نحو العمل المنضبط.",
+            "realized_stage": "التوافق بسهولة مع دارما."
+          },
+          "the_supreme_synthesis_reaffirmed": {
+            "bhakti": "الإخلاص الصحيح يتحول.",
+            "dhyana": "يستقر التأمل الصحيح.",
+            "jnana": "الفهم الصحيح يحرر.",
+            "karma": "العمل الصحيح ينقي.",
+            "surrender": "الملجأ الصحيح يذيب الخوف."
+          },
+          "three_final_living_principles": {
+            "act_with_integrity": "دع الدارما ترشد القرارات.",
+            "detach_from_outcome": "Release anxiety about results.",
+            "surrender_with_trust": "تقديم النتيجة النهائية إلى الإلهية."
+          },
+          "what_the_gita_always_does": {
+            "clarifies_identity": "أنت أكثر من الجسد والعاطفة.",
+            "grants_peace": "من خلال الاستسلام.",
+            "opens_heart": "من خلال الإخلاص.",
+            "purifies_action": "من خلال نية نكران الذات.",
+            "stabilizes_mind": "من خلال الانضباط والتأمل."
+          },
+          "what_the_gita_does_not_do": {
+            "does_not_demand_blind_faith": "ويشجع على التساؤل والتفكير.",
+            "does_not_encourage_escape": "يجب الوفاء بالواجب.",
+            "does_not_remove_struggle": "تظل التحديات جزءًا من الحياة."
+          }
+        },
+        "order": 19
+      },
+      {
+        "title": "البهاغافاد غيتا – شرح عميق كامل (الجزء 20 – الاستمرارية اللانهائية للدارما)",
+        "bhagavadgita_part_20": {
+          "advanced_spiritual_maturity": {
+            "balanced_action": "الشجاعة دون عدوان.",
+            "devotional_surrender": "القلب متوافق مع الإرادة الإلهية.",
+            "fearless_living": "راسخة في الهوية الأبدية.",
+            "non_dual_awareness": "رؤية الوحدة وراء التنوع."
+          },
+          "living_dharma_in_modern_complexity": {
+            "competition": "اجتهد دون حسد.",
+            "ethical_challenges": "التنقل في المناطق الرمادية الأخلاقية بنزاهة.",
+            "information_age": "الحفاظ على التركيز وسط التشتيت.",
+            "uncertainty": "ثق بالأمر الإلهي أثناء التصرف بمسؤولية."
+          },
+          "the_cycle_of_application": {
+            "act": "التنفيذ بوعي.",
+            "contemplate": "تطبيقها على مواقف الحياة الحالية.",
+            "refine": "استمر في الدورة بفهم أعمق.",
+            "reflect": "Evaluate actions without self-condemnation.",
+            "study": "Read and reflect on verses."
+          },
+          "the_everlasting_echo": "The Bhagavad Gita never truly concludes. Its wisdom resurfaces each time life presents uncertainty. Whenever courage is chosen over fear, duty over convenience, and surrender over anxiety, the Gita is alive. It is not confined to verses; it is expressed through conscious living. As long as humanity seeks clarity, the dialogue between the finite and the Infinite continues. In that dialogue, the path to freedom remains eternally open.",
+          "the_final_principle_of_the_gita": {
+            "effort_is_yours": "You are responsible for disciplined action.",
+            "grace_is_available": "Divine support accompanies sincerity.",
+            "identity_is_eternal": "You are consciousness, not circumstance.",
+            "result_is_not_yours": "Outcome rests within larger cosmic order."
+          },
+          "the_gita_and_emotional_resilience": {
+            "anger": "Trace to frustrated desire.",
+            "anxiety": "Detach from imagined outcomes.",
+            "envy": "Recognize divine equality in all beings.",
+            "grief": "Understand impermanence."
+          },
+          "the_gita_as_an_ongoing_practice": {
+            "daily_engagement": "The Bhagavad Gita becomes powerful when studied consistently and reflected upon daily.",
+            "embodied_wisdom": "The teachings move from thought to speech to action.",
+            "habitual_integration": "Repeated contemplation transforms philosophy into character."
+          },
+          "the_gita’s_resolution_to_these_conflicts": {
+            "attachment_resolution": "Renounce fruits while maintaining effort.",
+            "duty_resolution": "Perform Svadharma sincerely.",
+            "identity_resolution": "Recognize Atman as your true nature."
+          },
+          "the_three_eternal_conflicts_in_every_human_life": {
+            "attachment_conflict": "هل يجب أن أتمسك بالنتائج أم أستسلم للنتائج؟",
+            "duty_conflict": "Should I act for comfort or for Dharma?",
+            "identity_conflict": "هل أنا الجسد أم الذات الأبدية؟"
+          },
+          "when_the_gita_is_fully_realized": {
+            "ego_becomes_light": "أهمية الذات تتضاءل.",
+            "heart_becomes_soft": "الرحمة تزداد.",
+            "life_becomes_service": "كل عمل يقدم.",
+            "mind_becomes_clear": "أقل هيمنة من الإثارة.",
+            "peace_becomes_constant": "يبقى السكون الداخلي."
+          }
+        },
+        "order": 20
+      },
+      {
+        "title": "البهاغافاد غيتا – الشرح العميق الكامل (الجزء 21 – الشعلة الأبدية للوعي)",
+        "bhagavadgita_part_21": {
+          "eternal_closing_message": "البهاغافاد غيتا هي شعلة الوعي المشتعلة دائمًا. يبدأ بالأزمة وينتهي بالوضوح. يبدأ بالرعدة وينتهي بالشجاعة. إنه لا يغير العالم الخارجي، بل الوعي الداخلي. عندما يقف الشخص على مفترق طرق ويختار الدارما بوعي واستسلام، فإن الجيتا تعيش مرة أخرى. حوارها أبدي لأن البحث عن الحقيقة أبدي. وفي هذا البحث، يستمر نور الجيتا في التألق بلا نهاية.",
+          "the_final_spiritual_state": {
+            "devotion": "الحب المعبر عنه دون طلب.",
+            "equanimity": "متوازنة بين الربح والخسارة.",
+            "fearlessness": "متجذرة في خلود عتمان.",
+            "wisdom": "عمل توجيهي واضح للإدراك."
+          },
+          "the_gita_and_continuous_growth": {
+            "correction": "اضبط الإجراءات لتتوافق مع دارما.",
+            "renewal": "ابدأ من جديد كل يوم بوضوح واستسلام.",
+            "self_examination": "فحص الدوافع وردود الفعل بانتظام."
+          },
+          "the_gita_and_universal_unity": {
+            "compassion": "إن فهم الوحدة يذيب الكراهية.",
+            "equality": "الحكيم يرى جميع الكائنات على قدم المساواة (5.18).",
+            "interconnectedness": "الإلهية تسكن في كل قلب (10.20)."
+          },
+          "the_gita_as_an_unending_light": {
+            "eternal_relevance": "تستمر البهاغافاد غيتا في الإضاءة بسبب استمرار ظهور المعضلات البشرية.",
+            "inner_guidance": "عندما يسعى الارتباك إلى الوضوح، فإن صوت كريشنا يعاود الظهور في الداخل.",
+            "timeless_dialogue": "الساعي والمرشد موجود في كل جيل."
+          },
+          "the_last_layer_of_understanding": {
+            "beyond_emotion": "إنها ليست راحة عاطفية وحدها، بل شجاعة ثابتة.",
+            "beyond_intellect": "الحقيقة الأعمق لجيتا ليست الاتفاق الفكري، بل الإدراك المعاش.",
+            "beyond_ritual": "إنه ليس إخلاصًا ميكانيكيًا، بل استسلامًا واعيًا."
+          },
+          "the_still_point_in_all_change": {
+            "inner_anchor": "تبقى الذات دون تغيير.",
+            "outer_flux": "الظروف ترتفع وتنخفض.",
+            "realization": "السلام لا يوجد في السيطرة على الأحداث بل في التعرف على الشاهد الذي لا يتغير."
+          },
+          "the_ultimate_synthesis_reaffirmed": {
+            "act": "قم بأداء دورك بإخلاص.",
+            "love": "عرض التفاني.",
+            "meditate": "استقرار العقل.",
+            "surrender": "ثق بالإرادة الإلهية.",
+            "understand": "تعرف على الذات الأبدية."
+          },
+          "three_final_transformations": {
+            "transformation_of_action": "التصرف دون توقعات أنانية.",
+            "transformation_of_identity": "العيش من الوعي بدلا من الأنا.",
+            "transformation_of_view": "رؤية عدم الثبات بوضوح."
+          },
+          "what_remains_after_all_study": {
+            "clarity": "تم استبدال الارتباك بالفهم.",
+            "peace": "هدوء داخلي عميق.",
+            "purpose": "الحياة تتماشى مع دارما.",
+            "steadiness": "التطرف العاطفي يخفف."
+          }
+        },
+        "order": 21
+      },
+      {
+        "title": "البهاغافاد غيتا – شرح عميق كامل (الجزء 22 – سلسلة الحكمة اللانهائية)",
+        "bhagavadgita_part_22": {
+          "eternal_benediction": "أتمنى أن تستمر حكمة البهاغافاد غيتا في الظهور داخل كل باحث مخلص. نرجو أن يشكل توجيهه الأفكار، وثبات المشاعر، وتنقية العمل. نرجو أن نتصرف بشجاعة مثل أرجونا، مسترشدين بالوضوح مثل كريشنا. تنتهي الآيات، لكن الصحوة مستمرة. طالما أن الإنسانية تسعى إلى الحقيقة والمعنى، فإن نور الجيتا يظل غير منقوص.",
+          "the_final_completion_that_is_not_an_end": {
+            "continuous_refinement": "حتى الوضوح يتعمق في تواضع أكبر.",
+            "ever_expanding_awareness": "الوعي يتوسع بلا حدود.",
+            "no_final_sentence": "النمو الروحي ليس له نقطة نهائية."
+          },
+          "the_final_inner_equilibrium": {
+            "balanced_mind": "لم تعد المتعة والألم هي المهيمنة.",
+            "compassionate_action": "يتم التعبير عن القوة من خلال اللطف.",
+            "fearless_identity": "الموت يفقد رعبه.",
+            "silent_confidence": "لا حاجة للتحقق الخارجي."
+          },
+          "the_gita_and_eternal_time": {
+            "cyclical_history": "العصور تتغير لكن كفاح الإنسان يتكرر.",
+            "eternal_solution": "تظل الحكمة ثابتة عبر الدورات.",
+            "timeless_relevance": "الحوار بين أرجونا وكريشنا لا يصبح قديمًا أبدًا."
+          },
+          "the_gita_as_perpetual_awakening": {
+            "layered_meaning": "وكل آية تحمل أبعادا فلسفية ونفسية وأخلاقية وروحية.",
+            "living_revelation": "تتكشف حقائقها من خلال التجربة الحية وليس مجرد التكرار.",
+            "never_exhausted": "بغض النظر عن عدد مرات دراستها، فإن البهاغافاد غيتا تكشف عمقًا جديدًا مع نضوج الوعي."
+          },
+          "the_gita’s_permanent_internal_shifts": {
+            "clarity_over_confusion": "الفهم يحل محل الانهيار العاطفي.",
+            "discipline_over_impulse": "يصبح العقل موجهًا وليس غير متحكم فيه.",
+            "service_over_selfishness": "يصبح العمل عرضا.",
+            "trust_over_anxiety": "الاستسلام يذيب الخوف."
+          },
+          "the_three_eternal_relationships": {
+            "self_and_divine": "ابق على اتصال من خلال الإخلاص والاستسلام.",
+            "self_and_duty": "أداء المسؤوليات دون الارتباط.",
+            "self_and_world": "الانخراط مع العالم دون فقدان الوعي بالذات."
+          },
+          "three_continuing_practices": {
+            "detachment": "الافراج عن التوقعات بعد الجهد.",
+            "devotion": "الحفاظ على الامتنان تجاه الإلهية.",
+            "discernment": "التمييز اليومي بين الأبدي والمؤقت."
+          },
+          "ultimate_essence_reaffirmed": [
+            "أنت الأبدية.",
+            "واجبك مقدس",
+            "عقلك يتطلب الانضباط.",
+            "أفعالك تشكل شخصيتك.",
+            "إخلاصك يطهر قلبك.",
+            "استسلامك يجلب السلام."
+          ]
+        },
+        "order": 22
+      },
+      {
+        "title": "البهاغافاد غيتا - الشرح العميق الكامل (الجزء 23 - تيار الحكمة المتدفق باستمرار)",
+        "bhagavadgita_part_23": {
+          "advanced_inner_observation": {
+            "observe_anger": "تتبعه إلى المرفق.",
+            "observe_desire": "شاهد صعودها دون رد فعل فوري.",
+            "observe_fear": "تذكر عدم ثبات الظروف.",
+            "observe_pride": "التعرف على هشاشتها."
+          },
+          "eternal_closing_reflection": "البهاغافاد غيتا هي مثل نهر الحكمة الذي لا يجف أبدًا. وكل جيل يشرب منه ويجد التجديد. ويسمع كل باحث بداخله الهداية اللازمة لتلك اللحظة. ولا يقتصر تعليمها على ساحات القتال القديمة؛ فهو يتدفق عبر المعضلات الحديثة، والصراعات الخاصة، والتأملات الصامتة. كلما حل الوضوح محل الارتباك والواجب محل التردد، تتدفق الجيتا مرة أخرى. ليس لها نهاية حقيقية، لأن اليقظة نفسها ليس لها حدود.",
+          "perennial_principles_for_all_eras": [
+            "التصرف بنزاهة.",
+            "الانفصال عن المكافأة.",
+            "انضباط العقل.",
+            "التعرف على عدم الثبات.",
+            "زراعة الرحمة.",
+            "ثق بالأمر الإلهي.",
+            "اطلب المعرفة.",
+            "عرض التفاني.",
+            "احتضان الاستسلام.",
+            "عش بشجاعة."
+          ],
+          "the_gita_and_endless_refinement": {
+            "lifelong_learning": "الحكمة تتعمق بالتواضع.",
+            "silent_devotion": "الامتنان الداخلي يحل محل العرض.",
+            "subtle_detachment": "حتى الفخر بالروحانية يجب أن يتحرر."
+          },
+          "the_gita_and_matured_intelligence": {
+            "emotional_intelligence": "الاستجابة دون رد فعل غير المنضبط.",
+            "ethical_intelligence": "الاختيار الصحيح على مريحة.",
+            "integrated_intelligence": "تحقيق التوازن بين الرأس والقلب واليد.",
+            "spiritual_intelligence": "الاعتراف بالأبدي وراء المؤقت."
+          },
+          "the_gita_and_personal_responsibility": {
+            "conscious_choice": "كل عمل يشكل شخصية المستقبل.",
+            "no_blame": "الظروف ليست أعذارًا للعمل الأداري.",
+            "self_mastery": "يجب أن يكون العقل والحواس منضبطين."
+          },
+          "the_gita_as_compass_in_uncertain_times": {
+            "when_decisions_are_complex": "اسأل ما الذي يتوافق مع الدارما.",
+            "when_doubt_arises": "ابحث عن الحكمة العليا بدلاً من الاندفاع.",
+            "when_outcomes_are_uncertain": "أسلم الثمار بعد جهد.",
+            "when_world_is_chaotic": "العودة إلى السكون الداخلي."
+          },
+          "the_gita_as_inner_recalibration": {
+            "awareness_cycle": "لاحظ → تعكس → صحيح → الاستسلام.",
+            "continuous_adjustment": "النمو الروحي ليس تحولا واحدا بل هو إعادة معايرة مستمرة للفكر والدافع والعمل.",
+            "course_correction": "عندما تستعيد الأنا السيطرة، تدعو غيتا إلى إعادة التوافق مع الدارما."
+          },
+          "the_last_internal_integration": {
+            "clarity_in_thought": "العقل لم يعد غائما من الارتباك.",
+            "purity_in_intent": "الإجراءات التي تحفزها الخدمة.",
+            "softness_in_heart": "الرحمة دون الضعف.",
+            "steadiness_in_action": "الحزم دون عدوان."
+          },
+          "the_three_great_freedoms_revisited": {
+            "freedom_from_attachment": "ترتكز على الانفصال عن النتائج.",
+            "freedom_from_fear": "ترتكز على معرفة عتمان الخالد.",
+            "freedom_from_ignorance": "مضاءة بالحكمة التمييزية (فيفيكا)."
+          }
+        },
+        "order": 23
+      },
+      {
+        "title": "البهاغافاد غيتا - الشرح العميق الكامل (الجزء 24 - استمرار الحكمة اللامحدود)",
+        "bhagavadgita_part_24": {
+          "infinite_closing_reflection": "يستمر البهاغافاد غيتا إلى ما لا نهاية لأن الوعي نفسه لا حدود له. كل قراءة تصبح بداية جديدة. يصبح كل تطبيق استسلامًا أعمق. كل إدراك يفتح المزيد من البصيرة. الحوار بين أرجونا وكريشنا لا يقتصر على الزمن؛ إنها تتجلى في كل قلب يتوقف أمام العمل ويسعى إلى الحكمة العليا. وطالما أن الروح الإنسانية تبحث عن المعنى، فإن الجيتا ستبقى على قيد الحياة - ليس كمجرد كتاب مقدس، ولكن كوعي حي يرشد الفكر والعمل والاستسلام.",
+          "perpetual_principles_reaffirmed": [
+            "الوضوح أعظم من الارتباك.",
+            "الواجب أعظم من الراحة.",
+            "معرفة الذات أعظم من الحالة الخارجية.",
+            "الإخلاص أعظم من الأنا.",
+            "الاستسلام أعظم من السيطرة."
+          ],
+          "the_final_inner_alignment": {
+            "action": "Directed by Dharma.",
+            "emotion": "تنقيته من خلال الإخلاص (بهاكتي).",
+            "identity": "متجذرة في الوعي الأبدي.",
+            "thought": "تسترشد بالتمييز (فيفيكا)."
+          },
+          "the_gita_and_continuous_self_purification": {
+            "correction": "استبدل رد الفعل الاندفاعي بالاستجابة الواعية.",
+            "daily_reflection": "لاحظ ما إذا كانت الأفعال تنشأ من ساتفا أو راجاس أو تاماس.",
+            "renewal": "ابدأ كل يوم كفرصة جديدة للمواءمة."
+          },
+          "the_gita_and_ego_dissolution": {
+            "ego_definition": "التماهي الزائف مع الأدوار والنتائج المؤقتة.",
+            "ego_transformation": "ومن خلال الاستسلام، تصبح الأنا أداة وليس سيدًا.",
+            "humility": "الاعتراف بالمصدر الإلهي للقدرة والفرصة."
+          },
+          "the_gita_and_silent_strength": {
+            "confidence_without_arrogance": "الوعي دون تفوق.",
+            "detachment_without_coldness": "الحرية بلا مبالاة.",
+            "firmness_without_harshness": "القوة تسترشد بالحكمة."
+          },
+          "the_gita_and_universal_compassion": {
+            "active_kindness": "يتم التعبير عن التعاطف من خلال العمل المسؤول.",
+            "reducing_judgment": "فهم أن كل شيء يتطور تحت Gunas.",
+            "seeing_equality": "الاعتراف بالوجود الإلهي في جميع الكائنات (5.18)."
+          },
+          "the_gita_as_an_ever_deepening_ocean": {
+            "limitless_depth": "ليس لمحيط جيتا شاطئ نهائي؛ الإدراك يستمر في التوسع.",
+            "mid_depth_understanding": "تكشف الدراسة المتعمقة عن الوحدة الفلسفية بين عتمان وبراهمان.",
+            "profound_depth": "التأمل المستمر يذيب الشعور بالانفصال.",
+            "surface_understanding": "توفر القراءات الأولية التوجيه الأخلاقي والوضوح التحفيزي."
+          },
+          "the_last_shift_of_consciousness": {
+            "from_anxiety_to_trust": "الثقة تحل محل الحساب الذهني المستمر.",
+            "from_division_to_unity": "رؤية الحياة ككل مترابط.",
+            "from_striving_to_being": "ويصبح الجهد تعبيرا طبيعيا بدلا من التوتر."
+          },
+          "three_eternal_questions_answered_by_gita": {
+            "how_should_i_live": "تصرف بإيثار، تأمل بثبات، استسلم بأمانة.",
+            "what_should_i_do": "الوفاء بواجبي المتوافق مع دارما.",
+            "who_am_i": "أنا الذات الأبدية، ولست الجسد المتغير."
+          }
+        },
+        "order": 24
+      },
+      {
+        "title": "البهاغافاد غيتا – الشرح العميق الكامل (الجزء 25 – صدى الحكمة الأبدي)",
+        "bhagavadgita_part_25": {
+          "final_everlasting_reflection": "البهاغافاد غيتا لا تنتهي بالنهاية؛ يفتح إلى ما لا نهاية. يتردد صدى أبياته عبر القرون لأن الطبيعة البشرية لا تزال تتصارع مع الخوف والواجب والطموح والهوية. كلما حلت الشجاعة محل الارتباك والاستسلام محل القلق، تتنفس الجيتا من جديد. إنها لا تُقرأ فقط، بل تتحقق. إنها ليست مقتبسة فحسب، بل مجسدة. وطالما أن الوعي يبحث عن الحقيقة، فإن الحوار بين الباحث والمرشد الإلهي يستمر بلا نهاية.",
+          "the_final_purification_of_motive": {
+            "from_fear_to_trust": "يتم تسليم النتائج بعد جهد صادق.",
+            "from_gain_to_service": "يتحول العمل من المكافأة الشخصية إلى الرفاهية الجماعية (Lokasangraha).",
+            "from_pride_to_gratitude": "يصبح الإنجاز عرضًا وليس عرضًا للأنا."
+          },
+          "the_gita_and_endless_beginning": {
+            "every_choice": "كل عمل يشكل شخصية.",
+            "every_moment": "يصبح كل قرار كوروكشترا جديدة.",
+            "every_surrender": "كل عرض يعمق الحرية."
+          },
+          "the_gita_and_human_dignity": {
+            "equal_vision": "الحكيم يرى جميع الكائنات على قدم المساواة (5.18).",
+            "respect_for_others": "الاعتراف بالحضور الإلهي في كل قلب.",
+            "self_respect": "الهوية ترتكز على الذات الأبدية بدلاً من التحقق الخارجي."
+          },
+          "the_gita_and_the_mastery_of_mind": {
+            "awareness_of_thought": "مراقبة الأنماط العقلية دون تحديد الهوية.",
+            "detachment": "تخلص من الوسواس التعلقي بالنتائج (Vairagya).",
+            "discipline": "إعادة التوجيه المتكررة نحو الهدف الأعلى (أبهياسا).",
+            "stability": "يصبح العقل حليفًا وليس خصمًا (6.5)."
+          },
+          "the_gita_and_unending_responsibility": {
+            "courageous_action": "الوقوف للدارما على الرغم من الصعوبة.",
+            "ethical_consistency": "النزاهة في الحياة العامة والخاصة.",
+            "self_governance": "تنظيم الحواس والرغبات."
+          },
+          "the_gita_as_inner_resonance": {
+            "awakening_call": "كلما أفسح الارتباك المجال للتفكير، سُمع اهتزازه من جديد.",
+            "living_vibration": "The Bhagavad Gita is not static doctrine but a living resonance within consciousness.",
+            "silent_companion": "It remains present even when not actively studied."
+          },
+          "the_last_internal_realization": {
+            "devotion_is_internal": "Quiet offering of heart.",
+            "freedom_is_internal": "Not dependent on circumstance.",
+            "peace_is_internal": "Not dependent on outer arrangement.",
+            "strength_is_internal": "متجذرة في وضوح الذات."
+          },
+          "the_perennial_truths": [
+            "أنت الوعي الأبدي.",
+            "Life is sacred responsibility.",
+            "Mind requires disciplined training.",
+            "التعلق يربط القلب.",
+            "فالعبادة تطهر النية.",
+            "الاستسلام يحرر الوعي."
+          ],
+          "three_eternal_practices_reaffirmed": {
+            "alignment": "التصرف وفقا للدارما.",
+            "reflection": "وقفة قبل رد الفعل.",
+            "surrender": "إطلاق الثمار إلى الإلهية."
+          }
+        },
+        "order": 25
+      },
+      {
+        "title": "البهاغافاد غيتا – الشرح العميق الكامل (الجزء 26 – الإكمال بعد الاستمرار)",
+        "bhagavadgita_part_26": {
+          "final_reflection": "لقد تم الآن نشر البهاغافاد غيتا عبر الفلسفة وعلم النفس والتفاني والعمل والاستسلام والإدراك. ومع ذلك، فإن رسالتها النهائية بسيطة: عش بوضوح، وتصرف بنزاهة، وحب بإخلاص، واستسلم بثقة. سوف تستمر ساحة المعركة في الحياة، لكن لا داعي للارتباك. عندما تقود الحكمة الجهد، والإخلاص يثبت القلب، يكون التعليم قد حقق غرضه. الاستمرارية الآن لا تكمن في المزيد من الكلمات، بل في التحول الحي.",
+          "the_final_internal_state": {
+            "compassionate_strength": "الحزم واللطف يجتمعان.",
+            "detached_engagement": "المشاركة الكاملة دون التشبث.",
+            "quiet_confidence": "لا حاجة للتحقق الخارجي.",
+            "steady_awareness": "الوعي يقع في وضع الشاهد."
+          },
+          "the_gita_as_an_eternal_principle": {
+            "not_bound_by_time": "وتستمر أهميتها عبر الأجيال.",
+            "not_confined_to_religion": "علم النفس والأخلاق عالمية.",
+            "not_limited_to_verses": "حكمتها تتجاوز الحدود النصية."
+          },
+          "the_gita_reaches_its_fulfillment_when": {
+            "clarity_guides_action": "تنشأ القرارات من الدارما وليس من الدافع.",
+            "devotion_becomes_natural": "الامتنان يتدفق دون جهد.",
+            "fear_of_loss_diminishes": "لم تعد الهوية مرتبطة بأدوار مؤقتة.",
+            "mind_remains_balanced": "المديح والانتقاد لا يزعزعان الاستقرار الداخلي.",
+            "work_becomes_worship": "يتم تنفيذ الواجبات اليومية كعروض مقدسة."
+          },
+          "the_point_of_completion": {
+            "from_words_to_being": "وفي مرحلة معينة، يجب أن تتحول الدراسة إلى وعي حي.",
+            "silence_after_knowledge": "عندما ينضج الفهم، تكون هناك حاجة لعدد أقل من الكلمات.",
+            "understanding_completion": "إن الإكمال الحقيقي للبهاغافاد غيتا ليس إضافة المزيد من التوضيح، بل استيعاب حكمته."
+          },
+          "the_true_ending": {
+            "external_end": "ينتهي الحوار بين كريشنا وأرجونا في الكتاب المقدس.",
+            "internal_beginning": "يبدأ الحوار داخل الباحث بشكل جدي.",
+            "living_continuation": "كل قرار واعي يصبح آية جديدة من غيتا."
+          },
+          "ultimate_essence_compressed": [
+            "اعرف ذاتك الحقيقية.",
+            "أداء واجبك.",
+            "السيطرة على عقلك.",
+            "الانفصال عن النتائج.",
+            "Cultivate devotion.",
+            "الاستسلام تماما."
+          ]
+        },
+        "order": 26
+      },
+      {
+        "title": "البهاغافاد غيتا – الشرح العميق الكامل (الجزء 27 – الصمت الحي بعد الحكمة)",
+        "bhagavadgita_part_27": {
+          "six_eternal_reminders": [
+            "أنت لست الجسد؛ أنت الشاهد.",
+            "لا يوجد إجراء غير مهم عندما يتماشى مع الدارما.",
+            "يصبح العقل صديقًا عندما ينضبط.",
+            "التعلق هو أصل الحزن.",
+            "الإخلاص يحول الأنا إلى تقدمة.",
+            "الاستسلام يكمل الرحلة."
+          ],
+          "the_closing_stillness": {
+            "action_resumes": "الواجب مستمر.",
+            "arjuna_understands": "يذوب الارتباك.",
+            "krishna_speaks": "يتم إعطاء التوجيه.",
+            "silence_remains": "الحكمة تكمن في الداخل."
+          },
+          "the_final_integration_checklist": {
+            "do_i_act_with_dharma": "هل أفعالي تتوافق مع البر وليس الراحة؟",
+            "do_i_detach_from_results": "هل يمكنني التخلص من القلق بعد جهد صادق؟",
+            "do_i_practice_devotion": "هل الشكر موجود في قلبي؟",
+            "do_i_remember_the_self": "هل أتماثل مع الوعي الأبدي أم الدور المؤقت؟",
+            "do_i_surrender_control": "هل أثق في أمر أعلى يتجاوز التخطيط الشخصي؟"
+          },
+          "the_final_peace": {
+            "not_escape": "الحرية هي الحرية ضمن المسؤولية.",
+            "not_indifference": "الانفصال هو الحب دون التشبث.",
+            "not_passivity": "السلام هو الوضوح النشط، وليس الانسحاب."
+          },
+          "the_gita_as_lived_reality": {
+            "in_conflict": "وقفة والرد من الوضوح.",
+            "in_failure": "تبقى ثابتة وعاكسة.",
+            "in_loss": "تذكر عدم الثبات.",
+            "in_service": "العرض بصمت.",
+            "in_success": "تبقى متواضعة ومنفصلة."
+          },
+          "the_last_philosophical_synthesis": {
+            "epistemology": "المعرفة الحقيقية تنشأ من خلال التمييز والتفاني.",
+            "ethics": "العمل الصحيح يتوافق مع الدارما ونكران الذات.",
+            "ontology": "يتكون الواقع من الوعي الأبدي والمادة المتغيرة.",
+            "psychology": "يصبح العقل مسالمًا من خلال الانضباط والانفصال.",
+            "soteriology": "فالتحرر ينشأ من خلال الاستسلام والإدراك."
+          },
+          "ultimate_conclusion": "The Bhagavad Gita has unfolded from crisis to clarity, from despair to devotion, from confusion to conscious action. Its purpose is fulfilled when knowledge becomes character, devotion becomes humility, and surrender becomes peace. There is nothing more to add, only something to live. The continuation now exists in awareness, discipline, and surrender. In that living practice, the Gita continues eternally.",
+          "when_words_are_complete": {
+            "limit_of_explanation": "Every scripture reaches a point where explanation must give way to contemplation.",
+            "shift_to_experience": "Intellectual clarity must now become direct inner awareness.",
+            "silent_assimilation": "يتم تحقيق أعمق حقائق غيتا في التفكير الهادئ."
+          }
+        },
+        "order": 27
+      },
+      {
+        "title": "البهاغافاد غيتا – الشرح العميق الكامل (الجزء 28 – العودة الأبدية إلى الوعي)",
+        "bhagavadgita_part_28": {
+          "eternal_closing_reflection": "لقد تكشفت البهاغافاد غيتا عبر الفلسفة وعلم النفس والتفاني والأخلاق والاستسلام. ومع ذلك، فإن أصدق أشكاله ليس التفسير، بل التجسيد. عندما يتماشى العمل مع الدارما، عندما يستقر العقل في صفاء، عندما ينحني القلب امتنانًا، وعندما يتم تسليم النتائج بثقة - يتم تحقيق الجيتا. قد يتوقف الحوار في الكلمات، لكنه يستمر في الوعي. وفي هذا الوعي، تشرق الحرية بهدوء.",
+          "final_integration_of_all_yogas": {
+            "bhakti": "الحب بصدق.",
+            "dhyana": "Reflect silently.",
+            "jnana": "Know deeply.",
+            "karma": "العمل بجد.",
+            "tyaga": "ترك بأمان."
+          },
+          "four_signs_of_mature_gita_living": {
+            "calm_responsibility": "أداء الواجب دون اضطراب.",
+            "measured_speech": "كلمات تسترشد بالحقيقة والرحمة.",
+            "natural_gratitude": "تفاني هادئ بدون عرض.",
+            "steady_mind": "انخفاض التذبذب العاطفي."
+          },
+          "the_final_liberating_perspective": {
+            "nothing_is_lost": "لا يضيع أي جهد صادق (6.40).",
+            "nothing_is_permanent": "جميع النماذج مؤقتة (2.16).",
+            "nothing_is_separate": "الإلهي يسكن في كل القلوب (10.20).",
+            "nothing_is_unreachable": "الاستسلام يفتح أعلى درجات الحرية (18.66)."
+          },
+          "the_gita_and_eternal_repetition": {
+            "compassion_for_self": "النمو الروحي يشمل الصبر على النقص.",
+            "learning_is_cyclical": "قد تتناوب لحظات الوضوح مع لحظات من الارتباك.",
+            "return_to_practice": "في كل مرة يظهر فيها الارتباك، عد إلى الوعي."
+          },
+          "the_gita_and_simplicity": {
+            "clear_priorities": "الحقيقة على الراحة، والنزاهة على الشعبية.",
+            "inner_order": "الوضوح العقلي يقلل من الصراع غير الضروري.",
+            "less_complexity": "تصبح الحياة أسهل عندما تسترشد بالدارما."
+          },
+          "the_gita_returns_to_you": {
+            "circle_complete": "الرحلة التي بدأت بيأس أرجونا تعود الآن إلى حياة القارئ الخاصة.",
+            "inner_kurukshetra": "تصبح كل نقطة قرار بمثابة ساحة معركة للوضوح مقابل الارتباك.",
+            "living_dialogue": "يصبح توجيه كريشنا صوت التمييز المستيقظ (فيفيكا) في الداخل."
+          },
+          "the_last_refinement_of_practice": {
+            "ego_of_knowledge": "الكبرياء في الفهم يجب أن يذوب في التواضع.",
+            "silent_service": "أعلى عمل لا يسعى إلى الاعتراف.",
+            "subtle_attachment": "حتى التعلق بكونك \"روحيًا\" يجب مراعاته وإطلاقه."
+          },
+          "the_quiet_ending": {
+            "the_awareness_deepens": "الحكمة تتكامل تدريجيا.",
+            "the_dialogue_remains": "التوجيه الداخلي لا يتوقف أبدًا.",
+            "the_practice_continues": "تصبح الحياة اليومية مجال التطبيق.",
+            "the_text_ends": "ختمت الآيات."
+          }
+        },
+        "order": 28
+      },
+      {
+        "title": "البهاغافاد غيتا – الشرح العميق الكامل (الجزء 29 – الحل النهائي للممارسة)",
+        "bhagavadgita_part_29": {
+          "beyond_continuation": {
+            "absorption": "يجب أن يتم هضم التعاليم من خلال الانضباط الحي.",
+            "no_more_accumulation": "في هذه المرحلة، إضافة المزيد من التوضيحات لا يؤدي إلى تعميق الإدراك.",
+            "shift_from_expansion_to_depth": "فالحكمة تنمو الآن عموديًا في الداخل، وليس أفقيًا من خلال المزيد من الكلمات."
+          },
+          "completion_statement": "لقد تم الآن كشف البهاغافاد غيتا إلى حدودها المفاهيمية. المزيد من الاستمرار لن يؤدي إلا إلى تكرار ما تم دمجه بالفعل. الاستمرار الحقيقي لا يوجد في التعليق الإضافي، بل في الحياة المنضبطة، والتفكير الواعي، والعمل المستسلم. يحقق الكتاب المقدس ذاته عندما يفسح التفسير المجال للتجسيد. من هذه النقطة فصاعدًا، تستمر الجيتا من خلال الممارسة، وليس النثر.",
+          "the_gita_as_silent_companion": {
+            "natural_expression": "العمل الصحيح ينشأ دون إجهاد.",
+            "not_constant_thought": "ولا يتطلب التكرار الذهني في جميع الأوقات.",
+            "subtle_presence": "يصبح التوجه الخلفية للوعي."
+          },
+          "the_last_possible_summary": {
+            "do_the_right": "التصرف وفقا لواجبك.",
+            "know_the_self": "أنت الوعي الأبدي.",
+            "let_go_of_fruit": "انفصل عن المكافأة والخوف.",
+            "love_the_divine": "تقديم التفاني بصدق.",
+            "trust_the_order": "الاستسلام بشكل كامل."
+          },
+          "the_last_test_of_gita_understanding": {
+            "in_conflict": "هل يمكنني أن أبقى هادئًا ودارميًا؟",
+            "in_failure": "هل يمكنني أن أظل ثابتًا ومتأملًا؟",
+            "in_solitude": "هل يمكنني أن أرتاح في الوعي الصامت؟",
+            "in_success": "هل يمكنني أن أبقى متواضعًا ومنعزلًا؟",
+            "in_uncertainty": "هل يمكنني التصرف بإخلاص والاستسلام للنتيجة؟"
+          },
+          "the_three_final_anchors": {
+            "awareness": "أنا الذات الشاهدة.",
+            "responsibility": "يجب أن أتصرف وفقًا للدارما.",
+            "surrender": "النتائج ليست لي للسيطرة عليها."
+          },
+          "when_the_gita_is_alive": {
+            "clarity_guides": "يصبح اتخاذ القرار أقل تضاربًا.",
+            "compassion_expands": "رؤية الإنسانية المشتركة في الجميع.",
+            "ego_softens": "أقل حاجة لإثبات التفوق.",
+            "peace_remains": "الاستقرار في ظل التغيير.",
+            "reaction_slows": "الإيقاف المؤقت يسبق الاستجابة."
+          }
+        },
+        "order": 29
+      },
+      {
+        "title": "البهاغافاد غيتا – الشرح العميق الكامل (الجزء 30 – الصمت حيث تستقر الحكمة)",
+        "bhagavadgita_part_30": {
+          "the_end_of_explanation": {
+            "living_truth": "يجب الآن ممارسة البهاغافاد غيتا بدلاً من إطالة أمدها.",
+            "natural_limit": "يصل كل كتاب مقدس إلى عتبة يصبح فيها التفسير تكرارًا.",
+            "transition_point": "وفي هذه المرحلة يجب أن تتحول الحكمة من الفهم الفكري إلى الاستيعاب التأملي."
+          },
+          "the_final_essence_condensed": [
+            "الوضوح على الارتباك.",
+            "الواجب على الراحة.",
+            "الانفصال عن القلق.",
+            "التفاني على الأنا.",
+            "الاستسلام للسيطرة."
+          ],
+          "the_final_threefold_remembrance": {
+            "remember_what_to_do": "التصرف وفقًا للدارما بإخلاص.",
+            "remember_what_to_release": "تخلص من التعلق بالفواكه.",
+            "remember_who_you_are": "أنت لست الجسد القابل للفناء بل عتمان الأبدي."
+          },
+          "the_gita_in_silent_form": {
+            "no_agitation": "الاتزان يحل محل التقلبات العاطفية.",
+            "no_argument": "الوضوح يحل محل النقاش.",
+            "no_compulsion": "يتدفق العمل بشكل طبيعي دون إلحاح يحركه الأنا."
+          },
+          "the_living_sign_of_realization": {
+            "balanced_response": "أنت تستجيب بدلا من الرد.",
+            "fearless_acceptance": "عدم الثبات لم يعد يزعج.",
+            "quiet_devotion": "يصبح الامتنان ثابتًا.",
+            "steady_identity": "تظل راسخًا داخليًا وسط التقلبات الخارجية."
+          },
+          "the_true_continuation": {
+            "in_daily_life": "يصبح كل تفاعل مجالًا للدارما.",
+            "in_decision_making": "يصبح كل خيار بمثابة اختبار للمواءمة.",
+            "in_service": "كل جهد يصبح عطاء.",
+            "in_solitude": "كل لحظة صمت تصبح تأملاً."
+          },
+          "ultimate_conclusion": "لقد تم الكشف عن البهاغافاد غيتا عبر أبعادها الفلسفية والنفسية والتعبدية والأخلاقية والعملية. ليس هناك حاجة إلى تمديد آخر. حكمتها كاملة، وهدفها يتحقق عندما تتجسد. تستمر ساحة معركة الحياة، ولكن لا داعي للارتباك. وقد أدى الحوار دوره. ما تبقى الآن هو القوة الهادئة، والعمل المنضبط، والوضوح الرحيم، والثقة المستسلمة. في تلك الحالة الحية، تستمر الجيتا إلى الأبد - ليس بكلمات إضافية، ولكن في الوعي المستيقظ."
+        },
+        "order": 30
+      },
+      {
+        "title": "البهاغافاد غيتا – الشرح العميق الكامل (الجزء 31 – العودة إلى البداية)",
+        "bhagavadgita_part_31": {
+          "back_to_arjuna": {
+            "the_inner_state": "الارتباك والحزن والشلل الأخلاقي.",
+            "the_invitation": "بدلًا من الانهيار، استفسر.",
+            "the_opening_scene": "يقف المحارب يرتجف بين جيشين.",
+            "the_universal_truth": "كل إنسان يصل إلى مثل هذه اللحظة في الحياة."
+          },
+          "back_to_krishna": {
+            "the_method": "ليس بالقوة، بل بالحوار.",
+            "the_principle": "الحكمة تُقدم ولا تُفرض.",
+            "the_respect": "الإرادة الحرة تبقى سليمة.",
+            "the_role": "المرشد والمعلم والصديق والواقع الإلهي."
+          },
+          "closing_return": "بدأت البهاغافاد غيتا بقوس يسقط من أيدي مرتعشة. وينتهي بنفس القوس المرفوع بوضوح. وهذا القوس - من الشلل إلى الهدف - هو الرحلة بأكملها. ولأن البشر سيواجهون دائمًا لحظات الشك، فإن الجيتا ستبدأ دائمًا من جديد. ولا يكون استمرارها في فصول أخرى، بل في كل عمل شجاع تسترشد بالحكمة وتستسلم لله.",
+          "the_complete_cycle": {
+            "action": "Returning to duty transformed.",
+            "despair": "الاعتراف بالصراع الداخلي.",
+            "inquiry": "تسعى إلى فهم أعلى.",
+            "knowledge": "تعلم طبيعة الذات والدارما.",
+            "practice": "التصرف بالانضباط والانفصال.",
+            "surrender": "التخلص من الخوف والأنا.",
+            "vision": "الاعتراف بالحضور الإلهي في كل مكان."
+          },
+          "the_final_repetition_not_as_repetition_but_as_truth": [
+            "أنت الأبدية.",
+            "واجبك مقدس",
+            "يجب أن يكون عقلك منضبطًا.",
+            "يجب أن يتطهر قلبك.",
+            "يجب أن تتماشى أفعالك.",
+            "يجب أن تستسلم نتائجك."
+          ],
+          "the_final_state_of_the_seeker": {
+            "but_awakened": "واعية للهوية الأعمق.",
+            "but_detached": "خالية من التشبث القهري.",
+            "not_perfection": "لا يزال إنسانًا، ولا يزال منخرطًا.",
+            "not_withdrawn": "المشاركة في الحياة بشكل كامل."
+          },
+          "the_true_reason_there_is_no_end": {
+            "ego_returns": "يجب أن يظل الوعي يقظا.",
+            "life_continues": "تنشأ تحديات جديدة.",
+            "mind_fluctuates": "يجب تجديد الوضوح.",
+            "practice_deepens": "يصبح الفهم أكثر دقة."
+          },
+          "what_has_truly_been_accomplished": {
+            "emotional_shift": "من الاضطراب إلى الثبات.",
+            "existential_shift": "من الخوف من الموت إلى الوعي بالخلود.",
+            "identity_shift": "من الوعي المتمركز حول الجسم إلى الوعي المتمركز حول الذات.",
+            "motivation_shift": "من العمل الذي يحركه الأنا إلى العمل الذي يحركه الخدمة."
+          }
+        },
+        "order": 31
+      },
+      {
+        "title": "البهاغافاد غيتا – الشرح العميق الكامل (الجزء 32 – الاندماج النهائي في الوجود)",
+        "bhagavadgita_part_32": {
+          "final_eternal_statement": "The Bhagavad Gita reaches fulfillment not when more words are written, but when life reflects its wisdom. It is complete when knowledge becomes character, when devotion becomes humility, when discipline becomes steadiness, and when surrender becomes peace. The continuation now belongs to lived action, silent awareness, and unwavering Dharma. In that lived state, the Gita continues eternally — not through added discourse, but through awakened being.",
+          "the_final_practical_checkpoint": {
+            "when_afraid": "Do I remember the eternal Self?",
+            "when_challenged": "هل أبقى هادئا؟",
+            "when_confused": "Do I seek higher wisdom?",
+            "when_criticized": "هل أظل ثابتا؟",
+            "when_praised": "هل أبقى متواضعا؟"
+          },
+          "the_gita_as_four_lifelong_disciplines": {
+            "duty_performance": "الوفاء الأمين بالمسؤوليات.",
+            "mental_discipline": "التأمل وتنظيم النبضات.",
+            "self_knowledge": "التفكير المنتظم في الطبيعة الأبدية لأتمان.",
+            "surrender": "الثقة بالأمر الإلهي خارج نطاق السيطرة الشخصية."
+          },
+          "the_inner_state_after_complete_assimilation": {
+            "balanced_action": "الجهد ثابت. القلق هو الحد الأدنى.",
+            "ethical_consistency": "الدارما ترشد حتى عندما لا يراها الآخرون.",
+            "quiet_devotion": "Gratitude flows naturally.",
+            "reduced_fear": "يتم قبول عدم الثبات دون ذعر.",
+            "stable_equanimity": "المكاسب والخسارة لم تعد تزعج القلب."
+          },
+          "the_last_turning_point": {
+            "from_discussion_to_practice": "يتطلب النضج الروحي التنفيذ المنضبط.",
+            "from_learning_to_living": "تأتي مرحلة لا يعود فيها تكرار المبادئ يضيف عمقًا؛ تجسيدهم يفعل.",
+            "from_seeking_to_being": "يصبح الباحث راسخًا في الوعي تدريجيًا."
+          },
+          "the_silent_completion": {
+            "nothing_more_to_add": "لقد انكشفت جميع الأبعاد الفلسفية.",
+            "nothing_more_to_repeat": "تم دمج التعاليم الأساسية.",
+            "only_practice_remains": "التجسيد يحل محل التفسير."
+          },
+          "the_true_spiritual_maturity": {
+            "no_escape": "يبقى الانخراط في الحياة نشطًا ومسؤولًا.",
+            "no_fanaticism": "نظرة متوازنة ورحيمة.",
+            "no_showmanship": "يصبح النمو الروحي داخليًا وليس أدائيًا."
+          }
+        },
+        "order": 32
+      },
+      {
+        "title": "البهاغافاد غيتا – الشرح العميق الكامل (الجزء 33 – الكلمة الأخيرة التي تشير إلى ما وراء الكلمات)",
+        "bhagavadgita_part_33": {
+          "final_closure_statement": "لا يوجد أي تمديد آخر ذو معنى ممكن دون التكرار. لقد تم الكشف عن البهاغافاد غيتا حتى اكتمالها المفاهيمي. من هذه النقطة فصاعدًا، أي استمرار حقيقي لا يوجد إلا من خلال العمل المنضبط، والتأمل الصامت، والخدمة الرحيمة، والثقة المستسلمة. يحقق الكتاب المقدس غرضه عندما تذوب الكلمات في الوعي. لذلك، هذا هو الاستمرار النهائي في اللغة. الاستمرار التالي ينتمي إلى الحياة نفسها.",
+          "the_gita_ends_where_practice_begins": {
+            "awareness_guides": "كريشنا الداخلي يتحدث بدون خطاب خارجي.",
+            "living_commences": "يصبح السلوك اليومي مجال التطبيق.",
+            "silence_teaches": "التأمل يحل محل التفسير.",
+            "study_concludes": "لقد وصل التوسع المفاهيمي إلى حدوده."
+          },
+          "the_last_possible_continuation": {
+            "act": "بكل وضوح وصدق.",
+            "pause": "قبل كل إجراء مهم.",
+            "reflect": "هل هذا يتوافق مع دارما؟",
+            "release": "الانفصال عن النتيجة.",
+            "remember": "أنت الأبدية."
+          },
+          "the_last_summary_of_all_summaries": {
+            "devotion": "بهاكتي تنقي الأنا وتضبط القلب.",
+            "discipline": "يتطلب العقل والحواس التدريب من خلال الممارسة (أبهياسا) والانفصال (فيراجيا).",
+            "identity": "أنت عتمان الأبدي، وليس مجمع العقل والجسد المتغير.",
+            "liberation": "موكشا هي التحرر من الجهل، وليس الهروب من الحياة.",
+            "responsibility": "يجب أن يتم تنفيذ Svadharma الخاص بك بنزاهة.",
+            "surrender": "Tyaga من الفاكهة يذيب القلق."
+          },
+          "the_true_test_of_completion": {
+            "greater_clarity": "التعرف بشكل أسرع على اختيار Dharmic.",
+            "inner_trust": "الثقة متجذرة في الاستسلام.",
+            "less_reactivity": "تقليل الاضطراب العاطفي.",
+            "quiet_peace": "حضور هادئ حتى وسط التعقيد.",
+            "steady_effort": "عمل متسق دون الإرهاق."
+          },
+          "when_continuation_becomes_repetition": {
+            "depth_now_internal": "ومن شأن المزيد من الاستمرار أن يكرر المبادئ بدلا من تعميق التحقيق.",
+            "natural_limit_reached": "لقد تم الكشف عن جميع الأبعاد الفلسفية والنفسية والأخلاقية والتعبدية والعملية الرئيسية للبهاغافاد غيتا.",
+            "shift_required": "الاستمرار الحقيقي الوحيد الآن هو الاستيعاب التأملي."
+          }
+        },
+        "order": 33
+      },
+      {
+        "title": "البهاغافاد غيتا - الشرح العميق الكامل (الجزء 34 - التأكيد النهائي على الإكمال)",
+        "bhagavadgita_part_34": {
+          "acknowledgment_of_completion": {
+            "conceptual_limit": "وأي استمرار آخر لن يؤدي إلا إلى إعادة صياغة المبادئ التي تم دمجها سابقًا.",
+            "philosophical_scope": "تم شرح جميع التعاليم الميتافيزيقية والأخلاقية والتعبدية والنفسية الرئيسية للبهاغافاد غيتا بشكل منهجي.",
+            "structural_completion": "تم الكشف عن جميع الفصول الثمانية عشر والمفاهيم الأساسية والمعاني الرمزية والمسارات اليوغية والتطبيقات العملية والتفسيرات المتقدمة."
+          },
+          "definitive_closure": {
+            "living_application": "من الآن فصاعدًا، تستمر الجيتا فقط من خلال التجربة المعاشة.",
+            "no_additional_layer": "جميع الطبقات – العملية، الفلسفية، الرمزية، التعبدية – كاملة.",
+            "no_further_expansion": "لم يعد هناك بعد مفاهيمي جديد يتكشف."
+          },
+          "final_compressed_essence": [
+            "أنت الوعي الأبدي (عتمان).",
+            "قم بأداء واجبك (سفادارما).",
+            "التصرف بدون تعلق (كارما يوجا).",
+            "تأديب العقل (ديانا يوجا).",
+            "زراعة الإخلاص (بهاكتى يوجا).",
+            "تحقيق الحقيقة من خلال المعرفة (جنانا يوجا).",
+            "تجاوز Gunas.",
+            "الاستسلام الكامل لله."
+          ],
+          "final_statement": "وهذا يمثل استمرار النص النهائي. لقد تم الكشف عن البهاغافاد غيتا بشكل شامل عبر أبعاد وتكاملات متعددة. مزيد من الاستمرار لن يؤدي إلا إلى تكرار الحقائق الراسخة. الرحلة المتبقية داخلية وتجريبية وتأملية. الكتاب المقدس الآن يستقر في صمت، في انتظار التجسيد من خلال العمل المنضبط، والوعي الثابت، والتفاني المستسلم.",
+          "the_only_authentic_continuation": {
+            "discipline_over_discussion": "الحياة المتسقة تعبر عن الفهم الحقيقي.",
+            "practice_over_prose": "يجب أن تنتقل الحكمة الآن من التفسير إلى التجسيد.",
+            "reflection_over_repetition": "التأمل يحل محل تراكم الكلمات."
+          }
+        },
+        "order": 34
+      },
+      {
+        "title": "البهاغافاد غيتا – الشرح العميق الكامل (الجزء 35 – الكلمة الأخيرة الحقيقية)",
+        "bhagavadgita_part_35": {
+          "absolute_closure": {
+            "continuation_is_practical_only": "أي استمرار ذي معنى موجود الآن فقط في التطبيق الحي.",
+            "no_additional_layer_to_expand": "يقف الكتاب المقدس مشروحًا بالكامل ضمن الحدود النصية.",
+            "no_further_extension_possible": "لقد تم الكشف عن جميع التعاليم الأساسية بالكامل."
+          },
+          "final_concluding_statement": "وهذا هو الاستنتاج النهائي للتفسير الموسع. حكمة البهاغافاد غيتا كاملة. وقد تم توضيح رسالتها بدقة. الرحلة المتبقية لا تكمن في الكلمات الإضافية بل في الحياة الواعية. لقد أدى الحوار بين كريشنا وأرجونا دوره في اللغة. ومن الآن فصاعدًا، يجب أن يتجلى في الوعي والعمل والتفاني والاستسلام. لا يوجد شيء آخر يمكن إضافته في النص.",
+          "final_essence_in_its_most_condensed_form": [
+            "أنت لست الجسد؛ أنت الوعي الأبدي.",
+            "الحياة مجال مسؤولية (كشيترا).",
+            "العمل الصحيح ينقي العقل.",
+            "Knowledge removes ignorance.",
+            "الإخلاص يخفف الأنا.",
+            "الانفصال يذيب الخوف.",
+            "Surrender brings peace.",
+            "الحرية هي الحرية في الحياة."
+          ],
+          "recognition_of_natural_end": {
+            "full_unfolding": "تم شرح البهاغافاد غيتا عبر محيطها السردي، وبنيتها الفلسفية، ورؤاها النفسية، وإطارها الأخلاقي، وجوهرها التعبدي، ومعناها الرمزي، والتخصصات اليوغية، والتطبيقات العملية.",
+            "no_new_dimension_remaining": "تم استكشاف جميع السبل المفاهيمية. إن الاستمرار في ذلك لن يؤدي إلا إلى إعادة صياغة ما تم دمجه بالفعل.",
+            "wisdom_requires_silence": "وعلى أعلى مستوى، تنضج المعرفة الروحية بالتأمل، وليس بالتراكم."
+          },
+          "the_only_remaining_action": {
+            "discipline": "تدريب العقل من خلال التأمل وضبط النفس.",
+            "practice": "تطبيق الدارما في قرارات الحياة الواقعية.",
+            "reflect": "استيعاب التعاليم من خلال الفحص الذاتي اليومي.",
+            "serve": "تحويل العمل إلى عرض.",
+            "surrender": "Release anxiety about outcomes."
+          }
+        },
+        "order": 35
+      },
+      {
+        "title": "البهاغافاد غيتا – الشرح العميق الكامل (الجزء 36 – الصمت الأخير)",
+        "bhagavadgita_part_36": {
+          "closing": "لقد وصل البهاغافاد غيتا إلى نهايته التوضيحية الكاملة. وليس هناك ما هو أبعد من الاستمرار في اللغة دون تكرار. ما يبقى هو الممارسة المعاشة، والاستيعاب التأملي، والإدراك الصامت. هذا هو الاستمرار النهائي.",
+          "definitive_end": {
+            "practical_continuation_begins": "التجسيد يحل محل التوسع.",
+            "silence_remains": "أعلى تعليم يكمن وراء الكلمات.",
+            "textual_continuation_ceases": "لا مزيد من التوضيح ضروري أو مفيد."
+          },
+          "final_compression_of_all_wisdom": [
+            "تعرف على الذات.",
+            "قم بواجبك.",
+            "الانفصال عن النتائج.",
+            "السيطرة على العقل.",
+            "الحب الإلهي.",
+            "الاستسلام تماما."
+          ],
+          "the_inevitable_silence": {
+            "completion_acknowledged": "لقد تم الكشف عن جميع التعاليم والتفسيرات والتطبيقات والتكاملات الخاصة بـ Bhagavad Gita بشكل شامل.",
+            "no_new_content_remaining": "لم يعد هناك بعد فلسفي أو رمزي أو عملي أو تعبدي إضافي للتوسع.",
+            "spiritual_limit": "وبعد هذه النقطة، فإن الاستمرار لن يؤدي إلا إلى إعادة تدوير الحقائق الراسخة."
+          },
+          "the_true_continuation": {
+            "in_action": "أداء الواجب المتوافق مع دارما.",
+            "in_awareness": "تذكر الذات الأبدية.",
+            "in_heart": "زراعة التفاني والتواضع.",
+            "in_mind": "الحفاظ على الانضباط والوضوح.",
+            "in_surrender": "حرر التعلق بالنتائج."
+          }
+        },
+        "order": 36
+      },
+      {
+        "title": "بهاجافاد غيتا – شرح عميق كامل (بيان الإنهاء النهائي)",
+        "bhagavadgita_part_37": {
+          "completion_confirmation": "لقد تم الآن شرح البهاغافاد غيتا بشكل شامل عبر جميع الفصول، والأنظمة الفلسفية، والتفسيرات الرمزية، والأطر النفسية، والهياكل الأخلاقية، والتطبيقات العملية، والتكاملات اليوغية، والاستنتاجات التأملية.",
+          "continuation_limit_reached": "ولم يتبق أي أبعاد مفاهيمية أو بنيوية أو تفسيرية يمكن التوسع فيها دون تكرار مباشر.",
+          "definitive_closure": "وبهذا ينتهي الكشف النصي الكامل للبهاغافاد غيتا. لا يوجد مزيد من التوسع ممكن دون التكرار.",
+          "final_essence": [
+            "أنت الذات الأبدية (عتمان).",
+            "الحياة هي مجال الدارما.",
+            "يجب أن يكون العمل نكران الذات.",
+            "يجب أن يكون العقل منضبطا.",
+            "يجب أن يكون القلب مخلصًا.",
+            "يجب تسليم النتائج.",
+            "التحرير هو الحرية الداخلية."
+          ],
+          "reason_for_termination": "إن المزيد من الاستمرار لن يؤدي إلا إلى إعادة صياغة المبادئ التي تم توضيحها مسبقًا في صيغة معدلة، وهو ما لا يضيف عمقًا أو وضوحًا أو قيمة.",
+          "true_continuation": "الاستمرارية الوحيدة ذات المعنى من هذه النقطة فصاعدًا هي التجسيد الحي - العمل المنضبط (كارما يوجا)، والفهم التأملي (جنانا يوجا)، والثبات التأملي (ديانا يوجا)، والتفاني المستسلم (بهاكتي يوجا)."
+        },
+        "order": 37
+      }
+    ]
+  }
+}

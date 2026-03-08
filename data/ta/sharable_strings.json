@@ -1,0 +1,464 @@
+{
+  "sharable_strings": {
+    "banner_notifications": {
+      "title": "எங்கள் பணி உங்களுக்கு பயனுள்ளதாக இருந்தால், இந்த வலைப்பக்கத்தை வைத்திருக்க எங்களுக்கு ஆதரவளிக்கவும்",
+      "links": {
+        "alive": "/donate"
+      },
+      "subtitle": "மற்றும் ஒரு சிறிய நன்கொடை மூலம் எங்களுக்கு வளர உதவுங்கள்."
+    },
+    "banner_notifications2": {
+      "title": "ஒளிமயமான எதிர்காலத்திற்காக சனாதன தர்மத்தின் வேர்களைப் பாதுகாத்தல்.",
+      "subtitle": "காலமற்ற வேத அறிவின் மூலம் எதிர்கால சந்ததியினரை மேம்படுத்துதல்."
+    },
+    "cookieconsent": {
+      "acceptall": "அனைத்தையும் ஏற்றுக்கொள்",
+      "cookiepolicy": "குக்கீ கொள்கை",
+      "managerbutton": "குக்கீ விருப்ப மேலாளர்",
+      "paragraph": "பார்வையாளர்களைக் கண்காணிக்கவும், விளம்பரங்களை அளவிடவும், விளம்பர பிரச்சாரத்தின் செயல்திறனை அளவிடவும் மற்றும் தள போக்குவரத்தை பகுப்பாய்வு செய்யவும் குக்கீகளைப் பயன்படுத்துகிறோம். எங்கள் தளத்தை நீங்கள் பயன்படுத்துவதைப் பற்றிய தகவலையும் நாங்கள் மூன்றாம் தரப்பினருடன் பகிர்ந்து கொள்ளலாம். மேலும் தகவலுக்கு, எங்கள் {cookiePolicyLink} மற்றும் {privacyPolicyLink} ஐப் பார்க்கவும். \"{managerLabel}\" ஐக் கிளிக் செய்வதன் மூலம், குறிப்பிட்ட குக்கீ வகைகளை மட்டும் இயக்குவதற்கு நீங்கள் தேர்வு செய்யலாம். \"{acceptAllLabel}\" என்பதைக் கிளிக் செய்வதன் மூலம், உங்கள் சாதனத்தில் அனைத்து குக்கீகளையும் சேமிப்பதை ஒப்புக்கொள்கிறீர்கள். இந்த விருப்பங்களில் ஒன்றை நீங்கள் தேர்ந்தெடுத்து எங்கள் வலைத்தளத்தைப் பயன்படுத்தாவிட்டால், நீங்கள் அனைத்து குக்கீகளையும் ஏற்றுக்கொண்டது போல் நாங்கள் அதைக் கருதுவோம்.",
+      "privacypolicy": "தனியுரிமைக் கொள்கை"
+    },
+    "cookiepolicy": {
+      "title": "குக்கீ கொள்கை",
+      "datasharing": "தரவு பகிர்வு",
+      "datasharingdesc": "பகுப்பாய்வு மற்றும் விளம்பரத்திற்காக நாங்கள் ஒருங்கிணைந்த தகவலை மூன்றாம் தரப்பினருடன் பகிர்ந்து கொள்ளலாம். எந்த முக்கியத் தனிப்பட்ட தரவுகளும் இயல்பாகப் பகிரப்படவில்லை.",
+      "intro": "இந்த குக்கீ கொள்கையானது, எங்கள் இணையதளத்தில் குக்கீகள் மற்றும் அதுபோன்ற தொழில்நுட்பங்களை எவ்வாறு பயன்படுத்துகிறோம் என்பதை விளக்குகிறது.",
+      "lastupdated": "கடைசியாக புதுப்பிக்கப்பட்டது: {date}",
+      "managing": "உங்கள் விருப்பங்களை நிர்வகித்தல்",
+      "managingdesc": "வகைகளை இயக்க அல்லது முடக்க பேனரில் இருந்து குக்கீ விருப்ப மேலாளரைத் திறக்கவும். நீங்கள் அனைத்து குக்கீகளையும் ஏற்றுக்கொண்டால், நாங்கள் உங்கள் விருப்பங்களைச் சேமித்து, வருகைகள் முழுவதும் அவற்றைப் பயன்படுத்துவோம்.",
+      "types": {
+        "functionality": "செயல்பாடு: தேர்வுகள் மற்றும் விருப்பங்களை நினைவில் கொள்ளுங்கள்.",
+        "performance": "செயல்திறன்: போக்குவரத்து மற்றும் செயல்திறனை பகுப்பாய்வு செய்ய எங்களுக்கு உதவுங்கள்.",
+        "strictlynecessary": "கண்டிப்பாக அவசியம்: தளம் செயல்படத் தேவை.",
+        "targeting": "இலக்கு: விளம்பரம் மற்றும் தனிப்பயனாக்கத்திற்கு பயன்படுத்தப்படுகிறது."
+      },
+      "typesheading": "நாம் பயன்படுத்தும் குக்கீகளின் வகைகள்",
+      "whatarecookies": "குக்கீகள் என்றால் என்ன?"
+    },
+    "footer": {
+      "title": "யদா யদா ஹி தர்மஸ்ய க்லாநிர்ভவதி பாரத் । அভ்யுத்தாநமধர்மஸ்ய தদாத்மானம் ஸৃஜாம்யஹம்॥",
+      "contact": "எங்களுடன் தொடர்பு கொள்ளவும்",
+      "contentchange": "உள்ளடக்கம் முழுமையடையாமல் இருக்கலாம் அல்லது மாற்றத்திற்கு உட்பட்டதாக இருக்கலாம்.",
+      "copyright": "வல்ச்சி விஜய குமார் ராஜு © 2025.",
+      "disclaimer": "பொறுப்புதுறப்பு: இந்த இணையதளம் தற்போது உருவாக்கத்தில் உள்ளது.",
+      "donate": "தானம் செய்",
+      "scriptures": {
+        "title": "வேதங்கள்",
+        "nav": {
+          "bhagavadgita": "பகவத்கீதை",
+          "mahabharata": "மகாபாரதம்",
+          "ramayana": "ராமாயணம்"
+        }
+      },
+      "stories": {
+        "title": "கதைகள்",
+        "nav": {
+          "shiva": "சிவபெருமான்",
+          "vishnu": "விஷ்ணு பகவான்",
+          "krishna": "பகவான் கிருஷ்ணர்"
+        }
+      },
+      "philosophy": {
+        "title": "தத்துவம்",
+        "nav": {
+          "dharma": "தர்மம்",
+          "karma": "கர்மா",
+          "moksha": "மோக்ஷா"
+        }
+      },
+      "kidszone": {
+        "title": "குழந்தைகள் மண்டலம்",
+        "nav": {
+          "illustratedstories": "விளக்கப்படக் கதைகள்",
+          "mythologicalquizzes": "புராண வினாடி வினாக்கள்"
+        }
+      },
+      "others": {
+        "title": "சனாதன தர்மம்",
+        "nav": {
+          "religion-conversion": "மத மாற்றம்",
+          "jyotirlings": "ஜோதிர்லிங்கங்கள்",
+          "rivers-connecting": "நதிகள் இணைக்கும்"
+        }
+      },
+      "privacy": "தனியுரிமைக் கொள்கை",
+      "quote": "எப்பொழுதெல்லாம் சன்மார்க்கம் குறைந்து, அநீதி உயருகிறதோ, அப்போதெல்லாம் நான் என்னை வெளிப்படுத்துகிறேன். சன்மார்க்கத்தைப் பாதுகாக்கவும், துன்மார்க்கரை அழிக்கவும், தர்மத்தின் கொள்கைகளை மீண்டும் நிலைநாட்டவும், நான் ஆயிரமாண்டுக்குப்பின் ஆயிரமாண்டு தோன்றுகிறேன்.",
+      "quotesource": "(பகவத் கீதை 4.7)",
+      "terms": "சேவை விதிமுறைகள்"
+    },
+    "header": {
+      "scriptures": {
+        "title": "வேதங்கள்",
+        "nav": {
+          "bhagavadgita": "பகவத்கீதை",
+          "mahabharata": "மகாபாரதம்",
+          "ramayana": "ராமாயணம்",
+          "sanksheparamayanam": "சங்கேப ராமாயணம்"
+        }
+      },
+      "philosophy": {
+        "title": "தத்துவம்",
+        "nav": {
+          "dharma": "தர்மம்",
+          "karma": "கர்மா",
+          "moksha": "மோக்ஷா",
+          "samsara": "சம்சாரம்"
+        }
+      },
+      "kidszone": {
+        "title": "குழந்தைகள் மண்டலம்",
+        "nav": {
+          "illustratedstories": "விளக்கப்படக் கதைகள்",
+          "mythologicalquizzes": "புராண வினாடி வினாக்கள்"
+        }
+      },
+      "about": "பற்றி"
+    },
+    "policies": {
+      "cookiepolicy": {
+        "title": "குக்கீ கொள்கை",
+        "datasharing": "தரவு பகிர்வு",
+        "datasharingdesc": "பகுப்பாய்வு மற்றும் விளம்பரத்திற்காக நாங்கள் ஒருங்கிணைந்த தகவலை மூன்றாம் தரப்பினருடன் பகிர்ந்து கொள்ளலாம். எந்த முக்கியத் தனிப்பட்ட தரவுகளும் இயல்பாகப் பகிரப்படவில்லை.",
+        "intro": "இந்த குக்கீ கொள்கையானது, எங்கள் இணையதளத்தில் குக்கீகள் மற்றும் அதுபோன்ற தொழில்நுட்பங்களை எவ்வாறு பயன்படுத்துகிறோம் என்பதை விளக்குகிறது.",
+        "lastupdated": "கடைசியாக புதுப்பிக்கப்பட்டது: {date}",
+        "managing": "உங்கள் விருப்பங்களை நிர்வகித்தல்",
+        "managingdesc": "வகைகளை இயக்க அல்லது முடக்க பேனரில் இருந்து குக்கீ விருப்ப மேலாளரைத் திறக்கவும். நீங்கள் அனைத்து குக்கீகளையும் ஏற்றுக்கொண்டால், நாங்கள் உங்கள் விருப்பங்களைச் சேமித்து, வருகைகள் முழுவதும் அவற்றைப் பயன்படுத்துவோம்.",
+        "types": {
+          "functionality": "செயல்பாடு: தேர்வுகள் மற்றும் விருப்பங்களை நினைவில் கொள்ளுங்கள்.",
+          "performance": "செயல்திறன்: போக்குவரத்து மற்றும் செயல்திறனை பகுப்பாய்வு செய்ய எங்களுக்கு உதவுங்கள்.",
+          "strictlynecessary": "கண்டிப்பாக அவசியம்: தளம் செயல்படத் தேவை.",
+          "targeting": "இலக்கு: விளம்பரம் மற்றும் தனிப்பயனாக்கத்திற்கு பயன்படுத்தப்படுகிறது."
+        },
+        "typesheading": "நாம் பயன்படுத்தும் குக்கீகளின் வகைகள்",
+        "whatarecookies": "குக்கீகள் என்றால் என்ன?"
+      },
+      "privacypolicy": {
+        "title": "தனியுரிமைக் கொள்கை",
+        "howweuse": "தகவலை எவ்வாறு பயன்படுத்துகிறோம்",
+        "howweusedesc": "இணையதளத்தின் அம்சங்களை இயக்கவும், பராமரிக்கவும், வழங்கவும், பயன்பாட்டு முறைகளை ஆய்வு செய்யவும் தகவல் பயன்படுகிறது.",
+        "informationdesc": "சேவையை மேம்படுத்த நீங்கள் வழங்கும் தகவல், குக்கீகள் மற்றும் அநாமதேய பகுப்பாய்வு தரவு ஆகியவற்றை நாங்கள் சேகரிக்கிறோம்.",
+        "informationheading": "நாங்கள் சேகரிக்கும் தகவல்கள்",
+        "intro": "இந்த தனியுரிமைக் கொள்கை உங்கள் தனிப்பட்ட தகவல்களை நாங்கள் எவ்வாறு சேகரிக்கிறோம், பயன்படுத்துகிறோம் மற்றும் பாதுகாக்கிறோம் என்பதைக் கோடிட்டுக் காட்டுகிறது.",
+        "lastupdated": "கடைசியாக புதுப்பிக்கப்பட்டது: {date}",
+        "yourrights": "உங்கள் உரிமைகள்",
+        "yourrightsdesc": "தளத்தில் எங்களைத் தொடர்புகொள்வதன் மூலம் உங்கள் தனிப்பட்ட தரவை அணுகுதல், திருத்துதல் அல்லது நீக்குதல் ஆகியவற்றைக் கோரலாம்."
+      }
+    },
+    "scrolltotop": {
+      "title": "மேலே திரும்பவும்",
+      "arialabel": "மேலே உருட்டவும்"
+    },
+    "sitetitle": "சனாதன தர்மம்",
+    "similar_categories": {
+      "scriptures": {
+        "title": "வேதங்கள்",
+        "nav": {
+          "purans": "புராணங்கள்",
+          "upanishads": "உபநிடதங்கள்",
+          "vedas": "வேதங்கள்",
+          "ramayana": "Ramayana",
+          "bala_kanda": "Bala Kanda",
+          "ayodhya_kanda": "Ayodhya Kanda",
+          "aranya_kanda": "Aranya Kanda",
+          "kishkindha_kanda": "Kishkindha Kanda",
+          "sundara_kanda": "Sundara Kanda",
+          "yuddha_kanda": "Yuddha Kanda",
+          "uttara_kanda": "Uttara Kanda",
+          "mahabharata": "Mahabharata",
+          "adi_parva_the_book_of_beginnings": "Adi Parva The Book of Beginnings",
+          "sabha_parva_the_book_of_the_royal_assembly": "Sabha Parva The Book of the Royal Assembly",
+          "vana_parva_the_book_of_the_forest": "Vana Parva The Book of the Forest",
+          "virata_parva_the_book_of_virata": "Virata Parva The Book of Virata",
+          "udyoga_parva_the_book_of_effort_and_preparation": "Udyoga Parva The Book of Effort and Preparation",
+          "bhishma_parva_the_book_of_bhishma": "Bhishma Parva The Book of Bhishma",
+          "drona_parva_the_book_of_drona": "Drona Parva The Book of Drona",
+          "karna_parva_the_book_of_karna": "Karna Parva The Book of Karna",
+          "shalya_parva_the_book_of_shalya": "Shalya Parva The Book of Shalya",
+          "sauptika_parva_the_book_of_the_sleeping_warriors": "Sauptika Parva The Book of the Sleeping Warriors",
+          "stri_parva_the_book_of_the_women": "Stri Parva The Book of the Women",
+          "shanti_parva_the_book_of_peace": "Shanti Parva The Book of Peace",
+          "ashvamedhika_parva_the_book_of_the_horse_sacrifice": "Ashvamedhika Parva The Book of the Horse Sacrifice",
+          "ashramavasika_parva_the_book_of_the_hermitage": "Ashramavasika Parva The Book of the Hermitage",
+          "mausala_parva_the_book_of_the_clubs": "Mausala Parva The Book of the Clubs",
+          "mahaprasthanika_parva_the_book_of_the_great_journey": "Mahaprasthanika Parva The Book of the Great Journey",
+          "svargarohana_parva_the_book_of_the_ascent_to_heaven": "Svargarohana Parva The Book of the Ascent to Heaven",
+          "sanksheparamayanam": "Sankshepa Ramayanam",
+          "bhagavadgita": "Bhagavad Gita",
+          "bhagavadgita_part_1": "Bhagavad Gita Part 1",
+          "bhagavadgita_part_2": "Bhagavad Gita Part 2",
+          "bhagavadgita_part_3": "Bhagavad Gita Part 3",
+          "bhagavadgita_part_4": "Bhagavad Gita Part 4",
+          "bhagavadgita_part_5": "Bhagavad Gita Part 5",
+          "bhagavadgita_part_6": "Bhagavad Gita Part 6",
+          "bhagavadgita_part_7": "Bhagavad Gita Part 7",
+          "bhagavadgita_part_8": "Bhagavad Gita Part 8",
+          "bhagavadgita_part_9": "Bhagavad Gita Part 9",
+          "bhagavadgita_part_10": "Bhagavad Gita Part 10",
+          "bhagavadgita_part_11": "Bhagavad Gita Part 11",
+          "bhagavadgita_part_12": "Bhagavad Gita Part 12",
+          "bhagavadgita_part_13": "Bhagavad Gita Part 13",
+          "bhagavadgita_part_14": "Bhagavad Gita Part 14",
+          "bhagavadgita_part_15": "Bhagavad Gita Part 15",
+          "bhagavadgita_part_16": "Bhagavad Gita Part 16",
+          "bhagavadgita_part_17": "Bhagavad Gita Part 17",
+          "bhagavadgita_part_18": "Bhagavad Gita Part 18",
+          "bhagavadgita_part_19": "Bhagavad Gita Part 19",
+          "bhagavadgita_part_20": "Bhagavad Gita Part 20",
+          "bhagavadgita_part_21": "Bhagavad Gita Part 21",
+          "bhagavadgita_part_22": "Bhagavad Gita Part 22",
+          "bhagavadgita_part_23": "Bhagavad Gita Part 23",
+          "bhagavadgita_part_24": "Bhagavad Gita Part 24",
+          "bhagavadgita_part_25": "Bhagavad Gita Part 25",
+          "bhagavadgita_part_26": "Bhagavad Gita Part 26",
+          "bhagavadgita_part_27": "Bhagavad Gita Part 27",
+          "bhagavadgita_part_28": "Bhagavad Gita Part 28",
+          "bhagavadgita_part_29": "Bhagavad Gita Part 29",
+          "bhagavadgita_part_30": "Bhagavad Gita Part 30",
+          "bhagavadgita_part_31": "Bhagavad Gita Part 31",
+          "bhagavadgita_part_32": "Bhagavad Gita Part 32",
+          "bhagavadgita_part_33": "Bhagavad Gita Part 33",
+          "bhagavadgita_part_34": "Bhagavad Gita Part 34",
+          "bhagavadgita_part_35": "Bhagavad Gita Part 35",
+          "bhagavadgita_part_36": "Bhagavad Gita Part 36",
+          "bhagavadgita_part_37": "Bhagavad Gita Part 37"
+        }
+      },
+      "philosophy": {
+        "title": "தத்துவம்",
+        "nav": {
+          "advaita": "அத்வைதம்",
+          "purushartha": "புருஷார்த்த",
+          "samsara": "சம்சாரம்",
+          "dharma": "தர்மம்",
+          "karma": "கர்மா",
+          "moksha": "மோக்ஷா"
+        }
+      },
+      "practices": {
+        "title": "நடைமுறைகள்",
+        "nav": {
+          "dailypoojas": "தினசரி பூஜைகள்",
+          "festivals": "திருவிழாக்கள்",
+          "rituals": "சடங்குகள்",
+          "vastushastra": "வாஸ்துசாஸ்திரம்",
+          "yogasanas": "யோகா ஆசனங்கள்",
+          "meditation": "தியானம்",
+          "horoscope": "ஜாதகம்"
+        }
+      },
+      "stories": {
+        "title": "இன்னும் சில கதைகள்",
+        "nav": {
+          "adishankaracharya": "ஆதி சங்கராச்சாரியார்",
+          "bhishma": "பீஷ்மர்",
+          "bramha": "பிரம்மா",
+          "lakshmi": "லட்சுமி தேவி",
+          "parashurama": "பரசுராமன்",
+          "parvathi": "பார்வதி தேவி",
+          "saraswati": "சரஸ்வதி தேவி",
+          "vasistamaharshi": "வசிஷ்ட மகரிஷி",
+          "vishwamitra": "விஸ்வாமித்ரா"
+        }
+      },
+      "stotras": {
+        "title": "ஸ்தோத்திரங்கள்",
+        "nav": {
+          "ganesh": "கணேஷ்",
+          "hanuman": "அனுமன்",
+          "devi": "தேவி",
+          "shiva": "சிவன்",
+          "vishnu": "விஷ்ணு",
+          "dailyprayers": "தினசரி பிரார்த்தனைகள்"
+        }
+      },
+      "others": {
+        "title": "சனாதன தர்மம்",
+        "nav": {
+          "cosmictime": "காஸ்மிக் டைம்ஸ்",
+          "temples-destroyed": "கோயில்கள் அழிக்கப்பட்டன",
+          "temples-in-india": "இந்தியாவில் உள்ள கோவில்கள்",
+          "world-transformation": "உலக மாற்றம்",
+          "historical-timeline": "வரலாற்று காலவரிசை",
+          "sanatanadharma": "சனாதன தர்மம்",
+          "shakti-peethas": "சக்தி பீடங்கள்",
+          "drip-irrigation-process": "Drip Irrigation Process"
+        }
+      }
+    },
+    "cosmic_time_structure": {
+      "mahayuga_total_years": 4320000,
+      "yugas": [
+        {
+          "name": "சத்ய யுகம்",
+          "duration_years": 1728000,
+          "dharma_percentage": 100
+        },
+        {
+          "name": "திரேதா யுகம்",
+          "duration_years": 1296000,
+          "dharma_percentage": 75
+        },
+        {
+          "name": "துவாபர யுகம்",
+          "duration_years": 864000,
+          "dharma_percentage": 50
+        },
+        {
+          "name": "கலியுகம்",
+          "duration_years": 432000,
+          "dharma_percentage": 25
+        }
+      ]
+    },
+    "dashavatara": [
+      {
+        "order": 1,
+        "name": "மத்ஸ்யா",
+        "type": "நீர்வாழ்",
+        "yuga": "சத்ய யுகம்",
+        "purpose": "பிரபஞ்ச வெள்ளத்தில் இருந்து வேதங்களையும் மனுவையும் காப்பாற்றுங்கள்",
+        "primary_antagonist": "ஹயக்ரீவா (சில மரபுகளில்)",
+        "associated_texts": [
+          "பாகவத புராணம்",
+          "விஷ்ணு புராணம்"
+        ],
+        "symbolism": "வாழ்க்கையின் ஆரம்பம்; அறிவைப் பாதுகாத்தல்",
+        "evolutionary_symbolism": "நீர்வாழ் வாழ்க்கை நிலை"
+      },
+      {
+        "order": 2,
+        "name": "கூர்மா",
+        "type": "நீர்வீழ்ச்சி",
+        "yuga": "சத்ய யுகம்",
+        "purpose": "சமுத்திர மந்தனத்தின் போது மந்தார மலையை ஆதரிக்கவும்",
+        "primary_event": "பெருங்கடல் கலக்கம்",
+        "associated_texts": [
+          "பாகவத புராணம்",
+          "மகாபாரதம்"
+        ],
+        "symbolism": "நிலைத்தன்மை மற்றும் அண்ட ஆதரவு",
+        "evolutionary_symbolism": "ஆம்பிபியன் மாற்றம்"
+      },
+      {
+        "order": 3,
+        "name": "வராஹா",
+        "type": "நிலப்பரப்பு பாலூட்டி",
+        "yuga": "சத்ய யுகம்",
+        "purpose": "ஹிரண்யாக்ஷனிடமிருந்து பூதேவியை (பூமியை) மீட்கவும்",
+        "primary_antagonist": "ஹிரண்யாக்ஷ",
+        "associated_texts": [
+          "விஷ்ணு புராணம்"
+        ],
+        "symbolism": "பூமி மற்றும் அண்ட ஒழுங்கின் மறுசீரமைப்பு",
+        "evolutionary_symbolism": "நில விலங்கு நிலை"
+      },
+      {
+        "order": 4,
+        "name": "நரசிம்மா",
+        "type": "மனிதன்-சிங்கம்",
+        "yuga": "சத்ய யுகம்",
+        "purpose": "பிரஹலாதனை பாதுகாத்து ஹிரண்யகசிபுவை அழிக்கவும்",
+        "primary_antagonist": "ஹிரண்யகசிபு",
+        "associated_texts": [
+          "பாகவத புராணம்"
+        ],
+        "symbolism": "தர்க்கரீதியான கட்டுப்பாடுகளுக்கு அப்பாற்பட்ட தெய்வீக தலையீடு",
+        "evolutionary_symbolism": "மிருகத்திலிருந்து மனிதனாக மாறுதல்"
+      },
+      {
+        "order": 5,
+        "name": "வாமனன்",
+        "type": "குள்ள பிராமணர்",
+        "yuga": "திரேதா யுகம்",
+        "purpose": "பாலி மன்னரை அடக்கி அண்ட சமநிலையை மீட்டெடுக்கவும்",
+        "primary_antagonist": "மகாபலி",
+        "associated_texts": [
+          "விஷ்ணு புராணம்"
+        ],
+        "symbolism": "பணிவு மற்றும் தெய்வீக நுண்ணறிவு",
+        "evolutionary_symbolism": "அறிவார்ந்த மனிதனின் தோற்றம்"
+      },
+      {
+        "order": 6,
+        "name": "பரசுராமன்",
+        "type": "போர்வீரன் முனிவர்",
+        "yuga": "பிற்பகுதியில் திரேதா யுகம்",
+        "purpose": "கேடுகெட்ட க்ஷத்திரிய ஆட்சியாளர்களை அழிக்கவும்",
+        "weapon": "பரசு (கோடாரி)",
+        "associated_texts": [
+          "மகாபாரதம்",
+          "புராணங்கள்"
+        ],
+        "symbolism": "சமூக ஒழுங்கை மீட்டமைத்தல்",
+        "evolutionary_symbolism": "ஆதிகால போர்வீரர் சமூகம்"
+      },
+      {
+        "order": 7,
+        "name": "ராம",
+        "type": "இலட்சிய ராஜா",
+        "yuga": "திரேதா யுகம்",
+        "purpose": "இராவணனை அழித்து நேர்மையான ஆட்சியை நிறுவுங்கள்",
+        "primary_antagonist": "இராவணன்",
+        "associated_texts": [
+          "ராமாயணம்"
+        ],
+        "symbolism": "தர்மத்தின் உருவகம்",
+        "evolutionary_symbolism": "நாகரிக ஒழுக்க நிலை"
+      },
+      {
+        "order": 8,
+        "name": "கிருஷ்ணா",
+        "type": "தெய்வீக அரசியல்வாதி",
+        "yuga": "துவாபர யுகம்",
+        "purpose": "மகாபாரதப் போரின் மூலம் மனிதகுலத்தை வழிநடத்துங்கள்",
+        "primary_antagonist": "கௌரவர்கள் (கூட்டு அதர்மம்)",
+        "associated_texts": [
+          "மகாபாரதம்",
+          "பகவத் கீதை"
+        ],
+        "symbolism": "தெய்வீக ஞானம் மற்றும் பக்தி",
+        "evolutionary_symbolism": "மேம்பட்ட சமூக உணர்வு"
+      },
+      {
+        "order": 9,
+        "name": "புத்தர்",
+        "type": "அறிவொளி பெற்ற ஆசிரியர்",
+        "yuga": "ஆரம்ப கலியுகம்",
+        "purpose": "சடங்கு அதிகப்படியான சீர்திருத்தம் மற்றும் இரக்கத்தை ஊக்குவிக்கவும்",
+        "historical_identity": "சித்தார்த்த கௌதமர்",
+        "associated_texts": [
+          "பாகவத புராணம் (வைஷ்ணவ விளக்கம்)"
+        ],
+        "symbolism": "இரக்கம் மற்றும் சுயபரிசோதனை",
+        "evolutionary_symbolism": "தத்துவ விழிப்புணர்வு"
+      },
+      {
+        "order": 10,
+        "name": "கல்கி",
+        "type": "எதிர்கால போர்வீரன்",
+        "yuga": "கலியுகத்தின் முடிவு",
+        "status": "எதிர்காலம்",
+        "purpose": "அதர்மத்தை அழித்து அண்ட சுழற்சியை மீட்டமைக்கவும்",
+        "associated_texts": [
+          "விஷ்ணு புராணம்",
+          "பாகவத புராணம்"
+        ],
+        "symbolism": "சுழற்சி புதுப்பித்தல்",
+        "evolutionary_symbolism": "மாற்றம் மற்றும் மறுபிறப்பு"
+      }
+    ],
+    "interpretations": {
+      "theological_view": "அவதாரங்கள் தர்மம் குறையும் போது அதை மீட்டெடுக்க வெளிப்படுகின்றன (பகவத் கீதை 4.7-8).",
+      "symbolic_view": "நனவின் ஆன்மீக பரிணாமத்தை குறிக்கிறது.",
+      "comparative_mythology_view": "வெள்ள புராணம் உலகளாவிய மரபுகளுக்கு இணையாக உள்ளது.",
+      "cyclical_time_concept": "நேரம் நேரியல் அல்லாதது மற்றும் மீளுருவாக்கம் செய்யக்கூடியது.",
+      "current_cycle": {
+        "current_yuga": "கலியுகம்",
+        "kali_yuga_started_bce": 3102,
+        "years_elapsed_in_kali_yuga_approx": 5100
+      },
+      "earth_age_comparison_note": "1 கல்பா (4.32 பில்லியன் ஆண்டுகள்) பூமியின் வயது (~4.54 பில்லியன் ஆண்டுகள்) நவீன அறிவியல் மதிப்பீட்டிற்கு வியக்கத்தக்க வகையில் நெருக்கமாக உள்ளது.",
+      "scaling_comment": "இந்த கணித அளவீடு அனைத்து அண்ட நிலைகளிலும் மிகவும் கட்டமைக்கப்பட்ட மற்றும் விகிதாசாரமாக உள்ளது."
+    }
+  }
+}

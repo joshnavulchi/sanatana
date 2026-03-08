@@ -1,0 +1,164 @@
+{
+  "philosophy_samsara": {
+    "title": "فلسفة سامسارا - أسئلة وأجوبة ومفاهيم متعمقة",
+    "meta": {
+      "title": "فلسفة | سامسارا - ساناتانا دارما - اكتشف ساناتان دارما",
+      "canonical": "https://sanatanadharmam.in/philosophy/samsara",
+      "description": "الفلسفة - Samsara - Sanātana Dharma - اكتشف Sanatan Dharma - مقالات وترجمات وتعليقات موجزة عن الفلسفة. استكشاف الممارسات والتاريخ والمبادئ التوجيهية...",
+      "keywords": [
+        "bhagavadgita samsara",
+        "buddhist philosophy",
+        "cycle of life and death",
+        "cycle of rebirth",
+        "hindu philosophy",
+        "jain philosophy",
+        "karma",
+        "moksha",
+        "samsara",
+        "samsara concepts",
+        "samsara definition",
+        "samsara ethical implications",
+        "samsara goals",
+        "samsara in daily life",
+        "samsara in modern life",
+        "samsara key concepts",
+        "samsara meaning",
+        "samsara modern relevance",
+        "samsara origin",
+        "samsara origin and history",
+        "samsara personal development",
+        "samsara philosophical insights",
+        "samsara philosophy",
+        "samsara principles",
+        "samsara psychological insights",
+        "samsara q&a",
+        "samsara q&a for students",
+        "samsara relation to dharma and karma",
+        "samsara relation to other concepts",
+        "samsara relevance",
+        "samsara scriptural references",
+        "samsara society",
+        "samsara spiritual significance",
+        "samsara ultimate goal",
+        "samsara well-being",
+        "spiritual liberation",
+        "upanishads samsara",
+        "yoga sutras samsara"
+      ],
+      "ogimage": "/og/philosophy-samsara.png",
+      "url": "https://sanatanadharmam.in/philosophy/samsara"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "منظمة",
+        "contactpoint": {
+          "@type": "نقطة الاتصال",
+          "areaserved": "في جميع أنحاء العالم",
+          "availablelanguage": [
+            "العربية",
+            "الألمانية",
+            "إنجليزي",
+            "الاسبانية",
+            "الفرنسية",
+            "الهندية",
+            "日本語",
+            "النيبالية",
+            "هولندا",
+            "البرتغالية",
+            "الروسية",
+            "نعم",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "دعم العملاء",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "حول Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "components": {
+      "birth": "الدخول إلى الوجود المادي على أساس الكارما الماضية.",
+      "death": "الانتقال إلى حالة أخرى من الوجود.",
+      "rebirth": "حياة جديدة تحددها الكارما المتراكمة."
+    },
+    "core_principles": [
+      "دورة الولادة والوفاة",
+      "تحكمها الكرمة",
+      "الجهل (أفيديا) يربط الكائنات بسامسارا",
+      "تحرير (موكشا) ينتهي بسامسارا"
+    ],
+    "definition": "يشير سامسارا إلى الدورة المستمرة للولادة والموت والبعث في الفلسفات الهندوسية والبوذية والجاينية، مدفوعة بالكارما والجهل.",
+    "goals": [
+      "فهم طبيعة سامسارا",
+      "تقليل تراكم الكرمية",
+      "ابحث عن التحرر من خلال الممارسة الروحية"
+    ],
+    "key_scriptural_references": [
+      {
+        "quote_summary": "الروح أبدية، تأخذ أجسادًا جديدة كما تهلك الأجساد القديمة.",
+        "text": "بهاجافاثجيتا"
+      },
+      {
+        "quote_summary": "يأتي التحرير عندما يدرك المرء ذاته بعد الولادة والموت.",
+        "text": "الأوبنشاد"
+      }
+    ],
+    "modern_relevance": {
+      "ethics": "يشجع على العيش الواعي والمسؤولية.",
+      "psychology": "يشرح أنماط المعاناة والتعلق.",
+      "spirituality": "يحفز السعي لتحقيق وعي أعلى."
+    },
+    "origin": {
+      "meaning": "مشتقة من اللغة السنسكريتية \"samsṛ\"، وتعني \"التدفق أو التجول\".",
+      "roots": "التعاليم الفيدية والأوبنشادية",
+      "texts": [
+        "الأوبنشاد",
+        "بهاجافاثجيتا",
+        "سوترا اليوغا"
+      ]
+    },
+    "relation_to_other_concepts": {
+      "dharma": "الحياة الصالحة تساعد على تقليل عبودية الكارما.",
+      "karma": "الإجراءات تحدد الولادات المستقبلية.",
+      "moksha": "التحرر من سامسارا هو الهدف النهائي."
+    },
+    "samsara_qa": [
+      {
+        "answer": "سامسارا هي دورة لا نهاية لها من الولادة والموت والبعث، مدفوعة بالكارما والجهل. إنها حالة الوجود الدنيوي التي يُطلب منها التحرر (موكشا).",
+        "question": "ما هو سامسارا؟"
+      },
+      {
+        "answer": "الكارما، قانون السبب والنتيجة، يحدد ظروف كل ولادة. الأفعال الصالحة تؤدي إلى ولادة جديدة إيجابية، بينما الأفعال السلبية تؤدي إلى المعاناة.",
+        "question": "كيف تؤثر الكارما على سامسارا؟"
+      },
+      {
+        "answer": "الجهل (أفيديا)، والتعلق، والرغبات تربط الكائنات بدورة سامسارا. فقط من خلال المعرفة والانفصال والممارسة الروحية يمكن للمرء أن يتحرر.",
+        "question": "ما الذي يسبب بقاء الكائنات في سامسارا؟"
+      },
+      {
+        "answer": "من خلال اتباع الدارما، وتنقية العقل، وممارسة العمل غير الأناني، والتفاني، والتأمل، يمكن للمرء أن يصل إلى موكشا ويتحرر من سامسارا.",
+        "question": "كيف يمكن للمرء الهروب من سامسارا؟"
+      },
+      {
+        "answer": "تصف الأوبنشاد والبهاغافاد غيتا واليوجا سوترا سامسارا بأنها حالة من العبودية والمعاناة، وتعلم الطريق إلى التحرر.",
+        "question": "ماذا يقول الكتاب المقدس عن سامسارا؟"
+      },
+      {
+        "answer": "لا، إن مفهوم سامسارا يعد أيضًا محوريًا في البوذية والجاينية، على الرغم من أن كل تقليد يشرحه بشكل مختلف.",
+        "question": "هل سامسارا فريدة من نوعها بالنسبة للهندوسية؟"
+      },
+      {
+        "answer": "نعم، إن دورات المتعة والألم، والنجاح والفشل، والأنماط المتكررة في الحياة تعكس طبيعة سامسارا. وإدراك ذلك يلهم البحث عن الحرية الدائمة.",
+        "question": "هل يمكن تجربة Samsara في الحياة اليومية؟"
+      },
+      {
+        "answer": "الهدف النهائي هو تجاوز سامسارا من خلال إدراك الذات الحقيقية وتحقيق موكشا، وإنهاء دورة الميلاد والمعاناة.",
+        "question": "ما هو الهدف النهائي بخصوص سامسارا؟"
+      }
+    ]
+  }
+}

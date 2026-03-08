@@ -1,0 +1,2479 @@
+{
+  "scriptures_sanksheparamayana": {
+    "title": "Sanksepa Ramayana",
+    "meta": {
+      "title": "Scriptures | Sankshepa Ramayana — Sanātana Dharma - Explore Sanatan Dharma",
+      "canonical": "https://sanatanadharmam.in/scriptures/sanksheparamayanam",
+      "description": "Ramayana — Valmiki's Epic and Commentary — Articles, translations and concise commentary on Ramayana. Explore practices, history, and guiding principles...",
+      "keywords": [
+        "Adaptability and relevance",
+        "Allegory and symbolism",
+        "Avatars of Vishnu",
+        "Ayodhya",
+        "Bhakti",
+        "Cosmic cycles",
+        "Creation myths",
+        "Cultural heritage",
+        "Devotees and bhakti",
+        "Dharma",
+        "Dissolution of the universe",
+        "Ethical teachings",
+        "Genealogies of gods and sages",
+        "Hanuman",
+        "Hindu epics",
+        "Indian mythology",
+        "Itihasa",
+        "Lakshmana",
+        "Lanka",
+        "Legends of kings",
+        "Mithila",
+        "Moral lessons",
+        "Philosophical insights",
+        "Rama",
+        "Ramayana",
+        "Ravana",
+        "Religious stories",
+        "Rituals and festivals",
+        "Sacred geography",
+        "Sankshepa Ramayana",
+        "Sita",
+        "Spiritual liberation",
+        "Spiritual teachings",
+        "Stories of Shiva",
+        "Valmiki Ramayana"
+      ],
+      "ogimage": "/og/ramayana.png",
+      "url": "https://sanatanadharmam.in/scriptures/sanksheparamayanam"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "English",
+            "Español",
+            "Français",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Nederlands",
+            "Português",
+            "Русский",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "author": "Valmiki Maharshi",
+    "core_themes": [
+      {
+        "title": "Dharma (Righteousness)"
+      },
+      {
+        "title": "Bhakti (Devotion)"
+      },
+      {
+        "title": "Truth and Sacrifice"
+      }
+    ],
+    "description": "Narada Maharshi narrates the entire Ramayana to Sage Valmiki in exactly 100 slokas.",
+    "important_places": [
+      {
+        "desc": "Capital of Rama’s kingdom.",
+        "name": "Ayodhya"
+      },
+      {
+        "desc": "King Janaka’s kingdom, birthplace of Sita.",
+        "name": "Mithila"
+      },
+      {
+        "desc": "Ravana’s kingdom.",
+        "name": "Lanka"
+      }
+    ],
+    "main_characters": [
+      {
+        "name": "Rama",
+        "role": "Prince of Ayodhya, avatar of Vishnu, embodiment of dharma."
+      },
+      {
+        "name": "Sita",
+        "role": "Wife of Rama, symbol of purity and devotion."
+      },
+      {
+        "name": "Lakshmana",
+        "role": "Rama’s loyal brother."
+      },
+      {
+        "name": "Hanuman",
+        "role": "Devotee of Rama, symbol of strength and devotion."
+      },
+      {
+        "name": "Ravana",
+        "role": "King of Lanka, symbol of ego and adharma."
+      }
+    ],
+    "slokas": [
+      {
+        "kandareference": "Bala Kanda",
+        "number": 1,
+        "philosophicalinsight": "The search for an ideal human reflects the eternal quest for Dharma.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "तपःस्वाध्यायनिरतं तपस्वी वाग्विदां वरम् । नारदं परिपप्रच्छ वाल्मीकिर्मुनिपुङ्गवम् ॥",
+        "simplemeaning": "Sage Valmiki, who was devoted to penance and study, respectfully asked Sage Narada, the greatest among wise speakers, a question.",
+        "storycontext": "This verse begins the Ramayana. Valmiki seeks to know if there exists a perfect human being.",
+        "transliteration": "Tapah-svadhyaya-niratam tapasvi vagvidam varam, Naradam paripapraccha Valmikir muni-pungavam.",
+        "wordmeaning": [
+          {
+            "meaning": "austerity",
+            "word": "Tapah"
+          },
+          {
+            "meaning": "self-study of scriptures",
+            "word": "Svadhyaya"
+          },
+          {
+            "meaning": "sage Narada",
+            "word": "Naradam"
+          },
+          {
+            "meaning": "the sage Valmiki",
+            "word": "Valmiki"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "philosophicalinsight": "True greatness is defined by character, not power.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "को न्वस्मिन् साम्प्रतं लोके गुणवान्कश्च वीर्यवान् । धर्मज्ञश्च कृतज्ञश्च सत्यवाक्यो दृढव्रतः ॥",
+        "simplemeaning": "Valmiki asked: Who in this world is virtuous, brave, knowledgeable in Dharma, grateful, truthful, and firm in vows?",
+        "storycontext": "Valmiki lists the qualities of an ideal person.",
+        "transliteration": "Ko nvasmin sampratam loke gunavan kashcha viryavan, Dharmajnah cha kritajnah cha satyavakyo dridhavratah.",
+        "wordmeaning": [
+          {
+            "meaning": "virtuous",
+            "word": "Gunavan"
+          },
+          {
+            "meaning": "brave and powerful",
+            "word": "Viryavan"
+          },
+          {
+            "meaning": "knower of righteousness",
+            "word": "Dharmajnah"
+          },
+          {
+            "meaning": "waarheidsgetrouwe spreker",
+            "word": "Satyavakya"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "philosophicalinsight": "Een ideale heerser moet wijsheid, mededogen en kracht combineren.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat het goed is ॥",
+        "simplemeaning": "Wie heeft een nobel karakter, werkt voor het welzijn van alle wezens, is wijs, bekwaam en aangenaam voor iedereen?",
+        "storycontext": "De beschrijving van ideale deugden gaat verder.",
+        "transliteration": "Charitrena cha ko yuktah sarva-bhuteshu ko hitah, Vidvan kah kah samarthash cha kash chaika-priya-darshanah.",
+        "wordmeaning": [
+          {
+            "meaning": "goed gedrag",
+            "word": "Charitrena"
+          },
+          {
+            "meaning": "weldoener van alle wezens",
+            "word": "Sarva-bhuteshu hitah"
+          },
+          {
+            "meaning": "geleerd",
+            "word": "Vidvan"
+          },
+          {
+            "meaning": "aangenaam van uiterlijk",
+            "word": "Priya-darshanah"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "philosophicalinsight": "Kracht moet in evenwicht worden gehouden door zelfbeheersing.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "De beste resultaten । Ik denk dat ik het goed heb gedaan",
+        "simplemeaning": "Wie heeft zelfbeheersing, heeft de woede overwonnen, straalt, is vrij van jaloezie en wiens woede zelfs de goden vrezen in de strijd?",
+        "storycontext": "Valmiki emphasizes both gentleness and power in the ideal person.",
+        "transliteration": "Atmavan ko jita-krodho dyutiman ko'nasuyakah, Kasya bibhyati devash cha jata-roshasya samyuge.",
+        "wordmeaning": [
+          {
+            "meaning": "self-controlled",
+            "word": "Atmavan"
+          },
+          {
+            "meaning": "one who has conquered anger",
+            "word": "Jita-krodha"
+          },
+          {
+            "meaning": "radiant and glorious",
+            "word": "Dyutiman"
+          },
+          {
+            "meaning": "free from jealousy",
+            "word": "Anasuyakah"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "philosophicalinsight": "Spiritual knowledge begins with sincere inquiry.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": true
+        },
+        "sanskrit": "एतदिच्छाम्यहं श्रोतुं परं कौतूहलं हि मे । महर्षे त्वं समर्थोऽसि ज्ञातुमेवंविधं नरम् ॥",
+        "simplemeaning": "I greatly desire to hear about such a person. O great sage, you are capable of knowing such a man.",
+        "storycontext": "Valmiki invites Narada to reveal the identity of this ideal being — who is Rama.",
+        "transliteration": "Etad icchamyaham shrotum param kautuhalam hi me, Maharṣe tvam samartho'si jnatum evam-vidham naram.",
+        "wordmeaning": [
+          {
+            "meaning": "I desire",
+            "word": "Icchami"
+          },
+          {
+            "meaning": "to hear",
+            "word": "Shrotum"
+          },
+          {
+            "meaning": "great curiosity",
+            "word": "Kautuhalam"
+          },
+          {
+            "meaning": "such a person",
+            "word": "Naram"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "philosophicalinsight": "Divine excellence is rare and extraordinary.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "बहवो दुर्लभाश्चैव ये त्वया कीर्तिता गुणाः । मुने वक्ष्याम्यहं बुद्ध्वा तैर्युक्तः श्रूयतां नरः ॥",
+        "simplemeaning": "Narada said: O sage, the qualities you described are many and rare. I will tell you about a person who possesses them.",
+        "storycontext": "Narada prepares to reveal the identity of the ideal man.",
+        "transliteration": "Bahavo durlabhash chaiva ye tvaya kirtita gunah, Mune vakshyamyaham buddhva tair yuktah shruyatam narah.",
+        "wordmeaning": [
+          {
+            "meaning": "many",
+            "word": "Bahavah"
+          },
+          {
+            "meaning": "rare",
+            "word": "Durlabhah"
+          },
+          {
+            "meaning": "qualities",
+            "word": "Gunah"
+          },
+          {
+            "meaning": "I will tell",
+            "word": "Vakshyami"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "philosophicalinsight": "Rama represents disciplined strength guided by Dharma.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "इक्ष्वाकुवंशप्रभवो रामो नाम जनैः श्रुतः । नियतात्मा महावीर्यो द्युतिमान् धृतिमान् वशी ॥",
+        "simplemeaning": "There is a man named Rama, born in the Ikshvaku dynasty. He is self-controlled, powerful, radiant, patient, and disciplined.",
+        "storycontext": "Narada introduces Rama as the ideal human.",
+        "transliteration": "Ikshvaku-vamsha-prabhavo Ramo nama janaih shrutah, Niyatatma maha-viryo dyutiman dhritiman vashi.",
+        "wordmeaning": [
+          {
+            "meaning": "the dynasty of Ikshvaku",
+            "word": "Ikshvaku-vamsha"
+          },
+          {
+            "meaning": "Rama",
+            "word": "Ramah"
+          },
+          {
+            "meaning": "self-controlled",
+            "word": "Niyatatma"
+          },
+          {
+            "meaning": "greatly powerful",
+            "word": "Mahavirya"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "philosophicalinsight": "Ideal leadership combines wisdom and strength.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "बुद्धिमान् नीतिमान् वाग्मी श्रीमान् शत्रुनिबर्हणः । विपुलांसो महाबाहुः कम्बुग्रीवो महाहनुः ॥",
+        "simplemeaning": "Rama is intelligent, righteous, eloquent, graceful, and destroyer of enemies. He has broad shoulders and mighty arms.",
+        "storycontext": "Narada describes Rama’s physical and moral excellence.",
+        "transliteration": "Buddhiman nitiman vagmi shriman shatru-nibarhanah, Vipulanso maha-bahuh kambu-grivo maha-hanuh.",
+        "wordmeaning": [
+          {
+            "meaning": "intelligent",
+            "word": "Buddhiman"
+          },
+          {
+            "meaning": "knower of ethics",
+            "word": "Nitiman"
+          },
+          {
+            "meaning": "destroyer of enemies",
+            "word": "Shatru-nibarhanah"
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "philosophicalinsight": "Outer form reflects inner excellence in epic symbolism.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "महोरस्को महेष्वासो गूढजत्रुररिन्दमः । आजानुबाहुः सुशिराः सुललाटः सुविक्रमः ॥",
+        "simplemeaning": "He has a broad chest, is a great archer, subdues enemies, has long arms, well-shaped head, and noble forehead.",
+        "storycontext": "Further description of Rama’s divine form.",
+        "transliteration": "Mahorasko maheshvaso gudha-jatrur arindamah, Ajanubahu sushirah sulalatah suvikramah.",
+        "wordmeaning": [
+          {
+            "meaning": "broad-chested",
+            "word": "Mahoraska"
+          },
+          {
+            "meaning": "subduer of enemies",
+            "word": "Arindama"
+          },
+          {
+            "meaning": "arms reaching knees",
+            "word": "Ajanubahu"
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "philosophicalinsight": "In Itihasa, divine virtue manifests as beauty and balance.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": true
+        },
+        "sanskrit": "Ik denk dat het goed is Ik denk dat Ik denk dat het goed is Ik denk dat",
+        "simplemeaning": "Rama's lichaam is perfect geproportioneerd, stralend, majestueus, heeft een brede bovenlijf, grote ogen en is gezegend met veelbelovende eigenschappen.",
+        "storycontext": "Narada rondt de fysieke beschrijving van Rama af.",
+        "transliteration": "Samah samavibhaktangah snigdha-varnah pratapavan, Pina-vaksha vishalaksho lakshmivan shubha-lakshanah.",
+        "wordmeaning": [
+          {
+            "meaning": "well-proportioned",
+            "word": "Samah"
+          },
+          {
+            "meaning": "majestic",
+            "word": "Pratapavan"
+          },
+          {
+            "meaning": "large-eyed",
+            "word": "Vishalaksha"
+          },
+          {
+            "meaning": "graceful and prosperous",
+            "word": "Lakshmivan"
+          }
+        ]
+      },
+      {
+        "number": 11,
+        "philosophicalinsight": "True leadership rests on truth and public welfare.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "धर्मज्ञः सत्यसंधश्च प्रजानां च हिते रतः । यशस्वी ज्ञानसम्पन्नः शुचिर्वश्यः समाधिमान् ॥",
+        "simplemeaning": "Rama knows Dharma, speaks truth, works for the welfare of his people, is famous, wise, pure, disciplined, and deeply focused.",
+        "storycontext": "Narada describes Rama’s moral foundation and kingly responsibility.",
+        "transliteration": "Dharmajnah satya-sandhash cha prajanam cha hite ratah, Yashasvi jnana-sampannah shuchir vashyah samadhiman.",
+        "wordmeaning": [
+          {
+            "meaning": "knower of righteousness",
+            "word": "Dharmajnah"
+          },
+          {
+            "meaning": "firm in truth",
+            "word": "Satya-sandha"
+          },
+          {
+            "meaning": "engaged in welfare of people",
+            "word": "Prajanam hite ratah"
+          },
+          {
+            "meaning": "focused and self-controlled",
+            "word": "Samadhiman"
+          }
+        ]
+      },
+      {
+        "number": 12,
+        "philosophicalinsight": "Dharma preservation is the highest duty of kingship.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "प्रजापतिसमः श्रीमान् धाता रिपुनिषूदनः । रक्षिता जीवलोकस्य धर्मस्य परिरक्षिता ॥",
+        "simplemeaning": "He is like the creator in protecting beings, destroys enemies, safeguards all life, and protects Dharma.",
+        "storycontext": "Rama is presented as cosmic protector in human form.",
+        "transliteration": "Prajapati-samah shriman dhata ripu-nishudanah, Rakshita jiva-lokasya dharmasya parirakshita.",
+        "wordmeaning": [
+          {
+            "meaning": "like the creator (protector of beings)",
+            "word": "Prajapati-samah"
+          },
+          {
+            "meaning": "destroyer of enemies",
+            "word": "Ripu-nishudanah"
+          },
+          {
+            "meaning": "protector",
+            "word": "Rakshita"
+          }
+        ]
+      },
+      {
+        "number": 13,
+        "philosophicalinsight": "Knowledge and strength must coexist in righteous authority.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "रक्षिता स्वस्य धर्मस्य स्वजनस्य च रक्षिता । वेदवेदाङ्गतत्त्वज्ञो धनुर्वेदे च निष्ठितः ॥",
+        "simplemeaning": "Rama protects his own Dharma and his people. He understands the Vedas and is skilled in the science of archery.",
+        "storycontext": "Balance between spiritual wisdom and martial excellence.",
+        "transliteration": "Rakshita svasya dharmasya sva-janasya cha rakshita, Veda-vedanga-tattvajno dhanur-vede cha nishthitah.",
+        "wordmeaning": [
+          {
+            "meaning": "knower of Vedas and scriptures",
+            "word": "Veda-vedanga-tattvajna"
+          },
+          {
+            "meaning": "science of archery",
+            "word": "Dhanur-veda"
+          }
+        ]
+      },
+      {
+        "number": 14,
+        "philosophicalinsight": "Universal respect arises from wisdom and compassion.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "सर्वशास्त्रार्थतत्त्वज्ञः स्मृतिमान् प्रतिभानवान् । सर्वलोकप्रियः साधुरदीनात्मा विचक्षणः ॥",
+        "simplemeaning": "He understands all scriptures, has great memory and intelligence, is loved by everyone, gentle, fearless, and wise.",
+        "storycontext": "Rama as universally admired ruler.",
+        "transliteration": "Sarva-shastra-artha-tattvajnah smritiman pratibhanavan, Sarva-loka-priyah sadhur adinatma vichakshanah.",
+        "wordmeaning": [
+          {
+            "meaning": "knower of all scriptures",
+            "word": "Sarva-shastra-tattvajna"
+          },
+          {
+            "meaning": "loved by all people",
+            "word": "Sarva-loka-priya"
+          },
+          {
+            "meaning": "wise and perceptive",
+            "word": "Vichakshana"
+          }
+        ]
+      },
+      {
+        "number": 15,
+        "philosophicalinsight": "Great souls naturally attract goodness and wisdom.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": true
+        },
+        "sanskrit": "सर्वदा अभिगतः साधुभिः समुद्र इव सिन्धुभिः । आर्यः सर्वसमश्चैव सदैव प्रियदर्शनः ॥",
+        "simplemeaning": "Noble people always approach him just as rivers flow into the ocean. He is noble, equal-minded, and always pleasing to behold.",
+        "storycontext": "Rama as center of virtue attracting the righteous.",
+        "transliteration": "Sarvada abhigatah sadhubhih samudra iva sindhubhih, Aryah sarva-samash chaiva sadaiva priya-darshanah.",
+        "wordmeaning": [
+          {
+            "meaning": "by noble people",
+            "word": "Sadhubhih"
+          },
+          {
+            "meaning": "like ocean approached by rivers",
+            "word": "Samudra iva sindhubhih"
+          },
+          {
+            "meaning": "noble and honorable",
+            "word": "Aryah"
+          }
+        ]
+      },
+      {
+        "number": 16,
+        "philosophicalinsight": "Ideal strength combines emotional depth and inner stability.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "स च सर्वगुणोपेतः कौसल्याऽनन्दवर्धनः । समुद्र इव गाम्भीर्ये धैर्येण हिमवानिव ॥",
+        "simplemeaning": "Rama possessed all virtues and brought joy to his mother Kausalya. He was deep like the ocean and steady like the Himalayas.",
+        "storycontext": "Final praise of Rama before the narrative begins.",
+        "transliteration": "Sa cha sarva-gunopetah Kausalya-ananda-vardhanah, Samudra iva gambhirye dhairyena Himavan iva.",
+        "wordmeaning": [
+          {
+            "meaning": "begiftigd met alle deugden",
+            "word": "Sarva-guna-upetah"
+          },
+          {
+            "meaning": "die Kausalya’s vreugde deed toenemen",
+            "word": "Kausalya-ananda-vardhanah"
+          },
+          {
+            "meaning": "diepte",
+            "word": "Gambhirya"
+          }
+        ]
+      },
+      {
+        "number": 17,
+        "philosophicalinsight": "Dharma requires both compassion and righteous force.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "विष्णुना सदृशो वीर्ये सोमवत्प्रियदर्शनः । कालाग्निसदृशः क्रोधे क्षमया पृथिवीसमः ॥",
+        "simplemeaning": "He was equal to Vishnu in strength, pleasant like the moon, fierce like cosmic fire in anger, and forgiving like the earth.",
+        "storycontext": "Rama’s divine nature is hinted clearly.",
+        "transliteration": "Vishnuna sadrisho virye Somavat priya-darshanah, Kala-agni-sadrishah krodhe kshamaya prithivi-samah.",
+        "wordmeaning": [
+          {
+            "meaning": "equal to Vishnu in strength",
+            "word": "Vishnuna sadrishah"
+          },
+          {
+            "meaning": "fire of destruction",
+            "word": "Kala-agni"
+          },
+          {
+            "meaning": "forgiveness",
+            "word": "Kshama"
+          }
+        ]
+      },
+      {
+        "number": 18,
+        "philosophicalinsight": "Truth is the foundation of divine heroism.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "धनदेन समस्त्यागे सत्ये धर्म इवापरः । तमेवं गुणसम्पन्नं रामं सत्यपराक्रमम् ॥",
+        "simplemeaning": "He was generous like Kubera and stood for truth like Dharma itself. Such was Rama, filled with virtues and true courage.",
+        "storycontext": "Narada completes the moral and divine portrait of Rama.",
+        "transliteration": "Dhanadena samas-tyage satye dharma ivaparah, Tam evam guna-sampannam Ramam satya-parakramam.",
+        "wordmeaning": [
+          {
+            "meaning": "like Kubera in generosity",
+            "word": "Dhanadena"
+          },
+          {
+            "meaning": "truth",
+            "word": "Satya"
+          },
+          {
+            "meaning": "valor",
+            "word": "Parakramam"
+          }
+        ]
+      },
+      {
+        "number": 19,
+        "philosophicalinsight": "Public affection follows righteous conduct.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "ज्येष्ठं श्रेष्ठगुणैर्युक्तं प्रियं दशरथस्य च । प्रकृतीनां हितैर्युक्तं प्रकृतिप्रियकाम्यया ॥",
+        "simplemeaning": "He was the eldest son of King Dasharatha, full of excellent qualities, loved by his father and cherished by the people.",
+        "storycontext": "Now the royal context is introduced.",
+        "transliteration": "Jyeshtham shreshtha-gunair yuktam priyam Dasharathasya cha, Prakritinam hitair yuktam prakriti-priya-kamyaya.",
+        "wordmeaning": [
+          {
+            "meaning": "eldest son",
+            "word": "Jyeshtham"
+          },
+          {
+            "meaning": "of King Dasharatha",
+            "word": "Dasharathasya"
+          },
+          {
+            "meaning": "citizens",
+            "word": "Prakritinam"
+          }
+        ]
+      },
+      {
+        "number": 20,
+        "philosophicalinsight": "Destiny unfolds through past vows and Dharma-bound promises.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": true
+        },
+        "sanskrit": "यौवराज्ये अभिषिक्तं तु राजपुत्रं प्रजाहिते । पित्रा दशरथेनोक्तं कैकेयीवरदर्पितम् ॥",
+        "simplemeaning": "Rama was to be crowned as crown prince for the welfare of the people. But King Dasharatha was bound by a promise given earlier to Kaikeyi.",
+        "storycontext": "This verse begins the dramatic turning point — the exile.",
+        "transliteration": "Yauvarajye abhisiktam tu raja-putram praja-hite, Pitra Dasharathenoktam Kaikeyi-vara-darpitam.",
+        "wordmeaning": [
+          {
+            "meaning": "crown prince position",
+            "word": "Yauvarajya"
+          },
+          {
+            "meaning": "boon granted to Kaikeyi",
+            "word": "Kaikeyi-vara"
+          }
+        ]
+      },
+      {
+        "number": 21,
+        "philosophicalinsight": "A ruler must uphold vows even at great personal cost.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "स सत्यवचनाद्राजा धर्मपाशेन संयुतः । कैकेय्या वचनं कृत्वा वनवासं समादिशत् ॥",
+        "simplemeaning": "Bound by his promise and Dharma, King Dasharatha ordered Rama to go into exile as demanded by Kaikeyi.",
+        "storycontext": "The king chooses Dharma over personal love.",
+        "transliteration": "Sa satya-vachanad raja dharma-pashena samyutah, Kaikeyya vachanam kritva vana-vasam samadishat.",
+        "wordmeaning": [
+          {
+            "meaning": "truthful promise",
+            "word": "Satya-vachana"
+          },
+          {
+            "meaning": "bond of righteousness",
+            "word": "Dharma-pasha"
+          },
+          {
+            "meaning": "forest exile",
+            "word": "Vana-vasam"
+          }
+        ]
+      },
+      {
+        "number": 22,
+        "philosophicalinsight": "True Dharma is practiced without resistance or ego.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "तं श्रुत्वा नाभ्यनन्दत्त रामो दुःखसमन्वितः । पितुर्वचनमाज्ञाय वनं गन्तुं मनो दधे ॥",
+        "simplemeaning": "Hearing this, Rama did not feel anger. Respecting his father’s word, he resolved to go to the forest.",
+        "storycontext": "Rama’s calm acceptance of exile.",
+        "transliteration": "Tam shrutva nabhyanandatta Ramo duhkha-samanvitah, Pitur vachanam ajnaya vanam gantum mano dadhe.",
+        "wordmeaning": [
+          {
+            "meaning": "father’s command",
+            "word": "Pitur vachanam"
+          },
+          {
+            "meaning": "to go to the forest",
+            "word": "Vanam gantum"
+          }
+        ]
+      },
+      {
+        "number": 23,
+        "philosophicalinsight": "Righteous leaders inspire deep emotional bonds with their people.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "स जगाम वनं वीरः लक्ष्मणेन समन्वितः । भार्यया सीतया चैव प्रजाः शोकसमन्विताः ॥",
+        "simplemeaning": "Rama departed to the forest along with Lakshmana and Sita, while the people of Ayodhya were filled with grief.",
+        "storycontext": "The royal departure from Ayodhya.",
+        "transliteration": "Sa jagama vanam virah Lakshmanena samanvitah, Bharyaya Sitaya chaiva prajah shoka-samanvitah.",
+        "wordmeaning": [
+          {
+            "meaning": "met Lakshmana",
+            "word": "Lakshmanena"
+          },
+          {
+            "meaning": "with Sita",
+            "word": "Sitaya"
+          },
+          {
+            "meaning": "sorrow",
+            "word": "Shoka"
+          }
+        ]
+      },
+      {
+        "number": 24,
+        "philosophicalinsight": "Dharma transcends social boundaries; true friendship is based on virtue.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "गङ्गामनुप्रपन्नस्तु गुहं चाभ्यगमत्प्रभुः । तत्र शृङ्गवेरपुरे मित्रं निषादराजकम् ॥",
+        "simplemeaning": "Rama reached the river Ganga and met his friend Guha, the Nishada king, at Shrngaverapura.",
+        "storycontext": "Beginning of forest journey and alliances.",
+        "transliteration": "Gangam anuprapannas tu Guham chabhyagamat prabhuh, Tatra Shrngaverapure mitram Nishada-rajakam.",
+        "wordmeaning": [
+          {
+            "meaning": "river Ganga",
+            "word": "Ganga"
+          },
+          {
+            "meaning": "Nishada king Guha",
+            "word": "Guha"
+          },
+          {
+            "meaning": "kingdom of Guha",
+            "word": "Shrngaverapura"
+          }
+        ]
+      },
+      {
+        "number": 25,
+        "philosophicalinsight": "Even in exile, Rama seeks guidance from sages.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": true
+        },
+        "sanskrit": "तत्र रात्रिं निवसित्वा गङ्गां तीर्त्वा महायशाः । भरद्वाजाश्रमं गत्वा तं मुनिं समुपागमत् ॥",
+        "simplemeaning": "After staying there overnight and crossing the Ganga, Rama visited the hermitage of Sage Bharadvaja.",
+        "storycontext": "Transition deeper into forest exile.",
+        "transliteration": "Tatra ratrim nivasitva Gangam tirtva maha-yashah, Bharadvajashramam gatva tam munim samupagamat.",
+        "wordmeaning": [
+          {
+            "meaning": "hermitage of Sage Bharadvaja",
+            "word": "Bharadvaja-ashramam"
+          },
+          {
+            "meaning": "sage",
+            "word": "Muni"
+          }
+        ]
+      },
+      {
+        "number": 26,
+        "philosophicalinsight": "Guidance from sages precedes major life transitions.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "भरद्वाजाभ्यनुज्ञातः चित्रकूटं जगाम ह । रम्यमावसथं कृत्वा तत्र वासं चकार ह ॥",
+        "simplemeaning": "With Sage Bharadvaja’s permission, Rama went to Chitrakuta and built a pleasant dwelling there.",
+        "storycontext": "Rama begins settled forest life at Chitrakuta.",
+        "transliteration": "Bharadvaja-abhyanujnatah Chitrakutam jagama ha, Ramyam avasatham kritva tatra vasam chakara ha.",
+        "wordmeaning": [
+          {
+            "meaning": "with permission of Sage Bharadvaja",
+            "word": "Bharadvaja-abhyanujnatah"
+          },
+          {
+            "meaning": "Chitrakuta mountain",
+            "word": "Chitrakutam"
+          },
+          {
+            "meaning": "dwelling place",
+            "word": "Avasatham"
+          }
+        ]
+      },
+      {
+        "number": 27,
+        "philosophicalinsight": "Happiness does not depend on luxury but inner discipline.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "लक्ष्मणेन कृतां कुटीं सीतया सह राघवः । उवास सुखितो धीमान् वन्याहारः जितेन्द्रियः ॥",
+        "simplemeaning": "Lakshmana built a hut, and Rama lived there happily with Sita, eating forest food and practicing self-control.",
+        "storycontext": "Royal life is replaced by ascetic simplicity.",
+        "transliteration": "Lakshmanena kritam kutim Sitaya saha Raghavah, Uvasa sukhito dhiman vanya-aharah jitendriyah.",
+        "wordmeaning": [
+          {
+            "meaning": "hut",
+            "word": "Kutī"
+          },
+          {
+            "meaning": "living on forest food",
+            "word": "Vanya-aharah"
+          },
+          {
+            "meaning": "self-controlled",
+            "word": "Jitendriyah"
+          }
+        ]
+      },
+      {
+        "number": 28,
+        "philosophicalinsight": "Contentment transforms hardship into harmony.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "तत्र तौ निवसन्तौ तु पर्वते चित्रकूटके । रममाणौ वने नित्यं सीतया लक्ष्मणेन च ॥",
+        "simplemeaning": "There at Chitrakuta mountain, Rama lived joyfully in the forest with Sita and Lakshmana.",
+        "storycontext": "A peaceful phase of exile.",
+        "transliteration": "Tatra tau nivasantau tu parvate Chitrakutake, Ramamanau vane nityam Sitaya Lakshmanena cha.",
+        "wordmeaning": [
+          {
+            "meaning": "living there",
+            "word": "Nivasantau"
+          },
+          {
+            "meaning": "delighting",
+            "word": "Ramamanau"
+          },
+          {
+            "meaning": "in the forest",
+            "word": "Vane"
+          }
+        ]
+      },
+      {
+        "number": 29,
+        "philosophicalinsight": "Attachment can overpower even great kings.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "अयोध्यायां तु राजर्षिर्दशरथो महायशाः । रामशोकपरिदग्धो न जीवितुमशक्नुवत् ॥",
+        "simplemeaning": "Meanwhile in Ayodhya, King Dasharatha, deeply burned by grief over Rama, could not continue to live.",
+        "storycontext": "Dasharatha’s sorrow leads to his death.",
+        "transliteration": "Ayodhyayam tu rajarshir Dasharatho mahayashah, Rama-shoka-paridagdho na jivitum ashaknavat.",
+        "wordmeaning": [
+          {
+            "meaning": "grief for Rama",
+            "word": "Rama-shoka"
+          },
+          {
+            "meaning": "burned by sorrow",
+            "word": "Paridagdha"
+          }
+        ]
+      },
+      {
+        "number": 30,
+        "philosophicalinsight": "Ware broeders zijn verenigd door Dharma, niet door ambitie.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": true
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat het goed is ॥",
+        "simplemeaning": "Toen Bharata hoorde van de dood van zijn vader, werd hij overweldigd door verdriet en ging hij naar Chitrakuta om Rama te ontmoeten.",
+        "storycontext": "Dit bereidt de grote ontmoeting tussen Rama en Bharata voor.",
+        "transliteration": "Mritam tu pitaram shrutva Bharato duhkha-murchhitah, Agatya Chitrakuta-stham Ramam drashtum upasthitah.",
+        "wordmeaning": [
+          {
+            "meaning": "Rama's jongere broer",
+            "word": "Bharata"
+          },
+          {
+            "meaning": "verblijf in Chitrakuta",
+            "word": "Chitrakuta-stham"
+          }
+        ]
+      },
+      {
+        "number": 31,
+        "philosophicalinsight": "Ware nederigheid definieert een nobel karakter.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "भरतः चित्रकूटस्थं रामं द्रष्टुं समागतः । शोकसन्तप्तहृदयः भ्रातरं प्रणनाम ह ॥",
+        "simplemeaning": "Bharata came to Chitrakuta to see Rama. Filled with grief, he bowed before his elder brother.",
+        "storycontext": "The emotional reunion of the brothers.",
+        "transliteration": "Bharatah Chitrakuta-stham Ramam drashtum samagatah, Shoka-santapta-hridayah bhrataram pranamama ha.",
+        "wordmeaning": [
+          {
+            "meaning": "residing at Chitrakuta",
+            "word": "Chitrakuta-stham"
+          },
+          {
+            "meaning": "bowed down",
+            "word": "Pranamama"
+          }
+        ]
+      },
+      {
+        "number": 32,
+        "philosophicalinsight": "Dharma over ambition.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "नाहं राज्यं ग्रहिष्यामि पितुर्वचनकारणात् । त्वमेव राजाऽयोध्यायां प्रतिनन्दामि राघव ॥",
+        "simplemeaning": "I will not accept the kingdom gained through father’s command. You alone are the rightful king of Ayodhya.",
+        "storycontext": "Bharata refuses the throne.",
+        "transliteration": "Naham rajyam grahishyami pitur-vachana-karanat, Tvam eva raja Ayodhyayam pratinandami Raghava.",
+        "wordmeaning": [
+          {
+            "meaning": "kingdom",
+            "word": "Rajyam"
+          },
+          {
+            "meaning": "father’s command",
+            "word": "Pitur-vachana"
+          }
+        ]
+      },
+      {
+        "number": 33,
+        "philosophicalinsight": "Respect toward Dharma is expressed through surrender of ego.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "एवं उक्त्वा महाराजं रामं सत्यपराक्रमम् । पुनः पुनः प्रणम्याथ शिरसा धारयन्महीम् ॥",
+        "simplemeaning": "Having spoken thus to Rama, heroic in truth, Bharata repeatedly bowed down, touching the earth with his head.",
+        "storycontext": "Bharata’s deep reverence and grief.",
+        "transliteration": "Evam uktva Maharajam Ramam satya-parakramam, Punah punah pranamyatha shirasa dharayan mahim.",
+        "wordmeaning": [
+          {
+            "meaning": "heroic in truth",
+            "word": "Satya-parakramam"
+          },
+          {
+            "meaning": "bowing repeatedly",
+            "word": "Pranamya"
+          }
+        ]
+      },
+      {
+        "number": 34,
+        "philosophicalinsight": "Compassion strengthens righteousness.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "रामोऽपि तं समालिङ्ग्य भ्रातरं प्रियदर्शनम् । उवाच मधुरां वाणीं धर्मयुक्तां मनोहराम् ॥",
+        "simplemeaning": "Rama embraced his beloved brother and spoke gentle words filled with Dharma.",
+        "storycontext": "The compassionate exchange between Rama and Bharata.",
+        "transliteration": "Ramo'pi tam samalingya bhrataram priya-darshanam, Uvacha madhuram vanim dharma-yuktam manoharam.",
+        "wordmeaning": [
+          {
+            "meaning": "embracing",
+            "word": "Samalingya"
+          },
+          {
+            "meaning": "filled with righteousness",
+            "word": "Dharma-yuktam"
+          }
+        ]
+      },
+      {
+        "number": 35,
+        "philosophicalinsight": "Dharma once accepted must be completed fully.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": true
+        },
+        "sanskrit": "चतुर्दश हि वर्षाणि वनवासो मया कृतः । ततोऽयोध्यां पुनर्यायि सत्यं पितृवचः कृतम् ॥",
+        "simplemeaning": "For fourteen years I must remain in exile. After fulfilling father’s promise, I will return to Ayodhya.",
+        "storycontext": "Rama firmly upholds his vow.",
+        "transliteration": "Chaturdasha hi varshani vana-vaso maya kritah, Tato Ayodhyam punar yasyami satyam pitru-vachah kritam.",
+        "wordmeaning": [
+          {
+            "meaning": "fourteen years",
+            "word": "Chaturdasha varshani"
+          },
+          {
+            "meaning": "father’s word",
+            "word": "Pitru-vachah"
+          }
+        ]
+      },
+      {
+        "number": 36,
+        "philosophicalinsight": "Authority belongs to Dharma, not to the individual ego.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "एवं उक्ते तु रामेण भरतः सत्यविक्रमः । पादुके गृह्य रामस्य शिरसा धारयत् तदा ॥",
+        "simplemeaning": "After Rama spoke, Bharata, firm in truth, took Rama’s sandals and placed them on his head with reverence.",
+        "storycontext": "Beginning of the Paduka episode.",
+        "transliteration": "Evam ukte tu Ramena Bharatah satya-vikramah, Paduke grihya Ramasya shirasa dharayat tada.",
+        "wordmeaning": [
+          {
+            "meaning": "sandals",
+            "word": "Paduke"
+          },
+          {
+            "meaning": "placed upon his head",
+            "word": "Shirasa dharayat"
+          }
+        ]
+      },
+      {
+        "number": 37,
+        "philosophicalinsight": "Leadership is stewardship, not possession.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "ताभ्यां राज्यं प्रदास्यामि न्यासभूताभ्यां इत्युवाच । नाहं राजेति निश्चिन्त्य रामपादप्रसादतः ॥",
+        "simplemeaning": "Bharata declared that he would rule the kingdom as a sacred trust under the authority of Rama’s sandals. He said, ‘I am not the king.’",
+        "storycontext": "Bharata renounces kingship.",
+        "transliteration": "Tabhyam rajyam pradasyami nyasa-bhutabhyam ity uvacha, Naham rajeti nishchintya Rama-pada-prasadatah.",
+        "wordmeaning": [
+          {
+            "meaning": "as sacred trust",
+            "word": "Nyasa-bhutabhyam"
+          },
+          {
+            "meaning": "kingdom",
+            "word": "Rajyam"
+          }
+        ]
+      },
+      {
+        "number": 38,
+        "philosophicalinsight": "True power is exercised with restraint and humility.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "नन्दिग्रामे निवसित्वा तपोव्रतपरायणः । रामागमनकालं स प्रतीक्षन् धर्मसंस्थितः ॥",
+        "simplemeaning": "Living in Nandigrama, Bharata practiced austerity and patiently awaited Rama’s return, firmly established in Dharma.",
+        "storycontext": "Bharata governs as ascetic regent.",
+        "transliteration": "Nandigrame nivasitva tapo-vrata-parayanah, Rama-agamana-kalam sa pratikshan dharma-samsthitah.",
+        "wordmeaning": [
+          {
+            "meaning": "dorp in de buurt van Ayodhya",
+            "word": "Nandigrama"
+          },
+          {
+            "meaning": "soberheid en gelofte",
+            "word": "Tapo-vrata"
+          },
+          {
+            "meaning": "waiting for",
+            "word": "Pratikshan"
+          }
+        ]
+      },
+      {
+        "number": 39,
+        "philosophicalinsight": "Dharma continues regardless of circumstance.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "रामोऽपि चित्रकूटस्थः पितृकार्याणि चाकरोत् । श्राद्धं कृत्वा विधानेन दुःखशोकसमन्वितः ॥",
+        "simplemeaning": "Rama performed the proper funeral rites for his father at Chitrakuta, filled with grief.",
+        "storycontext": "Rama fulfills son’s duty even in exile.",
+        "transliteration": "Ramo'pi Chitrakuta-sthah pitru-karyani chakorot, Shraddham kritva vidhanena duhkha-shoka-samanvitah.",
+        "wordmeaning": [
+          {
+            "meaning": "rites for father",
+            "word": "Pitru-karyani"
+          },
+          {
+            "meaning": "funeral ritual",
+            "word": "Shraddham"
+          }
+        ]
+      },
+      {
+        "number": 40,
+        "philosophicalinsight": "Dharma moves from personal sacrifice to active protection of righteousness.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": true
+        },
+        "sanskrit": "ततः परं वनं गत्वा दण्डकारण्यमाश्रितः । ऋषीणां रक्षणार्थाय राक्षसानां विनाशनः ॥",
+        "simplemeaning": "After this, Rama moved deeper into the forest of Dandakaranya to protect sages and destroy demons.",
+        "storycontext": "Transition from exile to mission phase.",
+        "transliteration": "Tatah param vanam gatva Dandakaranyam asritah, Rishinam rakshanarthaya rakshasanam vinashanah.",
+        "wordmeaning": [
+          {
+            "meaning": "great southern forest region",
+            "word": "Dandakaranya"
+          },
+          {
+            "meaning": "for protection of sages",
+            "word": "Rishinam rakshanarthaya"
+          }
+        ]
+      },
+      {
+        "number": 41,
+        "philosophicalinsight": "Dharma requires active defense of righteousness.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "दण्डकारण्यवासं तु कृत्वा धर्मपरायणः । ऋषीणां वचनं श्रुत्वा राक्षसान् निहतान् बहून् ॥",
+        "simplemeaning": "Living in Dandakaranya, devoted to Dharma, Rama heard the sages' pleas and killed many demons.",
+        "storycontext": "Rama begins protecting sages from demon oppression.",
+        "transliteration": "Dandakaranya-vasam tu kritva dharma-parayanah, Rishinam vachanam shrutva rakshasan nihatan bahun.",
+        "wordmeaning": [
+          {
+            "meaning": "great southern forest region",
+            "word": "Dandakaranya"
+          },
+          {
+            "meaning": "words of the sages",
+            "word": "Rishinam vachanam"
+          },
+          {
+            "meaning": "demons",
+            "word": "Rakshasan"
+          }
+        ]
+      },
+      {
+        "number": 42,
+        "philosophicalinsight": "Uncontrolled desire leads to destruction.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "तत्र शूर्पणखा नाम राक्षसी काममोहिता । रामं द्रष्टुं समायाता विकृताननदर्शनम् ॥",
+        "simplemeaning": "There came a demoness named Shurpanakha, driven by desire, who approached Rama.",
+        "storycontext": "Introduction of Shurpanakha — turning point event.",
+        "transliteration": "Tatra Shurpanakha nama rakshasi kama-mohita, Ramam drashtum samayata vikritanana-darshanam.",
+        "wordmeaning": [
+          {
+            "meaning": "sister of Ravana",
+            "word": "Shurpanakha"
+          },
+          {
+            "meaning": "deluded by desire",
+            "word": "Kama-mohita"
+          }
+        ]
+      },
+      {
+        "number": 43,
+        "philosophicalinsight": "Insulted ego seeks revenge.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "लक्ष्मणेन तदा क्रुद्धा नासिका कर्णच्छेदिता । सा रावणं समाश्रित्य तं वृत्तान्तमवोचत ॥",
+        "simplemeaning": "Lakshmana, angered by her actions, cut off her nose and ears. She then went to Ravana and told him what had happened.",
+        "storycontext": "Incident that triggers Ravana’s involvement.",
+        "transliteration": "Lakshmanena tada kruddha nasika-karna-chedita, Sa Ravanam samashritya tam vrittantam avocata.",
+        "wordmeaning": [
+          {
+            "meaning": "nose and ears cut",
+            "word": "Nasika-karna-chedita"
+          },
+          {
+            "meaning": "Ravana",
+            "word": "Ravanam"
+          }
+        ]
+      },
+      {
+        "number": 44,
+        "philosophicalinsight": "Righteous force restores balance.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "खरदूषणसहितान् राक्षसान् युद्धे निहत्य सः । वीर्येण महता युक्तो धर्ममार्गे व्यवस्थितः ॥",
+        "simplemeaning": "Rama killed Khara, Dushana, and many demons in battle, remaining firm in the path of Dharma.",
+        "storycontext": "Major forest battle victory.",
+        "transliteration": "Khara-Dushana-sahitan rakshasan yuddhe nihatya sah, Viryena mahata yukto dharma-marge vyavasthitah.",
+        "wordmeaning": [
+          {
+            "meaning": "demon commanders",
+            "word": "Khara-Dushana"
+          },
+          {
+            "meaning": "in battle",
+            "word": "Yuddhe"
+          }
+        ]
+      },
+      {
+        "number": 45,
+        "philosophicalinsight": "Illusion (Maya) becomes the instrument of adharma.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": true
+        },
+        "sanskrit": "ततः रावणसंकल्पो सीताहरणकारणम् । मारिचं प्रेरयामास मायामृगरूपधारिणम् ॥",
+        "simplemeaning": "Then Ravana decided to abduct Sita and sent Maricha disguised as a magical deer.",
+        "storycontext": "Beginning of the Golden Deer episode.",
+        "transliteration": "Tatah Ravana-sankalpo Sita-harana-karanam, Maricham prerayamas mayamriga-rupa-dharinam.",
+        "wordmeaning": [
+          {
+            "meaning": "abduction of Sita",
+            "word": "Sita-harana"
+          },
+          {
+            "meaning": "demon ally of Ravana",
+            "word": "Maricha"
+          },
+          {
+            "meaning": "illusory golden deer",
+            "word": "Maya-mriga"
+          }
+        ]
+      },
+      {
+        "number": 46,
+        "philosophicalinsight": "Illusion attracts even the wise when driven by affection.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "स तु मायामृगो भूत्वा रामं दूरं निनाय ह । रामेण बाणेन हतः स मारीचो व्यनदद्भृशम् ॥",
+        "simplemeaning": "Maricha werd het magische hert en lokte Rama ver weg. Toen hij door Rama's pijl werd getroffen, schreeuwde hij luid.",
+        "storycontext": "Golden Deer deception unfolds.",
+        "transliteration": "Sa tu maya-mrigo bhutva Ramam duram ninaya ha, Ramena banena hatah sa Maricho vyanadad bhrisham.",
+        "wordmeaning": [
+          {
+            "meaning": "illusory deer",
+            "word": "Maya-mriga"
+          },
+          {
+            "meaning": "demon ally of Ravana",
+            "word": "Maricha"
+          },
+          {
+            "meaning": "by arrow",
+            "word": "Banena"
+          }
+        ]
+      },
+      {
+        "number": 47,
+        "philosophicalinsight": "Deception often uses trusted voices.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "हा सीते लक्ष्मणेत्युक्त्वा रामरूपधरोऽसुरः । प्राणान् मुमोच दुःखार्तो रावणार्थे कृतोद्यमः ॥",
+        "simplemeaning": "Imitating Rama’s voice, Maricha cried ‘O Sita! O Lakshmana!’ and then died, having fulfilled Ravana’s plan.",
+        "storycontext": "Lakshmana is drawn away from Sita.",
+        "transliteration": "Ha Site Lakshmana ity uktva Rama-rupa-dharo'surah, Pranan mumoca duhkha-arto Ravana-arthe kritodyamah.",
+        "wordmeaning": [
+          {
+            "meaning": "taking Rama’s voice/form",
+            "word": "Rama-rupa-dhara"
+          },
+          {
+            "meaning": "gave up life",
+            "word": "Pranan mumoca"
+          }
+        ]
+      },
+      {
+        "number": 48,
+        "philosophicalinsight": "Adharma strikes when vigilance weakens.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "ततो लक्ष्मणनिर्गम्य रक्षितुं भ्रातरं ययौ । सीता तत्रैकतां याता रावणेनाभ्युपागता ॥",
+        "simplemeaning": "Lakshmana left to protect Rama. Sita was left alone, and Ravana approached her.",
+        "storycontext": "Moment of vulnerability.",
+        "transliteration": "Tato Lakshmana nirgamy rakshitum bhrataram yayau, Sita tatraikatam yata Ravanenabhyupagata.",
+        "wordmeaning": [
+          {
+            "meaning": "Lakshmana departed",
+            "word": "Lakshmana nirgamy"
+          },
+          {
+            "meaning": "by Ravana",
+            "word": "Ravanena"
+          }
+        ]
+      },
+      {
+        "number": 49,
+        "philosophicalinsight": "Evil often hides behind false humility.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "भिक्षुरूपधरो राक्षसः सीताम् आहृत्य रावणः । गृहीत्वा गगनं यातो लङ्कां प्रति दुरात्मवान् ॥",
+        "simplemeaning": "Ravana, disguised as a mendicant, abducted Sita and carried her through the sky toward Lanka.",
+        "storycontext": "Sita Harana (abduction).",
+        "transliteration": "Bhikshu-rupa-dharo rakshasah Sitam ahritva Ravanah, Grihitva gaganam yato Lankam prati duratmavan.",
+        "wordmeaning": [
+          {
+            "meaning": "in form of a mendicant",
+            "word": "Bhikshu-rupa"
+          },
+          {
+            "meaning": "city of Lanka",
+            "word": "Lankam"
+          }
+        ]
+      },
+      {
+        "number": 50,
+        "philosophicalinsight": "True loyalty stands firm even before death.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": true
+        },
+        "sanskrit": "जटायुः तं समासाद्य युद्धे रावणमाहवे । छिन्नपक्षः पतित्वा च रामायाख्यातवान् ततः ॥",
+        "simplemeaning": "Jatayu fought Ravana bravely, but his wings were cut. Before dying, he informed Rama of Sita’s abduction.",
+        "storycontext": "Jatayu’s heroic sacrifice.",
+        "transliteration": "Jatayuh tam samasadya yuddhe Ravanam ahave, Chinna-pakshah patitva cha Ramayakhyatavan tatah.",
+        "wordmeaning": [
+          {
+            "meaning": "vulture king, friend of Dasharatha",
+            "word": "Jatayu"
+          },
+          {
+            "meaning": "with wings cut",
+            "word": "Chinna-paksha"
+          }
+        ]
+      },
+      {
+        "number": 51,
+        "philosophicalinsight": "Even divine beings experience human emotion.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "सीतायाः वियोगेन रामः शोकसमन्वितः । विललाप महाबाहुः वनं सर्वं विचिन्वन् ॥",
+        "simplemeaning": "Separated from Sita, Rama was filled with grief and searched the forest, lamenting deeply.",
+        "storycontext": "Rama’s human sorrow after Sita’s abduction.",
+        "transliteration": "Sitayah viyogena Ramah shoka-samanvitah, Vilalapa maha-bahuh vanam sarvam vichinvan.",
+        "wordmeaning": [
+          {
+            "meaning": "separation",
+            "word": "Viyoga"
+          },
+          {
+            "meaning": "lamented",
+            "word": "Vilalapa"
+          }
+        ]
+      },
+      {
+        "number": 52,
+        "philosophicalinsight": "Dharma extends beyond species — loyalty is sacred.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "जटायुषं मृतं दृष्ट्वा दुःखार्तो रघुनन्दनः । तं संस्पृश्य च कृत्वा तु तस्य संस्कारमादरात् ॥",
+        "simplemeaning": "Seeing the dead Jatayu, Rama was sorrowful and performed his funeral rites with respect.",
+        "storycontext": "Honor given to Jatayu.",
+        "transliteration": "Jatayusham mritam drishtva duhkha-arto Raghunandanah, Tam samsprishya cha kritva tu tasya samskaram adarat.",
+        "wordmeaning": [
+          {
+            "meaning": "funeral rites",
+            "word": "Samskara"
+          },
+          {
+            "meaning": "Rama",
+            "word": "Raghunandana"
+          }
+        ]
+      },
+      {
+        "number": 53,
+        "philosophicalinsight": "Even enemies can become guides when liberated.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "कबन्धं नाम राक्षसं हत्वा मुक्तिं ददौ प्रभुः । स तु रामं समादिश्य सुग्रीवस्य समीपतः ॥",
+        "simplemeaning": "Rama killed the demon Kabandha and granted him liberation. Kabandha advised Rama to seek Sugriva.",
+        "storycontext": "Direction toward alliance with Sugriva.",
+        "transliteration": "Kabandham nama rakshasam hatva muktim dadau prabhuh, Sa tu Ramam samadishya Sugrivasya samipatah.",
+        "wordmeaning": [
+          {
+            "meaning": "a demon",
+            "word": "Kabandha"
+          },
+          {
+            "meaning": "vanara king in exile",
+            "word": "Sugriva"
+          }
+        ]
+      },
+      {
+        "number": 54,
+        "philosophicalinsight": "Pure devotion transcends caste and status.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "शबरीं च समासाद्य भक्त्या परिपूजितः । तस्या आश्रमपदं गत्वा मार्गं दर्शितवान् पुनः ॥",
+        "simplemeaning": "Rama met Shabari, who worshipped him with devotion. From there, he was shown the path forward.",
+        "storycontext": "Shabari's toewijdingsaflevering.",
+        "transliteration": "Shabarim cha samasadya bhaktya paripujitah, Tasya ashrama-padam gatva margam darshitavan punah.",
+        "wordmeaning": [
+          {
+            "meaning": "toegewijde ascetische vrouw",
+            "word": "Shabari"
+          },
+          {
+            "meaning": "met toewijding",
+            "word": "Bhaktya"
+          }
+        ]
+      },
+      {
+        "number": 55,
+        "philosophicalinsight": "Goddelijke missie vereist waardige bondgenoten.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat ik het goed heb gedaan",
+        "simplemeaning": "Rama bereikte de Rishyamuka-berg en sloot via Hanuman een vriendschap met Sugriva.",
+        "storycontext": "Begin van de Kishkindha-alliantie.",
+        "transliteration": "Tatah Rishyamuka-parvate Sugrivam upagacchat, Hanumata sahayena sa mitratvam chakara ha.",
+        "wordmeaning": [
+          {
+            "meaning": "berg waar Sugriva verbleef",
+            "word": "Rishyamuka"
+          },
+          {
+            "meaning": "toegewijde Vanara-krijger",
+            "word": "Hanuman"
+          }
+        ]
+      },
+      {
+        "number": 56,
+        "philosophicalinsight": "Gerechtigheid herstelt rechtmatig leiderschap.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan कृतम् । Ik denk dat het goed is Ik denk dat dat zo is",
+        "simplemeaning": "Toen Rama het verdriet van Sugriva hoorde, vermoordde hij Vali en beloofde hij Sita te zoeken.",
+        "storycontext": "Rama vervult de alliantieplicht.",
+        "transliteration": "Sugrivasya tada duhkham shrutva Vali-vadham kritam, Pratijnam chakarot Ramah Sita-sandhana-karanat.",
+        "wordmeaning": [
+          {
+            "meaning": "moord op Vali",
+            "word": "Vali-vadha"
+          },
+          {
+            "meaning": "gelofte",
+            "word": "Pratijna"
+          }
+        ]
+      },
+      {
+        "number": 57,
+        "philosophicalinsight": "Organisatie volgt rechtmatig leiderschap.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat het Ik denk dat ik het goed heb gedaan",
+        "simplemeaning": "Nadat Vali was vermoord en Sugriva zijn koninkrijk had herwonnen, stuurde hij de Vanara's om Sita te zoeken.",
+        "storycontext": "Zoekmissie begint.",
+        "transliteration": "Valinam nihatam drishtva Sugrivo rajyam prapya cha, Vanaran preshayamasa Sita-margana-karmani.",
+        "wordmeaning": [
+          {
+            "meaning": "apen krijgers",
+            "word": "Vanara"
+          },
+          {
+            "meaning": "zoeken",
+            "word": "Margana"
+          }
+        ]
+      },
+      {
+        "number": 58,
+        "philosophicalinsight": "Uitdagingen verschijnen vóór een doorbraak.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat ik het goed heb gedaan",
+        "simplemeaning": "Hanuman en Angada gingen in zuidelijke richting en bereikten diep nadenkend de kust.",
+        "storycontext": "Zoeken bereikt de oceaanbarrière.",
+        "transliteration": "Hanuman Angadena saha dakshinam disham agamat, Samudra-tiram asadya chintam param upagamat.",
+        "wordmeaning": [
+          {
+            "meaning": "zoon van Vali",
+            "word": "Angada"
+          },
+          {
+            "meaning": "zuidelijke richting",
+            "word": "Dakshinam schotel"
+          }
+        ]
+      },
+      {
+        "number": 59,
+        "philosophicalinsight": "Geloof ontsluit onmogelijke kracht.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat ik het goed heb gedaan",
+        "simplemeaning": "Hanuman, de zoon van de wind, sprong over de oceaan, trok Lanka binnen en bereikte Sita in het Ashoka-bos.",
+        "storycontext": "Hanumans grote sprong.",
+        "transliteration": "Samudram langhayamasa Hanuman Marutatmajah, Lankam pravishya Sitam cha Ashoka-vanikam gatah.",
+        "wordmeaning": [
+          {
+            "meaning": "sprong over",
+            "word": "Langhayamasa"
+          },
+          {
+            "meaning": "Ashoka-bosje in Lanka",
+            "word": "Ashoka-vanika"
+          }
+        ]
+      },
+      {
+        "number": 60,
+        "philosophicalinsight": "Hoop houdt toewijding in stand, zelfs in gevangenschap.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": true
+        },
+        "sanskrit": "Ik denk dat het goed is Ik denk dat het goed is Ik denk dat ik het goed heb gedaan ॥",
+        "simplemeaning": "Toen Hanuman zag dat Sita verdrietig Rama's naam reciteerde, gaf Hanuman haar Rama's ring, troostte haar en bereidde zich voor om terug te keren.",
+        "storycontext": "Sita ontvangt bewijs van Rama's boodschap.",
+        "transliteration": "Drishtva Sitam duhkhi-tam Rama-nama-prakirtanam, Datva mudram cha Ramasya ashvasya cha punar yayau.",
+        "wordmeaning": [
+          {
+            "meaning": "zegelring",
+            "word": "Mudra"
+          },
+          {
+            "meaning": "getroost",
+            "word": "Ashvasya"
+          }
+        ]
+      },
+      {
+        "number": 61,
+        "philosophicalinsight": "Toewijding brengt troost tijdens wanhoop.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat ik het goed heb gedaan",
+        "simplemeaning": "Toen Hanuman, de meelevende boodschapper van Rama, hoorde van Sita’s lijden onder Ravana, troostte hij haar.",
+        "storycontext": "Hanuman versterkt Sita’s hoop.",
+        "transliteration": "Sitayah duhkham akarṇya Ravanasyadurātmanah, Hanuman ashvayāmāsa Rama-dutah kripa-nidhih.",
+        "wordmeaning": [
+          {
+            "meaning": "boodschapper van Rama",
+            "word": "Rama-duta"
+          },
+          {
+            "meaning": "schat van mededogen",
+            "word": "Kripa-nidhi"
+          }
+        ]
+      },
+      {
+        "number": 62,
+        "philosophicalinsight": "Rechtvaardige woede vernietigt onrechtvaardigheid.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat het Ik denk dat ik het goed heb gedaan",
+        "simplemeaning": "Nadat hij Lanka met zijn staart had verbrand en het demonenleger had verslagen, sprong Hanuman terug over de oceaan naar Rama.",
+        "storycontext": "Brandende episode in Lanka.",
+        "transliteration": "Lankam pradipya langulena dagdhva rakshasa-sainikam, Punah samudram utplutya Ramam prati jagama ha.",
+        "wordmeaning": [
+          {
+            "meaning": "met zijn staart",
+            "word": "Langulena"
+          },
+          {
+            "meaning": "in brand steken",
+            "word": "Pradipya"
+          }
+        ]
+      },
+      {
+        "number": 63,
+        "philosophicalinsight": "Waarheidsgetrouwe berichtgeving is onderdeel van dienstverlening.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat ik het goed heb gedaan",
+        "simplemeaning": "Nadat hij Sita had gezien, vertelde Hanuman vreugdevol alles aan Rama, precies zoals het was gebeurd.",
+        "storycontext": "Missierapport aan Rama.",
+        "transliteration": "Sita-darshana-sampannah Hanuman prita-manasah, Ramaya kathayamasa sarvam vrittam yathatatham.",
+        "wordmeaning": [
+          {
+            "meaning": "Sita zien",
+            "word": "Sita-darshana"
+          },
+          {
+            "meaning": "precies zoals het gebeurde",
+            "word": "Yathatatham"
+          }
+        ]
+      },
+      {
+        "number": 64,
+        "philosophicalinsight": "Zelfs krijgers zoeken harmonie met de natuur.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat ik het goed heb gedaan",
+        "simplemeaning": "Toen marcheerde Rama, vergezeld van zijn leger, richting Lanka en bad tot de oceaan om doorgang om een brug te bouwen.",
+        "storycontext": "Voorbereiding op oorlog.",
+        "transliteration": "Tatah sainya-samayuktah Ramo Lankam prati yayau, Samudram prarthayamasa setu-bandhaya Raghavah.",
+        "wordmeaning": [
+          {
+            "meaning": "bouwen van brug",
+            "word": "Setu-bandha"
+          },
+          {
+            "meaning": "leger",
+            "word": "Sainya"
+          }
+        ]
+      },
+      {
+        "number": 65,
+        "philosophicalinsight": "Collectieve inspanning bereikt het onmogelijke.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat dit een goede zaak is Ik denk dat ik het goed heb gedaan",
+        "simplemeaning": "Door de kracht van Nala en Nila werd een brug over de oceaan gebouwd en Rama trok Lanka binnen met het Vanara-leger.",
+        "storycontext": "Setu-constructie en toegang tot Lanka.",
+        "transliteration": "Nala-Nila-prabhavena setur baddho maha-samudre, Vanaraih saha Ramo'tha Lankam pravivesha ha.",
+        "wordmeaning": [
+          {
+            "meaning": "Vanara ingenieurs",
+            "word": "Nala-Nila"
+          },
+          {
+            "meaning": "brug",
+            "word": "Setu"
+          }
+        ]
+      },
+      {
+        "number": 66,
+        "philosophicalinsight": "Adharma confronteert uiteindelijk Dharma.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat ik het goed heb gedaan",
+        "simplemeaning": "Er vond een hevige strijd plaats tussen Rama en Ravana, en veel demonen werden gedood met de hulp van de Vanara's.",
+        "storycontext": "De oorlog begint.",
+        "transliteration": "Ravanena samam yuddham ghoram samabhavat tatah, Rakshasan nihatan Ramo vanaraih sahito'bhavat.",
+        "wordmeaning": [
+          {
+            "meaning": "verschrikkelijke strijd",
+            "word": "Ghoram Yuddham"
+          },
+          {
+            "meaning": "demons",
+            "word": "Rakshasan"
+          }
+        ]
+      },
+      {
+        "number": 67,
+        "philosophicalinsight": "Kwade kracht gaat vóór rechtvaardige vastberadenheid.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat Ik denk dat ik het goed heb gedaan",
+        "simplemeaning": "Kumbhakarna werd gedood in de strijd en Lakshmana doodde Indrajit, Ravana's machtige zoon.",
+        "storycontext": "Grote demonencommandanten verslagen.",
+        "transliteration": "Kumbhakarnam hatam yuddhe Indrajittam nipatitam, Lakshmanena maha-viryam Ravanasyatmajam rane.",
+        "wordmeaning": [
+          {
+            "meaning": "Ravana's gigantische broer",
+            "word": "Kumbhakarna"
+          },
+          {
+            "meaning": "Ravana's krachtige zoon",
+            "word": "Indrajit"
+          }
+        ]
+      },
+      {
+        "number": 68,
+        "philosophicalinsight": "Dharma vervangt tirannie.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat ik het goed heb gedaan",
+        "simplemeaning": "Nadat hij Ravana had gedood in de strijd om Dharma te herstellen, kroonde Rama Vibhishana tot koning van Lanka.",
+        "storycontext": "Ravana’s val en nieuwe heerschappij in Lanka.",
+        "transliteration": "Ravanam cha rane hatva dharma-samsthapana-ya sah, Vibhishanam Lankayam tu rajye samabhisecayat.",
+        "wordmeaning": [
+          {
+            "meaning": "vestiging van gerechtigheid",
+            "word": "Dharma-samsthapana"
+          },
+          {
+            "meaning": "Ravana's rechtvaardige broer",
+            "word": "Vibhishana"
+          }
+        ]
+      },
+      {
+        "number": 69,
+        "philosophicalinsight": "Zuiverheid weerstaat beproevingen.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat het goed is Ik denk dat",
+        "simplemeaning": "Nadat hij Sita had meegebracht, vroeg Rama om een vuurproef. Bewezen zuiver door Agni, werd ze opnieuw geaccepteerd.",
+        "storycontext": "Agni Pariksha-aflevering.",
+        "transliteration": "Sitam samanaya Ramah pariksham chakorot tatah, Agnina shuddha-bhavam tam jagraha punar atma-van.",
+        "wordmeaning": [
+          {
+            "meaning": "proef",
+            "word": "Pariksha"
+          },
+          {
+            "meaning": "door vuur",
+            "word": "Agnina"
+          }
+        ]
+      },
+      {
+        "number": 70,
+        "philosophicalinsight": "Rechtschapen bestuur brengt harmonie en welvaart.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": true
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat ik het goed heb gedaan ॥",
+        "simplemeaning": "Rama keerde terug naar Ayodhya in de Pushpaka-wagen, werd tot koning gekroond en vestigde Rama Rajya.",
+        "storycontext": "Kroning en herstel van de heerschappij.",
+        "transliteration": "Pushpakena vimanena Ayodhyam pratinanditah, Ramo rajyam upasina Ram-rajyam pravartitam.",
+        "wordmeaning": [
+          {
+            "meaning": "hemelse strijdwagen",
+            "word": "Pushpaka"
+          },
+          {
+            "meaning": "ideale koninkrijk van Rama",
+            "word": "Rama-rajya"
+          }
+        ]
+      },
+      {
+        "number": 71,
+        "philosophicalinsight": "Rechtschapen leiderschap brengt sociale harmonie.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan स्थिता । Ik denk dat ik het goed heb gedaan Ik denk dat",
+        "simplemeaning": "Tijdens Rama's heerschappij werd de aarde gevestigd in Dharma. Er was geen verdriet, ziekte, onrecht of hongersnood.",
+        "storycontext": "Ideaal bestuur beschreven.",
+        "transliteration": "Rama-rajye pravritte tu dharmena prithivi sthita, Na duhkham na vyadhayash cha nadharmo napi durbhiksham.",
+        "wordmeaning": [
+          {
+            "meaning": "heerschappij van Rama",
+            "word": "Rama-rajya"
+          },
+          {
+            "meaning": "hongersnood",
+            "word": "Durbhiksha"
+          }
+        ]
+      },
+      {
+        "number": 72,
+        "philosophicalinsight": "Het koningschap vereist een pijnlijk offer.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat het goed is",
+        "simplemeaning": "Gezien de publieke opinie en toegewijd aan Dharma, besloot Rama Sita weg te sturen.",
+        "storycontext": "Begin van Sita’s ballingschap.",
+        "transliteration": "Loka-vrittam samalokya Ramo dharma-parayanah, Jana-vakya-bhayad eva Sitam tyaktum upagamat.",
+        "wordmeaning": [
+          {
+            "meaning": "publieke opinie",
+            "word": "Loka-vritta"
+          },
+          {
+            "meaning": "in de steek laten",
+            "word": "Tyaktum"
+          }
+        ]
+      },
+      {
+        "number": 73,
+        "philosophicalinsight": "Dharma gaat door via afstamming.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat ik het goed heb gedaan",
+        "simplemeaning": "Lakshmana nam Sita mee naar de kluis van Valmiki, waar ze het leven schonk aan de tweelingzonen, Lava en Kusha.",
+        "storycontext": "Geboorte van erfgenamen in ballingschap.",
+        "transliteration": "Lakshmanena tada Sita Valmiker ashramam nita, Tatra Lava-Kushau jatau Ramasya tanayau shubhau.",
+        "wordmeaning": [
+          {
+            "meaning": "kluis van Valmiki",
+            "word": "Valmiki-ashrama"
+          },
+          {
+            "meaning": "zonen van Rama",
+            "word": "Lava-Kusha"
+          }
+        ]
+      },
+      {
+        "number": 74,
+        "philosophicalinsight": "De heilige geschiedenis bewaart de Dharma.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat ik het goed heb gedaan",
+        "simplemeaning": "Toen Lava en Kusha het verhaal van Rama hoorden van de wijze Valmiki, werden ze grote zangers van de Ramayana.",
+        "storycontext": "Overdracht van het epos.",
+        "transliteration": "Valmiki-mukhatah shrutva Rama-katham mahatmanah, Lava-Kushau je gayakau babhuvatur anuttamau.",
+        "wordmeaning": [
+          {
+            "meaning": "verhaal van Rama",
+            "word": "Rama-katha"
+          },
+          {
+            "meaning": "zangers",
+            "word": "Gayakau"
+          }
+        ]
+      },
+      {
+        "number": 75,
+        "philosophicalinsight": "De waarheid openbaart zich door het lot.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat ik het goed heb gedaan",
+        "simplemeaning": "Rama begon met het Ashvamedha-offer, en daar reciteerden Lava en Kusha de Ramayana.",
+        "storycontext": "Vader hoort zijn eigen verhaal.",
+        "transliteration": "Ashvamedham maha-yajnam Ramah kartum upakramat, Tatra Rama-katham gatva Lava-Kushau prajagmatu.",
+        "wordmeaning": [
+          {
+            "meaning": "koninklijk paardoffer",
+            "word": "Ashvamedha"
+          },
+          {
+            "meaning": "offerritueel",
+            "word": "Jajna"
+          }
+        ]
+      },
+      {
+        "number": 76,
+        "philosophicalinsight": "Waarheid herstelt uiteindelijk de verbinding.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat het Ik denk dat ik het goed heb gedaan",
+        "simplemeaning": "Toen Rama het verhaal hoorde en zijn zoons herkende, begreep hij de waarheid en bracht hij Sita opnieuw voor zich.",
+        "storycontext": "Reünie fase.",
+        "transliteration": "Shrutva tu tam katham Ramah putrau tau parichintya cha, Sitam punah samanaya satyam jnatva maha-matih.",
+        "wordmeaning": [
+          {
+            "meaning": "truth",
+            "word": "Satyam"
+          },
+          {
+            "meaning": "grootmoedig",
+            "word": "Maha-matih"
+          }
+        ]
+      },
+      {
+        "number": 77,
+        "philosophicalinsight": "Zuiverheid keert terug naar de bron.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat het goed is Veelgestelde vragen Ik denk dat ik het goed heb gedaan",
+        "simplemeaning": "Sita bewees nogmaals haar zuiverheid en ging de aarde binnen, haar goddelijke moeder.",
+        "storycontext": "Het definitieve vertrek van Sita.",
+        "transliteration": "Sa prithivyam pravishta tu shuddha-bhava-pradarshini, Matru-rupena dharanya svam sthanam samavapa ha.",
+        "wordmeaning": [
+          {
+            "meaning": "de aarde binnengekomen",
+            "word": "Prithivyam pravishta"
+          },
+          {
+            "meaning": "zuiver van hart",
+            "word": "Shuddha-bhava"
+          }
+        ]
+      },
+      {
+        "number": 78,
+        "philosophicalinsight": "Incarnaties keren terug na het vervullen van Dharma.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat ik het goed heb gedaan ततः ॥",
+        "simplemeaning": "Rama regeerde lang in gerechtigheid, stichtte zijn zonen op de juiste manier en vertrok vervolgens naar zijn goddelijke verblijfplaats.",
+        "storycontext": "Rama's beklimming.",
+        "transliteration": "Ramo dharma-parayano rajyam ciram adharayat, Putran sthapya yatha-nyayam sva-dhama bidayau tatah.",
+        "wordmeaning": [
+          {
+            "meaning": "goddelijke verblijfplaats",
+            "word": "Sva-dhama"
+          },
+          {
+            "meaning": "toegewijd aan gerechtigheid",
+            "word": "Dharma-parayana"
+          }
+        ]
+      },
+      {
+        "number": 79,
+        "philosophicalinsight": "Heilige herinnering zuivert het leven.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat het goed is प्रमुच्यते",
+        "simplemeaning": "Zo eindigt de heilige Ramayana. Wie het met toewijding leest, is bevrijd van zonden.",
+        "storycontext": "Phala Shruti (voordelen van recitatie).",
+        "transliteration": "Etad akhyanam akhyatam punyam Ramayanam mahat, Yah pathet shraddhaya nityam sa papaih pramuchyate.",
+        "wordmeaning": [
+          {
+            "meaning": "met toewijding",
+            "word": "Shraddhaya"
+          },
+          {
+            "meaning": "wordt bevrijd",
+            "word": "Pramuchyaat"
+          }
+        ]
+      },
+      {
+        "number": 80,
+        "philosophicalinsight": "Dharmaverhalen voeden het innerlijke en uiterlijke welzijn.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": true
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat ik het goed heb gedaan ॥",
+        "simplemeaning": "Iedereen die naar het goddelijke verhaal van Rama luistert, verkrijgt een lang leven, voorspoed, roem en gezondheid.",
+        "storycontext": "Afsluitende zegen.",
+        "transliteration": "Rama-katham shubham divyam yah shrunoti narah sada, Ayuh shreem kirtim arogyaṃ labhate natra samshayah.",
+        "wordmeaning": [
+          {
+            "meaning": "luistert",
+            "word": "Shrunoti"
+          },
+          {
+            "meaning": "lange levensduur",
+            "word": "Ja"
+          }
+        ]
+      },
+      {
+        "number": 81,
+        "philosophicalinsight": "Dharma geïnternaliseerd wordt zuivering.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat het goed is तत्क्षणात्",
+        "simplemeaning": "Rama is de belichaamde Dharma en de beschermer van de waarheid. Door alleen maar aan Hem te denken, worden de zonden onmiddellijk vernietigd.",
+        "storycontext": "Devotionele verheerlijking.",
+        "transliteration": "Ramo vigrahavan dharmah satyam cha paripalitam, Tasmat smarana-matrena papam nashyati tatkshanat.",
+        "wordmeaning": [
+          {
+            "meaning": "belichaming",
+            "word": "Vigrahavan"
+          },
+          {
+            "meaning": "herinnering",
+            "word": "Smarana"
+          }
+        ]
+      },
+      {
+        "number": 82,
+        "philosophicalinsight": "Heilig geluid transformeert het bewustzijn.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat ik het goed heb gedaan ॥",
+        "simplemeaning": "Door Rama’s naam te zingen wordt het verdriet weggenomen en ontstaat er onmiddellijk geluk.",
+        "storycontext": "Kracht van goddelijke naam.",
+        "transliteration": "Nama-smarana-matrena Ramasya Paramatmanah, Duhkha-kshayo bhavet sadya sukhanchabhyudayam labhet.",
+        "wordmeaning": [
+          {
+            "meaning": "het zingen van de naam",
+            "word": "Nama-smarana"
+          },
+          {
+            "meaning": "opperste ziel",
+            "word": "Paramatman"
+          }
+        ]
+      },
+      {
+        "number": 83,
+        "philosophicalinsight": "Een heilig verhaal voedt lichaam en geest.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat Ik denk dat ik het goed heb gedaan ॥",
+        "simplemeaning": "Het luisteren naar of zingen van het verhaal van Rama schenkt zuiverheid, een lang leven, wijsheid, kracht en voorspoed.",
+        "storycontext": "Spirituele voordeelverklaring.",
+        "transliteration": "Sravanat kirtanad vapi Rama-kathyah pavitrata, Ayuh prajnam balam shreem cha dadati natra samshayah.",
+        "wordmeaning": [
+          {
+            "meaning": "gehoor",
+            "word": "Shravana"
+          },
+          {
+            "meaning": "zingen",
+            "word": "Kirtana"
+          }
+        ]
+      },
+      {
+        "number": 84,
+        "philosophicalinsight": "Toewijding integreert werelds leven en spirituele vrijheid.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat ik het goed heb gedaan ॥",
+        "simplemeaning": "Door de Ramayana met toewijding te reciteren, heiligt men zijn afkomst en verkrijgt men zowel wereldse vreugde als bevrijding.",
+        "storycontext": "Verdienste van recitatie.",
+        "transliteration": "Ramayanasya pathena kulam pavitram ashnute, Bhuktim muktim cha labhate bhaktya yah samanvitah.",
+        "wordmeaning": [
+          {
+            "meaning": "werelds genieten",
+            "word": "Bhukti"
+          },
+          {
+            "meaning": "bevrijding",
+            "word": "Mukti"
+          }
+        ]
+      },
+      {
+        "number": 85,
+        "philosophicalinsight": "Epische literatuur codeert de uiteindelijke doeleinden van het leven.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Er zijn geen resultaten bekend. De beste resultaten स्मृतः ॥",
+        "simplemeaning": "Het verhaal van Rama is het middel om de vier levensdoelen te bereiken: Dharma, rijkdom, verlangen en bevrijding.",
+        "storycontext": "Filosofische sommatie.",
+        "transliteration": "Dharma-artha-kama-mokshanam sadhanam Rama-kathyakam, Chaturvarga-phala-praptau margo'yam paramah smritah.",
+        "wordmeaning": [
+          {
+            "meaning": "vier levensdoelen",
+            "word": "Chaturvarga"
+          },
+          {
+            "meaning": "bevrijding",
+            "word": "Moksha"
+          }
+        ]
+      },
+      {
+        "number": 86,
+        "philosophicalinsight": "Heilig auteurschap bewaart eeuwige wijsheid.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan महत् । Ik denk dat ik het goed heb gedaan गतिम् ॥",
+        "simplemeaning": "Deze grote Ramayana, gesproken door de wijze Valmiki, verleent de hoogste staat aan degenen die het met toewijding lezen.",
+        "storycontext": "Schriftuurlijk gezag bevestigd.",
+        "transliteration": "Valmiki-munina proktam divyam Ramayanam mahat, Ye pathanti narah bhaktya te yanti paramam gatim.",
+        "wordmeaning": [
+          {
+            "meaning": "Wijze Valmiki",
+            "word": "Valmiki-muni"
+          },
+          {
+            "meaning": "opperste staat",
+            "word": "Paramam gatim"
+          }
+        ]
+      },
+      {
+        "number": 87,
+        "philosophicalinsight": "Toewijding gaat gepaard met goddelijke herinnering.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan कृतमस्त। Ik denk dat het goed is Ik denk dat",
+        "simplemeaning": "Overal waar de naam van Rama wordt gezongen, staat Hanuman met gevouwen handen en tranen van toewijding. Gegroet aan hem die demonen vernietigt.",
+        "storycontext": "Glorie van Hanuman.",
+        "transliteration": "Yatra yatra Raghunatha-kirtanam tatra tatra krita-mastakanjalim, Baspavari paripurna-lochanam Marutim namata rakshasantakam.",
+        "wordmeaning": [
+          {
+            "meaning": "Heer Rama",
+            "word": "Raghunatha"
+          },
+          {
+            "meaning": "Hanuman",
+            "word": "Maruti"
+          }
+        ]
+      },
+      {
+        "number": 88,
+        "philosophicalinsight": "Dharma zegeviert uiteindelijk.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat ik het goed heb gedaan",
+        "simplemeaning": "Rama, het juweel onder de koningen, triomfeert altijd. Ik aanbid hem die de demonenlegers heeft vernietigd.",
+        "storycontext": "Overwinningslied.",
+        "transliteration": "Ramo rajamani sada vijayate Ramam Ramesham bhaje, Ramena abhihata nishachara-chamu Ramaya tasmai namah.",
+        "wordmeaning": [
+          {
+            "meaning": "juweel onder koningen",
+            "word": "Rajamani"
+          },
+          {
+            "meaning": "demons",
+            "word": "Nishachara"
+          }
+        ]
+      },
+      {
+        "number": 89,
+        "philosophicalinsight": "Avatar is de manifestatie van het Absolute.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan बलम् । Ik denk dat ik het goed heb gedaan",
+        "simplemeaning": "Er is geen hogere waarheid dan Rama en geen grotere kracht. Het hele universum wordt door hem onderhouden.",
+        "storycontext": "Kosmische identiteit van Rama.",
+        "transliteration": "Raman nasti param tattvam Raman nasti param balam, Ramenaiva jagat sarvam dharyate sa-characharam.",
+        "wordmeaning": [
+          {
+            "meaning": "opperste waarheid",
+            "word": "Param tattvam"
+          },
+          {
+            "meaning": "bewegende en onbeweeglijke wezens",
+            "word": "Sa-characharam"
+          }
+        ]
+      },
+      {
+        "number": 90,
+        "philosophicalinsight": "Toewijding transformeert kennis in bevrijding.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": true
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat ik het goed heb gedaan गतिम् ॥",
+        "simplemeaning": "Zo is het heilige verhaal van Rama kort verteld. Wie het met geloof en toewijding leest, bereikt de hoogste staat.",
+        "storycontext": "Formele slotverklaring.",
+        "transliteration": "Het is Sri-Rama-charitam sankshipena pradarshitam, Yah pathet shraddhaya bhaktya sa yati paramam gatim.",
+        "wordmeaning": [
+          {
+            "meaning": "in het kort",
+            "word": "Sankshipena"
+          },
+          {
+            "meaning": "opperste staat",
+            "word": "Paramam gatim"
+          }
+        ]
+      },
+      {
+        "number": 91,
+        "philosophicalinsight": "Bevrijding begint met goddelijke herinnering.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat het goed is",
+        "simplemeaning": "Rama, vol goddelijke uitstraling en toegewijd aan het welzijn van alle wezens – door zijn naam te zingen, wordt men bevrijd van wereldse gebondenheid.",
+        "storycontext": "Glorie van Rama’s naam.",
+        "transliteration": "Ramo nama mahatejah sarva-bhuta-hite ratah, Tasya kirtana-matrena bhava-bandha-vimokshanam.",
+        "wordmeaning": [
+          {
+            "meaning": "enorm stralend",
+            "word": "Mahateja"
+          },
+          {
+            "meaning": "gebondenheid aan het wereldse bestaan",
+            "word": "Bhava-bandha"
+          }
+        ]
+      },
+      {
+        "number": 92,
+        "philosophicalinsight": "Goddelijk gezelschap symboliseert kosmische harmonie.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan । Ik denk dat het goed is संशयः ॥",
+        "simplemeaning": "Wie met toewijding aan de goddelijke voeten van Sita en Rama denkt, ziet het verdriet afnemen en het geluk groeien.",
+        "storycontext": "Devotionele vereniging van Sita-Rama.",
+        "transliteration": "Sita-Rama-pada-dvandvam yah smaret bhakti-bhavatah, Tasya duhkha-kshayo nityam saukhya-vriddhir na samshayah.",
+        "wordmeaning": [
+          {
+            "meaning": "heilig paar voeten",
+            "word": "Pada-dvandvam"
+          },
+          {
+            "meaning": "devotioneel gevoel",
+            "word": "Bhakti-bhava"
+          }
+        ]
+      },
+      {
+        "number": 93,
+        "philosophicalinsight": "Heilige kennis vermenigvuldigt zich door herhaling.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat ik het goed heb gedaan Ik denk dat",
+        "simplemeaning": "Het door Lava en Kusha gezongen verhaal van Rama schenkt eeuwige verdienste als het met toewijding wordt gehoord.",
+        "storycontext": "Overdracht van de verdienste van het epos.",
+        "transliteration": "Lava-Kushabhyam gita ya katha Ramasya dhimatah, Sa shruta en narair bhaktya punyam bhavati shashvatam.",
+        "wordmeaning": [
+          {
+            "meaning": "gezongen",
+            "word": "Gita"
+          },
+          {
+            "meaning": "eeuwig",
+            "word": "Shashvatam"
+          }
+        ]
+      },
+      {
+        "number": 94,
+        "philosophicalinsight": "Toewijding hervormt het karakter.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat het goed is Veelgestelde vragen",
+        "simplemeaning": "Een toegewijde van Rama wordt standvastig, waarheidsgetrouw en zelfbeheerst, en bereikt gezegende rijken en bevrijding.",
+        "storycontext": "Kwaliteiten van een toegewijde.",
+        "transliteration": "Rama-bhaktah sada dhirah satya-vadi jitendriyah, Tasya lokah prashasyante svarga-moksha-pradayakah.",
+        "wordmeaning": [
+          {
+            "meaning": "toegewijde van Rama",
+            "word": "Rama-bhakta"
+          },
+          {
+            "meaning": "self-controlled",
+            "word": "Jitendriya"
+          }
+        ]
+      },
+      {
+        "number": 95,
+        "philosophicalinsight": "Epische literatuur condenseert universele wijsheid.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Veelgestelde vragen Veelgestelde vragen",
+        "simplemeaning": "De Ramayana is gezegend, glorieus, levengevend, zuiverend en vernietigt zonden. Het bevat de essentie van alle geschriften.",
+        "storycontext": "Schriftuurlijke samenvatting van lof.",
+        "transliteration": "Dhanyam yashasyam ayushyam pavanam papa-nashanam, Ramayanam maha-punyam sarva-shastra-artha-sangraham.",
+        "wordmeaning": [
+          {
+            "meaning": "zuiverend",
+            "word": "Pavanam"
+          },
+          {
+            "meaning": "vernietiger van zonden",
+            "word": "Papa-nashanam"
+          }
+        ]
+      },
+      {
+        "number": 96,
+        "philosophicalinsight": "Zelfs samenvatting behoudt de spirituele kracht.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat ik het goed heb gedaan",
+        "simplemeaning": "Wie deze beknopte Ramayana leest, ontvangt zonder twijfel goddelijke verdiensten.",
+        "storycontext": "Specifieke zegen voor de Sankshipta-versie.",
+        "transliteration": "Yah pathet sankshiptam en Ramayanam idam shubham, Tasya punya-phalam divyam bhavati natra samshayah.",
+        "wordmeaning": [
+          {
+            "meaning": "beknopte vorm",
+            "word": "Sankshiptam"
+          },
+          {
+            "meaning": "verdienstelijk resultaat",
+            "word": "Punya-phalam"
+          }
+        ]
+      },
+      {
+        "number": 97,
+        "philosophicalinsight": "Geloof brengt actie in lijn met het lot.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan नरः । Ik denk dat ik het goed heb gedaan संशयः ॥",
+        "simplemeaning": "Wie met geloof en toewijding leest of luistert, behaalt succes in alle ondernemingen.",
+        "storycontext": "Praktische levenszegen.",
+        "transliteration": "Shraddhaya yah paded etat bhaktya va shrunuyat narah, Tasya sarvani karyani siddhim yanti na samshayah.",
+        "wordmeaning": [
+          {
+            "meaning": "met geloof",
+            "word": "Shraddhaya"
+          },
+          {
+            "meaning": "succes",
+            "word": "Siddhi"
+          }
+        ]
+      },
+      {
+        "number": 98,
+        "philosophicalinsight": "Een heilig verhaal is dienstbaarheid aan de mensheid.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan Ik denk dat ik het goed heb gedaan Ik denk dat",
+        "simplemeaning": "Het heilige leven van Rama werd door Valmiki gecomponeerd voor het welzijn van de wereld en blijft eeuwig gevestigd.",
+        "storycontext": "Doel van de compositie.",
+        "transliteration": "Ramasya charitam punyam lokanam hita-kamyaya, Valmikinā kritam purvam sada loke pratishthitam.",
+        "wordmeaning": [
+          {
+            "meaning": "levensverhaal",
+            "word": "Charitam"
+          },
+          {
+            "meaning": "voor het welzijn van de wereld",
+            "word": "Hita-kamyaya"
+          }
+        ]
+      },
+      {
+        "number": 99,
+        "philosophicalinsight": "Goddelijke kwaliteiten worden meditatie-ankers.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": false
+        },
+        "sanskrit": "Ik denk dat ik het goed heb gedaan सुंदरम् । Ik denk dat het goed is Ik denk dat het goed is",
+        "simplemeaning": "Gegroet aan Rama, de oudere broer van Lakshmana, de beste uit de Raghu-afstamming, echtgenoot van Sita, oceaan van mededogen en schat aan deugden.",
+        "storycontext": "Devotionele lofzang.",
+        "transliteration": "Ramam Lakshmana-purvajam Raghuvaram Sita-patim sundaram, Kakutstham karunarnavam guna-nidhim vipra-priyam dharmikam.",
+        "wordmeaning": [
+          {
+            "meaning": "oceaan van mededogen",
+            "word": "Karunarnava"
+          },
+          {
+            "meaning": "schat aan deugden",
+            "word": "Guna-nidhi"
+          }
+        ]
+      },
+      {
+        "number": 100,
+        "philosophicalinsight": "Alle kennis culmineert in overgave.",
+        "printnotes": {
+          "fontsize": "large",
+          "pagebreakafter": true
+        },
+        "sanskrit": "Veelgestelde vragen",
+        "simplemeaning": "Moge dit worden aangeboden aan de voeten van Sita en Rama.",
+        "storycontext": "Laatste devotionele afsluiting.",
+        "transliteration": "Sita-Rama-chandra-arpanam astu.",
+        "wordmeaning": [
+          {
+            "meaning": "aanbieden",
+            "word": "Arpanam"
+          }
+        ]
+      }
+    ],
+    "source": "https://www.valmikiramayan.net/",
+    "total_slokas": 100
+  }
+}

@@ -1,0 +1,917 @@
+{
+  "kidszone_illustratedstories": {
+    "title": "القصص المصورة",
+    "meta": {
+      "title": "منطقة الاطفال | قصص مصورة - ساناتانا دارما - اكتشف ساناتان دارما",
+      "canonical": "https://sanatanadharmam.in/kidszone/illustratedstories",
+      "description": "KidsZone — قصص مصورة — Sanātana Dharma - اكتشف Sanātana Dharma — مقالات وترجمات وتعليقات موجزة على KidsZone. استكشاف الممارسات والتاريخ والتوجيه...",
+      "keywords": [
+        "Animal Fables",
+        "Bedtime Stories for Kids",
+        "Children's Stories",
+        "Classic Indian Stories",
+        "Educational Stories",
+        "Folk Tales with Morals",
+        "Illustrated Stories",
+        "Indian Culture for Kids",
+        "Indian Folktales",
+        "Indian Heritage for Children",
+        "Jataka Tales",
+        "KidsZone",
+        "Moral Stories",
+        "Mythological Stories for Kids",
+        "Panchatantra",
+        "Short Stories for Children",
+        "Stories from Indian Tradition",
+        "Stories of Animals with Morals",
+        "Stories of Compassion and Empathy",
+        "Stories of Courage and Bravery",
+        "Stories of Courage and Wisdom",
+        "Stories of Creativity and Imagination",
+        "Stories of Cultural Values and Traditions",
+        "Stories of Everyday Heroes",
+        "Stories of Family and Relationships",
+        "Stories of Festivals and Celebrations",
+        "Stories of Friendship and Kindness",
+        "Stories of Generosity and Sharing",
+        "Stories of Good vs Evil",
+        "Stories of Honesty and Integrity",
+        "Stories of Humility and Gratitude",
+        "Stories of Kindness and Compassion",
+        "Stories of Kings and Queens",
+        "Stories of Mythological Characters",
+        "Stories of Nature and Environment",
+        "Stories of Perseverance and Hard Work",
+        "Stories of Problem-Solving and Critical Thinking",
+        "Stories of Respect and Responsibility",
+        "Stories of Sages and Saints",
+        "Stories of Self-Control and Discipline",
+        "Stories of Teamwork and Cooperation",
+        "Stories of Wisdom and Intelligence",
+        "Stories with Life Lessons"
+      ],
+      "ogimage": "/og/kidszone-illustratedstories.png",
+      "url": "https://sanatanadharmam.in/kidszone/illustratedstories"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "منظمة",
+        "contactpoint": {
+          "@type": "نقطة الاتصال",
+          "areaserved": "في جميع أنحاء العالم",
+          "availablelanguage": [
+            "العربية",
+            "الألمانية",
+            "إنجليزي",
+            "الاسبانية",
+            "الفرنسية",
+            "الهندية",
+            "日本語",
+            "النيبالية",
+            "هولندا",
+            "البرتغالية",
+            "الروسية",
+            "نعم",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "دعم العملاء",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "حول Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "description": "مجموعة منسقة من القصص القصيرة المصورة والأخلاق من التقاليد الهندية. انقر على القصة لقراءة ملخصها والأخلاقية.",
+    "kids_indian_stories": [
+      {
+        "title": "الأرنب الذكي والأسد",
+        "characters": [
+          "أرنب",
+          "الأسد"
+        ],
+        "id": 1,
+        "imgalt": "The Clever Rabbit and the Lion",
+        "imgsrc": "/images/illustrate/thumbs/1.png",
+        "moral": "الحكمة أقوى من القوة.",
+        "origin": "بانشاتانترا",
+        "summary": "أرنب صغير يتفوق على أسد شرس عن طريق خداعه للقفز في البئر بعد رؤية انعكاس صورته.",
+        "themes": [
+          "شجاعة",
+          "ذكاء"
+        ]
+      },
+      {
+        "title": "القرد والتمساح",
+        "characters": [
+          "قرد",
+          "تمساح"
+        ],
+        "id": 2,
+        "imgalt": "The Monkey and the Crocodile",
+        "imgsrc": "/images/illustrate/thumbs/2.png",
+        "moral": "وجود العقل ينقذ الأرواح.",
+        "origin": "بانشاتانترا",
+        "summary": "قرد يتجنب الخطر عن طريق خداع تمساح يحاول أكل قلبه.",
+        "themes": [
+          "الصداقة",
+          "الخداع"
+        ]
+      },
+      {
+        "title": "الغراب العطشان",
+        "characters": [
+          "غراب"
+        ],
+        "id": 3,
+        "imgalt": "The Thirsty Crow",
+        "imgsrc": "/images/illustrate/thumbs/3.png",
+        "moral": "حيثما توجد الإرادة، توجد الطريقة.",
+        "origin": "الحكاية الشعبية الهندية",
+        "summary": "يلقي الغراب العطشان الحصى في وعاء ليرفع منسوب الماء ويشربه.",
+        "themes": [
+          "مثابرة",
+          "إِبداع"
+        ]
+      },
+      {
+        "title": "الأسد الأحمق والثعلب الذكي",
+        "characters": [
+          "الأسد",
+          "فوكس"
+        ],
+        "id": 4,
+        "imgalt": "The Foolish Lion and the Clever Fox",
+        "imgsrc": "/images/illustrate/thumbs/4.png",
+        "moral": "الجشع يؤدي إلى السقوط.",
+        "origin": "بانشاتانترا",
+        "summary": "يخدع ثعلب أسدًا ليدخل كهفًا مهجورًا، فيُحاصر الأسد إلى الأبد.",
+        "themes": [
+          "جشع",
+          "ذكاء"
+        ]
+      },
+      {
+        "title": "السلحفاة الناطقة",
+        "characters": [
+          "سلحفاء",
+          "البجعات"
+        ],
+        "id": 5,
+        "imgalt": "The Talkative Tortoise",
+        "imgsrc": "/images/illustrate/thumbs/5.png",
+        "moral": "التحدث كثيرًا قد يؤدي إلى المشاكل.",
+        "origin": "بانشاتانترا",
+        "summary": "تسقط سلحفاة من السماء لأنها تفتح فمها وهي تحمل عصفورين.",
+        "themes": [
+          "تأديب",
+          "مزاح"
+        ]
+      },
+      {
+        "title": "تينالي راما واللصوص",
+        "characters": [
+          "تينالي راما",
+          "لصوص"
+        ],
+        "id": 6,
+        "imgalt": "Tenali Rama and the Thieves",
+        "imgsrc": "/images/illustrate/thumbs/6.png",
+        "moral": "التفكير الذكي يمكن أن ينقذ منزلك.",
+        "origin": "حكايات تينالي رامان",
+        "summary": "يخدع Tenali Rama اللصوص بالتظاهر بتنظيف بئره طوال الليل أثناء إسقاط الحجارة فيه.",
+        "themes": [
+          "حكمة",
+          "استراتيجية"
+        ]
+      },
+      {
+        "title": "قصة بيربال خيتشدي",
+        "characters": [
+          "بيربال",
+          "أكبر"
+        ],
+        "id": 7,
+        "imgalt": "Birbal’s Khichdi Story",
+        "imgsrc": "/images/illustrate/thumbs/7.png",
+        "moral": "الصبر وحضور العقل يفوزان.",
+        "origin": "أكبر – بيربال",
+        "summary": "يثبت بيربال أن التفكير في الحرارة من مسافة بعيدة هو نفس تسخين الطعام من مسافة بعيدة.",
+        "themes": [
+          "عدالة",
+          "منطق"
+        ]
+      },
+      {
+        "title": "النمس المخلص",
+        "characters": [
+          "النمس",
+          "طفل",
+          "الأم"
+        ],
+        "id": 8,
+        "imgalt": "The Loyal Mongoose",
+        "imgsrc": "/images/illustrate/thumbs/8.png",
+        "moral": "لا تقفز إلى الاستنتاجات.",
+        "origin": "الفولكلور الهندي",
+        "summary": "نمس ينقذ طفلاً من ثعبان، لكنه يعاقب بالخطأ.",
+        "themes": [
+          "وفاء",
+          "يثق"
+        ]
+      },
+      {
+        "title": "كريشنا ووعاء الزبدة",
+        "characters": [
+          "كريشنا",
+          "جوبيس"
+        ],
+        "id": 9,
+        "imgalt": "Krishna and the Butter Pot",
+        "imgsrc": "/images/illustrate/thumbs/9.png",
+        "moral": "الفضول والمرح أمر طبيعي، ولكن الصدق مهم.",
+        "origin": "قصص الطفولة كريشنا",
+        "summary": "يسرق الطفل كريشنا الزبدة مع أصدقائه ويسحر الجميع ببراءته.",
+        "themes": [
+          "الأذى",
+          "حب"
+        ]
+      },
+      {
+        "title": "سوداما وكريشنا",
+        "characters": [
+          "كريشنا",
+          "سوداما"
+        ],
+        "id": 10,
+        "imgalt": "Sudama and Krishna",
+        "imgsrc": "/images/illustrate/thumbs/10.png",
+        "moral": "الصداقة الحقيقية غير مشروطة.",
+        "origin": "بهاجافاتا بورانا",
+        "summary": "يزور سوداما المسكين كريشنا بهدية متواضعة، ويغمره كريشنا بالحب والبركات.",
+        "themes": [
+          "الصداقة",
+          "العطف"
+        ]
+      },
+      {
+        "title": "الفيل والخياط",
+        "characters": [
+          "الفيل",
+          "خياط"
+        ],
+        "id": 11,
+        "imgalt": "The Elephant and the Tailor",
+        "imgsrc": "/images/illustrate/thumbs/11.png",
+        "moral": "اللطف يعود اللطف. القسوة تعود القسوة",
+        "origin": "الحكاية الشعبية الهندية",
+        "summary": "يقوم خياط بوخز فيل، فيقوم الفيل بإلقاء الماء الموحل عليه انتقاما منه.",
+        "themes": [
+          "سلوك",
+          "عواقب"
+        ]
+      },
+      {
+        "title": "الببغاء الحكيم",
+        "characters": [
+          "ببغاء",
+          "ملِك"
+        ],
+        "id": 12,
+        "imgalt": "The Wise Parrot",
+        "imgsrc": "/images/illustrate/thumbs/12.png",
+        "moral": "النصيحة الجيدة يمكن أن تنقذ الأرواح.",
+        "origin": "بانشاتانترا",
+        "summary": "ببغاء يحذر الملك من مخاطر مملكته ويصبح صديقه الموثوق به.",
+        "themes": [
+          "حكمة",
+          "مسؤولية"
+        ]
+      },
+      {
+        "title": "إخلاص شرافان كومار",
+        "characters": [
+          "شرافان",
+          "آباء",
+          "الملك داشاراتا"
+        ],
+        "id": 13,
+        "imgalt": "Shravan Kumar’s Devotion",
+        "imgsrc": "/images/illustrate/thumbs/13.png",
+        "moral": "خدمة الوالدين أمر نبيل.",
+        "origin": "رامايانا",
+        "summary": "شرافان كومار يعتني بوالديه المكفوفين ويصبح رمزًا للإخلاص.",
+        "themes": [
+          "الإخلاص",
+          "عائلة"
+        ]
+      },
+      {
+        "title": "غانيشا والمانجو",
+        "characters": [
+          "غانيشا",
+          "كارتيكيا",
+          "شيفا",
+          "بارفاتي"
+        ],
+        "id": 14,
+        "imgalt": "Ganesha and the Mango",
+        "imgsrc": "/images/illustrate/thumbs/14.png",
+        "moral": "الحكمة أعظم من السرعة.",
+        "origin": "بوراناس",
+        "summary": "يفوز غانيشا بالمسابقة من خلال الدوران حول والديه بدلاً من العالم.",
+        "themes": [
+          "عائلة",
+          "حكمة"
+        ]
+      },
+      {
+        "title": "الملك والعصفور",
+        "characters": [
+          "ملِك",
+          "عصفور"
+        ],
+        "id": 15,
+        "imgalt": "The King and the Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/15.png",
+        "moral": "أفعال اللطف الصغيرة مهمة.",
+        "origin": "الحكاية الشعبية الهندية",
+        "summary": "العصفور يساعد الملك على تعلم التواضع.",
+        "themes": [
+          "العطف",
+          "التواضع"
+        ]
+      },
+      {
+        "title": "البجعة الذهبية",
+        "characters": [
+          "البجعة الذهبية",
+          "الأم",
+          "بنات"
+        ],
+        "id": 16,
+        "imgalt": "The Golden Swan",
+        "imgsrc": "/images/illustrate/thumbs/16.png",
+        "moral": "الجشع يدمر السعادة.",
+        "origin": "حكايات جاتاكا",
+        "summary": "البجعة الذهبية تعطي الريش لعائلة فقيرة، لكن الجشع يفسد كل شيء.",
+        "themes": [
+          "جشع",
+          "الكرم"
+        ]
+      },
+      {
+        "title": "الفأر الجائع",
+        "characters": [
+          "الفأر"
+        ],
+        "id": 17,
+        "imgalt": "The Hungry Mouse",
+        "imgsrc": "/images/illustrate/thumbs/17.png",
+        "moral": "ضبط النفس مهم.",
+        "origin": "بانشاتانترا",
+        "summary": "يصبح الفأر عالقًا في حفرة بعد الإفراط في تناول الطعام.",
+        "themes": [
+          "تأديب"
+        ]
+      },
+      {
+        "title": "الأسد والفأر",
+        "characters": [
+          "الأسد",
+          "الفأر"
+        ],
+        "id": 18,
+        "imgalt": "The Lion and the Mouse",
+        "imgsrc": "/images/illustrate/thumbs/18.png",
+        "moral": "حتى الصغير يستطيع مساعدة الأقوياء.",
+        "origin": "التكيف الهندي",
+        "summary": "أسد ينقذ فأرًا والفأر ينقذ الأسد لاحقًا.",
+        "themes": [
+          "العطف",
+          "الصداقة"
+        ]
+      },
+      {
+        "title": "النجار الحكيم",
+        "characters": [
+          "النجار",
+          "القرويون"
+        ],
+        "id": 19,
+        "imgalt": "The Wise Carpenter",
+        "imgsrc": "/images/illustrate/thumbs/19.png",
+        "moral": "الحكمة تحل الصراع.",
+        "origin": "حكاية القرية الهندية",
+        "summary": "نجار يحل نزاعًا على الأرض بطريقة سلمية باستخدام التخطيط الذكي.",
+        "themes": [
+          "سلام",
+          "عدالة"
+        ]
+      },
+      {
+        "title": "الطبل السحري",
+        "characters": [
+          "ولد",
+          "الجنيات"
+        ],
+        "id": 20,
+        "imgalt": "The Magic Drum",
+        "imgsrc": "/images/illustrate/thumbs/20.png",
+        "moral": "الصدق يكافأ.",
+        "origin": "الحكاية الشعبية الهندية",
+        "summary": "يتلقى الصبي اللطيف طبلة سحرية تصنع الطعام والألعاب.",
+        "themes": [
+          "سحر",
+          "العطف"
+        ]
+      },
+      {
+        "title": "العصفور الصغير الشجاع",
+        "characters": [
+          "عصفور",
+          "الفيل"
+        ],
+        "id": 21,
+        "imgalt": "The Brave Little Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/21.png",
+        "moral": "الشجاعة يمكنها هزيمة الأقوياء.",
+        "origin": "الهند",
+        "summary": "عصفور ينقذ أطفاله من فيل ضخم.",
+        "themes": [
+          "شجاعة"
+        ]
+      },
+      {
+        "title": "أرجونا وعين الطير",
+        "characters": [
+          "أرجونا",
+          "درونا"
+        ],
+        "id": 22,
+        "imgalt": "Arjuna and the Bird’s Eye",
+        "imgsrc": "/images/illustrate/thumbs/22.png",
+        "moral": "التركيز يؤدي إلى النجاح.",
+        "origin": "ماهابهاراتا",
+        "summary": "يُثير أرجونا إعجاب معلمه من خلال التركيز فقط على عين الطير.",
+        "themes": [
+          "تأديب",
+          "تمرين"
+        ]
+      },
+      {
+        "title": "الشجرة الملتوية",
+        "characters": [
+          "شجرة ملتوية",
+          "الأشجار الطويلة"
+        ],
+        "id": 23,
+        "imgalt": "The Crooked Tree",
+        "imgsrc": "/images/illustrate/thumbs/23.png",
+        "moral": "كن راضيا عما أنت عليه.",
+        "origin": "حكاية الغابة الهندية",
+        "summary": "الشجرة الملتوية تنجو من الحطابين بسبب شكلها.",
+        "themes": [
+          "القيمة الذاتية"
+        ]
+      },
+      {
+        "title": "الوعاء السحري",
+        "characters": [
+          "مزارع"
+        ],
+        "id": 24,
+        "imgalt": "The Magic Pot",
+        "imgsrc": "/images/illustrate/thumbs/24.png",
+        "moral": "الأشياء الجيدة تأتي لأهل الخير.",
+        "origin": "الفولكلور الهندي",
+        "summary": "يجد المزارع وعاءً يضاعف أي شيء يضعه بداخله.",
+        "themes": [
+          "سحر",
+          "حظا سعيدا"
+        ]
+      },
+      {
+        "title": "الغزلان الطيبة",
+        "characters": [
+          "ملك الغزلان",
+          "ظبية",
+          "ملك الإنسان"
+        ],
+        "id": 25,
+        "imgalt": "The Kind Deer",
+        "imgsrc": "/images/illustrate/thumbs/25.png",
+        "moral": "اللطف يلهم اللطف.",
+        "origin": "حكايات جاتاكا",
+        "summary": "ملك الغزلان ينقذ ظبية ويكسب احترام الملك.",
+        "themes": [
+          "عطف"
+        ]
+      },
+      {
+        "title": "الفيل الطائر",
+        "characters": [
+          "الفيل",
+          "حكيم"
+        ],
+        "id": 26,
+        "imgalt": "The Flying Elephant",
+        "imgsrc": "/images/illustrate/thumbs/26.png",
+        "moral": "كن متواضعا.",
+        "origin": "الخيال الهندي",
+        "summary": "فيل ذو أجنحة يفقدها بعد إساءة استخدام قواه.",
+        "themes": [
+          "التواضع"
+        ]
+      },
+      {
+        "title": "وعاء الحكمة",
+        "characters": [
+          "ولد",
+          "حكيم"
+        ],
+        "id": 27,
+        "imgalt": "The Pot of Wisdom",
+        "imgsrc": "/images/illustrate/thumbs/27.png",
+        "moral": "الحكمة تنمو عندما يتم مشاركتها.",
+        "origin": "حكاية جنوب الهند",
+        "summary": "يتعلم الصبي أنه لا يمكن لأحد أن يحمل كل الحكمة بمفرده.",
+        "themes": [
+          "تعلُّم"
+        ]
+      },
+      {
+        "title": "السمكة السحرية",
+        "characters": [
+          "صياد",
+          "السمكة السحرية"
+        ],
+        "id": 28,
+        "imgalt": "The Magic Fish",
+        "imgsrc": "/images/illustrate/thumbs/28.png",
+        "moral": "الامتنان مهم.",
+        "origin": "الحكاية الشعبية للمحيط الهندي",
+        "summary": "يصطاد صياد سمكة سحرية تعرض المساعدة مقابل الحرية.",
+        "themes": [
+          "اِمتِنان",
+          "سحر"
+        ]
+      },
+      {
+        "title": "جوز الهند والنملة",
+        "characters": [
+          "النمل",
+          "جوزة الهند"
+        ],
+        "id": 29,
+        "imgalt": "The Coconut and the Ant",
+        "imgsrc": "/images/illustrate/thumbs/29.png",
+        "moral": "حتى أصغر جهد مهم.",
+        "origin": "قصة القرية",
+        "summary": "يجتمع النمل معًا لمساعدة ثمرة جوز الهند في الوصول إلى البحر.",
+        "themes": [
+          "العمل الجماعي"
+        ]
+      },
+      {
+        "title": "النمر والحطاب",
+        "characters": [
+          "نمر",
+          "الحطاب"
+        ],
+        "id": 30,
+        "imgalt": "The Tiger and the Woodcutter",
+        "imgsrc": "/images/illustrate/thumbs/30.png",
+        "moral": "ساعد الآخرين وسوف يتم مساعدتك.",
+        "origin": "قصة الغابة الهندية",
+        "summary": "يحرر الحطاب نمرًا محاصرًا ينقذ حياته بشكل مفاجئ.",
+        "themes": [
+          "عطف",
+          "شجاعة"
+        ]
+      },
+      {
+        "title": "القطتان والقرد",
+        "characters": [
+          "القطط",
+          "قرد"
+        ],
+        "id": 31,
+        "imgalt": "The Two Cats and the Monkey",
+        "imgsrc": "/images/illustrate/thumbs/31.png",
+        "moral": "لا تدع الآخرين يحسمون معاركك.",
+        "origin": "بانشاتانترا",
+        "summary": "يأكل القرد الخبز بينما يتظاهر بتقسيمه بالتساوي على قطتين.",
+        "themes": [
+          "عدالة",
+          "حماقة"
+        ]
+      },
+      {
+        "title": "العصفور والبحر",
+        "characters": [
+          "عصفور",
+          "بحر",
+          "راما"
+        ],
+        "id": 32,
+        "imgalt": "The Sparrow and the Sea",
+        "imgsrc": "/images/illustrate/thumbs/32.png",
+        "moral": "العزيمة تحرك الجبال.",
+        "origin": "قصة راما",
+        "summary": "عصفور يهدد البحر عندما يأخذ بيضها، ويلهم اللورد راما.",
+        "themes": [
+          "عزيمة"
+        ]
+      },
+      {
+        "title": "الصبي الذي بكى النمر",
+        "characters": [
+          "ولد",
+          "القرويون",
+          "نمر"
+        ],
+        "id": 33,
+        "imgalt": "The Boy Who Cried Tiger",
+        "imgsrc": "/images/illustrate/thumbs/33.png",
+        "moral": "لا تكذب أبدًا.",
+        "origin": "التكيف الهندي",
+        "summary": "صبي يخدع القرويين لكنه يعاني عندما يظهر النمر بالفعل.",
+        "themes": [
+          "الصدق"
+        ]
+      },
+      {
+        "title": "شجرة بانيان السحرية",
+        "characters": [
+          "شجرة",
+          "مسافر"
+        ],
+        "id": 34,
+        "imgalt": "The Magic Banyan Tree",
+        "imgsrc": "/images/illustrate/thumbs/34.png",
+        "moral": "الكرم يجلب الحظ .",
+        "origin": "حكاية شعبية",
+        "summary": "الشجرة تعطي الفاكهة والظل والعملات الذهبية للمسافر اللطيف.",
+        "themes": [
+          "العطف"
+        ]
+      },
+      {
+        "title": "الطاووس الفضولي",
+        "characters": [
+          "الطاووس",
+          "العندليب"
+        ],
+        "id": 35,
+        "imgalt": "The Curious Peacock",
+        "imgsrc": "/images/illustrate/thumbs/35.png",
+        "moral": "كن سعيدًا بنقاط قوتك.",
+        "origin": "حكاية الحيوان الهندي",
+        "summary": "الطاووس يريد صوت العندليب لكنه يتعلم أن الجمال له سحره الخاص.",
+        "themes": [
+          "حب الذات"
+        ]
+      },
+      {
+        "title": "الحائك الذكي",
+        "characters": [
+          "ويفر",
+          "شبح"
+        ],
+        "id": 36,
+        "imgalt": "The Clever Weaver",
+        "imgsrc": "/images/illustrate/thumbs/36.png",
+        "moral": "العمل الذكي يفوز.",
+        "origin": "جنوب الهند",
+        "summary": "يخدع الحائك شبحًا ويصبح ثريًا.",
+        "themes": [
+          "شجاعة",
+          "حكمة"
+        ]
+      },
+      {
+        "title": "ثمار العمل الجاد",
+        "characters": [
+          "الاخوة"
+        ],
+        "id": 37,
+        "imgalt": "The Fruits of Hard Work",
+        "imgsrc": "/images/illustrate/thumbs/37.png",
+        "moral": "العمل الجاد يؤتي ثماره دائما.",
+        "origin": "القرية الهندية",
+        "summary": "يتعلم شقيقان أن الجهد أهم من الحظ.",
+        "themes": [
+          "العمل الجاد"
+        ]
+      },
+      {
+        "title": "الطبل الصغير",
+        "characters": [
+          "ولد"
+        ],
+        "id": 38,
+        "imgalt": "The Little Drum",
+        "imgsrc": "/images/illustrate/thumbs/38.png",
+        "moral": "تضاعف الحسنات.",
+        "origin": "شمال الهند",
+        "summary": "يتم إهداء الصبي طبلًا يجلب السعادة أينما ذهب.",
+        "themes": [
+          "العطف"
+        ]
+      },
+      {
+        "title": "جلد الحمار وجلد النمر",
+        "characters": [
+          "حمار",
+          "مزارع"
+        ],
+        "id": 39,
+        "imgalt": "The Donkey and the Tiger Skin",
+        "imgsrc": "/images/illustrate/thumbs/39.png",
+        "moral": "التظاهر بأنك شخص آخر يؤدي إلى المشاكل.",
+        "origin": "بانشاتانترا",
+        "summary": "الحمار يرتدي جلد النمر لكنه يفسد كل شيء بالنهيق.",
+        "themes": [
+          "هوية"
+        ]
+      },
+      {
+        "title": "الكنز المخفي",
+        "characters": [
+          "أب",
+          "أبناء"
+        ],
+        "id": 40,
+        "imgalt": "The Hidden Treasure",
+        "imgsrc": "/images/illustrate/thumbs/40.png",
+        "moral": "العمل بحد ذاته كنز",
+        "origin": "حكاية القرية الهندية",
+        "summary": "يخدع أب أبناءه للعمل في الزراعة بإخبارهم بوجود كنز مدفون في الحقل.",
+        "themes": [
+          "العمل الجاد"
+        ]
+      },
+      {
+        "title": "الببغاء الشجاع",
+        "characters": [
+          "ببغاء",
+          "إله"
+        ],
+        "id": 41,
+        "imgalt": "The Brave Parrot",
+        "imgsrc": "/images/illustrate/thumbs/41.png",
+        "moral": "الشجاعة تساعد الآخرين.",
+        "origin": "حكايات جاتاكا",
+        "summary": "يحاول الببغاء إنقاذ الغابة المحترقة ويلهم الآلهة.",
+        "themes": [
+          "شجاعة"
+        ]
+      },
+      {
+        "title": "الصبي والطبل",
+        "characters": [
+          "ولد"
+        ],
+        "id": 42,
+        "imgalt": "The Boy and the Drum",
+        "imgsrc": "/images/illustrate/thumbs/42.png",
+        "moral": "الهدايا الصغيرة يمكن أن تحدث فرقا كبيرا.",
+        "origin": "الحكاية الشعبية الهندية",
+        "summary": "صبي يستخدم الطبل لنشر السعادة.",
+        "themes": [
+          "العطف"
+        ]
+      },
+      {
+        "title": "تاجر الفئران",
+        "characters": [
+          "تاجر"
+        ],
+        "id": 43,
+        "imgalt": "The Mouse Merchant",
+        "imgsrc": "/images/illustrate/thumbs/43.png",
+        "moral": "الحظ يفضل الشجاعة.",
+        "origin": "بانشاتانترا",
+        "summary": "يصبح الرجل ثريًا بدءًا من فأر واحد.",
+        "themes": [
+          "شجاعة"
+        ]
+      },
+      {
+        "title": "الكهف المتكلم",
+        "characters": [
+          "الأسد",
+          "ابن آوى"
+        ],
+        "id": 44,
+        "imgalt": "The Talking Cave",
+        "imgsrc": "/images/illustrate/thumbs/44.png",
+        "moral": "التفكير الزائد يؤدي إلى المشاكل.",
+        "origin": "بانشاتانترا",
+        "summary": "أسد يختبئ في كهف وابن آوى ذكي يتجنب الخطر.",
+        "themes": [
+          "حذر"
+        ]
+      },
+      {
+        "title": "الحلاق الجشع",
+        "characters": [
+          "حلاق"
+        ],
+        "id": 45,
+        "imgalt": "The Greedy Barber",
+        "imgsrc": "/images/illustrate/thumbs/45.png",
+        "moral": "الجشع يدمر الحكمة.",
+        "origin": "الهند",
+        "summary": "الحلاق يخسر كل ثروته بسبب الجشع.",
+        "themes": [
+          "جشع"
+        ]
+      },
+      {
+        "title": "حلم خادمة الحليب",
+        "characters": [
+          "خادمة الحليب"
+        ],
+        "id": 46,
+        "imgalt": "The Milkmaid’s Dream",
+        "imgsrc": "/images/illustrate/thumbs/46.png",
+        "moral": "لا تحصي دجاجك قبل أن يفقس.",
+        "origin": "الهند",
+        "summary": "خادمة الحليب تحلم بالثروة وتسكب حليبها.",
+        "themes": [
+          "تخطيط"
+        ]
+      },
+      {
+        "title": "العصفور السحري",
+        "characters": [
+          "عصفور",
+          "مزارع"
+        ],
+        "id": 47,
+        "imgalt": "The Magical Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/47.png",
+        "moral": "المساعدة تجلب المكافأة.",
+        "origin": "القرية الهندية",
+        "summary": "عصفور يساعد المزارع ومحاصيله على النمو بطريقة سحرية.",
+        "themes": [
+          "سحر",
+          "العطف"
+        ]
+      },
+      {
+        "title": "الفيل القديم الحكيم",
+        "characters": [
+          "الفيل"
+        ],
+        "id": 48,
+        "imgalt": "The Wise Old Elephant",
+        "imgsrc": "/images/illustrate/thumbs/48.png",
+        "moral": "العمر يجلب الحكمة.",
+        "origin": "حكاية الغابة الهندية",
+        "summary": "فيل مسن يرشد قطيعه إلى بر الأمان أثناء الجفاف.",
+        "themes": [
+          "حكمة"
+        ]
+      },
+      {
+        "title": "اللوتس والضفدع",
+        "characters": [
+          "ضفدع",
+          "لوتس"
+        ],
+        "id": 49,
+        "imgalt": "The Lotus and the Frog",
+        "imgsrc": "/images/illustrate/thumbs/49.png",
+        "moral": "الصبر قوي.",
+        "origin": "حكاية النهر الهندي",
+        "summary": "اللوتس يعلم الضفدع المضطرب أن يبطئ.",
+        "themes": [
+          "الصبر"
+        ]
+      },
+      {
+        "title": "الملك الذي أكل الكثير من الحلويات",
+        "characters": [
+          "ملِك",
+          "رويال كوك"
+        ],
+        "id": 50,
+        "imgalt": "The King Who Ate Too Many Sweets",
+        "imgsrc": "/images/illustrate/thumbs/50.png",
+        "moral": "الاعتدال مهم.",
+        "origin": "قصة القصر الهندي",
+        "summary": "الملك يفرط في تناول الحلويات ويتعلم التحكم في شهوته.",
+        "themes": [
+          "صحة",
+          "تأديب"
+        ]
+      }
+    ]
+  }
+}

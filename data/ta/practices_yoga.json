@@ -1,0 +1,150 @@
+{
+  "practices_yoga": {
+    "title": "",
+    "meta": {
+      "title": "தத்துவம் | யோகா — சனாதன தர்மம் - சனாதன தர்மத்தை ஆராயுங்கள்",
+      "canonical": "https://sanatanadharmam.in/philosophy/yoga",
+      "description": "தத்துவம் — யோகா — சனாதன தர்மம் - சனாதன தர்மத்தை ஆராயுங்கள் — கட்டுரைகள், மொழிபெயர்ப்புகள் மற்றும் தத்துவம் பற்றிய சுருக்கமான வர்ணனைகள். இதில் நடைமுறைகள், வரலாறு மற்றும் வழிகாட்டும் கொள்கைகளை ஆராயுங்கள்...",
+      "keywords": [
+        "bhagavadgita yoga",
+        "hindu yoga",
+        "upanishads yoga",
+        "vedic yoga",
+        "yoga concepts explained in sanatana dharma",
+        "yoga concepts for beginners",
+        "yoga concepts for students",
+        "yoga concepts in modern life",
+        "yoga concepts in sanatana dharma",
+        "yoga history explained in sanatana dharma",
+        "yoga history for beginners",
+        "yoga history for students",
+        "yoga history in modern life",
+        "yoga history of sanatana dharma",
+        "yoga insights explained in sanatana dharma",
+        "yoga insights for beginners",
+        "yoga insights for students",
+        "yoga insights from sanatana dharma",
+        "yoga insights in modern life",
+        "yoga philosophy",
+        "yoga practices explained in sanatana dharma",
+        "yoga practices for beginners",
+        "yoga practices for students",
+        "yoga practices in modern life",
+        "yoga practices in sanatana dharma",
+        "yoga principles explained in sanatana dharma",
+        "yoga principles for beginners",
+        "yoga principles for students",
+        "yoga principles in modern life",
+        "yoga principles of sanatana dharma",
+        "yoga q&a explained in sanatana dharma",
+        "yoga q&a for beginners",
+        "yoga q&a for students",
+        "yoga q&a in modern life",
+        "yoga q&a on sanatana dharma",
+        "yoga relevance explained in sanatana dharma",
+        "yoga relevance for beginners",
+        "yoga relevance for students",
+        "yoga relevance in modern life",
+        "yoga relevance of sanatana dharma in modern life",
+        "yoga sutras of patanjali",
+        "yoga teachings explained in sanatana dharma",
+        "yoga teachings for beginners",
+        "yoga teachings for students",
+        "yoga teachings in modern life",
+        "yoga teachings of sanatana dharma"
+      ],
+      "ogimage": "/og/philosophy-yoga.png",
+      "url": "https://sanatanadharmam.in/philosophy/yoga"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "அமைப்பு",
+        "contactpoint": {
+          "@type": "தொடர்பு புள்ளி",
+          "areaserved": "உலகம் முழுவதும்",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "ஆங்கிலம்",
+            "எஸ்பானோல்",
+            "பிரான்சிஸ்",
+            "ஹிந்தி",
+            "எஸ்",
+            "நேபாளி",
+            "நெதர்லாந்து",
+            "போர்த்துகீசியர்கள்",
+            "ருஸ்கி",
+            "தெலுங்கு",
+            "அர்து",
+            "中文 (简体)"
+          ],
+          "contacttype": "வாடிக்கையாளர் ஆதரவு",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "சனாதனதர்மம்.இன் பற்றி",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "core_principles": [
+      "உலகளாவிய உணர்வுடன் (பிரம்மன்) தனிப்பட்ட சுயத்தின் (ஆத்மா) ஒன்றியம்",
+      "உடல், மன மற்றும் ஆன்மீக அம்சங்களின் சமநிலை",
+      "ஒழுக்கம் மற்றும் நெறிமுறை வாழ்க்கை"
+    ],
+    "definition": "யோகா என்பது ஒரு ஆன்மீக ஒழுக்கம் மற்றும் தத்துவம் ஆகும், இது உடல், மனம் மற்றும் ஆன்மாவை ஒருங்கிணைத்து சுய-உணர்தல் மற்றும் விடுதலையை (மோக்ஷா) அடைவதை நோக்கமாகக் கொண்டுள்ளது.",
+    "eight_limbs_of_yoga": [
+      "யமா (நெறிமுறை கட்டுப்பாடுகள்)",
+      "நியாமா (தனிப்பட்ட அனுசரிப்புகள்)",
+      "ஆசனம் (தோரணைகள்)",
+      "பிராணயாமா (மூச்சு கட்டுப்பாடு)",
+      "பிரத்யாஹாரா (உணர்வுகளை விலக்குதல்)",
+      "தாரணா (செறிவு)",
+      "தியானம் (தியானம்)",
+      "சமாதி (உறிஞ்சுதல் அல்லது ஒன்றியம்)"
+    ],
+    "goals": [
+      "சுய-உணர்தல்",
+      "மன தெளிவும் அமைதியும்",
+      "உடல் ஆரோக்கியம் மற்றும் உயிர்ச்சக்தி",
+      "துன்பத்திலிருந்து விடுதலை"
+    ],
+    "key_scriptural_references": [
+      {
+        "quote_summary": "யோகா என்பது மன ஏற்ற இறக்கங்களை நிறுத்துவதாகும்.",
+        "text": "பதஞ்சலியின் யோக சூத்திரங்கள்"
+      },
+      {
+        "quote_summary": "யோகா என்பது செயல் திறன் மற்றும் வாழ்க்கையில் சமநிலை.",
+        "text": "பகவத்கீதை"
+      }
+    ],
+    "modern_relevance": {
+      "health": "உடல் ஆரோக்கியத்தையும் மனநலத்தையும் மேம்படுத்துகிறது.",
+      "spiritual_growth": "நினைவாற்றல் மற்றும் உள் அமைதியை ஊக்குவிக்கிறது.",
+      "stress_management": "பதட்டத்தை குறைத்து அமைதியை ஊக்குவிக்கிறது."
+    },
+    "origin": {
+      "meaning": "சமஸ்கிருத 'யுஜ்' என்பதிலிருந்து பெறப்பட்டது, அதாவது 'இணைத்தல் அல்லது இணைத்தல்'.",
+      "roots": "வேத மரபு மற்றும் உபநிடதங்கள்",
+      "texts": [
+        "பதஞ்சலியின் யோக சூத்திரங்கள்",
+        "பகவத்கீதை",
+        "உபநிடதங்கள்"
+      ]
+    },
+    "paths_of_yoga": {
+      "bhakti_yoga": "Path of devotion and love for the divine.",
+      "hatha_yoga": "Path of physical postures and breath control.",
+      "jnana_yoga": "Path of knowledge and wisdom.",
+      "karma_yoga": "Path of selfless action.",
+      "raja_yoga": "Path of meditation and mental discipline."
+    },
+    "relation_to_other_concepts": {
+      "dharma": "யோகா நேர்மையான வாழ்க்கையை ஆதரிக்கிறது.",
+      "karma": "யோகா செயல்களையும் நோக்கங்களையும் தூய்மைப்படுத்துகிறது.",
+      "moksha": "யோகம் என்பது விடுதலைக்கான நேரடிப் பாதை."
+    }
+  }
+}

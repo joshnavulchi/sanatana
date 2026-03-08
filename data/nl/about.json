@@ -1,0 +1,231 @@
+{
+  "about": {
+    "title": "Over Sanatana dharma",
+    "meta": {
+      "title": "Over | Overzicht — Sanātana Dharma - Ontdek Sanatan Dharma",
+      "canonical": "https://sanatanadharmam.in/about",
+      "description": "Over - Sanātana Dharma - Ontdek Sanatan Dharma - Artikelen, vertalingen en beknopt commentaar op Over. Ontdek praktijken, geschiedenis en leidende principes op SanatanaDharma.in.",
+      "keywords": [
+        "About Sanātana Dharma",
+        "Sanātana Dharma application",
+        "Sanātana Dharma articles",
+        "Sanātana Dharma beliefs",
+        "Sanātana Dharma bhakti",
+        "Sanātana Dharma commentaries",
+        "Sanātana Dharma commentary",
+        "Sanātana Dharma compassion",
+        "Sanātana Dharma contemporary relevance",
+        "Sanātana Dharma cosmology",
+        "Sanātana Dharma cultural teachings",
+        "Sanātana Dharma culture",
+        "Sanātana Dharma daily life",
+        "Sanātana Dharma devotion",
+        "Sanātana Dharma dharma",
+        "Sanātana Dharma education",
+        "Sanātana Dharma enlightenment",
+        "Sanātana Dharma ethical teachings",
+        "Sanātana Dharma ethics",
+        "Sanātana Dharma exploration",
+        "Sanātana Dharma festivals",
+        "Sanātana Dharma guidance",
+        "Sanātana Dharma history",
+        "Sanātana Dharma insights",
+        "Sanātana Dharma interpretation",
+        "Sanātana Dharma karma",
+        "Sanātana Dharma learning",
+        "Sanātana Dharma liberation",
+        "Sanātana Dharma meditation",
+        "Sanātana Dharma modern life",
+        "Sanātana Dharma moksha",
+        "Sanātana Dharma nonviolence",
+        "Sanātana Dharma overview",
+        "Sanātana Dharma personal growth",
+        "Sanātana Dharma philosophical teachings",
+        "Sanātana Dharma philosophy",
+        "Sanātana Dharma practical teachings",
+        "Sanātana Dharma practices",
+        "Sanātana Dharma principles",
+        "Sanātana Dharma relevance",
+        "Sanātana Dharma resources",
+        "Sanātana Dharma rituals",
+        "Sanātana Dharma scriptures",
+        "Sanātana Dharma self-realization",
+        "Sanātana Dharma selflessness",
+        "Sanātana Dharma seva",
+        "Sanātana Dharma spiritual teachings",
+        "Sanātana Dharma spirituality",
+        "Sanātana Dharma study",
+        "Sanātana Dharma teachings",
+        "Sanātana Dharma timeless wisdom",
+        "Sanātana Dharma traditions",
+        "Sanātana Dharma translations",
+        "Sanātana Dharma truth",
+        "Sanātana Dharma understanding",
+        "Sanātana Dharma universal values",
+        "Sanātana Dharma values",
+        "Sanātana Dharma wisdom",
+        "Sanātana Dharma worldview",
+        "Sanātana Dharma yoga"
+      ],
+      "ogimage": "/og/about.png",
+      "url": "https://sanatanadharmam.in/about"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organisatie",
+        "contactpoint": {
+          "@type": "ContactPunt",
+          "areaserved": "Wereldwijd",
+          "availablelanguage": [
+            "العربية",
+            "Duits",
+            "Engels",
+            "Spaans",
+            "Frans",
+            "Ja",
+            "日本語",
+            "Ja",
+            "Nederlands",
+            "Portugees",
+            "Русский",
+            "Ja",
+            "Ja",
+            "中文 (简体)"
+          ],
+          "contacttype": "Klantenondersteuning",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Over Sanatanadharam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "commitment": [
+      "Om de nauwkeurigheid en duidelijkheid voortdurend te verbeteren",
+      "Om de bibliotheek bij te werken met meer geschriften, commentaren en devotioneel materiaal",
+      "Om de heiligheid en diversiteit van traditionele kennis te respecteren",
+      "Om essentiële inhoud gratis en breed toegankelijk te houden",
+      "Bronnen duidelijk vermelden en wetenschappelijke verificatie aanmoedigen"
+    ],
+    "definationoflife": {
+      "artha": "Artha",
+      "as_individu": "Zoals het individu is, zo is het universum",
+      "atman_true": "De Atman, je ware zelf, is eeuwig en goddelijk.",
+      "brahmach": "Brahmacharya",
+      "desires": "(verlangens), en",
+      "dharma": "Dharma",
+      "essence_life": "De essentie van het leven",
+      "eternal_soul": "आत्मा - De eeuwige ziel",
+      "eternal_truth": "eeuwige waarheid",
+      "every_action": "Elke actie creëert karma en geeft vorm aan onze bestemming.",
+      "four_stages": "आश्रम - De vier levensfasen",
+      "grihasth": "Grihastha",
+      "have_right": "— Je hebt het recht om je plicht te vervullen, maar de vruchten behoren toe aan het goddelijke.",
+      "househol_family": "Huisbewoner - Familie en plicht",
+      "illusion_truth": "माया - Illusie en waarheid",
+      "kama": "Kama",
+      "know_thyself": "Ken uzelf",
+      "law_action": "कर्म - Wet van actie",
+      "liberati": "(bevrijding).",
+      "life_divine": "Het leven is de goddelijke kans om je ware aard te verwezenlijken – niet dit tijdelijke lichaam,\n                  maar het onsterfelijke bewustzijn dat getuige is van alles, onaangetast door geboorte of dood,\n                  plezier of pijn. Dit besef is het hoogste doel van het menselijk bestaan.",
+      "life_play": "Het leven is een spel van Maya, de kosmische illusie. Ware wijsheid ligt in het verder kijken dan de schijn om het te herkennen",
+      "life_s": "पुरुषार्थ - Het doel van het leven",
+      "life_sacred": "Het leven is een heilige reis naar de vier Purusarthas:",
+      "moksha": "Moksha",
+      "never_born": "– Het wordt nooit geboren en sterft ook niet. Het leven is de reis van de ziel om haar eenheid met Brahman te realiseren.",
+      "pervades_all": "dat het hele bestaan ​​doordringt.",
+      "prosperi": "(welvaart),",
+      "renuncia_complete": "Afstand doen - Volledige bevrijding",
+      "retireme_detachme": "Pensioen - Onthechting & Reflectie",
+      "righteou": "(gerechtigheid),",
+      "sannyasa": "Sannyasa",
+      "student_life": "Studentenleven - Leren & Discipline",
+      "vanapras": "Vanaprastha"
+    },
+    "description": "Sanatanadharmam.in is een speciaal digitaal initiatief dat is opgericht om de spirituele, culturele en praktische kennis te verzamelen, te behouden, uit te leggen en te delen die millennia lang via Sanātana Dharma is overgedragen. Ons doel is om deze levende traditie toegankelijk te maken voor zoekers, studenten, beoefenaars en nieuwsgierige lezers van alle achtergronden door authentieke teksten, devotionele hymnen, rituele procedures, filosofische essays en behulpzaam contextueel commentaar in duidelijke, bruikbare formaten te presenteren.\n\nWe erkennen dat Sanātana Dharma niet een enkel monolithisch systeem is, maar een enorm, evoluerend geheel van gedachten en praktijken die vele talen, lijnen en regionale uitdrukkingen omvatten. Deze site probeert die diversiteit te eren en tegelijkertijd een samenhangend toegangspunt te bieden voor degenen die nieuw zijn in de traditie. We richten ons op authenticiteit, duidelijkheid en bruikbaarheid: het bieden van nauwkeurige transliteratie en zuivere tekst voor het zingen, betrouwbare vertalingen die de nuance behouden, en uitleg in duidelijke taal die de historische, culturele en spirituele betekenis van het materiaal verheldert.\n\nOnze prioriteiten omvatten het verzamelen van bronmateriaal uit vertrouwde edities, het presenteren van stotra's en mantra's met correcte diakritische tekens en transliteratie voor leerlingen, het aanbieden van stapsgewijze puja vidhi-gidsen voor gewone huishoudelijke rituelen en festivals, en het creëren van toegankelijke samenvattingen van belangrijke filosofische leringen, zodat lezers praktische implicaties kunnen begrijpen in plaats van alleen maar academische beschrijvingen. Waar mogelijk nemen we verwijzingen op naar originele bronnen, stellen we voor om verder te lezen en geven we varianten of regionale verschillen aan om lezers te helpen de context en herkomst te begrijpen.\n\nNaast het aanbieden van teksten willen we dat de site een praktische metgezel is voor het dagelijkse spirituele leven. Daartoe stellen we verzamelingen samen van dagelijkse gebeden, ochtend- en avondroutines, korte stotra's die geschikt zijn voor dagelijkse recitatie, en beknopte handleidingen voor algemene vieringen. We publiceren ook verklarende artikelen die rituelen en geschriften binnen hun bredere culturele en ethische kaders plaatsen, waardoor lezers praktijk en betekenis met elkaar kunnen verbinden. De site is opzettelijk niet-sektarisch en heeft tot doel een respectvolle ruimte te creëren waar tradities die gemeenschappelijke wortels delen, naast elkaar kunnen worden gepresenteerd met gevoeligheid voor hun verschillen.\n\nBereikbaarheid is belangrijk voor ons. We publiceren inhoud in meerdere Indiase en internationale talen om een ​​breed publiek te bereiken en mensen te ondersteunen wier primaire taal niet Engels is. Teksten bevatten waar mogelijk transliteratie en audio, zodat leerlingen de juiste uitspraak en ritme kunnen oefenen. We streven ernaar om de inhoud navigeerbaar, doorzoekbaar en vriendelijk te maken voor zowel beginners als gevorderde lezers door gelaagde uitleg aan te bieden: korte samenvattingen voor snel lezen, gevolgd door meer gedetailleerde aantekeningen en referenties voor degenen die dieper willen studeren.\n\nWij geloven dat het op verantwoorde wijze behouden en delen van Sanātana Dharma een mix van toewijding, wetenschappelijke zorg en moderne publicatiepraktijken vereist. Alle materialen zijn verzameld met respect voor traditionele vormen en met het oog op duidelijkheid, zodat ze in het hedendaagse leven kunnen worden gelezen, gezongen en beoefend.",
+    "disclaimer": "Wij pretenderen niet traditionele autoriteiten of een uitputtende wetenschappelijke pers te zijn. Deze website wordt met toewijding, zorg en nauwkeurigheid onderhouden. Lezers moeten gevestigde edities of erkende leraren raadplegen voor canonieke of liturgische beslissingen. We moedigen indien nodig kruisverificatie van belangrijke teksten met gezaghebbende bronnen aan.",
+    "faq": {
+      "heading": "Veelgestelde vragen",
+      "items": [
+        {
+          "a": "De site heeft tot doel teksten, stotra's, rituele gidsen en verklarende artikelen met betrekking tot Sanātana Dharma te verzamelen, te bewaren en te presenteren in toegankelijke formaten voor leerlingen, beoefenaars en onderzoekers.",
+          "q": "Wat is het doel van Sanatanadharam.in?"
+        },
+        {
+          "a": "Wij streven ernaar betrouwbare edities te gebruiken en bronnen te vermelden. Wij zijn echter geen formele wetenschappelijke pers; lezers moeten primaire edities en erkende leraren raadplegen voor canonieke beslissingen.",
+          "q": "Zijn de teksten op de site gezaghebbend?"
+        },
+        {
+          "a": "Ja. Wij zijn blij met bijdragen; Gebruik de contactpagina om voorgestelde correcties, vertalingen of bronnen samen met referenties in te dienen. Bijdragen worden vóór publicatie beoordeeld.",
+          "q": "Kan ik correcties of vertalingen bijdragen?"
+        },
+        {
+          "a": "We bieden waar mogelijk gestandaardiseerde transliteratie en diakritische tekens om de juiste uitspraak te ondersteunen, naast versies in platte tekst en audio-opnamen, indien beschikbaar.",
+          "q": "Hoe wordt met transliteratie omgegaan?"
+        }
+      ]
+    },
+    "intro": "Welkom bij Sanātana Dharmam, jouw toegangspoort tot de tijdloze wijsheid van het eeuwige pad. Geworteld in oude Vedische tradities, is het onze missie om de fundamentele principes van Sanātana Dharma – vaak aangeduid als het Hindoeïsme – in zijn puurste, meest authentieke vorm te belichten.",
+    "joinus": {
+      "invite": [
+        "Deel de website met anderen om het bewustzijn te vergroten",
+        "Stel verbeteringen of correcties voor via onze feedbackkanalen",
+        "Draag vertalingen, opnames of teksten ter beoordeling bij",
+        "Steun het project door vrijwillig redactionele hulp of technische assistentie aan te bieden"
+      ],
+      "message": "Sanātana Dharma is een manier van leven die geworteld is in waarheid, mededogen en dienstbaarheid. We nodigen lezers uit om te leren, te oefenen en bij te dragen met nederigheid en een geest van onderzoek."
+    },
+    "longdescription": "Deze site is ontstaan ​​vanuit de erkenning dat levende spirituele tradities zowel behoud als vernieuwing vereisen. Behoud betekent een zorgvuldige transcriptie van teksten, verantwoord citeren van bronnen en het streven naar nauwkeurigheid bij transliteratie en vertaling. Vernieuwing betekent dat deze teksten worden gepresenteerd op manieren die resoneren met het hedendaagse leven, waarbij wordt verduidelijkt hoe oude praktijken zich verhouden tot moderne ethische kwesties, gezinsleven, dienstverlening aan de gemeenschap en persoonlijke ontwikkeling.\n\nWe benaderen contentcuratie via verschillende complementaire praktijken. Bronintegriteit staat centraal: wanneer een tekst wordt gedigitaliseerd, noteren we de editie, verstrekken we bibliografische gegevens en geven we eventuele redactionele beslissingen aan. Voor stotra's en mantra's bieden we begeleiding bij uitspraak en ritme, en als er opnames beschikbaar zijn, voegen we korte audiofragmenten toe om de leerlingen te helpen. Voor rituele instructies splitsen we de reeks op in duidelijke stappen, verwoorden we de betekenis achter elke handeling en noteren we regionale of op afkomst gebaseerde variaties, zodat lezers de praktijk kunnen aanpassen en tegelijkertijd begrijpen waarom er variaties bestaan.\n\nPedagogiek is belangrijk. Leerlingen hebben vaak korte, praktische introducties nodig voordat ze met langere teksten aan de slag gaan. Daarom beginnen onze artikelen met beknopte overzichten in eenvoudige taal, gevolgd door geleidelijk gedetailleerde secties waarin de historische achtergrond, schriftuurlijke verwijzingen, taalkundige aantekeningen en suggesties voor verdere lectuur worden besproken. Dankzij dit gelaagde formaat kunnen gewone lezers snel antwoorden vinden en kunnen serieuze studenten dieper studeren.\n\nEen bijdrage van de gemeenschap wordt aangemoedigd. Hoewel we geen wetenschappelijke pers zijn, verwelkomen we input van mensen uit de praktijk, docenten en wetenschappers die correcties willen voorstellen, aanvullende bronnen willen aanbieden of vertalingen en commentaar willen bijdragen. Alle bijdragen worden beoordeeld op trouw aan de bronnen en duidelijkheid. We hanteren een bescheiden redactioneel beleid dat bedoeld is om een ​​evenwicht te vinden tussen open samenwerking en de verantwoordelijkheden van het samenstellen van heilige teksten.\n\nEthische overwegingen bepalen onze aanpak. Sanātana Dharma onderwijst waarden als dharma, mededogen, waarachtigheid en onbaatzuchtige dienstbaarheid. Wij streven ernaar deze waarden te weerspiegelen door een respectvolle presentatie, inclusiviteit en het vermijden van polemieken. Wij bevorderen de commerciële exploitatie van heilige materialen niet; de meeste inhoud is gratis beschikbaar op de site en we vermelden bronnen en bijdragers expliciet. Wanneer materiaal wordt gebruikt onder specifieke toestemmingen of licenties, wordt die informatie duidelijk verstrekt.\n\nPraktische gebruiksscenario's begeleiden het ontwerp van de inhoud. Een huishoudprofessional die op zoek is naar de juiste volgorde van een gewone puja, zou stapsgewijze begeleiding en uitleg van de essentiële mantra's en gebaren moeten kunnen vinden. Een student die zich voorbereidt op een recitatie moet toegang hebben tot een schone tekst met transliteratie en een audiomodel. Een nieuwsgierige lezer zou een beknopte inleiding tot de Bhagavathgita moeten kunnen vinden, met links naar primaire verzen en leesbaar commentaar. Door te focussen op reële behoeften maken we de traditie toegankelijker met behoud van diepgang.\n\nTechnologie is een hulpmiddel en geen vervanging voor geleefde traditie. We gebruiken het internet om materiaal te indexeren, zoeken en presenteren; om audio- en transliteratietools te hosten; en om meertalige navigatie mogelijk te maken. Toch erkennen we dat directe begeleiding door een leraar en deelname aan de gemeenschapspraktijk van cruciaal belang blijven. Onze inhoud is ontworpen als aanvulling op, en niet ter vervanging van, persoonlijke instructie en gemeenschapsgericht leren.\n\nVooruitkijkend zijn we van plan om de audio- en multimediabronnen uit te breiden, om meer regionale en taalspecifieke edities op te nemen, en om hulpmiddelen te bouwen die docenten en leerlingen helpen bij de interactie met teksten (bijvoorbeeld bladwijzers, gedeelde notities en leesgidsen voor kleine groepen). We zijn ook van plan om de citaten en bibliografische verwijzingen te versterken, zodat onderzoekers en docenten de tekstuele herkomst van het materiaal op de site kunnen traceren.\n\nWe nodigen lezers uit om de site als uitgangspunt te nemen: een zorgvuldige, meelevende kennismaking met een levende traditie. Voor degenen die verder willen verkennen, bieden we routes naar primaire bronnen, klassieke commentaren en gerenommeerde hedendaagse exposities. Of uw interesse nu devotioneel, wetenschappelijk, cultureel of praktisch is, Sanatanadharmam.in streeft ernaar bronnen aan te bieden die accuraat, toegankelijk en nuttig zijn.\n\nAls u fouten, weglatingen of manieren vindt om de presentatie te verbeteren, deel deze dan. Bijdragen die de nauwkeurigheid verbeteren, ontbrekende bronvermeldingen toevoegen, vertalingen van hoge kwaliteit leveren of nuttige audio-opnamen bieden ngs zijn bijzonder welkom. We hopen dat dit werk de individuele praktijk, het gemeenschapsleven en de intergenerationele overdracht van kennis ondersteunt op manieren die respectvol, openhartig en verantwoordelijk zijn.\n\nKortom, Sanatanadharmam.in probeert een breed spectrum aan kennis uit Sanātana Dharma te beschermen, deze met integriteit en zorg te presenteren, en er een levende, bruikbare bron van te maken voor iedereen die wil leren, oefenen of eenvoudigweg wil begrijpen. We laten ons leiden door de overtuiging dat oude wijsheid, wanneer deze eerlijk en bedachtzaam wordt gepresenteerd, individuen en gemeenschappen kan helpen inzicht, mededogen en een dieper gevoel van betekenis te cultiveren.",
+    "sections": [
+      {
+        "title": "Wie we zijn",
+        "text": "Sanātana Dharmam is een speciaal online platform gecreëerd door spirituele zoekers die gepassioneerd zijn door het delen van de universele waarden die ingebed zijn in de oudste spirituele tradities van het Indiase subcontinent. Hoewel ons werk gebaseerd is op heilige geschriften zoals de Veda's en Upaniṣaden, beweren we niet dat we spirituele autoriteiten zijn; we zijn medereizigers die een zorgvuldig samengesteld overzicht bieden van deze diepgaande manier van leven."
+      },
+      {
+        "title": "Onze missie",
+        "bullets": [
+          "Opvoeden en versterken – Presenteer inzichten uit Vedische teksten en klassieke commentaren om Sanātana Dharma toegankelijk en herkenbaar te maken.",
+          "Behoud authenticiteit – Benadruk nauwkeurigheid en respect voor originele Sanskrietbronnen.",
+          "Inspireer harmonie – Ontdek diepere spirituele waarheden, inclusieve rituelen en ethisch leven om eenheid in diversiteit te koesteren."
+        ]
+      },
+      {
+        "title": "Wat we behandelen",
+        "bullets": [
+          "Kernprincipes zoals Svadharma en Sanātana-dharma",
+          "Zes belangrijke filosofische systemen: Nyāya, Vaiśeṣika, Vedānta, Samkhya, Yoga en Mīmāṃsā",
+          "Praktische begeleiding bij yoga, meditatie en subtiele lichaamsoefeningen",
+          "Rituelen, huwelijksgewoonten, vegetarisme, bhakti en interreligieus begrip"
+        ]
+      },
+      {
+        "title": "Waarom het er vandaag toe doet",
+        "text": "Sanātana Dharma is niet alleen maar een religie; het is een zich ontwikkelende, levende filosofie die door de eeuwen heen culturele, ethische en spirituele kaders heeft gevormd. De term zelf betekent 'eeuwige weg' of 'eeuwige wet', en weerspiegelt blijvende wijsheid die tijd, plaats of dogma overstijgt. In een tijdperk van snelle veranderingen biedt het opnieuw verbinden met deze kernwaarden – waarheid, geweldloosheid, mededogen, zelfrealisatie – holistische begeleiding voor zowel individuen als samenlevingen."
+      }
+    ],
+    "vision": {
+      "description": "Om te dienen als een betrouwbare, goed beheerde digitale opslagplaats die de essentiële leringen, devotionele literatuur, rituele kennis en praktische begeleiding van Sanātana Dharma bewaart en deze tegelijkertijd toegankelijk, begrijpelijk en bruikbaar maakt voor huidige en toekomstige generaties.",
+      "focusareas": [
+        "Meertalige inhoud in het Sanskriet, regionale Indiase talen en Engels",
+        "Devotionele stotra's, mantra's en dagelijkse gebeden met transliteratie en audio-ondersteuning",
+        "Gedetailleerde puja-vidhi's, festivalgidsen en instructies voor huishoudelijke rituelen",
+        "Duidelijke uiteenzettingen van filosofische concepten uit de Upanishads, Bhagavathgita, Purana's en klassieke commentaren",
+        "Contextuele essays die de Schrift verbinden met de geleefde praktijk en het ethische leven",
+        "Doorzoekbare, goed gecatalogiseerde archieven met citaten naar gezaghebbende edities"
+      ],
+      "goal": "Het bouwen van een duurzame digitale bibliotheek die waardevolle teksten bewaart en praktische trajecten biedt voor studie en praktijk, ter ondersteuning van leerlingen, praktijkmensen en wetenschappers van generatie op generatie."
+    },
+    "whywecreated": {
+      "problemsaddressed": [
+        "Moeilijk te vinden, inconsistente of slecht gedigitaliseerde versies van belangrijke teksten",
+        "Fragmentatie van bronnen over meerdere sites en formaten",
+        "Gebrek aan toegankelijke vertalingen en transliteratie voor leerlingen",
+        "Onvoldoende contextuele begeleiding voor het toepassen van rituele en filosofische leringen in het dagelijks leven",
+        "Barrières voor niet-specialisten om de Schrift te benaderen zonder voorafgaande training"
+      ],
+      "purpose": "We hebben Sanatanadharmam.in gecreëerd om betrouwbaar materiaal te centraliseren en gelaagde uitleg te bieden die lezers helpt om van nieuwsgierigheid naar betekenisvolle praktijk te gaan. Door schone digitale edities, zorgvuldige vertalingen, transliteratiehulpmiddelen, praktische rituele gidsen en empathische interpretatie te combineren, hopen we de toegangsdrempel te verlagen en tegelijkertijd het respect voor de diepgang en verscheidenheid van de traditie te behouden."
+    }
+  }
+}

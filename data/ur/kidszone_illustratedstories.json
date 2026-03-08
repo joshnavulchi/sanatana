@@ -1,0 +1,917 @@
+{
+  "kidszone_illustratedstories": {
+    "title": "تصویری کہانیاں",
+    "meta": {
+      "title": "کڈز زون | تصویری کہانیاں - سناتن دھرم - سناتن دھرم کو دریافت کریں۔",
+      "canonical": "https://sanatanadharmam.in/kidszone/illustratedstories",
+      "description": "KidsZone — Illustrated Stories — سناتن دھرم — سناتن دھرم کو دریافت کریں — کڈز زون پر مضامین، ترجمے اور مختصر تبصرہ۔ طرز عمل، تاریخ اور رہنمائی دریافت کریں...",
+      "keywords": [
+        "Animal Fables",
+        "Bedtime Stories for Kids",
+        "Children's Stories",
+        "Classic Indian Stories",
+        "Educational Stories",
+        "Folk Tales with Morals",
+        "Illustrated Stories",
+        "Indian Culture for Kids",
+        "Indian Folktales",
+        "Indian Heritage for Children",
+        "Jataka Tales",
+        "KidsZone",
+        "Moral Stories",
+        "Mythological Stories for Kids",
+        "Panchatantra",
+        "Short Stories for Children",
+        "Stories from Indian Tradition",
+        "Stories of Animals with Morals",
+        "Stories of Compassion and Empathy",
+        "Stories of Courage and Bravery",
+        "Stories of Courage and Wisdom",
+        "Stories of Creativity and Imagination",
+        "Stories of Cultural Values and Traditions",
+        "Stories of Everyday Heroes",
+        "Stories of Family and Relationships",
+        "Stories of Festivals and Celebrations",
+        "Stories of Friendship and Kindness",
+        "Stories of Generosity and Sharing",
+        "Stories of Good vs Evil",
+        "Stories of Honesty and Integrity",
+        "Stories of Humility and Gratitude",
+        "Stories of Kindness and Compassion",
+        "Stories of Kings and Queens",
+        "Stories of Mythological Characters",
+        "Stories of Nature and Environment",
+        "Stories of Perseverance and Hard Work",
+        "Stories of Problem-Solving and Critical Thinking",
+        "Stories of Respect and Responsibility",
+        "Stories of Sages and Saints",
+        "Stories of Self-Control and Discipline",
+        "Stories of Teamwork and Cooperation",
+        "Stories of Wisdom and Intelligence",
+        "Stories with Life Lessons"
+      ],
+      "ogimage": "/og/kidszone-illustratedstories.png",
+      "url": "https://sanatanadharmam.in/kidszone/illustratedstories"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "تنظیم",
+        "contactpoint": {
+          "@type": "رابطہ پوائنٹ",
+          "areaserved": "دنیا بھر میں",
+          "availablelanguage": [
+            "العربية",
+            "ڈوئچ",
+            "انگریزی",
+            "اسپینول",
+            "Français",
+            "ہندی",
+            "日本語",
+            "नेपाली",
+            "نیدرلینڈز",
+            "پرتگالی",
+            "روسی",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "کسٹمر سپورٹ",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sanatanadharmam.in کے بارے میں",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "description": "ہندوستانی روایت سے مختصر تصویری کہانیوں اور اخلاقیات کا مجموعہ۔ کسی کہانی کا خلاصہ اور اخلاقی مطالعہ کرنے کے لیے کلک کریں۔",
+    "kids_indian_stories": [
+      {
+        "title": "چالاک خرگوش اور شیر",
+        "characters": [
+          "خرگوش",
+          "شیر"
+        ],
+        "id": 1,
+        "imgalt": "The Clever Rabbit and the Lion",
+        "imgsrc": "/images/illustrate/thumbs/1.png",
+        "moral": "حکمت طاقت سے زیادہ مضبوط ہے۔",
+        "origin": "پنچتنتر",
+        "summary": "ایک چھوٹا خرگوش اس کا عکس دیکھ کر ایک خوفناک شیر کو کنویں میں چھلانگ لگانے کے لیے بہلاتا ہے۔",
+        "themes": [
+          "ہمت",
+          "ذہانت"
+        ]
+      },
+      {
+        "title": "بندر اور مگرمچھ",
+        "characters": [
+          "بندر",
+          "مگرمچھ"
+        ],
+        "id": 2,
+        "imgalt": "The Monkey and the Crocodile",
+        "imgsrc": "/images/illustrate/thumbs/2.png",
+        "moral": "دماغ کی موجودگی زندگی بچاتی ہے۔",
+        "origin": "پنچتنتر",
+        "summary": "ایک بندر مگرمچھ کو دھوکہ دے کر خطرے سے بچتا ہے جو اس کا دل کھانے کی کوشش کرتا ہے۔",
+        "themes": [
+          "دوستی",
+          "دھوکہ"
+        ]
+      },
+      {
+        "title": "پیاسا کوا۔",
+        "characters": [
+          "کوا"
+        ],
+        "id": 3,
+        "imgalt": "The Thirsty Crow",
+        "imgsrc": "/images/illustrate/thumbs/3.png",
+        "moral": "جہاں مرضی ہوتی ہے وہاں راستہ ہوتا ہے۔",
+        "origin": "ہندوستانی لوک کہانی",
+        "summary": "ایک پیاسا کوا پانی کی سطح کو بلند کرنے کے لیے ایک برتن میں کنکریاں گراتا ہے اور اسے پیتا ہے۔",
+        "themes": [
+          "استقامت",
+          "تخلیقی صلاحیت"
+        ]
+      },
+      {
+        "title": "بے وقوف شیر اور چالاک لومڑی",
+        "characters": [
+          "شیر",
+          "فاکس"
+        ],
+        "id": 4,
+        "imgalt": "The Foolish Lion and the Clever Fox",
+        "imgsrc": "/images/illustrate/thumbs/4.png",
+        "moral": "لالچ زوال کی طرف لے جاتا ہے۔",
+        "origin": "پنچتنتر",
+        "summary": "ایک لومڑی شیر کو بے وقوف بنا کر ایک ویران غار میں داخل ہو جاتی ہے اور شیر ہمیشہ کے لیے پھنس جاتا ہے۔",
+        "themes": [
+          "لالچ",
+          "ذہانت"
+        ]
+      },
+      {
+        "title": "باتونی کچھوا",
+        "characters": [
+          "کچھوا",
+          "ہنس"
+        ],
+        "id": 5,
+        "imgalt": "The Talkative Tortoise",
+        "imgsrc": "/images/illustrate/thumbs/5.png",
+        "moral": "بہت زیادہ بات کرنا پریشانی کا باعث بن سکتا ہے۔",
+        "origin": "پنچتنتر",
+        "summary": "ایک کچھوا آسمان سے گرتا ہے کیونکہ وہ دو پرندے لے جانے کے دوران اپنا منہ کھولتا ہے۔",
+        "themes": [
+          "نظم و ضبط",
+          "مزاح"
+        ]
+      },
+      {
+        "title": "تینالی راما اور چور",
+        "characters": [
+          "تینالی راما",
+          "چور"
+        ],
+        "id": 6,
+        "imgalt": "Tenali Rama and the Thieves",
+        "imgsrc": "/images/illustrate/thumbs/6.png",
+        "moral": "سمارٹ سوچ آپ کے گھر کو بچا سکتی ہے۔",
+        "origin": "تینالی رمن کی کہانیاں",
+        "summary": "تینالی راما رات بھر اپنے کنویں کو صاف کرنے کا بہانہ کرکے اس میں پتھر گرا کر چوروں کو پھنساتی ہے۔",
+        "themes": [
+          "حکمت",
+          "حکمت عملی"
+        ]
+      },
+      {
+        "title": "بیربل کی کھچڑی کی کہانی",
+        "characters": [
+          "بیربل",
+          "اکبر"
+        ],
+        "id": 7,
+        "imgalt": "Birbal’s Khichdi Story",
+        "imgsrc": "/images/illustrate/thumbs/7.png",
+        "moral": "صبر اور دماغ کی موجودگی جیت جاتی ہے۔",
+        "origin": "اکبر-بیربل",
+        "summary": "بیربل ثابت کرتا ہے کہ دور سے گرمی کے بارے میں سوچنا دور سے کھانا گرم کرنے کے مترادف ہے۔",
+        "themes": [
+          "انصاف",
+          "منطق"
+        ]
+      },
+      {
+        "title": "وفادار منگوز",
+        "characters": [
+          "منگوز",
+          "بچہ",
+          "ماں"
+        ],
+        "id": 8,
+        "imgalt": "The Loyal Mongoose",
+        "imgsrc": "/images/illustrate/thumbs/8.png",
+        "moral": "کسی نتیجے پر نہ پہنچیں۔",
+        "origin": "ہندوستانی لوک داستان",
+        "summary": "ایک منگوز ایک بچے کو سانپ سے بچاتا ہے، لیکن اسے غلطی سے سزا مل جاتی ہے۔",
+        "themes": [
+          "وفاداری۔",
+          "بھروسہ"
+        ]
+      },
+      {
+        "title": "کرشنا اور مکھن کا برتن",
+        "characters": [
+          "کرشنا۔",
+          "گوپیوں"
+        ],
+        "id": 9,
+        "imgalt": "Krishna and the Butter Pot",
+        "imgsrc": "/images/illustrate/thumbs/9.png",
+        "moral": "تجسس اور زندہ دل ہونا فطری ہے، لیکن ایمانداری اہم ہے۔",
+        "origin": "کرشنا کے بچپن کی کہانیاں",
+        "summary": "بچہ کرشنا اپنے دوستوں کے ساتھ مکھن چراتا ہے اور اپنی معصومیت سے سب کو دلکش بناتا ہے۔",
+        "themes": [
+          "شرارت",
+          "محبت"
+        ]
+      },
+      {
+        "title": "سداما اور کرشنا۔",
+        "characters": [
+          "کرشنا۔",
+          "سداما"
+        ],
+        "id": 10,
+        "imgalt": "Sudama and Krishna",
+        "imgsrc": "/images/illustrate/thumbs/10.png",
+        "moral": "سچی دوستی غیر مشروط ہے۔",
+        "origin": "بھگوت پران",
+        "summary": "غریب سداما ایک عاجزانہ تحفہ کے ساتھ کرشنا سے ملاقات کرتا ہے، اور کرشنا نے اسے پیار اور برکتوں سے نوازا۔",
+        "themes": [
+          "دوستی",
+          "مہربانی"
+        ]
+      },
+      {
+        "title": "ہاتھی اور درزی",
+        "characters": [
+          "ہاتھی",
+          "درزی"
+        ],
+        "id": 11,
+        "imgalt": "The Elephant and the Tailor",
+        "imgsrc": "/images/illustrate/thumbs/11.png",
+        "moral": "رحم دلی کو لوٹاتا ہے۔ ظلم ظلم لوٹتا ہے۔",
+        "origin": "ہندوستانی لوک کہانی",
+        "summary": "ایک درزی ہاتھی کو چباتا ہے، اور ہاتھی بدلہ لینے کے لیے اس پر کیچڑ والا پانی پھینکتا ہے۔",
+        "themes": [
+          "رویہ",
+          "نتائج"
+        ]
+      },
+      {
+        "title": "عقلمند طوطا۔",
+        "characters": [
+          "طوطا۔",
+          "بادشاہ"
+        ],
+        "id": 12,
+        "imgalt": "The Wise Parrot",
+        "imgsrc": "/images/illustrate/thumbs/12.png",
+        "moral": "اچھا مشورہ زندگی بچا سکتا ہے۔",
+        "origin": "پنچتنتر",
+        "summary": "ایک طوطا بادشاہ کو اس کی بادشاہی کے خطرات سے خبردار کرتا ہے اور اس کا قابل اعتماد دوست بن جاتا ہے۔",
+        "themes": [
+          "حکمت",
+          "ذمہ داری"
+        ]
+      },
+      {
+        "title": "شراون کمار کی عقیدت",
+        "characters": [
+          "شراون",
+          "والدین",
+          "بادشاہ دشرتھ"
+        ],
+        "id": 13,
+        "imgalt": "Shravan Kumar’s Devotion",
+        "imgsrc": "/images/illustrate/thumbs/13.png",
+        "moral": "والدین کی خدمت نیکی ہے۔",
+        "origin": "رامائن",
+        "summary": "شراون کمار اپنے نابینا والدین کی دیکھ بھال کرتا ہے اور عقیدت کی علامت بن جاتا ہے۔",
+        "themes": [
+          "عقیدت",
+          "خاندان"
+        ]
+      },
+      {
+        "title": "گنیش اور آم",
+        "characters": [
+          "گنیش",
+          "کارتیکیہ",
+          "شیوا",
+          "پاروتی"
+        ],
+        "id": 14,
+        "imgalt": "Ganesha and the Mango",
+        "imgsrc": "/images/illustrate/thumbs/14.png",
+        "moral": "حکمت رفتار سے بڑی ہے۔",
+        "origin": "پرانوں",
+        "summary": "گنیش دنیا کے بجائے اپنے والدین کے گرد چکر لگا کر مقابلہ جیتتا ہے۔",
+        "themes": [
+          "خاندان",
+          "حکمت"
+        ]
+      },
+      {
+        "title": "بادشاہ اور چڑیا ۔",
+        "characters": [
+          "بادشاہ",
+          "چڑیا"
+        ],
+        "id": 15,
+        "imgalt": "The King and the Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/15.png",
+        "moral": "مہربانی کی چھوٹی چھوٹی حرکتیں اہمیت رکھتی ہیں۔",
+        "origin": "ہندوستانی لوک کہانی",
+        "summary": "ایک چڑیا بادشاہ کی عاجزی سیکھنے میں مدد کرتی ہے۔",
+        "themes": [
+          "مہربانی",
+          "عاجزی"
+        ]
+      },
+      {
+        "title": "گولڈن سوان",
+        "characters": [
+          "گولڈن سوان",
+          "ماں",
+          "بیٹیاں"
+        ],
+        "id": 16,
+        "imgalt": "The Golden Swan",
+        "imgsrc": "/images/illustrate/thumbs/16.png",
+        "moral": "لالچ خوشی کو تباہ کر دیتا ہے۔",
+        "origin": "جتک کہانیاں",
+        "summary": "ایک سنہری ہنس ایک غریب خاندان کو پنکھ دیتا ہے، لیکن لالچ سب کچھ برباد کر دیتا ہے۔",
+        "themes": [
+          "لالچ",
+          "سخاوت"
+        ]
+      },
+      {
+        "title": "بھوکا ماؤس",
+        "characters": [
+          "ماؤس"
+        ],
+        "id": 17,
+        "imgalt": "The Hungry Mouse",
+        "imgsrc": "/images/illustrate/thumbs/17.png",
+        "moral": "خود پر قابو رکھنا ضروری ہے۔",
+        "origin": "پنچتنتر",
+        "summary": "ایک چوہا زیادہ کھانے کے بعد سوراخ میں پھنس جاتا ہے۔",
+        "themes": [
+          "نظم و ضبط"
+        ]
+      },
+      {
+        "title": "شیر اور چوہا",
+        "characters": [
+          "شیر",
+          "ماؤس"
+        ],
+        "id": 18,
+        "imgalt": "The Lion and the Mouse",
+        "imgsrc": "/images/illustrate/thumbs/18.png",
+        "moral": "چھوٹا بھی طاقتور کی مدد کر سکتا ہے۔",
+        "origin": "ہندوستانی موافقت",
+        "summary": "ایک شیر ایک چوہے کو بچاتا ہے اور چوہا بعد میں شیر کو بچاتا ہے۔",
+        "themes": [
+          "مہربانی",
+          "دوستی"
+        ]
+      },
+      {
+        "title": "عقلمند بڑھئی",
+        "characters": [
+          "بڑھئی",
+          "دیہاتی"
+        ],
+        "id": 19,
+        "imgalt": "The Wise Carpenter",
+        "imgsrc": "/images/illustrate/thumbs/19.png",
+        "moral": "حکمت تنازعات کو حل کرتی ہے۔",
+        "origin": "ہندوستانی گاؤں کی کہانی",
+        "summary": "ایک بڑھئی ہوشیار منصوبہ بندی کا استعمال کرتے ہوئے زمین کے تنازع کو پرامن طریقے سے حل کرتا ہے۔",
+        "themes": [
+          "امن",
+          "انصاف"
+        ]
+      },
+      {
+        "title": "دی میجک ڈرم",
+        "characters": [
+          "لڑکا",
+          "پریاں"
+        ],
+        "id": 20,
+        "imgalt": "The Magic Drum",
+        "imgsrc": "/images/illustrate/thumbs/20.png",
+        "moral": "ایمانداری کا صلہ ملتا ہے۔",
+        "origin": "ہندوستانی لوک کہانی",
+        "summary": "ایک مہربان لڑکے کو ایک جادوئی ڈرم ملتا ہے جو کھانا اور کھلونے بناتا ہے۔",
+        "themes": [
+          "جادو",
+          "مہربانی"
+        ]
+      },
+      {
+        "title": "بہادر چھوٹی چڑیا",
+        "characters": [
+          "چڑیا",
+          "ہاتھی"
+        ],
+        "id": 21,
+        "imgalt": "The Brave Little Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/21.png",
+        "moral": "ہمت طاقتوروں کو شکست دے سکتی ہے۔",
+        "origin": "انڈیا",
+        "summary": "ایک چڑیا اپنے بچوں کو ایک بڑے ہاتھی سے بچاتی ہے۔",
+        "themes": [
+          "ہمت"
+        ]
+      },
+      {
+        "title": "ارجن اور پرندوں کی آنکھ",
+        "characters": [
+          "ارجن",
+          "ڈرون"
+        ],
+        "id": 22,
+        "imgalt": "Arjuna and the Bird’s Eye",
+        "imgsrc": "/images/illustrate/thumbs/22.png",
+        "moral": "توجہ کامیابی کی طرف لے جاتی ہے۔",
+        "origin": "مہابھارت",
+        "summary": "ارجن صرف پرندے کی آنکھ پر توجہ مرکوز کرکے اپنے گرو کو متاثر کرتا ہے۔",
+        "themes": [
+          "نظم و ضبط",
+          "تربیت"
+        ]
+      },
+      {
+        "title": "ٹیڑھا درخت",
+        "characters": [
+          "ٹیڑھا درخت",
+          "لمبے درخت"
+        ],
+        "id": 23,
+        "imgalt": "The Crooked Tree",
+        "imgsrc": "/images/illustrate/thumbs/23.png",
+        "moral": "آپ جو ہیں اس پر راضی رہیں۔",
+        "origin": "ہندوستانی جنگل کی کہانی",
+        "summary": "ایک ٹیڑھا درخت اپنی شکل کی وجہ سے لکڑی کاٹنے والوں سے زندہ رہتا ہے۔",
+        "themes": [
+          "خود قابل قدر"
+        ]
+      },
+      {
+        "title": "جادوئی برتن",
+        "characters": [
+          "کسان"
+        ],
+        "id": 24,
+        "imgalt": "The Magic Pot",
+        "imgsrc": "/images/illustrate/thumbs/24.png",
+        "moral": "اچھی چیزیں اچھے لوگوں کو ملتی ہیں۔",
+        "origin": "ہندوستانی لوک داستان",
+        "summary": "ایک کسان کو ایک برتن ملتا ہے جو وہ اندر ڈالنے والی ہر چیز کو دگنا کر دیتا ہے۔",
+        "themes": [
+          "جادو",
+          "خوش قسمتی"
+        ]
+      },
+      {
+        "title": "قسم کا ہرن",
+        "characters": [
+          "ہرن بادشاہ",
+          "ڈو",
+          "انسانی بادشاہ"
+        ],
+        "id": 25,
+        "imgalt": "The Kind Deer",
+        "imgsrc": "/images/illustrate/thumbs/25.png",
+        "moral": "رحم دلی کو متاثر کرتا ہے۔",
+        "origin": "جتک کہانیاں",
+        "summary": "ایک ہرن کا بادشاہ ایک ڈو کو بچاتا ہے اور بادشاہ کی عزت کماتا ہے۔",
+        "themes": [
+          "ہمدردی"
+        ]
+      },
+      {
+        "title": "اڑتا ہوا ہاتھی۔",
+        "characters": [
+          "ہاتھی",
+          "بابا"
+        ],
+        "id": 26,
+        "imgalt": "The Flying Elephant",
+        "imgsrc": "/images/illustrate/thumbs/26.png",
+        "moral": "عاجزی اختیار کرو۔",
+        "origin": "ہندوستانی فنتاسی",
+        "summary": "پروں والا ہاتھی اپنے اختیارات کا غلط استعمال کرنے کے بعد انہیں کھو دیتا ہے۔",
+        "themes": [
+          "عاجزی"
+        ]
+      },
+      {
+        "title": "حکمت کا برتن",
+        "characters": [
+          "لڑکا",
+          "بابا"
+        ],
+        "id": 27,
+        "imgalt": "The Pot of Wisdom",
+        "imgsrc": "/images/illustrate/thumbs/27.png",
+        "moral": "بانٹنے سے حکمت بڑھتی ہے۔",
+        "origin": "جنوبی ہند کی کہانی",
+        "summary": "ایک لڑکا سیکھتا ہے کہ کوئی بھی تمام حکمت اکیلے نہیں رکھ سکتا۔",
+        "themes": [
+          "سیکھنا"
+        ]
+      },
+      {
+        "title": "دی میجک فش",
+        "characters": [
+          "ماہی گیر",
+          "جادوئی مچھلی"
+        ],
+        "id": 28,
+        "imgalt": "The Magic Fish",
+        "imgsrc": "/images/illustrate/thumbs/28.png",
+        "moral": "شکرگزاری اہم ہے۔",
+        "origin": "بحر ہند لوک کہانی",
+        "summary": "ایک ماہی گیر ایک جادوئی مچھلی پکڑتا ہے جو آزادی کے بدلے میں مدد فراہم کرتی ہے۔",
+        "themes": [
+          "شکر گزاری",
+          "جادو"
+        ]
+      },
+      {
+        "title": "ناریل اور چیونٹی",
+        "characters": [
+          "چیونٹی",
+          "ناریل"
+        ],
+        "id": 29,
+        "imgalt": "The Coconut and the Ant",
+        "imgsrc": "/images/illustrate/thumbs/29.png",
+        "moral": "یہاں تک کہ چھوٹی سی کوشش بھی اہمیت رکھتی ہے۔",
+        "origin": "گاؤں کی کہانی",
+        "summary": "چیونٹیاں مل کر ناریل کو سمندر تک پہنچنے میں مدد کرتی ہیں۔",
+        "themes": [
+          "ٹیم ورک"
+        ]
+      },
+      {
+        "title": "ٹائیگر اور ووڈ کٹر",
+        "characters": [
+          "ٹائیگر",
+          "لکڑی کاٹنے والا"
+        ],
+        "id": 30,
+        "imgalt": "The Tiger and the Woodcutter",
+        "imgsrc": "/images/illustrate/thumbs/30.png",
+        "moral": "دوسروں کی مدد کریں اور آپ کی مدد کی جائے گی۔",
+        "origin": "ہندوستانی جنگل کی کہانی",
+        "summary": "ایک لکڑی کاٹنے والا ایک پھنسے ہوئے شیر کو رہا کرتا ہے جو حیرت انگیز طور پر اپنی جان بچاتا ہے۔",
+        "themes": [
+          "ہمدردی",
+          "ہمت"
+        ]
+      },
+      {
+        "title": "دو بلیاں اور بندر",
+        "characters": [
+          "بلیاں",
+          "بندر"
+        ],
+        "id": 31,
+        "imgalt": "The Two Cats and the Monkey",
+        "imgsrc": "/images/illustrate/thumbs/31.png",
+        "moral": "دوسروں کو اپنی لڑائیاں طے کرنے نہ دیں۔",
+        "origin": "پنچتنتر",
+        "summary": "ایک بندر روٹی کو دو بلیوں میں تقسیم کرنے کا بہانہ کرتے ہوئے کھاتا ہے۔",
+        "themes": [
+          "انصاف",
+          "حماقت"
+        ]
+      },
+      {
+        "title": "چڑیا اور سمندر",
+        "characters": [
+          "چڑیا",
+          "سمندر",
+          "راما"
+        ],
+        "id": 32,
+        "imgalt": "The Sparrow and the Sea",
+        "imgsrc": "/images/illustrate/thumbs/32.png",
+        "moral": "عزم پہاڑوں کو حرکت دیتا ہے۔",
+        "origin": "رام کی کہانی",
+        "summary": "ایک چڑیا سمندر کو دھمکی دیتی ہے جب وہ اپنے انڈے لیتی ہے، بھگوان رام کو متاثر کرتی ہے۔",
+        "themes": [
+          "عزم"
+        ]
+      },
+      {
+        "title": "وہ لڑکا جس نے ٹائیگر کو پکارا۔",
+        "characters": [
+          "لڑکا",
+          "دیہاتی",
+          "ٹائیگر"
+        ],
+        "id": 33,
+        "imgalt": "The Boy Who Cried Tiger",
+        "imgsrc": "/images/illustrate/thumbs/33.png",
+        "moral": "کبھی جھوٹ نہ بولو۔",
+        "origin": "ہندوستانی موافقت",
+        "summary": "ایک لڑکا دیہاتیوں کو بے وقوف بناتا ہے لیکن جب واقعی شیر ظاہر ہوتا ہے تو اسے تکلیف ہوتی ہے۔",
+        "themes": [
+          "ایمانداری"
+        ]
+      },
+      {
+        "title": "جادوئی برگد کا درخت",
+        "characters": [
+          "درخت",
+          "مسافر"
+        ],
+        "id": 34,
+        "imgalt": "The Magic Banyan Tree",
+        "imgsrc": "/images/illustrate/thumbs/34.png",
+        "moral": "سخاوت قسمت لاتی ہے۔",
+        "origin": "لوک کہانی",
+        "summary": "ایک درخت ایک مہربان مسافر کو پھل، سایہ اور سونے کے سکے دیتا ہے۔",
+        "themes": [
+          "مہربانی"
+        ]
+      },
+      {
+        "title": "متجسس میور",
+        "characters": [
+          "مور",
+          "نائٹنگیل"
+        ],
+        "id": 35,
+        "imgalt": "The Curious Peacock",
+        "imgsrc": "/images/illustrate/thumbs/35.png",
+        "moral": "اپنی طاقتوں سے خوش رہیں۔",
+        "origin": "ہندوستانی جانوروں کی کہانی",
+        "summary": "مور کو شبلی کی آواز چاہیے لیکن خوبصورتی کی اپنی دلکشی ہوتی ہے۔",
+        "themes": [
+          "خود سے محبت"
+        ]
+      },
+      {
+        "title": "چالاک ویور",
+        "characters": [
+          "ویور",
+          "بھوت"
+        ],
+        "id": 36,
+        "imgalt": "The Clever Weaver",
+        "imgsrc": "/images/illustrate/thumbs/36.png",
+        "moral": "ہوشیار کام جیتتا ہے۔",
+        "origin": "جنوبی ہند",
+        "summary": "ایک بنکر بھوت کو بیوقوف بناتا ہے اور امیر بن جاتا ہے۔",
+        "themes": [
+          "ہمت",
+          "حکمت"
+        ]
+      },
+      {
+        "title": "محنت کا پھل",
+        "characters": [
+          "بھائیو"
+        ],
+        "id": 37,
+        "imgalt": "The Fruits of Hard Work",
+        "imgsrc": "/images/illustrate/thumbs/37.png",
+        "moral": "محنت ہمیشہ رنگ لاتی ہے۔",
+        "origin": "ہندوستانی گاؤں",
+        "summary": "دو بھائی سیکھتے ہیں کہ کوشش قسمت سے زیادہ اہمیت رکھتی ہے۔",
+        "themes": [
+          "محنت"
+        ]
+      },
+      {
+        "title": "چھوٹا ڈرم",
+        "characters": [
+          "لڑکا"
+        ],
+        "id": 38,
+        "imgalt": "The Little Drum",
+        "imgsrc": "/images/illustrate/thumbs/38.png",
+        "moral": "نیکیاں بڑھ جاتی ہیں۔",
+        "origin": "شمالی ہند",
+        "summary": "ایک لڑکے کو ایک ڈھول تحفے میں دیا جاتا ہے جو جہاں بھی جاتا ہے خوشی لاتا ہے۔",
+        "themes": [
+          "مہربانی"
+        ]
+      },
+      {
+        "title": "گدھے اور شیر کی کھال",
+        "characters": [
+          "گدھا",
+          "کسان"
+        ],
+        "id": 39,
+        "imgalt": "The Donkey and the Tiger Skin",
+        "imgsrc": "/images/illustrate/thumbs/39.png",
+        "moral": "کسی اور کا بہانہ کرنا مصیبت کا باعث بنتا ہے۔",
+        "origin": "پنچتنتر",
+        "summary": "گدھا شیر کی کھال پہن لیتا ہے لیکن برے کر کے سب کچھ برباد کر دیتا ہے۔",
+        "themes": [
+          "شناخت"
+        ]
+      },
+      {
+        "title": "پوشیدہ خزانہ",
+        "characters": [
+          "باپ",
+          "بیٹوں"
+        ],
+        "id": 40,
+        "imgalt": "The Hidden Treasure",
+        "imgsrc": "/images/illustrate/thumbs/40.png",
+        "moral": "کام بذات خود خزانہ ہے۔",
+        "origin": "ہندوستانی گاؤں کی کہانی",
+        "summary": "ایک باپ اپنے بیٹوں کو کھیت میں خزانہ دفن ہونے کا کہہ کر کھیتی باڑی کے لیے دھوکہ دے رہا ہے۔",
+        "themes": [
+          "محنت"
+        ]
+      },
+      {
+        "title": "بہادر طوطا۔",
+        "characters": [
+          "طوطا۔",
+          "خدا"
+        ],
+        "id": 41,
+        "imgalt": "The Brave Parrot",
+        "imgsrc": "/images/illustrate/thumbs/41.png",
+        "moral": "ہمت دوسروں کی مدد کرتی ہے۔",
+        "origin": "جتک کہانیاں",
+        "summary": "ایک طوطا جلتے ہوئے جنگل کو بچانے کی کوشش کرتا ہے اور دیوتاؤں کو متاثر کرتا ہے۔",
+        "themes": [
+          "بہادری"
+        ]
+      },
+      {
+        "title": "لڑکا اور ڈھول",
+        "characters": [
+          "لڑکا"
+        ],
+        "id": 42,
+        "imgalt": "The Boy and the Drum",
+        "imgsrc": "/images/illustrate/thumbs/42.png",
+        "moral": "چھوٹے تحائف بڑا فرق کر سکتے ہیں۔",
+        "origin": "ہندوستانی لوک کہانی",
+        "summary": "ایک لڑکا خوشی پھیلانے کے لیے ڈھول کا استعمال کرتا ہے۔",
+        "themes": [
+          "مہربانی"
+        ]
+      },
+      {
+        "title": "ماؤس مرچنٹ",
+        "characters": [
+          "مرچنٹ"
+        ],
+        "id": 43,
+        "imgalt": "The Mouse Merchant",
+        "imgsrc": "/images/illustrate/thumbs/43.png",
+        "moral": "قسمت ہمت کا ساتھ دیتی ہے۔",
+        "origin": "پنچتنتر",
+        "summary": "آدمی ایک چوہے سے امیر بنتا ہے۔",
+        "themes": [
+          "ہمت"
+        ]
+      },
+      {
+        "title": "بات کرنے والا غار",
+        "characters": [
+          "شیر",
+          "گیدڑ"
+        ],
+        "id": 44,
+        "imgalt": "The Talking Cave",
+        "imgsrc": "/images/illustrate/thumbs/44.png",
+        "moral": "زیادہ سوچنا مصیبت کا باعث بنتا ہے۔",
+        "origin": "پنچتنتر",
+        "summary": "شیر غار میں چھپ جاتا ہے اور چالاک گیدڑ خطرے سے بچ جاتا ہے۔",
+        "themes": [
+          "احتیاط"
+        ]
+      },
+      {
+        "title": "لالچی حجام",
+        "characters": [
+          "حجام"
+        ],
+        "id": 45,
+        "imgalt": "The Greedy Barber",
+        "imgsrc": "/images/illustrate/thumbs/45.png",
+        "moral": "لالچ عقل کو تباہ کر دیتا ہے۔",
+        "origin": "انڈیا",
+        "summary": "ایک حجام لالچ کی وجہ سے اپنی تمام دولت کھو دیتا ہے۔",
+        "themes": [
+          "لالچ"
+        ]
+      },
+      {
+        "title": "ملک میڈ کا خواب",
+        "characters": [
+          "دودھ کی نوکرانی"
+        ],
+        "id": 46,
+        "imgalt": "The Milkmaid’s Dream",
+        "imgsrc": "/images/illustrate/thumbs/46.png",
+        "moral": "اپنی مرغیوں کو ان کے نکلنے سے پہلے شمار نہ کریں۔",
+        "origin": "انڈیا",
+        "summary": "ایک دودھ کی نوکرانی دولت کے خواب دیکھتی ہے اور اپنا دودھ چھڑکتی ہے۔",
+        "themes": [
+          "منصوبہ بندی"
+        ]
+      },
+      {
+        "title": "جادوئی چڑیا",
+        "characters": [
+          "چڑیا",
+          "کسان"
+        ],
+        "id": 47,
+        "imgalt": "The Magical Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/47.png",
+        "moral": "مدد سے ثواب ملتا ہے۔",
+        "origin": "ہندوستانی گاؤں",
+        "summary": "ایک چڑیا ایک کسان کی مدد کرتی ہے اور اس کی فصلوں کو جادوئی طریقے سے اگاتی ہے۔",
+        "themes": [
+          "جادو",
+          "مہربانی"
+        ]
+      },
+      {
+        "title": "عقلمند پرانا ہاتھی",
+        "characters": [
+          "ہاتھی"
+        ],
+        "id": 48,
+        "imgalt": "The Wise Old Elephant",
+        "imgsrc": "/images/illustrate/thumbs/48.png",
+        "moral": "عمر عقل لاتی ہے۔",
+        "origin": "ہندوستانی جنگل کی کہانی",
+        "summary": "ایک بوڑھا ہاتھی خشک سالی کے دوران اپنے ریوڑ کی حفاظت کے لیے رہنمائی کر رہا ہے۔",
+        "themes": [
+          "حکمت"
+        ]
+      },
+      {
+        "title": "لوٹس اور مینڈک",
+        "characters": [
+          "مینڈک",
+          "کمل"
+        ],
+        "id": 49,
+        "imgalt": "The Lotus and the Frog",
+        "imgsrc": "/images/illustrate/thumbs/49.png",
+        "moral": "صبر طاقتور ہے۔",
+        "origin": "انڈین ریور ٹیل",
+        "summary": "کمل ایک بے چین مینڈک کو سست ہونا سکھاتی ہے۔",
+        "themes": [
+          "صبر"
+        ]
+      },
+      {
+        "title": "وہ بادشاہ جس نے بہت زیادہ مٹھائیاں کھائیں۔",
+        "characters": [
+          "بادشاہ",
+          "رائل کک"
+        ],
+        "id": 50,
+        "imgalt": "The King Who Ate Too Many Sweets",
+        "imgsrc": "/images/illustrate/thumbs/50.png",
+        "moral": "اعتدال ضروری ہے۔",
+        "origin": "ہندوستانی محل کی کہانی",
+        "summary": "ایک بادشاہ مٹھائیاں زیادہ کھاتا ہے اور اپنی خواہشات پر قابو پانا سیکھتا ہے۔",
+        "themes": [
+          "صحت",
+          "نظم و ضبط"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,464 @@
+{
+  "sharable_strings": {
+    "banner_notifications": {
+      "title": "If you find our work helpful, consider supporting us to keep this web page ",
+      "links": {
+        "alive": "/donate"
+      },
+      "subtitle": " and Help us grow by making a small donation."
+    },
+    "banner_notifications2": {
+      "title": "Protecting the roots of Sanātana Dharma for a brighter future.",
+      "subtitle": "Empowering future generations through timeless Vedic knowledge."
+    },
+    "cookieconsent": {
+      "acceptall": "Accept all",
+      "cookiepolicy": "Cookie Policy",
+      "managerbutton": "Cookie Preference Manager",
+      "paragraph": "We use cookies to track visitors, measure ads, ad campaign effectiveness and analyze site traffic. We may also share information about your use of our site with 3rd parties. For more info, see our {cookiePolicyLink} and {privacyPolicyLink}. By clicking on \"{managerLabel}\" you can choose to enable only certain cookie categories. By clicking \"{acceptAllLabel}\" you agree to the storing of all cookies on your device. In case you don't choose one of these options and use our website we will treat it as if you have accepted all cookies.",
+      "privacypolicy": "Privacy Policy"
+    },
+    "cookiepolicy": {
+      "title": "Cookie Policy",
+      "datasharing": "Data sharing",
+      "datasharingdesc": "We may share aggregated information with third parties for analytics and advertising. No sensitive personal data is shared by default.",
+      "intro": "This Cookie Policy explains how we use cookies and similar technologies on our website.",
+      "lastupdated": "Last updated: {date}",
+      "managing": "Managing your preferences",
+      "managingdesc": "Open the Cookie Preference Manager from the banner to enable or disable categories. If you accept all cookies, we will store your choices and apply them across visits.",
+      "types": {
+        "functionality": "Functionality: Remember choices and preferences.",
+        "performance": "Performance: Help us analyze traffic and performance.",
+        "strictlynecessary": "Strictly necessary: Required for the site to function.",
+        "targeting": "Targeting: Used for advertising and personalization."
+      },
+      "typesheading": "Types of cookies we use",
+      "whatarecookies": "What are cookies?"
+    },
+    "footer": {
+      "title": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत। अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम्॥",
+      "contact": "Contact with us",
+      "contentchange": "Content may be incomplete or subject to change.",
+      "copyright": "Vulchi Vijaya Kumar Raju © 2025.",
+      "disclaimer": "Disclaimer: This website is currently in development.",
+      "donate": "Donate",
+      "scriptures": {
+        "title": "Scriptures",
+        "nav": {
+          "bhagavadgita": "Bhagavathgita",
+          "mahabharata": "Mahabharata",
+          "ramayana": "Ramayana"
+        }
+      },
+      "stories": {
+        "title": "Stories",
+        "nav": {
+          "shiva": "Lord Shiva",
+          "vishnu": "Lord Vishnu",
+          "krishna": "Lord Krishna"
+        }
+      },
+      "philosophy": {
+        "title": "Philosophy",
+        "nav": {
+          "dharma": "Dharma",
+          "karma": "Karma",
+          "moksha": "Moksha"
+        }
+      },
+      "kidszone": {
+        "title": "Kids Zone",
+        "nav": {
+          "illustratedstories": "Illustrated Stories",
+          "mythologicalquizzes": "Mythological Quizzes"
+        }
+      },
+      "others": {
+        "title": "Sanātana dharmam",
+        "nav": {
+          "religion-conversion": "Religion Conversion",
+          "jyotirlings": "Jyotirlings",
+          "rivers-connecting": "Rivers Connecting"
+        }
+      },
+      "privacy": "Privacy Policy",
+      "quote": "Whenever righteousness declines and unrighteousness rises, I manifest Myself. To protect the righteous, to annihilate the wicked, and to reestablish the principles of dharma, I appear millennium after millennium.",
+      "quotesource": "(Bhagavad Gītā 4.7)",
+      "terms": "Terms of Service"
+    },
+    "header": {
+      "scriptures": {
+        "title": "Scriptures",
+        "nav": {
+          "bhagavadgita": "Bhagavathgita",
+          "mahabharata": "Mahabharata",
+          "ramayana": "Ramayana",
+          "sanksheparamayanam": "Sankshepa Ramayana"
+        }
+      },
+      "philosophy": {
+        "title": "Philosophy",
+        "nav": {
+          "dharma": "Dharma",
+          "karma": "Karma",
+          "moksha": "Moksha",
+          "samsara": "Samsara"
+        }
+      },
+      "kidszone": {
+        "title": "Kids Zone",
+        "nav": {
+          "illustratedstories": "Illustrated Stories",
+          "mythologicalquizzes": "Mythological Quizzes"
+        }
+      },
+      "about": "About"
+    },
+    "policies": {
+      "cookiepolicy": {
+        "title": "Cookie Policy",
+        "datasharing": "Data sharing",
+        "datasharingdesc": "We may share aggregated information with third parties for analytics and advertising. No sensitive personal data is shared by default.",
+        "intro": "This Cookie Policy explains how we use cookies and similar technologies on our website.",
+        "lastupdated": "Last updated: {date}",
+        "managing": "Managing your preferences",
+        "managingdesc": "Open the Cookie Preference Manager from the banner to enable or disable categories. If you accept all cookies, we will store your choices and apply them across visits.",
+        "types": {
+          "functionality": "Functionality: Remember choices and preferences.",
+          "performance": "Performance: Help us analyze traffic and performance.",
+          "strictlynecessary": "Strictly necessary: Required for the site to function.",
+          "targeting": "Targeting: Used for advertising and personalization."
+        },
+        "typesheading": "Types of cookies we use",
+        "whatarecookies": "What are cookies?"
+      },
+      "privacypolicy": {
+        "title": "Privacy Policy",
+        "howweuse": "How we use information",
+        "howweusedesc": "Information is used to operate, maintain and provide the features of the website, and to analyze usage patterns.",
+        "informationdesc": "We collect information you provide, cookies, and anonymized analytics data to improve the service.",
+        "informationheading": "Information we collect",
+        "intro": "This Privacy Policy outlines how we collect, use and protect your personal information.",
+        "lastupdated": "Last updated: {date}",
+        "yourrights": "Your rights",
+        "yourrightsdesc": "You can request access, correction or deletion of your personal data by contacting us on the site."
+      }
+    },
+    "scrolltotop": {
+      "title": "Back to top",
+      "arialabel": "Scroll to top"
+    },
+    "sitetitle": "Sanātana Dharma",
+    "similar_categories": {
+      "scriptures": {
+        "title": "Scriptures",
+        "nav": {
+          "ramayana": "Ramayana",
+          "bala_kanda": "Bala Kanda",
+          "ayodhya_kanda": "Ayodhya Kanda",
+          "aranya_kanda": "Aranya Kanda",
+          "kishkindha_kanda": "Kishkindha Kanda",
+          "sundara_kanda": "Sundara Kanda",
+          "yuddha_kanda": "Yuddha Kanda",
+          "uttara_kanda": "Uttara Kanda",
+          "mahabharata": "Mahabharata",
+          "adi_parva_the_book_of_beginnings": "Adi Parva The Book of Beginnings",
+          "sabha_parva_the_book_of_the_royal_assembly": "Sabha Parva The Book of the Royal Assembly",
+          "vana_parva_the_book_of_the_forest": "Vana Parva The Book of the Forest",
+          "virata_parva_the_book_of_virata": "Virata Parva The Book of Virata",
+          "udyoga_parva_the_book_of_effort_and_preparation": "Udyoga Parva The Book of Effort and Preparation",
+          "bhishma_parva_the_book_of_bhishma": "Bhishma Parva The Book of Bhishma",
+          "drona_parva_the_book_of_drona": "Drona Parva The Book of Drona",
+          "karna_parva_the_book_of_karna": "Karna Parva The Book of Karna",
+          "shalya_parva_the_book_of_shalya": "Shalya Parva The Book of Shalya",
+          "sauptika_parva_the_book_of_the_sleeping_warriors": "Sauptika Parva The Book of the Sleeping Warriors",
+          "stri_parva_the_book_of_the_women": "Stri Parva The Book of the Women",
+          "shanti_parva_the_book_of_peace": "Shanti Parva The Book of Peace",
+          "ashvamedhika_parva_the_book_of_the_horse_sacrifice": "Ashvamedhika Parva The Book of the Horse Sacrifice",
+          "ashramavasika_parva_the_book_of_the_hermitage": "Ashramavasika Parva The Book of the Hermitage",
+          "mausala_parva_the_book_of_the_clubs": "Mausala Parva The Book of the Clubs",
+          "mahaprasthanika_parva_the_book_of_the_great_journey": "Mahaprasthanika Parva The Book of the Great Journey",
+          "svargarohana_parva_the_book_of_the_ascent_to_heaven": "Svargarohana Parva The Book of the Ascent to Heaven",
+          "sanksheparamayanam": "Sankshepa Ramayanam",
+          "bhagavadgita": "Bhagavad Gita",
+          "bhagavadgita_part_1": "Bhagavad Gita Part 1",
+          "bhagavadgita_part_2": "Bhagavad Gita Part 2",
+          "bhagavadgita_part_3": "Bhagavad Gita Part 3",
+          "bhagavadgita_part_4": "Bhagavad Gita Part 4",
+          "bhagavadgita_part_5": "Bhagavad Gita Part 5",
+          "bhagavadgita_part_6": "Bhagavad Gita Part 6",
+          "bhagavadgita_part_7": "Bhagavad Gita Part 7",
+          "bhagavadgita_part_8": "Bhagavad Gita Part 8",
+          "bhagavadgita_part_9": "Bhagavad Gita Part 9",
+          "bhagavadgita_part_10": "Bhagavad Gita Part 10",
+          "bhagavadgita_part_11": "Bhagavad Gita Part 11",
+          "bhagavadgita_part_12": "Bhagavad Gita Part 12",
+          "bhagavadgita_part_13": "Bhagavad Gita Part 13",
+          "bhagavadgita_part_14": "Bhagavad Gita Part 14",
+          "bhagavadgita_part_15": "Bhagavad Gita Part 15",
+          "bhagavadgita_part_16": "Bhagavad Gita Part 16",
+          "bhagavadgita_part_17": "Bhagavad Gita Part 17",
+          "bhagavadgita_part_18": "Bhagavad Gita Part 18",
+          "bhagavadgita_part_19": "Bhagavad Gita Part 19",
+          "bhagavadgita_part_20": "Bhagavad Gita Part 20",
+          "bhagavadgita_part_21": "Bhagavad Gita Part 21",
+          "bhagavadgita_part_22": "Bhagavad Gita Part 22",
+          "bhagavadgita_part_23": "Bhagavad Gita Part 23",
+          "bhagavadgita_part_24": "Bhagavad Gita Part 24",
+          "bhagavadgita_part_25": "Bhagavad Gita Part 25",
+          "bhagavadgita_part_26": "Bhagavad Gita Part 26",
+          "bhagavadgita_part_27": "Bhagavad Gita Part 27",
+          "bhagavadgita_part_28": "Bhagavad Gita Part 28",
+          "bhagavadgita_part_29": "Bhagavad Gita Part 29",
+          "bhagavadgita_part_30": "Bhagavad Gita Part 30",
+          "bhagavadgita_part_31": "Bhagavad Gita Part 31",
+          "bhagavadgita_part_32": "Bhagavad Gita Part 32",
+          "bhagavadgita_part_33": "Bhagavad Gita Part 33",
+          "bhagavadgita_part_34": "Bhagavad Gita Part 34",
+          "bhagavadgita_part_35": "Bhagavad Gita Part 35",
+          "bhagavadgita_part_36": "Bhagavad Gita Part 36",
+          "bhagavadgita_part_37": "Bhagavad Gita Part 37",
+          "purans": "Purans",
+          "upanishads": "Upanishads",
+          "vedas": "Vedas"
+        }
+      },
+      "philosophy": {
+        "title": "Philosophy",
+        "nav": {
+          "advaita": "Advaita",
+          "purushartha": "Purushartha",
+          "samsara": "Samsara",
+          "dharma": "Dharma",
+          "karma": "Karma",
+          "moksha": "Moksha"
+        }
+      },
+      "practices": {
+        "title": "Practices",
+        "nav": {
+          "dailypoojas": "Daily Poojas",
+          "festivals": "Festivals",
+          "rituals": "Rituals",
+          "vastushastra": "Vastushastra",
+          "yogasanas": "Yoga Asanas",
+          "meditation": "Meditation",
+          "horoscope": "Horoscope"
+        }
+      },
+      "stories": {
+        "title": "Some more Stories",
+        "nav": {
+          "adishankaracharya": "Adi Shankaracharya",
+          "bhishma": "Bhishma",
+          "bramha": "Brahma",
+          "lakshmi": "Goddess Lakshmi",
+          "parashurama": "Parashurama",
+          "parvathi": "Goddess Parvathi",
+          "saraswati": "Goddess Saraswati",
+          "vasistamaharshi": "Vasista Maharshi",
+          "vishwamitra": "Vishwamitra"
+        }
+      },
+      "stotras": {
+        "title": "Stotras",
+        "nav": {
+          "ganesh": "Ganesh",
+          "hanuman": "Hanuman",
+          "devi": "Devi",
+          "shiva": "Shiva",
+          "vishnu": "Vishnu",
+          "dailyprayers": "Daily Prayers"
+        }
+      },
+      "others": {
+        "title": "Sanātana Dharmam",
+        "nav": {
+          "cosmictime": "Cosmic Times",
+          "temples-destroyed": "Temples Destroyed",
+          "temples-in-india": "Temples in India",
+          "world-transformation": "World Transformation",
+          "historical-timeline": "Historical Timeline",
+          "sanatanadharma": "Sanātana Dharmam",
+          "shakti-peethas": "Shakti Peethas",
+          "drip-irrigation-process": "Drip Irrigation Process"
+        }
+      }
+    },
+    "cosmic_time_structure": {
+      "mahayuga_total_years": 4320000,
+      "yugas": [
+        {
+          "name": "Satya Yuga",
+          "duration_years": 1728000,
+          "dharma_percentage": 100
+        },
+        {
+          "name": "Treta Yuga",
+          "duration_years": 1296000,
+          "dharma_percentage": 75
+        },
+        {
+          "name": "Dvapara Yuga",
+          "duration_years": 864000,
+          "dharma_percentage": 50
+        },
+        {
+          "name": "Kali Yuga",
+          "duration_years": 432000,
+          "dharma_percentage": 25
+        }
+      ]
+    },
+    "dashavatara": [
+      {
+        "order": 1,
+        "name": "Matsya",
+        "type": "Aquatic",
+        "yuga": "Satya Yuga",
+        "purpose": "Rescue the Vedas and Manu from the cosmic flood",
+        "primary_antagonist": "Hayagriva (in some traditions)",
+        "associated_texts": [
+          "Bhagavata Purana",
+          "Vishnu Purana"
+        ],
+        "symbolism": "Beginning of life; preservation of knowledge",
+        "evolutionary_symbolism": "Aquatic life stage"
+      },
+      {
+        "order": 2,
+        "name": "Kurma",
+        "type": "Amphibian",
+        "yuga": "Satya Yuga",
+        "purpose": "Support Mount Mandara during Samudra Manthana",
+        "primary_event": "Churning of the Ocean",
+        "associated_texts": [
+          "Bhagavata Purana",
+          "Mahabharata"
+        ],
+        "symbolism": "Stability and cosmic support",
+        "evolutionary_symbolism": "Amphibian transition"
+      },
+      {
+        "order": 3,
+        "name": "Varaha",
+        "type": "Terrestrial Mammal",
+        "yuga": "Satya Yuga",
+        "purpose": "Rescue Bhudevi (Earth) from Hiranyaksha",
+        "primary_antagonist": "Hiranyaksha",
+        "associated_texts": [
+          "Vishnu Purana"
+        ],
+        "symbolism": "Restoration of Earth and cosmic order",
+        "evolutionary_symbolism": "Land animal stage"
+      },
+      {
+        "order": 4,
+        "name": "Narasimha",
+        "type": "Man-Lion",
+        "yuga": "Satya Yuga",
+        "purpose": "Protect Prahlada and destroy Hiranyakashipu",
+        "primary_antagonist": "Hiranyakashipu",
+        "associated_texts": [
+          "Bhagavata Purana"
+        ],
+        "symbolism": "Divine intervention beyond logical constraints",
+        "evolutionary_symbolism": "Transition from animal to human"
+      },
+      {
+        "order": 5,
+        "name": "Vamana",
+        "type": "Dwarf Brahmin",
+        "yuga": "Treta Yuga",
+        "purpose": "Subdue King Bali and restore cosmic balance",
+        "primary_antagonist": "Mahabali",
+        "associated_texts": [
+          "Vishnu Purana"
+        ],
+        "symbolism": "Humility and divine intelligence",
+        "evolutionary_symbolism": "Emergence of intellectual human"
+      },
+      {
+        "order": 6,
+        "name": "Parashurama",
+        "type": "Warrior Sage",
+        "yuga": "Late Treta Yuga",
+        "purpose": "Destroy corrupt Kshatriya rulers",
+        "weapon": "Parashu (Axe)",
+        "associated_texts": [
+          "Mahabharata",
+          "Puranas"
+        ],
+        "symbolism": "Reset of social order",
+        "evolutionary_symbolism": "Primitive warrior society"
+      },
+      {
+        "order": 7,
+        "name": "Rama",
+        "type": "Ideal King",
+        "yuga": "Treta Yuga",
+        "purpose": "Destroy Ravana and establish righteous rule",
+        "primary_antagonist": "Ravana",
+        "associated_texts": [
+          "Ramayana"
+        ],
+        "symbolism": "Embodiment of Dharma",
+        "evolutionary_symbolism": "Civilized moral state"
+      },
+      {
+        "order": 8,
+        "name": "Krishna",
+        "type": "Divine Statesman",
+        "yuga": "Dvapara Yuga",
+        "purpose": "Guide humanity through Mahabharata war",
+        "primary_antagonist": "Kauravas (collective adharma)",
+        "associated_texts": [
+          "Mahabharata",
+          "Bhagavad Gita"
+        ],
+        "symbolism": "Divine wisdom and bhakti",
+        "evolutionary_symbolism": "Advanced social consciousness"
+      },
+      {
+        "order": 9,
+        "name": "Buddha",
+        "type": "Enlightened Teacher",
+        "yuga": "Early Kali Yuga",
+        "purpose": "Reform ritual excess and promote compassion",
+        "historical_identity": "Siddhartha Gautama",
+        "associated_texts": [
+          "Bhagavata Purana (Vaishnava interpretation)"
+        ],
+        "symbolism": "Compassion and introspection",
+        "evolutionary_symbolism": "Philosophical awakening"
+      },
+      {
+        "order": 10,
+        "name": "Kalki",
+        "type": "Future Warrior",
+        "yuga": "End of Kali Yuga",
+        "status": "Future",
+        "purpose": "Destroy adharma and reset cosmic cycle",
+        "associated_texts": [
+          "Vishnu Purana",
+          "Bhagavata Purana"
+        ],
+        "symbolism": "Cyclical renewal",
+        "evolutionary_symbolism": "Transformation and rebirth"
+      }
+    ],
+    "interpretations": {
+      "theological_view": "Avatars manifest to restore dharma when it declines (Bhagavad Gita 4.7-8).",
+      "symbolic_view": "Represents spiritual evolution of consciousness.",
+      "comparative_mythology_view": "Flood myth parallels global traditions.",
+      "cyclical_time_concept": "Time is non-linear and regenerative.",
+      "current_cycle": {
+        "current_yuga": "Kali Yuga",
+        "kali_yuga_started_bce": 3102,
+        "years_elapsed_in_kali_yuga_approx": 5100
+      },
+      "earth_age_comparison_note": "1 Kalpa (4.32 billion years) is surprisingly close to the modern scientific estimate of Earth's age (~4.54 billion years).",
+      "scaling_comment": "This mathematical scaling is highly structured and proportional across all cosmic levels."
+    }
+  }
+}

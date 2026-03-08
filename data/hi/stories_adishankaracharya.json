@@ -1,0 +1,203 @@
+{
+  "stories_adishankaracharya": {
+    "meta": {
+      "title": "कहानियाँ | आदि शंकराचार्य - सनातन धर्म - सनातन धर्म का अन्वेषण करें",
+      "canonical": "https://sanatanadharmam.in/stories/adishankaracharya",
+      "description": "सनातनधर्म.इन पर आदिशंकर के बारे में जानें - लेख, अनुवाद और टिप्पणियाँ।",
+      "keywords": [
+        "Adi Shankaracharya Stories",
+        "Shankaracharya Biography",
+        "Shankaracharya Biography in English",
+        "Shankaracharya Early Life",
+        "Shankaracharya Early Life in English",
+        "Shankaracharya Institutions Founded",
+        "Shankaracharya Institutions Founded in English",
+        "Shankaracharya Key Teachings",
+        "Shankaracharya Key Teachings in English",
+        "Shankaracharya Legacy",
+        "Shankaracharya Legacy in English",
+        "Shankaracharya Lineage",
+        "Shankaracharya Lineage in English",
+        "Shankaracharya Major Works",
+        "Shankaracharya Major Works in English",
+        "Shankaracharya Philosophical Themes",
+        "Shankaracharya Philosophical Themes in English",
+        "Shankaracharya Philosophy",
+        "Shankaracharya Philosophy in English",
+        "Shankaracharya Renunciation",
+        "Shankaracharya Renunciation in English",
+        "Shankaracharya Role",
+        "Shankaracharya Role in English",
+        "Shankaracharya Samadhi",
+        "Shankaracharya Samadhi in English",
+        "Shankaracharya Significance",
+        "Shankaracharya Significance in English",
+        "Shankaracharya Teachings",
+        "Shankaracharya Teachings in English",
+        "Shankaracharya Texts and Verses",
+        "Shankaracharya Texts and Verses in English",
+        "Shankaracharya Timeline",
+        "Shankaracharya Timeline in English",
+        "Shankaracharya Travels",
+        "Shankaracharya Travels in English"
+      ],
+      "ogimage": "/og/home.png",
+      "url": "https://sanatanadharmam.in/stories/adishankaracharya"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "संगठन",
+        "contactpoint": {
+          "@type": "संपर्क बिंदु",
+          "areaserved": "दुनिया भर में",
+          "availablelanguage": [
+            "धन्यवाद",
+            "जर्मन",
+            "अंग्रेजी",
+            "Español",
+            "फ़्रांसीसी",
+            "हिन्दी",
+            "ठीक है",
+            "नेपाली",
+            "नीदरलैंड",
+            "पुर्तगाली",
+            "Русский",
+            "ठीक है",
+            "धन्यवाद",
+            "中文 (简体)"
+          ],
+          "contacttype": "ग्राहक सहायता",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "सनातनधर्मम.इन के बारे में",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "biography": {
+      "birth": {
+        "parents": "शिवगुरु और आर्यम्बा",
+        "place": "कलाडी, केरल, भारत",
+        "year": "सी. 788 ई. (पारंपरिक तिथि)"
+      },
+      "early_life": "छोटी उम्र से ही शंकर ने असाधारण बुद्धिमत्ता और आध्यात्मिक प्रवृत्ति का प्रदर्शन किया। उन्होंने वेदों और शास्त्रों पर जल्दी ही महारत हासिल कर ली और त्याग के मार्ग की ओर आकर्षित हो गए।",
+      "founding_mathas": "उन्होंने श्रृंगेरी, द्वारका, पुरी और ज्योतिर्मठ में चार प्रमुख मठ केंद्र (मठ) स्थापित किए, जो उनकी शिक्षाओं को संरक्षित करते रहे।",
+      "full_name": "आदि शंकराचार्य",
+      "legacy": "आदि शंकराचार्य ने हिंदू विचारधारा के विविध विद्यालयों को एकीकृत किया, अद्वैत वेदांत को एक केंद्रीय दर्शन के रूप में स्थापित किया और साधकों की पीढ़ियों को प्रेरित किया। उन्हें जगद्गुरु (विश्व शिक्षक) के रूप में सम्मानित किया जाता है और वे आध्यात्मिक जिज्ञासुओं के लिए मार्गदर्शक बने रहते हैं।",
+      "major_works": "शंकर ने उपनिषदों, भगवद गीता और ब्रह्म सूत्र पर गहन टिप्पणियाँ लिखीं, साथ ही मूल ग्रंथ और भक्ति भजन भी लिखे।",
+      "renunciation": "उन्होंने एक बच्चे के रूप में संन्यास (मठवासी प्रतिज्ञा) लिया, एक गुरु की तलाश की और गोविंदा भगवत्पाद के शिष्य बन गए।",
+      "samadhi": "ऐसा माना जाता है कि उन्होंने 32 वर्ष की आयु में केदारनाथ में महासमाधि प्राप्त की थी।",
+      "travels": "शंकर ने पूरे भारत की यात्रा की, दार्शनिक बहसों में भाग लिया, अद्वैत वेदांत की शिक्षाओं का प्रसार किया और सनातन धर्म को पुनर्जीवित किया।"
+    },
+    "institutionsfounded": [
+      {
+        "matha": "श्रृंगेरी शारदा पीठम",
+        "region": "दक्षिण भारत"
+      },
+      {
+        "matha": "द्वारका मठ",
+        "region": "पश्चिम भारत"
+      },
+      {
+        "matha": "पुरी गोवर्धन मठ",
+        "region": "पूर्वी भारत"
+      },
+      {
+        "matha": "ज्योतिर मठ",
+        "region": "उत्तर भारत"
+      }
+    ],
+    "keyteachings": [
+      {
+        "concept": "अद्वैत",
+        "description": "अद्वैत वास्तविकता; ब्रह्म ही सत्य है, संसार मिथ्या है"
+      },
+      {
+        "concept": "माया",
+        "description": "ब्रह्मांडीय भ्रम जो सच्चे ज्ञान पर पर्दा डालता है"
+      },
+      {
+        "concept": "ज्ञान योग",
+        "description": "मुक्ति की ओर ले जाने वाला ज्ञान का मार्ग"
+      }
+    ],
+    "lineage": {
+      "birth": {
+        "parents": "शिवगुरु और आर्यम्बा",
+        "period": "आठवीं शताब्दी ई.पू",
+        "place": "कलाडी, केरल"
+      }
+    },
+    "majorworks": [
+      "ब्रह्मसूत्र पर भाष्य (ब्रह्मसूत्र भाष्य)",
+      "भगवतगीता पर भाष्य",
+      "उपनिषदों पर भाष्य",
+      "प्रकरण ग्रंथ (विवेकचूडामणि जैसे परिचयात्मक ग्रंथ)"
+    ],
+    "philosophicalthemes": [
+      "अद्वैत वेदांत: केवल ब्रह्म ही वास्तविक है; संसार माया है",
+      "स्व (आत्मान) ब्रह्म के समान है",
+      "ज्ञान के माध्यम से मुक्ति, अनुष्ठानों से नहीं"
+    ],
+    "role": "दार्शनिक, धर्मशास्त्री, अद्वैत वेदांत के संस्थापक",
+    "significance": {
+      "coreidentity": [
+        "अद्वैतवाद के प्रवर्तक (अद्वैत)",
+        "हिंदू विचार का एकीकरणकर्ता",
+        "चार मठों के संस्थापक"
+      ],
+      "titles": [
+        "जगद्गुरु",
+        "आचार्य"
+      ]
+    },
+    "textsandverses": [
+      {
+        "meaning": "ब्रह्म सत्य है, संसार मिथ्या है और जीवात्मा कोई और नहीं बल्कि ब्रह्म ही है।",
+        "name": "अद्वैत महावाक्य",
+        "transliteration": "ब्रह्म सत्यं जगन्मिथ्या जीवो ब्रह्मैव न अपरः",
+        "verse": "ब्रह्म सत्यं जगन्मिथ्या जीवो ब्रह्मैव नापरः।"
+      },
+      {
+        "meaning": "मैं मन, बुद्धि, अहंकार या स्मृति नहीं हूं; मैं शुद्ध चैतन्य हूँ.",
+        "name": "विवेकचूड़ामणि",
+        "transliteration": "मनो-बुद्धि-अहंकार चित्तानि नाहम्",
+        "verse": "मनोबुद्धयहंकार चित्तानि नाहम्।"
+      },
+      {
+        "meaning": "हे मूर्ख, गोविंद की पूजा करो! जब मृत्यु आयेगी तो व्याकरण के नियम तुम्हें नहीं बचायेंगे।",
+        "name": "भज गोविंदम",
+        "transliteration": "भज गोविंदम भज गोविंदम गोविंदम भज मूढ़मते",
+        "verse": "भज गोविंदं भज गोविंदं गोविंदं भज मूढ़मते।"
+      }
+    ],
+    "timeline": [
+      {
+        "event": "केरल के कलाडी में जन्मे; जल्दी ही आध्यात्मिक रुझान दिखा",
+        "phase": "जन्म"
+      },
+      {
+        "event": "छोटी उम्र में ही संन्यास ले लिया; गोविंदा भगवत्पाद के शिष्य बन गए",
+        "phase": "त्याग"
+      },
+      {
+        "event": "पराजित प्रतिद्वंद्वी स्कूल; अद्वैत श्रेष्ठता स्थापित की",
+        "phase": "दार्शनिक बहस"
+      },
+      {
+        "event": "पूरे भारत में चार मठवासी केंद्र स्थापित किये",
+        "phase": "संस्थापक मठ"
+      },
+      {
+        "event": "उपनिषद, गीता, ब्रह्म सूत्र पर लिखित टिप्पणियाँ; भक्ति भजन लिखे",
+        "phase": "रचनाएँ"
+      },
+      {
+        "event": "केदारनाथ में समाधि प्राप्त की (पारंपरिक मान्यता)",
+        "phase": "महासमाधि"
+      }
+    ]
+  }
+}

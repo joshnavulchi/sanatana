@@ -1,0 +1,150 @@
+{
+  "practices_yoga": {
+    "title": "",
+    "meta": {
+      "title": "తత్వశాస్త్రం | యోగ — సనాతన ధర్మం - సనాతన ధర్మాన్ని అన్వేషించండి",
+      "canonical": "https://sanatanadharmam.in/philosophy/yoga",
+      "description": "తత్వశాస్త్రం — యోగ — సనాతన ధర్మం - సనాతన ధర్మాన్ని అన్వేషించండి — వ్యాసాలు, అనువాదాలు మరియు తత్వశాస్త్రంపై సంక్షిప్త వ్యాఖ్యానం. ఇక్కడ అభ్యాసాలు, చరిత్ర మరియు మార్గదర్శక సూత్రాలను అన్వేషించండి...",
+      "keywords": [
+        "bhagavadgita yoga",
+        "hindu yoga",
+        "upanishads yoga",
+        "vedic yoga",
+        "yoga concepts explained in sanatana dharma",
+        "yoga concepts for beginners",
+        "yoga concepts for students",
+        "yoga concepts in modern life",
+        "yoga concepts in sanatana dharma",
+        "yoga history explained in sanatana dharma",
+        "yoga history for beginners",
+        "yoga history for students",
+        "yoga history in modern life",
+        "yoga history of sanatana dharma",
+        "yoga insights explained in sanatana dharma",
+        "yoga insights for beginners",
+        "yoga insights for students",
+        "yoga insights from sanatana dharma",
+        "yoga insights in modern life",
+        "yoga philosophy",
+        "yoga practices explained in sanatana dharma",
+        "yoga practices for beginners",
+        "yoga practices for students",
+        "yoga practices in modern life",
+        "yoga practices in sanatana dharma",
+        "yoga principles explained in sanatana dharma",
+        "yoga principles for beginners",
+        "yoga principles for students",
+        "yoga principles in modern life",
+        "yoga principles of sanatana dharma",
+        "yoga q&a explained in sanatana dharma",
+        "yoga q&a for beginners",
+        "yoga q&a for students",
+        "yoga q&a in modern life",
+        "yoga q&a on sanatana dharma",
+        "yoga relevance explained in sanatana dharma",
+        "yoga relevance for beginners",
+        "yoga relevance for students",
+        "yoga relevance in modern life",
+        "yoga relevance of sanatana dharma in modern life",
+        "yoga sutras of patanjali",
+        "yoga teachings explained in sanatana dharma",
+        "yoga teachings for beginners",
+        "yoga teachings for students",
+        "yoga teachings in modern life",
+        "yoga teachings of sanatana dharma"
+      ],
+      "ogimage": "/og/philosophy-yoga.png",
+      "url": "https://sanatanadharmam.in/philosophy/yoga"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "సంస్థ",
+        "contactpoint": {
+          "@type": "కాంటాక్ట్ పాయింట్",
+          "areaserved": "ప్రపంచవ్యాప్తంగా",
+          "availablelanguage": [
+            "العربية",
+            "డ్యూచ్",
+            "ఇంగ్లీష్",
+            "ఎస్పానోల్",
+            "ఫ్రాంకైస్",
+            "హిందీ",
+            "ఎస్",
+            "నేపాలీ",
+            "నెదర్లాండ్స్",
+            "పోర్చుగీస్",
+            "రస్కియ్",
+            "తెలుగు",
+            "అరేడు",
+            "中文 (简体)"
+          ],
+          "contacttype": "కస్టమర్ మద్దతు",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "సనాతనధర్మం.ఇన్ గురించి",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "core_principles": [
+      "సార్వత్రిక స్పృహతో (బ్రాహ్మణం) వ్యక్తిగత స్వీయ (ఆత్మాన్) ఐక్యత",
+      "శారీరక, మానసిక మరియు ఆధ్యాత్మిక అంశాల సమతుల్యత",
+      "క్రమశిక్షణ మరియు నైతిక జీవనం"
+    ],
+    "definition": "యోగా అనేది ఆధ్యాత్మిక క్రమశిక్షణ మరియు తత్వశాస్త్రం, ఇది స్వీయ-సాక్షాత్కారం మరియు విముక్తి (మోక్షం) సాధించడానికి శరీరం, మనస్సు మరియు ఆత్మను సమన్వయం చేయడం లక్ష్యంగా పెట్టుకుంది.",
+    "eight_limbs_of_yoga": [
+      "యమ (నైతిక పరిమితులు)",
+      "నియమా (వ్యక్తిగత ఆచారాలు)",
+      "ఆసనం (భంగిమలు)",
+      "ప్రాణాయామం (ఊపిరి నియంత్రణ)",
+      "ప్రత్యాహార (ఇంద్రియాల ఉపసంహరణ)",
+      "ధారణ (ఏకాగ్రత)",
+      "ధ్యాన (ధ్యానం)",
+      "సమాధి (శోషణ లేదా కలయిక)"
+    ],
+    "goals": [
+      "ఆత్మసాక్షాత్కారం",
+      "మానసిక స్పష్టత మరియు శాంతి",
+      "శారీరక ఆరోగ్యం మరియు జీవశక్తి",
+      "బాధల నుండి విముక్తి"
+    ],
+    "key_scriptural_references": [
+      {
+        "quote_summary": "యోగా అనేది మానసిక ఒడిదుడుకుల విరమణ.",
+        "text": "పతంజలి యొక్క యోగ సూత్రాలు"
+      },
+      {
+        "quote_summary": "యోగా అనేది చర్యలో నైపుణ్యం మరియు జీవితంలో సమతుల్యత.",
+        "text": "భగవద్గీత"
+      }
+    ],
+    "modern_relevance": {
+      "health": "శారీరక దృఢత్వం మరియు మానసిక శ్రేయస్సును మెరుగుపరుస్తుంది.",
+      "spiritual_growth": "మనస్సు మరియు అంతర్గత శాంతిని ప్రోత్సహిస్తుంది.",
+      "stress_management": "ఆందోళనను తగ్గిస్తుంది మరియు ప్రశాంతతను ప్రోత్సహిస్తుంది."
+    },
+    "origin": {
+      "meaning": "సంస్కృతం 'యుజ్' నుండి ఉద్భవించింది, అంటే 'ఏకటం లేదా చేరడం'.",
+      "roots": "వేద సంప్రదాయం మరియు ఉపనిషత్తులు",
+      "texts": [
+        "పతంజలి యొక్క యోగ సూత్రాలు",
+        "భగవద్గీత",
+        "ఉపనిషత్తులు"
+      ]
+    },
+    "paths_of_yoga": {
+      "bhakti_yoga": "Path of devotion and love for the divine.",
+      "hatha_yoga": "Path of physical postures and breath control.",
+      "jnana_yoga": "Path of knowledge and wisdom.",
+      "karma_yoga": "Path of selfless action.",
+      "raja_yoga": "Path of meditation and mental discipline."
+    },
+    "relation_to_other_concepts": {
+      "dharma": "యోగా ధర్మబద్ధమైన జీవనానికి మద్దతు ఇస్తుంది.",
+      "karma": "యోగా చర్యలు మరియు ఉద్దేశాలను శుద్ధి చేస్తుంది.",
+      "moksha": "యోగ విముక్తికి ప్రత్యక్ష మార్గం."
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "kidszone_mythologicalquizzes": {
+    "title": "पौराणिक क्विजहरू",
+    "meta": {
+      "title": "बालबालिका क्षेत्र | पौराणिक क्विज - सनातन धर्म - सनातन धर्म अन्वेषण गर्नुहोस्",
+      "canonical": "https://sanatanadharmam.in/kidszone/mythologicalquizzes",
+      "description": "KidsZone — पौराणिक प्रश्नोत्तरी — सनातन धर्म — अन्वेषण सनातन धर्म — लेख, अनुवाद र KidsZone मा संक्षिप्त टिप्पणी। अभ्यास, इतिहास, र मार्गदर्शन अन्वेषण गर्नुहोस्...",
+      "keywords": [
+        "hindu epics quizzes",
+        "hindu gods and goddesses quizzes",
+        "hindu mythology games for kids",
+        "hindu mythology quizzes for children",
+        "hindu mythology trivia",
+        "hindu mythology worksheets for kids",
+        "hinduism for kids",
+        "kids learning hinduism",
+        "kids zone",
+        "kids zone activities",
+        "kids zone educational content",
+        "kids zone learning",
+        "kids zone mythological quizzes",
+        "kids zone resources",
+        "mythological characters quiz",
+        "mythological quizzes",
+        "mythological quizzes for classrooms",
+        "mythological quizzes for students",
+        "mythological quizzes interactive",
+        "mythological quizzes online",
+        "mythological quizzes printable",
+        "mythological quizzes with answers",
+        "mythological stories for kids",
+        "mythology education for children",
+        "mythology fun facts for kids",
+        "mythology quizzes for children",
+        "sanatana dharma",
+        "vedic mythology"
+      ],
+      "ogimage": "/og/kidszone-mythologicalquizzes.png",
+      "url": "https://sanatanadharmam.in/kidszone/mythologicalquizzes"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "संगठन",
+        "contactpoint": {
+          "@type": "सम्पर्क बिन्दु",
+          "areaserved": "विश्वव्यापी",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "अंग्रेजी",
+            "Español",
+            "Français",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "नेदरल्याण्ड्स",
+            "पोर्चुगिज",
+            "रुसकी",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "ग्राहक समर्थन",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+९१-८०९९१८१०७५"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sanatanadharmam.in को बारेमा",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "allorigins": "सबै उत्पत्ति",
+    "allthemes": "सबै विषयवस्तुहरू",
+    "characterslabel": "पात्रहरू:",
+    "comicnotfounddesc": "हामीले त्यो कमिक फेला पार्न सकेनौं।",
+    "comicnotfoundtitle": "हास्य भेटिएन",
+    "description": "10 मिनेटमा 10 अनियमित प्रश्नहरूको जवाफ दिनुहोस्। शुभकामना!",
+    "filter": "फिल्टर गर्नुहोस्",
+    "morallabel": "नैतिक:",
+    "next": "अर्को",
+    "originlabel": "उत्पत्ति",
+    "previous": "अघिल्लो",
+    "searchlabel": "खोज्नुहोस्",
+    "showing": "{total} को {start}–{end} देखाउँदै",
+    "themelabel": "विषयवस्तु",
+    "themeslabel": "विषयवस्तुहरू:"
+  }
+}

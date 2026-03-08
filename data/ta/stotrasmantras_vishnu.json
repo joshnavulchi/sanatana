@@ -1,0 +1,197 @@
+{
+  "stotrasmantras_vishnu": {
+    "title": "",
+    "meta": {
+      "title": "ஸ்தோத்திரங்கள் & மந்திரங்கள் | விஷ்ணு — சனாதன தர்மம் - சனாதன தர்மத்தை ஆராயுங்கள்",
+      "canonical": "https://sanatanadharmam.in/stotrasmantras/vishnu",
+      "description": "வேதங்கள் — புராணங்கள் — விஷ்ணு — சனாதன தர்மம் – சனாதன தர்மத்தை ஆராயுங்கள் — கட்டுரைகள், மொழிபெயர்ப்புகள் மற்றும் வேதத்தின் சுருக்கமான வர்ணனைகள். நடைமுறைகள், வரலாறு மற்றும் வழிகாட்டுதல் ஆகியவற்றை ஆராயுங்கள்...",
+      "keywords": [
+        "Ancient Wisdom Stotrasmantras Vishnu",
+        "Ayurveda Stotrasmantras Vishnu",
+        "Bhagavad Gita Stotrasmantras Vishnu",
+        "Deities Stotrasmantras Vishnu",
+        "Festivals and Traditions Stotrasmantras Vishnu",
+        "Hindu Mythology Stotrasmantras Vishnu",
+        "Hinduism Stotrasmantras Vishnu",
+        "Indian Culture Stotrasmantras Vishnu",
+        "Indian Festivals Stotrasmantras Vishnu",
+        "Indian Philosophy Stotrasmantras Vishnu",
+        "Mahabharata Stotrasmantras Vishnu",
+        "Mythology Stotrasmantras Vishnu",
+        "Philosophy Stotrasmantras Vishnu",
+        "Pilgrimage Stotrasmantras Vishnu",
+        "Puranas Stotrasmantras Vishnu",
+        "Ramayana Stotrasmantras Vishnu",
+        "Religious Knowledge Stotrasmantras Vishnu",
+        "Rituals Stotrasmantras Vishnu",
+        "Sanatanadharmam Stotrasmantras Vishnu",
+        "Sanskrit Stotrasmantras Vishnu",
+        "Spiritual Practices Stotrasmantras Vishnu",
+        "Spirituality Stotrasmantras Vishnu",
+        "Stotrasmantras Vishnu Overview",
+        "Temples Stotrasmantras Vishnu",
+        "Upanishads Stotrasmantras Vishnu",
+        "Vedas Stotrasmantras Vishnu",
+        "Yoga and Meditation Stotrasmantras Vishnu"
+      ],
+      "ogimage": "/og/scriptures-puranas-vishnu.png",
+      "url": "https://sanatanadharmam.in/stotrasmantras/vishnu"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "அமைப்பு",
+        "contactpoint": {
+          "@type": "தொடர்பு புள்ளி",
+          "areaserved": "உலகம் முழுவதும்",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "ஆங்கிலம்",
+            "எஸ்பானோல்",
+            "பிரான்சிஸ்",
+            "ஹிந்தி",
+            "எஸ்",
+            "நேபாளி",
+            "நெதர்லாந்து",
+            "போர்த்துகீசியர்கள்",
+            "ருஸ்கி",
+            "தெலுங்கு",
+            "அர்து",
+            "中文 (简体)"
+          ],
+          "contacttype": "வாடிக்கையாளர் ஆதரவு",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "சனாதனதர்மம்.இன் பற்றி",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "vishnu_stotras": [
+      {
+        "author": "வியாச முனிவர்",
+        "benefits": [
+          "பயத்தையும் துன்பத்தையும் நீக்குகிறது",
+          "செழிப்பையும் அமைதியையும் தருகிறது",
+          "மன தெளிவை மேம்படுத்துகிறது",
+          "எதிர்மறையை அழிக்கிறது"
+        ],
+        "description": "விஷ்ணுவின் 1000 தெய்வீக பெயர்களின் பட்டியல், ஆன்மீக பாதுகாப்பு, அமைதி மற்றும் விடுதலைக்காக முழக்கப்பட்டது.",
+        "id": 1,
+        "key_excerpt": "ஶாந்தாகாரம் புஜகஶயநம் பத்மநாபம் சுரேஷ்ம் । விஶ்வாதாரம் গগநஸদৃஶம் மேঘவர்ணம் ஶுভாங்গம் ॥",
+        "language": "சமஸ்கிருதம்",
+        "name": "விஷ்ணு சஹஸ்ரநாமம்",
+        "origin": "மகாபாரதம் (அனுஷாசன பர்வா)",
+        "sections": {
+          "core_content": "விஷ்ணுவின் 1000 பெயர்கள்",
+          "introduction": "பீஷ்மருக்கும் யுதிஷ்டிரருக்கும் இடையே உச்சக்கட்டக் கடமையைப் பற்றிய உரையாடல்.",
+          "phala_sruti": "சஹஸ்ரநாமம் பாராயணம் செய்வதால் கிடைக்கும் பலன்கள்"
+        },
+        "type": "ஸ்தோத்ரம் / சஹஸ்ரநாமம்"
+      },
+      {
+        "author": "விஸ்வரூப முனிவர்",
+        "benefits": [
+          "உடல் மற்றும் ஆன்மீக தீங்குகளிலிருந்து பாதுகாப்பு",
+          "பயம், தீய தாக்கங்களை நீக்குகிறது",
+          "மன மற்றும் ஆன்மீக நெகிழ்ச்சியை பலப்படுத்துகிறது"
+        ],
+        "description": "உடலின் எல்லாப் பக்கங்களிலும் பகவான் நாராயணனின் பாதுகாப்பைத் தூண்டும் சக்திவாய்ந்த கவச பிரார்த்தனை.",
+        "id": 2,
+        "key_excerpt": "ॐ நமோ நாராயணாய",
+        "language": "சமஸ்கிருதம்",
+        "name": "நாராயண கவசம்",
+        "origin": "ஸ்ரீமத் பாகவதம் 6.8",
+        "structure": {
+          "body_protection": "தலை, மார்பு, கைகள், கால்கள், புலன்களுக்குப் பாதுகாப்பு",
+          "closing": "பாராயணத்தின் ஆசீர்வாதங்கள் மற்றும் முடிவுகள்",
+          "invocation": "நாராயண தியானம்"
+        },
+        "type": "கவாச்சா"
+      },
+      {
+        "benefits": [
+          "துன்பங்களையும் தடைகளையும் நீக்குகிறது",
+          "சிரமத்தின் போது தெய்வீக அருளைப் பெறுகிறது",
+          "பக்தியை பலப்படுத்துகிறது"
+        ],
+        "description": "முதலையால் பிடிபட்டபோது விஷ்ணுவின் இருப்பை அழைக்க கஜேந்திரன் பாடிய இதயப்பூர்வமான பிரார்த்தனை.",
+        "id": 3,
+        "key_excerpt": "ॐ நமோ பகவதே தஸ்மை யத் ஏதச்சிதாத்மகம்",
+        "language": "சமஸ்கிருதம்",
+        "name": "விஷ்ணு ஸ்துதி (கஜேந்திர மோக்ஷம் பிரார்த்தனை)",
+        "origin": "ஸ்ரீமத் பாகவதம் 8வது ஸ்கந்தம்",
+        "speaker": "கஜேந்திரன் (யானை மன்னன்)",
+        "themes": [
+          "சரணடைதல்",
+          "தெய்வீக மீட்பு",
+          "மறுபிறப்பில் இருந்து விடுதலை"
+        ],
+        "type": "ஸ்துதி"
+      },
+      {
+        "author": "மன்னர் குலசேகர ஆழ்வார்",
+        "benefits": [
+          "பக்தியை ஆழப்படுத்துகிறது",
+          "மனதையும் பேச்சையும் தூய்மையாக்கும்",
+          "துன்பத்தை நீக்குகிறது"
+        ],
+        "description": "பகவான் கிருஷ்ணரை முகுந்தன்-முக்தி அளிப்பவர் என்று போற்றும் வசனங்களின் பக்தித் தொகுப்பு.",
+        "id": 4,
+        "key_excerpt": "ஜயது ஜெயது தேவோ தேவகி-நந்தனோதயம் .",
+        "language": "சமஸ்கிருதம்",
+        "name": "முகுந்த மாலா ஸ்தோத்திரம்",
+        "origin": "வைணவ பக்தி இலக்கியம்",
+        "total_verses": 40,
+        "type": "ஸ்தோத்ரம்"
+      },
+      {
+        "benefits": [
+          "நம்பிக்கையையும் ஆற்றலையும் அதிகரிக்கிறது",
+          "மன அழுத்தத்தை அழிக்கிறது",
+          "கவனம் மற்றும் தைரியத்தை மேம்படுத்துகிறது"
+        ],
+        "description": "பயத்தை அழித்து வெற்றியை அளிக்க சூர்ய-நாராயணனை அழைக்கும் சக்திவாய்ந்த துதி.",
+        "id": 5,
+        "key_excerpt": "ததோ யுத்தபரிஶ்ராந்தம் சமரே சிந்தய ஸ்থிதம் ।",
+        "language": "சமஸ்கிருதம்",
+        "name": "ஆதித்ய ஹிருதயம் (சூர்ய-நாராயண ஸ்தோத்ரம்)",
+        "notes": "சூர்யாவிற்கு அர்ப்பணிக்கப்பட்டாலும், சூர்யாவிற்குள் இருக்கும் விஷ்ணு அம்சத்தைப் போற்றுகிறது.",
+        "origin": "வால்மீகி ராமாயணம் - யுத்த காண்டம்",
+        "speaker": "இராமனுக்கு அகஸ்திய முனிவர்",
+        "type": "ஸ்தோத்ரம்"
+      },
+      {
+        "author": "ஆதி சங்கராச்சாரியார்",
+        "benefits": [
+          "மன அழுத்தத்தைக் குறைக்கிறது",
+          "தர்மத்தின் மீதான கவனத்தை பலப்படுத்துகிறது",
+          "கடவுளின் நினைவை ஊக்குவிக்கிறது"
+        ],
+        "description": "அன்றாடப் போராட்டங்களுக்கு மத்தியில் கோவிந்தரை—உயர்ந்த இறைவனை—நினைவூட்ட ஒரு நினைவூட்டல்.",
+        "id": 6,
+        "key_excerpt": "भज गोविन्दं भज गोविन्दं गोविन्दं भजूढमते ।",
+        "language": "சமஸ்கிருதம்",
+        "name": "கோவிந்த ஸ்தோத்திரம்",
+        "type": "ஸ்தோத்ரம்"
+      },
+      {
+        "author": "பிரம்மா",
+        "benefits": [
+          "ஆன்மீக உயர்வு",
+          "அமைதி மற்றும் தெய்வீக ஆசீர்வாதம்",
+          "விஷ்ணு மீதான கவனத்தை மேம்படுத்துகிறது"
+        ],
+        "description": "ஹரியின் கருணை, வடிவம் மற்றும் பிரபஞ்ச இருப்பை விவரிக்கும் ஹரியின் புகழ்.",
+        "id": 7,
+        "key_excerpt": "சாந்தகாரம் புஜகசயனம் பத்மநாபம் சுரேஷ்",
+        "language": "சமஸ்கிருதம்",
+        "name": "ஸ்ரீ ஹரி ஸ்தோத்திரம்",
+        "origin": "புராண இலக்கியம்",
+        "type": "ஸ்தோத்ரம்"
+      }
+    ]
+  }
+}

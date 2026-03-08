@@ -1,0 +1,464 @@
+{
+  "sharable_strings": {
+    "banner_notifications": {
+      "title": "اگر آپ کو ہمارا کام مددگار معلوم ہوتا ہے، تو اس ویب صفحہ کو برقرار رکھنے کے لیے ہماری مدد کرنے پر غور کریں۔",
+      "links": {
+        "alive": "/donate"
+      },
+      "subtitle": "اور ایک چھوٹا سا عطیہ دے کر ہماری ترقی میں مدد کریں۔"
+    },
+    "banner_notifications2": {
+      "title": "ایک روشن مستقبل کے لیے سناتن دھرم کی جڑوں کی حفاظت کرنا۔",
+      "subtitle": "لازوال ویدک علم کے ذریعے آنے والی نسلوں کو بااختیار بنانا۔"
+    },
+    "cookieconsent": {
+      "acceptall": "سب قبول کریں۔",
+      "cookiepolicy": "کوکی پالیسی",
+      "managerbutton": "کوکی ترجیحی مینیجر",
+      "paragraph": "ہم مہمانوں کو ٹریک کرنے، اشتہارات کی پیمائش، اشتہاری مہم کی تاثیر اور سائٹ ٹریفک کا تجزیہ کرنے کے لیے کوکیز کا استعمال کرتے ہیں۔ ہم آپ کے ہماری سائٹ کے استعمال کے بارے میں معلومات تیسرے فریق کے ساتھ بھی شیئر کر سکتے ہیں۔ مزید معلومات کے لیے، ہمارا {cookiePolicyLink} اور {privacyPolicyLink} دیکھیں۔ \"{managerLabel}\" پر کلک کر کے آپ صرف مخصوص کوکی زمروں کو فعال کرنے کا انتخاب کر سکتے ہیں۔ \"{acceptAllLabel}\" پر کلک کرکے آپ اپنے آلے پر تمام کوکیز اسٹور کرنے سے اتفاق کرتے ہیں۔ اگر آپ ان اختیارات میں سے کسی ایک کا انتخاب نہیں کرتے اور ہماری ویب سائٹ استعمال نہیں کرتے ہیں تو ہم اس کے ساتھ ایسا سلوک کریں گے جیسے آپ نے تمام کوکیز کو قبول کر لیا ہے۔",
+      "privacypolicy": "رازداری کی پالیسی"
+    },
+    "cookiepolicy": {
+      "title": "کوکی پالیسی",
+      "datasharing": "ڈیٹا شیئرنگ",
+      "datasharingdesc": "ہم تجزیات اور اشتہارات کے لیے تیسرے فریق کے ساتھ مجموعی معلومات کا اشتراک کر سکتے ہیں۔ کوئی حساس ذاتی ڈیٹا بطور ڈیفالٹ شیئر نہیں کیا جاتا ہے۔",
+      "intro": "یہ کوکی پالیسی بتاتی ہے کہ ہم اپنی ویب سائٹ پر کوکیز اور اسی طرح کی ٹیکنالوجیز کا استعمال کیسے کرتے ہیں۔",
+      "lastupdated": "آخری بار اپ ڈیٹ کیا گیا: {date}",
+      "managing": "اپنی ترجیحات کا نظم کریں۔",
+      "managingdesc": "زمرہ جات کو فعال یا غیر فعال کرنے کے لیے بینر سے کوکی ترجیحی مینیجر کو کھولیں۔ اگر آپ تمام کوکیز کو قبول کرتے ہیں، تو ہم آپ کے انتخاب کو محفوظ کر لیں گے اور انہیں دوروں پر لاگو کریں گے۔",
+      "types": {
+        "functionality": "فعالیت: انتخاب اور ترجیحات کو یاد رکھیں۔",
+        "performance": "کارکردگی: ٹریفک اور کارکردگی کا تجزیہ کرنے میں ہماری مدد کریں۔",
+        "strictlynecessary": "سختی سے ضروری: سائٹ کے کام کرنے کے لیے ضروری ہے۔",
+        "targeting": "ہدف بندی: تشہیر اور ذاتی بنانے کے لیے استعمال کیا جاتا ہے۔"
+      },
+      "typesheading": "کوکیز کی اقسام جو ہم استعمال کرتے ہیں۔",
+      "whatarecookies": "کوکیز کیا ہیں؟"
+    },
+    "footer": {
+      "title": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत। अभ्युत्थानमधर्मस्य तदात्मानं सृजाम् यहम्",
+      "contact": "ہم سے رابطہ کریں۔",
+      "contentchange": "مواد نامکمل ہو سکتا ہے یا اس میں تبدیلی ہو سکتی ہے۔",
+      "copyright": "ولچی وجئے کمار راجو © 2025۔",
+      "disclaimer": "اعلان دستبرداری: یہ ویب سائٹ فی الحال ترقی میں ہے۔",
+      "donate": "عطیہ کریں۔",
+      "scriptures": {
+        "title": "صحیفے",
+        "nav": {
+          "bhagavadgita": "بھگوت گیتا",
+          "mahabharata": "مہابھارت",
+          "ramayana": "رامائن"
+        }
+      },
+      "stories": {
+        "title": "کہانیاں",
+        "nav": {
+          "shiva": "بھگوان شیو",
+          "vishnu": "بھگوان وشنو",
+          "krishna": "بھگوان کرشنا۔"
+        }
+      },
+      "philosophy": {
+        "title": "فلسفہ",
+        "nav": {
+          "dharma": "دھرم",
+          "karma": "کرما",
+          "moksha": "موکشا۔"
+        }
+      },
+      "kidszone": {
+        "title": "کڈز زون",
+        "nav": {
+          "illustratedstories": "تصویری کہانیاں",
+          "mythologicalquizzes": "افسانوی کوئز"
+        }
+      },
+      "others": {
+        "title": "سناتن دھرم",
+        "nav": {
+          "religion-conversion": "مذہب کی تبدیلی",
+          "jyotirlings": "جیوترلنگ",
+          "rivers-connecting": "ندیوں کو جوڑنا"
+        }
+      },
+      "privacy": "رازداری کی پالیسی",
+      "quote": "جب بھی راستبازی زوال پذیر ہوتی ہے اور ناراستی بڑھتی ہے، میں خود کو ظاہر کرتا ہوں۔ نیکوں کی حفاظت کے لیے، شریروں کو نیست و نابود کرنے کے لیے، اور دھرم کے اصولوں کو دوبارہ قائم کرنے کے لیے، میں ہزار سال کے بعد ظاہر ہوتا ہوں۔",
+      "quotesource": "(بھگود گیتا 4.7)",
+      "terms": "سروس کی شرائط"
+    },
+    "header": {
+      "scriptures": {
+        "title": "صحیفے",
+        "nav": {
+          "bhagavadgita": "بھگوت گیتا",
+          "mahabharata": "مہابھارت",
+          "ramayana": "رامائن",
+          "sanksheparamayanam": "سنکشیپا رامائن"
+        }
+      },
+      "philosophy": {
+        "title": "فلسفہ",
+        "nav": {
+          "dharma": "دھرم",
+          "karma": "کرما",
+          "moksha": "موکشا۔",
+          "samsara": "سمسارا"
+        }
+      },
+      "kidszone": {
+        "title": "کڈز زون",
+        "nav": {
+          "illustratedstories": "تصویری کہانیاں",
+          "mythologicalquizzes": "افسانوی کوئز"
+        }
+      },
+      "about": "کے بارے میں"
+    },
+    "policies": {
+      "cookiepolicy": {
+        "title": "کوکی پالیسی",
+        "datasharing": "ڈیٹا شیئرنگ",
+        "datasharingdesc": "ہم تجزیات اور اشتہارات کے لیے تیسرے فریق کے ساتھ مجموعی معلومات کا اشتراک کر سکتے ہیں۔ کوئی حساس ذاتی ڈیٹا بطور ڈیفالٹ شیئر نہیں کیا جاتا ہے۔",
+        "intro": "یہ کوکی پالیسی بتاتی ہے کہ ہم اپنی ویب سائٹ پر کوکیز اور اسی طرح کی ٹیکنالوجیز کا استعمال کیسے کرتے ہیں۔",
+        "lastupdated": "آخری بار اپ ڈیٹ کیا گیا: {date}",
+        "managing": "اپنی ترجیحات کا نظم کریں۔",
+        "managingdesc": "زمرہ جات کو فعال یا غیر فعال کرنے کے لیے بینر سے کوکی ترجیحی مینیجر کو کھولیں۔ اگر آپ تمام کوکیز کو قبول کرتے ہیں، تو ہم آپ کے انتخاب کو محفوظ کر لیں گے اور انہیں دوروں پر لاگو کریں گے۔",
+        "types": {
+          "functionality": "فعالیت: انتخاب اور ترجیحات کو یاد رکھیں۔",
+          "performance": "کارکردگی: ٹریفک اور کارکردگی کا تجزیہ کرنے میں ہماری مدد کریں۔",
+          "strictlynecessary": "سختی سے ضروری: سائٹ کے کام کرنے کے لیے ضروری ہے۔",
+          "targeting": "ہدف بندی: تشہیر اور ذاتی بنانے کے لیے استعمال کیا جاتا ہے۔"
+        },
+        "typesheading": "کوکیز کی اقسام جو ہم استعمال کرتے ہیں۔",
+        "whatarecookies": "کوکیز کیا ہیں؟"
+      },
+      "privacypolicy": {
+        "title": "رازداری کی پالیسی",
+        "howweuse": "ہم معلومات کو کس طرح استعمال کرتے ہیں۔",
+        "howweusedesc": "معلومات کا استعمال ویب سائٹ کی خصوصیات کو چلانے، برقرار رکھنے اور فراہم کرنے اور استعمال کے نمونوں کا تجزیہ کرنے کے لیے کیا جاتا ہے۔",
+        "informationdesc": "ہم سروس کو بہتر بنانے کے لیے آپ کی فراہم کردہ معلومات، کوکیز اور گمنام تجزیاتی ڈیٹا اکٹھا کرتے ہیں۔",
+        "informationheading": "معلومات ہم جمع کرتے ہیں۔",
+        "intro": "یہ رازداری کی پالیسی اس بات کا خاکہ پیش کرتی ہے کہ ہم آپ کی ذاتی معلومات کو کیسے اکٹھا، استعمال اور حفاظت کرتے ہیں۔",
+        "lastupdated": "آخری بار اپ ڈیٹ کیا گیا: {date}",
+        "yourrights": "آپ کے حقوق",
+        "yourrightsdesc": "آپ سائٹ پر ہم سے رابطہ کر کے اپنے ذاتی ڈیٹا تک رسائی، تصحیح یا حذف کرنے کی درخواست کر سکتے ہیں۔"
+      }
+    },
+    "scrolltotop": {
+      "title": "واپس اوپر",
+      "arialabel": "اوپر تک سکرول کریں۔"
+    },
+    "sitetitle": "سناتن دھرم",
+    "similar_categories": {
+      "scriptures": {
+        "title": "صحیفے",
+        "nav": {
+          "purans": "پران",
+          "upanishads": "اپنشد",
+          "vedas": "وید",
+          "ramayana": "Ramayana",
+          "bala_kanda": "Bala Kanda",
+          "ayodhya_kanda": "Ayodhya Kanda",
+          "aranya_kanda": "Aranya Kanda",
+          "kishkindha_kanda": "Kishkindha Kanda",
+          "sundara_kanda": "Sundara Kanda",
+          "yuddha_kanda": "Yuddha Kanda",
+          "uttara_kanda": "Uttara Kanda",
+          "mahabharata": "Mahabharata",
+          "adi_parva_the_book_of_beginnings": "Adi Parva The Book of Beginnings",
+          "sabha_parva_the_book_of_the_royal_assembly": "Sabha Parva The Book of the Royal Assembly",
+          "vana_parva_the_book_of_the_forest": "Vana Parva The Book of the Forest",
+          "virata_parva_the_book_of_virata": "Virata Parva The Book of Virata",
+          "udyoga_parva_the_book_of_effort_and_preparation": "Udyoga Parva The Book of Effort and Preparation",
+          "bhishma_parva_the_book_of_bhishma": "Bhishma Parva The Book of Bhishma",
+          "drona_parva_the_book_of_drona": "Drona Parva The Book of Drona",
+          "karna_parva_the_book_of_karna": "Karna Parva The Book of Karna",
+          "shalya_parva_the_book_of_shalya": "Shalya Parva The Book of Shalya",
+          "sauptika_parva_the_book_of_the_sleeping_warriors": "Sauptika Parva The Book of the Sleeping Warriors",
+          "stri_parva_the_book_of_the_women": "Stri Parva The Book of the Women",
+          "shanti_parva_the_book_of_peace": "Shanti Parva The Book of Peace",
+          "ashvamedhika_parva_the_book_of_the_horse_sacrifice": "Ashvamedhika Parva The Book of the Horse Sacrifice",
+          "ashramavasika_parva_the_book_of_the_hermitage": "Ashramavasika Parva The Book of the Hermitage",
+          "mausala_parva_the_book_of_the_clubs": "Mausala Parva The Book of the Clubs",
+          "mahaprasthanika_parva_the_book_of_the_great_journey": "Mahaprasthanika Parva The Book of the Great Journey",
+          "svargarohana_parva_the_book_of_the_ascent_to_heaven": "Svargarohana Parva The Book of the Ascent to Heaven",
+          "sanksheparamayanam": "Sankshepa Ramayanam",
+          "bhagavadgita": "Bhagavad Gita",
+          "bhagavadgita_part_1": "Bhagavad Gita Part 1",
+          "bhagavadgita_part_2": "Bhagavad Gita Part 2",
+          "bhagavadgita_part_3": "Bhagavad Gita Part 3",
+          "bhagavadgita_part_4": "Bhagavad Gita Part 4",
+          "bhagavadgita_part_5": "Bhagavad Gita Part 5",
+          "bhagavadgita_part_6": "Bhagavad Gita Part 6",
+          "bhagavadgita_part_7": "Bhagavad Gita Part 7",
+          "bhagavadgita_part_8": "Bhagavad Gita Part 8",
+          "bhagavadgita_part_9": "Bhagavad Gita Part 9",
+          "bhagavadgita_part_10": "Bhagavad Gita Part 10",
+          "bhagavadgita_part_11": "Bhagavad Gita Part 11",
+          "bhagavadgita_part_12": "Bhagavad Gita Part 12",
+          "bhagavadgita_part_13": "Bhagavad Gita Part 13",
+          "bhagavadgita_part_14": "Bhagavad Gita Part 14",
+          "bhagavadgita_part_15": "Bhagavad Gita Part 15",
+          "bhagavadgita_part_16": "Bhagavad Gita Part 16",
+          "bhagavadgita_part_17": "Bhagavad Gita Part 17",
+          "bhagavadgita_part_18": "Bhagavad Gita Part 18",
+          "bhagavadgita_part_19": "Bhagavad Gita Part 19",
+          "bhagavadgita_part_20": "Bhagavad Gita Part 20",
+          "bhagavadgita_part_21": "Bhagavad Gita Part 21",
+          "bhagavadgita_part_22": "Bhagavad Gita Part 22",
+          "bhagavadgita_part_23": "Bhagavad Gita Part 23",
+          "bhagavadgita_part_24": "Bhagavad Gita Part 24",
+          "bhagavadgita_part_25": "Bhagavad Gita Part 25",
+          "bhagavadgita_part_26": "Bhagavad Gita Part 26",
+          "bhagavadgita_part_27": "Bhagavad Gita Part 27",
+          "bhagavadgita_part_28": "Bhagavad Gita Part 28",
+          "bhagavadgita_part_29": "Bhagavad Gita Part 29",
+          "bhagavadgita_part_30": "Bhagavad Gita Part 30",
+          "bhagavadgita_part_31": "Bhagavad Gita Part 31",
+          "bhagavadgita_part_32": "Bhagavad Gita Part 32",
+          "bhagavadgita_part_33": "Bhagavad Gita Part 33",
+          "bhagavadgita_part_34": "Bhagavad Gita Part 34",
+          "bhagavadgita_part_35": "Bhagavad Gita Part 35",
+          "bhagavadgita_part_36": "Bhagavad Gita Part 36",
+          "bhagavadgita_part_37": "Bhagavad Gita Part 37"
+        }
+      },
+      "philosophy": {
+        "title": "فلسفہ",
+        "nav": {
+          "advaita": "ادویت",
+          "purushartha": "پروشارتھا",
+          "samsara": "سمسارا",
+          "dharma": "دھرم",
+          "karma": "کرما",
+          "moksha": "موکشا۔"
+        }
+      },
+      "practices": {
+        "title": "مشقیں",
+        "nav": {
+          "dailypoojas": "روزانہ پوجا",
+          "festivals": "تہوار",
+          "rituals": "رسومات",
+          "vastushastra": "واستوشاستر",
+          "yogasanas": "یوگا آسن",
+          "meditation": "مراقبہ",
+          "horoscope": "زائچہ"
+        }
+      },
+      "stories": {
+        "title": "کچھ اور کہانیاں",
+        "nav": {
+          "adishankaracharya": "آدی شنکراچاریہ",
+          "bhishma": "بھیشم",
+          "bramha": "برہما",
+          "lakshmi": "لکشمی دیوی",
+          "parashurama": "پرشورام",
+          "parvathi": "دیوی پاروتی",
+          "saraswati": "دیوی سرسوتی",
+          "vasistamaharshi": "واستا مہارشی",
+          "vishwamitra": "وشوامتر"
+        }
+      },
+      "stotras": {
+        "title": "اسٹوٹراس",
+        "nav": {
+          "ganesh": "گنیش",
+          "hanuman": "ہنومان",
+          "devi": "دیوی",
+          "shiva": "شیوا",
+          "vishnu": "وشنو",
+          "dailyprayers": "روزانہ کی دعائیں"
+        }
+      },
+      "others": {
+        "title": "سناتن دھرم",
+        "nav": {
+          "cosmictime": "کاسمک ٹائمز",
+          "temples-destroyed": "مندر تباہ",
+          "temples-in-india": "ہندوستان میں مندر",
+          "world-transformation": "عالمی تبدیلی",
+          "historical-timeline": "تاریخی ٹائم لائن",
+          "sanatanadharma": "سناتن دھرم",
+          "shakti-peethas": "شکتی پیٹھ",
+          "drip-irrigation-process": "Drip Irrigation Process"
+        }
+      }
+    },
+    "cosmic_time_structure": {
+      "mahayuga_total_years": 4320000,
+      "yugas": [
+        {
+          "name": "ستیہ یوگا",
+          "duration_years": 1728000,
+          "dharma_percentage": 100
+        },
+        {
+          "name": "تریتا یوگ",
+          "duration_years": 1296000,
+          "dharma_percentage": 75
+        },
+        {
+          "name": "دوپارہ یوگا",
+          "duration_years": 864000,
+          "dharma_percentage": 50
+        },
+        {
+          "name": "کالی یوگ",
+          "duration_years": 432000,
+          "dharma_percentage": 25
+        }
+      ]
+    },
+    "dashavatara": [
+      {
+        "order": 1,
+        "name": "متسیا",
+        "type": "آبی",
+        "yuga": "ستیہ یوگا",
+        "purpose": "ویدوں اور منو کو کائناتی سیلاب سے بچائیں۔",
+        "primary_antagonist": "حیاگریوا (بعض روایات میں)",
+        "associated_texts": [
+          "بھگوت پران",
+          "وشنو پران"
+        ],
+        "symbolism": "زندگی کا آغاز؛ علم کی حفاظت",
+        "evolutionary_symbolism": "آبی زندگی کا مرحلہ"
+      },
+      {
+        "order": 2,
+        "name": "کُرما۔",
+        "type": "ایمفبیئن",
+        "yuga": "ستیہ یوگا",
+        "purpose": "سمندر منتھنا کے دوران ماؤنٹ مندارا کو سپورٹ کریں۔",
+        "primary_event": "سمندر کا منتھنا",
+        "associated_texts": [
+          "بھگوت پران",
+          "مہابھارت"
+        ],
+        "symbolism": "استحکام اور کائناتی سپورٹ",
+        "evolutionary_symbolism": "ایمفبیئن کی منتقلی"
+      },
+      {
+        "order": 3,
+        "name": "وراہا۔",
+        "type": "زمینی ممالیہ",
+        "yuga": "ستیہ یوگا",
+        "purpose": "بھودیوی (زمین) کو ہیرانیکش سے بچائیں۔",
+        "primary_antagonist": "ہیرانیکشا۔",
+        "associated_texts": [
+          "وشنو پران"
+        ],
+        "symbolism": "زمین اور کائناتی ترتیب کی بحالی",
+        "evolutionary_symbolism": "زمینی جانوروں کا مرحلہ"
+      },
+      {
+        "order": 4,
+        "name": "نرسمہا",
+        "type": "آدمی-شیر",
+        "yuga": "ستیہ یوگا",
+        "purpose": "پرہلدا کی حفاظت کریں اور ہیرانیاکشیپو کو تباہ کریں۔",
+        "primary_antagonist": "ہیرانیاکشپو",
+        "associated_texts": [
+          "بھگوت پران"
+        ],
+        "symbolism": "منطقی رکاوٹوں سے بالاتر الہی مداخلت",
+        "evolutionary_symbolism": "جانور سے انسان میں منتقلی۔"
+      },
+      {
+        "order": 5,
+        "name": "وامانا۔",
+        "type": "بونا برہمن",
+        "yuga": "تریتا یوگ",
+        "purpose": "کنگ بالی کو زیر کریں اور کائناتی توازن بحال کریں۔",
+        "primary_antagonist": "مہابلی",
+        "associated_texts": [
+          "وشنو پران"
+        ],
+        "symbolism": "عاجزی اور خدائی ذہانت",
+        "evolutionary_symbolism": "دانشور انسان کا ظہور"
+      },
+      {
+        "order": 6,
+        "name": "پرشورام",
+        "type": "جنگجو بابا",
+        "yuga": "مرحوم تریتا یوگ",
+        "purpose": "کرپٹ کھشتری حکمرانوں کو نیست و نابود کریں۔",
+        "weapon": "پارشو (کلہاڑی)",
+        "associated_texts": [
+          "مہابھارت",
+          "پرانوں"
+        ],
+        "symbolism": "سماجی ترتیب کی بحالی",
+        "evolutionary_symbolism": "قدیم جنگجو معاشرہ"
+      },
+      {
+        "order": 7,
+        "name": "راما",
+        "type": "مثالی بادشاہ",
+        "yuga": "تریتا یوگ",
+        "purpose": "راون کو نیست و نابود کر کے صالح حکمرانی قائم کرو",
+        "primary_antagonist": "راون",
+        "associated_texts": [
+          "رامائن"
+        ],
+        "symbolism": "دھرم کا مجسمہ",
+        "evolutionary_symbolism": "مہذب اخلاقی ریاست"
+      },
+      {
+        "order": 8,
+        "name": "کرشنا۔",
+        "type": "ڈیوائن اسٹیٹس مین",
+        "yuga": "دوپارہ یوگا",
+        "purpose": "مہابھارت جنگ کے ذریعے انسانیت کی رہنمائی کریں۔",
+        "primary_antagonist": "کوراواس (اجتماعی ادھرم)",
+        "associated_texts": [
+          "مہابھارت",
+          "بھگواد گیتا"
+        ],
+        "symbolism": "الہی حکمت اور بھکتی",
+        "evolutionary_symbolism": "اعلی درجے کا سماجی شعور"
+      },
+      {
+        "order": 9,
+        "name": "بدھا۔",
+        "type": "روشن خیال استاد",
+        "yuga": "ابتدائی کالی یوگ",
+        "purpose": "رسم کی زیادتی کی اصلاح کریں اور ہمدردی کو فروغ دیں۔",
+        "historical_identity": "سدھارتھ گوتم",
+        "associated_texts": [
+          "بھگوت پران (ویشنو تشریح)"
+        ],
+        "symbolism": "ہمدردی اور خود شناسی",
+        "evolutionary_symbolism": "فلسفیانہ بیداری"
+      },
+      {
+        "order": 10,
+        "name": "کالکی",
+        "type": "مستقبل کا جنگجو",
+        "yuga": "کالی یوگ کا خاتمہ",
+        "status": "مستقبل",
+        "purpose": "ادھرم کو تباہ کریں اور کائناتی چکر کو دوبارہ ترتیب دیں۔",
+        "associated_texts": [
+          "وشنو پران",
+          "بھگوت پران"
+        ],
+        "symbolism": "سائیکلیکل تجدید",
+        "evolutionary_symbolism": "تبدیلی اور پنر جنم"
+      }
+    ],
+    "interpretations": {
+      "theological_view": "دھرم کے زوال کے بعد اوتار ظاہر ہوتے ہیں (بھگود گیتا 4.7-8)۔",
+      "symbolic_view": "شعور کے روحانی ارتقاء کی نمائندگی کرتا ہے۔",
+      "comparative_mythology_view": "سیلاب کا افسانہ عالمی روایات کے متوازی ہے۔",
+      "cyclical_time_concept": "وقت غیر خطی اور تخلیق نو ہے۔",
+      "current_cycle": {
+        "current_yuga": "کالی یوگ",
+        "kali_yuga_started_bce": 3102,
+        "years_elapsed_in_kali_yuga_approx": 5100
+      },
+      "earth_age_comparison_note": "1 کلپا (4.32 بلین سال) حیرت انگیز طور پر زمین کی عمر (~4.54 بلین سال) کے جدید سائنسی اندازے کے قریب ہے۔",
+      "scaling_comment": "یہ ریاضیاتی پیمانہ تمام کائناتی سطحوں پر انتہائی منظم اور متناسب ہے۔"
+    }
+  }
+}

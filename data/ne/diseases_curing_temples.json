@@ -1,0 +1,222 @@
+{
+  "diseases_curing_temples": {
+    "title": "रोग निको पार्ने मन्दिर | सनातन धर्म - जीवनको अनन्त मार्ग",
+    "meta": {
+      "title": "रोग निको पार्ने मन्दिर | सनातन धर्म - जीवनको अनन्त मार्ग",
+      "canonical": "https://sanatanadharmam.in/diseases-curing-temples",
+      "description": "मन्दिरहरू निको पार्ने रोगहरू।",
+      "keywords": [
+        "anxiety and stress relief",
+        "chronic diseases",
+        "chronic illness relief",
+        "diseases curing temples",
+        "fertility blessings",
+        "general health protection",
+        "healing temples in India",
+        "long-term suffering",
+        "mental health",
+        "neurological issues",
+        "physical and mental well-being",
+        "psychosomatic disorders",
+        "recovery after illness",
+        "respiratory issues",
+        "skin diseases",
+        "spiritual healing temples",
+        "temples associated with health benefits",
+        "temples for curing diseases",
+        "temples for health and healing",
+        "traditional healing temples"
+      ],
+      "ogimage": "images/og/home.png",
+      "url": "https://sanatanadharmam.in/diseases-curing-temples"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "संगठन",
+        "contactpoint": {
+          "@type": "सम्पर्क बिन्दु",
+          "areaserved": "विश्वव्यापी",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "अंग्रेजी",
+            "Español",
+            "Français",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "नेदरल्याण्ड्स",
+            "पोर्चुगिज",
+            "रुसकी",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "ग्राहक समर्थन",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+९१-८०९९१८१०७५"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sanatanadharmam.in को बारेमा",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "healing_temples_india": [
+      {
+        "city_or_district": "माइलादुथुराई",
+        "deity": "शिव वैद्यनाथर (दैवी चिकित्सक) को रूपमा",
+        "id": "TN_VAIDYANATHAR_VAITHEESWARAN",
+        "state": "तमिलनाडु",
+        "temple_name": "वैथीस्वरण कोइल (श्री वैद्यनाथर मन्दिर)",
+        "traditional_belief_about_diseases": [
+          "छाला रोगहरु",
+          "पुरानो रोगहरु",
+          "सामान्य स्वास्थ्य समस्याहरू"
+        ]
+      },
+      {
+        "city_or_district": "चेन्नई",
+        "deity": "शिव मारुण्डेश्वरर (औषधिका भगवान) को रूपमा",
+        "id": "TN_MARUNDEESWARAR_TIRUVANMIYUR",
+        "state": "तमिलनाडु",
+        "temple_name": "मारुण्डेश्वर मन्दिर (तिरुवनमियुर)",
+        "traditional_belief_about_diseases": [
+          "सामान्य रोगहरु",
+          "लामो रोग पछि कमजोरी",
+          "शरीर दुखाइ र थकान"
+        ]
+      },
+      {
+        "city_or_district": "पलानी",
+        "deity": "भगवान मुरुगन",
+        "id": "TN_PALANI_DHANDAYUTHAPANI",
+        "state": "तमिलनाडु",
+        "temple_name": "पलानी धन्दायुथापानी स्वामी मन्दिर",
+        "traditional_belief_about_diseases": [
+          "पुरानो रोगहरु",
+          "लतहरू",
+          "कमजोरी र कम ऊर्जा"
+        ]
+      },
+      {
+        "city_or_district": "एर्नाकुलम",
+        "deity": "देवी भगवती",
+        "id": "KL_CHOTTANIKKARA_BHAGAVATHY",
+        "state": "केरला",
+        "temple_name": "चोट्टानिकारा भगवती मन्दिर",
+        "traditional_belief_about_diseases": [
+          "मानसिक रोगहरु",
+          "चिन्ता र अवसाद",
+          "मनोवैज्ञानिक विकार"
+        ]
+      },
+      {
+        "city_or_district": "गुरुवायुर",
+        "deity": "भगवान कृष्ण (गुरुवायुरप्पन)",
+        "id": "KL_GURUVAYUR_KRISHNA",
+        "state": "केरला",
+        "temple_name": "गुरुवायुर श्री कृष्ण मन्दिर",
+        "traditional_belief_about_diseases": [
+          "बालबालिकाको स्वास्थ्य समस्या",
+          "सामान्य रोगहरु",
+          "प्रजनन सम्बन्धी आशीर्वाद"
+        ]
+      },
+      {
+        "city_or_district": "श्रीकालहस्ती",
+        "deity": "शिव (वायु लिङ्ग)",
+        "id": "AP_SRIKALAHASTI",
+        "state": "आन्ध्र प्रदेश",
+        "temple_name": "श्रीकालहस्ती मन्दिर",
+        "traditional_belief_about_diseases": [
+          "श्वास समस्या (दमा जस्तै)",
+          "छाला समस्याहरू",
+          "दोष-सम्बन्धित स्वास्थ्य गडबडी"
+        ]
+      },
+      {
+        "city_or_district": "यादद्री-भुवनगिरी",
+        "deity": "लक्ष्मी नरसिंह",
+        "id": "TS_YADADRI_NARASIMHA",
+        "state": "तेलंगाना",
+        "temple_name": "यादद्री लक्ष्मी नरसिंह मन्दिर",
+        "traditional_belief_about_diseases": [
+          "डर र चिन्ता",
+          "सामान्य स्वास्थ्य सुरक्षा",
+          "रोग पछि रिकभरी"
+        ]
+      },
+      {
+        "city_or_district": "हैदरावाद",
+        "deity": "यल्लम्मा देवी",
+        "id": "TS_BALKAMPET_YELLAMMA",
+        "state": "तेलंगाना",
+        "temple_name": "बाल्कम्पेट येल्लम्मा मन्दिर",
+        "traditional_belief_about_diseases": [
+          "छाला रोगहरु",
+          "पुरानो स्वास्थ्य अवस्था"
+        ]
+      },
+      {
+        "city_or_district": "देवघर",
+        "deity": "शिव वैद्यनाथ को रूप मा",
+        "id": "JH_BABA_BAIDYANATH",
+        "state": "झारखण्ड",
+        "temple_name": "बाबा वैद्यनाथ ज्योतिर्लिङ्ग",
+        "traditional_belief_about_diseases": [
+          "पुरानो रोगहरु",
+          "सामान्य स्वास्थ्य समस्याहरू",
+          "दीर्घकालीन दुर्बलता"
+        ]
+      },
+      {
+        "city_or_district": "दौसा",
+        "deity": "भगवान हनुमान (बालाजी)",
+        "id": "RJ_MEHANDIPUR_BALAJI",
+        "state": "राजस्थान",
+        "temple_name": "मेहन्दीपुर बालाजी मन्दिर",
+        "traditional_belief_about_diseases": [
+          "मानसिक पीडाहरू",
+          "मनोवैज्ञानिक समस्याहरू",
+          "गडबडीहरू आध्यात्मिक प्रकृतिको मानिन्छ"
+        ]
+      },
+      {
+        "city_or_district": "कालाबुर्गी क्षेत्र",
+        "deity": "भगवान दत्तात्रेय",
+        "id": "KA_GANAGAPUR_DATTATREYA",
+        "state": "कर्नाटक",
+        "temple_name": "श्री क्षेत्र गणगापुर (दत्तात्रेय पादुका)",
+        "traditional_belief_about_diseases": [
+          "न्यूरोलोजिकल समस्याहरू",
+          "पुरानो रोगहरु",
+          "दीर्घकालीन पीडा"
+        ]
+      },
+      {
+        "city_or_district": "गुवाहाटी",
+        "deity": "कामाख्या देवी",
+        "id": "AS_KAMAKHYA",
+        "state": "असम",
+        "temple_name": "कामाख्या मन्दिर",
+        "traditional_belief_about_diseases": [
+          "महिला स्वास्थ्य समस्याहरू",
+          "प्रजनन समस्याहरू"
+        ]
+      },
+      {
+        "city_or_district": "वाराणसी",
+        "deity": "भगवान हनुमान",
+        "id": "UP_SANKAT_MOCHAN",
+        "state": "उत्तर प्रदेश",
+        "temple_name": "संकट मोचन हनुमान मन्दिर",
+        "traditional_belief_about_diseases": [
+          "चिन्ता",
+          "सामान्य स्वास्थ्य समस्याहरू",
+          "बाधा र कष्टबाट मुक्ति मिल्नेछ"
+        ]
+      }
+    ]
+  }
+}

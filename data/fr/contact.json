@@ -1,0 +1,164 @@
+{
+  "contact": {
+    "title": "Contactez-nous",
+    "meta": {
+      "title": "Contactez-nous — Sanātana Dharma",
+      "canonical": "https://sanatanadharmam.in/contact",
+      "description": "Entrez en contact avec Sanatanadarmam.in pour des demandes de renseignements, des collaborations ou des conseils spirituels. Contactez-nous par e-mail, téléphone ou formulaire de contact.",
+      "keywords": [
+        "Sanatana Dharma collaboration proposals",
+        "Sanatana Dharma communication",
+        "Sanatana Dharma community engagement",
+        "Sanatana Dharma contact information",
+        "Sanatana Dharma content suggestions",
+        "Sanatana Dharma editorial feedback",
+        "Sanatana Dharma general questions",
+        "Sanatana Dharma outreach",
+        "Sanatana Dharma project inquiries",
+        "Sanatana Dharma spiritual questions",
+        "Sanatana Dharma support",
+        "Sanatana Dharma text corrections",
+        "Sanatana Dharma translation suggestions",
+        "Sanatana Dharma volunteer coordination",
+        "Sanatana Dharma website contact",
+        "collaborations",
+        "contact Sanatanadharmam.in",
+        "contact form",
+        "email",
+        "feedback",
+        "general questions",
+        "inquiries",
+        "phone",
+        "spiritual guidance",
+        "text corrections",
+        "translation suggestions",
+        "volunteer opportunities"
+      ],
+      "ogimage": "/og/contact.png",
+      "robots": "indexer, suivre",
+      "url": "https://sanatanadharmam.in/contact"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organisation",
+        "contactpoint": {
+          "@type": "Point de contact",
+          "areaserved": "Mondial",
+          "availablelanguage": [
+            "العربية",
+            "Allemand",
+            "Anglais",
+            "espagnol",
+            "Français",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Pays-Bas",
+            "Portugais",
+            "russe",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Service client",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "À propos de Sanatanadharman.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "faq": {
+      "heading": "Questions fréquemment posées",
+      "items": [
+        {
+          "a": "Veuillez inclure l'URL, le passage exact (citer la ligne ou le verset) et une référence ou une analyse de l'édition source si possible. Nous vérifierons et, si nécessaire, publierons une note d'errata décrivant la correction.",
+          "q": "J'ai trouvé une erreur dans un texte, que dois-je faire ?"
+        },
+        {
+          "a": "Oui. Envoyez les détails bibliographiques et toutes les autorisations pertinentes. Nous donnons la priorité aux textes qui sont dans le domaine public ou disponibles avec des autorisations claires, et nous pouvons nous coordonner avec les contributeurs pour la numérisation.",
+          "q": "Puis-je demander l’ajout d’un nouveau texte ou d’un nouveau chapitre ?"
+        },
+        {
+          "a": "Envoyez votre CV ou un court message décrivant vos compétences et vos disponibilités. Nous ferons un suivi si nous avons une bonne adéquation aux besoins actuels.",
+          "q": "Comment puis-je m'impliquer en tant que bénévole ?"
+        }
+      ]
+    },
+    "sections": [
+      {
+        "content": "Sanatanadharmam.in se consacre à la diffusion de la connaissance authentique du Sanatana Dharma. Que vous ayez des questions, des commentaires ou des idées de collaboration, nous apprécions votre message.",
+        "id": "introduction",
+        "type": "texte"
+      },
+      {
+        "columns": [
+          {
+            "title": "📧 E-mail",
+            "content": "vulchi.vijay@gmail.com"
+          },
+          {
+            "title": "📞 Téléphone",
+            "content": "+91-8099181075"
+          },
+          {
+            "title": "📍 Adresse",
+            "content": "Tirupati, Andhra Pradesh, Inde"
+          }
+        ],
+        "id": "introduction",
+        "type": "texte"
+      },
+      {
+        "fields": [
+          {
+            "name": "nom",
+            "placeholder": "Votre nom",
+            "required": true,
+            "type": "texte"
+          },
+          {
+            "name": "e-mail",
+            "placeholder": "Votre e-mail",
+            "required": true,
+            "type": "e-mail"
+          },
+          {
+            "name": "sujet",
+            "placeholder": "Sujet",
+            "required": false,
+            "type": "texte"
+          },
+          {
+            "name": "message",
+            "placeholder": "Votre message",
+            "required": true,
+            "type": "zone de texte"
+          }
+        ],
+        "id": "introduction",
+        "submitbutton": {
+          "action": "/api/contact/submit",
+          "label": "Envoyer un message"
+        },
+        "type": "texte"
+      },
+      {
+        "content": "Sanatanadharmam.in se consacre à la diffusion de la connaissance authentique du Sanatana Dharma. Que vous ayez des questions, des commentaires ou des idées de collaboration, nous apprécions votre message.",
+        "id": "introduction",
+        "type": "texte"
+      }
+    ],
+    "subtitle": "Nous aimerions avoir de vos nouvelles",
+    "volunteer": {
+      "guidance": "Nous accueillons les bénévoles qui peuvent aider à la relecture, à la composition, aux traductions, à l'enregistrement audio, au développement Web et à la modération de la communauté. Veuillez décrire vos compétences, votre disponibilité et tout échantillon pertinent de travaux antérieurs. Les soumissions sont examinées et, si elles sont acceptées, coordonnées via un modeste processus d'intégration afin que les bénévoles comprennent les normes éditoriales et le code de conduite du projet.",
+      "heading": "Lignes directrices en matière de bénévolat et de contribution"
+    },
+    "whattoinclude": {
+      "guidance": "Pour nous aider à répondre efficacement, veuillez inclure : une ligne d'objet claire, la page ou l'URL à laquelle vous faites référence (le cas échéant), une description concise du problème ou de la demande et votre méthode de contact préférée. Pour les corrections de textes, indiquez la ligne ou le verset exact et, si possible, fournissez une source ou une référence d'édition fiable. Pour les suggestions de traduction, incluez à la fois la formulation suggérée et une brève justification du changement.",
+      "heading": "Que faut-il inclure dans votre message"
+    }
+  }
+}

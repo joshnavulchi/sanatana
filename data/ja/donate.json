@@ -1,0 +1,136 @@
+{
+  "donate": {
+    "title": "サナータナ ダルマをサポートする",
+    "meta": {
+      "title": "寄付 |概要 — Sanātana Dharma - Sanātana Dharma を探索する",
+      "canonical": "https://sanatanadharmam.in/donate",
+      "description": "Donate — Sanātana Dharma をサポート — Donate に関する記事、翻訳、簡潔な解説。慣例、歴史、指導原則については、こちらをご覧ください。",
+      "keywords": [
+        "UPI donation for Sanātana Dharma",
+        "bank transfer for Sanātana Dharma donation",
+        "commercial status of Sanātana Dharma",
+        "contact information for Sanātana Dharma donations",
+        "contribute to Sanātana Dharma",
+        "current expenses of Sanātana Dharma",
+        "donate to Sanātana Dharma",
+        "donation options for Sanātana Dharma",
+        "donation security for Sanātana Dharma",
+        "donation usage for Sanātana Dharma",
+        "enabling creation of spiritual content for Sanātana Dharma",
+        "frequently asked questions about donating to Sanātana Dharma",
+        "fund Sanātana Dharma",
+        "how to donate to Sanātana Dharma",
+        "impact of donations on Sanātana Dharma",
+        "international donation for Sanātana Dharma",
+        "keeping Sanātana Dharma independent and non-commercial",
+        "non-commercial nature of Sanātana Dharma",
+        "one-time donation for Sanātana Dharma",
+        "preserving free access to Sanātana Dharma knowledge",
+        "recurring donation for Sanātana Dharma",
+        "support Sanātana Dharma",
+        "supporting translations and philosophical knowledge at Sanātana Dharma",
+        "supporting website hosting and maintenance for Sanātana Dharma",
+        "sustaining free access to ancient wisdom through donations",
+        "transparency of donations at Sanātana Dharma",
+        "why donate to Sanātana Dharma"
+      ],
+      "ogimage": "/og/donate.png",
+      "url": "https://sanatanadharmam.in/donate"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "組織",
+        "contactpoint": {
+          "@type": "連絡先",
+          "areaserved": "世界中",
+          "availablelanguage": [
+            "ああ",
+            "ドイツ語",
+            "英語",
+            "スペイン語",
+            "フランセ",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "オランダ",
+            "ポルトガル語",
+            "Русский",
+            "తెలుగు",
+            "ああ",
+            "中文 (简体)"
+          ],
+          "contacttype": "カスタマーサポート",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sanatanadharmam.in について",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "donateoptions": {
+      "bank": {
+        "accountname": "V ヴィジャヤ クマール",
+        "accountnumber": "32160808608",
+        "heading": "UPI / 銀行振込",
+        "ifsc": "SBIN0010677",
+        "upi": "809918075@ybl"
+      },
+      "onetime": {
+        "heading": "1回限りの寄付",
+        "note": "UPI または国際的な支払い方法を使用して、安全な 1 回限りの寄付を行ってください。"
+      }
+    },
+    "expenses": {
+      "heading": "透明性: 現在の経費",
+      "table": [
+        {
+          "cost": "₹3,500",
+          "cycle": "3年",
+          "name": "ドメインとホスティング",
+          "provider": "ホスティンガー"
+        },
+        {
+          "cost": "無料",
+          "cycle": "無制限",
+          "name": "GitHub ページ",
+          "provider": "GitHub"
+        },
+        {
+          "cost": "無料プラン",
+          "cycle": "進行中",
+          "name": "AIツール（研究）",
+          "provider": "Google / マイクロソフト / メタ"
+        }
+      ]
+    },
+    "faq": {
+      "heading": "よくある質問",
+      "items": [
+        {
+          "a": "はい。寄付は、信頼できる決済プロバイダーと直接銀行振込によって処理されます。",
+          "q": "私の寄付は安全ですか?"
+        },
+        {
+          "a": "あなたの貢献は、教育的なスピリチュアル コンテンツのホスティング、保守、作成をサポートします。",
+          "q": "私の寄付金はどのように使われるのでしょうか？"
+        },
+        {
+          "a": "いいえ、Sanātana Dharma は非営利の知識中心の取り組みです。",
+          "q": "これは営利団体ですか?"
+        }
+      ]
+    },
+    "purpose": {
+      "heading": "あなたのサポートが重要な理由",
+      "points": [
+        "Sanātana Dharma の知識への無料アクセスを維持します",
+        "ウェブサイトのホスティング、ドメイン、メンテナンスをサポート",
+        "高品質なスピリチュアルコンテンツの制作が可能",
+        "プラットフォームを独立性と非営利性を維持します"
+      ]
+    },
+    "subtitle": "あなたの寄付により、世界中の探求者が古代の知恵、経典、翻訳、哲学的知識に無料でアクセスできるようになります。"
+  }
+}

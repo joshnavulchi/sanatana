@@ -1,0 +1,2300 @@
+{
+  "cosmictime": {
+    "title": "كيف يمكن أن تكون مدة 1,728,000 سنة بشرية ممكنة؟",
+    "meta": {
+      "title": "الوقت الكوني في ساناتانا دارما: يوجاس، مانفانتارا، والمقارنة العلمية",
+      "canonical": "https://sanatanadharmam.in/philosophy/cosmictime",
+      "description": "شرح متعمق لدورات يوجا، مانفانتارا، كالبا ومقارنتها بعلم الكونيات العلمي الحديث.",
+      "keywords": [
+        "Kalpa",
+        "Manvantara",
+        "Manvantara and Kalpa explained",
+        "Sanātana Dharma cosmology",
+        "Satya Yuga duration",
+        "Yuga cycles",
+        "Yuga durations explained",
+        "Yuga system mathematical structure",
+        "ancient timekeeping",
+        "comparison with science",
+        "consciousness",
+        "cosmic administration",
+        "cosmic cosmology",
+        "cosmic cycles",
+        "cosmic enlightenment",
+        "cosmic experience",
+        "cosmic function",
+        "cosmic implications",
+        "cosmic insights",
+        "cosmic knowledge",
+        "cosmic metaphysics",
+        "cosmic mythology",
+        "cosmic order",
+        "cosmic philosophy",
+        "cosmic purpose",
+        "cosmic realization",
+        "cosmic significance",
+        "cosmic structure",
+        "cosmic symbolism",
+        "cosmic theology",
+        "cosmic time",
+        "cosmic time scales in Hinduism",
+        "cosmic time vs human time",
+        "cosmic timekeeping",
+        "cosmic understanding",
+        "cosmic wisdom",
+        "cyclical time",
+        "cyclical universe concept",
+        "divine time vs human time",
+        "geological time",
+        "geological time scales",
+        "modern science",
+        "moral and spiritual decline",
+        "moral decline",
+        "philosophy of time",
+        "scientific perspective on Yugas",
+        "spiritual states",
+        "time in Sanātana Dharma"
+      ],
+      "ogimage": "/og/cosmictime.png",
+      "url": "https://sanatanadharmam.in/philosophy/cosmictime"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "منظمة",
+        "contactpoint": {
+          "@type": "نقطة الاتصال",
+          "areaserved": "في جميع أنحاء العالم",
+          "availablelanguage": [
+            "العربية",
+            "الألمانية",
+            "إنجليزي",
+            "الاسبانية",
+            "الفرنسية",
+            "الهندية",
+            "日本語",
+            "النيبالية",
+            "هولندا",
+            "البرتغالية",
+            "الروسية",
+            "نعم",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "دعم العملاء",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "حول Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "earth_age_comparison_note": "1 كالبا (4.32 مليار سنة) قريب بشكل مدهش من التقدير العلمي الحديث لعمر الأرض (حوالي 4.54 مليار سنة).",
+    "scaling_comment": "هذا المقياس الرياضي منظم للغاية ومتناسب عبر جميع المستويات الكونية.",
+    "answer": "لأن: الزمن دوري وليس خطيًا، الخلق والانحلال يتكرران بلا نهاية، الوعي هو الذي يحكم تدفق الزمن، المقاييس الواسعة متوقعة وليست استثنائية",
+    "assumes": "تفترض Sanātana Dharma: الخلق ← الحفاظ ← الذوبان ← الترفيه (تكرار)",
+    "brahma_full_day": "يوم كامل من براهما",
+    "cosmictimesystem": {
+      "baseunithumanyears": 432000,
+      "brahmalifetimeyears": 311040000000000,
+      "chaturyuga": {
+        "durationyears": 4320000,
+        "ratio": "4:3:2:1",
+        "yugas": [
+          {
+            "dharma": "100%",
+            "duration": 1728000,
+            "name": "ساتيا يوجا"
+          },
+          {
+            "dharma": "75%",
+            "duration": 1296000,
+            "name": "تريتا يوجا"
+          },
+          {
+            "dharma": "50%",
+            "duration": 864000,
+            "name": "دفابارا يوجا"
+          },
+          {
+            "dharma": "25%",
+            "duration": 432000,
+            "name": "كالي يوجا"
+          }
+        ]
+      },
+      "kalpa": {
+        "description": "يوم واحد من براهما",
+        "durationyears": 4320000000,
+        "manvantaras": 14
+      },
+      "manvantara": {
+        "chaturyugas": 71,
+        "durationyears": 306720000
+      }
+    },
+    "cyclical_universe": "الكون الدوري، وليس التاريخ الخطي",
+    "definition": "في ساناتانا دارما، لا يتم تصور الوقت في فترات خطية قصيرة (قرون أو آلاف السنين) ولكن كمقاييس كونية واسعة ودورية. مدة ساتيا يوجا = 1,728,000 سنة بشرية تصبح مفهومة عند النظر إليها من خلال هذا الإطار.",
+    "final_consolidated_insight": {
+      "kalpas_explain": "الوجود على نطاق كوكبي",
+      "manvantaras_explain": "إعادة ضبط الحضارة",
+      "overall_conclusion": "ويشكلون معًا فلسفة كاملة كلية وجزئية للزمن الكوني.",
+      "sanatana_dharma_explains": "الطبيعة الدورية والديناميات الأخلاقية",
+      "science_validates": "مقياس الوقت",
+      "yugas_explain": "الانحدار الأخلاقي والروحي"
+    },
+    "human_years": "عندما يتم التعبير عن الفترات بالسنوات البشرية، فإنها تبدو هائلة، ولكن ضمن ضبط الوقت الكوني، فهي متناسبة ومحدودة.",
+    "keypoint": "هذه الأرقام ليست عشوائية. وهي مشتقة من وحدة أساسية قدرها 432000، مضروبة بالتناسب (4: 3: 2: 1).",
+    "lifetime_brahma": "عمر البراهما - 100 سنة براهما - كل سنة = 360 يوما",
+    "longduration": "ما الذي يجعل هذه المدة الطويلة \"ممكنة\"؟",
+    "manvantara": {
+      "definition": "مانفانتارا هو عصر كوني كبير يحكمه مانو، سلف البشرية ومشرعها.",
+      "each_manvantara": [
+        "مانو واحد",
+        "إندرا واحدة",
+        "ريشيس جديد",
+        "النظام الكوني والأخلاقي الجديد"
+      ],
+      "explains": [
+        "تكرار صعود وسقوط الحضارات",
+        "فقدان المعرفة وتجددها",
+        "غياب الإنسانية الأولى الواحدة",
+        "الهيكل الإداري الكوني"
+      ],
+      "fourteen_kalpas": [
+        "سفايامبوفا",
+        "سفاروسيسا",
+        "أوتاما",
+        "تاماسا",
+        "رايفاتا",
+        "كاكسوسا",
+        "فايفاسفاتا",
+        "مانو المستقبل"
+      ],
+      "human_history": {
+        "implications": [
+          "ومن المتوقع وجود فجوات أثرية كبيرة",
+          "الظهور المفاجئ للمفاهيم المتقدمة",
+          "الأنماط الأسطورية العالمية المتكررة"
+        ],
+        "one_manvantara_years": 306720000,
+        "recorded_human_history_years": 6000
+      },
+      "manvantara_within_kalpa": {
+        "kalpa": "1 كالبا = 14",
+        "periods": "مراحل Sandhya بين Manvantaras",
+        "type": "الذوبان الجزئي عند التحولات"
+      },
+      "purpose": "يمثل إعادة ضبط كاملة للحضارة والحكم والإدارة الكونية.",
+      "structure_of_manvantara": {
+        "calculation": "71 × 4,320,000",
+        "chaturyugas_per_manvantara": 71,
+        "duration_human_years": 306720000
+      }
+    },
+    "modern_thinking_assumes": "يفترض التفكير الحديث: الحضارة ← التقدم ← النهاية",
+    "night_of_brahma": "ليلة براهما - مساوية في الطول لواحدة من كالبا، يدخل الكون في انحلال جزئي، ولا توجد حياة واضحة",
+    "non_contradictory": "المنظور العلمي (غير متناقض) - في حين أن العلم الحديث لا يقبل رسميًا الجداول الزمنية ليوغا، إلا أنه لا يدحض العصور الطويلة: يبلغ عمر الأرض حوالي 4.54 مليار سنة، وعمر الإنسان العاقل حوالي 300000 سنة، وتمتد العصور الجيولوجية لملايين السنين، وربما تكون الحضارات موجودة واختفت دون استمرارية أحفورية أو مادية.",
+    "non_contradictory_thus": "وبالتالي، فإن الفترات الطويلة معقولة من الناحية العلمية، حتى لو اختلفت التفسيرات.",
+    "numericalradio": "يتبع اليوغيون الأربعة نسبة عددية صارمة",
+    "question": "لماذا هذه الأرقام \"ممكنة\"؟",
+    "ratio": [
+      "مدة نسبة اليوجا (سنوات بشرية)",
+      "ساتيا (كريتا) 4 1,728,000",
+      "تريتا 3 1,296,000",
+      "دفابارا 2 864000",
+      "كالي 1432000"
+    ],
+    "satya_yuga_long_design": "ساتيا يوجا طويل من حيث التصميم، ويعكس كونًا يعمل بأعلى توازن أخلاقي وروحي. التسلسل الهرمي للدوام الكامل (صغير → واسع)",
+    "scale_of_time": "مقياس زمني مختلف (الإلهي مقابل البشري) تميز النصوص القديمة بين: Manuṣya Kāla (الزمن البشري)، Divya Kāla (الزمن الإلهي/الكوني)",
+    "scientific": {
+      "evolution_vs_moral": {
+        "key_insight": "فالتقدم العلمي والانحدار الأخلاقي يمكن أن يحدثا في وقت واحد دون تناقض.",
+        "modern_science": {
+          "focus": "التطور البيولوجي",
+          "moral_dimension": "لا يوجد مقياس أخلاقي أو روحي متأصل",
+          "time_nature": "محايدة القيمة",
+          "trend": "زيادة التعقيد المادي والتكنولوجي"
+        },
+        "yuga_system": {
+          "focus": "الحالة الأخلاقية والروحية",
+          "physical_progress": "قد يتعايش مع الانحدار الروحي",
+          "time_nature": "تعتمد على الوعي",
+          "trend": "تراجع الدارما عبر اليوجا"
+        }
+      },
+      "fundamental_approach_difference": {
+        "modern_science": {
+          "creation_process": "توسع الانفجار الكبير",
+          "end_state": "الموت الحراري أو الانهيار (نظري)",
+          "measurement_basis": "المادة والطاقة والقوانين الفيزيائية",
+          "time_model": "خطي",
+          "universe_nature": "كون واحد يمكن ملاحظته"
+        },
+        "sanatana_dharma": {
+          "creation_process": "تكرار الخلق والحفظ والانحلال",
+          "end_state": "الانحلال يتبعه ولادة جديدة",
+          "measurement_basis": "الوعي والدارما والنظام الكوني",
+          "time_model": "دوري",
+          "universe_nature": "الأبدية والمتكررة"
+        }
+      },
+      "reason_for_vast_numbers_in_ancient_texts": {
+        "base_number_significance": {
+          "properties": [
+            "قابلة للقسمة للغاية",
+            "دوري",
+            "قابلة للتطوير من الناحية الهيكلية"
+          ],
+          "value": 432000
+        },
+        "cosmic_reference": "الوقت يقاس بمقياس عالمي وليس بشري",
+        "numerical_structure": "التكرار وقابلية التوسع",
+        "oral_tradition_support": "النسب الدقيقة تساعد على الحفظ"
+      },
+      "scientific_acceptability_of_long_time_spans": {
+        "accepted_by_science": [
+          "عمر النجوم يمتد لمليارات السنين",
+          "دورات المجرة تمتد تريليونات السنين",
+          "ظروف غير معروفة قبل الانفجار الكبير"
+        ],
+        "conclusion": "الاعتراضات على فترات اليوجا هي فلسفية وليست علمية."
+      },
+      "scientific_summary": {
+        "core_difference": "الهدف وليس الحجم",
+        "sanatana_dharma_role": "يشرح انحطاط النظام الأخلاقي والكوني",
+        "science_role": "يشرح سلوك المادة والطاقة",
+        "shared_ground": "قبول الزمن الكوني الواسع"
+      },
+      "timeline_comparison_years": {
+        "age_of_earth_science": {
+          "description": "العمر الجيولوجي المقدر للأرض",
+          "value_years": 4540000000
+        },
+        "age_of_universe_science": {
+          "description": "العمر المقدر منذ الانفجار الكبير",
+          "value_years": 13800000000
+        },
+        "day_and_night_of_brahma": {
+          "description": "دورة واحدة كاملة ليلا ونهارا من براهما",
+          "value_years": 8640000000
+        },
+        "lifespan_of_brahma": {
+          "description": "100 سنة براهما",
+          "value_years": 311040000000000
+        },
+        "observation": "تتطابق مدة كالبا بشكل وثيق مع العمر الجيولوجي للأرض من حيث الحجم، ولكن ليس في التفسير.",
+        "one_kalpa": {
+          "description": "يوم واحد من براهما",
+          "value_years": 4320000000
+        }
+      }
+    },
+    "scope": "مقارنة بين علم الكونيات في ساناتانا دارما والعلوم الحديثة، بما في ذلك يوغاس ومانفانتارا وكالبا والتفسيرات الفلسفية للزمن.",
+    "staya_yuga_longest": "لماذا ساتيا يوجا هو الأطول",
+    "staya_yuga_longest_definition": "يُطلق على ساتيا يوجا اسم العصر الذهبي لأن: الدارما تقف على الأرجل الأربعة (الحقيقة، والرحمة، والنقاء، والتقشف)، وعمر الإنسان طويل للغاية، والأمراض والصراع والخداع في حدها الأدنى، والوعي في الغالب ساتفيك (نقي ومضيء). استقرار روحي أعلى ← انحطاط أخلاقي أبطأ ← فترة أطول. مع تراجع الدارما في اليوجا اللاحقة، يتقلص الزمن، مما يؤدي إلى أعمار أقصر.",
+    "summary_direct_answer": "ملخص (إجابة مباشرة) - هذا ممكن لأن: ساناتانا دارما تستخدم دورات زمنية كونية، وفترات يوجا تتبع نسبًا رياضية دقيقة، والوقت دوري وليس خطيًا، وتختلف المقاييس الزمنية الإلهية والبشرية، وتتوافق العصور الطويلة مع كل من الميتافيزيقا والجيولوجيا.",
+    "symbolic_structural": "المعنى الرمزي + الهيكلي (كلاهما ينطبق) - تعمل مدة ساتيا يوجا على مستويين في وقت واحد: الزمن الكوني الحرفي، وقياس الوعي الأخلاقي. وبما أن الحقيقة والانسجام يهيمنان لفترة أطول، يقال إن الوقت نفسه \"يتدفق ببطء\". مع زيادة الفوضى، \"يتسارع\" الوقت (تجربة كالي يوجا).",
+    "symbolic_structural_this": "وهذا يتماشى مع علم النفس البشري: الحياة السلمية تبدو طويلة؛ الحياة الفوضوية تبدو قصيرة.",
+    "system": "1 سنة إلهية = 360 سنة بشرية",
+    "thus": "تولد الأكوان وتنحل، وتنشأ الحضارات ثم تعاد ضبطها، وتدور الحالات الأخلاقية والروحية، ولا تتقدم بشكل دائم. في مثل هذا النموذج، من المتوقع ملايين السنين، وليس استثنائيًا.",
+    "yugasystem": "نظام يوجا رياضي وليس تخمينًا رمزيًا"
+  },
+  "cosmic_evolution": {
+    "big_bang": {
+      "time": "منذ 13.8 مليار سنة",
+      "physics": {
+        "planck_epoch": "سيطرت الجاذبية الكمومية. الفيزياء ليست مفهومة تماما.",
+        "inflation_epoch": "10^-36 إلى 10^-32 ثانية؛ التوسع الأسي.",
+        "baryogenesis": "تشكيل عدم تناسق المادة والمادة المضادة.",
+        "nucleosynthesis": {
+          "elements_formed": [
+            "هيدروجين",
+            "هيليوم-4",
+            "الديوتيريوم",
+            "الليثيوم"
+          ],
+          "time": "أول 3 دقائق"
+        }
+      },
+      "evidence": [
+        "إشعاع الخلفية الكونية الميكروي",
+        "توسع هابل",
+        "نسب وفرة العناصر البدائية"
+      ]
+    },
+    "stellar_evolution": {
+      "first_stars": {
+        "time": "بعد 200 مليون سنة من الانفجار الكبير",
+        "type": "نجوم السكان الثالث",
+        "role": "خلق عناصر ثقيلة عن طريق الاندماج"
+      },
+      "supernovae": {
+        "role": "توزيع الكربون والأكسجين والحديد في الوسط بين النجوم"
+      }
+    }
+  },
+  "planetary_evolution": {
+    "solar_system": {
+      "time": "منذ 4.6 مليار سنة",
+      "mechanism": "انهيار الجاذبية للسحابة الجزيئية",
+      "accretion_stages": [
+        "اصطدام حبيبات الغبار",
+        "تشكيل كوكبي",
+        "تشكيل الكواكب الأولية",
+        "المقاصة المدارية"
+      ]
+    },
+    "earth_formation": {
+      "time": "منذ 4.54 مليار سنة",
+      "core_formation": {
+        "iron_catastrophe": "غرق الحديد ليشكل قلبًا معدنيًا",
+        "magnetic_field": "تم إنشاؤها بواسطة جيودينامو"
+      },
+      "moon_formation": {
+        "theia_impact": "فرضية تصادم جسم بحجم المريخ"
+      },
+      "early_atmosphere": {
+        "composition": [
+          "ثاني أكسيد الكربون",
+          "نتروجين",
+          "بخار الماء",
+          "الميثان"
+        ],
+        "source": "إطلاق الغازات البركانية"
+      }
+    }
+  },
+  "abiogenesis": {
+    "chemical_evolution": {
+      "prebiotic_synthesis": {
+        "miller_urey": "الأحماض الأمينية من التفريغ الكهربائي في الجو البدائي"
+      },
+      "rna_world": {
+        "self_replicating_molecules": "الحمض النووي الريبي (RNA) كعامل وراثي + محفز"
+      },
+      "lipid_world": {
+        "protocells": "تشكيل حويصلة دهنية ثنائية الطبقة عفوية"
+      }
+    },
+    "earliest_life": {
+      "time": "منذ 3.7 إلى 3.5 مليار سنة",
+      "organisms": "الميكروبات بدائية النواة",
+      "evidence": [
+        "ستروماتوليت",
+        "تجزئة الكربون النظائري"
+      ]
+    }
+  },
+  "biological_evolution": {
+    "oxygenation_event": {
+      "time": "منذ 2.4 مليار سنة",
+      "impact": [
+        "تطور التنفس الهوائي",
+        "تكوين طبقة الأوزون"
+      ]
+    },
+    "eukaryotic_cells": {
+      "time": "منذ 2.1 مليار سنة",
+      "theory": "التعايش الداخلي"
+    },
+    "cambrian_explosion": {
+      "time": "قبل 541 مليون سنة",
+      "diversification": "ظهرت خطط الجسم الحيواني الرئيسية"
+    },
+    "mass_extinctions": [
+      {
+        "event": "العصر البرمي الترياسي",
+        "time": "منذ 252 مليون سنة",
+        "loss": "96% أنواع بحرية"
+      },
+      {
+        "event": "العصر الطباشيري-باليوجين",
+        "time": "قبل 66 مليون سنة",
+        "cause": "تأثير الكويكب",
+        "effect": "انقراض الديناصورات"
+      }
+    ]
+  },
+  "human_evolution_global": {
+    "hominin_divergence": {
+      "time": "منذ 7 ملايين سنة",
+      "species": [
+        "ساهيلانثروبوس",
+        "أورورين",
+        "أرديبيثيكوس"
+      ]
+    },
+    "australopithecus": {
+      "time": "منذ 4-2 مليون سنة",
+      "traits": [
+        "المشي على قدمين",
+        "صغر حجم الدماغ"
+      ]
+    },
+    "genus_homo": {
+      "homo_habilis": {
+        "time": "منذ 2.4 مليون سنة",
+        "innovation": "أدوات أولدوان"
+      },
+      "homo_erectus": {
+        "time": "منذ 1.9 مليون سنة",
+        "innovation": "حريق مسيطر عليه",
+        "migration": "أول توسع خارج أفريقيا"
+      },
+      "homo_sapiens": {
+        "time": "منذ 300000 سنة",
+        "cognitive_traits": [
+          "المنطق الرمزي",
+          "لغة معقدة",
+          "خلق الفن"
+        ]
+      }
+    },
+    "genetic_evidence": {
+      "mitochondrial_eve": "سلف مشترك للأم منذ حوالي 150.000 إلى 200.000 سنة",
+      "neanderthal_interbreeding": "1-2% من الحمض النووي في السكان غير الأفارقة"
+    }
+  },
+  "human_evolution_india": {
+    "early_hominin_presence": {
+      "narmada_hominin": {
+        "location": "وادي نارمادا",
+        "estimated_age": "منذ 250.000-300.000 سنة",
+        "classification": "أنواع هومو القديمة"
+      }
+    },
+    "paleolithic_india": {
+      "sites": [
+        "ملاجئ بيمبيتكا الصخرية",
+        "أتيرامباكام (تاميل نادو)"
+      ],
+      "stone_tool_cultures": [
+        "أشولين",
+        "العصر الحجري القديم الأوسط"
+      ]
+    },
+    "genetic_history": {
+      "ani_asi_model": {
+        "ANI": "أسلاف الهند الشمالية (المرتبطة بغرب أوراسيا)",
+        "ASI": "أسلاف جنوب الهند (النسب الأصلية العميقة)"
+      },
+      "migration_waves": [
+        {
+          "wave": "خارج أفريقيا",
+          "time": "منذ 65000 سنة"
+        },
+        {
+          "wave": "حضارة وادي السند",
+          "time": "3300-1300 قبل الميلاد"
+        }
+      ]
+    }
+  },
+  "timeline": [
+    {
+      "event": "الانفجار العظيم",
+      "years_ago": 13800000000,
+      "category": "كوني"
+    },
+    {
+      "event": "تكوين النظام الشمسي",
+      "years_ago": 4600000000,
+      "category": "كوكبي"
+    },
+    {
+      "event": "أصل الحياة",
+      "years_ago": 3800000000,
+      "category": "البيولوجية"
+    },
+    {
+      "event": "الانفجار الكامبري",
+      "years_ago": 541000000,
+      "category": "البيولوجية"
+    },
+    {
+      "event": "انقراض الديناصورات",
+      "years_ago": 66000000,
+      "category": "البيولوجية"
+    },
+    {
+      "event": "ظهور الإنسان العاقل",
+      "years_ago": 300000,
+      "category": "human_global"
+    },
+    {
+      "event": "الهجرة البشرية إلى الهند",
+      "years_ago": 65000,
+      "category": "human_india"
+    },
+    {
+      "event": "حضارة وادي السند",
+      "years_ago": 4500,
+      "category": "human_india"
+    }
+  ],
+  "part1": {
+    "dataset_metadata": {
+      "title": "مجموعة بيانات بحثية عميقة جدًا عن التطور الكوني إلى البشري",
+      "volume": 1,
+      "scope": "التطور الكوني من خلال التمايز الكوكبي المبكر",
+      "academic_level": "خريج / بحث",
+      "chronological_span_years": "منذ 13.8 مليار سنة – منذ 4.0 مليار سنة",
+      "methodology_sources": [
+        "قياسات الخلفية الكونية الميكروية",
+        "التعارف الإشعاعي",
+        "التحليل الطيفي الفيزيائي الفلكي",
+        "الجيوكيمياء النظائرية",
+        "نمذجة محاكاة الكواكب"
+      ]
+    },
+    "section_1_cosmic_origin": {
+      "epoch_1_planck_epoch": {
+        "time_range": "0 – 10^-43 ثانية",
+        "physical_state": "نظام الجاذبية الكمومية؛ الزمكان الكلاسيكي غير محدد",
+        "dominant_forces": "توحدت القوى الأساسية الأربع",
+        "theoretical_framework": [
+          "نظرية الأوتار (افتراضية)",
+          "حلقة الجاذبية الكمومية (افتراضية)"
+        ],
+        "observational_status": "حاليا خارج التحقق التجريبي",
+        "research_questions": [
+          "طبيعة الجاذبية الكمومية",
+          "حالة ما قبل الانفجار الكبير",
+          "إمكانية الكون المتعدد"
+        ]
+      },
+      "epoch_2_inflation": {
+        "time_range": "10^-36 إلى 10^-32 ثانية",
+        "mechanism": "تسبب المجال العددي (التضخم) في التوسع الأسي",
+        "expansion_factor": "زيادة في الحجم بمقدار 10^26 على الأقل",
+        "cosmological_implications": [
+          "تم حل مشكلة التسطيح",
+          "تم حل مشكلة الأفق",
+          "تقلبات البذور لتشكيل الهيكل"
+        ],
+        "evidence": [
+          "أنماط تباين CMB",
+          "توزيع الهيكل على نطاق واسع"
+        ]
+      },
+      "epoch_3_baryogenesis": {
+        "time_range": "خلال الثانية الأولى",
+        "problem_addressed": "عدم تناسق المادة والمادة المضادة",
+        "sakharov_conditions": [
+          "انتهاك رقم الباريون",
+          "انتهاك C وCP",
+          "الخروج عن التوازن الحراري"
+        ],
+        "unknowns": "الآلية الدقيقة لم يتم تأكيدها تجريبيا"
+      },
+      "epoch_4_primordial_nucleosynthesis": {
+        "time_range": "أول 3-20 دقيقة",
+        "temperature_range_kelvin": "10^9 – 10^7 ك",
+        "elements_produced": {
+          "hydrogen": "≈75%",
+          "helium_4": "≈25%",
+          "lithium_7": "يتعقب"
+        },
+        "importance": "تحديد التركيب الكيميائي المبكر للكون",
+        "evidence": "نسب العناصر البدائية المرصودة"
+      },
+      "epoch_5_recombination": {
+        "time": "380.000 سنة بعد النشأة",
+        "event": "تتحد الإلكترونات مع النوى لتشكل ذرات متعادلة",
+        "photon_decoupling": "بدأ الضوء بالسفر بحرية",
+        "result": "إشعاع الخلفية الكونية الميكروي",
+        "temperature_kelvin": 3000
+      }
+    },
+    "section_2_structure_formation": {
+      "dark_matter_role": {
+        "description": "مادة غير باريونية تسيطر على كتلة الجاذبية",
+        "percentage_of_universe": "≈27%",
+        "function": "سقالات الجاذبية لتشكيل المجرة"
+      },
+      "first_stars_population_III": {
+        "time": "100-200 مليون سنة بعد الانفجار الكبير",
+        "composition": "الهيدروجين والهيليوم فقط",
+        "mass_range": "ضخمة للغاية (أكثر من 100 كتلة شمسية)",
+        "lifespan": "قصيرة جدًا (~بضعة ملايين من السنين)",
+        "importance": "تم إنشاء العناصر الثقيلة الأولى"
+      },
+      "supernova_nucleosynthesis": {
+        "process": "العناصر الثقيلة مزورة خلال انفجار نجمي",
+        "elements_produced": [
+          "الكربون",
+          "الأكسجين",
+          "حديد",
+          "السيليكون",
+          "النيكل"
+        ],
+        "distribution": "يتم طرده في وسط بين النجوم"
+      }
+    },
+    "section_3_solar_system_formation": {
+      "molecular_cloud_collapse": {
+        "time": "منذ 4.6 مليار سنة",
+        "trigger": "موجة صدمة المستعر الأعظم القريبة (مفترضة)",
+        "angular_momentum": "سحابة مسطحة إلى قرص دوار",
+        "central_mass": "تشكلت الشمس البدائية"
+      },
+      "accretion_process": {
+        "dust_coagulation": "جزيئات الميكرومتر عالقة عن طريق القوى الكهروستاتيكية",
+        "planetesimal_growth": "تشكلت أجسام بحجم كيلومتر",
+        "runaway_growth": "تتراكم الأجسام الأكبر بشكل أسرع",
+        "oligarchic_growth": "سيطرت الكواكب الأولية على المناطق المدارية"
+      },
+      "gas_giant_formation": {
+        "location": "ما وراء خط الصقيع",
+        "core_accretion_model": "قلب صخري + التقاط سريع للغاز",
+        "alternative_model": "فرضية عدم استقرار القرص"
+      }
+    },
+    "section_4_earth_formation": {
+      "iron_catastrophe": {
+        "time": "خلال أول 100 مليون سنة",
+        "mechanism": "تمايز الجاذبية",
+        "layers_formed": [
+          "النواة الداخلية (الحديد الصلب)",
+          "اللب الخارجي (الحديد والنيكل السائل)",
+          "الوشاح (صخور السيليكات)",
+          "القشرة"
+        ],
+        "geodynamo": "توليد المجال المغناطيسي الكوكبي"
+      },
+      "theia_impact_hypothesis": {
+        "collision_partner": "كوكب أولي بحجم المريخ",
+        "result": "قرص الحطام → تشكيل القمر",
+        "supporting_evidence": [
+          "التشابه النظائري بين الأرض والقمر",
+          "توزيع الزخم الزاوي"
+        ]
+      },
+      "late_heavy_bombardment": {
+        "time_range": "منذ 4.1 إلى 3.8 مليار سنة",
+        "cause": "الهجرة المدارية للكواكب العملاقة",
+        "impact": "إعادة ذوبان القشرة؛ أحداث التعقيم المحتملة"
+      }
+    },
+    "section_5_early_earth_environment": {
+      "atmosphere": {
+        "composition": [
+          "ثاني أكسيد الكربون",
+          "نتروجين",
+          "الميثان",
+          "الأمونيا",
+          "بخار الماء"
+        ],
+        "oxygen_absent": true
+      },
+      "ocean_formation": {
+        "mechanism_1": "تكثيف الغازات البركانية",
+        "mechanism_2": "توصيل المياه المذنب",
+        "zircon_evidence": "كانت المياه السائلة موجودة منذ 4.4 مليار سنة"
+      },
+      "tectonic_activity": {
+        "plate_tectonics_origin": "ناقش؛ ربما في وقت مبكر Archean",
+        "heat_sources": [
+          "الاضمحلال الإشعاعي",
+          "تراكم الطاقة",
+          "طاقة التكوين الأساسية"
+        ]
+      }
+    }
+  },
+  "part2": {
+    "dataset_metadata": {
+      "title": "مجموعة بيانات بحثية عميقة جدًا عن التطور الكوني إلى البشري",
+      "volume": 2,
+      "scope": "التولد التلقائي من خلال التطور الخلوي المبكر",
+      "chronological_span_years": "منذ 4.4 - 1.5 مليار سنة",
+      "academic_level": "خريج / بحث",
+      "primary_disciplines": [
+        "الجيوكيمياء",
+        "البيولوجيا الجزيئية",
+        "الكيمياء الحيوية",
+        "علم الأحياء الفلكي",
+        "علم الأحياء التطوري"
+      ]
+    },
+    "section_1_prebiotic_earth_chemistry": {
+      "environmental_context": {
+        "surface_conditions": {
+          "temperature_range_celsius": "من المحتمل أن تكون درجة الحرارة من 0 إلى 100 درجة مئوية متغيرة إقليمياً",
+          "ocean_chemistry": "بيئة غنية بالحديد ومخفضة",
+          "atmosphere": {
+            "composition_estimated": [
+              "ثاني أكسيد الكربون",
+              "ن2",
+              "بخار H2O",
+              "CH4",
+              "NH3 (أثر)"
+            ],
+            "oxygen_absent": true
+          }
+        },
+        "energy_sources": [
+          "الأشعة فوق البنفسجية",
+          "تصريفات البرق",
+          "الحرارة الجوفية البركانية",
+          "تدرجات الأكسدة والاختزال في التنفيس الحراري المائي",
+          "تسخين المد والجزر"
+        ]
+      },
+      "prebiotic_molecule_synthesis": {
+        "miller_urey_experiment": {
+          "year": 1953,
+          "result": "الأحماض الأمينية المصنعة من السلائف غير العضوية",
+          "limitations": "من المحتمل أن يكون تكوين الغلاف الجوي أقل اختزالًا من النموذج الأصلي"
+        },
+        "hydrothermal_vent_synthesis": {
+          "alkaline_vents": {
+            "location_model": "المدينة المفقودة التناظرية للمجال الحراري المائي",
+            "chemical_gradients": "تدرجات البروتون عبر المسام الصغيرة",
+            "importance": "النموذج الأولي للقوة الدافعة للبروتون الطبيعي"
+          }
+        },
+        "extraterrestrial_contribution": {
+          "meteorite_evidence": {
+            "murchison_meteorite": "يحتوي على الأحماض الأمينية والقواعد النووية",
+            "implication": "الكيمياء العضوية منتشرة في الكون"
+          }
+        }
+      }
+    },
+    "section_2_rna_world_hypothesis": {
+      "core_concept": "يعمل الحمض النووي الريبي (RNA) كمادة وراثية وجزيء محفز",
+      "supporting_evidence": {
+        "ribozymes": "جزيئات الحمض النووي الريبي (RNA) ذات النشاط التحفيزي",
+        "ribosome_structure": "تكوين رابطة الببتيد يحفزها جوهر الحمض النووي الريبي (RNA).",
+        "self_splicing_introns": "الحمض النووي الريبي (RNA) قادر على التعديل الذاتي"
+      },
+      "challenges": [
+        "عدم استقرار الريبوز",
+        "صعوبة تخليق النوكليوتيدات في ظل الظروف المبكرة",
+        "حدود الإخلاص النسخ المتماثل"
+      ],
+      "alternative_models": [
+        "PNA (حمض الببتيد النووي)",
+        "TNA (الحمض النووي الثلاثي)",
+        "الأيض-الفرضية الأولى"
+      ]
+    },
+    "section_3_protocell_formation": {
+      "lipid_self_assembly": {
+        "mechanism": "تشكل الجزيئات البرمائية حويصلات ثنائية الطبقة تلقائيًا",
+        "properties": [
+          "نفاذية انتقائية",
+          "التقسيم",
+          "القدرة على الإصلاح الذاتي"
+        ]
+      },
+      "encapsulation": {
+        "importance": "تركيز المواد المتفاعلة يعزز احتمال التفاعل",
+        "co-evolution": "تكرار الحمض النووي الريبي داخل الحويصلات الدهنية"
+      },
+      "selection_pressure": {
+        "competition_between_protocells": "كفاءة الحصول على الموارد",
+        "evolutionary_advantage": "استقرار الغشاء وسرعة النسخ"
+      }
+    },
+    "section_4_first_cells_prokaryotes": {
+      "time": "منذ 3.7 إلى 3.5 مليار سنة",
+      "evidence": {
+        "stromatolites": {
+          "location": "أستراليا الغربية",
+          "age": "3.5 مليار سنة",
+          "significance": "حفريات الأغشية الحيوية الميكروبية ذات الطبقات"
+        },
+        "isotopic_fractionation": {
+          "carbon_isotope_ratio": "يشير تفضيل الكربون الخفيف إلى التمثيل الغذائي البيولوجي"
+        }
+      },
+      "cellular_structure": {
+        "no_nucleus": true,
+        "dna_location": "النواة السيتوبلازمية",
+        "metabolism_types": [
+          "التنفس اللاهوائي",
+          "التخمير",
+          "تحلل كيميائي"
+        ]
+      }
+    },
+    "section_5_metabolic_diversification": {
+      "anoxygenic_photosynthesis": {
+        "electron_donors": [
+          "كبريتيد الهيدروجين",
+          "حديد حديدي"
+        ],
+        "oxygen_production": false
+      },
+      "oxygenic_photosynthesis": {
+        "organisms": "البكتيريا الزرقاء",
+        "innovation": "رد فعل تقسيم الماء",
+        "byproduct": "الأكسجين الجزيئي (O2)"
+      },
+      "methanogenesis": {
+        "domain": "العتائق",
+        "role": "إنتاج الميثان في الظروف اللاهوائية"
+      }
+    },
+    "section_6_great_oxygenation_event": {
+      "time": "منذ 2.4 مليار سنة",
+      "atmospheric_transition": {
+        "oxygen_increase": "من <0.001% إلى نسبة قابلة للقياس",
+        "iron_oxidation": "تشكيل تشكيلات الحديد النطاقات"
+      },
+      "ecological_consequences": [
+        "الانقراض اللاهوائي",
+        "صعود التنفس الهوائي",
+        "تكوين طبقة الأوزون"
+      ],
+      "climate_effect": "الزناد المحتمل للتجلد الهوروني"
+    },
+    "section_7_origin_of_eukaryotes": {
+      "time": "منذ 2.1-1.8 مليار سنة",
+      "endosymbiotic_theory": {
+        "mitochondria_origin": "بكتيريا ألفا المغمورة",
+        "chloroplast_origin": "البكتيريا الزرقاء المغمورة"
+      },
+      "cellular_advancements": [
+        "الغشاء النووي",
+        "الهيكل الخلوي",
+        "التكاثر الجنسي (تطور لاحق)"
+      ],
+      "genomic_complexity": {
+        "linear_chromosomes": true,
+        "introns_present": true
+      }
+    },
+    "section_8_multicellularity": {
+      "independent_origins": [
+        "الحيوانات",
+        "النباتات",
+        "الفطريات",
+        "الطحالب"
+      ],
+      "cellular_specialization": {
+        "gene_regulation": "التعبير التفاضلي",
+        "adhesion_molecules": "الكادهيرينات والإنترينات"
+      },
+      "advantages": [
+        "تقسيم العمل",
+        "زيادة الحجم",
+        "تجنب المفترس"
+      ]
+    },
+    "section_9_genetic_mechanisms": {
+      "mutation": {
+        "types": [
+          "طفرة النقطة",
+          "الإدراج",
+          "الحذف",
+          "الازدواجية"
+        ]
+      },
+      "horizontal_gene_transfer": {
+        "mechanisms": [
+          "تحويل",
+          "توصيل",
+          "اقتران"
+        ],
+        "impact": "تسارع التطور المبكر"
+      },
+      "natural_selection": {
+        "definition": "النجاح الإنجابي التفاضلي على أساس ميزة السمة"
+      }
+    },
+    "section_10_astrobio_implications": {
+      "extremophiles": {
+        "habitats": [
+          "فتحات البحر العميقة",
+          "الينابيع الساخنة الحمضية",
+          "البحيرات تحت الجليدية"
+        ],
+        "implication": "الحياة ممكنة خارج الأرض"
+      },
+      "mars_and_europa": {
+        "habitability_factors": [
+          "الماء السائل",
+          "تدرج الطاقة",
+          "الجزيئات العضوية"
+        ]
+      }
+    }
+  },
+  "part3": {
+    "dataset_metadata": {
+      "title": "مجموعة بيانات بحثية عميقة جدًا عن التطور الكوني إلى البشري",
+      "volume": 3,
+      "scope": "حياة معقدة متعددة الخلايا من خلال انقراض الديناصورات",
+      "chronological_span_years": "منذ 1.5 مليار سنة – منذ 66 مليون سنة",
+      "academic_level": "خريج / بحث",
+      "disciplines": [
+        "علم الأحياء القديمة",
+        "علم الأحياء التطوري التطوري",
+        "علوم نظام الأرض",
+        "علم المناخ القديم",
+        "التشريح المقارن"
+      ]
+    },
+    "section_1_multicellular_complexity": {
+      "time_range": "منذ 1.5 مليار – 600 مليون سنة",
+      "transition_mechanisms": {
+        "cell_adhesion_evolution": {
+          "molecules": [
+            "كاديرينز",
+            "التكاملات"
+          ],
+          "role": "تكوين الأنسجة مستقرة"
+        },
+        "gene_regulatory_networks": {
+          "innovation": "جينات التحكم الرئيسية (مثل جينات هوكس)",
+          "effect": "التنميط المكاني للجسم"
+        },
+        "developmental_signaling_pathways": [
+          "Wnt signaling",
+          "Notch signaling",
+          "Hedgehog pathway"
+        ]
+      },
+      "early_multicellular_forms": {
+        "eukaryotic_algae": "منذ 1.2 مليار سنة",
+        "fungal_lineages": "تعدد الخلايا غير المتجانسة في وقت مبكر",
+        "colonial_protists": "السلائف المحتملة للحيوانات"
+      }
+    },
+    "section_2_ediacaran_biota": {
+      "time": "منذ 635-541 مليون سنة",
+      "organisms": [
+        "ديكنسونيا",
+        "Charniodiscus",
+        "سبريجينا"
+      ],
+      "body_plan_characteristics": {
+        "soft_bodied": true,
+        "bilateral_symmetry": "تظهر في بعض الأشكال",
+        "feeding_strategy": "يشتبه في التناضح"
+      },
+      "evolutionary_significance": "النظام البيئي السلائف للحيوانات الكمبري"
+    },
+    "section_3_cambrian_explosion": {
+      "time": "منذ 541-520 مليون سنة",
+      "diversification_features": {
+        "major_animal_phyla": [
+          "المفصليات",
+          "الرخويات",
+          "الحبليات",
+          "أنيليدا",
+          "شوكيات الجلد"
+        ],
+        "hard_parts": "كربونات الكالسيوم والهياكل الخارجية الكيتين",
+        "predator_prey_arms_race": "التصعيد التطوري"
+      },
+      "possible_causes": [
+        "زيادة مستويات الأكسجين",
+        "الابتكار الوراثي (توسيع جين هوكس)",
+        "البناء البيئي المتخصص",
+        "التجزئة القارية"
+      ],
+      "key_fossil_sites": [
+        "بورجيس شيل (كندا)",
+        "تشنغجيانغ بيوتا (الصين)"
+      ]
+    },
+    "section_4_vertebrate_origins": {
+      "early_chordates": {
+        "organisms": [
+          "بيكايا",
+          "هايكويتشثيس"
+        ],
+        "traits": [
+          "الحبل الظهري",
+          "الحبل العصبي الظهري",
+          "الشقوق البلعومية"
+        ]
+      },
+      "jawed_vertebrates": {
+        "innovation": "جناثوستوم",
+        "advantage": "تعزيز الافتراس وكفاءة التغذية"
+      }
+    },
+    "section_5_land_colonization": {
+      "plants": {
+        "time": "قبل 470 مليون سنة",
+        "innovations": [
+          "بشرة",
+          "الأنسجة الوعائية",
+          "جراثيم مقاومة للجفاف"
+        ]
+      },
+      "arthropods": {
+        "time": "قبل 450 مليون سنة",
+        "advantage": "الهيكل الخارجي لاحتباس الماء"
+      },
+      "tetrapods": {
+        "transition_from_lobe_finned_fish": "التيكتاليك كأحفورة انتقالية",
+        "limb_evolution": "أرقام من أشعة الزعانف",
+        "lungs_development": "التكيف مع تنفس الهواء"
+      }
+    },
+    "section_6_paleozoic_mass_extinctions": {
+      "ordovician_silurian": {
+        "time": "منذ 444 مليون سنة",
+        "cause": "التجلد وانخفاض مستوى سطح البحر"
+      },
+      "late_devonian": {
+        "time": "قبل 372 مليون سنة",
+        "possible_causes": [
+          "نقص الأكسجين في المحيط",
+          "تغير المناخ الناجم عن النباتات"
+        ]
+      },
+      "permian_triassic": {
+        "time": "منذ 252 مليون سنة",
+        "severity": "انقراض 96% من الأنواع البحرية",
+        "probable_cause": "الفخاخ السيبيرية البركانية",
+        "mechanisms": [
+          "إطلاق كميات كبيرة من ثاني أكسيد الكربون",
+          "تحمض المحيطات",
+          "هيدرات الميثان زعزعة الاستقرار"
+        ]
+      }
+    },
+    "section_7_mesozoic_dominance": {
+      "triassic_recovery": {
+        "ecological_reset": "ارتفاع الأركوصورات"
+      },
+      "dinosaurs": {
+        "time_range": "منذ 230-66 مليون سنة",
+        "clades": [
+          "ذوات الأقدام",
+          "الصربوديات",
+          "طيريات الورك"
+        ],
+        "adaptive_features": [
+          "التنفس الفعال (الأكياس الهوائية)",
+          "وضعية مستقيمة",
+          "معدلات نمو عالية"
+        ]
+      },
+      "birds": {
+        "origin": "مشتقة من الديناصورات الثيروبودية",
+        "transitional_fossil": "الأركيوبتركس"
+      }
+    },
+    "section_8_mammalian_origins": {
+      "synapsids": {
+        "time": "العصر البرمي",
+        "features": "فتحة جمجمة زمنية واحدة"
+      },
+      "therapsids": {
+        "transitional_group": "تجاه الثدييات"
+      },
+      "true_mammals": {
+        "time": "العصر الترياسي المتأخر",
+        "traits": [
+          "شعر",
+          "الغدد الثديية",
+          "أسنان متباينة"
+        ]
+      },
+      "nocturnal_adaptation": "استراتيجية البقاء المحتملة خلال هيمنة الديناصورات"
+    },
+    "section_9_cretaceous_paleogene_extinction": {
+      "time": "قبل 66 مليون سنة",
+      "impact_site": "فوهة تشيكسولوب (شبه جزيرة يوكاتان)",
+      "evidence": [
+        "طبقة الإيريديوم",
+        "صدمة الكوارتز",
+        "التكتيت"
+      ],
+      "global_effects": [
+        "تأثير الشتاء",
+        "انهيار عملية التمثيل الضوئي",
+        "اضطراب السلسلة الغذائية"
+      ],
+      "result": "انقراض الديناصورات غير الطيور؛ فرصة إشعاع الثدييات"
+    }
+  },
+  "part4": {
+    "dataset_metadata": {
+      "title": "مجموعة بيانات بحثية عميقة جدًا عن التطور الكوني إلى البشري",
+      "volume": 4,
+      "scope": "تطور الرئيسيات والتباعد المبكر لأشباه البشر",
+      "chronological_span_years": "منذ 66 مليون سنة – منذ مليون سنة",
+      "academic_level": "خريج / بحث",
+      "disciplines": [
+        "علم الإنسان القديم",
+        "علم الأحياء العصبي المقارن",
+        "التشكل الوظيفي",
+        "علم الرئيسيات",
+        "علم المناخ القديم",
+        "البيئة التطورية"
+      ]
+    },
+    "section_1_mammalian_radiation": {
+      "post_kpg_ecological_release": {
+        "time": "قبل 66 مليون سنة",
+        "mechanism": "أدت إزالة الديناصورات غير الطيور إلى فتح مجالات بيئية",
+        "adaptive_radiation": [
+          "آكلات الحشرات",
+          "الحيوانات العاشبة",
+          "آكلة اللحوم",
+          "المتخصصين الشجرية"
+        ],
+        "genetic_acceleration": "التنويع السريع لسلالات الثدييات"
+      },
+      "placental_diversification": {
+        "time": "منذ 65-50 مليون سنة",
+        "innovation": "المشيمة المتقدمة تمكن من الحمل لفترة أطول",
+        "advantage": "زيادة نمو دماغ الأطفال حديثي الولادة"
+      }
+    },
+    "section_2_primate_origins": {
+      "time": "منذ 55-65 مليون سنة",
+      "environment": "غابات العصر الباليوسيني-الأيوسيني الدافئة",
+      "arboreal_adaptations": {
+        "grasping_hands": true,
+        "opposable_thumb": true,
+        "nails_instead_of_claws": true,
+        "stereoscopic_vision": "عيون متجهة للأمام لإدراك العمق"
+      },
+      "early_primate_groups": [
+        "plesiadapiforms",
+        "أدابيفورمس",
+        "أشكال أومية"
+      ]
+    },
+    "section_3_neurobiological_expansion": {
+      "encephalization_trend": {
+        "definition": "زيادة نسبة حجم الدماغ إلى الجسم",
+        "drivers": [
+          "الحركة الشجرية المعقدة",
+          "التنسيق بين المجموعات الاجتماعية",
+          "التعقيد الغذائي (القائم على الفاكهة)"
+        ]
+      },
+      "visual_cortex_expansion": "تحسين التمييز اللوني للكشف عن الفاكهة",
+      "prefrontal_cortex_growth": "تعزيز التخطيط والذاكرة"
+    },
+    "section_4_catarrhine_and_ape_divergence": {
+      "catarrhine_monkeys": {
+        "time": "منذ 30-25 مليون سنة",
+        "traits": [
+          "فتحات الأنف المواجهة للأسفل",
+          "صيغة الأسنان 2.1.2.3"
+        ]
+      },
+      "hominoids": {
+        "time": "منذ 20-15 مليون سنة",
+        "groups": [
+          "جيبونز",
+          "إنسان الغاب",
+          "الغوريلا",
+          "الشمبانزي",
+          "البشر"
+        ]
+      }
+    },
+    "section_5_climate_and_hominin_divergence": {
+      "miocene_climate_shift": {
+        "time": "منذ 23-5 مليون سنة",
+        "trend": "التبريد والتجفيف",
+        "result": "تجزئة الغابات ← توسع السافانا"
+      },
+      "human_chimp_split": {
+        "time": "منذ 6-7 مليون سنة",
+        "evidence": "الاختلاف الجيني ~ 1-2% فرق"
+      }
+    },
+    "section_6_early_hominins": {
+      "sahelanthropus_tchadensis": {
+        "time": "منذ 7 ملايين سنة",
+        "traits": [
+          "ممكن وضعية ذات قدمين",
+          "انخفاض حجم الكلاب"
+        ]
+      },
+      "ardipithecus_ramidus": {
+        "time": "منذ 4.4 مليون سنة",
+        "locomotion": "المشي على قدمين جزئيًا مع القدرة الشجرية"
+      },
+      "australopithecus_afarensis": {
+        "time": "منذ 3.9 إلى 2.9 مليون سنة",
+        "notable_specimen": "لوسي",
+        "pelvic_structure": "مُكيَّف للمشي بشكل مستقيم",
+        "brain_volume_cc": 400
+      }
+    },
+    "section_7_bipedalism_mechanics": {
+      "anatomical_changes": {
+        "foramen_magnum_position": "تتمركز تحت الجمجمة",
+        "spinal_curvature": "العمود الفقري على شكل حرف S",
+        "pelvis_shape": "حوض قصير على شكل وعاء",
+        "femur_angle": "محاذاة الركبة الأروح"
+      },
+      "energy_efficiency": "تقلل المشية ذات القدمين من تكلفة طاقة الحركة لمسافات طويلة",
+      "thermoregulation": "تقليل تعرض السطح للإشعاع الشمسي"
+    },
+    "section_8_genus_homo_emergence": {
+      "homo_habilis": {
+        "time": "منذ 2.4-1.4 مليون سنة",
+        "brain_volume_cc": 600,
+        "tool_industry": "أولدوان (الوضع 1)"
+      },
+      "dietary_shift": {
+        "meat_consumption": "زيادة كثافة السعرات الحرارية",
+        "cooking_hypothesis": "في وقت لاحق ولكن الطاقة التحويلية"
+      },
+      "social_complexity": "التعاونية في الصيد والصيد"
+    },
+    "section_9_homo_erectus_expansion": {
+      "time": "منذ 1.9 مليون سنة فصاعدا",
+      "brain_volume_cc": 900,
+      "technological_innovation": "الفؤوس الأشولية (الوضع 2)",
+      "fire_control": {
+        "estimated_time": "منذ 1-1.5 مليون سنة",
+        "benefits": [
+          "طبخ",
+          "ردع المفترس",
+          "التفاعل الاجتماعي الموسع"
+        ]
+      },
+      "migration": {
+        "regions": [
+          "جورجيا (دمانيسي)",
+          "إندونيسيا (جافا)",
+          "الصين (تشوكوديان)"
+        ]
+      }
+    },
+    "section_10_paleoecology_and_selection_pressures": {
+      "african_rift_valley": {
+        "tectonic_activity": "خلق التنوع البيئي",
+        "climate_variability": "دورات الجفاف الرطب المتأرجحة"
+      },
+      "selection_pressures": [
+        "ندرة الغذاء الموسمية",
+        "تعرض المفترس",
+        "متطلبات التنقل لمسافات طويلة"
+      ]
+    }
+  },
+  "part5": {
+    "dataset_metadata": {
+      "title": "مجموعة بيانات بحثية عميقة جدًا عن التطور الكوني إلى البشري",
+      "volume": 5,
+      "scope": "البشر القدماء حتى ظهور الإنسان العاقل والهجرة إلى الهند",
+      "chronological_span_years": "منذ مليون سنة - 10000 قبل الميلاد",
+      "academic_level": "خريج / بحث",
+      "disciplines": [
+        "علم الإنسان القديم",
+        "علم الآثار",
+        "التطور المعرفي",
+        "دراسات التكنولوجيا الحجرية",
+        "جنوب آسيا ما قبل التاريخ"
+      ]
+    },
+    "section_1_late_homo_erectus_transition": {
+      "time_range": "1 مليون - 300000 سنة مضت",
+      "anatomical_trends": {
+        "brain_expansion_cc": "900 → 1100",
+        "cranial_vault": "زيادة الارتفاع",
+        "reduced_prognathism": true
+      },
+      "regional_variation": {
+        "africa": "ظهور هومو هايدلبرج",
+        "asia": "استمرارية الإنسان المنتصب المتأخر"
+      },
+      "technological_complexity": {
+        "acheulean_refinement": "زاد التماثل والتوحيد",
+        "planned_flake_production": "التسلسل المعرفي المتقدم"
+      }
+    },
+    "section_2_homo_heidelbergensis": {
+      "time": "منذ 700.000 – 300.000 سنة",
+      "geographic_distribution": [
+        "أفريقيا",
+        "أوروبا"
+      ],
+      "brain_volume_cc": 1100,
+      "significance": "الجد المشترك للنياندرتال والإنسان العاقل",
+      "behavioral_traits": [
+        "لعبة صيد كبيرة",
+        "استخدام الرمح الخشبي",
+        "إمكانية بناء المأوى"
+      ]
+    },
+    "section_3_neanderthals": {
+      "time": "منذ 400.000 – 40.000 سنة",
+      "region": "أوروبا وغرب آسيا",
+      "brain_volume_cc": 1400,
+      "anatomical_adaptations": {
+        "robust_skeleton": "التكيف مع المناخ البارد",
+        "large_nasal_cavity": "كفاءة تسخين الهواء",
+        "short_limb_proportions": "انخفاض فقدان الحرارة"
+      },
+      "cognition_and_culture": {
+        "mousterian_tools": "تقنية Levallois الأساسية المعدة",
+        "burial_practices": true,
+        "symbolic_objects": [
+          "استخدام الصباغ (مغرة)",
+          "الحلي الشخصية"
+        ],
+        "language_capacity": "متغير الجين FOXP2 مشترك مع العاقل"
+      },
+      "extinction_factors": [
+        "عدم الاستقرار المناخي",
+        "المنافسة مع الإنسان العاقل",
+        "حجم سكاني صغير"
+      ]
+    },
+    "section_4_denisovans": {
+      "time": "منذ 300.000 – 30.000 سنة",
+      "discovery": "كهف دينيسوفا، سيبيريا",
+      "genetic_significance": {
+        "interbreeding": "ساهم بالحمض النووي لسكان ميلانيزيا وجنوب آسيا",
+        "adaptations": [
+          "التكيف على الارتفاعات العالية (جين EPAS1 في التبتيين)"
+        ]
+      }
+    },
+    "section_5_emergence_of_homo_sapiens": {
+      "time": "منذ 300000 سنة",
+      "location": "أفريقيا (حفريات جبل إرهود)",
+      "anatomical_modernity": {
+        "globular_cranium": true,
+        "reduced_brow_ridge": true,
+        "chin_presence": true
+      },
+      "cognitive_modernity": {
+        "abstract_thought": true,
+        "complex_language": true,
+        "symbolic_art": true
+      }
+    },
+    "section_6_cognitive_revolution": {
+      "time": "منذ 70.000 – 40.000 سنة",
+      "neural_changes": {
+        "prefrontal_cortex_organization": "تعزيز الوظيفة التنفيذية",
+        "temporal_lobe_language_circuits": "تطوير بناء الجملة المعقدة"
+      },
+      "behavioral_manifestations": [
+        "فن الكهف (شوفيه، لاسكو)",
+        "الآلات الموسيقية",
+        "صناعة الأسطورة ورواية القصص"
+      ],
+      "social_structures": {
+        "Large cooperative groups": true,
+        "Long-distance trade networks": true
+      }
+    },
+    "section_7_out_of_africa_migration": {
+      "primary_wave": {
+        "time": "منذ 65.000 – 70.000 سنة",
+        "route": "الطريق الساحلي الجنوبي",
+        "mechanism": "التوسع السكاني خلال النافذة المناخية المواتية"
+      },
+      "genetic_bottleneck": "تأثير المؤسس في السكان غير الأفارقة"
+    },
+    "section_8_migration_into_india": {
+      "time": "منذ 65000 سنة",
+      "route": "المسار الساحلي لبحر العرب",
+      "archaeological_sites": [
+        "جوالابورام (أندرا براديش)",
+        "أتيرامباكام (تاميل نادو)",
+        "بهيمبيتكا (ماديا براديش)"
+      ],
+      "tool_traditions": [
+        "رقائق العصر الحجري القديم الأوسط",
+        "تكنولوجيا ميكروليثيك (فترة لاحقة)"
+      ],
+      "genetic_impact": {
+        "ancestral_components": [
+          "الصيادين وجامعي الثمار في جنوب آسيا القدماء",
+          "آثار خليط الدينيسوفان"
+        ]
+      }
+    },
+    "section_9_indian_paleolithic_sequence": {
+      "lower_paleolithic": {
+        "time": "منذ 1.5 مليون – 200.000 سنة",
+        "culture": "أشولين",
+        "site": "محجر إيسامبور"
+      },
+      "middle_paleolithic": {
+        "time": "منذ 200.000 – 45.000 سنة",
+        "technology": "التقنيات الأساسية المعدة"
+      },
+      "upper_paleolithic": {
+        "time": "منذ 45.000 – 10.000 سنة",
+        "innovation": "أدوات الشفرة والفن المبكر"
+      }
+    },
+    "section_10_symbolism_and_culture": {
+      "ritual_behavior": {
+        "burials": "السلع الخطيرة واستخدام الصباغ",
+        "body_adornment": "حبات القشرة"
+      },
+      "artistic_expression": {
+        "rock_art_india": "لوحات كهف بهيمبيتكا",
+        "symbolic_motifs": "الحيوانات، مشاهد الصيد"
+      },
+      "language_evolution": {
+        "syntax_complexity": "القدرة النحوية العودية",
+        "cultural_transmission": "أسس التقليد الشفهي"
+      }
+    }
+  },
+  "part6": {
+    "dataset_metadata": {
+      "title": "مجموعة بيانات بحثية عميقة جدًا عن التطور الكوني إلى البشري",
+      "volume": 6,
+      "scope": "انتقال العصر الحجري الحديث والحضارة المبكرة في شبه القارة الهندية",
+      "chronological_span_years": "10000 قبل الميلاد – 1500 قبل الميلاد",
+      "academic_level": "خريج / بحث",
+      "disciplines": [
+        "علم الآثار",
+        "علم الآثار",
+        "علم المناخ القديم",
+        "الأنثروبولوجيا",
+        "الدراسات الحضرية المبكرة",
+        "اللغويات التاريخية"
+      ]
+    },
+    "section_1_terminal_pleistocene_transition": {
+      "younger_dryas_event": {
+        "time": "منذ 12900-11700 سنة",
+        "characteristic": "العودة المفاجئة إلى الظروف الجليدية",
+        "possible_cause": "تدفق المياه العذبة في شمال المحيط الأطلسي يعطل الدورة الحرارية الملحية",
+        "impact": [
+          "انقراض الحيوانات الضخمة",
+          "الإجهاد الكفاف للإنسان",
+          "التحول نحو تجربة تدجين النباتات"
+        ]
+      },
+      "holocene_onset": {
+        "time": "منذ 11.700 سنة",
+        "climatic_stability": true,
+        "importance": "تمكين التكثيف الزراعي"
+      }
+    },
+    "section_2_global_neolithic_revolution": {
+      "fertile_crescent": {
+        "domesticated_plants": [
+          "قمح",
+          "الشعير"
+        ],
+        "domesticated_animals": [
+          "معزة",
+          "غنم"
+        ],
+        "sedentism": "تكوين القرية الدائمة"
+      },
+      "independent_centers": [
+        "الصين (الأرز والدخن)",
+        "أمريكا الوسطى (الذرة)",
+        "غينيا الجديدة (تارو)",
+        "جنوب آسيا (ماشية زيبو، تكيف الشعير)"
+      ],
+      "technological_innovations": [
+        "طحن الحجارة",
+        "الفخار",
+        "بدايات الري"
+      ]
+    },
+    "section_3_mehrgarh_and_early_south_asian_agriculture": {
+      "location": "مهرجاره (إقليم بلوشستان)",
+      "time_range": "7000-2600 قبل الميلاد",
+      "economic_structure": {
+        "farming": [
+          "الشعير",
+          "قمح"
+        ],
+        "animal_domestication": [
+          "ماشية زيبو",
+          "غنم",
+          "معزة"
+        ]
+      },
+      "cultural_traits": [
+        "بيوت من الطوب اللبن",
+        "الدفن مع البضائع الجنائزية",
+        "صناعة الخرز والتخصص الحرفي المبكر"
+      ],
+      "genetic_significance": {
+        "ancestry_components": [
+          "الزراعيون الإيرانيون القدماء",
+          "السكان الأصليون في جنوب آسيا من الصيادين وجامعي الثمار"
+        ]
+      }
+    },
+    "section_4_indus_valley_civilization": {
+      "time_range": "3300-1300 قبل الميلاد",
+      "major_sites": [
+        "هارابا",
+        "موهينجو دارو",
+        "دولافيرا",
+        "راخيجارهي"
+      ],
+      "urban_planning": {
+        "grid_layout": true,
+        "drainage_system": "الصرف الصحي المغطى المتقدم",
+        "standardized_bricks": true
+      },
+      "economic_system": {
+        "trade_networks": [
+          "بلاد ما بين النهرين",
+          "الخليج الفارسی",
+          "آسيا الوسطى"
+        ],
+        "craft_specialization": [
+          "صناعة الخرز",
+          "تعدين (النحاس / البرونز)",
+          "نحت الختم"
+        ]
+      },
+      "writing_system": {
+        "indus_script": "غير مفكوكة",
+        "mediums": [
+          "الأختام",
+          "الفخار",
+          "أقراص"
+        ]
+      },
+      "social_structure": {
+        "evidence_of_palaces": false,
+        "relative_egalitarianism": "تمت مناقشة التسلسل الهرمي الضخم ولكن المحدود"
+      }
+    },
+    "section_5_climate_and_ivc_transformation": {
+      "monsoon_shift": {
+        "time": "2200-1900 قبل الميلاد",
+        "pattern": "ضعف الرياح الموسمية الصيفية",
+        "effect": "تجفيف الأنهار وخاصة نظام غقار-هاكرا"
+      },
+      "urban_decline": {
+        "process": "النزوح التدريجي للمناطق الحضرية",
+        "shift": "من المدن إلى المستوطنات الريفية"
+      },
+      "no_clear_invasion_evidence": true
+    },
+    "section_6_archaeogenetics_of_india": {
+      "ani_asi_model": {
+        "ANI": {
+          "description": "أجداد شمال الهند",
+          "related_to": [
+            "المزارعين الإيرانيين القدماء",
+            "رعاة السهوب"
+          ]
+        },
+        "ASI": {
+          "description": "أجداد جنوب الهند",
+          "deep_lineage": "سلالة السكان الأصليين من الصيادين وجامعي الثمار"
+        }
+      },
+      "steppe_migration": {
+        "time": "2000-1500 قبل الميلاد",
+        "associated_culture": "الرعاة الهنود الإيرانيين",
+        "genetic_marker": "نسب كروموسوم Y R1a-Z93"
+      },
+      "modern_population_structure": {
+        "admixture": "جميع السكان الهنود عبارة عن خليط من مكونات ANI وASI",
+        "gradient_pattern": "التوزيع السريري بين الشمال والجنوب"
+      }
+    },
+    "section_7_linguistic_development": {
+      "proto_indo_iranian": {
+        "arrival_window": "ما بعد 2000 قبل الميلاد",
+        "relation": "عائلة اللغات الهندية الأوروبية"
+      },
+      "dravidians": {
+        "possible_pre_ivc_presence": true,
+        "southern_continuity": "محفوظة في شبه جزيرة الهند"
+      },
+      "language_diversification": {
+        "mechanism": "الهجرة + العزلة + الانفصال البيئي"
+      }
+    },
+    "section_8_technological_and_social_evolution": {
+      "metallurgy": {
+        "copper_bronze_transition": true,
+        "tool_advancement": "التطبيقات الزراعية والعسكرية"
+      },
+      "religious_symbolism": {
+        "proto_shiva_seal": "تمت مناقشة تفسير عزر باشوباتي",
+        "mother_goddess_figures": true
+      },
+      "trade_standardization": {
+        "weights_and_measures": "أوزان مكعبة موحدة للغاية",
+        "maritime_trade": "حوض بناء السفن في لوثال"
+      }
+    }
+  },
+  "part7": {
+    "dataset_metadata": {
+      "title": "مجموعة بيانات بحثية عميقة جدًا عن التطور الكوني إلى البشري",
+      "volume": 7,
+      "scope": "تحول هارابان المتأخر من خلال تكوين دولة العصر الحديدي المبكر",
+      "chronological_span_years": "1500 قبل الميلاد – 500 قبل الميلاد",
+      "academic_level": "خريج / بحث",
+      "disciplines": [
+        "علم الآثار في جنوب آسيا",
+        "الدراسات الفيدية",
+        "علم الآثار",
+        "اللغويات التاريخية",
+        "نظرية تشكيل الدولة المبكرة",
+        "الدراسات الدينية"
+      ]
+    },
+    "section_1_late_harappan_transition": {
+      "time_range": "1900-1300 قبل الميلاد",
+      "characteristics": {
+        "deurbanization": true,
+        "ruralization": "التحول إلى مستوطنات زراعية رعوية أصغر",
+        "material_changes": [
+          "الانخفاض في الأوزان الموحدة",
+          "أنماط الفخار الإقليمية",
+          "انخفاض التجارة لمسافات طويلة"
+        ]
+      },
+      "continuity_elements": [
+        "الممارسات الزراعية",
+        "تدجين الماشية",
+        "تجمع المستوطنات على طول الأنهار"
+      ],
+      "climate_factor": "ضعف الرياح الموسمية والتحولات النهرية"
+    },
+    "section_2_steppe_associated_migration": {
+      "time_range": "2000-1500 قبل الميلاد",
+      "genetic_markers": [
+        "نسب كروموسوم Y R1a-Z93",
+        "مكون أصل Steppe_MLBA"
+      ],
+      "cultural_associations": [
+        "تدجين الخيل",
+        "تكنولوجيا العربات",
+        "انتشار اللغة الهندية الإيرانية البدائية"
+      ],
+      "interaction_model": {
+        "type": "المزيج الثقافي والجيني",
+        "result": "الاندماج مع سكان ما بعد هارابان"
+      }
+    },
+    "section_3_early_vedic_society": {
+      "primary_textual_source": "ريجفيدا (مرحلة التكوين الفموي)",
+      "social_structure": {
+        "tribal_polities": "ياناس",
+        "chieftainship": "نموذج القيادة راجان",
+        "varna_system": "الناشئة تصنيف أربعة أضعاف"
+      },
+      "economic_model": {
+        "pastoralism": "الماشية مركزية للثروة",
+        "agriculture": "أهمية متزايدة في مرحلة الفيدية اللاحقة"
+      },
+      "religious_practice": {
+        "ritual_fire_sacrifices": true,
+        "deities": [
+          "إندرا",
+          "اجني",
+          "فارونا",
+          "سوما"
+        ],
+        "cosmic_order_concept": "Rta (القانون الكوني)"
+      }
+    },
+    "section_4_linguistic_structuring": {
+      "indo_aryan_language": {
+        "branch": "عائلة هندية أوروبية",
+        "phonetic_features": [
+          "الحروف الساكنة الرجعية (ربما تأثير الركيزة)",
+          "مورفولوجيا تصريفية معقدة"
+        ]
+      },
+      "substrate_influence": {
+        "dravidian_elements": "الكلمات المستعارة والصفات الصوتية",
+        "munda_hypothesis": "التفاعل الأستروآسيوي المحتمل"
+      }
+    },
+    "section_5_iron_age_transformation": {
+      "time_range": "1200-600 قبل الميلاد",
+      "technological_shift": {
+        "iron_smelted_tools": true,
+        "agricultural_expansion": "إزالة الغابات في سهول الجانج"
+      },
+      "archaeological_culture": {
+        "painted_grey_ware": "المرتبطة بالمستوطنات الفيدية اللاحقة",
+        "northern_black_polished_ware": "مرحلة النهضة الحضرية اللاحقة"
+      }
+    },
+    "section_6_second_urbanization": {
+      "time_range": "800-500 قبل الميلاد",
+      "region": "جانجا-يامونا دواب وشرق الهند",
+      "drivers": [
+        "الأدوات الحديدية التي تمكن الزراعة",
+        "النمو السكاني",
+        "تكثيف التجارة"
+      ],
+      "mahajanapadas": [
+        "ماجادها",
+        "كوسالا",
+        "فاتسا",
+        "أفانتي"
+      ],
+      "political_evolution": {
+        "monarchies": true,
+        "republican_ganasanghas": true
+      }
+    },
+    "section_7_philosophical_transformation": {
+      "upanishadic_thought": {
+        "concepts": [
+          "عتمان (نفسه)",
+          "براهمان (الحقيقة المطلقة)",
+          "كارما",
+          "سامسارا"
+        ],
+        "shift": "من طقوس تقويم العظام إلى التحقيق الميتافيزيقي"
+      },
+      "sramana_movements": {
+        "time": "القرن السادس قبل الميلاد",
+        "traditions": [
+          "البوذية المبكرة",
+          "اليانية"
+        ],
+        "themes": [
+          "التنازل",
+          "اللاعنف",
+          "التحرير (موكشا/نيرفانا)"
+        ]
+      }
+    },
+    "section_8_genetic_stabilization_phase": {
+      "time_range": "1000-500 قبل الميلاد",
+      "pattern": {
+        "admixture_completion": "اكتمل المزيج الرئيسي ANI-ASI إلى حد كبير",
+        "increasing_endogamy": "ينعكس التقسيم الطبقي الاجتماعي تدريجيا وراثيا"
+      },
+      "evidence_sources": [
+        "دراسات الحمض النووي القديمة",
+        "النمذجة الجينومية السكانية الحديثة"
+      ]
+    },
+    "section_9_economic_and_trade_networks": {
+      "internal_trade": "النقل النهري عبر نظام نهر الجانج",
+      "external_trade": [
+        "الاتصالات الأخمينية الفارسية (فترة لاحقة)",
+        "طرق التبادل الحدودية الشمالية الغربية"
+      ],
+      "coinage_emergence": "العملات المعدنية ذات العلامات المثقوبة"
+    },
+    "section_10_civilizational_significance": {
+      "cultural_synthesis": "اندماج تراث هارابان والتأثير الرعوي السهوب والتقاليد الأصلية",
+      "intellectual_foundations": "أساس الفلسفة الهندية الكلاسيكية",
+      "state_formation_trajectory": "مقدمة لتوحيد الإمبراطورية الموريانية"
+    }
+  },
+  "part8": {
+    "dataset_metadata": {
+      "title": "مجموعة بيانات بحثية عميقة جدًا عن التطور الكوني إلى البشري",
+      "volume": 8,
+      "scope": "تشكيل دولة جنوب آسيا الكلاسيكية والتوحيد الفكري",
+      "chronological_span_years": "500 قبل الميلاد – 600 م",
+      "academic_level": "خريج / بحث",
+      "disciplines": [
+        "التاريخ القديم",
+        "الأنثروبولوجيا السياسية",
+        "النقوش",
+        "علم العملات",
+        "فلسفة",
+        "علم الوراثة السكانية"
+      ]
+    },
+    "section_1_late_mahajanapada_phase": {
+      "time_range": "600-321 قبل الميلاد",
+      "major_powers": [
+        "ماجادها",
+        "كوسالا",
+        "أفانتي",
+        "فاتسا"
+      ],
+      "magadha_advantages": {
+        "geography": "سهول الجانج الخصبة",
+        "iron_resources": "الوصول إلى المناطق المعدنية الشرقية",
+        "river_transport": true
+      },
+      "political_evolution": {
+        "bimbisara_and_ajatasatru": "التوسع الإقليمي",
+        "administrative_centralization": "الهياكل البيروقراطية المبكرة"
+      }
+    },
+    "section_2_achaemenid_and_hellenistic_interactions": {
+      "achaemenid_presence": {
+        "time": "القرن السادس - الرابع قبل الميلاد",
+        "region": "شمال غرب الهند",
+        "impact": [
+          "النماذج الادارية",
+          "تأثير النص الآرامي"
+        ]
+      },
+      "alexander_campaign": {
+        "time": "327-325 قبل الميلاد",
+        "impact": [
+          "الانقسام السياسي في الشمال الغربي",
+          "التبادل الثقافي اليوناني الهندي"
+        ]
+      }
+    },
+    "section_3_mauryan_empire": {
+      "time_range": "321-185 قبل الميلاد",
+      "founder": "شاندراجوبتا موريا",
+      "territorial_extent": "أكبر إمبراطورية في جنوب آسيا ما قبل الحداثة",
+      "administrative_system": {
+        "arthashastra_model": "مركزية الضرائب والتجسس",
+        "provincial_governors": true
+      },
+      "ashoka": {
+        "conversion_to_buddhism": true,
+        "dhamma_policy": "الحكم الأخلاقي",
+        "rock_edicts": "أقدم النقوش المكتوبة واسعة النطاق",
+        "international_missions": [
+          "سريلانكا",
+          "آسيا الوسطى"
+        ]
+      }
+    },
+    "section_4_post_mauryan_polities": {
+      "indo_greek_kingdoms": {
+        "cultural_exchange": "الفن اليوناني البوذي (غاندارا)"
+      },
+      "saka_and_parthian": {
+        "steppe_origin": true,
+        "integration": "استيعاب النخبة المحلية"
+      },
+      "kushan_empire": {
+        "time": "القرن الأول – الثالث الميلادي",
+        "role": "موصل التجارة طريق الحرير",
+        "religious_pluralism": true
+      }
+    },
+    "section_5_religious_and_philosophical_systems": {
+      "classical_hindu_philosophy": {
+        "schools": [
+          "نيايا",
+          "فايشيشيكا",
+          "سامخيا",
+          "اليوغا",
+          "ميمامسا",
+          "فيدانتا"
+        ],
+        "metaphysical_concepts": [
+          "براهمان",
+          "عتمان",
+          "براكريتي",
+          "بوروشا"
+        ]
+      },
+      "buddhist_schools": [
+        "ثيرافادا",
+        "ماهايانا"
+      ],
+      "jain_philosophy": {
+        "anekantavada": "عقيدة وجهات النظر المتعددة"
+      }
+    },
+    "section_6_scientific_and_mathematical_developments": {
+      "mathematics": {
+        "concept_of_zero": "إضفاء الطابع الرسمي في فترة غوبتا",
+        "decimal_system": true
+      },
+      "astronomy": {
+        "aryabhata": "عناصر مركزية الشمس في نماذج الكواكب",
+        "sidereal_calculations": true
+      },
+      "medicine": {
+        "charaka_samhita": "الطب الباطني",
+        "sushruta_samhita": "التقنيات الجراحية"
+      }
+    },
+    "section_7_gupta_classical_age": {
+      "time_range": "320-550 م",
+      "characteristics": [
+        "الاستقرار السياسي",
+        "الازدهار الثقافي",
+        "التوسع الأدبي السنسكريتية"
+      ],
+      "economic_structure": {
+        "agrarian_base": true,
+        "guild_organization": "النقابات الحرفية الحضرية"
+      },
+      "art_and_architecture": {
+        "temple_architecture_emergence": true,
+        "iconography_standardization": true
+      }
+    },
+    "section_8_genetic_and_demographic_patterns": {
+      "post_admixture_phase": {
+        "limited_new_large_scale_migrations": true,
+        "regional_endogamy_increase": true
+      },
+      "population_growth": {
+        "agrarian_expansion": "زيادة القدرة الاستيعابية",
+        "urban_centers": "التجمعات الديمغرافية المدفوعة بالتجارة"
+      }
+    },
+    "section_9_trade_networks": {
+      "silk_road": {
+        "goods": [
+          "بهارات",
+          "المنسوجات",
+          "أحجار كريمة"
+        ],
+        "cultural_transmission": "وانتشرت الأفكار الدينية"
+      },
+      "maritime_trade": {
+        "indian_ocean_routes": true,
+        "roman_trade_links": "أدلة العملة الأثرية"
+      }
+    },
+    "section_10_civilizational_legacy": {
+      "institutional_foundations": [
+        "نماذج الحكم الإمبراطوري",
+        "التقاليد القانونية المقننة",
+        "الأنظمة الفلسفية لا تزال مؤثرة"
+      ],
+      "knowledge_transmission": "انتقلت الرياضيات وعلم الفلك غربًا"
+    }
+  },
+  "part9": {
+    "dataset_metadata": {
+      "title": "مجموعة بيانات بحثية عميقة جدًا عن التطور الكوني إلى البشري",
+      "volume": 9,
+      "scope": "التحولات السياسية والثقافية والديموغرافية في جنوب آسيا في العصور الوسطى",
+      "chronological_span_years": "600 م – 1700 م",
+      "academic_level": "خريج / بحث",
+      "disciplines": [
+        "تاريخ العصور الوسطى",
+        "علم الاجتماع التاريخي",
+        "علم الوراثة السكانية",
+        "التاريخ الاقتصادي",
+        "الدراسات الدينية",
+        "تاريخ الفن"
+      ]
+    },
+    "section_1_post_gupta_regionalization": {
+      "time_range": "600-1000 م",
+      "political_pattern": "ممالك إقليمية مجزأة",
+      "major_powers": [
+        "مملكة حرشا",
+        "تشالوكياس",
+        "بالافاس",
+        "راشتراكوتاس",
+        "بالاس"
+      ],
+      "administrative_features": {
+        "land_grant_system": "البراهمادية ومنح المعبد",
+        "agrarian_expansion": "إزالة الغابات ونمو المستوطنات"
+      },
+      "temple_urbanism": {
+        "role": "المحاور الاقتصادية والطقوسية والإدارية",
+        "architectural_styles": [
+          "ناجارا (شمال الهند)",
+          "درافيدا (جنوب الهند)"
+        ]
+      }
+    },
+    "section_2_religious_and_intellectual_flourishing": {
+      "bhakti_movements": {
+        "time_range": "القرنين السابع والخامس عشر",
+        "features": [
+          "التفاني الشخصي",
+          "الشعر العامي",
+          "مواضيع الشمولية الاجتماعية"
+        ]
+      },
+      "tantric_traditions": {
+        "ritual_complexity": true,
+        "integration_with_buddhist_and_hindu_streams": true
+      },
+      "buddhist_decline_in_india": {
+        "factors": [
+          "الاستيعاب في الأطر الهندوسية",
+          "فقدان الرعاية الرهبانية"
+        ]
+      }
+    },
+    "section_3_early_islamic_contacts": {
+      "arab_trade_links": {
+        "time_range": "القرنين السابع والعاشر",
+        "coastal_centers": [
+          "ولاية كيرالا",
+          "ولاية غوجارات"
+        ],
+        "exchange_goods": [
+          "بهارات",
+          "المنسوجات",
+          "خيل"
+        ]
+      },
+      "cultural_exchange": {
+        "introduction_of_islam": "في المقام الأول عبر التجارة والشبكات الصوفية",
+        "syncretic_practices": true
+      }
+    },
+    "section_4_delhi_sultanate": {
+      "time_range": "1206-1526 م",
+      "dynasties": [
+        "مملوكي",
+        "خلجي",
+        "طغلق",
+        "سيد",
+        "لودي"
+      ],
+      "administrative_changes": {
+        "centralized_taxation": true,
+        "iqta_system": "تخصيص عائدات الأراضي"
+      },
+      "military_innovation": {
+        "mounted_cavalry": true,
+        "use_of_composite_bows": true
+      },
+      "urban_growth": "دلهي عاصمة سياسية كبرى"
+    },
+    "section_5_mughal_empire": {
+      "time_range": "1526-1707 م",
+      "founder": "بابور",
+      "administrative_model": {
+        "mansabdari_system": true,
+        "land_revenue_system": "زابت و جاغيرداري"
+      },
+      "religious_policy": {
+        "akbar": "صلح كول (التسامح العالمي)",
+        "integration_of_elites": "تحالفات راجبوت"
+      },
+      "economic_scale": {
+        "global_gdp_share": "يقدر بحوالي 20-25% في القرن السابع عشر",
+        "textile_exports": "مساهم رئيسي في التجارة العالمية"
+      },
+      "art_and_architecture": [
+        "تاج محل",
+        "قبر همايون",
+        "تقاليد الرسم المصغر"
+      ]
+    },
+    "section_6_maritime_and_global_trade": {
+      "indian_ocean_network": {
+        "participants": [
+          "العرب",
+          "الفرس",
+          "الصينية",
+          "الأوروبيون"
+        ],
+        "ports": [
+          "كاليكوت",
+          "سورة",
+          "ماسوليباتنام"
+        ]
+      },
+      "european_entry": {
+        "portuguese_arrival": "1498 م (فاسكو دا جاما)",
+        "subsequent_powers": [
+          "هولندي",
+          "فرنسي",
+          "بريطانية"
+        ]
+      }
+    },
+    "section_7_social_stratification_and_endogamy": {
+      "caste_solidification": {
+        "period": "1000-1600 م",
+        "genetic_evidence": "زيادة زواج الأقارب يمكن اكتشافها في الدراسات الجينومية",
+        "jati_localization": "حدود المجموعات المهنية المحلية"
+      },
+      "religious_conversion_patterns": {
+        "islamic_conversion": "تدريجية ومتنوعة إقليميا",
+        "sufi_influence": "نداء المساواة الروحية"
+      }
+    },
+    "section_8_population_genetics_medieval_phase": {
+      "admixture_patterns": {
+        "west_eurasian_gene_flow": "محدودة ولكن يمكن اكتشافها على المستوى الإقليمي",
+        "continuity_of_asi_component": true
+      },
+      "genetic_isolation_trends": {
+        "increasing_endogamy": true,
+        "founder_effects": "تظهر مجموعات طبقية معينة اختناقات قوية"
+      }
+    },
+    "section_9_intellectual_and_scientific_currents": {
+      "astronomy": {
+        "kerala_school": "عمل سلسلة لا نهائية تشبه حساب التفاضل والتكامل في وقت مبكر"
+      },
+      "medicine": {
+        "unani_system": "التكامل اليوناني العربي"
+      },
+      "literature": {
+        "persianate_culture": true,
+        "regional_languages_flourish": [
+          "الهندية",
+          "البنغالية",
+          "التاميل",
+          "المهاراتية"
+        ]
+      }
+    },
+    "section_10_structural_transition_to_early_modernity": {
+      "economic_strain": "التوسع المفرط والثورات الإقليمية",
+      "european_commercial_dominance": "التحول في قوة التجارة العالمية",
+      "foundation_for_colonial_phase": true
+    }
+  },
+  "part10": {
+    "dataset_metadata": {
+      "title": "مجموعة بيانات بحثية عميقة جدًا عن التطور الكوني إلى البشري",
+      "volume": 10,
+      "scope": "التحول الاستعماري إلى التوليف الأنثروبولوجي الحديث",
+      "chronological_span_years": "1700 م – الحاضر",
+      "academic_level": "خريج / بحث",
+      "disciplines": [
+        "التاريخ الحديث",
+        "الاقتصاد السياسي",
+        "الديموغرافيا",
+        "علم الوراثة السكانية",
+        "الأنثروبولوجيا",
+        "دراسات العولمة"
+      ]
+    },
+    "section_1_late_mughal_fragmentation": {
+      "time_range": "1707-1757 م",
+      "structural_weakening": [
+        "ارتفاع الحكم الذاتي الإقليمي",
+        "الضغط المالي",
+        "توسعة المراثا"
+      ],
+      "regional_polities": [
+        "اتحاد المراثا",
+        "السيخ ميلس",
+        "مملكة ميسور",
+        "نواب البنغال"
+      ]
+    },
+    "section_2_european_colonial_dominance": {
+      "east_india_company_phase": {
+        "battle_of_plassey": "1757 م",
+        "revenue_extraction": "التسوية الدائمة (1793)",
+        "economic_shift": "من مصدر التصنيع إلى مورد المواد الخام"
+      },
+      "industrial_impact": {
+        "deindustrialization": "تراجع قطاعات المنسوجات اليدوية",
+        "railway_infrastructure": "الاقتصاد الاستعماري المتكامل"
+      }
+    },
+    "section_3_demographic_transformation": {
+      "population_trends": {
+        "1700_estimate_millions": 165,
+        "1900_estimate_millions": 300,
+        "2020_estimate_millions": 1380
+      },
+      "mortality_shift": {
+        "vaccination": true,
+        "public_health_improvements": true
+      },
+      "urbanization": {
+        "colonial_cities": [
+          "كلكتا",
+          "بومباي",
+          "مدراس"
+        ],
+        "post_independence_expansion": true
+      }
+    },
+    "section_4_nationalism_and_state_formation": {
+      "intellectual_currents": [
+        "الحركات الإصلاحية (براهمو ساماج، آريا ساماج)",
+        "طباعة الرأسمالية والصحافة العامية"
+      ],
+      "independence": {
+        "year": 1947,
+        "partition": "الانقسام الهندي الباكستاني",
+        "migration_scale": "واحدة من أكبر الهجرات البشرية"
+      },
+      "constitutional_framework": {
+        "democratic_republic": true,
+        "universal_suffrage": true
+      }
+    },
+    "section_5_post_independence_development": {
+      "economic_model": {
+        "planned_economy_phase": "1950-1990",
+        "liberalization": "إصلاحات 1991"
+      },
+      "green_revolution": {
+        "impact": "الاكتفاء الذاتي من الحبوب الغذائية",
+        "environmental_cost": "استنزاف المياه الجوفية"
+      }
+    },
+    "section_6_population_genetics_revolution": {
+      "genome_sequencing": {
+        "human_genome_project": "2003 الانتهاء",
+        "high_throughput_sequencing": true
+      },
+      "south_asian_studies": {
+        "ancient_dna": "جينوم راخيجارهي هارابان",
+        "ani_asi_clarification": "الجداول الزمنية للخليط المكرر",
+        "steppe_component_modeling": true
+      },
+      "medical_genomics": {
+        "founder_effects": "الاضطرابات المتنحية المرتبطة بالطبقة الاجتماعية",
+        "precision_medicine": "تحديد المخاطر الجينية"
+      }
+    },
+    "section_7_modern_anthropological_synthesis": {
+      "paradigm_shift": {
+        "race_rejected": "العرق البيولوجي غير صالح كفئة علمية",
+        "cline_model": "التباين التدريجي عبر الجغرافيا"
+      },
+      "cultural_identity": {
+        "constructed_identity": true,
+        "diaspora_expansion": "المجتمعات الهندية العالمية"
+      }
+    },
+    "section_8_globalization_and_technology": {
+      "digital_revolution": {
+        "internet_penetration": true,
+        "ai_and_biotechnology": "المجالات الناشئة"
+      },
+      "migration_patterns": {
+        "skilled_migration": "متخصصو تكنولوجيا المعلومات والطب",
+        "remittance_flows": "العامل الاقتصادي الرئيسي"
+      }
+    },
+    "section_9_environmental_constraints": {
+      "climate_change": {
+        "temperature_rise": "غازات الدفيئة البشرية المنشأ",
+        "monsoon_variability": "زيادة عدم القدرة على التنبؤ"
+      },
+      "biodiversity_loss": true,
+      "sustainability_challenges": [
+        "التلوث الحضري",
+        "ندرة المياه",
+        "الإجهاد الزراعي"
+      ]
+    },
+    "section_10_contemporary_human_condition": {
+      "lifespan_increase": {
+        "preindustrial": "~ 30-40 سنة",
+        "modern_india": "~69 سنة"
+      },
+      "education_expansion": true,
+      "technological_dependency": true,
+      "future_questions": [
+        "التكامل بين الذكاء الاصطناعي والإنسان",
+        "التحرير الجيني (كريسبر)",
+        "القدرة على التكيف مع المناخ"
+      ]
+    }
+  }
+}

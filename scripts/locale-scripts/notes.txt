@@ -1,0 +1,12 @@
+$env:TRANSLATE_WORKERS=16
+$env:TRANSLATE_LOCALE_WORKERS=16
+python d:/Projects/first-contributes/scripts/translate.py
+
+
+$env:TRANSLATE_WORKERS=16
+$env:TRANSLATE_LOCALE_WORKERS=16
+python d:/Projects/first-contributes/scripts/translate.py --non-interactive
+
+$env:TRANSLATE_WORKERS=16
+$env:TRANSLATE_LOCALE_WORKERS=16
+python d:/Projects/first-contributes/scripts/translate.py --non-interactive --translate-workers 16 --locale-workers 8

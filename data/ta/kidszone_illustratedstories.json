@@ -1,0 +1,917 @@
+{
+  "kidszone_illustratedstories": {
+    "title": "விளக்கப்படக் கதைகள்",
+    "meta": {
+      "title": "குழந்தைகள் மண்டலம் | விளக்கப்படக் கதைகள் — சனாதன தர்மம் - சனாதன தர்மத்தை ஆராயுங்கள்",
+      "canonical": "https://sanatanadharmam.in/kidszone/illustratedstories",
+      "description": "KidsZone — இல்லஸ்ட்ரேட்டட் கதைகள் — சனாதன தர்மம் - சனாதன தர்மத்தை ஆராயுங்கள் — கட்டுரைகள், மொழிபெயர்ப்புகள் மற்றும் KidsZone பற்றிய சுருக்கமான வர்ணனைகள். நடைமுறைகள், வரலாறு மற்றும் வழிகாட்டுதல் ஆகியவற்றை ஆராயுங்கள்...",
+      "keywords": [
+        "Animal Fables",
+        "Bedtime Stories for Kids",
+        "Children's Stories",
+        "Classic Indian Stories",
+        "Educational Stories",
+        "Folk Tales with Morals",
+        "Illustrated Stories",
+        "Indian Culture for Kids",
+        "Indian Folktales",
+        "Indian Heritage for Children",
+        "Jataka Tales",
+        "KidsZone",
+        "Moral Stories",
+        "Mythological Stories for Kids",
+        "Panchatantra",
+        "Short Stories for Children",
+        "Stories from Indian Tradition",
+        "Stories of Animals with Morals",
+        "Stories of Compassion and Empathy",
+        "Stories of Courage and Bravery",
+        "Stories of Courage and Wisdom",
+        "Stories of Creativity and Imagination",
+        "Stories of Cultural Values and Traditions",
+        "Stories of Everyday Heroes",
+        "Stories of Family and Relationships",
+        "Stories of Festivals and Celebrations",
+        "Stories of Friendship and Kindness",
+        "Stories of Generosity and Sharing",
+        "Stories of Good vs Evil",
+        "Stories of Honesty and Integrity",
+        "Stories of Humility and Gratitude",
+        "Stories of Kindness and Compassion",
+        "Stories of Kings and Queens",
+        "Stories of Mythological Characters",
+        "Stories of Nature and Environment",
+        "Stories of Perseverance and Hard Work",
+        "Stories of Problem-Solving and Critical Thinking",
+        "Stories of Respect and Responsibility",
+        "Stories of Sages and Saints",
+        "Stories of Self-Control and Discipline",
+        "Stories of Teamwork and Cooperation",
+        "Stories of Wisdom and Intelligence",
+        "Stories with Life Lessons"
+      ],
+      "ogimage": "/og/kidszone-illustratedstories.png",
+      "url": "https://sanatanadharmam.in/kidszone/illustratedstories"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "அமைப்பு",
+        "contactpoint": {
+          "@type": "தொடர்பு புள்ளி",
+          "areaserved": "உலகம் முழுவதும்",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "ஆங்கிலம்",
+            "எஸ்பானோல்",
+            "பிரான்சிஸ்",
+            "ஹிந்தி",
+            "எஸ்",
+            "நேபாளி",
+            "நெதர்லாந்து",
+            "போர்த்துகீசியர்கள்",
+            "ருஸ்கி",
+            "தெலுங்கு",
+            "அர்து",
+            "中文 (简体)"
+          ],
+          "contacttype": "வாடிக்கையாளர் ஆதரவு",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "சனாதனதர்மம்.இன் பற்றி",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "description": "இந்திய பாரம்பரியத்திலிருந்து சிறு விளக்கக் கதைகள் மற்றும் அறநெறிகளின் தொகுக்கப்பட்ட தொகுப்பு. கதையின் சுருக்கம் மற்றும் ஒழுக்கத்தைப் படிக்க, அதைக் கிளிக் செய்யவும்.",
+    "kids_indian_stories": [
+      {
+        "title": "புத்திசாலி முயல் மற்றும் சிங்கம்",
+        "characters": [
+          "முயல்",
+          "சிங்கம்"
+        ],
+        "id": 1,
+        "imgalt": "The Clever Rabbit and the Lion",
+        "imgsrc": "/images/illustrate/thumbs/1.png",
+        "moral": "வலிமையை விட ஞானம் வலிமையானது.",
+        "origin": "பஞ்சதந்திரம்",
+        "summary": "ஒரு சிறிய முயல் கடுமையான சிங்கத்தின் பிரதிபலிப்பைக் கண்டவுடன் ஒரு கிணற்றில் குதிக்கும்படி ஏமாற்றி அதை விஞ்சுகிறது.",
+        "themes": [
+          "தைரியம்",
+          "உளவுத்துறை"
+        ]
+      },
+      {
+        "title": "குரங்கு மற்றும் முதலை",
+        "characters": [
+          "குரங்கு",
+          "முதலை"
+        ],
+        "id": 2,
+        "imgalt": "The Monkey and the Crocodile",
+        "imgsrc": "/images/illustrate/thumbs/2.png",
+        "moral": "மனதின் இருப்பு உயிரைக் காப்பாற்றும்.",
+        "origin": "பஞ்சதந்திரம்",
+        "summary": "ஒரு குரங்கு தன் இதயத்தை உண்ண முயலும் முதலையை ஏமாற்றி ஆபத்தைத் தவிர்க்கிறது.",
+        "themes": [
+          "நட்பு",
+          "ஏமாற்றுதல்"
+        ]
+      },
+      {
+        "title": "தாகமுள்ள காகம்",
+        "characters": [
+          "காகம்"
+        ],
+        "id": 3,
+        "imgalt": "The Thirsty Crow",
+        "imgsrc": "/images/illustrate/thumbs/3.png",
+        "moral": "விருப்பம் உள்ள இடத்தில், ஒரு வழி இருக்கிறது.",
+        "origin": "இந்திய நாட்டுப்புறக் கதை",
+        "summary": "தாகம் எடுத்த காகம் நீர்மட்டத்தை உயர்த்துவதற்காக ஒரு தொட்டியில் கூழாங்கற்களை இறக்கி அதை குடிக்கிறது.",
+        "themes": [
+          "விடாமுயற்சி",
+          "படைப்பாற்றல்"
+        ]
+      },
+      {
+        "title": "முட்டாள் சிங்கம் மற்றும் புத்திசாலி நரி",
+        "characters": [
+          "சிங்கம்",
+          "நரி"
+        ],
+        "id": 4,
+        "imgalt": "The Foolish Lion and the Clever Fox",
+        "imgsrc": "/images/illustrate/thumbs/4.png",
+        "moral": "பேராசை வீழ்ச்சிக்கு வழிவகுக்கிறது.",
+        "origin": "பஞ்சதந்திரம்",
+        "summary": "ஒரு நரி ஒரு சிங்கத்தை முட்டாளாக்கி ஒரு வெறிச்சோடிய குகைக்குள் நுழைகிறது, சிங்கம் என்றென்றும் சிக்கிக் கொள்கிறது.",
+        "themes": [
+          "பேராசை",
+          "உளவுத்துறை"
+        ]
+      },
+      {
+        "title": "பேசக்கூடிய ஆமை",
+        "characters": [
+          "ஆமை",
+          "ஸ்வான்ஸ்"
+        ],
+        "id": 5,
+        "imgalt": "The Talkative Tortoise",
+        "imgsrc": "/images/illustrate/thumbs/5.png",
+        "moral": "அதிகம் பேசுவது பிரச்சனைக்கு வழிவகுக்கும்.",
+        "origin": "பஞ்சதந்திரம்",
+        "summary": "இரண்டு பறவைகள் சுமந்து செல்லும் போது வாயைத் திறந்ததால் வானத்திலிருந்து ஒரு ஆமை விழுகிறது.",
+        "themes": [
+          "ஒழுக்கம்",
+          "நகைச்சுவை"
+        ]
+      },
+      {
+        "title": "தெனாலிராமனும் திருடர்களும்",
+        "characters": [
+          "தெனாலிராமன்",
+          "திருடர்கள்"
+        ],
+        "id": 6,
+        "imgalt": "Tenali Rama and the Thieves",
+        "imgsrc": "/images/illustrate/thumbs/6.png",
+        "moral": "புத்திசாலித்தனமான சிந்தனை உங்கள் வீட்டைக் காப்பாற்றும்.",
+        "origin": "தெனாலி ராமன் கதைகள்",
+        "summary": "தெனாலிராமன் இரவு முழுவதும் தனது கிணற்றில் கற்களை இறக்கி சுத்தம் செய்வது போல் நடித்து திருடர்களை ஏமாற்றுகிறான்.",
+        "themes": [
+          "ஞானம்",
+          "உத்தி"
+        ]
+      },
+      {
+        "title": "பீர்பாலின் கிச்சடி கதை",
+        "characters": [
+          "பீர்பால்",
+          "அக்பர்"
+        ],
+        "id": 7,
+        "imgalt": "Birbal’s Khichdi Story",
+        "imgsrc": "/images/illustrate/thumbs/7.png",
+        "moral": "பொறுமை மற்றும் மனதின் இருப்பு வெற்றி.",
+        "origin": "அக்பர்-பீர்பால்",
+        "summary": "தூரத்திலிருந்து வரும் வெப்பத்தைப் பற்றி நினைப்பது, தூரத்திலிருந்து உணவைச் சூடாக்குவது போன்றது என்று பீர்பால் நிரூபிக்கிறார்.",
+        "themes": [
+          "நீதி",
+          "தர்க்கம்"
+        ]
+      },
+      {
+        "title": "விசுவாசமான முங்கூஸ்",
+        "characters": [
+          "முங்கூஸ்",
+          "குழந்தை",
+          "அம்மா"
+        ],
+        "id": 8,
+        "imgalt": "The Loyal Mongoose",
+        "imgsrc": "/images/illustrate/thumbs/8.png",
+        "moral": "முடிவுகளை எடுக்க வேண்டாம்.",
+        "origin": "இந்திய நாட்டுப்புறவியல்",
+        "summary": "ஒரு முங்கூஸ் ஒரு குழந்தையை பாம்பிலிருந்து காப்பாற்றுகிறது, ஆனால் தவறுதலாக தண்டிக்கப்படுகிறது.",
+        "themes": [
+          "விசுவாசம்",
+          "நம்பிக்கை"
+        ]
+      },
+      {
+        "title": "கிருஷ்ணா மற்றும் வெண்ணெய் பானை",
+        "characters": [
+          "கிருஷ்ணா",
+          "கோபியர்கள்"
+        ],
+        "id": 9,
+        "imgalt": "Krishna and the Butter Pot",
+        "imgsrc": "/images/illustrate/thumbs/9.png",
+        "moral": "ஆர்வமும் விளையாட்டுத்தனமும் இயற்கையானது, ஆனால் நேர்மை முக்கியமானது.",
+        "origin": "கிருஷ்ணா குழந்தைப் பருவக் கதைகள்",
+        "summary": "குழந்தை கிருஷ்ணா தனது நண்பர்களுடன் வெண்ணெய் திருடுகிறார் மற்றும் தனது அப்பாவித்தனத்தால் அனைவரையும் கவர்கிறார்.",
+        "themes": [
+          "குறும்பு",
+          "அன்பு"
+        ]
+      },
+      {
+        "title": "சுதாமாவும் கிருஷ்ணனும்",
+        "characters": [
+          "கிருஷ்ணா",
+          "சுதாமா"
+        ],
+        "id": 10,
+        "imgalt": "Sudama and Krishna",
+        "imgsrc": "/images/illustrate/thumbs/10.png",
+        "moral": "உண்மையான நட்பு நிபந்தனையற்றது.",
+        "origin": "பாகவத புராணம்",
+        "summary": "ஏழை சுதாமா ஒரு பணிவான பரிசுடன் கிருஷ்ணரை சந்திக்கிறார், மேலும் கிருஷ்ணர் அன்பையும் ஆசீர்வாதத்தையும் பொழிகிறார்.",
+        "themes": [
+          "நட்பு",
+          "இரக்கம்"
+        ]
+      },
+      {
+        "title": "யானை மற்றும் தையல்காரர்",
+        "characters": [
+          "யானை",
+          "தையல்காரர்"
+        ],
+        "id": 11,
+        "imgalt": "The Elephant and the Tailor",
+        "imgsrc": "/images/illustrate/thumbs/11.png",
+        "moral": "இரக்கம் இரக்கத்தைத் திருப்பித் தரும்; கொடுமை கொடுமையை திருப்பி தருகிறது.",
+        "origin": "இந்திய நாட்டுப்புறக் கதை",
+        "summary": "ஒரு தையல்காரர் யானையை குத்துகிறார், யானை பழிவாங்கும் வகையில் சேற்று நீரை அவன் மீது வீசுகிறது.",
+        "themes": [
+          "நடத்தை",
+          "விளைவுகள்"
+        ]
+      },
+      {
+        "title": "வைஸ் கிளி",
+        "characters": [
+          "கிளி",
+          "அரசன்"
+        ],
+        "id": 12,
+        "imgalt": "The Wise Parrot",
+        "imgsrc": "/images/illustrate/thumbs/12.png",
+        "moral": "நல்ல ஆலோசனைகள் உயிர்களைக் காப்பாற்றும்.",
+        "origin": "பஞ்சதந்திரம்",
+        "summary": "ஒரு கிளி தனது ராஜ்யத்தின் ஆபத்துகளைப் பற்றி ஒரு ராஜாவை எச்சரிக்கிறது மற்றும் அவரது நம்பகமான நண்பராகிறது.",
+        "themes": [
+          "ஞானம்",
+          "பொறுப்பு"
+        ]
+      },
+      {
+        "title": "ஷ்ரவன் குமாரின் பக்தி",
+        "characters": [
+          "ஷ்ரவன்",
+          "பெற்றோர்",
+          "தசரத மன்னன்"
+        ],
+        "id": 13,
+        "imgalt": "Shravan Kumar’s Devotion",
+        "imgsrc": "/images/illustrate/thumbs/13.png",
+        "moral": "பெற்றோருக்கு சேவை செய்வது உன்னதமானது.",
+        "origin": "ராமாயணம்",
+        "summary": "ஷ்ரவன் குமார் தனது பார்வையற்ற பெற்றோரை கவனித்து, பக்தியின் அடையாளமாக மாறுகிறார்.",
+        "themes": [
+          "பக்தி",
+          "குடும்பம்"
+        ]
+      },
+      {
+        "title": "விநாயகரும் மாம்பழமும்",
+        "characters": [
+          "விநாயகர்",
+          "கார்த்திகேயா",
+          "சிவன்",
+          "பார்வதி"
+        ],
+        "id": 14,
+        "imgalt": "Ganesha and the Mango",
+        "imgsrc": "/images/illustrate/thumbs/14.png",
+        "moral": "வேகத்தை விட ஞானம் பெரிது.",
+        "origin": "புராணங்கள்",
+        "summary": "விநாயகர் உலகை விட பெற்றோரை சுற்றி வந்து போட்டியில் வெற்றி பெறுகிறார்.",
+        "themes": [
+          "குடும்பம்",
+          "ஞானம்"
+        ]
+      },
+      {
+        "title": "ராஜா மற்றும் குருவி",
+        "characters": [
+          "அரசன்",
+          "குருவி"
+        ],
+        "id": 15,
+        "imgalt": "The King and the Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/15.png",
+        "moral": "சிறிய கருணை செயல்கள் முக்கியம்.",
+        "origin": "இந்திய நாட்டுப்புறக் கதை",
+        "summary": "ஒரு சிட்டுக்குருவி ஒரு ராஜாவுக்கு அடக்கத்தைக் கற்றுக்கொள்ள உதவுகிறது.",
+        "themes": [
+          "இரக்கம்",
+          "பணிவு"
+        ]
+      },
+      {
+        "title": "கோல்டன் ஸ்வான்",
+        "characters": [
+          "கோல்டன் ஸ்வான்",
+          "அம்மா",
+          "மகள்கள்"
+        ],
+        "id": 16,
+        "imgalt": "The Golden Swan",
+        "imgsrc": "/images/illustrate/thumbs/16.png",
+        "moral": "பேராசை மகிழ்ச்சியை அழிக்கிறது.",
+        "origin": "ஜாதகக் கதைகள்",
+        "summary": "ஒரு தங்க அன்னம் ஒரு ஏழை குடும்பத்திற்கு இறகுகளை அளிக்கிறது, ஆனால் பேராசை எல்லாவற்றையும் அழிக்கிறது.",
+        "themes": [
+          "பேராசை",
+          "பெருந்தன்மை"
+        ]
+      },
+      {
+        "title": "தி ஹங்கிரி மவுஸ்",
+        "characters": [
+          "சுட்டி"
+        ],
+        "id": 17,
+        "imgalt": "The Hungry Mouse",
+        "imgsrc": "/images/illustrate/thumbs/17.png",
+        "moral": "சுய கட்டுப்பாடு முக்கியம்.",
+        "origin": "பஞ்சதந்திரம்",
+        "summary": "அளவுக்கு அதிகமாக சாப்பிட்ட பிறகு எலி ஒரு துளைக்குள் சிக்கிக் கொள்கிறது.",
+        "themes": [
+          "ஒழுக்கம்"
+        ]
+      },
+      {
+        "title": "சிங்கம் மற்றும் சுட்டி",
+        "characters": [
+          "சிங்கம்",
+          "சுட்டி"
+        ],
+        "id": 18,
+        "imgalt": "The Lion and the Mouse",
+        "imgsrc": "/images/illustrate/thumbs/18.png",
+        "moral": "சிறியது கூட வல்லமைக்கு உதவும்.",
+        "origin": "இந்திய தழுவல்",
+        "summary": "ஒரு சிங்கம் ஒரு எலியைக் காப்பாற்றுகிறது மற்றும் எலி சிங்கத்தை பின்னர் மீட்கிறது.",
+        "themes": [
+          "இரக்கம்",
+          "நட்பு"
+        ]
+      },
+      {
+        "title": "வைஸ் கார்பெண்டர்",
+        "characters": [
+          "தச்சர்",
+          "கிராமவாசிகள்"
+        ],
+        "id": 19,
+        "imgalt": "The Wise Carpenter",
+        "imgsrc": "/images/illustrate/thumbs/19.png",
+        "moral": "ஞானம் மோதலைத் தீர்க்கிறது.",
+        "origin": "இந்திய கிராமக் கதை",
+        "summary": "ஒரு தச்சர் புத்திசாலித்தனமான திட்டமிடலைப் பயன்படுத்தி நிலப் பிரச்சினையை அமைதியான முறையில் தீர்க்கிறார்.",
+        "themes": [
+          "அமைதி",
+          "நீதி"
+        ]
+      },
+      {
+        "title": "மேஜிக் டிரம்",
+        "characters": [
+          "பையன்",
+          "தேவதைகள்"
+        ],
+        "id": 20,
+        "imgalt": "The Magic Drum",
+        "imgsrc": "/images/illustrate/thumbs/20.png",
+        "moral": "நேர்மைக்கு வெகுமதி கிடைக்கும்.",
+        "origin": "இந்திய நாட்டுப்புறக் கதை",
+        "summary": "ஒரு அன்பான பையன் உணவு மற்றும் பொம்மைகளை உருவாக்கும் மேஜிக் டிரம்ஸைப் பெறுகிறான்.",
+        "themes": [
+          "மந்திரம்",
+          "இரக்கம்"
+        ]
+      },
+      {
+        "title": "துணிச்சலான சிறிய குருவி",
+        "characters": [
+          "குருவி",
+          "யானை"
+        ],
+        "id": 21,
+        "imgalt": "The Brave Little Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/21.png",
+        "moral": "வீரம் வல்லவரை வெல்லும்.",
+        "origin": "இந்தியா",
+        "summary": "ஒரு குருவி தன் குழந்தைகளை ஒரு பெரிய யானையிடமிருந்து காப்பாற்றுகிறது.",
+        "themes": [
+          "தைரியம்"
+        ]
+      },
+      {
+        "title": "அர்ஜுனன் மற்றும் பறவையின் கண்",
+        "characters": [
+          "அர்ஜுனா",
+          "துரோணர்"
+        ],
+        "id": 22,
+        "imgalt": "Arjuna and the Bird’s Eye",
+        "imgsrc": "/images/illustrate/thumbs/22.png",
+        "moral": "கவனம் வெற்றிக்கு வழிவகுக்கும்.",
+        "origin": "மகாபாரதம்",
+        "summary": "அர்ஜுனன் ஒரு பறவையின் கண்ணில் மட்டும் கவனம் செலுத்தி தன் குருவை கவர்ந்தான்.",
+        "themes": [
+          "ஒழுக்கம்",
+          "பயிற்சி"
+        ]
+      },
+      {
+        "title": "வளைந்த மரம்",
+        "characters": [
+          "வளைந்த மரம்",
+          "உயரமான மரங்கள்"
+        ],
+        "id": 23,
+        "imgalt": "The Crooked Tree",
+        "imgsrc": "/images/illustrate/thumbs/23.png",
+        "moral": "நீங்கள் யார் என்பதில் திருப்தி கொள்ளுங்கள்.",
+        "origin": "இந்திய வனக் கதை",
+        "summary": "ஒரு வளைந்த மரம் அதன் வடிவம் காரணமாக மரம் வெட்டுபவர்களிடமிருந்து தப்பிப்பிழைக்கிறது.",
+        "themes": [
+          "சுய மதிப்பு"
+        ]
+      },
+      {
+        "title": "மேஜிக் பாட்",
+        "characters": [
+          "விவசாயி"
+        ],
+        "id": 24,
+        "imgalt": "The Magic Pot",
+        "imgsrc": "/images/illustrate/thumbs/24.png",
+        "moral": "நல்லவர்களுக்கு நல்ல விஷயங்கள் வரும்.",
+        "origin": "இந்திய நாட்டுப்புறவியல்",
+        "summary": "ஒரு விவசாயி அவன் உள்ளே வைக்கும் எதையும் இரட்டிப்பாக்கும் பானையைக் காண்கிறான்.",
+        "themes": [
+          "மந்திரம்",
+          "நல்ல அதிர்ஷ்டம்"
+        ]
+      },
+      {
+        "title": "வகையான மான்",
+        "characters": [
+          "மான் அரசன்",
+          "டோ",
+          "மனித ராஜா"
+        ],
+        "id": 25,
+        "imgalt": "The Kind Deer",
+        "imgsrc": "/images/illustrate/thumbs/25.png",
+        "moral": "இரக்கம் இரக்கத்தைத் தூண்டுகிறது.",
+        "origin": "ஜாதகக் கதைகள்",
+        "summary": "ஒரு மான் அரசன் ஒரு மாவைக் காப்பாற்றி அரசனின் மரியாதையைப் பெறுகிறான்.",
+        "themes": [
+          "இரக்கம்"
+        ]
+      },
+      {
+        "title": "பறக்கும் யானை",
+        "characters": [
+          "யானை",
+          "முனிவர்"
+        ],
+        "id": 26,
+        "imgalt": "The Flying Elephant",
+        "imgsrc": "/images/illustrate/thumbs/26.png",
+        "moral": "அடக்கமாக இருங்கள்.",
+        "origin": "இந்திய பேண்டஸி",
+        "summary": "இறக்கைகள் கொண்ட யானை தனது சக்திகளை தவறாகப் பயன்படுத்திய பிறகு அவற்றை இழக்கிறது.",
+        "themes": [
+          "பணிவு"
+        ]
+      },
+      {
+        "title": "ஞானத்தின் பானை",
+        "characters": [
+          "பையன்",
+          "முனிவர்"
+        ],
+        "id": 27,
+        "imgalt": "The Pot of Wisdom",
+        "imgsrc": "/images/illustrate/thumbs/27.png",
+        "moral": "பகிர்ந்து கொள்ளும்போது ஞானம் வளரும்.",
+        "origin": "தென்னிந்திய கதை",
+        "summary": "எல்லா ஞானத்தையும் யாராலும் தனியாக வைத்திருக்க முடியாது என்பதை ஒரு பையன் கற்றுக்கொள்கிறான்.",
+        "themes": [
+          "கற்றல்"
+        ]
+      },
+      {
+        "title": "மேஜிக் மீன்",
+        "characters": [
+          "மீனவர்",
+          "மேஜிக் மீன்"
+        ],
+        "id": 28,
+        "imgalt": "The Magic Fish",
+        "imgsrc": "/images/illustrate/thumbs/28.png",
+        "moral": "நன்றியுணர்வு முக்கியம்.",
+        "origin": "இந்தியப் பெருங்கடல் நாட்டுப்புறக் கதை",
+        "summary": "ஒரு மீனவர் சுதந்திரத்திற்கு ஈடாக உதவி வழங்கும் மந்திர மீனைப் பிடிக்கிறார்.",
+        "themes": [
+          "நன்றியுணர்வு",
+          "மந்திரம்"
+        ]
+      },
+      {
+        "title": "தேங்காய் மற்றும் எறும்பு",
+        "characters": [
+          "எறும்புகள்",
+          "தேங்காய்"
+        ],
+        "id": 29,
+        "imgalt": "The Coconut and the Ant",
+        "imgsrc": "/images/illustrate/thumbs/29.png",
+        "moral": "சிறிய முயற்சி கூட முக்கியமானது.",
+        "origin": "கிராமத்து கதை",
+        "summary": "எறும்புகள் ஒன்று சேர்ந்து ஒரு தென்னை கடலுக்குச் செல்ல உதவுகின்றன.",
+        "themes": [
+          "குழுப்பணி"
+        ]
+      },
+      {
+        "title": "புலி மற்றும் விறகுவெட்டி",
+        "characters": [
+          "புலி",
+          "விறகுவெட்டி"
+        ],
+        "id": 30,
+        "imgalt": "The Tiger and the Woodcutter",
+        "imgsrc": "/images/illustrate/thumbs/30.png",
+        "moral": "மற்றவர்களுக்கு உதவுங்கள், நீங்கள் உதவுவீர்கள்.",
+        "origin": "இந்திய காடுகளின் கதை",
+        "summary": "ஒரு விறகுவெட்டி வியக்கத்தக்க வகையில் தனது உயிரைக் காப்பாற்றிய ஒரு புலியை விடுவிக்கிறார்.",
+        "themes": [
+          "இரக்கம்",
+          "தைரியம்"
+        ]
+      },
+      {
+        "title": "இரண்டு பூனைகள் மற்றும் குரங்கு",
+        "characters": [
+          "பூனைகள்",
+          "குரங்கு"
+        ],
+        "id": 31,
+        "imgalt": "The Two Cats and the Monkey",
+        "imgsrc": "/images/illustrate/thumbs/31.png",
+        "moral": "உங்கள் சண்டைகளை மற்றவர்கள் தீர்த்து வைக்க விடாதீர்கள்.",
+        "origin": "பஞ்சதந்திரம்",
+        "summary": "ஒரு குரங்கு ரொட்டியை இரண்டு பூனைகளுக்கு நியாயமாக பிரிப்பது போல் பாசாங்கு செய்து சாப்பிடுகிறது.",
+        "themes": [
+          "நீதி",
+          "முட்டாள்தனம்"
+        ]
+      },
+      {
+        "title": "குருவி மற்றும் கடல்",
+        "characters": [
+          "குருவி",
+          "கடல்",
+          "ராம"
+        ],
+        "id": 32,
+        "imgalt": "The Sparrow and the Sea",
+        "imgsrc": "/images/illustrate/thumbs/32.png",
+        "moral": "உறுதி மலைகளை நகர்த்துகிறது.",
+        "origin": "ராமர் கதை",
+        "summary": "ஒரு சிட்டுக்குருவி தனது முட்டைகளை எடுத்துக் கொள்ளும்போது கடலை அச்சுறுத்துகிறது, ராமரை உற்சாகப்படுத்துகிறது.",
+        "themes": [
+          "தீர்மானம்"
+        ]
+      },
+      {
+        "title": "புலி அழுத சிறுவன்",
+        "characters": [
+          "பையன்",
+          "கிராமவாசிகள்",
+          "புலி"
+        ],
+        "id": 33,
+        "imgalt": "The Boy Who Cried Tiger",
+        "imgsrc": "/images/illustrate/thumbs/33.png",
+        "moral": "பொய் சொல்லாதே.",
+        "origin": "இந்திய தழுவல்",
+        "summary": "ஒரு சிறுவன் கிராம மக்களை முட்டாளாக்குகிறான், ஆனால் உண்மையில் ஒரு புலி தோன்றினால் அவதிப்படுகிறான்.",
+        "themes": [
+          "நேர்மை"
+        ]
+      },
+      {
+        "title": "மந்திர ஆலமரம்",
+        "characters": [
+          "மரம்",
+          "பயணி"
+        ],
+        "id": 34,
+        "imgalt": "The Magic Banyan Tree",
+        "imgsrc": "/images/illustrate/thumbs/34.png",
+        "moral": "தாராள மனப்பான்மை அதிர்ஷ்டத்தைத் தரும்.",
+        "origin": "நாட்டுப்புறக் கதை",
+        "summary": "ஒரு மரம் ஒரு அன்பான பயணிக்கு பழம், நிழல் மற்றும் தங்க நாணயங்களை வழங்குகிறது.",
+        "themes": [
+          "இரக்கம்"
+        ]
+      },
+      {
+        "title": "ஆர்வமுள்ள மயில்",
+        "characters": [
+          "மயில்",
+          "நைட்டிங்கேல்"
+        ],
+        "id": 35,
+        "imgalt": "The Curious Peacock",
+        "imgsrc": "/images/illustrate/thumbs/35.png",
+        "moral": "உங்கள் பலத்தில் மகிழ்ச்சியாக இருங்கள்.",
+        "origin": "இந்திய விலங்குக் கதை",
+        "summary": "ஒரு மயில் ஒரு நைட்டிங்கேலின் குரலை விரும்புகிறது, ஆனால் அழகுக்கு அதன் சொந்த வசீகரம் இருப்பதைக் கற்றுக்கொள்கிறது.",
+        "themes": [
+          "சுய அன்பு"
+        ]
+      },
+      {
+        "title": "புத்திசாலி நெசவாளர்",
+        "characters": [
+          "நெசவாளர்",
+          "பேய்"
+        ],
+        "id": 36,
+        "imgalt": "The Clever Weaver",
+        "imgsrc": "/images/illustrate/thumbs/36.png",
+        "moral": "புத்திசாலித்தனமான உழைப்பு வெற்றி பெறும்.",
+        "origin": "தென் இந்தியா",
+        "summary": "ஒரு நெசவாளர் ஒரு பேயை முட்டாளாக்கி பணக்காரர் ஆகிறார்.",
+        "themes": [
+          "தைரியம்",
+          "ஞானம்"
+        ]
+      },
+      {
+        "title": "கடின உழைப்பின் பலன்கள்",
+        "characters": [
+          "சகோதரர்கள்"
+        ],
+        "id": 37,
+        "imgalt": "The Fruits of Hard Work",
+        "imgsrc": "/images/illustrate/thumbs/37.png",
+        "moral": "கடின உழைப்பு எப்போதும் பலன் தரும்.",
+        "origin": "இந்திய கிராமம்",
+        "summary": "அதிர்ஷ்டத்தை விட முயற்சி முக்கியமானது என்பதை இரண்டு சகோதரர்கள் கற்றுக்கொள்கிறார்கள்.",
+        "themes": [
+          "கடின உழைப்பு"
+        ]
+      },
+      {
+        "title": "தி லிட்டில் டிரம்",
+        "characters": [
+          "பையன்"
+        ],
+        "id": 38,
+        "imgalt": "The Little Drum",
+        "imgsrc": "/images/illustrate/thumbs/38.png",
+        "moral": "நல்ல செயல்கள் பெருகும்.",
+        "origin": "வட இந்தியா",
+        "summary": "ஒரு சிறுவனுக்கு அவன் எங்கு சென்றாலும் மகிழ்ச்சியைத் தரும் ஒரு டிரம் பரிசாக வழங்கப்படுகிறது.",
+        "themes": [
+          "இரக்கம்"
+        ]
+      },
+      {
+        "title": "கழுதை மற்றும் புலி தோல்",
+        "characters": [
+          "கழுதை",
+          "விவசாயி"
+        ],
+        "id": 39,
+        "imgalt": "The Donkey and the Tiger Skin",
+        "imgsrc": "/images/illustrate/thumbs/39.png",
+        "moral": "வேறொருவர் போல் பாசாங்கு செய்வது சிக்கலுக்கு வழிவகுக்கிறது.",
+        "origin": "பஞ்சதந்திரம்",
+        "summary": "ஒரு கழுதை புலியின் தோலை அணிந்துள்ளது, ஆனால் சத்தமிட்டு எல்லாவற்றையும் அழித்துவிடும்.",
+        "themes": [
+          "அடையாளம்"
+        ]
+      },
+      {
+        "title": "மறைக்கப்பட்ட புதையல்",
+        "characters": [
+          "அப்பா",
+          "மகன்கள்"
+        ],
+        "id": 40,
+        "imgalt": "The Hidden Treasure",
+        "imgsrc": "/images/illustrate/thumbs/40.png",
+        "moral": "வேலையே பொக்கிஷம்.",
+        "origin": "இந்திய கிராமக் கதை",
+        "summary": "வயலில் புதைந்து கிடக்கும் புதையல்களைக் கூறி தனது மகன்களை ஏமாற்றி விவசாயம் செய்கிறார் தந்தை.",
+        "themes": [
+          "கடின உழைப்பு"
+        ]
+      },
+      {
+        "title": "துணிச்சலான கிளி",
+        "characters": [
+          "கிளி",
+          "கடவுள்"
+        ],
+        "id": 41,
+        "imgalt": "The Brave Parrot",
+        "imgsrc": "/images/illustrate/thumbs/41.png",
+        "moral": "தைரியம் மற்றவர்களுக்கு உதவும்.",
+        "origin": "ஜாதகக் கதைகள்",
+        "summary": "ஒரு கிளி எரியும் காட்டை காப்பாற்ற முயற்சிக்கிறது மற்றும் கடவுள்களை ஊக்குவிக்கிறது.",
+        "themes": [
+          "வீரம்"
+        ]
+      },
+      {
+        "title": "தி பாய் மற்றும் டிரம்",
+        "characters": [
+          "பையன்"
+        ],
+        "id": 42,
+        "imgalt": "The Boy and the Drum",
+        "imgsrc": "/images/illustrate/thumbs/42.png",
+        "moral": "சிறிய பரிசுகள் பெரிய மாற்றத்தை ஏற்படுத்தும்.",
+        "origin": "இந்திய நாட்டுப்புறக் கதை",
+        "summary": "ஒரு பையன் மகிழ்ச்சியைப் பரப்புவதற்கு டிரம்ஸைப் பயன்படுத்துகிறான்.",
+        "themes": [
+          "இரக்கம்"
+        ]
+      },
+      {
+        "title": "சுட்டி வியாபாரி",
+        "characters": [
+          "வணிகர்"
+        ],
+        "id": 43,
+        "imgalt": "The Mouse Merchant",
+        "imgsrc": "/images/illustrate/thumbs/43.png",
+        "moral": "அதிர்ஷ்டம் தைரியத்தை ஆதரிக்கிறது.",
+        "origin": "பஞ்சதந்திரம்",
+        "summary": "ஒரு மனிதன் ஒரே எலியில் தொடங்கி பணக்காரனாகிறான்.",
+        "themes": [
+          "தைரியம்"
+        ]
+      },
+      {
+        "title": "பேசும் குகை",
+        "characters": [
+          "சிங்கம்",
+          "குள்ளநரி"
+        ],
+        "id": 44,
+        "imgalt": "The Talking Cave",
+        "imgsrc": "/images/illustrate/thumbs/44.png",
+        "moral": "அதிகப்படியான சிந்தனை சிக்கலுக்கு வழிவகுக்கிறது.",
+        "origin": "பஞ்சதந்திரம்",
+        "summary": "ஒரு சிங்கம் ஒரு குகையில் ஒளிந்து கொள்கிறது மற்றும் ஒரு புத்திசாலி நரி ஆபத்தைத் தவிர்க்கிறது.",
+        "themes": [
+          "எச்சரிக்கை"
+        ]
+      },
+      {
+        "title": "பேராசை கொண்ட பார்பர்",
+        "characters": [
+          "முடி திருத்துபவர்"
+        ],
+        "id": 45,
+        "imgalt": "The Greedy Barber",
+        "imgsrc": "/images/illustrate/thumbs/45.png",
+        "moral": "பேராசை ஞானத்தை அழிக்கிறது.",
+        "origin": "இந்தியா",
+        "summary": "ஒரு முடிதிருத்துபவன் பேராசையால் தன் செல்வம் அனைத்தையும் இழக்கிறான்.",
+        "themes": [
+          "பேராசை"
+        ]
+      },
+      {
+        "title": "மில்க்மெய்டின் கனவு",
+        "characters": [
+          "மில்க்மெய்ட்"
+        ],
+        "id": 46,
+        "imgalt": "The Milkmaid’s Dream",
+        "imgsrc": "/images/illustrate/thumbs/46.png",
+        "moral": "உங்கள் கோழிகள் குஞ்சு பொரிப்பதற்கு முன்பு அவற்றை எண்ண வேண்டாம்.",
+        "origin": "இந்தியா",
+        "summary": "ஒரு பால் வேலைக்காரி செல்வத்தை கனவு கண்டு தன் பாலை சிந்துகிறாள்.",
+        "themes": [
+          "திட்டமிடல்"
+        ]
+      },
+      {
+        "title": "மந்திர குருவி",
+        "characters": [
+          "குருவி",
+          "விவசாயி"
+        ],
+        "id": 47,
+        "imgalt": "The Magical Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/47.png",
+        "moral": "உதவி வெகுமதியைத் தருகிறது.",
+        "origin": "இந்திய கிராமம்",
+        "summary": "ஒரு சிட்டுக்குருவி ஒரு விவசாயிக்கு உதவுகிறது மற்றும் அவரது பயிர்கள் மாயமாக வளர உதவுகிறது.",
+        "themes": [
+          "மந்திரம்",
+          "இரக்கம்"
+        ]
+      },
+      {
+        "title": "புத்திசாலித்தனமான பழைய யானை",
+        "characters": [
+          "யானை"
+        ],
+        "id": 48,
+        "imgalt": "The Wise Old Elephant",
+        "imgsrc": "/images/illustrate/thumbs/48.png",
+        "moral": "வயது ஞானத்தைத் தரும்.",
+        "origin": "இந்திய காடு கதை",
+        "summary": "ஒரு வயதான யானை வறட்சியின் போது தனது கூட்டத்தை பாதுகாப்பான இடத்திற்கு வழிநடத்துகிறது.",
+        "themes": [
+          "ஞானம்"
+        ]
+      },
+      {
+        "title": "தாமரை மற்றும் தவளை",
+        "characters": [
+          "தவளை",
+          "தாமரை"
+        ],
+        "id": 49,
+        "imgalt": "The Lotus and the Frog",
+        "imgsrc": "/images/illustrate/thumbs/49.png",
+        "moral": "பொறுமை சக்தி வாய்ந்தது.",
+        "origin": "இந்திய நதிக்கதை",
+        "summary": "ஒரு தாமரை அமைதியற்ற தவளைக்கு மெதுவாக கற்றுக்கொடுக்கிறது.",
+        "themes": [
+          "பொறுமை"
+        ]
+      },
+      {
+        "title": "பல இனிப்புகளை சாப்பிட்ட ராஜா",
+        "characters": [
+          "அரசன்",
+          "ராயல் குக்"
+        ],
+        "id": 50,
+        "imgalt": "The King Who Ate Too Many Sweets",
+        "imgsrc": "/images/illustrate/thumbs/50.png",
+        "moral": "நிதானம் முக்கியம்.",
+        "origin": "இந்திய அரண்மனை கதை",
+        "summary": "ஒரு ராஜா இனிப்புகளை அதிகமாக சாப்பிடுகிறார், மேலும் தனது பசியை கட்டுப்படுத்த கற்றுக்கொள்கிறார்.",
+        "themes": [
+          "ஆரோக்கியம்",
+          "ஒழுக்கம்"
+        ]
+      }
+    ]
+  }
+}

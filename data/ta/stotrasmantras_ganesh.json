@@ -1,0 +1,210 @@
+{
+  "stotrasmantras_ganesh": {
+    "title": "ஸ்தோத்திரங்கள் & மந்திரங்கள் | விநாயகர் — சனாதன தர்மம் - சனாதன தர்மத்தை ஆராயுங்கள்",
+    "meta": {
+      "title": "ஸ்தோத்திரங்கள் & மந்திரங்கள் | விநாயகர் — சனாதன தர்மம் - சனாதன தர்மத்தை ஆராயுங்கள்",
+      "canonical": "https://sanatanadharmam.in/stotrasmantras/ganesha",
+      "description": "ஸ்தோத்ரஸ்மந்த்ரங்கள் — விநாயகர் — சனாதன தர்மம் – சனாதன தர்மத்தை ஆராயுங்கள் — கட்டுரைகள், மொழிபெயர்ப்புகள் மற்றும் ஸ்தோத்ரஸ்மந்திரங்கள் பற்றிய சுருக்கமான வர்ணனைகள். நடைமுறைகள், வரலாறு மற்றும் வழிகாட்டுதல் ஆகியவற்றை ஆராயுங்கள்...",
+      "keywords": [
+        "Ancient Wisdom Stotrasmantras Ganesha",
+        "Ayurveda Stotrasmantras Ganesha",
+        "Bhagavad Gita Stotrasmantras Ganesha",
+        "Deities Stotrasmantras Ganesha",
+        "Festivals and Traditions Stotrasmantras Ganesha",
+        "Hindu Mythology Stotrasmantras Ganesha",
+        "Hinduism Stotrasmantras Ganesha",
+        "Indian Culture Stotrasmantras Ganesha",
+        "Indian Festivals Stotrasmantras Ganesha",
+        "Indian Philosophy Stotrasmantras Ganesha",
+        "Mahabharata Stotrasmantras Ganesha",
+        "Mythology Stotrasmantras Ganesha",
+        "Philosophy Stotrasmantras Ganesha",
+        "Pilgrimage Stotrasmantras Ganesha",
+        "Puranas Stotrasmantras Ganesha",
+        "Ramayana Stotrasmantras Ganesha",
+        "Religious Knowledge Stotrasmantras Ganesha",
+        "Rituals Stotrasmantras Ganesha",
+        "Sanatanadharmam Stotrasmantras Ganesha",
+        "Sanskrit Stotrasmantras Ganesha",
+        "Spiritual Practices Stotrasmantras Ganesha",
+        "Spirituality Stotrasmantras Ganesha",
+        "Stotrasmantras Ganesha Overview",
+        "Temples Stotrasmantras Ganesha",
+        "Upanishads Stotrasmantras Ganesha",
+        "Vedas Stotrasmantras Ganesha",
+        "Yoga and Meditation Stotrasmantras Ganesha"
+      ],
+      "ogimage": "/og/stotrasmantras-ganesha.png",
+      "url": "https://sanatanadharmam.in/stotrasmantras/ganesha"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "அமைப்பு",
+        "contactpoint": {
+          "@type": "தொடர்பு புள்ளி",
+          "areaserved": "உலகம் முழுவதும்",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "ஆங்கிலம்",
+            "எஸ்பானோல்",
+            "பிரான்சிஸ்",
+            "ஹிந்தி",
+            "எஸ்",
+            "நேபாளி",
+            "நெதர்லாந்து",
+            "போர்த்துகீசியர்கள்",
+            "ருஸ்கி",
+            "தெலுங்கு",
+            "அர்து",
+            "中文 (简体)"
+          ],
+          "contacttype": "வாடிக்கையாளர் ஆதரவு",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "சனாதனதர்மம்.இன் பற்றி",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "ganesh_stotras": [
+      {
+        "author": "ஆதி சங்கராச்சாரியார்",
+        "benefits": [
+          "தடைகளை நீக்குகிறது",
+          "அறிவாற்றல் மற்றும் நினைவாற்றலை அதிகரிக்கிறது",
+          "நேர்மறை ஆற்றலை அதிகரிக்கிறது",
+          "மனதை தூய்மையாக்கும்"
+        ],
+        "description": "ஆதி சங்கராச்சாரியார் இயற்றிய ஐந்து ரத்தினக் கீர்த்தனை, தடைகளை நீக்குபவர் மற்றும் ஞானத்தை அளிப்பவர் என்று விநாயகப் பெருமானைப் போற்றிப் பாடினார்.",
+        "id": 1,
+        "key_excerpt": "முদாகரத்தமோদகம் சদாவிமுக்திஸாধகம் ।",
+        "language": "சமஸ்கிருதம்",
+        "name": "கணேச பஞ்சரத்தினம்",
+        "structure": {
+          "theme": "பக்தி, தடைகள் நீங்குதல், தெய்வீக அருள்",
+          "verses": 5
+        },
+        "type": "ஸ்தோத்ரம்"
+      },
+      {
+        "benefits": [
+          "ஆன்மீக பலம்",
+          "எதிர்மறையிலிருந்து பாதுகாப்பு",
+          "மனதையும் சுற்றுச்சூழலையும் தூய்மையாக்கும்",
+          "எல்லா முயற்சிகளிலும் வெற்றியைத் தரும்"
+        ],
+        "description": "விநாயகரை உச்ச பிரம்மன், ஓமின் வெளிப்பாடு மற்றும் பிரபஞ்ச யதார்த்தம் என்று அறிவிக்கும் புனித உபநிடத உரை.",
+        "id": 2,
+        "key_excerpt": "த்வம் ஏவ ப்ரத்யக்ஷம் தத்வம் அஸி ।",
+        "language": "சமஸ்கிருதம்",
+        "name": "விநாயகர் அதர்வஷிர்ஷா",
+        "origin": "அதர்வ வேதம் (கணபதி உபநிஷத்)",
+        "sections": [
+          "கணபதிக்கு வணக்கம்",
+          "பிரம்மனுடன் அடையாளம் காணுதல்",
+          "தியானம் மற்றும் பீஜ மந்திரங்கள்",
+          "பலா ஸ்ருதி"
+        ],
+        "type": "உபநிஷத கீதம்"
+      },
+      {
+        "benefits": [
+          "தீங்கிலிருந்து பாதுகாப்பு",
+          "பயத்தை நீக்குகிறது",
+          "எதிர்மறை தாக்கங்களை அழிக்கிறது",
+          "தைரியத்தை மேம்படுத்துகிறது"
+        ],
+        "coverage": {
+          "body_protection": "தலை, இதயம், கைகால்கள், புலன்கள்",
+          "closing": "வெற்றிக்கு வாழ்த்துகள்"
+        },
+        "description": "உடலையும் மனதையும் காக்க விநாயகரின் பல்வேறு வடிவங்களை அழைக்கும் பாதுகாப்பு கவச பிரார்த்தனை.",
+        "id": 3,
+        "key_excerpt": "லம்போதரः பத்து நான் ஹৃதயம்",
+        "language": "சமஸ்கிருதம்",
+        "name": "நாரத புராணத்திலிருந்து கணேச ஸ்தோத்ரம் (கணேச கவசம்)",
+        "origin": "நாரத புராணம்",
+        "type": "கவாச்சா"
+      },
+      {
+        "benefits": [
+          "கவனம் மற்றும் தெளிவு",
+          "உள் தடைகளை நீக்குகிறது",
+          "உணர்ச்சி சமநிலையை மேம்படுத்துகிறது"
+        ],
+        "description": "'ஓம் கம் கணபதயே நமஹ' என்ற விநாயக மூல மந்திரத்தைச் சுற்றி அவரது பிரபஞ்ச வடிவத்தைப் போற்றிக் கட்டப்பட்ட ஒரு பாடல்.",
+        "id": 4,
+        "key_excerpt": "ॐ गंगणबतये नमः",
+        "language": "சமஸ்கிருதம்",
+        "name": "விநாயக மூல மந்திர ஸ்தோத்ரம்",
+        "origin": "தாந்த்ரீக பாரம்பரியம்",
+        "type": "ஸ்தோத்ரம் / மந்திரம்"
+      },
+      {
+        "benefits": [
+          "பணிகளைத் தொடங்கும் முன் சிரமங்களை நீக்குகிறது",
+          "செறிவை மேம்படுத்துகிறது",
+          "வெற்றிக்கான ஆசீர்வாதங்களை அழைக்கிறது"
+        ],
+        "description": "எந்த வேலை அல்லது பூஜை தொடங்கும் முன் பயன்படுத்தப்படும் மிகவும் பிரபலமான குறுகிய ஸ்தோத்திரங்களில் ஒன்று.",
+        "id": 5,
+        "key_excerpt": "வக்ரதுண்ட மஹாகாய் சூரியகோடி ஸம்ப்ரப ।",
+        "language": "சமஸ்கிருதம்",
+        "name": "வக்ரதுண்ட மஹாகாய ஸ்தோத்ரம்",
+        "origin": "புராண மரபு",
+        "type": "தியானம் / அழைப்பு",
+        "verses": 1
+      },
+      {
+        "benefits": [
+          "இடத்தை சுத்தப்படுத்துகிறது",
+          "அமைதியையும் தெளிவையும் தருகிறது",
+          "ஐஸ்வர்யத்தை அழைக்கிறது"
+        ],
+        "description": "தடைகளை நீக்குபவர், ஒற்றை தந்தம் கொண்ட இறைவனை விவரிக்கும் பிரபலமான விநாயகர் தியான ஸ்லோகம்.",
+        "id": 6,
+        "key_excerpt": "கஜானனம் பூதகணாதி சேவிதம்",
+        "language": "சமஸ்கிருதம்",
+        "name": "கஜானனம் பூத கணாதி ஸேவிதம்",
+        "origin": "சடங்கு அழைப்பு (தேவ பூஜை)",
+        "type": "தியானம்",
+        "verses": 1
+      },
+      {
+        "benefits": [
+          "பொருள் செழிப்பு",
+          "இலக்குகளை அடைதல்",
+          "தொழில் ரீதியாகவும் சட்ட ரீதியாகவும் உள்ள தடைகளை முறியடிக்கும்"
+        ],
+        "description": "விநாயகரின் சித்தி-விநாயக வடிவத்திற்கு அர்ப்பணிக்கப்பட்ட ஒரு பாடல், நிறைவையும் வெற்றியையும் அளிக்கிறது.",
+        "id": 7,
+        "key_excerpt": "சித்தி விநாயகம் வந்தே",
+        "language": "சமஸ்கிருதம்",
+        "name": "ஸ்ரீ சித்தி விநாயக ஸ்தோத்திரம்",
+        "origin": "புராண மரபு",
+        "sections": {
+          "theme": "வெற்றி, செழிப்பு, தெய்வீக ஆசீர்வாதம்",
+          "verses": 16
+        },
+        "type": "ஸ்தோத்ரம்"
+      },
+      {
+        "benefits": [
+          "கர்ம தடைகளை நீக்குகிறது",
+          "பக்தியை பலப்படுத்துகிறது",
+          "குடும்ப அமைதியை தரும்"
+        ],
+        "description": "விநாயகரை உடனடியாக வரங்களை வழங்கும் சிவனின் அன்பு மகன் என்று விவரிக்கும் ஒரு பாடல்.",
+        "id": 8,
+        "key_excerpt": "சுரசுரர்யத் பரிபூஜ்யமானம்",
+        "language": "சமஸ்கிருதம்",
+        "name": "ருத்ர சம்ஹிதையிலிருந்து கணபதி ஸ்தோத்திரம்",
+        "origin": "சிவபுராணம் - ருத்ர சம்ஹிதை",
+        "type": "ஸ்தோத்ரம்"
+      }
+    ]
+  }
+}

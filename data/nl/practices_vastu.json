@@ -1,0 +1,190 @@
+{
+  "philosophy_vastu": {
+    "meta": {
+      "title": "Praktijken | Vastu - Sanātana Dharma - Ontdek Sanatan Dharma",
+      "canonical": "https://sanatanadharmam.in/practices/vastu",
+      "description": "Praktijken — Vastu — Sanātana Dharma - Ontdek Sanatan Dharma — Artikelen, vertalingen en beknopt commentaar op praktijken. Ontdek praktijken, geschiedenis en leidende principes bij...",
+      "keywords": [
+        "Bhagavathgita",
+        "Bhagavathgita's begeleiding bij ethische dilemma's en besluitvorming",
+        "Bharat",
+        "Bouw met vibe-codering met ChatGPT, Micro Soft 365 Copilot",
+        "Bouw met vibe-codering met github copilot",
+        "Dharma",
+        "Dhrapati's wijsheid over veerkracht en doorzettingsvermogen",
+        "Eeuwige waarheid",
+        "Filosofie",
+        "Heilige teksten",
+        "Hindoe",
+        "Hindoe-geschriften",
+        "Hindoeïsme",
+        "Hoe beoefen je sanātana dharma in het dagelijks leven?",
+        "Hoe breng je het materiële en spirituele leven in evenwicht volgens sanātana dharma?",
+        "Hoe kijkt sanātana dharma naar andere religies en overtuigingen?",
+        "Hoe kun je compassie en empathie cultiveren volgens sanātana dharma?",
+        "Hoe kun je een dharmisch leven leiden in de moderne wereld?",
+        "Hoe kun je een doel en betekenis in het leven vinden volgens sanātana dharma?",
+        "Hoe kun je lijden overwinnen en innerlijke vrede vinden volgens sanātana dharma?",
+        "Hoe kun je sanātana dharma leren?",
+        "Hoe kun je toewijding (bhakti) in sanātana dharma ontwikkelen?",
+        "Indiase cultuur",
+        "Indië",
+        "Innerlijke vrede",
+        "Is het lot vast of veranderlijk? Wat Sanatana Dharma zegt",
+        "Is karma een straf of een les? Krishna's echte antwoord",
+        "Itihasa's",
+        "Kan karma uit het verleden in dit leven worden verbeterd?",
+        "Karma",
+        "Mahabharata",
+        "Mahabharata's leringen over leiderschap en bestuur",
+        "Meditatie",
+        "Moksha",
+        "Mondiale spiritualiteit",
+        "Oosterse filosofie",
+        "Oude wijsheid",
+        "Purana's",
+        "Ramayana",
+        "Sanatanadharam",
+        "Sanātana Dharma",
+        "Sanātana Dharmam",
+        "Sanātana dharma's visie op wetenschap en spiritualiteit",
+        "Spiritualiteit",
+        "Test God iedereen? Een dharmische verklaring",
+        "Universeel bewustzijn",
+        "Upanishads",
+        "Veda's",
+        "Vedische tradities",
+        "Verschil tussen karma, lot en vrije wil",
+        "Waarom gebeden niet werken, wordt meteen uitgelegd door Bhagavathgita",
+        "Waarom lijden goede mensen volgens karma?",
+        "Waarom lijken slechte mensen te slagen terwijl goede mensen worstelen?",
+        "Waarom sanātana dharma?",
+        "Wat Krishna zegt over angst, angst, falen en stress?",
+        "Wat gebeurt er na de dood volgens sanātana dharma?",
+        "Wat is de betekenis van rituelen in sanātana dharma?",
+        "Wat is de relatie tussen sanātana dharma en de natuur?",
+        "Wat is de rol van meditatie en yoga in sanātana dharma?",
+        "Wat is het belang van de goeroe-shishya-traditie in sanātana-dharma?",
+        "Wat is het concept van moksha in sanātana dharma?",
+        "Wat is sanātana-dharma?",
+        "Wat zegt Rama over het omgaan met uitdagingen in het leven?",
+        "Wat zijn de kernwaarden van sanātana dharma?",
+        "Wereldreligies",
+        "Yoga",
+        "Zelfrealisatie",
+        "sanatanadharma",
+        "sanātana dharma",
+        "sanātana dharma uitgelegd"
+      ],
+      "ogimage": "/og/practices-vastu.png",
+      "url": "https://sanatanadharmam.in/practices/vastu"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organisatie",
+        "contactpoint": {
+          "@type": "ContactPunt",
+          "areaserved": "Wereldwijd",
+          "availablelanguage": [
+            "العربية",
+            "Duits",
+            "Engels",
+            "Spaans",
+            "Frans",
+            "Ja",
+            "日本語",
+            "Ja",
+            "Nederlands",
+            "Portugees",
+            "Русский",
+            "Ja",
+            "Ja",
+            "中文 (简体)"
+          ],
+          "contacttype": "Klantenondersteuning",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Over Sanatanadharam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "common_vastu_doshas": [
+      {
+        "dosha": "Hoofdingang kijkt in de verkeerde richting",
+        "impact": "Blokkeert positieve energie, veroorzaakt financiële instabiliteit.",
+        "remedies": [
+          "Plaats een Vastu Yantra bij de ingang.",
+          "Installeer een Swastika- of Om-symbool op de deur.",
+          "Gebruik heldere verlichting en houd de ingang schoon."
+        ]
+      },
+      {
+        "dosha": "Keuken in noordoostelijke hoek",
+        "impact": "Creëert gezondheidsproblemen en familieconflicten.",
+        "remedies": [
+          "Verplaats het kookfornuis indien mogelijk naar Zuid-Oost.",
+          "Plaats een spiegel op de noordelijke muur om de kachel te reflecteren.",
+          "Houd waterelementen gescheiden van vuurelementen."
+        ]
+      },
+      {
+        "dosha": "Toilet in Noordoosthoek",
+        "impact": "Blokkeert spirituele energie, veroorzaakt mentale stress.",
+        "remedies": [
+          "Plaats een Vastu-piramide of kristal in het toilet.",
+          "Houd de toiletdeur gesloten en zorg voor netheid.",
+          "Gebruik lichte kleuren en installeer afzuigventilatoren."
+        ]
+      },
+      {
+        "dosha": "Slaapkamer in Zuid-Oost hoek",
+        "impact": "Veroorzaakt agressie en relatieproblemen.",
+        "remedies": [
+          "Verschuif slaapkamer indien mogelijk naar Zuid-West.",
+          "Gebruik rustgevende kleuren zoals lichtblauw of groen.",
+          "Plaats een Vastu Yantra of Himalaya zoutlamp."
+        ]
+      },
+      {
+        "dosha": "Trap in noordoostelijke hoek",
+        "impact": "Blokkeert voorspoed en spirituele groei.",
+        "remedies": [
+          "Trap in lichte kleuren schilderen.",
+          "Plaats een Vastu-piramide onder aan de trap.",
+          "Vermijd zware opslag onder de trap."
+        ]
+      }
+    ],
+    "definition": "Vastu Dosha's zijn onevenwichtigheden of gebreken in de ruimtelijke ordening van een gebouw die de natuurlijke energiestroom verstoren en gezondheids-, financiële en emotionele problemen veroorzaken.",
+    "general_remedies": [
+      "Houd ruimtes schoon en opgeruimd.",
+      "Gebruik spiegels strategisch om de energiestroom te corrigeren.",
+      "Installeer Vastu Yantras, kristallen en piramides.",
+      "Plaats planten in Noord of Oost voor positieve energie.",
+      "Zorg voor goede ventilatie en natuurlijk licht."
+    ],
+    "key_scriptural_references": [
+      {
+        "quote_summary": "Beschrijft remedies voor directionele onevenwichtigheden.",
+        "text": "Mayamata"
+      },
+      {
+        "quote_summary": "Schrijft corrigerende maatregelen voor structurele defecten voor.",
+        "text": "Manasara"
+      }
+    ],
+    "modern_relevance": {
+      "architecture": "Toegepast in woningontwerp en interieurplanning.",
+      "corporate_spaces": "Optimaliseert productiviteit en harmonie.",
+      "psychology": "Verbetert het mentale welzijn door evenwichtige ruimtes."
+    },
+    "symbolism": [
+      "Yantra's vertegenwoordigen kosmische energie-uitlijning.",
+      "Kleuren beïnvloeden de stemming en de energiebalans.",
+      "Planten zuiveren de lucht en trekken positieve trillingen aan."
+    ]
+  }
+}

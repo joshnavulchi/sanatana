@@ -1,0 +1,2479 @@
+{
+  "scriptures_sanksheparamayana": {
+    "title": "罗摩衍那",
+    "meta": {
+      "title": "经文| Sankshepa Ramayana — Sanatana Dharma - 探索 Sanatana Dharma",
+      "canonical": "https://sanatanadharmam.in/scriptures/sanksheparamayanam",
+      "description": "Ramayana — Valmiki's Epic and Commentary — 关于罗摩衍那的文章、翻译和简明评论。探索实践、历史和指导原则......",
+      "keywords": [
+        "Adaptability and relevance",
+        "Allegory and symbolism",
+        "Avatars of Vishnu",
+        "Ayodhya",
+        "Bhakti",
+        "Cosmic cycles",
+        "Creation myths",
+        "Cultural heritage",
+        "Devotees and bhakti",
+        "Dharma",
+        "Dissolution of the universe",
+        "Ethical teachings",
+        "Genealogies of gods and sages",
+        "Hanuman",
+        "Hindu epics",
+        "Indian mythology",
+        "Itihasa",
+        "Lakshmana",
+        "Lanka",
+        "Legends of kings",
+        "Mithila",
+        "Moral lessons",
+        "Philosophical insights",
+        "Rama",
+        "Ramayana",
+        "Ravana",
+        "Religious stories",
+        "Rituals and festivals",
+        "Sacred geography",
+        "Sankshepa Ramayana",
+        "Sita",
+        "Spiritual liberation",
+        "Spiritual teachings",
+        "Stories of Shiva",
+        "Valmiki Ramayana"
+      ],
+      "ogimage": "/og/ramayana.png",
+      "url": "https://sanatanadharmam.in/scriptures/sanksheparamayanam"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "组织",
+        "contactpoint": {
+          "@type": "联络点",
+          "areaserved": "全世界",
+          "availablelanguage": [
+            "巴黎",
+            "德语",
+            "英语",
+            "西班牙语",
+            "法国人",
+            "हिन्दी",
+            "日本语",
+            "नेपाली",
+            "荷兰",
+            "葡萄牙语",
+            "俄罗斯",
+            "తెలుగు",
+            "阿鲁多",
+            "中文 (简体)"
+          ],
+          "contacttype": "客户支持",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "关于 Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "author": "瓦尔米基·马哈希",
+    "core_themes": [
+      {
+        "title": "佛法（正义）"
+      },
+      {
+        "title": "巴克提（奉献）"
+      },
+      {
+        "title": "真理与牺牲"
+      }
+    ],
+    "description": "纳拉达·马哈希 (Narada Maharshi) 用整整 100 个诗句向圣人瓦尔密基 (Sage Valmiki) 讲述了整部《罗摩衍那》。",
+    "important_places": [
+      {
+        "desc": "罗摩王国的首都。",
+        "name": "阿约提亚"
+      },
+      {
+        "desc": "贾纳卡国王的王国，西塔的出生地。",
+        "name": "米提拉"
+      },
+      {
+        "desc": "拉瓦那的王国。",
+        "name": "兰卡"
+      }
+    ],
+    "main_characters": [
+      {
+        "name": "罗摩",
+        "role": "阿约提亚王子，毗湿奴的化身，佛法的化身。"
+      },
+      {
+        "name": "西塔",
+        "role": "罗摩的妻子，纯洁和奉献的象征。"
+      },
+      {
+        "name": "拉克什玛纳",
+        "role": "罗摩忠诚的兄弟。"
+      },
+      {
+        "name": "哈努曼",
+        "role": "罗摩的奉献者，力量和奉献的象征。"
+      },
+      {
+        "name": "罗波那",
+        "role": "兰卡之王，自我与佛法的象征。"
+      }
+    ],
+    "slokas": [
+      {
+        "kandareference": "巴拉坎达",
+        "number": 1,
+        "philosophicalinsight": "对理想人的追寻反映了对佛法的永恒追求。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "तपःस्वाध्यायनिरतं तपस्वी वाग्विदां वरम् । नारदं परिपप्रच्छ वाल्मीकिर्मुनिपुङ्गवम् ॥",
+        "simplemeaning": "致力于苦修和学习的圣人瓦尔米基（Valmiki）恭敬地向智者中最伟大的圣人纳拉达（Sage Narada）提出了一个问题。",
+        "storycontext": "这节经文是《罗摩衍那》的开始。瓦尔米基试图知道是否存在完美的人类。",
+        "transliteration": "Tapah-svadhyaya-niratam Tapasvi vagvidam varam，Naradam paripapraccha Valmikir muni-pungavam。",
+        "wordmeaning": [
+          {
+            "meaning": "紧缩",
+            "word": "打巴"
+          },
+          {
+            "meaning": "自学经文",
+            "word": "斯瓦迪亚亚"
+          },
+          {
+            "meaning": "圣人那拉达",
+            "word": "纳拉达姆"
+          },
+          {
+            "meaning": "圣人瓦尔米基",
+            "word": "瓦尔米基"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "philosophicalinsight": "真正的伟大是由品格决定的，而不是权力。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "को न्वस्मिन् साम्प्रतं लोके गुणवान्कश्च वीर्यवान् । धर्मज्ञश्च कृतज्ञश्च सत्यवाक्योदृढव्रतः॥",
+        "simplemeaning": "瓦尔密问：世间有谁是贤德、勇敢、有学问、感恩、诚实、誓愿坚定的人？",
+        "storycontext": "瓦尔米基列出了理想人的品质。",
+        "transliteration": "Ko nvasmin sampratam loke Gunavan kashcha viryavan、Dharmajnah cha kritajnah cha satyavakyo drdhavratah。",
+        "wordmeaning": [
+          {
+            "meaning": "有德行的",
+            "word": "古纳万"
+          },
+          {
+            "meaning": "勇敢而强大",
+            "word": "维里亚万"
+          },
+          {
+            "meaning": "知义者",
+            "word": "法明"
+          },
+          {
+            "meaning": "说真话的人",
+            "word": "萨蒂亚瓦基亚"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "philosophicalinsight": "一个理想的统治者必须集智慧、慈悲和力量于一体。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "चारित्रेण च को युक्तः सर्वभूतेषु को हितः । विद्वान्कः कः समर्थश्च कश्चैकप्रियदर्शनः ॥",
+        "simplemeaning": "谁的品德高尚，为一切众生的福祉而努力，有智慧，有能力，令所有人喜悦？",
+        "storycontext": "对理想美德的描述仍在继续。",
+        "transliteration": "Charitrena cha ko yuktah sarva-bhuteshu ko hitah、Vidvan kah kah samarthash cha kash chaika-priya-darshanah。",
+        "wordmeaning": [
+          {
+            "meaning": "品行良好",
+            "word": "查里特雷纳"
+          },
+          {
+            "meaning": "一切众生的祈愿者",
+            "word": "萨瓦·布特舒·希塔"
+          },
+          {
+            "meaning": "学到了",
+            "word": "维德万"
+          },
+          {
+            "meaning": "外表宜人",
+            "word": "普里亚-达沙纳"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "philosophicalinsight": "力量必须通过自我控制来平衡。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "आत्मवान्कोजितक्रोधोद्युतिमान्कोऽनसूयकः। कस्य बिभ्यति देवाश्च जातरोषस्य संयुगे ॥",
+        "simplemeaning": "谁能够自制，战胜愤怒，容光焕发，没有嫉妒，在战斗中连诸神都害怕他的愤怒？",
+        "storycontext": "瓦尔米基强调理想人的温柔和力量。",
+        "transliteration": "Atmavan ko jita-krodho dyutiman ko'nasuyakah、Kasya bibhyati devash cha jata-roshasya samyuge。",
+        "wordmeaning": [
+          {
+            "meaning": "自我控制",
+            "word": "阿特马万"
+          },
+          {
+            "meaning": "一个已经战胜愤怒的人",
+            "word": "吉塔克罗达"
+          },
+          {
+            "meaning": "光辉灿烂",
+            "word": "迪尤蒂曼"
+          },
+          {
+            "meaning": "免于嫉妒",
+            "word": "阿纳苏亚卡"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "philosophicalinsight": "灵性知识始于真诚的探究。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": true
+        },
+        "sanskrit": "एतदिच्छाम्यहं श्रोतुं परं कौतूहलं हि मे । महर्षे त्वं समर्थोऽसि ज्ञातुमेवंविधं नरम् ॥",
+        "simplemeaning": "我非常希望听到这样一个人的故事。大圣啊，你能认识这样的人。",
+        "storycontext": "瓦尔米基邀请纳拉达揭示这个理想存在的身份——罗摩。",
+        "transliteration": "Etad icchamyaham shrotum param kautuhalam 你好，Maharṣe tvam samartho'si jnatum evam-vidham naram。",
+        "wordmeaning": [
+          {
+            "meaning": "我渴望",
+            "word": "一茶见"
+          },
+          {
+            "meaning": "听到",
+            "word": "什罗图姆"
+          },
+          {
+            "meaning": "极大的好奇心",
+            "word": "考图哈兰"
+          },
+          {
+            "meaning": "这样的人",
+            "word": "纳拉姆"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "philosophicalinsight": "神圣的卓越是罕见的和非凡的。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "बहवो दुर्लभाश्चैव ये त्वया कीर्तिता गुणाः । मुने वक्ष्याम्यहं बुद्ध्वा तैर्युक्तः श्रूयतां नरः ॥",
+        "simplemeaning": "那拉达说：圣人啊，您所描述的品质是很多且罕见的。我会告诉你一个拥有它们的人。",
+        "storycontext": "纳拉达准备揭露理想男人的身份。",
+        "transliteration": "Bahavo durlabhash chaiva ye tvaya kirtita Gunah，Mune vakshyamyaham buddhva tair yuktah shruyatam narah。",
+        "wordmeaning": [
+          {
+            "meaning": "许多",
+            "word": "巴哈瓦"
+          },
+          {
+            "meaning": "稀有的",
+            "word": "杜拉巴"
+          },
+          {
+            "meaning": "品质",
+            "word": "古纳"
+          },
+          {
+            "meaning": "我会告诉",
+            "word": "瓦克夏米"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "philosophicalinsight": "罗摩代表以佛法为指导的纪律力量。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "इक्ष्वाकुवंशप्रभवोरामोनामजनैःश्रुतः। नियतात्मा महावीर्यो द्युतिमान् धृतिमान् वशी ॥",
+        "simplemeaning": "有一个人名叫罗摩，出生于伊克什瓦库王朝。他自我控制、强大、容光焕发、耐心且自律。",
+        "storycontext": "纳拉达将罗摩介绍为理想的人。",
+        "transliteration": "Ikshvaku-vamsha-prabhavo Ramo nama janaih shrutah，Niyatatma maha-viryo dyutiman dhritiman vashi。",
+        "wordmeaning": [
+          {
+            "meaning": "伊克什瓦库王朝",
+            "word": "伊克什瓦库瓦姆沙"
+          },
+          {
+            "meaning": "罗摩",
+            "word": "拉玛"
+          },
+          {
+            "meaning": "自我控制",
+            "word": "尼亚塔玛"
+          },
+          {
+            "meaning": "非常强大",
+            "word": "大雄宝殿"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "philosophicalinsight": "理想的领导力结合了智慧和力量。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "बुद्धिमान् नीतिमान् वाग्मी श्रीमान् शत्रुनिबर्हणः । विपुलांसो महाबाहुः कम्बुग्रीवो महाहनुः ॥",
+        "simplemeaning": "罗摩聪明、正义、雄辩、优雅，是敌人的毁灭者。他有宽阔的肩膀和有力的手臂。",
+        "storycontext": "纳拉达（Narada）描述了罗摩（Rama）的身体和道德卓越。",
+        "transliteration": "Buddhiman nitiman vagmi shriman shatru-nibarhanah，Vipulanso maha-bahuh kambu-grivo maha-hanuh。",
+        "wordmeaning": [
+          {
+            "meaning": "聪明的",
+            "word": "佛陀曼"
+          },
+          {
+            "meaning": "道德知识者",
+            "word": "尼蒂曼"
+          },
+          {
+            "meaning": "敌人的毁灭者",
+            "word": "夏特鲁尼巴尔哈纳"
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "philosophicalinsight": "外部形式反映了史诗象征意义的内在卓越。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "महोरस्को महेष्वासो गूढजत्रुररिन्दमः । आजानुबाहुः सुशिराः सुललाटः सुविक्रमः ॥",
+        "simplemeaning": "他胸膛宽广，是弓箭手，克敌制胜，臂长，头型优美，额头高贵。",
+        "storycontext": "对罗摩神圣形态的进一步描述。",
+        "transliteration": "Mahorasko maheshvaso gudha-jatur arindamah、Ajanubahu sushirah sulalatah suvikramah。",
+        "wordmeaning": [
+          {
+            "meaning": "胸怀宽广",
+            "word": "马霍拉斯卡"
+          },
+          {
+            "meaning": "制服敌人",
+            "word": "阿林达玛"
+          },
+          {
+            "meaning": "手臂到达膝盖",
+            "word": "阿贾努巴胡"
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "philosophicalinsight": "在伊蒂哈萨，神圣的美德表现为美丽和平衡。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": true
+        },
+        "sanskrit": "समः समविभक्ताङ्गः स्निग्धवर्णः प्रतापवान् । पीनवक्षा विशालाक्षो लक्ष्मीवान् शुभलक्षणः ॥",
+        "simplemeaning": "罗摩的身体比例完美，光芒四射，威严，胸膛宽广，眼睛大，具有吉祥的品质。",
+        "storycontext": "纳拉达总结了罗摩的外貌描述。",
+        "transliteration": "Samah samavibhaktangah snigdha-varnah Pratapavan、Pina-vaksha vishalaksho lakshmivan shubha-lakshanah。",
+        "wordmeaning": [
+          {
+            "meaning": "匀称",
+            "word": "萨玛"
+          },
+          {
+            "meaning": "雄伟",
+            "word": "普拉塔帕万"
+          },
+          {
+            "meaning": "大眼睛",
+            "word": "维沙拉克沙"
+          },
+          {
+            "meaning": "雍容华贵",
+            "word": "拉克什米万"
+          }
+        ]
+      },
+      {
+        "number": 11,
+        "philosophicalinsight": "真正的领导力取决于真理和公共福利。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "धर्मज्ञः सत्यसंधश्च प्रजानां च हिते रतः । यशस्वी ज्ञानसम्पन्नः शुचिर्वश्यः समाधिमान् ॥",
+        "simplemeaning": "罗摩了解佛法，说真话，为人民的福祉而努力，是著名的、明智的、纯洁的、遵守纪律的、专注的。",
+        "storycontext": "纳拉达描述了罗摩的道德基础和国王的责任。",
+        "transliteration": "Dharmajnah satya-sandhash cha prajanam cha hiteratah，Yashasvi jnana-sampannah shuchir vashyah samadhiman。",
+        "wordmeaning": [
+          {
+            "meaning": "知义者",
+            "word": "法明"
+          },
+          {
+            "meaning": "坚定真理",
+            "word": "萨蒂亚桑德哈"
+          },
+          {
+            "meaning": "致力于人民福祉",
+            "word": "帕拉贾南·希特·拉塔"
+          },
+          {
+            "meaning": "专注且自我控制",
+            "word": "三昧"
+          }
+        ]
+      },
+      {
+        "number": 12,
+        "philosophicalinsight": "护法是王权的最高职责。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "प्रजापतिसमः श्रीमान् धातारिपुनिषूदनः । कर्मस्य परिरक्षिता ॥",
+        "simplemeaning": "他就像造物主一样，保护众生、消灭敌人、保护众生、保护佛法。",
+        "storycontext": "罗摩以人类形态呈现为宇宙保护者。",
+        "transliteration": "Prajapati-samah shriman dhata ripu-nishudanah，Rakshita jiva-lokasya dharmasya parirakshita。",
+        "wordmeaning": [
+          {
+            "meaning": "就像创造者（众生的保护者）",
+            "word": "般若波提沙玛"
+          },
+          {
+            "meaning": "敌人的毁灭者",
+            "word": "里普尼苏达纳"
+          },
+          {
+            "meaning": "保护者",
+            "word": "拉克西塔"
+          }
+        ]
+      },
+      {
+        "number": 13,
+        "philosophicalinsight": "知识和力量必须在正义的权威中并存。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "参考译文： वेदवेदाङ्गतत्त्वज्ञोधनुर्वेदेचनिष्ठितः॥",
+        "simplemeaning": "罗摩保护他自己的佛法和他的人民。他了解吠陀经，并且精通射箭科学。",
+        "storycontext": "精神智慧与武术卓越之间的平衡。",
+        "transliteration": "Rakshita svasya dharmasya sva-janasya cha rakshita，Veda-vedanga-tattvajno dhanur-vede cha nishthitah。",
+        "wordmeaning": [
+          {
+            "meaning": "吠陀经和经典的了解者",
+            "word": "吠陀受受真实性"
+          },
+          {
+            "meaning": "射箭科学",
+            "word": "达努吠陀"
+          }
+        ]
+      },
+      {
+        "number": 14,
+        "philosophicalinsight": "普遍的尊重源于智慧和慈悲。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "सर्वशास्त्रार्थतत्त्वज्ञःस्मृतिमान्प्रतिभानवान्। सर्वलोकप्रियःसाधुरदीनात्माविचक्षणः॥",
+        "simplemeaning": "他通晓一切经典，记忆力极强，聪慧过人，深受众人爱戴，性情温和，无所畏惧，睿智。",
+        "storycontext": "罗摩作为普遍受人尊敬的统治者。",
+        "transliteration": "Sarva-shastra-artha-tattvajnah smritiman pratibhanavan，Sarva-loka-priyah Sadhur adinatma vichakshanah。",
+        "wordmeaning": [
+          {
+            "meaning": "通晓一切经典的人",
+            "word": "一切论真实性"
+          },
+          {
+            "meaning": "受到所有人的喜爱",
+            "word": "萨瓦洛卡普里亚"
+          },
+          {
+            "meaning": "明智而有洞察力",
+            "word": "维查克沙纳"
+          }
+        ]
+      },
+      {
+        "number": 15,
+        "philosophicalinsight": "伟大的灵魂自然会吸引善良和智慧。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": true
+        },
+        "sanskrit": "सर्वदा अभिगतः साधुभिः समुद्र इव सिन्धुभिः । आर्यः सर्वसमश्चैव सदैव प्रियदर्शनः ॥",
+        "simplemeaning": "高贵的人总是接近他，就像江河汇入大海一样。他品格高尚，心平气和，总是令人赏心悦目。",
+        "storycontext": "罗摩作为美德的中心吸引着正义的人。",
+        "transliteration": "Sarvada abhigatah Sadhubhih samudra iva sindhubhih，Aryah sarva-samash chaiva sataiva priya-darshanah。",
+        "wordmeaning": [
+          {
+            "meaning": "由高贵的人",
+            "word": "萨杜比"
+          },
+          {
+            "meaning": "就像河流接近海洋",
+            "word": "萨穆德拉·伊瓦·辛杜比"
+          },
+          {
+            "meaning": "高贵而光荣",
+            "word": "阿利亚"
+          }
+        ]
+      },
+      {
+        "number": 16,
+        "philosophicalinsight": "理想的力量结合了情感深度和内在稳定性。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "स च सर्वगुणोपेतः कौसल्याऽनन्दवर्धनः । समुद्र इव गाम्भीर्ये धैर्येण हिमवानिव ॥",
+        "simplemeaning": "罗摩拥有一切美德，给他的母亲考莎莉亚带来欢乐。他深沉如大海，稳如喜马拉雅山。",
+        "storycontext": "叙述开始前对罗摩的最后赞美。",
+        "transliteration": "Sa cha sarva-gunopetah Kausalya-ananda-vardhanah，Samudra iva gambhirye dhairyena Himavan iva。",
+        "wordmeaning": [
+          {
+            "meaning": "具足一切功德",
+            "word": "萨尔瓦古纳乌佩塔"
+          },
+          {
+            "meaning": "谁增加了Kausalya的欢乐",
+            "word": "考萨利亚-阿南达-瓦尔达纳"
+          },
+          {
+            "meaning": "深度",
+            "word": "甘比亚"
+          }
+        ]
+      },
+      {
+        "number": 17,
+        "philosophicalinsight": "佛法既需要慈悲，也需要正义的力量。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "विष्णुना सदृशो वीर्ये सोमवत्प्रियदर्शनः । कालाग्निसदृशः क्रोधे क्षमया पृथिवीसमः ॥",
+        "simplemeaning": "他的力量与毗湿奴相当，如月亮般令人愉悦，如愤怒时的宇宙之火般凶猛，如大地般宽容。",
+        "storycontext": "罗摩的神性被清楚地暗示出来。",
+        "transliteration": "Vishnuna Sadrisho virye Somavat priya-darshanah、Kala-agni-sadrishah krodhe kshamaya prithivi-samah。",
+        "wordmeaning": [
+          {
+            "meaning": "力量与毗湿奴相当",
+            "word": "毗湿奴萨德里莎"
+          },
+          {
+            "meaning": "毁灭之火",
+            "word": "卡拉火"
+          },
+          {
+            "meaning": "饶恕",
+            "word": "克沙玛"
+          }
+        ]
+      },
+      {
+        "number": 18,
+        "philosophicalinsight": "真理是神圣英雄主义的基础。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "धनदेन समस्त्यागे सत्ये धर्म इवापरः । तमेवं गुणसम्पन्नंरामं सत्यपराक्रमम्॥",
+        "simplemeaning": "他像俱毗罗一样慷慨，像佛法本身一样代表真理。这就是罗摩，充满美德和真正的勇气。",
+        "storycontext": "纳拉达完成了罗摩的道德和神圣肖像。",
+        "transliteration": "Dhanadena samas-tyage satye dharma ivaparah，Tam evam Guna-sampannam Ramam satya-parakramam。",
+        "wordmeaning": [
+          {
+            "meaning": "像库毗罗一样慷慨",
+            "word": "达那德纳"
+          },
+          {
+            "meaning": "真相",
+            "word": "萨提亚"
+          },
+          {
+            "meaning": "勇气",
+            "word": "帕拉克拉玛"
+          }
+        ]
+      },
+      {
+        "number": 19,
+        "philosophicalinsight": "公情继义行。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "ज्येष्ठं श्रेष्ठगुणैर्युक्तं प्रियं दशरथस्य च । प्रकृतीनां हितैर्युक्तं प्रकृतिप्रियकाम्यया ॥",
+        "simplemeaning": "他是大沙拉特王的长子，品德优良，深受父亲喜爱，深受人民爱戴。",
+        "storycontext": "现在介绍皇家背景。",
+        "transliteration": "Jyeshtham shreshtha-gunair yuktam priyam Dasharathasya cha、Prakritinam hitair yuktam prakriti-priya-kamyaya。",
+        "wordmeaning": [
+          {
+            "meaning": "长子",
+            "word": "杰什坦姆"
+          },
+          {
+            "meaning": "达沙拉塔国王",
+            "word": "达萨拉塔西亚"
+          },
+          {
+            "meaning": "公民",
+            "word": "普拉克里蒂南"
+          }
+        ]
+      },
+      {
+        "number": 20,
+        "philosophicalinsight": "命运通过过去的誓言和佛法的承诺展开。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": true
+        },
+        "sanskrit": "यौवराज्ये अभिषिक्तं तु राजपुत्रं प्रजाहिते । पित्रा दशरथेनोक्तं कैकेयीवरदर्पितम् ॥",
+        "simplemeaning": "为了人民的福祉，罗摩将被加冕为王储。但达沙拉塔国王遵守先前向凯克伊做出的承诺。",
+        "storycontext": "这节经文开始了戏剧性的转折点——流放。",
+        "transliteration": "Yauvarajye abhisiktam tu raja-putram praja-hite，Pitra Dasharathenoktam Kaikeyi-vara-darpitam。",
+        "wordmeaning": [
+          {
+            "meaning": "皇太子地位",
+            "word": "尤瓦拉吉亚"
+          },
+          {
+            "meaning": "授予凯克伊的恩惠",
+            "word": "开克依瓦拉"
+          }
+        ]
+      },
+      {
+        "number": 21,
+        "philosophicalinsight": "统治者必须坚守誓言，即使付出巨大的个人代价。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "स सत्यवचनाद्राजा धर्मपाशेन संयुतः । कैकेय्या वचनं कृत्वा वनवासं समादिशत् ॥",
+        "simplemeaning": "出于诺言和佛法的约束，达沙拉塔国王按照凯克伊的要求，命令罗摩流亡。",
+        "storycontext": "国王选择佛法而非个人爱情。",
+        "transliteration": "Sa satya-vachanad Raja dharma-pashena samyutah, Kaikeyya vachanam kritva vana-vasam samadishat。",
+        "wordmeaning": [
+          {
+            "meaning": "真实的承诺",
+            "word": "萨蒂亚瓦查纳"
+          },
+          {
+            "meaning": "正义的纽带",
+            "word": "法师"
+          },
+          {
+            "meaning": "森林流放",
+            "word": "瓦纳瓦萨姆"
+          }
+        ]
+      },
+      {
+        "number": 22,
+        "philosophicalinsight": "真正的佛法是在没有抵抗或自我的情况下修行的。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "तं श्रुत्वा नाभ्यनन्दत्तरामोदुःखसमन्वितः। पितुर्वचनमाज्ञायवनंगन्तुंमनोदधे॥",
+        "simplemeaning": "听到这话，罗摩并没有生气。他遵照父亲的话，决定前往森林。",
+        "storycontext": "罗摩平静地接受流放。",
+        "transliteration": "Tam shrutva nabhyanandatta Ramo duhkha-samanvitah，Pitur vachanam ajnaya vanam gantum mano badhe。",
+        "wordmeaning": [
+          {
+            "meaning": "父亲的命令",
+            "word": "皮图尔·瓦查南"
+          },
+          {
+            "meaning": "去森林",
+            "word": "瓦纳姆·甘图姆"
+          }
+        ]
+      },
+      {
+        "number": 23,
+        "philosophicalinsight": "正义的领导人激发与人民的深厚情感联系。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "स जगाम वनं वीरः लक्ष्मणेन समन्वितः । भार्यया सीतया चैव प्रजाः शोकसमन्विताः ॥",
+        "simplemeaning": "罗摩与拉克什玛纳和西塔一起前往森林，而阿约提亚的人民则充满悲痛。",
+        "storycontext": "皇室离开阿约提亚。",
+        "transliteration": "Sa jagama vanam virah Lakshmanena samanvitah，Bharyaya Sitaya chaiva prajah shoka-samanvitah。",
+        "wordmeaning": [
+          {
+            "meaning": "与拉克什玛纳",
+            "word": "拉克什马内纳"
+          },
+          {
+            "meaning": "与西塔",
+            "word": "西塔亚"
+          },
+          {
+            "meaning": "悲哀",
+            "word": "翔卡"
+          }
+        ]
+      },
+      {
+        "number": 24,
+        "philosophicalinsight": "佛法超越社会界限；真正的友谊是建立在美德之上的。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "गङ्गामनुप्रपन्नस्तुगुहंचाभ्यगमत्प्रभुः। तत्र शृङ्गवेरपुरे मित्रं निषादराजकम् ॥",
+        "simplemeaning": "罗摩到达恒河，在什恩维拉普拉会见了他的朋友尼沙达国王古哈。",
+        "storycontext": "森林之旅和联盟的开始。",
+        "transliteration": "Gangam anuprapannas tu Guham chabhyagamat prabhuh，Tatra Shrngaverapure mitram Nishada-rajakam。",
+        "wordmeaning": [
+          {
+            "meaning": "恒河",
+            "word": "恒河"
+          },
+          {
+            "meaning": "尼沙达国王古哈",
+            "word": "古哈"
+          },
+          {
+            "meaning": "古哈王国",
+            "word": "什纳韦拉普拉"
+          }
+        ]
+      },
+      {
+        "number": 25,
+        "philosophicalinsight": "即使在流亡中，罗摩也寻求圣贤的指导。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": true
+        },
+        "sanskrit": "तत्र रात्रिं निवसित्वा गङ्गां तीर्त्वा महायशाः । भरद्वाजाश्रमं गत्वा तं मुनिं समुपागमत् ॥",
+        "simplemeaning": "在那里过夜并渡过恒河后，罗摩参观了圣人巴拉德瓦贾 (Sage Bharadvaja) 的隐居处。",
+        "storycontext": "进一步过渡到森林流放。",
+        "transliteration": "Tatraratrim nivasitva Gangam tirtva maha-yashah，Bharadvajashramam gatva tam munim samupagamat。",
+        "wordmeaning": [
+          {
+            "meaning": "圣人巴拉德瓦贾 (Bharadvaja) 隐居处",
+            "word": "巴拉德瓦贾静修处"
+          },
+          {
+            "meaning": "圣人",
+            "word": "牟尼"
+          }
+        ]
+      },
+      {
+        "number": 26,
+        "philosophicalinsight": "圣人的指导先于人生的重大转变。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "भरद्वाजाभ्यनुज्ञातःचित्रकूटंजगामह। म्यमावसथं कृत्वा तत्र वासं चकार ह ॥",
+        "simplemeaning": "在圣人巴拉德瓦贾（Sage Bharadvaja）的允许下，罗摩前往奇特拉库塔（Chitrakuta）并在那里建造了一座舒适的住所。",
+        "storycontext": "罗摩在奇特拉库塔开始了定居的森林生活。",
+        "transliteration": "Bharadvaja-abhyanujnatah Chitrakutam jagama ha，Ramyam avasatham kritva tatra vasam chakara ha。",
+        "wordmeaning": [
+          {
+            "meaning": "经圣人巴拉德瓦贾 (Sage Bharadvaja) 许可",
+            "word": "巴拉德瓦贾-阿比亚努纳塔"
+          },
+          {
+            "meaning": "奇特拉库塔山",
+            "word": "吉特拉库坦"
+          },
+          {
+            "meaning": "居住地",
+            "word": "阿瓦萨萨姆"
+          }
+        ]
+      },
+      {
+        "number": 27,
+        "philosophicalinsight": "幸福不在于奢侈，而在于内心的自律。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "लक्ष्मणेन कृतां कुटीं सीतया सह राघवः । उवास सुखितो धीमान् वन्याहारः जितेन्द्रियः ॥",
+        "simplemeaning": "罗什玛那 (Lakshmana) 建造了一座小屋，罗摩 (Rama) 和西塔 (Sita) 幸福地住在那里，吃森林食物并练习自我控制。",
+        "storycontext": "皇室生活被禁欲主义的简朴所取代。",
+        "transliteration": "Lakshmanena kritam kutim Sitaya saha Raghavah、Uvasa sukhito dhiman vanya-aharah jitendriyah。",
+        "wordmeaning": [
+          {
+            "meaning": "小屋",
+            "word": "库蒂"
+          },
+          {
+            "meaning": "靠森林食物为生",
+            "word": "凡尼亚-阿哈拉"
+          },
+          {
+            "meaning": "自我控制",
+            "word": "吉滕德里亚"
+          }
+        ]
+      },
+      {
+        "number": 28,
+        "philosophicalinsight": "知足常乐，化苦难为和谐。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "तत्र तौ निवसन्तौ तु पर्वते चित्रकूटके । ममाणौवनेनित्यंसीतयालक्ष्मणेनच॥",
+        "simplemeaning": "在奇特拉库塔山，罗摩与西塔和拉克什玛纳快乐地生活在森林里。",
+        "storycontext": "流亡的和平阶段。",
+        "transliteration": "Tatra tau nivasantau tu parvate Chitrakutake，Ramamanau vane nityam Sitaya Lakshmanena cha。",
+        "wordmeaning": [
+          {
+            "meaning": "住在那里",
+            "word": "尼瓦桑陶"
+          },
+          {
+            "meaning": "令人愉悦的",
+            "word": "拉马马瑙"
+          },
+          {
+            "meaning": "在森林里",
+            "word": "叶片"
+          }
+        ]
+      },
+      {
+        "number": 29,
+        "philosophicalinsight": "执着甚至可以压倒伟大的国王。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "अयोध्यायां तु राजर्षिर्दशरथो महायशाः । नजीवितुमशक्नुवत्॥",
+        "simplemeaning": "与此同时，在阿约提亚，达萨拉塔国王因罗摩的悲痛而深感痛苦，无法继续生活。",
+        "storycontext": "达沙拉塔的悲伤导致了他的死亡。",
+        "transliteration": "Ayodhyayam tu rajarshir Dasharatho mahayashah，Rama-shoka-paridagdho na jivitum ashaknavat。",
+        "wordmeaning": [
+          {
+            "meaning": "为罗摩悲痛",
+            "word": "罗摩舒卡"
+          },
+          {
+            "meaning": "被悲伤烧伤",
+            "word": "帕里达达"
+          }
+        ]
+      },
+      {
+        "number": 30,
+        "philosophicalinsight": "真正的兄弟是靠佛法团结在一起的，而不是野心。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": true
+        },
+        "sanskrit": "मृतं तु पितरं श्रुत्वा भरतो दुःखमूर्छितः । आगत्य चित्रकूटस्थंरामं द्रष्टुमुपस्थितः॥",
+        "simplemeaning": "得知父亲去世的消息，婆罗多悲痛万分，前往奇特拉库塔去见罗摩。",
+        "storycontext": "这为伟大的罗摩-婆罗多会议做好了准备。",
+        "transliteration": "Mritam tu pitaram shrutva Bharato duhkha-murchhitah、Agatya Chitrakuta-stham Ramam drashtum upasthitah。",
+        "wordmeaning": [
+          {
+            "meaning": "罗摩的弟弟",
+            "word": "巴拉塔"
+          },
+          {
+            "meaning": "住在奇特拉库塔",
+            "word": "奇特拉库塔萨姆"
+          }
+        ]
+      },
+      {
+        "number": 31,
+        "philosophicalinsight": "真正的谦卑定义了高尚的品格。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "भरतः चित्रकूटस्थंरामं द्रष्टुं समागतः । शोकसन्तप्तहृदयःभ्रातरंप्रणनामह॥",
+        "simplemeaning": "婆罗多来到奇特拉库塔见罗摩。他满怀悲痛，向哥哥鞠躬。",
+        "storycontext": "兄弟重逢的情感。",
+        "transliteration": "Bharatah Chitrakuta-stham Ramam drashtum samagatah，Shoka-santapta-hridayah bhrataram pranamama ha。",
+        "wordmeaning": [
+          {
+            "meaning": "居住在奇特拉库塔",
+            "word": "奇特拉库塔萨姆"
+          },
+          {
+            "meaning": "鞠躬",
+            "word": "普拉纳玛玛"
+          }
+        ]
+      },
+      {
+        "number": 32,
+        "philosophicalinsight": "佛法胜于野心。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "नाहंरज्यं ग्रहिष्यामिपितुर्वचनकारणात् । त्वमेवराजाऽयोध्यायांप्रतिनन्दामिराघव॥",
+        "simplemeaning": "我不会接受通过父亲的命令获得的王国。只有你才是阿约提亚合法的国王。",
+        "storycontext": "巴拉塔拒绝继承王位。",
+        "transliteration": "Naham rajyam grahishyami pitur-vachana-karanat、Tvam eva Raja Ayodhyayam pratinandami Raghava。",
+        "wordmeaning": [
+          {
+            "meaning": "王国",
+            "word": "拉贾姆"
+          },
+          {
+            "meaning": "父亲的命令",
+            "word": "皮图尔瓦查纳"
+          }
+        ]
+      },
+      {
+        "number": 33,
+        "philosophicalinsight": "对佛法的尊重是通过放下自我来表达的。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "एवं उक्त्वा महाराजंरामं सत्यपराक्रमम् । पुनः पुनः प्रणम्याथ शिरसा धारयन्महीम् ॥",
+        "simplemeaning": "婆罗多对罗摩说了这番话后，实际上是英雄般的，他反复鞠躬，用头触地。",
+        "storycontext": "巴拉塔深表敬意和悲痛。",
+        "transliteration": "Evam uktva Maharajam Ramam satya-parakramam，Punah punah pranamyatha shirasa dharayan mahim。",
+        "wordmeaning": [
+          {
+            "meaning": "真理中的英雄",
+            "word": "萨蒂亚·帕拉克拉曼"
+          },
+          {
+            "meaning": "反复鞠躬",
+            "word": "调息法"
+          }
+        ]
+      },
+      {
+        "number": 34,
+        "philosophicalinsight": "慈悲增强正义。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "भ्रातरं प्रियदर्शनम्। उवाच मधुरां वाणीं धर्मयुक्तां मनोहराम् ॥",
+        "simplemeaning": "罗摩拥抱他心爱的兄弟，并说出充满佛法的温柔话语。",
+        "storycontext": "罗摩和婆罗多之间富有同情心的交流。",
+        "transliteration": "Ramo'pi tam samalingya bhrataram priya-darshanam、Uvacha madhuram vanim dharma-yuktam manoharam。",
+        "wordmeaning": [
+          {
+            "meaning": "拥抱",
+            "word": "萨马林亚"
+          },
+          {
+            "meaning": "充满正义感",
+            "word": "法育"
+          }
+        ]
+      },
+      {
+        "number": 35,
+        "philosophicalinsight": "佛法一旦接受就必须圆满。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": true
+        },
+        "sanskrit": "चतुर्दश हि वर्षाणि वनवासो मया कृतः । ततोऽयोध्यां पुनर्यायि सत्यं पितृवचः कृतम् ॥",
+        "simplemeaning": "我必须流亡十四年。履行完父亲的诺言后，我将返回阿约提亚。",
+        "storycontext": "罗摩坚定地履行他的誓言。",
+        "transliteration": "Chaturdasha hi varshani vana-vaso maya kritah，Tato Ayodhyam punar yasyami satyam pitru-vachah kritam。",
+        "wordmeaning": [
+          {
+            "meaning": "十四年",
+            "word": "查图尔达沙·瓦尔沙尼"
+          },
+          {
+            "meaning": "父亲的话",
+            "word": "皮特鲁瓦查"
+          }
+        ]
+      },
+      {
+        "number": 36,
+        "philosophicalinsight": "权威属于佛法，而不属于个人的自我。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "एवं उक्ते तु रामेण भरतः सत्यविक्रमः । पादुके गृह्य रामस्य शिरसा धारयत् तदा ॥",
+        "simplemeaning": "罗摩说完后，婆罗多坚定了真理，接过罗摩的凉鞋，恭敬地戴在头上。",
+        "storycontext": "帕杜卡情节的开始。",
+        "transliteration": "Evam ukte tu Ramena Bharatah satya-vikramah，Paduke grihya Ramasya shirasa dharayat tada。",
+        "wordmeaning": [
+          {
+            "meaning": "凉鞋",
+            "word": "帕杜克"
+          },
+          {
+            "meaning": "放在他的头上",
+            "word": "希拉萨达拉亚特"
+          }
+        ]
+      },
+      {
+        "number": 37,
+        "philosophicalinsight": "领导力是管理，而不是占有。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "ताभ्यांराज्यंप्रदास्यामिन्यासभूताभ्यांइत्युवाच। नाहंराजेतिनिश्चिन्त्यरामपादप्रसादतः॥",
+        "simplemeaning": "巴拉塔宣称，他将在罗摩凉鞋的权威下，以神圣的信托形式统治这个王国。他说：“我不是国王。”",
+        "storycontext": "巴拉塔放弃王位。",
+        "transliteration": "Tabhyam rajyam pradasyami nyasa-bhutabhyam ity uvacha、Naham rajeti nishchintya Rama-pada-prasadatah。",
+        "wordmeaning": [
+          {
+            "meaning": "作为神圣的信任",
+            "word": "尼亚萨·布塔比扬"
+          },
+          {
+            "meaning": "王国",
+            "word": "拉贾姆"
+          }
+        ]
+      },
+      {
+        "number": 38,
+        "philosophicalinsight": "真正的权力是在克制和谦逊的情况下行使的。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "नन्दिग्रामे निवसित्वा तपोव्रतपरायणः । प्रतीक्षन्धर्मसंस्थितः॥",
+        "simplemeaning": "婆罗多生活在南迪格拉玛，奉行苦行，耐心等待罗摩归来，坚定地信仰佛法。",
+        "storycontext": "巴拉塔作为苦行摄政王进行统治。",
+        "transliteration": "Nandigrame nivasitva tapo-vrata-parayanah，Rama-agamana-kalam sa pratikshan dharma-samsthitah。",
+        "wordmeaning": [
+          {
+            "meaning": "阿约提亚附近的村庄",
+            "word": "南迪格拉玛"
+          },
+          {
+            "meaning": "苦行与誓言",
+            "word": "塔波弗拉塔"
+          },
+          {
+            "meaning": "等待",
+            "word": "普拉蒂克尚"
+          }
+        ]
+      },
+      {
+        "number": 39,
+        "philosophicalinsight": "无论环境如何，佛法都会继续。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "पितृकार्याणि चाकरोत् । श्राद्धं कृत्वा विधानेन दुःखशोकसमन्वितः ॥",
+        "simplemeaning": "罗摩满怀悲痛，在奇特拉库塔为他的父亲举行了正式的葬礼。",
+        "storycontext": "即使在流亡中，罗摩也履行了儿子的职责。",
+        "transliteration": "Ramo'pi Chitrakuta-sthah pitru-karyani chakorot、Shraddham kritva vidhanena duhkha-shoka-samanvitah。",
+        "wordmeaning": [
+          {
+            "meaning": "为父亲举行的仪式",
+            "word": "皮特鲁卡里亚尼"
+          },
+          {
+            "meaning": "葬礼仪式",
+            "word": "施拉达姆"
+          }
+        ]
+      },
+      {
+        "number": 40,
+        "philosophicalinsight": "佛法从个人牺牲转向积极保护正义。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": true
+        },
+        "sanskrit": "ततः परं वनं गत्वा दण्डकारण्यमाश्रितः । ऋषीणां रक्षणार्थाय राक्षसानां विनाशनः ॥",
+        "simplemeaning": "此后，罗摩深入丹达卡兰亚森林，保护圣人、消灭恶魔。",
+        "storycontext": "从流放阶段过渡到传教阶段。",
+        "transliteration": "Tatah param vanam gatva Dandakaranyam asritah，Rishinam rakshanarthaya rakshasanam vinashanah。",
+        "wordmeaning": [
+          {
+            "meaning": "大南部森林地区",
+            "word": "丹达卡兰亚"
+          },
+          {
+            "meaning": "为了保护圣人",
+            "word": "瑞希南·罗沙纳塔亚"
+          }
+        ]
+      },
+      {
+        "number": 41,
+        "philosophicalinsight": "佛法需要积极捍卫正义。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "दण्डकारण्यवासं तु कृत्वा धर्मपरायणः । ऋषीणां वचनं श्रुत्वाराक्षसान् निहतान् बहून् ॥",
+        "simplemeaning": "居住在丹达卡兰亚的罗摩，虔诚于佛法，听到圣贤的祈求，杀死了许多恶魔。",
+        "storycontext": "罗摩开始保护圣人免受恶魔的压迫。",
+        "transliteration": "Dandakaranya-vasam tu kritva dharma-parayanah，Rishinam vachanam shrutva rakshasan nihatan bahun。",
+        "wordmeaning": [
+          {
+            "meaning": "大南部森林地区",
+            "word": "丹达卡兰亚"
+          },
+          {
+            "meaning": "圣贤之言",
+            "word": "里希南·瓦恰南"
+          },
+          {
+            "meaning": "恶魔",
+            "word": "罗刹山"
+          }
+        ]
+      },
+      {
+        "number": 42,
+        "philosophicalinsight": "不受控制的欲望会导致毁灭。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "तत्र शूर्पणखा नाम राक्षसी काममोहिता । समायाता विकृताननदर्शनम्॥",
+        "simplemeaning": "有一个名叫舒尔帕纳卡的恶魔在欲望的驱使下接近罗摩。",
+        "storycontext": "Shurpanakha 介绍——转折点事件。",
+        "transliteration": "Tatra Shurpanakha nama rakshasi kama-mohita, Ramam drashtum samayata vikritanana-darshanam。",
+        "wordmeaning": [
+          {
+            "meaning": "拉瓦那的妹妹",
+            "word": "舒帕纳卡"
+          },
+          {
+            "meaning": "被欲望所迷惑",
+            "word": "釜茂日"
+          }
+        ]
+      },
+      {
+        "number": 43,
+        "philosophicalinsight": "受到侮辱的自我寻求报复。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "लक्ष्मणेन तदा क्रुद्धा नासिका कर्णच्छेदिता । सारावणंसमाश्रित्यतंवृत्तान्तमवोचत॥",
+        "simplemeaning": "拉克什玛纳对她的行为感到愤怒，割掉了她的鼻子和耳朵。然后她去找拉瓦那并告诉他发生了什么事。",
+        "storycontext": "引发拉瓦那介入的事件。",
+        "transliteration": "Lakshmanena tada kruddha nasika-karna-chedita，Sa Ravanam samashritya tam vrittantam avocata。",
+        "wordmeaning": [
+          {
+            "meaning": "鼻子和耳朵被割掉",
+            "word": "纳西卡卡纳切达"
+          },
+          {
+            "meaning": "罗波那",
+            "word": "罗瓦南"
+          }
+        ]
+      },
+      {
+        "number": 44,
+        "philosophicalinsight": "正义的力量恢复平衡。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "खरदूषणसहितान्राक्षसान्युद्धेनिहत्यसः। वीर्येण महता युक्तो धर्ममार्गे व्यवस्थितः ॥",
+        "simplemeaning": "罗摩在战斗中杀死了卡拉、杜莎娜和许多恶魔，坚定地走在佛法的道路上。",
+        "storycontext": "重大森林战役胜利。",
+        "transliteration": "Khara-Dushana-sahitan rakshasan yuddhe nihatya sah，Viryena mahata yukto dharma-marge vyavasthitah。",
+        "wordmeaning": [
+          {
+            "meaning": "恶魔指挥官",
+            "word": "卡拉-杜沙纳"
+          },
+          {
+            "meaning": "在战斗中",
+            "word": "尤德赫"
+          }
+        ]
+      },
+      {
+        "number": 45,
+        "philosophicalinsight": "幻象（玛雅）成为阿法的工具。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": true
+        },
+        "sanskrit": "ततः रावणसंकल्पो सीताहरणकारणम् । मारिचं प्रेरयामास मायामृगरूपधारिणम् ॥",
+        "simplemeaning": "然后拉瓦那决定绑架西塔，并派玛丽查伪装成一只神奇的鹿。",
+        "storycontext": "金鹿剧情开始。",
+        "transliteration": "Tatah Ravana-sankalpo Sita-harana-karanam，Maricham prerayamas mayamriga-rupa-dharinam。",
+        "wordmeaning": [
+          {
+            "meaning": "绑架西塔",
+            "word": "西塔哈拉那"
+          },
+          {
+            "meaning": "拉瓦那的恶魔盟友",
+            "word": "马里查"
+          },
+          {
+            "meaning": "虚幻的金鹿",
+            "word": "玛雅姆里加"
+          }
+        ]
+      },
+      {
+        "number": 46,
+        "philosophicalinsight": "当受情感驱使时，幻觉甚至会吸引智者。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "स तु मायामृगो भूत्वारामं दूरं निनाय ह । ममेणबाणेनहतःसमारीचोव्यनदद्भृशम्॥",
+        "simplemeaning": "马里查变成了神奇的鹿，把罗摩引到了远方。当罗摩的箭射中他时，他大声喊叫。",
+        "storycontext": "金鹿骗局展开。",
+        "transliteration": "Sa tu maya-mrigo bhutva Ramam duram ninaya ha, Ramena banena hatah sa Maricho vyanadad bhrisham。",
+        "wordmeaning": [
+          {
+            "meaning": "虚幻的鹿",
+            "word": "玛雅姆里加"
+          },
+          {
+            "meaning": "拉瓦那的恶魔盟友",
+            "word": "马里查"
+          },
+          {
+            "meaning": "按箭头",
+            "word": "巴内纳"
+          }
+        ]
+      },
+      {
+        "number": 47,
+        "philosophicalinsight": "欺骗常常使用值得信赖的声音。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "हा सीते लक्ष्मणेत्युक्त्वारामरूपधरोऽसुरः। प्राणान् मुमोच दुःखार्तोरावणार्थेकृतोद्यमः॥",
+        "simplemeaning": "马里查模仿罗摩的声音喊道：“西塔啊！噢，拉克什玛纳！”然后就死了，完成了罗波那的计划。",
+        "storycontext": "拉克什玛纳（Lakshmana）被拉离西塔（Sita）。",
+        "transliteration": "Ha Site Lakshmana ity uktva Rama-rupa-dharo'surah，Pranan mumoca duhkha-arto Ravana-arthe kritodyamah。",
+        "wordmeaning": [
+          {
+            "meaning": "采用罗摩的声音/形式",
+            "word": "罗摩色身"
+          },
+          {
+            "meaning": "放弃了生命",
+            "word": "普拉南穆莫卡"
+          }
+        ]
+      },
+      {
+        "number": 48,
+        "philosophicalinsight": "当警惕性减弱时，恶法就会袭来。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "ततो लक्ष्मणनिर्गम्य रक्षितुं भ्रातरं ययौ । सीता तत्रैकतां यातारावणेनाभ्युपागता ॥",
+        "simplemeaning": "拉克什玛纳离开去保护罗摩。西塔独自一人，拉瓦那走近她。",
+        "storycontext": "脆弱的时刻。",
+        "transliteration": "Tato Lakshmana nirgamy rakshitum bhrataram yayau，Sita tatraikatam yata Ravanenabhyupagata。",
+        "wordmeaning": [
+          {
+            "meaning": "拉克什玛纳离开",
+            "word": "拉克什玛纳·尼尔加米"
+          },
+          {
+            "meaning": "通过拉瓦纳",
+            "word": "拉瓦内纳"
+          }
+        ]
+      },
+      {
+        "number": 49,
+        "philosophicalinsight": "虚假的谦卑背​​后往往隐藏着邪恶。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "भिक्षुरूपधरोराक्षसःसीताम्आहृत्यरावणः। गृहीत्वा गगनं यातो लङ्कां प्रति दुरात्मवान् ॥",
+        "simplemeaning": "罗波那 (Ravana) 伪装成托钵僧，绑架了西塔 (Sita)，并带着她穿过天空前往兰卡 (Lanka)。",
+        "storycontext": "西塔·哈拉纳（绑架）。",
+        "transliteration": "Bhikshu-rupa-dharo rakshasah Sitam ahritva Ravanah，Grihitva gaganam yato Lancam prati duratmavan。",
+        "wordmeaning": [
+          {
+            "meaning": "以托钵僧的形式",
+            "word": "比丘色巴"
+          },
+          {
+            "meaning": "兰卡市",
+            "word": "兰卡姆"
+          }
+        ]
+      },
+      {
+        "number": 50,
+        "philosophicalinsight": "真正的忠诚即使在死前也坚定不移。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": true
+        },
+        "sanskrit": "जटायुः तं समासाद्य युद्धे रावणमाहवे । छिन्नपक्षःपतित्वाचरामायाख्यातवान्ततः॥",
+        "simplemeaning": "迦塔尤勇敢地与罗波那战斗，但他的翅膀被割断。临终前，他将西塔被绑架的事告知罗摩。",
+        "storycontext": "贾塔尤的英勇牺牲。",
+        "transliteration": "Jatayuh tam samasadya yuddhe Ravanam ahave, Chinna-pakshah patitva cha Ramayakhyatavan tatah。",
+        "wordmeaning": [
+          {
+            "meaning": "秃鹫王，达沙拉塔的朋友",
+            "word": "贾塔尤"
+          },
+          {
+            "meaning": "翅膀被切掉",
+            "word": "钦纳帕克夏"
+          }
+        ]
+      },
+      {
+        "number": 51,
+        "philosophicalinsight": "即使是神也能体验人类的情感。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "सीतायाः वियोगेनरामः शोकसमन्वितः । विललाप महाबाहुः वनं सर्वं विचिन्वन् ॥",
+        "simplemeaning": "与悉多分离后，罗摩悲痛万分，在森林中搜寻，悲痛欲绝。",
+        "storycontext": "西塔被绑架后，罗摩的人类悲伤。",
+        "transliteration": "Sitayah viyogena Ramah shoka-samanvitah，Vilalapa maha-bahuh vanam sarvam vichinvan。",
+        "wordmeaning": [
+          {
+            "meaning": "分离",
+            "word": "维瑜伽"
+          },
+          {
+            "meaning": "哀叹",
+            "word": "维拉拉帕"
+          }
+        ]
+      },
+      {
+        "number": 52,
+        "philosophicalinsight": "佛法超越物种——忠诚是神圣的。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "जटायुषं मृतं दृष्ट्वा दुःखार्तो रघुनन्दनः । तं संस्पृश्य च कृत्वा तु तस्य संस्कारमादरात् ॥",
+        "simplemeaning": "看到死者贾塔尤，罗摩非常悲痛，并恭敬地举行了葬礼。",
+        "storycontext": "荣誉授予贾塔尤。",
+        "transliteration": "Jatayusham mritam drishtva duhkha-arto Raghunandanah，Tam samsprishya cha kritva tu tasya samskaram adarat。",
+        "wordmeaning": [
+          {
+            "meaning": "葬礼",
+            "word": "桑斯卡拉"
+          },
+          {
+            "meaning": "罗摩",
+            "word": "拉古南达纳"
+          }
+        ]
+      },
+      {
+        "number": 53,
+        "philosophicalinsight": "即使是敌人，在解放后也可以成为向导。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "कबन्धं नाम राक्षसं हत्वा मुक्तिं ददौ प्रभुः । स तु रामं समादिश्य सुग्रीवस्य समीपतः ॥",
+        "simplemeaning": "罗摩杀死了恶魔卡班达并给予他解脱。卡班达建议罗摩去寻找Sugriva。",
+        "storycontext": "与 Sugriva 结盟的方向。",
+        "transliteration": "Kabandham nama rakshasam hatva muktim badau prabhuh，Sa tu Ramam samadishya Sugrivasya samipatah。",
+        "wordmeaning": [
+          {
+            "meaning": "一个恶魔",
+            "word": "卡班达"
+          },
+          {
+            "meaning": "流亡中的瓦纳拉国王",
+            "word": "苏格里瓦"
+          }
+        ]
+      },
+      {
+        "number": 54,
+        "philosophicalinsight": "纯粹的奉献超越了种姓和地位。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "शबरीं च समासाद्य भक्त्या परिपूजितः । तस्या आश्रमपदं गत्वा मार्गं दर्शितवान् पुनः ॥",
+        "simplemeaning": "罗摩遇见了沙巴里，沙巴里虔诚地崇拜他。从那时起，他就看到了前进的道路。",
+        "storycontext": "沙巴里的奉献情节。",
+        "transliteration": "Shabarim cha samasadya bhaktya paripujitah、Tasya ashrama-padam gatva margam darshitavan punah。",
+        "wordmeaning": [
+          {
+            "meaning": "奉献者苦行女人",
+            "word": "沙巴里"
+          },
+          {
+            "meaning": "虔诚地",
+            "word": "巴克蒂亚"
+          }
+        ]
+      },
+      {
+        "number": 55,
+        "philosophicalinsight": "神圣的使命需要有价值的盟友。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "ततः ऋष्यमूकपर्वते सुग्रीवम् उपगच्छत् । हनुमता सहायेन स मित्रत्वं चकार ह ॥",
+        "simplemeaning": "罗摩到达了 Rishyamuka 山，并通过哈努曼与 Sugriva 建立了友谊。",
+        "storycontext": "基什金达联盟开始。",
+        "transliteration": "Tatah Rishyamuka-parvate Sugrivam upagacchat、Hanumata sahayena sa mitratvam chakara ha。",
+        "wordmeaning": [
+          {
+            "meaning": "苏格里瓦 (Sugriva) 停留的山",
+            "word": "里夏姆卡"
+          },
+          {
+            "meaning": "忠诚的瓦纳拉战士",
+            "word": "哈努曼"
+          }
+        ]
+      },
+      {
+        "number": 56,
+        "philosophicalinsight": "正义恢复了正确的领导。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "सुग्रीवस्य तदा दुःखं श्रुत्वा वालिवधं कृतम् । प्रतिज्ञां चाकरोत्रामःसीतासन्धानकारणात्॥",
+        "simplemeaning": "听到苏格里瓦的悲痛，罗摩杀死了瓦利，并发誓要寻找西塔。",
+        "storycontext": "拉玛履行联盟义务。",
+        "transliteration": "Sugrivasya tada duhkham shrutva Vali-vadham kritam，Pratijnam chakarot Ramah Sita-sandhana-karanat。",
+        "wordmeaning": [
+          {
+            "meaning": "瓦利被杀",
+            "word": "瓦利瓦达"
+          },
+          {
+            "meaning": "发誓",
+            "word": "般若"
+          }
+        ]
+      },
+      {
+        "number": 57,
+        "philosophicalinsight": "组织遵循合法的领导。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "वालिनं निहतं दृष्ट्वा सुग्रीवोराज्यं प्राप्य च । वानरान् प्रेषयामाससीतामार्गणकर्मणि॥",
+        "simplemeaning": "瓦利（Vali）被杀，苏格里瓦（Sugriva）恢复王国后，他派瓦纳拉（Vanaras）去寻找西塔（Sita）。",
+        "storycontext": "搜索任务开始。",
+        "transliteration": "Valinam nihatam drishtva Sugrivo rajyam prapya cha，Vanaran preshayamasa Sita-margana-karmani。",
+        "wordmeaning": [
+          {
+            "meaning": "猴武士",
+            "word": "瓦纳拉"
+          },
+          {
+            "meaning": "搜索",
+            "word": "马尔加纳"
+          }
+        ]
+      },
+      {
+        "number": 58,
+        "philosophicalinsight": "挑战出现在突破之前。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "हनुमान् अंगदेन सह दक्षिणां दिशम् आगमत् । समुद्रतीरम् आसाद्य चिन्तां परमुपागमत्॥",
+        "simplemeaning": "哈努曼和安伽达向南行去，到达海边，陷入沉思。",
+        "storycontext": "搜索到达海洋屏障。",
+        "transliteration": "Hanuman Angadena saha dakshinam disham agamat，Samudra-tiram asadya chintam param upagamat。",
+        "wordmeaning": [
+          {
+            "meaning": "瓦利的儿子",
+            "word": "安加达"
+          },
+          {
+            "meaning": "南方向",
+            "word": "达克西南迪沙姆"
+          }
+        ]
+      },
+      {
+        "number": 59,
+        "philosophicalinsight": "信念释放出不可能的力量。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "समुद्रं लंघयामास हनुमान् मारुतात्मजः । लङ्कां प्रविश्य सीतां च अशोकवनिकां गतः ॥",
+        "simplemeaning": "风之子哈努曼跨越海洋，进入楞伽，到达阿育王丛林中的悉多。",
+        "storycontext": "哈努曼的伟大飞跃。",
+        "transliteration": "Samudram langhayamasa Hanuman Marutatmajah，Lakam pravishya Sitam cha Ashoka-vanikam gatah。",
+        "wordmeaning": [
+          {
+            "meaning": "跳过",
+            "word": "郎哈山萨"
+          },
+          {
+            "meaning": "兰卡的阿育王树林",
+            "word": "阿育王瓦尼卡"
+          }
+        ]
+      },
+      {
+        "number": 60,
+        "philosophicalinsight": "即使在被囚禁的情况下，希望也能维持奉献精神。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": true
+        },
+        "sanskrit": "दृष्ट्वा सीतां दुःखिताṃ रामनामप्रकीर्तनम् । दत्वामुद्रांचरामस्यआश्वास्यचपुनर्ययौ॥",
+        "simplemeaning": "看到西塔悲伤地念诵罗摩的名字，哈努曼给了她罗摩的戒指，安慰了她，然后准备返回。",
+        "storycontext": "西塔收到罗摩讯息的证据。",
+        "transliteration": "Drishtva Sitam duhkhi-tam Rama-nama-prakirtanam，Datva mudram cha Ramasya ashvasya cha punar yyau。",
+        "wordmeaning": [
+          {
+            "meaning": "印章戒指",
+            "word": "手印"
+          },
+          {
+            "meaning": "安慰",
+            "word": "阿什瓦夏"
+          }
+        ]
+      },
+      {
+        "number": 61,
+        "philosophicalinsight": "奉献在绝望时带来安慰。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "सीतायाः दुःखमाकर्ण्यरावणस्यदुरात्मनः। हनुमान् आश्वयामासरामदूतःकृपानिधिः॥",
+        "simplemeaning": "听说悉多在罗波那统治下所受的苦难，罗摩的慈悲使者哈努曼安慰了她。",
+        "storycontext": "哈努曼增强了西塔的希望。",
+        "transliteration": "Sitayah duhkham akarṇya Ravanasyadurātmanah，Hanuman ashvayāmāsa Rama-dutah kripa-nidhih。",
+        "wordmeaning": [
+          {
+            "meaning": "罗摩的使者",
+            "word": "罗摩杜塔"
+          },
+          {
+            "meaning": "慈悲之宝",
+            "word": "克里帕尼迪"
+          }
+        ]
+      },
+      {
+        "number": 62,
+        "philosophicalinsight": "正义的愤怒摧毁不公正。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "लङ्कां प्रदीप्य लाङ्गूलेन दग्ध्वाराक्षससैनिकम् । पुनः समुद्रमुत्प्लुत्य रामं प्रति जगाम ह ॥",
+        "simplemeaning": "在用尾巴烧毁兰卡并击败恶魔军队后，哈努曼跳回大洋彼岸，回到罗摩身边。",
+        "storycontext": "兰卡燃烧事件。",
+        "transliteration": "Lancam pradipya langulena dagdhva rakshasa-sainikam，Punah samudram utplutya Ramam prati jagama ha。",
+        "wordmeaning": [
+          {
+            "meaning": "用他的尾巴",
+            "word": "朗古莱纳"
+          },
+          {
+            "meaning": "着火",
+            "word": "普拉迪皮亚"
+          }
+        ]
+      },
+      {
+        "number": 63,
+        "philosophicalinsight": "真实报告是服务的一部分。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "सीतादर्शनसम्पन्नःहनुमान्प्रीतमानसः। कथयामास सर्वं वृत्तं यथातथम् ॥",
+        "simplemeaning": "见到西塔后，哈努曼高兴地向罗摩讲述了所发生的一切。",
+        "storycontext": "向罗摩报告任务。",
+        "transliteration": "Sita-darshana-sampannah Hanuman prita-manasah，Ramaya kathayamasa sarvam vrittam yathatatham。",
+        "wordmeaning": [
+          {
+            "meaning": "见到西塔",
+            "word": "西塔达沙那"
+          },
+          {
+            "meaning": "完全按照事情发生的情况",
+            "word": "亚塔塔姆"
+          }
+        ]
+      },
+      {
+        "number": 64,
+        "philosophicalinsight": "即使是战士也寻求与自然的和谐。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "ततः सैन्यसमायुक्तः रामो लङ्कां प्रति ययौ । समुद्रं प्रार्थयामास सेतुबन्धायराघवः॥",
+        "simplemeaning": "随后，罗摩率领军队向楞伽进军，向大海祈求通行，修建一座桥梁。",
+        "storycontext": "战争准备。",
+        "transliteration": "Tatah sainya-samayuktah Ramo Lancam prati yayau，Samudram prarthayamasa setu-bandhaya Raghavah。",
+        "wordmeaning": [
+          {
+            "meaning": "桥梁的建设",
+            "word": "收束法"
+          },
+          {
+            "meaning": "军队",
+            "word": "赛尼亚"
+          }
+        ]
+      },
+      {
+        "number": 65,
+        "philosophicalinsight": "集体努力实现不可能的事情。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "नलनीलप्रभावेणसेतुर्बद्धोमहासमुद्रे। वानरैः सह रामोऽथ लङ्कां प्रविवेश ह ॥",
+        "simplemeaning": "通过那拉和尼拉的力量，架起了一座横跨海洋的桥梁，罗摩带着瓦那拉军队进入了楞伽。",
+        "storycontext": "Setu 建设和进入兰卡。",
+        "transliteration": "Nala-Nila-prabhavena setur baddho maha-samudre，Vanaraih saha Ramo'tha Lancam pravivesha ha。",
+        "wordmeaning": [
+          {
+            "meaning": "瓦纳拉工程师",
+            "word": "那拉尼拉"
+          },
+          {
+            "meaning": "桥",
+            "word": "塞图"
+          }
+        ]
+      },
+      {
+        "number": 66,
+        "philosophicalinsight": "Adharma 最终与 Dharma 对抗。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "समं युद्धं घोरं समभवत् ततः । वानरैः सहितोऽभवत् ॥",
+        "simplemeaning": "罗摩和罗波那之间发生了一场激烈的战斗，许多恶魔在瓦纳拉的帮助下被杀死。",
+        "storycontext": "战争开始了。",
+        "transliteration": "Ravanena samam yuddham ghoram samabhavat tatah，Rakshasan nihatan Ramo vanaraih sahito'bhavat。",
+        "wordmeaning": [
+          {
+            "meaning": "可怕的战斗",
+            "word": "古拉姆·尤达姆"
+          },
+          {
+            "meaning": "恶魔",
+            "word": "罗刹山"
+          }
+        ]
+      },
+      {
+        "number": 67,
+        "philosophicalinsight": "邪恶的力量先于正义的决心而下降。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "कुम्भकर्णं हतं युद्धे इन्द्रजित्तं निपातितम् । लक्ष्मणेन महावीर्यंरावणस्यात्मजंरणे॥",
+        "simplemeaning": "库姆巴卡纳 (Kumbhakarna) 在战斗中阵亡，拉克什玛纳 (Lakshmana) 杀死了拉瓦那 (Ravana) 强大的儿子因德拉吉特 (Indrajit)。",
+        "storycontext": "主要恶魔指挥官被击败。",
+        "transliteration": "Kumbhakarnam hatam yuddhe Indrajittam nipatitam, Lakshmanena maha-viryam Ravanasyatmajam rane。",
+        "wordmeaning": [
+          {
+            "meaning": "拉瓦那的巨人兄弟",
+            "word": "昆巴卡纳"
+          },
+          {
+            "meaning": "拉瓦那强大的儿子",
+            "word": "因德拉吉特"
+          }
+        ]
+      },
+      {
+        "number": 68,
+        "philosophicalinsight": "佛法取代暴政。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "च रणे हत्वा धर्मसंस्थापनाय सः । विभीषणं लङ्कायां तु राज्ये समभिषेचयत् ॥",
+        "simplemeaning": "在恢复佛法的战斗中杀死罗波那后，罗摩加冕维毗沙那为兰卡国王。",
+        "storycontext": "罗波那的衰落和兰卡的新统治。",
+        "transliteration": "Ravanam cha rane hatva dharma-samsthapana-ya sah, Vibhishanam Lankayam tu rajye samabhisecayat。",
+        "wordmeaning": [
+          {
+            "meaning": "建立正义",
+            "word": "法谛"
+          },
+          {
+            "meaning": "罗波那的正义兄弟",
+            "word": "维毗沙那"
+          }
+        ]
+      },
+      {
+        "number": 69,
+        "philosophicalinsight": "纯洁经得起考验。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "सीतां समानीयरामः परीक्षां चाकरोत् ततः । अग्निना शुद्धभावां तां जग्राह पुनरात्मवान् ॥",
+        "simplemeaning": "带悉多后，罗摩要求进行火刑审判。被阿格尼证明是纯洁的，她再次被接受。",
+        "storycontext": "阿格尼·帕里克沙情节。",
+        "transliteration": "Sitam samanaya Ramah pariksham chakorot tatah，Agnina shuddha-bhavam tam jagraha punar atma-van。",
+        "wordmeaning": [
+          {
+            "meaning": "审判",
+            "word": "帕里克沙"
+          },
+          {
+            "meaning": "通过火",
+            "word": "阿格尼娜"
+          }
+        ]
+      },
+      {
+        "number": 70,
+        "philosophicalinsight": "正义的治理带来和谐与繁荣。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": true
+        },
+        "sanskrit": "पुष्पकेण विमानेन अयोध्यां प्रतिनन्दितः ।参考资料： 参考资料： 参考资料：",
+        "simplemeaning": "罗摩乘坐普什帕卡战车返回阿约提亚，加冕为国王，建立罗摩王。",
+        "storycontext": "加冕和恢复统治。",
+        "transliteration": "Pushpakena vimanena Ayodhyam pratinanditah、Ramo rajyam upasina Ram-rajyam pravartitam。",
+        "wordmeaning": [
+          {
+            "meaning": "天车",
+            "word": "普什帕卡"
+          },
+          {
+            "meaning": "罗摩的理想王国",
+            "word": "罗摩王"
+          }
+        ]
+      },
+      {
+        "number": 71,
+        "philosophicalinsight": "正确的领导带来社会和谐。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "धर्मेण पृथिवी स्थिता । न दुःखं न व्याधयश्च नाधर्मो नापि दुर्भिक्षम्॥",
+        "simplemeaning": "在罗摩统治期间，大地建立在佛法之上。没有悲伤、疾病、不公正或饥荒。",
+        "storycontext": "描述了理想的治理。",
+        "transliteration": "Rama-rajye pravritte tu dharmena prithivi sthita, Na duhkham na vyadhayash cha nadharmo napi durbhiksham。",
+        "wordmeaning": [
+          {
+            "meaning": "罗摩的统治",
+            "word": "罗摩王"
+          },
+          {
+            "meaning": "饥荒",
+            "word": "杜比克沙"
+          }
+        ]
+      },
+      {
+        "number": 72,
+        "philosophicalinsight": "王权需要痛苦的牺牲。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "लोकवृत्तं समालोक्यरामोधर्मपरायणः । जनवाक्यभयादेवसीतांत्यक्तुमुपागमत्॥",
+        "simplemeaning": "考虑到舆论和对佛法的虔诚，罗摩决定送走西塔。",
+        "storycontext": "西塔流放的开始。",
+        "transliteration": "Loka-vrittam samalokya Ramo dharma-parayanah、Jana-vakya-bhayad eva Sitam tyaktum upagamat。",
+        "wordmeaning": [
+          {
+            "meaning": "舆论",
+            "word": "洛卡维塔"
+          },
+          {
+            "meaning": "放弃",
+            "word": "蒂亚克图姆"
+          }
+        ]
+      },
+      {
+        "number": 73,
+        "philosophicalinsight": "佛法通过传承延续。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "लक्ष्मणेन तदा सीता वाल्मीकेराश्रमं निता । तत्र लवकुशौ जातौरामस्य तनयौ शुभौ ॥",
+        "simplemeaning": "拉克什玛娜（Lakshmana）将西塔（Sita）带到瓦尔米基（Valmiki）的隐居处，在那里她生下了双胞胎儿子拉瓦（Lava）和库沙（Kusha）。",
+        "storycontext": "流亡中继承人的诞生。",
+        "transliteration": "Lakshmanena tada Sita Valmiker ashramam nita，Tatra Lava-Kushau jatau Ramasya tanayau shubhau。",
+        "wordmeaning": [
+          {
+            "meaning": "瓦尔米基隐修院",
+            "word": "瓦尔米基静修处"
+          },
+          {
+            "meaning": "罗摩的儿子",
+            "word": "熔岩库沙"
+          }
+        ]
+      },
+      {
+        "number": 74,
+        "philosophicalinsight": "神圣的历史保存了佛法。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "वाल्मीकिमुखतःश्रुत्वारामकथांमहात्मनः। लवकुशौतुगायकौबभूवतुरनुत्तमौ॥",
+        "simplemeaning": "从圣人瓦尔米基那里听到罗摩的故事后，拉瓦和库沙成为了伟大的罗摩衍那歌手。",
+        "storycontext": "史诗的传承。",
+        "transliteration": "Valmiki-mukhatah shrutva Rama-katham mahatmanah，Lava-Kushau tu gayakau babhuvatur anuttamau。",
+        "wordmeaning": [
+          {
+            "meaning": "罗摩的故事",
+            "word": "罗摩咒"
+          },
+          {
+            "meaning": "歌手",
+            "word": "伽亚考"
+          }
+        ]
+      },
+      {
+        "number": 75,
+        "philosophicalinsight": "真理通过命运而显露出来。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "अश्वमेधंमहायज्ञंरामःकर्तुमुपक्रमत्। तत्र रामकथां गत्वा लवकुशौ प्रजग्मतुः ॥",
+        "simplemeaning": "罗摩开始举行阿什瓦梅达祭祀，拉瓦和库沙在那里背诵《罗摩衍那》。",
+        "storycontext": "父亲听到了他自己的故事。",
+        "transliteration": "Ashvamedham maha-yajnam Ramah kartum upakramat，Tatra Rama-katham gatva Lava-Kushau prajagmatu。",
+        "wordmeaning": [
+          {
+            "meaning": "皇家马祭祀",
+            "word": "阿什瓦梅达"
+          },
+          {
+            "meaning": "祭祀仪式",
+            "word": "火祭"
+          }
+        ]
+      },
+      {
+        "number": 76,
+        "philosophicalinsight": "真相最终会恢复联系。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "श्रुत्वा तु तां कथाṃ रामः पुत्रौ तौ परिचिन्त्य च । सीतां पुनः समानीय सत्यं ज्ञात्वा महामतिः ॥",
+        "simplemeaning": "罗摩听到这个故事并认出了他的儿子们后，明白了真相，并再次将西塔带到他面前。",
+        "storycontext": "团聚阶段。",
+        "transliteration": "Shrutva tu tam katham Ramah putrau tau parichintya cha、Sitam punah samanaya satyam jnatva maha-matih。",
+        "wordmeaning": [
+          {
+            "meaning": "真相",
+            "word": "萨蒂扬"
+          },
+          {
+            "meaning": "伟大的胸怀",
+            "word": "摩诃末"
+          }
+        ]
+      },
+      {
+        "number": 77,
+        "philosophicalinsight": "纯粹回归本源。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "सा पृथिव्यां प्रविष्टा तु शुद्धभावप्रदर्शिनी । मातृरूपेण धरण्या स्वं स्थानं समवाप ह ॥",
+        "simplemeaning": "西塔再次证明了她的纯洁，她进入了地球，她神圣的母亲。",
+        "storycontext": "西塔最后的离开。",
+        "transliteration": "Sa prithivyam pravishta tu shuddha-bhava-pradarshini, Matru-rupena dharanya svam sthanam samavapa ha。",
+        "wordmeaning": [
+          {
+            "meaning": "进入地球",
+            "word": "普里提维姆·普罗维什塔"
+          },
+          {
+            "meaning": "心地纯洁",
+            "word": "善心"
+          }
+        ]
+      },
+      {
+        "number": 78,
+        "philosophicalinsight": "化身在圆满佛法后回归。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "धर्मपरायणोराज्यंचिरमधारयत्। पुत्रान् स्थाप्य यथान्यायं स्वधाम प्रययौ ततः ॥",
+        "simplemeaning": "罗摩长期以正义统治，为他的儿子们树立了良好的形象，然后返回他的神圣居所。",
+        "storycontext": "罗摩的上升。",
+        "transliteration": "Ramo dharma-parayano rajyam ciram adharayat，Putran sthapya yatha-nyayam sva-dhama Prayaau tatah。",
+        "wordmeaning": [
+          {
+            "meaning": "神圣居所",
+            "word": "斯瓦达玛"
+          },
+          {
+            "meaning": "致力于正义",
+            "word": "法般若"
+          }
+        ]
+      },
+      {
+        "number": 79,
+        "philosophicalinsight": "神圣的纪念净化了生活。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "एतदाख्यानमाख्यातंपुण्यंरामायणंमहत्। यः पठेत् श्रद्धया नित्यं स पापैः प्रमुच्यते ॥",
+        "simplemeaning": "神圣的罗摩衍那就此结束。凡是虔诚地阅读它的人，都将脱离罪孽。",
+        "storycontext": "Phala Shruti（念诵的好处）。",
+        "transliteration": "Etad akhyanam akhyatam punyam Ramayanam mahat，Yah pathet shraddhaya nityam sa papaih pramuchyate。",
+        "wordmeaning": [
+          {
+            "meaning": "虔诚地",
+            "word": "什拉达亚"
+          },
+          {
+            "meaning": "被释放",
+            "word": "普拉穆奇亚特"
+          }
+        ]
+      },
+      {
+        "number": 80,
+        "philosophicalinsight": "佛法故事滋养内在和外在的幸福。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": true
+        },
+        "sanskrit": "मकथां शुभां दिव्यां यः शृणोति नरः सदा । आयुः श्रीं कीर्तिमारोग्यं लभते नात्र संशयः ॥",
+        "simplemeaning": "凡是聆听罗摩神圣故事的人都会获得长寿、繁荣、名声和健康。",
+        "storycontext": "结束祝福。",
+        "transliteration": "Rama-katham shubham divyam yah shrunoti narah sata，Ayuh shreem kirtim arogyaṃ labhate natra samshayah。",
+        "wordmeaning": [
+          {
+            "meaning": "听",
+            "word": "什鲁诺蒂"
+          },
+          {
+            "meaning": "长寿",
+            "word": "阿尤"
+          }
+        ]
+      },
+      {
+        "number": 81,
+        "philosophicalinsight": "佛法内化成为净化。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "विग्रहवान् धर्मःसत्यंचपरिपालितम्। तस्मात् स्मरणमात्रेण पापं नश्यति तत्क्षणात्॥",
+        "simplemeaning": "罗摩是佛法的体现和真理的保护者。只要记住他，罪孽就会立即消灭。",
+        "storycontext": "虔诚的颂扬。",
+        "transliteration": "Ramo vigrahavan dharmah satyam cha paripalitam，Tasmat smarana-matrena papam nashyati tatkshanat。",
+        "wordmeaning": [
+          {
+            "meaning": "实施例",
+            "word": "维格拉哈万"
+          },
+          {
+            "meaning": "纪念",
+            "word": "斯马拉纳"
+          }
+        ]
+      },
+      {
+        "number": 82,
+        "philosophicalinsight": "神圣的声音改变意识。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "नामस्मरणमात्रेणरामस्यपरमात्मनः। दुःखक्षयो भवेत् सद्यः सुखं चाभ्युदयं लभेत् ॥",
+        "simplemeaning": "通过念诵罗摩的名字，悲伤会被消除，快乐会立即升起。",
+        "storycontext": "神名之力。",
+        "transliteration": "Nama-smarana-matrena Ramasya Paramatmanah，Duhkha-kshayo bhavet Sadya sukhanchabhyudaam labhet。",
+        "wordmeaning": [
+          {
+            "meaning": "念诵名字",
+            "word": "名名"
+          },
+          {
+            "meaning": "至高无上的灵魂",
+            "word": "超灵"
+          }
+        ]
+      },
+      {
+        "number": 83,
+        "philosophicalinsight": "神圣的叙事滋养身心。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "श्रवणात् कीर्तनाद् वापिरामकथ्याः पवित्रता । आयुः प्रज्ञां बलं श्रीं च ददाति नात्र संशयः ॥",
+        "simplemeaning": "聆听或歌唱罗摩的故事可以带来纯洁、长寿、智慧、力量和繁荣。",
+        "storycontext": "精神利益声明。",
+        "transliteration": "Shravanat kirtanad vapi Rama-kathyah pavitrata，Ayuh prajnam balam shreem cha dadati natra samshayah。",
+        "wordmeaning": [
+          {
+            "meaning": "听力",
+            "word": "沙瓦那"
+          },
+          {
+            "meaning": "念诵",
+            "word": "克尔塔纳"
+          }
+        ]
+      },
+      {
+        "number": 84,
+        "philosophicalinsight": "奉献将世俗生活与精神自由融为一体。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "पमायणस्यपाठेनकुलंपवित्रमश्नुते। भुक्तिं मुक्तिं च लभते भक्त्या यः समन्वितः ॥",
+        "simplemeaning": "通过虔诚地诵读《罗摩衍那》，一个人可以圣化自己的传承，并获得世间的快乐和解脱。",
+        "storycontext": "念诵功德。",
+        "transliteration": "Ramayanasya Pathena kulam pavitram ashnute，Bhuktim muktim cha labhate bhaktya yah samanvitah。",
+        "wordmeaning": [
+          {
+            "meaning": "世俗的享受",
+            "word": "布克提"
+          },
+          {
+            "meaning": "解放",
+            "word": "穆克蒂"
+          }
+        ]
+      },
+      {
+        "number": 85,
+        "philosophicalinsight": "史诗文学编码了生命的最终目的。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "धर्मार्थकाममोक्षाणांसाधनंरामकथ्यकम्। चतुर्वर्गफलप्राप्तौमार्गोऽयंपरमःस्मृतः॥",
+        "simplemeaning": "罗摩的故事是实现人生四个目标——佛法、财富、欲望和解脱的方法。",
+        "storycontext": "哲学总​​结。",
+        "transliteration": "Dharma-artha-kama-mokshanam Sadhanam Rama-kathyakam，Chaturvarga-phala-praptau margo'yam paramah smritah。",
+        "wordmeaning": [
+          {
+            "meaning": "人生的四个目标",
+            "word": "查图瓦尔加"
+          },
+          {
+            "meaning": "解放",
+            "word": "解脱"
+          }
+        ]
+      },
+      {
+        "number": 86,
+        "philosophicalinsight": "神圣的作者身份保存着永恒的智慧。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "वाल्मीकिमुनिनाप्रोक्तंदिव्यंरामायणंमहत्। ये पठन्ति नराः भक्त्या ते यान्ति परमां गतिम् ॥",
+        "simplemeaning": "这本伟大的《罗摩衍那》，由圣人瓦尔米基（Valmiki）所讲述，赋予那些虔诚地阅读它的人最高的境界。",
+        "storycontext": "圣经权威得到肯定。",
+        "transliteration": "Valmiki-munina proktam divyam Ramayanam mahat，Ye pathanti narah bhaktya te yanti paramam gatim。",
+        "wordmeaning": [
+          {
+            "meaning": "圣人瓦尔米基",
+            "word": "瓦尔米基穆尼"
+          },
+          {
+            "meaning": "最高国家",
+            "word": "帕拉玛姆加提姆"
+          }
+        ]
+      },
+      {
+        "number": 87,
+        "philosophicalinsight": "虔诚伴随着神圣的纪念。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "यत्र यत्र रघुनाथकीर्तनं तत्र तत्र कृतमस्तकाञ्जलिम्। बाष्पवारिपरिपूर्णलोचनंमारुतिंनमतराक्षसान्तकम्॥",
+        "simplemeaning": "无论在哪里唱到罗摩的名字，哈努曼都会双手合十地站着，流着虔诚的泪水。向消灭恶魔的他致敬。",
+        "storycontext": "哈努曼的荣耀。",
+        "transliteration": "Yatra yatra Raghunatha-kirtanam tatra tatra krita-mastakanjalim，Baspavari paripurna-lochanam Marutim namata rakshasantakam。",
+        "wordmeaning": [
+          {
+            "meaning": "罗摩勋爵",
+            "word": "拉古纳塔"
+          },
+          {
+            "meaning": "哈努曼",
+            "word": "马鲁蒂"
+          }
+        ]
+      },
+      {
+        "number": 88,
+        "philosophicalinsight": "佛法最终获胜。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "मो राजमणिः सदा विजयते रामं रमेशं भजे । ममेणाभिहता निशाचरचमू रामाय तस्मै नमः ॥",
+        "simplemeaning": "罗摩，国王中的明珠，永远胜利。我崇拜消灭魔族大军的他。",
+        "storycontext": "胜利赞歌。",
+        "transliteration": "Ramo rajamani sata vijayate Ramam Ramesham bhaje，Ramena abhihata nishachara-chamu Ramaya tasmai namah。",
+        "wordmeaning": [
+          {
+            "meaning": "王中明珠",
+            "word": "拉贾玛尼"
+          },
+          {
+            "meaning": "恶魔",
+            "word": "尼沙查拉"
+          }
+        ]
+      },
+      {
+        "number": 89,
+        "philosophicalinsight": "阿凡达是绝对的显现。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "参考资料सचराचर्वं धार्यते सचराचरम् ॥",
+        "simplemeaning": "没有比罗摩更高的真理，也没有比罗摩更强大的力量。整个宇宙都靠他来维持。",
+        "storycontext": "罗摩的宇宙身份。",
+        "transliteration": "Raman nasti param tattvam Raman nasti param balam, Ramenaiva jagat sarvam dharyate sa-characharam。",
+        "wordmeaning": [
+          {
+            "meaning": "至高无上的真理",
+            "word": "帕拉姆·塔特瓦姆"
+          },
+          {
+            "meaning": "动与不动的生物",
+            "word": "萨查拉查兰"
+          }
+        ]
+      },
+      {
+        "number": 90,
+        "philosophicalinsight": "奉献将知识转化为解脱。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": true
+        },
+        "sanskrit": "इति श्रीरामचरितं संक्षेपेण प्रदर्शितम् । यः पठेत् श्रद्धया भक्त्या स याति परमां गतिम् ॥",
+        "simplemeaning": "至此，罗摩的神圣故事就被简单地讲述了。凡是怀着信心和虔诚来阅读它的人都会获得最高的境界。",
+        "storycontext": "正式结束声明。",
+        "transliteration": "Iti Sri-Rama-charitam sankshipena pradarshitam, Yah pathet shraddhaya bhaktya sa yati paramam gatim。",
+        "wordmeaning": [
+          {
+            "meaning": "简而言之",
+            "word": "桑克斯佩纳"
+          },
+          {
+            "meaning": "最高国家",
+            "word": "帕拉玛姆加提姆"
+          }
+        ]
+      },
+      {
+        "number": 91,
+        "philosophicalinsight": "解脱始于神圣的记忆。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "सर्वभूतहितेरतः। तस्य कीर्तनमात्रेण भवबन्धविमोक्षणम् ॥",
+        "simplemeaning": "罗摩，充满神圣光辉，致力于一切众生的福祉——通过歌颂他的名字，人们可以从世俗的束缚中解脱出来。",
+        "storycontext": "罗摩名字的荣耀。",
+        "transliteration": "Ramo nama mahatejah sarva-bhuta-hiteratah，Tasya kirtana-matrena bhava-bandha-vimokshanam。",
+        "wordmeaning": [
+          {
+            "meaning": "光芒四射",
+            "word": "玛哈特贾"
+          },
+          {
+            "meaning": "世俗存在的束缚",
+            "word": "巴瓦收束"
+          }
+        ]
+      },
+      {
+        "number": 92,
+        "philosophicalinsight": "神圣的陪伴象征着宇宙的和谐。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "सीतारामपदद्वन्द्वंयःस्मरेत्भक्तिभावतः। तस्य दुःखक्षयो नित्यं सौख्यवृद्धिर्न संशयः ॥",
+        "simplemeaning": "凡是怀着虔诚的心记住西塔和罗摩的神圣足部的人，都会看到悲伤减少，幸福增加。",
+        "storycontext": "悉多与罗摩的虔诚结合。",
+        "transliteration": "Sita-Rama-pada-dvandvam yah smart bhakti-bhavatah，Tasya duhkha-kshayo nityam saukhya-vriddhir na samshayah。",
+        "wordmeaning": [
+          {
+            "meaning": "神圣的双脚",
+            "word": "帕达·德万德万"
+          },
+          {
+            "meaning": "虔诚的感觉",
+            "word": "巴克提巴瓦"
+          }
+        ]
+      },
+      {
+        "number": 93,
+        "philosophicalinsight": "神圣的知识通过重复而倍增。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "लवकुशाभ्यां गीता या कथारामस्य धीमतः । सा श्रुता चेत् नरैर्भक्त्या पुण्यं भवति शाश्वतम् ॥",
+        "simplemeaning": "虔诚地聆听拉瓦和库沙所唱的罗摩故事，会获得永恒的功德。",
+        "storycontext": "传承史诗的功德。",
+        "transliteration": "Lava-Kushabhyam gita ya katha Ramasya dhimatah，Sa shruta chet narair bhaktya punyam bhavati shashvatam。",
+        "wordmeaning": [
+          {
+            "meaning": "宋",
+            "word": "吉塔"
+          },
+          {
+            "meaning": "永恒",
+            "word": "沙什瓦塔姆"
+          }
+        ]
+      },
+      {
+        "number": 94,
+        "philosophicalinsight": "奉献重塑品格。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "सत्यवादी जितेन्द्रियः । तस्य लोकाः प्रशस्यन्ते स्वर्गमोक्षप्रदायकाः ॥",
+        "simplemeaning": "罗摩的奉献者变得稳定、诚实和自我控制，获得祝福的境界和解脱。",
+        "storycontext": "奉献者的品质。",
+        "transliteration": "Rama-bhaktah sata dhirah satya-vadi jitendriyah，Tasya lokah prashasyante svarga-moksha-pradayakah。",
+        "wordmeaning": [
+          {
+            "meaning": "罗摩的信徒",
+            "word": "罗摩巴克塔"
+          },
+          {
+            "meaning": "自我控制",
+            "word": "吉滕德里亚"
+          }
+        ]
+      },
+      {
+        "number": 95,
+        "philosophicalinsight": "史诗文学凝聚着普遍智慧。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "धन्यं यशस्यं आयुष्यं पावनं पापनाशनम् । सर्वशास्त्रार्थसंग्रहम्॥",
+        "simplemeaning": "《罗摩衍那》是受祝福的、光荣的、赋予生命的、净化的、消灭罪恶的。它包含了所有经典的精髓。",
+        "storycontext": "圣经总结赞美。",
+        "transliteration": "Dhanyam yashasyam ayushyam pavanam papa-nashanam，Ramayanam maha-punyam sarva-shastra-artha-sangraham。",
+        "wordmeaning": [
+          {
+            "meaning": "净化",
+            "word": "帕瓦南"
+          },
+          {
+            "meaning": "罪恶的毁灭者",
+            "word": "帕帕纳沙南"
+          }
+        ]
+      },
+      {
+        "number": 96,
+        "philosophicalinsight": "即使是总结也能保留精神力量。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "यः पठेत् संक्षिप्तमेतत्रामायणमिदं शुभम् । तस्य पुण्यफलं दिव्यं भवति नात्र संशयः ॥",
+        "simplemeaning": "凡是读过这部简明罗摩衍那的人，无疑都会获得神圣的功德。",
+        "storycontext": "Sankshipta 版本的特定祝福。",
+        "transliteration": "Yah pathet sankshiptam etat Ramayanam idam shubham、Tasya punya-phalam divyam bhavati natra samshayah。",
+        "wordmeaning": [
+          {
+            "meaning": "简洁的形式",
+            "word": "桑克希普坦"
+          },
+          {
+            "meaning": "功绩",
+            "word": "普尼亚帕拉姆"
+          }
+        ]
+      },
+      {
+        "number": 97,
+        "philosophicalinsight": "信念使行动与命运保持一致。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "श्रद्धया यः पठेदेतत् भक्त्या वा शृणुयात् नरः । तस्य सर्वाणि कार्याणि सिद्धिं यान्ति न संशयः ॥",
+        "simplemeaning": "凡是怀着信心和虔诚去读或听的人，都会在一切事业上取得成功。",
+        "storycontext": "实用的生活祝福。",
+        "transliteration": "Shraddhaya yah pathed etat bhaktya va shrunuyat narah, Tasya sarvani karyani siddhim yanti na samshayah。",
+        "wordmeaning": [
+          {
+            "meaning": "凭着信心",
+            "word": "什拉达亚"
+          },
+          {
+            "meaning": "成功",
+            "word": "悉地"
+          }
+        ]
+      },
+      {
+        "number": 98,
+        "philosophicalinsight": "神圣的叙事是为人类服务。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "चरितं पुण्यं लोकानां हितकाम्यया । वाल्मीकिना कृतं पूर्वं सदा लोके प्रतिष्ठितम् ॥",
+        "simplemeaning": "罗摩的神圣一生是瓦尔密基为了世界的福祉而创作的，并且永远被确立。",
+        "storycontext": "作文的目的。",
+        "transliteration": "Ramasya charitam punyam lokanam hita-kamyaya、Valmikinā kritam purvam sata loke pratishthitam。",
+        "wordmeaning": [
+          {
+            "meaning": "人生故事",
+            "word": "慈善机构"
+          },
+          {
+            "meaning": "为了世界的福祉",
+            "word": "日田神屋"
+          }
+        ]
+      },
+      {
+        "number": 99,
+        "philosophicalinsight": "神圣品质成为冥想的锚。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": false
+        },
+        "sanskrit": "लक्ष्मणपूर्वजंरघुवरंसीतापतिंसुंदरम्। काकुत्स्थं करुणार्णवं गुणनिधिं विप्रप्रियं धार्मिकम्॥",
+        "simplemeaning": "向罗摩致敬，拉克什玛纳的哥哥，拉古血统的最优秀者，西塔的丈夫，慈悲之海和美德的宝藏。",
+        "storycontext": "虔诚的赞美诗。",
+        "transliteration": "Ramam Lakshmana-purvajam Raghuvaram Sita-patim sundaram、Kakutstham karunarnavam Guna-nidhim vipra-priyam dharmikam。",
+        "wordmeaning": [
+          {
+            "meaning": "慈悲的海洋",
+            "word": "卡鲁纳尔纳瓦"
+          },
+          {
+            "meaning": "德行宝藏",
+            "word": "古纳尼迪"
+          }
+        ]
+      },
+      {
+        "number": 100,
+        "philosophicalinsight": "所有的知识都在臣服中达到顶峰。",
+        "printnotes": {
+          "fontsize": "大的",
+          "pagebreakafter": true
+        },
+        "sanskrit": "सीतारामचन्द्रार्पणमस्तु ।",
+        "simplemeaning": "愿此供奉在西塔和罗摩的脚下。",
+        "storycontext": "最后的灵修结束。",
+        "transliteration": "Sita-Rama-chandra-arpanam astu。",
+        "wordmeaning": [
+          {
+            "meaning": "奉献",
+            "word": "阿帕南"
+          }
+        ]
+      }
+    ],
+    "source": "https://www.valmikiramayan.net/",
+    "total_slokas": 100
+  }
+}

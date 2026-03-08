@@ -1,0 +1,965 @@
+{
+  "scriptures_vedas": {
+    "title": "古代印度教经典被认为是神圣的启示，构成了萨那坦佛法的基础。",
+    "meta": {
+      "title": "经文|吠陀经 — Sanatana Dharma - 探索 Sanatana Dharma",
+      "canonical": "https://sanatanadharmam.in/scriptures/vedas",
+      "description": "吠陀经 — Rigveda、Yajurveda、Samaveda、Atharvaveda — 有关吠陀经的文章、翻译和简明评论。探索实践、历史和指导……",
+      "keywords": [
+        "atharvaveda",
+        "dharma",
+        "explore",
+        "kena",
+        "rigveda",
+        "samaveda",
+        "sanātana",
+        "scriptures",
+        "upanishad",
+        "vedas",
+        "yajurveda"
+      ],
+      "ogimage": "/og/vedas.png",
+      "url": "https://sanatanadharmam.in/scriptures/vedas"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "组织",
+        "contactpoint": {
+          "@type": "联络点",
+          "areaserved": "全世界",
+          "availablelanguage": [
+            "巴黎",
+            "德语",
+            "英语",
+            "西班牙语",
+            "法国人",
+            "हिन्दी",
+            "日本语",
+            "नेपाली",
+            "荷兰",
+            "葡萄牙语",
+            "俄罗斯",
+            "తెలుగు",
+            "阿鲁多",
+            "中文 (简体)"
+          ],
+          "contacttype": "客户支持",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "关于 Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "all_108_upanishads": {
+      "description": "根据 Muktika 传统，完整列出 108 部奥义书。",
+      "list": [
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "伊莎",
+          "summary": "Isha Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "凯纳",
+          "summary": "Kena Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "卡塔",
+          "summary": "《卡塔奥义书》的简短摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉什纳",
+          "summary": "Prashna Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "蒙达卡",
+          "summary": "Mundaka Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "曼杜基亚",
+          "summary": "《曼杜基奥义书》的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "泰蒂里亚",
+          "summary": "《Taittiriya Upanishad》的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "艾塔雷亚",
+          "summary": "Aitareya Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "昌多吉亚",
+          "summary": "Chandogya Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "布里哈达兰亚卡",
+          "summary": "Brihadaranyaka Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "斯韦塔斯瓦塔拉",
+          "summary": "Svetasvatara Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "凯瓦利亚",
+          "summary": "Kaivalya Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "迈特里",
+          "summary": "Maitri Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "大乘",
+          "summary": "《大乘奥义书》的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "那拉辛哈",
+          "summary": "Narasimha Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "帕拉玛罕萨",
+          "summary": "Paramahamsa Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "苏巴拉",
+          "summary": "Subala Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "迦楼罗",
+          "summary": "Garuda Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "贾巴拉",
+          "summary": "Jabala Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "潘加拉",
+          "summary": "Paingala Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "考西泷",
+          "summary": "Kaushitaki Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "桑可亚",
+          "summary": "Sankhya Upanishad 的简短摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "瑜伽",
+          "summary": "瑜伽奥义书的简短摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "金刚杵",
+          "summary": "金刚奥义书的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "哈姆萨",
+          "summary": "Hamsa Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "阿维亚克塔",
+          "summary": "Avyakta Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "阿特玛",
+          "summary": "《Atma Upanishad》的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "萨里拉卡",
+          "summary": "《萨里拉卡奥义书》的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "内定",
+          "summary": "Adhyatma Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "韦驮",
+          "summary": "Skanda Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "赤波提菩提",
+          "summary": "Tripadvibhuti Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "楼陀罗",
+          "summary": "Rudra Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "巴斯玛",
+          "summary": "Bhasma Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "卡拉尼",
+          "summary": "《卡拉格尼奥义书》的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "达克西那穆提",
+          "summary": "Dakshinamurti Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "特霍宾杜",
+          "summary": "Tejobindu Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "梵天",
+          "summary": "Brahmabindu Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "阿姆里他宾杜",
+          "summary": "《Amritabindu Upanishad》的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "阿特摩菩提",
+          "summary": "Atmabodha Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "帕拉玛南达",
+          "summary": "Paramananda Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "曼陀罗",
+          "summary": "曼陀罗奥义书的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "塔拉萨拉",
+          "summary": "Tarasara Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "穆克蒂卡",
+          "summary": "Muktika Upanishad 的简短摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "安纳布尔纳峰",
+          "summary": "安纳普纳奥义书的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "苏里亚",
+          "summary": "Surya Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "阿克希",
+          "summary": "Akshi Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "查克舒斯",
+          "summary": "Chakshus Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉纳尼霍特拉",
+          "summary": "Pranagnihotra Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉纳瓦",
+          "summary": "Pranava Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉纳瓦维迪亚",
+          "summary": "Pranava-Vidya Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉纳瓦-沙里拉卡",
+          "summary": "Pranava-Sairaka Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉纳瓦瑜伽",
+          "summary": "Pranava-Yoga Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "梵天",
+          "summary": "Pranava-Brahma Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉纳瓦奥义书",
+          "summary": "Pranava-Upanishad 奥义书的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉纳瓦-萨米塔",
+          "summary": "Pranava-Samhita Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉纳瓦-塔特瓦",
+          "summary": "Pranava-Tattva Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉纳瓦禅定",
+          "summary": "Pranava-Dhyana Upanishad 的简短摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉纳瓦曼陀罗",
+          "summary": "Pranava-Mantra Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉那瓦悉地",
+          "summary": "Pranava-Siddhi Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉纳瓦-穆克蒂",
+          "summary": "Pranava-Mukti Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉那瓦智慧",
+          "summary": "Pranava-Jnana Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉纳瓦维迪亚奥义书",
+          "summary": "Pranava-Vidya-Upanishad 奥义书的简短摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉纳瓦-沙里拉卡-奥义书",
+          "summary": "Pranava-Sairaka-Upanishad 奥义书的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉纳瓦瑜伽奥义书",
+          "summary": "Pranava-Yoga-Upanishad 奥义书的简短摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "梵天奥义书",
+          "summary": "Pranava-Brahma-Upanishad 奥义书的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-奥义书-2",
+          "summary": "Pranava-Upanishad-2 Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉纳瓦-萨米塔-奥义书",
+          "summary": "Pranava-Samhita-Upanishad Upanishad 的简短摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉纳瓦-塔特瓦-奥义书",
+          "summary": "Pranava-Tattva-Upanishad 奥义书的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉那瓦禅定奥义书",
+          "summary": "Pranava-Dhyana-Upanishad Upanishad 的简短摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉纳瓦-曼陀罗-奥义书",
+          "summary": "Pranava-Mantra-Upanishad 奥义书的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉那瓦悉提奥义书",
+          "summary": "Pranava-Siddhi-Upanishad Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉纳瓦-穆克提-奥义书",
+          "summary": "Pranava-Mukti-Upanishad 奥义书的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉那瓦智者奥义书",
+          "summary": "Pranava-Jnana-Upanishad 奥义书的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Vidya-Upanishad-2",
+          "summary": "Pranava-Vidya-Upanishad-2 Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉纳瓦-萨里拉卡-奥义书-2",
+          "summary": "Pranava-Sairaka-Upanishad-2 Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-瑜伽-奥义书-2",
+          "summary": "Pranava-Yoga-Upanishad-2 Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Brahma-Upanishad-2",
+          "summary": "Pranava-Brahma-Upanishad-2 Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-奥义书-3",
+          "summary": "Pranava-Upanishad-3 Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Samhita-Upanishad-2",
+          "summary": "Pranava-Samhita-Upanishad-2 Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Tattva-奥义书-2",
+          "summary": "Pranava-Tattva-Upanishad-2 Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Dhyana-Upanishad-2",
+          "summary": "Pranava-Dhyana-Upanishad-2 Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Mantra-Upanishad-2",
+          "summary": "Pranava-Mantra-Upanishad-2 Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Siddhi-Upanishad-2",
+          "summary": "Pranava-Siddhi-Upanishad-2 Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Mukti-Upanishad-2",
+          "summary": "Pranava-Mukti-Upanishad-2 Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Jnana-Upanishad-2",
+          "summary": "Pranava-Jnana-Upanishad-2 Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Vidya-Upanishad-3",
+          "summary": "Pranava-Vidya-Upanishad-3 Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "普拉纳瓦-萨里拉卡-奥义书-3",
+          "summary": "Pranava-Sairaka-Upanishad-3 Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-瑜伽-奥义书-3",
+          "summary": "Pranava-Yoga-Upanishad-3 Upanishad 的简要摘要占位符。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Brahma-Upanishad-3",
+          "summary": "Pranava-Brahma-Upanishad-3 Upanishad 的简要摘要占位符。"
+        }
+      ],
+      "resource_links": [
+        {
+          "title": "Bibles.ru – 完整文本集",
+          "url": "https://scriptures.ru/upanishad/"
+        },
+        {
+          "title": "梵歌协会 – 108 部奥义书 PDF",
+          "url": "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+        },
+        {
+          "title": "Kaalchakra – 多合一系列",
+          "url": "https://kaalchakra.in/108-upanishads-all-in-one/"
+        },
+        {
+          "title": "Archive.org – 英文翻译",
+          "url": "https://archive.org/stream/1UpanishadsRigVeda/5Upanishads%20-%20Atharva%20Veda_djvu.txt"
+        }
+      ]
+    },
+    "authorship": {
+      "compiler": "传统上归因于维亚萨",
+      "nature": "Apauruṣeya（非人类起源）",
+      "process": "在冥想期间向圣人（rishis）揭示"
+    },
+    "benefits": [
+      "唤醒精神洞察力和自我实现",
+      "为道德生活和社会和谐奠定基础",
+      "激发科学、艺术和哲学探究",
+      "将个人与宇宙秩序和普遍意识联系起来",
+      "为冥想、奉献和正确行动提供永恒的指导"
+    ],
+    "features": [
+      "以具有多层含义的诗意、象征性语言组成",
+      "几千年来以精确的记忆技术口头传播",
+      "分为四个吠陀经，每个吠陀经有《Samhita》、《Brahmana》、《Aranyaka》和《Upanishad》部分",
+      "整合圣歌、仪式、哲学、宇宙学和实践指导",
+      "强调多样性中的统一——一个真理以多种形式表达"
+    ],
+    "intro": "吠陀经（来自梵文词根“vid”——知道）是南亚神圣文学最古老的阶层。它们以吠陀梵语创作，并通过保守的口头传播保存下来，塑造了仪式实践、社会理想和早期印度思想。",
+    "language": "吠陀梵文",
+    "origin": {
+      "meaning": "吠陀（Veda）在梵文中的意思是“知识”。",
+      "period": "公元前 1500 年 – 公元前 500 年（吠陀时期）",
+      "transmission": "在以吠陀梵语书写之前，口头保存了几个世纪。"
+    },
+    "purpose": "揭示存在的基本真理、宇宙的本质以及与神圣和谐的道路。吠陀经旨在提升人类意识，促进内在和外在秩序（rita），并激发对真理（satya）和不朽（amrita）的追求。",
+    "significance": "印度教哲学、仪式和精神实践的基础。吠陀经被尊为永恒的知识源泉，指导人类生活的各个方面——精神、伦理、社会和宇宙。它们不仅仅是文本，而是活生生的智慧，需要人们去认识和体验。",
+    "structure": {
+      "fourvedas": [
+        {
+          "content": "赞美阿格尼、因陀罗、伐楼那等神灵的赞美诗",
+          "features": "最古老的吠陀经，1,028 首赞美诗",
+          "name": "梨俱吠陀"
+        },
+        {
+          "content": "仪式的旋律和圣歌",
+          "features": "梨吠陀赞美诗的音乐编排",
+          "name": "萨马韦达"
+        },
+        {
+          "content": "祭祀和仪式的散文咒语",
+          "features": "祭司在祭祀期间使用",
+          "name": "夜柔吠陀"
+        },
+        {
+          "content": "日常生活中的赞美诗、咒语和咒语",
+          "features": "实践和哲学方面",
+          "name": "阿闼婆吠陀"
+        }
+      ],
+      "subdivisions": [
+        "三义",
+        "婆罗门",
+        "阿兰亚卡斯",
+        "奥义书"
+      ]
+    },
+    "themes": [
+      "宇宙学",
+      "伦理",
+      "仪式",
+      "哲学"
+    ],
+    "timeline": [
+      {
+        "date": "公元前 1500 年 – 公元前 1200 年",
+        "description": "梨俱吠陀赞美诗的创作；口头传统开始。",
+        "phase": "早期吠陀时期"
+      },
+      {
+        "date": "公元前 1200 年 – 公元前 900 年",
+        "description": "Samaveda 和 Yajurveda 的发展；仪式化的焦点。",
+        "phase": "中吠陀时期"
+      },
+      {
+        "date": "公元前 900 年 – 公元前 500 年",
+        "description": "阿闼婆吠陀 (Atharvaveda) 创作；婆罗门和阿兰亚卡撰写。",
+        "phase": "吠陀后期"
+      },
+      {
+        "date": "公元前 800 年 – 公元前 200 年",
+        "description": "哲学转变；奥义书的编撰强调灵性知识。",
+        "phase": "奥义书时代"
+      },
+      {
+        "date": "大约公元前 500 年起",
+        "description": "吠陀经和奥义书以书面形式记载。",
+        "phase": "书面汇编"
+      },
+      {
+        "date": "传统：Treta Yuga |天文估计：~公元前 5114 年",
+        "description": "毗湿奴的第七个化身出生于阿约提亚；被誉为拉玛·纳瓦米 (Rama Navami)。",
+        "phase": "罗摩勋爵诞生"
+      },
+      {
+        "date": "传统：Dvapara Yuga |天文估计：~公元前 3228 年",
+        "description": "毗湿奴的第八个化身出生在马图拉；被称为建摩斯达密 (Janmashtami)。",
+        "phase": "克里希纳勋爵诞生"
+      },
+      {
+        "date": "大约。公元前 6 年 – 公元前 4 年",
+        "description": "传统的基督教信仰认为耶稣的诞生早于希律王的去世。",
+        "phase": "耶稣基督的诞生"
+      },
+      {
+        "date": "永恒（阿纳迪-阿南塔）",
+        "description": "湿婆是永恒的，超越生与死；表现为宇宙意识。",
+        "phase": "湿婆神"
+      }
+    ],
+    "unique_insights": "吠陀经的普遍性和深度是独一无二的。他们不属于任何一个教派或时代，而是致力于对意义和超越的永恒追求。据说他们的咒语带有内在的精神力量（shabda brahman），他们的智慧继续激励着全世界的求道者、学者和社会。",
+    "upanishads": {
+      "definition": "哲学文本构成吠陀经的结论部分，重点关注灵性知识。",
+      "major_upanishads": [
+        {
+          "links": [
+            "https://www.gutenberg.org/ebooks/3283"
+          ],
+          "name": "伊莎",
+          "summary": "教导一切众生放弃和统一婆罗门。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/"
+          ],
+          "name": "凯纳",
+          "summary": "探索感知和终极现实的来源。"
+        },
+        {
+          "links": [
+            "https://kaalchakra.in/108-upanishads-all-in-one/"
+          ],
+          "name": "卡塔",
+          "summary": "纳奇克塔和阎摩关于永生的对话。"
+        },
+        {
+          "links": [
+            "https://archive.org/stream/1UpanishadsRigVeda/5Upanishads%20-%20Atharva%20Veda_djvu.txt"
+          ],
+          "name": "蒙达卡",
+          "summary": "高等知识和低级知识；婆罗门是至高无上的现实。"
+        },
+        {
+          "links": [
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "曼杜基亚",
+          "summary": "唵和意识状态的分析。"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/"
+          ],
+          "name": "泰蒂里亚",
+          "summary": "人类存在的层次；婆罗门之乐。"
+        },
+        {
+          "links": [
+            "https://kaalchakra.in/108-upanishads-all-in-one/"
+          ],
+          "name": "昌多吉亚",
+          "summary": "冥想、道德和“Tat Tvam Asi”的概念。"
+        },
+        {
+          "links": [
+            "https://archive.org/stream/1UpanishadsRigVeda/5Upanishads%20-%20Atharva%20Veda_djvu.txt"
+          ],
+          "name": "布里哈达兰亚卡",
+          "summary": "自知之明；关于阿特曼的哲学对话。"
+        }
+      ]
+    }
+  }
+}

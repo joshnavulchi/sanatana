@@ -1,0 +1,965 @@
+{
+  "scriptures_vedas": {
+    "title": "قدیم ہندو صحیفے سناتن دھرم کی بنیاد بناتے ہوئے الہی انکشافات پر غور کرتے تھے۔",
+    "meta": {
+      "title": "صحیفے | وید - سناتن دھرم - سناتن دھرم کو دریافت کریں۔",
+      "canonical": "https://sanatanadharmam.in/scriptures/vedas",
+      "description": "وید - رگ وید، یجروید، سام وید، اتھرو وید - مضامین، ترجمے اور ویدوں پر مختصر تفسیر۔ طرز عمل، تاریخ اور رہنمائی دریافت کریں...",
+      "keywords": [
+        "atharvaveda",
+        "dharma",
+        "explore",
+        "kena",
+        "rigveda",
+        "samaveda",
+        "sanātana",
+        "scriptures",
+        "upanishad",
+        "vedas",
+        "yajurveda"
+      ],
+      "ogimage": "/og/vedas.png",
+      "url": "https://sanatanadharmam.in/scriptures/vedas"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "تنظیم",
+        "contactpoint": {
+          "@type": "رابطہ پوائنٹ",
+          "areaserved": "دنیا بھر میں",
+          "availablelanguage": [
+            "العربية",
+            "ڈوئچ",
+            "انگریزی",
+            "اسپینول",
+            "Français",
+            "ہندی",
+            "日本語",
+            "नेपाली",
+            "نیدرلینڈز",
+            "پرتگالی",
+            "روسی",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "کسٹمر سپورٹ",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sanatanadharmam.in کے بارے میں",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "all_108_upanishads": {
+      "description": "مکتیکا روایت کے مطابق 108 اپنشدوں کی مکمل فہرست۔",
+      "list": [
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "عشاء",
+          "summary": "ایشا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "کینا",
+          "summary": "کینا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "کتھا",
+          "summary": "کتھا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پراشنا",
+          "summary": "پرشنا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "منڈاکا",
+          "summary": "منڈاکا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "منڈوکیا",
+          "summary": "منڈوکیا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "تیٹیریا",
+          "summary": "تیتیریہ اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ایتاریا",
+          "summary": "ایتریہ اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "چندوگیا",
+          "summary": "چندوگیا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "برہدارنیکا",
+          "summary": "برہدرنیاک اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "سویتاسوتار",
+          "summary": "سویتاسوتار اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "کیولیا",
+          "summary": "کیولیا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "میتری",
+          "summary": "میتری اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "مہارائنا۔",
+          "summary": "مہارائن اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "نرسمہا",
+          "summary": "نرسمہا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرماہمس",
+          "summary": "Paramahamsa اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "سبالا",
+          "summary": "سبالا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "گڑوڑا",
+          "summary": "گروڈ اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "جبالہ",
+          "summary": "جبالا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پینگلا",
+          "summary": "پینگلا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "کوشیتاکی",
+          "summary": "کوشیتاکی اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "سانکھیا",
+          "summary": "سانکھیا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "یوگا",
+          "summary": "یوگا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "وجراسوچی",
+          "summary": "وجراسوچی اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "حمصہ",
+          "summary": "ہمسا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ایویکتا۔",
+          "summary": "اویکتا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "آتما",
+          "summary": "آتما اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "ساریراکا",
+          "summary": "سریراکا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Adhyatma",
+          "summary": "ادھیاتما اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "سکنڈا۔",
+          "summary": "سکند اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "تریپاڈویبھوتی",
+          "summary": "Tripadvibhuti Upanishad کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "رودرا",
+          "summary": "رودر اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "بھسمہ",
+          "summary": "بھسما اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "کالاگنی",
+          "summary": "کالگنی اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "دکشنامورتی",
+          "summary": "دکشنامورتی اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "تیجوبندو",
+          "summary": "تیجوبندو اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "برہمابندو",
+          "summary": "برہمابندو اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "امرتابندو",
+          "summary": "امرتابندو اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "اتمبودھا",
+          "summary": "آتمبودھا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرمانند",
+          "summary": "پرمانند اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "منڈلا",
+          "summary": "منڈلا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "تاراسرا",
+          "summary": "تراسارا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "مکتیکا",
+          "summary": "مکتیکا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "اناپورنا",
+          "summary": "اناپورنا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "سوریا",
+          "summary": "سوریہ اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "اکشی",
+          "summary": "اکشی اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "چکش",
+          "summary": "چکشو اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پراناگنیہوترا",
+          "summary": "پرانگنی ہوترا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا",
+          "summary": "پراناوا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا ودیا",
+          "summary": "پرنوا ودیا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-سریراکا",
+          "summary": "پرنوا سریراکا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا یوگا",
+          "summary": "پرنوا یوگا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا برہما",
+          "summary": "پرنوا برہما اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا اپنشد",
+          "summary": "پرنوا اپنشد اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-سمہیتا",
+          "summary": "پرنوا سمہتا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-تتوا۔",
+          "summary": "مختصر خلاصہ پلیس ہولڈر پرنوا-تتوا اپنشد کے لیے۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-دھیانا",
+          "summary": "پرنوا دھیان اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-منتر",
+          "summary": "پرنوا منتر اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا سدھی",
+          "summary": "پرنوا سدھی اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا مکتی",
+          "summary": "پرنوا مکتی اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-جننا",
+          "summary": "پرنوا-جنا اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-ودیا-اپنشد",
+          "summary": "پرنوا ودیا اپنشد اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-سریراکا-اپنشد",
+          "summary": "مختصر خلاصہ پلیس ہولڈر پرنوا-سریراکا-اپنشد اپنشد۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-یوگا-اپنشد",
+          "summary": "پرنوا یوگا اپنشد اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا برہما اپنشد",
+          "summary": "پرنوا برہما اپنشد اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا اپنشد-2",
+          "summary": "پراناوا اپنشد-2 اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-سمہتا-اپنشد",
+          "summary": "پرنوا-سمہتا-اپنشد اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-تتوا-اپنشد",
+          "summary": "مختصر خلاصہ پلیس ہولڈر پرنوا-تتوا-اپنشد اپنشد۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-دھیان-اپنشد",
+          "summary": "پرنوا-دھیانا-اپنشد اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-منتر-اپنشد",
+          "summary": "پرنوا منتر اپنشد اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-سدھی-اپنشد",
+          "summary": "پرنوا سدھی اپنشد اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا مکتی اپنشد",
+          "summary": "پرنوا مکتی اپنشد اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-جنا-اپنشد",
+          "summary": "پرنوا-جنا-اپنشد اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-ودیا-اپنشد-2",
+          "summary": "پرنوا ودیا اپنشد 2 اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-سریراکا-اپنشد-2",
+          "summary": "پرنوا-سریراکا-اپنشد-2 اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-یوگا-اپنشد-2",
+          "summary": "پرنوا-یوگا-اپنشد-2 اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-برہما-اپنشد-2",
+          "summary": "پرنوا برہما اپنشد 2 اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا اپنشد-3",
+          "summary": "پراناوا اپنشد-3 اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-سمہتا-اپنشد-2",
+          "summary": "پرنوا-سمہتا-اپنشد-2 اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-تتوا-اپنشد-2",
+          "summary": "مختصر خلاصہ پلیس ہولڈر پرنوا-تتوا-اپنشد-2 اپنشد کے لیے۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-دھیانا-اپنشد-2",
+          "summary": "پرنوا-دھیانا-اپنشد-2 اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-منتر-اپنشد-2",
+          "summary": "پرنوا-منتر-اپنشد-2 اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-سدھی-اپنشد-2",
+          "summary": "مختصر خلاصہ پلیس ہولڈر پرنوا-سدھی-اپنشد-2 اپنشد کے لیے۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا مکتی اپنشد 2",
+          "summary": "پرنوا مکتی-اپنشد-2 اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-جنا-اپنشد-2",
+          "summary": "پرناوا-جنا-اپنشد-2 اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-ودیا-اپنشد-3",
+          "summary": "پرنوا ودیا اپنشد 3 اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-سریراکا-اپنشد-3",
+          "summary": "پرنوا-سریراکا-اپنشد-3 اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-یوگا-اپنشد-3",
+          "summary": "پرنوا-یوگا-اپنشد-3 اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "پرنوا-برہما-اپنشد-3",
+          "summary": "پرنوا برہما اپنشد 3 اپنشد کے لیے مختصر خلاصہ پلیس ہولڈر۔"
+        }
+      ],
+      "resource_links": [
+        {
+          "title": "Scriptures.ru - مکمل متن کا مجموعہ",
+          "url": "https://scriptures.ru/upanishad/"
+        },
+        {
+          "title": "گیتا سوسائٹی - 108 اپنشد پی ڈی ایف",
+          "url": "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+        },
+        {
+          "title": "کالچکر - تمام ایک مجموعہ",
+          "url": "https://kaalchakra.in/108-upanishads-all-in-one/"
+        },
+        {
+          "title": "Archive.org – انگریزی ترجمہ",
+          "url": "https://archive.org/stream/1UpanishadsRigVeda/5Upanishads%20-%20Atharva%20Veda_djvu.txt"
+        }
+      ]
+    },
+    "authorship": {
+      "compiler": "روایتی طور پر ویاس سے منسوب ہے۔",
+      "nature": "اپوروشیا (انسانی اصل کا نہیں)",
+      "process": "مراقبہ کے دوران باباؤں (رشیوں) پر ظاہر ہوا۔"
+    },
+    "benefits": [
+      "روحانی بصیرت اور خود شناسی کو بیدار کرتا ہے۔",
+      "اخلاقی زندگی اور سماجی ہم آہنگی کی بنیاد فراہم کرتا ہے۔",
+      "سائنسی، فنکارانہ، اور فلسفیانہ تحقیقات کو متاثر کرتا ہے۔",
+      "افراد کو کائناتی ترتیب اور آفاقی شعور سے جوڑتا ہے۔",
+      "مراقبہ، عقیدت، اور صحیح عمل کے لیے لازوال رہنمائی پیش کرتا ہے۔"
+    ],
+    "features": [
+      "معنی کی متعدد پرتوں کے ساتھ شاعرانہ، علامتی زبان میں تحریر",
+      "صدیوں کے لیے حفظ کی درست تکنیک کے ساتھ زبانی طور پر منتقل کیا گیا۔",
+      "چار ویدوں میں تقسیم کیا گیا ہے، جن میں سے ہر ایک سمہتا، برہمن، آرنیکا اور اپنشد حصوں کے ساتھ ہے۔",
+      "حمد، رسومات، فلسفہ، کائناتی اور عملی رہنمائی کو مربوط کرتا ہے",
+      "تنوع میں اتحاد پر زور دیتا ہے — ایک سچائی کا اظہار کئی شکلوں میں ہوتا ہے۔"
+    ],
+    "intro": "وید (سنسکرت کی جڑ 'vid' سے — جاننے کے لیے) جنوبی ایشیائی مقدس ادب کا قدیم ترین طبقہ ہے۔ ویدک سنسکرت میں لکھے گئے اور قدامت پسند زبانی ترسیل کے ذریعے محفوظ کیے گئے، انھوں نے رسم رواج، سماجی نظریات اور ابتدائی ہندوستانی سوچ کو شکل دی۔",
+    "language": "ویدک سنسکرت",
+    "origin": {
+      "meaning": "وید کا مطلب سنسکرت میں 'علم' ہے۔",
+      "period": "1500 قبل مسیح - 500 قبل مسیح (ویدک دور)",
+      "transmission": "ویدک سنسکرت میں لکھے جانے سے پہلے صدیوں تک زبانی طور پر محفوظ ہے۔"
+    },
+    "purpose": "وجود کی بنیادی سچائیوں، کائنات کی نوعیت، اور الہی کے ساتھ ہم آہنگی کے راستے کو ظاہر کرنے کے لیے۔ ویدوں کا مقصد انسانی شعور کو بلند کرنا، اندرونی اور بیرونی ترتیب (ریتا) کو فروغ دینا، اور سچائی (ستیہ) اور امرتا (امریتا) کے حصول کی ترغیب دینا ہے۔",
+    "significance": "ہندو فلسفہ، رسومات اور روحانی طریقوں کی بنیاد۔ ویدوں کو علم کے ابدی ماخذ کے طور پر تعظیم کیا جاتا ہے، جو زندگی کے تمام پہلوؤں - روحانی، اخلاقی، سماجی اور کائناتی میں انسانیت کی رہنمائی کرتے ہیں۔ وہ صرف نصوص نہیں ہیں، بلکہ زندہ حکمت ہیں، جن کا مقصد احساس اور تجربہ کرنا ہے۔",
+    "structure": {
+      "fourvedas": [
+        {
+          "content": "اگنی، اندرا، ورون جیسے دیوتاؤں کی تعریف کرنے والے بھجن",
+          "features": "قدیم ترین وید، 1,028 بھجن",
+          "name": "رگ وید"
+        },
+        {
+          "content": "رسموں کے لیے دھنیں اور ترانے",
+          "features": "رگ ویدک بھجن کی موسیقی کا انتظام",
+          "name": "ساموید"
+        },
+        {
+          "content": "قربانیوں اور رسومات کے لیے نثری منتر",
+          "features": "یاجنوں کے دوران پجاریوں کے ذریعہ استعمال کیا جاتا ہے۔",
+          "name": "یجروید"
+        },
+        {
+          "content": "روزمرہ کی زندگی کے لیے بھجن، منتر، اور منتر",
+          "features": "عملی اور فلسفیانہ پہلو",
+          "name": "اتھرو وید"
+        }
+      ],
+      "subdivisions": [
+        "سمہتا",
+        "برہمن",
+        "آرنیکاس",
+        "اپنشد"
+      ]
+    },
+    "themes": [
+      "کاسمولوجی",
+      "اخلاقیات",
+      "رسومات",
+      "فلسفہ"
+    ],
+    "timeline": [
+      {
+        "date": "1500 قبل مسیح - 1200 قبل مسیح",
+        "description": "رگ وید بھجن کی تشکیل؛ زبانی روایت شروع ہوتی ہے۔",
+        "phase": "ابتدائی ویدک دور"
+      },
+      {
+        "date": "1200 قبل مسیح - 900 قبل مسیح",
+        "description": "ساموید اور یجوروید کی ترقی؛ رسمی توجہ.",
+        "phase": "درمیانی ویدک دور"
+      },
+      {
+        "date": "900 قبل مسیح - 500 قبل مسیح",
+        "description": "اتھرو وید پر مشتمل؛ برہمن اور آرنیکا لکھے۔",
+        "phase": "دیر سے ویدک دور"
+      },
+      {
+        "date": "800 قبل مسیح - 200 قبل مسیح",
+        "description": "فلسفیانہ تبدیلی؛ اپنشدوں نے روحانی علم پر زور دیتے ہوئے مرتب کیا۔",
+        "phase": "اپنشدک دور"
+      },
+      {
+        "date": "تقریباً 500 قبل مسیح کے بعد",
+        "description": "ویدوں اور اپنشدوں کو تحریری شکل میں دستاویز کیا گیا ہے۔",
+        "phase": "تحریری تالیف"
+      },
+      {
+        "date": "روایتی: تریتا یوگا | فلکیاتی تخمینہ: ~5114 BCE",
+        "description": "وشنو کا ساتواں اوتار ایودھیا میں پیدا ہوا؛ راما نومی کے طور پر منایا جاتا ہے۔",
+        "phase": "بھگوان رام کی پیدائش"
+      },
+      {
+        "date": "روایتی: دواپارہ یوگا | فلکیاتی تخمینہ: ~3228 BCE",
+        "description": "وشنو کا آٹھواں اوتار متھرا میں پیدا ہوا؛ جنم اشٹمی کے طور پر منایا جاتا ہے۔",
+        "phase": "بھگوان کرشنا کی پیدائش"
+      },
+      {
+        "date": "تقریبا 6 قبل مسیح - 4 قبل مسیح",
+        "description": "روایتی عیسائی عقیدہ یسوع کی پیدائش کو بادشاہ ہیروڈ کی موت سے پہلے بتاتا ہے۔",
+        "phase": "یسوع مسیح کی پیدائش"
+      },
+      {
+        "date": "بے وقت (انادی-اننتا)",
+        "description": "شیو ابدی ہے، پیدائش اور موت سے پرے؛ کائناتی شعور کے طور پر ظاہر ہوتا ہے۔",
+        "phase": "بھگوان شیو"
+      }
+    ],
+    "unique_insights": "وید اپنی ہمہ گیریت اور گہرائی میں منفرد ہیں۔ ان کا تعلق کسی ایک فرقے یا دور سے نہیں ہے، بلکہ معنی اور ماورائیت کی ابدی جستجو کو مخاطب کرتے ہیں۔ کہا جاتا ہے کہ ان کے منتروں میں اندرونی روحانی طاقت (شبدہ برہمن) ہے، اور ان کی حکمت دنیا بھر کے متلاشیوں، علماء اور معاشروں کو متاثر کرتی رہتی ہے۔",
+    "upanishads": {
+      "definition": "فلسفیانہ تحریریں جو ویدوں کا اختتامی حصہ بناتے ہیں، روحانی علم پر توجہ مرکوز کرتے ہیں۔",
+      "major_upanishads": [
+        {
+          "links": [
+            "https://www.gutenberg.org/ebooks/3283"
+          ],
+          "name": "عشاء",
+          "summary": "تمام مخلوقات میں برہمن کی یکسوئی اور اتحاد کا درس دیتا ہے۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/"
+          ],
+          "name": "کینا",
+          "summary": "ادراک کے ماخذ اور حتمی حقیقت کو دریافت کرتا ہے۔"
+        },
+        {
+          "links": [
+            "https://kaalchakra.in/108-upanishads-all-in-one/"
+          ],
+          "name": "کتھا",
+          "summary": "ناچکیتا اور یما کے درمیان امر پر مکالمہ۔"
+        },
+        {
+          "links": [
+            "https://archive.org/stream/1UpanishadsRigVeda/5Upanishads%20-%20Atharva%20Veda_djvu.txt"
+          ],
+          "name": "منڈاکا",
+          "summary": "اعلی اور کم علم؛ برہمن بطور اعلیٰ حقیقت۔"
+        },
+        {
+          "links": [
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "منڈوکیا",
+          "summary": "اوم اور شعور کی حالتوں کا تجزیہ۔"
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/"
+          ],
+          "name": "تیٹیریا",
+          "summary": "انسانی وجود کی تہیں؛ برہمن کی خوشی"
+        },
+        {
+          "links": [
+            "https://kaalchakra.in/108-upanishads-all-in-one/"
+          ],
+          "name": "چندوگیا",
+          "summary": "مراقبہ، اخلاقیات، اور 'تت توم آسی' کا تصور۔"
+        },
+        {
+          "links": [
+            "https://archive.org/stream/1UpanishadsRigVeda/5Upanishads%20-%20Atharva%20Veda_djvu.txt"
+          ],
+          "name": "برہدارنیکا",
+          "summary": "خود علم؛ Atman پر فلسفیانہ مکالمے۔"
+        }
+      ]
+    }
+  }
+}

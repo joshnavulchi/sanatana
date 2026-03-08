@@ -1,0 +1,164 @@
+{
+  "philosophy_samsara": {
+    "title": "Samsara 哲学 — 詳細な Q&A と概念",
+    "meta": {
+      "title": "哲学 |サムサラ — サナータナ ダルマ - サナタン ダルマを探索する",
+      "canonical": "https://sanatanadharmam.in/philosophy/samsara",
+      "description": "哲学 — Samsara — Sanātana Dharma - Sanātana Dharma の探索 — 哲学に関する記事、翻訳、簡潔な解説。実践、歴史、指針を探ります...",
+      "keywords": [
+        "bhagavadgita samsara",
+        "buddhist philosophy",
+        "cycle of life and death",
+        "cycle of rebirth",
+        "hindu philosophy",
+        "jain philosophy",
+        "karma",
+        "moksha",
+        "samsara",
+        "samsara concepts",
+        "samsara definition",
+        "samsara ethical implications",
+        "samsara goals",
+        "samsara in daily life",
+        "samsara in modern life",
+        "samsara key concepts",
+        "samsara meaning",
+        "samsara modern relevance",
+        "samsara origin",
+        "samsara origin and history",
+        "samsara personal development",
+        "samsara philosophical insights",
+        "samsara philosophy",
+        "samsara principles",
+        "samsara psychological insights",
+        "samsara q&a",
+        "samsara q&a for students",
+        "samsara relation to dharma and karma",
+        "samsara relation to other concepts",
+        "samsara relevance",
+        "samsara scriptural references",
+        "samsara society",
+        "samsara spiritual significance",
+        "samsara ultimate goal",
+        "samsara well-being",
+        "spiritual liberation",
+        "upanishads samsara",
+        "yoga sutras samsara"
+      ],
+      "ogimage": "/og/philosophy-samsara.png",
+      "url": "https://sanatanadharmam.in/philosophy/samsara"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "組織",
+        "contactpoint": {
+          "@type": "連絡先",
+          "areaserved": "世界中",
+          "availablelanguage": [
+            "ああ",
+            "ドイツ語",
+            "英語",
+            "スペイン語",
+            "フランセ",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "オランダ",
+            "ポルトガル語",
+            "Русский",
+            "తెలుగు",
+            "ああ",
+            "中文 (简体)"
+          ],
+          "contacttype": "カスタマーサポート",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sanatanadharmam.in について",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "components": {
+      "birth": "過去のカルマに基づいて物理的存在に入る。",
+      "death": "別の存在状態への移行。",
+      "rebirth": "積み重なったカルマによって決まる新たな命。"
+    },
+    "core_principles": [
+      "誕生と死のサイクル",
+      "カルマに支配されている",
+      "無知（アヴィディヤ）は存在を輪廻に結びつける",
+      "解放（モクシャ）は輪廻を終わらせる"
+    ],
+    "definition": "輪廻とは、ヒンズー教、仏教、ジャイナ教の哲学における、カルマと無知によって引き起こされる誕生、死、再生の継続的なサイクルを指します。",
+    "goals": [
+      "輪廻の本質を理解する",
+      "カルマの蓄積を減らす",
+      "精神的な修行を通じて解放を求める"
+    ],
+    "key_scriptural_references": [
+      {
+        "quote_summary": "魂は永遠であり、古い体が滅びると新しい体になります。",
+        "text": "バガヴァトギーター"
+      },
+      {
+        "quote_summary": "解放は、誕生と死を超えた真我を認識するときに起こります。",
+        "text": "ウパニシャッド"
+      }
+    ],
+    "modern_relevance": {
+      "ethics": "思いやりのある生活と責任感を奨励します。",
+      "psychology": "苦しみと執着のパターンを説明します。",
+      "spirituality": "より高い意識の追求を動機づけます。"
+    },
+    "origin": {
+      "meaning": "サンスクリット語の「samsṛ」に由来し、「流れる、さまよう」を意味します。",
+      "roots": "ヴェーダとウパニシャダの教え",
+      "texts": [
+        "ウパニシャッド",
+        "バガヴァトギーター",
+        "ヨーガ・スートラ"
+      ]
+    },
+    "relation_to_other_concepts": {
+      "dharma": "正しく生きることはカルマの束縛を軽減するのに役立ちます。",
+      "karma": "行動が将来の誕生を決定します。",
+      "moksha": "輪廻からの解放が究極の目標です。"
+    },
+    "samsara_qa": [
+      {
+        "answer": "輪廻とは、カルマと無知によって引き起こされる、誕生、死、再生の終わりのないサイクルです。それは、解放（モクシャ）が求められる世俗的な存在の状態です。",
+        "question": "サムサラとは何ですか？"
+      },
+      {
+        "answer": "カルマ、原因と結果の法則が、それぞれの誕生の状況を決定します。善い行為は好ましい再生をもたらしますが、否定的な行為は苦しみをもたらします。",
+        "question": "カルマは輪廻にどのような影響を与えるのでしょうか?"
+      },
+      {
+        "answer": "無知（アヴィディヤ）、執着、欲望は、存在を輪廻の輪廻に縛り付けます。知識、無執着、精神的な実践を通してのみ、人は自由になることができます。",
+        "question": "存在が輪廻の中に留まる原因は何でしょうか？"
+      },
+      {
+        "answer": "ダルマに従い、心を浄化し、無私の行動、帰依心、瞑想を実践することによって、人はモクシャを達成し、輪廻から解放されることができます。",
+        "question": "どうすれば輪廻から逃れられるでしょうか？"
+      },
+      {
+        "answer": "ウパニシャッド、バガヴァッド ギーター、ヨーガ スートラでは輪廻を束縛と苦しみの状態として説明し、解放への道を教えています。",
+        "question": "経典は輪廻について何と述べていますか?"
+      },
+      {
+        "answer": "いいえ、輪廻の概念は仏教とジャイナ教の中心でもありますが、それぞれの伝統によって説明が異なります。",
+        "question": "輪廻はヒンドゥー教特有のものですか？"
+      },
+      {
+        "answer": "はい、喜びと苦しみ、成功と失敗のサイクル、そして人生の繰り返されるパターンは輪廻の性質を反映しています。これを認識すると、永続的な自由の探求が刺激されます。",
+        "question": "輪廻は日常生活の中で体験できるのでしょうか？"
+      },
+      {
+        "answer": "究極の目標は、真の真我を実現しモクシャを達成することによって輪廻を超越し、輪廻と苦しみのサイクルを終わらせることです。",
+        "question": "輪廻に関する究極の目標は何ですか?"
+      }
+    ]
+  }
+}

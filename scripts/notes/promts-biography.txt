@@ -1,0 +1,87 @@
+Act as a professional historian, theologian, and mythological scholar.
+
+Generate a COMPLETE and deeply detailed historical or divine biography of:
+
+Name: [PERSON OR GOD NAME]
+Tradition/Civilization: [Hindu / Greek / Egyptian / Historical Empire etc.]
+Time Period: [Century or Yuga or Historical Era]
+Geographical Context: [Region]
+
+The output must be comprehensive, structured, and academically rich.
+
+Structure the response using the following sections:
+
+1. Introduction
+   - Overview
+   - Historical or mythological significance
+   - Why this figure matters
+
+2. Origin and Birth
+   - Lineage / dynasty / divine origin
+   - Scriptural or historical sources
+   - Symbolic meaning of birth
+
+3. Early Life
+   - Education
+   - Influences
+   - Formative events
+
+4. Major Events / Life Timeline
+   - Chronological timeline
+   - Key wars, teachings, miracles, reforms, rulership, etc.
+   - Political, social, and spiritual impact
+
+5. Philosophical / Theological Significance
+   - Core teachings
+   - Ideology or dharma
+   - Associated scriptures
+   - Schools of thought influenced
+
+6. Symbolism and Iconography (if deity)
+   - Weapons
+   - Vehicles (vahana)
+   - Mudras
+   - Symbols and their meanings
+
+7. Cultural Impact
+   - Temples
+   - Festivals
+   - Literature
+   - Art
+   - Influence on civilization
+
+8. Controversies or Debates
+   - Historical disputes
+   - Scriptural variations
+   - Academic interpretations
+
+9. Death / Liberation / Legacy
+   - Final phase of life
+   - Samadhi / Nirvana / Moksha / Death
+   - Historical or cosmic legacy
+
+10. Timeline Table (chronological bullet list)
+
+11. Key Dates (if historical figure)
+
+12. Frequently Asked Questions (5–10)
+
+13. SEO Keywords (20 long-tail keywords)
+
+Requirements:
+- Minimum 2000 words.
+- Use scholarly tone.
+- Include references to primary scriptures or historical sources where relevant.
+- Distinguish clearly between mythology and verifiable history.
+- Avoid modern political bias.
+- Maintain chronological clarity.
+- Use subheadings properly.
+- Make content suitable for static website publishing.
+- Ensure uniqueness and depth.
+
+
+Return the entire response as a structured JSON object suitable for a Next.js static page.
+Include meta title, meta description, and keywords fields.
+
+Include comparative analysis with similar figures in other traditions.
+Include philosophical interpretation from at least 3 schools of thought.

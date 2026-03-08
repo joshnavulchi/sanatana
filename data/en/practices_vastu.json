@@ -1,0 +1,188 @@
+{
+  "philosophy_vastu": {
+    "meta": {
+      "title": "Practices | Vastu — Sanātana Dharma - Explore Sanatan Dharma",
+      "canonical": "https://sanatanadharmam.in/practices/vastu",
+      "description": "Practices — Vastu — Sanātana Dharma - Explore Sanatan Dharma — Articles, translations and concise commentary on Practices. Explore practices, history, and guiding principles at...",
+      "keywords": [
+        "Ancient Wisdom",
+        "Bhagavathgita",
+        "Bhagavathgita's guidance on ethical dilemmas and decision-making",
+        "Build with vibe coding with ChatGPT, Micro Soft 365 Copilot",
+        "Build with vibe coding with github copilot",
+        "Can past karma be chagned in this life?",
+        "Dharma",
+        "Dhrapati's wisdom on resilience and perseverance",
+        "Difference between karma, destiny, and free will",
+        "Does God test everyone? A dharmic explanation",
+        "Eastern philosophy",
+        "Eternal truth",
+        "Global spirituality",
+        "Hindu",
+        "Hindu Scriptures",
+        "Hinduism",
+        "How does sanātana dharma view other religions and beliefs?",
+        "How to balance material and spiritual life according to sanātana dharma?",
+        "How to cultivate compassion and empathy according to sanātana dharma?",
+        "How to develop devotion (bhakti) in sanātana dharma?",
+        "How to find purpose and meaning in life according to sanātana dharma?",
+        "How to learn sanātana dharma?",
+        "How to live a dharmic life in the modern world?",
+        "How to overcome suffering and find inner peace according to sanātana dharma?",
+        "How to practice sanātana dharma in daily life?",
+        "Indian Culture",
+        "Inner peace",
+        "Is Karma punishment or a lesson? Krishna's real answer",
+        "Is fate fixed or changeable? What Sanatana Dharma says",
+        "Itihasas",
+        "Karma",
+        "Mahabharata",
+        "Mahabharata's teachings on leadership and governance",
+        "Meditation",
+        "Moksha",
+        "Philosophy",
+        "Puranas",
+        "Ramayana",
+        "Sacred texts",
+        "Sanatanadharma",
+        "Sanātana Dharma",
+        "Sanātana Dharmam",
+        "Sanātana dharma's view on science and spirituality",
+        "Self-realization",
+        "Spirituality",
+        "Universal consciousness",
+        "Upanishads",
+        "Vedas",
+        "Vedic Traditions",
+        "What Krishna says about fear, anxiety, failure and stress?",
+        "What Rama says about dealing with challenges in life?",
+        "What are the core values of sanātana dharma?",
+        "What happends after death according to sanātana dharma?",
+        "What is sanātana dharma?",
+        "What is the concept of moksha in sanātana dharma?",
+        "What is the importance of guru-shishya tradition in sanātana dharma?",
+        "What is the relationship between sanātana dharma and nature?",
+        "What is the role of meditation and yoga in sanātana dharma?",
+        "What is the significance of rituals in sanātana dharma?",
+        "Why bad people seems to succeed while good people struggle?",
+        "Why do good people suffer according to karma?",
+        "Why prayers don't work immediately explained by Bhagavathgita",
+        "Why sanātana dharma?",
+        "World religions",
+        "Yoga",
+        "sanatanadharmam",
+        "sanātana dharma",
+        "sanātana dharma explained"
+      ],
+      "ogimage": "/og/practices-vastu.png",
+      "url": "https://sanatanadharmam.in/practices/vastu"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "English",
+            "Español",
+            "Français",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Nederlands",
+            "Português",
+            "Русский",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "common_vastu_doshas": [
+      {
+        "dosha": "Main entrance facing wrong direction",
+        "impact": "Blocks positive energy, causes financial instability.",
+        "remedies": [
+          "Place a Vastu Yantra near the entrance.",
+          "Install a Swastika or Om symbol on the door.",
+          "Use bright lighting and keep the entrance clean."
+        ]
+      },
+      {
+        "dosha": "Kitchen in North-East corner",
+        "impact": "Creates health issues and family conflicts.",
+        "remedies": [
+          "Shift cooking stove to South-East if possible.",
+          "Place a mirror on the North wall to reflect the stove.",
+          "Keep water elements separate from fire elements."
+        ]
+      },
+      {
+        "dosha": "Toilet in North-East corner",
+        "impact": "Blocks spiritual energy, causes mental stress.",
+        "remedies": [
+          "Place a Vastu pyramid or crystal in the toilet.",
+          "Keep the toilet door closed and maintain cleanliness.",
+          "Use light colors and install exhaust fans."
+        ]
+      },
+      {
+        "dosha": "Bedroom in South-East corner",
+        "impact": "Causes aggression and relationship issues.",
+        "remedies": [
+          "Shift bedroom to South-West if possible.",
+          "Use soothing colors like light blue or green.",
+          "Place a Vastu Yantra or Himalayan salt lamp."
+        ]
+      },
+      {
+        "dosha": "Staircase in North-East corner",
+        "impact": "Blocks prosperity and spiritual growth.",
+        "remedies": [
+          "Paint staircase in light colors.",
+          "Place a Vastu pyramid at the base of the stairs.",
+          "Avoid heavy storage under the staircase."
+        ]
+      }
+    ],
+    "definition": "Vastu Doshas are imbalances or defects in the spatial arrangement of a building that disturb the natural energy flow, causing health, financial, and emotional issues.",
+    "general_remedies": [
+      "Keep spaces clean and clutter-free.",
+      "Use mirrors strategically to correct energy flow.",
+      "Install Vastu Yantras, crystals, and pyramids.",
+      "Place plants in North or East for positive energy.",
+      "Ensure proper ventilation and natural light."
+    ],
+    "key_scriptural_references": [
+      {
+        "quote_summary": "Describes remedies for directional imbalances.",
+        "text": "Mayamata"
+      },
+      {
+        "quote_summary": "Prescribes corrective measures for structural defects.",
+        "text": "Manasara"
+      }
+    ],
+    "modern_relevance": {
+      "architecture": "Applied in home design and interior planning.",
+      "corporate_spaces": "Optimizes productivity and harmony.",
+      "psychology": "Improves mental well-being through balanced spaces."
+    },
+    "symbolism": [
+      "Yantras represent cosmic energy alignment.",
+      "Colors influence mood and energy balance.",
+      "Plants purify air and attract positive vibrations."
+    ]
+  }
+}

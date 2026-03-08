@@ -1,0 +1,527 @@
+{
+  "shakti_peethas": {
+    "title": "శక్తి పీఠాలు | సనాతన ధర్మం - నిత్య జీవన విధానం",
+    "meta": {
+      "title": "శక్తి పీఠాలు | సనాతన ధర్మం - నిత్య జీవన విధానం",
+      "canonical": "https://sanatanadharmam.in/shakti-peethas",
+      "keywords": [
+        "Shakti Peethas",
+        "Shakti Peethas Architecture",
+        "Shakti Peethas Art and Iconography",
+        "Shakti Peethas Culture",
+        "Shakti Peethas Devotees",
+        "Shakti Peethas Festivals",
+        "Shakti Peethas History",
+        "Shakti Peethas Legends",
+        "Shakti Peethas List",
+        "Shakti Peethas Map",
+        "Shakti Peethas Mythology",
+        "Shakti Peethas Pilgrimage",
+        "Shakti Peethas Rituals",
+        "Shakti Peethas Significance",
+        "Shakti Peethas Significance in Ancient Wisdom",
+        "Shakti Peethas Significance in Ancient Wisdom Facts",
+        "Shakti Peethas Significance in Ayurveda",
+        "Shakti Peethas Significance in Ayurveda Facts",
+        "Shakti Peethas Significance in Bhagavad Gita",
+        "Shakti Peethas Significance in Bhagavad Gita Facts",
+        "Shakti Peethas Significance in Deities",
+        "Shakti Peethas Significance in Deities Facts",
+        "Shakti Peethas Significance in Festivals and Traditions",
+        "Shakti Peethas Significance in Festivals and Traditions Facts",
+        "Shakti Peethas Significance in Hindu Mythology",
+        "Shakti Peethas Significance in Hindu Mythology Facts",
+        "Shakti Peethas Significance in Hinduism",
+        "Shakti Peethas Significance in Hinduism Facts",
+        "Shakti Peethas Significance in Indian Culture",
+        "Shakti Peethas Significance in Indian Culture Facts",
+        "Shakti Peethas Significance in Indian Festivals",
+        "Shakti Peethas Significance in Indian Festivals Facts",
+        "Shakti Peethas Significance in Indian Philosophy",
+        "Shakti Peethas Significance in Indian Philosophy Facts",
+        "Shakti Peethas Significance in Mahabharata",
+        "Shakti Peethas Significance in Mahabharata Facts",
+        "Shakti Peethas Significance in Mythology",
+        "Shakti Peethas Significance in Mythology Facts",
+        "Shakti Peethas Significance in Philosophy",
+        "Shakti Peethas Significance in Philosophy Facts",
+        "Shakti Peethas Significance in Pilgrimage",
+        "Shakti Peethas Significance in Pilgrimage Facts",
+        "Shakti Peethas Significance in Puranas",
+        "Shakti Peethas Significance in Puranas Facts",
+        "Shakti Peethas Significance in Ramayana",
+        "Shakti Peethas Significance in Ramayana Facts",
+        "Shakti Peethas Significance in Religious Knowledge",
+        "Shakti Peethas Significance in Religious Knowledge Facts",
+        "Shakti Peethas Significance in Rituals",
+        "Shakti Peethas Significance in Rituals Facts",
+        "Shakti Peethas Significance in Sanatanadharmam Knowledge",
+        "Shakti Peethas Significance in Sanatanadharmam Knowledge Facts",
+        "Shakti Peethas Significance in Sanskrit",
+        "Shakti Peethas Significance in Sanskrit Facts",
+        "Shakti Peethas Significance in Scriptures",
+        "Shakti Peethas Significance in Scriptures Facts",
+        "Shakti Peethas Significance in Spiritual Practices",
+        "Shakti Peethas Significance in Spiritual Practices Facts",
+        "Shakti Peethas Significance in Spirituality",
+        "Shakti Peethas Significance in Spirituality Facts",
+        "Shakti Peethas Significance in Temples",
+        "Shakti Peethas Significance in Temples Facts",
+        "Shakti Peethas Significance in Upanishads",
+        "Shakti Peethas Significance in Upanishads Facts",
+        "Shakti Peethas Significance in Vedas",
+        "Shakti Peethas Significance in Vedas Facts",
+        "Shakti Peethas Significance in Yoga and Meditation",
+        "Shakti Peethas Significance in Yoga and Meditation Facts",
+        "Shakti Peethas Spirituality",
+        "Shakti Peethas Stories",
+        "Shakti Peethas Temples",
+        "Shakti Peethas Worship"
+      ],
+      "ogimage": "images/og/home.png",
+      "url": "https://sanatanadharmam.in/shakti-peethas"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "సంస్థ",
+        "contactpoint": {
+          "@type": "కాంటాక్ట్ పాయింట్",
+          "areaserved": "ప్రపంచవ్యాప్తంగా",
+          "availablelanguage": [
+            "العربية",
+            "డ్యూచ్",
+            "ఇంగ్లీష్",
+            "ఎస్పానోల్",
+            "ఫ్రాంకైస్",
+            "హిందీ",
+            "ఎస్",
+            "నేపాలీ",
+            "నెదర్లాండ్స్",
+            "పోర్చుగీస్",
+            "రస్కియ్",
+            "తెలుగు",
+            "అరేడు",
+            "中文 (简体)"
+          ],
+          "contacttype": "కస్టమర్ మద్దతు",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "సనాతనధర్మం.ఇన్ గురించి",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "peethas": [
+      {
+        "bhairava": "ఉమానంద",
+        "body_part": "యోని (గర్భం)",
+        "id": 1,
+        "location": "గౌహతి, అస్సాం, భారతదేశం",
+        "name": "కామాఖ్య",
+        "shakti": "కామాఖ్య"
+      },
+      {
+        "bhairava": "భైరవుడు",
+        "body_part": "వేళ్లు",
+        "id": 2,
+        "location": "అలహాబాద్, ఉత్తర ప్రదేశ్, భారతదేశం",
+        "name": "ప్రయాగ (లలిత)",
+        "shakti": "లలితా"
+      },
+      {
+        "bhairava": "వత్స్నాభ్",
+        "body_part": "నాభి",
+        "id": 3,
+        "location": "మీర్పూర్, బంగ్లాదేశ్",
+        "name": "కామరూప (శర్వాణి)",
+        "shakti": "శర్వాణి"
+      },
+      {
+        "bhairava": "ఉన్మత్త",
+        "body_part": "నాలుక",
+        "id": 4,
+        "location": "కాంగ్రా, హిమాచల్ ప్రదేశ్, భారతదేశం",
+        "name": "జ్వాలాముఖి",
+        "shakti": "సిద్ధిదా"
+      },
+      {
+        "bhairava": "భీమలోచనుడు",
+        "body_part": "బ్రహ్మరంధ్ర",
+        "id": 5,
+        "location": "బలూచిస్తాన్, పాకిస్తాన్",
+        "name": "హింగ్లాజ్",
+        "shakti": "హింగులా"
+      },
+      {
+        "bhairava": "త్రికంబక్",
+        "body_part": "పుర్రె",
+        "id": 6,
+        "location": "జమ్మూ, భారతదేశం",
+        "name": "వైష్ణో దేవి",
+        "shakti": "మహామాయ"
+      },
+      {
+        "bhairava": "నకులేశ్వరుడు",
+        "body_part": "కాలి (కుడి పాదం)",
+        "id": 7,
+        "location": "కోల్‌కతా, పశ్చిమ బెంగాల్, భారతదేశం",
+        "name": "కాళీఘాట్",
+        "shakti": "కాళికా"
+      },
+      {
+        "bhairava": "మహాకాల్",
+        "body_part": "పై పెదవి",
+        "id": 8,
+        "location": "ఉజ్జయిని, మధ్యప్రదేశ్, భారతదేశం",
+        "name": "ఉజ్జయిని (అవంతి)",
+        "shakti": "మహాకాళి"
+      },
+      {
+        "bhairava": "విశ్వేష్",
+        "body_part": "దిగువ పెదవి",
+        "id": 9,
+        "location": "లబ్పూర్, పశ్చిమ బెంగాల్, భారతదేశం",
+        "name": "అట్టహాసంగా",
+        "shakti": "ఫుల్లరా"
+      },
+      {
+        "bhairava": "భూతేష్",
+        "body_part": "గుండె",
+        "id": 10,
+        "location": "సీతాపూర్, ఉత్తర ప్రదేశ్, భారతదేశం",
+        "name": "నైమిశారణ్య",
+        "shakti": "లింగధరాణి"
+      },
+      {
+        "bhairava": "క్రోధిష్",
+        "body_part": "కళ్ళు",
+        "id": 11,
+        "location": "కొల్హాపూర్, మహారాష్ట్ర, భారతదేశం",
+        "name": "కొల్హాపూర్ (కర్వీర్)",
+        "shakti": "మహాలక్ష్మి"
+      },
+      {
+        "bhairava": "శంబరానంద్",
+        "body_part": "కుడి చీలమండ",
+        "id": 12,
+        "location": "శ్రీశైలం, ఆంధ్రప్రదేశ్, భారతదేశం",
+        "name": "శ్రీ పర్వతం (శ్రీశైలం)",
+        "shakti": "శివరాణి"
+      },
+      {
+        "bhairava": "ఈశ్వర్",
+        "body_part": "ఎడమ కాలు",
+        "id": 13,
+        "location": "జల్పైగురి, పశ్చిమ బెంగాల్, భారతదేశం",
+        "name": "త్రిస్రోత (భ్రమరి)",
+        "shakti": "భ్రమరి"
+      },
+      {
+        "bhairava": "కపాలి",
+        "body_part": "మోకాలు",
+        "id": 14,
+        "location": "ఖాట్మండు, నేపాల్",
+        "name": "గుహ్యేశ్వరి",
+        "shakti": "మహాశిర"
+      },
+      {
+        "bhairava": "కాలభైరవుడు",
+        "body_part": "చెవిపోగులు",
+        "id": 15,
+        "location": "వారణాసి, ఉత్తర ప్రదేశ్, భారతదేశం",
+        "name": "మణికర్ణిక (వారణాసి)",
+        "shakti": "విశాలాక్షి"
+      },
+      {
+        "bhairava": "రుద్రానంద",
+        "body_part": "తల",
+        "id": 16,
+        "location": "చింతపూర్ణి, హిమాచల్ ప్రదేశ్, భారతదేశం",
+        "name": "ఛిన్నమస్తిక",
+        "shakti": "ఛిన్నమస్తిక"
+      },
+      {
+        "bhairava": "అంశ",
+        "body_part": "జుట్టు",
+        "id": 17,
+        "location": "మధుర, ఉత్తర ప్రదేశ్, భారతదేశం",
+        "name": "కాత్యాయని",
+        "shakti": "కాత్యాయని"
+      },
+      {
+        "bhairava": "త్రిలోచన్",
+        "body_part": "ఎడమ రొమ్ము",
+        "id": 18,
+        "location": "జలంధర్, పంజాబ్, భారతదేశం",
+        "name": "త్రిపురమాలినీ",
+        "shakti": "త్రిపురమాలినీ"
+      },
+      {
+        "bhairava": "స్థాణు",
+        "body_part": "కుడి చీలమండ",
+        "id": 19,
+        "location": "కురుక్షేత్ర, హర్యానా, భారతదేశం",
+        "name": "సావిత్రి",
+        "shakti": "సావిత్రి"
+      },
+      {
+        "bhairava": "యమ్",
+        "body_part": "శరీరం యొక్క కుడి వైపు",
+        "id": 20,
+        "location": "పాట్నా, బీహార్, భారతదేశం",
+        "name": "మగధ",
+        "shakti": "మగధ"
+      },
+      {
+        "bhairava": "అమర్",
+        "body_part": "కుడి అరచేతి",
+        "id": 21,
+        "location": "బురాంగ్, టిబెట్",
+        "name": "దాక్షాయణి",
+        "shakti": "దాక్షాయణి"
+      },
+      {
+        "bhairava": "క్రోధిష్",
+        "body_part": "మూడవ కంటి ప్రాంతం",
+        "id": 22,
+        "location": "కొల్హాపూర్, మహారాష్ట్ర",
+        "name": "మహిషాసురమర్దిని",
+        "shakti": "మహిషాసురమర్దిని"
+      },
+      {
+        "bhairava": "అంబర్",
+        "body_part": "గడ్డం",
+        "id": 23,
+        "location": "నాసిక్, మహారాష్ట్ర, భారతదేశం",
+        "name": "భ్రమరి (నాసిక్)",
+        "shakti": "భ్రమరి"
+      },
+      {
+        "bhairava": "బతుక్ భైరవ్",
+        "body_part": "గుండె",
+        "id": 24,
+        "location": "అంబాజీ, గుజరాత్, భారతదేశం",
+        "name": "అంబాజీ",
+        "shakti": "అంబాజీ"
+      },
+      {
+        "bhairava": "శర్వానంద్",
+        "body_part": "మణికట్టు",
+        "id": 25,
+        "location": "పుష్కర్, రాజస్థాన్, భారతదేశం",
+        "name": "గాయత్రి",
+        "shakti": "గాయత్రి"
+      },
+      {
+        "bhairava": "భైరవుడు",
+        "body_part": "ఎడమ పాదం",
+        "id": 26,
+        "location": "భరత్పూర్, రాజస్థాన్, భారతదేశం",
+        "name": "అంబిక",
+        "shakti": "అంబిక"
+      },
+      {
+        "bhairava": "కపాలభైరవుడు",
+        "body_part": "ఎడమ చెంప",
+        "id": 27,
+        "location": "తూర్పు గోదావరి, ఆంధ్ర ప్రదేశ్",
+        "name": "సర్వశైలం",
+        "shakti": "సర్వశైలం"
+      },
+      {
+        "bhairava": "భీమభైరవుడు",
+        "body_part": "వెనుక & వెన్నెముక",
+        "id": 28,
+        "location": "కన్యాకుమారి, తమిళనాడు",
+        "name": "శ్రావణి",
+        "shakti": "శ్రావణి"
+      },
+      {
+        "bhairava": "మల్లికార్జున",
+        "body_part": "కుడి చీలమండ",
+        "id": 29,
+        "location": "కర్నూలు, ఆంధ్రప్రదేశ్",
+        "name": "భ్రమరాంబ",
+        "shakti": "భ్రమరాంబ"
+      },
+      {
+        "bhairava": "నాయకర్",
+        "body_part": "ఎగువ దంతాలు",
+        "id": 30,
+        "location": "కన్యాకుమారి, తమిళనాడు",
+        "name": "నారాయణి",
+        "shakti": "నారాయణి"
+      },
+      {
+        "bhairava": "విశ్వేష్",
+        "body_part": "దిగువ పెదవి",
+        "id": 31,
+        "location": "బీర్భూమ్, పశ్చిమ బెంగాల్",
+        "name": "ఫుల్లరా",
+        "shakti": "ఫుల్లరా"
+      },
+      {
+        "bhairava": "భిరుక్",
+        "body_part": "ఎడమ చేయి",
+        "id": 32,
+        "location": "బీర్భూమ్, పశ్చిమ బెంగాల్",
+        "name": "బహులా",
+        "shakti": "బహులా"
+      },
+      {
+        "bhairava": "నందికేశ్వరుడు",
+        "body_part": "నెక్లెస్",
+        "id": 33,
+        "location": "బీర్భూమ్, పశ్చిమ బెంగాల్",
+        "name": "నందిని",
+        "shakti": "నందిని"
+      },
+      {
+        "bhairava": "రురు",
+        "body_part": "ఎముక",
+        "id": 34,
+        "location": "బీర్భూమ్, పశ్చిమ బెంగాల్",
+        "name": "దేవగర్భ",
+        "shakti": "దేవగర్భ"
+      },
+      {
+        "bhairava": "సంహారం",
+        "body_part": "కిరీటం",
+        "id": 35,
+        "location": "ముర్షిదాబాద్, పశ్చిమ బెంగాల్",
+        "name": "విమల",
+        "shakti": "విమల"
+      },
+      {
+        "bhairava": "మహాదేవ్",
+        "body_part": "కుడి భుజం",
+        "id": 36,
+        "location": "హుగ్లీ, పశ్చిమ బెంగాల్",
+        "name": "కుమారి శక్తి",
+        "shakti": "కుమారి శక్తి"
+      },
+      {
+        "bhairava": "క్షేత్రపాల్",
+        "body_part": "కుడి మణికట్టు",
+        "id": 37,
+        "location": "బర్ధమాన్, పశ్చిమ బెంగాల్",
+        "name": "మంగళ చండిక",
+        "shakti": "మంగళ చండిక"
+      },
+      {
+        "bhairava": "రురు",
+        "body_part": "ఎడమ చీలమండ",
+        "id": 38,
+        "location": "పుర్బా మేదినీపూర్, పశ్చిమ బెంగాల్",
+        "name": "కపాలిని",
+        "shakti": "కపాలిని"
+      },
+      {
+        "bhairava": "క్రోధిష్",
+        "body_part": "ఎడమ తొడ",
+        "id": 39,
+        "location": "జైంతియా హిల్స్, మేఘాలయ",
+        "name": "జయంతి",
+        "shakti": "జయంతి"
+      },
+      {
+        "bhairava": "చంద్రమౌళి",
+        "body_part": "కుడి పాదం",
+        "id": 40,
+        "location": "త్రిపుర, భారతదేశం",
+        "name": "త్రిపుర సుందరి",
+        "shakti": "త్రిపుర సుందరి"
+      },
+      {
+        "bhairava": "జగన్నాథం",
+        "body_part": "నాభి",
+        "id": 41,
+        "location": "జాజ్‌పూర్, ఒడిశా",
+        "name": "బిరాజా",
+        "shakti": "బిరాజా"
+      },
+      {
+        "bhairava": "భైరవుడు",
+        "body_part": "చెవి",
+        "id": 42,
+        "location": "డియోఘర్, జార్ఖండ్",
+        "name": "జై దుర్గా",
+        "shakti": "జై దుర్గా"
+      },
+      {
+        "bhairava": "మహాకాల్",
+        "body_part": "ఎగువ పెదవి / మోచేయి",
+        "id": 43,
+        "location": "ఉజ్జయిని, మధ్యప్రదేశ్",
+        "name": "అవంతి",
+        "shakti": "అవంతి"
+      },
+      {
+        "bhairava": "భైరవుడు",
+        "body_part": "పక్కటెముకలు",
+        "id": 44,
+        "location": "అమర్‌కంటక్, మధ్యప్రదేశ్",
+        "name": "నర్మద",
+        "shakti": "నర్మద"
+      },
+      {
+        "bhairava": "భైరవ",
+        "body_part": "బాడీ ఫ్రాగ్మెంట్",
+        "id": 45,
+        "location": "పాట్నా, బీహార్",
+        "name": "పటాన్ దేవి",
+        "shakti": "పటాన్ దేవి"
+      },
+      {
+        "bhairava": "క్షేత్రపాల్",
+        "body_part": "కళ్ళు (ఎడమ)",
+        "id": 46,
+        "location": "నైనిటాల్, ఉత్తరాఖండ్",
+        "name": "నైనా దేవి",
+        "shakti": "నైనా దేవి"
+      },
+      {
+        "bhairava": "భైరవ",
+        "body_part": "వెనుకకు",
+        "id": 47,
+        "location": "చంపావత్, ఉత్తరాఖండ్",
+        "name": "పూర్ణగిరి",
+        "shakti": "పూర్ణగిరి"
+      },
+      {
+        "bhairava": "భైరవుడు",
+        "body_part": "తల",
+        "id": 48,
+        "location": "తెహ్రీ, ఉత్తరాఖండ్",
+        "name": "సుర్కాండ",
+        "shakti": "సుర్కాండ"
+      },
+      {
+        "bhairava": "ఏకాంబరనాథర్",
+        "body_part": "వెనుక భాగం",
+        "id": 49,
+        "location": "కాంచీపురం, తమిళనాడు",
+        "name": "కామాక్షి",
+        "shakti": "కామాక్షి"
+      },
+      {
+        "bhairava": "సుందరేశ్వరుడు",
+        "body_part": "భుజం",
+        "id": 50,
+        "location": "మధురై, తమిళనాడు",
+        "name": "మీనాక్షి",
+        "shakti": "మీనాక్షి"
+      },
+      {
+        "bhairava": "జంబుకేశ్వరుడు",
+        "body_part": "ముఖం యొక్క ఎడమ వైపు",
+        "id": 51,
+        "location": "తిరువనైకావల్, తమిళనాడు",
+        "name": "అఖిలాండేశ్వరి",
+        "shakti": "అఖిలాండేశ్వరి"
+      }
+    ]
+  }
+}

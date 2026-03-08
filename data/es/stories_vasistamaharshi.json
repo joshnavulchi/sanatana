@@ -1,0 +1,195 @@
+{
+  "stories_vasistamaharshi": {
+    "title": "Stories | Vasista Maharshi — Sanātana Dharma - Explore Sanatan Dharma",
+    "meta": {
+      "title": "Stories | Vasista Maharshi — Sanātana Dharma - Explore Sanatan Dharma",
+      "canonical": "https://sanatanadharmam.in/stories/vasistamaharshi",
+      "description": "Learn about Vasistamhari on SanatanaDharma.in — articles, translations and commentary.",
+      "keywords": [
+        "Vasista Maharshi Biography",
+        "Vasista Maharshi Biography in English",
+        "Vasista Maharshi Conflict with Vishwamitra",
+        "Vasista Maharshi Conflict with Vishwamitra in English",
+        "Vasista Maharshi Early Life",
+        "Vasista Maharshi Early Life in English",
+        "Vasista Maharshi Legacy",
+        "Vasista Maharshi Legacy in English",
+        "Vasista Maharshi Major Stories",
+        "Vasista Maharshi Major Stories in English",
+        "Vasista Maharshi Philosophy",
+        "Vasista Maharshi Philosophy in English",
+        "Vasista Maharshi Role in Ramayana",
+        "Vasista Maharshi Role in Ramayana in English",
+        "Vasista Maharshi Significance in Hinduism",
+        "Vasista Maharshi Significance in Hinduism in English",
+        "Vasista Maharshi Stories",
+        "Vasista Maharshi Teaching to Rama",
+        "Vasista Maharshi Teaching to Rama in English",
+        "Vasista Maharshi Teachings",
+        "Vasista Maharshi Teachings in English",
+        "Vasista Maharshi Texts and Verses",
+        "Vasista Maharshi Texts and Verses in English",
+        "Vasista Maharshi Timeline",
+        "Vasista Maharshi Timeline in English"
+      ],
+      "ogimage": "/og/home.png",
+      "url": "https://sanatanadharmam.in/stories/vasistamaharshi"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "English",
+            "Español",
+            "Français",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Nederlands",
+            "Português",
+            "Русский",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "attributes": {
+      "iconography": [
+        "Seated in meditation",
+        "Holding a rosary and water pot (Kamandalu)",
+        "Accompanied by Arundhati"
+      ],
+      "virtues": [
+        "Wisdom",
+        "Patience",
+        "Truthfulness",
+        "Compassion"
+      ]
+    },
+    "biography": {
+      "attributes": [
+        "Embodiment of wisdom and sattva (purity)",
+        "Unmatched patience and compassion",
+        "Master of Vedantic philosophy",
+        "Possessor of Kamadhenu, the wish-fulfilling cow"
+      ],
+      "full_name": "Vasishta Maharshi (Vasiṣṭha)",
+      "influence": "Vasishta's guidance to Rama and his role in shaping the spiritual and ethical fabric of ancient India have made him a timeless symbol of the guru's role in Sanātana Dharma. His story inspires seekers to pursue self-realization, equanimity, and the highest ideals of Dharma.",
+      "legacy": "Vasishta is revered as the archetype of the wise and compassionate guru. His teachings, especially the Yoga Vasishta, are foundational texts in Advaita Vedanta and Indian philosophy. His life exemplifies the triumph of wisdom and virtue over ambition and conflict.",
+      "mythic_origin": "Regarded as a mind-born son of Brahma, Vasishta is one of the Sapta Rishis and a central figure in Vedic and epic literature. His wisdom, patience, and spiritual stature made him the royal priest and advisor to the Solar Dynasty.",
+      "roles": [
+        "Brahmarshi (sage of the highest order)",
+        "Royal Guru to Ikshvaku kings",
+        "Author of Yoga Vasishta and Vasishta Samhita",
+        "Defender of Dharma"
+      ]
+    },
+    "lineage": {
+      "father": "Brahma (according to Puranas)",
+      "house": "Solar Dynasty (Ikshvaku lineage as royal priest)",
+      "mother": "Urja or Arundhati (consort)"
+    },
+    "majorstories": [
+      {
+        "description": "Defended Dharma against Vishwamitra’s ambitions; later reconciled",
+        "event": "Conflict with Vishwamitra"
+      },
+      {
+        "description": "Taught Rama the essence of Vedanta through Yoga Vasishta",
+        "event": "Counsel to Rama"
+      },
+      {
+        "description": "Owned the divine cow Kamadhenu, symbol of abundance and spiritual power",
+        "event": "Possession of Kamadhenu"
+      }
+    ],
+    "mantras": [
+      {
+        "meaning": "Salutation to Sage Vasishta, embodiment of wisdom",
+        "name": "Vasishta Invocation",
+        "text": "ॐ वसिष्ठाय नमः।",
+        "transliteration": "Om Vasishtaya Namah"
+      }
+    ],
+    "philosophicalthemes": [
+      "Advaita Vedanta principles",
+      "Self-realization and Moksha",
+      "Power of Sattva (purity) over Rajas and Tamas"
+    ],
+    "role": "Vedic Sage, one of the Sapta Rishis, Royal Guru of the Solar Dynasty",
+    "scripturalconnections": {
+      "ramayana": "Royal guru to King Dasharatha; advisor to Rama",
+      "rigveda": "Composer of several hymns; associated with cosmic order and truth",
+      "yogavasishta": "Philosophical dialogue with Rama on liberation and reality"
+    },
+    "significance": {
+      "coreidentity": [
+        "Embodiment of wisdom and Dharma",
+        "Author of Vasishta Samhita and Yoga Vasishta"
+      ],
+      "titles": [
+        "Maharshi",
+        "Brahmarshi"
+      ]
+    },
+    "textsandteachings": [
+      {
+        "focus": "Non-dual philosophy, liberation through self-inquiry",
+        "keyverses": [
+          {
+            "meaning": "Mind alone is the cause of bondage; therefore, control the mind.",
+            "transliteration": "Chittam eva hi samsarah tasmat tan nirodhayet",
+            "verse": "चित्तमेव हि संसारः तस्मात् तन्म् निरोधयेत्।"
+          },
+          {
+            "meaning": "When the mind is serene, everything appears serene.",
+            "transliteration": "Yada chittam prasannam syat tada sarvam prasannam",
+            "verse": "यदा चित्तं प्रसन्नं स्यात् तदा सर्वं प्रसन्नम्।"
+          },
+          {
+            "meaning": "I am unattached, I am unattached—again and again realize this truth.",
+            "transliteration": "Asango'ham asango'ham punah punah",
+            "verse": "असङ्गोऽहम् असङ्गोऽहम् पुनः पुनः।"
+          }
+        ],
+        "name": "Yoga Vasishta"
+      }
+    ],
+    "timeline": [
+      {
+        "event": "Born from Brahma’s mind; recognized as one of the Sapta Rishis",
+        "phase": "Birth"
+      },
+      {
+        "event": "Served as chief priest and advisor to Ikshvaku kings including Dasharatha",
+        "phase": "Royal Guru"
+      },
+      {
+        "event": "Defended Dharma; later transformed rivalry into friendship",
+        "phase": "Conflict with Vishwamitra"
+      },
+      {
+        "event": "Imparted Yoga Vasishta philosophy to Rama during his existential crisis",
+        "phase": "Teaching Rama"
+      },
+      {
+        "event": "Continued as a guiding light of Vedantic wisdom; revered in all ages",
+        "phase": "Later Life"
+      }
+    ]
+  }
+}

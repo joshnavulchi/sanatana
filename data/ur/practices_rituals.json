@@ -1,0 +1,179 @@
+{
+  "practices_rituals": {
+    "meta": {
+      "title": "مشقیں | رسومات - سناتن دھرم - سناتن دھرم کو دریافت کریں۔",
+      "canonical": "https://sanatanadharmam.in/practices/rituals",
+      "description": "مشقیں — رسومات — سناتن دھرم — سناتن دھرم کی کھوج کریں — مضامین، ترجمے اور طریقوں پر مختصر تبصرہ۔ پر عمل، تاریخ، اور رہنما اصولوں کو دریافت کریں...",
+      "keywords": [
+        "daily rituals in hinduism",
+        "daily rituals in hinduism explained",
+        "daily rituals in hinduism modern relevance",
+        "daily rituals in hinduism origin and history",
+        "daily rituals in hinduism practices",
+        "daily rituals in hinduism scriptural references",
+        "daily rituals in hinduism significance",
+        "daily rituals in hinduism symbolism",
+        "festivals and rituals in hinduism",
+        "festivals and rituals in hinduism explained",
+        "festivals and rituals in hinduism modern relevance",
+        "festivals and rituals in hinduism origin and history",
+        "festivals and rituals in hinduism practices",
+        "festivals and rituals in hinduism scriptural references",
+        "festivals and rituals in hinduism significance",
+        "festivals and rituals in hinduism symbolism",
+        "hindu rituals",
+        "life stage rituals in hinduism",
+        "life stage rituals in hinduism explained",
+        "life stage rituals in hinduism modern relevance",
+        "life stage rituals in hinduism origin and history",
+        "life stage rituals in hinduism practices",
+        "life stage rituals in hinduism scriptural references",
+        "life stage rituals in hinduism significance",
+        "life stage rituals in hinduism symbolism",
+        "rituals concepts",
+        "rituals for beginners",
+        "rituals for students",
+        "rituals in sanatana dharma",
+        "rituals modern relevance",
+        "rituals modern relevance explained",
+        "rituals origin and history",
+        "rituals origin and history explained",
+        "rituals practices",
+        "rituals practices explained",
+        "rituals principles",
+        "rituals q&a",
+        "rituals scriptural references",
+        "rituals scriptural references explained",
+        "rituals significance",
+        "rituals significance explained",
+        "rituals symbolism",
+        "rituals symbolism explained",
+        "temple rituals in hinduism",
+        "temple rituals in hinduism explained",
+        "temple rituals in hinduism modern relevance",
+        "temple rituals in hinduism origin and history",
+        "temple rituals in hinduism practices",
+        "temple rituals in hinduism scriptural references",
+        "temple rituals in hinduism significance",
+        "temple rituals in hinduism symbolism",
+        "vedic rituals"
+      ],
+      "ogimage": "/og/practices-rituals.png",
+      "url": "https://sanatanadharmam.in/practices/rituals"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "تنظیم",
+        "contactpoint": {
+          "@type": "رابطہ پوائنٹ",
+          "areaserved": "دنیا بھر میں",
+          "availablelanguage": [
+            "العربية",
+            "ڈوئچ",
+            "انگریزی",
+            "Español",
+            "Français",
+            "ہندی",
+            "日本語",
+            "नेपाली",
+            "نیدرلینڈز",
+            "پرتگالی",
+            "روسی",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "کسٹمر سپورٹ",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sanatanadharmam.in کے بارے میں",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "definition": "سناتن دھرم میں رسومات اور عمل روحانی اور ثقافتی سرگرمیاں ہیں جو کائناتی ترتیب اور اظہار عقیدت کے ساتھ ہم آہنگی کو برقرار رکھنے کے لیے انجام دی جاتی ہیں۔",
+    "key_scriptural_references": [
+      {
+        "quote_summary": "رسومات کائناتی ترتیب اور ہم آہنگی کو برقرار رکھتی ہیں۔",
+        "text": "رگ وید"
+      },
+      {
+        "quote_summary": "الہی کے لئے ایک پیشکش کے طور پر اعمال انجام دیں.",
+        "text": "بھگوت گیتا"
+      }
+    ],
+    "modern_relevance": {
+      "community": "تہوار سماجی رشتوں کو مضبوط کرتے ہیں۔",
+      "mindfulness": "روزانہ کی رسومات ذہنی سکون اور نظم و ضبط کو فروغ دیتی ہیں۔",
+      "spirituality": "افراد کو اعلیٰ شعور سے جوڑتا ہے۔"
+    },
+    "origin": {
+      "purpose": "فرد کو الہی سے جوڑنا اور دھرم کو برقرار رکھنا۔",
+      "roots": "ویدک روایت",
+      "texts": [
+        "وید",
+        "سمرائٹس",
+        "پرانوں"
+      ]
+    },
+    "types_of_rituals": {
+      "daily_practices": [
+        "سندیہ وندانم (صبح و شام کی دعا)",
+        "جاپ (منتروں کا جاپ)",
+        "مراقبہ (دھیانا)",
+        "گھر کی قربان گاہ پر چراغ (دیپا) روشن کرنا"
+      ],
+      "festivals_and_observances": [
+        "دیوالی (روشنیوں کا تہوار)",
+        "نوراتری (خدائی نسائی کی عبادت)",
+        "جنم اشٹمی (کرشن کی پیدائش)",
+        "مہا شیوارتری (شیو کی رات)"
+      ],
+      "life_stage_rituals": [
+        "Namakarana (نام کی تقریب)",
+        "اپانائن (مقدس دھاگے کی تقریب)",
+        "ویواہا (شادی)",
+        "انتیشتی (جنازے کی رسومات)"
+      ],
+      "temple_rituals": {
+        "common_rituals": [
+          "ارچنا - دیوتا کے ناموں کا جاپ کرنا اور پھول چڑھانا۔",
+          "ابھیشیکم - دیوتا کو پانی، دودھ، شہد اور گھی سے غسل دینے کی رسم۔",
+          "آرتی - دیوتا کے سامنے چراغوں کا لہرانا اور عقیدت کے گیتوں کے ساتھ۔",
+          "نیودیم - دیوتا کو کھانا پیش کرنا، بعد میں پرسادم کے طور پر تقسیم کیا گیا۔",
+          "درشن - دیوتا کو عقیدت اور عقیدت کے ساتھ دیکھنا۔",
+          "ہوما - پاکیزگی اور برکت کے لئے مندر کے احاطے میں آگ کی رسم۔"
+        ],
+        "regional_variations": {
+          "east_india": [
+            "درگا پوجا کی رسومات - فنکارانہ بتوں کے ساتھ دیوی درگا کی وسیع عبادت۔",
+            "چندی پاتھ - نوراتری کے دوران دیوی مہاتمیا کی تلاوت۔",
+            "سندھی پوجا - اشٹمی اور نومی کی منتقلی کے دوران خصوصی پیشکش۔"
+          ],
+          "north_india": [
+            "بھجن اور کیرتن - مندر کے ہالوں میں بھکت گانا۔",
+            "جلابھشیک - شیو لنگم کو پانی چڑھانا، خاص طور پر شروان کے مہینے میں۔",
+            "رتھ یاترا - بڑے تہواروں کے دوران دیوتاؤں کا رتھ جلوس۔"
+          ],
+          "south_india": [
+            "پنچامرت ابھیشیکم - پانچ مقدس مادوں (دودھ، دہی، گھی، شہد، چینی) کے ساتھ دیوتا کو غسل دینا۔",
+            "وہنا سیوا - دیوتا کو تہواروں کے دوران مختلف پہاڑوں پر جلوس نکالا جاتا ہے۔",
+            "دیپا آرادھنا - میناکشی اور تروپتی جیسے مندروں میں چراغ کی وسیع پوجا کریں۔"
+          ],
+          "west_india": [
+            "گربا اور ڈنڈیا - گجرات میں نوراتری کے دوران رقص کی رسومات۔",
+            "تلسی ویوا - بھگوان وشنو کے ساتھ تلسی کے پودے کی علامتی شادی۔",
+            "ابھنگا گانا - مہاراشٹر کی ورکاری روایت میں عقیدتی گیت۔"
+          ]
+        },
+        "symbolism": [
+          "ابھیشیکم پاکیزگی اور ہتھیار ڈالنے کی علامت ہے۔",
+          "آرتی تاریکی کو دور کرنے اور الہی روشنی کا استقبال کرنے کی نمائندگی کرتی ہے۔",
+          "پرسادم دیوتا کے فضل اور برکت کی علامت ہے۔"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,581 @@
+{
+  "historical_timeline": {
+    "title": "CE en BCE uitgelegd: betekenis, Year Zero-concept, regels en voorbeelden",
+    "meta": {
+      "title": "CE en BCE uitgelegd: betekenis, Year Zero-concept, regels en voorbeelden",
+      "canonical": "https://sanatanadharmam.in/historical-timeline",
+      "description": "Leer de betekenis van BCE en CE, waarom er geen jaar nul is, hoe tijdlijnen worden geteld en bekijk duidelijke voorbeelden met een eenvoudig diagram.",
+      "keywords": [
+        "BC/AD equivalence",
+        "BCE",
+        "CE",
+        "CE/BCE guide",
+        "CE/BCE transition",
+        "astronomical year numbering",
+        "calendar systems",
+        "century definitions",
+        "chronology rules",
+        "common mistakes in dating",
+        "cross-era calculations",
+        "dating conventions",
+        "dating historical events",
+        "historical chronology",
+        "historical dating",
+        "historical dating systems",
+        "historical events dating",
+        "historical timeline FAQ",
+        "historical timeline astronomy system",
+        "historical timeline calculation",
+        "historical timeline century rules",
+        "historical timeline diagram",
+        "historical timeline examples",
+        "historical timeline explanation",
+        "historical timeline history",
+        "historical timeline history system",
+        "historical timeline implications",
+        "historical timeline mistakes",
+        "historical timeline rules",
+        "historical timeline worked examples",
+        "historical timelines",
+        "historical timelines explained",
+        "historical year numbering",
+        "timeline calculation",
+        "year zero"
+      ],
+      "ogimage": "images/og/homhistoricl_timeline.png",
+      "url": "https://sanatanadharmam.in/historical-timeline"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organisatie",
+        "contactpoint": {
+          "@type": "ContactPunt",
+          "areaserved": "Wereldwijd",
+          "availablelanguage": [
+            "العربية",
+            "Duits",
+            "Engels",
+            "Spaans",
+            "Frans",
+            "Ja",
+            "日本語",
+            "Ja",
+            "Nederlands",
+            "Portugees",
+            "Русский",
+            "Ja",
+            "Ja",
+            "中文 (简体)"
+          ],
+          "contacttype": "Klantenondersteuning",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Over Sanatanadharam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "academic": {
+      "title": "Het CE- en BCE-dateringssysteem begrijpen: de afwezigheid van jaar nul en de historische implicaties ervan",
+      "abstract": "Dit artikel verduidelijkt het Common Era (CE) en Before Common Era (BCE) systeem, waarbij de nadruk wordt gelegd op de historische afwezigheid van het jaar nul, de wiskundige en chronologische implicaties ervan, en verschillen met astronomische jaarnummering. Duidelijke voorbeelden en visuele tijdlijnen ondersteunen een nauwkeurige historische redenering.",
+      "articletype": "Educatieve studie",
+      "author": {
+        "affiliation": "Uw instelling",
+        "department": "Jouw afdeling",
+        "email": "you@university.edu",
+        "name": "Jouw naam",
+        "orcid": "0000-0000-0000-0000"
+      },
+      "citationtemplate": "[Auteur]. (Jaar). Het CE- en BCE-dateringssysteem begrijpen: de afwezigheid van jaar nul en de historische implicaties ervan. Tijdschriftnaam, volume (uitgave), pagina's. https://doi.org/xx.xxxx/xxxxx",
+      "conflictofinterest": "De auteur verklaart dat er geen sprake is van belangenverstrengeling.",
+      "dataavailability": "Er zijn geen datasets gegenereerd of geanalyseerd.",
+      "dates": {
+        "accepted": "JJJJ-MM-DD",
+        "published": "JJJJ-MM-DD",
+        "received": "JJJJ-MM-DD"
+      },
+      "funding": "Geen specifieke financiering.",
+      "keywords": [
+        "CE",
+        "v.Chr",
+        "jaar nul",
+        "chronologie",
+        "kalendersystemen",
+        "BC/AD-equivalentie",
+        "tijdlijn berekening"
+      ],
+      "license": "CC BY 4.0",
+      "shorttitle": "CE/BCE en jaar nul",
+      "subjectclassification": [
+        "Geschiedenis van tijdwaarneming",
+        "Chronologie en kalenderstudies",
+        "Historische Methodologie"
+      ]
+    },
+    "advaita_vedanta": {
+      "heading": "Advaita Vedanta en Adi Shankara (8e eeuw CE)",
+      "influence": "Advaita Vedanta heeft de Indiase spiritualiteit, literatuur en interreligieuze dialoog diepgaand beïnvloed. De leringen ervan blijven zoekers over de hele wereld inspireren.",
+      "key_concepts": [
+        "Brahman is de enige werkelijkheid; de wereld is uiteindelijk een illusie (maya).",
+        "Atman (Zelf) verschilt niet van Brahman.",
+        "Onwetendheid (avidya) veroorzaakt gebondenheid; kennis leidt tot bevrijding.",
+        "Legt de nadruk op schriftstudie, redeneren en meditatie."
+      ],
+      "summary": "Advaita Vedanta is een belangrijke Indiase filosofieschool die non-dualisme onderwijst: de essentiële eenheid van de individuele ziel (Atman) en de Allerhoogste Realiteit (Brahman). Adi Shankara (ca. 788–820 CE) bracht Advaita nieuw leven in en reisde door India om te debatteren, les te geven en monastieke centra (matha's) op te richten. Zijn commentaren op de Upanishads, de Bhagavad Gita en de Brahma Sutra's blijven fundamenteel. Advaita benadrukt dat bevrijding (moksha) wordt bereikt door kennis (jnana) van het ware Zelf, dat alle onderscheidingen overstijgt.",
+      "timeline": [
+        {
+          "date": "c. 788 CE",
+          "event": "Geboorte van Adi Shankara",
+          "notes": "Geboren in Kalady, Kerala, India."
+        },
+        {
+          "date": "c. 800–820 n.Chr",
+          "event": "Shankara's reizen en debatten",
+          "notes": "Vier mathas opgericht in India; verspreidde de Advaita-filosofie."
+        },
+        {
+          "date": "c. 800–820 n.Chr",
+          "event": "Belangrijke werken gecomponeerd",
+          "notes": "Commentaren op Upanishads, Bhagavad Gita, Brahma Sutra's."
+        }
+      ]
+    },
+    "astronom": "Astronomisch",
+    "astronom_system": "Astronomiesysteem:",
+    "century_rules": "Eeuwregels:",
+    "china": {
+      "description": "Opmerkelijke BCE-heersers van het oude China",
+      "rulers": [
+        {
+          "name": "Qin Shi Huang",
+          "notes": "Eerste keizer van China",
+          "reign": "221–210 v.Chr"
+        },
+        {
+          "name": "Keizer Gaozu van Han",
+          "notes": "Stichtte Han-dynastie",
+          "reign": "202–195 v.Chr"
+        }
+      ]
+    },
+    "common_mistakes": "Veel voorkomende fouten:",
+    "content": {
+      "intro": {
+        "summary": "CE (Common Era) en BCE (Before Common Era) zijn neutrale datumlabels met dezelfde jaarnummering als AD en BC. Er is geen jaar nul in historische dateringen; 1 BCE gaat rechtstreeks over naar 1 CE."
+      },
+      "sections": [
+        {
+          "heading": "Definities: BCE en CE",
+          "id": "definities",
+          "items": [
+            {
+              "countingdirection": "Achteruit (aflopende cijfers naarmate u verder teruggaat)",
+              "equivalentto": "BC (vóór Christus)",
+              "examples": [
+                "3000 v.Chr",
+                "500 v.Chr",
+                "100 v.Chr",
+                "2600 v.Chr. (Indusvallei-beschaving)"
+              ],
+              "fullform": "Vóór de gewone tijdrekening",
+              "term": "v.Chr",
+              "timeperiod": "Vóór jaar 1"
+            },
+            {
+              "countingdirection": "Vooruit (oplopende cijfers)",
+              "equivalentto": "AD (Anno Domini)",
+              "examples": [
+                "1 CE",
+                "610 CE (Begin van de islam)",
+                "1947 CE (Indiase onafhankelijkheid)",
+                "2026 CE"
+              ],
+              "fullform": "Gemeenschappelijk tijdperk",
+              "term": "CE",
+              "timeperiod": "Vanaf jaar 1"
+            }
+          ],
+          "notes": [
+            "De kalenderbasis is het proleptische Gregoriaanse systeem in modern gebruik.",
+            "Culturele neutraliteit is de reden dat veel docenten de voorkeur geven aan CE/BCE-labeling."
+          ],
+          "summary": "BCE telt terug vóór jaar 1; CE telt na jaar 1 vooruit. De nummering komt overeen met BC/AD; alleen de labels verschillen."
+        },
+        {
+          "heading": "Definities: BCE en CE",
+          "id": "definities",
+          "mapping": [
+            {
+              "new": "1 CE",
+              "old": "1 n.Chr"
+            },
+            {
+              "new": "500 n.Chr",
+              "old": "500 n.Chr"
+            },
+            {
+              "new": "1 v.Chr",
+              "old": "1 v.Chr"
+            },
+            {
+              "new": "44 v.Chr",
+              "old": "44 v.Chr"
+            }
+          ],
+          "rules": [
+            "Jaarnummers zijn identiek tussen systemen.",
+            "Eeuwreeksen zijn ook identiek; alleen labels veranderen."
+          ],
+          "summary": "BCE telt terug vóór jaar 1; CE telt na jaar 1 vooruit. De nummering komt overeen met BC/AD; alleen de labels verschillen."
+        },
+        {
+          "commonmistakes": [
+            "Een jaar 0 invoegen bij het berekenen van overspanningen.",
+            "Fouten van één op één over de BCE → CE-grens."
+          ],
+          "exists": false,
+          "heading": "Definities: BCE en CE",
+          "id": "definities",
+          "implications": [
+            "Jaarperioden tussen verschillende tijdperken moeten rekening houden met de ontbrekende nul.",
+            "Van 1 BCE tot 1 CE is gelijk aan 1 jaar, niet 2."
+          ],
+          "reason": [
+            "De eerste schema's gebruikten Romeinse cijfers, die geen symbool voor nul hadden.",
+            "Het systeem werd geformaliseerd voordat nul gebruikelijk was in de Europese wiskunde."
+          ],
+          "sequenceexample": [
+            "3 v.Chr",
+            "2 v.Chr",
+            "1 v.Chr",
+            "1 CE",
+            "2 CE",
+            "3 CE"
+          ],
+          "summary": "BCE telt terug vóór jaar 1; CE telt na jaar 1 vooruit. De nummering komt overeen met BC/AD; alleen de labels verschillen.",
+          "transition": "1 BCE → 1 CE (direct; geen jaar 0)"
+        },
+        {
+          "astronomysystem": {
+            "label": "Astronomische jaarnummering",
+            "mapping": [
+              {
+                "astronomical": "Jaar 0",
+                "historical": "1 v.Chr"
+              },
+              {
+                "astronomical": "Jaar -1",
+                "historical": "2 v.Chr"
+              },
+              {
+                "astronomical": "Jaar +1",
+                "historical": "1 CE"
+              }
+            ],
+            "usesyearzero": true
+          },
+          "heading": "Definities: BCE en CE",
+          "historysystem": {
+            "examplemapping": {
+              "1 bce": "1 v.Chr",
+              "1 ce": "1 CE"
+            },
+            "label": "BCE/CE (of BC/AD)",
+            "usesyearzero": false
+          },
+          "id": "definities",
+          "note": "Dit verschil verklaart incidentele discrepanties tussen astronomische tabellen en historische teksten.",
+          "summary": "BCE telt terug vóór jaar 1; CE telt na jaar 1 vooruit. De nummering komt overeen met BC/AD; alleen de labels verschillen."
+        },
+        {
+          "centuryrules": [
+            "1e eeuw CE = 1–100 CE",
+            "1e eeuw v.Chr. = 100–1 v.Chr",
+            "20e eeuw CE = 1901-2000 CE",
+            "21e eeuw CE = 2001-2100 CE"
+          ],
+          "heading": "Definities: BCE en CE",
+          "id": "definities",
+          "rules": [
+            "Alleen binnen CE: duur = endYear − startYear.",
+            "Alleen binnen BCE: duur = startBCE − eindBCE.",
+            "Voor BCE → CE: duur = (jaren vanaf begin BCE tot 1 BCE) + (jaren vanaf 1 CE tot eind CE) + 1."
+          ],
+          "summary": "BCE telt terug vóór jaar 1; CE telt na jaar 1 vooruit. De nummering komt overeen met BC/AD; alleen de labels verschillen.",
+          "workedexamples": [
+            {
+              "explanation": "Directe overgang over de grens zonder jaar nul.",
+              "label": "1 v.Chr. tot 1 n.Chr",
+              "years": 1
+            },
+            {
+              "explanation": "5 → 1 v.Chr. = 4 jaar; plus 1 (voor 1 BCE → 1 CE); plus 4 jaar (1 → 5 CE) = 9.",
+              "label": "5 v.Chr. Tot 5 n.Chr",
+              "years": 9
+            },
+            {
+              "explanation": "44 → 1 v.Chr. = 43; +1 (grens) = 44; +13 (1 → 14 CE) = 57.",
+              "label": "44 v.Chr. Tot 14 n.Chr",
+              "years": 57
+            },
+            {
+              "explanation": "Hetzelfde tijdperk: 1200 − 500 = 700 jaar.",
+              "label": "500 n.Chr. Tot 1200 n.Chr",
+              "years": 700
+            },
+            {
+              "explanation": "Binnen BCE: 1000 − 500 = 500 jaar.",
+              "label": "1000 v.Chr. Tot 500 v.Chr",
+              "years": 500
+            }
+          ]
+        },
+        {
+          "examples": [
+            {
+              "label": "Indusvallei-beschaving (volwassen fase)",
+              "year": "2600 v.Chr"
+            },
+            {
+              "label": "Levensduur van Gautama Boeddha (ong.)",
+              "year": "6e eeuw voor Christus"
+            },
+            {
+              "label": "Traditioneel datumbereik van Jezus van Nazareth",
+              "year": "~ 1 CE (tijdperk)"
+            },
+            {
+              "label": "De eerste openbaring van de Profeet Mohammed",
+              "year": "610 CE"
+            },
+            {
+              "label": "Indiase onafhankelijkheid",
+              "year": "1947 CE"
+            },
+            {
+              "label": "Huidig referentiejaar",
+              "year": "2026 CE"
+            }
+          ],
+          "heading": "Definities: BCE en CE",
+          "id": "definities",
+          "note": "Eeuwse benaderingen (bijv. 6e eeuw v.Chr.) geven eerder reeksen dan afzonderlijke jaren aan.",
+          "summary": "BCE telt terug vóór jaar 1; CE telt na jaar 1 vooruit. De nummering komt overeen met BC/AD; alleen de labels verschillen."
+        }
+      ]
+    },
+    "counting_directio": "Telrichting:",
+    "description": "CE & BCE — De complete gids (met verduidelijking van het jaar nul)",
+    "diagrams": {
+      "ascii": {
+        "art": "VERLEDEN HEDEN\n←─────── BCE ────────│────── CE ──────→\n 5 4 3 2 1 v.Chr. │ 1 2 3 4 5 n.Chr\n                      (GEEN JAAR 0)",
+        "caption": "Overgang van BCE naar CE zonder jaar nul."
+      },
+      "mermaid": {
+        "caption": "Zeemeermin-tijdlijn (renderen met een klant-Zeemeermin-component).",
+        "code": "tijdlijn\n  titel BCE tot CE (geen jaar nul)\n  sectie BCE\n    5 v.Chr: 5\n    4 v.Chr.: 4\n    3 v.Chr.: 3\n    2 v.Chr: 2\n    1 v.Chr: 1\n  sectie Overgang\n    Nee Jaar 0: mijlpaal\n  sectie CE\n    1CE: 1\n    2 CE: 2\n    3 CE: 3\n    4 CE: 4\n    5 CE: 5"
+      }
+    },
+    "duration": "Duur:",
+    "dynasty": "Dynastie:",
+    "egypt": {
+      "description": "Geselecteerde farao's uit het Egyptische Nieuwe Rijk",
+      "rulers": [
+        {
+          "name": "Hatsjepsoet",
+          "reign": "1479–1458 v.Chr"
+        },
+        {
+          "name": "Thoetmosis III",
+          "reign": "1479–1425 v.Chr"
+        },
+        {
+          "name": "Achnaton",
+          "reign": "1353–1336 v.Chr"
+        },
+        {
+          "name": "Toetanchamon",
+          "reign": "1332–1323 vGT"
+        },
+        {
+          "name": "Ramses II",
+          "reign": "1279–1213 vGT"
+        }
+      ]
+    },
+    "equivale": "Gelijk aan:",
+    "examples": "Voorbeelden:",
+    "exists": "Bestaat:",
+    "faq": {
+      "heading": "Veelgestelde vragen",
+      "qa": [
+        {
+          "a": "Ja. CE gebruikt dezelfde jaarnummers als AD; het is gewoon een neutraal label.",
+          "q": "Is CE hetzelfde als AD?"
+        },
+        {
+          "a": "Nr. 1 BCE gaat rechtstreeks over naar 1 CE zonder jaar 0.",
+          "q": "Bestaat er een jaar nul in de geschiedenis?"
+        },
+        {
+          "a": "De astronomische jaarnummering omvat het jaar 0 (historisch gezien gelijk aan 1 v.Chr.).",
+          "q": "Waarom tonen sommige tabellen een jaartal 0?"
+        },
+        {
+          "a": "Nee. Eeuwen komen op identieke wijze in kaart; alleen labels verschillen.",
+          "q": "Veranderen CE/BCE eeuwdefinities?"
+        }
+      ]
+    },
+    "greece": {
+      "description": "Belangrijke Griekse en Macedonische heersers",
+      "rulers": [
+        {
+          "name": "Perikles",
+          "notes": "Leider van Athene",
+          "reign": "c. 461–429 v.Chr"
+        },
+        {
+          "name": "Filips II van Macedonië",
+          "reign": "359–336 v.Chr"
+        },
+        {
+          "name": "Alexander de Grote",
+          "notes": "Creëerde een enorm imperium",
+          "reign": "336–323 vGT"
+        }
+      ]
+    },
+    "historic": "Historisch",
+    "historic_rulers": "Historische heersers per regio",
+    "history_system": "Geschiedenissysteem:",
+    "implicat": "Implicaties:",
+    "india": {
+      "description": "Belangrijke heersers en dynastieën op het Indiase subcontinent tijdens de BCE-periode",
+      "rulers": [
+        {
+          "dynasty": "Haryanka (Magadha)",
+          "name": "Bimbisara",
+          "notes": "Tijdgenoot van Boeddha; uitgebreide Magadha",
+          "reign": "544–492 vGT"
+        },
+        {
+          "dynasty": "Haryanka (Magadha)",
+          "name": "Ajatashatru",
+          "notes": "Geslaagd Bimbisara; versterkte Pataliputra",
+          "reign": "492–460 v.Chr"
+        },
+        {
+          "dynasty": "Nanda",
+          "name": "Dhana Nanda",
+          "notes": "Laatste Nanda-heerser",
+          "reign": "c. 329–321 vGT"
+        },
+        {
+          "dynasty": "Maurya",
+          "name": "Chandragupta Maurya",
+          "notes": "Stichtte het Mauryan-rijk",
+          "reign": "321–297 v.Chr"
+        },
+        {
+          "dynasty": "Maurya",
+          "name": "Bindusara",
+          "notes": "Uitgebreid imperium op het schiereiland India",
+          "reign": "297–273 v.Chr"
+        },
+        {
+          "dynasty": "Maurya",
+          "name": "Ashoka de Grote",
+          "notes": "Na de Kalinga-oorlog promootte het boeddhisme",
+          "reign": "273–232 v.Chr"
+        }
+      ]
+    },
+    "mapping": "In kaart brengen:",
+    "new_bce": "Nieuw (BCE/CE)",
+    "note": "Opmerking:",
+    "notes": "Opmerkingen:",
+    "old_bc": "Oud (BC/AD)",
+    "persia": {
+      "description": "Heersers van het Achaemenidische rijk (Eerste Perzische rijk)",
+      "rulers": [
+        {
+          "name": "Cyrus de Grote",
+          "notes": "Stichter van het Achaemenidische rijk",
+          "reign": "559–530 v.Chr"
+        },
+        {
+          "name": "Cambyses II",
+          "notes": "Egypte veroverd",
+          "reign": "530–522 vGT"
+        },
+        {
+          "name": "Darius I (de Grote)",
+          "notes": "Administratieve hervormingen",
+          "reign": "522–486 v.Chr"
+        },
+        {
+          "name": "Xerxes I",
+          "notes": "Grieks-Perzische oorlogen",
+          "reign": "486–465 v.Chr"
+        },
+        {
+          "name": "Artaxerxes I",
+          "notes": "Gestabiliseerd imperium",
+          "reign": "465–424 v.Chr"
+        },
+        {
+          "name": "Darius III",
+          "notes": "Verslagen door Alexander",
+          "reign": "336–330 v.Chr"
+        }
+      ]
+    },
+    "reason": "Reden:",
+    "reign": "Regeer:",
+    "rome": {
+      "description": "Koningen van Rome tijdens de koninklijke periode",
+      "rulers": [
+        {
+          "name": "Romulus",
+          "reign": "753–715 v.Chr"
+        },
+        {
+          "name": "Numa Pompilius",
+          "reign": "715–673 v.Chr"
+        },
+        {
+          "name": "Tullus Hostilius",
+          "reign": "673–642 v.Chr"
+        },
+        {
+          "name": "Ancus Marcius",
+          "reign": "642–617 vGT"
+        },
+        {
+          "name": "Lucius Tarquinius Priscus",
+          "reign": "616–579 v.Chr"
+        },
+        {
+          "name": "Servius Tullius",
+          "reign": "578–535 v.Chr"
+        },
+        {
+          "name": "Lucius Tarquinius Superbus",
+          "notes": "Laatste Romeinse koning",
+          "reign": "535–510 v.Chr"
+        }
+      ]
+    },
+    "rules": "Regels:",
+    "sequence_example": "Sequentievoorbeeld:",
+    "time_period": "Tijdsperiode:",
+    "transiti": "Overgang:",
+    "uses_year": "Gebruikt jaar nul:",
+    "visual_timeline": "Visuele tijdlijn",
+    "worked_examples": "Uitgewerkte voorbeelden:",
+    "years": "jaar"
+  }
+}

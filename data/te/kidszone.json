@@ -1,0 +1,68 @@
+{
+  "kidszone": {
+    "meta": {
+      "title": "కిడ్స్ జోన్ | అవలోకనం — సనాతన ధర్మం - సనాతన ధర్మాన్ని అన్వేషించండి",
+      "canonical": "https://sanatanadharmam.in/kidszone",
+      "description": "కిడ్స్‌జోన్ — ఈజీమంత్రాలు — సనాతన ధర్మం - సనాతన ధర్మాన్ని అన్వేషించండి — కథనాలు, అనువాదాలు మరియు కిడ్స్‌జోన్‌పై సంక్షిప్త వ్యాఖ్యానం. అభ్యాసాలు, చరిత్ర మరియు మార్గదర్శక సూత్రాలను అన్వేషించండి...",
+      "keywords": [
+        "easymantras",
+        "hindu mantras for children",
+        "hindu mantras for kids online",
+        "hindu mantras for kids with audio",
+        "hindu mantras for kids with meaning",
+        "hindu mantras for kids with translation",
+        "hindu mantras for kids with video",
+        "hinduism for kids",
+        "kids learning hinduism",
+        "kids zone",
+        "kids zone activities",
+        "kids zone educational content",
+        "kids zone learning",
+        "kids zone mantras",
+        "kids zone resources",
+        "mantras for kids",
+        "mantras for kids online",
+        "mantras for kids with audio",
+        "mantras for kids with meaning",
+        "mantras for kids with translation",
+        "mantras for kids with video",
+        "sanatana dharma",
+        "vedic mantras for children"
+      ],
+      "ogimage": "/og/kidszone-easymantras.png",
+      "url": "https://sanatanadharmam.in/kidszone"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "సంస్థ",
+        "contactpoint": {
+          "@type": "కాంటాక్ట్ పాయింట్",
+          "areaserved": "ప్రపంచవ్యాప్తంగా",
+          "availablelanguage": [
+            "العربية",
+            "డ్యూచ్",
+            "ఇంగ్లీష్",
+            "ఎస్పానోల్",
+            "ఫ్రాంకైస్",
+            "హిందీ",
+            "ఎస్",
+            "నేపాలీ",
+            "నెదర్లాండ్స్",
+            "పోర్చుగీస్",
+            "రస్కియ్",
+            "తెలుగు",
+            "అరేడు",
+            "中文 (简体)"
+          ],
+          "contacttype": "కస్టమర్ మద్దతు",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "సనాతనధర్మం.ఇన్ గురించి",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
+  }
+}

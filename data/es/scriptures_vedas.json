@@ -1,0 +1,965 @@
+{
+  "scriptures_vedas": {
+    "title": "Las antiguas escrituras hindúes consideraban revelaciones divinas, formando la base del Sanatan Dharma.",
+    "meta": {
+      "title": "Escrituras | Vedas — Sanātana Dharma - Explora Sanatan Dharma",
+      "canonical": "https://sanatanadharmam.in/scriptures/vedas",
+      "description": "Vedas - Rigveda, Yajurveda, Samaveda, Atharvaveda - Artículos, traducciones y comentarios concisos sobre los Vedas. Explora prácticas, historia y guías...",
+      "keywords": [
+        "atharvaveda",
+        "dharma",
+        "explore",
+        "kena",
+        "rigveda",
+        "samaveda",
+        "sanātana",
+        "scriptures",
+        "upanishad",
+        "vedas",
+        "yajurveda"
+      ],
+      "ogimage": "/og/vedas.png",
+      "url": "https://sanatanadharmam.in/scriptures/vedas"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organización",
+        "contactpoint": {
+          "@type": "Punto de contacto",
+          "areaserved": "En todo el mundo",
+          "availablelanguage": [
+            "العربية",
+            "alemán",
+            "ingles",
+            "Español",
+            "francés",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Países Bajos",
+            "portugués",
+            "ruso",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Atención al cliente",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Acerca de Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "all_108_upanishads": {
+      "description": "Lista completa de 108 Upanishads según la tradición Muktika.",
+      "list": [
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Isha",
+          "summary": "Breve marcador de posición resumido para Isha Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "kena",
+          "summary": "Breve marcador de posición resumido para Kena Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Katha",
+          "summary": "Breve marcador de posición resumido para Katha Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "prashna",
+          "summary": "Breve marcador de posición resumido para Prashna Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Mundaca",
+          "summary": "Breve marcador de posición resumido para Mundaka Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Mandukya",
+          "summary": "Breve marcador de posición resumido para Mandukya Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "taittiriya",
+          "summary": "Breve marcador de posición de resumen para Taittiriya Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Aitareya",
+          "summary": "Breve marcador de posición resumido para Aitareya Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Chandogya",
+          "summary": "Breve marcador de posición resumido para Chandogya Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Brihadaranyaka",
+          "summary": "Breve marcador de posición resumido para Brihadaranyaka Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Svetasvatara",
+          "summary": "Breve marcador de posición resumido para Svetasvatara Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Kaivalya",
+          "summary": "Breve marcador de posición resumido para Kaivalya Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Maitri",
+          "summary": "Breve marcador de posición resumido para Maitri Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Mahanarayana",
+          "summary": "Breve marcador de posición resumido para Mahanarayana Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Narasimha",
+          "summary": "Breve marcador de posición resumido para Narasimha Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Paramahamsa",
+          "summary": "Breve marcador de posición resumido para Paramahamsa Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Subalá",
+          "summary": "Breve marcador de posición resumido para Subala Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Garuda",
+          "summary": "Breve marcador de posición resumido para Garuda Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Jabala",
+          "summary": "Breve marcador de posición resumido para Jabala Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Paingala",
+          "summary": "Breve marcador de posición resumido para Paingala Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Kaushitaki",
+          "summary": "Breve marcador de posición resumido para Kaushitaki Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Sankhya",
+          "summary": "Breve marcador de posición resumido para Sankhya Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "yoga",
+          "summary": "Breve marcador de posición de resumen para Yoga Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Vajrasuchi",
+          "summary": "Breve marcador de posición resumido para Vajrasuchi Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Hamsa",
+          "summary": "Breve marcador de posición resumido para Hamsa Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Avyakta",
+          "summary": "Breve marcador de posición resumido para Avyakta Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "alma",
+          "summary": "Breve marcador de posición resumido para Atma Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "sariraka",
+          "summary": "Breve marcador de posición resumido para Sariraka Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Adhyatma",
+          "summary": "Breve marcador de posición resumido para Adhyatma Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Skanda",
+          "summary": "Breve marcador de posición resumido para Skanda Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Tripadvibhuti",
+          "summary": "Breve marcador de posición de resumen para Tripadvibhuti Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Rudra",
+          "summary": "Breve marcador de posición resumido para Rudra Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "bhasma",
+          "summary": "Breve marcador de posición resumido para Bhasma Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Kalagni",
+          "summary": "Breve marcador de posición resumido para Kalagni Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Dakshinamurti",
+          "summary": "Breve marcador de posición de resumen para Dakshinamurti Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Tejobindú",
+          "summary": "Breve marcador de posición resumido para Tejobindu Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Brahmabindu",
+          "summary": "Breve marcador de posición resumido para Brahmabindu Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "amritabindu",
+          "summary": "Breve marcador de posición resumido para Amritabindu Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Atmabodha",
+          "summary": "Breve marcador de posición resumido para Atmabodha Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Paramananda",
+          "summary": "Breve marcador de posición resumido para Paramananda Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "mandala",
+          "summary": "Breve marcador de posición de resumen para Mandala Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Tarasara",
+          "summary": "Breve marcador de posición resumido para Tarasara Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "muktika",
+          "summary": "Breve marcador de posición resumido para Muktika Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Annapurna",
+          "summary": "Breve marcador de posición resumido para Annapurna Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Surya",
+          "summary": "Breve marcador de posición resumido para Surya Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "akshi",
+          "summary": "Breve marcador de posición resumido para Akshi Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Chakshus",
+          "summary": "Breve marcador de posición de resumen para Chakshus Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranagnihotra",
+          "summary": "Breve resumen del marcador de posición de Pranagnihotra Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava",
+          "summary": "Breve marcador de posición resumido para Pranava Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Vidya",
+          "summary": "Breve marcador de posición resumido para Pranava-Vidya Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Sariraka",
+          "summary": "Breve marcador de posición resumido para Pranava-Sariraka Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Yoga",
+          "summary": "Breve marcador de posición resumido para Pranava-Yoga Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Brahma",
+          "summary": "Breve marcador de posición resumido para Pranava-Brahma Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Upanishad",
+          "summary": "Breve marcador de posición resumido para Pranava-Upanishad Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Samhita",
+          "summary": "Breve marcador de posición resumido para Pranava-Samhita Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Tattva",
+          "summary": "Breve marcador de posición resumido para Pranava-Tattva Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Dhyana",
+          "summary": "Breve marcador de posición resumido para Pranava-Dhyana Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Mantra",
+          "summary": "Breve marcador de posición resumido para Pranava-Mantra Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Siddhi",
+          "summary": "Breve marcador de posición resumido para Pranava-Siddhi Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Mukti",
+          "summary": "Breve marcador de posición resumido para Pranava-Mukti Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Jnana",
+          "summary": "Breve marcador de posición resumido para Pranava-Jnana Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Vidya-Upanishad",
+          "summary": "Breve marcador de posición resumido para Pranava-Vidya-Upanishad Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Sariraka-Upanishad",
+          "summary": "Breve marcador de posición resumido para Pranava-Sariraka-Upanishad Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Yoga-Upanishad",
+          "summary": "Breve marcador de posición de resumen para Pranava-Yoga-Upanishad Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Brahma-Upanishad",
+          "summary": "Breve marcador de posición resumido para Pranava-Brahma-Upanishad Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Upanishad-2",
+          "summary": "Breve marcador de posición resumido para Pranava-Upanishad-2 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Samhita-Upanishad",
+          "summary": "Breve marcador de posición resumido para Pranava-Samhita-Upanishad Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Tattva-Upanishad",
+          "summary": "Breve marcador de posición resumido para Pranava-Tattva-Upanishad Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Dhyana-Upanishad",
+          "summary": "Breve marcador de posición resumido para Pranava-Dhyana-Upanishad Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Mantra-Upanishad",
+          "summary": "Breve marcador de posición resumido para Pranava-Mantra-Upanishad Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Siddhi-Upanishad",
+          "summary": "Breve marcador de posición resumido para Pranava-Siddhi-Upanishad Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Mukti-Upanishad",
+          "summary": "Breve marcador de posición resumido para Pranava-Mukti-Upanishad Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Jnana-Upanishad",
+          "summary": "Breve marcador de posición resumido para Pranava-Jnana-Upanishad Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Vidya-Upanishad-2",
+          "summary": "Breve marcador de posición resumido para Pranava-Vidya-Upanishad-2 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Sariraka-Upanishad-2",
+          "summary": "Breve marcador de posición resumido para Pranava-Sariraka-Upanishad-2 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Yoga-Upanishad-2",
+          "summary": "Breve marcador de posición de resumen para Pranava-Yoga-Upanishad-2 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Brahma-Upanishad-2",
+          "summary": "Breve marcador de posición resumido para Pranava-Brahma-Upanishad-2 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Upanishad-3",
+          "summary": "Breve marcador de posición resumido para Pranava-Upanishad-3 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Samhita-Upanishad-2",
+          "summary": "Breve marcador de posición resumido para Pranava-Samhita-Upanishad-2 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Tattva-Upanishad-2",
+          "summary": "Breve marcador de posición de resumen para Pranava-Tattva-Upanishad-2 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Dhyana-Upanishad-2",
+          "summary": "Breve marcador de posición resumido para Pranava-Dhyana-Upanishad-2 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Mantra-Upanishad-2",
+          "summary": "Breve marcador de posición resumido para Pranava-Mantra-Upanishad-2 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Siddhi-Upanishad-2",
+          "summary": "Breve marcador de posición resumido para Pranava-Siddhi-Upanishad-2 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Mukti-Upanishad-2",
+          "summary": "Breve marcador de posición resumido para Pranava-Mukti-Upanishad-2 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Jnana-Upanishad-2",
+          "summary": "Breve marcador de posición resumido para Pranava-Jnana-Upanishad-2 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Vidya-Upanishad-3",
+          "summary": "Breve marcador de posición resumido para Pranava-Vidya-Upanishad-3 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Sariraka-Upanishad-3",
+          "summary": "Breve marcador de posición de resumen para Pranava-Sariraka-Upanishad-3 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Yoga-Upanishad-3",
+          "summary": "Breve marcador de posición resumido para Pranava-Yoga-Upanishad-3 Upanishad."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/",
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Pranava-Brahma-Upanishad-3",
+          "summary": "Breve marcador de posición resumido para Pranava-Brahma-Upanishad-3 Upanishad."
+        }
+      ],
+      "resource_links": [
+        {
+          "title": "Scriptures.ru – Colección de textos completa",
+          "url": "https://scriptures.ru/upanishad/"
+        },
+        {
+          "title": "Sociedad Gita – 108 Upanishads PDF",
+          "url": "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+        },
+        {
+          "title": "Kaalchakra – Colección todo en uno",
+          "url": "https://kaalchakra.in/108-upanishads-all-in-one/"
+        },
+        {
+          "title": "Archive.org – Traducción al inglés",
+          "url": "https://archive.org/stream/1UpanishadsRigVeda/5Upanishads%20-%20Atharva%20Veda_djvu.txt"
+        }
+      ]
+    },
+    "authorship": {
+      "compiler": "Tradicionalmente atribuido a Vyasa",
+      "nature": "Apauruṣeya (no de origen humano)",
+      "process": "Revelado a los sabios (rishis) durante la meditación."
+    },
+    "benefits": [
+      "Despierta la visión espiritual y la autorrealización.",
+      "Proporciona una base para una vida ética y la armonía social.",
+      "Inspira la investigación científica, artística y filosófica.",
+      "Conecta a los individuos con el orden cósmico y la conciencia universal.",
+      "Ofrece guía eterna para la meditación, la devoción y la acción correcta."
+    ],
+    "features": [
+      "Compuesto en un lenguaje poético y simbólico con múltiples capas de significado.",
+      "Transmitido oralmente con técnicas precisas de memorización durante milenios.",
+      "Dividido en cuatro Vedas, cada uno con secciones Samhita, Brahmana, Aranyaka y Upanishad.",
+      "Integra himnos, rituales, filosofía, cosmología y orientación práctica.",
+      "Enfatiza la unidad en la diversidad: una verdad expresada de muchas formas."
+    ],
+    "intro": "Los Vedas (de la raíz sánscrita \"vid\", conocer) son el estrato más antiguo de la literatura sagrada del sur de Asia. Compuestos en sánscrito védico y conservados mediante transmisión oral conservadora, dieron forma a la práctica ritual, los ideales sociales y el pensamiento indio temprano.",
+    "language": "Sánscrito védico",
+    "origin": {
+      "meaning": "Veda significa \"conocimiento\" en sánscrito.",
+      "period": "1500 a. C. – 500 a. C. (período védico)",
+      "transmission": "Conservado oralmente durante siglos antes de ser escrito en sánscrito védico."
+    },
+    "purpose": "Revelar las verdades fundamentales de la existencia, la naturaleza del cosmos y el camino hacia la armonía con lo divino. Los Vedas tienen como objetivo elevar la conciencia humana, fomentar el orden interior y exterior (rita) e inspirar la búsqueda de la verdad (satya) y la inmortalidad (amrita).",
+    "significance": "Base de la filosofía, los rituales y las prácticas espirituales hindúes. Los Vedas son venerados como la fuente eterna de conocimiento, que guía a la humanidad en todos los aspectos de la vida: espiritual, ético, social y cósmico. No son sólo textos, sino sabiduría viva, destinada a ser realizada y experimentada.",
+    "structure": {
+      "fourvedas": [
+        {
+          "content": "Himnos que alaban a deidades como Agni, Indra, Varuna.",
+          "features": "Veda más antiguo, 1.028 himnos",
+          "name": "Rigveda"
+        },
+        {
+          "content": "Melodías y cantos para rituales.",
+          "features": "Arreglo musical de himnos rigvédicos.",
+          "name": "Samaveda"
+        },
+        {
+          "content": "Mantras en prosa para sacrificios y rituales.",
+          "features": "Utilizado por los sacerdotes durante los yajnas.",
+          "name": "Yajurveda"
+        },
+        {
+          "content": "Himnos, hechizos y encantamientos para la vida diaria.",
+          "features": "Aspectos prácticos y filosóficos.",
+          "name": "Atharvaveda"
+        }
+      ],
+      "subdivisions": [
+        "samitas",
+        "brahmanas",
+        "Aranyakas",
+        "Upanishads"
+      ]
+    },
+    "themes": [
+      "cosmología",
+      "Ética",
+      "Rituales",
+      "Filosofía"
+    ],
+    "timeline": [
+      {
+        "date": "1500 a. C. – 1200 a. C.",
+        "description": "Composición de himnos del Rigveda; Comienza la tradición oral.",
+        "phase": "Período védico temprano"
+      },
+      {
+        "date": "1200 a. C. - 900 a. C.",
+        "description": "Desarrollo de Samaveda y Yajurveda; enfoque ritualista.",
+        "phase": "Período védico medio"
+      },
+      {
+        "date": "900 a. C. – 500 a. C.",
+        "description": "Atharvaveda compuso; Brahmanas y Aranyakas escritos.",
+        "phase": "Período védico tardío"
+      },
+      {
+        "date": "800 a. C. – 200 a. C.",
+        "description": "Cambio filosófico; Upanishads compilados enfatizando el conocimiento espiritual.",
+        "phase": "Era Upanishádica"
+      },
+      {
+        "date": "Alrededor del 500 a. C. en adelante",
+        "description": "Vedas y Upanishads documentados en forma escrita.",
+        "phase": "Compilación escrita"
+      },
+      {
+        "date": "Tradicional: Treta Yuga | Estimación astronómica: ~5114 a.C.",
+        "description": "Séptimo avatar de Vishnu nacido en Ayodhya; celebrado como Rama Navami.",
+        "phase": "Nacimiento del Señor Rama"
+      },
+      {
+        "date": "Tradicional: Dvapara Yuga | Estimación astronómica: ~3228 a.C.",
+        "description": "Octavo avatar de Vishnu nacido en Mathura; celebrado como Janmashtami.",
+        "phase": "Nacimiento del Señor Krishna"
+      },
+      {
+        "date": "Aprox. 6 a. C. – 4 a. C.",
+        "description": "La creencia cristiana tradicional sitúa el nacimiento de Jesús antes de la muerte del rey Herodes.",
+        "phase": "Nacimiento de Jesucristo"
+      },
+      {
+        "date": "Eterno (Anadi-Ananta)",
+        "description": "Shiva es eterno, más allá del nacimiento y la muerte; se manifiesta como conciencia cósmica.",
+        "phase": "Señor Shiva"
+      }
+    ],
+    "unique_insights": "Los Vedas son únicos en su universalidad y profundidad. No pertenecen a ninguna secta o época, sino que abordan la eterna búsqueda de significado y trascendencia. Se dice que sus mantras contienen un poder espiritual intrínseco (shabda brahman) y su sabiduría continúa inspirando a buscadores, eruditos y sociedades de todo el mundo.",
+    "upanishads": {
+      "definition": "Textos filosóficos que forman la parte final de los Vedas y se centran en el conocimiento espiritual.",
+      "major_upanishads": [
+        {
+          "links": [
+            "https://www.gutenberg.org/ebooks/3283"
+          ],
+          "name": "Isha",
+          "summary": "Enseña la renuncia y la unidad de Brahman en todos los seres."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/"
+          ],
+          "name": "kena",
+          "summary": "Explora la fuente de la percepción y la realidad última."
+        },
+        {
+          "links": [
+            "https://kaalchakra.in/108-upanishads-all-in-one/"
+          ],
+          "name": "Katha",
+          "summary": "Diálogo entre Nachiketa y Yama sobre la inmortalidad."
+        },
+        {
+          "links": [
+            "https://archive.org/stream/1UpanishadsRigVeda/5Upanishads%20-%20Atharva%20Veda_djvu.txt"
+          ],
+          "name": "Mundaca",
+          "summary": "Conocimientos superiores e inferiores; Brahman como realidad suprema."
+        },
+        {
+          "links": [
+            "https://www.gita-society.com/wp-content/uploads/PDF/108upanishads.pdf"
+          ],
+          "name": "Mandukya",
+          "summary": "Análisis de Om y estados de conciencia."
+        },
+        {
+          "links": [
+            "https://scriptures.ru/upanishad/"
+          ],
+          "name": "taittiriya",
+          "summary": "Capas de la existencia humana; bienaventuranza de Brahman."
+        },
+        {
+          "links": [
+            "https://kaalchakra.in/108-upanishads-all-in-one/"
+          ],
+          "name": "Chandogya",
+          "summary": "Meditación, ética y el concepto de 'Tat Tvam Asi'."
+        },
+        {
+          "links": [
+            "https://archive.org/stream/1UpanishadsRigVeda/5Upanishads%20-%20Atharva%20Veda_djvu.txt"
+          ],
+          "name": "Brihadaranyaka",
+          "summary": "Autoconocimiento; Diálogos filosóficos sobre Atman."
+        }
+      ]
+    }
+  }
+}

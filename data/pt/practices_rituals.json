@@ -1,0 +1,179 @@
+{
+  "practices_rituals": {
+    "meta": {
+      "title": "Práticas | Rituais - Sanātana Dharma - Explore Sanatan Dharma",
+      "canonical": "https://sanatanadharmam.in/practices/rituals",
+      "description": "Práticas — Rituais — Sanātana Dharma - Explore Sanatan Dharma — Artigos, traduções e comentários concisos sobre Práticas. Explore práticas, história e princípios orientadores em...",
+      "keywords": [
+        "daily rituals in hinduism",
+        "daily rituals in hinduism explained",
+        "daily rituals in hinduism modern relevance",
+        "daily rituals in hinduism origin and history",
+        "daily rituals in hinduism practices",
+        "daily rituals in hinduism scriptural references",
+        "daily rituals in hinduism significance",
+        "daily rituals in hinduism symbolism",
+        "festivals and rituals in hinduism",
+        "festivals and rituals in hinduism explained",
+        "festivals and rituals in hinduism modern relevance",
+        "festivals and rituals in hinduism origin and history",
+        "festivals and rituals in hinduism practices",
+        "festivals and rituals in hinduism scriptural references",
+        "festivals and rituals in hinduism significance",
+        "festivals and rituals in hinduism symbolism",
+        "hindu rituals",
+        "life stage rituals in hinduism",
+        "life stage rituals in hinduism explained",
+        "life stage rituals in hinduism modern relevance",
+        "life stage rituals in hinduism origin and history",
+        "life stage rituals in hinduism practices",
+        "life stage rituals in hinduism scriptural references",
+        "life stage rituals in hinduism significance",
+        "life stage rituals in hinduism symbolism",
+        "rituals concepts",
+        "rituals for beginners",
+        "rituals for students",
+        "rituals in sanatana dharma",
+        "rituals modern relevance",
+        "rituals modern relevance explained",
+        "rituals origin and history",
+        "rituals origin and history explained",
+        "rituals practices",
+        "rituals practices explained",
+        "rituals principles",
+        "rituals q&a",
+        "rituals scriptural references",
+        "rituals scriptural references explained",
+        "rituals significance",
+        "rituals significance explained",
+        "rituals symbolism",
+        "rituals symbolism explained",
+        "temple rituals in hinduism",
+        "temple rituals in hinduism explained",
+        "temple rituals in hinduism modern relevance",
+        "temple rituals in hinduism origin and history",
+        "temple rituals in hinduism practices",
+        "temple rituals in hinduism scriptural references",
+        "temple rituals in hinduism significance",
+        "temple rituals in hinduism symbolism",
+        "vedic rituals"
+      ],
+      "ogimage": "/og/practices-rituals.png",
+      "url": "https://sanatanadharmam.in/practices/rituals"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organização",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Em todo o mundo",
+          "availablelanguage": [
+            "العربية",
+            "Alemão",
+            "Inglês",
+            "Espanhol",
+            "Francês",
+            "Adeus",
+            "日本語",
+            "Adeus",
+            "Holanda",
+            "Português",
+            "Russo",
+            "Mais",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Suporte ao Cliente",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sobre Sanatanadharm.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "definition": "Rituais e práticas no Sanātana Dharma são atividades espirituais e culturais realizadas para manter a harmonia com a ordem cósmica e expressar devoção.",
+    "key_scriptural_references": [
+      {
+        "quote_summary": "Os rituais mantêm a ordem e a harmonia cósmicas.",
+        "text": "Rig Veda"
+      },
+      {
+        "quote_summary": "Execute ações como uma oferenda ao divino.",
+        "text": "Bhagavathgita"
+      }
+    ],
+    "modern_relevance": {
+      "community": "Os festivais fortalecem os laços sociais.",
+      "mindfulness": "Os rituais diários promovem paz mental e disciplina.",
+      "spirituality": "Conecta indivíduos à consciência superior."
+    },
+    "origin": {
+      "purpose": "Para conectar o indivíduo com o divino e defender o Dharma.",
+      "roots": "Tradição védica",
+      "texts": [
+        "Vedas",
+        "smrite",
+        "Puranas"
+      ]
+    },
+    "types_of_rituals": {
+      "daily_practices": [
+        "Sandhyavadanam (orações matinais e noturnas)",
+        "Japa (cantar mantras)",
+        "Meditação (Dhyana)",
+        "Acender uma lâmpada (Deepa) no altar doméstico"
+      ],
+      "festivals_and_observances": [
+        "Diwali (festival das luzes)",
+        "Navaratri (adoração do divino feminino)",
+        "Janmashtami (nascimento de Krishna)",
+        "Maha Shivaratri (noite de Shiva)"
+      ],
+      "life_stage_rituals": [
+        "Namakarana (cerimônia de nomeação)",
+        "Upanayana (cerimônia do fio sagrado)",
+        "Vivaha (casamento)",
+        "Antyeshti (ritos funerários)"
+      ],
+      "temple_rituals": {
+        "common_rituals": [
+          "Archana – Cantar nomes da divindade e oferecer flores.",
+          "Abhishekam – Banho ritual da divindade com água, leite, mel e ghee.",
+          "Aarti – Agitação de lâmpadas diante da divindade acompanhada de canções devocionais.",
+          "Naivedyam – Oferecer comida à divindade, posteriormente distribuída como Prasadam.",
+          "Darshan – Ver a divindade com reverência e devoção.",
+          "Homa – Ritual de fogo realizado nas dependências do templo para purificação e bênçãos."
+        ],
+        "regional_variations": {
+          "east_india": [
+            "Rituais Durga Puja – Culto elaborado à Deusa Durga com ídolos artísticos.",
+            "Caminho Chandi – Recitação de Devi Mahatmya durante o Navaratri.",
+            "Sandhi Puja – Oferta especial durante a transição de Ashtami e Navami."
+          ],
+          "north_india": [
+            "Bhajan e Kirtan – Cantos devocionais nos salões do templo.",
+            "Jalabhishek – Oferecer água ao Shiva Lingam, especialmente durante o mês Shravan.",
+            "Rath Yatra – Procissão de carruagens de divindades durante os principais festivais."
+          ],
+          "south_india": [
+            "Panchamrita Abhishekam – Divindade do banho com cinco substâncias sagradas (leite, coalhada, ghee, mel, açúcar).",
+            "Vahana Seva – Divindade levada em procissão em diferentes montes durante os festivais.",
+            "Deepa Aradhana – Culto elaborado à lâmpada em templos como Meenakshi e Tirupati."
+          ],
+          "west_india": [
+            "Garba e Dandiya – Rituais de dança durante o Navaratri em Gujarat.",
+            "Tulsi Vivah – Casamento simbólico da planta Tulsi com o Senhor Vishnu.",
+            "Canto Abhanga – Canções devocionais na tradição Varkari de Maharashtra."
+          ]
+        },
+        "symbolism": [
+          "Abhishekam significa purificação e rendição.",
+          "Aarti representa a remoção das trevas e o acolhimento da luz divina.",
+          "Prasadam simboliza a graça e as bênçãos da divindade."
+        ]
+      }
+    }
+  }
+}

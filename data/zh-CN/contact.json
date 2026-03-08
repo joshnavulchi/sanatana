@@ -1,0 +1,164 @@
+{
+  "contact": {
+    "title": "联系我们",
+    "meta": {
+      "title": "联系我们 — Sanātana Dharma",
+      "canonical": "https://sanatanadharmam.in/contact",
+      "description": "请联系 Sanatanadharmam.in 进行咨询、合作或精神指导。通过电子邮件、电话或联系表联系我们。",
+      "keywords": [
+        "Sanatana Dharma collaboration proposals",
+        "Sanatana Dharma communication",
+        "Sanatana Dharma community engagement",
+        "Sanatana Dharma contact information",
+        "Sanatana Dharma content suggestions",
+        "Sanatana Dharma editorial feedback",
+        "Sanatana Dharma general questions",
+        "Sanatana Dharma outreach",
+        "Sanatana Dharma project inquiries",
+        "Sanatana Dharma spiritual questions",
+        "Sanatana Dharma support",
+        "Sanatana Dharma text corrections",
+        "Sanatana Dharma translation suggestions",
+        "Sanatana Dharma volunteer coordination",
+        "Sanatana Dharma website contact",
+        "collaborations",
+        "contact Sanatanadharmam.in",
+        "contact form",
+        "email",
+        "feedback",
+        "general questions",
+        "inquiries",
+        "phone",
+        "spiritual guidance",
+        "text corrections",
+        "translation suggestions",
+        "volunteer opportunities"
+      ],
+      "ogimage": "/og/contact.png",
+      "robots": "索引，关注",
+      "url": "https://sanatanadharmam.in/contact"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "组织",
+        "contactpoint": {
+          "@type": "联络点",
+          "areaserved": "全世界",
+          "availablelanguage": [
+            "巴黎",
+            "德语",
+            "英语",
+            "西班牙语",
+            "法国人",
+            "हिन्दी",
+            "日本语",
+            "नेपाली",
+            "荷兰",
+            "葡萄牙语",
+            "俄罗斯",
+            "తెలుగు",
+            "阿鲁多",
+            "中文 (简体)"
+          ],
+          "contacttype": "客户支持",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "关于 Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "faq": {
+      "heading": "常见问题",
+      "items": [
+        {
+          "a": "请包含 URL、确切的段落（引用该行或诗句）以及源版本的参考或扫描（如果可能）。我们将进行验证，并在必要时发布描述更正的勘误表。",
+          "q": "我发现文本中有错误 — 我该怎么办？"
+        },
+        {
+          "a": "是的。发送书目详细信息和任何相关权限。我们优先考虑公共领域或具有明确权限的文本，并且我们可能会与贡献者协调数字化。",
+          "q": "我可以请求添加新的文本或章节吗？"
+        },
+        {
+          "a": "发送您的简历或描述您的技能和空闲时间的简短说明。如果我们有适合当前需求的良好匹配，我们将跟进。",
+          "q": "我如何作为志愿者参与其中？"
+        }
+      ]
+    },
+    "sections": [
+      {
+        "content": "Sanatanadharmam.in 致力于传播 Sanatana Dharma 的真实知识。无论您有疑问、反馈还是合作想法，我们都欢迎您留言。",
+        "id": "介绍",
+        "type": "文本"
+      },
+      {
+        "columns": [
+          {
+            "title": "📧 电子邮件",
+            "content": "vulchi.vijay@gmail.com"
+          },
+          {
+            "title": "📞 电话",
+            "content": "+91-8099181075"
+          },
+          {
+            "title": "📍地址",
+            "content": "印度安得拉邦蒂鲁帕蒂"
+          }
+        ],
+        "id": "介绍",
+        "type": "文本"
+      },
+      {
+        "fields": [
+          {
+            "name": "姓名",
+            "placeholder": "你的名字",
+            "required": true,
+            "type": "文本"
+          },
+          {
+            "name": "电子邮件",
+            "placeholder": "您的电子邮件",
+            "required": true,
+            "type": "电子邮件"
+          },
+          {
+            "name": "主题",
+            "placeholder": "主题",
+            "required": false,
+            "type": "文本"
+          },
+          {
+            "name": "信息",
+            "placeholder": "您的留言",
+            "required": true,
+            "type": "文本区域"
+          }
+        ],
+        "id": "介绍",
+        "submitbutton": {
+          "action": "/api/contact/submit",
+          "label": "发送消息"
+        },
+        "type": "文本"
+      },
+      {
+        "content": "Sanatanadharmam.in 致力于传播 Sanatana Dharma 的真实知识。无论您有疑问、反馈还是合作想法，我们都欢迎您留言。",
+        "id": "介绍",
+        "type": "文本"
+      }
+    ],
+    "subtitle": "我们很乐意听取您的意见",
+    "volunteer": {
+      "guidance": "我们欢迎志愿者帮助校对、排版、翻译、录音、网络开发和社区管理。请描述您的技能、可用性以及之前工作的任何相关样本。提交的内容将经过审核，如果被接受，则会通过适度的入职流程进行协调，以便志愿者了解编辑标准和项目的行为准则。",
+      "heading": "志愿者和贡献指南"
+    },
+    "whattoinclude": {
+      "guidance": "为了帮助我们有效地做出回应，请包括：清晰的主题行、您引用的页面或 URL（如果适用）、问题或请求的简明描述以及您的首选联系方式。对于文本的更正，请注明确切的行或诗句，如果可能，请提供可靠的来源或版本参考。对于翻译建议，请包括建议的措辞和更改的简要理由。",
+      "heading": "您的消息中应包含哪些内容"
+    }
+  }
+}

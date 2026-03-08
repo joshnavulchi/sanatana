@@ -1,0 +1,246 @@
+{
+  "practices_festivals": {
+    "meta": {
+      "title": "Práticas | Festivais - Sanātana Dharma - Explore Sanatan Dharma",
+      "canonical": "https://sanatanadharmam.in/practices/festivals",
+      "description": "Práticas — Festivais — Sanātana Dharma - Explore Sanatan Dharma — Artigos, traduções e comentários concisos sobre Práticas. Explore práticas, história e princípios orientadores...",
+      "keywords": [
+        "diwali",
+        "diwali explained",
+        "festivals concepts",
+        "festivals for beginners",
+        "festivals for students",
+        "festivals in sanatana dharma",
+        "festivals modern relevance",
+        "festivals modern relevance explained",
+        "festivals origin and history",
+        "festivals origin and history explained",
+        "festivals practices",
+        "festivals practices explained",
+        "festivals principles",
+        "festivals q&a",
+        "festivals scriptural references",
+        "festivals scriptural references explained",
+        "festivals significance",
+        "festivals significance explained",
+        "festivals symbolism",
+        "festivals symbolism explained",
+        "hindu festivals",
+        "holi",
+        "holi explained",
+        "janmashtami",
+        "janmashtami explained",
+        "maha shivaratri",
+        "maha shivaratri explained",
+        "major hindu festivals",
+        "major hindu festivals explained",
+        "major hindu festivals modern relevance",
+        "major hindu festivals origin and history",
+        "major hindu festivals practices",
+        "major hindu festivals scriptural references",
+        "major hindu festivals significance",
+        "major hindu festivals symbolism",
+        "makar sankranti",
+        "makar sankranti explained",
+        "navaratri",
+        "navaratri explained",
+        "ratha yatra",
+        "ratha yatra explained",
+        "seasonal festivals in hinduism",
+        "seasonal festivals in hinduism explained",
+        "seasonal festivals in hinduism modern relevance",
+        "seasonal festivals in hinduism origin and history",
+        "seasonal festivals in hinduism practices",
+        "seasonal festivals in hinduism scriptural references",
+        "seasonal festivals in hinduism significance",
+        "seasonal festivals in hinduism symbolism",
+        "vasant panchami",
+        "vasant panchami explained",
+        "vedic festivals"
+      ],
+      "ogimage": "/og/practices-festivals.png",
+      "url": "https://sanatanadharmam.in/practices/festivals"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organização",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Em todo o mundo",
+          "availablelanguage": [
+            "العربية",
+            "Alemão",
+            "Inglês",
+            "Espanhol",
+            "Francês",
+            "Adeus",
+            "日本語",
+            "Adeus",
+            "Holanda",
+            "Português",
+            "Russo",
+            "Mais",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Suporte ao Cliente",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sobre Sanatanadharm.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "definition": "Os festivais no Sanātana Dharma são ocasiões sagradas que celebram princípios cósmicos, divindades e mudanças sazonais, combinando dimensões espirituais, culturais e sociais.",
+    "key_scriptural_references": [
+      {
+        "quote_summary": "Os rituais sazonais mantêm a harmonia com a ordem cósmica.",
+        "text": "Rig Veda"
+      },
+      {
+        "quote_summary": "Oferendas e devoção purificam a mente e levam à libertação.",
+        "text": "Bhagavathgita"
+      }
+    ],
+    "major_festivals": {
+      "diwali": {
+        "practices": [
+          "Acender lamparinas a óleo (Deepa) em casas e templos.",
+          "Lakshmi Puja para riqueza e prosperidade.",
+          "Estourando fogos de artifício e compartilhando doces."
+        ],
+        "season": "Outono",
+        "significance": "Festival das Luzes simbolizando a vitória da luz sobre as trevas."
+      },
+      "janmashtami": {
+        "practices": [
+          "Puja da meia-noite e canto dos nomes de Krishna.",
+          "Dahi Handi (quebrando a panela de coalhada) em Maharashtra.",
+          "Recitação de Bhajans e Bhagavathgita."
+        ],
+        "season": "Monção",
+        "significance": "Comemora o nascimento do Senhor Krishna."
+      },
+      "maha_shivaratri": {
+        "practices": [
+          "Jejum e vigília noturna.",
+          "Oferecendo folhas de Bilva e água para Shiva Lingam.",
+          "Cantando 'Om Namah Shivaya'."
+        ],
+        "season": "Final do inverno",
+        "significance": "Noite de Shiva, simbolizando o despertar espiritual."
+      },
+      "navaratri": {
+        "practices": [
+          "Adoração diária de diferentes formas de Devi.",
+          "Jejuar e recitar Devi Mahatmya.",
+          "Garba e Dandiya dançam no oeste da Índia."
+        ],
+        "season": "Outono",
+        "significance": "Nove noites dedicadas à Deusa Durga e suas formas."
+      }
+    },
+    "modern_relevance": {
+      "community": "Os festivais fortalecem os laços sociais e a identidade cultural.",
+      "spirituality": "Incentiva a devoção e a atenção plena.",
+      "sustainability": "Promove práticas ecológicas em celebrações modernas."
+    },
+    "origin": {
+      "purpose": "Honrar divindades, expressar gratidão e reforçar o Dharma na vida comunitária.",
+      "roots": "Tradições Védicas e Purânicas",
+      "texts": [
+        "Vedas",
+        "Puranas",
+        "smrite"
+      ]
+    },
+    "seasonal_festivals": {
+      "autumn": [
+        {
+          "name": "Navaratri",
+          "practices": [
+            "Jejum",
+            "Dança Garba",
+            "Recitar escrituras"
+          ],
+          "significance": "Nove noites de adoração a Devi."
+        },
+        {
+          "name": "Diwali",
+          "practices": [
+            "Lâmpadas de iluminação",
+            "Lakshmi Puja",
+            "Fogos de artifício"
+          ],
+          "significance": "Festival das Luzes."
+        }
+      ],
+      "monsoon": [
+        {
+          "name": "Krishna Janmashtami",
+          "practices": [
+            "Puja da meia-noite",
+            "Celebrações de Dahi Handi"
+          ],
+          "significance": "Nascimento do Senhor Krishna."
+        }
+      ],
+      "spring": [
+        {
+          "name": "Holi",
+          "practices": [
+            "Brincando com cores",
+            "Rituais de fogueira (Holika Dahan)",
+            "Canto e dança comunitária"
+          ],
+          "significance": "Festival de cores que marca a chegada da primavera e a vitória do bem sobre o mal."
+        },
+        {
+          "name": "Vasant Panchami",
+          "practices": [
+            "Adoração de Saraswati",
+            "Traje amarelo e ofertas de comida"
+          ],
+          "significance": "Dedicado à Deusa Saraswati, marcando o início da primavera."
+        }
+      ],
+      "summer": [
+        {
+          "name": "Ratha Yatra",
+          "practices": [
+            "Puxando carruagens",
+            "Festas comunitárias",
+            "Rituais do templo"
+          ],
+          "significance": "Festival da carruagem do Senhor Jagannath em Odisha."
+        }
+      ],
+      "winter": [
+        {
+          "name": "Makar Sankranti",
+          "practices": [
+            "Papagaios voadores",
+            "Oferecendo doces de gergelim",
+            "Adoração do sol"
+          ],
+          "significance": "Festival da colheita marcando a transição do Sol para Capricórnio."
+        },
+        {
+          "name": "Maha Shivaratri",
+          "practices": [
+            "Vigília noturna",
+            "Oferendas de folhas de Bilva"
+          ],
+          "significance": "Noite de Shiva."
+        }
+      ]
+    },
+    "symbolism": [
+      "A luz representa o conhecimento e a remoção da ignorância.",
+      "As cores significam alegria e diversidade.",
+      "O jejum purifica corpo e mente para foco espiritual."
+    ]
+  }
+}

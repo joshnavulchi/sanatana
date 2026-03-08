@@ -1,0 +1,179 @@
+{
+  "practices_rituals": {
+    "meta": {
+      "title": "实践|仪式 — Sanatana Dharma - 探索 Sanatana Dharma",
+      "canonical": "https://sanatanadharmam.in/practices/rituals",
+      "description": "实践 — 仪式 — Sanātana Dharma - 探索 Sanatan Dharma — 有关实践的文章、翻译和简明评论。探索实践、历史和指导原则……",
+      "keywords": [
+        "daily rituals in hinduism",
+        "daily rituals in hinduism explained",
+        "daily rituals in hinduism modern relevance",
+        "daily rituals in hinduism origin and history",
+        "daily rituals in hinduism practices",
+        "daily rituals in hinduism scriptural references",
+        "daily rituals in hinduism significance",
+        "daily rituals in hinduism symbolism",
+        "festivals and rituals in hinduism",
+        "festivals and rituals in hinduism explained",
+        "festivals and rituals in hinduism modern relevance",
+        "festivals and rituals in hinduism origin and history",
+        "festivals and rituals in hinduism practices",
+        "festivals and rituals in hinduism scriptural references",
+        "festivals and rituals in hinduism significance",
+        "festivals and rituals in hinduism symbolism",
+        "hindu rituals",
+        "life stage rituals in hinduism",
+        "life stage rituals in hinduism explained",
+        "life stage rituals in hinduism modern relevance",
+        "life stage rituals in hinduism origin and history",
+        "life stage rituals in hinduism practices",
+        "life stage rituals in hinduism scriptural references",
+        "life stage rituals in hinduism significance",
+        "life stage rituals in hinduism symbolism",
+        "rituals concepts",
+        "rituals for beginners",
+        "rituals for students",
+        "rituals in sanatana dharma",
+        "rituals modern relevance",
+        "rituals modern relevance explained",
+        "rituals origin and history",
+        "rituals origin and history explained",
+        "rituals practices",
+        "rituals practices explained",
+        "rituals principles",
+        "rituals q&a",
+        "rituals scriptural references",
+        "rituals scriptural references explained",
+        "rituals significance",
+        "rituals significance explained",
+        "rituals symbolism",
+        "rituals symbolism explained",
+        "temple rituals in hinduism",
+        "temple rituals in hinduism explained",
+        "temple rituals in hinduism modern relevance",
+        "temple rituals in hinduism origin and history",
+        "temple rituals in hinduism practices",
+        "temple rituals in hinduism scriptural references",
+        "temple rituals in hinduism significance",
+        "temple rituals in hinduism symbolism",
+        "vedic rituals"
+      ],
+      "ogimage": "/og/practices-rituals.png",
+      "url": "https://sanatanadharmam.in/practices/rituals"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "组织",
+        "contactpoint": {
+          "@type": "联络点",
+          "areaserved": "全世界",
+          "availablelanguage": [
+            "巴黎",
+            "德语",
+            "英语",
+            "西班牙语",
+            "法国人",
+            "हिन्दी",
+            "日本语",
+            "नेपाली",
+            "荷兰",
+            "葡萄牙语",
+            "俄罗斯",
+            "తెలుగు",
+            "阿鲁多",
+            "中文 (简体)"
+          ],
+          "contacttype": "客户支持",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "关于 Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "definition": "Sanātana Dharma 中的仪式和实践是为了维持与宇宙秩序的和谐并表达奉献精神而进行的精神和文化活动。",
+    "key_scriptural_references": [
+      {
+        "quote_summary": "仪式维持着宇宙的秩序与和谐。",
+        "text": "梨俱吠陀"
+      },
+      {
+        "quote_summary": "执行行动作为对神圣的奉献。",
+        "text": "薄伽梵歌"
+      }
+    ],
+    "modern_relevance": {
+      "community": "节日加强了社会联系。",
+      "mindfulness": "日常仪式促进精神平静和纪律。",
+      "spirituality": "将个人与更高的意识联系起来。"
+    },
+    "origin": {
+      "purpose": "将个人与神圣联系起来并维护佛法。",
+      "roots": "吠陀传统",
+      "texts": [
+        "吠陀经",
+        "斯姆里蒂斯",
+        "往世书"
+      ]
+    },
+    "types_of_rituals": {
+      "daily_practices": [
+        "Sandhyavandanam（早祷和晚祷）",
+        "Japa（念诵咒语）",
+        "冥想（禅定）",
+        "在家里的祭坛上点一盏灯（Deepa）"
+      ],
+      "festivals_and_observances": [
+        "排灯节（排灯节）",
+        "Navaratri（女性神圣崇拜）",
+        "Janmashtami（克里希纳的诞生）",
+        "Maha Shivaratri（湿婆之夜）"
+      ],
+      "life_stage_rituals": [
+        "Namakarana（命名仪式）",
+        "Upanayana（圣线仪式）",
+        "维瓦哈（婚姻）",
+        "Antyeshti（葬礼）"
+      ],
+      "temple_rituals": {
+        "common_rituals": [
+          "Archana – 念诵神的名字并供奉鲜花。",
+          "Abhishekam——用水、牛奶、蜂蜜和酥油为神灵沐浴的仪式。",
+          "阿尔蒂（Aarti）——伴随着虔诚的歌曲在神面前挥舞灯。",
+          "Naivedyam – 向神提供食物，后来被称为 Prasadam。",
+          "达显（Darshan）——怀着崇敬和虔诚的心情观看神灵。",
+          "Homa – 在寺庙场所举行的火仪式，以净化和祝福。"
+        ],
+        "regional_variations": {
+          "east_india": [
+            "杜尔迦女神崇拜仪式——用艺术偶像精心崇拜杜尔迦女神。",
+            "Chandi Path——九夜节期间背诵 Devi Mahatmya。",
+            "Sandhi Puja – 阿什塔米和纳瓦米过渡期间的特别供奉。"
+          ],
+          "north_india": [
+            "Bhajan 和 Kirtan – 在寺庙大厅里进行虔诚的歌唱。",
+            "Jalabhishek – 向 Shiva Lingam 提供水，特别是在 Shravan 月期间。",
+            "Rath Yatra – 重大节日期间神灵的战车游行。"
+          ],
+          "south_india": [
+            "Panchamrita Abhishekam – 用五种神圣物质（牛奶、凝乳、酥油、蜂蜜、糖）沐浴神灵。",
+            "Vahana Seva – 节日期间，神在不同的坐骑上游行。",
+            "Deepa Aradhana – 在米纳克希 (Meenakshi) 和蒂鲁帕蒂 (Tirupati) 等寺庙中进行精心的灯崇拜。"
+          ],
+          "west_india": [
+            "Garba 和 Dandiya – 古吉拉特邦九夜节期间的舞蹈仪式。",
+            "图尔西维瓦 (Tulsi Vivah) – 图尔西植物与毗湿奴勋爵的象征婚姻。",
+            "Abhanga 歌唱——马哈拉施特拉邦瓦卡里传统的虔诚歌曲。"
+          ]
+        },
+        "symbolism": [
+          "Abhishekam 意味着净化和臣服。",
+          "阿尔蒂代表着消除黑暗和迎接神圣之光。",
+          "Prasadam 象征着神的恩典和祝福。"
+        ]
+      }
+    }
+  }
+}

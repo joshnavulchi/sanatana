@@ -1,0 +1,858 @@
+{
+  "temples_in_india": {
+    "meta": {
+      "title": "Los templos más antiguos de la India: fechas, arquitectura, construcción y cronologías",
+      "canonical": "https://sanatanadharmam.in/temples-in-india",
+      "description": "Templos antiguos y medievales históricamente verificados en la India con notas sobre cómo se construyeron, estilos arquitectónicos, contexto dinástico y cronología de eventos.",
+      "keywords": [
+        "Adi Kumbeswarar Kumbakonam",
+        "Ancient Hindu Temples",
+        "Ancient Indian architecture",
+        "Archaeological studies of temples",
+        "Ashlar masonry",
+        "Brihadeeswarar Temple Thanjavur",
+        "Chennakesava Temple Belur",
+        "Comparative temple studies",
+        "Construction Methods",
+        "Cultural significance of temples",
+        "Dashavatara Temple",
+        "Durga Temple Aihole",
+        "Dynastic Associations",
+        "Hindu temple history",
+        "Historical Timelines",
+        "Historical sources on temples",
+        "Iconography and temple sculpture",
+        "Indian temple construction",
+        "Inscriptions and temple history",
+        "Jagannath Temple Puri",
+        "Kailasa Ellora",
+        "Kailasanathar Temple",
+        "Konark Sun Temple",
+        "Lingaraja Temple Bhubaneswar",
+        "Medieval Hindu Temples",
+        "Medieval Indian architecture",
+        "Modhera Sun Temple",
+        "Monolithic temples",
+        "Mukteshwara Temple Bhubaneswar",
+        "Mundeshwari Temple",
+        "Oldest Temples in India",
+        "Palaeographic dating",
+        "Pancha Rathas",
+        "Religious practices and temples",
+        "Rock-cut temples",
+        "Shore Temple",
+        "Structural stone temples",
+        "Temple Architecture",
+        "Temple architecture and community bonds",
+        "Temple architecture and cosmology",
+        "Temple architecture and cultural identity",
+        "Temple architecture and ethical decision-making",
+        "Temple architecture and religious beliefs",
+        "Temple architecture and social structure",
+        "Temple architecture and spiritual reflection",
+        "Temple architecture evolution",
+        "Temple architecture styles",
+        "Temple art and aesthetics",
+        "Temple conservation and restoration",
+        "Temple dynasties",
+        "Temple engineering and construction techniques",
+        "Temple festivals and rituals",
+        "Temple legends and folklore",
+        "Temple patronage and politics",
+        "Temple rituals and ceremonies",
+        "Temple symbolism and meaning",
+        "Temple timelines",
+        "Temple tourism in India",
+        "UNESCO World Heritage temples",
+        "Vaikuntha Perumal Kanchipuram",
+        "Virupaksha Temple Pattadakal"
+      ],
+      "ogimage": "images/og/home.png",
+      "url": "https://sanatanadharmam.in/temples-in-india"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organización",
+        "contactpoint": {
+          "@type": "Punto de contacto",
+          "areaserved": "En todo el mundo",
+          "availablelanguage": [
+            "العربية",
+            "alemán",
+            "ingles",
+            "Español",
+            "francés",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Países Bajos",
+            "portugués",
+            "ruso",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Atención al cliente",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Acerca de Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "dynasty_timeline": [
+      {
+        "architectural_contributions": [
+          "Planificación clásica: santuario cuadrado + śikhara temprano",
+          "Paneles narrativos en relieve; iconografía refinada"
+        ],
+        "name": "Gupta",
+        "notes": "A menudo citado como el giro \"clásico\" de la arquitectura de los templos hindúes.",
+        "period": "c. 320–550 d.C.",
+        "regions": [
+          "India central-norte"
+        ],
+        "representative_temples": [
+          "dashavatara-deogarh"
+        ],
+        "sources": [
+          "https://hindu.mythologyworldwide.com/the-evolution-of-hindu-temple-architecture-through-the-ages/"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "Mezcla experimental Vesara de Dravida + Nagara",
+          "Planta absidal y estrellada; programas de ayuda pesados"
+        ],
+        "name": "Chalukya occidental temprano (Badami)",
+        "period": "Siglos VI-VIII. CE",
+        "regions": [
+          "Valle de Malaprabha, Karnataka"
+        ],
+        "representative_temples": [
+          "durga-aihole",
+          "virupaksha-pattadakal"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Durga_temple,_Aihole",
+          "https://en.wikipedia.org/wiki/Pattadakal"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "Cambio de piedra tallada a piedra estructural",
+          "Prototipos monolíticos (rathas) y primeras vimanas dravídicas"
+        ],
+        "name": "Pallavá",
+        "period": "Siglos VII-VIII. CE",
+        "regions": [
+          "Tamil Nadu (Kanchipuram-Mahabalipuram)"
+        ],
+        "representative_temples": [
+          "pancha-rathas",
+          "templo costero",
+          "kailasanathar-kanchi"
+        ],
+        "sources": [
+          "https://hindusanatanvahini.com/es/antiguos-templos-hindu-de-la-india/",
+          "https://en.wikipedia.org/wiki/Tiru_parameswara_vinnagaram"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "Máxima ingeniería monolítica excavada en roca",
+          "Complejidad iconográfica a gran escala"
+        ],
+        "name": "Rashtrakuta",
+        "period": "Siglos VIII-IX. CE",
+        "regions": [
+          "Decán (Maharashtra)"
+        ],
+        "representative_temples": [
+          "kailasa-ellora"
+        ],
+        "sources": [
+          "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "Gigantismo estructural de granito; vimanas altísimas",
+          "Simetría axial; extensas inscripciones"
+        ],
+        "name": "chola",
+        "period": "Siglos X-XI. CE",
+        "regions": [
+          "Tamil Nadu (delta del Cauvery)"
+        ],
+        "representative_temples": [
+          "brihadeeswarar-thanjavur"
+        ],
+        "sources": [
+          "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "Exteriores intrincadamente tallados; asamblea+santuario+conjuntos kund"
+        ],
+        "name": "Chaulukya/Solanki (Maru‑Gurjara)",
+        "period": "Siglo XI. CE",
+        "regions": [
+          "Guyarat"
+        ],
+        "representative_temples": [
+          "modhera-templo-del-sol"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Sun_Temple,_Modhera"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "Forma madura de Kalinga (Deula); experimentos torana",
+          "Templo monumental en forma de carro (Konark)"
+        ],
+        "name": "Somavamshi y Ganges Oriental",
+        "period": "Siglos X-XIII. CE",
+        "regions": [
+          "Odisha"
+        ],
+        "representative_temples": [
+          "mukteshwara-bhubaneswar",
+          "lingaraja-bhubaneswar",
+          "jagannath-puri",
+          "templo-del-sol-konarak"
+        ],
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mukteshvara_Temple,_Bhubaneswar",
+          "https://en.wikipedia.org/wiki/Lingaraja_Temple",
+          "https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri",
+          "https://en.wikipedia.org/wiki/Konark_Sun_Temple"
+        ]
+      },
+      {
+        "architectural_contributions": [
+          "esteatita; planos estrellados; pilares torneados; frisos narrativos"
+        ],
+        "name": "Hoysala",
+        "period": "Siglos XI-XII. CE",
+        "regions": [
+          "karnataka"
+        ],
+        "representative_temples": [
+          "chennakesava-belur"
+        ],
+        "sources": [
+          "https://www.oldest.org/structures/oldest-temples-in-india/"
+        ]
+      }
+    ],
+    "temples": [
+      {
+        "architecture_style": "Nagara temprana (santuario octogonal)",
+        "build_type": "Piedra estructural",
+        "construction_method": "Mampostería de piedra labrada en planta octogonal.",
+        "dynasty_association": [
+          "Kushana temprano/histórico temprano (por datación por inscripción)"
+        ],
+        "end_year_ce": 200,
+        "estimated_date": "Siglos I-II d.C.",
+        "how_it_was_built": "Santuario octogonal con bloques de piedra labrada; primeros prototipos de śikhara.",
+        "id": "mundeshwari-bihar",
+        "location": "Kaimur",
+        "materials": [
+          "piedra"
+        ],
+        "name": "Templo Mundeshwari Devi",
+        "slug": "mundeshwari-bihar",
+        "sources": [
+          "https://oldest.info/templos-más-antiguos-de-la-india/",
+          "https://hindusanatanvahini.com/es/antiguos-templos-hindu-de-la-india/"
+        ],
+        "start_year_ce": 100,
+        "state": "Bihar",
+        "timeline": {
+          "events": [
+            {
+              "label": "Establecimiento certificado",
+              "sources": [
+                "https://oldest.info/templos-más-antiguos-de-la-india/",
+                "https://hindusanatanvahini.com/es/antiguos-templos-hindu-de-la-india/"
+              ],
+              "start": "1º-2º s. CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "gupta clasico",
+        "build_type": "Piedra estructural",
+        "construction_method": "Mampostería de sillería; paneles narrativos esculpidos.",
+        "dynasty_association": [
+          "Gupta"
+        ],
+        "end_year_ce": 550,
+        "estimated_date": "c. 500–550 d.C.",
+        "how_it_was_built": "Santuario cuadrado con śikhara temprano; Relieves de los avatares de Vishnu.",
+        "id": "dashavatara-deogarh",
+        "location": "Deogarh",
+        "materials": [
+          "arenisca"
+        ],
+        "name": "Templo Dashavatara",
+        "slug": "dashavatara-deogarh",
+        "sources": [
+          "https://hindu.mythologyworldwide.com/the-evolution-of-hindu-temple-architecture-through-the-ages/"
+        ],
+        "start_year_ce": 500,
+        "state": "Uttar Pradesh",
+        "timeline": {
+          "events": [
+            {
+              "label": "Construcción",
+              "sources": [
+                "https://hindu.mythologyworldwide.com/the-evolution-of-hindu-temple-architecture-through-the-ages/"
+              ],
+              "start": 500
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Pallava monolítico, primeras formas dravídicas",
+        "build_type": "Monolítico excavado en la roca",
+        "construction_method": "Tallados en afloramientos individuales de granito como prototipos de santuarios.",
+        "dynasty_association": [
+          "Pallavá"
+        ],
+        "end_year_ce": 700,
+        "estimated_date": "Siglo VII d.C. (c. 630–668 d.C.; algunos eruditos lo sitúan más tarde)",
+        "how_it_was_built": "Monolitos cincelados in situ; Prototipos inacabados y no consagrados.",
+        "id": "pancha-rathas",
+        "location": "Mahabalipuram",
+        "materials": [
+          "granito"
+        ],
+        "name": "Pancha Rathas (Cinco Rathas)",
+        "slug": "pancha-rathas",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Pancha_Rathas"
+        ],
+        "start_year_ce": 630,
+        "state": "Tamil Nadu",
+        "timeline": {
+          "events": [
+            {
+              "label": "Tallando bajo Pallavas",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Pancha_Rathas"
+              ],
+              "start": "Siglo VII CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Dravidiano temprano (Pallava)",
+        "build_type": "Piedra estructural",
+        "construction_method": "Bloques de granito revestidos; Ingeniería costera para resistir los vientos.",
+        "dynasty_association": [
+          "Pallava (Narasimhavarman II)"
+        ],
+        "end_year_ce": 728,
+        "estimated_date": "c. 700–728 d.C.",
+        "how_it_was_built": "Mampostería de granito con superestructura piramidal (vimana).",
+        "id": "templo costero",
+        "location": "Mahabalipuram",
+        "materials": [
+          "granito"
+        ],
+        "name": "Templo de la orilla",
+        "slug": "templo costero",
+        "sources": [
+          "https://hindusanatanvahini.com/es/antiguos-templos-hindu-de-la-india/"
+        ],
+        "start_year_ce": 700,
+        "state": "Tamil Nadu",
+        "timeline": {
+          "events": [
+            {
+              "label": "Construcción durante el cenit de Pallava",
+              "sources": [
+                "https://hindusanatanvahini.com/es/antiguos-templos-hindu-de-la-india/"
+              ],
+              "start": "Siglos VII-VIII. CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Pallava Dravidian (estructural temprano)",
+        "build_type": "Piedra estructural",
+        "construction_method": "Bloques de arenisca; Recinto con sub-santuarios.",
+        "dynasty_association": [
+          "Pallava (Narasimhavarman II)"
+        ],
+        "end_year_ce": 728,
+        "estimated_date": "c. 700–728 d.C.",
+        "how_it_was_built": "Vimana dravídica estructural temprana; 58 santuarios menores alrededor del núcleo.",
+        "id": "kailasanathar-kanchi",
+        "location": "Kanchipuram",
+        "materials": [
+          "arenisca"
+        ],
+        "name": "Templo Kailasanathar",
+        "slug": "kailasanathar-kanchi",
+        "sources": [
+          "https://hindusanatanvahini.com/es/antiguos-templos-hindu-de-la-india/"
+        ],
+        "start_year_ce": 700,
+        "state": "Tamil Nadu",
+        "timeline": {
+          "events": [
+            {
+              "label": "construcción pallavá",
+              "sources": [
+                "https://hindusanatanvahini.com/es/antiguos-templos-hindu-de-la-india/"
+              ],
+              "start": "principios del siglo VIII. CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Chalukya temprano (mezcla de Vesara)",
+        "build_type": "Piedra estructural",
+        "construction_method": "Planta absidal; paneles en relieve ornamentados; columnata circunvaladora.",
+        "dynasty_association": [
+          "Chalukya occidental temprano"
+        ],
+        "end_year_ce": 725,
+        "estimated_date": "finales del siglo VII - principios del siglo VIII d.C.",
+        "how_it_was_built": "Plano absidal (gajaprishtha) ejecutado en piedra arenisca; Afiliación a Surya.",
+        "id": "durga-aihole",
+        "location": "Agujero",
+        "materials": [
+          "arenisca"
+        ],
+        "name": "Templo Durga",
+        "slug": "durga-aihole",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Durga_temple,_Aihole"
+        ],
+        "start_year_ce": 690,
+        "state": "karnataka",
+        "timeline": {
+          "events": [
+            {
+              "label": "Datado por motivos paleográficos",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Durga_temple,_Aihole"
+              ],
+              "start": "c. 700 d.C."
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Dravidiano con elementos Nagara (síntesis de Pattadakal)",
+        "build_type": "Piedra estructural",
+        "construction_method": "Zócalo alto; mandapas axiales; frisos en relieve de epopeyas.",
+        "dynasty_association": [
+          "Chalukya occidental temprano (Vikramaditya II)"
+        ],
+        "end_year_ce": 745,
+        "estimated_date": "c. 740–745 d.C.",
+        "how_it_was_built": "la comisión de la reina Lokamahadevi; sofisticado programa escultórico.",
+        "id": "virupaksha-pattadakal",
+        "location": "Pattadakal",
+        "materials": [
+          "arenisca"
+        ],
+        "name": "Templo Virupaksha",
+        "slug": "virupaksha-pattadakal",
+        "sources": [
+          "https://prepp.in/news/e-492-virupaksha-temple-pattadakkal-temples-ancient-india-history-notes",
+          "https://mapacademy.io/article/sculpture-at-virupaksha-temple-pattadakal/"
+        ],
+        "start_year_ce": 740,
+        "state": "karnataka",
+        "timeline": {
+          "events": [
+            {
+              "label": "Construcción conmemorativa",
+              "sources": [
+                "https://prepp.in/news/e-492-virupaksha-temple-pattadakkal-temples-ancient-india-history-notes",
+                "https://en.wikipedia.org/wiki/Pattadakal"
+              ],
+              "start": 745
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Rashtrakuta Dravidian (cortado en roca)",
+        "build_type": "Monolítico excavado en roca (excavación de arriba hacia abajo)",
+        "construction_method": "Excavación monolítica; Formas independientes talladas en un acantilado.",
+        "dynasty_association": [
+          "Rashtrakuta (Krishna I)"
+        ],
+        "end_year_ce": 773,
+        "estimated_date": "c. 756–773 d.C.",
+        "how_it_was_built": "Excavación monomasa que produce un complejo independiente.",
+        "id": "kailasa-ellora",
+        "location": "elora",
+        "materials": [
+          "basalto"
+        ],
+        "name": "Templo Kailasa (Cueva 16)",
+        "slug": "kailasa-ellora",
+        "sources": [
+          "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+        ],
+        "start_year_ce": 756,
+        "state": "Maharastra",
+        "timeline": {
+          "events": [
+            {
+              "label": "Tallando bajo Krishna I",
+              "sources": [
+                "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+              ],
+              "start": "siglo VIII CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Chola Dravídica",
+        "build_type": "Piedra estructural",
+        "construction_method": "Sillar de granito de gran formato; vimana altísima.",
+        "dynasty_association": [
+          "Chola (Rajaraja I)"
+        ],
+        "end_year_ce": 1010,
+        "estimated_date": "1003-1010 d.C.",
+        "how_it_was_built": "Programa masivo de granito; Disposición axial precisa e inscripciones.",
+        "id": "brihadeeswarar-thanjavur",
+        "location": "Thanjavur",
+        "materials": [
+          "granito"
+        ],
+        "name": "Templo Brihadeeswarar (Peruvudaiyar)",
+        "slug": "brihadeeswarar-thanjavur",
+        "sources": [
+          "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+        ],
+        "start_year_ce": 1003,
+        "state": "Tamil Nadu",
+        "timeline": {
+          "events": [
+            {
+              "label": "Consagración",
+              "sources": [
+                "https://www.learnreligions.com/history-of-hindu-temples-1770625"
+              ],
+              "start": 1010
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Maru‑Gurjara (Chaulukya/Solanki)",
+        "build_type": "Conjunto estructural de piedra",
+        "construction_method": "Gudhamandapa + Sabhamandapa + Surya-kund escalonado alineados en el eje E-W.",
+        "dynasty_association": [
+          "Chaulukya/Solanki (Bhima I)"
+        ],
+        "end_year_ce": 1030,
+        "estimated_date": "después de 1026-27 d.C.",
+        "how_it_was_built": "Exteriores muy tallados; depósito escalonado con santuarios.",
+        "id": "modhera-templo-del-sol",
+        "location": "Modhera, Mehsana",
+        "materials": [
+          "arenisca"
+        ],
+        "name": "Templo del Sol, Modhera",
+        "slug": "modhera-templo-del-sol",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Sun_Temple,_Modhera",
+          "https://inditales.com/architecture-of-sun-temple-modhera/",
+          "https://whc.unesco.org/en/tentativelists/6627/"
+        ],
+        "start_year_ce": 1026,
+        "state": "Guyarat",
+        "timeline": {
+          "events": [
+            {
+              "label": "Marcador de inscripción; santuario reconstruido / construido bajo Bhima I",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Sun_Temple,_Modhera",
+                "https://whc.unesco.org/en/tentativelists/6627/"
+              ],
+              "start": 1026
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Kalinga temprano (período Somavamshi)",
+        "build_type": "Piedra estructural",
+        "construction_method": "Rekha deula sanctum + jagamohana piramidal; Torana icónica independiente.",
+        "dynasty_association": [
+          "somavamshi"
+        ],
+        "end_year_ce": 975,
+        "estimated_date": "950–975 d.C.",
+        "how_it_was_built": "Modismo transicional de Odishan; experimentación que anticipa el Lingaraja.",
+        "id": "mukteshwara-bhubaneswar",
+        "location": "Casco antiguo, Bhubaneswar",
+        "materials": [
+          "arenisca",
+          "laterita"
+        ],
+        "name": "Templo Mukteshwara",
+        "slug": "mukteshwara-bhubaneswar",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mukteshvara_Temple,_Bhubaneswar"
+        ],
+        "start_year_ce": 950,
+        "state": "Odisha",
+        "timeline": {
+          "events": [
+            {
+              "label": "Ventana de construcción probable",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Mukteshvara_Temple,_Bhubaneswar"
+              ],
+              "start": 966
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Kalinga madura",
+        "build_type": "Complejo de piedra estructural",
+        "construction_method": "Cuarteto estilo Deula: vimana, jagamohana, nata‑mandira, bhoga‑mandapa.",
+        "dynasty_association": [
+          "somavamshi",
+          "Ganges Oriental"
+        ],
+        "end_year_ce": 1100,
+        "estimated_date": "Siglo XI d.C.",
+        "how_it_was_built": "Culminación del estilo medieval de Bhubaneswar; Torre curvilínea de 180 pies.",
+        "id": "lingaraja-bhubaneswar",
+        "location": "Ekamra Kshetra, Bhubaneswar",
+        "materials": [
+          "arenisca",
+          "laterita"
+        ],
+        "name": "Templo Lingaraja",
+        "slug": "lingaraja-bhubaneswar",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Lingaraja_Temple",
+          "https://vajiramandravi.com/upsc-exam/lingaraja-temple/"
+        ],
+        "start_year_ce": 1000,
+        "state": "Odisha",
+        "timeline": {
+          "events": [
+            {
+              "label": "Construcción principal (Somavamshi), adiciones posteriores al Ganges",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Lingaraja_Temple"
+              ],
+              "start": "Siglo XI. CE"
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Kalinga (Odisha Nagara)",
+        "build_type": "Complejo de piedra estructural",
+        "construction_method": "Kalinga rekha deula con un vasto recinto; Iconos de madera renovados periódicamente.",
+        "dynasty_association": [
+          "Ganges Oriental (Anantavarman Chodaganga)"
+        ],
+        "end_year_ce": 1200,
+        "estimated_date": "Siglo XII d.C. (c. 1161 d.C.)",
+        "how_it_was_built": "Enorme recinto y torre rekha deula; sistema ritual viviente (Ratha Yatra).",
+        "id": "jagannath-puri",
+        "location": "puri",
+        "materials": [
+          "piedra (templo)",
+          "madera de neem (ídolos)"
+        ],
+        "name": "Templo de Jagannath",
+        "slug": "jagannath-puri",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri"
+        ],
+        "start_year_ce": 1100,
+        "state": "Odisha",
+        "timeline": {
+          "events": [
+            {
+              "label": "Reconstrucción/expansión bajo el Ganges Oriental",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri"
+              ],
+              "start": 1161
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Kalinga altomedieval",
+        "build_type": "Piedra estructural (parcialmente arruinada)",
+        "construction_method": "Plano en forma de carro con 24 ruedas; Programa escultórico monumental.",
+        "dynasty_association": [
+          "Ganges Oriental (Narasimhadeva I)"
+        ],
+        "end_year_ce": 1260,
+        "estimated_date": "c. 1250 dC",
+        "how_it_was_built": "Carro solar simbólico; ingeniería avanzada; ahora sitio de la UNESCO.",
+        "id": "templo-del-sol-konarak",
+        "location": "Konarak, distrito de Puri",
+        "materials": [
+          "piedra khondalita"
+        ],
+        "name": "Templo del Sol de Konarak",
+        "slug": "templo-del-sol-konarak",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Konark_Sun_Temple",
+          "https://www.worldhistory.org/Konarak_Sun_Temple/"
+        ],
+        "start_year_ce": 1240,
+        "state": "Odisha",
+        "timeline": {
+          "events": [
+            {
+              "label": "Construcción bajo Narasimhadeva I",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Konark_Sun_Temple"
+              ],
+              "start": 1250
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Hoysala",
+        "build_type": "Piedra estructural",
+        "construction_method": "Plan estrellado en alto jagati; pilares torneados; profusa escultura.",
+        "dynasty_association": [
+          "Hoysala (Vishnuvardhana)"
+        ],
+        "end_year_ce": 1117,
+        "estimated_date": "1117 d.C.",
+        "how_it_was_built": "La esteatita blanda permitió microdetalles; frisos narrativos y gama iconográfica.",
+        "id": "chennakesava-belur",
+        "location": "Belur",
+        "materials": [
+          "esquisto clorítico (esteatita)"
+        ],
+        "name": "Templo Chennakesava",
+        "slug": "chennakesava-belur",
+        "sources": [
+          "https://www.oldest.org/structures/oldest-temples-in-india/"
+        ],
+        "start_year_ce": 1117,
+        "state": "karnataka",
+        "timeline": {
+          "events": [
+            {
+              "label": "Inauguración por Vishnuvardhana",
+              "sources": [
+                "https://www.oldest.org/structures/oldest-temples-in-india/"
+              ],
+              "start": 1117
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "Pallava Dravidiano",
+        "build_type": "Piedra estructural",
+        "construction_method": "Santuarios de tres niveles (Vishnu de pie/recostado/sentado); pilares con base de leones.",
+        "dynasty_association": [
+          "Pallava (Nandivarmán II)"
+        ],
+        "end_year_ce": 780,
+        "estimated_date": "finales del siglo VIII d.C.",
+        "how_it_was_built": "Templo estructural compacto con ciclos de relieve históricos en las paredes de prakara.",
+        "id": "vaikuntha-perumal-kanchi",
+        "location": "Kanchipuram",
+        "materials": [
+          "arenisca"
+        ],
+        "name": "Vaikuntha Perumal (Tiru Parameswara Vinnagaram)",
+        "slug": "vaikuntha-perumal-kanchi",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Tiru_parameswara_vinnagaram",
+          "https://www.worldhistory.org/article/1336/on-the-pallava-trail-in-kanchipuram/"
+        ],
+        "start_year_ce": 770,
+        "state": "Tamil Nadu",
+        "timeline": {
+          "events": [
+            {
+              "label": "Construcción bajo Nandivarman II",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Tiru_parameswara_vinnagaram"
+              ],
+              "start": 775
+            }
+          ]
+        }
+      },
+      {
+        "architecture_style": "núcleo de chola; adiciones posteriores de Vijayanagara / Nayak",
+        "build_type": "Complejo de piedra estructural",
+        "construction_method": "Plan dravídico con alto gopuram oriental; Mandapas Vijayanagara/Nayak.",
+        "dynasty_association": [
+          "chola",
+          "Vijayanagara",
+          "Nayak"
+        ],
+        "end_year_ce": 900,
+        "estimated_date": "Siglo IX d.C. (núcleo), ampliaciones posteriores del siglo XVI.",
+        "how_it_was_built": "La mampostería del período Chola se amplió con el icónico mandapa tallado en forma del zodíaco.",
+        "id": "adi-kumbeswarar-kumbakonam",
+        "location": "kumbakonam",
+        "materials": [
+          "granito",
+          "arenisca"
+        ],
+        "name": "Templo de Adi Kumbeswarar",
+        "slug": "adi-kumbeswarar-kumbakonam",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Adi_Kumbeswarar_Temple,_Kumbakonam"
+        ],
+        "start_year_ce": 850,
+        "state": "Tamil Nadu",
+        "timeline": {
+          "events": [
+            {
+              "label": "fase chola",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Adi_Kumbeswarar_Temple,_Kumbakonam"
+              ],
+              "start": 900
+            },
+            {
+              "label": "Ampliaciones de Vijayanagara/Nayak",
+              "sources": [
+                "https://en.wikipedia.org/wiki/Adi_Kumbeswarar_Temple,_Kumbakonam"
+              ],
+              "start": 1500
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

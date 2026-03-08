@@ -1,0 +1,164 @@
+{
+  "contact": {
+    "title": "Contáctenos",
+    "meta": {
+      "title": "Contáctanos — Sanātana Dharma",
+      "canonical": "https://sanatanadharmam.in/contact",
+      "description": "Póngase en contacto con Sanatanadharmam.in para consultas, colaboraciones u orientación espiritual. Comuníquese con nosotros por correo electrónico, teléfono o formulario de contacto.",
+      "keywords": [
+        "Sanatana Dharma collaboration proposals",
+        "Sanatana Dharma communication",
+        "Sanatana Dharma community engagement",
+        "Sanatana Dharma contact information",
+        "Sanatana Dharma content suggestions",
+        "Sanatana Dharma editorial feedback",
+        "Sanatana Dharma general questions",
+        "Sanatana Dharma outreach",
+        "Sanatana Dharma project inquiries",
+        "Sanatana Dharma spiritual questions",
+        "Sanatana Dharma support",
+        "Sanatana Dharma text corrections",
+        "Sanatana Dharma translation suggestions",
+        "Sanatana Dharma volunteer coordination",
+        "Sanatana Dharma website contact",
+        "collaborations",
+        "contact Sanatanadharmam.in",
+        "contact form",
+        "email",
+        "feedback",
+        "general questions",
+        "inquiries",
+        "phone",
+        "spiritual guidance",
+        "text corrections",
+        "translation suggestions",
+        "volunteer opportunities"
+      ],
+      "ogimage": "/og/contact.png",
+      "robots": "indexar, seguir",
+      "url": "https://sanatanadharmam.in/contact"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organización",
+        "contactpoint": {
+          "@type": "Punto de contacto",
+          "areaserved": "Mundial",
+          "availablelanguage": [
+            "العربية",
+            "alemán",
+            "Inglés",
+            "Español",
+            "francés",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Países Bajos",
+            "portugués",
+            "ruso",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Atención al cliente",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Acerca de Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "faq": {
+      "heading": "Preguntas frecuentes",
+      "items": [
+        {
+          "a": "Incluya la URL, el pasaje exacto (cite la línea o el versículo) y una referencia o escaneo de la edición fuente, si es posible. Verificaremos y, si es necesario, publicaremos una nota de fe de erratas que describa la corrección.",
+          "q": "Encontré un error en un texto, ¿qué debo hacer?"
+        },
+        {
+          "a": "Sí. Enviar los datos bibliográficos y los permisos pertinentes. Damos prioridad a los textos que son de dominio público o están disponibles con permisos claros, y podemos coordinarnos con los contribuyentes para su digitalización.",
+          "q": "¿Puedo solicitar que se agregue un nuevo texto o capítulo?"
+        },
+        {
+          "a": "Envía tu CV o una breve nota describiendo tus habilidades y disponibilidad. Haremos un seguimiento si encontramos una buena combinación para las necesidades actuales.",
+          "q": "¿Cómo me involucro como voluntario?"
+        }
+      ]
+    },
+    "sections": [
+      {
+        "content": "Sanatanadharmam.in se dedica a difundir el conocimiento auténtico de Sanatana Dharma. Si tiene preguntas, comentarios o ideas de colaboración, agradecemos su mensaje.",
+        "id": "introducción",
+        "type": "texto"
+      },
+      {
+        "columns": [
+          {
+            "title": "📧 Correo electrónico",
+            "content": "vulchi.vijay@gmail.com"
+          },
+          {
+            "title": "📞 Teléfono",
+            "content": "+91-8099181075"
+          },
+          {
+            "title": "📍 Dirección",
+            "content": "Tirupati, Andhra Pradesh, India"
+          }
+        ],
+        "id": "introducción",
+        "type": "texto"
+      },
+      {
+        "fields": [
+          {
+            "name": "nombre",
+            "placeholder": "Su nombre",
+            "required": true,
+            "type": "texto"
+          },
+          {
+            "name": "correo electrónico",
+            "placeholder": "Tu correo electrónico",
+            "required": true,
+            "type": "correo electrónico"
+          },
+          {
+            "name": "sujeto",
+            "placeholder": "Sujeto",
+            "required": false,
+            "type": "texto"
+          },
+          {
+            "name": "mensaje",
+            "placeholder": "Tu mensaje",
+            "required": true,
+            "type": "área de texto"
+          }
+        ],
+        "id": "introducción",
+        "submitbutton": {
+          "action": "/api/contact/submit",
+          "label": "Enviar mensaje"
+        },
+        "type": "texto"
+      },
+      {
+        "content": "Sanatanadharmam.in se dedica a difundir el conocimiento auténtico de Sanatana Dharma. Si tiene preguntas, comentarios o ideas de colaboración, agradecemos su mensaje.",
+        "id": "introducción",
+        "type": "texto"
+      }
+    ],
+    "subtitle": "Nos encantaría saber de usted",
+    "volunteer": {
+      "guidance": "Damos la bienvenida a voluntarios que puedan ayudar con la revisión, la composición tipográfica, las traducciones, la grabación de audio, el desarrollo web y la moderación de la comunidad. Describa sus habilidades, disponibilidad y cualquier muestra relevante de trabajos anteriores. Las presentaciones se revisan y, si se aceptan, se coordinan a través de un modesto proceso de incorporación para que los voluntarios comprendan los estándares editoriales y el código de conducta del proyecto.",
+      "heading": "Pautas de voluntariado y contribución"
+    },
+    "whattoinclude": {
+      "guidance": "Para ayudarnos a responder de manera eficiente, incluya: una línea de asunto clara, la página o URL a la que se refiere (si corresponde), una descripción concisa del problema o solicitud y su método de contacto preferido. Para correcciones de textos, indique la línea o verso exacto y, si es posible, proporcione una fuente confiable o referencia de edición. Para sugerencias de traducción, incluya tanto la redacción sugerida como un breve razonamiento para el cambio.",
+      "heading": "Qué incluir en tu mensaje"
+    }
+  }
+}

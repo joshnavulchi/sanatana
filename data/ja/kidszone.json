@@ -1,0 +1,68 @@
+{
+  "kidszone": {
+    "meta": {
+      "title": "キッズゾーン |概要 — Sanātana Dharma - Sanātana Dharma を探索する",
+      "canonical": "https://sanatanadharmam.in/kidszone",
+      "description": "KidsZone — Easymantras — Sanātana Dharma - Sanātana Dharma の探索 — KidsZone に関する記事、翻訳、簡潔な解説。実践、歴史、指針を探ります...",
+      "keywords": [
+        "easymantras",
+        "hindu mantras for children",
+        "hindu mantras for kids online",
+        "hindu mantras for kids with audio",
+        "hindu mantras for kids with meaning",
+        "hindu mantras for kids with translation",
+        "hindu mantras for kids with video",
+        "hinduism for kids",
+        "kids learning hinduism",
+        "kids zone",
+        "kids zone activities",
+        "kids zone educational content",
+        "kids zone learning",
+        "kids zone mantras",
+        "kids zone resources",
+        "mantras for kids",
+        "mantras for kids online",
+        "mantras for kids with audio",
+        "mantras for kids with meaning",
+        "mantras for kids with translation",
+        "mantras for kids with video",
+        "sanatana dharma",
+        "vedic mantras for children"
+      ],
+      "ogimage": "/og/kidszone-easymantras.png",
+      "url": "https://sanatanadharmam.in/kidszone"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "組織",
+        "contactpoint": {
+          "@type": "連絡先",
+          "areaserved": "世界中",
+          "availablelanguage": [
+            "ああ",
+            "ドイツ語",
+            "英語",
+            "スペイン語",
+            "フランセ",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "オランダ",
+            "ポルトガル語",
+            "Русский",
+            "తెలుగు",
+            "ああ",
+            "中文 (简体)"
+          ],
+          "contacttype": "カスタマーサポート",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sanatanadharmam.in について",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
+  }
+}

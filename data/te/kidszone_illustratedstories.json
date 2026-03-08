@@ -1,0 +1,917 @@
+{
+  "kidszone_illustratedstories": {
+    "title": "ఇలస్ట్రేటెడ్ స్టోరీస్",
+    "meta": {
+      "title": "కిడ్స్ జోన్ | ఇలస్ట్రేటెడ్ కథలు — సనాతన ధర్మం - సనాతన ధర్మాన్ని అన్వేషించండి",
+      "canonical": "https://sanatanadharmam.in/kidszone/illustratedstories",
+      "description": "కిడ్స్‌జోన్ — ఇలస్ట్రేటెడ్ స్టోరీస్ — సనాతన ధర్మం - సనాతన ధర్మాన్ని అన్వేషించండి — కథనాలు, అనువాదాలు మరియు కిడ్స్‌జోన్‌లో సంక్షిప్త వ్యాఖ్యానం. అభ్యాసాలు, చరిత్ర మరియు మార్గదర్శకాలను అన్వేషించండి...",
+      "keywords": [
+        "Animal Fables",
+        "Bedtime Stories for Kids",
+        "Children's Stories",
+        "Classic Indian Stories",
+        "Educational Stories",
+        "Folk Tales with Morals",
+        "Illustrated Stories",
+        "Indian Culture for Kids",
+        "Indian Folktales",
+        "Indian Heritage for Children",
+        "Jataka Tales",
+        "KidsZone",
+        "Moral Stories",
+        "Mythological Stories for Kids",
+        "Panchatantra",
+        "Short Stories for Children",
+        "Stories from Indian Tradition",
+        "Stories of Animals with Morals",
+        "Stories of Compassion and Empathy",
+        "Stories of Courage and Bravery",
+        "Stories of Courage and Wisdom",
+        "Stories of Creativity and Imagination",
+        "Stories of Cultural Values and Traditions",
+        "Stories of Everyday Heroes",
+        "Stories of Family and Relationships",
+        "Stories of Festivals and Celebrations",
+        "Stories of Friendship and Kindness",
+        "Stories of Generosity and Sharing",
+        "Stories of Good vs Evil",
+        "Stories of Honesty and Integrity",
+        "Stories of Humility and Gratitude",
+        "Stories of Kindness and Compassion",
+        "Stories of Kings and Queens",
+        "Stories of Mythological Characters",
+        "Stories of Nature and Environment",
+        "Stories of Perseverance and Hard Work",
+        "Stories of Problem-Solving and Critical Thinking",
+        "Stories of Respect and Responsibility",
+        "Stories of Sages and Saints",
+        "Stories of Self-Control and Discipline",
+        "Stories of Teamwork and Cooperation",
+        "Stories of Wisdom and Intelligence",
+        "Stories with Life Lessons"
+      ],
+      "ogimage": "/og/kidszone-illustratedstories.png",
+      "url": "https://sanatanadharmam.in/kidszone/illustratedstories"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "సంస్థ",
+        "contactpoint": {
+          "@type": "కాంటాక్ట్ పాయింట్",
+          "areaserved": "ప్రపంచవ్యాప్తంగా",
+          "availablelanguage": [
+            "العربية",
+            "డ్యూచ్",
+            "ఇంగ్లీష్",
+            "ఎస్పానోల్",
+            "ఫ్రాంకైస్",
+            "హిందీ",
+            "ఎస్",
+            "నేపాలీ",
+            "నెదర్లాండ్స్",
+            "పోర్చుగీస్",
+            "రస్కియ్",
+            "తెలుగు",
+            "అరేడు",
+            "中文 (简体)"
+          ],
+          "contacttype": "కస్టమర్ మద్దతు",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "సనాతనధర్మం.ఇన్ గురించి",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "description": "భారతీయ సంప్రదాయం నుండి సంక్షిప్త ఇలస్ట్రేటెడ్ కథలు మరియు నీతుల యొక్క క్యూరేటెడ్ సేకరణ. దాని సారాంశం మరియు నైతికతను చదవడానికి కథనాన్ని క్లిక్ చేయండి.",
+    "kids_indian_stories": [
+      {
+        "title": "తెలివైన రాబిట్ మరియు లయన్",
+        "characters": [
+          "కుందేలు",
+          "సింహం"
+        ],
+        "id": 1,
+        "imgalt": "The Clever Rabbit and the Lion",
+        "imgsrc": "/images/illustrate/thumbs/1.png",
+        "moral": "బలం కంటే జ్ఞానం బలమైనది.",
+        "origin": "పంచతంత్రం",
+        "summary": "ఒక చిన్న కుందేలు భయంకరమైన సింహాన్ని తన ప్రతిబింబాన్ని చూసిన తర్వాత ఒక బావిలోకి దూకేలా మోసగించడం ద్వారా దానిని అధిగమించింది.",
+        "themes": [
+          "ధైర్యం",
+          "ఇంటెలిజెన్స్"
+        ]
+      },
+      {
+        "title": "ది మంకీ అండ్ ది క్రోకోడైల్",
+        "characters": [
+          "కోతి",
+          "మొసలి"
+        ],
+        "id": 2,
+        "imgalt": "The Monkey and the Crocodile",
+        "imgsrc": "/images/illustrate/thumbs/2.png",
+        "moral": "మనస్సు యొక్క ఉనికి జీవితాలను కాపాడుతుంది.",
+        "origin": "పంచతంత్రం",
+        "summary": "ఒక కోతి తన హృదయాన్ని తినడానికి ప్రయత్నించే మొసలిని మోసగించడం ద్వారా ప్రమాదాన్ని నివారిస్తుంది.",
+        "themes": [
+          "స్నేహం",
+          "మోసం"
+        ]
+      },
+      {
+        "title": "దాహంతో కూడిన కాకి",
+        "characters": [
+          "కాకి"
+        ],
+        "id": 3,
+        "imgalt": "The Thirsty Crow",
+        "imgsrc": "/images/illustrate/thumbs/3.png",
+        "moral": "సంకల్పం ఉన్న చోట ఒక మార్గం ఉంటుంది.",
+        "origin": "భారతీయ జానపద కథ",
+        "summary": "దాహంతో ఉన్న కాకి నీటి మట్టాన్ని పెంచడానికి ఒక కుండలో గులకరాళ్లను పడవేసి దానిని తాగుతుంది.",
+        "themes": [
+          "పట్టుదల",
+          "సృజనాత్మకత"
+        ]
+      },
+      {
+        "title": "మూర్ఖ సింహం మరియు తెలివైన నక్క",
+        "characters": [
+          "సింహం",
+          "ఫాక్స్"
+        ],
+        "id": 4,
+        "imgalt": "The Foolish Lion and the Clever Fox",
+        "imgsrc": "/images/illustrate/thumbs/4.png",
+        "moral": "దురాశ పతనానికి దారి తీస్తుంది.",
+        "origin": "పంచతంత్రం",
+        "summary": "ఒక నక్క సింహాన్ని ఫూల్స్ చేసి నిర్జనమైన గుహలోకి ప్రవేశించింది మరియు సింహం ఎప్పటికీ చిక్కుకుపోతుంది.",
+        "themes": [
+          "దురాశ",
+          "ఇంటెలిజెన్స్"
+        ]
+      },
+      {
+        "title": "మాట్లాడే తాబేలు",
+        "characters": [
+          "తాబేలు",
+          "స్వాన్స్"
+        ],
+        "id": 5,
+        "imgalt": "The Talkative Tortoise",
+        "imgsrc": "/images/illustrate/thumbs/5.png",
+        "moral": "అతిగా మాట్లాడటం వల్ల ఇబ్బందులు తలెత్తుతాయి.",
+        "origin": "పంచతంత్రం",
+        "summary": "రెండు పక్షులు తీసుకువెళుతున్నప్పుడు నోరు తెరిచినందున ఆకాశం నుండి ఒక తాబేలు పడింది.",
+        "themes": [
+          "క్రమశిక్షణ",
+          "హాస్యం"
+        ]
+      },
+      {
+        "title": "తెనాలి రాముడు మరియు దొంగలు",
+        "characters": [
+          "తెనాలి రాముడు",
+          "దొంగలు"
+        ],
+        "id": 6,
+        "imgalt": "Tenali Rama and the Thieves",
+        "imgsrc": "/images/illustrate/thumbs/6.png",
+        "moral": "తెలివైన ఆలోచన మీ ఇంటిని కాపాడుతుంది.",
+        "origin": "తెనాలి రామన్ కథలు",
+        "summary": "తెనాలి రాముడు రాత్రంతా తన బావిలో రాళ్ళు వేస్తూ దానిని శుభ్రం చేస్తున్నట్లు నటిస్తూ దొంగలను మోసగిస్తాడు.",
+        "themes": [
+          "జ్ఞానం",
+          "వ్యూహం"
+        ]
+      },
+      {
+        "title": "బీర్బల్ ఖిచ్డీ కథ",
+        "characters": [
+          "బీర్బల్",
+          "అక్బర్"
+        ],
+        "id": 7,
+        "imgalt": "Birbal’s Khichdi Story",
+        "imgsrc": "/images/illustrate/thumbs/7.png",
+        "moral": "సహనం మరియు మనస్సు యొక్క ఉనికి విజయం.",
+        "origin": "అక్బర్-బీర్బల్",
+        "summary": "దూరం నుండి వేడి గురించి ఆలోచించడం, దూరంగా ఉన్న ఆహారాన్ని వేడి చేయడం లాంటిదని బీర్బల్ నిరూపించాడు.",
+        "themes": [
+          "న్యాయం",
+          "తర్కం"
+        ]
+      },
+      {
+        "title": "లాయల్ ముంగూస్",
+        "characters": [
+          "ముంగిస",
+          "బేబీ",
+          "తల్లి"
+        ],
+        "id": 8,
+        "imgalt": "The Loyal Mongoose",
+        "imgsrc": "/images/illustrate/thumbs/8.png",
+        "moral": "ముగింపులకు వెళ్లవద్దు.",
+        "origin": "భారతీయ జానపదం",
+        "summary": "ఒక ముంగిస పాము నుండి శిశువును కాపాడుతుంది, కానీ పొరపాటున శిక్షించబడుతుంది.",
+        "themes": [
+          "విధేయత",
+          "నమ్మండి"
+        ]
+      },
+      {
+        "title": "కృష్ణుడు మరియు వెన్న కుండ",
+        "characters": [
+          "కృష్ణుడు",
+          "గోపికలు"
+        ],
+        "id": 9,
+        "imgalt": "Krishna and the Butter Pot",
+        "imgsrc": "/images/illustrate/thumbs/9.png",
+        "moral": "ఉత్సుకత మరియు సరదా సహజం, కానీ నిజాయితీ ముఖ్యం.",
+        "origin": "కృష్ణ చిన్ననాటి కథలు",
+        "summary": "బేబీ కృష్ణ తన స్నేహితులతో కలిసి వెన్న దొంగిలించి తన అమాయకత్వంతో అందరినీ ఆకర్షిస్తాడు.",
+        "themes": [
+          "అల్లరి",
+          "ప్రేమ"
+        ]
+      },
+      {
+        "title": "సుదాముడు మరియు కృష్ణుడు",
+        "characters": [
+          "కృష్ణుడు",
+          "సుదామ"
+        ],
+        "id": 10,
+        "imgalt": "Sudama and Krishna",
+        "imgsrc": "/images/illustrate/thumbs/10.png",
+        "moral": "నిజమైన స్నేహం షరతులు లేనిది.",
+        "origin": "భాగవత పురాణం",
+        "summary": "పేద సుదాము ఒక వినయపూర్వకమైన బహుమతితో కృష్ణుడిని సందర్శించాడు మరియు కృష్ణుడు అతనిని ప్రేమ మరియు ఆశీర్వాదాలతో కురిపించాడు.",
+        "themes": [
+          "స్నేహం",
+          "దయ"
+        ]
+      },
+      {
+        "title": "ఏనుగు మరియు దర్జీ",
+        "characters": [
+          "ఏనుగు",
+          "దర్జీ"
+        ],
+        "id": 11,
+        "imgalt": "The Elephant and the Tailor",
+        "imgsrc": "/images/illustrate/thumbs/11.png",
+        "moral": "దయ తిరిగి దయ; క్రూరత్వం క్రూరత్వాన్ని తిరిగి ఇస్తుంది.",
+        "origin": "భారతీయ జానపద కథ",
+        "summary": "ఒక దర్జీ ఏనుగును పొడుస్తాడు, మరియు ఏనుగు ప్రతీకారంగా అతనిపై బురద నీటిని విసిరింది.",
+        "themes": [
+          "ప్రవర్తన",
+          "పరిణామాలు"
+        ]
+      },
+      {
+        "title": "ది వైజ్ చిలుక",
+        "characters": [
+          "చిలుక",
+          "రాజు"
+        ],
+        "id": 12,
+        "imgalt": "The Wise Parrot",
+        "imgsrc": "/images/illustrate/thumbs/12.png",
+        "moral": "మంచి సలహా జీవితాలను కాపాడుతుంది.",
+        "origin": "పంచతంత్రం",
+        "summary": "ఒక చిలుక తన రాజ్యం యొక్క ప్రమాదాల గురించి రాజును హెచ్చరిస్తుంది మరియు అతని నమ్మకమైన స్నేహితుడు అవుతుంది.",
+        "themes": [
+          "జ్ఞానం",
+          "బాధ్యత"
+        ]
+      },
+      {
+        "title": "శ్రవణ్ కుమార్ భక్తి",
+        "characters": [
+          "శ్రవణ్",
+          "తల్లిదండ్రులు",
+          "దశరథ రాజు"
+        ],
+        "id": 13,
+        "imgalt": "Shravan Kumar’s Devotion",
+        "imgsrc": "/images/illustrate/thumbs/13.png",
+        "moral": "తల్లిదండ్రులకు సేవ చేయడం గొప్పది.",
+        "origin": "రామాయణం",
+        "summary": "శ్రవణ్ కుమార్ తన అంధుడైన తల్లిదండ్రులను చూసుకుంటాడు మరియు భక్తికి చిహ్నంగా మారాడు.",
+        "themes": [
+          "భక్తి",
+          "కుటుంబం"
+        ]
+      },
+      {
+        "title": "వినాయకుడు మరియు మామిడి",
+        "characters": [
+          "వినాయకుడు",
+          "కార్తికేయ",
+          "శివుడు",
+          "పార్వతి"
+        ],
+        "id": 14,
+        "imgalt": "Ganesha and the Mango",
+        "imgsrc": "/images/illustrate/thumbs/14.png",
+        "moral": "వేగం కంటే జ్ఞానం గొప్పది.",
+        "origin": "పురాణాలు",
+        "summary": "గణేశుడు తన తల్లిదండ్రుల చుట్టూ ప్రదక్షిణలు చేస్తూ ఒక పోటీలో గెలుస్తాడు.",
+        "themes": [
+          "కుటుంబం",
+          "జ్ఞానం"
+        ]
+      },
+      {
+        "title": "ది కింగ్ అండ్ ది స్పారో",
+        "characters": [
+          "రాజు",
+          "పిచ్చుక"
+        ],
+        "id": 15,
+        "imgalt": "The King and the Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/15.png",
+        "moral": "దయతో కూడిన చిన్న చర్యలు ముఖ్యమైనవి.",
+        "origin": "భారతీయ జానపద కథ",
+        "summary": "పిచ్చుక వినయం నేర్చుకోవడానికి రాజుకు సహాయం చేస్తుంది.",
+        "themes": [
+          "దయ",
+          "వినయం"
+        ]
+      },
+      {
+        "title": "గోల్డెన్ స్వాన్",
+        "characters": [
+          "గోల్డెన్ స్వాన్",
+          "తల్లి",
+          "కుమార్తెలు"
+        ],
+        "id": 16,
+        "imgalt": "The Golden Swan",
+        "imgsrc": "/images/illustrate/thumbs/16.png",
+        "moral": "దురాశ ఆనందాన్ని నాశనం చేస్తుంది.",
+        "origin": "జాతక కథలు",
+        "summary": "బంగారు హంస పేద కుటుంబానికి ఈకలు ఇస్తుంది, కానీ దురాశ ప్రతిదీ నాశనం చేస్తుంది.",
+        "themes": [
+          "దురాశ",
+          "దాతృత్వం"
+        ]
+      },
+      {
+        "title": "ది హంగ్రీ మౌస్",
+        "characters": [
+          "మౌస్"
+        ],
+        "id": 17,
+        "imgalt": "The Hungry Mouse",
+        "imgsrc": "/images/illustrate/thumbs/17.png",
+        "moral": "స్వీయ నియంత్రణ ముఖ్యం.",
+        "origin": "పంచతంత్రం",
+        "summary": "అతిగా తిన్న తర్వాత ఎలుక ఒక రంధ్రంలో ఇరుక్కుపోతుంది.",
+        "themes": [
+          "క్రమశిక్షణ"
+        ]
+      },
+      {
+        "title": "ది లయన్ అండ్ ది మౌస్",
+        "characters": [
+          "సింహం",
+          "మౌస్"
+        ],
+        "id": 18,
+        "imgalt": "The Lion and the Mouse",
+        "imgsrc": "/images/illustrate/thumbs/18.png",
+        "moral": "చిన్నది కూడా బలవంతులకు సహాయం చేయగలదు.",
+        "origin": "భారతీయ అనుసరణ",
+        "summary": "ఒక సింహం ఎలుకను విడిచిపెడుతుంది మరియు ఎలుక సింహాన్ని తర్వాత కాపాడుతుంది.",
+        "themes": [
+          "దయ",
+          "స్నేహం"
+        ]
+      },
+      {
+        "title": "ది వైజ్ కార్పెంటర్",
+        "characters": [
+          "వడ్రంగి",
+          "గ్రామస్థులు"
+        ],
+        "id": 19,
+        "imgalt": "The Wise Carpenter",
+        "imgsrc": "/images/illustrate/thumbs/19.png",
+        "moral": "జ్ఞానం సంఘర్షణను పరిష్కరిస్తుంది.",
+        "origin": "భారతీయ విలేజ్ టేల్",
+        "summary": "ఒక వడ్రంగి తెలివైన ప్రణాళికను ఉపయోగించి భూ వివాదాన్ని శాంతియుతంగా పరిష్కరిస్తాడు.",
+        "themes": [
+          "శాంతి",
+          "న్యాయం"
+        ]
+      },
+      {
+        "title": "ది మ్యాజిక్ డ్రమ్",
+        "characters": [
+          "అబ్బాయి",
+          "దేవకన్యలు"
+        ],
+        "id": 20,
+        "imgalt": "The Magic Drum",
+        "imgsrc": "/images/illustrate/thumbs/20.png",
+        "moral": "నిజాయితీకి ప్రతిఫలం లభిస్తుంది.",
+        "origin": "భారతీయ జానపద కథ",
+        "summary": "ఒక దయగల అబ్బాయి ఆహారం మరియు బొమ్మలను సృష్టించే మ్యాజిక్ డ్రమ్‌ను అందుకుంటాడు.",
+        "themes": [
+          "మేజిక్",
+          "దయ"
+        ]
+      },
+      {
+        "title": "బ్రేవ్ లిటిల్ స్పారో",
+        "characters": [
+          "పిచ్చుక",
+          "ఏనుగు"
+        ],
+        "id": 21,
+        "imgalt": "The Brave Little Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/21.png",
+        "moral": "ధైర్యసాహసాలు బలవంతులను ఓడించగలవు.",
+        "origin": "భారతదేశం",
+        "summary": "ఒక పిచ్చుక తన పిల్లలను భారీ ఏనుగు నుండి కాపాడుతుంది.",
+        "themes": [
+          "ధైర్యం"
+        ]
+      },
+      {
+        "title": "అర్జునుడు మరియు పక్షి కన్ను",
+        "characters": [
+          "అర్జునుడు",
+          "ద్రోణుడు"
+        ],
+        "id": 22,
+        "imgalt": "Arjuna and the Bird’s Eye",
+        "imgsrc": "/images/illustrate/thumbs/22.png",
+        "moral": "ఏకాగ్రత విజయానికి దారితీస్తుంది.",
+        "origin": "మహాభారతం",
+        "summary": "అర్జునుడు కేవలం పక్షి కన్నుపై దృష్టి పెట్టడం ద్వారా తన గురువును ఆకట్టుకున్నాడు.",
+        "themes": [
+          "క్రమశిక్షణ",
+          "శిక్షణ"
+        ]
+      },
+      {
+        "title": "వంకర చెట్టు",
+        "characters": [
+          "వంకర చెట్టు",
+          "పొడవైన చెట్లు"
+        ],
+        "id": 23,
+        "imgalt": "The Crooked Tree",
+        "imgsrc": "/images/illustrate/thumbs/23.png",
+        "moral": "మీరు ఎవరో సంతృప్తి చెందండి.",
+        "origin": "భారతీయ అటవీ కథ",
+        "summary": "ఒక వంకర చెట్టు దాని ఆకారం కారణంగా చెక్కలను కొట్టేవారి నుండి బయటపడుతుంది.",
+        "themes": [
+          "స్వీయ-విలువ"
+        ]
+      },
+      {
+        "title": "ది మ్యాజిక్ పాట్",
+        "characters": [
+          "రైతు"
+        ],
+        "id": 24,
+        "imgalt": "The Magic Pot",
+        "imgsrc": "/images/illustrate/thumbs/24.png",
+        "moral": "మంచి వ్యక్తులకు మంచి విషయాలు వస్తాయి.",
+        "origin": "భారతీయ జానపదం",
+        "summary": "ఒక రైతు అతను లోపల ఉంచే దేనినైనా రెట్టింపు చేసే కుండను కనుగొంటాడు.",
+        "themes": [
+          "మేజిక్",
+          "గుడ్ ఫార్చూన్"
+        ]
+      },
+      {
+        "title": "ద కైండ్ డీర్",
+        "characters": [
+          "జింక రాజు",
+          "డోయ్",
+          "మానవ రాజు"
+        ],
+        "id": 25,
+        "imgalt": "The Kind Deer",
+        "imgsrc": "/images/illustrate/thumbs/25.png",
+        "moral": "దయ దయను ప్రేరేపిస్తుంది.",
+        "origin": "జాతక కథలు",
+        "summary": "ఒక జింక రాజు ఒక దుప్పిని కాపాడి రాజు గౌరవాన్ని పొందుతాడు.",
+        "themes": [
+          "కరుణ"
+        ]
+      },
+      {
+        "title": "ది ఫ్లయింగ్ ఎలిఫెంట్",
+        "characters": [
+          "ఏనుగు",
+          "ఋషి"
+        ],
+        "id": 26,
+        "imgalt": "The Flying Elephant",
+        "imgsrc": "/images/illustrate/thumbs/26.png",
+        "moral": "వినయంగా ఉండండి.",
+        "origin": "భారతీయ ఫాంటసీ",
+        "summary": "రెక్కలు ఉన్న ఏనుగు తన అధికారాలను దుర్వినియోగం చేసిన తర్వాత వాటిని కోల్పోతుంది.",
+        "themes": [
+          "వినయం"
+        ]
+      },
+      {
+        "title": "ది పాట్ ఆఫ్ విజ్డమ్",
+        "characters": [
+          "అబ్బాయి",
+          "ఋషి"
+        ],
+        "id": 27,
+        "imgalt": "The Pot of Wisdom",
+        "imgsrc": "/images/illustrate/thumbs/27.png",
+        "moral": "పంచుకుంటే జ్ఞానం పెరుగుతుంది.",
+        "origin": "దక్షిణ భారత కథ",
+        "summary": "జ్ఞానాన్ని ఎవరూ ఒంటరిగా పట్టుకోలేరని ఒక అబ్బాయి తెలుసుకుంటాడు.",
+        "themes": [
+          "నేర్చుకోవడం"
+        ]
+      },
+      {
+        "title": "ది మ్యాజిక్ ఫిష్",
+        "characters": [
+          "మత్స్యకారుడు",
+          "మేజిక్ ఫిష్"
+        ],
+        "id": 28,
+        "imgalt": "The Magic Fish",
+        "imgsrc": "/images/illustrate/thumbs/28.png",
+        "moral": "కృతజ్ఞత ముఖ్యం.",
+        "origin": "హిందూ మహాసముద్రం జానపద కథ",
+        "summary": "ఒక మత్స్యకారుడు స్వాతంత్ర్యానికి బదులుగా సహాయం అందించే మాయా చేపను పట్టుకుంటాడు.",
+        "themes": [
+          "కృతజ్ఞత",
+          "మేజిక్"
+        ]
+      },
+      {
+        "title": "కొబ్బరి మరియు చీమ",
+        "characters": [
+          "చీమలు",
+          "కొబ్బరి"
+        ],
+        "id": 29,
+        "imgalt": "The Coconut and the Ant",
+        "imgsrc": "/images/illustrate/thumbs/29.png",
+        "moral": "చిన్న ప్రయత్నం కూడా ముఖ్యం.",
+        "origin": "పల్లెటూరి కథ",
+        "summary": "కొబ్బరికాయ సముద్రంలోకి చేరుకోవడానికి చీమలు కలిసిపోతాయి.",
+        "themes": [
+          "జట్టుకృషి"
+        ]
+      },
+      {
+        "title": "టైగర్ మరియు వుడ్ కట్టర్",
+        "characters": [
+          "పులి",
+          "చెక్కలు కట్టేవాడు"
+        ],
+        "id": 30,
+        "imgalt": "The Tiger and the Woodcutter",
+        "imgsrc": "/images/illustrate/thumbs/30.png",
+        "moral": "ఇతరులకు సహాయం చేయండి మరియు మీరు సహాయం చేయబడతారు.",
+        "origin": "ఇండియన్ జంగిల్ స్టోరీ",
+        "summary": "ఒక కట్టెలు కొట్టేవాడు ఆశ్చర్యకరంగా తన ప్రాణాలను విడిచిపెట్టి చిక్కుకున్న పులిని విడిపించాడు.",
+        "themes": [
+          "కరుణ",
+          "ధైర్యం"
+        ]
+      },
+      {
+        "title": "రెండు పిల్లులు మరియు కోతి",
+        "characters": [
+          "పిల్లులు",
+          "కోతి"
+        ],
+        "id": 31,
+        "imgalt": "The Two Cats and the Monkey",
+        "imgsrc": "/images/illustrate/thumbs/31.png",
+        "moral": "మీ తగాదాలను ఇతరులు పరిష్కరించుకోవద్దు.",
+        "origin": "పంచతంత్రం",
+        "summary": "ఒక కోతి రొట్టెని రెండు పిల్లులకు సరిగ్గా పంచుతున్నట్లు నటిస్తూ తింటుంది.",
+        "themes": [
+          "న్యాయం",
+          "మూర్ఖత్వం"
+        ]
+      },
+      {
+        "title": "ది స్పారో అండ్ ది సీ",
+        "characters": [
+          "పిచ్చుక",
+          "సముద్రం",
+          "రామ"
+        ],
+        "id": 32,
+        "imgalt": "The Sparrow and the Sea",
+        "imgsrc": "/images/illustrate/thumbs/32.png",
+        "moral": "సంకల్పం పర్వతాలను కదిలిస్తుంది.",
+        "origin": "రామ కథ",
+        "summary": "ఒక పిచ్చుక తన గుడ్లను తీసుకున్నప్పుడు సముద్రాన్ని బెదిరించి, రాముడికి స్ఫూర్తినిస్తుంది.",
+        "themes": [
+          "సంకల్పం"
+        ]
+      },
+      {
+        "title": "ది బాయ్ హూ క్రైడ్ టైగర్",
+        "characters": [
+          "అబ్బాయి",
+          "గ్రామస్థులు",
+          "పులి"
+        ],
+        "id": 33,
+        "imgalt": "The Boy Who Cried Tiger",
+        "imgsrc": "/images/illustrate/thumbs/33.png",
+        "moral": "ఎప్పుడూ అబద్ధం చెప్పకండి.",
+        "origin": "భారతీయ అనుసరణ",
+        "summary": "ఒక బాలుడు గ్రామస్తులను ఫూల్స్ చేస్తాడు కానీ నిజంగా పులి కనిపించినప్పుడు బాధపడతాడు.",
+        "themes": [
+          "నిజాయితీ"
+        ]
+      },
+      {
+        "title": "ది మ్యాజిక్ మర్రి చెట్టు",
+        "characters": [
+          "చెట్టు",
+          "యాత్రికుడు"
+        ],
+        "id": 34,
+        "imgalt": "The Magic Banyan Tree",
+        "imgsrc": "/images/illustrate/thumbs/34.png",
+        "moral": "దాతృత్వం అదృష్టాన్ని తెస్తుంది.",
+        "origin": "జానపద కథ",
+        "summary": "ఒక చెట్టు దయగల ప్రయాణికుడికి పండ్లు, నీడ మరియు బంగారు నాణేలను ఇస్తుంది.",
+        "themes": [
+          "దయ"
+        ]
+      },
+      {
+        "title": "ది క్యూరియస్ పీకాక్",
+        "characters": [
+          "నెమలి",
+          "నైటింగేల్"
+        ],
+        "id": 35,
+        "imgalt": "The Curious Peacock",
+        "imgsrc": "/images/illustrate/thumbs/35.png",
+        "moral": "మీ బలాలతో సంతోషంగా ఉండండి.",
+        "origin": "భారతీయ జంతు కథ",
+        "summary": "నెమలికి నైటింగేల్ స్వరం కావాలి కానీ అందానికి తనదైన ఆకర్షణ ఉందని తెలుసుకుంటుంది.",
+        "themes": [
+          "స్వీయ ప్రేమ"
+        ]
+      },
+      {
+        "title": "తెలివైన నేత",
+        "characters": [
+          "నేత",
+          "దెయ్యం"
+        ],
+        "id": 36,
+        "imgalt": "The Clever Weaver",
+        "imgsrc": "/images/illustrate/thumbs/36.png",
+        "moral": "తెలివైన పని గెలుస్తుంది.",
+        "origin": "దక్షిణ భారతదేశం",
+        "summary": "ఒక నేత ఒక దెయ్యాన్ని మోసం చేసి ధనవంతుడు అవుతాడు.",
+        "themes": [
+          "ధైర్యం",
+          "జ్ఞానం"
+        ]
+      },
+      {
+        "title": "హార్డ్ వర్క్ యొక్క ఫలాలు",
+        "characters": [
+          "సోదరులు"
+        ],
+        "id": 37,
+        "imgalt": "The Fruits of Hard Work",
+        "imgsrc": "/images/illustrate/thumbs/37.png",
+        "moral": "కష్టపడి పని చేస్తే ఎప్పుడూ ఫలితం ఉంటుంది.",
+        "origin": "భారతీయ గ్రామం",
+        "summary": "ఇద్దరు సోదరులు అదృష్టం కంటే కృషి ముఖ్యమని తెలుసుకున్నారు.",
+        "themes": [
+          "హార్డ్ వర్క్"
+        ]
+      },
+      {
+        "title": "ది లిటిల్ డ్రమ్",
+        "characters": [
+          "అబ్బాయి"
+        ],
+        "id": 38,
+        "imgalt": "The Little Drum",
+        "imgsrc": "/images/illustrate/thumbs/38.png",
+        "moral": "మంచి పనులు గుణించాలి.",
+        "origin": "ఉత్తర భారతదేశం",
+        "summary": "ఒక అబ్బాయి ఎక్కడికి వెళ్లినా ఆనందాన్ని కలిగించే డ్రమ్‌ను బహుమతిగా అందజేస్తారు.",
+        "themes": [
+          "దయ"
+        ]
+      },
+      {
+        "title": "గాడిద మరియు పులి చర్మం",
+        "characters": [
+          "గాడిద",
+          "రైతు"
+        ],
+        "id": 39,
+        "imgalt": "The Donkey and the Tiger Skin",
+        "imgsrc": "/images/illustrate/thumbs/39.png",
+        "moral": "వేరొకరిలా నటించడం ఇబ్బందులకు దారి తీస్తుంది.",
+        "origin": "పంచతంత్రం",
+        "summary": "ఒక గాడిద పులి చర్మాన్ని ధరిస్తుంది, కానీ బ్రేకింగ్ ద్వారా ప్రతిదీ నాశనం చేస్తుంది.",
+        "themes": [
+          "గుర్తింపు"
+        ]
+      },
+      {
+        "title": "ది హిడెన్ ట్రెజర్",
+        "characters": [
+          "తండ్రి",
+          "కొడుకులు"
+        ],
+        "id": 40,
+        "imgalt": "The Hidden Treasure",
+        "imgsrc": "/images/illustrate/thumbs/40.png",
+        "moral": "పనియే నిధి.",
+        "origin": "భారతీయ విలేజ్ టేల్",
+        "summary": "పొలంలో పాతిపెట్టిన నిధిని చెప్పి ఒక తండ్రి తన కొడుకులను వ్యవసాయంలోకి తీసుకువెళతాడు.",
+        "themes": [
+          "హార్డ్ వర్క్"
+        ]
+      },
+      {
+        "title": "బ్రేవ్ చిలుక",
+        "characters": [
+          "చిలుక",
+          "దేవుడు"
+        ],
+        "id": 41,
+        "imgalt": "The Brave Parrot",
+        "imgsrc": "/images/illustrate/thumbs/41.png",
+        "moral": "ధైర్యం ఇతరులకు సహాయం చేస్తుంది.",
+        "origin": "జాతక కథలు",
+        "summary": "ఒక చిలుక మండుతున్న అడవిని రక్షించడానికి ప్రయత్నిస్తుంది మరియు దేవతలను ప్రేరేపిస్తుంది.",
+        "themes": [
+          "శౌర్యం"
+        ]
+      },
+      {
+        "title": "ది బాయ్ అండ్ ది డ్రమ్",
+        "characters": [
+          "అబ్బాయి"
+        ],
+        "id": 42,
+        "imgalt": "The Boy and the Drum",
+        "imgsrc": "/images/illustrate/thumbs/42.png",
+        "moral": "చిన్న బహుమతులు పెద్ద మార్పును కలిగిస్తాయి.",
+        "origin": "భారతీయ జానపద కథ",
+        "summary": "ఒక బాలుడు ఆనందాన్ని పంచడానికి డ్రమ్ ఉపయోగిస్తాడు.",
+        "themes": [
+          "దయ"
+        ]
+      },
+      {
+        "title": "మౌస్ వ్యాపారి",
+        "characters": [
+          "వ్యాపారి"
+        ],
+        "id": 43,
+        "imgalt": "The Mouse Merchant",
+        "imgsrc": "/images/illustrate/thumbs/43.png",
+        "moral": "అదృష్టం ధైర్యానికి అనుకూలంగా ఉంటుంది.",
+        "origin": "పంచతంత్రం",
+        "summary": "ఒకే ఎలుకతో మొదలై మనిషి ధనవంతుడు అవుతాడు.",
+        "themes": [
+          "ధైర్యం"
+        ]
+      },
+      {
+        "title": "మాట్లాడే గుహ",
+        "characters": [
+          "సింహం",
+          "నక్క"
+        ],
+        "id": 44,
+        "imgalt": "The Talking Cave",
+        "imgsrc": "/images/illustrate/thumbs/44.png",
+        "moral": "అతిగా ఆలోచించడం ఇబ్బందికి దారి తీస్తుంది.",
+        "origin": "పంచతంత్రం",
+        "summary": "ఒక సింహం ఒక గుహలో దాక్కుంది మరియు ఒక తెలివైన నక్క ప్రమాదాన్ని నివారిస్తుంది.",
+        "themes": [
+          "జాగ్రత్త"
+        ]
+      },
+      {
+        "title": "ది గ్రీడీ బార్బర్",
+        "characters": [
+          "బార్బర్"
+        ],
+        "id": 45,
+        "imgalt": "The Greedy Barber",
+        "imgsrc": "/images/illustrate/thumbs/45.png",
+        "moral": "అత్యాశ జ్ఞానాన్ని నాశనం చేస్తుంది.",
+        "origin": "భారతదేశం",
+        "summary": "దురాశ కారణంగా క్షురకుడు తన సంపదలన్నింటినీ పోగొట్టుకుంటాడు.",
+        "themes": [
+          "దురాశ"
+        ]
+      },
+      {
+        "title": "ది మిల్క్‌మెయిడ్స్ డ్రీం",
+        "characters": [
+          "మిల్క్ మెయిడ్"
+        ],
+        "id": 46,
+        "imgalt": "The Milkmaid’s Dream",
+        "imgsrc": "/images/illustrate/thumbs/46.png",
+        "moral": "మీ కోళ్లు పొదిగే ముందు వాటిని లెక్కించవద్దు.",
+        "origin": "భారతదేశం",
+        "summary": "ఒక పాలపిట్ట ధనవంతుల గురించి కలలు కంటుంది మరియు ఆమె పాలు చిందుతుంది.",
+        "themes": [
+          "ప్లానింగ్"
+        ]
+      },
+      {
+        "title": "ది మాజికల్ స్పారో",
+        "characters": [
+          "పిచ్చుక",
+          "రైతు"
+        ],
+        "id": 47,
+        "imgalt": "The Magical Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/47.png",
+        "moral": "సహాయం ప్రతిఫలాన్ని తెస్తుంది.",
+        "origin": "భారతీయ గ్రామం",
+        "summary": "ఒక పిచ్చుక రైతుకు సహాయం చేస్తుంది మరియు అతని పంటలు అద్భుతంగా పెరుగుతాయి.",
+        "themes": [
+          "మేజిక్",
+          "దయ"
+        ]
+      },
+      {
+        "title": "ది వైజ్ ఓల్డ్ ఎలిఫెంట్",
+        "characters": [
+          "ఏనుగు"
+        ],
+        "id": 48,
+        "imgalt": "The Wise Old Elephant",
+        "imgsrc": "/images/illustrate/thumbs/48.png",
+        "moral": "వయస్సు జ్ఞానాన్ని తెస్తుంది.",
+        "origin": "ఇండియన్ జంగిల్ టేల్",
+        "summary": "ఒక వృద్ధ ఏనుగు కరువు సమయంలో తన మందను సురక్షితంగా ఉంచుతుంది.",
+        "themes": [
+          "జ్ఞానం"
+        ]
+      },
+      {
+        "title": "లోటస్ అండ్ ది ఫ్రాగ్",
+        "characters": [
+          "కప్ప",
+          "లోటస్"
+        ],
+        "id": 49,
+        "imgalt": "The Lotus and the Frog",
+        "imgsrc": "/images/illustrate/thumbs/49.png",
+        "moral": "సహనం శక్తివంతమైనది.",
+        "origin": "భారతీయ నది కథ",
+        "summary": "కమలం విరామం లేని కప్పకు వేగాన్ని తగ్గించడం నేర్పుతుంది.",
+        "themes": [
+          "సహనం"
+        ]
+      },
+      {
+        "title": "చాలా స్వీట్లు తిన్న రాజు",
+        "characters": [
+          "రాజు",
+          "రాయల్ కుక్"
+        ],
+        "id": 50,
+        "imgalt": "The King Who Ate Too Many Sweets",
+        "imgsrc": "/images/illustrate/thumbs/50.png",
+        "moral": "మోడరేషన్ ముఖ్యం.",
+        "origin": "ఇండియన్ ప్యాలెస్ స్టోరీ",
+        "summary": "ఒక రాజు స్వీట్లను అతిగా తింటాడు మరియు తన కోరికలను నియంత్రించుకోవడం నేర్చుకుంటాడు.",
+        "themes": [
+          "ఆరోగ్యం",
+          "క్రమశిక్షణ"
+        ]
+      }
+    ]
+  }
+}

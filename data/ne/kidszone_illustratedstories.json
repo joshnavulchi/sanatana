@@ -1,0 +1,917 @@
+{
+  "kidszone_illustratedstories": {
+    "title": "चित्रित कथाहरू",
+    "meta": {
+      "title": "बालबालिका क्षेत्र | सचित्र कथाहरू - सनातन धर्म - सनातन धर्म अन्वेषण गर्नुहोस्",
+      "canonical": "https://sanatanadharmam.in/kidszone/illustratedstories",
+      "description": "KidsZone — IllustratedStories — सनातन धर्म — अन्वेषण सनातन धर्म — लेख, अनुवाद र KidsZone मा संक्षिप्त टिप्पणी। अभ्यास, इतिहास, र मार्गदर्शन अन्वेषण गर्नुहोस्...",
+      "keywords": [
+        "Animal Fables",
+        "Bedtime Stories for Kids",
+        "Children's Stories",
+        "Classic Indian Stories",
+        "Educational Stories",
+        "Folk Tales with Morals",
+        "Illustrated Stories",
+        "Indian Culture for Kids",
+        "Indian Folktales",
+        "Indian Heritage for Children",
+        "Jataka Tales",
+        "KidsZone",
+        "Moral Stories",
+        "Mythological Stories for Kids",
+        "Panchatantra",
+        "Short Stories for Children",
+        "Stories from Indian Tradition",
+        "Stories of Animals with Morals",
+        "Stories of Compassion and Empathy",
+        "Stories of Courage and Bravery",
+        "Stories of Courage and Wisdom",
+        "Stories of Creativity and Imagination",
+        "Stories of Cultural Values and Traditions",
+        "Stories of Everyday Heroes",
+        "Stories of Family and Relationships",
+        "Stories of Festivals and Celebrations",
+        "Stories of Friendship and Kindness",
+        "Stories of Generosity and Sharing",
+        "Stories of Good vs Evil",
+        "Stories of Honesty and Integrity",
+        "Stories of Humility and Gratitude",
+        "Stories of Kindness and Compassion",
+        "Stories of Kings and Queens",
+        "Stories of Mythological Characters",
+        "Stories of Nature and Environment",
+        "Stories of Perseverance and Hard Work",
+        "Stories of Problem-Solving and Critical Thinking",
+        "Stories of Respect and Responsibility",
+        "Stories of Sages and Saints",
+        "Stories of Self-Control and Discipline",
+        "Stories of Teamwork and Cooperation",
+        "Stories of Wisdom and Intelligence",
+        "Stories with Life Lessons"
+      ],
+      "ogimage": "/og/kidszone-illustratedstories.png",
+      "url": "https://sanatanadharmam.in/kidszone/illustratedstories"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "संगठन",
+        "contactpoint": {
+          "@type": "सम्पर्क बिन्दु",
+          "areaserved": "विश्वव्यापी",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "अंग्रेजी",
+            "Español",
+            "Français",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "नेदरल्याण्ड्स",
+            "पोर्चुगिज",
+            "रुसकी",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "ग्राहक समर्थन",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+९१-८०९९१८१०७५"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sanatanadharmam.in को बारेमा",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "description": "भारतीय परम्पराबाट छोटो चित्रित कथाहरू र नैतिकताहरूको क्युरेट गरिएको संग्रह। यसको सारांश र नैतिक पढ्नको लागि कथामा क्लिक गर्नुहोस्।",
+    "kids_indian_stories": [
+      {
+        "title": "चलाख खरायो र सिंह",
+        "characters": [
+          "खरायो",
+          "सिंह"
+        ],
+        "id": 1,
+        "imgalt": "The Clever Rabbit and the Lion",
+        "imgsrc": "/images/illustrate/thumbs/1.png",
+        "moral": "बुद्धि बल भन्दा बलियो हुन्छ।",
+        "origin": "पञ्चतन्त्र",
+        "summary": "एउटा सानो खरायोले उग्र सिंहलाई उसको प्रतिबिम्ब देखेर कुवामा हाम फाल्ने प्रलोभनमा पार्छ।",
+        "themes": [
+          "साहस",
+          "बुद्धि"
+        ]
+      },
+      {
+        "title": "बाँदर र गोही",
+        "characters": [
+          "बाँदर",
+          "गोही"
+        ],
+        "id": 2,
+        "imgalt": "The Monkey and the Crocodile",
+        "imgsrc": "/images/illustrate/thumbs/2.png",
+        "moral": "मनको उपस्थितिले जीवन बचाउँछ।",
+        "origin": "पञ्चतन्त्र",
+        "summary": "बाँदरले आफ्नो मुटु खाने कोसिस गर्ने गोहीलाई बहकाएर खतराबाट जोगाउँछ।",
+        "themes": [
+          "मित्रता",
+          "धोका"
+        ]
+      },
+      {
+        "title": "तिर्खाएको काग",
+        "characters": [
+          "काग"
+        ],
+        "id": 3,
+        "imgalt": "The Thirsty Crow",
+        "imgsrc": "/images/illustrate/thumbs/3.png",
+        "moral": "जहाँ इच्छा हुन्छ, त्यहाँ बाटो हुन्छ।",
+        "origin": "भारतीय लोककथा",
+        "summary": "तिर्खाएको कागले पानीको सतह बढाउन भाँडोमा ढुङ्गा हानेर पिउने गर्छ ।",
+        "themes": [
+          "लगनशीलता",
+          "रचनात्मकता"
+        ]
+      },
+      {
+        "title": "मूर्ख शेर र चतुर फक्स",
+        "characters": [
+          "सिंह",
+          "फक्स"
+        ],
+        "id": 4,
+        "imgalt": "The Foolish Lion and the Clever Fox",
+        "imgsrc": "/images/illustrate/thumbs/4.png",
+        "moral": "लोभले पतनको नेतृत्व गर्छ।",
+        "origin": "पञ्चतन्त्र",
+        "summary": "एउटा स्यालले सिंहलाई मूर्ख बनाउँछ र सुनसान गुफामा छिर्छ र सिंह सधैंभरि फँसिन्छ।",
+        "themes": [
+          "लोभ",
+          "बुद्धि"
+        ]
+      },
+      {
+        "title": "कुरा गर्ने कछुवा",
+        "characters": [
+          "कछुवा",
+          "हंस"
+        ],
+        "id": 5,
+        "imgalt": "The Talkative Tortoise",
+        "imgsrc": "/images/illustrate/thumbs/5.png",
+        "moral": "धेरै बोल्दा समस्या निम्त्याउन सक्छ।",
+        "origin": "पञ्चतन्त्र",
+        "summary": "एउटा कछुवा आकाशबाट खस्छ किनकि उसले दुईवटा चराले बोकेर मुख खोल्छ।",
+        "themes": [
+          "अनुशासन",
+          "हास्य"
+        ]
+      },
+      {
+        "title": "तेनाली राम र चोर",
+        "characters": [
+          "तेनाली रामा",
+          "चोरहरू"
+        ],
+        "id": 6,
+        "imgalt": "Tenali Rama and the Thieves",
+        "imgsrc": "/images/illustrate/thumbs/6.png",
+        "moral": "स्मार्ट सोचले तपाईंको घर बचाउन सक्छ।",
+        "origin": "तेनाली रमन कथाहरू",
+        "summary": "तेनाली रामाले रातभरी आफ्नो इनार सफा गर्ने नाटक गरेर त्यसमा ढुङ्गा हानेर चोरहरूलाई फसाउँछन्।",
+        "themes": [
+          "बुद्धि",
+          "रणनीति"
+        ]
+      },
+      {
+        "title": "बीरबलको खिचडी कथा",
+        "characters": [
+          "बीरबल",
+          "अकबर"
+        ],
+        "id": 7,
+        "imgalt": "Birbal’s Khichdi Story",
+        "imgsrc": "/images/illustrate/thumbs/7.png",
+        "moral": "धैर्य र दिमागको उपस्थितिले जित्छ।",
+        "origin": "अकबर-बीरबल",
+        "summary": "टाढाबाट तातोको बारेमा सोच्नु भनेको टाढाको खानालाई न्यानो पार्नु जस्तै हो भनेर बीरबलले प्रमाणित गरे।",
+        "themes": [
+          "न्याय",
+          "तर्क"
+        ]
+      },
+      {
+        "title": "वफादार मुंगुस",
+        "characters": [
+          "मोंगुस",
+          "बच्चा",
+          "आमा"
+        ],
+        "id": 8,
+        "imgalt": "The Loyal Mongoose",
+        "imgsrc": "/images/illustrate/thumbs/8.png",
+        "moral": "निष्कर्षमा नजानुहोस्।",
+        "origin": "भारतीय लोकगीत",
+        "summary": "मुंगुसले बच्चालाई सर्पबाट बचाउँछ, तर गल्तीले दण्डित हुन्छ।",
+        "themes": [
+          "वफादारी",
+          "भरोसा"
+        ]
+      },
+      {
+        "title": "कृष्ण र मक्खनको भाँडो",
+        "characters": [
+          "कृष्ण",
+          "गोपिस"
+        ],
+        "id": 9,
+        "imgalt": "Krishna and the Butter Pot",
+        "imgsrc": "/images/illustrate/thumbs/9.png",
+        "moral": "जिज्ञासा र चंचलता स्वाभाविक हो, तर इमान्दारिता महत्त्वपूर्ण छ।",
+        "origin": "कृष्ण बाल्यकाल कथाहरू",
+        "summary": "बेबी कृष्णले आफ्ना साथीहरूसँग मक्खन चोर्छन् र आफ्नो निर्दोषताले सबैलाई मोहित गर्छन्।",
+        "themes": [
+          "दुराचार",
+          "माया"
+        ]
+      },
+      {
+        "title": "सुदामा र कृष्ण",
+        "characters": [
+          "कृष्ण",
+          "सुदामा"
+        ],
+        "id": 10,
+        "imgalt": "Sudama and Krishna",
+        "imgsrc": "/images/illustrate/thumbs/10.png",
+        "moral": "साँचो मित्रता बिना शर्त हुन्छ।",
+        "origin": "भागवत पुराण",
+        "summary": "गरीब सुदामाले कृष्णलाई नम्र उपहारको साथ भेट्छन्, र कृष्णले उहाँलाई प्रेम र आशीर्वाद दिए।",
+        "themes": [
+          "मित्रता",
+          "दया"
+        ]
+      },
+      {
+        "title": "हात्ती र दर्जी",
+        "characters": [
+          "हात्ती",
+          "दर्जी"
+        ],
+        "id": 11,
+        "imgalt": "The Elephant and the Tailor",
+        "imgsrc": "/images/illustrate/thumbs/11.png",
+        "moral": "दयाले दया फर्काउँछ; क्रूरता क्रूरता फर्काउँछ।",
+        "origin": "भारतीय लोककथा",
+        "summary": "एक दर्जीले हात्तीलाई हिर्काउँछ, र हात्तीले बदला लिन उसमाथि हिलो पानी फ्याँक्छ।",
+        "themes": [
+          "व्यवहार",
+          "परिणामहरू"
+        ]
+      },
+      {
+        "title": "बुद्धिमान तोता",
+        "characters": [
+          "तोता",
+          "राजा"
+        ],
+        "id": 12,
+        "imgalt": "The Wise Parrot",
+        "imgsrc": "/images/illustrate/thumbs/12.png",
+        "moral": "राम्रो सल्लाहले जीवन बचाउन सक्छ।",
+        "origin": "पञ्चतन्त्र",
+        "summary": "सुगाले राजालाई आफ्नो राज्यको खतराबारे चेतावनी दिन्छ र उसको भरपर्दो साथी बन्छ।",
+        "themes": [
+          "बुद्धि",
+          "जिम्मेवारी"
+        ]
+      },
+      {
+        "title": "श्रवण कुमारको भक्ति",
+        "characters": [
+          "श्रावण",
+          "अभिभावक",
+          "राजा दशरथ"
+        ],
+        "id": 13,
+        "imgalt": "Shravan Kumar’s Devotion",
+        "imgsrc": "/images/illustrate/thumbs/13.png",
+        "moral": "आमाबाबुको सेवा गर्नु पुण्य हो।",
+        "origin": "रामायण",
+        "summary": "श्रवण कुमार आफ्ना दृष्टिविहीन आमाबाबुको हेरचाह गर्छन् र भक्तिको प्रतीक बन्छन्।",
+        "themes": [
+          "भक्ति",
+          "परिवार"
+        ]
+      },
+      {
+        "title": "गणेश र आँप",
+        "characters": [
+          "गणेश",
+          "कार्तिकेय",
+          "शिव",
+          "पार्वती"
+        ],
+        "id": 14,
+        "imgalt": "Ganesha and the Mango",
+        "imgsrc": "/images/illustrate/thumbs/14.png",
+        "moral": "बुद्धि गति भन्दा ठूलो छ।",
+        "origin": "पुराण",
+        "summary": "गणेशले संसारको सट्टा आफ्ना आमाबुवाको परिक्रमा गरेर प्रतियोगिता जित्छन्।",
+        "themes": [
+          "परिवार",
+          "बुद्धि"
+        ]
+      },
+      {
+        "title": "राजा र भँगेरा",
+        "characters": [
+          "राजा",
+          "भँगेरा"
+        ],
+        "id": 15,
+        "imgalt": "The King and the Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/15.png",
+        "moral": "दयाका साना कार्यहरू महत्त्वपूर्ण छन्।",
+        "origin": "भारतीय लोककथा",
+        "summary": "भँगेराले राजालाई नम्रता सिक्न मद्दत गर्छ।",
+        "themes": [
+          "दया",
+          "नम्रता"
+        ]
+      },
+      {
+        "title": "गोल्डेन स्वान",
+        "characters": [
+          "गोल्डेन स्वान",
+          "आमा",
+          "छोरीहरु"
+        ],
+        "id": 16,
+        "imgalt": "The Golden Swan",
+        "imgsrc": "/images/illustrate/thumbs/16.png",
+        "moral": "लोभले सुखलाई नष्ट गर्छ।",
+        "origin": "जातक कथा",
+        "summary": "सुनको हंसले गरिब परिवारलाई प्वाँख दिन्छ, तर लोभले सबै बर्बाद गर्छ।",
+        "themes": [
+          "लोभ",
+          "उदारता"
+        ]
+      },
+      {
+        "title": "भोको मुसा",
+        "characters": [
+          "माउस"
+        ],
+        "id": 17,
+        "imgalt": "The Hungry Mouse",
+        "imgsrc": "/images/illustrate/thumbs/17.png",
+        "moral": "आत्म-नियन्त्रण महत्त्वपूर्ण छ।",
+        "origin": "पञ्चतन्त्र",
+        "summary": "धेरै खाएपछि मुसा प्वालमा अड्किन्छ।",
+        "themes": [
+          "अनुशासन"
+        ]
+      },
+      {
+        "title": "सिंह र मुसा",
+        "characters": [
+          "सिंह",
+          "माउस"
+        ],
+        "id": 18,
+        "imgalt": "The Lion and the Mouse",
+        "imgsrc": "/images/illustrate/thumbs/18.png",
+        "moral": "सानोले पनि शक्तिशालीलाई मद्दत गर्न सक्छ।",
+        "origin": "भारतीय अनुकूलन",
+        "summary": "सिंहले मुसालाई बचायो र मुसाले पछि सिंहलाई बचायो।",
+        "themes": [
+          "दया",
+          "मित्रता"
+        ]
+      },
+      {
+        "title": "बुद्धिमान सिकर्मी",
+        "characters": [
+          "सिकर्मी",
+          "गाउँलेहरू"
+        ],
+        "id": 19,
+        "imgalt": "The Wise Carpenter",
+        "imgsrc": "/images/illustrate/thumbs/19.png",
+        "moral": "बुद्धिले विवाद समाधान गर्छ।",
+        "origin": "भारतीय गाउँ कथा",
+        "summary": "एक सिकर्मीले चतुर योजना प्रयोग गरेर शान्तिपूर्वक भूमि विवाद समाधान गर्दछ।",
+        "themes": [
+          "शान्ति",
+          "न्याय"
+        ]
+      },
+      {
+        "title": "म्याजिक ड्रम",
+        "characters": [
+          "केटा",
+          "परीहरू"
+        ],
+        "id": 20,
+        "imgalt": "The Magic Drum",
+        "imgsrc": "/images/illustrate/thumbs/20.png",
+        "moral": "इमानदारीलाई पुरस्कृत गरिन्छ।",
+        "origin": "भारतीय लोककथा",
+        "summary": "एक दयालु केटाले जादुई ड्रम प्राप्त गर्दछ जसले खाना र खेलौनाहरू सिर्जना गर्दछ।",
+        "themes": [
+          "जादू",
+          "दया"
+        ]
+      },
+      {
+        "title": "बहादुर सानो भँगेरा",
+        "characters": [
+          "भँगेरा",
+          "हात्ती"
+        ],
+        "id": 21,
+        "imgalt": "The Brave Little Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/21.png",
+        "moral": "साहसले शक्तिशालीलाई पराजित गर्न सक्छ।",
+        "origin": "भारत",
+        "summary": "एउटा भँगेराले आफ्ना बच्चाहरूलाई ठूलो हात्तीबाट बचाउँछ।",
+        "themes": [
+          "साहस"
+        ]
+      },
+      {
+        "title": "अर्जुन र पक्षीको आँखा",
+        "characters": [
+          "अर्जुन",
+          "द्रोण"
+        ],
+        "id": 22,
+        "imgalt": "Arjuna and the Bird’s Eye",
+        "imgsrc": "/images/illustrate/thumbs/22.png",
+        "moral": "फोकसले सफलतातर्फ डो¥याउँछ ।",
+        "origin": "महाभारत",
+        "summary": "अर्जुनले चराको आँखामा मात्र ध्यान केन्द्रित गरेर आफ्नो गुरुलाई प्रभाव पार्छ।",
+        "themes": [
+          "अनुशासन",
+          "तालिम"
+        ]
+      },
+      {
+        "title": "बाङ्गो रूख",
+        "characters": [
+          "बाङ्गो रुख",
+          "अग्लो रूखहरू"
+        ],
+        "id": 23,
+        "imgalt": "The Crooked Tree",
+        "imgsrc": "/images/illustrate/thumbs/23.png",
+        "moral": "तपाईं जो हुनुहुन्छ त्यसमा सन्तुष्ट हुनुहोस्।",
+        "origin": "भारतीय वन कथा",
+        "summary": "एउटा बाङ्गो रूख यसको आकारको कारणले काठ काट्नेहरूबाट बच्न सक्छ।",
+        "themes": [
+          "आत्म-मूल्य"
+        ]
+      },
+      {
+        "title": "जादुई भाँडो",
+        "characters": [
+          "किसान"
+        ],
+        "id": 24,
+        "imgalt": "The Magic Pot",
+        "imgsrc": "/images/illustrate/thumbs/24.png",
+        "moral": "राम्रा कुराहरू राम्रा मानिसहरूमा आउँछन्।",
+        "origin": "भारतीय लोकगीत",
+        "summary": "एक किसानले एउटा भाँडो फेला पार्छ जुन उसले भित्र राखेको कुरालाई दोब्बर बनाउँछ।",
+        "themes": [
+          "जादू",
+          "राम्रो भाग्य"
+        ]
+      },
+      {
+        "title": "द काइन्ड हिरण",
+        "characters": [
+          "हिरण राजा",
+          "डो",
+          "मानव राजा"
+        ],
+        "id": 25,
+        "imgalt": "The Kind Deer",
+        "imgsrc": "/images/illustrate/thumbs/25.png",
+        "moral": "दयाले दयालाई प्रेरित गर्छ।",
+        "origin": "जातक कथा",
+        "summary": "मृग राजाले कुकुर बचाउँछ र राजाको सम्मान कमाउँछ।",
+        "themes": [
+          "करुणा"
+        ]
+      },
+      {
+        "title": "उडिरहेको हात्ती",
+        "characters": [
+          "हात्ती",
+          "ऋषि"
+        ],
+        "id": 26,
+        "imgalt": "The Flying Elephant",
+        "imgsrc": "/images/illustrate/thumbs/26.png",
+        "moral": "नम्र हुनुहोस्।",
+        "origin": "भारतीय काल्पनिक",
+        "summary": "पखेटा भएको हात्तीले आफ्नो शक्तिको दुरुपयोग गरेर हराउँछ।",
+        "themes": [
+          "नम्रता"
+        ]
+      },
+      {
+        "title": "बुद्धिको भाँडो",
+        "characters": [
+          "केटा",
+          "ऋषि"
+        ],
+        "id": 27,
+        "imgalt": "The Pot of Wisdom",
+        "imgsrc": "/images/illustrate/thumbs/27.png",
+        "moral": "साझा गर्दा बुद्धि बढ्छ।",
+        "origin": "दक्षिण भारतीय कथा",
+        "summary": "एक केटाले सिक्छ कि कसैले पनि सबै बुद्धि एक्लै राख्न सक्दैन।",
+        "themes": [
+          "सिक्दै"
+        ]
+      },
+      {
+        "title": "जादुई माछा",
+        "characters": [
+          "माछा मार्ने",
+          "जादुई माछा"
+        ],
+        "id": 28,
+        "imgalt": "The Magic Fish",
+        "imgsrc": "/images/illustrate/thumbs/28.png",
+        "moral": "कृतज्ञता महत्त्वपूर्ण छ।",
+        "origin": "हिन्द महासागर लोककथा",
+        "summary": "एक मछुवाले एक जादुई माछा समात्छ जसले स्वतन्त्रताको बदलामा मद्दत प्रदान गर्दछ।",
+        "themes": [
+          "कृतज्ञता",
+          "जादू"
+        ]
+      },
+      {
+        "title": "नरिवल र कमिला",
+        "characters": [
+          "कमिलाहरू",
+          "नरिवल"
+        ],
+        "id": 29,
+        "imgalt": "The Coconut and the Ant",
+        "imgsrc": "/images/illustrate/thumbs/29.png",
+        "moral": "सानो प्रयास पनि महत्त्वपूर्ण छ।",
+        "origin": "गाउँको कथा",
+        "summary": "कमिलाहरू एक नरिवललाई समुद्रमा पुग्न मद्दत गर्न एकसाथ जोडिन्छन्।",
+        "themes": [
+          "टिमवर्क"
+        ]
+      },
+      {
+        "title": "बाघ र वुडकटर",
+        "characters": [
+          "बाघ",
+          "काठ काट्ने"
+        ],
+        "id": 30,
+        "imgalt": "The Tiger and the Woodcutter",
+        "imgsrc": "/images/illustrate/thumbs/30.png",
+        "moral": "अरूलाई मद्दत गर्नुहोस् र तपाईंलाई मद्दत गरिनेछ।",
+        "origin": "भारतीय जंगल कथा",
+        "summary": "एउटा काठ काट्नेले फँसेको बाघलाई मुक्त गर्छ जसले आश्चर्यजनक रूपमा आफ्नो ज्यान जोगाउँछ।",
+        "themes": [
+          "करुणा",
+          "साहस"
+        ]
+      },
+      {
+        "title": "दुई बिरालो र बाँदर",
+        "characters": [
+          "बिरालाहरू",
+          "बाँदर"
+        ],
+        "id": 31,
+        "imgalt": "The Two Cats and the Monkey",
+        "imgsrc": "/images/illustrate/thumbs/31.png",
+        "moral": "आफ्नो झगडा अरूलाई मिलाउन नदिनुहोस्।",
+        "origin": "पञ्चतन्त्र",
+        "summary": "एउटा बाँदरले दुईवटा बिरालालाई राम्रोसँग बाँड्ने नाटक गर्दै रोटी खान्छ।",
+        "themes": [
+          "न्याय",
+          "मूर्खता"
+        ]
+      },
+      {
+        "title": "भँगेरा र सागर",
+        "characters": [
+          "भँगेरा",
+          "सागर",
+          "रामा"
+        ],
+        "id": 32,
+        "imgalt": "The Sparrow and the Sea",
+        "imgsrc": "/images/illustrate/thumbs/32.png",
+        "moral": "दृढ संकल्पले पहाडहरू सार्छ।",
+        "origin": "राम कथा",
+        "summary": "भँगेराले आफ्नो अण्डा लिँदा समुद्रलाई धम्की दिन्छ, भगवान रामलाई प्रेरित गर्दै।",
+        "themes": [
+          "निर्धारण"
+        ]
+      },
+      {
+        "title": "बाघ रोएको केटा",
+        "characters": [
+          "केटा",
+          "गाउँलेहरू",
+          "बाघ"
+        ],
+        "id": 33,
+        "imgalt": "The Boy Who Cried Tiger",
+        "imgsrc": "/images/illustrate/thumbs/33.png",
+        "moral": "कहिल्यै झुट नबोल्नुहोस।",
+        "origin": "भारतीय अनुकूलन",
+        "summary": "एक केटाले गाउँलेहरूलाई मूर्ख बनाउँछ तर बाघ देखा पर्दा दुःख पाउँछ।",
+        "themes": [
+          "इमानदारी"
+        ]
+      },
+      {
+        "title": "जादुई बरगदको रूख",
+        "characters": [
+          "रुख",
+          "यात्री"
+        ],
+        "id": 34,
+        "imgalt": "The Magic Banyan Tree",
+        "imgsrc": "/images/illustrate/thumbs/34.png",
+        "moral": "उदारताले भाग्य ल्याउँछ।",
+        "origin": "लोककथा",
+        "summary": "रूखले दयालु यात्रीलाई फल, छाया र सुनका सिक्का दिन्छ।",
+        "themes": [
+          "दया"
+        ]
+      },
+      {
+        "title": "जिज्ञासु मयूर",
+        "characters": [
+          "मयूर",
+          "कोकिला"
+        ],
+        "id": 35,
+        "imgalt": "The Curious Peacock",
+        "imgsrc": "/images/illustrate/thumbs/35.png",
+        "moral": "आफ्नो शक्ति संग खुशी हुनुहोस्।",
+        "origin": "भारतीय पशु कथा",
+        "summary": "मयूरले कोकिलाको स्वर चाहिन्छ तर सुन्दरताको आफ्नै आकर्षण हुन्छ भनेर सिक्छ।",
+        "themes": [
+          "आत्म-प्रेम"
+        ]
+      },
+      {
+        "title": "द चतुर वीभर",
+        "characters": [
+          "बुनकर",
+          "भूत"
+        ],
+        "id": 36,
+        "imgalt": "The Clever Weaver",
+        "imgsrc": "/images/illustrate/thumbs/36.png",
+        "moral": "बुद्धिमानी कामले जित्छ।",
+        "origin": "दक्षिण भारत",
+        "summary": "बुन्नेले भूतलाई मूर्ख बनाउँछ र धनी हुन्छ।",
+        "themes": [
+          "साहस",
+          "बुद्धि"
+        ]
+      },
+      {
+        "title": "परिश्रम को फल",
+        "characters": [
+          "भाइहरु"
+        ],
+        "id": 37,
+        "imgalt": "The Fruits of Hard Work",
+        "imgsrc": "/images/illustrate/thumbs/37.png",
+        "moral": "कडा परिश्रम सधैं फल्छ।",
+        "origin": "भारतीय गाउँ",
+        "summary": "दुई दाजुभाइले सिकेका छन् कि भाग्य भन्दा प्रयास महत्त्वपूर्ण छ।",
+        "themes": [
+          "कडा परिश्रम"
+        ]
+      },
+      {
+        "title": "सानो ड्रम",
+        "characters": [
+          "केटा"
+        ],
+        "id": 38,
+        "imgalt": "The Little Drum",
+        "imgsrc": "/images/illustrate/thumbs/38.png",
+        "moral": "असल कर्महरू बढ्छन्।",
+        "origin": "उत्तर भारत",
+        "summary": "एउटा केटालाई एउटा ड्रम उपहार दिइन्छ जसले ऊ जहाँ जान्छ त्यहाँ खुशी ल्याउँछ।",
+        "themes": [
+          "दया"
+        ]
+      },
+      {
+        "title": "गधा र बाघको छाला",
+        "characters": [
+          "गधा",
+          "किसान"
+        ],
+        "id": 39,
+        "imgalt": "The Donkey and the Tiger Skin",
+        "imgsrc": "/images/illustrate/thumbs/39.png",
+        "moral": "अरू कोही भएको बहानाले समस्या निम्त्याउँछ।",
+        "origin": "पञ्चतन्त्र",
+        "summary": "गधाले बाघको छाला लगाउँछ तर घुँडाले सबै नष्ट गर्छ।",
+        "themes": [
+          "पहिचान"
+        ]
+      },
+      {
+        "title": "लुकेको खजाना",
+        "characters": [
+          "बुबा",
+          "छोराहरू"
+        ],
+        "id": 40,
+        "imgalt": "The Hidden Treasure",
+        "imgsrc": "/images/illustrate/thumbs/40.png",
+        "moral": "काम आफैमा धन हो।",
+        "origin": "भारतीय गाउँ कथा",
+        "summary": "एक बाबुले आफ्ना छोराहरूलाई खेतमा खजाना गाडिएको भन्दै खेतीपाती गर्न लगाउँछन्।",
+        "themes": [
+          "कडा परिश्रम"
+        ]
+      },
+      {
+        "title": "बहादुर तोता",
+        "characters": [
+          "तोता",
+          "भगवान"
+        ],
+        "id": 41,
+        "imgalt": "The Brave Parrot",
+        "imgsrc": "/images/illustrate/thumbs/41.png",
+        "moral": "साहसले अरूलाई मद्दत गर्छ।",
+        "origin": "जातक कथा",
+        "summary": "एउटा सुताले जलिरहेको जङ्गललाई बचाउन खोज्छ र देवताहरूलाई प्रेरित गर्छ।",
+        "themes": [
+          "बहादुरी"
+        ]
+      },
+      {
+        "title": "केटा र ड्रम",
+        "characters": [
+          "केटा"
+        ],
+        "id": 42,
+        "imgalt": "The Boy and the Drum",
+        "imgsrc": "/images/illustrate/thumbs/42.png",
+        "moral": "साना उपहारहरूले ठूलो फरक पार्न सक्छ।",
+        "origin": "भारतीय लोककथा",
+        "summary": "एक केटा खुसी फैलाउन ड्रम प्रयोग गर्दछ।",
+        "themes": [
+          "दया"
+        ]
+      },
+      {
+        "title": "माउस व्यापारी",
+        "characters": [
+          "व्यापारी"
+        ],
+        "id": 43,
+        "imgalt": "The Mouse Merchant",
+        "imgsrc": "/images/illustrate/thumbs/43.png",
+        "moral": "भाग्यले साहसलाई साथ दिन्छ।",
+        "origin": "पञ्चतन्त्र",
+        "summary": "मानिस एक मुसाबाट सुरु गरेर धनी बन्छ।",
+        "themes": [
+          "साहस"
+        ]
+      },
+      {
+        "title": "कुरा गर्ने गुफा",
+        "characters": [
+          "सिंह",
+          "स्याल"
+        ],
+        "id": 44,
+        "imgalt": "The Talking Cave",
+        "imgsrc": "/images/illustrate/thumbs/44.png",
+        "moral": "अत्यधिक सोचाइले समस्या निम्त्याउँछ।",
+        "origin": "पञ्चतन्त्र",
+        "summary": "सिंह गुफामा लुकेर बस्छ र चतुर स्यालले खतराबाट बच्न सक्छ।",
+        "themes": [
+          "सावधानी"
+        ]
+      },
+      {
+        "title": "लोभी नाई",
+        "characters": [
+          "नाई"
+        ],
+        "id": 45,
+        "imgalt": "The Greedy Barber",
+        "imgsrc": "/images/illustrate/thumbs/45.png",
+        "moral": "लोभले बुद्धि नष्ट गर्छ।",
+        "origin": "भारत",
+        "summary": "नाईले लोभको कारण आफ्नो सबै धन गुमाउँछ।",
+        "themes": [
+          "लोभ"
+        ]
+      },
+      {
+        "title": "मिल्कमेडको सपना",
+        "characters": [
+          "मिल्कमेड"
+        ],
+        "id": 46,
+        "imgalt": "The Milkmaid’s Dream",
+        "imgsrc": "/images/illustrate/thumbs/46.png",
+        "moral": "आफ्नो कुखुरा निस्कनु अघि गणना नगर्नुहोस्।",
+        "origin": "भारत",
+        "summary": "एक दुधकी दासीले धनको सपना देख्छे र आफ्नो दूध छाल्छ।",
+        "themes": [
+          "योजना"
+        ]
+      },
+      {
+        "title": "जादुई भँगेरा",
+        "characters": [
+          "भँगेरा",
+          "किसान"
+        ],
+        "id": 47,
+        "imgalt": "The Magical Sparrow",
+        "imgsrc": "/images/illustrate/thumbs/47.png",
+        "moral": "मद्दतले इनाम ल्याउँछ।",
+        "origin": "भारतीय गाउँ",
+        "summary": "एउटा भँगेराले किसानलाई मद्दत गर्छ र उसको बाली जादुई रूपमा बढ्छ।",
+        "themes": [
+          "जादू",
+          "दया"
+        ]
+      },
+      {
+        "title": "बुद्धिमान पुरानो हात्ती",
+        "characters": [
+          "हात्ती"
+        ],
+        "id": 48,
+        "imgalt": "The Wise Old Elephant",
+        "imgsrc": "/images/illustrate/thumbs/48.png",
+        "moral": "उमेरले बुद्धि ल्याउँछ।",
+        "origin": "भारतीय जंगल कथा",
+        "summary": "एक वृद्ध हात्तीले खडेरीको समयमा आफ्नो बथानलाई सुरक्षामा डोऱ्‍याउँछ।",
+        "themes": [
+          "बुद्धि"
+        ]
+      },
+      {
+        "title": "कमल र भ्यागुता",
+        "characters": [
+          "भ्यागुता",
+          "कमल"
+        ],
+        "id": 49,
+        "imgalt": "The Lotus and the Frog",
+        "imgsrc": "/images/illustrate/thumbs/49.png",
+        "moral": "धैर्यता शक्तिशाली छ।",
+        "origin": "भारतीय नदी कथा",
+        "summary": "कमलले बेचैन भ्यागुतालाई सुस्त हुन सिकाउँछ।",
+        "themes": [
+          "धैर्य"
+        ]
+      },
+      {
+        "title": "राजा जसले धेरै मिठाई खाए",
+        "characters": [
+          "राजा",
+          "रोयल कुक"
+        ],
+        "id": 50,
+        "imgalt": "The King Who Ate Too Many Sweets",
+        "imgsrc": "/images/illustrate/thumbs/50.png",
+        "moral": "मध्यस्थता महत्त्वपूर्ण छ।",
+        "origin": "भारतीय दरबार कथा",
+        "summary": "एक राजाले मिठाई धेरै खान्छ र आफ्नो लालसा नियन्त्रण गर्न सिक्छ।",
+        "themes": [
+          "स्वास्थ्य",
+          "अनुशासन"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,464 @@
+{
+  "sharable_strings": {
+    "banner_notifications": {
+      "title": "Если вы считаете нашу работу полезной, рассмотрите возможность поддержать нас в сохранении этой веб-страницы.",
+      "links": {
+        "alive": "/donate"
+      },
+      "subtitle": "и помогите нам расти, сделав небольшое пожертвование."
+    },
+    "banner_notifications2": {
+      "title": "Защищая корни Санатана Дхармы ради светлого будущего.",
+      "subtitle": "Расширение возможностей будущих поколений посредством вневременных ведических знаний."
+    },
+    "cookieconsent": {
+      "acceptall": "Принять все",
+      "cookiepolicy": "Политика использования файлов cookie",
+      "managerbutton": "Менеджер предпочтений файлов cookie",
+      "paragraph": "Мы используем файлы cookie для отслеживания посетителей, измерения рекламы, эффективности рекламных кампаний и анализа трафика сайта. Мы также можем передавать информацию об использовании вами нашего сайта третьим лицам. Для получения дополнительной информации см. наши {cookiePolicyLink} и {privacyPolicyLink}. Нажав «{managerLabel}», вы можете включить только определенные категории файлов cookie. Нажимая «{acceptAllLabel}», вы соглашаетесь на сохранение всех файлов cookie на вашем устройстве. Если вы не выберете один из этих вариантов и не воспользуетесь нашим веб-сайтом, мы будем считать, что вы приняли все файлы cookie.",
+      "privacypolicy": "политика конфиденциальности"
+    },
+    "cookiepolicy": {
+      "title": "Политика использования файлов cookie",
+      "datasharing": "Обмен данными",
+      "datasharingdesc": "Мы можем передавать агрегированную информацию третьим лицам для аналитики и рекламы. По умолчанию конфиденциальные персональные данные не передаются.",
+      "intro": "В настоящей Политике использования файлов cookie объясняется, как мы используем файлы cookie и аналогичные технологии на нашем веб-сайте.",
+      "lastupdated": "Последнее обновление: {date}",
+      "managing": "Управление вашими предпочтениями",
+      "managingdesc": "Откройте Диспетчер предпочтений файлов cookie на баннере, чтобы включить или отключить категории. Если вы принимаете все файлы cookie, мы сохраним ваш выбор и будем применять его при каждом посещении.",
+      "types": {
+        "functionality": "Функциональность: запоминайте выбор и предпочтения.",
+        "performance": "Производительность. Помогите нам проанализировать трафик и производительность.",
+        "strictlynecessary": "Строго необходимо: Требуется для работы сайта.",
+        "targeting": "Таргетинг: используется для рекламы и персонализации."
+      },
+      "typesheading": "Типы файлов cookie, которые мы используем",
+      "whatarecookies": "Что такое файлы cookie?"
+    },
+    "footer": {
+      "title": "Он и ее сын Хейли Уинстон. Джонни Сэнсэй",
+      "contact": "Свяжитесь с нами",
+      "contentchange": "Содержимое может быть неполным или может быть изменено.",
+      "copyright": "Вулчи Виджая Кумар Раджу © 2025.",
+      "disclaimer": "Отказ от ответственности: Этот сайт в настоящее время находится в разработке.",
+      "donate": "Пожертвовать",
+      "scriptures": {
+        "title": "Священные Писания",
+        "nav": {
+          "bhagavadgita": "Бхагаватгита",
+          "mahabharata": "Махабхарата",
+          "ramayana": "Рамаяна"
+        }
+      },
+      "stories": {
+        "title": "Истории",
+        "nav": {
+          "shiva": "Господь Шива",
+          "vishnu": "Господь Вишну",
+          "krishna": "Господь Кришна"
+        }
+      },
+      "philosophy": {
+        "title": "Философия",
+        "nav": {
+          "dharma": "Дхарма",
+          "karma": "Карма",
+          "moksha": "Мокша"
+        }
+      },
+      "kidszone": {
+        "title": "Детская зона",
+        "nav": {
+          "illustratedstories": "Иллюстрированные рассказы",
+          "mythologicalquizzes": "Мифологические викторины"
+        }
+      },
+      "others": {
+        "title": "Санатана дхармам",
+        "nav": {
+          "religion-conversion": "Религия",
+          "jyotirlings": "Джйотирлинги",
+          "rivers-connecting": "Реки, соединяющиеся"
+        }
+      },
+      "privacy": "политика конфиденциальности",
+      "quote": "Всякий раз, когда праведность приходит в упадок и возрастает неправедность, Я проявляю Себя. Чтобы защитить праведников, уничтожить нечестивцев и восстановить принципы дхармы, я появляюсь тысячу лет за тысячелетием.",
+      "quotesource": "(Бхагавад-гита 4.7)",
+      "terms": "Условия использования"
+    },
+    "header": {
+      "scriptures": {
+        "title": "Священные Писания",
+        "nav": {
+          "bhagavadgita": "Бхагаватгита",
+          "mahabharata": "Махабхарата",
+          "ramayana": "Рамаяна",
+          "sanksheparamayanam": "Санкшепа Рамаяна"
+        }
+      },
+      "philosophy": {
+        "title": "Философия",
+        "nav": {
+          "dharma": "Дхарма",
+          "karma": "Карма",
+          "moksha": "Мокша",
+          "samsara": "Самсара"
+        }
+      },
+      "kidszone": {
+        "title": "Детская зона",
+        "nav": {
+          "illustratedstories": "Иллюстрированные рассказы",
+          "mythologicalquizzes": "Мифологические викторины"
+        }
+      },
+      "about": "О"
+    },
+    "policies": {
+      "cookiepolicy": {
+        "title": "Политика использования файлов cookie",
+        "datasharing": "Обмен данными",
+        "datasharingdesc": "Мы можем передавать агрегированную информацию третьим лицам для аналитики и рекламы. По умолчанию конфиденциальные персональные данные не передаются.",
+        "intro": "В настоящей Политике использования файлов cookie объясняется, как мы используем файлы cookie и аналогичные технологии на нашем веб-сайте.",
+        "lastupdated": "Последнее обновление: {date}",
+        "managing": "Управление вашими предпочтениями",
+        "managingdesc": "Откройте Диспетчер предпочтений файлов cookie на баннере, чтобы включить или отключить категории. Если вы принимаете все файлы cookie, мы сохраним ваш выбор и будем применять его при каждом посещении.",
+        "types": {
+          "functionality": "Функциональность: запоминайте выбор и предпочтения.",
+          "performance": "Производительность. Помогите нам проанализировать трафик и производительность.",
+          "strictlynecessary": "Строго необходимо: Требуется для работы сайта.",
+          "targeting": "Таргетинг: используется для рекламы и персонализации."
+        },
+        "typesheading": "Типы файлов cookie, которые мы используем",
+        "whatarecookies": "Что такое файлы cookie?"
+      },
+      "privacypolicy": {
+        "title": "политика конфиденциальности",
+        "howweuse": "Как мы используем информацию",
+        "howweusedesc": "Информация используется для эксплуатации, обслуживания и предоставления функций веб-сайта, а также для анализа моделей использования.",
+        "informationdesc": "Мы собираем предоставленную вами информацию, файлы cookie и анонимные аналитические данные для улучшения обслуживания.",
+        "informationheading": "Информация, которую мы собираем",
+        "intro": "В настоящей Политике конфиденциальности описывается, как мы собираем, используем и защищаем вашу личную информацию.",
+        "lastupdated": "Последнее обновление: {date}",
+        "yourrights": "Ваши права",
+        "yourrightsdesc": "Вы можете запросить доступ, исправление или удаление ваших персональных данных, обратившись к нам на сайте."
+      }
+    },
+    "scrolltotop": {
+      "title": "Вернуться наверх",
+      "arialabel": "Прокрутить вверх"
+    },
+    "sitetitle": "Санатана Дхарма",
+    "similar_categories": {
+      "scriptures": {
+        "title": "Священные Писания",
+        "nav": {
+          "purans": "Пураны",
+          "upanishads": "Упанишады",
+          "vedas": "Веды",
+          "ramayana": "Ramayana",
+          "bala_kanda": "Bala Kanda",
+          "ayodhya_kanda": "Ayodhya Kanda",
+          "aranya_kanda": "Aranya Kanda",
+          "kishkindha_kanda": "Kishkindha Kanda",
+          "sundara_kanda": "Sundara Kanda",
+          "yuddha_kanda": "Yuddha Kanda",
+          "uttara_kanda": "Uttara Kanda",
+          "mahabharata": "Mahabharata",
+          "adi_parva_the_book_of_beginnings": "Adi Parva The Book of Beginnings",
+          "sabha_parva_the_book_of_the_royal_assembly": "Sabha Parva The Book of the Royal Assembly",
+          "vana_parva_the_book_of_the_forest": "Vana Parva The Book of the Forest",
+          "virata_parva_the_book_of_virata": "Virata Parva The Book of Virata",
+          "udyoga_parva_the_book_of_effort_and_preparation": "Udyoga Parva The Book of Effort and Preparation",
+          "bhishma_parva_the_book_of_bhishma": "Bhishma Parva The Book of Bhishma",
+          "drona_parva_the_book_of_drona": "Drona Parva The Book of Drona",
+          "karna_parva_the_book_of_karna": "Karna Parva The Book of Karna",
+          "shalya_parva_the_book_of_shalya": "Shalya Parva The Book of Shalya",
+          "sauptika_parva_the_book_of_the_sleeping_warriors": "Sauptika Parva The Book of the Sleeping Warriors",
+          "stri_parva_the_book_of_the_women": "Stri Parva The Book of the Women",
+          "shanti_parva_the_book_of_peace": "Shanti Parva The Book of Peace",
+          "ashvamedhika_parva_the_book_of_the_horse_sacrifice": "Ashvamedhika Parva The Book of the Horse Sacrifice",
+          "ashramavasika_parva_the_book_of_the_hermitage": "Ashramavasika Parva The Book of the Hermitage",
+          "mausala_parva_the_book_of_the_clubs": "Mausala Parva The Book of the Clubs",
+          "mahaprasthanika_parva_the_book_of_the_great_journey": "Mahaprasthanika Parva The Book of the Great Journey",
+          "svargarohana_parva_the_book_of_the_ascent_to_heaven": "Svargarohana Parva The Book of the Ascent to Heaven",
+          "sanksheparamayanam": "Sankshepa Ramayanam",
+          "bhagavadgita": "Bhagavad Gita",
+          "bhagavadgita_part_1": "Bhagavad Gita Part 1",
+          "bhagavadgita_part_2": "Bhagavad Gita Part 2",
+          "bhagavadgita_part_3": "Bhagavad Gita Part 3",
+          "bhagavadgita_part_4": "Bhagavad Gita Part 4",
+          "bhagavadgita_part_5": "Bhagavad Gita Part 5",
+          "bhagavadgita_part_6": "Bhagavad Gita Part 6",
+          "bhagavadgita_part_7": "Bhagavad Gita Part 7",
+          "bhagavadgita_part_8": "Bhagavad Gita Part 8",
+          "bhagavadgita_part_9": "Bhagavad Gita Part 9",
+          "bhagavadgita_part_10": "Bhagavad Gita Part 10",
+          "bhagavadgita_part_11": "Bhagavad Gita Part 11",
+          "bhagavadgita_part_12": "Bhagavad Gita Part 12",
+          "bhagavadgita_part_13": "Bhagavad Gita Part 13",
+          "bhagavadgita_part_14": "Bhagavad Gita Part 14",
+          "bhagavadgita_part_15": "Bhagavad Gita Part 15",
+          "bhagavadgita_part_16": "Bhagavad Gita Part 16",
+          "bhagavadgita_part_17": "Bhagavad Gita Part 17",
+          "bhagavadgita_part_18": "Bhagavad Gita Part 18",
+          "bhagavadgita_part_19": "Bhagavad Gita Part 19",
+          "bhagavadgita_part_20": "Bhagavad Gita Part 20",
+          "bhagavadgita_part_21": "Bhagavad Gita Part 21",
+          "bhagavadgita_part_22": "Bhagavad Gita Part 22",
+          "bhagavadgita_part_23": "Bhagavad Gita Part 23",
+          "bhagavadgita_part_24": "Bhagavad Gita Part 24",
+          "bhagavadgita_part_25": "Bhagavad Gita Part 25",
+          "bhagavadgita_part_26": "Bhagavad Gita Part 26",
+          "bhagavadgita_part_27": "Bhagavad Gita Part 27",
+          "bhagavadgita_part_28": "Bhagavad Gita Part 28",
+          "bhagavadgita_part_29": "Bhagavad Gita Part 29",
+          "bhagavadgita_part_30": "Bhagavad Gita Part 30",
+          "bhagavadgita_part_31": "Bhagavad Gita Part 31",
+          "bhagavadgita_part_32": "Bhagavad Gita Part 32",
+          "bhagavadgita_part_33": "Bhagavad Gita Part 33",
+          "bhagavadgita_part_34": "Bhagavad Gita Part 34",
+          "bhagavadgita_part_35": "Bhagavad Gita Part 35",
+          "bhagavadgita_part_36": "Bhagavad Gita Part 36",
+          "bhagavadgita_part_37": "Bhagavad Gita Part 37"
+        }
+      },
+      "philosophy": {
+        "title": "Философия",
+        "nav": {
+          "advaita": "Адвайта",
+          "purushartha": "Пурушартха",
+          "samsara": "Самсара",
+          "dharma": "Дхарма",
+          "karma": "Карма",
+          "moksha": "Мокша"
+        }
+      },
+      "practices": {
+        "title": "Практики",
+        "nav": {
+          "dailypoojas": "Ежедневные пуджи",
+          "festivals": "Фестивали",
+          "rituals": "Ритуалы",
+          "vastushastra": "Вастушастра",
+          "yogasanas": "Асаны йоги",
+          "meditation": "Медитация",
+          "horoscope": "Гороскоп"
+        }
+      },
+      "stories": {
+        "title": "Еще немного историй",
+        "nav": {
+          "adishankaracharya": "Ади Шанкарачарья",
+          "bhishma": "Бхишма",
+          "bramha": "Брахма",
+          "lakshmi": "Богиня Лакшми",
+          "parashurama": "Парашурама",
+          "parvathi": "Богиня Парвати",
+          "saraswati": "Богиня Сарасвати",
+          "vasistamaharshi": "Васиста Махарши",
+          "vishwamitra": "Вишвамитра"
+        }
+      },
+      "stotras": {
+        "title": "Стотры",
+        "nav": {
+          "ganesh": "Ганеша",
+          "hanuman": "Хануман",
+          "devi": "Деви",
+          "shiva": "Шива",
+          "vishnu": "Вишну",
+          "dailyprayers": "Ежедневные молитвы"
+        }
+      },
+      "others": {
+        "title": "Санатана Дхармам",
+        "nav": {
+          "cosmictime": "Космические времена",
+          "temples-destroyed": "Храмы разрушены",
+          "temples-in-india": "Храмы в Индии",
+          "world-transformation": "Трансформация мира",
+          "historical-timeline": "Историческая хронология",
+          "sanatanadharma": "Санатана Дхармам",
+          "shakti-peethas": "Шакти Питас",
+          "drip-irrigation-process": "Drip Irrigation Process"
+        }
+      }
+    },
+    "cosmic_time_structure": {
+      "mahayuga_total_years": 4320000,
+      "yugas": [
+        {
+          "name": "Сатья Юга",
+          "duration_years": 1728000,
+          "dharma_percentage": 100
+        },
+        {
+          "name": "Трета Юга",
+          "duration_years": 1296000,
+          "dharma_percentage": 75
+        },
+        {
+          "name": "Двапара Юга",
+          "duration_years": 864000,
+          "dharma_percentage": 50
+        },
+        {
+          "name": "Кали Юга",
+          "duration_years": 432000,
+          "dharma_percentage": 25
+        }
+      ]
+    },
+    "dashavatara": [
+      {
+        "order": 1,
+        "name": "Матсья",
+        "type": "Водный",
+        "yuga": "Сатья Юга",
+        "purpose": "Спасите Веды и Ману от космического потопа.",
+        "primary_antagonist": "Хаягрива (в некоторых традициях)",
+        "associated_texts": [
+          "Бхагавата Пурана",
+          "Вишну Пурана"
+        ],
+        "symbolism": "Начало жизни; сохранение знаний",
+        "evolutionary_symbolism": "Водная стадия жизни"
+      },
+      {
+        "order": 2,
+        "name": "Курма",
+        "type": "амфибия",
+        "yuga": "Сатья Юга",
+        "purpose": "Поддержите гору Мандара во время Самудры Мантаны.",
+        "primary_event": "Взбалтывание океана",
+        "associated_texts": [
+          "Бхагавата Пурана",
+          "Махабхарата"
+        ],
+        "symbolism": "Стабильность и космическая поддержка",
+        "evolutionary_symbolism": "Переход амфибии"
+      },
+      {
+        "order": 3,
+        "name": "Вараха",
+        "type": "Наземное млекопитающее",
+        "yuga": "Сатья Юга",
+        "purpose": "Спасти Бхудеви (Землю) из Хираньякши.",
+        "primary_antagonist": "Хираньякша",
+        "associated_texts": [
+          "Вишну Пурана"
+        ],
+        "symbolism": "Восстановление Земли и космического порядка",
+        "evolutionary_symbolism": "Стадия наземных животных"
+      },
+      {
+        "order": 4,
+        "name": "Нарасимха",
+        "type": "Мужчина-Лев",
+        "yuga": "Сатья Юга",
+        "purpose": "Защитите Прахладу и уничтожьте Хираньякашипу.",
+        "primary_antagonist": "Хираньякашипу",
+        "associated_texts": [
+          "Бхагавата Пурана"
+        ],
+        "symbolism": "Божественное вмешательство за пределами логических ограничений",
+        "evolutionary_symbolism": "Переход от животного к человеку"
+      },
+      {
+        "order": 5,
+        "name": "Вамана",
+        "type": "Карликовый брамин",
+        "yuga": "Трета Юга",
+        "purpose": "Подчините короля Бали и восстановите космический баланс",
+        "primary_antagonist": "Махабали",
+        "associated_texts": [
+          "Вишну Пурана"
+        ],
+        "symbolism": "Смирение и божественный разум",
+        "evolutionary_symbolism": "Появление интеллектуального человека"
+      },
+      {
+        "order": 6,
+        "name": "Парашурама",
+        "type": "Воин Мудрец",
+        "yuga": "Поздняя Трета Юга",
+        "purpose": "Уничтожить коррумпированных правителей-кшатриев",
+        "weapon": "Парашу (Топор)",
+        "associated_texts": [
+          "Махабхарата",
+          "Пураны"
+        ],
+        "symbolism": "Перезагрузка социального порядка",
+        "evolutionary_symbolism": "Первобытное общество воинов"
+      },
+      {
+        "order": 7,
+        "name": "Рама",
+        "type": "Идеальный король",
+        "yuga": "Трета Юга",
+        "purpose": "Уничтожьте Равану и установите праведное правление.",
+        "primary_antagonist": "Равана",
+        "associated_texts": [
+          "Рамаяна"
+        ],
+        "symbolism": "Воплощение Дхармы",
+        "evolutionary_symbolism": "Цивилизованное нравственное государство"
+      },
+      {
+        "order": 8,
+        "name": "Кришна",
+        "type": "Божественный государственный деятель",
+        "yuga": "Двапара Юга",
+        "purpose": "Проведите человечество через войну Махабхараты",
+        "primary_antagonist": "Кауравы (коллективная адхарма)",
+        "associated_texts": [
+          "Махабхарата",
+          "Бхагавад Гита"
+        ],
+        "symbolism": "Божественная мудрость и бхакти",
+        "evolutionary_symbolism": "Продвинутое общественное сознание"
+      },
+      {
+        "order": 9,
+        "name": "Будда",
+        "type": "Просвещенный Учитель",
+        "yuga": "Ранняя Кали Юга",
+        "purpose": "Реформировать ритуальные излишества и поощрять сострадание",
+        "historical_identity": "Сиддхартха Гаутама",
+        "associated_texts": [
+          "Бхагавата Пурана (вайшнавская интерпретация)"
+        ],
+        "symbolism": "Сострадание и самоанализ",
+        "evolutionary_symbolism": "Философское пробуждение"
+      },
+      {
+        "order": 10,
+        "name": "Калки",
+        "type": "Будущий воин",
+        "yuga": "Конец Кали Юги",
+        "status": "Будущее",
+        "purpose": "Уничтожьте адхарму и сбросьте космический цикл.",
+        "associated_texts": [
+          "Вишну Пурана",
+          "Бхагавата Пурана"
+        ],
+        "symbolism": "Циклическое обновление",
+        "evolutionary_symbolism": "Трансформация и возрождение"
+      }
+    ],
+    "interpretations": {
+      "theological_view": "Аватары проявляются, чтобы восстановить дхарму, когда она приходит в упадок (Бхагавад-гита 4.7-8).",
+      "symbolic_view": "Представляет духовную эволюцию сознания.",
+      "comparative_mythology_view": "Миф о потопе соответствует мировым традициям.",
+      "cyclical_time_concept": "Время нелинейно и регенеративно.",
+      "current_cycle": {
+        "current_yuga": "Кали Юга",
+        "kali_yuga_started_bce": 3102,
+        "years_elapsed_in_kali_yuga_approx": 5100
+      },
+      "earth_age_comparison_note": "1 кальпа (4,32 миллиарда лет) удивительно близка к современной научной оценке возраста Земли (~ 4,54 миллиарда лет).",
+      "scaling_comment": "Это математическое масштабирование четко структурировано и пропорционально на всех космических уровнях."
+    }
+  }
+}

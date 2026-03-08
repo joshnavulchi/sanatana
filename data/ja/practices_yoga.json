@@ -1,0 +1,150 @@
+{
+  "practices_yoga": {
+    "title": "",
+    "meta": {
+      "title": "哲学 |ヨガ — サナータナ ダルマ - サナタン ダルマを探索する",
+      "canonical": "https://sanatanadharmam.in/philosophy/yoga",
+      "description": "哲学 — ヨガ — Sanātana Dharma - Sanātana Dharma の探索 — 哲学に関する記事、翻訳、簡潔な解説。慣例、歴史、指導原則については、こちらをご覧ください。",
+      "keywords": [
+        "bhagavadgita yoga",
+        "hindu yoga",
+        "upanishads yoga",
+        "vedic yoga",
+        "yoga concepts explained in sanatana dharma",
+        "yoga concepts for beginners",
+        "yoga concepts for students",
+        "yoga concepts in modern life",
+        "yoga concepts in sanatana dharma",
+        "yoga history explained in sanatana dharma",
+        "yoga history for beginners",
+        "yoga history for students",
+        "yoga history in modern life",
+        "yoga history of sanatana dharma",
+        "yoga insights explained in sanatana dharma",
+        "yoga insights for beginners",
+        "yoga insights for students",
+        "yoga insights from sanatana dharma",
+        "yoga insights in modern life",
+        "yoga philosophy",
+        "yoga practices explained in sanatana dharma",
+        "yoga practices for beginners",
+        "yoga practices for students",
+        "yoga practices in modern life",
+        "yoga practices in sanatana dharma",
+        "yoga principles explained in sanatana dharma",
+        "yoga principles for beginners",
+        "yoga principles for students",
+        "yoga principles in modern life",
+        "yoga principles of sanatana dharma",
+        "yoga q&a explained in sanatana dharma",
+        "yoga q&a for beginners",
+        "yoga q&a for students",
+        "yoga q&a in modern life",
+        "yoga q&a on sanatana dharma",
+        "yoga relevance explained in sanatana dharma",
+        "yoga relevance for beginners",
+        "yoga relevance for students",
+        "yoga relevance in modern life",
+        "yoga relevance of sanatana dharma in modern life",
+        "yoga sutras of patanjali",
+        "yoga teachings explained in sanatana dharma",
+        "yoga teachings for beginners",
+        "yoga teachings for students",
+        "yoga teachings in modern life",
+        "yoga teachings of sanatana dharma"
+      ],
+      "ogimage": "/og/philosophy-yoga.png",
+      "url": "https://sanatanadharmam.in/philosophy/yoga"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "組織",
+        "contactpoint": {
+          "@type": "連絡先",
+          "areaserved": "世界中",
+          "availablelanguage": [
+            "ああ",
+            "ドイツ語",
+            "英語",
+            "スペイン語",
+            "フランセ",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "オランダ",
+            "ポルトガル語",
+            "Русский",
+            "తెలుగు",
+            "ああ",
+            "中文 (简体)"
+          ],
+          "contacttype": "カスタマーサポート",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sanatanadharmam.in について",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "core_principles": [
+      "個人的な自己（アートマン）と普遍的な意識（ブラフマン）の結合",
+      "肉体的、精神的、精神的な側面のバランス",
+      "規律と倫理的な生活"
+    ],
+    "definition": "ヨガは、自己実現と解放（モクシャ）を達成するために体、心、魂を調和させることを目的とした精神的な修行であり哲学です。",
+    "eight_limbs_of_yoga": [
+      "ヤマ（倫理的制約）",
+      "新山（個人的所見）",
+      "アーサナ（ポーズ）",
+      "プラナヤマ（呼吸のコントロール）",
+      "プラティヤハラ（感覚の撤退）",
+      "ダーラナ（集中）",
+      "ディヤーナ (瞑想)",
+      "サマーディ（吸収または結合）"
+    ],
+    "goals": [
+      "自己実現",
+      "精神的な明晰さと平安",
+      "身体の健康と活力",
+      "苦しみからの解放"
+    ],
+    "key_scriptural_references": [
+      {
+        "quote_summary": "ヨガは精神的な変動を止めることです。",
+        "text": "パタンジャリのヨーガ・スートラ"
+      },
+      {
+        "quote_summary": "ヨガは生活における行動とバランスのスキルです。",
+        "text": "バガヴァトギーター"
+      }
+    ],
+    "modern_relevance": {
+      "health": "体力と精神的健康を改善します。",
+      "spiritual_growth": "マインドフルネスと心の平安を促します。",
+      "stress_management": "不安を軽減し、落ち着きを促進します。"
+    },
+    "origin": {
+      "meaning": "サンスクリット語の「yuj」に由来し、「団結または結合」を意味します。",
+      "roots": "ヴェーダの伝統とウパニシャッド",
+      "texts": [
+        "パタンジャリのヨーガ・スートラ",
+        "バガヴァトギーター",
+        "ウパニシャッド"
+      ]
+    },
+    "paths_of_yoga": {
+      "bhakti_yoga": "Path of devotion and love for the divine.",
+      "hatha_yoga": "Path of physical postures and breath control.",
+      "jnana_yoga": "Path of knowledge and wisdom.",
+      "karma_yoga": "Path of selfless action.",
+      "raja_yoga": "Path of meditation and mental discipline."
+    },
+    "relation_to_other_concepts": {
+      "dharma": "ヨガは正しい生活をサポートします。",
+      "karma": "ヨガは行動と意図を浄化します。",
+      "moksha": "ヨガは解放への直接的な道です。"
+    }
+  }
+}

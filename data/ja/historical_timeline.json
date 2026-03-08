@@ -1,0 +1,581 @@
+{
+  "historical_timeline": {
+    "title": "CE と BCE の説明: 意味、ゼロ年の概念、ルール、例",
+    "meta": {
+      "title": "CE と BCE の説明: 意味、ゼロ年の概念、ルール、例",
+      "canonical": "https://sanatanadharmam.in/historical-timeline",
+      "description": "BCE と CE の意味、ゼロ年がない理由、タイムラインの数え方を学び、簡単な図で明確な例を確認します。",
+      "keywords": [
+        "BC/AD equivalence",
+        "BCE",
+        "CE",
+        "CE/BCE guide",
+        "CE/BCE transition",
+        "astronomical year numbering",
+        "calendar systems",
+        "century definitions",
+        "chronology rules",
+        "common mistakes in dating",
+        "cross-era calculations",
+        "dating conventions",
+        "dating historical events",
+        "historical chronology",
+        "historical dating",
+        "historical dating systems",
+        "historical events dating",
+        "historical timeline FAQ",
+        "historical timeline astronomy system",
+        "historical timeline calculation",
+        "historical timeline century rules",
+        "historical timeline diagram",
+        "historical timeline examples",
+        "historical timeline explanation",
+        "historical timeline history",
+        "historical timeline history system",
+        "historical timeline implications",
+        "historical timeline mistakes",
+        "historical timeline rules",
+        "historical timeline worked examples",
+        "historical timelines",
+        "historical timelines explained",
+        "historical year numbering",
+        "timeline calculation",
+        "year zero"
+      ],
+      "ogimage": "images/og/homhistoricl_timeline.png",
+      "url": "https://sanatanadharmam.in/historical-timeline"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "組織",
+        "contactpoint": {
+          "@type": "連絡先",
+          "areaserved": "世界中",
+          "availablelanguage": [
+            "ああ",
+            "ドイツ語",
+            "英語",
+            "スペイン語",
+            "フランセ",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "オランダ",
+            "ポルトガル語",
+            "Русский",
+            "తెలుగు",
+            "ああ",
+            "中文 (简体)"
+          ],
+          "contacttype": "カスタマーサポート",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sanatanadharmam.in について",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "academic": {
+      "title": "西暦および紀元前の年代測定システムを理解する: ゼロ年の不在とその歴史的意味",
+      "abstract": "この論文では、西暦 (CE) と西暦前 (BCE) の体系を明確にし、歴史的にゼロ年が存在しないこと、その数学的および年代的な意味、および天文学的な年の番号付けとの違いを強調します。明確な例と視覚的なタイムラインは、正確な歴史的推論をサポートします。",
+      "articletype": "教育研究",
+      "author": {
+        "affiliation": "所属機関",
+        "department": "あなたの部署",
+        "email": "you@university.edu",
+        "name": "あなたの名前",
+        "orcid": "0000-0000-0000-0000"
+      },
+      "citationtemplate": "[著者]。 （年）。西暦および紀元前の年代測定システムを理解する: ゼロ年の不在とその歴史的意味。雑誌名、巻（号）、ページ。 https://doi.org/xx.xxxx/xxxxx",
+      "conflictofinterest": "著者は利益相反がないことを宣言します。",
+      "dataavailability": "データセットは生成または分析されませんでした。",
+      "dates": {
+        "accepted": "YYYY-MM-DD",
+        "published": "YYYY-MM-DD",
+        "received": "YYYY-MM-DD"
+      },
+      "funding": "具体的な資金提供はありません。",
+      "keywords": [
+        "CE",
+        "紀元前",
+        "ゼロ年",
+        "年表",
+        "カレンダーシステム",
+        "BC/AD相当",
+        "タイムライン計算"
+      ],
+      "license": "CC BY 4.0",
+      "shorttitle": "西暦/紀元前とゼロ年",
+      "subjectclassification": [
+        "計時の歴史",
+        "年表と暦の研究",
+        "歴史的方法論"
+      ]
+    },
+    "advaita_vedanta": {
+      "heading": "アドヴァイタ ヴェダンタとアディ シャンカラ (西暦 8 世紀)",
+      "influence": "アドヴァイタ ヴェダンタは、インドの精神性、文学、宗教間対話に深い影響を与えました。その教えは世界中の求道者にインスピレーションを与え続けています。",
+      "key_concepts": [
+        "ブラフマンが唯一の現実です。世界は究極的には幻想です（マーヤ）。",
+        "アートマン（真我）はブラフマンと変わりません。",
+        "無知（アヴィディヤ）は束縛を引き起こします。知識は解放につながります。",
+        "聖文の研究、推論、瞑想を重視します。"
+      ],
+      "summary": "アドヴァイタ ヴェーダーンタは、非二元論、つまり個人の魂 (アートマン) と至高の現実 (ブラフマン) の本質的な一体性を教えるインド哲学の主要な学派です。アディ シャンカラ (西暦 788 年頃 - 820 年頃) はアドヴァイタを再活性化し、インド中を旅して議論し、教え、修道院センター (マータ) を設立しました。ウパニシャッド、バガヴァッド ギーター、ブラフマー スートラに関する彼の解説は依然として基礎的なものです。アドヴァイタは、解放（モクシャ）はあらゆる区別を超越し、真の自己の知識（ジニャーナ）を通じて達成されることを強調します。",
+      "timeline": [
+        {
+          "date": "c.西暦 788 年",
+          "event": "アディ・シャンカラの誕生",
+          "notes": "インド、ケーララ州カラディ生まれ。"
+        },
+        {
+          "date": "c.西暦 800 ～ 820 年",
+          "event": "シャンカラの旅と議論",
+          "notes": "インドに4つのマタを設立。アドヴァイタ哲学を広めました。"
+        },
+        {
+          "date": "c.西暦 800 ～ 820 年",
+          "event": "主な作曲作品",
+          "notes": "ウパニシャッド、バガヴァッド・ギーター、ブラフマー・スートラの解説。"
+        }
+      ]
+    },
+    "astronom": "天文学的",
+    "astronom_system": "天文システム:",
+    "century_rules": "世紀のルール:",
+    "china": {
+      "description": "紀元前の古代中国の著名な統治者",
+      "rulers": [
+        {
+          "name": "秦の始皇帝",
+          "notes": "中国の初代皇帝",
+          "reign": "紀元前 221 ～ 210 年"
+        },
+        {
+          "name": "漢の高祖皇帝",
+          "notes": "漢王朝の建国",
+          "reign": "紀元前 202 ～ 195 年"
+        }
+      ]
+    },
+    "common_mistakes": "よくある間違い:",
+    "content": {
+      "intro": {
+        "summary": "CE (西暦) および BCE (西暦前) は、AD および BC と同じ年番号を使用する中立的な日付ラベルです。歴史的な年代測定にはゼロ年はありません。紀元前 1 年は紀元前 1 年に直接移行します。"
+      },
+      "sections": [
+        {
+          "heading": "定義: 紀元前および西暦",
+          "id": "定義",
+          "items": [
+            {
+              "countingdirection": "後方 (後方に行くほど数字が小さくなります)",
+              "equivalentto": "紀元前（紀元前）",
+              "examples": [
+                "紀元前3000年",
+                "紀元前500年",
+                "紀元前100年",
+                "紀元前 2600 年 (インダス文明)"
+              ],
+              "fullform": "西暦以前",
+              "term": "紀元前",
+              "timeperiod": "1年目以前"
+            },
+            {
+              "countingdirection": "進む (数字の昇順)",
+              "equivalentto": "AD（アンノ・ドミニ）",
+              "examples": [
+                "西暦1年",
+                "西暦 610 年 (イスラム教の始まり)",
+                "1947 西暦 (インド独立)",
+                "西暦2026年"
+              ],
+              "fullform": "西暦紀元",
+              "term": "CE",
+              "timeperiod": "1年目以降"
+            }
+          ],
+          "notes": [
+            "暦の基礎は、現代で使用されている予期的なグレゴリオ暦です。",
+            "多くの教育者が CE/BCE ラベルを好む理由は、文化的中立性です。"
+          ],
+          "summary": "BCE は 1 年より前に逆算します。 CE は 1 年目以降、前方にカウントされます。番号付けは BC/AD と一致します。ラベルが異なるだけです。"
+        },
+        {
+          "heading": "定義: 紀元前および西暦",
+          "id": "定義",
+          "mapping": [
+            {
+              "new": "西暦1年",
+              "old": "1 広告"
+            },
+            {
+              "new": "西暦500年",
+              "old": "西暦500年"
+            },
+            {
+              "new": "紀元前1年",
+              "old": "紀元前1年"
+            },
+            {
+              "new": "紀元前44年",
+              "old": "紀元前44年"
+            }
+          ],
+          "rules": [
+            "年番号はシステム間で同一です。",
+            "世紀の範囲も同じです。ラベルだけが変わります。"
+          ],
+          "summary": "BCE は 1 年より前に逆算します。 CE は 1 年目以降、前方にカウントされます。番号付けは BC/AD と一致します。ラベルが異なるだけです。"
+        },
+        {
+          "commonmistakes": [
+            "スパンを計算するときに年 0 を挿入します。",
+            "BCE→CE 境界を越えるオフバイワンエラー。"
+          ],
+          "exists": false,
+          "heading": "定義: 紀元前および西暦",
+          "id": "定義",
+          "implications": [
+            "複数の時代の年範囲では、欠落しているゼロを考慮する必要があります。",
+            "紀元前 1 年から西暦 1 年までは 2 年ではなく 1 年に相当します。"
+          ],
+          "reason": [
+            "初期のスキームではローマ数字が使用されており、ローマ数字にはゼロを表す記号がありませんでした。",
+            "このシステムは、ヨーロッパの数学でゼロが一般的になる前に形式化されました。"
+          ],
+          "sequenceexample": [
+            "紀元前3年",
+            "紀元前2年",
+            "紀元前1年",
+            "西暦1年",
+            "西暦2年",
+            "西暦3年"
+          ],
+          "summary": "BCE は 1 年より前に逆算します。 CE は 1 年目以降、前方にカウントされます。番号付けは BC/AD と一致します。ラベルが異なるだけです。",
+          "transition": "1 BCE → 1 CE (直接; 0 年なし)"
+        },
+        {
+          "astronomysystem": {
+            "label": "天文学的な年の番号付け",
+            "mapping": [
+              {
+                "astronomical": "0年目",
+                "historical": "紀元前1年"
+              },
+              {
+                "astronomical": "-1年目",
+                "historical": "紀元前2年"
+              },
+              {
+                "astronomical": "+1年",
+                "historical": "西暦1年"
+              }
+            ],
+            "usesyearzero": true
+          },
+          "heading": "定義: 紀元前および西暦",
+          "historysystem": {
+            "examplemapping": {
+              "1 bce": "紀元前1年",
+              "1 ce": "西暦1年"
+            },
+            "label": "紀元前/西暦 (または紀元前/西暦)",
+            "usesyearzero": false
+          },
+          "id": "定義",
+          "note": "この違いは、天文表と歴史的文書の間に時折生じる不一致を説明します。",
+          "summary": "BCE は 1 年より前に逆算します。 CE は 1 年目以降、前方にカウントされます。番号付けは BC/AD と一致します。ラベルが異なるだけです。"
+        },
+        {
+          "centuryrules": [
+            "西暦 1 世紀 = 西暦 1 ～ 100 年",
+            "紀元前 1 世紀 = 紀元前 100–1 年",
+            "西暦 20 世紀 = 西暦 1901 ～ 2000 年",
+            "西暦 21 世紀 = 西暦 2001 ～ 2100 年"
+          ],
+          "heading": "定義: 紀元前および西暦",
+          "id": "定義",
+          "rules": [
+            "CE 内のみ: 期間 = end Year − start Year。",
+            "BCE 内のみ: 期間 = startBCE − endBCE。",
+            "紀元前→西暦: 期間 = (紀元前 1 年から紀元前 1 年までの年) + (西暦 1 年から紀元終了までの年) + 1。"
+          ],
+          "summary": "BCE は 1 年より前に逆算します。 CE は 1 年目以降、前方にカウントされます。番号付けは BC/AD と一致します。ラベルが異なるだけです。",
+          "workedexamples": [
+            {
+              "explanation": "ゼロ年を持たない境界を越えた直接遷移。",
+              "label": "紀元前 1 年から紀元前 1 年",
+              "years": 1
+            },
+            {
+              "explanation": "紀元前 5→1 = 4 年。プラス 1 (紀元前 1 年→西暦 1 年)。プラス 4 年 (西暦 1 → 5 年) = 9。",
+              "label": "紀元前5年から紀元5年",
+              "years": 9
+            },
+            {
+              "explanation": "44→紀元前1年 = 43; +1 (境界) = 44; +13 (1→14 西暦) = 57。",
+              "label": "西暦前 44 年から西暦 14 年",
+              "years": 57
+            },
+            {
+              "explanation": "同じ時代: 1200 − 500 = 700 年。",
+              "label": "西暦500年から西暦1200年",
+              "years": 700
+            },
+            {
+              "explanation": "紀元前以内: 1000 − 500 = 500 年。",
+              "label": "紀元前1000年から紀元前500年",
+              "years": 500
+            }
+          ]
+        },
+        {
+          "examples": [
+            {
+              "label": "インダス文明（成熟期）",
+              "year": "紀元前2600年"
+            },
+            {
+              "label": "ゴータマ・ブッダの生涯（およそ）",
+              "year": "紀元前6世紀"
+            },
+            {
+              "label": "ナザレのイエスの伝統的な年代範囲",
+              "year": "~1 CE (時代の変わり目)"
+            },
+            {
+              "label": "預言者ムハンマドの最初の啓示",
+              "year": "西暦610年"
+            },
+            {
+              "label": "インドの独立",
+              "year": "1947 西暦"
+            },
+            {
+              "label": "現在の基準年",
+              "year": "西暦2026年"
+            }
+          ],
+          "heading": "定義: 紀元前および西暦",
+          "id": "定義",
+          "note": "世紀の近似 (例: 紀元前 6 世紀) は、単年ではなく範囲を示します。",
+          "summary": "BCE は 1 年より前に逆算します。 CE は 1 年目以降、前方にカウントされます。番号付けは BC/AD と一致します。ラベルが異なるだけです。"
+        }
+      ]
+    },
+    "counting_directio": "カウント方向:",
+    "description": "CE & BCE — 完全ガイド (ゼロ年を明確化)",
+    "diagrams": {
+      "ascii": {
+        "art": "過去現在\n←─────── 紀元前 ──────── 西暦 ─────→\n 紀元前 5 4 3 2 1 │ 紀元前 1 2 3 4 5\n                      (0年目はありません)",
+        "caption": "BCE から CE への移行。ゼロ年は示されません。"
+      },
+      "mermaid": {
+        "caption": "Mermaid タイムライン (クライアント Mermaid コンポーネントを使用してレンダリング)。",
+        "code": "タイムライン\n  タイトル BCE から CE (ゼロ年なし)\n  紀元前セクション\n    紀元前5年: 5\n    紀元前4年: 4\n    紀元前3年: 3\n    紀元前2年: 2\n    紀元前1年: 1\n  セクション遷移\n    いいえ 0 年: マイルストーン\n  セクションCE\n    1CE:1\n    2 CE: 2\n    3 西暦: 3\n    4 CE: 4\n    5 西暦: 5"
+      }
+    },
+    "duration": "期間:",
+    "dynasty": "王朝:",
+    "egypt": {
+      "description": "選ばれたエジプト新王国のファラオ",
+      "rulers": [
+        {
+          "name": "ハトシェプスト女王葬祭",
+          "reign": "紀元前 1479 ～ 1458 年"
+        },
+        {
+          "name": "トトメス３世",
+          "reign": "紀元前 1479 ～ 1425 年"
+        },
+        {
+          "name": "アケナテン",
+          "reign": "紀元前 1353 ～ 1336 年"
+        },
+        {
+          "name": "ツタンカーメン",
+          "reign": "紀元前 1332 ～ 1323 年"
+        },
+        {
+          "name": "ラムセス２世",
+          "reign": "紀元前 1279 ～ 1213 年"
+        }
+      ]
+    },
+    "equivale": "同等のもの:",
+    "examples": "例:",
+    "exists": "存在します:",
+    "faq": {
+      "heading": "よくある質問",
+      "qa": [
+        {
+          "a": "はい。 CE は AD と同じ年番号を使用します。それは単なる中立的なラベルです。",
+          "q": "CEはADと同じですか?"
+        },
+        {
+          "a": "紀元前 1 年は、0 年を持たずに西暦 1 年に直接移行します。",
+          "q": "歴史にゼロ年はありますか?"
+        },
+        {
+          "a": "天文学的な年の番号付けには、0 年 (歴史的には紀元前 1 年に相当) が含まれます。",
+          "q": "一部の表に 0 年が表示されるのはなぜですか?"
+        },
+        {
+          "a": "いいえ、何世紀も同じようにマッピングされます。ラベルだけが異なります。",
+          "q": "CE/BCE は世紀の定義を変更しますか?"
+        }
+      ]
+    },
+    "greece": {
+      "description": "ギリシャとマケドニアの主要な支配者",
+      "rulers": [
+        {
+          "name": "ペリクレス",
+          "notes": "アテネの指導者",
+          "reign": "c.紀元前 461 ～ 429 年"
+        },
+        {
+          "name": "マケドニア王フィリッポス 2 世",
+          "reign": "紀元前 359 ～ 336 年"
+        },
+        {
+          "name": "アレクサンダー大王",
+          "notes": "広大な帝国を築いた",
+          "reign": "紀元前 336 ～ 323 年"
+        }
+      ]
+    },
+    "historic": "歴史的",
+    "historic_rulers": "地域別の歴史的統治者",
+    "history_system": "履歴システム:",
+    "implicat": "影響:",
+    "india": {
+      "description": "紀元前時代のインド亜大陸の主要な統治者と王朝",
+      "rulers": [
+        {
+          "dynasty": "ハリアンカ (マガダ)",
+          "name": "ビンビサーラ",
+          "notes": "仏陀の現代。拡大されたマガダ",
+          "reign": "紀元前 544 ～ 492 年"
+        },
+        {
+          "dynasty": "ハリアンカ (マガダ)",
+          "name": "アジャタシャトル",
+          "notes": "ビンビサラを継承。強化されたパータリプトラ",
+          "reign": "紀元前 492 ～ 460 年"
+        },
+        {
+          "dynasty": "ナンダ",
+          "name": "ダナ・ナンダ",
+          "notes": "最後のナンダの支配者",
+          "reign": "c.紀元前 329 ～ 321 年"
+        },
+        {
+          "dynasty": "マウリヤ",
+          "name": "チャンドラグプタ・マウリヤ",
+          "notes": "マウリヤ帝国を建国",
+          "reign": "紀元前 321 ～ 297 年"
+        },
+        {
+          "dynasty": "マウリヤ",
+          "name": "ビンドゥサラ",
+          "notes": "インド半島に拡大した帝国",
+          "reign": "紀元前 297 ～ 273 年"
+        },
+        {
+          "dynasty": "マウリヤ",
+          "name": "アショカ大王",
+          "notes": "カリンガ戦争後、仏教を推進",
+          "reign": "紀元前 273 ～ 232 年"
+        }
+      ]
+    },
+    "mapping": "マッピング:",
+    "new_bce": "新しい (紀元前/西暦)",
+    "note": "注:",
+    "notes": "注:",
+    "old_bc": "古い (紀元前/西暦)",
+    "persia": {
+      "description": "アケメネス朝の統治者 (第一次ペルシア帝国)",
+      "rulers": [
+        {
+          "name": "キュロス大王",
+          "notes": "アケメネス朝の建国者",
+          "reign": "紀元前 559 ～ 530 年"
+        },
+        {
+          "name": "カンビュセス 2 世",
+          "notes": "エジプトを征服した",
+          "reign": "紀元前 530 ～ 522 年"
+        },
+        {
+          "name": "ダレイオス 1 世 (大王)",
+          "notes": "行政改革",
+          "reign": "紀元前 522 ～ 486 年"
+        },
+        {
+          "name": "クセルクセス1世",
+          "notes": "グレコ・ペルシア戦争",
+          "reign": "紀元前 486 ～ 465 年"
+        },
+        {
+          "name": "アルタクセルクセス 1 世",
+          "notes": "安定した帝国",
+          "reign": "紀元前 465 ～ 424 年"
+        },
+        {
+          "name": "ダリウス3世",
+          "notes": "アレクサンダーに負けた",
+          "reign": "紀元前 336 ～ 330 年"
+        }
+      ]
+    },
+    "reason": "理由:",
+    "reign": "統治:",
+    "rome": {
+      "description": "王政時代のローマの王たち",
+      "rulers": [
+        {
+          "name": "ロムルス",
+          "reign": "紀元前 753 ～ 715 年"
+        },
+        {
+          "name": "ヌマ・ポンピリウス",
+          "reign": "紀元前 715 ～ 673 年"
+        },
+        {
+          "name": "オスティリウスの丘",
+          "reign": "紀元前 673 ～ 642 年"
+        },
+        {
+          "name": "アンクス・マルシウス",
+          "reign": "紀元前 642 ～ 617 年"
+        },
+        {
+          "name": "ルシウス・タルクィニウス・プリスクス",
+          "reign": "紀元前 616 ～ 579 年"
+        },
+        {
+          "name": "セルヴィウス・トゥリウス",
+          "reign": "紀元前 578 ～ 535 年"
+        },
+        {
+          "name": "ルシウス・タルクィニウス・スーパーバス",
+          "notes": "最後のローマ王",
+          "reign": "紀元前 535 ～ 510 年"
+        }
+      ]
+    },
+    "rules": "ルール:",
+    "sequence_example": "シーケンスの例:",
+    "time_period": "期間:",
+    "transiti": "遷移:",
+    "uses_year": "ゼロ年を使用します。",
+    "visual_timeline": "ビジュアルタイムライン",
+    "worked_examples": "実用的な例:",
+    "years": "年"
+  }
+}

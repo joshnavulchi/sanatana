@@ -1,0 +1,185 @@
+{
+  "practices_dailypoojas": {
+    "meta": {
+      "title": "مشقیں | روزانہ پوجا - سناتن دھرم - سناتن دھرم کو دریافت کریں۔",
+      "canonical": "https://sanatanadharmam.in/practices/dailypoojas",
+      "description": "پریکٹسز — ڈیلی پوجا — سناتن دھرم — سناتن دھرم کی کھوج کریں — مضامین، ترجمے اور طریقوں پر مختصر تبصرہ۔ طریقوں، تاریخ، اور رہنما اصولوں کو دریافت کریں...",
+      "keywords": [
+        "daily puja",
+        "daily puja benefits",
+        "daily puja concepts",
+        "daily puja for beginners",
+        "daily puja for modern life",
+        "daily puja for students",
+        "daily puja modern relevance",
+        "daily puja origin and history",
+        "daily puja personal development",
+        "daily puja practices",
+        "daily puja principles",
+        "daily puja q&a",
+        "daily puja relation to other concepts",
+        "daily puja scriptural references",
+        "daily puja significance",
+        "daily puja society",
+        "daily puja steps",
+        "daily puja symbolism",
+        "daily puja well-being",
+        "home puja",
+        "puja benefits",
+        "puja for family bonding",
+        "puja for mindfulness",
+        "puja for spirituality",
+        "puja modern relevance",
+        "puja origin and history",
+        "puja rituals",
+        "puja scriptural references",
+        "puja significance",
+        "puja steps",
+        "puja symbolism",
+        "temple puja"
+      ],
+      "ogimage": "/og/practices-dailypuja.png",
+      "url": "https://sanatanadharmam.in/practices/dailypoojas"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "تنظیم",
+        "contactpoint": {
+          "@type": "رابطہ پوائنٹ",
+          "areaserved": "دنیا بھر میں",
+          "availablelanguage": [
+            "العربية",
+            "ڈوئچ",
+            "انگریزی",
+            "اسپینول",
+            "Français",
+            "ہندی",
+            "日本語",
+            "नेपाली",
+            "نیدرلینڈز",
+            "پرتگالی",
+            "روسی",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "کسٹمر سپورٹ",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sanatanadharmam.in کے بارے میں",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "benefits_of_daily_puja": {
+      "mental": [
+        "مراقبہ کے طریقوں کے ذریعے تناؤ اور اضطراب کو کم کرتا ہے۔",
+        "نظم و ضبط اور معمول کا احساس پیدا کرتا ہے۔",
+        "توجہ اور سوچ کی وضاحت کو بڑھاتا ہے۔"
+      ],
+      "physical": [
+        "صبح سویرے کی رسومات صحت مند عادات کی حوصلہ افزائی کرتی ہیں۔",
+        "سانس لینے اور نعرے لگانے سے سانس کی صحت بہتر ہوتی ہے۔",
+        "مثبت کمپن مجموعی طور پر فلاح و بہبود کو فروغ دیتے ہیں۔"
+      ],
+      "social": [
+        "مشترکہ رسومات کے ذریعے خاندانی تعلقات کو مضبوط کرتا ہے۔",
+        "ثقافتی اور روحانی ورثے کو محفوظ رکھتا ہے۔",
+        "اجتماعی دعاؤں کے دوران اجتماعی ہم آہنگی کی حوصلہ افزائی کرتا ہے۔"
+      ],
+      "spiritual": [
+        "اندرونی سکون اور ذہن سازی کو فروغ دیتا ہے۔",
+        "الہی کے ساتھ عقیدت اور تعلق کو مضبوط کرتا ہے۔",
+        "دماغ کو پاک کرتا ہے اور منفی رجحانات کو کم کرتا ہے۔"
+      ]
+    },
+    "common_daily_pujas": [
+      {
+        "name": "سندھیاوندانم",
+        "practices": [
+          "گایتری منتر کی تلاوت",
+          "پانی کی پیشکش (ارگھیہ)",
+          "مراقبہ"
+        ],
+        "significance": "پاکیزگی اور سورج خدا کے شکر گزاری کے لئے ویدک دعا۔",
+        "time": "صبح، دوپہر، شام"
+      },
+      {
+        "name": "سوریہ پوجا",
+        "practices": [
+          "سورج کو پانی چڑھانا",
+          "سوریہ منتروں کا جاپ کرنا"
+        ],
+        "significance": "صحت اور زندگی کے لیے سورج دیوتا کی عبادت۔",
+        "time": "صبح"
+      },
+      {
+        "name": "تلسی پوجا",
+        "practices": [
+          "تلسی کے قریب چراغ جلانا",
+          "پانی اور پھول پیش کرنا"
+        ],
+        "significance": "پاکیزگی اور خوشحالی کے لیے تلسی کے پودے کی پوجا کریں۔",
+        "time": "صبح ہو یا شام"
+      },
+      {
+        "name": "شیو پوجا",
+        "practices": [
+          "بلوا کے پتے پیش کرنا",
+          "'اوم نمہ شیوایا' کا نعرہ لگانا"
+        ],
+        "significance": "امن اور آزادی کے لیے بھگوان شیو کی پوجا کریں۔",
+        "time": "صبح ہو یا شام"
+      },
+      {
+        "name": "لکشمی پوجا",
+        "practices": [
+          "روشنی کے لیمپ",
+          "پھول اور مٹھائیاں پیش کرنا"
+        ],
+        "significance": "دولت اور ہم آہنگی کے لئے دیوی لکشمی کی پوجا۔",
+        "time": "شام"
+      }
+    ],
+    "definition": "روزانہ پوجا دیوتاؤں کی تعظیم، روحانی نظم و ضبط کو برقرار رکھنے اور اظہار تشکر کے لیے گھر یا مندروں میں کی جانے والی عقیدت مندانہ رسومات ہیں۔",
+    "key_scriptural_references": [
+      {
+        "quote_summary": "ہر عمل کو عبادت کے طور پر الٰہی کے سامنے پیش کریں۔",
+        "text": "بھگوت گیتا"
+      },
+      {
+        "quote_summary": "روزانہ پوجا کے لیے تفصیلی طریقہ کار بتاتا ہے۔",
+        "text": "اگاماس"
+      }
+    ],
+    "modern_relevance": {
+      "family_bonding": "مشترکہ رسومات رشتوں کو مضبوط کرتی ہیں۔",
+      "mindfulness": "روزانہ پوجا سکون اور شکر گزاری کو فروغ دیتی ہے۔",
+      "spirituality": "افراد کو اعلیٰ شعور سے جوڑتا ہے۔"
+    },
+    "origin": {
+      "purpose": "الہی نعمتوں کو پکارنا اور دماغ کو پاک کرنا۔",
+      "roots": "ویدک روایت",
+      "texts": [
+        "اگاماس",
+        "سمرائٹس",
+        "پرانوں"
+      ]
+    },
+    "steps_in_home_puja": [
+      "قربان گاہ اور آس پاس کے علاقے کو صاف کریں۔",
+      "دیوتا کی مورتیاں یا تصویریں صاف ستھرے پلیٹ فارم پر رکھیں۔",
+      "ایک چراغ (دیپا) اور اگربتی جلائیں۔",
+      "پھول، پھل اور پانی پیش کریں۔",
+      "منتر پڑھیں یا خاموش مراقبہ کریں۔",
+      "آرتی کے ساتھ اختتام کریں اور پرسادم تقسیم کریں۔"
+    ],
+    "symbolism": [
+      "چراغ اندھیرے کو دور کرنے کی علامت ہے۔",
+      "پھول پاکیزگی اور عقیدت کی نمائندگی کرتے ہیں۔",
+      "پانی کی پیشکش ہتھیار ڈالنے اور زندگی کی توانائی کی علامت ہے۔"
+    ]
+  }
+}

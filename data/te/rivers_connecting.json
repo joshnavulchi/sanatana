@@ -1,0 +1,317 @@
+{
+  "rivers_connecting": {
+    "title": "భారతదేశంలోని అన్ని ప్రధాన నదులను అనుసంధానించడానికి మాస్టర్ ప్లాన్",
+    "meta": {
+      "title": "భారతదేశంలోని అన్ని ప్రధాన నదులను అనుసంధానించడానికి మాస్టర్ ప్లాన్",
+      "canonical": "https://sanatanadharmam.in/rivers-connecting",
+      "description": "ఆల్-ఇండియా రివర్ ఇంటర్‌లింకింగ్ ప్రోగ్రామ్‌ను క్రమం చేయడానికి, నిధులు సమకూర్చడానికి, క్లియర్ చేయడానికి, నిర్మించడానికి మరియు నిర్వహించడానికి ఆచరణాత్మక, ఇంజనీరింగ్-ప్లస్-గవర్నెన్స్ రోడ్‌మ్యాప్.",
+      "keywords": [
+        "Andhra Pradesh Water Supply",
+        "Aquifer Recharge India",
+        "Assam Water Supply",
+        "Basin-first Hydrology India",
+        "Bedti–Varada Link",
+        "Bihar Water Supply",
+        "CWC Hydrology Vetting India",
+        "Cauvery River Augmentation",
+        "Chennai Water Supply",
+        "Cooperative Federalism Water India",
+        "Drought Mitigation India",
+        "EIA/EMP River Projects India",
+        "Ecological Flows Restoration India",
+        "Environment-first Appraisal India",
+        "Flood Moderation India",
+        "Godavari–Cauvery Corridor",
+        "Himalayan River Links",
+        "Hydropower Projects India",
+        "Inland Navigation India",
+        "International Riparian Sensitivity India",
+        "Irrigation Projects India",
+        "Karnataka Water Supply",
+        "Ken–Betwa Link Project",
+        "Kosi–Ghaghra/Gandak → Ganga Links",
+        "Madhya Pradesh Water Supply",
+        "Manas–Sankosh–Teesta–Ganga Link",
+        "MoEFCC EAC-RVHEP River Projects India",
+        "NWDA River Studies India",
+        "National Perspective Plan NWDA",
+        "National Waterways",
+        "PPP/VGF/IIPDF River Projects India",
+        "Parbati–Kalisindh–Chambal–ERCP",
+        "Peninsular River Links",
+        "Rajasthan Water Supply",
+        "River Interlinking India",
+        "SCILR Interlinking of Rivers Committee",
+        "Tamil Nadu Water Security",
+        "Telangana Water Supply",
+        "Uttar Pradesh Water Supply",
+        "Water Project Financing India",
+        "Water Project Governance India",
+        "Water Resource Management India",
+        "Water Security India",
+        "West Bengal Water Supply",
+        "Yamuna head-reach optimization"
+      ],
+      "ogimage": "images/og/rivers-connecting.png",
+      "url": "https://sanatanadharmam.in/rivers-connecting"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "సంస్థ",
+        "contactpoint": {
+          "@type": "కాంటాక్ట్ పాయింట్",
+          "areaserved": "ప్రపంచవ్యాప్తంగా",
+          "availablelanguage": [
+            "العربية",
+            "డ్యూచ్",
+            "ఇంగ్లీష్",
+            "ఎస్పానోల్",
+            "ఫ్రాంకైస్",
+            "హిందీ",
+            "ఎస్",
+            "నేపాలీ",
+            "నెదర్లాండ్స్",
+            "పోర్చుగీస్",
+            "రస్కియ్",
+            "తెలుగు",
+            "అరేడు",
+            "中文 (简体)"
+          ],
+          "contacttype": "కస్టమర్ మద్దతు",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "సనాతనధర్మం.ఇన్ గురించి",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "content": "Great question, Vijaya Kumar! If by “master plan” you mean a pragmatic, engineering‑plus‑governance roadmap that can be used to **sequence, fund, clear, build, and operate** an All‑India river interlinking program, here’s a comprehensive plan aligned with today’s policy and project realities.\n\n---\n\n## 1) Purpose & Principles\n\n**Objectives**\n- Balance floods in the north/east and droughts in the west/south by moving monsoon surpluses to deficit basins. [1](https://en.wikipedia.org/wiki/Indian_rivers_interlinking_project)  \n- Add multi‑sector benefits: irrigation, drinking/industrial supply, hydro, inland navigation, ecological flows restoration, and aquifer recharge. [2](https://nwda.gov.in/content/innerpage/click-more.php)\n\n**Guiding principles**\n- **Basin‑first** hydrology (CWC/NWDA standards) and **environment‑first** appraisal (EIA/EMP with cumulative assessments where applicable). [3](https://cwc.gov.in/sites/default/files/nwauser/basinwise-asssmnt-wr9.pdf)[4](https://parivesh.nic.in/publicdocument/UPLOAD_OM_NOTIFICATION/IA_DOCS/1002_05082025053237.pdf)  \n- **Cooperative federalism**: Centre–State compacts under the Special Committee for Interlinking of Rivers (SCILR); Supreme Court directions recognized the need for such a committee. [5](https://indiankanoon.org/doc/41857247/)[6](https://www.casemine.com/judgement/in/581180422713e1794798c478)  \n- **International riparian sensitivity** for Himalayan links (Nepal/Bangladesh), sequencing domestic components first. [2](https://nwda.gov.in/content/innerpage/click-more.php)\n\n---\n\n## 2) What exists today (ground truth)\n\n- **National Perspective Plan (NPP)**: 30 links—**14 Himalayan** + **16 Peninsular**—identified by NWDA. **All 30 PFRs** done, **~26 FRs** done, **~11–13 DPRs** prepared; **Ken–Betwa** is the first under **implementation**. [7](https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2149302)[8](https://cwc.gov.in/sites/default/files/sq-73.pdf)  \n- **Ken–Betwa Link Project (KBLP)**: ₹44,605 cr; irrigation 10.62 lakh ha, drinking water to ~62 lakh people, 103 MW hydro + 27 MW solar; implementation underway with SPV (KBLPA). [9](https://nwda.gov.in/content/innerpage/project-at-glance.php)[8](https://cwc.gov.in/sites/default/files/sq-73.pdf)  \n- **Godavari–Cauvery Corridor (3 links)** has draft DPRs; CWC’s revised hydrological vetting currently limits **diversion to ~4,189 MCM**, recasting earlier higher numbers—critical for south India planning (AP–TS–TN). [10](https://nwda.gov.in/upload/Godavari%28Inchampalli%29-Cauvery.pdf)\n\n---\n\n## 3) National architecture (who does what)\n\n- **SCILR (chaired by Union Jal Shakti Minister)**—policy steering, consensus building, quarterly reviews; **Task Force for ILR** for technical acceleration. [8](https://cwc.gov.in/sites/default/files/sq-73.pdf)  \n- **NWDA**—basin studies, FR/DPR, stakeholder consultations, link packaging. [11](https://nwda.gov.in/upload/uploadfiles/files/NOTE%20ON%20INTERLINKING%20OF%20RIVERS.pdf)  \n- **CWC**—hydrology vetting, techno‑economic appraisal; India‑WRIS basins/atlas for integrated data. [3](https://cwc.gov.in/sites/default/files/nwauser/basinwise-asssmnt-wr9.pdf)[12](https://www.nrsc.gov.in/nrscnew/resources_atlas.php)  \n- **MoEFCC/EAC‑RVHEP**—EIA/forest/wildlife clearances; guidance on cumulative impact/CCS (case‑by‑case). [4](https://parivesh.nic.in/publicdocument/UPLOAD_OM_NOTIFICATION/IA_DOCS/1002_05082025053237.pdf)\n\n---\n\n## 4) Phased build plan (2026–2040)\n\n> **Rationale:** De‑risk early with priority links that (a) have mature DPRs, (b) resolve critical drought corridors, (c) minimal international issues, (d) can ride on existing storages/canals.\n\n### Phase‑A (2026–2030): “Quick‑win & South‑centric backbone”\n1) **Complete Ken–Betwa (Phase I & II)**; lock land, R&R, EMP, and commissioning of Daudhan + link canal (target by 2030). KPIs: irrigation, potable water, e‑flow compliance, tiger habitat offset deliverables. [9](https://nwda.gov.in/content/innerpage/project-at-glance.php)  \n2) **Godavari → Krishna → Pennar → Cauvery (GKPC) – Stage 1**  \n   - Implement within **~4,189 MCM** hydrology envelope cleared by CWC; **package as three EPC tranches** anchored to Polavaram–Vijayawada connectivity and southward transfers to Somasila → Grand Anicut. [10](https://nwda.gov.in/upload/Godavari%28Inchampalli%29-Cauvery.pdf)  \n   - **Tamil Nadu payoff**: structured augmentation for Cauvery delta and south TN (Vaigai–Gundar), synchronized with **Cauvery–Vaigai–Gundar DPR** already prepared. [11](https://nwda.gov.in/upload/uploadfiles/files/NOTE%20ON%20INTERLINKING%20OF%20RIVERS.pdf)  \n3) **Modified Parbati–Kalisindh–Chambal–ERCP (Rajasthan–MP)**: finish DPR appraisal segments already submitted; prioritize drinking & irrigation for water‑stressed districts. [8](https://cwc.gov.in/sites/default/files/sq-73.pdf)\n\n**Enablers (Phase‑A)**  \n- **Finance**: Central 60% + State 40% baseline; tap **VGF/IIPDF** for project development and gap funding; ring‑fence O&M via long‑term annuity. [13](https://www.icra.in/Media/DownloadS3MediaRelease?Key=95e68ad9-a2a4-4947-adb2-8b57ca775230)[14](https://www.pppinindia.gov.in/)  \n- **Data & Ops**: national telemetry (reservoir/river gauges), SCADA gates, near‑real‑time routing using CWC’s reservoir monitoring systems. [15](https://cwc.gov.in/en)\n\n### Phase‑B (2030–2035): “Scale the spine & eastern flood moderation”\n4) **GKPC – Stage 2**: incremental capacity subject to fresh hydrology (climate‑adjusted) and efficiency gains (lining, leakage control, micro‑irrigation coverage). [10](https://nwda.gov.in/upload/Godavari%28Inchampalli%29-Cauvery.pdf)  \n5) **Kosi–Ghaghra/Gandak → Ganga balancing links (Himalayan subset)** for flood moderation + lean‑season support downstream (domestic priority; cross‑border elements kept consultative). [16](https://sansad.in/getFile/annex/265/AS12_0R7n24.pdf?source=pqars)  \n6) **Bedti–Varada (peninsular west‑flowing correction)** integrated with Tungabhadra augmentation to stabilize north Karnataka command. DPR (draft) exists; finalize with Karnataka–AP concurrence. [11](https://nwda.gov.in/upload/uploadfiles/files/NOTE%20ON%20INTERLINKING%20OF%20RIVERS.pdf)\n\n### Phase‑C (2035–2040): “Himalayan integration where feasible”\n7) **Manas–Sankosh–Teesta–Ganga (MSTG)** and **Yamuna head‑reach optimization**—only after bilateral frameworks; focus on flood moderation + navigation synergies. [16](https://sansad.in/getFile/annex/265/AS12_0R7n24.pdf?source=pqars)  \n8) **Inter‑basin optimization & navigation**—select reaches as **National Waterways feeders** after ecological flow stabilization. [2](https://nwda.gov.in/content/innerpage/click-more.php)\n\n---\n\n## 5) Technical stack (how to design it right)\n\n**Hydrology & climate**\n- Use CWC basinwise assessments; re‑validate surpluses under **2020s–2030s climate scenarios** before sanctioning diversions (CWC noted storage/availability variability). [3](https://cwc.gov.in/sites/default/files/nwauser/basinwise-asssmnt-wr9.pdf)[17](https://www.chinimandi.com/water-reservoir-levels-depleting-fast-deficient-water-reported-in-godavari-krishna-and-cauvery-basins/)\n\n**Design**\n- Prioritize **gravity‑led** transfers; where lifts are unavoidable (e.g., segments in GKPC), apply **high‑efficiency pumps**, solar‑assisted captive power (as at KBLP). [9](https://nwda.gov.in/content/innerpage/project-at-glance.php)  \n- **Canal modernization**: concrete lining, compacted subgrades, smart gates, telemetered discharge. [15](https://cwc.gov.in/en)  \n- **Demand‑side pairing**: compulsory **micro‑irrigation** (drip/sprinkler) targets tied to water release entitlements; Pattiseema case study shows significant stabilization benefits for Krishna delta. [18](https://cigrjournal.org/index.php/Ejounral/article/download/9169/4445/45905)\n\n**Ops**\n- **Dynamic Operating Policy (DOP)** per link—rule curves tied to IMD forecasts + reservoir rule bands; publish weekly dashboards via NWDA/CWC portals. [15](https://cwc.gov.in/en)\n\n---\n\n## 6) Environmental & social safeguards (non‑negotiables)\n\n- **Project‑specific EIA/EMP** + wildlife/forest clearances; cumulative studies **as required** by MoEFCC guidance; biodiversity offsets and free‑flow reach preservation. [4](https://parivesh.nic.in/publicdocument/UPLOAD_OM_NOTIFICATION/IA_DOCS/1002_05082025053237.pdf)  \n- **Ken–Betwa lessons**: tiger habitat compensation, tree felling minimization, and robust R&R for ~7,000+ affected families—use as benchmark for all links. [7](https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2149302)  \n- **Groundwater & salinity**: mandate conjunctive use plans to avoid waterlogging/salinity seen in legacy canal systems. [19](https://www.researchgate.net/profile/Sharmistha-Basu/publication/281080708_Environmental_Issues_in_Interlinking_of_rivers_in_India/links/55e9708d08ae65b6389af41e/Environmental-Issues-in-Interlinking-of-rivers-in-India.pdf)  \n- **Stakeholder consent**: structured consultations, gram sabha processes, fair compensation under RFCTLARR; publish SIA summaries. [7](https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2149302)\n\n---\n\n## 7) Governance & agreements\n\n- **Inter‑State MoAs** for each link, specifying: water accounting, priority of uses, O&M cost‑sharing, dispute resolution window under SCILR; upload DPRs to **e‑PAMS** and CWC appraisal portals to keep a transparent trail. [8](https://cwc.gov.in/sites/default/files/sq-73.pdf)  \n- **SCILR cadence**: bi‑annual public report to Parliament; this stems from the Supreme Court’s 2012 directives and subsequent compliance in 2014 on committee constitution. [5](https://indiankanoon.org/doc/41857247/)[6](https://www.casemine.com/judgement/in/581180422713e1794798c478)\n\n---\n\n## 8) Financing blueprint\n\n- **Capital mix**: Central budget 60% + State 40% (baseline), with **VGF** for non‑remunerative environmental/rehab components; use **IIPDF** for DPR/transaction prep. [13](https://www.icra.in/Media/DownloadS3MediaRelease?Key=95e68ad9-a2a4-4947-adb2-8b57ca775230)[14](https://www.pppinindia.gov.in/)  \n- **Sequencing**: ICRA estimates ~₹2.6 lakh crore for four priority links by ~FY2035; ~₹80,000 crore EPC opportunities in next four years—plan award calendar accordingly. [13](https://www.icra.in/Media/DownloadS3MediaRelease?Key=95e68ad9-a2a4-4947-adb2-8b57ca775230)  \n- **O&M fund**: ring‑fenced multi‑state O&M escrow fed by beneficiary charges (irrigation service fee + urban bulk supply tariff slabs). [14](https://www.pppinindia.gov.in/)\n\n---\n\n## 9) Risk register & mitigations\n\n| Risk | Example/Signal | Mitigation |\n|---|---|---|\n| Hydrology over‑commit | CWC recast of Godavari diversion to ~4,189 MCM | Stage‑gating; adaptive caps; annual hydrology audits. [10](https://nwda.gov.in/upload/Godavari%28Inchampalli%29-Cauvery.pdf) |\n| Environmental litigation | KBLP wildlife/forest impacts | Early biodiversity mapping; offsets; transparent EAC processes. [9](https://nwda.gov.in/content/innerpage/project-at-glance.php)[4](https://parivesh.nic.in/publicdocument/UPLOAD_OM_NOTIFICATION/IA_DOCS/1002_05082025053237.pdf) |\n| Inter‑state deadlock | PKC/ERCP benefit sharing | SCILR‑mediated MoAs; benefit‑sharing matrix published. [8](https://cwc.gov.in/sites/default/files/sq-73.pdf) |\n| Cost/time overrun | Mega civil EPC works | Milestone‑linked EPC, independent engineer, digital progress dashboards. [13](https://www.icra.in/Media/DownloadS3MediaRelease?Key=95e68ad9-a2a4-4947-adb2-8b57ca775230) |\n| Social displacement | KBLP R&R for ~7,193 PAFs | Enhanced R&R packages; third‑party SIA monitoring. [7](https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2149302) |\n\n---\n\n## 10) South India (incl. Tamil Nadu) — what this plan delivers\n\n- **Cauvery security (augmentation)** via **GKPC Stage‑1** within the CWC‑accepted **~4,189 MCM** envelope, ramping up delta stabilization and supporting **Cauvery–Vaigai–Gundar** link already DPR’d. [10](https://nwda.gov.in/upload/Godavari%28Inchampalli%29-Cauvery.pdf)[11](https://nwda.gov.in/upload/uploadfiles/files/NOTE%20ON%20INTERLINKING%20OF%20RIVERS.pdf)  \n- **Urban–industrial reliability** for Chennai region through system‑wide storage support and drought buffers, complementing local reuse/desal and inter‑basin top‑ups in bad monsoon years. [10](https://nwda.gov.in/upload/Godavari%28Inchampalli%29-Cauvery.pdf)\n\n---\n\n## 11) KPIs & transparency\n\n- **Water moved (MCM)** vs hydrology cap; **irrigation ha** added; **people served**; **e‑flows** achieved; **R&R closures**; **forest offsets** delivered; public dashboards via NWDA/CWC. [11](https://nwda.gov.in/upload/uploadfiles/files/NOTE%20ON%20INTERLINKING%20OF%20RIVERS.pdf)[15](https://cwc.gov.in/en)\n\n---\n\n## 12) Executive Gantt (high‑level)\n\n- **2026–27**: Financial closures for GKPC‑S1 packages; KBLP civil works ramp; PKC DPR appraisals closed. [9](https://nwda.gov.in/content/innerpage/project-at-glance.php)[10](https://nwda.gov.in/upload/Godavari%28Inchampalli%29-Cauvery.pdf)[8](https://cwc.gov.in/sites/default/files/sq-73.pdf)  \n- **2028–30**: KBLP commissioning; GKPC initial transfers to Somasila & Grand Anicut; Bedti–Varada MoA + tender. [9](https://nwda.gov.in/content/innerpage/project-at-glance.php)[10](https://nwda.gov.in/upload/Godavari%28Inchampalli%29-Cauvery.pdf)  \n- **2031–35**: GKPC‑S2 (subject to climate‑adjusted hydrology); Kosi–Ghaghra link segment(s) post‑consensus. [10](https://nwda.gov.in/upload/Godavari%28Inchampalli%29-Cauvery.pdf)[16](https://sansad.in/getFile/annex/265/AS12_0R7n24.pdf?source=pqars)  \n- **2036–40**: MSTG/Himalayan selective links after riparian frameworks. [16](https://sansad.in/getFile/annex/265/AS12_0R7n24.pdf?source=pqars)\n\n---\n\n## 13) Why this plan is realistic\n\n- It **uses today’s actual statuses** (PFR/FR/DPR, budgets, committees) rather than a green‑field wishlist. [7](https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2149302)[8](https://cwc.gov.in/sites/default/files/sq-73.pdf)  \n- It **front‑loads southern augmentation** (GKPC) that Chennai/TN care about, but **within the hydrology constraints CWC has recently vetted**. [10](https://nwda.gov.in/upload/Godavari%28Inchampalli%29-Cauvery.pdf)  \n- It **keeps Himalayan links for later**, recognizing cross‑border dependencies. [2](https://nwda.gov.in/content/innerpage/click-more.php)\n\n---\n\n### Want this tailored into a **project charter + slide deck** (with a Gantt, budgets, risk heatmap) you can share at work?\nTell me:\n- which corridor you want prioritized (e.g., **Godavari→Cauvery** for TN),  \n- whether you want **merge vs rebase** (kidding 😄)—actually, whether you want **merge (EPC)** or **hybrid PPP** packaging, and  \n- your preferred KPIs.\n\nI’ll generate a concise **PowerPoint** with maps, timelines, and funding options aligned to **PPP/VGF/IIPDF** norms and **NWDA/CWC** checkpoints. [14](https://www.pppinindia.gov.in/)\n\n--- \n\n**Sources & key references**  \nPolicy/status & governance: NWDA notes; PIB/Lok Sabha/Rajya Sabha Q&A; SCILR/SC directions. [11](https://nwda.gov.in/upload/uploadfiles/files/NOTE%20ON%20INTERLINKING%20OF%20RIVERS.pdf)[7](https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2149302)[8](https://cwc.gov.in/sites/default/files/sq-73.pdf)[5](https://indiankanoon.org/doc/41857247/)[6](https://www.casemine.com/judgement/in/581180422713e1794798c478)  \nPriority links & DPR/FR: NWDA project pages (KBLP, GKPC, Bedti‑Varada). [9](https://nwda.gov.in/content/innerpage/project-at-glance.php)[10](https://nwda.gov.in/upload/Godavari%28Inchampalli%29-Cauvery.pdf)[11](https://nwda.gov.in/upload/uploadfiles/files/NOTE%20ON%20INTERLINKING%20OF%20RIVERS.pdf)  \nHydrology & basins: CWC basinwise assessments; WRIS/River Basin Atlas. [3](https://cwc.gov.in/sites/default/files/nwauser/basinwise-asssmnt-wr9.pdf)[12](https://www.nrsc.gov.in/nrscnew/resources_atlas.php)  \nEnvironment & social: MoEFCC guidance (EIA/EAC), literature on impacts & safeguards. [4](https://parivesh.nic.in/publicdocument/UPLOAD_OM_NOTIFICATION/IA_DOCS/1002_05082025053237.pdf)[19](https://www.researchgate.net/profile/Sharmistha-Basu/publication/281080708_Environmental_Issues_in_Interlinking_of_rivers_in_India/links/55e9708d08ae65b6389af41e/Environmental-Issues-in-Interlinking-of-rivers-in-India.pdf)  \nFinancing & pipeline: ICRA opportunity note; PPP/VGF/IIPDF portals. [13](https://www.icra.in/Media/DownloadS3MediaRelease?Key=95e68ad9-a2a4-4947-adb2-8b57ca775230)[14](https://www.pppinindia.gov.in/)\n\nIf you want, I can also add a **Tamil‑focused annex** showing annualized flows to Cauvery sub‑basins under GKPC‑S1 and indicative allocations for Chennai’s drought years.\n\n---\n\n## 14) Gantt chart for project timelines (ASCII)\n\n> **Time axis**: 2026 → 2040 (half‑year ticks). Use this as a visual in your page; the structured `ganttData` below mirrors the same schedule for chart components.\n\n```\nLegend: [=====] Active   [###] Approvals/Finance   [~~~] O&M/Monitoring\nYears:   2026 | 2027 | 2028 | 2029 | 2030 | 2031 | 2032 | 2033 | 2034 | 2035 | 2036 | 2037 | 2038 | 2039 | 2040\n         H1 H2 H1 H2 H1 H2 H1 H2 H1 H2 H1 H2 H1 H2 H1 H2 H1 H2 H1 H2 H1 H2 H1 H2 H1 H2 H1 H2 H1 H2\n\n1) Ken–Betwa (Phase I & II)\n   [###] Approvals/Finance   |==== Work & R&R ===========================|  Commissioning  |~~~ O&M ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|\n         26H1–27H2           27H2                                  30H2  30H2–>                                           \n\n2) GKPC Stage‑1 (Godavari→Krishna→Pennar→Cauvery)\n   [###] Finance & Tender   |=========== EPC Tranche A ===========| |========= Tranche B =========| |= Tranche C =|  Ramp‑up  |~~~\n         26H1–27H2           27H2–29H1                             28H2–30H1                      29H2–30H2     30H2–31H1 31H1–>\n\n3) Modified PKC–ERCP (Rajasthan–MP)\n   [###] DPR Appraisal/MoA  |============= Works ===============|  Progressive Handover  |~~~ O&M ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|\n         26H1–27H2           28H1–32H2                           33H1–33H2              33H2–>\n\n4) Bedti–Varada Link\n   [###] Consensus & DPR    |=========== Construction ===========|  Initial Ops  |~~~ O&M ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|\n         28H2–30H1           30H2–33H1                          33H2           33H2–>\n\n5) GKPC Stage‑2 (Hydrology‑gated)\n   [###] Re‑vet Hydrology   |============= Capacity Add ==============|  Optimization  |~~~ O&M ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|\n         30H2–31H2           32H1–35H2                                36H1          36H1–>\n\n6) Kosi–Ghaghra/Gandak → Ganga (select links)\n   [###] Consensus & DPR    |============= Priority Segments ==============|  Ops Ramp  |~~~ O&M ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|\n         31H1–32H2           33H1–35H2                                   36H1–36H2  36H2–>\n\n7) MSTG & Yamuna head‑reach (bilateral dependent)\n   [###] Intl Frameworks    |=========== Phased Works (if cleared) =========|  Ops  |~~~ O&M ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|\n         34H2–36H1           36H2–39H1                                     39H2   39H2–>\n```\n",
+    "ganttdata": [
+      {
+        "id": "kblp",
+        "name": "కెన్-బెట్వా (ఫేజ్ I & II)",
+        "phases": [
+          {
+            "end": "2027-12-31",
+            "label": "ఆమోదాలు/ఫైనాన్స్",
+            "start": "2026-01-01",
+            "type": "ఆమోదం"
+          },
+          {
+            "end": "2030-09-30",
+            "label": "పని & R&R",
+            "start": "2027-07-01",
+            "type": "అమలు"
+          },
+          {
+            "end": "2030-12-31",
+            "label": "కమీషనింగ్",
+            "start": "2030-10-01",
+            "type": "మైలురాయి"
+          },
+          {
+            "end": "2040-12-31",
+            "label": "O&M",
+            "start": "2031-01-01",
+            "type": "ఆపరేషన్లు"
+          }
+        ]
+      },
+      {
+        "id": "gkpc-s1",
+        "name": "GKPC స్టేజ్‑1 (గోదావరి→కృష్ణ→పెన్నార్→కావేరి)",
+        "phases": [
+          {
+            "end": "2027-12-31",
+            "label": "ఫైనాన్స్ & టెండర్",
+            "start": "2026-01-01",
+            "type": "ఆమోదం"
+          },
+          {
+            "end": "2029-06-30",
+            "label": "EPC ట్రాంచ్ A",
+            "start": "2027-07-01",
+            "type": "అమలు"
+          },
+          {
+            "end": "2030-06-30",
+            "label": "EPC ట్రాంచ్ బి",
+            "start": "2028-07-01",
+            "type": "అమలు"
+          },
+          {
+            "end": "2030-12-31",
+            "label": "EPC ట్రాంచ్ సి",
+            "start": "2029-07-01",
+            "type": "అమలు"
+          },
+          {
+            "end": "2031-06-30",
+            "label": "రాంప్-అప్",
+            "start": "2030-10-01",
+            "type": "మైలురాయి"
+          },
+          {
+            "end": "2040-12-31",
+            "label": "O&M",
+            "start": "2031-07-01",
+            "type": "ఆపరేషన్లు"
+          }
+        ]
+      },
+      {
+        "id": "pkc-ercp",
+        "name": "సవరించిన PKC-ERCP (రాజస్థాన్-MP)",
+        "phases": [
+          {
+            "end": "2027-12-31",
+            "label": "DPR అంచనా/MoA",
+            "start": "2026-01-01",
+            "type": "ఆమోదం"
+          },
+          {
+            "end": "2032-12-31",
+            "label": "పని చేస్తుంది",
+            "start": "2028-01-01",
+            "type": "అమలు"
+          },
+          {
+            "end": "2033-12-31",
+            "label": "ప్రోగ్రెసివ్ హ్యాండోవర్",
+            "start": "2033-01-01",
+            "type": "మైలురాయి"
+          },
+          {
+            "end": "2040-12-31",
+            "label": "O&M",
+            "start": "2033-12-31",
+            "type": "ఆపరేషన్లు"
+          }
+        ]
+      },
+      {
+        "id": "బెడ్తి-వరద",
+        "name": "బెట్టీ-వరద లింక్",
+        "phases": [
+          {
+            "end": "2030-06-30",
+            "label": "ఏకాభిప్రాయం & DPR",
+            "start": "2028-07-01",
+            "type": "ఆమోదం"
+          },
+          {
+            "end": "2033-06-30",
+            "label": "నిర్మాణం",
+            "start": "2030-10-01",
+            "type": "అమలు"
+          },
+          {
+            "end": "2033-12-31",
+            "label": "ప్రారంభ Ops",
+            "start": "2033-07-01",
+            "type": "మైలురాయి"
+          },
+          {
+            "end": "2040-12-31",
+            "label": "O&M",
+            "start": "2033-12-31",
+            "type": "ఆపరేషన్లు"
+          }
+        ]
+      },
+      {
+        "id": "gkpc-s2",
+        "name": "GKPC స్టేజ్-2 (హైడ్రాలజీ-గేటెడ్)",
+        "phases": [
+          {
+            "end": "2031-12-31",
+            "label": "రీవెట్ హైడ్రాలజీ",
+            "start": "2030-10-01",
+            "type": "ఆమోదం"
+          },
+          {
+            "end": "2035-12-31",
+            "label": "కెపాసిటీ యాడ్",
+            "start": "2032-01-01",
+            "type": "అమలు"
+          },
+          {
+            "end": "2036-06-30",
+            "label": "ఆప్టిమైజేషన్",
+            "start": "2036-01-01",
+            "type": "మైలురాయి"
+          },
+          {
+            "end": "2040-12-31",
+            "label": "O&M",
+            "start": "2036-07-01",
+            "type": "ఆపరేషన్లు"
+          }
+        ]
+      },
+      {
+        "id": "kosi-ghaghra-gandak",
+        "name": "కోసి–ఘఘ్రా/గండక్ → గంగ (లింకులు ఎంచుకోండి)",
+        "phases": [
+          {
+            "end": "2032-12-31",
+            "label": "ఏకాభిప్రాయం & DPR",
+            "start": "2031-01-01",
+            "type": "ఆమోదం"
+          },
+          {
+            "end": "2035-12-31",
+            "label": "ప్రాధాన్యతా విభాగాలు",
+            "start": "2033-01-01",
+            "type": "అమలు"
+          },
+          {
+            "end": "2036-12-31",
+            "label": "Ops రాంప్",
+            "start": "2036-01-01",
+            "type": "మైలురాయి"
+          },
+          {
+            "end": "2040-12-31",
+            "label": "O&M",
+            "start": "2036-12-31",
+            "type": "ఆపరేషన్లు"
+          }
+        ]
+      },
+      {
+        "id": "mstg-యమునా",
+        "name": "MSTG & యమునా హెడ్-రీచ్ (ద్వైపాక్షిక ఆధారితం)",
+        "phases": [
+          {
+            "end": "2036-06-30",
+            "label": "Intl ఫ్రేమ్‌వర్క్‌లు",
+            "start": "2034-07-01",
+            "type": "ఆమోదం"
+          },
+          {
+            "end": "2039-06-30",
+            "label": "దశలవారీ పనులు (క్లియర్ అయితే)",
+            "start": "2036-07-01",
+            "type": "అమలు"
+          },
+          {
+            "end": "2039-12-31",
+            "label": "ఆప్స్",
+            "start": "2039-07-01",
+            "type": "మైలురాయి"
+          },
+          {
+            "end": "2040-12-31",
+            "label": "O&M",
+            "start": "2040-01-01",
+            "type": "ఆపరేషన్లు"
+          }
+        ]
+      }
+    ],
+    "intro": "ఆల్-ఇండియా రివర్ ఇంటర్‌లింకింగ్ ప్రోగ్రామ్‌ను క్రమం చేయడానికి, నిధులు సమకూర్చడానికి, క్లియర్ చేయడానికి, నిర్మించడానికి మరియు నిర్వహించడానికి ఆచరణాత్మక, ఇంజనీరింగ్-ప్లస్-గవర్నెన్స్ రోడ్‌మ్యాప్."
+  }
+}

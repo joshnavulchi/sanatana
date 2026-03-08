@@ -1,0 +1,68 @@
+{
+  "kidszone": {
+    "meta": {
+      "title": "बालबालिका क्षेत्र | सिंहावलोकन - सनातन धर्म - सनातन धर्म अन्वेषण गर्नुहोस्",
+      "canonical": "https://sanatanadharmam.in/kidszone",
+      "description": "KidsZone — Easymantras — सनातन धर्म — अन्वेषण सनातन धर्म — लेख, अनुवाद र KidsZone मा संक्षिप्त टिप्पणी। अभ्यास, इतिहास, र मार्गदर्शक सिद्धान्तहरू अन्वेषण गर्नुहोस्...",
+      "keywords": [
+        "easymantras",
+        "hindu mantras for children",
+        "hindu mantras for kids online",
+        "hindu mantras for kids with audio",
+        "hindu mantras for kids with meaning",
+        "hindu mantras for kids with translation",
+        "hindu mantras for kids with video",
+        "hinduism for kids",
+        "kids learning hinduism",
+        "kids zone",
+        "kids zone activities",
+        "kids zone educational content",
+        "kids zone learning",
+        "kids zone mantras",
+        "kids zone resources",
+        "mantras for kids",
+        "mantras for kids online",
+        "mantras for kids with audio",
+        "mantras for kids with meaning",
+        "mantras for kids with translation",
+        "mantras for kids with video",
+        "sanatana dharma",
+        "vedic mantras for children"
+      ],
+      "ogimage": "/og/kidszone-easymantras.png",
+      "url": "https://sanatanadharmam.in/kidszone"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "संगठन",
+        "contactpoint": {
+          "@type": "सम्पर्क बिन्दु",
+          "areaserved": "विश्वव्यापी",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "अंग्रेजी",
+            "Español",
+            "Français",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "नेदरल्याण्ड्स",
+            "पोर्चुगिज",
+            "रुसकी",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "ग्राहक समर्थन",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+९१-८०९९१८१०७५"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sanatanadharmam.in को बारेमा",
+        "url": "https://sanatanadharmam.in"
+      }
+    }
+  }
+}

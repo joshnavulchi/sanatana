@@ -1,0 +1,222 @@
+{
+  "diseases_curing_temples": {
+    "title": "Doenças curando templos | Sanātana Dharma – O Caminho Eterno da Vida",
+    "meta": {
+      "title": "Doenças curando templos | Sanātana Dharma – O Caminho Eterno da Vida",
+      "canonical": "https://sanatanadharmam.in/diseases-curing-temples",
+      "description": "Doenças curando templos.",
+      "keywords": [
+        "anxiety and stress relief",
+        "chronic diseases",
+        "chronic illness relief",
+        "diseases curing temples",
+        "fertility blessings",
+        "general health protection",
+        "healing temples in India",
+        "long-term suffering",
+        "mental health",
+        "neurological issues",
+        "physical and mental well-being",
+        "psychosomatic disorders",
+        "recovery after illness",
+        "respiratory issues",
+        "skin diseases",
+        "spiritual healing temples",
+        "temples associated with health benefits",
+        "temples for curing diseases",
+        "temples for health and healing",
+        "traditional healing temples"
+      ],
+      "ogimage": "images/og/home.png",
+      "url": "https://sanatanadharmam.in/diseases-curing-temples"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organização",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Mundialmente",
+          "availablelanguage": [
+            "العربية",
+            "Alemão",
+            "Inglês",
+            "Espanhol",
+            "Francês",
+            "Adeus",
+            "日本語",
+            "Adeus",
+            "Holanda",
+            "Português",
+            "Russo",
+            "Mais",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Suporte ao Cliente",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sobre Sanatanadharm.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "healing_temples_india": [
+      {
+        "city_or_district": "Mayiladuthurai",
+        "deity": "Shiva como Vaidyanathar (Médico Divino)",
+        "id": "TN_VAIDYANATHAR_VAITHEESWARAN",
+        "state": "Tâmil Nadu",
+        "temple_name": "Koil Vaitheeswaran (Templo Sri Vaidyanathar)",
+        "traditional_belief_about_diseases": [
+          "Doenças de pele",
+          "Doenças crônicas",
+          "Problemas gerais de saúde"
+        ]
+      },
+      {
+        "city_or_district": "Chennai",
+        "deity": "Shiva como Marundeeswarar (Senhor da Medicina)",
+        "id": "TN_MARUNDEESWARAR_TIRUVANMIYUR",
+        "state": "Tâmil Nadu",
+        "temple_name": "Templo Marundeeswarar (Thiruvanmiyur)",
+        "traditional_belief_about_diseases": [
+          "Doenças gerais",
+          "Fraqueza após longa doença",
+          "Dor corporal e fadiga"
+        ]
+      },
+      {
+        "city_or_district": "Palani",
+        "deity": "Lorde Murugan",
+        "id": "TN_PALANI_DHANDAYUTHAPANI",
+        "state": "Tâmil Nadu",
+        "temple_name": "Templo Palani Dhandayuthapani Swamy",
+        "traditional_belief_about_diseases": [
+          "Doenças crônicas",
+          "Vícios",
+          "Fraqueza e baixa energia"
+        ]
+      },
+      {
+        "city_or_district": "Ernakulam",
+        "deity": "Deusa Bhagavathy",
+        "id": "KL_CHOTTANIKKARA_BHAGAVATHY",
+        "state": "Querala",
+        "temple_name": "Templo Chottanikkara Bhagavathy",
+        "traditional_belief_about_diseases": [
+          "Doenças mentais",
+          "Ansiedade e depressão",
+          "Distúrbios psicossomáticos"
+        ]
+      },
+      {
+        "city_or_district": "Guruvayur",
+        "deity": "Senhor Krishna (Guruvayurappan)",
+        "id": "KL_GURUVAYUR_KRISHNA",
+        "state": "Querala",
+        "temple_name": "Templo de Guruvayur Sri Krishna",
+        "traditional_belief_about_diseases": [
+          "Problemas de saúde infantil",
+          "Doenças gerais",
+          "Bênçãos relacionadas à fertilidade"
+        ]
+      },
+      {
+        "city_or_district": "Srikalahasti",
+        "deity": "Shiva (Vayu Linga)",
+        "id": "AP_SRIKALAHASTI",
+        "state": "Andra Pradesh",
+        "temple_name": "Templo Srikalahasti",
+        "traditional_belief_about_diseases": [
+          "Problemas respiratórios (semelhantes à asma)",
+          "Problemas de pele",
+          "Distúrbios de saúde relacionados ao Dosha"
+        ]
+      },
+      {
+        "city_or_district": "Yadadri-Bhuvanagiri",
+        "deity": "Lakshmi Narasimha",
+        "id": "TS_YADADRI_NARASIMHA",
+        "state": "Telangana",
+        "temple_name": "Templo Yadadri Lakshmi Narasimha",
+        "traditional_belief_about_diseases": [
+          "Medo e ansiedade",
+          "Proteção geral da saúde",
+          "Recuperação após doença"
+        ]
+      },
+      {
+        "city_or_district": "Hyderabad",
+        "deity": "Deusa Yellamma",
+        "id": "TS_BALKAMPET_YELLAMMA",
+        "state": "Telangana",
+        "temple_name": "Templo Balkampet Yellamma",
+        "traditional_belief_about_diseases": [
+          "Doenças de pele",
+          "Condições crônicas de saúde"
+        ]
+      },
+      {
+        "city_or_district": "Deoghar",
+        "deity": "Shiva como Vaidyanath",
+        "id": "JH_BABA_BAIDYANATH",
+        "state": "Jharkhand",
+        "temple_name": "Baba Baidyanath Jyotirlinga",
+        "traditional_belief_about_diseases": [
+          "Doenças crônicas",
+          "Problemas gerais de saúde",
+          "Debilidade de longo prazo"
+        ]
+      },
+      {
+        "city_or_district": "Dausa",
+        "deity": "Senhor Hanuman (Balaji)",
+        "id": "RJ_MEHANDIPUR_BALAJI",
+        "state": "Rajastão",
+        "temple_name": "Templo Mehandipur Balaji",
+        "traditional_belief_about_diseases": [
+          "Aflições mentais",
+          "Questões psicossomáticas",
+          "Distúrbios que se acredita serem de natureza espiritual"
+        ]
+      },
+      {
+        "city_or_district": "Região de Kalaburagi",
+        "deity": "Senhor Dattatreya",
+        "id": "KA_GANAGAPUR_DATTATREYA",
+        "state": "Karnataka",
+        "temple_name": "Sri Kshetra Ganagapur (Dattatreya Padukas)",
+        "traditional_belief_about_diseases": [
+          "Problemas neurológicos",
+          "Doenças crônicas",
+          "Sofrimento de longo prazo"
+        ]
+      },
+      {
+        "city_or_district": "Guwahati",
+        "deity": "Deusa Kamakhya",
+        "id": "AS_KAMAKHYA",
+        "state": "Assão",
+        "temple_name": "Templo Kamakhya",
+        "traditional_belief_about_diseases": [
+          "Problemas de saúde das mulheres",
+          "Problemas de fertilidade"
+        ]
+      },
+      {
+        "city_or_district": "Varanasi",
+        "deity": "Senhor Hanuman",
+        "id": "UP_SANKAT_MOCHAN",
+        "state": "Utar Pradesh",
+        "temple_name": "Templo Sankat Mochan Hanuman",
+        "traditional_belief_about_diseases": [
+          "Ansiedade",
+          "Problemas gerais de saúde",
+          "Alívio de obstáculos e angústias"
+        ]
+      }
+    ]
+  }
+}

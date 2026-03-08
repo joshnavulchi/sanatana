@@ -1,0 +1,2511 @@
+{
+  "scriptures_bhagavadgita": {
+    "title": "薄伽梵歌",
+    "meta": {
+      "title": "Scriptures | Bhagavad Gita — Sanātana Dharma - Explore Sanatan Dharma",
+      "canonical": "https://sanatanadharmam.in/scriptures/bhagavadgita",
+      "description": "Bhagavad Gita — Complete Chapters & Commentary — Articles, translations and concise commentary on Bhagavad Gita. Explore practices, history, and guiding...",
+      "keywords": [
+        "Ancient wisdom",
+        "Arjuna",
+        "Bhagavad Gita",
+        "Bhakti Yoga",
+        "Dharma",
+        "Divine knowledge",
+        "Eternal truths",
+        "Ethical teachings",
+        "Gita",
+        "Hindu mythology",
+        "Hindu scriptures",
+        "Indian cultural heritage",
+        "Indian cultural significance",
+        "Indian cultural teachings significance",
+        "Indian culture",
+        "Indian divine knowledge",
+        "Indian divine knowledge significance",
+        "Indian divine knowledge teachings significance",
+        "Indian eternal truths",
+        "Indian eternal truths significance",
+        "Indian eternal truths teachings significance",
+        "Indian ethical significance",
+        "Indian ethical teachings",
+        "Indian ethical teachings significance",
+        "Indian historical significance",
+        "Indian historical teachings significance",
+        "Indian meditation significance",
+        "Indian meditation teachings significance",
+        "Indian meditation techniques",
+        "Indian philosophical concepts",
+        "Indian philosophical significance",
+        "Indian philosophical teachings significance",
+        "Indian philosophical traditions",
+        "Indian philosophy",
+        "Indian religious history",
+        "Indian religious philosophy",
+        "Indian religious significance",
+        "Indian religious teachings",
+        "Indian religious teachings significance",
+        "Indian religious texts",
+        "Indian self-realization",
+        "Indian self-realization significance",
+        "Indian self-realization teachings significance",
+        "Indian spiritual heritage",
+        "Indian spiritual practices",
+        "Indian spiritual significance",
+        "Indian spiritual teachings significance",
+        "Indian spiritual wisdom",
+        "Indian spirituality",
+        "Indian yoga philosophy",
+        "Indian yoga significance",
+        "Indian yoga teachings significance",
+        "Jnana Yoga",
+        "Karma Yoga",
+        "Krishna",
+        "Kurukshetra",
+        "Mahabharata",
+        "Meditation practices",
+        "Moksha",
+        "Philosophical concepts",
+        "Religious studies",
+        "Self-realization",
+        "Spiritual teachings",
+        "Upanishads",
+        "Yoga philosophy"
+      ],
+      "ogimage": "/og/bhagavadgita.png",
+      "url": "https://sanatanadharmam.in/scriptures/bhagavadgita"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "组织",
+        "contactpoint": {
+          "@type": "联络点",
+          "areaserved": "Worldwide",
+          "availablelanguage": [
+            "العربية",
+            "德语",
+            "English",
+            "西班牙语",
+            "法国人",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Nederlands",
+            "葡萄牙语",
+            "Русский",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "关于 Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "parts": [
+      {
+        "title": "Bhagavad Gita – 完整的深入解释（第 1 部分）",
+        "bhagavadgita_part_1": {
+          "chapters_1_to_3": {
+            "chapter_1_arjuna_vishada_yoga": {
+              "important_terms": {
+                "dharma": "正义的义务",
+                "karuna": "Compassion",
+                "moha": "Delusion or confusion"
+              },
+              "key_teachings": [
+                "Human confusion can become the doorway to wisdom.",
+                "道德敏感性并不是弱点。",
+                "True learning begins when one admits confusion."
+              ],
+              "key_verses_explained": {
+                "1.28-30": "Arjuna describes his trembling body and grief. This reflects the human experience of emotional paralysis during moral conflict.",
+                "1.46": "Arjuna says he would rather be killed than fight. This shows his internal collapse before enlightenment."
+              },
+              "meaning": "阿朱那绝望的瑜伽",
+              "modern_application": "When overwhelmed by ethical dilemmas, one must seek higher wisdom instead of acting impulsively.",
+              "psychological_interpretation": "Arjuna represents the inner conflict every individual faces when values clash with emotions.",
+              "spiritual_interpretation": "绝望可以成为精神觉醒的第一步。",
+              "summary": "阿朱那环视战场，悲痛欲绝。他见到了比什玛（Bhishma）和德罗纳（Drona）等老师、亲戚和朋友。他的身体颤抖着，弓从手中滑落，他宣布自己不会战斗。"
+            },
+            "chapter_2_sankhya_yoga": {
+              "important_terms": {
+                "atman": "The eternal Self",
+                "sankhya": "Analytical knowledge",
+                "sthitaprajna": "Person of steady wisdom",
+                "yoga": "Union or disciplined path"
+              },
+              "key_teachings": [
+                "The Self is eternal.",
+                "Perform duty without attachment.",
+                "Maintain equanimity in success and failure."
+              ],
+              "key_verses_explained": {
+                "2.13": "Just as the soul passes through childhood, youth, and old age, it passes into another body.",
+                "2.20": "The Self is never born nor does it die.",
+                "2.47": "You have the right to action, but not to the fruits of action.",
+                "2.48": "Be steady in yoga, abandoning attachment to success and failure."
+              },
+              "meaning": "The Yoga of Knowledge",
+              "modern_application": "Focus on effort, not outcome. Develop emotional balance.",
+              "psychological_interpretation": "Attachment to outcomes creates anxiety.",
+              "spiritual_interpretation": "Knowledge of the eternal Self dissolves fear of death.",
+              "summary": "克里希纳开始教学。他解释说，灵魂（阿特曼）是永恒的，不能被摧毁。死亡只是身体的改变。他介绍了业力瑜伽和平静。"
+            },
+            "chapter_3_karma_yoga": {
+              "important_terms": {
+                "karma": "行动",
+                "lokasangraha": "世界的福祉",
+                "yajna": "Sacred offering or sacrifice"
+              },
+              "key_teachings": [
+                "Action is better than inaction.",
+                "无私的服务净化心灵。",
+                "领导者必须树立榜样。"
+              ],
+              "key_verses_explained": {
+                "3.19": "不执着于结果地行动。",
+                "3.21": "无论领导者做什么，其他人都会跟随。",
+                "3.8": "履行您规定的职责。"
+              },
+              "meaning": "行动瑜伽",
+              "modern_application": "服务社会，不带私心。",
+              "psychological_interpretation": "逃避责任会增加内心冲突。",
+              "spiritual_interpretation": "无私的行动会带来解脱。",
+              "summary": "阿朱那问，如果知识是优越的，他为什么还要采取行动。克里希纳解释说，行动是不可避免的。一个人必须无私地做出牺牲（Yajna）。"
+            }
+          },
+          "introduction": {
+            "context_of_kurukshetra": "在库茹柴陀战场上，战争即将开始前，战士阿朱那要求他的战车御师圣克里希纳将他的战车放在两军之间。当阿朱那看到自己的亲人、老师和朋友站在两边时，他感到悲伤和道德困惑。他质疑战争的真正目的。",
+            "essence_of_upanishads": "The Gita is considered the essence of the Upanishads because it presents the highest philosophical teachings about the Self (Atman), the Absolute (Brahman), and liberation (Moksha) in a practical and accessible manner.",
+            "historical_background": "The Bhagavad Gita is a sacred dialogue that appears in the Bhishma Parva of the Mahabharata, the great epic composed by Sage Vyasa. The Mahabharata tells the story of the Kuru dynasty and the conflict between two groups of cousins: the Pandavas and the Kauravas. This conflict culminates in the Kurukshetra war. Kurukshetra was not merely a geographical battlefield; it was the stage upon which Dharma (righteousness) and Adharma (unrighteousness) confronted each other.",
+            "meaning_of_bhagavad_gita": "The term 'Bhagavad Gita' means 'The Song of the Lord.' 'Bhagavad' refers to the Supreme Being, and 'Gita' means song. It is called a song because it is poetic, rhythmic, and deeply spiritual.",
+            "who_is_arjuna": "阿朱那是潘达瓦五兄弟之一，也是一位弓箭大师。他代表了道德上敏感且精神上接受的真诚的寻求者。",
+            "who_is_krishna": "Sri Krishna is regarded as an incarnation (Avatar) of Lord Vishnu, the sustainer of the universe. In the Gita, he reveals himself not merely as a divine personality but as the Supreme Reality (Brahman) itself.",
+            "why_gita_was_spoken": "At that moment of crisis, Sri Krishna delivers the Bhagavad Gita. The Gita was spoken to remove Arjuna’s confusion and guide him toward clarity, strength, and righteous action. It addresses fundamental human questions: What is duty? What is the nature of the Self? What is God? How should one live?"
+          },
+          "structure_overview": {
+            "philosophical_themes": [
+              "自我的本质（阿特曼）",
+              "最高现实（婆罗门）",
+              "佛法与责任",
+              "Detachment and equanimity",
+              "Devotion and surrender",
+              "解脱（解脱）"
+            ],
+            "three_major_paths": {
+              "bhakti_yoga": "Path of devotion and surrender",
+              "jnana_yoga": "Path of knowledge and wisdom",
+              "karma_yoga": "Path of selfless action"
+            },
+            "total_chapters": 18,
+            "total_verses": 700
+          }
+        },
+        "order": 1
+      },
+      {
+        "title": "Bhagavad Gita – Complete Deep Explanation (Part 2)",
+        "bhagavadgita_part_2": {
+          "chapters_4_to_6": {
+            "chapter_4_jnana_karma_sannyasa_yoga": {
+              "important_terms": {
+                "avatar": "Divine descent or incarnation",
+                "jnana": "精神知识",
+                "karma": "行动及其后果",
+                "sannyasa": "Renunciation",
+                "yajna": "圣品"
+              },
+              "key_teachings": [
+                "Divine incarnation (Avatar) happens for restoration of Dharma.",
+                "正确的知识净化行动。",
+                "True renunciation is renouncing attachment, not action itself.",
+                "Knowledge burns past karmas like fire burns fuel."
+              ],
+              "key_verses_explained": {
+                "4.13": "四重秩序是根据品质（Guna）和行为（业力）创建的，而不仅仅是出生。",
+                "4.18": "He who sees inaction in action and action in inaction is wise. This means the enlightened person acts outwardly but remains inwardly unattached.",
+                "4.24": "整个祭祀行为就是婆罗门——供奉、火和供奉者。",
+                "4.7-8": "每当正义衰落时，我就会显现自己。这揭示了克里希纳是宇宙平衡的维持力量。"
+              },
+              "meaning": "The Yoga of Knowledge and Renunciation of Action",
+              "modern_application": "Work with awareness and integrity. See your profession as service rather than ego fulfillment.",
+              "psychological_interpretation": "Understanding purpose transforms ordinary work into sacred duty.",
+              "spiritual_interpretation": "当行动带着神的意识来执行时，它们就不再束缚灵魂。",
+              "summary": "在这一章中，圣奎师那揭示了他的教义的神圣起源。他解释说，这种智慧首先被传授给太阳神（Vivasvan），并通过圣人的血统传承下来。随着时间的推移，它丢失了，现在他正在将它恢复给阿朱那。克里希纳透露，每当正法衰落和正法兴起时，他就会化身保护正义并摧毁邪恶。他阐明了知识（Jnana）、行动（Karma）和放弃（Sannyasa）之间的关系。"
+            },
+            "chapter_5_karma_sannyasa_yoga": {
+              "important_terms": {
+                "brahman": "终极现实",
+                "samatva": "Equanimity",
+                "sannyasa": "Renunciation of selfish motives",
+                "tyaga": "Renunciation"
+              },
+              "key_teachings": [
+                "外在的放弃并不是灵性成长所必需的。",
+                "内在的超然是真正的桑雅生。",
+                "The wise see all beings equally."
+              ],
+              "key_verses_explained": {
+                "5.10": "向婆罗门供养行为的人不会受到罪孽的影响，就像一朵不受水影响的莲花一样。",
+                "5.18": "The wise see equally a learned person, a cow, an elephant, a dog, and an outcaste.",
+                "5.29": "Peace comes to one who knows Krishna as the enjoyer of sacrifices and friend of all beings.",
+                "5.3": "既无恨无欲的人，才是真正的出离心。"
+              },
+              "meaning": "放弃行动的瑜伽",
+              "modern_application": "有尊严地对待所有人。放弃基于自我的竞争。",
+              "psychological_interpretation": "摆脱比较和嫉妒会带来和平。",
+              "spiritual_interpretation": "Seeing unity in diversity is spiritual vision.",
+              "summary": "阿朱那问放弃行动或执行行动哪个更好。克里希纳解释说，两者都可以带来解放，但对于大多数人来说，以超然的态度进行无私的行动更容易、更安全。真正的放弃是内在的——摆脱自我和欲望。"
+            },
+            "chapter_6_dhyana_yoga": {
+              "important_terms": {
+                "abhyasa": "Practice",
+                "dhyana": "冥想",
+                "vairagya": "分离",
+                "yogi": "实践与神性结合的人"
+              },
+              "key_teachings": [
+                "头脑可以是朋友，也可以是敌人。",
+                "Balance in lifestyle supports meditation.",
+                "持续不断的练习才能达到精通。",
+                "任何精神上的努力都不会被浪费。"
+              ],
+              "key_verses_explained": {
+                "6.11-15": "Description of meditation posture and discipline.",
+                "6.26": "每当不安的心走神时，就把它控制住。",
+                "6.47": "在所有瑜伽士中，以信心崇拜我的人是最高的。",
+                "6.5": "自己举起自己；不要贬低自己。头脑既是朋友又是敌人。"
+              },
+              "meaning": "冥想瑜伽",
+              "modern_application": "开展日常冥想练习。减少干扰并培养思维清晰度。",
+              "psychological_interpretation": "Mental discipline requires consistency, not force.",
+              "spiritual_interpretation": "冥想带来对自我的直接体验。",
+              "summary": "克里希纳解释了冥想（Dhyana）的纪律。瑜伽修行者必须在饮食、睡眠、工作和娱乐方面实行节制。心必须通过稳定的努力和超脱来训练。阿朱那对控制躁动的心灵表示担忧。克里希纳承认困难，但保证练习（Abhyasa）和超然（Vairagya）使其成为可能。"
+            }
+          }
+        },
+        "order": 2
+      },
+      {
+        "title": "Bhagavad Gita – 完整的深入解释（第 3 部分）",
+        "bhagavadgita_part_3": {
+          "chapters_7_to_9": {
+            "chapter_7_jnana_vijnana_yoga": {
+              "important_terms": {
+                "bhakta": "奉献者",
+                "maya": "宇宙幻象或掩盖现实的神圣力量",
+                "para prakriti": "更高的精神本质",
+                "prakriti": "物质本质"
+              },
+              "key_teachings": [
+                "上帝既是宇宙的物质原因又是动力原因。",
+                "神性遍及一切存在。",
+                "玛雅掩盖了真正的理解。",
+                "有四种类型的奉献者接近上帝。"
+              ],
+              "key_verses_explained": {
+                "7.14": "这个神圣的玛雅人很难跨越，但那些臣服于我的人却跨越了它。",
+                "7.16-18": "四种奉献者：苦恼者、求知者、求财者、智者。奎师那最喜爱明智的奉献者。",
+                "7.4-5": "克里希纳描述了他的较低本性（土、水、火、空气、以太、心智、智力、自我）和较高本性（意识）。",
+                "7.7": "There is nothing superior to Me; everything rests upon Me like pearls on a thread."
+              },
+              "meaning": "知识与自觉的瑜伽",
+              "modern_application": "从交易性信心（寻求帮助）转变为变革性信心（寻求真理）。",
+              "psychological_interpretation": "人类出于不同的原因寻求上帝，但灵性的成熟会带来无条件的奉献。",
+              "spiritual_interpretation": "真正的知识最终会实现与神圣源头的统一。",
+              "summary": "在本章中，圣奎师那更深入地探讨形而上学的教学。他解释了 Jnana（神圣的理论知识）和 Vijnana（直接经验认识）。克里希纳揭示他是所有创造的最终源头。一切都源于他并安息在他之内。然而，由于摩耶（神圣的幻象），大多数众生无法认出他。他解释了低级本质（物质能量）和高级本质（意识）。"
+            },
+            "chapter_8_akshara_brahma_yoga": {
+              "important_terms": {
+                "adhyatma": "内在的自我",
+                "akshara": "不朽、永恒",
+                "brahman": "终极现实",
+                "smriti": "纪念"
+              },
+              "key_teachings": [
+                "死亡时的最后一个想法反映了一个人一生的焦点。",
+                "The Divine is imperishable (Akshara).",
+                "Continuous remembrance leads to spiritual elevation.",
+                "死后有两条宇宙路：光明路和回归路。"
+              ],
+              "key_verses_explained": {
+                "8.20": "超越这个显化和未显化的是永恒的现实。",
+                "8.5": "凡在死亡时记得我的人，就获得了我的存在。",
+                "8.6": "一个人死后所记得的一切都是由终生习惯塑造的。",
+                "8.7": "因此，时时刻刻记住我并战斗。"
+              },
+              "meaning": "The Yoga of the Imperishable Absolute",
+              "modern_application": "带着正念生活。每天培养精神意识，而不仅仅是在危机中。",
+              "psychological_interpretation": "日常习惯塑造最终命运。",
+              "spiritual_interpretation": "持续不断的上帝意识将死亡转化为解脱。",
+              "summary": "阿朱那提出了关于婆罗门（绝对）、Adhyatma（自我）、业力和死亡时状态的深刻形而上学问题。克里希纳解释说，在最后时刻记住神性会带来解放。他讨论了一生中持续的意识和奉献的重要性。"
+            },
+            "chapter_9_raja_vidya_raja_guhya_yoga": {
+              "important_terms": {
+                "ananya bhakti": "独家奉献",
+                "bhakti": "奉献精神",
+                "prasada": "Grace",
+                "shraddha": "信仰"
+              },
+              "key_teachings": [
+                "奉献是最高、最直接的道路。",
+                "神既是内在的又是超越的。",
+                "即使是罪人也可以通过真诚的虔诚而获得解脱。",
+                "Love is more important than ritual."
+              ],
+              "key_verses_explained": {
+                "9.22": "Those who worship Me with exclusive devotion, I preserve what they have and provide what they lack.",
+                "9.26": "无论谁虔诚地向我提供一片叶子、花朵、水果或水，我都会接受。",
+                "9.30-31": "即使是一个有罪恶行为的人，如果虔诚地崇拜我，也应该被视为正义。",
+                "9.4-5": "一切众生存在于我之中，但我不受他们的限制。"
+              },
+              "meaning": "皇家知识和皇家秘密的瑜伽",
+              "modern_application": "以感恩和真诚的态度提供日常行动，而不是机械的仪式。",
+              "psychological_interpretation": "爱将愧疚转化为成长。",
+              "spiritual_interpretation": "无论过去的错误如何，所有人都可以获得神圣的恩典。",
+              "summary": "本章被认为是巴克提瑜伽的核心。克里希纳揭示了最机密的知识：纯粹的奉献。他宣称他遍及整个宇宙，但仍然是超然的。即使是出于爱的简单奉献也会被他接受。他强调无条件的臣服和神圣的恩典。"
+            }
+          }
+        },
+        "order": 3
+      },
+      {
+        "title": "Bhagavad Gita – 完整的深入解释（第 4 部分）",
+        "bhagavadgita_part_4": {
+          "chapters_10_to_12": {
+            "chapter_10_vibhuti_yoga": {
+              "important_terms": {
+                "aishvarya": "磅礴的力量",
+                "ishvara": "至尊主",
+                "vibhuti": "神圣的显现或荣耀"
+              },
+              "key_teachings": [
+                "神圣存在于一切伟大和卓越之中。",
+                "对神圣显现的冥想可以增强奉献精神。",
+                "上帝既内在于创造物之中，又超越创造物。"
+              ],
+              "key_verses_explained": {
+                "10.20": "我是坐在一切众生心中的真我。",
+                "10.41": "任何荣耀、繁荣或强大的事物都源自我荣耀的一小部分。",
+                "10.42": "我用我自己的一个碎片，支撑着整个宇宙。",
+                "10.8": "我是一切之源；一切都从我开始。智者虔诚地崇拜我。"
+              },
+              "meaning": "神圣荣耀瑜伽",
+              "modern_application": "看到本质上的神性、领导力、创造力和道德勇气。让钦佩变成冥想。",
+              "psychological_interpretation": "认识世界的神性可以培养感恩和谦卑。",
+              "spiritual_interpretation": "所有形式的卓越都指向无限源泉。",
+              "summary": "在本章中，圣奎师那揭示了他的 Vibhutis——他的神圣表现和荣耀存在于整个造物之中。阿朱那现在充满了奉献和崇敬，请求奎师那描述他的宇宙显现，以便他能够不断地冥想他。克里希纳解释说，世上所有非凡的美丽、力量、智慧和力量都只是他辉煌的一小部分。"
+            },
+            "chapter_11_vishvarupa_darshana_yoga": {
+              "important_terms": {
+                "divya_chakshu": "神圣的愿景",
+                "kala": "时间",
+                "vishvarupa": "普遍的宇宙形态"
+              },
+              "key_teachings": [
+                "神性超越了人类的想象。",
+                "时间（Kala）是神圣的体现。",
+                "Surrender arises naturally when ego dissolves."
+              ],
+              "key_verses_explained": {
+                "11.12": "如果天空中同时升起一千个太阳，它们的光辉可能会像那样。",
+                "11.32": "我是时间，世界的毁灭者，来消灭这些人民。",
+                "11.33": "Arise and win glory. They are already slain by Me; you are merely an instrument.",
+                "11.45": "阿朱那颤抖着，请求奎师那恢复他温柔的形态。"
+              },
+              "meaning": "The Yoga of the Vision of the Universal Form",
+              "modern_application": "Recognize that personal control is limited. Align with larger purpose rather than ego-driven action.",
+              "psychological_interpretation": "当面对浩瀚的宇宙时，人类的自我就会消失。",
+              "spiritual_interpretation": "The individual self is a small wave in the infinite ocean of existence.",
+              "summary": "Arjuna requests to see Krishna’s supreme universal form (Vishvarupa). Krishna grants divine vision (Divya Chakshu). Arjuna beholds a cosmic form containing all beings, all gods, all time, and all creation within Krishna. He sees countless mouths, eyes, and celestial weapons. He also sees warriors from both sides entering into this blazing universal form, symbolizing time (Kala) that devours all."
+            },
+            "chapter_12_bhakti_yoga": {
+              "important_terms": {
+                "ananya": "Undivided or exclusive",
+                "bhakti": "Loving devotion",
+                "shraddha": "信仰"
+              },
+              "key_teachings": [
+                "Devotion is accessible to all.",
+                "Love of God purifies the heart.",
+                "The true devotee is emotionally balanced and kind."
+              ],
+              "key_verses_explained": {
+                "12.13-14": "He who hates none, is friendly and compassionate, free from ego and steady in mind, is dear to Me.",
+                "12.2": "Those who fix their minds on Me with devotion are considered most perfect.",
+                "12.20": "Those who follow this immortal path of devotion are exceedingly dear to Me.",
+                "12.6-7": "Those who surrender to Me are swiftly delivered from the ocean of birth and death."
+              },
+              "meaning": "奉献瑜伽",
+              "modern_application": "在日常生活中培养善良、谦逊和坚定的信念。",
+              "psychological_interpretation": "Devotion softens pride and heals emotional disturbances.",
+              "spiritual_interpretation": "Love bridges the gap between individual and Infinite.",
+              "summary": "阿朱那问崇拜人格化的神和非人格化的绝对哪个更优越。克里希纳回答说，两者都会带来解放，但对大多数人来说，奉献于个人形式更容易。他描述了理想奉献者的品质——富有同情心、无仇恨、谦虚、在喜悦和悲伤中保持稳定以及臣服。"
+            }
+          }
+        },
+        "order": 4
+      },
+      {
+        "title": "Bhagavad Gita – Complete Deep Explanation (Part 5)",
+        "bhagavadgita_part_5": {
+          "chapters_13_to_15": {
+            "chapter_13_kshetra_kshetrajna_vibhaga_yoga": {
+              "important_terms": {
+                "jnana": "Knowledge",
+                "kshetra": "The Field (body and mind complex)",
+                "kshetrajna": "The Knower of the Field (Self)",
+                "prakriti": "物质本质",
+                "purusha": "Conscious principle"
+              },
+              "key_teachings": [
+                "The body is not the true Self.",
+                "Consciousness is distinct from matter.",
+                "真正的知识是谦卑和超然。",
+                "God is the supreme witness in all beings."
+              ],
+              "key_verses_explained": {
+                "13.2": "Know Me as the Knower of all fields. This reveals the unity of individual consciousness and Supreme consciousness.",
+                "13.22": "The Supreme Self is the witness, permitter, supporter, and enjoyer.",
+                "13.31": "The imperishable Self does not act nor is it tainted.",
+                "13.7-11": "真正的知识包括谦逊、非暴力、耐心和超然。"
+              },
+              "meaning": "The Yoga of Distinguishing the Field and the Knower of the Field",
+              "modern_application": "Practice mindful observation. Do not define yourself solely by roles, achievements, or emotions.",
+              "psychological_interpretation": "Self-awareness grows when we observe thoughts instead of identifying with them.",
+              "spiritual_interpretation": "Realizing the difference between body and Self leads toward liberation.",
+              "summary": "在这个深刻的哲学章节中，圣奎师那解释了 Kshetra（领域）和 Kshetrajna（领域的认知者）之间的区别。身体、思想、感官和情感构成了场——存在的变化方面。知晓者是观察这些变化的有意识的自我（阿特曼）。克里希纳进一步揭示，至尊存在是所有领域的终极知者。他还描述了构成真正知识的品质以及Prakriti（物质自然）和Purusha（意识）的本质。"
+            },
+            "chapter_14_gunatraya_vibhaga_yoga": {
+              "important_terms": {
+                "gunateeta": "One who transcends the Gunas",
+                "rajas": "Passion and activity",
+                "sattva": "Purity and clarity",
+                "tamas": "Inertia and darkness"
+              },
+              "key_teachings": [
+                "Sattva binds through attachment to happiness and knowledge.",
+                "Rajas binds through desire and action.",
+                "Tamas binds through ignorance and laziness.",
+                "One who transcends the Gunas becomes free."
+              ],
+              "key_verses_explained": {
+                "14.22-25": "Qualities of one who has transcended the Gunas — steady in pleasure and pain.",
+                "14.26": "Through devotion, one transcends the Gunas and becomes fit for Brahman.",
+                "14.5": "The three Gunas bind the imperishable Self to the body.",
+                "14.6-8": "Descriptions of Sattva, Rajas, and Tamas."
+              },
+              "meaning": "The Yoga of the Division of the Three Gunas",
+              "modern_application": "Cultivate Sattva through discipline, ethical living, and clarity. Reduce Rajas and Tamas through self-control.",
+              "psychological_interpretation": "Recognizing your dominant tendencies allows conscious self-improvement.",
+              "spiritual_interpretation": "Freedom comes when consciousness is no longer controlled by mental conditioning.",
+              "summary": "Krishna explains the three Gunas (qualities) that govern material nature: Sattva (purity and harmony), Rajas (activity and passion), and Tamas (inertia and ignorance). Every individual is influenced by these qualities in varying proportions. Liberation occurs when one transcends these Gunas through awareness and detachment."
+            },
+            "chapter_15_purushottama_yoga": {
+              "important_terms": {
+                "akshara": "Imperishable Self",
+                "ashvattha": "Sacred fig tree symbolizing worldly existence",
+                "kshara": "Perishable beings",
+                "purushottama": "Supreme Person beyond both"
+              },
+              "key_teachings": [
+                "The world is temporary and constantly changing.",
+                "Attachment sustains worldly bondage.",
+                "The Supreme Person transcends both matter and individual soul.",
+                "真正的避难所在于神性。"
+              ],
+              "key_verses_explained": {
+                "15.1": "Description of the cosmic tree with roots above.",
+                "15.18": "I am beyond the perishable and imperishable; therefore I am called Purushottama.",
+                "15.3-4": "超然地砍下这棵树，寻求至高无上的居所。",
+                "15.7": "An eternal fragment of Myself becomes the individual soul."
+              },
+              "meaning": "The Yoga of the Supreme Divine Person",
+              "modern_application": "仔细检查附件。让你的生活朝着更高的目标迈进。",
+              "psychological_interpretation": "Worldly life feels inverted when values are misunderstood.",
+              "spiritual_interpretation": "Liberation requires detachment from temporary identity.",
+              "summary": "Krishna describes the world as an upside-down Ashvattha tree (sacred fig tree), with roots above and branches below. The roots represent the Divine source; the branches represent worldly existence. Attachment keeps beings bound to this tree. By cutting attachment with the sword of detachment, one seeks the Supreme Person (Purushottama), who is beyond both the perishable (Kshara) and imperishable (Akshara)."
+            }
+          }
+        },
+        "order": 5
+      },
+      {
+        "title": "Bhagavad Gita – Complete Deep Explanation (Part 6 – Final)",
+        "bhagavadgita_part_6": {
+          "advanced_insights": {
+            "advaita": "Non-dual view — Atman and Brahman are identical (Shankaracharya).",
+            "dvaita": "双重观点——上帝和灵魂永远不同（Madhvacharya）。",
+            "vishishtadvaita": "合格的非二元论——灵魂是上帝的一部分，但又是独特的（Ramanujacharya）。"
+          },
+          "chapters_16_to_18": {
+            "chapter_16_daivasura_sampad_vibhaga_yoga": {
+              "important_terms": {
+                "asuri_sampad": "Demoniac tendencies",
+                "daivi_sampad": "Divine virtues",
+                "kama": "Desire",
+                "krodha": "Anger",
+                "lobha": "Greed"
+              },
+              "key_teachings": [
+                "Character determines destiny.",
+                "Divine qualities elevate consciousness.",
+                "Unchecked desire and ego lead to downfall."
+              ],
+              "key_verses_explained": {
+                "16.1-3": "Fearlessness, purity of heart, compassion, and self-control are divine traits.",
+                "16.21": "贪、嗔、贪是地狱三门。",
+                "16.23": "忽视圣经的智慧会导致混乱和垮台。",
+                "16.4": "虚伪、傲慢和愤怒都是恶魔的特征。"
+              },
+              "meaning": "The Yoga of the Division between Divine and Demoniac Qualities",
+              "modern_application": "Practice integrity, discipline, and compassion in daily interactions.",
+              "psychological_interpretation": "Self-awareness of negative tendencies is the first step toward transformation.",
+              "spiritual_interpretation": "Inner purification aligns the individual with divine consciousness.",
+              "summary": "In this chapter, Sri Krishna explains two fundamental tendencies present in human beings: Daivi Sampad (divine qualities) and Asuri Sampad (demoniac qualities). Divine qualities lead toward liberation, while demoniac qualities lead toward bondage and suffering. Krishna lists virtues such as fearlessness, purity, self-control, compassion, and truthfulness. In contrast, arrogance, anger, cruelty, greed, and hypocrisy are described as demoniac traits."
+            },
+            "chapter_17_shraddhatraya_vibhaga_yoga": {
+              "important_terms": {
+                "dana": "Charity",
+                "om_tat_sat": "Sacred syllables signifying ultimate truth",
+                "shraddha": "信仰",
+                "tapas": "Austerity or discipline"
+              },
+              "key_teachings": [
+                "Faith reflects inner conditioning.",
+                "Pure intention determines spiritual growth.",
+                "Even discipline must be guided by wisdom."
+              ],
+              "key_verses_explained": {
+                "17.14-16": "Threefold austerity — of body, speech, and mind.",
+                "17.20-22": "Three types of charity.",
+                "17.3": "A person is made of their faith.",
+                "17.8-10": "Three types of food corresponding to Gunas."
+              },
+              "meaning": "The Yoga of the Threefold Division of Faith",
+              "modern_application": "Examine your intentions behind worship, charity, and discipline.",
+              "psychological_interpretation": "行为背后的动机塑造心理健康。",
+              "spiritual_interpretation": "纯粹的信仰使人与更高的现实保持一致。",
+              "summary": "Krishna explains that faith (Shraddha) is shaped by the three Gunas — Sattva, Rajas, and Tamas. A person’s faith influences food choices, worship style, austerity, and charity. Sattvic faith leads toward clarity and harmony. Rajasic faith seeks recognition and reward. Tamasic faith is misguided and harmful."
+            },
+            "chapter_18_moksha_sannyasa_yoga": {
+              "important_terms": {
+                "moksha": "解放",
+                "saranagati": "Total surrender",
+                "svadharma": "One’s own duty",
+                "tyaga": "Renunciation of fruits"
+              },
+              "key_teachings": [
+                "Perform your own duty, even imperfectly.",
+                "Renounce attachment, not responsibility.",
+                "Complete surrender leads to liberation."
+              ],
+              "key_verses_explained": {
+                "18.46": "By performing one’s duty as worship, one attains perfection.",
+                "18.55": "通过奉献，人们真正认识我。",
+                "18.66": "放弃一切形式的佛法，只皈依我；我将把你从一切罪孽中解放出来。不要悲伤。"
+              },
+              "meaning": "The Yoga of Liberation and Renunciation",
+              "modern_application": "负责任地行动，交出结果，并相信更高的智慧。",
+              "psychological_interpretation": "放弃基于自我的控制可以减少焦虑。",
+              "spiritual_interpretation": "Total surrender dissolves the illusion of separateness.",
+              "summary": "The final chapter summarizes all teachings. Krishna clarifies true renunciation (Tyaga) and reviews Karma, Jnana, and Bhakti paths. He explains the role of Svadharma (one’s own duty) and the importance of acting according to one’s nature. The Gita culminates in the supreme teaching of surrender."
+            }
+          },
+          "comparison_of_paths": {
+            "bhakti_yoga": "Best for emotionally devotional individuals.",
+            "integration": "All three can be practiced together harmoniously.",
+            "jnana_yoga": "Best for analytical and contemplative seekers.",
+            "karma_yoga": "Best for active personalities who seek growth through service."
+          },
+          "conclusion": "The Bhagavad Gita remains timeless because it addresses universal human struggles: fear, duty, identity, and purpose. It harmonizes action, knowledge, and devotion into a unified path of liberation. Its wisdom applies equally to warriors, leaders, scholars, and spiritual seekers. It is not merely a scripture, but a living guide for inner transformation.",
+          "core_philosophical_concepts": {
+            "atman": "超越身体和心灵的永恒自我。",
+            "brahman": "至高无上、无限真实。",
+            "detachment": "Freedom from craving outcomes.",
+            "devotion": "爱的降服于神。",
+            "dharma": "Righteous duty aligned with cosmic order.",
+            "gunas": "Sattva（纯洁）、Rajas（活动）、Tamas（惰性）。",
+            "karma": "因果法则支配着行为。",
+            "moksha": "Freedom from cycle of birth and death.",
+            "yoga": "Path of disciplined union with the Divine."
+          },
+          "final_summary_20_key_points": [
+            "The Self is eternal.",
+            "Body is temporary.",
+            "Perform duty without attachment.",
+            "Devotion purifies the heart.",
+            "知识消除无知。",
+            "通过练习来控制思想。",
+            "在多样性中看到统一。",
+            "Transcend the three Gunas.",
+            "信仰决定命运。",
+            "Character determines outcome.",
+            "神既是内在的又是超越的。",
+            "当真诚地练习时，所有的道路都会通向神圣。",
+            "Leadership requires selflessness.",
+            "自我导致痛苦。",
+            "欲望、愤怒和贪婪具有破坏性。",
+            "Meditation leads to clarity.",
+            "Renunciation is internal.",
+            "投降带来和平。",
+            "Divine grace is accessible to all.",
+            "The Gita is a timeless guide for humanity."
+          ],
+          "practical_application_guide": {
+            "daily_life": "Perform duties sincerely without attachment.",
+            "decision_framework": "Ask: Is this aligned with Dharma? Is it selfless? Does it promote welfare?",
+            "leadership": "Lead by example, act ethically.",
+            "stress_management": "Detach from outcomes; focus on effort."
+          },
+          "symbolism": {
+            "arjuna": "The sincere seeker facing inner confusion.",
+            "battlefield": "Inner struggle between higher and lower tendencies.",
+            "krishna": "The Divine guide within.",
+            "kurukshetra": "道德冲突发生的人生战场。"
+          }
+        },
+        "order": 6
+      },
+      {
+        "title": "Bhagavad Gita – 完整的深入解释（第 7 部分 – 扩展的哲学和实践深度）",
+        "bhagavadgita_part_7": {
+          "advanced_interpretations": {
+            "advaita_vedanta": {
+              "teacher": "阿迪商卡拉查亚",
+              "view": "Ultimate reality is non-dual; individuality is due to ignorance."
+            },
+            "dvaita": {
+              "teacher": "Madhvacharya",
+              "view": "上帝和灵魂是永远不同的。"
+            },
+            "gita_balance": "《梵歌》容纳了多种哲学观点。",
+            "vishishtadvaita": {
+              "teacher": "Ramanujacharya",
+              "view": "灵魂是独特的，但与上帝密不可分。"
+            }
+          },
+          "closing_reflection": "《薄伽梵歌》不仅是一部哲学论文，而且是混乱与清晰、人类限制与神圣指引之间生动的对话。它教导说，在世俗责任中精神觉醒是可能的。它的智慧仍然具有现实意义，因为每一代人都存在内心的战场。",
+          "comparison_of_yogas_expanded": {
+            "bhakti_yoga": {
+              "risk": "Sentimentality without discipline.",
+              "strength": "Emotionally transformative and accessible."
+            },
+            "harmonization": "《梵歌》整合了这三者以实现平衡增长。",
+            "jnana_yoga": {
+              "risk": "Dry intellectualism without devotion.",
+              "strength": "Deep philosophical clarity."
+            },
+            "karma_yoga": {
+              "risk": "如果不与脱离结合起来，就会精疲力竭。",
+              "strength": "将日常工作转化为精神实践。"
+            }
+          },
+          "deep_practical_guide": {
+            "handling_anger": "认识到欲望是其根源（3.37）。",
+            "handling_failure": "与水果分离 (2.47)。",
+            "handling_fear": "Remember the immortality of the Self (Chapter 2).",
+            "leadership": "树立道德榜样 (3.21)",
+            "life_purpose": "虔诚地追随斯瓦达摩（Svadharma）（18.46）。",
+            "stress_management": "练习冥想和节制（第 6 章）。"
+          },
+          "essence_in_expanded_20_principles": [
+            "生命是一项神圣的职责。",
+            "The Self is eternal.",
+            "执着会导致痛苦。",
+            "行动是不可避免的。",
+            "无私服务净化。",
+            "知识消除无知。",
+            "Meditation stabilizes mind.",
+            "Devotion melts ego.",
+            "God pervades creation.",
+            "Character shapes destiny.",
+            "信念决定方向。",
+            "Transcend mental conditioning.",
+            "投降带来和平。",
+            "Balance action and wisdom.",
+            "在多样性中看到统一。",
+            "将工作转变为敬拜。",
+            "以身作则。",
+            "控制欲望和愤怒。",
+            "相信神圣的恩典。",
+            "认识你的神圣本质。"
+          ],
+          "expanded_core_philosophical_concepts": {
+            "atman": {
+              "deep_explanation": "阿特曼不是个性或自我。它是思想背后的无声觉知。认识阿特曼可以消除对死亡的恐惧。",
+              "definition": "永恒的自我，纯粹的意识，超越身体和心灵。",
+              "qualities": [
+                "未出生",
+                "坚不可摧",
+                "不变",
+                "所有经历的见证"
+              ]
+            },
+            "brahman": {
+              "definition": "The infinite, all-pervading ultimate reality.",
+              "gita_synthesis": "克里希纳将婆罗门呈现为非个人的绝对和个人的神圣。",
+              "nirguna": "没有属性（无形的绝对）。",
+              "saguna": "With attributes (personal God)."
+            },
+            "detachment": {
+              "meaning": "摆脱对结果的强迫性渴望。",
+              "misunderstanding": "超然不是冷漠，而是冷漠。这是内在的自由。",
+              "practice": "全力行动，但放弃结果。"
+            },
+            "devotion": {
+              "definition": "Loving surrender to the Divine.",
+              "essence": "Bhakti transforms emotion into spiritual energy.",
+              "forms": [
+                "Hearing",
+                "Chanting",
+                "Remembering",
+                "Serving"
+              ]
+            },
+            "dharma": {
+              "deep_explanation": "In the Gita, Dharma is not rigid rule-following. It is alignment with truth and higher purpose. Arjuna's crisis arises because he confuses emotional attachment with Dharma. Krishna clarifies that true Dharma must be rooted in wisdom, not sentiment.",
+              "definition": "Dharma comes from the Sanskrit root 'dhri', meaning 'to uphold' or 'to sustain'. It refers to the moral, cosmic, and spiritual order that sustains existence.",
+              "levels_of_dharma": {
+                "atma_dharma": "Duty toward self-realization.",
+                "raja_dharma": "Duty of leadership and governance.",
+                "sanatana_dharma": "真理、慈悲、非暴力等普遍永恒的原则。",
+                "svadharma": "基于个人性质、角色和人生阶段的个人责任。"
+              },
+              "modern_application": "即使在情绪困难的情况下，也要选择坚持正直的行动。"
+            },
+            "gunas": {
+              "deep_explanation": "Spiritual maturity involves cultivating Sattva and eventually transcending all three.",
+              "rajas": "Activity, ambition, restlessness.",
+              "sattva": "清晰、和谐、纯洁。",
+              "tamas": "无知、惰性、混乱。"
+            },
+            "karma": {
+              "deep_explanation": "《薄伽梵歌》并不宣扬宿命论。相反，它教导人们明智地参与生活。人无法避免行动，但可以净化意图。",
+              "definition": "业力意味着行动，也是因果法则。",
+              "liberation_from_karma": "通过将行为作为供奉（Yajna）而不执着于水果。",
+              "types_of_karma": {
+                "agami": "业力是通过当前的行为而产生的。",
+                "prarabdha": "现在正在经历部分业力。",
+                "sanchita": "累积了过去的业力。"
+              }
+            },
+            "moksha": {
+              "definition": "从生死轮回中解脱（Samsara）。",
+              "gita_path": "Achieved through knowledge, devotion, and surrender.",
+              "state": "摆脱无知并实现与神圣的统一。"
+            },
+            "yoga": {
+              "definition": "Union or disciplined path toward spiritual realization.",
+              "four_primary_forms": {
+                "bhakti_yoga": "Path of devotion.",
+                "dhyana_yoga": "冥想。",
+                "jnana_yoga": "知识之路。",
+                "karma_yoga": "无私的行动。"
+              },
+              "integration": "《梵歌》协调所有瑜伽，而不是孤立它们。"
+            }
+          },
+          "symbolic_and_spiritual_psychology": {
+            "arjuna": "The individual soul facing moral crisis.",
+            "chariot": "人体。",
+            "charioteer": "由神圣引导的辨别智能。",
+            "horses": "Senses.",
+            "kauravas": "Lower impulses such as greed and pride.",
+            "krishna": "内在的神圣智慧引导着良知。",
+            "kurukshetra": "代表道德和心理冲突的内心战场。",
+            "pandavas": "更高的美德和纪律倾向。",
+            "reins": "头脑。"
+          }
+        },
+        "order": 7
+      },
+      {
+        "title": "Bhagavad Gita – 完整的深层解释（第 8 部分 – 综合生活手册和沉思扩展）",
+        "bhagavadgita_part_8": {
+          "closing_contemplative_prayer": "愿圣奎师那的智慧照亮我们内心的战场。愿我们像阿朱那一样，在清晰、慈悲和臣服的指引下，勇敢地行动。愿知识消除无知，奉献软化自我，有纪律的行动将生命转化为精神成长。",
+          "common_misinterpretations_clarified": {
+            "emotion_suppression": "情感是被承认的，但由智慧引导。",
+            "fatalism": "The Gita does not teach passivity; it teaches empowered responsibility.",
+            "renunciation": "真正的放弃是精神上的放弃，而不是对社会的放弃。",
+            "violence_justification": "背景是基于佛法的责任，而不是侵略。"
+          },
+          "daily_life_implementation_model": {
+            "challenges": "回忆一下脱离原则（第 2 章）。",
+            "evening": "自我反省和感恩。",
+            "interactions": "Practice compassion and equanimity (Chapter 12).",
+            "long_term": "将职业和人生目标与 Svadharma 保持一致。",
+            "morning": "冥想和意图设定（第 6 章）。",
+            "work_hours": "业力瑜伽心态——工作即崇拜。"
+          },
+          "decision_making_framework_based_on_gita": {
+            "step_1_clarity_of_role": "识别你的斯瓦达玛。在这种情况下你的责任是什么？",
+            "step_2_detachment_check": "你是否执着于结果、赞扬，还是害怕失败？",
+            "step_3_guna_analysis": "你的决定是否受到 Sattva（清晰）、Rajas（自我驱动的野心）或 Tamas（混乱）的影响？",
+            "step_4_universal_ethics": "这一行动符合真理、同情心和公平吗？",
+            "step_5_surrender": "明智地行动之后，在精神上放弃结果。"
+          },
+          "emotional_mastering_techniques_from_gita": {
+            "anger": "认识到愤怒源于受挫的欲望（2.62-63）。",
+            "anxiety": "脱离行动的成果（2.47）。",
+            "fear": "冥想阿特曼的不朽（2.20）。",
+            "guilt": "即使罪人也可以通过奉献而改变（9.30）。",
+            "jealousy": "了解众生平等（5.18）。",
+            "loneliness": "记住神圣存在于心中（10.20）。"
+          },
+          "integrated_spiritual_framework": {
+            "inner_transformation_process": [
+              "混乱（阿朱那·维沙达）",
+              "Inquiry (Questioning)",
+              "知识（数论）",
+              "纪律行动（业力瑜伽）",
+              "冥想（禅定）",
+              "奉献（巴克提）",
+              "愿景（Vishvarupa）",
+              "投降（莫克沙）"
+            ],
+            "three_stage_spiritual_evolution": {
+              "stage_1_action_purification": "从业力瑜伽开始。真诚履行职责。减少自私动机。将结果献给神。",
+              "stage_2_knowledge_clarity": "通过净化的心，培养智慧。研读经文。深刻反思。了解阿特曼和婆罗门。",
+              "stage_3_devotional_surrender": "通过知识的成熟，完全臣服于巴克提。体验团结和内心的平静。"
+            }
+          },
+          "integration_with_upanishadic_thought": {
+            "aham_brahmasmi": "我是婆罗门——非二元证悟。",
+            "gita_alignment": "《梵歌》将奥义书的抽象转化为生活实践。",
+            "sarvam_khalvidam_brahma": "这一切都是婆罗门——普遍的神性。",
+            "tat_tvam_asi": "你是——阿特曼和婆罗门的统一。"
+          },
+          "leadership_lessons_from_krishna": {
+            "calm_under_pressure": "在混乱中保持平静。",
+            "empowerment": "引导他人自我发现，而不是强迫他人服从。",
+            "lead_by_example": "无论伟人做什么，其他人都会效仿（3.21）。",
+            "long_term_view": "行动要符合宇宙的观点，而不是暂时的利益。",
+            "strategic_wisdom": "平衡慈悲与坚定。"
+          },
+          "meditative_contemplation_practices": {
+            "practice_1_self_observation": "将思想视为 Kshetra（场），而不是自我。",
+            "practice_2_breath_and_mantra": "吸气时说“So”，呼气时说“Ham”（我就是那个）。",
+            "practice_3_daily_offering": "在心里将每项任务交给克里希纳。",
+            "practice_4_guna_reflection": "睡觉前，反思一下哪个古纳在你的一天中占主导地位。",
+            "practice_5_gratitude_contemplation": "认识你周围的神圣Vibhutis。"
+          },
+          "philosophical_synthesis": {
+            "epistemological_view": "知识是通过辨别（Viveka）和奉献而产生的。",
+            "ethical_view": "正确的行动是符合佛法且远离自私的行动。",
+            "metaphysical_goal": "Realization of unity with or surrender to the Supreme.",
+            "ontological_view": "Reality consists of changing Prakriti and eternal Purusha."
+          },
+          "timeless_relevance": {
+            "eternal_value": "Its message transcends culture and time.",
+            "global_impact": "Influenced leaders, philosophers, and seekers worldwide.",
+            "inner_guidance": "克里希纳代表永恒的良心。",
+            "psychological_depth": "《梵歌》讲述了恐惧、野心、悲伤和目的。",
+            "universal_conflict": "每一代人都像阿朱那一样面临着道德困境。"
+          },
+          "ultimate_spiritual_message": {
+            "core_statement": "人类的生命是内在进化的神圣机会。",
+            "divine_assurance": "神支持真诚的寻求者。",
+            "final_verse_significance": "哪里有克里希纳（Krishna）（智慧）和阿朱那（Arjuna）（努力），哪里就有胜利（18.78）。",
+            "freedom_formula": "正见+无私行动+奉献=解脱。"
+          }
+        },
+        "order": 8
+      },
+      {
+        "title": "Bhagavad Gita – 完整的深层解释（第 9 部分 – 冥想深度、内在转变和生活实现）",
+        "bhagavadgita_part_9": {
+          "advanced_contemplations_for_serious_seekers": {
+            "what_is_control": "控制是自我的幻觉吗？",
+            "what_is_death": "形态转变还是湮灭？",
+            "what_is_mine": "任何东西真的可以永久拥有吗？",
+            "what_is_success": "成功是外在的认可还是内在的稳定？",
+            "who_am_i": "我是身体、心智、智力还是见证意识？"
+          },
+          "closing_benediction": "愿《薄伽梵歌》的智慧引导理智走向清晰，心灵走向奉献，行动走向正义。愿内在的奎师那在困惑的时刻说话。愿内在的阿朱那勇敢地崛起。智慧与努力相结合，就会有胜利、繁荣和持久和平。",
+          "deep_psychological_model_of_the_gita": {
+            "behavioral_retraining": "业瑜伽改变习惯。",
+            "cognitive_distortion": "Belief that control guarantees security.",
+            "conflict_source": "Attachment + expectation = anxiety.",
+            "ego_structure": "自我认同于身体、地位、角色和结果。",
+            "emotional_healing": "巴克提净化怨恨和骄傲。",
+            "transformational_shift": "对阿特曼的认识消除了对失去的恐惧。",
+            "ultimate_state": "舍（Samatva）——无论环境如何，稳定的智慧。"
+          },
+          "ethical_framework_from_gita": {
+            "compassion_with_strength": "坚定必须以佛法为指导。",
+            "intention": "动机的纯洁性决定道德价值。",
+            "means_and_ends": "目的并不能证明有害手段是正当的。",
+            "non_attachment": "行事公正，无仇恨。"
+          },
+          "final_contemplative_synthesis": {
+            "core_realization": "你不仅仅是生活的参与者；你是见证生命的意识。",
+            "eternal_assurance": "神圣的恩典伴随着真诚的努力。",
+            "freedom": "自由不是逃避责任，而是责任中的自由。",
+            "ultimate_shift": "从以自我为中心的生活到以上帝为中心的意识。"
+          },
+          "integration_with_modern_life_challenges": {
+            "career_pressure": "脱离比较；专注于卓越的努力。",
+            "identity_crisis": "在阿特曼中锚定身份，而不是社会标签。",
+            "information_overload": "练习冥想纪律。",
+            "relationship_conflict": "以同理心而非自我来回应。",
+            "uncertainty": "相信长期的佛法胜过短期的舒适。"
+          },
+          "spiritual_maturity_indicators": {
+            "clarity_of_purpose": "生活与更高的原则保持一致。",
+            "expanded_compassion": "平等地看待一切众生。",
+            "fearlessness": "植根于自我的不朽。",
+            "inner_stability": "赞扬和责备时保持冷静。",
+            "reduced_reactivity": "情绪波动较小。"
+          },
+          "the_gita_and_time": {
+            "cyclical_time": "Life moves in cycles of creation and dissolution.",
+            "impermanence": "所有的形式都会改变；只剩下意识了。",
+            "kala_as_divine": "克里希纳宣称自己就是时间（11.32）。",
+            "wisdom": "脱离临时结构；与永恒对齐。"
+          },
+          "the_gita_as_a_universal_scripture": {
+            "beyond_religion": "它的教义适用于所有真诚的寻求者。",
+            "philosophical_completeness": "涵盖本体论、伦理学、形而上学和奉献精神。",
+            "practical_accessibility": "教导世俗生活中的灵性。",
+            "psychological_depth": "讲述悲伤、责任、野心、死亡。"
+          },
+          "the_gita_as_an_inner_journey_map": {
+            "phase_1_crisis": {
+              "description": "每一次精神之旅都始于困惑，就像第一章中的阿朱那一样。确定性的崩溃为探究创造了空间。",
+              "inner_meaning": "存在的怀疑并不是弱点。这是通往觉醒的大门。"
+            },
+            "phase_2_discernment": {
+              "description": "通过Sankhya（智慧），人们学会区分身体和自我。",
+              "inner_meaning": "当身份从个性转变为意识时，清晰度就开始了。"
+            },
+            "phase_3_disciplined_engagement": {
+              "description": "业力瑜伽训练个人不带自私执着地行事。",
+              "inner_meaning": "外部的纪律可以稳定内部的动荡。"
+            },
+            "phase_4_meditative_integration": {
+              "description": "禅定瑜伽将意识集中在寂静中。",
+              "inner_meaning": "头脑变成了仆人而不是主人。"
+            },
+            "phase_5_devotional_expansion": {
+              "description": "巴克提融化了探索者和神圣之间的分离。",
+              "inner_meaning": "爱消除了存在的孤立。"
+            },
+            "phase_6_cosmic_realization": {
+              "description": "Vishvarupa Darshana 将意识扩展到普遍范围。",
+              "inner_meaning": "自我在无限之前崩溃了。"
+            },
+            "phase_7_surrender_and_freedom": {
+              "description": "Moksha Sannyasa 在投降中达到顶峰（18.66）。",
+              "inner_meaning": "Freedom arises when resistance ends."
+            }
+          },
+          "three_layers_of_reality_in_the_gita": {
+            "integration": "The Gita harmonizes practical responsibility with absolute realization.",
+            "paramarthika": "绝对现实——唯有婆罗门才是终极真理。",
+            "pratibhasika": "Illusory perception – ego-driven misunderstandings.",
+            "vyavaharika": "Practical reality – everyday duties and actions."
+          }
+        },
+        "order": 9
+      },
+      {
+        "title": "Bhagavad Gita – Complete Deep Explanation (Part 10 – Final Integration, Living Wisdom & Realization)",
+        "bhagavadgita_part_10": {
+          "complete_essence_of_the_bhagavad_gita": [
+            "Human life is a sacred opportunity.",
+            "Confusion can lead to awakening.",
+            "The Self is eternal and indestructible.",
+            "Attachment binds; detachment frees.",
+            "Action must align with Dharma.",
+            "Mind requires discipline and training.",
+            "Desire and anger cloud judgment.",
+            "Devotion purifies the heart.",
+            "知识照亮现实。",
+            "神性遍及一切存在。",
+            "一切卓越都反映出神圣的荣耀。",
+            "Faith shapes character.",
+            "Leadership demands selflessness.",
+            "Meditation stabilizes consciousness.",
+            "Transcend the Gunas.",
+            "在多样性中看到统一。",
+            "Offer all actions to the Divine.",
+            "Surrender dissolves fear.",
+            "Grace supports sincere effort.",
+            "Wisdom and courage together bring victory."
+          ],
+          "final_reflection": "The Bhagavad Gita is an eternal dialogue between the struggling human mind and the guiding Divine intelligence. It teaches that spirituality is not separate from life — it is life lived with clarity, devotion, and disciplined action. When Arjuna's confusion dissolved, he did not abandon the battlefield; he stood up transformed. Likewise, the Gita does not remove us from responsibility — it empowers us to fulfill it with wisdom and surrender. Its message remains timeless because the inner battlefield remains timeless.",
+          "four_dimensions_of_human_development_in_gita": {
+            "emotional": "乐与苦的平等心（2.14，2.48）。",
+            "intellectual": "Discrimination between real and unreal (Chapter 13).",
+            "physical": "Moderation in food, sleep, and activity (Chapter 6).",
+            "spiritual": "臣服并奉献于神圣（18.66）。"
+          },
+          "from_knowledge_to_realization": {
+            "experiential_realization": "Through meditation and selfless action, insight becomes lived experience.",
+            "intellectual_understanding": "At first, the Gita is studied as philosophy. One learns about Atman, Karma, Dharma, and Yoga conceptually.",
+            "living_wisdom": "Eventually, the Gita is no longer merely read — it is lived naturally.",
+            "reflective_internalization": "Through contemplation (Manana), teachings begin shaping thought patterns and emotional responses."
+          },
+          "gita_for_serious_spiritual_seekers": {
+            "balanced_path": "Integrate Jnana, Karma, and Bhakti harmoniously.",
+            "discipline_required": "Consistent reflection and self-observation.",
+            "ego_transcendence": "Accept correction of personal misconceptions.",
+            "intellectual_honesty": "深入但真诚地提问。"
+          },
+          "highest_teachings_revisited": {
+            "11.32_principle": "时间是超越自我控制的神圣过程。",
+            "18.66_principle": "Total surrender brings liberation.",
+            "2.47_principle": "Right to action, not to results.",
+            "6.5_principle": "Lift yourself through disciplined mind.",
+            "9.22_principle": "Divine protection for devoted seekers."
+          },
+          "integration_of_action_and_contemplation": {
+            "balance": "Meditation nourishes action; action purifies meditation.",
+            "engaged_spirituality": "Spiritual realization unfolds in responsible participation.",
+            "not_withdrawal": "The Gita does not promote escape from society."
+          },
+          "signs_of_inner_realization": {
+            "clarity": "Spontaneous ethical decision-making.",
+            "compassion": "Seeing oneself in all beings.",
+            "fearlessness": "Rooted in eternal awareness.",
+            "joy": "Contentment independent of circumstance.",
+            "stable_peace": "Calmness unaffected by praise or criticism."
+          },
+          "the_gita_and_freedom": {
+            "freedom_from_anxiety": "Detachment from fruits reduces stress.",
+            "freedom_from_cycle": "Realization of Brahman ends rebirth (Moksha).",
+            "freedom_from_ego": "Devotion dissolves pride and comparison.",
+            "freedom_from_fear": "Knowledge of immortality dissolves fear of death."
+          },
+          "the_gita_as_universal_psychology": {
+            "behavioral_retraining": "Karma Yoga reforms impulsive habits.",
+            "cognitive_alignment": "正确的认识可以纠正扭曲的思想。",
+            "emotional_regulation": "Bhakti softens emotional turbulence.",
+            "existential_resolution": "Jnana 解决了身份危机。"
+          },
+          "three_foundational_practices_for_lifelong_gita_sadhana": {
+            "daily_study": "Read and reflect on a few verses regularly.",
+            "meditative_remembrance": "保持心中对神圣临在的认识。",
+            "selfless_service": "将职业和家庭责任转化为奉献。"
+          },
+          "transformation_of_identity": {
+            "stage_1_role_identity": "我就是我的职业、地位或人际关系。",
+            "stage_2_psychological_identity": "我就是我的思想和情感。",
+            "stage_3_witness_identity": "我是意识观察思想。",
+            "stage_4_divine_identity": "我是至尊者的永恒表达。"
+          }
+        },
+        "order": 10
+      },
+      {
+        "title": "Bhagavad Gita – 完整的深层解释（第11部分 – 终极实现和生活启蒙）",
+        "bhagavadgita_part_11": {
+          "advanced_contemplative_questions": [
+            "If I am not my thoughts, who is the observer?",
+            "What remains unchanged amidst all change?",
+            "幸福取决于环境还是意识？",
+            "What would action look like if free from fear?",
+            "Can surrender coexist with strength?"
+          ],
+          "closing_prayerful_reflection": "May the wisdom of the Bhagavad Gita illuminate intellect, purify heart, and strengthen action. May we hear the divine guidance within moments of confusion. May we perform our duties with courage and compassion. May knowledge remove ignorance, devotion soften ego, and disciplined action transform daily life into spiritual evolution. Where there is clarity and surrender, there is true victory.",
+          "highest_synthesis_of_karma_jnana_bhakti": {
+            "bhakti_without_karma": "Can become sentimental.",
+            "integrated_path": "Act wisely, understand deeply, love completely.",
+            "jnana_without_bhakti": "Can become dry intellectualism.",
+            "karma_without_jnana": "Can become mechanical."
+          },
+          "integration_with_global_philosophy": {
+            "ethical_universality": "同情心和责任感是普遍的美德。",
+            "existentialism_resolution": "目的是通过佛法找到的。",
+            "mindfulness_alignment": "Meditative awareness parallels modern mindfulness.",
+            "stoicism_parallel": "平静类似于斯多葛式的冷静。"
+          },
+          "living_the_gita_in_modern_world": {
+            "corporate_life": "以正直和超然的态度领导。",
+            "family_life": "Practice compassion and duty without ego.",
+            "personal_growth": "Commit to disciplined self-improvement.",
+            "social_engagement": "Serve without hatred."
+          },
+          "practical_daily_sadhana_framework": {
+            "evening_reflection": "Review actions without guilt, learn, and surrender.",
+            "midday_awareness": "Act consciously and ethically.",
+            "morning_alignment": "Begin day with meditation and verse reflection.",
+            "service_component": "Engage in some form of selfless contribution.",
+            "weekly_study": "深刻的经文沉思。"
+          },
+          "stages_of_detachment": {
+            "emotional_detachment": "回应，没有过度的反应。",
+            "external_detachment": "Reducing unnecessary possessions and distractions.",
+            "intellectual_detachment": "Freedom from rigid opinions.",
+            "spiritual_detachment": "Release of ego identity."
+          },
+          "the_final_message_of_sri_krishna": {
+            "compassionate_guidance": "Krishna never forces Arjuna; He advises and leaves choice.",
+            "surrender_invitation": "Complete refuge in Divine dissolves fear (18.66).",
+            "ultimate_respect_for_free_will": "After teaching, Krishna says: Reflect and act as you choose (18.63).",
+            "victory_assurance": "Where wisdom and righteous effort unite, there is success (18.78)."
+          },
+          "the_gita_and_consciousness_expansion": {
+            "cosmic_awareness": "Recognizes unity of all existence.",
+            "divine_awareness": "Surrenders fully to the Supreme Reality.",
+            "ordinary_awareness": "Identified with body and ego.",
+            "reflective_awareness": "观察想法和反应。"
+          },
+          "the_gita_and_inner_peace": {
+            "freedom_definition": "Inner independence from external volatility.",
+            "lasting_peace": "Not absence of conflict, but stability amidst it.",
+            "peace_formula": "Right knowledge + disciplined action + surrendered heart."
+          },
+          "the_gita_as_a_lifetime_companion": {
+            "final_stage": "Prepares consciousness for peaceful transition.",
+            "later_years": "Deepens detachment and spiritual contemplation.",
+            "middle_age": "Guides ethical leadership and responsibility.",
+            "not_a_single_reading": "The Bhagavad Gita is not exhausted in one reading. Each stage of life reveals new layers of meaning.",
+            "youth": "Provides clarity about purpose, ambition, and discipline."
+          },
+          "the_inner_conversation_model": {
+            "arjuna_within": "Represents doubt, fear, and moral sensitivity.",
+            "krishna_within": "Represents higher wisdom and conscience.",
+            "practice": "Before major decisions, pause and allow the inner Krishna to respond to the inner Arjuna."
+          },
+          "ultimate_realization": {
+            "core_truth": "You are not merely a participant in the world — you are eternal consciousness.",
+            "divine_relationship": "The individual soul is eternally connected to the Supreme.",
+            "final_goal": "Not escape from life, but enlightened participation in life.",
+            "freedom_state": "When ego dissolves, fear dissolves."
+          }
+        },
+        "order": 11
+      },
+      {
+        "title": "Bhagavad Gita – Complete Deep Explanation (Part 12 – Ultimate Integration, Realization & Silent Wisdom)",
+        "bhagavadgita_part_12": {
+          "complete_synthesis_of_the_gita": {
+            "action": "Perform duty without attachment.",
+            "devotion": "Surrender heart to Divine.",
+            "ethics": "Live in alignment with Dharma.",
+            "knowledge": "Realize eternal Self.",
+            "meditation": "Stabilize mind.",
+            "surrender": "完全相信神的旨意。",
+            "transcendence": "超越古纳斯。"
+          },
+          "final_contemplative_conclusion": "《薄伽梵歌》以一名战士放下弓开始，以他再次举起弓结束——不是出于愤怒，而是出于清晰。这就是精神生活的本质。混乱转化为智慧。恐惧转化为勇气。执着转变为臣服。 《薄伽梵歌》并没有将我们带离人生的战场；它教会我们如何以坚定的心和觉醒的觉知站在其中。它的信息是永恒的，因为内心的斗争是永恒的。当内在的奎师那引导、内在的阿朱那倾听时，生命本身就成为一条通往解脱的神圣之路。",
+          "five_pillars_of_gita_realization": {
+            "clarity": "永恒与暂时的区别。",
+            "courage": "Willingness to act aligned with Dharma.",
+            "detachment": "Freedom from compulsive craving.",
+            "devotion": "爱屈服于神圣意志。",
+            "discipline": "Consistent practice of right action."
+          },
+          "from_outer_battle_to_inner_mastery": {
+            "inner_conflict": "Conflict between wisdom and impulse.",
+            "outer_conflict": "War symbolizes life’s unavoidable struggles.",
+            "true_warrior": "一个征服自我、愤怒和恐惧的人。",
+            "victory": "Triumph of clarity over confusion."
+          },
+          "liberation_revisited": {
+            "continuous_awareness": "生活锚定于阿特曼。",
+            "fearlessness": "Birth and death no longer threaten identity.",
+            "not_escape": "Moksha is not running from world, but freedom within it.",
+            "state_of_being": "Unshakeable peace and compassion."
+          },
+          "silence_beyond_teaching": {
+            "highest_knowledge": "After intellectual understanding comes silent realization.",
+            "meditative_absorption": "In deep meditation, distinctions dissolve.",
+            "non_dual_experience": "知者、知者、知者融为一体。"
+          },
+          "the_eternal_promise": {
+            "divine_assurance": "No effort on this path is ever wasted (6.40).",
+            "grace_principle": "Divine responds to sincere devotion (9.22).",
+            "surrender_assurance": "Complete refuge removes all fear (18.66).",
+            "victory_statement": "Where wisdom and righteous effort unite, there is lasting prosperity (18.78)."
+          },
+          "the_final_transformation_of_arjuna": {
+            "18.73_realization": "阿朱那宣称：“我的妄想已被摧毁。”我会按照你的话行事。",
+            "final_state": "Firm resolve, calm action, surrendered confidence.",
+            "initial_state": "绝望、情绪崩溃、拒绝采取行动。",
+            "intermediate_state": "Inquiry, reflection, gradual clarity."
+          },
+          "the_gita_as_living_consciousness": {
+            "beyond_text": "《薄伽梵歌》不仅仅是 700 节经文。它是通过反思、实践和领悟而展现的活生生的智慧。",
+            "eternal_dialogue": "阿朱那和克里希纳之间的对话在每个人心中继续进行。",
+            "inner_voice": "When confusion arises and clarity answers from within, that dialogue is the Gita alive in consciousness."
+          },
+          "three_ultimate_shifts_in_consciousness": {
+            "shift_1": "从以自我为中心的身份到以灵魂为中心的意识。",
+            "shift_2": "从结果痴迷到努力奉献。",
+            "shift_3": "从恐惧驱动的生活到基于信任的屈服。"
+          },
+          "universal_message_for_all_ages": {
+            "for_all_humans": "勇敢地生活，道德地行事，深深地爱。",
+            "for_leaders": "以正义和谦卑来领导。",
+            "for_seekers": "Seek truth beyond appearances.",
+            "for_students": "Discipline mind and character."
+          }
+        },
+        "order": 12
+      },
+      {
+        "title": "Bhagavad Gita – 完整深入的解释（第13部分 – 寂静的顶峰和永恒的生命智慧）",
+        "bhagavadgita_part_13": {
+          "after_the_teaching_ends": {
+            "external_scene": "海螺壳即将吹响。军队已做好准备。战场依旧。",
+            "internal_transformation": "But Arjuna is no longer the same. The battlefield outside has not changed — the battlefield inside has.",
+            "true_resolution": "The Gita does not remove difficulty; it removes delusion."
+          },
+          "the_complete_map_of_human_evolution_in_gita": {
+            "stage_1": "执着和困惑（Arjuna Vishada）。",
+            "stage_2": "智力觉醒（Sankhya）。",
+            "stage_3": "Ethical discipline (Karma Yoga).",
+            "stage_4": "Mental mastery (Dhyana Yoga).",
+            "stage_5": "Devotional expansion (Bhakti).",
+            "stage_6": "Cosmic vision (Vishvarupa).",
+            "stage_7": "Complete surrender (Moksha Sannyasa)."
+          },
+          "the_eternal_echo": {
+            "whenever_afraid": "Recall immortality of Atman.",
+            "whenever_attached": "Practice detachment from fruits.",
+            "whenever_confused": "Remember the dialogue.",
+            "whenever_lost": "Surrender and trust.",
+            "whenever_proud": "See Divine as source of all glory."
+          },
+          "the_final_state_of_arjuna": {
+            "alignment": "His will aligns with Divine wisdom.",
+            "clarity_restored": "His confusion (Moha) is destroyed.",
+            "free_choice": "He chooses to act consciously, not react emotionally.",
+            "memory_recovered": "他记得自己更深层次的身份和目的。"
+          },
+          "the_gita_as_three_circles_of_realization": {
+            "circle_1_practical_life": "负责任地生活。诚信履职。",
+            "circle_2_inner_awareness": "Recognize the eternal witness within.",
+            "circle_3_divine_union": "Realize oneness or surrender fully to the Supreme."
+          },
+          "the_gita_in_one_essential_sentence": "以清明的知识、纯洁的行动、稳定的心态和臣服的心来生活。",
+          "the_paradox_of_action_and_silence": {
+            "inner_stillness": "成道的人内心保持沉默。",
+            "outer_activity": "Life demands engagement and responsibility.",
+            "resolution": "Act fully outside, remain detached inside."
+          },
+          "the_silent_realization": {
+            "advaitic_view": "The seeker realizes identity with Brahman.",
+            "bhakti_view": "The seeker rests in loving union with Krishna.",
+            "synthesis": "Whether unity or surrender, ego dissolves."
+          },
+          "three_types_of_readers_of_the_gita": {
+            "devotional_reader": "寻求与克里希纳的情感联系。",
+            "intellectual_reader": "Seeks philosophical clarity.",
+            "transformational_reader": "Applies teachings and experiences inner change."
+          },
+          "ultimate_closing_reflection": "《薄伽梵歌》不仅仅是两个历史人物之间的对话。这是有限与无限之间的永恒对话。它以悲伤开始，以智慧结束。它以颤抖开始，以力量结束。当深入理解它时，它不仅会改变我们的思维方式，还会改变我们的生活、行为、爱和最终超越的方式。它最后的礼物是自由：免于恐惧、无知、自我和束缚的自由。教学结束了，但旅程仍在继续——在意识、奉献和有意识的行动中。",
+          "what_remains_when_all_teaching_is_assimilated": {
+            "no_arrogance": "因为个人代理能力有限。",
+            "no_despair": "因为神圣的恩典支持努力。",
+            "no_fear": "因为本我是永恒的。",
+            "no_hatred": "Because all beings are expressions of the same Divine."
+          }
+        },
+        "order": 13
+      },
+      {
+        "title": "Bhagavad Gita – Complete Deep Explanation (Part 14 – The Ever-Living Gita & Eternal Application)",
+        "bhagavadgita_part_14": {
+          "inner_signs_of_gita_integration": {
+            "calm_strength": "自信而不傲慢。",
+            "clarified_values": "决策更容易符合佛法。",
+            "expanding_empathy": "You feel interconnectedness with others.",
+            "reduced_reactivity": "你在回应之前停顿了一下。",
+            "steady_joy": "Happiness is less dependent on external conditions."
+          },
+          "the_eternal_blessing": "May the wisdom of Sri Krishna guide thought, purify intention, and steady action. May the courage of Arjuna arise within whenever confusion appears. May Dharma shape decisions, devotion soften the heart, and knowledge illuminate identity. The Bhagavad Gita does not end in scripture — it continues in conscious living. Where clarity, courage, and surrender unite, there is enduring peace.",
+          "the_final_integration_of_all_teachings": {
+            "bhakti": "Love.",
+            "dhyana": "Stabilize.",
+            "jnana": "Understand.",
+            "karma": "行为。",
+            "moksha": "Be free.",
+            "tyaga": "Let go."
+          },
+          "the_gita_and_death": {
+            "continuity_of_consciousness": "最终的想法反映了终生的方向（8.6）。",
+            "fearlessness": "Realization removes existential anxiety.",
+            "not_ending": "死亡是身体的转变，而不是自我的毁灭（2.20）。"
+          },
+          "the_gita_and_inner_freedom_revisited": {
+            "freedom_from_comparison": "Success is measured by integrity, not competition.",
+            "freedom_from_fear_of_loss": "Understanding impermanence dissolves anxiety.",
+            "freedom_from_identity_attachment": "角色发生了变化，但内在意识却保持不变。",
+            "freedom_from_outcome_dependency": "你真诚地工作，但不会被结果击垮。"
+          },
+          "the_gita_and_responsibility": {
+            "balance": "Compassion does not cancel firmness; firmness does not cancel compassion.",
+            "engaged_righteousness": "精神成熟通过负责任的参与来表达。",
+            "no_escape_theology": "The Gita never endorses passivity."
+          },
+          "the_gita_as_universal_human_manual": {
+            "for_leaders": "Lead by moral example (3.21).",
+            "for_parents": "Guide with love and responsibility.",
+            "for_professionals": "Work ethically without attachment to promotion.",
+            "for_seekers": "Balance inquiry with devotion.",
+            "for_students": "培养纪律和目标。"
+          },
+          "the_last_unspoken_lesson": {
+            "integration": "《梵歌》最终超越了语言——进入了生活的意识。",
+            "realization": "True wisdom is quiet strength.",
+            "silence": "After dialogue, silence remains."
+          },
+          "three_permanent_practices_for_lifelong_gita_living": {
+            "awareness": "Constant remembrance that you are the witnessing consciousness (Atman).",
+            "offering": "Mentally offer every action as Yajna (sacred act).",
+            "surrender": "Trust that Divine intelligence governs larger outcomes."
+          },
+          "what_remains_after_all_practice": {
+            "clarity": "Right action feels intuitive.",
+            "devotion": "Gratitude flows naturally.",
+            "presence": "Life is lived consciously, not mechanically.",
+            "stillness": "Mind becomes transparent."
+          },
+          "when_the_scripture_becomes_experience": {
+            "experiential_stage": "Eventually, one no longer 'tries' to practice the Gita — equanimity, compassion, and clarity arise naturally.",
+            "intellectual_stage": "At first, the Gita is read as philosophy — verses are studied, meanings analyzed, doctrines compared.",
+            "realization": "The scripture moves from page to personality.",
+            "reflective_stage": "渐渐地，它的教义开始塑造反应、选择和关系。"
+          }
+        },
+        "order": 14
+      },
+      {
+        "title": "Bhagavad Gita – 完整的深层解释（第 15 部分 – 永恒的回声和永远存在的智慧）",
+        "bhagavadgita_part_15": {
+          "eternal_closing_reflection": "《薄伽梵歌》以一位被悲伤淹没的战士开始，以一位清醒地站立的战士结束。这种转变是精神生活的本质。战场依然存在，但恐惧消失了。责任依然存在，但依恋感减弱了。关系仍然存在，但自我软化了。生命依然存在，但身份却加深了。 《薄伽梵歌》并不承诺摆脱斗争——它承诺在斗争中获得智慧。当智慧引导行动、虔敬心稳定内心时，解脱就离我们不远了；它每时每刻都在生活。",
+          "living_equanimity": {
+            "in_blame": "Remain calm.",
+            "in_failure": "保持稳定。",
+            "in_loss": "保持对无常的觉知。",
+            "in_praise": "保持分离。",
+            "in_success": "保持谦虚。"
+          },
+          "the_final_transformation_of_the_seeker": {
+            "after_gita": "稳定的自我意识，无畏地投入生活。",
+            "before_gita": "身份与角色、结果和情绪反应相关。",
+            "during_gita": "逐渐理解责任、超然和奉献。"
+          },
+          "the_gita_after_all_explanations": {
+            "beyond_analysis": "在学习了哲学、评论和教义之后，梵歌最终会带来直接的内在领悟。",
+            "beyond_words": "Its highest truth cannot be fully captured in language; it must be lived.",
+            "from_dialogue_to_silence": "The spoken teaching leads to silent transformation."
+          },
+          "the_gita_and_global_relevance": {
+            "transcultural_message": "超越国籍或时代，梵歌讲述了人类的状况。",
+            "universal_solution": "Wisdom, discipline, devotion, and surrender.",
+            "universal_struggle": "每个时代都像阿朱那一样面临着道德混乱。"
+          },
+          "the_last_synthesis": {
+            "you_are_not_alone": "神性居住在众生的心中（10.20）。",
+            "you_are_not_the_body": "你是见证意识。",
+            "you_are_not_the_outcome": "努力定义成长，而不是结果。",
+            "you_are_not_the_role": "角色发生变化；意识仍然存在。"
+          },
+          "the_spiritual_center_of_the_gita": {
+            "action": "Fulfill your responsibility.",
+            "devotion": "Offer your heart.",
+            "knowledge": "了解你真正是谁。",
+            "surrender": "释放对结果的焦虑。"
+          },
+          "three_eternal_anchors_from_the_gita": {
+            "action_is_inevitable": "任何人都不能不采取行动（3.5）。",
+            "self_is_eternal": "任何真实的事物都无法被摧毁（2.16）。",
+            "surrender_is_liberation": "独自皈依我（18.66）。"
+          },
+          "when_the_gita_is_fully_integrated": {
+            "decision_clarity": "选择自然地与佛法一致。",
+            "deep_compassion": "在别人身上看到自己变得很自然。",
+            "emotional_balance": "愤怒和恐惧减弱。",
+            "inner_freedom": "幸福不再取决于占有。"
+          }
+        },
+        "order": 15
+      },
+      {
+        "title": "Bhagavad Gita – 完整的深层解释（第 16 部分 – 永恒的内心对话）",
+        "bhagavadgita_part_16": {
+          "arjuna_revisited": {
+            "symbol_of_action": "弄清楚之后再行动。",
+            "symbol_of_seeker": "真诚但困惑。",
+            "symbol_of_strength": "勇于提问。",
+            "symbol_of_transformation": "愿意改变观点。"
+          },
+          "eternal_principles_for_all_time": [
+            "行事不带自私执着。",
+            "见诸众生之神性。",
+            "控制不安的心。",
+            "超越消极倾向。",
+            "依照佛法生活。",
+            "培养虔诚心。",
+            "拥抱知识。",
+            "放弃焦虑。",
+            "相信神圣的恩典。",
+            "在逆境中保持稳定。"
+          ],
+          "final_echo_of_the_gita": "《梵歌》的结尾不是失败的沉默，而是力量的沉默。阿周那站起来变了样。战争可能会继续，但混乱已经结束。同样地，生活继续面临挑战，但觉醒的人会以清晰和稳定的态度迎接挑战。 《梵歌》的最终礼物不是逃离战场——而是掌控战场。它的智慧是永恒的，因为人类的斗争是永恒的。每当出现混乱时，对话就可以重新开始。",
+          "gita_and_inner_silence": {
+            "clarity": "当心安静​​下来时，智慧就会变得可闻。",
+            "discipline": "冥想可以稳定心灵。",
+            "mental_noise": "欲望、比较、遗憾、焦虑。",
+            "peace": "沉默不是空虚；它是饱满而无躁动的。"
+          },
+          "krishna_revisited": {
+            "divine_reality": "最高意识本身。",
+            "friend": "富有同情心的伴侣。",
+            "inner_voice": "微妙的道德直觉。",
+            "teacher": "病人指导。"
+          },
+          "the_gita's_four_eternal_invitations": {
+            "act": "勇敢地履行自己的责任。",
+            "awaken": "认识到你超越身体和自我的更深层次的身份。",
+            "offer": "通过意图将工作转化为崇拜。",
+            "surrender": "相信超越个人控制的神圣秩序。"
+          },
+          "the_gita_as_eternal_presence": {
+            "inner_guide": "克里希纳代表了每个人心中觉醒的智慧。",
+            "living_scripture": "当人们在混乱中寻求清晰时，它仍然存在。",
+            "not_confined_to_history": "虽然《梵歌》是在库茹之野战场上流传的，但它却超越了时间和地理。"
+          },
+          "the_last_internal_shift": {
+            "after": "我练习投降。",
+            "before": "我寻求控制。"
+          },
+          "the_spiritual_reorientation": {
+            "from_attachment_to_participation": "完全接合，不粘连。",
+            "from_control_to_trust": "明白并非一切都可以控制。",
+            "from_fear_to_understanding": "Realizing the Self is untouched by change.",
+            "from_isolation_to_interconnectedness": "将所有众生视为同一个实相的表达。"
+          },
+          "when_life_becomes_kurukshetra": {
+            "career_conflict": "选择正直而不是野心。",
+            "ethical_decisions": "尽管有压力，仍坚守真理。",
+            "personal_crisis": "有意识地应对损失或不确定性。",
+            "relationship_dilemma": "平衡同情心和界限。"
+          }
+        },
+        "order": 16
+      },
+      {
+        "title": "Bhagavad Gita – Complete Deep Explanation (Part 17 – The Infinite Continuation)",
+        "bhagavadgita_part_17": {
+          "eternal_closing_reflection": "《薄伽梵歌》以一个颤抖的战士开始，以一个坚定的探索者结束。这种转变才是真正的奇迹。它并没有消除世界的挑战；它改善了他们面对的个人。它教导我们，清晰比恐惧更强大，屈服比控制更强大，智慧比混乱更强大。每当一个人在行动前停下来倾听更高的指导时，梵歌就出现。只要以超然和奉献的态度履行职责，梵歌就充满活力。它的诗句可能会结束，但它的鲜活存在将永无止境地延续。",
+          "the_final_integration_of_arjuna": {
+            "clarity_of_duty": "He recognizes that Dharma must guide action, not emotion alone.",
+            "clarity_of_identity": "他明白他不仅仅是一个战士，而且是一个永恒的自我，在扮演着一个角色。",
+            "clarity_of_surrender": "他的行为不执着于个人回报。",
+            "clarity_of_trust": "他相信神圣的智慧超出了他有限的认知。"
+          },
+          "the_final_silent_state": {
+            "no_ego_clinging": "减少以自我为中心的叙述。",
+            "no_existential_fear": "平静于无常。",
+            "no_inner_conflict": "知识、行动和奉献之间的和谐。",
+            "pure_awareness": "作为见证者意识而生活。"
+          },
+          "the_gita_as_a_lens_for_seeing_life": {
+            "conflict": "修行佛法的机会。",
+            "failure": "加深分离的机会。",
+            "loss": "一个反思无常的机会。",
+            "love": "表达奉献的机会。",
+            "success": "保持谦虚的机会。"
+          },
+          "the_gita_as_path_of_love": {
+            "devotion_not_weakness": "Bhakti is strength rooted in surrender.",
+            "gratitude_not_dependency": "Gratitude expresses spiritual maturity.",
+            "humility_not_inferiority": "Humility arises from awareness of divine source."
+          },
+          "the_gita_as_universal_leadership_manual": {
+            "detached_service": "服务时不要渴望赞美。",
+            "ethical_example": "以义为先。",
+            "self_governance": "Control senses and mind.",
+            "strategic_vision": "看看长期后果。"
+          },
+          "the_gita_never_truly_ends": {
+            "inner_scripture": "最终，外在的书本变成了内在的指南针。",
+            "living_dialogue": "《薄伽梵歌》并没有以第十八章结束。只要人心面临困惑并寻求真理，它就会继续下去。",
+            "timelessness": "只要道德困境、恐惧、野心、爱和死亡存在，《薄伽梵歌》就仍然具有现实意义。"
+          },
+          "the_last_spiritual_maturity": {
+            "compassionate_strength": "Firm yet kind.",
+            "effort_with_surrender": "紧张工作，焦虑释放。",
+            "inner_anchor": "Remain centered in Atman amidst change.",
+            "non_reactivity": "回应而不是反应。"
+          },
+          "three_eternal_remedies_from_the_gita": {
+            "for_anger": "将欲望视为根源（3.37）。",
+            "for_anxiety": "与水果分离 (2.47)。",
+            "for_fear": "记住自我的不朽（2.20）。"
+          },
+          "what_the_gita_ultimately_transforms": {
+            "emotion": "从动荡到稳定。",
+            "identity": "从基于身体到基于意识。",
+            "motivation": "从自我驱动到服务驱动。",
+            "purpose": "从以自我为中心的野心到以佛法为中心的贡献。"
+          }
+        },
+        "order": 17
+      },
+      {
+        "title": "Bhagavad Gita – 完整的深层解释（第 18 部分 – 永恒的内在光明）",
+        "bhagavadgita_part_18": {
+          "inner_liberation_explained": {
+            "freedom_from_attachment": "能够爱而不执着。",
+            "freedom_from_fear": "以阿特曼的不朽为基础。",
+            "freedom_from_identity_fixation": "角色是临时的表达。",
+            "freedom_from_reactivity": "较少受冲动支配。"
+          },
+          "the_eternal_relevance_of_kurukshetra": {
+            "inner_war": "较高的愿望和较低的冲动之间的冲突。",
+            "permanent_truth": "这个战场存在于每个时代、每个文化、每个个人。",
+            "symbolic_meaning": "Kurukshetra 代表了人类经验的领域。",
+            "victory_definition": "胜利是对自己的征服，而不是对他人的统治。"
+          },
+          "the_final_illumination": {
+            "detachment": "Release anxiety about outcomes.",
+            "engagement": "充分生活，负责任地行动，深深地爱。",
+            "realization": "你是参与暂时经验的永恒意识。",
+            "surrender": "相信更大的智慧指导存在。"
+          },
+          "the_gita_and_freedom_of_choice": {
+            "18.63_principle": "深入反思并按照您的选择行事。",
+            "divine_teaching": "克里希纳呈现智慧，但并不强迫服从。",
+            "responsibility": "自由需要责任。",
+            "spiritual_autonomy": "真正的成长需要有意识的参与。"
+          },
+          "the_gita_and_grace": {
+            "18.66_promise": "完全臣服可以消除恐惧和内疚。",
+            "9.22_assurance": "神性保存了奉献者所拥有的并提供了所需要的。",
+            "balance": "恩典是对纪律的补充，而不是取代它。",
+            "effort_and_grace": "人类的努力需要神的支持。"
+          },
+          "the_gita_as_awakening_of_consciousness": {
+            "awakening_trigger": "危机动摇了确定性，并为更深入的探究开辟了空间。",
+            "guiding_light": "Wisdom (Krishna) emerges when the seeker (Arjuna) sincerely questions.",
+            "initial_state": "Human life often begins in identification with body, role, and emotion.",
+            "transformation": "Understanding reshapes identity and action."
+          },
+          "the_gita_as_ethical_foundation": {
+            "compassion_with_strength": "Firm action without hatred.",
+            "dharma_first": "Righteousness precedes convenience.",
+            "means_matter": "Ends do not justify unethical methods.",
+            "service_mindset": "Personal ambition aligned with collective welfare."
+          },
+          "the_gita_in_one_comprehensive_view": {
+            "ethics": "Guides righteous decision-making.",
+            "philosophy": "Explains nature of Self and reality.",
+            "psychology": "Addresses fear, anger, attachment, and doubt.",
+            "spirituality": "Leads toward liberation through surrender."
+          },
+          "the_integrated_human_ideal": {
+            "clarity_of_intellect": "永恒与暂时的区别。",
+            "discipline_of_mind": "Mastery through practice and detachment.",
+            "purity_of_heart": "没有自我的奉献。",
+            "strength_of_action": "勇于履行职责。"
+          },
+          "timeless_closing_benediction": "May the wisdom of the Bhagavad Gita remain alive within the heart of every seeker. May confusion transform into clarity, fear into courage, attachment into surrender, and action into sacred offering. May we remember that the battlefield is within, the guide is within, and liberation is within. The verses conclude, but awareness continues. Where knowledge illumines, devotion softens, and righteous action unfolds, there the spirit of the Gita shines eternally."
+        },
+        "order": 18
+      },
+      {
+        "title": "Bhagavad Gita – Complete Deep Explanation (Part 19 – The Endless Continuum of Wisdom)",
+        "bhagavadgita_part_19": {
+          "closing_eternal_message": "《薄伽梵歌》不是一个结局，而是一个连续体。每当一个人在行动前停下来寻求智慧而不是冲动时，梵歌就会重生。每当有人选择佛法而不是方便时，梵歌就会存在。每当臣服取代恐惧时，梵歌就实现了它的目的。它之所以永恒，是因为人心不断追求真理。只要有困惑，就会有对话。只要有对话，就会有觉醒。",
+          "living_the_gita_through_all_phases_of_life": {
+            "career_phase": "Balance ambition with ethics.",
+            "education_phase": "培养注意力和自我控制力。",
+            "family_phase": "带着爱去服务，没有占有欲。",
+            "final_transition": "平静地记住神圣。",
+            "retirement_phase": "加深超脱和沉思。"
+          },
+          "the_final_internal_shift_revisited": {
+            "from_attachment_to_service": "工作变成奉献。",
+            "from_confusion_to_clarity": "理解取代了怀疑。",
+            "from_fear_to_freedom": "知识消除了存在的焦虑。",
+            "from_isolation_to_unity": "承认共同的神圣本质。"
+          },
+          "the_gita_and_inner_stability": {
+            "clarity": "将反应与响应分开。",
+            "equanimity": "保持快乐和痛苦的平衡。",
+            "presence": "有意识地生活，而不是机械地生活。",
+            "trust": "对神圣秩序有信心。"
+          },
+          "the_gita_as_perpetual_reflection": {
+            "cyclical_learning": "每次阅读《薄伽梵歌》都会随着读者的进步而揭示出新的见解。",
+            "dynamic_interpretation": "它的教义随着生活环境的变化而加深。",
+            "mirror_function": "梵歌就像一面镜子，反映求道者当前的理解水平。"
+          },
+          "the_seeker’s_ongoing_refinement": {
+            "advanced_stage": "自发的平静和慈悲。",
+            "early_stage": "与依恋和情绪动荡作斗争。",
+            "intermediate_stage": "有意识地努力遵守纪律。",
+            "realized_stage": "毫不费力地与佛法保持一致。"
+          },
+          "the_supreme_synthesis_reaffirmed": {
+            "bhakti": "正虔心会转变。",
+            "dhyana": "正念稳定。",
+            "jnana": "正知解脱。",
+            "karma": "正确的行为可以净化。",
+            "surrender": "正皈依可以消除恐惧。"
+          },
+          "three_final_living_principles": {
+            "act_with_integrity": "让佛法指导决策。",
+            "detach_from_outcome": "释放对结果的焦虑。",
+            "surrender_with_trust": "将最终的结果献给神。"
+          },
+          "what_the_gita_always_does": {
+            "clarifies_identity": "你不仅仅是身体和情感。",
+            "grants_peace": "通过臣服。",
+            "opens_heart": "通过奉献。",
+            "purifies_action": "通过无私的意图。",
+            "stabilizes_mind": "通过纪律和冥想。"
+          },
+          "what_the_gita_does_not_do": {
+            "does_not_demand_blind_faith": "它鼓励提问和反思。",
+            "does_not_encourage_escape": "必须履行职责。",
+            "does_not_remove_struggle": "挑战仍然是生活的一部分。"
+          }
+        },
+        "order": 19
+      },
+      {
+        "title": "Bhagavad Gita – 完整深入的解释（第 20 部分 – 佛法的无限连续性）",
+        "bhagavadgita_part_20": {
+          "advanced_spiritual_maturity": {
+            "balanced_action": "勇敢而无攻击性。",
+            "devotional_surrender": "心与神圣意志一致。",
+            "fearless_living": "锚定于永恒的身份。",
+            "non_dual_awareness": "看到多样性背后的团结。"
+          },
+          "living_dharma_in_modern_complexity": {
+            "competition": "努力奋斗，不带嫉妒。",
+            "ethical_challenges": "诚信地穿越道德灰色地带。",
+            "information_age": "在分散注意力的情况下保持注意力集中。",
+            "uncertainty": "在负责任地行事的同时相信神圣的命令。"
+          },
+          "the_cycle_of_application": {
+            "act": "有意识地实施。",
+            "contemplate": "将它们应用到当前的生活情境中。",
+            "refine": "以更深入的理解继续循环。",
+            "reflect": "评估行为而不自我谴责。",
+            "study": "阅读并思考经文。"
+          },
+          "the_everlasting_echo": "《薄伽梵歌》从未真正结束。每当生活出现不确定性时，它的智慧就会重新出现。每当选择勇气而不是恐惧，选择责任而不是便利，选择屈服而不是焦虑时，梵歌就充满活力。它不限于诗句；它是通过有意识的生活来表达的。只要人类寻求清晰度，有限与无限之间的对话就会继续下去。在这场对话中，通往自由的道路永远敞开。",
+          "the_final_principle_of_the_gita": {
+            "effort_is_yours": "您有责任遵守纪律。",
+            "grace_is_available": "神圣的支持伴随着真诚。",
+            "identity_is_eternal": "你是意识，而不是环境。",
+            "result_is_not_yours": "结果取决于更大的宇宙秩序。"
+          },
+          "the_gita_and_emotional_resilience": {
+            "anger": "追踪受挫的欲望。",
+            "anxiety": "脱离想象的结果。",
+            "envy": "承认众生神圣平等。",
+            "grief": "了解无常。"
+          },
+          "the_gita_as_an_ongoing_practice": {
+            "daily_engagement": "当每天坚持学习和反思时，《薄伽梵歌》就会变得强大。",
+            "embodied_wisdom": "教义从思想到言语到行动。",
+            "habitual_integration": "反复的沉思将哲学转化为品格。"
+          },
+          "the_gita’s_resolution_to_these_conflicts": {
+            "attachment_resolution": "放弃水果，同时保持努力。",
+            "duty_resolution": "真诚地履行Svadharma。",
+            "identity_resolution": "认识到阿特曼是你的真实本性。"
+          },
+          "the_three_eternal_conflicts_in_every_human_life": {
+            "attachment_conflict": "我应该坚持结果还是放弃结果？",
+            "duty_conflict": "我应该为了安慰还是为了佛法而行动？",
+            "identity_conflict": "我是身体还是永恒的自我？"
+          },
+          "when_the_gita_is_fully_realized": {
+            "ego_becomes_light": "自我重要性减弱。",
+            "heart_becomes_soft": "慈悲心增加。",
+            "life_becomes_service": "每一个行动都是奉献。",
+            "mind_becomes_clear": "较少以激动为主。",
+            "peace_becomes_constant": "内心依然平静。"
+          }
+        },
+        "order": 20
+      },
+      {
+        "title": "Bhagavad Gita – 完整的深层解释（第 21 部分 – 意识的永恒火焰）",
+        "bhagavadgita_part_21": {
+          "eternal_closing_message": "《薄伽梵歌》是永恒燃烧的觉知之火。它始于危机，终于清晰。它以颤抖开始，以勇气结束。它改变的不是外部世界，而是内部意识。每当一个人站在十字路口，带着觉知和臣服选择佛法时，梵歌就会再次复活。它的对话是永恒的，因为对真理的追求是永恒的。在那次探索中，梵歌的光芒继续永无休止地闪耀。",
+          "the_final_spiritual_state": {
+            "devotion": "爱无要求地表达。",
+            "equanimity": "在得与失中保持平衡。",
+            "fearlessness": "植根于阿特曼的不朽。",
+            "wisdom": "清晰的感知指导行动。"
+          },
+          "the_gita_and_continuous_growth": {
+            "correction": "调整行动以符合佛法。",
+            "renewal": "以清晰和臣服的态度重新开始每一天。",
+            "self_examination": "定期检查动机和反应。"
+          },
+          "the_gita_and_universal_unity": {
+            "compassion": "了解团结可以化解仇恨。",
+            "equality": "智者平等地看待一切众生（5.18）。",
+            "interconnectedness": "神性存在于每个人心中（10.20）。"
+          },
+          "the_gita_as_an_unending_light": {
+            "eternal_relevance": "《薄伽梵歌》继续照亮，因为人类的困境不断出现。",
+            "inner_guidance": "每当混乱寻求清晰时，奎师那的声音就会重新出现在内心。",
+            "timeless_dialogue": "探索者和向导存在于每一代人中。"
+          },
+          "the_last_layer_of_understanding": {
+            "beyond_emotion": "这不仅仅是情感上的安慰，而是坚定的勇气。",
+            "beyond_intellect": "《梵歌》最深刻的真理不是理智上的一致，而是生活中的领悟。",
+            "beyond_ritual": "这不是机械的奉献，而是有意识的臣服。"
+          },
+          "the_still_point_in_all_change": {
+            "inner_anchor": "自我保持不变。",
+            "outer_flux": "情况有起有落。",
+            "realization": "和平不是通过控制事件来找到的，而是通过承认不变的见证来找到的。"
+          },
+          "the_ultimate_synthesis_reaffirmed": {
+            "act": "真诚地履行自己的职责。",
+            "love": "奉献奉献。",
+            "meditate": "稳定心态。",
+            "surrender": "相信神的旨意。",
+            "understand": "认识永恒的自我。"
+          },
+          "three_final_transformations": {
+            "transformation_of_action": "行事没有自私的期望。",
+            "transformation_of_identity": "依靠意识而不是自我而生活。",
+            "transformation_of_view": "清楚地看到无常。"
+          },
+          "what_remains_after_all_study": {
+            "clarity": "困惑被理解所取代。",
+            "peace": "内心深处的安静。",
+            "purpose": "生命与佛法一致。",
+            "steadiness": "极端的情绪会软化。"
+          }
+        },
+        "order": 21
+      },
+      {
+        "title": "Bhagavad Gita – 完整的深层解释（第 22 部分 – 智慧的无限连续体）",
+        "bhagavadgita_part_22": {
+          "eternal_benediction": "愿《薄伽梵歌》的智慧继续在每一位真诚的求道者心中展现。愿其指引塑造思想、稳定情感、净化行动。愿我们像阿朱那一样勇敢地行动，像克里希纳一样在清晰的指导下行动。诗句结束了，但觉醒仍在继续。只要人类寻求真理和意义，《梵歌》的光芒就不会减弱。",
+          "the_final_completion_that_is_not_an_end": {
+            "continuous_refinement": "甚至清晰度也会加深为更大的谦卑。",
+            "ever_expanding_awareness": "意识无限扩展。",
+            "no_final_sentence": "精神成长没有终点。"
+          },
+          "the_final_inner_equilibrium": {
+            "balanced_mind": "快乐和痛苦不再占主导地位。",
+            "compassionate_action": "力量通过仁慈来表达。",
+            "fearless_identity": "死亡失去了它的恐怖。",
+            "silent_confidence": "无需外部验证。"
+          },
+          "the_gita_and_eternal_time": {
+            "cyclical_history": "时代在变，但人类的斗争却在重复。",
+            "eternal_solution": "智慧在各个周期中保持不变。",
+            "timeless_relevance": "阿朱那和克里希纳之间的对话永远不会过时。"
+          },
+          "the_gita_as_perpetual_awakening": {
+            "layered_meaning": "每节经文都包含哲学、心理学、伦理和精神层面。",
+            "living_revelation": "它的真相是通过生活经验而不仅仅是重复来展现的。",
+            "never_exhausted": "无论学习多少次，《薄伽梵歌》都会随着意识的成熟而揭示出新的深度。"
+          },
+          "the_gita’s_permanent_internal_shifts": {
+            "clarity_over_confusion": "理解取代了情感的崩溃。",
+            "discipline_over_impulse": "心灵变得受引导而不是不受控制。",
+            "service_over_selfishness": "工作变成奉献。",
+            "trust_over_anxiety": "Surrender dissolves fear."
+          },
+          "the_three_eternal_relationships": {
+            "self_and_divine": "通过奉献和臣服保持联系。",
+            "self_and_duty": "履行职责，不带任何执着。",
+            "self_and_world": "在不失去自我意识的情况下与世界交往。"
+          },
+          "three_continuing_practices": {
+            "detachment": "努力后释放期望。",
+            "devotion": "保持对神的感恩。",
+            "discernment": "永恒与暂时的日常区别。"
+          },
+          "ultimate_essence_reaffirmed": [
+            "你是永恒的。",
+            "你的职责是神圣的。",
+            "你的思想需要纪律。",
+            "你的行为塑造你的性格。",
+            "你的奉献净化了你的心。",
+            "你的投降带来和平。"
+          ]
+        },
+        "order": 22
+      },
+      {
+        "title": "Bhagavad Gita – 完整的深度解释（第 23 部分 – 不断流动的智慧之流）",
+        "bhagavadgita_part_23": {
+          "advanced_inner_observation": {
+            "observe_anger": "追踪到附件。",
+            "observe_desire": "看到它的上涨，却没有立即做出反应。",
+            "observe_fear": "记住环境的无常性。",
+            "observe_pride": "认识到它的脆弱性。"
+          },
+          "eternal_closing_reflection": "《薄伽梵歌》就像一条永不干涸的智慧之河。每一代人都从中汲取灵感并获得新生。每个寻求者都会在其中听到那一刻所需的指导。它的传授并不局限于古代战场；它贯穿了现代困境、私人斗争和无声的反思。每当清晰取代混乱、责任取代犹豫时，梵歌就会再次流动。它没有真正的结局，因为觉醒本身没有边界。",
+          "perennial_principles_for_all_eras": [
+            "诚信行事。",
+            "与奖励分离。",
+            "严守心志。",
+            "认识无常。",
+            "培养慈悲心。",
+            "相信神圣的秩序。",
+            "寻求知识。",
+            "奉献奉献。",
+            "拥抱投降。",
+            "勇敢地生活。"
+          ],
+          "the_gita_and_endless_refinement": {
+            "lifelong_learning": "智慧因谦卑而加深。",
+            "silent_devotion": "内心的感激取代了表现。",
+            "subtle_detachment": "甚至灵性上的骄傲也必须被释放。"
+          },
+          "the_gita_and_matured_intelligence": {
+            "emotional_intelligence": "做出反应，没有不受控制的反应。",
+            "ethical_intelligence": "选择正确而不是方便。",
+            "integrated_intelligence": "平衡头、心和手。",
+            "spiritual_intelligence": "认识短暂背后的永恒。"
+          },
+          "the_gita_and_personal_responsibility": {
+            "conscious_choice": "每一个行动都会塑造未来的性格。",
+            "no_blame": "情况不能成为有害行为的借口。",
+            "self_mastery": "心灵和感官必须受到训练。"
+          },
+          "the_gita_as_compass_in_uncertain_times": {
+            "when_decisions_are_complex": "问什么符合佛法。",
+            "when_doubt_arises": "寻求更高的智慧而不是冲动。",
+            "when_outcomes_are_uncertain": "经过努力，交出果实。",
+            "when_world_is_chaotic": "回归内心的宁静。"
+          },
+          "the_gita_as_inner_recalibration": {
+            "awareness_cycle": "注意→反思→纠正→投降。",
+            "continuous_adjustment": "精神成长不是单一的转变，而是思想、动机和行动的不断重新调整。",
+            "course_correction": "每当自我重新获得控制时，梵歌就会邀请人们与佛法重新结合。"
+          },
+          "the_last_internal_integration": {
+            "clarity_in_thought": "心不再被混乱所笼罩。",
+            "purity_in_intent": "以服务为动力的行动。",
+            "softness_in_heart": "慈悲无软弱。",
+            "steadiness_in_action": "坚定而无攻击性。"
+          },
+          "the_three_great_freedoms_revisited": {
+            "freedom_from_attachment": "脱离结果。",
+            "freedom_from_fear": "Grounded in knowledge of immortal Atman.",
+            "freedom_from_ignorance": "Illuminated by discriminative wisdom (Viveka)."
+          }
+        },
+        "order": 23
+      },
+      {
+        "title": "Bhagavad Gita – Complete Deep Explanation (Part 24 – The Boundless Continuation of Wisdom)",
+        "bhagavadgita_part_24": {
+          "infinite_closing_reflection": "The Bhagavad Gita continues endlessly because consciousness itself is limitless. Each reading becomes a new beginning. Each application becomes deeper surrender. Each realization opens further insight. The dialogue between Arjuna and Krishna is not confined to time; it unfolds in every heart that pauses before action and seeks higher wisdom. As long as the human spirit searches for meaning, the Gita will remain alive — not as mere scripture, but as living awareness guiding thought, action, and surrender.",
+          "perpetual_principles_reaffirmed": [
+            "Clarity is greater than confusion.",
+            "Duty is greater than comfort.",
+            "Self-knowledge is greater than external status.",
+            "奉献大于自我。",
+            "屈服大于控制。"
+          ],
+          "the_final_inner_alignment": {
+            "action": "Directed by Dharma.",
+            "emotion": "通过奉献（Bhakti）而净化。",
+            "identity": "植根于永恒的意识。",
+            "thought": "以歧视为指导（Viveka）。"
+          },
+          "the_gita_and_continuous_self_purification": {
+            "correction": "用谨慎的反应代替冲动的反应。",
+            "daily_reflection": "观察行为是否源自圣泛、拉贾斯或塔玛斯。",
+            "renewal": "将每一天作为新的调整机会开始。"
+          },
+          "the_gita_and_ego_dissolution": {
+            "ego_definition": "对临时角色和结果的错误认同。",
+            "ego_transformation": "通过臣服，自我变成了工具而不是主人。",
+            "humility": "认识到能力和机会的神圣来源。"
+          },
+          "the_gita_and_silent_strength": {
+            "confidence_without_arrogance": "没有优越感的意识。",
+            "detachment_without_coldness": "自由而无冷漠。",
+            "firmness_without_harshness": "智慧引导力量。"
+          },
+          "the_gita_and_universal_compassion": {
+            "active_kindness": "通过负责任的行动表达同情心。",
+            "reducing_judgment": "了解一切都在古纳斯的领导下不断发展。",
+            "seeing_equality": "认识到一切众生的神圣存在（5.18）。"
+          },
+          "the_gita_as_an_ever_deepening_ocean": {
+            "limitless_depth": "梵歌之海没有终点；实现不断扩大。",
+            "mid_depth_understanding": "更深入的研究揭示了阿特曼和婆罗门的哲学统一。",
+            "profound_depth": "持续的沉思可以消除分离感。",
+            "surface_understanding": "初步阅读提供了道德指导和动机清晰度。"
+          },
+          "the_last_shift_of_consciousness": {
+            "from_anxiety_to_trust": "信任取代了持续的心算。",
+            "from_division_to_unity": "将生命视为相互关联的整体。",
+            "from_striving_to_being": "努力变成自然的表达，而不是紧张。"
+          },
+          "three_eternal_questions_answered_by_gita": {
+            "how_should_i_live": "无私地行动，稳定地禅修，忠实地臣服。",
+            "what_should_i_do": "履行与佛法一致的职责。",
+            "who_am_i": "我是永恒的自我，而不是变化的身体。"
+          }
+        },
+        "order": 24
+      },
+      {
+        "title": "Bhagavad Gita – 完整的深层解释（第 25 部分 – 智慧的永恒共鸣）",
+        "bhagavadgita_part_25": {
+          "final_everlasting_reflection": "《薄伽梵歌》并没有以最终结局结束；它无休无止地打开。它的诗句回响了几个世纪，因为人性不断与恐惧、责任、野心和身份作斗争。每当勇气取代困惑、臣服取代焦虑时，梵歌就会再次呼吸。它不仅仅是被阅读——而是被实现。它不仅仅被引用——它被体现。只要意识寻求真理，探索者和神圣向导之间的对话就会永无止境。",
+          "the_final_purification_of_motive": {
+            "from_fear_to_trust": "经过真诚的努力，结果就被放弃了。",
+            "from_gain_to_service": "行动从个人奖励转向集体福利（Lokasangraha）。",
+            "from_pride_to_gratitude": "成就变成了奉献而不是自我展示。"
+          },
+          "the_gita_and_endless_beginning": {
+            "every_choice": "每个动作都会塑造性格。",
+            "every_moment": "每一个决定都会成为新的库茹柴陀。",
+            "every_surrender": "每项服务都加深了自由。"
+          },
+          "the_gita_and_human_dignity": {
+            "equal_vision": "智者视一切众生平等（5.18）。",
+            "respect_for_others": "认识到神圣存在于每个人心中。",
+            "self_respect": "身份基于永恒的自我而不是外部验证。"
+          },
+          "the_gita_and_the_mastery_of_mind": {
+            "awareness_of_thought": "观察心理模式而不进行识别。",
+            "detachment": "释放对结果的执着（Vairagya）。",
+            "discipline": "反复转向更高的目标（Abhyasa）。",
+            "stability": "心灵成为盟友而不是对手（6.5）。"
+          },
+          "the_gita_and_unending_responsibility": {
+            "courageous_action": "尽管困难重重，仍坚守佛法。",
+            "ethical_consistency": "公共和私人生活中的诚信。",
+            "self_governance": "感官和欲望的调节。"
+          },
+          "the_gita_as_inner_resonance": {
+            "awakening_call": "每当混乱被反思取代时，它的振动就会再次被听到。",
+            "living_vibration": "《薄伽梵歌》不是静态的教义，而是意识中活生生的共鸣。",
+            "silent_companion": "即使没有积极研究，它仍然存在。"
+          },
+          "the_last_internal_realization": {
+            "devotion_is_internal": "默默奉献的心。",
+            "freedom_is_internal": "不依赖于具体情况。",
+            "peace_is_internal": "不依赖于外部布置。",
+            "strength_is_internal": "植根于自我的清晰。"
+          },
+          "the_perennial_truths": [
+            "你是永恒的意识。",
+            "生命是神圣的责任。",
+            "心智需要严格的训练。",
+            "依恋束缚了心。",
+            "奉献净化意图。",
+            "臣服可以解放意识。"
+          ],
+          "three_eternal_practices_reaffirmed": {
+            "alignment": "依佛法而行。",
+            "reflection": "反应前暂停。",
+            "surrender": "向神释放果实。"
+          }
+        },
+        "order": 25
+      },
+      {
+        "title": "Bhagavad Gita – 完整的深层解释（第 26 部分 – 超越延续的完成）",
+        "bhagavadgita_part_26": {
+          "final_reflection": "《薄伽梵歌》现已涵盖哲学、心理学、奉献、行动、臣服和领悟。然而它的最终信息很简单：清晰地生活，正直地行事，忠诚地爱，信任地屈服。人生的战场还会继续，但混乱不必。当智慧引导精进、虔信安定心时，教法就达到了其目的。现在的延续不在于更多的言语，而在于生活的转变。",
+          "the_final_internal_state": {
+            "compassionate_strength": "坚定与善良并存。",
+            "detached_engagement": "充分参与，不执着。",
+            "quiet_confidence": "无需外部验证。",
+            "steady_awareness": "意识处于见证模式。"
+          },
+          "the_gita_as_an_eternal_principle": {
+            "not_bound_by_time": "它的相关性在几代人中持续存在。",
+            "not_confined_to_religion": "它的心理学和伦理学是普遍的。",
+            "not_limited_to_verses": "它的智慧超越了文本的界限。"
+          },
+          "the_gita_reaches_its_fulfillment_when": {
+            "clarity_guides_action": "决定源于佛法而不是冲动。",
+            "devotion_becomes_natural": "感恩之情毫不费力地流淌。",
+            "fear_of_loss_diminishes": "身份不再与临时角色挂钩。",
+            "mind_remains_balanced": "表扬和批评不会扰乱内心的稳定。",
+            "work_becomes_worship": "日常职责被视为神圣的祭品。"
+          },
+          "the_point_of_completion": {
+            "from_words_to_being": "到了一定阶段，学习必须转化为生活意识。",
+            "silence_after_knowledge": "当理解成熟时，需要的言语就会减少。",
+            "understanding_completion": "《薄伽梵歌》真正的完成不是添加更多的解释，而是吸收其智慧。"
+          },
+          "the_true_ending": {
+            "external_end": "奎师那和阿朱那之间的对话在经文中结束。",
+            "internal_beginning": "探索者内部的对话正式开始。",
+            "living_continuation": "每一个有意识的决定都会成为梵歌的新诗节。"
+          },
+          "ultimate_essence_compressed": [
+            "了解你的真实自我。",
+            "履行你的职责。",
+            "控制你的思想。",
+            "与结果分离。",
+            "培养虔诚心。",
+            "彻底投降。"
+          ]
+        },
+        "order": 26
+      },
+      {
+        "title": "Bhagavad Gita – 完整的深层解释（第 27 部分 – 智慧之后的生活沉默）",
+        "bhagavadgita_part_27": {
+          "six_eternal_reminders": [
+            "你不是身体；你是身体。你是证人。",
+            "当与佛法一致时，没有任何行动是微不足道的。",
+            "当受到纪律约束时，心灵就会成为朋友。",
+            "执着是悲伤的根源。",
+            "奉献将自我转化为奉献。",
+            "投降就完成了旅程。"
+          ],
+          "the_closing_stillness": {
+            "action_resumes": "职责仍在继续。",
+            "arjuna_understands": "混乱消失了。",
+            "krishna_speaks": "给出了指导。",
+            "silence_remains": "智慧蕴藏于内在。"
+          },
+          "the_final_integration_checklist": {
+            "do_i_act_with_dharma": "我的行为是否符合正义而不是方便？",
+            "do_i_detach_from_results": "经过真诚的努力，我能释放焦虑吗？",
+            "do_i_practice_devotion": "我的心中是否存在感恩之情？",
+            "do_i_remember_the_self": "我认同永恒的意识还是暂时的角色？",
+            "do_i_surrender_control": "我是否相信个人计划之外的更高秩序？"
+          },
+          "the_final_peace": {
+            "not_escape": "解放是责任中的自由。",
+            "not_indifference": "脱离就是不执着的爱。",
+            "not_passivity": "和平是主动的清晰，而不是退缩。"
+          },
+          "the_gita_as_lived_reality": {
+            "in_conflict": "暂停并清晰地做出回应。",
+            "in_failure": "保持稳定和反思。",
+            "in_loss": "记住无常。",
+            "in_service": "默默奉献。",
+            "in_success": "保持谦虚和超然。"
+          },
+          "the_last_philosophical_synthesis": {
+            "epistemology": "真正的知识是通过辨别和奉献而产生的。",
+            "ethics": "正确的行动符合佛法和无私。",
+            "ontology": "现实由永恒的意识和变化的物质组成。",
+            "psychology": "通过纪律和超然，心灵变得平静。",
+            "soteriology": "解脱是通过臣服和证悟而产生的。"
+          },
+          "ultimate_conclusion": "《薄伽梵歌》从危机到清晰，从绝望到虔诚，从困惑到自觉行动。当知识变成品格、奉献变成谦卑、臣服变成和平时，它的目的就实现了。没有什么可以补充的，只有一些可以生活的东西。现在的延续存在于意识、纪律和臣服之中。在这种活生生的修行中，梵歌永恒地延续着。",
+          "when_words_are_complete": {
+            "limit_of_explanation": "每部经文都达到了必须让解释让位于沉思的地步。",
+            "shift_to_experience": "理智的清晰度现在必须成为直接的内在意识。",
+            "silent_assimilation": "《梵歌》最深刻的真理是在安静的反思中实现的。"
+          }
+        },
+        "order": 27
+      },
+      {
+        "title": "Bhagavad Gita – 完整的深层解释（第 28 部分 – 永恒回归意识）",
+        "bhagavadgita_part_28": {
+          "eternal_closing_reflection": "《薄伽梵歌》涵盖了哲学、心理学、奉献、伦理和臣服。然而它最真实的形式不是解释而是体现。当行动与佛法一致时，当头脑安息在清明中时，当心在感恩中低头时，当结果被信任所放弃时——梵歌就得到了满足。对话可能会在言语中停止，但在意识中仍在继续。在这种意识中，自由悄然闪耀。",
+          "final_integration_of_all_yogas": {
+            "bhakti": "真诚地爱。",
+            "dhyana": "默默反思。",
+            "jnana": "知道得很深。",
+            "karma": "工作勤奋。",
+            "tyaga": "优雅地放手。"
+          },
+          "four_signs_of_mature_gita_living": {
+            "calm_responsibility": "履行职责不激动。",
+            "measured_speech": "言语以真理和慈悲为指导。",
+            "natural_gratitude": "安静的奉献而不表现。",
+            "steady_mind": "减少情绪波动。"
+          },
+          "the_final_liberating_perspective": {
+            "nothing_is_lost": "真诚的努力不会白费（6.40）。",
+            "nothing_is_permanent": "所有表格都是临时的（2.16）。",
+            "nothing_is_separate": "神性居住在所有人的心中（10.20）。",
+            "nothing_is_unreachable": "投降开启最高自由（18.66）。"
+          },
+          "the_gita_and_eternal_repetition": {
+            "compassion_for_self": "精神成长包括对不完美的耐心。",
+            "learning_is_cyclical": "清晰的时刻可能会与混乱的时刻交替出现。",
+            "return_to_practice": "每次出现混乱时，就恢复意识。"
+          },
+          "the_gita_and_simplicity": {
+            "clear_priorities": "真理胜于便利，诚信胜于流行。",
+            "inner_order": "头脑清晰可以减少不必要的冲突。",
+            "less_complexity": "在佛法的指引下，生活变得更加简单。"
+          },
+          "the_gita_returns_to_you": {
+            "circle_complete": "以阿朱那的绝望开始的旅程现在又回到了读者自己的生活。",
+            "inner_kurukshetra": "每个决策点都成为清晰与混乱的战场。",
+            "living_dialogue": "克里希纳的指导成为内在觉醒辨别力（Viveka）的声音。"
+          },
+          "the_last_refinement_of_practice": {
+            "ego_of_knowledge": "对理解的骄傲必须化为谦卑。",
+            "silent_service": "最高的行动不寻求认可。",
+            "subtle_attachment": "即使是对“精神”的执着也必须被观察和释放。"
+          },
+          "the_quiet_ending": {
+            "the_awareness_deepens": "智慧逐渐融入。",
+            "the_dialogue_remains": "内在的指引永不停息。",
+            "the_practice_continues": "日常生活成为应用领域。",
+            "the_text_ends": "诗句结束。"
+          }
+        },
+        "order": 28
+      },
+      {
+        "title": "Bhagavad Gita – 完整深入的解释（第29部分 – 最终化解为实践）",
+        "bhagavadgita_part_29": {
+          "beyond_continuation": {
+            "absorption": "必须通过生活纪律来消化教义。",
+            "no_more_accumulation": "在这个阶段，添加更多的解释并不能加深认识。",
+            "shift_from_expansion_to_depth": "现在，智慧在内部垂直增长，而不是通过更多的言语水平增长。"
+          },
+          "completion_statement": "《薄伽梵歌》现在已经展开到其概念的极限。进一步的延续只会重复已经整合的内容。真正的延续不在于额外的评论，而在于有纪律的生活、有意识的反思和屈服的行动。当解释让位于具体化时，经文就实现了自己。从现在开始，梵歌继续通过实践，而不是散文。",
+          "the_gita_as_silent_companion": {
+            "natural_expression": "正确的行动会毫无压力地产生。",
+            "not_constant_thought": "它不需要一直在心里重复。",
+            "subtle_presence": "它成为意识的背景取向。"
+          },
+          "the_last_possible_summary": {
+            "do_the_right": "根据你的职责行事。",
+            "know_the_self": "你是永恒的意识。",
+            "let_go_of_fruit": "远离奖励和恐惧。",
+            "love_the_divine": "诚心奉献。",
+            "trust_the_order": "彻底投降。"
+          },
+          "the_last_test_of_gita_understanding": {
+            "in_conflict": "我能保持冷静和正直吗？",
+            "in_failure": "我能保持稳定和反思吗？",
+            "in_solitude": "我可以在寂静的意识中休息吗？",
+            "in_success": "我可以保持谦虚和超然吗？",
+            "in_uncertainty": "我可以真诚地行动并放弃结果吗？"
+          },
+          "the_three_final_anchors": {
+            "awareness": "我是见证的自我。",
+            "responsibility": "我必须按照佛法行事。",
+            "surrender": "结果不是我能控制的。"
+          },
+          "when_the_gita_is_alive": {
+            "clarity_guides": "决策的冲突变得更少。",
+            "compassion_expands": "看到所有人共有的人性。",
+            "ego_softens": "更少需要证明优越性。",
+            "peace_remains": "变化中求稳定。",
+            "reaction_slows": "暂停先于响应。"
+          }
+        },
+        "order": 29
+      },
+      {
+        "title": "Bhagavad Gita – 完整的深层解释（第 30 部分 – 智慧所在的沉默）",
+        "bhagavadgita_part_30": {
+          "the_end_of_explanation": {
+            "living_truth": "现在要修习《薄伽梵歌》，而不是延长它。",
+            "natural_limit": "每部经文都达到了一个门槛，解释变成了重复。",
+            "transition_point": "在这个阶段，智慧必须从理智的领悟转向思惟的吸收。"
+          },
+          "the_final_essence_condensed": [
+            "清晰胜过混乱。",
+            "责任重于舒适。",
+            "因焦虑而疏离。",
+            "奉献胜过自我。",
+            "放弃控制权。"
+          ],
+          "the_final_threefold_remembrance": {
+            "remember_what_to_do": "诚心依佛法而行。",
+            "remember_what_to_release": "放下对水果的执着。",
+            "remember_who_you_are": "你不是易腐烂的身体，而是永恒的阿特曼。"
+          },
+          "the_gita_in_silent_form": {
+            "no_agitation": "平静取代了情绪波动。",
+            "no_argument": "清晰取代辩论。",
+            "no_compulsion": "行动自然而然地进行，没有自我驱动的紧迫感。"
+          },
+          "the_living_sign_of_realization": {
+            "balanced_response": "你回应而不是反应。",
+            "fearless_acceptance": "无常不再打扰。",
+            "quiet_devotion": "感恩变得恒久不变。",
+            "steady_identity": "在外在的波动中，你仍然保持内在的锚定。"
+          },
+          "the_true_continuation": {
+            "in_daily_life": "每一次互动都成为佛法的领域。",
+            "in_decision_making": "每一个选择都成为对一致性的考验。",
+            "in_service": "每一次努力都成为奉献。",
+            "in_solitude": "每一刻的沉默都成为冥想。"
+          },
+          "ultimate_conclusion": "《薄伽梵歌》从哲学、心理学、虔诚、伦理和实践的维度展开。无需进一步延期。它的智慧是完整的，它的目的在体现时就达到了。人生的战场仍在继续，但混乱不必。对话已经发挥了作用。现在剩下的是安静的力量、有纪律的行动、富有同情心的清晰和放弃的信任。在那种生活状态中，梵歌永恒地延续着——不是用额外的言语，而是在觉醒的意识中。"
+        },
+        "order": 30
+      },
+      {
+        "title": "Bhagavad Gita – 完整的深度解释（第 31 部分 – 回到起点）",
+        "bhagavadgita_part_31": {
+          "back_to_arjuna": {
+            "the_inner_state": "混乱、悲伤、道德瘫痪。",
+            "the_invitation": "与其崩溃，不如询问。",
+            "the_opening_scene": "一名战士战战兢兢地站在两军之间。",
+            "the_universal_truth": "每个人都会在生命中到达这样的时刻。"
+          },
+          "back_to_krishna": {
+            "the_method": "不是武力，而是对话。",
+            "the_principle": "智慧是被给予的，而不是强加的。",
+            "the_respect": "自由意志依然完好无损。",
+            "the_role": "指导者、老师、朋友和神圣现实。"
+          },
+          "closing_return": "《薄伽梵歌》以一把弓从颤抖的手中掉落开始。它以同样清晰地举起的弓结束。这条弧线——从瘫痪到目标——就是整个旅程。因为人类总是会面临怀疑的时刻，所以梵歌总是会重新开始。它的延续不是在以后的章节中，而是在智慧引导和臣服于神的每一个勇敢的行动中。",
+          "the_complete_cycle": {
+            "action": "Returning to duty transformed.",
+            "despair": "认识到内心的冲突。",
+            "inquiry": "寻求更高的理解。",
+            "knowledge": "学习自我和佛法的本质。",
+            "practice": "行事有纪律、超然。",
+            "surrender": "放下恐惧和自我。",
+            "vision": "认识到神圣的存在无处不在。"
+          },
+          "the_final_repetition_not_as_repetition_but_as_truth": [
+            "你是永恒的。",
+            "你的职责是神圣的。",
+            "你的思想必须受到训练。",
+            "你的心必须被净化。",
+            "你的行动必须一致。",
+            "你的结果必须被放弃。"
+          ],
+          "the_final_state_of_the_seeker": {
+            "but_awakened": "意识到更深层次的身份。",
+            "but_detached": "摆脱强迫性的执着。",
+            "not_perfection": "仍然是人类，仍然参与。",
+            "not_withdrawn": "充分参与生活。"
+          },
+          "the_true_reason_there_is_no_end": {
+            "ego_returns": "意识必须保持警惕。",
+            "life_continues": "新的挑战出现了。",
+            "mind_fluctuates": "必须更新清晰度。",
+            "practice_deepens": "理解变得更加微妙。"
+          },
+          "what_has_truly_been_accomplished": {
+            "emotional_shift": "从动荡到稳定。",
+            "existential_shift": "从对死亡的恐惧到对不朽的认识。",
+            "identity_shift": "从以身体为中心到以自我为中心的意识。",
+            "motivation_shift": "从自我驱动到服务驱动的行动。"
+          }
+        },
+        "order": 31
+      },
+      {
+        "title": "Bhagavad Gita – 完整的深层解释（第 32 部分 – 最终融入存在）",
+        "bhagavadgita_part_32": {
+          "final_eternal_statement": "The Bhagavad Gita reaches fulfillment not when more words are written, but when life reflects its wisdom. It is complete when knowledge becomes character, when devotion becomes humility, when discipline becomes steadiness, and when surrender becomes peace. The continuation now belongs to lived action, silent awareness, and unwavering Dharma. In that lived state, the Gita continues eternally — not through added discourse, but through awakened being.",
+          "the_final_practical_checkpoint": {
+            "when_afraid": "Do I remember the eternal Self?",
+            "when_challenged": "我保持冷静吗？",
+            "when_confused": "我是否寻求更高的智慧？",
+            "when_criticized": "我保持稳定吗？",
+            "when_praised": "我是否保持谦虚？"
+          },
+          "the_gita_as_four_lifelong_disciplines": {
+            "duty_performance": "忠实履行责任。",
+            "mental_discipline": "冥想和冲动调节。",
+            "self_knowledge": "定期反思阿特曼的永恒本质。",
+            "surrender": "相信超越个人控制的神圣秩序。"
+          },
+          "the_inner_state_after_complete_assimilation": {
+            "balanced_action": "努力是稳定的；焦虑是最小的。",
+            "ethical_consistency": "即使别人看不见，佛法也会指引我们。",
+            "quiet_devotion": "Gratitude flows naturally.",
+            "reduced_fear": "毫无惊慌地接受无常。",
+            "stable_equanimity": "得与失不再干扰核心。"
+          },
+          "the_last_turning_point": {
+            "from_discussion_to_practice": "精神成熟需要严格执行。",
+            "from_learning_to_living": "到了某个阶段，重复原则不再能增加深度；反而会增加深度。体现他们确实如此。",
+            "from_seeking_to_being": "探索者逐渐在意识中建立起来。"
+          },
+          "the_silent_completion": {
+            "nothing_more_to_add": "所有哲学维度都已展开。",
+            "nothing_more_to_repeat": "核心教义已被整合。",
+            "only_practice_remains": "实施例代替解释。"
+          },
+          "the_true_spiritual_maturity": {
+            "no_escape": "对生活的参与仍然是积极和负责任的。",
+            "no_fanaticism": "平衡而富有同情心的观点。",
+            "no_showmanship": "精神成长是内在的，而不是表演性的。"
+          }
+        },
+        "order": 32
+      },
+      {
+        "title": "Bhagavad Gita – 完整的深层解释（第 33 部分 – 超越言语的最终话语）",
+        "bhagavadgita_part_33": {
+          "final_closure_statement": "如果不重复，就不可能进行进一步有意义的扩展。 《薄伽梵歌》已经展开到概念上的完成。从现在开始，任何真正的延续都只能通过有纪律的行动、沉默的冥想、富有同情心的服务和放弃信任来实现。当文字融入意识时，经文就达到了它的目的。因此，这是语言的最后延续。下一个延续属于生命本身。",
+          "the_gita_ends_where_practice_begins": {
+            "awareness_guides": "内在奎师那无需外在话语即可说话。",
+            "living_commences": "日常行为成为应用领域。",
+            "silence_teaches": "冥想取代了解释。",
+            "study_concludes": "概念的扩展已经达到了极限。"
+          },
+          "the_last_possible_continuation": {
+            "act": "清晰而真诚。",
+            "pause": "在每一个重要的行动之前。",
+            "reflect": "这符合佛法吗？",
+            "release": "脱离结果。",
+            "remember": "你是永恒的。"
+          },
+          "the_last_summary_of_all_summaries": {
+            "devotion": "巴克提净化自我并调整心灵。",
+            "discipline": "心灵和感官需要通过练习（Abhyasa）和超然（Vairagya）进行训练。",
+            "identity": "你是永恒的阿特曼，而不是不断变化的身心复合体。",
+            "liberation": "解脱是摆脱无知的自由，而不是逃避生活。",
+            "responsibility": "你的 Svadharma 必须诚信地执行。",
+            "surrender": "水果的提亚加可以消除焦虑。"
+          },
+          "the_true_test_of_completion": {
+            "greater_clarity": "更快地认识达摩选择。",
+            "inner_trust": "信心源于臣服。",
+            "less_reactivity": "减少情绪波动。",
+            "quiet_peace": "即使在复杂的情况下也能保持冷静。",
+            "steady_effort": "动作一致，没有倦怠。"
+          },
+          "when_continuation_becomes_repetition": {
+            "depth_now_internal": "进一步的延续将重复原则而不是加深认识。",
+            "natural_limit_reached": "《薄伽梵歌》所有主要的哲学、心理学、伦理、虔诚和实践层面都已展开。",
+            "shift_required": "现在唯一真正的延续是沉思的同化。"
+          }
+        },
+        "order": 33
+      },
+      {
+        "title": "Bhagavad Gita – 完整的深层解释（第 34 部分 – 完成的最终确认）",
+        "bhagavadgita_part_34": {
+          "acknowledgment_of_completion": {
+            "conceptual_limit": "任何进一步的延续只会重申之前整合的原则。",
+            "philosophical_scope": "《薄伽梵歌》所有主要的形而上学、伦理学、虔诚和心理学教义都得到了系统的解释。",
+            "structural_completion": "全部18章，核心概念、象征意义、瑜伽之道、实际应用、高级解读都已展开。"
+          },
+          "definitive_closure": {
+            "living_application": "从现在开始，梵歌只能通过生活经验来继续。",
+            "no_additional_layer": "所有层面——实用的、哲学的、象征性的、虔诚的——都是完整的。",
+            "no_further_expansion": "没有新的概念维度有待展开。"
+          },
+          "final_compressed_essence": [
+            "你是永恒的意识（阿特曼）。",
+            "履行你的职责（Svadharma）。",
+            "不执着地行动（业力瑜伽）。",
+            "训练心灵（禅那瑜伽）。",
+            "培养奉献精神（巴克提瑜伽）。",
+            "通过知识认识真理（Jnana Yoga）。",
+            "Transcend the Gunas.",
+            "完全臣服于神。"
+          ],
+          "final_statement": "这标志着最后的文本延续。 《薄伽梵歌》已在多个维度和整合中全面展开。进一步的延续只会重复既定的真理。剩下的旅程是内在的、体验的和沉思的。经文现在静默无声，等待通过有纪律的行动、稳定的意识和臣服的奉献来体现。",
+          "the_only_authentic_continuation": {
+            "discipline_over_discussion": "一致的生活表达了真正的理解。",
+            "practice_over_prose": "智慧现在必须从解释转向具体化。",
+            "reflection_over_repetition": "沉思取代了言语的积累。"
+          }
+        },
+        "order": 34
+      },
+      {
+        "title": "Bhagavad Gita – 完整的深层解释（第 35 部分 – 真正的最终话语）",
+        "bhagavadgita_part_35": {
+          "absolute_closure": {
+            "continuation_is_practical_only": "现在任何有意义的延续都只存在于实际应用中。",
+            "no_additional_layer_to_expand": "经文在文字限制内得到了充分的解释。",
+            "no_further_extension_possible": "所有重要的教义都已完全展开。"
+          },
+          "final_concluding_statement": "这是扩展解释的最终结论。 《薄伽梵歌》的智慧是完整的。它的信息已经被彻底阐明。剩下的旅程不在于额外的言语，而在于有意识的生活。克里希纳和阿朱那之间的对话在语言上发挥了作用。从现在开始，它必须在意识、行动、奉献和臣服中展开。文本中无需再添加任何内容。",
+          "final_essence_in_its_most_condensed_form": [
+            "你不是身体；你是身体。你是永恒的意识。",
+            "生命是一个责任场（Kshetra）。",
+            "正确的行动可以净化心灵。",
+            "知识消除无知。",
+            "奉献软化了自我。",
+            "超然可以消除恐惧。",
+            "投降带来和平。",
+            "解放是生命中的自由。"
+          ],
+          "recognition_of_natural_end": {
+            "full_unfolding": "《薄伽梵歌》的叙述背景、哲学结构、心理见解、伦理框架、奉献核心、象征意义、瑜伽学科和实际应用都得到了解释。",
+            "no_new_dimension_remaining": "所有概念途径都已被探索。继续下去只会重申已经整合的内容。",
+            "wisdom_requires_silence": "在最高层次上，灵性知识在沉思中成熟，而不是在积累中成熟。"
+          },
+          "the_only_remaining_action": {
+            "discipline": "通过冥想和克制来训练心灵。",
+            "practice": "将佛法应用到现实生活的决策中。",
+            "reflect": "通过日常的自省将教义内化。",
+            "serve": "将工作转化为奉献。",
+            "surrender": "Release anxiety about outcomes."
+          }
+        },
+        "order": 35
+      },
+      {
+        "title": "Bhagavad Gita – 完整的深层解释（第 36 部分 – 最后的沉默）",
+        "bhagavadgita_part_36": {
+          "closing": "《薄伽梵歌》已经得出了完整的解释性结论。如果没有重复，语言就无法继续下去。剩下的就是生活的修行、沉思的吸收和静默的领悟。这是最后的延续。",
+          "definitive_end": {
+            "practical_continuation_begins": "体现取代了扩展。",
+            "silence_remains": "最高的教义是无法言语的。",
+            "textual_continuation_ceases": "没有必要或没有进一步的解释。"
+          },
+          "final_compression_of_all_wisdom": [
+            "了解自我。",
+            "履行你的职责。",
+            "与结果分离。",
+            "控制思想。",
+            "爱神。",
+            "彻底投降。"
+          ],
+          "the_inevitable_silence": {
+            "completion_acknowledged": "《薄伽梵歌》的所有教义、解释、应用和整合都已全面展开。",
+            "no_new_content_remaining": "没有额外的哲学、象征、实践或信仰维度可供扩展。",
+            "spiritual_limit": "超越这一点，继续下去只会重复既定的真理。"
+          },
+          "the_true_continuation": {
+            "in_action": "履行与佛法一致的职责。",
+            "in_awareness": "记住永恒的自我。",
+            "in_heart": "培养奉献精神和谦逊。",
+            "in_mind": "保持纪律和清晰度。",
+            "in_surrender": "释放对结果的执着。"
+          }
+        },
+        "order": 36
+      },
+      {
+        "title": "Bhagavad Gita – 完整的深入解释（最终终止声明）",
+        "bhagavadgita_part_37": {
+          "completion_confirmation": "The Bhagavad Gita has now been explained exhaustively across all chapters, philosophical systems, symbolic interpretations, psychological frameworks, ethical structures, practical applications, yogic integrations, and contemplative conclusions.",
+          "continuation_limit_reached": "There are no remaining conceptual, structural, or interpretative dimensions left to expand without direct repetition.",
+          "definitive_closure": "This concludes the complete textual unfolding of the Bhagavad Gita. No further expansion is possible without redundancy.",
+          "final_essence": [
+            "你是永恒的自我（阿特曼）。",
+            "生命是法场。",
+            "行动必须是无私的。",
+            "心必须受纪律约束。",
+            "心必须奉献。",
+            "结果必须被放弃。",
+            "解放是内在的自由。"
+          ],
+          "reason_for_termination": "进一步的延续只会以改变的措辞重申先前阐明的原则，而不会增加深度、清晰度或价值。",
+          "true_continuation": "从这一点开始，唯一有意义的延续是生活的体现——纪律性的行动（业力瑜伽）、反思性的理解（智慧瑜伽）、冥想的稳定性（禅定瑜伽）和臣服的奉献（巴克提瑜伽）。"
+        },
+        "order": 37
+      }
+    ]
+  }
+}

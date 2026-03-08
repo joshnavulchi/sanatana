@@ -1,0 +1,246 @@
+{
+  "practices_festivals": {
+    "meta": {
+      "title": "مشقیں | تہوار - سناتن دھرم - سناتن دھرم کو دریافت کریں۔",
+      "canonical": "https://sanatanadharmam.in/practices/festivals",
+      "description": "مشقیں — تہوار — سناتن دھرم — سناتن دھرم کو دریافت کریں — مضامین، ترجمے اور طریقوں پر مختصر تبصرہ۔ طریقوں، تاریخ، اور رہنما اصولوں کو دریافت کریں...",
+      "keywords": [
+        "diwali",
+        "diwali explained",
+        "festivals concepts",
+        "festivals for beginners",
+        "festivals for students",
+        "festivals in sanatana dharma",
+        "festivals modern relevance",
+        "festivals modern relevance explained",
+        "festivals origin and history",
+        "festivals origin and history explained",
+        "festivals practices",
+        "festivals practices explained",
+        "festivals principles",
+        "festivals q&a",
+        "festivals scriptural references",
+        "festivals scriptural references explained",
+        "festivals significance",
+        "festivals significance explained",
+        "festivals symbolism",
+        "festivals symbolism explained",
+        "hindu festivals",
+        "holi",
+        "holi explained",
+        "janmashtami",
+        "janmashtami explained",
+        "maha shivaratri",
+        "maha shivaratri explained",
+        "major hindu festivals",
+        "major hindu festivals explained",
+        "major hindu festivals modern relevance",
+        "major hindu festivals origin and history",
+        "major hindu festivals practices",
+        "major hindu festivals scriptural references",
+        "major hindu festivals significance",
+        "major hindu festivals symbolism",
+        "makar sankranti",
+        "makar sankranti explained",
+        "navaratri",
+        "navaratri explained",
+        "ratha yatra",
+        "ratha yatra explained",
+        "seasonal festivals in hinduism",
+        "seasonal festivals in hinduism explained",
+        "seasonal festivals in hinduism modern relevance",
+        "seasonal festivals in hinduism origin and history",
+        "seasonal festivals in hinduism practices",
+        "seasonal festivals in hinduism scriptural references",
+        "seasonal festivals in hinduism significance",
+        "seasonal festivals in hinduism symbolism",
+        "vasant panchami",
+        "vasant panchami explained",
+        "vedic festivals"
+      ],
+      "ogimage": "/og/practices-festivals.png",
+      "url": "https://sanatanadharmam.in/practices/festivals"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "تنظیم",
+        "contactpoint": {
+          "@type": "رابطہ پوائنٹ",
+          "areaserved": "دنیا بھر میں",
+          "availablelanguage": [
+            "العربية",
+            "ڈوئچ",
+            "انگریزی",
+            "Español",
+            "Français",
+            "ہندی",
+            "日本語",
+            "नेपाली",
+            "نیدرلینڈز",
+            "پرتگالی",
+            "روسی",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "کسٹمر سپورٹ",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Sanatanadharmam.in کے بارے میں",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "definition": "سناتن دھرم میں تہوار مقدس مواقع ہیں جو روحانی، ثقافتی اور سماجی جہتوں کو ملا کر کائناتی اصولوں، دیوتاؤں، اور موسمی تبدیلیوں کو مناتے ہیں۔",
+    "key_scriptural_references": [
+      {
+        "quote_summary": "موسمی رسومات کائناتی ترتیب کے ساتھ ہم آہنگی برقرار رکھتی ہیں۔",
+        "text": "رگ وید"
+      },
+      {
+        "quote_summary": "پیش کش اور عقیدت ذہن کو پاک کرتی ہے اور آزادی کا باعث بنتی ہے۔",
+        "text": "بھگوت گیتا"
+      }
+    ],
+    "major_festivals": {
+      "diwali": {
+        "practices": [
+          "گھروں اور مندروں میں تیل کے لیمپ (دیپا) روشن کرنا۔",
+          "دولت اور خوشحالی کے لیے لکشمی پوجا۔",
+          "آتش بازی کرنا اور مٹھائیاں بانٹنا۔"
+        ],
+        "season": "خزاں",
+        "significance": "روشنیوں کا تہوار اندھیرے پر روشنی کی فتح کی علامت ہے۔"
+      },
+      "janmashtami": {
+        "practices": [
+          "آدھی رات کی پوجا اور کرشنا کے ناموں کا جاپ۔",
+          "مہاراشٹر میں دہی ہانڈی (دہی کا برتن)۔",
+          "بھجن اور بھگوت گیتا کی تلاوت۔"
+        ],
+        "season": "مون سون",
+        "significance": "بھگوان کرشن کی پیدائش کا جشن مناتے ہیں۔"
+      },
+      "maha_shivaratri": {
+        "practices": [
+          "روزہ اور رات بھر جاگنا۔",
+          "شیو لنگم کو بلوا کے پتے اور پانی چڑھانا۔",
+          "'اوم نمہ شیوایا' کا نعرہ لگانا۔"
+        ],
+        "season": "موسم سرما کے آخر میں",
+        "significance": "شیو کی رات، روحانی بیداری کی علامت۔"
+      },
+      "navaratri": {
+        "practices": [
+          "دیوی کی مختلف شکلوں کی روزانہ پوجا۔",
+          "روزہ رکھنا اور دیوی مہاتمیہ کا ورد کرنا۔",
+          "مغربی ہندوستان میں گربا اور ڈنڈیا رقص۔"
+        ],
+        "season": "خزاں",
+        "significance": "دیوی درگا اور اس کی شکلوں کے لیے وقف نو راتیں۔"
+      }
+    },
+    "modern_relevance": {
+      "community": "تہوار سماجی بندھنوں اور ثقافتی شناخت کو مضبوط کرتے ہیں۔",
+      "spirituality": "عقیدت اور ذہن سازی کی حوصلہ افزائی کرتا ہے۔",
+      "sustainability": "جدید تقریبات میں ماحول دوست طریقوں کو فروغ دیتا ہے۔"
+    },
+    "origin": {
+      "purpose": "دیوتاؤں کا احترام کرنا، اظہار تشکر کرنا، اور اجتماعی زندگی میں دھرم کو تقویت دینا۔",
+      "roots": "ویدک اور پرانک روایات",
+      "texts": [
+        "وید",
+        "پرانوں",
+        "سمرائٹس"
+      ]
+    },
+    "seasonal_festivals": {
+      "autumn": [
+        {
+          "name": "نوراتری",
+          "practices": [
+            "روزہ رکھنا",
+            "گربا ڈانس",
+            "تلاوت کلام پاک"
+          ],
+          "significance": "دیوی پوجا کی نو راتیں۔"
+        },
+        {
+          "name": "دیوالی",
+          "practices": [
+            "روشنی کے لیمپ",
+            "لکشمی پوجا",
+            "آتش بازی"
+          ],
+          "significance": "روشنیوں کا تہوار۔"
+        }
+      ],
+      "monsoon": [
+        {
+          "name": "کرشنا جنم اشٹمی",
+          "practices": [
+            "آدھی رات کی پوجا",
+            "دہی ہانڈی کی تقریبات"
+          ],
+          "significance": "بھگوان کرشنا کی پیدائش۔"
+        }
+      ],
+      "spring": [
+        {
+          "name": "ہولی",
+          "practices": [
+            "رنگوں سے کھیلنا",
+            "الاؤ کی رسومات (ہولیکا دہن)",
+            "کمیونٹی گانا اور رقص"
+          ],
+          "significance": "رنگوں کا تہوار بہار کی آمد اور برائی پر اچھائی کی فتح کی علامت ہے۔"
+        },
+        {
+          "name": "وسنت پنچمی",
+          "practices": [
+            "سرسوتی کی پوجا",
+            "زرد لباس اور کھانے کی پیشکش"
+          ],
+          "significance": "دیوی سرسوتی کے لیے وقف، موسم بہار کے آغاز کے موقع پر۔"
+        }
+      ],
+      "summer": [
+        {
+          "name": "رتھ یاترا",
+          "practices": [
+            "رتھ کھینچنا",
+            "اجتماعی دعوتیں",
+            "مندر کی رسومات"
+          ],
+          "significance": "اوڈیشہ میں بھگوان جگناتھ کا رتھ کا تہوار۔"
+        }
+      ],
+      "winter": [
+        {
+          "name": "مکر سنکرانتی",
+          "practices": [
+            "اڑتی پتنگیں۔",
+            "تل کی مٹھائی پیش کرنا",
+            "سورج کی عبادت"
+          ],
+          "significance": "فصل کا تہوار سورج کی مکر میں منتقلی کی نشاندہی کرتا ہے۔"
+        },
+        {
+          "name": "مہا شیوارتری",
+          "practices": [
+            "رات بھر جاگنا",
+            "بلوا کے پتوں کا نذرانہ"
+          ],
+          "significance": "شیو کی رات۔"
+        }
+      ]
+    },
+    "symbolism": [
+      "روشنی علم اور جہالت کو دور کرنے کی نمائندگی کرتی ہے۔",
+      "رنگ خوشی اور تنوع کی علامت ہیں۔",
+      "روزہ روحانی توجہ کے لیے جسم اور دماغ کو پاک کرتا ہے۔"
+    ]
+  }
+}

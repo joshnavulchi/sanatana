@@ -1,0 +1,93 @@
+{
+  "horoscope": {
+    "title": "राशिफल जेनरेटर",
+    "meta": {
+      "title": "राशिफल जेनरेटर",
+      "canonical": "https://sanatanadharmam.in/horoscope",
+      "description": "सनातन धर्म से राशिफल - सनातन धर्म का अन्वेषण करें: हिंदू धर्म के शाश्वत सिद्धांत, वैदिक परंपराएं, आध्यात्मिक प्रथाएं, और शास्त्रों से ज्ञान...",
+      "keywords": [
+        "astrology",
+        "daily horoscope",
+        "horoscope",
+        "horoscope analysis",
+        "horoscope aspects",
+        "horoscope career",
+        "horoscope compatibility",
+        "horoscope eclipses",
+        "horoscope elements",
+        "horoscope finance",
+        "horoscope forecast",
+        "horoscope generator",
+        "horoscope guidance",
+        "horoscope health",
+        "horoscope houses",
+        "horoscope insights",
+        "horoscope interpretation",
+        "horoscope love",
+        "horoscope lunar phases",
+        "horoscope modalities",
+        "horoscope natal chart",
+        "horoscope personality",
+        "horoscope prediction",
+        "horoscope progressions",
+        "horoscope reading",
+        "horoscope retrogrades",
+        "horoscope solar return",
+        "horoscope symbolism",
+        "horoscope traits",
+        "horoscope transits",
+        "horoscope trends",
+        "horoscope vedic astrology",
+        "monthly horoscope",
+        "natal chart",
+        "vedic astrology",
+        "weekly horoscope",
+        "yearly horoscope",
+        "zodiac signs"
+      ],
+      "ogimage": "images/og/home.png",
+      "url": "https://sanatanadharmam.in/horoscope"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "संगठन",
+        "contactpoint": {
+          "@type": "संपर्क बिंदु",
+          "areaserved": "दुनिया भर में",
+          "availablelanguage": [
+            "धन्यवाद",
+            "जर्मन",
+            "अंग्रेजी",
+            "Español",
+            "फ़्रांसीसी",
+            "हिन्दी",
+            "ठीक है",
+            "नेपाली",
+            "नीदरलैंड",
+            "पुर्तगाली",
+            "Русский",
+            "ठीक है",
+            "धन्यवाद",
+            "中文 (简体)"
+          ],
+          "contacttype": "ग्राहक सहायता",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "सनातनधर्मम.इन के बारे में",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "birthdate": "जन्मतिथि",
+    "errorlabel": "त्रुटि:",
+    "generate": "उत्पन्न करें",
+    "luckynumber": "भाग्यशाली संख्या: {num} · अवधि: {periodLabel}",
+    "namelabel": "नाम (वैकल्पिक)",
+    "period": "अवधि",
+    "periodday": "दिन",
+    "periodmonth": "महीना",
+    "periodweek": "सप्ताह"
+  }
+}

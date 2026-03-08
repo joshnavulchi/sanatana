@@ -1,0 +1,536 @@
+{
+  "world_transformation": {
+    "meta": {
+      "title": "Die Erde verändert sich um Jahrzehnte – Sanātana Dharma – Die ewige Lebensweise",
+      "canonical": "https://sanatanadharmam.in/world-transformation",
+      "description": "Die Erde verändert sich um Jahrzehnte – Sanātana Dharma – Entdecken Sie Sanātana Dharma: die ewigen Prinzipien des Hinduismus, vedische Traditionen, spirituelle Praktiken und Weisheiten aus Schriften wie der...",
+      "keywords": [
+        "20th century history",
+        "21st century history",
+        "Border changes",
+        "Cold War influence",
+        "Decadal transformations",
+        "Decolonization effects",
+        "Earth changes",
+        "Educational resources on history",
+        "Geopolitical history",
+        "Geopolitical shifts",
+        "Global events timeline",
+        "Global history overview",
+        "Globalization impact on borders",
+        "Historical border changes",
+        "Historical cartography",
+        "Historical events impact",
+        "Historical geography",
+        "Historical map accessibility",
+        "Historical map accuracy",
+        "Historical map analysis",
+        "Historical map best practices",
+        "Historical map bias",
+        "Historical map case studies",
+        "Historical map challenges",
+        "Historical map collaboration",
+        "Historical map community",
+        "Historical map creation tools",
+        "Historical map data sources",
+        "Historical map design",
+        "Historical map diversity",
+        "Historical map education",
+        "Historical map engagement",
+        "Historical map ethics",
+        "Historical map examples",
+        "Historical map features",
+        "Historical map feedback",
+        "Historical map future directions",
+        "Historical map impact",
+        "Historical map improvement",
+        "Historical map inclusivity",
+        "Historical map innovation",
+        "Historical map interactivity",
+        "Historical map interpretation",
+        "Historical map legends",
+        "Historical map outreach",
+        "Historical map overlays",
+        "Historical map projections",
+        "Historical map relevance",
+        "Historical map representation",
+        "Historical map significance",
+        "Historical map storytelling",
+        "Historical map sustainability",
+        "Historical map technology",
+        "Historical map visualizations",
+        "Historical maps",
+        "Historical timelines",
+        "Interactive world maps",
+        "International relations evolution",
+        "Modern geopolitical trends",
+        "Post-Cold War changes",
+        "World transformation",
+        "World wars impact"
+      ],
+      "ogimage": "images/og/earth_changes_by_decade.json.png",
+      "url": "https://sanatanadharmam.in/world-transformation"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organisation",
+        "contactpoint": {
+          "@type": "Kontaktpunkt",
+          "areaserved": "Weltweit",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "Englisch",
+            "Spanisch",
+            "Französisch",
+            "Ja",
+            "日本語",
+            "Ja",
+            "Niederlande",
+            "Portugiesisch",
+            "Russisch",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Kundensupport",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "Über Sanatanadharam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "decades": [
+      {
+        "decade": "1900–1909",
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1900.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "Mandat",
+              "d": "M 820 710 L 860 690 L 890 730 L 865 760 Z",
+              "featurename": "Koloniale Reorganisation (Afrika, Beispiele)",
+              "id": "afr_mandates_placeholder",
+              "notes": "Durch echte Polygone ersetzen, die aus GIS abgeleitet wurden.",
+              "tooltip": "Koloniale Protektorate und Mandate formalisiert (anschaulich)",
+              "type": "Pfad"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Koloniale Expansion",
+        "whatchanged": [
+          "Die Kolonialgrenzen wurden erweitert",
+          "Wenige unabhängige neue Staaten"
+        ],
+        "why": [
+          "Europäischer Imperialismus"
+        ]
+      },
+      {
+        "decade": "1910–1919",
+        "examples": [
+          "Polen neu geschaffen",
+          "Die osmanischen Gebiete wurden aufgeteilt"
+        ],
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1918.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "neuer_Zustand",
+              "d": "M 1050 360 L 1100 355 L 1125 380 L 1080 395 Z",
+              "featurename": "Polen (wiedergegründet)",
+              "id": "europa_polen_1918",
+              "notes": "Verwenden Sie für die endgültige Form eine genaue Form.",
+              "tooltip": "Polen wurde nach dem Ersten Weltkrieg wiedergegründet (beispielhaftes Ausmaß)",
+              "type": "Pfad"
+            },
+            {
+              "changetype": "Mandat",
+              "d": "M 1205 455 L 1260 470 L 1245 505 L 1198 495 Z",
+              "featurename": "Osmanische Teilung (ausgewählte Mandate)",
+              "id": "me_partition_1919",
+              "tooltip": "Unter Mandat gestellte osmanisch-arabische Provinzen (zur Veranschaulichung)",
+              "type": "Pfad"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Neuzeichnung des Ersten Weltkriegs",
+        "whatchanged": [
+          "Zusammenbruch von Imperien",
+          "Neue europäische Staaten"
+        ],
+        "why": [
+          "Erster Weltkrieg",
+          "Vertragsabschlüsse"
+        ]
+      },
+      {
+        "decade": "1920–1929",
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1925.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "status_change",
+              "d": "M 900 720 L 960 710 L 980 750 L 920 770 Z",
+              "featurename": "Feste Koloniallinien (Afrika, Beispiele)",
+              "id": "africa_lines_1920er Jahre",
+              "tooltip": "Koloniale Grenzen formalisiert (anschaulich)",
+              "type": "Pfad"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Mandatssystem",
+        "whatchanged": [
+          "Grenzen formalisiert",
+          "Mandate ersetzen Imperien"
+        ],
+        "why": [
+          "Mandate des Völkerbundes"
+        ]
+      },
+      {
+        "decade": "1930–1939",
+        "examples": [
+          "Deutsche Expansion",
+          "Japanische Expansion"
+        ],
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1939.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "Annexion",
+              "d": "M 1040 420 L 1065 418 L 1075 430 L 1050 435 Z",
+              "featurename": "Österreich an Deutschland (Anschluss)",
+              "id": "europa_anschluss_1938",
+              "tooltip": "Österreich wird von Deutschland annektiert (zur Veranschaulichung)",
+              "type": "Pfad"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Aggressive Expansion",
+        "whatchanged": [
+          "Mit Gewalt veränderte Grenzen"
+        ],
+        "why": [
+          "Aufstieg des Faschismus",
+          "Militarisierung vor dem Zweiten Weltkrieg"
+        ]
+      },
+      {
+        "decade": "1940–1949",
+        "examples": [
+          "Deutschland geteilt",
+          "Korea geteilt",
+          "Teilung Indien-Pakistan"
+        ],
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1947.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "Partition",
+              "d": "M 1325 565 L 1385 565 L 1390 600 L 1335 600 Z",
+              "featurename": "Teilung Britisch-Indiens",
+              "id": "süd_asien_partition_1947",
+              "tooltip": "Teilung Indiens und Pakistans (anschaulich)",
+              "type": "Pfad"
+            },
+            {
+              "changetype": "Partition",
+              "d": "M 1545 470 L 1560 465 L 1568 478 L 1550 485 Z",
+              "featurename": "Teilung Koreas",
+              "id": "korea_division_1945",
+              "tooltip": "Korea teilte sich am 38. Breitengrad (zur Veranschaulichung)",
+              "type": "Pfad"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Neuzeichnung des Zweiten Weltkriegs",
+        "whatchanged": [
+          "Massive Grenzänderungen",
+          "Partitionen"
+        ],
+        "why": [
+          "Ergebnis des Zweiten Weltkriegs",
+          "Beginn des Kalten Krieges"
+        ]
+      },
+      {
+        "decade": "1950–1959",
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1955.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "neuer_Zustand",
+              "d": "M 1060 640 L 1160 635 L 1165 670 L 1065 675 Z",
+              "featurename": "Nordafrikanische Unabhängigkeit (Beispiele)",
+              "id": "Nordafrika_1950er Jahre",
+              "tooltip": "Unabhängigkeitsbewegungen sind erfolgreich (anschaulich)",
+              "type": "Pfad"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Frühe Dekolonisierung",
+        "whatchanged": [
+          "Es entstehen asiatische und afrikanische Nationen"
+        ],
+        "why": [
+          "Unabhängigkeitsbewegungen"
+        ]
+      },
+      {
+        "decade": "1960–1969",
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1965.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "neuer_Zustand",
+              "d": "M 880 720 L 1000 700 L 1005 790 L 900 800 Z",
+              "featurename": "Afrikanische Unabhängigkeitswelle",
+              "id": "africa_wave_1960er Jahre",
+              "tooltip": "Mehrere neue Staaten in ganz Afrika (anschaulich)",
+              "type": "Pfad"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Afrikanische Unabhängigkeitswelle",
+        "whatchanged": [
+          "Dutzende neue Länder"
+        ],
+        "why": [
+          "Rasche Dekolonisierung"
+        ]
+      },
+      {
+        "decade": "1970–1989",
+        "examples": [
+          "Unabhängigkeit Bangladeschs (1971)",
+          "Wiedervereinigung Vietnams (1976)"
+        ],
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1980.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "neuer_Zustand",
+              "d": "M 1395 590 L 1410 592 L 1415 605 L 1398 607 Z",
+              "featurename": "Bangladesch",
+              "id": "bangladesch_1971",
+              "tooltip": "Unabhängigkeit Bangladeschs (anschaulich)",
+              "type": "Pfad"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Stabilität im Kalten Krieg",
+        "whatchanged": [
+          "Wenige formale Grenzänderungen"
+        ],
+        "why": [
+          "Machtgleichgewicht und Abschreckung"
+        ]
+      },
+      {
+        "decade": "1990–1999",
+        "examples": [
+          "15 postsowjetische Staaten",
+          "Balkan neu gezeichnet"
+        ],
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1995.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "Auflösung",
+              "d": "M 1180 260 L 1500 260 L 1500 420 L 1180 420 Z",
+              "featurename": "Postsowjetische Staaten",
+              "id": "ussr_breakup_1991",
+              "tooltip": "Auflösung der UdSSR (Veranschaulichung des Begrenzungsrahmens)",
+              "type": "Pfad"
+            },
+            {
+              "changetype": "Auflösung",
+              "d": "M 1120 420 L 1160 420 L 1170 450 L 1125 455 Z",
+              "featurename": "Ehemaliges Jugoslawien",
+              "id": "yugoslavia_breakup_1990er Jahre",
+              "tooltip": "Zerfall Jugoslawiens (anschaulich)",
+              "type": "Pfad"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Zusammenbruch sozialistischer Föderationen",
+        "whatchanged": [
+          "Viele neue Länder entstanden"
+        ],
+        "why": [
+          "Auflösung der UdSSR und Jugoslawiens"
+        ]
+      },
+      {
+        "decade": "2000–2025",
+        "examples": [
+          "Südsudan (2011)"
+        ],
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-2025.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "neuer_Zustand",
+              "d": "M 1140 720 L 1165 718 L 1170 740 L 1145 742 Z",
+              "featurename": "Südsudan",
+              "id": "süd_sudan_2011",
+              "tooltip": "Unabhängigkeit des Südsudan (anschaulich)",
+              "type": "Pfad"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Moderne Grenzstabilität",
+        "whatchanged": [
+          "Seltene neue Länder",
+          "Grenzen weitgehend unverändert"
+        ],
+        "why": [
+          "Internationales Recht",
+          "Globalisierung",
+          "Abschreckung"
+        ]
+      }
+    ],
+    "historic_decades": "Historische Jahrzehnte",
+    "legend": {
+      "aria": {
+        "title": "Jahrzehntelange Überlagerung von Grenzveränderungen",
+        "desc": "Farbige Regionen kennzeichnen Gebiete, die im ausgewählten Jahrzehnt von Grenztransformationen betroffen waren."
+      },
+      "changetypes": [
+        {
+          "color": "#1f77b4",
+          "key": "neuer_Zustand",
+          "label": "Neuer Staat"
+        },
+        {
+          "color": "#ff7f0e",
+          "key": "Partition",
+          "label": "Partitionieren/Teilen"
+        },
+        {
+          "color": "#2ca02c",
+          "key": "Annexion",
+          "label": "Annexion/Fusion"
+        },
+        {
+          "color": "#9467bd",
+          "key": "Mandat",
+          "label": "Mandats-/Trustgebiet"
+        },
+        {
+          "color": "#d62728",
+          "key": "Auflösung",
+          "label": "Auflösung/Föderationszerfall"
+        },
+        {
+          "color": "#8c564b",
+          "key": "status_change",
+          "label": "Status-/Namensänderung"
+        },
+        {
+          "color": "#e377c2",
+          "key": "Streit",
+          "label": "Umstritten/Ungeklärt"
+        }
+      ],
+      "fillopacity": 0.35,
+      "projection": {
+        "id": "gleicherde",
+        "name": "Gleiche Erde",
+        "notes": "Verwenden Sie dieselbe Projektion für Basis-PNG- und SVG-Overlays."
+      },
+      "stroke": {
+        "color": "#111",
+        "opacity": 0.8,
+        "width": 0.75
+      },
+      "viewbox": "0 0 2048 1024"
+    },
+    "legend2": "Legende",
+    "periods_transfor": "Perioden der Transformation",
+    "test": [
+      "# Kern für Pfadgenerierung und -projektionen:",
+      "npm i d3-geo d3-geo-projektion topojson-client topojson-server topojson-simplify",
+      "# Wenn Sie eine Neuprojektion von Nicht-WGS84-GeoJSON benötigen (optional):",
+      "npm i proj4 @mapbox/geojson-rewind"
+    ],
+    "what_changed": "Was hat sich geändert:",
+    "why": "Warum:",
+    "why_borders": "Warum Grenzen stabil wurden",
+    "whybordersbecamestable": {
+      "factors": [
+        {
+          "title": "Internationales Recht und UN",
+          "explanation": "Die UN-Charta und -Normen schützen die territoriale Integrität."
+        },
+        {
+          "title": "Ende der Kolonialreiche",
+          "explanation": "Die meisten Dekolonisierungsmaßnahmen endeten in den 1970er Jahren; Grenzen wurden eingefroren (uti possidetis juris)."
+        },
+        {
+          "title": "Zusammenbruch großer Föderationen abgeschlossen",
+          "explanation": "Die UdSSR und Jugoslawien wurden aufgelöst; Es blieben keine ähnlichen Einheiten übrig, die fragmentiert werden mussten."
+        },
+        {
+          "title": "Globalisierung",
+          "explanation": "Interdependenz verringert die Vorteile der Eroberung."
+        },
+        {
+          "title": "Abschreckung und Sanktionen",
+          "explanation": "Die Kosten für einen Grenzwechsel sind hoch."
+        },
+        {
+          "title": "Streitbeilegung",
+          "explanation": "Konflikte werden durch Autonomie/eingefrorene Konflikte statt durch Neuzeichnen behandelt."
+        }
+      ],
+      "keytakeaway": "Moderne Grenzen sind rechtlich und politisch starr, selbst wenn es Streitigkeiten gibt.",
+      "summary": "Nach dem späten 20. Jahrhundert stabilisierten sich die Grenzen aufgrund rechtlicher, politischer, wirtschaftlicher und abschreckender Faktoren."
+    }
+  }
+}

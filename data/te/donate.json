@@ -1,0 +1,136 @@
+{
+  "donate": {
+    "title": "సనాతన ధర్మానికి మద్దతు ఇవ్వండి",
+    "meta": {
+      "title": "దానం | అవలోకనం — సనాతన ధర్మం - సనాతన ధర్మాన్ని అన్వేషించండి",
+      "canonical": "https://sanatanadharmam.in/donate",
+      "description": "విరాళం ఇవ్వండి — సనాతన ధర్మానికి మద్దతు ఇవ్వండి — వ్యాసాలు, అనువాదాలు మరియు దానంపై సంక్షిప్త వ్యాఖ్యానం. ఇక్కడ అభ్యాసాలు, చరిత్ర మరియు మార్గదర్శక సూత్రాలను అన్వేషించండి...",
+      "keywords": [
+        "UPI donation for Sanātana Dharma",
+        "bank transfer for Sanātana Dharma donation",
+        "commercial status of Sanātana Dharma",
+        "contact information for Sanātana Dharma donations",
+        "contribute to Sanātana Dharma",
+        "current expenses of Sanātana Dharma",
+        "donate to Sanātana Dharma",
+        "donation options for Sanātana Dharma",
+        "donation security for Sanātana Dharma",
+        "donation usage for Sanātana Dharma",
+        "enabling creation of spiritual content for Sanātana Dharma",
+        "frequently asked questions about donating to Sanātana Dharma",
+        "fund Sanātana Dharma",
+        "how to donate to Sanātana Dharma",
+        "impact of donations on Sanātana Dharma",
+        "international donation for Sanātana Dharma",
+        "keeping Sanātana Dharma independent and non-commercial",
+        "non-commercial nature of Sanātana Dharma",
+        "one-time donation for Sanātana Dharma",
+        "preserving free access to Sanātana Dharma knowledge",
+        "recurring donation for Sanātana Dharma",
+        "support Sanātana Dharma",
+        "supporting translations and philosophical knowledge at Sanātana Dharma",
+        "supporting website hosting and maintenance for Sanātana Dharma",
+        "sustaining free access to ancient wisdom through donations",
+        "transparency of donations at Sanātana Dharma",
+        "why donate to Sanātana Dharma"
+      ],
+      "ogimage": "/og/donate.png",
+      "url": "https://sanatanadharmam.in/donate"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "సంస్థ",
+        "contactpoint": {
+          "@type": "కాంటాక్ట్ పాయింట్",
+          "areaserved": "ప్రపంచవ్యాప్తంగా",
+          "availablelanguage": [
+            "العربية",
+            "డ్యూచ్",
+            "ఇంగ్లీష్",
+            "ఎస్పానోల్",
+            "ఫ్రాంకైస్",
+            "హిందీ",
+            "ఎస్",
+            "నేపాలీ",
+            "నెదర్లాండ్స్",
+            "పోర్చుగీస్",
+            "రస్కియ్",
+            "తెలుగు",
+            "అరేడు",
+            "中文 (简体)"
+          ],
+          "contacttype": "కస్టమర్ మద్దతు",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "సనాతనధర్మం.ఇన్ గురించి",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "donateoptions": {
+      "bank": {
+        "accountname": "వి విజయ కుమార్",
+        "accountnumber": "32160808608",
+        "heading": "UPI / బ్యాంక్ బదిలీ",
+        "ifsc": "SBIN0010677",
+        "upi": "809918075@ybl"
+      },
+      "onetime": {
+        "heading": "వన్-టైమ్ విరాళం",
+        "note": "UPI లేదా అంతర్జాతీయ చెల్లింపు పద్ధతుల ద్వారా సురక్షితమైన వన్-టైమ్ డొనేషన్ చేయండి."
+      }
+    },
+    "expenses": {
+      "heading": "పారదర్శకత: ప్రస్తుత ఖర్చులు",
+      "table": [
+        {
+          "cost": "₹3,500",
+          "cycle": "3 సంవత్సరాలు",
+          "name": "డొమైన్ & హోస్టింగ్",
+          "provider": "హోస్టింగర్"
+        },
+        {
+          "cost": "ఉచిత",
+          "cycle": "అపరిమిత",
+          "name": "GitHub పేజీలు",
+          "provider": "GitHub"
+        },
+        {
+          "cost": "ఉచిత ప్రణాళికలు",
+          "cycle": "కొనసాగుతున్నది",
+          "name": "AI సాధనాలు (పరిశోధన)",
+          "provider": "Google / Microsoft / Meta"
+        }
+      ]
+    },
+    "faq": {
+      "heading": "తరచుగా అడిగే ప్రశ్నలు",
+      "items": [
+        {
+          "a": "అవును. విశ్వసనీయ చెల్లింపు ప్రదాతలు మరియు డైరెక్ట్ బ్యాంక్ బదిలీల ద్వారా విరాళాలు ప్రాసెస్ చేయబడతాయి.",
+          "q": "నా విరాళం సురక్షితంగా ఉందా?"
+        },
+        {
+          "a": "మీ సహకారం హోస్టింగ్, నిర్వహణ మరియు విద్యా ఆధ్యాత్మిక కంటెంట్ యొక్క సృష్టికి మద్దతు ఇస్తుంది.",
+          "q": "నా విరాళం ఎలా ఉపయోగించబడుతుంది?"
+        },
+        {
+          "a": "నం. సనాతన ధర్మం అనేది వాణిజ్యేతర, జ్ఞాన-కేంద్రీకృత కార్యక్రమం.",
+          "q": "ఇది వాణిజ్య సంస్థా?"
+        }
+      ]
+    },
+    "purpose": {
+      "heading": "మీ మద్దతు ఎందుకు ముఖ్యం",
+      "points": [
+        "సనాతన ధర్మ జ్ఞానానికి ఉచిత ప్రాప్తిని కాపాడుతుంది",
+        "వెబ్‌సైట్ హోస్టింగ్, డొమైన్ మరియు నిర్వహణకు మద్దతు ఇస్తుంది",
+        "అధిక-నాణ్యత ఆధ్యాత్మిక కంటెంట్ సృష్టిని ప్రారంభిస్తుంది",
+        "ప్లాట్‌ఫారమ్‌ను స్వతంత్రంగా మరియు వాణిజ్యేతరంగా ఉంచుతుంది"
+      ]
+    },
+    "subtitle": "మీ విరాళం ప్రపంచవ్యాప్తంగా అన్వేషకులకు పురాతన జ్ఞానం, గ్రంథాలు, అనువాదాలు మరియు తాత్విక జ్ఞానానికి ఉచిత ప్రాప్యతను అందిస్తుంది."
+  }
+}
