@@ -1,7 +1,20 @@
 const fs = require('fs');
 const path = require('path');
 
-const LOCALES_DIR = path.join(__dirname, '..', '..', 'locales');
+const argv = process.argv.slice(2);
+const REPO_ROOT = path.resolve(__dirname, '..', '..');
+
+function getArgValue(prefix) {
+  const hit = argv.find((a) => a.startsWith(prefix));
+  return hit ? hit.slice(prefix.length) : undefined;
+}
+
+function resolveDir(inputPath, fallbackPath) {
+  if (!inputPath) return fallbackPath;
+  return path.isAbsolute(inputPath) ? inputPath : path.resolve(REPO_ROOT, inputPath);
+}
+
+const LOCALES_DIR = resolveDir(getArgValue('--locales-dir='), path.join(REPO_ROOT, 'locales'));
 const EN_LOCALE = 'en';
 const KEYS_TO_SYNC = [
   'src', 'href', 'canonical', 'url', 'ogimage', '@context', 'email', 'logo'

@@ -9,8 +9,19 @@ const path = require('path'); // Node.js path module for handling file paths
 
 const argv = process.argv.slice(2); // Command-line arguments
 const APPLY = argv.includes('--apply') || argv.includes('-a'); // Whether to actually delete files
-const root = path.resolve(__dirname, '..', '..'); // Project root directory
-const localesDir = path.join(root, 'locales'); // Path to locales directory
+const REPO_ROOT = path.resolve(__dirname, '..', '..'); // Project root directory
+
+function getArgValue(prefix) {
+  const hit = argv.find((a) => a.startsWith(prefix));
+  return hit ? hit.slice(prefix.length) : undefined;
+}
+
+function resolveDir(inputPath, fallbackPath) {
+  if (!inputPath) return fallbackPath;
+  return path.isAbsolute(inputPath) ? inputPath : path.resolve(REPO_ROOT, inputPath);
+}
+
+const localesDir = resolveDir(getArgValue('--locales-dir='), path.join(REPO_ROOT, 'locales')); // Path to locales directory
 
 /**
  * Recursively finds all files with .bak. in their name under a directory.
