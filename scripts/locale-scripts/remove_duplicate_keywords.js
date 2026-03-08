@@ -4,7 +4,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const localesDir = path.join(__dirname, '../locales');
+const localesDir = path.join(__dirname, '..', '..', 'locales');
 const targetLocales = [
   'zh-CN', 'ru', 'ur', 'te', 'ne', 'hi', 'pt', 'fr', 'ja', 'ta', 'nl', 'es', 'ar', 'de', 'en'
 ];

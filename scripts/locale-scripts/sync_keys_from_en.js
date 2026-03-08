@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const LOCALES_DIR = path.join(__dirname, '..', 'locales');
+const LOCALES_DIR = path.join(__dirname, '..', '..', 'locales');
 const EN_LOCALE = 'en';
 const KEYS_TO_SYNC = [
   'src', 'href', 'canonical', 'url', 'ogimage', '@context', 'email', 'logo'

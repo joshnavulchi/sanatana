@@ -5,8 +5,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const localesBaseDir = path.join(__dirname, '..', 'locales');
-const [,, oldFileName, newFileName] = process.argv;
+const localesBaseDir = path.join(__dirname, '..', '..', 'locales');
+const [, , oldFileName, newFileName] = process.argv;
 
 if (!oldFileName || !newFileName) {
   console.error('Usage: node rename_locale_json_and_update_index.js oldFileName.json newFileName.json');

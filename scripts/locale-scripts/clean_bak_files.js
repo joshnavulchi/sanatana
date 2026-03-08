@@ -9,7 +9,7 @@ const path = require('path'); // Node.js path module for handling file paths
 
 const argv = process.argv.slice(2); // Command-line arguments
 const APPLY = argv.includes('--apply') || argv.includes('-a'); // Whether to actually delete files
-const root = path.resolve(__dirname, '..'); // Project root directory
+const root = path.resolve(__dirname, '..', '..'); // Project root directory
 const localesDir = path.join(root, 'locales'); // Path to locales directory
 
 /**

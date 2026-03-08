@@ -6,7 +6,7 @@
 const fs = require('fs'); // Node.js file system module for file operations
 const path = require('path'); // Node.js path module for handling file paths
 
-const root = path.resolve(__dirname, '..'); // Project root directory
+const root = path.resolve(__dirname, '..', '..'); // Project root directory
 const localesDir = path.join(root, 'locales'); // Path to locales directory
 
 /**

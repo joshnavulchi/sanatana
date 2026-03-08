@@ -3,7 +3,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const localesDir = path.join(__dirname, '../locales');
+const localesDir = path.join(__dirname, '..', '..', 'locales');
 const targetLocales = [
   'zh-CN', 'ru', 'ur', 'te', 'ne', 'hi', 'pt', 'fr', 'ja', 'ta', 'nl', 'es', 'ar', 'de'
 ];
@@ -51,4 +51,4 @@ readline.question('Enter the English JSON filename (e.g., usa_strategies.json): 
   });
   console.log('Done copying keywords.');
   readline.close();
-  });
+});

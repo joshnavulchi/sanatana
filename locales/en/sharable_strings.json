@@ -42,43 +42,148 @@
       "copyright": "Vulchi Vijaya Kumar Raju © 2025.",
       "disclaimer": "Disclaimer: This website is currently in development.",
       "donate": "Donate",
-      "scriptures": {
-        "title": "Scriptures",
+      "vedas": {
+        "title": "Vedas",
+        "nav": [
+          {
+            "name": "Rigveda",
+            "description": "Oldest Veda consisting of hymns dedicated to various deities."
+          },
+          {
+            "name": "Yajurveda",
+            "description": "Contains sacrificial formulas used in rituals."
+          },
+          {
+            "name": "Samaveda",
+            "description": "Collection of melodies and chants used for ritual singing."
+          },
+          {
+            "name": "Atharvaveda",
+            "description": "Contains hymns, spells, and philosophical teachings."
+          }
+        ]
+      },
+      "upanishads": {
+        "title": "Upanishads",
         "nav": {
-          "bhagavadgita": "Bhagavathgita",
-          "mahabharata": "Mahabharata",
-          "ramayana": "Ramayana"
+          "isha-upanishad": "Isha Upanishad",
+          "kena-upanishad": "Kena Upanishad",
+          "katha-upanishad": "Katha Upanishad",
+          "prashna-upanishad": "Prashna Upanishad",
+          "mundaka-upanishad": "Mundaka Upanishad",
+          "mandukya-upanishad": "Mandukya Upanishad",
+          "taittiriya-upanishad": "Taittiriya Upanishad",
+          "aitareya-upanishad": "Aitareya Upanishad",
+          "chandogya-upanishad": "Chandogya Upanishad",
+          "brihadaranyaka-upanishad": "Brihadaranyaka Upanishad",
+          "shvetashvatara-upanishad": "Shvetashvatara Upanishad",
+          "kaushitaki-upanishad": "Kaushitaki Upanishad",
+          "maitri-upanishad": "Maitri Upanishad"
         }
       },
-      "stories": {
-        "title": "Stories",
+      "puranas": {
+        "title": "Puranas",
         "nav": {
-          "shiva": "Lord Shiva",
-          "vishnu": "Lord Vishnu",
-          "krishna": "Lord Krishna"
+          "brahma-purana": "Brahma Purana",
+          "padma-purana": "Padma Purana",
+          "vishnu-purana": "Vishnu Purana",
+          "shiva-purana": "Shiva Purana",
+          "bhagavata-purana": "Bhagavata Purana",
+          "narada-purana": "Narada Purana",
+          "markandeya-purana": "Markandeya Purana",
+          "agni-purana": "Agni Purana",
+          "bhavishya-purana": "Bhavishya Purana",
+          "brahmavaivarta-purana": "Brahmavaivarta Purana",
+          "linga-purana": "Linga Purana",
+          "varaha-purana": "Varaha Purana",
+          "skanda-purana": "Skanda Purana",
+          "vamana-purana": "Vamana Purana",
+          "kurma-purana": "Kurma Purana",
+          "matsya-purana": "Matsya Purana",
+          "garuda-purana": "Garuda Purana",
+          "brahmanda-purana": "Brahmanda Purana"
         }
+      },
+      "itihasa": {
+        "title": "Itihasa",
+        "nav": [
+          {
+            "name": "Ramayana",
+            "author": "Valmiki",
+            "description": "Epic describing the life of Lord Rama.",
+            "kandas": {
+              "bala-kanda": "Bala Kanda",
+              "ayodhya-kanda": "Ayodhya Kanda",
+              "aranya-kanda": "Aranya Kanda",
+              "kishkinda-kanda": "Kishkindha Kanda",
+              "sundara-kanda": "Sundara Kanda",
+              "yuddha-kanda": "Yuddha Kanda",
+              "uttara-kanda": "Uttara Kanda"
+            }
+          },
+          {
+            "name": "Mahabharata",
+            "author": "Vyasa",
+            "description": "Epic describing the Kurukshetra war and dharma.",
+            "parvas": 18
+          },
+          {
+            "description": "Sacred dialogue between Lord Krishna and Arjuna.",
+            "chapters": 18,
+            "verses": 700,
+            "chapters_list": {
+              "arjuna-vishada-yoga": "Arjuna Vishada Yoga",
+              "sankhya-yoga": "Sankhya Yoga",
+              "karma-yoga": "Karma Yoga",
+              "jnana-karma-sanyasa-yoga": "Jnana Karma Sanyasa Yoga",
+              "karma-sanyasa-yoga": "Karma Sanyasa Yoga",
+              "dhyana-yoga": "Dhyana Yoga",
+              "jnana-vijnana-yoga": "Jnana Vijnana Yoga",
+              "akshara-brahma-yoga": "Akshara Brahma Yoga",
+              "raja-vidya-raja-guhya-yoga": "Raja Vidya Raja Guhya Yoga",
+              "vibhuti-yoga": "Vibhuti Yoga",
+              "vishvarupa-darshana-yoga": "Vishvarupa Darshana Yoga",
+              "bhakti-yoga": "Bhakti Yoga",
+              "kshetra-kshetrajna-vibhaga-yoga": "Kshetra Kshetrajna Vibhaga Yoga",
+              "gunatraya-vibhaga-yoga": "Gunatraya Vibhaga Yoga",
+              "purushottama-yoga": "Purushottama Yoga",
+              "daivasura-sampad-vibhaga-yoga": "Daivasura Sampad Vibhaga Yoga",
+              "shraddhatray-vibhaga-yoga": "Shraddhatraya Vibhaga Yoga",
+              "moksha-sanyasa-yoga": "Moksha Sanyasa Yoga"
+            }
+          }
+        ]
       },
       "philosophy": {
         "title": "Philosophy",
+        "subtitle": "Vedic",
         "nav": {
+          "advaita": "Advaita",
+          "purushartha": "Purushartha",
+          "samsara": "Samsara",
           "dharma": "Dharma",
           "karma": "Karma",
           "moksha": "Moksha"
         }
       },
-      "kidszone": {
-        "title": "Kids Zone",
+      "science": {
+        "title": "Science",
+        "subtitle": "Vedic",
         "nav": {
-          "illustratedstories": "Illustrated Stories",
-          "mythologicalquizzes": "Mythological Quizzes"
+          "astronomy": "Astronomy",
+          "mathematics": "Mathematics",
+          "medicine": "Medicine",
+          "metallurgy": "Metallurgy",
+          "architecture": "Architecture"
         }
       },
       "others": {
         "title": "Sanātana dharmam",
         "nav": {
-          "religion-conversion": "Religion Conversion",
-          "jyotirlings": "Jyotirlings",
-          "rivers-connecting": "Rivers Connecting"
+          "vedic-gods": "Vedic Gods",
+          "sanskrit-concepts": "Sanskrit Concepts",
+          "festivals": "Festivals",
+          "about": "About"
         }
       },
       "privacy": "Privacy Policy",

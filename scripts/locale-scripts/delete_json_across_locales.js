@@ -5,7 +5,7 @@ const path = require('path');
 const targetFilename = ''; // Replace with the actual filename
 
 // Path to the locales directory (relative to this script)
-const localesDir = path.join(__dirname, '..', 'locales');
+const localesDir = path.join(__dirname, '..', '..', 'locales');
 
 // Read all locale subdirectories
 fs.readdirSync(localesDir, { withFileTypes: true })
