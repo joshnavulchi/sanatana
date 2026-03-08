@@ -7,6 +7,24 @@ import { useLocale } from '@app/context/locale-context';
 // Hook: read a primary locale file/object for a component.
 // - `section` is the primary filename (e.g., 'sharable_strings', 'home', 'about')
 // Returns the resolved object (may be {} until loaded).
+/**
+ * Unwrap a loaded namespace object.
+ * Priority:
+ *   1. ns[section]  — key matches section name
+ *   2. If ns has exactly ONE top-level key that is a plain object → unwrap it
+ *   3. ns as-is
+ */
+function unwrapNs(ns: Record<string, any>, section: string): Record<string, any> {
+  if (ns[section] && typeof ns[section] === 'object' && !Array.isArray(ns[section])) {
+    return ns[section];
+  }
+  const keys = Object.keys(ns);
+  if (keys.length === 1 && typeof ns[keys[0]] === 'object' && !Array.isArray(ns[keys[0]])) {
+    return ns[keys[0]];
+  }
+  return ns;
+}
+
 export default function useLocaleSection(section: string) {
   const { locale } = useLocale();
   const [obj, setObj] = useState<Record<string, any>>(() => {
@@ -16,11 +34,7 @@ export default function useLocaleSection(section: string) {
       try {
         const ns = getLocaleNamespaceObject(locale, section);
         if (ns && typeof ns === 'object') {
-          // Handle nested structure: { "section": { ...data } }
-          if ((ns as any)[section]) {
-            return (ns as any)[section];
-          }
-          return ns;
+          return unwrapNs(ns, section);
         }
       } catch (_) { }
     }
@@ -34,10 +48,8 @@ export default function useLocaleSection(section: string) {
     loadLocaleNamespace(locale, section).then((ns: any) => {
       if (cancelled) return;
       if (!ns || typeof ns !== 'object') return;
-      
-      // Handle nested structure: { "section": { ...data } }
-      // or direct structure: { ...data }
-      const payload = ns[section] ? ns[section] : ns;
+
+      const payload = unwrapNs(ns, section);
       if (payload && typeof payload === 'object') {
         setObj(payload);
       }

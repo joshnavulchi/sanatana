@@ -128,26 +128,9 @@
       }
     ],
     "philosophical_explanation": "Beyond their ritual and poetic dimensions, the Vedas contain profound philosophical insights that have shaped the spiritual traditions of India for thousands of years. At the heart of Vedic philosophy lies the idea that the universe is not chaotic but governed by a divine order known as Rta. This cosmic law ensures harmony among all aspects of existence.\n\nHuman beings are encouraged to live in accordance with this cosmic order through the practice of Dharma. Dharma refers to righteous conduct, moral responsibility, and the duties that sustain both individual well-being and social harmony.\n\nAnother fundamental concept introduced in Vedic thought is the relationship between the individual self (Atman) and the ultimate reality (Brahman). Later philosophical texts such as the Upanishads elaborate on this relationship and suggest that realizing the unity between Atman and Brahman leads to spiritual liberation or Moksha.\n\nThe Vedas also explore the role of knowledge (Jnana), action (Karma), and devotion (Bhakti) as pathways toward spiritual realization. While early Vedic traditions emphasize ritual practices, later interpretations increasingly focus on inner transformation and self-knowledge.\n\nThrough meditation, disciplined living, and the pursuit of wisdom, individuals can transcend ignorance and realize their true nature as part of the universal consciousness.\n\nThe Vedas therefore present a holistic vision of life that integrates spiritual insight, ethical responsibility, and cosmic harmony.",
-    "related_concepts": [
-      "Upanishads",
-      "Brahman",
-      "Atman",
-      "Dharma",
-      "Karma",
-      "Moksha",
-      "Vedanta",
-      "Yajna",
-      "Rta",
-      "Sanatana Dharma"
-    ],
     "estimated_composition_period": {
       "early_vedic_period": "1500 BCE – 1200 BCE",
       "later_additions": "1200 BCE – 1000 BCE"
-    },
-    "statistics": {
-      "mandalas": 10,
-      "hymns": 1028,
-      "verses": 10552
     },
     "vedic_society": {
       "social_structure": [
@@ -206,225 +189,17 @@
       "moksha": "Liberation from cycle of rebirth",
       "samsara": "Cycle of birth, death, and rebirth"
     },
-    "mandalas": [
-      {
-        "mandala_number": 1,
-        "hymn_count": 191,
-        "character": "Composite mandala compiled from multiple traditions",
-        "main_rishis": [
-          "Madhuchhandas",
-          "Kanva",
-          "Medhatithi"
-        ],
-        "primary_deities": [
-          "Agni",
-          "Indra",
-          "Varuna",
-          "Mitra",
-          "Ashvins"
-        ],
-        "themes": [
-          "Fire worship",
-          "Invocation of deities",
-          "Cosmic order",
-          "Prosperity and protection"
-        ],
-        "commentary": "Mandala 1 serves as an introductory collection of hymns invoking multiple Vedic gods. Many hymns emphasize Agni as the mediator between humans and gods.",
-        "sample_hymns": [
-          {
-            "hymn_id": "RV 1.1",
-            "deity": "Agni",
-            "rishi": "Madhuchhandas",
-            "verses": 9,
-            "theme": "Sacred fire as divine messenger",
-            "explanation": "The first hymn of the Rigveda praises Agni as the priest of sacrifice who carries offerings to gods and connects humans with divine realms."
-          },
-          {
-            "hymn_id": "RV 1.164",
-            "deity": "Multiple cosmic principles",
-            "verses": 52,
-            "theme": "Philosophical symbolism",
-            "explanation": "Contains mystical verses describing cosmic riddles including the famous line: 'Truth is one, sages call it by many names'."
-          }
-        ]
-      },
-      {
-        "mandala_number": 2,
-        "hymn_count": 43,
-        "classification": "Family Book",
-        "associated_rishi_family": "Gritsamada",
-        "primary_deities": [
-          "Indra",
-          "Agni"
-        ],
-        "themes": [
-          "Warrior strength",
-          "Sacrifice",
-          "Divine protection"
-        ],
-        "commentary": "Mandala 2 represents one of the oldest layers of the Rigveda. The hymns emphasize the power of Indra and Agni in sustaining cosmic order and protecting worshippers."
-      },
-      {
-        "mandala_number": 3,
-        "hymn_count": 62,
-        "classification": "Family Book",
-        "associated_rishi_family": "Vishvamitra",
-        "primary_deities": [
-          "Agni",
-          "Indra",
-          "Savitr"
-        ],
-        "themes": [
-          "Solar worship",
-          "Spiritual illumination",
-          "Sacred knowledge"
-        ],
-        "commentary": "Mandala 3 contains the famous Gayatri Mantra dedicated to Savitr, the solar deity symbolizing divine illumination.",
-        "important_hymn": {
-          "hymn_id": "RV 3.62.10",
-          "name": "Gayatri Mantra",
-          "explanation": "This mantra seeks enlightenment from the divine solar consciousness to inspire wisdom and understanding."
-        }
-      },
-      {
-        "mandala_number": 4,
-        "hymn_count": 58,
-        "classification": "Family Book",
-        "associated_rishi_family": "Vamadeva",
-        "primary_deities": [
-          "Indra",
-          "Agni"
-        ],
-        "themes": [
-          "Divine heroism",
-          "Battle symbolism",
-          "Cosmic protection"
-        ],
-        "commentary": "Mandala 4 emphasizes Indra as a cosmic warrior who defeats forces of chaos and restores cosmic harmony."
-      },
-      {
-        "mandala_number": 5,
-        "hymn_count": 87,
-        "classification": "Family Book",
-        "associated_rishi_family": "Atri",
-        "primary_deities": [
-          "Agni",
-          "Indra",
-          "Ashvins",
-          "Ushas"
-        ],
-        "themes": [
-          "Dawn symbolism",
-          "Healing",
-          "Divine blessings"
-        ],
-        "commentary": "Hymns praise the dawn goddess Ushas and the twin Ashvin gods known for healing and rescuing devotees."
-      },
-      {
-        "mandala_number": 6,
-        "hymn_count": 75,
-        "classification": "Family Book",
-        "associated_rishi_family": "Bharadvaja",
-        "primary_deities": [
-          "Indra",
-          "Agni"
-        ],
-        "themes": [
-          "Sacrificial rituals",
-          "Divine strength",
-          "Protection of tribes"
-        ],
-        "commentary": "Mandala 6 reflects priestly traditions and emphasizes the importance of ritual precision."
-      },
-      {
-        "mandala_number": 7,
-        "hymn_count": 104,
-        "classification": "Family Book",
-        "associated_rishi_family": "Vasistha",
-        "primary_deities": [
-          "Indra",
-          "Varuna",
-          "Agni"
-        ],
-        "themes": [
-          "Royal rituals",
-          "Cosmic law",
-          "Victory in battles"
-        ],
-        "commentary": "Includes hymns describing the famous Battle of the Ten Kings and prayers for victory and prosperity."
-      },
-      {
-        "mandala_number": 8,
-        "hymn_count": 103,
-        "character": "Mixed compilation",
-        "associated_rishis": [
-          "Kanva family"
-        ],
-        "themes": [
-          "Ritual praise",
-          "Mythological narratives"
-        ],
-        "commentary": "Contains diverse hymns and poetic styles reflecting evolving ritual traditions."
-      },
-      {
-        "mandala_number": 9,
-        "hymn_count": 114,
-        "character": "Soma Mandala",
-        "primary_deity": "Soma",
-        "themes": [
-          "Sacred Soma ritual",
-          "Divine inspiration",
-          "Immortality symbolism"
-        ],
-        "commentary": "Entire mandala devoted to Soma, the sacred ritual drink believed to grant divine inspiration and immortality."
-      },
-      {
-        "mandala_number": 10,
-        "hymn_count": 191,
-        "character": "Later philosophical additions",
-        "themes": [
-          "Creation of universe",
-          "Cosmic sacrifice",
-          "Philosophical speculation"
-        ],
-        "important_hymns": [
-          {
-            "hymn_id": "RV 10.90",
-            "name": "Purusha Sukta",
-            "theme": "Cosmic being",
-            "explanation": "Describes the universe emerging from the sacrifice of the cosmic being Purusha."
-          },
-          {
-            "hymn_id": "RV 10.129",
-            "name": "Nasadiya Sukta",
-            "theme": "Creation mystery",
-            "explanation": "A philosophical hymn questioning how the universe originated and whether even the gods know its origin."
-          }
-        ],
-        "commentary": "Mandala 10 introduces philosophical speculation that later develops into Upanishadic thought."
-      }
-    ],
-    "major_rigvedic_deities": [
-      {
-        "name": "Agni",
-        "role": "Fire god and mediator between humans and gods",
-        "importance": "Central deity in sacrificial rituals"
-      },
-      {
-        "name": "Indra",
-        "role": "King of gods and warrior",
-        "importance": "Defeats the serpent Vritra and releases rivers"
-      },
-      {
-        "name": "Varuna",
-        "role": "Guardian of cosmic order",
-        "importance": "Represents moral and cosmic law"
-      },
-      {
-        "name": "Soma",
-        "role": "Sacred ritual drink and deity",
-        "importance": "Associated with divine inspiration and immortality"
-      }
+    "related_concepts": [
+      "Upanishads",
+      "Brahman",
+      "Atman",
+      "Dharma",
+      "Karma",
+      "Moksha",
+      "Vedanta",
+      "Yajna",
+      "Rta",
+      "Sanatana Dharma"
     ]
   }
 }
