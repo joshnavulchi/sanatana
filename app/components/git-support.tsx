@@ -72,7 +72,7 @@ export default function GitSupport({ locale }: { locale?: string }) {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Link
-                href="https://github.com/vulchivijay/first-contributes"
+                href="https://github.com/vulchivijay/sanatana"
                 target="_blank"
                 className="group/btn relative px-4 md:px-8 py-3
                   bg-white/90 hover:bg-white  text-xl md:text-lg
@@ -92,7 +92,7 @@ export default function GitSupport({ locale }: { locale?: string }) {
               </Link>
 
               <Link
-                href="https://github.com/vulchivijay/first-contributes"
+                href="https://github.com/vulchivijay/sanatana"
                 target="_blank"
                 className="group/btn px-4 md:px-8 py-3
                   bg-transparent border-2 border-white/50 hover:border-white

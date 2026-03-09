@@ -50,14 +50,16 @@ interface YugaCardProps {
   description?: string[];
   index: number;
   isVisible: boolean;
+  gradientfrom: string;
+  gradientto: string;
 }
 
-function YugaCard({ name, subtitle, years, description, index, isVisible }: YugaCardProps) {
+function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description, index, isVisible }: YugaCardProps) {
   const tone = YUGA_TONES[index % YUGA_TONES.length];
 
   return (
     <div
-      className={`group relative flex flex-col overflow-hidden rounded-3xl border-2 ${tone.ring} ${tone.glow} bg-[#fffaf2] transition-all duration-700 ease-out hover:-translate-y-1.5 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
+      className={`group relative flex flex-col overflow-hidden rounded-3xl border-2 ${tone.ring} ${tone.glow} transition-all duration-700 ease-out hover:-translate-y-1.5 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
         }`}
       style={{ transitionDelay: `${index * 160}ms` }}
     >
@@ -152,7 +154,7 @@ export default function OurFourCoreYugas() {
           <p className="mt-6 text-base leading-8 text-[#5b2d12] md:text-lg">
             {subtitle}{' '}
             <Link
-              href="/cosmictime"
+              href="/"
               className="group inline-flex items-center gap-1 text-[#9a3412] underline decoration-[#d97706]/40 underline-offset-4 transition-all duration-300 hover:text-[#7a2e1f] hover:decoration-[#d97706]"
               aria-label="Learn more about Cosmic Time"
             >
@@ -176,6 +178,8 @@ export default function OurFourCoreYugas() {
           {yugas.map((y: any, idx: number) => (
             <YugaCard
               key={y.name}
+              gradientfrom={y.gradientfrom}
+              gradientto={y.gradientto}
               name={y.name}
               subtitle={y.subtitle}
               years={y.years}
