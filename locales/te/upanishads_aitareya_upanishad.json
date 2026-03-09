@@ -1,29 +1,29 @@
 {
   "upanishads_aitareya-upanishad": {
-    "title": "Aitareya Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Aitareya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "ఐతరేయ ఉపనిషద్ - సనాతన ధర్మంలో ఉపనిషద్ బోధనలు",
+    "description": "ఐతరేయ ఉపనిషత్ యొక్క అవలోకనం: ప్రధాన ఇతివృత్తాలు, ముఖ్య ఆలోచనలు మరియు ఆత్మ, బ్రహ్మ మరియు విముక్తిని అర్థం చేసుకోవడానికి ఈ ఉపనిషత్ ఎందుకు ముఖ్యమైనది.",
     "meta": {
-      "title": "Aitareya Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "ఐతరేయ ఉపనిషద్ - సనాతన ధర్మంలో ఉపనిషద్ బోధనలు",
       "canonical": "https://sanatanadharmam.in/upanishads/aitareya-upanishad",
-      "description": "Overview of Aitareya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "ఐతరేయ ఉపనిషత్ యొక్క అవలోకనం: ప్రధాన ఇతివృత్తాలు, ముఖ్య ఆలోచనలు మరియు ఆత్మ, బ్రహ్మ మరియు విముక్తిని అర్థం చేసుకోవడానికి ఈ ఉపనిషత్ ఎందుకు ముఖ్యమైనది.",
       "keywords": [
-        "Aitareya Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "ఐతరేయ ఉపనిషత్తు",
+        "ఉపనిషత్తులు",
+        "వేదాంత",
+        "ఆత్మ",
+        "బ్రాహ్మణుడు",
+        "సనాతన ధర్మం"
       ],
-      "robots": "index, follow",
+      "robots": "సూచిక, అనుసరించండి",
       "url": "https://sanatanadharmam.in/upanishads/aitareya-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_aitareya_upanishad.png"
     },
     "openGraph": {
-      "title": "Aitareya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Aitareya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "ఐతరేయ ఉపనిషద్ - సనాతన ధర్మంలో ఉపనిషద్ బోధనలు",
+      "description": "ఐతరేయ ఉపనిషత్ యొక్క అవలోకనం: ప్రధాన ఇతివృత్తాలు, ముఖ్య ఆలోచనలు మరియు ఆత్మ, బ్రహ్మ మరియు విముక్తిని అర్థం చేసుకోవడానికి ఈ ఉపనిషత్ ఎందుకు ముఖ్యమైనది.",
       "url": "https://sanatanadharmam.in/upanishads/aitareya-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "సనాతనధర్మం",
+      "type": "వ్యాసం",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_aitareya_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Aitareya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Aitareya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "వ్యాసం",
+      "name": "ఐతరేయ ఉపనిషద్ - సనాతన ధర్మంలో ఉపనిషద్ బోధనలు",
+      "description": "ఐతరేయ ఉపనిషత్ యొక్క అవలోకనం: ప్రధాన ఇతివృత్తాలు, ముఖ్య ఆలోచనలు మరియు ఆత్మ, బ్రహ్మ మరియు విముక్తిని అర్థం చేసుకోవడానికి ఈ ఉపనిషత్ ఎందుకు ముఖ్యమైనది.",
       "url": "https://sanatanadharmam.in/upanishads/aitareya-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "వెబ్‌సైట్",
+        "name": "సనాతనధర్మం",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Aitareya Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Aitareya Upanishad explores creation and the entry of consciousness into embodied life. It is often read as a study of what makes a living being truly “alive”: not merely breath or motion, but awareness.",
+    "introduction": "ఐతరేయ ఉపనిషత్తు ప్రధాన ఉపనిషత్తులలో ఒకటి - మానవ జీవితంలోని లోతైన ప్రశ్నలను అన్వేషించే గ్రంథాలు: నేను ఎవరు? అసలు ఏమిటి? నేనే (ఆత్మన్) మరియు అంతిమ వాస్తవికత (బ్రహ్మం) అంటే ఏమిటి?\n\nఉపనిషదిక్ బోధన తరచుగా సంభాషణ మరియు విచారణగా ప్రదర్శించబడుతుంది. ఒకే “నమ్మకాన్ని” అందించడం కంటే, ఇది శ్రద్ధ మరియు వివేచనకు శిక్షణనిస్తుంది, తద్వారా అన్వేషకుడు బయటి గుర్తింపు నుండి అంతర్గత సత్యానికి మారవచ్చు.\n\nఐతరేయ ఉపనిషత్తు సృష్టిని మరియు మూర్తీభవించిన జీవితంలోకి స్పృహ ప్రవేశాన్ని అన్వేషిస్తుంది. ఇది తరచుగా ఒక జీవిని నిజంగా \"సజీవంగా\" చేస్తుంది అనే అధ్యయనంగా చదవబడుతుంది: కేవలం శ్వాస లేదా చలనం కాదు, కానీ అవగాహన.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Consciousness as central, the meaning of personhood, and the relationship between the inner Self and the faculties of life."
+        "section": "సెంట్రల్ థీమ్స్",
+        "content": "స్పృహ కేంద్రంగా, వ్యక్తిత్వం యొక్క అర్థం మరియు అంతర్గత స్వీయ మరియు జీవిత సామర్థ్యాల మధ్య సంబంధం."
       },
       {
-        "section": "Practice reflection",
-        "content": "The teaching invites you to notice what remains present through every changing experience: the witnessing awareness."
+        "section": "ప్రతిబింబాన్ని ప్రాక్టీస్ చేయండి",
+        "content": "మారుతున్న ప్రతి అనుభవం ద్వారా ప్రస్తుతం మిగిలి ఉన్న వాటిని గమనించమని బోధన మిమ్మల్ని ఆహ్వానిస్తుంది: సాక్షుల అవగాహన."
       }
     ],
-    "philosophical_explanation": "Aitareya shifts focus from outer events to inner presence. When consciousness is recognized as primary, spiritual life becomes less about control and more about clarity—seeing what you already are."
+    "philosophical_explanation": "ఐతరేయ దృష్టిని బాహ్య సంఘటనల నుండి అంతర్గత ఉనికికి మారుస్తుంది. స్పృహ ప్రాథమికంగా గుర్తించబడినప్పుడు, ఆధ్యాత్మిక జీవితం నియంత్రణలో తక్కువగా ఉంటుంది మరియు స్పష్టత గురించి ఎక్కువగా మారుతుంది-మీరు ఇప్పటికే ఉన్నదాన్ని చూడటం."
   }
 }

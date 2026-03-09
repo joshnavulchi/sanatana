@@ -1,29 +1,29 @@
 {
   "upanishads_kaushitaki-upanishad": {
-    "title": "Kaushitaki Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Kaushitaki Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Kaushitaki Upanishad – Upanishad-Lehren im Sanātana Dharma",
+    "description": "Überblick über die Kaushitaki-Upanishad: Kernthemen, Schlüsselideen und warum diese Upanishad für das Verständnis von Atman, Brahman und Befreiung wichtig ist.",
     "meta": {
-      "title": "Kaushitaki Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Kaushitaki Upanishad – Upanishad-Lehren im Sanātana Dharma",
       "canonical": "https://sanatanadharmam.in/upanishads/kaushitaki-upanishad",
-      "description": "Overview of Kaushitaki Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "Überblick über die Kaushitaki-Upanishad: Kernthemen, Schlüsselideen und warum diese Upanishad für das Verständnis von Atman, Brahman und Befreiung wichtig ist.",
       "keywords": [
         "Kaushitaki Upanishad",
-        "Upanishads",
+        "Upanishaden",
         "Vedanta",
         "Atman",
         "Brahman",
         "Sanatana Dharma"
       ],
-      "robots": "index, follow",
+      "robots": "Index, folgen",
       "url": "https://sanatanadharmam.in/upanishads/kaushitaki-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_kaushitaki_upanishad.png"
     },
     "openGraph": {
-      "title": "Kaushitaki Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Kaushitaki Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Kaushitaki Upanishad – Upanishad-Lehren im Sanātana Dharma",
+      "description": "Überblick über die Kaushitaki-Upanishad: Kernthemen, Schlüsselideen und warum diese Upanishad für das Verständnis von Atman, Brahman und Befreiung wichtig ist.",
       "url": "https://sanatanadharmam.in/upanishads/kaushitaki-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "Sanatanadharam",
+      "type": "Artikel",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_kaushitaki_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Kaushitaki Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Kaushitaki Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "Artikel",
+      "name": "Kaushitaki Upanishad – Upanishad-Lehren im Sanātana Dharma",
+      "description": "Überblick über die Kaushitaki-Upanishad: Kernthemen, Schlüsselideen und warum diese Upanishad für das Verständnis von Atman, Brahman und Befreiung wichtig ist.",
       "url": "https://sanatanadharmam.in/upanishads/kaushitaki-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "Website",
+        "name": "Sanatanadharam",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Kaushitaki Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Kaushitaki Upanishad explores themes of life-breath, consciousness, and the inner basis of experience. It is often studied for its focus on the “inner ruler” perspective—what enables the faculties to operate.",
+    "introduction": "Kaushitaki Upanishad ist eine der wichtigsten Upanishaden – Texte, die die tiefsten Fragen des menschlichen Lebens erforschen: Wer bin ich? Was ist real? Was ist das Selbst (Atman) und die ultimative Realität (Brahman)?\n\nDie Lehren der Upanishaden werden oft als Dialog und Untersuchung dargestellt. Anstatt einen einzigen „Glauben“ anzubieten, schult es Aufmerksamkeit und Unterscheidungsvermögen, sodass ein Suchender von der äußeren Identität zur inneren Wahrheit gelangen kann.\n\nDie Kaushitaki Upanishad erforscht Themen wie Lebensatem, Bewusstsein und die innere Grundlage der Erfahrung. Es wird oft wegen seiner Konzentration auf die Perspektive des „inneren Herrschers“ untersucht – was es den Fakultäten ermöglicht, zu funktionieren.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Prana and awareness, the unity behind mental functions, and spiritual maturation through disciplined understanding."
+        "section": "Zentrale Themen",
+        "content": "Prana und Bewusstsein, die Einheit hinter mentalen Funktionen und spirituelle Reifung durch diszipliniertes Verständnis."
       },
       {
-        "section": "Practice reflection",
-        "content": "Instead of chasing experiences, return to the experiencer: the steady fact of awareness."
+        "section": "Übe Reflexion",
+        "content": "Anstatt Erfahrungen hinterherzujagen, kehren Sie zum Erlebenden zurück: zur stetigen Tatsache des Bewusstseins."
       }
     ],
-    "philosophical_explanation": "Kaushitaki teaches inwardness. When attention stabilizes at the source of experience, many anxieties lose their grip because they are seen as movements in mind—not the Self."
+    "philosophical_explanation": "Kaushitaki lehrt Innerlichkeit. Wenn sich die Aufmerksamkeit an der Quelle der Erfahrung stabilisiert, verlieren viele Ängste ihren Halt, weil sie als Bewegungen des Geistes und nicht des Selbst wahrgenommen werden."
   }
 }

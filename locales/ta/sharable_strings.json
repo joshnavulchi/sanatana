@@ -141,11 +141,11 @@
         "title": "அறிவியல்",
         "subtitle": "வேதகாலம்",
         "nav": {
-          "astronomy": "Astronomy",
+          "astronomy": "வானியல்",
           "mathematics": "கணிதம்",
           "medicine": "மருந்து",
           "metallurgy": "உலோகவியல்",
-          "architecture": "Architecture"
+          "architecture": "கட்டிடக்கலை"
         }
       }
     },
@@ -284,11 +284,11 @@
         "title": "அறிவியல்",
         "subtitle": "வேதகாலம்",
         "nav": {
-          "astronomy": "Astronomy",
+          "astronomy": "வானியல்",
           "mathematics": "கணிதம்",
           "medicine": "மருந்து",
           "metallurgy": "உலோகவியல்",
-          "architecture": "Architecture"
+          "architecture": "கட்டிடக்கலை"
         }
       },
       "others": {
@@ -440,11 +440,11 @@
         "basePath": "/vedic-philosophy",
         "subtitle": "வேதகாலம்",
         "nav": {
-          "astronomy": "Astronomy",
+          "astronomy": "வானியல்",
           "mathematics": "கணிதம்",
           "medicine": "மருந்து",
           "metallurgy": "உலோகவியல்",
-          "architecture": "Architecture"
+          "architecture": "கட்டிடக்கலை"
         }
       },
       "others": {
@@ -569,7 +569,7 @@
         "name": "வராஹா",
         "type": "நிலப்பரப்பு பாலூட்டி",
         "yuga": "சத்ய யுகம்",
-        "purpose": "Rescue Bhudevi (Earth) from Hiranyaksha",
+        "purpose": "ஹிரண்யாக்ஷனிடமிருந்து பூதேவியை (பூமியை) மீட்கவும்",
         "primary_antagonist": "ஹிரண்யாக்ஷ",
         "associated_texts": ["விஷ்ணு புராணம்"],
         "symbolism": "பூமி மற்றும் அண்ட ஒழுங்கின் மறுசீரமைப்பு",

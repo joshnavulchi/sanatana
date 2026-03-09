@@ -1,29 +1,29 @@
 {
   "upanishads_taittiriya-upanishad": {
-    "title": "Taittiriya Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Taittiriya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "తైత్తిరీయ ఉపనిషద్ - సనాతన ధర్మంలో ఉపనిషద్ బోధనలు",
+    "description": "తైత్తిరీయ ఉపనిషత్తు యొక్క అవలోకనం: ప్రధాన ఇతివృత్తాలు, ముఖ్య ఆలోచనలు మరియు ఆత్మ, బ్రహ్మ మరియు విముక్తిని అర్థం చేసుకోవడానికి ఈ ఉపనిషత్ ఎందుకు ముఖ్యమైనది.",
     "meta": {
-      "title": "Taittiriya Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "తైత్తిరీయ ఉపనిషద్ - సనాతన ధర్మంలో ఉపనిషద్ బోధనలు",
       "canonical": "https://sanatanadharmam.in/upanishads/taittiriya-upanishad",
-      "description": "Overview of Taittiriya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "తైత్తిరీయ ఉపనిషత్తు యొక్క అవలోకనం: ప్రధాన ఇతివృత్తాలు, ముఖ్య ఆలోచనలు మరియు ఆత్మ, బ్రహ్మ మరియు విముక్తిని అర్థం చేసుకోవడానికి ఈ ఉపనిషత్ ఎందుకు ముఖ్యమైనది.",
       "keywords": [
-        "Taittiriya Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "తైత్తిరీయ ఉపనిషత్తు",
+        "ఉపనిషత్తులు",
+        "వేదాంత",
+        "ఆత్మ",
+        "బ్రాహ్మణుడు",
+        "సనాతన ధర్మం"
       ],
-      "robots": "index, follow",
+      "robots": "సూచిక, అనుసరించండి",
       "url": "https://sanatanadharmam.in/upanishads/taittiriya-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_taittiriya_upanishad.png"
     },
     "openGraph": {
-      "title": "Taittiriya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Taittiriya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "తైత్తిరీయ ఉపనిషద్ - సనాతన ధర్మంలో ఉపనిషద్ బోధనలు",
+      "description": "తైత్తిరీయ ఉపనిషత్తు యొక్క అవలోకనం: ప్రధాన ఇతివృత్తాలు, ముఖ్య ఆలోచనలు మరియు ఆత్మ, బ్రహ్మ మరియు విముక్తిని అర్థం చేసుకోవడానికి ఈ ఉపనిషత్ ఎందుకు ముఖ్యమైనది.",
       "url": "https://sanatanadharmam.in/upanishads/taittiriya-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "సనాతనధర్మం",
+      "type": "వ్యాసం",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_taittiriya_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Taittiriya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Taittiriya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "వ్యాసం",
+      "name": "తైత్తిరీయ ఉపనిషద్ - సనాతన ధర్మంలో ఉపనిషద్ బోధనలు",
+      "description": "తైత్తిరీయ ఉపనిషత్తు యొక్క అవలోకనం: ప్రధాన ఇతివృత్తాలు, ముఖ్య ఆలోచనలు మరియు ఆత్మ, బ్రహ్మ మరియు విముక్తిని అర్థం చేసుకోవడానికి ఈ ఉపనిషత్ ఎందుకు ముఖ్యమైనది.",
       "url": "https://sanatanadharmam.in/upanishads/taittiriya-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "వెబ్‌సైట్",
+        "name": "సనాతనధర్మం",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Taittiriya Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Taittiriya Upanishad is known for its layered approach to the human being—often explained through “sheaths” (koshas), moving from the physical to the subtle, culminating in the dimension of bliss (ananda).",
+    "introduction": "తైత్తిరీయ ఉపనిషత్తు ప్రధాన ఉపనిషత్తులలో ఒకటి-మానవ జీవితంలోని లోతైన ప్రశ్నలను అన్వేషించే గ్రంథాలు: నేను ఎవరు? అసలు ఏమిటి? నేనే (ఆత్మన్) మరియు అంతిమ వాస్తవికత (బ్రహ్మం) అంటే ఏమిటి?\n\nఉపనిషదిక్ బోధన తరచుగా సంభాషణ మరియు విచారణగా ప్రదర్శించబడుతుంది. ఒకే “నమ్మకాన్ని” అందించడం కంటే, ఇది శ్రద్ధ మరియు వివేచనకు శిక్షణనిస్తుంది, తద్వారా అన్వేషకుడు బయటి గుర్తింపు నుండి అంతర్గత సత్యానికి మారవచ్చు.\n\nతైత్తిరీయ ఉపనిషత్తు మానవునికి దాని లేయర్డ్ విధానానికి ప్రసిద్ధి చెందింది-తరచుగా \"కవచాలు\" (కోషాలు) ద్వారా వివరించబడింది, భౌతిక నుండి సూక్ష్మంగా మారుతుంది, ఆనందం (ఆనంద) యొక్క పరిమాణంలో ముగుస్తుంది.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Education and discipline, the kosha model, the nature of bliss, gratitude, and living with integrity."
+        "section": "సెంట్రల్ థీమ్స్",
+        "content": "విద్య మరియు క్రమశిక్షణ, కోషా నమూనా, ఆనందం యొక్క స్వభావం, కృతజ్ఞత మరియు సమగ్రతతో జీవించడం."
       },
       {
-        "section": "Practice reflection",
-        "content": "The text connects knowledge with character: truthful speech, responsible conduct, and respect for learning are presented as spiritual foundations."
+        "section": "ప్రతిబింబాన్ని ప్రాక్టీస్ చేయండి",
+        "content": "టెక్స్ట్ జ్ఞానాన్ని పాత్రతో అనుసంధానిస్తుంది: సత్యమైన ప్రసంగం, బాధ్యతాయుతమైన ప్రవర్తన మరియు అభ్యాసానికి గౌరవం ఆధ్యాత్మిక పునాదులుగా ప్రదర్శించబడతాయి."
       }
     ],
-    "philosophical_explanation": "Taittiriya links philosophy to formation: the mind becomes fit for truth through ethical refinement. The kosha framework prevents reductionism by showing that “self” is often misidentified with layers of experience rather than awareness itself."
+    "philosophical_explanation": "తైత్తిరియా తత్వశాస్త్రాన్ని నిర్మాణంతో అనుసంధానిస్తుంది: నైతిక శుద్ధీకరణ ద్వారా మనస్సు సత్యానికి తగినట్లుగా మారుతుంది. కోషా ఫ్రేమ్‌వర్క్ \"సెల్ఫ్\" అనేది తరచుగా అవగాహనతో కాకుండా అనుభవ పొరలతో తప్పుగా గుర్తించబడుతుందని చూపడం ద్వారా తగ్గింపువాదాన్ని నిరోధిస్తుంది."
   }
 }

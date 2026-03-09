@@ -1,29 +1,29 @@
 {
   "upanishads_shvetashvatara-upanishad": {
-    "title": "Shvetashvatara Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Shvetashvatara Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Shvetashvatara Upanishad – تعاليم الأوبنشاد في Sanātana Dharma",
+    "description": "نظرة عامة على Shvetashvatara Upanishad: الموضوعات الأساسية، والأفكار الرئيسية، وسبب أهمية هذا الأوبنشاد لفهم عتمان، براهمان، والتحرير.",
     "meta": {
-      "title": "Shvetashvatara Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Shvetashvatara Upanishad – تعاليم الأوبنشاد في Sanātana Dharma",
       "canonical": "https://sanatanadharmam.in/upanishads/shvetashvatara-upanishad",
-      "description": "Overview of Shvetashvatara Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "نظرة عامة على Shvetashvatara Upanishad: الموضوعات الأساسية، والأفكار الرئيسية، وسبب أهمية هذا الأوبنشاد لفهم عتمان، براهمان، والتحرير.",
       "keywords": [
-        "Shvetashvatara Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "شفيتاشفاتارا أوبانيشاد",
+        "الأوبنشاد",
+        "فيدانتا",
+        "عتمان",
+        "براهمان",
+        "ساناتانا دارما"
       ],
-      "robots": "index, follow",
+      "robots": "الفهرس، اتبع",
       "url": "https://sanatanadharmam.in/upanishads/shvetashvatara-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_shvetashvatara_upanishad.png"
     },
     "openGraph": {
-      "title": "Shvetashvatara Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Shvetashvatara Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Shvetashvatara Upanishad – تعاليم الأوبنشاد في Sanātana Dharma",
+      "description": "نظرة عامة على Shvetashvatara Upanishad: الموضوعات الأساسية، والأفكار الرئيسية، وسبب أهمية هذا الأوبنشاد لفهم عتمان، براهمان، والتحرير.",
       "url": "https://sanatanadharmam.in/upanishads/shvetashvatara-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "ساناتانادارمام",
+      "type": "شرط",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_shvetashvatara_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Shvetashvatara Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Shvetashvatara Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "شرط",
+      "name": "Shvetashvatara Upanishad – تعاليم الأوبنشاد في Sanātana Dharma",
+      "description": "نظرة عامة على Shvetashvatara Upanishad: الموضوعات الأساسية، والأفكار الرئيسية، وسبب أهمية هذا الأوبنشاد لفهم عتمان، براهمان، والتحرير.",
       "url": "https://sanatanadharmam.in/upanishads/shvetashvatara-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "موقع إلكتروني",
+        "name": "ساناتانادارمام",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Shvetashvatara Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Shvetashvatara Upanishad brings together contemplative inquiry with a strong theistic-devotional tone. It explores the nature of the ultimate reality and the path of inner discipline, often using language of devotion and reverence.",
+    "introduction": "Shvetashvatara Upanishad هو أحد الأوبنشاد الرئيسي - النصوص التي تستكشف أعمق أسئلة الحياة البشرية: من أنا؟ ما هو الحقيقي؟ ما هي الذات (عتمان) والحقيقة النهائية (براهمان)؟\n\nغالبًا ما يتم تقديم التعليم الأوبنشادي على أنه حوار واستفسار. فبدلاً من تقديم \"معتقد\" واحد، فهو يدرب الانتباه والتمييز حتى يتمكن الباحث من الانتقال من الهوية الخارجية إلى الحقيقة الداخلية.\n\nيجمع Shvetashvatara Upanishad بين البحث التأملي ونبرة إيمانية تعبدية قوية. إنه يستكشف طبيعة الواقع المطلق وطريق الانضباط الداخلي، وغالبًا ما يستخدم لغة الإخلاص والتبجيل.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "The nature of the divine reality, yoga and meditation, the role of grace and devotion, and liberation through knowledge and inner discipline."
+        "section": "المواضيع المركزية",
+        "content": "طبيعة الحقيقة الإلهية، اليوغا والتأمل، دور النعمة والإخلاص، والتحرر من خلال المعرفة والانضباط الداخلي."
       },
       {
-        "section": "Practice reflection",
-        "content": "The text points toward steadiness: regulate the mind, refine desire, and let devotion soften the heart so insight can arise."
+        "section": "ممارسة التأمل",
+        "content": "ويشير النص إلى الثبات: تنظيم العقل، وتهذيب الرغبة، وترك العبادة تلين القلب حتى تظهر البصيرة."
       }
     ],
-    "philosophical_explanation": "Shvetashvatara is helpful for seekers who want both devotion and philosophy. It frames liberation not as mere intellectual conclusion, but as transformation—where meditation, ethics, and reverence cooperate to reveal truth."
+    "philosophical_explanation": "Shvetashvatara مفيد للباحثين الذين يريدون التفاني والفلسفة. إنه لا يؤطر التحرر باعتباره مجرد نتيجة فكرية، بل كتحول - حيث يتعاون التأمل والأخلاق والتبجيل لكشف الحقيقة."
   }
 }

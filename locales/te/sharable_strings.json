@@ -143,7 +143,7 @@
         "nav": {
           "astronomy": "ఖగోళ శాస్త్రం",
           "mathematics": "గణితం",
-          "medicine": "Medicine",
+          "medicine": "మందు",
           "metallurgy": "మెటలర్జీ",
           "architecture": "ఆర్కిటెక్చర్"
         }
@@ -151,7 +151,7 @@
     },
     "footer": {
       "title": "యదా యదా హి ధర్మస్య గ్లానిర్భవతి భారత్ । అభ్యుత్థానమధర్మస్య తదాత్మానం సృజామ్యహమ్॥",
-      "contact": "Contact with us",
+      "contact": "మమ్మల్ని సంప్రదించండి",
       "contentchange": "కంటెంట్ అసంపూర్ణంగా ఉండవచ్చు లేదా మార్పుకు లోబడి ఉండవచ్చు.",
       "copyright": "వల్చి విజయ కుమార్ రాజు © 2025.",
       "disclaimer": "నిరాకరణ: ఈ వెబ్‌సైట్ ప్రస్తుతం అభివృద్ధిలో ఉంది.",
@@ -286,7 +286,7 @@
         "nav": {
           "astronomy": "ఖగోళ శాస్త్రం",
           "mathematics": "గణితం",
-          "medicine": "Medicine",
+          "medicine": "మందు",
           "metallurgy": "మెటలర్జీ",
           "architecture": "ఆర్కిటెక్చర్"
         }
@@ -442,7 +442,7 @@
         "nav": {
           "astronomy": "ఖగోళ శాస్త్రం",
           "mathematics": "గణితం",
-          "medicine": "Medicine",
+          "medicine": "మందు",
           "metallurgy": "మెటలర్జీ",
           "architecture": "ఆర్కిటెక్చర్"
         }
@@ -472,7 +472,7 @@
     "cookiepolicy": {
       "title": "కుకీ విధానం",
       "datasharing": "డేటా భాగస్వామ్యం",
-      "datasharingdesc": "We may share aggregated information with third parties for analytics and advertising. No sensitive personal data is shared by default.",
+      "datasharingdesc": "మేము విశ్లేషణలు మరియు ప్రకటనల కోసం సమగ్ర సమాచారాన్ని మూడవ పక్షాలతో పంచుకోవచ్చు. డిఫాల్ట్‌గా సున్నితమైన వ్యక్తిగత డేటా ఏదీ షేర్ చేయబడదు.",
       "intro": "ఈ కుకీ పాలసీ మేము మా వెబ్‌సైట్‌లో కుక్కీలను మరియు సారూప్య సాంకేతికతలను ఎలా ఉపయోగిస్తామో వివరిస్తుంది.",
       "lastupdated": "చివరిగా నవీకరించబడింది: {date}",
       "managing": "మీ ప్రాధాన్యతలను నిర్వహించడం",
@@ -490,7 +490,7 @@
       "cookiepolicy": {
         "title": "కుకీ విధానం",
         "datasharing": "డేటా భాగస్వామ్యం",
-        "datasharingdesc": "We may share aggregated information with third parties for analytics and advertising. No sensitive personal data is shared by default.",
+        "datasharingdesc": "మేము విశ్లేషణలు మరియు ప్రకటనల కోసం సమగ్ర సమాచారాన్ని మూడవ పక్షాలతో పంచుకోవచ్చు. డిఫాల్ట్‌గా సున్నితమైన వ్యక్తిగత డేటా ఏదీ షేర్ చేయబడదు.",
         "intro": "ఈ కుకీ పాలసీ మేము మా వెబ్‌సైట్‌లో కుక్కీలను మరియు సారూప్య సాంకేతికతలను ఎలా ఉపయోగిస్తామో వివరిస్తుంది.",
         "lastupdated": "చివరిగా నవీకరించబడింది: {date}",
         "managing": "మీ ప్రాధాన్యతలను నిర్వహించడం",
@@ -637,7 +637,7 @@
         "yuga": "ప్రారంభ కలియుగం",
         "purpose": "సంస్కరించండి ఆచార అదనపు మరియు కరుణ ప్రోత్సహించడానికి",
         "historical_identity": "సిద్ధార్థ గౌతముడు",
-        "associated_texts": ["Bhagavata Purana (Vaishnava interpretation)"],
+        "associated_texts": ["భాగవత పురాణం (వైష్ణవ వివరణ)"],
         "symbolism": "కరుణ మరియు ఆత్మపరిశీలన",
         "evolutionary_symbolism": "తాత్విక మేల్కొలుపు"
       },

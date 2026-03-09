@@ -1,29 +1,29 @@
 {
   "upanishads_aitareya-upanishad": {
-    "title": "Aitareya Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Aitareya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Aitareya Upanishad – Upanishad-leringen in Sanātana Dharma",
+    "description": "Overzicht van Aitareya Upanishad: kernthema's, sleutelideeën en waarom deze Upanishad belangrijk is voor het begrijpen van Atman, Brahman en bevrijding.",
     "meta": {
-      "title": "Aitareya Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Aitareya Upanishad – Upanishad-leringen in Sanātana Dharma",
       "canonical": "https://sanatanadharmam.in/upanishads/aitareya-upanishad",
-      "description": "Overview of Aitareya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "Overzicht van Aitareya Upanishad: kernthema's, sleutelideeën en waarom deze Upanishad belangrijk is voor het begrijpen van Atman, Brahman en bevrijding.",
       "keywords": [
         "Aitareya Upanishad",
         "Upanishads",
         "Vedanta",
         "Atman",
-        "Brahman",
+        "brahmaan",
         "Sanatana Dharma"
       ],
-      "robots": "index, follow",
+      "robots": "indexeren, volgen",
       "url": "https://sanatanadharmam.in/upanishads/aitareya-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_aitareya_upanishad.png"
     },
     "openGraph": {
-      "title": "Aitareya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Aitareya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Aitareya Upanishad – Upanishad-leringen in Sanātana Dharma",
+      "description": "Overzicht van Aitareya Upanishad: kernthema's, sleutelideeën en waarom deze Upanishad belangrijk is voor het begrijpen van Atman, Brahman en bevrijding.",
       "url": "https://sanatanadharmam.in/upanishads/aitareya-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "Sanatanadharam",
+      "type": "artikel",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_aitareya_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Aitareya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Aitareya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "Artikel",
+      "name": "Aitareya Upanishad – Upanishad-leringen in Sanātana Dharma",
+      "description": "Overzicht van Aitareya Upanishad: kernthema's, sleutelideeën en waarom deze Upanishad belangrijk is voor het begrijpen van Atman, Brahman en bevrijding.",
       "url": "https://sanatanadharmam.in/upanishads/aitareya-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "Website",
+        "name": "Sanatanadharam",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Aitareya Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Aitareya Upanishad explores creation and the entry of consciousness into embodied life. It is often read as a study of what makes a living being truly “alive”: not merely breath or motion, but awareness.",
+    "introduction": "Aitareya Upanishad is een van de belangrijkste Upanishads – teksten die de diepste vragen van het menselijk leven onderzoeken: Wie ben ik? Wat is echt? Wat is het Zelf (Atman) en de ultieme realiteit (Brahman)?\n\nUpanishadische leer wordt vaak gepresenteerd als dialoog en onderzoek. In plaats van één enkele ‘overtuiging’ aan te bieden, traint het aandacht en onderscheidingsvermogen, zodat een zoeker van uiterlijke identiteit naar innerlijke waarheid kan gaan.\n\nDe Aitareya Upanishad onderzoekt de schepping en de toegang van bewustzijn tot het belichaamde leven. Het wordt vaak gelezen als een onderzoek naar wat een levend wezen werkelijk ‘levend’ maakt: niet alleen adem of beweging, maar bewustzijn.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Consciousness as central, the meaning of personhood, and the relationship between the inner Self and the faculties of life."
+        "section": "Centrale thema's",
+        "content": "Bewustzijn als centraal punt, de betekenis van persoonlijkheid en de relatie tussen het innerlijke zelf en de vermogens van het leven."
       },
       {
-        "section": "Practice reflection",
-        "content": "The teaching invites you to notice what remains present through every changing experience: the witnessing awareness."
+        "section": "Oefen met reflectie",
+        "content": "De lering nodigt je uit om op te merken wat bij elke veranderende ervaring aanwezig blijft: het getuige-bewustzijn."
       }
     ],
-    "philosophical_explanation": "Aitareya shifts focus from outer events to inner presence. When consciousness is recognized as primary, spiritual life becomes less about control and more about clarity—seeing what you already are."
+    "philosophical_explanation": "Aitareya verschuift de focus van uiterlijke gebeurtenissen naar innerlijke aanwezigheid. Wanneer bewustzijn als primair wordt erkend, gaat het bij spiritueel leven minder om controle en meer om helderheid – zien wat je al bent."
   }
 }

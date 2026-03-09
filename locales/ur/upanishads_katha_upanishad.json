@@ -1,29 +1,29 @@
 {
   "upanishads_katha-upanishad": {
-    "title": "Katha Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Katha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "کتھا اپنشد - سناتن دھرم میں اپنشد کی تعلیمات",
+    "description": "کتھا اپنشد کا جائزہ: بنیادی موضوعات، کلیدی خیالات، اور یہ اپنشد اتمان، برہمن اور آزادی کو سمجھنے کے لیے کیوں اہمیت رکھتا ہے۔",
     "meta": {
-      "title": "Katha Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "کتھا اپنشد - سناتن دھرم میں اپنشد کی تعلیمات",
       "canonical": "https://sanatanadharmam.in/upanishads/katha-upanishad",
-      "description": "Overview of Katha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "کتھا اپنشد کا جائزہ: بنیادی موضوعات، کلیدی خیالات، اور یہ اپنشد اتمان، برہمن اور آزادی کو سمجھنے کے لیے کیوں اہمیت رکھتا ہے۔",
       "keywords": [
-        "Katha Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "کتھا اپنشد",
+        "اپنشد",
+        "ویدانت",
+        "اتمان",
+        "برہمن",
+        "سناتن دھرم"
       ],
-      "robots": "index, follow",
+      "robots": "انڈیکس، پیروی کریں",
       "url": "https://sanatanadharmam.in/upanishads/katha-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_katha_upanishad.png"
     },
     "openGraph": {
-      "title": "Katha Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Katha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "کتھا اپنشد - سناتن دھرم میں اپنشد کی تعلیمات",
+      "description": "کتھا اپنشد کا جائزہ: بنیادی موضوعات، کلیدی خیالات، اور یہ اپنشد اتمان، برہمن اور آزادی کو سمجھنے کے لیے کیوں اہمیت رکھتا ہے۔",
       "url": "https://sanatanadharmam.in/upanishads/katha-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "سناتندھرم",
+      "type": "مضمون",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_katha_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Katha Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Katha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "مضمون",
+      "name": "کتھا اپنشد - سناتن دھرم میں اپنشد کی تعلیمات",
+      "description": "کتھا اپنشد کا جائزہ: بنیادی موضوعات، کلیدی خیالات، اور یہ اپنشد اتمان، برہمن اور آزادی کو سمجھنے کے لیے کیوں اہمیت رکھتا ہے۔",
       "url": "https://sanatanadharmam.in/upanishads/katha-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "ویب سائٹ",
+        "name": "سناتندھرم",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Katha Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Katha Upanishad is famed for the story of Nachiketa, who meets Yama (the lord of death). Through this encounter it explores the choice between the pleasant and the good, and the quest for what does not perish.",
+    "introduction": "کتھا اپنشد ان بنیادی اپنشدوں میں سے ایک ہے جو انسانی زندگی کے گہرے سوالات کو دریافت کرتی ہے: میں کون ہوں؟ اصلی کیا ہے؟ نفس (آتمان) اور حتمی حقیقت (برہمن) کیا ہے؟\n\nاپنشد کی تعلیم کو اکثر مکالمے اور استفسار کے طور پر پیش کیا جاتا ہے۔ ایک واحد \"عقیدہ\" پیش کرنے کے بجائے، یہ توجہ اور فہم کی تربیت کرتا ہے تاکہ ایک متلاشی بیرونی شناخت سے باطنی سچائی کی طرف بڑھ سکے۔\n\nکتھا اپنشد نچیکیتا کی کہانی کے لیے مشہور ہے، جو یما (موت کے مالک) سے ملتی ہے۔ اس تصادم کے ذریعے یہ خوشگوار اور اچھے کے درمیان انتخاب کی کھوج کرتا ہے، اور اس کی جستجو جو فنا نہیں ہوتا۔",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Discernment between short-term pleasure and lasting good, the immortality of the Self, discipline of the senses, and the “chariot” metaphor for mind and body."
+        "section": "مرکزی موضوعات",
+        "content": "قلیل مدتی لذت اور دیرپا بھلائی، نفس کی لافانییت، حواس کا نظم و ضبط، اور دماغ اور جسم کے لیے \"رتھ\" کا استعارہ۔"
       },
       {
-        "section": "Practice reflection",
-        "content": "The text highlights self-mastery: when senses and mind are guided by inner intelligence, the seeker becomes fit for deeper knowledge."
+        "section": "عکاسی کی مشق کریں۔",
+        "content": "متن خود مختاری کو نمایاں کرتا ہے: جب حواس اور دماغ اندرونی ذہانت سے رہنمائی کرتے ہیں، تو متلاشی گہرے علم کے لیے موزوں ہو جاتا ہے۔"
       }
     ],
-    "philosophical_explanation": "Katha brings philosophy into daily decision-making: what you repeatedly choose becomes your character. By choosing the “good” over the merely pleasant, you cultivate the steadiness required to recognize the Self beyond fear, change, and death."
+    "philosophical_explanation": "کتھا روزانہ فیصلہ سازی میں فلسفہ لاتی ہے: جو آپ بار بار منتخب کرتے ہیں وہ آپ کا کردار بن جاتا ہے۔ محض خوشگوار پر \"اچھے\" کا انتخاب کرکے، آپ خود کو خوف، تبدیلی اور موت سے بالاتر پہچاننے کے لیے درکار استقامت پیدا کرتے ہیں۔"
   }
 }

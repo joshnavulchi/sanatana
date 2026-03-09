@@ -1,29 +1,29 @@
 {
   "upanishads_katha-upanishad": {
-    "title": "Katha Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Katha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "कथा उपनिषद - सनातन धर्म मा उपनिषद शिक्षा",
+    "description": "कथा उपनिषदको सिंहावलोकन: मूल विषयवस्तुहरू, मुख्य विचारहरू, र आत्मा, ब्रह्म, र मुक्ति बुझ्नको लागि यो उपनिषद किन महत्त्वपूर्ण छ।",
     "meta": {
-      "title": "Katha Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "कथा उपनिषद - सनातन धर्म मा उपनिषद शिक्षा",
       "canonical": "https://sanatanadharmam.in/upanishads/katha-upanishad",
-      "description": "Overview of Katha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "कथा उपनिषदको सिंहावलोकन: मूल विषयवस्तुहरू, मुख्य विचारहरू, र आत्मा, ब्रह्म, र मुक्ति बुझ्नको लागि यो उपनिषद किन महत्त्वपूर्ण छ।",
       "keywords": [
-        "Katha Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "कथा उपनिषद",
+        "उपनिषद",
+        "वेदान्त",
+        "आत्मा",
+        "ब्राह्मण",
+        "सनातन धर्म"
       ],
-      "robots": "index, follow",
+      "robots": "अनुक्रमणिका, पालना गर्नुहोस्",
       "url": "https://sanatanadharmam.in/upanishads/katha-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_katha_upanishad.png"
     },
     "openGraph": {
-      "title": "Katha Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Katha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "कथा उपनिषद - सनातन धर्म मा उपनिषद शिक्षा",
+      "description": "कथा उपनिषदको सिंहावलोकन: मूल विषयवस्तुहरू, मुख्य विचारहरू, र आत्मा, ब्रह्म, र मुक्ति बुझ्नको लागि यो उपनिषद किन महत्त्वपूर्ण छ।",
       "url": "https://sanatanadharmam.in/upanishads/katha-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "सनातन धर्मम",
+      "type": "लेख",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_katha_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Katha Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Katha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "लेख",
+      "name": "कथा उपनिषद - सनातन धर्म मा उपनिषद शिक्षा",
+      "description": "कथा उपनिषदको सिंहावलोकन: मूल विषयवस्तुहरू, मुख्य विचारहरू, र आत्मा, ब्रह्म, र मुक्ति बुझ्नको लागि यो उपनिषद किन महत्त्वपूर्ण छ।",
       "url": "https://sanatanadharmam.in/upanishads/katha-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "वेबसाइट",
+        "name": "सनातन धर्मम",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Katha Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Katha Upanishad is famed for the story of Nachiketa, who meets Yama (the lord of death). Through this encounter it explores the choice between the pleasant and the good, and the quest for what does not perish.",
+    "introduction": "कथा उपनिषद एक प्रमुख उपनिषद हो - ग्रन्थ जसले मानव जीवनको गहिरो प्रश्नहरूको अन्वेषण गर्दछ: म को हुँ? वास्तविक के हो? आत्म (आत्मा) र परम यथार्थ (ब्रह्म) के हो?\n\nउपनिषदिक शिक्षालाई प्रायः संवाद र सोधपुछको रूपमा प्रस्तुत गरिन्छ। एकल \"विश्वास\" प्रस्ताव गर्नुको सट्टा, यसले ध्यान र विवेकलाई प्रशिक्षित गर्दछ ताकि एक खोजकर्ता बाह्य पहिचानबाट भित्री सत्यमा जान सक्छ।\n\nकथा उपनिषद नचिकेताको कथाको लागि प्रसिद्ध छ, जसले यम (मृत्युका स्वामी) लाई भेट्छ। यस मुठभेडको माध्यमबाट यसले सुखद र असल बीचको छनोटको अन्वेषण गर्दछ, र के नष्ट हुँदैन भन्ने खोजी गर्दछ।",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Discernment between short-term pleasure and lasting good, the immortality of the Self, discipline of the senses, and the “chariot” metaphor for mind and body."
+        "section": "केन्द्रीय विषयवस्तुहरू",
+        "content": "अल्पकालीन आनन्द र दिगो राम्रो बीचको विवेक, आत्मको अमरता, इन्द्रियहरूको अनुशासन, र मन र शरीरको लागि \"रथ\" रूपक।"
       },
       {
-        "section": "Practice reflection",
-        "content": "The text highlights self-mastery: when senses and mind are guided by inner intelligence, the seeker becomes fit for deeper knowledge."
+        "section": "प्रतिबिम्ब अभ्यास गर्नुहोस्",
+        "content": "पाठले आत्म-निपुणतालाई हाइलाइट गर्दछ: जब इन्द्रिय र दिमाग भित्री बुद्धिद्वारा निर्देशित हुन्छन्, खोजकर्ता गहिरो ज्ञानको लागि उपयुक्त हुन्छ।"
       }
     ],
-    "philosophical_explanation": "Katha brings philosophy into daily decision-making: what you repeatedly choose becomes your character. By choosing the “good” over the merely pleasant, you cultivate the steadiness required to recognize the Self beyond fear, change, and death."
+    "philosophical_explanation": "कथाले दैनिक निर्णयमा दर्शन ल्याउँछ: तपाईले बारम्बार रोज्नु भएको कुरा तपाईको चरित्र बन्छ। केवल रमाइलो भन्दा \"राम्रो\" छनौट गरेर, तपाईंले डर, परिवर्तन र मृत्युभन्दा बाहिरको आत्मलाई चिन्न आवश्यक स्थिरता खेती गर्नुहुन्छ।"
   }
 }

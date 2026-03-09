@@ -1,29 +1,29 @@
 {
   "upanishads_brihadaranyaka-upanishad": {
-    "title": "Brihadaranyaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Brihadaranyaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "बृहदारण्यक उपनिषद - सनातन धर्म में उपनिषद की शिक्षाएँ",
+    "description": "बृहदारण्यक उपनिषद का अवलोकन: मुख्य विषय, प्रमुख विचार, और यह उपनिषद आत्मा, ब्रह्म और मुक्ति को समझने के लिए क्यों महत्वपूर्ण है।",
     "meta": {
-      "title": "Brihadaranyaka Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "बृहदारण्यक उपनिषद - सनातन धर्म में उपनिषद की शिक्षाएँ",
       "canonical": "https://sanatanadharmam.in/upanishads/brihadaranyaka-upanishad",
-      "description": "Overview of Brihadaranyaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "बृहदारण्यक उपनिषद का अवलोकन: मुख्य विषय, प्रमुख विचार, और यह उपनिषद आत्मा, ब्रह्म और मुक्ति को समझने के लिए क्यों महत्वपूर्ण है।",
       "keywords": [
-        "Brihadaranyaka Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "बृहदारण्यक उपनिषद",
+        "उपनिषद",
+        "वेदांत",
+        "आत्मा",
+        "ब्राह्मण",
+        "सनातन धर्म"
       ],
-      "robots": "index, follow",
+      "robots": "अनुक्रमणिका, अनुसरण करें",
       "url": "https://sanatanadharmam.in/upanishads/brihadaranyaka-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_brihadaranyaka_upanishad.png"
     },
     "openGraph": {
-      "title": "Brihadaranyaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Brihadaranyaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "बृहदारण्यक उपनिषद - सनातन धर्म में उपनिषद की शिक्षाएँ",
+      "description": "बृहदारण्यक उपनिषद का अवलोकन: मुख्य विषय, प्रमुख विचार, और यह उपनिषद आत्मा, ब्रह्म और मुक्ति को समझने के लिए क्यों महत्वपूर्ण है।",
       "url": "https://sanatanadharmam.in/upanishads/brihadaranyaka-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "सनातनधर्मम्",
+      "type": "आलेख",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_brihadaranyaka_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Brihadaranyaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Brihadaranyaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "आलेख",
+      "name": "बृहदारण्यक उपनिषद - सनातन धर्म में उपनिषद की शिक्षाएँ",
+      "description": "बृहदारण्यक उपनिषद का अवलोकन: मुख्य विषय, प्रमुख विचार, और यह उपनिषद आत्मा, ब्रह्म और मुक्ति को समझने के लिए क्यों महत्वपूर्ण है।",
       "url": "https://sanatanadharmam.in/upanishads/brihadaranyaka-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "वेबसाइट",
+        "name": "सनातनधर्मम्",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Brihadaranyaka Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Brihadaranyaka Upanishad is one of the most influential and philosophically rich Upanishads. It contains deep dialogues on the Self, renunciation, and the limits of description—often pushing the seeker beyond simplistic answers.",
+    "introduction": "बृहदारण्यक उपनिषद प्रमुख उपनिषदों में से एक है - ऐसे ग्रंथ जो मानव जीवन के सबसे गहरे सवालों का पता लगाते हैं: मैं कौन हूं? असली क्या है? स्व (आत्मान) और परम वास्तविकता (ब्राह्मण) क्या है?\n\nउपनिषद शिक्षण को अक्सर संवाद और पूछताछ के रूप में प्रस्तुत किया जाता है। एकल \"विश्वास\" की पेशकश करने के बजाय, यह ध्यान और विवेक को प्रशिक्षित करता है ताकि एक साधक बाहरी पहचान से आंतरिक सत्य की ओर बढ़ सके।\n\nबृहदारण्यक उपनिषद सबसे प्रभावशाली और दार्शनिक रूप से समृद्ध उपनिषदों में से एक है। इसमें स्वयं, त्याग और वर्णन की सीमाओं पर गहरे संवाद शामिल हैं - अक्सर साधक को सरल उत्तरों से परे धकेल देते हैं।",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Self-inquiry, renunciation, discrimination between the real and the changing, and the use of negation to remove false identification."
+        "section": "केंद्रीय विषय",
+        "content": "आत्म-निरीक्षण, त्याग, वास्तविक और परिवर्तनशील के बीच विवेक, और झूठी पहचान को दूर करने के लिए निषेध का उपयोग।"
       },
       {
-        "section": "Practice reflection",
-        "content": "The text encourages a subtle honesty: release identities that depend on changing conditions, and rest in the awareness that does not depend on them."
+        "section": "चिंतन का अभ्यास करें",
+        "content": "पाठ एक सूक्ष्म ईमानदारी को प्रोत्साहित करता है: उन पहचानों को छोड़ें जो बदलती परिस्थितियों पर निर्भर करती हैं, और उस जागरूकता में आराम करें जो उन पर निर्भर नहीं है।"
       }
     ],
-    "philosophical_explanation": "Brihadaranyaka strengthens the non-dual insight by systematically dismantling mistaken self-definitions. The result is not nihilism, but freedom: when the Self is not confined to roles or possessions, fear reduces and compassion becomes natural."
+    "philosophical_explanation": "बृहदारण्यक गलत आत्म-परिभाषाओं को व्यवस्थित रूप से नष्ट करके गैर-दोहरी अंतर्दृष्टि को मजबूत करता है। परिणाम शून्यवाद नहीं, बल्कि स्वतंत्रता है: जब स्वयं भूमिकाओं या संपत्ति तक सीमित नहीं रहता है, तो भय कम हो जाता है और करुणा स्वाभाविक हो जाती है।"
   }
 }

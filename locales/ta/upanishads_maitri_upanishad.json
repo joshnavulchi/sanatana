@@ -1,29 +1,29 @@
 {
   "upanishads_maitri-upanishad": {
-    "title": "Maitri Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Maitri Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "மைத்ரி உபநிஷத் - சனாதன தர்மத்தில் உபநிஷத் போதனைகள்",
+    "description": "மைத்ரி உபநிஷத்தின் கண்ணோட்டம்: முக்கிய கருப்பொருள்கள், முக்கிய யோசனைகள் மற்றும் ஆத்மா, பிரம்மம் மற்றும் விடுதலையைப் புரிந்துகொள்வதற்கு இந்த உபநிடதம் ஏன் முக்கியமானது.",
     "meta": {
-      "title": "Maitri Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "மைத்ரி உபநிஷத் - சனாதன தர்மத்தில் உபநிஷத் போதனைகள்",
       "canonical": "https://sanatanadharmam.in/upanishads/maitri-upanishad",
-      "description": "Overview of Maitri Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "மைத்ரி உபநிஷத்தின் கண்ணோட்டம்: முக்கிய கருப்பொருள்கள், முக்கிய யோசனைகள் மற்றும் ஆத்மா, பிரம்மம் மற்றும் விடுதலையைப் புரிந்துகொள்வதற்கு இந்த உபநிடதம் ஏன் முக்கியமானது.",
       "keywords": [
-        "Maitri Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "மைத்ரி உபநிஷத்",
+        "உபநிடதங்கள்",
+        "வேதாந்தம்",
+        "ஆத்மா",
+        "பிரம்மன்",
+        "சனாதன தர்மம்"
       ],
-      "robots": "index, follow",
+      "robots": "குறியீட்டு, பின்பற்றவும்",
       "url": "https://sanatanadharmam.in/upanishads/maitri-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_maitri_upanishad.png"
     },
     "openGraph": {
-      "title": "Maitri Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Maitri Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "மைத்ரி உபநிஷத் - சனாதன தர்மத்தில் உபநிஷத் போதனைகள்",
+      "description": "மைத்ரி உபநிஷத்தின் கண்ணோட்டம்: முக்கிய கருப்பொருள்கள், முக்கிய யோசனைகள் மற்றும் ஆத்மா, பிரம்மம் மற்றும் விடுதலையைப் புரிந்துகொள்வதற்கு இந்த உபநிடதம் ஏன் முக்கியமானது.",
       "url": "https://sanatanadharmam.in/upanishads/maitri-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "சனாதனதர்மம்",
+      "type": "கட்டுரை",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_maitri_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Maitri Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Maitri Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "கட்டுரை",
+      "name": "மைத்ரி உபநிஷத் - சனாதன தர்மத்தில் உபநிஷத் போதனைகள்",
+      "description": "மைத்ரி உபநிஷத்தின் கண்ணோட்டம்: முக்கிய கருப்பொருள்கள், முக்கிய யோசனைகள் மற்றும் ஆத்மா, பிரம்மம் மற்றும் விடுதலையைப் புரிந்துகொள்வதற்கு இந்த உபநிடதம் ஏன் முக்கியமானது.",
       "url": "https://sanatanadharmam.in/upanishads/maitri-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "இணையத்தளம்",
+        "name": "சனாதனதர்மம்",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Maitri Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Maitri (Maitrayaniya) Upanishad discusses mind, time, and disciplined practice. It often reads like a bridge between early Upanishadic inquiry and later yoga-oriented approaches to mental training.",
+    "introduction": "மைத்ரி உபநிஷத் முதன்மையான உபநிடதங்களில் ஒன்றாகும் - மனித வாழ்வின் ஆழமான கேள்விகளை ஆராயும் நூல்கள்: நான் யார்? உண்மையானது என்ன? சுயம் (ஆத்மன்) மற்றும் இறுதி உண்மை (பிரம்மன்) என்றால் என்ன?\n\nஉபநிஷத போதனை பெரும்பாலும் உரையாடல் மற்றும் விசாரணை என வழங்கப்படுகிறது. ஒரு \"நம்பிக்கையை\" வழங்குவதற்குப் பதிலாக, இது கவனத்தையும் பகுத்தறிவையும் பயிற்றுவிக்கிறது, எனவே தேடுபவர் வெளிப்புற அடையாளத்திலிருந்து உள் உண்மைக்கு செல்ல முடியும்.\n\nமைத்ரி (மைத்ராயனிய) உபநிஷத் மனம், நேரம் மற்றும் ஒழுக்கமான நடைமுறை பற்றி விவாதிக்கிறது. இது பெரும்பாலும் ஆரம்பகால உபநிடத விசாரணைக்கும் பின்னர் மனப் பயிற்சிக்கான யோகா சார்ந்த அணுகுமுறைகளுக்கும் இடையே ஒரு பாலமாக வாசிக்கப்படுகிறது.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Mind as the key to bondage and freedom, contemplation on time and change, and the practical need for meditation and restraint."
+        "section": "மைய கருப்பொருள்கள்",
+        "content": "அடிமைத்தனம் மற்றும் சுதந்திரத்திற்கான திறவுகோலாக மனம், நேரம் மற்றும் மாற்றம் பற்றிய சிந்தனை மற்றும் தியானம் மற்றும் கட்டுப்பாடுக்கான நடைமுறை தேவை."
       },
       {
-        "section": "Practice reflection",
-        "content": "The message is simple and demanding: if the mind is refined, the world becomes lighter; if it is uncontrolled, even success becomes suffering."
+        "section": "பிரதிபலிப்பு பயிற்சி",
+        "content": "செய்தி எளிமையானது மற்றும் கோருகிறது: மனதை செம்மைப்படுத்தினால், உலகம் இலகுவாகும்; கட்டுப்பாடில்லாமல் இருந்தால் வெற்றியும் துன்பமாகிவிடும்."
       }
     ],
-    "philosophical_explanation": "Maitri emphasizes the mind as the main spiritual instrument. By training it—through ethical living, meditation, and discernment—the seeker becomes capable of stable insight rather than temporary inspiration."
+    "philosophical_explanation": "மைத்ரி மனதை முக்கிய ஆன்மீக கருவியாக வலியுறுத்துகிறார். நெறிமுறை வாழ்க்கை, தியானம் மற்றும் பகுத்தறிவு ஆகியவற்றின் மூலம் அதைப் பயிற்றுவிப்பதன் மூலம், தேடுபவர் தற்காலிக உத்வேகத்தை விட நிலையான நுண்ணறிவைக் கொண்டிருக்க முடியும்."
   }
 }

@@ -1,29 +1,29 @@
 {
   "upanishads_maitri-upanishad": {
-    "title": "Maitri Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Maitri Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Maitri Upanishad - Upanishad-leringen in Sanātana Dharma",
+    "description": "Overzicht van Maitri Upanishad: kernthema's, sleutelideeën en waarom deze Upanishad belangrijk is voor het begrijpen van Atman, Brahman en bevrijding.",
     "meta": {
-      "title": "Maitri Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Maitri Upanishad - Upanishad-leringen in Sanātana Dharma",
       "canonical": "https://sanatanadharmam.in/upanishads/maitri-upanishad",
-      "description": "Overview of Maitri Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "Overzicht van Maitri Upanishad: kernthema's, sleutelideeën en waarom deze Upanishad belangrijk is voor het begrijpen van Atman, Brahman en bevrijding.",
       "keywords": [
         "Maitri Upanishad",
         "Upanishads",
         "Vedanta",
         "Atman",
-        "Brahman",
+        "brahmaan",
         "Sanatana Dharma"
       ],
-      "robots": "index, follow",
+      "robots": "indexeren, volgen",
       "url": "https://sanatanadharmam.in/upanishads/maitri-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_maitri_upanishad.png"
     },
     "openGraph": {
-      "title": "Maitri Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Maitri Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Maitri Upanishad - Upanishad-leringen in Sanātana Dharma",
+      "description": "Overzicht van Maitri Upanishad: kernthema's, sleutelideeën en waarom deze Upanishad belangrijk is voor het begrijpen van Atman, Brahman en bevrijding.",
       "url": "https://sanatanadharmam.in/upanishads/maitri-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "Sanatanadharam",
+      "type": "artikel",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_maitri_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Maitri Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Maitri Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "Artikel",
+      "name": "Maitri Upanishad - Upanishad-leringen in Sanātana Dharma",
+      "description": "Overzicht van Maitri Upanishad: kernthema's, sleutelideeën en waarom deze Upanishad belangrijk is voor het begrijpen van Atman, Brahman en bevrijding.",
       "url": "https://sanatanadharmam.in/upanishads/maitri-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "Website",
+        "name": "Sanatanadharam",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Maitri Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Maitri (Maitrayaniya) Upanishad discusses mind, time, and disciplined practice. It often reads like a bridge between early Upanishadic inquiry and later yoga-oriented approaches to mental training.",
+    "introduction": "Maitri Upanishad is een van de belangrijkste Upanishads – teksten die de diepste vragen van het menselijk leven onderzoeken: Wie ben ik? Wat is echt? Wat is het Zelf (Atman) en de ultieme realiteit (Brahman)?\n\nUpanishadische leer wordt vaak gepresenteerd als dialoog en onderzoek. In plaats van één enkele ‘overtuiging’ aan te bieden, traint het aandacht en onderscheidingsvermogen, zodat een zoeker van uiterlijke identiteit naar innerlijke waarheid kan gaan.\n\nDe Maitri (Maitrayaniya) Upanishad bespreekt geest, tijd en gedisciplineerde beoefening. Het leest vaak als een brug tussen het vroege Upanishadische onderzoek en de latere yoga-georiënteerde benaderingen van mentale training.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Mind as the key to bondage and freedom, contemplation on time and change, and the practical need for meditation and restraint."
+        "section": "Centrale thema's",
+        "content": "De geest als sleutel tot gebondenheid en vrijheid, contemplatie op tijd en verandering, en de praktische behoefte aan meditatie en zelfbeheersing."
       },
       {
-        "section": "Practice reflection",
-        "content": "The message is simple and demanding: if the mind is refined, the world becomes lighter; if it is uncontrolled, even success becomes suffering."
+        "section": "Oefen met reflectie",
+        "content": "De boodschap is eenvoudig en veeleisend: als de geest verfijnd wordt, wordt de wereld lichter; als het ongecontroleerd is, wordt zelfs succes lijden."
       }
     ],
-    "philosophical_explanation": "Maitri emphasizes the mind as the main spiritual instrument. By training it—through ethical living, meditation, and discernment—the seeker becomes capable of stable insight rather than temporary inspiration."
+    "philosophical_explanation": "Maitri benadrukt de geest als het belangrijkste spirituele instrument. Door het te trainen – door ethisch leven, meditatie en onderscheidingsvermogen – wordt de zoeker in staat tot stabiel inzicht in plaats van tot tijdelijke inspiratie."
   }
 }

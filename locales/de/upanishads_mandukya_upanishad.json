@@ -1,29 +1,29 @@
 {
   "upanishads_mandukya-upanishad": {
-    "title": "Mandukya Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Mandukya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Mandukya Upanishad – Upanishad-Lehren im Sanātana Dharma",
+    "description": "Überblick über die Mandukya Upanishad: Kernthemen, Schlüsselideen und warum diese Upanishad für das Verständnis von Atman, Brahman und Befreiung wichtig ist.",
     "meta": {
-      "title": "Mandukya Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Mandukya Upanishad – Upanishad-Lehren im Sanātana Dharma",
       "canonical": "https://sanatanadharmam.in/upanishads/mandukya-upanishad",
-      "description": "Overview of Mandukya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "Überblick über die Mandukya Upanishad: Kernthemen, Schlüsselideen und warum diese Upanishad für das Verständnis von Atman, Brahman und Befreiung wichtig ist.",
       "keywords": [
         "Mandukya Upanishad",
-        "Upanishads",
+        "Upanishaden",
         "Vedanta",
         "Atman",
         "Brahman",
         "Sanatana Dharma"
       ],
-      "robots": "index, follow",
+      "robots": "Index, folgen",
       "url": "https://sanatanadharmam.in/upanishads/mandukya-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_mandukya_upanishad.png"
     },
     "openGraph": {
-      "title": "Mandukya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Mandukya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Mandukya Upanishad – Upanishad-Lehren im Sanātana Dharma",
+      "description": "Überblick über die Mandukya Upanishad: Kernthemen, Schlüsselideen und warum diese Upanishad für das Verständnis von Atman, Brahman und Befreiung wichtig ist.",
       "url": "https://sanatanadharmam.in/upanishads/mandukya-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "Sanatanadharam",
+      "type": "Artikel",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_mandukya_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Mandukya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Mandukya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "Artikel",
+      "name": "Mandukya Upanishad – Upanishad-Lehren im Sanātana Dharma",
+      "description": "Überblick über die Mandukya Upanishad: Kernthemen, Schlüsselideen und warum diese Upanishad für das Verständnis von Atman, Brahman und Befreiung wichtig ist.",
       "url": "https://sanatanadharmam.in/upanishads/mandukya-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "Website",
+        "name": "Sanatanadharam",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Mandukya Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Mandukya Upanishad is concise yet profound. It analyzes experience through the states of waking, dreaming, and deep sleep, and points to a “fourth” (turiya) that underlies them all. It also uses AUM (Om) as a symbolic map of consciousness.",
+    "introduction": "Die Mandukya Upanishad ist eine der wichtigsten Upanishaden – Texte, die die tiefsten Fragen des menschlichen Lebens erforschen: Wer bin ich? Was ist real? Was ist das Selbst (Atman) und die ultimative Realität (Brahman)?\n\nDie Lehren der Upanishaden werden oft als Dialog und Untersuchung dargestellt. Anstatt einen einzigen „Glauben“ anzubieten, schult es Aufmerksamkeit und Unterscheidungsvermögen, sodass ein Suchender von der äußeren Identität zur inneren Wahrheit gelangen kann.\n\nDie Mandukya Upanishad ist prägnant und dennoch tiefgründig. Es analysiert die Erfahrung in den Zuständen Wachen, Träumen und Tiefschlaf und weist auf einen „Vierten“ (turiya) hin, der ihnen allen zugrunde liegt. Es verwendet auch AUM (Om) als symbolische Karte des Bewusstseins.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "States of consciousness, AUM as a contemplative symbol, and the recognition of a stable awareness beyond changing mental content."
+        "section": "Zentrale Themen",
+        "content": "Bewusstseinszustände, AUM als kontemplatives Symbol und das Erkennen eines stabilen Bewusstseins über sich verändernde mentale Inhalte hinaus."
       },
       {
-        "section": "Practice reflection",
-        "content": "Meditative inquiry: notice that experiences change while the fact of awareness remains. This observation becomes a doorway into non-dual understanding."
+        "section": "Übe Reflexion",
+        "content": "Meditative Untersuchung: Beachten Sie, dass sich Erfahrungen ändern, während die Tatsache des Bewusstseins bestehen bleibt. Diese Beobachtung wird zu einem Tor zum nicht-dualen Verständnis."
       }
     ],
-    "philosophical_explanation": "Mandukya’s method is phenomenological: it studies lived experience. By observing the three states and their transitions, the seeker gains confidence that the Self is not limited to any one mode of mind."
+    "philosophical_explanation": "Mandukyas Methode ist phänomenologisch: Sie untersucht gelebte Erfahrungen. Durch die Beobachtung der drei Zustände und ihrer Übergänge gewinnt der Suchende die Gewissheit, dass das Selbst nicht auf eine bestimmte Geisteshaltung beschränkt ist."
   }
 }

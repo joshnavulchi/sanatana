@@ -1,29 +1,29 @@
 {
   "upanishads_katha-upanishad": {
-    "title": "Katha Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Katha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "كاثا أوبانيشاد – تعاليم الأوبنشاد في ساناتانا دارما",
+    "description": "نظرة عامة على Katha Upanishad: المواضيع الأساسية، والأفكار الرئيسية، وسبب أهمية هذا الأوبنشاد لفهم عتمان، براهمان، والتحرير.",
     "meta": {
-      "title": "Katha Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "كاثا أوبانيشاد – تعاليم الأوبنشاد في ساناتانا دارما",
       "canonical": "https://sanatanadharmam.in/upanishads/katha-upanishad",
-      "description": "Overview of Katha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "نظرة عامة على Katha Upanishad: المواضيع الأساسية، والأفكار الرئيسية، وسبب أهمية هذا الأوبنشاد لفهم عتمان، براهمان، والتحرير.",
       "keywords": [
-        "Katha Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "كاثا أوبانيشاد",
+        "الأوبنشاد",
+        "فيدانتا",
+        "عتمان",
+        "براهمان",
+        "ساناتانا دارما"
       ],
-      "robots": "index, follow",
+      "robots": "الفهرس، اتبع",
       "url": "https://sanatanadharmam.in/upanishads/katha-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_katha_upanishad.png"
     },
     "openGraph": {
-      "title": "Katha Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Katha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "كاثا أوبانيشاد – تعاليم الأوبنشاد في ساناتانا دارما",
+      "description": "نظرة عامة على Katha Upanishad: المواضيع الأساسية، والأفكار الرئيسية، وسبب أهمية هذا الأوبنشاد لفهم عتمان، براهمان، والتحرير.",
       "url": "https://sanatanadharmam.in/upanishads/katha-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "ساناتانادارمام",
+      "type": "شرط",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_katha_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Katha Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Katha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "شرط",
+      "name": "كاثا أوبانيشاد – تعاليم الأوبنشاد في ساناتانا دارما",
+      "description": "نظرة عامة على Katha Upanishad: المواضيع الأساسية، والأفكار الرئيسية، وسبب أهمية هذا الأوبنشاد لفهم عتمان، براهمان، والتحرير.",
       "url": "https://sanatanadharmam.in/upanishads/katha-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "موقع إلكتروني",
+        "name": "ساناتانادارمام",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Katha Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Katha Upanishad is famed for the story of Nachiketa, who meets Yama (the lord of death). Through this encounter it explores the choice between the pleasant and the good, and the quest for what does not perish.",
+    "introduction": "كاثا أوبانيشاد هي واحدة من النصوص الرئيسية للأوبنشاد، وهي نصوص تستكشف أعمق أسئلة الحياة البشرية: من أنا؟ ما هو الحقيقي؟ ما هي الذات (عتمان) والحقيقة النهائية (براهمان)؟\n\nغالبًا ما يتم تقديم التعليم الأوبنشادي على أنه حوار واستفسار. فبدلاً من تقديم \"معتقد\" واحد، فهو يدرب الانتباه والتمييز حتى يتمكن الباحث من الانتقال من الهوية الخارجية إلى الحقيقة الداخلية.\n\nتشتهر Katha Upanishad بقصة Nachiketa التي تلتقي بـ Yama (سيد الموت). من خلال هذا اللقاء يستكشف الاختيار بين الممتع والخير، والبحث عن ما لا يفنى.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Discernment between short-term pleasure and lasting good, the immortality of the Self, discipline of the senses, and the “chariot” metaphor for mind and body."
+        "section": "المواضيع المركزية",
+        "content": "التمييز بين المتعة قصيرة المدى والخير الدائم، وخلود الذات، وانضباط الحواس، واستعارة \"العربة\" للعقل والجسد."
       },
       {
-        "section": "Practice reflection",
-        "content": "The text highlights self-mastery: when senses and mind are guided by inner intelligence, the seeker becomes fit for deeper knowledge."
+        "section": "ممارسة التأمل",
+        "content": "يسلط النص الضوء على السيطرة على الذات: عندما تسترشد الحواس والعقل بالذكاء الداخلي، يصبح الباحث مؤهلاً للمعرفة الأعمق."
       }
     ],
-    "philosophical_explanation": "Katha brings philosophy into daily decision-making: what you repeatedly choose becomes your character. By choosing the “good” over the merely pleasant, you cultivate the steadiness required to recognize the Self beyond fear, change, and death."
+    "philosophical_explanation": "تدخل كاثا الفلسفة في عملية صنع القرار اليومية: ما تختاره بشكل متكرر يصبح شخصيتك. من خلال اختيار \"الخير\" بدلاً من مجرد المتعة، فإنك تنمي الثبات المطلوب للتعرف على الذات بما يتجاوز الخوف والتغيير والموت."
   }
 }

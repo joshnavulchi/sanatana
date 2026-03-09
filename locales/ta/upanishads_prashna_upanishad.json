@@ -1,29 +1,29 @@
 {
   "upanishads_prashna-upanishad": {
-    "title": "Prashna Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Prashna Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "பிரஷ்ண உபநிஷத் - சனாதன தர்மத்தில் உபநிஷத் போதனைகள்",
+    "description": "பிரஷ்னா உபநிஷத்தின் கண்ணோட்டம்: முக்கிய கருப்பொருள்கள், முக்கிய யோசனைகள் மற்றும் ஆத்மா, பிரம்மம் மற்றும் விடுதலையைப் புரிந்துகொள்வதற்கு இந்த உபநிடதம் ஏன் முக்கியமானது.",
     "meta": {
-      "title": "Prashna Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "பிரஷ்ண உபநிஷத் - சனாதன தர்மத்தில் உபநிஷத் போதனைகள்",
       "canonical": "https://sanatanadharmam.in/upanishads/prashna-upanishad",
-      "description": "Overview of Prashna Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "பிரஷ்னா உபநிஷத்தின் கண்ணோட்டம்: முக்கிய கருப்பொருள்கள், முக்கிய யோசனைகள் மற்றும் ஆத்மா, பிரம்மம் மற்றும் விடுதலையைப் புரிந்துகொள்வதற்கு இந்த உபநிடதம் ஏன் முக்கியமானது.",
       "keywords": [
-        "Prashna Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "பிரஷ்ண உபநிஷத்",
+        "உபநிடதங்கள்",
+        "வேதாந்தம்",
+        "ஆத்மா",
+        "பிரம்மன்",
+        "சனாதன தர்மம்"
       ],
-      "robots": "index, follow",
+      "robots": "குறியீட்டு, பின்பற்றவும்",
       "url": "https://sanatanadharmam.in/upanishads/prashna-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_prashna_upanishad.png"
     },
     "openGraph": {
-      "title": "Prashna Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Prashna Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "பிரஷ்ண உபநிஷத் - சனாதன தர்மத்தில் உபநிஷத் போதனைகள்",
+      "description": "பிரஷ்னா உபநிஷத்தின் கண்ணோட்டம்: முக்கிய கருப்பொருள்கள், முக்கிய யோசனைகள் மற்றும் ஆத்மா, பிரம்மம் மற்றும் விடுதலையைப் புரிந்துகொள்வதற்கு இந்த உபநிடதம் ஏன் முக்கியமானது.",
       "url": "https://sanatanadharmam.in/upanishads/prashna-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "சனாதனதர்மம்",
+      "type": "கட்டுரை",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_prashna_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Prashna Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Prashna Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "கட்டுரை",
+      "name": "பிரஷ்ண உபநிஷத் - சனாதன தர்மத்தில் உபநிஷத் போதனைகள்",
+      "description": "பிரஷ்னா உபநிஷத்தின் கண்ணோட்டம்: முக்கிய கருப்பொருள்கள், முக்கிய யோசனைகள் மற்றும் ஆத்மா, பிரம்மம் மற்றும் விடுதலையைப் புரிந்துகொள்வதற்கு இந்த உபநிடதம் ஏன் முக்கியமானது.",
       "url": "https://sanatanadharmam.in/upanishads/prashna-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "இணையத்தளம்",
+        "name": "சனாதனதர்மம்",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Prashna Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nPrashna means “question”. This Upanishad is structured around a set of inquiries by sincere students. The format emphasizes that wisdom grows through clear questions, disciplined living, and patient reasoning.",
+    "introduction": "பிரஷ்ண உபநிஷத் முதன்மையான உபநிடதங்களில் ஒன்றாகும் - மனித வாழ்க்கையின் ஆழமான கேள்விகளை ஆராயும் நூல்கள்: நான் யார்? உண்மையானது என்ன? சுயம் (ஆத்மன்) மற்றும் இறுதி உண்மை (பிரம்மன்) என்றால் என்ன?\n\nஉபநிஷத போதனை பெரும்பாலும் உரையாடல் மற்றும் விசாரணை என வழங்கப்படுகிறது. ஒரு \"நம்பிக்கையை\" வழங்குவதற்குப் பதிலாக, இது கவனத்தையும் பகுத்தறிவையும் பயிற்றுவிக்கிறது, எனவே தேடுபவர் வெளிப்புற அடையாளத்திலிருந்து உள் உண்மைக்கு செல்ல முடியும்.\n\nபிரஷ்னா என்றால் \"கேள்வி\" என்று பொருள். இந்த உபநிடதம் நேர்மையான மாணவர்களின் விசாரணைகளின் தொகுப்பைச் சுற்றி கட்டமைக்கப்பட்டுள்ளது. தெளிவான கேள்விகள், ஒழுக்கமான வாழ்க்கை மற்றும் பொறுமையான பகுத்தறிவு மூலம் ஞானம் வளரும் என்பதை வடிவம் வலியுறுத்துகிறது.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Life-breath (prana), the powers of perception, the relationship between body and mind, meditation, and the foundations of a stable inner life."
+        "section": "மைய கருப்பொருள்கள்",
+        "content": "உயிர் மூச்சு (பிராணா), உணர்தல் சக்திகள், உடலுக்கும் மனதுக்கும் இடையிலான உறவு, தியானம் மற்றும் நிலையான உள் வாழ்க்கையின் அடித்தளம்."
       },
       {
-        "section": "Learning method",
-        "content": "The question-and-answer structure models a respectful pedagogy: ask precisely, listen carefully, test understanding, and integrate through practice."
+        "section": "கற்றல் முறை",
+        "content": "கேள்வி-பதில் அமைப்பு மரியாதைக்குரிய கல்விமுறையை முன்மாதிரியாகக் கொண்டுள்ளது: துல்லியமாகக் கேளுங்கள், கவனமாகக் கேளுங்கள், புரிந்துகொள்ளுதலைச் சோதித்து, பயிற்சியின் மூலம் ஒருங்கிணைக்கவும்."
       }
     ],
-    "philosophical_explanation": "Prashna connects philosophy to physiology and psychology: mind is not separate from life-energy and disciplined habits. By understanding prana and the workings of attention, the seeker learns how to stabilize the inner instrument for contemplation."
+    "philosophical_explanation": "பிரஷ்னா தத்துவத்தை உடலியல் மற்றும் உளவியலுடன் இணைக்கிறது: மனம் என்பது வாழ்க்கை ஆற்றல் மற்றும் ஒழுக்கமான பழக்கவழக்கங்களிலிருந்து வேறுபட்டதல்ல. பிராணன் மற்றும் கவனத்தின் செயல்பாடுகளைப் புரிந்துகொள்வதன் மூலம், சிந்தனைக்கான உள் கருவியை எவ்வாறு நிலைநிறுத்துவது என்பதை தேடுபவர் கற்றுக்கொள்கிறார்."
   }
 }

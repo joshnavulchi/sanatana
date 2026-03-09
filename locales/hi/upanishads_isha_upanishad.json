@@ -1,29 +1,29 @@
 {
   "upanishads_isha-upanishad": {
-    "title": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "ईशा उपनिषद - सनातन धर्म में उपनिषद की शिक्षाएँ",
+    "description": "ईशा उपनिषद का अवलोकन: मुख्य विषय, प्रमुख विचार, और यह उपनिषद आत्मा, ब्रह्म और मुक्ति को समझने के लिए क्यों महत्वपूर्ण है।",
     "meta": {
-      "title": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "ईशा उपनिषद - सनातन धर्म में उपनिषद की शिक्षाएँ",
       "canonical": "https://sanatanadharmam.in/upanishads/isha-upanishad",
-      "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "ईशा उपनिषद का अवलोकन: मुख्य विषय, प्रमुख विचार, और यह उपनिषद आत्मा, ब्रह्म और मुक्ति को समझने के लिए क्यों महत्वपूर्ण है।",
       "keywords": [
-        "Isha Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "ईशा उपनिषद",
+        "उपनिषद",
+        "वेदांत",
+        "आत्मा",
+        "ब्राह्मण",
+        "सनातन धर्म"
       ],
-      "robots": "index, follow",
+      "robots": "अनुक्रमणिका, अनुसरण करें",
       "url": "https://sanatanadharmam.in/upanishads/isha-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_isha_upanishad.png"
     },
     "openGraph": {
-      "title": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "ईशा उपनिषद - सनातन धर्म में उपनिषद की शिक्षाएँ",
+      "description": "ईशा उपनिषद का अवलोकन: मुख्य विषय, प्रमुख विचार, और यह उपनिषद आत्मा, ब्रह्म और मुक्ति को समझने के लिए क्यों महत्वपूर्ण है।",
       "url": "https://sanatanadharmam.in/upanishads/isha-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "सनातनधर्मम्",
+      "type": "आलेख",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_isha_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "आलेख",
+      "name": "ईशा उपनिषद - सनातन धर्म में उपनिषद की शिक्षाएँ",
+      "description": "ईशा उपनिषद का अवलोकन: मुख्य विषय, प्रमुख विचार, और यह उपनिषद आत्मा, ब्रह्म और मुक्ति को समझने के लिए क्यों महत्वपूर्ण है।",
       "url": "https://sanatanadharmam.in/upanishads/isha-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "वेबसाइट",
+        "name": "सनातनधर्मम्",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Isha Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nA distinctive feature of the Isha Upanishad is the way it joins renunciation with right action: it teaches inner non-attachment while living responsibly in the world.",
+    "introduction": "ईशा उपनिषद प्रमुख उपनिषदों में से एक है - ऐसे ग्रंथ जो मानव जीवन के सबसे गहरे सवालों का पता लगाते हैं: मैं कौन हूं? असली क्या है? स्व (आत्मान) और परम वास्तविकता (ब्राह्मण) क्या है?\n\nउपनिषद शिक्षण को अक्सर संवाद और पूछताछ के रूप में प्रस्तुत किया जाता है। एकल \"विश्वास\" की पेशकश करने के बजाय, यह ध्यान और विवेक को प्रशिक्षित करता है ताकि एक साधक बाहरी पहचान से आंतरिक सत्य की ओर बढ़ सके।\n\nईशा उपनिषद की एक विशिष्ट विशेषता यह है कि यह त्याग को सही कार्य के साथ जोड़ता है: यह दुनिया में जिम्मेदारी से रहते हुए आंतरिक अनासक्ति सिखाता है।",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Inner renunciation, seeing the Divine presence within and around, freedom from possessiveness, and the discipline of acting without ego-driven attachment."
+        "section": "केंद्रीय विषय",
+        "content": "आंतरिक त्याग, अपने भीतर और चारों ओर ईश्वरीय उपस्थिति को देखना, स्वामित्व से मुक्ति, और अहंकार से प्रेरित आसक्ति के बिना कार्य करने का अनुशासन।"
       },
       {
-        "section": "Practice reflection",
-        "content": "The text invites a balanced life: perform your duties, but let go of the “I own” and “I control” mindset. This is a practical doorway to peace."
+        "section": "चिंतन का अभ्यास करें",
+        "content": "पाठ एक संतुलित जीवन को आमंत्रित करता है: अपने कर्तव्यों का पालन करें, लेकिन \"मैं मालिक हूं\" और \"मैं नियंत्रित करता हूं\" मानसिकता को छोड़ दें। यह शांति का व्यावहारिक द्वार है।"
       }
     ],
-    "philosophical_explanation": "Philosophically, Isha emphasizes a unified vision: the same reality is present in movement and stillness, in the near and the far. When this vision becomes stable, fear and greed soften, and action becomes cleaner—more like service than self-assertion."
+    "philosophical_explanation": "दार्शनिक रूप से, ईशा एक एकीकृत दृष्टि पर जोर देती है: एक ही वास्तविकता गति और शांति में, निकट और दूर में मौजूद है। जब यह दृष्टि स्थिर हो जाती है, भय और लालच नरम हो जाते हैं, और कार्य स्वच्छ हो जाता है - आत्म-पुष्टि की तुलना में सेवा की तरह।"
   }
 }

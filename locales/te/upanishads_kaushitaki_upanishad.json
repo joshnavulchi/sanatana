@@ -1,29 +1,29 @@
 {
   "upanishads_kaushitaki-upanishad": {
-    "title": "Kaushitaki Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Kaushitaki Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "కౌషితకీ ఉపనిషద్ - సనాతన ధర్మంలో ఉపనిషద్ బోధనలు",
+    "description": "కౌషితకీ ఉపనిషత్ యొక్క అవలోకనం: ప్రధాన ఇతివృత్తాలు, ముఖ్య ఆలోచనలు మరియు ఆత్మ, బ్రహ్మ మరియు విముక్తిని అర్థం చేసుకోవడానికి ఈ ఉపనిషత్ ఎందుకు ముఖ్యమైనది.",
     "meta": {
-      "title": "Kaushitaki Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "కౌషితకీ ఉపనిషద్ - సనాతన ధర్మంలో ఉపనిషద్ బోధనలు",
       "canonical": "https://sanatanadharmam.in/upanishads/kaushitaki-upanishad",
-      "description": "Overview of Kaushitaki Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "కౌషితకీ ఉపనిషత్ యొక్క అవలోకనం: ప్రధాన ఇతివృత్తాలు, ముఖ్య ఆలోచనలు మరియు ఆత్మ, బ్రహ్మ మరియు విముక్తిని అర్థం చేసుకోవడానికి ఈ ఉపనిషత్ ఎందుకు ముఖ్యమైనది.",
       "keywords": [
-        "Kaushitaki Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "కౌషితకీ ఉపనిషత్తు",
+        "ఉపనిషత్తులు",
+        "వేదాంత",
+        "ఆత్మ",
+        "బ్రాహ్మణుడు",
+        "సనాతన ధర్మం"
       ],
-      "robots": "index, follow",
+      "robots": "సూచిక, అనుసరించండి",
       "url": "https://sanatanadharmam.in/upanishads/kaushitaki-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_kaushitaki_upanishad.png"
     },
     "openGraph": {
-      "title": "Kaushitaki Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Kaushitaki Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "కౌషితకీ ఉపనిషద్ - సనాతన ధర్మంలో ఉపనిషద్ బోధనలు",
+      "description": "కౌషితకీ ఉపనిషత్ యొక్క అవలోకనం: ప్రధాన ఇతివృత్తాలు, ముఖ్య ఆలోచనలు మరియు ఆత్మ, బ్రహ్మ మరియు విముక్తిని అర్థం చేసుకోవడానికి ఈ ఉపనిషత్ ఎందుకు ముఖ్యమైనది.",
       "url": "https://sanatanadharmam.in/upanishads/kaushitaki-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "సనాతనధర్మం",
+      "type": "వ్యాసం",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_kaushitaki_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Kaushitaki Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Kaushitaki Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "వ్యాసం",
+      "name": "కౌషితకీ ఉపనిషద్ - సనాతన ధర్మంలో ఉపనిషద్ బోధనలు",
+      "description": "కౌషితకీ ఉపనిషత్ యొక్క అవలోకనం: ప్రధాన ఇతివృత్తాలు, ముఖ్య ఆలోచనలు మరియు ఆత్మ, బ్రహ్మ మరియు విముక్తిని అర్థం చేసుకోవడానికి ఈ ఉపనిషత్ ఎందుకు ముఖ్యమైనది.",
       "url": "https://sanatanadharmam.in/upanishads/kaushitaki-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "వెబ్‌సైట్",
+        "name": "సనాతనధర్మం",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Kaushitaki Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Kaushitaki Upanishad explores themes of life-breath, consciousness, and the inner basis of experience. It is often studied for its focus on the “inner ruler” perspective—what enables the faculties to operate.",
+    "introduction": "కౌషితకీ ఉపనిషత్తు ప్రధాన ఉపనిషత్తులలో ఒకటి-మానవ జీవితంలోని లోతైన ప్రశ్నలను అన్వేషించే గ్రంథాలు: నేను ఎవరు? అసలు ఏమిటి? నేనే (ఆత్మన్) మరియు అంతిమ వాస్తవికత (బ్రహ్మం) అంటే ఏమిటి?\n\nఉపనిషదిక్ బోధన తరచుగా సంభాషణ మరియు విచారణగా ప్రదర్శించబడుతుంది. ఒకే “నమ్మకాన్ని” అందించడం కంటే, ఇది శ్రద్ధ మరియు వివేచనకు శిక్షణనిస్తుంది, తద్వారా అన్వేషకుడు బయటి గుర్తింపు నుండి అంతర్గత సత్యానికి మారవచ్చు.\n\nకౌషితకీ ఉపనిషత్తు జీవ శ్వాస, స్పృహ మరియు అనుభవం యొక్క అంతర్గత ఆధారం యొక్క ఇతివృత్తాలను అన్వేషిస్తుంది. \"అంతర్గత పాలకుడు\" దృక్కోణంపై దృష్టి పెట్టడం కోసం ఇది తరచుగా అధ్యయనం చేయబడుతుంది-అధ్యాపకులు పనిచేయడానికి వీలు కల్పిస్తుంది.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Prana and awareness, the unity behind mental functions, and spiritual maturation through disciplined understanding."
+        "section": "సెంట్రల్ థీమ్స్",
+        "content": "ప్రాణం మరియు అవగాహన, మానసిక విధుల వెనుక ఐక్యత మరియు క్రమశిక్షణతో కూడిన అవగాహన ద్వారా ఆధ్యాత్మిక పరిపక్వత."
       },
       {
-        "section": "Practice reflection",
-        "content": "Instead of chasing experiences, return to the experiencer: the steady fact of awareness."
+        "section": "ప్రతిబింబాన్ని ప్రాక్టీస్ చేయండి",
+        "content": "అనుభవాలను వెంబడించే బదులు, అనుభవజ్ఞుడి వద్దకు తిరిగి వెళ్లండి: అవగాహన యొక్క స్థిరమైన వాస్తవం."
       }
     ],
-    "philosophical_explanation": "Kaushitaki teaches inwardness. When attention stabilizes at the source of experience, many anxieties lose their grip because they are seen as movements in mind—not the Self."
+    "philosophical_explanation": "కౌశితకి అంతరంగాన్ని బోధిస్తుంది. అనుభవం యొక్క మూలం వద్ద శ్రద్ధ స్థిరీకరించబడినప్పుడు, అనేక ఆందోళనలు వాటి పట్టును కోల్పోతాయి ఎందుకంటే అవి మనస్సులో కదలికలుగా కనిపిస్తాయి-నేనే కాదు."
   }
 }

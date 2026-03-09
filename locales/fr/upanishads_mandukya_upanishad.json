@@ -1,28 +1,28 @@
 {
   "upanishads_mandukya-upanishad": {
-    "title": "Mandukya Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Mandukya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Mandukya Upanishad – Enseignements Upanishad dans le Sanātana Dharma",
+    "description": "Aperçu de Mandukya Upanishad : thèmes centraux, idées clés et pourquoi cette Upanishad est importante pour la compréhension d'Atman, de Brahman et de la libération.",
     "meta": {
-      "title": "Mandukya Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Mandukya Upanishad – Enseignements Upanishad dans le Sanātana Dharma",
       "canonical": "https://sanatanadharmam.in/upanishads/mandukya-upanishad",
-      "description": "Overview of Mandukya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "Aperçu de Mandukya Upanishad : thèmes centraux, idées clés et pourquoi cette Upanishad est importante pour la compréhension d'Atman, de Brahman et de la libération.",
       "keywords": [
         "Mandukya Upanishad",
         "Upanishads",
-        "Vedanta",
+        "Védanta",
         "Atman",
         "Brahman",
         "Sanatana Dharma"
       ],
-      "robots": "index, follow",
+      "robots": "indexer, suivre",
       "url": "https://sanatanadharmam.in/upanishads/mandukya-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_mandukya_upanishad.png"
     },
     "openGraph": {
-      "title": "Mandukya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Mandukya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Mandukya Upanishad – Enseignements Upanishad dans le Sanātana Dharma",
+      "description": "Aperçu de Mandukya Upanishad : thèmes centraux, idées clés et pourquoi cette Upanishad est importante pour la compréhension d'Atman, de Brahman et de la libération.",
       "url": "https://sanatanadharmam.in/upanishads/mandukya-upanishad",
-      "siteName": "Sanatanadharmam",
+      "siteName": "Sanatanadharman",
       "type": "article",
       "images": [
         {
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Mandukya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Mandukya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "Articles",
+      "name": "Mandukya Upanishad – Enseignements Upanishad dans le Sanātana Dharma",
+      "description": "Aperçu de Mandukya Upanishad : thèmes centraux, idées clés et pourquoi cette Upanishad est importante pour la compréhension d'Atman, de Brahman et de la libération.",
       "url": "https://sanatanadharmam.in/upanishads/mandukya-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "Site Web",
+        "name": "Sanatanadharman",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Mandukya Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Mandukya Upanishad is concise yet profound. It analyzes experience through the states of waking, dreaming, and deep sleep, and points to a “fourth” (turiya) that underlies them all. It also uses AUM (Om) as a symbolic map of consciousness.",
+    "introduction": "Mandukya Upanishad est l'un des principaux Upanishads, des textes qui explorent les questions les plus profondes de la vie humaine : qui suis-je ? Qu'est-ce qui est réel ? Qu'est-ce que le Soi (Atman) et la réalité ultime (Brahman) ?\n\nL’enseignement upanishadique est souvent présenté comme un dialogue et une enquête. Plutôt que d’offrir une seule « croyance », il entraîne l’attention et le discernement afin qu’un chercheur puisse passer de l’identité extérieure à la vérité intérieure.\n\nLe Mandukya Upanishad est concis mais profond. Il analyse l’expérience à travers les états d’éveil, de rêve et de sommeil profond, et pointe vers un « quatrième » (turiya) qui les sous-tend tous. Il utilise également AUM (Om) comme carte symbolique de la conscience.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "States of consciousness, AUM as a contemplative symbol, and the recognition of a stable awareness beyond changing mental content."
+        "section": "Thèmes centraux",
+        "content": "États de conscience, AUM comme symbole contemplatif et reconnaissance d'une conscience stable au-delà du contenu mental changeant."
       },
       {
-        "section": "Practice reflection",
-        "content": "Meditative inquiry: notice that experiences change while the fact of awareness remains. This observation becomes a doorway into non-dual understanding."
+        "section": "Pratiquer la réflexion",
+        "content": "Enquête méditative : remarquez que les expériences changent alors que le fait de la conscience demeure. Cette observation devient une porte vers une compréhension non-duale."
       }
     ],
-    "philosophical_explanation": "Mandukya’s method is phenomenological: it studies lived experience. By observing the three states and their transitions, the seeker gains confidence that the Self is not limited to any one mode of mind."
+    "philosophical_explanation": "La méthode de Mandukya est phénoménologique : elle étudie l’expérience vécue. En observant les trois états et leurs transitions, le chercheur acquiert la certitude que le Soi n'est limité à aucun mode d'esprit."
   }
 }

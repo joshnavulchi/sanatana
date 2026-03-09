@@ -1,29 +1,29 @@
 {
   "upanishads_kaushitaki-upanishad": {
-    "title": "Kaushitaki Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Kaushitaki Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "كوشيتاكي أوبانيشاد – تعاليم الأوبنشاد في ساناتانا دارما",
+    "description": "نظرة عامة على Kaushitaki Upanishad: الموضوعات الأساسية، والأفكار الرئيسية، وسبب أهمية هذا الأوبنشاد لفهم عتمان، براهمان، والتحرير.",
     "meta": {
-      "title": "Kaushitaki Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "كوشيتاكي أوبانيشاد – تعاليم الأوبنشاد في ساناتانا دارما",
       "canonical": "https://sanatanadharmam.in/upanishads/kaushitaki-upanishad",
-      "description": "Overview of Kaushitaki Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "نظرة عامة على Kaushitaki Upanishad: الموضوعات الأساسية، والأفكار الرئيسية، وسبب أهمية هذا الأوبنشاد لفهم عتمان، براهمان، والتحرير.",
       "keywords": [
-        "Kaushitaki Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "كوشيتاكي أوبانيشاد",
+        "الأوبنشاد",
+        "فيدانتا",
+        "عتمان",
+        "براهمان",
+        "ساناتانا دارما"
       ],
-      "robots": "index, follow",
+      "robots": "الفهرس، اتبع",
       "url": "https://sanatanadharmam.in/upanishads/kaushitaki-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_kaushitaki_upanishad.png"
     },
     "openGraph": {
-      "title": "Kaushitaki Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Kaushitaki Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "كوشيتاكي أوبانيشاد – تعاليم الأوبنشاد في ساناتانا دارما",
+      "description": "نظرة عامة على Kaushitaki Upanishad: الموضوعات الأساسية، والأفكار الرئيسية، وسبب أهمية هذا الأوبنشاد لفهم عتمان، براهمان، والتحرير.",
       "url": "https://sanatanadharmam.in/upanishads/kaushitaki-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "ساناتانادارمام",
+      "type": "شرط",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_kaushitaki_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Kaushitaki Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Kaushitaki Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "شرط",
+      "name": "كوشيتاكي أوبانيشاد – تعاليم الأوبنشاد في ساناتانا دارما",
+      "description": "نظرة عامة على Kaushitaki Upanishad: الموضوعات الأساسية، والأفكار الرئيسية، وسبب أهمية هذا الأوبنشاد لفهم عتمان، براهمان، والتحرير.",
       "url": "https://sanatanadharmam.in/upanishads/kaushitaki-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "موقع إلكتروني",
+        "name": "ساناتانادارمام",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Kaushitaki Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Kaushitaki Upanishad explores themes of life-breath, consciousness, and the inner basis of experience. It is often studied for its focus on the “inner ruler” perspective—what enables the faculties to operate.",
+    "introduction": "يعد كوشيتاكي الأوبنشاد أحد الأوبنشاد الرئيسية - وهي النصوص التي تستكشف أعمق الأسئلة في حياة الإنسان: من أنا؟ ما هو الحقيقي؟ ما هي الذات (عتمان) والحقيقة النهائية (براهمان)؟\n\nغالبًا ما يتم تقديم التعليم الأوبنشادي على أنه حوار واستفسار. فبدلاً من تقديم \"معتقد\" واحد، فهو يدرب الانتباه والتمييز حتى يتمكن الباحث من الانتقال من الهوية الخارجية إلى الحقيقة الداخلية.\n\nيستكشف Kaushitaki Upanishad موضوعات نفس الحياة والوعي والأساس الداخلي للتجربة. غالبًا ما تتم دراستها لتركيزها على منظور \"الحاكم الداخلي\" - ما يمكّن الكليات من العمل.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Prana and awareness, the unity behind mental functions, and spiritual maturation through disciplined understanding."
+        "section": "المواضيع المركزية",
+        "content": "البرانا والوعي، والوحدة وراء الوظائف العقلية، والنضج الروحي من خلال الفهم المنضبط."
       },
       {
-        "section": "Practice reflection",
-        "content": "Instead of chasing experiences, return to the experiencer: the steady fact of awareness."
+        "section": "ممارسة التأمل",
+        "content": "بدلًا من مطاردة التجارب، عد إلى صاحب التجربة: حقيقة الوعي الثابتة."
       }
     ],
-    "philosophical_explanation": "Kaushitaki teaches inwardness. When attention stabilizes at the source of experience, many anxieties lose their grip because they are seen as movements in mind—not the Self."
+    "philosophical_explanation": "كوشيتاكي يعلم الباطنية. عندما يستقر الاهتمام في مصدر الخبرة، فإن العديد من المخاوف تفقد قبضتها لأنها تُرى على أنها حركات في العقل، وليس الذات."
   }
 }

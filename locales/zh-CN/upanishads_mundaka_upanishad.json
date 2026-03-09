@@ -1,29 +1,29 @@
 {
   "upanishads_mundaka-upanishad": {
-    "title": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Mundaka Upanishad – Sanātana Dharma 中的奥义书教义",
+    "description": "《蒙达卡奥义书》概述：核心主题、关键思想，以及为什么这部奥义书对于理解阿特曼、婆罗门和解放很重要。",
     "meta": {
-      "title": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Mundaka Upanishad – Sanātana Dharma 中的奥义书教义",
       "canonical": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
-      "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "《蒙达卡奥义书》概述：核心主题、关键思想，以及为什么这部奥义书对于理解阿特曼、婆罗门和解放很重要。",
       "keywords": [
-        "Mundaka Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "蒙达卡奥义书",
+        "奥义书",
+        "吠檀多",
+        "奥特曼",
+        "婆罗门",
+        "萨那塔那佛法"
       ],
-      "robots": "index, follow",
+      "robots": "索引，关注",
       "url": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_mundaka_upanishad.png"
     },
     "openGraph": {
-      "title": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Mundaka Upanishad – Sanātana Dharma 中的奥义书教义",
+      "description": "《蒙达卡奥义书》概述：核心主题、关键思想，以及为什么这部奥义书对于理解阿特曼、婆罗门和解放很重要。",
       "url": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "萨那塔达曼",
+      "type": "文章",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_mundaka_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "文章",
+      "name": "Mundaka Upanishad – Sanātana Dharma 中的奥义书教义",
+      "description": "《蒙达卡奥义书》概述：核心主题、关键思想，以及为什么这部奥义书对于理解阿特曼、婆罗门和解放很重要。",
       "url": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "网站",
+        "name": "萨那塔达曼",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Mundaka Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nA well-known teaching of the Mundaka Upanishad is the distinction between two kinds of knowledge: lower knowledge (skills, rituals, learning) and higher knowledge (direct realization of the imperishable reality).",
+    "introduction": "《蒙达卡奥义书》是主要的奥义书之一——探讨人类生活最深层问题的文本：我是谁？什么是真实的？什么是自我（Atman）和终极现实（Brahman）？\n\n奥义书教学通常以对话和探究的形式呈现。它不是提供单一的“信仰”，而是训练注意力和洞察力，以便寻求者能够从外在身份转向内在真理。\n\n《蒙达卡奥义书》的一个著名教义是两种知识之间的区别：较低的知识（技能、仪式、学习）和较高的知识（对不朽现实的直接认识）。",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Higher vs lower knowledge, renunciation and sincerity, the nature of Brahman, and the need for inner purification before subtle inquiry."
+        "section": "中心主题",
+        "content": "高知识与低知识、弃绝与真诚、婆罗门的本质，以及微妙探究之前内在净化的需要。"
       },
       {
-        "section": "Practice reflection",
-        "content": "The text encourages using learning as a support—but not mistaking it for realization. Inner integrity matters as much as study."
+        "section": "实践反思",
+        "content": "文本鼓励使用学习作为支持，但不要将其误认为是实现。内在的诚信与学习同样重要。"
       }
     ],
-    "philosophical_explanation": "Mundaka is a corrective for spiritual materialism: achievements and information are valuable, but liberation depends on seeing what does not change. It invites the seeker to turn from accumulation to clarity."
+    "philosophical_explanation": "蒙达卡是对精神唯物主义的纠正：成就和信息是有价值的，但解放取决于看到那些没有改变的东西。它邀请探索者从积累转向清晰。"
   }
 }

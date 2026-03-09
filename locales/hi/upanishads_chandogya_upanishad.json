@@ -1,29 +1,29 @@
 {
   "upanishads_chandogya-upanishad": {
-    "title": "Chandogya Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Chandogya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "छांदोग्य उपनिषद - सनातन धर्म में उपनिषद की शिक्षाएँ",
+    "description": "छान्दोग्य उपनिषद का अवलोकन: मुख्य विषय, प्रमुख विचार, और यह उपनिषद आत्मा, ब्रह्म और मुक्ति को समझने के लिए क्यों महत्वपूर्ण है।",
     "meta": {
-      "title": "Chandogya Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "छांदोग्य उपनिषद - सनातन धर्म में उपनिषद की शिक्षाएँ",
       "canonical": "https://sanatanadharmam.in/upanishads/chandogya-upanishad",
-      "description": "Overview of Chandogya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "छान्दोग्य उपनिषद का अवलोकन: मुख्य विषय, प्रमुख विचार, और यह उपनिषद आत्मा, ब्रह्म और मुक्ति को समझने के लिए क्यों महत्वपूर्ण है।",
       "keywords": [
-        "Chandogya Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "छांदोग्य उपनिषद",
+        "उपनिषद",
+        "वेदांत",
+        "आत्मा",
+        "ब्राह्मण",
+        "सनातन धर्म"
       ],
-      "robots": "index, follow",
+      "robots": "अनुक्रमणिका, अनुसरण करें",
       "url": "https://sanatanadharmam.in/upanishads/chandogya-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_chandogya_upanishad.png"
     },
     "openGraph": {
-      "title": "Chandogya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Chandogya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "छांदोग्य उपनिषद - सनातन धर्म में उपनिषद की शिक्षाएँ",
+      "description": "छान्दोग्य उपनिषद का अवलोकन: मुख्य विषय, प्रमुख विचार, और यह उपनिषद आत्मा, ब्रह्म और मुक्ति को समझने के लिए क्यों महत्वपूर्ण है।",
       "url": "https://sanatanadharmam.in/upanishads/chandogya-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "सनातनधर्मम्",
+      "type": "आलेख",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_chandogya_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Chandogya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Chandogya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "आलेख",
+      "name": "छांदोग्य उपनिषद - सनातन धर्म में उपनिषद की शिक्षाएँ",
+      "description": "छान्दोग्य उपनिषद का अवलोकन: मुख्य विषय, प्रमुख विचार, और यह उपनिषद आत्मा, ब्रह्म और मुक्ति को समझने के लिए क्यों महत्वपूर्ण है।",
       "url": "https://sanatanadharmam.in/upanishads/chandogya-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "वेबसाइट",
+        "name": "सनातनधर्मम्",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Chandogya Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Chandogya Upanishad is expansive and pedagogical, presenting many teachings through stories and analogies. It is especially known for its identity-oriented instruction: the seeker is guided to recognize the deepest Self beyond surface identity.",
+    "introduction": "छांदोग्य उपनिषद प्रमुख उपनिषदों में से एक है - ऐसे ग्रंथ जो मानव जीवन के सबसे गहरे सवालों का पता लगाते हैं: मैं कौन हूं? असली क्या है? स्व (आत्मान) और परम वास्तविकता (ब्राह्मण) क्या है?\n\nउपनिषद शिक्षण को अक्सर संवाद और पूछताछ के रूप में प्रस्तुत किया जाता है। एकल \"विश्वास\" की पेशकश करने के बजाय, यह ध्यान और विवेक को प्रशिक्षित करता है ताकि एक साधक बाहरी पहचान से आंतरिक सत्य की ओर बढ़ सके।\n\nछान्दोग्य उपनिषद विस्तृत और शैक्षणिक है, जो कहानियों और उपमाओं के माध्यम से कई शिक्षाएँ प्रस्तुत करता है। यह विशेष रूप से अपनी पहचान-उन्मुख निर्देश के लिए जाना जाता है: साधक को सतही पहचान से परे सबसे गहरे स्व को पहचानने के लिए निर्देशित किया जाता है।",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Inner identity, disciplined living, meditation on symbols and meaning, and the move from multiplicity toward unity."
+        "section": "केंद्रीय विषय",
+        "content": "आंतरिक पहचान, अनुशासित जीवन, प्रतीकों और अर्थों पर ध्यान, और अनेकता से एकता की ओर कदम।"
       },
       {
-        "section": "Learning style",
-        "content": "The text uses repeated instruction and everyday examples to turn abstract truth into direct recognition."
+        "section": "सीखने की शैली",
+        "content": "अमूर्त सत्य को प्रत्यक्ष मान्यता में बदलने के लिए पाठ बार-बार निर्देश और रोजमर्रा के उदाहरणों का उपयोग करता है।"
       }
     ],
-    "philosophical_explanation": "Chandogya is a classic bridge from ritual culture to contemplative insight. It teaches that liberation is not a new possession but a shift in recognition—seeing the Self as already whole."
+    "philosophical_explanation": "छांदोग्य अनुष्ठान संस्कृति से चिंतनशील अंतर्दृष्टि तक एक उत्कृष्ट पुल है। यह सिखाता है कि मुक्ति कोई नई संपत्ति नहीं है, बल्कि पहचान में बदलाव है - स्वयं को पहले से ही संपूर्ण देखना।"
   }
 }

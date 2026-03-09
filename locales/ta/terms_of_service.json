@@ -1,27 +1,27 @@
 {
   "terms_of_service": {
-    "title": "Terms of Service – Sanatanadharmam",
-    "description": "Read the Terms of Service for Sanatanadharmam.in outlining the rules, responsibilities, intellectual property rights, and acceptable use of this website.",
+    "title": "சேவை விதிமுறைகள் - சனாதனதர்மம்",
+    "description": "இந்த இணையதளத்தின் விதிகள், பொறுப்புகள், அறிவுசார் சொத்துரிமைகள் மற்றும் ஏற்றுக்கொள்ளக்கூடிய பயன்பாடு ஆகியவற்றைக் கோடிட்டுக் காட்டும் சனாதனதர்மம்.இன் சேவை விதிமுறைகளைப் படிக்கவும்.",
     "meta": {
-      "title": "Terms of Service – Sanatanadharmam",
+      "title": "சேவை விதிமுறைகள் - சனாதனதர்மம்",
       "canonical": "https://sanatanadharmam.in/terms-of-service",
-      "description": "Read the Terms of Service for Sanatanadharmam.in outlining the rules, responsibilities, intellectual property rights, and acceptable use of this website.",
+      "description": "இந்த இணையதளத்தின் விதிகள், பொறுப்புகள், அறிவுசார் சொத்துரிமைகள் மற்றும் ஏற்றுக்கொள்ளக்கூடிய பயன்பாடு ஆகியவற்றைக் கோடிட்டுக் காட்டும் சனாதனதர்மம்.இன் சேவை விதிமுறைகளைப் படிக்கவும்.",
       "keywords": [
-        "terms of service",
-        "website terms",
-        "user agreement",
-        "sanatanadharmam terms",
-        "website legal terms"
+        "சேவை விதிமுறைகள்",
+        "இணையதள விதிமுறைகள்",
+        "பயனர் ஒப்பந்தம்",
+        "சனாதனதர்மம் விதிமுறைகள்",
+        "வலைத்தளத்தின் சட்ட விதிமுறைகள்"
       ],
-      "robots": "index, follow",
+      "robots": "குறியீட்டு, பின்பற்றவும்",
       "url": "https://sanatanadharmam.in/terms-of-service"
     },
     "openGraph": {
-      "title": "Terms of Service – Sanatanadharmam",
-      "description": "Understand the rules, responsibilities, and legal terms governing the use of Sanatanadharmam.in.",
+      "title": "சேவை விதிமுறைகள் - சனாதனதர்மம்",
+      "description": "சனாதனதர்மம்.in இன் பயன்பாட்டை நிர்வகிக்கும் விதிகள், பொறுப்புகள் மற்றும் சட்ட விதிமுறைகளைப் புரிந்து கொள்ளுங்கள்.",
       "url": "https://sanatanadharmam.in/terms-of-service",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "சனாதனதர்மம்",
+      "type": "கட்டுரை",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/terms.png",
@@ -35,22 +35,22 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "WebPage",
-          "name": "Terms of Service",
+          "@type": "வலைப்பக்கம்",
+          "name": "சேவை விதிமுறைகள்",
           "url": "https://sanatanadharmam.in/terms-of-service",
           "isPartOf": {
-            "@type": "WebSite",
-            "name": "Sanatanadharmam",
+            "@type": "இணையத்தளம்",
+            "name": "சனாதனதர்மம்",
             "url": "https://sanatanadharmam.in"
           }
         },
         {
-          "@type": "TermsOfService",
-          "name": "Terms of Service",
+          "@type": "சேவை விதிமுறைகள்",
+          "name": "சேவை விதிமுறைகள்",
           "url": "https://sanatanadharmam.in/terms-of-service",
           "publisher": {
-            "@type": "Organization",
-            "name": "Sanatanadharmam",
+            "@type": "அமைப்பு",
+            "name": "சனாதனதர்மம்",
             "url": "https://sanatanadharmam.in",
             "logo": {
               "@type": "ImageObject",
@@ -60,61 +60,61 @@
         }
       ]
     },
-    "acceptancetitle": "1. Acceptance of Terms",
-    "closing": "By accessing and using Sanātana Dharma, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.",
+    "acceptancetitle": "1. விதிமுறைகளை ஏற்றுக்கொள்வது",
+    "closing": "சனாதன தர்மத்தை அணுகி, பயன்படுத்துவதன் மூலம், இந்த சேவை விதிமுறைகளுக்குக் கட்டுப்படுவதை நீங்கள் படித்து, புரிந்துகொண்டு, ஒப்புக்கொள்கிறீர்கள் என்பதை ஒப்புக்கொள்கிறீர்கள்.",
     "contactemail": "contact@sanatanadharmam.in",
     "contactemaillabel": "Email:",
     "contactphone": "+91-8099181075",
-    "contactphonelabel": "Phone:",
-    "contacttext": "If you have any questions about these Terms of Service, please contact us at:",
-    "contacttitle": "13. Contact Us",
+    "contactphonelabel": "தொலைபேசி:",
+    "contacttext": "இந்த சேவை விதிமுறைகள் பற்றி ஏதேனும் கேள்விகள் இருந்தால், தயவுசெய்து எங்களை தொடர்பு கொள்ளவும்:",
+    "contacttitle": "13. எங்களை தொடர்பு கொள்ளவும்",
     "contactwebsite": "https://sanatanadharmam.in",
-    "contactwebsitelabel": "Website:",
-    "disclaimerclosing": "We disclaim all warranties, including fitness for a particular purpose and non-infringement.",
+    "contactwebsitelabel": "இணையதளம்:",
+    "disclaimerclosing": "ஒரு குறிப்பிட்ட நோக்கத்திற்கான உடற்பயிற்சி மற்றும் மீறல் இல்லாதது உட்பட அனைத்து உத்தரவாதங்களையும் நாங்கள் மறுக்கிறோம்.",
     "disclaimerlist": {
-      "accuracy": "Accuracy, completeness, or timeliness of content",
-      "errors": "Freedom from errors or interruptions",
-      "functionality": "Website functionality or availability",
-      "quality": "Quality or suitability for any particular purpose"
+      "accuracy": "உள்ளடக்கத்தின் துல்லியம், முழுமை அல்லது நேரமின்மை",
+      "errors": "பிழைகள் அல்லது குறுக்கீடுகளிலிருந்து விடுதலை",
+      "functionality": "இணையதள செயல்பாடு அல்லது கிடைக்கும் தன்மை",
+      "quality": "எந்தவொரு குறிப்பிட்ட நோக்கத்திற்கும் தரம் அல்லது பொருத்தம்"
     },
-    "disclaimertext": "The website and all content are provided on an \"AS IS\" and \"AS AVAILABLE\" basis. We make no warranties, expressed or implied, regarding:",
-    "disclaimertitle": "5. Disclaimer of Warranties",
+    "disclaimertext": "இணையதளம் மற்றும் அனைத்து உள்ளடக்கங்களும் \"உள்ளபடி\" மற்றும் \"கிடைக்கக்கூடியவை\" அடிப்படையில் வழங்கப்படுகின்றன. இதைப் பற்றி வெளிப்படுத்திய அல்லது மறைமுகமாக நாங்கள் எந்த உத்தரவாதமும் செய்யவில்லை:",
+    "disclaimertitle": "5. உத்தரவாதங்களின் மறுப்பு",
     "externallinkstext": "Our website may contain links to third-party websites. We are not responsible for the content, accuracy, or practices of external websites.",
     "externallinkstitle": "7. External Links",
-    "governingtext": "These Terms of Service shall be governed by and construed in accordance with the laws of India, without regard to its conflict of law principles.",
-    "governingtitle": "11. Governing Law",
-    "indemnificationtext": "You agree to indemnify, defend, and hold harmless Sanātana Dharma and its officers, directors, employees, and agents from any claims arising from your use of the website or violation of these Terms of Service.",
-    "indemnificationtitle": "10. Indemnification",
-    "intellectualtext": "All content on the Sanātana Dharma website is the property of Sanātana Dharma or its content suppliers and is protected by international copyright laws.",
-    "intellectualtitle": "3. Intellectual Property Rights",
-    "intro": "By accessing and using the Sanātana Dharma website (sanatanadharmam.in), you agree to be bound by these Terms of Service.",
-    "lastupdated": "November 2025",
-    "liabilitytext": "To the maximum extent permitted by law, Sanātana Dharma shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use or inability to use the website.",
-    "liabilitytitle": "6. Limitation of Liability",
-    "modificationstext": "We reserve the right to modify these Terms of Service at any time. Changes will be effective immediately upon posting.",
-    "modificationstitle": "8. Modifications to Terms",
-    "severabilitytext": "If any provision of these Terms of Service is found to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.",
-    "severabilitytitle": "12. Severability",
-    "terminationtext": "We reserve the right to terminate or restrict your access to the website at any time, without notice or liability.",
-    "terminationtitle": "9. Termination",
+    "governingtext": "இந்த சேவை விதிமுறைகள் அதன் சட்டக் கோட்பாடுகளின் முரண்பாட்டைப் பொருட்படுத்தாமல், இந்தியாவின் சட்டங்களுக்கு இணங்க நிர்வகிக்கப்படும் மற்றும் நிர்வகிக்கப்படும்.",
+    "governingtitle": "11. ஆளும் சட்டம்",
+    "indemnificationtext": "நீங்கள் இணையதளத்தைப் பயன்படுத்துவதிலிருந்தோ அல்லது இந்த சேவை விதிமுறைகளை மீறுவதிலிருந்தோ எழும் எந்தவொரு உரிமைகோரல்களிலிருந்தும் சனாதன தர்மம் மற்றும் அதன் அதிகாரிகள், இயக்குநர்கள், பணியாளர்கள் மற்றும் முகவர்களுக்கு இழப்பீடு வழங்கவும், பாதுகாக்கவும், தடுக்கவும் ஒப்புக்கொள்கிறீர்கள்.",
+    "indemnificationtitle": "10. இழப்பீடு",
+    "intellectualtext": "சனாதன தர்ம இணையதளத்தில் உள்ள அனைத்து உள்ளடக்கங்களும் சனாதன தர்மம் அல்லது அதன் உள்ளடக்க வழங்குநர்களின் சொத்து மற்றும் சர்வதேச பதிப்புரிமைச் சட்டங்களால் பாதுகாக்கப்படுகிறது.",
+    "intellectualtitle": "3. அறிவுசார் சொத்துரிமைகள்",
+    "intro": "சனாதன தர்ம இணையதளத்தை (sanatanadharmam.in) அணுகி பயன்படுத்துவதன் மூலம், இந்த சேவை விதிமுறைகளுக்கு கட்டுப்படுவதை ஒப்புக்கொள்கிறீர்கள்.",
+    "lastupdated": "நவம்பர் 2025",
+    "liabilitytext": "சட்டத்தால் அனுமதிக்கப்பட்ட அதிகபட்ச அளவிற்கு, உங்கள் பயன்பாடு அல்லது இணையதளத்தைப் பயன்படுத்த இயலாமையால் ஏற்படும் மறைமுக, தற்செயலான, சிறப்பு, விளைவு அல்லது தண்டனைக்குரிய சேதங்களுக்கு சனாதன தர்மம் பொறுப்பேற்காது.",
+    "liabilitytitle": "6. பொறுப்பு வரம்பு",
+    "modificationstext": "இந்த சேவை விதிமுறைகளை எந்த நேரத்திலும் மாற்றுவதற்கான உரிமையை நாங்கள் பெற்றுள்ளோம். இடுகையிட்டவுடன் மாற்றங்கள் உடனடியாக நடைமுறைக்கு வரும்.",
+    "modificationstitle": "8. விதிமுறைகளில் மாற்றங்கள்",
+    "severabilitytext": "இந்த சேவை விதிமுறைகளில் ஏதேனும் விதிகள் செல்லாததாகவோ அல்லது செயல்படுத்த முடியாததாகவோ கண்டறியப்பட்டால், மீதமுள்ள விதிகள் முழுச் செயல்பாட்டிலும் நடைமுறையிலும் இருக்கும்.",
+    "severabilitytitle": "12. பிரித்தல்",
+    "terminationtext": "எந்த நேரத்திலும் அறிவிப்பு அல்லது பொறுப்பு இல்லாமல் இணையதளத்திற்கான உங்கள் அணுகலை நிறுத்தவோ அல்லது கட்டுப்படுத்தவோ எங்களுக்கு உரிமை உள்ளது.",
+    "terminationtitle": "9. முடித்தல்",
     "uselicenselist": {
-      "copying": "Copying or downloading content for commercial purposes",
-      "interfering": "Interfering with website functionality or user experience",
-      "modification": "Modification of website content",
-      "reverseengineering": "Reverse engineering or attempting to extract source code",
-      "unauthorizedaccess": "Attempting to gain unauthorized access to the website or its systems"
+      "copying": "வணிக நோக்கங்களுக்காக உள்ளடக்கத்தை நகலெடுப்பது அல்லது பதிவிறக்குவது",
+      "interfering": "இணையதள செயல்பாடு அல்லது பயனர் அனுபவத்தில் குறுக்கிடுகிறது",
+      "modification": "வலைத்தள உள்ளடக்கத்தை மாற்றியமைத்தல்",
+      "reverseengineering": "தலைகீழ் பொறியியல் அல்லது மூலக் குறியீட்டைப் பிரித்தெடுக்க முயற்சிக்கிறது",
+      "unauthorizedaccess": "இணையதளம் அல்லது அதன் அமைப்புகளுக்கு அங்கீகரிக்கப்படாத அணுகலைப் பெற முயற்சிக்கிறது"
     },
-    "uselicensetext": "We grant you a limited, non-exclusive, revocable license to access and use the website for personal, non-commercial purposes. This license does not include:",
-    "uselicensetitle": "2. Use License",
-    "userconductintro": "When using the website, you agree not to:",
+    "uselicensetext": "தனிப்பட்ட, வணிக நோக்கங்களுக்காக இணையதளத்தை அணுகவும் பயன்படுத்தவும் வரையறுக்கப்பட்ட, பிரத்தியேகமற்ற, திரும்பப்பெறக்கூடிய உரிமத்தை நாங்கள் உங்களுக்கு வழங்குகிறோம். இந்த உரிமத்தில் பின்வருவன அடங்கும்:",
+    "uselicensetitle": "2. உரிமத்தைப் பயன்படுத்தவும்",
+    "userconductintro": "இணையதளத்தைப் பயன்படுத்தும் போது, ​​வேண்டாம் என்று ஒப்புக்கொள்கிறீர்கள்:",
     "userconductlist": {
-      "bypass": "Attempt to access restricted areas or bypass security measures",
-      "harassment": "Engage in harassment or discrimination",
-      "malware": "Transmit viruses, malware, or any code intended to harm the website",
-      "spam": "Spam or engage in unauthorized marketing activities",
-      "unlawful": "Post or transmit any unlawful, threatening, or abusive content",
-      "violatelaw": "Violate any laws or regulations"
+      "bypass": "தடைசெய்யப்பட்ட பகுதிகளை அணுக அல்லது பாதுகாப்பு நடவடிக்கைகளை புறக்கணிக்க முயற்சி",
+      "harassment": "துன்புறுத்தல் அல்லது பாகுபாடுகளில் ஈடுபடுங்கள்",
+      "malware": "வைரஸ்கள், தீம்பொருள் அல்லது இணையதளத்திற்கு தீங்கு விளைவிக்கும் எந்த குறியீட்டையும் அனுப்பவும்",
+      "spam": "ஸ்பேம் அல்லது அங்கீகரிக்கப்படாத சந்தைப்படுத்தல் நடவடிக்கைகளில் ஈடுபடுதல்",
+      "unlawful": "எந்தவொரு சட்டவிரோத, அச்சுறுத்தும் அல்லது தவறான உள்ளடக்கத்தை இடுகையிடவும் அல்லது அனுப்பவும்",
+      "violatelaw": "ஏதேனும் சட்டங்கள் அல்லது விதிமுறைகளை மீறுங்கள்"
     },
-    "userconducttitle": "4. User Conduct"
+    "userconducttitle": "4. பயனர் நடத்தை"
   }
 }

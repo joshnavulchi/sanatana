@@ -1,29 +1,29 @@
 {
   "upanishads": {
     "title": "108 Upanishads",
-    "description": "The 108 Upanishads are sacred philosophical texts of Sanatana Dharma exploring Brahman, Atman, liberation and ultimate reality.",
+    "description": "Os 108 Upanishads são textos filosóficos sagrados do Sanatana Dharma que exploram Brahman, Atman, libertação e realidade última.",
     "meta": {
-      "title": "108 Upanishads – Teachings on Brahman and Renunciation",
+      "title": "108 Upanishads – Ensinamentos sobre Brahman e Renúncia",
       "canonical": "https://sanatanadharmam.in/upanishads/isha",
-      "description": "The Isha Upanishad from the Shukla Yajurveda explores the unity of Atman and Brahman, renunciation, and the spiritual philosophy of Sanatana Dharma.",
+      "description": "O Isha Upanishad do Shukla Yajurveda explora a unidade de Atman e Brahman, a renúncia e a filosofia espiritual do Sanatana Dharma.",
       "keywords": [
         "108 Upanishads",
         "Isha Upanishad",
-        "Upanishads philosophy",
-        "Vedanta teachings",
-        "Atman and Brahman",
-        "Vedic scriptures",
-        "Sanatana Dharma Upanishads"
+        "Filosofia dos Upanishads",
+        "Ensinamentos do Vedanta",
+        "Atman e Brahman",
+        "Escrituras védicas",
+        "Upanishads Sanatana Dharma"
       ],
-      "robots": "index, follow",
+      "robots": "índice, siga",
       "url": "https://sanatanadharmam.in/upanishads/isha"
     },
     "openGraph": {
-      "title": "Isha Upanishad – Sacred Vedantic Text",
-      "description": "Explore the teachings of the Isha Upanishad discussing Brahman, Atman and renunciation in the Vedic tradition.",
+      "title": "Isha Upanishad – Texto Vedântico Sagrado",
+      "description": "Explore os ensinamentos do Isha Upanishad discutindo Brahman, Atman e renúncia na tradição védica.",
       "url": "https://sanatanadharmam.in/upanishads/isha",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "Sanatanadharm",
+      "type": "artigo",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads-isha.png",
@@ -37,28 +37,23 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "Book",
+          "@type": "Livro",
           "name": "Isha Upanishad",
           "isPartOf": {
-            "@type": "Book",
+            "@type": "Livro",
             "name": "Upanishads"
           },
-          "inLanguage": "Sanskrit",
-          "about": [
-            "Vedanta philosophy",
-            "Atman",
-            "Brahman",
-            "Sanatana Dharma"
-          ],
+          "inLanguage": "Sânscrito",
+          "about": ["Filosofia Vedanta", "Atman", "Brahman", "Sanatana Dharma"],
           "url": "https://sanatanadharmam.in/upanishads/isha"
         },
         {
-          "@type": "Article",
-          "headline": "Isha Upanishad – Teachings on Brahman and Renunciation",
+          "@type": "Artigo",
+          "headline": "Isha Upanishad – Ensinamentos sobre Brahman e Renúncia",
           "about": ["Upanishads", "Vedanta", "Brahman", "Atman"],
           "isPartOf": {
-            "@type": "WebSite",
-            "name": "Sanatanadharmam",
+            "@type": "Site",
+            "name": "Sanatanadharm",
             "url": "https://sanatanadharmam.in"
           }
         }
@@ -82,7 +77,7 @@
         "Isha",
         "Brihadaranyaka",
         "Jabala",
-        "Hamsa",
+        "Hamsá",
         "Paramahamsa",
         "Subala",
         "Mantrika",
@@ -90,7 +85,7 @@
         "Trishikhi Brahmana",
         "Mandala Brahmana",
         "Advayataraka",
-        "Paingala",
+        "Painala",
         "Bhikshuka",
         "Turiyatita",
         "Adhyatma",
@@ -104,7 +99,7 @@
         "Taittiriya",
         "Brahma",
         "Kaivalya",
-        "Shvetashvatara",
+        "Shvetashvatar",
         "Garbh",
         "Narayana",
         "Amritabindu",
@@ -126,7 +121,7 @@
         "Avadhuta",
         "Katharudra",
         "Rudrahridaya",
-        "Yoga Kundalini",
+        "Ioga Kundalini",
         "Panchabrahma",
         "Pranagnihotra",
         "Varaha",
@@ -144,7 +139,7 @@
         "Vasudeva",
         "Mahat",
         "Sannyasa",
-        "Avyakta",
+        "Aviakta",
         "Kundika",
         "Savitri",
         "Rudraksha",
@@ -153,7 +148,7 @@
       ],
       "atharvaveda": [
         "Prashna",
-        "Mundaka",
+        "Mundaca",
         "Mandukya",
         "Atharvashira",
         "Atharvashikha",
@@ -167,12 +162,12 @@
         "Rama Rahasya",
         "Rama Uttara",
         "Gopala Tapini",
-        "Krishna",
+        "Krsna",
         "Hayagriva",
         "Dattatreya",
         "Garuda",
         "Kali Santarana",
-        "Bhavana",
+        "Bavana",
         "Rudra",
         "Sannyasa",
         "Paramahamsa Parivrajaka",

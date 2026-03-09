@@ -1,11 +1,11 @@
 {
   "upanishads_prashna-upanishad": {
-    "title": "Prashna Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Prashna Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Prashna Upanishad – Ensinamentos do Upanishad no Sanātana Dharma",
+    "description": "Visão geral do Prashna Upanishad: temas centrais, ideias-chave e por que este Upanishad é importante para a compreensão de Atman, Brahman e a libertação.",
     "meta": {
-      "title": "Prashna Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Prashna Upanishad – Ensinamentos do Upanishad no Sanātana Dharma",
       "canonical": "https://sanatanadharmam.in/upanishads/prashna-upanishad",
-      "description": "Overview of Prashna Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "Visão geral do Prashna Upanishad: temas centrais, ideias-chave e por que este Upanishad é importante para a compreensão de Atman, Brahman e a libertação.",
       "keywords": [
         "Prashna Upanishad",
         "Upanishads",
@@ -14,16 +14,16 @@
         "Brahman",
         "Sanatana Dharma"
       ],
-      "robots": "index, follow",
+      "robots": "índice, siga",
       "url": "https://sanatanadharmam.in/upanishads/prashna-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_prashna_upanishad.png"
     },
     "openGraph": {
-      "title": "Prashna Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Prashna Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Prashna Upanishad – Ensinamentos do Upanishad no Sanātana Dharma",
+      "description": "Visão geral do Prashna Upanishad: temas centrais, ideias-chave e por que este Upanishad é importante para a compreensão de Atman, Brahman e a libertação.",
       "url": "https://sanatanadharmam.in/upanishads/prashna-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "Sanatanadharm",
+      "type": "artigo",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_prashna_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Prashna Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Prashna Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "Artigo",
+      "name": "Prashna Upanishad – Ensinamentos do Upanishad no Sanātana Dharma",
+      "description": "Visão geral do Prashna Upanishad: temas centrais, ideias-chave e por que este Upanishad é importante para a compreensão de Atman, Brahman e a libertação.",
       "url": "https://sanatanadharmam.in/upanishads/prashna-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "Site",
+        "name": "Sanatanadharm",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Prashna Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nPrashna means “question”. This Upanishad is structured around a set of inquiries by sincere students. The format emphasizes that wisdom grows through clear questions, disciplined living, and patient reasoning.",
+    "introduction": "Prashna Upanishad é um dos principais Upanishads – textos que exploram as questões mais profundas da vida humana: Quem sou eu? O que é real? O que é o Ser (Atman) e a realidade última (Brahman)?\n\nO ensino Upanishad é frequentemente apresentado como diálogo e investigação. Em vez de oferecer uma única “crença”, treina a atenção e o discernimento para que quem busca possa passar da identidade exterior para a verdade interior.\n\nPrashna significa “pergunta”. Este Upanishad está estruturado em torno de um conjunto de perguntas feitas por estudantes sinceros. O formato enfatiza que a sabedoria cresce através de perguntas claras, vida disciplinada e raciocínio paciente.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Life-breath (prana), the powers of perception, the relationship between body and mind, meditation, and the foundations of a stable inner life."
+        "section": "Temas centrais",
+        "content": "Respiração vital (prana), os poderes de percepção, a relação entre corpo e mente, meditação e os fundamentos de uma vida interior estável."
       },
       {
-        "section": "Learning method",
-        "content": "The question-and-answer structure models a respectful pedagogy: ask precisely, listen carefully, test understanding, and integrate through practice."
+        "section": "Método de aprendizagem",
+        "content": "A estrutura de perguntas e respostas modela uma pedagogia respeitosa: pergunte com precisão, ouça com atenção, teste a compreensão e integre através da prática."
       }
     ],
-    "philosophical_explanation": "Prashna connects philosophy to physiology and psychology: mind is not separate from life-energy and disciplined habits. By understanding prana and the workings of attention, the seeker learns how to stabilize the inner instrument for contemplation."
+    "philosophical_explanation": "Prashna conecta a filosofia à fisiologia e à psicologia: a mente não está separada da energia vital e dos hábitos disciplinados. Ao compreender o prana e o funcionamento da atenção, o buscador aprende como estabilizar o instrumento interno para a contemplação."
   }
 }

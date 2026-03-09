@@ -1,29 +1,29 @@
 {
   "upanishads_taittiriya-upanishad": {
-    "title": "Taittiriya Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Taittiriya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Taittiriya Upanishad – تعاليم الأوبنشاد في ساناتانا دارما",
+    "description": "نظرة عامة على Taittiriya Upanishad: الموضوعات الأساسية، والأفكار الرئيسية، وسبب أهمية هذا الأوبنشاد لفهم عتمان، براهمان، والتحرير.",
     "meta": {
-      "title": "Taittiriya Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Taittiriya Upanishad – تعاليم الأوبنشاد في ساناتانا دارما",
       "canonical": "https://sanatanadharmam.in/upanishads/taittiriya-upanishad",
-      "description": "Overview of Taittiriya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "نظرة عامة على Taittiriya Upanishad: الموضوعات الأساسية، والأفكار الرئيسية، وسبب أهمية هذا الأوبنشاد لفهم عتمان، براهمان، والتحرير.",
       "keywords": [
-        "Taittiriya Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "تيتيريا أوبانيشاد",
+        "الأوبنشاد",
+        "فيدانتا",
+        "عتمان",
+        "براهمان",
+        "ساناتانا دارما"
       ],
-      "robots": "index, follow",
+      "robots": "الفهرس، اتبع",
       "url": "https://sanatanadharmam.in/upanishads/taittiriya-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_taittiriya_upanishad.png"
     },
     "openGraph": {
-      "title": "Taittiriya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Taittiriya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Taittiriya Upanishad – تعاليم الأوبنشاد في ساناتانا دارما",
+      "description": "نظرة عامة على Taittiriya Upanishad: الموضوعات الأساسية، والأفكار الرئيسية، وسبب أهمية هذا الأوبنشاد لفهم عتمان، براهمان، والتحرير.",
       "url": "https://sanatanadharmam.in/upanishads/taittiriya-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "ساناتانادارمام",
+      "type": "شرط",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_taittiriya_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Taittiriya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Taittiriya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "شرط",
+      "name": "Taittiriya Upanishad – تعاليم الأوبنشاد في ساناتانا دارما",
+      "description": "نظرة عامة على Taittiriya Upanishad: الموضوعات الأساسية، والأفكار الرئيسية، وسبب أهمية هذا الأوبنشاد لفهم عتمان، براهمان، والتحرير.",
       "url": "https://sanatanadharmam.in/upanishads/taittiriya-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "موقع إلكتروني",
+        "name": "ساناتانادارمام",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Taittiriya Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Taittiriya Upanishad is known for its layered approach to the human being—often explained through “sheaths” (koshas), moving from the physical to the subtle, culminating in the dimension of bliss (ananda).",
+    "introduction": "Taittiriya Upanishad هي واحدة من الأوبنشاد الرئيسية - النصوص التي تستكشف أعمق أسئلة الحياة البشرية: من أنا؟ ما هو الحقيقي؟ ما هي الذات (عتمان) والحقيقة النهائية (براهمان)؟\n\nغالبًا ما يتم تقديم التعليم الأوبنشادي على أنه حوار واستفسار. فبدلاً من تقديم \"معتقد\" واحد، فهو يدرب الانتباه والتمييز حتى يتمكن الباحث من الانتقال من الهوية الخارجية إلى الحقيقة الداخلية.\n\nيُعرف Taittiriya Upanishad بمقاربته المتعددة الطبقات للإنسان - والتي غالبًا ما يتم شرحها من خلال \"الأغماد\" (koshas)، والانتقال من الجسدي إلى الخفي، وبلغت ذروتها في بُعد النعيم (أناندا).",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Education and discipline, the kosha model, the nature of bliss, gratitude, and living with integrity."
+        "section": "المواضيع المركزية",
+        "content": "التعليم والانضباط، نموذج الكوشة، طبيعة النعيم والامتنان والعيش بنزاهة."
       },
       {
-        "section": "Practice reflection",
-        "content": "The text connects knowledge with character: truthful speech, responsible conduct, and respect for learning are presented as spiritual foundations."
+        "section": "ممارسة التأمل",
+        "content": "يربط النص المعرفة بالشخصية: يتم تقديم الكلام الصادق والسلوك المسؤول واحترام التعلم كأساس روحي."
       }
     ],
-    "philosophical_explanation": "Taittiriya links philosophy to formation: the mind becomes fit for truth through ethical refinement. The kosha framework prevents reductionism by showing that “self” is often misidentified with layers of experience rather than awareness itself."
+    "philosophical_explanation": "يربط التيتيريا الفلسفة بالتكوين: يصبح العقل صالحًا للحقيقة من خلال التهذيب الأخلاقي. يمنع إطار الكوشا الاختزال من خلال إظهار أن \"الذات\" غالبًا ما يتم تعريفها بشكل خاطئ من خلال طبقات من الخبرة بدلاً من الوعي نفسه."
   }
 }

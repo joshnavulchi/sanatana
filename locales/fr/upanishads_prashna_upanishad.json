@@ -1,28 +1,28 @@
 {
   "upanishads_prashna-upanishad": {
-    "title": "Prashna Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Prashna Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Prashna Upanishad – Enseignements Upanishad dans le Sanātana Dharma",
+    "description": "Aperçu de Prashna Upanishad : thèmes centraux, idées clés et pourquoi cette Upanishad est importante pour la compréhension d'Atman, de Brahman et de la libération.",
     "meta": {
-      "title": "Prashna Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Prashna Upanishad – Enseignements Upanishad dans le Sanātana Dharma",
       "canonical": "https://sanatanadharmam.in/upanishads/prashna-upanishad",
-      "description": "Overview of Prashna Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "Aperçu de Prashna Upanishad : thèmes centraux, idées clés et pourquoi cette Upanishad est importante pour la compréhension d'Atman, de Brahman et de la libération.",
       "keywords": [
         "Prashna Upanishad",
         "Upanishads",
-        "Vedanta",
+        "Védanta",
         "Atman",
         "Brahman",
         "Sanatana Dharma"
       ],
-      "robots": "index, follow",
+      "robots": "indexer, suivre",
       "url": "https://sanatanadharmam.in/upanishads/prashna-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_prashna_upanishad.png"
     },
     "openGraph": {
-      "title": "Prashna Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Prashna Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Prashna Upanishad – Enseignements Upanishad dans le Sanātana Dharma",
+      "description": "Aperçu de Prashna Upanishad : thèmes centraux, idées clés et pourquoi cette Upanishad est importante pour la compréhension d'Atman, de Brahman et de la libération.",
       "url": "https://sanatanadharmam.in/upanishads/prashna-upanishad",
-      "siteName": "Sanatanadharmam",
+      "siteName": "Sanatanadharman",
       "type": "article",
       "images": [
         {
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Prashna Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Prashna Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "Articles",
+      "name": "Prashna Upanishad – Enseignements Upanishad dans le Sanātana Dharma",
+      "description": "Aperçu de Prashna Upanishad : thèmes centraux, idées clés et pourquoi cette Upanishad est importante pour la compréhension d'Atman, de Brahman et de la libération.",
       "url": "https://sanatanadharmam.in/upanishads/prashna-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "Site Web",
+        "name": "Sanatanadharman",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Prashna Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nPrashna means “question”. This Upanishad is structured around a set of inquiries by sincere students. The format emphasizes that wisdom grows through clear questions, disciplined living, and patient reasoning.",
+    "introduction": "Prashna Upanishad est l'un des principaux Upanishads, des textes qui explorent les questions les plus profondes de la vie humaine : qui suis-je ? Qu'est-ce qui est réel ? Qu'est-ce que le Soi (Atman) et la réalité ultime (Brahman) ?\n\nL’enseignement upanishadique est souvent présenté comme un dialogue et une enquête. Plutôt que d’offrir une seule « croyance », il entraîne l’attention et le discernement afin qu’un chercheur puisse passer de l’identité extérieure à la vérité intérieure.\n\nPrashna signifie « question ». Cette Upanishad est structurée autour d’un ensemble d’enquêtes menées par des étudiants sincères. Le format souligne que la sagesse grandit grâce à des questions claires, une vie disciplinée et un raisonnement patient.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Life-breath (prana), the powers of perception, the relationship between body and mind, meditation, and the foundations of a stable inner life."
+        "section": "Thèmes centraux",
+        "content": "Le souffle de vie (prana), les pouvoirs de perception, la relation entre le corps et l'esprit, la méditation et les fondements d'une vie intérieure stable."
       },
       {
-        "section": "Learning method",
-        "content": "The question-and-answer structure models a respectful pedagogy: ask precisely, listen carefully, test understanding, and integrate through practice."
+        "section": "Méthode d'apprentissage",
+        "content": "La structure de questions et réponses modèle une pédagogie respectueuse : demander avec précision, écouter attentivement, tester la compréhension et intégrer par la pratique."
       }
     ],
-    "philosophical_explanation": "Prashna connects philosophy to physiology and psychology: mind is not separate from life-energy and disciplined habits. By understanding prana and the workings of attention, the seeker learns how to stabilize the inner instrument for contemplation."
+    "philosophical_explanation": "Prashna relie la philosophie à la physiologie et à la psychologie : l'esprit n'est pas séparé de l'énergie vitale et des habitudes disciplinées. En comprenant le prana et le fonctionnement de l'attention, le chercheur apprend à stabiliser l'instrument intérieur de contemplation."
   }
 }

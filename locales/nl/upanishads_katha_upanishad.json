@@ -1,29 +1,29 @@
 {
   "upanishads_katha-upanishad": {
-    "title": "Katha Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Katha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Katha Upanishad - Upanishad-leringen in Sanātana Dharma",
+    "description": "Overzicht van Katha Upanishad: kernthema's, sleutelideeën en waarom deze Upanishad belangrijk is voor het begrijpen van Atman, Brahman en bevrijding.",
     "meta": {
-      "title": "Katha Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Katha Upanishad - Upanishad-leringen in Sanātana Dharma",
       "canonical": "https://sanatanadharmam.in/upanishads/katha-upanishad",
-      "description": "Overview of Katha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "Overzicht van Katha Upanishad: kernthema's, sleutelideeën en waarom deze Upanishad belangrijk is voor het begrijpen van Atman, Brahman en bevrijding.",
       "keywords": [
         "Katha Upanishad",
         "Upanishads",
         "Vedanta",
         "Atman",
-        "Brahman",
+        "brahmaan",
         "Sanatana Dharma"
       ],
-      "robots": "index, follow",
+      "robots": "indexeren, volgen",
       "url": "https://sanatanadharmam.in/upanishads/katha-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_katha_upanishad.png"
     },
     "openGraph": {
-      "title": "Katha Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Katha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Katha Upanishad - Upanishad-leringen in Sanātana Dharma",
+      "description": "Overzicht van Katha Upanishad: kernthema's, sleutelideeën en waarom deze Upanishad belangrijk is voor het begrijpen van Atman, Brahman en bevrijding.",
       "url": "https://sanatanadharmam.in/upanishads/katha-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "Sanatanadharam",
+      "type": "artikel",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_katha_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Katha Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Katha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "Artikel",
+      "name": "Katha Upanishad - Upanishad-leringen in Sanātana Dharma",
+      "description": "Overzicht van Katha Upanishad: kernthema's, sleutelideeën en waarom deze Upanishad belangrijk is voor het begrijpen van Atman, Brahman en bevrijding.",
       "url": "https://sanatanadharmam.in/upanishads/katha-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "Website",
+        "name": "Sanatanadharam",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Katha Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Katha Upanishad is famed for the story of Nachiketa, who meets Yama (the lord of death). Through this encounter it explores the choice between the pleasant and the good, and the quest for what does not perish.",
+    "introduction": "Katha Upanishad is een van de belangrijkste Upanishads – teksten die de diepste vragen van het menselijk leven onderzoeken: Wie ben ik? Wat is echt? Wat is het Zelf (Atman) en de ultieme realiteit (Brahman)?\n\nUpanishadische leer wordt vaak gepresenteerd als dialoog en onderzoek. In plaats van één enkele ‘overtuiging’ aan te bieden, traint het aandacht en onderscheidingsvermogen, zodat een zoeker van uiterlijke identiteit naar innerlijke waarheid kan gaan.\n\nDe Katha Upanishad is beroemd om het verhaal van Nachiketa, die Yama (de heer van de dood) ontmoet. Door deze ontmoeting onderzoekt het de keuze tussen het aangename en het goede, en de zoektocht naar wat niet vergaat.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Discernment between short-term pleasure and lasting good, the immortality of the Self, discipline of the senses, and the “chariot” metaphor for mind and body."
+        "section": "Centrale thema's",
+        "content": "Onderscheid tussen plezier op de korte termijn en blijvend goed, de onsterfelijkheid van het Zelf, discipline van de zintuigen en de ‘wagen’-metafoor voor lichaam en geest."
       },
       {
-        "section": "Practice reflection",
-        "content": "The text highlights self-mastery: when senses and mind are guided by inner intelligence, the seeker becomes fit for deeper knowledge."
+        "section": "Oefen met reflectie",
+        "content": "De tekst benadrukt zelfbeheersing: wanneer zintuigen en geest worden geleid door innerlijke intelligentie, wordt de zoeker geschikt voor diepere kennis."
       }
     ],
-    "philosophical_explanation": "Katha brings philosophy into daily decision-making: what you repeatedly choose becomes your character. By choosing the “good” over the merely pleasant, you cultivate the steadiness required to recognize the Self beyond fear, change, and death."
+    "philosophical_explanation": "Katha brengt filosofie in de dagelijkse besluitvorming: wat je herhaaldelijk kiest, wordt je karakter. Door het ‘goede’ boven het louter aangename te verkiezen, cultiveer je de standvastigheid die nodig is om het Zelf te herkennen voorbij angst, verandering en dood."
   }
 }

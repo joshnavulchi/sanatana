@@ -1,29 +1,29 @@
 {
   "upanishads_shvetashvatara-upanishad": {
-    "title": "Shvetashvatara Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Shvetashvatara Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Shvetashvatara Upanishad – Sanātana Dharma 中的奥义书教义",
+    "description": "《Shvetashvatara 奥义书》概述：核心主题、关键思想，以及为什么这本奥义书对于理解阿特曼、婆罗门和解放很重要。",
     "meta": {
-      "title": "Shvetashvatara Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Shvetashvatara Upanishad – Sanātana Dharma 中的奥义书教义",
       "canonical": "https://sanatanadharmam.in/upanishads/shvetashvatara-upanishad",
-      "description": "Overview of Shvetashvatara Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "《Shvetashvatara 奥义书》概述：核心主题、关键思想，以及为什么这本奥义书对于理解阿特曼、婆罗门和解放很重要。",
       "keywords": [
-        "Shvetashvatara Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "什维塔什瓦塔拉奥义书",
+        "奥义书",
+        "吠檀多",
+        "奥特曼",
+        "婆罗门",
+        "萨那塔那佛法"
       ],
-      "robots": "index, follow",
+      "robots": "索引，关注",
       "url": "https://sanatanadharmam.in/upanishads/shvetashvatara-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_shvetashvatara_upanishad.png"
     },
     "openGraph": {
-      "title": "Shvetashvatara Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Shvetashvatara Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Shvetashvatara Upanishad – Sanātana Dharma 中的奥义书教义",
+      "description": "《Shvetashvatara 奥义书》概述：核心主题、关键思想，以及为什么这本奥义书对于理解阿特曼、婆罗门和解放很重要。",
       "url": "https://sanatanadharmam.in/upanishads/shvetashvatara-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "萨那塔达曼",
+      "type": "文章",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_shvetashvatara_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Shvetashvatara Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Shvetashvatara Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "文章",
+      "name": "Shvetashvatara Upanishad – Sanātana Dharma 中的奥义书教义",
+      "description": "《Shvetashvatara 奥义书》概述：核心主题、关键思想，以及为什么这本奥义书对于理解阿特曼、婆罗门和解放很重要。",
       "url": "https://sanatanadharmam.in/upanishads/shvetashvatara-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "网站",
+        "name": "萨那塔达曼",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Shvetashvatara Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Shvetashvatara Upanishad brings together contemplative inquiry with a strong theistic-devotional tone. It explores the nature of the ultimate reality and the path of inner discipline, often using language of devotion and reverence.",
+    "introduction": "《Shvetashvatara Upanishad》是主要的《奥义书》之一——探索人类生活最深层问题的文本：我是谁？什么是真实的？什么是自我（Atman）和终极现实（Brahman）？\n\n奥义书教学通常以对话和探究的形式呈现。它不是提供单一的“信仰”，而是训练注意力和洞察力，以便寻求者能够从外在身份转向内在真理。\n\n《Shvetashvatara Upanishad》将沉思探究与强烈的有神论虔诚的基调结合在一起。它探索最终现实的本质和内在纪律的道路，经常使用奉献和敬畏的语言。",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "The nature of the divine reality, yoga and meditation, the role of grace and devotion, and liberation through knowledge and inner discipline."
+        "section": "中心主题",
+        "content": "神圣现实的本质、瑜伽和冥想、恩典和奉献的作用，以及通过知识和内在纪律的解放。"
       },
       {
-        "section": "Practice reflection",
-        "content": "The text points toward steadiness: regulate the mind, refine desire, and let devotion soften the heart so insight can arise."
+        "section": "实践反思",
+        "content": "经文指向稳定：调心、净化欲望、以虔敬心软化内心，从而生起洞察力。"
       }
     ],
-    "philosophical_explanation": "Shvetashvatara is helpful for seekers who want both devotion and philosophy. It frames liberation not as mere intellectual conclusion, but as transformation—where meditation, ethics, and reverence cooperate to reveal truth."
+    "philosophical_explanation": "Shvetashvatara 对于想要奉献和哲学的寻求者很有帮助。它将解放不仅仅视为智力结论，而且视为转变——冥想、道德和敬畏共同揭示真理。"
   }
 }

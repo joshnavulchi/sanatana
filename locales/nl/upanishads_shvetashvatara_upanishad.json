@@ -1,29 +1,29 @@
 {
   "upanishads_shvetashvatara-upanishad": {
-    "title": "Shvetashvatara Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Shvetashvatara Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Shvetashvatara Upanishad - Upanishad-leringen in Sanātana Dharma",
+    "description": "Overzicht van Shvetashvatara Upanishad: kernthema's, sleutelideeën en waarom deze Upanishad belangrijk is voor het begrijpen van Atman, Brahman en bevrijding.",
     "meta": {
-      "title": "Shvetashvatara Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Shvetashvatara Upanishad - Upanishad-leringen in Sanātana Dharma",
       "canonical": "https://sanatanadharmam.in/upanishads/shvetashvatara-upanishad",
-      "description": "Overview of Shvetashvatara Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "Overzicht van Shvetashvatara Upanishad: kernthema's, sleutelideeën en waarom deze Upanishad belangrijk is voor het begrijpen van Atman, Brahman en bevrijding.",
       "keywords": [
         "Shvetashvatara Upanishad",
         "Upanishads",
         "Vedanta",
         "Atman",
-        "Brahman",
+        "brahmaan",
         "Sanatana Dharma"
       ],
-      "robots": "index, follow",
+      "robots": "indexeren, volgen",
       "url": "https://sanatanadharmam.in/upanishads/shvetashvatara-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_shvetashvatara_upanishad.png"
     },
     "openGraph": {
-      "title": "Shvetashvatara Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Shvetashvatara Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Shvetashvatara Upanishad - Upanishad-leringen in Sanātana Dharma",
+      "description": "Overzicht van Shvetashvatara Upanishad: kernthema's, sleutelideeën en waarom deze Upanishad belangrijk is voor het begrijpen van Atman, Brahman en bevrijding.",
       "url": "https://sanatanadharmam.in/upanishads/shvetashvatara-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "Sanatanadharam",
+      "type": "artikel",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_shvetashvatara_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Shvetashvatara Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Shvetashvatara Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "Artikel",
+      "name": "Shvetashvatara Upanishad - Upanishad-leringen in Sanātana Dharma",
+      "description": "Overzicht van Shvetashvatara Upanishad: kernthema's, sleutelideeën en waarom deze Upanishad belangrijk is voor het begrijpen van Atman, Brahman en bevrijding.",
       "url": "https://sanatanadharmam.in/upanishads/shvetashvatara-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "Website",
+        "name": "Sanatanadharam",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Shvetashvatara Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Shvetashvatara Upanishad brings together contemplative inquiry with a strong theistic-devotional tone. It explores the nature of the ultimate reality and the path of inner discipline, often using language of devotion and reverence.",
+    "introduction": "Shvetashvatara Upanishad is een van de belangrijkste Upanishads – teksten die de diepste vragen van het menselijk leven onderzoeken: Wie ben ik? Wat is echt? Wat is het Zelf (Atman) en de ultieme realiteit (Brahman)?\n\nUpanishadische leer wordt vaak gepresenteerd als dialoog en onderzoek. In plaats van één enkele ‘overtuiging’ aan te bieden, traint het aandacht en onderscheidingsvermogen, zodat een zoeker van uiterlijke identiteit naar innerlijke waarheid kan gaan.\n\nDe Shvetashvatara Upanishad brengt contemplatief onderzoek samen met een sterke theïstisch-devotionele toon. Het onderzoekt de aard van de ultieme realiteit en het pad van innerlijke discipline, vaak met behulp van taal van toewijding en eerbied.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "The nature of the divine reality, yoga and meditation, the role of grace and devotion, and liberation through knowledge and inner discipline."
+        "section": "Centrale thema's",
+        "content": "De aard van de goddelijke realiteit, yoga en meditatie, de rol van genade en toewijding, en bevrijding door kennis en innerlijke discipline."
       },
       {
-        "section": "Practice reflection",
-        "content": "The text points toward steadiness: regulate the mind, refine desire, and let devotion soften the heart so insight can arise."
+        "section": "Oefen met reflectie",
+        "content": "De tekst wijst op standvastigheid: reguleer de geest, verfijn het verlangen en laat toewijding het hart verzachten, zodat inzicht kan ontstaan."
       }
     ],
-    "philosophical_explanation": "Shvetashvatara is helpful for seekers who want both devotion and philosophy. It frames liberation not as mere intellectual conclusion, but as transformation—where meditation, ethics, and reverence cooperate to reveal truth."
+    "philosophical_explanation": "Shvetashvatara is nuttig voor zoekers die zowel toewijding als filosofie willen. Het beschouwt bevrijding niet louter als een intellectuele conclusie, maar als transformatie – waarbij meditatie, ethiek en eerbied samenwerken om de waarheid te onthullen."
   }
 }

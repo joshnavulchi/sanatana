@@ -131,14 +131,14 @@
         "nav": {
           "advaita": "अद्वैत",
           "purushartha": "पुरुषार्थ",
-          "samsara": "Samsara",
+          "samsara": "संसार",
           "dharma": "धर्म",
           "karma": "कर्मा",
           "moksha": "मोक्ष"
         }
       },
       "science": {
-        "title": "Science",
+        "title": "विज्ञान",
         "subtitle": "वैदिक",
         "nav": {
           "astronomy": "खगोल",
@@ -274,14 +274,14 @@
         "nav": {
           "advaita": "अद्वैत",
           "purushartha": "पुरुषार्थ",
-          "samsara": "Samsara",
+          "samsara": "संसार",
           "dharma": "धर्म",
           "karma": "कर्मा",
           "moksha": "मोक्ष"
         }
       },
       "science": {
-        "title": "Science",
+        "title": "विज्ञान",
         "subtitle": "वैदिक",
         "nav": {
           "astronomy": "खगोल",
@@ -429,14 +429,14 @@
         "nav": {
           "advaita": "अद्वैत",
           "purushartha": "पुरुषार्थ",
-          "samsara": "Samsara",
+          "samsara": "संसार",
           "dharma": "धर्म",
           "karma": "कर्मा",
           "moksha": "मोक्ष"
         }
       },
       "science": {
-        "title": "Science",
+        "title": "विज्ञान",
         "basePath": "/vedic-philosophy",
         "subtitle": "वैदिक",
         "nav": {
@@ -559,7 +559,7 @@
         "type": "उभयचर",
         "yuga": "सतयुग",
         "purpose": "समुद्र मंथन के दौरान मंदरा पर्वत का समर्थन करें",
-        "primary_event": "Churning of the Ocean",
+        "primary_event": "समुद्र मंथन",
         "associated_texts": ["भागवत पुराण", "महाभारत"],
         "symbolism": "स्थिरता और ब्रह्मांडीय समर्थन",
         "evolutionary_symbolism": "उभयचर संक्रमण"

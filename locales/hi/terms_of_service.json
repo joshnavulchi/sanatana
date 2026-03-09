@@ -1,27 +1,27 @@
 {
   "terms_of_service": {
-    "title": "Terms of Service – Sanatanadharmam",
-    "description": "Read the Terms of Service for Sanatanadharmam.in outlining the rules, responsibilities, intellectual property rights, and acceptable use of this website.",
+    "title": "सेवा की शर्तें - सनातनधर्मम्",
+    "description": "सनातनधर्मम.इन की सेवा की शर्तें पढ़ें, जिसमें इस वेबसाइट के नियमों, जिम्मेदारियों, बौद्धिक संपदा अधिकारों और स्वीकार्य उपयोग की रूपरेखा दी गई है।",
     "meta": {
-      "title": "Terms of Service – Sanatanadharmam",
+      "title": "सेवा की शर्तें - सनातनधर्मम्",
       "canonical": "https://sanatanadharmam.in/terms-of-service",
-      "description": "Read the Terms of Service for Sanatanadharmam.in outlining the rules, responsibilities, intellectual property rights, and acceptable use of this website.",
+      "description": "सनातनधर्मम.इन की सेवा की शर्तें पढ़ें, जिसमें इस वेबसाइट के नियमों, जिम्मेदारियों, बौद्धिक संपदा अधिकारों और स्वीकार्य उपयोग की रूपरेखा दी गई है।",
       "keywords": [
-        "terms of service",
-        "website terms",
-        "user agreement",
-        "sanatanadharmam terms",
-        "website legal terms"
+        "सेवा की शर्तें",
+        "वेबसाइट की शर्तें",
+        "उपयोगकर्ता समझौता",
+        "सनातनधर्मम् शर्तें",
+        "वेबसाइट कानूनी शर्तें"
       ],
-      "robots": "index, follow",
+      "robots": "अनुक्रमणिका, अनुसरण करें",
       "url": "https://sanatanadharmam.in/terms-of-service"
     },
     "openGraph": {
-      "title": "Terms of Service – Sanatanadharmam",
-      "description": "Understand the rules, responsibilities, and legal terms governing the use of Sanatanadharmam.in.",
+      "title": "सेवा की शर्तें - सनातनधर्मम्",
+      "description": "सनातनधर्मम.इन के उपयोग को नियंत्रित करने वाले नियमों, जिम्मेदारियों और कानूनी शर्तों को समझें।",
       "url": "https://sanatanadharmam.in/terms-of-service",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "सनातनधर्मम्",
+      "type": "आलेख",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/terms.png",
@@ -35,22 +35,22 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "WebPage",
-          "name": "Terms of Service",
+          "@type": "वेबपेज",
+          "name": "सेवा की शर्तें",
           "url": "https://sanatanadharmam.in/terms-of-service",
           "isPartOf": {
-            "@type": "WebSite",
-            "name": "Sanatanadharmam",
+            "@type": "वेबसाइट",
+            "name": "सनातनधर्मम्",
             "url": "https://sanatanadharmam.in"
           }
         },
         {
-          "@type": "TermsOfService",
-          "name": "Terms of Service",
+          "@type": "सेवा की शर्तें",
+          "name": "सेवा की शर्तें",
           "url": "https://sanatanadharmam.in/terms-of-service",
           "publisher": {
-            "@type": "Organization",
-            "name": "Sanatanadharmam",
+            "@type": "संगठन",
+            "name": "सनातनधर्मम्",
             "url": "https://sanatanadharmam.in",
             "logo": {
               "@type": "ImageObject",
@@ -60,61 +60,61 @@
         }
       ]
     },
-    "acceptancetitle": "1. Acceptance of Terms",
-    "closing": "By accessing and using Sanātana Dharma, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.",
+    "acceptancetitle": "1. शर्तों की स्वीकृति",
+    "closing": "सनातन धर्म तक पहुंच और उपयोग करके, आप स्वीकार करते हैं कि आपने सेवा की इन शर्तों को पढ़, समझ लिया है और उनसे बंधे होने के लिए सहमत हैं।",
     "contactemail": "contact@sanatanadharmam.in",
     "contactemaillabel": "Email:",
     "contactphone": "+91-8099181075",
-    "contactphonelabel": "Phone:",
-    "contacttext": "If you have any questions about these Terms of Service, please contact us at:",
-    "contacttitle": "13. Contact Us",
+    "contactphonelabel": "फ़ोन:",
+    "contacttext": "यदि सेवा की इन शर्तों के बारे में आपके कोई प्रश्न हैं, तो कृपया हमसे यहां संपर्क करें:",
+    "contacttitle": "13. हमसे संपर्क करें",
     "contactwebsite": "https://sanatanadharmam.in",
-    "contactwebsitelabel": "Website:",
-    "disclaimerclosing": "We disclaim all warranties, including fitness for a particular purpose and non-infringement.",
+    "contactwebsitelabel": "वेबसाइट:",
+    "disclaimerclosing": "हम किसी विशेष उद्देश्य के लिए उपयुक्तता और गैर-उल्लंघन सहित सभी वारंटी को अस्वीकार करते हैं।",
     "disclaimerlist": {
-      "accuracy": "Accuracy, completeness, or timeliness of content",
-      "errors": "Freedom from errors or interruptions",
-      "functionality": "Website functionality or availability",
-      "quality": "Quality or suitability for any particular purpose"
+      "accuracy": "सामग्री की सटीकता, पूर्णता या समयबद्धता",
+      "errors": "त्रुटियों या रुकावटों से मुक्ति",
+      "functionality": "वेबसाइट की कार्यक्षमता या उपलब्धता",
+      "quality": "किसी विशेष प्रयोजन के लिए गुणवत्ता या उपयुक्तता"
     },
-    "disclaimertext": "The website and all content are provided on an \"AS IS\" and \"AS AVAILABLE\" basis. We make no warranties, expressed or implied, regarding:",
-    "disclaimertitle": "5. Disclaimer of Warranties",
+    "disclaimertext": "वेबसाइट और सभी सामग्री \"जैसा है\" और \"जैसा उपलब्ध है\" के आधार पर प्रदान की जाती है। हम इसके संबंध में कोई व्यक्त या निहित वारंटी नहीं देते हैं:",
+    "disclaimertitle": "5. वारंटी का अस्वीकरण",
     "externallinkstext": "Our website may contain links to third-party websites. We are not responsible for the content, accuracy, or practices of external websites.",
     "externallinkstitle": "7. External Links",
-    "governingtext": "These Terms of Service shall be governed by and construed in accordance with the laws of India, without regard to its conflict of law principles.",
-    "governingtitle": "11. Governing Law",
-    "indemnificationtext": "You agree to indemnify, defend, and hold harmless Sanātana Dharma and its officers, directors, employees, and agents from any claims arising from your use of the website or violation of these Terms of Service.",
-    "indemnificationtitle": "10. Indemnification",
-    "intellectualtext": "All content on the Sanātana Dharma website is the property of Sanātana Dharma or its content suppliers and is protected by international copyright laws.",
-    "intellectualtitle": "3. Intellectual Property Rights",
-    "intro": "By accessing and using the Sanātana Dharma website (sanatanadharmam.in), you agree to be bound by these Terms of Service.",
-    "lastupdated": "November 2025",
-    "liabilitytext": "To the maximum extent permitted by law, Sanātana Dharma shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use or inability to use the website.",
-    "liabilitytitle": "6. Limitation of Liability",
-    "modificationstext": "We reserve the right to modify these Terms of Service at any time. Changes will be effective immediately upon posting.",
-    "modificationstitle": "8. Modifications to Terms",
-    "severabilitytext": "If any provision of these Terms of Service is found to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.",
-    "severabilitytitle": "12. Severability",
-    "terminationtext": "We reserve the right to terminate or restrict your access to the website at any time, without notice or liability.",
-    "terminationtitle": "9. Termination",
+    "governingtext": "सेवा की ये शर्तें कानूनी सिद्धांतों के टकराव की परवाह किए बिना, भारत के कानूनों के अनुसार शासित और समझी जाएंगी।",
+    "governingtitle": "11. शासी कानून",
+    "indemnificationtext": "आप वेबसाइट के आपके उपयोग या सेवा की शर्तों के उल्लंघन से उत्पन्न होने वाले किसी भी दावे से सनातन धर्म और उसके अधिकारियों, निदेशकों, कर्मचारियों और एजेंटों को क्षतिपूर्ति देने, बचाव करने और हानिरहित रखने के लिए सहमत हैं।",
+    "indemnificationtitle": "10. क्षतिपूर्ति",
+    "intellectualtext": "सनातन धर्म वेबसाइट पर सभी सामग्री सनातन धर्म या उसके सामग्री आपूर्तिकर्ताओं की संपत्ति है और अंतरराष्ट्रीय कॉपीराइट कानूनों द्वारा संरक्षित है।",
+    "intellectualtitle": "3. बौद्धिक संपदा अधिकार",
+    "intro": "सनातन धर्म वेबसाइट (sanatandharmam.in) तक पहुंच और उपयोग करके, आप सेवा की इन शर्तों से बंधे होने के लिए सहमत हैं।",
+    "lastupdated": "नवंबर 2025",
+    "liabilitytext": "कानून द्वारा अनुमत अधिकतम सीमा तक, सनातन धर्म आपके उपयोग या वेबसाइट का उपयोग करने में असमर्थता के परिणामस्वरूप होने वाली किसी भी अप्रत्यक्ष, आकस्मिक, विशेष, परिणामी या दंडात्मक क्षति के लिए उत्तरदायी नहीं होगा।",
+    "liabilitytitle": "6. दायित्व की सीमा",
+    "modificationstext": "हम किसी भी समय सेवा की इन शर्तों को संशोधित करने का अधिकार सुरक्षित रखते हैं। पोस्टिंग के तुरंत बाद परिवर्तन प्रभावी होंगे.",
+    "modificationstitle": "8. शर्तों में संशोधन",
+    "severabilitytext": "यदि सेवा की इन शर्तों का कोई भी प्रावधान अमान्य या अप्रवर्तनीय पाया जाता है, तो शेष प्रावधान पूरी तरह लागू और प्रभावी रहेंगे।",
+    "severabilitytitle": "12. पृथक्करणीयता",
+    "terminationtext": "हम बिना किसी सूचना या दायित्व के किसी भी समय वेबसाइट तक आपकी पहुंच को समाप्त करने या प्रतिबंधित करने का अधिकार सुरक्षित रखते हैं।",
+    "terminationtitle": "9. समाप्ति",
     "uselicenselist": {
-      "copying": "Copying or downloading content for commercial purposes",
-      "interfering": "Interfering with website functionality or user experience",
-      "modification": "Modification of website content",
-      "reverseengineering": "Reverse engineering or attempting to extract source code",
-      "unauthorizedaccess": "Attempting to gain unauthorized access to the website or its systems"
+      "copying": "व्यावसायिक उद्देश्यों के लिए सामग्री की प्रतिलिपि बनाना या डाउनलोड करना",
+      "interfering": "वेबसाइट की कार्यक्षमता या उपयोगकर्ता अनुभव में हस्तक्षेप करना",
+      "modification": "वेबसाइट सामग्री का संशोधन",
+      "reverseengineering": "रिवर्स इंजीनियरिंग या स्रोत कोड निकालने का प्रयास",
+      "unauthorizedaccess": "वेबसाइट या उसके सिस्टम तक अनधिकृत पहुंच प्राप्त करने का प्रयास करना"
     },
-    "uselicensetext": "We grant you a limited, non-exclusive, revocable license to access and use the website for personal, non-commercial purposes. This license does not include:",
-    "uselicensetitle": "2. Use License",
-    "userconductintro": "When using the website, you agree not to:",
+    "uselicensetext": "हम आपको व्यक्तिगत, गैर-व्यावसायिक उद्देश्यों के लिए वेबसाइट तक पहुंचने और उपयोग करने के लिए एक सीमित, गैर-विशिष्ट, प्रतिसंहरणीय लाइसेंस प्रदान करते हैं। इस लाइसेंस में शामिल नहीं है:",
+    "uselicensetitle": "2. लाइसेंस का प्रयोग करें",
+    "userconductintro": "वेबसाइट का उपयोग करते समय, आप इससे सहमत नहीं हैं:",
     "userconductlist": {
-      "bypass": "Attempt to access restricted areas or bypass security measures",
-      "harassment": "Engage in harassment or discrimination",
-      "malware": "Transmit viruses, malware, or any code intended to harm the website",
-      "spam": "Spam or engage in unauthorized marketing activities",
-      "unlawful": "Post or transmit any unlawful, threatening, or abusive content",
-      "violatelaw": "Violate any laws or regulations"
+      "bypass": "प्रतिबंधित क्षेत्रों तक पहुँचने का प्रयास करें या सुरक्षा उपायों को दरकिनार करें",
+      "harassment": "उत्पीड़न या भेदभाव में संलग्न होना",
+      "malware": "वेबसाइट को नुकसान पहुंचाने के इरादे से वायरस, मैलवेयर या कोई भी कोड प्रसारित करें",
+      "spam": "स्पैम करना या अनधिकृत विपणन गतिविधियों में संलग्न होना",
+      "unlawful": "कोई भी गैरकानूनी, धमकी भरी या अपमानजनक सामग्री पोस्ट या प्रसारित करें",
+      "violatelaw": "किसी भी कानून या विनियम का उल्लंघन करें"
     },
-    "userconducttitle": "4. User Conduct"
+    "userconducttitle": "4. उपयोगकर्ता आचरण"
   }
 }

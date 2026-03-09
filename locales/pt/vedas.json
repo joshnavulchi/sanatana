@@ -2,187 +2,183 @@
   "vedas": {
     "meta": {
       "title": "Vedas – Rigveda, Yajurveda, Samaveda, Atharvaveda",
-      "description": "Learn about the four Vedas of Sanatana Dharma – Rigveda, Yajurveda, Samaveda and Atharvaveda. Explore their history, structure and teachings.",
+      "description": "Aprenda sobre os quatro Vedas do Sanatana Dharma – Rigveda, Yajurveda, Samaveda e Atharvaveda. Explore sua história, estrutura e ensinamentos.",
       "keywords": [
         "Vedas",
-        "Rigveda",
-        "Yajurveda",
-        "Samaveda",
+        "Rig Veda",
+        "Yajurvéda",
+        "Samavéda",
         "Atharvaveda",
-        "Vedic scriptures",
+        "Escrituras védicas",
         "Sanatana Dharma",
-        "Hindu sacred texts"
+        "Textos sagrados hindus"
       ]
     },
     "openGraph": {
-      "title": "Vedas – Ancient Scriptures of Sanatana Dharma",
-      "description": "Discover the four Vedas and their teachings in Sanatana Dharma.",
+      "title": "Vedas – Escrituras Antigas do Sanatana Dharma",
+      "description": "Descubra os quatro Vedas e seus ensinamentos no Sanatana Dharma.",
       "url": "https://sanatanadharmam.in/vedas",
-      "type": "article"
+      "type": "artigo"
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
+      "@type": "Trabalho Criativo",
       "name": "Vedas",
-      "description": "The Vedas are the oldest sacred scriptures of Sanatana Dharma consisting of Rigveda, Yajurveda, Samaveda and Atharvaveda.",
+      "description": "Os Vedas são as escrituras sagradas mais antigas do Sanatana Dharma, consistindo em Rigveda, Yajurveda, Samaveda e Atharvaveda.",
       "author": {
-        "@type": "Person",
+        "@type": "Pessoa",
         "name": "Vyasa"
       },
-      "about": ["Rigveda", "Yajurveda", "Samaveda", "Atharvaveda"],
-      "inLanguage": "Sanskrit",
+      "about": ["Rig Veda", "Yajurvéda", "Samavéda", "Atharvaveda"],
+      "inLanguage": "sânscrito",
       "publisher": {
-        "@type": "Organization",
-        "name": "Sanatanadharmam"
+        "@type": "Organização",
+        "name": "Sanatanadharm"
       },
       "url": "https://sanatanadharmam.in/vedas"
     },
-    "title": "Vedas – The Oldest Sacred Scriptures of Sanatana Dharma",
-    "definition": "The Vedas are the oldest sacred scriptures of Hinduism and among the most ancient surviving texts in the world. They are composed in Vedic Sanskrit and were transmitted orally for thousands of years before being written down.",
-    "meaning_of_word_veda": "The word 'Veda' comes from the Sanskrit root 'Vid', meaning 'knowledge', 'wisdom', or 'to know'. Thus Veda means 'sacred knowledge'.",
-    "introduction": "The Vedas are the most ancient and revered scriptures of Sanatana Dharma, the eternal spiritual tradition often known today as Hinduism. The word 'Veda' originates from the Sanskrit root 'vid', which means knowledge or wisdom. Thus, the Vedas are regarded as the ultimate source of spiritual knowledge and cosmic truth. These scriptures were transmitted orally for thousands of years before being compiled into written form. They are considered 'Shruti', meaning that they were heard or revealed to ancient sages during deep states of meditation and spiritual realization.\n\nThe Vedas are not merely religious texts but comprehensive repositories of knowledge that address philosophy, cosmology, rituals, ethics, and the nature of existence itself. They represent humanity's earliest recorded attempt to understand the universe, consciousness, and the relationship between humans and the divine.\n\nAccording to tradition, the Vedas were compiled and organized by the sage Vyasa, who divided the original body of Vedic knowledge into four distinct collections to preserve and transmit them more effectively. These four collections are the Rigveda, Yajurveda, Samaveda, and Atharvaveda. Each Veda contains a unique focus and structure, contributing to a vast body of knowledge that has influenced Indian civilization for millennia.\n\nThe teachings of the Vedas explore fundamental questions such as: What is the nature of reality? What is the origin of the universe? What is the purpose of human life? How can individuals attain liberation from suffering and achieve spiritual realization?\n\nThrough hymns, philosophical dialogues, and ritual instructions, the Vedas attempt to answer these profound questions. They describe the universe as governed by a cosmic order known as 'Rta', a principle that maintains harmony among natural forces, divine beings, and human actions. Living in accordance with this cosmic order is considered the path of Dharma.\n\nThe Vedas also form the foundation for many later philosophical systems, including Vedanta, Yoga, and other schools of Hindu philosophy. Their teachings continue to influence spiritual seekers, scholars, and practitioners across the world today.",
+    "title": "Vedas – As Escrituras Sagradas Mais Antigas do Sanatana Dharma",
+    "definition": "Os Vedas são as escrituras sagradas mais antigas do Hinduísmo e estão entre os textos mais antigos que sobreviveram no mundo. Eles são compostos em sânscrito védico e foram transmitidos oralmente durante milhares de anos antes de serem escritos.",
+    "meaning_of_word_veda": "A palavra 'Veda' vem da raiz sânscrita 'Vid', que significa 'conhecimento', 'sabedoria' ou 'saber'. Assim, Veda significa “conhecimento sagrado”.",
+    "introduction": "Os Vedas são as escrituras mais antigas e reverenciadas do Sanatana Dharma, a eterna tradição espiritual hoje conhecida como Hinduísmo. A palavra 'Veda' origina-se da raiz sânscrita 'vid', que significa conhecimento ou sabedoria. Assim, os Vedas são considerados a fonte última de conhecimento espiritual e verdade cósmica. Essas escrituras foram transmitidas oralmente por milhares de anos antes de serem compiladas em forma escrita. Eles são considerados 'Shruti', o que significa que foram ouvidos ou revelados aos antigos sábios durante estados profundos de meditação e realização espiritual.\n\nOs Vedas não são apenas textos religiosos, mas repositórios abrangentes de conhecimento que abordam filosofia, cosmologia, rituais, ética e a própria natureza da existência. Eles representam a primeira tentativa registrada da humanidade de compreender o universo, a consciência e a relação entre os humanos e o divino.\n\nSegundo a tradição, os Vedas foram compilados e organizados pelo sábio Vyasa, que dividiu o corpo original do conhecimento védico em quatro coleções distintas para preservá-los e transmiti-los de forma mais eficaz. Essas quatro coleções são Rigveda, Yajurveda, Samaveda e Atharvaveda. Cada Veda contém um foco e uma estrutura únicos, contribuindo para um vasto corpo de conhecimento que influenciou a civilização indiana durante milênios.\n\nOs ensinamentos dos Vedas exploram questões fundamentais como: Qual é a natureza da realidade? Qual é a origem do universo? Qual é o propósito da vida humana? Como os indivíduos podem alcançar a libertação do sofrimento e alcançar a realização espiritual?\n\nAtravés de hinos, diálogos filosóficos e instruções rituais, os Vedas tentam responder a estas questões profundas. Eles descrevem o universo como governado por uma ordem cósmica conhecida como 'Rta', um princípio que mantém a harmonia entre as forças naturais, os seres divinos e as ações humanas. Viver de acordo com esta ordem cósmica é considerado o caminho do Dharma.\n\nOs Vedas também formam a base para muitos sistemas filosóficos posteriores, incluindo Vedanta, Yoga e outras escolas de filosofia hindu. Seus ensinamentos continuam a influenciar os buscadores espirituais, estudiosos e praticantes em todo o mundo hoje.",
     "scripture_text": [
       {
-        "veda": "Rigveda",
-        "description": "The Rigveda is the oldest of the four Vedas and is primarily a collection of hymns dedicated to various deities representing cosmic forces. It contains 1028 hymns organized into ten mandalas. These hymns praise deities such as Agni (fire), Indra (thunder and storms), Varuna (cosmic order), and Surya (the sun). The hymns often express wonder at the mysteries of nature and the universe. They seek blessings, prosperity, protection, and spiritual insight.\n\nThe Rigveda also contains some of the earliest philosophical reflections found in human literature. One famous hymn, the Nasadiya Sukta, contemplates the origin of the universe and questions whether even the gods know how creation began.",
-        "primary_focus": "Praise of deities and cosmic forces",
+        "veda": "Rig Veda",
+        "description": "O Rigveda é o mais antigo dos quatro Vedas e é principalmente uma coleção de hinos dedicados a várias divindades que representam forças cósmicas. Contém 1.028 hinos organizados em dez mandalas. Esses hinos louvam divindades como Agni (fogo), Indra (trovões e tempestades), Varuna (ordem cósmica) e Surya (o sol). Os hinos muitas vezes expressam admiração pelos mistérios da natureza e do universo. Eles buscam bênçãos, prosperidade, proteção e visão espiritual.\n\nO Rigveda também contém algumas das primeiras reflexões filosóficas encontradas na literatura humana. Um hino famoso, o Nasadiya Sukta, contempla a origem do universo e questiona se até os deuses sabem como a criação começou.",
+        "primary_focus": "Elogio de divindades e forças cósmicas",
         "structure": {
           "total_hymns": 1028,
           "mandalas": 10,
           "verses": 10552
         },
-        "major_deities": ["Agni", "Indra", "Varuna", "Mitra", "Soma", "Ushas"],
+        "major_deities": ["Agni", "Indra", "Varuna", "Mitra", "soma", "Ushas"],
         "major_themes": [
-          "Creation of universe",
-          "Cosmic order (Rta)",
-          "Nature worship",
-          "Sacred fire rituals",
-          "Philosophical speculation"
+          "Criação do universo",
+          "Ordem cósmica (Rta)",
+          "Adoração da natureza",
+          "Rituais de fogo sagrado",
+          "Especulação filosófica"
         ]
       },
       {
-        "veda": "Yajurveda",
-        "description": "The Yajurveda focuses primarily on the procedures and formulas used during ritual sacrifices known as yajnas. It provides detailed instructions for priests performing ceremonies intended to maintain cosmic harmony and social order. The Yajurveda exists in two major forms: the Krishna (Black) Yajurveda and the Shukla (White) Yajurveda.\n\nThe Krishna Yajurveda combines ritual formulas with explanatory commentary, while the Shukla Yajurveda presents them in a clearer and more organized structure. These texts emphasize the importance of disciplined action and ritual precision in maintaining the balance between humans, nature, and the divine.",
-        "primary_focus": "Ritual procedures and yajna performance",
+        "veda": "Yajurvéda",
+        "description": "O Yajurveda concentra-se principalmente nos procedimentos e fórmulas usados ​​durante os sacrifícios rituais conhecidos como yajnas. Ele fornece instruções detalhadas para sacerdotes que realizam cerimônias destinadas a manter a harmonia cósmica e a ordem social. O Yajurveda existe em duas formas principais: o Yajurveda Krishna (Preto) e o Yajurveda Shukla (Branco).\n\nO Krishna Yajurveda combina fórmulas rituais com comentários explicativos, enquanto o Shukla Yajurveda os apresenta em uma estrutura mais clara e organizada. Esses textos enfatizam a importância da ação disciplinada e da precisão ritual na manutenção do equilíbrio entre os humanos, a natureza e o divino.",
+        "primary_focus": "Procedimentos rituais e desempenho de yajna",
         "divisions": [
           {
             "type": "Krishna Yajurveda",
-            "meaning": "Black Yajurveda",
-            "characteristics": "Mixed prose and verses"
+            "meaning": "Yajurveda Negro",
+            "characteristics": "Prosa e versos mistos"
           },
           {
             "type": "Shukla Yajurveda",
-            "meaning": "White Yajurveda",
-            "characteristics": "Clear separation of mantras and explanations"
+            "meaning": "Yajurveda Branco",
+            "characteristics": "Separação clara de mantras e explicações"
           }
         ],
         "primary_topics": [
-          "Sacrificial rituals",
-          "Priestly duties",
-          "Yajna procedures",
-          "Cosmic symbolism of sacrifice"
+          "Rituais de sacrifício",
+          "Deveres sacerdotais",
+          "Procedimentos Yajna",
+          "Simbolismo cósmico do sacrifício"
         ]
       },
       {
-        "veda": "Samaveda",
-        "description": "The Samaveda is primarily concerned with melodies and chants derived largely from the Rigveda. It is considered the origin of classical Indian musical traditions. The hymns of the Samaveda are arranged in such a way that they can be sung during ritual ceremonies. The musical aspect of the Samaveda reflects the belief that sound and vibration play a powerful role in spiritual transformation.\n\nThrough sacred chanting, practitioners aim to harmonize their consciousness with the cosmic rhythm of the universe.",
-        "primary_focus": "Musical chanting in rituals",
-        "importance": "Foundation of Indian classical music",
+        "veda": "Samavéda",
+        "description": "O Samaveda preocupa-se principalmente com melodias e cantos derivados em grande parte do Rigveda. É considerada a origem das tradições musicais clássicas indianas. Os hinos do Samaveda são organizados de forma que possam ser cantados durante cerimônias rituais. O aspecto musical do Samaveda reflete a crença de que o som e a vibração desempenham um papel poderoso na transformação espiritual.\n\nAtravés do canto sagrado, os praticantes pretendem harmonizar a sua consciência com o ritmo cósmico do universo.",
+        "primary_focus": "Cantos musicais em rituais",
+        "importance": "Fundação da música clássica indiana",
         "structure": {
           "total_verses": 1875,
           "unique_verses": 75
         },
-        "applications": [
-          "Temple chanting",
-          "Soma rituals",
-          "Liturgical singing"
-        ]
+        "applications": ["Canto do templo", "Rituais soma", "Canto litúrgico"]
       },
       {
         "veda": "Atharvaveda",
-        "description": "The Atharvaveda differs from the other three Vedas in that it contains a broader range of topics, including healing practices, philosophical reflections, domestic rituals, and social concerns. It includes hymns, prayers, charms, and philosophical teachings that address everyday life as well as spiritual matters.\n\nMany hymns in the Atharvaveda seek protection from disease, misfortune, and negative influences while also exploring deeper metaphysical questions about life, death, and the nature of the soul.",
-        "primary_focus": "Practical life, healing, protection",
+        "description": "O Atharvaveda difere dos outros três Vedas porque contém uma gama mais ampla de tópicos, incluindo práticas de cura, reflexões filosóficas, rituais domésticos e preocupações sociais. Inclui hinos, orações, encantos e ensinamentos filosóficos que abordam a vida cotidiana, bem como assuntos espirituais.\n\nMuitos hinos do Atharvaveda buscam proteção contra doenças, infortúnios e influências negativas, ao mesmo tempo que exploram questões metafísicas mais profundas sobre a vida, a morte e a natureza da alma.",
+        "primary_focus": "Vida prática, cura, proteção",
         "structure": {
           "books": 20,
           "hymns": 730
         },
         "topics": [
-          "Medicine",
-          "Protection spells",
-          "Household rituals",
-          "Philosophical reflections",
-          "Royal rituals"
+          "Medicamento",
+          "Feitiços de proteção",
+          "Rituais domésticos",
+          "Reflexões filosóficas",
+          "Rituais reais"
         ]
       }
     ],
-    "philosophical_explanation": "Beyond their ritual and poetic dimensions, the Vedas contain profound philosophical insights that have shaped the spiritual traditions of India for thousands of years. At the heart of Vedic philosophy lies the idea that the universe is not chaotic but governed by a divine order known as Rta. This cosmic law ensures harmony among all aspects of existence.\n\nHuman beings are encouraged to live in accordance with this cosmic order through the practice of Dharma. Dharma refers to righteous conduct, moral responsibility, and the duties that sustain both individual well-being and social harmony.\n\nAnother fundamental concept introduced in Vedic thought is the relationship between the individual self (Atman) and the ultimate reality (Brahman). Later philosophical texts such as the Upanishads elaborate on this relationship and suggest that realizing the unity between Atman and Brahman leads to spiritual liberation or Moksha.\n\nThe Vedas also explore the role of knowledge (Jnana), action (Karma), and devotion (Bhakti) as pathways toward spiritual realization. While early Vedic traditions emphasize ritual practices, later interpretations increasingly focus on inner transformation and self-knowledge.\n\nThrough meditation, disciplined living, and the pursuit of wisdom, individuals can transcend ignorance and realize their true nature as part of the universal consciousness.\n\nThe Vedas therefore present a holistic vision of life that integrates spiritual insight, ethical responsibility, and cosmic harmony.",
+    "philosophical_explanation": "Além das suas dimensões rituais e poéticas, os Vedas contêm profundas percepções filosóficas que moldaram as tradições espirituais da Índia durante milhares de anos. No cerne da filosofia védica está a ideia de que o universo não é caótico, mas governado por uma ordem divina conhecida como Rta. Esta lei cósmica garante a harmonia entre todos os aspectos da existência.\n\nOs seres humanos são encorajados a viver de acordo com esta ordem cósmica através da prática do Dharma. Dharma refere-se à conduta correta, à responsabilidade moral e aos deveres que sustentam o bem-estar individual e a harmonia social.\n\nOutro conceito fundamental introduzido no pensamento védico é a relação entre o eu individual (Atman) e a realidade última (Brahman). Textos filosóficos posteriores, como os Upanishads, elaboram esta relação e sugerem que a realização da unidade entre Atman e Brahman leva à libertação espiritual ou Moksha.\n\nOs Vedas também exploram o papel do conhecimento (Jnana), da ação (Karma) e da devoção (Bhakti) como caminhos para a realização espiritual. Embora as primeiras tradições védicas enfatizem as práticas rituais, as interpretações posteriores concentram-se cada vez mais na transformação interior e no autoconhecimento.\n\nAtravés da meditação, da vida disciplinada e da busca pela sabedoria, os indivíduos podem transcender a ignorância e compreender a sua verdadeira natureza como parte da consciência universal.\n\nOs Vedas apresentam, portanto, uma visão holística da vida que integra visão espiritual, responsabilidade ética e harmonia cósmica.",
     "estimated_composition_period": {
-      "early_vedic_period": "1500 BCE – 1200 BCE",
-      "later_additions": "1200 BCE – 1000 BCE"
+      "early_vedic_period": "1500 AC - 1200 AC",
+      "later_additions": "1200 AC - 1000 AC"
     },
     "vedic_society": {
       "social_structure": [
-        "Brahmins (priests)",
-        "Kshatriyas (warriors)",
-        "Vaishyas (traders)",
-        "Shudras (service providers)"
+        "Brâmanes (sacerdotes)",
+        "Kshatriyas (guerreiros)",
+        "Vaishyas (comerciantes)",
+        "Shudras (prestadores de serviços)"
       ],
       "economic_activities": [
-        "Agriculture",
-        "Cattle rearing",
-        "Trade",
-        "Craftsmanship"
+        "Agricultura",
+        "Criação de gado",
+        "Troca",
+        "Artesanato"
       ],
       "cultural_practices": [
-        "Fire rituals",
-        "Sacred chants",
-        "Education through gurukula"
+        "Rituais de fogo",
+        "Cantos sagrados",
+        "Educação através do gurukula"
       ]
     },
     "influence_of_vedas": {
       "religious_influence": [
-        "Foundation of Hindu philosophy",
-        "Basis of temple rituals",
-        "Influence on yoga and meditation"
+        "Fundação da filosofia hindu",
+        "Base dos rituais do templo",
+        "Influência na ioga e meditação"
       ],
       "philosophical_influence": [
-        "Vedanta philosophy",
-        "Upanishadic metaphysics",
-        "Concept of universal consciousness"
+        "Filosofia Vedanta",
+        "Metafísica Upanishad",
+        "Conceito de consciência universal"
       ],
       "scientific_influence": [
-        "Early astronomy references",
-        "Mathematical concepts",
-        "Medical knowledge in Atharvaveda"
+        "Referências iniciais da astronomia",
+        "Conceitos matemáticos",
+        "Conhecimento médico em Atharvaveda"
       ],
       "cultural_influence": [
-        "Indian music origins in Samaveda",
-        "Sacred chanting traditions",
-        "Festivals and rituals"
+        "Origens da música indiana em Samaveda",
+        "Tradições de canto sagrado",
+        "Festivais e rituais"
       ]
     },
     "vedic_timeline": {
-      "proto_vedic_period": "Before 2000 BCE",
-      "early_vedic_period": "1500 BCE - 1200 BCE",
-      "middle_vedic_period": "1200 BCE - 900 BCE",
-      "late_vedic_period": "900 BCE - 500 BCE",
-      "upanishadic_period": "800 BCE - 300 BCE"
+      "proto_vedic_period": "Antes de 2.000 a.C.",
+      "early_vedic_period": "1500 AC - 1200 AC",
+      "middle_vedic_period": "1200 AC - 900 AC",
+      "late_vedic_period": "900 AC - 500 AC",
+      "upanishadic_period": "800 AC - 300 AC"
     },
     "vedic_philosophical_concepts": {
-      "brahman": "Ultimate cosmic reality",
-      "atman": "Individual self or soul",
-      "rta": "Cosmic order governing universe",
-      "dharma": "Universal law and duty",
-      "karma": "Law of action and consequence",
-      "moksha": "Liberation from cycle of rebirth",
-      "samsara": "Cycle of birth, death, and rebirth"
+      "brahman": "Realidade cósmica final",
+      "atman": "Eu individual ou alma",
+      "rta": "Ordem cósmica governando o universo",
+      "dharma": "Lei e dever universais",
+      "karma": "Lei de ação e consequência",
+      "moksha": "Libertação do ciclo de renascimento",
+      "samsara": "Ciclo de nascimento, morte e renascimento"
     },
     "related_concepts": [
       "Upanishads",
       "Brahman",
       "Atman",
       "Dharma",
-      "Karma",
+      "Carma",
       "Moksha",
       "Vedanta",
       "Yajna",

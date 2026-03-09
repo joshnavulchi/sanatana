@@ -1,29 +1,29 @@
 {
   "upanishads": {
     "title": "108 Upanishads",
-    "description": "The 108 Upanishads are sacred philosophical texts of Sanatana Dharma exploring Brahman, Atman, liberation and ultimate reality.",
+    "description": "De 108 Upanishads zijn heilige filosofische teksten van Sanatana Dharma waarin Brahman, Atman, bevrijding en de ultieme realiteit worden onderzocht.",
     "meta": {
-      "title": "108 Upanishads – Teachings on Brahman and Renunciation",
+      "title": "108 Upanishads – Leringen over Brahman en verzaking",
       "canonical": "https://sanatanadharmam.in/upanishads/isha",
-      "description": "The Isha Upanishad from the Shukla Yajurveda explores the unity of Atman and Brahman, renunciation, and the spiritual philosophy of Sanatana Dharma.",
+      "description": "De Isha Upanishad uit de Shukla Yajurveda onderzoekt de eenheid van Atman en Brahman, verzaking en de spirituele filosofie van Sanatana Dharma.",
       "keywords": [
         "108 Upanishads",
         "Isha Upanishad",
-        "Upanishads philosophy",
-        "Vedanta teachings",
-        "Atman and Brahman",
-        "Vedic scriptures",
+        "Upanishads-filosofie",
+        "Vedanta-leringen",
+        "Atman en Brahman",
+        "Vedische geschriften",
         "Sanatana Dharma Upanishads"
       ],
-      "robots": "index, follow",
+      "robots": "indexeren, volgen",
       "url": "https://sanatanadharmam.in/upanishads/isha"
     },
     "openGraph": {
-      "title": "Isha Upanishad – Sacred Vedantic Text",
-      "description": "Explore the teachings of the Isha Upanishad discussing Brahman, Atman and renunciation in the Vedic tradition.",
+      "title": "Isha Upanishad – Heilige Vedantische tekst",
+      "description": "Ontdek de leringen van de Isha Upanishad over Brahman, Atman en verzaking in de Vedische traditie.",
       "url": "https://sanatanadharmam.in/upanishads/isha",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "Sanatanadharam",
+      "type": "artikel",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads-isha.png",
@@ -37,28 +37,28 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "Book",
+          "@type": "Boek",
           "name": "Isha Upanishad",
           "isPartOf": {
-            "@type": "Book",
+            "@type": "Boek",
             "name": "Upanishads"
           },
-          "inLanguage": "Sanskrit",
+          "inLanguage": "Sanskriet",
           "about": [
-            "Vedanta philosophy",
+            "Vedanta-filosofie",
             "Atman",
-            "Brahman",
+            "brahmaan",
             "Sanatana Dharma"
           ],
           "url": "https://sanatanadharmam.in/upanishads/isha"
         },
         {
-          "@type": "Article",
-          "headline": "Isha Upanishad – Teachings on Brahman and Renunciation",
-          "about": ["Upanishads", "Vedanta", "Brahman", "Atman"],
+          "@type": "Artikel",
+          "headline": "Isha Upanishad – Leringen over Brahman en verzaking",
+          "about": ["Upanishads", "Vedanta", "brahmaan", "Atman"],
           "isPartOf": {
-            "@type": "WebSite",
-            "name": "Sanatanadharmam",
+            "@type": "Website",
+            "name": "Sanatanadharam",
             "url": "https://sanatanadharmam.in"
           }
         }
@@ -79,7 +79,7 @@
         "Bahvricha"
       ],
       "shukla_yajurveda": [
-        "Isha",
+        "Isja",
         "Brihadaranyaka",
         "Jabala",
         "Hamsa",
@@ -105,7 +105,7 @@
         "Brahma",
         "Kaivalya",
         "Shvetashvatara",
-        "Garbh",
+        "Garb",
         "Narayana",
         "Amritabindu",
         "Amritanada",
@@ -127,7 +127,7 @@
         "Katharudra",
         "Rudrahridaya",
         "Yoga Kundalini",
-        "Panchabrahma",
+        "Panchabrahm",
         "Pranagnihotra",
         "Varaha",
         "Kali Santarana",
@@ -180,7 +180,7 @@
         "Surya",
         "Atma",
         "Pashupata",
-        "Parabrahma",
+        "Parabrahm",
         "Tripuratapini",
         "Devi",
         "Tripura",

@@ -129,11 +129,11 @@
         "title": "दर्शन",
         "subtitle": "वैदिक",
         "nav": {
-          "advaita": "Advaita",
+          "advaita": "अद्वैत",
           "purushartha": "पुरुषार्थ",
           "samsara": "संसार",
           "dharma": "धर्म",
-          "karma": "Karma",
+          "karma": "कर्म",
           "moksha": "मोक्ष"
         }
       },
@@ -142,7 +142,7 @@
         "subtitle": "वैदिक",
         "nav": {
           "astronomy": "खगोल विज्ञान",
-          "mathematics": "Mathematics",
+          "mathematics": "गणित",
           "medicine": "औषधी",
           "metallurgy": "धातु विज्ञान",
           "architecture": "वास्तुकला"
@@ -272,11 +272,11 @@
         "title": "दर्शन",
         "subtitle": "वैदिक",
         "nav": {
-          "advaita": "Advaita",
+          "advaita": "अद्वैत",
           "purushartha": "पुरुषार्थ",
           "samsara": "संसार",
           "dharma": "धर्म",
-          "karma": "Karma",
+          "karma": "कर्म",
           "moksha": "मोक्ष"
         }
       },
@@ -285,7 +285,7 @@
         "subtitle": "वैदिक",
         "nav": {
           "astronomy": "खगोल विज्ञान",
-          "mathematics": "Mathematics",
+          "mathematics": "गणित",
           "medicine": "औषधी",
           "metallurgy": "धातु विज्ञान",
           "architecture": "वास्तुकला"
@@ -301,7 +301,7 @@
         }
       },
       "privacy": "गोपनीयता नीति",
-      "quote": "Whenever righteousness declines and unrighteousness rises, I manifest Myself. To protect the righteous, to annihilate the wicked, and to reestablish the principles of dharma, I appear millennium after millennium.",
+      "quote": "जब जब धार्मिकता घट्छ र अधर्म बढ्छ, म आफैं प्रकट हुन्छु। धर्मीहरूको रक्षा गर्न, दुष्टको नाश गर्न र धर्मका सिद्धान्तहरूको पुनर्स्थापना गर्न, म सहस्राब्दी पछि प्रकट हुन्छु।",
       "quotesource": "(भगवत गीता ४.७)",
       "terms": "सेवाका सर्तहरू"
     },
@@ -427,11 +427,11 @@
         "basePath": "/philosophy",
         "subtitle": "वैदिक",
         "nav": {
-          "advaita": "Advaita",
+          "advaita": "अद्वैत",
           "purushartha": "पुरुषार्थ",
           "samsara": "संसार",
           "dharma": "धर्म",
-          "karma": "Karma",
+          "karma": "कर्म",
           "moksha": "मोक्ष"
         }
       },
@@ -441,7 +441,7 @@
         "subtitle": "वैदिक",
         "nav": {
           "astronomy": "खगोल विज्ञान",
-          "mathematics": "Mathematics",
+          "mathematics": "गणित",
           "medicine": "औषधी",
           "metallurgy": "धातु विज्ञान",
           "architecture": "वास्तुकला"

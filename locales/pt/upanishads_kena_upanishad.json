@@ -1,11 +1,11 @@
 {
   "upanishads_kena-upanishad": {
-    "title": "Kena Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Kena Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Kena Upanishad – Ensinamentos do Upanishad no Sanātana Dharma",
+    "description": "Visão geral do Kena Upanishad: temas centrais, ideias-chave e por que este Upanishad é importante para a compreensão de Atman, Brahman e a libertação.",
     "meta": {
-      "title": "Kena Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Kena Upanishad – Ensinamentos do Upanishad no Sanātana Dharma",
       "canonical": "https://sanatanadharmam.in/upanishads/kena-upanishad",
-      "description": "Overview of Kena Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "Visão geral do Kena Upanishad: temas centrais, ideias-chave e por que este Upanishad é importante para a compreensão de Atman, Brahman e a libertação.",
       "keywords": [
         "Kena Upanishad",
         "Upanishads",
@@ -14,16 +14,16 @@
         "Brahman",
         "Sanatana Dharma"
       ],
-      "robots": "index, follow",
+      "robots": "índice, siga",
       "url": "https://sanatanadharmam.in/upanishads/kena-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_kena_upanishad.png"
     },
     "openGraph": {
-      "title": "Kena Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Kena Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Kena Upanishad – Ensinamentos do Upanishad no Sanātana Dharma",
+      "description": "Visão geral do Kena Upanishad: temas centrais, ideias-chave e por que este Upanishad é importante para a compreensão de Atman, Brahman e a libertação.",
       "url": "https://sanatanadharmam.in/upanishads/kena-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "Sanatanadharm",
+      "type": "artigo",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_kena_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Kena Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Kena Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "Artigo",
+      "name": "Kena Upanishad – Ensinamentos do Upanishad no Sanātana Dharma",
+      "description": "Visão geral do Kena Upanishad: temas centrais, ideias-chave e por que este Upanishad é importante para a compreensão de Atman, Brahman e a libertação.",
       "url": "https://sanatanadharmam.in/upanishads/kena-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "Site",
+        "name": "Sanatanadharm",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Kena Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Kena Upanishad begins with a powerful question about agency: “By whom is the mind directed? By whom does speech speak?” It turns the seeker back toward the source of knowing itself.",
+    "introduction": "Kena Upanishad é um dos principais Upanishads – textos que exploram as questões mais profundas da vida humana: Quem sou eu? O que é real? O que é o Ser (Atman) e a realidade última (Brahman)?\n\nO ensino Upanishad é frequentemente apresentado como diálogo e investigação. Em vez de oferecer uma única “crença”, treina a atenção e o discernimento para que quem busca possa passar da identidade exterior para a verdade interior.\n\nO Kena Upanishad começa com uma pergunta poderosa sobre a agência: \"Por quem a mente é dirigida? Por quem a fala fala?\" Isso leva o buscador de volta à fonte do próprio conhecimento.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "The source behind perception and thought, the limits of language, humility in knowledge, and the difference between conceptual knowing and direct realization."
+        "section": "Temas centrais",
+        "content": "A fonte por trás da percepção e do pensamento, os limites da linguagem, a humildade no conhecimento e a diferença entre o conhecimento conceitual e a realização direta."
       },
       {
-        "section": "Key insight",
-        "content": "The Upanishad points to a reality that is not an object among objects. It is the light by which all objects are known."
+        "section": "Visão principal",
+        "content": "O Upanishad aponta para uma realidade que não é um objeto entre objetos. É a luz pela qual todos os objetos são conhecidos."
       }
     ],
-    "philosophical_explanation": "Kena is a training in epistemic humility: what you can describe is not the final truth. The “knower of knowing” is approached through quieting arrogance, refining attention, and recognizing that consciousness is primary to experience."
+    "philosophical_explanation": "Kena é um treinamento em humildade epistêmica: o que você pode descrever não é a verdade final. O “conhecedor do conhecimento” é abordado através de acalmar a arrogância, refinando a atenção e reconhecendo que a consciência é fundamental para a experiência."
   }
 }

@@ -1,29 +1,29 @@
 {
   "upanishads_kena-upanishad": {
-    "title": "Kena Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Kena Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "ケーナ ウパニシャッド – サナータナ ダルマにおけるウパニシャッドの教え",
+    "description": "ケーナ ウパニシャッドの概要: 核となるテーマ、重要なアイデア、そしてアートマン、ブラフマン、解放を理解するためにこのウパニシャッドが重要である理由。",
     "meta": {
-      "title": "Kena Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "ケーナ ウパニシャッド – サナータナ ダルマにおけるウパニシャッドの教え",
       "canonical": "https://sanatanadharmam.in/upanishads/kena-upanishad",
-      "description": "Overview of Kena Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "ケーナ ウパニシャッドの概要: 核となるテーマ、重要なアイデア、そしてアートマン、ブラフマン、解放を理解するためにこのウパニシャッドが重要である理由。",
       "keywords": [
-        "Kena Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "ケーナ・ウパニシャッド",
+        "ウパニシャッド",
+        "ヴェダンタ",
+        "アートマン",
+        "ブラフマン",
+        "サタナダルマ"
       ],
-      "robots": "index, follow",
+      "robots": "インデックス、フォロー",
       "url": "https://sanatanadharmam.in/upanishads/kena-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_kena_upanishad.png"
     },
     "openGraph": {
-      "title": "Kena Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Kena Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "ケーナ ウパニシャッド – サナータナ ダルマにおけるウパニシャッドの教え",
+      "description": "ケーナ ウパニシャッドの概要: 核となるテーマ、重要なアイデア、そしてアートマン、ブラフマン、解放を理解するためにこのウパニシャッドが重要である理由。",
       "url": "https://sanatanadharmam.in/upanishads/kena-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "サナタナダルマム",
+      "type": "記事",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_kena_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Kena Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Kena Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "記事",
+      "name": "ケーナ ウパニシャッド – サナータナ ダルマにおけるウパニシャッドの教え",
+      "description": "ケーナ ウパニシャッドの概要: 核となるテーマ、重要なアイデア、そしてアートマン、ブラフマン、解放を理解するためにこのウパニシャッドが重要である理由。",
       "url": "https://sanatanadharmam.in/upanishads/kena-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "ウェブサイト",
+        "name": "サナタナダルマム",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Kena Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Kena Upanishad begins with a powerful question about agency: “By whom is the mind directed? By whom does speech speak?” It turns the seeker back toward the source of knowing itself.",
+    "introduction": "ケーナ ウパニシャッドは、主要なウパニシャッドの 1 つです。人間の人生の最も深い問い「私は誰ですか?」を探求する文書です。本物とは何ですか？真我（アートマン）と究極の現実（ブラフマン）とは何ですか？\n\nウパニシャッドの教えは、対話と探求として提示されることがよくあります。単一の「信念」を提供するのではなく、探求者が外側のアイデンティティから内側の真実へと移行できるように注意と識別力を訓練します。\n\nケーナ・ウパニシャッドは、「心は誰によって指示されるのか? 言葉は誰によって語られるのか?」という主体性に関する力強い質問から始まります。それは探求者を知識そのものの源へと引き戻します。",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "The source behind perception and thought, the limits of language, humility in knowledge, and the difference between conceptual knowing and direct realization."
+        "section": "中心的なテーマ",
+        "content": "認識と思考の背後にある源、言語の限界、知識の謙虚さ、概念的な知識と直接の実現の違い。"
       },
       {
-        "section": "Key insight",
-        "content": "The Upanishad points to a reality that is not an object among objects. It is the light by which all objects are known."
+        "section": "重要な洞察",
+        "content": "ウパニシャッドは、オブジェクトの中のオブジェクトではない現実を指します。それはすべての物体を知るための光です。"
       }
     ],
-    "philosophical_explanation": "Kena is a training in epistemic humility: what you can describe is not the final truth. The “knower of knowing” is approached through quieting arrogance, refining attention, and recognizing that consciousness is primary to experience."
+    "philosophical_explanation": "Kena は認識論的な謙虚さの訓練です。あなたが説明できるものは最終的な真実ではありません。 「知っていることを知っている人」は、傲慢さを静め、注意を磨き、意識が経験の第一であることを認識することによって近づきます。"
   }
 }

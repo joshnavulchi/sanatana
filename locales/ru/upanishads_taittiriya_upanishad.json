@@ -1,29 +1,29 @@
 {
   "upanishads_taittiriya-upanishad": {
-    "title": "Taittiriya Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Taittiriya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Тайттирия Упанишад - Учения Упанишад в Санатана Дхарме",
+    "description": "Обзор Тайттирия-упанишады: основные темы, ключевые идеи и почему эта Упанишада важна для понимания Атмана, Брахмана и освобождения.",
     "meta": {
-      "title": "Taittiriya Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Тайттирия Упанишад - Учения Упанишад в Санатана Дхарме",
       "canonical": "https://sanatanadharmam.in/upanishads/taittiriya-upanishad",
-      "description": "Overview of Taittiriya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "Обзор Тайттирия-упанишады: основные темы, ключевые идеи и почему эта Упанишада важна для понимания Атмана, Брахмана и освобождения.",
       "keywords": [
-        "Taittiriya Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "Тайттирия Упанишад",
+        "Упанишады",
+        "Веданта",
+        "Атман",
+        "Брахман",
+        "Санатана Дхарма"
       ],
-      "robots": "index, follow",
+      "robots": "индекс, следовать",
       "url": "https://sanatanadharmam.in/upanishads/taittiriya-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_taittiriya_upanishad.png"
     },
     "openGraph": {
-      "title": "Taittiriya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Taittiriya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Тайттирия Упанишад - Учения Упанишад в Санатана Дхарме",
+      "description": "Обзор Тайттирия-упанишады: основные темы, ключевые идеи и почему эта Упанишада важна для понимания Атмана, Брахмана и освобождения.",
       "url": "https://sanatanadharmam.in/upanishads/taittiriya-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "Санатанадхармам",
+      "type": "статья",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_taittiriya_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Taittiriya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Taittiriya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "Статья",
+      "name": "Тайттирия Упанишад - Учения Упанишад в Санатана Дхарме",
+      "description": "Обзор Тайттирия-упанишады: основные темы, ключевые идеи и почему эта Упанишада важна для понимания Атмана, Брахмана и освобождения.",
       "url": "https://sanatanadharmam.in/upanishads/taittiriya-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "Веб-сайт",
+        "name": "Санатанадхармам",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Taittiriya Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Taittiriya Upanishad is known for its layered approach to the human being—often explained through “sheaths” (koshas), moving from the physical to the subtle, culminating in the dimension of bliss (ananda).",
+    "introduction": "Тайттирия Упанишада — одна из главных Упанишад — текстов, исследующих самые глубокие вопросы человеческой жизни: Кто я? Что реально? Что такое Я (Атман) и высшая реальность (Брахман)?\n\nУчение Упанишад часто представлено как диалог и исследование. Вместо того, чтобы предлагать одно «верование», оно тренирует внимание и проницательность, чтобы ищущий мог перейти от внешней идентичности к внутренней истине.\n\nТайттирия-упанишада известна своим многоуровневым подходом к человеческому существу, который часто объясняется через «оболочки» (коша), переходя от физического к тонкому и достигая кульминации в измерении блаженства (ананды).",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Education and discipline, the kosha model, the nature of bliss, gratitude, and living with integrity."
+        "section": "Центральные темы",
+        "content": "Образование и дисциплина, модель коша, природа блаженства, благодарность и честная жизнь."
       },
       {
-        "section": "Practice reflection",
-        "content": "The text connects knowledge with character: truthful speech, responsible conduct, and respect for learning are presented as spiritual foundations."
+        "section": "Практикуйте размышление",
+        "content": "В тексте знания соединяются с характером: правдивая речь, ответственное поведение и уважение к учебе представлены как духовные основы."
       }
     ],
-    "philosophical_explanation": "Taittiriya links philosophy to formation: the mind becomes fit for truth through ethical refinement. The kosha framework prevents reductionism by showing that “self” is often misidentified with layers of experience rather than awareness itself."
+    "philosophical_explanation": "Таиттирия связывает философию с формированием: разум становится пригодным для истины посредством этической очистки. Концепция коша предотвращает редукционизм, показывая, что «я» часто ошибочно отождествляется с уровнями опыта, а не с самим осознанием."
   }
 }
