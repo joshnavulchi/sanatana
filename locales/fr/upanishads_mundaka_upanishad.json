@@ -1,28 +1,28 @@
 {
   "upanishads_mundaka-upanishad": {
-    "title": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Mundaka Upanishad – Enseignements Upanishad dans le Sanātana Dharma",
+    "description": "Aperçu de Mundaka Upanishad : thèmes centraux, idées clés et pourquoi cette Upanishad est importante pour la compréhension d'Atman, de Brahman et de la libération.",
     "meta": {
-      "title": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Mundaka Upanishad – Enseignements Upanishad dans le Sanātana Dharma",
       "canonical": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
-      "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "Aperçu de Mundaka Upanishad : thèmes centraux, idées clés et pourquoi cette Upanishad est importante pour la compréhension d'Atman, de Brahman et de la libération.",
       "keywords": [
         "Mundaka Upanishad",
         "Upanishads",
-        "Vedanta",
+        "Védanta",
         "Atman",
         "Brahman",
         "Sanatana Dharma"
       ],
-      "robots": "index, follow",
+      "robots": "indexer, suivre",
       "url": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_mundaka_upanishad.png"
     },
     "openGraph": {
-      "title": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Mundaka Upanishad – Enseignements Upanishad dans le Sanātana Dharma",
+      "description": "Aperçu de Mundaka Upanishad : thèmes centraux, idées clés et pourquoi cette Upanishad est importante pour la compréhension d'Atman, de Brahman et de la libération.",
       "url": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
-      "siteName": "Sanatanadharmam",
+      "siteName": "Sanatanadharman",
       "type": "article",
       "images": [
         {
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "Articles",
+      "name": "Mundaka Upanishad – Enseignements Upanishad dans le Sanātana Dharma",
+      "description": "Aperçu de Mundaka Upanishad : thèmes centraux, idées clés et pourquoi cette Upanishad est importante pour la compréhension d'Atman, de Brahman et de la libération.",
       "url": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "Site Web",
+        "name": "Sanatanadharman",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Mundaka Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nA well-known teaching of the Mundaka Upanishad is the distinction between two kinds of knowledge: lower knowledge (skills, rituals, learning) and higher knowledge (direct realization of the imperishable reality).",
+    "introduction": "Mundaka Upanishad est l'un des principaux Upanishads, des textes qui explorent les questions les plus profondes de la vie humaine : qui suis-je ? Qu'est-ce qui est réel ? Qu'est-ce que le Soi (Atman) et la réalité ultime (Brahman) ?\n\nL’enseignement upanishadique est souvent présenté comme un dialogue et une enquête. Plutôt que d’offrir une seule « croyance », il entraîne l’attention et le discernement afin qu’un chercheur puisse passer de l’identité extérieure à la vérité intérieure.\n\nUn enseignement bien connu du Mundaka Upanishad est la distinction entre deux types de connaissances : les connaissances inférieures (compétences, rituels, apprentissage) et les connaissances supérieures (réalisation directe de la réalité impérissable).",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Higher vs lower knowledge, renunciation and sincerity, the nature of Brahman, and the need for inner purification before subtle inquiry."
+        "section": "Thèmes centraux",
+        "content": "Connaissance supérieure ou inférieure, renoncement et sincérité, nature de Brahman et besoin de purification intérieure avant une enquête subtile."
       },
       {
-        "section": "Practice reflection",
-        "content": "The text encourages using learning as a support—but not mistaking it for realization. Inner integrity matters as much as study."
+        "section": "Pratiquer la réflexion",
+        "content": "Le texte encourage à utiliser l’apprentissage comme support, mais sans le confondre avec la réalisation. L’intégrité intérieure compte autant que l’étude."
       }
     ],
-    "philosophical_explanation": "Mundaka is a corrective for spiritual materialism: achievements and information are valuable, but liberation depends on seeing what does not change. It invites the seeker to turn from accumulation to clarity."
+    "philosophical_explanation": "Mundaka est un correctif du matérialisme spirituel : les réalisations et les informations sont précieuses, mais la libération dépend du fait de voir ce qui ne change pas. Il invite le chercheur à passer de l’accumulation à la clarté."
   }
 }

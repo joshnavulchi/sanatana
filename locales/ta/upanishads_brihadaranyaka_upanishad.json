@@ -1,29 +1,29 @@
 {
   "upanishads_brihadaranyaka-upanishad": {
-    "title": "Brihadaranyaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Brihadaranyaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "பிருஹதாரண்யக உபநிஷத் - சனாதன தர்மத்தில் உபநிஷத் போதனைகள்",
+    "description": "பிருஹதாரண்யக உபநிஷத்தின் கண்ணோட்டம்: முக்கிய கருப்பொருள்கள், முக்கிய யோசனைகள் மற்றும் ஆத்மா, பிரம்மம் மற்றும் விடுதலையைப் புரிந்துகொள்வதற்கு இந்த உபநிடதம் ஏன் முக்கியமானது.",
     "meta": {
-      "title": "Brihadaranyaka Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "பிருஹதாரண்யக உபநிஷத் - சனாதன தர்மத்தில் உபநிஷத் போதனைகள்",
       "canonical": "https://sanatanadharmam.in/upanishads/brihadaranyaka-upanishad",
-      "description": "Overview of Brihadaranyaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "பிருஹதாரண்யக உபநிஷத்தின் கண்ணோட்டம்: முக்கிய கருப்பொருள்கள், முக்கிய யோசனைகள் மற்றும் ஆத்மா, பிரம்மம் மற்றும் விடுதலையைப் புரிந்துகொள்வதற்கு இந்த உபநிடதம் ஏன் முக்கியமானது.",
       "keywords": [
-        "Brihadaranyaka Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "பிருஹதாரண்யக உபநிஷத்",
+        "உபநிடதங்கள்",
+        "வேதாந்தம்",
+        "ஆத்மா",
+        "பிரம்மன்",
+        "சனாதன தர்மம்"
       ],
-      "robots": "index, follow",
+      "robots": "குறியீட்டு, பின்பற்றவும்",
       "url": "https://sanatanadharmam.in/upanishads/brihadaranyaka-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_brihadaranyaka_upanishad.png"
     },
     "openGraph": {
-      "title": "Brihadaranyaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Brihadaranyaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "பிருஹதாரண்யக உபநிஷத் - சனாதன தர்மத்தில் உபநிஷத் போதனைகள்",
+      "description": "பிருஹதாரண்யக உபநிஷத்தின் கண்ணோட்டம்: முக்கிய கருப்பொருள்கள், முக்கிய யோசனைகள் மற்றும் ஆத்மா, பிரம்மம் மற்றும் விடுதலையைப் புரிந்துகொள்வதற்கு இந்த உபநிடதம் ஏன் முக்கியமானது.",
       "url": "https://sanatanadharmam.in/upanishads/brihadaranyaka-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "சனாதனதர்மம்",
+      "type": "கட்டுரை",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_brihadaranyaka_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Brihadaranyaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Brihadaranyaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "கட்டுரை",
+      "name": "பிருஹதாரண்யக உபநிஷத் - சனாதன தர்மத்தில் உபநிஷத் போதனைகள்",
+      "description": "பிருஹதாரண்யக உபநிஷத்தின் கண்ணோட்டம்: முக்கிய கருப்பொருள்கள், முக்கிய யோசனைகள் மற்றும் ஆத்மா, பிரம்மம் மற்றும் விடுதலையைப் புரிந்துகொள்வதற்கு இந்த உபநிடதம் ஏன் முக்கியமானது.",
       "url": "https://sanatanadharmam.in/upanishads/brihadaranyaka-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "இணையத்தளம்",
+        "name": "சனாதனதர்மம்",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Brihadaranyaka Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Brihadaranyaka Upanishad is one of the most influential and philosophically rich Upanishads. It contains deep dialogues on the Self, renunciation, and the limits of description—often pushing the seeker beyond simplistic answers.",
+    "introduction": "பிருஹதாரண்யக உபநிஷத் முதன்மையான உபநிடதங்களில் ஒன்றாகும் - மனித வாழ்க்கையின் ஆழமான கேள்விகளை ஆராயும் நூல்கள்: நான் யார்? உண்மையானது என்ன? சுயம் (ஆத்மன்) மற்றும் இறுதி உண்மை (பிரம்மன்) என்றால் என்ன?\n\nஉபநிஷத போதனை பெரும்பாலும் உரையாடல் மற்றும் விசாரணை என வழங்கப்படுகிறது. ஒரு \"நம்பிக்கையை\" வழங்குவதற்குப் பதிலாக, இது கவனத்தையும் பகுத்தறிவையும் பயிற்றுவிக்கிறது, எனவே தேடுபவர் வெளிப்புற அடையாளத்திலிருந்து உள் உண்மைக்கு செல்ல முடியும்.\n\nபிருஹதாரண்யக உபநிடதம் மிகவும் செல்வாக்கு மிக்க மற்றும் தத்துவ ரீதியாக வளமான உபநிடதங்களில் ஒன்றாகும். இது சுயம், துறத்தல் மற்றும் விளக்கத்தின் வரம்புகள் பற்றிய ஆழமான உரையாடல்களைக் கொண்டுள்ளது-பெரும்பாலும் எளிமையான பதில்களுக்கு அப்பால் தேடுபவரைத் தள்ளும்.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Self-inquiry, renunciation, discrimination between the real and the changing, and the use of negation to remove false identification."
+        "section": "மைய கருப்பொருள்கள்",
+        "content": "சுய-விசாரணை, துறத்தல், உண்மையான மற்றும் மாறுவதற்கு இடையேயான பாகுபாடு மற்றும் தவறான அடையாளத்தை அகற்ற மறுப்பைப் பயன்படுத்துதல்."
       },
       {
-        "section": "Practice reflection",
-        "content": "The text encourages a subtle honesty: release identities that depend on changing conditions, and rest in the awareness that does not depend on them."
+        "section": "பிரதிபலிப்பு பயிற்சி",
+        "content": "உரை ஒரு நுட்பமான நேர்மையை ஊக்குவிக்கிறது: மாறிவரும் நிலைமைகளைச் சார்ந்திருக்கும் அடையாளங்களை விடுவித்து, அவற்றைச் சார்ந்து இல்லாத விழிப்புணர்வில் ஓய்வெடுக்கவும்."
       }
     ],
-    "philosophical_explanation": "Brihadaranyaka strengthens the non-dual insight by systematically dismantling mistaken self-definitions. The result is not nihilism, but freedom: when the Self is not confined to roles or possessions, fear reduces and compassion becomes natural."
+    "philosophical_explanation": "பிருஹதாரண்யகா தவறான சுய-வரையறைகளை முறையாகத் தகர்ப்பதன் மூலம் இரட்டை அல்லாத நுண்ணறிவை வலுப்படுத்துகிறார். விளைவு நீலிசம் அல்ல, ஆனால் சுதந்திரம்: சுயம் பாத்திரங்கள் அல்லது உடைமைகளுடன் மட்டுப்படுத்தப்படாதபோது, ​​​​பயம் குறைகிறது மற்றும் இரக்கம் இயற்கையானது."
   }
 }

@@ -1,29 +1,29 @@
 {
   "sanskrit_concepts": {
-    "title": "Sanskrit Concepts — Key Terms of Sanātana Dharma",
-    "description": "Sanskrit concepts form the philosophical vocabulary of Sanātana Dharma — terms like Dharma, Karma, Atman, Brahman and Maya that explain the nature of reality, self and cosmic order.",
+    "title": "சமஸ்கிருத கருத்துக்கள் - சனாதன தர்மத்தின் முக்கிய விதிமுறைகள்",
+    "description": "சமஸ்கிருத கருத்துக்கள் சனாதன தர்மத்தின் தத்துவ சொற்களஞ்சியத்தை உருவாக்குகின்றன - தர்மம், கர்மா, ஆத்மா, பிரம்மன் மற்றும் மாயா போன்ற சொற்கள் யதார்த்தம், சுய மற்றும் அண்ட ஒழுங்கின் தன்மையை விளக்குகின்றன.",
     "meta": {
-      "title": "Sanskrit Concepts – Key Terms of Sanātana Dharma",
+      "title": "சமஸ்கிருத கருத்துக்கள் - சனாதன தர்மத்தின் முக்கிய விதிமுறைகள்",
       "canonical": "https://sanatanadharmam.in/sanskrit-concepts",
-      "description": "Explore important Sanskrit philosophical concepts such as Dharma, Karma, Atman, Brahman and Maya that form the foundation of Vedic and Vedantic thought.",
+      "description": "வேத மற்றும் வேதாந்த சிந்தனையின் அடித்தளத்தை உருவாக்கும் தர்மம், கர்மா, ஆத்மா, பிரம்மன் மற்றும் மாயா போன்ற முக்கியமான சமஸ்கிருத தத்துவக் கருத்துகளை ஆராயுங்கள்.",
       "keywords": [
-        "sanskrit concepts",
-        "dharma meaning",
-        "karma philosophy",
-        "atman brahman concept",
-        "maya vedanta",
-        "vedic philosophy terms",
-        "sanatana dharma concepts"
+        "சமஸ்கிருத கருத்துக்கள்",
+        "தர்மத்தின் பொருள்",
+        "கர்ம தத்துவம்",
+        "ஆத்மா பிரம்மன் கருத்து",
+        "மாயா வேதாந்தம்",
+        "வேத தத்துவ விதிமுறைகள்",
+        "சனாதன தர்ம கருத்துக்கள்"
       ],
-      "robots": "index, follow",
+      "robots": "குறியீட்டு, பின்பற்றவும்",
       "url": "https://sanatanadharmam.in/sanskrit-concepts"
     },
     "openGraph": {
-      "title": "Sanskrit Concepts – Philosophy of Sanātana Dharma",
-      "description": "Learn the key Sanskrit philosophical concepts such as Dharma, Karma, Atman and Brahman that explain the nature of reality and consciousness.",
+      "title": "சமஸ்கிருத கருத்துக்கள் - சனாதன தர்மத்தின் தத்துவம்",
+      "description": "உண்மை மற்றும் நனவின் தன்மையை விளக்கும் தர்மம், கர்மா, ஆத்மா மற்றும் பிரம்மன் போன்ற முக்கிய சமஸ்கிருத தத்துவக் கருத்துகளைக் கற்றுக்கொள்ளுங்கள்.",
       "url": "https://sanatanadharmam.in/sanskrit-concepts",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "சனாதனதர்மம்",
+      "type": "கட்டுரை",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/sanskrit-concepts.png",
@@ -34,79 +34,79 @@
       ]
     },
     "concepts": [
-      "Dharma",
-      "Karma",
-      "Atman",
-      "Brahman",
-      "Maya",
-      "Moksha",
-      "Samsara",
-      "Purushartha",
-      "Yoga",
-      "Jnana"
+      "தர்மம்",
+      "கர்மா",
+      "ஆத்மா",
+      "பிரம்மன்",
+      "மாயா",
+      "மோக்ஷா",
+      "சம்சாரம்",
+      "புருஷார்த்த",
+      "யோகா",
+      "ஞான"
     ],
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "CollectionPage",
-          "name": "Sanskrit Concepts",
-          "description": "Collection of key Sanskrit philosophical concepts explaining the teachings of Sanātana Dharma.",
+          "@type": "சேகரிப்பு பக்கம்",
+          "name": "சமஸ்கிருத கருத்துக்கள்",
+          "description": "சனாதன தர்மத்தின் போதனைகளை விளக்கும் முக்கிய சமஸ்கிருத தத்துவக் கருத்துகளின் தொகுப்பு.",
           "url": "https://sanatanadharmam.in/sanskrit-concepts"
         },
         {
-          "@type": "ItemList",
-          "name": "Philosophical Concepts of Sanātana Dharma",
+          "@type": "உருப்படி பட்டியல்",
+          "name": "சனாதன தர்மத்தின் தத்துவக் கருத்துக்கள்",
           "itemListElement": [
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 1,
-              "name": "Dharma"
+              "name": "தர்மம்"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 2,
-              "name": "Karma"
+              "name": "கர்மா"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 3,
-              "name": "Atman"
+              "name": "ஆத்மா"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 4,
-              "name": "Brahman"
+              "name": "பிரம்மன்"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 5,
-              "name": "Maya"
+              "name": "மாயா"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 6,
-              "name": "Moksha"
+              "name": "மோக்ஷா"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 7,
-              "name": "Samsara"
+              "name": "சம்சாரம்"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 8,
-              "name": "Purushartha"
+              "name": "புருஷார்த்த"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 9,
-              "name": "Yoga"
+              "name": "யோகா"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 10,
-              "name": "Jnana"
+              "name": "ஞான"
             }
           ]
         }

@@ -1,29 +1,29 @@
 {
   "upanishads_isha-upanishad": {
-    "title": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "イシャ・ウパニシャッド – サナータナ・ダルマにおけるウパニシャッドの教え",
+    "description": "イシャ ウパニシャッドの概要: 核となるテーマ、主要なアイデア、そしてアートマン、ブラフマン、解放を理解するためにこのウパニシャッドが重要である理由。",
     "meta": {
-      "title": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "イシャ・ウパニシャッド – サナータナ・ダルマにおけるウパニシャッドの教え",
       "canonical": "https://sanatanadharmam.in/upanishads/isha-upanishad",
-      "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "イシャ ウパニシャッドの概要: 核となるテーマ、主要なアイデア、そしてアートマン、ブラフマン、解放を理解するためにこのウパニシャッドが重要である理由。",
       "keywords": [
-        "Isha Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "イシャ・ウパニシャッド",
+        "ウパニシャッド",
+        "ヴェダンタ",
+        "アートマン",
+        "ブラフマン",
+        "サタナダルマ"
       ],
-      "robots": "index, follow",
+      "robots": "インデックス、フォロー",
       "url": "https://sanatanadharmam.in/upanishads/isha-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_isha_upanishad.png"
     },
     "openGraph": {
-      "title": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "イシャ・ウパニシャッド – サナータナ・ダルマにおけるウパニシャッドの教え",
+      "description": "イシャ ウパニシャッドの概要: 核となるテーマ、主要なアイデア、そしてアートマン、ブラフマン、解放を理解するためにこのウパニシャッドが重要である理由。",
       "url": "https://sanatanadharmam.in/upanishads/isha-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "サナタナダルマム",
+      "type": "記事",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_isha_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "記事",
+      "name": "イシャ・ウパニシャッド – サナータナ・ダルマにおけるウパニシャッドの教え",
+      "description": "イシャ ウパニシャッドの概要: 核となるテーマ、主要なアイデア、そしてアートマン、ブラフマン、解放を理解するためにこのウパニシャッドが重要である理由。",
       "url": "https://sanatanadharmam.in/upanishads/isha-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "ウェブサイト",
+        "name": "サナタナダルマム",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Isha Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nA distinctive feature of the Isha Upanishad is the way it joins renunciation with right action: it teaches inner non-attachment while living responsibly in the world.",
+    "introduction": "イシャ ウパニシャッドは、人間の人生の最も深い疑問「私は誰ですか?」を探求する主要なウパニシャッドの 1 つです。本物とは何ですか？真我（アートマン）と究極の現実（ブラフマン）とは何ですか？\n\nウパニシャッドの教えは、対話と探求として提示されることがよくあります。単一の「信念」を提供するのではなく、探求者が外側のアイデンティティから内側の真実へと移行できるように注意と識別力を訓練します。\n\nイシャ ウパニシャッドの特徴は、放棄と正しい行動を結びつける方法です。世界で責任を持って生きながら、内なる無執着を教えます。",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Inner renunciation, seeing the Divine presence within and around, freedom from possessiveness, and the discipline of acting without ego-driven attachment."
+        "section": "中心的なテーマ",
+        "content": "内なる放棄、内と周囲の神の存在を見ること、所有欲からの自由、そしてエゴ主導の執着なしに行動する規律。"
       },
       {
-        "section": "Practice reflection",
-        "content": "The text invites a balanced life: perform your duties, but let go of the “I own” and “I control” mindset. This is a practical doorway to peace."
+        "section": "反省の練習をする",
+        "content": "このテキストは、バランスのとれた生活を勧めています。自分の義務を果たしながらも、「私が所有する」「私がコントロールする」という考え方を手放してください。これは平和への実際的な入り口です。"
       }
     ],
-    "philosophical_explanation": "Philosophically, Isha emphasizes a unified vision: the same reality is present in movement and stillness, in the near and the far. When this vision becomes stable, fear and greed soften, and action becomes cleaner—more like service than self-assertion."
+    "philosophical_explanation": "哲学的に、イシャは統一されたビジョンを強調します。同じ現実が、動きと静けさ、近くと遠くに存在します。このビジョンが安定すると、恐怖と貪欲が和らぎ、行動がよりクリーンになり、自己主張よりも奉仕に近くなります。"
   }
 }

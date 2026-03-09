@@ -1,29 +1,29 @@
 {
   "upanishads_mundaka-upanishad": {
-    "title": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "ムンダカ ウパニシャッド – サナータナ ダルマにおけるウパニシャッドの教え",
+    "description": "ムンダカ ウパニシャッドの概要: 核となるテーマ、重要なアイデア、そしてなぜこのウパニシャッドがアートマン、ブラフマン、解放を理解する上で重要なのか。",
     "meta": {
-      "title": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "ムンダカ ウパニシャッド – サナータナ ダルマにおけるウパニシャッドの教え",
       "canonical": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
-      "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "ムンダカ ウパニシャッドの概要: 核となるテーマ、重要なアイデア、そしてなぜこのウパニシャッドがアートマン、ブラフマン、解放を理解する上で重要なのか。",
       "keywords": [
-        "Mundaka Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "ムンダカ・ウパニシャッド",
+        "ウパニシャッド",
+        "ヴェダンタ",
+        "アートマン",
+        "ブラフマン",
+        "サタナダルマ"
       ],
-      "robots": "index, follow",
+      "robots": "インデックス、フォロー",
       "url": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_mundaka_upanishad.png"
     },
     "openGraph": {
-      "title": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "ムンダカ ウパニシャッド – サナータナ ダルマにおけるウパニシャッドの教え",
+      "description": "ムンダカ ウパニシャッドの概要: 核となるテーマ、重要なアイデア、そしてなぜこのウパニシャッドがアートマン、ブラフマン、解放を理解する上で重要なのか。",
       "url": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "サナタナダルマム",
+      "type": "記事",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_mundaka_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "記事",
+      "name": "ムンダカ ウパニシャッド – サナータナ ダルマにおけるウパニシャッドの教え",
+      "description": "ムンダカ ウパニシャッドの概要: 核となるテーマ、重要なアイデア、そしてなぜこのウパニシャッドがアートマン、ブラフマン、解放を理解する上で重要なのか。",
       "url": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "ウェブサイト",
+        "name": "サナタナダルマム",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Mundaka Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nA well-known teaching of the Mundaka Upanishad is the distinction between two kinds of knowledge: lower knowledge (skills, rituals, learning) and higher knowledge (direct realization of the imperishable reality).",
+    "introduction": "ムンダカ ウパニシャッドは、主要なウパニシャッドの 1 つであり、人間の人生の最も深い疑問「私は誰ですか?」を探求する文書です。本物とは何ですか？真我（アートマン）と究極の現実（ブラフマン）とは何ですか？\n\nウパニシャッドの教えは、対話と探求として提示されることがよくあります。単一の「信念」を提供するのではなく、探求者が外側のアイデンティティから内側の真実へと移行できるように注意と識別力を訓練します。\n\nムンダカ ウパニシャッドのよく知られた教えは、低次の知識 (スキル、儀式、学習) と高次の知識 (不滅の現実の直接の実現) の 2 種類の知識の区別です。",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Higher vs lower knowledge, renunciation and sincerity, the nature of Brahman, and the need for inner purification before subtle inquiry."
+        "section": "中心的なテーマ",
+        "content": "高次の知識と低次の知識、放棄と誠実さ、ブラフマンの性質、微妙な探求の前に内なる浄化の必要性。"
       },
       {
-        "section": "Practice reflection",
-        "content": "The text encourages using learning as a support—but not mistaking it for realization. Inner integrity matters as much as study."
+        "section": "反省の練習をする",
+        "content": "このテキストでは、学習をサポートとして利用することを奨励していますが、それを認識と誤解しないでください。内面の誠実さは勉強と同じくらい重要です。"
       }
     ],
-    "philosophical_explanation": "Mundaka is a corrective for spiritual materialism: achievements and information are valuable, but liberation depends on seeing what does not change. It invites the seeker to turn from accumulation to clarity."
+    "philosophical_explanation": "ムンダカは精神的な物質主義を正すものです。成果や情報は価値がありますが、解放は何が変わらないかを見ることにかかっています。それは探求者に蓄積から明晰さへの転換を促します。"
   }
 }

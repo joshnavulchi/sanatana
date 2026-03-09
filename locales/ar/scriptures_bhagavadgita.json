@@ -1,30 +1,30 @@
 {
   "scriptures_bhagavadgita": {
-    "title": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-    "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
+    "title": "البهاغافاد غيتا – تعاليم عن الدارما واليوجا والتحرر",
+    "description": "دراسة البهاغافاد غيتا: تعاليم سري كريشنا عن دارما، وكارما يوجا، وبهاكتي، وجنانا، والطريق إلى الحرية الداخلية.",
     "meta": {
-      "title": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
+      "title": "البهاغافاد غيتا – تعاليم عن الدارما واليوجا والتحرر",
       "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-      "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
+      "description": "دراسة البهاغافاد غيتا: تعاليم سري كريشنا عن دارما، وكارما يوجا، وبهاكتي، وجنانا، والطريق إلى الحرية الداخلية.",
       "keywords": [
-        "Bhagavad Gita",
-        "Krishna",
-        "Arjuna",
-        "Yoga",
-        "dharma",
-        "karma yoga",
-        "bhakti"
+        "باجافاد جيتا",
+        "كريشنا",
+        "أرجونا",
+        "اليوغا",
+        "دارما",
+        "كارما يوجا",
+        "بهاكتي"
       ],
-      "robots": "index, follow",
+      "robots": "الفهرس، اتبع",
       "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
       "ogImage": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png"
     },
     "openGraph": {
-      "title": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-      "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
+      "title": "البهاغافاد غيتا – تعاليم عن الدارما واليوجا والتحرر",
+      "description": "دراسة البهاغافاد غيتا: تعاليم سري كريشنا عن دارما، وكارما يوجا، وبهاكتي، وجنانا، والطريق إلى الحرية الداخلية.",
       "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "ساناتانادارمام",
+      "type": "شرط",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png",
@@ -36,27 +36,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-      "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
+      "@type": "شرط",
+      "name": "البهاغافاد غيتا – تعاليم عن الدارما واليوجا والتحرر",
+      "description": "دراسة البهاغافاد غيتا: تعاليم سري كريشنا عن دارما، وكارما يوجا، وبهاكتي، وجنانا، والطريق إلى الحرية الداخلية.",
       "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "موقع إلكتروني",
+        "name": "ساناتانادارمام",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "The Bhagavad Gita is a foundational spiritual text presented as a dialogue between Sri Krishna and Arjuna on the battlefield of Kurukshetra. It addresses a universal crisis: how to act rightly when life is complex, emotions are intense, and the consequences of action are unavoidable.\n\nThe Gita teaches multiple yogas (disciplines) that converge toward inner freedom: selfless action, devotion, and knowledge—guided by dharma and clarity of mind.",
+    "introduction": "يعد Bhagavad Gita نصًا روحيًا تأسيسيًا تم تقديمه كحوار بين سري كريشنا وأرجونا في ساحة معركة كوروكشيترا. إنه يتناول أزمة عالمية: كيفية التصرف بشكل صحيح عندما تكون الحياة معقدة، والعواطف مكثفة، وعواقب العمل لا مفر منها.\n\nتُعلِّم غيتا العديد من اليوغا (التخصصات) التي تتلاقى نحو الحرية الداخلية: العمل غير الأناني، والتفاني، والمعرفة - مسترشدة بالدارما ووضوح العقل.",
     "scripture_text": [
       {
-        "section": "Core topics covered",
-        "content": "The Gita discusses svadharma (one’s rightful duty), karma yoga (selfless action), bhakti (devotion), jnana (knowledge), dhyana (meditation), the gunas (qualities of nature), and the vision of the Self beyond fear and sorrow."
+        "section": "المواضيع الأساسية المغطاة",
+        "content": "يناقش الجيتا svadharma (الواجب المشروع للفرد)، وkarma Yoga (العمل غير الأناني)، وbhakti (الإخلاص)، وjnana (المعرفة)، وdhyana (التأمل)، وgunas (صفات الطبيعة)، ورؤية الذات وراء الخوف والحزن."
       },
       {
-        "section": "How chapters are organized",
-        "content": "Each chapter is traditionally treated as a distinct yoga or emphasis, yet the teaching remains integrated: the purpose is steadiness, discernment, and alignment with truth in thought, speech, and action."
+        "section": "كيفية تنظيم الفصول",
+        "content": "يتم التعامل مع كل فصل تقليديًا على أنه يوغا أو تأكيد متميز، ومع ذلك يظل التدريس متكاملاً: فالغرض هو الثبات والتمييز والمواءمة مع الحقيقة في الفكر والكلام والعمل."
       }
     ],
-    "philosophical_explanation": "Philosophically, the Bhagavad Gita reconciles action and renunciation. It does not demand withdrawal from life; it refines how one engages with life—acting without ego-driven attachment to outcomes. This transforms work into yoga.\n\nThe Gita also frames spiritual growth as a balance: devotion that softens the heart, knowledge that clarifies the mind, and disciplined action that purifies intention. The result is a life guided by dharma, courage, and compassion."
+    "philosophical_explanation": "من الناحية الفلسفية، البهاغافاد غيتا يوفق بين الفعل والتخلي. لا يتطلب الانسحاب من الحياة؛ إنه ينقح كيفية تعامل المرء مع الحياة، من خلال التصرف دون الارتباط بالنتائج التي تحركها الأنا. وهذا يحول العمل إلى اليوغا.\n\nكما تضع الجيتا النمو الروحي في صورة توازن: الإخلاص الذي يلين القلب، والمعرفة التي توضح العقل، والعمل المنضبط الذي ينقي النية. والنتيجة هي حياة تسترشد بالدارما والشجاعة والرحمة."
   }
 }

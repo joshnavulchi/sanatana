@@ -1,541 +1,541 @@
 {
   "sharable_strings": {
-    "sitetitle": "Sanātana Dharma",
+    "sitetitle": "سناتن دھرم",
     "banner_notifications": {
-      "title": "If you find our work helpful, consider supporting us to keep this web page ",
+      "title": "اگر آپ کو ہمارا کام مددگار معلوم ہوتا ہے، تو اس ویب صفحہ کو برقرار رکھنے کے لیے ہماری مدد کرنے پر غور کریں۔",
       "links": {
         "alive": "/donate"
       },
-      "subtitle": " and Help us grow by making a small donation."
+      "subtitle": "اور ایک چھوٹا سا عطیہ دے کر ہماری ترقی میں مدد کریں۔"
     },
     "banner_notifications2": {
-      "title": "Protecting the roots of Sanātana Dharma for a brighter future.",
-      "subtitle": "Empowering future generations through timeless Vedic knowledge."
+      "title": "ایک روشن مستقبل کے لیے سناتن دھرم کی جڑوں کی حفاظت کرنا۔",
+      "subtitle": "لازوال ویدک علم کے ذریعے آنے والی نسلوں کو بااختیار بنانا۔"
     },
     "header": {
       "vedas": {
-        "title": "Vedas",
+        "title": "وید",
         "nav": [
           {
-            "name": "Rigveda",
-            "description": "Oldest Veda consisting of hymns dedicated to various deities."
+            "name": "رگ وید",
+            "description": "قدیم ترین وید جو مختلف دیوتاؤں کے لیے وقف کردہ بھجن پر مشتمل ہے۔"
           },
           {
-            "name": "Yajurveda",
-            "description": "Contains sacrificial formulas used in rituals."
+            "name": "یجروید",
+            "description": "رسموں میں استعمال ہونے والے قربانی کے فارمولوں پر مشتمل ہے۔"
           },
           {
-            "name": "Samaveda",
-            "description": "Collection of melodies and chants used for ritual singing."
+            "name": "ساموید",
+            "description": "رسم گائیکی کے لیے استعمال ہونے والی دھنوں اور منتروں کا مجموعہ۔"
           },
           {
-            "name": "Atharvaveda",
-            "description": "Contains hymns, spells, and philosophical teachings."
+            "name": "اتھرو وید",
+            "description": "بھجن، منتر، اور فلسفیانہ تعلیمات پر مشتمل ہے۔"
           }
         ]
       },
       "upanishads": {
-        "title": "Upanishads",
+        "title": "اپنشد",
         "nav": {
-          "isha-upanishad": "Isha Upanishad",
-          "kena-upanishad": "Kena Upanishad",
-          "katha-upanishad": "Katha Upanishad",
-          "prashna-upanishad": "Prashna Upanishad",
-          "mundaka-upanishad": "Mundaka Upanishad",
-          "mandukya-upanishad": "Mandukya Upanishad",
-          "taittiriya-upanishad": "Taittiriya Upanishad",
-          "aitareya-upanishad": "Aitareya Upanishad",
-          "chandogya-upanishad": "Chandogya Upanishad",
-          "brihadaranyaka-upanishad": "Brihadaranyaka Upanishad",
-          "shvetashvatara-upanishad": "Shvetashvatara Upanishad",
-          "kaushitaki-upanishad": "Kaushitaki Upanishad",
-          "maitri-upanishad": "Maitri Upanishad"
+          "isha-upanishad": "ایشا اپنشد",
+          "kena-upanishad": "کینا اپنشد",
+          "katha-upanishad": "کتھا اپنشد",
+          "prashna-upanishad": "پرشنا اپنشد",
+          "mundaka-upanishad": "منڈاکا اپنشد",
+          "mandukya-upanishad": "منڈوکیا اپنشد",
+          "taittiriya-upanishad": "تیتیریہ اپنشد",
+          "aitareya-upanishad": "ایتریہ اپنشد",
+          "chandogya-upanishad": "چندوگیا اپنشد",
+          "brihadaranyaka-upanishad": "برہدارنیکا اپنشد",
+          "shvetashvatara-upanishad": "شویتاشواتارا اپنشد",
+          "kaushitaki-upanishad": "کوشیتاکی اپنشد",
+          "maitri-upanishad": "میتری اپنشد"
         }
       },
       "puranas": {
-        "title": "Puranas",
+        "title": "پرانوں",
         "nav": {
-          "brahma-purana": "Brahma Purana",
-          "padma-purana": "Padma Purana",
-          "vishnu-purana": "Vishnu Purana",
-          "shiva-purana": "Shiva Purana",
-          "bhagavata-purana": "Bhagavata Purana",
-          "narada-purana": "Narada Purana",
-          "markandeya-purana": "Markandeya Purana",
-          "agni-purana": "Agni Purana",
-          "bhavishya-purana": "Bhavishya Purana",
-          "brahmavaivarta-purana": "Brahmavaivarta Purana",
-          "linga-purana": "Linga Purana",
-          "varaha-purana": "Varaha Purana",
-          "skanda-purana": "Skanda Purana",
-          "vamana-purana": "Vamana Purana",
-          "kurma-purana": "Kurma Purana",
-          "matsya-purana": "Matsya Purana",
-          "garuda-purana": "Garuda Purana",
-          "brahmanda-purana": "Brahmanda Purana"
+          "brahma-purana": "برہما پران",
+          "padma-purana": "پدما پران",
+          "vishnu-purana": "وشنو پران",
+          "shiva-purana": "شیو پران",
+          "bhagavata-purana": "بھگوت پران",
+          "narada-purana": "ناردا پران",
+          "markandeya-purana": "مارکنڈے پران",
+          "agni-purana": "اگنی پران",
+          "bhavishya-purana": "بھویشیہ پران",
+          "brahmavaivarta-purana": "برہماویورت پران",
+          "linga-purana": "لِنگا پران",
+          "varaha-purana": "وراہا پران",
+          "skanda-purana": "سکند پران",
+          "vamana-purana": "وامان پران",
+          "kurma-purana": "کرم پران",
+          "matsya-purana": "متسیہ پران",
+          "garuda-purana": "گروڈ پران",
+          "brahmanda-purana": "برہمانڈا پران"
         }
       },
       "itihasa": {
-        "title": "Itihasa",
+        "title": "اتحاسا",
         "nav": [
           {
-            "name": "Ramayana",
-            "author": "Valmiki",
-            "description": "Epic describing the life of Lord Rama.",
+            "name": "رامائن",
+            "author": "والمیکی",
+            "description": "بھگوان رام کی زندگی کو بیان کرنے والا مہاکاوی۔",
             "kandas": {
-              "bala-kanda": "Bala Kanda",
-              "ayodhya-kanda": "Ayodhya Kanda",
-              "aranya-kanda": "Aranya Kanda",
-              "kishkinda-kanda": "Kishkindha Kanda",
-              "sundara-kanda": "Sundara Kanda",
-              "yuddha-kanda": "Yuddha Kanda",
-              "uttara-kanda": "Uttara Kanda"
+              "bala-kanda": "بالا کنڈا",
+              "ayodhya-kanda": "ایودھیا کنڈا",
+              "aranya-kanda": "آرانیہ کنڈا",
+              "kishkinda-kanda": "کشکندا کنڈا",
+              "sundara-kanda": "سندرا کنڈا",
+              "yuddha-kanda": "یودھا کنڈا",
+              "uttara-kanda": "اترا کنڈا"
             }
           },
           {
-            "name": "Mahabharata",
-            "author": "Vyasa",
-            "description": "Epic describing the Kurukshetra war and dharma.",
+            "name": "مہابھارت",
+            "author": "ویاسا۔",
+            "description": "کروکشیتر جنگ اور دھرم کو بیان کرنے والی مہاکاوی۔",
             "parvas": 18
           },
           {
-            "description": "Sacred dialogue between Lord Krishna and Arjuna.",
+            "description": "بھگوان کرشن اور ارجن کے درمیان مقدس مکالمہ۔",
             "chapters": 18,
             "verses": 700,
             "chapters_list": {
-              "arjuna-vishada-yoga": "Arjuna Vishada Yoga",
-              "sankhya-yoga": "Sankhya Yoga",
-              "karma-yoga": "Karma Yoga",
-              "jnana-karma-sanyasa-yoga": "Jnana Karma Sanyasa Yoga",
-              "karma-sanyasa-yoga": "Karma Sanyasa Yoga",
-              "dhyana-yoga": "Dhyana Yoga",
-              "jnana-vijnana-yoga": "Jnana Vijnana Yoga",
-              "akshara-brahma-yoga": "Akshara Brahma Yoga",
-              "raja-vidya-raja-guhya-yoga": "Raja Vidya Raja Guhya Yoga",
-              "vibhuti-yoga": "Vibhuti Yoga",
-              "vishvarupa-darshana-yoga": "Vishvarupa Darshana Yoga",
-              "bhakti-yoga": "Bhakti Yoga",
-              "kshetra-kshetrajna-vibhaga-yoga": "Kshetra Kshetrajna Vibhaga Yoga",
-              "gunatraya-vibhaga-yoga": "Gunatraya Vibhaga Yoga",
-              "purushottama-yoga": "Purushottama Yoga",
-              "daivasura-sampad-vibhaga-yoga": "Daivasura Sampad Vibhaga Yoga",
-              "shraddhatray-vibhaga-yoga": "Shraddhatraya Vibhaga Yoga",
-              "moksha-sanyasa-yoga": "Moksha Sanyasa Yoga"
+              "arjuna-vishada-yoga": "ارجن وشدا یوگا",
+              "sankhya-yoga": "سانکھیا یوگا",
+              "karma-yoga": "کرما یوگا",
+              "jnana-karma-sanyasa-yoga": "جننا کرما سنیاسا یوگا",
+              "karma-sanyasa-yoga": "کرما سنیاسا یوگا",
+              "dhyana-yoga": "دھیان یوگا",
+              "jnana-vijnana-yoga": "جننا وجنا یوگا",
+              "akshara-brahma-yoga": "اکشرا برہما یوگا",
+              "raja-vidya-raja-guhya-yoga": "راجہ ودیا راجہ گوہیا یوگا",
+              "vibhuti-yoga": "وبھوتی یوگا",
+              "vishvarupa-darshana-yoga": "وشوروپ درشن یوگا",
+              "bhakti-yoga": "بھکتی یوگا",
+              "kshetra-kshetrajna-vibhaga-yoga": "Kshetra Kshetrajna Vibhaga یوگا",
+              "gunatraya-vibhaga-yoga": "گناترایا وبھاگا یوگا",
+              "purushottama-yoga": "پروشوتما یوگا",
+              "daivasura-sampad-vibhaga-yoga": "دیواسور سمپد وبھاگا یوگا",
+              "shraddhatray-vibhaga-yoga": "شردھاترایا وبھاگا یوگا",
+              "moksha-sanyasa-yoga": "موکشا سنیاس یوگا"
             }
           }
         ]
       },
       "philosopy": {
-        "title": "Philosophy",
-        "subtitle": "Vedic",
+        "title": "فلسفہ",
+        "subtitle": "ویدک",
         "nav": {
-          "advaita": "Advaita",
-          "purushartha": "Purushartha",
-          "samsara": "Samsara",
-          "dharma": "Dharma",
-          "karma": "Karma",
-          "moksha": "Moksha"
+          "advaita": "ادویت",
+          "purushartha": "پروشارتھا",
+          "samsara": "سمسارا",
+          "dharma": "دھرم",
+          "karma": "کرما",
+          "moksha": "موکشا۔"
         }
       },
       "science": {
-        "title": "Science",
-        "subtitle": "Vedic",
+        "title": "سائنس",
+        "subtitle": "ویدک",
         "nav": {
-          "astronomy": "Astronomy",
-          "mathematics": "Mathematics",
-          "medicine": "Medicine",
-          "metallurgy": "Metallurgy",
-          "architecture": "Architecture"
+          "astronomy": "فلکیات",
+          "mathematics": "ریاضی",
+          "medicine": "دوائی",
+          "metallurgy": "دھات کاری",
+          "architecture": "فن تعمیر"
         }
       }
     },
     "footer": {
-      "title": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत। अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम्॥",
-      "contact": "Contact with us",
-      "contentchange": "Content may be incomplete or subject to change.",
-      "copyright": "Vulchi Vijaya Kumar Raju © 2025.",
-      "disclaimer": "Disclaimer: This website is currently in development.",
-      "donate": "Donate",
+      "title": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत। अभ्युत्थानमधर्मस्य तदात्मानं सृजाम् यहम्",
+      "contact": "ہم سے رابطہ کریں۔",
+      "contentchange": "مواد نامکمل ہو سکتا ہے یا اس میں تبدیلی ہو سکتی ہے۔",
+      "copyright": "ولچی وجئے کمار راجو © 2025۔",
+      "disclaimer": "اعلان دستبرداری: یہ ویب سائٹ فی الحال ترقی میں ہے۔",
+      "donate": "عطیہ کریں۔",
       "vedas": {
-        "title": "Vedas",
+        "title": "وید",
         "nav": [
           {
-            "name": "Rigveda",
-            "description": "Oldest Veda consisting of hymns dedicated to various deities."
+            "name": "رگ وید",
+            "description": "قدیم ترین وید جو مختلف دیوتاؤں کے لیے وقف کردہ بھجن پر مشتمل ہے۔"
           },
           {
-            "name": "Yajurveda",
-            "description": "Contains sacrificial formulas used in rituals."
+            "name": "یجروید",
+            "description": "رسموں میں استعمال ہونے والے قربانی کے فارمولوں پر مشتمل ہے۔"
           },
           {
-            "name": "Samaveda",
-            "description": "Collection of melodies and chants used for ritual singing."
+            "name": "ساموید",
+            "description": "رسم گائیکی کے لیے استعمال ہونے والی دھنوں اور منتروں کا مجموعہ۔"
           },
           {
-            "name": "Atharvaveda",
-            "description": "Contains hymns, spells, and philosophical teachings."
+            "name": "اتھرو وید",
+            "description": "بھجن، منتر، اور فلسفیانہ تعلیمات پر مشتمل ہے۔"
           }
         ]
       },
       "upanishads": {
-        "title": "Upanishads",
+        "title": "اپنشد",
         "nav": {
-          "isha-upanishad": "Isha Upanishad",
-          "kena-upanishad": "Kena Upanishad",
-          "katha-upanishad": "Katha Upanishad",
-          "prashna-upanishad": "Prashna Upanishad",
-          "mundaka-upanishad": "Mundaka Upanishad",
-          "mandukya-upanishad": "Mandukya Upanishad",
-          "taittiriya-upanishad": "Taittiriya Upanishad",
-          "aitareya-upanishad": "Aitareya Upanishad",
-          "chandogya-upanishad": "Chandogya Upanishad",
-          "brihadaranyaka-upanishad": "Brihadaranyaka Upanishad",
-          "shvetashvatara-upanishad": "Shvetashvatara Upanishad",
-          "kaushitaki-upanishad": "Kaushitaki Upanishad",
-          "maitri-upanishad": "Maitri Upanishad"
+          "isha-upanishad": "ایشا اپنشد",
+          "kena-upanishad": "کینا اپنشد",
+          "katha-upanishad": "کتھا اپنشد",
+          "prashna-upanishad": "پرشنا اپنشد",
+          "mundaka-upanishad": "منڈاکا اپنشد",
+          "mandukya-upanishad": "منڈوکیا اپنشد",
+          "taittiriya-upanishad": "تیتیریہ اپنشد",
+          "aitareya-upanishad": "ایتریہ اپنشد",
+          "chandogya-upanishad": "چندوگیا اپنشد",
+          "brihadaranyaka-upanishad": "برہدارنیکا اپنشد",
+          "shvetashvatara-upanishad": "شویتاشواتارا اپنشد",
+          "kaushitaki-upanishad": "کوشیتاکی اپنشد",
+          "maitri-upanishad": "میتری اپنشد"
         }
       },
       "puranas": {
-        "title": "Puranas",
+        "title": "پرانوں",
         "nav": {
-          "brahma-purana": "Brahma Purana",
-          "padma-purana": "Padma Purana",
-          "vishnu-purana": "Vishnu Purana",
-          "shiva-purana": "Shiva Purana",
-          "bhagavata-purana": "Bhagavata Purana",
-          "narada-purana": "Narada Purana",
-          "markandeya-purana": "Markandeya Purana",
-          "agni-purana": "Agni Purana",
-          "bhavishya-purana": "Bhavishya Purana",
-          "brahmavaivarta-purana": "Brahmavaivarta Purana",
-          "linga-purana": "Linga Purana",
-          "varaha-purana": "Varaha Purana",
-          "skanda-purana": "Skanda Purana",
-          "vamana-purana": "Vamana Purana",
-          "kurma-purana": "Kurma Purana",
-          "matsya-purana": "Matsya Purana",
-          "garuda-purana": "Garuda Purana",
-          "brahmanda-purana": "Brahmanda Purana"
+          "brahma-purana": "برہما پران",
+          "padma-purana": "پدما پران",
+          "vishnu-purana": "وشنو پران",
+          "shiva-purana": "شیو پران",
+          "bhagavata-purana": "بھگوت پران",
+          "narada-purana": "ناردا پران",
+          "markandeya-purana": "مارکنڈے پران",
+          "agni-purana": "اگنی پران",
+          "bhavishya-purana": "بھویشیہ پران",
+          "brahmavaivarta-purana": "برہماویورت پران",
+          "linga-purana": "لِنگا پران",
+          "varaha-purana": "وراہا پران",
+          "skanda-purana": "سکند پران",
+          "vamana-purana": "وامان پران",
+          "kurma-purana": "کرم پران",
+          "matsya-purana": "متسیہ پران",
+          "garuda-purana": "گروڈ پران",
+          "brahmanda-purana": "برہمانڈا پران"
         }
       },
       "itihasa": {
-        "title": "Itihasa",
+        "title": "اتحاسا",
         "nav": [
           {
-            "name": "Ramayana",
-            "author": "Valmiki",
-            "description": "Epic describing the life of Lord Rama.",
+            "name": "رامائن",
+            "author": "والمیکی",
+            "description": "بھگوان رام کی زندگی کو بیان کرنے والا مہاکاوی۔",
             "kandas": {
-              "bala-kanda": "Bala Kanda",
-              "ayodhya-kanda": "Ayodhya Kanda",
-              "aranya-kanda": "Aranya Kanda",
-              "kishkinda-kanda": "Kishkindha Kanda",
-              "sundara-kanda": "Sundara Kanda",
-              "yuddha-kanda": "Yuddha Kanda",
-              "uttara-kanda": "Uttara Kanda"
+              "bala-kanda": "بالا کنڈا",
+              "ayodhya-kanda": "ایودھیا کنڈا",
+              "aranya-kanda": "آرانیہ کنڈا",
+              "kishkinda-kanda": "کشکندا کنڈا",
+              "sundara-kanda": "سندرا کنڈا",
+              "yuddha-kanda": "یودھا کنڈا",
+              "uttara-kanda": "اترا کنڈا"
             }
           },
           {
-            "name": "Mahabharata",
-            "author": "Vyasa",
-            "description": "Epic describing the Kurukshetra war and dharma.",
+            "name": "مہابھارت",
+            "author": "ویاسا۔",
+            "description": "کروکشیتر جنگ اور دھرم کو بیان کرنے والی مہاکاوی۔",
             "parvas": 18
           },
           {
-            "description": "Sacred dialogue between Lord Krishna and Arjuna.",
+            "description": "بھگوان کرشن اور ارجن کے درمیان مقدس مکالمہ۔",
             "chapters": 18,
             "verses": 700,
             "chapters_list": {
-              "arjuna-vishada-yoga": "Arjuna Vishada Yoga",
-              "sankhya-yoga": "Sankhya Yoga",
-              "karma-yoga": "Karma Yoga",
-              "jnana-karma-sanyasa-yoga": "Jnana Karma Sanyasa Yoga",
-              "karma-sanyasa-yoga": "Karma Sanyasa Yoga",
-              "dhyana-yoga": "Dhyana Yoga",
-              "jnana-vijnana-yoga": "Jnana Vijnana Yoga",
-              "akshara-brahma-yoga": "Akshara Brahma Yoga",
-              "raja-vidya-raja-guhya-yoga": "Raja Vidya Raja Guhya Yoga",
-              "vibhuti-yoga": "Vibhuti Yoga",
-              "vishvarupa-darshana-yoga": "Vishvarupa Darshana Yoga",
-              "bhakti-yoga": "Bhakti Yoga",
-              "kshetra-kshetrajna-vibhaga-yoga": "Kshetra Kshetrajna Vibhaga Yoga",
-              "gunatraya-vibhaga-yoga": "Gunatraya Vibhaga Yoga",
-              "purushottama-yoga": "Purushottama Yoga",
-              "daivasura-sampad-vibhaga-yoga": "Daivasura Sampad Vibhaga Yoga",
-              "shraddhatray-vibhaga-yoga": "Shraddhatraya Vibhaga Yoga",
-              "moksha-sanyasa-yoga": "Moksha Sanyasa Yoga"
+              "arjuna-vishada-yoga": "ارجن وشدا یوگا",
+              "sankhya-yoga": "سانکھیا یوگا",
+              "karma-yoga": "کرما یوگا",
+              "jnana-karma-sanyasa-yoga": "جننا کرما سنیاسا یوگا",
+              "karma-sanyasa-yoga": "کرما سنیاسا یوگا",
+              "dhyana-yoga": "دھیان یوگا",
+              "jnana-vijnana-yoga": "جننا وجنا یوگا",
+              "akshara-brahma-yoga": "اکشرا برہما یوگا",
+              "raja-vidya-raja-guhya-yoga": "راجہ ودیا راجہ گوہیا یوگا",
+              "vibhuti-yoga": "وبھوتی یوگا",
+              "vishvarupa-darshana-yoga": "وشوروپ درشن یوگا",
+              "bhakti-yoga": "بھکتی یوگا",
+              "kshetra-kshetrajna-vibhaga-yoga": "Kshetra Kshetrajna Vibhaga یوگا",
+              "gunatraya-vibhaga-yoga": "گناترایا وبھاگا یوگا",
+              "purushottama-yoga": "پروشوتما یوگا",
+              "daivasura-sampad-vibhaga-yoga": "دیواسور سمپد وبھاگا یوگا",
+              "shraddhatray-vibhaga-yoga": "شردھاترایا وبھاگا یوگا",
+              "moksha-sanyasa-yoga": "موکشا سنیاس یوگا"
             }
           }
         ]
       },
       "philosophy": {
-        "title": "Philosophy",
-        "subtitle": "Vedic",
+        "title": "فلسفہ",
+        "subtitle": "ویدک",
         "nav": {
-          "advaita": "Advaita",
-          "purushartha": "Purushartha",
-          "samsara": "Samsara",
-          "dharma": "Dharma",
-          "karma": "Karma",
-          "moksha": "Moksha"
+          "advaita": "ادویت",
+          "purushartha": "پروشارتھا",
+          "samsara": "سمسارا",
+          "dharma": "دھرم",
+          "karma": "کرما",
+          "moksha": "موکشا۔"
         }
       },
       "science": {
-        "title": "Science",
-        "subtitle": "Vedic",
+        "title": "سائنس",
+        "subtitle": "ویدک",
         "nav": {
-          "astronomy": "Astronomy",
-          "mathematics": "Mathematics",
-          "medicine": "Medicine",
-          "metallurgy": "Metallurgy",
-          "architecture": "Architecture"
+          "astronomy": "فلکیات",
+          "mathematics": "ریاضی",
+          "medicine": "دوائی",
+          "metallurgy": "دھات کاری",
+          "architecture": "فن تعمیر"
         }
       },
       "others": {
-        "title": "Sanātana dharmam",
+        "title": "سناتن دھرم",
         "nav": {
-          "vedic-gods": "Vedic Gods",
-          "sanskrit-concepts": "Sanskrit Concepts",
-          "festivals": "Festivals",
-          "about": "About"
+          "vedic-gods": "ویدک دیوتا",
+          "sanskrit-concepts": "سنسکرت کے تصورات",
+          "festivals": "تہوار",
+          "about": "کے بارے میں"
         }
       },
-      "privacy": "Privacy Policy",
-      "quote": "Whenever righteousness declines and unrighteousness rises, I manifest Myself. To protect the righteous, to annihilate the wicked, and to reestablish the principles of dharma, I appear millennium after millennium.",
-      "quotesource": "(Bhagavad Gītā 4.7)",
-      "terms": "Terms of Service"
+      "privacy": "رازداری کی پالیسی",
+      "quote": "جب بھی راستبازی زوال پذیر ہوتی ہے اور ناراستی بڑھتی ہے، میں خود کو ظاہر کرتا ہوں۔ نیکوں کی حفاظت کے لیے، شریروں کو نیست و نابود کرنے کے لیے، اور دھرم کے اصولوں کو دوبارہ قائم کرنے کے لیے، میں ہزار سال کے بعد ظاہر ہوتا ہوں۔",
+      "quotesource": "(بھگود گیتا 4.7)",
+      "terms": "سروس کی شرائط"
     },
     "similar_categories": {
       "vedas": {
-        "title": "Vedas",
+        "title": "وید",
         "basePath": "/vedas",
         "nav": [
           {
-            "name": "Rigveda",
-            "description": "Oldest Veda consisting of hymns dedicated to various deities."
+            "name": "رگ وید",
+            "description": "قدیم ترین وید جو مختلف دیوتاؤں کے لیے وقف کردہ بھجن پر مشتمل ہے۔"
           },
           {
-            "name": "Yajurveda",
-            "description": "Contains sacrificial formulas used in rituals."
+            "name": "یجروید",
+            "description": "رسموں میں استعمال ہونے والے قربانی کے فارمولوں پر مشتمل ہے۔"
           },
           {
-            "name": "Samaveda",
-            "description": "Collection of melodies and chants used for ritual singing."
+            "name": "ساموید",
+            "description": "رسم گائیکی کے لیے استعمال ہونے والی دھنوں اور منتروں کا مجموعہ۔"
           },
           {
-            "name": "Atharvaveda",
-            "description": "Contains hymns, spells, and philosophical teachings."
+            "name": "اتھرو وید",
+            "description": "بھجن، منتر، اور فلسفیانہ تعلیمات پر مشتمل ہے۔"
           }
         ]
       },
       "upanishads": {
-        "title": "Upanishads",
+        "title": "اپنشد",
         "basePath": "/upanishads",
         "nav": {
-          "isha-upanishad": "Isha Upanishad",
-          "kena-upanishad": "Kena Upanishad",
-          "katha-upanishad": "Katha Upanishad",
-          "prashna-upanishad": "Prashna Upanishad",
-          "mundaka-upanishad": "Mundaka Upanishad",
-          "mandukya-upanishad": "Mandukya Upanishad",
-          "taittiriya-upanishad": "Taittiriya Upanishad",
-          "aitareya-upanishad": "Aitareya Upanishad",
-          "chandogya-upanishad": "Chandogya Upanishad",
-          "brihadaranyaka-upanishad": "Brihadaranyaka Upanishad",
-          "shvetashvatara-upanishad": "Shvetashvatara Upanishad",
-          "kaushitaki-upanishad": "Kaushitaki Upanishad",
-          "maitri-upanishad": "Maitri Upanishad"
+          "isha-upanishad": "ایشا اپنشد",
+          "kena-upanishad": "کینا اپنشد",
+          "katha-upanishad": "کتھا اپنشد",
+          "prashna-upanishad": "پرشنا اپنشد",
+          "mundaka-upanishad": "منڈاکا اپنشد",
+          "mandukya-upanishad": "منڈوکیا اپنشد",
+          "taittiriya-upanishad": "تیتیریہ اپنشد",
+          "aitareya-upanishad": "ایتریہ اپنشد",
+          "chandogya-upanishad": "چندوگیا اپنشد",
+          "brihadaranyaka-upanishad": "برہدارنیکا اپنشد",
+          "shvetashvatara-upanishad": "شویتاشواتارا اپنشد",
+          "kaushitaki-upanishad": "کوشیتاکی اپنشد",
+          "maitri-upanishad": "میتری اپنشد"
         }
       },
       "puranas": {
-        "title": "Puranas",
+        "title": "پرانوں",
         "basePath": "/puranas",
         "nav": {
-          "brahma-purana": "Brahma Purana",
-          "padma-purana": "Padma Purana",
-          "vishnu-purana": "Vishnu Purana",
-          "shiva-purana": "Shiva Purana",
-          "bhagavata-purana": "Bhagavata Purana",
-          "narada-purana": "Narada Purana",
-          "markandeya-purana": "Markandeya Purana",
-          "agni-purana": "Agni Purana",
-          "bhavishya-purana": "Bhavishya Purana",
-          "brahmavaivarta-purana": "Brahmavaivarta Purana",
-          "linga-purana": "Linga Purana",
-          "varaha-purana": "Varaha Purana",
-          "skanda-purana": "Skanda Purana",
-          "vamana-purana": "Vamana Purana",
-          "kurma-purana": "Kurma Purana",
-          "matsya-purana": "Matsya Purana",
-          "garuda-purana": "Garuda Purana",
-          "brahmanda-purana": "Brahmanda Purana"
+          "brahma-purana": "برہما پران",
+          "padma-purana": "پدما پران",
+          "vishnu-purana": "وشنو پران",
+          "shiva-purana": "شیو پران",
+          "bhagavata-purana": "بھگوت پران",
+          "narada-purana": "ناردا پران",
+          "markandeya-purana": "مارکنڈے پران",
+          "agni-purana": "اگنی پران",
+          "bhavishya-purana": "بھویشیہ پران",
+          "brahmavaivarta-purana": "برہماویورت پران",
+          "linga-purana": "لِنگا پران",
+          "varaha-purana": "وراہا پران",
+          "skanda-purana": "سکند پران",
+          "vamana-purana": "وامان پران",
+          "kurma-purana": "کرم پران",
+          "matsya-purana": "متسیہ پران",
+          "garuda-purana": "گروڈ پران",
+          "brahmanda-purana": "برہمانڈا پران"
         }
       },
       "itihasa": {
-        "title": "Itihasa",
+        "title": "اتحاسا",
         "basePath": "/itihasa",
         "nav": [
           {
-            "name": "Ramayana",
-            "author": "Valmiki",
-            "description": "Epic describing the life of Lord Rama.",
+            "name": "رامائن",
+            "author": "والمیکی",
+            "description": "بھگوان رام کی زندگی کو بیان کرنے والا مہاکاوی۔",
             "kandas": {
-              "bala-kanda": "Bala Kanda",
-              "ayodhya-kanda": "Ayodhya Kanda",
-              "aranya-kanda": "Aranya Kanda",
-              "kishkinda-kanda": "Kishkindha Kanda",
-              "sundara-kanda": "Sundara Kanda",
-              "yuddha-kanda": "Yuddha Kanda",
-              "uttara-kanda": "Uttara Kanda"
+              "bala-kanda": "بالا کنڈا",
+              "ayodhya-kanda": "ایودھیا کنڈا",
+              "aranya-kanda": "آرانیہ کنڈا",
+              "kishkinda-kanda": "کشکندا کنڈا",
+              "sundara-kanda": "سندرا کنڈا",
+              "yuddha-kanda": "یودھا کنڈا",
+              "uttara-kanda": "اترا کنڈا"
             }
           },
           {
-            "name": "Mahabharata",
-            "author": "Vyasa",
-            "description": "Epic describing the Kurukshetra war and dharma.",
+            "name": "مہابھارت",
+            "author": "ویاسا۔",
+            "description": "کروکشیتر جنگ اور دھرم کو بیان کرنے والی مہاکاوی۔",
             "parvas": 18
           },
           {
-            "description": "Sacred dialogue between Lord Krishna and Arjuna.",
+            "description": "بھگوان کرشن اور ارجن کے درمیان مقدس مکالمہ۔",
             "chapters": 18,
             "verses": 700,
             "chapters_list": {
-              "arjuna-vishada-yoga": "Arjuna Vishada Yoga",
-              "sankhya-yoga": "Sankhya Yoga",
-              "karma-yoga": "Karma Yoga",
-              "jnana-karma-sanyasa-yoga": "Jnana Karma Sanyasa Yoga",
-              "karma-sanyasa-yoga": "Karma Sanyasa Yoga",
-              "dhyana-yoga": "Dhyana Yoga",
-              "jnana-vijnana-yoga": "Jnana Vijnana Yoga",
-              "akshara-brahma-yoga": "Akshara Brahma Yoga",
-              "raja-vidya-raja-guhya-yoga": "Raja Vidya Raja Guhya Yoga",
-              "vibhuti-yoga": "Vibhuti Yoga",
-              "vishvarupa-darshana-yoga": "Vishvarupa Darshana Yoga",
-              "bhakti-yoga": "Bhakti Yoga",
-              "kshetra-kshetrajna-vibhaga-yoga": "Kshetra Kshetrajna Vibhaga Yoga",
-              "gunatraya-vibhaga-yoga": "Gunatraya Vibhaga Yoga",
-              "purushottama-yoga": "Purushottama Yoga",
-              "daivasura-sampad-vibhaga-yoga": "Daivasura Sampad Vibhaga Yoga",
-              "shraddhatray-vibhaga-yoga": "Shraddhatraya Vibhaga Yoga",
-              "moksha-sanyasa-yoga": "Moksha Sanyasa Yoga"
+              "arjuna-vishada-yoga": "ارجن وشدا یوگا",
+              "sankhya-yoga": "سانکھیا یوگا",
+              "karma-yoga": "کرما یوگا",
+              "jnana-karma-sanyasa-yoga": "جننا کرما سنیاسا یوگا",
+              "karma-sanyasa-yoga": "کرما سنیاسا یوگا",
+              "dhyana-yoga": "دھیان یوگا",
+              "jnana-vijnana-yoga": "جننا وجنا یوگا",
+              "akshara-brahma-yoga": "اکشرا برہما یوگا",
+              "raja-vidya-raja-guhya-yoga": "راجہ ودیا راجہ گوہیا یوگا",
+              "vibhuti-yoga": "وبھوتی یوگا",
+              "vishvarupa-darshana-yoga": "وشوروپ درشن یوگا",
+              "bhakti-yoga": "بھکتی یوگا",
+              "kshetra-kshetrajna-vibhaga-yoga": "Kshetra Kshetrajna Vibhaga یوگا",
+              "gunatraya-vibhaga-yoga": "گناترایا وبھاگا یوگا",
+              "purushottama-yoga": "پروشوتما یوگا",
+              "daivasura-sampad-vibhaga-yoga": "دیواسور سمپد وبھاگا یوگا",
+              "shraddhatray-vibhaga-yoga": "شردھاترایا وبھاگا یوگا",
+              "moksha-sanyasa-yoga": "موکشا سنیاس یوگا"
             }
           }
         ]
       },
       "philosophy": {
-        "title": "Philosophy",
+        "title": "فلسفہ",
         "basePath": "/philosophy",
-        "subtitle": "Vedic",
+        "subtitle": "ویدک",
         "nav": {
-          "advaita": "Advaita",
-          "purushartha": "Purushartha",
-          "samsara": "Samsara",
-          "dharma": "Dharma",
-          "karma": "Karma",
-          "moksha": "Moksha"
+          "advaita": "ادویت",
+          "purushartha": "پروشارتھا",
+          "samsara": "سمسارا",
+          "dharma": "دھرم",
+          "karma": "کرما",
+          "moksha": "موکشا۔"
         }
       },
       "science": {
-        "title": "Science",
+        "title": "سائنس",
         "basePath": "/vedic-philosophy",
-        "subtitle": "Vedic",
+        "subtitle": "ویدک",
         "nav": {
-          "astronomy": "Astronomy",
-          "mathematics": "Mathematics",
-          "medicine": "Medicine",
-          "metallurgy": "Metallurgy",
-          "architecture": "Architecture"
+          "astronomy": "فلکیات",
+          "mathematics": "ریاضی",
+          "medicine": "دوائی",
+          "metallurgy": "دھات کاری",
+          "architecture": "فن تعمیر"
         }
       },
       "others": {
-        "title": "Sanātana dharmam",
+        "title": "سناتن دھرم",
         "basePath": "",
         "nav": {
-          "vedic-gods": "Vedic Gods",
-          "sanskrit-concepts": "Sanskrit Concepts",
-          "festivals": "Festivals",
-          "about": "About"
+          "vedic-gods": "ویدک دیوتا",
+          "sanskrit-concepts": "سنسکرت کے تصورات",
+          "festivals": "تہوار",
+          "about": "کے بارے میں"
         }
       }
     },
     "scrolltotop": {
-      "title": "Back to top",
-      "arialabel": "Scroll to top"
+      "title": "واپس اوپر",
+      "arialabel": "اوپر تک سکرول کریں۔"
     },
     "cookieconsent": {
-      "acceptall": "Accept all",
-      "cookiepolicy": "Cookie Policy",
-      "managerbutton": "Cookie Preference Manager",
-      "paragraph": "We use cookies to track visitors, measure ads, ad campaign effectiveness and analyze site traffic. We may also share information about your use of our site with 3rd parties. For more info, see our {cookiePolicyLink} and {privacyPolicyLink}. By clicking on \"{managerLabel}\" you can choose to enable only certain cookie categories. By clicking \"{acceptAllLabel}\" you agree to the storing of all cookies on your device. In case you don't choose one of these options and use our website we will treat it as if you have accepted all cookies.",
-      "privacypolicy": "Privacy Policy"
+      "acceptall": "سب کو قبول کریں۔",
+      "cookiepolicy": "کوکی پالیسی",
+      "managerbutton": "کوکی ترجیحی مینیجر",
+      "paragraph": "ہم مہمانوں کو ٹریک کرنے، اشتہارات کی پیمائش، اشتہاری مہم کی تاثیر اور سائٹ ٹریفک کا تجزیہ کرنے کے لیے کوکیز کا استعمال کرتے ہیں۔ ہم آپ کے ہماری سائٹ کے استعمال کے بارے میں معلومات تیسرے فریق کے ساتھ بھی شیئر کر سکتے ہیں۔ مزید معلومات کے لیے، ہمارا {cookiePolicyLink} اور {privacyPolicyLink} دیکھیں۔ \"{managerLabel}\" پر کلک کر کے آپ صرف مخصوص کوکی زمروں کو فعال کرنے کا انتخاب کر سکتے ہیں۔ \"{acceptAllLabel}\" پر کلک کرکے آپ اپنے آلے پر تمام کوکیز اسٹور کرنے سے اتفاق کرتے ہیں۔ اگر آپ ان اختیارات میں سے کسی ایک کا انتخاب نہیں کرتے اور ہماری ویب سائٹ استعمال نہیں کرتے ہیں تو ہم اس کے ساتھ ایسا سلوک کریں گے جیسے آپ نے تمام کوکیز کو قبول کر لیا ہے۔",
+      "privacypolicy": "رازداری کی پالیسی"
     },
     "cookiepolicy": {
-      "title": "Cookie Policy",
-      "datasharing": "Data sharing",
-      "datasharingdesc": "We may share aggregated information with third parties for analytics and advertising. No sensitive personal data is shared by default.",
-      "intro": "This Cookie Policy explains how we use cookies and similar technologies on our website.",
-      "lastupdated": "Last updated: {date}",
-      "managing": "Managing your preferences",
-      "managingdesc": "Open the Cookie Preference Manager from the banner to enable or disable categories. If you accept all cookies, we will store your choices and apply them across visits.",
+      "title": "کوکی پالیسی",
+      "datasharing": "ڈیٹا شیئرنگ",
+      "datasharingdesc": "ہم تجزیات اور اشتہارات کے لیے تیسرے فریق کے ساتھ مجموعی معلومات کا اشتراک کر سکتے ہیں۔ کوئی حساس ذاتی ڈیٹا بطور ڈیفالٹ شیئر نہیں کیا جاتا ہے۔",
+      "intro": "یہ کوکی پالیسی بتاتی ہے کہ ہم اپنی ویب سائٹ پر کوکیز اور اسی طرح کی ٹیکنالوجیز کا استعمال کیسے کرتے ہیں۔",
+      "lastupdated": "آخری بار اپ ڈیٹ کیا گیا: {date}",
+      "managing": "اپنی ترجیحات کا نظم کریں۔",
+      "managingdesc": "زمرہ جات کو فعال یا غیر فعال کرنے کے لیے بینر سے کوکی ترجیحی مینیجر کو کھولیں۔ اگر آپ تمام کوکیز کو قبول کرتے ہیں، تو ہم آپ کے انتخاب کو محفوظ کر لیں گے اور انہیں دوروں پر لاگو کریں گے۔",
       "types": {
-        "functionality": "Functionality: Remember choices and preferences.",
-        "performance": "Performance: Help us analyze traffic and performance.",
-        "strictlynecessary": "Strictly necessary: Required for the site to function.",
-        "targeting": "Targeting: Used for advertising and personalization."
+        "functionality": "فعالیت: انتخاب اور ترجیحات کو یاد رکھیں۔",
+        "performance": "کارکردگی: ٹریفک اور کارکردگی کا تجزیہ کرنے میں ہماری مدد کریں۔",
+        "strictlynecessary": "سختی سے ضروری: سائٹ کے کام کرنے کے لیے ضروری ہے۔",
+        "targeting": "ہدف بندی: تشہیر اور ذاتی بنانے کے لیے استعمال کیا جاتا ہے۔"
       },
-      "typesheading": "Types of cookies we use",
-      "whatarecookies": "What are cookies?"
+      "typesheading": "کوکیز کی اقسام جو ہم استعمال کرتے ہیں۔",
+      "whatarecookies": "کوکیز کیا ہیں؟"
     },
     "policies": {
       "cookiepolicy": {
-        "title": "Cookie Policy",
-        "datasharing": "Data sharing",
-        "datasharingdesc": "We may share aggregated information with third parties for analytics and advertising. No sensitive personal data is shared by default.",
-        "intro": "This Cookie Policy explains how we use cookies and similar technologies on our website.",
-        "lastupdated": "Last updated: {date}",
-        "managing": "Managing your preferences",
-        "managingdesc": "Open the Cookie Preference Manager from the banner to enable or disable categories. If you accept all cookies, we will store your choices and apply them across visits.",
+        "title": "کوکی پالیسی",
+        "datasharing": "ڈیٹا شیئرنگ",
+        "datasharingdesc": "ہم تجزیات اور اشتہارات کے لیے تیسرے فریق کے ساتھ مجموعی معلومات کا اشتراک کر سکتے ہیں۔ کوئی حساس ذاتی ڈیٹا بطور ڈیفالٹ شیئر نہیں کیا جاتا ہے۔",
+        "intro": "یہ کوکی پالیسی بتاتی ہے کہ ہم اپنی ویب سائٹ پر کوکیز اور اسی طرح کی ٹیکنالوجیز کا استعمال کیسے کرتے ہیں۔",
+        "lastupdated": "آخری بار اپ ڈیٹ کیا گیا: {date}",
+        "managing": "اپنی ترجیحات کا نظم کریں۔",
+        "managingdesc": "زمرہ جات کو فعال یا غیر فعال کرنے کے لیے بینر سے کوکی ترجیحی مینیجر کو کھولیں۔ اگر آپ تمام کوکیز کو قبول کرتے ہیں، تو ہم آپ کے انتخاب کو محفوظ کر لیں گے اور انہیں دوروں پر لاگو کریں گے۔",
         "types": {
-          "functionality": "Functionality: Remember choices and preferences.",
-          "performance": "Performance: Help us analyze traffic and performance.",
-          "strictlynecessary": "Strictly necessary: Required for the site to function.",
-          "targeting": "Targeting: Used for advertising and personalization."
+          "functionality": "فعالیت: انتخاب اور ترجیحات کو یاد رکھیں۔",
+          "performance": "کارکردگی: ٹریفک اور کارکردگی کا تجزیہ کرنے میں ہماری مدد کریں۔",
+          "strictlynecessary": "سختی سے ضروری: سائٹ کے کام کرنے کے لیے ضروری ہے۔",
+          "targeting": "ہدف بندی: تشہیر اور ذاتی بنانے کے لیے استعمال کیا جاتا ہے۔"
         },
-        "typesheading": "Types of cookies we use",
-        "whatarecookies": "What are cookies?"
+        "typesheading": "کوکیز کی اقسام جو ہم استعمال کرتے ہیں۔",
+        "whatarecookies": "کوکیز کیا ہیں؟"
       },
       "privacypolicy": {
-        "title": "Privacy Policy",
-        "howweuse": "How we use information",
-        "howweusedesc": "Information is used to operate, maintain and provide the features of the website, and to analyze usage patterns.",
-        "informationdesc": "We collect information you provide, cookies, and anonymized analytics data to improve the service.",
-        "informationheading": "Information we collect",
-        "intro": "This Privacy Policy outlines how we collect, use and protect your personal information.",
-        "lastupdated": "Last updated: {date}",
-        "yourrights": "Your rights",
-        "yourrightsdesc": "You can request access, correction or deletion of your personal data by contacting us on the site."
+        "title": "رازداری کی پالیسی",
+        "howweuse": "ہم معلومات کو کس طرح استعمال کرتے ہیں۔",
+        "howweusedesc": "معلومات کا استعمال ویب سائٹ کی خصوصیات کو چلانے، برقرار رکھنے اور فراہم کرنے اور استعمال کے نمونوں کا تجزیہ کرنے کے لیے کیا جاتا ہے۔",
+        "informationdesc": "ہم سروس کو بہتر بنانے کے لیے آپ کی فراہم کردہ معلومات، کوکیز اور گمنام تجزیاتی ڈیٹا اکٹھا کرتے ہیں۔",
+        "informationheading": "معلومات ہم جمع کرتے ہیں۔",
+        "intro": "یہ رازداری کی پالیسی اس بات کا خاکہ پیش کرتی ہے کہ ہم آپ کی ذاتی معلومات کو کیسے اکٹھا، استعمال اور حفاظت کرتے ہیں۔",
+        "lastupdated": "آخری بار اپ ڈیٹ کیا گیا: {date}",
+        "yourrights": "آپ کے حقوق",
+        "yourrightsdesc": "آپ سائٹ پر ہم سے رابطہ کر کے اپنے ذاتی ڈیٹا تک رسائی، تصحیح یا حذف کرنے کی درخواست کر سکتے ہیں۔"
       }
     },
     "cosmic_time_structure": {
       "mahayuga_total_years": 4320000,
       "yugas": [
         {
-          "name": "Satya Yuga",
+          "name": "ستیہ یوگا",
           "duration_years": 1728000,
           "dharma_percentage": 100
         },
         {
-          "name": "Treta Yuga",
+          "name": "تریتا یوگ",
           "duration_years": 1296000,
           "dharma_percentage": 75
         },
         {
-          "name": "Dvapara Yuga",
+          "name": "دوپارہ یوگا",
           "duration_years": 864000,
           "dharma_percentage": 50
         },
         {
-          "name": "Kali Yuga",
+          "name": "کالی یوگ",
           "duration_years": 432000,
           "dharma_percentage": 25
         }
@@ -544,127 +544,127 @@
     "dashavatara": [
       {
         "order": 1,
-        "name": "Matsya",
-        "type": "Aquatic",
-        "yuga": "Satya Yuga",
-        "purpose": "Rescue the Vedas and Manu from the cosmic flood",
-        "primary_antagonist": "Hayagriva (in some traditions)",
-        "associated_texts": ["Bhagavata Purana", "Vishnu Purana"],
-        "symbolism": "Beginning of life; preservation of knowledge",
-        "evolutionary_symbolism": "Aquatic life stage"
+        "name": "متسیا",
+        "type": "آبی",
+        "yuga": "ستیہ یوگا",
+        "purpose": "ویدوں اور منو کو کائناتی سیلاب سے بچائیں۔",
+        "primary_antagonist": "حیاگریوا (بعض روایات میں)",
+        "associated_texts": ["بھگوت پران", "وشنو پران"],
+        "symbolism": "زندگی کا آغاز؛ علم کی حفاظت",
+        "evolutionary_symbolism": "آبی زندگی کا مرحلہ"
       },
       {
         "order": 2,
-        "name": "Kurma",
-        "type": "Amphibian",
-        "yuga": "Satya Yuga",
-        "purpose": "Support Mount Mandara during Samudra Manthana",
-        "primary_event": "Churning of the Ocean",
-        "associated_texts": ["Bhagavata Purana", "Mahabharata"],
-        "symbolism": "Stability and cosmic support",
-        "evolutionary_symbolism": "Amphibian transition"
+        "name": "کُرما۔",
+        "type": "ایمفبیئن",
+        "yuga": "ستیہ یوگا",
+        "purpose": "سمندر منتھنا کے دوران ماؤنٹ مندارا کو سپورٹ کریں۔",
+        "primary_event": "سمندر کا منتھنا",
+        "associated_texts": ["بھگوت پران", "مہابھارت"],
+        "symbolism": "استحکام اور کائناتی سپورٹ",
+        "evolutionary_symbolism": "ایمفبیئن کی منتقلی۔"
       },
       {
         "order": 3,
-        "name": "Varaha",
-        "type": "Terrestrial Mammal",
-        "yuga": "Satya Yuga",
-        "purpose": "Rescue Bhudevi (Earth) from Hiranyaksha",
-        "primary_antagonist": "Hiranyaksha",
-        "associated_texts": ["Vishnu Purana"],
-        "symbolism": "Restoration of Earth and cosmic order",
-        "evolutionary_symbolism": "Land animal stage"
+        "name": "وراہا۔",
+        "type": "زمینی ممالیہ",
+        "yuga": "ستیہ یوگا",
+        "purpose": "بھودیوی (زمین) کو ہیرانیکش سے بچائیں۔",
+        "primary_antagonist": "ہیرانیکشا۔",
+        "associated_texts": ["وشنو پران"],
+        "symbolism": "زمین اور کائناتی ترتیب کی بحالی",
+        "evolutionary_symbolism": "زمینی جانوروں کا مرحلہ"
       },
       {
         "order": 4,
-        "name": "Narasimha",
-        "type": "Man-Lion",
-        "yuga": "Satya Yuga",
-        "purpose": "Protect Prahlada and destroy Hiranyakashipu",
-        "primary_antagonist": "Hiranyakashipu",
-        "associated_texts": ["Bhagavata Purana"],
-        "symbolism": "Divine intervention beyond logical constraints",
-        "evolutionary_symbolism": "Transition from animal to human"
+        "name": "نرسمہا",
+        "type": "آدمی-شیر",
+        "yuga": "ستیہ یوگا",
+        "purpose": "پرہلدا کی حفاظت کریں اور ہیرانیاکشیپو کو تباہ کریں۔",
+        "primary_antagonist": "ہیرانیاکشپو",
+        "associated_texts": ["بھگوت پران"],
+        "symbolism": "منطقی رکاوٹوں سے بالاتر الہی مداخلت",
+        "evolutionary_symbolism": "جانور سے انسان میں منتقلی۔"
       },
       {
         "order": 5,
-        "name": "Vamana",
-        "type": "Dwarf Brahmin",
-        "yuga": "Treta Yuga",
-        "purpose": "Subdue King Bali and restore cosmic balance",
-        "primary_antagonist": "Mahabali",
-        "associated_texts": ["Vishnu Purana"],
-        "symbolism": "Humility and divine intelligence",
-        "evolutionary_symbolism": "Emergence of intellectual human"
+        "name": "وامانا۔",
+        "type": "بونا برہمن",
+        "yuga": "تریتا یوگ",
+        "purpose": "کنگ بالی کو زیر کریں اور کائناتی توازن بحال کریں۔",
+        "primary_antagonist": "مہابلی",
+        "associated_texts": ["وشنو پران"],
+        "symbolism": "عاجزی اور خدائی ذہانت",
+        "evolutionary_symbolism": "دانشور انسان کا ظہور"
       },
       {
         "order": 6,
-        "name": "Parashurama",
-        "type": "Warrior Sage",
-        "yuga": "Late Treta Yuga",
-        "purpose": "Destroy corrupt Kshatriya rulers",
-        "weapon": "Parashu (Axe)",
-        "associated_texts": ["Mahabharata", "Puranas"],
-        "symbolism": "Reset of social order",
-        "evolutionary_symbolism": "Primitive warrior society"
+        "name": "پرشورام",
+        "type": "جنگجو بابا",
+        "yuga": "مرحوم تریتا یوگ",
+        "purpose": "کرپٹ کھشتری حکمرانوں کو نیست و نابود کریں۔",
+        "weapon": "پارشو (کلہاڑی)",
+        "associated_texts": ["مہابھارت", "پرانوں"],
+        "symbolism": "سماجی ترتیب کی بحالی",
+        "evolutionary_symbolism": "قدیم جنگجو معاشرہ"
       },
       {
         "order": 7,
-        "name": "Rama",
-        "type": "Ideal King",
-        "yuga": "Treta Yuga",
-        "purpose": "Destroy Ravana and establish righteous rule",
-        "primary_antagonist": "Ravana",
-        "associated_texts": ["Ramayana"],
-        "symbolism": "Embodiment of Dharma",
-        "evolutionary_symbolism": "Civilized moral state"
+        "name": "راما",
+        "type": "مثالی بادشاہ",
+        "yuga": "تریتا یوگ",
+        "purpose": "راون کو نیست و نابود کر کے صالح حکمرانی قائم کرو",
+        "primary_antagonist": "راون",
+        "associated_texts": ["رامائن"],
+        "symbolism": "دھرم کا مجسمہ",
+        "evolutionary_symbolism": "مہذب اخلاقی ریاست"
       },
       {
         "order": 8,
-        "name": "Krishna",
-        "type": "Divine Statesman",
-        "yuga": "Dvapara Yuga",
-        "purpose": "Guide humanity through Mahabharata war",
-        "primary_antagonist": "Kauravas (collective adharma)",
-        "associated_texts": ["Mahabharata", "Bhagavad Gita"],
-        "symbolism": "Divine wisdom and bhakti",
-        "evolutionary_symbolism": "Advanced social consciousness"
+        "name": "کرشنا۔",
+        "type": "ڈیوائن اسٹیٹس مین",
+        "yuga": "دوپارہ یوگا",
+        "purpose": "مہابھارت جنگ کے ذریعے انسانیت کی رہنمائی کریں۔",
+        "primary_antagonist": "کوراواس (اجتماعی ادھرم)",
+        "associated_texts": ["مہابھارت", "بھگواد گیتا"],
+        "symbolism": "الہی حکمت اور بھکتی",
+        "evolutionary_symbolism": "اعلی درجے کا سماجی شعور"
       },
       {
         "order": 9,
-        "name": "Buddha",
-        "type": "Enlightened Teacher",
-        "yuga": "Early Kali Yuga",
-        "purpose": "Reform ritual excess and promote compassion",
-        "historical_identity": "Siddhartha Gautama",
-        "associated_texts": ["Bhagavata Purana (Vaishnava interpretation)"],
-        "symbolism": "Compassion and introspection",
-        "evolutionary_symbolism": "Philosophical awakening"
+        "name": "بدھا۔",
+        "type": "روشن خیال استاد",
+        "yuga": "ابتدائی کالی یوگ",
+        "purpose": "رسم کی زیادتی کی اصلاح کریں اور ہمدردی کو فروغ دیں۔",
+        "historical_identity": "سدھارتھ گوتم",
+        "associated_texts": ["بھگوت پران (ویشنو تشریح)"],
+        "symbolism": "ہمدردی اور خود شناسی",
+        "evolutionary_symbolism": "فلسفیانہ بیداری"
       },
       {
         "order": 10,
-        "name": "Kalki",
-        "type": "Future Warrior",
-        "yuga": "End of Kali Yuga",
-        "status": "Future",
-        "purpose": "Destroy adharma and reset cosmic cycle",
-        "associated_texts": ["Vishnu Purana", "Bhagavata Purana"],
-        "symbolism": "Cyclical renewal",
-        "evolutionary_symbolism": "Transformation and rebirth"
+        "name": "کالکی",
+        "type": "مستقبل کا جنگجو",
+        "yuga": "کالی یوگ کا خاتمہ",
+        "status": "مستقبل",
+        "purpose": "ادھرم کو تباہ کریں اور کائناتی چکر کو دوبارہ ترتیب دیں۔",
+        "associated_texts": ["وشنو پران", "بھگوت پران"],
+        "symbolism": "سائیکلیکل تجدید",
+        "evolutionary_symbolism": "تبدیلی اور پنر جنم"
       }
     ],
     "interpretations": {
-      "theological_view": "Avatars manifest to restore dharma when it declines (Bhagavad Gita 4.7-8).",
-      "symbolic_view": "Represents spiritual evolution of consciousness.",
-      "comparative_mythology_view": "Flood myth parallels global traditions.",
-      "cyclical_time_concept": "Time is non-linear and regenerative.",
+      "theological_view": "دھرم کے زوال کے بعد اوتار ظاہر ہوتے ہیں (بھگود گیتا 4.7-8)۔",
+      "symbolic_view": "شعور کے روحانی ارتقاء کی نمائندگی کرتا ہے۔",
+      "comparative_mythology_view": "سیلاب کا افسانہ عالمی روایات کے متوازی ہے۔",
+      "cyclical_time_concept": "وقت غیر خطی اور تخلیق نو ہے۔",
       "current_cycle": {
-        "current_yuga": "Kali Yuga",
+        "current_yuga": "کالی یوگ",
         "kali_yuga_started_bce": 3102,
         "years_elapsed_in_kali_yuga_approx": 5100
       },
-      "earth_age_comparison_note": "1 Kalpa (4.32 billion years) is surprisingly close to the modern scientific estimate of Earth's age (~4.54 billion years).",
-      "scaling_comment": "This mathematical scaling is highly structured and proportional across all cosmic levels."
+      "earth_age_comparison_note": "1 کلپا (4.32 بلین سال) حیرت انگیز طور پر زمین کی عمر (~4.54 بلین سال) کے جدید سائنسی اندازے کے قریب ہے۔",
+      "scaling_comment": "یہ ریاضیاتی پیمانہ تمام کائناتی سطحوں پر انتہائی منظم اور متناسب ہے۔"
     }
   }
 }

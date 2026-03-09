@@ -54,110 +54,110 @@
       "Kurma Purana",
       "Matsya Purana",
       "Garuda Purana",
-      "Brahmanda Purana"
+      "ブラフマンダ プラーナ"
     ],
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "CollectionPage",
+          "@type": "コレクションページ",
           "name": "18 Mahapuranas",
-          "description": "Collection of the eighteen Mahapuranas, sacred scriptures of Sanatana Dharma.",
+          "description": "サナタナ ダルマの聖典である 18 のマハプラーナのコレクション。",
           "url": "https://sanatanadharmam.in/scriptures/puranas"
         },
         {
-          "@type": "ItemList",
-          "name": "Mahapuranas",
+          "@type": "アイテムリスト",
+          "name": "マハプラナ",
           "itemListElement": [
             {
-              "@type": "ListItem",
+              "@type": "リストアイテム",
               "position": 1,
               "name": "Brahma Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "リストアイテム",
               "position": 2,
               "name": "Padma Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "リストアイテム",
               "position": 3,
               "name": "Vishnu Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "リストアイテム",
               "position": 4,
               "name": "Shiva Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "リストアイテム",
               "position": 5,
               "name": "Bhagavata Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "リストアイテム",
               "position": 6,
               "name": "Narada Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "リストアイテム",
               "position": 7,
               "name": "Markandeya Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "リストアイテム",
               "position": 8,
               "name": "Agni Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "リストアイテム",
               "position": 9,
               "name": "Bhavishya Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "リストアイテム",
               "position": 10,
               "name": "Brahmavaivarta Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "リストアイテム",
               "position": 11,
               "name": "Linga Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "リストアイテム",
               "position": 12,
               "name": "Varaha Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "リストアイテム",
               "position": 13,
               "name": "Skanda Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "リストアイテム",
               "position": 14,
               "name": "Vamana Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "リストアイテム",
               "position": 15,
               "name": "Kurma Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "リストアイテム",
               "position": 16,
               "name": "Matsya Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "リストアイテム",
               "position": 17,
               "name": "Garuda Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "リストアイテム",
               "position": 18,
-              "name": "Brahmanda Purana"
+              "name": "ブラフマンダ プラーナ"
             }
           ]
         }

@@ -1,28 +1,28 @@
 {
   "upanishads_katha-upanishad": {
-    "title": "Katha Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Katha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Katha Upanishad – Enseignements Upanishad dans le Sanātana Dharma",
+    "description": "Aperçu de Katha Upanishad : thèmes centraux, idées clés et pourquoi cette Upanishad est importante pour la compréhension d'Atman, de Brahman et de la libération.",
     "meta": {
-      "title": "Katha Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Katha Upanishad – Enseignements Upanishad dans le Sanātana Dharma",
       "canonical": "https://sanatanadharmam.in/upanishads/katha-upanishad",
-      "description": "Overview of Katha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "Aperçu de Katha Upanishad : thèmes centraux, idées clés et pourquoi cette Upanishad est importante pour la compréhension d'Atman, de Brahman et de la libération.",
       "keywords": [
         "Katha Upanishad",
         "Upanishads",
-        "Vedanta",
+        "Védanta",
         "Atman",
         "Brahman",
         "Sanatana Dharma"
       ],
-      "robots": "index, follow",
+      "robots": "indexer, suivre",
       "url": "https://sanatanadharmam.in/upanishads/katha-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_katha_upanishad.png"
     },
     "openGraph": {
-      "title": "Katha Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Katha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Katha Upanishad – Enseignements Upanishad dans le Sanātana Dharma",
+      "description": "Aperçu de Katha Upanishad : thèmes centraux, idées clés et pourquoi cette Upanishad est importante pour la compréhension d'Atman, de Brahman et de la libération.",
       "url": "https://sanatanadharmam.in/upanishads/katha-upanishad",
-      "siteName": "Sanatanadharmam",
+      "siteName": "Sanatanadharman",
       "type": "article",
       "images": [
         {
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Katha Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Katha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "Articles",
+      "name": "Katha Upanishad – Enseignements Upanishad dans le Sanātana Dharma",
+      "description": "Aperçu de Katha Upanishad : thèmes centraux, idées clés et pourquoi cette Upanishad est importante pour la compréhension d'Atman, de Brahman et de la libération.",
       "url": "https://sanatanadharmam.in/upanishads/katha-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "Site Web",
+        "name": "Sanatanadharman",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Katha Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Katha Upanishad is famed for the story of Nachiketa, who meets Yama (the lord of death). Through this encounter it explores the choice between the pleasant and the good, and the quest for what does not perish.",
+    "introduction": "Katha Upanishad est l'une des principales Upanishads, des textes qui explorent les questions les plus profondes de la vie humaine : qui suis-je ? Qu'est-ce qui est réel ? Qu'est-ce que le Soi (Atman) et la réalité ultime (Brahman) ?\n\nL’enseignement upanishadique est souvent présenté comme un dialogue et une enquête. Plutôt que d’offrir une seule « croyance », il entraîne l’attention et le discernement afin qu’un chercheur puisse passer de l’identité extérieure à la vérité intérieure.\n\nLe Katha Upanishad est célèbre pour l'histoire de Nachiketa, qui rencontre Yama (le seigneur de la mort). A travers cette rencontre, il explore le choix entre l'agréable et le bien, et la quête de ce qui ne périt pas.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Discernment between short-term pleasure and lasting good, the immortality of the Self, discipline of the senses, and the “chariot” metaphor for mind and body."
+        "section": "Thèmes centraux",
+        "content": "Discernement entre le plaisir à court terme et le bien durable, l'immortalité du Soi, la discipline des sens et la métaphore du « char » pour l'esprit et le corps."
       },
       {
-        "section": "Practice reflection",
-        "content": "The text highlights self-mastery: when senses and mind are guided by inner intelligence, the seeker becomes fit for deeper knowledge."
+        "section": "Pratiquer la réflexion",
+        "content": "Le texte met l'accent sur la maîtrise de soi : lorsque les sens et l'esprit sont guidés par l'intelligence intérieure, le chercheur devient apte à une connaissance plus approfondie."
       }
     ],
-    "philosophical_explanation": "Katha brings philosophy into daily decision-making: what you repeatedly choose becomes your character. By choosing the “good” over the merely pleasant, you cultivate the steadiness required to recognize the Self beyond fear, change, and death."
+    "philosophical_explanation": "Katha apporte de la philosophie dans la prise de décision quotidienne : ce que vous choisissez à plusieurs reprises devient votre personnage. En choisissant le « bien » plutôt que le simplement agréable, vous cultivez la stabilité nécessaire pour reconnaître le Soi au-delà de la peur, du changement et de la mort."
   }
 }

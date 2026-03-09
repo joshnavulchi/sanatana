@@ -1,28 +1,28 @@
 {
   "upanishads_taittiriya-upanishad": {
-    "title": "Taittiriya Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Taittiriya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Taittiriya Upanishad – Enseignements Upanishad dans le Sanātana Dharma",
+    "description": "Aperçu de Taittiriya Upanishad : thèmes centraux, idées clés et pourquoi cette Upanishad est importante pour la compréhension d'Atman, de Brahman et de la libération.",
     "meta": {
-      "title": "Taittiriya Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Taittiriya Upanishad – Enseignements Upanishad dans le Sanātana Dharma",
       "canonical": "https://sanatanadharmam.in/upanishads/taittiriya-upanishad",
-      "description": "Overview of Taittiriya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "Aperçu de Taittiriya Upanishad : thèmes centraux, idées clés et pourquoi cette Upanishad est importante pour la compréhension d'Atman, de Brahman et de la libération.",
       "keywords": [
         "Taittiriya Upanishad",
         "Upanishads",
-        "Vedanta",
+        "Védanta",
         "Atman",
         "Brahman",
         "Sanatana Dharma"
       ],
-      "robots": "index, follow",
+      "robots": "indexer, suivre",
       "url": "https://sanatanadharmam.in/upanishads/taittiriya-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_taittiriya_upanishad.png"
     },
     "openGraph": {
-      "title": "Taittiriya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Taittiriya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Taittiriya Upanishad – Enseignements Upanishad dans le Sanātana Dharma",
+      "description": "Aperçu de Taittiriya Upanishad : thèmes centraux, idées clés et pourquoi cette Upanishad est importante pour la compréhension d'Atman, de Brahman et de la libération.",
       "url": "https://sanatanadharmam.in/upanishads/taittiriya-upanishad",
-      "siteName": "Sanatanadharmam",
+      "siteName": "Sanatanadharman",
       "type": "article",
       "images": [
         {
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Taittiriya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Taittiriya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "Articles",
+      "name": "Taittiriya Upanishad – Enseignements Upanishad dans le Sanātana Dharma",
+      "description": "Aperçu de Taittiriya Upanishad : thèmes centraux, idées clés et pourquoi cette Upanishad est importante pour la compréhension d'Atman, de Brahman et de la libération.",
       "url": "https://sanatanadharmam.in/upanishads/taittiriya-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "Site Web",
+        "name": "Sanatanadharman",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Taittiriya Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Taittiriya Upanishad is known for its layered approach to the human being—often explained through “sheaths” (koshas), moving from the physical to the subtle, culminating in the dimension of bliss (ananda).",
+    "introduction": "Taittiriya Upanishad est l'un des principaux Upanishads, des textes qui explorent les questions les plus profondes de la vie humaine : qui suis-je ? Qu'est-ce qui est réel ? Qu'est-ce que le Soi (Atman) et la réalité ultime (Brahman) ?\n\nL’enseignement upanishadique est souvent présenté comme un dialogue et une enquête. Plutôt que d’offrir une seule « croyance », il entraîne l’attention et le discernement afin qu’un chercheur puisse passer de l’identité extérieure à la vérité intérieure.\n\nLe Taittiriya Upanishad est connu pour son approche à plusieurs niveaux de l'être humain, souvent expliquée par des « gaines » (koshas), passant du physique au subtil, culminant dans la dimension du bonheur (ananda).",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Education and discipline, the kosha model, the nature of bliss, gratitude, and living with integrity."
+        "section": "Thèmes centraux",
+        "content": "L'éducation et la discipline, le modèle kosha, la nature du bonheur, la gratitude et la vie intègre."
       },
       {
-        "section": "Practice reflection",
-        "content": "The text connects knowledge with character: truthful speech, responsible conduct, and respect for learning are presented as spiritual foundations."
+        "section": "Pratiquer la réflexion",
+        "content": "Le texte relie la connaissance au caractère : un discours véridique, une conduite responsable et le respect de l'apprentissage sont présentés comme des fondements spirituels."
       }
     ],
-    "philosophical_explanation": "Taittiriya links philosophy to formation: the mind becomes fit for truth through ethical refinement. The kosha framework prevents reductionism by showing that “self” is often misidentified with layers of experience rather than awareness itself."
+    "philosophical_explanation": "Taittiriya relie la philosophie à la formation : l'esprit devient apte à la vérité grâce au raffinement éthique. Le cadre kosha prévient le réductionnisme en montrant que le « soi » est souvent identifié à tort avec des couches d’expérience plutôt qu’avec la conscience elle-même."
   }
 }

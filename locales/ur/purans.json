@@ -54,110 +54,110 @@
       "Kurma Purana",
       "Matsya Purana",
       "Garuda Purana",
-      "Brahmanda Purana"
+      "برہمانڈا پران"
     ],
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "CollectionPage",
+          "@type": "مجموعہ کا صفحہ",
           "name": "18 Mahapuranas",
-          "description": "Collection of the eighteen Mahapuranas, sacred scriptures of Sanatana Dharma.",
+          "description": "اٹھارہ مہا پورنوں کا مجموعہ، سناتن دھرم کے مقدس صحیفے۔",
           "url": "https://sanatanadharmam.in/scriptures/puranas"
         },
         {
-          "@type": "ItemList",
-          "name": "Mahapuranas",
+          "@type": "آئٹم لسٹ",
+          "name": "مہا پورن",
           "itemListElement": [
             {
-              "@type": "ListItem",
+              "@type": "فہرست آئٹم",
               "position": 1,
               "name": "Brahma Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "فہرست آئٹم",
               "position": 2,
               "name": "Padma Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "فہرست آئٹم",
               "position": 3,
               "name": "Vishnu Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "فہرست آئٹم",
               "position": 4,
               "name": "Shiva Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "فہرست آئٹم",
               "position": 5,
               "name": "Bhagavata Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "فہرست آئٹم",
               "position": 6,
               "name": "Narada Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "فہرست آئٹم",
               "position": 7,
               "name": "Markandeya Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "فہرست آئٹم",
               "position": 8,
               "name": "Agni Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "فہرست آئٹم",
               "position": 9,
               "name": "Bhavishya Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "فہرست آئٹم",
               "position": 10,
               "name": "Brahmavaivarta Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "فہرست آئٹم",
               "position": 11,
               "name": "Linga Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "فہرست آئٹم",
               "position": 12,
               "name": "Varaha Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "فہرست آئٹم",
               "position": 13,
               "name": "Skanda Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "فہرست آئٹم",
               "position": 14,
               "name": "Vamana Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "فہرست آئٹم",
               "position": 15,
               "name": "Kurma Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "فہرست آئٹم",
               "position": 16,
               "name": "Matsya Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "فہرست آئٹم",
               "position": 17,
               "name": "Garuda Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "فہرست آئٹم",
               "position": 18,
-              "name": "Brahmanda Purana"
+              "name": "برہمانڈا پران"
             }
           ]
         }

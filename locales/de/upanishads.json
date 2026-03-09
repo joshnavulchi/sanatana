@@ -1,29 +1,29 @@
 {
   "upanishads": {
-    "title": "108 Upanishads",
-    "description": "The 108 Upanishads are sacred philosophical texts of Sanatana Dharma exploring Brahman, Atman, liberation and ultimate reality.",
+    "title": "108 Upanishaden",
+    "description": "Die 108 Upanishaden sind heilige philosophische Texte des Sanatana Dharma, die Brahman, Atman, Befreiung und ultimative Realität erforschen.",
     "meta": {
-      "title": "108 Upanishads – Teachings on Brahman and Renunciation",
+      "title": "108 Upanishaden – Lehren über Brahman und Entsagung",
       "canonical": "https://sanatanadharmam.in/upanishads/isha",
-      "description": "The Isha Upanishad from the Shukla Yajurveda explores the unity of Atman and Brahman, renunciation, and the spiritual philosophy of Sanatana Dharma.",
+      "description": "Die Isha Upanishad aus dem Shukla Yajurveda erforscht die Einheit von Atman und Brahman, den Verzicht und die spirituelle Philosophie des Sanatana Dharma.",
       "keywords": [
-        "108 Upanishads",
+        "108 Upanishaden",
         "Isha Upanishad",
-        "Upanishads philosophy",
-        "Vedanta teachings",
-        "Atman and Brahman",
-        "Vedic scriptures",
-        "Sanatana Dharma Upanishads"
+        "Philosophie der Upanishaden",
+        "Vedanta-Lehren",
+        "Atman und Brahman",
+        "Vedische Schriften",
+        "Sanatana Dharma Upanishaden"
       ],
-      "robots": "index, follow",
+      "robots": "Index, folgen",
       "url": "https://sanatanadharmam.in/upanishads/isha"
     },
     "openGraph": {
-      "title": "Isha Upanishad – Sacred Vedantic Text",
-      "description": "Explore the teachings of the Isha Upanishad discussing Brahman, Atman and renunciation in the Vedic tradition.",
+      "title": "Isha Upanishad – Heiliger vedantischer Text",
+      "description": "Entdecken Sie die Lehren der Isha Upanishad über Brahman, Atman und Entsagung in der vedischen Tradition.",
       "url": "https://sanatanadharmam.in/upanishads/isha",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "Sanatanadharam",
+      "type": "Artikel",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads-isha.png",
@@ -37,15 +37,15 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "Book",
+          "@type": "Buch",
           "name": "Isha Upanishad",
           "isPartOf": {
-            "@type": "Book",
-            "name": "Upanishads"
+            "@type": "Buch",
+            "name": "Upanishaden"
           },
           "inLanguage": "Sanskrit",
           "about": [
-            "Vedanta philosophy",
+            "Vedanta-Philosophie",
             "Atman",
             "Brahman",
             "Sanatana Dharma"
@@ -53,12 +53,12 @@
           "url": "https://sanatanadharmam.in/upanishads/isha"
         },
         {
-          "@type": "Article",
-          "headline": "Isha Upanishad – Teachings on Brahman and Renunciation",
-          "about": ["Upanishads", "Vedanta", "Brahman", "Atman"],
+          "@type": "Artikel",
+          "headline": "Isha Upanishad – Lehren über Brahman und Entsagung",
+          "about": ["Upanishaden", "Vedanta", "Brahman", "Atman"],
           "isPartOf": {
-            "@type": "WebSite",
-            "name": "Sanatanadharmam",
+            "@type": "Website",
+            "name": "Sanatanadharam",
             "url": "https://sanatanadharmam.in"
           }
         }

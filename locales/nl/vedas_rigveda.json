@@ -1,31 +1,31 @@
 {
   "rigveda": {
-    "title": "Rigveda – The Oldest Veda of Sanatana Dharma | Hymns, Philosophy and Cosmic Knowledge",
-    "description": "Learn about the Rigveda, the oldest of the four Vedas. Explore its hymns, mandalas, deities, cosmology, philosophy and its influence on Sanatana Dharma.",
+    "title": "Rigveda – De oudste Veda van Sanatana Dharma | Hymnen, filosofie en kosmische kennis",
+    "description": "Leer meer over de Rigveda, de oudste van de vier Veda's. Ontdek de hymnen, mandala's, goden, kosmologie, filosofie en de invloed ervan op Sanatana Dharma.",
     "meta": {
-      "title": "Rigveda – The Oldest Veda of Sanatana Dharma | Hymns, Philosophy and Cosmic Knowledge",
+      "title": "Rigveda – De oudste Veda van Sanatana Dharma | Hymnen, filosofie en kosmische kennis",
       "canonical": "https://sanatanadharmam.in/vedas/rigveda",
-      "description": "Learn about the Rigveda, the oldest of the four Vedas. Explore its hymns, mandalas, deities, cosmology, philosophy and its influence on Sanatana Dharma.",
+      "description": "Leer meer over de Rigveda, de oudste van de vier Veda's. Ontdek de hymnen, mandala's, goden, kosmologie, filosofie en de invloed ervan op Sanatana Dharma.",
       "keywords": [
         "Rigveda",
-        "Rig Veda meaning",
-        "Rigveda hymns",
-        "Rigveda mandalas",
-        "Rigveda deities",
-        "ancient Vedic scriptures",
-        "Sanatana Dharma Vedas",
-        "Rigveda philosophy",
-        "Vedic hymns",
-        "oldest Hindu scripture"
+        "Rig Veda betekenis",
+        "Rigveda-hymnen",
+        "Rigveda-mandala's",
+        "Rigveda-goden",
+        "oude Vedische geschriften",
+        "Sanatana Dharma Veda's",
+        "Rigveda-filosofie",
+        "Vedische hymnen",
+        "oudste hindoegeschrift"
       ],
       "url": "https://sanatanadharmam.in/vedas/rigveda"
     },
     "openGraph": {
-      "title": "Rigveda – Ancient Hymns of the Vedic Civilization",
-      "description": "Discover the Rigveda, the oldest sacred scripture of Sanatana Dharma containing 1028 hymns dedicated to cosmic forces and divine principles.",
+      "title": "Rigveda – Oude hymnen van de Vedische beschaving",
+      "description": "Ontdek de Rigveda, het oudste heilige geschrift van Sanatana Dharma met 1028 hymnen gewijd aan kosmische krachten en goddelijke principes.",
       "url": "https://sanatanadharmam.in/vedas/rigveda",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "Sanatanadharam",
+      "type": "artikel",
       "images": [
         {
           "url": "https://sanatanadharmam.in/images/og/rigveda.png",
@@ -37,68 +37,68 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
+      "@type": "CreatiefWerk",
       "name": "Rigveda",
-      "description": "The Rigveda is the oldest of the four Vedas and contains hymns dedicated to cosmic forces and deities such as Agni, Indra, Varuna and Surya.",
+      "description": "De Rigveda is de oudste van de vier Veda's en bevat hymnen gewijd aan kosmische krachten en goden zoals Agni, Indra, Varuna en Surya.",
       "author": {
-        "@type": "Person",
+        "@type": "Persoon",
         "name": "Ved Vyasa"
       },
-      "inLanguage": "Sanskrit",
+      "inLanguage": "Sanskriet",
       "publisher": {
-        "@type": "Organization",
-        "name": "Sanatanadharmam",
+        "@type": "Organisatie",
+        "name": "Sanatanadharam",
         "url": "https://sanatanadharmam.in"
       },
       "about": [
         "Rigveda",
-        "Vedic hymns",
+        "Vedische hymnen",
         "Sanatana Dharma",
-        "Vedic philosophy",
-        "ancient scriptures"
+        "Vedische filosofie",
+        "oude geschriften"
       ],
       "url": "https://sanatanadharmam.in/vedas/rigveda"
     },
-    "introduction": "The Rigveda is the oldest and most foundational of the four Vedas that form the core of the sacred literature of Sanatana Dharma. The term 'Rigveda' is derived from two Sanskrit words: 'Rik', meaning praise or hymn, and 'Veda', meaning knowledge. Thus the Rigveda can be understood as the 'knowledge of hymns' or 'sacred knowledge expressed through praise'.\n\nThe Rigveda represents one of the earliest literary records of human civilization. Scholars estimate that the hymns were composed between 1500 BCE and 1200 BCE, though traditional Hindu belief considers the Vedas to be timeless revelations heard by ancient sages known as Rishis during deep states of spiritual insight. These sages did not consider themselves authors but rather seers who perceived eternal truths.\n\nThe Rigveda consists of 1028 hymns organized into ten sections known as Mandalas. These hymns are written in Vedic Sanskrit and were originally preserved through an elaborate oral tradition that ensured extraordinary accuracy across generations. Even before writing systems became common, the Rigvedic hymns were memorized and transmitted with meticulous precision.\n\nThe hymns of the Rigveda address a wide range of themes including cosmic creation, natural forces, ethical living, spiritual wisdom and the search for truth. Many hymns praise deities who represent aspects of nature and universal principles. Among the most frequently mentioned deities are Agni (fire), Indra (thunder and power), Varuna (cosmic order), Surya (the sun), Soma (sacred elixir), and Ushas (the dawn).\n\nHowever, these deities should not be understood merely as mythological figures. In the Vedic worldview, they symbolize deeper forces of nature and aspects of universal consciousness. The Rigveda reflects a profound attempt to understand the relationship between humanity, nature and the divine order governing the cosmos.\n\nBeyond ritual praise, the Rigveda also contains philosophical reflections that later became central to Hindu philosophy. Hymns such as the famous Nasadiya Sukta explore the mystery of creation and question the very origins of the universe. These early philosophical inquiries demonstrate a remarkable openness to speculation and contemplation.\n\nFor thousands of years, the Rigveda has served as a foundation for later spiritual texts including the Upanishads, the Brahmanas and the philosophical systems of Vedanta. Its hymns continue to inspire spiritual seekers, scholars and practitioners who study the origins of Indian civilization and spiritual thought.",
+    "introduction": "De Rigveda is de oudste en meest fundamentele van de vier Veda's die de kern vormen van de heilige literatuur van Sanatana Dharma. De term 'Rigveda' is afgeleid van twee Sanskrietwoorden: 'Rik', wat lof of hymne betekent, en 'Veda', wat kennis betekent. De Rigveda kan dus worden opgevat als de 'kennis van hymnen' of 'heilige kennis uitgedrukt door lofprijzing'.\n\nDe Rigveda vertegenwoordigt een van de vroegste literaire verslagen van de menselijke beschaving. Geleerden schatten dat de hymnen tussen 1500 v.Chr. en 1200 v.Chr. zijn gecomponeerd, hoewel het traditionele hindoeïstische geloof de Veda's beschouwt als tijdloze openbaringen die werden gehoord door oude wijzen die bekend staan ​​als Rishi's tijdens diepe staten van spiritueel inzicht. Deze wijzen beschouwden zichzelf niet als auteurs, maar eerder als zieners die eeuwige waarheden waarnamen.\n\nDe Rigveda bestaat uit 1028 hymnen, onderverdeeld in tien secties die bekend staan ​​als Mandala's. Deze hymnen zijn geschreven in het Vedisch Sanskriet en werden oorspronkelijk bewaard via een uitgebreide mondelinge traditie die generaties lang voor buitengewone nauwkeurigheid zorgde. Zelfs voordat schrijfsystemen gemeengoed werden, werden de Rigvedische hymnen met uiterste precisie uit het hoofd geleerd en overgedragen.\n\nDe hymnen van de Rigveda behandelen een breed scala aan thema's, waaronder kosmische schepping, natuurlijke krachten, ethisch leven, spirituele wijsheid en de zoektocht naar waarheid. In veel hymnen worden goden geprezen die aspecten van de natuur en universele principes vertegenwoordigen. Tot de meest genoemde goden behoren Agni (vuur), Indra (donder en kracht), Varuna (kosmische orde), Surya (de zon), Soma (heilig elixer) en Ushas (de dageraad).\n\nDeze goden mogen echter niet louter als mythologische figuren worden opgevat. In het Vedische wereldbeeld symboliseren ze diepere krachten van de natuur en aspecten van universeel bewustzijn. De Rigveda weerspiegelt een diepgaande poging om de relatie tussen de mensheid, de natuur en de goddelijke orde die de kosmos regeert te begrijpen.\n\nNaast rituele lof bevat de Rigveda ook filosofische reflecties die later centraal kwamen te staan ​​in de hindoefilosofie. Hymnen zoals de beroemde Nasadiya Sukta onderzoeken het mysterie van de schepping en stellen de oorsprong van het universum in vraag. Deze vroege filosofische onderzoeken tonen een opmerkelijke openheid voor speculatie en contemplatie.\n\nDuizenden jaren lang heeft de Rigveda gediend als basis voor latere spirituele teksten, waaronder de Upanishads, de Brahmana's en de filosofische systemen van de Vedanta. De hymnen blijven spirituele zoekers, wetenschappers en beoefenaars inspireren die de oorsprong van de Indiase beschaving en het spirituele denken bestuderen.",
     "scripture_text": [
       {
-        "section": "Structure of the Rigveda",
-        "content": "The Rigveda is divided into ten Mandalas or books. Each Mandala contains hymns composed by different families of sages. The structure reflects both chronological development and thematic grouping.\n\nMandalas 2 through 7 are often referred to as the 'family books' because they are associated with specific Rishi lineages such as the Gritsamadas, Vishvamitras, Vamadevas, Atris and Bharadvajas. These sections contain some of the oldest hymns in the Rigveda.\n\nMandalas 1 and 10 are more diverse in content and contain many philosophical and cosmological hymns. Mandala 10 includes some of the most famous verses exploring creation, existence and the nature of reality.\n\nEach hymn in the Rigveda is composed in poetic meters and was designed to be recited during sacred rituals. The careful arrangement of verses reflects a sophisticated understanding of language, rhythm and sound."
+        "section": "Structuur van de Rigveda",
+        "content": "De Rigveda is verdeeld in tien mandala's of boeken. Elke Mandala bevat hymnes die zijn gecomponeerd door verschillende families van wijzen. De structuur weerspiegelt zowel de chronologische ontwikkeling als de thematische groepering.\n\nMandala's 2 tot en met 7 worden vaak de 'familieboeken' genoemd omdat ze geassocieerd zijn met specifieke Rishi-lijnen zoals de Gritsamadas, Vishvamitra's, Vamadeva's, Atris en Bharadvajas. Deze secties bevatten enkele van de oudste hymnen in de Rigveda.\n\nMandala's 1 en 10 zijn diverser qua inhoud en bevatten veel filosofische en kosmologische hymnen. Mandala 10 bevat enkele van de beroemdste verzen die de schepping, het bestaan ​​en de aard van de werkelijkheid onderzoeken.\n\nElke hymne in de Rigveda is gecomponeerd in poëtische metrums en is ontworpen om te worden gereciteerd tijdens heilige rituelen. De zorgvuldige opstelling van de verzen weerspiegelt een verfijnd begrip van taal, ritme en geluid."
       },
       {
-        "section": "Deities in the Rigveda",
-        "content": "The hymns of the Rigveda frequently address various deities who represent forces of nature and cosmic principles. Agni, the fire god, is among the most prominent and is often invoked at the beginning of rituals because fire acts as a mediator between humans and the divine.\n\nIndra is another major deity praised for his strength and heroic deeds, particularly his victory over the serpent Vritra which symbolizes the release of life-giving waters. Varuna represents the cosmic order and moral law known as Rta.\n\nSurya, the sun, symbolizes illumination and the life-sustaining power of the universe, while Ushas, the goddess of dawn, represents renewal and hope. Soma is associated with a sacred ritual drink believed to grant inspiration and divine insight.\n\nThese deities collectively illustrate the Vedic understanding that natural forces are expressions of deeper spiritual realities."
+        "section": "Goden in de Rigveda",
+        "content": "De hymnen van de Rigveda richten zich vaak tot verschillende goden die natuurkrachten en kosmische principes vertegenwoordigen. Agni, de vuurgod, is een van de meest prominente en wordt vaak aan het begin van rituelen aangeroepen omdat vuur fungeert als bemiddelaar tussen mensen en het goddelijke.\n\nIndra is een andere belangrijke godheid die wordt geprezen om zijn kracht en heldendaden, in het bijzonder zijn overwinning op de slang Vritra, die het vrijkomen van levengevende wateren symboliseert. Varuna vertegenwoordigt de kosmische orde en morele wet die bekend staat als Rta.\n\nSurya, de zon, symboliseert verlichting en de levensondersteunende kracht van het universum, terwijl Ushas, ​​de godin van de dageraad, vernieuwing en hoop vertegenwoordigt. Soma wordt geassocieerd met een heilige rituele drank waarvan wordt aangenomen dat deze inspiratie en goddelijk inzicht schenkt.\n\nDeze goden illustreren gezamenlijk het Vedische begrip dat natuurkrachten uitdrukkingen zijn van diepere spirituele realiteiten."
       },
       {
-        "section": "The Nasadiya Sukta",
-        "content": "One of the most remarkable hymns in the Rigveda is the Nasadiya Sukta found in Mandala 10. This hymn contemplates the mystery of creation in a deeply philosophical manner. Instead of offering a definitive explanation, it presents a series of questions about the origin of the universe.\n\nThe hymn begins by describing a time before existence and nonexistence, before space and time themselves. It then explores the possibility that the universe emerged from an undifferentiated state through the power of cosmic desire.\n\nThe hymn concludes with a striking statement suggesting that perhaps even the highest divine being may not fully know the ultimate origin of creation. This openness to inquiry reflects the intellectual depth of Vedic thought."
+        "section": "De Nasadiya Sukta",
+        "content": "Een van de meest opmerkelijke hymnen in de Rigveda is de Nasadiya Sukta, gevonden in Mandala 10. Deze hymne beschouwt het mysterie van de schepping op een diep filosofische manier. In plaats van een definitieve verklaring te bieden, presenteert het een reeks vragen over de oorsprong van het universum.\n\nDe hymne begint met het beschrijven van een tijd vóór bestaan ​​en niet-bestaan, vóór ruimte en tijd zelf. Vervolgens onderzoekt het de mogelijkheid dat het universum uit een ongedifferentieerde staat is voortgekomen door de kracht van kosmisch verlangen.\n\nDe hymne eindigt met een treffende uitspraak die suggereert dat misschien zelfs het hoogste goddelijke wezen de uiteindelijke oorsprong van de schepping misschien niet volledig kent. Deze openheid voor onderzoek weerspiegelt de intellectuele diepgang van het Vedische denken."
       }
     ],
-    "philosophical_explanation": "The Rigveda contains early seeds of philosophical ideas that later evolved into complex systems of Indian thought. One of the central concepts expressed throughout the hymns is the idea of Rta, the cosmic order that governs the functioning of the universe.\n\nRta represents the harmony and balance underlying all natural phenomena. The movement of the sun, the cycles of seasons and the moral conduct of humans are all believed to operate according to this universal law. By performing rituals and living ethically, individuals contribute to maintaining this cosmic harmony.\n\nAnother key philosophical theme is the search for unity within diversity. While the Rigveda praises many deities, several hymns suggest that these diverse manifestations ultimately point toward a single underlying reality. One famous verse declares: 'Truth is one; the wise call it by many names.'\n\nThis insight later became a cornerstone of Vedantic philosophy, which teaches that the ultimate reality known as Brahman manifests itself through various forms and aspects.\n\nThe Rigveda also emphasizes the transformative power of knowledge and awareness. Through reflection, prayer and disciplined living, individuals can deepen their understanding of the universe and their place within it.\n\nThus the Rigveda is not merely a collection of ritual hymns but a profound exploration of human consciousness and cosmic order.",
+    "philosophical_explanation": "De Rigveda bevat vroege zaden van filosofische ideeën die later uitgroeiden tot complexe systemen van het Indiase denken. Een van de centrale concepten die in de hymnen tot uiting komen, is het idee van Rta, de kosmische orde die het functioneren van het universum regeert.\n\nRta vertegenwoordigt de harmonie en balans die ten grondslag liggen aan alle natuurlijke fenomenen. Er wordt aangenomen dat de beweging van de zon, de cycli van seizoenen en het morele gedrag van mensen allemaal volgens deze universele wet werken. Door rituelen uit te voeren en ethisch te leven, dragen individuen bij aan het behoud van deze kosmische harmonie.\n\nEen ander belangrijk filosofisch thema is de zoektocht naar eenheid binnen diversiteit. Hoewel de Rigveda vele goden prijst, suggereren verschillende hymnen dat deze uiteenlopende manifestaties uiteindelijk wijzen op één enkele onderliggende realiteit. Eén beroemd vers luidt: 'De waarheid is één; de wijzen noemen het met vele namen.'\n\nDit inzicht werd later een hoeksteen van de Vedantische filosofie, die leert dat de ultieme realiteit die bekend staat als Brahman zich manifesteert in verschillende vormen en aspecten.\n\nDe Rigveda benadrukt ook de transformerende kracht van kennis en bewustzijn. Door reflectie, gebed en gedisciplineerd leven kunnen individuen hun begrip van het universum en hun plaats daarin verdiepen.\n\nDe Rigveda is dus niet slechts een verzameling rituele hymnen, maar een diepgaande verkenning van het menselijk bewustzijn en de kosmische orde.",
     "major_rigvedic_deities": [
       {
         "name": "Agni",
-        "role": "Fire god and mediator between humans and gods",
-        "importance": "Central deity in sacrificial rituals"
+        "role": "Vuurgod en bemiddelaar tussen mensen en goden",
+        "importance": "Centrale godheid in offerrituelen"
       },
       {
         "name": "Indra",
-        "role": "King of gods and warrior",
-        "importance": "Defeats the serpent Vritra and releases rivers"
+        "role": "Koning der goden en krijger",
+        "importance": "Verslaat de slang Vritra en laat rivieren vrij"
       },
       {
         "name": "Varuna",
-        "role": "Guardian of cosmic order",
-        "importance": "Represents moral and cosmic law"
+        "role": "Bewaker van de kosmische orde",
+        "importance": "Vertegenwoordigt de morele en kosmische wet"
       },
       {
         "name": "Soma",
-        "role": "Sacred ritual drink and deity",
-        "importance": "Associated with divine inspiration and immortality"
+        "role": "Heilige rituele drank en godheid",
+        "importance": "Geassocieerd met goddelijke inspiratie en onsterfelijkheid"
       }
     ],
     "related_concepts": [
-      "Vedas",
+      "Veda's",
       "Upanishads",
       "Agni",
       "Indra",
@@ -106,9 +106,9 @@
       "Surya",
       "Soma",
       "Rta",
-      "Brahman",
+      "brahmaan",
       "Atman",
-      "Vedic rituals",
+      "Vedische rituelen",
       "Sanatana Dharma"
     ]
   }

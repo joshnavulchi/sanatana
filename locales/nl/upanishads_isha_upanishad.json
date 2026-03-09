@@ -1,29 +1,29 @@
 {
   "upanishads_isha-upanishad": {
-    "title": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Isha Upanishad – Upanishad-leringen in Sanātana Dharma",
+    "description": "Overzicht van Isha Upanishad: kernthema's, sleutelideeën en waarom deze Upanishad belangrijk is voor het begrijpen van Atman, Brahman en bevrijding.",
     "meta": {
-      "title": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Isha Upanishad – Upanishad-leringen in Sanātana Dharma",
       "canonical": "https://sanatanadharmam.in/upanishads/isha-upanishad",
-      "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "Overzicht van Isha Upanishad: kernthema's, sleutelideeën en waarom deze Upanishad belangrijk is voor het begrijpen van Atman, Brahman en bevrijding.",
       "keywords": [
         "Isha Upanishad",
         "Upanishads",
         "Vedanta",
         "Atman",
-        "Brahman",
+        "brahmaan",
         "Sanatana Dharma"
       ],
-      "robots": "index, follow",
+      "robots": "indexeren, volgen",
       "url": "https://sanatanadharmam.in/upanishads/isha-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_isha_upanishad.png"
     },
     "openGraph": {
-      "title": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Isha Upanishad – Upanishad-leringen in Sanātana Dharma",
+      "description": "Overzicht van Isha Upanishad: kernthema's, sleutelideeën en waarom deze Upanishad belangrijk is voor het begrijpen van Atman, Brahman en bevrijding.",
       "url": "https://sanatanadharmam.in/upanishads/isha-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "Sanatanadharam",
+      "type": "artikel",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_isha_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "Artikel",
+      "name": "Isha Upanishad – Upanishad-leringen in Sanātana Dharma",
+      "description": "Overzicht van Isha Upanishad: kernthema's, sleutelideeën en waarom deze Upanishad belangrijk is voor het begrijpen van Atman, Brahman en bevrijding.",
       "url": "https://sanatanadharmam.in/upanishads/isha-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "Website",
+        "name": "Sanatanadharam",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Isha Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nA distinctive feature of the Isha Upanishad is the way it joins renunciation with right action: it teaches inner non-attachment while living responsibly in the world.",
+    "introduction": "Isha Upanishad is een van de belangrijkste Upanishads – teksten die de diepste vragen van het menselijk leven onderzoeken: Wie ben ik? Wat is echt? Wat is het Zelf (Atman) en de ultieme realiteit (Brahman)?\n\nUpanishadische leer wordt vaak gepresenteerd als dialoog en onderzoek. In plaats van één enkele ‘overtuiging’ aan te bieden, traint het aandacht en onderscheidingsvermogen, zodat een zoeker van uiterlijke identiteit naar innerlijke waarheid kan gaan.\n\nEen onderscheidend kenmerk van de Isha Upanishad is de manier waarop het verzaking combineert met juiste actie: het leert innerlijke niet-gehechtheid terwijl je verantwoordelijk in de wereld leeft.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Inner renunciation, seeing the Divine presence within and around, freedom from possessiveness, and the discipline of acting without ego-driven attachment."
+        "section": "Centrale thema's",
+        "content": "Innerlijke verzaking, het zien van de goddelijke aanwezigheid in en om ons heen, vrijheid van bezitterigheid en de discipline van handelen zonder ego-gedreven gehechtheid."
       },
       {
-        "section": "Practice reflection",
-        "content": "The text invites a balanced life: perform your duties, but let go of the “I own” and “I control” mindset. This is a practical doorway to peace."
+        "section": "Oefen met reflectie",
+        "content": "De tekst nodigt uit tot een evenwichtig leven: voer je plichten uit, maar laat de ‘ik bezit’- en ‘ik beheers’-mentaliteit los. Dit is een praktische toegangspoort tot vrede."
       }
     ],
-    "philosophical_explanation": "Philosophically, Isha emphasizes a unified vision: the same reality is present in movement and stillness, in the near and the far. When this vision becomes stable, fear and greed soften, and action becomes cleaner—more like service than self-assertion."
+    "philosophical_explanation": "Filosofisch benadrukt Isha een verenigde visie: dezelfde realiteit is aanwezig in beweging en stilte, dichtbij en ver weg. Wanneer deze visie stabiel wordt, worden angst en hebzucht zachter en wordt actie schoner – meer als dienstbaarheid dan als zelfbevestiging."
   }
 }

@@ -60,102 +60,102 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "CollectionPage",
+          "@type": "சேகரிப்பு பக்கம்",
           "name": "18 Mahapuranas",
-          "description": "Collection of the eighteen Mahapuranas, sacred scriptures of Sanatana Dharma.",
+          "description": "பதினெட்டு மகாபுராணங்களின் தொகுப்பு, சனாதன தர்மத்தின் புனித நூல்கள்.",
           "url": "https://sanatanadharmam.in/scriptures/puranas"
         },
         {
-          "@type": "ItemList",
-          "name": "Mahapuranas",
+          "@type": "உருப்படி பட்டியல்",
+          "name": "மகாபுராணங்கள்",
           "itemListElement": [
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 1,
               "name": "Brahma Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 2,
               "name": "Padma Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 3,
               "name": "Vishnu Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 4,
               "name": "Shiva Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 5,
               "name": "Bhagavata Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 6,
               "name": "Narada Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 7,
               "name": "Markandeya Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 8,
               "name": "Agni Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 9,
               "name": "Bhavishya Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 10,
               "name": "Brahmavaivarta Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 11,
               "name": "Linga Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 12,
               "name": "Varaha Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 13,
               "name": "Skanda Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 14,
               "name": "Vamana Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 15,
               "name": "Kurma Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 16,
               "name": "Matsya Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 17,
               "name": "Garuda Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "பட்டியல் உருப்படி",
               "position": 18,
               "name": "Brahmanda Purana"
             }

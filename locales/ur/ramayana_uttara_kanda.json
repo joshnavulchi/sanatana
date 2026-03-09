@@ -1,22 +1,22 @@
 {
   "ramayana_uttara-kanda": {
-    "title": "Uttara Kanda – Ramayana Section Summary",
-    "description": "Explore Uttara Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
+    "title": "اترا کنڈا – رامائن سیکشن کا خلاصہ",
+    "description": "رامائن کے اترا کنڈا کو دریافت کریں: اہم واقعات، دھرمک اسباق، اور فلسفیانہ موضوعات جو بیانیہ کے ذریعے پیش کیے گئے ہیں۔",
     "meta": {
-      "title": "Uttara Kanda – Ramayana Section Summary",
+      "title": "اترا کنڈا – رامائن سیکشن کا خلاصہ",
       "canonical": "https://sanatanadharmam.in/itihasa/ramayana/uttara-kanda",
-      "description": "Explore Uttara Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
-      "keywords": ["Uttara Kanda", "Ramayana", "Itihasa", "dharma", "Sri Rama"],
-      "robots": "index, follow",
+      "description": "رامائن کے اترا کنڈا کو دریافت کریں: اہم واقعات، دھرمک اسباق، اور فلسفیانہ موضوعات جو بیانیہ کے ذریعے پیش کیے گئے ہیں۔",
+      "keywords": ["اترا کنڈا", "رامائن", "اتحاسا", "دھرم", "سری رام"],
+      "robots": "انڈیکس، پیروی کریں",
       "url": "https://sanatanadharmam.in/itihasa/ramayana/uttara-kanda",
       "ogImage": "https://sanatanadharmam.in/og/ramayana_uttara_kanda.png"
     },
     "openGraph": {
-      "title": "Uttara Kanda – Ramayana Section Summary",
-      "description": "Explore Uttara Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
+      "title": "اترا کنڈا – رامائن سیکشن کا خلاصہ",
+      "description": "رامائن کے اترا کنڈا کو دریافت کریں: اہم واقعات، دھرمک اسباق، اور فلسفیانہ موضوعات جو بیانیہ کے ذریعے پیش کیے گئے ہیں۔",
       "url": "https://sanatanadharmam.in/itihasa/ramayana/uttara-kanda",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "سناتندھرم",
+      "type": "مضمون",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/ramayana_uttara_kanda.png",
@@ -28,31 +28,31 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Uttara Kanda – Ramayana Section Summary",
-      "description": "Explore Uttara Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
+      "@type": "مضمون",
+      "name": "اترا کنڈا – رامائن سیکشن کا خلاصہ",
+      "description": "رامائن کے اترا کنڈا کو دریافت کریں: اہم واقعات، دھرمک اسباق، اور فلسفیانہ موضوعات جو بیانیہ کے ذریعے پیش کیے گئے ہیں۔",
       "url": "https://sanatanadharmam.in/itihasa/ramayana/uttara-kanda",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "ویب سائٹ",
+        "name": "سناتندھرم",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Uttara Kanda is one of the traditional kandas (books) of the Ramayana. Each kanda advances the narrative while emphasizing specific virtues—courage, restraint, loyalty, compassion, and the responsibilities of leadership and family life.\n\nThis page provides a safe overview and reflection prompts without relying on long quotations.",
+    "introduction": "اترا کنڈا رامائن کے روایتی کنڈوں (کتابوں) میں سے ایک ہے۔ ہر کانڈا بیانیہ کو آگے بڑھاتا ہے جبکہ مخصوص خوبیوں پر زور دیتا ہے — ہمت، تحمل، وفاداری، ہمدردی، اور قیادت اور خاندانی زندگی کی ذمہ داریوں پر۔\n\nیہ صفحہ طویل اقتباسات پر انحصار کیے بغیر ایک محفوظ جائزہ اور عکاسی کا اشارہ فراہم کرتا ہے۔",
     "scripture_text": [
       {
-        "section": "Narrative arc",
-        "content": "A brief summary of the key events in this kanda and how they set up the next stage of the story."
+        "section": "بیانیہ قوس",
+        "content": "اس کانڈا کے اہم واقعات کا مختصر خلاصہ اور انہوں نے کہانی کا اگلا مرحلہ کیسے ترتیب دیا۔"
       },
       {
-        "section": "Dharmic lessons",
-        "content": "Themes to notice: promises and consequences, right speech, self-control, and how characters respond under pressure."
+        "section": "دھرمی اسباق",
+        "content": "توجہ دینے کے لیے موضوعات: وعدے اور نتائج، صحیح تقریر، خود پر قابو، اور دباؤ میں کردار کیسے جواب دیتے ہیں۔"
       },
       {
-        "section": "Practice reflection",
-        "content": "Ask: What is the right action here? What inner quality is being tested? How does devotion or humility change the outcome?"
+        "section": "عکاسی کی مشق کریں۔",
+        "content": "پوچھو: یہاں صحیح عمل کیا ہے؟ کس اندرونی معیار کی جانچ کی جا رہی ہے؟ عقیدت یا عاجزی نتائج کو کیسے بدلتی ہے؟"
       }
     ],
-    "philosophical_explanation": "The Ramayana is often read as dharma-in-action. Kandawise reflection helps translate ideals into practical guidance: how to keep integrity when life is difficult, how to honor duty without hardening the heart, and how to act with steadiness rather than impulse."
+    "philosophical_explanation": "رامائن کو اکثر دھرم کے طور پر پڑھا جاتا ہے۔ Kandawise عکاسی نظریات کو عملی رہنمائی میں ترجمہ کرنے میں مدد کرتی ہے: زندگی مشکل ہونے پر دیانتداری کو کیسے برقرار رکھا جائے، دل کو سخت کیے بغیر ڈیوٹی کا احترام کیسے کیا جائے، اور تحریک کے بجائے استقامت کے ساتھ کیسے کام کیا جائے۔"
   }
 }

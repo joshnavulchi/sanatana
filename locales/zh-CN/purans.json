@@ -54,110 +54,110 @@
       "Kurma Purana",
       "Matsya Purana",
       "Garuda Purana",
-      "Brahmanda Purana"
+      "婆罗门达往世书"
     ],
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "CollectionPage",
+          "@type": "收藏页",
           "name": "18 Mahapuranas",
-          "description": "Collection of the eighteen Mahapuranas, sacred scriptures of Sanatana Dharma.",
+          "description": "十八部摩诃婆罗那 (Mahapuranas) 集，萨那塔那佛法 (Sanatana Dharma) 的神圣经典。",
           "url": "https://sanatanadharmam.in/scriptures/puranas"
         },
         {
-          "@type": "ItemList",
-          "name": "Mahapuranas",
+          "@type": "项目列表",
+          "name": "玛哈普拉那",
           "itemListElement": [
             {
-              "@type": "ListItem",
+              "@type": "列表项",
               "position": 1,
               "name": "Brahma Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "列表项",
               "position": 2,
               "name": "Padma Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "列表项",
               "position": 3,
               "name": "Vishnu Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "列表项",
               "position": 4,
               "name": "Shiva Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "列表项",
               "position": 5,
               "name": "Bhagavata Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "列表项",
               "position": 6,
               "name": "Narada Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "列表项",
               "position": 7,
               "name": "Markandeya Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "列表项",
               "position": 8,
               "name": "Agni Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "列表项",
               "position": 9,
               "name": "Bhavishya Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "列表项",
               "position": 10,
               "name": "Brahmavaivarta Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "列表项",
               "position": 11,
               "name": "Linga Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "列表项",
               "position": 12,
               "name": "Varaha Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "列表项",
               "position": 13,
               "name": "Skanda Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "列表项",
               "position": 14,
               "name": "Vamana Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "列表项",
               "position": 15,
               "name": "Kurma Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "列表项",
               "position": 16,
               "name": "Matsya Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "列表项",
               "position": 17,
               "name": "Garuda Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "列表项",
               "position": 18,
-              "name": "Brahmanda Purana"
+              "name": "婆罗门达往世书"
             }
           ]
         }

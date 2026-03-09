@@ -1,30 +1,30 @@
 {
   "scriptures_bhagavadgita": {
-    "title": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-    "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
+    "title": "Бхагавад Гита – Учение о Дхарме, йоге и освобождении",
+    "description": "Изучите Бхагавад-гиту: учение Шри Кришны о дхарме, карма-йоге, бхакти, гьяне и пути к внутренней свободе.",
     "meta": {
-      "title": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
+      "title": "Бхагавад Гита – Учение о Дхарме, йоге и освобождении",
       "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-      "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
+      "description": "Изучите Бхагавад-гиту: учение Шри Кришны о дхарме, карма-йоге, бхакти, гьяне и пути к внутренней свободе.",
       "keywords": [
-        "Bhagavad Gita",
-        "Krishna",
-        "Arjuna",
-        "Yoga",
-        "dharma",
-        "karma yoga",
-        "bhakti"
+        "Бхагавад Гита",
+        "Кришна",
+        "Арджуна",
+        "Йога",
+        "дхарма",
+        "карма йога",
+        "бхакти"
       ],
-      "robots": "index, follow",
+      "robots": "индекс, следовать",
       "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
       "ogImage": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png"
     },
     "openGraph": {
-      "title": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-      "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
+      "title": "Бхагавад Гита – Учение о Дхарме, йоге и освобождении",
+      "description": "Изучите Бхагавад-гиту: учение Шри Кришны о дхарме, карма-йоге, бхакти, гьяне и пути к внутренней свободе.",
       "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "Санатанадхармам",
+      "type": "статья",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png",
@@ -36,27 +36,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-      "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
+      "@type": "Статья",
+      "name": "Бхагавад Гита – Учение о Дхарме, йоге и освобождении",
+      "description": "Изучите Бхагавад-гиту: учение Шри Кришны о дхарме, карма-йоге, бхакти, гьяне и пути к внутренней свободе.",
       "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "Веб-сайт",
+        "name": "Санатанадхармам",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "The Bhagavad Gita is a foundational spiritual text presented as a dialogue between Sri Krishna and Arjuna on the battlefield of Kurukshetra. It addresses a universal crisis: how to act rightly when life is complex, emotions are intense, and the consequences of action are unavoidable.\n\nThe Gita teaches multiple yogas (disciplines) that converge toward inner freedom: selfless action, devotion, and knowledge—guided by dharma and clarity of mind.",
+    "introduction": "Бхагавад-гита — основополагающий духовный текст, представленный как диалог между Шри Кришной и Арджуной на поле битвы Курукшетра. В нем рассматривается универсальный кризис: как действовать правильно, когда жизнь сложна, эмоции сильны, а последствия действий неизбежны.\n\nГита учит множеству йог (дисциплин), которые сходятся к внутренней свободе: самоотверженному действию, преданности и знанию, руководствуясь дхармой и ясностью ума.",
     "scripture_text": [
       {
-        "section": "Core topics covered",
-        "content": "The Gita discusses svadharma (one’s rightful duty), karma yoga (selfless action), bhakti (devotion), jnana (knowledge), dhyana (meditation), the gunas (qualities of nature), and the vision of the Self beyond fear and sorrow."
+        "section": "Основные затронутые темы",
+        "content": "В Гите обсуждаются свадхарма (законный долг), карма-йога (бескорыстное действие), бхакти (преданность), гьяна (знание), дхьяна (медитация), гуны (качества природы) и видение Самости за пределами страха и печали."
       },
       {
-        "section": "How chapters are organized",
-        "content": "Each chapter is traditionally treated as a distinct yoga or emphasis, yet the teaching remains integrated: the purpose is steadiness, discernment, and alignment with truth in thought, speech, and action."
+        "section": "Как организованы главы",
+        "content": "Каждая глава традиционно рассматривается как отдельная йога или акцент, однако учение остается интегрированным: цель — устойчивость, проницательность и соответствие истине в мыслях, речи и действиях."
       }
     ],
-    "philosophical_explanation": "Philosophically, the Bhagavad Gita reconciles action and renunciation. It does not demand withdrawal from life; it refines how one engages with life—acting without ego-driven attachment to outcomes. This transforms work into yoga.\n\nThe Gita also frames spiritual growth as a balance: devotion that softens the heart, knowledge that clarifies the mind, and disciplined action that purifies intention. The result is a life guided by dharma, courage, and compassion."
+    "philosophical_explanation": "С философской точки зрения Бхагавад Гита примиряет действие и отречение. Оно не требует ухода из жизни; он совершенствует то, как человек участвует в жизни, действуя без эгоистической привязанности к результатам. Это превращает работу в йогу.\n\nГита также описывает духовный рост как баланс: преданность, смягчающая сердце, знание, проясняющее ум, и дисциплинированные действия, очищающие намерения. Результатом является жизнь, основанная на дхарме, мужестве и сострадании."
   }
 }

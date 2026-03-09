@@ -1,31 +1,31 @@
 {
   "rigveda": {
-    "title": "Rigveda – The Oldest Veda of Sanatana Dharma | Hymns, Philosophy and Cosmic Knowledge",
-    "description": "Learn about the Rigveda, the oldest of the four Vedas. Explore its hymns, mandalas, deities, cosmology, philosophy and its influence on Sanatana Dharma.",
+    "title": "ऋग्वेद – सनातन धर्मको सबैभन्दा पुरानो वेद | भजन, दर्शन र ब्रह्माण्ड ज्ञान",
+    "description": "चार वेदमध्ये सबैभन्दा पुरानो ऋग्वेदको बारेमा जान्नुहोस्। यसको भजन, मण्डला, देवता, ब्रह्माण्ड, दर्शन र सनातन धर्ममा यसको प्रभाव अन्वेषण गर्नुहोस्।",
     "meta": {
-      "title": "Rigveda – The Oldest Veda of Sanatana Dharma | Hymns, Philosophy and Cosmic Knowledge",
+      "title": "ऋग्वेद – सनातन धर्मको सबैभन्दा पुरानो वेद | भजन, दर्शन र ब्रह्माण्ड ज्ञान",
       "canonical": "https://sanatanadharmam.in/vedas/rigveda",
-      "description": "Learn about the Rigveda, the oldest of the four Vedas. Explore its hymns, mandalas, deities, cosmology, philosophy and its influence on Sanatana Dharma.",
+      "description": "चार वेदमध्ये सबैभन्दा पुरानो ऋग्वेदको बारेमा जान्नुहोस्। यसको भजन, मण्डला, देवता, ब्रह्माण्ड, दर्शन र सनातन धर्ममा यसको प्रभाव अन्वेषण गर्नुहोस्।",
       "keywords": [
-        "Rigveda",
-        "Rig Veda meaning",
-        "Rigveda hymns",
-        "Rigveda mandalas",
-        "Rigveda deities",
-        "ancient Vedic scriptures",
-        "Sanatana Dharma Vedas",
-        "Rigveda philosophy",
-        "Vedic hymns",
-        "oldest Hindu scripture"
+        "ऋग्वेद",
+        "ऋग्वेदको अर्थ",
+        "ऋग्वेद भजन",
+        "ऋग्वेद मण्डल",
+        "ऋग्वेदका देवताहरू",
+        "प्राचीन वैदिक शास्त्रहरू",
+        "सनातन धर्म वेद",
+        "ऋग्वेद दर्शन",
+        "वैदिक भजन",
+        "सबैभन्दा पुरानो हिन्दू धर्मग्रन्थ"
       ],
       "url": "https://sanatanadharmam.in/vedas/rigveda"
     },
     "openGraph": {
-      "title": "Rigveda – Ancient Hymns of the Vedic Civilization",
-      "description": "Discover the Rigveda, the oldest sacred scripture of Sanatana Dharma containing 1028 hymns dedicated to cosmic forces and divine principles.",
+      "title": "ऋग्वेद - वैदिक सभ्यता को प्राचीन भजन",
+      "description": "ऋग्वेद पत्ता लगाउनुहोस्, सनातन धर्मको सबैभन्दा पुरानो पवित्र शास्त्र हो जसमा ब्रह्माण्डीय शक्तिहरू र ईश्वरीय सिद्धान्तहरूमा समर्पित 1028 भजनहरू छन्।",
       "url": "https://sanatanadharmam.in/vedas/rigveda",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "सनातन धर्मम",
+      "type": "लेख",
       "images": [
         {
           "url": "https://sanatanadharmam.in/images/og/rigveda.png",
@@ -37,79 +37,79 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Rigveda",
-      "description": "The Rigveda is the oldest of the four Vedas and contains hymns dedicated to cosmic forces and deities such as Agni, Indra, Varuna and Surya.",
+      "@type": "रचनात्मक कार्य",
+      "name": "ऋग्वेद",
+      "description": "ऋग्वेद चार वेदहरूमध्ये सबैभन्दा पुरानो हो र यसमा अग्नि, इन्द्र, वरुण र सूर्य जस्ता ब्रह्माण्डीय शक्तिहरू र देवताहरूलाई समर्पित भजनहरू छन्।",
       "author": {
-        "@type": "Person",
-        "name": "Ved Vyasa"
+        "@type": "व्यक्ति",
+        "name": "वेद व्यास"
       },
-      "inLanguage": "Sanskrit",
+      "inLanguage": "संस्कृत",
       "publisher": {
-        "@type": "Organization",
-        "name": "Sanatanadharmam",
+        "@type": "संगठन",
+        "name": "सनातन धर्मम",
         "url": "https://sanatanadharmam.in"
       },
       "about": [
-        "Rigveda",
-        "Vedic hymns",
-        "Sanatana Dharma",
-        "Vedic philosophy",
-        "ancient scriptures"
+        "ऋग्वेद",
+        "वैदिक भजन",
+        "सनातन धर्म",
+        "वैदिक दर्शन",
+        "प्राचीन शास्त्रहरू"
       ],
       "url": "https://sanatanadharmam.in/vedas/rigveda"
     },
-    "introduction": "The Rigveda is the oldest and most foundational of the four Vedas that form the core of the sacred literature of Sanatana Dharma. The term 'Rigveda' is derived from two Sanskrit words: 'Rik', meaning praise or hymn, and 'Veda', meaning knowledge. Thus the Rigveda can be understood as the 'knowledge of hymns' or 'sacred knowledge expressed through praise'.\n\nThe Rigveda represents one of the earliest literary records of human civilization. Scholars estimate that the hymns were composed between 1500 BCE and 1200 BCE, though traditional Hindu belief considers the Vedas to be timeless revelations heard by ancient sages known as Rishis during deep states of spiritual insight. These sages did not consider themselves authors but rather seers who perceived eternal truths.\n\nThe Rigveda consists of 1028 hymns organized into ten sections known as Mandalas. These hymns are written in Vedic Sanskrit and were originally preserved through an elaborate oral tradition that ensured extraordinary accuracy across generations. Even before writing systems became common, the Rigvedic hymns were memorized and transmitted with meticulous precision.\n\nThe hymns of the Rigveda address a wide range of themes including cosmic creation, natural forces, ethical living, spiritual wisdom and the search for truth. Many hymns praise deities who represent aspects of nature and universal principles. Among the most frequently mentioned deities are Agni (fire), Indra (thunder and power), Varuna (cosmic order), Surya (the sun), Soma (sacred elixir), and Ushas (the dawn).\n\nHowever, these deities should not be understood merely as mythological figures. In the Vedic worldview, they symbolize deeper forces of nature and aspects of universal consciousness. The Rigveda reflects a profound attempt to understand the relationship between humanity, nature and the divine order governing the cosmos.\n\nBeyond ritual praise, the Rigveda also contains philosophical reflections that later became central to Hindu philosophy. Hymns such as the famous Nasadiya Sukta explore the mystery of creation and question the very origins of the universe. These early philosophical inquiries demonstrate a remarkable openness to speculation and contemplation.\n\nFor thousands of years, the Rigveda has served as a foundation for later spiritual texts including the Upanishads, the Brahmanas and the philosophical systems of Vedanta. Its hymns continue to inspire spiritual seekers, scholars and practitioners who study the origins of Indian civilization and spiritual thought.",
+    "introduction": "ऋग्वेद चार वेदहरूमध्ये सबैभन्दा पुरानो र सबैभन्दा आधारभूत हो जुन सनातन धर्मको पवित्र साहित्यको मूल हो। 'ऋग्वेद' शब्द दुई संस्कृत शब्दहरूबाट आएको हो: 'रिक', जसको अर्थ प्रशंसा वा भजन, र 'वेद', जसको अर्थ ज्ञान हो। यसरी ऋग्वेदलाई 'भजनको ज्ञान' वा 'स्तुतिद्वारा व्यक्त गरिएको पवित्र ज्ञान' भनेर बुझ्न सकिन्छ।\n\nऋग्वेदले मानव सभ्यताको प्रारम्भिक साहित्यिक अभिलेखहरू मध्ये एक हो। विद्वानहरूले अनुमान गर्छन् कि भजनहरू 1500 ईसा पूर्व र 1200 ईसापूर्व बीचमा रचना गरिएको थियो, यद्यपि परम्परागत हिन्दू विश्वासले वेदहरूलाई आध्यात्मिक अन्तरदृष्टिको गहिरो अवस्थाहरूमा ऋषिहरू भनेर चिनिने प्राचीन ऋषिहरूले सुनेका कालातीत खुलासाहरू मान्छन्। यी ऋषिहरूले आफूलाई लेखक होइनन्, बरु शाश्वत सत्यहरू बुझ्ने द्रष्टा ठान्थे।\n\nऋग्वेदमा 1028 वटा भजनहरू छन् जसलाई मण्डल भनिन्छ। यी भजनहरू वैदिक संस्कृतमा लेखिएका छन् र मूल रूपमा एक विस्तृत मौखिक परम्परा मार्फत संरक्षित गरिएको थियो जसले पुस्ताहरूमा असाधारण शुद्धता सुनिश्चित गर्‍यो। लेखन प्रणाली सामान्य हुनु अघि नै, ऋग्वेदिक भजनहरू कण्ठित र सावधानीपूर्वक परिशुद्धताका साथ प्रसारित गरियो।\n\nऋग्वेदका भजनहरूले ब्रह्माण्ड सृष्टि, प्राकृतिक शक्तिहरू, नैतिक जीवन, आध्यात्मिक ज्ञान र सत्यको खोजी जस्ता विषयवस्तुहरूको विस्तृत श्रृंखलालाई सम्बोधन गर्दछ। धेरै भजनहरूले प्रकृति र विश्वव्यापी सिद्धान्तहरूका पक्षहरूलाई प्रतिनिधित्व गर्ने देवताहरूको प्रशंसा गर्छन्। प्रायः उल्लेख गरिएका देवताहरूमध्ये अग्नि (आगो), इन्द्र (गर्जन र शक्ति), वरुण (ब्रह्माण्ड क्रम), सूर्य (सूर्य), सोम (पवित्र अमृत), र उषा (बिहान) हुन्।\n\nतर, यी देवताहरूलाई पौराणिक आकृतिका रूपमा मात्र बुझ्नु हुँदैन। वैदिक विश्व दृष्टिकोणमा, तिनीहरू प्रकृतिको गहिरो शक्तिहरू र विश्वव्यापी चेतनाका पक्षहरूलाई प्रतीक गर्छन्। ऋग्वेदले मानवता, प्रकृति र ब्रह्माण्डलाई नियन्त्रित गर्ने ईश्वरीय व्यवस्थाबीचको सम्बन्धलाई बुझ्ने गहिरो प्रयासलाई प्रतिबिम्बित गर्दछ।\n\nअनुष्ठानको प्रशंसाभन्दा बाहिर, ऋग्वेदमा दार्शनिक प्रतिबिम्बहरू पनि छन् जुन पछि हिन्दू दर्शनको केन्द्रबिन्दु बन्यो। प्रसिद्ध नासादिया सुक्त जस्ता भजनहरूले सृष्टिको रहस्यको खोजी गर्दछ र ब्रह्माण्डको उत्पत्तिलाई प्रश्न गर्दछ। यी प्रारम्भिक दार्शनिक जिज्ञासाहरूले अनुमान र चिन्तनमा उल्लेखनीय खुलापन देखाउँछन्।\n\nहजारौं वर्षदेखि, ऋग्वेदले उपनिषद, ब्राह्मण र वेदान्तको दार्शनिक प्रणालीहरू सहित पछिल्ला आध्यात्मिक ग्रन्थहरूको लागि आधारको रूपमा सेवा गरेको छ। यसका भजनहरूले भारतीय सभ्यता र आध्यात्मिक विचारको उत्पत्तिको अध्ययन गर्ने आध्यात्मिक साधकहरू, विद्वानहरू र अभ्यासकर्ताहरूलाई प्रेरित गरिरहन्छन्।",
     "scripture_text": [
       {
-        "section": "Structure of the Rigveda",
-        "content": "The Rigveda is divided into ten Mandalas or books. Each Mandala contains hymns composed by different families of sages. The structure reflects both chronological development and thematic grouping.\n\nMandalas 2 through 7 are often referred to as the 'family books' because they are associated with specific Rishi lineages such as the Gritsamadas, Vishvamitras, Vamadevas, Atris and Bharadvajas. These sections contain some of the oldest hymns in the Rigveda.\n\nMandalas 1 and 10 are more diverse in content and contain many philosophical and cosmological hymns. Mandala 10 includes some of the most famous verses exploring creation, existence and the nature of reality.\n\nEach hymn in the Rigveda is composed in poetic meters and was designed to be recited during sacred rituals. The careful arrangement of verses reflects a sophisticated understanding of language, rhythm and sound."
+        "section": "ऋग्वेदको संरचना",
+        "content": "ऋग्वेदलाई दस मण्डल वा पुस्तकहरूमा विभाजन गरिएको छ। प्रत्येक मण्डलाले ऋषिहरूको विभिन्न परिवारहरूद्वारा रचिएका भजनहरू समावेश गर्दछ। संरचनाले कालक्रम विकास र विषयगत समूहीकरण दुवैलाई प्रतिबिम्बित गर्दछ।\n\nमण्डल २ देखि ७ लाई प्रायः 'पारिवारिक पुस्तकहरू' भनेर चिनिन्छ किनभने तिनीहरू विशिष्ट ऋषि वंशहरू जस्तै गृत्समदास, विश्वामित्र, वामदेव, अत्रिस र भारद्वाजहरूसँग सम्बन्धित छन्। यी खण्डहरूमा ऋग्वेदका केही पुराना भजनहरू छन्।\n\nमण्डला 1 र 10 सामग्रीमा धेरै विविध छन् र धेरै दार्शनिक र ब्रह्माण्डीय भजनहरू छन्। Mandala 10 मा सृष्टि, अस्तित्व र वास्तविकता को प्रकृति को अन्वेषण गर्ने केहि सबैभन्दा प्रसिद्ध पदहरू समावेश छन्।\n\nऋग्वेदका प्रत्येक भजन काव्यात्मक मिटरमा रचिएको छ र पवित्र अनुष्ठानहरूमा पठन गर्न डिजाइन गरिएको थियो। पदहरूको सावधानीपूर्वक व्यवस्थाले भाषा, लय र ध्वनिको परिष्कृत समझ झल्काउँछ।"
       },
       {
-        "section": "Deities in the Rigveda",
-        "content": "The hymns of the Rigveda frequently address various deities who represent forces of nature and cosmic principles. Agni, the fire god, is among the most prominent and is often invoked at the beginning of rituals because fire acts as a mediator between humans and the divine.\n\nIndra is another major deity praised for his strength and heroic deeds, particularly his victory over the serpent Vritra which symbolizes the release of life-giving waters. Varuna represents the cosmic order and moral law known as Rta.\n\nSurya, the sun, symbolizes illumination and the life-sustaining power of the universe, while Ushas, the goddess of dawn, represents renewal and hope. Soma is associated with a sacred ritual drink believed to grant inspiration and divine insight.\n\nThese deities collectively illustrate the Vedic understanding that natural forces are expressions of deeper spiritual realities."
+        "section": "ऋग्वेदमा देवताहरू",
+        "content": "ऋग्वेदका भजनहरूले प्रायः विभिन्न देवताहरूलाई सम्बोधन गर्दछ जसले प्रकृति र ब्रह्माण्ड सिद्धान्तहरूको प्रतिनिधित्व गर्दछ। अग्नि, अग्नि देवता, सबैभन्दा प्रमुख मध्ये एक हो र प्रायः अनुष्ठानको सुरुमा आह्वान गरिन्छ किनभने आगोले मानव र दैवी बीच मध्यस्थकर्ताको रूपमा कार्य गर्दछ।\n\nइन्द्र आफ्नो शक्ति र वीर कार्यहरूको लागि प्रशंसा गरिएको अर्को प्रमुख देवता हो, विशेष गरी सर्प वृत्रामाथि उनको विजय जसले जीवन दिने पानीको रिलीजको प्रतीक हो। वरुणले ब्रह्माण्डीय व्यवस्था र नैतिक नियमलाई Rta भनिन्छ।\n\nसूर्य, सूर्य, प्रकाश र ब्रह्माण्डको जीवन-स्थायी शक्तिको प्रतीक हो, जबकि उषा, बिहानको देवी, नवीकरण र आशाको प्रतिनिधित्व गर्दछ। सोमा एक पवित्र अनुष्ठान पेय संग सम्बन्धित छ जुन प्रेरणा र ईश्वरीय अन्तरदृष्टि प्रदान गर्न को लागी विश्वास गरिन्छ।\n\nयी देवताहरूले सामूहिक रूपमा वैदिक बुझाइलाई चित्रण गर्छन् कि प्राकृतिक शक्तिहरू गहिरो आध्यात्मिक वास्तविकताहरूको अभिव्यक्ति हुन्।"
       },
       {
-        "section": "The Nasadiya Sukta",
-        "content": "One of the most remarkable hymns in the Rigveda is the Nasadiya Sukta found in Mandala 10. This hymn contemplates the mystery of creation in a deeply philosophical manner. Instead of offering a definitive explanation, it presents a series of questions about the origin of the universe.\n\nThe hymn begins by describing a time before existence and nonexistence, before space and time themselves. It then explores the possibility that the universe emerged from an undifferentiated state through the power of cosmic desire.\n\nThe hymn concludes with a striking statement suggesting that perhaps even the highest divine being may not fully know the ultimate origin of creation. This openness to inquiry reflects the intellectual depth of Vedic thought."
+        "section": "नासादिया सुक्त",
+        "content": "ऋग्वेदको सबैभन्दा उल्लेखनीय भजन मण्डल १० मा पाइने नासदीय सुक्त हो। यो भजनले सृष्टिको रहस्यलाई गहिरो दार्शनिक रूपमा चिन्तन गर्छ। निश्चित व्याख्या प्रदान गर्नुको सट्टा, यसले ब्रह्माण्डको उत्पत्तिको बारेमा प्रश्नहरूको श्रृंखला प्रस्तुत गर्दछ।\n\nभजन अस्तित्व र अस्तित्व भन्दा पहिले, स्थान र समय आफैं भन्दा पहिलेको समयको वर्णन गरेर सुरु हुन्छ। त्यसपछि यो ब्रह्माण्ड ब्रह्माण्डको इच्छा शक्ति मार्फत एक अविभाजित अवस्थाबाट उत्पन्न भएको सम्भावनाको अन्वेषण गर्दछ।\n\nभजन एक उल्लेखनीय कथन संग समाप्त हुन्छ कि सम्भवतः सर्वोच्च ईश्वरीय प्राणीले पनि सृष्टिको अन्तिम उत्पत्तिलाई पूर्ण रूपमा थाहा नहुन सक्छ। सोधपुछको यो खुलापनले वैदिक विचारको बौद्धिक गहिराईलाई प्रतिबिम्बित गर्दछ।"
       }
     ],
     "philosophical_explanation": "The Rigveda contains early seeds of philosophical ideas that later evolved into complex systems of Indian thought. One of the central concepts expressed throughout the hymns is the idea of Rta, the cosmic order that governs the functioning of the universe.\n\nRta represents the harmony and balance underlying all natural phenomena. The movement of the sun, the cycles of seasons and the moral conduct of humans are all believed to operate according to this universal law. By performing rituals and living ethically, individuals contribute to maintaining this cosmic harmony.\n\nAnother key philosophical theme is the search for unity within diversity. While the Rigveda praises many deities, several hymns suggest that these diverse manifestations ultimately point toward a single underlying reality. One famous verse declares: 'Truth is one; the wise call it by many names.'\n\nThis insight later became a cornerstone of Vedantic philosophy, which teaches that the ultimate reality known as Brahman manifests itself through various forms and aspects.\n\nThe Rigveda also emphasizes the transformative power of knowledge and awareness. Through reflection, prayer and disciplined living, individuals can deepen their understanding of the universe and their place within it.\n\nThus the Rigveda is not merely a collection of ritual hymns but a profound exploration of human consciousness and cosmic order.",
     "major_rigvedic_deities": [
       {
-        "name": "Agni",
-        "role": "Fire god and mediator between humans and gods",
-        "importance": "Central deity in sacrificial rituals"
+        "name": "अग्नि",
+        "role": "अग्नि देवता र मानव र देवताहरू बीच मध्यस्थकर्ता",
+        "importance": "बलिदान अनुष्ठानमा केन्द्रीय देवता"
       },
       {
-        "name": "Indra",
-        "role": "King of gods and warrior",
-        "importance": "Defeats the serpent Vritra and releases rivers"
+        "name": "इन्द्र",
+        "role": "देवता र योद्धा को राजा",
+        "importance": "सर्प वृत्रलाई परास्त गरी नदीहरू छोड्छ"
       },
       {
-        "name": "Varuna",
-        "role": "Guardian of cosmic order",
-        "importance": "Represents moral and cosmic law"
+        "name": "वरुण",
+        "role": "ब्रह्माण्डीय व्यवस्थाको संरक्षक",
+        "importance": "नैतिक र ब्रह्माण्डीय कानून को प्रतिनिधित्व गर्दछ"
       },
       {
-        "name": "Soma",
+        "name": "सोमा",
         "role": "Sacred ritual drink and deity",
-        "importance": "Associated with divine inspiration and immortality"
+        "importance": "ईश्वरीय प्रेरणा र अमरता संग सम्बद्ध"
       }
     ],
     "related_concepts": [
-      "Vedas",
-      "Upanishads",
-      "Agni",
-      "Indra",
-      "Varuna",
-      "Surya",
-      "Soma",
+      "वेद",
+      "उपनिषद",
+      "अग्नि",
+      "इन्द्र",
+      "वरुण",
+      "सुर्य",
+      "सोमा",
       "Rta",
-      "Brahman",
-      "Atman",
-      "Vedic rituals",
-      "Sanatana Dharma"
+      "ब्राह्मण",
+      "आत्मा",
+      "वैदिक अनुष्ठान",
+      "सनातन धर्म"
     ]
   }
 }

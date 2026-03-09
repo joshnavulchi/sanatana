@@ -1,29 +1,29 @@
 {
   "upanishads_kena-upanishad": {
-    "title": "Kena Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Kena Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Kena Upanishad – Sanātana Dharma 中的奥义书教义",
+    "description": "《基纳奥义书》概述：核心主题、关键思想，以及为什么这部奥义书对于理解阿特曼、婆罗门和解放很重要。",
     "meta": {
-      "title": "Kena Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Kena Upanishad – Sanātana Dharma 中的奥义书教义",
       "canonical": "https://sanatanadharmam.in/upanishads/kena-upanishad",
-      "description": "Overview of Kena Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "《基纳奥义书》概述：核心主题、关键思想，以及为什么这部奥义书对于理解阿特曼、婆罗门和解放很重要。",
       "keywords": [
-        "Kena Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "基纳奥义书",
+        "奥义书",
+        "吠檀多",
+        "奥特曼",
+        "婆罗门",
+        "萨那塔那佛法"
       ],
-      "robots": "index, follow",
+      "robots": "索引，关注",
       "url": "https://sanatanadharmam.in/upanishads/kena-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_kena_upanishad.png"
     },
     "openGraph": {
-      "title": "Kena Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Kena Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Kena Upanishad – Sanātana Dharma 中的奥义书教义",
+      "description": "《基纳奥义书》概述：核心主题、关键思想，以及为什么这部奥义书对于理解阿特曼、婆罗门和解放很重要。",
       "url": "https://sanatanadharmam.in/upanishads/kena-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "萨那塔达曼",
+      "type": "文章",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_kena_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Kena Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Kena Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "文章",
+      "name": "Kena Upanishad – Sanātana Dharma 中的奥义书教义",
+      "description": "《基纳奥义书》概述：核心主题、关键思想，以及为什么这部奥义书对于理解阿特曼、婆罗门和解放很重要。",
       "url": "https://sanatanadharmam.in/upanishads/kena-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "网站",
+        "name": "萨那塔达曼",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Kena Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Kena Upanishad begins with a powerful question about agency: “By whom is the mind directed? By whom does speech speak?” It turns the seeker back toward the source of knowing itself.",
+    "introduction": "《基纳奥义书》是主要的奥义书之一——探索人类生活最深层问题的文本：我是谁？什么是真实的？什么是自我（Atman）和终极现实（Brahman）？\n\n奥义书教学通常以对话和探究的形式呈现。它不是提供单一的“信仰”，而是训练注意力和洞察力，以便寻求者能够从外在身份转向内在真理。\n\n《基纳奥义书》以一个关于能动性的强有力的问题开始：“思想由谁指导？言语由谁说话？”它将探索者带回认识本身的源头。",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "The source behind perception and thought, the limits of language, humility in knowledge, and the difference between conceptual knowing and direct realization."
+        "section": "中心主题",
+        "content": "知觉和思想背后的源泉、语言的限制、知识的谦卑、概念性认识和直接证悟之间的区别。"
       },
       {
-        "section": "Key insight",
-        "content": "The Upanishad points to a reality that is not an object among objects. It is the light by which all objects are known."
+        "section": "关键见解",
+        "content": "《奥义书》指出的现实不是物体中的物体。它是认识所有物体的光。"
       }
     ],
-    "philosophical_explanation": "Kena is a training in epistemic humility: what you can describe is not the final truth. The “knower of knowing” is approached through quieting arrogance, refining attention, and recognizing that consciousness is primary to experience."
+    "philosophical_explanation": "Kena 是一种认知谦逊的训练：你所描述的并不是最终的真相。通过平息傲慢、提炼注意力并认识到意识是体验的首要因素，可以接近“知之知者”。"
   }
 }

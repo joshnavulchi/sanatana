@@ -1,29 +1,29 @@
 {
   "upanishads_mandukya-upanishad": {
-    "title": "Mandukya Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Mandukya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "మాండూక్య ఉపనిషద్ - సనాతన ధర్మంలో ఉపనిషద్ బోధనలు",
+    "description": "మాండూక్య ఉపనిషత్తు యొక్క అవలోకనం: ప్రధాన ఇతివృత్తాలు, ముఖ్య ఆలోచనలు మరియు ఆత్మ, బ్రహ్మ మరియు విముక్తిని అర్థం చేసుకోవడానికి ఈ ఉపనిషత్ ఎందుకు ముఖ్యమైనది.",
     "meta": {
-      "title": "Mandukya Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "మాండూక్య ఉపనిషద్ - సనాతన ధర్మంలో ఉపనిషద్ బోధనలు",
       "canonical": "https://sanatanadharmam.in/upanishads/mandukya-upanishad",
-      "description": "Overview of Mandukya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "మాండూక్య ఉపనిషత్తు యొక్క అవలోకనం: ప్రధాన ఇతివృత్తాలు, ముఖ్య ఆలోచనలు మరియు ఆత్మ, బ్రహ్మ మరియు విముక్తిని అర్థం చేసుకోవడానికి ఈ ఉపనిషత్ ఎందుకు ముఖ్యమైనది.",
       "keywords": [
-        "Mandukya Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "మాండూక్య ఉపనిషత్తు",
+        "ఉపనిషత్తులు",
+        "వేదాంత",
+        "ఆత్మ",
+        "బ్రాహ్మణుడు",
+        "సనాతన ధర్మం"
       ],
-      "robots": "index, follow",
+      "robots": "సూచిక, అనుసరించండి",
       "url": "https://sanatanadharmam.in/upanishads/mandukya-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_mandukya_upanishad.png"
     },
     "openGraph": {
-      "title": "Mandukya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Mandukya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "మాండూక్య ఉపనిషద్ - సనాతన ధర్మంలో ఉపనిషద్ బోధనలు",
+      "description": "మాండూక్య ఉపనిషత్తు యొక్క అవలోకనం: ప్రధాన ఇతివృత్తాలు, ముఖ్య ఆలోచనలు మరియు ఆత్మ, బ్రహ్మ మరియు విముక్తిని అర్థం చేసుకోవడానికి ఈ ఉపనిషత్ ఎందుకు ముఖ్యమైనది.",
       "url": "https://sanatanadharmam.in/upanishads/mandukya-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "సనాతనధర్మం",
+      "type": "వ్యాసం",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_mandukya_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Mandukya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Mandukya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "వ్యాసం",
+      "name": "మాండూక్య ఉపనిషద్ - సనాతన ధర్మంలో ఉపనిషద్ బోధనలు",
+      "description": "మాండూక్య ఉపనిషత్తు యొక్క అవలోకనం: ప్రధాన ఇతివృత్తాలు, ముఖ్య ఆలోచనలు మరియు ఆత్మ, బ్రహ్మ మరియు విముక్తిని అర్థం చేసుకోవడానికి ఈ ఉపనిషత్ ఎందుకు ముఖ్యమైనది.",
       "url": "https://sanatanadharmam.in/upanishads/mandukya-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "వెబ్‌సైట్",
+        "name": "సనాతనధర్మం",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Mandukya Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Mandukya Upanishad is concise yet profound. It analyzes experience through the states of waking, dreaming, and deep sleep, and points to a “fourth” (turiya) that underlies them all. It also uses AUM (Om) as a symbolic map of consciousness.",
+    "introduction": "మాండూక్య ఉపనిషత్తు ప్రధాన ఉపనిషత్తులలో ఒకటి - మానవ జీవితంలోని లోతైన ప్రశ్నలను అన్వేషించే గ్రంథాలు: నేను ఎవరు? అసలు ఏమిటి? నేనే (ఆత్మన్) మరియు అంతిమ వాస్తవికత (బ్రహ్మం) అంటే ఏమిటి?\n\nఉపనిషదిక్ బోధన తరచుగా సంభాషణ మరియు విచారణగా ప్రదర్శించబడుతుంది. ఒకే “నమ్మకాన్ని” అందించడం కంటే, ఇది శ్రద్ధ మరియు వివేచనకు శిక్షణనిస్తుంది, తద్వారా అన్వేషకుడు బయటి గుర్తింపు నుండి అంతర్గత సత్యానికి మారవచ్చు.\n\nమాండూక్య ఉపనిషత్తు సంక్షిప్తమైనది ఇంకా లోతైనది. ఇది మేల్కొలుపు, కలలు కనడం మరియు గాఢనిద్ర వంటి స్థితుల ద్వారా అనుభవాన్ని విశ్లేషిస్తుంది మరియు వాటన్నింటికీ ఆధారమైన \"నాల్గవ\" (తురియా)ని సూచిస్తుంది. ఇది AUM (ఓం) ను స్పృహ యొక్క సింబాలిక్ మ్యాప్‌గా కూడా ఉపయోగిస్తుంది.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "States of consciousness, AUM as a contemplative symbol, and the recognition of a stable awareness beyond changing mental content."
+        "section": "సెంట్రల్ థీమ్స్",
+        "content": "స్పృహ స్థితి, ఆలోచనాత్మక చిహ్నంగా AUM మరియు మానసిక కంటెంట్‌ను మార్చకుండా స్థిరమైన అవగాహనను గుర్తించడం."
       },
       {
-        "section": "Practice reflection",
-        "content": "Meditative inquiry: notice that experiences change while the fact of awareness remains. This observation becomes a doorway into non-dual understanding."
+        "section": "ప్రతిబింబాన్ని ప్రాక్టీస్ చేయండి",
+        "content": "ధ్యాన విచారణ: అవగాహన వాస్తవం మిగిలి ఉండగానే అనుభవాలు మారుతున్నాయని గమనించండి. ఈ పరిశీలన ద్వంద్వ అవగాహనకు ద్వారం అవుతుంది."
       }
     ],
-    "philosophical_explanation": "Mandukya’s method is phenomenological: it studies lived experience. By observing the three states and their transitions, the seeker gains confidence that the Self is not limited to any one mode of mind."
+    "philosophical_explanation": "మాండూక్య యొక్క పద్ధతి అసాధారణమైనది: ఇది జీవించిన అనుభవాన్ని అధ్యయనం చేస్తుంది. మూడు స్థితులను మరియు వాటి పరివర్తనలను గమనించడం ద్వారా, సాధకుడు ఆత్మవిశ్వాసం ఏ ఒక్క మానసిక విధానానికి పరిమితం కాదనే విశ్వాసాన్ని పొందుతాడు."
   }
 }

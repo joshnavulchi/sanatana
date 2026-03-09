@@ -60,13 +60,13 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "CollectionPage",
+          "@type": "Sammlungsseite",
           "name": "18 Mahapuranas",
-          "description": "Collection of the eighteen Mahapuranas, sacred scriptures of Sanatana Dharma.",
+          "description": "Sammlung der achtzehn Mahapuranas, heilige Schriften des Sanatana Dharma.",
           "url": "https://sanatanadharmam.in/scriptures/puranas"
         },
         {
-          "@type": "ItemList",
+          "@type": "Artikelliste",
           "name": "Mahapuranas",
           "itemListElement": [
             {

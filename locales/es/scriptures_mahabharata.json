@@ -1,29 +1,29 @@
 {
   "scriptures_mahabharata": {
-    "title": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice",
-    "description": "Explore the Mahabharata: a vast Itihasa exploring dharma, conflict, duty, and the complexity of human decision-making.",
+    "title": "Mahabharata – Itihasa del Dharma, la ética y la elección humana",
+    "description": "Explora el Mahabharata: un vasto Itihasa que explora el dharma, el conflicto, el deber y la complejidad de la toma de decisiones humana.",
     "meta": {
-      "title": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice",
+      "title": "Mahabharata – Itihasa del Dharma, la ética y la elección humana",
       "canonical": "https://sanatanadharmam.in/itihasa/mahabharata",
-      "description": "Explore the Mahabharata: a vast Itihasa exploring dharma, conflict, duty, and the complexity of human decision-making.",
+      "description": "Explora el Mahabharata: un vasto Itihasa que explora el dharma, el conflicto, el deber y la complejidad de la toma de decisiones humana.",
       "keywords": [
         "Mahabharata",
         "Itihasa",
         "Vyasa",
         "dharma",
-        "ethics",
+        "ética",
         "Sanatana Dharma"
       ],
-      "robots": "index, follow",
+      "robots": "indexar, seguir",
       "url": "https://sanatanadharmam.in/itihasa/mahabharata",
       "ogImage": "https://sanatanadharmam.in/og/scriptures_mahabharata.png"
     },
     "openGraph": {
-      "title": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice",
-      "description": "Explore the Mahabharata: a vast Itihasa exploring dharma, conflict, duty, and the complexity of human decision-making.",
+      "title": "Mahabharata – Itihasa del Dharma, la ética y la elección humana",
+      "description": "Explora el Mahabharata: un vasto Itihasa que explora el dharma, el conflicto, el deber y la complejidad de la toma de decisiones humana.",
       "url": "https://sanatanadharmam.in/itihasa/mahabharata",
       "siteName": "Sanatanadharmam",
-      "type": "article",
+      "type": "artículo",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/scriptures_mahabharata.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice",
-      "description": "Explore the Mahabharata: a vast Itihasa exploring dharma, conflict, duty, and the complexity of human decision-making.",
+      "@type": "Artículo",
+      "name": "Mahabharata – Itihasa del Dharma, la ética y la elección humana",
+      "description": "Explora el Mahabharata: un vasto Itihasa que explora el dharma, el conflicto, el deber y la complejidad de la toma de decisiones humana.",
       "url": "https://sanatanadharmam.in/itihasa/mahabharata",
       "isPartOf": {
-        "@type": "WebSite",
+        "@type": "Sitio web",
         "name": "Sanatanadharmam",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "The Mahabharata is a vast Itihasa traditionally attributed to Maharshi Vyasa. It is both an epic narrative and an encyclopedic source of ethical debate, spiritual teaching, and social reflection. Through the conflict between the Pandavas and Kauravas, it examines duty, ambition, loyalty, and the consequences of choices across generations.\n\nIt is also the broader context in which the Bhagavad Gita appears, connecting spiritual instruction to the hardest questions of real life.",
+    "introduction": "El Mahabharata es un vasto Itihasa tradicionalmente atribuido a Maharshi Vyasa. Es a la vez una narrativa épica y una fuente enciclopédica de debate ético, enseñanza espiritual y reflexión social. A través del conflicto entre los Pandavas y los Kauravas, examina el deber, la ambición, la lealtad y las consecuencias de las elecciones a lo largo de generaciones.\n\nEs también el contexto más amplio en el que aparece el Bhagavad Gita, que conecta la instrucción espiritual con las cuestiones más difíciles de la vida real.",
     "scripture_text": [
       {
-        "section": "Structure (Parvas)",
-        "content": "The Mahabharata is commonly divided into eighteen parvas (books). The parvas contain multiple interwoven stories, dialogues, and teachings rather than a single linear plot."
+        "section": "Estructura (Parvas)",
+        "content": "El Mahabharata se divide comúnmente en dieciocho parvas (libros). Los parvas contienen múltiples historias, diálogos y enseñanzas entrelazadas en lugar de una única trama lineal."
       },
       {
-        "section": "Ethical inquiry",
-        "content": "A defining feature of the Mahabharata is its willingness to present moral ambiguity. Characters face dilemmas where every option has a cost, and the text often frames dharma as something to be discerned through reflection, counsel, and self-honesty."
+        "section": "Investigación ética",
+        "content": "Una característica definitoria del Mahabharata es su voluntad de presentar ambigüedad moral. Los personajes enfrentan dilemas en los que cada opción tiene un costo y el texto a menudo enmarca el dharma como algo que debe discernirse a través de la reflexión, el consejo y la honestidad consigo mismo."
       }
     ],
-    "philosophical_explanation": "The Mahabharata’s philosophy is inseparable from its realism. It teaches that dharma is not always obvious and that intention, context, and consequence matter. It also highlights how inner states—anger, envy, fear, pride—shape outer outcomes.\n\nAs spiritual literature, the Mahabharata pushes the reader toward maturity: a steadier mind, a wider compassion, and the capacity to act responsibly even in imperfect conditions."
+    "philosophical_explanation": "La filosofía del Mahabharata es inseparable de su realismo. Enseña que el dharma no siempre es obvio y que la intención, el contexto y las consecuencias importan. También destaca cómo los estados internos (ira, envidia, miedo, orgullo) dan forma a los resultados externos.\n\nComo literatura espiritual, el Mahabharata empuja al lector hacia la madurez: una mente más firme, una compasión más amplia y la capacidad de actuar responsablemente incluso en condiciones imperfectas."
   }
 }

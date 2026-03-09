@@ -1,29 +1,29 @@
 {
   "upanishads_taittiriya-upanishad": {
-    "title": "Taittiriya Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Taittiriya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "तैत्तिरीय उपनिषद - सनातन धर्म में उपनिषद की शिक्षाएँ",
+    "description": "तैत्तिरीय उपनिषद का अवलोकन: मुख्य विषय, प्रमुख विचार, और यह उपनिषद आत्मा, ब्रह्म और मुक्ति को समझने के लिए क्यों महत्वपूर्ण है।",
     "meta": {
-      "title": "Taittiriya Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "तैत्तिरीय उपनिषद - सनातन धर्म में उपनिषद की शिक्षाएँ",
       "canonical": "https://sanatanadharmam.in/upanishads/taittiriya-upanishad",
-      "description": "Overview of Taittiriya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "तैत्तिरीय उपनिषद का अवलोकन: मुख्य विषय, प्रमुख विचार, और यह उपनिषद आत्मा, ब्रह्म और मुक्ति को समझने के लिए क्यों महत्वपूर्ण है।",
       "keywords": [
-        "Taittiriya Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "तैत्तिरीय उपनिषद",
+        "उपनिषद",
+        "वेदांत",
+        "आत्मा",
+        "ब्राह्मण",
+        "सनातन धर्म"
       ],
-      "robots": "index, follow",
+      "robots": "अनुक्रमणिका, अनुसरण करें",
       "url": "https://sanatanadharmam.in/upanishads/taittiriya-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_taittiriya_upanishad.png"
     },
     "openGraph": {
-      "title": "Taittiriya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Taittiriya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "तैत्तिरीय उपनिषद - सनातन धर्म में उपनिषद की शिक्षाएँ",
+      "description": "तैत्तिरीय उपनिषद का अवलोकन: मुख्य विषय, प्रमुख विचार, और यह उपनिषद आत्मा, ब्रह्म और मुक्ति को समझने के लिए क्यों महत्वपूर्ण है।",
       "url": "https://sanatanadharmam.in/upanishads/taittiriya-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "सनातनधर्मम्",
+      "type": "आलेख",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_taittiriya_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Taittiriya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Taittiriya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "आलेख",
+      "name": "तैत्तिरीय उपनिषद - सनातन धर्म में उपनिषद की शिक्षाएँ",
+      "description": "तैत्तिरीय उपनिषद का अवलोकन: मुख्य विषय, प्रमुख विचार, और यह उपनिषद आत्मा, ब्रह्म और मुक्ति को समझने के लिए क्यों महत्वपूर्ण है।",
       "url": "https://sanatanadharmam.in/upanishads/taittiriya-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "वेबसाइट",
+        "name": "सनातनधर्मम्",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Taittiriya Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Taittiriya Upanishad is known for its layered approach to the human being—often explained through “sheaths” (koshas), moving from the physical to the subtle, culminating in the dimension of bliss (ananda).",
+    "introduction": "तैत्तिरीय उपनिषद प्रमुख उपनिषदों में से एक है - ऐसे ग्रंथ जो मानव जीवन के सबसे गहरे सवालों का पता लगाते हैं: मैं कौन हूं? असली क्या है? स्व (आत्मान) और परम वास्तविकता (ब्राह्मण) क्या है?\n\nउपनिषद शिक्षण को अक्सर संवाद और पूछताछ के रूप में प्रस्तुत किया जाता है। एकल \"विश्वास\" की पेशकश करने के बजाय, यह ध्यान और विवेक को प्रशिक्षित करता है ताकि एक साधक बाहरी पहचान से आंतरिक सत्य की ओर बढ़ सके।\n\nतैत्तिरीय उपनिषद मानव के प्रति अपने स्तरित दृष्टिकोण के लिए जाना जाता है - जिसे अक्सर \"कोष\" के माध्यम से समझाया जाता है, जो भौतिक से सूक्ष्म की ओर बढ़ता है, आनंद (आनंद) के आयाम में समाप्त होता है।",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Education and discipline, the kosha model, the nature of bliss, gratitude, and living with integrity."
+        "section": "केंद्रीय विषय",
+        "content": "शिक्षा और अनुशासन, कोष मॉडल, आनंद, कृतज्ञता और अखंडता के साथ जीने की प्रकृति।"
       },
       {
-        "section": "Practice reflection",
-        "content": "The text connects knowledge with character: truthful speech, responsible conduct, and respect for learning are presented as spiritual foundations."
+        "section": "चिंतन का अभ्यास करें",
+        "content": "पाठ ज्ञान को चरित्र से जोड़ता है: सच्चा भाषण, जिम्मेदार आचरण और सीखने के प्रति सम्मान को आध्यात्मिक नींव के रूप में प्रस्तुत किया गया है।"
       }
     ],
-    "philosophical_explanation": "Taittiriya links philosophy to formation: the mind becomes fit for truth through ethical refinement. The kosha framework prevents reductionism by showing that “self” is often misidentified with layers of experience rather than awareness itself."
+    "philosophical_explanation": "तैत्तिरीय दर्शन को गठन से जोड़ता है: नैतिक परिष्कार के माध्यम से मन सत्य के लिए उपयुक्त हो जाता है। कोश ढाँचा यह दिखाकर न्यूनतावाद को रोकता है कि \"स्वयं\" को अक्सर जागरूकता के बजाय अनुभव की परतों के साथ गलत पहचाना जाता है।"
   }
 }

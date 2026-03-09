@@ -1,29 +1,29 @@
 {
   "scriptures_mahabharata": {
-    "title": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice",
-    "description": "Explore the Mahabharata: a vast Itihasa exploring dharma, conflict, duty, and the complexity of human decision-making.",
+    "title": "మహాభారతం - ధర్మం, నీతి మరియు మానవ ఎంపికల ఇతిహాస",
+    "description": "మహాభారతాన్ని అన్వేషించండి: ధర్మం, సంఘర్షణ, కర్తవ్యం మరియు మానవ నిర్ణయాధికారం యొక్క సంక్లిష్టతను అన్వేషించే విస్తారమైన ఇతిహాస.",
     "meta": {
-      "title": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice",
+      "title": "మహాభారతం - ధర్మం, నీతి మరియు మానవ ఎంపికల ఇతిహాస",
       "canonical": "https://sanatanadharmam.in/itihasa/mahabharata",
-      "description": "Explore the Mahabharata: a vast Itihasa exploring dharma, conflict, duty, and the complexity of human decision-making.",
+      "description": "మహాభారతాన్ని అన్వేషించండి: ధర్మం, సంఘర్షణ, కర్తవ్యం మరియు మానవ నిర్ణయాధికారం యొక్క సంక్లిష్టతను అన్వేషించే విస్తారమైన ఇతిహాస.",
       "keywords": [
-        "Mahabharata",
-        "Itihasa",
-        "Vyasa",
-        "dharma",
-        "ethics",
-        "Sanatana Dharma"
+        "మహాభారతం",
+        "ఇతిహాస",
+        "వ్యాసుడు",
+        "ధర్మము",
+        "నీతిశాస్త్రం",
+        "సనాతన ధర్మం"
       ],
-      "robots": "index, follow",
+      "robots": "సూచిక, అనుసరించండి",
       "url": "https://sanatanadharmam.in/itihasa/mahabharata",
       "ogImage": "https://sanatanadharmam.in/og/scriptures_mahabharata.png"
     },
     "openGraph": {
-      "title": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice",
-      "description": "Explore the Mahabharata: a vast Itihasa exploring dharma, conflict, duty, and the complexity of human decision-making.",
+      "title": "మహాభారతం - ధర్మం, నీతి మరియు మానవ ఎంపికల ఇతిహాస",
+      "description": "మహాభారతాన్ని అన్వేషించండి: ధర్మం, సంఘర్షణ, కర్తవ్యం మరియు మానవ నిర్ణయాధికారం యొక్క సంక్లిష్టతను అన్వేషించే విస్తారమైన ఇతిహాస.",
       "url": "https://sanatanadharmam.in/itihasa/mahabharata",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "సనాతనధర్మం",
+      "type": "వ్యాసం",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/scriptures_mahabharata.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice",
-      "description": "Explore the Mahabharata: a vast Itihasa exploring dharma, conflict, duty, and the complexity of human decision-making.",
+      "@type": "వ్యాసం",
+      "name": "మహాభారతం - ధర్మం, నీతి మరియు మానవ ఎంపికల ఇతిహాస",
+      "description": "మహాభారతాన్ని అన్వేషించండి: ధర్మం, సంఘర్షణ, కర్తవ్యం మరియు మానవ నిర్ణయాధికారం యొక్క సంక్లిష్టతను అన్వేషించే విస్తారమైన ఇతిహాస.",
       "url": "https://sanatanadharmam.in/itihasa/mahabharata",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "వెబ్‌సైట్",
+        "name": "సనాతనధర్మం",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "The Mahabharata is a vast Itihasa traditionally attributed to Maharshi Vyasa. It is both an epic narrative and an encyclopedic source of ethical debate, spiritual teaching, and social reflection. Through the conflict between the Pandavas and Kauravas, it examines duty, ambition, loyalty, and the consequences of choices across generations.\n\nIt is also the broader context in which the Bhagavad Gita appears, connecting spiritual instruction to the hardest questions of real life.",
+    "introduction": "మహాభారతం అనేది సాంప్రదాయకంగా మహర్షి వ్యాసునికి ఆపాదించబడిన విస్తారమైన ఇతిహాసం. ఇది పురాణ కథనం మరియు నైతిక చర్చ, ఆధ్యాత్మిక బోధన మరియు సామాజిక ప్రతిబింబం యొక్క ఎన్సైక్లోపెడిక్ మూలం. పాండవులు మరియు కౌరవుల మధ్య సంఘర్షణ ద్వారా, ఇది విధి, ఆశయం, విధేయత మరియు తరతరాలుగా ఎంపికల యొక్క పరిణామాలను పరిశీలిస్తుంది.\n\nఇది భగవద్గీత కనిపించే విస్తృత సందర్భం, ఆధ్యాత్మిక బోధనను నిజ జీవితంలోని కష్టతరమైన ప్రశ్నలకు అనుసంధానిస్తుంది.",
     "scripture_text": [
       {
-        "section": "Structure (Parvas)",
-        "content": "The Mahabharata is commonly divided into eighteen parvas (books). The parvas contain multiple interwoven stories, dialogues, and teachings rather than a single linear plot."
+        "section": "నిర్మాణం (పర్వాస్)",
+        "content": "మహాభారతం సాధారణంగా పద్దెనిమిది పర్వాలు (పుస్తకాలు)గా విభజించబడింది. పర్వాలు ఒకే సరళ కథాంశం కాకుండా బహుళ అల్లిన కథలు, సంభాషణలు మరియు బోధనలను కలిగి ఉంటాయి."
       },
       {
-        "section": "Ethical inquiry",
-        "content": "A defining feature of the Mahabharata is its willingness to present moral ambiguity. Characters face dilemmas where every option has a cost, and the text often frames dharma as something to be discerned through reflection, counsel, and self-honesty."
+        "section": "నైతిక విచారణ",
+        "content": "మహాభారతం యొక్క నిర్వచించే లక్షణం నైతిక అస్పష్టతను ప్రదర్శించడానికి దాని సుముఖత. అక్షరాలు సందిగ్ధతలను ఎదుర్కొంటాయి, ఇక్కడ ప్రతి ఎంపికకు ఖర్చు ఉంటుంది మరియు వచనం తరచుగా ధర్మాన్ని ప్రతిబింబం, సలహా మరియు స్వీయ-నిజాయితీ ద్వారా గుర్తించదగినదిగా రూపొందిస్తుంది."
       }
     ],
-    "philosophical_explanation": "The Mahabharata’s philosophy is inseparable from its realism. It teaches that dharma is not always obvious and that intention, context, and consequence matter. It also highlights how inner states—anger, envy, fear, pride—shape outer outcomes.\n\nAs spiritual literature, the Mahabharata pushes the reader toward maturity: a steadier mind, a wider compassion, and the capacity to act responsibly even in imperfect conditions."
+    "philosophical_explanation": "మహాభారతం యొక్క తత్వశాస్త్రం దాని వాస్తవికత నుండి విడదీయరానిది. ఇది ధర్మం ఎల్లప్పుడూ స్పష్టంగా ఉండదని మరియు ఉద్దేశం, సందర్భం మరియు పర్యవసానంగా బోధిస్తుంది. ఇది అంతర్గత స్థితులు-కోపం, అసూయ, భయం, గర్వం-బయటి ఫలితాలను ఎలా రూపొందిస్తాయో కూడా హైలైట్ చేస్తుంది.\n\nఆధ్యాత్మిక సాహిత్యంగా, మహాభారతం పాఠకులను పరిపక్వత వైపు నెట్టివేస్తుంది: స్థిరమైన మనస్సు, విస్తృత కరుణ మరియు అసంపూర్ణ పరిస్థితుల్లో కూడా బాధ్యతాయుతంగా వ్యవహరించే సామర్థ్యం."
   }
 }

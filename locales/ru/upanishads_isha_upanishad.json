@@ -1,29 +1,29 @@
 {
   "upanishads_isha-upanishad": {
-    "title": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Иша Упанишад - Учения Упанишад в Санатана Дхарме",
+    "description": "Обзор Иша Упанишады: основные темы, ключевые идеи и почему эта Упанишада важна для понимания Атмана, Брахмана и освобождения.",
     "meta": {
-      "title": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Иша Упанишад - Учения Упанишад в Санатана Дхарме",
       "canonical": "https://sanatanadharmam.in/upanishads/isha-upanishad",
-      "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "Обзор Иша Упанишады: основные темы, ключевые идеи и почему эта Упанишада важна для понимания Атмана, Брахмана и освобождения.",
       "keywords": [
-        "Isha Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "Иша Упанишад",
+        "Упанишады",
+        "Веданта",
+        "Атман",
+        "Брахман",
+        "Санатана Дхарма"
       ],
-      "robots": "index, follow",
+      "robots": "индекс, следовать",
       "url": "https://sanatanadharmam.in/upanishads/isha-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_isha_upanishad.png"
     },
     "openGraph": {
-      "title": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Иша Упанишад - Учения Упанишад в Санатана Дхарме",
+      "description": "Обзор Иша Упанишады: основные темы, ключевые идеи и почему эта Упанишада важна для понимания Атмана, Брахмана и освобождения.",
       "url": "https://sanatanadharmam.in/upanishads/isha-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "Санатанадхармам",
+      "type": "статья",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_isha_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "Статья",
+      "name": "Иша Упанишад - Учения Упанишад в Санатана Дхарме",
+      "description": "Обзор Иша Упанишады: основные темы, ключевые идеи и почему эта Упанишада важна для понимания Атмана, Брахмана и освобождения.",
       "url": "https://sanatanadharmam.in/upanishads/isha-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "Веб-сайт",
+        "name": "Санатанадхармам",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Isha Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nA distinctive feature of the Isha Upanishad is the way it joins renunciation with right action: it teaches inner non-attachment while living responsibly in the world.",
+    "introduction": "Иша Упанишада — одна из главных Упанишад — текстов, исследующих самые глубокие вопросы человеческой жизни: Кто я? Что реально? Что такое Я (Атман) и высшая реальность (Брахман)?\n\nУчение Упанишад часто представлено как диалог и исследование. Вместо того, чтобы предлагать одно «верование», оно тренирует внимание и проницательность, чтобы ищущий мог перейти от внешней идентичности к внутренней истине.\n\nОтличительной особенностью Иша Упанишад является то, как она соединяет отречение с правильными действиями: она учит внутренней непривязанности и ответственному образу жизни в мире.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Inner renunciation, seeing the Divine presence within and around, freedom from possessiveness, and the discipline of acting without ego-driven attachment."
+        "section": "Центральные темы",
+        "content": "Внутреннее отречение, видение Божественного присутствия внутри и вокруг, свобода от собственничества и дисциплина действий без привязанности, движимой эго."
       },
       {
-        "section": "Practice reflection",
-        "content": "The text invites a balanced life: perform your duties, but let go of the “I own” and “I control” mindset. This is a practical doorway to peace."
+        "section": "Практикуйте размышление",
+        "content": "Текст предлагает сбалансированную жизнь: выполняйте свои обязанности, но откажитесь от мышления «я владею» и «я контролирую». Это практический путь к миру."
       }
     ],
-    "philosophical_explanation": "Philosophically, Isha emphasizes a unified vision: the same reality is present in movement and stillness, in the near and the far. When this vision becomes stable, fear and greed soften, and action becomes cleaner—more like service than self-assertion."
+    "philosophical_explanation": "Философски Иша подчеркивает единое видение: одна и та же реальность присутствует в движении и неподвижности, в ближнем и далеком. Когда это видение становится устойчивым, страх и жадность смягчаются, а действия становятся чище и больше похожи на служение, чем на самоутверждение."
   }
 }

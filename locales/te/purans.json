@@ -60,102 +60,102 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "CollectionPage",
+          "@type": "సేకరణపేజీ",
           "name": "18 Mahapuranas",
-          "description": "Collection of the eighteen Mahapuranas, sacred scriptures of Sanatana Dharma.",
+          "description": "పద్దెనిమిది మహాపురాణాల సేకరణ, సనాతన ధర్మం యొక్క పవిత్ర గ్రంథాలు.",
           "url": "https://sanatanadharmam.in/scriptures/puranas"
         },
         {
-          "@type": "ItemList",
-          "name": "Mahapuranas",
+          "@type": "వస్తువుల జాబితా",
+          "name": "మహాపురాణాలు",
           "itemListElement": [
             {
-              "@type": "ListItem",
+              "@type": "జాబితా అంశం",
               "position": 1,
               "name": "Brahma Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "జాబితా అంశం",
               "position": 2,
               "name": "Padma Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "జాబితా అంశం",
               "position": 3,
               "name": "Vishnu Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "జాబితా అంశం",
               "position": 4,
               "name": "Shiva Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "జాబితా అంశం",
               "position": 5,
               "name": "Bhagavata Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "జాబితా అంశం",
               "position": 6,
               "name": "Narada Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "జాబితా అంశం",
               "position": 7,
               "name": "Markandeya Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "జాబితా అంశం",
               "position": 8,
               "name": "Agni Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "జాబితా అంశం",
               "position": 9,
               "name": "Bhavishya Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "జాబితా అంశం",
               "position": 10,
               "name": "Brahmavaivarta Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "జాబితా అంశం",
               "position": 11,
               "name": "Linga Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "జాబితా అంశం",
               "position": 12,
               "name": "Varaha Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "జాబితా అంశం",
               "position": 13,
               "name": "Skanda Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "జాబితా అంశం",
               "position": 14,
               "name": "Vamana Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "జాబితా అంశం",
               "position": 15,
               "name": "Kurma Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "జాబితా అంశం",
               "position": 16,
               "name": "Matsya Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "జాబితా అంశం",
               "position": 17,
               "name": "Garuda Purana"
             },
             {
-              "@type": "ListItem",
+              "@type": "జాబితా అంశం",
               "position": 18,
               "name": "Brahmanda Purana"
             }

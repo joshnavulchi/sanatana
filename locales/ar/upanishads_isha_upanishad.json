@@ -1,29 +1,29 @@
 {
   "upanishads_isha-upanishad": {
-    "title": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "العشاء الأوبنشاد – تعاليم الأوبنشاد في ساناتانا دارما",
+    "description": "نظرة عامة على Isha Upanishad: الموضوعات الأساسية، والأفكار الرئيسية، وسبب أهمية هذا الأوبنشاد لفهم عتمان، براهمان، والتحرير.",
     "meta": {
-      "title": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "العشاء الأوبنشاد – تعاليم الأوبنشاد في ساناتانا دارما",
       "canonical": "https://sanatanadharmam.in/upanishads/isha-upanishad",
-      "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "نظرة عامة على Isha Upanishad: الموضوعات الأساسية، والأفكار الرئيسية، وسبب أهمية هذا الأوبنشاد لفهم عتمان، براهمان، والتحرير.",
       "keywords": [
-        "Isha Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "العشاء أوبانيشاد",
+        "الأوبنشاد",
+        "فيدانتا",
+        "عتمان",
+        "براهمان",
+        "ساناتانا دارما"
       ],
-      "robots": "index, follow",
+      "robots": "الفهرس، اتبع",
       "url": "https://sanatanadharmam.in/upanishads/isha-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_isha_upanishad.png"
     },
     "openGraph": {
-      "title": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "العشاء الأوبنشاد – تعاليم الأوبنشاد في ساناتانا دارما",
+      "description": "نظرة عامة على Isha Upanishad: الموضوعات الأساسية، والأفكار الرئيسية، وسبب أهمية هذا الأوبنشاد لفهم عتمان، براهمان، والتحرير.",
       "url": "https://sanatanadharmam.in/upanishads/isha-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "ساناتانادارمام",
+      "type": "شرط",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_isha_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "شرط",
+      "name": "العشاء الأوبنشاد – تعاليم الأوبنشاد في ساناتانا دارما",
+      "description": "نظرة عامة على Isha Upanishad: الموضوعات الأساسية، والأفكار الرئيسية، وسبب أهمية هذا الأوبنشاد لفهم عتمان، براهمان، والتحرير.",
       "url": "https://sanatanadharmam.in/upanishads/isha-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "موقع إلكتروني",
+        "name": "ساناتانادارمام",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Isha Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nA distinctive feature of the Isha Upanishad is the way it joins renunciation with right action: it teaches inner non-attachment while living responsibly in the world.",
+    "introduction": "العشاء الأوبنشاد هو أحد الأوبنشاد الرئيسي - النصوص التي تستكشف أعمق أسئلة الحياة البشرية: من أنا؟ ما هو الحقيقي؟ ما هي الذات (عتمان) والحقيقة النهائية (براهمان)؟\n\nغالبًا ما يتم تقديم التعليم الأوبنشادي على أنه حوار واستفسار. فبدلاً من تقديم \"معتقد\" واحد، فهو يدرب الانتباه والتمييز حتى يتمكن الباحث من الانتقال من الهوية الخارجية إلى الحقيقة الداخلية.\n\nمن السمات المميزة لصلاة العشاء الأوبنشاد هي الطريقة التي تجمع بها التخلي مع العمل الصحيح: فهي تعلم عدم الارتباط الداخلي بينما تعيش بمسؤولية في العالم.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Inner renunciation, seeing the Divine presence within and around, freedom from possessiveness, and the discipline of acting without ego-driven attachment."
+        "section": "المواضيع المركزية",
+        "content": "التخلي الداخلي، ورؤية الوجود الإلهي في الداخل وحولها، والتحرر من التملك، والانضباط في التصرف دون الارتباط بالأنا."
       },
       {
-        "section": "Practice reflection",
-        "content": "The text invites a balanced life: perform your duties, but let go of the “I own” and “I control” mindset. This is a practical doorway to peace."
+        "section": "ممارسة التأمل",
+        "content": "يدعو النص إلى حياة متوازنة: قم بواجباتك، ولكن تخلص من عقلية \"أنا أملك\" و\"أنا أتحكم\". وهذا مدخل عملي للسلام."
       }
     ],
-    "philosophical_explanation": "Philosophically, Isha emphasizes a unified vision: the same reality is present in movement and stillness, in the near and the far. When this vision becomes stable, fear and greed soften, and action becomes cleaner—more like service than self-assertion."
+    "philosophical_explanation": "ومن الناحية الفلسفية، تؤكد العشاء على رؤية موحدة: الواقع نفسه حاضر في الحركة والسكون، في القريب والبعيد. عندما تصبح هذه الرؤية مستقرة، يضعف الخوف والجشع، ويصبح العمل أنظف - أشبه بالخدمة منه بتأكيد الذات."
   }
 }

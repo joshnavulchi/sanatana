@@ -1,30 +1,30 @@
 {
   "scriptures_bhagavadgita": {
-    "title": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-    "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
+    "title": "Bhagavad Gita – Enseñanzas sobre el Dharma, el Yoga y la Liberación",
+    "description": "Estudie el Bhagavad Gita: enseñanzas de Sri Krishna sobre dharma, karma yoga, bhakti, jnana y el camino hacia la libertad interior.",
     "meta": {
-      "title": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
+      "title": "Bhagavad Gita – Enseñanzas sobre el Dharma, el Yoga y la Liberación",
       "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-      "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
+      "description": "Estudie el Bhagavad Gita: enseñanzas de Sri Krishna sobre dharma, karma yoga, bhakti, jnana y el camino hacia la libertad interior.",
       "keywords": [
         "Bhagavad Gita",
-        "Krishna",
+        "krishna",
         "Arjuna",
-        "Yoga",
+        "yoga",
         "dharma",
-        "karma yoga",
+        "karma-yoga",
         "bhakti"
       ],
-      "robots": "index, follow",
+      "robots": "indexar, seguir",
       "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
       "ogImage": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png"
     },
     "openGraph": {
-      "title": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-      "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
+      "title": "Bhagavad Gita – Enseñanzas sobre el Dharma, el Yoga y la Liberación",
+      "description": "Estudie el Bhagavad Gita: enseñanzas de Sri Krishna sobre dharma, karma yoga, bhakti, jnana y el camino hacia la libertad interior.",
       "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
       "siteName": "Sanatanadharmam",
-      "type": "article",
+      "type": "artículo",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png",
@@ -36,27 +36,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-      "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
+      "@type": "Artículo",
+      "name": "Bhagavad Gita – Enseñanzas sobre el Dharma, el Yoga y la Liberación",
+      "description": "Estudie el Bhagavad Gita: enseñanzas de Sri Krishna sobre dharma, karma yoga, bhakti, jnana y el camino hacia la libertad interior.",
       "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
       "isPartOf": {
-        "@type": "WebSite",
+        "@type": "Sitio web",
         "name": "Sanatanadharmam",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "The Bhagavad Gita is a foundational spiritual text presented as a dialogue between Sri Krishna and Arjuna on the battlefield of Kurukshetra. It addresses a universal crisis: how to act rightly when life is complex, emotions are intense, and the consequences of action are unavoidable.\n\nThe Gita teaches multiple yogas (disciplines) that converge toward inner freedom: selfless action, devotion, and knowledge—guided by dharma and clarity of mind.",
+    "introduction": "El Bhagavad Gita es un texto espiritual fundamental presentado como un diálogo entre Sri Krishna y Arjuna en el campo de batalla de Kurukshetra. Aborda una crisis universal: cómo actuar correctamente cuando la vida es compleja, las emociones intensas y las consecuencias de la acción inevitables.\n\nEl Gita enseña múltiples yogas (disciplinas) que convergen hacia la libertad interior: acción desinteresada, devoción y conocimiento, guiados por el dharma y la claridad mental.",
     "scripture_text": [
       {
-        "section": "Core topics covered",
-        "content": "The Gita discusses svadharma (one’s rightful duty), karma yoga (selfless action), bhakti (devotion), jnana (knowledge), dhyana (meditation), the gunas (qualities of nature), and the vision of the Self beyond fear and sorrow."
+        "section": "Temas centrales cubiertos",
+        "content": "El Gita analiza svadharma (el deber legítimo de uno), karma yoga (acción desinteresada), bhakti (devoción), jnana (conocimiento), dhyana (meditación), las gunas (cualidades de la naturaleza) y la visión del Ser más allá del miedo y la tristeza."
       },
       {
-        "section": "How chapters are organized",
-        "content": "Each chapter is traditionally treated as a distinct yoga or emphasis, yet the teaching remains integrated: the purpose is steadiness, discernment, and alignment with truth in thought, speech, and action."
+        "section": "Cómo se organizan los capítulos",
+        "content": "Cada capítulo se trata tradicionalmente como un yoga o énfasis distinto, pero la enseñanza permanece integrada: el propósito es la firmeza, el discernimiento y la alineación con la verdad en el pensamiento, el habla y la acción."
       }
     ],
-    "philosophical_explanation": "Philosophically, the Bhagavad Gita reconciles action and renunciation. It does not demand withdrawal from life; it refines how one engages with life—acting without ego-driven attachment to outcomes. This transforms work into yoga.\n\nThe Gita also frames spiritual growth as a balance: devotion that softens the heart, knowledge that clarifies the mind, and disciplined action that purifies intention. The result is a life guided by dharma, courage, and compassion."
+    "philosophical_explanation": "Filosóficamente, el Bhagavad Gita concilia acción y renuncia. No exige retirarse de la vida; refina la forma en que uno se involucra con la vida, actuando sin apego a los resultados impulsado por el ego. Esto transforma el trabajo en yoga.\n\nEl Gita también enmarca el crecimiento espiritual como un equilibrio: devoción que ablanda el corazón, conocimiento que clarifica la mente y acción disciplinada que purifica la intención. El resultado es una vida guiada por el dharma, el coraje y la compasión."
   }
 }

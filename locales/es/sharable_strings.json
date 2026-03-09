@@ -2,15 +2,15 @@
   "sharable_strings": {
     "sitetitle": "Sanātana Dharma",
     "banner_notifications": {
-      "title": "If you find our work helpful, consider supporting us to keep this web page ",
+      "title": "Si encuentra útil nuestro trabajo, considere apoyarnos para mantener esta página web.",
       "links": {
         "alive": "/donate"
       },
-      "subtitle": " and Help us grow by making a small donation."
+      "subtitle": "y Ayúdanos a crecer haciendo una pequeña donación."
     },
     "banner_notifications2": {
-      "title": "Protecting the roots of Sanātana Dharma for a brighter future.",
-      "subtitle": "Empowering future generations through timeless Vedic knowledge."
+      "title": "Proteger las raíces del Sanātana Dharma para un futuro mejor.",
+      "subtitle": "Empoderar a las generaciones futuras a través del conocimiento védico atemporal."
     },
     "header": {
       "vedas": {
@@ -18,19 +18,19 @@
         "nav": [
           {
             "name": "Rigveda",
-            "description": "Oldest Veda consisting of hymns dedicated to various deities."
+            "description": "Veda más antiguo que consta de himnos dedicados a varias deidades."
           },
           {
             "name": "Yajurveda",
-            "description": "Contains sacrificial formulas used in rituals."
+            "description": "Contiene fórmulas de sacrificio utilizadas en rituales."
           },
           {
             "name": "Samaveda",
-            "description": "Collection of melodies and chants used for ritual singing."
+            "description": "Colección de melodías y cantos utilizados para el canto ritual."
           },
           {
             "name": "Atharvaveda",
-            "description": "Contains hymns, spells, and philosophical teachings."
+            "description": "Contiene himnos, hechizos y enseñanzas filosóficas."
           }
         ]
       },
@@ -41,7 +41,7 @@
           "kena-upanishad": "Kena Upanishad",
           "katha-upanishad": "Katha Upanishad",
           "prashna-upanishad": "Prashna Upanishad",
-          "mundaka-upanishad": "Mundaka Upanishad",
+          "mundaka-upanishad": "Upanishad Mundaka",
           "mandukya-upanishad": "Mandukya Upanishad",
           "taittiriya-upanishad": "Taittiriya Upanishad",
           "aitareya-upanishad": "Aitareya Upanishad",
@@ -81,7 +81,7 @@
           {
             "name": "Ramayana",
             "author": "Valmiki",
-            "description": "Epic describing the life of Lord Rama.",
+            "description": "Épica que describe la vida del Señor Rama.",
             "kandas": {
               "bala-kanda": "Bala Kanda",
               "ayodhya-kanda": "Ayodhya Kanda",
@@ -95,30 +95,30 @@
           {
             "name": "Mahabharata",
             "author": "Vyasa",
-            "description": "Epic describing the Kurukshetra war and dharma.",
+            "description": "Épica que describe la guerra y el dharma de Kurukshetra.",
             "parvas": 18
           },
           {
-            "description": "Sacred dialogue between Lord Krishna and Arjuna.",
+            "description": "Diálogo sagrado entre el Señor Krishna y Arjuna.",
             "chapters": 18,
             "verses": 700,
             "chapters_list": {
-              "arjuna-vishada-yoga": "Arjuna Vishada Yoga",
-              "sankhya-yoga": "Sankhya Yoga",
-              "karma-yoga": "Karma Yoga",
-              "jnana-karma-sanyasa-yoga": "Jnana Karma Sanyasa Yoga",
+              "arjuna-vishada-yoga": "Yoga Arjuna Vishada",
+              "sankhya-yoga": "Yoga Sankhya",
+              "karma-yoga": "karma-yoga",
+              "jnana-karma-sanyasa-yoga": "Jñana Karma Sanyasa Yoga",
               "karma-sanyasa-yoga": "Karma Sanyasa Yoga",
-              "dhyana-yoga": "Dhyana Yoga",
-              "jnana-vijnana-yoga": "Jnana Vijnana Yoga",
-              "akshara-brahma-yoga": "Akshara Brahma Yoga",
+              "dhyana-yoga": "Yoga Dhyana",
+              "jnana-vijnana-yoga": "Jñana Vijñana Yoga",
+              "akshara-brahma-yoga": "Yoga Akshara Brahma",
               "raja-vidya-raja-guhya-yoga": "Raja Vidya Raja Guhya Yoga",
-              "vibhuti-yoga": "Vibhuti Yoga",
+              "vibhuti-yoga": "Yoga Vibhuti",
               "vishvarupa-darshana-yoga": "Vishvarupa Darshana Yoga",
-              "bhakti-yoga": "Bhakti Yoga",
+              "bhakti-yoga": "bhakti-yoga",
               "kshetra-kshetrajna-vibhaga-yoga": "Kshetra Kshetrajna Vibhaga Yoga",
-              "gunatraya-vibhaga-yoga": "Gunatraya Vibhaga Yoga",
-              "purushottama-yoga": "Purushottama Yoga",
-              "daivasura-sampad-vibhaga-yoga": "Daivasura Sampad Vibhaga Yoga",
+              "gunatraya-vibhaga-yoga": "Yoga Gunatraya Vibhaga",
+              "purushottama-yoga": "Yoga Purushottama",
+              "daivasura-sampad-vibhaga-yoga": "Yoga Daivasura Sampad Vibhaga",
               "shraddhatray-vibhaga-yoga": "Shraddhatraya Vibhaga Yoga",
               "moksha-sanyasa-yoga": "Moksha Sanyasa Yoga"
             }
@@ -126,54 +126,54 @@
         ]
       },
       "philosopy": {
-        "title": "Philosophy",
-        "subtitle": "Vedic",
+        "title": "Filosofía",
+        "subtitle": "védico",
         "nav": {
           "advaita": "Advaita",
           "purushartha": "Purushartha",
-          "samsara": "Samsara",
+          "samsara": "samsara",
           "dharma": "Dharma",
           "karma": "Karma",
           "moksha": "Moksha"
         }
       },
       "science": {
-        "title": "Science",
-        "subtitle": "Vedic",
+        "title": "Ciencia",
+        "subtitle": "védico",
         "nav": {
-          "astronomy": "Astronomy",
-          "mathematics": "Mathematics",
-          "medicine": "Medicine",
-          "metallurgy": "Metallurgy",
-          "architecture": "Architecture"
+          "astronomy": "Astronomía",
+          "mathematics": "Matemáticas",
+          "medicine": "Medicamento",
+          "metallurgy": "Metalurgia",
+          "architecture": "Arquitectura"
         }
       }
     },
     "footer": {
       "title": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत। अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम्॥",
-      "contact": "Contact with us",
-      "contentchange": "Content may be incomplete or subject to change.",
+      "contact": "Contacta con nosotros",
+      "contentchange": "El contenido puede estar incompleto o sujeto a cambios.",
       "copyright": "Vulchi Vijaya Kumar Raju © 2025.",
-      "disclaimer": "Disclaimer: This website is currently in development.",
-      "donate": "Donate",
+      "disclaimer": "Descargo de responsabilidad: este sitio web se encuentra actualmente en desarrollo.",
+      "donate": "Donar",
       "vedas": {
         "title": "Vedas",
         "nav": [
           {
             "name": "Rigveda",
-            "description": "Oldest Veda consisting of hymns dedicated to various deities."
+            "description": "Veda más antiguo que consta de himnos dedicados a varias deidades."
           },
           {
             "name": "Yajurveda",
-            "description": "Contains sacrificial formulas used in rituals."
+            "description": "Contiene fórmulas de sacrificio utilizadas en rituales."
           },
           {
             "name": "Samaveda",
-            "description": "Collection of melodies and chants used for ritual singing."
+            "description": "Colección de melodías y cantos utilizados para el canto ritual."
           },
           {
             "name": "Atharvaveda",
-            "description": "Contains hymns, spells, and philosophical teachings."
+            "description": "Contiene himnos, hechizos y enseñanzas filosóficas."
           }
         ]
       },
@@ -184,7 +184,7 @@
           "kena-upanishad": "Kena Upanishad",
           "katha-upanishad": "Katha Upanishad",
           "prashna-upanishad": "Prashna Upanishad",
-          "mundaka-upanishad": "Mundaka Upanishad",
+          "mundaka-upanishad": "Upanishad Mundaka",
           "mandukya-upanishad": "Mandukya Upanishad",
           "taittiriya-upanishad": "Taittiriya Upanishad",
           "aitareya-upanishad": "Aitareya Upanishad",
@@ -224,7 +224,7 @@
           {
             "name": "Ramayana",
             "author": "Valmiki",
-            "description": "Epic describing the life of Lord Rama.",
+            "description": "Épica que describe la vida del Señor Rama.",
             "kandas": {
               "bala-kanda": "Bala Kanda",
               "ayodhya-kanda": "Ayodhya Kanda",
@@ -238,30 +238,30 @@
           {
             "name": "Mahabharata",
             "author": "Vyasa",
-            "description": "Epic describing the Kurukshetra war and dharma.",
+            "description": "Épica que describe la guerra y el dharma de Kurukshetra.",
             "parvas": 18
           },
           {
-            "description": "Sacred dialogue between Lord Krishna and Arjuna.",
+            "description": "Diálogo sagrado entre el Señor Krishna y Arjuna.",
             "chapters": 18,
             "verses": 700,
             "chapters_list": {
-              "arjuna-vishada-yoga": "Arjuna Vishada Yoga",
-              "sankhya-yoga": "Sankhya Yoga",
-              "karma-yoga": "Karma Yoga",
-              "jnana-karma-sanyasa-yoga": "Jnana Karma Sanyasa Yoga",
+              "arjuna-vishada-yoga": "Yoga Arjuna Vishada",
+              "sankhya-yoga": "Yoga Sankhya",
+              "karma-yoga": "karma-yoga",
+              "jnana-karma-sanyasa-yoga": "Jñana Karma Sanyasa Yoga",
               "karma-sanyasa-yoga": "Karma Sanyasa Yoga",
-              "dhyana-yoga": "Dhyana Yoga",
-              "jnana-vijnana-yoga": "Jnana Vijnana Yoga",
-              "akshara-brahma-yoga": "Akshara Brahma Yoga",
+              "dhyana-yoga": "Yoga Dhyana",
+              "jnana-vijnana-yoga": "Jñana Vijñana Yoga",
+              "akshara-brahma-yoga": "Yoga Akshara Brahma",
               "raja-vidya-raja-guhya-yoga": "Raja Vidya Raja Guhya Yoga",
-              "vibhuti-yoga": "Vibhuti Yoga",
+              "vibhuti-yoga": "Yoga Vibhuti",
               "vishvarupa-darshana-yoga": "Vishvarupa Darshana Yoga",
-              "bhakti-yoga": "Bhakti Yoga",
+              "bhakti-yoga": "bhakti-yoga",
               "kshetra-kshetrajna-vibhaga-yoga": "Kshetra Kshetrajna Vibhaga Yoga",
-              "gunatraya-vibhaga-yoga": "Gunatraya Vibhaga Yoga",
-              "purushottama-yoga": "Purushottama Yoga",
-              "daivasura-sampad-vibhaga-yoga": "Daivasura Sampad Vibhaga Yoga",
+              "gunatraya-vibhaga-yoga": "Yoga Gunatraya Vibhaga",
+              "purushottama-yoga": "Yoga Purushottama",
+              "daivasura-sampad-vibhaga-yoga": "Yoga Daivasura Sampad Vibhaga",
               "shraddhatray-vibhaga-yoga": "Shraddhatraya Vibhaga Yoga",
               "moksha-sanyasa-yoga": "Moksha Sanyasa Yoga"
             }
@@ -269,41 +269,41 @@
         ]
       },
       "philosophy": {
-        "title": "Philosophy",
-        "subtitle": "Vedic",
+        "title": "Filosofía",
+        "subtitle": "védico",
         "nav": {
           "advaita": "Advaita",
           "purushartha": "Purushartha",
-          "samsara": "Samsara",
+          "samsara": "samsara",
           "dharma": "Dharma",
           "karma": "Karma",
           "moksha": "Moksha"
         }
       },
       "science": {
-        "title": "Science",
-        "subtitle": "Vedic",
+        "title": "Ciencia",
+        "subtitle": "védico",
         "nav": {
-          "astronomy": "Astronomy",
-          "mathematics": "Mathematics",
-          "medicine": "Medicine",
-          "metallurgy": "Metallurgy",
-          "architecture": "Architecture"
+          "astronomy": "Astronomía",
+          "mathematics": "Matemáticas",
+          "medicine": "Medicamento",
+          "metallurgy": "Metalurgia",
+          "architecture": "Arquitectura"
         }
       },
       "others": {
-        "title": "Sanātana dharmam",
+        "title": "sanatana dharmam",
         "nav": {
-          "vedic-gods": "Vedic Gods",
-          "sanskrit-concepts": "Sanskrit Concepts",
-          "festivals": "Festivals",
-          "about": "About"
+          "vedic-gods": "Dioses védicos",
+          "sanskrit-concepts": "Conceptos sánscritos",
+          "festivals": "festivales",
+          "about": "Acerca de"
         }
       },
-      "privacy": "Privacy Policy",
-      "quote": "Whenever righteousness declines and unrighteousness rises, I manifest Myself. To protect the righteous, to annihilate the wicked, and to reestablish the principles of dharma, I appear millennium after millennium.",
-      "quotesource": "(Bhagavad Gītā 4.7)",
-      "terms": "Terms of Service"
+      "privacy": "política de privacidad",
+      "quote": "Siempre que la justicia decae y la injusticia aumenta, Yo Me manifiesto. Para proteger a los justos, aniquilar a los malvados y restablecer los principios del dharma, aparezco milenio tras milenio.",
+      "quotesource": "(Bhagavad Gita 4.7)",
+      "terms": "Términos de servicio"
     },
     "similar_categories": {
       "vedas": {
@@ -312,19 +312,19 @@
         "nav": [
           {
             "name": "Rigveda",
-            "description": "Oldest Veda consisting of hymns dedicated to various deities."
+            "description": "Veda más antiguo que consta de himnos dedicados a varias deidades."
           },
           {
             "name": "Yajurveda",
-            "description": "Contains sacrificial formulas used in rituals."
+            "description": "Contiene fórmulas de sacrificio utilizadas en rituales."
           },
           {
             "name": "Samaveda",
-            "description": "Collection of melodies and chants used for ritual singing."
+            "description": "Colección de melodías y cantos utilizados para el canto ritual."
           },
           {
             "name": "Atharvaveda",
-            "description": "Contains hymns, spells, and philosophical teachings."
+            "description": "Contiene himnos, hechizos y enseñanzas filosóficas."
           }
         ]
       },
@@ -336,7 +336,7 @@
           "kena-upanishad": "Kena Upanishad",
           "katha-upanishad": "Katha Upanishad",
           "prashna-upanishad": "Prashna Upanishad",
-          "mundaka-upanishad": "Mundaka Upanishad",
+          "mundaka-upanishad": "Upanishad Mundaka",
           "mandukya-upanishad": "Mandukya Upanishad",
           "taittiriya-upanishad": "Taittiriya Upanishad",
           "aitareya-upanishad": "Aitareya Upanishad",
@@ -378,7 +378,7 @@
           {
             "name": "Ramayana",
             "author": "Valmiki",
-            "description": "Epic describing the life of Lord Rama.",
+            "description": "Épica que describe la vida del Señor Rama.",
             "kandas": {
               "bala-kanda": "Bala Kanda",
               "ayodhya-kanda": "Ayodhya Kanda",
@@ -392,30 +392,30 @@
           {
             "name": "Mahabharata",
             "author": "Vyasa",
-            "description": "Epic describing the Kurukshetra war and dharma.",
+            "description": "Épica que describe la guerra y el dharma de Kurukshetra.",
             "parvas": 18
           },
           {
-            "description": "Sacred dialogue between Lord Krishna and Arjuna.",
+            "description": "Diálogo sagrado entre el Señor Krishna y Arjuna.",
             "chapters": 18,
             "verses": 700,
             "chapters_list": {
-              "arjuna-vishada-yoga": "Arjuna Vishada Yoga",
-              "sankhya-yoga": "Sankhya Yoga",
-              "karma-yoga": "Karma Yoga",
-              "jnana-karma-sanyasa-yoga": "Jnana Karma Sanyasa Yoga",
+              "arjuna-vishada-yoga": "Yoga Arjuna Vishada",
+              "sankhya-yoga": "Yoga Sankhya",
+              "karma-yoga": "karma-yoga",
+              "jnana-karma-sanyasa-yoga": "Jñana Karma Sanyasa Yoga",
               "karma-sanyasa-yoga": "Karma Sanyasa Yoga",
-              "dhyana-yoga": "Dhyana Yoga",
-              "jnana-vijnana-yoga": "Jnana Vijnana Yoga",
-              "akshara-brahma-yoga": "Akshara Brahma Yoga",
+              "dhyana-yoga": "Yoga Dhyana",
+              "jnana-vijnana-yoga": "Jñana Vijñana Yoga",
+              "akshara-brahma-yoga": "Yoga Akshara Brahma",
               "raja-vidya-raja-guhya-yoga": "Raja Vidya Raja Guhya Yoga",
-              "vibhuti-yoga": "Vibhuti Yoga",
+              "vibhuti-yoga": "Yoga Vibhuti",
               "vishvarupa-darshana-yoga": "Vishvarupa Darshana Yoga",
-              "bhakti-yoga": "Bhakti Yoga",
+              "bhakti-yoga": "bhakti-yoga",
               "kshetra-kshetrajna-vibhaga-yoga": "Kshetra Kshetrajna Vibhaga Yoga",
-              "gunatraya-vibhaga-yoga": "Gunatraya Vibhaga Yoga",
-              "purushottama-yoga": "Purushottama Yoga",
-              "daivasura-sampad-vibhaga-yoga": "Daivasura Sampad Vibhaga Yoga",
+              "gunatraya-vibhaga-yoga": "Yoga Gunatraya Vibhaga",
+              "purushottama-yoga": "Yoga Purushottama",
+              "daivasura-sampad-vibhaga-yoga": "Yoga Daivasura Sampad Vibhaga",
               "shraddhatray-vibhaga-yoga": "Shraddhatraya Vibhaga Yoga",
               "moksha-sanyasa-yoga": "Moksha Sanyasa Yoga"
             }
@@ -423,97 +423,97 @@
         ]
       },
       "philosophy": {
-        "title": "Philosophy",
+        "title": "Filosofía",
         "basePath": "/philosophy",
-        "subtitle": "Vedic",
+        "subtitle": "védico",
         "nav": {
           "advaita": "Advaita",
           "purushartha": "Purushartha",
-          "samsara": "Samsara",
+          "samsara": "samsara",
           "dharma": "Dharma",
           "karma": "Karma",
           "moksha": "Moksha"
         }
       },
       "science": {
-        "title": "Science",
+        "title": "Ciencia",
         "basePath": "/vedic-philosophy",
-        "subtitle": "Vedic",
+        "subtitle": "védico",
         "nav": {
-          "astronomy": "Astronomy",
-          "mathematics": "Mathematics",
-          "medicine": "Medicine",
-          "metallurgy": "Metallurgy",
-          "architecture": "Architecture"
+          "astronomy": "Astronomía",
+          "mathematics": "Matemáticas",
+          "medicine": "Medicamento",
+          "metallurgy": "Metalurgia",
+          "architecture": "Arquitectura"
         }
       },
       "others": {
-        "title": "Sanātana dharmam",
+        "title": "sanatana dharmam",
         "basePath": "",
         "nav": {
-          "vedic-gods": "Vedic Gods",
-          "sanskrit-concepts": "Sanskrit Concepts",
-          "festivals": "Festivals",
-          "about": "About"
+          "vedic-gods": "Dioses védicos",
+          "sanskrit-concepts": "Conceptos sánscritos",
+          "festivals": "festivales",
+          "about": "Acerca de"
         }
       }
     },
     "scrolltotop": {
-      "title": "Back to top",
-      "arialabel": "Scroll to top"
+      "title": "Volver arriba",
+      "arialabel": "Desplazarse hacia arriba"
     },
     "cookieconsent": {
-      "acceptall": "Accept all",
-      "cookiepolicy": "Cookie Policy",
-      "managerbutton": "Cookie Preference Manager",
-      "paragraph": "We use cookies to track visitors, measure ads, ad campaign effectiveness and analyze site traffic. We may also share information about your use of our site with 3rd parties. For more info, see our {cookiePolicyLink} and {privacyPolicyLink}. By clicking on \"{managerLabel}\" you can choose to enable only certain cookie categories. By clicking \"{acceptAllLabel}\" you agree to the storing of all cookies on your device. In case you don't choose one of these options and use our website we will treat it as if you have accepted all cookies.",
-      "privacypolicy": "Privacy Policy"
+      "acceptall": "aceptar todo",
+      "cookiepolicy": "Política de cookies",
+      "managerbutton": "Administrador de preferencias de cookies",
+      "paragraph": "Utilizamos cookies para rastrear visitantes, medir anuncios, la efectividad de las campañas publicitarias y analizar el tráfico del sitio. También podemos compartir información sobre su uso de nuestro sitio con terceros. Para obtener más información, consulte nuestra {cookiePolicyLink} y {privacyPolicyLink}. Al hacer clic en \"{managerLabel}\", puede elegir habilitar solo ciertas categorías de cookies. Al hacer clic en \"{acceptAllLabel}\", acepta el almacenamiento de todas las cookies en su dispositivo. En caso de que no elija una de estas opciones y utilice nuestro sitio web, lo trataremos como si hubiera aceptado todas las cookies.",
+      "privacypolicy": "política de privacidad"
     },
     "cookiepolicy": {
-      "title": "Cookie Policy",
-      "datasharing": "Data sharing",
-      "datasharingdesc": "We may share aggregated information with third parties for analytics and advertising. No sensitive personal data is shared by default.",
-      "intro": "This Cookie Policy explains how we use cookies and similar technologies on our website.",
-      "lastupdated": "Last updated: {date}",
-      "managing": "Managing your preferences",
-      "managingdesc": "Open the Cookie Preference Manager from the banner to enable or disable categories. If you accept all cookies, we will store your choices and apply them across visits.",
+      "title": "Política de cookies",
+      "datasharing": "intercambio de datos",
+      "datasharingdesc": "Podemos compartir información agregada con terceros para análisis y publicidad. No se comparten datos personales confidenciales de forma predeterminada.",
+      "intro": "Esta Política de cookies explica cómo utilizamos cookies y tecnologías similares en nuestro sitio web.",
+      "lastupdated": "Última actualización: {fecha}",
+      "managing": "Gestionar tus preferencias",
+      "managingdesc": "Abra el Administrador de preferencias de cookies desde el banner para habilitar o deshabilitar categorías. Si acepta todas las cookies, almacenaremos sus opciones y las aplicaremos en todas las visitas.",
       "types": {
-        "functionality": "Functionality: Remember choices and preferences.",
-        "performance": "Performance: Help us analyze traffic and performance.",
-        "strictlynecessary": "Strictly necessary: Required for the site to function.",
-        "targeting": "Targeting: Used for advertising and personalization."
+        "functionality": "Funcionalidad: Recuerda elecciones y preferencias.",
+        "performance": "Rendimiento: Ayúdanos a analizar el tráfico y el rendimiento.",
+        "strictlynecessary": "Estrictamente necesario: Requerido para que el sitio funcione.",
+        "targeting": "Orientación: se utiliza para publicidad y personalización."
       },
-      "typesheading": "Types of cookies we use",
-      "whatarecookies": "What are cookies?"
+      "typesheading": "Tipos de cookies que utilizamos",
+      "whatarecookies": "¿Qué son las galletas?"
     },
     "policies": {
       "cookiepolicy": {
-        "title": "Cookie Policy",
-        "datasharing": "Data sharing",
-        "datasharingdesc": "We may share aggregated information with third parties for analytics and advertising. No sensitive personal data is shared by default.",
-        "intro": "This Cookie Policy explains how we use cookies and similar technologies on our website.",
-        "lastupdated": "Last updated: {date}",
-        "managing": "Managing your preferences",
-        "managingdesc": "Open the Cookie Preference Manager from the banner to enable or disable categories. If you accept all cookies, we will store your choices and apply them across visits.",
+        "title": "Política de cookies",
+        "datasharing": "intercambio de datos",
+        "datasharingdesc": "Podemos compartir información agregada con terceros para análisis y publicidad. No se comparten datos personales confidenciales de forma predeterminada.",
+        "intro": "Esta Política de cookies explica cómo utilizamos cookies y tecnologías similares en nuestro sitio web.",
+        "lastupdated": "Última actualización: {fecha}",
+        "managing": "Gestionar tus preferencias",
+        "managingdesc": "Abra el Administrador de preferencias de cookies desde el banner para habilitar o deshabilitar categorías. Si acepta todas las cookies, almacenaremos sus opciones y las aplicaremos en todas las visitas.",
         "types": {
-          "functionality": "Functionality: Remember choices and preferences.",
-          "performance": "Performance: Help us analyze traffic and performance.",
-          "strictlynecessary": "Strictly necessary: Required for the site to function.",
-          "targeting": "Targeting: Used for advertising and personalization."
+          "functionality": "Funcionalidad: Recuerda elecciones y preferencias.",
+          "performance": "Rendimiento: Ayúdanos a analizar el tráfico y el rendimiento.",
+          "strictlynecessary": "Estrictamente necesario: Requerido para que el sitio funcione.",
+          "targeting": "Orientación: se utiliza para publicidad y personalización."
         },
-        "typesheading": "Types of cookies we use",
-        "whatarecookies": "What are cookies?"
+        "typesheading": "Tipos de cookies que utilizamos",
+        "whatarecookies": "¿Qué son las galletas?"
       },
       "privacypolicy": {
-        "title": "Privacy Policy",
-        "howweuse": "How we use information",
-        "howweusedesc": "Information is used to operate, maintain and provide the features of the website, and to analyze usage patterns.",
-        "informationdesc": "We collect information you provide, cookies, and anonymized analytics data to improve the service.",
-        "informationheading": "Information we collect",
-        "intro": "This Privacy Policy outlines how we collect, use and protect your personal information.",
-        "lastupdated": "Last updated: {date}",
-        "yourrights": "Your rights",
-        "yourrightsdesc": "You can request access, correction or deletion of your personal data by contacting us on the site."
+        "title": "política de privacidad",
+        "howweuse": "Cómo utilizamos la información",
+        "howweusedesc": "La información se utiliza para operar, mantener y proporcionar las funciones del sitio web y para analizar patrones de uso.",
+        "informationdesc": "Recopilamos la información que usted proporciona, cookies y datos analíticos anónimos para mejorar el servicio.",
+        "informationheading": "Información que recopilamos",
+        "intro": "Esta Política de Privacidad describe cómo recopilamos, utilizamos y protegemos su información personal.",
+        "lastupdated": "Última actualización: {fecha}",
+        "yourrights": "Tus derechos",
+        "yourrightsdesc": "Puede solicitar acceso, corrección o eliminación de sus datos personales contactándonos en el sitio."
       }
     },
     "cosmic_time_structure": {
@@ -525,7 +525,7 @@
           "dharma_percentage": 100
         },
         {
-          "name": "Treta Yuga",
+          "name": "Treta-Yuga",
           "duration_years": 1296000,
           "dharma_percentage": 75
         },
@@ -544,127 +544,127 @@
     "dashavatara": [
       {
         "order": 1,
-        "name": "Matsya",
-        "type": "Aquatic",
+        "name": "matsia",
+        "type": "Acuático",
         "yuga": "Satya Yuga",
-        "purpose": "Rescue the Vedas and Manu from the cosmic flood",
-        "primary_antagonist": "Hayagriva (in some traditions)",
+        "purpose": "Rescata a los Vedas y a Manu del diluvio cósmico.",
+        "primary_antagonist": "Hayagriva (en algunas tradiciones)",
         "associated_texts": ["Bhagavata Purana", "Vishnu Purana"],
-        "symbolism": "Beginning of life; preservation of knowledge",
-        "evolutionary_symbolism": "Aquatic life stage"
+        "symbolism": "Comienzo de la vida; preservación del conocimiento",
+        "evolutionary_symbolism": "Etapa de la vida acuática"
       },
       {
         "order": 2,
-        "name": "Kurma",
-        "type": "Amphibian",
+        "name": "kurma",
+        "type": "Anfibio",
         "yuga": "Satya Yuga",
-        "purpose": "Support Mount Mandara during Samudra Manthana",
-        "primary_event": "Churning of the Ocean",
+        "purpose": "Apoye el monte Mandara durante Samudra Manthana",
+        "primary_event": "La agitación del océano",
         "associated_texts": ["Bhagavata Purana", "Mahabharata"],
         "symbolism": "Stability and cosmic support",
-        "evolutionary_symbolism": "Amphibian transition"
+        "evolutionary_symbolism": "Transición anfibia"
       },
       {
         "order": 3,
         "name": "Varaha",
-        "type": "Terrestrial Mammal",
+        "type": "Mamífero terrestre",
         "yuga": "Satya Yuga",
-        "purpose": "Rescue Bhudevi (Earth) from Hiranyaksha",
+        "purpose": "Rescata a Bhudevi (Tierra) de Hiranyaksha",
         "primary_antagonist": "Hiranyaksha",
         "associated_texts": ["Vishnu Purana"],
-        "symbolism": "Restoration of Earth and cosmic order",
-        "evolutionary_symbolism": "Land animal stage"
+        "symbolism": "Restauración de la Tierra y del orden cósmico.",
+        "evolutionary_symbolism": "Etapa de animales terrestres"
       },
       {
         "order": 4,
         "name": "Narasimha",
-        "type": "Man-Lion",
+        "type": "Hombre-León",
         "yuga": "Satya Yuga",
-        "purpose": "Protect Prahlada and destroy Hiranyakashipu",
+        "purpose": "Protege a Prahlada y destruye a Hiranyakashipu.",
         "primary_antagonist": "Hiranyakashipu",
         "associated_texts": ["Bhagavata Purana"],
-        "symbolism": "Divine intervention beyond logical constraints",
-        "evolutionary_symbolism": "Transition from animal to human"
+        "symbolism": "Intervención divina más allá de las limitaciones lógicas",
+        "evolutionary_symbolism": "Transición de animal a humano"
       },
       {
         "order": 5,
         "name": "Vamana",
-        "type": "Dwarf Brahmin",
-        "yuga": "Treta Yuga",
-        "purpose": "Subdue King Bali and restore cosmic balance",
+        "type": "brahmán enano",
+        "yuga": "Treta-Yuga",
+        "purpose": "Somete al rey Bali y restablece el equilibrio cósmico",
         "primary_antagonist": "Mahabali",
         "associated_texts": ["Vishnu Purana"],
-        "symbolism": "Humility and divine intelligence",
-        "evolutionary_symbolism": "Emergence of intellectual human"
+        "symbolism": "Humildad e inteligencia divina.",
+        "evolutionary_symbolism": "El surgimiento del ser humano intelectual."
       },
       {
         "order": 6,
         "name": "Parashurama",
-        "type": "Warrior Sage",
-        "yuga": "Late Treta Yuga",
-        "purpose": "Destroy corrupt Kshatriya rulers",
-        "weapon": "Parashu (Axe)",
+        "type": "Sabio guerrero",
+        "yuga": "Treta Yuga tardío",
+        "purpose": "Destruir a los gobernantes corruptos de Kshatriya",
+        "weapon": "Parashu (Hacha)",
         "associated_texts": ["Mahabharata", "Puranas"],
-        "symbolism": "Reset of social order",
-        "evolutionary_symbolism": "Primitive warrior society"
+        "symbolism": "Restablecimiento del orden social",
+        "evolutionary_symbolism": "Sociedad guerrera primitiva"
       },
       {
         "order": 7,
-        "name": "Rama",
-        "type": "Ideal King",
-        "yuga": "Treta Yuga",
-        "purpose": "Destroy Ravana and establish righteous rule",
+        "name": "rama",
+        "type": "Rey ideal",
+        "yuga": "Treta-Yuga",
+        "purpose": "Destruye a Ravana y establece un gobierno justo",
         "primary_antagonist": "Ravana",
         "associated_texts": ["Ramayana"],
-        "symbolism": "Embodiment of Dharma",
-        "evolutionary_symbolism": "Civilized moral state"
+        "symbolism": "Encarnación del Dharma",
+        "evolutionary_symbolism": "Estado moral civilizado"
       },
       {
         "order": 8,
-        "name": "Krishna",
-        "type": "Divine Statesman",
+        "name": "krishna",
+        "type": "Divino estadista",
         "yuga": "Dvapara Yuga",
-        "purpose": "Guide humanity through Mahabharata war",
-        "primary_antagonist": "Kauravas (collective adharma)",
+        "purpose": "Guía a la humanidad a través de la guerra del Mahabharata.",
+        "primary_antagonist": "Kauravas (adharma colectivo)",
         "associated_texts": ["Mahabharata", "Bhagavad Gita"],
-        "symbolism": "Divine wisdom and bhakti",
-        "evolutionary_symbolism": "Advanced social consciousness"
+        "symbolism": "Sabiduría divina y bhakti",
+        "evolutionary_symbolism": "Conciencia social avanzada"
       },
       {
         "order": 9,
-        "name": "Buddha",
-        "type": "Enlightened Teacher",
-        "yuga": "Early Kali Yuga",
-        "purpose": "Reform ritual excess and promote compassion",
+        "name": "Buda",
+        "type": "Maestro iluminado",
+        "yuga": "Kali Yuga temprano",
+        "purpose": "Reformar el exceso ritual y promover la compasión.",
         "historical_identity": "Siddhartha Gautama",
-        "associated_texts": ["Bhagavata Purana (Vaishnava interpretation)"],
-        "symbolism": "Compassion and introspection",
+        "associated_texts": ["Bhagavata Purana (interpretación vaisnava)"],
+        "symbolism": "Compasión e introspección",
         "evolutionary_symbolism": "Philosophical awakening"
       },
       {
         "order": 10,
-        "name": "Kalki",
-        "type": "Future Warrior",
-        "yuga": "End of Kali Yuga",
-        "status": "Future",
-        "purpose": "Destroy adharma and reset cosmic cycle",
+        "name": "kalki",
+        "type": "Guerrero futuro",
+        "yuga": "Fin del Kali Yuga",
+        "status": "Futuro",
+        "purpose": "Destruye el adharma y reinicia el ciclo cósmico.",
         "associated_texts": ["Vishnu Purana", "Bhagavata Purana"],
-        "symbolism": "Cyclical renewal",
-        "evolutionary_symbolism": "Transformation and rebirth"
+        "symbolism": "Renovación cíclica",
+        "evolutionary_symbolism": "Transformación y renacimiento"
       }
     ],
     "interpretations": {
-      "theological_view": "Avatars manifest to restore dharma when it declines (Bhagavad Gita 4.7-8).",
-      "symbolic_view": "Represents spiritual evolution of consciousness.",
-      "comparative_mythology_view": "Flood myth parallels global traditions.",
-      "cyclical_time_concept": "Time is non-linear and regenerative.",
+      "theological_view": "Los avatares se manifiestan para restaurar el dharma cuando éste declina (Bhagavad Gita 4.7-8).",
+      "symbolic_view": "Representa la evolución espiritual de la conciencia.",
+      "comparative_mythology_view": "El mito de las inundaciones es paralelo a las tradiciones globales.",
+      "cyclical_time_concept": "El tiempo es no lineal y regenerativo.",
       "current_cycle": {
         "current_yuga": "Kali Yuga",
         "kali_yuga_started_bce": 3102,
         "years_elapsed_in_kali_yuga_approx": 5100
       },
-      "earth_age_comparison_note": "1 Kalpa (4.32 billion years) is surprisingly close to the modern scientific estimate of Earth's age (~4.54 billion years).",
-      "scaling_comment": "This mathematical scaling is highly structured and proportional across all cosmic levels."
+      "earth_age_comparison_note": "1 Kalpa (4,32 mil millones de años) está sorprendentemente cerca de la estimación científica moderna de la edad de la Tierra (~4,54 mil millones de años).",
+      "scaling_comment": "Esta escala matemática está altamente estructurada y proporcional en todos los niveles cósmicos."
     }
   }
 }

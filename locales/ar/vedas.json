@@ -1,193 +1,184 @@
 {
   "vedas": {
     "meta": {
-      "title": "Vedas – Rigveda, Yajurveda, Samaveda, Atharvaveda",
-      "description": "Learn about the four Vedas of Sanatana Dharma – Rigveda, Yajurveda, Samaveda and Atharvaveda. Explore their history, structure and teachings.",
+      "title": "الفيدا - ريجفيدا، ياجورفيدا، سامافيدا، أثارفافيدا",
+      "description": "تعرف على الفيدا الأربعة لساناتانا دارما - ريجفيدا، وياجورفيدا، وسامافيدا، وأثارفافيدا. استكشاف تاريخهم وهيكلهم وتعاليمهم.",
       "keywords": [
-        "Vedas",
-        "Rigveda",
-        "Yajurveda",
-        "Samaveda",
-        "Atharvaveda",
-        "Vedic scriptures",
-        "Sanatana Dharma",
-        "Hindu sacred texts"
+        "الفيدا",
+        "ريجفيدا",
+        "ياجورفيدا",
+        "سامافيدا",
+        "أثارفافيدا",
+        "الكتب المقدسة الفيدية",
+        "ساناتانا دارما",
+        "النصوص المقدسة الهندوسية"
       ]
     },
     "openGraph": {
-      "title": "Vedas – Ancient Scriptures of Sanatana Dharma",
-      "description": "Discover the four Vedas and their teachings in Sanatana Dharma.",
+      "title": "الفيدا – الكتب المقدسة القديمة لساناتانا دارما",
+      "description": "اكتشف الفيدا الأربعة وتعاليمهم في ساناتانا دارما.",
       "url": "https://sanatanadharmam.in/vedas",
-      "type": "article"
+      "type": "شرط"
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Vedas",
-      "description": "The Vedas are the oldest sacred scriptures of Sanatana Dharma consisting of Rigveda, Yajurveda, Samaveda and Atharvaveda.",
+      "@type": "عمل إبداعي",
+      "name": "الفيدا",
+      "description": "الفيدا هي أقدم الكتب المقدسة في ساناتانا دارما وتتكون من ريجفيدا وياجورفيدا وسامافيدا وأثارفافيدا.",
       "author": {
-        "@type": "Person",
-        "name": "Vyasa"
+        "@type": "شخص",
+        "name": "فياسا"
       },
-      "about": ["Rigveda", "Yajurveda", "Samaveda", "Atharvaveda"],
-      "inLanguage": "Sanskrit",
+      "about": ["ريجفيدا", "ياجورفيدا", "سامافيدا", "أثارفافيدا"],
+      "inLanguage": "السنسكريتية",
       "publisher": {
-        "@type": "Organization",
-        "name": "Sanatanadharmam"
+        "@type": "منظمة",
+        "name": "ساناتانادارمام"
       },
       "url": "https://sanatanadharmam.in/vedas"
     },
-    "title": "Vedas – The Oldest Sacred Scriptures of Sanatana Dharma",
-    "definition": "The Vedas are the oldest sacred scriptures of Hinduism and among the most ancient surviving texts in the world. They are composed in Vedic Sanskrit and were transmitted orally for thousands of years before being written down.",
-    "meaning_of_word_veda": "The word 'Veda' comes from the Sanskrit root 'Vid', meaning 'knowledge', 'wisdom', or 'to know'. Thus Veda means 'sacred knowledge'.",
-    "introduction": "The Vedas are the most ancient and revered scriptures of Sanatana Dharma, the eternal spiritual tradition often known today as Hinduism. The word 'Veda' originates from the Sanskrit root 'vid', which means knowledge or wisdom. Thus, the Vedas are regarded as the ultimate source of spiritual knowledge and cosmic truth. These scriptures were transmitted orally for thousands of years before being compiled into written form. They are considered 'Shruti', meaning that they were heard or revealed to ancient sages during deep states of meditation and spiritual realization.\n\nThe Vedas are not merely religious texts but comprehensive repositories of knowledge that address philosophy, cosmology, rituals, ethics, and the nature of existence itself. They represent humanity's earliest recorded attempt to understand the universe, consciousness, and the relationship between humans and the divine.\n\nAccording to tradition, the Vedas were compiled and organized by the sage Vyasa, who divided the original body of Vedic knowledge into four distinct collections to preserve and transmit them more effectively. These four collections are the Rigveda, Yajurveda, Samaveda, and Atharvaveda. Each Veda contains a unique focus and structure, contributing to a vast body of knowledge that has influenced Indian civilization for millennia.\n\nThe teachings of the Vedas explore fundamental questions such as: What is the nature of reality? What is the origin of the universe? What is the purpose of human life? How can individuals attain liberation from suffering and achieve spiritual realization?\n\nThrough hymns, philosophical dialogues, and ritual instructions, the Vedas attempt to answer these profound questions. They describe the universe as governed by a cosmic order known as 'Rta', a principle that maintains harmony among natural forces, divine beings, and human actions. Living in accordance with this cosmic order is considered the path of Dharma.\n\nThe Vedas also form the foundation for many later philosophical systems, including Vedanta, Yoga, and other schools of Hindu philosophy. Their teachings continue to influence spiritual seekers, scholars, and practitioners across the world today.",
+    "title": "الفيدا – أقدم الكتب المقدسة في ساناتانا دارما",
+    "definition": "الفيدا هي أقدم الكتب المقدسة في الهندوسية ومن بين أقدم النصوص الباقية في العالم. وهي مؤلفة باللغة السنسكريتية الفيدية وتم نقلها شفهيًا لآلاف السنين قبل تدوينها.",
+    "meaning_of_word_veda": "تأتي كلمة \"فيدا\" من الجذر السنسكريتي \"Vid\"، الذي يعني \"المعرفة\" أو \"الحكمة\" أو \"المعرفة\". وهكذا فإن الفيدا تعني \"المعرفة المقدسة\".",
+    "introduction": "الفيدا هي أقدم الكتب المقدسة وأكثرها احترامًا في ساناتانا دارما، وهو التقليد الروحي الأبدي المعروف اليوم باسم الهندوسية. كلمة \"فيدا\" مشتقة من الجذر السنسكريتي \"vid\"، والذي يعني المعرفة أو الحكمة. وهكذا، تعتبر الفيدا المصدر النهائي للمعرفة الروحية والحقيقة الكونية. وقد تم نقل هذه الكتب المقدسة شفويا لآلاف السنين قبل أن يتم تجميعها في شكل مكتوب. تعتبر \"شروتي\"، مما يعني أنه تم سماعها أو الكشف عنها للحكماء القدماء أثناء حالات التأمل والإدراك الروحي العميقة.\n\nالفيدا ليست مجرد نصوص دينية، بل هي مستودعات شاملة للمعرفة التي تتناول الفلسفة وعلم الكونيات والطقوس والأخلاق وطبيعة الوجود نفسه. إنها تمثل أول محاولة مسجلة للبشرية لفهم الكون والوعي والعلاقة بين البشر والإله.\n\nوفقًا للتقاليد، تم جمع وتنظيم كتب الفيدا بواسطة الحكيم فياسا، الذي قسم الجسم الأصلي للمعرفة الفيدية إلى أربع مجموعات متميزة للحفاظ عليها ونقلها بشكل أكثر فعالية. هذه المجموعات الأربع هي ريجفيدا، ياجورفيدا، سامافيدا، وآثارفافيدا. يحتوي كل فيدا على تركيز وبنية فريدة من نوعها، مما يساهم في مجموعة واسعة من المعرفة التي أثرت على الحضارة الهندية لآلاف السنين.\n\nتستكشف تعاليم الفيدا أسئلة أساسية مثل: ما هي طبيعة الواقع؟ ما هو أصل الكون؟ ما هو الهدف من حياة الإنسان؟ كيف يمكن للأفراد تحقيق التحرر من المعاناة وتحقيق الإدراك الروحي؟\n\nمن خلال الترانيم والحوارات الفلسفية وتعليمات الطقوس، يحاول الفيدا الإجابة على هذه الأسئلة العميقة. يصفون الكون بأنه محكوم بنظام كوني يعرف باسم \"Rta\"، وهو مبدأ يحافظ على الانسجام بين القوى الطبيعية والكائنات الإلهية والأفعال البشرية. يعتبر العيش وفقًا لهذا النظام الكوني طريق دارما.\n\nتشكل الفيدا أيضًا الأساس للعديد من الأنظمة الفلسفية اللاحقة، بما في ذلك فيدانتا واليوجا ومدارس الفلسفة الهندوسية الأخرى. تستمر تعاليمهم في التأثير على الباحثين الروحيين والعلماء والممارسين في جميع أنحاء العالم اليوم.",
     "scripture_text": [
       {
-        "veda": "Rigveda",
-        "description": "The Rigveda is the oldest of the four Vedas and is primarily a collection of hymns dedicated to various deities representing cosmic forces. It contains 1028 hymns organized into ten mandalas. These hymns praise deities such as Agni (fire), Indra (thunder and storms), Varuna (cosmic order), and Surya (the sun). The hymns often express wonder at the mysteries of nature and the universe. They seek blessings, prosperity, protection, and spiritual insight.\n\nThe Rigveda also contains some of the earliest philosophical reflections found in human literature. One famous hymn, the Nasadiya Sukta, contemplates the origin of the universe and questions whether even the gods know how creation began.",
-        "primary_focus": "Praise of deities and cosmic forces",
+        "veda": "ريجفيدا",
+        "description": "يعد Rigveda الأقدم بين كتب الفيدا الأربعة وهو في المقام الأول عبارة عن مجموعة من الترانيم المخصصة لمختلف الآلهة التي تمثل القوى الكونية. يحتوي على 1028 ترنيمة مقسمة إلى عشرة مندالات. تمجد هذه الترانيم آلهة مثل أجني (النار)، وإندرا (الرعد والعواصف)، وفارونا (النظام الكوني)، وسوريا (الشمس). غالبًا ما تعبر الترانيم عن التعجب من أسرار الطبيعة والكون. إنهم يبحثون عن البركات والازدهار والحماية والبصيرة الروحية.\n\nيحتوي Rigveda أيضًا على بعض من أقدم التأملات الفلسفية الموجودة في الأدب البشري. إحدى الترانيم الشهيرة، ناساديا سوكتا، تتأمل في أصل الكون وتتساءل عما إذا كانت الآلهة تعرف كيف بدأ الخلق.",
+        "primary_focus": "مدح الآلهة والقوى الكونية",
         "structure": {
           "total_hymns": 1028,
           "mandalas": 10,
           "verses": 10552
         },
-        "major_deities": ["Agni", "Indra", "Varuna", "Mitra", "Soma", "Ushas"],
+        "major_deities": ["اجني", "إندرا", "فارونا", "ميترا", "سوما", "أوشاس"],
         "major_themes": [
-          "Creation of universe",
-          "Cosmic order (Rta)",
-          "Nature worship",
-          "Sacred fire rituals",
-          "Philosophical speculation"
+          "خلق الكون",
+          "النظام الكوني (Rta)",
+          "عبادة الطبيعة",
+          "طقوس النار المقدسة",
+          "تكهنات فلسفية"
         ]
       },
       {
-        "veda": "Yajurveda",
-        "description": "The Yajurveda focuses primarily on the procedures and formulas used during ritual sacrifices known as yajnas. It provides detailed instructions for priests performing ceremonies intended to maintain cosmic harmony and social order. The Yajurveda exists in two major forms: the Krishna (Black) Yajurveda and the Shukla (White) Yajurveda.\n\nThe Krishna Yajurveda combines ritual formulas with explanatory commentary, while the Shukla Yajurveda presents them in a clearer and more organized structure. These texts emphasize the importance of disciplined action and ritual precision in maintaining the balance between humans, nature, and the divine.",
-        "primary_focus": "Ritual procedures and yajna performance",
+        "veda": "ياجورفيدا",
+        "description": "يركز ياجورفيدا في المقام الأول على الإجراءات والصيغ المستخدمة أثناء طقوس التضحيات المعروفة باسم ياجناس. ويقدم تعليمات مفصلة للكهنة الذين يؤدون طقوسًا تهدف إلى الحفاظ على الانسجام الكوني والنظام الاجتماعي. ياجورفيدا موجود في شكلين رئيسيين: ياجورفيدا كريشنا (أسود) وياجورفيدا شوكلا (أبيض).\n\nيجمع كريشنا ياجورفيدا بين صيغ الطقوس والتعليقات التوضيحية، بينما يقدمها شوكلا ياجورفيدا في هيكل أكثر وضوحًا وتنظيمًا. تؤكد هذه النصوص على أهمية العمل المنضبط ودقة الطقوس في الحفاظ على التوازن بين البشر والطبيعة والإله.",
+        "primary_focus": "إجراءات الطقوس وأداء yajna",
         "divisions": [
           {
-            "type": "Krishna Yajurveda",
-            "meaning": "Black Yajurveda",
-            "characteristics": "Mixed prose and verses"
+            "type": "كريشنا ياجورفيدا",
+            "meaning": "ياجورفيدا الأسود",
+            "characteristics": "النثر والآيات المختلطة"
           },
           {
-            "type": "Shukla Yajurveda",
-            "meaning": "White Yajurveda",
-            "characteristics": "Clear separation of mantras and explanations"
+            "type": "شوكلا ياجورفيدا",
+            "meaning": "ياجورفيدا الأبيض",
+            "characteristics": "الفصل الواضح بين التغني والتفسيرات"
           }
         ],
         "primary_topics": [
-          "Sacrificial rituals",
-          "Priestly duties",
-          "Yajna procedures",
-          "Cosmic symbolism of sacrifice"
+          "طقوس التضحية",
+          "الواجبات الكهنوتية",
+          "إجراءات ياجنا",
+          "الرمزية الكونية للتضحية"
         ]
       },
       {
-        "veda": "Samaveda",
-        "description": "The Samaveda is primarily concerned with melodies and chants derived largely from the Rigveda. It is considered the origin of classical Indian musical traditions. The hymns of the Samaveda are arranged in such a way that they can be sung during ritual ceremonies. The musical aspect of the Samaveda reflects the belief that sound and vibration play a powerful role in spiritual transformation.\n\nThrough sacred chanting, practitioners aim to harmonize their consciousness with the cosmic rhythm of the universe.",
-        "primary_focus": "Musical chanting in rituals",
-        "importance": "Foundation of Indian classical music",
+        "veda": "سامافيدا",
+        "description": "يهتم Samaveda في المقام الأول بالألحان والأناشيد المستمدة إلى حد كبير من Rigveda. ويعتبر أصل التقاليد الموسيقية الهندية الكلاسيكية. تم ترتيب ترانيم السامافيدا بحيث يمكن غنائها أثناء الاحتفالات الطقسية. يعكس الجانب الموسيقي للسامافيدا الاعتقاد بأن الصوت والاهتزاز يلعبان دورًا قويًا في التحول الروحي.\n\nمن خلال الإنشاد المقدس، يهدف الممارسون إلى مواءمة وعيهم مع الإيقاع الكوني للكون.",
+        "primary_focus": "الإنشاد الموسيقي في الطقوس",
+        "importance": "أساس الموسيقى الكلاسيكية الهندية",
         "structure": {
           "total_verses": 1875,
           "unique_verses": 75
         },
-        "applications": [
-          "Temple chanting",
-          "Soma rituals",
-          "Liturgical singing"
-        ]
+        "applications": ["يهتفون المعبد", "طقوس سوما", "الغناء الليتورجي"]
       },
       {
-        "veda": "Atharvaveda",
-        "description": "The Atharvaveda differs from the other three Vedas in that it contains a broader range of topics, including healing practices, philosophical reflections, domestic rituals, and social concerns. It includes hymns, prayers, charms, and philosophical teachings that address everyday life as well as spiritual matters.\n\nMany hymns in the Atharvaveda seek protection from disease, misfortune, and negative influences while also exploring deeper metaphysical questions about life, death, and the nature of the soul.",
-        "primary_focus": "Practical life, healing, protection",
+        "veda": "أثارفافيدا",
+        "description": "يختلف أثارفافيدا عن كتب الفيدا الثلاثة الأخرى من حيث أنه يحتوي على مجموعة واسعة من المواضيع، بما في ذلك ممارسات الشفاء، والتأملات الفلسفية، والطقوس المنزلية، والاهتمامات الاجتماعية. ويشمل الترانيم والصلوات والتعاويذ والتعاليم الفلسفية التي تتناول الحياة اليومية وكذلك الأمور الروحية.\n\nتسعى العديد من الترانيم في أثرفافيدا إلى الحماية من المرض وسوء الحظ والتأثيرات السلبية بينما تستكشف أيضًا أسئلة ميتافيزيقية أعمق حول الحياة والموت وطبيعة الروح.",
+        "primary_focus": "الحياة العملية، الشفاء، الحماية",
         "structure": {
           "books": 20,
           "hymns": 730
         },
         "topics": [
-          "Medicine",
-          "Protection spells",
-          "Household rituals",
-          "Philosophical reflections",
-          "Royal rituals"
+          "الدواء",
+          "نوبات الحماية",
+          "طقوس منزلية",
+          "تأملات فلسفية",
+          "الطقوس الملكية"
         ]
       }
     ],
-    "philosophical_explanation": "Beyond their ritual and poetic dimensions, the Vedas contain profound philosophical insights that have shaped the spiritual traditions of India for thousands of years. At the heart of Vedic philosophy lies the idea that the universe is not chaotic but governed by a divine order known as Rta. This cosmic law ensures harmony among all aspects of existence.\n\nHuman beings are encouraged to live in accordance with this cosmic order through the practice of Dharma. Dharma refers to righteous conduct, moral responsibility, and the duties that sustain both individual well-being and social harmony.\n\nAnother fundamental concept introduced in Vedic thought is the relationship between the individual self (Atman) and the ultimate reality (Brahman). Later philosophical texts such as the Upanishads elaborate on this relationship and suggest that realizing the unity between Atman and Brahman leads to spiritual liberation or Moksha.\n\nThe Vedas also explore the role of knowledge (Jnana), action (Karma), and devotion (Bhakti) as pathways toward spiritual realization. While early Vedic traditions emphasize ritual practices, later interpretations increasingly focus on inner transformation and self-knowledge.\n\nThrough meditation, disciplined living, and the pursuit of wisdom, individuals can transcend ignorance and realize their true nature as part of the universal consciousness.\n\nThe Vedas therefore present a holistic vision of life that integrates spiritual insight, ethical responsibility, and cosmic harmony.",
+    "philosophical_explanation": "وبعيدًا عن أبعادها الطقسية والشعرية، تحتوي كتب الفيدا على رؤى فلسفية عميقة شكلت التقاليد الروحية للهند لآلاف السنين. في قلب الفلسفة الفيدية تكمن فكرة أن الكون ليس فوضويًا ولكنه محكوم بأمر إلهي يُعرف باسم Rta. ويضمن هذا القانون الكوني الانسجام بين جميع جوانب الوجود.\n\nيتم تشجيع البشر على العيش وفقًا لهذا النظام الكوني من خلال ممارسة الدارما. تشير الدارما إلى السلوك الصالح، والمسؤولية الأخلاقية، والواجبات التي تدعم رفاهية الفرد والوئام الاجتماعي.\n\nمفهوم أساسي آخر تم تقديمه في الفكر الفيدي هو العلاقة بين الذات الفردية (أتمان) والواقع النهائي (براهمان). النصوص الفلسفية اللاحقة مثل الأوبنشاد تشرح هذه العلاقة بالتفصيل وتشير إلى أن إدراك الوحدة بين عتمان وبراهمان يؤدي إلى التحرر الروحي أو موكشا.\n\nيستكشف الفيدا أيضًا دور المعرفة (جنانا)، والعمل (الكرمة)، والتفاني (بهاكتي) كمسارات نحو الإدراك الروحي. في حين أن التقاليد الفيدية المبكرة تؤكد على ممارسات الطقوس، فإن التفسيرات اللاحقة تركز بشكل متزايد على التحول الداخلي ومعرفة الذات.\n\nمن خلال التأمل والحياة المنضبطة والسعي وراء الحكمة، يمكن للأفراد تجاوز الجهل وإدراك طبيعتهم الحقيقية كجزء من الوعي العالمي.\n\nولذلك يقدم الفيدا رؤية شاملة للحياة تدمج البصيرة الروحية، والمسؤولية الأخلاقية، والانسجام الكوني.",
     "estimated_composition_period": {
-      "early_vedic_period": "1500 BCE – 1200 BCE",
-      "later_additions": "1200 BCE – 1000 BCE"
+      "early_vedic_period": "1500 قبل الميلاد – 1200 قبل الميلاد",
+      "later_additions": "1200 قبل الميلاد – 1000 قبل الميلاد"
     },
     "vedic_society": {
       "social_structure": [
-        "Brahmins (priests)",
-        "Kshatriyas (warriors)",
-        "Vaishyas (traders)",
-        "Shudras (service providers)"
+        "البراهمة (الكهنة)",
+        "كشاتريا (المحاربون)",
+        "فايشيا (التجار)",
+        "شودراس (مقدمي الخدمات)"
       ],
-      "economic_activities": [
-        "Agriculture",
-        "Cattle rearing",
-        "Trade",
-        "Craftsmanship"
-      ],
+      "economic_activities": ["زراعة", "تربية الماشية", "تجارة", "براعة"],
       "cultural_practices": [
-        "Fire rituals",
-        "Sacred chants",
-        "Education through gurukula"
+        "طقوس النار",
+        "الهتافات المقدسة",
+        "التعليم من خلال gurukula"
       ]
     },
     "influence_of_vedas": {
       "religious_influence": [
-        "Foundation of Hindu philosophy",
-        "Basis of temple rituals",
-        "Influence on yoga and meditation"
+        "أساس الفلسفة الهندوسية",
+        "أساس طقوس المعبد",
+        "التأثير على اليوغا والتأمل"
       ],
       "philosophical_influence": [
-        "Vedanta philosophy",
-        "Upanishadic metaphysics",
-        "Concept of universal consciousness"
+        "فلسفة فيدانتا",
+        "الميتافيزيقا الأوبنشادية",
+        "مفهوم الوعي العالمي"
       ],
       "scientific_influence": [
-        "Early astronomy references",
-        "Mathematical concepts",
-        "Medical knowledge in Atharvaveda"
+        "مراجع علم الفلك المبكر",
+        "المفاهيم الرياضية",
+        "المعرفة الطبية في أثارفافيدا"
       ],
       "cultural_influence": [
-        "Indian music origins in Samaveda",
-        "Sacred chanting traditions",
-        "Festivals and rituals"
+        "تعود أصول الموسيقى الهندية إلى سامافيدا",
+        "تقاليد الترنيمة المقدسة",
+        "المهرجانات والطقوس"
       ]
     },
     "vedic_timeline": {
-      "proto_vedic_period": "Before 2000 BCE",
-      "early_vedic_period": "1500 BCE - 1200 BCE",
-      "middle_vedic_period": "1200 BCE - 900 BCE",
-      "late_vedic_period": "900 BCE - 500 BCE",
-      "upanishadic_period": "800 BCE - 300 BCE"
+      "proto_vedic_period": "قبل عام 2000 قبل الميلاد",
+      "early_vedic_period": "1500 قبل الميلاد - 1200 قبل الميلاد",
+      "middle_vedic_period": "1200 قبل الميلاد - 900 قبل الميلاد",
+      "late_vedic_period": "900 قبل الميلاد - 500 قبل الميلاد",
+      "upanishadic_period": "800 قبل الميلاد - 300 قبل الميلاد"
     },
     "vedic_philosophical_concepts": {
-      "brahman": "Ultimate cosmic reality",
-      "atman": "Individual self or soul",
-      "rta": "Cosmic order governing universe",
-      "dharma": "Universal law and duty",
-      "karma": "Law of action and consequence",
-      "moksha": "Liberation from cycle of rebirth",
-      "samsara": "Cycle of birth, death, and rebirth"
+      "brahman": "الواقع الكوني النهائي",
+      "atman": "الذات الفردية أو الروح",
+      "rta": "النظام الكوني الذي يحكم الكون",
+      "dharma": "القانون العالمي والواجب",
+      "karma": "قانون الفعل والنتيجة",
+      "moksha": "التحرر من دورة الولادة الجديدة",
+      "samsara": "دورة الميلاد والموت والبعث"
     },
     "related_concepts": [
-      "Upanishads",
-      "Brahman",
-      "Atman",
-      "Dharma",
-      "Karma",
-      "Moksha",
-      "Vedanta",
-      "Yajna",
-      "Rta",
-      "Sanatana Dharma"
+      "الأوبنشاد",
+      "براهمان",
+      "عتمان",
+      "دارما",
+      "كارما",
+      "موكشا",
+      "فيدانتا",
+      "ياجنا",
+      "هيئة الطرق والمواصلات",
+      "ساناتانا دارما"
     ]
   }
 }

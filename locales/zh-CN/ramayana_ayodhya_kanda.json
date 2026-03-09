@@ -1,28 +1,22 @@
 {
   "ramayana_ayodhya-kanda": {
-    "title": "Ayodhya Kanda – Ramayana Section Summary",
-    "description": "Explore Ayodhya Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
+    "title": "Ayodhya Kanda – 罗摩衍那部分摘要",
+    "description": "探索《罗摩衍那》的阿约提亚·坎达：通过叙述呈现的关键事件、佛法课程和哲学主题。",
     "meta": {
-      "title": "Ayodhya Kanda – Ramayana Section Summary",
+      "title": "Ayodhya Kanda – 罗摩衍那部分摘要",
       "canonical": "https://sanatanadharmam.in/itihasa/ramayana/ayodhya-kanda",
-      "description": "Explore Ayodhya Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
-      "keywords": [
-        "Ayodhya Kanda",
-        "Ramayana",
-        "Itihasa",
-        "dharma",
-        "Sri Rama"
-      ],
-      "robots": "index, follow",
+      "description": "探索《罗摩衍那》的阿约提亚·坎达：通过叙述呈现的关键事件、佛法课程和哲学主题。",
+      "keywords": ["阿约提亚坎达", "罗摩衍那", "伊蒂哈萨", "法", "斯里罗摩"],
+      "robots": "索引，关注",
       "url": "https://sanatanadharmam.in/itihasa/ramayana/ayodhya-kanda",
       "ogImage": "https://sanatanadharmam.in/og/ramayana_ayodhya_kanda.png"
     },
     "openGraph": {
-      "title": "Ayodhya Kanda – Ramayana Section Summary",
-      "description": "Explore Ayodhya Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
+      "title": "Ayodhya Kanda – 罗摩衍那部分摘要",
+      "description": "探索《罗摩衍那》的阿约提亚·坎达：通过叙述呈现的关键事件、佛法课程和哲学主题。",
       "url": "https://sanatanadharmam.in/itihasa/ramayana/ayodhya-kanda",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "萨那塔达曼",
+      "type": "文章",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/ramayana_ayodhya_kanda.png",
@@ -34,31 +28,31 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Ayodhya Kanda – Ramayana Section Summary",
-      "description": "Explore Ayodhya Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
+      "@type": "文章",
+      "name": "Ayodhya Kanda – 罗摩衍那部分摘要",
+      "description": "探索《罗摩衍那》的阿约提亚·坎达：通过叙述呈现的关键事件、佛法课程和哲学主题。",
       "url": "https://sanatanadharmam.in/itihasa/ramayana/ayodhya-kanda",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "网站",
+        "name": "萨那塔达曼",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Ayodhya Kanda is one of the traditional kandas (books) of the Ramayana. Each kanda advances the narrative while emphasizing specific virtues—courage, restraint, loyalty, compassion, and the responsibilities of leadership and family life.\n\nThis page provides a safe overview and reflection prompts without relying on long quotations.",
+    "introduction": "《阿约提亚坎达》是《罗摩衍那》的传统坎达（书籍）之一。每个神田都在推进叙事的同时强调特定的美德——勇气、克制、忠诚、同情心以及领导和家庭生活的责任。\n\n该页面提供了安全的概述和反思提示，而不依赖于长引用。",
     "scripture_text": [
       {
-        "section": "Narrative arc",
-        "content": "A brief summary of the key events in this kanda and how they set up the next stage of the story."
+        "section": "叙事弧线",
+        "content": "简要概述本神田中的关键事件以及它们如何设置故事的下一阶段。"
       },
       {
-        "section": "Dharmic lessons",
-        "content": "Themes to notice: promises and consequences, right speech, self-control, and how characters respond under pressure."
+        "section": "佛法课程",
+        "content": "需要注意的主题：承诺和后果、正确的言论、自我控制以及人物在压力下如何反应。"
       },
       {
-        "section": "Practice reflection",
-        "content": "Ask: What is the right action here? What inner quality is being tested? How does devotion or humility change the outcome?"
+        "section": "实践反思",
+        "content": "问：这里正确的做法是什么？考验的是怎样的内在品质？奉献或谦卑如何改变结果？"
       }
     ],
-    "philosophical_explanation": "The Ramayana is often read as dharma-in-action. Kandawise reflection helps translate ideals into practical guidance: how to keep integrity when life is difficult, how to honor duty without hardening the heart, and how to act with steadiness rather than impulse."
+    "philosophical_explanation": "《罗摩衍那》经常被解读为“佛法在行动”。坎达智慧的反思有助于将理想转化为实际指导：如何在生活困难时保持正直，如何尽职尽责而不硬着心肠，如何踏踏实实而不是冲动行事。"
   }
 }

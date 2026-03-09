@@ -1,193 +1,186 @@
 {
   "vedas": {
     "meta": {
-      "title": "Vedas – Rigveda, Yajurveda, Samaveda, Atharvaveda",
-      "description": "Learn about the four Vedas of Sanatana Dharma – Rigveda, Yajurveda, Samaveda and Atharvaveda. Explore their history, structure and teachings.",
+      "title": "ヴェーダ – リグヴェーダ、ヤジュルヴェーダ、サヴェーダ、アタルヴァヴェーダ",
+      "description": "サナタナ ダルマの 4 つのヴェーダ、リグ ヴェーダ、ヤジュルヴェーダ、サマヴェーダ、アタルヴァヴェーダについて学びましょう。彼らの歴史、構造、教えを探ってみましょう。",
       "keywords": [
-        "Vedas",
-        "Rigveda",
-        "Yajurveda",
-        "Samaveda",
-        "Atharvaveda",
-        "Vedic scriptures",
-        "Sanatana Dharma",
-        "Hindu sacred texts"
+        "ヴェーダ",
+        "リグヴェーダ",
+        "ヤジュルヴェーダ",
+        "サマヴェダ",
+        "アタルヴァヴェーダ",
+        "ヴェーダ経典",
+        "サタナダルマ",
+        "ヒンドゥー教の聖典"
       ]
     },
     "openGraph": {
-      "title": "Vedas – Ancient Scriptures of Sanatana Dharma",
-      "description": "Discover the four Vedas and their teachings in Sanatana Dharma.",
+      "title": "ヴェーダ – サナタナ ダルマの古代経典",
+      "description": "Sanatana Dharma で 4 つのヴェーダとその教えを学びましょう。",
       "url": "https://sanatanadharmam.in/vedas",
-      "type": "article"
+      "type": "記事"
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Vedas",
-      "description": "The Vedas are the oldest sacred scriptures of Sanatana Dharma consisting of Rigveda, Yajurveda, Samaveda and Atharvaveda.",
+      "@type": "クリエイティブワーク",
+      "name": "ヴェーダ",
+      "description": "ヴェーダは、リグ ヴェーダ、ヤジュル ヴェーダ、サマヴェーダ、アタルヴァヴェーダからなるサナタナ ダルマの最古の聖典です。",
       "author": {
-        "@type": "Person",
-        "name": "Vyasa"
+        "@type": "人",
+        "name": "ヴィヤーサ"
       },
-      "about": ["Rigveda", "Yajurveda", "Samaveda", "Atharvaveda"],
-      "inLanguage": "Sanskrit",
+      "about": [
+        "リグヴェーダ",
+        "ヤジュルヴェーダ",
+        "サマヴェダ",
+        "アタルヴァヴェーダ"
+      ],
+      "inLanguage": "サンスクリット",
       "publisher": {
-        "@type": "Organization",
-        "name": "Sanatanadharmam"
+        "@type": "組織",
+        "name": "サナタナダルマム"
       },
       "url": "https://sanatanadharmam.in/vedas"
     },
-    "title": "Vedas – The Oldest Sacred Scriptures of Sanatana Dharma",
-    "definition": "The Vedas are the oldest sacred scriptures of Hinduism and among the most ancient surviving texts in the world. They are composed in Vedic Sanskrit and were transmitted orally for thousands of years before being written down.",
-    "meaning_of_word_veda": "The word 'Veda' comes from the Sanskrit root 'Vid', meaning 'knowledge', 'wisdom', or 'to know'. Thus Veda means 'sacred knowledge'.",
-    "introduction": "The Vedas are the most ancient and revered scriptures of Sanatana Dharma, the eternal spiritual tradition often known today as Hinduism. The word 'Veda' originates from the Sanskrit root 'vid', which means knowledge or wisdom. Thus, the Vedas are regarded as the ultimate source of spiritual knowledge and cosmic truth. These scriptures were transmitted orally for thousands of years before being compiled into written form. They are considered 'Shruti', meaning that they were heard or revealed to ancient sages during deep states of meditation and spiritual realization.\n\nThe Vedas are not merely religious texts but comprehensive repositories of knowledge that address philosophy, cosmology, rituals, ethics, and the nature of existence itself. They represent humanity's earliest recorded attempt to understand the universe, consciousness, and the relationship between humans and the divine.\n\nAccording to tradition, the Vedas were compiled and organized by the sage Vyasa, who divided the original body of Vedic knowledge into four distinct collections to preserve and transmit them more effectively. These four collections are the Rigveda, Yajurveda, Samaveda, and Atharvaveda. Each Veda contains a unique focus and structure, contributing to a vast body of knowledge that has influenced Indian civilization for millennia.\n\nThe teachings of the Vedas explore fundamental questions such as: What is the nature of reality? What is the origin of the universe? What is the purpose of human life? How can individuals attain liberation from suffering and achieve spiritual realization?\n\nThrough hymns, philosophical dialogues, and ritual instructions, the Vedas attempt to answer these profound questions. They describe the universe as governed by a cosmic order known as 'Rta', a principle that maintains harmony among natural forces, divine beings, and human actions. Living in accordance with this cosmic order is considered the path of Dharma.\n\nThe Vedas also form the foundation for many later philosophical systems, including Vedanta, Yoga, and other schools of Hindu philosophy. Their teachings continue to influence spiritual seekers, scholars, and practitioners across the world today.",
+    "title": "ヴェーダ – サナタナ・ダルマに関する最古の聖典",
+    "definition": "ヴェーダはヒンドゥー教の最古の聖典であり、現存する世界で最も古い文書の 1 つです。それらはヴェーダ サンスクリット語で構成され、書き留められるまで何千年も口頭で伝えられてきました。",
+    "meaning_of_word_veda": "「ヴェーダ」という言葉は、「知識」、「知恵」、または「知ること」を意味するサンスクリット語の語根「ヴィッド」に由来しています。したがって、ヴェーダは「神聖な知識」を意味します。",
+    "introduction": "ヴェーダは、今日ではヒンドゥー教としてよく知られている永遠の精神的伝統であるサナタナ ダルマの最も古くて尊敬されている経典です。 「ヴェーダ」という言葉は、知識や知恵を意味するサンスクリット語の「ヴィッド」という語根に由来しています。したがって、ヴェーダは精神的な知識と宇宙の真実の究極の源とみなされます。これらの経典は、文書として編集されるまで、何千年も口頭で伝えられてきました。それらは「シュルティ」と考えられており、瞑想や精神的悟りの深い状態の間に古代の賢者たちに聞かれたり、啓示されたりしたことを意味します。\n\nヴェーダは単なる宗教書ではなく、哲学、宇宙論、儀式、倫理、存在そのものの性質を扱う包括的な知識の宝庫です。それらは、宇宙、意識、人間と神との関係を理解し​​ようとする人類の記録に残る最古の試みを表しています。\n\n伝統によれば、ヴェーダは聖者ヴィヤーサによって編纂され、整理されました。ヴィヤーサは、より効果的に保存し伝達するために、ヴェーダの知識の元の体系を 4 つの異なるコレクションに分割しました。これら 4 つのコレクションは、リグ ヴェーダ、ヤジュル ヴェーダ、サマヴェーダ、アタルヴァヴェーダです。各ヴェーダには独自の焦点と構造が含まれており、数千年にわたってインド文明に影響を与えてきた膨大な知識に貢献しています。\n\nヴェーダの教えは、次のような基本的な疑問を探ります: 現実の性質は何ですか?宇宙の起源は何ですか？人間の人生の目的は何でしょうか？どのようにして個人は苦しみから解放され、霊的悟りを達成できるのでしょうか?\n\n賛美歌、哲学的対話、儀式の指示を通じて、ヴェーダはこれらの深遠な質問に答えようとしています。彼らは、宇宙が「Rta」として知られる宇宙秩序によって統治されていると説明しています。この秩序は、自然の力、神の存在、人間の行動の間の調和を維持する原理です。この宇宙の秩序に従って生きることがダルマの道とみなされます。\n\nヴェーダはまた、ヴェーダーンタ、ヨガ、その他のヒンズー教哲学の学派を含む、その後の多くの哲学体系の基礎を形成します。彼らの教えは、今日でも世界中のスピリチュアルな探求者、学者、実践者に影響を与え続けています。",
     "scripture_text": [
       {
-        "veda": "Rigveda",
-        "description": "The Rigveda is the oldest of the four Vedas and is primarily a collection of hymns dedicated to various deities representing cosmic forces. It contains 1028 hymns organized into ten mandalas. These hymns praise deities such as Agni (fire), Indra (thunder and storms), Varuna (cosmic order), and Surya (the sun). The hymns often express wonder at the mysteries of nature and the universe. They seek blessings, prosperity, protection, and spiritual insight.\n\nThe Rigveda also contains some of the earliest philosophical reflections found in human literature. One famous hymn, the Nasadiya Sukta, contemplates the origin of the universe and questions whether even the gods know how creation began.",
-        "primary_focus": "Praise of deities and cosmic forces",
+        "veda": "リグヴェーダ",
+        "description": "リグ ヴェーダは 4 つのヴェーダの中で最も古く、主に宇宙の力を表すさまざまな神に捧げられた賛美歌を集めたものです。 10 のマンダラに編成された 1,028 の賛美歌が含まれています。これらの賛美歌は、アグニ（火）、インドラ（雷と嵐）、ヴァルナ（宇宙の秩序）、スーリヤ（太陽）などの神々を称賛しています。賛美歌は、自然や宇宙の神秘に対する驚きを表現することがよくあります。彼らは祝福、繁栄、保護、そして霊的な洞察を求めています。\n\nリグヴェーダには、人文文献に見られる最も初期の哲学的考察のいくつかも含まれています。有名な賛美歌の 1 つであるナサディヤ スクタは、宇宙の起源について熟考し、神さえも創造がどのように始まったかを知っているかどうかを問いかけています。",
+        "primary_focus": "神と宇宙の力への賛美",
         "structure": {
           "total_hymns": 1028,
           "mandalas": 10,
           "verses": 10552
         },
-        "major_deities": ["Agni", "Indra", "Varuna", "Mitra", "Soma", "Ushas"],
+        "major_deities": [
+          "アグニ",
+          "インドラ",
+          "ヴァルナ",
+          "ミトラ",
+          "相馬",
+          "ウシャス"
+        ],
         "major_themes": [
-          "Creation of universe",
-          "Cosmic order (Rta)",
-          "Nature worship",
-          "Sacred fire rituals",
-          "Philosophical speculation"
+          "宇宙の創造",
+          "宇宙秩序 (Rta)",
+          "自然崇拝",
+          "神聖な火の儀式",
+          "哲学的思索"
         ]
       },
       {
-        "veda": "Yajurveda",
-        "description": "The Yajurveda focuses primarily on the procedures and formulas used during ritual sacrifices known as yajnas. It provides detailed instructions for priests performing ceremonies intended to maintain cosmic harmony and social order. The Yajurveda exists in two major forms: the Krishna (Black) Yajurveda and the Shukla (White) Yajurveda.\n\nThe Krishna Yajurveda combines ritual formulas with explanatory commentary, while the Shukla Yajurveda presents them in a clearer and more organized structure. These texts emphasize the importance of disciplined action and ritual precision in maintaining the balance between humans, nature, and the divine.",
-        "primary_focus": "Ritual procedures and yajna performance",
+        "veda": "ヤジュルヴェーダ",
+        "description": "ヤジュルヴェーダは主に、ヤグナとして知られる儀式的な犠牲の際に使用される手順と公式に焦点を当てています。宇宙の調和と社会秩序を維持することを目的とした儀式を執り行う司祭に向けた詳細な指示が記載されています。ヤジュルヴェーダには、クリシュナ (黒) ヤジュルヴェーダとシュクラ (白) ヤジュルヴェーダの 2 つの主要な形式が存在します。\n\nクリシュナ ヤジュル ヴェーダは儀式の公式と説明的な解説を組み合わせていますが、シュクラ ヤジュル ヴェーダはそれらをより明確で組織化された構造で示しています。これらの文書は、人間、自然、神の間のバランスを維持する上で、規律ある行動と儀式の正確さの重要性を強調しています。",
+        "primary_focus": "儀式の手順とヤグニャのパフォーマンス",
         "divisions": [
           {
-            "type": "Krishna Yajurveda",
-            "meaning": "Black Yajurveda",
-            "characteristics": "Mixed prose and verses"
+            "type": "クリシュナ ヤジュルヴェーダ",
+            "meaning": "ブラック・ヤジュルヴェーダ",
+            "characteristics": "散文と詩の混合"
           },
           {
-            "type": "Shukla Yajurveda",
-            "meaning": "White Yajurveda",
-            "characteristics": "Clear separation of mantras and explanations"
+            "type": "シュクラ ヤジュルヴェーダ",
+            "meaning": "ホワイト・ヤジュルヴェーダ",
+            "characteristics": "マントラと説明を明確に分離する"
           }
         ],
         "primary_topics": [
-          "Sacrificial rituals",
-          "Priestly duties",
-          "Yajna procedures",
-          "Cosmic symbolism of sacrifice"
+          "犠牲の儀式",
+          "司祭の義務",
+          "ヤグニャの手順",
+          "犠牲の宇宙的象徴"
         ]
       },
       {
-        "veda": "Samaveda",
-        "description": "The Samaveda is primarily concerned with melodies and chants derived largely from the Rigveda. It is considered the origin of classical Indian musical traditions. The hymns of the Samaveda are arranged in such a way that they can be sung during ritual ceremonies. The musical aspect of the Samaveda reflects the belief that sound and vibration play a powerful role in spiritual transformation.\n\nThrough sacred chanting, practitioners aim to harmonize their consciousness with the cosmic rhythm of the universe.",
-        "primary_focus": "Musical chanting in rituals",
-        "importance": "Foundation of Indian classical music",
+        "veda": "サマヴェダ",
+        "description": "サマヴェーダは主にリグ ヴェーダから派生したメロディーと聖歌を主に扱っています。インドの古典音楽の伝統の起源と考えられています。サマヴェダの賛美歌は、儀式の際に歌えるようにアレンジされています。サマヴェダの音楽的な側面は、音と振動が精神的な変革において強力な役割を果たすという信念を反映しています。\n\n神聖な詠唱を通じて、実践者は自分の意識を宇宙の宇宙リズムと調和させることを目指します。",
+        "primary_focus": "儀式における音楽の詠唱",
+        "importance": "インド古典音楽の基礎",
         "structure": {
           "total_verses": 1875,
           "unique_verses": 75
         },
-        "applications": [
-          "Temple chanting",
-          "Soma rituals",
-          "Liturgical singing"
-        ]
+        "applications": ["寺院での読経", "相馬の儀式", "典礼歌唱"]
       },
       {
-        "veda": "Atharvaveda",
-        "description": "The Atharvaveda differs from the other three Vedas in that it contains a broader range of topics, including healing practices, philosophical reflections, domestic rituals, and social concerns. It includes hymns, prayers, charms, and philosophical teachings that address everyday life as well as spiritual matters.\n\nMany hymns in the Atharvaveda seek protection from disease, misfortune, and negative influences while also exploring deeper metaphysical questions about life, death, and the nature of the soul.",
-        "primary_focus": "Practical life, healing, protection",
+        "veda": "アタルヴァヴェーダ",
+        "description": "アタルヴァヴェーダは、治癒の実践、哲学的考察、家庭の儀式、社会的関心など、より幅広いトピックが含まれているという点で、他の 3 つのヴェーダとは異なります。賛美歌、祈り、お守り、日常生活や霊的な事柄に関わる哲学的な教えが含まれています。\n\n『アタルヴァヴェーダ』の多くの賛美歌は、病気、不幸、悪影響からの保護を求めていると同時に、生、死、魂の性質についてのより深い形而上学的な疑問を探求しています。",
+        "primary_focus": "実生活、治癒、保護",
         "structure": {
           "books": 20,
           "hymns": 730
         },
-        "topics": [
-          "Medicine",
-          "Protection spells",
-          "Household rituals",
-          "Philosophical reflections",
-          "Royal rituals"
-        ]
+        "topics": ["薬", "保護呪文", "家庭の儀式", "哲学的考察", "王室の儀式"]
       }
     ],
-    "philosophical_explanation": "Beyond their ritual and poetic dimensions, the Vedas contain profound philosophical insights that have shaped the spiritual traditions of India for thousands of years. At the heart of Vedic philosophy lies the idea that the universe is not chaotic but governed by a divine order known as Rta. This cosmic law ensures harmony among all aspects of existence.\n\nHuman beings are encouraged to live in accordance with this cosmic order through the practice of Dharma. Dharma refers to righteous conduct, moral responsibility, and the duties that sustain both individual well-being and social harmony.\n\nAnother fundamental concept introduced in Vedic thought is the relationship between the individual self (Atman) and the ultimate reality (Brahman). Later philosophical texts such as the Upanishads elaborate on this relationship and suggest that realizing the unity between Atman and Brahman leads to spiritual liberation or Moksha.\n\nThe Vedas also explore the role of knowledge (Jnana), action (Karma), and devotion (Bhakti) as pathways toward spiritual realization. While early Vedic traditions emphasize ritual practices, later interpretations increasingly focus on inner transformation and self-knowledge.\n\nThrough meditation, disciplined living, and the pursuit of wisdom, individuals can transcend ignorance and realize their true nature as part of the universal consciousness.\n\nThe Vedas therefore present a holistic vision of life that integrates spiritual insight, ethical responsibility, and cosmic harmony.",
+    "philosophical_explanation": "ヴェーダには、儀式や詩的な側面を超えて、何千年にもわたってインドの精神的伝統を形作ってきた深い哲学的洞察が含まれています。ヴェーダ哲学の中心には、宇宙は混沌ではなく、Rtaとして知られる神の秩序によって支配されているという考えがあります。この宇宙の法則は、存在のあらゆる側面の調和を保証します。\n\n人間はダルマの実践を通じて、この宇宙の秩序に従って生きるよう奨励されています。ダルマとは、正義の行為、道徳的責任、個人の幸福と社会の調和の両方を維持する義務を指します。\n\nヴェーダ思想に導入されたもう 1 つの基本的な概念は、個人の自己 (アートマン) と究極の現実 (ブラフマン) の関係です。ウパニシャッドなどのその後の哲学書ではこの関係について詳しく説明されており、アートマンとブラフマンの統一を実現することが精神的な解放、つまりモクシャにつながることが示唆されています。\n\nヴェーダはまた、霊的実現への道としての知識 (ジュニャーナ)、行為 (カルマ)、献身 (バクティ) の役割を探求しています。初期のヴェーダの伝統は儀式の実践を強調していますが、後の解釈ではますます内面の変容と自己認​​識に焦点が当てられています。\n\n瞑想、規律ある生活、知恵の追求を通じて、個人は無知を乗り越え、普遍的な意識の一部としての自分の真の性質を認識することができます。\n\nしたがって、ヴェーダは、精神的な洞察、倫理的責任、宇宙の調和を統合した人生の全体的なビジョンを提示しています。",
     "estimated_composition_period": {
-      "early_vedic_period": "1500 BCE – 1200 BCE",
-      "later_additions": "1200 BCE – 1000 BCE"
+      "early_vedic_period": "紀元前 1500 年 – 紀元前 1200 年",
+      "later_additions": "紀元前1200年～紀元前1000年"
     },
     "vedic_society": {
       "social_structure": [
-        "Brahmins (priests)",
-        "Kshatriyas (warriors)",
-        "Vaishyas (traders)",
-        "Shudras (service providers)"
+        "バラモン（僧侶）",
+        "クシャトリヤ（戦士）",
+        "ヴァイシャ（商人）",
+        "Shudras (サービスプロバイダー)"
       ],
-      "economic_activities": [
-        "Agriculture",
-        "Cattle rearing",
-        "Trade",
-        "Craftsmanship"
-      ],
-      "cultural_practices": [
-        "Fire rituals",
-        "Sacred chants",
-        "Education through gurukula"
-      ]
+      "economic_activities": ["農業", "牛の飼育", "貿易", "職人技"],
+      "cultural_practices": ["火の儀式", "神聖な聖歌", "グルクラを通じた教育"]
     },
     "influence_of_vedas": {
       "religious_influence": [
-        "Foundation of Hindu philosophy",
-        "Basis of temple rituals",
-        "Influence on yoga and meditation"
+        "ヒンズー教哲学の基礎",
+        "寺院祭祀の基本",
+        "ヨガと瞑想への影響"
       ],
       "philosophical_influence": [
-        "Vedanta philosophy",
-        "Upanishadic metaphysics",
-        "Concept of universal consciousness"
+        "ヴェーダーンタ哲学",
+        "ウパニシャッド形而上学",
+        "普遍的意識の概念"
       ],
       "scientific_influence": [
-        "Early astronomy references",
-        "Mathematical concepts",
-        "Medical knowledge in Atharvaveda"
+        "初期の天文学に関する参考文献",
+        "数学的概念",
+        "アタルヴァヴェーダの医学知識"
       ],
       "cultural_influence": [
-        "Indian music origins in Samaveda",
-        "Sacred chanting traditions",
-        "Festivals and rituals"
+        "インド音楽の起源はサマヴェダにある",
+        "神聖な詠唱の伝統",
+        "祭りと儀式"
       ]
     },
     "vedic_timeline": {
-      "proto_vedic_period": "Before 2000 BCE",
-      "early_vedic_period": "1500 BCE - 1200 BCE",
-      "middle_vedic_period": "1200 BCE - 900 BCE",
-      "late_vedic_period": "900 BCE - 500 BCE",
-      "upanishadic_period": "800 BCE - 300 BCE"
+      "proto_vedic_period": "西暦前 2000 年以前",
+      "early_vedic_period": "紀元前1500年～紀元前1200年",
+      "middle_vedic_period": "紀元前1200年～紀元前900年",
+      "late_vedic_period": "紀元前900年～紀元前500年",
+      "upanishadic_period": "紀元前800年～紀元前300年"
     },
     "vedic_philosophical_concepts": {
-      "brahman": "Ultimate cosmic reality",
-      "atman": "Individual self or soul",
-      "rta": "Cosmic order governing universe",
-      "dharma": "Universal law and duty",
-      "karma": "Law of action and consequence",
-      "moksha": "Liberation from cycle of rebirth",
-      "samsara": "Cycle of birth, death, and rebirth"
+      "brahman": "究極の宇宙現実",
+      "atman": "個人の自己または魂",
+      "rta": "宇宙を支配する宇宙秩序",
+      "dharma": "普遍的な法と義務",
+      "karma": "行動と結果の法則",
+      "moksha": "輪廻転生からの解放",
+      "samsara": "誕生、死、再生のサイクル"
     },
     "related_concepts": [
-      "Upanishads",
-      "Brahman",
-      "Atman",
-      "Dharma",
-      "Karma",
-      "Moksha",
-      "Vedanta",
-      "Yajna",
-      "Rta",
-      "Sanatana Dharma"
+      "ウパニシャッド",
+      "バラモン",
+      "アートマン",
+      "ダルマ",
+      "カルマ",
+      "モクシャ",
+      "ヴェダンタ",
+      "ヤジナ",
+      "RTA",
+      "サタナダルマ"
     ]
   }
 }

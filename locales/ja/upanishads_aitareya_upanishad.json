@@ -1,29 +1,29 @@
 {
   "upanishads_aitareya-upanishad": {
-    "title": "Aitareya Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Aitareya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "アイタレヤ ウパニシャッド – サナータナ ダルマにおけるウパニシャッドの教え",
+    "description": "アイタレヤ ウパニシャッドの概要: 核となるテーマ、重要なアイデア、そしてなぜこのウパニシャッドがアートマン、ブラフマン、解放を理解する上で重要であるのか。",
     "meta": {
-      "title": "Aitareya Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "アイタレヤ ウパニシャッド – サナータナ ダルマにおけるウパニシャッドの教え",
       "canonical": "https://sanatanadharmam.in/upanishads/aitareya-upanishad",
-      "description": "Overview of Aitareya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "アイタレヤ ウパニシャッドの概要: 核となるテーマ、重要なアイデア、そしてなぜこのウパニシャッドがアートマン、ブラフマン、解放を理解する上で重要であるのか。",
       "keywords": [
-        "Aitareya Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "アイタレヤ ウパニシャッド",
+        "ウパニシャッド",
+        "ヴェダンタ",
+        "アートマン",
+        "ブラフマン",
+        "サタナダルマ"
       ],
-      "robots": "index, follow",
+      "robots": "インデックス、フォロー",
       "url": "https://sanatanadharmam.in/upanishads/aitareya-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_aitareya_upanishad.png"
     },
     "openGraph": {
-      "title": "Aitareya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Aitareya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "アイタレヤ ウパニシャッド – サナータナ ダルマにおけるウパニシャッドの教え",
+      "description": "アイタレヤ ウパニシャッドの概要: 核となるテーマ、重要なアイデア、そしてなぜこのウパニシャッドがアートマン、ブラフマン、解放を理解する上で重要であるのか。",
       "url": "https://sanatanadharmam.in/upanishads/aitareya-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "サナタナダルマム",
+      "type": "記事",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_aitareya_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Aitareya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Aitareya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "記事",
+      "name": "アイタレヤ ウパニシャッド – サナータナ ダルマにおけるウパニシャッドの教え",
+      "description": "アイタレヤ ウパニシャッドの概要: 核となるテーマ、重要なアイデア、そしてなぜこのウパニシャッドがアートマン、ブラフマン、解放を理解する上で重要であるのか。",
       "url": "https://sanatanadharmam.in/upanishads/aitareya-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "ウェブサイト",
+        "name": "サナタナダルマム",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Aitareya Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Aitareya Upanishad explores creation and the entry of consciousness into embodied life. It is often read as a study of what makes a living being truly “alive”: not merely breath or motion, but awareness.",
+    "introduction": "『アイタレヤ ウパニシャッド』は、主要なウパニシャッドの 1 つであり、人間の人生の最も深い問い「私は誰ですか?」を探求する文書です。本物とは何ですか？真我（アートマン）と究極の現実（ブラフマン）とは何ですか？\n\nウパニシャッドの教えは、対話と探求として提示されることがよくあります。単一の「信念」を提供するのではなく、探求者が外側のアイデンティティから内側の真実へと移行できるように注意と識別力を訓練します。\n\nアイタレヤ ウパニシャッドでは、創造と、具体化された生命への意識の入り込みを探求しています。この本は、生き物を真に「生きている」ものにするもの、つまり単なる呼吸や動きではなく、意識についての研究として読まれることがよくあります。",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Consciousness as central, the meaning of personhood, and the relationship between the inner Self and the faculties of life."
+        "section": "中心的なテーマ",
+        "content": "中心としての意識、人格の意味、そして内なる自己と人生の能力との関係。"
       },
       {
-        "section": "Practice reflection",
-        "content": "The teaching invites you to notice what remains present through every changing experience: the witnessing awareness."
+        "section": "反省の練習をする",
+        "content": "この教えは、あらゆる変化する経験を通して何が存在し続けるか、つまり観照する意識に気づくようあなたに促します。"
       }
     ],
-    "philosophical_explanation": "Aitareya shifts focus from outer events to inner presence. When consciousness is recognized as primary, spiritual life becomes less about control and more about clarity—seeing what you already are."
+    "philosophical_explanation": "アイタレヤは、外側の出来事から内側の存在へと焦点を移します。意識が第一のものであると認識されると、スピリチュアルな生活はコントロールではなく、明晰さ、つまり自分がすでに何であるかを理解することを重視したものになります。"
   }
 }

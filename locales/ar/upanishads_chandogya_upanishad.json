@@ -1,29 +1,29 @@
 {
   "upanishads_chandogya-upanishad": {
-    "title": "Chandogya Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Chandogya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Chandogya Upanishad – تعاليم الأوبنشاد في ساناتانا دارما",
+    "description": "نظرة عامة على Chandogya Upanishad: الموضوعات الأساسية، والأفكار الرئيسية، وسبب أهمية هذا الأوبنشاد لفهم أتمان، براهمان، والتحرير.",
     "meta": {
-      "title": "Chandogya Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Chandogya Upanishad – تعاليم الأوبنشاد في ساناتانا دارما",
       "canonical": "https://sanatanadharmam.in/upanishads/chandogya-upanishad",
-      "description": "Overview of Chandogya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "نظرة عامة على Chandogya Upanishad: الموضوعات الأساسية، والأفكار الرئيسية، وسبب أهمية هذا الأوبنشاد لفهم أتمان، براهمان، والتحرير.",
       "keywords": [
-        "Chandogya Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "تشاندوجيا أوبانيشاد",
+        "الأوبنشاد",
+        "فيدانتا",
+        "عتمان",
+        "براهمان",
+        "ساناتانا دارما"
       ],
-      "robots": "index, follow",
+      "robots": "الفهرس، اتبع",
       "url": "https://sanatanadharmam.in/upanishads/chandogya-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_chandogya_upanishad.png"
     },
     "openGraph": {
-      "title": "Chandogya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Chandogya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Chandogya Upanishad – تعاليم الأوبنشاد في ساناتانا دارما",
+      "description": "نظرة عامة على Chandogya Upanishad: الموضوعات الأساسية، والأفكار الرئيسية، وسبب أهمية هذا الأوبنشاد لفهم أتمان، براهمان، والتحرير.",
       "url": "https://sanatanadharmam.in/upanishads/chandogya-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "ساناتانادارمام",
+      "type": "شرط",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_chandogya_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Chandogya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Chandogya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "شرط",
+      "name": "Chandogya Upanishad – تعاليم الأوبنشاد في ساناتانا دارما",
+      "description": "نظرة عامة على Chandogya Upanishad: الموضوعات الأساسية، والأفكار الرئيسية، وسبب أهمية هذا الأوبنشاد لفهم أتمان، براهمان، والتحرير.",
       "url": "https://sanatanadharmam.in/upanishads/chandogya-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "موقع إلكتروني",
+        "name": "ساناتانادارمام",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Chandogya Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Chandogya Upanishad is expansive and pedagogical, presenting many teachings through stories and analogies. It is especially known for its identity-oriented instruction: the seeker is guided to recognize the deepest Self beyond surface identity.",
+    "introduction": "Chandogya Upanishad هو أحد الأوبنشاد الرئيسي - النصوص التي تستكشف أعمق أسئلة الحياة البشرية: من أنا؟ ما هو الحقيقي؟ ما هي الذات (عتمان) والحقيقة النهائية (براهمان)؟\n\nغالبًا ما يتم تقديم التعليم الأوبنشادي على أنه حوار واستفسار. فبدلاً من تقديم \"معتقد\" واحد، فهو يدرب الانتباه والتمييز حتى يتمكن الباحث من الانتقال من الهوية الخارجية إلى الحقيقة الداخلية.\n\nيعتبر Chandogya Upanishad موسعًا وتربويًا، ويقدم العديد من التعاليم من خلال القصص والقياسات. وهو معروف بشكل خاص بتعليمه الموجه نحو الهوية: حيث يتم توجيه الباحث للتعرف على الذات الأعمق خارج الهوية السطحية.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Inner identity, disciplined living, meditation on symbols and meaning, and the move from multiplicity toward unity."
+        "section": "المواضيع المركزية",
+        "content": "الهوية الداخلية، والعيش المنضبط، والتأمل في الرموز والمعاني، والانتقال من التعدد إلى الوحدة."
       },
       {
-        "section": "Learning style",
-        "content": "The text uses repeated instruction and everyday examples to turn abstract truth into direct recognition."
+        "section": "أسلوب التعلم",
+        "content": "يستخدم النص التعليمات المتكررة والأمثلة اليومية لتحويل الحقيقة المجردة إلى التعرف المباشر."
       }
     ],
-    "philosophical_explanation": "Chandogya is a classic bridge from ritual culture to contemplative insight. It teaches that liberation is not a new possession but a shift in recognition—seeing the Self as already whole."
+    "philosophical_explanation": "تشاندوجيا هو جسر كلاسيكي من ثقافة الطقوس إلى البصيرة التأملية. إنه يعلم أن التحرر ليس حيازة جديدة ولكنه تحول في الاعتراف - رؤية الذات ككل بالفعل."
   }
 }

@@ -1,26 +1,26 @@
 {
   "terms_of_service": {
-    "title": "Terms of Service – Sanatanadharmam",
-    "description": "Read the Terms of Service for Sanatanadharmam.in outlining the rules, responsibilities, intellectual property rights, and acceptable use of this website.",
+    "title": "Conditions d'utilisation – Sanatanadharman",
+    "description": "Lisez les conditions d'utilisation de Sanatanadarmam.in décrivant les règles, les responsabilités, les droits de propriété intellectuelle et l'utilisation acceptable de ce site Web.",
     "meta": {
-      "title": "Terms of Service – Sanatanadharmam",
+      "title": "Conditions d'utilisation – Sanatanadharman",
       "canonical": "https://sanatanadharmam.in/terms-of-service",
-      "description": "Read the Terms of Service for Sanatanadharmam.in outlining the rules, responsibilities, intellectual property rights, and acceptable use of this website.",
+      "description": "Lisez les conditions d'utilisation de Sanatanadarmam.in décrivant les règles, les responsabilités, les droits de propriété intellectuelle et l'utilisation acceptable de ce site Web.",
       "keywords": [
-        "terms of service",
-        "website terms",
-        "user agreement",
-        "sanatanadharmam terms",
-        "website legal terms"
+        "conditions de service",
+        "conditions du site Web",
+        "accord d'utilisation",
+        "termes de sanatanadharram",
+        "mentions légales du site"
       ],
-      "robots": "index, follow",
+      "robots": "indexer, suivre",
       "url": "https://sanatanadharmam.in/terms-of-service"
     },
     "openGraph": {
-      "title": "Terms of Service – Sanatanadharmam",
-      "description": "Understand the rules, responsibilities, and legal terms governing the use of Sanatanadharmam.in.",
+      "title": "Conditions d'utilisation – Sanatanadharman",
+      "description": "Comprendre les règles, les responsabilités et les termes juridiques régissant l’utilisation de Sanatanadarmam.in.",
       "url": "https://sanatanadharmam.in/terms-of-service",
-      "siteName": "Sanatanadharmam",
+      "siteName": "Sanatanadharman",
       "type": "article",
       "images": [
         {
@@ -35,22 +35,22 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "WebPage",
-          "name": "Terms of Service",
+          "@type": "Page Web",
+          "name": "Conditions d'utilisation",
           "url": "https://sanatanadharmam.in/terms-of-service",
           "isPartOf": {
-            "@type": "WebSite",
-            "name": "Sanatanadharmam",
+            "@type": "Site Web",
+            "name": "Sanatanadharman",
             "url": "https://sanatanadharmam.in"
           }
         },
         {
-          "@type": "TermsOfService",
-          "name": "Terms of Service",
+          "@type": "Conditions de service",
+          "name": "Conditions d'utilisation",
           "url": "https://sanatanadharmam.in/terms-of-service",
           "publisher": {
-            "@type": "Organization",
-            "name": "Sanatanadharmam",
+            "@type": "Organisation",
+            "name": "Sanatanadharman",
             "url": "https://sanatanadharmam.in",
             "logo": {
               "@type": "ImageObject",
@@ -60,61 +60,61 @@
         }
       ]
     },
-    "acceptancetitle": "1. Acceptance of Terms",
-    "closing": "By accessing and using Sanātana Dharma, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.",
+    "acceptancetitle": "1. Acceptation des conditions",
+    "closing": "En accédant et en utilisant Sanātana Dharma, vous reconnaissez que vous avez lu, compris et accepté d'être lié par ces conditions d'utilisation.",
     "contactemail": "contact@sanatanadharmam.in",
     "contactemaillabel": "Email:",
     "contactphone": "+91-8099181075",
-    "contactphonelabel": "Phone:",
-    "contacttext": "If you have any questions about these Terms of Service, please contact us at:",
-    "contacttitle": "13. Contact Us",
-    "contactwebsite": "https://sanatanadharmam.in",
-    "contactwebsitelabel": "Website:",
-    "disclaimerclosing": "We disclaim all warranties, including fitness for a particular purpose and non-infringement.",
+    "contactphonelabel": "Téléphone :",
+    "contacttext": "Si vous avez des questions concernant ces conditions d'utilisation, veuillez nous contacter à l'adresse suivante :",
+    "contacttitle": "13. Contactez-nous",
+    "contactwebsite": "https://sanatanadharman.in",
+    "contactwebsitelabel": "Site Internet :",
+    "disclaimerclosing": "Nous déclinons toute garantie, y compris l'adéquation à un usage particulier et la non-contrefaçon.",
     "disclaimerlist": {
-      "accuracy": "Accuracy, completeness, or timeliness of content",
-      "errors": "Freedom from errors or interruptions",
-      "functionality": "Website functionality or availability",
-      "quality": "Quality or suitability for any particular purpose"
+      "accuracy": "Exactitude, exhaustivité ou actualité du contenu",
+      "errors": "Absence d'erreurs ou d'interruptions",
+      "functionality": "Fonctionnalité ou disponibilité du site Web",
+      "quality": "Qualité ou adéquation à un usage particulier"
     },
-    "disclaimertext": "The website and all content are provided on an \"AS IS\" and \"AS AVAILABLE\" basis. We make no warranties, expressed or implied, regarding:",
-    "disclaimertitle": "5. Disclaimer of Warranties",
+    "disclaimertext": "Le site Web et tout le contenu sont fournis « TELS QUELS » et « TELS QUE DISPONIBLES ». Nous n'offrons aucune garantie, expresse ou implicite, concernant :",
+    "disclaimertitle": "5. Exclusion de garanties",
     "externallinkstext": "Our website may contain links to third-party websites. We are not responsible for the content, accuracy, or practices of external websites.",
     "externallinkstitle": "7. External Links",
-    "governingtext": "These Terms of Service shall be governed by and construed in accordance with the laws of India, without regard to its conflict of law principles.",
-    "governingtitle": "11. Governing Law",
-    "indemnificationtext": "You agree to indemnify, defend, and hold harmless Sanātana Dharma and its officers, directors, employees, and agents from any claims arising from your use of the website or violation of these Terms of Service.",
-    "indemnificationtitle": "10. Indemnification",
-    "intellectualtext": "All content on the Sanātana Dharma website is the property of Sanātana Dharma or its content suppliers and is protected by international copyright laws.",
-    "intellectualtitle": "3. Intellectual Property Rights",
-    "intro": "By accessing and using the Sanātana Dharma website (sanatanadharmam.in), you agree to be bound by these Terms of Service.",
-    "lastupdated": "November 2025",
-    "liabilitytext": "To the maximum extent permitted by law, Sanātana Dharma shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use or inability to use the website.",
-    "liabilitytitle": "6. Limitation of Liability",
-    "modificationstext": "We reserve the right to modify these Terms of Service at any time. Changes will be effective immediately upon posting.",
-    "modificationstitle": "8. Modifications to Terms",
-    "severabilitytext": "If any provision of these Terms of Service is found to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.",
-    "severabilitytitle": "12. Severability",
-    "terminationtext": "We reserve the right to terminate or restrict your access to the website at any time, without notice or liability.",
-    "terminationtitle": "9. Termination",
+    "governingtext": "Les présentes conditions d'utilisation seront régies et interprétées conformément aux lois de l'Inde, sans égard à ses principes de conflit de lois.",
+    "governingtitle": "11. Loi applicable",
+    "indemnificationtext": "Vous acceptez d'indemniser, de défendre et d'exonérer de toute responsabilité Sanātana Dharma et ses dirigeants, administrateurs, employés et agents de toute réclamation découlant de votre utilisation du site Web ou de la violation des présentes conditions d'utilisation.",
+    "indemnificationtitle": "10. Indemnisation",
+    "intellectualtext": "Tout le contenu du site Web de Sanātana Dharma est la propriété de Sanātana Dharma ou de ses fournisseurs de contenu et est protégé par les lois internationales sur le droit d'auteur.",
+    "intellectualtitle": "3. Droits de propriété intellectuelle",
+    "intro": "En accédant et en utilisant le site Web de Sanātana Dharma (sanatanadharmam.in), vous acceptez d'être lié par les présentes conditions d'utilisation.",
+    "lastupdated": "novembre 2025",
+    "liabilitytext": "Dans toute la mesure permise par la loi, Sanātana Dharma ne sera pas responsable des dommages indirects, accessoires, spéciaux, consécutifs ou punitifs résultant de votre utilisation ou de votre incapacité à utiliser le site Web.",
+    "liabilitytitle": "6. Limitation de responsabilité",
+    "modificationstext": "Nous nous réservons le droit de modifier les présentes Conditions de Service à tout moment. Les modifications entreront en vigueur immédiatement après leur publication.",
+    "modificationstitle": "8. Modifications des conditions",
+    "severabilitytext": "Si une disposition des présentes conditions d’utilisation s’avère invalide ou inapplicable, les dispositions restantes resteront pleinement en vigueur.",
+    "severabilitytitle": "12. Divisibilité",
+    "terminationtext": "Nous nous réservons le droit de résilier ou de restreindre votre accès au site Web à tout moment, sans préavis ni responsabilité.",
+    "terminationtitle": "9. Résiliation",
     "uselicenselist": {
-      "copying": "Copying or downloading content for commercial purposes",
-      "interfering": "Interfering with website functionality or user experience",
-      "modification": "Modification of website content",
-      "reverseengineering": "Reverse engineering or attempting to extract source code",
-      "unauthorizedaccess": "Attempting to gain unauthorized access to the website or its systems"
+      "copying": "Copie ou téléchargement de contenu à des fins commerciales",
+      "interfering": "Interférer avec la fonctionnalité du site Web ou l’expérience utilisateur",
+      "modification": "Modification du contenu du site Internet",
+      "reverseengineering": "Ingénierie inverse ou tentative d'extraction du code source",
+      "unauthorizedaccess": "Tenter d'obtenir un accès non autorisé au site Web ou à ses systèmes"
     },
-    "uselicensetext": "We grant you a limited, non-exclusive, revocable license to access and use the website for personal, non-commercial purposes. This license does not include:",
-    "uselicensetitle": "2. Use License",
-    "userconductintro": "When using the website, you agree not to:",
+    "uselicensetext": "Nous vous accordons une licence limitée, non exclusive et révocable pour accéder et utiliser le site Web à des fins personnelles et non commerciales. Cette licence n'inclut pas :",
+    "uselicensetitle": "2. Utiliser la licence",
+    "userconductintro": "En utilisant le site Internet, vous vous engagez à ne pas :",
     "userconductlist": {
-      "bypass": "Attempt to access restricted areas or bypass security measures",
-      "harassment": "Engage in harassment or discrimination",
-      "malware": "Transmit viruses, malware, or any code intended to harm the website",
-      "spam": "Spam or engage in unauthorized marketing activities",
-      "unlawful": "Post or transmit any unlawful, threatening, or abusive content",
-      "violatelaw": "Violate any laws or regulations"
+      "bypass": "Tenter d'accéder à des zones restreintes ou de contourner les mesures de sécurité",
+      "harassment": "Se livrer à du harcèlement ou à de la discrimination",
+      "malware": "Transmettre des virus, des logiciels malveillants ou tout code destiné à nuire au site Web",
+      "spam": "Spammer ou participer à des activités de marketing non autorisées",
+      "unlawful": "Publier ou transmettre tout contenu illégal, menaçant ou abusif",
+      "violatelaw": "Violer toute loi ou réglementation"
     },
-    "userconducttitle": "4. User Conduct"
+    "userconducttitle": "4. Comportement de l'utilisateur"
   }
 }

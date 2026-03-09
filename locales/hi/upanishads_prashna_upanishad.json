@@ -1,29 +1,29 @@
 {
   "upanishads_prashna-upanishad": {
-    "title": "Prashna Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Prashna Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "प्रश्न उपनिषद - सनातन धर्म में उपनिषद की शिक्षाएँ",
+    "description": "प्रश्न उपनिषद का अवलोकन: मुख्य विषय, प्रमुख विचार, और यह उपनिषद आत्मा, ब्रह्म और मुक्ति को समझने के लिए क्यों महत्वपूर्ण है।",
     "meta": {
-      "title": "Prashna Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "प्रश्न उपनिषद - सनातन धर्म में उपनिषद की शिक्षाएँ",
       "canonical": "https://sanatanadharmam.in/upanishads/prashna-upanishad",
-      "description": "Overview of Prashna Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "प्रश्न उपनिषद का अवलोकन: मुख्य विषय, प्रमुख विचार, और यह उपनिषद आत्मा, ब्रह्म और मुक्ति को समझने के लिए क्यों महत्वपूर्ण है।",
       "keywords": [
-        "Prashna Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "प्रश्न उपनिषद",
+        "उपनिषद",
+        "वेदांत",
+        "आत्मा",
+        "ब्राह्मण",
+        "सनातन धर्म"
       ],
-      "robots": "index, follow",
+      "robots": "अनुक्रमणिका, अनुसरण करें",
       "url": "https://sanatanadharmam.in/upanishads/prashna-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_prashna_upanishad.png"
     },
     "openGraph": {
-      "title": "Prashna Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Prashna Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "प्रश्न उपनिषद - सनातन धर्म में उपनिषद की शिक्षाएँ",
+      "description": "प्रश्न उपनिषद का अवलोकन: मुख्य विषय, प्रमुख विचार, और यह उपनिषद आत्मा, ब्रह्म और मुक्ति को समझने के लिए क्यों महत्वपूर्ण है।",
       "url": "https://sanatanadharmam.in/upanishads/prashna-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "सनातनधर्मम्",
+      "type": "आलेख",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_prashna_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Prashna Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Prashna Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "आलेख",
+      "name": "प्रश्न उपनिषद - सनातन धर्म में उपनिषद की शिक्षाएँ",
+      "description": "प्रश्न उपनिषद का अवलोकन: मुख्य विषय, प्रमुख विचार, और यह उपनिषद आत्मा, ब्रह्म और मुक्ति को समझने के लिए क्यों महत्वपूर्ण है।",
       "url": "https://sanatanadharmam.in/upanishads/prashna-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "वेबसाइट",
+        "name": "सनातनधर्मम्",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Prashna Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nPrashna means “question”. This Upanishad is structured around a set of inquiries by sincere students. The format emphasizes that wisdom grows through clear questions, disciplined living, and patient reasoning.",
+    "introduction": "प्रश्न उपनिषद प्रमुख उपनिषदों में से एक है - ऐसे ग्रंथ जो मानव जीवन के सबसे गहरे सवालों का पता लगाते हैं: मैं कौन हूं? असली क्या है? स्व (आत्मान) और परम वास्तविकता (ब्राह्मण) क्या है?\n\nउपनिषद शिक्षण को अक्सर संवाद और पूछताछ के रूप में प्रस्तुत किया जाता है। एकल \"विश्वास\" की पेशकश करने के बजाय, यह ध्यान और विवेक को प्रशिक्षित करता है ताकि एक साधक बाहरी पहचान से आंतरिक सत्य की ओर बढ़ सके।\n\nप्रश्न का अर्थ है \"प्रश्न\"। यह उपनिषद ईमानदार छात्रों द्वारा की गई पूछताछ के एक सेट के आसपास संरचित है। प्रारूप इस बात पर जोर देता है कि ज्ञान स्पष्ट प्रश्नों, अनुशासित जीवन और धैर्यपूर्ण तर्क से बढ़ता है।",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Life-breath (prana), the powers of perception, the relationship between body and mind, meditation, and the foundations of a stable inner life."
+        "section": "केंद्रीय विषय",
+        "content": "जीवन-श्वास (प्राण), धारणा की शक्तियाँ, शरीर और मन के बीच संबंध, ध्यान, और एक स्थिर आंतरिक जीवन की नींव।"
       },
       {
-        "section": "Learning method",
-        "content": "The question-and-answer structure models a respectful pedagogy: ask precisely, listen carefully, test understanding, and integrate through practice."
+        "section": "सीखने की विधि",
+        "content": "प्रश्न-उत्तर संरचना एक सम्मानजनक शिक्षाशास्त्र का मॉडल तैयार करती है: सटीक रूप से पूछें, ध्यान से सुनें, समझ का परीक्षण करें और अभ्यास के माध्यम से एकीकृत करें।"
       }
     ],
-    "philosophical_explanation": "Prashna connects philosophy to physiology and psychology: mind is not separate from life-energy and disciplined habits. By understanding prana and the workings of attention, the seeker learns how to stabilize the inner instrument for contemplation."
+    "philosophical_explanation": "प्रश्न दर्शन को शरीर विज्ञान और मनोविज्ञान से जोड़ता है: मन जीवन-ऊर्जा और अनुशासित आदतों से अलग नहीं है। प्राण और ध्यान की कार्यप्रणाली को समझकर, साधक सीखता है कि चिंतन के लिए आंतरिक साधन को कैसे स्थिर किया जाए।"
   }
 }

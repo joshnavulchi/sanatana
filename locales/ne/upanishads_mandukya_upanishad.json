@@ -1,29 +1,29 @@
 {
   "upanishads_mandukya-upanishad": {
-    "title": "Mandukya Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Mandukya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "मण्डुक्य उपनिषद - सनातन धर्म मा उपनिषद शिक्षा",
+    "description": "मण्डुक्य उपनिषदको सिंहावलोकन: मूल विषयवस्तुहरू, मुख्य विचारहरू, र किन यो उपनिषद आत्मा, ब्रह्म, र मुक्ति बुझ्नको लागि महत्त्वपूर्ण छ।",
     "meta": {
-      "title": "Mandukya Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "मण्डुक्य उपनिषद - सनातन धर्म मा उपनिषद शिक्षा",
       "canonical": "https://sanatanadharmam.in/upanishads/mandukya-upanishad",
-      "description": "Overview of Mandukya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "मण्डुक्य उपनिषदको सिंहावलोकन: मूल विषयवस्तुहरू, मुख्य विचारहरू, र किन यो उपनिषद आत्मा, ब्रह्म, र मुक्ति बुझ्नको लागि महत्त्वपूर्ण छ।",
       "keywords": [
-        "Mandukya Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "मण्डुक्य उपनिषद",
+        "उपनिषद",
+        "वेदान्त",
+        "आत्मा",
+        "ब्राह्मण",
+        "सनातन धर्म"
       ],
-      "robots": "index, follow",
+      "robots": "अनुक्रमणिका, पालना गर्नुहोस्",
       "url": "https://sanatanadharmam.in/upanishads/mandukya-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_mandukya_upanishad.png"
     },
     "openGraph": {
-      "title": "Mandukya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Mandukya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "मण्डुक्य उपनिषद - सनातन धर्म मा उपनिषद शिक्षा",
+      "description": "मण्डुक्य उपनिषदको सिंहावलोकन: मूल विषयवस्तुहरू, मुख्य विचारहरू, र किन यो उपनिषद आत्मा, ब्रह्म, र मुक्ति बुझ्नको लागि महत्त्वपूर्ण छ।",
       "url": "https://sanatanadharmam.in/upanishads/mandukya-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "सनातन धर्मम",
+      "type": "लेख",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_mandukya_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Mandukya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Mandukya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "लेख",
+      "name": "मण्डुक्य उपनिषद - सनातन धर्म मा उपनिषद शिक्षा",
+      "description": "मण्डुक्य उपनिषदको सिंहावलोकन: मूल विषयवस्तुहरू, मुख्य विचारहरू, र किन यो उपनिषद आत्मा, ब्रह्म, र मुक्ति बुझ्नको लागि महत्त्वपूर्ण छ।",
       "url": "https://sanatanadharmam.in/upanishads/mandukya-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "वेबसाइट",
+        "name": "सनातन धर्मम",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Mandukya Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Mandukya Upanishad is concise yet profound. It analyzes experience through the states of waking, dreaming, and deep sleep, and points to a “fourth” (turiya) that underlies them all. It also uses AUM (Om) as a symbolic map of consciousness.",
+    "introduction": "मण्डुक्य उपनिषद प्रमुख उपनिषदहरू मध्ये एक हो - मानव जीवनको गहिरो प्रश्नहरूको अन्वेषण गर्ने ग्रन्थ: म को हुँ? वास्तविक के हो? आत्म (आत्मा) र परम यथार्थ (ब्रह्म) के हो?\n\nउपनिषदिक शिक्षालाई प्रायः संवाद र सोधपुछको रूपमा प्रस्तुत गरिन्छ। एकल \"विश्वास\" प्रस्ताव गर्नुको सट्टा, यसले ध्यान र विवेकलाई प्रशिक्षित गर्दछ ताकि एक खोजकर्ता बाह्य पहिचानबाट भित्री सत्यमा जान सक्छ।\n\nमण्डुक्य उपनिषद संक्षिप्त तर गहन छ। यसले ब्यूँझने, सपना देख्ने, र गहिरो निद्राको अवस्थाहरू मार्फत अनुभवको विश्लेषण गर्छ, र ती सबैलाई अधोरेखित गर्ने \"चौथो\" (तुरिया) लाई औंल्याउँछ। यसले AUM (ओम) लाई चेतनाको प्रतीकात्मक नक्साको रूपमा पनि प्रयोग गर्दछ।",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "States of consciousness, AUM as a contemplative symbol, and the recognition of a stable awareness beyond changing mental content."
+        "section": "केन्द्रीय विषयवस्तुहरू",
+        "content": "चेतनाको अवस्था, AUM एक चिन्तनात्मक प्रतीकको रूपमा, र मानसिक सामग्री परिवर्तन भन्दा बाहिर एक स्थिर जागरूकताको मान्यता।"
       },
       {
-        "section": "Practice reflection",
-        "content": "Meditative inquiry: notice that experiences change while the fact of awareness remains. This observation becomes a doorway into non-dual understanding."
+        "section": "प्रतिबिम्ब अभ्यास गर्नुहोस्",
+        "content": "ध्यानात्मक सोधपुछ: ध्यान दिनुहोस् कि चेतनाको तथ्य रहँदा अनुभवहरू परिवर्तन हुन्छन्। यो अवलोकन गैर-दोहोरो समझको लागि ढोका बन्छ।"
       }
     ],
-    "philosophical_explanation": "Mandukya’s method is phenomenological: it studies lived experience. By observing the three states and their transitions, the seeker gains confidence that the Self is not limited to any one mode of mind."
+    "philosophical_explanation": "मण्डुक्यको विधि घटनात्मक छ: यसले जीवित अनुभवको अध्ययन गर्दछ। तीन अवस्थाहरू र तिनीहरूको संक्रमणहरू अवलोकन गरेर, साधकले आत्मविश्‍वास प्राप्त गर्दछ कि आत्म कुनै एक मनको मोडमा सीमित छैन।"
   }
 }

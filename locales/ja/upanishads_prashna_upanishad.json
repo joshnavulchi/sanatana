@@ -1,29 +1,29 @@
 {
   "upanishads_prashna-upanishad": {
-    "title": "Prashna Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Prashna Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "プラシュナ ウパニシャッド – サナータナ ダルマにおけるウパニシャッドの教え",
+    "description": "プラシュナ ウパニシャッドの概要: 核となるテーマ、主要なアイデア、そしてなぜこのウパニシャッドがアートマン、ブラフマン、解放を理解する上で重要であるのか。",
     "meta": {
-      "title": "Prashna Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "プラシュナ ウパニシャッド – サナータナ ダルマにおけるウパニシャッドの教え",
       "canonical": "https://sanatanadharmam.in/upanishads/prashna-upanishad",
-      "description": "Overview of Prashna Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "プラシュナ ウパニシャッドの概要: 核となるテーマ、主要なアイデア、そしてなぜこのウパニシャッドがアートマン、ブラフマン、解放を理解する上で重要であるのか。",
       "keywords": [
-        "Prashna Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "プラシュナ・ウパニシャッド",
+        "ウパニシャッド",
+        "ヴェダンタ",
+        "アートマン",
+        "ブラフマン",
+        "サタナダルマ"
       ],
-      "robots": "index, follow",
+      "robots": "インデックス、フォロー",
       "url": "https://sanatanadharmam.in/upanishads/prashna-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_prashna_upanishad.png"
     },
     "openGraph": {
-      "title": "Prashna Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Prashna Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "プラシュナ ウパニシャッド – サナータナ ダルマにおけるウパニシャッドの教え",
+      "description": "プラシュナ ウパニシャッドの概要: 核となるテーマ、主要なアイデア、そしてなぜこのウパニシャッドがアートマン、ブラフマン、解放を理解する上で重要であるのか。",
       "url": "https://sanatanadharmam.in/upanishads/prashna-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "サナタナダルマム",
+      "type": "記事",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_prashna_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Prashna Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Prashna Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "記事",
+      "name": "プラシュナ ウパニシャッド – サナータナ ダルマにおけるウパニシャッドの教え",
+      "description": "プラシュナ ウパニシャッドの概要: 核となるテーマ、主要なアイデア、そしてなぜこのウパニシャッドがアートマン、ブラフマン、解放を理解する上で重要であるのか。",
       "url": "https://sanatanadharmam.in/upanishads/prashna-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "ウェブサイト",
+        "name": "サナタナダルマム",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Prashna Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nPrashna means “question”. This Upanishad is structured around a set of inquiries by sincere students. The format emphasizes that wisdom grows through clear questions, disciplined living, and patient reasoning.",
+    "introduction": "プラシュナ ウパニシャッドは、主要なウパニシャッドの 1 つであり、人間の人生の最も深い疑問「私は誰ですか?」を探求する文書です。本物とは何ですか？真我（アートマン）と究極の現実（ブラフマン）とは何ですか？\n\nウパニシャッドの教えは、対話と探求として提示されることがよくあります。単一の「信念」を提供するのではなく、探求者が外側のアイデンティティから内側の真実へと移行できるように注意と識別力を訓練します。\n\nPrashna means “question”.このウパニシャッドは、誠実な学生による一連の質問を中心に構成されています。この形式では、明確な質問、規律ある生活、忍耐強い推論を通じて知恵が成長することが強調されています。",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Life-breath (prana), the powers of perception, the relationship between body and mind, meditation, and the foundations of a stable inner life."
+        "section": "中心的なテーマ",
+        "content": "生命の呼吸（プラーナ）、知覚の力、体と心の関係、瞑想、そして安定した内なる生活の基盤。"
       },
       {
-        "section": "Learning method",
-        "content": "The question-and-answer structure models a respectful pedagogy: ask precisely, listen carefully, test understanding, and integrate through practice."
+        "section": "学習方法",
+        "content": "質問と回答の構造は、敬意を持った教育法をモデル化しています。つまり、正確に質問し、注意深く聞き、理解をテストし、実践を通じて統合します。"
       }
     ],
-    "philosophical_explanation": "Prashna connects philosophy to physiology and psychology: mind is not separate from life-energy and disciplined habits. By understanding prana and the workings of attention, the seeker learns how to stabilize the inner instrument for contemplation."
+    "philosophical_explanation": "プラシュナは哲学を生理学や心理学に結びつけます。心は生命エネルギーや規律ある習慣から切り離されてはいません。プラーナと注意の働きを理解することによって、探求者は瞑想のための内なる手段を安定させる方法を学びます。"
   }
 }

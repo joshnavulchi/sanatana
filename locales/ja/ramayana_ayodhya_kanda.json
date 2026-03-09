@@ -1,28 +1,28 @@
 {
   "ramayana_ayodhya-kanda": {
-    "title": "Ayodhya Kanda – Ramayana Section Summary",
-    "description": "Explore Ayodhya Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
+    "title": "アヨーディヤ カンダ – ラーマーヤナセクションの概要",
+    "description": "ラーマーヤナのアヨーディヤ カンダを探求します。物語を通して提示される重要な出来事、ダルマの教訓、哲学的テーマなど。",
     "meta": {
-      "title": "Ayodhya Kanda – Ramayana Section Summary",
+      "title": "アヨーディヤ カンダ – ラーマーヤナセクションの概要",
       "canonical": "https://sanatanadharmam.in/itihasa/ramayana/ayodhya-kanda",
-      "description": "Explore Ayodhya Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
+      "description": "ラーマーヤナのアヨーディヤ カンダを探求します。物語を通して提示される重要な出来事、ダルマの教訓、哲学的テーマなど。",
       "keywords": [
-        "Ayodhya Kanda",
-        "Ramayana",
-        "Itihasa",
-        "dharma",
-        "Sri Rama"
+        "アヨーディヤ・カンダ",
+        "ラーマーヤナ",
+        "イティハーサ",
+        "ダルマ",
+        "シュリ・ラマ"
       ],
-      "robots": "index, follow",
+      "robots": "インデックス、フォロー",
       "url": "https://sanatanadharmam.in/itihasa/ramayana/ayodhya-kanda",
       "ogImage": "https://sanatanadharmam.in/og/ramayana_ayodhya_kanda.png"
     },
     "openGraph": {
-      "title": "Ayodhya Kanda – Ramayana Section Summary",
-      "description": "Explore Ayodhya Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
+      "title": "アヨーディヤ カンダ – ラーマーヤナセクションの概要",
+      "description": "ラーマーヤナのアヨーディヤ カンダを探求します。物語を通して提示される重要な出来事、ダルマの教訓、哲学的テーマなど。",
       "url": "https://sanatanadharmam.in/itihasa/ramayana/ayodhya-kanda",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "サナタナダルマム",
+      "type": "記事",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/ramayana_ayodhya_kanda.png",
@@ -34,31 +34,31 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Ayodhya Kanda – Ramayana Section Summary",
-      "description": "Explore Ayodhya Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
+      "@type": "記事",
+      "name": "アヨーディヤ カンダ – ラーマーヤナセクションの概要",
+      "description": "ラーマーヤナのアヨーディヤ カンダを探求します。物語を通して提示される重要な出来事、ダルマの教訓、哲学的テーマなど。",
       "url": "https://sanatanadharmam.in/itihasa/ramayana/ayodhya-kanda",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "ウェブサイト",
+        "name": "サナタナダルマム",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Ayodhya Kanda is one of the traditional kandas (books) of the Ramayana. Each kanda advances the narrative while emphasizing specific virtues—courage, restraint, loyalty, compassion, and the responsibilities of leadership and family life.\n\nThis page provides a safe overview and reflection prompts without relying on long quotations.",
+    "introduction": "アヨーディヤ カンダは、ラーマーヤナの伝統的なカンダ (本) の 1 つです。それぞれのカンダは、勇気、自制、忠誠心、思いやり、リーダーシップや家庭生活の責任など、特定の美徳を強調しながら物語を進めます。\n\nこのページでは、長い引用に頼ることなく、安全な概要と考察のプロンプトを提供します。",
     "scripture_text": [
       {
-        "section": "Narrative arc",
-        "content": "A brief summary of the key events in this kanda and how they set up the next stage of the story."
+        "section": "ナラティブアーク",
+        "content": "この神田での主要な出来事と、それらが物語の次の段階をどのように設定するかを簡単にまとめます。"
       },
       {
-        "section": "Dharmic lessons",
-        "content": "Themes to notice: promises and consequences, right speech, self-control, and how characters respond under pressure."
+        "section": "ダルマレッスン",
+        "content": "注目すべきテーマ: 約束と結果、正しいスピーチ、自制心、プレッシャーの下で登場人物がどのように反応するか。"
       },
       {
-        "section": "Practice reflection",
-        "content": "Ask: What is the right action here? What inner quality is being tested? How does devotion or humility change the outcome?"
+        "section": "反省の練習をする",
+        "content": "質問してください: ここでの正しい行動は何ですか?どのような内面の資質が試されているのでしょうか?献身と謙虚さは結果をどう変えるのでしょうか?"
       }
     ],
-    "philosophical_explanation": "The Ramayana is often read as dharma-in-action. Kandawise reflection helps translate ideals into practical guidance: how to keep integrity when life is difficult, how to honor duty without hardening the heart, and how to act with steadiness rather than impulse."
+    "philosophical_explanation": "ラーマーヤナは、多くの場合、実践中のダルマとして読まれます。カンダ流の熟考は、人生が困難なときに誠実さを保つ方法、心をかたくなにすることなく義務を守る方法、衝動ではなく安定して行動する方法など、理想を実践的な指針に変えるのに役立ちます。"
   }
 }

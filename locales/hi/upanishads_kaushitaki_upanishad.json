@@ -1,29 +1,29 @@
 {
   "upanishads_kaushitaki-upanishad": {
-    "title": "Kaushitaki Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Kaushitaki Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "कौशीतकी उपनिषद - सनातन धर्म में उपनिषद की शिक्षाएँ",
+    "description": "कौशीतकी उपनिषद का अवलोकन: मुख्य विषय, मुख्य विचार, और यह उपनिषद आत्मा, ब्रह्म और मुक्ति को समझने के लिए क्यों महत्वपूर्ण है।",
     "meta": {
-      "title": "Kaushitaki Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "कौशीतकी उपनिषद - सनातन धर्म में उपनिषद की शिक्षाएँ",
       "canonical": "https://sanatanadharmam.in/upanishads/kaushitaki-upanishad",
-      "description": "Overview of Kaushitaki Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "कौशीतकी उपनिषद का अवलोकन: मुख्य विषय, मुख्य विचार, और यह उपनिषद आत्मा, ब्रह्म और मुक्ति को समझने के लिए क्यों महत्वपूर्ण है।",
       "keywords": [
-        "Kaushitaki Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "कौशीतकी उपनिषद",
+        "उपनिषद",
+        "वेदांत",
+        "आत्मा",
+        "ब्राह्मण",
+        "सनातन धर्म"
       ],
-      "robots": "index, follow",
+      "robots": "अनुक्रमणिका, अनुसरण करें",
       "url": "https://sanatanadharmam.in/upanishads/kaushitaki-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_kaushitaki_upanishad.png"
     },
     "openGraph": {
-      "title": "Kaushitaki Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Kaushitaki Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "कौशीतकी उपनिषद - सनातन धर्म में उपनिषद की शिक्षाएँ",
+      "description": "कौशीतकी उपनिषद का अवलोकन: मुख्य विषय, मुख्य विचार, और यह उपनिषद आत्मा, ब्रह्म और मुक्ति को समझने के लिए क्यों महत्वपूर्ण है।",
       "url": "https://sanatanadharmam.in/upanishads/kaushitaki-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "सनातनधर्मम्",
+      "type": "आलेख",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_kaushitaki_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Kaushitaki Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Kaushitaki Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "आलेख",
+      "name": "कौशीतकी उपनिषद - सनातन धर्म में उपनिषद की शिक्षाएँ",
+      "description": "कौशीतकी उपनिषद का अवलोकन: मुख्य विषय, मुख्य विचार, और यह उपनिषद आत्मा, ब्रह्म और मुक्ति को समझने के लिए क्यों महत्वपूर्ण है।",
       "url": "https://sanatanadharmam.in/upanishads/kaushitaki-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "वेबसाइट",
+        "name": "सनातनधर्मम्",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Kaushitaki Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Kaushitaki Upanishad explores themes of life-breath, consciousness, and the inner basis of experience. It is often studied for its focus on the “inner ruler” perspective—what enables the faculties to operate.",
+    "introduction": "कौशीतकी उपनिषद प्रमुख उपनिषदों में से एक है - ऐसे ग्रंथ जो मानव जीवन के सबसे गहरे सवालों का पता लगाते हैं: मैं कौन हूं? असली क्या है? स्व (आत्मान) और परम वास्तविकता (ब्राह्मण) क्या है?\n\nउपनिषद शिक्षण को अक्सर संवाद और पूछताछ के रूप में प्रस्तुत किया जाता है। एकल \"विश्वास\" की पेशकश करने के बजाय, यह ध्यान और विवेक को प्रशिक्षित करता है ताकि एक साधक बाहरी पहचान से आंतरिक सत्य की ओर बढ़ सके।\n\nकौशीतकी उपनिषद जीवन-श्वास, चेतना और अनुभव के आंतरिक आधार के विषयों की पड़ताल करता है। इसका अध्ययन अक्सर \"आंतरिक शासक\" परिप्रेक्ष्य पर ध्यान केंद्रित करने के लिए किया जाता है - जो संकायों को संचालित करने में सक्षम बनाता है।",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Prana and awareness, the unity behind mental functions, and spiritual maturation through disciplined understanding."
+        "section": "केंद्रीय विषय",
+        "content": "प्राण और जागरूकता, मानसिक कार्यों के पीछे एकता, और अनुशासित समझ के माध्यम से आध्यात्मिक परिपक्वता।"
       },
       {
-        "section": "Practice reflection",
-        "content": "Instead of chasing experiences, return to the experiencer: the steady fact of awareness."
+        "section": "चिंतन का अभ्यास करें",
+        "content": "अनुभवों का पीछा करने के बजाय, अनुभवकर्ता की ओर लौटें: जागरूकता का स्थिर तथ्य।"
       }
     ],
-    "philosophical_explanation": "Kaushitaki teaches inwardness. When attention stabilizes at the source of experience, many anxieties lose their grip because they are seen as movements in mind—not the Self."
+    "philosophical_explanation": "कौशीतकी आंतरिकता सिखाती है। जब ध्यान अनुभव के स्रोत पर स्थिर हो जाता है, तो कई चिंताएँ अपनी पकड़ खो देती हैं क्योंकि उन्हें मन में होने वाली हलचल के रूप में देखा जाता है-स्वयं की नहीं।"
   }
 }

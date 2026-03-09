@@ -1,27 +1,27 @@
 {
   "terms_of_service": {
-    "title": "Terms of Service – Sanatanadharmam",
-    "description": "Read the Terms of Service for Sanatanadharmam.in outlining the rules, responsibilities, intellectual property rights, and acceptable use of this website.",
+    "title": "Termos de Serviço – Sanatanadharmam",
+    "description": "Leia os Termos de Serviço de Sanatanadharm.in descrevendo as regras, responsabilidades, direitos de propriedade intelectual e uso aceitável deste site.",
     "meta": {
-      "title": "Terms of Service – Sanatanadharmam",
+      "title": "Termos de Serviço – Sanatanadharmam",
       "canonical": "https://sanatanadharmam.in/terms-of-service",
-      "description": "Read the Terms of Service for Sanatanadharmam.in outlining the rules, responsibilities, intellectual property rights, and acceptable use of this website.",
+      "description": "Leia os Termos de Serviço de Sanatanadharm.in descrevendo as regras, responsabilidades, direitos de propriedade intelectual e uso aceitável deste site.",
       "keywords": [
-        "terms of service",
-        "website terms",
-        "user agreement",
-        "sanatanadharmam terms",
-        "website legal terms"
+        "termos de serviço",
+        "termos do site",
+        "acordo do usuário",
+        "termos de sanatanadharmam",
+        "termos legais do site"
       ],
-      "robots": "index, follow",
+      "robots": "índice, siga",
       "url": "https://sanatanadharmam.in/terms-of-service"
     },
     "openGraph": {
-      "title": "Terms of Service – Sanatanadharmam",
-      "description": "Understand the rules, responsibilities, and legal terms governing the use of Sanatanadharmam.in.",
+      "title": "Termos de Serviço – Sanatanadharmam",
+      "description": "Compreenda as regras, responsabilidades e termos legais que regem o uso do Sanatanadharm.in.",
       "url": "https://sanatanadharmam.in/terms-of-service",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "Sanatanadharm",
+      "type": "artigo",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/terms.png",
@@ -35,22 +35,22 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "WebPage",
-          "name": "Terms of Service",
+          "@type": "Página da Web",
+          "name": "Termos de Serviço",
           "url": "https://sanatanadharmam.in/terms-of-service",
           "isPartOf": {
-            "@type": "WebSite",
-            "name": "Sanatanadharmam",
+            "@type": "Site",
+            "name": "Sanatanadharm",
             "url": "https://sanatanadharmam.in"
           }
         },
         {
-          "@type": "TermsOfService",
-          "name": "Terms of Service",
+          "@type": "Termos de serviço",
+          "name": "Termos de Serviço",
           "url": "https://sanatanadharmam.in/terms-of-service",
           "publisher": {
-            "@type": "Organization",
-            "name": "Sanatanadharmam",
+            "@type": "Organização",
+            "name": "Sanatanadharm",
             "url": "https://sanatanadharmam.in",
             "logo": {
               "@type": "ImageObject",
@@ -60,61 +60,61 @@
         }
       ]
     },
-    "acceptancetitle": "1. Acceptance of Terms",
-    "closing": "By accessing and using Sanātana Dharma, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.",
+    "acceptancetitle": "1. Aceitação dos Termos",
+    "closing": "Ao acessar e usar o Sanātana Dharma, você reconhece que leu, compreendeu e concorda em obedecer a estes Termos de Serviço.",
     "contactemail": "contact@sanatanadharmam.in",
     "contactemaillabel": "Email:",
     "contactphone": "+91-8099181075",
-    "contactphonelabel": "Phone:",
-    "contacttext": "If you have any questions about these Terms of Service, please contact us at:",
-    "contacttitle": "13. Contact Us",
-    "contactwebsite": "https://sanatanadharmam.in",
-    "contactwebsitelabel": "Website:",
-    "disclaimerclosing": "We disclaim all warranties, including fitness for a particular purpose and non-infringement.",
+    "contactphonelabel": "Telefone:",
+    "contacttext": "Se você tiver alguma dúvida sobre estes Termos de Serviço, entre em contato conosco:",
+    "contacttitle": "13. Contate-nos",
+    "contactwebsite": "https://sanatanadharm.in",
+    "contactwebsitelabel": "Site:",
+    "disclaimerclosing": "Isentamo-nos de todas as garantias, incluindo adequação a uma finalidade específica e não violação.",
     "disclaimerlist": {
-      "accuracy": "Accuracy, completeness, or timeliness of content",
-      "errors": "Freedom from errors or interruptions",
-      "functionality": "Website functionality or availability",
-      "quality": "Quality or suitability for any particular purpose"
+      "accuracy": "Precisão, integridade ou atualidade do conteúdo",
+      "errors": "Livre de erros ou interrupções",
+      "functionality": "Funcionalidade ou disponibilidade do site",
+      "quality": "Qualidade ou adequação para qualquer finalidade específica"
     },
-    "disclaimertext": "The website and all content are provided on an \"AS IS\" and \"AS AVAILABLE\" basis. We make no warranties, expressed or implied, regarding:",
-    "disclaimertitle": "5. Disclaimer of Warranties",
+    "disclaimertext": "O site e todo o conteúdo são fornecidos “COMO ESTÃO” e “CONFORME DISPONÍVEIS”. Não oferecemos garantias, expressas ou implícitas, em relação a:",
+    "disclaimertitle": "5. Isenção de Garantias",
     "externallinkstext": "Our website may contain links to third-party websites. We are not responsible for the content, accuracy, or practices of external websites.",
     "externallinkstitle": "7. External Links",
-    "governingtext": "These Terms of Service shall be governed by and construed in accordance with the laws of India, without regard to its conflict of law principles.",
-    "governingtitle": "11. Governing Law",
-    "indemnificationtext": "You agree to indemnify, defend, and hold harmless Sanātana Dharma and its officers, directors, employees, and agents from any claims arising from your use of the website or violation of these Terms of Service.",
-    "indemnificationtitle": "10. Indemnification",
-    "intellectualtext": "All content on the Sanātana Dharma website is the property of Sanātana Dharma or its content suppliers and is protected by international copyright laws.",
-    "intellectualtitle": "3. Intellectual Property Rights",
-    "intro": "By accessing and using the Sanātana Dharma website (sanatanadharmam.in), you agree to be bound by these Terms of Service.",
-    "lastupdated": "November 2025",
-    "liabilitytext": "To the maximum extent permitted by law, Sanātana Dharma shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use or inability to use the website.",
-    "liabilitytitle": "6. Limitation of Liability",
-    "modificationstext": "We reserve the right to modify these Terms of Service at any time. Changes will be effective immediately upon posting.",
-    "modificationstitle": "8. Modifications to Terms",
-    "severabilitytext": "If any provision of these Terms of Service is found to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.",
-    "severabilitytitle": "12. Severability",
-    "terminationtext": "We reserve the right to terminate or restrict your access to the website at any time, without notice or liability.",
-    "terminationtitle": "9. Termination",
+    "governingtext": "Estes Termos de Serviço serão regidos e interpretados de acordo com as leis da Índia, independentemente de seus conflitos de princípios legais.",
+    "governingtitle": "11. Lei Aplicável",
+    "indemnificationtext": "Você concorda em indenizar, defender e isentar o Sanātana Dharma e seus executivos, diretores, funcionários e agentes de quaisquer reclamações decorrentes do uso do site ou da violação destes Termos de Serviço.",
+    "indemnificationtitle": "10. Indenização",
+    "intellectualtext": "Todo o conteúdo do site Sanātana Dharma é propriedade do Sanātana Dharma ou de seus fornecedores de conteúdo e é protegido por leis internacionais de direitos autorais.",
+    "intellectualtitle": "3. Direitos de Propriedade Intelectual",
+    "intro": "Ao acessar e usar o site Sanātana Dharma (sanatanadharm.in), você concorda em obedecer a estes Termos de Serviço.",
+    "lastupdated": "Novembro de 2025",
+    "liabilitytext": "Na extensão máxima permitida por lei, o Sanātana Dharma não será responsável por quaisquer danos indiretos, incidentais, especiais, consequenciais ou punitivos resultantes do seu uso ou incapacidade de usar o site.",
+    "liabilitytitle": "6. Limitação de Responsabilidade",
+    "modificationstext": "Reservamo-nos o direito de modificar estes Termos de Serviço a qualquer momento. As alterações entrarão em vigor imediatamente após a publicação.",
+    "modificationstitle": "8. Modificações nos Termos",
+    "severabilitytext": "Se qualquer disposição destes Termos de Serviço for considerada inválida ou inexequível, as disposições restantes permanecerão em pleno vigor e efeito.",
+    "severabilitytitle": "12. Divisibilidade",
+    "terminationtext": "Reservamo-nos o direito de encerrar ou restringir o seu acesso ao site a qualquer momento, sem aviso prévio ou responsabilidade.",
+    "terminationtitle": "9. Rescisão",
     "uselicenselist": {
-      "copying": "Copying or downloading content for commercial purposes",
-      "interfering": "Interfering with website functionality or user experience",
-      "modification": "Modification of website content",
-      "reverseengineering": "Reverse engineering or attempting to extract source code",
-      "unauthorizedaccess": "Attempting to gain unauthorized access to the website or its systems"
+      "copying": "Copiar ou baixar conteúdo para fins comerciais",
+      "interfering": "Interferir na funcionalidade do site ou na experiência do usuário",
+      "modification": "Modificação do conteúdo do site",
+      "reverseengineering": "Engenharia reversa ou tentativa de extrair código-fonte",
+      "unauthorizedaccess": "Tentativa de obter acesso não autorizado ao site ou aos seus sistemas"
     },
-    "uselicensetext": "We grant you a limited, non-exclusive, revocable license to access and use the website for personal, non-commercial purposes. This license does not include:",
-    "uselicensetitle": "2. Use License",
-    "userconductintro": "When using the website, you agree not to:",
+    "uselicensetext": "Concedemos a você uma licença limitada, não exclusiva e revogável para acessar e usar o site para fins pessoais e não comerciais. Esta licença não inclui:",
+    "uselicensetitle": "2. Licença de uso",
+    "userconductintro": "Ao usar o site, você concorda em não:",
     "userconductlist": {
-      "bypass": "Attempt to access restricted areas or bypass security measures",
-      "harassment": "Engage in harassment or discrimination",
-      "malware": "Transmit viruses, malware, or any code intended to harm the website",
-      "spam": "Spam or engage in unauthorized marketing activities",
-      "unlawful": "Post or transmit any unlawful, threatening, or abusive content",
-      "violatelaw": "Violate any laws or regulations"
+      "bypass": "Tentar acessar áreas restritas ou contornar medidas de segurança",
+      "harassment": "Envolver-se em assédio ou discriminação",
+      "malware": "Transmitir vírus, malware ou qualquer código destinado a prejudicar o site",
+      "spam": "Enviar spam ou participar de atividades de marketing não autorizadas",
+      "unlawful": "Publicar ou transmitir qualquer conteúdo ilegal, ameaçador ou abusivo",
+      "violatelaw": "Violar quaisquer leis ou regulamentos"
     },
-    "userconducttitle": "4. User Conduct"
+    "userconducttitle": "4. Conduta do usuário"
   }
 }

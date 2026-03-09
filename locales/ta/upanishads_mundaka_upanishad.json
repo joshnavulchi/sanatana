@@ -1,29 +1,29 @@
 {
   "upanishads_mundaka-upanishad": {
-    "title": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "முண்டக உபநிஷத் - சனாதன தர்மத்தில் உபநிஷத் போதனைகள்",
+    "description": "முண்டக உபநிஷத்தின் கண்ணோட்டம்: முக்கிய கருப்பொருள்கள், முக்கிய யோசனைகள் மற்றும் ஆத்மா, பிரம்மம் மற்றும் விடுதலையைப் புரிந்துகொள்வதற்கு இந்த உபநிடதம் ஏன் முக்கியமானது.",
     "meta": {
-      "title": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "முண்டக உபநிஷத் - சனாதன தர்மத்தில் உபநிஷத் போதனைகள்",
       "canonical": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
-      "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "முண்டக உபநிஷத்தின் கண்ணோட்டம்: முக்கிய கருப்பொருள்கள், முக்கிய யோசனைகள் மற்றும் ஆத்மா, பிரம்மம் மற்றும் விடுதலையைப் புரிந்துகொள்வதற்கு இந்த உபநிடதம் ஏன் முக்கியமானது.",
       "keywords": [
-        "Mundaka Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "முண்டக உபநிடதம்",
+        "உபநிடதங்கள்",
+        "வேதாந்தம்",
+        "ஆத்மா",
+        "பிரம்மன்",
+        "சனாதன தர்மம்"
       ],
-      "robots": "index, follow",
+      "robots": "குறியீட்டு, பின்பற்றவும்",
       "url": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_mundaka_upanishad.png"
     },
     "openGraph": {
-      "title": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "முண்டக உபநிஷத் - சனாதன தர்மத்தில் உபநிஷத் போதனைகள்",
+      "description": "முண்டக உபநிஷத்தின் கண்ணோட்டம்: முக்கிய கருப்பொருள்கள், முக்கிய யோசனைகள் மற்றும் ஆத்மா, பிரம்மம் மற்றும் விடுதலையைப் புரிந்துகொள்வதற்கு இந்த உபநிடதம் ஏன் முக்கியமானது.",
       "url": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "சனாதனதர்மம்",
+      "type": "கட்டுரை",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_mundaka_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "கட்டுரை",
+      "name": "முண்டக உபநிஷத் - சனாதன தர்மத்தில் உபநிஷத் போதனைகள்",
+      "description": "முண்டக உபநிஷத்தின் கண்ணோட்டம்: முக்கிய கருப்பொருள்கள், முக்கிய யோசனைகள் மற்றும் ஆத்மா, பிரம்மம் மற்றும் விடுதலையைப் புரிந்துகொள்வதற்கு இந்த உபநிடதம் ஏன் முக்கியமானது.",
       "url": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "இணையத்தளம்",
+        "name": "சனாதனதர்மம்",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Mundaka Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nA well-known teaching of the Mundaka Upanishad is the distinction between two kinds of knowledge: lower knowledge (skills, rituals, learning) and higher knowledge (direct realization of the imperishable reality).",
+    "introduction": "முண்டக உபநிஷத் முதன்மையான உபநிடதங்களில் ஒன்றாகும் - மனித வாழ்வின் ஆழமான கேள்விகளை ஆராயும் நூல்கள்: நான் யார்? உண்மையானது என்ன? சுயம் (ஆத்மன்) மற்றும் இறுதி உண்மை (பிரம்மன்) என்றால் என்ன?\n\nஉபநிஷத போதனை பெரும்பாலும் உரையாடல் மற்றும் விசாரணை என வழங்கப்படுகிறது. ஒரு \"நம்பிக்கையை\" வழங்குவதற்குப் பதிலாக, இது கவனத்தையும் பகுத்தறிவையும் பயிற்றுவிக்கிறது, எனவே தேடுபவர் வெளிப்புற அடையாளத்திலிருந்து உள் உண்மைக்கு செல்ல முடியும்.\n\nமுண்டக உபநிடதத்தின் நன்கு அறியப்பட்ட போதனையானது இரண்டு வகையான அறிவுக்கு இடையே உள்ள வேறுபாடு ஆகும்: குறைந்த அறிவு (திறன்கள், சடங்குகள், கற்றல்) மற்றும் உயர் அறிவு (அழியாத யதார்த்தத்தை நேரடியாக உணர்தல்).",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Higher vs lower knowledge, renunciation and sincerity, the nature of Brahman, and the need for inner purification before subtle inquiry."
+        "section": "மைய கருப்பொருள்கள்",
+        "content": "உயர்ந்த மற்றும் குறைந்த அறிவு, துறவு மற்றும் நேர்மை, பிரம்மனின் தன்மை மற்றும் நுட்பமான விசாரணைக்கு முன் உள் சுத்திகரிப்பு தேவை."
       },
       {
-        "section": "Practice reflection",
-        "content": "The text encourages using learning as a support—but not mistaking it for realization. Inner integrity matters as much as study."
+        "section": "பிரதிபலிப்பு பயிற்சி",
+        "content": "கற்றலை ஒரு ஆதரவாகப் பயன்படுத்துவதை உரை ஊக்குவிக்கிறது - ஆனால் அதை உணர்தல் என்று தவறாக நினைக்கவில்லை. படிப்பைப் போலவே உள் ஒருமைப்பாடும் முக்கியம்."
       }
     ],
-    "philosophical_explanation": "Mundaka is a corrective for spiritual materialism: achievements and information are valuable, but liberation depends on seeing what does not change. It invites the seeker to turn from accumulation to clarity."
+    "philosophical_explanation": "முண்டகா என்பது ஆன்மீகப் பொருள்முதல்வாதத்திற்கான ஒரு திருத்தம்: சாதனைகளும் தகவல்களும் மதிப்புமிக்கவை, ஆனால் விடுதலை என்பது மாறாததைப் பார்ப்பதைப் பொறுத்தது. திரட்சியிலிருந்து தெளிவுக்குத் திரும்ப இது தேடுபவரை அழைக்கிறது."
   }
 }

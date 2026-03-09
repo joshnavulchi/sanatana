@@ -1,31 +1,31 @@
 {
   "rigveda": {
-    "title": "Rigveda – The Oldest Veda of Sanatana Dharma | Hymns, Philosophy and Cosmic Knowledge",
-    "description": "Learn about the Rigveda, the oldest of the four Vedas. Explore its hymns, mandalas, deities, cosmology, philosophy and its influence on Sanatana Dharma.",
+    "title": "رگ وید – سناتن دھرم کا قدیم ترین وید | حمد، فلسفہ اور کائناتی علم",
+    "description": "چار ویدوں میں سب سے قدیم رگ وید کے بارے میں جانیں۔ اس کے بھجن، منڈالوں، دیوتا، کائناتی، فلسفہ اور سناتن دھرم پر اس کے اثر کو دریافت کریں۔",
     "meta": {
-      "title": "Rigveda – The Oldest Veda of Sanatana Dharma | Hymns, Philosophy and Cosmic Knowledge",
+      "title": "رگ وید – سناتن دھرم کا قدیم ترین وید | حمد، فلسفہ اور کائناتی علم",
       "canonical": "https://sanatanadharmam.in/vedas/rigveda",
-      "description": "Learn about the Rigveda, the oldest of the four Vedas. Explore its hymns, mandalas, deities, cosmology, philosophy and its influence on Sanatana Dharma.",
+      "description": "چار ویدوں میں سب سے قدیم رگ وید کے بارے میں جانیں۔ اس کے بھجن، منڈالوں، دیوتا، کائناتی، فلسفہ اور سناتن دھرم پر اس کے اثر کو دریافت کریں۔",
       "keywords": [
-        "Rigveda",
-        "Rig Veda meaning",
-        "Rigveda hymns",
-        "Rigveda mandalas",
-        "Rigveda deities",
-        "ancient Vedic scriptures",
-        "Sanatana Dharma Vedas",
-        "Rigveda philosophy",
-        "Vedic hymns",
-        "oldest Hindu scripture"
+        "رگ وید",
+        "رگ وید کے معنی",
+        "رگ وید کے بھجن",
+        "رگ وید منڈلس",
+        "رگ وید کے دیوتا",
+        "قدیم ویدک صحیفے",
+        "سناتن دھرم وید",
+        "رگ وید کا فلسفہ",
+        "ویدک بھجن",
+        "سب سے قدیم ہندو صحیفہ"
       ],
       "url": "https://sanatanadharmam.in/vedas/rigveda"
     },
     "openGraph": {
-      "title": "Rigveda – Ancient Hymns of the Vedic Civilization",
-      "description": "Discover the Rigveda, the oldest sacred scripture of Sanatana Dharma containing 1028 hymns dedicated to cosmic forces and divine principles.",
+      "title": "رگ وید - ویدک تہذیب کے قدیم بھجن",
+      "description": "رگ وید کو دریافت کریں، سناتن دھرم کا قدیم ترین مقدس صحیفہ جس میں کائناتی قوتوں اور الہی اصولوں کے لیے وقف 1028 بھجن ہیں۔",
       "url": "https://sanatanadharmam.in/vedas/rigveda",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "سناتندھرم",
+      "type": "مضمون",
       "images": [
         {
           "url": "https://sanatanadharmam.in/images/og/rigveda.png",
@@ -37,79 +37,79 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Rigveda",
-      "description": "The Rigveda is the oldest of the four Vedas and contains hymns dedicated to cosmic forces and deities such as Agni, Indra, Varuna and Surya.",
+      "@type": "تخلیقی کام",
+      "name": "رگ وید",
+      "description": "رگ وید چار ویدوں میں سب سے قدیم ہے اور اس میں کائناتی قوتوں اور دیوتاؤں جیسے اگنی، اندرا، ورون اور سوریہ کے لیے وقف کردہ بھجن شامل ہیں۔",
       "author": {
-        "@type": "Person",
-        "name": "Ved Vyasa"
+        "@type": "شخص",
+        "name": "وید ویاس"
       },
-      "inLanguage": "Sanskrit",
+      "inLanguage": "سنسکرت",
       "publisher": {
-        "@type": "Organization",
-        "name": "Sanatanadharmam",
+        "@type": "تنظیم",
+        "name": "سناتندھرم",
         "url": "https://sanatanadharmam.in"
       },
       "about": [
-        "Rigveda",
-        "Vedic hymns",
-        "Sanatana Dharma",
-        "Vedic philosophy",
-        "ancient scriptures"
+        "رگ وید",
+        "ویدک بھجن",
+        "سناتن دھرم",
+        "ویدک فلسفہ",
+        "قدیم صحیفے"
       ],
       "url": "https://sanatanadharmam.in/vedas/rigveda"
     },
-    "introduction": "The Rigveda is the oldest and most foundational of the four Vedas that form the core of the sacred literature of Sanatana Dharma. The term 'Rigveda' is derived from two Sanskrit words: 'Rik', meaning praise or hymn, and 'Veda', meaning knowledge. Thus the Rigveda can be understood as the 'knowledge of hymns' or 'sacred knowledge expressed through praise'.\n\nThe Rigveda represents one of the earliest literary records of human civilization. Scholars estimate that the hymns were composed between 1500 BCE and 1200 BCE, though traditional Hindu belief considers the Vedas to be timeless revelations heard by ancient sages known as Rishis during deep states of spiritual insight. These sages did not consider themselves authors but rather seers who perceived eternal truths.\n\nThe Rigveda consists of 1028 hymns organized into ten sections known as Mandalas. These hymns are written in Vedic Sanskrit and were originally preserved through an elaborate oral tradition that ensured extraordinary accuracy across generations. Even before writing systems became common, the Rigvedic hymns were memorized and transmitted with meticulous precision.\n\nThe hymns of the Rigveda address a wide range of themes including cosmic creation, natural forces, ethical living, spiritual wisdom and the search for truth. Many hymns praise deities who represent aspects of nature and universal principles. Among the most frequently mentioned deities are Agni (fire), Indra (thunder and power), Varuna (cosmic order), Surya (the sun), Soma (sacred elixir), and Ushas (the dawn).\n\nHowever, these deities should not be understood merely as mythological figures. In the Vedic worldview, they symbolize deeper forces of nature and aspects of universal consciousness. The Rigveda reflects a profound attempt to understand the relationship between humanity, nature and the divine order governing the cosmos.\n\nBeyond ritual praise, the Rigveda also contains philosophical reflections that later became central to Hindu philosophy. Hymns such as the famous Nasadiya Sukta explore the mystery of creation and question the very origins of the universe. These early philosophical inquiries demonstrate a remarkable openness to speculation and contemplation.\n\nFor thousands of years, the Rigveda has served as a foundation for later spiritual texts including the Upanishads, the Brahmanas and the philosophical systems of Vedanta. Its hymns continue to inspire spiritual seekers, scholars and practitioners who study the origins of Indian civilization and spiritual thought.",
+    "introduction": "رگ وید ان چار ویدوں میں سب سے قدیم اور سب سے زیادہ بنیاد ہے جو سناتن دھرم کے مقدس ادب کا مرکز ہے۔ 'رگ وید' کی اصطلاح سنسکرت کے دو الفاظ سے ماخوذ ہے: 'رک'، جس کا مطلب تعریف یا حمد ہے، اور 'وید'، جس کا مطلب علم ہے۔ اس طرح رگ وید کو 'بھجن کا علم' یا 'تعریف کے ذریعے بیان کردہ مقدس علم' کے طور پر سمجھا جا سکتا ہے۔\n\nرگ وید انسانی تہذیب کے ابتدائی ادبی ریکارڈوں میں سے ایک کی نمائندگی کرتا ہے۔ اسکالرز کا اندازہ ہے کہ بھجن 1500 قبل مسیح اور 1200 قبل مسیح کے درمیان تحریر کیے گئے تھے، حالانکہ روایتی ہندو عقیدہ ویدوں کو روحانی بصیرت کی گہری حالتوں کے دوران قدیم باباؤں کے ذریعہ سنے جانے والے لازوال انکشافات مانتا ہے۔ یہ بابا اپنے آپ کو مصنف نہیں سمجھتے تھے بلکہ ابدی سچائیوں کو سمجھنے والے دیکھنے والے تھے۔\n\nرگ وید میں 1028 بھجن شامل ہیں جن کو دس حصوں میں منڈال کہا جاتا ہے۔ یہ بھجن ویدک سنسکرت میں لکھے گئے ہیں اور اصل میں ایک وسیع زبانی روایت کے ذریعے محفوظ کیے گئے تھے جس نے نسل در نسل غیر معمولی درستگی کو یقینی بنایا۔ یہاں تک کہ تحریری نظام عام ہونے سے پہلے، رگ ویدک بھجن کو حفظ کیا جاتا تھا اور باریک بینی کے ساتھ منتقل کیا جاتا تھا۔\n\nرگ وید کے بھجن بہت سارے موضوعات پر توجہ دیتے ہیں جن میں کائناتی تخلیق، قدرتی قوتیں، اخلاقی زندگی، روحانی حکمت اور سچائی کی تلاش شامل ہیں۔ بہت سے بھجن دیوتاؤں کی تعریف کرتے ہیں جو فطرت کے پہلوؤں اور آفاقی اصولوں کی نمائندگی کرتے ہیں۔ سب سے زیادہ ذکر کیے جانے والے دیوتاؤں میں اگنی (آگ)، اندرا (گرج اور طاقت)، ورون (برہمانڈیی ترتیب)، سوریہ (سورج)، سوما (مقدس امرت)، اور اوشا (صبح) شامل ہیں۔\n\nتاہم، ان دیوتاؤں کو محض افسانوی شخصیات کے طور پر نہیں سمجھا جانا چاہیے۔ ویدک عالمی نظریہ میں، وہ فطرت کی گہری قوتوں اور عالمگیر شعور کے پہلوؤں کی علامت ہیں۔ رگ وید انسانیت، فطرت اور کائنات پر حکمرانی کرنے والے الہی حکم کے درمیان تعلق کو سمجھنے کی ایک گہری کوشش کی عکاسی کرتا ہے۔\n\nرسمی تعریف کے علاوہ، رگ وید میں فلسفیانہ مظاہر بھی شامل ہیں جو بعد میں ہندو فلسفے کا مرکز بن گئے۔ بھجن جیسے مشہور نسادیہ سکتہ تخلیق کے اسرار کو دریافت کرتے ہیں اور کائنات کی ابتدا پر سوال اٹھاتے ہیں۔ یہ ابتدائی فلسفیانہ استفسارات قیاس اور غور و فکر کے لیے ایک قابل ذکر کشادگی کا مظاہرہ کرتے ہیں۔\n\nہزاروں سالوں سے، رگ وید نے بعد کے روحانی متون کی بنیاد کے طور پر کام کیا ہے جن میں اپنشد، برہمن اور ویدانت کے فلسفیانہ نظام شامل ہیں۔ اس کے بھجن روحانی متلاشیوں، اسکالرز اور پریکٹیشنرز کو متاثر کرتے رہتے ہیں جو ہندوستانی تہذیب اور روحانی فکر کی ابتداء کا مطالعہ کرتے ہیں۔",
     "scripture_text": [
       {
-        "section": "Structure of the Rigveda",
-        "content": "The Rigveda is divided into ten Mandalas or books. Each Mandala contains hymns composed by different families of sages. The structure reflects both chronological development and thematic grouping.\n\nMandalas 2 through 7 are often referred to as the 'family books' because they are associated with specific Rishi lineages such as the Gritsamadas, Vishvamitras, Vamadevas, Atris and Bharadvajas. These sections contain some of the oldest hymns in the Rigveda.\n\nMandalas 1 and 10 are more diverse in content and contain many philosophical and cosmological hymns. Mandala 10 includes some of the most famous verses exploring creation, existence and the nature of reality.\n\nEach hymn in the Rigveda is composed in poetic meters and was designed to be recited during sacred rituals. The careful arrangement of verses reflects a sophisticated understanding of language, rhythm and sound."
+        "section": "رگ وید کی ساخت",
+        "content": "رگ وید کو دس منڈلوں یا کتابوں میں تقسیم کیا گیا ہے۔ ہر منڈلا میں باباؤں کے مختلف خاندانوں کے بنائے ہوئے بھجن شامل ہیں۔ ڈھانچہ تاریخی ترقی اور موضوعاتی گروہ بندی دونوں کی عکاسی کرتا ہے۔\n\nمنڈال 2 سے 7 کو اکثر 'خاندانی کتابیں' کہا جاتا ہے کیونکہ وہ مخصوص رشی نسب جیسے گرتسماداس، وشوامتراس، ومادیواس، اٹرس اور بھردواج سے وابستہ ہیں۔ ان حصوں میں رگ وید کے کچھ قدیم ترین بھجن شامل ہیں۔\n\nمنڈالاس 1 اور 10 مواد میں زیادہ متنوع ہیں اور ان میں بہت سے فلسفیانہ اور کائناتی تسبیحات شامل ہیں۔ منڈلا 10 میں تخلیق، وجود اور حقیقت کی نوعیت کو دریافت کرنے والی کچھ مشہور آیات شامل ہیں۔\n\nرگ وید میں ہر ایک بھجن شاعرانہ میٹروں پر مشتمل ہے اور اسے مقدس رسومات کے دوران پڑھے جانے کے لیے ڈیزائن کیا گیا ہے۔ آیات کی محتاط ترتیب زبان، تال اور آواز کی نفیس سمجھ کی عکاسی کرتی ہے۔"
       },
       {
-        "section": "Deities in the Rigveda",
-        "content": "The hymns of the Rigveda frequently address various deities who represent forces of nature and cosmic principles. Agni, the fire god, is among the most prominent and is often invoked at the beginning of rituals because fire acts as a mediator between humans and the divine.\n\nIndra is another major deity praised for his strength and heroic deeds, particularly his victory over the serpent Vritra which symbolizes the release of life-giving waters. Varuna represents the cosmic order and moral law known as Rta.\n\nSurya, the sun, symbolizes illumination and the life-sustaining power of the universe, while Ushas, the goddess of dawn, represents renewal and hope. Soma is associated with a sacred ritual drink believed to grant inspiration and divine insight.\n\nThese deities collectively illustrate the Vedic understanding that natural forces are expressions of deeper spiritual realities."
+        "section": "رگ وید میں دیوتا",
+        "content": "رگ وید کے بھجن اکثر مختلف دیوتاؤں کو مخاطب کرتے ہیں جو فطرت کی قوتوں اور کائناتی اصولوں کی نمائندگی کرتے ہیں۔ اگنی، آگ کا دیوتا، سب سے نمایاں میں سے ہے اور اسے اکثر رسومات کے آغاز میں پکارا جاتا ہے کیونکہ آگ انسانوں اور الہی کے درمیان ثالث کا کام کرتی ہے۔\n\nاندرا ایک اور بڑا دیوتا ہے جس کی اس کی طاقت اور بہادری کے کاموں کے لیے تعریف کی جاتی ہے، خاص طور پر ناگ وریترا پر اس کی فتح جو زندگی دینے والے پانی کے اجراء کی علامت ہے۔ ورون کائناتی ترتیب اور اخلاقی قانون کی نمائندگی کرتا ہے جسے Rta کہا جاتا ہے۔\n\nسوریا، سورج، روشنی اور کائنات کی زندگی کو برقرار رکھنے والی طاقت کی علامت ہے، جب کہ صبح کی دیوی، اُشاس، تجدید اور امید کی نمائندگی کرتی ہے۔ سوما ایک مقدس رسمی مشروب سے وابستہ ہے جس کے بارے میں خیال کیا جاتا ہے کہ وہ الہام اور الہی بصیرت فراہم کرتا ہے۔\n\nیہ دیوتا اجتماعی طور پر ویدک سمجھ کو واضح کرتے ہیں کہ قدرتی قوتیں گہری روحانی حقیقتوں کا اظہار ہیں۔"
       },
       {
-        "section": "The Nasadiya Sukta",
-        "content": "One of the most remarkable hymns in the Rigveda is the Nasadiya Sukta found in Mandala 10. This hymn contemplates the mystery of creation in a deeply philosophical manner. Instead of offering a definitive explanation, it presents a series of questions about the origin of the universe.\n\nThe hymn begins by describing a time before existence and nonexistence, before space and time themselves. It then explores the possibility that the universe emerged from an undifferentiated state through the power of cosmic desire.\n\nThe hymn concludes with a striking statement suggesting that perhaps even the highest divine being may not fully know the ultimate origin of creation. This openness to inquiry reflects the intellectual depth of Vedic thought."
+        "section": "نسادیہ سکتہ",
+        "content": "رگ وید کے سب سے قابل ذکر حمدوں میں سے ایک منڈلا 10 میں پایا جانے والا نسادیہ سکتہ ہے۔ یہ تسبیح تخلیق کے اسرار پر گہرے فلسفیانہ انداز میں غور کرتی ہے۔ ایک قطعی وضاحت پیش کرنے کے بجائے، یہ کائنات کی ابتدا کے بارے میں سوالات کا ایک سلسلہ پیش کرتا ہے۔\n\nتسبیح کا آغاز وجود اور عدم وجود سے پہلے، جگہ اور وقت سے پہلے کے وقت کو بیان کرنے سے ہوتا ہے۔ اس کے بعد یہ اس امکان کو تلاش کرتا ہے کہ کائنات کائناتی خواہش کی طاقت کے ذریعے ایک غیر متفاوت حالت سے ابھری ہے۔\n\nتسبیح کا اختتام ایک حیرت انگیز بیان کے ساتھ ہوتا ہے جس سے یہ معلوم ہوتا ہے کہ شاید اعلیٰ ترین الہی مخلوق بھی تخلیق کی حتمی اصل کو پوری طرح نہیں جانتی ہے۔ استفسار کے لیے یہ کشادگی ویدک فکر کی فکری گہرائی کو ظاہر کرتی ہے۔"
       }
     ],
-    "philosophical_explanation": "The Rigveda contains early seeds of philosophical ideas that later evolved into complex systems of Indian thought. One of the central concepts expressed throughout the hymns is the idea of Rta, the cosmic order that governs the functioning of the universe.\n\nRta represents the harmony and balance underlying all natural phenomena. The movement of the sun, the cycles of seasons and the moral conduct of humans are all believed to operate according to this universal law. By performing rituals and living ethically, individuals contribute to maintaining this cosmic harmony.\n\nAnother key philosophical theme is the search for unity within diversity. While the Rigveda praises many deities, several hymns suggest that these diverse manifestations ultimately point toward a single underlying reality. One famous verse declares: 'Truth is one; the wise call it by many names.'\n\nThis insight later became a cornerstone of Vedantic philosophy, which teaches that the ultimate reality known as Brahman manifests itself through various forms and aspects.\n\nThe Rigveda also emphasizes the transformative power of knowledge and awareness. Through reflection, prayer and disciplined living, individuals can deepen their understanding of the universe and their place within it.\n\nThus the Rigveda is not merely a collection of ritual hymns but a profound exploration of human consciousness and cosmic order.",
+    "philosophical_explanation": "رگ وید میں فلسفیانہ خیالات کے ابتدائی بیج موجود ہیں جو بعد میں ہندوستانی فکر کے پیچیدہ نظاموں میں تیار ہوئے۔ پورے بھجن میں بیان کیے گئے مرکزی تصورات میں سے ایک Rta کا خیال ہے، کائناتی ترتیب جو کائنات کے کام کو کنٹرول کرتی ہے۔\n\nآر ٹی اے تمام قدرتی مظاہر میں ہم آہنگی اور توازن کی نمائندگی کرتا ہے۔ سورج کی حرکت، موسموں کے چکر اور انسانوں کی اخلاقی حرکتیں سب اس عالمگیر قانون کے مطابق چلتی ہیں۔ رسومات ادا کرنے اور اخلاقی طور پر زندگی گزارنے سے، افراد اس کائناتی ہم آہنگی کو برقرار رکھنے میں اپنا حصہ ڈالتے ہیں۔\n\nایک اور کلیدی فلسفیانہ موضوع تنوع کے اندر اتحاد کی تلاش ہے۔ اگرچہ رگ وید بہت سے دیوتاؤں کی تعریف کرتا ہے، کئی بھجن تجویز کرتے ہیں کہ یہ متنوع مظاہر بالآخر ایک بنیادی حقیقت کی طرف اشارہ کرتے ہیں۔ ایک مشہور آیت کا اعلان ہے: 'حق ایک ہے۔ عقلمند اسے کئی ناموں سے پکارتے ہیں۔'\n\nیہ بصیرت بعد میں ویدانتک فلسفہ کی بنیاد بن گئی، جو یہ سکھاتی ہے کہ برہمن کے نام سے جانی جانے والی حتمی حقیقت مختلف شکلوں اور پہلوؤں سے ظاہر ہوتی ہے۔\n\nرگ وید علم اور بیداری کی تبدیلی کی طاقت پر بھی زور دیتا ہے۔ غور و فکر، دعا اور نظم و ضبط کے ساتھ زندگی گزارنے کے ذریعے، افراد کائنات اور اس کے اندر اپنے مقام کے بارے میں اپنی سمجھ کو گہرا کر سکتے ہیں۔\n\nاس طرح رگ وید محض رسمی تسبیحات کا مجموعہ نہیں ہے بلکہ انسانی شعور اور کائناتی ترتیب کا گہرا مطالعہ ہے۔",
     "major_rigvedic_deities": [
       {
-        "name": "Agni",
-        "role": "Fire god and mediator between humans and gods",
-        "importance": "Central deity in sacrificial rituals"
+        "name": "اگنی",
+        "role": "آگ کا خدا اور انسانوں اور دیوتاؤں کے درمیان ثالث",
+        "importance": "قربانی کی رسومات میں مرکزی دیوتا"
       },
       {
-        "name": "Indra",
-        "role": "King of gods and warrior",
-        "importance": "Defeats the serpent Vritra and releases rivers"
+        "name": "اندرا",
+        "role": "دیوتاؤں کا بادشاہ اور جنگجو",
+        "importance": "سانپ وریترا کو شکست دیتا ہے اور ندیوں کو جاری کرتا ہے۔"
       },
       {
-        "name": "Varuna",
-        "role": "Guardian of cosmic order",
-        "importance": "Represents moral and cosmic law"
+        "name": "ورونا۔",
+        "role": "کائناتی ترتیب کا محافظ",
+        "importance": "اخلاقی اور کائناتی قانون کی نمائندگی کرتا ہے۔"
       },
       {
-        "name": "Soma",
-        "role": "Sacred ritual drink and deity",
-        "importance": "Associated with divine inspiration and immortality"
+        "name": "سوما",
+        "role": "مقدس رسم پینے اور دیوتا",
+        "importance": "الہی الہام اور لافانی سے وابستہ"
       }
     ],
     "related_concepts": [
-      "Vedas",
-      "Upanishads",
-      "Agni",
-      "Indra",
-      "Varuna",
-      "Surya",
-      "Soma",
-      "Rta",
-      "Brahman",
-      "Atman",
-      "Vedic rituals",
-      "Sanatana Dharma"
+      "وید",
+      "اپنشد",
+      "اگنی",
+      "اندرا",
+      "ورونا۔",
+      "سوریا",
+      "سوما",
+      "آر ٹی اے",
+      "برہمن",
+      "اتمان",
+      "ویدک رسومات",
+      "سناتن دھرم"
     ]
   }
 }

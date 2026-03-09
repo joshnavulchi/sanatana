@@ -1,30 +1,30 @@
 {
   "scriptures_bhagavadgita": {
-    "title": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-    "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
+    "title": "Bhagavad Gita – Leringen over dharma, yoga en bevrijding",
+    "description": "Bestudeer de Bhagavad Gita: leringen van Sri Krishna over dharma, karma yoga, bhakti, jnana en het pad naar innerlijke vrijheid.",
     "meta": {
-      "title": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
+      "title": "Bhagavad Gita – Leringen over dharma, yoga en bevrijding",
       "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-      "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
+      "description": "Bestudeer de Bhagavad Gita: leringen van Sri Krishna over dharma, karma yoga, bhakti, jnana en het pad naar innerlijke vrijheid.",
       "keywords": [
         "Bhagavad Gita",
         "Krishna",
         "Arjuna",
         "Yoga",
         "dharma",
-        "karma yoga",
+        "karma-yoga",
         "bhakti"
       ],
-      "robots": "index, follow",
+      "robots": "indexeren, volgen",
       "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
       "ogImage": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png"
     },
     "openGraph": {
-      "title": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-      "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
+      "title": "Bhagavad Gita – Leringen over dharma, yoga en bevrijding",
+      "description": "Bestudeer de Bhagavad Gita: leringen van Sri Krishna over dharma, karma yoga, bhakti, jnana en het pad naar innerlijke vrijheid.",
       "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "Sanatanadharam",
+      "type": "artikel",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png",
@@ -36,27 +36,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-      "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
+      "@type": "Artikel",
+      "name": "Bhagavad Gita – Leringen over dharma, yoga en bevrijding",
+      "description": "Bestudeer de Bhagavad Gita: leringen van Sri Krishna over dharma, karma yoga, bhakti, jnana en het pad naar innerlijke vrijheid.",
       "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "Website",
+        "name": "Sanatanadharam",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "The Bhagavad Gita is a foundational spiritual text presented as a dialogue between Sri Krishna and Arjuna on the battlefield of Kurukshetra. It addresses a universal crisis: how to act rightly when life is complex, emotions are intense, and the consequences of action are unavoidable.\n\nThe Gita teaches multiple yogas (disciplines) that converge toward inner freedom: selfless action, devotion, and knowledge—guided by dharma and clarity of mind.",
+    "introduction": "De Bhagavad Gita is een fundamentele spirituele tekst, gepresenteerd als een dialoog tussen Sri Krishna en Arjuna op het slagveld van Kurukshetra. Het richt zich op een universele crisis: hoe je op de juiste manier kunt handelen als het leven complex is, de emoties intens zijn en de gevolgen van handelen onvermijdelijk zijn.\n\nDe Gita onderwijst meerdere yoga's (disciplines) die samenkomen in de richting van innerlijke vrijheid: onbaatzuchtige actie, toewijding en kennis – geleid door dharma en helderheid van geest.",
     "scripture_text": [
       {
-        "section": "Core topics covered",
-        "content": "The Gita discusses svadharma (one’s rightful duty), karma yoga (selfless action), bhakti (devotion), jnana (knowledge), dhyana (meditation), the gunas (qualities of nature), and the vision of the Self beyond fear and sorrow."
+        "section": "Kernonderwerpen die aan bod komen",
+        "content": "De Gita bespreekt svadharma (iemands rechtmatige plicht), karma yoga (onbaatzuchtige actie), bhakti (toewijding), jnana (kennis), dhyana (meditatie), de guna's (kwaliteiten van de natuur) en de visie van het Zelf voorbij angst en verdriet."
       },
       {
-        "section": "How chapters are organized",
-        "content": "Each chapter is traditionally treated as a distinct yoga or emphasis, yet the teaching remains integrated: the purpose is steadiness, discernment, and alignment with truth in thought, speech, and action."
+        "section": "Hoe hoofdstukken zijn georganiseerd",
+        "content": "Elk hoofdstuk wordt traditioneel behandeld als een afzonderlijke yoga of nadruk, maar toch blijft de leer geïntegreerd: het doel is standvastigheid, onderscheidingsvermogen en afstemming op de waarheid in denken, spreken en handelen."
       }
     ],
-    "philosophical_explanation": "Philosophically, the Bhagavad Gita reconciles action and renunciation. It does not demand withdrawal from life; it refines how one engages with life—acting without ego-driven attachment to outcomes. This transforms work into yoga.\n\nThe Gita also frames spiritual growth as a balance: devotion that softens the heart, knowledge that clarifies the mind, and disciplined action that purifies intention. The result is a life guided by dharma, courage, and compassion."
+    "philosophical_explanation": "Filosofisch gezien verzoent de Bhagavad Gita actie en verzaking. Het vereist geen terugtrekking uit het leven; het verfijnt de manier waarop iemand met het leven omgaat: handelen zonder ego-gedreven gehechtheid aan resultaten. Dit transformeert werk in yoga.\n\nDe Gita omschrijft spirituele groei ook als een evenwicht: toewijding die het hart verzacht, kennis die de geest verheldert, en gedisciplineerd handelen dat de intentie zuivert. Het resultaat is een leven geleid door dharma, moed en mededogen."
   }
 }

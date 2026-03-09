@@ -1,28 +1,28 @@
 {
   "ramayana_ayodhya-kanda": {
-    "title": "Ayodhya Kanda – Ramayana Section Summary",
-    "description": "Explore Ayodhya Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
+    "title": "அயோத்தியா காண்டம் - ராமாயணம் பகுதி சுருக்கம்",
+    "description": "ராமாயணத்தின் அயோத்தியா காண்டத்தை ஆராயுங்கள்: முக்கிய நிகழ்வுகள், தர்ம பாடங்கள் மற்றும் தத்துவக் கருப்பொருள்கள் கதை மூலம் வழங்கப்படுகின்றன.",
     "meta": {
-      "title": "Ayodhya Kanda – Ramayana Section Summary",
+      "title": "அயோத்தியா காண்டம் - ராமாயணம் பகுதி சுருக்கம்",
       "canonical": "https://sanatanadharmam.in/itihasa/ramayana/ayodhya-kanda",
-      "description": "Explore Ayodhya Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
+      "description": "ராமாயணத்தின் அயோத்தியா காண்டத்தை ஆராயுங்கள்: முக்கிய நிகழ்வுகள், தர்ம பாடங்கள் மற்றும் தத்துவக் கருப்பொருள்கள் கதை மூலம் வழங்கப்படுகின்றன.",
       "keywords": [
-        "Ayodhya Kanda",
-        "Ramayana",
-        "Itihasa",
-        "dharma",
-        "Sri Rama"
+        "அயோத்தியா காண்டா",
+        "ராமாயணம்",
+        "இதிஹாசா",
+        "தர்மம்",
+        "ஸ்ரீ ராமர்"
       ],
-      "robots": "index, follow",
+      "robots": "குறியீட்டு, பின்பற்றவும்",
       "url": "https://sanatanadharmam.in/itihasa/ramayana/ayodhya-kanda",
       "ogImage": "https://sanatanadharmam.in/og/ramayana_ayodhya_kanda.png"
     },
     "openGraph": {
-      "title": "Ayodhya Kanda – Ramayana Section Summary",
-      "description": "Explore Ayodhya Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
+      "title": "அயோத்தியா காண்டம் - ராமாயணம் பகுதி சுருக்கம்",
+      "description": "ராமாயணத்தின் அயோத்தியா காண்டத்தை ஆராயுங்கள்: முக்கிய நிகழ்வுகள், தர்ம பாடங்கள் மற்றும் தத்துவக் கருப்பொருள்கள் கதை மூலம் வழங்கப்படுகின்றன.",
       "url": "https://sanatanadharmam.in/itihasa/ramayana/ayodhya-kanda",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "சனாதனதர்மம்",
+      "type": "கட்டுரை",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/ramayana_ayodhya_kanda.png",
@@ -34,31 +34,31 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Ayodhya Kanda – Ramayana Section Summary",
-      "description": "Explore Ayodhya Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
+      "@type": "கட்டுரை",
+      "name": "அயோத்தியா காண்டம் - ராமாயணம் பகுதி சுருக்கம்",
+      "description": "ராமாயணத்தின் அயோத்தியா காண்டத்தை ஆராயுங்கள்: முக்கிய நிகழ்வுகள், தர்ம பாடங்கள் மற்றும் தத்துவக் கருப்பொருள்கள் கதை மூலம் வழங்கப்படுகின்றன.",
       "url": "https://sanatanadharmam.in/itihasa/ramayana/ayodhya-kanda",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "இணையத்தளம்",
+        "name": "சனாதனதர்மம்",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Ayodhya Kanda is one of the traditional kandas (books) of the Ramayana. Each kanda advances the narrative while emphasizing specific virtues—courage, restraint, loyalty, compassion, and the responsibilities of leadership and family life.\n\nThis page provides a safe overview and reflection prompts without relying on long quotations.",
+    "introduction": "அயோத்தியா காண்டம் ராமாயணத்தின் பாரம்பரிய காண்டங்களில் (புத்தகங்கள்) ஒன்றாகும். ஒவ்வொரு காண்டமும் குறிப்பிட்ட நற்பண்புகளை வலியுறுத்தும் அதே வேளையில் கதையை முன்னெடுத்துச் செல்கிறது - தைரியம், கட்டுப்பாடு, விசுவாசம், இரக்கம் மற்றும் தலைமை மற்றும் குடும்ப வாழ்க்கையின் பொறுப்புகள்.\n\nஇந்தப் பக்கம் நீண்ட மேற்கோள்களை நம்பாமல் பாதுகாப்பான கண்ணோட்டத்தையும் பிரதிபலிப்புத் தூண்டுதலையும் வழங்குகிறது.",
     "scripture_text": [
       {
-        "section": "Narrative arc",
-        "content": "A brief summary of the key events in this kanda and how they set up the next stage of the story."
+        "section": "கதை வளைவு",
+        "content": "இந்த காண்டத்தின் முக்கிய நிகழ்வுகள் மற்றும் அவை கதையின் அடுத்த கட்டத்தை எவ்வாறு அமைக்கின்றன என்பது பற்றிய சுருக்கமான சுருக்கம்."
       },
       {
-        "section": "Dharmic lessons",
-        "content": "Themes to notice: promises and consequences, right speech, self-control, and how characters respond under pressure."
+        "section": "தர்ம பாடங்கள்",
+        "content": "கவனிக்க வேண்டிய தீம்கள்: வாக்குறுதிகள் மற்றும் விளைவுகள், சரியான பேச்சு, சுயக்கட்டுப்பாடு மற்றும் அழுத்தத்தின் கீழ் பாத்திரங்கள் எவ்வாறு பதிலளிக்கின்றன."
       },
       {
-        "section": "Practice reflection",
-        "content": "Ask: What is the right action here? What inner quality is being tested? How does devotion or humility change the outcome?"
+        "section": "பிரதிபலிப்பு பயிற்சி",
+        "content": "கேள்: இங்கே சரியான நடவடிக்கை என்ன? என்ன உள் தரம் சோதிக்கப்படுகிறது? பக்தி அல்லது பணிவு எவ்வாறு முடிவை மாற்றுகிறது?"
       }
     ],
-    "philosophical_explanation": "The Ramayana is often read as dharma-in-action. Kandawise reflection helps translate ideals into practical guidance: how to keep integrity when life is difficult, how to honor duty without hardening the heart, and how to act with steadiness rather than impulse."
+    "philosophical_explanation": "ராமாயணம் பெரும்பாலும் தர்மத்தின் செயலாகவே வாசிக்கப்படுகிறது. காண்டவைஸ் பிரதிபலிப்பு இலட்சியங்களை நடைமுறை வழிகாட்டுதலாக மொழிபெயர்க்க உதவுகிறது: வாழ்க்கை கடினமாக இருக்கும்போது ஒருமைப்பாட்டை எவ்வாறு பராமரிப்பது, இதயத்தை கடினப்படுத்தாமல் கடமையை எவ்வாறு மதிக்க வேண்டும் மற்றும் தூண்டுதலுக்கு பதிலாக உறுதியுடன் செயல்படுவது."
   }
 }

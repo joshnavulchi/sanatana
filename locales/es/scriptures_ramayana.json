@@ -1,11 +1,11 @@
 {
   "scriptures_ramayana": {
-    "title": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct",
-    "description": "Learn about the Ramayana: the Itihasa tradition that explores dharma, devotion, leadership, and the ideals embodied by Sri Rama.",
+    "title": "Ramayana – Itihasa del Dharma, la devoción y la conducta ideal",
+    "description": "Aprenda sobre el Ramayana: la tradición Itihasa que explora el dharma, la devoción, el liderazgo y los ideales encarnados por Sri Rama.",
     "meta": {
-      "title": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct",
+      "title": "Ramayana – Itihasa del Dharma, la devoción y la conducta ideal",
       "canonical": "https://sanatanadharmam.in/itihasa/ramayana",
-      "description": "Learn about the Ramayana: the Itihasa tradition that explores dharma, devotion, leadership, and the ideals embodied by Sri Rama.",
+      "description": "Aprenda sobre el Ramayana: la tradición Itihasa que explora el dharma, la devoción, el liderazgo y los ideales encarnados por Sri Rama.",
       "keywords": [
         "Ramayana",
         "Itihasa",
@@ -14,16 +14,16 @@
         "Valmiki",
         "Sanatana Dharma"
       ],
-      "robots": "index, follow",
+      "robots": "indexar, seguir",
       "url": "https://sanatanadharmam.in/itihasa/ramayana",
       "ogImage": "https://sanatanadharmam.in/og/scriptures_ramayana.png"
     },
     "openGraph": {
-      "title": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct",
-      "description": "Learn about the Ramayana: the Itihasa tradition that explores dharma, devotion, leadership, and the ideals embodied by Sri Rama.",
+      "title": "Ramayana – Itihasa del Dharma, la devoción y la conducta ideal",
+      "description": "Aprenda sobre el Ramayana: la tradición Itihasa que explora el dharma, la devoción, el liderazgo y los ideales encarnados por Sri Rama.",
       "url": "https://sanatanadharmam.in/itihasa/ramayana",
       "siteName": "Sanatanadharmam",
-      "type": "article",
+      "type": "artículo",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/scriptures_ramayana.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct",
-      "description": "Learn about the Ramayana: the Itihasa tradition that explores dharma, devotion, leadership, and the ideals embodied by Sri Rama.",
+      "@type": "Artículo",
+      "name": "Ramayana – Itihasa del Dharma, la devoción y la conducta ideal",
+      "description": "Aprenda sobre el Ramayana: la tradición Itihasa que explora el dharma, la devoción, el liderazgo y los ideales encarnados por Sri Rama.",
       "url": "https://sanatanadharmam.in/itihasa/ramayana",
       "isPartOf": {
-        "@type": "WebSite",
+        "@type": "Sitio web",
         "name": "Sanatanadharmam",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "The Ramayana is one of the central Itihasa traditions of Sanātana Dharma. It is traditionally attributed to Maharshi Valmiki and narrates the life of Sri Rama—often revered as an embodiment of dharma—along with Sita, Lakshmana, Hanuman, and many other revered figures.\n\nBeyond narrative, the Ramayana is a guide for values in action: duty and compassion, self-control, truthfulness, devotion, and the responsibilities of leadership and family life.",
+    "introduction": "El Ramayana es una de las tradiciones centrales de Itihasa del Sanātana Dharma. Tradicionalmente se atribuye a Maharshi Valmiki y narra la vida de Sri Rama, a menudo venerado como una encarnación del dharma, junto con Sita, Lakshmana, Hanuman y muchas otras figuras veneradas.\n\nMás allá de la narrativa, el Ramayana es una guía de valores en acción: el deber y la compasión, el autocontrol, la veracidad, la devoción y las responsabilidades del liderazgo y la vida familiar.",
     "scripture_text": [
       {
-        "section": "Structure (Kandas)",
-        "content": "The classical Valmiki Ramayana is commonly presented in seven kandas (books): Bala, Ayodhya, Aranya, Kishkindha, Sundara, Yuddha, and Uttara. Each kanda advances the narrative and highlights distinct ethical and spiritual lessons."
+        "section": "Estructura (Kandas)",
+        "content": "El Valmiki Ramayana clásico se presenta comúnmente en siete kandas (libros): Bala, Ayodhya, Aranya, Kishkindha, Sundara, Yuddha y Uttara. Cada kanda avanza la narrativa y resalta distintas lecciones éticas y espirituales."
       },
       {
-        "section": "Key themes",
-        "content": "Across its episodes, the Ramayana explores the meaning of svadharma (one’s rightful duty), the cost of keeping vows, the discipline of mind and speech, and the power of devotion (especially seen in Hanuman’s service)."
+        "section": "Temas clave",
+        "content": "A lo largo de sus episodios, el Ramayana explora el significado de svadharma (el deber legítimo de uno), el costo de cumplir los votos, la disciplina de la mente y el habla, y el poder de la devoción (especialmente visto en el servicio de Hanuman)."
       }
     ],
-    "philosophical_explanation": "A major philosophical contribution of the Ramayana is its lived picture of dharma. Instead of describing ethics only as rules, it shows competing obligations—kingdom and family, promise and consequence, strength and humility. This makes it a practical text for reflection: what is right action when every option carries a cost?\n\nIn devotional reading, the Ramayana also cultivates bhakti: remembrance, service, and surrender. In contemplative reading, it invites inquiry into attachment, grief, courage, and the steady inner alignment that allows one to act without being broken by events."
+    "philosophical_explanation": "Una importante contribución filosófica del Ramayana es su imagen vivida del dharma. En lugar de describir la ética sólo como reglas, muestra obligaciones en competencia: reino y familia, promesa y consecuencia, fuerza y ​​humildad. Esto lo convierte en un texto práctico para la reflexión: ¿cuál es la acción correcta cuando cada opción conlleva un costo?\n\nEn la lectura devocional, el Ramayana también cultiva el bhakti: recuerdo, servicio y entrega. En la lectura contemplativa, invita a indagar sobre el apego, el dolor, el coraje y la firme alineación interior que permite a uno actuar sin verse interrumpido por los acontecimientos."
   }
 }

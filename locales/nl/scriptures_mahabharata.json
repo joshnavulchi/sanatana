@@ -1,29 +1,29 @@
 {
   "scriptures_mahabharata": {
-    "title": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice",
-    "description": "Explore the Mahabharata: a vast Itihasa exploring dharma, conflict, duty, and the complexity of human decision-making.",
+    "title": "Mahabharata – Itihasa van Dharma, ethiek en menselijke keuze",
+    "description": "Verken de Mahabharata: een enorme Itihasa die dharma, conflict, plicht en de complexiteit van menselijke besluitvorming onderzoekt.",
     "meta": {
-      "title": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice",
+      "title": "Mahabharata – Itihasa van Dharma, ethiek en menselijke keuze",
       "canonical": "https://sanatanadharmam.in/itihasa/mahabharata",
-      "description": "Explore the Mahabharata: a vast Itihasa exploring dharma, conflict, duty, and the complexity of human decision-making.",
+      "description": "Verken de Mahabharata: een enorme Itihasa die dharma, conflict, plicht en de complexiteit van menselijke besluitvorming onderzoekt.",
       "keywords": [
         "Mahabharata",
         "Itihasa",
         "Vyasa",
         "dharma",
-        "ethics",
+        "ethiek",
         "Sanatana Dharma"
       ],
-      "robots": "index, follow",
+      "robots": "indexeren, volgen",
       "url": "https://sanatanadharmam.in/itihasa/mahabharata",
       "ogImage": "https://sanatanadharmam.in/og/scriptures_mahabharata.png"
     },
     "openGraph": {
-      "title": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice",
-      "description": "Explore the Mahabharata: a vast Itihasa exploring dharma, conflict, duty, and the complexity of human decision-making.",
+      "title": "Mahabharata – Itihasa van Dharma, ethiek en menselijke keuze",
+      "description": "Verken de Mahabharata: een enorme Itihasa die dharma, conflict, plicht en de complexiteit van menselijke besluitvorming onderzoekt.",
       "url": "https://sanatanadharmam.in/itihasa/mahabharata",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "Sanatanadharam",
+      "type": "artikel",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/scriptures_mahabharata.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice",
-      "description": "Explore the Mahabharata: a vast Itihasa exploring dharma, conflict, duty, and the complexity of human decision-making.",
+      "@type": "Artikel",
+      "name": "Mahabharata – Itihasa van Dharma, ethiek en menselijke keuze",
+      "description": "Verken de Mahabharata: een enorme Itihasa die dharma, conflict, plicht en de complexiteit van menselijke besluitvorming onderzoekt.",
       "url": "https://sanatanadharmam.in/itihasa/mahabharata",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "Website",
+        "name": "Sanatanadharam",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "The Mahabharata is a vast Itihasa traditionally attributed to Maharshi Vyasa. It is both an epic narrative and an encyclopedic source of ethical debate, spiritual teaching, and social reflection. Through the conflict between the Pandavas and Kauravas, it examines duty, ambition, loyalty, and the consequences of choices across generations.\n\nIt is also the broader context in which the Bhagavad Gita appears, connecting spiritual instruction to the hardest questions of real life.",
+    "introduction": "De Mahabharata is een enorme Itihasa die traditioneel wordt toegeschreven aan Maharshi Vyasa. Het is zowel een episch verhaal als een encyclopedische bron van ethisch debat, spiritueel onderwijs en sociale reflectie. Via het conflict tussen de Pandava's en Kaurava's onderzoekt het plicht, ambitie, loyaliteit en de gevolgen van keuzes tussen generaties.\n\nHet is ook de bredere context waarin de Bhagavad Gita verschijnt, waarbij spiritueel onderwijs wordt verbonden met de moeilijkste vragen van het echte leven.",
     "scripture_text": [
       {
-        "section": "Structure (Parvas)",
-        "content": "The Mahabharata is commonly divided into eighteen parvas (books). The parvas contain multiple interwoven stories, dialogues, and teachings rather than a single linear plot."
+        "section": "Structuur (Parvas)",
+        "content": "De Mahabharata wordt gewoonlijk verdeeld in achttien parva's (boeken). De parva's bevatten meerdere met elkaar verweven verhalen, dialogen en leringen in plaats van één enkel lineair plot."
       },
       {
-        "section": "Ethical inquiry",
-        "content": "A defining feature of the Mahabharata is its willingness to present moral ambiguity. Characters face dilemmas where every option has a cost, and the text often frames dharma as something to be discerned through reflection, counsel, and self-honesty."
+        "section": "Ethisch onderzoek",
+        "content": "Een bepalend kenmerk van de Mahabharata is de bereidheid om morele dubbelzinnigheid te presenteren. Personages worden geconfronteerd met dilemma's waarbij elke optie kosten met zich meebrengt, en de tekst omschrijft dharma vaak als iets dat kan worden onderscheiden door middel van reflectie, raad en eerlijkheid tegen zichzelf."
       }
     ],
-    "philosophical_explanation": "The Mahabharata’s philosophy is inseparable from its realism. It teaches that dharma is not always obvious and that intention, context, and consequence matter. It also highlights how inner states—anger, envy, fear, pride—shape outer outcomes.\n\nAs spiritual literature, the Mahabharata pushes the reader toward maturity: a steadier mind, a wider compassion, and the capacity to act responsibly even in imperfect conditions."
+    "philosophical_explanation": "De filosofie van de Mahabharata is onlosmakelijk verbonden met het realisme ervan. Het leert dat dharma niet altijd duidelijk is en dat intentie, context en gevolg er toe doen. Het benadrukt ook hoe innerlijke toestanden – woede, afgunst, angst, trots – de uiterlijke resultaten bepalen.\n\nAls spirituele literatuur duwt de Mahabharata de lezer naar volwassenheid: een stabielere geest, een breder mededogen en het vermogen om verantwoordelijk te handelen, zelfs in onvolmaakte omstandigheden."
   }
 }

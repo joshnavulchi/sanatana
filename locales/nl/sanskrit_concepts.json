@@ -1,29 +1,29 @@
 {
   "sanskrit_concepts": {
-    "title": "Sanskrit Concepts — Key Terms of Sanātana Dharma",
-    "description": "Sanskrit concepts form the philosophical vocabulary of Sanātana Dharma — terms like Dharma, Karma, Atman, Brahman and Maya that explain the nature of reality, self and cosmic order.",
+    "title": "Sanskrietconcepten - Sleutelbegrippen van Sanātana Dharma",
+    "description": "Sanskrietconcepten vormen het filosofische vocabulaire van Sanātana Dharma – termen als Dharma, Karma, Atman, Brahman en Maya die de aard van de werkelijkheid, het zelf en de kosmische orde verklaren.",
     "meta": {
-      "title": "Sanskrit Concepts – Key Terms of Sanātana Dharma",
+      "title": "Sanskrietconcepten – Sleutelbegrippen van Sanātana Dharma",
       "canonical": "https://sanatanadharmam.in/sanskrit-concepts",
-      "description": "Explore important Sanskrit philosophical concepts such as Dharma, Karma, Atman, Brahman and Maya that form the foundation of Vedic and Vedantic thought.",
+      "description": "Ontdek belangrijke filosofische concepten uit het Sanskriet, zoals Dharma, Karma, Atman, Brahman en Maya, die de basis vormen van het Vedische en Vedantische denken.",
       "keywords": [
-        "sanskrit concepts",
-        "dharma meaning",
-        "karma philosophy",
-        "atman brahman concept",
+        "Sanskriet concepten",
+        "dharma betekenis",
+        "karma-filosofie",
+        "atman brahman-concept",
         "maya vedanta",
-        "vedic philosophy terms",
-        "sanatana dharma concepts"
+        "termen uit de Vedische filosofie",
+        "sanatana dharma-concepten"
       ],
-      "robots": "index, follow",
+      "robots": "indexeren, volgen",
       "url": "https://sanatanadharmam.in/sanskrit-concepts"
     },
     "openGraph": {
-      "title": "Sanskrit Concepts – Philosophy of Sanātana Dharma",
-      "description": "Learn the key Sanskrit philosophical concepts such as Dharma, Karma, Atman and Brahman that explain the nature of reality and consciousness.",
+      "title": "Sanskrietconcepten – Filosofie van Sanātana Dharma",
+      "description": "Leer de belangrijkste filosofische concepten uit het Sanskriet, zoals Dharma, Karma, Atman en Brahman, die de aard van de werkelijkheid en het bewustzijn verklaren.",
       "url": "https://sanatanadharmam.in/sanskrit-concepts",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "Sanatanadharam",
+      "type": "artikel",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/sanskrit-concepts.png",
@@ -37,11 +37,11 @@
       "Dharma",
       "Karma",
       "Atman",
-      "Brahman",
+      "brahmaan",
       "Maya",
       "Moksha",
       "Samsara",
-      "Purushartha",
+      "Purusharta",
       "Yoga",
       "Jnana"
     ],
@@ -49,62 +49,62 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "CollectionPage",
-          "name": "Sanskrit Concepts",
-          "description": "Collection of key Sanskrit philosophical concepts explaining the teachings of Sanātana Dharma.",
+          "@type": "Collectiepagina",
+          "name": "Sanskrietconcepten",
+          "description": "Verzameling van belangrijke filosofische concepten uit het Sanskriet die de leringen van Sanātana Dharma verklaren.",
           "url": "https://sanatanadharmam.in/sanskrit-concepts"
         },
         {
-          "@type": "ItemList",
-          "name": "Philosophical Concepts of Sanātana Dharma",
+          "@type": "ItemLijst",
+          "name": "Filosofische concepten van Sanātana Dharma",
           "itemListElement": [
             {
-              "@type": "ListItem",
+              "@type": "LijstItem",
               "position": 1,
               "name": "Dharma"
             },
             {
-              "@type": "ListItem",
+              "@type": "LijstItem",
               "position": 2,
               "name": "Karma"
             },
             {
-              "@type": "ListItem",
+              "@type": "LijstItem",
               "position": 3,
               "name": "Atman"
             },
             {
-              "@type": "ListItem",
+              "@type": "LijstItem",
               "position": 4,
-              "name": "Brahman"
+              "name": "brahmaan"
             },
             {
-              "@type": "ListItem",
+              "@type": "LijstItem",
               "position": 5,
               "name": "Maya"
             },
             {
-              "@type": "ListItem",
+              "@type": "LijstItem",
               "position": 6,
               "name": "Moksha"
             },
             {
-              "@type": "ListItem",
+              "@type": "LijstItem",
               "position": 7,
               "name": "Samsara"
             },
             {
-              "@type": "ListItem",
+              "@type": "LijstItem",
               "position": 8,
-              "name": "Purushartha"
+              "name": "Purusharta"
             },
             {
-              "@type": "ListItem",
+              "@type": "LijstItem",
               "position": 9,
               "name": "Yoga"
             },
             {
-              "@type": "ListItem",
+              "@type": "LijstItem",
               "position": 10,
               "name": "Jnana"
             }

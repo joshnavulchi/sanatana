@@ -1,29 +1,29 @@
 {
   "upanishads_mundaka-upanishad": {
-    "title": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "मुण्डक उपनिषद - सनातन धर्म मा उपनिषद शिक्षा",
+    "description": "मुण्डक उपनिषदको सिंहावलोकन: मूल विषयवस्तुहरू, मुख्य विचारहरू, र किन यो उपनिषद आत्मा, ब्रह्म र मुक्तिलाई बुझ्नको लागि महत्त्वपूर्ण छ।",
     "meta": {
-      "title": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "मुण्डक उपनिषद - सनातन धर्म मा उपनिषद शिक्षा",
       "canonical": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
-      "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "मुण्डक उपनिषदको सिंहावलोकन: मूल विषयवस्तुहरू, मुख्य विचारहरू, र किन यो उपनिषद आत्मा, ब्रह्म र मुक्तिलाई बुझ्नको लागि महत्त्वपूर्ण छ।",
       "keywords": [
-        "Mundaka Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "मुण्डक उपनिषद",
+        "उपनिषद",
+        "वेदान्त",
+        "आत्मा",
+        "ब्राह्मण",
+        "सनातन धर्म"
       ],
-      "robots": "index, follow",
+      "robots": "अनुक्रमणिका, पालना गर्नुहोस्",
       "url": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_mundaka_upanishad.png"
     },
     "openGraph": {
-      "title": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "मुण्डक उपनिषद - सनातन धर्म मा उपनिषद शिक्षा",
+      "description": "मुण्डक उपनिषदको सिंहावलोकन: मूल विषयवस्तुहरू, मुख्य विचारहरू, र किन यो उपनिषद आत्मा, ब्रह्म र मुक्तिलाई बुझ्नको लागि महत्त्वपूर्ण छ।",
       "url": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "सनातन धर्मम",
+      "type": "लेख",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_mundaka_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "लेख",
+      "name": "मुण्डक उपनिषद - सनातन धर्म मा उपनिषद शिक्षा",
+      "description": "मुण्डक उपनिषदको सिंहावलोकन: मूल विषयवस्तुहरू, मुख्य विचारहरू, र किन यो उपनिषद आत्मा, ब्रह्म र मुक्तिलाई बुझ्नको लागि महत्त्वपूर्ण छ।",
       "url": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "वेबसाइट",
+        "name": "सनातन धर्मम",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Mundaka Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nA well-known teaching of the Mundaka Upanishad is the distinction between two kinds of knowledge: lower knowledge (skills, rituals, learning) and higher knowledge (direct realization of the imperishable reality).",
+    "introduction": "मुण्डक उपनिषद प्रमुख उपनिषदहरू मध्ये एक हो - मानव जीवनको गहिरो प्रश्नहरूको अन्वेषण गर्ने ग्रन्थ: म को हुँ? वास्तविक के हो? आत्म (आत्मा) र परम यथार्थ (ब्रह्म) के हो?\n\nउपनिषदिक शिक्षालाई प्रायः संवाद र सोधपुछको रूपमा प्रस्तुत गरिन्छ। एकल \"विश्वास\" प्रस्ताव गर्नुको सट्टा, यसले ध्यान र विवेकलाई प्रशिक्षित गर्दछ ताकि एक खोजकर्ता बाह्य पहिचानबाट भित्री सत्यमा जान सक्छ।\n\nमुण्डक उपनिषदको एक प्रसिद्ध शिक्षा भनेको दुई प्रकारका ज्ञानहरू बीचको भिन्नता हो: निम्न ज्ञान (सीप, अनुष्ठान, शिक्षा) र उच्च ज्ञान (अविनाशी वास्तविकताको प्रत्यक्ष अनुभूति)।",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Higher vs lower knowledge, renunciation and sincerity, the nature of Brahman, and the need for inner purification before subtle inquiry."
+        "section": "केन्द्रीय विषयवस्तुहरू",
+        "content": "उच्च बनाम तल्लो ज्ञान, त्याग र इमानदारी, ब्रह्मको प्रकृति, र सूक्ष्म जिज्ञासा अघि भित्री शुद्धिको आवश्यकता।"
       },
       {
-        "section": "Practice reflection",
-        "content": "The text encourages using learning as a support—but not mistaking it for realization. Inner integrity matters as much as study."
+        "section": "प्रतिबिम्ब अभ्यास गर्नुहोस्",
+        "content": "पाठले सिकाइलाई समर्थनको रूपमा प्रयोग गर्न प्रोत्साहन दिन्छ - तर यसलाई प्राप्तिको लागि गलत नगरी। आन्तरिक अखण्डता अध्ययन जत्तिकै महत्त्वपूर्ण छ।"
       }
     ],
-    "philosophical_explanation": "Mundaka is a corrective for spiritual materialism: achievements and information are valuable, but liberation depends on seeing what does not change. It invites the seeker to turn from accumulation to clarity."
+    "philosophical_explanation": "Mundaka आध्यात्मिक भौतिकवाद को लागी एक सुधारात्मक छ: उपलब्धिहरु र जानकारी मूल्यवान छन्, तर मुक्ति परिवर्तन गर्दैन हेर्न मा निर्भर गर्दछ। यसले खोजकर्तालाई संचयबाट स्पष्टतामा फर्कन निम्तो दिन्छ।"
   }
 }

@@ -1,29 +1,29 @@
 {
   "upanishads_aitareya-upanishad": {
-    "title": "Aitareya Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Aitareya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "ایتریہ اپنشد - سناتن دھرم میں اپنشد کی تعلیمات",
+    "description": "ایتریہ اپنشد کا جائزہ: بنیادی موضوعات، کلیدی نظریات، اور یہ اپنشد اتمان، برہمن اور آزادی کو سمجھنے کے لیے کیوں اہمیت رکھتا ہے۔",
     "meta": {
-      "title": "Aitareya Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "ایتریہ اپنشد - سناتن دھرم میں اپنشد کی تعلیمات",
       "canonical": "https://sanatanadharmam.in/upanishads/aitareya-upanishad",
-      "description": "Overview of Aitareya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "ایتریہ اپنشد کا جائزہ: بنیادی موضوعات، کلیدی نظریات، اور یہ اپنشد اتمان، برہمن اور آزادی کو سمجھنے کے لیے کیوں اہمیت رکھتا ہے۔",
       "keywords": [
-        "Aitareya Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "ایتریہ اپنشد",
+        "اپنشد",
+        "ویدانت",
+        "اتمان",
+        "برہمن",
+        "سناتن دھرم"
       ],
-      "robots": "index, follow",
+      "robots": "انڈیکس، پیروی کریں",
       "url": "https://sanatanadharmam.in/upanishads/aitareya-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_aitareya_upanishad.png"
     },
     "openGraph": {
-      "title": "Aitareya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Aitareya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "ایتریہ اپنشد - سناتن دھرم میں اپنشد کی تعلیمات",
+      "description": "ایتریہ اپنشد کا جائزہ: بنیادی موضوعات، کلیدی نظریات، اور یہ اپنشد اتمان، برہمن اور آزادی کو سمجھنے کے لیے کیوں اہمیت رکھتا ہے۔",
       "url": "https://sanatanadharmam.in/upanishads/aitareya-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "سناتندھرم",
+      "type": "مضمون",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_aitareya_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Aitareya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Aitareya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "مضمون",
+      "name": "ایتریہ اپنشد - سناتن دھرم میں اپنشد کی تعلیمات",
+      "description": "ایتریہ اپنشد کا جائزہ: بنیادی موضوعات، کلیدی نظریات، اور یہ اپنشد اتمان، برہمن اور آزادی کو سمجھنے کے لیے کیوں اہمیت رکھتا ہے۔",
       "url": "https://sanatanadharmam.in/upanishads/aitareya-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "ویب سائٹ",
+        "name": "سناتندھرم",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Aitareya Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Aitareya Upanishad explores creation and the entry of consciousness into embodied life. It is often read as a study of what makes a living being truly “alive”: not merely breath or motion, but awareness.",
+    "introduction": "ایتریہ اپنشد ان بنیادی اپنشدوں میں سے ایک ہے جو انسانی زندگی کے گہرے سوالات کو دریافت کرتی ہے: میں کون ہوں؟ اصلی کیا ہے؟ نفس (آتمان) اور حتمی حقیقت (برہمن) کیا ہے؟\n\nاپنشد کی تعلیم کو اکثر مکالمے اور استفسار کے طور پر پیش کیا جاتا ہے۔ ایک واحد \"عقیدہ\" پیش کرنے کے بجائے، یہ توجہ اور فہم کی تربیت کرتا ہے تاکہ ایک متلاشی بیرونی شناخت سے باطنی سچائی کی طرف بڑھ سکے۔\n\nایتاریا اپنشد تخلیق اور مجسم زندگی میں شعور کے داخلے کی کھوج کرتا ہے۔ یہ اکثر اس بات کے مطالعہ کے طور پر پڑھا جاتا ہے کہ ایک جاندار کو حقیقی معنوں میں \"زندہ\" کیا بناتا ہے: محض سانس یا حرکت نہیں، بلکہ آگاہی۔",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Consciousness as central, the meaning of personhood, and the relationship between the inner Self and the faculties of life."
+        "section": "مرکزی موضوعات",
+        "content": "مرکزی کے طور پر شعور، شخصیت کے معنی، اور باطنی نفس اور زندگی کی فیکلٹیز کے درمیان تعلق۔"
       },
       {
-        "section": "Practice reflection",
-        "content": "The teaching invites you to notice what remains present through every changing experience: the witnessing awareness."
+        "section": "عکاسی کی مشق کریں۔",
+        "content": "تعلیم آپ کو یہ دیکھنے کی دعوت دیتی ہے کہ ہر بدلتے ہوئے تجربے میں کیا موجود رہتا ہے: گواہی کی آگاہی۔"
       }
     ],
-    "philosophical_explanation": "Aitareya shifts focus from outer events to inner presence. When consciousness is recognized as primary, spiritual life becomes less about control and more about clarity—seeing what you already are."
+    "philosophical_explanation": "ایتاریا بیرونی واقعات سے اندرونی موجودگی کی طرف توجہ مرکوز کرتا ہے۔ جب شعور کو بنیادی کے طور پر تسلیم کیا جاتا ہے، روحانی زندگی کنٹرول کے بارے میں کم اور وضاحت کے بارے میں زیادہ ہو جاتی ہے — یہ دیکھنا کہ آپ پہلے سے کیا ہیں۔"
   }
 }

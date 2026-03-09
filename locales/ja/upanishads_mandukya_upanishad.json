@@ -1,29 +1,29 @@
 {
   "upanishads_mandukya-upanishad": {
-    "title": "Mandukya Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Mandukya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "マンドゥキヤ ウパニシャッド – サナータナ ダルマにおけるウパニシャッドの教え",
+    "description": "マンドゥキヤ ウパニシャッドの概要: 核となるテーマ、重要なアイデア、そしてなぜこのウパニシャッドがアートマン、ブラフマン、解放を理解する上で重要なのか。",
     "meta": {
-      "title": "Mandukya Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "マンドゥキヤ ウパニシャッド – サナータナ ダルマにおけるウパニシャッドの教え",
       "canonical": "https://sanatanadharmam.in/upanishads/mandukya-upanishad",
-      "description": "Overview of Mandukya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "マンドゥキヤ ウパニシャッドの概要: 核となるテーマ、重要なアイデア、そしてなぜこのウパニシャッドがアートマン、ブラフマン、解放を理解する上で重要なのか。",
       "keywords": [
-        "Mandukya Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "マンドゥキヤ ウパニシャッド",
+        "ウパニシャッド",
+        "ヴェダンタ",
+        "アートマン",
+        "ブラフマン",
+        "サタナダルマ"
       ],
-      "robots": "index, follow",
+      "robots": "インデックス、フォロー",
       "url": "https://sanatanadharmam.in/upanishads/mandukya-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_mandukya_upanishad.png"
     },
     "openGraph": {
-      "title": "Mandukya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Mandukya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "マンドゥキヤ ウパニシャッド – サナータナ ダルマにおけるウパニシャッドの教え",
+      "description": "マンドゥキヤ ウパニシャッドの概要: 核となるテーマ、重要なアイデア、そしてなぜこのウパニシャッドがアートマン、ブラフマン、解放を理解する上で重要なのか。",
       "url": "https://sanatanadharmam.in/upanishads/mandukya-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "サナタナダルマム",
+      "type": "記事",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_mandukya_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Mandukya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Mandukya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "記事",
+      "name": "マンドゥキヤ ウパニシャッド – サナータナ ダルマにおけるウパニシャッドの教え",
+      "description": "マンドゥキヤ ウパニシャッドの概要: 核となるテーマ、重要なアイデア、そしてなぜこのウパニシャッドがアートマン、ブラフマン、解放を理解する上で重要なのか。",
       "url": "https://sanatanadharmam.in/upanishads/mandukya-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "ウェブサイト",
+        "name": "サナタナダルマム",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Mandukya Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Mandukya Upanishad is concise yet profound. It analyzes experience through the states of waking, dreaming, and deep sleep, and points to a “fourth” (turiya) that underlies them all. It also uses AUM (Om) as a symbolic map of consciousness.",
+    "introduction": "マンドゥキヤ ウパニシャッドは、主要なウパニシャッドの 1 つであり、人間の人生の最も深い疑問「私は誰ですか?」を探求する文書です。本物とは何ですか？真我（アートマン）と究極の現実（ブラフマン）とは何ですか？\n\nウパニシャッドの教えは、対話と探求として提示されることがよくあります。単一の「信念」を提供するのではなく、探求者が外側のアイデンティティから内側の真実へと移行できるように注意と識別力を訓練します。\n\nマンドゥキヤ・ウパニシャッドは簡潔だが奥深い。それは、目覚めている状態、夢を見ている状態、そして深い眠りの状態を通して経験を分析し、それらすべての根底にある「第四」（トゥーリヤ）を指摘します。また、意識の象徴的な地図として AUM (Om) も使用されます。",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "States of consciousness, AUM as a contemplative symbol, and the recognition of a stable awareness beyond changing mental content."
+        "section": "中心的なテーマ",
+        "content": "意識状態、瞑想の象徴としてのAUM、そして精神内容の変化を超えた安定した意識の認識。"
       },
       {
-        "section": "Practice reflection",
-        "content": "Meditative inquiry: notice that experiences change while the fact of awareness remains. This observation becomes a doorway into non-dual understanding."
+        "section": "反省の練習をする",
+        "content": "瞑想的な探求: 意識という事実は残っているものの、経験は変化することに注意してください。この観察は、非二元的な理解への入り口となります。"
       }
     ],
-    "philosophical_explanation": "Mandukya’s method is phenomenological: it studies lived experience. By observing the three states and their transitions, the seeker gains confidence that the Self is not limited to any one mode of mind."
+    "philosophical_explanation": "マンドゥキヤの方法は現象学的であり、生きた経験を研究します。 3 つの状態とその遷移を観察することで、探求者は、真我は 1 つの心のモードに限定されないという自信を獲得します。"
   }
 }

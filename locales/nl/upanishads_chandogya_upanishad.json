@@ -1,29 +1,29 @@
 {
   "upanishads_chandogya-upanishad": {
-    "title": "Chandogya Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Chandogya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Chandogya Upanishad - Upanishad-leringen in Sanātana Dharma",
+    "description": "Overzicht van Chandogya Upanishad: kernthema's, sleutelideeën en waarom deze Upanishad belangrijk is voor het begrijpen van Atman, Brahman en bevrijding.",
     "meta": {
-      "title": "Chandogya Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Chandogya Upanishad - Upanishad-leringen in Sanātana Dharma",
       "canonical": "https://sanatanadharmam.in/upanishads/chandogya-upanishad",
-      "description": "Overview of Chandogya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "Overzicht van Chandogya Upanishad: kernthema's, sleutelideeën en waarom deze Upanishad belangrijk is voor het begrijpen van Atman, Brahman en bevrijding.",
       "keywords": [
         "Chandogya Upanishad",
         "Upanishads",
         "Vedanta",
         "Atman",
-        "Brahman",
+        "brahmaan",
         "Sanatana Dharma"
       ],
-      "robots": "index, follow",
+      "robots": "indexeren, volgen",
       "url": "https://sanatanadharmam.in/upanishads/chandogya-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_chandogya_upanishad.png"
     },
     "openGraph": {
-      "title": "Chandogya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Chandogya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Chandogya Upanishad - Upanishad-leringen in Sanātana Dharma",
+      "description": "Overzicht van Chandogya Upanishad: kernthema's, sleutelideeën en waarom deze Upanishad belangrijk is voor het begrijpen van Atman, Brahman en bevrijding.",
       "url": "https://sanatanadharmam.in/upanishads/chandogya-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "Sanatanadharam",
+      "type": "artikel",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_chandogya_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Chandogya Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Chandogya Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "Artikel",
+      "name": "Chandogya Upanishad - Upanishad-leringen in Sanātana Dharma",
+      "description": "Overzicht van Chandogya Upanishad: kernthema's, sleutelideeën en waarom deze Upanishad belangrijk is voor het begrijpen van Atman, Brahman en bevrijding.",
       "url": "https://sanatanadharmam.in/upanishads/chandogya-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "Website",
+        "name": "Sanatanadharam",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Chandogya Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Chandogya Upanishad is expansive and pedagogical, presenting many teachings through stories and analogies. It is especially known for its identity-oriented instruction: the seeker is guided to recognize the deepest Self beyond surface identity.",
+    "introduction": "Chandogya Upanishad is een van de belangrijkste Upanishads – teksten die de diepste vragen van het menselijk leven onderzoeken: Wie ben ik? Wat is echt? Wat is het Zelf (Atman) en de ultieme realiteit (Brahman)?\n\nUpanishadische leer wordt vaak gepresenteerd als dialoog en onderzoek. In plaats van één enkele ‘overtuiging’ aan te bieden, traint het aandacht en onderscheidingsvermogen, zodat een zoeker van uiterlijke identiteit naar innerlijke waarheid kan gaan.\n\nDe Chandogya Upanishad is uitgebreid en pedagogisch en presenteert veel leringen door middel van verhalen en analogieën. Het staat vooral bekend om zijn identiteitsgerichte instructie: de zoeker wordt begeleid om het diepste Zelf te herkennen dat verder gaat dan de oppervlakkige identiteit.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Inner identity, disciplined living, meditation on symbols and meaning, and the move from multiplicity toward unity."
+        "section": "Centrale thema's",
+        "content": "Innerlijke identiteit, gedisciplineerd leven, meditatie over symbolen en betekenis, en de beweging van veelheid naar eenheid."
       },
       {
-        "section": "Learning style",
-        "content": "The text uses repeated instruction and everyday examples to turn abstract truth into direct recognition."
+        "section": "Leerstijl",
+        "content": "De tekst maakt gebruik van herhaalde instructies en alledaagse voorbeelden om abstracte waarheid om te zetten in directe herkenning."
       }
     ],
-    "philosophical_explanation": "Chandogya is a classic bridge from ritual culture to contemplative insight. It teaches that liberation is not a new possession but a shift in recognition—seeing the Self as already whole."
+    "philosophical_explanation": "Chandogya is een klassieke brug van rituele cultuur naar contemplatief inzicht. Het leert dat bevrijding geen nieuw bezit is, maar een verschuiving in herkenning – het zien van het Zelf als al heel."
   }
 }

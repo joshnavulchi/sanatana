@@ -1,28 +1,22 @@
 {
   "ramayana_ayodhya-kanda": {
-    "title": "Ayodhya Kanda – Ramayana Section Summary",
-    "description": "Explore Ayodhya Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
+    "title": "అయోధ్య కాండ – రామాయణ విభాగం సారాంశం",
+    "description": "రామాయణంలోని అయోధ్య కాండను అన్వేషించండి: ముఖ్య సంఘటనలు, ధార్మిక పాఠాలు మరియు కథనం ద్వారా అందించబడిన తాత్విక ఇతివృత్తాలు.",
     "meta": {
-      "title": "Ayodhya Kanda – Ramayana Section Summary",
+      "title": "అయోధ్య కాండ – రామాయణ విభాగం సారాంశం",
       "canonical": "https://sanatanadharmam.in/itihasa/ramayana/ayodhya-kanda",
-      "description": "Explore Ayodhya Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
-      "keywords": [
-        "Ayodhya Kanda",
-        "Ramayana",
-        "Itihasa",
-        "dharma",
-        "Sri Rama"
-      ],
-      "robots": "index, follow",
+      "description": "రామాయణంలోని అయోధ్య కాండను అన్వేషించండి: ముఖ్య సంఘటనలు, ధార్మిక పాఠాలు మరియు కథనం ద్వారా అందించబడిన తాత్విక ఇతివృత్తాలు.",
+      "keywords": ["అయోధ్య కాండ", "రామాయణం", "ఇతిహాస", "ధర్మము", "శ్రీ రాముడు"],
+      "robots": "సూచిక, అనుసరించండి",
       "url": "https://sanatanadharmam.in/itihasa/ramayana/ayodhya-kanda",
       "ogImage": "https://sanatanadharmam.in/og/ramayana_ayodhya_kanda.png"
     },
     "openGraph": {
-      "title": "Ayodhya Kanda – Ramayana Section Summary",
-      "description": "Explore Ayodhya Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
+      "title": "అయోధ్య కాండ – రామాయణ విభాగం సారాంశం",
+      "description": "రామాయణంలోని అయోధ్య కాండను అన్వేషించండి: ముఖ్య సంఘటనలు, ధార్మిక పాఠాలు మరియు కథనం ద్వారా అందించబడిన తాత్విక ఇతివృత్తాలు.",
       "url": "https://sanatanadharmam.in/itihasa/ramayana/ayodhya-kanda",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "సనాతనధర్మం",
+      "type": "వ్యాసం",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/ramayana_ayodhya_kanda.png",
@@ -34,31 +28,31 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Ayodhya Kanda – Ramayana Section Summary",
-      "description": "Explore Ayodhya Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
+      "@type": "వ్యాసం",
+      "name": "అయోధ్య కాండ – రామాయణ విభాగం సారాంశం",
+      "description": "రామాయణంలోని అయోధ్య కాండను అన్వేషించండి: ముఖ్య సంఘటనలు, ధార్మిక పాఠాలు మరియు కథనం ద్వారా అందించబడిన తాత్విక ఇతివృత్తాలు.",
       "url": "https://sanatanadharmam.in/itihasa/ramayana/ayodhya-kanda",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "వెబ్‌సైట్",
+        "name": "సనాతనధర్మం",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Ayodhya Kanda is one of the traditional kandas (books) of the Ramayana. Each kanda advances the narrative while emphasizing specific virtues—courage, restraint, loyalty, compassion, and the responsibilities of leadership and family life.\n\nThis page provides a safe overview and reflection prompts without relying on long quotations.",
+    "introduction": "అయోధ్య కాండ అనేది రామాయణంలోని సాంప్రదాయ కాండలలో (పుస్తకాలు) ఒకటి. ప్రతి కంద నిర్దిష్ట ధర్మాలను-ధైర్యం, నిగ్రహం, విధేయత, కరుణ మరియు నాయకత్వం మరియు కుటుంబ జీవితం యొక్క బాధ్యతలను నొక్కి చెబుతూ కథనాన్ని ముందుకు తీసుకువెళుతుంది.\n\nఈ పేజీ సుదీర్ఘమైన కొటేషన్‌లపై ఆధారపడకుండా సురక్షితమైన అవలోకనాన్ని మరియు ప్రతిబింబ ప్రాంప్ట్‌లను అందిస్తుంది.",
     "scripture_text": [
       {
-        "section": "Narrative arc",
-        "content": "A brief summary of the key events in this kanda and how they set up the next stage of the story."
+        "section": "కథన ఆర్క్",
+        "content": "ఈ కాండలోని ముఖ్య సంఘటనల సంక్షిప్త సారాంశం మరియు అవి కథ యొక్క తదుపరి దశను ఎలా ఏర్పాటు చేశాయో."
       },
       {
-        "section": "Dharmic lessons",
-        "content": "Themes to notice: promises and consequences, right speech, self-control, and how characters respond under pressure."
+        "section": "ధార్మిక పాఠాలు",
+        "content": "గమనించాల్సిన థీమ్‌లు: వాగ్దానాలు మరియు పరిణామాలు, సరైన ప్రసంగం, స్వీయ నియంత్రణ మరియు పాత్రలు ఒత్తిడిలో ఎలా స్పందిస్తాయి."
       },
       {
-        "section": "Practice reflection",
-        "content": "Ask: What is the right action here? What inner quality is being tested? How does devotion or humility change the outcome?"
+        "section": "ప్రతిబింబాన్ని ప్రాక్టీస్ చేయండి",
+        "content": "అడగండి: ఇక్కడ సరైన చర్య ఏమిటి? ఏ అంతర్గత నాణ్యత పరీక్షించబడుతోంది? భక్తి లేదా వినయం ఫలితాన్ని ఎలా మారుస్తుంది?"
       }
     ],
-    "philosophical_explanation": "The Ramayana is often read as dharma-in-action. Kandawise reflection helps translate ideals into practical guidance: how to keep integrity when life is difficult, how to honor duty without hardening the heart, and how to act with steadiness rather than impulse."
+    "philosophical_explanation": "రామాయణం తరచుగా ధర్మం-క్రియగా చదవబడుతుంది. కండవైజ్ ప్రతిబింబం ఆదర్శాలను ఆచరణాత్మక మార్గదర్శకత్వంలోకి అనువదించడంలో సహాయపడుతుంది: జీవితం కష్టంగా ఉన్నప్పుడు సమగ్రతను ఎలా ఉంచుకోవాలి, హృదయాన్ని కఠినతరం చేయకుండా విధిని ఎలా గౌరవించాలి మరియు ప్రేరణతో కాకుండా స్థిరత్వంతో ఎలా వ్యవహరించాలి."
   }
 }

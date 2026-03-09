@@ -1,11 +1,11 @@
 {
   "upanishads_brihadaranyaka-upanishad": {
-    "title": "Brihadaranyaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Brihadaranyaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Brihadaranyaka Upanishad – Ensinamentos do Upanishad no Sanātana Dharma",
+    "description": "Visão geral do Brihadaranyaka Upanishad: temas centrais, ideias-chave e por que este Upanishad é importante para a compreensão de Atman, Brahman e a libertação.",
     "meta": {
-      "title": "Brihadaranyaka Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Brihadaranyaka Upanishad – Ensinamentos do Upanishad no Sanātana Dharma",
       "canonical": "https://sanatanadharmam.in/upanishads/brihadaranyaka-upanishad",
-      "description": "Overview of Brihadaranyaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "Visão geral do Brihadaranyaka Upanishad: temas centrais, ideias-chave e por que este Upanishad é importante para a compreensão de Atman, Brahman e a libertação.",
       "keywords": [
         "Brihadaranyaka Upanishad",
         "Upanishads",
@@ -14,16 +14,16 @@
         "Brahman",
         "Sanatana Dharma"
       ],
-      "robots": "index, follow",
+      "robots": "índice, siga",
       "url": "https://sanatanadharmam.in/upanishads/brihadaranyaka-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_brihadaranyaka_upanishad.png"
     },
     "openGraph": {
-      "title": "Brihadaranyaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Brihadaranyaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Brihadaranyaka Upanishad – Ensinamentos do Upanishad no Sanātana Dharma",
+      "description": "Visão geral do Brihadaranyaka Upanishad: temas centrais, ideias-chave e por que este Upanishad é importante para a compreensão de Atman, Brahman e a libertação.",
       "url": "https://sanatanadharmam.in/upanishads/brihadaranyaka-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "Sanatanadharm",
+      "type": "artigo",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_brihadaranyaka_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Brihadaranyaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Brihadaranyaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "Artigo",
+      "name": "Brihadaranyaka Upanishad – Ensinamentos do Upanishad no Sanātana Dharma",
+      "description": "Visão geral do Brihadaranyaka Upanishad: temas centrais, ideias-chave e por que este Upanishad é importante para a compreensão de Atman, Brahman e a libertação.",
       "url": "https://sanatanadharmam.in/upanishads/brihadaranyaka-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "Site",
+        "name": "Sanatanadharm",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Brihadaranyaka Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nThe Brihadaranyaka Upanishad is one of the most influential and philosophically rich Upanishads. It contains deep dialogues on the Self, renunciation, and the limits of description—often pushing the seeker beyond simplistic answers.",
+    "introduction": "Brihadaranyaka Upanishad é um dos principais Upanishads – textos que exploram as questões mais profundas da vida humana: Quem sou eu? O que é real? O que é o Ser (Atman) e a realidade última (Brahman)?\n\nO ensino Upanishad é frequentemente apresentado como diálogo e investigação. Em vez de oferecer uma única “crença”, treina a atenção e o discernimento para que quem busca possa passar da identidade exterior para a verdade interior.\n\nO Brihadaranyaka Upanishad é um dos Upanishads mais influentes e filosoficamente ricos. Contém diálogos profundos sobre o Ser, a renúncia e os limites da descrição – muitas vezes levando o buscador além de respostas simplistas.",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Self-inquiry, renunciation, discrimination between the real and the changing, and the use of negation to remove false identification."
+        "section": "Temas centrais",
+        "content": "Auto-investigação, renúncia, discriminação entre o real e o mutável e o uso da negação para remover a falsa identificação."
       },
       {
-        "section": "Practice reflection",
-        "content": "The text encourages a subtle honesty: release identities that depend on changing conditions, and rest in the awareness that does not depend on them."
+        "section": "Pratique a reflexão",
+        "content": "O texto encoraja uma honestidade subtil: libertar identidades que dependem de condições mutáveis e descansar na consciência que não depende delas."
       }
     ],
-    "philosophical_explanation": "Brihadaranyaka strengthens the non-dual insight by systematically dismantling mistaken self-definitions. The result is not nihilism, but freedom: when the Self is not confined to roles or possessions, fear reduces and compassion becomes natural."
+    "philosophical_explanation": "Brihadaranyaka fortalece o insight não-dual ao desmantelar sistematicamente autodefinições equivocadas. O resultado não é o niilismo, mas a liberdade: quando o Eu não está confinado a papéis ou posses, o medo reduz e a compaixão torna-se natural."
   }
 }

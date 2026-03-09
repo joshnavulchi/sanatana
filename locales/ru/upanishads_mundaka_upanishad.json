@@ -1,29 +1,29 @@
 {
   "upanishads_mundaka-upanishad": {
-    "title": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-    "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "title": "Мундака Упанишад - Учения Упанишад в Санатана Дхарме",
+    "description": "Обзор Мундака-упанишады: основные темы, ключевые идеи и почему эта Упанишада важна для понимания Атмана, Брахмана и освобождения.",
     "meta": {
-      "title": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "title": "Мундака Упанишад - Учения Упанишад в Санатана Дхарме",
       "canonical": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
-      "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "description": "Обзор Мундака-упанишады: основные темы, ключевые идеи и почему эта Упанишада важна для понимания Атмана, Брахмана и освобождения.",
       "keywords": [
-        "Mundaka Upanishad",
-        "Upanishads",
-        "Vedanta",
-        "Atman",
-        "Brahman",
-        "Sanatana Dharma"
+        "Мундака Упанишада",
+        "Упанишады",
+        "Веданта",
+        "Атман",
+        "Брахман",
+        "Санатана Дхарма"
       ],
-      "robots": "index, follow",
+      "robots": "индекс, следовать",
       "url": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
       "ogImage": "https://sanatanadharmam.in/og/upanishads_mundaka_upanishad.png"
     },
     "openGraph": {
-      "title": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "title": "Мундака Упанишад - Учения Упанишад в Санатана Дхарме",
+      "description": "Обзор Мундака-упанишады: основные темы, ключевые идеи и почему эта Упанишада важна для понимания Атмана, Брахмана и освобождения.",
       "url": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "Санатанадхармам",
+      "type": "статья",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/upanishads_mundaka_upanishad.png",
@@ -35,27 +35,27 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Mundaka Upanishad – Upanishad Teachings in Sanātana Dharma",
-      "description": "Overview of Mundaka Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "@type": "Статья",
+      "name": "Мундака Упанишад - Учения Упанишад в Санатана Дхарме",
+      "description": "Обзор Мундака-упанишады: основные темы, ключевые идеи и почему эта Упанишада важна для понимания Атмана, Брахмана и освобождения.",
       "url": "https://sanatanadharmam.in/upanishads/mundaka-upanishad",
       "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
+        "@type": "Веб-сайт",
+        "name": "Санатанадхармам",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Mundaka Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nA well-known teaching of the Mundaka Upanishad is the distinction between two kinds of knowledge: lower knowledge (skills, rituals, learning) and higher knowledge (direct realization of the imperishable reality).",
+    "introduction": "Мундака Упанишада — одна из главных Упанишад — текстов, исследующих самые глубокие вопросы человеческой жизни: Кто я? Что реально? Что такое Я (Атман) и высшая реальность (Брахман)?\n\nУчение Упанишад часто представлено как диалог и исследование. Вместо того, чтобы предлагать одно «верование», оно тренирует внимание и проницательность, чтобы ищущий мог перейти от внешней идентичности к внутренней истине.\n\nИзвестное учение Мундака-упанишады заключается в различении двух видов знания: низшего знания (навыков, ритуалов, обучения) и высшего знания (прямой реализации нетленной реальности).",
     "scripture_text": [
       {
-        "section": "Central themes",
-        "content": "Higher vs lower knowledge, renunciation and sincerity, the nature of Brahman, and the need for inner purification before subtle inquiry."
+        "section": "Центральные темы",
+        "content": "Высшее и низшее знание, отречение и искренность, природа Брахмана и необходимость внутреннего очищения перед тонким исследованием."
       },
       {
-        "section": "Practice reflection",
-        "content": "The text encourages using learning as a support—but not mistaking it for realization. Inner integrity matters as much as study."
+        "section": "Практикуйте размышление",
+        "content": "Текст призывает использовать обучение в качестве поддержки, но не путать его с реализацией. Внутренняя целостность имеет такое же значение, как и учеба."
       }
     ],
-    "philosophical_explanation": "Mundaka is a corrective for spiritual materialism: achievements and information are valuable, but liberation depends on seeing what does not change. It invites the seeker to turn from accumulation to clarity."
+    "philosophical_explanation": "Мундака — это корректировка духовного материализма: достижения и информация ценны, но освобождение зависит от того, чтобы увидеть то, что не меняется. Оно предлагает искателю перейти от накопления к ясности."
   }
 }

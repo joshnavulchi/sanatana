@@ -1,11 +1,11 @@
 {
   "ramayana_sundara-kanda": {
-    "title": "Sundara Kanda – Ramayana Section Summary",
-    "description": "Explore Sundara Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
+    "title": "Sundara Kanda - Resumen de la sección Ramayana",
+    "description": "Explore Sundara Kanda del Ramayana: eventos clave, lecciones dhármicas y temas filosóficos presentados a través de la narrativa.",
     "meta": {
-      "title": "Sundara Kanda – Ramayana Section Summary",
+      "title": "Sundara Kanda - Resumen de la sección Ramayana",
       "canonical": "https://sanatanadharmam.in/itihasa/ramayana/sundara-kanda",
-      "description": "Explore Sundara Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
+      "description": "Explore Sundara Kanda del Ramayana: eventos clave, lecciones dhármicas y temas filosóficos presentados a través de la narrativa.",
       "keywords": [
         "Sundara Kanda",
         "Ramayana",
@@ -13,16 +13,16 @@
         "dharma",
         "Sri Rama"
       ],
-      "robots": "index, follow",
+      "robots": "indexar, seguir",
       "url": "https://sanatanadharmam.in/itihasa/ramayana/sundara-kanda",
       "ogImage": "https://sanatanadharmam.in/og/ramayana_sundara_kanda.png"
     },
     "openGraph": {
-      "title": "Sundara Kanda – Ramayana Section Summary",
-      "description": "Explore Sundara Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
+      "title": "Sundara Kanda - Resumen de la sección Ramayana",
+      "description": "Explore Sundara Kanda del Ramayana: eventos clave, lecciones dhármicas y temas filosóficos presentados a través de la narrativa.",
       "url": "https://sanatanadharmam.in/itihasa/ramayana/sundara-kanda",
       "siteName": "Sanatanadharmam",
-      "type": "article",
+      "type": "artículo",
       "images": [
         {
           "url": "https://sanatanadharmam.in/og/ramayana_sundara_kanda.png",
@@ -34,31 +34,31 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Sundara Kanda – Ramayana Section Summary",
-      "description": "Explore Sundara Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
+      "@type": "Artículo",
+      "name": "Sundara Kanda - Resumen de la sección Ramayana",
+      "description": "Explore Sundara Kanda del Ramayana: eventos clave, lecciones dhármicas y temas filosóficos presentados a través de la narrativa.",
       "url": "https://sanatanadharmam.in/itihasa/ramayana/sundara-kanda",
       "isPartOf": {
-        "@type": "WebSite",
+        "@type": "Sitio web",
         "name": "Sanatanadharmam",
         "url": "https://sanatanadharmam.in"
       }
     },
-    "introduction": "Sundara Kanda is one of the traditional kandas (books) of the Ramayana. Each kanda advances the narrative while emphasizing specific virtues—courage, restraint, loyalty, compassion, and the responsibilities of leadership and family life.\n\nThis page provides a safe overview and reflection prompts without relying on long quotations.",
+    "introduction": "Sundara Kanda es uno de los kandas (libros) tradicionales del Ramayana. Cada kanda avanza la narrativa al tiempo que enfatiza virtudes específicas: coraje, moderación, lealtad, compasión y las responsabilidades del liderazgo y la vida familiar.\n\nEsta página proporciona una descripción general segura e invitaciones a reflexionar sin depender de citas largas.",
     "scripture_text": [
       {
-        "section": "Narrative arc",
-        "content": "A brief summary of the key events in this kanda and how they set up the next stage of the story."
+        "section": "Arco narrativo",
+        "content": "Un breve resumen de los eventos clave de este kanda y cómo configuraron la siguiente etapa de la historia."
       },
       {
-        "section": "Dharmic lessons",
-        "content": "Themes to notice: promises and consequences, right speech, self-control, and how characters respond under pressure."
+        "section": "lecciones dhármicas",
+        "content": "Temas a destacar: promesas y consecuencias, discurso correcto, autocontrol y cómo responden los personajes bajo presión."
       },
       {
-        "section": "Practice reflection",
-        "content": "Ask: What is the right action here? What inner quality is being tested? How does devotion or humility change the outcome?"
+        "section": "Practica la reflexión",
+        "content": "Pregunte: ¿Cuál es la acción correcta aquí? ¿Qué cualidad interior se está poniendo a prueba? ¿Cómo cambia el resultado la devoción o la humildad?"
       }
     ],
-    "philosophical_explanation": "The Ramayana is often read as dharma-in-action. Kandawise reflection helps translate ideals into practical guidance: how to keep integrity when life is difficult, how to honor duty without hardening the heart, and how to act with steadiness rather than impulse."
+    "philosophical_explanation": "El Ramayana a menudo se lee como dharma en acción. La reflexión Kandawise ayuda a traducir los ideales en orientación práctica: cómo mantener la integridad cuando la vida es difícil, cómo honrar el deber sin endurecer el corazón y cómo actuar con firmeza en lugar de impulso."
   }
 }

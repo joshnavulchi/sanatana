@@ -1,193 +1,184 @@
 {
   "vedas": {
     "meta": {
-      "title": "Vedas – Rigveda, Yajurveda, Samaveda, Atharvaveda",
-      "description": "Learn about the four Vedas of Sanatana Dharma – Rigveda, Yajurveda, Samaveda and Atharvaveda. Explore their history, structure and teachings.",
+      "title": "وید - رگ وید، یجروید، سام وید، اتھرو وید",
+      "description": "سناتن دھرم کے چار ویدوں کے بارے میں جانیں - رگ وید، یجروید، سام وید اور اتھرو وید۔ ان کی تاریخ، ساخت اور تعلیمات کو دریافت کریں۔",
       "keywords": [
-        "Vedas",
-        "Rigveda",
-        "Yajurveda",
-        "Samaveda",
-        "Atharvaveda",
-        "Vedic scriptures",
-        "Sanatana Dharma",
-        "Hindu sacred texts"
+        "وید",
+        "رگ وید",
+        "یجروید",
+        "ساموید",
+        "اتھرو وید",
+        "ویدک صحیفے",
+        "سناتن دھرم",
+        "ہندو مقدس کتابیں۔"
       ]
     },
     "openGraph": {
-      "title": "Vedas – Ancient Scriptures of Sanatana Dharma",
-      "description": "Discover the four Vedas and their teachings in Sanatana Dharma.",
+      "title": "وید - سناتن دھرم کے قدیم صحیفے",
+      "description": "سناتن دھرم میں چار ویدوں اور ان کی تعلیمات کو دریافت کریں۔",
       "url": "https://sanatanadharmam.in/vedas",
-      "type": "article"
+      "type": "مضمون"
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Vedas",
-      "description": "The Vedas are the oldest sacred scriptures of Sanatana Dharma consisting of Rigveda, Yajurveda, Samaveda and Atharvaveda.",
+      "@type": "تخلیقی کام",
+      "name": "وید",
+      "description": "وید سناتن دھرم کے قدیم ترین مقدس صحیفے ہیں جن میں رگ وید، یجروید، سام وید اور اتھرو وید شامل ہیں۔",
       "author": {
-        "@type": "Person",
-        "name": "Vyasa"
+        "@type": "شخص",
+        "name": "ویاسا۔"
       },
-      "about": ["Rigveda", "Yajurveda", "Samaveda", "Atharvaveda"],
-      "inLanguage": "Sanskrit",
+      "about": ["رگ وید", "یجروید", "ساموید", "اتھرو وید"],
+      "inLanguage": "سنسکرت",
       "publisher": {
-        "@type": "Organization",
-        "name": "Sanatanadharmam"
+        "@type": "تنظیم",
+        "name": "سناتندھرم"
       },
       "url": "https://sanatanadharmam.in/vedas"
     },
-    "title": "Vedas – The Oldest Sacred Scriptures of Sanatana Dharma",
-    "definition": "The Vedas are the oldest sacred scriptures of Hinduism and among the most ancient surviving texts in the world. They are composed in Vedic Sanskrit and were transmitted orally for thousands of years before being written down.",
-    "meaning_of_word_veda": "The word 'Veda' comes from the Sanskrit root 'Vid', meaning 'knowledge', 'wisdom', or 'to know'. Thus Veda means 'sacred knowledge'.",
-    "introduction": "The Vedas are the most ancient and revered scriptures of Sanatana Dharma, the eternal spiritual tradition often known today as Hinduism. The word 'Veda' originates from the Sanskrit root 'vid', which means knowledge or wisdom. Thus, the Vedas are regarded as the ultimate source of spiritual knowledge and cosmic truth. These scriptures were transmitted orally for thousands of years before being compiled into written form. They are considered 'Shruti', meaning that they were heard or revealed to ancient sages during deep states of meditation and spiritual realization.\n\nThe Vedas are not merely religious texts but comprehensive repositories of knowledge that address philosophy, cosmology, rituals, ethics, and the nature of existence itself. They represent humanity's earliest recorded attempt to understand the universe, consciousness, and the relationship between humans and the divine.\n\nAccording to tradition, the Vedas were compiled and organized by the sage Vyasa, who divided the original body of Vedic knowledge into four distinct collections to preserve and transmit them more effectively. These four collections are the Rigveda, Yajurveda, Samaveda, and Atharvaveda. Each Veda contains a unique focus and structure, contributing to a vast body of knowledge that has influenced Indian civilization for millennia.\n\nThe teachings of the Vedas explore fundamental questions such as: What is the nature of reality? What is the origin of the universe? What is the purpose of human life? How can individuals attain liberation from suffering and achieve spiritual realization?\n\nThrough hymns, philosophical dialogues, and ritual instructions, the Vedas attempt to answer these profound questions. They describe the universe as governed by a cosmic order known as 'Rta', a principle that maintains harmony among natural forces, divine beings, and human actions. Living in accordance with this cosmic order is considered the path of Dharma.\n\nThe Vedas also form the foundation for many later philosophical systems, including Vedanta, Yoga, and other schools of Hindu philosophy. Their teachings continue to influence spiritual seekers, scholars, and practitioners across the world today.",
+    "title": "وید – سناتن دھرم کا قدیم ترین مقدس صحیفہ",
+    "definition": "وید ہندومت کے قدیم ترین مقدس صحیفے ہیں اور دنیا میں سب سے قدیم زندہ متون میں سے ہیں۔ وہ ویدک سنسکرت میں لکھے گئے ہیں اور لکھے جانے سے پہلے ہزاروں سالوں تک زبانی طور پر منتقل ہوتے رہے ہیں۔",
+    "meaning_of_word_veda": "لفظ 'وید' سنسکرت کی جڑ 'وِد' سے آیا ہے، جس کا مطلب ہے 'علم'، 'حکمت'، یا 'جاننا'۔ اس طرح وید کا مطلب ہے 'مقدس علم'۔",
+    "introduction": "وید سناتن دھرم کے سب سے قدیم اور قابل احترام صحیفے ہیں، ابدی روحانی روایت جسے آج کل ہندو مت کے نام سے جانا جاتا ہے۔ لفظ 'وید' سنسکرت کی جڑ 'وڈ' سے نکلا ہے، جس کا مطلب علم یا حکمت ہے۔ اس طرح، ویدوں کو روحانی علم اور کائناتی سچائی کا حتمی ذریعہ سمجھا جاتا ہے۔ یہ صحیفے تحریری شکل میں مرتب ہونے سے پہلے ہزاروں سال تک زبانی طور پر منتقل ہوتے رہے۔ انہیں 'شروتی' سمجھا جاتا ہے، مطلب یہ ہے کہ وہ مراقبہ اور روحانی احساس کی گہری حالتوں کے دوران قدیم باباؤں کو سنا یا ظاہر کیا گیا تھا۔\n\nوید محض مذہبی متون نہیں ہیں بلکہ علم کے جامع ذخیرے ہیں جو فلسفہ، کائناتیات، رسومات، اخلاقیات اور خود وجود کی نوعیت کو مخاطب کرتے ہیں۔ وہ کائنات، شعور، اور انسانوں اور الہی کے درمیان تعلق کو سمجھنے کے لیے انسانیت کی ابتدائی ریکارڈ شدہ کوشش کی نمائندگی کرتے ہیں۔\n\nروایت کے مطابق، ویدوں کو بابا ویاس نے مرتب اور منظم کیا تھا، جنہوں نے ویدک علم کے اصل جسم کو چار الگ الگ مجموعوں میں تقسیم کیا تاکہ انہیں زیادہ مؤثر طریقے سے محفوظ کیا جا سکے۔ یہ چار مجموعے رگ وید، یجروید، سام وید اور اتھرو وید ہیں۔ ہر وید ایک منفرد توجہ اور ساخت پر مشتمل ہے، جس نے علم کے ایک وسیع جسم میں حصہ ڈالا ہے جس نے ہزارہا سال سے ہندوستانی تہذیب کو متاثر کیا ہے۔\n\nویدوں کی تعلیمات بنیادی سوالات کی کھوج کرتی ہیں جیسے: حقیقت کی نوعیت کیا ہے؟ کائنات کی اصل کیا ہے؟ انسانی زندگی کا مقصد کیا ہے؟ افراد کس طرح مصائب سے نجات حاصل کر سکتے ہیں اور روحانی ادراک حاصل کر سکتے ہیں؟\n\nبھجن، فلسفیانہ مکالموں، اور رسمی ہدایات کے ذریعے، وید ان گہرے سوالات کا جواب دینے کی کوشش کرتے ہیں۔ وہ کائنات کو 'Rta' کے نام سے جانا جاتا ایک کائناتی حکم کے زیر انتظام بیان کرتے ہیں، ایک اصول جو قدرتی قوتوں، الہی مخلوقات اور انسانی اعمال کے درمیان ہم آہنگی کو برقرار رکھتا ہے۔ اس کائناتی حکم کے مطابق زندگی گزارنا دھرم کا راستہ سمجھا جاتا ہے۔\n\nوید بعد کے کئی فلسفیانہ نظاموں کی بنیاد بھی بناتے ہیں، جن میں ویدانت، یوگا، اور ہندو فلسفے کے دیگر مکاتب بھی شامل ہیں۔ ان کی تعلیمات آج بھی پوری دنیا کے روحانی متلاشیوں، اسکالرز اور پریکٹیشنرز کو متاثر کرتی رہتی ہیں۔",
     "scripture_text": [
       {
-        "veda": "Rigveda",
-        "description": "The Rigveda is the oldest of the four Vedas and is primarily a collection of hymns dedicated to various deities representing cosmic forces. It contains 1028 hymns organized into ten mandalas. These hymns praise deities such as Agni (fire), Indra (thunder and storms), Varuna (cosmic order), and Surya (the sun). The hymns often express wonder at the mysteries of nature and the universe. They seek blessings, prosperity, protection, and spiritual insight.\n\nThe Rigveda also contains some of the earliest philosophical reflections found in human literature. One famous hymn, the Nasadiya Sukta, contemplates the origin of the universe and questions whether even the gods know how creation began.",
-        "primary_focus": "Praise of deities and cosmic forces",
+        "veda": "رگ وید",
+        "description": "رگ وید چار ویدوں میں سب سے قدیم ہے اور بنیادی طور پر کائناتی قوتوں کی نمائندگی کرنے والے مختلف دیوتاؤں کے لیے وقف کردہ بھجنوں کا مجموعہ ہے۔ اس میں دس منڈلوں میں 1028 بھجن شامل ہیں۔ یہ بھجن دیوتاؤں کی تعریف کرتے ہیں جیسے اگنی (آگ)، اندرا (گرج اور طوفان)، ورون (کائناتی ترتیب)، اور سوریہ (سورج)۔ بھجن اکثر فطرت اور کائنات کے اسرار پر حیرت کا اظہار کرتے ہیں۔ وہ برکت، خوشحالی، تحفظ اور روحانی بصیرت کے خواہاں ہیں۔\n\nرگ وید میں انسانی ادب میں پائے جانے والے قدیم ترین فلسفیانہ مظاہر بھی شامل ہیں۔ ایک مشہور حمد، نسادیہ سکتہ، کائنات کی ابتدا پر غور کرتا ہے اور سوال کرتا ہے کہ کیا دیوتا بھی جانتے ہیں کہ تخلیق کیسے شروع ہوئی۔",
+        "primary_focus": "دیوتاؤں اور کائناتی قوتوں کی تعریف",
         "structure": {
           "total_hymns": 1028,
           "mandalas": 10,
           "verses": 10552
         },
-        "major_deities": ["Agni", "Indra", "Varuna", "Mitra", "Soma", "Ushas"],
+        "major_deities": ["اگنی", "اندرا", "ورونا۔", "مترا", "سوما", "اوشاس"],
         "major_themes": [
-          "Creation of universe",
-          "Cosmic order (Rta)",
-          "Nature worship",
-          "Sacred fire rituals",
-          "Philosophical speculation"
+          "کائنات کی تخلیق",
+          "کائناتی آرڈر (Rta)",
+          "فطرت کی عبادت",
+          "مقدس آگ کی رسومات",
+          "فلسفیانہ قیاس آرائیاں"
         ]
       },
       {
-        "veda": "Yajurveda",
-        "description": "The Yajurveda focuses primarily on the procedures and formulas used during ritual sacrifices known as yajnas. It provides detailed instructions for priests performing ceremonies intended to maintain cosmic harmony and social order. The Yajurveda exists in two major forms: the Krishna (Black) Yajurveda and the Shukla (White) Yajurveda.\n\nThe Krishna Yajurveda combines ritual formulas with explanatory commentary, while the Shukla Yajurveda presents them in a clearer and more organized structure. These texts emphasize the importance of disciplined action and ritual precision in maintaining the balance between humans, nature, and the divine.",
-        "primary_focus": "Ritual procedures and yajna performance",
+        "veda": "یجروید",
+        "description": "یجروید بنیادی طور پر ان طریقوں اور فارمولوں پر توجہ مرکوز کرتا ہے جو رسمی قربانیوں کے دوران استعمال ہوتے ہیں جنہیں یجنا کہا جاتا ہے۔ یہ کائناتی ہم آہنگی اور سماجی نظم کو برقرار رکھنے کے لیے تقاریب انجام دینے والے پادریوں کے لیے تفصیلی ہدایات فراہم کرتا ہے۔ یجروید دو بڑی شکلوں میں موجود ہے: کرشنا (سیاہ) یجوروید اور شکلا (سفید) یجروید۔\n\nکرشنا یجروید رسمی فارمولوں کو وضاحتی تفسیر کے ساتھ جوڑتا ہے، جبکہ شکلا یجروید انہیں ایک واضح اور زیادہ منظم ڈھانچے میں پیش کرتا ہے۔ یہ نصوص انسانوں، فطرت اور الہی کے درمیان توازن کو برقرار رکھنے میں نظم و ضبط کے عمل اور رسم کی درستگی کی اہمیت پر زور دیتے ہیں۔",
+        "primary_focus": "رسمی طریقہ کار اور یجنا کی کارکردگی",
         "divisions": [
           {
-            "type": "Krishna Yajurveda",
-            "meaning": "Black Yajurveda",
-            "characteristics": "Mixed prose and verses"
+            "type": "کرشنا یجروید",
+            "meaning": "سیاہ یجروید",
+            "characteristics": "مخلوط نثر اور آیات"
           },
           {
-            "type": "Shukla Yajurveda",
-            "meaning": "White Yajurveda",
-            "characteristics": "Clear separation of mantras and explanations"
+            "type": "شکلا یجوروید",
+            "meaning": "سفید یجروید",
+            "characteristics": "منتروں اور وضاحتوں کی واضح علیحدگی"
           }
         ],
         "primary_topics": [
-          "Sacrificial rituals",
-          "Priestly duties",
-          "Yajna procedures",
-          "Cosmic symbolism of sacrifice"
+          "قربانی کی رسومات",
+          "پادری کے فرائض",
+          "یجنا کے طریقہ کار",
+          "قربانی کی کائناتی علامت"
         ]
       },
       {
-        "veda": "Samaveda",
-        "description": "The Samaveda is primarily concerned with melodies and chants derived largely from the Rigveda. It is considered the origin of classical Indian musical traditions. The hymns of the Samaveda are arranged in such a way that they can be sung during ritual ceremonies. The musical aspect of the Samaveda reflects the belief that sound and vibration play a powerful role in spiritual transformation.\n\nThrough sacred chanting, practitioners aim to harmonize their consciousness with the cosmic rhythm of the universe.",
-        "primary_focus": "Musical chanting in rituals",
-        "importance": "Foundation of Indian classical music",
+        "veda": "ساموید",
+        "description": "سام وید کا تعلق بنیادی طور پر دھنوں اور گانوں سے ہے جو زیادہ تر رگ وید سے اخذ کیے گئے ہیں۔ اسے کلاسیکی ہندوستانی موسیقی کی روایات کا ماخذ سمجھا جاتا ہے۔ ساموید کے بھجن کو اس طرح ترتیب دیا گیا ہے کہ انہیں رسمی تقریبات کے دوران گایا جا سکتا ہے۔ ساموید کا موسیقیی پہلو اس یقین کی عکاسی کرتا ہے کہ آواز اور کمپن روحانی تبدیلی میں ایک طاقتور کردار ادا کرتے ہیں۔\n\nمقدس نعرے کے ذریعے، پریکٹیشنرز اپنے شعور کو کائنات کی کائناتی تال سے ہم آہنگ کرنا چاہتے ہیں۔",
+        "primary_focus": "رسومات میں موسیقی کا نعرہ",
+        "importance": "ہندوستانی کلاسیکی موسیقی کی بنیاد",
         "structure": {
           "total_verses": 1875,
           "unique_verses": 75
         },
-        "applications": [
-          "Temple chanting",
-          "Soma rituals",
-          "Liturgical singing"
-        ]
+        "applications": ["مندر کا نعرہ لگانا", "سوما کی رسومات", "ادبی گانا"]
       },
       {
-        "veda": "Atharvaveda",
-        "description": "The Atharvaveda differs from the other three Vedas in that it contains a broader range of topics, including healing practices, philosophical reflections, domestic rituals, and social concerns. It includes hymns, prayers, charms, and philosophical teachings that address everyday life as well as spiritual matters.\n\nMany hymns in the Atharvaveda seek protection from disease, misfortune, and negative influences while also exploring deeper metaphysical questions about life, death, and the nature of the soul.",
-        "primary_focus": "Practical life, healing, protection",
+        "veda": "اتھرو وید",
+        "description": "اتھرو وید دیگر تین ویدوں سے اس لحاظ سے مختلف ہے کہ اس میں موضوعات کی ایک وسیع رینج شامل ہے، بشمول شفا یابی کے طریقے، فلسفیانہ عکاسی، گھریلو رسومات، اور سماجی خدشات۔ اس میں بھجن، دعائیں، دلکش اور فلسفیانہ تعلیمات شامل ہیں جو روزمرہ کی زندگی کے ساتھ ساتھ روحانی معاملات کو بھی مخاطب کرتی ہیں۔\n\nاتھرو وید میں بہت سے بھجن بیماری، بدقسمتی اور منفی اثرات سے تحفظ کی تلاش کرتے ہیں جبکہ زندگی، موت، اور روح کی نوعیت کے بارے میں گہرے مابعدالطبیعاتی سوالات کی بھی تلاش کرتے ہیں۔",
+        "primary_focus": "عملی زندگی، شفا یابی، تحفظ",
         "structure": {
           "books": 20,
           "hymns": 730
         },
         "topics": [
-          "Medicine",
-          "Protection spells",
-          "Household rituals",
-          "Philosophical reflections",
-          "Royal rituals"
+          "دوائی",
+          "حفاظتی منتر",
+          "گھریلو رسومات",
+          "فلسفیانہ مظاہر",
+          "شاہی رسومات"
         ]
       }
     ],
-    "philosophical_explanation": "Beyond their ritual and poetic dimensions, the Vedas contain profound philosophical insights that have shaped the spiritual traditions of India for thousands of years. At the heart of Vedic philosophy lies the idea that the universe is not chaotic but governed by a divine order known as Rta. This cosmic law ensures harmony among all aspects of existence.\n\nHuman beings are encouraged to live in accordance with this cosmic order through the practice of Dharma. Dharma refers to righteous conduct, moral responsibility, and the duties that sustain both individual well-being and social harmony.\n\nAnother fundamental concept introduced in Vedic thought is the relationship between the individual self (Atman) and the ultimate reality (Brahman). Later philosophical texts such as the Upanishads elaborate on this relationship and suggest that realizing the unity between Atman and Brahman leads to spiritual liberation or Moksha.\n\nThe Vedas also explore the role of knowledge (Jnana), action (Karma), and devotion (Bhakti) as pathways toward spiritual realization. While early Vedic traditions emphasize ritual practices, later interpretations increasingly focus on inner transformation and self-knowledge.\n\nThrough meditation, disciplined living, and the pursuit of wisdom, individuals can transcend ignorance and realize their true nature as part of the universal consciousness.\n\nThe Vedas therefore present a holistic vision of life that integrates spiritual insight, ethical responsibility, and cosmic harmony.",
+    "philosophical_explanation": "اپنی رسم اور شاعرانہ جہتوں سے ہٹ کر، ویدوں میں گہری فلسفیانہ بصیرت پائی جاتی ہے جس نے ہزاروں سالوں سے ہندوستان کی روحانی روایات کو تشکیل دیا ہے۔ ویدک فلسفہ کے مرکز میں یہ خیال ہے کہ کائنات افراتفری نہیں ہے بلکہ ایک الہی حکم کے تحت چل رہی ہے جسے Rta کہا جاتا ہے۔ یہ کائناتی قانون وجود کے تمام پہلوؤں کے درمیان ہم آہنگی کو یقینی بناتا ہے۔\n\nدھرم کی مشق کے ذریعے انسانوں کو اس کائناتی حکم کے مطابق زندگی گزارنے کی ترغیب دی جاتی ہے۔ دھرم سے مراد صالح طرز عمل، اخلاقی ذمہ داری، اور ایسے فرائض ہیں جو انفرادی فلاح اور سماجی ہم آہنگی دونوں کو برقرار رکھتے ہیں۔\n\nویدک فکر میں متعارف کرایا گیا ایک اور بنیادی تصور انفرادی نفس (آتمان) اور حتمی حقیقت (برہمن) کے درمیان تعلق ہے۔ بعد میں فلسفیانہ متون جیسے اپنشد اس تعلق کی وضاحت کرتے ہیں اور تجویز کرتے ہیں کہ اتمان اور برہمن کے درمیان اتحاد کو محسوس کرنا روحانی آزادی یا موکش کی طرف لے جاتا ہے۔\n\nوید علم (جنا)، عمل (کرما)، اور عقیدت (بھکتی) کے کردار کو بھی روحانی احساس کی طرف جانے والے راستوں کے طور پر دریافت کرتے ہیں۔ اگرچہ ابتدائی ویدک روایات رسمی طریقوں پر زور دیتی ہیں، لیکن بعد کی تشریحات تیزی سے اندرونی تبدیلی اور خود شناسی پر توجہ مرکوز کرتی ہیں۔\n\nمراقبہ، نظم و ضبط اور حکمت کی جستجو کے ذریعے، افراد جہالت سے بالاتر ہو سکتے ہیں اور عالمگیر شعور کے حصے کے طور پر اپنی حقیقی فطرت کا ادراک کر سکتے ہیں۔\n\nاس لیے وید زندگی کا ایک مکمل وژن پیش کرتے ہیں جو روحانی بصیرت، اخلاقی ذمہ داری، اور کائناتی ہم آہنگی کو مربوط کرتا ہے۔",
     "estimated_composition_period": {
-      "early_vedic_period": "1500 BCE – 1200 BCE",
-      "later_additions": "1200 BCE – 1000 BCE"
+      "early_vedic_period": "1500 قبل مسیح - 1200 قبل مسیح",
+      "later_additions": "1200 قبل مسیح - 1000 قبل مسیح"
     },
     "vedic_society": {
       "social_structure": [
-        "Brahmins (priests)",
-        "Kshatriyas (warriors)",
-        "Vaishyas (traders)",
-        "Shudras (service providers)"
+        "برہمن (پجاری)",
+        "کھشتری (جنگجو)",
+        "ویشیا (تاجر)",
+        "شودر (خدمت فراہم کرنے والے)"
       ],
-      "economic_activities": [
-        "Agriculture",
-        "Cattle rearing",
-        "Trade",
-        "Craftsmanship"
-      ],
+      "economic_activities": ["زراعت", "مویشی پالنا", "تجارت", "دستکاری"],
       "cultural_practices": [
-        "Fire rituals",
-        "Sacred chants",
-        "Education through gurukula"
+        "آگ کی رسومات",
+        "مقدس ترانے",
+        "گروکولہ کے ذریعے تعلیم"
       ]
     },
     "influence_of_vedas": {
       "religious_influence": [
-        "Foundation of Hindu philosophy",
-        "Basis of temple rituals",
-        "Influence on yoga and meditation"
+        "ہندو فلسفہ کی بنیاد",
+        "مندر کی رسومات کی بنیاد",
+        "یوگا اور مراقبہ پر اثر"
       ],
       "philosophical_influence": [
-        "Vedanta philosophy",
-        "Upanishadic metaphysics",
-        "Concept of universal consciousness"
+        "ویدانت کا فلسفہ",
+        "اپنشدک مابعدالطبیعات",
+        "آفاقی شعور کا تصور"
       ],
       "scientific_influence": [
-        "Early astronomy references",
-        "Mathematical concepts",
-        "Medical knowledge in Atharvaveda"
+        "فلکیات کے ابتدائی حوالہ جات",
+        "ریاضیاتی تصورات",
+        "اتھرو وید میں طبی علم"
       ],
       "cultural_influence": [
-        "Indian music origins in Samaveda",
-        "Sacred chanting traditions",
-        "Festivals and rituals"
+        "ہندوستانی موسیقی کی ابتدا سام وید سے ہوئی ہے۔",
+        "مقدس نعرے لگانے کی روایات",
+        "تہوار اور رسومات"
       ]
     },
     "vedic_timeline": {
-      "proto_vedic_period": "Before 2000 BCE",
-      "early_vedic_period": "1500 BCE - 1200 BCE",
-      "middle_vedic_period": "1200 BCE - 900 BCE",
-      "late_vedic_period": "900 BCE - 500 BCE",
-      "upanishadic_period": "800 BCE - 300 BCE"
+      "proto_vedic_period": "2000 قبل مسیح سے پہلے",
+      "early_vedic_period": "1500 قبل مسیح - 1200 قبل مسیح",
+      "middle_vedic_period": "1200 قبل مسیح - 900 قبل مسیح",
+      "late_vedic_period": "900 قبل مسیح - 500 قبل مسیح",
+      "upanishadic_period": "800 قبل مسیح - 300 قبل مسیح"
     },
     "vedic_philosophical_concepts": {
-      "brahman": "Ultimate cosmic reality",
-      "atman": "Individual self or soul",
-      "rta": "Cosmic order governing universe",
-      "dharma": "Universal law and duty",
-      "karma": "Law of action and consequence",
-      "moksha": "Liberation from cycle of rebirth",
-      "samsara": "Cycle of birth, death, and rebirth"
+      "brahman": "حتمی کائناتی حقیقت",
+      "atman": "انفرادی نفس یا روح",
+      "rta": "کائناتی حکم کائنات پر حکمرانی کرتا ہے۔",
+      "dharma": "آفاقی قانون اور فرض",
+      "karma": "عمل اور نتیجہ کا قانون",
+      "moksha": "پنر جنم کے چکر سے نجات",
+      "samsara": "پیدائش، موت اور پنر جنم کا چکر"
     },
     "related_concepts": [
-      "Upanishads",
-      "Brahman",
-      "Atman",
-      "Dharma",
-      "Karma",
-      "Moksha",
-      "Vedanta",
-      "Yajna",
-      "Rta",
-      "Sanatana Dharma"
+      "اپنشد",
+      "برہمن",
+      "اتمان",
+      "دھرم",
+      "کرما",
+      "موکشا۔",
+      "ویدانت",
+      "یجنا",
+      "آر ٹی اے",
+      "سناتن دھرم"
     ]
   }
 }
