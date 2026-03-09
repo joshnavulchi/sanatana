@@ -1,61 +1,61 @@
 {
-    "scriptures_mahabharata": {
-        "title": "Mahabharata – Itihasa do Dharma, Ética e Escolha Humana",
-        "description": "Explore o Mahabharata: um vasto Itihasa que explora o dharma, o conflito, o dever e a complexidade da tomada de decisões humanas.",
-        "meta": {
-            "title": "Mahabharata – Itihasa do Dharma, Ética e Escolha Humana",
-            "canonical": "https://sanatanadharmam.in/itihasa/mahabharata",
-            "description": "Explore o Mahabharata: um vasto Itihasa que explora o dharma, o conflito, o dever e a complexidade da tomada de decisões humanas.",
-            "keywords": [
-                "Mahabharata",
-                "Itihasa",
-                "Vyasa",
-                "dharma",
-                "ética",
-                "Sanatana Dharma"
-            ],
-            "robots": "índice, siga",
-            "url": "https://sanatanadharmam.in/itihasa/mahabharata",
-            "ogImage": "https://sanatanadharmam.in/og/scriptures_mahabharata.png"
-        },
-        "openGraph": {
-            "title": "Mahabharata – Itihasa do Dharma, Ética e Escolha Humana",
-            "description": "Explore o Mahabharata: um vasto Itihasa que explora o dharma, o conflito, o dever e a complexidade da tomada de decisões humanas.",
-            "url": "https://sanatanadharmam.in/itihasa/mahabharata",
-            "siteName": "Sanatanadharm",
-            "type": "artigo",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/scriptures_mahabharata.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@type": "Artigo",
-            "name": "Mahabharata – Itihasa do Dharma, Ética e Escolha Humana",
-            "description": "Explore o Mahabharata: um vasto Itihasa que explora o dharma, o conflito, o dever e a complexidade da tomada de decisões humanas.",
-            "url": "https://sanatanadharmam.in/itihasa/mahabharata",
-            "isPartOf": {
-                "@type": "Site",
-                "name": "Sanatanadharm",
-                "url": "https://sanatanadharmam.in"
-            }
-        },
-        "introduction": "O Mahabharata é um vasto Itihasa tradicionalmente atribuído a Maharshi Vyasa. É uma narrativa épica e uma fonte enciclopédica de debate ético, ensino espiritual e reflexão social. Através do conflito entre os Pandavas e Kauravas, examina o dever, a ambição, a lealdade e as consequências das escolhas ao longo das gerações.\n\nÉ também o contexto mais amplo em que o Bhagavad Gita aparece, ligando a instrução espiritual às questões mais difíceis da vida real.",
-        "scripture_text": [
-            {
-                "section": "Estrutura (Parvas)",
-                "content": "O Mahabharata é comumente dividido em dezoito parvas (livros). Os parvas contêm múltiplas histórias, diálogos e ensinamentos entrelaçados, em vez de um único enredo linear."
-            },
-            {
-                "section": "Investigação ética",
-                "content": "Uma característica definidora do Mahabharata é a sua disposição de apresentar ambigüidade moral. Os personagens enfrentam dilemas em que cada opção tem um custo, e o texto muitas vezes enquadra o dharma como algo a ser discernido por meio de reflexão, conselho e honestidade consigo mesmo."
-            }
-        ],
-        "philosophical_explanation": "A filosofia do Mahabharata é inseparável do seu realismo. Ensina que o dharma nem sempre é óbvio e que a intenção, o contexto e as consequências são importantes. Também destaca como os estados internos – raiva, inveja, medo, orgulho – moldam os resultados externos.\n\nComo literatura espiritual, o Mahabharata leva o leitor à maturidade: uma mente mais estável, uma compaixão mais ampla e a capacidade de agir com responsabilidade mesmo em condições imperfeitas."
-    }
+  "scriptures_mahabharata": {
+    "title": "Mahabharata – Itihasa do Dharma, Ética e Escolha Humana",
+    "description": "Explore o Mahabharata: um vasto Itihasa que explora o dharma, o conflito, o dever e a complexidade da tomada de decisões humanas.",
+    "meta": {
+      "title": "Mahabharata – Itihasa do Dharma, Ética e Escolha Humana",
+      "canonical": "https://sanatanadharmam.in/itihasa/mahabharata",
+      "description": "Explore o Mahabharata: um vasto Itihasa que explora o dharma, o conflito, o dever e a complexidade da tomada de decisões humanas.",
+      "keywords": [
+        "Mahabharata",
+        "Itihasa",
+        "Vyasa",
+        "dharma",
+        "ética",
+        "Sanatana Dharma"
+      ],
+      "robots": "índice, siga",
+      "url": "https://sanatanadharmam.in/itihasa/mahabharata",
+      "ogImage": "https://sanatanadharmam.in/og/scriptures_mahabharata.png"
+    },
+    "openGraph": {
+      "title": "Mahabharata – Itihasa do Dharma, Ética e Escolha Humana",
+      "description": "Explore o Mahabharata: um vasto Itihasa que explora o dharma, o conflito, o dever e a complexidade da tomada de decisões humanas.",
+      "url": "https://sanatanadharmam.in/itihasa/mahabharata",
+      "siteName": "Sanatanadharm",
+      "type": "artigo",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/scriptures_mahabharata.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Artigo",
+      "name": "Mahabharata – Itihasa do Dharma, Ética e Escolha Humana",
+      "description": "Explore o Mahabharata: um vasto Itihasa que explora o dharma, o conflito, o dever e a complexidade da tomada de decisões humanas.",
+      "url": "https://sanatanadharmam.in/itihasa/mahabharata",
+      "isPartOf": {
+        "@type": "Site",
+        "name": "Sanatanadharm",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "introduction": "O Mahabharata é um vasto Itihasa tradicionalmente atribuído a Maharshi Vyasa. É uma narrativa épica e uma fonte enciclopédica de debate ético, ensino espiritual e reflexão social. Através do conflito entre os Pandavas e Kauravas, examina o dever, a ambição, a lealdade e as consequências das escolhas ao longo das gerações.\n\nÉ também o contexto mais amplo em que o Bhagavad Gita aparece, ligando a instrução espiritual às questões mais difíceis da vida real.",
+    "scripture_text": [
+      {
+        "section": "Estrutura (Parvas)",
+        "content": "O Mahabharata é comumente dividido em dezoito parvas (livros). Os parvas contêm múltiplas histórias, diálogos e ensinamentos entrelaçados, em vez de um único enredo linear."
+      },
+      {
+        "section": "Investigação ética",
+        "content": "Uma característica definidora do Mahabharata é a sua disposição de apresentar ambigüidade moral. Os personagens enfrentam dilemas em que cada opção tem um custo, e o texto muitas vezes enquadra o dharma como algo a ser discernido por meio de reflexão, conselho e honestidade consigo mesmo."
+      }
+    ],
+    "philosophical_explanation": "A filosofia do Mahabharata é inseparável do seu realismo. Ensina que o dharma nem sempre é óbvio e que a intenção, o contexto e as consequências são importantes. Também destaca como os estados internos – raiva, inveja, medo, orgulho – moldam os resultados externos.\n\nComo literatura espiritual, o Mahabharata leva o leitor à maturidade: uma mente mais estável, uma compaixão mais ampla e a capacidade de agir com responsabilidade mesmo em condições imperfeitas."
+  }
 }

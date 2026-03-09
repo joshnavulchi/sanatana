@@ -1,670 +1,695 @@
 {
-  "sharable_strings": {
-    "sitetitle": "Sanātana Dharma",
-    "banner_notifications": {
-      "title": "If you find our work helpful, consider supporting us to keep this web page ",
-      "links": {
-        "alive": "/donate"
-      },
-      "subtitle": " and Help us grow by making a small donation."
-    },
-    "banner_notifications2": {
-      "title": "Protecting the roots of Sanātana Dharma for a brighter future.",
-      "subtitle": "Empowering future generations through timeless Vedic knowledge."
-    },
-    "header": {
-      "vedas": {
-        "title": "Vedas",
-        "nav": [
-          {
-            "name": "Rigveda",
-            "description": "Oldest Veda consisting of hymns dedicated to various deities."
-          },
-          {
-            "name": "Yajurveda",
-            "description": "Contains sacrificial formulas used in rituals."
-          },
-          {
-            "name": "Samaveda",
-            "description": "Collection of melodies and chants used for ritual singing."
-          },
-          {
-            "name": "Atharvaveda",
-            "description": "Contains hymns, spells, and philosophical teachings."
-          }
-        ]
-      },
-      "upanishads": {
-        "title": "Upanishads",
-        "nav": {
-          "isha-upanishad": "Isha Upanishad",
-          "kena-upanishad": "Kena Upanishad",
-          "katha-upanishad": "Katha Upanishad",
-          "prashna-upanishad": "Prashna Upanishad",
-          "mundaka-upanishad": "Mundaka Upanishad",
-          "mandukya-upanishad": "Mandukya Upanishad",
-          "taittiriya-upanishad": "Taittiriya Upanishad",
-          "aitareya-upanishad": "Aitareya Upanishad",
-          "chandogya-upanishad": "Chandogya Upanishad",
-          "brihadaranyaka-upanishad": "Brihadaranyaka Upanishad",
-          "shvetashvatara-upanishad": "Shvetashvatara Upanishad",
-          "kaushitaki-upanishad": "Kaushitaki Upanishad",
-          "maitri-upanishad": "Maitri Upanishad"
-        }
-      },
-      "puranas": {
-        "title": "Puranas",
-        "nav": {
-          "brahma-purana": "Brahma Purana",
-          "padma-purana": "Padma Purana",
-          "vishnu-purana": "Vishnu Purana",
-          "shiva-purana": "Shiva Purana",
-          "bhagavata-purana": "Bhagavata Purana",
-          "narada-purana": "Narada Purana",
-          "markandeya-purana": "Markandeya Purana",
-          "agni-purana": "Agni Purana",
-          "bhavishya-purana": "Bhavishya Purana",
-          "brahmavaivarta-purana": "Brahmavaivarta Purana",
-          "linga-purana": "Linga Purana",
-          "varaha-purana": "Varaha Purana",
-          "skanda-purana": "Skanda Purana",
-          "vamana-purana": "Vamana Purana",
-          "kurma-purana": "Kurma Purana",
-          "matsya-purana": "Matsya Purana",
-          "garuda-purana": "Garuda Purana",
-          "brahmanda-purana": "Brahmanda Purana"
-        }
-      },
-      "itihasa": {
-        "title": "Itihasa",
-        "nav": [
-          {
-            "name": "Ramayana",
-            "author": "Valmiki",
-            "description": "Epic describing the life of Lord Rama.",
-            "kandas": {
-              "bala-kanda": "Bala Kanda",
-              "ayodhya-kanda": "Ayodhya Kanda",
-              "aranya-kanda": "Aranya Kanda",
-              "kishkinda-kanda": "Kishkindha Kanda",
-              "sundara-kanda": "Sundara Kanda",
-              "yuddha-kanda": "Yuddha Kanda",
-              "uttara-kanda": "Uttara Kanda"
-            }
-          },
-          {
-            "name": "Mahabharata",
-            "author": "Vyasa",
-            "description": "Epic describing the Kurukshetra war and dharma.",
-            "parvas": 18
-          },
-          {
-            "description": "Sacred dialogue between Lord Krishna and Arjuna.",
-            "chapters": 18,
-            "verses": 700,
-            "chapters_list": {
-              "arjuna-vishada-yoga": "Arjuna Vishada Yoga",
-              "sankhya-yoga": "Sankhya Yoga",
-              "karma-yoga": "Karma Yoga",
-              "jnana-karma-sanyasa-yoga": "Jnana Karma Sanyasa Yoga",
-              "karma-sanyasa-yoga": "Karma Sanyasa Yoga",
-              "dhyana-yoga": "Dhyana Yoga",
-              "jnana-vijnana-yoga": "Jnana Vijnana Yoga",
-              "akshara-brahma-yoga": "Akshara Brahma Yoga",
-              "raja-vidya-raja-guhya-yoga": "Raja Vidya Raja Guhya Yoga",
-              "vibhuti-yoga": "Vibhuti Yoga",
-              "vishvarupa-darshana-yoga": "Vishvarupa Darshana Yoga",
-              "bhakti-yoga": "Bhakti Yoga",
-              "kshetra-kshetrajna-vibhaga-yoga": "Kshetra Kshetrajna Vibhaga Yoga",
-              "gunatraya-vibhaga-yoga": "Gunatraya Vibhaga Yoga",
-              "purushottama-yoga": "Purushottama Yoga",
-              "daivasura-sampad-vibhaga-yoga": "Daivasura Sampad Vibhaga Yoga",
-              "shraddhatray-vibhaga-yoga": "Shraddhatraya Vibhaga Yoga",
-              "moksha-sanyasa-yoga": "Moksha Sanyasa Yoga"
-            }
-          }
-        ]
-      },
-      "philosopy": {
-        "title": "Philosophy",
-        "subtitle": "Vedic",
-        "nav": {
-          "advaita": "Advaita",
-          "purushartha": "Purushartha",
-          "samsara": "Samsara",
-          "dharma": "Dharma",
-          "karma": "Karma",
-          "moksha": "Moksha"
-        }
-      },
-      "science": {
-        "title": "Science",
-        "subtitle": "Vedic",
-        "nav": {
-          "astronomy": "Astronomy",
-          "mathematics": "Mathematics",
-          "medicine": "Medicine",
-          "metallurgy": "Metallurgy",
-          "architecture": "Architecture"
-        }
-      }
-    },
-    "footer": {
-      "title": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत। अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम्॥",
-      "contact": "Contact with us",
-      "contentchange": "Content may be incomplete or subject to change.",
-      "copyright": "Vulchi Vijaya Kumar Raju © 2025.",
-      "disclaimer": "Disclaimer: This website is currently in development.",
-      "donate": "Donate",
-      "vedas": {
-        "title": "Vedas",
-        "nav": [
-          {
-            "name": "Rigveda",
-            "description": "Oldest Veda consisting of hymns dedicated to various deities."
-          },
-          {
-            "name": "Yajurveda",
-            "description": "Contains sacrificial formulas used in rituals."
-          },
-          {
-            "name": "Samaveda",
-            "description": "Collection of melodies and chants used for ritual singing."
-          },
-          {
-            "name": "Atharvaveda",
-            "description": "Contains hymns, spells, and philosophical teachings."
-          }
-        ]
-      },
-      "upanishads": {
-        "title": "Upanishads",
-        "nav": {
-          "isha-upanishad": "Isha Upanishad",
-          "kena-upanishad": "Kena Upanishad",
-          "katha-upanishad": "Katha Upanishad",
-          "prashna-upanishad": "Prashna Upanishad",
-          "mundaka-upanishad": "Mundaka Upanishad",
-          "mandukya-upanishad": "Mandukya Upanishad",
-          "taittiriya-upanishad": "Taittiriya Upanishad",
-          "aitareya-upanishad": "Aitareya Upanishad",
-          "chandogya-upanishad": "Chandogya Upanishad",
-          "brihadaranyaka-upanishad": "Brihadaranyaka Upanishad",
-          "shvetashvatara-upanishad": "Shvetashvatara Upanishad",
-          "kaushitaki-upanishad": "Kaushitaki Upanishad",
-          "maitri-upanishad": "Maitri Upanishad"
-        }
-      },
-      "puranas": {
-        "title": "Puranas",
-        "nav": {
-          "brahma-purana": "Brahma Purana",
-          "padma-purana": "Padma Purana",
-          "vishnu-purana": "Vishnu Purana",
-          "shiva-purana": "Shiva Purana",
-          "bhagavata-purana": "Bhagavata Purana",
-          "narada-purana": "Narada Purana",
-          "markandeya-purana": "Markandeya Purana",
-          "agni-purana": "Agni Purana",
-          "bhavishya-purana": "Bhavishya Purana",
-          "brahmavaivarta-purana": "Brahmavaivarta Purana",
-          "linga-purana": "Linga Purana",
-          "varaha-purana": "Varaha Purana",
-          "skanda-purana": "Skanda Purana",
-          "vamana-purana": "Vamana Purana",
-          "kurma-purana": "Kurma Purana",
-          "matsya-purana": "Matsya Purana",
-          "garuda-purana": "Garuda Purana",
-          "brahmanda-purana": "Brahmanda Purana"
-        }
-      },
-      "itihasa": {
-        "title": "Itihasa",
-        "nav": [
-          {
-            "name": "Ramayana",
-            "author": "Valmiki",
-            "description": "Epic describing the life of Lord Rama.",
-            "kandas": {
-              "bala-kanda": "Bala Kanda",
-              "ayodhya-kanda": "Ayodhya Kanda",
-              "aranya-kanda": "Aranya Kanda",
-              "kishkinda-kanda": "Kishkindha Kanda",
-              "sundara-kanda": "Sundara Kanda",
-              "yuddha-kanda": "Yuddha Kanda",
-              "uttara-kanda": "Uttara Kanda"
-            }
-          },
-          {
-            "name": "Mahabharata",
-            "author": "Vyasa",
-            "description": "Epic describing the Kurukshetra war and dharma.",
-            "parvas": 18
-          },
-          {
-            "description": "Sacred dialogue between Lord Krishna and Arjuna.",
-            "chapters": 18,
-            "verses": 700,
-            "chapters_list": {
-              "arjuna-vishada-yoga": "Arjuna Vishada Yoga",
-              "sankhya-yoga": "Sankhya Yoga",
-              "karma-yoga": "Karma Yoga",
-              "jnana-karma-sanyasa-yoga": "Jnana Karma Sanyasa Yoga",
-              "karma-sanyasa-yoga": "Karma Sanyasa Yoga",
-              "dhyana-yoga": "Dhyana Yoga",
-              "jnana-vijnana-yoga": "Jnana Vijnana Yoga",
-              "akshara-brahma-yoga": "Akshara Brahma Yoga",
-              "raja-vidya-raja-guhya-yoga": "Raja Vidya Raja Guhya Yoga",
-              "vibhuti-yoga": "Vibhuti Yoga",
-              "vishvarupa-darshana-yoga": "Vishvarupa Darshana Yoga",
-              "bhakti-yoga": "Bhakti Yoga",
-              "kshetra-kshetrajna-vibhaga-yoga": "Kshetra Kshetrajna Vibhaga Yoga",
-              "gunatraya-vibhaga-yoga": "Gunatraya Vibhaga Yoga",
-              "purushottama-yoga": "Purushottama Yoga",
-              "daivasura-sampad-vibhaga-yoga": "Daivasura Sampad Vibhaga Yoga",
-              "shraddhatray-vibhaga-yoga": "Shraddhatraya Vibhaga Yoga",
-              "moksha-sanyasa-yoga": "Moksha Sanyasa Yoga"
-            }
-          }
-        ]
-      },
-      "philosophy": {
-        "title": "Philosophy",
-        "subtitle": "Vedic",
-        "nav": {
-          "advaita": "Advaita",
-          "purushartha": "Purushartha",
-          "samsara": "Samsara",
-          "dharma": "Dharma",
-          "karma": "Karma",
-          "moksha": "Moksha"
-        }
-      },
-      "science": {
-        "title": "Science",
-        "subtitle": "Vedic",
-        "nav": {
-          "astronomy": "Astronomy",
-          "mathematics": "Mathematics",
-          "medicine": "Medicine",
-          "metallurgy": "Metallurgy",
-          "architecture": "Architecture"
-        }
-      },
-      "others": {
-        "title": "Sanātana dharmam",
-        "nav": {
-          "vedic-gods": "Vedic Gods",
-          "sanskrit-concepts": "Sanskrit Concepts",
-          "festivals": "Festivals",
-          "about": "About"
-        }
-      },
-      "privacy": "Privacy Policy",
-      "quote": "Whenever righteousness declines and unrighteousness rises, I manifest Myself. To protect the righteous, to annihilate the wicked, and to reestablish the principles of dharma, I appear millennium after millennium.",
-      "quotesource": "(Bhagavad Gītā 4.7)",
-      "terms": "Terms of Service"
-    },
-    "similar_categories": {
-      "vedas": {
-        "title": "Vedas",
-        "basePath": "/vedas",
-        "nav": [
-          {
-            "name": "Rigveda",
-            "description": "Oldest Veda consisting of hymns dedicated to various deities."
-          },
-          {
-            "name": "Yajurveda",
-            "description": "Contains sacrificial formulas used in rituals."
-          },
-          {
-            "name": "Samaveda",
-            "description": "Collection of melodies and chants used for ritual singing."
-          },
-          {
-            "name": "Atharvaveda",
-            "description": "Contains hymns, spells, and philosophical teachings."
-          }
-        ]
-      },
-      "upanishads": {
-        "title": "Upanishads",
-        "basePath": "/upanishads",
-        "nav": {
-          "isha-upanishad": "Isha Upanishad",
-          "kena-upanishad": "Kena Upanishad",
-          "katha-upanishad": "Katha Upanishad",
-          "prashna-upanishad": "Prashna Upanishad",
-          "mundaka-upanishad": "Mundaka Upanishad",
-          "mandukya-upanishad": "Mandukya Upanishad",
-          "taittiriya-upanishad": "Taittiriya Upanishad",
-          "aitareya-upanishad": "Aitareya Upanishad",
-          "chandogya-upanishad": "Chandogya Upanishad",
-          "brihadaranyaka-upanishad": "Brihadaranyaka Upanishad",
-          "shvetashvatara-upanishad": "Shvetashvatara Upanishad",
-          "kaushitaki-upanishad": "Kaushitaki Upanishad",
-          "maitri-upanishad": "Maitri Upanishad"
-        }
-      },
-      "puranas": {
-        "title": "Puranas",
-        "basePath": "/puranas",
-        "nav": {
-          "brahma-purana": "Brahma Purana",
-          "padma-purana": "Padma Purana",
-          "vishnu-purana": "Vishnu Purana",
-          "shiva-purana": "Shiva Purana",
-          "bhagavata-purana": "Bhagavata Purana",
-          "narada-purana": "Narada Purana",
-          "markandeya-purana": "Markandeya Purana",
-          "agni-purana": "Agni Purana",
-          "bhavishya-purana": "Bhavishya Purana",
-          "brahmavaivarta-purana": "Brahmavaivarta Purana",
-          "linga-purana": "Linga Purana",
-          "varaha-purana": "Varaha Purana",
-          "skanda-purana": "Skanda Purana",
-          "vamana-purana": "Vamana Purana",
-          "kurma-purana": "Kurma Purana",
-          "matsya-purana": "Matsya Purana",
-          "garuda-purana": "Garuda Purana",
-          "brahmanda-purana": "Brahmanda Purana"
-        }
-      },
-      "itihasa": {
-        "title": "Itihasa",
-        "basePath": "/itihasa",
-        "nav": [
-          {
-            "name": "Ramayana",
-            "author": "Valmiki",
-            "description": "Epic describing the life of Lord Rama.",
-            "kandas": {
-              "bala-kanda": "Bala Kanda",
-              "ayodhya-kanda": "Ayodhya Kanda",
-              "aranya-kanda": "Aranya Kanda",
-              "kishkinda-kanda": "Kishkindha Kanda",
-              "sundara-kanda": "Sundara Kanda",
-              "yuddha-kanda": "Yuddha Kanda",
-              "uttara-kanda": "Uttara Kanda"
-            }
-          },
-          {
-            "name": "Mahabharata",
-            "author": "Vyasa",
-            "description": "Epic describing the Kurukshetra war and dharma.",
-            "parvas": 18
-          },
-          {
-            "description": "Sacred dialogue between Lord Krishna and Arjuna.",
-            "chapters": 18,
-            "verses": 700,
-            "chapters_list": {
-              "arjuna-vishada-yoga": "Arjuna Vishada Yoga",
-              "sankhya-yoga": "Sankhya Yoga",
-              "karma-yoga": "Karma Yoga",
-              "jnana-karma-sanyasa-yoga": "Jnana Karma Sanyasa Yoga",
-              "karma-sanyasa-yoga": "Karma Sanyasa Yoga",
-              "dhyana-yoga": "Dhyana Yoga",
-              "jnana-vijnana-yoga": "Jnana Vijnana Yoga",
-              "akshara-brahma-yoga": "Akshara Brahma Yoga",
-              "raja-vidya-raja-guhya-yoga": "Raja Vidya Raja Guhya Yoga",
-              "vibhuti-yoga": "Vibhuti Yoga",
-              "vishvarupa-darshana-yoga": "Vishvarupa Darshana Yoga",
-              "bhakti-yoga": "Bhakti Yoga",
-              "kshetra-kshetrajna-vibhaga-yoga": "Kshetra Kshetrajna Vibhaga Yoga",
-              "gunatraya-vibhaga-yoga": "Gunatraya Vibhaga Yoga",
-              "purushottama-yoga": "Purushottama Yoga",
-              "daivasura-sampad-vibhaga-yoga": "Daivasura Sampad Vibhaga Yoga",
-              "shraddhatray-vibhaga-yoga": "Shraddhatraya Vibhaga Yoga",
-              "moksha-sanyasa-yoga": "Moksha Sanyasa Yoga"
-            }
-          }
-        ]
-      },
-      "philosophy": {
-        "title": "Philosophy",
-        "basePath": "/philosophy",
-        "subtitle": "Vedic",
-        "nav": {
-          "advaita": "Advaita",
-          "purushartha": "Purushartha",
-          "samsara": "Samsara",
-          "dharma": "Dharma",
-          "karma": "Karma",
-          "moksha": "Moksha"
-        }
-      },
-      "science": {
-        "title": "Science",
-        "basePath": "/vedic-philosophy",
-        "subtitle": "Vedic",
-        "nav": {
-          "astronomy": "Astronomy",
-          "mathematics": "Mathematics",
-          "medicine": "Medicine",
-          "metallurgy": "Metallurgy",
-          "architecture": "Architecture"
-        }
-      },
-      "others": {
-        "title": "Sanātana dharmam",
-        "basePath": "",
-        "nav": {
-          "vedic-gods": "Vedic Gods",
-          "sanskrit-concepts": "Sanskrit Concepts",
-          "festivals": "Festivals",
-          "about": "About"
-        }
-      }
-    },
-    "scrolltotop": {
-      "title": "Back to top",
-      "arialabel": "Scroll to top"
-    },
-    "cookieconsent": {
-      "acceptall": "Accept all",
-      "cookiepolicy": "Cookie Policy",
-      "managerbutton": "Cookie Preference Manager",
-      "paragraph": "We use cookies to track visitors, measure ads, ad campaign effectiveness and analyze site traffic. We may also share information about your use of our site with 3rd parties. For more info, see our {cookiePolicyLink} and {privacyPolicyLink}. By clicking on \"{managerLabel}\" you can choose to enable only certain cookie categories. By clicking \"{acceptAllLabel}\" you agree to the storing of all cookies on your device. In case you don't choose one of these options and use our website we will treat it as if you have accepted all cookies.",
-      "privacypolicy": "Privacy Policy"
-    },
-    "cookiepolicy": {
-      "title": "Cookie Policy",
-      "datasharing": "Data sharing",
-      "datasharingdesc": "We may share aggregated information with third parties for analytics and advertising. No sensitive personal data is shared by default.",
-      "intro": "This Cookie Policy explains how we use cookies and similar technologies on our website.",
-      "lastupdated": "Last updated: {date}",
-      "managing": "Managing your preferences",
-      "managingdesc": "Open the Cookie Preference Manager from the banner to enable or disable categories. If you accept all cookies, we will store your choices and apply them across visits.",
-      "types": {
-        "functionality": "Functionality: Remember choices and preferences.",
-        "performance": "Performance: Help us analyze traffic and performance.",
-        "strictlynecessary": "Strictly necessary: Required for the site to function.",
-        "targeting": "Targeting: Used for advertising and personalization."
-      },
-      "typesheading": "Types of cookies we use",
-      "whatarecookies": "What are cookies?"
-    },
-    "policies": {
-      "cookiepolicy": {
-        "title": "Cookie Policy",
-        "datasharing": "Data sharing",
-        "datasharingdesc": "We may share aggregated information with third parties for analytics and advertising. No sensitive personal data is shared by default.",
-        "intro": "This Cookie Policy explains how we use cookies and similar technologies on our website.",
-        "lastupdated": "Last updated: {date}",
-        "managing": "Managing your preferences",
-        "managingdesc": "Open the Cookie Preference Manager from the banner to enable or disable categories. If you accept all cookies, we will store your choices and apply them across visits.",
-        "types": {
-          "functionality": "Functionality: Remember choices and preferences.",
-          "performance": "Performance: Help us analyze traffic and performance.",
-          "strictlynecessary": "Strictly necessary: Required for the site to function.",
-          "targeting": "Targeting: Used for advertising and personalization."
+    "sharable_strings": {
+        "sitetitle": "ساناتانا دارما",
+        "banner_notifications": {
+            "title": "إذا وجدت عملنا مفيدًا، فكر في دعمنا للحفاظ على صفحة الويب هذه",
+            "links": {
+                "alive": "/donate"
+            },
+            "subtitle": "وساعدنا على النمو من خلال التبرع الصغير."
         },
-        "typesheading": "Types of cookies we use",
-        "whatarecookies": "What are cookies?"
-      },
-      "privacypolicy": {
-        "title": "Privacy Policy",
-        "howweuse": "How we use information",
-        "howweusedesc": "Information is used to operate, maintain and provide the features of the website, and to analyze usage patterns.",
-        "informationdesc": "We collect information you provide, cookies, and anonymized analytics data to improve the service.",
-        "informationheading": "Information we collect",
-        "intro": "This Privacy Policy outlines how we collect, use and protect your personal information.",
-        "lastupdated": "Last updated: {date}",
-        "yourrights": "Your rights",
-        "yourrightsdesc": "You can request access, correction or deletion of your personal data by contacting us on the site."
-      }
-    },
-    "cosmic_time_structure": {
-      "mahayuga_total_years": 4320000,
-      "yugas": [
-        {
-          "name": "Satya Yuga",
-          "duration_years": 1728000,
-          "dharma_percentage": 100
+        "banner_notifications2": {
+            "title": "حماية جذور Sanātana Dharma من أجل مستقبل أكثر إشراقًا.",
+            "subtitle": "تمكين الأجيال القادمة من خلال المعرفة الفيدية الخالدة."
         },
-        {
-          "name": "Treta Yuga",
-          "duration_years": 1296000,
-          "dharma_percentage": 75
+        "header": {
+            "vedas": {
+                "title": "الفيدا",
+                "nav": [
+                    {
+                        "name": "ريجفيدا",
+                        "description": "أقدم الفيدا تتكون من ترانيم مخصصة لآلهة مختلفة."
+                    },
+                    {
+                        "name": "ياجورفيدا",
+                        "description": "يحتوي على صيغ القرابين المستخدمة في الطقوس."
+                    },
+                    {
+                        "name": "سامافيدا",
+                        "description": "مجموعة من الألحان والأناشيد المستخدمة في طقوس الغناء."
+                    },
+                    {
+                        "name": "أثارفافيدا",
+                        "description": "يحتوي على ترانيم وتعويذات وتعاليم فلسفية."
+                    }
+                ]
+            },
+            "upanishads": {
+                "title": "الأوبنشاد",
+                "nav": {
+                    "isha-upanishad": "العشاء أوبانيشاد",
+                    "kena-upanishad": "كينا أوبانيشاد",
+                    "katha-upanishad": "كاثا أوبانيشاد",
+                    "prashna-upanishad": "براشنا أوبانيشاد",
+                    "mundaka-upanishad": "مونداكا أوبانيشاد",
+                    "mandukya-upanishad": "ماندوكيا أوبانيشاد",
+                    "taittiriya-upanishad": "تيتيريا أوبانيشاد",
+                    "aitareya-upanishad": "ايتاريا أوبانيشاد",
+                    "chandogya-upanishad": "تشاندوجيا أوبانيشاد",
+                    "brihadaranyaka-upanishad": "بريهادارانياكا أوبانيشاد",
+                    "shvetashvatara-upanishad": "شفيتاشفاتارا أوبانيشاد",
+                    "kaushitaki-upanishad": "كوشيتاكي أوبانيشاد",
+                    "maitri-upanishad": "مايتري أوبانيشاد"
+                }
+            },
+            "puranas": {
+                "title": "بوراناس",
+                "nav": {
+                    "brahma-purana": "براهما بورانا",
+                    "padma-purana": "بادما بورانا",
+                    "vishnu-purana": "فيشنو بورانا",
+                    "shiva-purana": "شيفا بورانا",
+                    "bhagavata-purana": "بهاجافاتا بورانا",
+                    "narada-purana": "نارادا بورانا",
+                    "markandeya-purana": "ماركانديا بورانا",
+                    "agni-purana": "اجني بورانا",
+                    "bhavishya-purana": "بافيشيا بورانا",
+                    "brahmavaivarta-purana": "براهمافايفارتا بورانا",
+                    "linga-purana": "لينجا بورانا",
+                    "varaha-purana": "فاراها بورانا",
+                    "skanda-purana": "سكاندا بورانا",
+                    "vamana-purana": "فامانا بورانا",
+                    "kurma-purana": "كورما بورانا",
+                    "matsya-purana": "ماتسيا بورانا",
+                    "garuda-purana": "جارودا بورانا",
+                    "brahmanda-purana": "براهماندا بورانا"
+                }
+            },
+            "itihasa": {
+                "title": "إتهاسا",
+                "nav": [
+                    {
+                        "name": "رامايانا",
+                        "author": "فالميكي",
+                        "description": "ملحمة تصف حياة اللورد راما.",
+                        "kandas": {
+                            "bala-kanda": "بالا كاندا",
+                            "ayodhya-kanda": "ايوديا كاندا",
+                            "aranya-kanda": "أرانيا كاندا",
+                            "kishkinda-kanda": "كيشكيندا كاندا",
+                            "sundara-kanda": "سوندارا كاندا",
+                            "yuddha-kanda": "يودا كاندا",
+                            "uttara-kanda": "أوتارا كاندا"
+                        }
+                    },
+                    {
+                        "name": "ماهابهاراتا",
+                        "author": "فياسا",
+                        "description": "ملحمة تصف حرب كوروكشترا والدارما.",
+                        "parvas": 18
+                    },
+                    {
+                        "description": "الحوار المقدس بين اللورد كريشنا وأرجونا.",
+                        "chapters": 18,
+                        "verses": 700,
+                        "chapters_list": {
+                            "arjuna-vishada-yoga": "أرجونا فيشادا يوجا",
+                            "sankhya-yoga": "سانخيا يوجا",
+                            "karma-yoga": "كارما يوجا",
+                            "jnana-karma-sanyasa-yoga": "جنانا كارما سانياسا يوجا",
+                            "karma-sanyasa-yoga": "كارما سانياسا يوجا",
+                            "dhyana-yoga": "ديانا يوجا",
+                            "jnana-vijnana-yoga": "جنانا فيجنانا يوجا",
+                            "akshara-brahma-yoga": "Akshara Brahma Yoga",
+                            "raja-vidya-raja-guhya-yoga": "رجا فيديا رجا غوهيا يوجا",
+                            "vibhuti-yoga": "يوجا فيبهوتي",
+                            "vishvarupa-darshana-yoga": "يوجا فيشفاروبا دارشانا",
+                            "bhakti-yoga": "Bhakti Yoga",
+                            "kshetra-kshetrajna-vibhaga-yoga": "كشيترا كشيتراجنا فيبهاجا يوغا",
+                            "gunatraya-vibhaga-yoga": "غوناترايا فيبهاجا يوجا",
+                            "purushottama-yoga": "بوروشوتاما يوجا",
+                            "daivasura-sampad-vibhaga-yoga": "ديفاسورا سامباد فيبهاجا يوجا",
+                            "shraddhatray-vibhaga-yoga": "شراداترايا فيبهاجا يوغا",
+                            "moksha-sanyasa-yoga": "موكشا سانياسا يوجا"
+                        }
+                    }
+                ]
+            },
+            "philosopy": {
+                "title": "فلسفة",
+                "subtitle": "الفيدية",
+                "nav": {
+                    "advaita": "أدفايتا",
+                    "purushartha": "بوروشارتا",
+                    "samsara": "سامسارا",
+                    "dharma": "دارما",
+                    "karma": "كارما",
+                    "moksha": "موكشا"
+                }
+            },
+            "science": {
+                "title": "علوم",
+                "subtitle": "الفيدية",
+                "nav": {
+                    "astronomy": "علم الفلك",
+                    "mathematics": "الرياضيات",
+                    "medicine": "الدواء",
+                    "metallurgy": "علم المعادن",
+                    "architecture": "بنيان"
+                }
+            }
         },
-        {
-          "name": "Dvapara Yuga",
-          "duration_years": 864000,
-          "dharma_percentage": 50
+        "footer": {
+            "title": "تم تقديمه من قبل مزارعي الهند. حداثة الإدمان على المخدرات في سامهايام",
+            "contact": "اتصل بنا",
+            "contentchange": "قد يكون المحتوى غير مكتمل أو عرضة للتغيير.",
+            "copyright": "فولشي فيجايا كومار راجو © 2025.",
+            "disclaimer": "إخلاء المسؤولية: هذا الموقع قيد التطوير حاليًا.",
+            "donate": "يتبرع",
+            "vedas": {
+                "title": "الفيدا",
+                "nav": [
+                    {
+                        "name": "ريجفيدا",
+                        "description": "أقدم الفيدا تتكون من ترانيم مخصصة لآلهة مختلفة."
+                    },
+                    {
+                        "name": "ياجورفيدا",
+                        "description": "يحتوي على صيغ القرابين المستخدمة في الطقوس."
+                    },
+                    {
+                        "name": "سامافيدا",
+                        "description": "مجموعة من الألحان والأناشيد المستخدمة في طقوس الغناء."
+                    },
+                    {
+                        "name": "أثارفافيدا",
+                        "description": "يحتوي على ترانيم وتعويذات وتعاليم فلسفية."
+                    }
+                ]
+            },
+            "upanishads": {
+                "title": "الأوبنشاد",
+                "nav": {
+                    "isha-upanishad": "العشاء أوبانيشاد",
+                    "kena-upanishad": "كينا أوبانيشاد",
+                    "katha-upanishad": "كاثا أوبانيشاد",
+                    "prashna-upanishad": "براشنا أوبانيشاد",
+                    "mundaka-upanishad": "مونداكا أوبانيشاد",
+                    "mandukya-upanishad": "ماندوكيا أوبانيشاد",
+                    "taittiriya-upanishad": "تيتيريا أوبانيشاد",
+                    "aitareya-upanishad": "ايتاريا أوبانيشاد",
+                    "chandogya-upanishad": "تشاندوجيا أوبانيشاد",
+                    "brihadaranyaka-upanishad": "بريهادارانياكا أوبانيشاد",
+                    "shvetashvatara-upanishad": "شفيتاشفاتارا أوبانيشاد",
+                    "kaushitaki-upanishad": "كوشيتاكي أوبانيشاد",
+                    "maitri-upanishad": "مايتري أوبانيشاد"
+                }
+            },
+            "puranas": {
+                "title": "بوراناس",
+                "nav": {
+                    "brahma-purana": "براهما بورانا",
+                    "padma-purana": "بادما بورانا",
+                    "vishnu-purana": "فيشنو بورانا",
+                    "shiva-purana": "شيفا بورانا",
+                    "bhagavata-purana": "بهاجافاتا بورانا",
+                    "narada-purana": "نارادا بورانا",
+                    "markandeya-purana": "ماركانديا بورانا",
+                    "agni-purana": "اجني بورانا",
+                    "bhavishya-purana": "بافيشيا بورانا",
+                    "brahmavaivarta-purana": "براهمافايفارتا بورانا",
+                    "linga-purana": "لينجا بورانا",
+                    "varaha-purana": "فاراها بورانا",
+                    "skanda-purana": "سكاندا بورانا",
+                    "vamana-purana": "فامانا بورانا",
+                    "kurma-purana": "كورما بورانا",
+                    "matsya-purana": "ماتسيا بورانا",
+                    "garuda-purana": "جارودا بورانا",
+                    "brahmanda-purana": "براهماندا بورانا"
+                }
+            },
+            "itihasa": {
+                "title": "إتهاسا",
+                "nav": [
+                    {
+                        "name": "رامايانا",
+                        "author": "فالميكي",
+                        "description": "ملحمة تصف حياة اللورد راما.",
+                        "kandas": {
+                            "bala-kanda": "بالا كاندا",
+                            "ayodhya-kanda": "ايوديا كاندا",
+                            "aranya-kanda": "أرانيا كاندا",
+                            "kishkinda-kanda": "كيشكيندا كاندا",
+                            "sundara-kanda": "سوندارا كاندا",
+                            "yuddha-kanda": "يودا كاندا",
+                            "uttara-kanda": "أوتارا كاندا"
+                        }
+                    },
+                    {
+                        "name": "ماهابهاراتا",
+                        "author": "فياسا",
+                        "description": "ملحمة تصف حرب كوروكشترا والدارما.",
+                        "parvas": 18
+                    },
+                    {
+                        "description": "الحوار المقدس بين اللورد كريشنا وأرجونا.",
+                        "chapters": 18,
+                        "verses": 700,
+                        "chapters_list": {
+                            "arjuna-vishada-yoga": "أرجونا فيشادا يوجا",
+                            "sankhya-yoga": "سانخيا يوجا",
+                            "karma-yoga": "كارما يوجا",
+                            "jnana-karma-sanyasa-yoga": "جنانا كارما سانياسا يوجا",
+                            "karma-sanyasa-yoga": "كارما سانياسا يوجا",
+                            "dhyana-yoga": "ديانا يوجا",
+                            "jnana-vijnana-yoga": "جنانا فيجنانا يوجا",
+                            "akshara-brahma-yoga": "Akshara Brahma Yoga",
+                            "raja-vidya-raja-guhya-yoga": "رجا فيديا رجا غوهيا يوجا",
+                            "vibhuti-yoga": "يوجا فيبهوتي",
+                            "vishvarupa-darshana-yoga": "يوجا فيشفاروبا دارشانا",
+                            "bhakti-yoga": "Bhakti Yoga",
+                            "kshetra-kshetrajna-vibhaga-yoga": "كشيترا كشيتراجنا فيبهاجا يوغا",
+                            "gunatraya-vibhaga-yoga": "غوناترايا فيبهاجا يوجا",
+                            "purushottama-yoga": "بوروشوتاما يوجا",
+                            "daivasura-sampad-vibhaga-yoga": "ديفاسورا سامباد فيبهاجا يوجا",
+                            "shraddhatray-vibhaga-yoga": "شراداترايا فيبهاجا يوغا",
+                            "moksha-sanyasa-yoga": "موكشا سانياسا يوجا"
+                        }
+                    }
+                ]
+            },
+            "philosophy": {
+                "title": "فلسفة",
+                "subtitle": "الفيدية",
+                "nav": {
+                    "advaita": "أدفايتا",
+                    "purushartha": "بوروشارتا",
+                    "samsara": "سامسارا",
+                    "dharma": "دارما",
+                    "karma": "كارما",
+                    "moksha": "موكشا"
+                }
+            },
+            "science": {
+                "title": "علوم",
+                "subtitle": "الفيدية",
+                "nav": {
+                    "astronomy": "علم الفلك",
+                    "mathematics": "الرياضيات",
+                    "medicine": "الدواء",
+                    "metallurgy": "علم المعادن",
+                    "architecture": "بنيان"
+                }
+            },
+            "others": {
+                "title": "ساناتانا دارم",
+                "nav": {
+                    "vedic-gods": "الآلهة الفيدية",
+                    "sanskrit-concepts": "المفاهيم السنسكريتية",
+                    "festivals": "Festivals",
+                    "about": "عن"
+                }
+            },
+            "privacy": "سياسة الخصوصية",
+            "quote": "عندما يتراجع البر ويرتفع الإثم، فإنني أُظهر ذاتي. لحماية الصالحين، وإبادة الأشرار، وإعادة تأسيس مبادئ دارما، أظهر ألفًا بعد ألف عام.",
+            "quotesource": "(باجافاد جيتا 4.7)",
+            "terms": "شروط الخدمة"
         },
-        {
-          "name": "Kali Yuga",
-          "duration_years": 432000,
-          "dharma_percentage": 25
+        "similar_categories": {
+            "vedas": {
+                "title": "الفيدا",
+                "basePath": "/vedas",
+                "nav": [
+                    {
+                        "name": "ريجفيدا",
+                        "description": "أقدم الفيدا تتكون من ترانيم مخصصة لآلهة مختلفة."
+                    },
+                    {
+                        "name": "ياجورفيدا",
+                        "description": "يحتوي على صيغ القرابين المستخدمة في الطقوس."
+                    },
+                    {
+                        "name": "سامافيدا",
+                        "description": "مجموعة من الألحان والأناشيد المستخدمة في طقوس الغناء."
+                    },
+                    {
+                        "name": "أثارفافيدا",
+                        "description": "يحتوي على ترانيم وتعويذات وتعاليم فلسفية."
+                    }
+                ]
+            },
+            "upanishads": {
+                "title": "الأوبنشاد",
+                "basePath": "/upanishads",
+                "nav": {
+                    "isha-upanishad": "العشاء أوبانيشاد",
+                    "kena-upanishad": "كينا أوبانيشاد",
+                    "katha-upanishad": "كاثا أوبانيشاد",
+                    "prashna-upanishad": "براشنا أوبانيشاد",
+                    "mundaka-upanishad": "مونداكا أوبانيشاد",
+                    "mandukya-upanishad": "ماندوكيا أوبانيشاد",
+                    "taittiriya-upanishad": "تيتيريا أوبانيشاد",
+                    "aitareya-upanishad": "ايتاريا أوبانيشاد",
+                    "chandogya-upanishad": "تشاندوجيا أوبانيشاد",
+                    "brihadaranyaka-upanishad": "بريهادارانياكا أوبانيشاد",
+                    "shvetashvatara-upanishad": "شفيتاشفاتارا أوبانيشاد",
+                    "kaushitaki-upanishad": "كوشيتاكي أوبانيشاد",
+                    "maitri-upanishad": "مايتري أوبانيشاد"
+                }
+            },
+            "puranas": {
+                "title": "بوراناس",
+                "basePath": "/puranas",
+                "nav": {
+                    "brahma-purana": "براهما بورانا",
+                    "padma-purana": "بادما بورانا",
+                    "vishnu-purana": "فيشنو بورانا",
+                    "shiva-purana": "شيفا بورانا",
+                    "bhagavata-purana": "بهاجافاتا بورانا",
+                    "narada-purana": "نارادا بورانا",
+                    "markandeya-purana": "ماركانديا بورانا",
+                    "agni-purana": "اجني بورانا",
+                    "bhavishya-purana": "بافيشيا بورانا",
+                    "brahmavaivarta-purana": "براهمافايفارتا بورانا",
+                    "linga-purana": "لينجا بورانا",
+                    "varaha-purana": "فاراها بورانا",
+                    "skanda-purana": "سكاندا بورانا",
+                    "vamana-purana": "فامانا بورانا",
+                    "kurma-purana": "كورما بورانا",
+                    "matsya-purana": "ماتسيا بورانا",
+                    "garuda-purana": "جارودا بورانا",
+                    "brahmanda-purana": "براهماندا بورانا"
+                }
+            },
+            "itihasa": {
+                "title": "إتهاسا",
+                "basePath": "/itihasa",
+                "nav": [
+                    {
+                        "name": "رامايانا",
+                        "author": "فالميكي",
+                        "description": "ملحمة تصف حياة اللورد راما.",
+                        "kandas": {
+                            "bala-kanda": "بالا كاندا",
+                            "ayodhya-kanda": "ايوديا كاندا",
+                            "aranya-kanda": "أرانيا كاندا",
+                            "kishkinda-kanda": "كيشكيندا كاندا",
+                            "sundara-kanda": "سوندارا كاندا",
+                            "yuddha-kanda": "يودا كاندا",
+                            "uttara-kanda": "أوتارا كاندا"
+                        }
+                    },
+                    {
+                        "name": "ماهابهاراتا",
+                        "author": "فياسا",
+                        "description": "ملحمة تصف حرب كوروكشترا والدارما.",
+                        "parvas": 18
+                    },
+                    {
+                        "description": "الحوار المقدس بين اللورد كريشنا وأرجونا.",
+                        "chapters": 18,
+                        "verses": 700,
+                        "chapters_list": {
+                            "arjuna-vishada-yoga": "أرجونا فيشادا يوجا",
+                            "sankhya-yoga": "سانخيا يوجا",
+                            "karma-yoga": "كارما يوجا",
+                            "jnana-karma-sanyasa-yoga": "جنانا كارما سانياسا يوجا",
+                            "karma-sanyasa-yoga": "كارما سانياسا يوجا",
+                            "dhyana-yoga": "ديانا يوجا",
+                            "jnana-vijnana-yoga": "جنانا فيجنانا يوجا",
+                            "akshara-brahma-yoga": "Akshara Brahma Yoga",
+                            "raja-vidya-raja-guhya-yoga": "رجا فيديا رجا غوهيا يوجا",
+                            "vibhuti-yoga": "يوجا فيبهوتي",
+                            "vishvarupa-darshana-yoga": "يوجا فيشفاروبا دارشانا",
+                            "bhakti-yoga": "Bhakti Yoga",
+                            "kshetra-kshetrajna-vibhaga-yoga": "كشيترا كشيتراجنا فيبهاجا يوغا",
+                            "gunatraya-vibhaga-yoga": "غوناترايا فيبهاجا يوجا",
+                            "purushottama-yoga": "بوروشوتاما يوجا",
+                            "daivasura-sampad-vibhaga-yoga": "ديفاسورا سامباد فيبهاجا يوجا",
+                            "shraddhatray-vibhaga-yoga": "شراداترايا فيبهاجا يوغا",
+                            "moksha-sanyasa-yoga": "موكشا سانياسا يوجا"
+                        }
+                    }
+                ]
+            },
+            "philosophy": {
+                "title": "فلسفة",
+                "basePath": "/philosophy",
+                "subtitle": "الفيدية",
+                "nav": {
+                    "advaita": "أدفايتا",
+                    "purushartha": "بوروشارتا",
+                    "samsara": "سامسارا",
+                    "dharma": "دارما",
+                    "karma": "كارما",
+                    "moksha": "موكشا"
+                }
+            },
+            "science": {
+                "title": "علوم",
+                "basePath": "/vedic-philosophy",
+                "subtitle": "الفيدية",
+                "nav": {
+                    "astronomy": "علم الفلك",
+                    "mathematics": "الرياضيات",
+                    "medicine": "الدواء",
+                    "metallurgy": "علم المعادن",
+                    "architecture": "بنيان"
+                }
+            },
+            "others": {
+                "title": "ساناتانا دارم",
+                "basePath": "",
+                "nav": {
+                    "vedic-gods": "الآلهة الفيدية",
+                    "sanskrit-concepts": "المفاهيم السنسكريتية",
+                    "festivals": "Festivals",
+                    "about": "عن"
+                }
+            }
+        },
+        "scrolltotop": {
+            "title": "العودة إلى الأعلى",
+            "arialabel": "قم بالتمرير إلى الأعلى"
+        },
+        "cookieconsent": {
+            "acceptall": "قبول الكل",
+            "cookiepolicy": "سياسة ملفات تعريف الارتباط",
+            "managerbutton": "مدير تفضيلات ملفات تعريف الارتباط",
+            "paragraph": "نحن نستخدم ملفات تعريف الارتباط لتتبع الزوار وقياس الإعلانات وفعالية الحملة الإعلانية وتحليل حركة مرور الموقع. يجوز لنا أيضًا مشاركة المعلومات حول استخدامك لموقعنا مع أطراف ثالثة. لمزيد من المعلومات، راجع {cookiePolicyLink} و{privacyPolicyLink}. من خلال النقر على \"{managerLabel}\" يمكنك اختيار تمكين فئات معينة فقط من ملفات تعريف الارتباط. بالنقر على \"{acceptAllLabel}\" فإنك توافق على تخزين جميع ملفات تعريف الارتباط على جهازك. في حالة عدم اختيار أحد هذه الخيارات واستخدام موقعنا، فسنتعامل معه كما لو كنت قد قبلت جميع ملفات تعريف الارتباط.",
+            "privacypolicy": "سياسة الخصوصية"
+        },
+        "cookiepolicy": {
+            "title": "سياسة ملفات تعريف الارتباط",
+            "datasharing": "مشاركة البيانات",
+            "datasharingdesc": "يجوز لنا مشاركة المعلومات المجمعة مع أطراف ثالثة لأغراض التحليلات والإعلانات. لا تتم مشاركة أي بيانات شخصية حساسة بشكل افتراضي.",
+            "intro": "تشرح سياسة ملفات تعريف الارتباط هذه كيف نستخدم ملفات تعريف الارتباط والتقنيات المشابهة على موقعنا.",
+            "lastupdated": "آخر تحديث: {التاريخ}",
+            "managing": "إدارة تفضيلاتك",
+            "managingdesc": "افتح مدير تفضيلات ملفات تعريف الارتباط من اللافتة لتمكين الفئات أو تعطيلها. إذا قبلت جميع ملفات تعريف الارتباط، فسنقوم بتخزين اختياراتك وتطبيقها عبر الزيارات.",
+            "types": {
+                "functionality": "الوظيفة: تذكر الاختيارات والتفضيلات.",
+                "performance": "الأداء: ساعدنا في تحليل حركة المرور والأداء.",
+                "strictlynecessary": "ضروري للغاية: مطلوب حتى يعمل الموقع.",
+                "targeting": "الاستهداف: يستخدم للإعلان والتخصيص."
+            },
+            "typesheading": "أنواع ملفات تعريف الارتباط التي نستخدمها",
+            "whatarecookies": "ما هي ملفات تعريف الارتباط؟"
+        },
+        "policies": {
+            "cookiepolicy": {
+                "title": "سياسة ملفات تعريف الارتباط",
+                "datasharing": "مشاركة البيانات",
+                "datasharingdesc": "يجوز لنا مشاركة المعلومات المجمعة مع أطراف ثالثة لأغراض التحليلات والإعلانات. لا تتم مشاركة أي بيانات شخصية حساسة بشكل افتراضي.",
+                "intro": "تشرح سياسة ملفات تعريف الارتباط هذه كيف نستخدم ملفات تعريف الارتباط والتقنيات المشابهة على موقعنا.",
+                "lastupdated": "آخر تحديث: {التاريخ}",
+                "managing": "إدارة تفضيلاتك",
+                "managingdesc": "افتح مدير تفضيلات ملفات تعريف الارتباط من اللافتة لتمكين الفئات أو تعطيلها. إذا قبلت جميع ملفات تعريف الارتباط، فسنقوم بتخزين اختياراتك وتطبيقها عبر الزيارات.",
+                "types": {
+                    "functionality": "الوظيفة: تذكر الاختيارات والتفضيلات.",
+                    "performance": "الأداء: ساعدنا في تحليل حركة المرور والأداء.",
+                    "strictlynecessary": "ضروري للغاية: مطلوب حتى يعمل الموقع.",
+                    "targeting": "الاستهداف: يستخدم للإعلان والتخصيص."
+                },
+                "typesheading": "أنواع ملفات تعريف الارتباط التي نستخدمها",
+                "whatarecookies": "ما هي ملفات تعريف الارتباط؟"
+            },
+            "privacypolicy": {
+                "title": "سياسة الخصوصية",
+                "howweuse": "كيف نستخدم المعلومات",
+                "howweusedesc": "يتم استخدام المعلومات لتشغيل وصيانة وتوفير ميزات الموقع، وتحليل أنماط الاستخدام.",
+                "informationdesc": "نقوم بجمع المعلومات التي تقدمها وملفات تعريف الارتباط وبيانات التحليلات مجهولة المصدر لتحسين الخدمة.",
+                "informationheading": "المعلومات التي نجمعها",
+                "intro": "توضح سياسة الخصوصية هذه كيفية جمع معلوماتك الشخصية واستخدامها وحمايتها.",
+                "lastupdated": "آخر تحديث: {التاريخ}",
+                "yourrights": "حقوقك",
+                "yourrightsdesc": "يمكنك طلب الوصول إلى بياناتك الشخصية أو تصحيحها أو حذفها عن طريق التواصل معنا على الموقع."
+            }
+        },
+        "cosmic_time_structure": {
+            "mahayuga_total_years": 4320000,
+            "yugas": [
+                {
+                    "name": "ساتيا يوجا",
+                    "duration_years": 1728000,
+                    "dharma_percentage": 100
+                },
+                {
+                    "name": "تريتا يوجا",
+                    "duration_years": 1296000,
+                    "dharma_percentage": 75
+                },
+                {
+                    "name": "دفابارا يوجا",
+                    "duration_years": 864000,
+                    "dharma_percentage": 50
+                },
+                {
+                    "name": "كالي يوجا",
+                    "duration_years": 432000,
+                    "dharma_percentage": 25
+                }
+            ]
+        },
+        "dashavatara": [
+            {
+                "order": 1,
+                "name": "ماتسيا",
+                "type": "مائي",
+                "yuga": "ساتيا يوجا",
+                "purpose": "أنقذ الفيدا ومانو من الطوفان الكوني",
+                "primary_antagonist": "هاياجريفا (في بعض التقاليد)",
+                "associated_texts": [
+                    "بهاجافاتا بورانا",
+                    "فيشنو بورانا"
+                ],
+                "symbolism": "بداية الحياة؛ الحفاظ على المعرفة",
+                "evolutionary_symbolism": "مرحلة الحياة المائية"
+            },
+            {
+                "order": 2,
+                "name": "كورما",
+                "type": "برمائية",
+                "yuga": "ساتيا يوجا",
+                "purpose": "دعم جبل ماندارا خلال Samudra Manthana",
+                "primary_event": "تموج المحيط",
+                "associated_texts": [
+                    "بهاجافاتا بورانا",
+                    "ماهابهاراتا"
+                ],
+                "symbolism": "الاستقرار والدعم الكوني",
+                "evolutionary_symbolism": "التحول البرمائي"
+            },
+            {
+                "order": 3,
+                "name": "فاراها",
+                "type": "الثدييات الأرضية",
+                "yuga": "ساتيا يوجا",
+                "purpose": "أنقذ بوديفي (الأرض) من هيرانياكشا",
+                "primary_antagonist": "هيرانياكشا",
+                "associated_texts": [
+                    "فيشنو بورانا"
+                ],
+                "symbolism": "استعادة الأرض والنظام الكوني",
+                "evolutionary_symbolism": "مرحلة الحيوانات البرية"
+            },
+            {
+                "order": 4,
+                "name": "ناراسيمها",
+                "type": "رجل الأسد",
+                "yuga": "ساتيا يوجا",
+                "purpose": "حماية Prahlada وتدمير Hiranyakashipu",
+                "primary_antagonist": "هيرانياكاشيبو",
+                "associated_texts": [
+                    "بهاجافاتا بورانا"
+                ],
+                "symbolism": "التدخل الإلهي خارج القيود المنطقية",
+                "evolutionary_symbolism": "التحول من الحيوان إلى الإنسان"
+            },
+            {
+                "order": 5,
+                "name": "فامانا",
+                "type": "قزم براهمين",
+                "yuga": "تريتا يوجا",
+                "purpose": "إخضاع الملك بالي واستعادة التوازن الكوني",
+                "primary_antagonist": "ماهابالي",
+                "associated_texts": [
+                    "فيشنو بورانا"
+                ],
+                "symbolism": "التواضع والذكاء الإلهي",
+                "evolutionary_symbolism": "ظهور الإنسان الفكري"
+            },
+            {
+                "order": 6,
+                "name": "باراشوراما",
+                "type": "حكيم المحارب",
+                "yuga": "الراحل تريتا يوجا",
+                "purpose": "تدمير حكام كشاتريا الفاسدين",
+                "weapon": "باراشو (الفأس)",
+                "associated_texts": [
+                    "ماهابهاراتا",
+                    "بوراناس"
+                ],
+                "symbolism": "إعادة ضبط النظام الاجتماعي",
+                "evolutionary_symbolism": "المجتمع المحارب البدائي"
+            },
+            {
+                "order": 7,
+                "name": "راما",
+                "type": "الملك المثالي",
+                "yuga": "تريتا يوجا",
+                "purpose": "تدمير رافانا وإقامة الحكم الصالح",
+                "primary_antagonist": "رافانا",
+                "associated_texts": [
+                    "رامايانا"
+                ],
+                "symbolism": "تجسيد دارما",
+                "evolutionary_symbolism": "الدولة الأخلاقية المتحضرة"
+            },
+            {
+                "order": 8,
+                "name": "كريشنا",
+                "type": "رجل الدولة الإلهي",
+                "yuga": "دفابارا يوجا",
+                "purpose": "توجيه الإنسانية من خلال حرب ماهابهاراتا",
+                "primary_antagonist": "كورافاس (الأدارما الجماعية)",
+                "associated_texts": [
+                    "ماهابهاراتا",
+                    "باجافاد جيتا"
+                ],
+                "symbolism": "الحكمة الإلهية والبهاكتي",
+                "evolutionary_symbolism": "الوعي الاجتماعي المتقدم"
+            },
+            {
+                "order": 9,
+                "name": "بوذا",
+                "type": "المعلم المثقف",
+                "yuga": "أوائل كالي يوجا",
+                "purpose": "إصلاح الطقوس الزائدة وتعزيز الرحمة",
+                "historical_identity": "سيدهارتا غوتاما",
+                "associated_texts": [
+                    "بهاجافاتا بورانا (تفسير فايشنافا)"
+                ],
+                "symbolism": "الرحمة والتأمل",
+                "evolutionary_symbolism": "الصحوة الفلسفية"
+            },
+            {
+                "order": 10,
+                "name": "كالكي",
+                "type": "محارب المستقبل",
+                "yuga": "نهاية كالي يوجا",
+                "status": "مستقبل",
+                "purpose": "تدمير الأدارما وإعادة ضبط الدورة الكونية",
+                "associated_texts": [
+                    "فيشنو بورانا",
+                    "بهاجافاتا بورانا"
+                ],
+                "symbolism": "التجديد الدوري",
+                "evolutionary_symbolism": "التحول والولادة"
+            }
+        ],
+        "interpretations": {
+            "theological_view": "تظهر الصور الرمزية لاستعادة الدارما عندما تنخفض (بهجافاد جيتا 4.7-8).",
+            "symbolic_view": "يمثل التطور الروحي للوعي.",
+            "comparative_mythology_view": "أسطورة الفيضان توازي التقاليد العالمية.",
+            "cyclical_time_concept": "الوقت غير خطي ومتجدد.",
+            "current_cycle": {
+                "current_yuga": "كالي يوجا",
+                "kali_yuga_started_bce": 3102,
+                "years_elapsed_in_kali_yuga_approx": 5100
+            },
+            "earth_age_comparison_note": "1 كالبا (4.32 مليار سنة) قريب بشكل مدهش من التقدير العلمي الحديث لعمر الأرض (حوالي 4.54 مليار سنة).",
+            "scaling_comment": "هذا المقياس الرياضي منظم للغاية ومتناسب عبر جميع المستويات الكونية."
         }
-      ]
-    },
-    "dashavatara": [
-      {
-        "order": 1,
-        "name": "Matsya",
-        "type": "Aquatic",
-        "yuga": "Satya Yuga",
-        "purpose": "Rescue the Vedas and Manu from the cosmic flood",
-        "primary_antagonist": "Hayagriva (in some traditions)",
-        "associated_texts": ["Bhagavata Purana", "Vishnu Purana"],
-        "symbolism": "Beginning of life; preservation of knowledge",
-        "evolutionary_symbolism": "Aquatic life stage"
-      },
-      {
-        "order": 2,
-        "name": "Kurma",
-        "type": "Amphibian",
-        "yuga": "Satya Yuga",
-        "purpose": "Support Mount Mandara during Samudra Manthana",
-        "primary_event": "Churning of the Ocean",
-        "associated_texts": ["Bhagavata Purana", "Mahabharata"],
-        "symbolism": "Stability and cosmic support",
-        "evolutionary_symbolism": "Amphibian transition"
-      },
-      {
-        "order": 3,
-        "name": "Varaha",
-        "type": "Terrestrial Mammal",
-        "yuga": "Satya Yuga",
-        "purpose": "Rescue Bhudevi (Earth) from Hiranyaksha",
-        "primary_antagonist": "Hiranyaksha",
-        "associated_texts": ["Vishnu Purana"],
-        "symbolism": "Restoration of Earth and cosmic order",
-        "evolutionary_symbolism": "Land animal stage"
-      },
-      {
-        "order": 4,
-        "name": "Narasimha",
-        "type": "Man-Lion",
-        "yuga": "Satya Yuga",
-        "purpose": "Protect Prahlada and destroy Hiranyakashipu",
-        "primary_antagonist": "Hiranyakashipu",
-        "associated_texts": ["Bhagavata Purana"],
-        "symbolism": "Divine intervention beyond logical constraints",
-        "evolutionary_symbolism": "Transition from animal to human"
-      },
-      {
-        "order": 5,
-        "name": "Vamana",
-        "type": "Dwarf Brahmin",
-        "yuga": "Treta Yuga",
-        "purpose": "Subdue King Bali and restore cosmic balance",
-        "primary_antagonist": "Mahabali",
-        "associated_texts": ["Vishnu Purana"],
-        "symbolism": "Humility and divine intelligence",
-        "evolutionary_symbolism": "Emergence of intellectual human"
-      },
-      {
-        "order": 6,
-        "name": "Parashurama",
-        "type": "Warrior Sage",
-        "yuga": "Late Treta Yuga",
-        "purpose": "Destroy corrupt Kshatriya rulers",
-        "weapon": "Parashu (Axe)",
-        "associated_texts": ["Mahabharata", "Puranas"],
-        "symbolism": "Reset of social order",
-        "evolutionary_symbolism": "Primitive warrior society"
-      },
-      {
-        "order": 7,
-        "name": "Rama",
-        "type": "Ideal King",
-        "yuga": "Treta Yuga",
-        "purpose": "Destroy Ravana and establish righteous rule",
-        "primary_antagonist": "Ravana",
-        "associated_texts": ["Ramayana"],
-        "symbolism": "Embodiment of Dharma",
-        "evolutionary_symbolism": "Civilized moral state"
-      },
-      {
-        "order": 8,
-        "name": "Krishna",
-        "type": "Divine Statesman",
-        "yuga": "Dvapara Yuga",
-        "purpose": "Guide humanity through Mahabharata war",
-        "primary_antagonist": "Kauravas (collective adharma)",
-        "associated_texts": ["Mahabharata", "Bhagavad Gita"],
-        "symbolism": "Divine wisdom and bhakti",
-        "evolutionary_symbolism": "Advanced social consciousness"
-      },
-      {
-        "order": 9,
-        "name": "Buddha",
-        "type": "Enlightened Teacher",
-        "yuga": "Early Kali Yuga",
-        "purpose": "Reform ritual excess and promote compassion",
-        "historical_identity": "Siddhartha Gautama",
-        "associated_texts": ["Bhagavata Purana (Vaishnava interpretation)"],
-        "symbolism": "Compassion and introspection",
-        "evolutionary_symbolism": "Philosophical awakening"
-      },
-      {
-        "order": 10,
-        "name": "Kalki",
-        "type": "Future Warrior",
-        "yuga": "End of Kali Yuga",
-        "status": "Future",
-        "purpose": "Destroy adharma and reset cosmic cycle",
-        "associated_texts": ["Vishnu Purana", "Bhagavata Purana"],
-        "symbolism": "Cyclical renewal",
-        "evolutionary_symbolism": "Transformation and rebirth"
-      }
-    ],
-    "interpretations": {
-      "theological_view": "Avatars manifest to restore dharma when it declines (Bhagavad Gita 4.7-8).",
-      "symbolic_view": "Represents spiritual evolution of consciousness.",
-      "comparative_mythology_view": "Flood myth parallels global traditions.",
-      "cyclical_time_concept": "Time is non-linear and regenerative.",
-      "current_cycle": {
-        "current_yuga": "Kali Yuga",
-        "kali_yuga_started_bce": 3102,
-        "years_elapsed_in_kali_yuga_approx": 5100
-      },
-      "earth_age_comparison_note": "1 Kalpa (4.32 billion years) is surprisingly close to the modern scientific estimate of Earth's age (~4.54 billion years).",
-      "scaling_comment": "This mathematical scaling is highly structured and proportional across all cosmic levels."
     }
-  }
 }

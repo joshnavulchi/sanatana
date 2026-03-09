@@ -1,61 +1,61 @@
 {
-    "scriptures_mahabharata": {
-        "title": "摩诃婆罗多——佛法、伦理和人类选择的伊蒂哈萨",
-        "description": "探索《摩诃婆罗多》：探索佛法、冲突、责任和人类决策的复杂性的巨大伊蒂哈萨。",
-        "meta": {
-            "title": "摩诃婆罗多——佛法、伦理和人类选择的伊蒂哈萨",
-            "canonical": "https://sanatanadharmam.in/itihasa/mahabharata",
-            "description": "探索《摩诃婆罗多》：探索佛法、冲突、责任和人类决策的复杂性的巨大伊蒂哈萨。",
-            "keywords": [
-                "摩诃婆罗多",
-                "伊蒂哈萨",
-                "维亚萨",
-                "法",
-                "伦理",
-                "萨那塔那佛法"
-            ],
-            "robots": "索引，关注",
-            "url": "https://sanatanadharmam.in/itihasa/mahabharata",
-            "ogImage": "https://sanatanadharmam.in/og/scriptures_mahabharata.png"
-        },
-        "openGraph": {
-            "title": "摩诃婆罗多——佛法、伦理和人类选择的伊蒂哈萨",
-            "description": "探索《摩诃婆罗多》：探索佛法、冲突、责任和人类决策的复杂性的巨大伊蒂哈萨。",
-            "url": "https://sanatanadharmam.in/itihasa/mahabharata",
-            "siteName": "萨那塔达曼",
-            "type": "文章",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/scriptures_mahabharata.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@type": "文章",
-            "name": "摩诃婆罗多——佛法、伦理和人类选择的伊蒂哈萨",
-            "description": "探索《摩诃婆罗多》：探索佛法、冲突、责任和人类决策的复杂性的巨大伊蒂哈萨。",
-            "url": "https://sanatanadharmam.in/itihasa/mahabharata",
-            "isPartOf": {
-                "@type": "网站",
-                "name": "萨那塔达曼",
-                "url": "https://sanatanadharmam.in"
-            }
-        },
-        "introduction": "《摩诃婆罗多》是一部巨大的《伊蒂哈萨》，传统上归因于马哈希·维亚萨 (Maharshi Vyasa)。它既是一部史诗般的叙事，也是伦理辩论、精神教导和社会反思的百科全书式来源。通过潘达瓦家族和考拉瓦家族之间的冲突，它审视了责任、野心、忠诚以及代际选择的后果。\n\n这也是《薄伽梵歌》出现的更广泛的背景，将精神指导与现实生活中最困难的问题联系起来。",
-        "scripture_text": [
-            {
-                "section": "结构（帕尔瓦斯）",
-                "content": "《摩诃婆罗多》通常分为十八卷。帕尔瓦斯包含多个相互交织的故事、对话和教义，而不是单一的线性情节。"
-            },
-            {
-                "section": "道德探究",
-                "content": "《摩诃婆罗多》的一个显着特征是它愿意呈现道德模糊性。人物面临着每一个选择都有代价的困境，文本经常将佛法描述为需要通过反思、劝告和自我诚实来辨别的东西。"
-            }
-        ],
-        "philosophical_explanation": "《摩诃婆罗多》的哲学与其现实主义密不可分。它教导我们，佛法并不总是显而易见的，意图、背景和结果都很重要。它还强调了内在状态——愤怒、嫉妒、恐惧、骄傲——如何塑造外在结果。\n\n作为精神文学，《摩诃婆罗多》推动读者走向成熟：更稳定的思想、更广泛的同情心，以及即使在不完美的条件下也能负责任地采取行动的能力。"
-    }
+  "scriptures_mahabharata": {
+    "title": "摩诃婆罗多——佛法、伦理和人类选择的伊蒂哈萨",
+    "description": "探索《摩诃婆罗多》：探索佛法、冲突、责任和人类决策的复杂性的巨大伊蒂哈萨。",
+    "meta": {
+      "title": "摩诃婆罗多——佛法、伦理和人类选择的伊蒂哈萨",
+      "canonical": "https://sanatanadharmam.in/itihasa/mahabharata",
+      "description": "探索《摩诃婆罗多》：探索佛法、冲突、责任和人类决策的复杂性的巨大伊蒂哈萨。",
+      "keywords": [
+        "摩诃婆罗多",
+        "伊蒂哈萨",
+        "维亚萨",
+        "法",
+        "伦理",
+        "萨那塔那佛法"
+      ],
+      "robots": "索引，关注",
+      "url": "https://sanatanadharmam.in/itihasa/mahabharata",
+      "ogImage": "https://sanatanadharmam.in/og/scriptures_mahabharata.png"
+    },
+    "openGraph": {
+      "title": "摩诃婆罗多——佛法、伦理和人类选择的伊蒂哈萨",
+      "description": "探索《摩诃婆罗多》：探索佛法、冲突、责任和人类决策的复杂性的巨大伊蒂哈萨。",
+      "url": "https://sanatanadharmam.in/itihasa/mahabharata",
+      "siteName": "萨那塔达曼",
+      "type": "文章",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/scriptures_mahabharata.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "文章",
+      "name": "摩诃婆罗多——佛法、伦理和人类选择的伊蒂哈萨",
+      "description": "探索《摩诃婆罗多》：探索佛法、冲突、责任和人类决策的复杂性的巨大伊蒂哈萨。",
+      "url": "https://sanatanadharmam.in/itihasa/mahabharata",
+      "isPartOf": {
+        "@type": "网站",
+        "name": "萨那塔达曼",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "introduction": "《摩诃婆罗多》是一部巨大的《伊蒂哈萨》，传统上归因于马哈希·维亚萨 (Maharshi Vyasa)。它既是一部史诗般的叙事，也是伦理辩论、精神教导和社会反思的百科全书式来源。通过潘达瓦家族和考拉瓦家族之间的冲突，它审视了责任、野心、忠诚以及代际选择的后果。\n\n这也是《薄伽梵歌》出现的更广泛的背景，将精神指导与现实生活中最困难的问题联系起来。",
+    "scripture_text": [
+      {
+        "section": "结构（帕尔瓦斯）",
+        "content": "《摩诃婆罗多》通常分为十八卷。帕尔瓦斯包含多个相互交织的故事、对话和教义，而不是单一的线性情节。"
+      },
+      {
+        "section": "道德探究",
+        "content": "《摩诃婆罗多》的一个显着特征是它愿意呈现道德模糊性。人物面临着每一个选择都有代价的困境，文本经常将佛法描述为需要通过反思、劝告和自我诚实来辨别的东西。"
+      }
+    ],
+    "philosophical_explanation": "《摩诃婆罗多》的哲学与其现实主义密不可分。它教导我们，佛法并不总是显而易见的，意图、背景和结果都很重要。它还强调了内在状态——愤怒、嫉妒、恐惧、骄傲——如何塑造外在结果。\n\n作为精神文学，《摩诃婆罗多》推动读者走向成熟：更稳定的思想、更广泛的同情心，以及即使在不完美的条件下也能负责任地采取行动的能力。"
+  }
 }

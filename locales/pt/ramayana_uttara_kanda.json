@@ -1,64 +1,58 @@
 {
-    "ramayana_uttara-kanda": {
-        "title": "Uttara Kanda - Resumo da seção Ramayana",
-        "description": "Explore Uttara Kanda do Ramayana: eventos importantes, lições dármicas e temas filosóficos apresentados por meio de narrativa.",
-        "meta": {
-            "title": "Uttara Kanda - Resumo da seção Ramayana",
-            "canonical": "https://sanatanadharmam.in/itihasa/ramayana/uttara-kanda",
-            "description": "Explore Uttara Kanda do Ramayana: eventos importantes, lições dármicas e temas filosóficos apresentados por meio de narrativa.",
-            "keywords": [
-                "Uttara Kanda",
-                "Ramayana",
-                "Itihasa",
-                "dharma",
-                "Sri Rama"
-            ],
-            "robots": "índice, siga",
-            "url": "https://sanatanadharmam.in/itihasa/ramayana/uttara-kanda",
-            "ogImage": "https://sanatanadharmam.in/og/ramayana_uttara_kanda.png"
-        },
-        "openGraph": {
-            "title": "Uttara Kanda - Resumo da seção Ramayana",
-            "description": "Explore Uttara Kanda do Ramayana: eventos importantes, lições dármicas e temas filosóficos apresentados por meio de narrativa.",
-            "url": "https://sanatanadharmam.in/itihasa/ramayana/uttara-kanda",
-            "siteName": "Sanatanadharm",
-            "type": "artigo",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/ramayana_uttara_kanda.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Uttara Kanda – Ramayana Section Summary"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@type": "Artigo",
-            "name": "Uttara Kanda - Resumo da seção Ramayana",
-            "description": "Explore Uttara Kanda do Ramayana: eventos importantes, lições dármicas e temas filosóficos apresentados por meio de narrativa.",
-            "url": "https://sanatanadharmam.in/itihasa/ramayana/uttara-kanda",
-            "isPartOf": {
-                "@type": "Site",
-                "name": "Sanatanadharm",
-                "url": "https://sanatanadharmam.in"
-            }
-        },
-        "introduction": "Uttara Kanda é um dos kandas (livros) tradicionais do Ramayana. Cada kanda avança a narrativa enquanto enfatiza virtudes específicas – coragem, moderação, lealdade, compaixão e as responsabilidades da liderança e da vida familiar.\n\nEsta página fornece uma visão geral segura e sugestões de reflexão sem depender de longas citações.",
-        "scripture_text": [
-            {
-                "section": "Arco narrativo",
-                "content": "Um breve resumo dos principais eventos deste kanda e como eles configuram a próxima fase da história."
-            },
-            {
-                "section": "Lições dármicas",
-                "content": "Temas a serem observados: promessas e consequências, discurso correto, autocontrole e como os personagens respondem sob pressão."
-            },
-            {
-                "section": "Pratique a reflexão",
-                "content": "Pergunte: Qual é a ação correta aqui? Que qualidade interior está sendo testada? Como a devoção ou a humildade mudam o resultado?"
-            }
-        ],
-        "philosophical_explanation": "O Ramayana é frequentemente lido como dharma em ação. A reflexão Kandawise ajuda a traduzir ideais em orientação prática: como manter a integridade quando a vida é difícil, como honrar o dever sem endurecer o coração e como agir com firmeza e não com impulso."
-    }
+  "ramayana_uttara-kanda": {
+    "title": "Uttara Kanda - Resumo da seção Ramayana",
+    "description": "Explore Uttara Kanda do Ramayana: eventos importantes, lições dármicas e temas filosóficos apresentados por meio de narrativa.",
+    "meta": {
+      "title": "Uttara Kanda - Resumo da seção Ramayana",
+      "canonical": "https://sanatanadharmam.in/itihasa/ramayana/uttara-kanda",
+      "description": "Explore Uttara Kanda do Ramayana: eventos importantes, lições dármicas e temas filosóficos apresentados por meio de narrativa.",
+      "keywords": ["Uttara Kanda", "Ramayana", "Itihasa", "dharma", "Sri Rama"],
+      "robots": "índice, siga",
+      "url": "https://sanatanadharmam.in/itihasa/ramayana/uttara-kanda",
+      "ogImage": "https://sanatanadharmam.in/og/ramayana_uttara_kanda.png"
+    },
+    "openGraph": {
+      "title": "Uttara Kanda - Resumo da seção Ramayana",
+      "description": "Explore Uttara Kanda do Ramayana: eventos importantes, lições dármicas e temas filosóficos apresentados por meio de narrativa.",
+      "url": "https://sanatanadharmam.in/itihasa/ramayana/uttara-kanda",
+      "siteName": "Sanatanadharm",
+      "type": "artigo",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/ramayana_uttara_kanda.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Uttara Kanda – Ramayana Section Summary"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Artigo",
+      "name": "Uttara Kanda - Resumo da seção Ramayana",
+      "description": "Explore Uttara Kanda do Ramayana: eventos importantes, lições dármicas e temas filosóficos apresentados por meio de narrativa.",
+      "url": "https://sanatanadharmam.in/itihasa/ramayana/uttara-kanda",
+      "isPartOf": {
+        "@type": "Site",
+        "name": "Sanatanadharm",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "introduction": "Uttara Kanda é um dos kandas (livros) tradicionais do Ramayana. Cada kanda avança a narrativa enquanto enfatiza virtudes específicas – coragem, moderação, lealdade, compaixão e as responsabilidades da liderança e da vida familiar.\n\nEsta página fornece uma visão geral segura e sugestões de reflexão sem depender de longas citações.",
+    "scripture_text": [
+      {
+        "section": "Arco narrativo",
+        "content": "Um breve resumo dos principais eventos deste kanda e como eles configuram a próxima fase da história."
+      },
+      {
+        "section": "Lições dármicas",
+        "content": "Temas a serem observados: promessas e consequências, discurso correto, autocontrole e como os personagens respondem sob pressão."
+      },
+      {
+        "section": "Pratique a reflexão",
+        "content": "Pergunte: Qual é a ação correta aqui? Que qualidade interior está sendo testada? Como a devoção ou a humildade mudam o resultado?"
+      }
+    ],
+    "philosophical_explanation": "O Ramayana é frequentemente lido como dharma em ação. A reflexão Kandawise ajuda a traduzir ideais em orientação prática: como manter a integridade quando a vida é difícil, como honrar o dever sem endurecer o coração e como agir com firmeza e não com impulso."
+  }
 }

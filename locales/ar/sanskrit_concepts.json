@@ -1,116 +1,116 @@
 {
-    "sanskrit_concepts": {
-        "title": "المفاهيم السنسكريتية - المصطلحات الأساسية لساناتانا دارما",
-        "description": "تشكل المفاهيم السنسكريتية المفردات الفلسفية لساناتانا دارما - مصطلحات مثل دارما، كارما، عتمان، براهمان ومايا التي تشرح طبيعة الواقع والذات والنظام الكوني.",
-        "meta": {
-            "title": "المفاهيم السنسكريتية – المصطلحات الأساسية لساناتانا دارما",
-            "canonical": "https://sanatanadharmam.in/sanskrit-concepts",
-            "description": "استكشف المفاهيم الفلسفية السنسكريتية المهمة مثل دارما، وكارما، وأتمان، وبراهمان، ومايا التي تشكل أساس الفكر الفيدي والفيداني.",
-            "keywords": [
-                "المفاهيم السنسكريتية",
-                "معنى دارما",
-                "فلسفة الكرمة",
-                "مفهوم عتمان براهمان",
-                "مايا فيدانتا",
-                "مصطلحات الفلسفة الفيدية",
-                "مفاهيم ساناتانا دارما"
-            ],
-            "robots": "الفهرس، اتبع",
-            "url": "https://sanatanadharmam.in/sanskrit-concepts"
-        },
-        "openGraph": {
-            "title": "المفاهيم السنسكريتية – فلسفة ساناتانا دارما",
-            "description": "تعلم المفاهيم الفلسفية السنسكريتية الأساسية مثل دارما، وكارما، وأتمان، وبراهمان التي تشرح طبيعة الواقع والوعي.",
-            "url": "https://sanatanadharmam.in/sanskrit-concepts",
-            "siteName": "ساناتانادارمام",
-            "type": "شرط",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/sanskrit-concepts.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Sanskrit Concepts of Sanatana Dharma"
-                }
-            ]
-        },
-        "concepts": [
-            "دارما",
-            "كارما",
-            "عتمان",
-            "براهمان",
-            "مايا",
-            "موكشا",
-            "سامسارا",
-            "بوروشارتا",
-            "اليوغا",
-            "جنانا"
-        ],
-        "schema": {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "صفحة المجموعة",
-                    "name": "المفاهيم السنسكريتية",
-                    "description": "مجموعة من المفاهيم الفلسفية السنسكريتية الرئيسية التي تشرح تعاليم ساناتانا دارما.",
-                    "url": "https://sanatanadharmam.in/sanskrit-concepts"
-                },
-                {
-                    "@type": "قائمة العناصر",
-                    "name": "المفاهيم الفلسفية للساناتانا دارما",
-                    "itemListElement": [
-                        {
-                            "@type": "ListItem",
-                            "position": 1,
-                            "name": "دارما"
-                        },
-                        {
-                            "@type": "ListItem",
-                            "position": 2,
-                            "name": "كارما"
-                        },
-                        {
-                            "@type": "ListItem",
-                            "position": 3,
-                            "name": "عتمان"
-                        },
-                        {
-                            "@type": "ListItem",
-                            "position": 4,
-                            "name": "براهمان"
-                        },
-                        {
-                            "@type": "ListItem",
-                            "position": 5,
-                            "name": "مايا"
-                        },
-                        {
-                            "@type": "ListItem",
-                            "position": 6,
-                            "name": "موكشا"
-                        },
-                        {
-                            "@type": "ListItem",
-                            "position": 7,
-                            "name": "سامسارا"
-                        },
-                        {
-                            "@type": "ListItem",
-                            "position": 8,
-                            "name": "بوروشارتا"
-                        },
-                        {
-                            "@type": "ListItem",
-                            "position": 9,
-                            "name": "اليوغا"
-                        },
-                        {
-                            "@type": "ListItem",
-                            "position": 10,
-                            "name": "جنانا"
-                        }
-                    ]
-                }
-            ]
+  "sanskrit_concepts": {
+    "title": "المفاهيم السنسكريتية - المصطلحات الأساسية لساناتانا دارما",
+    "description": "تشكل المفاهيم السنسكريتية المفردات الفلسفية لساناتانا دارما - مصطلحات مثل دارما، كارما، عتمان، براهمان ومايا التي تشرح طبيعة الواقع والذات والنظام الكوني.",
+    "meta": {
+      "title": "المفاهيم السنسكريتية – المصطلحات الأساسية لساناتانا دارما",
+      "canonical": "https://sanatanadharmam.in/sanskrit-concepts",
+      "description": "استكشف المفاهيم الفلسفية السنسكريتية المهمة مثل دارما، وكارما، وأتمان، وبراهمان، ومايا التي تشكل أساس الفكر الفيدي والفيداني.",
+      "keywords": [
+        "المفاهيم السنسكريتية",
+        "معنى دارما",
+        "فلسفة الكرمة",
+        "مفهوم عتمان براهمان",
+        "مايا فيدانتا",
+        "مصطلحات الفلسفة الفيدية",
+        "مفاهيم ساناتانا دارما"
+      ],
+      "robots": "الفهرس، اتبع",
+      "url": "https://sanatanadharmam.in/sanskrit-concepts"
+    },
+    "openGraph": {
+      "title": "المفاهيم السنسكريتية – فلسفة ساناتانا دارما",
+      "description": "تعلم المفاهيم الفلسفية السنسكريتية الأساسية مثل دارما، وكارما، وأتمان، وبراهمان التي تشرح طبيعة الواقع والوعي.",
+      "url": "https://sanatanadharmam.in/sanskrit-concepts",
+      "siteName": "ساناتانادارمام",
+      "type": "شرط",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/sanskrit-concepts.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Sanskrit Concepts of Sanatana Dharma"
         }
+      ]
+    },
+    "concepts": [
+      "دارما",
+      "كارما",
+      "عتمان",
+      "براهمان",
+      "مايا",
+      "موكشا",
+      "سامسارا",
+      "بوروشارتا",
+      "اليوغا",
+      "جنانا"
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "صفحة المجموعة",
+          "name": "المفاهيم السنسكريتية",
+          "description": "مجموعة من المفاهيم الفلسفية السنسكريتية الرئيسية التي تشرح تعاليم ساناتانا دارما.",
+          "url": "https://sanatanadharmam.in/sanskrit-concepts"
+        },
+        {
+          "@type": "قائمة العناصر",
+          "name": "المفاهيم الفلسفية للساناتانا دارما",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "دارما"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "كارما"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "عتمان"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "براهمان"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "مايا"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "موكشا"
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "name": "سامسارا"
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "name": "بوروشارتا"
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "name": "اليوغا"
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "name": "جنانا"
+            }
+          ]
+        }
+      ]
     }
+  }
 }

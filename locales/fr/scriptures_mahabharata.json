@@ -1,61 +1,61 @@
 {
-    "scriptures_mahabharata": {
-        "title": "Mahabharata – Itihasa du Dharma, de l'éthique et du choix humain",
-        "description": "Explorez le Mahabharata : un vaste Itihasa explorant le dharma, les conflits, le devoir et la complexité de la prise de décision humaine.",
-        "meta": {
-            "title": "Mahabharata – Itihasa du Dharma, de l'éthique et du choix humain",
-            "canonical": "https://sanatanadharmam.in/itihasa/mahabharata",
-            "description": "Explorez le Mahabharata : un vaste Itihasa explorant le dharma, les conflits, le devoir et la complexité de la prise de décision humaine.",
-            "keywords": [
-                "Mahabharata",
-                "Itihasa",
-                "Vyasa",
-                "dharma",
-                "éthique",
-                "Sanatana Dharma"
-            ],
-            "robots": "indexer, suivre",
-            "url": "https://sanatanadharmam.in/itihasa/mahabharata",
-            "ogImage": "https://sanatanadharmam.in/og/scriptures_mahabharata.png"
-        },
-        "openGraph": {
-            "title": "Mahabharata – Itihasa du Dharma, de l'éthique et du choix humain",
-            "description": "Explorez le Mahabharata : un vaste Itihasa explorant le dharma, les conflits, le devoir et la complexité de la prise de décision humaine.",
-            "url": "https://sanatanadharmam.in/itihasa/mahabharata",
-            "siteName": "Sanatanadharman",
-            "type": "article",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/scriptures_mahabharata.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@type": "Articles",
-            "name": "Mahabharata – Itihasa du Dharma, de l'éthique et du choix humain",
-            "description": "Explorez le Mahabharata : un vaste Itihasa explorant le dharma, les conflits, le devoir et la complexité de la prise de décision humaine.",
-            "url": "https://sanatanadharmam.in/itihasa/mahabharata",
-            "isPartOf": {
-                "@type": "Site Web",
-                "name": "Sanatanadharman",
-                "url": "https://sanatanadharmam.in"
-            }
-        },
-        "introduction": "Le Mahabharata est un vaste Itihasa traditionnellement attribué au Maharshi Vyasa. C'est à la fois un récit épique et une source encyclopédique de débat éthique, d'enseignement spirituel et de réflexion sociale. À travers le conflit entre les Pandavas et les Kauravas, il examine le devoir, l'ambition, la loyauté et les conséquences des choix à travers les générations.\n\nC'est aussi le contexte plus large dans lequel apparaît la Bhagavad Gita, reliant l'enseignement spirituel aux questions les plus difficiles de la vie réelle.",
-        "scripture_text": [
-            {
-                "section": "Structure (Parvas)",
-                "content": "Le Mahabharata est communément divisé en dix-huit parvas (livres). Les parvas contiennent plusieurs histoires, dialogues et enseignements entrelacés plutôt qu'une seule intrigue linéaire."
-            },
-            {
-                "section": "Enquête éthique",
-                "content": "Une caractéristique déterminante du Mahabharata est sa volonté de présenter une ambiguïté morale. Les personnages sont confrontés à des dilemmes où chaque option a un coût, et le texte présente souvent le dharma comme quelque chose qui doit être discerné par la réflexion, le conseil et l'honnêteté personnelle."
-            }
-        ],
-        "philosophical_explanation": "La philosophie du Mahabharata est indissociable de son réalisme. Il enseigne que le dharma n’est pas toujours évident et que l’intention, le contexte et les conséquences comptent. Il met également en évidence la manière dont les états intérieurs – colère, envie, peur, fierté – façonnent les résultats extérieurs.\n\nEn tant que littérature spirituelle, le Mahabharata pousse le lecteur vers la maturité : un esprit plus stable, une compassion plus large et la capacité d'agir de manière responsable même dans des conditions imparfaites."
-    }
+  "scriptures_mahabharata": {
+    "title": "Mahabharata – Itihasa du Dharma, de l'éthique et du choix humain",
+    "description": "Explorez le Mahabharata : un vaste Itihasa explorant le dharma, les conflits, le devoir et la complexité de la prise de décision humaine.",
+    "meta": {
+      "title": "Mahabharata – Itihasa du Dharma, de l'éthique et du choix humain",
+      "canonical": "https://sanatanadharmam.in/itihasa/mahabharata",
+      "description": "Explorez le Mahabharata : un vaste Itihasa explorant le dharma, les conflits, le devoir et la complexité de la prise de décision humaine.",
+      "keywords": [
+        "Mahabharata",
+        "Itihasa",
+        "Vyasa",
+        "dharma",
+        "éthique",
+        "Sanatana Dharma"
+      ],
+      "robots": "indexer, suivre",
+      "url": "https://sanatanadharmam.in/itihasa/mahabharata",
+      "ogImage": "https://sanatanadharmam.in/og/scriptures_mahabharata.png"
+    },
+    "openGraph": {
+      "title": "Mahabharata – Itihasa du Dharma, de l'éthique et du choix humain",
+      "description": "Explorez le Mahabharata : un vaste Itihasa explorant le dharma, les conflits, le devoir et la complexité de la prise de décision humaine.",
+      "url": "https://sanatanadharmam.in/itihasa/mahabharata",
+      "siteName": "Sanatanadharman",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/scriptures_mahabharata.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Articles",
+      "name": "Mahabharata – Itihasa du Dharma, de l'éthique et du choix humain",
+      "description": "Explorez le Mahabharata : un vaste Itihasa explorant le dharma, les conflits, le devoir et la complexité de la prise de décision humaine.",
+      "url": "https://sanatanadharmam.in/itihasa/mahabharata",
+      "isPartOf": {
+        "@type": "Site Web",
+        "name": "Sanatanadharman",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "introduction": "Le Mahabharata est un vaste Itihasa traditionnellement attribué au Maharshi Vyasa. C'est à la fois un récit épique et une source encyclopédique de débat éthique, d'enseignement spirituel et de réflexion sociale. À travers le conflit entre les Pandavas et les Kauravas, il examine le devoir, l'ambition, la loyauté et les conséquences des choix à travers les générations.\n\nC'est aussi le contexte plus large dans lequel apparaît la Bhagavad Gita, reliant l'enseignement spirituel aux questions les plus difficiles de la vie réelle.",
+    "scripture_text": [
+      {
+        "section": "Structure (Parvas)",
+        "content": "Le Mahabharata est communément divisé en dix-huit parvas (livres). Les parvas contiennent plusieurs histoires, dialogues et enseignements entrelacés plutôt qu'une seule intrigue linéaire."
+      },
+      {
+        "section": "Enquête éthique",
+        "content": "Une caractéristique déterminante du Mahabharata est sa volonté de présenter une ambiguïté morale. Les personnages sont confrontés à des dilemmes où chaque option a un coût, et le texte présente souvent le dharma comme quelque chose qui doit être discerné par la réflexion, le conseil et l'honnêteté personnelle."
+      }
+    ],
+    "philosophical_explanation": "La philosophie du Mahabharata est indissociable de son réalisme. Il enseigne que le dharma n’est pas toujours évident et que l’intention, le contexte et les conséquences comptent. Il met également en évidence la manière dont les états intérieurs – colère, envie, peur, fierté – façonnent les résultats extérieurs.\n\nEn tant que littérature spirituelle, le Mahabharata pousse le lecteur vers la maturité : un esprit plus stable, une compassion plus large et la capacité d'agir de manière responsable même dans des conditions imparfaites."
+  }
 }

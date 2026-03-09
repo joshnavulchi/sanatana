@@ -1,62 +1,62 @@
 {
-    "scriptures_bhagavadgita": {
-        "title": "Bhagavad Gita – Leringen over dharma, yoga en bevrijding",
-        "description": "Bestudeer de Bhagavad Gita: leringen van Sri Krishna over dharma, karma yoga, bhakti, jnana en het pad naar innerlijke vrijheid.",
-        "meta": {
-            "title": "Bhagavad Gita – Leringen over dharma, yoga en bevrijding",
-            "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-            "description": "Bestudeer de Bhagavad Gita: leringen van Sri Krishna over dharma, karma yoga, bhakti, jnana en het pad naar innerlijke vrijheid.",
-            "keywords": [
-                "Bhagavad Gita",
-                "Krishna",
-                "Arjuna",
-                "Yoga",
-                "dharma",
-                "karma-yoga",
-                "bhakti"
-            ],
-            "robots": "indexeren, volgen",
-            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-            "ogImage": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png"
-        },
-        "openGraph": {
-            "title": "Bhagavad Gita – Leringen over dharma, yoga en bevrijding",
-            "description": "Bestudeer de Bhagavad Gita: leringen van Sri Krishna over dharma, karma yoga, bhakti, jnana en het pad naar innerlijke vrijheid.",
-            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-            "siteName": "Sanatanadharam",
-            "type": "artikel",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@type": "Artikel",
-            "name": "Bhagavad Gita – Leringen over dharma, yoga en bevrijding",
-            "description": "Bestudeer de Bhagavad Gita: leringen van Sri Krishna over dharma, karma yoga, bhakti, jnana en het pad naar innerlijke vrijheid.",
-            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-            "isPartOf": {
-                "@type": "Website",
-                "name": "Sanatanadharam",
-                "url": "https://sanatanadharmam.in"
-            }
-        },
-        "introduction": "De Bhagavad Gita is een fundamentele spirituele tekst, gepresenteerd als een dialoog tussen Sri Krishna en Arjuna op het slagveld van Kurukshetra. Het richt zich op een universele crisis: hoe je op de juiste manier kunt handelen als het leven complex is, de emoties intens zijn en de gevolgen van handelen onvermijdelijk zijn.\n\nDe Gita onderwijst meerdere yoga's (disciplines) die samenkomen in de richting van innerlijke vrijheid: onbaatzuchtige actie, toewijding en kennis – geleid door dharma en helderheid van geest.",
-        "scripture_text": [
-            {
-                "section": "Kernonderwerpen die aan bod komen",
-                "content": "De Gita bespreekt svadharma (iemands rechtmatige plicht), karma yoga (onbaatzuchtige actie), bhakti (toewijding), jnana (kennis), dhyana (meditatie), de guna's (kwaliteiten van de natuur) en de visie van het Zelf voorbij angst en verdriet."
-            },
-            {
-                "section": "Hoe hoofdstukken zijn georganiseerd",
-                "content": "Elk hoofdstuk wordt traditioneel behandeld als een afzonderlijke yoga of nadruk, maar toch blijft de leer geïntegreerd: het doel is standvastigheid, onderscheidingsvermogen en afstemming op de waarheid in denken, spreken en handelen."
-            }
-        ],
-        "philosophical_explanation": "Filosofisch gezien verzoent de Bhagavad Gita actie en verzaking. Het vereist geen terugtrekking uit het leven; het verfijnt de manier waarop iemand met het leven omgaat: handelen zonder ego-gedreven gehechtheid aan resultaten. Dit transformeert werk in yoga.\n\nDe Gita omschrijft spirituele groei ook als een evenwicht: toewijding die het hart verzacht, kennis die de geest verheldert, en gedisciplineerd handelen dat de intentie zuivert. Het resultaat is een leven geleid door dharma, moed en mededogen."
-    }
+  "scriptures_bhagavadgita": {
+    "title": "Bhagavad Gita – Leringen over dharma, yoga en bevrijding",
+    "description": "Bestudeer de Bhagavad Gita: leringen van Sri Krishna over dharma, karma yoga, bhakti, jnana en het pad naar innerlijke vrijheid.",
+    "meta": {
+      "title": "Bhagavad Gita – Leringen over dharma, yoga en bevrijding",
+      "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita",
+      "description": "Bestudeer de Bhagavad Gita: leringen van Sri Krishna over dharma, karma yoga, bhakti, jnana en het pad naar innerlijke vrijheid.",
+      "keywords": [
+        "Bhagavad Gita",
+        "Krishna",
+        "Arjuna",
+        "Yoga",
+        "dharma",
+        "karma-yoga",
+        "bhakti"
+      ],
+      "robots": "indexeren, volgen",
+      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
+      "ogImage": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png"
+    },
+    "openGraph": {
+      "title": "Bhagavad Gita – Leringen over dharma, yoga en bevrijding",
+      "description": "Bestudeer de Bhagavad Gita: leringen van Sri Krishna over dharma, karma yoga, bhakti, jnana en het pad naar innerlijke vrijheid.",
+      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
+      "siteName": "Sanatanadharam",
+      "type": "artikel",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Artikel",
+      "name": "Bhagavad Gita – Leringen over dharma, yoga en bevrijding",
+      "description": "Bestudeer de Bhagavad Gita: leringen van Sri Krishna over dharma, karma yoga, bhakti, jnana en het pad naar innerlijke vrijheid.",
+      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
+      "isPartOf": {
+        "@type": "Website",
+        "name": "Sanatanadharam",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "introduction": "De Bhagavad Gita is een fundamentele spirituele tekst, gepresenteerd als een dialoog tussen Sri Krishna en Arjuna op het slagveld van Kurukshetra. Het richt zich op een universele crisis: hoe je op de juiste manier kunt handelen als het leven complex is, de emoties intens zijn en de gevolgen van handelen onvermijdelijk zijn.\n\nDe Gita onderwijst meerdere yoga's (disciplines) die samenkomen in de richting van innerlijke vrijheid: onbaatzuchtige actie, toewijding en kennis – geleid door dharma en helderheid van geest.",
+    "scripture_text": [
+      {
+        "section": "Kernonderwerpen die aan bod komen",
+        "content": "De Gita bespreekt svadharma (iemands rechtmatige plicht), karma yoga (onbaatzuchtige actie), bhakti (toewijding), jnana (kennis), dhyana (meditatie), de guna's (kwaliteiten van de natuur) en de visie van het Zelf voorbij angst en verdriet."
+      },
+      {
+        "section": "Hoe hoofdstukken zijn georganiseerd",
+        "content": "Elk hoofdstuk wordt traditioneel behandeld als een afzonderlijke yoga of nadruk, maar toch blijft de leer geïntegreerd: het doel is standvastigheid, onderscheidingsvermogen en afstemming op de waarheid in denken, spreken en handelen."
+      }
+    ],
+    "philosophical_explanation": "Filosofisch gezien verzoent de Bhagavad Gita actie en verzaking. Het vereist geen terugtrekking uit het leven; het verfijnt de manier waarop iemand met het leven omgaat: handelen zonder ego-gedreven gehechtheid aan resultaten. Dit transformeert werk in yoga.\n\nDe Gita omschrijft spirituele groei ook als een evenwicht: toewijding die het hart verzacht, kennis die de geest verheldert, en gedisciplineerd handelen dat de intentie zuivert. Het resultaat is een leven geleid door dharma, moed en mededogen."
+  }
 }

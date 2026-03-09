@@ -1,64 +1,64 @@
 {
-    "ramayana_aranya-kanda": {
-        "title": "アランヤ・カンダ – ラーマーヤナセクションの概要",
-        "description": "ラーマーヤナのアランヤ カンダを探索します。物語を通して提示される重要な出来事、ダルマの教訓、哲学的テーマを学びましょう。",
-        "meta": {
-            "title": "アランヤ・カンダ – ラーマーヤナセクションの概要",
-            "canonical": "https://sanatanadharmam.in/itihasa/ramayana/aranya-kanda",
-            "description": "ラーマーヤナのアランヤ カンダを探索します。物語を通して提示される重要な出来事、ダルマの教訓、哲学的テーマを学びましょう。",
-            "keywords": [
-                "アランヤ・カンダ",
-                "ラーマーヤナ",
-                "イティハーサ",
-                "ダルマ",
-                "シュリ・ラマ"
-            ],
-            "robots": "インデックス、フォロー",
-            "url": "https://sanatanadharmam.in/itihasa/ramayana/aranya-kanda",
-            "ogImage": "https://sanatanadharmam.in/og/ramayana_aranya_kanda.png"
-        },
-        "openGraph": {
-            "title": "アランヤ・カンダ – ラーマーヤナセクションの概要",
-            "description": "ラーマーヤナのアランヤ カンダを探索します。物語を通して提示される重要な出来事、ダルマの教訓、哲学的テーマを学びましょう。",
-            "url": "https://sanatanadharmam.in/itihasa/ramayana/aranya-kanda",
-            "siteName": "サナタナダルマム",
-            "type": "記事",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/ramayana_aranya_kanda.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Aranya Kanda – Ramayana Section Summary"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@type": "記事",
-            "name": "アランヤ・カンダ – ラーマーヤナセクションの概要",
-            "description": "ラーマーヤナのアランヤ カンダを探索します。物語を通して提示される重要な出来事、ダルマの教訓、哲学的テーマを学びましょう。",
-            "url": "https://sanatanadharmam.in/itihasa/ramayana/aranya-kanda",
-            "isPartOf": {
-                "@type": "ウェブサイト",
-                "name": "サナタナダルマム",
-                "url": "https://sanatanadharmam.in"
-            }
-        },
-        "introduction": "アランヤ カンダは、ラーマーヤナの伝統的なカンダ（本）の 1 つです。それぞれのカンダは、勇気、自制、忠誠心、思いやり、リーダーシップや家庭生活の責任など、特定の美徳を強調しながら物語を進めます。\n\nこのページでは、長い引用に頼ることなく、安全な概要と考察のプロンプトを提供します。",
-        "scripture_text": [
-            {
-                "section": "ナラティブアーク",
-                "content": "この神田での主要な出来事と、それらが物語の次の段階をどのように設定するかを簡単にまとめます。"
-            },
-            {
-                "section": "ダルマレッスン",
-                "content": "注目すべきテーマ: 約束と結果、正しいスピーチ、自制心、プレッシャーの下で登場人物がどのように反応するか。"
-            },
-            {
-                "section": "反省の練習をする",
-                "content": "質問してください: ここでの正しい行動は何ですか?どのような内面の資質が試されているのでしょうか?献身と謙虚さは結果をどう変えるのでしょうか?"
-            }
-        ],
-        "philosophical_explanation": "ラーマーヤナは、多くの場合、実践中のダルマとして読まれます。カンダ流の熟考は、人生が困難なときに誠実さを保つ方法、心をかたくなにすることなく義務を守る方法、衝動ではなく安定して行動する方法など、理想を実践的な指針に変えるのに役立ちます。"
-    }
+  "ramayana_aranya-kanda": {
+    "title": "アランヤ・カンダ – ラーマーヤナセクションの概要",
+    "description": "ラーマーヤナのアランヤ カンダを探索します。物語を通して提示される重要な出来事、ダルマの教訓、哲学的テーマを学びましょう。",
+    "meta": {
+      "title": "アランヤ・カンダ – ラーマーヤナセクションの概要",
+      "canonical": "https://sanatanadharmam.in/itihasa/ramayana/aranya-kanda",
+      "description": "ラーマーヤナのアランヤ カンダを探索します。物語を通して提示される重要な出来事、ダルマの教訓、哲学的テーマを学びましょう。",
+      "keywords": [
+        "アランヤ・カンダ",
+        "ラーマーヤナ",
+        "イティハーサ",
+        "ダルマ",
+        "シュリ・ラマ"
+      ],
+      "robots": "インデックス、フォロー",
+      "url": "https://sanatanadharmam.in/itihasa/ramayana/aranya-kanda",
+      "ogImage": "https://sanatanadharmam.in/og/ramayana_aranya_kanda.png"
+    },
+    "openGraph": {
+      "title": "アランヤ・カンダ – ラーマーヤナセクションの概要",
+      "description": "ラーマーヤナのアランヤ カンダを探索します。物語を通して提示される重要な出来事、ダルマの教訓、哲学的テーマを学びましょう。",
+      "url": "https://sanatanadharmam.in/itihasa/ramayana/aranya-kanda",
+      "siteName": "サナタナダルマム",
+      "type": "記事",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/ramayana_aranya_kanda.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Aranya Kanda – Ramayana Section Summary"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "記事",
+      "name": "アランヤ・カンダ – ラーマーヤナセクションの概要",
+      "description": "ラーマーヤナのアランヤ カンダを探索します。物語を通して提示される重要な出来事、ダルマの教訓、哲学的テーマを学びましょう。",
+      "url": "https://sanatanadharmam.in/itihasa/ramayana/aranya-kanda",
+      "isPartOf": {
+        "@type": "ウェブサイト",
+        "name": "サナタナダルマム",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "introduction": "アランヤ カンダは、ラーマーヤナの伝統的なカンダ（本）の 1 つです。それぞれのカンダは、勇気、自制、忠誠心、思いやり、リーダーシップや家庭生活の責任など、特定の美徳を強調しながら物語を進めます。\n\nこのページでは、長い引用に頼ることなく、安全な概要と考察のプロンプトを提供します。",
+    "scripture_text": [
+      {
+        "section": "ナラティブアーク",
+        "content": "この神田での主要な出来事と、それらが物語の次の段階をどのように設定するかを簡単にまとめます。"
+      },
+      {
+        "section": "ダルマレッスン",
+        "content": "注目すべきテーマ: 約束と結果、正しいスピーチ、自制心、プレッシャーの下で登場人物がどのように反応するか。"
+      },
+      {
+        "section": "反省の練習をする",
+        "content": "質問してください: ここでの正しい行動は何ですか?どのような内面の資質が試されているのでしょうか?献身と謙虚さは結果をどう変えるのでしょうか?"
+      }
+    ],
+    "philosophical_explanation": "ラーマーヤナは、多くの場合、実践中のダルマとして読まれます。カンダ流の熟考は、人生が困難なときに誠実さを保つ方法、心をかたくなにすることなく義務を守る方法、衝動ではなく安定して行動する方法など、理想を実践的な指針に変えるのに役立ちます。"
+  }
 }

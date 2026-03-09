@@ -1,62 +1,62 @@
 {
-    "scriptures_bhagavadgita": {
-        "title": "《薄伽梵歌》——关于佛法、瑜伽和解脱的教义",
-        "description": "学习《薄伽梵歌》：圣奎师那关于佛法、业力瑜伽、奉爱、智慧和内在自由之路的教义。",
-        "meta": {
-            "title": "《薄伽梵歌》——关于佛法、瑜伽和解脱的教义",
-            "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-            "description": "学习《薄伽梵歌》：圣奎师那关于佛法、业力瑜伽、奉爱、智慧和内在自由之路的教义。",
-            "keywords": [
-                "薄伽梵歌",
-                "克里希纳",
-                "阿朱那",
-                "瑜伽",
-                "法",
-                "业力瑜伽",
-                "奉爱"
-            ],
-            "robots": "索引，关注",
-            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-            "ogImage": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png"
-        },
-        "openGraph": {
-            "title": "《薄伽梵歌》——关于佛法、瑜伽和解脱的教义",
-            "description": "学习《薄伽梵歌》：圣奎师那关于佛法、业力瑜伽、奉爱、智慧和内在自由之路的教义。",
-            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-            "siteName": "萨那塔达曼",
-            "type": "文章",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@type": "文章",
-            "name": "《薄伽梵歌》——关于佛法、瑜伽和解脱的教义",
-            "description": "学习《薄伽梵歌》：圣奎师那关于佛法、业力瑜伽、奉爱、智慧和内在自由之路的教义。",
-            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-            "isPartOf": {
-                "@type": "网站",
-                "name": "萨那塔达曼",
-                "url": "https://sanatanadharmam.in"
-            }
-        },
-        "introduction": "《薄伽梵歌》是一部基础精神文本，以圣奎师那和阿朱那在库茹之野战场上的对话呈现。它解决了一个普遍的危机：当生活复杂、情绪激烈、行动后果不可避免时，如何正确行动。\n\n《梵歌》教授多种瑜伽（学科），这些瑜伽（学科）汇聚于内在自由：无私的行动、奉献和知识——以佛法和清晰的头脑为指导。",
-        "scripture_text": [
-            {
-                "section": "涵盖的核心主题",
-                "content": "《梵歌》讨论了 svadharma（一个人的正当义务）、karma Yoga（无私的行动）、bhakti（奉献）、jnana（知识）、dhyana（冥想）、gunas（自然品质）以及超越恐惧和悲伤的自我愿景。"
-            },
-            {
-                "section": "章节的组织方式",
-                "content": "传统上，每一章都被视为不同的瑜伽或重点，但教学仍然是完整的：目的是稳定、洞察力以及思想、言语和行动中的真理。"
-            }
-        ],
-        "philosophical_explanation": "从哲学上讲，《薄伽梵歌》调和了行动与放弃。它并不要求从生活中抽身出来；它改善了一个人对待生活的方式——在不以自我驱动的方式执着于结果的情况下行事。这将工作转变为瑜伽。\n\n《薄伽梵歌》还将灵性成长视为一种平衡：奉献可以软化心灵，知识可以澄清思想，纪律性的行动可以净化意图。结果是一种由佛法、勇气和慈悲引导的生活。"
-    }
+  "scriptures_bhagavadgita": {
+    "title": "《薄伽梵歌》——关于佛法、瑜伽和解脱的教义",
+    "description": "学习《薄伽梵歌》：圣奎师那关于佛法、业力瑜伽、奉爱、智慧和内在自由之路的教义。",
+    "meta": {
+      "title": "《薄伽梵歌》——关于佛法、瑜伽和解脱的教义",
+      "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita",
+      "description": "学习《薄伽梵歌》：圣奎师那关于佛法、业力瑜伽、奉爱、智慧和内在自由之路的教义。",
+      "keywords": [
+        "薄伽梵歌",
+        "克里希纳",
+        "阿朱那",
+        "瑜伽",
+        "法",
+        "业力瑜伽",
+        "奉爱"
+      ],
+      "robots": "索引，关注",
+      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
+      "ogImage": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png"
+    },
+    "openGraph": {
+      "title": "《薄伽梵歌》——关于佛法、瑜伽和解脱的教义",
+      "description": "学习《薄伽梵歌》：圣奎师那关于佛法、业力瑜伽、奉爱、智慧和内在自由之路的教义。",
+      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
+      "siteName": "萨那塔达曼",
+      "type": "文章",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "文章",
+      "name": "《薄伽梵歌》——关于佛法、瑜伽和解脱的教义",
+      "description": "学习《薄伽梵歌》：圣奎师那关于佛法、业力瑜伽、奉爱、智慧和内在自由之路的教义。",
+      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
+      "isPartOf": {
+        "@type": "网站",
+        "name": "萨那塔达曼",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "introduction": "《薄伽梵歌》是一部基础精神文本，以圣奎师那和阿朱那在库茹之野战场上的对话呈现。它解决了一个普遍的危机：当生活复杂、情绪激烈、行动后果不可避免时，如何正确行动。\n\n《梵歌》教授多种瑜伽（学科），这些瑜伽（学科）汇聚于内在自由：无私的行动、奉献和知识——以佛法和清晰的头脑为指导。",
+    "scripture_text": [
+      {
+        "section": "涵盖的核心主题",
+        "content": "《梵歌》讨论了 svadharma（一个人的正当义务）、karma Yoga（无私的行动）、bhakti（奉献）、jnana（知识）、dhyana（冥想）、gunas（自然品质）以及超越恐惧和悲伤的自我愿景。"
+      },
+      {
+        "section": "章节的组织方式",
+        "content": "传统上，每一章都被视为不同的瑜伽或重点，但教学仍然是完整的：目的是稳定、洞察力以及思想、言语和行动中的真理。"
+      }
+    ],
+    "philosophical_explanation": "从哲学上讲，《薄伽梵歌》调和了行动与放弃。它并不要求从生活中抽身出来；它改善了一个人对待生活的方式——在不以自我驱动的方式执着于结果的情况下行事。这将工作转变为瑜伽。\n\n《薄伽梵歌》还将灵性成长视为一种平衡：奉献可以软化心灵，知识可以澄清思想，纪律性的行动可以净化意图。结果是一种由佛法、勇气和慈悲引导的生活。"
+  }
 }
