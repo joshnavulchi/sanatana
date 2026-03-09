@@ -1,136 +1,126 @@
 {
-    "philosophy_advaita": {
-        "title": "Advaita Vedanta – Sanatana Dharma 的非二元哲学",
-        "description": "了解吠檀多不二论 (Advaita Vedanta)，这是阿迪·商卡拉查亚 (Adi Shankaracharya) 教授的非二元哲学 Sanatana Dharma。了解婆罗门、阿特曼、玛雅和解脱之路。",
-        "meta": {
-            "title": "Advaita Vedanta – Sanatana Dharma 的非二元哲学",
-            "canonical": "https://sanatanadharmam.in/philosophy/advaita",
-            "description": "了解吠檀多不二论 (Advaita Vedanta)，这是阿迪·商卡拉查亚 (Adi Shankaracharya) 教授的非二元哲学 Sanatana Dharma。了解婆罗门、阿特曼、玛雅和解脱之路。",
-            "keywords": [
-                "吠檀多不二论",
-                "非二元论",
-                "阿迪商卡拉查亚",
-                "婆罗门和阿特曼",
-                "不二论哲学",
-                "印度教哲学不二论",
-                "玛雅概念",
-                "智慧瑜伽",
-                "奥义书哲学",
-                "萨那塔那佛法哲学"
-            ],
-            "robots": "索引，关注",
-            "url": "https://sanatanadharmam.in/philosophy/advaita"
-        },
-        "openGraph": {
-            "title": "Advaita Vedanta – 非二元哲学",
-            "description": "探索吠檀多不二论（Advaita Vedanta），这是通过阿迪·商卡拉查亚（Adi Shankaracharya）的教义解释的萨那塔纳佛法（Sanatana Dharma）的非二元哲学传统。",
-            "url": "https://sanatanadharmam.in/philosophy/advaita",
-            "siteName": "萨那塔达曼",
-            "type": "文章",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/philosophy-advaita.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Advaita Vedanta Philosophy"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "文章",
-                    "headline": "Advaita Vedanta – 非二元哲学",
-                    "description": "吠檀多不二论是一所印度教哲学流派，教导阿特曼和婆罗门的统一。",
-                    "author": {
-                        "@type": "人",
-                        "name": "阿迪商卡拉查亚"
-                    },
-                    "about": [
-                        "吠檀多不二论",
-                        "婆罗门",
-                        "奥特曼",
-                        "玛雅人",
-                        "智慧瑜伽"
-                    ],
-                    "url": "https://sanatanadharmam.in/philosophy/advaita",
-                    "isPartOf": {
-                        "@type": "网站",
-                        "name": "萨那塔达曼",
-                        "url": "https://sanatanadharmam.in"
-                    }
-                }
-            ]
-        },
-        "benefits": [
-            "带来持久的内心平静和免于恐惧的自由",
-            "消除自我，促进慈悲与平静",
-            "鼓励无畏的探究和批判性思维",
-            "将不同的精神道路统一在一个真理之下",
-            "激发全球宗教间对话和理解"
-        ],
-        "core_principles": [
-            "婆罗门是唯一的现实；世界是一个幻象（玛雅）。",
-            "阿特曼（个体灵魂）与婆罗门相同。",
-            "无知（Avidya）导致分离的幻觉。",
-            "知识（Jnana）带来解脱（Moksha）。"
-        ],
-        "features": [
-            "激进的非二元论——主张阿特曼和婆罗门的绝对统一",
-            "强调直接经验而非仪式或信仰",
-            "运用逻辑、经文研究和冥想来实现",
-            "对话传统——辩论、探究和评论",
-            "普遍适用性——超越种姓、信仰和时代"
-        ],
-        "goals": [
-            "实现阿特曼和婆罗门的统一。",
-            "克服无明与妄想。",
-            "获得解脱（Moksha）。"
-        ],
-        "key_concepts": {
-            "atman": "真实的自我，超越身体和心灵。",
-            "avidya": "无明将众生束缚于轮回。",
-            "brahman": "究竟、无限、不变的实相。",
-            "maya": "产生多重性感知的幻觉。"
-        },
-        "key_scriptural_references": [
-            {
-                "quote_summary": "Tat Tvam Asi – “你就是那样”。",
-                "text": "昌多吉奥义书"
-            },
-            {
-                "quote_summary": "智者在一切众生中看到同一个自我。",
-                "text": "薄伽梵歌"
-            }
-        ],
-        "modern_relevance": {
-            "philosophy": "影响全球非二元思想。",
-            "psychology": "促进超然和精神平静。",
-            "spirituality": "鼓励内在意识和团结。"
-        },
-        "origin": {
-            "founder": "阿迪商卡拉查亚",
-            "meaning": "Advaita 在梵文中的意思是“非二元”。",
-            "roots": "奥义书和梵天经",
-            "texts": [
-                "奥义书",
-                "薄伽梵歌",
-                "梵天经"
-            ]
-        },
-        "paths_to_realization": {
-            "jnana_yoga": "Path of knowledge and self-inquiry.",
-            "manana": "Reflecting on the teachings.",
-            "nididhyasana": "Deep meditation on truth.",
-            "shravana": "Listening to teachings of scriptures."
-        },
-        "purpose": "揭示现实的非二元本质，消除分离的幻觉，并引导寻求者认识到他们作为婆罗门的真实自我。 Advaita旨在通过消除无知（avidya）和唤醒合一的直接知识（jnana）来结束痛苦。",
-        "relation_to_other_concepts": {
-            "dharma": "道德生活支持清晰的实现。",
-            "karma": "行动不能带来解放；只有知识可以。",
-            "moksha": "通过自我实现来实现最终目标。"
-        },
-        "unique_insights": "不二论的独特之处在于其对统一性的毫不妥协的主张：“只有婆罗门才是真实的，世界只是一种表象，个体自我与婆罗门没有什么不同。”它教导我们，解放不是要获得的东西，而是对已经存在的事物的认识。不二论的影响力远远超出了印度，塑造了全世界的现代哲学、心理学和灵性。"
-    }
+  "philosophy_advaita": {
+    "title": "Advaita Vedanta – Sanatana Dharma 的非二元哲学",
+    "description": "了解吠檀多不二论 (Advaita Vedanta)，这是阿迪·商卡拉查亚 (Adi Shankaracharya) 教授的非二元哲学 Sanatana Dharma。了解婆罗门、阿特曼、玛雅和解脱之路。",
+    "meta": {
+      "title": "Advaita Vedanta – Sanatana Dharma 的非二元哲学",
+      "canonical": "https://sanatanadharmam.in/philosophy/advaita",
+      "description": "了解吠檀多不二论 (Advaita Vedanta)，这是阿迪·商卡拉查亚 (Adi Shankaracharya) 教授的非二元哲学 Sanatana Dharma。了解婆罗门、阿特曼、玛雅和解脱之路。",
+      "keywords": [
+        "吠檀多不二论",
+        "非二元论",
+        "阿迪商卡拉查亚",
+        "婆罗门和阿特曼",
+        "不二论哲学",
+        "印度教哲学不二论",
+        "玛雅概念",
+        "智慧瑜伽",
+        "奥义书哲学",
+        "萨那塔那佛法哲学"
+      ],
+      "robots": "索引，关注",
+      "url": "https://sanatanadharmam.in/philosophy/advaita"
+    },
+    "openGraph": {
+      "title": "Advaita Vedanta – 非二元哲学",
+      "description": "探索吠檀多不二论（Advaita Vedanta），这是通过阿迪·商卡拉查亚（Adi Shankaracharya）的教义解释的萨那塔纳佛法（Sanatana Dharma）的非二元哲学传统。",
+      "url": "https://sanatanadharmam.in/philosophy/advaita",
+      "siteName": "萨那塔达曼",
+      "type": "文章",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/philosophy-advaita.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Advaita Vedanta Philosophy"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "文章",
+          "headline": "Advaita Vedanta – 非二元哲学",
+          "description": "吠檀多不二论是一所印度教哲学流派，教导阿特曼和婆罗门的统一。",
+          "author": {
+            "@type": "人",
+            "name": "阿迪商卡拉查亚"
+          },
+          "about": ["吠檀多不二论", "婆罗门", "奥特曼", "玛雅人", "智慧瑜伽"],
+          "url": "https://sanatanadharmam.in/philosophy/advaita",
+          "isPartOf": {
+            "@type": "网站",
+            "name": "萨那塔达曼",
+            "url": "https://sanatanadharmam.in"
+          }
+        }
+      ]
+    },
+    "benefits": [
+      "带来持久的内心平静和免于恐惧的自由",
+      "消除自我，促进慈悲与平静",
+      "鼓励无畏的探究和批判性思维",
+      "将不同的精神道路统一在一个真理之下",
+      "激发全球宗教间对话和理解"
+    ],
+    "core_principles": [
+      "婆罗门是唯一的现实；世界是一个幻象（玛雅）。",
+      "阿特曼（个体灵魂）与婆罗门相同。",
+      "无知（Avidya）导致分离的幻觉。",
+      "知识（Jnana）带来解脱（Moksha）。"
+    ],
+    "features": [
+      "激进的非二元论——主张阿特曼和婆罗门的绝对统一",
+      "强调直接经验而非仪式或信仰",
+      "运用逻辑、经文研究和冥想来实现",
+      "对话传统——辩论、探究和评论",
+      "普遍适用性——超越种姓、信仰和时代"
+    ],
+    "goals": [
+      "实现阿特曼和婆罗门的统一。",
+      "克服无明与妄想。",
+      "获得解脱（Moksha）。"
+    ],
+    "key_concepts": {
+      "atman": "真实的自我，超越身体和心灵。",
+      "avidya": "无明将众生束缚于轮回。",
+      "brahman": "究竟、无限、不变的实相。",
+      "maya": "产生多重性感知的幻觉。"
+    },
+    "key_scriptural_references": [
+      {
+        "quote_summary": "Tat Tvam Asi – “你就是那样”。",
+        "text": "昌多吉奥义书"
+      },
+      {
+        "quote_summary": "智者在一切众生中看到同一个自我。",
+        "text": "薄伽梵歌"
+      }
+    ],
+    "modern_relevance": {
+      "philosophy": "影响全球非二元思想。",
+      "psychology": "促进超然和精神平静。",
+      "spirituality": "鼓励内在意识和团结。"
+    },
+    "origin": {
+      "founder": "阿迪商卡拉查亚",
+      "meaning": "Advaita 在梵文中的意思是“非二元”。",
+      "roots": "奥义书和梵天经",
+      "texts": ["奥义书", "薄伽梵歌", "梵天经"]
+    },
+    "paths_to_realization": {
+      "jnana_yoga": "Path of knowledge and self-inquiry.",
+      "manana": "Reflecting on the teachings.",
+      "nididhyasana": "Deep meditation on truth.",
+      "shravana": "Listening to teachings of scriptures."
+    },
+    "purpose": "揭示现实的非二元本质，消除分离的幻觉，并引导寻求者认识到他们作为婆罗门的真实自我。 Advaita旨在通过消除无知（avidya）和唤醒合一的直接知识（jnana）来结束痛苦。",
+    "relation_to_other_concepts": {
+      "dharma": "道德生活支持清晰的实现。",
+      "karma": "行动不能带来解放；只有知识可以。",
+      "moksha": "通过自我实现来实现最终目标。"
+    },
+    "unique_insights": "不二论的独特之处在于其对统一性的毫不妥协的主张：“只有婆罗门才是真实的，世界只是一种表象，个体自我与婆罗门没有什么不同。”它教导我们，解放不是要获得的东西，而是对已经存在的事物的认识。不二论的影响力远远超出了印度，塑造了全世界的现代哲学、心理学和灵性。"
+  }
 }

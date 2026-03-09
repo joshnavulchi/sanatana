@@ -1,208 +1,208 @@
 {
-    "about": {
-        "title": "サナタナ ダルマについて – 歴史、哲学、精神的な知恵",
-        "description": "ヒンズー教哲学の永遠の精神的伝統であるサナタナ ダルマについて学びましょう。その歴史、原則、聖典、時代を超えた教えを探ってみましょう。",
-        "meta": {
-            "title": "サナタナ ダルマについて – 歴史、哲学、精神的な知恵",
-            "canonical": "https://sanatanadharmam.in/about",
-            "description": "ヒンズー教哲学の永遠の精神的伝統であるサナタナ ダルマについて学びましょう。その歴史、原則、聖典、時代を超えた教えを探ってみましょう。",
-            "keywords": [
-                "サタナダルマ",
-                "サナタナダルマの意味",
-                "ヒンズー教の哲学",
-                "サタナダルマの歴史",
-                "ヴェーダの伝統",
-                "ヒンズー教の経典",
-                "ダルマ カルマ モクシャ",
-                "サナタナダルマの教え",
-                "ヒンドゥー教の精神哲学",
-                "サナタナ ダルマの原則"
-            ],
-            "url": "https://sanatanadharmam.in/about"
-        },
-        "openGraph": {
-            "title": "サナタナ ダルマ – 永遠の精神的伝統について",
-            "description": "ヴェーダの教え、経典、精神的な実践など、サナタナ ダルマの意味、哲学、原則を学びましょう。",
-            "url": "https://sanatanadharmam.in/about",
-            "siteName": "サナタナダルマム",
-            "type": "記事",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/about.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "About Sanatana Dharma"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "概要ページ",
-                    "name": "サナタナダルマムについて",
-                    "url": "https://sanatanadharmam.in/about",
-                    "description": "サナタナ ダルマの哲学、経典、精神的伝統など、サナタナ ダルマに関する情報。",
-                    "isPartOf": {
-                        "@type": "Webサイト",
-                        "name": "サナタナダルマム",
-                        "url": "https://sanatanadharmam.in"
-                    }
-                },
-                {
-                    "@type": "組織",
-                    "name": "サナタナダルマム",
-                    "url": "https://sanatanadharmam.in",
-                    "logo": "https://sanatanadharmam.in/images/logo.png",
-                    "contactPoint": {
-                        "@type": "連絡先",
-                        "contactType": "カスタマーサポート",
-                        "areaServed": "世界中",
-                        "availableLanguage": [
-                            "英語",
-                            "ヒンディー語",
-                            "テルグ語",
-                            "アラビア語",
-                            "ドイツ語",
-                            "スペイン語",
-                            "フランス語",
-                            "日本語",
-                            "ネパール語",
-                            "オランダ語",
-                            "ポルトガル語",
-                            "ロシア",
-                            "ウルドゥー語",
-                            "中国語"
-                        ],
-                        "email": "info@sanatanadharmam.in",
-                        "telephone": "+91-8099181075"
-                    }
-                }
-            ]
-        },
-        "commitment": [
-            "精度と明瞭さを継続的に向上させるため",
-            "より多くの聖典、注釈、信仰資料を備えたライブラリを更新するため",
-            "伝統的な知識の神聖さと多様性を尊重すること",
-            "重要なコンテンツを無料で広くアクセスできる状態に保つため",
-            "出典を明確に引用し、学術的な検証を奨励する"
-        ],
-        "definationoflife": {
-            "artha": "アーサ",
-            "as_individu": "個人がそうであるように、宇宙もまたそうです",
-            "atman_true": "アートマン、つまりあなたの真の自己は永遠であり、神聖なものです。",
-            "brahmach": "ブラフマチャリヤ",
-            "desires": "(欲望)、そして",
-            "dharma": "ダルマ",
-            "essence_life": "生命の本質",
-            "eternal_soul": "आत्मा - 永遠の魂",
-            "eternal_truth": "永遠の真実",
-            "every_action": "あらゆる行動がカルマを生み出し、私たちの運命を形作ります。",
-            "four_stages": "आश्रम - 人生の 4 つの段階",
-            "grihasth": "グリハスタ",
-            "have_right": "— あなたには義務を果たす権利がありますが、その成果は神のものです。",
-            "househol_family": "世帯主 - 家族と義務",
-            "illusion_truth": "माया - 幻想と真実",
-            "kama": "カマ",
-            "know_thyself": "自分自身を知れ",
-            "law_action": "कर्म - 行動の法則",
-            "liberati": "（解放）。",
-            "life_divine": "人生は、一時的な肉体ではなく、自分の本当の性質を理解する神聖な機会です。\n                  しかし、誕生や死の影響を受けることなく、すべてを目撃する不滅の意識は、\n                  喜びか苦痛か。この実現は人間存在の最高の目標です。",
-            "life_play": "人生は宇宙の幻想であるマヤの遊びです。真の知恵は、外見を超えて物事を認識することにあります。",
-            "life_s": "人生の目的 - 人生の目的",
-            "life_sacred": "人生は 4 つのプルシャルタへ向かう神聖な旅です。",
-            "moksha": "モクシャ",
-            "never_born": "— それは決して生まれませんし、死ぬこともありません。人生は、ブラフマンとの一体性を実現する魂の旅です。",
-            "pervades_all": "それはすべての存在に浸透しています。",
-            "prosperi": "（繁栄）、",
-            "renuncia_complete": "放棄 - 完全な解放",
-            "retireme_detachme": "退職 - 分離と反省",
-            "righteou": "（正義）、",
-            "sannyasa": "サンニャサ",
-            "student_life": "学生生活 - 学習と規律",
-            "vanapras": "ヴァナプラスタ"
-        },
-        "introduction": "Sanatanadharmam.in は、何千年にもわたって Sanatana Dharma を通じて伝えられてきた精神的、文化的、実践的な知識を収集、保存、説明、共有するために作成された専用のデジタル イニシアチブです。私たちの目的は、本物のテキスト、敬虔な賛美歌、儀式の手順、哲学的エッセイ、そして役立つ文脈上の解説を明確で使いやすい形式で提示することによって、この生きた伝統をあらゆる背景の求道者、学生、実践者、そして好奇心旺盛な読者が親しみやすいものにすることです。\n\n私たちは、サナータナ ダルマが単一の一枚岩のシステムではなく、多くの言語、系統、地域の表現にまたがる広大で進化する思考と実践の集合体であることを認識しています。このサイトは、その多様性を尊重するとともに、この伝統を初めて知る人に一貫した入り口を提供するよう努めています。私たちは信憑性、明瞭さ、使いやすさに重点を置いており、詠唱のための正確な音訳とクリーンなテキスト、ニュアンスを維持した信頼できる翻訳、資料の歴史的、文化的、精神的な重要性を明らかにする平易な説明を提供します。\n\n私たちの優先事項には、信頼できる版からソース資料を収集すること、学習者向けに正しい発音記号と音訳を付けてストトラとマントラを提示すること、一般的な家庭の儀式や祭りのための段階的なプージャー・ヴィディ・ガイドを提供すること、読者が単に学術的な説明ではなく実践的な意味を理解できるように主要な哲学の教えのアクセス可能な要約を作成することが含まれます。可能な限り、読者が文脈や来歴を理解できるように、元の情報源への参照を含め、さらに読むことを提案し、異なる読み方や地域の違いを示します。\n\n私たちは、このサイトがテキストを提供するだけでなく、日々のスピリチュアルな生活の実践的なパートナーとなることを望んでいます。そのために、私たちは毎日の祈り、朝と夕方の日課、毎日の暗唱に適した短い聖句、一般的な行事のための簡潔なガイドのコレクションを厳選しています。また、儀式や経典をより広範な文化的および倫理的枠組みの中に位置づける解説記事も出版し、読者が実践と意味を結び付けるのに役立ちます。このサイトは意図的に無宗派であり、共通のルーツを共有する伝統を、その違いに配慮しながら並べて紹介できる、敬意を持った空間を作り出すことを目指しています。\n\nアクセシビリティは私たちにとって重要です。私たちは、幅広い視聴者にリーチし、英語を主言語としない人々をサポートするために、複数のインド言語および国際言語でコンテンツを公開しています。テキストには可能な限り音訳と音声が含まれているため、学習者は正しい発音とリズムを練習できます。私たちは、階層的な説明を提供することで、初心者と上級読者の両方にとってコンテンツをナビゲートし、検索しやすく、親しみやすいものにするよう努めています。つまり、すぐに読める短い要約と、より深く学びたい人向けのより詳細なメモと参考文献が続きます。\n\n私たちは、サナータナ ダルマを責任を持って保存し共有するには、献身、学術的配慮、そして現代の出版慣行の融合が必要であると信じています。すべての資料は伝統的な形式を尊重し、明瞭さを重視して整理されているため、現代の生活の中で読んだり、唱えたり、実践したりすることができます。",
-        "disclaimer": "私たちは伝統的な権威や徹底的な学術報道機関であるとは主張しません。このウェブサイトは、献身、注意、正確さへのこだわりを持って維持されています。読者は、正典または典礼上の決定について、確立された版または著名な教師に相談する必要があります。必要に応じて、重要なテキストを信頼できる情報源と相互検証することをお勧めします。",
-        "faq": {
-            "heading": "よくある質問",
-            "items": [
-                {
-                    "a": "このサイトは、サナータナ ダルマに関連するテキスト、ストラトラ、儀式ガイド、説明記事を、学習者、実践者、研究者がアクセス可能な形式で収集、保存、提示することを目的としています。",
-                    "q": "Sanatanadharmam.in の目的は何ですか?"
-                },
-                {
-                    "a": "私たちは信頼できる版を使用し、出典を引用するよう努めています。ただし、当社は正式な学術報道機関ではありません。読者は、正規版の決定について初版および著名な教師を参照する必要があります。",
-                    "q": "サイト上の文章は信頼できるものですか?"
-                },
-                {
-                    "a": "はい。寄付を歓迎します。提案された修正、翻訳、または出典を参考文献とともに送信するには、お問い合わせページを使用してください。投稿は公開前に審査されます。",
-                    "q": "修正や翻訳に貢献できますか?"
-                },
-                {
-                    "a": "正しい発音を支援するために可能な限り標準化された音訳と発音記号を提供し、利用可能な場合はプレーンテキスト バージョンや音声録音も提供します。",
-                    "q": "音訳はどのように処理されますか?"
-                }
-            ]
-        },
-        "joinus": {
-            "invite": [
-                "ウェブサイトを他の人と共有して認識を広める",
-                "フィードバック チャネルを通じて改善や修正を提案する",
-                "翻訳、録音、またはテキストをレビューのために提供する",
-                "編集支援や技術支援をボランティアとして行ってプロジェクトをサポートする"
-            ],
-            "message": "サナータナ ダルマは、真実、思いやり、奉仕に根ざした生き方です。読者の皆様には、謙虚さと探究心をもって学び、実践し、貢献していただくようお願いいたします。"
-        },
-        "longdescription": "This site grew from the recognition that living spiritual traditions require both preservation and renewal. Preservation means careful transcription of texts, responsible citation of sources, and a commitment to accuracy in transliteration and translation. Renewal means presenting those texts in ways that resonate with contemporary life, clarifying how ancient practices relate to modern ethical concerns, family life, community service, and personal development.\n\nWe approach content curation through several complementary practices. Source integrity is central: whenever a text is digitized, we note the edition, provide bibliographic details, and indicate any editorial decisions we have made. For stotras and mantras, we offer guidance on pronunciation and rhythm, and when recordings are available we include short audio clips to assist learners. For ritual instructions, we break down the sequence into clear steps, articulate the meaning behind each action, and note regional or lineage-based variations so readers can adapt practice while understanding why variations exist.\n\nPedagogy matters. Learners often need short, practical introductions before engaging with longer texts. Therefore our articles begin with concise, plain-language overviews, followed by progressively detailed sections that discuss historical background, scriptural references, linguistic notes, and suggested further reading. This layered format allows casual readers to find quick answers and serious students to pursue deeper study.\n\nCommunity contribution is encouraged. While we are not a scholarly press, we welcome input from practitioners, teachers, and scholars who wish to suggest corrections, offer additional sources, or contribute translations and commentary. All contributions are reviewed for fidelity to sources and clarity. We maintain a modest editorial policy intended to balance open collaboration with the responsibilities of curating sacred texts.\n\nEthical considerations shape our approach. Sanātana Dharma teaches values such as dharma, compassion, truthfulness, and selfless service. We aim to reflect those values through respectful presentation, inclusivity, and avoidance of polemics. We do not promote commercial exploitation of sacred materials; most content is freely available on the site, and we explicitly credit sources and contributors. When material is used under specific permissions or licenses, that information is clearly provided.\n\nPractical use cases guide content design. A household practitioner looking for the correct sequence of a common puja should be able to find step-by-step guidance and an explanation of the essential mantras and gestures. A student preparing for a recitation should be able to access a clean text with transliteration and an audio model. A curious reader should be able to find a concise introduction to the Bhagavathgita, with links to primary verses and readable commentary. By focusing on real needs, we make the tradition more accessible while preserving depth.\n\nTechnology is a tool, not a replacement for lived tradition. We use the web to index, search, and present materials; to host audio and transliteration tools; and to enable multilingual navigation. Yet we recognize that direct guidance from a teacher and participation in community practice remain vital. Our content is designed to complement—not replace—personal instruction and community-based learning.\n\nLooking ahead, we plan to expand audio and multimedia resources, to incorporate more regional and language-specific editions, and to build tools that help teachers and students interact with texts (for example, bookmarking, shared notes, and small-group reading guides). We also plan to strengthen citations and bibliographic references so that researchers and teachers can trace the textual lineage of materials found on the site.\n\nWe invite readers to treat the site as a starting point: a careful, compassionate introduction to a living tradition. For those who wish to explore further, we provide pathways into primary sources, classical commentaries, and reputable contemporary expositions. Whether your interest is devotional, scholarly, cultural, or practical, Sanatanadharmam.in aims to offer resources that are accurate, accessible, and useful.\n\nIf you find errors, omissions, or ways to improve presentation, please share them. Contributions that improve accuracy, add missing source citations, supply high-quality translations, or provide helpful audio recordings are especially welcome. We hope this work supports individual practice, communal life, and the intergenerational transmission of knowledge in ways that are respectful, open-hearted, and responsible.\n\nIn sum, Sanatanadharmam.in seeks to safeguard a broad spectrum of knowledge from Sanātana Dharma, to present it with integrity and care, and to make it a living, usable resource for anyone seeking to learn, practice, or simply understand. We are guided by the conviction that ancient wisdom, when presented honestly and thoughtfully, can help individuals and communities cultivate insight, compassion, and a deeper sense of meaning.",
-        "sections": [
-            {
-                "title": "私たちは誰なのか",
-                "text": "Sanātana Dharmam は、インド亜大陸の最古の精神的伝統に組み込まれた普遍的価値観を共有することに情熱を注ぐスピリチュアルな探求者によって作成された専用のオンライン プラットフォームです。私たちの活動はヴェーダやウパニシャッドなどの聖典に基づいていますが、私たちは霊的権威であると主張しているわけではありません。私たちはこの深遠な生き方について思慮深く厳選された概要を提供する旅人です。"
-            },
-            {
-                "title": "私たちの使命",
-                "bullets": [
-                    "教育と力を与える - サナータナ ダルマをアクセスしやすく、共感できるものにするために、ヴェーダの聖典と古典的な解説から得た洞察を提示します。",
-                    "信頼性の維持 – 正確さとオリジナルのサンスクリット語源への敬意を強調します。",
-                    "調和を促す – より深い精神的真実、包括的な儀式、倫理的な生活を探求し、多様性の中での統一を育みます。"
-                ]
-            },
-            {
-                "title": "私たちがカバーする内容",
-                "bullets": [
-                    "スヴァダルマやサナータナダルマなどの核となる原則",
-                    "6 つの主要な哲学体系: ニャーヤ、ヴァイシェシカ、ヴェダーンタ、サーンキヤ、ヨガ、ミーマーンサー",
-                    "ヨガ、瞑想、サトルボディの実践に関する実践的なガイダンス",
-                    "儀式、結婚の習慣、菜食主義、バクティ、異宗教間の理解"
-                ]
-            },
-            {
-                "title": "なぜ今日それが重要なのか",
-                "text": "サナータナ ダルマは単なる宗教ではなく、何千年にもわたって文化的、倫理的、精神的な枠組みを形成してきた、進化し続ける生きた哲学です。この用語自体は「永遠の道」または「永遠の法」を意味し、時間、場所、教義を超えた永続的な知恵を反映しています。急速な変化の時代において、真実、非暴力、思いやり、自己実現といった核となる価値観と再びつながることは、個人と社会の両方に総合的な指針を提供します。"
-            }
-        ],
-        "vision": {
-            "description": "サナータナ ダルマの重要な教え、信仰文献、儀式の知識、実践的な指導を保存し、現在および将来の世代にとってアクセスしやすく、理解しやすく、使用できるようにする、信頼性の高い、よく厳選されたデジタル リポジトリとして機能すること。",
-            "focusareas": [
-                "サンスクリット語、インドの地域言語、英語にまたがる多言語コンテンツ",
-                "祈りの聖文、マントラ、毎日の祈りを音訳と音声サポート付きで提供",
-                "プージャ・ヴィディ、祭りガイド、家庭儀式の詳細な説明書",
-                "ウパニシャッド、バガヴァトギーター、プラーナ、および古典的な注釈からの哲学的概念の明確な説明",
-                "経典を実際の実践や倫理的な生活に結びつける文脈に沿ったエッセイ",
-                "権威ある版への引用を含む、検索可能で充実したカタログ化されたアーカイブ"
-            ],
-            "goal": "貴重な文書を保存し、学習と実践のための実践的な道筋を提供し、世代を超えて学習者、実践者、学者をサポートする永続的なデジタル ライブラリを構築すること。"
-        },
-        "whywecreated": {
-            "problemsaddressed": [
-                "重要なテキストの見つけにくい、一貫性のない、デジタル化が不十分なバージョン",
-                "複数のサイトおよびフォーマットにわたるリソースの断片化",
-                "学習者にとってアクセスしやすい翻訳や音訳が不足している",
-                "儀式や哲学の教えを日常生活に適用するための文脈上のガイダンスが不十分である",
-                "非専門家が事前の訓練を受けずに聖典に取り組むことを妨げる障壁"
-            ],
-            "purpose": "私たちは、信頼できる資料を一元管理し、読者が好奇心から有意義な実践に移行できるように階層的な説明を提供するために Sanatanadharmam.in を作成しました。私たちは、きれいなデジタル版、丁寧な翻訳、音訳補助、実用的な儀式ガイド、共感的な解釈を組み合わせることで、伝統の奥深さと多様性を尊重しつつ、参入障壁を低くしたいと考えています。"
+  "about": {
+    "title": "サナタナ ダルマについて – 歴史、哲学、精神的な知恵",
+    "description": "ヒンズー教哲学の永遠の精神的伝統であるサナタナ ダルマについて学びましょう。その歴史、原則、聖典、時代を超えた教えを探ってみましょう。",
+    "meta": {
+      "title": "サナタナ ダルマについて – 歴史、哲学、精神的な知恵",
+      "canonical": "https://sanatanadharmam.in/about",
+      "description": "ヒンズー教哲学の永遠の精神的伝統であるサナタナ ダルマについて学びましょう。その歴史、原則、聖典、時代を超えた教えを探ってみましょう。",
+      "keywords": [
+        "サタナダルマ",
+        "サナタナダルマの意味",
+        "ヒンズー教の哲学",
+        "サタナダルマの歴史",
+        "ヴェーダの伝統",
+        "ヒンズー教の経典",
+        "ダルマ カルマ モクシャ",
+        "サナタナダルマの教え",
+        "ヒンドゥー教の精神哲学",
+        "サナタナ ダルマの原則"
+      ],
+      "url": "https://sanatanadharmam.in/about"
+    },
+    "openGraph": {
+      "title": "サナタナ ダルマ – 永遠の精神的伝統について",
+      "description": "ヴェーダの教え、経典、精神的な実践など、サナタナ ダルマの意味、哲学、原則を学びましょう。",
+      "url": "https://sanatanadharmam.in/about",
+      "siteName": "サナタナダルマム",
+      "type": "記事",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/about.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "About Sanatana Dharma"
         }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "概要ページ",
+          "name": "サナタナダルマムについて",
+          "url": "https://sanatanadharmam.in/about",
+          "description": "サナタナ ダルマの哲学、経典、精神的伝統など、サナタナ ダルマに関する情報。",
+          "isPartOf": {
+            "@type": "Webサイト",
+            "name": "サナタナダルマム",
+            "url": "https://sanatanadharmam.in"
+          }
+        },
+        {
+          "@type": "組織",
+          "name": "サナタナダルマム",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png",
+          "contactPoint": {
+            "@type": "連絡先",
+            "contactType": "カスタマーサポート",
+            "areaServed": "世界中",
+            "availableLanguage": [
+              "英語",
+              "ヒンディー語",
+              "テルグ語",
+              "アラビア語",
+              "ドイツ語",
+              "スペイン語",
+              "フランス語",
+              "日本語",
+              "ネパール語",
+              "オランダ語",
+              "ポルトガル語",
+              "ロシア",
+              "ウルドゥー語",
+              "中国語"
+            ],
+            "email": "info@sanatanadharmam.in",
+            "telephone": "+91-8099181075"
+          }
+        }
+      ]
+    },
+    "commitment": [
+      "精度と明瞭さを継続的に向上させるため",
+      "より多くの聖典、注釈、信仰資料を備えたライブラリを更新するため",
+      "伝統的な知識の神聖さと多様性を尊重すること",
+      "重要なコンテンツを無料で広くアクセスできる状態に保つため",
+      "出典を明確に引用し、学術的な検証を奨励する"
+    ],
+    "definationoflife": {
+      "artha": "アーサ",
+      "as_individu": "個人がそうであるように、宇宙もまたそうです",
+      "atman_true": "アートマン、つまりあなたの真の自己は永遠であり、神聖なものです。",
+      "brahmach": "ブラフマチャリヤ",
+      "desires": "(欲望)、そして",
+      "dharma": "ダルマ",
+      "essence_life": "生命の本質",
+      "eternal_soul": "आत्मा - 永遠の魂",
+      "eternal_truth": "永遠の真実",
+      "every_action": "あらゆる行動がカルマを生み出し、私たちの運命を形作ります。",
+      "four_stages": "आश्रम - 人生の 4 つの段階",
+      "grihasth": "グリハスタ",
+      "have_right": "— あなたには義務を果たす権利がありますが、その成果は神のものです。",
+      "househol_family": "世帯主 - 家族と義務",
+      "illusion_truth": "माया - 幻想と真実",
+      "kama": "カマ",
+      "know_thyself": "自分自身を知れ",
+      "law_action": "कर्म - 行動の法則",
+      "liberati": "（解放）。",
+      "life_divine": "人生は、一時的な肉体ではなく、自分の本当の性質を理解する神聖な機会です。\n                  しかし、誕生や死の影響を受けることなく、すべてを目撃する不滅の意識は、\n                  喜びか苦痛か。この実現は人間存在の最高の目標です。",
+      "life_play": "人生は宇宙の幻想であるマヤの遊びです。真の知恵は、外見を超えて物事を認識することにあります。",
+      "life_s": "人生の目的 - 人生の目的",
+      "life_sacred": "人生は 4 つのプルシャルタへ向かう神聖な旅です。",
+      "moksha": "モクシャ",
+      "never_born": "— それは決して生まれませんし、死ぬこともありません。人生は、ブラフマンとの一体性を実現する魂の旅です。",
+      "pervades_all": "それはすべての存在に浸透しています。",
+      "prosperi": "（繁栄）、",
+      "renuncia_complete": "放棄 - 完全な解放",
+      "retireme_detachme": "退職 - 分離と反省",
+      "righteou": "（正義）、",
+      "sannyasa": "サンニャサ",
+      "student_life": "学生生活 - 学習と規律",
+      "vanapras": "ヴァナプラスタ"
+    },
+    "introduction": "Sanatanadharmam.in は、何千年にもわたって Sanatana Dharma を通じて伝えられてきた精神的、文化的、実践的な知識を収集、保存、説明、共有するために作成された専用のデジタル イニシアチブです。私たちの目的は、本物のテキスト、敬虔な賛美歌、儀式の手順、哲学的エッセイ、そして役立つ文脈上の解説を明確で使いやすい形式で提示することによって、この生きた伝統をあらゆる背景の求道者、学生、実践者、そして好奇心旺盛な読者が親しみやすいものにすることです。\n\n私たちは、サナータナ ダルマが単一の一枚岩のシステムではなく、多くの言語、系統、地域の表現にまたがる広大で進化する思考と実践の集合体であることを認識しています。このサイトは、その多様性を尊重するとともに、この伝統を初めて知る人に一貫した入り口を提供するよう努めています。私たちは信憑性、明瞭さ、使いやすさに重点を置いており、詠唱のための正確な音訳とクリーンなテキスト、ニュアンスを維持した信頼できる翻訳、資料の歴史的、文化的、精神的な重要性を明らかにする平易な説明を提供します。\n\n私たちの優先事項には、信頼できる版からソース資料を収集すること、学習者向けに正しい発音記号と音訳を付けてストトラとマントラを提示すること、一般的な家庭の儀式や祭りのための段階的なプージャー・ヴィディ・ガイドを提供すること、読者が単に学術的な説明ではなく実践的な意味を理解できるように主要な哲学の教えのアクセス可能な要約を作成することが含まれます。可能な限り、読者が文脈や来歴を理解できるように、元の情報源への参照を含め、さらに読むことを提案し、異なる読み方や地域の違いを示します。\n\n私たちは、このサイトがテキストを提供するだけでなく、日々のスピリチュアルな生活の実践的なパートナーとなることを望んでいます。そのために、私たちは毎日の祈り、朝と夕方の日課、毎日の暗唱に適した短い聖句、一般的な行事のための簡潔なガイドのコレクションを厳選しています。また、儀式や経典をより広範な文化的および倫理的枠組みの中に位置づける解説記事も出版し、読者が実践と意味を結び付けるのに役立ちます。このサイトは意図的に無宗派であり、共通のルーツを共有する伝統を、その違いに配慮しながら並べて紹介できる、敬意を持った空間を作り出すことを目指しています。\n\nアクセシビリティは私たちにとって重要です。私たちは、幅広い視聴者にリーチし、英語を主言語としない人々をサポートするために、複数のインド言語および国際言語でコンテンツを公開しています。テキストには可能な限り音訳と音声が含まれているため、学習者は正しい発音とリズムを練習できます。私たちは、階層的な説明を提供することで、初心者と上級読者の両方にとってコンテンツをナビゲートし、検索しやすく、親しみやすいものにするよう努めています。つまり、すぐに読める短い要約と、より深く学びたい人向けのより詳細なメモと参考文献が続きます。\n\n私たちは、サナータナ ダルマを責任を持って保存し共有するには、献身、学術的配慮、そして現代の出版慣行の融合が必要であると信じています。すべての資料は伝統的な形式を尊重し、明瞭さを重視して整理されているため、現代の生活の中で読んだり、唱えたり、実践したりすることができます。",
+    "disclaimer": "私たちは伝統的な権威や徹底的な学術報道機関であるとは主張しません。このウェブサイトは、献身、注意、正確さへのこだわりを持って維持されています。読者は、正典または典礼上の決定について、確立された版または著名な教師に相談する必要があります。必要に応じて、重要なテキストを信頼できる情報源と相互検証することをお勧めします。",
+    "faq": {
+      "heading": "よくある質問",
+      "items": [
+        {
+          "a": "このサイトは、サナータナ ダルマに関連するテキスト、ストラトラ、儀式ガイド、説明記事を、学習者、実践者、研究者がアクセス可能な形式で収集、保存、提示することを目的としています。",
+          "q": "Sanatanadharmam.in の目的は何ですか?"
+        },
+        {
+          "a": "私たちは信頼できる版を使用し、出典を引用するよう努めています。ただし、当社は正式な学術報道機関ではありません。読者は、正規版の決定について初版および著名な教師を参照する必要があります。",
+          "q": "サイト上の文章は信頼できるものですか?"
+        },
+        {
+          "a": "はい。寄付を歓迎します。提案された修正、翻訳、または出典を参考文献とともに送信するには、お問い合わせページを使用してください。投稿は公開前に審査されます。",
+          "q": "修正や翻訳に貢献できますか?"
+        },
+        {
+          "a": "正しい発音を支援するために可能な限り標準化された音訳と発音記号を提供し、利用可能な場合はプレーンテキスト バージョンや音声録音も提供します。",
+          "q": "音訳はどのように処理されますか?"
+        }
+      ]
+    },
+    "joinus": {
+      "invite": [
+        "ウェブサイトを他の人と共有して認識を広める",
+        "フィードバック チャネルを通じて改善や修正を提案する",
+        "翻訳、録音、またはテキストをレビューのために提供する",
+        "編集支援や技術支援をボランティアとして行ってプロジェクトをサポートする"
+      ],
+      "message": "サナータナ ダルマは、真実、思いやり、奉仕に根ざした生き方です。読者の皆様には、謙虚さと探究心をもって学び、実践し、貢献していただくようお願いいたします。"
+    },
+    "longdescription": "This site grew from the recognition that living spiritual traditions require both preservation and renewal. Preservation means careful transcription of texts, responsible citation of sources, and a commitment to accuracy in transliteration and translation. Renewal means presenting those texts in ways that resonate with contemporary life, clarifying how ancient practices relate to modern ethical concerns, family life, community service, and personal development.\n\nWe approach content curation through several complementary practices. Source integrity is central: whenever a text is digitized, we note the edition, provide bibliographic details, and indicate any editorial decisions we have made. For stotras and mantras, we offer guidance on pronunciation and rhythm, and when recordings are available we include short audio clips to assist learners. For ritual instructions, we break down the sequence into clear steps, articulate the meaning behind each action, and note regional or lineage-based variations so readers can adapt practice while understanding why variations exist.\n\nPedagogy matters. Learners often need short, practical introductions before engaging with longer texts. Therefore our articles begin with concise, plain-language overviews, followed by progressively detailed sections that discuss historical background, scriptural references, linguistic notes, and suggested further reading. This layered format allows casual readers to find quick answers and serious students to pursue deeper study.\n\nCommunity contribution is encouraged. While we are not a scholarly press, we welcome input from practitioners, teachers, and scholars who wish to suggest corrections, offer additional sources, or contribute translations and commentary. All contributions are reviewed for fidelity to sources and clarity. We maintain a modest editorial policy intended to balance open collaboration with the responsibilities of curating sacred texts.\n\nEthical considerations shape our approach. Sanātana Dharma teaches values such as dharma, compassion, truthfulness, and selfless service. We aim to reflect those values through respectful presentation, inclusivity, and avoidance of polemics. We do not promote commercial exploitation of sacred materials; most content is freely available on the site, and we explicitly credit sources and contributors. When material is used under specific permissions or licenses, that information is clearly provided.\n\nPractical use cases guide content design. A household practitioner looking for the correct sequence of a common puja should be able to find step-by-step guidance and an explanation of the essential mantras and gestures. A student preparing for a recitation should be able to access a clean text with transliteration and an audio model. A curious reader should be able to find a concise introduction to the Bhagavathgita, with links to primary verses and readable commentary. By focusing on real needs, we make the tradition more accessible while preserving depth.\n\nTechnology is a tool, not a replacement for lived tradition. We use the web to index, search, and present materials; to host audio and transliteration tools; and to enable multilingual navigation. Yet we recognize that direct guidance from a teacher and participation in community practice remain vital. Our content is designed to complement—not replace—personal instruction and community-based learning.\n\nLooking ahead, we plan to expand audio and multimedia resources, to incorporate more regional and language-specific editions, and to build tools that help teachers and students interact with texts (for example, bookmarking, shared notes, and small-group reading guides). We also plan to strengthen citations and bibliographic references so that researchers and teachers can trace the textual lineage of materials found on the site.\n\nWe invite readers to treat the site as a starting point: a careful, compassionate introduction to a living tradition. For those who wish to explore further, we provide pathways into primary sources, classical commentaries, and reputable contemporary expositions. Whether your interest is devotional, scholarly, cultural, or practical, Sanatanadharmam.in aims to offer resources that are accurate, accessible, and useful.\n\nIf you find errors, omissions, or ways to improve presentation, please share them. Contributions that improve accuracy, add missing source citations, supply high-quality translations, or provide helpful audio recordings are especially welcome. We hope this work supports individual practice, communal life, and the intergenerational transmission of knowledge in ways that are respectful, open-hearted, and responsible.\n\nIn sum, Sanatanadharmam.in seeks to safeguard a broad spectrum of knowledge from Sanātana Dharma, to present it with integrity and care, and to make it a living, usable resource for anyone seeking to learn, practice, or simply understand. We are guided by the conviction that ancient wisdom, when presented honestly and thoughtfully, can help individuals and communities cultivate insight, compassion, and a deeper sense of meaning.",
+    "sections": [
+      {
+        "title": "私たちは誰なのか",
+        "text": "Sanātana Dharmam は、インド亜大陸の最古の精神的伝統に組み込まれた普遍的価値観を共有することに情熱を注ぐスピリチュアルな探求者によって作成された専用のオンライン プラットフォームです。私たちの活動はヴェーダやウパニシャッドなどの聖典に基づいていますが、私たちは霊的権威であると主張しているわけではありません。私たちはこの深遠な生き方について思慮深く厳選された概要を提供する旅人です。"
+      },
+      {
+        "title": "私たちの使命",
+        "bullets": [
+          "教育と力を与える - サナータナ ダルマをアクセスしやすく、共感できるものにするために、ヴェーダの聖典と古典的な解説から得た洞察を提示します。",
+          "信頼性の維持 – 正確さとオリジナルのサンスクリット語源への敬意を強調します。",
+          "調和を促す – より深い精神的真実、包括的な儀式、倫理的な生活を探求し、多様性の中での統一を育みます。"
+        ]
+      },
+      {
+        "title": "私たちがカバーする内容",
+        "bullets": [
+          "スヴァダルマやサナータナダルマなどの核となる原則",
+          "6 つの主要な哲学体系: ニャーヤ、ヴァイシェシカ、ヴェダーンタ、サーンキヤ、ヨガ、ミーマーンサー",
+          "ヨガ、瞑想、サトルボディの実践に関する実践的なガイダンス",
+          "儀式、結婚の習慣、菜食主義、バクティ、異宗教間の理解"
+        ]
+      },
+      {
+        "title": "なぜ今日それが重要なのか",
+        "text": "サナータナ ダルマは単なる宗教ではなく、何千年にもわたって文化的、倫理的、精神的な枠組みを形成してきた、進化し続ける生きた哲学です。この用語自体は「永遠の道」または「永遠の法」を意味し、時間、場所、教義を超えた永続的な知恵を反映しています。急速な変化の時代において、真実、非暴力、思いやり、自己実現といった核となる価値観と再びつながることは、個人と社会の両方に総合的な指針を提供します。"
+      }
+    ],
+    "vision": {
+      "description": "サナータナ ダルマの重要な教え、信仰文献、儀式の知識、実践的な指導を保存し、現在および将来の世代にとってアクセスしやすく、理解しやすく、使用できるようにする、信頼性の高い、よく厳選されたデジタル リポジトリとして機能すること。",
+      "focusareas": [
+        "サンスクリット語、インドの地域言語、英語にまたがる多言語コンテンツ",
+        "祈りの聖文、マントラ、毎日の祈りを音訳と音声サポート付きで提供",
+        "プージャ・ヴィディ、祭りガイド、家庭儀式の詳細な説明書",
+        "ウパニシャッド、バガヴァトギーター、プラーナ、および古典的な注釈からの哲学的概念の明確な説明",
+        "経典を実際の実践や倫理的な生活に結びつける文脈に沿ったエッセイ",
+        "権威ある版への引用を含む、検索可能で充実したカタログ化されたアーカイブ"
+      ],
+      "goal": "貴重な文書を保存し、学習と実践のための実践的な道筋を提供し、世代を超えて学習者、実践者、学者をサポートする永続的なデジタル ライブラリを構築すること。"
+    },
+    "whywecreated": {
+      "problemsaddressed": [
+        "重要なテキストの見つけにくい、一貫性のない、デジタル化が不十分なバージョン",
+        "複数のサイトおよびフォーマットにわたるリソースの断片化",
+        "学習者にとってアクセスしやすい翻訳や音訳が不足している",
+        "儀式や哲学の教えを日常生活に適用するための文脈上のガイダンスが不十分である",
+        "非専門家が事前の訓練を受けずに聖典に取り組むことを妨げる障壁"
+      ],
+      "purpose": "私たちは、信頼できる資料を一元管理し、読者が好奇心から有意義な実践に移行できるように階層的な説明を提供するために Sanatanadharmam.in を作成しました。私たちは、きれいなデジタル版、丁寧な翻訳、音訳補助、実用的な儀式ガイド、共感的な解釈を組み合わせることで、伝統の奥深さと多様性を尊重しつつ、参入障壁を低くしたいと考えています。"
     }
+  }
 }

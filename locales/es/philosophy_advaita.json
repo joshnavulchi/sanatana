@@ -1,136 +1,132 @@
 {
-    "philosophy_advaita": {
-        "title": "Advaita Vedanta – Filosofía no dual del Sanatana Dharma",
-        "description": "Aprenda sobre Advaita Vedanta, la filosofía no dual del Sanatana Dharma enseñada por Adi Shankaracharya. Comprender Brahman, Atman, Maya y el camino hacia Moksha.",
-        "meta": {
-            "title": "Advaita Vedanta – Filosofía no dual del Sanatana Dharma",
-            "canonical": "https://sanatanadharmam.in/philosophy/advaita",
-            "description": "Aprenda sobre Advaita Vedanta, la filosofía no dual del Sanatana Dharma enseñada por Adi Shankaracharya. Comprender Brahman, Atman, Maya y el camino hacia Moksha.",
-            "keywords": [
-                "Advaita Vedanta",
-                "no dualismo",
-                "Adi Shankaracharya",
-                "Brahman y Atman",
-                "filosofía advaita",
-                "Filosofía hindú Advaita",
-                "concepto maya",
-                "Jñana Yoga",
-                "Filosofía de los Upanishads",
-                "Filosofía sanatana dharma"
-            ],
-            "robots": "indexar, seguir",
-            "url": "https://sanatanadharmam.in/philosophy/advaita"
-        },
-        "openGraph": {
-            "title": "Advaita Vedanta – Filosofía no dual",
-            "description": "Explore Advaita Vedanta, la tradición filosófica no dual del Sanatana Dharma explicada a través de las enseñanzas de Adi Shankaracharya.",
-            "url": "https://sanatanadharmam.in/philosophy/advaita",
-            "siteName": "Sanatanadharmam",
-            "type": "artículo",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/philosophy-advaita.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Advaita Vedanta Philosophy"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "Artículo",
-                    "headline": "Advaita Vedanta – Filosofía no dual",
-                    "description": "Advaita Vedanta es una escuela de filosofía hindú que enseña la unidad de Atman y Brahman.",
-                    "author": {
-                        "@type": "persona",
-                        "name": "Adi Shankaracharya"
-                    },
-                    "about": [
-                        "Advaita Vedanta",
-                        "Brahmán",
-                        "Atmán",
-                        "maya",
-                        "Jñana Yoga"
-                    ],
-                    "url": "https://sanatanadharmam.in/philosophy/advaita",
-                    "isPartOf": {
-                        "@type": "Sitio web",
-                        "name": "Sanatanadharmam",
-                        "url": "https://sanatanadharmam.in"
-                    }
-                }
-            ]
-        },
-        "benefits": [
-            "Aporta paz interior duradera y libertad del miedo.",
-            "Disuelve el ego, promoviendo la compasión y la ecuanimidad.",
-            "Fomenta la investigación valiente y el pensamiento crítico.",
-            "Une diversos caminos espirituales bajo una sola verdad.",
-            "Inspira el diálogo y la comprensión interreligiosos a nivel mundial"
-        ],
-        "core_principles": [
-            "Brahman es la única realidad; el mundo es una ilusión (Maya).",
-            "Atman (alma individual) es idéntico a Brahman.",
-            "La ignorancia (Avidya) causa la ilusión de separación.",
-            "El conocimiento (Jnana) conduce a la liberación (Moksha)."
-        ],
-        "features": [
-            "No dualismo radical: afirma la unidad absoluta de Atman y Brahman",
-            "Enfatiza la experiencia directa sobre el ritual o la creencia.",
-            "Utiliza la lógica, el estudio de las Escrituras y la meditación para la realización.",
-            "Tradición dialógica: debate, indagación y comentario.",
-            "Aplicabilidad universal: trasciende castas, credos y épocas"
-        ],
-        "goals": [
-            "Realiza la unidad de Atman y Brahman.",
-            "Superar la ignorancia y la ilusión.",
-            "Alcanzar Moksha (liberación)."
-        ],
-        "key_concepts": {
-            "atman": "El verdadero yo, más allá del cuerpo y la mente.",
-            "avidya": "La ignorancia que une a los seres al Samsara.",
-            "brahman": "La realidad última, infinita e inmutable.",
-            "maya": "Ilusión que crea la percepción de multiplicidad."
-        },
-        "key_scriptural_references": [
-            {
-                "quote_summary": "Tat Tvam Asi – 'Tú eres eso'.",
-                "text": "Chandogya Upanishad"
-            },
-            {
-                "quote_summary": "Los sabios ven el mismo Ser en todos los seres.",
-                "text": "Bhagavathgita"
-            }
-        ],
-        "modern_relevance": {
-            "philosophy": "Influye en el pensamiento global no dualista.",
-            "psychology": "Promueve el desapego y la paz mental.",
-            "spirituality": "Fomenta la conciencia interior y la unidad."
-        },
-        "origin": {
-            "founder": "Adi Shankaracharya",
-            "meaning": "Advaita significa \"no dual\" en sánscrito.",
-            "roots": "Upanishads y Brahma Sutras",
-            "texts": [
-                "Upanishads",
-                "Bhagavathgita",
-                "Brahma Sutras"
-            ]
-        },
-        "paths_to_realization": {
-            "jnana_yoga": "Path of knowledge and self-inquiry.",
-            "manana": "Reflecting on the teachings.",
-            "nididhyasana": "Deep meditation on truth.",
-            "shravana": "Listening to teachings of scriptures."
-        },
-        "purpose": "Revelar la naturaleza no dual de la realidad, disolviendo la ilusión de separación y guiando a los buscadores a realizar su verdadero Ser como Brahman. Advaita tiene como objetivo acabar con el sufrimiento eliminando la ignorancia (avidya) y despertando el conocimiento directo (jñana) de la unidad.",
-        "relation_to_other_concepts": {
-            "dharma": "La vida ética apoya la claridad para la realización.",
-            "karma": "Las acciones no pueden otorgar liberación; sólo el conocimiento puede hacerlo.",
-            "moksha": "Meta final alcanzada a través de la autorrealización."
-        },
-        "unique_insights": "Advaita es único en su afirmación intransigente de la unidad: \"Sólo Brahman es real, el mundo es una apariencia y el yo individual no es diferente de Brahman\". Enseña que la liberación no es algo que deba alcanzarse, sino el reconocimiento de lo que ya es. La influencia del Advaita se extiende mucho más allá de la India y da forma a la filosofía, la psicología y la espiritualidad modernas en todo el mundo."
-    }
+  "philosophy_advaita": {
+    "title": "Advaita Vedanta – Filosofía no dual del Sanatana Dharma",
+    "description": "Aprenda sobre Advaita Vedanta, la filosofía no dual del Sanatana Dharma enseñada por Adi Shankaracharya. Comprender Brahman, Atman, Maya y el camino hacia Moksha.",
+    "meta": {
+      "title": "Advaita Vedanta – Filosofía no dual del Sanatana Dharma",
+      "canonical": "https://sanatanadharmam.in/philosophy/advaita",
+      "description": "Aprenda sobre Advaita Vedanta, la filosofía no dual del Sanatana Dharma enseñada por Adi Shankaracharya. Comprender Brahman, Atman, Maya y el camino hacia Moksha.",
+      "keywords": [
+        "Advaita Vedanta",
+        "no dualismo",
+        "Adi Shankaracharya",
+        "Brahman y Atman",
+        "filosofía advaita",
+        "Filosofía hindú Advaita",
+        "concepto maya",
+        "Jñana Yoga",
+        "Filosofía de los Upanishads",
+        "Filosofía sanatana dharma"
+      ],
+      "robots": "indexar, seguir",
+      "url": "https://sanatanadharmam.in/philosophy/advaita"
+    },
+    "openGraph": {
+      "title": "Advaita Vedanta – Filosofía no dual",
+      "description": "Explore Advaita Vedanta, la tradición filosófica no dual del Sanatana Dharma explicada a través de las enseñanzas de Adi Shankaracharya.",
+      "url": "https://sanatanadharmam.in/philosophy/advaita",
+      "siteName": "Sanatanadharmam",
+      "type": "artículo",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/philosophy-advaita.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Advaita Vedanta Philosophy"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Artículo",
+          "headline": "Advaita Vedanta – Filosofía no dual",
+          "description": "Advaita Vedanta es una escuela de filosofía hindú que enseña la unidad de Atman y Brahman.",
+          "author": {
+            "@type": "persona",
+            "name": "Adi Shankaracharya"
+          },
+          "about": [
+            "Advaita Vedanta",
+            "Brahmán",
+            "Atmán",
+            "maya",
+            "Jñana Yoga"
+          ],
+          "url": "https://sanatanadharmam.in/philosophy/advaita",
+          "isPartOf": {
+            "@type": "Sitio web",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          }
+        }
+      ]
+    },
+    "benefits": [
+      "Aporta paz interior duradera y libertad del miedo.",
+      "Disuelve el ego, promoviendo la compasión y la ecuanimidad.",
+      "Fomenta la investigación valiente y el pensamiento crítico.",
+      "Une diversos caminos espirituales bajo una sola verdad.",
+      "Inspira el diálogo y la comprensión interreligiosos a nivel mundial"
+    ],
+    "core_principles": [
+      "Brahman es la única realidad; el mundo es una ilusión (Maya).",
+      "Atman (alma individual) es idéntico a Brahman.",
+      "La ignorancia (Avidya) causa la ilusión de separación.",
+      "El conocimiento (Jnana) conduce a la liberación (Moksha)."
+    ],
+    "features": [
+      "No dualismo radical: afirma la unidad absoluta de Atman y Brahman",
+      "Enfatiza la experiencia directa sobre el ritual o la creencia.",
+      "Utiliza la lógica, el estudio de las Escrituras y la meditación para la realización.",
+      "Tradición dialógica: debate, indagación y comentario.",
+      "Aplicabilidad universal: trasciende castas, credos y épocas"
+    ],
+    "goals": [
+      "Realiza la unidad de Atman y Brahman.",
+      "Superar la ignorancia y la ilusión.",
+      "Alcanzar Moksha (liberación)."
+    ],
+    "key_concepts": {
+      "atman": "El verdadero yo, más allá del cuerpo y la mente.",
+      "avidya": "La ignorancia que une a los seres al Samsara.",
+      "brahman": "La realidad última, infinita e inmutable.",
+      "maya": "Ilusión que crea la percepción de multiplicidad."
+    },
+    "key_scriptural_references": [
+      {
+        "quote_summary": "Tat Tvam Asi – 'Tú eres eso'.",
+        "text": "Chandogya Upanishad"
+      },
+      {
+        "quote_summary": "Los sabios ven el mismo Ser en todos los seres.",
+        "text": "Bhagavathgita"
+      }
+    ],
+    "modern_relevance": {
+      "philosophy": "Influye en el pensamiento global no dualista.",
+      "psychology": "Promueve el desapego y la paz mental.",
+      "spirituality": "Fomenta la conciencia interior y la unidad."
+    },
+    "origin": {
+      "founder": "Adi Shankaracharya",
+      "meaning": "Advaita significa \"no dual\" en sánscrito.",
+      "roots": "Upanishads y Brahma Sutras",
+      "texts": ["Upanishads", "Bhagavathgita", "Brahma Sutras"]
+    },
+    "paths_to_realization": {
+      "jnana_yoga": "Path of knowledge and self-inquiry.",
+      "manana": "Reflecting on the teachings.",
+      "nididhyasana": "Deep meditation on truth.",
+      "shravana": "Listening to teachings of scriptures."
+    },
+    "purpose": "Revelar la naturaleza no dual de la realidad, disolviendo la ilusión de separación y guiando a los buscadores a realizar su verdadero Ser como Brahman. Advaita tiene como objetivo acabar con el sufrimiento eliminando la ignorancia (avidya) y despertando el conocimiento directo (jñana) de la unidad.",
+    "relation_to_other_concepts": {
+      "dharma": "La vida ética apoya la claridad para la realización.",
+      "karma": "Las acciones no pueden otorgar liberación; sólo el conocimiento puede hacerlo.",
+      "moksha": "Meta final alcanzada a través de la autorrealización."
+    },
+    "unique_insights": "Advaita es único en su afirmación intransigente de la unidad: \"Sólo Brahman es real, el mundo es una apariencia y el yo individual no es diferente de Brahman\". Enseña que la liberación no es algo que deba alcanzarse, sino el reconocimiento de lo que ya es. La influencia del Advaita se extiende mucho más allá de la India y da forma a la filosofía, la psicología y la espiritualidad modernas en todo el mundo."
+  }
 }

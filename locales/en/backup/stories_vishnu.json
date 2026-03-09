@@ -85,27 +85,17 @@
     "festivals": [
       {
         "name": "Vaikuntha Ekadashi",
-        "practices": [
-          "Temple visits",
-          "Chanting Vishnu Sahasranama"
-        ],
+        "practices": ["Temple visits", "Chanting Vishnu Sahasranama"],
         "significance": "Day of fasting and devotion to Vishnu for liberation."
       },
       {
         "name": "Janmashtami",
-        "practices": [
-          "Midnight puja",
-          "Bhajans",
-          "Dahi Handi"
-        ],
+        "practices": ["Midnight puja", "Bhajans", "Dahi Handi"],
         "significance": "Celebrates Krishna's birth."
       },
       {
         "name": "Rama Navami",
-        "practices": [
-          "Reading Ramayana",
-          "Fasting"
-        ],
+        "practices": ["Reading Ramayana", "Fasting"],
         "significance": "Celebrates Rama's birth."
       }
     ],
@@ -135,12 +125,7 @@
     "origin": {
       "meaning": "Vishnu means 'all-pervading' or 'omnipresent'.",
       "roots": "Vedic tradition evolving into Puranic texts",
-      "texts": [
-        "Rig Veda",
-        "Vishnu Purana",
-        "Bhagavata Purana",
-        "Mahabharata"
-      ]
+      "texts": ["Rig Veda", "Vishnu Purana", "Bhagavata Purana", "Mahabharata"]
     },
     "philosophical_significance": {
       "bhagavad_gita": "Teaches Dharma, Karma Yoga, and surrender to God.",

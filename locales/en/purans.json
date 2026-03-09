@@ -81,7 +81,11 @@
             { "@type": "ListItem", "position": 7, "name": "Markandeya Purana" },
             { "@type": "ListItem", "position": 8, "name": "Agni Purana" },
             { "@type": "ListItem", "position": 9, "name": "Bhavishya Purana" },
-            { "@type": "ListItem", "position": 10, "name": "Brahmavaivarta Purana" },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "name": "Brahmavaivarta Purana"
+            },
             { "@type": "ListItem", "position": 11, "name": "Linga Purana" },
             { "@type": "ListItem", "position": 12, "name": "Varaha Purana" },
             { "@type": "ListItem", "position": 13, "name": "Skanda Purana" },

@@ -1,63 +1,63 @@
 {
-    "itihasa": {
-        "title": "Itihasa – Ramayana, Mahabharata en Bhagavad Gita | Sanatana Dharma",
-        "description": "Ontdek de Itihasa's van Sanatana Dharma, waaronder de Ramayana, Mahabharata en Bhagavad Gita. Deze oude heldendichten leren dharma, toewijding en spirituele wijsheid.",
-        "meta": {
-            "title": "Itihasa – Ramayana, Mahabharata en Bhagavad Gita | Sanatana Dharma",
-            "canonical": "https://sanatanadharmam.in/itihasa",
-            "description": "Ontdek de Itihasa's van Sanatana Dharma, waaronder de Ramayana, Mahabharata en Bhagavad Gita. Deze oude heldendichten leren dharma, toewijding en spirituele wijsheid.",
-            "keywords": [
-                "Itihasa",
-                "Ramayana",
-                "Mahabharata",
-                "Bhagavad Gita",
-                "Hindoeïstische heldendichten",
-                "Sanatana Dharma-heldendichten",
-                "Indiase heldendichten",
-                "Itihasa betekenis"
-            ],
-            "url": "https://sanatanadharmam.in/itihasa"
-        },
-        "openGraph": {
-            "title": "Itihasa – Heilige heldendichten van Sanatana Dharma",
-            "description": "Ontdek de grote heldendichten van Sanatana Dharma, waaronder de Ramayana, Mahabharata en Bhagavad Gita.",
-            "url": "https://sanatanadharmam.in/itihasa",
-            "siteName": "Sanatanadharam",
-            "type": "artikel",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/itihasa.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Itihasa – Ramayana Mahabharata Bhagavad Gita"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "Collectiepagina",
-                    "name": "Itihasa",
-                    "description": "De Itihasa's zijn historische heldendichten van Sanatana Dharma, waaronder Ramayana, Mahabharata en Bhagavad Gita.",
-                    "url": "https://sanatanadharmam.in/itihasa"
-                },
-                {
-                    "@type": "CreatiefWerk",
-                    "name": "Ramayana",
-                    "author": "Valmiki"
-                },
-                {
-                    "@type": "CreatiefWerk",
-                    "name": "Mahabharata",
-                    "author": "Ved Vyasa"
-                },
-                {
-                    "@type": "CreatiefWerk",
-                    "name": "Bhagavad Gita",
-                    "isPartOf": "Mahabharata"
-                }
-            ]
+  "itihasa": {
+    "title": "Itihasa – Ramayana, Mahabharata en Bhagavad Gita | Sanatana Dharma",
+    "description": "Ontdek de Itihasa's van Sanatana Dharma, waaronder de Ramayana, Mahabharata en Bhagavad Gita. Deze oude heldendichten leren dharma, toewijding en spirituele wijsheid.",
+    "meta": {
+      "title": "Itihasa – Ramayana, Mahabharata en Bhagavad Gita | Sanatana Dharma",
+      "canonical": "https://sanatanadharmam.in/itihasa",
+      "description": "Ontdek de Itihasa's van Sanatana Dharma, waaronder de Ramayana, Mahabharata en Bhagavad Gita. Deze oude heldendichten leren dharma, toewijding en spirituele wijsheid.",
+      "keywords": [
+        "Itihasa",
+        "Ramayana",
+        "Mahabharata",
+        "Bhagavad Gita",
+        "Hindoeïstische heldendichten",
+        "Sanatana Dharma-heldendichten",
+        "Indiase heldendichten",
+        "Itihasa betekenis"
+      ],
+      "url": "https://sanatanadharmam.in/itihasa"
+    },
+    "openGraph": {
+      "title": "Itihasa – Heilige heldendichten van Sanatana Dharma",
+      "description": "Ontdek de grote heldendichten van Sanatana Dharma, waaronder de Ramayana, Mahabharata en Bhagavad Gita.",
+      "url": "https://sanatanadharmam.in/itihasa",
+      "siteName": "Sanatanadharam",
+      "type": "artikel",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/itihasa.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Itihasa – Ramayana Mahabharata Bhagavad Gita"
         }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Collectiepagina",
+          "name": "Itihasa",
+          "description": "De Itihasa's zijn historische heldendichten van Sanatana Dharma, waaronder Ramayana, Mahabharata en Bhagavad Gita.",
+          "url": "https://sanatanadharmam.in/itihasa"
+        },
+        {
+          "@type": "CreatiefWerk",
+          "name": "Ramayana",
+          "author": "Valmiki"
+        },
+        {
+          "@type": "CreatiefWerk",
+          "name": "Mahabharata",
+          "author": "Ved Vyasa"
+        },
+        {
+          "@type": "CreatiefWerk",
+          "name": "Bhagavad Gita",
+          "isPartOf": "Mahabharata"
+        }
+      ]
     }
+  }
 }

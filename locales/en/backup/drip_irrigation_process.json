@@ -315,36 +315,20 @@
           {
             "name": "Vegetable beds (drip tape)",
             "description": "Parallel laterals along each bed; 20–30 cm emitter spacing; tape 12–16 mm.",
-            "pros": [
-              "Low cost",
-              "Fast deployment"
-            ],
-            "cons": [
-              "Seasonal replacement",
-              "Tape damage risk"
-            ]
+            "pros": ["Low cost", "Fast deployment"],
+            "cons": ["Seasonal replacement", "Tape damage risk"]
           },
           {
             "name": "Orchards (point source)",
             "description": "2–4 emitters per tree; expand to ring as canopy grows.",
-            "pros": [
-              "Targeted wetting",
-              "Scales with tree age"
-            ],
-            "cons": [
-              "Needs periodic repositioning"
-            ]
+            "pros": ["Targeted wetting", "Scales with tree age"],
+            "cons": ["Needs periodic repositioning"]
           },
           {
             "name": "Vineyards (in‑line PC)",
             "description": "Pressure‑compensating inline laterals on sloping blocks.",
-            "pros": [
-              "Uniform on slopes",
-              "Long laterals possible"
-            ],
-            "cons": [
-              "Higher emitter cost"
-            ]
+            "pros": ["Uniform on slopes", "Long laterals possible"],
+            "cons": ["Higher emitter cost"]
           }
         ]
       },
@@ -442,10 +426,7 @@
           },
           {
             "symptom": "Pump cavitation/noise",
-            "likelyCauses": [
-              "Blocked suction",
-              "Low source level"
-            ],
+            "likelyCauses": ["Blocked suction", "Low source level"],
             "fixes": [
               "Clean foot valve/strainer",
               "Ensure adequate NPSH; adjust pump/water level"
@@ -456,91 +437,21 @@
       {
         "id": "bom",
         "title": "Bill of Materials (template)",
-        "columns": [
-          "Item",
-          "Spec / Size",
-          "Qty",
-          "Notes"
-        ],
+        "columns": ["Item", "Spec / Size", "Qty", "Notes"],
         "rows": [
-          [
-            "Pump",
-            "Flow ___ L/min, Head ___ m",
-            "",
-            ""
-          ],
-          [
-            "Sand filter",
-            "Diameter ___, Flow ___ m³/h",
-            "",
-            ""
-          ],
-          [
-            "Screen/Disc filter",
-            "Mesh/grade ___",
-            "",
-            ""
-          ],
-          [
-            "Fertilizer injector",
-            "Venturi or Dosing pump",
-            "",
-            ""
-          ],
-          [
-            "Pressure regulator",
-            "Set ___ bar",
-            "",
-            ""
-          ],
-          [
-            "Main pipe",
-            "Material ___, Ø ___ mm, Length ___ m",
-            "",
-            ""
-          ],
-          [
-            "Sub‑main pipe",
-            "Ø ___ mm, Length ___ m",
-            "",
-            ""
-          ],
-          [
-            "Laterals",
-            "Ø 12/16 mm, Length ___ m",
-            "",
-            ""
-          ],
-          [
-            "Emitters",
-            "___ LPH, Spacing ___ cm",
-            "",
-            ""
-          ],
-          [
-            "Valves (isolation/solenoid)",
-            "Size ___",
-            "",
-            ""
-          ],
-          [
-            "Gauges & accessories",
-            "0–6 bar",
-            "",
-            ""
-          ],
-          [
-            "End flush valves/caps",
-            "—",
-            "",
-            ""
-          ],
-          [
-            "Fittings",
-            "Elbows/tees/adaptors",
-            "",
-            ""
-          ]
+          ["Pump", "Flow ___ L/min, Head ___ m", "", ""],
+          ["Sand filter", "Diameter ___, Flow ___ m³/h", "", ""],
+          ["Screen/Disc filter", "Mesh/grade ___", "", ""],
+          ["Fertilizer injector", "Venturi or Dosing pump", "", ""],
+          ["Pressure regulator", "Set ___ bar", "", ""],
+          ["Main pipe", "Material ___, Ø ___ mm, Length ___ m", "", ""],
+          ["Sub‑main pipe", "Ø ___ mm, Length ___ m", "", ""],
+          ["Laterals", "Ø 12/16 mm, Length ___ m", "", ""],
+          ["Emitters", "___ LPH, Spacing ___ cm", "", ""],
+          ["Valves (isolation/solenoid)", "Size ___", "", ""],
+          ["Gauges & accessories", "0–6 bar", "", ""],
+          ["End flush valves/caps", "—", "", ""],
+          ["Fittings", "Elbows/tees/adaptors", "", ""]
         ]
       },
       {
@@ -614,17 +525,8 @@
           "Permanent villages",
           "Basic irrigation systems"
         ],
-        "major_crops": [
-          "Wheat",
-          "Barley",
-          "Rice",
-          "Millets"
-        ],
-        "farming_tools": [
-          "Stone sickles",
-          "Digging sticks",
-          "Wooden plows"
-        ],
+        "major_crops": ["Wheat", "Barley", "Rice", "Millets"],
+        "farming_tools": ["Stone sickles", "Digging sticks", "Wooden plows"],
         "impact": {
           "population_growth": "World population increased from about 5 million to 50 million",
           "society_changes": [
@@ -650,12 +552,7 @@
           "Crop storage systems",
           "Agricultural taxation"
         ],
-        "major_crops": [
-          "Rice",
-          "Wheat",
-          "Cotton",
-          "Sugarcane"
-        ],
+        "major_crops": ["Rice", "Wheat", "Cotton", "Sugarcane"],
         "impact": {
           "urban_development": "Cities formed around fertile river valleys",
           "trade_growth": "Agricultural surplus supported trade and markets"
@@ -671,12 +568,7 @@
           "Water mills",
           "Wind mills"
         ],
-        "major_crops": [
-          "Wheat",
-          "Barley",
-          "Oats",
-          "Vegetables"
-        ],
+        "major_crops": ["Wheat", "Barley", "Oats", "Vegetables"],
         "impact": {
           "food_production": "Improved crop yields",
           "population_growth": "Population expanded due to improved food supply"
@@ -692,11 +584,7 @@
           "Improved crop rotation",
           "Mechanized plows"
         ],
-        "major_crops": [
-          "Wheat",
-          "Potato",
-          "Corn"
-        ],
+        "major_crops": ["Wheat", "Potato", "Corn"],
         "impact": {
           "productivity": "Large increase in agricultural productivity",
           "industrialization": "Freed labor for industrial factories"
@@ -727,10 +615,7 @@
           "Modern irrigation systems",
           "Agricultural research institutions"
         ],
-        "major_crops": [
-          "Rice",
-          "Wheat"
-        ],
+        "major_crops": ["Rice", "Wheat"],
         "impact": {
           "food_security": "Major increase in food production in Asia and Latin America",
           "population_support": "Supported rapidly growing global population"
@@ -862,10 +747,7 @@
         "invention_period": "1930 CE",
         "category": "Harvesting Machinery",
         "description": "Machine that combines reaping, threshing, and winnowing of grain crops.",
-        "impact": [
-          "Increased harvesting efficiency",
-          "Reduced manual labor"
-        ]
+        "impact": ["Increased harvesting efficiency", "Reduced manual labor"]
       },
       {
         "name": "Drip Irrigation System",

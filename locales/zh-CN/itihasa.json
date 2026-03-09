@@ -1,63 +1,63 @@
 {
-    "itihasa": {
-        "title": "Itihasa – 《罗摩衍那》、《摩诃婆罗多》和《薄伽梵歌》|萨那塔那佛法",
-        "description": "探索 Sanatana Dharma 的 Itihasas，包括《罗摩衍那》、《摩诃婆罗多》和《薄伽梵歌》。这些古老的史诗教导佛法、奉献精神和精神智慧。",
-        "meta": {
-            "title": "Itihasa – 《罗摩衍那》、《摩诃婆罗多》和《薄伽梵歌》|萨那塔那佛法",
-            "canonical": "https://sanatanadharmam.in/itihasa",
-            "description": "探索 Sanatana Dharma 的 Itihasas，包括《罗摩衍那》、《摩诃婆罗多》和《薄伽梵歌》。这些古老的史诗教导佛法、奉献精神和精神智慧。",
-            "keywords": [
-                "伊蒂哈萨",
-                "罗摩衍那",
-                "摩诃婆罗多",
-                "薄伽梵歌",
-                "印度教史诗",
-                "萨那塔那佛法史诗",
-                "印度史诗",
-                "伊蒂哈萨的含义"
-            ],
-            "url": "https://sanatanadharmam.in/itihasa"
-        },
-        "openGraph": {
-            "title": "Itihasa – 萨那塔纳佛法的神圣史诗",
-            "description": "探索萨那塔纳佛法的伟大史诗，包括《罗摩衍那》、《摩诃婆罗多》和《薄伽梵歌》。",
-            "url": "https://sanatanadharmam.in/itihasa",
-            "siteName": "萨那塔达曼",
-            "type": "文章",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/itihasa.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Itihasa – Ramayana Mahabharata Bhagavad Gita"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "收藏页",
-                    "name": "伊蒂哈萨",
-                    "description": "《Itihasas》是萨那塔纳佛法的历史史诗，包括《罗摩衍那》、《摩诃婆罗多》和《薄伽梵歌》。",
-                    "url": "https://sanatanadharmam.in/itihasa"
-                },
-                {
-                    "@type": "创意工作",
-                    "name": "罗摩衍那",
-                    "author": "瓦尔米基"
-                },
-                {
-                    "@type": "创意工作",
-                    "name": "摩诃婆罗多",
-                    "author": "韦德维亚萨"
-                },
-                {
-                    "@type": "创意工作",
-                    "name": "薄伽梵歌",
-                    "isPartOf": "摩诃婆罗多"
-                }
-            ]
+  "itihasa": {
+    "title": "Itihasa – 《罗摩衍那》、《摩诃婆罗多》和《薄伽梵歌》|萨那塔那佛法",
+    "description": "探索 Sanatana Dharma 的 Itihasas，包括《罗摩衍那》、《摩诃婆罗多》和《薄伽梵歌》。这些古老的史诗教导佛法、奉献精神和精神智慧。",
+    "meta": {
+      "title": "Itihasa – 《罗摩衍那》、《摩诃婆罗多》和《薄伽梵歌》|萨那塔那佛法",
+      "canonical": "https://sanatanadharmam.in/itihasa",
+      "description": "探索 Sanatana Dharma 的 Itihasas，包括《罗摩衍那》、《摩诃婆罗多》和《薄伽梵歌》。这些古老的史诗教导佛法、奉献精神和精神智慧。",
+      "keywords": [
+        "伊蒂哈萨",
+        "罗摩衍那",
+        "摩诃婆罗多",
+        "薄伽梵歌",
+        "印度教史诗",
+        "萨那塔那佛法史诗",
+        "印度史诗",
+        "伊蒂哈萨的含义"
+      ],
+      "url": "https://sanatanadharmam.in/itihasa"
+    },
+    "openGraph": {
+      "title": "Itihasa – 萨那塔纳佛法的神圣史诗",
+      "description": "探索萨那塔纳佛法的伟大史诗，包括《罗摩衍那》、《摩诃婆罗多》和《薄伽梵歌》。",
+      "url": "https://sanatanadharmam.in/itihasa",
+      "siteName": "萨那塔达曼",
+      "type": "文章",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/itihasa.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Itihasa – Ramayana Mahabharata Bhagavad Gita"
         }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "收藏页",
+          "name": "伊蒂哈萨",
+          "description": "《Itihasas》是萨那塔纳佛法的历史史诗，包括《罗摩衍那》、《摩诃婆罗多》和《薄伽梵歌》。",
+          "url": "https://sanatanadharmam.in/itihasa"
+        },
+        {
+          "@type": "创意工作",
+          "name": "罗摩衍那",
+          "author": "瓦尔米基"
+        },
+        {
+          "@type": "创意工作",
+          "name": "摩诃婆罗多",
+          "author": "韦德维亚萨"
+        },
+        {
+          "@type": "创意工作",
+          "name": "薄伽梵歌",
+          "isPartOf": "摩诃婆罗多"
+        }
+      ]
     }
+  }
 }

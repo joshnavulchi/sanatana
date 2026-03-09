@@ -1,93 +1,93 @@
 {
-    "philosophy": {
-        "title": "सनातन धर्म दर्शन - धर्म, कर्म, मोक्ष और अद्वैत",
-        "description": "हिंदू धर्मग्रंथों के माध्यम से समझाए गए धर्म, कर्म, मोक्ष, संसार, पुरुषार्थ और अद्वैत वेदांत सहित सनातन धर्म के दर्शन का अन्वेषण करें।",
-        "meta": {
-            "title": "सनातन धर्म दर्शन - धर्म, कर्म, मोक्ष और अद्वैत",
-            "canonical": "https://sanatanadharmam.in/philosophy",
-            "description": "हिंदू धर्मग्रंथों के माध्यम से समझाए गए धर्म, कर्म, मोक्ष, संसार, पुरुषार्थ और अद्वैत वेदांत सहित सनातन धर्म के दर्शन का अन्वेषण करें।",
-            "keywords": [
-                "सनातन धर्म दर्शन",
-                "हिंदू दर्शन",
-                "Vedic philosophy",
-                "Upanishads philosophy",
-                "Dharma Karma Moksha",
-                "अद्वैत वेदांत दर्शन",
-                "Purusharthas philosophy",
-                "Samsara philosophy",
-                "Indian philosophy",
-                "Bhagavad Gita philosophy"
-            ],
-            "robots": "अनुक्रमणिका, अनुसरण करें",
-            "url": "https://sanatanadharmam.in/philosophy"
-        },
-        "openGraph": {
-            "title": "सनातन धर्म दर्शन - मूल अवधारणाओं की व्याख्या",
-            "description": "धर्म, कर्म, मोक्ष, संसार और अद्वैत सहित सनातन धर्म की दार्शनिक शिक्षाओं की खोज करें।",
-            "url": "https://sanatanadharmam.in/philosophy",
-            "siteName": "सनातनधर्मम्",
-            "type": "वेबसाइट",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/philosophy.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Sanatana Dharma Philosophy"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "संग्रह पृष्ठ",
-                    "name": "सनातन धर्म दर्शन",
-                    "description": "सनातन धर्म में धर्म, कर्म, मोक्ष, संसार और अद्वैत सहित दार्शनिक अवधारणाओं का संग्रह।",
-                    "url": "https://sanatanadharmam.in/philosophy"
-                },
-                {
-                    "@type": "आइटम सूची",
-                    "name": "सनातन धर्म दर्शन विषय",
-                    "itemListElement": [
-                        {
-                            "@type": "ListItem",
-                            "position": 1,
-                            "name": "धर्म",
-                            "url": "https://sanatanadharmam.in/philosophy/dharma"
-                        },
-                        {
-                            "@type": "ListItem",
-                            "position": 2,
-                            "name": "कर्म",
-                            "url": "https://sanatanadharmam.in/philosophy/karma"
-                        },
-                        {
-                            "@type": "ListItem",
-                            "position": 3,
-                            "name": "मोक्ष",
-                            "url": "https://sanatanadharmam.in/philosophy/moksha"
-                        },
-                        {
-                            "@type": "ListItem",
-                            "position": 4,
-                            "name": "संसार",
-                            "url": "https://sanatanadharmam.in/philosophy/samsara"
-                        },
-                        {
-                            "@type": "ListItem",
-                            "position": 5,
-                            "name": "Purusharthas",
-                            "url": "https://sanatanadharmam.in/philosophy/purushartha"
-                        },
-                        {
-                            "@type": "ListItem",
-                            "position": 6,
-                            "name": "अद्वैत वेदांत",
-                            "url": "https://sanatanadharmam.in/philosophy/advaita"
-                        }
-                    ]
-                }
-            ]
+  "philosophy": {
+    "title": "सनातन धर्म दर्शन - धर्म, कर्म, मोक्ष और अद्वैत",
+    "description": "हिंदू धर्मग्रंथों के माध्यम से समझाए गए धर्म, कर्म, मोक्ष, संसार, पुरुषार्थ और अद्वैत वेदांत सहित सनातन धर्म के दर्शन का अन्वेषण करें।",
+    "meta": {
+      "title": "सनातन धर्म दर्शन - धर्म, कर्म, मोक्ष और अद्वैत",
+      "canonical": "https://sanatanadharmam.in/philosophy",
+      "description": "हिंदू धर्मग्रंथों के माध्यम से समझाए गए धर्म, कर्म, मोक्ष, संसार, पुरुषार्थ और अद्वैत वेदांत सहित सनातन धर्म के दर्शन का अन्वेषण करें।",
+      "keywords": [
+        "सनातन धर्म दर्शन",
+        "हिंदू दर्शन",
+        "Vedic philosophy",
+        "Upanishads philosophy",
+        "Dharma Karma Moksha",
+        "अद्वैत वेदांत दर्शन",
+        "Purusharthas philosophy",
+        "Samsara philosophy",
+        "Indian philosophy",
+        "Bhagavad Gita philosophy"
+      ],
+      "robots": "अनुक्रमणिका, अनुसरण करें",
+      "url": "https://sanatanadharmam.in/philosophy"
+    },
+    "openGraph": {
+      "title": "सनातन धर्म दर्शन - मूल अवधारणाओं की व्याख्या",
+      "description": "धर्म, कर्म, मोक्ष, संसार और अद्वैत सहित सनातन धर्म की दार्शनिक शिक्षाओं की खोज करें।",
+      "url": "https://sanatanadharmam.in/philosophy",
+      "siteName": "सनातनधर्मम्",
+      "type": "वेबसाइट",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/philosophy.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Sanatana Dharma Philosophy"
         }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "संग्रह पृष्ठ",
+          "name": "सनातन धर्म दर्शन",
+          "description": "सनातन धर्म में धर्म, कर्म, मोक्ष, संसार और अद्वैत सहित दार्शनिक अवधारणाओं का संग्रह।",
+          "url": "https://sanatanadharmam.in/philosophy"
+        },
+        {
+          "@type": "आइटम सूची",
+          "name": "सनातन धर्म दर्शन विषय",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "धर्म",
+              "url": "https://sanatanadharmam.in/philosophy/dharma"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "कर्म",
+              "url": "https://sanatanadharmam.in/philosophy/karma"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "मोक्ष",
+              "url": "https://sanatanadharmam.in/philosophy/moksha"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "संसार",
+              "url": "https://sanatanadharmam.in/philosophy/samsara"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Purusharthas",
+              "url": "https://sanatanadharmam.in/philosophy/purushartha"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "अद्वैत वेदांत",
+              "url": "https://sanatanadharmam.in/philosophy/advaita"
+            }
+          ]
+        }
+      ]
     }
+  }
 }

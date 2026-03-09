@@ -1,63 +1,63 @@
 {
-    "itihasa": {
-        "title": "Itihasa – Ramayana, Mahabharata y Bhagavad Gita | Sanatana Dharma",
-        "description": "Descubra los Itihasas del Sanatana Dharma, incluidos el Ramayana, el Mahabharata y el Bhagavad Gita. Estas antiguas epopeyas enseñan el dharma, la devoción y la sabiduría espiritual.",
-        "meta": {
-            "title": "Itihasa – Ramayana, Mahabharata y Bhagavad Gita | Sanatana Dharma",
-            "canonical": "https://sanatanadharmam.in/itihasa",
-            "description": "Descubra los Itihasas del Sanatana Dharma, incluidos el Ramayana, el Mahabharata y el Bhagavad Gita. Estas antiguas epopeyas enseñan el dharma, la devoción y la sabiduría espiritual.",
-            "keywords": [
-                "Itihasa",
-                "Ramayana",
-                "Mahabharata",
-                "Bhagavad Gita",
-                "Epopeyas hindúes",
-                "Epopeyas del sanatana dharma",
-                "epopeyas indias",
-                "Itihasa significado"
-            ],
-            "url": "https://sanatanadharmam.in/itihasa"
-        },
-        "openGraph": {
-            "title": "Itihasa – Épicas Sagradas del Sanatana Dharma",
-            "description": "Explore las grandes epopeyas del Sanatana Dharma, incluidos el Ramayana, el Mahabharata y el Bhagavad Gita.",
-            "url": "https://sanatanadharmam.in/itihasa",
-            "siteName": "Sanatanadharmam",
-            "type": "artículo",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/itihasa.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Itihasa – Ramayana Mahabharata Bhagavad Gita"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "Página de colección",
-                    "name": "Itihasa",
-                    "description": "Los Itihasas son epopeyas históricas del Sanatana Dharma que incluyen el Ramayana, el Mahabharata y el Bhagavad Gita.",
-                    "url": "https://sanatanadharmam.in/itihasa"
-                },
-                {
-                    "@type": "Trabajo Creativo",
-                    "name": "Ramayana",
-                    "author": "Valmiki"
-                },
-                {
-                    "@type": "Trabajo Creativo",
-                    "name": "Mahabharata",
-                    "author": "Ved Vyasa"
-                },
-                {
-                    "@type": "Trabajo Creativo",
-                    "name": "Bhagavad Gita",
-                    "isPartOf": "Mahabharata"
-                }
-            ]
+  "itihasa": {
+    "title": "Itihasa – Ramayana, Mahabharata y Bhagavad Gita | Sanatana Dharma",
+    "description": "Descubra los Itihasas del Sanatana Dharma, incluidos el Ramayana, el Mahabharata y el Bhagavad Gita. Estas antiguas epopeyas enseñan el dharma, la devoción y la sabiduría espiritual.",
+    "meta": {
+      "title": "Itihasa – Ramayana, Mahabharata y Bhagavad Gita | Sanatana Dharma",
+      "canonical": "https://sanatanadharmam.in/itihasa",
+      "description": "Descubra los Itihasas del Sanatana Dharma, incluidos el Ramayana, el Mahabharata y el Bhagavad Gita. Estas antiguas epopeyas enseñan el dharma, la devoción y la sabiduría espiritual.",
+      "keywords": [
+        "Itihasa",
+        "Ramayana",
+        "Mahabharata",
+        "Bhagavad Gita",
+        "Epopeyas hindúes",
+        "Epopeyas del sanatana dharma",
+        "epopeyas indias",
+        "Itihasa significado"
+      ],
+      "url": "https://sanatanadharmam.in/itihasa"
+    },
+    "openGraph": {
+      "title": "Itihasa – Épicas Sagradas del Sanatana Dharma",
+      "description": "Explore las grandes epopeyas del Sanatana Dharma, incluidos el Ramayana, el Mahabharata y el Bhagavad Gita.",
+      "url": "https://sanatanadharmam.in/itihasa",
+      "siteName": "Sanatanadharmam",
+      "type": "artículo",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/itihasa.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Itihasa – Ramayana Mahabharata Bhagavad Gita"
         }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Página de colección",
+          "name": "Itihasa",
+          "description": "Los Itihasas son epopeyas históricas del Sanatana Dharma que incluyen el Ramayana, el Mahabharata y el Bhagavad Gita.",
+          "url": "https://sanatanadharmam.in/itihasa"
+        },
+        {
+          "@type": "Trabajo Creativo",
+          "name": "Ramayana",
+          "author": "Valmiki"
+        },
+        {
+          "@type": "Trabajo Creativo",
+          "name": "Mahabharata",
+          "author": "Ved Vyasa"
+        },
+        {
+          "@type": "Trabajo Creativo",
+          "name": "Bhagavad Gita",
+          "isPartOf": "Mahabharata"
+        }
+      ]
     }
+  }
 }

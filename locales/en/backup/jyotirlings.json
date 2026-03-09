@@ -113,12 +113,7 @@
     },
     "lingas": [
       {
-        "dynasties": [
-          "Maitraka",
-          "Solanki",
-          "Maratha",
-          "Government of India"
-        ],
+        "dynasties": ["Maitraka", "Solanki", "Maratha", "Government of India"],
         "location": "Prabhas Patan, Gujarat",
         "name": "Somnath",
         "timeline": {
@@ -133,12 +128,7 @@
         }
       },
       {
-        "dynasties": [
-          "Satavahana",
-          "Kakatiya",
-          "Reddi",
-          "Vijayanagara"
-        ],
+        "dynasties": ["Satavahana", "Kakatiya", "Reddi", "Vijayanagara"],
         "location": "Srisailam, Andhra Pradesh",
         "name": "Mallikarjuna",
         "timeline": {
@@ -156,9 +146,7 @@
           "maratha_reconstruction": "18th century CE (Ranoji Shinde)",
           "paramara_reconstruction": "12th century CE"
         },
-        "unique_features": [
-          "Dakshinamukhi (south-facing) lingam"
-        ]
+        "unique_features": ["Dakshinamukhi (south-facing) lingam"]
       },
       {
         "location": "Mandhata Island, Madhya Pradesh",
@@ -167,14 +155,10 @@
           "early_shaivism": "6th–7th century CE",
           "paramara_construction": "12th century CE"
         },
-        "unique_features": [
-          "Island in the shape of the sacred Om (ॐ)"
-        ]
+        "unique_features": ["Island in the shape of the sacred Om (ॐ)"]
       },
       {
-        "architecture": [
-          "High-altitude Himalayan stone temple"
-        ],
+        "architecture": ["High-altitude Himalayan stone temple"],
         "location": "Uttarakhand, Himalayas",
         "name": "Kedarnath",
         "timeline": {
@@ -250,9 +234,7 @@
       {
         "location": "Ellora, Maharashtra",
         "name": "Grishneshwar",
-        "nearby_sites": [
-          "Ellora Caves (UNESCO World Heritage Site)"
-        ],
+        "nearby_sites": ["Ellora Caves (UNESCO World Heritage Site)"],
         "timeline": {
           "early_shaivism": "8th–11th century CE (Ellora cave era)",
           "holkar_reconstruction": "18th century CE (Ahilyabai Holkar)"

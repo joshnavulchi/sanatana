@@ -61,12 +61,7 @@
       ],
       "asteroid_belt": {
         "location": "Between Mars and Jupiter",
-        "major_objects": [
-          "Ceres",
-          "Vesta",
-          "Pallas",
-          "Hygiea"
-        ]
+        "major_objects": ["Ceres", "Vesta", "Pallas", "Hygiea"]
       },
       "outer_planets": [
         {
@@ -98,13 +93,7 @@
           "orbital_period_years": 165
         }
       ],
-      "dwarf_planets": [
-        "Pluto",
-        "Ceres",
-        "Eris",
-        "Haumea",
-        "Makemake"
-      ],
+      "dwarf_planets": ["Pluto", "Ceres", "Eris", "Haumea", "Makemake"],
       "kuiper_belt": {
         "description": "Region beyond Neptune containing icy bodies and dwarf planets",
         "distance_range_au": "30–50 AU"

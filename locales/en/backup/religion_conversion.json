@@ -428,11 +428,7 @@
     "theological_analysis": {
       "hinduism": {
         "ultimate_reality": "Brahman (eternal, without beginning or end)",
-        "major_deities": [
-          "Vishnu",
-          "Shiva",
-          "Devi"
-        ],
+        "major_deities": ["Vishnu", "Shiva", "Devi"],
         "cosmology": "Cyclical time (Yugas, Kalpas)",
         "god_origin_claim": "Uncreated and eternal",
         "time_model": "Non-linear, cyclical cosmology"
@@ -552,26 +548,17 @@
         "expansion_stages": [
           {
             "period": "1500 BCE – 500 BCE",
-            "regions": [
-              "Indus Valley",
-              "Gangetic plains"
-            ],
+            "regions": ["Indus Valley", "Gangetic plains"],
             "description": "Development of Vedic traditions and early Hindu practices."
           },
           {
             "period": "500 BCE – 500 CE",
-            "regions": [
-              "India",
-              "Nepal"
-            ],
+            "regions": ["India", "Nepal"],
             "description": "Philosophical development including Upanishadic and classical Hindu traditions."
           },
           {
             "period": "500 CE – 1500 CE",
-            "regions": [
-              "South India",
-              "Southeast Asia"
-            ],
+            "regions": ["South India", "Southeast Asia"],
             "description": "Spread through trade and cultural influence to Cambodia, Indonesia, and Thailand."
           }
         ],
@@ -590,27 +577,17 @@
         "expansion_stages": [
           {
             "period": "500 BCE – 200 BCE",
-            "regions": [
-              "India"
-            ],
+            "regions": ["India"],
             "description": "Early spread across northern India."
           },
           {
             "period": "200 BCE – 500 CE",
-            "regions": [
-              "Sri Lanka",
-              "Central Asia",
-              "China"
-            ],
+            "regions": ["Sri Lanka", "Central Asia", "China"],
             "description": "Spread through Silk Road trade routes and royal patronage."
           },
           {
             "period": "500 CE – 1000 CE",
-            "regions": [
-              "Japan",
-              "Korea",
-              "Southeast Asia"
-            ],
+            "regions": ["Japan", "Korea", "Southeast Asia"],
             "description": "Formation of major Buddhist traditions."
           }
         ],
@@ -631,23 +608,16 @@
         "expansion_stages": [
           {
             "period": "600 BCE – 200 BCE",
-            "regions": [
-              "Northern India"
-            ],
+            "regions": ["Northern India"],
             "description": "Early Jain communities form."
           },
           {
             "period": "200 BCE – 1000 CE",
-            "regions": [
-              "Western and Southern India"
-            ],
+            "regions": ["Western and Southern India"],
             "description": "Expansion through trade communities."
           }
         ],
-        "modern_distribution": [
-          "India",
-          "global Jain diaspora"
-        ]
+        "modern_distribution": ["India", "global Jain diaspora"]
       },
       {
         "religion": "Christianity",
@@ -657,25 +627,17 @@
         "expansion_stages": [
           {
             "period": "30 CE – 300 CE",
-            "regions": [
-              "Roman Empire"
-            ],
+            "regions": ["Roman Empire"],
             "description": "Spread through missionary activity."
           },
           {
             "period": "300 CE – 1000 CE",
-            "regions": [
-              "Europe"
-            ],
+            "regions": ["Europe"],
             "description": "Adoption by Roman Empire and European kingdoms."
           },
           {
             "period": "1500 CE – 1900 CE",
-            "regions": [
-              "Americas",
-              "Africa",
-              "Asia"
-            ],
+            "regions": ["Americas", "Africa", "Asia"],
             "description": "Spread through European colonization and missions."
           }
         ],
@@ -695,26 +657,17 @@
         "expansion_stages": [
           {
             "period": "610 CE – 750 CE",
-            "regions": [
-              "Middle East",
-              "North Africa"
-            ],
+            "regions": ["Middle East", "North Africa"],
             "description": "Rapid expansion through early Islamic caliphates."
           },
           {
             "period": "750 CE – 1500 CE",
-            "regions": [
-              "Central Asia",
-              "South Asia",
-              "Southeast Asia"
-            ],
+            "regions": ["Central Asia", "South Asia", "Southeast Asia"],
             "description": "Spread through trade and empires."
           },
           {
             "period": "1500 CE – present",
-            "regions": [
-              "global Muslim communities"
-            ],
+            "regions": ["global Muslim communities"],
             "description": "Continued global presence."
           }
         ],
@@ -738,18 +691,11 @@
         "expansion_map": [
           {
             "period": "1500 BCE – 500 BCE",
-            "regions": [
-              "Indus Valley",
-              "Gangetic plains"
-            ]
+            "regions": ["Indus Valley", "Gangetic plains"]
           },
           {
             "period": "500 CE – 1200 CE",
-            "regions": [
-              "South India",
-              "Nepal",
-              "Southeast Asia"
-            ]
+            "regions": ["South India", "Nepal", "Southeast Asia"]
           }
         ]
       },
@@ -761,27 +707,15 @@
         "expansion_map": [
           {
             "period": "300 BCE – 200 CE",
-            "regions": [
-              "India",
-              "Sri Lanka",
-              "Central Asia"
-            ]
+            "regions": ["India", "Sri Lanka", "Central Asia"]
           },
           {
             "period": "200 CE – 800 CE",
-            "regions": [
-              "China",
-              "Korea",
-              "Japan"
-            ]
+            "regions": ["China", "Korea", "Japan"]
           },
           {
             "period": "800 CE – present",
-            "regions": [
-              "Thailand",
-              "Myanmar",
-              "Cambodia"
-            ]
+            "regions": ["Thailand", "Myanmar", "Cambodia"]
           }
         ]
       },
@@ -793,23 +727,15 @@
         "expansion_map": [
           {
             "period": "30 CE – 300 CE",
-            "regions": [
-              "Roman Empire"
-            ]
+            "regions": ["Roman Empire"]
           },
           {
             "period": "300 CE – 1000 CE",
-            "regions": [
-              "Europe"
-            ]
+            "regions": ["Europe"]
           },
           {
             "period": "1500 CE – 1900 CE",
-            "regions": [
-              "Americas",
-              "Africa",
-              "Asia"
-            ]
+            "regions": ["Americas", "Africa", "Asia"]
           }
         ]
       },
@@ -821,24 +747,15 @@
         "expansion_map": [
           {
             "period": "610 CE – 750 CE",
-            "regions": [
-              "Middle East",
-              "North Africa"
-            ]
+            "regions": ["Middle East", "North Africa"]
           },
           {
             "period": "750 CE – 1400 CE",
-            "regions": [
-              "Central Asia",
-              "South Asia"
-            ]
+            "regions": ["Central Asia", "South Asia"]
           },
           {
             "period": "1400 CE – present",
-            "regions": [
-              "Southeast Asia",
-              "Africa"
-            ]
+            "regions": ["Southeast Asia", "Africa"]
           }
         ]
       }
@@ -911,10 +828,7 @@
       {
         "year": 1095,
         "event": "First Crusade begins",
-        "religions_involved": [
-          "Christianity",
-          "Islam"
-        ],
+        "religions_involved": ["Christianity", "Islam"],
         "region": "Middle East"
       },
       {
@@ -929,10 +843,7 @@
       {
         "year": 1947,
         "event": "Partition of India",
-        "religions_involved": [
-          "Hinduism",
-          "Islam"
-        ],
+        "religions_involved": ["Hinduism", "Islam"],
         "region": "South Asia"
       }
     ],

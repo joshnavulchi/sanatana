@@ -1,93 +1,93 @@
 {
-    "philosophy": {
-        "title": "Sanatana 佛法哲学 – Dharma、Karma、Moksha 和 Advaita",
-        "description": "探索 Sanatana Dharma 的哲学，包括通过印度教经文解释的 Dharma、Karma、Moksha、Samsara、Purusharthas 和 Advaita Vedanta。",
-        "meta": {
-            "title": "Sanatana 佛法哲学 – Dharma、Karma、Moksha 和 Advaita",
-            "canonical": "https://sanatanadharmam.in/philosophy",
-            "description": "探索 Sanatana Dharma 的哲学，包括通过印度教经文解释的 Dharma、Karma、Moksha、Samsara、Purusharthas 和 Advaita Vedanta。",
-            "keywords": [
-                "萨那塔那佛法哲学",
-                "印度教哲学",
-                "吠陀哲学",
-                "奥义书哲学",
-                "法业解脱",
-                "吠檀多不二论哲学",
-                "普鲁萨塔哲学",
-                "轮回哲学",
-                "印度哲学",
-                "《薄伽梵歌》哲学"
-            ],
-            "robots": "索引，关注",
-            "url": "https://sanatanadharmam.in/philosophy"
-        },
-        "openGraph": {
-            "title": "Sanatana 佛法哲学 – 核心概念解释",
-            "description": "探索 Sanatana Dharma 的哲学教义，包括 Dharma、Karma、Moksha、Samsara 和 Advaita。",
-            "url": "https://sanatanadharmam.in/philosophy",
-            "siteName": "萨那塔达曼",
-            "type": "网站",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/philosophy.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Sanatana Dharma Philosophy"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "收藏页",
-                    "name": "萨纳塔纳佛法哲学",
-                    "description": "Sanatana Dharma 哲学概念的集合，包括 Dharma、Karma、Moksha、Samsara 和 Advaita。",
-                    "url": "https://sanatanadharmam.in/philosophy"
-                },
-                {
-                    "@type": "项目列表",
-                    "name": "Sanatana 佛法哲学主题",
-                    "itemListElement": [
-                        {
-                            "@type": "列表项",
-                            "position": 1,
-                            "name": "法",
-                            "url": "https://sanatanadharmam.in/philosophy/dharma"
-                        },
-                        {
-                            "@type": "列表项",
-                            "position": 2,
-                            "name": "业力",
-                            "url": "https://sanatanadharmam.in/philosophy/karma"
-                        },
-                        {
-                            "@type": "列表项",
-                            "position": 3,
-                            "name": "解脱",
-                            "url": "https://sanatanadharmam.in/philosophy/moksha"
-                        },
-                        {
-                            "@type": "列表项",
-                            "position": 4,
-                            "name": "轮回",
-                            "url": "https://sanatanadharmam.in/philosophy/samsara"
-                        },
-                        {
-                            "@type": "列表项",
-                            "position": 5,
-                            "name": "普鲁萨塔斯",
-                            "url": "https://sanatanadharmam.in/philosophy/purushartha"
-                        },
-                        {
-                            "@type": "列表项",
-                            "position": 6,
-                            "name": "吠檀多不二论",
-                            "url": "https://sanatanadharmam.in/philosophy/advaita"
-                        }
-                    ]
-                }
-            ]
+  "philosophy": {
+    "title": "Sanatana 佛法哲学 – Dharma、Karma、Moksha 和 Advaita",
+    "description": "探索 Sanatana Dharma 的哲学，包括通过印度教经文解释的 Dharma、Karma、Moksha、Samsara、Purusharthas 和 Advaita Vedanta。",
+    "meta": {
+      "title": "Sanatana 佛法哲学 – Dharma、Karma、Moksha 和 Advaita",
+      "canonical": "https://sanatanadharmam.in/philosophy",
+      "description": "探索 Sanatana Dharma 的哲学，包括通过印度教经文解释的 Dharma、Karma、Moksha、Samsara、Purusharthas 和 Advaita Vedanta。",
+      "keywords": [
+        "萨那塔那佛法哲学",
+        "印度教哲学",
+        "吠陀哲学",
+        "奥义书哲学",
+        "法业解脱",
+        "吠檀多不二论哲学",
+        "普鲁萨塔哲学",
+        "轮回哲学",
+        "印度哲学",
+        "《薄伽梵歌》哲学"
+      ],
+      "robots": "索引，关注",
+      "url": "https://sanatanadharmam.in/philosophy"
+    },
+    "openGraph": {
+      "title": "Sanatana 佛法哲学 – 核心概念解释",
+      "description": "探索 Sanatana Dharma 的哲学教义，包括 Dharma、Karma、Moksha、Samsara 和 Advaita。",
+      "url": "https://sanatanadharmam.in/philosophy",
+      "siteName": "萨那塔达曼",
+      "type": "网站",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/philosophy.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Sanatana Dharma Philosophy"
         }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "收藏页",
+          "name": "萨纳塔纳佛法哲学",
+          "description": "Sanatana Dharma 哲学概念的集合，包括 Dharma、Karma、Moksha、Samsara 和 Advaita。",
+          "url": "https://sanatanadharmam.in/philosophy"
+        },
+        {
+          "@type": "项目列表",
+          "name": "Sanatana 佛法哲学主题",
+          "itemListElement": [
+            {
+              "@type": "列表项",
+              "position": 1,
+              "name": "法",
+              "url": "https://sanatanadharmam.in/philosophy/dharma"
+            },
+            {
+              "@type": "列表项",
+              "position": 2,
+              "name": "业力",
+              "url": "https://sanatanadharmam.in/philosophy/karma"
+            },
+            {
+              "@type": "列表项",
+              "position": 3,
+              "name": "解脱",
+              "url": "https://sanatanadharmam.in/philosophy/moksha"
+            },
+            {
+              "@type": "列表项",
+              "position": 4,
+              "name": "轮回",
+              "url": "https://sanatanadharmam.in/philosophy/samsara"
+            },
+            {
+              "@type": "列表项",
+              "position": 5,
+              "name": "普鲁萨塔斯",
+              "url": "https://sanatanadharmam.in/philosophy/purushartha"
+            },
+            {
+              "@type": "列表项",
+              "position": 6,
+              "name": "吠檀多不二论",
+              "url": "https://sanatanadharmam.in/philosophy/advaita"
+            }
+          ]
+        }
+      ]
     }
+  }
 }

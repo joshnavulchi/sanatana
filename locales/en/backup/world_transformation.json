@@ -129,16 +129,11 @@
           "Colonial borders expanded",
           "Few independent new states"
         ],
-        "why": [
-          "European imperialism"
-        ]
+        "why": ["European imperialism"]
       },
       {
         "decade": "1910–1919",
-        "examples": [
-          "Poland re‑created",
-          "Ottoman territories partitioned"
-        ],
+        "examples": ["Poland re‑created", "Ottoman territories partitioned"],
         "map": {
           "interactivemap": "https://www.histochart.com",
           "staticmap": "/maps/world-1918.png"
@@ -166,14 +161,8 @@
           "viewbox": "0 0 2048 1024"
         },
         "theme": "World War I Redraw",
-        "whatchanged": [
-          "Collapse of empires",
-          "New European states"
-        ],
-        "why": [
-          "World War I",
-          "Treaty settlements"
-        ]
+        "whatchanged": ["Collapse of empires", "New European states"],
+        "why": ["World War I", "Treaty settlements"]
       },
       {
         "decade": "1920–1929",
@@ -195,20 +184,12 @@
           "viewbox": "0 0 2048 1024"
         },
         "theme": "Mandate System",
-        "whatchanged": [
-          "Borders formalized",
-          "Mandates replace empires"
-        ],
-        "why": [
-          "League of Nations mandates"
-        ]
+        "whatchanged": ["Borders formalized", "Mandates replace empires"],
+        "why": ["League of Nations mandates"]
       },
       {
         "decade": "1930–1939",
-        "examples": [
-          "German expansion",
-          "Japanese expansion"
-        ],
+        "examples": ["German expansion", "Japanese expansion"],
         "map": {
           "interactivemap": "https://www.histochart.com",
           "staticmap": "/maps/world-1939.png"
@@ -227,13 +208,8 @@
           "viewbox": "0 0 2048 1024"
         },
         "theme": "Aggressive Expansion",
-        "whatchanged": [
-          "Borders altered by force"
-        ],
-        "why": [
-          "Rise of fascism",
-          "Pre‑WWII militarization"
-        ]
+        "whatchanged": ["Borders altered by force"],
+        "why": ["Rise of fascism", "Pre‑WWII militarization"]
       },
       {
         "decade": "1940–1949",
@@ -268,14 +244,8 @@
           "viewbox": "0 0 2048 1024"
         },
         "theme": "World War II Redraw",
-        "whatchanged": [
-          "Massive boundary changes",
-          "Partitions"
-        ],
-        "why": [
-          "WWII result",
-          "Cold War start"
-        ]
+        "whatchanged": ["Massive boundary changes", "Partitions"],
+        "why": ["WWII result", "Cold War start"]
       },
       {
         "decade": "1950–1959",
@@ -297,12 +267,8 @@
           "viewbox": "0 0 2048 1024"
         },
         "theme": "Early Decolonization",
-        "whatchanged": [
-          "Asian & African nations emerge"
-        ],
-        "why": [
-          "Independence movements"
-        ]
+        "whatchanged": ["Asian & African nations emerge"],
+        "why": ["Independence movements"]
       },
       {
         "decade": "1960–1969",
@@ -324,12 +290,8 @@
           "viewbox": "0 0 2048 1024"
         },
         "theme": "African Independence Wave",
-        "whatchanged": [
-          "Dozens of new countries"
-        ],
-        "why": [
-          "Rapid decolonization"
-        ]
+        "whatchanged": ["Dozens of new countries"],
+        "why": ["Rapid decolonization"]
       },
       {
         "decade": "1970–1989",
@@ -355,19 +317,12 @@
           "viewbox": "0 0 2048 1024"
         },
         "theme": "Cold War Stability",
-        "whatchanged": [
-          "Few formal boundary changes"
-        ],
-        "why": [
-          "Power balance & deterrence"
-        ]
+        "whatchanged": ["Few formal boundary changes"],
+        "why": ["Power balance & deterrence"]
       },
       {
         "decade": "1990–1999",
-        "examples": [
-          "15 post‑Soviet states",
-          "Balkans redrawn"
-        ],
+        "examples": ["15 post‑Soviet states", "Balkans redrawn"],
         "map": {
           "interactivemap": "https://www.histochart.com",
           "staticmap": "/maps/world-1995.png"
@@ -394,18 +349,12 @@
           "viewbox": "0 0 2048 1024"
         },
         "theme": "Collapse of Socialist Federations",
-        "whatchanged": [
-          "Many new countries formed"
-        ],
-        "why": [
-          "USSR & Yugoslavia dissolution"
-        ]
+        "whatchanged": ["Many new countries formed"],
+        "why": ["USSR & Yugoslavia dissolution"]
       },
       {
         "decade": "2000–2025",
-        "examples": [
-          "South Sudan (2011)"
-        ],
+        "examples": ["South Sudan (2011)"],
         "map": {
           "interactivemap": "https://atlas.ostellus.com",
           "staticmap": "/maps/world-2025.png"
@@ -424,15 +373,8 @@
           "viewbox": "0 0 2048 1024"
         },
         "theme": "Modern Border Stability",
-        "whatchanged": [
-          "Rare new countries",
-          "Borders largely unchanged"
-        ],
-        "why": [
-          "International law",
-          "Globalization",
-          "Deterrence"
-        ]
+        "whatchanged": ["Rare new countries", "Borders largely unchanged"],
+        "why": ["International law", "Globalization", "Deterrence"]
       }
     ],
     "historic_decades": "Historical Decades",

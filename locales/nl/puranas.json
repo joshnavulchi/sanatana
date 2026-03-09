@@ -1,61 +1,61 @@
 {
-    "puranas": {
-        "title": "Puranas - Heilige tradities en verhalen van Sanātana Dharma",
-        "description": "Verken de Purana's: oude teksten die verhalen, kosmologie, toewijding, dharma en cultureel geheugen binnen Sanātana Dharma bewaren.",
-        "meta": {
-            "title": "Puranas - Heilige tradities en verhalen van Sanātana Dharma",
-            "canonical": "https://sanatanadharmam.in/puranas",
-            "description": "Verken de Purana's: oude teksten die verhalen, kosmologie, toewijding, dharma en cultureel geheugen binnen Sanātana Dharma bewaren.",
-            "keywords": [
-                "Purana's",
-                "Sanatana Dharma",
-                "Hindoe geschriften",
-                "kosmologie",
-                "bhakti",
-                "dharma"
-            ],
-            "robots": "indexeren, volgen",
-            "url": "https://sanatanadharmam.in/puranas",
-            "ogImage": "https://sanatanadharmam.in/og/puranas.png"
-        },
-        "openGraph": {
-            "title": "Puranas - Heilige tradities en verhalen van Sanātana Dharma",
-            "description": "Verken de Purana's: oude teksten die verhalen, kosmologie, toewijding, dharma en cultureel geheugen binnen Sanātana Dharma bewaren.",
-            "url": "https://sanatanadharmam.in/puranas",
-            "siteName": "Sanatanadharam",
-            "type": "website",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/puranas.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Puranas – Sacred Traditions and Stories of Sanātana Dharma"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@type": "Collectiepagina",
-            "name": "Puranas - Heilige tradities en verhalen van Sanātana Dharma",
-            "description": "Verken de Purana's: oude teksten die verhalen, kosmologie, toewijding, dharma en cultureel geheugen binnen Sanātana Dharma bewaren.",
-            "url": "https://sanatanadharmam.in/puranas",
-            "isPartOf": {
-                "@type": "Website",
-                "name": "Sanatanadharam",
-                "url": "https://sanatanadharmam.in"
-            }
-        },
-        "introduction": "De Purana's vormen een grote hoeveelheid Sanskrietliteratuur waarin de heilige geschiedenis, kosmologie, devotionele tradities en ethische richtlijnen worden bewaard. Ze presenteren filosofie door middel van verhalen: verhalen van wijzen en koningen, leringen over aanbidding en plicht, en reflecties op tijdcycli en de schepping.\n\nTraditioneel worden de Purana's gegroepeerd in de Mahapurana's en Upapurana's, waarbij veel teksten nauw verbonden zijn met bepaalde goden en devotionele geslachten. Als levende traditie hebben de Purana’s eeuwenlang vorm gegeven aan de tempelcultuur, festivals, pelgrimstochten en huishoudelijke toewijding in heel India.",
-        "scripture_text": [
-            {
-                "section": "Wat een Purana doorgaans bevat",
-                "content": "Van veel Purana's wordt beschreven dat ze de klassieke vijf thema's (panchalakshana) bevatten: schepping (sarga), recreatie na ontbinding (pratisarga), genealogieën (vamsha), kosmische tijdperken en Manu-cycli (manvantara), en dynastieke geschiedenissen (vamshanucharita). In de praktijk bevat elke Purana ook hymnen, dialogen, ethische leringen, pelgrimsgidsen en secties over rituelen en toewijding."
-            },
-            {
-                "section": "Hoe Puranische verhalen te lezen",
-                "content": "Puranische verhalen zijn vaak gelaagd: ze kunnen worden gelezen als toewijding (bhakti), als morele instructie (dharma) en als symbolische leer over de geest, de tijd en de relatie tussen het individuele zelf en het goddelijke. Deze site behandelt ze als een devotioneel-filosofische traditie, niet alleen als folklore."
-            }
-        ],
-        "philosophical_explanation": "De Purana's brengen filosofische ideeën over in een toegankelijke vorm. In plaats van doctrine alleen via abstractie te presenteren, gebruiken ze karakters, geloften, crises en transformaties om te laten zien hoe dharma wordt toegepast onder druk van de echte wereld. Hun kosmologie onderwijst cyclische tijd en vergankelijkheid, terwijl devotionele secties overgave, dankbaarheid en innerlijke stabiliteit cultiveren.\n\nVoor veel lezers dienen de Purana's als een brug: van verhaal en aanbidding naar dieper onderzoek naar de Upanishadische visie op het Zelf, de aard van de werkelijkheid en bevrijding (moksha)."
-    }
+  "puranas": {
+    "title": "Puranas - Heilige tradities en verhalen van Sanātana Dharma",
+    "description": "Verken de Purana's: oude teksten die verhalen, kosmologie, toewijding, dharma en cultureel geheugen binnen Sanātana Dharma bewaren.",
+    "meta": {
+      "title": "Puranas - Heilige tradities en verhalen van Sanātana Dharma",
+      "canonical": "https://sanatanadharmam.in/puranas",
+      "description": "Verken de Purana's: oude teksten die verhalen, kosmologie, toewijding, dharma en cultureel geheugen binnen Sanātana Dharma bewaren.",
+      "keywords": [
+        "Purana's",
+        "Sanatana Dharma",
+        "Hindoe geschriften",
+        "kosmologie",
+        "bhakti",
+        "dharma"
+      ],
+      "robots": "indexeren, volgen",
+      "url": "https://sanatanadharmam.in/puranas",
+      "ogImage": "https://sanatanadharmam.in/og/puranas.png"
+    },
+    "openGraph": {
+      "title": "Puranas - Heilige tradities en verhalen van Sanātana Dharma",
+      "description": "Verken de Purana's: oude teksten die verhalen, kosmologie, toewijding, dharma en cultureel geheugen binnen Sanātana Dharma bewaren.",
+      "url": "https://sanatanadharmam.in/puranas",
+      "siteName": "Sanatanadharam",
+      "type": "website",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/puranas.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Puranas – Sacred Traditions and Stories of Sanātana Dharma"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Collectiepagina",
+      "name": "Puranas - Heilige tradities en verhalen van Sanātana Dharma",
+      "description": "Verken de Purana's: oude teksten die verhalen, kosmologie, toewijding, dharma en cultureel geheugen binnen Sanātana Dharma bewaren.",
+      "url": "https://sanatanadharmam.in/puranas",
+      "isPartOf": {
+        "@type": "Website",
+        "name": "Sanatanadharam",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "introduction": "De Purana's vormen een grote hoeveelheid Sanskrietliteratuur waarin de heilige geschiedenis, kosmologie, devotionele tradities en ethische richtlijnen worden bewaard. Ze presenteren filosofie door middel van verhalen: verhalen van wijzen en koningen, leringen over aanbidding en plicht, en reflecties op tijdcycli en de schepping.\n\nTraditioneel worden de Purana's gegroepeerd in de Mahapurana's en Upapurana's, waarbij veel teksten nauw verbonden zijn met bepaalde goden en devotionele geslachten. Als levende traditie hebben de Purana’s eeuwenlang vorm gegeven aan de tempelcultuur, festivals, pelgrimstochten en huishoudelijke toewijding in heel India.",
+    "scripture_text": [
+      {
+        "section": "Wat een Purana doorgaans bevat",
+        "content": "Van veel Purana's wordt beschreven dat ze de klassieke vijf thema's (panchalakshana) bevatten: schepping (sarga), recreatie na ontbinding (pratisarga), genealogieën (vamsha), kosmische tijdperken en Manu-cycli (manvantara), en dynastieke geschiedenissen (vamshanucharita). In de praktijk bevat elke Purana ook hymnen, dialogen, ethische leringen, pelgrimsgidsen en secties over rituelen en toewijding."
+      },
+      {
+        "section": "Hoe Puranische verhalen te lezen",
+        "content": "Puranische verhalen zijn vaak gelaagd: ze kunnen worden gelezen als toewijding (bhakti), als morele instructie (dharma) en als symbolische leer over de geest, de tijd en de relatie tussen het individuele zelf en het goddelijke. Deze site behandelt ze als een devotioneel-filosofische traditie, niet alleen als folklore."
+      }
+    ],
+    "philosophical_explanation": "De Purana's brengen filosofische ideeën over in een toegankelijke vorm. In plaats van doctrine alleen via abstractie te presenteren, gebruiken ze karakters, geloften, crises en transformaties om te laten zien hoe dharma wordt toegepast onder druk van de echte wereld. Hun kosmologie onderwijst cyclische tijd en vergankelijkheid, terwijl devotionele secties overgave, dankbaarheid en innerlijke stabiliteit cultiveren.\n\nVoor veel lezers dienen de Purana's als een brug: van verhaal en aanbidding naar dieper onderzoek naar de Upanishadische visie op het Zelf, de aard van de werkelijkheid en bevrijding (moksha)."
+  }
 }

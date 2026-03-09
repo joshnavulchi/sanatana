@@ -89,11 +89,7 @@
         "Loyalty",
         "Detachment"
       ],
-      "weapons": [
-        "Bow",
-        "Arrows",
-        "Kshatriya martial skills"
-      ]
+      "weapons": ["Bow", "Arrows", "Kshatriya martial skills"]
     },
     "biography": {
       "birth": {
@@ -156,11 +152,7 @@
     },
     "lineage": {
       "birthname": "Devavrata",
-      "epithets": [
-        "Bhishma",
-        "Gangaputra",
-        "Pitamah"
-      ],
+      "epithets": ["Bhishma", "Gangaputra", "Pitamah"],
       "father": "King Shantanu",
       "house": "Kuru",
       "mother": "Ganga (river goddess)"

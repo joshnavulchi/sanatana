@@ -50,11 +50,7 @@
         "language": "Sanskrit",
         "name": "Durga Saptashati (Devi Mahatmyam)",
         "origin": "Markandeya Purana, Chapters 81–93",
-        "parts": [
-          "Prathama Charitra",
-          "Madhyama Charitra",
-          "Uttama Charitra"
-        ],
+        "parts": ["Prathama Charitra", "Madhyama Charitra", "Uttama Charitra"],
         "sections": {
           "argala": "Argala Stotram",
           "kavacha": "Devi Kavacham (armor prayer)",

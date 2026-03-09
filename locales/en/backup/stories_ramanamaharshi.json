@@ -77,12 +77,7 @@
         "Radiant calm expression",
         "Minimalistic lifestyle"
       ],
-      "virtues": [
-        "Compassion",
-        "Detachment",
-        "Simplicity",
-        "Wisdom"
-      ]
+      "virtues": ["Compassion", "Detachment", "Simplicity", "Wisdom"]
     },
     "biography": {
       "arunachala": "Drawn to the sacred hill Arunachala, he left home and spent years in deep meditation, living in caves and silence.",
@@ -137,10 +132,7 @@
         "Silent teacher of non-dual truth",
         "Established Arunachala as a spiritual center"
       ],
-      "titles": [
-        "Bhagavan",
-        "Maharshi"
-      ]
+      "titles": ["Bhagavan", "Maharshi"]
     },
     "textsandverses": [
       {

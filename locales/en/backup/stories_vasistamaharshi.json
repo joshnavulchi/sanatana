@@ -73,12 +73,7 @@
         "Holding a rosary and water pot (Kamandalu)",
         "Accompanied by Arundhati"
       ],
-      "virtues": [
-        "Wisdom",
-        "Patience",
-        "Truthfulness",
-        "Compassion"
-      ]
+      "virtues": ["Wisdom", "Patience", "Truthfulness", "Compassion"]
     },
     "biography": {
       "attributes": [
@@ -141,10 +136,7 @@
         "Embodiment of wisdom and Dharma",
         "Author of Vasishta Samhita and Yoga Vasishta"
       ],
-      "titles": [
-        "Maharshi",
-        "Brahmarshi"
-      ]
+      "titles": ["Maharshi", "Brahmarshi"]
     },
     "textsandteachings": [
       {

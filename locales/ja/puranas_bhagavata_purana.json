@@ -1,61 +1,61 @@
 {
-    "puranas_bhagavata-purana": {
-        "title": "バーガヴァタ プラーナ – プラーナの概要と主要テーマ",
-        "description": "バーガヴァタ プラーナの構造化された概要: テーマ、目的、そしてそれがサナータナ ダルマにおける信心、ダルマ、文化的記憶にどのように貢献するか。",
-        "meta": {
-            "title": "バーガヴァタ プラーナ – プラーナの概要と主要テーマ",
-            "canonical": "https://sanatanadharmam.in/puranas/bhagavata-purana",
-            "description": "バーガヴァタ プラーナの構造化された概要: テーマ、目的、そしてそれがサナータナ ダルマにおける信心、ダルマ、文化的記憶にどのように貢献するか。",
-            "keywords": [
-                "バーガヴァタ プラーナ",
-                "プラーナ",
-                "プラーナ",
-                "サタナダルマ",
-                "バクティ",
-                "ダルマ"
-            ],
-            "robots": "インデックス、フォロー",
-            "url": "https://sanatanadharmam.in/puranas/bhagavata-purana",
-            "ogImage": "https://sanatanadharmam.in/og/puranas_bhagavata_purana.png"
-        },
-        "openGraph": {
-            "title": "バーガヴァタ プラーナ – プラーナの概要と主要テーマ",
-            "description": "バーガヴァタ プラーナの構造化された概要: テーマ、目的、そしてそれがサナータナ ダルマにおける信心、ダルマ、文化的記憶にどのように貢献するか。",
-            "url": "https://sanatanadharmam.in/puranas/bhagavata-purana",
-            "siteName": "サナタナダルマム",
-            "type": "記事",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/puranas_bhagavata_purana.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Bhagavata Purana – Purana Overview and Key Themes"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@type": "記事",
-            "name": "バーガヴァタ プラーナ – プラーナの概要と主要テーマ",
-            "description": "バーガヴァタ プラーナの構造化された概要: テーマ、目的、そしてそれがサナータナ ダルマにおける信心、ダルマ、文化的記憶にどのように貢献するか。",
-            "url": "https://sanatanadharmam.in/puranas/bhagavata-purana",
-            "isPartOf": {
-                "@type": "ウェブサイト",
-                "name": "サナタナダルマム",
-                "url": "https://sanatanadharmam.in"
-            }
-        },
-        "introduction": "バーガヴァタ プラーナは、サナータナ ダルマのより広範なプラーナ文献におけるマハープラーナの 1 つです。プラーナは、物語、対話、賛美歌、倫理的な生活への導きを通じて、哲学、献身、文化的記憶を伝えます。\n\n伝統的に、バーガヴァタ プラーナはヴィシュヌ/クリシュナと関連付けられています。読者は、単一ジャンルの本ではなく、信仰哲学的なテキストとしてこの本にアプローチすることがよくあります。この本には、宇宙論、神聖な地理、倫理、誓い、実践中のダルマを説明する物語が含まれる場合があります。",
-        "scripture_text": [
-            {
-                "section": "このページでわかること",
-                "content": "構造化された概要: (1) 文脈とテーマ、(2) 重要な物語のアイデア、(3) 信仰の強調、(4) 物語を内面の実践に結びつける哲学的考察。"
-            },
-            {
-                "section": "プラーナ物質の読み方",
-                "content": "プラーナの物語は、信仰的、倫理的、象徴的といった複数のレベルで読み取ることができます。再話ごとに細部が異なる場合でも、不朽の価値は多くの場合、人格、献身、洞察力の育成というダルマ的教訓です。"
-            }
-        ],
-        "philosophical_explanation": "哲学的には、プラーナは実際のシナリオを通して、欲望、恐怖、プライド、慈悲がどのように運命を形作るのかを教えています。また、周期的な時間と無常性を強調し、謙虚さと安定を奨励します。帰依心（バクティ）は、心を浄化し、知恵をサポートする、直接的でアクセスしやすい規律として表現されることがよくあります。"
-    }
+  "puranas_bhagavata-purana": {
+    "title": "バーガヴァタ プラーナ – プラーナの概要と主要テーマ",
+    "description": "バーガヴァタ プラーナの構造化された概要: テーマ、目的、そしてそれがサナータナ ダルマにおける信心、ダルマ、文化的記憶にどのように貢献するか。",
+    "meta": {
+      "title": "バーガヴァタ プラーナ – プラーナの概要と主要テーマ",
+      "canonical": "https://sanatanadharmam.in/puranas/bhagavata-purana",
+      "description": "バーガヴァタ プラーナの構造化された概要: テーマ、目的、そしてそれがサナータナ ダルマにおける信心、ダルマ、文化的記憶にどのように貢献するか。",
+      "keywords": [
+        "バーガヴァタ プラーナ",
+        "プラーナ",
+        "プラーナ",
+        "サタナダルマ",
+        "バクティ",
+        "ダルマ"
+      ],
+      "robots": "インデックス、フォロー",
+      "url": "https://sanatanadharmam.in/puranas/bhagavata-purana",
+      "ogImage": "https://sanatanadharmam.in/og/puranas_bhagavata_purana.png"
+    },
+    "openGraph": {
+      "title": "バーガヴァタ プラーナ – プラーナの概要と主要テーマ",
+      "description": "バーガヴァタ プラーナの構造化された概要: テーマ、目的、そしてそれがサナータナ ダルマにおける信心、ダルマ、文化的記憶にどのように貢献するか。",
+      "url": "https://sanatanadharmam.in/puranas/bhagavata-purana",
+      "siteName": "サナタナダルマム",
+      "type": "記事",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/puranas_bhagavata_purana.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Bhagavata Purana – Purana Overview and Key Themes"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "記事",
+      "name": "バーガヴァタ プラーナ – プラーナの概要と主要テーマ",
+      "description": "バーガヴァタ プラーナの構造化された概要: テーマ、目的、そしてそれがサナータナ ダルマにおける信心、ダルマ、文化的記憶にどのように貢献するか。",
+      "url": "https://sanatanadharmam.in/puranas/bhagavata-purana",
+      "isPartOf": {
+        "@type": "ウェブサイト",
+        "name": "サナタナダルマム",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "introduction": "バーガヴァタ プラーナは、サナータナ ダルマのより広範なプラーナ文献におけるマハープラーナの 1 つです。プラーナは、物語、対話、賛美歌、倫理的な生活への導きを通じて、哲学、献身、文化的記憶を伝えます。\n\n伝統的に、バーガヴァタ プラーナはヴィシュヌ/クリシュナと関連付けられています。読者は、単一ジャンルの本ではなく、信仰哲学的なテキストとしてこの本にアプローチすることがよくあります。この本には、宇宙論、神聖な地理、倫理、誓い、実践中のダルマを説明する物語が含まれる場合があります。",
+    "scripture_text": [
+      {
+        "section": "このページでわかること",
+        "content": "構造化された概要: (1) 文脈とテーマ、(2) 重要な物語のアイデア、(3) 信仰の強調、(4) 物語を内面の実践に結びつける哲学的考察。"
+      },
+      {
+        "section": "プラーナ物質の読み方",
+        "content": "プラーナの物語は、信仰的、倫理的、象徴的といった複数のレベルで読み取ることができます。再話ごとに細部が異なる場合でも、不朽の価値は多くの場合、人格、献身、洞察力の育成というダルマ的教訓です。"
+      }
+    ],
+    "philosophical_explanation": "哲学的には、プラーナは実際のシナリオを通して、欲望、恐怖、プライド、慈悲がどのように運命を形作るのかを教えています。また、周期的な時間と無常性を強調し、謙虚さと安定を奨励します。帰依心（バクティ）は、心を浄化し、知恵をサポートする、直接的でアクセスしやすい規律として表現されることがよくあります。"
+  }
 }

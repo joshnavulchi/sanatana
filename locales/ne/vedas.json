@@ -29,12 +29,7 @@
         "@type": "Person",
         "name": "Vyasa"
       },
-      "about": [
-        "Rigveda",
-        "Yajurveda",
-        "Samaveda",
-        "Atharvaveda"
-      ],
+      "about": ["Rigveda", "Yajurveda", "Samaveda", "Atharvaveda"],
       "inLanguage": "Sanskrit",
       "publisher": {
         "@type": "Organization",
@@ -56,14 +51,7 @@
           "mandalas": 10,
           "verses": 10552
         },
-        "major_deities": [
-          "Agni",
-          "Indra",
-          "Varuna",
-          "Mitra",
-          "Soma",
-          "Ushas"
-        ],
+        "major_deities": ["Agni", "Indra", "Varuna", "Mitra", "Soma", "Ushas"],
         "major_themes": [
           "Creation of universe",
           "Cosmic order (Rta)",

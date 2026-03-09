@@ -1,168 +1,168 @@
 {
-    "contact": {
-        "title": "Contactez-nous – Sanatanadharman | Site Web du Sanatana Dharma",
-        "description": "Contactez Sanatanadharmam pour toute question sur le Sanatana Dharma, les collaborations, les commentaires ou les demandes de renseignements sur le site Web. Contactez-nous par email ou par téléphone.",
-        "meta": {
-            "title": "Contactez-nous – Sanatanadharman | Site Web du Sanatana Dharma",
-            "canonical": "https://sanatanadharmam.in/contact",
-            "description": "Contactez Sanatanadharmam pour toute question sur le Sanatana Dharma, les collaborations, les commentaires ou les demandes de renseignements sur le site Web. Contactez-nous par email ou par téléphone.",
-            "keywords": [
-                "contacter sanatanadharma",
-                "sanatana dharma contacter",
-                "e-mail de Sanatanadharman",
-                "enquêtes sur le sanatana dharma",
-                "collaboration sanatana dharma",
-                "soutien de Sanatanadharma",
-                "Commentaires sur le sanatana dharma",
-                "formulaire de contact sanatanadharma",
-                "Contacter le site Web du Sanatana Dharma"
-            ],
-            "robots": "indexer, suivre",
-            "url": "https://sanatanadharmam.in/contact"
-        },
-        "openGraph": {
-            "title": "Contacter Sanatanadharma – Site Web du Sanatana Dharma",
-            "description": "Contactez Sanatanadharma pour des demandes de renseignements, des collaborations et des discussions spirituelles sur le Sanatana Dharma.",
-            "url": "https://sanatanadharmam.in/contact",
-            "siteName": "Sanatanadharman",
-            "type": "site internet",
-            "images": [
-                {
-                    "url": "https://sanatanadharmam.in/og/contact.png",
-                    "width": 1200,
-                    "height": 630,
-                    "alt": "Contact Sanatanadharmam"
-                }
-            ]
-        },
-        "schema": {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "Page de contact",
-                    "name": "Contacter Sanatanadharma",
-                    "url": "https://sanatanadharmam.in/contact",
-                    "description": "Page de contact pour Sanatanadarmam où les visiteurs peuvent contacter l'organisation pour des demandes de renseignements et des collaborations."
-                },
-                {
-                    "@type": "Organisation",
-                    "name": "Sanatanadharman",
-                    "url": "https://sanatanadharmam.in",
-                    "logo": "https://sanatanadharmam.in/images/logo.png",
-                    "contactPoint": {
-                        "@type": "Point de contact",
-                        "contactType": "support client",
-                        "areaServed": "Dans le monde entier",
-                        "availableLanguage": [
-                            "Anglais",
-                            "hindi",
-                            "Télougou",
-                            "arabe",
-                            "Allemand",
-                            "Espagnol",
-                            "Français",
-                            "Japonais",
-                            "Népalais",
-                            "Néerlandais",
-                            "Portugais",
-                            "russe",
-                            "Ourdou",
-                            "Chinois"
-                        ],
-                        "email": "info@sanatanadharmam.in",
-                        "telephone": "+91-8099181075"
-                    }
-                }
-            ]
-        },
-        "faq": {
-            "heading": "Questions fréquemment posées",
-            "items": [
-                {
-                    "a": "Veuillez inclure l'URL, le passage exact (citer la ligne ou le verset) et une référence ou une analyse de l'édition source si possible. Nous vérifierons et, si nécessaire, publierons une note d'errata décrivant la correction.",
-                    "q": "J'ai trouvé une erreur dans un texte, que dois-je faire ?"
-                },
-                {
-                    "a": "Oui. Envoyez les détails bibliographiques et toutes les autorisations pertinentes. Nous donnons la priorité aux textes qui sont dans le domaine public ou disponibles avec des autorisations claires, et nous pouvons nous coordonner avec les contributeurs pour la numérisation.",
-                    "q": "Puis-je demander l’ajout d’un nouveau texte ou d’un nouveau chapitre ?"
-                },
-                {
-                    "a": "Envoyez votre CV ou un court message décrivant vos compétences et vos disponibilités. Nous ferons un suivi si nous avons une bonne adéquation aux besoins actuels.",
-                    "q": "Comment puis-je m'impliquer en tant que bénévole ?"
-                }
-            ]
-        },
-        "sections": [
-            {
-                "content": "Sanatanadharmam.in se consacre à la diffusion de la connaissance authentique du Sanatana Dharma. Que vous ayez des questions, des commentaires ou des idées de collaboration, nous apprécions votre message.",
-                "id": "introduction",
-                "type": "texte"
-            },
-            {
-                "columns": [
-                    {
-                        "title": "📧 E-mail",
-                        "content": "vulchi.vijay@gmail.com"
-                    },
-                    {
-                        "title": "📞 Téléphone",
-                        "content": "+91-8099181075"
-                    },
-                    {
-                        "title": "📍 Adresse",
-                        "content": "Tirupati, Andhra Pradesh, Inde"
-                    }
-                ],
-                "id": "introduction",
-                "type": "texte"
-            },
-            {
-                "fields": [
-                    {
-                        "name": "nom",
-                        "placeholder": "Votre nom",
-                        "required": true,
-                        "type": "texte"
-                    },
-                    {
-                        "name": "email",
-                        "placeholder": "Votre e-mail",
-                        "required": true,
-                        "type": "email"
-                    },
-                    {
-                        "name": "sujet",
-                        "placeholder": "Sujet",
-                        "required": false,
-                        "type": "texte"
-                    },
-                    {
-                        "name": "message",
-                        "placeholder": "Votre message",
-                        "required": true,
-                        "type": "zone de texte"
-                    }
-                ],
-                "id": "introduction",
-                "submitbutton": {
-                    "action": "/api/contact/submit",
-                    "label": "Envoyer un message"
-                },
-                "type": "texte"
-            },
-            {
-                "content": "Sanatanadharmam.in se consacre à la diffusion de la connaissance authentique du Sanatana Dharma. Que vous ayez des questions, des commentaires ou des idées de collaboration, nous apprécions votre message.",
-                "id": "introduction",
-                "type": "texte"
-            }
-        ],
-        "volunteer": {
-            "guidance": "Nous accueillons les bénévoles qui peuvent aider à la relecture, à la composition, aux traductions, à l'enregistrement audio, au développement Web et à la modération de la communauté. Veuillez décrire vos compétences, votre disponibilité et tout échantillon pertinent de travaux antérieurs. Les soumissions sont examinées et, si elles sont acceptées, coordonnées via un modeste processus d'intégration afin que les bénévoles comprennent les normes éditoriales et le code de conduite du projet.",
-            "heading": "Lignes directrices en matière de bénévolat et de contribution"
-        },
-        "whattoinclude": {
-            "guidance": "Pour nous aider à répondre efficacement, veuillez inclure : une ligne d'objet claire, la page ou l'URL à laquelle vous faites référence (le cas échéant), une description concise du problème ou de la demande et votre méthode de contact préférée. Pour les corrections de textes, indiquez la ligne ou le verset exact et, si possible, fournissez une source ou une référence d'édition fiable. Pour les suggestions de traduction, incluez à la fois la formulation suggérée et une brève justification du changement.",
-            "heading": "Que faut-il inclure dans votre message"
+  "contact": {
+    "title": "Contactez-nous – Sanatanadharman | Site Web du Sanatana Dharma",
+    "description": "Contactez Sanatanadharmam pour toute question sur le Sanatana Dharma, les collaborations, les commentaires ou les demandes de renseignements sur le site Web. Contactez-nous par email ou par téléphone.",
+    "meta": {
+      "title": "Contactez-nous – Sanatanadharman | Site Web du Sanatana Dharma",
+      "canonical": "https://sanatanadharmam.in/contact",
+      "description": "Contactez Sanatanadharmam pour toute question sur le Sanatana Dharma, les collaborations, les commentaires ou les demandes de renseignements sur le site Web. Contactez-nous par email ou par téléphone.",
+      "keywords": [
+        "contacter sanatanadharma",
+        "sanatana dharma contacter",
+        "e-mail de Sanatanadharman",
+        "enquêtes sur le sanatana dharma",
+        "collaboration sanatana dharma",
+        "soutien de Sanatanadharma",
+        "Commentaires sur le sanatana dharma",
+        "formulaire de contact sanatanadharma",
+        "Contacter le site Web du Sanatana Dharma"
+      ],
+      "robots": "indexer, suivre",
+      "url": "https://sanatanadharmam.in/contact"
+    },
+    "openGraph": {
+      "title": "Contacter Sanatanadharma – Site Web du Sanatana Dharma",
+      "description": "Contactez Sanatanadharma pour des demandes de renseignements, des collaborations et des discussions spirituelles sur le Sanatana Dharma.",
+      "url": "https://sanatanadharmam.in/contact",
+      "siteName": "Sanatanadharman",
+      "type": "site internet",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/contact.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Contact Sanatanadharmam"
         }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Page de contact",
+          "name": "Contacter Sanatanadharma",
+          "url": "https://sanatanadharmam.in/contact",
+          "description": "Page de contact pour Sanatanadarmam où les visiteurs peuvent contacter l'organisation pour des demandes de renseignements et des collaborations."
+        },
+        {
+          "@type": "Organisation",
+          "name": "Sanatanadharman",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png",
+          "contactPoint": {
+            "@type": "Point de contact",
+            "contactType": "support client",
+            "areaServed": "Dans le monde entier",
+            "availableLanguage": [
+              "Anglais",
+              "hindi",
+              "Télougou",
+              "arabe",
+              "Allemand",
+              "Espagnol",
+              "Français",
+              "Japonais",
+              "Népalais",
+              "Néerlandais",
+              "Portugais",
+              "russe",
+              "Ourdou",
+              "Chinois"
+            ],
+            "email": "info@sanatanadharmam.in",
+            "telephone": "+91-8099181075"
+          }
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Questions fréquemment posées",
+      "items": [
+        {
+          "a": "Veuillez inclure l'URL, le passage exact (citer la ligne ou le verset) et une référence ou une analyse de l'édition source si possible. Nous vérifierons et, si nécessaire, publierons une note d'errata décrivant la correction.",
+          "q": "J'ai trouvé une erreur dans un texte, que dois-je faire ?"
+        },
+        {
+          "a": "Oui. Envoyez les détails bibliographiques et toutes les autorisations pertinentes. Nous donnons la priorité aux textes qui sont dans le domaine public ou disponibles avec des autorisations claires, et nous pouvons nous coordonner avec les contributeurs pour la numérisation.",
+          "q": "Puis-je demander l’ajout d’un nouveau texte ou d’un nouveau chapitre ?"
+        },
+        {
+          "a": "Envoyez votre CV ou un court message décrivant vos compétences et vos disponibilités. Nous ferons un suivi si nous avons une bonne adéquation aux besoins actuels.",
+          "q": "Comment puis-je m'impliquer en tant que bénévole ?"
+        }
+      ]
+    },
+    "sections": [
+      {
+        "content": "Sanatanadharmam.in se consacre à la diffusion de la connaissance authentique du Sanatana Dharma. Que vous ayez des questions, des commentaires ou des idées de collaboration, nous apprécions votre message.",
+        "id": "introduction",
+        "type": "texte"
+      },
+      {
+        "columns": [
+          {
+            "title": "📧 E-mail",
+            "content": "vulchi.vijay@gmail.com"
+          },
+          {
+            "title": "📞 Téléphone",
+            "content": "+91-8099181075"
+          },
+          {
+            "title": "📍 Adresse",
+            "content": "Tirupati, Andhra Pradesh, Inde"
+          }
+        ],
+        "id": "introduction",
+        "type": "texte"
+      },
+      {
+        "fields": [
+          {
+            "name": "nom",
+            "placeholder": "Votre nom",
+            "required": true,
+            "type": "texte"
+          },
+          {
+            "name": "email",
+            "placeholder": "Votre e-mail",
+            "required": true,
+            "type": "email"
+          },
+          {
+            "name": "sujet",
+            "placeholder": "Sujet",
+            "required": false,
+            "type": "texte"
+          },
+          {
+            "name": "message",
+            "placeholder": "Votre message",
+            "required": true,
+            "type": "zone de texte"
+          }
+        ],
+        "id": "introduction",
+        "submitbutton": {
+          "action": "/api/contact/submit",
+          "label": "Envoyer un message"
+        },
+        "type": "texte"
+      },
+      {
+        "content": "Sanatanadharmam.in se consacre à la diffusion de la connaissance authentique du Sanatana Dharma. Que vous ayez des questions, des commentaires ou des idées de collaboration, nous apprécions votre message.",
+        "id": "introduction",
+        "type": "texte"
+      }
+    ],
+    "volunteer": {
+      "guidance": "Nous accueillons les bénévoles qui peuvent aider à la relecture, à la composition, aux traductions, à l'enregistrement audio, au développement Web et à la modération de la communauté. Veuillez décrire vos compétences, votre disponibilité et tout échantillon pertinent de travaux antérieurs. Les soumissions sont examinées et, si elles sont acceptées, coordonnées via un modeste processus d'intégration afin que les bénévoles comprennent les normes éditoriales et le code de conduite du projet.",
+      "heading": "Lignes directrices en matière de bénévolat et de contribution"
+    },
+    "whattoinclude": {
+      "guidance": "Pour nous aider à répondre efficacement, veuillez inclure : une ligne d'objet claire, la page ou l'URL à laquelle vous faites référence (le cas échéant), une description concise du problème ou de la demande et votre méthode de contact préférée. Pour les corrections de textes, indiquez la ligne ou le verset exact et, si possible, fournissez une source ou une référence d'édition fiable. Pour les suggestions de traduction, incluez à la fois la formulation suggérée et une brève justification du changement.",
+      "heading": "Que faut-il inclure dans votre message"
     }
+  }
 }

@@ -25,11 +25,7 @@
           "family_structure": "extended family groups"
         },
         "technology": {
-          "tools": [
-            "stone hand axes",
-            "wooden spears",
-            "bone tools"
-          ],
+          "tools": ["stone hand axes", "wooden spears", "bone tools"],
           "discoveries": [
             "control of fire",
             "early language",
@@ -37,15 +33,8 @@
           ]
         },
         "religion_culture": {
-          "beliefs": [
-            "animism",
-            "nature worship",
-            "ancestor spirits"
-          ],
-          "art": [
-            "cave paintings",
-            "ritual objects"
-          ]
+          "beliefs": ["animism", "nature worship", "ancestor spirits"],
+          "art": ["cave paintings", "ritual objects"]
         },
         "economic_system": "subsistence hunting and gathering"
       },
@@ -58,36 +47,17 @@
         },
         "daily_life": {
           "housing": "mud and wood houses in permanent villages",
-          "food_sources": [
-            "wheat",
-            "barley",
-            "rice",
-            "domesticated animals"
-          ],
+          "food_sources": ["wheat", "barley", "rice", "domesticated animals"],
           "clothing": "woven plant fibers",
           "community_life": "larger settlements and cooperation"
         },
         "technology": {
-          "tools": [
-            "plows",
-            "sickles",
-            "pottery",
-            "irrigation systems"
-          ],
-          "discoveries": [
-            "domestication of plants",
-            "animal husbandry"
-          ]
+          "tools": ["plows", "sickles", "pottery", "irrigation systems"],
+          "discoveries": ["domestication of plants", "animal husbandry"]
         },
         "religion_culture": {
-          "beliefs": [
-            "fertility gods",
-            "agricultural rituals"
-          ],
-          "cultural_practices": [
-            "seasonal festivals",
-            "village rituals"
-          ]
+          "beliefs": ["fertility gods", "agricultural rituals"],
+          "cultural_practices": ["seasonal festivals", "village rituals"]
         },
         "economic_system": "early agriculture and barter trade"
       },
@@ -100,19 +70,12 @@
         },
         "daily_life": {
           "housing": "brick houses and organized cities",
-          "food_sources": [
-            "grain agriculture",
-            "livestock",
-            "trade goods"
-          ],
+          "food_sources": ["grain agriculture", "livestock", "trade goods"],
           "urban_life": "cities with markets, temples, and governance",
           "education": "early schools and scribes"
         },
         "technology": {
-          "tools": [
-            "bronze tools",
-            "iron tools"
-          ],
+          "tools": ["bronze tools", "iron tools"],
           "major_innovations": [
             "writing systems",
             "wheel",
@@ -121,10 +84,7 @@
           ]
         },
         "religion_culture": {
-          "beliefs": [
-            "polytheism",
-            "organized priesthood"
-          ],
+          "beliefs": ["polytheism", "organized priesthood"],
           "major_religious_developments": [
             "Vedic traditions",
             "Buddhism",
@@ -147,24 +107,12 @@
         },
         "daily_life": {
           "housing": "villages, castles, fortified towns",
-          "food_sources": [
-            "grain",
-            "livestock",
-            "local agriculture"
-          ],
+          "food_sources": ["grain", "livestock", "local agriculture"],
           "community": "feudal villages and guild towns"
         },
         "technology": {
-          "tools": [
-            "iron farming tools",
-            "watermills",
-            "windmills"
-          ],
-          "transport": [
-            "horse riding",
-            "caravans",
-            "sailing ships"
-          ]
+          "tools": ["iron farming tools", "watermills", "windmills"],
+          "transport": ["horse riding", "caravans", "sailing ships"]
         },
         "religion_culture": {
           "dominant_religions": [
@@ -173,18 +121,9 @@
             "Islam",
             "Buddhism"
           ],
-          "cultural_features": [
-            "temples",
-            "churches",
-            "mosques",
-            "monasteries"
-          ]
+          "cultural_features": ["temples", "churches", "mosques", "monasteries"]
         },
-        "economic_system": [
-          "feudalism",
-          "agriculture",
-          "guild trade"
-        ]
+        "economic_system": ["feudalism", "agriculture", "guild trade"]
       },
       {
         "era": "Early Modern Era",
@@ -212,10 +151,7 @@
             "cultural exchange"
           ]
         },
-        "economic_system": [
-          "global trade networks",
-          "merchant economies"
-        ]
+        "economic_system": ["global trade networks", "merchant economies"]
       },
       {
         "era": "Industrial Era",
@@ -238,15 +174,9 @@
           ]
         },
         "religion_culture": {
-          "changes": [
-            "urban religious institutions",
-            "education expansion"
-          ]
+          "changes": ["urban religious institutions", "education expansion"]
         },
-        "economic_system": [
-          "industrial capitalism",
-          "factory production"
-        ]
+        "economic_system": ["industrial capitalism", "factory production"]
       },
       {
         "era": "Modern Digital Era",
@@ -258,11 +188,7 @@
         "daily_life": {
           "housing": "urban cities, apartments, suburban homes",
           "work": "service economy and technology jobs",
-          "communication": [
-            "internet",
-            "smartphones",
-            "social media"
-          ]
+          "communication": ["internet", "smartphones", "social media"]
         },
         "technology": {
           "major_innovations": [
@@ -295,17 +221,8 @@
         "population_estimate": "1–10 million globally",
         "lifestyle": {
           "housing": "Temporary shelters, caves, natural structures",
-          "food": [
-            "wild plants",
-            "fruits",
-            "roots",
-            "hunted animals"
-          ],
-          "tools": [
-            "stone tools",
-            "wooden spears",
-            "bone tools"
-          ],
+          "food": ["wild plants", "fruits", "roots", "hunted animals"],
+          "tools": ["stone tools", "wooden spears", "bone tools"],
           "social_structure": "small tribes of 20–50 people",
           "technology_level": "Stone Age technology",
           "transport": "walking",
@@ -325,11 +242,7 @@
             "rice",
             "domesticated animals"
           ],
-          "tools": [
-            "farming tools",
-            "plows",
-            "pottery"
-          ],
+          "tools": ["farming tools", "plows", "pottery"],
           "social_structure": "larger villages and early social hierarchy",
           "technology_level": "Neolithic technology",
           "transport": "animals and simple carts"
@@ -341,27 +254,10 @@
         "population_estimate": "100–300 million",
         "lifestyle": {
           "housing": "organized cities with brick and stone buildings",
-          "food": [
-            "grain agriculture",
-            "livestock",
-            "trade goods"
-          ],
-          "technology": [
-            "writing systems",
-            "metal tools",
-            "irrigation"
-          ],
-          "transport": [
-            "horse",
-            "boats",
-            "chariots"
-          ],
-          "social_structure": [
-            "kings",
-            "priests",
-            "warriors",
-            "farmers"
-          ],
+          "food": ["grain agriculture", "livestock", "trade goods"],
+          "technology": ["writing systems", "metal tools", "irrigation"],
+          "transport": ["horse", "boats", "chariots"],
+          "social_structure": ["kings", "priests", "warriors", "farmers"],
           "major_civilizations": [
             "Mesopotamia",
             "Indus Valley",
@@ -379,22 +275,9 @@
         "lifestyle": {
           "housing": "villages, castles, towns",
           "economy": "agriculture and feudal systems",
-          "technology": [
-            "iron tools",
-            "water mills",
-            "windmills"
-          ],
-          "transport": [
-            "horses",
-            "ships",
-            "caravans"
-          ],
-          "social_structure": [
-            "kings",
-            "lords",
-            "knights",
-            "peasants"
-          ]
+          "technology": ["iron tools", "water mills", "windmills"],
+          "transport": ["horses", "ships", "caravans"],
+          "social_structure": ["kings", "lords", "knights", "peasants"]
         }
       },
       {
@@ -408,10 +291,7 @@
             "navigation instruments",
             "scientific discoveries"
           ],
-          "transport": [
-            "sailing ships",
-            "horse carriages"
-          ],
+          "transport": ["sailing ships", "horse carriages"],
           "global_changes": [
             "global exploration",
             "colonization",
@@ -431,11 +311,7 @@
             "telegraph",
             "railways"
           ],
-          "transport": [
-            "trains",
-            "steamships",
-            "early automobiles"
-          ],
+          "transport": ["trains", "steamships", "early automobiles"],
           "economy": "industrial production and factories",
           "social_structure": [
             "industrial workers",
@@ -456,11 +332,7 @@
             "smartphones",
             "artificial intelligence"
           ],
-          "transport": [
-            "cars",
-            "airplanes",
-            "high-speed trains"
-          ],
+          "transport": ["cars", "airplanes", "high-speed trains"],
           "economy": "global digital economy",
           "communication": [
             "internet",

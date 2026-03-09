@@ -69,15 +69,8 @@
         "Dressed as a sage",
         "Fiery temperament"
       ],
-      "virtues": [
-        "Justice",
-        "Discipline",
-        "Wrath against Adharma"
-      ],
-      "weapons": [
-        "Parashu (Battle Axe)",
-        "Bow and arrows"
-      ]
+      "virtues": ["Justice", "Discipline", "Wrath against Adharma"],
+      "weapons": ["Parashu (Battle Axe)", "Bow and arrows"]
     },
     "biography": {
       "attributes": "Parashurama is depicted as a fierce sage wielding an axe, with a fiery temperament and deep devotion to Shiva. He is known for his justice, discipline, and wrath against adharma (unrighteousness).",
