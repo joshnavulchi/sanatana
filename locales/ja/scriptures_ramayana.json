@@ -1,61 +1,61 @@
 {
-  "scriptures_ramayana": {
-    "title": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct",
-    "description": "Learn about the Ramayana: the Itihasa tradition that explores dharma, devotion, leadership, and the ideals embodied by Sri Rama.",
-    "meta": {
-      "title": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct",
-      "canonical": "https://sanatanadharmam.in/itihasa/ramayana",
-      "description": "Learn about the Ramayana: the Itihasa tradition that explores dharma, devotion, leadership, and the ideals embodied by Sri Rama.",
-      "keywords": [
-        "Ramayana",
-        "Itihasa",
-        "Sri Rama",
-        "dharma",
-        "Valmiki",
-        "Sanatana Dharma"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/itihasa/ramayana",
-      "ogImage": "https://sanatanadharmam.in/og/scriptures_ramayana.png"
-    },
-    "openGraph": {
-      "title": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct",
-      "description": "Learn about the Ramayana: the Itihasa tradition that explores dharma, devotion, leadership, and the ideals embodied by Sri Rama.",
-      "url": "https://sanatanadharmam.in/itihasa/ramayana",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/scriptures_ramayana.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct",
-      "description": "Learn about the Ramayana: the Itihasa tradition that explores dharma, devotion, leadership, and the ideals embodied by Sri Rama.",
-      "url": "https://sanatanadharmam.in/itihasa/ramayana",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "The Ramayana is one of the central Itihasa traditions of Sanātana Dharma. It is traditionally attributed to Maharshi Valmiki and narrates the life of Sri Rama—often revered as an embodiment of dharma—along with Sita, Lakshmana, Hanuman, and many other revered figures.\n\nBeyond narrative, the Ramayana is a guide for values in action: duty and compassion, self-control, truthfulness, devotion, and the responsibilities of leadership and family life.",
-    "scripture_text": [
-      {
-        "section": "Structure (Kandas)",
-        "content": "The classical Valmiki Ramayana is commonly presented in seven kandas (books): Bala, Ayodhya, Aranya, Kishkindha, Sundara, Yuddha, and Uttara. Each kanda advances the narrative and highlights distinct ethical and spiritual lessons."
-      },
-      {
-        "section": "Key themes",
-        "content": "Across its episodes, the Ramayana explores the meaning of svadharma (one’s rightful duty), the cost of keeping vows, the discipline of mind and speech, and the power of devotion (especially seen in Hanuman’s service)."
-      }
-    ],
-    "philosophical_explanation": "A major philosophical contribution of the Ramayana is its lived picture of dharma. Instead of describing ethics only as rules, it shows competing obligations—kingdom and family, promise and consequence, strength and humility. This makes it a practical text for reflection: what is right action when every option carries a cost?\n\nIn devotional reading, the Ramayana also cultivates bhakti: remembrance, service, and surrender. In contemplative reading, it invites inquiry into attachment, grief, courage, and the steady inner alignment that allows one to act without being broken by events."
-  }
+    "scriptures_ramayana": {
+        "title": "ラーマーヤナ – ダルマ、献身、理想的な行為のイティハーサ",
+        "description": "ダルマ、献身、リーダーシップ、シュリ ラーマが体現した理想を探求するイティハーサの伝統であるラーマーヤナについて学びましょう。",
+        "meta": {
+            "title": "ラーマーヤナ – ダルマ、献身、理想的な行為のイティハーサ",
+            "canonical": "https://sanatanadharmam.in/itihasa/ramayana",
+            "description": "ダルマ、献身、リーダーシップ、シュリ ラーマが体現した理想を探求するイティハーサの伝統であるラーマーヤナについて学びましょう。",
+            "keywords": [
+                "ラーマーヤナ",
+                "イティハーサ",
+                "シュリ・ラマ",
+                "ダルマ",
+                "ヴァルミキ",
+                "サタナダルマ"
+            ],
+            "robots": "インデックス、フォロー",
+            "url": "https://sanatanadharmam.in/itihasa/ramayana",
+            "ogImage": "https://sanatanadharmam.in/og/scriptures_ramayana.png"
+        },
+        "openGraph": {
+            "title": "ラーマーヤナ – ダルマ、献身、理想的な行為のイティハーサ",
+            "description": "ダルマ、献身、リーダーシップ、シュリ ラーマが体現した理想を探求するイティハーサの伝統であるラーマーヤナについて学びましょう。",
+            "url": "https://sanatanadharmam.in/itihasa/ramayana",
+            "siteName": "サナタナダルマム",
+            "type": "記事",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/scriptures_ramayana.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "記事",
+            "name": "ラーマーヤナ – ダルマ、献身、理想的な行為のイティハーサ",
+            "description": "ダルマ、献身、リーダーシップ、シュリ ラーマが体現した理想を探求するイティハーサの伝統であるラーマーヤナについて学びましょう。",
+            "url": "https://sanatanadharmam.in/itihasa/ramayana",
+            "isPartOf": {
+                "@type": "ウェブサイト",
+                "name": "サナタナダルマム",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "ラーマーヤナは、サナータナ ダルマの中心的なイティハーサ伝統の 1 つです。この本は伝統的にマハルシ ヴァールミキの作とされており、ダルマの化身として崇められることの多いシュリ ラーマの生涯を、シータ、ラクシュマナ、ハヌマーン、その他多くの尊敬される人物とともに物語っています。\n\nラーマーヤナは物語を超えて、義務と思いやり、自制心、誠実さ、献身、そしてリーダーシップと家庭生活の責任など、行動における価値観のガイドです。",
+        "scripture_text": [
+            {
+                "section": "ストラクチャー（神田）",
+                "content": "古典的なヴァールミーキ・ラーマーヤナは、一般的にバラ、アヨーディヤ、アランヤ、キシュキンダ、スンダラ、ユッダ、ウッタラの7冊のカンダ（本）で表現されています。それぞれのカンダは物語を進め、明確な倫理的および精神的な教訓を強調します。"
+            },
+            {
+                "section": "主要テーマ",
+                "content": "ラーマーヤナはエピソード全体を通じて、スヴァダルマ（人の正当な義務）の意味、誓いを守る代償、心と言葉の鍛錬、そして献身の力（特にハヌマーンへの奉仕に見られる）を探求しています。"
+            }
+        ],
+        "philosophical_explanation": "ラーマーヤナの主要な哲学的貢献は、ダルマの生きた描写です。倫理をルールとしてのみ説明するのではなく、王国と家族、約束と結果、強さと謙虚さなど、相反する義務を示しています。これにより、この本は熟考のための実践的なテキストになります。すべての選択肢にコストが伴う場合、正しい行動は何でしょうか?\n\nラーマーヤナを敬虔に読むことで、記憶、奉仕、明け渡しといったバクティも養われます。瞑想的な読書では、執着、悲しみ、勇気、そして出来事に打ちひしがれることなく行動することを可能にする安定した内なる調整についての探究を促します。"
+    }
 }

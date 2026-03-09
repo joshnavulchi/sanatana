@@ -1,61 +1,61 @@
 {
-  "scriptures_ramayana": {
-    "title": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct",
-    "description": "Learn about the Ramayana: the Itihasa tradition that explores dharma, devotion, leadership, and the ideals embodied by Sri Rama.",
-    "meta": {
-      "title": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct",
-      "canonical": "https://sanatanadharmam.in/itihasa/ramayana",
-      "description": "Learn about the Ramayana: the Itihasa tradition that explores dharma, devotion, leadership, and the ideals embodied by Sri Rama.",
-      "keywords": [
-        "Ramayana",
-        "Itihasa",
-        "Sri Rama",
-        "dharma",
-        "Valmiki",
-        "Sanatana Dharma"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/itihasa/ramayana",
-      "ogImage": "https://sanatanadharmam.in/og/scriptures_ramayana.png"
-    },
-    "openGraph": {
-      "title": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct",
-      "description": "Learn about the Ramayana: the Itihasa tradition that explores dharma, devotion, leadership, and the ideals embodied by Sri Rama.",
-      "url": "https://sanatanadharmam.in/itihasa/ramayana",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/scriptures_ramayana.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct",
-      "description": "Learn about the Ramayana: the Itihasa tradition that explores dharma, devotion, leadership, and the ideals embodied by Sri Rama.",
-      "url": "https://sanatanadharmam.in/itihasa/ramayana",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "The Ramayana is one of the central Itihasa traditions of Sanātana Dharma. It is traditionally attributed to Maharshi Valmiki and narrates the life of Sri Rama—often revered as an embodiment of dharma—along with Sita, Lakshmana, Hanuman, and many other revered figures.\n\nBeyond narrative, the Ramayana is a guide for values in action: duty and compassion, self-control, truthfulness, devotion, and the responsibilities of leadership and family life.",
-    "scripture_text": [
-      {
-        "section": "Structure (Kandas)",
-        "content": "The classical Valmiki Ramayana is commonly presented in seven kandas (books): Bala, Ayodhya, Aranya, Kishkindha, Sundara, Yuddha, and Uttara. Each kanda advances the narrative and highlights distinct ethical and spiritual lessons."
-      },
-      {
-        "section": "Key themes",
-        "content": "Across its episodes, the Ramayana explores the meaning of svadharma (one’s rightful duty), the cost of keeping vows, the discipline of mind and speech, and the power of devotion (especially seen in Hanuman’s service)."
-      }
-    ],
-    "philosophical_explanation": "A major philosophical contribution of the Ramayana is its lived picture of dharma. Instead of describing ethics only as rules, it shows competing obligations—kingdom and family, promise and consequence, strength and humility. This makes it a practical text for reflection: what is right action when every option carries a cost?\n\nIn devotional reading, the Ramayana also cultivates bhakti: remembrance, service, and surrender. In contemplative reading, it invites inquiry into attachment, grief, courage, and the steady inner alignment that allows one to act without being broken by events."
-  }
+    "scriptures_ramayana": {
+        "title": "رامايانا - إتقان الدارما، والتفاني، والسلوك المثالي",
+        "description": "تعرف على رامايانا: تقليد إيتهاسا الذي يستكشف دارما، والتفاني، والقيادة، والمثل العليا التي يجسدها سري راما.",
+        "meta": {
+            "title": "رامايانا - إتقان الدارما، والتفاني، والسلوك المثالي",
+            "canonical": "https://sanatanadharmam.in/itihasa/ramayana",
+            "description": "تعرف على رامايانا: تقليد إيتهاسا الذي يستكشف دارما، والتفاني، والقيادة، والمثل العليا التي يجسدها سري راما.",
+            "keywords": [
+                "رامايانا",
+                "إتهاسا",
+                "سري راما",
+                "دارما",
+                "فالميكي",
+                "ساناتانا دارما"
+            ],
+            "robots": "الفهرس، اتبع",
+            "url": "https://sanatanadharmam.in/itihasa/ramayana",
+            "ogImage": "https://sanatanadharmam.in/og/scriptures_ramayana.png"
+        },
+        "openGraph": {
+            "title": "رامايانا - إتقان الدارما، والتفاني، والسلوك المثالي",
+            "description": "تعرف على رامايانا: تقليد إيتهاسا الذي يستكشف دارما، والتفاني، والقيادة، والمثل العليا التي يجسدها سري راما.",
+            "url": "https://sanatanadharmam.in/itihasa/ramayana",
+            "siteName": "ساناتانادارمام",
+            "type": "شرط",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/scriptures_ramayana.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "شرط",
+            "name": "رامايانا - إتقان الدارما، والتفاني، والسلوك المثالي",
+            "description": "تعرف على رامايانا: تقليد إيتهاسا الذي يستكشف دارما، والتفاني، والقيادة، والمثل العليا التي يجسدها سري راما.",
+            "url": "https://sanatanadharmam.in/itihasa/ramayana",
+            "isPartOf": {
+                "@type": "موقع إلكتروني",
+                "name": "ساناتانادارمام",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "رامايانا هو أحد تقاليد إتهاسا المركزية في ساناتانا دارما. يُنسب تقليديًا إلى ماهارشي فالميكي ويروي حياة سري راما - الذي غالبًا ما يُقدس باعتباره تجسيدًا للدارما - جنبًا إلى جنب مع سيتا ولاكشمانا وهانومان والعديد من الشخصيات الموقرة الأخرى.\n\nوبعيدًا عن السرد، فإن رامايانا هو دليل للقيم في العمل: الواجب والرحمة، وضبط النفس، والصدق، والإخلاص، ومسؤوليات القيادة والحياة الأسرية.",
+        "scripture_text": [
+            {
+                "section": "الهيكل (كانداس)",
+                "content": "يتم تقديم فالميكي رامايانا الكلاسيكي عادة في سبعة كاندا (كتب): بالا، أيودهيا، أرانيا، كيشكيندا، سوندارا، يودها، وأوتارا. تعمل كل كاندا على تطوير السرد وتسلط الضوء على الدروس الأخلاقية والروحية المتميزة."
+            },
+            {
+                "section": "المواضيع الرئيسية",
+                "content": "عبر حلقاته، يستكشف رامايانا معنى سفادارما (واجب الفرد الشرعي)، وتكلفة الحفاظ على العهود، وانضباط العقل والكلام، وقوة الإخلاص (خاصة في خدمة هانومان)."
+            }
+        ],
+        "philosophical_explanation": "المساهمة الفلسفية الرئيسية لرامايانا هي الصورة الحية للدارما. فبدلاً من وصف الأخلاق كقواعد فقط، فإنه يظهر التزامات متنافسة: المملكة والأسرة، والوعد والنتيجة، والقوة والتواضع. وهذا يجعله نصًا عمليًا للتأمل: ما هو الإجراء الصحيح عندما يكون لكل خيار تكلفة؟\n\nفي القراءة التعبدية، ينمي رامايانا أيضًا البهاكتي: التذكر والخدمة والاستسلام. في القراءة التأملية، فإنها تدعو إلى التحقيق في الارتباط والحزن والشجاعة والتوافق الداخلي الثابت الذي يسمح للشخص بالتصرف دون أن تنكسر بسبب الأحداث."
+    }
 }

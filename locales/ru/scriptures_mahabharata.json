@@ -1,61 +1,61 @@
 {
-  "scriptures_mahabharata": {
-    "title": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice",
-    "description": "Explore the Mahabharata: a vast Itihasa exploring dharma, conflict, duty, and the complexity of human decision-making.",
-    "meta": {
-      "title": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice",
-      "canonical": "https://sanatanadharmam.in/itihasa/mahabharata",
-      "description": "Explore the Mahabharata: a vast Itihasa exploring dharma, conflict, duty, and the complexity of human decision-making.",
-      "keywords": [
-        "Mahabharata",
-        "Itihasa",
-        "Vyasa",
-        "dharma",
-        "ethics",
-        "Sanatana Dharma"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/itihasa/mahabharata",
-      "ogImage": "https://sanatanadharmam.in/og/scriptures_mahabharata.png"
-    },
-    "openGraph": {
-      "title": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice",
-      "description": "Explore the Mahabharata: a vast Itihasa exploring dharma, conflict, duty, and the complexity of human decision-making.",
-      "url": "https://sanatanadharmam.in/itihasa/mahabharata",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/scriptures_mahabharata.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice",
-      "description": "Explore the Mahabharata: a vast Itihasa exploring dharma, conflict, duty, and the complexity of human decision-making.",
-      "url": "https://sanatanadharmam.in/itihasa/mahabharata",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "The Mahabharata is a vast Itihasa traditionally attributed to Maharshi Vyasa. It is both an epic narrative and an encyclopedic source of ethical debate, spiritual teaching, and social reflection. Through the conflict between the Pandavas and Kauravas, it examines duty, ambition, loyalty, and the consequences of choices across generations.\n\nIt is also the broader context in which the Bhagavad Gita appears, connecting spiritual instruction to the hardest questions of real life.",
-    "scripture_text": [
-      {
-        "section": "Structure (Parvas)",
-        "content": "The Mahabharata is commonly divided into eighteen parvas (books). The parvas contain multiple interwoven stories, dialogues, and teachings rather than a single linear plot."
-      },
-      {
-        "section": "Ethical inquiry",
-        "content": "A defining feature of the Mahabharata is its willingness to present moral ambiguity. Characters face dilemmas where every option has a cost, and the text often frames dharma as something to be discerned through reflection, counsel, and self-honesty."
-      }
-    ],
-    "philosophical_explanation": "The Mahabharata’s philosophy is inseparable from its realism. It teaches that dharma is not always obvious and that intention, context, and consequence matter. It also highlights how inner states—anger, envy, fear, pride—shape outer outcomes.\n\nAs spiritual literature, the Mahabharata pushes the reader toward maturity: a steadier mind, a wider compassion, and the capacity to act responsibly even in imperfect conditions."
-  }
+    "scriptures_mahabharata": {
+        "title": "Махабхарата – Итихаса Дхармы, этики и человеческого выбора",
+        "description": "Исследуйте Махабхарату: обширную Итихасу, исследующую дхарму, конфликты, долг и сложность человеческого принятия решений.",
+        "meta": {
+            "title": "Махабхарата – Итихаса Дхармы, этики и человеческого выбора",
+            "canonical": "https://sanatanadharmam.in/itihasa/mahabharata",
+            "description": "Исследуйте Махабхарату: обширную Итихасу, исследующую дхарму, конфликты, долг и сложность человеческого принятия решений.",
+            "keywords": [
+                "Махабхарата",
+                "Итихаса",
+                "Вьяса",
+                "дхарма",
+                "этика",
+                "Санатана Дхарма"
+            ],
+            "robots": "индекс, следовать",
+            "url": "https://sanatanadharmam.in/itihasa/mahabharata",
+            "ogImage": "https://sanatanadharmam.in/og/scriptures_mahabharata.png"
+        },
+        "openGraph": {
+            "title": "Махабхарата – Итихаса Дхармы, этики и человеческого выбора",
+            "description": "Исследуйте Махабхарату: обширную Итихасу, исследующую дхарму, конфликты, долг и сложность человеческого принятия решений.",
+            "url": "https://sanatanadharmam.in/itihasa/mahabharata",
+            "siteName": "Санатанадхармам",
+            "type": "статья",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/scriptures_mahabharata.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "Статья",
+            "name": "Махабхарата – Итихаса Дхармы, этики и человеческого выбора",
+            "description": "Исследуйте Махабхарату: обширную Итихасу, исследующую дхарму, конфликты, долг и сложность человеческого принятия решений.",
+            "url": "https://sanatanadharmam.in/itihasa/mahabharata",
+            "isPartOf": {
+                "@type": "Веб-сайт",
+                "name": "Санатанадхармам",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "Махабхарата — это обширная Итихаса, традиционно приписываемая Махарши Вьясе. Это одновременно эпическое повествование и энциклопедический источник этических дебатов, духовного учения и социальных размышлений. Через конфликт между Пандавами и Кауравами он исследует долг, амбиции, лояльность и последствия выбора между поколениями.\n\nЭто также более широкий контекст, в котором появляется Бхагавад-гита, соединяющий духовное наставление с самыми трудными вопросами реальной жизни.",
+        "scripture_text": [
+            {
+                "section": "Структура (Парвас)",
+                "content": "Махабхарату обычно делят на восемнадцать парв (книг). Парвы содержат множество переплетенных историй, диалогов и учений, а не один линейный сюжет."
+            },
+            {
+                "section": "Этическое расследование",
+                "content": "Определяющей чертой Махабхараты является ее готовность представить моральную двусмысленность. Персонажи сталкиваются с дилеммами, где каждый вариант имеет свою цену, а в тексте дхарма часто изображается как нечто, что нужно распознать посредством размышлений, советов и честности перед самим собой."
+            }
+        ],
+        "philosophical_explanation": "Философия Махабхараты неотделима от ее реализма. Он учит, что дхарма не всегда очевидна и что значение имеют намерение, контекст и последствия. Он также показывает, как внутренние состояния — гнев, зависть, страх, гордость — формируют внешние результаты.\n\nКак духовная литература, Махабхарата подталкивает читателя к зрелости: более устойчивому уму, более широкому состраданию и способности действовать ответственно даже в несовершенных условиях."
+    }
 }

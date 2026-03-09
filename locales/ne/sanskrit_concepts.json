@@ -1,116 +1,116 @@
 {
-  "sanskrit_concepts": {
-    "title": "Sanskrit Concepts — Key Terms of Sanātana Dharma",
-    "description": "Sanskrit concepts form the philosophical vocabulary of Sanātana Dharma — terms like Dharma, Karma, Atman, Brahman and Maya that explain the nature of reality, self and cosmic order.",
-    "meta": {
-      "title": "Sanskrit Concepts – Key Terms of Sanātana Dharma",
-      "canonical": "https://sanatanadharmam.in/sanskrit-concepts",
-      "description": "Explore important Sanskrit philosophical concepts such as Dharma, Karma, Atman, Brahman and Maya that form the foundation of Vedic and Vedantic thought.",
-      "keywords": [
-        "sanskrit concepts",
-        "dharma meaning",
-        "karma philosophy",
-        "atman brahman concept",
-        "maya vedanta",
-        "vedic philosophy terms",
-        "sanatana dharma concepts"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/sanskrit-concepts"
-    },
-    "openGraph": {
-      "title": "Sanskrit Concepts – Philosophy of Sanātana Dharma",
-      "description": "Learn the key Sanskrit philosophical concepts such as Dharma, Karma, Atman and Brahman that explain the nature of reality and consciousness.",
-      "url": "https://sanatanadharmam.in/sanskrit-concepts",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/sanskrit-concepts.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Sanskrit Concepts of Sanatana Dharma"
-        }
-      ]
-    },
-    "concepts": [
-      "Dharma",
-      "Karma",
-      "Atman",
-      "Brahman",
-      "Maya",
-      "Moksha",
-      "Samsara",
-      "Purushartha",
-      "Yoga",
-      "Jnana"
-    ],
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "CollectionPage",
-          "name": "Sanskrit Concepts",
-          "description": "Collection of key Sanskrit philosophical concepts explaining the teachings of Sanātana Dharma.",
-          "url": "https://sanatanadharmam.in/sanskrit-concepts"
+    "sanskrit_concepts": {
+        "title": "संस्कृत अवधारणाहरू - सनातन धर्मका मुख्य सर्तहरू",
+        "description": "संस्कृत अवधारणाहरूले सनातन धर्मको दार्शनिक शब्दावली बनाउँछ - धर्म, कर्म, आत्मा, ब्रह्म र माया जस्ता शब्दहरू जसले वास्तविकता, आत्म र ब्रह्माण्डीय व्यवस्थाको प्रकृतिलाई व्याख्या गर्दछ।",
+        "meta": {
+            "title": "संस्कृत अवधारणाहरू - सनातन धर्मका मुख्य सर्तहरू",
+            "canonical": "https://sanatanadharmam.in/sanskrit-concepts",
+            "description": "धर्म, कर्म, आत्मा, ब्राह्मण र माया जस्ता महत्वपूर्ण संस्कृत दार्शनिक अवधारणाहरू अन्वेषण गर्नुहोस् जसले वैदिक र वेदान्तिक विचारको जग बनाउँछ।",
+            "keywords": [
+                "संस्कृत अवधारणाहरु",
+                "धर्मको अर्थ",
+                "कर्म दर्शन",
+                "आत्मा ब्रह्म अवधारणा",
+                "माया वेदान्त",
+                "वैदिक दर्शन सर्तहरू",
+                "सनातन धर्म अवधारणाहरू"
+            ],
+            "robots": "अनुक्रमणिका, पालना गर्नुहोस्",
+            "url": "https://sanatanadharmam.in/sanskrit-concepts"
         },
-        {
-          "@type": "ItemList",
-          "name": "Philosophical Concepts of Sanātana Dharma",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Dharma"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Karma"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Atman"
-            },
-            {
-              "@type": "ListItem",
-              "position": 4,
-              "name": "Brahman"
-            },
-            {
-              "@type": "ListItem",
-              "position": 5,
-              "name": "Maya"
-            },
-            {
-              "@type": "ListItem",
-              "position": 6,
-              "name": "Moksha"
-            },
-            {
-              "@type": "ListItem",
-              "position": 7,
-              "name": "Samsara"
-            },
-            {
-              "@type": "ListItem",
-              "position": 8,
-              "name": "Purushartha"
-            },
-            {
-              "@type": "ListItem",
-              "position": 9,
-              "name": "Yoga"
-            },
-            {
-              "@type": "ListItem",
-              "position": 10,
-              "name": "Jnana"
-            }
-          ]
+        "openGraph": {
+            "title": "संस्कृत अवधारणाहरू - सनातन धर्मको दर्शन",
+            "description": "वास्तविकता र चेतनाको प्रकृतिलाई व्याख्या गर्ने धर्म, कर्म, आत्मा र ब्रह्म जस्ता मुख्य संस्कृत दार्शनिक अवधारणाहरू सिक्नुहोस्।",
+            "url": "https://sanatanadharmam.in/sanskrit-concepts",
+            "siteName": "सनातन धर्मम",
+            "type": "लेख",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/sanskrit-concepts.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Sanskrit Concepts of Sanatana Dharma"
+                }
+            ]
+        },
+        "concepts": [
+            "धर्म",
+            "कर्म",
+            "आत्मा",
+            "ब्राह्मण",
+            "माया",
+            "मोक्ष",
+            "संसार",
+            "पुरुषार्थ",
+            "योग",
+            "ज्ञान"
+        ],
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "सङ्कलन पृष्ठ",
+                    "name": "संस्कृत अवधारणाहरू",
+                    "description": "सनातन धर्मको शिक्षाको व्याख्या गर्ने मुख्य संस्कृत दार्शनिक अवधारणाहरूको संग्रह।",
+                    "url": "https://sanatanadharmam.in/sanskrit-concepts"
+                },
+                {
+                    "@type": "वस्तुसूची",
+                    "name": "सनातन धर्मको दार्शनिक अवधारणाहरू",
+                    "itemListElement": [
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 1,
+                            "name": "धर्म"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 2,
+                            "name": "कर्म"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 3,
+                            "name": "आत्मा"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 4,
+                            "name": "ब्राह्मण"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 5,
+                            "name": "माया"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 6,
+                            "name": "मोक्ष"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 7,
+                            "name": "संसार"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 8,
+                            "name": "पुरुषार्थ"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 9,
+                            "name": "योग"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 10,
+                            "name": "ज्ञान"
+                        }
+                    ]
+                }
+            ]
         }
-      ]
     }
-  }
 }

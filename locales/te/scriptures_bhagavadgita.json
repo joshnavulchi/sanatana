@@ -1,62 +1,62 @@
 {
-  "scriptures_bhagavadgita": {
-    "title": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-    "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
-    "meta": {
-      "title": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-      "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-      "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
-      "keywords": [
-        "Bhagavad Gita",
-        "Krishna",
-        "Arjuna",
-        "Yoga",
-        "dharma",
-        "karma yoga",
-        "bhakti"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-      "ogImage": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png"
-    },
-    "openGraph": {
-      "title": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-      "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-      "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "The Bhagavad Gita is a foundational spiritual text presented as a dialogue between Sri Krishna and Arjuna on the battlefield of Kurukshetra. It addresses a universal crisis: how to act rightly when life is complex, emotions are intense, and the consequences of action are unavoidable.\n\nThe Gita teaches multiple yogas (disciplines) that converge toward inner freedom: selfless action, devotion, and knowledge—guided by dharma and clarity of mind.",
-    "scripture_text": [
-      {
-        "section": "Core topics covered",
-        "content": "The Gita discusses svadharma (one’s rightful duty), karma yoga (selfless action), bhakti (devotion), jnana (knowledge), dhyana (meditation), the gunas (qualities of nature), and the vision of the Self beyond fear and sorrow."
-      },
-      {
-        "section": "How chapters are organized",
-        "content": "Each chapter is traditionally treated as a distinct yoga or emphasis, yet the teaching remains integrated: the purpose is steadiness, discernment, and alignment with truth in thought, speech, and action."
-      }
-    ],
-    "philosophical_explanation": "Philosophically, the Bhagavad Gita reconciles action and renunciation. It does not demand withdrawal from life; it refines how one engages with life—acting without ego-driven attachment to outcomes. This transforms work into yoga.\n\nThe Gita also frames spiritual growth as a balance: devotion that softens the heart, knowledge that clarifies the mind, and disciplined action that purifies intention. The result is a life guided by dharma, courage, and compassion."
-  }
+    "scriptures_bhagavadgita": {
+        "title": "భగవద్గీత - ధర్మం, యోగం మరియు విముక్తిపై బోధనలు",
+        "description": "భగవద్గీతను అధ్యయనం చేయండి: ధర్మం, కర్మ యోగం, భక్తి, జ్ఞానం మరియు అంతర్గత స్వేచ్ఛకు మార్గంపై శ్రీ కృష్ణుడి బోధనలు.",
+        "meta": {
+            "title": "భగవద్గీత - ధర్మం, యోగం మరియు విముక్తిపై బోధనలు",
+            "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita",
+            "description": "భగవద్గీతను అధ్యయనం చేయండి: ధర్మం, కర్మ యోగం, భక్తి, జ్ఞానం మరియు అంతర్గత స్వేచ్ఛకు మార్గంపై శ్రీ కృష్ణుడి బోధనలు.",
+            "keywords": [
+                "భగవద్గీత",
+                "కృష్ణుడు",
+                "అర్జునుడు",
+                "యోగా",
+                "ధర్మము",
+                "కర్మ యోగము",
+                "భక్తి"
+            ],
+            "robots": "సూచిక, అనుసరించండి",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
+            "ogImage": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png"
+        },
+        "openGraph": {
+            "title": "భగవద్గీత - ధర్మం, యోగం మరియు విముక్తిపై బోధనలు",
+            "description": "భగవద్గీతను అధ్యయనం చేయండి: ధర్మం, కర్మ యోగం, భక్తి, జ్ఞానం మరియు అంతర్గత స్వేచ్ఛకు మార్గంపై శ్రీ కృష్ణుడి బోధనలు.",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
+            "siteName": "సనాతనధర్మం",
+            "type": "వ్యాసం",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "వ్యాసం",
+            "name": "భగవద్గీత - ధర్మం, యోగం మరియు విముక్తిపై బోధనలు",
+            "description": "భగవద్గీతను అధ్యయనం చేయండి: ధర్మం, కర్మ యోగం, భక్తి, జ్ఞానం మరియు అంతర్గత స్వేచ్ఛకు మార్గంపై శ్రీ కృష్ణుడి బోధనలు.",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
+            "isPartOf": {
+                "@type": "వెబ్‌సైట్",
+                "name": "సనాతనధర్మం",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "భగవద్గీత అనేది కురుక్షేత్ర యుద్ధభూమిలో శ్రీ కృష్ణుడు మరియు అర్జునుడి మధ్య సంభాషణగా అందించబడిన పునాది ఆధ్యాత్మిక గ్రంథం. ఇది సార్వత్రిక సంక్షోభాన్ని పరిష్కరిస్తుంది: జీవితం సంక్లిష్టంగా ఉన్నప్పుడు, భావోద్వేగాలు తీవ్రంగా ఉన్నప్పుడు మరియు చర్య యొక్క పరిణామాలు అనివార్యంగా ఉన్నప్పుడు ఎలా సరిగ్గా వ్యవహరించాలి.\n\nగీత అంతర్గత స్వేచ్ఛ వైపు కలిసే బహుళ యోగాలను (విభాగాలు) బోధిస్తుంది: నిస్వార్థ చర్య, భక్తి మరియు జ్ఞానం-ధర్మం మరియు మనస్సు యొక్క స్పష్టత ద్వారా మార్గనిర్దేశం చేయబడుతుంది.",
+        "scripture_text": [
+            {
+                "section": "ప్రధాన అంశాలు కవర్ చేయబడ్డాయి",
+                "content": "గీత స్వధర్మం (ఒకరి న్యాయమైన కర్తవ్యం), కర్మ యోగం (నిస్వార్థ చర్య), భక్తి (భక్తి), జ్ఞాన (జ్ఞానం), ధ్యానం (ధ్యానం), గుణాలు (ప్రకృతి గుణాలు) మరియు భయం మరియు దుఃఖానికి అతీతంగా స్వీయ దృష్టి గురించి చర్చిస్తుంది."
+            },
+            {
+                "section": "అధ్యాయాలు ఎలా నిర్వహించబడతాయి",
+                "content": "ప్రతి అధ్యాయం సాంప్రదాయకంగా ఒక ప్రత్యేకమైన యోగా లేదా ఉద్ఘాటనగా పరిగణించబడుతుంది, అయినప్పటికీ బోధన ఏకీకృతంగా ఉంటుంది: ఉద్దేశ్యం స్థిరత్వం, వివేచన మరియు ఆలోచన, ప్రసంగం మరియు చర్యలో సత్యంతో సమలేఖనం."
+            }
+        ],
+        "philosophical_explanation": "తాత్వికంగా, భగవద్గీత చర్య మరియు పరిత్యాగాన్ని సమన్వయం చేస్తుంది. ఇది జీవితం నుండి ఉపసంహరణను డిమాండ్ చేయదు; ఒక వ్యక్తి జీవితంతో ఎలా నిమగ్నమై ఉంటాడో అది మెరుగుపరుస్తుంది-ఫలితాలకు అహం-ఆధారిత అనుబంధం లేకుండా నటించడం. ఇది పనిని యోగాగా మారుస్తుంది.\n\nగీత ఆధ్యాత్మిక ఎదుగుదలను సమతుల్యంగా రూపొందిస్తుంది: హృదయాన్ని మృదువుగా చేసే భక్తి, మనస్సును స్పష్టం చేసే జ్ఞానం మరియు ఉద్దేశాన్ని శుద్ధి చేసే క్రమశిక్షణతో కూడిన చర్య. ఫలితం ధర్మం, ధైర్యం మరియు కరుణ ద్వారా మార్గనిర్దేశం చేయబడిన జీవితం."
+    }
 }

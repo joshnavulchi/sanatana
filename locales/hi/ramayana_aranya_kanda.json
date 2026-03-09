@@ -1,58 +1,64 @@
 {
-  "ramayana_aranya-kanda": {
-    "title": "Aranya Kanda – Ramayana Section Summary",
-    "description": "Explore Aranya Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
-    "meta": {
-      "title": "Aranya Kanda – Ramayana Section Summary",
-      "canonical": "https://sanatanadharmam.in/itihasa/ramayana/aranya-kanda",
-      "description": "Explore Aranya Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
-      "keywords": ["Aranya Kanda", "Ramayana", "Itihasa", "dharma", "Sri Rama"],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/itihasa/ramayana/aranya-kanda",
-      "ogImage": "https://sanatanadharmam.in/og/ramayana_aranya_kanda.png"
-    },
-    "openGraph": {
-      "title": "Aranya Kanda – Ramayana Section Summary",
-      "description": "Explore Aranya Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
-      "url": "https://sanatanadharmam.in/itihasa/ramayana/aranya-kanda",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/ramayana_aranya_kanda.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Aranya Kanda – Ramayana Section Summary"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Aranya Kanda – Ramayana Section Summary",
-      "description": "Explore Aranya Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
-      "url": "https://sanatanadharmam.in/itihasa/ramayana/aranya-kanda",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "Aranya Kanda is one of the traditional kandas (books) of the Ramayana. Each kanda advances the narrative while emphasizing specific virtues—courage, restraint, loyalty, compassion, and the responsibilities of leadership and family life.\n\nThis page provides a safe overview and reflection prompts without relying on long quotations.",
-    "scripture_text": [
-      {
-        "section": "Narrative arc",
-        "content": "A brief summary of the key events in this kanda and how they set up the next stage of the story."
-      },
-      {
-        "section": "Dharmic lessons",
-        "content": "Themes to notice: promises and consequences, right speech, self-control, and how characters respond under pressure."
-      },
-      {
-        "section": "Practice reflection",
-        "content": "Ask: What is the right action here? What inner quality is being tested? How does devotion or humility change the outcome?"
-      }
-    ],
-    "philosophical_explanation": "The Ramayana is often read as dharma-in-action. Kandawise reflection helps translate ideals into practical guidance: how to keep integrity when life is difficult, how to honor duty without hardening the heart, and how to act with steadiness rather than impulse."
-  }
+    "ramayana_aranya-kanda": {
+        "title": "अरण्य कांड - रामायण खंड सारांश",
+        "description": "रामायण के अरण्य कांड का अन्वेषण करें: कथा के माध्यम से प्रस्तुत प्रमुख घटनाएँ, धार्मिक पाठ और दार्शनिक विषय।",
+        "meta": {
+            "title": "अरण्य कांड - रामायण खंड सारांश",
+            "canonical": "https://sanatanadharmam.in/itihasa/ramayana/aranya-kanda",
+            "description": "रामायण के अरण्य कांड का अन्वेषण करें: कथा के माध्यम से प्रस्तुत प्रमुख घटनाएँ, धार्मिक पाठ और दार्शनिक विषय।",
+            "keywords": [
+                "अरण्य काण्ड",
+                "रामायण",
+                "इतिहास",
+                "धर्म",
+                "श्री राम"
+            ],
+            "robots": "अनुक्रमणिका, अनुसरण करें",
+            "url": "https://sanatanadharmam.in/itihasa/ramayana/aranya-kanda",
+            "ogImage": "https://sanatanadharmam.in/og/ramayana_aranya_kanda.png"
+        },
+        "openGraph": {
+            "title": "अरण्य कांड - रामायण खंड सारांश",
+            "description": "रामायण के अरण्य कांड का अन्वेषण करें: कथा के माध्यम से प्रस्तुत प्रमुख घटनाएँ, धार्मिक पाठ और दार्शनिक विषय।",
+            "url": "https://sanatanadharmam.in/itihasa/ramayana/aranya-kanda",
+            "siteName": "सनातनधर्मम्",
+            "type": "आलेख",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/ramayana_aranya_kanda.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Aranya Kanda – Ramayana Section Summary"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "आलेख",
+            "name": "अरण्य कांड - रामायण खंड सारांश",
+            "description": "रामायण के अरण्य कांड का अन्वेषण करें: कथा के माध्यम से प्रस्तुत प्रमुख घटनाएँ, धार्मिक पाठ और दार्शनिक विषय।",
+            "url": "https://sanatanadharmam.in/itihasa/ramayana/aranya-kanda",
+            "isPartOf": {
+                "@type": "वेबसाइट",
+                "name": "सनातनधर्मम्",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "अरण्य कांड रामायण के पारंपरिक कांडों में से एक है। प्रत्येक कांड विशिष्ट गुणों-साहस, संयम, निष्ठा, करुणा और नेतृत्व और पारिवारिक जीवन की जिम्मेदारियों पर जोर देते हुए कथा को आगे बढ़ाता है।\n\nयह पृष्ठ लंबे उद्धरणों पर भरोसा किए बिना एक सुरक्षित अवलोकन और प्रतिबिंब संकेत प्रदान करता है।",
+        "scripture_text": [
+            {
+                "section": "कथात्मक चाप",
+                "content": "इस कांडा में प्रमुख घटनाओं का संक्षिप्त सारांश और उन्होंने कहानी के अगले चरण को कैसे स्थापित किया।"
+            },
+            {
+                "section": "धार्मिक पाठ",
+                "content": "ध्यान देने योग्य विषय: वादे और परिणाम, सही भाषण, आत्म-नियंत्रण, और पात्र दबाव में कैसे प्रतिक्रिया करते हैं।"
+            },
+            {
+                "section": "चिंतन का अभ्यास करें",
+                "content": "पूछें: यहां सही कार्रवाई क्या है? किस आंतरिक गुणवत्ता का परीक्षण किया जा रहा है? भक्ति या विनम्रता परिणाम कैसे बदल देती है?"
+            }
+        ],
+        "philosophical_explanation": "रामायण को अक्सर कर्म-धर्म के रूप में पढ़ा जाता है। कंडावाइज़ चिंतन आदर्शों को व्यावहारिक मार्गदर्शन में बदलने में मदद करता है: जब जीवन कठिन हो तो ईमानदारी कैसे बनाए रखें, दिल को कठोर किए बिना कर्तव्य का सम्मान कैसे करें, और आवेग के बजाय स्थिरता के साथ कैसे कार्य करें।"
+    }
 }

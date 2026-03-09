@@ -1,167 +1,167 @@
 {
-  "puranas": {
-    "title": "18 Mahapuranas – Sacred Puranic Scriptures of Sanatana Dharma",
-    "description": "Discover the 18 Mahapuranas of Hinduism including Vishnu Purana, Shiva Purana, Bhagavata Purana, Garuda Purana and more. Explore their teachings, stories and philosophy.",
-    "meta": {
-      "title": "18 Mahapuranas – Sacred Puranic Scriptures of Sanatana Dharma",
-      "canonical": "https://sanatanadharmam.in/scriptures/puranas",
-      "description": "Discover the 18 Mahapuranas of Hinduism including Vishnu Purana, Shiva Purana, Bhagavata Purana, Garuda Purana and more. Explore their teachings, stories and philosophy.",
-      "keywords": [
-        "18 Mahapuranas",
-        "Hindu Puranas",
-        "Puranas list",
-        "Sanatana Dharma Puranas",
-        "Bhagavata Purana",
-        "Vishnu Purana",
-        "Shiva Purana",
-        "Garuda Purana",
-        "ancient Hindu scriptures",
-        "Puranic literature"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/scriptures/puranas"
-    },
-    "openGraph": {
-      "title": "18 Mahapuranas – Sacred Hindu Scriptures",
-      "description": "Explore the eighteen Mahapuranas, ancient Hindu scriptures describing cosmology, mythology and spiritual teachings.",
-      "url": "https://sanatanadharmam.in/scriptures/puranas",
-      "siteName": "Sanatanadharmam",
-      "type": "website",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/puranas.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "18 Mahapuranas of Sanatana Dharma"
-        }
-      ]
-    },
-    "list": [
-      "Brahma Purana",
-      "Padma Purana",
-      "Vishnu Purana",
-      "Shiva Purana",
-      "Bhagavata Purana",
-      "Narada Purana",
-      "Markandeya Purana",
-      "Agni Purana",
-      "Bhavishya Purana",
-      "Brahmavaivarta Purana",
-      "Linga Purana",
-      "Varaha Purana",
-      "Skanda Purana",
-      "Vamana Purana",
-      "Kurma Purana",
-      "Matsya Purana",
-      "Garuda Purana",
-      "Brahmanda Purana"
-    ],
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "CollectionPage",
-          "name": "18 Mahapuranas",
-          "description": "Collection of the eighteen Mahapuranas, sacred scriptures of Sanatana Dharma.",
-          "url": "https://sanatanadharmam.in/scriptures/puranas"
+    "puranas": {
+        "title": "18 Mahapuranas – Sacred Puranic Scriptures of Sanatana Dharma",
+        "description": "Discover the 18 Mahapuranas of Hinduism including Vishnu Purana, Shiva Purana, Bhagavata Purana, Garuda Purana and more. Explore their teachings, stories and philosophy.",
+        "meta": {
+            "title": "18 Mahapuranas – Sacred Puranic Scriptures of Sanatana Dharma",
+            "canonical": "https://sanatanadharmam.in/scriptures/puranas",
+            "description": "Discover the 18 Mahapuranas of Hinduism including Vishnu Purana, Shiva Purana, Bhagavata Purana, Garuda Purana and more. Explore their teachings, stories and philosophy.",
+            "keywords": [
+                "18 Mahapuranas",
+                "Hindu Puranas",
+                "Puranas list",
+                "Sanatana Dharma Puranas",
+                "Bhagavata Purana",
+                "Vishnu Purana",
+                "Shiva Purana",
+                "Garuda Purana",
+                "ancient Hindu scriptures",
+                "Puranic literature"
+            ],
+            "robots": "index, follow",
+            "url": "https://sanatanadharmam.in/scriptures/puranas"
         },
-        {
-          "@type": "ItemList",
-          "name": "Mahapuranas",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Brahma Purana"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Padma Purana"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Vishnu Purana"
-            },
-            {
-              "@type": "ListItem",
-              "position": 4,
-              "name": "Shiva Purana"
-            },
-            {
-              "@type": "ListItem",
-              "position": 5,
-              "name": "Bhagavata Purana"
-            },
-            {
-              "@type": "ListItem",
-              "position": 6,
-              "name": "Narada Purana"
-            },
-            {
-              "@type": "ListItem",
-              "position": 7,
-              "name": "Markandeya Purana"
-            },
-            {
-              "@type": "ListItem",
-              "position": 8,
-              "name": "Agni Purana"
-            },
-            {
-              "@type": "ListItem",
-              "position": 9,
-              "name": "Bhavishya Purana"
-            },
-            {
-              "@type": "ListItem",
-              "position": 10,
-              "name": "Brahmavaivarta Purana"
-            },
-            {
-              "@type": "ListItem",
-              "position": 11,
-              "name": "Linga Purana"
-            },
-            {
-              "@type": "ListItem",
-              "position": 12,
-              "name": "Varaha Purana"
-            },
-            {
-              "@type": "ListItem",
-              "position": 13,
-              "name": "Skanda Purana"
-            },
-            {
-              "@type": "ListItem",
-              "position": 14,
-              "name": "Vamana Purana"
-            },
-            {
-              "@type": "ListItem",
-              "position": 15,
-              "name": "Kurma Purana"
-            },
-            {
-              "@type": "ListItem",
-              "position": 16,
-              "name": "Matsya Purana"
-            },
-            {
-              "@type": "ListItem",
-              "position": 17,
-              "name": "Garuda Purana"
-            },
-            {
-              "@type": "ListItem",
-              "position": 18,
-              "name": "Brahmanda Purana"
-            }
-          ]
+        "openGraph": {
+            "title": "18 Mahapuranas – Sacred Hindu Scriptures",
+            "description": "Explore the eighteen Mahapuranas, ancient Hindu scriptures describing cosmology, mythology and spiritual teachings.",
+            "url": "https://sanatanadharmam.in/scriptures/puranas",
+            "siteName": "Sanatanadharmam",
+            "type": "website",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/puranas.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "18 Mahapuranas of Sanatana Dharma"
+                }
+            ]
+        },
+        "list": [
+            "Brahma Purana",
+            "Padma Purana",
+            "Vishnu Purana",
+            "Shiva Purana",
+            "Bhagavata Purana",
+            "Narada Purana",
+            "Markandeya Purana",
+            "Agni Purana",
+            "Bhavishya Purana",
+            "Brahmavaivarta Purana",
+            "Linga Purana",
+            "Varaha Purana",
+            "Skanda Purana",
+            "Vamana Purana",
+            "Kurma Purana",
+            "Matsya Purana",
+            "Garuda Purana",
+            "ब्रह्माण्ड पुराण"
+        ],
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "सङ्कलन पृष्ठ",
+                    "name": "18 Mahapuranas",
+                    "description": "सनातन धर्मका पवित्र ग्रन्थ अठारह महापुराणहरूको संग्रह।",
+                    "url": "https://sanatanadharmam.in/scriptures/puranas"
+                },
+                {
+                    "@type": "वस्तुसूची",
+                    "name": "महापुराण",
+                    "itemListElement": [
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 1,
+                            "name": "Brahma Purana"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 2,
+                            "name": "Padma Purana"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 3,
+                            "name": "Vishnu Purana"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 4,
+                            "name": "Shiva Purana"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 5,
+                            "name": "Bhagavata Purana"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 6,
+                            "name": "Narada Purana"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 7,
+                            "name": "Markandeya Purana"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 8,
+                            "name": "Agni Purana"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 9,
+                            "name": "Bhavishya Purana"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 10,
+                            "name": "Brahmavaivarta Purana"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 11,
+                            "name": "Linga Purana"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 12,
+                            "name": "Varaha Purana"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 13,
+                            "name": "Skanda Purana"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 14,
+                            "name": "Vamana Purana"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 15,
+                            "name": "Kurma Purana"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 16,
+                            "name": "Matsya Purana"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 17,
+                            "name": "Garuda Purana"
+                        },
+                        {
+                            "@type": "सूची वस्तु",
+                            "position": 18,
+                            "name": "ब्रह्माण्ड पुराण"
+                        }
+                    ]
+                }
+            ]
         }
-      ]
     }
-  }
 }

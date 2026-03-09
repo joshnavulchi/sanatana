@@ -1,62 +1,62 @@
 {
-  "scriptures_bhagavadgita": {
-    "title": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-    "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
-    "meta": {
-      "title": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-      "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-      "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
-      "keywords": [
-        "Bhagavad Gita",
-        "Krishna",
-        "Arjuna",
-        "Yoga",
-        "dharma",
-        "karma yoga",
-        "bhakti"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-      "ogImage": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png"
-    },
-    "openGraph": {
-      "title": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-      "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-      "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "The Bhagavad Gita is a foundational spiritual text presented as a dialogue between Sri Krishna and Arjuna on the battlefield of Kurukshetra. It addresses a universal crisis: how to act rightly when life is complex, emotions are intense, and the consequences of action are unavoidable.\n\nThe Gita teaches multiple yogas (disciplines) that converge toward inner freedom: selfless action, devotion, and knowledge—guided by dharma and clarity of mind.",
-    "scripture_text": [
-      {
-        "section": "Core topics covered",
-        "content": "The Gita discusses svadharma (one’s rightful duty), karma yoga (selfless action), bhakti (devotion), jnana (knowledge), dhyana (meditation), the gunas (qualities of nature), and the vision of the Self beyond fear and sorrow."
-      },
-      {
-        "section": "How chapters are organized",
-        "content": "Each chapter is traditionally treated as a distinct yoga or emphasis, yet the teaching remains integrated: the purpose is steadiness, discernment, and alignment with truth in thought, speech, and action."
-      }
-    ],
-    "philosophical_explanation": "Philosophically, the Bhagavad Gita reconciles action and renunciation. It does not demand withdrawal from life; it refines how one engages with life—acting without ego-driven attachment to outcomes. This transforms work into yoga.\n\nThe Gita also frames spiritual growth as a balance: devotion that softens the heart, knowledge that clarifies the mind, and disciplined action that purifies intention. The result is a life guided by dharma, courage, and compassion."
-  }
+    "scriptures_bhagavadgita": {
+        "title": "Bhagavad Gita – Enseignements sur le Dharma, le Yoga et la Libération",
+        "description": "Étudiez la Bhagavad Gita : enseignements de Sri Krishna sur le dharma, le karma yoga, la bhakti, le jnana et le chemin vers la liberté intérieure.",
+        "meta": {
+            "title": "Bhagavad Gita – Enseignements sur le Dharma, le Yoga et la Libération",
+            "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita",
+            "description": "Étudiez la Bhagavad Gita : enseignements de Sri Krishna sur le dharma, le karma yoga, la bhakti, le jnana et le chemin vers la liberté intérieure.",
+            "keywords": [
+                "Bhagavad Gita",
+                "Krishna",
+                "Arjuna",
+                "Yoga",
+                "dharma",
+                "karma-yoga",
+                "Bhakti"
+            ],
+            "robots": "indexer, suivre",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
+            "ogImage": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png"
+        },
+        "openGraph": {
+            "title": "Bhagavad Gita – Enseignements sur le Dharma, le Yoga et la Libération",
+            "description": "Étudiez la Bhagavad Gita : enseignements de Sri Krishna sur le dharma, le karma yoga, la bhakti, le jnana et le chemin vers la liberté intérieure.",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
+            "siteName": "Sanatanadharman",
+            "type": "article",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "Articles",
+            "name": "Bhagavad Gita – Enseignements sur le Dharma, le Yoga et la Libération",
+            "description": "Étudiez la Bhagavad Gita : enseignements de Sri Krishna sur le dharma, le karma yoga, la bhakti, le jnana et le chemin vers la liberté intérieure.",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
+            "isPartOf": {
+                "@type": "Site Web",
+                "name": "Sanatanadharman",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "La Bhagavad Gita est un texte spirituel fondateur présenté comme un dialogue entre Sri Krishna et Arjuna sur le champ de bataille de Kurukshetra. Il aborde une crise universelle : comment agir correctement lorsque la vie est complexe, les émotions intenses et les conséquences de l’action inévitables.\n\nLa Gita enseigne plusieurs yogas (disciplines) qui convergent vers la liberté intérieure : action désintéressée, dévotion et connaissance, guidées par le dharma et la clarté d'esprit.",
+        "scripture_text": [
+            {
+                "section": "Thèmes centraux abordés",
+                "content": "La Gita aborde le svadharma (le devoir légitime), le karma yoga (l’action désintéressée), la bhakti (la dévotion), le jnana (la connaissance), le dhyana (la méditation), les gunas (les qualités de la nature) et la vision du Soi au-delà de la peur et du chagrin."
+            },
+            {
+                "section": "Comment les chapitres sont organisés",
+                "content": "Chaque chapitre est traditionnellement traité comme un yoga ou une emphase distincte, mais l'enseignement reste intégré : le but est la stabilité, le discernement et l'alignement avec la vérité dans la pensée, la parole et l'action."
+            }
+        ],
+        "philosophical_explanation": "Philosophiquement, la Bhagavad Gita concilie action et renoncement. Cela n’exige pas de se retirer de la vie ; cela affine la façon dont on s’engage dans la vie – en agissant sans attachement égoïste aux résultats. Cela transforme le travail en yoga.\n\nLa Gita définit également la croissance spirituelle comme un équilibre : la dévotion qui adoucit le cœur, la connaissance qui clarifie l'esprit et l'action disciplinée qui purifie l'intention. Le résultat est une vie guidée par le dharma, le courage et la compassion."
+    }
 }

@@ -1,61 +1,61 @@
 {
-  "scriptures_ramayana": {
-    "title": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct",
-    "description": "Learn about the Ramayana: the Itihasa tradition that explores dharma, devotion, leadership, and the ideals embodied by Sri Rama.",
-    "meta": {
-      "title": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct",
-      "canonical": "https://sanatanadharmam.in/itihasa/ramayana",
-      "description": "Learn about the Ramayana: the Itihasa tradition that explores dharma, devotion, leadership, and the ideals embodied by Sri Rama.",
-      "keywords": [
-        "Ramayana",
-        "Itihasa",
-        "Sri Rama",
-        "dharma",
-        "Valmiki",
-        "Sanatana Dharma"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/itihasa/ramayana",
-      "ogImage": "https://sanatanadharmam.in/og/scriptures_ramayana.png"
-    },
-    "openGraph": {
-      "title": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct",
-      "description": "Learn about the Ramayana: the Itihasa tradition that explores dharma, devotion, leadership, and the ideals embodied by Sri Rama.",
-      "url": "https://sanatanadharmam.in/itihasa/ramayana",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/scriptures_ramayana.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct",
-      "description": "Learn about the Ramayana: the Itihasa tradition that explores dharma, devotion, leadership, and the ideals embodied by Sri Rama.",
-      "url": "https://sanatanadharmam.in/itihasa/ramayana",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "The Ramayana is one of the central Itihasa traditions of Sanātana Dharma. It is traditionally attributed to Maharshi Valmiki and narrates the life of Sri Rama—often revered as an embodiment of dharma—along with Sita, Lakshmana, Hanuman, and many other revered figures.\n\nBeyond narrative, the Ramayana is a guide for values in action: duty and compassion, self-control, truthfulness, devotion, and the responsibilities of leadership and family life.",
-    "scripture_text": [
-      {
-        "section": "Structure (Kandas)",
-        "content": "The classical Valmiki Ramayana is commonly presented in seven kandas (books): Bala, Ayodhya, Aranya, Kishkindha, Sundara, Yuddha, and Uttara. Each kanda advances the narrative and highlights distinct ethical and spiritual lessons."
-      },
-      {
-        "section": "Key themes",
-        "content": "Across its episodes, the Ramayana explores the meaning of svadharma (one’s rightful duty), the cost of keeping vows, the discipline of mind and speech, and the power of devotion (especially seen in Hanuman’s service)."
-      }
-    ],
-    "philosophical_explanation": "A major philosophical contribution of the Ramayana is its lived picture of dharma. Instead of describing ethics only as rules, it shows competing obligations—kingdom and family, promise and consequence, strength and humility. This makes it a practical text for reflection: what is right action when every option carries a cost?\n\nIn devotional reading, the Ramayana also cultivates bhakti: remembrance, service, and surrender. In contemplative reading, it invites inquiry into attachment, grief, courage, and the steady inner alignment that allows one to act without being broken by events."
-  }
+    "scriptures_ramayana": {
+        "title": "رامائن - دھرم، عقیدت، اور مثالی طرز عمل کا اتہاس",
+        "description": "رامائن کے بارے میں جانیں: اتہاس روایت جو دھرم، عقیدت، قیادت، اور سری رام کے مجسم نظریات کو تلاش کرتی ہے۔",
+        "meta": {
+            "title": "رامائن - دھرم، عقیدت، اور مثالی طرز عمل کا اتہاس",
+            "canonical": "https://sanatanadharmam.in/itihasa/ramayana",
+            "description": "رامائن کے بارے میں جانیں: اتہاس روایت جو دھرم، عقیدت، قیادت، اور سری رام کے مجسم نظریات کو تلاش کرتی ہے۔",
+            "keywords": [
+                "رامائن",
+                "اتحاسا",
+                "سری رام",
+                "دھرم",
+                "والمیکی",
+                "سناتن دھرم"
+            ],
+            "robots": "انڈیکس، پیروی کریں",
+            "url": "https://sanatanadharmam.in/itihasa/ramayana",
+            "ogImage": "https://sanatanadharmam.in/og/scriptures_ramayana.png"
+        },
+        "openGraph": {
+            "title": "رامائن - دھرم، عقیدت، اور مثالی طرز عمل کا اتہاس",
+            "description": "رامائن کے بارے میں جانیں: اتہاس روایت جو دھرم، عقیدت، قیادت، اور سری رام کے مجسم نظریات کو تلاش کرتی ہے۔",
+            "url": "https://sanatanadharmam.in/itihasa/ramayana",
+            "siteName": "سناتندھرم",
+            "type": "مضمون",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/scriptures_ramayana.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "مضمون",
+            "name": "رامائن - دھرم، عقیدت، اور مثالی طرز عمل کا اتہاس",
+            "description": "رامائن کے بارے میں جانیں: اتہاس روایت جو دھرم، عقیدت، قیادت، اور سری رام کے مجسم نظریات کو تلاش کرتی ہے۔",
+            "url": "https://sanatanadharmam.in/itihasa/ramayana",
+            "isPartOf": {
+                "@type": "ویب سائٹ",
+                "name": "سناتندھرم",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "رامائن سناتن دھرم کی مرکزی اتہاس روایات میں سے ایک ہے۔ یہ روایتی طور پر مہارشی والمیکی سے منسوب ہے اور سیتا، لکشمن، ہنومان، اور بہت سی دیگر قابل احترام شخصیات کے ساتھ سری رام کی زندگی کو بیان کرتی ہے جو اکثر دھرم کے مجسم کے طور پر قابل احترام ہیں۔\n\nبیانیہ سے ہٹ کر، رامائن عمل میں اقدار کے لیے رہنما ہے: فرض اور ہمدردی، خود پر قابو، سچائی، لگن، اور قیادت اور خاندانی زندگی کی ذمہ داریاں۔",
+        "scripture_text": [
+            {
+                "section": "ساخت (کنڈاس)",
+                "content": "کلاسیکی والمیکی رامائن کو عام طور پر سات کنڈوں (کتابوں) میں پیش کیا جاتا ہے: بالا، ایودھیا، آرانیہ، کشکندا، سندرا، یودھا اور اترا۔ ہر کانڈا داستان کو آگے بڑھاتا ہے اور الگ الگ اخلاقی اور روحانی اسباق کو نمایاں کرتا ہے۔"
+            },
+            {
+                "section": "کلیدی تھیمز",
+                "content": "اپنی تمام اقساط میں، رامائن سودھرم (کسی کا صحیح فرض)، منت ماننے کی قیمت، دماغ اور تقریر کے نظم و ضبط، اور عقیدت کی طاقت (خاص طور پر ہنومان کی خدمت میں دیکھا جاتا ہے) کے معنی کو تلاش کرتا ہے۔"
+            }
+        ],
+        "philosophical_explanation": "رامائن کی ایک بڑی فلسفیانہ شراکت اس کی دھرم کی زندہ تصویر ہے۔ اخلاقیات کو صرف قواعد کے طور پر بیان کرنے کے بجائے، یہ مسابقتی ذمہ داریوں کو ظاہر کرتا ہے - بادشاہی اور خاندان، وعدہ اور نتیجہ، طاقت اور عاجزی۔ یہ اسے عکاسی کے لیے ایک عملی متن بناتا ہے: جب ہر آپشن کی قیمت ہوتی ہے تو صحیح عمل کیا ہے؟\n\nعقیدت کے ساتھ پڑھنے میں، رامائن بھکتی کو بھی فروغ دیتی ہے: یاد، خدمت، اور ہتھیار ڈالنا۔ غور طلب پڑھنے میں، یہ لگاؤ، غم، ہمت، اور مستحکم اندرونی صف بندی کے بارے میں تحقیقات کی دعوت دیتا ہے جو کسی کو واقعات سے ٹوٹے بغیر کام کرنے کی اجازت دیتا ہے۔"
+    }
 }

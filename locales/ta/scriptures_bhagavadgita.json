@@ -1,62 +1,62 @@
 {
-  "scriptures_bhagavadgita": {
-    "title": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-    "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
-    "meta": {
-      "title": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-      "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-      "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
-      "keywords": [
-        "Bhagavad Gita",
-        "Krishna",
-        "Arjuna",
-        "Yoga",
-        "dharma",
-        "karma yoga",
-        "bhakti"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-      "ogImage": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png"
-    },
-    "openGraph": {
-      "title": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-      "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-      "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "The Bhagavad Gita is a foundational spiritual text presented as a dialogue between Sri Krishna and Arjuna on the battlefield of Kurukshetra. It addresses a universal crisis: how to act rightly when life is complex, emotions are intense, and the consequences of action are unavoidable.\n\nThe Gita teaches multiple yogas (disciplines) that converge toward inner freedom: selfless action, devotion, and knowledge—guided by dharma and clarity of mind.",
-    "scripture_text": [
-      {
-        "section": "Core topics covered",
-        "content": "The Gita discusses svadharma (one’s rightful duty), karma yoga (selfless action), bhakti (devotion), jnana (knowledge), dhyana (meditation), the gunas (qualities of nature), and the vision of the Self beyond fear and sorrow."
-      },
-      {
-        "section": "How chapters are organized",
-        "content": "Each chapter is traditionally treated as a distinct yoga or emphasis, yet the teaching remains integrated: the purpose is steadiness, discernment, and alignment with truth in thought, speech, and action."
-      }
-    ],
-    "philosophical_explanation": "Philosophically, the Bhagavad Gita reconciles action and renunciation. It does not demand withdrawal from life; it refines how one engages with life—acting without ego-driven attachment to outcomes. This transforms work into yoga.\n\nThe Gita also frames spiritual growth as a balance: devotion that softens the heart, knowledge that clarifies the mind, and disciplined action that purifies intention. The result is a life guided by dharma, courage, and compassion."
-  }
+    "scriptures_bhagavadgita": {
+        "title": "பகவத் கீதை - தர்மம், யோகம் மற்றும் விடுதலை பற்றிய போதனைகள்",
+        "description": "பகவத் கீதையைப் படிக்கவும்: தர்மம், கர்ம யோகா, பக்தி, ஞானம் மற்றும் உள் சுதந்திரத்திற்கான பாதையில் ஸ்ரீ கிருஷ்ணரின் போதனைகள்.",
+        "meta": {
+            "title": "பகவத் கீதை - தர்மம், யோகம் மற்றும் விடுதலை பற்றிய போதனைகள்",
+            "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita",
+            "description": "பகவத் கீதையைப் படிக்கவும்: தர்மம், கர்ம யோகா, பக்தி, ஞானம் மற்றும் உள் சுதந்திரத்திற்கான பாதையில் ஸ்ரீ கிருஷ்ணரின் போதனைகள்.",
+            "keywords": [
+                "பகவத் கீதை",
+                "கிருஷ்ணா",
+                "அர்ஜுனா",
+                "யோகா",
+                "தர்மம்",
+                "கர்ம யோகம்",
+                "பக்தி"
+            ],
+            "robots": "குறியீட்டு, பின்பற்றவும்",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
+            "ogImage": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png"
+        },
+        "openGraph": {
+            "title": "பகவத் கீதை - தர்மம், யோகம் மற்றும் விடுதலை பற்றிய போதனைகள்",
+            "description": "பகவத் கீதையைப் படிக்கவும்: தர்மம், கர்ம யோகா, பக்தி, ஞானம் மற்றும் உள் சுதந்திரத்திற்கான பாதையில் ஸ்ரீ கிருஷ்ணரின் போதனைகள்.",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
+            "siteName": "சனாதனதர்மம்",
+            "type": "கட்டுரை",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "கட்டுரை",
+            "name": "பகவத் கீதை - தர்மம், யோகம் மற்றும் விடுதலை பற்றிய போதனைகள்",
+            "description": "பகவத் கீதையைப் படிக்கவும்: தர்மம், கர்ம யோகா, பக்தி, ஞானம் மற்றும் உள் சுதந்திரத்திற்கான பாதையில் ஸ்ரீ கிருஷ்ணரின் போதனைகள்.",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
+            "isPartOf": {
+                "@type": "இணையத்தளம்",
+                "name": "சனாதனதர்மம்",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "பகவத் கீதை என்பது குருக்ஷேத்திரப் போர்க்களத்தில் ஸ்ரீ கிருஷ்ணருக்கும் அர்ஜுனனுக்கும் இடையிலான உரையாடலாக வழங்கப்பட்ட ஒரு அடிப்படை ஆன்மீக நூல். இது ஒரு உலகளாவிய நெருக்கடியைக் குறிக்கிறது: வாழ்க்கை சிக்கலானது, உணர்ச்சிகள் தீவிரமானது மற்றும் செயலின் விளைவுகள் தவிர்க்க முடியாததாக இருக்கும்போது எவ்வாறு சரியாகச் செயல்படுவது.\n\nகீதை உள் சுதந்திரத்தை நோக்கிச் செல்லும் பல யோகங்களை (துறைகள்) கற்பிக்கிறது: தன்னலமற்ற செயல், பக்தி மற்றும் அறிவு - தர்மம் மற்றும் மனதின் தெளிவு ஆகியவற்றால் வழிநடத்தப்படுகிறது.",
+        "scripture_text": [
+            {
+                "section": "முக்கிய தலைப்புகள் உள்ளடக்கப்பட்டுள்ளன",
+                "content": "கீதை ஸ்வதர்மா (ஒருவரின் சரியான கடமை), கர்ம யோகம் (தன்னலமற்ற செயல்), பக்தி (பக்தி), ஞானம் (அறிவு), தியானம் (தியானம்), குணங்கள் (இயற்கையின் குணங்கள்) மற்றும் பயம் மற்றும் துக்கத்திற்கு அப்பாற்பட்ட சுய தரிசனத்தைப் பற்றி விவாதிக்கிறது."
+            },
+            {
+                "section": "அத்தியாயங்கள் எவ்வாறு ஒழுங்கமைக்கப்பட்டுள்ளன",
+                "content": "ஒவ்வொரு அத்தியாயமும் பாரம்பரியமாக ஒரு தனித்துவமான யோகா அல்லது முக்கியத்துவம் வாய்ந்ததாகக் கருதப்படுகிறது, இருப்பினும் கற்பித்தல் ஒருங்கிணைக்கப்பட்டுள்ளது: நோக்கம் நிலைத்தன்மை, விவேகம் மற்றும் சிந்தனை, பேச்சு மற்றும் செயலில் உண்மையுடன் சீரமைத்தல்."
+            }
+        ],
+        "philosophical_explanation": "தத்துவ ரீதியாக, பகவத் கீதை செயலையும் துறப்பையும் சமரசம் செய்கிறது. அது வாழ்க்கையிலிருந்து விலகக் கோரவில்லை; ஒருவர் வாழ்க்கையில் எவ்வாறு ஈடுபடுகிறார் என்பதை இது செம்மைப்படுத்துகிறது - விளைவுகளுடன் ஈகோ உந்துதல் இல்லாமல் செயல்படுவது. இது வேலையை யோகாவாக மாற்றுகிறது.\n\nகீதை ஆன்மீக வளர்ச்சியை ஒரு சமநிலையாக உருவாக்குகிறது: இதயத்தை மென்மையாக்கும் பக்தி, மனதை தெளிவுபடுத்தும் அறிவு மற்றும் நோக்கத்தை தூய்மைப்படுத்தும் ஒழுக்கமான செயல். இதன் விளைவாக தர்மம், தைரியம் மற்றும் இரக்கத்தால் வழிநடத்தப்படும் வாழ்க்கை."
+    }
 }

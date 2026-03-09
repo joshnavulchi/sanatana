@@ -1,61 +1,61 @@
 {
-  "scriptures_ramayana": {
-    "title": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct",
-    "description": "Learn about the Ramayana: the Itihasa tradition that explores dharma, devotion, leadership, and the ideals embodied by Sri Rama.",
-    "meta": {
-      "title": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct",
-      "canonical": "https://sanatanadharmam.in/itihasa/ramayana",
-      "description": "Learn about the Ramayana: the Itihasa tradition that explores dharma, devotion, leadership, and the ideals embodied by Sri Rama.",
-      "keywords": [
-        "Ramayana",
-        "Itihasa",
-        "Sri Rama",
-        "dharma",
-        "Valmiki",
-        "Sanatana Dharma"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/itihasa/ramayana",
-      "ogImage": "https://sanatanadharmam.in/og/scriptures_ramayana.png"
-    },
-    "openGraph": {
-      "title": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct",
-      "description": "Learn about the Ramayana: the Itihasa tradition that explores dharma, devotion, leadership, and the ideals embodied by Sri Rama.",
-      "url": "https://sanatanadharmam.in/itihasa/ramayana",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/scriptures_ramayana.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct",
-      "description": "Learn about the Ramayana: the Itihasa tradition that explores dharma, devotion, leadership, and the ideals embodied by Sri Rama.",
-      "url": "https://sanatanadharmam.in/itihasa/ramayana",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "The Ramayana is one of the central Itihasa traditions of Sanātana Dharma. It is traditionally attributed to Maharshi Valmiki and narrates the life of Sri Rama—often revered as an embodiment of dharma—along with Sita, Lakshmana, Hanuman, and many other revered figures.\n\nBeyond narrative, the Ramayana is a guide for values in action: duty and compassion, self-control, truthfulness, devotion, and the responsibilities of leadership and family life.",
-    "scripture_text": [
-      {
-        "section": "Structure (Kandas)",
-        "content": "The classical Valmiki Ramayana is commonly presented in seven kandas (books): Bala, Ayodhya, Aranya, Kishkindha, Sundara, Yuddha, and Uttara. Each kanda advances the narrative and highlights distinct ethical and spiritual lessons."
-      },
-      {
-        "section": "Key themes",
-        "content": "Across its episodes, the Ramayana explores the meaning of svadharma (one’s rightful duty), the cost of keeping vows, the discipline of mind and speech, and the power of devotion (especially seen in Hanuman’s service)."
-      }
-    ],
-    "philosophical_explanation": "A major philosophical contribution of the Ramayana is its lived picture of dharma. Instead of describing ethics only as rules, it shows competing obligations—kingdom and family, promise and consequence, strength and humility. This makes it a practical text for reflection: what is right action when every option carries a cost?\n\nIn devotional reading, the Ramayana also cultivates bhakti: remembrance, service, and surrender. In contemplative reading, it invites inquiry into attachment, grief, courage, and the steady inner alignment that allows one to act without being broken by events."
-  }
+    "scriptures_ramayana": {
+        "title": "Ramayana – Itihasa des Dharma, der Hingabe und des idealen Verhaltens",
+        "description": "Erfahren Sie mehr über das Ramayana: die Itihasa-Tradition, die Dharma, Hingabe, Führung und die von Sri Rama verkörperten Ideale erforscht.",
+        "meta": {
+            "title": "Ramayana – Itihasa des Dharma, der Hingabe und des idealen Verhaltens",
+            "canonical": "https://sanatanadharmam.in/itihasa/ramayana",
+            "description": "Erfahren Sie mehr über das Ramayana: die Itihasa-Tradition, die Dharma, Hingabe, Führung und die von Sri Rama verkörperten Ideale erforscht.",
+            "keywords": [
+                "Ramayana",
+                "Itihasa",
+                "Sri Rama",
+                "Dharma",
+                "Valmiki",
+                "Sanatana Dharma"
+            ],
+            "robots": "Index, folgen",
+            "url": "https://sanatanadharmam.in/itihasa/ramayana",
+            "ogImage": "https://sanatanadharmam.in/og/scriptures_ramayana.png"
+        },
+        "openGraph": {
+            "title": "Ramayana – Itihasa des Dharma, der Hingabe und des idealen Verhaltens",
+            "description": "Erfahren Sie mehr über das Ramayana: die Itihasa-Tradition, die Dharma, Hingabe, Führung und die von Sri Rama verkörperten Ideale erforscht.",
+            "url": "https://sanatanadharmam.in/itihasa/ramayana",
+            "siteName": "Sanatanadharam",
+            "type": "Artikel",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/scriptures_ramayana.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "Artikel",
+            "name": "Ramayana – Itihasa des Dharma, der Hingabe und des idealen Verhaltens",
+            "description": "Erfahren Sie mehr über das Ramayana: die Itihasa-Tradition, die Dharma, Hingabe, Führung und die von Sri Rama verkörperten Ideale erforscht.",
+            "url": "https://sanatanadharmam.in/itihasa/ramayana",
+            "isPartOf": {
+                "@type": "Website",
+                "name": "Sanatanadharam",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "Das Ramayana ist eine der zentralen Itihasa-Traditionen des Sanātana Dharma. Es wird traditionell Maharshi Valmiki zugeschrieben und erzählt das Leben von Sri Rama – der oft als Verkörperung des Dharma verehrt wird – zusammen mit Sita, Lakshmana, Hanuman und vielen anderen verehrten Figuren.\n\nÜber die Erzählung hinaus ist das Ramayana ein Leitfaden für gelebte Werte: Pflicht und Mitgefühl, Selbstbeherrschung, Wahrhaftigkeit, Hingabe und die Verantwortung von Führung und Familienleben.",
+        "scripture_text": [
+            {
+                "section": "Struktur (Kandas)",
+                "content": "Das klassische Valmiki Ramayana wird üblicherweise in sieben Kandas (Büchern) dargestellt: Bala, Ayodhya, Aranya, Kishkindha, Sundara, Yuddha und Uttara. Jedes Kanda bringt die Erzählung voran und hebt unterschiedliche ethische und spirituelle Lehren hervor."
+            },
+            {
+                "section": "Schlüsselthemen",
+                "content": "In seinen Episoden untersucht das Ramayana die Bedeutung von Svadharma (der rechtmäßigen Pflicht eines Menschen), die Kosten für die Einhaltung von Gelübden, die Disziplin des Geistes und der Sprache sowie die Kraft der Hingabe (besonders sichtbar in Hanumans Dienst)."
+            }
+        ],
+        "philosophical_explanation": "Ein wichtiger philosophischer Beitrag des Ramayana ist sein gelebtes Bild des Dharma. Anstatt Ethik nur als Regeln zu beschreiben, zeigt sie konkurrierende Verpflichtungen auf – Königreich und Familie, Versprechen und Konsequenz, Stärke und Demut. Dies macht es zu einem praktischen Text zum Nachdenken: Was ist das richtige Handeln, wenn jede Option mit Kosten verbunden ist?\n\nBeim hingebungsvollen Lesen kultiviert das Ramayana auch Bhakti: Erinnerung, Dienst und Hingabe. Beim kontemplativen Lesen lädt es dazu ein, sich mit Bindung, Trauer, Mut und der stetigen inneren Ausrichtung auseinanderzusetzen, die es einem ermöglicht, zu handeln, ohne durch Ereignisse gebrochen zu werden."
+    }
 }

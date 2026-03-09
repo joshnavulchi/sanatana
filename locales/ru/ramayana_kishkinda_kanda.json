@@ -1,64 +1,64 @@
 {
-  "ramayana_kishkinda-kanda": {
-    "title": "Kishkinda Kanda – Ramayana Section Summary",
-    "description": "Explore Kishkinda Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
-    "meta": {
-      "title": "Kishkinda Kanda – Ramayana Section Summary",
-      "canonical": "https://sanatanadharmam.in/itihasa/ramayana/kishkinda-kanda",
-      "description": "Explore Kishkinda Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
-      "keywords": [
-        "Kishkinda Kanda",
-        "Ramayana",
-        "Itihasa",
-        "dharma",
-        "Sri Rama"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/itihasa/ramayana/kishkinda-kanda",
-      "ogImage": "https://sanatanadharmam.in/og/ramayana_kishkinda_kanda.png"
-    },
-    "openGraph": {
-      "title": "Kishkinda Kanda – Ramayana Section Summary",
-      "description": "Explore Kishkinda Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
-      "url": "https://sanatanadharmam.in/itihasa/ramayana/kishkinda-kanda",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/ramayana_kishkinda_kanda.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Kishkinda Kanda – Ramayana Section Summary"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Kishkinda Kanda – Ramayana Section Summary",
-      "description": "Explore Kishkinda Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
-      "url": "https://sanatanadharmam.in/itihasa/ramayana/kishkinda-kanda",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "Kishkinda Kanda is one of the traditional kandas (books) of the Ramayana. Each kanda advances the narrative while emphasizing specific virtues—courage, restraint, loyalty, compassion, and the responsibilities of leadership and family life.\n\nThis page provides a safe overview and reflection prompts without relying on long quotations.",
-    "scripture_text": [
-      {
-        "section": "Narrative arc",
-        "content": "A brief summary of the key events in this kanda and how they set up the next stage of the story."
-      },
-      {
-        "section": "Dharmic lessons",
-        "content": "Themes to notice: promises and consequences, right speech, self-control, and how characters respond under pressure."
-      },
-      {
-        "section": "Practice reflection",
-        "content": "Ask: What is the right action here? What inner quality is being tested? How does devotion or humility change the outcome?"
-      }
-    ],
-    "philosophical_explanation": "The Ramayana is often read as dharma-in-action. Kandawise reflection helps translate ideals into practical guidance: how to keep integrity when life is difficult, how to honor duty without hardening the heart, and how to act with steadiness rather than impulse."
-  }
+    "ramayana_kishkinda-kanda": {
+        "title": "Кишкинда Канда – Краткое содержание раздела Рамаяны",
+        "description": "Исследуйте Кишкинда Канду из Рамаяны: ключевые события, уроки дхармы и философские темы, представленные в повествовании.",
+        "meta": {
+            "title": "Кишкинда Канда – Краткое содержание раздела Рамаяны",
+            "canonical": "https://sanatanadharmam.in/itihasa/ramayana/kishkinda-kanda",
+            "description": "Исследуйте Кишкинда Канду из Рамаяны: ключевые события, уроки дхармы и философские темы, представленные в повествовании.",
+            "keywords": [
+                "Кишкинда Канда",
+                "Рамаяна",
+                "Итихаса",
+                "дхарма",
+                "Шри Рама"
+            ],
+            "robots": "индекс, следовать",
+            "url": "https://sanatanadharmam.in/itihasa/ramayana/kishkinda-kanda",
+            "ogImage": "https://sanatanadharmam.in/og/ramayana_kishkinda_kanda.png"
+        },
+        "openGraph": {
+            "title": "Кишкинда Канда – Краткое содержание раздела Рамаяны",
+            "description": "Исследуйте Кишкинда Канду из Рамаяны: ключевые события, уроки дхармы и философские темы, представленные в повествовании.",
+            "url": "https://sanatanadharmam.in/itihasa/ramayana/kishkinda-kanda",
+            "siteName": "Санатанадхармам",
+            "type": "статья",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/ramayana_kishkinda_kanda.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Kishkinda Kanda – Ramayana Section Summary"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "Статья",
+            "name": "Кишкинда Канда – Краткое содержание раздела Рамаяны",
+            "description": "Исследуйте Кишкинда Канду из Рамаяны: ключевые события, уроки дхармы и философские темы, представленные в повествовании.",
+            "url": "https://sanatanadharmam.in/itihasa/ramayana/kishkinda-kanda",
+            "isPartOf": {
+                "@type": "Веб-сайт",
+                "name": "Санатанадхармам",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "Кишкинда Канда — одна из традиционных канд (книг) Рамаяны. Каждая канда развивает повествование, подчеркивая при этом конкретные добродетели — смелость, сдержанность, верность, сострадание, а также ответственность лидера и семейную жизнь.\n\nНа этой странице представлен безопасный обзор и подсказки для размышления, не прибегая к длинным цитатам.",
+        "scripture_text": [
+            {
+                "section": "Повествовательная арка",
+                "content": "Краткое изложение ключевых событий этой канды и того, как они определяют следующий этап истории."
+            },
+            {
+                "section": "Уроки Дхармы",
+                "content": "Темы, на которые следует обратить внимание: обещания и последствия, правильная речь, самоконтроль и то, как персонажи реагируют под давлением."
+            },
+            {
+                "section": "Практикуйте размышление",
+                "content": "Спросите: какое здесь действие правильное? Какое внутреннее качество подвергается проверке? Как преданность или смирение меняют результат?"
+            }
+        ],
+        "philosophical_explanation": "Рамаяну часто читают как Дхарму в действии. Размышление в стиле Кандайз помогает превратить идеалы в практическое руководство: как сохранять честность, когда жизнь трудна, как чтить долг, не ожесточая сердце, и как действовать последовательно, а не импульсивно."
+    }
 }

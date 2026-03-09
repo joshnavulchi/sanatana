@@ -1,116 +1,116 @@
 {
-  "sanskrit_concepts": {
-    "title": "Sanskrit Concepts — Key Terms of Sanātana Dharma",
-    "description": "Sanskrit concepts form the philosophical vocabulary of Sanātana Dharma — terms like Dharma, Karma, Atman, Brahman and Maya that explain the nature of reality, self and cosmic order.",
-    "meta": {
-      "title": "Sanskrit Concepts – Key Terms of Sanātana Dharma",
-      "canonical": "https://sanatanadharmam.in/sanskrit-concepts",
-      "description": "Explore important Sanskrit philosophical concepts such as Dharma, Karma, Atman, Brahman and Maya that form the foundation of Vedic and Vedantic thought.",
-      "keywords": [
-        "sanskrit concepts",
-        "dharma meaning",
-        "karma philosophy",
-        "atman brahman concept",
-        "maya vedanta",
-        "vedic philosophy terms",
-        "sanatana dharma concepts"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/sanskrit-concepts"
-    },
-    "openGraph": {
-      "title": "Sanskrit Concepts – Philosophy of Sanātana Dharma",
-      "description": "Learn the key Sanskrit philosophical concepts such as Dharma, Karma, Atman and Brahman that explain the nature of reality and consciousness.",
-      "url": "https://sanatanadharmam.in/sanskrit-concepts",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/sanskrit-concepts.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Sanskrit Concepts of Sanatana Dharma"
-        }
-      ]
-    },
-    "concepts": [
-      "Dharma",
-      "Karma",
-      "Atman",
-      "Brahman",
-      "Maya",
-      "Moksha",
-      "Samsara",
-      "Purushartha",
-      "Yoga",
-      "Jnana"
-    ],
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "CollectionPage",
-          "name": "Sanskrit Concepts",
-          "description": "Collection of key Sanskrit philosophical concepts explaining the teachings of Sanātana Dharma.",
-          "url": "https://sanatanadharmam.in/sanskrit-concepts"
+    "sanskrit_concepts": {
+        "title": "サンスクリット語の概念 — Sanātana Dharma の重要な用語",
+        "description": "サンスクリット語の概念は、サナータナ ダルマの哲学的語彙を形成します。これは、現実、自己、宇宙秩序の性質を説明するダルマ、カルマ、アートマン、ブラフマン、マーヤなどの用語です。",
+        "meta": {
+            "title": "サンスクリット語の概念 – Sanātana Dharma の重要な用語",
+            "canonical": "https://sanatanadharmam.in/sanskrit-concepts",
+            "description": "ヴェーダとヴェーダーンタの思想の基礎を形成するダルマ、カルマ、アートマン、ブラフマン、マーヤなどの重要なサンスクリット哲学の概念を探求します。",
+            "keywords": [
+                "サンスクリット語の概念",
+                "ダルマの意味",
+                "カルマ哲学",
+                "アートマン・ブラフマンの概念",
+                "マヤ ヴェダンタ",
+                "ヴェーダ哲学用語",
+                "サナタナダルマの概念"
+            ],
+            "robots": "インデックス、フォロー",
+            "url": "https://sanatanadharmam.in/sanskrit-concepts"
         },
-        {
-          "@type": "ItemList",
-          "name": "Philosophical Concepts of Sanātana Dharma",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Dharma"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Karma"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Atman"
-            },
-            {
-              "@type": "ListItem",
-              "position": 4,
-              "name": "Brahman"
-            },
-            {
-              "@type": "ListItem",
-              "position": 5,
-              "name": "Maya"
-            },
-            {
-              "@type": "ListItem",
-              "position": 6,
-              "name": "Moksha"
-            },
-            {
-              "@type": "ListItem",
-              "position": 7,
-              "name": "Samsara"
-            },
-            {
-              "@type": "ListItem",
-              "position": 8,
-              "name": "Purushartha"
-            },
-            {
-              "@type": "ListItem",
-              "position": 9,
-              "name": "Yoga"
-            },
-            {
-              "@type": "ListItem",
-              "position": 10,
-              "name": "Jnana"
-            }
-          ]
+        "openGraph": {
+            "title": "サンスクリット語の概念 – Sanātana Dharma の哲学",
+            "description": "現実と意識の性質を説明するダルマ、カルマ、アートマン、ブラフマンなどの重要なサンスクリット哲学の概念を学びます。",
+            "url": "https://sanatanadharmam.in/sanskrit-concepts",
+            "siteName": "サナタナダルマム",
+            "type": "記事",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/sanskrit-concepts.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Sanskrit Concepts of Sanatana Dharma"
+                }
+            ]
+        },
+        "concepts": [
+            "ダルマ",
+            "カルマ",
+            "アートマン",
+            "ブラフマン",
+            "マヤ",
+            "モクシャ",
+            "サムサラ",
+            "プルシャルタ",
+            "ヨガ",
+            "ジュニャーナ"
+        ],
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "コレクションページ",
+                    "name": "サンスクリット語の概念",
+                    "description": "サナータナ ダルマの教えを説明する重要なサンスクリット語の哲学的概念のコレクション。",
+                    "url": "https://sanatanadharmam.in/sanskrit-concepts"
+                },
+                {
+                    "@type": "アイテムリスト",
+                    "name": "サナータナ ダルマの哲学的概念",
+                    "itemListElement": [
+                        {
+                            "@type": "リストアイテム",
+                            "position": 1,
+                            "name": "ダルマ"
+                        },
+                        {
+                            "@type": "リストアイテム",
+                            "position": 2,
+                            "name": "カルマ"
+                        },
+                        {
+                            "@type": "リストアイテム",
+                            "position": 3,
+                            "name": "アートマン"
+                        },
+                        {
+                            "@type": "リストアイテム",
+                            "position": 4,
+                            "name": "ブラフマン"
+                        },
+                        {
+                            "@type": "リストアイテム",
+                            "position": 5,
+                            "name": "マヤ"
+                        },
+                        {
+                            "@type": "リストアイテム",
+                            "position": 6,
+                            "name": "モクシャ"
+                        },
+                        {
+                            "@type": "リストアイテム",
+                            "position": 7,
+                            "name": "サムサラ"
+                        },
+                        {
+                            "@type": "リストアイテム",
+                            "position": 8,
+                            "name": "プルシャルタ"
+                        },
+                        {
+                            "@type": "リストアイテム",
+                            "position": 9,
+                            "name": "ヨガ"
+                        },
+                        {
+                            "@type": "リストアイテム",
+                            "position": 10,
+                            "name": "ジュニャーナ"
+                        }
+                    ]
+                }
+            ]
         }
-      ]
     }
-  }
 }

@@ -1,116 +1,116 @@
 {
-  "sanskrit_concepts": {
-    "title": "Sanskrit Concepts — Key Terms of Sanātana Dharma",
-    "description": "Sanskrit concepts form the philosophical vocabulary of Sanātana Dharma — terms like Dharma, Karma, Atman, Brahman and Maya that explain the nature of reality, self and cosmic order.",
-    "meta": {
-      "title": "Sanskrit Concepts – Key Terms of Sanātana Dharma",
-      "canonical": "https://sanatanadharmam.in/sanskrit-concepts",
-      "description": "Explore important Sanskrit philosophical concepts such as Dharma, Karma, Atman, Brahman and Maya that form the foundation of Vedic and Vedantic thought.",
-      "keywords": [
-        "sanskrit concepts",
-        "dharma meaning",
-        "karma philosophy",
-        "atman brahman concept",
-        "maya vedanta",
-        "vedic philosophy terms",
-        "sanatana dharma concepts"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/sanskrit-concepts"
-    },
-    "openGraph": {
-      "title": "Sanskrit Concepts – Philosophy of Sanātana Dharma",
-      "description": "Learn the key Sanskrit philosophical concepts such as Dharma, Karma, Atman and Brahman that explain the nature of reality and consciousness.",
-      "url": "https://sanatanadharmam.in/sanskrit-concepts",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/sanskrit-concepts.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Sanskrit Concepts of Sanatana Dharma"
-        }
-      ]
-    },
-    "concepts": [
-      "Dharma",
-      "Karma",
-      "Atman",
-      "Brahman",
-      "Maya",
-      "Moksha",
-      "Samsara",
-      "Purushartha",
-      "Yoga",
-      "Jnana"
-    ],
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "CollectionPage",
-          "name": "Sanskrit Concepts",
-          "description": "Collection of key Sanskrit philosophical concepts explaining the teachings of Sanātana Dharma.",
-          "url": "https://sanatanadharmam.in/sanskrit-concepts"
+    "sanskrit_concepts": {
+        "title": "Санскритские концепции — ключевые термины Санатана Дхармы",
+        "description": "Санскритские концепции составляют философский словарь Санатана Дхармы — такие термины, как Дхарма, Карма, Атман, Брахман и Майя, которые объясняют природу реальности, «я» и космического порядка.",
+        "meta": {
+            "title": "Санскритские концепции – ключевые термины Санатана Дхармы",
+            "canonical": "https://sanatanadharmam.in/sanskrit-concepts",
+            "description": "Изучите важные санскритские философские концепции, такие как Дхарма, Карма, Атман, Брахман и Майя, которые составляют основу ведической и ведантической мысли.",
+            "keywords": [
+                "санскритские концепции",
+                "смысл дхармы",
+                "философия кармы",
+                "концепция атмана-брахмана",
+                "майя веданта",
+                "термины ведической философии",
+                "концепции санатана дхармы"
+            ],
+            "robots": "индекс, следовать",
+            "url": "https://sanatanadharmam.in/sanskrit-concepts"
         },
-        {
-          "@type": "ItemList",
-          "name": "Philosophical Concepts of Sanātana Dharma",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Dharma"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Karma"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Atman"
-            },
-            {
-              "@type": "ListItem",
-              "position": 4,
-              "name": "Brahman"
-            },
-            {
-              "@type": "ListItem",
-              "position": 5,
-              "name": "Maya"
-            },
-            {
-              "@type": "ListItem",
-              "position": 6,
-              "name": "Moksha"
-            },
-            {
-              "@type": "ListItem",
-              "position": 7,
-              "name": "Samsara"
-            },
-            {
-              "@type": "ListItem",
-              "position": 8,
-              "name": "Purushartha"
-            },
-            {
-              "@type": "ListItem",
-              "position": 9,
-              "name": "Yoga"
-            },
-            {
-              "@type": "ListItem",
-              "position": 10,
-              "name": "Jnana"
-            }
-          ]
+        "openGraph": {
+            "title": "Санскритские концепции - Философия Санатана Дхармы",
+            "description": "Изучите ключевые философские концепции санскрита, такие как Дхарма, Карма, Атман и Брахман, которые объясняют природу реальности и сознания.",
+            "url": "https://sanatanadharmam.in/sanskrit-concepts",
+            "siteName": "Санатанадхармам",
+            "type": "статья",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/sanskrit-concepts.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Sanskrit Concepts of Sanatana Dharma"
+                }
+            ]
+        },
+        "concepts": [
+            "Дхарма",
+            "Карма",
+            "Атман",
+            "Брахман",
+            "Майя",
+            "Мокша",
+            "Самсара",
+            "Пурушартха",
+            "Йога",
+            "Джнана"
+        ],
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "Страница коллекции",
+                    "name": "Концепции санскрита",
+                    "description": "Сборник ключевых санскритских философских концепций, объясняющих учение Санатана Дхармы.",
+                    "url": "https://sanatanadharmam.in/sanskrit-concepts"
+                },
+                {
+                    "@type": "Список предметов",
+                    "name": "Философские концепции Санатана Дхармы",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Дхарма"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Карма"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 3,
+                            "name": "Атман"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 4,
+                            "name": "Брахман"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 5,
+                            "name": "Майя"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 6,
+                            "name": "Мокша"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 7,
+                            "name": "Самсара"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 8,
+                            "name": "Пурушартха"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 9,
+                            "name": "Йога"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 10,
+                            "name": "Джнана"
+                        }
+                    ]
+                }
+            ]
         }
-      ]
     }
-  }
 }

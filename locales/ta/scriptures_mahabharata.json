@@ -1,61 +1,61 @@
 {
-  "scriptures_mahabharata": {
-    "title": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice",
-    "description": "Explore the Mahabharata: a vast Itihasa exploring dharma, conflict, duty, and the complexity of human decision-making.",
-    "meta": {
-      "title": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice",
-      "canonical": "https://sanatanadharmam.in/itihasa/mahabharata",
-      "description": "Explore the Mahabharata: a vast Itihasa exploring dharma, conflict, duty, and the complexity of human decision-making.",
-      "keywords": [
-        "Mahabharata",
-        "Itihasa",
-        "Vyasa",
-        "dharma",
-        "ethics",
-        "Sanatana Dharma"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/itihasa/mahabharata",
-      "ogImage": "https://sanatanadharmam.in/og/scriptures_mahabharata.png"
-    },
-    "openGraph": {
-      "title": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice",
-      "description": "Explore the Mahabharata: a vast Itihasa exploring dharma, conflict, duty, and the complexity of human decision-making.",
-      "url": "https://sanatanadharmam.in/itihasa/mahabharata",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/scriptures_mahabharata.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice",
-      "description": "Explore the Mahabharata: a vast Itihasa exploring dharma, conflict, duty, and the complexity of human decision-making.",
-      "url": "https://sanatanadharmam.in/itihasa/mahabharata",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "The Mahabharata is a vast Itihasa traditionally attributed to Maharshi Vyasa. It is both an epic narrative and an encyclopedic source of ethical debate, spiritual teaching, and social reflection. Through the conflict between the Pandavas and Kauravas, it examines duty, ambition, loyalty, and the consequences of choices across generations.\n\nIt is also the broader context in which the Bhagavad Gita appears, connecting spiritual instruction to the hardest questions of real life.",
-    "scripture_text": [
-      {
-        "section": "Structure (Parvas)",
-        "content": "The Mahabharata is commonly divided into eighteen parvas (books). The parvas contain multiple interwoven stories, dialogues, and teachings rather than a single linear plot."
-      },
-      {
-        "section": "Ethical inquiry",
-        "content": "A defining feature of the Mahabharata is its willingness to present moral ambiguity. Characters face dilemmas where every option has a cost, and the text often frames dharma as something to be discerned through reflection, counsel, and self-honesty."
-      }
-    ],
-    "philosophical_explanation": "The Mahabharata’s philosophy is inseparable from its realism. It teaches that dharma is not always obvious and that intention, context, and consequence matter. It also highlights how inner states—anger, envy, fear, pride—shape outer outcomes.\n\nAs spiritual literature, the Mahabharata pushes the reader toward maturity: a steadier mind, a wider compassion, and the capacity to act responsibly even in imperfect conditions."
-  }
+    "scriptures_mahabharata": {
+        "title": "மகாபாரதம் - தர்மம், நெறிமுறைகள் மற்றும் மனித விருப்பத்தின் இத்திஹாசா",
+        "description": "மகாபாரதத்தை ஆராயுங்கள்: தர்மம், மோதல்கள், கடமைகள் மற்றும் மனித முடிவெடுக்கும் சிக்கலான தன்மை ஆகியவற்றை ஆராயும் ஒரு பரந்த இத்திஹாசா.",
+        "meta": {
+            "title": "மகாபாரதம் - தர்மம், நெறிமுறைகள் மற்றும் மனித விருப்பத்தின் இத்திஹாசா",
+            "canonical": "https://sanatanadharmam.in/itihasa/mahabharata",
+            "description": "மகாபாரதத்தை ஆராயுங்கள்: தர்மம், மோதல்கள், கடமைகள் மற்றும் மனித முடிவெடுக்கும் சிக்கலான தன்மை ஆகியவற்றை ஆராயும் ஒரு பரந்த இத்திஹாசா.",
+            "keywords": [
+                "மகாபாரதம்",
+                "இதிஹாசா",
+                "வியாசர்",
+                "தர்மம்",
+                "நெறிமுறைகள்",
+                "சனாதன தர்மம்"
+            ],
+            "robots": "குறியீட்டு, பின்பற்றவும்",
+            "url": "https://sanatanadharmam.in/itihasa/mahabharata",
+            "ogImage": "https://sanatanadharmam.in/og/scriptures_mahabharata.png"
+        },
+        "openGraph": {
+            "title": "மகாபாரதம் - தர்மம், நெறிமுறைகள் மற்றும் மனித விருப்பத்தின் இத்திஹாசா",
+            "description": "மகாபாரதத்தை ஆராயுங்கள்: தர்மம், மோதல்கள், கடமைகள் மற்றும் மனித முடிவெடுக்கும் சிக்கலான தன்மை ஆகியவற்றை ஆராயும் ஒரு பரந்த இத்திஹாசா.",
+            "url": "https://sanatanadharmam.in/itihasa/mahabharata",
+            "siteName": "சனாதனதர்மம்",
+            "type": "கட்டுரை",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/scriptures_mahabharata.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "கட்டுரை",
+            "name": "மகாபாரதம் - தர்மம், நெறிமுறைகள் மற்றும் மனித விருப்பத்தின் இத்திஹாசா",
+            "description": "மகாபாரதத்தை ஆராயுங்கள்: தர்மம், மோதல்கள், கடமைகள் மற்றும் மனித முடிவெடுக்கும் சிக்கலான தன்மை ஆகியவற்றை ஆராயும் ஒரு பரந்த இத்திஹாசா.",
+            "url": "https://sanatanadharmam.in/itihasa/mahabharata",
+            "isPartOf": {
+                "@type": "இணையத்தளம்",
+                "name": "சனாதனதர்மம்",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "மகாபாரதம் பாரம்பரியமாக மகரிஷி வியாசரால் கூறப்பட்ட ஒரு பரந்த இதிஹாஸமாகும். இது ஒரு காவிய கதை மற்றும் நெறிமுறை விவாதம், ஆன்மீக போதனை மற்றும் சமூக பிரதிபலிப்பு ஆகியவற்றின் கலைக்களஞ்சிய ஆதாரமாகும். பாண்டவர்களுக்கும் கௌரவர்களுக்கும் இடையிலான மோதலின் மூலம், இது கடமை, லட்சியம், விசுவாசம் மற்றும் தலைமுறை தலைமுறையாக தேர்வுகளின் விளைவுகள் ஆகியவற்றை ஆராய்கிறது.\n\nபகவத் கீதை தோன்றும் பரந்த சூழலும் இதுவே, ஆன்மீக அறிவுறுத்தலை நிஜ வாழ்க்கையின் கடினமான கேள்விகளுடன் இணைக்கிறது.",
+        "scripture_text": [
+            {
+                "section": "அமைப்பு (பர்வாஸ்)",
+                "content": "மகாபாரதம் பொதுவாக பதினெட்டு பர்வங்களாக (புத்தகங்கள்) பிரிக்கப்பட்டுள்ளது. பர்வாக்கள் ஒரு நேரியல் சதியைக் காட்டிலும் பல பின்னிப்பிணைந்த கதைகள், உரையாடல்கள் மற்றும் போதனைகளைக் கொண்டிருக்கின்றன."
+            },
+            {
+                "section": "நெறிமுறை விசாரணை",
+                "content": "மகாபாரதத்தின் ஒரு வரையறுக்கும் அம்சம் தார்மீக தெளிவின்மையை முன்வைப்பதற்கான அதன் விருப்பமாகும். ஒவ்வொரு விருப்பமும் ஒரு விலையைக் கொண்டிருக்கும் பாத்திரங்கள் இக்கட்டான சூழ்நிலைகளை எதிர்கொள்கின்றன, மேலும் உரை பெரும்பாலும் தர்மத்தை பிரதிபலிப்பு, ஆலோசனை மற்றும் சுய-நேர்மை ஆகியவற்றின் மூலம் அறியக்கூடியதாக வடிவமைக்கிறது."
+            }
+        ],
+        "philosophical_explanation": "மகாபாரதத்தின் தத்துவம் அதன் யதார்த்தவாதத்திலிருந்து பிரிக்க முடியாதது. தர்மம் என்பது எப்போதும் வெளிப்படையாக இருப்பதில்லை என்றும், நோக்கம், சூழல் மற்றும் விளைவு முக்கியமானது என்றும் அது கற்பிக்கிறது. உள் நிலைகள் - கோபம், பொறாமை, பயம், பெருமை - வெளிப்புற விளைவுகளை எவ்வாறு வடிவமைக்கிறது என்பதையும் இது எடுத்துக்காட்டுகிறது.\n\nஆன்மீக இலக்கியமாக, மகாபாரதம் வாசகரை முதிர்ச்சியை நோக்கித் தள்ளுகிறது: ஒரு நிலையான மனம், பரந்த இரக்கம் மற்றும் அபூரண சூழ்நிலைகளிலும் பொறுப்புடன் செயல்படும் திறன்."
+    }
 }

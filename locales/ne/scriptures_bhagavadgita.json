@@ -1,62 +1,62 @@
 {
-  "scriptures_bhagavadgita": {
-    "title": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-    "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
-    "meta": {
-      "title": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-      "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-      "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
-      "keywords": [
-        "Bhagavad Gita",
-        "Krishna",
-        "Arjuna",
-        "Yoga",
-        "dharma",
-        "karma yoga",
-        "bhakti"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-      "ogImage": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png"
-    },
-    "openGraph": {
-      "title": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-      "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation",
-      "description": "Study the Bhagavad Gita: teachings of Sri Krishna on dharma, karma yoga, bhakti, jnana, and the path to inner freedom.",
-      "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "The Bhagavad Gita is a foundational spiritual text presented as a dialogue between Sri Krishna and Arjuna on the battlefield of Kurukshetra. It addresses a universal crisis: how to act rightly when life is complex, emotions are intense, and the consequences of action are unavoidable.\n\nThe Gita teaches multiple yogas (disciplines) that converge toward inner freedom: selfless action, devotion, and knowledge—guided by dharma and clarity of mind.",
-    "scripture_text": [
-      {
-        "section": "Core topics covered",
-        "content": "The Gita discusses svadharma (one’s rightful duty), karma yoga (selfless action), bhakti (devotion), jnana (knowledge), dhyana (meditation), the gunas (qualities of nature), and the vision of the Self beyond fear and sorrow."
-      },
-      {
-        "section": "How chapters are organized",
-        "content": "Each chapter is traditionally treated as a distinct yoga or emphasis, yet the teaching remains integrated: the purpose is steadiness, discernment, and alignment with truth in thought, speech, and action."
-      }
-    ],
-    "philosophical_explanation": "Philosophically, the Bhagavad Gita reconciles action and renunciation. It does not demand withdrawal from life; it refines how one engages with life—acting without ego-driven attachment to outcomes. This transforms work into yoga.\n\nThe Gita also frames spiritual growth as a balance: devotion that softens the heart, knowledge that clarifies the mind, and disciplined action that purifies intention. The result is a life guided by dharma, courage, and compassion."
-  }
+    "scriptures_bhagavadgita": {
+        "title": "भगवद् गीता - धर्म, योग, र मुक्ति मा शिक्षा",
+        "description": "भगवद् गीता अध्ययन गर्नुहोस्: धर्म, कर्म योग, भक्ति, ज्ञान, र आन्तरिक स्वतन्त्रताको मार्गमा श्री कृष्णको शिक्षा।",
+        "meta": {
+            "title": "भगवद् गीता - धर्म, योग, र मुक्ति मा शिक्षा",
+            "canonical": "https://sanatanadharmam.in/itihasa/bhagavadgita",
+            "description": "भगवद् गीता अध्ययन गर्नुहोस्: धर्म, कर्म योग, भक्ति, ज्ञान, र आन्तरिक स्वतन्त्रताको मार्गमा श्री कृष्णको शिक्षा।",
+            "keywords": [
+                "भगवद् गीता",
+                "कृष्ण",
+                "अर्जुन",
+                "योग",
+                "धर्म",
+                "कर्म योग",
+                "भक्ति"
+            ],
+            "robots": "अनुक्रमणिका, पालना गर्नुहोस्",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
+            "ogImage": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png"
+        },
+        "openGraph": {
+            "title": "भगवद् गीता - धर्म, योग, र मुक्ति मा शिक्षा",
+            "description": "भगवद् गीता अध्ययन गर्नुहोस्: धर्म, कर्म योग, भक्ति, ज्ञान, र आन्तरिक स्वतन्त्रताको मार्गमा श्री कृष्णको शिक्षा।",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
+            "siteName": "सनातन धर्मम",
+            "type": "लेख",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/scriptures_bhagavadgita.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Bhagavad Gita – Teachings on Dharma, Yoga, and Liberation"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "लेख",
+            "name": "भगवद् गीता - धर्म, योग, र मुक्ति मा शिक्षा",
+            "description": "भगवद् गीता अध्ययन गर्नुहोस्: धर्म, कर्म योग, भक्ति, ज्ञान, र आन्तरिक स्वतन्त्रताको मार्गमा श्री कृष्णको शिक्षा।",
+            "url": "https://sanatanadharmam.in/itihasa/bhagavadgita",
+            "isPartOf": {
+                "@type": "वेबसाइट",
+                "name": "सनातन धर्मम",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "भगवद् गीता कुरुक्षेत्रको युद्धभूमिमा श्रीकृष्ण र अर्जुन बीचको संवादको रूपमा प्रस्तुत गरिएको आधारभूत आध्यात्मिक पाठ हो। यसले सार्वभौमिक संकटलाई सम्बोधन गर्दछ: जीवन जटिल हुँदा, भावनाहरू तीव्र हुन्छन्, र कार्यको नतिजा अपरिहार्य हुँदा कसरी सही रूपमा कार्य गर्ने।\n\nगीताले धेरै योगहरू (अनुशासनहरू) सिकाउँछ जुन भित्री स्वतन्त्रता तर्फ जान्छ: निस्वार्थ कार्य, भक्ति, र ज्ञान - धर्म र मनको स्पष्टताद्वारा निर्देशित।",
+        "scripture_text": [
+            {
+                "section": "मुख्य विषयहरू कभर",
+                "content": "गीताले स्वधर्म (आफ्नो सही कर्तव्य), कर्म योग (निःस्वार्थ कर्म), भक्ति (भक्ति), ज्ञान (ज्ञान), ध्यान (ध्यान), गुण (प्रकृतिका गुणहरू) र भय र दुःखभन्दा परको आत्मको दर्शनको चर्चा गर्दछ।"
+            },
+            {
+                "section": "कसरी अध्यायहरू व्यवस्थित छन्",
+                "content": "प्रत्येक अध्यायलाई परम्परागत रूपमा एक फरक योग वा जोडको रूपमा व्यवहार गरिन्छ, तर पनि शिक्षा एकीकृत रहन्छ: उद्देश्य स्थिरता, विवेक, र विचार, बोली, र कार्यमा सत्यसँग पङ्क्तिबद्धता हो।"
+            }
+        ],
+        "philosophical_explanation": "दार्शनिक रूपमा, भगवद् गीताले कर्म र त्यागलाई मिलाउँछ। यसले जीवनबाट फिर्ता लिन माग गर्दैन; यसले जीवनसँग कसरी संलग्न हुन्छ भनेर परिष्कृत गर्दछ - परिणामहरूमा अहंकार-संचालित संलग्नता बिना अभिनय। यसले कामलाई योगमा परिणत गर्छ।\n\nगीताले आध्यात्मिक वृद्धिलाई सन्तुलनको रूपमा पनि बनाउँछ: भक्ति जसले हृदयलाई नरम बनाउँछ, ज्ञान जसले दिमागलाई स्पष्ट पार्छ, र अनुशासित कार्य जसले इरादालाई शुद्ध पार्छ। परिणाम धर्म, साहस र करुणा द्वारा निर्देशित जीवन हो।"
+    }
 }

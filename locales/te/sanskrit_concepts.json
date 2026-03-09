@@ -1,116 +1,116 @@
 {
-  "sanskrit_concepts": {
-    "title": "Sanskrit Concepts — Key Terms of Sanātana Dharma",
-    "description": "Sanskrit concepts form the philosophical vocabulary of Sanātana Dharma — terms like Dharma, Karma, Atman, Brahman and Maya that explain the nature of reality, self and cosmic order.",
-    "meta": {
-      "title": "Sanskrit Concepts – Key Terms of Sanātana Dharma",
-      "canonical": "https://sanatanadharmam.in/sanskrit-concepts",
-      "description": "Explore important Sanskrit philosophical concepts such as Dharma, Karma, Atman, Brahman and Maya that form the foundation of Vedic and Vedantic thought.",
-      "keywords": [
-        "sanskrit concepts",
-        "dharma meaning",
-        "karma philosophy",
-        "atman brahman concept",
-        "maya vedanta",
-        "vedic philosophy terms",
-        "sanatana dharma concepts"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/sanskrit-concepts"
-    },
-    "openGraph": {
-      "title": "Sanskrit Concepts – Philosophy of Sanātana Dharma",
-      "description": "Learn the key Sanskrit philosophical concepts such as Dharma, Karma, Atman and Brahman that explain the nature of reality and consciousness.",
-      "url": "https://sanatanadharmam.in/sanskrit-concepts",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/sanskrit-concepts.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Sanskrit Concepts of Sanatana Dharma"
-        }
-      ]
-    },
-    "concepts": [
-      "Dharma",
-      "Karma",
-      "Atman",
-      "Brahman",
-      "Maya",
-      "Moksha",
-      "Samsara",
-      "Purushartha",
-      "Yoga",
-      "Jnana"
-    ],
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "CollectionPage",
-          "name": "Sanskrit Concepts",
-          "description": "Collection of key Sanskrit philosophical concepts explaining the teachings of Sanātana Dharma.",
-          "url": "https://sanatanadharmam.in/sanskrit-concepts"
+    "sanskrit_concepts": {
+        "title": "సంస్కృత భావనలు — సనాతన ధర్మం యొక్క ముఖ్య నిబంధనలు",
+        "description": "సంస్కృత భావనలు సనాతన ధర్మం యొక్క తాత్విక పదజాలాన్ని ఏర్పరుస్తాయి - ధర్మం, కర్మ, ఆత్మ, బ్రహ్మం మరియు మాయ వంటి పదాలు వాస్తవికత, స్వీయ మరియు విశ్వ క్రమం యొక్క స్వభావాన్ని వివరిస్తాయి.",
+        "meta": {
+            "title": "సంస్కృత భావనలు - సనాతన ధర్మం యొక్క ముఖ్య నిబంధనలు",
+            "canonical": "https://sanatanadharmam.in/sanskrit-concepts",
+            "description": "వేద మరియు వేదాంత ఆలోచనలకు పునాదిగా ఉండే ధర్మం, కర్మ, ఆత్మ, బ్రహ్మం మరియు మాయ వంటి ముఖ్యమైన సంస్కృత తాత్విక భావనలను అన్వేషించండి.",
+            "keywords": [
+                "సంస్కృత భావనలు",
+                "ధర్మ అర్థం",
+                "కర్మ తత్వశాస్త్రం",
+                "ఆత్మ బ్రహ్మ భావన",
+                "మాయా వేదాంత",
+                "వేద తత్వశాస్త్ర నిబంధనలు",
+                "సనాతన ధర్మ భావనలు"
+            ],
+            "robots": "సూచిక, అనుసరించండి",
+            "url": "https://sanatanadharmam.in/sanskrit-concepts"
         },
-        {
-          "@type": "ItemList",
-          "name": "Philosophical Concepts of Sanātana Dharma",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Dharma"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Karma"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Atman"
-            },
-            {
-              "@type": "ListItem",
-              "position": 4,
-              "name": "Brahman"
-            },
-            {
-              "@type": "ListItem",
-              "position": 5,
-              "name": "Maya"
-            },
-            {
-              "@type": "ListItem",
-              "position": 6,
-              "name": "Moksha"
-            },
-            {
-              "@type": "ListItem",
-              "position": 7,
-              "name": "Samsara"
-            },
-            {
-              "@type": "ListItem",
-              "position": 8,
-              "name": "Purushartha"
-            },
-            {
-              "@type": "ListItem",
-              "position": 9,
-              "name": "Yoga"
-            },
-            {
-              "@type": "ListItem",
-              "position": 10,
-              "name": "Jnana"
-            }
-          ]
+        "openGraph": {
+            "title": "సంస్కృత భావనలు - సనాతన ధర్మం యొక్క తత్వశాస్త్రం",
+            "description": "వాస్తవికత మరియు చైతన్యం యొక్క స్వభావాన్ని వివరించే ధర్మం, కర్మ, ఆత్మ మరియు బ్రహ్మం వంటి కీలకమైన సంస్కృత తాత్విక భావనలను నేర్చుకోండి.",
+            "url": "https://sanatanadharmam.in/sanskrit-concepts",
+            "siteName": "సనాతనధర్మం",
+            "type": "వ్యాసం",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/sanskrit-concepts.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Sanskrit Concepts of Sanatana Dharma"
+                }
+            ]
+        },
+        "concepts": [
+            "ధర్మము",
+            "కర్మ",
+            "ఆత్మ",
+            "బ్రాహ్మణుడు",
+            "మాయ",
+            "మోక్షము",
+            "సంసారం",
+            "పురుషార్థ",
+            "యోగా",
+            "జ్ఞాన"
+        ],
+        "schema": {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "సేకరణపేజీ",
+                    "name": "సంస్కృత భావనలు",
+                    "description": "సనాతన ధర్మ బోధనలను వివరించే కీలకమైన సంస్కృత తాత్విక భావనల సేకరణ.",
+                    "url": "https://sanatanadharmam.in/sanskrit-concepts"
+                },
+                {
+                    "@type": "వస్తువుల జాబితా",
+                    "name": "సనాతన ధర్మం యొక్క తాత్విక భావనలు",
+                    "itemListElement": [
+                        {
+                            "@type": "జాబితా అంశం",
+                            "position": 1,
+                            "name": "ధర్మము"
+                        },
+                        {
+                            "@type": "జాబితా అంశం",
+                            "position": 2,
+                            "name": "కర్మ"
+                        },
+                        {
+                            "@type": "జాబితా అంశం",
+                            "position": 3,
+                            "name": "ఆత్మ"
+                        },
+                        {
+                            "@type": "జాబితా అంశం",
+                            "position": 4,
+                            "name": "బ్రాహ్మణుడు"
+                        },
+                        {
+                            "@type": "జాబితా అంశం",
+                            "position": 5,
+                            "name": "మాయ"
+                        },
+                        {
+                            "@type": "జాబితా అంశం",
+                            "position": 6,
+                            "name": "మోక్షము"
+                        },
+                        {
+                            "@type": "జాబితా అంశం",
+                            "position": 7,
+                            "name": "సంసారం"
+                        },
+                        {
+                            "@type": "జాబితా అంశం",
+                            "position": 8,
+                            "name": "పురుషార్థ"
+                        },
+                        {
+                            "@type": "జాబితా అంశం",
+                            "position": 9,
+                            "name": "యోగా"
+                        },
+                        {
+                            "@type": "జాబితా అంశం",
+                            "position": 10,
+                            "name": "జ్ఞాన"
+                        }
+                    ]
+                }
+            ]
         }
-      ]
     }
-  }
 }

@@ -1,61 +1,61 @@
 {
-  "scriptures_ramayana": {
-    "title": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct",
-    "description": "Learn about the Ramayana: the Itihasa tradition that explores dharma, devotion, leadership, and the ideals embodied by Sri Rama.",
-    "meta": {
-      "title": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct",
-      "canonical": "https://sanatanadharmam.in/itihasa/ramayana",
-      "description": "Learn about the Ramayana: the Itihasa tradition that explores dharma, devotion, leadership, and the ideals embodied by Sri Rama.",
-      "keywords": [
-        "Ramayana",
-        "Itihasa",
-        "Sri Rama",
-        "dharma",
-        "Valmiki",
-        "Sanatana Dharma"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/itihasa/ramayana",
-      "ogImage": "https://sanatanadharmam.in/og/scriptures_ramayana.png"
-    },
-    "openGraph": {
-      "title": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct",
-      "description": "Learn about the Ramayana: the Itihasa tradition that explores dharma, devotion, leadership, and the ideals embodied by Sri Rama.",
-      "url": "https://sanatanadharmam.in/itihasa/ramayana",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/scriptures_ramayana.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct",
-      "description": "Learn about the Ramayana: the Itihasa tradition that explores dharma, devotion, leadership, and the ideals embodied by Sri Rama.",
-      "url": "https://sanatanadharmam.in/itihasa/ramayana",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "The Ramayana is one of the central Itihasa traditions of Sanātana Dharma. It is traditionally attributed to Maharshi Valmiki and narrates the life of Sri Rama—often revered as an embodiment of dharma—along with Sita, Lakshmana, Hanuman, and many other revered figures.\n\nBeyond narrative, the Ramayana is a guide for values in action: duty and compassion, self-control, truthfulness, devotion, and the responsibilities of leadership and family life.",
-    "scripture_text": [
-      {
-        "section": "Structure (Kandas)",
-        "content": "The classical Valmiki Ramayana is commonly presented in seven kandas (books): Bala, Ayodhya, Aranya, Kishkindha, Sundara, Yuddha, and Uttara. Each kanda advances the narrative and highlights distinct ethical and spiritual lessons."
-      },
-      {
-        "section": "Key themes",
-        "content": "Across its episodes, the Ramayana explores the meaning of svadharma (one’s rightful duty), the cost of keeping vows, the discipline of mind and speech, and the power of devotion (especially seen in Hanuman’s service)."
-      }
-    ],
-    "philosophical_explanation": "A major philosophical contribution of the Ramayana is its lived picture of dharma. Instead of describing ethics only as rules, it shows competing obligations—kingdom and family, promise and consequence, strength and humility. This makes it a practical text for reflection: what is right action when every option carries a cost?\n\nIn devotional reading, the Ramayana also cultivates bhakti: remembrance, service, and surrender. In contemplative reading, it invites inquiry into attachment, grief, courage, and the steady inner alignment that allows one to act without being broken by events."
-  }
+    "scriptures_ramayana": {
+        "title": "रामायण - धर्म, भक्ति, र आदर्श आचरणको इतिहास",
+        "description": "रामायणको बारेमा जान्नुहोस्: धर्म, भक्ति, नेतृत्व, र श्री रामद्वारा मूर्त आदर्शहरूको अन्वेषण गर्ने इतिहास परम्परा।",
+        "meta": {
+            "title": "रामायण - धर्म, भक्ति, र आदर्श आचरणको इतिहास",
+            "canonical": "https://sanatanadharmam.in/itihasa/ramayana",
+            "description": "रामायणको बारेमा जान्नुहोस्: धर्म, भक्ति, नेतृत्व, र श्री रामद्वारा मूर्त आदर्शहरूको अन्वेषण गर्ने इतिहास परम्परा।",
+            "keywords": [
+                "रामायण",
+                "इतिहास",
+                "श्री राम",
+                "धर्म",
+                "वाल्मीकि",
+                "सनातन धर्म"
+            ],
+            "robots": "अनुक्रमणिका, पालना गर्नुहोस्",
+            "url": "https://sanatanadharmam.in/itihasa/ramayana",
+            "ogImage": "https://sanatanadharmam.in/og/scriptures_ramayana.png"
+        },
+        "openGraph": {
+            "title": "रामायण - धर्म, भक्ति, र आदर्श आचरणको इतिहास",
+            "description": "रामायणको बारेमा जान्नुहोस्: धर्म, भक्ति, नेतृत्व, र श्री रामद्वारा मूर्त आदर्शहरूको अन्वेषण गर्ने इतिहास परम्परा।",
+            "url": "https://sanatanadharmam.in/itihasa/ramayana",
+            "siteName": "सनातन धर्मम",
+            "type": "लेख",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/scriptures_ramayana.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Ramayana – Itihasa of Dharma, Devotion, and Ideal Conduct"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "लेख",
+            "name": "रामायण - धर्म, भक्ति, र आदर्श आचरणको इतिहास",
+            "description": "रामायणको बारेमा जान्नुहोस्: धर्म, भक्ति, नेतृत्व, र श्री रामद्वारा मूर्त आदर्शहरूको अन्वेषण गर्ने इतिहास परम्परा।",
+            "url": "https://sanatanadharmam.in/itihasa/ramayana",
+            "isPartOf": {
+                "@type": "वेबसाइट",
+                "name": "सनातन धर्मम",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "रामायण सनातन धर्मको केन्द्रीय इतिहास परम्परा मध्ये एक हो। यो परम्परागत रूपमा महर्षि वाल्मीकिलाई श्रेय दिइएको छ र सीता, लक्ष्मण, हनुमान, र अन्य धेरै सम्मानित व्यक्तित्वहरूको साथमा - अक्सर धर्मको अवतारको रूपमा सम्मानित श्री रामको जीवनलाई वर्णन गर्दछ।\n\nकथा भन्दा बाहिर, रामायण कार्यमा मूल्यहरूको लागि मार्गदर्शक हो: कर्तव्य र करुणा, आत्म-नियन्त्रण, सत्यता, भक्ति, र नेतृत्व र पारिवारिक जीवनको जिम्मेवारीहरू।",
+        "scripture_text": [
+            {
+                "section": "संरचना (Kandas)",
+                "content": "शास्त्रीय वाल्मीकि रामायण सामान्यतया सात काण्ड (पुस्तकहरू) मा प्रस्तुत गरिएको छ: बाल, अयोध्या, अरण्य, किष्किंध, सुन्दर, युद्ध र उत्तर। प्रत्येक काण्डले कथालाई अगाडि बढाउँछ र फरक नैतिक र आध्यात्मिक पाठहरू हाइलाइट गर्दछ।"
+            },
+            {
+                "section": "मुख्य विषयवस्तुहरू",
+                "content": "यसको एपिसोडहरूमा, रामायणले स्वधर्म (एकको उचित कर्तव्य), भाकलको लागत, मन र बोलीको अनुशासन, र भक्तिको शक्ति (विशेष गरी हनुमानको सेवामा देखाइएको) को अर्थ अन्वेषण गर्दछ।"
+            }
+        ],
+        "philosophical_explanation": "रामायणको एक प्रमुख दार्शनिक योगदान यसको धर्मको जीवित चित्र हो। नैतिकतालाई नियमको रूपमा मात्र वर्णन गर्नुको सट्टा, यसले प्रतिस्पर्धात्मक दायित्वहरू - राज्य र परिवार, प्रतिज्ञा र परिणाम, बल र नम्रता देखाउँछ। यसले यसलाई प्रतिबिम्बको लागि व्यावहारिक पाठ बनाउँछ: प्रत्येक विकल्पले लागत बोक्दा सही कार्य के हो?\n\nभक्तिपूर्ण पठनमा, रामायणले पनि भक्तिको खेती गर्दछ: स्मरण, सेवा र समर्पण। चिन्तनशील पढाइमा, यसले संलग्नता, शोक, साहस, र स्थिर भित्री पङ्क्तिबद्धतामा सोधपुछ गर्न निम्तो दिन्छ जसले घटनाहरूद्वारा तोडिएको बिना कार्य गर्न अनुमति दिन्छ।"
+    }
 }

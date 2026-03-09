@@ -1,58 +1,64 @@
 {
-  "ramayana_yuddha-kanda": {
-    "title": "Yuddha Kanda – Ramayana Section Summary",
-    "description": "Explore Yuddha Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
-    "meta": {
-      "title": "Yuddha Kanda – Ramayana Section Summary",
-      "canonical": "https://sanatanadharmam.in/itihasa/ramayana/yuddha-kanda",
-      "description": "Explore Yuddha Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
-      "keywords": ["Yuddha Kanda", "Ramayana", "Itihasa", "dharma", "Sri Rama"],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/itihasa/ramayana/yuddha-kanda",
-      "ogImage": "https://sanatanadharmam.in/og/ramayana_yuddha_kanda.png"
-    },
-    "openGraph": {
-      "title": "Yuddha Kanda – Ramayana Section Summary",
-      "description": "Explore Yuddha Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
-      "url": "https://sanatanadharmam.in/itihasa/ramayana/yuddha-kanda",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/ramayana_yuddha_kanda.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Yuddha Kanda – Ramayana Section Summary"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Yuddha Kanda – Ramayana Section Summary",
-      "description": "Explore Yuddha Kanda of the Ramayana: key events, dharmic lessons, and philosophical themes presented through narrative.",
-      "url": "https://sanatanadharmam.in/itihasa/ramayana/yuddha-kanda",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "Yuddha Kanda is one of the traditional kandas (books) of the Ramayana. Each kanda advances the narrative while emphasizing specific virtues—courage, restraint, loyalty, compassion, and the responsibilities of leadership and family life.\n\nThis page provides a safe overview and reflection prompts without relying on long quotations.",
-    "scripture_text": [
-      {
-        "section": "Narrative arc",
-        "content": "A brief summary of the key events in this kanda and how they set up the next stage of the story."
-      },
-      {
-        "section": "Dharmic lessons",
-        "content": "Themes to notice: promises and consequences, right speech, self-control, and how characters respond under pressure."
-      },
-      {
-        "section": "Practice reflection",
-        "content": "Ask: What is the right action here? What inner quality is being tested? How does devotion or humility change the outcome?"
-      }
-    ],
-    "philosophical_explanation": "The Ramayana is often read as dharma-in-action. Kandawise reflection helps translate ideals into practical guidance: how to keep integrity when life is difficult, how to honor duty without hardening the heart, and how to act with steadiness rather than impulse."
-  }
+    "ramayana_yuddha-kanda": {
+        "title": "Yuddha Kanda – Résumé de la section Ramayana",
+        "description": "Explorez le Yuddha Kanda du Ramayana : événements clés, leçons dharmiques et thèmes philosophiques présentés à travers le récit.",
+        "meta": {
+            "title": "Yuddha Kanda – Résumé de la section Ramayana",
+            "canonical": "https://sanatanadharmam.in/itihasa/ramayana/yuddha-kanda",
+            "description": "Explorez le Yuddha Kanda du Ramayana : événements clés, leçons dharmiques et thèmes philosophiques présentés à travers le récit.",
+            "keywords": [
+                "Yuddha Kanda",
+                "Ramayana",
+                "Itihasa",
+                "dharma",
+                "Sri Rama"
+            ],
+            "robots": "indexer, suivre",
+            "url": "https://sanatanadharmam.in/itihasa/ramayana/yuddha-kanda",
+            "ogImage": "https://sanatanadharmam.in/og/ramayana_yuddha_kanda.png"
+        },
+        "openGraph": {
+            "title": "Yuddha Kanda – Résumé de la section Ramayana",
+            "description": "Explorez le Yuddha Kanda du Ramayana : événements clés, leçons dharmiques et thèmes philosophiques présentés à travers le récit.",
+            "url": "https://sanatanadharmam.in/itihasa/ramayana/yuddha-kanda",
+            "siteName": "Sanatanadharman",
+            "type": "article",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/ramayana_yuddha_kanda.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Yuddha Kanda – Ramayana Section Summary"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "Articles",
+            "name": "Yuddha Kanda – Résumé de la section Ramayana",
+            "description": "Explorez le Yuddha Kanda du Ramayana : événements clés, leçons dharmiques et thèmes philosophiques présentés à travers le récit.",
+            "url": "https://sanatanadharmam.in/itihasa/ramayana/yuddha-kanda",
+            "isPartOf": {
+                "@type": "Site Web",
+                "name": "Sanatanadharman",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "Le Yuddha Kanda est l'un des kandas (livres) traditionnels du Ramayana. Chaque kanda fait avancer le récit tout en mettant l'accent sur des vertus spécifiques : le courage, la retenue, la loyauté, la compassion et les responsabilités de leadership et de vie de famille.\n\nCette page fournit un aperçu sûr et des invites à la réflexion sans recourir à de longues citations.",
+        "scripture_text": [
+            {
+                "section": "Arc narratif",
+                "content": "Un bref résumé des événements clés de ce kanda et comment ils mettent en place la prochaine étape de l'histoire."
+            },
+            {
+                "section": "Leçons dharmiques",
+                "content": "Thèmes à remarquer : les promesses et les conséquences, le discours juste, la maîtrise de soi et la façon dont les personnages réagissent sous la pression."
+            },
+            {
+                "section": "Pratiquer la réflexion",
+                "content": "Demandez : Quelle est la bonne action ici ? Quelle qualité intérieure est testée ? Comment la dévotion ou l’humilité change-t-elle le résultat ?"
+            }
+        ],
+        "philosophical_explanation": "Le Ramayana est souvent lu comme un dharma en action. La réflexion Kandawise aide à traduire les idéaux en conseils pratiques : comment rester intègre lorsque la vie est difficile, comment honorer son devoir sans endurcir son cœur et comment agir avec fermeté plutôt qu'impulsivité."
+    }
 }

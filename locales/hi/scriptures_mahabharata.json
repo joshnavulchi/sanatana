@@ -1,61 +1,61 @@
 {
-  "scriptures_mahabharata": {
-    "title": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice",
-    "description": "Explore the Mahabharata: a vast Itihasa exploring dharma, conflict, duty, and the complexity of human decision-making.",
-    "meta": {
-      "title": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice",
-      "canonical": "https://sanatanadharmam.in/itihasa/mahabharata",
-      "description": "Explore the Mahabharata: a vast Itihasa exploring dharma, conflict, duty, and the complexity of human decision-making.",
-      "keywords": [
-        "Mahabharata",
-        "Itihasa",
-        "Vyasa",
-        "dharma",
-        "ethics",
-        "Sanatana Dharma"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/itihasa/mahabharata",
-      "ogImage": "https://sanatanadharmam.in/og/scriptures_mahabharata.png"
-    },
-    "openGraph": {
-      "title": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice",
-      "description": "Explore the Mahabharata: a vast Itihasa exploring dharma, conflict, duty, and the complexity of human decision-making.",
-      "url": "https://sanatanadharmam.in/itihasa/mahabharata",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/scriptures_mahabharata.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice"
-        }
-      ]
-    },
-    "schema": {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice",
-      "description": "Explore the Mahabharata: a vast Itihasa exploring dharma, conflict, duty, and the complexity of human decision-making.",
-      "url": "https://sanatanadharmam.in/itihasa/mahabharata",
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "Sanatanadharmam",
-        "url": "https://sanatanadharmam.in"
-      }
-    },
-    "introduction": "The Mahabharata is a vast Itihasa traditionally attributed to Maharshi Vyasa. It is both an epic narrative and an encyclopedic source of ethical debate, spiritual teaching, and social reflection. Through the conflict between the Pandavas and Kauravas, it examines duty, ambition, loyalty, and the consequences of choices across generations.\n\nIt is also the broader context in which the Bhagavad Gita appears, connecting spiritual instruction to the hardest questions of real life.",
-    "scripture_text": [
-      {
-        "section": "Structure (Parvas)",
-        "content": "The Mahabharata is commonly divided into eighteen parvas (books). The parvas contain multiple interwoven stories, dialogues, and teachings rather than a single linear plot."
-      },
-      {
-        "section": "Ethical inquiry",
-        "content": "A defining feature of the Mahabharata is its willingness to present moral ambiguity. Characters face dilemmas where every option has a cost, and the text often frames dharma as something to be discerned through reflection, counsel, and self-honesty."
-      }
-    ],
-    "philosophical_explanation": "The Mahabharata’s philosophy is inseparable from its realism. It teaches that dharma is not always obvious and that intention, context, and consequence matter. It also highlights how inner states—anger, envy, fear, pride—shape outer outcomes.\n\nAs spiritual literature, the Mahabharata pushes the reader toward maturity: a steadier mind, a wider compassion, and the capacity to act responsibly even in imperfect conditions."
-  }
+    "scriptures_mahabharata": {
+        "title": "महाभारत - धर्म, नैतिकता और मानव पसंद का इतिहास",
+        "description": "महाभारत का अन्वेषण करें: धर्म, संघर्ष, कर्तव्य और मानव निर्णय लेने की जटिलता की खोज करने वाला एक विशाल इतिहास।",
+        "meta": {
+            "title": "महाभारत - धर्म, नैतिकता और मानव पसंद का इतिहास",
+            "canonical": "https://sanatanadharmam.in/itihasa/mahabharata",
+            "description": "महाभारत का अन्वेषण करें: धर्म, संघर्ष, कर्तव्य और मानव निर्णय लेने की जटिलता की खोज करने वाला एक विशाल इतिहास।",
+            "keywords": [
+                "महाभारत",
+                "इतिहास",
+                "व्यास",
+                "धर्म",
+                "नैतिकता",
+                "सनातन धर्म"
+            ],
+            "robots": "अनुक्रमणिका, अनुसरण करें",
+            "url": "https://sanatanadharmam.in/itihasa/mahabharata",
+            "ogImage": "https://sanatanadharmam.in/og/scriptures_mahabharata.png"
+        },
+        "openGraph": {
+            "title": "महाभारत - धर्म, नैतिकता और मानव पसंद का इतिहास",
+            "description": "महाभारत का अन्वेषण करें: धर्म, संघर्ष, कर्तव्य और मानव निर्णय लेने की जटिलता की खोज करने वाला एक विशाल इतिहास।",
+            "url": "https://sanatanadharmam.in/itihasa/mahabharata",
+            "siteName": "सनातनधर्मम्",
+            "type": "आलेख",
+            "images": [
+                {
+                    "url": "https://sanatanadharmam.in/og/scriptures_mahabharata.png",
+                    "width": 1200,
+                    "height": 630,
+                    "alt": "Mahabharata – Itihasa of Dharma, Ethics, and Human Choice"
+                }
+            ]
+        },
+        "schema": {
+            "@context": "https://schema.org",
+            "@type": "आलेख",
+            "name": "महाभारत - धर्म, नैतिकता और मानव पसंद का इतिहास",
+            "description": "महाभारत का अन्वेषण करें: धर्म, संघर्ष, कर्तव्य और मानव निर्णय लेने की जटिलता की खोज करने वाला एक विशाल इतिहास।",
+            "url": "https://sanatanadharmam.in/itihasa/mahabharata",
+            "isPartOf": {
+                "@type": "वेबसाइट",
+                "name": "सनातनधर्मम्",
+                "url": "https://sanatanadharmam.in"
+            }
+        },
+        "introduction": "महाभारत एक विशाल इतिहास है जिसका श्रेय पारंपरिक रूप से महर्षि व्यास को दिया जाता है। यह एक महाकाव्य कथा और नैतिक बहस, आध्यात्मिक शिक्षा और सामाजिक प्रतिबिंब का एक विश्वकोश स्रोत दोनों है। पांडवों और कौरवों के बीच संघर्ष के माध्यम से, यह कर्तव्य, महत्वाकांक्षा, वफादारी और पीढ़ियों के बीच विकल्पों के परिणामों की जांच करता है।\n\nयह एक व्यापक संदर्भ भी है जिसमें भगवद गीता प्रकट होती है, जो आध्यात्मिक शिक्षा को वास्तविक जीवन के सबसे कठिन प्रश्नों से जोड़ती है।",
+        "scripture_text": [
+            {
+                "section": "संरचना (पर्व)",
+                "content": "महाभारत को सामान्यतः अठारह पर्वों (पुस्तकों) में विभाजित किया गया है। पर्वों में एक ही रेखीय कथानक के बजाय कई परस्पर जुड़ी कहानियाँ, संवाद और शिक्षाएँ शामिल हैं।"
+            },
+            {
+                "section": "नैतिक पूछताछ",
+                "content": "महाभारत की एक परिभाषित विशेषता नैतिक अस्पष्टता प्रस्तुत करने की इसकी इच्छा है। पात्रों को दुविधाओं का सामना करना पड़ता है जहां हर विकल्प की एक कीमत होती है, और पाठ अक्सर धर्म को प्रतिबिंब, परामर्श और आत्म-ईमानदारी के माध्यम से समझने योग्य चीज़ के रूप में प्रस्तुत करता है।"
+            }
+        ],
+        "philosophical_explanation": "महाभारत का दर्शन उसके यथार्थवाद से अविभाज्य है। यह सिखाता है कि धर्म हमेशा स्पष्ट नहीं होता है और इरादा, संदर्भ और परिणाम मायने रखते हैं। यह इस बात पर भी प्रकाश डालता है कि कैसे आंतरिक स्थितियाँ-क्रोध, ईर्ष्या, भय, घमंड-बाहरी परिणामों को आकार देती हैं।\n\nआध्यात्मिक साहित्य के रूप में, महाभारत पाठक को परिपक्वता की ओर धकेलता है: एक स्थिर दिमाग, एक व्यापक करुणा, और अपूर्ण परिस्थितियों में भी जिम्मेदारी से कार्य करने की क्षमता।"
+    }
 }
