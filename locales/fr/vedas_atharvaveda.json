@@ -1,30 +1,30 @@
 {
   "atharvaveda": {
-    "title": "Atharvaveda – The Veda of Everyday Life and Healing | Sanatana Dharma",
-    "description": "Explore the Atharvaveda, the Veda of healing, domestic rituals and philosophical speculation. Learn about its hymns, medicinal knowledge, cosmological thought and spiritual teachings.",
+    "title": "Atharvaveda – Le Veda de la vie quotidienne et de la guérison | Sanatana Dharma",
+    "description": "Explorez l'Atharvaveda, le Veda de la guérison, des rituels domestiques et de la spéculation philosophique. Découvrez ses hymnes, ses connaissances médicinales, sa pensée cosmologique et ses enseignements spirituels.",
     "meta": {
-      "title": "Atharvaveda – The Veda of Everyday Life and Healing | Sanatana Dharma",
+      "title": "Atharvaveda – Le Veda de la vie quotidienne et de la guérison | Sanatana Dharma",
       "canonical": "https://sanatanadharmam.in/vedas/atharvaveda",
-      "description": "Explore the Atharvaveda, the Veda of healing, domestic rituals and philosophical speculation. Learn about its hymns, medicinal knowledge, cosmological thought and spiritual teachings.",
+      "description": "Explorez l'Atharvaveda, le Veda de la guérison, des rituels domestiques et de la spéculation philosophique. Découvrez ses hymnes, ses connaissances médicinales, sa pensée cosmologique et ses enseignements spirituels.",
       "keywords": [
-        "Atharvaveda",
-        "Atharva Veda meaning",
-        "Vedic healing",
-        "Vedic medicine",
-        "Atharvaveda hymns",
-        "ancient Indian healing",
-        "domestic rituals",
-        "Sanatana Dharma Vedas",
+        "Atharvavéda",
+        "Atharva Veda signifiant",
+        "Guérison védique",
+        "Médecine védique",
+        "Hymnes Atharvaveda",
+        "guérison indienne ancienne",
+        "rituels domestiques",
+        "Sanatana Dharma Védas",
         "Prithvi Sukta",
-        "Hindu scriptures"
+        "Écritures hindoues"
       ],
       "url": "https://sanatanadharmam.in/vedas/atharvaveda"
     },
     "openGraph": {
-      "title": "Atharvaveda – The Sacred Veda of Healing and Everyday Wisdom",
-      "description": "Discover the Atharvaveda, the fourth Veda covering healing arts, domestic ceremonies, philosophical speculation and the wisdom of everyday life in Vedic tradition.",
+      "title": "Atharvaveda – Le Veda sacré de la guérison et de la sagesse quotidienne",
+      "description": "Découvrez l'Atharvaveda, le quatrième Veda couvrant les arts de guérison, les cérémonies domestiques, la spéculation philosophique et la sagesse de la vie quotidienne dans la tradition védique.",
       "url": "https://sanatanadharmam.in/vedas/atharvaveda",
-      "siteName": "Sanatanadharmam",
+      "siteName": "Sanatanadharman",
       "type": "article",
       "images": [
         {
@@ -37,142 +37,142 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Atharvaveda",
-      "description": "The Atharvaveda is the fourth Veda, containing hymns related to healing, domestic rituals, philosophical reflection and the practical wisdom of everyday life.",
+      "@type": "Travail créatif",
+      "name": "Atharvavéda",
+      "description": "L'Atharvaveda est le quatrième Veda, contenant des hymnes liés à la guérison, aux rituels domestiques, à la réflexion philosophique et à la sagesse pratique de la vie quotidienne.",
       "author": {
-        "@type": "Person",
+        "@type": "Personne",
         "name": "Ved Vyasa"
       },
       "inLanguage": "Sanskrit",
       "publisher": {
-        "@type": "Organization",
-        "name": "Sanatanadharmam",
+        "@type": "Organisation",
+        "name": "Sanatanadharman",
         "url": "https://sanatanadharmam.in"
       },
       "about": [
-        "Atharvaveda",
-        "Vedic healing",
+        "Atharvavéda",
+        "Guérison védique",
         "Sanatana Dharma",
-        "domestic rituals",
-        "ancient scriptures"
+        "rituels domestiques",
+        "écritures anciennes"
       ],
       "url": "https://sanatanadharmam.in/vedas/atharvaveda"
     },
-    "introduction": "The Atharvaveda is the fourth and most distinct of the four Vedas. Named after the ancient sage Atharvan who is credited with discovering fire and establishing the earliest ritual practices, the Atharvaveda represents a unique branch of Vedic knowledge that addresses the practical concerns of everyday life alongside profound philosophical speculation.\n\nThe name 'Atharvaveda' combines 'Atharvan', referring to the sage and his tradition of sacred fire practices, with 'Veda', meaning knowledge. An alternative name for this text is the Atharvangirasa Veda, acknowledging both the sage Atharvan and the sage Angiras whose hymns also form a significant part of the collection.\n\nWhile the Rigveda focuses on hymns of praise, the Yajurveda on sacrificial formulas and the Samaveda on musical chants, the Atharvaveda addresses a remarkably wide range of human concerns. Its 730 hymns spread across 20 books cover topics including healing and medicine, protection from disease and evil, domestic ceremonies, marriage and funeral rites, royal consecration, agricultural practices, philosophical inquiry and cosmological speculation.\n\nThe Atharvaveda was initially not included in the Trayi Vidya or the threefold sacred knowledge of the earlier Vedic tradition. Over time, however, its importance was recognized and it was accepted as the fourth Veda. The Brahma priest, who supervises the entire sacrificial ceremony and must possess knowledge of all the Vedas, draws particularly upon the Atharvaveda.\n\nThe two main recensions of the Atharvaveda are the Shaunaka and the Paippalada. The Shaunaka recension is more widely studied and contains 730 hymns organized into 20 books. The Paippalada recension, preserved primarily in the Odisha and Kashmir traditions, contains additional material not found in the Shaunaka version.\n\nThe Atharvaveda's unique character makes it an invaluable source for understanding the full breadth of Vedic civilization, from the spiritual heights of philosophical inquiry to the practical realities of health, agriculture and community life.",
+    "introduction": "L'Atharvaveda est le quatrième et le plus distinct des quatre Vedas. Nommé d'après l'ancien sage Atharvan, à qui l'on attribue la découverte du feu et l'établissement des premières pratiques rituelles, l'Atharvaveda représente une branche unique de la connaissance védique qui aborde les préoccupations pratiques de la vie quotidienne ainsi que de profondes spéculations philosophiques.\n\nLe nom « Atharvaveda » combine « Atharvan », faisant référence au sage et à sa tradition de pratiques du feu sacré, avec « Veda », signifiant connaissance. Un autre nom pour ce texte est Atharvangirasa Veda, reconnaissant à la fois le sage Atharvan et le sage Angiras dont les hymnes constituent également une partie importante de la collection.\n\nAlors que le Rigveda se concentre sur les hymnes de louange, le Yajurveda sur les formules sacrificielles et le Samaveda sur les chants musicaux, l'Atharvaveda aborde un éventail remarquablement large de préoccupations humaines. Ses 730 hymnes répartis dans 20 livres couvrent des sujets tels que la guérison et la médecine, la protection contre la maladie et le mal, les cérémonies domestiques, les rites de mariage et de funérailles, la consécration royale, les pratiques agricoles, la recherche philosophique et la spéculation cosmologique.\n\nL'Atharvaveda n'était initialement pas inclus dans le Trayi Vidya ou dans la triple connaissance sacrée de la tradition védique antérieure. Au fil du temps, cependant, son importance a été reconnue et il a été accepté comme le quatrième Veda. Le prêtre Brahma, qui supervise toute la cérémonie sacrificielle et doit posséder la connaissance de tous les Vedas, s'appuie particulièrement sur l'Atharvaveda.\n\nLes deux principales recensions de l'Atharvaveda sont le Shaunaka et le Paippalada. La recension Shaunaka est plus largement étudiée et contient 730 hymnes organisés en 20 livres. La recension Paippalada, conservée principalement dans les traditions d'Odisha et du Cachemire, contient des éléments supplémentaires introuvables dans la version Shaunaka.\n\nLe caractère unique de l'Atharvaveda en fait une source inestimable pour comprendre toute l'étendue de la civilisation védique, depuis les hauteurs spirituelles de la recherche philosophique jusqu'aux réalités pratiques de la santé, de l'agriculture et de la vie communautaire.",
     "scripture_text": [
       {
-        "section": "Healing and Medicine",
-        "content": "The Atharvaveda is widely regarded as the foundation of the ancient Indian medical tradition that later developed into Ayurveda. Many hymns describe the properties of medicinal plants, the causes and treatments of diseases, and prayers for health and longevity.\n\nThe text identifies numerous healing herbs and describes their applications for treating various ailments. Hymns address specific conditions including fever, cough, skin diseases, wounds, poisoning and mental afflictions. The treatments combine herbal remedies with sacred mantras and ritual practices, reflecting the Vedic understanding that health involves the harmony of body, mind and spirit.\n\nOne famous hymn describes the healing power of water as a universal medicine, while others praise specific plants for their ability to restore vitality and drive away disease. The Atharvaveda's approach to healing is holistic, recognizing that physical wellness cannot be separated from psychological and spiritual well-being.\n\nThis integration of medical knowledge with spiritual practice established a tradition that continues to influence Indian healing systems to the present day."
+        "section": "Guérison et médecine",
+        "content": "L’Atharvaveda est largement considéré comme le fondement de l’ancienne tradition médicale indienne qui s’est ensuite développée en Ayurveda. De nombreux hymnes décrivent les propriétés des plantes médicinales, les causes et les traitements des maladies, ainsi que des prières pour la santé et la longévité.\n\nLe texte identifie de nombreuses herbes médicinales et décrit leurs applications pour traiter diverses maladies. Les hymnes abordent des conditions spécifiques, notamment la fièvre, la toux, les maladies de peau, les blessures, les empoisonnements et les afflictions mentales. Les traitements combinent des remèdes à base de plantes avec des mantras sacrés et des pratiques rituelles, reflétant la compréhension védique selon laquelle la santé implique l'harmonie du corps, de l'esprit et de l'esprit.\n\nUn hymne célèbre décrit le pouvoir curatif de l’eau comme un médicament universel, tandis que d’autres louent certaines plantes pour leur capacité à restaurer la vitalité et à chasser les maladies. L'approche de guérison de l'Atharvaveda est holistique, reconnaissant que le bien-être physique ne peut être séparé du bien-être psychologique et spirituel.\n\nCette intégration des connaissances médicales avec la pratique spirituelle a établi une tradition qui continue d'influencer les systèmes de guérison indiens jusqu'à nos jours."
       },
       {
-        "section": "Domestic Rituals and Daily Life",
-        "content": "A significant portion of the Atharvaveda is devoted to the rituals and concerns of ordinary household life. Unlike the grand sacrificial ceremonies described in the other Vedas, these hymns address the everyday needs of families and communities.\n\nThe text contains hymns for marriage ceremonies, prayers for the welfare of children, protection of the home, success in agriculture and trade, and the resolution of disputes. There are mantras for safe travel, for finding lost property and for ensuring harmony within the family.\n\nFuneral hymns guide the proper performance of last rites and offer prayers for the peaceful journey of the departed soul. Birth ceremonies welcome new life with blessings for health, wisdom and prosperity.\n\nThe Atharvaveda also includes hymns related to royal governance and statecraft. The Rajasūya and other royal consecration ceremonies draw upon Atharvavedic mantras, and there are hymns that describe the qualities of just kingship and the duties of rulers toward their people.\n\nThese domestic and civic hymns reveal a culture deeply concerned with the well-being of individuals and communities, recognizing that spiritual life encompasses all aspects of human experience."
+        "section": "Rituels domestiques et vie quotidienne",
+        "content": "Une partie importante de l'Atharvaveda est consacrée aux rituels et aux préoccupations de la vie domestique ordinaire. Contrairement aux grandes cérémonies sacrificielles décrites dans les autres Vedas, ces hymnes répondent aux besoins quotidiens des familles et des communautés.\n\nLe texte contient des hymnes pour les cérémonies de mariage, des prières pour le bien-être des enfants, la protection du foyer, la réussite dans l'agriculture et le commerce et la résolution des différends. Il existe des mantras pour voyager en toute sécurité, pour retrouver les objets perdus et pour assurer l'harmonie au sein de la famille.\n\nLes hymnes funéraires guident la bonne exécution des derniers rites et offrent des prières pour le voyage paisible de l'âme défunte. Les cérémonies de naissance accueillent une nouvelle vie avec des bénédictions pour la santé, la sagesse et la prospérité.\n\nL'Atharvaveda comprend également des hymnes liés à la gouvernance royale et à l'art de gouverner. Le Rajasūya et d'autres cérémonies de consécration royale s'appuient sur des mantras atharvavédiques, et certains hymnes décrivent les qualités d'une royauté juste et les devoirs des dirigeants envers leur peuple.\n\nCes hymnes domestiques et civiques révèlent une culture profondément soucieuse du bien-être des individus et des communautés, reconnaissant que la vie spirituelle englobe tous les aspects de l'expérience humaine."
       },
       {
-        "section": "The Prithvi Sukta",
-        "content": "One of the most remarkable hymns in the Atharvaveda is the Prithvi Sukta or Hymn to the Earth found in Book 12. This extended hymn celebrates the Earth as a divine mother who sustains all living beings.\n\nThe Prithvi Sukta expresses a profound ecological awareness, describing the Earth's mountains, rivers, forests, seasons and the interconnected web of life they support. The hymn prays for the Earth's continued fertility, for the well-being of all creatures that inhabit her surface, and for harmony between human civilization and the natural world.\n\nThe hymn declares that the Earth bears many nations speaking many languages and following many customs, expressing an early vision of universal tolerance and coexistence. It recognizes the diversity of life as a manifestation of the Earth's abundance and creative power.\n\nThe Prithvi Sukta is often cited as one of the earliest expressions of environmental consciousness in world literature, demonstrating that the ancient Vedic tradition valued the protection and reverence of the natural world."
+        "section": "Le Prithvi Sukta",
+        "content": "L'un des hymnes les plus remarquables de l'Atharvaveda est le Prithvi Sukta ou Hymne à la Terre trouvé dans le livre 12. Cet hymne étendu célèbre la Terre en tant que mère divine qui soutient tous les êtres vivants.\n\nLe Prithvi Sukta exprime une profonde conscience écologique, décrivant les montagnes, les rivières, les forêts, les saisons et le réseau interconnecté de la vie qu'ils soutiennent. L'hymne prie pour la fertilité continue de la Terre, pour le bien-être de toutes les créatures qui habitent sa surface et pour l'harmonie entre la civilisation humaine et le monde naturel.\n\nL'hymne déclare que la Terre abrite de nombreuses nations parlant de nombreuses langues et suivant de nombreuses coutumes, exprimant une vision précoce de tolérance et de coexistence universelles. Il reconnaît la diversité de la vie comme une manifestation de l'abondance et de la puissance créatrice de la Terre.\n\nLe Prithvi Sukta est souvent cité comme l’une des premières expressions de conscience environnementale dans la littérature mondiale, démontrant que l’ancienne tradition védique valorisait la protection et le respect du monde naturel."
       }
     ],
-    "philosophical_explanation": "The Atharvaveda contributes significantly to Indian philosophical thought, particularly in the areas of cosmology, the nature of time and the relationship between the individual and the universe.\n\nSeveral hymns in the Atharvaveda explore the mystery of creation in ways that complement and extend the cosmological speculations of the Rigveda. The Skambha Sukta or Hymn to the Cosmic Pillar describes a universal supporting principle that holds together all of creation. This cosmic pillar or Skambha is identified with Brahman, the ultimate reality, and the hymn asks probing questions about the nature of this foundational support.\n\nThe concept of Kala or Time receives extensive treatment in the Atharvaveda. Time is described as a cosmic force that creates and dissolves all things, that drives the seasons and sustains the rhythm of life. This philosophical exploration of time as a divine principle influenced later Hindu, Buddhist and Jain philosophical thinking.\n\nThe Atharvaveda also develops the concept of Brahman more explicitly than the earlier Vedas. Several hymns describe Brahman as the supreme reality underlying all existence, the source from which everything emerges and to which everything returns. These teachings anticipate the systematic Brahman philosophy of the Upanishads.\n\nThe Mundaka Upanishad, associated with the Atharvaveda, introduces the important distinction between Para Vidya, higher knowledge leading to the realization of Brahman, and Apara Vidya, lower knowledge including the study of the Vedas themselves. This teaching emphasizes that true spiritual liberation transcends even scriptural learning and requires direct experiential knowledge of ultimate reality.\n\nThe Prashna Upanishad, also connected to the Atharvaveda, explores six fundamental questions about the nature of creation, the life force, the mind and the relation of the individual to the universal. Together, these Upanishads establish the Atharvaveda as a significant source of the deepest philosophical teachings of the Vedic tradition.",
+    "philosophical_explanation": "L'Atharvaveda contribue de manière significative à la pensée philosophique indienne, notamment dans les domaines de la cosmologie, de la nature du temps et de la relation entre l'individu et l'univers.\n\nPlusieurs hymnes de l'Atharvaveda explorent le mystère de la création d'une manière qui complète et étend les spéculations cosmologiques du Rigveda. Le Skambha Sukta ou Hymne au Pilier Cosmique décrit un principe de soutien universel qui maintient ensemble toute la création. Ce pilier cosmique ou Skambha est identifié à Brahman, la réalité ultime, et l'hymne pose des questions approfondies sur la nature de ce support fondamental.\n\nLe concept de Kala ou Temps fait l'objet d'un traitement approfondi dans l'Atharvaveda. Le temps est décrit comme une force cosmique qui crée et dissout toutes choses, qui détermine les saisons et maintient le rythme de la vie. Cette exploration philosophique du temps en tant que principe divin a influencé la pensée philosophique hindoue, bouddhiste et jaïne ultérieure.\n\nL'Atharvaveda développe également le concept de Brahman de manière plus explicite que les Vedas antérieurs. Plusieurs hymnes décrivent Brahman comme la réalité suprême qui sous-tend toute existence, la source d'où tout émerge et à laquelle tout retourne. Ces enseignements anticipent la philosophie brahmanique systématique des Upanishads.\n\nLe Mundaka Upanishad, associé à l'Atharvaveda, introduit la distinction importante entre Para Vidya, connaissance supérieure menant à la réalisation de Brahman, et Apara Vidya, connaissance inférieure incluant l'étude des Vedas eux-mêmes. Cet enseignement souligne que la véritable libération spirituelle transcende même l’apprentissage scripturaire et nécessite une connaissance expérientielle directe de la réalité ultime.\n\nLe Prashna Upanishad, également lié à l'Atharvaveda, explore six questions fondamentales sur la nature de la création, la force vitale, l'esprit et la relation de l'individu à l'universel. Ensemble, ces Upanishads établissent l'Atharvaveda comme une source importante des enseignements philosophiques les plus profonds de la tradition védique.",
     "atharvaveda_books": [
       {
         "book": 1,
-        "title": "Atharvaveda Books 1 to 4 – Healing and Protection",
-        "introduction": "The opening books of the Atharvaveda contain hymns primarily focused on healing diseases, protecting against harmful forces and ensuring well-being.",
-        "scripture_text": "These books include mantras for curing specific ailments, prayers for long life and vitality, and protective charms against various threats. Many hymns invoke the healing power of plants and water.",
+        "title": "Atharvaveda Livres 1 à 4 – Guérison et Protection",
+        "introduction": "Les premiers livres de l'Atharvaveda contiennent des hymnes principalement axés sur la guérison des maladies, la protection contre les forces nocives et l'assurance du bien-être.",
+        "scripture_text": "Ces livres comprennent des mantras pour guérir des maladies spécifiques, des prières pour une longue vie et une vitalité, ainsi que des charmes protecteurs contre diverses menaces. De nombreux hymnes évoquent le pouvoir curatif des plantes et de l’eau.",
         "philosophical_explanation": "The healing hymns reflect the Vedic understanding that health is a sacred gift and that maintaining well-being requires harmony between the physical body, the natural environment and the spiritual realm."
       },
       {
         "book": 2,
-        "title": "Atharvaveda Books 5 to 7 – Domestic Harmony",
-        "introduction": "Books 5 through 7 contain hymns related to domestic life, family harmony, marriage, prosperity and community welfare.",
-        "scripture_text": "These sections include wedding mantras, prayers for children, hymns for agricultural success and formulas for resolving conflicts. They address the full range of concerns that arise in household and community life.",
-        "philosophical_explanation": "The domestic hymns teach that spiritual practice is not limited to formal rituals but extends to every aspect of daily life. The home itself becomes a sacred space when approached with awareness and devotion."
+        "title": "Atharvaveda Livres 5 à 7 – Harmonie domestique",
+        "introduction": "Les livres 5 à 7 contiennent des hymnes liés à la vie domestique, à l'harmonie familiale, au mariage, à la prospérité et au bien-être de la communauté.",
+        "scripture_text": "Ces sections comprennent des mantras de mariage, des prières pour les enfants, des hymnes pour la réussite agricole et des formules pour résoudre les conflits. Ils répondent à l’ensemble des préoccupations qui se posent dans la vie domestique et communautaire.",
+        "philosophical_explanation": "Les hymnes domestiques enseignent que la pratique spirituelle ne se limite pas aux rituels formels mais s'étend à tous les aspects de la vie quotidienne. La maison elle-même devient un espace sacré lorsqu’elle est abordée avec conscience et dévotion."
       },
       {
         "book": 3,
-        "title": "Atharvaveda Books 8 to 10 – Royal Ceremonies",
-        "introduction": "Books 8 through 10 include hymns for royal consecration, statecraft and the exercise of righteous authority.",
-        "scripture_text": "The texts describe ceremonies for crowning kings, prayers for the success of kingdoms and mantras that invoke divine support for just governance. The famous hymn to Viraj, a cosmic creative power, appears in this section.",
-        "philosophical_explanation": "The royal hymns establish the principle that political authority must be rooted in dharma and that the purpose of governance is the welfare of all beings within the ruler's domain."
+        "title": "Atharvaveda Livres 8 à 10 – Cérémonies royales",
+        "introduction": "Les livres 8 à 10 comprennent des hymnes pour la consécration royale, l'art de gouverner et l'exercice d'une autorité juste.",
+        "scripture_text": "Les textes décrivent des cérémonies de couronnement des rois, des prières pour le succès des royaumes et des mantras invoquant le soutien divin pour une gouvernance juste. Le célèbre hymne à Viraj, puissance créatrice cosmique, apparaît dans cette section.",
+        "philosophical_explanation": "Les hymnes royaux établissent le principe selon lequel l'autorité politique doit être enracinée dans le dharma et que le but de la gouvernance est le bien-être de tous les êtres relevant du domaine du dirigeant."
       },
       {
         "book": 4,
-        "title": "Atharvaveda Books 11 to 12 – Cosmic Powers",
-        "introduction": "Books 11 and 12 contain some of the most philosophically significant hymns in the Atharvaveda, addressing cosmic principles and universal forces.",
-        "scripture_text": "Book 11 includes the Skambha Sukta exploring the cosmic pillar that supports the universe. Book 12 contains the celebrated Prithvi Sukta, a hymn to the Earth as divine mother.",
-        "philosophical_explanation": "These books demonstrate the Atharvavedic capacity for profound metaphysical speculation, exploring questions about the ultimate structure of reality and humanity's relationship to the cosmos."
+        "title": "Atharvaveda Livres 11 à 12 – Pouvoirs cosmiques",
+        "introduction": "Les livres 11 et 12 contiennent certains des hymnes les plus philosophiquement significatifs de l'Atharvaveda, abordant les principes cosmiques et les forces universelles.",
+        "scripture_text": "Le livre 11 comprend le Skambha Sukta explorant le pilier cosmique qui soutient l'univers. Le livre 12 contient le célèbre Prithvi Sukta, un hymne à la Terre en tant que mère divine.",
+        "philosophical_explanation": "Ces livres démontrent la capacité atharvavédique de profonde spéculation métaphysique, explorant des questions sur la structure ultime de la réalité et la relation de l'humanité avec le cosmos."
       },
       {
         "book": 5,
-        "title": "Atharvaveda Books 13 to 15 – Solar Worship and Vratya",
-        "introduction": "Books 13 through 15 contain hymns celebrating the sun, exploring the concept of the Vratya wandering ascetics and developing solar theology.",
-        "scripture_text": "Book 13 contains hymns to Rohita, a form of the sun god, described as the supreme creative principle. Book 15 discusses the Vratya, wandering holy men who may represent early ascetic traditions outside the mainstream Vedic system.",
-        "philosophical_explanation": "The solar hymns develop the idea that the sun is not merely a celestial body but a manifestation of the supreme creative intelligence. The Vratya hymns reveal the Vedic tradition's engagement with diverse spiritual practices."
+        "title": "Atharvaveda Livres 13 à 15 – Culte solaire et Vratya",
+        "introduction": "Les livres 13 à 15 contiennent des hymnes célébrant le soleil, explorant le concept des ascètes errants de Vratya et développant la théologie solaire.",
+        "scripture_text": "Le livre 13 contient des hymnes à Rohita, une forme du dieu solaire, décrit comme le principe créateur suprême. Le livre 15 traite des Vratya, des saints hommes errants qui peuvent représenter les premières traditions ascétiques en dehors du système védique traditionnel.",
+        "philosophical_explanation": "Les hymnes solaires développent l’idée que le soleil n’est pas simplement un corps céleste mais une manifestation de l’intelligence créatrice suprême. Les hymnes Vratya révèlent l'engagement de la tradition védique dans diverses pratiques spirituelles."
       },
       {
         "book": 6,
-        "title": "Atharvaveda Book 16 – Protective Formulas",
-        "introduction": "Book 16 contains protective mantras and formulas for safeguarding against spiritual and physical dangers.",
-        "scripture_text": "The hymns invoke divine protection against malevolent forces and natural calamities. They also include purification rituals and mantras for restoring spiritual harmony after disturbances.",
-        "philosophical_explanation": "The protective formulas reflect the understanding that the spiritual path requires vigilance and that maintaining inner and outer purity is essential for spiritual progress."
+        "title": "Atharvaveda Livre 16 – Formules protectrices",
+        "introduction": "Le livre 16 contient des mantras protecteurs et des formules pour se prémunir contre les dangers spirituels et physiques.",
+        "scripture_text": "Les hymnes invoquent la protection divine contre les forces malveillantes et les calamités naturelles. Ils comprennent également des rituels de purification et des mantras pour restaurer l'harmonie spirituelle après des perturbations.",
+        "philosophical_explanation": "Les formules protectrices reflètent la compréhension que le chemin spirituel nécessite de la vigilance et que le maintien de la pureté intérieure et extérieure est essentiel au progrès spirituel."
       },
       {
         "book": 7,
-        "title": "Atharvaveda Books 17 to 18 – Devotion and Funeral Rites",
-        "introduction": "Books 17 and 18 contain devotional hymns and funeral liturgy used in cremation and memorial ceremonies.",
-        "scripture_text": "Book 17 contains extended devotional compositions addressing the sun deity. Book 18 provides the mantras and prayers for funeral ceremonies, guiding the departed soul on its journey and offering comfort to the bereaved.",
-        "philosophical_explanation": "The funeral hymns express the Vedic understanding that death is not an end but a transition. The soul continues its journey beyond physical existence, and proper ritual observance helps ensure a favorable passage."
+        "title": "Atharvaveda Livres 17 à 18 – Dévotion et rites funéraires",
+        "introduction": "Les livres 17 et 18 contiennent des hymnes dévotionnels et des liturgies funéraires utilisées lors des cérémonies de crémation et commémoratives.",
+        "scripture_text": "Le livre 17 contient de longues compositions de dévotion s'adressant à la divinité solaire. Le livre 18 fournit les mantras et les prières pour les cérémonies funéraires, guidant l'âme du défunt dans son voyage et offrant du réconfort aux personnes endeuillées.",
+        "philosophical_explanation": "Les hymnes funéraires expriment la compréhension védique selon laquelle la mort n'est pas une fin mais une transition. L'âme continue son voyage au-delà de l'existence physique, et l'observance rituelle appropriée contribue à assurer un passage favorable."
       },
       {
         "book": 8,
-        "title": "Atharvaveda Book 19 – Supplementary Hymns",
-        "introduction": "Book 19 contains supplementary hymns on various subjects including cosmology, ritual practice and philosophical reflection.",
-        "scripture_text": "These hymns address the nature of time, the structure of the year, the power of sacred knowledge and the importance of truthfulness. Several verses explore the relationship between speech, breath and consciousness.",
-        "philosophical_explanation": "The supplementary hymns demonstrate the breadth of Atharvavedic thought, addressing fundamental questions about the nature of reality, time and human purpose."
+        "title": "Atharvaveda Livre 19 – Hymnes supplémentaires",
+        "introduction": "Le livre 19 contient des hymnes supplémentaires sur divers sujets, notamment la cosmologie, la pratique rituelle et la réflexion philosophique.",
+        "scripture_text": "Ces hymnes abordent la nature du temps, la structure de l'année, le pouvoir de la connaissance sacrée et l'importance de la véracité. Plusieurs versets explorent la relation entre la parole, la respiration et la conscience.",
+        "philosophical_explanation": "Les hymnes supplémentaires démontrent l'étendue de la pensée atharvvédique, abordant des questions fondamentales sur la nature de la réalité, le temps et le but humain."
       },
       {
         "book": 9,
-        "title": "Atharvaveda Book 20 – Liturgical Hymns",
-        "introduction": "Book 20, the final book of the Atharvaveda, contains hymns borrowed primarily from the Rigveda for use in liturgical settings.",
-        "scripture_text": "Many hymns in this book are addressed to Indra and other major deities. Their inclusion in the Atharvaveda ensures that the text provides a complete liturgical resource for the Brahma priest who supervises all aspects of Vedic ceremonies.",
-        "philosophical_explanation": "The liturgical book demonstrates the interconnectedness of all four Vedas and the recognition that complete sacred knowledge requires integration of hymns, rituals, music and practical wisdom."
+        "title": "Atharvaveda Livre 20 – Hymnes liturgiques",
+        "introduction": "Le livre 20, le dernier livre de l'Atharvaveda, contient des hymnes empruntés principalement au Rigveda pour être utilisés dans des contextes liturgiques.",
+        "scripture_text": "De nombreux hymnes de ce livre sont adressés à Indra et à d’autres divinités majeures. Leur inclusion dans l'Atharvaveda garantit que le texte fournit une ressource liturgique complète au prêtre Brahma qui supervise tous les aspects des cérémonies védiques.",
+        "philosophical_explanation": "Le livre liturgique démontre l'interdépendance des quatre Vedas et la reconnaissance du fait que la connaissance sacrée complète nécessite l'intégration d'hymnes, de rituels, de musique et de sagesse pratique."
       },
       {
         "book": 10,
-        "title": "Associated Upanishads – Mundaka and Prashna",
-        "introduction": "The Atharvaveda is associated with several important Upanishads including the Mundaka Upanishad, the Prashna Upanishad and the Mandukya Upanishad.",
-        "scripture_text": "The Mundaka Upanishad distinguishes between higher and lower knowledge and declares that Brahman alone is real. The Prashna Upanishad addresses six fundamental questions about life, creation and consciousness. The Mandukya Upanishad analyzes the states of consciousness through the syllable Om.",
-        "philosophical_explanation": "These Upanishads represent the highest philosophical achievements associated with the Atharvaveda, teaching that ultimate liberation comes through direct knowledge of Brahman and the realization of the self's identity with the universal reality."
+        "title": "Upanishads associés – Mundaka et Prashna",
+        "introduction": "L'Atharvaveda est associé à plusieurs Upanishads importants, dont le Mundaka Upanishad, le Prashna Upanishad et le Mandukya Upanishad.",
+        "scripture_text": "Le Mundaka Upanishad fait la distinction entre les connaissances supérieures et inférieures et déclare que seul Brahman est réel. Le Prashna Upanishad aborde six questions fondamentales sur la vie, la création et la conscience. Le Mandukya Upanishad analyse les états de conscience à travers la syllabe Om.",
+        "philosophical_explanation": "Ces Upanishads représentent les plus hautes réalisations philosophiques associées à l'Atharvaveda, enseignant que la libération ultime passe par la connaissance directe de Brahman et la réalisation de l'identité de soi avec la réalité universelle."
       }
     ],
     "major_atharvavedic_deities": [
       {
         "name": "Prithvi",
-        "role": "Earth goddess and divine mother",
-        "importance": "Celebrated in the Prithvi Sukta as the sustainer of all life and embodiment of nurturing power"
+        "role": "Déesse de la Terre et mère divine",
+        "importance": "Célébré dans le Prithvi Sukta comme le soutien de toute vie et l'incarnation du pouvoir nourricier"
       },
       {
         "name": "Kala",
-        "role": "Cosmic time as a divine force",
-        "importance": "Described as the ultimate power that creates, sustains and dissolves all things"
+        "role": "Le temps cosmique comme force divine",
+        "importance": "Décrit comme le pouvoir ultime qui crée, soutient et dissout toutes choses."
       },
       {
         "name": "Skambha",
-        "role": "The cosmic pillar and universal support",
-        "importance": "Identified with Brahman as the foundational principle holding all of creation together"
+        "role": "Le pilier cosmique et le support universel",
+        "importance": "Identifié à Brahman comme principe fondateur qui unit toute la création"
       },
       {
         "name": "Rohita",
-        "role": "Solar deity and creative principle",
-        "importance": "Described as the supreme creative intelligence manifesting through the power of the sun"
+        "role": "Divinité solaire et principe créateur",
+        "importance": "Décrit comme l'intelligence créatrice suprême se manifestant par la puissance du soleil"
       }
     ],
     "related_concepts": [
-      "Vedas",
-      "Rigveda",
-      "Ayurveda",
+      "Védas",
+      "Rigvéda",
+      "Ayurvéda",
       "Brahman",
       "Mundaka Upanishad",
       "Prashna Upanishad",
@@ -180,7 +180,7 @@
       "Prithvi Sukta",
       "Skambha Sukta",
       "Kala",
-      "Vedic healing",
+      "Guérison védique",
       "Sanatana Dharma"
     ]
   }

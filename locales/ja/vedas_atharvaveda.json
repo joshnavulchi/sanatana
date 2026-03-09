@@ -1,31 +1,31 @@
 {
   "atharvaveda": {
-    "title": "Atharvaveda – The Veda of Everyday Life and Healing | Sanatana Dharma",
-    "description": "Explore the Atharvaveda, the Veda of healing, domestic rituals and philosophical speculation. Learn about its hymns, medicinal knowledge, cosmological thought and spiritual teachings.",
+    "title": "アタルヴァヴェーダ – 日常生活と癒しのヴェーダ |サタナダルマ",
+    "description": "癒しのヴェーダであるアタルヴァヴェーダ、家庭の儀式、哲学的思索を探求しましょう。賛美歌、医学の知識、宇宙論的思考、精神的な教えについて学びましょう。",
     "meta": {
-      "title": "Atharvaveda – The Veda of Everyday Life and Healing | Sanatana Dharma",
+      "title": "アタルヴァヴェーダ – 日常生活と癒しのヴェーダ |サタナダルマ",
       "canonical": "https://sanatanadharmam.in/vedas/atharvaveda",
-      "description": "Explore the Atharvaveda, the Veda of healing, domestic rituals and philosophical speculation. Learn about its hymns, medicinal knowledge, cosmological thought and spiritual teachings.",
+      "description": "癒しのヴェーダであるアタルヴァヴェーダ、家庭の儀式、哲学的思索を探求しましょう。賛美歌、医学の知識、宇宙論的思考、精神的な教えについて学びましょう。",
       "keywords": [
-        "Atharvaveda",
-        "Atharva Veda meaning",
-        "Vedic healing",
-        "Vedic medicine",
-        "Atharvaveda hymns",
-        "ancient Indian healing",
-        "domestic rituals",
-        "Sanatana Dharma Vedas",
-        "Prithvi Sukta",
-        "Hindu scriptures"
+        "アタルヴァヴェーダ",
+        "アタルヴァ ヴェーダの意味",
+        "ヴェーダの癒し",
+        "ヴェーダ医学",
+        "アタルヴァヴェーダの賛美歌",
+        "古代インドの癒し",
+        "家庭の儀式",
+        "サナタナ ダルマ ヴェーダ",
+        "プリスヴィ・スクタ",
+        "ヒンズー教の経典"
       ],
       "url": "https://sanatanadharmam.in/vedas/atharvaveda"
     },
     "openGraph": {
-      "title": "Atharvaveda – The Sacred Veda of Healing and Everyday Wisdom",
-      "description": "Discover the Atharvaveda, the fourth Veda covering healing arts, domestic ceremonies, philosophical speculation and the wisdom of everyday life in Vedic tradition.",
+      "title": "アタルヴァヴェーダ – 癒しと日常の知恵の神聖なヴェーダ",
+      "description": "ヴェーダの伝統における治癒術、家庭儀式、哲学的思索、日常生活の知恵を網羅した第 4 のヴェーダであるアタルヴァヴェーダを発見してください。",
       "url": "https://sanatanadharmam.in/vedas/atharvaveda",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "サナタナダルマム",
+      "type": "記事",
       "images": [
         {
           "url": "https://sanatanadharmam.in/images/og/atharvaveda.png",
@@ -37,151 +37,151 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Atharvaveda",
-      "description": "The Atharvaveda is the fourth Veda, containing hymns related to healing, domestic rituals, philosophical reflection and the practical wisdom of everyday life.",
+      "@type": "クリエイティブワーク",
+      "name": "アタルヴァヴェーダ",
+      "description": "アタルヴァヴェーダは 4 番目のヴェーダであり、癒し、家庭の儀式、哲学的考察、日常生活の実践的な知恵に関する賛美歌が含まれています。",
       "author": {
-        "@type": "Person",
-        "name": "Ved Vyasa"
+        "@type": "人",
+        "name": "ヴェド・ヴィヤーサ"
       },
-      "inLanguage": "Sanskrit",
+      "inLanguage": "サンスクリット",
       "publisher": {
-        "@type": "Organization",
-        "name": "Sanatanadharmam",
+        "@type": "組織",
+        "name": "サナタナダルマム",
         "url": "https://sanatanadharmam.in"
       },
       "about": [
-        "Atharvaveda",
-        "Vedic healing",
-        "Sanatana Dharma",
-        "domestic rituals",
-        "ancient scriptures"
+        "アタルヴァヴェーダ",
+        "ヴェーダの癒し",
+        "サタナダルマ",
+        "家庭の儀式",
+        "古代の経典"
       ],
       "url": "https://sanatanadharmam.in/vedas/atharvaveda"
     },
-    "introduction": "The Atharvaveda is the fourth and most distinct of the four Vedas. Named after the ancient sage Atharvan who is credited with discovering fire and establishing the earliest ritual practices, the Atharvaveda represents a unique branch of Vedic knowledge that addresses the practical concerns of everyday life alongside profound philosophical speculation.\n\nThe name 'Atharvaveda' combines 'Atharvan', referring to the sage and his tradition of sacred fire practices, with 'Veda', meaning knowledge. An alternative name for this text is the Atharvangirasa Veda, acknowledging both the sage Atharvan and the sage Angiras whose hymns also form a significant part of the collection.\n\nWhile the Rigveda focuses on hymns of praise, the Yajurveda on sacrificial formulas and the Samaveda on musical chants, the Atharvaveda addresses a remarkably wide range of human concerns. Its 730 hymns spread across 20 books cover topics including healing and medicine, protection from disease and evil, domestic ceremonies, marriage and funeral rites, royal consecration, agricultural practices, philosophical inquiry and cosmological speculation.\n\nThe Atharvaveda was initially not included in the Trayi Vidya or the threefold sacred knowledge of the earlier Vedic tradition. Over time, however, its importance was recognized and it was accepted as the fourth Veda. The Brahma priest, who supervises the entire sacrificial ceremony and must possess knowledge of all the Vedas, draws particularly upon the Atharvaveda.\n\nThe two main recensions of the Atharvaveda are the Shaunaka and the Paippalada. The Shaunaka recension is more widely studied and contains 730 hymns organized into 20 books. The Paippalada recension, preserved primarily in the Odisha and Kashmir traditions, contains additional material not found in the Shaunaka version.\n\nThe Atharvaveda's unique character makes it an invaluable source for understanding the full breadth of Vedic civilization, from the spiritual heights of philosophical inquiry to the practical realities of health, agriculture and community life.",
+    "introduction": "アタルヴァヴェーダは 4 つのヴェーダの 4 番目であり、最も特徴的なものです。火を発見し、最も初期の儀式実践を確立したとされる古代の賢者アタルヴァンにちなんで名付けられたアタルヴァヴェーダは、深い哲学的思索とともに日常生活の実践的な関心事に取り組む、ヴェーダ知識のユニークな分野を表しています。\n\n「アタルヴァヴェーダ」という名前は、賢者とその神聖な火の実践の伝統を指す「アタルヴァン」と、知識を意味する「ヴェーダ」を組み合わせたものです。この文書の別名はアタルヴァンギラーサ ヴェーダであり、聖者アタルヴァンと聖者アンギラスの両方の讃美歌もコレクションの重要な部分を占めています。\n\nリグ ヴェーダは賛美歌、ヤジュル ヴェーダは犠牲の儀式、サヴェーダは音楽の聖歌に焦点を当てていますが、アタルヴァヴェーダは驚くほど広範囲にわたる人間の関心事に取り組んでいます。 20 冊の本にまたがる 730 の賛美歌は、治癒と医療、病気と悪からの保護、家庭内儀式、結婚と葬儀、王室の奉献、農業慣行、哲学的探求、宇宙論的思索などのテーマを扱っています。\n\nアタルヴァヴェーダは当初、トレイ ヴィディヤや初期のヴェーダ伝統の三重の神聖な知識には含まれていませんでした。しかし、時間が経つにつれて、その重要性が認識され、第 4 のヴェーダとして受け入れられました。犠牲の儀式全体を監督し、すべてのヴェーダの知識を持っていなければならないブラフマー司祭は、特にアタルヴァヴェーダを参考にします。\n\n『アタルヴァヴェーダ』の 2 つの主要な改訂版は、シャウナカとパイパラダです。シャウナカ聖歌はより広く研究されており、20 冊の本にまとめられた 730 の賛美歌が収録されています。パイパラダの改訂版は主にオリッサ州とカシミールの伝統に保存されており、シャウナカ版には見られない追加の資料が含まれています。\n\n『アタルヴァヴェーダ』のユニークな性格により、哲学的探究の精神的な高みから健康、農業、地域生活の実際的な現実に至るまで、ヴェーダ文明の全容を理解するための貴重な情報源となっています。",
     "scripture_text": [
       {
-        "section": "Healing and Medicine",
-        "content": "The Atharvaveda is widely regarded as the foundation of the ancient Indian medical tradition that later developed into Ayurveda. Many hymns describe the properties of medicinal plants, the causes and treatments of diseases, and prayers for health and longevity.\n\nThe text identifies numerous healing herbs and describes their applications for treating various ailments. Hymns address specific conditions including fever, cough, skin diseases, wounds, poisoning and mental afflictions. The treatments combine herbal remedies with sacred mantras and ritual practices, reflecting the Vedic understanding that health involves the harmony of body, mind and spirit.\n\nOne famous hymn describes the healing power of water as a universal medicine, while others praise specific plants for their ability to restore vitality and drive away disease. The Atharvaveda's approach to healing is holistic, recognizing that physical wellness cannot be separated from psychological and spiritual well-being.\n\nThis integration of medical knowledge with spiritual practice established a tradition that continues to influence Indian healing systems to the present day."
+        "section": "治癒と医学",
+        "content": "アタルヴァヴェーダは、後にアーユルヴェーダへと発展した古代インドの医学伝統の基礎として広くみなされています。多くの賛美歌では、薬用植物の性質、病気の原因と治療法、健康と長寿への祈りが語られています。\n\nこのテキストでは、数多くの治癒ハーブを特定し、さまざまな病気の治療に対するそれらの応用について説明しています。賛美歌は、発熱、咳、皮膚病、傷、中毒、精神的苦痛などの特定の症状に対処します。このトリートメントでは、ハーブ療法と神聖なマントラや儀式の実践を組み合わせており、健康には体、心、精神の調和が必要であるというヴェーダの理解を反映しています。\n\nある有名な賛美歌では、万能薬としての水の治癒力について説明されていますが、特定の植物の活力を回復し、病気を追い払う能力を称賛する歌もあります。アタルヴァヴェーダの治癒へのアプローチは総合的であり、身体的な健康は心理的および精神的な健康から切り離すことはできないと認識しています。\n\n医学知識と精神的実践のこの統合は、今日までインドの治癒システムに影響を与え続けている伝統を確立しました。"
       },
       {
-        "section": "Domestic Rituals and Daily Life",
-        "content": "A significant portion of the Atharvaveda is devoted to the rituals and concerns of ordinary household life. Unlike the grand sacrificial ceremonies described in the other Vedas, these hymns address the everyday needs of families and communities.\n\nThe text contains hymns for marriage ceremonies, prayers for the welfare of children, protection of the home, success in agriculture and trade, and the resolution of disputes. There are mantras for safe travel, for finding lost property and for ensuring harmony within the family.\n\nFuneral hymns guide the proper performance of last rites and offer prayers for the peaceful journey of the departed soul. Birth ceremonies welcome new life with blessings for health, wisdom and prosperity.\n\nThe Atharvaveda also includes hymns related to royal governance and statecraft. The Rajasūya and other royal consecration ceremonies draw upon Atharvavedic mantras, and there are hymns that describe the qualities of just kingship and the duties of rulers toward their people.\n\nThese domestic and civic hymns reveal a culture deeply concerned with the well-being of individuals and communities, recognizing that spiritual life encompasses all aspects of human experience."
+        "section": "家庭の儀式と日常生活",
+        "content": "『アタルヴァヴェーダ』のかなりの部分は、儀式や一般家庭生活の関心事に当てられています。他のヴェーダに記述されている壮大な犠牲の儀式とは異なり、これらの賛美歌は家族や地域社会の日常のニーズに応えます。\n\n本文には、結婚式の賛美歌、子供の福祉、家の保護、農業や貿易の成功、紛争の解決などの賛美歌が含まれています。安全な旅行、忘れ物を見つけるため、そして家族の調和を確保するためのマントラがあります。\n\n葬儀の賛美歌は、最後の儀式が適切に行われるよう導き、亡くなった魂の安らかな旅路への祈りを捧げます。誕生の儀式は、健康、知恵、繁栄を祝福して新しい命を歓迎します。\n\nアタルヴァヴェーダには、王室の統治と国家政治に関連した賛歌も含まれています。ラジャスヤやその他の王室の聖別儀式はアタルヴァヴェーダのマントラに基づいており、公正な王権の特質や統治者の国民に対する義務を説明する賛美歌もあります。\n\nこれらの家庭的および市民的賛美歌は、霊的生活が人間の経験のあらゆる側面を包含することを認識し、個人と地域社会の幸福に深く関わっている文化を明らかにしています。"
       },
       {
-        "section": "The Prithvi Sukta",
-        "content": "One of the most remarkable hymns in the Atharvaveda is the Prithvi Sukta or Hymn to the Earth found in Book 12. This extended hymn celebrates the Earth as a divine mother who sustains all living beings.\n\nThe Prithvi Sukta expresses a profound ecological awareness, describing the Earth's mountains, rivers, forests, seasons and the interconnected web of life they support. The hymn prays for the Earth's continued fertility, for the well-being of all creatures that inhabit her surface, and for harmony between human civilization and the natural world.\n\nThe hymn declares that the Earth bears many nations speaking many languages and following many customs, expressing an early vision of universal tolerance and coexistence. It recognizes the diversity of life as a manifestation of the Earth's abundance and creative power.\n\nThe Prithvi Sukta is often cited as one of the earliest expressions of environmental consciousness in world literature, demonstrating that the ancient Vedic tradition valued the protection and reverence of the natural world."
+        "section": "プリスヴィ スクタ",
+        "content": "『アタルヴァヴェーダ』の中で最も注目すべき賛美歌の 1 つは、第 12 巻に収録されている「プリスヴィ スクタ」、つまり地球への賛歌です。この拡張された賛美歌は、すべての生き物を支える神聖な母として地球を讃えています。\n\nプリスヴィ スクタは、地球の山、川、森林、季節、そしてそれらが支えている相互に関連した生命の網を描写し、深い生態学的認識を表現しています。この賛美歌は、地球の継続的な豊饒、地表に生息するすべての生き物の幸福、そして人間の文明と自然界の調和を祈っています。\n\nこの賛美歌は、地球には多くの言語を話し、多くの習慣に従っている多くの国々が存在し、普遍的な寛容と共存の初期のビジョンを表現していると宣言しています。生命の多様性は地球の豊かさと創造力の現れであると認識しています。\n\n『プリトヴィ・スクタ』は、世界文学における環境意識の初期の表現の 1 つとしてよく引用され、古代ヴェーダの伝統が自然界の保護と尊敬を重視していたことを示しています。"
       }
     ],
-    "philosophical_explanation": "The Atharvaveda contributes significantly to Indian philosophical thought, particularly in the areas of cosmology, the nature of time and the relationship between the individual and the universe.\n\nSeveral hymns in the Atharvaveda explore the mystery of creation in ways that complement and extend the cosmological speculations of the Rigveda. The Skambha Sukta or Hymn to the Cosmic Pillar describes a universal supporting principle that holds together all of creation. This cosmic pillar or Skambha is identified with Brahman, the ultimate reality, and the hymn asks probing questions about the nature of this foundational support.\n\nThe concept of Kala or Time receives extensive treatment in the Atharvaveda. Time is described as a cosmic force that creates and dissolves all things, that drives the seasons and sustains the rhythm of life. This philosophical exploration of time as a divine principle influenced later Hindu, Buddhist and Jain philosophical thinking.\n\nThe Atharvaveda also develops the concept of Brahman more explicitly than the earlier Vedas. Several hymns describe Brahman as the supreme reality underlying all existence, the source from which everything emerges and to which everything returns. These teachings anticipate the systematic Brahman philosophy of the Upanishads.\n\nThe Mundaka Upanishad, associated with the Atharvaveda, introduces the important distinction between Para Vidya, higher knowledge leading to the realization of Brahman, and Apara Vidya, lower knowledge including the study of the Vedas themselves. This teaching emphasizes that true spiritual liberation transcends even scriptural learning and requires direct experiential knowledge of ultimate reality.\n\nThe Prashna Upanishad, also connected to the Atharvaveda, explores six fundamental questions about the nature of creation, the life force, the mind and the relation of the individual to the universal. Together, these Upanishads establish the Atharvaveda as a significant source of the deepest philosophical teachings of the Vedic tradition.",
+    "philosophical_explanation": "アタルヴァヴェーダは、特に宇宙論、時間の性質、個人と宇宙の関係の分野でインドの哲学的思想に大きく貢献しています。\n\nアタルヴァヴェーダのいくつかの賛美歌は、リグ ヴェーダの宇宙論的思索を補完し、拡張する形で創造の謎を探求しています。スカンバ スクタ、つまり宇宙の柱への賛歌は、すべての創造物を結びつける普遍的な支持原理を説明しています。この宇宙の柱、つまりスカンバは究極の現実であるブラフマンと同一視されており、この賛美歌はこの基礎的なサポートの性質について鋭い質問をしています。\n\nカーラまたは時間の概念は、アタルヴァヴェーダで広範囲に扱われます。時間は、万物を創造、溶解し、季節を動かし、生命のリズムを維持する宇宙の力として説明されています。神聖な原理としての時間のこの哲学的探求は、後のヒンドゥー教、仏教、ジャイナ教の哲学的思考に影響を与えました。\n\nアタルヴァヴェーダはまた、以前のヴェーダよりも明確にブラフマンの概念を発展させています。いくつかの賛美歌では、ブラフマンはすべての存在の根底にある至高の現実であり、すべてが出現し、すべてがそこに戻る源であると説明されています。これらの教えは、ウパニシャッドの体系的なブラフマン哲学を先取りしています。\n\nアタルヴァヴェーダと関連するムンダカ・ウパニシャッドでは、ブラフマンの実現につながる高次の知識であるパラ・ヴィディヤと、ヴェーダ自体の研究を含む低次の知識であるアパラ・ヴィディヤとの重要な違いが紹介されています。この教えは、真の霊的解放は聖書の学習さえも超え、究極の現実についての直接の経験的知識を必要とすることを強調しています。\n\nプラシュナ ウパニシャッドは、アタルヴァヴェーダとも関連しており、創造の性質、生命力、心、そして普遍と個人の関係に関する 6 つの基本的な疑問を探求しています。これらのウパニシャッドは共に、アタルヴァヴェーダをヴェーダの伝統の最も深い哲学的教えの重要な情報源として確立しています。",
     "atharvaveda_books": [
       {
         "book": 1,
-        "title": "Atharvaveda Books 1 to 4 – Healing and Protection",
-        "introduction": "The opening books of the Atharvaveda contain hymns primarily focused on healing diseases, protecting against harmful forces and ensuring well-being.",
-        "scripture_text": "These books include mantras for curing specific ailments, prayers for long life and vitality, and protective charms against various threats. Many hymns invoke the healing power of plants and water.",
-        "philosophical_explanation": "The healing hymns reflect the Vedic understanding that health is a sacred gift and that maintaining well-being requires harmony between the physical body, the natural environment and the spiritual realm."
+        "title": "アタルヴァヴェーダ ブック 1 ～ 4 – 癒しと保護",
+        "introduction": "『アタルヴァヴェーダ』の冒頭には、主に病気の治癒、有害な力からの保護、幸福の確保に焦点を当てた賛美歌が含まれています。",
+        "scripture_text": "これらの本には、特定の病気を治すためのマントラ、長寿と活力への祈り、さまざまな脅威に対するお守りが含まれています。多くの賛美歌は植物と水の治癒力を呼び起こします。",
+        "philosophical_explanation": "癒しの賛美歌は、健康は神聖な贈り物であり、健康を維持するには肉体、自然環境、精神的領域の調和が必要であるというヴェーダの理解を反映しています。"
       },
       {
         "book": 2,
-        "title": "Atharvaveda Books 5 to 7 – Domestic Harmony",
-        "introduction": "Books 5 through 7 contain hymns related to domestic life, family harmony, marriage, prosperity and community welfare.",
-        "scripture_text": "These sections include wedding mantras, prayers for children, hymns for agricultural success and formulas for resolving conflicts. They address the full range of concerns that arise in household and community life.",
-        "philosophical_explanation": "The domestic hymns teach that spiritual practice is not limited to formal rituals but extends to every aspect of daily life. The home itself becomes a sacred space when approached with awareness and devotion."
+        "title": "アタルヴァヴェーダ ブック 5 ～ 7 – 家庭内調和",
+        "introduction": "第 5 巻から第 7 巻には、家庭生活、家族の調和、結婚、繁栄、地域福祉に関する賛美歌が含まれています。",
+        "scripture_text": "これらのセクションには、結婚式のマントラ、子供たちへの祈り、農業の成功を祈る賛歌、紛争を解決するための公式などが含まれています。これらは、家庭生活や地域社会の生活で生じるあらゆる懸念事項に対処します。",
+        "philosophical_explanation": "家庭の賛美歌は、精神的な実践が正式な儀式に限定されず、日常生活のあらゆる側面に及ぶことを教えています。意識と献身をもって取り組むと、家自体が神聖な空間になります。"
       },
       {
         "book": 3,
-        "title": "Atharvaveda Books 8 to 10 – Royal Ceremonies",
-        "introduction": "Books 8 through 10 include hymns for royal consecration, statecraft and the exercise of righteous authority.",
-        "scripture_text": "The texts describe ceremonies for crowning kings, prayers for the success of kingdoms and mantras that invoke divine support for just governance. The famous hymn to Viraj, a cosmic creative power, appears in this section.",
-        "philosophical_explanation": "The royal hymns establish the principle that political authority must be rooted in dharma and that the purpose of governance is the welfare of all beings within the ruler's domain."
+        "title": "アタルヴァヴェーダ ブック 8 ～ 10 – 王室の儀式",
+        "introduction": "第 8 巻から第 10 巻には、王の奉献、政治、正義の権威の行使を讃える賛歌が含まれています。",
+        "scripture_text": "文書には、王に戴冠する儀式、王国の成功への祈り、そして正義の統治への神の支援を呼び起こすマントラについて説明されています。宇宙の創造力であるヴィラージへの有名な賛歌がこのセクションに登場します。",
+        "philosophical_explanation": "王室賛歌は、政治的権威はダルマに根ざしていなければならず、統治の目的は統治者の領域内のすべての存在の福祉であるという原則を確立しています。"
       },
       {
         "book": 4,
-        "title": "Atharvaveda Books 11 to 12 – Cosmic Powers",
-        "introduction": "Books 11 and 12 contain some of the most philosophically significant hymns in the Atharvaveda, addressing cosmic principles and universal forces.",
-        "scripture_text": "Book 11 includes the Skambha Sukta exploring the cosmic pillar that supports the universe. Book 12 contains the celebrated Prithvi Sukta, a hymn to the Earth as divine mother.",
-        "philosophical_explanation": "These books demonstrate the Atharvavedic capacity for profound metaphysical speculation, exploring questions about the ultimate structure of reality and humanity's relationship to the cosmos."
+        "title": "アタルヴァヴェーダ ブック 11 ～ 12 – 宇宙の力",
+        "introduction": "第 11 巻と第 12 巻には、宇宙の原理と宇宙の力をテーマにした、『アタルヴァヴェーダ』の中で最も哲学的に重要な賛歌がいくつか含まれています。",
+        "scripture_text": "第 11 巻には、宇宙を支える宇宙の柱を探求するスカンバ スクタが含まれています。第 12 巻には、神聖な母としての地球への賛歌である有名なプリトヴィ スクタが収録されています。",
+        "philosophical_explanation": "これらの本は、現実の究極の構造や宇宙と人類の関係についての疑問を探求する、深遠な形而上学的な思索に対するアタルヴァヴェーダの能力を実証しています。"
       },
       {
         "book": 5,
-        "title": "Atharvaveda Books 13 to 15 – Solar Worship and Vratya",
-        "introduction": "Books 13 through 15 contain hymns celebrating the sun, exploring the concept of the Vratya wandering ascetics and developing solar theology.",
-        "scripture_text": "Book 13 contains hymns to Rohita, a form of the sun god, described as the supreme creative principle. Book 15 discusses the Vratya, wandering holy men who may represent early ascetic traditions outside the mainstream Vedic system.",
-        "philosophical_explanation": "The solar hymns develop the idea that the sun is not merely a celestial body but a manifestation of the supreme creative intelligence. The Vratya hymns reveal the Vedic tradition's engagement with diverse spiritual practices."
+        "title": "アタルヴァヴェーダ 書籍 13 ～ 15 – 太陽崇拝とヴラティア",
+        "introduction": "第 13 巻から第 15 巻には、太陽を祝い、ヴラティアの放浪する修行者の概念を探求し、太陽神学を発展させる賛美歌が含まれています。",
+        "scripture_text": "第 13 巻には、最高の創造原理として説明される太陽神の一種であるロヒータへの賛歌が含まれています。第 15 巻では、主流のヴェーダ体系の外にある初期の禁欲的な伝統を代表する放浪の聖人たち、ヴラティヤについて論じています。",
+        "philosophical_explanation": "太陽賛歌は、太陽が単なる天体ではなく、最高の創造的知性の現れであるという考えを発展させます。ヴラティヤの賛美歌は、ヴェーダの伝統と多様な精神的実践との関わりを明らかにしています。"
       },
       {
         "book": 6,
-        "title": "Atharvaveda Book 16 – Protective Formulas",
-        "introduction": "Book 16 contains protective mantras and formulas for safeguarding against spiritual and physical dangers.",
-        "scripture_text": "The hymns invoke divine protection against malevolent forces and natural calamities. They also include purification rituals and mantras for restoring spiritual harmony after disturbances.",
-        "philosophical_explanation": "The protective formulas reflect the understanding that the spiritual path requires vigilance and that maintaining inner and outer purity is essential for spiritual progress."
+        "title": "アタルヴァヴェーダ 第 16 巻 – 防御法",
+        "introduction": "第 16 巻には、精神的および物理的な危険から身を守るための保護マントラと公式が含まれています。",
+        "scripture_text": "賛美歌は、悪意のある力や自然災害に対する神の保護を呼び起こします。混乱の後に精神的な調和を回復するための浄化の儀式やマントラも含まれます。",
+        "philosophical_explanation": "保護の公式は、スピリチュアルな道には警戒が必要であり、内面と外面の純粋さを維持することがスピリチュアルな進歩には不可欠であるという理解を反映しています。"
       },
       {
         "book": 7,
-        "title": "Atharvaveda Books 17 to 18 – Devotion and Funeral Rites",
-        "introduction": "Books 17 and 18 contain devotional hymns and funeral liturgy used in cremation and memorial ceremonies.",
-        "scripture_text": "Book 17 contains extended devotional compositions addressing the sun deity. Book 18 provides the mantras and prayers for funeral ceremonies, guiding the departed soul on its journey and offering comfort to the bereaved.",
-        "philosophical_explanation": "The funeral hymns express the Vedic understanding that death is not an end but a transition. The soul continues its journey beyond physical existence, and proper ritual observance helps ensure a favorable passage."
+        "title": "アタルヴァヴェーダ 書籍 17 ～ 18 – 献身と葬儀",
+        "introduction": "第17巻と第18巻には、火葬や追悼式典で使用される敬虔な賛美歌と葬儀の典礼が含まれています。",
+        "scripture_text": "第 17 巻には、太陽神に宛てた拡張された信仰の作品が含まれています。第 18 巻には、葬儀のためのマントラと祈りが記されており、亡くなった魂の旅を導き、遺族に慰めを与えます。",
+        "philosophical_explanation": "葬儀の賛美歌は、死は終わりではなく移行であるというヴェーダの理解を表現しています。魂は物質的な存在を超えて旅を続けますが、適切な儀式を遵守することは、確実に有利な道を歩むのに役立ちます。"
       },
       {
         "book": 8,
-        "title": "Atharvaveda Book 19 – Supplementary Hymns",
-        "introduction": "Book 19 contains supplementary hymns on various subjects including cosmology, ritual practice and philosophical reflection.",
-        "scripture_text": "These hymns address the nature of time, the structure of the year, the power of sacred knowledge and the importance of truthfulness. Several verses explore the relationship between speech, breath and consciousness.",
-        "philosophical_explanation": "The supplementary hymns demonstrate the breadth of Atharvavedic thought, addressing fundamental questions about the nature of reality, time and human purpose."
+        "title": "『アタルヴァヴェーダ』第 19 巻 – 補足賛美歌",
+        "introduction": "第 19 巻には、宇宙論、儀式の実践、哲学的考察を含むさまざまな主題に関する補足の賛美歌が含まれています。",
+        "scripture_text": "これらの賛美歌は、時間の性質、年の構造、神聖な知識の力、真実さの重要性について語っています。いくつかの詩では、音声、呼吸、意識の関係を探求しています。",
+        "philosophical_explanation": "補足の賛美歌はアタルヴァヴェーダの思想の幅広さを示しており、現実、時間、人間の目的の性質についての根本的な疑問に取り組んでいます。"
       },
       {
         "book": 9,
-        "title": "Atharvaveda Book 20 – Liturgical Hymns",
-        "introduction": "Book 20, the final book of the Atharvaveda, contains hymns borrowed primarily from the Rigveda for use in liturgical settings.",
-        "scripture_text": "Many hymns in this book are addressed to Indra and other major deities. Their inclusion in the Atharvaveda ensures that the text provides a complete liturgical resource for the Brahma priest who supervises all aspects of Vedic ceremonies.",
-        "philosophical_explanation": "The liturgical book demonstrates the interconnectedness of all four Vedas and the recognition that complete sacred knowledge requires integration of hymns, rituals, music and practical wisdom."
+        "title": "『アタルヴァヴェーダ』第 20 巻 – 典礼賛美歌",
+        "introduction": "『アタルヴァヴェーダ』の最終巻である第 20 巻には、主に典礼の場で使用するためにリグ ヴェーダから借用した賛美歌が含まれています。",
+        "scripture_text": "この本の多くの賛美歌はインドラや他の主要な神々に宛てられています。これらが『アタルヴァヴェーダ』に含まれることにより、このテキストは、ヴェーダの儀式のあらゆる側面を監督するブラフマー司祭に完全な典礼リソースを提供することが保証されます。",
+        "philosophical_explanation": "この典礼書は、4 つのヴェーダすべての相互関連性と、完全な神聖な知識には賛美歌、儀式、音楽、実践的な知恵の統合が必要であるという認識を示しています。"
       },
       {
         "book": 10,
-        "title": "Associated Upanishads – Mundaka and Prashna",
-        "introduction": "The Atharvaveda is associated with several important Upanishads including the Mundaka Upanishad, the Prashna Upanishad and the Mandukya Upanishad.",
-        "scripture_text": "The Mundaka Upanishad distinguishes between higher and lower knowledge and declares that Brahman alone is real. The Prashna Upanishad addresses six fundamental questions about life, creation and consciousness. The Mandukya Upanishad analyzes the states of consciousness through the syllable Om.",
-        "philosophical_explanation": "These Upanishads represent the highest philosophical achievements associated with the Atharvaveda, teaching that ultimate liberation comes through direct knowledge of Brahman and the realization of the self's identity with the universal reality."
+        "title": "関連するウパニシャッド – ムンダカとプラシュナ",
+        "introduction": "アタルヴァヴェーダは、ムンダカ ウパニシャッド、プラシュナ ウパニシャッド、マンドゥキヤ ウパニシャッドを含むいくつかの重要なウパニシャッドと関連付けられています。",
+        "scripture_text": "ムンダカ ウパニシャッドは高次の知識と低次の知識を区別し、ブラフマンだけが実在すると宣言しています。プラシュナ ウパニシャッドは、生命、創造、意識に関する 6 つの基本的な質問を取り上げています。マンドゥーキヤ ウパニシャッドは、オームという音節を通して意識状態を分析します。",
+        "philosophical_explanation": "これらのウパニシャッドはアタルヴァヴェーダに関連する最高の哲学的成果を表しており、究極の解放はブラフマンの直接の知識と普遍的現実との自己の同一性の実現を通じてもたらされると教えています。"
       }
     ],
     "major_atharvavedic_deities": [
       {
-        "name": "Prithvi",
-        "role": "Earth goddess and divine mother",
-        "importance": "Celebrated in the Prithvi Sukta as the sustainer of all life and embodiment of nurturing power"
+        "name": "プリスヴィ",
+        "role": "大地の女神と神聖な母",
+        "importance": "プリスヴィ スクタでは、すべての生命の維持者であり、育む力の体現者として讃えられています。"
       },
       {
-        "name": "Kala",
-        "role": "Cosmic time as a divine force",
-        "importance": "Described as the ultimate power that creates, sustains and dissolves all things"
+        "name": "カラ",
+        "role": "神聖な力としての宇宙時間",
+        "importance": "万物を創造し、維持し、溶解する究極の力と表現される"
       },
       {
-        "name": "Skambha",
-        "role": "The cosmic pillar and universal support",
-        "importance": "Identified with Brahman as the foundational principle holding all of creation together"
+        "name": "スカンバ",
+        "role": "宇宙の柱と普遍的なサポート",
+        "importance": "すべての創造物を結びつける基本原理としてブラフマンと同一視される"
       },
       {
-        "name": "Rohita",
-        "role": "Solar deity and creative principle",
-        "importance": "Described as the supreme creative intelligence manifesting through the power of the sun"
+        "name": "ロヒタ",
+        "role": "太陽神と創造原理",
+        "importance": "太陽の力を通じて現れる最高の創造的知性として描写される"
       }
     ],
     "related_concepts": [
-      "Vedas",
-      "Rigveda",
-      "Ayurveda",
-      "Brahman",
-      "Mundaka Upanishad",
-      "Prashna Upanishad",
-      "Mandukya Upanishad",
-      "Prithvi Sukta",
-      "Skambha Sukta",
-      "Kala",
-      "Vedic healing",
-      "Sanatana Dharma"
+      "ヴェーダ",
+      "リグヴェーダ",
+      "アーユルヴェーダ",
+      "ブラフマン",
+      "ムンダカ・ウパニシャッド",
+      "プラシュナ・ウパニシャッド",
+      "マンドゥキヤ ウパニシャッド",
+      "プリスヴィ・スクタ",
+      "スカンバ・スクタ",
+      "カラ",
+      "ヴェーダの癒し",
+      "サタナダルマ"
     ]
   }
 }

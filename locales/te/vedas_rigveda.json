@@ -1,31 +1,31 @@
 {
   "rigveda": {
-    "title": "Rigveda – The Oldest Veda of Sanatana Dharma | Hymns, Philosophy and Cosmic Knowledge",
-    "description": "Learn about the Rigveda, the oldest of the four Vedas. Explore its hymns, mandalas, deities, cosmology, philosophy and its influence on Sanatana Dharma.",
+    "title": "ఋగ్వేదం - సనాతన ధర్మం యొక్క పురాతన వేదం | స్తోత్రాలు, తత్వశాస్త్రం మరియు కాస్మిక్ నాలెడ్జ్",
+    "description": "నాలుగు వేదాలలో పురాతనమైన ఋగ్వేదం గురించి తెలుసుకోండి. దాని స్తోత్రాలు, మండలాలు, దేవతలు, విశ్వశాస్త్రం, తత్వశాస్త్రం మరియు సనాతన ధర్మంపై దాని ప్రభావాన్ని అన్వేషించండి.",
     "meta": {
-      "title": "Rigveda – The Oldest Veda of Sanatana Dharma | Hymns, Philosophy and Cosmic Knowledge",
+      "title": "ఋగ్వేదం - సనాతన ధర్మం యొక్క పురాతన వేదం | స్తోత్రాలు, తత్వశాస్త్రం మరియు కాస్మిక్ నాలెడ్జ్",
       "canonical": "https://sanatanadharmam.in/vedas/rigveda",
-      "description": "Learn about the Rigveda, the oldest of the four Vedas. Explore its hymns, mandalas, deities, cosmology, philosophy and its influence on Sanatana Dharma.",
+      "description": "నాలుగు వేదాలలో పురాతనమైన ఋగ్వేదం గురించి తెలుసుకోండి. దాని స్తోత్రాలు, మండలాలు, దేవతలు, విశ్వశాస్త్రం, తత్వశాస్త్రం మరియు సనాతన ధర్మంపై దాని ప్రభావాన్ని అన్వేషించండి.",
       "keywords": [
-        "Rigveda",
-        "Rig Veda meaning",
-        "Rigveda hymns",
-        "Rigveda mandalas",
-        "Rigveda deities",
-        "ancient Vedic scriptures",
-        "Sanatana Dharma Vedas",
-        "Rigveda philosophy",
-        "Vedic hymns",
-        "oldest Hindu scripture"
+        "ఋగ్వేదం",
+        "ఋగ్వేదం అర్థం",
+        "ఋగ్వేద శ్లోకాలు",
+        "ఋగ్వేద మండలాలు",
+        "ఋగ్వేద దేవతలు",
+        "ప్రాచీన వేద గ్రంథాలు",
+        "సనాతన ధర్మ వేదాలు",
+        "ఋగ్వేద తత్వశాస్త్రం",
+        "వేద శ్లోకాలు",
+        "పురాతన హిందూ గ్రంథం"
       ],
       "url": "https://sanatanadharmam.in/vedas/rigveda"
     },
     "openGraph": {
-      "title": "Rigveda – Ancient Hymns of the Vedic Civilization",
-      "description": "Discover the Rigveda, the oldest sacred scripture of Sanatana Dharma containing 1028 hymns dedicated to cosmic forces and divine principles.",
+      "title": "ఋగ్వేదం - వేద నాగరికత యొక్క పురాతన శ్లోకాలు",
+      "description": "విశ్వ శక్తులు మరియు దైవిక సూత్రాలకు అంకితం చేయబడిన 1028 శ్లోకాలను కలిగి ఉన్న సనాతన ధర్మం యొక్క పురాతన పవిత్ర గ్రంథమైన ఋగ్వేదాన్ని కనుగొనండి.",
       "url": "https://sanatanadharmam.in/vedas/rigveda",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "సనాతనధర్మం",
+      "type": "వ్యాసం",
       "images": [
         {
           "url": "https://sanatanadharmam.in/images/og/rigveda.png",
@@ -37,79 +37,79 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Rigveda",
-      "description": "The Rigveda is the oldest of the four Vedas and contains hymns dedicated to cosmic forces and deities such as Agni, Indra, Varuna and Surya.",
+      "@type": "సృజనాత్మక పని",
+      "name": "ఋగ్వేదం",
+      "description": "ఋగ్వేదం నాలుగు వేదాలలో పురాతనమైనది మరియు అగ్ని, ఇంద్రుడు, వరుణుడు మరియు సూర్యుడు వంటి విశ్వ శక్తులకు మరియు దేవతలకు అంకితమైన శ్లోకాలను కలిగి ఉంది.",
       "author": {
-        "@type": "Person",
-        "name": "Ved Vyasa"
+        "@type": "వ్యక్తి",
+        "name": "వేద వ్యాసుడు"
       },
-      "inLanguage": "Sanskrit",
+      "inLanguage": "సంస్కృతం",
       "publisher": {
-        "@type": "Organization",
-        "name": "Sanatanadharmam",
+        "@type": "సంస్థ",
+        "name": "సనాతనధర్మం",
         "url": "https://sanatanadharmam.in"
       },
       "about": [
-        "Rigveda",
-        "Vedic hymns",
-        "Sanatana Dharma",
-        "Vedic philosophy",
-        "ancient scriptures"
+        "ఋగ్వేదం",
+        "వేద శ్లోకాలు",
+        "సనాతన ధర్మం",
+        "వేద తత్వశాస్త్రం",
+        "ప్రాచీన గ్రంథాలు"
       ],
       "url": "https://sanatanadharmam.in/vedas/rigveda"
     },
-    "introduction": "The Rigveda is the oldest and most foundational of the four Vedas that form the core of the sacred literature of Sanatana Dharma. The term 'Rigveda' is derived from two Sanskrit words: 'Rik', meaning praise or hymn, and 'Veda', meaning knowledge. Thus the Rigveda can be understood as the 'knowledge of hymns' or 'sacred knowledge expressed through praise'.\n\nThe Rigveda represents one of the earliest literary records of human civilization. Scholars estimate that the hymns were composed between 1500 BCE and 1200 BCE, though traditional Hindu belief considers the Vedas to be timeless revelations heard by ancient sages known as Rishis during deep states of spiritual insight. These sages did not consider themselves authors but rather seers who perceived eternal truths.\n\nThe Rigveda consists of 1028 hymns organized into ten sections known as Mandalas. These hymns are written in Vedic Sanskrit and were originally preserved through an elaborate oral tradition that ensured extraordinary accuracy across generations. Even before writing systems became common, the Rigvedic hymns were memorized and transmitted with meticulous precision.\n\nThe hymns of the Rigveda address a wide range of themes including cosmic creation, natural forces, ethical living, spiritual wisdom and the search for truth. Many hymns praise deities who represent aspects of nature and universal principles. Among the most frequently mentioned deities are Agni (fire), Indra (thunder and power), Varuna (cosmic order), Surya (the sun), Soma (sacred elixir), and Ushas (the dawn).\n\nHowever, these deities should not be understood merely as mythological figures. In the Vedic worldview, they symbolize deeper forces of nature and aspects of universal consciousness. The Rigveda reflects a profound attempt to understand the relationship between humanity, nature and the divine order governing the cosmos.\n\nBeyond ritual praise, the Rigveda also contains philosophical reflections that later became central to Hindu philosophy. Hymns such as the famous Nasadiya Sukta explore the mystery of creation and question the very origins of the universe. These early philosophical inquiries demonstrate a remarkable openness to speculation and contemplation.\n\nFor thousands of years, the Rigveda has served as a foundation for later spiritual texts including the Upanishads, the Brahmanas and the philosophical systems of Vedanta. Its hymns continue to inspire spiritual seekers, scholars and practitioners who study the origins of Indian civilization and spiritual thought.",
+    "introduction": "సనాతన ధర్మం యొక్క పవిత్ర సాహిత్యం యొక్క ప్రధానమైన నాలుగు వేదాలలో ఋగ్వేదం పురాతనమైనది మరియు అత్యంత పునాది. 'ఋగ్వేదం' అనే పదం రెండు సంస్కృత పదాల నుండి ఉద్భవించింది: 'రిక్', అంటే ప్రశంసలు లేదా శ్లోకం మరియు 'వేదం', అంటే జ్ఞానం. అందువల్ల ఋగ్వేదాన్ని 'స్తోత్రాల జ్ఞానం' లేదా 'స్తోత్రం ద్వారా వ్యక్తీకరించబడిన పవిత్ర జ్ఞానం' అని అర్థం చేసుకోవచ్చు.\n\nఋగ్వేదం మానవ నాగరికత యొక్క ప్రారంభ సాహిత్య రికార్డులలో ఒకటి. పండితులు ఈ శ్లోకాలు 1500 BCE మరియు 1200 BCE మధ్య కంపోజ్ చేయబడ్డాయి అని అంచనా వేస్తున్నారు, అయితే సాంప్రదాయ హిందూ విశ్వాసం ఆధ్యాత్మిక అంతర్దృష్టి యొక్క లోతైన స్థితులలో ఋషులు అని పిలువబడే పురాతన ఋషులచే వినిపించే శాశ్వతమైన ద్యోతకాలుగా పరిగణించబడుతుంది. ఈ ఋషులు తమను తాము రచయితలుగా భావించలేదు కానీ శాశ్వతమైన సత్యాలను గ్రహించిన దర్శకులుగా భావించారు.\n\nఋగ్వేదంలో 1028 శ్లోకాలు ఉన్నాయి, వీటిని పది విభాగాలుగా మండలాలు అంటారు. ఈ శ్లోకాలు వేద సంస్కృతంలో వ్రాయబడ్డాయి మరియు వాస్తవానికి తరతరాలుగా అసాధారణ ఖచ్చితత్వాన్ని నిర్ధారించే విస్తృతమైన మౌఖిక సంప్రదాయం ద్వారా భద్రపరచబడ్డాయి. వ్రాత వ్యవస్థలు సాధారణం కావడానికి ముందే, ఋగ్వేద శ్లోకాలు కంఠస్థం చేయబడ్డాయి మరియు ఖచ్చితమైన ఖచ్చితత్వంతో ప్రసారం చేయబడ్డాయి.\n\nఋగ్వేదంలోని శ్లోకాలు విశ్వ సృష్టి, సహజ శక్తులు, నైతిక జీవనం, ఆధ్యాత్మిక జ్ఞానం మరియు సత్యం కోసం అన్వేషణ వంటి అనేక రకాల ఇతివృత్తాలను సూచిస్తాయి. అనేక శ్లోకాలు ప్రకృతి యొక్క అంశాలను మరియు సార్వత్రిక సూత్రాలను సూచించే దేవతలను స్తుతిస్తాయి. అగ్ని (అగ్ని), ఇంద్రుడు (ఉరుము మరియు శక్తి), వరుణ (విశ్వ క్రమం), సూర్య (సూర్యుడు), సోమ (పవిత్ర అమృతం) మరియు ఉషస్ (ఉదయం) చాలా తరచుగా ప్రస్తావించబడిన దేవతలలో ఉన్నాయి.\n\nఅయితే, ఈ దేవతలను కేవలం పౌరాణిక మూర్తులుగా అర్థం చేసుకోకూడదు. వేద ప్రపంచ దృష్టికోణంలో, అవి ప్రకృతి యొక్క లోతైన శక్తులను మరియు సార్వత్రిక స్పృహ యొక్క అంశాలను సూచిస్తాయి. ఋగ్వేదం మానవత్వం, ప్రకృతి మరియు విశ్వాన్ని నియంత్రించే దైవిక క్రమం మధ్య సంబంధాన్ని అర్థం చేసుకోవడానికి ఒక లోతైన ప్రయత్నాన్ని ప్రతిబింబిస్తుంది.\n\nఆచార ప్రశంసలకు మించి, ఋగ్వేదంలో తాత్విక ప్రతిబింబాలు కూడా ఉన్నాయి, అది తరువాత హిందూ తత్వశాస్త్రానికి కేంద్రంగా మారింది. ప్రసిద్ధ నాసాదియ సూక్త వంటి శ్లోకాలు సృష్టి యొక్క రహస్యాన్ని అన్వేషిస్తాయి మరియు విశ్వం యొక్క మూలాలను ప్రశ్నిస్తాయి. ఈ ప్రారంభ తాత్విక విచారణలు ఊహాగానాలకు మరియు ఆలోచనలకు గొప్ప బహిరంగతను ప్రదర్శిస్తాయి.\n\nవేల సంవత్సరాలుగా, ఋగ్వేదం ఉపనిషత్తులు, బ్రాహ్మణాలు మరియు వేదాంత తాత్విక వ్యవస్థలతో సహా తదుపరి ఆధ్యాత్మిక గ్రంథాలకు పునాదిగా పనిచేసింది. భారతీయ నాగరికత మరియు ఆధ్యాత్మిక చింతన యొక్క మూలాలను అధ్యయనం చేసే ఆధ్యాత్మిక అన్వేషకులు, పండితులు మరియు అభ్యాసకులకు దీని కీర్తనలు స్ఫూర్తినిస్తూనే ఉన్నాయి.",
     "scripture_text": [
       {
-        "section": "Structure of the Rigveda",
-        "content": "The Rigveda is divided into ten Mandalas or books. Each Mandala contains hymns composed by different families of sages. The structure reflects both chronological development and thematic grouping.\n\nMandalas 2 through 7 are often referred to as the 'family books' because they are associated with specific Rishi lineages such as the Gritsamadas, Vishvamitras, Vamadevas, Atris and Bharadvajas. These sections contain some of the oldest hymns in the Rigveda.\n\nMandalas 1 and 10 are more diverse in content and contain many philosophical and cosmological hymns. Mandala 10 includes some of the most famous verses exploring creation, existence and the nature of reality.\n\nEach hymn in the Rigveda is composed in poetic meters and was designed to be recited during sacred rituals. The careful arrangement of verses reflects a sophisticated understanding of language, rhythm and sound."
+        "section": "ఋగ్వేదం యొక్క నిర్మాణం",
+        "content": "ఋగ్వేదం పది మండలాలు లేదా పుస్తకాలుగా విభజించబడింది. ప్రతి మండలంలో వివిధ ఋషుల కుటుంబాలచే స్వరపరచబడిన శ్లోకాలు ఉన్నాయి. నిర్మాణం కాలక్రమానుసార అభివృద్ధి మరియు నేపథ్య సమూహం రెండింటినీ ప్రతిబింబిస్తుంది.\n\nమండలాలు 2 నుండి 7 వరకు తరచుగా 'కుటుంబ పుస్తకాలు'గా సూచిస్తారు ఎందుకంటే అవి గ్రిత్సమదాస్, విశ్వామిత్రులు, వామదేవులు, అత్రిలు మరియు భరద్వాజలు వంటి నిర్దిష్ట ఋషి వంశాలకు సంబంధించినవి. ఈ విభాగాలలో ఋగ్వేదంలోని కొన్ని పురాతన శ్లోకాలు ఉన్నాయి.\n\nమండలాలు 1 మరియు 10 కంటెంట్‌లో మరింత వైవిధ్యమైనవి మరియు అనేక తాత్విక మరియు విశ్వోద్భవ శ్లోకాలను కలిగి ఉంటాయి. మండల 10 సృష్టి, ఉనికి మరియు వాస్తవికత యొక్క స్వభావాన్ని అన్వేషించే అత్యంత ప్రసిద్ధ శ్లోకాలలో కొన్నింటిని కలిగి ఉంది.\n\nఋగ్వేదంలోని ప్రతి శ్లోకం కవితా మీటర్‌లలో కంపోజ్ చేయబడింది మరియు పవిత్రమైన ఆచారాల సమయంలో పఠించడానికి రూపొందించబడింది. పద్యాల జాగ్రత్తగా అమరిక భాష, లయ మరియు ధ్వని యొక్క అధునాతన అవగాహనను ప్రతిబింబిస్తుంది."
       },
       {
-        "section": "Deities in the Rigveda",
-        "content": "The hymns of the Rigveda frequently address various deities who represent forces of nature and cosmic principles. Agni, the fire god, is among the most prominent and is often invoked at the beginning of rituals because fire acts as a mediator between humans and the divine.\n\nIndra is another major deity praised for his strength and heroic deeds, particularly his victory over the serpent Vritra which symbolizes the release of life-giving waters. Varuna represents the cosmic order and moral law known as Rta.\n\nSurya, the sun, symbolizes illumination and the life-sustaining power of the universe, while Ushas, the goddess of dawn, represents renewal and hope. Soma is associated with a sacred ritual drink believed to grant inspiration and divine insight.\n\nThese deities collectively illustrate the Vedic understanding that natural forces are expressions of deeper spiritual realities."
+        "section": "ఋగ్వేదంలోని దేవతలు",
+        "content": "ఋగ్వేదంలోని శ్లోకాలు తరచుగా ప్రకృతి శక్తులు మరియు విశ్వ సూత్రాలను సూచించే వివిధ దేవతలను సూచిస్తాయి. అగ్ని, అగ్ని దేవుడు, అత్యంత ప్రముఖమైనది మరియు ఆచారాల ప్రారంభంలో తరచుగా పిలువబడుతుంది, ఎందుకంటే అగ్ని మానవులకు మరియు దైవానికి మధ్య మధ్యవర్తిగా పనిచేస్తుంది.\n\nఇంద్రుడు అతని బలం మరియు వీరోచిత చర్యలకు ప్రశంసించబడిన మరొక ప్రధాన దేవత, ప్రత్యేకించి జీవనాధార జలాల విడుదలకు ప్రతీక అయిన పాము వృత్రపై అతని విజయం. వరుణుడు విశ్వ క్రమాన్ని మరియు Rta అని పిలువబడే నైతిక చట్టాన్ని సూచిస్తుంది.\n\nసూర్యుడు, సూర్యుడు, ప్రకాశం మరియు విశ్వం యొక్క జీవ-నిరంతర శక్తిని సూచిస్తుంది, అయితే ఉషస్, ఉదయాన్నే దేవత, పునరుద్ధరణ మరియు ఆశను సూచిస్తుంది. సోమ అనేది ఒక పవిత్రమైన ఆచార పానీయంతో సంబంధం కలిగి ఉంటుంది, ఇది ప్రేరణ మరియు దైవిక అంతర్దృష్టిని ఇస్తుందని నమ్ముతారు.\n\nఈ దేవతలు సమిష్టిగా సహజ శక్తులు లోతైన ఆధ్యాత్మిక వాస్తవాల వ్యక్తీకరణలు అనే వేద అవగాహనను వివరిస్తాయి."
       },
       {
-        "section": "The Nasadiya Sukta",
-        "content": "One of the most remarkable hymns in the Rigveda is the Nasadiya Sukta found in Mandala 10. This hymn contemplates the mystery of creation in a deeply philosophical manner. Instead of offering a definitive explanation, it presents a series of questions about the origin of the universe.\n\nThe hymn begins by describing a time before existence and nonexistence, before space and time themselves. It then explores the possibility that the universe emerged from an undifferentiated state through the power of cosmic desire.\n\nThe hymn concludes with a striking statement suggesting that perhaps even the highest divine being may not fully know the ultimate origin of creation. This openness to inquiry reflects the intellectual depth of Vedic thought."
+        "section": "నాసాదియ సూక్త",
+        "content": "ఋగ్వేదంలోని అత్యంత విశేషమైన శ్లోకాలలో ఒకటి మండల 10లో కనిపించే నాసాదీయ సూక్తం. ఈ శ్లోకం లోతైన తాత్విక పద్ధతిలో సృష్టి యొక్క రహస్యాన్ని పరిశీలిస్తుంది. ఖచ్చితమైన వివరణను అందించడానికి బదులుగా, ఇది విశ్వం యొక్క మూలం గురించి ప్రశ్నల శ్రేణిని అందిస్తుంది.\n\nశ్లోకం ఉనికి మరియు అస్తిత్వానికి ముందు, స్థలం మరియు సమయానికి ముందు సమయాన్ని వివరించడం ద్వారా ప్రారంభమవుతుంది. ఇది విశ్వ కోరిక యొక్క శక్తి ద్వారా భిన్నమైన స్థితి నుండి విశ్వం ఉద్భవించే అవకాశాన్ని అన్వేషిస్తుంది.\n\nబహుశా అత్యున్నత దైవిక జీవికి కూడా సృష్టి యొక్క అంతిమ మూలం పూర్తిగా తెలియకపోవచ్చని సూచించే అద్భుతమైన ప్రకటనతో శ్లోకం ముగుస్తుంది. విచారణకు ఈ బహిరంగత వైదిక ఆలోచన యొక్క మేధో లోతును ప్రతిబింబిస్తుంది."
       }
     ],
-    "philosophical_explanation": "The Rigveda contains early seeds of philosophical ideas that later evolved into complex systems of Indian thought. One of the central concepts expressed throughout the hymns is the idea of Rta, the cosmic order that governs the functioning of the universe.\n\nRta represents the harmony and balance underlying all natural phenomena. The movement of the sun, the cycles of seasons and the moral conduct of humans are all believed to operate according to this universal law. By performing rituals and living ethically, individuals contribute to maintaining this cosmic harmony.\n\nAnother key philosophical theme is the search for unity within diversity. While the Rigveda praises many deities, several hymns suggest that these diverse manifestations ultimately point toward a single underlying reality. One famous verse declares: 'Truth is one; the wise call it by many names.'\n\nThis insight later became a cornerstone of Vedantic philosophy, which teaches that the ultimate reality known as Brahman manifests itself through various forms and aspects.\n\nThe Rigveda also emphasizes the transformative power of knowledge and awareness. Through reflection, prayer and disciplined living, individuals can deepen their understanding of the universe and their place within it.\n\nThus the Rigveda is not merely a collection of ritual hymns but a profound exploration of human consciousness and cosmic order.",
+    "philosophical_explanation": "ఋగ్వేదం తాత్విక ఆలోచనల ప్రారంభ బీజాలను కలిగి ఉంది, అది తరువాత భారతీయ ఆలోచన యొక్క సంక్లిష్ట వ్యవస్థలుగా పరిణామం చెందింది. శ్లోకాలు అంతటా వ్యక్తీకరించబడిన కేంద్ర భావనలలో ఒకటి Rta యొక్క ఆలోచన, విశ్వం యొక్క పనితీరును నియంత్రించే విశ్వ క్రమం.\n\nRta అనేది అన్ని సహజ దృగ్విషయాలకు అంతర్లీనంగా ఉన్న సామరస్యాన్ని మరియు సమతుల్యతను సూచిస్తుంది. సూర్యుని కదలిక, రుతువుల చక్రాలు మరియు మానవుల నైతిక ప్రవర్తన అన్నీ ఈ సార్వత్రిక చట్టం ప్రకారం పనిచేస్తాయని నమ్ముతారు. ఆచారాలను నిర్వహించడం మరియు నైతికంగా జీవించడం ద్వారా, వ్యక్తులు ఈ విశ్వ సామరస్యాన్ని కొనసాగించడానికి దోహదం చేస్తారు.\n\nమరో కీలకమైన తాత్విక ఇతివృత్తం భిన్నత్వంలో ఏకత్వం కోసం అన్వేషణ. ఋగ్వేదం అనేక దేవతలను స్తుతిస్తున్నప్పటికీ, అనేక శ్లోకాలు ఈ విభిన్న వ్యక్తీకరణలు చివరికి ఒకే అంతర్లీన వాస్తవికతను సూచిస్తాయని సూచిస్తున్నాయి. ఒక ప్రసిద్ధ పద్యం ఇలా ప్రకటించింది: 'సత్యం ఒకటి; జ్ఞానులు దానిని అనేక పేర్లతో పిలుస్తారు.\n\nఈ అంతర్దృష్టి తరువాత వేదాంత తత్వశాస్త్రం యొక్క మూలస్తంభంగా మారింది, ఇది బ్రహ్మంగా పిలువబడే అంతిమ వాస్తవికత వివిధ రూపాలు మరియు అంశాల ద్వారా వ్యక్తమవుతుందని బోధిస్తుంది.\n\nఋగ్వేదం జ్ఞానం మరియు అవగాహన యొక్క పరివర్తన శక్తిని కూడా నొక్కి చెబుతుంది. ప్రతిబింబం, ప్రార్థన మరియు క్రమశిక్షణతో కూడిన జీవనం ద్వారా, వ్యక్తులు విశ్వం మరియు దానిలో వారి స్థానం గురించి వారి అవగాహనను మరింతగా పెంచుకోవచ్చు.\n\nఅందువల్ల ఋగ్వేదం కేవలం ఆచార శ్లోకాల సమాహారం మాత్రమే కాదు, మానవ స్పృహ మరియు విశ్వ క్రమాన్ని లోతైన అన్వేషణ.",
     "major_rigvedic_deities": [
       {
-        "name": "Agni",
-        "role": "Fire god and mediator between humans and gods",
-        "importance": "Central deity in sacrificial rituals"
+        "name": "అగ్ని",
+        "role": "అగ్ని దేవుడు మరియు మానవులు మరియు దేవతల మధ్య మధ్యవర్తి",
+        "importance": "బలి కర్మలలో కేంద్ర దైవం"
       },
       {
-        "name": "Indra",
-        "role": "King of gods and warrior",
-        "importance": "Defeats the serpent Vritra and releases rivers"
+        "name": "ఇంద్రుడు",
+        "role": "దేవతల రాజు మరియు యోధుడు",
+        "importance": "వృత్ర అనే సర్పాన్ని ఓడించి నదులను విడుదల చేస్తాడు"
       },
       {
-        "name": "Varuna",
-        "role": "Guardian of cosmic order",
-        "importance": "Represents moral and cosmic law"
+        "name": "వరుణుడు",
+        "role": "కాస్మిక్ ఆర్డర్ యొక్క సంరక్షకుడు",
+        "importance": "నైతిక మరియు విశ్వ చట్టాన్ని సూచిస్తుంది"
       },
       {
-        "name": "Soma",
-        "role": "Sacred ritual drink and deity",
-        "importance": "Associated with divine inspiration and immortality"
+        "name": "సోమ",
+        "role": "పవిత్ర కర్మ పానీయం మరియు దేవత",
+        "importance": "దైవిక ప్రేరణ మరియు అమరత్వంతో అనుబంధించబడింది"
       }
     ],
     "related_concepts": [
-      "Vedas",
-      "Upanishads",
-      "Agni",
-      "Indra",
-      "Varuna",
-      "Surya",
-      "Soma",
+      "వేదాలు",
+      "ఉపనిషత్తులు",
+      "అగ్ని",
+      "ఇంద్రుడు",
+      "వరుణుడు",
+      "సూర్య",
+      "సోమ",
       "Rta",
-      "Brahman",
-      "Atman",
-      "Vedic rituals",
-      "Sanatana Dharma"
+      "బ్రాహ్మణుడు",
+      "ఆత్మ",
+      "వైదిక కర్మలు",
+      "సనాతన ధర్మం"
     ]
   }
 }

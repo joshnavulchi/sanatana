@@ -1,31 +1,31 @@
 {
   "rigveda": {
-    "title": "Rigveda – The Oldest Veda of Sanatana Dharma | Hymns, Philosophy and Cosmic Knowledge",
-    "description": "Learn about the Rigveda, the oldest of the four Vedas. Explore its hymns, mandalas, deities, cosmology, philosophy and its influence on Sanatana Dharma.",
+    "title": "ரிக்வேதம் - சனாதன தர்மத்தின் பழமையான வேதம் | கீர்த்தனைகள், தத்துவம் மற்றும் பிரபஞ்ச அறிவு",
+    "description": "நான்கு வேதங்களில் மிகப் பழமையான ரிக்வேதத்தைப் பற்றி அறிக. அதன் கீர்த்தனைகள், மண்டலங்கள், தெய்வங்கள், அண்டவியல், தத்துவம் மற்றும் சனாதன தர்மத்தின் மீதான அதன் தாக்கத்தை ஆராயுங்கள்.",
     "meta": {
-      "title": "Rigveda – The Oldest Veda of Sanatana Dharma | Hymns, Philosophy and Cosmic Knowledge",
+      "title": "ரிக்வேதம் - சனாதன தர்மத்தின் பழமையான வேதம் | கீர்த்தனைகள், தத்துவம் மற்றும் பிரபஞ்ச அறிவு",
       "canonical": "https://sanatanadharmam.in/vedas/rigveda",
-      "description": "Learn about the Rigveda, the oldest of the four Vedas. Explore its hymns, mandalas, deities, cosmology, philosophy and its influence on Sanatana Dharma.",
+      "description": "நான்கு வேதங்களில் மிகப் பழமையான ரிக்வேதத்தைப் பற்றி அறிக. அதன் கீர்த்தனைகள், மண்டலங்கள், தெய்வங்கள், அண்டவியல், தத்துவம் மற்றும் சனாதன தர்மத்தின் மீதான அதன் தாக்கத்தை ஆராயுங்கள்.",
       "keywords": [
-        "Rigveda",
-        "Rig Veda meaning",
-        "Rigveda hymns",
-        "Rigveda mandalas",
-        "Rigveda deities",
-        "ancient Vedic scriptures",
-        "Sanatana Dharma Vedas",
-        "Rigveda philosophy",
-        "Vedic hymns",
-        "oldest Hindu scripture"
+        "ரிக்வேதம்",
+        "ரிக் வேதத்தின் பொருள்",
+        "ரிக்வேத கீர்த்தனைகள்",
+        "ரிக்வேத மண்டலங்கள்",
+        "ரிக்வேத தெய்வங்கள்",
+        "பண்டைய வேத நூல்கள்",
+        "சனாதன தர்ம வேதங்கள்",
+        "ரிக்வேத தத்துவம்",
+        "வேத கீர்த்தனைகள்",
+        "மிகப் பழமையான இந்து வேதம்"
       ],
       "url": "https://sanatanadharmam.in/vedas/rigveda"
     },
     "openGraph": {
-      "title": "Rigveda – Ancient Hymns of the Vedic Civilization",
-      "description": "Discover the Rigveda, the oldest sacred scripture of Sanatana Dharma containing 1028 hymns dedicated to cosmic forces and divine principles.",
+      "title": "ரிக்வேதம் - வேத நாகரிகத்தின் பண்டைய பாடல்கள்",
+      "description": "அண்ட சக்திகள் மற்றும் தெய்வீகக் கொள்கைகளுக்கு அர்ப்பணிக்கப்பட்ட 1028 பாடல்களைக் கொண்ட சனாதன தர்மத்தின் மிகப் பழமையான புனித நூலான ரிக்வேதத்தைக் கண்டறியவும்.",
       "url": "https://sanatanadharmam.in/vedas/rigveda",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "சனாதனதர்மம்",
+      "type": "கட்டுரை",
       "images": [
         {
           "url": "https://sanatanadharmam.in/images/og/rigveda.png",
@@ -37,79 +37,79 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Rigveda",
-      "description": "The Rigveda is the oldest of the four Vedas and contains hymns dedicated to cosmic forces and deities such as Agni, Indra, Varuna and Surya.",
+      "@type": "கிரியேட்டிவ்வொர்க்",
+      "name": "ரிக்வேதம்",
+      "description": "ரிக்வேதம் நான்கு வேதங்களில் மிகவும் பழமையானது மற்றும் அண்ட சக்திகள் மற்றும் அக்னி, இந்திரன், வருணன் மற்றும் சூரியன் போன்ற தெய்வங்களுக்கு அர்ப்பணிக்கப்பட்ட பாடல்களைக் கொண்டுள்ளது.",
       "author": {
-        "@type": "Person",
-        "name": "Ved Vyasa"
+        "@type": "நபர்",
+        "name": "வேத வியாசர்"
       },
-      "inLanguage": "Sanskrit",
+      "inLanguage": "சமஸ்கிருதம்",
       "publisher": {
-        "@type": "Organization",
-        "name": "Sanatanadharmam",
+        "@type": "அமைப்பு",
+        "name": "சனாதனதர்மம்",
         "url": "https://sanatanadharmam.in"
       },
       "about": [
-        "Rigveda",
-        "Vedic hymns",
-        "Sanatana Dharma",
-        "Vedic philosophy",
-        "ancient scriptures"
+        "ரிக்வேதம்",
+        "வேத கீர்த்தனைகள்",
+        "சனாதன தர்மம்",
+        "வேத தத்துவம்",
+        "பண்டைய வேதங்கள்"
       ],
       "url": "https://sanatanadharmam.in/vedas/rigveda"
     },
-    "introduction": "The Rigveda is the oldest and most foundational of the four Vedas that form the core of the sacred literature of Sanatana Dharma. The term 'Rigveda' is derived from two Sanskrit words: 'Rik', meaning praise or hymn, and 'Veda', meaning knowledge. Thus the Rigveda can be understood as the 'knowledge of hymns' or 'sacred knowledge expressed through praise'.\n\nThe Rigveda represents one of the earliest literary records of human civilization. Scholars estimate that the hymns were composed between 1500 BCE and 1200 BCE, though traditional Hindu belief considers the Vedas to be timeless revelations heard by ancient sages known as Rishis during deep states of spiritual insight. These sages did not consider themselves authors but rather seers who perceived eternal truths.\n\nThe Rigveda consists of 1028 hymns organized into ten sections known as Mandalas. These hymns are written in Vedic Sanskrit and were originally preserved through an elaborate oral tradition that ensured extraordinary accuracy across generations. Even before writing systems became common, the Rigvedic hymns were memorized and transmitted with meticulous precision.\n\nThe hymns of the Rigveda address a wide range of themes including cosmic creation, natural forces, ethical living, spiritual wisdom and the search for truth. Many hymns praise deities who represent aspects of nature and universal principles. Among the most frequently mentioned deities are Agni (fire), Indra (thunder and power), Varuna (cosmic order), Surya (the sun), Soma (sacred elixir), and Ushas (the dawn).\n\nHowever, these deities should not be understood merely as mythological figures. In the Vedic worldview, they symbolize deeper forces of nature and aspects of universal consciousness. The Rigveda reflects a profound attempt to understand the relationship between humanity, nature and the divine order governing the cosmos.\n\nBeyond ritual praise, the Rigveda also contains philosophical reflections that later became central to Hindu philosophy. Hymns such as the famous Nasadiya Sukta explore the mystery of creation and question the very origins of the universe. These early philosophical inquiries demonstrate a remarkable openness to speculation and contemplation.\n\nFor thousands of years, the Rigveda has served as a foundation for later spiritual texts including the Upanishads, the Brahmanas and the philosophical systems of Vedanta. Its hymns continue to inspire spiritual seekers, scholars and practitioners who study the origins of Indian civilization and spiritual thought.",
+    "introduction": "ரிக்வேதம் சனாதன தர்மத்தின் புனித இலக்கியத்தின் மையமாக இருக்கும் நான்கு வேதங்களில் மிகவும் பழமையானது மற்றும் மிகவும் அடிப்படையானது. 'ரிக்வேதம்' என்ற சொல் இரண்டு சமஸ்கிருத வார்த்தைகளிலிருந்து பெறப்பட்டது: 'ரிக்', புகழ் அல்லது துதி, மற்றும் 'வேதம்', அதாவது அறிவு. இவ்வாறு ரிக்வேதத்தை 'துதிகளின் அறிவு' அல்லது 'துதி மூலம் வெளிப்படுத்தப்படும் புனிதமான அறிவு' என்று புரிந்து கொள்ளலாம்.\n\nரிக்வேதம் மனித நாகரிகத்தின் ஆரம்பகால இலக்கியப் பதிவுகளில் ஒன்றாகும். இந்த பாடல்கள் கிமு 1500 மற்றும் கிமு 1200 க்கு இடையில் இயற்றப்பட்டதாக அறிஞர்கள் மதிப்பிட்டுள்ளனர், இருப்பினும் பாரம்பரிய இந்து நம்பிக்கை வேதங்கள் ஆன்மீக நுண்ணறிவின் ஆழமான நிலைகளில் ரிஷிகள் என்று அழைக்கப்படும் பண்டைய முனிவர்கள் கேட்ட காலமற்ற வெளிப்பாடுகள் என்று கருதுகிறது. இந்த முனிவர்கள் தங்களை ஆசிரியர்களாகக் கருதவில்லை, மாறாக நித்திய உண்மைகளை உணர்ந்த பார்ப்பனர்கள்.\n\nரிக்வேதம் மண்டலங்கள் எனப்படும் பத்து பிரிவுகளாக 1028 பாடல்களைக் கொண்டுள்ளது. இந்த பாடல்கள் வேத சமஸ்கிருதத்தில் எழுதப்பட்டுள்ளன, மேலும் அவை முதலில் ஒரு விரிவான வாய்வழி பாரம்பரியத்தின் மூலம் பாதுகாக்கப்பட்டன, இது தலைமுறைகள் முழுவதும் அசாதாரண துல்லியத்தை உறுதி செய்தது. எழுத்து முறைகள் பொதுவானதாக மாறுவதற்கு முன்பே, ரிக்வேத துதிகள் மனப்பாடம் செய்யப்பட்டு துல்லியமான துல்லியத்துடன் அனுப்பப்பட்டன.\n\nரிக்வேதத்தின் பாடல்கள் அண்ட உருவாக்கம், இயற்கை சக்திகள், நெறிமுறை வாழ்க்கை, ஆன்மீக ஞானம் மற்றும் உண்மையைத் தேடுதல் உள்ளிட்ட பல்வேறு கருப்பொருள்களைக் குறிப்பிடுகின்றன. பல பாடல்கள் இயற்கையின் அம்சங்களையும் உலகளாவிய கொள்கைகளையும் பிரதிநிதித்துவப்படுத்தும் தெய்வங்களைப் போற்றுகின்றன. அடிக்கடி குறிப்பிடப்படும் தெய்வங்களில் அக்னி (நெருப்பு), இந்திரன் (இடி மற்றும் சக்தி), வருணன் (அண்ட ஒழுங்கு), சூரியன் (சூரியன்), சோமா (புனித அமுதம்) மற்றும் உஷாஸ் (விடியல்) ஆகியவை அடங்கும்.\n\nஇருப்பினும், இந்த தெய்வங்களை வெறும் புராண உருவங்களாக மட்டும் புரிந்து கொள்ளக்கூடாது. வேத உலகக் கண்ணோட்டத்தில், அவை இயற்கையின் ஆழமான சக்திகளையும் உலகளாவிய நனவின் அம்சங்களையும் குறிக்கின்றன. ரிக்வேதம் மனிதநேயம், இயற்கை மற்றும் பிரபஞ்சத்தை ஆளும் தெய்வீக ஒழுங்கு ஆகியவற்றுக்கு இடையேயான உறவைப் புரிந்துகொள்ளும் ஒரு ஆழமான முயற்சியை பிரதிபலிக்கிறது.\n\nசடங்கு புகழுக்கு அப்பால், ரிக்வேதத்தில் தத்துவ பிரதிபலிப்புகள் உள்ளன, அது பின்னர் இந்து தத்துவத்தின் மையமாக மாறியது. புகழ்பெற்ற நாசாதியா சுக்தா போன்ற பாடல்கள் படைப்பின் மர்மத்தை ஆராய்கின்றன மற்றும் பிரபஞ்சத்தின் தோற்றத்தை கேள்விக்குள்ளாக்குகின்றன. இந்த ஆரம்பகால தத்துவ விசாரணைகள் ஊகங்களுக்கும் சிந்தனைக்கும் குறிப்பிடத்தக்க வெளிப்படைத்தன்மையைக் காட்டுகின்றன.\n\nஆயிரக்கணக்கான ஆண்டுகளாக, ரிக்வேதம் உபநிடதங்கள், பிராமணங்கள் மற்றும் வேதாந்தத்தின் தத்துவ அமைப்புகள் உள்ளிட்ட பிற்கால ஆன்மீக நூல்களுக்கு அடித்தளமாக செயல்பட்டது. இந்திய நாகரிகம் மற்றும் ஆன்மீக சிந்தனையின் தோற்றத்தை ஆய்வு செய்யும் ஆன்மீக தேடுபவர்கள், அறிஞர்கள் மற்றும் பயிற்சியாளர்களை அதன் பாடல்கள் தொடர்ந்து ஊக்குவிக்கின்றன.",
     "scripture_text": [
       {
-        "section": "Structure of the Rigveda",
-        "content": "The Rigveda is divided into ten Mandalas or books. Each Mandala contains hymns composed by different families of sages. The structure reflects both chronological development and thematic grouping.\n\nMandalas 2 through 7 are often referred to as the 'family books' because they are associated with specific Rishi lineages such as the Gritsamadas, Vishvamitras, Vamadevas, Atris and Bharadvajas. These sections contain some of the oldest hymns in the Rigveda.\n\nMandalas 1 and 10 are more diverse in content and contain many philosophical and cosmological hymns. Mandala 10 includes some of the most famous verses exploring creation, existence and the nature of reality.\n\nEach hymn in the Rigveda is composed in poetic meters and was designed to be recited during sacred rituals. The careful arrangement of verses reflects a sophisticated understanding of language, rhythm and sound."
+        "section": "ரிக்வேதத்தின் அமைப்பு",
+        "content": "ரிக்வேதம் பத்து மண்டலங்கள் அல்லது புத்தகங்களாக பிரிக்கப்பட்டுள்ளது. ஒவ்வொரு மண்டலத்திலும் வெவ்வேறு முனிவர்களின் குடும்பங்களால் இயற்றப்பட்ட பாடல்கள் உள்ளன. இந்த அமைப்பு காலவரிசை வளர்ச்சி மற்றும் கருப்பொருள் குழுக்கள் இரண்டையும் பிரதிபலிக்கிறது.\n\nமண்டலங்கள் 2 முதல் 7 வரை 'குடும்பப் புத்தகங்கள்' என்று குறிப்பிடப்படுகின்றன, ஏனெனில் அவை கிரிட்சமதாஸ், விஸ்வாமித்திரர், வாமதேவர்கள், அத்ரிஸ் மற்றும் பரத்வாஜஸ் போன்ற குறிப்பிட்ட ரிஷி பரம்பரைகளுடன் தொடர்புடையவை. இந்த பிரிவுகளில் ரிக்வேதத்தின் பழமையான பாடல்கள் சில உள்ளன.\n\nமண்டலங்கள் 1 மற்றும் 10 உள்ளடக்கத்தில் மிகவும் மாறுபட்டவை மற்றும் பல தத்துவ மற்றும் அண்டவியல் பாடல்களைக் கொண்டுள்ளன. மண்டலா 10, படைப்பு, இருப்பு மற்றும் யதார்த்தத்தின் தன்மையை ஆராயும் மிகவும் பிரபலமான சில வசனங்களை உள்ளடக்கியது.\n\nரிக்வேதத்தில் உள்ள ஒவ்வொரு கீர்த்தனையும் கவிதை அளவீடுகளில் இயற்றப்பட்டுள்ளது மற்றும் புனித சடங்குகளின் போது ஓதுவதற்காக வடிவமைக்கப்பட்டுள்ளது. வசனங்களை கவனமாக அமைப்பது மொழி, தாளம் மற்றும் ஒலி பற்றிய அதிநவீன புரிதலை பிரதிபலிக்கிறது."
       },
       {
-        "section": "Deities in the Rigveda",
-        "content": "The hymns of the Rigveda frequently address various deities who represent forces of nature and cosmic principles. Agni, the fire god, is among the most prominent and is often invoked at the beginning of rituals because fire acts as a mediator between humans and the divine.\n\nIndra is another major deity praised for his strength and heroic deeds, particularly his victory over the serpent Vritra which symbolizes the release of life-giving waters. Varuna represents the cosmic order and moral law known as Rta.\n\nSurya, the sun, symbolizes illumination and the life-sustaining power of the universe, while Ushas, the goddess of dawn, represents renewal and hope. Soma is associated with a sacred ritual drink believed to grant inspiration and divine insight.\n\nThese deities collectively illustrate the Vedic understanding that natural forces are expressions of deeper spiritual realities."
+        "section": "ரிக்வேதத்தில் உள்ள தெய்வங்கள்",
+        "content": "ரிக்வேதத்தின் பாடல்கள் இயற்கையின் சக்திகள் மற்றும் பிரபஞ்சக் கொள்கைகளை பிரதிநிதித்துவப்படுத்தும் பல்வேறு தெய்வங்களை அடிக்கடி குறிப்பிடுகின்றன. அக்னி, நெருப்புக் கடவுள், மிக முக்கியமானவர் மற்றும் சடங்குகளின் தொடக்கத்தில் அடிக்கடி அழைக்கப்படுகிறார், ஏனெனில் நெருப்பு மனிதர்களுக்கும் தெய்வீகத்திற்கும் இடையில் ஒரு மத்தியஸ்தராக செயல்படுகிறது.\n\nஇந்திரன் அவரது வலிமை மற்றும் வீரச் செயல்களுக்காகப் பாராட்டப்பட்ட மற்றொரு பெரிய தெய்வம், குறிப்பாக விருத்திரா பாம்பின் மீதான வெற்றி, இது உயிர் கொடுக்கும் நீரின் வெளியீட்டைக் குறிக்கிறது. Rta எனப்படும் அண்ட ஒழுங்கு மற்றும் தார்மீக சட்டத்தை வருணன் பிரதிபலிக்கிறது.\n\nசூரியன், சூரியன், பிரபஞ்சத்தின் வெளிச்சத்தையும் உயிர்வாழும் சக்தியையும் குறிக்கிறது, அதே சமயம் உஷாஸ், விடியலின் தெய்வம், புதுப்பித்தல் மற்றும் நம்பிக்கையைக் குறிக்கிறது. சோமா உத்வேகம் மற்றும் தெய்வீக நுண்ணறிவை வழங்குவதாக நம்பப்படும் ஒரு புனிதமான சடங்கு பானத்துடன் தொடர்புடையது.\n\nஇயற்கை சக்திகள் ஆழ்ந்த ஆன்மீக உண்மைகளின் வெளிப்பாடுகள் என்ற வேத புரிதலை இந்த தெய்வங்கள் கூட்டாக விளக்குகின்றன."
       },
       {
-        "section": "The Nasadiya Sukta",
-        "content": "One of the most remarkable hymns in the Rigveda is the Nasadiya Sukta found in Mandala 10. This hymn contemplates the mystery of creation in a deeply philosophical manner. Instead of offering a definitive explanation, it presents a series of questions about the origin of the universe.\n\nThe hymn begins by describing a time before existence and nonexistence, before space and time themselves. It then explores the possibility that the universe emerged from an undifferentiated state through the power of cosmic desire.\n\nThe hymn concludes with a striking statement suggesting that perhaps even the highest divine being may not fully know the ultimate origin of creation. This openness to inquiry reflects the intellectual depth of Vedic thought."
+        "section": "நாசாதியா சுக்தா",
+        "content": "ரிக்வேதத்தில் மிகவும் குறிப்பிடத்தக்க பாடல்களில் ஒன்று மண்டலம் 10 இல் காணப்படும் நாசதிய சூக்தம் ஆகும். இந்த பாடல் படைப்பின் மர்மத்தை ஆழமான தத்துவ முறையில் சிந்திக்கிறது. ஒரு திட்டவட்டமான விளக்கத்தை வழங்குவதற்குப் பதிலாக, இது பிரபஞ்சத்தின் தோற்றம் பற்றிய தொடர்ச்சியான கேள்விகளை முன்வைக்கிறது.\n\nஸ்தோத்திரம் இருப்பதற்கும் இல்லாததற்கும் முந்தைய நேரத்தையும், இடம் மற்றும் நேரத்திற்கும் முந்தைய நேரத்தை விவரிப்பதன் மூலம் தொடங்குகிறது. அண்ட ஆசையின் சக்தியின் மூலம் பிரபஞ்சம் வேறுபடுத்தப்படாத நிலையில் இருந்து வெளிப்பட்டதற்கான சாத்தியத்தை அது ஆராய்கிறது.\n\nமிக உயர்ந்த தெய்வீக உயிரினம் கூட படைப்பின் இறுதி தோற்றத்தை முழுமையாக அறியாமல் இருக்கலாம் என்று பரிந்துரைக்கும் ஒரு குறிப்பிடத்தக்க அறிக்கையுடன் பாடல் முடிவடைகிறது. விசாரிப்பதற்கான இந்த திறந்த தன்மை வேத சிந்தனையின் அறிவுசார் ஆழத்தை பிரதிபலிக்கிறது."
       }
     ],
-    "philosophical_explanation": "The Rigveda contains early seeds of philosophical ideas that later evolved into complex systems of Indian thought. One of the central concepts expressed throughout the hymns is the idea of Rta, the cosmic order that governs the functioning of the universe.\n\nRta represents the harmony and balance underlying all natural phenomena. The movement of the sun, the cycles of seasons and the moral conduct of humans are all believed to operate according to this universal law. By performing rituals and living ethically, individuals contribute to maintaining this cosmic harmony.\n\nAnother key philosophical theme is the search for unity within diversity. While the Rigveda praises many deities, several hymns suggest that these diverse manifestations ultimately point toward a single underlying reality. One famous verse declares: 'Truth is one; the wise call it by many names.'\n\nThis insight later became a cornerstone of Vedantic philosophy, which teaches that the ultimate reality known as Brahman manifests itself through various forms and aspects.\n\nThe Rigveda also emphasizes the transformative power of knowledge and awareness. Through reflection, prayer and disciplined living, individuals can deepen their understanding of the universe and their place within it.\n\nThus the Rigveda is not merely a collection of ritual hymns but a profound exploration of human consciousness and cosmic order.",
+    "philosophical_explanation": "ரிக்வேதத்தில் தத்துவக் கருத்துகளின் ஆரம்ப விதைகள் உள்ளன, அவை பின்னர் இந்திய சிந்தனையின் சிக்கலான அமைப்புகளாக உருவெடுத்தன. பாடல்கள் முழுவதும் வெளிப்படுத்தப்படும் மையக் கருத்துக்களில் ஒன்று, பிரபஞ்சத்தின் செயல்பாட்டை நிர்வகிக்கும் பிரபஞ்ச ஒழுங்கான Rta பற்றிய கருத்து.\n\nRta என்பது அனைத்து இயற்கை நிகழ்வுகளுக்கும் அடிப்படையான நல்லிணக்கம் மற்றும் சமநிலையைக் குறிக்கிறது. சூரியனின் இயக்கம், பருவங்களின் சுழற்சிகள் மற்றும் மனிதர்களின் ஒழுக்க நடத்தை அனைத்தும் இந்த உலகளாவிய சட்டத்தின்படி செயல்படுவதாக நம்பப்படுகிறது. சடங்குகள் மற்றும் நெறிமுறைகளை வாழ்வதன் மூலம், தனிநபர்கள் இந்த பிரபஞ்ச நல்லிணக்கத்தை பராமரிக்க பங்களிக்கிறார்கள்.\n\nமற்றொரு முக்கிய தத்துவக் கருப்பொருள் வேற்றுமைக்குள் ஒற்றுமைக்கான தேடலாகும். ரிக்வேதம் பல தெய்வங்களைப் புகழ்ந்தாலும், பல பாடல்கள் இந்த மாறுபட்ட வெளிப்பாடுகள் இறுதியில் ஒரு அடிப்படை யதார்த்தத்தை நோக்கிச் செல்கின்றன என்று கூறுகின்றன. ஒரு பிரபலமான வசனம் அறிவிக்கிறது: 'உண்மை ஒன்றுதான்; ஞானிகள் பல பெயர்களில் அழைக்கிறார்கள்.\n\nஇந்த நுண்ணறிவு பின்னர் வேதாந்த தத்துவத்தின் ஒரு மூலக்கல்லாக மாறியது, இது பிரம்மன் எனப்படும் இறுதி உண்மை பல்வேறு வடிவங்கள் மற்றும் அம்சங்களின் மூலம் தன்னை வெளிப்படுத்துகிறது என்று கற்பிக்கிறது.\n\nரிக்வேதம் அறிவு மற்றும் விழிப்புணர்வின் மாற்றும் சக்தியையும் வலியுறுத்துகிறது. பிரதிபலிப்பு, பிரார்த்தனை மற்றும் ஒழுக்கமான வாழ்க்கை மூலம், தனிநபர்கள் பிரபஞ்சம் மற்றும் அதில் தங்கள் இடத்தைப் பற்றிய அவர்களின் புரிதலை ஆழப்படுத்த முடியும்.\n\nஇவ்வாறு ரிக்வேதம் வெறும் சடங்கு பாடல்களின் தொகுப்பாக இல்லாமல் மனித உணர்வு மற்றும் பிரபஞ்ச ஒழுங்கு பற்றிய ஆழமான ஆய்வு ஆகும்.",
     "major_rigvedic_deities": [
       {
-        "name": "Agni",
-        "role": "Fire god and mediator between humans and gods",
-        "importance": "Central deity in sacrificial rituals"
+        "name": "அக்னி",
+        "role": "நெருப்பு கடவுள் மற்றும் மனிதர்களுக்கும் கடவுள்களுக்கும் இடையில் இடைத்தரகர்",
+        "importance": "தியாகச் சடங்குகளில் மைய தெய்வம்"
       },
       {
-        "name": "Indra",
-        "role": "King of gods and warrior",
-        "importance": "Defeats the serpent Vritra and releases rivers"
+        "name": "இந்திரன்",
+        "role": "தெய்வங்களின் அரசன் மற்றும் போர்வீரன்",
+        "importance": "விருத்திரா என்ற பாம்பை தோற்கடித்து நதிகளை விடுவிக்கிறது"
       },
       {
-        "name": "Varuna",
-        "role": "Guardian of cosmic order",
-        "importance": "Represents moral and cosmic law"
+        "name": "வருணா",
+        "role": "பிரபஞ்ச ஒழுங்கின் பாதுகாவலர்",
+        "importance": "தார்மீக மற்றும் அண்ட சட்டத்தை குறிக்கிறது"
       },
       {
-        "name": "Soma",
-        "role": "Sacred ritual drink and deity",
-        "importance": "Associated with divine inspiration and immortality"
+        "name": "சோமா",
+        "role": "புனிதமான சடங்கு பானம் மற்றும் தெய்வம்",
+        "importance": "தெய்வீக உத்வேகம் மற்றும் அழியாத தன்மையுடன் தொடர்புடையது"
       }
     ],
     "related_concepts": [
-      "Vedas",
-      "Upanishads",
-      "Agni",
-      "Indra",
-      "Varuna",
-      "Surya",
-      "Soma",
+      "வேதங்கள்",
+      "உபநிடதங்கள்",
+      "அக்னி",
+      "இந்திரன்",
+      "வருணா",
+      "சூர்யா",
+      "சோமா",
       "Rta",
-      "Brahman",
-      "Atman",
-      "Vedic rituals",
-      "Sanatana Dharma"
+      "பிரம்மன்",
+      "ஆத்மா",
+      "வேத சடங்குகள்",
+      "சனாதன தர்மம்"
     ]
   }
 }

@@ -1,31 +1,31 @@
 {
   "atharvaveda": {
-    "title": "Atharvaveda – The Veda of Everyday Life and Healing | Sanatana Dharma",
-    "description": "Explore the Atharvaveda, the Veda of healing, domestic rituals and philosophical speculation. Learn about its hymns, medicinal knowledge, cosmological thought and spiritual teachings.",
+    "title": "Atharvaveda – 日常生活和治疗的吠陀|萨那塔那佛法",
+    "description": "探索阿闼婆吠陀（Atharvaveda）、治疗吠陀、家庭仪式和哲学思辨。了解它的赞美诗、医学知识、宇宙思想和精神教义。",
     "meta": {
-      "title": "Atharvaveda – The Veda of Everyday Life and Healing | Sanatana Dharma",
+      "title": "Atharvaveda – 日常生活和治疗的吠陀|萨那塔那佛法",
       "canonical": "https://sanatanadharmam.in/vedas/atharvaveda",
-      "description": "Explore the Atharvaveda, the Veda of healing, domestic rituals and philosophical speculation. Learn about its hymns, medicinal knowledge, cosmological thought and spiritual teachings.",
+      "description": "探索阿闼婆吠陀（Atharvaveda）、治疗吠陀、家庭仪式和哲学思辨。了解它的赞美诗、医学知识、宇宙思想和精神教义。",
       "keywords": [
-        "Atharvaveda",
-        "Atharva Veda meaning",
-        "Vedic healing",
-        "Vedic medicine",
-        "Atharvaveda hymns",
-        "ancient Indian healing",
-        "domestic rituals",
-        "Sanatana Dharma Vedas",
-        "Prithvi Sukta",
-        "Hindu scriptures"
+        "阿闼婆吠陀",
+        "阿闼婆吠陀的意义",
+        "吠陀疗愈",
+        "吠陀医学",
+        "阿闼婆吠陀赞美诗",
+        "古印度疗法",
+        "家庭仪式",
+        "萨那塔纳佛法吠陀",
+        "普里特维·苏克塔",
+        "印度教经文"
       ],
       "url": "https://sanatanadharmam.in/vedas/atharvaveda"
     },
     "openGraph": {
-      "title": "Atharvaveda – The Sacred Veda of Healing and Everyday Wisdom",
-      "description": "Discover the Atharvaveda, the fourth Veda covering healing arts, domestic ceremonies, philosophical speculation and the wisdom of everyday life in Vedic tradition.",
+      "title": "Atharvaveda——治愈和日常智慧的神圣吠陀",
+      "description": "探索《阿闼婆吠陀》，第四部吠陀，涵盖吠陀传统中的治疗艺术、家庭仪式、哲学思考和日常生活智慧。",
       "url": "https://sanatanadharmam.in/vedas/atharvaveda",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "萨那塔达曼",
+      "type": "文章",
       "images": [
         {
           "url": "https://sanatanadharmam.in/images/og/atharvaveda.png",
@@ -37,151 +37,151 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Atharvaveda",
-      "description": "The Atharvaveda is the fourth Veda, containing hymns related to healing, domestic rituals, philosophical reflection and the practical wisdom of everyday life.",
+      "@type": "创意工作",
+      "name": "阿闼婆吠陀",
+      "description": "《阿闼婆吠陀》是第四部吠陀经，包含与治疗、家庭仪式、哲学反思和日常生活实用智慧有关的赞美诗。",
       "author": {
-        "@type": "Person",
-        "name": "Ved Vyasa"
+        "@type": "人",
+        "name": "韦德维亚萨"
       },
-      "inLanguage": "Sanskrit",
+      "inLanguage": "梵文",
       "publisher": {
-        "@type": "Organization",
-        "name": "Sanatanadharmam",
+        "@type": "组织",
+        "name": "萨那塔达曼",
         "url": "https://sanatanadharmam.in"
       },
       "about": [
-        "Atharvaveda",
-        "Vedic healing",
-        "Sanatana Dharma",
-        "domestic rituals",
-        "ancient scriptures"
+        "阿闼婆吠陀",
+        "吠陀疗愈",
+        "萨那塔那佛法",
+        "家庭仪式",
+        "古代经文"
       ],
       "url": "https://sanatanadharmam.in/vedas/atharvaveda"
     },
-    "introduction": "The Atharvaveda is the fourth and most distinct of the four Vedas. Named after the ancient sage Atharvan who is credited with discovering fire and establishing the earliest ritual practices, the Atharvaveda represents a unique branch of Vedic knowledge that addresses the practical concerns of everyday life alongside profound philosophical speculation.\n\nThe name 'Atharvaveda' combines 'Atharvan', referring to the sage and his tradition of sacred fire practices, with 'Veda', meaning knowledge. An alternative name for this text is the Atharvangirasa Veda, acknowledging both the sage Atharvan and the sage Angiras whose hymns also form a significant part of the collection.\n\nWhile the Rigveda focuses on hymns of praise, the Yajurveda on sacrificial formulas and the Samaveda on musical chants, the Atharvaveda addresses a remarkably wide range of human concerns. Its 730 hymns spread across 20 books cover topics including healing and medicine, protection from disease and evil, domestic ceremonies, marriage and funeral rites, royal consecration, agricultural practices, philosophical inquiry and cosmological speculation.\n\nThe Atharvaveda was initially not included in the Trayi Vidya or the threefold sacred knowledge of the earlier Vedic tradition. Over time, however, its importance was recognized and it was accepted as the fourth Veda. The Brahma priest, who supervises the entire sacrificial ceremony and must possess knowledge of all the Vedas, draws particularly upon the Atharvaveda.\n\nThe two main recensions of the Atharvaveda are the Shaunaka and the Paippalada. The Shaunaka recension is more widely studied and contains 730 hymns organized into 20 books. The Paippalada recension, preserved primarily in the Odisha and Kashmir traditions, contains additional material not found in the Shaunaka version.\n\nThe Atharvaveda's unique character makes it an invaluable source for understanding the full breadth of Vedic civilization, from the spiritual heights of philosophical inquiry to the practical realities of health, agriculture and community life.",
+    "introduction": "《阿闼婆吠陀》是四部吠陀中的第四部，也是最独特的一部。阿闼婆吠陀以古代圣人阿闼婆吠陀的名字命名，他因发现火并建立了最早的仪式实践而闻名，它代表了吠陀知识的一个独特分支，它解决了日常生活中的实际问题以及深刻的哲学思考。\n\n“Atharvaveda”这个名字结合了“Atharvan”（指的是圣人及其圣火实践的传统）和“Veda”（意思是知识）。该文本的另一个名称是《Atharvangirasa Veda》，向圣人 Atharvan 和圣人 Angiras 致敬，他们的赞美诗也构成了该集的重要组成部分。\n\n《梨俱吠陀》侧重于赞美诗，《夜柔吠陀》侧重于祭祀仪式，《萨摩吠陀》侧重于音乐圣歌，而《阿闼婆吠陀》则解决了人类广泛关注的问题。它的 730 首赞美诗分布在 20 本书中，涵盖的主题包括治疗和医学、免受疾病和邪恶、家庭仪式、婚姻和葬礼仪式、皇家祝圣、农业实践、哲学探究和宇宙学推测。\n\n《Atharvaveda》最初并未包含在 Trayi Vidya 或早期吠陀传统的三重神圣知识中。然而，随着时间的推移，它的重要性得到了认识，并被接受为第四吠陀。梵天祭司负责监督整个祭祀仪式，并且必须掌握所有吠陀经的知识，他特别利用《阿闼婆吠陀》。\n\n《阿闼婆吠陀》的两个主要修订本是《Shaunaka》和《Paippalada》。 Shaunaka 修订版得到了更广泛的研究，包含 730 首赞美诗，分为 20 本书。帕帕拉达修订本主要保留奥里萨邦和克什米尔传统，包含肖纳卡版本中未找到的其他材料。\n\n《阿闼婆吠陀》的独特性使其成为全面理解吠陀文明的宝贵资源，从哲学探究的精神高度到健康、农业和社区生活的实际情况。",
     "scripture_text": [
       {
-        "section": "Healing and Medicine",
-        "content": "The Atharvaveda is widely regarded as the foundation of the ancient Indian medical tradition that later developed into Ayurveda. Many hymns describe the properties of medicinal plants, the causes and treatments of diseases, and prayers for health and longevity.\n\nThe text identifies numerous healing herbs and describes their applications for treating various ailments. Hymns address specific conditions including fever, cough, skin diseases, wounds, poisoning and mental afflictions. The treatments combine herbal remedies with sacred mantras and ritual practices, reflecting the Vedic understanding that health involves the harmony of body, mind and spirit.\n\nOne famous hymn describes the healing power of water as a universal medicine, while others praise specific plants for their ability to restore vitality and drive away disease. The Atharvaveda's approach to healing is holistic, recognizing that physical wellness cannot be separated from psychological and spiritual well-being.\n\nThis integration of medical knowledge with spiritual practice established a tradition that continues to influence Indian healing systems to the present day."
+        "section": "治疗与医学",
+        "content": "阿闼婆吠陀被广泛认为是后来发展为阿育吠陀的古印度医学传统的基础。许多赞美诗描述了药用植物的特性、疾病的原因和治疗方法以及对健康和长寿的祈祷。\n\n书中列出了许多治疗草药，并描述了它们在治疗各种疾病方面的应用。圣歌针对特定情况，包括发烧、咳嗽、皮肤病、伤口、中毒和精神痛苦。这些疗法将草药疗法与神圣的咒语和仪式实践相结合，反映了吠陀的理解，即健康涉及身体、思想和精神的和谐。\n\n一首著名的赞美诗将水的治愈能力描述为万能药物，而其他赞美诗则赞扬特定植物恢复活力和驱除疾病的能力。阿闼婆吠陀的治疗方法是整体的，认识到身体健康不能与心理和精神健康分开。\n\n这种医学知识与精神实践的结合建立了一种传统，至今仍继续影响着印度的治疗系统。"
       },
       {
-        "section": "Domestic Rituals and Daily Life",
-        "content": "A significant portion of the Atharvaveda is devoted to the rituals and concerns of ordinary household life. Unlike the grand sacrificial ceremonies described in the other Vedas, these hymns address the everyday needs of families and communities.\n\nThe text contains hymns for marriage ceremonies, prayers for the welfare of children, protection of the home, success in agriculture and trade, and the resolution of disputes. There are mantras for safe travel, for finding lost property and for ensuring harmony within the family.\n\nFuneral hymns guide the proper performance of last rites and offer prayers for the peaceful journey of the departed soul. Birth ceremonies welcome new life with blessings for health, wisdom and prosperity.\n\nThe Atharvaveda also includes hymns related to royal governance and statecraft. The Rajasūya and other royal consecration ceremonies draw upon Atharvavedic mantras, and there are hymns that describe the qualities of just kingship and the duties of rulers toward their people.\n\nThese domestic and civic hymns reveal a culture deeply concerned with the well-being of individuals and communities, recognizing that spiritual life encompasses all aspects of human experience."
+        "section": "家庭礼仪与日常生活",
+        "content": "《阿闼婆吠陀》的很大一部分致力于日常家庭生活的仪式和关注。与其他吠陀经中描述的盛大祭祀仪式不同，这些赞美诗满足了家庭和社区的日常需求。\n\n文本包含结婚仪式的赞美诗、为儿童幸福、保护家庭、农业和贸易成功以及解决争端的祈祷。有安全旅行、寻找失物和确保家庭和谐的咒语。\n\n葬礼赞美诗指导最后仪式的正确进行，并为逝者灵魂的平静旅程祈祷。诞生仪式迎接新生命，祝福健康、智慧和繁荣。\n\n《阿闼婆吠陀》还包括与王室治理和治国方略有关的赞美诗。拉贾苏雅和其他皇家祝圣仪式借鉴了阿闼婆吠陀咒语，还有一些赞美诗描述了公正王权的品质和统治者对其人民的责任。\n\n这些家庭和公民的赞美诗揭示了一种深深关注个人和社区福祉的文化，认识到精神生活涵盖了人类经历的各个方面。"
       },
       {
-        "section": "The Prithvi Sukta",
-        "content": "One of the most remarkable hymns in the Atharvaveda is the Prithvi Sukta or Hymn to the Earth found in Book 12. This extended hymn celebrates the Earth as a divine mother who sustains all living beings.\n\nThe Prithvi Sukta expresses a profound ecological awareness, describing the Earth's mountains, rivers, forests, seasons and the interconnected web of life they support. The hymn prays for the Earth's continued fertility, for the well-being of all creatures that inhabit her surface, and for harmony between human civilization and the natural world.\n\nThe hymn declares that the Earth bears many nations speaking many languages and following many customs, expressing an early vision of universal tolerance and coexistence. It recognizes the diversity of life as a manifestation of the Earth's abundance and creative power.\n\nThe Prithvi Sukta is often cited as one of the earliest expressions of environmental consciousness in world literature, demonstrating that the ancient Vedic tradition valued the protection and reverence of the natural world."
+        "section": "普里特维苏克塔",
+        "content": "《阿闼婆吠陀》中最引人注目的赞美诗之一是第 12 卷中的《Prithvi Sukta》或《大地赞美诗》。这首长篇赞美诗颂扬地球作为养育所有生物的神圣母亲。\n\n《Prithvi Sukta》表达了深刻的生态意识，描述了地球上的山脉、河流、森林、季节以及它们所支持的相互关联的生命网络。这首赞美诗祈求地球持续肥沃，祈求居住在地球表面的所有生物的福祉，祈求人类文明与自然世界的和谐。\n\n这首赞美诗宣称地球上有许多民族，讲着多种语言，遵循着多种习俗，表达了早期普遍宽容和共存的愿景。它认识到生命的多样性是地球丰富性和创造力的体现。\n\n《Prithvi Sukta》经常被认为是世界文学中最早表达环境意识的作品之一，表明古代吠陀传统重视对自然世界的保护和尊重。"
       }
     ],
-    "philosophical_explanation": "The Atharvaveda contributes significantly to Indian philosophical thought, particularly in the areas of cosmology, the nature of time and the relationship between the individual and the universe.\n\nSeveral hymns in the Atharvaveda explore the mystery of creation in ways that complement and extend the cosmological speculations of the Rigveda. The Skambha Sukta or Hymn to the Cosmic Pillar describes a universal supporting principle that holds together all of creation. This cosmic pillar or Skambha is identified with Brahman, the ultimate reality, and the hymn asks probing questions about the nature of this foundational support.\n\nThe concept of Kala or Time receives extensive treatment in the Atharvaveda. Time is described as a cosmic force that creates and dissolves all things, that drives the seasons and sustains the rhythm of life. This philosophical exploration of time as a divine principle influenced later Hindu, Buddhist and Jain philosophical thinking.\n\nThe Atharvaveda also develops the concept of Brahman more explicitly than the earlier Vedas. Several hymns describe Brahman as the supreme reality underlying all existence, the source from which everything emerges and to which everything returns. These teachings anticipate the systematic Brahman philosophy of the Upanishads.\n\nThe Mundaka Upanishad, associated with the Atharvaveda, introduces the important distinction between Para Vidya, higher knowledge leading to the realization of Brahman, and Apara Vidya, lower knowledge including the study of the Vedas themselves. This teaching emphasizes that true spiritual liberation transcends even scriptural learning and requires direct experiential knowledge of ultimate reality.\n\nThe Prashna Upanishad, also connected to the Atharvaveda, explores six fundamental questions about the nature of creation, the life force, the mind and the relation of the individual to the universal. Together, these Upanishads establish the Atharvaveda as a significant source of the deepest philosophical teachings of the Vedic tradition.",
+    "philosophical_explanation": "《阿闼婆吠陀》对印度哲学思想做出了重大贡献，特别是在宇宙学、时间本质以及个人与宇宙之间的关系领域。\n\n《阿闼婆吠陀》中的几首赞美诗以补充和扩展《梨俱吠陀》的宇宙论推测的方式探索了创造的奥秘。 Skambha Sukta 或宇宙支柱赞美诗描述了将所有造物结合在一起的普遍支持原则。这个宇宙支柱或 Skambha 与婆罗门（Brahman）（终极现实）相同，这首赞美诗提出了关于这一基本支撑的本质的探究性问题。\n\n卡拉（Kala）或时间的概念在阿闼婆吠陀（Atharvaveda）中得到了广泛的讨论。时间被描述为一种宇宙力量，它创造和溶解万物，驱动季节并维持生命的节奏。这种对时间作为神圣原则的哲学探索影响了后来的印度教、佛教和耆那教的哲学思想。\n\n《阿闼婆吠陀》还比早期吠陀经更明确地发展了婆罗门的概念。几首赞美诗将婆罗门描述为所有存在的最高现实，是一切事物出现和回归的源头。这些教义预示了《奥义书》中系统的婆罗门哲学。\n\n与《阿闼婆吠陀》相关的《蒙达卡奥义书》介绍了帕拉维迪亚（Para Vidya）和阿帕拉维迪亚（Apara Vidya）之间的重要区别，帕拉维迪亚（Para Vidya）是导致实现婆罗门的高级知识，而阿帕拉维迪亚（Apara Vidya）是较低级的知识，包括对吠陀经本身的研究。这一教义强调，真正的精神解脱甚至超越经典学习，需要对终极现实的直接体验知识。\n\n《普拉什纳奥义书》也与《阿闼婆吠陀》相关，探讨了关于造物本质、生命力、心灵以及个体与宇宙的关系的六个基本问题。这些奥义书共同将阿闼婆吠陀确立为吠陀传统最深刻的哲学教义的重要来源。",
     "atharvaveda_books": [
       {
         "book": 1,
-        "title": "Atharvaveda Books 1 to 4 – Healing and Protection",
-        "introduction": "The opening books of the Atharvaveda contain hymns primarily focused on healing diseases, protecting against harmful forces and ensuring well-being.",
-        "scripture_text": "These books include mantras for curing specific ailments, prayers for long life and vitality, and protective charms against various threats. Many hymns invoke the healing power of plants and water.",
-        "philosophical_explanation": "The healing hymns reflect the Vedic understanding that health is a sacred gift and that maintaining well-being requires harmony between the physical body, the natural environment and the spiritual realm."
+        "title": "Atharvaveda 书籍 1 至 4 – 治疗与保护",
+        "introduction": "《阿闼婆吠陀》的开头书籍包含主要关注治疗疾病、抵御有害力量和确保福祉的赞美诗。",
+        "scripture_text": "这些书籍包括治疗特定疾病的咒语、长寿和活力的祈祷以及抵御各种威胁的护身符。许多赞美诗都援引了植物和水的治愈力量。",
+        "philosophical_explanation": "治愈赞美诗反映了吠陀的理解，即健康是一份神圣的礼物，保持幸福需要身体、自然环境和精神领域之间的和谐。"
       },
       {
         "book": 2,
-        "title": "Atharvaveda Books 5 to 7 – Domestic Harmony",
-        "introduction": "Books 5 through 7 contain hymns related to domestic life, family harmony, marriage, prosperity and community welfare.",
-        "scripture_text": "These sections include wedding mantras, prayers for children, hymns for agricultural success and formulas for resolving conflicts. They address the full range of concerns that arise in household and community life.",
-        "philosophical_explanation": "The domestic hymns teach that spiritual practice is not limited to formal rituals but extends to every aspect of daily life. The home itself becomes a sacred space when approached with awareness and devotion."
+        "title": "Atharvaveda 书 5 至 7 – 家庭和谐",
+        "introduction": "第五册至第七册包含有关家庭生活、家庭和谐、婚姻、繁荣和社区福利的赞美诗。",
+        "scripture_text": "这些部分包括婚礼咒语、为儿童祈祷、农业成功的赞美诗和解决冲突的公式。它们解决了家庭和社区生活中出现的各种问题。",
+        "philosophical_explanation": "家庭圣歌教导我们，灵性修行并不局限于正式的仪式，而是延伸到日常生活的各个方面。当带着意识和奉献精神接近时，家本身就成为一个神圣的空间。"
       },
       {
         "book": 3,
-        "title": "Atharvaveda Books 8 to 10 – Royal Ceremonies",
-        "introduction": "Books 8 through 10 include hymns for royal consecration, statecraft and the exercise of righteous authority.",
-        "scripture_text": "The texts describe ceremonies for crowning kings, prayers for the success of kingdoms and mantras that invoke divine support for just governance. The famous hymn to Viraj, a cosmic creative power, appears in this section.",
-        "philosophical_explanation": "The royal hymns establish the principle that political authority must be rooted in dharma and that the purpose of governance is the welfare of all beings within the ruler's domain."
+        "title": "《阿闼婆吠陀》第 8 至 10 卷 – 皇家仪式",
+        "introduction": "第 8 卷到第 10 卷包括赞美皇家奉献、治国之道和行使正义权威的赞美诗。",
+        "scripture_text": "这些文本描述了国王加冕的仪式、对王国成功的祈祷以及祈求神圣支持公正治理的咒语。对宇宙创造力维拉吉的著名赞美诗出现在本节中。",
+        "philosophical_explanation": "皇家颂歌确立了政治权威必须植根于佛法的原则，治理的目的是统治者领域内所有众生的福祉。"
       },
       {
         "book": 4,
-        "title": "Atharvaveda Books 11 to 12 – Cosmic Powers",
-        "introduction": "Books 11 and 12 contain some of the most philosophically significant hymns in the Atharvaveda, addressing cosmic principles and universal forces.",
-        "scripture_text": "Book 11 includes the Skambha Sukta exploring the cosmic pillar that supports the universe. Book 12 contains the celebrated Prithvi Sukta, a hymn to the Earth as divine mother.",
-        "philosophical_explanation": "These books demonstrate the Atharvavedic capacity for profound metaphysical speculation, exploring questions about the ultimate structure of reality and humanity's relationship to the cosmos."
+        "title": "《阿闼婆吠陀》第 11 至 12 卷 – 宇宙力量",
+        "introduction": "第 11 卷和第 12 卷包含《阿闼婆吠陀》中一些最具哲学意义的赞美诗，讲述了宇宙原理和普遍力量。",
+        "scripture_text": "第 11 册包括 Skambha Sukta 探索支撑宇宙的宇宙支柱。第 12 卷收录了著名的 Prithvi Sukta，一首赞美大地作为神圣母亲的赞美诗。",
+        "philosophical_explanation": "这些书展示了阿闼婆吠陀进行深刻的形而上学思考的能力，探索有关现实的终极结构以及人类与宇宙的关系的问题。"
       },
       {
         "book": 5,
-        "title": "Atharvaveda Books 13 to 15 – Solar Worship and Vratya",
-        "introduction": "Books 13 through 15 contain hymns celebrating the sun, exploring the concept of the Vratya wandering ascetics and developing solar theology.",
-        "scripture_text": "Book 13 contains hymns to Rohita, a form of the sun god, described as the supreme creative principle. Book 15 discusses the Vratya, wandering holy men who may represent early ascetic traditions outside the mainstream Vedic system.",
-        "philosophical_explanation": "The solar hymns develop the idea that the sun is not merely a celestial body but a manifestation of the supreme creative intelligence. The Vratya hymns reveal the Vedic tradition's engagement with diverse spiritual practices."
+        "title": "《Atharvaveda》第 13 至 15 卷 – 太阳崇拜和 Vratya",
+        "introduction": "第 13 卷至第 15 卷包含赞美太阳的赞美诗，探索 Vratya 流浪苦行者的概念并发展太阳神学。",
+        "scripture_text": "第 13 卷包含对罗希塔 (Rohita) 的赞美诗，罗希塔是太阳神的一种形式，被描述为最高的创造原则。第 15 卷讨论了 Vratya，流浪的圣人，他们可能代表了主流吠陀体系之外的早期苦行传统。",
+        "philosophical_explanation": "太阳赞美诗发展了这样一种观念：太阳不仅是一个天体，而且是最高创造性智慧的体现。 Vratya 赞美诗揭示了吠陀传统与不同精神实践的结合。"
       },
       {
         "book": 6,
-        "title": "Atharvaveda Book 16 – Protective Formulas",
-        "introduction": "Book 16 contains protective mantras and formulas for safeguarding against spiritual and physical dangers.",
-        "scripture_text": "The hymns invoke divine protection against malevolent forces and natural calamities. They also include purification rituals and mantras for restoring spiritual harmony after disturbances.",
-        "philosophical_explanation": "The protective formulas reflect the understanding that the spiritual path requires vigilance and that maintaining inner and outer purity is essential for spiritual progress."
+        "title": "Atharvaveda 第 16 册 – 保护配方",
+        "introduction": "第 16 册包含保护性咒语和公式，用于防范精神和身体上的危险。",
+        "scripture_text": "这些赞美诗祈求神圣的保护，抵御邪恶力量和自然灾害。它们还包括净化仪式和咒语，以在干扰后恢复精神和谐。",
+        "philosophical_explanation": "保护性公式反映了这样的理解：灵性之路需要警惕，保持内在和外在的纯洁对于灵性进步至关重要。"
       },
       {
         "book": 7,
-        "title": "Atharvaveda Books 17 to 18 – Devotion and Funeral Rites",
-        "introduction": "Books 17 and 18 contain devotional hymns and funeral liturgy used in cremation and memorial ceremonies.",
-        "scripture_text": "Book 17 contains extended devotional compositions addressing the sun deity. Book 18 provides the mantras and prayers for funeral ceremonies, guiding the departed soul on its journey and offering comfort to the bereaved.",
-        "philosophical_explanation": "The funeral hymns express the Vedic understanding that death is not an end but a transition. The soul continues its journey beyond physical existence, and proper ritual observance helps ensure a favorable passage."
+        "title": "《阿闼婆吠陀》第 17 至 18 卷 – 奉献和葬礼",
+        "introduction": "第 17 卷和第 18 卷包含火葬和纪念仪式中使用的虔诚赞美诗和葬礼仪式。",
+        "scripture_text": "第 17 卷包含了针对太阳神的扩展的虔诚文章。第十八卷提供了葬礼仪式的咒语和祈祷文，引导逝去的灵魂踏上旅程，并为死者家属提供安慰。",
+        "philosophical_explanation": "葬礼赞美诗表达了吠陀的理解：死亡不是结束，而是一个过渡。灵魂继续其超越物质存在的旅程，适当的仪式遵守有助于确保顺利通过。"
       },
       {
         "book": 8,
-        "title": "Atharvaveda Book 19 – Supplementary Hymns",
-        "introduction": "Book 19 contains supplementary hymns on various subjects including cosmology, ritual practice and philosophical reflection.",
-        "scripture_text": "These hymns address the nature of time, the structure of the year, the power of sacred knowledge and the importance of truthfulness. Several verses explore the relationship between speech, breath and consciousness.",
-        "philosophical_explanation": "The supplementary hymns demonstrate the breadth of Atharvavedic thought, addressing fundamental questions about the nature of reality, time and human purpose."
+        "title": "《阿闼婆吠陀》第 19 册 – 补充赞美诗",
+        "introduction": "第 19 卷包含有关宇宙学、仪式实践和哲学反思等各种主题的补充赞美诗。",
+        "scripture_text": "这些赞美诗讲述了时间的本质、年份的结构、神圣知识的力量和诚实的重要性。有几节经文探讨了言语、呼吸和意识之间的关系。",
+        "philosophical_explanation": "补充赞美诗展示了阿闼婆吠陀思想的广度，解决了有关现实、时间和人类目的本质的基本问题。"
       },
       {
         "book": 9,
-        "title": "Atharvaveda Book 20 – Liturgical Hymns",
-        "introduction": "Book 20, the final book of the Atharvaveda, contains hymns borrowed primarily from the Rigveda for use in liturgical settings.",
-        "scripture_text": "Many hymns in this book are addressed to Indra and other major deities. Their inclusion in the Atharvaveda ensures that the text provides a complete liturgical resource for the Brahma priest who supervises all aspects of Vedic ceremonies.",
-        "philosophical_explanation": "The liturgical book demonstrates the interconnectedness of all four Vedas and the recognition that complete sacred knowledge requires integration of hymns, rituals, music and practical wisdom."
+        "title": "《阿闼婆吠陀》第 20 册 – 礼拜赞美诗",
+        "introduction": "第 20 卷是《阿闼婆吠陀》的最后一本书，包含主要借自《梨俱吠陀》的赞美诗，用于礼拜仪式。",
+        "scripture_text": "本书中的许多赞美诗都是献给因陀罗和其他主要神灵的。它们被纳入《阿闼婆吠陀》中，确保文本为监督吠陀仪式各个方面的梵天祭司提供完整的礼拜资源。",
+        "philosophical_explanation": "这本礼拜书展示了所有四部吠陀经的相互关联性，并认识到完整的神圣知识需要赞美诗、仪式、音乐和实践智慧的整合。"
       },
       {
         "book": 10,
-        "title": "Associated Upanishads – Mundaka and Prashna",
-        "introduction": "The Atharvaveda is associated with several important Upanishads including the Mundaka Upanishad, the Prashna Upanishad and the Mandukya Upanishad.",
-        "scripture_text": "The Mundaka Upanishad distinguishes between higher and lower knowledge and declares that Brahman alone is real. The Prashna Upanishad addresses six fundamental questions about life, creation and consciousness. The Mandukya Upanishad analyzes the states of consciousness through the syllable Om.",
-        "philosophical_explanation": "These Upanishads represent the highest philosophical achievements associated with the Atharvaveda, teaching that ultimate liberation comes through direct knowledge of Brahman and the realization of the self's identity with the universal reality."
+        "title": "相关奥义书 – Mundaka 和 Prashna",
+        "introduction": "《阿闼婆吠陀》与几部重要的奥义书有关，包括《蒙达卡奥义书》、《普拉什纳奥义书》和《曼杜基亚奥义书》。",
+        "scripture_text": "《蒙达卡奥义书》区分了高级知识和低级知识，并宣称只有婆罗门才是真实的。 《普拉什纳奥义书》解决了有关生命、创造和意识的六个基本问题。 《曼杜基奥义书》通过音节“唵”来分析意识状态。",
+        "philosophical_explanation": "这些奥义书代表了与《阿闼婆吠陀》相关的最高哲学成就，教导说，最终的解放来自于对婆罗门的直接知识以及自我与普遍现实的同一性的实现。"
       }
     ],
     "major_atharvavedic_deities": [
       {
-        "name": "Prithvi",
-        "role": "Earth goddess and divine mother",
-        "importance": "Celebrated in the Prithvi Sukta as the sustainer of all life and embodiment of nurturing power"
+        "name": "普里特维",
+        "role": "大地女神和神圣母亲",
+        "importance": "在 Prithvi Sukta 中被誉为所有生命的维持者和培育力量的化身"
       },
       {
-        "name": "Kala",
-        "role": "Cosmic time as a divine force",
-        "importance": "Described as the ultimate power that creates, sustains and dissolves all things"
+        "name": "卡拉",
+        "role": "作为神圣力量的宇宙时间",
+        "importance": "被描述为创造、维持和溶解万物的终极力量"
       },
       {
-        "name": "Skambha",
-        "role": "The cosmic pillar and universal support",
-        "importance": "Identified with Brahman as the foundational principle holding all of creation together"
+        "name": "斯坎巴",
+        "role": "宇宙支柱和普遍支持",
+        "importance": "将婆罗门视为将所有造物结合在一起的基本原则"
       },
       {
-        "name": "Rohita",
-        "role": "Solar deity and creative principle",
-        "importance": "Described as the supreme creative intelligence manifesting through the power of the sun"
+        "name": "罗希塔",
+        "role": "太阳神与创作原理",
+        "importance": "被描述为通过太阳的力量体现的至高无上的创造性智慧"
       }
     ],
     "related_concepts": [
-      "Vedas",
-      "Rigveda",
-      "Ayurveda",
-      "Brahman",
-      "Mundaka Upanishad",
-      "Prashna Upanishad",
-      "Mandukya Upanishad",
-      "Prithvi Sukta",
-      "Skambha Sukta",
-      "Kala",
-      "Vedic healing",
-      "Sanatana Dharma"
+      "吠陀经",
+      "梨俱吠陀",
+      "阿育吠陀",
+      "婆罗门",
+      "蒙达卡奥义书",
+      "普拉什纳奥义书",
+      "曼杜基奥义书",
+      "普里特维·苏克塔",
+      "斯堪巴苏克塔",
+      "卡拉",
+      "吠陀疗愈",
+      "萨那塔那佛法"
     ]
   }
 }

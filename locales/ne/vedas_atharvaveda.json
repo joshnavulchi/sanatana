@@ -1,31 +1,31 @@
 {
   "atharvaveda": {
-    "title": "Atharvaveda – The Veda of Everyday Life and Healing | Sanatana Dharma",
-    "description": "Explore the Atharvaveda, the Veda of healing, domestic rituals and philosophical speculation. Learn about its hymns, medicinal knowledge, cosmological thought and spiritual teachings.",
+    "title": "अथर्ववेद - दैनिक जीवन र उपचार को वेद | सनातन धर्म",
+    "description": "अथर्ववेद, उपचार को वेद, घरेलु अनुष्ठान र दार्शनिक अनुमान अन्वेषण गर्नुहोस्। यसको भजन, औषधीय ज्ञान, ब्रह्माण्ड सम्बन्धी विचार र आध्यात्मिक शिक्षाहरू बारे जान्नुहोस्।",
     "meta": {
-      "title": "Atharvaveda – The Veda of Everyday Life and Healing | Sanatana Dharma",
+      "title": "अथर्ववेद - दैनिक जीवन र उपचार को वेद | सनातन धर्म",
       "canonical": "https://sanatanadharmam.in/vedas/atharvaveda",
-      "description": "Explore the Atharvaveda, the Veda of healing, domestic rituals and philosophical speculation. Learn about its hymns, medicinal knowledge, cosmological thought and spiritual teachings.",
+      "description": "अथर्ववेद, उपचार को वेद, घरेलु अनुष्ठान र दार्शनिक अनुमान अन्वेषण गर्नुहोस्। यसको भजन, औषधीय ज्ञान, ब्रह्माण्ड सम्बन्धी विचार र आध्यात्मिक शिक्षाहरू बारे जान्नुहोस्।",
       "keywords": [
-        "Atharvaveda",
-        "Atharva Veda meaning",
-        "Vedic healing",
-        "Vedic medicine",
-        "Atharvaveda hymns",
-        "ancient Indian healing",
-        "domestic rituals",
-        "Sanatana Dharma Vedas",
-        "Prithvi Sukta",
-        "Hindu scriptures"
+        "अथर्ववेद",
+        "अथर्ववेदको अर्थ",
+        "वैदिक उपचार",
+        "वैदिक चिकित्सा",
+        "अथर्ववेद भजन",
+        "प्राचीन भारतीय उपचार",
+        "घरेलु संस्कार",
+        "सनातन धर्म वेद",
+        "पृथ्वी सुक्त",
+        "हिन्दू शास्त्रहरू"
       ],
       "url": "https://sanatanadharmam.in/vedas/atharvaveda"
     },
     "openGraph": {
-      "title": "Atharvaveda – The Sacred Veda of Healing and Everyday Wisdom",
-      "description": "Discover the Atharvaveda, the fourth Veda covering healing arts, domestic ceremonies, philosophical speculation and the wisdom of everyday life in Vedic tradition.",
+      "title": "अथर्ववेद - उपचार र दैनिक बुद्धिको पवित्र वेद",
+      "description": "अथर्ववेद पत्ता लगाउनुहोस्, चौथो वेद उपचार कला, घरेलु समारोह, दार्शनिक अनुमान र वैदिक परम्परामा दैनिक जीवनको बुद्धिलाई समेट्छ।",
       "url": "https://sanatanadharmam.in/vedas/atharvaveda",
-      "siteName": "Sanatanadharmam",
-      "type": "article",
+      "siteName": "सनातन धर्मम",
+      "type": "लेख",
       "images": [
         {
           "url": "https://sanatanadharmam.in/images/og/atharvaveda.png",
@@ -37,151 +37,151 @@
     },
     "schema": {
       "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Atharvaveda",
-      "description": "The Atharvaveda is the fourth Veda, containing hymns related to healing, domestic rituals, philosophical reflection and the practical wisdom of everyday life.",
+      "@type": "रचनात्मक कार्य",
+      "name": "अथर्ववेद",
+      "description": "अथर्ववेद चौथो वेद हो, जसमा उपचार, घरेलु अनुष्ठान, दार्शनिक प्रतिबिम्ब र दैनिक जीवनको व्यावहारिक ज्ञानसँग सम्बन्धित भजनहरू छन्।",
       "author": {
-        "@type": "Person",
-        "name": "Ved Vyasa"
+        "@type": "व्यक्ति",
+        "name": "वेद व्यास"
       },
-      "inLanguage": "Sanskrit",
+      "inLanguage": "संस्कृत",
       "publisher": {
-        "@type": "Organization",
-        "name": "Sanatanadharmam",
+        "@type": "संगठन",
+        "name": "सनातन धर्मम",
         "url": "https://sanatanadharmam.in"
       },
       "about": [
-        "Atharvaveda",
-        "Vedic healing",
-        "Sanatana Dharma",
-        "domestic rituals",
-        "ancient scriptures"
+        "अथर्ववेद",
+        "वैदिक उपचार",
+        "सनातन धर्म",
+        "घरेलु संस्कार",
+        "प्राचीन शास्त्रहरू"
       ],
       "url": "https://sanatanadharmam.in/vedas/atharvaveda"
     },
-    "introduction": "The Atharvaveda is the fourth and most distinct of the four Vedas. Named after the ancient sage Atharvan who is credited with discovering fire and establishing the earliest ritual practices, the Atharvaveda represents a unique branch of Vedic knowledge that addresses the practical concerns of everyday life alongside profound philosophical speculation.\n\nThe name 'Atharvaveda' combines 'Atharvan', referring to the sage and his tradition of sacred fire practices, with 'Veda', meaning knowledge. An alternative name for this text is the Atharvangirasa Veda, acknowledging both the sage Atharvan and the sage Angiras whose hymns also form a significant part of the collection.\n\nWhile the Rigveda focuses on hymns of praise, the Yajurveda on sacrificial formulas and the Samaveda on musical chants, the Atharvaveda addresses a remarkably wide range of human concerns. Its 730 hymns spread across 20 books cover topics including healing and medicine, protection from disease and evil, domestic ceremonies, marriage and funeral rites, royal consecration, agricultural practices, philosophical inquiry and cosmological speculation.\n\nThe Atharvaveda was initially not included in the Trayi Vidya or the threefold sacred knowledge of the earlier Vedic tradition. Over time, however, its importance was recognized and it was accepted as the fourth Veda. The Brahma priest, who supervises the entire sacrificial ceremony and must possess knowledge of all the Vedas, draws particularly upon the Atharvaveda.\n\nThe two main recensions of the Atharvaveda are the Shaunaka and the Paippalada. The Shaunaka recension is more widely studied and contains 730 hymns organized into 20 books. The Paippalada recension, preserved primarily in the Odisha and Kashmir traditions, contains additional material not found in the Shaunaka version.\n\nThe Atharvaveda's unique character makes it an invaluable source for understanding the full breadth of Vedic civilization, from the spiritual heights of philosophical inquiry to the practical realities of health, agriculture and community life.",
+    "introduction": "अथर्ववेद चार वेदहरूमध्ये चौथो र सबैभन्दा भिन्न वेद हो। पुरातन ऋषि अथर्वनको नाममा राखिएको जसलाई आगो पत्ता लगाउने र प्रारम्भिक अनुष्ठान अभ्यासहरू स्थापना गर्ने श्रेय दिइएको छ, अथर्ववेदले वैदिक ज्ञानको एक अद्वितीय शाखालाई प्रतिनिधित्व गर्दछ जसले गहिरो दार्शनिक अनुमानको साथसाथै दैनिक जीवनका व्यावहारिक सरोकारहरूलाई सम्बोधन गर्दछ।\n\n'अथर्ववेद' नामले 'अथर्वन'लाई जोडेको छ, ऋषि र उहाँको पवित्र अग्नि अभ्यासको परम्परालाई जनाउँछ, 'वेद', जसको अर्थ ज्ञान हो। यस पाठको लागि एक वैकल्पिक नाम अथर्वंगिरस वेद हो, दुबै ऋषि अथर्वन र ऋषि अंगिरस जसको भजनहरू पनि संग्रहको एक महत्त्वपूर्ण भाग बनाउँछन्।\n\nजबकि ऋग्वेदले प्रशंसाको भजनहरूमा ध्यान केन्द्रित गर्दछ, यजुर्वेदले बलिदान सूत्रहरूमा र सामवेदले संगीतमा, अथर्ववेदले मानव सरोकारहरूको उल्लेखनीय रूपमा व्यापक दायरालाई सम्बोधन गर्दछ। 20 पुस्तकहरूमा फैलिएको यसका 730 भजनहरूले उपचार र औषधि, रोग र दुष्टबाट सुरक्षा, घरेलु समारोह, विवाह र अन्त्येष्टि संस्कार, शाही अभिषेक, कृषि अभ्यासहरू, दार्शनिक अनुसन्धान र ब्रह्माण्डीय अनुमान सहित विषयहरू समावेश गर्दछ।\n\nअथर्ववेद सुरुमा त्रयी विद्या वा पहिलेको वैदिक परम्पराको त्रिगुणा पवित्र ज्ञानमा समावेश गरिएको थिएन। तथापि, समय संग, यसको महत्व को मान्यता प्राप्त भयो र यसलाई चौथो वेदको रूपमा स्वीकार गरियो। ब्रह्मा पुजारी, जसले सम्पूर्ण बलिदान समारोहको पर्यवेक्षण गर्दछ र सबै वेदहरूको ज्ञान हुनुपर्छ, विशेष गरी अथर्ववेदमा आकर्षित गर्दछ।\n\nअथर्ववेदका दुई मुख्य रिसेन्शनहरू शौनक र पैप्पलद हुन्। शौनाका रिसेन्सन अधिक व्यापक रूपमा अध्ययन गरिएको छ र 20 पुस्तकहरूमा व्यवस्थित 730 भजनहरू समावेश छन्। ओडिशा र कश्मीर परम्पराहरूमा मुख्य रूपमा संरक्षित पैप्पलाडा रिसेन्सन, शौनाका संस्करणमा पाइने अतिरिक्त सामग्री समावेश गर्दछ।\n\nअथर्ववेदको अद्वितीय चरित्रले यसलाई वैदिक सभ्यताको पूर्ण चौडाइ, दार्शनिक अनुसन्धानको आध्यात्मिक उचाइदेखि स्वास्थ्य, कृषि र सामुदायिक जीवनको व्यावहारिक वास्तविकताहरू बुझ्नको लागि एक अमूल्य स्रोत बनाउँछ।",
     "scripture_text": [
       {
-        "section": "Healing and Medicine",
-        "content": "The Atharvaveda is widely regarded as the foundation of the ancient Indian medical tradition that later developed into Ayurveda. Many hymns describe the properties of medicinal plants, the causes and treatments of diseases, and prayers for health and longevity.\n\nThe text identifies numerous healing herbs and describes their applications for treating various ailments. Hymns address specific conditions including fever, cough, skin diseases, wounds, poisoning and mental afflictions. The treatments combine herbal remedies with sacred mantras and ritual practices, reflecting the Vedic understanding that health involves the harmony of body, mind and spirit.\n\nOne famous hymn describes the healing power of water as a universal medicine, while others praise specific plants for their ability to restore vitality and drive away disease. The Atharvaveda's approach to healing is holistic, recognizing that physical wellness cannot be separated from psychological and spiritual well-being.\n\nThis integration of medical knowledge with spiritual practice established a tradition that continues to influence Indian healing systems to the present day."
+        "section": "उपचार र चिकित्सा",
+        "content": "अथर्ववेदलाई व्यापक रूपमा प्राचीन भारतीय चिकित्सा परम्पराको आधार मानिन्छ जुन पछि आयुर्वेदमा विकसित भयो। धेरै भजनहरूले औषधीय बिरुवाहरूको गुणहरू, रोगहरूको कारण र उपचार, र स्वास्थ्य र दीर्घायुको लागि प्रार्थनाहरू वर्णन गर्दछ।\n\nपाठले धेरै निको पार्ने जडीबुटीहरू पहिचान गर्दछ र विभिन्न रोगहरूको उपचारको लागि तिनीहरूको अनुप्रयोगहरू वर्णन गर्दछ। भजनहरूले ज्वरो, खोकी, छालाको रोग, घाउ, विषाक्तता र मानसिक पीडाहरू सहित विशिष्ट अवस्थाहरूलाई सम्बोधन गर्दछ। उपचारले जडिबुटी उपचारलाई पवित्र मन्त्र र अनुष्ठान अभ्यासहरूसँग जोड्दछ, स्वास्थ्यले शरीर, दिमाग र आत्माको सामंजस्य समावेश गर्दछ भन्ने वैदिक बुझाइलाई प्रतिबिम्बित गर्दछ।\n\nएउटा प्रसिद्ध भजनले पानीको निको पार्ने शक्तिलाई सार्वभौमिक औषधीको रूपमा वर्णन गर्दछ, जबकि अरूले जीवन शक्ति पुनर्स्थापना गर्ने र रोग हटाउने क्षमताको लागि विशिष्ट बोटबिरुवाहरूको प्रशंसा गर्छन्। अथर्ववेदको निको पार्ने दृष्टिकोण समग्र छ, जसले शारीरिक स्वास्थ्यलाई मनोवैज्ञानिक र आध्यात्मिक कल्याणबाट अलग गर्न सकिँदैन भन्ने मान्यता दिन्छ।\n\nआध्यात्मिक अभ्याससँग चिकित्सा ज्ञानको यो एकीकरणले एक परम्परा स्थापित गर्‍यो जसले आजको दिनसम्म भारतीय उपचार प्रणालीलाई प्रभाव पारिरहेको छ।"
       },
       {
-        "section": "Domestic Rituals and Daily Life",
-        "content": "A significant portion of the Atharvaveda is devoted to the rituals and concerns of ordinary household life. Unlike the grand sacrificial ceremonies described in the other Vedas, these hymns address the everyday needs of families and communities.\n\nThe text contains hymns for marriage ceremonies, prayers for the welfare of children, protection of the home, success in agriculture and trade, and the resolution of disputes. There are mantras for safe travel, for finding lost property and for ensuring harmony within the family.\n\nFuneral hymns guide the proper performance of last rites and offer prayers for the peaceful journey of the departed soul. Birth ceremonies welcome new life with blessings for health, wisdom and prosperity.\n\nThe Atharvaveda also includes hymns related to royal governance and statecraft. The Rajasūya and other royal consecration ceremonies draw upon Atharvavedic mantras, and there are hymns that describe the qualities of just kingship and the duties of rulers toward their people.\n\nThese domestic and civic hymns reveal a culture deeply concerned with the well-being of individuals and communities, recognizing that spiritual life encompasses all aspects of human experience."
+        "section": "घरेलु अनुष्ठान र दैनिक जीवन",
+        "content": "अथर्ववेदको एक महत्त्वपूर्ण भाग सामान्य घरेलु जीवनको अनुष्ठान र चिन्ताहरूमा समर्पित छ। अन्य वेदहरूमा वर्णन गरिएको भव्य बलिदान समारोहहरूको विपरीत, यी भजनहरूले परिवार र समुदायहरूको दैनिक आवश्यकताहरूलाई सम्बोधन गर्दछ।\n\nपाठमा विवाह समारोह, बालबालिकाको कल्याणको लागि प्रार्थना, घरको रक्षा, कृषि र व्यापारमा सफलता र विवाद समाधानको लागि भजनहरू समावेश छन्। त्यहाँ सुरक्षित यात्राको लागि, हराएको सम्पत्ति खोज्न र परिवार भित्र सद्भाव सुनिश्चित गर्नका लागि मन्त्रहरू छन्।\n\nअन्त्येष्टि भजनहरूले अन्तिम संस्कारको उचित प्रदर्शनलाई मार्गदर्शन गर्दछ र मृत आत्माको शान्ति यात्राको लागि प्रार्थना गर्दछ। जन्म समारोहले स्वास्थ्य, बुद्धि र समृद्धिको आशिर्वादसहित नयाँ जीवनलाई स्वागत गर्दछ।\n\nअथर्ववेदमा शाही शासन र राज्यकलासँग सम्बन्धित भजनहरू पनि समावेश छन्। राजसुय र अन्य शाही अभिषेक समारोहहरू अथर्ववेदिक मन्त्रहरूमा आकर्षित हुन्छन्, र त्यहाँ भजनहरू छन् जसले न्यायपूर्ण राज्यका गुणहरू र आफ्ना मानिसहरूप्रति शासकहरूको कर्तव्यहरू वर्णन गर्दछ।\n\nयी घरेलु र नागरिक भजनहरूले व्यक्ति र समुदायको भलाइसँग गहिरो सरोकार राख्ने संस्कृतिलाई प्रकट गर्दछ, यो मान्यता दिन्छ कि आध्यात्मिक जीवनले मानव अनुभवका सबै पक्षहरूलाई समेट्छ।"
       },
       {
-        "section": "The Prithvi Sukta",
-        "content": "One of the most remarkable hymns in the Atharvaveda is the Prithvi Sukta or Hymn to the Earth found in Book 12. This extended hymn celebrates the Earth as a divine mother who sustains all living beings.\n\nThe Prithvi Sukta expresses a profound ecological awareness, describing the Earth's mountains, rivers, forests, seasons and the interconnected web of life they support. The hymn prays for the Earth's continued fertility, for the well-being of all creatures that inhabit her surface, and for harmony between human civilization and the natural world.\n\nThe hymn declares that the Earth bears many nations speaking many languages and following many customs, expressing an early vision of universal tolerance and coexistence. It recognizes the diversity of life as a manifestation of the Earth's abundance and creative power.\n\nThe Prithvi Sukta is often cited as one of the earliest expressions of environmental consciousness in world literature, demonstrating that the ancient Vedic tradition valued the protection and reverence of the natural world."
+        "section": "पृथ्वी सुक्त",
+        "content": "अथर्ववेदको सबैभन्दा उल्लेखनीय भजनहरू मध्ये एक पृथ्वी सुक्त वा पृथ्वीको भजन हो जुन पुस्तक १२ मा पाइन्छ। यस विस्तारित भजनले पृथ्वीलाई दिव्य माताको रूपमा मनाउँछ जसले सबै जीवित प्राणीहरूलाई सम्हाल्छ।\n\nपृथ्वी सुक्तले गहिरो पारिस्थितिक जागरूकता व्यक्त गर्दछ, पृथ्वीको पहाड, नदी, वन, मौसम र तिनीहरूले समर्थन गर्ने जीवनको अन्तरसम्बन्धित जालको वर्णन गर्दछ। भजनले पृथ्वीको निरन्तर उर्वरताको लागि प्रार्थना गर्दछ, यसको सतहमा बस्ने सबै प्राणीहरूको कल्याणको लागि, र मानव सभ्यता र प्राकृतिक संसार बीचको सद्भावको लागि।\n\nभजनले विश्वव्यापी सहिष्णुता र सहअस्तित्वको प्रारम्भिक दर्शन व्यक्त गर्दै, धेरै भाषा बोल्ने र धेरै चलनहरू पछ्याउने धेरै राष्ट्रहरू बोकेको घोषणा गर्दछ। यसले जीवनको विविधतालाई पृथ्वीको प्रचुरता र रचनात्मक शक्तिको अभिव्यक्तिको रूपमा मान्यता दिन्छ।\n\nपृथ्वी सुक्त प्रायः विश्व साहित्यमा पर्यावरणीय चेतनाको प्रारम्भिक अभिव्यक्तिहरू मध्ये एकको रूपमा उद्धृत गरिएको छ, यसले देखाउँछ कि पुरातन वैदिक परम्पराले प्राकृतिक संसारको संरक्षण र सम्मानलाई महत्त्व दिएको छ।"
       }
     ],
-    "philosophical_explanation": "The Atharvaveda contributes significantly to Indian philosophical thought, particularly in the areas of cosmology, the nature of time and the relationship between the individual and the universe.\n\nSeveral hymns in the Atharvaveda explore the mystery of creation in ways that complement and extend the cosmological speculations of the Rigveda. The Skambha Sukta or Hymn to the Cosmic Pillar describes a universal supporting principle that holds together all of creation. This cosmic pillar or Skambha is identified with Brahman, the ultimate reality, and the hymn asks probing questions about the nature of this foundational support.\n\nThe concept of Kala or Time receives extensive treatment in the Atharvaveda. Time is described as a cosmic force that creates and dissolves all things, that drives the seasons and sustains the rhythm of life. This philosophical exploration of time as a divine principle influenced later Hindu, Buddhist and Jain philosophical thinking.\n\nThe Atharvaveda also develops the concept of Brahman more explicitly than the earlier Vedas. Several hymns describe Brahman as the supreme reality underlying all existence, the source from which everything emerges and to which everything returns. These teachings anticipate the systematic Brahman philosophy of the Upanishads.\n\nThe Mundaka Upanishad, associated with the Atharvaveda, introduces the important distinction between Para Vidya, higher knowledge leading to the realization of Brahman, and Apara Vidya, lower knowledge including the study of the Vedas themselves. This teaching emphasizes that true spiritual liberation transcends even scriptural learning and requires direct experiential knowledge of ultimate reality.\n\nThe Prashna Upanishad, also connected to the Atharvaveda, explores six fundamental questions about the nature of creation, the life force, the mind and the relation of the individual to the universal. Together, these Upanishads establish the Atharvaveda as a significant source of the deepest philosophical teachings of the Vedic tradition.",
+    "philosophical_explanation": "अथर्ववेदले भारतीय दार्शनिक चिन्तनमा महत्त्वपूर्ण योगदान पुर्‍याउँछ, विशेष गरी ब्रह्माण्ड विज्ञान, समयको प्रकृति र व्यक्ति र ब्रह्माण्ड बीचको सम्बन्धमा।\n\nअथर्ववेदका धेरै भजनहरूले सृष्टिको रहस्यलाई ऋग्वेदको ब्रह्माण्डीय अनुमानलाई पूरक र विस्तार गर्ने तरिकामा अन्वेषण गर्छन्। स्कम्भ सुक्त वा ब्रह्माण्ड स्तम्भको भजनले एक विश्वव्यापी समर्थन सिद्धान्तलाई वर्णन गर्दछ जसले सबै सृष्टिलाई एकसाथ राख्छ। यो ब्रह्माण्ड स्तम्भ वा स्कम्भ ब्रह्म, परम वास्तविकतासँग पहिचान गरिएको छ, र भजनले यस आधारभूत समर्थनको प्रकृतिको बारेमा अनुसन्धान गर्ने प्रश्नहरू सोध्छ।\n\nकाल वा समयको अवधारणाले अथर्ववेदमा व्यापक उपचार पाउँछ। समयलाई ब्रह्माण्डीय शक्तिको रूपमा वर्णन गरिएको छ जसले सबै चीजहरू सिर्जना गर्दछ र विघटन गर्दछ, जसले मौसमहरूलाई चलाउँछ र जीवनको लयलाई कायम राख्छ। ईश्वरीय सिद्धान्तको रूपमा समयको यो दार्शनिक अन्वेषणले पछि हिन्दू, बौद्ध र जैन दार्शनिक सोचलाई प्रभावित गर्यो।\n\nअथर्ववेदले पनि पहिलेका वेदहरूको तुलनामा ब्राह्मणको अवधारणालाई अझ स्पष्ट रूपमा विकास गर्दछ। धेरै भजनहरूले ब्रह्मलाई सबै अस्तित्वमा रहेको सर्वोच्च वास्तविकताको रूपमा वर्णन गर्दछ, स्रोत जसबाट सबै कुरा उत्पन्न हुन्छ र जहाँ सबै कुरा फर्कन्छ। यी शिक्षाहरूले उपनिषदको व्यवस्थित ब्राह्मण दर्शनको अनुमान गर्दछ।\n\nअथर्ववेदसँग सम्बन्धित मुण्डक उपनिषदले परा विद्या, ब्राह्मणको अनुभूति गराउने उच्च ज्ञान र अपरा विद्या, वेदहरूको अध्ययन सहित निम्न ज्ञान बीचको महत्त्वपूर्ण भिन्नताको परिचय दिन्छ। यो शिक्षाले जोड दिन्छ कि साँचो आध्यात्मिक मुक्ति पनि शास्त्रीय शिक्षालाई पार गर्दछ र अन्तिम वास्तविकताको प्रत्यक्ष अनुभवात्मक ज्ञान चाहिन्छ।\n\nअथर्ववेदसँग पनि जोडिएको प्रार्थना उपनिषदले सृष्टिको प्रकृति, जीवन शक्ति, मन र व्यक्तिको विश्वव्यापी सम्बन्धको बारेमा छवटा आधारभूत प्रश्नहरूको अन्वेषण गर्दछ। सँगै, यी उपनिषदहरूले अथर्ववेदलाई वैदिक परम्पराको गहिरो दार्शनिक शिक्षाहरूको महत्त्वपूर्ण स्रोतको रूपमा स्थापित गर्दछ।",
     "atharvaveda_books": [
       {
         "book": 1,
-        "title": "Atharvaveda Books 1 to 4 – Healing and Protection",
-        "introduction": "The opening books of the Atharvaveda contain hymns primarily focused on healing diseases, protecting against harmful forces and ensuring well-being.",
-        "scripture_text": "These books include mantras for curing specific ailments, prayers for long life and vitality, and protective charms against various threats. Many hymns invoke the healing power of plants and water.",
-        "philosophical_explanation": "The healing hymns reflect the Vedic understanding that health is a sacred gift and that maintaining well-being requires harmony between the physical body, the natural environment and the spiritual realm."
+        "title": "अथर्ववेद पुस्तक १ देखि ४ - उपचार र संरक्षण",
+        "introduction": "अथर्ववेदका प्रारम्भिक पुस्तकहरूमा मुख्य रूपमा रोगहरू निको पार्ने, हानिकारक शक्तिहरूबाट बचाउने र कल्याण सुनिश्चित गर्ने भजनहरू छन्।",
+        "scripture_text": "यी पुस्तकहरूमा विशिष्ट रोगहरू निको पार्ने मन्त्रहरू, दीर्घायु र जीवन शक्तिको लागि प्रार्थनाहरू, र विभिन्न खतराहरू विरुद्ध सुरक्षात्मक आकर्षणहरू समावेश छन्। धेरै भजनहरूले बोटबिरुवा र पानीको निको पार्ने शक्तिलाई बोलाउँछन्।",
+        "philosophical_explanation": "निको पार्ने भजनहरूले वैदिक बुझाइलाई प्रतिबिम्बित गर्दछ कि स्वास्थ्य एक पवित्र उपहार हो र भलाइको लागि भौतिक शरीर, प्राकृतिक वातावरण र आध्यात्मिक क्षेत्रको बीचमा सद्भाव चाहिन्छ।"
       },
       {
         "book": 2,
-        "title": "Atharvaveda Books 5 to 7 – Domestic Harmony",
-        "introduction": "Books 5 through 7 contain hymns related to domestic life, family harmony, marriage, prosperity and community welfare.",
-        "scripture_text": "These sections include wedding mantras, prayers for children, hymns for agricultural success and formulas for resolving conflicts. They address the full range of concerns that arise in household and community life.",
-        "philosophical_explanation": "The domestic hymns teach that spiritual practice is not limited to formal rituals but extends to every aspect of daily life. The home itself becomes a sacred space when approached with awareness and devotion."
+        "title": "अथर्ववेद पुस्तक 5 देखि 7 - घरेलु सद्भाव",
+        "introduction": "५ देखि ७ सम्मका पुस्तकहरूमा घरेलु जीवन, पारिवारिक सद्भाव, विवाह, समृद्धि र सामुदायिक कल्याणसँग सम्बन्धित भजनहरू छन्।",
+        "scripture_text": "यी खण्डहरूमा विवाह मन्त्र, बच्चाहरूको लागि प्रार्थना, कृषि सफलताको लागि भजन र विवादहरू समाधान गर्ने सूत्रहरू समावेश छन्। तिनीहरूले घरायसी र सामुदायिक जीवनमा उत्पन्न हुने चिन्ताहरूको पूर्ण दायरालाई सम्बोधन गर्छन्।",
+        "philosophical_explanation": "घरेलु भजनहरूले सिकाउँछ कि आध्यात्मिक अभ्यास औपचारिक अनुष्ठानहरूमा सीमित छैन तर दैनिक जीवनको हरेक पक्षमा फैलिएको छ। जागरुकता र भक्तिका साथ सम्पर्क गर्दा घर आफैं एक पवित्र स्थान बन्छ।"
       },
       {
         "book": 3,
-        "title": "Atharvaveda Books 8 to 10 – Royal Ceremonies",
-        "introduction": "Books 8 through 10 include hymns for royal consecration, statecraft and the exercise of righteous authority.",
-        "scripture_text": "The texts describe ceremonies for crowning kings, prayers for the success of kingdoms and mantras that invoke divine support for just governance. The famous hymn to Viraj, a cosmic creative power, appears in this section.",
-        "philosophical_explanation": "The royal hymns establish the principle that political authority must be rooted in dharma and that the purpose of governance is the welfare of all beings within the ruler's domain."
+        "title": "अथर्ववेद पुस्तक 8 देखि 10 - शाही समारोह",
+        "introduction": "पुस्तकहरू 8 देखि 10 सम्म शाही अभिषेक, राज्यकला र धार्मिक अधिकारको अभ्यासको लागि भजनहरू समावेश छन्।",
+        "scripture_text": "ग्रन्थहरूले राजाहरूको मुकुट लगाउने समारोहहरू, राज्यहरूको सफलताको लागि प्रार्थना र न्यायपूर्ण शासनको लागि ईश्वरीय समर्थनलाई आह्वान गर्ने मन्त्रहरू वर्णन गर्दछ। विराजको प्रसिद्ध भजन, एक ब्रह्माण्डीय रचनात्मक शक्ति, यस खण्डमा देखा पर्दछ।",
+        "philosophical_explanation": "शाही भजनहरूले राजनैतिक अधिकार धर्ममा जरा गाडिएको हुनुपर्छ र शासनको उद्देश्य शासकको क्षेत्रभित्र रहेका सबै प्राणीहरूको कल्याण हो भन्ने सिद्धान्तलाई स्थापित गर्दछ।"
       },
       {
         "book": 4,
-        "title": "Atharvaveda Books 11 to 12 – Cosmic Powers",
-        "introduction": "Books 11 and 12 contain some of the most philosophically significant hymns in the Atharvaveda, addressing cosmic principles and universal forces.",
-        "scripture_text": "Book 11 includes the Skambha Sukta exploring the cosmic pillar that supports the universe. Book 12 contains the celebrated Prithvi Sukta, a hymn to the Earth as divine mother.",
-        "philosophical_explanation": "These books demonstrate the Atharvavedic capacity for profound metaphysical speculation, exploring questions about the ultimate structure of reality and humanity's relationship to the cosmos."
+        "title": "अथर्ववेद पुस्तक ११ देखि १२ - ब्रह्माण्ड शक्तिहरू",
+        "introduction": "पुस्तकहरू 11 र 12 मा अथर्ववेदका केही दार्शनिक रूपमा महत्त्वपूर्ण भजनहरू छन्, ब्रह्माण्ड सिद्धान्तहरू र विश्वव्यापी शक्तिहरूलाई सम्बोधन गर्दै।",
+        "scripture_text": "पुस्तक ११ मा ब्रह्माण्डलाई समर्थन गर्ने ब्रह्माण्ड स्तम्भको अन्वेषण गर्ने स्कम्भ सुक्त समावेश छ। पुस्तक 12 मा पृथ्वी सुक्त, दिव्य माता को रूप मा पृथ्वी को एक भजन मा प्रसिद्ध छ।",
+        "philosophical_explanation": "यी पुस्तकहरूले गहिरो मेटाफिजिकल अनुमानको लागि अथर्ववेदिक क्षमता देखाउँछन्, वास्तविकताको अन्तिम संरचना र ब्रह्माण्डसँग मानवताको सम्बन्धको बारेमा प्रश्नहरूको अन्वेषण गर्दछ।"
       },
       {
         "book": 5,
-        "title": "Atharvaveda Books 13 to 15 – Solar Worship and Vratya",
-        "introduction": "Books 13 through 15 contain hymns celebrating the sun, exploring the concept of the Vratya wandering ascetics and developing solar theology.",
-        "scripture_text": "Book 13 contains hymns to Rohita, a form of the sun god, described as the supreme creative principle. Book 15 discusses the Vratya, wandering holy men who may represent early ascetic traditions outside the mainstream Vedic system.",
-        "philosophical_explanation": "The solar hymns develop the idea that the sun is not merely a celestial body but a manifestation of the supreme creative intelligence. The Vratya hymns reveal the Vedic tradition's engagement with diverse spiritual practices."
+        "title": "अथर्ववेद पुस्तक १३ देखि १५ - सौर्य पूजा र व्रत",
+        "introduction": "13 देखि 15 सम्मका पुस्तकहरूमा सूर्यको उत्सव मनाउने भजनहरू छन्, व्रत्य भटकिरहेका तपस्वीहरूको अवधारणा र सौर धर्मशास्त्रको विकास गर्ने।",
+        "scripture_text": "पुस्तक 13 मा सूर्य देवता को एक रूप, रोहिता को भजन समावेश छ, सर्वोच्च रचनात्मक सिद्धान्त को रूप मा वर्णित। पुस्तक 15 ले व्रत, भटकने पवित्र पुरुषहरूको चर्चा गर्दछ जसले मूलधारको वैदिक प्रणाली बाहिर प्रारम्भिक तपस्वी परम्पराहरू प्रतिनिधित्व गर्न सक्छ।",
+        "philosophical_explanation": "सौर्य भजनहरूले यो विचार विकास गर्दछ कि सूर्य केवल एक आकाशीय पिण्ड होइन तर सर्वोच्च रचनात्मक बुद्धिको अभिव्यक्ति हो। व्रतीय भजनहरूले वैदिक परम्पराको विविध आध्यात्मिक अभ्यासहरूसँग संलग्नता प्रकट गर्दछ।"
       },
       {
         "book": 6,
-        "title": "Atharvaveda Book 16 – Protective Formulas",
-        "introduction": "Book 16 contains protective mantras and formulas for safeguarding against spiritual and physical dangers.",
-        "scripture_text": "The hymns invoke divine protection against malevolent forces and natural calamities. They also include purification rituals and mantras for restoring spiritual harmony after disturbances.",
-        "philosophical_explanation": "The protective formulas reflect the understanding that the spiritual path requires vigilance and that maintaining inner and outer purity is essential for spiritual progress."
+        "title": "अथर्ववेद पुस्तक १६ – सुरक्षात्मक सूत्र",
+        "introduction": "पुस्तक 16 मा सुरक्षात्मक मन्त्रहरू र आध्यात्मिक र शारीरिक खतराहरू विरुद्ध सुरक्षाको लागि सूत्रहरू छन्।",
+        "scripture_text": "भजनहरूले दुष्ट शक्तिहरू र प्राकृतिक प्रकोपहरू विरुद्ध ईश्वरीय सुरक्षालाई आह्वान गर्दछ। तिनीहरूमा गडबडी पछि आध्यात्मिक सद्भाव पुनर्स्थापित गर्न शुद्धिकरण अनुष्ठान र मन्त्रहरू पनि समावेश छन्।",
+        "philosophical_explanation": "सुरक्षात्मक सूत्रहरूले आध्यात्मिक मार्गलाई सतर्कता चाहिन्छ र आध्यात्मिक प्रगतिको लागि आन्तरिक र बाह्य शुद्धता कायम राख्न आवश्यक छ भन्ने बुझाइलाई प्रतिबिम्बित गर्दछ।"
       },
       {
         "book": 7,
-        "title": "Atharvaveda Books 17 to 18 – Devotion and Funeral Rites",
-        "introduction": "Books 17 and 18 contain devotional hymns and funeral liturgy used in cremation and memorial ceremonies.",
-        "scripture_text": "Book 17 contains extended devotional compositions addressing the sun deity. Book 18 provides the mantras and prayers for funeral ceremonies, guiding the departed soul on its journey and offering comfort to the bereaved.",
-        "philosophical_explanation": "The funeral hymns express the Vedic understanding that death is not an end but a transition. The soul continues its journey beyond physical existence, and proper ritual observance helps ensure a favorable passage."
+        "title": "अथर्ववेद पुस्तक 17 देखि 18 - भक्ति र अन्त्येष्टि संस्कार",
+        "introduction": "पुस्तकहरू 17 र 18 मा भक्तिपूर्ण भजन र दाहसंस्कार र स्मारक समारोहहरूमा प्रयोग गरिने अन्तिम संस्कार समावेश छन्।",
+        "scripture_text": "पुस्तक 17 मा सूर्य देवतालाई सम्बोधन गर्ने विस्तारित भक्ति रचनाहरू छन्। पुस्तक 18 ले अन्त्येष्टि समारोहहरूको लागि मन्त्र र प्रार्थनाहरू प्रदान गर्दछ, दिवंगत आत्मालाई यसको यात्रामा मार्गदर्शन गर्दछ र शोक सन्तप्तहरूलाई सान्त्वना प्रदान गर्दछ।",
+        "philosophical_explanation": "अन्त्येष्टि भजनहरूले वैदिक बुझाइलाई व्यक्त गर्दछ कि मृत्यु अन्त्य होइन तर संक्रमण हो। आत्माले भौतिक अस्तित्वभन्दा बाहिर आफ्नो यात्रा जारी राख्छ, र उचित अनुष्ठान पालनले अनुकूल मार्ग सुनिश्चित गर्न मद्दत गर्दछ।"
       },
       {
         "book": 8,
-        "title": "Atharvaveda Book 19 – Supplementary Hymns",
-        "introduction": "Book 19 contains supplementary hymns on various subjects including cosmology, ritual practice and philosophical reflection.",
-        "scripture_text": "These hymns address the nature of time, the structure of the year, the power of sacred knowledge and the importance of truthfulness. Several verses explore the relationship between speech, breath and consciousness.",
-        "philosophical_explanation": "The supplementary hymns demonstrate the breadth of Atharvavedic thought, addressing fundamental questions about the nature of reality, time and human purpose."
+        "title": "अथर्ववेद पुस्तक 19 - पूरक भजन",
+        "introduction": "पुस्तक 19 मा ब्रह्माण्ड विज्ञान, अनुष्ठान अभ्यास र दार्शनिक प्रतिबिम्ब सहित विभिन्न विषयहरूमा पूरक भजनहरू समावेश छन्।",
+        "scripture_text": "यी भजनहरूले समयको प्रकृति, वर्षको संरचना, पवित्र ज्ञानको शक्ति र सत्यताको महत्त्वलाई सम्बोधन गर्दछ। धेरै पदहरूले बोली, सास र चेतना बीचको सम्बन्धको अन्वेषण गर्दछ।",
+        "philosophical_explanation": "पूरक भजनहरूले वास्तविकता, समय र मानव उद्देश्यको प्रकृतिको बारेमा आधारभूत प्रश्नहरूलाई सम्बोधन गर्दै अथर्ववेदिक विचारको चौडाइ देखाउँछन्।"
       },
       {
         "book": 9,
-        "title": "Atharvaveda Book 20 – Liturgical Hymns",
-        "introduction": "Book 20, the final book of the Atharvaveda, contains hymns borrowed primarily from the Rigveda for use in liturgical settings.",
-        "scripture_text": "Many hymns in this book are addressed to Indra and other major deities. Their inclusion in the Atharvaveda ensures that the text provides a complete liturgical resource for the Brahma priest who supervises all aspects of Vedic ceremonies.",
-        "philosophical_explanation": "The liturgical book demonstrates the interconnectedness of all four Vedas and the recognition that complete sacred knowledge requires integration of hymns, rituals, music and practical wisdom."
+        "title": "अथर्ववेद पुस्तक २० - लिटर्जिकल भजन",
+        "introduction": "पुस्तक 20, अथर्ववेदको अन्तिम पुस्तक, मुख्य रूपमा ऋग्वेदबाट लिटर्जिकल सेटिङहरूमा प्रयोगको लागि उधारिएको भजनहरू समावेश गर्दछ।",
+        "scripture_text": "यस पुस्तकमा धेरै भजनहरू इन्द्र र अन्य प्रमुख देवताहरूलाई सम्बोधन गरिएको छ। अथर्ववेदमा तिनीहरूको समावेशले यो सुनिश्चित गर्दछ कि पाठले वैदिक समारोहका सबै पक्षहरूको पर्यवेक्षण गर्ने ब्रह्मा पुजारीको लागि पूर्ण धार्मिक स्रोत प्रदान गर्दछ।",
+        "philosophical_explanation": "धार्मिक पुस्तकले चारै वेदहरूको अन्तरसम्बन्ध र मान्यतालाई पूर्ण पवित्र ज्ञानको लागि भजन, अनुष्ठान, संगीत र व्यावहारिक ज्ञानको एकीकरण आवश्यक हुन्छ भनेर देखाउँछ।"
       },
       {
         "book": 10,
-        "title": "Associated Upanishads – Mundaka and Prashna",
-        "introduction": "The Atharvaveda is associated with several important Upanishads including the Mundaka Upanishad, the Prashna Upanishad and the Mandukya Upanishad.",
-        "scripture_text": "The Mundaka Upanishad distinguishes between higher and lower knowledge and declares that Brahman alone is real. The Prashna Upanishad addresses six fundamental questions about life, creation and consciousness. The Mandukya Upanishad analyzes the states of consciousness through the syllable Om.",
-        "philosophical_explanation": "These Upanishads represent the highest philosophical achievements associated with the Atharvaveda, teaching that ultimate liberation comes through direct knowledge of Brahman and the realization of the self's identity with the universal reality."
+        "title": "सम्बद्ध उपनिषद - मुंडक र प्रशना",
+        "introduction": "अथर्ववेद मुण्डक उपनिषद, प्रशना उपनिषद र मांडुक्य उपनिषद सहित धेरै महत्त्वपूर्ण उपनिषदहरूसँग सम्बन्धित छ।",
+        "scripture_text": "मुण्डक उपनिषदले उच्च र तल्लो ज्ञान बीचको भिन्नता देखाउँछ र ब्रह्म मात्र वास्तविक हो भनी घोषणा गर्दछ। प्रशना उपनिषदले जीवन, सृष्टि र चेतनाको बारेमा छवटा आधारभूत प्रश्नहरूलाई सम्बोधन गर्दछ। मण्डुक्य उपनिषदले ओम शब्दको माध्यमबाट चेतनाको अवस्थाहरूको विश्लेषण गर्दछ।",
+        "philosophical_explanation": "यी उपनिषदहरूले अथर्ववेदसँग सम्बन्धित उच्चतम दार्शनिक उपलब्धिहरूलाई प्रतिनिधित्व गर्दछ, जसले सिकाउँछ कि परम मुक्ति ब्रह्मको प्रत्यक्ष ज्ञान र विश्वव्यापी वास्तविकतासँग आत्म-परिचयको अनुभूतिबाट आउँछ।"
       }
     ],
     "major_atharvavedic_deities": [
       {
-        "name": "Prithvi",
-        "role": "Earth goddess and divine mother",
-        "importance": "Celebrated in the Prithvi Sukta as the sustainer of all life and embodiment of nurturing power"
+        "name": "पृथ्वी",
+        "role": "पृथ्वी देवी र दिव्य माता",
+        "importance": "पृथ्वीसुक्तमा सबै जीवनको पालनकर्ता र पोषण शक्तिको अवतारका रूपमा मनाइन्छ"
       },
       {
-        "name": "Kala",
-        "role": "Cosmic time as a divine force",
-        "importance": "Described as the ultimate power that creates, sustains and dissolves all things"
+        "name": "काला",
+        "role": "ब्रह्माण्डीय समय ईश्वरीय शक्तिको रूपमा",
+        "importance": "सबै चीजहरू सिर्जना गर्ने, टिकाउने र विघटन गर्ने परम शक्तिको रूपमा वर्णन गरिएको छ"
       },
       {
-        "name": "Skambha",
-        "role": "The cosmic pillar and universal support",
-        "importance": "Identified with Brahman as the foundational principle holding all of creation together"
+        "name": "स्कम्भ",
+        "role": "ब्रह्माण्ड स्तम्भ र विश्वव्यापी समर्थन",
+        "importance": "सबै सृष्टिलाई एकसाथ समात्ने आधारभूत सिद्धान्तका रूपमा ब्राह्मणसँग चिनिन्छ"
       },
       {
-        "name": "Rohita",
-        "role": "Solar deity and creative principle",
-        "importance": "Described as the supreme creative intelligence manifesting through the power of the sun"
+        "name": "रोहिता",
+        "role": "सौर देवता र रचनात्मक सिद्धान्त",
+        "importance": "सूर्यको शक्ति मार्फत प्रकट हुने सर्वोच्च रचनात्मक बुद्धिको रूपमा वर्णन गरिएको छ"
       }
     ],
     "related_concepts": [
-      "Vedas",
-      "Rigveda",
-      "Ayurveda",
-      "Brahman",
-      "Mundaka Upanishad",
-      "Prashna Upanishad",
-      "Mandukya Upanishad",
-      "Prithvi Sukta",
-      "Skambha Sukta",
-      "Kala",
-      "Vedic healing",
-      "Sanatana Dharma"
+      "वेद",
+      "ऋग्वेद",
+      "आयुर्वेद",
+      "ब्राह्मण",
+      "मुण्डक उपनिषद",
+      "प्रशना उपनिषद",
+      "मण्डुक्य उपनिषद",
+      "पृथ्वी सुक्त",
+      "स्कम्भ सुक्त",
+      "काला",
+      "वैदिक उपचार",
+      "सनातन धर्म"
     ]
   }
 }
