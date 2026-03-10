@@ -1,6 +1,17 @@
 const fs = require('fs');
 const path = require('path');
 
+/**
+ * sync_keys_from_en.js
+ *
+ * Meaning:
+ * This script keeps non-English locale files aligned with the English source (`locales/en`)
+ * for non-translatable metadata keys.
+ *
+ * It copies only selected keys from matching `en` JSON files into other locale JSON files.
+ * Translatable text is not overwritten.
+ */
+
 const argv = process.argv.slice(2);
 const REPO_ROOT = path.resolve(__dirname, '..', '..');
 
@@ -19,6 +30,29 @@ const EN_LOCALE = 'en';
 const KEYS_TO_SYNC = [
   'src', 'href', 'canonical', 'url', 'ogimage', '@context', 'email', 'logo'
 ];
+
+const KEY_MEANINGS = {
+  src: 'Asset source path (image/audio/video/etc.)',
+  href: 'Navigation or link destination URL',
+  canonical: 'Canonical URL used for SEO',
+  url: 'General URL field used in metadata/structured data',
+  ogimage: 'Open Graph image URL/path for social sharing',
+  '@context': 'Schema.org JSON-LD context value',
+  email: 'Contact email field',
+  logo: 'Brand/site logo URL/path'
+};
+
+function printHelp() {
+  console.log('Usage: node scripts/locale-scripts/sync_keys_from_en.js [--locales-dir=path] [--help]');
+  console.log('');
+  console.log('Sync keys from English locale JSON into non-English locale JSON files.');
+  console.log('Only non-translatable metadata keys are updated.');
+  console.log('');
+  console.log('Synced keys and meanings:');
+  for (const key of KEYS_TO_SYNC) {
+    console.log(`- ${key}: ${KEY_MEANINGS[key]}`);
+  }
+}
 
 function loadJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
@@ -45,6 +79,11 @@ function syncKeys(src, dest) {
 }
 
 function main() {
+  if (argv.includes('--help') || argv.includes('-h')) {
+    printHelp();
+    return;
+  }
+
   const enPath = path.join(LOCALES_DIR, EN_LOCALE);
   function walkLocales(localeDir, relPath = '') {
     fs.readdirSync(localeDir).forEach(entry => {

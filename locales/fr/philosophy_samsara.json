@@ -103,7 +103,11 @@
     "origin": {
       "meaning": "Dérivé du sanscrit « samsṛ », signifiant « couler ou errer ».",
       "roots": "Enseignements védiques et upanishadiques",
-      "texts": ["Upanishads", "Bhagavathgita", "Yoga Sutras"]
+      "texts": [
+        "Upanishads",
+        "Bhagavathgita",
+        "Yoga Sutras"
+      ]
     },
     "relation_to_other_concepts": {
       "dharma": "Une vie juste aide à réduire l’esclavage karmique.",

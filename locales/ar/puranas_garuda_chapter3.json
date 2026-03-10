@@ -1,0 +1,26 @@
+{
+  "garuda_chapter3": {
+    "title": "Garuda Purana Chapter 3",
+    "description": "Chapter 3 from Garuda Purana.",
+    "meta": {
+      "title": "Garuda Purana Chapter 3",
+      "canonical": "https://sanatanadharmam.in/puranas/garuda/chapter-3",
+      "description": "Chapter 3 from Garuda Purana.",
+      "url": "https://sanatanadharmam.in/puranas/garuda/chapter-3"
+    },
+    "openGraph": {
+      "title": "Garuda Purana Chapter 3",
+      "description": "Chapter 3 from Garuda Purana.",
+      "url": "https://sanatanadharmam.in/puranas/garuda/chapter-3",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This chapter belongs to Garuda Purana.",
+    "scripture_text": "Chapter-level summary text for Garuda Purana, Chapter 3.",
+    "philosophical_explanation": "Garuda Purana chapters combine dharma, devotion, and symbolic teaching.",
+    "chapter": {
+      "number": 3,
+      "path": "/puranas/garuda/chapter-3"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "vamana_chapter7": {
+    "title": "Vamana Purana Chapter 7",
+    "description": "Chapter 7 from Vamana Purana.",
+    "meta": {
+      "title": "Vamana Purana Chapter 7",
+      "canonical": "https://sanatanadharmam.in/puranas/vamana/chapter-7",
+      "description": "Chapter 7 from Vamana Purana.",
+      "url": "https://sanatanadharmam.in/puranas/vamana/chapter-7"
+    },
+    "openGraph": {
+      "title": "Vamana Purana Chapter 7",
+      "description": "Chapter 7 from Vamana Purana.",
+      "url": "https://sanatanadharmam.in/puranas/vamana/chapter-7",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This chapter belongs to Vamana Purana.",
+    "scripture_text": "Chapter-level summary text for Vamana Purana, Chapter 7.",
+    "philosophical_explanation": "Vamana Purana chapters combine dharma, devotion, and symbolic teaching.",
+    "chapter": {
+      "number": 7,
+      "path": "/puranas/vamana/chapter-7"
+    }
+  }
+}

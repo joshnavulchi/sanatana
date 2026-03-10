@@ -103,7 +103,11 @@
     "origin": {
       "meaning": "Afgeleid van het Sanskriet 'samsṛ', wat 'vloeien of dwalen' betekent.",
       "roots": "Vedische en Upanishadische leringen",
-      "texts": ["Upanishads", "Bhagavathgita", "Yoga Sutra's"]
+      "texts": [
+        "Upanishads",
+        "Bhagavathgita",
+        "Yoga Sutra's"
+      ]
     },
     "relation_to_other_concepts": {
       "dharma": "Rechtschapen leven helpt karmische gebondenheid te verminderen.",

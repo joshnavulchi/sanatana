@@ -1,0 +1,26 @@
+{
+  "agni_chapter8": {
+    "title": "Agni Purana Chapter 8",
+    "description": "Chapter 8 from Agni Purana.",
+    "meta": {
+      "title": "Agni Purana Chapter 8",
+      "canonical": "https://sanatanadharmam.in/puranas/agni/chapter-8",
+      "description": "Chapter 8 from Agni Purana.",
+      "url": "https://sanatanadharmam.in/puranas/agni/chapter-8"
+    },
+    "openGraph": {
+      "title": "Agni Purana Chapter 8",
+      "description": "Chapter 8 from Agni Purana.",
+      "url": "https://sanatanadharmam.in/puranas/agni/chapter-8",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This chapter belongs to Agni Purana.",
+    "scripture_text": "Chapter-level summary text for Agni Purana, Chapter 8.",
+    "philosophical_explanation": "Agni Purana chapters combine dharma, devotion, and symbolic teaching.",
+    "chapter": {
+      "number": 8,
+      "path": "/puranas/agni/chapter-8"
+    }
+  }
+}

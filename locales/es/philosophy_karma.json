@@ -98,7 +98,12 @@
     "origin": {
       "meaning": "Derivado del sánscrito \"kri\", que significa \"actuar o hacer\".",
       "roots": "Enseñanzas védicas y upanishádicas",
-      "texts": ["Vedas", "Upanishads", "Bhagavathgita", "Yoga Sutras"]
+      "texts": [
+        "Vedas",
+        "Upanishads",
+        "Bhagavathgita",
+        "Yoga Sutras"
+      ]
     },
     "relation_to_other_concepts": {
       "dharma": "La acción correcta según el Dharma reduce el karma negativo.",

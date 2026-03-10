@@ -29,7 +29,12 @@
         "@type": "Pessoa",
         "name": "Vyasa"
       },
-      "about": ["Rig Veda", "Yajurvéda", "Samavéda", "Atharvaveda"],
+      "about": [
+        "Rig Veda",
+        "Yajurvéda",
+        "Samavéda",
+        "Atharvaveda"
+      ],
       "inLanguage": "sânscrito",
       "publisher": {
         "@type": "Organização",
@@ -51,7 +56,14 @@
           "mandalas": 10,
           "verses": 10552
         },
-        "major_deities": ["Agni", "Indra", "Varuna", "Mitra", "soma", "Ushas"],
+        "major_deities": [
+          "Agni",
+          "Indra",
+          "Varuna",
+          "Mitra",
+          "soma",
+          "Ushas"
+        ],
         "major_themes": [
           "Criação do universo",
           "Ordem cósmica (Rta)",
@@ -92,7 +104,11 @@
           "total_verses": 1875,
           "unique_verses": 75
         },
-        "applications": ["Canto do templo", "Rituais soma", "Canto litúrgico"]
+        "applications": [
+          "Canto do templo",
+          "Rituais soma",
+          "Canto litúrgico"
+        ]
       },
       {
         "veda": "Atharvaveda",

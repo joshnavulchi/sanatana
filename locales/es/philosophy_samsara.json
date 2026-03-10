@@ -103,7 +103,11 @@
     "origin": {
       "meaning": "Derivado del sánscrito 'samsṛ', que significa 'fluir o vagar'.",
       "roots": "Enseñanzas védicas y upanishádicas",
-      "texts": ["Upanishads", "Bhagavathgita", "Yoga Sutras"]
+      "texts": [
+        "Upanishads",
+        "Bhagavathgita",
+        "Yoga Sutras"
+      ]
     },
     "relation_to_other_concepts": {
       "dharma": "Una vida recta ayuda a reducir la esclavitud kármica.",

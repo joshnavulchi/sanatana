@@ -99,7 +99,12 @@
     "origin": {
       "meaning": "源自梵文“Purusha”（人类）和“Artha”（目的或目标）。",
       "roots": "吠陀和佛法教义",
-      "texts": ["吠陀经", "奥义书", "手奴", "薄伽梵歌"]
+      "texts": [
+        "吠陀经",
+        "奥义书",
+        "手奴",
+        "薄伽梵歌"
+      ]
     },
     "relation_to_other_concepts": {
       "dharma": "充当 Artha 和 Kama 的指导原则。",

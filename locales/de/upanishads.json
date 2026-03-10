@@ -55,7 +55,12 @@
         {
           "@type": "Artikel",
           "headline": "Isha Upanishad – Lehren über Brahman und Entsagung",
-          "about": ["Upanishaden", "Vedanta", "Brahman", "Atman"],
+          "about": [
+            "Upanishaden",
+            "Vedanta",
+            "Brahman",
+            "Atman"
+          ],
           "isPartOf": {
             "@type": "Website",
             "name": "Sanatanadharam",

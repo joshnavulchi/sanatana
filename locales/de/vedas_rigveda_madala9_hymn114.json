@@ -1,0 +1,33 @@
+{
+  "rigveda_mandala9_hymn114": {
+    "title": "Rigveda Mandala 9 Hymn 114",
+    "description": "This hymn belongs to Mandala 9 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "meta": {
+      "title": "Rigveda Mandala 9 Hymn 114",
+      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-9/hymn-114",
+      "description": "This hymn belongs to Mandala 9 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-9/hymn-114"
+    },
+    "openGraph": {
+      "title": "Rigveda Mandala 9 Hymn 114",
+      "description": "This hymn belongs to Mandala 9 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-9/hymn-114",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-9",
+      "label": "Mandala 9",
+      "path": "/vedas/rigveda/mandala-9"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 114,
+      "path": "/vedas/rigveda/mandala-9/hymn-114"
+    },
+    "introduction": "This hymn belongs to Mandala 9 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "Traditional Rigvedic hymn verse placeholder. Actual Sanskrit mantra text can be inserted here from Rigveda sources.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+  }
+}

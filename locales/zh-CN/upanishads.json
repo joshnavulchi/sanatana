@@ -44,13 +44,23 @@
             "name": "奥义书"
           },
           "inLanguage": "梵文",
-          "about": ["吠檀多哲学", "奥特曼", "婆罗门", "萨那塔那佛法"],
+          "about": [
+            "吠檀多哲学",
+            "奥特曼",
+            "婆罗门",
+            "萨那塔那佛法"
+          ],
           "url": "https://sanatanadharmam.in/upanishads/isha"
         },
         {
           "@type": "文章",
           "headline": "Isha Upanishad – 关于婆罗门和弃绝的教义",
-          "about": ["奥义书", "吠檀多", "婆罗门", "奥特曼"],
+          "about": [
+            "奥义书",
+            "吠檀多",
+            "婆罗门",
+            "奥特曼"
+          ],
           "isPartOf": {
             "@type": "网站",
             "name": "萨那塔达曼",

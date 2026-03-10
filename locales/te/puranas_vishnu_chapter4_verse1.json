@@ -1,0 +1,30 @@
+{
+  "vishnu_chapter4_verse1": {
+    "title": "Vishnu Purana Chapter 4 Verse 1",
+    "description": "Verse 1 from Vishnu Purana, Chapter 4.",
+    "meta": {
+      "title": "Vishnu Purana Chapter 4 Verse 1",
+      "canonical": "https://sanatanadharmam.in/puranas/vishnu/chapter-4/verse-1",
+      "description": "Verse 1 from Vishnu Purana, Chapter 4.",
+      "url": "https://sanatanadharmam.in/puranas/vishnu/chapter-4/verse-1"
+    },
+    "openGraph": {
+      "title": "Vishnu Purana Chapter 4 Verse 1",
+      "description": "Verse 1 from Vishnu Purana, Chapter 4.",
+      "url": "https://sanatanadharmam.in/puranas/vishnu/chapter-4/verse-1",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This verse belongs to Vishnu Purana, Chapter 4.",
+    "scripture_text": "Placeholder Sanskrit/translation content for Vishnu Purana, Chapter 4, Verse 1.",
+    "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Vishnu Purana.",
+    "chapter": {
+      "number": 4,
+      "path": "/puranas/vishnu/chapter-4"
+    },
+    "verse": {
+      "number": 1,
+      "path": "/puranas/vishnu/chapter-4/verse-1"
+    }
+  }
+}

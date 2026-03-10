@@ -1,0 +1,33 @@
+{
+  "atharvaveda_book4_hymn8": {
+    "title": "Atharvaveda Book 4 Hymn 8",
+    "description": "This hymn belongs to Atharvaveda Book 4.",
+    "meta": {
+      "title": "Atharvaveda Book 4 Hymn 8",
+      "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-4/hymn-8",
+      "description": "This hymn belongs to Atharvaveda Book 4.",
+      "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-4/hymn-8"
+    },
+    "openGraph": {
+      "title": "Atharvaveda Book 4 Hymn 8",
+      "description": "This hymn belongs to Atharvaveda Book 4.",
+      "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-4/hymn-8",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "chapter": {
+      "slug": "atharvaveda",
+      "key": "book-4",
+      "label": "Book 4",
+      "path": "/vedas/atharvaveda/book-4"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 8,
+      "path": "/vedas/atharvaveda/book-4/hymn-8"
+    },
+    "introduction": "This hymn belongs to Atharvaveda Book 4.",
+    "scripture_text": "Traditional Atharvavedic hymn placeholder text for Book 4, Hymn 8.",
+    "philosophical_explanation": "Atharvavedic hymns integrate practical life, healing, and contemplative insight."
+  }
+}

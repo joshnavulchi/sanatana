@@ -98,12 +98,22 @@
             "Vanaprastha",
             "Sannyasa"
           ],
-          "varna_duties": ["Brahmaan", "Kshatriya", "Vaishya", "Shudra"]
+          "varna_duties": [
+            "Brahmaan",
+            "Kshatriya",
+            "Vaishya",
+            "Shudra"
+          ]
         },
         "meaning": "Taken gebaseerd op iemands levensfase en rol in de samenleving"
       },
       "yugadharma": {
-        "examples": ["Satya Yuga", "Treta", "Dvapara", "Kali Yuga"],
+        "examples": [
+          "Satya Yuga",
+          "Treta",
+          "Dvapara",
+          "Kali Yuga"
+        ],
         "meaning": "Dharma aangepast aan het tijdperk (Yuga) gebaseerd op maatschappelijke behoeften."
       }
     },
@@ -120,14 +130,25 @@
       "tapas": "Zelfdiscipline"
     },
     "daily_life_application": {
-      "family_dharma": ["Respect", "Verantwoordelijkheid", "Zorg"],
-      "global_dharma": ["Duurzaam leven", "Het bevorderen van de vrede"],
+      "family_dharma": [
+        "Respect",
+        "Verantwoordelijkheid",
+        "Zorg"
+      ],
+      "global_dharma": [
+        "Duurzaam leven",
+        "Het bevorderen van de vrede"
+      ],
       "professional_dharma": [
         "Eerlijkheid",
         "Bevoegdheid",
         "Verantwoordelijkheid"
       ],
-      "spiritual_dharma": ["Meditatie", "Zelfstudie", "Medeleven"]
+      "spiritual_dharma": [
+        "Meditatie",
+        "Zelfstudie",
+        "Medeleven"
+      ]
     },
     "definition": [
       "gerechtigheid",
@@ -210,10 +231,25 @@
       }
     ],
     "modern_relevance": {
-      "environment": ["Harmonie met de natuur", "Duurzaamheid"],
-      "ethics": ["Waarheid", "Geweldloosheid", "Respect"],
-      "individual": ["Geestelijke vrede", "Zelfdiscipline", "Doel"],
-      "society": ["Gelijkwaardigheid", "Gerechtigheid", "Verantwoordelijkheid"]
+      "environment": [
+        "Harmonie met de natuur",
+        "Duurzaamheid"
+      ],
+      "ethics": [
+        "Waarheid",
+        "Geweldloosheid",
+        "Respect"
+      ],
+      "individual": [
+        "Geestelijke vrede",
+        "Zelfdiscipline",
+        "Doel"
+      ],
+      "society": [
+        "Gelijkwaardigheid",
+        "Gerechtigheid",
+        "Verantwoordelijkheid"
+      ]
     },
     "philosophical_dimensions": {
       "cosmic_dharma": "Universele orde (Rta) die de natuur en het evenwicht regelt.",
@@ -228,15 +264,26 @@
       "yoga": "Ethische grondslagen – Yamas & Niyamas."
     },
     "scriptural_sources": {
-      "epics": ["Ramayana", "Mahabharata", "Bhagavathgita"],
+      "epics": [
+        "Ramayana",
+        "Mahabharata",
+        "Bhagavathgita"
+      ],
       "puranas": [
         "Bhagavata Purana",
         "Padma Purana",
         "Vishnu Purana",
         "Skanda Purana"
       ],
-      "shruti": ["Veda's", "Upanishads"],
-      "smriti": ["Manusmriti", "Yajnavalkya Smriti", "Narada Smriti"]
+      "shruti": [
+        "Veda's",
+        "Upanishads"
+      ],
+      "smriti": [
+        "Manusmriti",
+        "Yajnavalkya Smriti",
+        "Narada Smriti"
+      ]
     }
   }
 }

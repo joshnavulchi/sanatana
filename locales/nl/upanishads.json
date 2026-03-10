@@ -55,7 +55,12 @@
         {
           "@type": "Artikel",
           "headline": "Isha Upanishad – Leringen over Brahman en verzaking",
-          "about": ["Upanishads", "Vedanta", "brahmaan", "Atman"],
+          "about": [
+            "Upanishads",
+            "Vedanta",
+            "brahmaan",
+            "Atman"
+          ],
           "isPartOf": {
             "@type": "Website",
             "name": "Sanatanadharam",

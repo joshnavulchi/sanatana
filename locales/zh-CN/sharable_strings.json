@@ -549,7 +549,10 @@
         "yuga": "萨蒂亚尤加",
         "purpose": "从宇宙洪水中拯救吠陀经和摩努经",
         "primary_antagonist": "Hayagriva（在某些传统中）",
-        "associated_texts": ["《薄伽梵往世书》", "毗湿奴往世书"],
+        "associated_texts": [
+          "《薄伽梵往世书》",
+          "毗湿奴往世书"
+        ],
         "symbolism": "生命的开始；知识保存",
         "evolutionary_symbolism": "水生生命阶段"
       },
@@ -560,7 +563,10 @@
         "yuga": "萨蒂亚尤加",
         "purpose": "在 Samudra Manthana 期间支持曼陀罗山",
         "primary_event": "海洋的搅动",
-        "associated_texts": ["《薄伽梵往世书》", "摩诃婆罗多"],
+        "associated_texts": [
+          "《薄伽梵往世书》",
+          "摩诃婆罗多"
+        ],
         "symbolism": "稳定和宇宙支持",
         "evolutionary_symbolism": "两栖动物过渡"
       },
@@ -571,7 +577,9 @@
         "yuga": "萨蒂亚尤加",
         "purpose": "从 Hiranyaksha 营救 Bhudevi（地球）",
         "primary_antagonist": "黑兰亚克沙",
-        "associated_texts": ["毗湿奴往世书"],
+        "associated_texts": [
+          "毗湿奴往世书"
+        ],
         "symbolism": "恢复地球和宇宙秩序",
         "evolutionary_symbolism": "陆地动物舞台"
       },
@@ -582,7 +590,9 @@
         "yuga": "萨蒂亚尤加",
         "purpose": "保护帕拉达并摧毁黑兰亚卡西普",
         "primary_antagonist": "黑兰亚卡西普",
-        "associated_texts": ["《薄伽梵往世书》"],
+        "associated_texts": [
+          "《薄伽梵往世书》"
+        ],
         "symbolism": "超越逻辑限制的神圣干预",
         "evolutionary_symbolism": "从动物到人类的转变"
       },
@@ -593,7 +603,9 @@
         "yuga": "特雷塔尤加",
         "purpose": "制服巴厘岛国王并恢复宇宙平衡",
         "primary_antagonist": "马哈巴利",
-        "associated_texts": ["毗湿奴往世书"],
+        "associated_texts": [
+          "毗湿奴往世书"
+        ],
         "symbolism": "谦卑和神圣的智慧",
         "evolutionary_symbolism": "知识分子的出现"
       },
@@ -604,7 +616,10 @@
         "yuga": "特雷塔时代后期",
         "purpose": "摧毁腐败的刹帝利统治者",
         "weapon": "帕拉舒（斧头）",
-        "associated_texts": ["摩诃婆罗多", "往世书"],
+        "associated_texts": [
+          "摩诃婆罗多",
+          "往世书"
+        ],
         "symbolism": "社会秩序重置",
         "evolutionary_symbolism": "原始武士社会"
       },
@@ -615,7 +630,9 @@
         "yuga": "特雷塔尤加",
         "purpose": "摧毁拉瓦那并建立正义统治",
         "primary_antagonist": "罗波那",
-        "associated_texts": ["罗摩衍那"],
+        "associated_texts": [
+          "罗摩衍那"
+        ],
         "symbolism": "佛法的体现",
         "evolutionary_symbolism": "文明道德状态"
       },
@@ -626,7 +643,10 @@
         "yuga": "德瓦帕拉尤加",
         "purpose": "引导人类度过摩诃婆罗多战争",
         "primary_antagonist": "Kauravas（集体恶行）",
-        "associated_texts": ["摩诃婆罗多", "薄伽梵歌"],
+        "associated_texts": [
+          "摩诃婆罗多",
+          "薄伽梵歌"
+        ],
         "symbolism": "神圣的智慧和巴克提",
         "evolutionary_symbolism": "先进的社会意识"
       },
@@ -637,7 +657,9 @@
         "yuga": "早期卡利时代",
         "purpose": "改革过度仪式并弘扬慈悲心",
         "historical_identity": "乔达摩·悉达多",
-        "associated_texts": ["Bhagavata Purana（外士那瓦诠释）"],
+        "associated_texts": [
+          "Bhagavata Purana（外士那瓦诠释）"
+        ],
         "symbolism": "慈悲与自省",
         "evolutionary_symbolism": "哲学觉醒"
       },
@@ -648,7 +670,10 @@
         "yuga": "卡利时代的结束",
         "status": "未来",
         "purpose": "摧毁不法并重置宇宙循环",
-        "associated_texts": ["毗湿奴往世书", "《薄伽梵往世书》"],
+        "associated_texts": [
+          "毗湿奴往世书",
+          "《薄伽梵往世书》"
+        ],
         "symbolism": "周期性更新",
         "evolutionary_symbolism": "转变与重生"
       }

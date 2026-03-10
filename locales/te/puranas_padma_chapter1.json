@@ -1,0 +1,26 @@
+{
+  "padma_chapter1": {
+    "title": "Padma Purana Chapter 1",
+    "description": "Chapter 1 from Padma Purana.",
+    "meta": {
+      "title": "Padma Purana Chapter 1",
+      "canonical": "https://sanatanadharmam.in/puranas/padma/chapter-1",
+      "description": "Chapter 1 from Padma Purana.",
+      "url": "https://sanatanadharmam.in/puranas/padma/chapter-1"
+    },
+    "openGraph": {
+      "title": "Padma Purana Chapter 1",
+      "description": "Chapter 1 from Padma Purana.",
+      "url": "https://sanatanadharmam.in/puranas/padma/chapter-1",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This chapter belongs to Padma Purana.",
+    "scripture_text": "Chapter-level summary text for Padma Purana, Chapter 1.",
+    "philosophical_explanation": "Padma Purana chapters combine dharma, devotion, and symbolic teaching.",
+    "chapter": {
+      "number": 1,
+      "path": "/puranas/padma/chapter-1"
+    }
+  }
+}

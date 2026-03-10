@@ -1,0 +1,26 @@
+{
+  "varaha_chapter5": {
+    "title": "Varaha Purana Chapter 5",
+    "description": "Chapter 5 from Varaha Purana.",
+    "meta": {
+      "title": "Varaha Purana Chapter 5",
+      "canonical": "https://sanatanadharmam.in/puranas/varaha/chapter-5",
+      "description": "Chapter 5 from Varaha Purana.",
+      "url": "https://sanatanadharmam.in/puranas/varaha/chapter-5"
+    },
+    "openGraph": {
+      "title": "Varaha Purana Chapter 5",
+      "description": "Chapter 5 from Varaha Purana.",
+      "url": "https://sanatanadharmam.in/puranas/varaha/chapter-5",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This chapter belongs to Varaha Purana.",
+    "scripture_text": "Chapter-level summary text for Varaha Purana, Chapter 5.",
+    "philosophical_explanation": "Varaha Purana chapters combine dharma, devotion, and symbolic teaching.",
+    "chapter": {
+      "number": 5,
+      "path": "/puranas/varaha/chapter-5"
+    }
+  }
+}

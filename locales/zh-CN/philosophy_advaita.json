@@ -47,7 +47,13 @@
             "@type": "人",
             "name": "阿迪商卡拉查亚"
           },
-          "about": ["吠檀多不二论", "婆罗门", "奥特曼", "玛雅人", "智慧瑜伽"],
+          "about": [
+            "吠檀多不二论",
+            "婆罗门",
+            "奥特曼",
+            "玛雅人",
+            "智慧瑜伽"
+          ],
           "url": "https://sanatanadharmam.in/philosophy/advaita",
           "isPartOf": {
             "@type": "网站",
@@ -107,7 +113,11 @@
       "founder": "阿迪商卡拉查亚",
       "meaning": "Advaita 在梵文中的意思是“非二元”。",
       "roots": "奥义书和梵天经",
-      "texts": ["奥义书", "薄伽梵歌", "梵天经"]
+      "texts": [
+        "奥义书",
+        "薄伽梵歌",
+        "梵天经"
+      ]
     },
     "paths_to_realization": {
       "jnana_yoga": "Path of knowledge and self-inquiry.",

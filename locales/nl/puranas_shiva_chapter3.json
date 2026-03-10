@@ -1,0 +1,26 @@
+{
+  "shiva_chapter3": {
+    "title": "Shiva Purana Chapter 3",
+    "description": "Chapter 3 from Shiva Purana.",
+    "meta": {
+      "title": "Shiva Purana Chapter 3",
+      "canonical": "https://sanatanadharmam.in/puranas/shiva/chapter-3",
+      "description": "Chapter 3 from Shiva Purana.",
+      "url": "https://sanatanadharmam.in/puranas/shiva/chapter-3"
+    },
+    "openGraph": {
+      "title": "Shiva Purana Chapter 3",
+      "description": "Chapter 3 from Shiva Purana.",
+      "url": "https://sanatanadharmam.in/puranas/shiva/chapter-3",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This chapter belongs to Shiva Purana.",
+    "scripture_text": "Chapter-level summary text for Shiva Purana, Chapter 3.",
+    "philosophical_explanation": "Shiva Purana chapters combine dharma, devotion, and symbolic teaching.",
+    "chapter": {
+      "number": 3,
+      "path": "/puranas/shiva/chapter-3"
+    }
+  }
+}

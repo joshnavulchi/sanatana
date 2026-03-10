@@ -70,7 +70,10 @@
     },
     "categories_of_dharma": {
       "apad_dharma": {
-        "examples": ["自卫", "打破正常规则以保护生命"],
+        "examples": [
+          "自卫",
+          "打破正常规则以保护生命"
+        ],
         "meaning": "紧急情况下的职责"
       },
       "sadharana_dharma": {
@@ -89,13 +92,28 @@
       },
       "varnashrama_dharma": {
         "components": {
-          "ashrama_duties": ["婆罗门", "格里哈斯塔", "瓦纳帕斯塔", "萨尼亚萨"],
-          "varna_duties": ["婆罗门", "刹帝利", "吠舍", "首陀罗"]
+          "ashrama_duties": [
+            "婆罗门",
+            "格里哈斯塔",
+            "瓦纳帕斯塔",
+            "萨尼亚萨"
+          ],
+          "varna_duties": [
+            "婆罗门",
+            "刹帝利",
+            "吠舍",
+            "首陀罗"
+          ]
         },
         "meaning": "基于个人人生阶段和社会角色的职责"
       },
       "yugadharma": {
-        "examples": ["萨蒂亚尤加", "特雷塔", "德瓦帕拉", "卡利时代"],
+        "examples": [
+          "萨蒂亚尤加",
+          "特雷塔",
+          "德瓦帕拉",
+          "卡利时代"
+        ],
         "meaning": "佛法适合基于社会需求的时代（Yuga）。"
       }
     },
@@ -112,12 +130,33 @@
       "tapas": "自律"
     },
     "daily_life_application": {
-      "family_dharma": ["尊重", "责任", "关心"],
-      "global_dharma": ["可持续生活", "促进和平"],
-      "professional_dharma": ["诚实", "权限", "问责制"],
-      "spiritual_dharma": ["冥想", "自学", "同情"]
+      "family_dharma": [
+        "尊重",
+        "责任",
+        "关心"
+      ],
+      "global_dharma": [
+        "可持续生活",
+        "促进和平"
+      ],
+      "professional_dharma": [
+        "诚实",
+        "权限",
+        "问责制"
+      ],
+      "spiritual_dharma": [
+        "冥想",
+        "自学",
+        "同情"
+      ]
     },
-    "definition": ["义", "责任", "宇宙秩序", "道德法则", "生活方式"],
+    "definition": [
+      "义",
+      "责任",
+      "宇宙秩序",
+      "道德法则",
+      "生活方式"
+    ],
     "dharma_and_other_concepts": {
       "dharma_artha_kama": "佛法以道德方式指导对财富和欲望的追求。",
       "dharma_karma_relation": "符合佛法的行为可以减少业力；错误的行为会产生束缚。",
@@ -192,10 +231,25 @@
       }
     ],
     "modern_relevance": {
-      "environment": ["与自然和谐相处", "可持续发展"],
-      "ethics": ["真相", "非暴力", "尊重"],
-      "individual": ["心灵平静", "自律", "目的"],
-      "society": ["平等", "正义", "责任"]
+      "environment": [
+        "与自然和谐相处",
+        "可持续发展"
+      ],
+      "ethics": [
+        "真相",
+        "非暴力",
+        "尊重"
+      ],
+      "individual": [
+        "心灵平静",
+        "自律",
+        "目的"
+      ],
+      "society": [
+        "平等",
+        "正义",
+        "责任"
+      ]
     },
     "philosophical_dimensions": {
       "cosmic_dharma": "支配自然和平衡的普遍秩序（Rta）。",
@@ -210,15 +264,26 @@
       "yoga": "道德基础——Yamas & Niyamas。"
     },
     "scriptural_sources": {
-      "epics": ["罗摩衍那", "摩诃婆罗多", "薄伽梵歌"],
+      "epics": [
+        "罗摩衍那",
+        "摩诃婆罗多",
+        "薄伽梵歌"
+      ],
       "puranas": [
         "《薄伽梵往世书》",
         "莲花往世书",
         "毗湿奴往世书",
         "韦驮往世书"
       ],
-      "shruti": ["吠陀经", "奥义书"],
-      "smriti": ["手奴", "耶若瓦尔基亚·斯密里提", "纳拉达·斯姆里蒂"]
+      "shruti": [
+        "吠陀经",
+        "奥义书"
+      ],
+      "smriti": [
+        "手奴",
+        "耶若瓦尔基亚·斯密里提",
+        "纳拉达·斯姆里蒂"
+      ]
     }
   }
 }

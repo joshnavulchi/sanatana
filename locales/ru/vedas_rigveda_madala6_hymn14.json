@@ -1,0 +1,33 @@
+{
+  "rigveda_mandala6_hymn14": {
+    "title": "Rigveda Mandala 6 Hymn 14",
+    "description": "This hymn belongs to Mandala 6 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "meta": {
+      "title": "Rigveda Mandala 6 Hymn 14",
+      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-6/hymn-14",
+      "description": "This hymn belongs to Mandala 6 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-6/hymn-14"
+    },
+    "openGraph": {
+      "title": "Rigveda Mandala 6 Hymn 14",
+      "description": "This hymn belongs to Mandala 6 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-6/hymn-14",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-6",
+      "label": "Mandala 6",
+      "path": "/vedas/rigveda/mandala-6"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 14,
+      "path": "/vedas/rigveda/mandala-6/hymn-14"
+    },
+    "introduction": "This hymn belongs to Mandala 6 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "Traditional Rigvedic hymn verse placeholder. Actual Sanskrit mantra text can be inserted here from Rigveda sources.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+  }
+}

@@ -98,12 +98,22 @@
             "Vanaprastha",
             "Sannyasa"
           ],
-          "varna_duties": ["brahmana", "kshatriya", "Vaishya", "Shudra"]
+          "varna_duties": [
+            "brahmana",
+            "kshatriya",
+            "Vaishya",
+            "Shudra"
+          ]
         },
         "meaning": "Deberes según la etapa de la vida y el papel en la sociedad"
       },
       "yugadharma": {
-        "examples": ["Satya Yuga", "treta", "Dvapara", "Kali Yuga"],
+        "examples": [
+          "Satya Yuga",
+          "treta",
+          "Dvapara",
+          "Kali Yuga"
+        ],
         "meaning": "Dharma adecuado a la era (Yuga) basado en las necesidades de la sociedad."
       }
     },
@@ -120,10 +130,25 @@
       "tapas": "Autodisciplina"
     },
     "daily_life_application": {
-      "family_dharma": ["Respeto", "Responsabilidad", "Cuidado"],
-      "global_dharma": ["Vivir de forma sostenible", "Promoviendo la paz"],
-      "professional_dharma": ["Honestidad", "Competencia", "Responsabilidad"],
-      "spiritual_dharma": ["Meditación", "autoestudio", "Compasión"]
+      "family_dharma": [
+        "Respeto",
+        "Responsabilidad",
+        "Cuidado"
+      ],
+      "global_dharma": [
+        "Vivir de forma sostenible",
+        "Promoviendo la paz"
+      ],
+      "professional_dharma": [
+        "Honestidad",
+        "Competencia",
+        "Responsabilidad"
+      ],
+      "spiritual_dharma": [
+        "Meditación",
+        "autoestudio",
+        "Compasión"
+      ]
     },
     "definition": [
       "justicia",
@@ -206,10 +231,25 @@
       }
     ],
     "modern_relevance": {
-      "environment": ["Armonía con la naturaleza", "Sostenibilidad"],
-      "ethics": ["Verdad", "No violencia", "Respeto"],
-      "individual": ["Paz mental", "Autodisciplina", "Objetivo"],
-      "society": ["Igualdad", "Justicia", "Responsabilidad"]
+      "environment": [
+        "Armonía con la naturaleza",
+        "Sostenibilidad"
+      ],
+      "ethics": [
+        "Verdad",
+        "No violencia",
+        "Respeto"
+      ],
+      "individual": [
+        "Paz mental",
+        "Autodisciplina",
+        "Objetivo"
+      ],
+      "society": [
+        "Igualdad",
+        "Justicia",
+        "Responsabilidad"
+      ]
     },
     "philosophical_dimensions": {
       "cosmic_dharma": "Orden universal (Rta) que rige la naturaleza y el equilibrio.",
@@ -224,15 +264,26 @@
       "yoga": "Fundamentos éticos: Yamas y Niyamas."
     },
     "scriptural_sources": {
-      "epics": ["Ramayana", "Mahabharata", "Bhagavathgita"],
+      "epics": [
+        "Ramayana",
+        "Mahabharata",
+        "Bhagavathgita"
+      ],
       "puranas": [
         "Bhagavata Purana",
         "Padma Purana",
         "Vishnu Purana",
         "Skanda Purana"
       ],
-      "shruti": ["Vedas", "Upanishads"],
-      "smriti": ["Manusmriti", "Yajñavalkya Smriti", "Narada Smriti"]
+      "shruti": [
+        "Vedas",
+        "Upanishads"
+      ],
+      "smriti": [
+        "Manusmriti",
+        "Yajñavalkya Smriti",
+        "Narada Smriti"
+      ]
     }
   }
 }

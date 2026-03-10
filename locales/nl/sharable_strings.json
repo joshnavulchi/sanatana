@@ -549,7 +549,10 @@
         "yuga": "Satya Yuga",
         "purpose": "Red de Veda's en Manu van de kosmische vloed",
         "primary_antagonist": "Hayagriva (in sommige tradities)",
-        "associated_texts": ["Bhagavata Purana", "Vishnu Purana"],
+        "associated_texts": [
+          "Bhagavata Purana",
+          "Vishnu Purana"
+        ],
         "symbolism": "Begin van het leven; behoud van kennis",
         "evolutionary_symbolism": "Fase van het waterleven"
       },
@@ -560,7 +563,10 @@
         "yuga": "Satya Yuga",
         "purpose": "Steun Mount Mandara tijdens Samudra Manthana",
         "primary_event": "Het karnen van de oceaan",
-        "associated_texts": ["Bhagavata Purana", "Mahabharata"],
+        "associated_texts": [
+          "Bhagavata Purana",
+          "Mahabharata"
+        ],
         "symbolism": "Stabiliteit en kosmische ondersteuning",
         "evolutionary_symbolism": "Overgang amfibieën"
       },
@@ -571,7 +577,9 @@
         "yuga": "Satya Yuga",
         "purpose": "Red Bhudevi (aarde) van Hiranyaksha",
         "primary_antagonist": "Hiranyaksha",
-        "associated_texts": ["Vishnu Purana"],
+        "associated_texts": [
+          "Vishnu Purana"
+        ],
         "symbolism": "Herstel van de aarde en de kosmische orde",
         "evolutionary_symbolism": "Landdierstadium"
       },
@@ -582,7 +590,9 @@
         "yuga": "Satya Yuga",
         "purpose": "Bescherm Prahlada en vernietig Hiranyakashipu",
         "primary_antagonist": "Hiranyakashipu",
-        "associated_texts": ["Bhagavata Purana"],
+        "associated_texts": [
+          "Bhagavata Purana"
+        ],
         "symbolism": "Goddelijke interventie voorbij logische beperkingen",
         "evolutionary_symbolism": "Overgang van dier naar mens"
       },
@@ -593,7 +603,9 @@
         "yuga": "Treta Yuga",
         "purpose": "Onderwerp koning Bali en herstel het kosmische evenwicht",
         "primary_antagonist": "Mahabali",
-        "associated_texts": ["Vishnu Purana"],
+        "associated_texts": [
+          "Vishnu Purana"
+        ],
         "symbolism": "Nederigheid en goddelijke intelligentie",
         "evolutionary_symbolism": "Opkomst van de intellectuele mens"
       },
@@ -604,7 +616,10 @@
         "yuga": "Late Treta Yuga",
         "purpose": "Vernietig de corrupte Kshatriya-heersers",
         "weapon": "Parashu (bijl)",
-        "associated_texts": ["Mahabharata", "Purana's"],
+        "associated_texts": [
+          "Mahabharata",
+          "Purana's"
+        ],
         "symbolism": "Reset van de sociale orde",
         "evolutionary_symbolism": "Primitieve krijgersmaatschappij"
       },
@@ -615,7 +630,9 @@
         "yuga": "Treta Yuga",
         "purpose": "Vernietig Ravana en vestig een rechtvaardig bestuur",
         "primary_antagonist": "Ravana",
-        "associated_texts": ["Ramayana"],
+        "associated_texts": [
+          "Ramayana"
+        ],
         "symbolism": "Belichaming van Dharma",
         "evolutionary_symbolism": "Beschaafde morele staat"
       },
@@ -626,7 +643,10 @@
         "yuga": "Dvapara Yuga",
         "purpose": "Leid de mensheid door de Mahabharata-oorlog",
         "primary_antagonist": "Kaurava's (collectieve adharma)",
-        "associated_texts": ["Mahabharata", "Bhagavad Gita"],
+        "associated_texts": [
+          "Mahabharata",
+          "Bhagavad Gita"
+        ],
         "symbolism": "Goddelijke wijsheid en bhakti",
         "evolutionary_symbolism": "Geavanceerd sociaal bewustzijn"
       },
@@ -637,7 +657,9 @@
         "yuga": "Vroege Kali Yuga",
         "purpose": "Hervorm rituele overdaad en bevorder compassie",
         "historical_identity": "Siddharta Gautama",
-        "associated_texts": ["Bhagavata Purana (Vaishnava-interpretatie)"],
+        "associated_texts": [
+          "Bhagavata Purana (Vaishnava-interpretatie)"
+        ],
         "symbolism": "Compassie en introspectie",
         "evolutionary_symbolism": "Filosofisch ontwaken"
       },
@@ -648,7 +670,10 @@
         "yuga": "Einde van Kali Yuga",
         "status": "Toekomst",
         "purpose": "Vernietig adharma en reset de kosmische cyclus",
-        "associated_texts": ["Vishnu Purana", "Bhagavata Purana"],
+        "associated_texts": [
+          "Vishnu Purana",
+          "Bhagavata Purana"
+        ],
         "symbolism": "Cyclische vernieuwing",
         "evolutionary_symbolism": "Transformatie en wedergeboorte"
       }

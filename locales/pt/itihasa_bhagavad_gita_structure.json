@@ -1,0 +1,586 @@
+{
+  "itihasa_bhagavad_gita_structure": {
+    "title": "Bhagavad Gita Structure",
+    "description": "Structured Bhagavad Gita navigation with chapter and verse hierarchy.",
+    "total_chapters": 18,
+    "total_verses": 90,
+    "chapters": [
+      {
+        "chapter": 1,
+        "path": "/itihasa/bhagavad-gita/chapter-1",
+        "title": "Bhagavad Gita Chapter 1",
+        "verses": [
+          {
+            "verse_number": 1,
+            "path": "/itihasa/bhagavad-gita/chapter-1/verse-1",
+            "title": "Bhagavad Gita Chapter 1 Verse 1"
+          },
+          {
+            "verse_number": 2,
+            "path": "/itihasa/bhagavad-gita/chapter-1/verse-2",
+            "title": "Bhagavad Gita Chapter 1 Verse 2"
+          },
+          {
+            "verse_number": 3,
+            "path": "/itihasa/bhagavad-gita/chapter-1/verse-3",
+            "title": "Bhagavad Gita Chapter 1 Verse 3"
+          },
+          {
+            "verse_number": 4,
+            "path": "/itihasa/bhagavad-gita/chapter-1/verse-4",
+            "title": "Bhagavad Gita Chapter 1 Verse 4"
+          },
+          {
+            "verse_number": 5,
+            "path": "/itihasa/bhagavad-gita/chapter-1/verse-5",
+            "title": "Bhagavad Gita Chapter 1 Verse 5"
+          }
+        ]
+      },
+      {
+        "chapter": 2,
+        "path": "/itihasa/bhagavad-gita/chapter-2",
+        "title": "Bhagavad Gita Chapter 2",
+        "verses": [
+          {
+            "verse_number": 1,
+            "path": "/itihasa/bhagavad-gita/chapter-2/verse-1",
+            "title": "Bhagavad Gita Chapter 2 Verse 1"
+          },
+          {
+            "verse_number": 2,
+            "path": "/itihasa/bhagavad-gita/chapter-2/verse-2",
+            "title": "Bhagavad Gita Chapter 2 Verse 2"
+          },
+          {
+            "verse_number": 3,
+            "path": "/itihasa/bhagavad-gita/chapter-2/verse-3",
+            "title": "Bhagavad Gita Chapter 2 Verse 3"
+          },
+          {
+            "verse_number": 4,
+            "path": "/itihasa/bhagavad-gita/chapter-2/verse-4",
+            "title": "Bhagavad Gita Chapter 2 Verse 4"
+          },
+          {
+            "verse_number": 5,
+            "path": "/itihasa/bhagavad-gita/chapter-2/verse-5",
+            "title": "Bhagavad Gita Chapter 2 Verse 5"
+          }
+        ]
+      },
+      {
+        "chapter": 3,
+        "path": "/itihasa/bhagavad-gita/chapter-3",
+        "title": "Bhagavad Gita Chapter 3",
+        "verses": [
+          {
+            "verse_number": 1,
+            "path": "/itihasa/bhagavad-gita/chapter-3/verse-1",
+            "title": "Bhagavad Gita Chapter 3 Verse 1"
+          },
+          {
+            "verse_number": 2,
+            "path": "/itihasa/bhagavad-gita/chapter-3/verse-2",
+            "title": "Bhagavad Gita Chapter 3 Verse 2"
+          },
+          {
+            "verse_number": 3,
+            "path": "/itihasa/bhagavad-gita/chapter-3/verse-3",
+            "title": "Bhagavad Gita Chapter 3 Verse 3"
+          },
+          {
+            "verse_number": 4,
+            "path": "/itihasa/bhagavad-gita/chapter-3/verse-4",
+            "title": "Bhagavad Gita Chapter 3 Verse 4"
+          },
+          {
+            "verse_number": 5,
+            "path": "/itihasa/bhagavad-gita/chapter-3/verse-5",
+            "title": "Bhagavad Gita Chapter 3 Verse 5"
+          }
+        ]
+      },
+      {
+        "chapter": 4,
+        "path": "/itihasa/bhagavad-gita/chapter-4",
+        "title": "Bhagavad Gita Chapter 4",
+        "verses": [
+          {
+            "verse_number": 1,
+            "path": "/itihasa/bhagavad-gita/chapter-4/verse-1",
+            "title": "Bhagavad Gita Chapter 4 Verse 1"
+          },
+          {
+            "verse_number": 2,
+            "path": "/itihasa/bhagavad-gita/chapter-4/verse-2",
+            "title": "Bhagavad Gita Chapter 4 Verse 2"
+          },
+          {
+            "verse_number": 3,
+            "path": "/itihasa/bhagavad-gita/chapter-4/verse-3",
+            "title": "Bhagavad Gita Chapter 4 Verse 3"
+          },
+          {
+            "verse_number": 4,
+            "path": "/itihasa/bhagavad-gita/chapter-4/verse-4",
+            "title": "Bhagavad Gita Chapter 4 Verse 4"
+          },
+          {
+            "verse_number": 5,
+            "path": "/itihasa/bhagavad-gita/chapter-4/verse-5",
+            "title": "Bhagavad Gita Chapter 4 Verse 5"
+          }
+        ]
+      },
+      {
+        "chapter": 5,
+        "path": "/itihasa/bhagavad-gita/chapter-5",
+        "title": "Bhagavad Gita Chapter 5",
+        "verses": [
+          {
+            "verse_number": 1,
+            "path": "/itihasa/bhagavad-gita/chapter-5/verse-1",
+            "title": "Bhagavad Gita Chapter 5 Verse 1"
+          },
+          {
+            "verse_number": 2,
+            "path": "/itihasa/bhagavad-gita/chapter-5/verse-2",
+            "title": "Bhagavad Gita Chapter 5 Verse 2"
+          },
+          {
+            "verse_number": 3,
+            "path": "/itihasa/bhagavad-gita/chapter-5/verse-3",
+            "title": "Bhagavad Gita Chapter 5 Verse 3"
+          },
+          {
+            "verse_number": 4,
+            "path": "/itihasa/bhagavad-gita/chapter-5/verse-4",
+            "title": "Bhagavad Gita Chapter 5 Verse 4"
+          },
+          {
+            "verse_number": 5,
+            "path": "/itihasa/bhagavad-gita/chapter-5/verse-5",
+            "title": "Bhagavad Gita Chapter 5 Verse 5"
+          }
+        ]
+      },
+      {
+        "chapter": 6,
+        "path": "/itihasa/bhagavad-gita/chapter-6",
+        "title": "Bhagavad Gita Chapter 6",
+        "verses": [
+          {
+            "verse_number": 1,
+            "path": "/itihasa/bhagavad-gita/chapter-6/verse-1",
+            "title": "Bhagavad Gita Chapter 6 Verse 1"
+          },
+          {
+            "verse_number": 2,
+            "path": "/itihasa/bhagavad-gita/chapter-6/verse-2",
+            "title": "Bhagavad Gita Chapter 6 Verse 2"
+          },
+          {
+            "verse_number": 3,
+            "path": "/itihasa/bhagavad-gita/chapter-6/verse-3",
+            "title": "Bhagavad Gita Chapter 6 Verse 3"
+          },
+          {
+            "verse_number": 4,
+            "path": "/itihasa/bhagavad-gita/chapter-6/verse-4",
+            "title": "Bhagavad Gita Chapter 6 Verse 4"
+          },
+          {
+            "verse_number": 5,
+            "path": "/itihasa/bhagavad-gita/chapter-6/verse-5",
+            "title": "Bhagavad Gita Chapter 6 Verse 5"
+          }
+        ]
+      },
+      {
+        "chapter": 7,
+        "path": "/itihasa/bhagavad-gita/chapter-7",
+        "title": "Bhagavad Gita Chapter 7",
+        "verses": [
+          {
+            "verse_number": 1,
+            "path": "/itihasa/bhagavad-gita/chapter-7/verse-1",
+            "title": "Bhagavad Gita Chapter 7 Verse 1"
+          },
+          {
+            "verse_number": 2,
+            "path": "/itihasa/bhagavad-gita/chapter-7/verse-2",
+            "title": "Bhagavad Gita Chapter 7 Verse 2"
+          },
+          {
+            "verse_number": 3,
+            "path": "/itihasa/bhagavad-gita/chapter-7/verse-3",
+            "title": "Bhagavad Gita Chapter 7 Verse 3"
+          },
+          {
+            "verse_number": 4,
+            "path": "/itihasa/bhagavad-gita/chapter-7/verse-4",
+            "title": "Bhagavad Gita Chapter 7 Verse 4"
+          },
+          {
+            "verse_number": 5,
+            "path": "/itihasa/bhagavad-gita/chapter-7/verse-5",
+            "title": "Bhagavad Gita Chapter 7 Verse 5"
+          }
+        ]
+      },
+      {
+        "chapter": 8,
+        "path": "/itihasa/bhagavad-gita/chapter-8",
+        "title": "Bhagavad Gita Chapter 8",
+        "verses": [
+          {
+            "verse_number": 1,
+            "path": "/itihasa/bhagavad-gita/chapter-8/verse-1",
+            "title": "Bhagavad Gita Chapter 8 Verse 1"
+          },
+          {
+            "verse_number": 2,
+            "path": "/itihasa/bhagavad-gita/chapter-8/verse-2",
+            "title": "Bhagavad Gita Chapter 8 Verse 2"
+          },
+          {
+            "verse_number": 3,
+            "path": "/itihasa/bhagavad-gita/chapter-8/verse-3",
+            "title": "Bhagavad Gita Chapter 8 Verse 3"
+          },
+          {
+            "verse_number": 4,
+            "path": "/itihasa/bhagavad-gita/chapter-8/verse-4",
+            "title": "Bhagavad Gita Chapter 8 Verse 4"
+          },
+          {
+            "verse_number": 5,
+            "path": "/itihasa/bhagavad-gita/chapter-8/verse-5",
+            "title": "Bhagavad Gita Chapter 8 Verse 5"
+          }
+        ]
+      },
+      {
+        "chapter": 9,
+        "path": "/itihasa/bhagavad-gita/chapter-9",
+        "title": "Bhagavad Gita Chapter 9",
+        "verses": [
+          {
+            "verse_number": 1,
+            "path": "/itihasa/bhagavad-gita/chapter-9/verse-1",
+            "title": "Bhagavad Gita Chapter 9 Verse 1"
+          },
+          {
+            "verse_number": 2,
+            "path": "/itihasa/bhagavad-gita/chapter-9/verse-2",
+            "title": "Bhagavad Gita Chapter 9 Verse 2"
+          },
+          {
+            "verse_number": 3,
+            "path": "/itihasa/bhagavad-gita/chapter-9/verse-3",
+            "title": "Bhagavad Gita Chapter 9 Verse 3"
+          },
+          {
+            "verse_number": 4,
+            "path": "/itihasa/bhagavad-gita/chapter-9/verse-4",
+            "title": "Bhagavad Gita Chapter 9 Verse 4"
+          },
+          {
+            "verse_number": 5,
+            "path": "/itihasa/bhagavad-gita/chapter-9/verse-5",
+            "title": "Bhagavad Gita Chapter 9 Verse 5"
+          }
+        ]
+      },
+      {
+        "chapter": 10,
+        "path": "/itihasa/bhagavad-gita/chapter-10",
+        "title": "Bhagavad Gita Chapter 10",
+        "verses": [
+          {
+            "verse_number": 1,
+            "path": "/itihasa/bhagavad-gita/chapter-10/verse-1",
+            "title": "Bhagavad Gita Chapter 10 Verse 1"
+          },
+          {
+            "verse_number": 2,
+            "path": "/itihasa/bhagavad-gita/chapter-10/verse-2",
+            "title": "Bhagavad Gita Chapter 10 Verse 2"
+          },
+          {
+            "verse_number": 3,
+            "path": "/itihasa/bhagavad-gita/chapter-10/verse-3",
+            "title": "Bhagavad Gita Chapter 10 Verse 3"
+          },
+          {
+            "verse_number": 4,
+            "path": "/itihasa/bhagavad-gita/chapter-10/verse-4",
+            "title": "Bhagavad Gita Chapter 10 Verse 4"
+          },
+          {
+            "verse_number": 5,
+            "path": "/itihasa/bhagavad-gita/chapter-10/verse-5",
+            "title": "Bhagavad Gita Chapter 10 Verse 5"
+          }
+        ]
+      },
+      {
+        "chapter": 11,
+        "path": "/itihasa/bhagavad-gita/chapter-11",
+        "title": "Bhagavad Gita Chapter 11",
+        "verses": [
+          {
+            "verse_number": 1,
+            "path": "/itihasa/bhagavad-gita/chapter-11/verse-1",
+            "title": "Bhagavad Gita Chapter 11 Verse 1"
+          },
+          {
+            "verse_number": 2,
+            "path": "/itihasa/bhagavad-gita/chapter-11/verse-2",
+            "title": "Bhagavad Gita Chapter 11 Verse 2"
+          },
+          {
+            "verse_number": 3,
+            "path": "/itihasa/bhagavad-gita/chapter-11/verse-3",
+            "title": "Bhagavad Gita Chapter 11 Verse 3"
+          },
+          {
+            "verse_number": 4,
+            "path": "/itihasa/bhagavad-gita/chapter-11/verse-4",
+            "title": "Bhagavad Gita Chapter 11 Verse 4"
+          },
+          {
+            "verse_number": 5,
+            "path": "/itihasa/bhagavad-gita/chapter-11/verse-5",
+            "title": "Bhagavad Gita Chapter 11 Verse 5"
+          }
+        ]
+      },
+      {
+        "chapter": 12,
+        "path": "/itihasa/bhagavad-gita/chapter-12",
+        "title": "Bhagavad Gita Chapter 12",
+        "verses": [
+          {
+            "verse_number": 1,
+            "path": "/itihasa/bhagavad-gita/chapter-12/verse-1",
+            "title": "Bhagavad Gita Chapter 12 Verse 1"
+          },
+          {
+            "verse_number": 2,
+            "path": "/itihasa/bhagavad-gita/chapter-12/verse-2",
+            "title": "Bhagavad Gita Chapter 12 Verse 2"
+          },
+          {
+            "verse_number": 3,
+            "path": "/itihasa/bhagavad-gita/chapter-12/verse-3",
+            "title": "Bhagavad Gita Chapter 12 Verse 3"
+          },
+          {
+            "verse_number": 4,
+            "path": "/itihasa/bhagavad-gita/chapter-12/verse-4",
+            "title": "Bhagavad Gita Chapter 12 Verse 4"
+          },
+          {
+            "verse_number": 5,
+            "path": "/itihasa/bhagavad-gita/chapter-12/verse-5",
+            "title": "Bhagavad Gita Chapter 12 Verse 5"
+          }
+        ]
+      },
+      {
+        "chapter": 13,
+        "path": "/itihasa/bhagavad-gita/chapter-13",
+        "title": "Bhagavad Gita Chapter 13",
+        "verses": [
+          {
+            "verse_number": 1,
+            "path": "/itihasa/bhagavad-gita/chapter-13/verse-1",
+            "title": "Bhagavad Gita Chapter 13 Verse 1"
+          },
+          {
+            "verse_number": 2,
+            "path": "/itihasa/bhagavad-gita/chapter-13/verse-2",
+            "title": "Bhagavad Gita Chapter 13 Verse 2"
+          },
+          {
+            "verse_number": 3,
+            "path": "/itihasa/bhagavad-gita/chapter-13/verse-3",
+            "title": "Bhagavad Gita Chapter 13 Verse 3"
+          },
+          {
+            "verse_number": 4,
+            "path": "/itihasa/bhagavad-gita/chapter-13/verse-4",
+            "title": "Bhagavad Gita Chapter 13 Verse 4"
+          },
+          {
+            "verse_number": 5,
+            "path": "/itihasa/bhagavad-gita/chapter-13/verse-5",
+            "title": "Bhagavad Gita Chapter 13 Verse 5"
+          }
+        ]
+      },
+      {
+        "chapter": 14,
+        "path": "/itihasa/bhagavad-gita/chapter-14",
+        "title": "Bhagavad Gita Chapter 14",
+        "verses": [
+          {
+            "verse_number": 1,
+            "path": "/itihasa/bhagavad-gita/chapter-14/verse-1",
+            "title": "Bhagavad Gita Chapter 14 Verse 1"
+          },
+          {
+            "verse_number": 2,
+            "path": "/itihasa/bhagavad-gita/chapter-14/verse-2",
+            "title": "Bhagavad Gita Chapter 14 Verse 2"
+          },
+          {
+            "verse_number": 3,
+            "path": "/itihasa/bhagavad-gita/chapter-14/verse-3",
+            "title": "Bhagavad Gita Chapter 14 Verse 3"
+          },
+          {
+            "verse_number": 4,
+            "path": "/itihasa/bhagavad-gita/chapter-14/verse-4",
+            "title": "Bhagavad Gita Chapter 14 Verse 4"
+          },
+          {
+            "verse_number": 5,
+            "path": "/itihasa/bhagavad-gita/chapter-14/verse-5",
+            "title": "Bhagavad Gita Chapter 14 Verse 5"
+          }
+        ]
+      },
+      {
+        "chapter": 15,
+        "path": "/itihasa/bhagavad-gita/chapter-15",
+        "title": "Bhagavad Gita Chapter 15",
+        "verses": [
+          {
+            "verse_number": 1,
+            "path": "/itihasa/bhagavad-gita/chapter-15/verse-1",
+            "title": "Bhagavad Gita Chapter 15 Verse 1"
+          },
+          {
+            "verse_number": 2,
+            "path": "/itihasa/bhagavad-gita/chapter-15/verse-2",
+            "title": "Bhagavad Gita Chapter 15 Verse 2"
+          },
+          {
+            "verse_number": 3,
+            "path": "/itihasa/bhagavad-gita/chapter-15/verse-3",
+            "title": "Bhagavad Gita Chapter 15 Verse 3"
+          },
+          {
+            "verse_number": 4,
+            "path": "/itihasa/bhagavad-gita/chapter-15/verse-4",
+            "title": "Bhagavad Gita Chapter 15 Verse 4"
+          },
+          {
+            "verse_number": 5,
+            "path": "/itihasa/bhagavad-gita/chapter-15/verse-5",
+            "title": "Bhagavad Gita Chapter 15 Verse 5"
+          }
+        ]
+      },
+      {
+        "chapter": 16,
+        "path": "/itihasa/bhagavad-gita/chapter-16",
+        "title": "Bhagavad Gita Chapter 16",
+        "verses": [
+          {
+            "verse_number": 1,
+            "path": "/itihasa/bhagavad-gita/chapter-16/verse-1",
+            "title": "Bhagavad Gita Chapter 16 Verse 1"
+          },
+          {
+            "verse_number": 2,
+            "path": "/itihasa/bhagavad-gita/chapter-16/verse-2",
+            "title": "Bhagavad Gita Chapter 16 Verse 2"
+          },
+          {
+            "verse_number": 3,
+            "path": "/itihasa/bhagavad-gita/chapter-16/verse-3",
+            "title": "Bhagavad Gita Chapter 16 Verse 3"
+          },
+          {
+            "verse_number": 4,
+            "path": "/itihasa/bhagavad-gita/chapter-16/verse-4",
+            "title": "Bhagavad Gita Chapter 16 Verse 4"
+          },
+          {
+            "verse_number": 5,
+            "path": "/itihasa/bhagavad-gita/chapter-16/verse-5",
+            "title": "Bhagavad Gita Chapter 16 Verse 5"
+          }
+        ]
+      },
+      {
+        "chapter": 17,
+        "path": "/itihasa/bhagavad-gita/chapter-17",
+        "title": "Bhagavad Gita Chapter 17",
+        "verses": [
+          {
+            "verse_number": 1,
+            "path": "/itihasa/bhagavad-gita/chapter-17/verse-1",
+            "title": "Bhagavad Gita Chapter 17 Verse 1"
+          },
+          {
+            "verse_number": 2,
+            "path": "/itihasa/bhagavad-gita/chapter-17/verse-2",
+            "title": "Bhagavad Gita Chapter 17 Verse 2"
+          },
+          {
+            "verse_number": 3,
+            "path": "/itihasa/bhagavad-gita/chapter-17/verse-3",
+            "title": "Bhagavad Gita Chapter 17 Verse 3"
+          },
+          {
+            "verse_number": 4,
+            "path": "/itihasa/bhagavad-gita/chapter-17/verse-4",
+            "title": "Bhagavad Gita Chapter 17 Verse 4"
+          },
+          {
+            "verse_number": 5,
+            "path": "/itihasa/bhagavad-gita/chapter-17/verse-5",
+            "title": "Bhagavad Gita Chapter 17 Verse 5"
+          }
+        ]
+      },
+      {
+        "chapter": 18,
+        "path": "/itihasa/bhagavad-gita/chapter-18",
+        "title": "Bhagavad Gita Chapter 18",
+        "verses": [
+          {
+            "verse_number": 1,
+            "path": "/itihasa/bhagavad-gita/chapter-18/verse-1",
+            "title": "Bhagavad Gita Chapter 18 Verse 1"
+          },
+          {
+            "verse_number": 2,
+            "path": "/itihasa/bhagavad-gita/chapter-18/verse-2",
+            "title": "Bhagavad Gita Chapter 18 Verse 2"
+          },
+          {
+            "verse_number": 3,
+            "path": "/itihasa/bhagavad-gita/chapter-18/verse-3",
+            "title": "Bhagavad Gita Chapter 18 Verse 3"
+          },
+          {
+            "verse_number": 4,
+            "path": "/itihasa/bhagavad-gita/chapter-18/verse-4",
+            "title": "Bhagavad Gita Chapter 18 Verse 4"
+          },
+          {
+            "verse_number": 5,
+            "path": "/itihasa/bhagavad-gita/chapter-18/verse-5",
+            "title": "Bhagavad Gita Chapter 18 Verse 5"
+          }
+        ]
+      }
+    ]
+  }
+}

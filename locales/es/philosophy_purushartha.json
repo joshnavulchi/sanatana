@@ -99,7 +99,12 @@
     "origin": {
       "meaning": "Derivado del sánscrito 'Purusha' (ser humano) y 'Artha' (propósito u objetivo).",
       "roots": "Enseñanzas védicas y dharmashastra",
-      "texts": ["Vedas", "Upanishads", "Manusmriti", "Bhagavathgita"]
+      "texts": [
+        "Vedas",
+        "Upanishads",
+        "Manusmriti",
+        "Bhagavathgita"
+      ]
     },
     "relation_to_other_concepts": {
       "dharma": "Actúa como principio rector para Artha y Kama.",
