@@ -122,25 +122,25 @@
           {
             "title": "Les Védas",
             "description": "Sagesse · Hymnes · Dharma · Cosmos · Libération",
-            "href": "/scriptures/vedas",
+            "href": "vedas/rigveda",
             "src": "/images/home/the-vedas.png"
           },
           {
             "title": "Les Upanishads",
             "description": "Brahman · Atman · Connaissance · Libération · Unité",
-            "href": "/scriptures/upanishads",
+            "href": "vedas//upanishads",
             "src": "/images/home/the-upanishads.png"
           },
           {
             "title": "Les Itihasas",
             "description": "Devoir · Dévotion · Conflit · Dharma · Héritage",
-            "href": "/scriptures/itihasas",
+            "href": "itihasa",
             "src": "/images/home/the-ithihas.png"
           },
           {
             "title": "Purânas",
             "description": "Mythologie · Cosmologie · Légendes · Dévotion · Dharma",
-            "href": "/scriptures/puranas",
+            "href": "puranas",
             "src": "/images/home/the-puranas.png"
           }
         ]
@@ -159,31 +159,31 @@
           {
             "title": "Dharma",
             "description": "Droiture · Devoir · Harmonie · Justice · Vérité",
-            "href": "/philosophy/dharma",
+            "href": "philosophy/dharma",
             "src": "/images/home/dharma.png"
           },
           {
             "title": "Karma",
             "description": "Action · Cause · Effet · Responsabilité · Conséquence",
-            "href": "/philosophy/karma",
+            "href": "philosophy/karma",
             "src": "/images/home/karma.png"
           },
           {
             "title": "Moksha",
             "description": "Libération · Liberté · Unité · Félicité · Éternité",
-            "href": "/philosophy/moksha",
+            "href": "philosophy/moksha",
             "src": "/images/home/moksha.png"
           },
           {
             "title": "Ahimsa",
             "description": "Non-violence · Compassion · Respect · Harmonie · Amour",
-            "href": "/philosophy/ahimsa",
+            "href": "philosophy/ahimsa",
             "src": "/images/home/ahimsa.png"
           },
           {
             "title": "Satya",
             "description": "Vérité · Honnêteté · Intégrité · Authenticité · Droiture",
-            "href": "/philosophy/satya",
+            "href": "philosophy/satya",
             "src": "/images/home/satya.png"
           }
         ]
@@ -296,8 +296,7 @@
       "badge": "Pris en charge : EN, TA, HI",
       "contribute": "Contribuez maintenant",
       "guidelines": "Directives de traduction",
-      "subtitle": "Votre contribution rend notre site Web accessible à tous. Rejoignez notre communauté mondiale de traducteurs.",
-      "targeting": "Ciblage : 10 langues · 60% réalisé"
+      "subtitle": "Votre contribution rend notre site Web accessible à tous. Rejoignez notre communauté mondiale de traducteurs."
     }
   }
 }

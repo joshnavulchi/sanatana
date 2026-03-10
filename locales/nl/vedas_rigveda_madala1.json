@@ -51,7 +51,13 @@
         {
           "@type": "Artikel",
           "headline": "Rigveda Mandala 1 – Hymnen aan Agni, Indra en Vedische goden",
-          "about": ["Rigveda", "Agni", "Indra", "Soma", "Vedische hymnen"],
+          "about": [
+            "Rigveda",
+            "Agni",
+            "Indra",
+            "Soma",
+            "Vedische hymnen"
+          ],
           "isPartOf": {
             "@type": "Website",
             "name": "Sanatanadharam",

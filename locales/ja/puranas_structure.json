@@ -1,0 +1,153 @@
+{
+  "puranas": {
+    "title": "Puranas Structure",
+    "total_mahapuranas": 18,
+    "total_verse_pages": 2000,
+    "items": [
+      {
+        "slug": "brahma",
+        "title": "Brahma Purana – Purana Overview and Key Themes",
+        "path": "/puranas/brahma",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "padma",
+        "title": "Padma Purana – Purana Overview and Key Themes",
+        "path": "/puranas/padma",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "vishnu",
+        "title": "Vishnu Purana – Purana Overview and Key Themes",
+        "path": "/puranas/vishnu",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "shiva",
+        "title": "Shiva Purana – Purana Overview and Key Themes",
+        "path": "/puranas/shiva",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "bhagavata",
+        "title": "Bhagavata Purana – Purana Overview and Key Themes",
+        "path": "/puranas/bhagavata",
+        "content_model": "skanda/chapter/verse",
+        "total_chapters": 60,
+        "total_verses": 300
+      },
+      {
+        "slug": "narada",
+        "title": "Narada Purana – Purana Overview and Key Themes",
+        "path": "/puranas/narada",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "markandeya",
+        "title": "Markandeya Purana – Purana Overview and Key Themes",
+        "path": "/puranas/markandeya",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "agni",
+        "title": "Agni Purana – Purana Overview and Key Themes",
+        "path": "/puranas/agni",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "bhavishya",
+        "title": "Bhavishya Purana – Purana Overview and Key Themes",
+        "path": "/puranas/bhavishya",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "brahmavaivarta",
+        "title": "Brahmavaivarta Purana – Purana Overview and Key Themes",
+        "path": "/puranas/brahmavaivarta",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "linga",
+        "title": "Linga Purana – Purana Overview and Key Themes",
+        "path": "/puranas/linga",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "varaha",
+        "title": "Varaha Purana – Purana Overview and Key Themes",
+        "path": "/puranas/varaha",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "skanda",
+        "title": "Skanda Purana – Purana Overview and Key Themes",
+        "path": "/puranas/skanda",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "vamana",
+        "title": "Vamana Purana – Purana Overview and Key Themes",
+        "path": "/puranas/vamana",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "kurma",
+        "title": "Kurma Purana – Purana Overview and Key Themes",
+        "path": "/puranas/kurma",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "matsya",
+        "title": "Matsya Purana – Purana Overview and Key Themes",
+        "path": "/puranas/matsya",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "garuda",
+        "title": "Garuda Purana – Purana Overview and Key Themes",
+        "path": "/puranas/garuda",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      },
+      {
+        "slug": "brahmanda",
+        "title": "Brahmanda Purana – Purana Overview and Key Themes",
+        "path": "/puranas/brahmanda",
+        "content_model": "chapter/verse",
+        "total_chapters": 10,
+        "total_verses": 100
+      }
+    ]
+  }
+}

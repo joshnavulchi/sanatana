@@ -122,25 +122,25 @@
           {
             "title": "الفيدا",
             "description": "الحكمة · الترانيم · الدارما · الكون · التحرير",
-            "href": "/scriptures/vedas",
+            "href": "vedas/rigveda",
             "src": "/images/home/the-vedas.png"
           },
           {
             "title": "الأوبنشاد",
             "description": "براهمان · عتمان · المعرفة · التحرير · الوحدة",
-            "href": "/scriptures/upanishads",
+            "href": "vedas//upanishads",
             "src": "/images/home/the-upanishads.png"
           },
           {
             "title": "الإتحاص",
             "description": "الواجب · الإخلاص · الصراع · الدارما · الإرث",
-            "href": "/scriptures/itihasas",
+            "href": "itihasa",
             "src": "/images/home/the-ithihas.png"
           },
           {
             "title": "بوراناس",
             "description": "الأساطير · علم الكونيات · الأساطير · الإخلاص · الدارما",
-            "href": "/scriptures/puranas",
+            "href": "puranas",
             "src": "/images/home/the-puranas.png"
           }
         ]
@@ -159,31 +159,31 @@
           {
             "title": "دارما",
             "description": "البر · الواجب · الانسجام · العدالة · الحقيقة",
-            "href": "/philosophy/dharma",
+            "href": "philosophy/dharma",
             "src": "/images/home/dharma.png"
           },
           {
             "title": "كارما",
             "description": "الفعل · السبب · النتيجة · المسؤولية · النتيجة",
-            "href": "/philosophy/karma",
+            "href": "philosophy/karma",
             "src": "/images/home/karma.png"
           },
           {
             "title": "موكشا",
             "description": "التحرير · الحرية · الوحدة · النعيم · الخلود",
-            "href": "/philosophy/moksha",
+            "href": "philosophy/moksha",
             "src": "/images/home/moksha.png"
           },
           {
             "title": "أهيمسا",
             "description": "اللاعنف · الرحمة · الاحترام · الانسجام · الحب",
-            "href": "/philosophy/ahimsa",
+            "href": "philosophy/ahimsa",
             "src": "/images/home/ahimsa.png"
           },
           {
             "title": "ساتيا",
             "description": "الحقيقة · الصدق · النزاهة · الأصالة · الاستقامة",
-            "href": "/philosophy/satya",
+            "href": "philosophy/satya",
             "src": "/images/home/satya.png"
           }
         ]
@@ -296,8 +296,7 @@
       "badge": "المدعومة: EN، TA، مرحبا",
       "contribute": "ساهم الآن",
       "guidelines": "إرشادات الترجمة",
-      "subtitle": "مساهمتك تجعل موقعنا في متناول الجميع. انضم إلى مجتمعنا العالمي من المترجمين.",
-      "targeting": "الاستهداف: 10 لغات · تم إكمال 60%"
+      "subtitle": "مساهمتك تجعل موقعنا في متناول الجميع. انضم إلى مجتمعنا العالمي من المترجمين."
     }
   }
 }

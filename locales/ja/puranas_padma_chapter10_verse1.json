@@ -1,0 +1,30 @@
+{
+  "padma_chapter10_verse1": {
+    "title": "Padma Purana Chapter 10 Verse 1",
+    "description": "Verse 1 from Padma Purana, Chapter 10.",
+    "meta": {
+      "title": "Padma Purana Chapter 10 Verse 1",
+      "canonical": "https://sanatanadharmam.in/puranas/padma/chapter-10/verse-1",
+      "description": "Verse 1 from Padma Purana, Chapter 10.",
+      "url": "https://sanatanadharmam.in/puranas/padma/chapter-10/verse-1"
+    },
+    "openGraph": {
+      "title": "Padma Purana Chapter 10 Verse 1",
+      "description": "Verse 1 from Padma Purana, Chapter 10.",
+      "url": "https://sanatanadharmam.in/puranas/padma/chapter-10/verse-1",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This verse belongs to Padma Purana, Chapter 10.",
+    "scripture_text": "Placeholder Sanskrit/translation content for Padma Purana, Chapter 10, Verse 1.",
+    "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Padma Purana.",
+    "chapter": {
+      "number": 10,
+      "path": "/puranas/padma/chapter-10"
+    },
+    "verse": {
+      "number": 1,
+      "path": "/puranas/padma/chapter-10/verse-1"
+    }
+  }
+}

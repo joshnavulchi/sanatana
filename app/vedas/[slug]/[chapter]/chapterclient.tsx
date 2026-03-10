@@ -35,6 +35,11 @@ type FromMainConfig = {
   fileKey: string;
   listKey: string;
   idKey: string;
+  detailFileKey?: string;
+  detailListKey?: string;
+  detailItemsKey?: string;
+  detailItemLabel?: string;
+  detailItemPrefix?: string;
 };
 
 type SlugConfig = PerFileConfig | FromMainConfig;
@@ -66,6 +71,11 @@ const SLUG_CONFIG: Record<string, SlugConfig> = {
     fileKey: 'vedas_yajurveda',
     listKey: 'yajurveda_chapters',
     idKey: 'chapter',
+    detailFileKey: 'vedas_yajurveda_structure',
+    detailListKey: 'chapters',
+    detailItemsKey: 'mantras',
+    detailItemLabel: 'Mantra',
+    detailItemPrefix: 'mantra',
   },
   samaveda: {
     mode: 'from-main',
@@ -75,8 +85,8 @@ const SLUG_CONFIG: Record<string, SlugConfig> = {
     accentTo: 'to-[#e0a632]',
     textAccent: 'text-[#3b3270]',
     borderAccent: 'border-[#8b6914]',
-    chapterPrefix: 'section',
-    itemLabel: 'Section',
+    chapterPrefix: 'hymn',
+    itemLabel: 'Hymn',
     fileKey: 'vedas_samaveda',
     listKey: 'samaveda_sections',
     idKey: 'section',
@@ -94,6 +104,11 @@ const SLUG_CONFIG: Record<string, SlugConfig> = {
     fileKey: 'vedas_atharvaveda',
     listKey: 'atharvaveda_books',
     idKey: 'book',
+    detailFileKey: 'vedas_atharvaveda_structure',
+    detailListKey: 'books',
+    detailItemsKey: 'hymns',
+    detailItemLabel: 'Hymn',
+    detailItemPrefix: 'hymn',
   },
 };
 
@@ -128,12 +143,14 @@ function parseChapterNum(chapter: string): number {
 }
 
 /* ── Hymn card (accordion) ── */
-function HymnCard({ hymn, index, accentFrom, accentTo }: {
+function HymnCard({ hymn, index, accentFrom, accentTo, detailHref, detailLabel }: {
   hymn: Record<string, unknown>; index: number;
   accentFrom: string; accentTo: string;
+  detailHref?: string;
+  detailLabel: string;
 }) {
   const [open, setOpen] = useState(false);
-  const num = (hymn.hymn_number ?? (index + 1)) as number;
+  const num = (hymn.hymn_number ?? hymn.mantra_number ?? (index + 1)) as number;
   const title = typeof hymn.title === 'string' ? hymn.title : `Hymn ${num}`;
   const intro = typeof hymn.introduction === 'string' ? hymn.introduction : '';
   const scripture = typeof hymn.scripture_text === 'string' ? hymn.scripture_text : '';
@@ -189,6 +206,16 @@ function HymnCard({ hymn, index, accentFrom, accentTo }: {
               </div>
             </div>
           )}
+          {detailHref && (
+            <div className="text-right">
+              <Link href={detailHref} className="inline-flex items-center gap-1.5 text-sm font-bold text-[#b45309] hover:text-[#92400e] transition-colors">
+                View {detailLabel} {num} Details
+                <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </div>
+          )}
         </div>
       )}
     </div>
@@ -207,6 +234,7 @@ export default function ChapterClient({ slug, chapter }: { slug: string; chapter
 
   const fileKey = cfg.mode === 'per-file' ? `${cfg.filePattern}${chapterNum}` : cfg.fileKey;
   const ns = useLocaleSection(fileKey);
+  const detailNs = useLocaleSection(cfg.mode === 'from-main' && cfg.detailFileKey ? cfg.detailFileKey : '');
 
   const hymns: Record<string, unknown>[] =
     cfg.mode === 'per-file' && Array.isArray(ns?.hymns) ? (ns.hymns as Record<string, unknown>[]) : [];
@@ -222,6 +250,22 @@ export default function ChapterClient({ slug, chapter }: { slug: string; chapter
     cfg.mode === 'from-main'
       ? mainItems.find((item) => Number(item[cfg.idKey]) === chapterNum)
       : undefined;
+
+  const detailRoot = cfg.mode === 'from-main' ? ((detailNs?.[slug] ?? detailNs) as Record<string, unknown>) : {};
+  const detailContainer =
+    cfg.mode === 'from-main' && cfg.detailListKey && Array.isArray(detailRoot?.[cfg.detailListKey])
+      ? (detailRoot[cfg.detailListKey] as Record<string, unknown>[])
+      : [];
+  const selectedDetail =
+    cfg.mode === 'from-main' && cfg.detailItemsKey
+      ? detailContainer.find((entry) => Number(entry[cfg.idKey]) === chapterNum)
+      : undefined;
+  const detailItems: Record<string, unknown>[] =
+    cfg.mode === 'per-file'
+      ? hymns
+      : cfg.mode === 'from-main' && cfg.detailItemsKey && Array.isArray(selectedDetail?.[cfg.detailItemsKey])
+        ? (selectedDetail[cfg.detailItemsKey] as Record<string, unknown>[])
+        : [];
 
   const titleFromJson =
     cfg.mode === 'from-main'
@@ -266,7 +310,7 @@ export default function ChapterClient({ slug, chapter }: { slug: string; chapter
   const hasContent =
     cfg.mode === 'per-file'
       ? !!titleFromJson || hymns.length > 0
-      : !!titleFromJson || !!entryIntro || !!entryScripture || !!entryPhilo;
+      : !!titleFromJson || !!entryIntro || !!entryScripture || !!entryPhilo || detailItems.length > 0;
 
   if (isLoading && !hasContent) {
     return (
@@ -321,24 +365,31 @@ export default function ChapterClient({ slug, chapter }: { slug: string; chapter
         </div>
       </section>
 
-      {/* ═══════════ Hymns List ═══════════ */}
-      {hymns.length > 0 && (
+      {/* ═══════════ Hymns / Mantras List ═══════════ */}
+      {detailItems.length > 0 && (
         <>
           <OrnamentDivider />
           <section>
             <h2 className={`text-2xl md:text-3xl font-extrabold bg-linear-to-r ${cfg.accentFrom} ${cfg.accentVia} ${cfg.accentTo} bg-clip-text text-transparent mb-8 text-center`}>
-              Hymns of {cfg.itemLabel} {chapterNum}
+              {cfg.mode === 'from-main' ? (cfg.detailItemLabel || 'Items') : 'Hymns'} of {cfg.itemLabel} {chapterNum}
             </h2>
             <div className="space-y-3">
-              {hymns.map((hymn, i) => (
+              {detailItems.map((hymn, i) => {
+                const itemNum = Number(hymn.hymn_number ?? hymn.mantra_number ?? (i + 1));
+                const itemPrefix = cfg.mode === 'from-main' ? (cfg.detailItemPrefix || 'item') : 'hymn';
+                const detailLabel = cfg.mode === 'from-main' ? (cfg.detailItemLabel || 'Item') : 'Hymn';
+                return (
                 <HymnCard
                   key={i}
                   hymn={hymn}
                   index={i}
                   accentFrom={cfg.accentFrom}
                   accentTo={cfg.accentTo}
+                  detailLabel={detailLabel}
+                  detailHref={`/vedas/${slug}/${cfg.chapterPrefix}-${chapterNum}/${itemPrefix}-${itemNum}`}
                 />
-              ))}
+                );
+              })}
             </div>
           </section>
         </>

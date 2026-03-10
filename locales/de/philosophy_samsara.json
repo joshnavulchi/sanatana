@@ -103,7 +103,11 @@
     "origin": {
       "meaning": "Abgeleitet vom Sanskrit „samsṛ“, was „fließen oder wandern“ bedeutet.",
       "roots": "Vedische und upanischadische Lehren",
-      "texts": ["Upanishaden", "Bhagavathgita", "Yoga-Sutras"]
+      "texts": [
+        "Upanishaden",
+        "Bhagavathgita",
+        "Yoga-Sutras"
+      ]
     },
     "relation_to_other_concepts": {
       "dharma": "Ein rechtschaffenes Leben trägt dazu bei, karmische Bindungen zu reduzieren.",

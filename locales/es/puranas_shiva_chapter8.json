@@ -1,0 +1,26 @@
+{
+  "shiva_chapter8": {
+    "title": "Shiva Purana Chapter 8",
+    "description": "Chapter 8 from Shiva Purana.",
+    "meta": {
+      "title": "Shiva Purana Chapter 8",
+      "canonical": "https://sanatanadharmam.in/puranas/shiva/chapter-8",
+      "description": "Chapter 8 from Shiva Purana.",
+      "url": "https://sanatanadharmam.in/puranas/shiva/chapter-8"
+    },
+    "openGraph": {
+      "title": "Shiva Purana Chapter 8",
+      "description": "Chapter 8 from Shiva Purana.",
+      "url": "https://sanatanadharmam.in/puranas/shiva/chapter-8",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This chapter belongs to Shiva Purana.",
+    "scripture_text": "Chapter-level summary text for Shiva Purana, Chapter 8.",
+    "philosophical_explanation": "Shiva Purana chapters combine dharma, devotion, and symbolic teaching.",
+    "chapter": {
+      "number": 8,
+      "path": "/puranas/shiva/chapter-8"
+    }
+  }
+}

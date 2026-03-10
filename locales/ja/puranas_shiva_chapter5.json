@@ -1,0 +1,26 @@
+{
+  "shiva_chapter5": {
+    "title": "Shiva Purana Chapter 5",
+    "description": "Chapter 5 from Shiva Purana.",
+    "meta": {
+      "title": "Shiva Purana Chapter 5",
+      "canonical": "https://sanatanadharmam.in/puranas/shiva/chapter-5",
+      "description": "Chapter 5 from Shiva Purana.",
+      "url": "https://sanatanadharmam.in/puranas/shiva/chapter-5"
+    },
+    "openGraph": {
+      "title": "Shiva Purana Chapter 5",
+      "description": "Chapter 5 from Shiva Purana.",
+      "url": "https://sanatanadharmam.in/puranas/shiva/chapter-5",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This chapter belongs to Shiva Purana.",
+    "scripture_text": "Chapter-level summary text for Shiva Purana, Chapter 5.",
+    "philosophical_explanation": "Shiva Purana chapters combine dharma, devotion, and symbolic teaching.",
+    "chapter": {
+      "number": 5,
+      "path": "/puranas/shiva/chapter-5"
+    }
+  }
+}

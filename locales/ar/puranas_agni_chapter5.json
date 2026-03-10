@@ -1,0 +1,26 @@
+{
+  "agni_chapter5": {
+    "title": "Agni Purana Chapter 5",
+    "description": "Chapter 5 from Agni Purana.",
+    "meta": {
+      "title": "Agni Purana Chapter 5",
+      "canonical": "https://sanatanadharmam.in/puranas/agni/chapter-5",
+      "description": "Chapter 5 from Agni Purana.",
+      "url": "https://sanatanadharmam.in/puranas/agni/chapter-5"
+    },
+    "openGraph": {
+      "title": "Agni Purana Chapter 5",
+      "description": "Chapter 5 from Agni Purana.",
+      "url": "https://sanatanadharmam.in/puranas/agni/chapter-5",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This chapter belongs to Agni Purana.",
+    "scripture_text": "Chapter-level summary text for Agni Purana, Chapter 5.",
+    "philosophical_explanation": "Agni Purana chapters combine dharma, devotion, and symbolic teaching.",
+    "chapter": {
+      "number": 5,
+      "path": "/puranas/agni/chapter-5"
+    }
+  }
+}

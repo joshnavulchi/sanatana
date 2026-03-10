@@ -1,0 +1,30 @@
+{
+  "bhagavata_skanda11_chapter5": {
+    "title": "Bhagavata Skanda 11 Chapter 5",
+    "description": "Chapter 5 from Bhagavata Skanda 11.",
+    "meta": {
+      "title": "Bhagavata Skanda 11 Chapter 5",
+      "canonical": "https://sanatanadharmam.in/puranas/bhagavata/skanda-11/chapter-5",
+      "description": "Chapter 5 from Bhagavata Skanda 11.",
+      "url": "https://sanatanadharmam.in/puranas/bhagavata/skanda-11/chapter-5"
+    },
+    "openGraph": {
+      "title": "Bhagavata Skanda 11 Chapter 5",
+      "description": "Chapter 5 from Bhagavata Skanda 11.",
+      "url": "https://sanatanadharmam.in/puranas/bhagavata/skanda-11/chapter-5",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This chapter belongs to Bhagavata Skanda 11.",
+    "scripture_text": "Chapter-level summary text for Bhagavata Skanda 11, Chapter 5.",
+    "philosophical_explanation": "Each Bhagavata chapter blends narrative devotion with Vedantic insight.",
+    "skanda": {
+      "number": 11,
+      "path": "/puranas/bhagavata/skanda-11"
+    },
+    "chapter": {
+      "number": 5,
+      "path": "/puranas/bhagavata/skanda-11/chapter-5"
+    }
+  }
+}

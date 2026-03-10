@@ -7,6 +7,10 @@ import Link from 'next/link';
 
 interface NavLink { href: string; label: string }
 
+function normalizePuranaPathPart(part: string): string {
+  return part.replace(/-purana$/, '');
+}
+
 function Paragraphs({ text, className = '' }: { text: string; className?: string }) {
   return (
     <>
@@ -48,7 +52,7 @@ function normalizeNav(nav: unknown, basePath: string): NavLink[] {
     return Object.entries(nav as Record<string, unknown>)
       .filter(([, val]) => typeof val === 'string')
       .map(([key, val]) => ({
-        href: `${basePath}/${key}`,
+        href: `${basePath}/${normalizePuranaPathPart(key)}`,
         label: val as string,
       }));
   }

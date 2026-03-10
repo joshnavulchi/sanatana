@@ -1,0 +1,3594 @@
+{
+  "vedic_philosophy_structure": {
+    "title": "Vedic Philosophy",
+    "description": "Structured Vedic Philosophy knowledge tree with topic and subtopic hierarchy.",
+    "introduction": "Vedic Philosophy explains the nature of reality, duty, action, liberation, and devotion through multiple darshanic and scriptural perspectives.",
+    "philosophical_explanation": "This structure organizes major philosophical themes into navigable topical units for focused study and expansion.",
+    "scripture_text": [
+      {
+        "section": "Scope",
+        "content": "Includes Dharma, Karma, Moksha, Samsara, Purushartha, Advaita, Bhakti, and Yoga with generated deep subtopic pages."
+      },
+      {
+        "section": "Navigation Model",
+        "content": "Each top-level topic contains dedicated subtopic pages to enable clean, deep route mapping and future content replacement."
+      }
+    ],
+    "total_topics": 8,
+    "total_subtopic_pages": 700,
+    "topics": [
+      {
+        "slug": "dharma",
+        "title": "Dharma",
+        "description": "Dharma as a core branch of Vedic Philosophy.",
+        "path": "/vedic-philosophy/dharma",
+        "total_subtopics": 88,
+        "subtopics": [
+          {
+            "slug": "definition",
+            "title": "Definition",
+            "path": "/vedic-philosophy/dharma/definition"
+          },
+          {
+            "slug": "scriptural",
+            "title": "Scriptural",
+            "path": "/vedic-philosophy/dharma/scriptural"
+          },
+          {
+            "slug": "examples",
+            "title": "Examples",
+            "path": "/vedic-philosophy/dharma/examples"
+          },
+          {
+            "slug": "concept-1",
+            "title": "Concept 1",
+            "path": "/vedic-philosophy/dharma/concept-1"
+          },
+          {
+            "slug": "concept-2",
+            "title": "Concept 2",
+            "path": "/vedic-philosophy/dharma/concept-2"
+          },
+          {
+            "slug": "concept-3",
+            "title": "Concept 3",
+            "path": "/vedic-philosophy/dharma/concept-3"
+          },
+          {
+            "slug": "concept-4",
+            "title": "Concept 4",
+            "path": "/vedic-philosophy/dharma/concept-4"
+          },
+          {
+            "slug": "concept-5",
+            "title": "Concept 5",
+            "path": "/vedic-philosophy/dharma/concept-5"
+          },
+          {
+            "slug": "concept-6",
+            "title": "Concept 6",
+            "path": "/vedic-philosophy/dharma/concept-6"
+          },
+          {
+            "slug": "concept-7",
+            "title": "Concept 7",
+            "path": "/vedic-philosophy/dharma/concept-7"
+          },
+          {
+            "slug": "concept-8",
+            "title": "Concept 8",
+            "path": "/vedic-philosophy/dharma/concept-8"
+          },
+          {
+            "slug": "concept-9",
+            "title": "Concept 9",
+            "path": "/vedic-philosophy/dharma/concept-9"
+          },
+          {
+            "slug": "concept-10",
+            "title": "Concept 10",
+            "path": "/vedic-philosophy/dharma/concept-10"
+          },
+          {
+            "slug": "concept-11",
+            "title": "Concept 11",
+            "path": "/vedic-philosophy/dharma/concept-11"
+          },
+          {
+            "slug": "concept-12",
+            "title": "Concept 12",
+            "path": "/vedic-philosophy/dharma/concept-12"
+          },
+          {
+            "slug": "concept-13",
+            "title": "Concept 13",
+            "path": "/vedic-philosophy/dharma/concept-13"
+          },
+          {
+            "slug": "concept-14",
+            "title": "Concept 14",
+            "path": "/vedic-philosophy/dharma/concept-14"
+          },
+          {
+            "slug": "concept-15",
+            "title": "Concept 15",
+            "path": "/vedic-philosophy/dharma/concept-15"
+          },
+          {
+            "slug": "concept-16",
+            "title": "Concept 16",
+            "path": "/vedic-philosophy/dharma/concept-16"
+          },
+          {
+            "slug": "concept-17",
+            "title": "Concept 17",
+            "path": "/vedic-philosophy/dharma/concept-17"
+          },
+          {
+            "slug": "concept-18",
+            "title": "Concept 18",
+            "path": "/vedic-philosophy/dharma/concept-18"
+          },
+          {
+            "slug": "concept-19",
+            "title": "Concept 19",
+            "path": "/vedic-philosophy/dharma/concept-19"
+          },
+          {
+            "slug": "concept-20",
+            "title": "Concept 20",
+            "path": "/vedic-philosophy/dharma/concept-20"
+          },
+          {
+            "slug": "concept-21",
+            "title": "Concept 21",
+            "path": "/vedic-philosophy/dharma/concept-21"
+          },
+          {
+            "slug": "concept-22",
+            "title": "Concept 22",
+            "path": "/vedic-philosophy/dharma/concept-22"
+          },
+          {
+            "slug": "concept-23",
+            "title": "Concept 23",
+            "path": "/vedic-philosophy/dharma/concept-23"
+          },
+          {
+            "slug": "concept-24",
+            "title": "Concept 24",
+            "path": "/vedic-philosophy/dharma/concept-24"
+          },
+          {
+            "slug": "concept-25",
+            "title": "Concept 25",
+            "path": "/vedic-philosophy/dharma/concept-25"
+          },
+          {
+            "slug": "concept-26",
+            "title": "Concept 26",
+            "path": "/vedic-philosophy/dharma/concept-26"
+          },
+          {
+            "slug": "concept-27",
+            "title": "Concept 27",
+            "path": "/vedic-philosophy/dharma/concept-27"
+          },
+          {
+            "slug": "concept-28",
+            "title": "Concept 28",
+            "path": "/vedic-philosophy/dharma/concept-28"
+          },
+          {
+            "slug": "concept-29",
+            "title": "Concept 29",
+            "path": "/vedic-philosophy/dharma/concept-29"
+          },
+          {
+            "slug": "concept-30",
+            "title": "Concept 30",
+            "path": "/vedic-philosophy/dharma/concept-30"
+          },
+          {
+            "slug": "concept-31",
+            "title": "Concept 31",
+            "path": "/vedic-philosophy/dharma/concept-31"
+          },
+          {
+            "slug": "concept-32",
+            "title": "Concept 32",
+            "path": "/vedic-philosophy/dharma/concept-32"
+          },
+          {
+            "slug": "concept-33",
+            "title": "Concept 33",
+            "path": "/vedic-philosophy/dharma/concept-33"
+          },
+          {
+            "slug": "concept-34",
+            "title": "Concept 34",
+            "path": "/vedic-philosophy/dharma/concept-34"
+          },
+          {
+            "slug": "concept-35",
+            "title": "Concept 35",
+            "path": "/vedic-philosophy/dharma/concept-35"
+          },
+          {
+            "slug": "concept-36",
+            "title": "Concept 36",
+            "path": "/vedic-philosophy/dharma/concept-36"
+          },
+          {
+            "slug": "concept-37",
+            "title": "Concept 37",
+            "path": "/vedic-philosophy/dharma/concept-37"
+          },
+          {
+            "slug": "concept-38",
+            "title": "Concept 38",
+            "path": "/vedic-philosophy/dharma/concept-38"
+          },
+          {
+            "slug": "concept-39",
+            "title": "Concept 39",
+            "path": "/vedic-philosophy/dharma/concept-39"
+          },
+          {
+            "slug": "concept-40",
+            "title": "Concept 40",
+            "path": "/vedic-philosophy/dharma/concept-40"
+          },
+          {
+            "slug": "concept-41",
+            "title": "Concept 41",
+            "path": "/vedic-philosophy/dharma/concept-41"
+          },
+          {
+            "slug": "concept-42",
+            "title": "Concept 42",
+            "path": "/vedic-philosophy/dharma/concept-42"
+          },
+          {
+            "slug": "concept-43",
+            "title": "Concept 43",
+            "path": "/vedic-philosophy/dharma/concept-43"
+          },
+          {
+            "slug": "concept-44",
+            "title": "Concept 44",
+            "path": "/vedic-philosophy/dharma/concept-44"
+          },
+          {
+            "slug": "concept-45",
+            "title": "Concept 45",
+            "path": "/vedic-philosophy/dharma/concept-45"
+          },
+          {
+            "slug": "concept-46",
+            "title": "Concept 46",
+            "path": "/vedic-philosophy/dharma/concept-46"
+          },
+          {
+            "slug": "concept-47",
+            "title": "Concept 47",
+            "path": "/vedic-philosophy/dharma/concept-47"
+          },
+          {
+            "slug": "concept-48",
+            "title": "Concept 48",
+            "path": "/vedic-philosophy/dharma/concept-48"
+          },
+          {
+            "slug": "concept-49",
+            "title": "Concept 49",
+            "path": "/vedic-philosophy/dharma/concept-49"
+          },
+          {
+            "slug": "concept-50",
+            "title": "Concept 50",
+            "path": "/vedic-philosophy/dharma/concept-50"
+          },
+          {
+            "slug": "concept-51",
+            "title": "Concept 51",
+            "path": "/vedic-philosophy/dharma/concept-51"
+          },
+          {
+            "slug": "concept-52",
+            "title": "Concept 52",
+            "path": "/vedic-philosophy/dharma/concept-52"
+          },
+          {
+            "slug": "concept-53",
+            "title": "Concept 53",
+            "path": "/vedic-philosophy/dharma/concept-53"
+          },
+          {
+            "slug": "concept-54",
+            "title": "Concept 54",
+            "path": "/vedic-philosophy/dharma/concept-54"
+          },
+          {
+            "slug": "concept-55",
+            "title": "Concept 55",
+            "path": "/vedic-philosophy/dharma/concept-55"
+          },
+          {
+            "slug": "concept-56",
+            "title": "Concept 56",
+            "path": "/vedic-philosophy/dharma/concept-56"
+          },
+          {
+            "slug": "concept-57",
+            "title": "Concept 57",
+            "path": "/vedic-philosophy/dharma/concept-57"
+          },
+          {
+            "slug": "concept-58",
+            "title": "Concept 58",
+            "path": "/vedic-philosophy/dharma/concept-58"
+          },
+          {
+            "slug": "concept-59",
+            "title": "Concept 59",
+            "path": "/vedic-philosophy/dharma/concept-59"
+          },
+          {
+            "slug": "concept-60",
+            "title": "Concept 60",
+            "path": "/vedic-philosophy/dharma/concept-60"
+          },
+          {
+            "slug": "concept-61",
+            "title": "Concept 61",
+            "path": "/vedic-philosophy/dharma/concept-61"
+          },
+          {
+            "slug": "concept-62",
+            "title": "Concept 62",
+            "path": "/vedic-philosophy/dharma/concept-62"
+          },
+          {
+            "slug": "concept-63",
+            "title": "Concept 63",
+            "path": "/vedic-philosophy/dharma/concept-63"
+          },
+          {
+            "slug": "concept-64",
+            "title": "Concept 64",
+            "path": "/vedic-philosophy/dharma/concept-64"
+          },
+          {
+            "slug": "concept-65",
+            "title": "Concept 65",
+            "path": "/vedic-philosophy/dharma/concept-65"
+          },
+          {
+            "slug": "concept-66",
+            "title": "Concept 66",
+            "path": "/vedic-philosophy/dharma/concept-66"
+          },
+          {
+            "slug": "concept-67",
+            "title": "Concept 67",
+            "path": "/vedic-philosophy/dharma/concept-67"
+          },
+          {
+            "slug": "concept-68",
+            "title": "Concept 68",
+            "path": "/vedic-philosophy/dharma/concept-68"
+          },
+          {
+            "slug": "concept-69",
+            "title": "Concept 69",
+            "path": "/vedic-philosophy/dharma/concept-69"
+          },
+          {
+            "slug": "concept-70",
+            "title": "Concept 70",
+            "path": "/vedic-philosophy/dharma/concept-70"
+          },
+          {
+            "slug": "concept-71",
+            "title": "Concept 71",
+            "path": "/vedic-philosophy/dharma/concept-71"
+          },
+          {
+            "slug": "concept-72",
+            "title": "Concept 72",
+            "path": "/vedic-philosophy/dharma/concept-72"
+          },
+          {
+            "slug": "concept-73",
+            "title": "Concept 73",
+            "path": "/vedic-philosophy/dharma/concept-73"
+          },
+          {
+            "slug": "concept-74",
+            "title": "Concept 74",
+            "path": "/vedic-philosophy/dharma/concept-74"
+          },
+          {
+            "slug": "concept-75",
+            "title": "Concept 75",
+            "path": "/vedic-philosophy/dharma/concept-75"
+          },
+          {
+            "slug": "concept-76",
+            "title": "Concept 76",
+            "path": "/vedic-philosophy/dharma/concept-76"
+          },
+          {
+            "slug": "concept-77",
+            "title": "Concept 77",
+            "path": "/vedic-philosophy/dharma/concept-77"
+          },
+          {
+            "slug": "concept-78",
+            "title": "Concept 78",
+            "path": "/vedic-philosophy/dharma/concept-78"
+          },
+          {
+            "slug": "concept-79",
+            "title": "Concept 79",
+            "path": "/vedic-philosophy/dharma/concept-79"
+          },
+          {
+            "slug": "concept-80",
+            "title": "Concept 80",
+            "path": "/vedic-philosophy/dharma/concept-80"
+          },
+          {
+            "slug": "concept-81",
+            "title": "Concept 81",
+            "path": "/vedic-philosophy/dharma/concept-81"
+          },
+          {
+            "slug": "concept-82",
+            "title": "Concept 82",
+            "path": "/vedic-philosophy/dharma/concept-82"
+          },
+          {
+            "slug": "concept-83",
+            "title": "Concept 83",
+            "path": "/vedic-philosophy/dharma/concept-83"
+          },
+          {
+            "slug": "concept-84",
+            "title": "Concept 84",
+            "path": "/vedic-philosophy/dharma/concept-84"
+          },
+          {
+            "slug": "concept-85",
+            "title": "Concept 85",
+            "path": "/vedic-philosophy/dharma/concept-85"
+          }
+        ]
+      },
+      {
+        "slug": "karma",
+        "title": "Karma",
+        "description": "Karma as a core branch of Vedic Philosophy.",
+        "path": "/vedic-philosophy/karma",
+        "total_subtopics": 88,
+        "subtopics": [
+          {
+            "slug": "types",
+            "title": "Types",
+            "path": "/vedic-philosophy/karma/types"
+          },
+          {
+            "slug": "law-of-cause-effect",
+            "title": "Law Of Cause Effect",
+            "path": "/vedic-philosophy/karma/law-of-cause-effect"
+          },
+          {
+            "slug": "prarabdha",
+            "title": "Prarabdha",
+            "path": "/vedic-philosophy/karma/prarabdha"
+          },
+          {
+            "slug": "concept-1",
+            "title": "Concept 1",
+            "path": "/vedic-philosophy/karma/concept-1"
+          },
+          {
+            "slug": "concept-2",
+            "title": "Concept 2",
+            "path": "/vedic-philosophy/karma/concept-2"
+          },
+          {
+            "slug": "concept-3",
+            "title": "Concept 3",
+            "path": "/vedic-philosophy/karma/concept-3"
+          },
+          {
+            "slug": "concept-4",
+            "title": "Concept 4",
+            "path": "/vedic-philosophy/karma/concept-4"
+          },
+          {
+            "slug": "concept-5",
+            "title": "Concept 5",
+            "path": "/vedic-philosophy/karma/concept-5"
+          },
+          {
+            "slug": "concept-6",
+            "title": "Concept 6",
+            "path": "/vedic-philosophy/karma/concept-6"
+          },
+          {
+            "slug": "concept-7",
+            "title": "Concept 7",
+            "path": "/vedic-philosophy/karma/concept-7"
+          },
+          {
+            "slug": "concept-8",
+            "title": "Concept 8",
+            "path": "/vedic-philosophy/karma/concept-8"
+          },
+          {
+            "slug": "concept-9",
+            "title": "Concept 9",
+            "path": "/vedic-philosophy/karma/concept-9"
+          },
+          {
+            "slug": "concept-10",
+            "title": "Concept 10",
+            "path": "/vedic-philosophy/karma/concept-10"
+          },
+          {
+            "slug": "concept-11",
+            "title": "Concept 11",
+            "path": "/vedic-philosophy/karma/concept-11"
+          },
+          {
+            "slug": "concept-12",
+            "title": "Concept 12",
+            "path": "/vedic-philosophy/karma/concept-12"
+          },
+          {
+            "slug": "concept-13",
+            "title": "Concept 13",
+            "path": "/vedic-philosophy/karma/concept-13"
+          },
+          {
+            "slug": "concept-14",
+            "title": "Concept 14",
+            "path": "/vedic-philosophy/karma/concept-14"
+          },
+          {
+            "slug": "concept-15",
+            "title": "Concept 15",
+            "path": "/vedic-philosophy/karma/concept-15"
+          },
+          {
+            "slug": "concept-16",
+            "title": "Concept 16",
+            "path": "/vedic-philosophy/karma/concept-16"
+          },
+          {
+            "slug": "concept-17",
+            "title": "Concept 17",
+            "path": "/vedic-philosophy/karma/concept-17"
+          },
+          {
+            "slug": "concept-18",
+            "title": "Concept 18",
+            "path": "/vedic-philosophy/karma/concept-18"
+          },
+          {
+            "slug": "concept-19",
+            "title": "Concept 19",
+            "path": "/vedic-philosophy/karma/concept-19"
+          },
+          {
+            "slug": "concept-20",
+            "title": "Concept 20",
+            "path": "/vedic-philosophy/karma/concept-20"
+          },
+          {
+            "slug": "concept-21",
+            "title": "Concept 21",
+            "path": "/vedic-philosophy/karma/concept-21"
+          },
+          {
+            "slug": "concept-22",
+            "title": "Concept 22",
+            "path": "/vedic-philosophy/karma/concept-22"
+          },
+          {
+            "slug": "concept-23",
+            "title": "Concept 23",
+            "path": "/vedic-philosophy/karma/concept-23"
+          },
+          {
+            "slug": "concept-24",
+            "title": "Concept 24",
+            "path": "/vedic-philosophy/karma/concept-24"
+          },
+          {
+            "slug": "concept-25",
+            "title": "Concept 25",
+            "path": "/vedic-philosophy/karma/concept-25"
+          },
+          {
+            "slug": "concept-26",
+            "title": "Concept 26",
+            "path": "/vedic-philosophy/karma/concept-26"
+          },
+          {
+            "slug": "concept-27",
+            "title": "Concept 27",
+            "path": "/vedic-philosophy/karma/concept-27"
+          },
+          {
+            "slug": "concept-28",
+            "title": "Concept 28",
+            "path": "/vedic-philosophy/karma/concept-28"
+          },
+          {
+            "slug": "concept-29",
+            "title": "Concept 29",
+            "path": "/vedic-philosophy/karma/concept-29"
+          },
+          {
+            "slug": "concept-30",
+            "title": "Concept 30",
+            "path": "/vedic-philosophy/karma/concept-30"
+          },
+          {
+            "slug": "concept-31",
+            "title": "Concept 31",
+            "path": "/vedic-philosophy/karma/concept-31"
+          },
+          {
+            "slug": "concept-32",
+            "title": "Concept 32",
+            "path": "/vedic-philosophy/karma/concept-32"
+          },
+          {
+            "slug": "concept-33",
+            "title": "Concept 33",
+            "path": "/vedic-philosophy/karma/concept-33"
+          },
+          {
+            "slug": "concept-34",
+            "title": "Concept 34",
+            "path": "/vedic-philosophy/karma/concept-34"
+          },
+          {
+            "slug": "concept-35",
+            "title": "Concept 35",
+            "path": "/vedic-philosophy/karma/concept-35"
+          },
+          {
+            "slug": "concept-36",
+            "title": "Concept 36",
+            "path": "/vedic-philosophy/karma/concept-36"
+          },
+          {
+            "slug": "concept-37",
+            "title": "Concept 37",
+            "path": "/vedic-philosophy/karma/concept-37"
+          },
+          {
+            "slug": "concept-38",
+            "title": "Concept 38",
+            "path": "/vedic-philosophy/karma/concept-38"
+          },
+          {
+            "slug": "concept-39",
+            "title": "Concept 39",
+            "path": "/vedic-philosophy/karma/concept-39"
+          },
+          {
+            "slug": "concept-40",
+            "title": "Concept 40",
+            "path": "/vedic-philosophy/karma/concept-40"
+          },
+          {
+            "slug": "concept-41",
+            "title": "Concept 41",
+            "path": "/vedic-philosophy/karma/concept-41"
+          },
+          {
+            "slug": "concept-42",
+            "title": "Concept 42",
+            "path": "/vedic-philosophy/karma/concept-42"
+          },
+          {
+            "slug": "concept-43",
+            "title": "Concept 43",
+            "path": "/vedic-philosophy/karma/concept-43"
+          },
+          {
+            "slug": "concept-44",
+            "title": "Concept 44",
+            "path": "/vedic-philosophy/karma/concept-44"
+          },
+          {
+            "slug": "concept-45",
+            "title": "Concept 45",
+            "path": "/vedic-philosophy/karma/concept-45"
+          },
+          {
+            "slug": "concept-46",
+            "title": "Concept 46",
+            "path": "/vedic-philosophy/karma/concept-46"
+          },
+          {
+            "slug": "concept-47",
+            "title": "Concept 47",
+            "path": "/vedic-philosophy/karma/concept-47"
+          },
+          {
+            "slug": "concept-48",
+            "title": "Concept 48",
+            "path": "/vedic-philosophy/karma/concept-48"
+          },
+          {
+            "slug": "concept-49",
+            "title": "Concept 49",
+            "path": "/vedic-philosophy/karma/concept-49"
+          },
+          {
+            "slug": "concept-50",
+            "title": "Concept 50",
+            "path": "/vedic-philosophy/karma/concept-50"
+          },
+          {
+            "slug": "concept-51",
+            "title": "Concept 51",
+            "path": "/vedic-philosophy/karma/concept-51"
+          },
+          {
+            "slug": "concept-52",
+            "title": "Concept 52",
+            "path": "/vedic-philosophy/karma/concept-52"
+          },
+          {
+            "slug": "concept-53",
+            "title": "Concept 53",
+            "path": "/vedic-philosophy/karma/concept-53"
+          },
+          {
+            "slug": "concept-54",
+            "title": "Concept 54",
+            "path": "/vedic-philosophy/karma/concept-54"
+          },
+          {
+            "slug": "concept-55",
+            "title": "Concept 55",
+            "path": "/vedic-philosophy/karma/concept-55"
+          },
+          {
+            "slug": "concept-56",
+            "title": "Concept 56",
+            "path": "/vedic-philosophy/karma/concept-56"
+          },
+          {
+            "slug": "concept-57",
+            "title": "Concept 57",
+            "path": "/vedic-philosophy/karma/concept-57"
+          },
+          {
+            "slug": "concept-58",
+            "title": "Concept 58",
+            "path": "/vedic-philosophy/karma/concept-58"
+          },
+          {
+            "slug": "concept-59",
+            "title": "Concept 59",
+            "path": "/vedic-philosophy/karma/concept-59"
+          },
+          {
+            "slug": "concept-60",
+            "title": "Concept 60",
+            "path": "/vedic-philosophy/karma/concept-60"
+          },
+          {
+            "slug": "concept-61",
+            "title": "Concept 61",
+            "path": "/vedic-philosophy/karma/concept-61"
+          },
+          {
+            "slug": "concept-62",
+            "title": "Concept 62",
+            "path": "/vedic-philosophy/karma/concept-62"
+          },
+          {
+            "slug": "concept-63",
+            "title": "Concept 63",
+            "path": "/vedic-philosophy/karma/concept-63"
+          },
+          {
+            "slug": "concept-64",
+            "title": "Concept 64",
+            "path": "/vedic-philosophy/karma/concept-64"
+          },
+          {
+            "slug": "concept-65",
+            "title": "Concept 65",
+            "path": "/vedic-philosophy/karma/concept-65"
+          },
+          {
+            "slug": "concept-66",
+            "title": "Concept 66",
+            "path": "/vedic-philosophy/karma/concept-66"
+          },
+          {
+            "slug": "concept-67",
+            "title": "Concept 67",
+            "path": "/vedic-philosophy/karma/concept-67"
+          },
+          {
+            "slug": "concept-68",
+            "title": "Concept 68",
+            "path": "/vedic-philosophy/karma/concept-68"
+          },
+          {
+            "slug": "concept-69",
+            "title": "Concept 69",
+            "path": "/vedic-philosophy/karma/concept-69"
+          },
+          {
+            "slug": "concept-70",
+            "title": "Concept 70",
+            "path": "/vedic-philosophy/karma/concept-70"
+          },
+          {
+            "slug": "concept-71",
+            "title": "Concept 71",
+            "path": "/vedic-philosophy/karma/concept-71"
+          },
+          {
+            "slug": "concept-72",
+            "title": "Concept 72",
+            "path": "/vedic-philosophy/karma/concept-72"
+          },
+          {
+            "slug": "concept-73",
+            "title": "Concept 73",
+            "path": "/vedic-philosophy/karma/concept-73"
+          },
+          {
+            "slug": "concept-74",
+            "title": "Concept 74",
+            "path": "/vedic-philosophy/karma/concept-74"
+          },
+          {
+            "slug": "concept-75",
+            "title": "Concept 75",
+            "path": "/vedic-philosophy/karma/concept-75"
+          },
+          {
+            "slug": "concept-76",
+            "title": "Concept 76",
+            "path": "/vedic-philosophy/karma/concept-76"
+          },
+          {
+            "slug": "concept-77",
+            "title": "Concept 77",
+            "path": "/vedic-philosophy/karma/concept-77"
+          },
+          {
+            "slug": "concept-78",
+            "title": "Concept 78",
+            "path": "/vedic-philosophy/karma/concept-78"
+          },
+          {
+            "slug": "concept-79",
+            "title": "Concept 79",
+            "path": "/vedic-philosophy/karma/concept-79"
+          },
+          {
+            "slug": "concept-80",
+            "title": "Concept 80",
+            "path": "/vedic-philosophy/karma/concept-80"
+          },
+          {
+            "slug": "concept-81",
+            "title": "Concept 81",
+            "path": "/vedic-philosophy/karma/concept-81"
+          },
+          {
+            "slug": "concept-82",
+            "title": "Concept 82",
+            "path": "/vedic-philosophy/karma/concept-82"
+          },
+          {
+            "slug": "concept-83",
+            "title": "Concept 83",
+            "path": "/vedic-philosophy/karma/concept-83"
+          },
+          {
+            "slug": "concept-84",
+            "title": "Concept 84",
+            "path": "/vedic-philosophy/karma/concept-84"
+          },
+          {
+            "slug": "concept-85",
+            "title": "Concept 85",
+            "path": "/vedic-philosophy/karma/concept-85"
+          }
+        ]
+      },
+      {
+        "slug": "moksha",
+        "title": "Moksha",
+        "description": "Moksha as a core branch of Vedic Philosophy.",
+        "path": "/vedic-philosophy/moksha",
+        "total_subtopics": 88,
+        "subtopics": [
+          {
+            "slug": "jivanmukti",
+            "title": "Jivanmukti",
+            "path": "/vedic-philosophy/moksha/jivanmukti"
+          },
+          {
+            "slug": "concept-1",
+            "title": "Concept 1",
+            "path": "/vedic-philosophy/moksha/concept-1"
+          },
+          {
+            "slug": "concept-2",
+            "title": "Concept 2",
+            "path": "/vedic-philosophy/moksha/concept-2"
+          },
+          {
+            "slug": "concept-3",
+            "title": "Concept 3",
+            "path": "/vedic-philosophy/moksha/concept-3"
+          },
+          {
+            "slug": "concept-4",
+            "title": "Concept 4",
+            "path": "/vedic-philosophy/moksha/concept-4"
+          },
+          {
+            "slug": "concept-5",
+            "title": "Concept 5",
+            "path": "/vedic-philosophy/moksha/concept-5"
+          },
+          {
+            "slug": "concept-6",
+            "title": "Concept 6",
+            "path": "/vedic-philosophy/moksha/concept-6"
+          },
+          {
+            "slug": "concept-7",
+            "title": "Concept 7",
+            "path": "/vedic-philosophy/moksha/concept-7"
+          },
+          {
+            "slug": "concept-8",
+            "title": "Concept 8",
+            "path": "/vedic-philosophy/moksha/concept-8"
+          },
+          {
+            "slug": "concept-9",
+            "title": "Concept 9",
+            "path": "/vedic-philosophy/moksha/concept-9"
+          },
+          {
+            "slug": "concept-10",
+            "title": "Concept 10",
+            "path": "/vedic-philosophy/moksha/concept-10"
+          },
+          {
+            "slug": "concept-11",
+            "title": "Concept 11",
+            "path": "/vedic-philosophy/moksha/concept-11"
+          },
+          {
+            "slug": "concept-12",
+            "title": "Concept 12",
+            "path": "/vedic-philosophy/moksha/concept-12"
+          },
+          {
+            "slug": "concept-13",
+            "title": "Concept 13",
+            "path": "/vedic-philosophy/moksha/concept-13"
+          },
+          {
+            "slug": "concept-14",
+            "title": "Concept 14",
+            "path": "/vedic-philosophy/moksha/concept-14"
+          },
+          {
+            "slug": "concept-15",
+            "title": "Concept 15",
+            "path": "/vedic-philosophy/moksha/concept-15"
+          },
+          {
+            "slug": "concept-16",
+            "title": "Concept 16",
+            "path": "/vedic-philosophy/moksha/concept-16"
+          },
+          {
+            "slug": "concept-17",
+            "title": "Concept 17",
+            "path": "/vedic-philosophy/moksha/concept-17"
+          },
+          {
+            "slug": "concept-18",
+            "title": "Concept 18",
+            "path": "/vedic-philosophy/moksha/concept-18"
+          },
+          {
+            "slug": "concept-19",
+            "title": "Concept 19",
+            "path": "/vedic-philosophy/moksha/concept-19"
+          },
+          {
+            "slug": "concept-20",
+            "title": "Concept 20",
+            "path": "/vedic-philosophy/moksha/concept-20"
+          },
+          {
+            "slug": "concept-21",
+            "title": "Concept 21",
+            "path": "/vedic-philosophy/moksha/concept-21"
+          },
+          {
+            "slug": "concept-22",
+            "title": "Concept 22",
+            "path": "/vedic-philosophy/moksha/concept-22"
+          },
+          {
+            "slug": "concept-23",
+            "title": "Concept 23",
+            "path": "/vedic-philosophy/moksha/concept-23"
+          },
+          {
+            "slug": "concept-24",
+            "title": "Concept 24",
+            "path": "/vedic-philosophy/moksha/concept-24"
+          },
+          {
+            "slug": "concept-25",
+            "title": "Concept 25",
+            "path": "/vedic-philosophy/moksha/concept-25"
+          },
+          {
+            "slug": "concept-26",
+            "title": "Concept 26",
+            "path": "/vedic-philosophy/moksha/concept-26"
+          },
+          {
+            "slug": "concept-27",
+            "title": "Concept 27",
+            "path": "/vedic-philosophy/moksha/concept-27"
+          },
+          {
+            "slug": "concept-28",
+            "title": "Concept 28",
+            "path": "/vedic-philosophy/moksha/concept-28"
+          },
+          {
+            "slug": "concept-29",
+            "title": "Concept 29",
+            "path": "/vedic-philosophy/moksha/concept-29"
+          },
+          {
+            "slug": "concept-30",
+            "title": "Concept 30",
+            "path": "/vedic-philosophy/moksha/concept-30"
+          },
+          {
+            "slug": "concept-31",
+            "title": "Concept 31",
+            "path": "/vedic-philosophy/moksha/concept-31"
+          },
+          {
+            "slug": "concept-32",
+            "title": "Concept 32",
+            "path": "/vedic-philosophy/moksha/concept-32"
+          },
+          {
+            "slug": "concept-33",
+            "title": "Concept 33",
+            "path": "/vedic-philosophy/moksha/concept-33"
+          },
+          {
+            "slug": "concept-34",
+            "title": "Concept 34",
+            "path": "/vedic-philosophy/moksha/concept-34"
+          },
+          {
+            "slug": "concept-35",
+            "title": "Concept 35",
+            "path": "/vedic-philosophy/moksha/concept-35"
+          },
+          {
+            "slug": "concept-36",
+            "title": "Concept 36",
+            "path": "/vedic-philosophy/moksha/concept-36"
+          },
+          {
+            "slug": "concept-37",
+            "title": "Concept 37",
+            "path": "/vedic-philosophy/moksha/concept-37"
+          },
+          {
+            "slug": "concept-38",
+            "title": "Concept 38",
+            "path": "/vedic-philosophy/moksha/concept-38"
+          },
+          {
+            "slug": "concept-39",
+            "title": "Concept 39",
+            "path": "/vedic-philosophy/moksha/concept-39"
+          },
+          {
+            "slug": "concept-40",
+            "title": "Concept 40",
+            "path": "/vedic-philosophy/moksha/concept-40"
+          },
+          {
+            "slug": "concept-41",
+            "title": "Concept 41",
+            "path": "/vedic-philosophy/moksha/concept-41"
+          },
+          {
+            "slug": "concept-42",
+            "title": "Concept 42",
+            "path": "/vedic-philosophy/moksha/concept-42"
+          },
+          {
+            "slug": "concept-43",
+            "title": "Concept 43",
+            "path": "/vedic-philosophy/moksha/concept-43"
+          },
+          {
+            "slug": "concept-44",
+            "title": "Concept 44",
+            "path": "/vedic-philosophy/moksha/concept-44"
+          },
+          {
+            "slug": "concept-45",
+            "title": "Concept 45",
+            "path": "/vedic-philosophy/moksha/concept-45"
+          },
+          {
+            "slug": "concept-46",
+            "title": "Concept 46",
+            "path": "/vedic-philosophy/moksha/concept-46"
+          },
+          {
+            "slug": "concept-47",
+            "title": "Concept 47",
+            "path": "/vedic-philosophy/moksha/concept-47"
+          },
+          {
+            "slug": "concept-48",
+            "title": "Concept 48",
+            "path": "/vedic-philosophy/moksha/concept-48"
+          },
+          {
+            "slug": "concept-49",
+            "title": "Concept 49",
+            "path": "/vedic-philosophy/moksha/concept-49"
+          },
+          {
+            "slug": "concept-50",
+            "title": "Concept 50",
+            "path": "/vedic-philosophy/moksha/concept-50"
+          },
+          {
+            "slug": "concept-51",
+            "title": "Concept 51",
+            "path": "/vedic-philosophy/moksha/concept-51"
+          },
+          {
+            "slug": "concept-52",
+            "title": "Concept 52",
+            "path": "/vedic-philosophy/moksha/concept-52"
+          },
+          {
+            "slug": "concept-53",
+            "title": "Concept 53",
+            "path": "/vedic-philosophy/moksha/concept-53"
+          },
+          {
+            "slug": "concept-54",
+            "title": "Concept 54",
+            "path": "/vedic-philosophy/moksha/concept-54"
+          },
+          {
+            "slug": "concept-55",
+            "title": "Concept 55",
+            "path": "/vedic-philosophy/moksha/concept-55"
+          },
+          {
+            "slug": "concept-56",
+            "title": "Concept 56",
+            "path": "/vedic-philosophy/moksha/concept-56"
+          },
+          {
+            "slug": "concept-57",
+            "title": "Concept 57",
+            "path": "/vedic-philosophy/moksha/concept-57"
+          },
+          {
+            "slug": "concept-58",
+            "title": "Concept 58",
+            "path": "/vedic-philosophy/moksha/concept-58"
+          },
+          {
+            "slug": "concept-59",
+            "title": "Concept 59",
+            "path": "/vedic-philosophy/moksha/concept-59"
+          },
+          {
+            "slug": "concept-60",
+            "title": "Concept 60",
+            "path": "/vedic-philosophy/moksha/concept-60"
+          },
+          {
+            "slug": "concept-61",
+            "title": "Concept 61",
+            "path": "/vedic-philosophy/moksha/concept-61"
+          },
+          {
+            "slug": "concept-62",
+            "title": "Concept 62",
+            "path": "/vedic-philosophy/moksha/concept-62"
+          },
+          {
+            "slug": "concept-63",
+            "title": "Concept 63",
+            "path": "/vedic-philosophy/moksha/concept-63"
+          },
+          {
+            "slug": "concept-64",
+            "title": "Concept 64",
+            "path": "/vedic-philosophy/moksha/concept-64"
+          },
+          {
+            "slug": "concept-65",
+            "title": "Concept 65",
+            "path": "/vedic-philosophy/moksha/concept-65"
+          },
+          {
+            "slug": "concept-66",
+            "title": "Concept 66",
+            "path": "/vedic-philosophy/moksha/concept-66"
+          },
+          {
+            "slug": "concept-67",
+            "title": "Concept 67",
+            "path": "/vedic-philosophy/moksha/concept-67"
+          },
+          {
+            "slug": "concept-68",
+            "title": "Concept 68",
+            "path": "/vedic-philosophy/moksha/concept-68"
+          },
+          {
+            "slug": "concept-69",
+            "title": "Concept 69",
+            "path": "/vedic-philosophy/moksha/concept-69"
+          },
+          {
+            "slug": "concept-70",
+            "title": "Concept 70",
+            "path": "/vedic-philosophy/moksha/concept-70"
+          },
+          {
+            "slug": "concept-71",
+            "title": "Concept 71",
+            "path": "/vedic-philosophy/moksha/concept-71"
+          },
+          {
+            "slug": "concept-72",
+            "title": "Concept 72",
+            "path": "/vedic-philosophy/moksha/concept-72"
+          },
+          {
+            "slug": "concept-73",
+            "title": "Concept 73",
+            "path": "/vedic-philosophy/moksha/concept-73"
+          },
+          {
+            "slug": "concept-74",
+            "title": "Concept 74",
+            "path": "/vedic-philosophy/moksha/concept-74"
+          },
+          {
+            "slug": "concept-75",
+            "title": "Concept 75",
+            "path": "/vedic-philosophy/moksha/concept-75"
+          },
+          {
+            "slug": "concept-76",
+            "title": "Concept 76",
+            "path": "/vedic-philosophy/moksha/concept-76"
+          },
+          {
+            "slug": "concept-77",
+            "title": "Concept 77",
+            "path": "/vedic-philosophy/moksha/concept-77"
+          },
+          {
+            "slug": "concept-78",
+            "title": "Concept 78",
+            "path": "/vedic-philosophy/moksha/concept-78"
+          },
+          {
+            "slug": "concept-79",
+            "title": "Concept 79",
+            "path": "/vedic-philosophy/moksha/concept-79"
+          },
+          {
+            "slug": "concept-80",
+            "title": "Concept 80",
+            "path": "/vedic-philosophy/moksha/concept-80"
+          },
+          {
+            "slug": "concept-81",
+            "title": "Concept 81",
+            "path": "/vedic-philosophy/moksha/concept-81"
+          },
+          {
+            "slug": "concept-82",
+            "title": "Concept 82",
+            "path": "/vedic-philosophy/moksha/concept-82"
+          },
+          {
+            "slug": "concept-83",
+            "title": "Concept 83",
+            "path": "/vedic-philosophy/moksha/concept-83"
+          },
+          {
+            "slug": "concept-84",
+            "title": "Concept 84",
+            "path": "/vedic-philosophy/moksha/concept-84"
+          },
+          {
+            "slug": "concept-85",
+            "title": "Concept 85",
+            "path": "/vedic-philosophy/moksha/concept-85"
+          },
+          {
+            "slug": "concept-86",
+            "title": "Concept 86",
+            "path": "/vedic-philosophy/moksha/concept-86"
+          },
+          {
+            "slug": "concept-87",
+            "title": "Concept 87",
+            "path": "/vedic-philosophy/moksha/concept-87"
+          }
+        ]
+      },
+      {
+        "slug": "samsara",
+        "title": "Samsara",
+        "description": "Samsara as a core branch of Vedic Philosophy.",
+        "path": "/vedic-philosophy/samsara",
+        "total_subtopics": 88,
+        "subtopics": [
+          {
+            "slug": "cycle-of-birth-and-death",
+            "title": "Cycle Of Birth And Death",
+            "path": "/vedic-philosophy/samsara/cycle-of-birth-and-death"
+          },
+          {
+            "slug": "concept-1",
+            "title": "Concept 1",
+            "path": "/vedic-philosophy/samsara/concept-1"
+          },
+          {
+            "slug": "concept-2",
+            "title": "Concept 2",
+            "path": "/vedic-philosophy/samsara/concept-2"
+          },
+          {
+            "slug": "concept-3",
+            "title": "Concept 3",
+            "path": "/vedic-philosophy/samsara/concept-3"
+          },
+          {
+            "slug": "concept-4",
+            "title": "Concept 4",
+            "path": "/vedic-philosophy/samsara/concept-4"
+          },
+          {
+            "slug": "concept-5",
+            "title": "Concept 5",
+            "path": "/vedic-philosophy/samsara/concept-5"
+          },
+          {
+            "slug": "concept-6",
+            "title": "Concept 6",
+            "path": "/vedic-philosophy/samsara/concept-6"
+          },
+          {
+            "slug": "concept-7",
+            "title": "Concept 7",
+            "path": "/vedic-philosophy/samsara/concept-7"
+          },
+          {
+            "slug": "concept-8",
+            "title": "Concept 8",
+            "path": "/vedic-philosophy/samsara/concept-8"
+          },
+          {
+            "slug": "concept-9",
+            "title": "Concept 9",
+            "path": "/vedic-philosophy/samsara/concept-9"
+          },
+          {
+            "slug": "concept-10",
+            "title": "Concept 10",
+            "path": "/vedic-philosophy/samsara/concept-10"
+          },
+          {
+            "slug": "concept-11",
+            "title": "Concept 11",
+            "path": "/vedic-philosophy/samsara/concept-11"
+          },
+          {
+            "slug": "concept-12",
+            "title": "Concept 12",
+            "path": "/vedic-philosophy/samsara/concept-12"
+          },
+          {
+            "slug": "concept-13",
+            "title": "Concept 13",
+            "path": "/vedic-philosophy/samsara/concept-13"
+          },
+          {
+            "slug": "concept-14",
+            "title": "Concept 14",
+            "path": "/vedic-philosophy/samsara/concept-14"
+          },
+          {
+            "slug": "concept-15",
+            "title": "Concept 15",
+            "path": "/vedic-philosophy/samsara/concept-15"
+          },
+          {
+            "slug": "concept-16",
+            "title": "Concept 16",
+            "path": "/vedic-philosophy/samsara/concept-16"
+          },
+          {
+            "slug": "concept-17",
+            "title": "Concept 17",
+            "path": "/vedic-philosophy/samsara/concept-17"
+          },
+          {
+            "slug": "concept-18",
+            "title": "Concept 18",
+            "path": "/vedic-philosophy/samsara/concept-18"
+          },
+          {
+            "slug": "concept-19",
+            "title": "Concept 19",
+            "path": "/vedic-philosophy/samsara/concept-19"
+          },
+          {
+            "slug": "concept-20",
+            "title": "Concept 20",
+            "path": "/vedic-philosophy/samsara/concept-20"
+          },
+          {
+            "slug": "concept-21",
+            "title": "Concept 21",
+            "path": "/vedic-philosophy/samsara/concept-21"
+          },
+          {
+            "slug": "concept-22",
+            "title": "Concept 22",
+            "path": "/vedic-philosophy/samsara/concept-22"
+          },
+          {
+            "slug": "concept-23",
+            "title": "Concept 23",
+            "path": "/vedic-philosophy/samsara/concept-23"
+          },
+          {
+            "slug": "concept-24",
+            "title": "Concept 24",
+            "path": "/vedic-philosophy/samsara/concept-24"
+          },
+          {
+            "slug": "concept-25",
+            "title": "Concept 25",
+            "path": "/vedic-philosophy/samsara/concept-25"
+          },
+          {
+            "slug": "concept-26",
+            "title": "Concept 26",
+            "path": "/vedic-philosophy/samsara/concept-26"
+          },
+          {
+            "slug": "concept-27",
+            "title": "Concept 27",
+            "path": "/vedic-philosophy/samsara/concept-27"
+          },
+          {
+            "slug": "concept-28",
+            "title": "Concept 28",
+            "path": "/vedic-philosophy/samsara/concept-28"
+          },
+          {
+            "slug": "concept-29",
+            "title": "Concept 29",
+            "path": "/vedic-philosophy/samsara/concept-29"
+          },
+          {
+            "slug": "concept-30",
+            "title": "Concept 30",
+            "path": "/vedic-philosophy/samsara/concept-30"
+          },
+          {
+            "slug": "concept-31",
+            "title": "Concept 31",
+            "path": "/vedic-philosophy/samsara/concept-31"
+          },
+          {
+            "slug": "concept-32",
+            "title": "Concept 32",
+            "path": "/vedic-philosophy/samsara/concept-32"
+          },
+          {
+            "slug": "concept-33",
+            "title": "Concept 33",
+            "path": "/vedic-philosophy/samsara/concept-33"
+          },
+          {
+            "slug": "concept-34",
+            "title": "Concept 34",
+            "path": "/vedic-philosophy/samsara/concept-34"
+          },
+          {
+            "slug": "concept-35",
+            "title": "Concept 35",
+            "path": "/vedic-philosophy/samsara/concept-35"
+          },
+          {
+            "slug": "concept-36",
+            "title": "Concept 36",
+            "path": "/vedic-philosophy/samsara/concept-36"
+          },
+          {
+            "slug": "concept-37",
+            "title": "Concept 37",
+            "path": "/vedic-philosophy/samsara/concept-37"
+          },
+          {
+            "slug": "concept-38",
+            "title": "Concept 38",
+            "path": "/vedic-philosophy/samsara/concept-38"
+          },
+          {
+            "slug": "concept-39",
+            "title": "Concept 39",
+            "path": "/vedic-philosophy/samsara/concept-39"
+          },
+          {
+            "slug": "concept-40",
+            "title": "Concept 40",
+            "path": "/vedic-philosophy/samsara/concept-40"
+          },
+          {
+            "slug": "concept-41",
+            "title": "Concept 41",
+            "path": "/vedic-philosophy/samsara/concept-41"
+          },
+          {
+            "slug": "concept-42",
+            "title": "Concept 42",
+            "path": "/vedic-philosophy/samsara/concept-42"
+          },
+          {
+            "slug": "concept-43",
+            "title": "Concept 43",
+            "path": "/vedic-philosophy/samsara/concept-43"
+          },
+          {
+            "slug": "concept-44",
+            "title": "Concept 44",
+            "path": "/vedic-philosophy/samsara/concept-44"
+          },
+          {
+            "slug": "concept-45",
+            "title": "Concept 45",
+            "path": "/vedic-philosophy/samsara/concept-45"
+          },
+          {
+            "slug": "concept-46",
+            "title": "Concept 46",
+            "path": "/vedic-philosophy/samsara/concept-46"
+          },
+          {
+            "slug": "concept-47",
+            "title": "Concept 47",
+            "path": "/vedic-philosophy/samsara/concept-47"
+          },
+          {
+            "slug": "concept-48",
+            "title": "Concept 48",
+            "path": "/vedic-philosophy/samsara/concept-48"
+          },
+          {
+            "slug": "concept-49",
+            "title": "Concept 49",
+            "path": "/vedic-philosophy/samsara/concept-49"
+          },
+          {
+            "slug": "concept-50",
+            "title": "Concept 50",
+            "path": "/vedic-philosophy/samsara/concept-50"
+          },
+          {
+            "slug": "concept-51",
+            "title": "Concept 51",
+            "path": "/vedic-philosophy/samsara/concept-51"
+          },
+          {
+            "slug": "concept-52",
+            "title": "Concept 52",
+            "path": "/vedic-philosophy/samsara/concept-52"
+          },
+          {
+            "slug": "concept-53",
+            "title": "Concept 53",
+            "path": "/vedic-philosophy/samsara/concept-53"
+          },
+          {
+            "slug": "concept-54",
+            "title": "Concept 54",
+            "path": "/vedic-philosophy/samsara/concept-54"
+          },
+          {
+            "slug": "concept-55",
+            "title": "Concept 55",
+            "path": "/vedic-philosophy/samsara/concept-55"
+          },
+          {
+            "slug": "concept-56",
+            "title": "Concept 56",
+            "path": "/vedic-philosophy/samsara/concept-56"
+          },
+          {
+            "slug": "concept-57",
+            "title": "Concept 57",
+            "path": "/vedic-philosophy/samsara/concept-57"
+          },
+          {
+            "slug": "concept-58",
+            "title": "Concept 58",
+            "path": "/vedic-philosophy/samsara/concept-58"
+          },
+          {
+            "slug": "concept-59",
+            "title": "Concept 59",
+            "path": "/vedic-philosophy/samsara/concept-59"
+          },
+          {
+            "slug": "concept-60",
+            "title": "Concept 60",
+            "path": "/vedic-philosophy/samsara/concept-60"
+          },
+          {
+            "slug": "concept-61",
+            "title": "Concept 61",
+            "path": "/vedic-philosophy/samsara/concept-61"
+          },
+          {
+            "slug": "concept-62",
+            "title": "Concept 62",
+            "path": "/vedic-philosophy/samsara/concept-62"
+          },
+          {
+            "slug": "concept-63",
+            "title": "Concept 63",
+            "path": "/vedic-philosophy/samsara/concept-63"
+          },
+          {
+            "slug": "concept-64",
+            "title": "Concept 64",
+            "path": "/vedic-philosophy/samsara/concept-64"
+          },
+          {
+            "slug": "concept-65",
+            "title": "Concept 65",
+            "path": "/vedic-philosophy/samsara/concept-65"
+          },
+          {
+            "slug": "concept-66",
+            "title": "Concept 66",
+            "path": "/vedic-philosophy/samsara/concept-66"
+          },
+          {
+            "slug": "concept-67",
+            "title": "Concept 67",
+            "path": "/vedic-philosophy/samsara/concept-67"
+          },
+          {
+            "slug": "concept-68",
+            "title": "Concept 68",
+            "path": "/vedic-philosophy/samsara/concept-68"
+          },
+          {
+            "slug": "concept-69",
+            "title": "Concept 69",
+            "path": "/vedic-philosophy/samsara/concept-69"
+          },
+          {
+            "slug": "concept-70",
+            "title": "Concept 70",
+            "path": "/vedic-philosophy/samsara/concept-70"
+          },
+          {
+            "slug": "concept-71",
+            "title": "Concept 71",
+            "path": "/vedic-philosophy/samsara/concept-71"
+          },
+          {
+            "slug": "concept-72",
+            "title": "Concept 72",
+            "path": "/vedic-philosophy/samsara/concept-72"
+          },
+          {
+            "slug": "concept-73",
+            "title": "Concept 73",
+            "path": "/vedic-philosophy/samsara/concept-73"
+          },
+          {
+            "slug": "concept-74",
+            "title": "Concept 74",
+            "path": "/vedic-philosophy/samsara/concept-74"
+          },
+          {
+            "slug": "concept-75",
+            "title": "Concept 75",
+            "path": "/vedic-philosophy/samsara/concept-75"
+          },
+          {
+            "slug": "concept-76",
+            "title": "Concept 76",
+            "path": "/vedic-philosophy/samsara/concept-76"
+          },
+          {
+            "slug": "concept-77",
+            "title": "Concept 77",
+            "path": "/vedic-philosophy/samsara/concept-77"
+          },
+          {
+            "slug": "concept-78",
+            "title": "Concept 78",
+            "path": "/vedic-philosophy/samsara/concept-78"
+          },
+          {
+            "slug": "concept-79",
+            "title": "Concept 79",
+            "path": "/vedic-philosophy/samsara/concept-79"
+          },
+          {
+            "slug": "concept-80",
+            "title": "Concept 80",
+            "path": "/vedic-philosophy/samsara/concept-80"
+          },
+          {
+            "slug": "concept-81",
+            "title": "Concept 81",
+            "path": "/vedic-philosophy/samsara/concept-81"
+          },
+          {
+            "slug": "concept-82",
+            "title": "Concept 82",
+            "path": "/vedic-philosophy/samsara/concept-82"
+          },
+          {
+            "slug": "concept-83",
+            "title": "Concept 83",
+            "path": "/vedic-philosophy/samsara/concept-83"
+          },
+          {
+            "slug": "concept-84",
+            "title": "Concept 84",
+            "path": "/vedic-philosophy/samsara/concept-84"
+          },
+          {
+            "slug": "concept-85",
+            "title": "Concept 85",
+            "path": "/vedic-philosophy/samsara/concept-85"
+          },
+          {
+            "slug": "concept-86",
+            "title": "Concept 86",
+            "path": "/vedic-philosophy/samsara/concept-86"
+          },
+          {
+            "slug": "concept-87",
+            "title": "Concept 87",
+            "path": "/vedic-philosophy/samsara/concept-87"
+          }
+        ]
+      },
+      {
+        "slug": "purushartha",
+        "title": "Purushartha",
+        "description": "Purushartha as a core branch of Vedic Philosophy.",
+        "path": "/vedic-philosophy/purushartha",
+        "total_subtopics": 87,
+        "subtopics": [
+          {
+            "slug": "dharma-artha-kama-moksha",
+            "title": "Dharma Artha Kama Moksha",
+            "path": "/vedic-philosophy/purushartha/dharma-artha-kama-moksha"
+          },
+          {
+            "slug": "concept-1",
+            "title": "Concept 1",
+            "path": "/vedic-philosophy/purushartha/concept-1"
+          },
+          {
+            "slug": "concept-2",
+            "title": "Concept 2",
+            "path": "/vedic-philosophy/purushartha/concept-2"
+          },
+          {
+            "slug": "concept-3",
+            "title": "Concept 3",
+            "path": "/vedic-philosophy/purushartha/concept-3"
+          },
+          {
+            "slug": "concept-4",
+            "title": "Concept 4",
+            "path": "/vedic-philosophy/purushartha/concept-4"
+          },
+          {
+            "slug": "concept-5",
+            "title": "Concept 5",
+            "path": "/vedic-philosophy/purushartha/concept-5"
+          },
+          {
+            "slug": "concept-6",
+            "title": "Concept 6",
+            "path": "/vedic-philosophy/purushartha/concept-6"
+          },
+          {
+            "slug": "concept-7",
+            "title": "Concept 7",
+            "path": "/vedic-philosophy/purushartha/concept-7"
+          },
+          {
+            "slug": "concept-8",
+            "title": "Concept 8",
+            "path": "/vedic-philosophy/purushartha/concept-8"
+          },
+          {
+            "slug": "concept-9",
+            "title": "Concept 9",
+            "path": "/vedic-philosophy/purushartha/concept-9"
+          },
+          {
+            "slug": "concept-10",
+            "title": "Concept 10",
+            "path": "/vedic-philosophy/purushartha/concept-10"
+          },
+          {
+            "slug": "concept-11",
+            "title": "Concept 11",
+            "path": "/vedic-philosophy/purushartha/concept-11"
+          },
+          {
+            "slug": "concept-12",
+            "title": "Concept 12",
+            "path": "/vedic-philosophy/purushartha/concept-12"
+          },
+          {
+            "slug": "concept-13",
+            "title": "Concept 13",
+            "path": "/vedic-philosophy/purushartha/concept-13"
+          },
+          {
+            "slug": "concept-14",
+            "title": "Concept 14",
+            "path": "/vedic-philosophy/purushartha/concept-14"
+          },
+          {
+            "slug": "concept-15",
+            "title": "Concept 15",
+            "path": "/vedic-philosophy/purushartha/concept-15"
+          },
+          {
+            "slug": "concept-16",
+            "title": "Concept 16",
+            "path": "/vedic-philosophy/purushartha/concept-16"
+          },
+          {
+            "slug": "concept-17",
+            "title": "Concept 17",
+            "path": "/vedic-philosophy/purushartha/concept-17"
+          },
+          {
+            "slug": "concept-18",
+            "title": "Concept 18",
+            "path": "/vedic-philosophy/purushartha/concept-18"
+          },
+          {
+            "slug": "concept-19",
+            "title": "Concept 19",
+            "path": "/vedic-philosophy/purushartha/concept-19"
+          },
+          {
+            "slug": "concept-20",
+            "title": "Concept 20",
+            "path": "/vedic-philosophy/purushartha/concept-20"
+          },
+          {
+            "slug": "concept-21",
+            "title": "Concept 21",
+            "path": "/vedic-philosophy/purushartha/concept-21"
+          },
+          {
+            "slug": "concept-22",
+            "title": "Concept 22",
+            "path": "/vedic-philosophy/purushartha/concept-22"
+          },
+          {
+            "slug": "concept-23",
+            "title": "Concept 23",
+            "path": "/vedic-philosophy/purushartha/concept-23"
+          },
+          {
+            "slug": "concept-24",
+            "title": "Concept 24",
+            "path": "/vedic-philosophy/purushartha/concept-24"
+          },
+          {
+            "slug": "concept-25",
+            "title": "Concept 25",
+            "path": "/vedic-philosophy/purushartha/concept-25"
+          },
+          {
+            "slug": "concept-26",
+            "title": "Concept 26",
+            "path": "/vedic-philosophy/purushartha/concept-26"
+          },
+          {
+            "slug": "concept-27",
+            "title": "Concept 27",
+            "path": "/vedic-philosophy/purushartha/concept-27"
+          },
+          {
+            "slug": "concept-28",
+            "title": "Concept 28",
+            "path": "/vedic-philosophy/purushartha/concept-28"
+          },
+          {
+            "slug": "concept-29",
+            "title": "Concept 29",
+            "path": "/vedic-philosophy/purushartha/concept-29"
+          },
+          {
+            "slug": "concept-30",
+            "title": "Concept 30",
+            "path": "/vedic-philosophy/purushartha/concept-30"
+          },
+          {
+            "slug": "concept-31",
+            "title": "Concept 31",
+            "path": "/vedic-philosophy/purushartha/concept-31"
+          },
+          {
+            "slug": "concept-32",
+            "title": "Concept 32",
+            "path": "/vedic-philosophy/purushartha/concept-32"
+          },
+          {
+            "slug": "concept-33",
+            "title": "Concept 33",
+            "path": "/vedic-philosophy/purushartha/concept-33"
+          },
+          {
+            "slug": "concept-34",
+            "title": "Concept 34",
+            "path": "/vedic-philosophy/purushartha/concept-34"
+          },
+          {
+            "slug": "concept-35",
+            "title": "Concept 35",
+            "path": "/vedic-philosophy/purushartha/concept-35"
+          },
+          {
+            "slug": "concept-36",
+            "title": "Concept 36",
+            "path": "/vedic-philosophy/purushartha/concept-36"
+          },
+          {
+            "slug": "concept-37",
+            "title": "Concept 37",
+            "path": "/vedic-philosophy/purushartha/concept-37"
+          },
+          {
+            "slug": "concept-38",
+            "title": "Concept 38",
+            "path": "/vedic-philosophy/purushartha/concept-38"
+          },
+          {
+            "slug": "concept-39",
+            "title": "Concept 39",
+            "path": "/vedic-philosophy/purushartha/concept-39"
+          },
+          {
+            "slug": "concept-40",
+            "title": "Concept 40",
+            "path": "/vedic-philosophy/purushartha/concept-40"
+          },
+          {
+            "slug": "concept-41",
+            "title": "Concept 41",
+            "path": "/vedic-philosophy/purushartha/concept-41"
+          },
+          {
+            "slug": "concept-42",
+            "title": "Concept 42",
+            "path": "/vedic-philosophy/purushartha/concept-42"
+          },
+          {
+            "slug": "concept-43",
+            "title": "Concept 43",
+            "path": "/vedic-philosophy/purushartha/concept-43"
+          },
+          {
+            "slug": "concept-44",
+            "title": "Concept 44",
+            "path": "/vedic-philosophy/purushartha/concept-44"
+          },
+          {
+            "slug": "concept-45",
+            "title": "Concept 45",
+            "path": "/vedic-philosophy/purushartha/concept-45"
+          },
+          {
+            "slug": "concept-46",
+            "title": "Concept 46",
+            "path": "/vedic-philosophy/purushartha/concept-46"
+          },
+          {
+            "slug": "concept-47",
+            "title": "Concept 47",
+            "path": "/vedic-philosophy/purushartha/concept-47"
+          },
+          {
+            "slug": "concept-48",
+            "title": "Concept 48",
+            "path": "/vedic-philosophy/purushartha/concept-48"
+          },
+          {
+            "slug": "concept-49",
+            "title": "Concept 49",
+            "path": "/vedic-philosophy/purushartha/concept-49"
+          },
+          {
+            "slug": "concept-50",
+            "title": "Concept 50",
+            "path": "/vedic-philosophy/purushartha/concept-50"
+          },
+          {
+            "slug": "concept-51",
+            "title": "Concept 51",
+            "path": "/vedic-philosophy/purushartha/concept-51"
+          },
+          {
+            "slug": "concept-52",
+            "title": "Concept 52",
+            "path": "/vedic-philosophy/purushartha/concept-52"
+          },
+          {
+            "slug": "concept-53",
+            "title": "Concept 53",
+            "path": "/vedic-philosophy/purushartha/concept-53"
+          },
+          {
+            "slug": "concept-54",
+            "title": "Concept 54",
+            "path": "/vedic-philosophy/purushartha/concept-54"
+          },
+          {
+            "slug": "concept-55",
+            "title": "Concept 55",
+            "path": "/vedic-philosophy/purushartha/concept-55"
+          },
+          {
+            "slug": "concept-56",
+            "title": "Concept 56",
+            "path": "/vedic-philosophy/purushartha/concept-56"
+          },
+          {
+            "slug": "concept-57",
+            "title": "Concept 57",
+            "path": "/vedic-philosophy/purushartha/concept-57"
+          },
+          {
+            "slug": "concept-58",
+            "title": "Concept 58",
+            "path": "/vedic-philosophy/purushartha/concept-58"
+          },
+          {
+            "slug": "concept-59",
+            "title": "Concept 59",
+            "path": "/vedic-philosophy/purushartha/concept-59"
+          },
+          {
+            "slug": "concept-60",
+            "title": "Concept 60",
+            "path": "/vedic-philosophy/purushartha/concept-60"
+          },
+          {
+            "slug": "concept-61",
+            "title": "Concept 61",
+            "path": "/vedic-philosophy/purushartha/concept-61"
+          },
+          {
+            "slug": "concept-62",
+            "title": "Concept 62",
+            "path": "/vedic-philosophy/purushartha/concept-62"
+          },
+          {
+            "slug": "concept-63",
+            "title": "Concept 63",
+            "path": "/vedic-philosophy/purushartha/concept-63"
+          },
+          {
+            "slug": "concept-64",
+            "title": "Concept 64",
+            "path": "/vedic-philosophy/purushartha/concept-64"
+          },
+          {
+            "slug": "concept-65",
+            "title": "Concept 65",
+            "path": "/vedic-philosophy/purushartha/concept-65"
+          },
+          {
+            "slug": "concept-66",
+            "title": "Concept 66",
+            "path": "/vedic-philosophy/purushartha/concept-66"
+          },
+          {
+            "slug": "concept-67",
+            "title": "Concept 67",
+            "path": "/vedic-philosophy/purushartha/concept-67"
+          },
+          {
+            "slug": "concept-68",
+            "title": "Concept 68",
+            "path": "/vedic-philosophy/purushartha/concept-68"
+          },
+          {
+            "slug": "concept-69",
+            "title": "Concept 69",
+            "path": "/vedic-philosophy/purushartha/concept-69"
+          },
+          {
+            "slug": "concept-70",
+            "title": "Concept 70",
+            "path": "/vedic-philosophy/purushartha/concept-70"
+          },
+          {
+            "slug": "concept-71",
+            "title": "Concept 71",
+            "path": "/vedic-philosophy/purushartha/concept-71"
+          },
+          {
+            "slug": "concept-72",
+            "title": "Concept 72",
+            "path": "/vedic-philosophy/purushartha/concept-72"
+          },
+          {
+            "slug": "concept-73",
+            "title": "Concept 73",
+            "path": "/vedic-philosophy/purushartha/concept-73"
+          },
+          {
+            "slug": "concept-74",
+            "title": "Concept 74",
+            "path": "/vedic-philosophy/purushartha/concept-74"
+          },
+          {
+            "slug": "concept-75",
+            "title": "Concept 75",
+            "path": "/vedic-philosophy/purushartha/concept-75"
+          },
+          {
+            "slug": "concept-76",
+            "title": "Concept 76",
+            "path": "/vedic-philosophy/purushartha/concept-76"
+          },
+          {
+            "slug": "concept-77",
+            "title": "Concept 77",
+            "path": "/vedic-philosophy/purushartha/concept-77"
+          },
+          {
+            "slug": "concept-78",
+            "title": "Concept 78",
+            "path": "/vedic-philosophy/purushartha/concept-78"
+          },
+          {
+            "slug": "concept-79",
+            "title": "Concept 79",
+            "path": "/vedic-philosophy/purushartha/concept-79"
+          },
+          {
+            "slug": "concept-80",
+            "title": "Concept 80",
+            "path": "/vedic-philosophy/purushartha/concept-80"
+          },
+          {
+            "slug": "concept-81",
+            "title": "Concept 81",
+            "path": "/vedic-philosophy/purushartha/concept-81"
+          },
+          {
+            "slug": "concept-82",
+            "title": "Concept 82",
+            "path": "/vedic-philosophy/purushartha/concept-82"
+          },
+          {
+            "slug": "concept-83",
+            "title": "Concept 83",
+            "path": "/vedic-philosophy/purushartha/concept-83"
+          },
+          {
+            "slug": "concept-84",
+            "title": "Concept 84",
+            "path": "/vedic-philosophy/purushartha/concept-84"
+          },
+          {
+            "slug": "concept-85",
+            "title": "Concept 85",
+            "path": "/vedic-philosophy/purushartha/concept-85"
+          },
+          {
+            "slug": "concept-86",
+            "title": "Concept 86",
+            "path": "/vedic-philosophy/purushartha/concept-86"
+          }
+        ]
+      },
+      {
+        "slug": "advaita",
+        "title": "Advaita",
+        "description": "Advaita as a core branch of Vedic Philosophy.",
+        "path": "/vedic-philosophy/advaita",
+        "total_subtopics": 87,
+        "subtopics": [
+          {
+            "slug": "brahman",
+            "title": "Brahman",
+            "path": "/vedic-philosophy/advaita/brahman"
+          },
+          {
+            "slug": "concept-1",
+            "title": "Concept 1",
+            "path": "/vedic-philosophy/advaita/concept-1"
+          },
+          {
+            "slug": "concept-2",
+            "title": "Concept 2",
+            "path": "/vedic-philosophy/advaita/concept-2"
+          },
+          {
+            "slug": "concept-3",
+            "title": "Concept 3",
+            "path": "/vedic-philosophy/advaita/concept-3"
+          },
+          {
+            "slug": "concept-4",
+            "title": "Concept 4",
+            "path": "/vedic-philosophy/advaita/concept-4"
+          },
+          {
+            "slug": "concept-5",
+            "title": "Concept 5",
+            "path": "/vedic-philosophy/advaita/concept-5"
+          },
+          {
+            "slug": "concept-6",
+            "title": "Concept 6",
+            "path": "/vedic-philosophy/advaita/concept-6"
+          },
+          {
+            "slug": "concept-7",
+            "title": "Concept 7",
+            "path": "/vedic-philosophy/advaita/concept-7"
+          },
+          {
+            "slug": "concept-8",
+            "title": "Concept 8",
+            "path": "/vedic-philosophy/advaita/concept-8"
+          },
+          {
+            "slug": "concept-9",
+            "title": "Concept 9",
+            "path": "/vedic-philosophy/advaita/concept-9"
+          },
+          {
+            "slug": "concept-10",
+            "title": "Concept 10",
+            "path": "/vedic-philosophy/advaita/concept-10"
+          },
+          {
+            "slug": "concept-11",
+            "title": "Concept 11",
+            "path": "/vedic-philosophy/advaita/concept-11"
+          },
+          {
+            "slug": "concept-12",
+            "title": "Concept 12",
+            "path": "/vedic-philosophy/advaita/concept-12"
+          },
+          {
+            "slug": "concept-13",
+            "title": "Concept 13",
+            "path": "/vedic-philosophy/advaita/concept-13"
+          },
+          {
+            "slug": "concept-14",
+            "title": "Concept 14",
+            "path": "/vedic-philosophy/advaita/concept-14"
+          },
+          {
+            "slug": "concept-15",
+            "title": "Concept 15",
+            "path": "/vedic-philosophy/advaita/concept-15"
+          },
+          {
+            "slug": "concept-16",
+            "title": "Concept 16",
+            "path": "/vedic-philosophy/advaita/concept-16"
+          },
+          {
+            "slug": "concept-17",
+            "title": "Concept 17",
+            "path": "/vedic-philosophy/advaita/concept-17"
+          },
+          {
+            "slug": "concept-18",
+            "title": "Concept 18",
+            "path": "/vedic-philosophy/advaita/concept-18"
+          },
+          {
+            "slug": "concept-19",
+            "title": "Concept 19",
+            "path": "/vedic-philosophy/advaita/concept-19"
+          },
+          {
+            "slug": "concept-20",
+            "title": "Concept 20",
+            "path": "/vedic-philosophy/advaita/concept-20"
+          },
+          {
+            "slug": "concept-21",
+            "title": "Concept 21",
+            "path": "/vedic-philosophy/advaita/concept-21"
+          },
+          {
+            "slug": "concept-22",
+            "title": "Concept 22",
+            "path": "/vedic-philosophy/advaita/concept-22"
+          },
+          {
+            "slug": "concept-23",
+            "title": "Concept 23",
+            "path": "/vedic-philosophy/advaita/concept-23"
+          },
+          {
+            "slug": "concept-24",
+            "title": "Concept 24",
+            "path": "/vedic-philosophy/advaita/concept-24"
+          },
+          {
+            "slug": "concept-25",
+            "title": "Concept 25",
+            "path": "/vedic-philosophy/advaita/concept-25"
+          },
+          {
+            "slug": "concept-26",
+            "title": "Concept 26",
+            "path": "/vedic-philosophy/advaita/concept-26"
+          },
+          {
+            "slug": "concept-27",
+            "title": "Concept 27",
+            "path": "/vedic-philosophy/advaita/concept-27"
+          },
+          {
+            "slug": "concept-28",
+            "title": "Concept 28",
+            "path": "/vedic-philosophy/advaita/concept-28"
+          },
+          {
+            "slug": "concept-29",
+            "title": "Concept 29",
+            "path": "/vedic-philosophy/advaita/concept-29"
+          },
+          {
+            "slug": "concept-30",
+            "title": "Concept 30",
+            "path": "/vedic-philosophy/advaita/concept-30"
+          },
+          {
+            "slug": "concept-31",
+            "title": "Concept 31",
+            "path": "/vedic-philosophy/advaita/concept-31"
+          },
+          {
+            "slug": "concept-32",
+            "title": "Concept 32",
+            "path": "/vedic-philosophy/advaita/concept-32"
+          },
+          {
+            "slug": "concept-33",
+            "title": "Concept 33",
+            "path": "/vedic-philosophy/advaita/concept-33"
+          },
+          {
+            "slug": "concept-34",
+            "title": "Concept 34",
+            "path": "/vedic-philosophy/advaita/concept-34"
+          },
+          {
+            "slug": "concept-35",
+            "title": "Concept 35",
+            "path": "/vedic-philosophy/advaita/concept-35"
+          },
+          {
+            "slug": "concept-36",
+            "title": "Concept 36",
+            "path": "/vedic-philosophy/advaita/concept-36"
+          },
+          {
+            "slug": "concept-37",
+            "title": "Concept 37",
+            "path": "/vedic-philosophy/advaita/concept-37"
+          },
+          {
+            "slug": "concept-38",
+            "title": "Concept 38",
+            "path": "/vedic-philosophy/advaita/concept-38"
+          },
+          {
+            "slug": "concept-39",
+            "title": "Concept 39",
+            "path": "/vedic-philosophy/advaita/concept-39"
+          },
+          {
+            "slug": "concept-40",
+            "title": "Concept 40",
+            "path": "/vedic-philosophy/advaita/concept-40"
+          },
+          {
+            "slug": "concept-41",
+            "title": "Concept 41",
+            "path": "/vedic-philosophy/advaita/concept-41"
+          },
+          {
+            "slug": "concept-42",
+            "title": "Concept 42",
+            "path": "/vedic-philosophy/advaita/concept-42"
+          },
+          {
+            "slug": "concept-43",
+            "title": "Concept 43",
+            "path": "/vedic-philosophy/advaita/concept-43"
+          },
+          {
+            "slug": "concept-44",
+            "title": "Concept 44",
+            "path": "/vedic-philosophy/advaita/concept-44"
+          },
+          {
+            "slug": "concept-45",
+            "title": "Concept 45",
+            "path": "/vedic-philosophy/advaita/concept-45"
+          },
+          {
+            "slug": "concept-46",
+            "title": "Concept 46",
+            "path": "/vedic-philosophy/advaita/concept-46"
+          },
+          {
+            "slug": "concept-47",
+            "title": "Concept 47",
+            "path": "/vedic-philosophy/advaita/concept-47"
+          },
+          {
+            "slug": "concept-48",
+            "title": "Concept 48",
+            "path": "/vedic-philosophy/advaita/concept-48"
+          },
+          {
+            "slug": "concept-49",
+            "title": "Concept 49",
+            "path": "/vedic-philosophy/advaita/concept-49"
+          },
+          {
+            "slug": "concept-50",
+            "title": "Concept 50",
+            "path": "/vedic-philosophy/advaita/concept-50"
+          },
+          {
+            "slug": "concept-51",
+            "title": "Concept 51",
+            "path": "/vedic-philosophy/advaita/concept-51"
+          },
+          {
+            "slug": "concept-52",
+            "title": "Concept 52",
+            "path": "/vedic-philosophy/advaita/concept-52"
+          },
+          {
+            "slug": "concept-53",
+            "title": "Concept 53",
+            "path": "/vedic-philosophy/advaita/concept-53"
+          },
+          {
+            "slug": "concept-54",
+            "title": "Concept 54",
+            "path": "/vedic-philosophy/advaita/concept-54"
+          },
+          {
+            "slug": "concept-55",
+            "title": "Concept 55",
+            "path": "/vedic-philosophy/advaita/concept-55"
+          },
+          {
+            "slug": "concept-56",
+            "title": "Concept 56",
+            "path": "/vedic-philosophy/advaita/concept-56"
+          },
+          {
+            "slug": "concept-57",
+            "title": "Concept 57",
+            "path": "/vedic-philosophy/advaita/concept-57"
+          },
+          {
+            "slug": "concept-58",
+            "title": "Concept 58",
+            "path": "/vedic-philosophy/advaita/concept-58"
+          },
+          {
+            "slug": "concept-59",
+            "title": "Concept 59",
+            "path": "/vedic-philosophy/advaita/concept-59"
+          },
+          {
+            "slug": "concept-60",
+            "title": "Concept 60",
+            "path": "/vedic-philosophy/advaita/concept-60"
+          },
+          {
+            "slug": "concept-61",
+            "title": "Concept 61",
+            "path": "/vedic-philosophy/advaita/concept-61"
+          },
+          {
+            "slug": "concept-62",
+            "title": "Concept 62",
+            "path": "/vedic-philosophy/advaita/concept-62"
+          },
+          {
+            "slug": "concept-63",
+            "title": "Concept 63",
+            "path": "/vedic-philosophy/advaita/concept-63"
+          },
+          {
+            "slug": "concept-64",
+            "title": "Concept 64",
+            "path": "/vedic-philosophy/advaita/concept-64"
+          },
+          {
+            "slug": "concept-65",
+            "title": "Concept 65",
+            "path": "/vedic-philosophy/advaita/concept-65"
+          },
+          {
+            "slug": "concept-66",
+            "title": "Concept 66",
+            "path": "/vedic-philosophy/advaita/concept-66"
+          },
+          {
+            "slug": "concept-67",
+            "title": "Concept 67",
+            "path": "/vedic-philosophy/advaita/concept-67"
+          },
+          {
+            "slug": "concept-68",
+            "title": "Concept 68",
+            "path": "/vedic-philosophy/advaita/concept-68"
+          },
+          {
+            "slug": "concept-69",
+            "title": "Concept 69",
+            "path": "/vedic-philosophy/advaita/concept-69"
+          },
+          {
+            "slug": "concept-70",
+            "title": "Concept 70",
+            "path": "/vedic-philosophy/advaita/concept-70"
+          },
+          {
+            "slug": "concept-71",
+            "title": "Concept 71",
+            "path": "/vedic-philosophy/advaita/concept-71"
+          },
+          {
+            "slug": "concept-72",
+            "title": "Concept 72",
+            "path": "/vedic-philosophy/advaita/concept-72"
+          },
+          {
+            "slug": "concept-73",
+            "title": "Concept 73",
+            "path": "/vedic-philosophy/advaita/concept-73"
+          },
+          {
+            "slug": "concept-74",
+            "title": "Concept 74",
+            "path": "/vedic-philosophy/advaita/concept-74"
+          },
+          {
+            "slug": "concept-75",
+            "title": "Concept 75",
+            "path": "/vedic-philosophy/advaita/concept-75"
+          },
+          {
+            "slug": "concept-76",
+            "title": "Concept 76",
+            "path": "/vedic-philosophy/advaita/concept-76"
+          },
+          {
+            "slug": "concept-77",
+            "title": "Concept 77",
+            "path": "/vedic-philosophy/advaita/concept-77"
+          },
+          {
+            "slug": "concept-78",
+            "title": "Concept 78",
+            "path": "/vedic-philosophy/advaita/concept-78"
+          },
+          {
+            "slug": "concept-79",
+            "title": "Concept 79",
+            "path": "/vedic-philosophy/advaita/concept-79"
+          },
+          {
+            "slug": "concept-80",
+            "title": "Concept 80",
+            "path": "/vedic-philosophy/advaita/concept-80"
+          },
+          {
+            "slug": "concept-81",
+            "title": "Concept 81",
+            "path": "/vedic-philosophy/advaita/concept-81"
+          },
+          {
+            "slug": "concept-82",
+            "title": "Concept 82",
+            "path": "/vedic-philosophy/advaita/concept-82"
+          },
+          {
+            "slug": "concept-83",
+            "title": "Concept 83",
+            "path": "/vedic-philosophy/advaita/concept-83"
+          },
+          {
+            "slug": "concept-84",
+            "title": "Concept 84",
+            "path": "/vedic-philosophy/advaita/concept-84"
+          },
+          {
+            "slug": "concept-85",
+            "title": "Concept 85",
+            "path": "/vedic-philosophy/advaita/concept-85"
+          },
+          {
+            "slug": "concept-86",
+            "title": "Concept 86",
+            "path": "/vedic-philosophy/advaita/concept-86"
+          }
+        ]
+      },
+      {
+        "slug": "bhakti",
+        "title": "Bhakti",
+        "description": "Bhakti as a core branch of Vedic Philosophy.",
+        "path": "/vedic-philosophy/bhakti",
+        "total_subtopics": 87,
+        "subtopics": [
+          {
+            "slug": "navavidha-bhakti",
+            "title": "Navavidha Bhakti",
+            "path": "/vedic-philosophy/bhakti/navavidha-bhakti"
+          },
+          {
+            "slug": "concept-1",
+            "title": "Concept 1",
+            "path": "/vedic-philosophy/bhakti/concept-1"
+          },
+          {
+            "slug": "concept-2",
+            "title": "Concept 2",
+            "path": "/vedic-philosophy/bhakti/concept-2"
+          },
+          {
+            "slug": "concept-3",
+            "title": "Concept 3",
+            "path": "/vedic-philosophy/bhakti/concept-3"
+          },
+          {
+            "slug": "concept-4",
+            "title": "Concept 4",
+            "path": "/vedic-philosophy/bhakti/concept-4"
+          },
+          {
+            "slug": "concept-5",
+            "title": "Concept 5",
+            "path": "/vedic-philosophy/bhakti/concept-5"
+          },
+          {
+            "slug": "concept-6",
+            "title": "Concept 6",
+            "path": "/vedic-philosophy/bhakti/concept-6"
+          },
+          {
+            "slug": "concept-7",
+            "title": "Concept 7",
+            "path": "/vedic-philosophy/bhakti/concept-7"
+          },
+          {
+            "slug": "concept-8",
+            "title": "Concept 8",
+            "path": "/vedic-philosophy/bhakti/concept-8"
+          },
+          {
+            "slug": "concept-9",
+            "title": "Concept 9",
+            "path": "/vedic-philosophy/bhakti/concept-9"
+          },
+          {
+            "slug": "concept-10",
+            "title": "Concept 10",
+            "path": "/vedic-philosophy/bhakti/concept-10"
+          },
+          {
+            "slug": "concept-11",
+            "title": "Concept 11",
+            "path": "/vedic-philosophy/bhakti/concept-11"
+          },
+          {
+            "slug": "concept-12",
+            "title": "Concept 12",
+            "path": "/vedic-philosophy/bhakti/concept-12"
+          },
+          {
+            "slug": "concept-13",
+            "title": "Concept 13",
+            "path": "/vedic-philosophy/bhakti/concept-13"
+          },
+          {
+            "slug": "concept-14",
+            "title": "Concept 14",
+            "path": "/vedic-philosophy/bhakti/concept-14"
+          },
+          {
+            "slug": "concept-15",
+            "title": "Concept 15",
+            "path": "/vedic-philosophy/bhakti/concept-15"
+          },
+          {
+            "slug": "concept-16",
+            "title": "Concept 16",
+            "path": "/vedic-philosophy/bhakti/concept-16"
+          },
+          {
+            "slug": "concept-17",
+            "title": "Concept 17",
+            "path": "/vedic-philosophy/bhakti/concept-17"
+          },
+          {
+            "slug": "concept-18",
+            "title": "Concept 18",
+            "path": "/vedic-philosophy/bhakti/concept-18"
+          },
+          {
+            "slug": "concept-19",
+            "title": "Concept 19",
+            "path": "/vedic-philosophy/bhakti/concept-19"
+          },
+          {
+            "slug": "concept-20",
+            "title": "Concept 20",
+            "path": "/vedic-philosophy/bhakti/concept-20"
+          },
+          {
+            "slug": "concept-21",
+            "title": "Concept 21",
+            "path": "/vedic-philosophy/bhakti/concept-21"
+          },
+          {
+            "slug": "concept-22",
+            "title": "Concept 22",
+            "path": "/vedic-philosophy/bhakti/concept-22"
+          },
+          {
+            "slug": "concept-23",
+            "title": "Concept 23",
+            "path": "/vedic-philosophy/bhakti/concept-23"
+          },
+          {
+            "slug": "concept-24",
+            "title": "Concept 24",
+            "path": "/vedic-philosophy/bhakti/concept-24"
+          },
+          {
+            "slug": "concept-25",
+            "title": "Concept 25",
+            "path": "/vedic-philosophy/bhakti/concept-25"
+          },
+          {
+            "slug": "concept-26",
+            "title": "Concept 26",
+            "path": "/vedic-philosophy/bhakti/concept-26"
+          },
+          {
+            "slug": "concept-27",
+            "title": "Concept 27",
+            "path": "/vedic-philosophy/bhakti/concept-27"
+          },
+          {
+            "slug": "concept-28",
+            "title": "Concept 28",
+            "path": "/vedic-philosophy/bhakti/concept-28"
+          },
+          {
+            "slug": "concept-29",
+            "title": "Concept 29",
+            "path": "/vedic-philosophy/bhakti/concept-29"
+          },
+          {
+            "slug": "concept-30",
+            "title": "Concept 30",
+            "path": "/vedic-philosophy/bhakti/concept-30"
+          },
+          {
+            "slug": "concept-31",
+            "title": "Concept 31",
+            "path": "/vedic-philosophy/bhakti/concept-31"
+          },
+          {
+            "slug": "concept-32",
+            "title": "Concept 32",
+            "path": "/vedic-philosophy/bhakti/concept-32"
+          },
+          {
+            "slug": "concept-33",
+            "title": "Concept 33",
+            "path": "/vedic-philosophy/bhakti/concept-33"
+          },
+          {
+            "slug": "concept-34",
+            "title": "Concept 34",
+            "path": "/vedic-philosophy/bhakti/concept-34"
+          },
+          {
+            "slug": "concept-35",
+            "title": "Concept 35",
+            "path": "/vedic-philosophy/bhakti/concept-35"
+          },
+          {
+            "slug": "concept-36",
+            "title": "Concept 36",
+            "path": "/vedic-philosophy/bhakti/concept-36"
+          },
+          {
+            "slug": "concept-37",
+            "title": "Concept 37",
+            "path": "/vedic-philosophy/bhakti/concept-37"
+          },
+          {
+            "slug": "concept-38",
+            "title": "Concept 38",
+            "path": "/vedic-philosophy/bhakti/concept-38"
+          },
+          {
+            "slug": "concept-39",
+            "title": "Concept 39",
+            "path": "/vedic-philosophy/bhakti/concept-39"
+          },
+          {
+            "slug": "concept-40",
+            "title": "Concept 40",
+            "path": "/vedic-philosophy/bhakti/concept-40"
+          },
+          {
+            "slug": "concept-41",
+            "title": "Concept 41",
+            "path": "/vedic-philosophy/bhakti/concept-41"
+          },
+          {
+            "slug": "concept-42",
+            "title": "Concept 42",
+            "path": "/vedic-philosophy/bhakti/concept-42"
+          },
+          {
+            "slug": "concept-43",
+            "title": "Concept 43",
+            "path": "/vedic-philosophy/bhakti/concept-43"
+          },
+          {
+            "slug": "concept-44",
+            "title": "Concept 44",
+            "path": "/vedic-philosophy/bhakti/concept-44"
+          },
+          {
+            "slug": "concept-45",
+            "title": "Concept 45",
+            "path": "/vedic-philosophy/bhakti/concept-45"
+          },
+          {
+            "slug": "concept-46",
+            "title": "Concept 46",
+            "path": "/vedic-philosophy/bhakti/concept-46"
+          },
+          {
+            "slug": "concept-47",
+            "title": "Concept 47",
+            "path": "/vedic-philosophy/bhakti/concept-47"
+          },
+          {
+            "slug": "concept-48",
+            "title": "Concept 48",
+            "path": "/vedic-philosophy/bhakti/concept-48"
+          },
+          {
+            "slug": "concept-49",
+            "title": "Concept 49",
+            "path": "/vedic-philosophy/bhakti/concept-49"
+          },
+          {
+            "slug": "concept-50",
+            "title": "Concept 50",
+            "path": "/vedic-philosophy/bhakti/concept-50"
+          },
+          {
+            "slug": "concept-51",
+            "title": "Concept 51",
+            "path": "/vedic-philosophy/bhakti/concept-51"
+          },
+          {
+            "slug": "concept-52",
+            "title": "Concept 52",
+            "path": "/vedic-philosophy/bhakti/concept-52"
+          },
+          {
+            "slug": "concept-53",
+            "title": "Concept 53",
+            "path": "/vedic-philosophy/bhakti/concept-53"
+          },
+          {
+            "slug": "concept-54",
+            "title": "Concept 54",
+            "path": "/vedic-philosophy/bhakti/concept-54"
+          },
+          {
+            "slug": "concept-55",
+            "title": "Concept 55",
+            "path": "/vedic-philosophy/bhakti/concept-55"
+          },
+          {
+            "slug": "concept-56",
+            "title": "Concept 56",
+            "path": "/vedic-philosophy/bhakti/concept-56"
+          },
+          {
+            "slug": "concept-57",
+            "title": "Concept 57",
+            "path": "/vedic-philosophy/bhakti/concept-57"
+          },
+          {
+            "slug": "concept-58",
+            "title": "Concept 58",
+            "path": "/vedic-philosophy/bhakti/concept-58"
+          },
+          {
+            "slug": "concept-59",
+            "title": "Concept 59",
+            "path": "/vedic-philosophy/bhakti/concept-59"
+          },
+          {
+            "slug": "concept-60",
+            "title": "Concept 60",
+            "path": "/vedic-philosophy/bhakti/concept-60"
+          },
+          {
+            "slug": "concept-61",
+            "title": "Concept 61",
+            "path": "/vedic-philosophy/bhakti/concept-61"
+          },
+          {
+            "slug": "concept-62",
+            "title": "Concept 62",
+            "path": "/vedic-philosophy/bhakti/concept-62"
+          },
+          {
+            "slug": "concept-63",
+            "title": "Concept 63",
+            "path": "/vedic-philosophy/bhakti/concept-63"
+          },
+          {
+            "slug": "concept-64",
+            "title": "Concept 64",
+            "path": "/vedic-philosophy/bhakti/concept-64"
+          },
+          {
+            "slug": "concept-65",
+            "title": "Concept 65",
+            "path": "/vedic-philosophy/bhakti/concept-65"
+          },
+          {
+            "slug": "concept-66",
+            "title": "Concept 66",
+            "path": "/vedic-philosophy/bhakti/concept-66"
+          },
+          {
+            "slug": "concept-67",
+            "title": "Concept 67",
+            "path": "/vedic-philosophy/bhakti/concept-67"
+          },
+          {
+            "slug": "concept-68",
+            "title": "Concept 68",
+            "path": "/vedic-philosophy/bhakti/concept-68"
+          },
+          {
+            "slug": "concept-69",
+            "title": "Concept 69",
+            "path": "/vedic-philosophy/bhakti/concept-69"
+          },
+          {
+            "slug": "concept-70",
+            "title": "Concept 70",
+            "path": "/vedic-philosophy/bhakti/concept-70"
+          },
+          {
+            "slug": "concept-71",
+            "title": "Concept 71",
+            "path": "/vedic-philosophy/bhakti/concept-71"
+          },
+          {
+            "slug": "concept-72",
+            "title": "Concept 72",
+            "path": "/vedic-philosophy/bhakti/concept-72"
+          },
+          {
+            "slug": "concept-73",
+            "title": "Concept 73",
+            "path": "/vedic-philosophy/bhakti/concept-73"
+          },
+          {
+            "slug": "concept-74",
+            "title": "Concept 74",
+            "path": "/vedic-philosophy/bhakti/concept-74"
+          },
+          {
+            "slug": "concept-75",
+            "title": "Concept 75",
+            "path": "/vedic-philosophy/bhakti/concept-75"
+          },
+          {
+            "slug": "concept-76",
+            "title": "Concept 76",
+            "path": "/vedic-philosophy/bhakti/concept-76"
+          },
+          {
+            "slug": "concept-77",
+            "title": "Concept 77",
+            "path": "/vedic-philosophy/bhakti/concept-77"
+          },
+          {
+            "slug": "concept-78",
+            "title": "Concept 78",
+            "path": "/vedic-philosophy/bhakti/concept-78"
+          },
+          {
+            "slug": "concept-79",
+            "title": "Concept 79",
+            "path": "/vedic-philosophy/bhakti/concept-79"
+          },
+          {
+            "slug": "concept-80",
+            "title": "Concept 80",
+            "path": "/vedic-philosophy/bhakti/concept-80"
+          },
+          {
+            "slug": "concept-81",
+            "title": "Concept 81",
+            "path": "/vedic-philosophy/bhakti/concept-81"
+          },
+          {
+            "slug": "concept-82",
+            "title": "Concept 82",
+            "path": "/vedic-philosophy/bhakti/concept-82"
+          },
+          {
+            "slug": "concept-83",
+            "title": "Concept 83",
+            "path": "/vedic-philosophy/bhakti/concept-83"
+          },
+          {
+            "slug": "concept-84",
+            "title": "Concept 84",
+            "path": "/vedic-philosophy/bhakti/concept-84"
+          },
+          {
+            "slug": "concept-85",
+            "title": "Concept 85",
+            "path": "/vedic-philosophy/bhakti/concept-85"
+          },
+          {
+            "slug": "concept-86",
+            "title": "Concept 86",
+            "path": "/vedic-philosophy/bhakti/concept-86"
+          }
+        ]
+      },
+      {
+        "slug": "yoga",
+        "title": "Yoga",
+        "description": "Yoga as a core branch of Vedic Philosophy.",
+        "path": "/vedic-philosophy/yoga",
+        "total_subtopics": 87,
+        "subtopics": [
+          {
+            "slug": "ashtanga-yoga",
+            "title": "Ashtanga Yoga",
+            "path": "/vedic-philosophy/yoga/ashtanga-yoga"
+          },
+          {
+            "slug": "concept-1",
+            "title": "Concept 1",
+            "path": "/vedic-philosophy/yoga/concept-1"
+          },
+          {
+            "slug": "concept-2",
+            "title": "Concept 2",
+            "path": "/vedic-philosophy/yoga/concept-2"
+          },
+          {
+            "slug": "concept-3",
+            "title": "Concept 3",
+            "path": "/vedic-philosophy/yoga/concept-3"
+          },
+          {
+            "slug": "concept-4",
+            "title": "Concept 4",
+            "path": "/vedic-philosophy/yoga/concept-4"
+          },
+          {
+            "slug": "concept-5",
+            "title": "Concept 5",
+            "path": "/vedic-philosophy/yoga/concept-5"
+          },
+          {
+            "slug": "concept-6",
+            "title": "Concept 6",
+            "path": "/vedic-philosophy/yoga/concept-6"
+          },
+          {
+            "slug": "concept-7",
+            "title": "Concept 7",
+            "path": "/vedic-philosophy/yoga/concept-7"
+          },
+          {
+            "slug": "concept-8",
+            "title": "Concept 8",
+            "path": "/vedic-philosophy/yoga/concept-8"
+          },
+          {
+            "slug": "concept-9",
+            "title": "Concept 9",
+            "path": "/vedic-philosophy/yoga/concept-9"
+          },
+          {
+            "slug": "concept-10",
+            "title": "Concept 10",
+            "path": "/vedic-philosophy/yoga/concept-10"
+          },
+          {
+            "slug": "concept-11",
+            "title": "Concept 11",
+            "path": "/vedic-philosophy/yoga/concept-11"
+          },
+          {
+            "slug": "concept-12",
+            "title": "Concept 12",
+            "path": "/vedic-philosophy/yoga/concept-12"
+          },
+          {
+            "slug": "concept-13",
+            "title": "Concept 13",
+            "path": "/vedic-philosophy/yoga/concept-13"
+          },
+          {
+            "slug": "concept-14",
+            "title": "Concept 14",
+            "path": "/vedic-philosophy/yoga/concept-14"
+          },
+          {
+            "slug": "concept-15",
+            "title": "Concept 15",
+            "path": "/vedic-philosophy/yoga/concept-15"
+          },
+          {
+            "slug": "concept-16",
+            "title": "Concept 16",
+            "path": "/vedic-philosophy/yoga/concept-16"
+          },
+          {
+            "slug": "concept-17",
+            "title": "Concept 17",
+            "path": "/vedic-philosophy/yoga/concept-17"
+          },
+          {
+            "slug": "concept-18",
+            "title": "Concept 18",
+            "path": "/vedic-philosophy/yoga/concept-18"
+          },
+          {
+            "slug": "concept-19",
+            "title": "Concept 19",
+            "path": "/vedic-philosophy/yoga/concept-19"
+          },
+          {
+            "slug": "concept-20",
+            "title": "Concept 20",
+            "path": "/vedic-philosophy/yoga/concept-20"
+          },
+          {
+            "slug": "concept-21",
+            "title": "Concept 21",
+            "path": "/vedic-philosophy/yoga/concept-21"
+          },
+          {
+            "slug": "concept-22",
+            "title": "Concept 22",
+            "path": "/vedic-philosophy/yoga/concept-22"
+          },
+          {
+            "slug": "concept-23",
+            "title": "Concept 23",
+            "path": "/vedic-philosophy/yoga/concept-23"
+          },
+          {
+            "slug": "concept-24",
+            "title": "Concept 24",
+            "path": "/vedic-philosophy/yoga/concept-24"
+          },
+          {
+            "slug": "concept-25",
+            "title": "Concept 25",
+            "path": "/vedic-philosophy/yoga/concept-25"
+          },
+          {
+            "slug": "concept-26",
+            "title": "Concept 26",
+            "path": "/vedic-philosophy/yoga/concept-26"
+          },
+          {
+            "slug": "concept-27",
+            "title": "Concept 27",
+            "path": "/vedic-philosophy/yoga/concept-27"
+          },
+          {
+            "slug": "concept-28",
+            "title": "Concept 28",
+            "path": "/vedic-philosophy/yoga/concept-28"
+          },
+          {
+            "slug": "concept-29",
+            "title": "Concept 29",
+            "path": "/vedic-philosophy/yoga/concept-29"
+          },
+          {
+            "slug": "concept-30",
+            "title": "Concept 30",
+            "path": "/vedic-philosophy/yoga/concept-30"
+          },
+          {
+            "slug": "concept-31",
+            "title": "Concept 31",
+            "path": "/vedic-philosophy/yoga/concept-31"
+          },
+          {
+            "slug": "concept-32",
+            "title": "Concept 32",
+            "path": "/vedic-philosophy/yoga/concept-32"
+          },
+          {
+            "slug": "concept-33",
+            "title": "Concept 33",
+            "path": "/vedic-philosophy/yoga/concept-33"
+          },
+          {
+            "slug": "concept-34",
+            "title": "Concept 34",
+            "path": "/vedic-philosophy/yoga/concept-34"
+          },
+          {
+            "slug": "concept-35",
+            "title": "Concept 35",
+            "path": "/vedic-philosophy/yoga/concept-35"
+          },
+          {
+            "slug": "concept-36",
+            "title": "Concept 36",
+            "path": "/vedic-philosophy/yoga/concept-36"
+          },
+          {
+            "slug": "concept-37",
+            "title": "Concept 37",
+            "path": "/vedic-philosophy/yoga/concept-37"
+          },
+          {
+            "slug": "concept-38",
+            "title": "Concept 38",
+            "path": "/vedic-philosophy/yoga/concept-38"
+          },
+          {
+            "slug": "concept-39",
+            "title": "Concept 39",
+            "path": "/vedic-philosophy/yoga/concept-39"
+          },
+          {
+            "slug": "concept-40",
+            "title": "Concept 40",
+            "path": "/vedic-philosophy/yoga/concept-40"
+          },
+          {
+            "slug": "concept-41",
+            "title": "Concept 41",
+            "path": "/vedic-philosophy/yoga/concept-41"
+          },
+          {
+            "slug": "concept-42",
+            "title": "Concept 42",
+            "path": "/vedic-philosophy/yoga/concept-42"
+          },
+          {
+            "slug": "concept-43",
+            "title": "Concept 43",
+            "path": "/vedic-philosophy/yoga/concept-43"
+          },
+          {
+            "slug": "concept-44",
+            "title": "Concept 44",
+            "path": "/vedic-philosophy/yoga/concept-44"
+          },
+          {
+            "slug": "concept-45",
+            "title": "Concept 45",
+            "path": "/vedic-philosophy/yoga/concept-45"
+          },
+          {
+            "slug": "concept-46",
+            "title": "Concept 46",
+            "path": "/vedic-philosophy/yoga/concept-46"
+          },
+          {
+            "slug": "concept-47",
+            "title": "Concept 47",
+            "path": "/vedic-philosophy/yoga/concept-47"
+          },
+          {
+            "slug": "concept-48",
+            "title": "Concept 48",
+            "path": "/vedic-philosophy/yoga/concept-48"
+          },
+          {
+            "slug": "concept-49",
+            "title": "Concept 49",
+            "path": "/vedic-philosophy/yoga/concept-49"
+          },
+          {
+            "slug": "concept-50",
+            "title": "Concept 50",
+            "path": "/vedic-philosophy/yoga/concept-50"
+          },
+          {
+            "slug": "concept-51",
+            "title": "Concept 51",
+            "path": "/vedic-philosophy/yoga/concept-51"
+          },
+          {
+            "slug": "concept-52",
+            "title": "Concept 52",
+            "path": "/vedic-philosophy/yoga/concept-52"
+          },
+          {
+            "slug": "concept-53",
+            "title": "Concept 53",
+            "path": "/vedic-philosophy/yoga/concept-53"
+          },
+          {
+            "slug": "concept-54",
+            "title": "Concept 54",
+            "path": "/vedic-philosophy/yoga/concept-54"
+          },
+          {
+            "slug": "concept-55",
+            "title": "Concept 55",
+            "path": "/vedic-philosophy/yoga/concept-55"
+          },
+          {
+            "slug": "concept-56",
+            "title": "Concept 56",
+            "path": "/vedic-philosophy/yoga/concept-56"
+          },
+          {
+            "slug": "concept-57",
+            "title": "Concept 57",
+            "path": "/vedic-philosophy/yoga/concept-57"
+          },
+          {
+            "slug": "concept-58",
+            "title": "Concept 58",
+            "path": "/vedic-philosophy/yoga/concept-58"
+          },
+          {
+            "slug": "concept-59",
+            "title": "Concept 59",
+            "path": "/vedic-philosophy/yoga/concept-59"
+          },
+          {
+            "slug": "concept-60",
+            "title": "Concept 60",
+            "path": "/vedic-philosophy/yoga/concept-60"
+          },
+          {
+            "slug": "concept-61",
+            "title": "Concept 61",
+            "path": "/vedic-philosophy/yoga/concept-61"
+          },
+          {
+            "slug": "concept-62",
+            "title": "Concept 62",
+            "path": "/vedic-philosophy/yoga/concept-62"
+          },
+          {
+            "slug": "concept-63",
+            "title": "Concept 63",
+            "path": "/vedic-philosophy/yoga/concept-63"
+          },
+          {
+            "slug": "concept-64",
+            "title": "Concept 64",
+            "path": "/vedic-philosophy/yoga/concept-64"
+          },
+          {
+            "slug": "concept-65",
+            "title": "Concept 65",
+            "path": "/vedic-philosophy/yoga/concept-65"
+          },
+          {
+            "slug": "concept-66",
+            "title": "Concept 66",
+            "path": "/vedic-philosophy/yoga/concept-66"
+          },
+          {
+            "slug": "concept-67",
+            "title": "Concept 67",
+            "path": "/vedic-philosophy/yoga/concept-67"
+          },
+          {
+            "slug": "concept-68",
+            "title": "Concept 68",
+            "path": "/vedic-philosophy/yoga/concept-68"
+          },
+          {
+            "slug": "concept-69",
+            "title": "Concept 69",
+            "path": "/vedic-philosophy/yoga/concept-69"
+          },
+          {
+            "slug": "concept-70",
+            "title": "Concept 70",
+            "path": "/vedic-philosophy/yoga/concept-70"
+          },
+          {
+            "slug": "concept-71",
+            "title": "Concept 71",
+            "path": "/vedic-philosophy/yoga/concept-71"
+          },
+          {
+            "slug": "concept-72",
+            "title": "Concept 72",
+            "path": "/vedic-philosophy/yoga/concept-72"
+          },
+          {
+            "slug": "concept-73",
+            "title": "Concept 73",
+            "path": "/vedic-philosophy/yoga/concept-73"
+          },
+          {
+            "slug": "concept-74",
+            "title": "Concept 74",
+            "path": "/vedic-philosophy/yoga/concept-74"
+          },
+          {
+            "slug": "concept-75",
+            "title": "Concept 75",
+            "path": "/vedic-philosophy/yoga/concept-75"
+          },
+          {
+            "slug": "concept-76",
+            "title": "Concept 76",
+            "path": "/vedic-philosophy/yoga/concept-76"
+          },
+          {
+            "slug": "concept-77",
+            "title": "Concept 77",
+            "path": "/vedic-philosophy/yoga/concept-77"
+          },
+          {
+            "slug": "concept-78",
+            "title": "Concept 78",
+            "path": "/vedic-philosophy/yoga/concept-78"
+          },
+          {
+            "slug": "concept-79",
+            "title": "Concept 79",
+            "path": "/vedic-philosophy/yoga/concept-79"
+          },
+          {
+            "slug": "concept-80",
+            "title": "Concept 80",
+            "path": "/vedic-philosophy/yoga/concept-80"
+          },
+          {
+            "slug": "concept-81",
+            "title": "Concept 81",
+            "path": "/vedic-philosophy/yoga/concept-81"
+          },
+          {
+            "slug": "concept-82",
+            "title": "Concept 82",
+            "path": "/vedic-philosophy/yoga/concept-82"
+          },
+          {
+            "slug": "concept-83",
+            "title": "Concept 83",
+            "path": "/vedic-philosophy/yoga/concept-83"
+          },
+          {
+            "slug": "concept-84",
+            "title": "Concept 84",
+            "path": "/vedic-philosophy/yoga/concept-84"
+          },
+          {
+            "slug": "concept-85",
+            "title": "Concept 85",
+            "path": "/vedic-philosophy/yoga/concept-85"
+          },
+          {
+            "slug": "concept-86",
+            "title": "Concept 86",
+            "path": "/vedic-philosophy/yoga/concept-86"
+          }
+        ]
+      }
+    ]
+  }
+}

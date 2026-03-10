@@ -37,8 +37,8 @@ const SLUG_CONFIG: Record<string, {
     icon: '🎵', fileKey: 'vedas_samaveda',
     accentFrom: 'from-[#3b3270]', accentVia: 'via-[#8b6914]', accentTo: 'to-[#e0a632]',
     textAccent: 'text-[#3b3270]', borderAccent: 'border-[#8b6914]',
-    chaptersKey: 'samaveda_sections', chaptersLabel: 'Sections of the Samaveda', itemLabel: 'Section',
-    chapterPrefix: 'section',
+    chaptersKey: 'samaveda_sections', chaptersLabel: 'Hymns of the Samaveda', itemLabel: 'Hymn',
+    chapterPrefix: 'hymn',
     deitiesKey: 'major_samavedic_deities', deitiesLabel: 'Major Samavedic Deities',
   },
   atharvaveda: {

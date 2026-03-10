@@ -549,7 +549,10 @@
         "yuga": "ساتيا يوجا",
         "purpose": "أنقذ الفيدا ومانو من الطوفان الكوني",
         "primary_antagonist": "هاياجريفا (في بعض التقاليد)",
-        "associated_texts": ["بهاجافاتا بورانا", "فيشنو بورانا"],
+        "associated_texts": [
+          "بهاجافاتا بورانا",
+          "فيشنو بورانا"
+        ],
         "symbolism": "بداية الحياة؛ الحفاظ على المعرفة",
         "evolutionary_symbolism": "مرحلة الحياة المائية"
       },
@@ -560,7 +563,10 @@
         "yuga": "ساتيا يوجا",
         "purpose": "دعم جبل ماندارا خلال Samudra Manthana",
         "primary_event": "تموج المحيط",
-        "associated_texts": ["بهاجافاتا بورانا", "ماهابهاراتا"],
+        "associated_texts": [
+          "بهاجافاتا بورانا",
+          "ماهابهاراتا"
+        ],
         "symbolism": "الاستقرار والدعم الكوني",
         "evolutionary_symbolism": "التحول البرمائي"
       },
@@ -571,7 +577,9 @@
         "yuga": "ساتيا يوجا",
         "purpose": "أنقذ بوديفي (الأرض) من هيرانياكشا",
         "primary_antagonist": "هيرانياكشا",
-        "associated_texts": ["فيشنو بورانا"],
+        "associated_texts": [
+          "فيشنو بورانا"
+        ],
         "symbolism": "استعادة الأرض والنظام الكوني",
         "evolutionary_symbolism": "مرحلة الحيوانات البرية"
       },
@@ -582,7 +590,9 @@
         "yuga": "ساتيا يوجا",
         "purpose": "حماية Prahlada وتدمير Hiranyakashipu",
         "primary_antagonist": "هيرانياكاشيبو",
-        "associated_texts": ["بهاجافاتا بورانا"],
+        "associated_texts": [
+          "بهاجافاتا بورانا"
+        ],
         "symbolism": "التدخل الإلهي خارج القيود المنطقية",
         "evolutionary_symbolism": "التحول من الحيوان إلى الإنسان"
       },
@@ -593,7 +603,9 @@
         "yuga": "تريتا يوجا",
         "purpose": "إخضاع الملك بالي واستعادة التوازن الكوني",
         "primary_antagonist": "ماهابالي",
-        "associated_texts": ["فيشنو بورانا"],
+        "associated_texts": [
+          "فيشنو بورانا"
+        ],
         "symbolism": "التواضع والذكاء الإلهي",
         "evolutionary_symbolism": "ظهور الإنسان الفكري"
       },
@@ -604,7 +616,10 @@
         "yuga": "الراحل تريتا يوجا",
         "purpose": "تدمير حكام كشاتريا الفاسدين",
         "weapon": "باراشو (الفأس)",
-        "associated_texts": ["ماهابهاراتا", "بوراناس"],
+        "associated_texts": [
+          "ماهابهاراتا",
+          "بوراناس"
+        ],
         "symbolism": "إعادة ضبط النظام الاجتماعي",
         "evolutionary_symbolism": "المجتمع المحارب البدائي"
       },
@@ -615,7 +630,9 @@
         "yuga": "تريتا يوجا",
         "purpose": "تدمير رافانا وإقامة الحكم الصالح",
         "primary_antagonist": "رافانا",
-        "associated_texts": ["رامايانا"],
+        "associated_texts": [
+          "رامايانا"
+        ],
         "symbolism": "تجسيد دارما",
         "evolutionary_symbolism": "الدولة الأخلاقية المتحضرة"
       },
@@ -626,7 +643,10 @@
         "yuga": "دفابارا يوجا",
         "purpose": "توجيه الإنسانية من خلال حرب ماهابهاراتا",
         "primary_antagonist": "كورافاس (الأدارما الجماعية)",
-        "associated_texts": ["ماهابهاراتا", "باجافاد جيتا"],
+        "associated_texts": [
+          "ماهابهاراتا",
+          "باجافاد جيتا"
+        ],
         "symbolism": "الحكمة الإلهية والبهاكتي",
         "evolutionary_symbolism": "الوعي الاجتماعي المتقدم"
       },
@@ -637,7 +657,9 @@
         "yuga": "أوائل كالي يوجا",
         "purpose": "إصلاح الطقوس الزائدة وتعزيز الرحمة",
         "historical_identity": "سيدهارتا غوتاما",
-        "associated_texts": ["بهاجافاتا بورانا (تفسير فايشنافا)"],
+        "associated_texts": [
+          "بهاجافاتا بورانا (تفسير فايشنافا)"
+        ],
         "symbolism": "الرحمة والتأمل",
         "evolutionary_symbolism": "الصحوة الفلسفية"
       },
@@ -648,7 +670,10 @@
         "yuga": "نهاية كالي يوجا",
         "status": "مستقبل",
         "purpose": "تدمير الأدارما وإعادة ضبط الدورة الكونية",
-        "associated_texts": ["فيشنو بورانا", "بهاجافاتا بورانا"],
+        "associated_texts": [
+          "فيشنو بورانا",
+          "بهاجافاتا بورانا"
+        ],
         "symbolism": "التجديد الدوري",
         "evolutionary_symbolism": "التحول والولادة"
       }

@@ -98,7 +98,12 @@
     "origin": {
       "meaning": "Afgeleid van het Sanskriet 'kri', wat 'handelen of doen' betekent.",
       "roots": "Vedische en Upanishadische leringen",
-      "texts": ["Veda's", "Upanishads", "Bhagavathgita", "Yoga Sutra's"]
+      "texts": [
+        "Veda's",
+        "Upanishads",
+        "Bhagavathgita",
+        "Yoga Sutra's"
+      ]
     },
     "relation_to_other_concepts": {
       "dharma": "Juiste actie volgens Dharma vermindert negatief karma.",

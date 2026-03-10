@@ -99,7 +99,12 @@
     "origin": {
       "meaning": "Afgeleid van het Sanskriet 'Purusha' (mens) en 'Artha' (doel of doel).",
       "roots": "Vedische en Dharmashastra-leringen",
-      "texts": ["Veda's", "Upanishads", "Manusmriti", "Bhagavathgita"]
+      "texts": [
+        "Veda's",
+        "Upanishads",
+        "Manusmriti",
+        "Bhagavathgita"
+      ]
     },
     "relation_to_other_concepts": {
       "dharma": "Fungeert als leidend principe voor Artha en Kama.",

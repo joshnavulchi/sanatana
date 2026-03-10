@@ -1,0 +1,33 @@
+{
+  "atharvaveda_book7_hymn9": {
+    "title": "Atharvaveda Book 7 Hymn 9",
+    "description": "This hymn belongs to Atharvaveda Book 7.",
+    "meta": {
+      "title": "Atharvaveda Book 7 Hymn 9",
+      "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-7/hymn-9",
+      "description": "This hymn belongs to Atharvaveda Book 7.",
+      "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-7/hymn-9"
+    },
+    "openGraph": {
+      "title": "Atharvaveda Book 7 Hymn 9",
+      "description": "This hymn belongs to Atharvaveda Book 7.",
+      "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-7/hymn-9",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "chapter": {
+      "slug": "atharvaveda",
+      "key": "book-7",
+      "label": "Book 7",
+      "path": "/vedas/atharvaveda/book-7"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 9,
+      "path": "/vedas/atharvaveda/book-7/hymn-9"
+    },
+    "introduction": "This hymn belongs to Atharvaveda Book 7.",
+    "scripture_text": "Traditional Atharvavedic hymn placeholder text for Book 7, Hymn 9.",
+    "philosophical_explanation": "Atharvavedic hymns integrate practical life, healing, and contemplative insight."
+  }
+}

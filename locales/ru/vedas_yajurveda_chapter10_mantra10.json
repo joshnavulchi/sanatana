@@ -1,0 +1,33 @@
+{
+  "yajurveda_chapter10_mantra10": {
+    "title": "Yajurveda Chapter 10 Mantra 10",
+    "description": "This mantra belongs to Yajurveda Chapter 10.",
+    "meta": {
+      "title": "Yajurveda Chapter 10 Mantra 10",
+      "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-10/mantra-10",
+      "description": "This mantra belongs to Yajurveda Chapter 10.",
+      "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-10/mantra-10"
+    },
+    "openGraph": {
+      "title": "Yajurveda Chapter 10 Mantra 10",
+      "description": "This mantra belongs to Yajurveda Chapter 10.",
+      "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-10/mantra-10",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "chapter": {
+      "slug": "yajurveda",
+      "key": "chapter-10",
+      "label": "Chapter 10",
+      "path": "/vedas/yajurveda/chapter-10"
+    },
+    "item": {
+      "prefix": "mantra",
+      "number": 10,
+      "path": "/vedas/yajurveda/chapter-10/mantra-10"
+    },
+    "introduction": "This mantra belongs to Yajurveda Chapter 10.",
+    "scripture_text": "Traditional Yajurvedic mantra placeholder text for Chapter 10, Mantra 10.",
+    "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention."
+  }
+}

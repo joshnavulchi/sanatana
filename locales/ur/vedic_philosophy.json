@@ -4,102 +4,24 @@
     "description": "Explore Vedic science and ancient Indian contributions to astronomy, mathematics, Ayurveda, metallurgy and architecture rooted in the wisdom of the Vedas.",
     "meta": {
       "title": "Vedic Science – Ancient Indian Scientific Knowledge",
-      "canonical": "https://sanatanadharmam.in/vedic-science",
+      "canonical": "https://sanatanadharmam.in/vedic-philosophy",
       "description": "Explore Vedic science and ancient Indian contributions to astronomy, mathematics, Ayurveda, metallurgy and architecture rooted in the wisdom of the Vedas.",
-      "keywords": [
-        "vedic science",
-        "ancient indian science",
-        "vedic astronomy",
-        "indian mathematics zero",
-        "ayurveda ancient medicine",
-        "indian metallurgy history",
-        "vastu shastra architecture",
-        "sanatana dharma science"
-      ],
-      "robots": "index, follow",
-      "url": "https://sanatanadharmam.in/vedic-science"
+      "url": "https://sanatanadharmam.in/vedic-philosophy"
     },
     "openGraph": {
       "title": "Vedic Science – Ancient Knowledge of India",
       "description": "Discover the scientific traditions of ancient India including astronomy, mathematics, Ayurveda, metallurgy and architecture rooted in Vedic knowledge.",
-      "url": "https://sanatanadharmam.in/vedic-science",
+      "url": "https://sanatanadharmam.in/vedic-philosophy",
       "siteName": "Sanatanadharmam",
-      "type": "article",
-      "images": [
-        {
-          "url": "https://sanatanadharmam.in/og/vedic-science.png",
-          "width": 1200,
-          "height": 630,
-          "alt": "Vedic Science and Ancient Indian Knowledge"
-        }
-      ]
+      "type": "article"
     },
-    "topics": [
-      "Vedic Astronomy (Jyotisha)",
-      "Ancient Indian Mathematics",
-      "Ayurveda Medicine",
-      "Indian Metallurgy",
-      "Vastu Shastra Architecture",
-      "Sanskrit and Linguistics",
-      "Yoga and Psychology"
-    ],
-    "schema": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Article",
-          "headline": "Vedic Science",
-          "description": "Overview of scientific knowledge found in ancient Indian traditions including astronomy, mathematics, medicine and architecture.",
-          "author": {
-            "@type": "Organization",
-            "name": "Sanatanadharmam"
-          },
-          "url": "https://sanatanadharmam.in/vedic-science",
-          "about": [
-            "Vedic science",
-            "Ancient Indian astronomy",
-            "Ayurveda medicine",
-            "Indian mathematics",
-            "Vastu Shastra"
-          ]
-        },
-        {
-          "@type": "ItemList",
-          "name": "Fields of Vedic Science",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Astronomy (Jyotisha)"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Mathematics"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Ayurveda Medicine"
-            },
-            {
-              "@type": "ListItem",
-              "position": 4,
-              "name": "Metallurgy"
-            },
-            {
-              "@type": "ListItem",
-              "position": 5,
-              "name": "Vastu Shastra Architecture"
-            },
-            {
-              "@type": "ListItem",
-              "position": 6,
-              "name": "Yoga and Psychology"
-            }
-          ]
-        }
-      ]
-    }
+    "introduction": "The Vedic philosophical tradition offers a multi-layered understanding of life, ethics, consciousness, and liberation.",
+    "philosophical_explanation": "Philosophical study in Sanatana Dharma is both contemplative and practical, linking metaphysical principles with lived dharma.",
+    "scripture_text": [
+      {
+        "section": "Foundations",
+        "content": "Core themes include duty, action, rebirth, liberation, non-duality, devotion, and disciplined spiritual practice."
+      }
+    ]
   }
 }

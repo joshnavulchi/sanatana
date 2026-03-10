@@ -1,0 +1,33 @@
+{
+  "yajurveda_chapter1_mantra4": {
+    "title": "Yajurveda Chapter 1 Mantra 4",
+    "description": "This mantra belongs to Yajurveda Chapter 1.",
+    "meta": {
+      "title": "Yajurveda Chapter 1 Mantra 4",
+      "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-4",
+      "description": "This mantra belongs to Yajurveda Chapter 1.",
+      "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-4"
+    },
+    "openGraph": {
+      "title": "Yajurveda Chapter 1 Mantra 4",
+      "description": "This mantra belongs to Yajurveda Chapter 1.",
+      "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-1/mantra-4",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "chapter": {
+      "slug": "yajurveda",
+      "key": "chapter-1",
+      "label": "Chapter 1",
+      "path": "/vedas/yajurveda/chapter-1"
+    },
+    "item": {
+      "prefix": "mantra",
+      "number": 4,
+      "path": "/vedas/yajurveda/chapter-1/mantra-4"
+    },
+    "introduction": "This mantra belongs to Yajurveda Chapter 1.",
+    "scripture_text": "Traditional Yajurvedic mantra placeholder text for Chapter 1, Mantra 4.",
+    "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention."
+  }
+}

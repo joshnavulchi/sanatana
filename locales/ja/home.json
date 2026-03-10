@@ -122,25 +122,25 @@
           {
             "title": "ヴェーダ",
             "description": "知恵・讃美歌・ダルマ・コスモス・解放",
-            "href": "/scriptures/vedas",
+            "href": "vedas/rigveda",
             "src": "/images/home/the-vedas.png"
           },
           {
             "title": "ウパニシャッド",
             "description": "ブラフマン・アートマン・知識・解放・統一",
-            "href": "/scriptures/upanishads",
+            "href": "vedas//upanishads",
             "src": "/images/home/the-upanishads.png"
           },
           {
             "title": "イティハーサ族",
             "description": "義務、献身、対立、ダルマ、レガシー",
-            "href": "/scriptures/itihasas",
+            "href": "itihasa",
             "src": "/images/home/the-ithihas.png"
           },
           {
             "title": "プラーナ",
             "description": "神話 · 宇宙論 · 伝説 · 信仰 · ダルマ",
-            "href": "/scriptures/puranas",
+            "href": "puranas",
             "src": "/images/home/the-puranas.png"
           }
         ]
@@ -159,31 +159,31 @@
           {
             "title": "ダルマ",
             "description": "正義・義務・調和・正義・真実",
-            "href": "/philosophy/dharma",
+            "href": "philosophy/dharma",
             "src": "/images/home/dharma.png"
           },
           {
             "title": "カルマ",
             "description": "行為・原因・結果・責任・結果",
-            "href": "/philosophy/karma",
+            "href": "philosophy/karma",
             "src": "/images/home/karma.png"
           },
           {
             "title": "モクシャ",
             "description": "解放・自由・ワンネス・至福・永遠",
-            "href": "/philosophy/moksha",
+            "href": "philosophy/moksha",
             "src": "/images/home/moksha.png"
           },
           {
             "title": "アヒムサ",
             "description": "非暴力、思いやり、敬意、調和、愛",
-            "href": "/philosophy/ahimsa",
+            "href": "philosophy/ahimsa",
             "src": "/images/home/ahimsa.png"
           },
           {
             "title": "サティヤ",
             "description": "真実・誠実・誠実・誠実・正義",
-            "href": "/philosophy/satya",
+            "href": "philosophy/satya",
             "src": "/images/home/satya.png"
           }
         ]
@@ -296,8 +296,7 @@
       "badge": "サポート: 英語、タ語、ハイ",
       "contribute": "今すぐ貢献してください",
       "guidelines": "翻訳ガイドライン",
-      "subtitle": "あなたの貢献により、私たちのウェブサイトは誰でもアクセスできるようになります。翻訳者のグローバル コミュニティに参加してください。",
-      "targeting": "目標: 10 言語 · 60% 完了"
+      "subtitle": "あなたの貢献により、私たちのウェブサイトは誰でもアクセスできるようになります。翻訳者のグローバル コミュニティに参加してください。"
     }
   }
 }

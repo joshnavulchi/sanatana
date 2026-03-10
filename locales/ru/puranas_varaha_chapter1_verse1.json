@@ -1,0 +1,30 @@
+{
+  "varaha_chapter1_verse1": {
+    "title": "Varaha Purana Chapter 1 Verse 1",
+    "description": "Verse 1 from Varaha Purana, Chapter 1.",
+    "meta": {
+      "title": "Varaha Purana Chapter 1 Verse 1",
+      "canonical": "https://sanatanadharmam.in/puranas/varaha/chapter-1/verse-1",
+      "description": "Verse 1 from Varaha Purana, Chapter 1.",
+      "url": "https://sanatanadharmam.in/puranas/varaha/chapter-1/verse-1"
+    },
+    "openGraph": {
+      "title": "Varaha Purana Chapter 1 Verse 1",
+      "description": "Verse 1 from Varaha Purana, Chapter 1.",
+      "url": "https://sanatanadharmam.in/puranas/varaha/chapter-1/verse-1",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This verse belongs to Varaha Purana, Chapter 1.",
+    "scripture_text": "Placeholder Sanskrit/translation content for Varaha Purana, Chapter 1, Verse 1.",
+    "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Varaha Purana.",
+    "chapter": {
+      "number": 1,
+      "path": "/puranas/varaha/chapter-1"
+    },
+    "verse": {
+      "number": 1,
+      "path": "/puranas/varaha/chapter-1/verse-1"
+    }
+  }
+}

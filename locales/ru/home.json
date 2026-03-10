@@ -122,25 +122,25 @@
           {
             "title": "Веды",
             "description": "Мудрость · Гимны · Дхарма · Космос · Освобождение",
-            "href": "/scriptures/vedas",
+            "href": "vedas/rigveda",
             "src": "/images/home/the-vedas.png"
           },
           {
             "title": "Упанишады",
             "description": "Брахман · Атман · Знание · Освобождение · Единство",
-            "href": "/scriptures/upanishads",
+            "href": "vedas//upanishads",
             "src": "/images/home/the-upanishads.png"
           },
           {
             "title": "Итихасы",
             "description": "Долг · Преданность · Конфликт · Дхарма · Наследие",
-            "href": "/scriptures/itihasas",
+            "href": "itihasa",
             "src": "/images/home/the-ithihas.png"
           },
           {
             "title": "Пураны",
             "description": "Мифология · Космология · Легенды · Преданность · Дхарма",
-            "href": "/scriptures/puranas",
+            "href": "puranas",
             "src": "/images/home/the-puranas.png"
           }
         ]
@@ -159,31 +159,31 @@
           {
             "title": "Дхарма",
             "description": "Праведность · Долг · Гармония · Справедливость · Истина",
-            "href": "/philosophy/dharma",
+            "href": "philosophy/dharma",
             "src": "/images/home/dharma.png"
           },
           {
             "title": "Карма",
             "description": "Действие · Причина · Следствие · Ответственность · Последствие",
-            "href": "/philosophy/karma",
+            "href": "philosophy/karma",
             "src": "/images/home/karma.png"
           },
           {
             "title": "Мокша",
             "description": "Освобождение · Свобода · Единство · Блаженство · Вечность",
-            "href": "/philosophy/moksha",
+            "href": "philosophy/moksha",
             "src": "/images/home/moksha.png"
           },
           {
             "title": "Ахимса",
             "description": "Ненасилие · Сострадание · Уважение · Гармония · Любовь",
-            "href": "/philosophy/ahimsa",
+            "href": "philosophy/ahimsa",
             "src": "/images/home/ahimsa.png"
           },
           {
             "title": "Сатья",
             "description": "Истина · Честность · Честность · Подлинность · Праведность",
-            "href": "/philosophy/satya",
+            "href": "philosophy/satya",
             "src": "/images/home/satya.png"
           }
         ]
@@ -296,8 +296,7 @@
       "badge": "Поддерживается: EN, TA, HI",
       "contribute": "Внесите свой вклад сейчас",
       "guidelines": "Рекомендации по переводу",
-      "subtitle": "Ваш вклад делает наш сайт доступным для всех. Присоединяйтесь к нашему глобальному сообществу переводчиков.",
-      "targeting": "Таргетинг: 10 языков · выполнено 60 %"
+      "subtitle": "Ваш вклад делает наш сайт доступным для всех. Присоединяйтесь к нашему глобальному сообществу переводчиков."
     }
   }
 }

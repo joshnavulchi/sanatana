@@ -76,7 +76,11 @@
       "脱离物质欲望"
     ],
     "definition": "解脱是印度教哲学的终极目标，意味着从生死轮回（轮回）中解放出来，并与至高现实结合。",
-    "goals": ["结束痛苦和无知", "获得永恒的幸福", "体悟存在的真实本质"],
+    "goals": [
+      "结束痛苦和无知",
+      "获得永恒的幸福",
+      "体悟存在的真实本质"
+    ],
     "key_scriptural_references": [
       {
         "quote_summary": "解脱来自奉献、知识和无私的行动。",
@@ -177,7 +181,11 @@
     "origin": {
       "meaning": "源自梵文“muc”，意思是“释放或解放”。",
       "roots": "吠陀和奥义书教义",
-      "texts": ["奥义书", "薄伽梵歌", "梵天经"]
+      "texts": [
+        "奥义书",
+        "薄伽梵歌",
+        "梵天经"
+      ]
     },
     "paths_to_moksha": {
       "bhakti_yoga": "Path of devotion and surrender to God.",

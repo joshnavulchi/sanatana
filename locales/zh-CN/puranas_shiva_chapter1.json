@@ -1,0 +1,26 @@
+{
+  "shiva_chapter1": {
+    "title": "Shiva Purana Chapter 1",
+    "description": "Chapter 1 from Shiva Purana.",
+    "meta": {
+      "title": "Shiva Purana Chapter 1",
+      "canonical": "https://sanatanadharmam.in/puranas/shiva/chapter-1",
+      "description": "Chapter 1 from Shiva Purana.",
+      "url": "https://sanatanadharmam.in/puranas/shiva/chapter-1"
+    },
+    "openGraph": {
+      "title": "Shiva Purana Chapter 1",
+      "description": "Chapter 1 from Shiva Purana.",
+      "url": "https://sanatanadharmam.in/puranas/shiva/chapter-1",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This chapter belongs to Shiva Purana.",
+    "scripture_text": "Chapter-level summary text for Shiva Purana, Chapter 1.",
+    "philosophical_explanation": "Shiva Purana chapters combine dharma, devotion, and symbolic teaching.",
+    "chapter": {
+      "number": 1,
+      "path": "/puranas/shiva/chapter-1"
+    }
+  }
+}

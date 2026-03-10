@@ -122,25 +122,25 @@
           {
             "title": "De Veda's",
             "description": "Wijsheid · Hymnen · Dharma · Kosmos · Bevrijding",
-            "href": "/scriptures/vedas",
+            "href": "vedas/rigveda",
             "src": "/images/home/the-vedas.png"
           },
           {
             "title": "De Upanishads",
             "description": "Brahman · Atman · Kennis · Bevrijding · Eenheid",
-            "href": "/scriptures/upanishads",
+            "href": "vedas//upanishads",
             "src": "/images/home/the-upanishads.png"
           },
           {
             "title": "De Itihasa's",
             "description": "Plicht · Toewijding · Conflict · Dharma · Erfenis",
-            "href": "/scriptures/itihasas",
+            "href": "itihasa",
             "src": "/images/home/the-ithihas.png"
           },
           {
             "title": "Purāna's",
             "description": "Mythologie · Kosmologie · Legenden · Toewijding · Dharma",
-            "href": "/scriptures/puranas",
+            "href": "puranas",
             "src": "/images/home/the-puranas.png"
           }
         ]
@@ -159,31 +159,31 @@
           {
             "title": "Dharma",
             "description": "Gerechtigheid · Plicht · Harmonie · Gerechtigheid · Waarheid",
-            "href": "/philosophy/dharma",
+            "href": "philosophy/dharma",
             "src": "/images/home/dharma.png"
           },
           {
             "title": "Karma",
             "description": "Actie · Oorzaak · Gevolg · Verantwoordelijkheid · Gevolg",
-            "href": "/philosophy/karma",
+            "href": "philosophy/karma",
             "src": "/images/home/karma.png"
           },
           {
             "title": "Moksha",
             "description": "Bevrijding · Vrijheid · Eenheid · Gelukzaligheid · Eeuwigheid",
-            "href": "/philosophy/moksha",
+            "href": "philosophy/moksha",
             "src": "/images/home/moksha.png"
           },
           {
             "title": "Ahimsa",
             "description": "Geweldloosheid · Mededogen · Respect · Harmonie · Liefde",
-            "href": "/philosophy/ahimsa",
+            "href": "philosophy/ahimsa",
             "src": "/images/home/ahimsa.png"
           },
           {
             "title": "Satya",
             "description": "Waarheid · Eerlijkheid · Integriteit · Authenticiteit · Rechtschapenheid",
-            "href": "/philosophy/satya",
+            "href": "philosophy/satya",
             "src": "/images/home/satya.png"
           }
         ]
@@ -296,8 +296,7 @@
       "badge": "Ondersteund: EN, TA, HI",
       "contribute": "Draag nu bij",
       "guidelines": "Vertaalrichtlijnen",
-      "subtitle": "Jouw bijdrage maakt onze website voor iedereen toegankelijk. Sluit u aan bij onze wereldwijde gemeenschap van vertalers.",
-      "targeting": "Targeting: 10 talen · 60% voltooid"
+      "subtitle": "Jouw bijdrage maakt onze website voor iedereen toegankelijk. Sluit u aan bij onze wereldwijde gemeenschap van vertalers."
     }
   }
 }

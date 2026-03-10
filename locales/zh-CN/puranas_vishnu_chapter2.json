@@ -1,0 +1,26 @@
+{
+  "vishnu_chapter2": {
+    "title": "Vishnu Purana Chapter 2",
+    "description": "Chapter 2 from Vishnu Purana.",
+    "meta": {
+      "title": "Vishnu Purana Chapter 2",
+      "canonical": "https://sanatanadharmam.in/puranas/vishnu/chapter-2",
+      "description": "Chapter 2 from Vishnu Purana.",
+      "url": "https://sanatanadharmam.in/puranas/vishnu/chapter-2"
+    },
+    "openGraph": {
+      "title": "Vishnu Purana Chapter 2",
+      "description": "Chapter 2 from Vishnu Purana.",
+      "url": "https://sanatanadharmam.in/puranas/vishnu/chapter-2",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This chapter belongs to Vishnu Purana.",
+    "scripture_text": "Chapter-level summary text for Vishnu Purana, Chapter 2.",
+    "philosophical_explanation": "Vishnu Purana chapters combine dharma, devotion, and symbolic teaching.",
+    "chapter": {
+      "number": 2,
+      "path": "/puranas/vishnu/chapter-2"
+    }
+  }
+}

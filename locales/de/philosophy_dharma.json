@@ -98,12 +98,22 @@
             "Vanaprastha",
             "Sannyasa"
           ],
-          "varna_duties": ["Brahmana", "Kshatriya", "Vaishya", "Shudra"]
+          "varna_duties": [
+            "Brahmana",
+            "Kshatriya",
+            "Vaishya",
+            "Shudra"
+          ]
         },
         "meaning": "Pflichten basierend auf der Lebensphase und der Rolle in der Gesellschaft"
       },
       "yugadharma": {
-        "examples": ["Satya Yuga", "Treta", "Dvapara", "Kali Yuga"],
+        "examples": [
+          "Satya Yuga",
+          "Treta",
+          "Dvapara",
+          "Kali Yuga"
+        ],
         "meaning": "Dharma, passend zur Ära (Yuga), basierend auf gesellschaftlichen Bedürfnissen."
       }
     },
@@ -120,14 +130,25 @@
       "tapas": "Selbstdisziplin"
     },
     "daily_life_application": {
-      "family_dharma": ["Respektieren", "Verantwortung", "Pflege"],
-      "global_dharma": ["Nachhaltig leben", "Frieden fördern"],
+      "family_dharma": [
+        "Respektieren",
+        "Verantwortung",
+        "Pflege"
+      ],
+      "global_dharma": [
+        "Nachhaltig leben",
+        "Frieden fördern"
+      ],
       "professional_dharma": [
         "Ehrlichkeit",
         "Kompetenz",
         "Rechenschaftspflicht"
       ],
-      "spiritual_dharma": ["Meditation", "Selbststudium", "Mitgefühl"]
+      "spiritual_dharma": [
+        "Meditation",
+        "Selbststudium",
+        "Mitgefühl"
+      ]
     },
     "definition": [
       "Gerechtigkeit",
@@ -210,10 +231,25 @@
       }
     ],
     "modern_relevance": {
-      "environment": ["Harmonie mit der Natur", "Nachhaltigkeit"],
-      "ethics": ["Wahrheit", "Gewaltlosigkeit", "Respektieren"],
-      "individual": ["Geistiger Frieden", "Selbstdisziplin", "Zweck"],
-      "society": ["Gleichwertigkeit", "Gerechtigkeit", "Verantwortung"]
+      "environment": [
+        "Harmonie mit der Natur",
+        "Nachhaltigkeit"
+      ],
+      "ethics": [
+        "Wahrheit",
+        "Gewaltlosigkeit",
+        "Respektieren"
+      ],
+      "individual": [
+        "Geistiger Frieden",
+        "Selbstdisziplin",
+        "Zweck"
+      ],
+      "society": [
+        "Gleichwertigkeit",
+        "Gerechtigkeit",
+        "Verantwortung"
+      ]
     },
     "philosophical_dimensions": {
       "cosmic_dharma": "Universelle Ordnung (Rta), die Natur und Gleichgewicht regelt.",
@@ -228,15 +264,26 @@
       "yoga": "Ethische Grundlagen – Yamas & Niyamas."
     },
     "scriptural_sources": {
-      "epics": ["Ramayana", "Mahabharata", "Bhagavathgita"],
+      "epics": [
+        "Ramayana",
+        "Mahabharata",
+        "Bhagavathgita"
+      ],
       "puranas": [
         "Bhagavata Purana",
         "Padma Purana",
         "Vishnu Purana",
         "Skanda Purana"
       ],
-      "shruti": ["Veden", "Upanishaden"],
-      "smriti": ["Manusmriti", "Yajnavalkya Smriti", "Narada Smriti"]
+      "shruti": [
+        "Veden",
+        "Upanishaden"
+      ],
+      "smriti": [
+        "Manusmriti",
+        "Yajnavalkya Smriti",
+        "Narada Smriti"
+      ]
     }
   }
 }

@@ -1,0 +1,26 @@
+{
+  "narada_chapter4": {
+    "title": "Narada Purana Chapter 4",
+    "description": "Chapter 4 from Narada Purana.",
+    "meta": {
+      "title": "Narada Purana Chapter 4",
+      "canonical": "https://sanatanadharmam.in/puranas/narada/chapter-4",
+      "description": "Chapter 4 from Narada Purana.",
+      "url": "https://sanatanadharmam.in/puranas/narada/chapter-4"
+    },
+    "openGraph": {
+      "title": "Narada Purana Chapter 4",
+      "description": "Chapter 4 from Narada Purana.",
+      "url": "https://sanatanadharmam.in/puranas/narada/chapter-4",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This chapter belongs to Narada Purana.",
+    "scripture_text": "Chapter-level summary text for Narada Purana, Chapter 4.",
+    "philosophical_explanation": "Narada Purana chapters combine dharma, devotion, and symbolic teaching.",
+    "chapter": {
+      "number": 4,
+      "path": "/puranas/narada/chapter-4"
+    }
+  }
+}

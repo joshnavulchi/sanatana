@@ -1,0 +1,30 @@
+{
+  "bhagavata_skanda3_chapter4": {
+    "title": "Bhagavata Skanda 3 Chapter 4",
+    "description": "Chapter 4 from Bhagavata Skanda 3.",
+    "meta": {
+      "title": "Bhagavata Skanda 3 Chapter 4",
+      "canonical": "https://sanatanadharmam.in/puranas/bhagavata/skanda-3/chapter-4",
+      "description": "Chapter 4 from Bhagavata Skanda 3.",
+      "url": "https://sanatanadharmam.in/puranas/bhagavata/skanda-3/chapter-4"
+    },
+    "openGraph": {
+      "title": "Bhagavata Skanda 3 Chapter 4",
+      "description": "Chapter 4 from Bhagavata Skanda 3.",
+      "url": "https://sanatanadharmam.in/puranas/bhagavata/skanda-3/chapter-4",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This chapter belongs to Bhagavata Skanda 3.",
+    "scripture_text": "Chapter-level summary text for Bhagavata Skanda 3, Chapter 4.",
+    "philosophical_explanation": "Each Bhagavata chapter blends narrative devotion with Vedantic insight.",
+    "skanda": {
+      "number": 3,
+      "path": "/puranas/bhagavata/skanda-3"
+    },
+    "chapter": {
+      "number": 4,
+      "path": "/puranas/bhagavata/skanda-3/chapter-4"
+    }
+  }
+}

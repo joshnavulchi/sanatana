@@ -1,0 +1,26 @@
+{
+  "bhagavata_skanda4": {
+    "title": "Bhagavata Skanda 4",
+    "description": "Structure and chapter overview of Bhagavata Skanda 4.",
+    "meta": {
+      "title": "Bhagavata Skanda 4",
+      "canonical": "https://sanatanadharmam.in/puranas/bhagavata/skanda-4",
+      "description": "Structure and chapter overview of Bhagavata Skanda 4.",
+      "url": "https://sanatanadharmam.in/puranas/bhagavata/skanda-4"
+    },
+    "openGraph": {
+      "title": "Bhagavata Skanda 4",
+      "description": "Structure and chapter overview of Bhagavata Skanda 4.",
+      "url": "https://sanatanadharmam.in/puranas/bhagavata/skanda-4",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "Skanda 4 of the Bhagavata Purana groups chapters into a devotional and philosophical progression.",
+    "scripture_text": "This skanda contains chapter-level teachings that prepare the reader for deeper verse-by-verse study.",
+    "philosophical_explanation": "Bhagavata skandas are designed to progressively refine bhakti, ethics, and spiritual understanding.",
+    "skanda": {
+      "number": 4,
+      "path": "/puranas/bhagavata/skanda-4"
+    }
+  }
+}

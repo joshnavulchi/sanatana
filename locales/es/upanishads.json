@@ -44,13 +44,23 @@
             "name": "Upanishads"
           },
           "inLanguage": "sánscrito",
-          "about": ["filosofía vedanta", "Atmán", "Brahmán", "Sanatana Dharma"],
+          "about": [
+            "filosofía vedanta",
+            "Atmán",
+            "Brahmán",
+            "Sanatana Dharma"
+          ],
           "url": "https://sanatanadharmam.in/upanishads/isha"
         },
         {
           "@type": "Artículo",
           "headline": "Isha Upanishad – Enseñanzas sobre Brahman y la Renuncia",
-          "about": ["Upanishads", "vedanta", "Brahmán", "Atmán"],
+          "about": [
+            "Upanishads",
+            "vedanta",
+            "Brahmán",
+            "Atmán"
+          ],
           "isPartOf": {
             "@type": "Sitio web",
             "name": "Sanatanadharmam",

@@ -549,7 +549,10 @@
         "yuga": "Satya Yuga",
         "purpose": "Sauvez les Vedas et Manu du déluge cosmique",
         "primary_antagonist": "Hayagriva (dans certaines traditions)",
-        "associated_texts": ["Bhagavata Purana", "Vishnu Purana"],
+        "associated_texts": [
+          "Bhagavata Purana",
+          "Vishnu Purana"
+        ],
         "symbolism": "Début de la vie ; préservation des connaissances",
         "evolutionary_symbolism": "Stade de la vie aquatique"
       },
@@ -560,7 +563,10 @@
         "yuga": "Satya Yuga",
         "purpose": "Soutenez le mont Mandara pendant Samudra Manthana",
         "primary_event": "Barattage de l'océan",
-        "associated_texts": ["Bhagavata Purana", "Mahabharata"],
+        "associated_texts": [
+          "Bhagavata Purana",
+          "Mahabharata"
+        ],
         "symbolism": "Stabilité et soutien cosmique",
         "evolutionary_symbolism": "Transition amphibie"
       },
@@ -571,7 +577,9 @@
         "yuga": "Satya Yuga",
         "purpose": "Sauvez Bhudevi (Terre) de Hiranyaksha",
         "primary_antagonist": "Hiranyaksha",
-        "associated_texts": ["Vishnu Purana"],
+        "associated_texts": [
+          "Vishnu Purana"
+        ],
         "symbolism": "Restauration de la Terre et ordre cosmique",
         "evolutionary_symbolism": "Stade des animaux terrestres"
       },
@@ -582,7 +590,9 @@
         "yuga": "Satya Yuga",
         "purpose": "Protégez Prahlada et détruisez Hiranyakashipu",
         "primary_antagonist": "Hiranyakashipu",
-        "associated_texts": ["Bhagavata Purana"],
+        "associated_texts": [
+          "Bhagavata Purana"
+        ],
         "symbolism": "Intervention divine au-delà des contraintes logiques",
         "evolutionary_symbolism": "Transition de l'animal à l'humain"
       },
@@ -593,7 +603,9 @@
         "yuga": "Treta Yuga",
         "purpose": "Soumettez le roi Bali et rétablissez l’équilibre cosmique",
         "primary_antagonist": "Mahabali",
-        "associated_texts": ["Vishnu Purana"],
+        "associated_texts": [
+          "Vishnu Purana"
+        ],
         "symbolism": "Humilité et intelligence divine",
         "evolutionary_symbolism": "Émergence de l’intellectuel humain"
       },
@@ -604,7 +616,10 @@
         "yuga": "Treta Yuga tardif",
         "purpose": "Détruisez les dirigeants corrompus de Kshatriya",
         "weapon": "Parashu (hache)",
-        "associated_texts": ["Mahabharata", "Puranas"],
+        "associated_texts": [
+          "Mahabharata",
+          "Puranas"
+        ],
         "symbolism": "Réinitialisation de l’ordre social",
         "evolutionary_symbolism": "Société guerrière primitive"
       },
@@ -615,7 +630,9 @@
         "yuga": "Treta Yuga",
         "purpose": "Détruisez Ravana et établissez un règne juste",
         "primary_antagonist": "Ravana",
-        "associated_texts": ["Ramayana"],
+        "associated_texts": [
+          "Ramayana"
+        ],
         "symbolism": "Incarnation du Dharma",
         "evolutionary_symbolism": "État moral civilisé"
       },
@@ -626,7 +643,10 @@
         "yuga": "Dvapara Yuga",
         "purpose": "Guidez l'humanité à travers la guerre du Mahabharata",
         "primary_antagonist": "Kauravas (adharma collectif)",
-        "associated_texts": ["Mahabharata", "Bhagavad Gita"],
+        "associated_texts": [
+          "Mahabharata",
+          "Bhagavad Gita"
+        ],
         "symbolism": "Sagesse divine et Bhakti",
         "evolutionary_symbolism": "Conscience sociale avancée"
       },
@@ -637,7 +657,9 @@
         "yuga": "Début du Kali Yuga",
         "purpose": "Réformer les excès rituels et promouvoir la compassion",
         "historical_identity": "Siddharta Gautama",
-        "associated_texts": ["Bhagavata Purana (interprétation Vaishnava)"],
+        "associated_texts": [
+          "Bhagavata Purana (interprétation Vaishnava)"
+        ],
         "symbolism": "Compassion et introspection",
         "evolutionary_symbolism": "Éveil philosophique"
       },
@@ -648,7 +670,10 @@
         "yuga": "Fin du Kali Yuga",
         "status": "Avenir",
         "purpose": "Détruisez l'adharma et réinitialisez le cycle cosmique",
-        "associated_texts": ["Vishnu Purana", "Bhagavata Purana"],
+        "associated_texts": [
+          "Vishnu Purana",
+          "Bhagavata Purana"
+        ],
         "symbolism": "Renouvellement cyclique",
         "evolutionary_symbolism": "Transformation et renaissance"
       }

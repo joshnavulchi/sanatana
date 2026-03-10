@@ -3,6 +3,8 @@ import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import Loader from '@components/loader';
+import Link from 'next/link';
+import { MAHABHARATA_PARVAS, toTitleFromSlug } from '../itihasa-utils';
 
 function Paragraphs({ text, className = '' }: { text: string; className?: string }) {
   return (
@@ -96,6 +98,27 @@ export default function MahabharataClient() {
           </div>
         </div>
       )}
+
+      <div className="mt-8">
+        <h2 className="text-2xl font-bold text-[#3d2e22] mb-6">Parvas</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          {MAHABHARATA_PARVAS.map((parva, idx) => (
+            <Link key={parva} href={`/itihasa/mahabharata/${parva}`} className="group block">
+              <div className="relative overflow-hidden rounded-2xl border border-[#d8a25a]/50 bg-[#fffaf0] p-5 shadow-[0_8px_30px_rgba(146,64,14,0.08)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(166,61,23,0.18)]">
+                <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-[#7a2e1f] via-[#c2410c] to-[#f59e0b]" />
+                <div className="flex items-center gap-3 mt-2">
+                  <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-[#7a2e1f]/15 text-sm font-bold text-[#7a2e1f]">
+                    {idx + 1}
+                  </span>
+                  <h3 className="text-base font-bold text-[#3d2e22] group-hover:text-[#7a2e1f] transition-colors">
+                    {toTitleFromSlug(parva)}
+                  </h3>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </div>
     </PageLayout>
   );
 }

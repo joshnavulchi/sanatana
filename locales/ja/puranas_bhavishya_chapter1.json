@@ -1,0 +1,26 @@
+{
+  "bhavishya_chapter1": {
+    "title": "Bhavishya Purana Chapter 1",
+    "description": "Chapter 1 from Bhavishya Purana.",
+    "meta": {
+      "title": "Bhavishya Purana Chapter 1",
+      "canonical": "https://sanatanadharmam.in/puranas/bhavishya/chapter-1",
+      "description": "Chapter 1 from Bhavishya Purana.",
+      "url": "https://sanatanadharmam.in/puranas/bhavishya/chapter-1"
+    },
+    "openGraph": {
+      "title": "Bhavishya Purana Chapter 1",
+      "description": "Chapter 1 from Bhavishya Purana.",
+      "url": "https://sanatanadharmam.in/puranas/bhavishya/chapter-1",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This chapter belongs to Bhavishya Purana.",
+    "scripture_text": "Chapter-level summary text for Bhavishya Purana, Chapter 1.",
+    "philosophical_explanation": "Bhavishya Purana chapters combine dharma, devotion, and symbolic teaching.",
+    "chapter": {
+      "number": 1,
+      "path": "/puranas/bhavishya/chapter-1"
+    }
+  }
+}

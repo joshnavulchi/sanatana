@@ -113,7 +113,11 @@
       "founder": "Adi Shankaracharya",
       "meaning": "Advaita significa 'não-dual' em sânscrito.",
       "roots": "Upanishads e Brahma Sutras",
-      "texts": ["Upanishads", "Bhagavathgita", "Brahma Sutras"]
+      "texts": [
+        "Upanishads",
+        "Bhagavathgita",
+        "Brahma Sutras"
+      ]
     },
     "paths_to_realization": {
       "jnana_yoga": "Path of knowledge and self-inquiry.",

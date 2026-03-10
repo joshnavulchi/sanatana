@@ -98,7 +98,12 @@
     "origin": {
       "meaning": "Abgeleitet vom Sanskrit „kri“, was „handeln oder tun“ bedeutet.",
       "roots": "Vedische und upanischadische Lehren",
-      "texts": ["Veden", "Upanishaden", "Bhagavathgita", "Yoga-Sutras"]
+      "texts": [
+        "Veden",
+        "Upanishaden",
+        "Bhagavathgita",
+        "Yoga-Sutras"
+      ]
     },
     "relation_to_other_concepts": {
       "dharma": "Richtiges Handeln gemäß Dharma reduziert negatives Karma.",

@@ -113,7 +113,11 @@
       "founder": "アディ・シャンカラチャリヤ",
       "meaning": "アドヴァイタとはサンスクリット語で「非二元」を意味します。",
       "roots": "ウパニシャッドとブラフマー・スートラ",
-      "texts": ["ウパニシャッド", "バガヴァトギーター", "梵天経"]
+      "texts": [
+        "ウパニシャッド",
+        "バガヴァトギーター",
+        "梵天経"
+      ]
     },
     "paths_to_realization": {
       "jnana_yoga": "Path of knowledge and self-inquiry.",

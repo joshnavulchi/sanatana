@@ -549,7 +549,10 @@
         "yuga": "ستیہ یوگا",
         "purpose": "ویدوں اور منو کو کائناتی سیلاب سے بچائیں۔",
         "primary_antagonist": "حیاگریوا (بعض روایات میں)",
-        "associated_texts": ["بھگوت پران", "وشنو پران"],
+        "associated_texts": [
+          "بھگوت پران",
+          "وشنو پران"
+        ],
         "symbolism": "زندگی کا آغاز؛ علم کی حفاظت",
         "evolutionary_symbolism": "آبی زندگی کا مرحلہ"
       },
@@ -560,7 +563,10 @@
         "yuga": "ستیہ یوگا",
         "purpose": "سمندر منتھنا کے دوران ماؤنٹ مندارا کو سپورٹ کریں۔",
         "primary_event": "سمندر کا منتھنا",
-        "associated_texts": ["بھگوت پران", "مہابھارت"],
+        "associated_texts": [
+          "بھگوت پران",
+          "مہابھارت"
+        ],
         "symbolism": "استحکام اور کائناتی سپورٹ",
         "evolutionary_symbolism": "ایمفبیئن کی منتقلی۔"
       },
@@ -571,7 +577,9 @@
         "yuga": "ستیہ یوگا",
         "purpose": "بھودیوی (زمین) کو ہیرانیکش سے بچائیں۔",
         "primary_antagonist": "ہیرانیکشا۔",
-        "associated_texts": ["وشنو پران"],
+        "associated_texts": [
+          "وشنو پران"
+        ],
         "symbolism": "زمین اور کائناتی ترتیب کی بحالی",
         "evolutionary_symbolism": "زمینی جانوروں کا مرحلہ"
       },
@@ -582,7 +590,9 @@
         "yuga": "ستیہ یوگا",
         "purpose": "پرہلدا کی حفاظت کریں اور ہیرانیاکشیپو کو تباہ کریں۔",
         "primary_antagonist": "ہیرانیاکشپو",
-        "associated_texts": ["بھگوت پران"],
+        "associated_texts": [
+          "بھگوت پران"
+        ],
         "symbolism": "منطقی رکاوٹوں سے بالاتر الہی مداخلت",
         "evolutionary_symbolism": "جانور سے انسان میں منتقلی۔"
       },
@@ -593,7 +603,9 @@
         "yuga": "تریتا یوگ",
         "purpose": "کنگ بالی کو زیر کریں اور کائناتی توازن بحال کریں۔",
         "primary_antagonist": "مہابلی",
-        "associated_texts": ["وشنو پران"],
+        "associated_texts": [
+          "وشنو پران"
+        ],
         "symbolism": "عاجزی اور خدائی ذہانت",
         "evolutionary_symbolism": "دانشور انسان کا ظہور"
       },
@@ -604,7 +616,10 @@
         "yuga": "مرحوم تریتا یوگ",
         "purpose": "کرپٹ کھشتری حکمرانوں کو نیست و نابود کریں۔",
         "weapon": "پارشو (کلہاڑی)",
-        "associated_texts": ["مہابھارت", "پرانوں"],
+        "associated_texts": [
+          "مہابھارت",
+          "پرانوں"
+        ],
         "symbolism": "سماجی ترتیب کی بحالی",
         "evolutionary_symbolism": "قدیم جنگجو معاشرہ"
       },
@@ -615,7 +630,9 @@
         "yuga": "تریتا یوگ",
         "purpose": "راون کو نیست و نابود کر کے صالح حکمرانی قائم کرو",
         "primary_antagonist": "راون",
-        "associated_texts": ["رامائن"],
+        "associated_texts": [
+          "رامائن"
+        ],
         "symbolism": "دھرم کا مجسمہ",
         "evolutionary_symbolism": "مہذب اخلاقی ریاست"
       },
@@ -626,7 +643,10 @@
         "yuga": "دوپارہ یوگا",
         "purpose": "مہابھارت جنگ کے ذریعے انسانیت کی رہنمائی کریں۔",
         "primary_antagonist": "کوراواس (اجتماعی ادھرم)",
-        "associated_texts": ["مہابھارت", "بھگواد گیتا"],
+        "associated_texts": [
+          "مہابھارت",
+          "بھگواد گیتا"
+        ],
         "symbolism": "الہی حکمت اور بھکتی",
         "evolutionary_symbolism": "اعلی درجے کا سماجی شعور"
       },
@@ -637,7 +657,9 @@
         "yuga": "ابتدائی کالی یوگ",
         "purpose": "رسم کی زیادتی کی اصلاح کریں اور ہمدردی کو فروغ دیں۔",
         "historical_identity": "سدھارتھ گوتم",
-        "associated_texts": ["بھگوت پران (ویشنو تشریح)"],
+        "associated_texts": [
+          "بھگوت پران (ویشنو تشریح)"
+        ],
         "symbolism": "ہمدردی اور خود شناسی",
         "evolutionary_symbolism": "فلسفیانہ بیداری"
       },
@@ -648,7 +670,10 @@
         "yuga": "کالی یوگ کا خاتمہ",
         "status": "مستقبل",
         "purpose": "ادھرم کو تباہ کریں اور کائناتی چکر کو دوبارہ ترتیب دیں۔",
-        "associated_texts": ["وشنو پران", "بھگوت پران"],
+        "associated_texts": [
+          "وشنو پران",
+          "بھگوت پران"
+        ],
         "symbolism": "سائیکلیکل تجدید",
         "evolutionary_symbolism": "تبدیلی اور پنر جنم"
       }

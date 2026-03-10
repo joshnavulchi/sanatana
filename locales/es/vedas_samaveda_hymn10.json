@@ -1,0 +1,33 @@
+{
+  "samaveda_hymn10": {
+    "title": "Legacy of Samavedic Music",
+    "description": "The musical traditions of the Samaveda have had a lasting influence on Indian culture, spirituality and the performing arts.",
+    "meta": {
+      "title": "Legacy of Samavedic Music",
+      "canonical": "https://sanatanadharmam.in/vedas/samaveda/hymn-10",
+      "description": "The musical traditions of the Samaveda have had a lasting influence on Indian culture, spirituality and the performing arts.",
+      "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-10"
+    },
+    "openGraph": {
+      "title": "Legacy of Samavedic Music",
+      "description": "The musical traditions of the Samaveda have had a lasting influence on Indian culture, spirituality and the performing arts.",
+      "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-10",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "chapter": {
+      "slug": "samaveda",
+      "key": "hymn-10",
+      "label": "Hymn 10",
+      "path": "/vedas/samaveda/hymn-10"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 10,
+      "path": "/vedas/samaveda/hymn-10"
+    },
+    "introduction": "The musical traditions of the Samaveda have had a lasting influence on Indian culture, spirituality and the performing arts.",
+    "scripture_text": "The seven-note system of the Samaveda is widely regarded as the precursor to the Saptaswara system of Indian classical music. The devotional singing traditions of Bhajan and Kirtan trace their spiritual lineage back to the Samavedic emphasis on musical worship.",
+    "philosophical_explanation": "The Samaveda's enduring legacy lies in its demonstration that beauty and truth are inseparable. Sacred music is not merely an accompaniment to spiritual practice but is itself a direct path to the divine."
+  }
+}

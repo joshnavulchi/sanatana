@@ -122,25 +122,25 @@
           {
             "title": "Os Vedas",
             "description": "Sabedoria · Hinos · Dharma · Cosmos · Libertação",
-            "href": "/scriptures/vedas",
+            "href": "vedas/rigveda",
             "src": "/images/home/the-vedas.png"
           },
           {
             "title": "Os Upanishads",
             "description": "Brahman · Atman · Conhecimento · Libertação · Unidade",
-            "href": "/scriptures/upanishads",
+            "href": "vedas//upanishads",
             "src": "/images/home/the-upanishads.png"
           },
           {
             "title": "Os Itihasas",
             "description": "Dever · Devoção · Conflito · Dharma · Legado",
-            "href": "/scriptures/itihasas",
+            "href": "itihasa",
             "src": "/images/home/the-ithihas.png"
           },
           {
             "title": "Puranas",
             "description": "Mitologia · Cosmologia · Lendas · Devoção · Dharma",
-            "href": "/scriptures/puranas",
+            "href": "puranas",
             "src": "/images/home/the-puranas.png"
           }
         ]
@@ -159,31 +159,31 @@
           {
             "title": "Dharma",
             "description": "Retidão · Dever · Harmonia · Justiça · Verdade",
-            "href": "/philosophy/dharma",
+            "href": "philosophy/dharma",
             "src": "/images/home/dharma.png"
           },
           {
             "title": "Carma",
             "description": "Ação · Causa · Efeito · Responsabilidade · Consequência",
-            "href": "/philosophy/karma",
+            "href": "philosophy/karma",
             "src": "/images/home/karma.png"
           },
           {
             "title": "Moksha",
             "description": "Libertação · Liberdade · Unidade · Bem-aventurança · Eternidade",
-            "href": "/philosophy/moksha",
+            "href": "philosophy/moksha",
             "src": "/images/home/moksha.png"
           },
           {
             "title": "Ahimsa",
             "description": "Não‑violência · Compaixão · Respeito · Harmonia · Amor",
-            "href": "/philosophy/ahimsa",
+            "href": "philosophy/ahimsa",
             "src": "/images/home/ahimsa.png"
           },
           {
             "title": "Satya",
             "description": "Verdade · Honestidade · Integridade · Autenticidade · Retidão",
-            "href": "/philosophy/satya",
+            "href": "philosophy/satya",
             "src": "/images/home/satya.png"
           }
         ]
@@ -296,8 +296,7 @@
       "badge": "Suportado: EN, TA, HI",
       "contribute": "Contribua agora",
       "guidelines": "Diretrizes de Tradução",
-      "subtitle": "Sua contribuição torna nosso site acessível a todos. Junte-se à nossa comunidade global de tradutores.",
-      "targeting": "Segmentação: 10 idiomas · 60% concluído"
+      "subtitle": "Sua contribuição torna nosso site acessível a todos. Junte-se à nossa comunidade global de tradutores."
     }
   }
 }

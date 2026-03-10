@@ -1,0 +1,26 @@
+{
+  "linga_chapter10": {
+    "title": "Linga Purana Chapter 10",
+    "description": "Chapter 10 from Linga Purana.",
+    "meta": {
+      "title": "Linga Purana Chapter 10",
+      "canonical": "https://sanatanadharmam.in/puranas/linga/chapter-10",
+      "description": "Chapter 10 from Linga Purana.",
+      "url": "https://sanatanadharmam.in/puranas/linga/chapter-10"
+    },
+    "openGraph": {
+      "title": "Linga Purana Chapter 10",
+      "description": "Chapter 10 from Linga Purana.",
+      "url": "https://sanatanadharmam.in/puranas/linga/chapter-10",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This chapter belongs to Linga Purana.",
+    "scripture_text": "Chapter-level summary text for Linga Purana, Chapter 10.",
+    "philosophical_explanation": "Linga Purana chapters combine dharma, devotion, and symbolic teaching.",
+    "chapter": {
+      "number": 10,
+      "path": "/puranas/linga/chapter-10"
+    }
+  }
+}

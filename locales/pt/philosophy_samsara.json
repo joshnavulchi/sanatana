@@ -103,7 +103,11 @@
     "origin": {
       "meaning": "Derivado do sânscrito 'samsṛ', que significa 'fluir ou vagar'.",
       "roots": "Ensinamentos Védicos e Upanishads",
-      "texts": ["Upanishads", "Bhagavathgita", "Ioga Sutras"]
+      "texts": [
+        "Upanishads",
+        "Bhagavathgita",
+        "Ioga Sutras"
+      ]
     },
     "relation_to_other_concepts": {
       "dharma": "Uma vida justa ajuda a reduzir a escravidão cármica.",

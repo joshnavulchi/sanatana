@@ -181,7 +181,11 @@
     "origin": {
       "meaning": "Dérivé du sanskrit « muc », signifiant « libérer ou libérer ».",
       "roots": "Enseignements védiques et upanishadiques",
-      "texts": ["Upanishads", "Bhagavathgita", "Brahma Sutras"]
+      "texts": [
+        "Upanishads",
+        "Bhagavathgita",
+        "Brahma Sutras"
+      ]
     },
     "paths_to_moksha": {
       "bhakti_yoga": "Path of devotion and surrender to God.",

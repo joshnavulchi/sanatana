@@ -1,0 +1,26 @@
+{
+  "agni_chapter3": {
+    "title": "Agni Purana Chapter 3",
+    "description": "Chapter 3 from Agni Purana.",
+    "meta": {
+      "title": "Agni Purana Chapter 3",
+      "canonical": "https://sanatanadharmam.in/puranas/agni/chapter-3",
+      "description": "Chapter 3 from Agni Purana.",
+      "url": "https://sanatanadharmam.in/puranas/agni/chapter-3"
+    },
+    "openGraph": {
+      "title": "Agni Purana Chapter 3",
+      "description": "Chapter 3 from Agni Purana.",
+      "url": "https://sanatanadharmam.in/puranas/agni/chapter-3",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This chapter belongs to Agni Purana.",
+    "scripture_text": "Chapter-level summary text for Agni Purana, Chapter 3.",
+    "philosophical_explanation": "Agni Purana chapters combine dharma, devotion, and symbolic teaching.",
+    "chapter": {
+      "number": 3,
+      "path": "/puranas/agni/chapter-3"
+    }
+  }
+}

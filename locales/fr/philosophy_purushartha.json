@@ -99,7 +99,12 @@
     "origin": {
       "meaning": "Dérivé du sanscrit « Purusha » (être humain) et « Artha » (but ou objectif).",
       "roots": "Enseignements védiques et Dharmashastra",
-      "texts": ["Védas", "Upanishads", "Manusmriti", "Bhagavathgita"]
+      "texts": [
+        "Védas",
+        "Upanishads",
+        "Manusmriti",
+        "Bhagavathgita"
+      ]
     },
     "relation_to_other_concepts": {
       "dharma": "Agit comme un principe directeur pour Artha et Kama.",

@@ -181,7 +181,11 @@
     "origin": {
       "meaning": "サンスクリット語の「muc」に由来し、「解放または解放する」を意味します。",
       "roots": "ヴェーダとウパニシャダの教え",
-      "texts": ["ウパニシャッド", "バガヴァトギーター", "梵天経"]
+      "texts": [
+        "ウパニシャッド",
+        "バガヴァトギーター",
+        "梵天経"
+      ]
     },
     "paths_to_moksha": {
       "bhakti_yoga": "Path of devotion and surrender to God.",
