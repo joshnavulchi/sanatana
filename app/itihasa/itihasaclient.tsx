@@ -16,11 +16,12 @@ export default function ItihasaClient() {
 
   // Build links from array nav (Ramayana, Mahabharata) + add Bhagavad Gita
   const links: NavLink[] = [];
+  const toRouteSlug = (name: string) => name.toLowerCase().replace(/\s+/g, '-');
   if (Array.isArray(section?.nav)) {
     for (const item of section.nav) {
       if (item?.name && typeof item.name === 'string') {
         links.push({
-          href: `/itihasa/${(item.name as string).toLowerCase().replace(/\s+/g, '')}`,
+          href: `/itihasa/${toRouteSlug(item.name as string)}`,
           label: item.name,
           description: typeof item.description === 'string' ? item.description : undefined,
         });
@@ -28,7 +29,7 @@ export default function ItihasaClient() {
       // Bhagavad Gita has no "name" field — detect by chapters_list
       if (item?.chapters_list && !item?.name) {
         links.push({
-          href: '/itihasa/bhagavadgita',
+          href: '/itihasa/bhagavad-gita',
           label: 'Bhagavad Gita',
           description: typeof item.description === 'string' ? item.description : undefined,
         });

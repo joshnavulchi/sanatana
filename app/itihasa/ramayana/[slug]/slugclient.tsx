@@ -3,6 +3,7 @@ import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import Loader from '@components/loader';
+import Link from 'next/link';
 
 function Paragraphs({ text, className = '' }: { text: string; className?: string }) {
   return (
@@ -122,6 +123,15 @@ export default function SlugClient({ slug }: { slug: string }) {
           </div>
         </div>
       )}
+
+      <div className="mt-8 flex justify-end">
+        <Link
+          href={`/itihasa/ramayana/${slug}/sarga-1`}
+          className="text-sm font-semibold text-[#7a2e1f] hover:text-[#92400e]"
+        >
+          Open Sarga 1 →
+        </Link>
+      </div>
     </PageLayout>
   );
 }
