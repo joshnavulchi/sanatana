@@ -1,8 +1,10 @@
 "use client";
+import Link from 'next/link';
 import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import Loader from '@components/loader';
+import { getPuranaOverviewNamespace, toTitleFromSlug } from '../purana-utils';
 
 function Paragraphs({ text, className = '' }: { text: string; className?: string }) {
   return (
@@ -55,19 +57,25 @@ function SectionCard({
   );
 }
 
-function toTitle(slug: string) {
-  return slug.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
-}
-
 export default function SlugClient({ slug }: { slug: string }) {
   const { isLoading } = useLocale();
-  const ns = useLocaleSection(`puranas_${slug}`);
-  const displayTitle = toTitle(slug);
+  const ns = useLocaleSection(getPuranaOverviewNamespace(slug));
+  const structureNs = useLocaleSection(`puranas_${slug}_structure`);
+  const displayTitle = toTitleFromSlug(slug);
   const description = typeof ns?.description === 'string' ? ns.description : '';
   const introduction = typeof ns?.introduction === 'string' ? ns.introduction : '';
   const philosophical = typeof ns?.philosophical_explanation === 'string' ? ns.philosophical_explanation : '';
   const scriptureSections = Array.isArray(ns?.scripture_text)
     ? (ns.scripture_text as unknown[]).filter((v) => v && typeof v === 'object') as Record<string, unknown>[]
+    : [];
+  const isBhagavata = slug === 'bhagavata';
+
+  const chapters = Array.isArray(structureNs?.chapters)
+    ? (structureNs.chapters as unknown[]).filter((v) => v && typeof v === 'object') as Record<string, unknown>[]
+    : [];
+
+  const skandas = Array.isArray(structureNs?.skandas)
+    ? (structureNs.skandas as unknown[]).filter((v) => v && typeof v === 'object') as Record<string, unknown>[]
     : [];
 
   if (isLoading) {
@@ -121,6 +129,50 @@ export default function SlugClient({ slug }: { slug: string }) {
             <Paragraphs text={philosophical} />
           </div>
         </div>
+      )}
+
+      {isBhagavata && skandas.length > 0 && (
+        <section className="mt-10">
+          <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-5">Skandas</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {skandas.map((skanda) => {
+              const skandaNumber = Number(skanda.skanda);
+              const skandaTitle = typeof skanda.title === 'string' ? skanda.title : `Skanda ${skandaNumber}`;
+              return (
+                <Link
+                  key={skandaNumber}
+                  href={`/puranas/${slug}/skanda-${skandaNumber}/chapter-1`}
+                  className="group block rounded-2xl border border-[#d8a25a]/40 bg-[#fffaf0] p-5 shadow-[0_8px_30px_rgba(146,64,14,0.08)] hover:-translate-y-1 transition-all duration-300"
+                >
+                  <h3 className="text-lg font-bold text-[#3d2e22] group-hover:text-[#92400e]">{skandaTitle}</h3>
+                  <p className="text-sm text-[#6b5d4f] mt-1">Open chapters</p>
+                </Link>
+              );
+            })}
+          </div>
+        </section>
+      )}
+
+      {!isBhagavata && chapters.length > 0 && (
+        <section className="mt-10">
+          <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-5">Chapters</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {chapters.map((chapter) => {
+              const chapterNumber = Number(chapter.chapter);
+              const chapterTitle = typeof chapter.title === 'string' ? chapter.title : `Chapter ${chapterNumber}`;
+              return (
+                <Link
+                  key={chapterNumber}
+                  href={`/puranas/${slug}/chapter-${chapterNumber}`}
+                  className="group block rounded-2xl border border-[#d8a25a]/40 bg-[#fffaf0] p-5 shadow-[0_8px_30px_rgba(146,64,14,0.08)] hover:-translate-y-1 transition-all duration-300"
+                >
+                  <h3 className="text-lg font-bold text-[#3d2e22] group-hover:text-[#92400e]">{chapterTitle}</h3>
+                  <p className="text-sm text-[#6b5d4f] mt-1">Open verses</p>
+                </Link>
+              );
+            })}
+          </div>
+        </section>
       )}
 
     </PageLayout>
