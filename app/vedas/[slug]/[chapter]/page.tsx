@@ -15,7 +15,7 @@ type VedaChaptersConfig =
   }
   | {
     slug: 'yajurveda' | 'samaveda' | 'atharvaveda';
-    prefix: 'chapter' | 'section' | 'book';
+    prefix: 'chapter' | 'hymn' | 'book';
     mode: 'from-main';
     fileKey: string;
     listKey: string;
@@ -26,7 +26,7 @@ type VedaChaptersConfig =
 const VEDA_CHAPTERS: VedaChaptersConfig[] = [
   { slug: 'rigveda', prefix: 'mandala', mode: 'per-file', count: 10, filePattern: 'vedas_rigveda_madala' },
   { slug: 'yajurveda', prefix: 'chapter', mode: 'from-main', fileKey: 'vedas_yajurveda', listKey: 'yajurveda_chapters', numberKey: 'chapter' },
-  { slug: 'samaveda', prefix: 'section', mode: 'from-main', fileKey: 'vedas_samaveda', listKey: 'samaveda_sections', numberKey: 'section' },
+  { slug: 'samaveda', prefix: 'hymn', mode: 'from-main', fileKey: 'vedas_samaveda', listKey: 'samaveda_sections', numberKey: 'section' },
   { slug: 'atharvaveda', prefix: 'book', mode: 'from-main', fileKey: 'vedas_atharvaveda', listKey: 'atharvaveda_books', numberKey: 'book' },
 ];
 
