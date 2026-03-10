@@ -122,25 +122,25 @@
           {
             "title": "وید",
             "description": "حکمت · بھجن · دھرم · برہمانڈ · آزادی",
-            "href": "/scriptures/vedas",
+            "href": "vedas/rigveda",
             "src": "/images/home/the-vedas.png"
           },
           {
             "title": "اپنشد",
             "description": "برہمن · اتمان · علم · آزادی · اتحاد",
-            "href": "/scriptures/upanishads",
+            "href": "vedas//upanishads",
             "src": "/images/home/the-upanishads.png"
           },
           {
             "title": "Itihāsas",
             "description": "فرض · عقیدت · تنازعہ · دھرم · میراث",
-            "href": "/scriptures/itihasas",
+            "href": "itihasa",
             "src": "/images/home/the-ithihas.png"
           },
           {
             "title": "پران",
             "description": "خرافات · کاسمولوجی · لیجنڈز · عقیدت · دھرم",
-            "href": "/scriptures/puranas",
+            "href": "puranas",
             "src": "/images/home/the-puranas.png"
           }
         ]
@@ -159,31 +159,31 @@
           {
             "title": "دھرم",
             "description": "راستبازی · فرض · ہم آہنگی · انصاف · سچائی",
-            "href": "/philosophy/dharma",
+            "href": "philosophy/dharma",
             "src": "/images/home/dharma.png"
           },
           {
             "title": "کرما",
             "description": "عمل · وجہ · اثر · ذمہ داری · نتیجہ",
-            "href": "/philosophy/karma",
+            "href": "philosophy/karma",
             "src": "/images/home/karma.png"
           },
           {
             "title": "موکشا۔",
             "description": "آزادی · آزادی · وحدانیت · نعمت · ابدیت",
-            "href": "/philosophy/moksha",
+            "href": "philosophy/moksha",
             "src": "/images/home/moksha.png"
           },
           {
             "title": "اہنسا۔",
             "description": "عدم تشدد · ہمدردی · احترام · ہم آہنگی · محبت",
-            "href": "/philosophy/ahimsa",
+            "href": "philosophy/ahimsa",
             "src": "/images/home/ahimsa.png"
           },
           {
             "title": "ستیہ",
             "description": "سچائی · دیانت · دیانت · صداقت · صداقت",
-            "href": "/philosophy/satya",
+            "href": "philosophy/satya",
             "src": "/images/home/satya.png"
           }
         ]

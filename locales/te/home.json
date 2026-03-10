@@ -122,25 +122,25 @@
           {
             "title": "వేదాలు",
             "description": "జ్ఞానం · శ్లోకాలు · ధర్మం · విశ్వం · విముక్తి",
-            "href": "/scriptures/vedas",
+            "href": "vedas/rigveda",
             "src": "/images/home/the-vedas.png"
           },
           {
             "title": "ఉపనిషత్తులు",
             "description": "బ్రహ్మం · ఆత్మ · జ్ఞానం · విముక్తి · ఐక్యత",
-            "href": "/scriptures/upanishads",
+            "href": "vedas//upanishads",
             "src": "/images/home/the-upanishads.png"
           },
           {
             "title": "ఇతిహాసాలు",
             "description": "కర్తవ్యం · భక్తి · సంఘర్షణ · ధర్మం · వారసత్వం",
-            "href": "/scriptures/itihasas",
+            "href": "itihasa",
             "src": "/images/home/the-ithihas.png"
           },
           {
             "title": "పురాణాలు",
             "description": "పురాణాలు · విశ్వశాస్త్రం · ఇతిహాసాలు · భక్తి · ధర్మం",
-            "href": "/scriptures/puranas",
+            "href": "puranas",
             "src": "/images/home/the-puranas.png"
           }
         ]
@@ -159,31 +159,31 @@
           {
             "title": "ధర్మము",
             "description": "ధర్మం · కర్తవ్యం · సామరస్యం · న్యాయం · సత్యం",
-            "href": "/philosophy/dharma",
+            "href": "philosophy/dharma",
             "src": "/images/home/dharma.png"
           },
           {
             "title": "కర్మ",
             "description": "చర్య · కారణం · ప్రభావం · బాధ్యత · పర్యవసానం",
-            "href": "/philosophy/karma",
+            "href": "philosophy/karma",
             "src": "/images/home/karma.png"
           },
           {
             "title": "మోక్షము",
             "description": "విముక్తి · స్వేచ్ఛ · ఏకత్వం · ఆనందం · శాశ్వతత్వం",
-            "href": "/philosophy/moksha",
+            "href": "philosophy/moksha",
             "src": "/images/home/moksha.png"
           },
           {
             "title": "అహింసా",
             "description": "అహింస · కరుణ · గౌరవం · సామరస్యం · ప్రేమ",
-            "href": "/philosophy/ahimsa",
+            "href": "philosophy/ahimsa",
             "src": "/images/home/ahimsa.png"
           },
           {
             "title": "సత్య",
             "description": "సత్యం · నిజాయితీ · చిత్తశుద్ధి · ప్రామాణికత · నీతి",
-            "href": "/philosophy/satya",
+            "href": "philosophy/satya",
             "src": "/images/home/satya.png"
           }
         ]

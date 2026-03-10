@@ -122,25 +122,25 @@
           {
             "title": "吠陀经",
             "description": "智慧·颂歌·佛法·宇宙·解脱",
-            "href": "/scriptures/vedas",
+            "href": "vedas/rigveda",
             "src": "/images/home/the-vedas.png"
           },
           {
             "title": "奥义书",
             "description": "婆罗门·阿特曼·知识·解放·统一",
-            "href": "/scriptures/upanishads",
+            "href": "vedas//upanishads",
             "src": "/images/home/the-upanishads.png"
           },
           {
             "title": "伊蒂哈萨人",
             "description": "责任·奉献·冲突·佛法·遗产",
-            "href": "/scriptures/itihasas",
+            "href": "itihasa",
             "src": "/images/home/the-ithihas.png"
           },
           {
             "title": "往世书",
             "description": "神话·宇宙学·传说·奉献·佛法",
-            "href": "/scriptures/puranas",
+            "href": "puranas",
             "src": "/images/home/the-puranas.png"
           }
         ]
@@ -159,31 +159,31 @@
           {
             "title": "法",
             "description": "正义·责任·和谐·正义·真理",
-            "href": "/philosophy/dharma",
+            "href": "philosophy/dharma",
             "src": "/images/home/dharma.png"
           },
           {
             "title": "业力",
             "description": "行动·原因·结果·责任·后果",
-            "href": "/philosophy/karma",
+            "href": "philosophy/karma",
             "src": "/images/home/karma.png"
           },
           {
             "title": "解脱",
             "description": "解脱·自由·合一·极乐·永恒",
-            "href": "/philosophy/moksha",
+            "href": "philosophy/moksha",
             "src": "/images/home/moksha.png"
           },
           {
             "title": "不杀生",
             "description": "非暴力·同情·尊重·和谐·爱",
-            "href": "/philosophy/ahimsa",
+            "href": "philosophy/ahimsa",
             "src": "/images/home/ahimsa.png"
           },
           {
             "title": "萨提亚",
             "description": "真实·诚实·正直·真实·正义",
-            "href": "/philosophy/satya",
+            "href": "philosophy/satya",
             "src": "/images/home/satya.png"
           }
         ]

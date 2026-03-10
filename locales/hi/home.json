@@ -122,25 +122,25 @@
           {
             "title": "वेद",
             "description": "बुद्धि · भजन · धर्म · ब्रह्मांड · मुक्ति",
-            "href": "/scriptures/vedas",
+            "href": "vedas/rigveda",
             "src": "/images/home/the-vedas.png"
           },
           {
             "title": "उपनिषद",
             "description": "ब्रह्म · आत्मा · ज्ञान · मुक्ति · एकता",
-            "href": "/scriptures/upanishads",
+            "href": "vedas//upanishads",
             "src": "/images/home/the-upanishads.png"
           },
           {
             "title": "इतिहास",
             "description": "कर्तव्य · भक्ति · संघर्ष · धर्म · विरासत",
-            "href": "/scriptures/itihasas",
+            "href": "itihasa",
             "src": "/images/home/the-ithihas.png"
           },
           {
             "title": "पुराण",
             "description": "पौराणिक कथाएँ · ब्रह्मांड विज्ञान · किंवदंतियाँ · भक्ति · धर्म",
-            "href": "/scriptures/puranas",
+            "href": "puranas",
             "src": "/images/home/the-puranas.png"
           }
         ]
@@ -159,31 +159,31 @@
           {
             "title": "धर्म",
             "description": "धर्म · कर्तव्य · सद्भाव · न्याय · सत्य",
-            "href": "/philosophy/dharma",
+            "href": "philosophy/dharma",
             "src": "/images/home/dharma.png"
           },
           {
             "title": "कर्मा",
             "description": "कार्य · कारण · प्रभाव · उत्तरदायित्व · परिणाम",
-            "href": "/philosophy/karma",
+            "href": "philosophy/karma",
             "src": "/images/home/karma.png"
           },
           {
             "title": "मोक्ष",
             "description": "मुक्ति · स्वतंत्रता · एकता · आनंद · अनंत काल",
-            "href": "/philosophy/moksha",
+            "href": "philosophy/moksha",
             "src": "/images/home/moksha.png"
           },
           {
             "title": "अहिंसा",
             "description": "अहिंसा · करुणा · सम्मान · सद्भाव · प्रेम",
-            "href": "/philosophy/ahimsa",
+            "href": "philosophy/ahimsa",
             "src": "/images/home/ahimsa.png"
           },
           {
             "title": "सत्य",
             "description": "सच्चाई · ईमानदारी · सत्यनिष्ठा · प्रमाणिकता · धार्मिकता",
-            "href": "/philosophy/satya",
+            "href": "philosophy/satya",
             "src": "/images/home/satya.png"
           }
         ]

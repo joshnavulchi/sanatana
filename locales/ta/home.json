@@ -122,25 +122,25 @@
           {
             "title": "வேதங்கள்",
             "description": "ஞானம் · கீர்த்தனைகள் · தர்மம் · பிரபஞ்சம் · விடுதலை",
-            "href": "/scriptures/vedas",
+            "href": "vedas/rigveda",
             "src": "/images/home/the-vedas.png"
           },
           {
             "title": "உபநிடதங்கள்",
             "description": "பிரம்மன் · ஆத்மா · அறிவு · விடுதலை · ஒற்றுமை",
-            "href": "/scriptures/upanishads",
+            "href": "vedas//upanishads",
             "src": "/images/home/the-upanishads.png"
           },
           {
             "title": "இதிஹாசஸ்",
             "description": "கடமை · பக்தி · மோதல் · தர்மம் · மரபு",
-            "href": "/scriptures/itihasas",
+            "href": "itihasa",
             "src": "/images/home/the-ithihas.png"
           },
           {
             "title": "புராணங்கள்",
             "description": "புராணம் · அண்டவியல் · புராணங்கள் · பக்தி · தர்மம்",
-            "href": "/scriptures/puranas",
+            "href": "puranas",
             "src": "/images/home/the-puranas.png"
           }
         ]
@@ -159,31 +159,31 @@
           {
             "title": "தர்மம்",
             "description": "நீதி · கடமை · நல்லிணக்கம் · நீதி · உண்மை",
-            "href": "/philosophy/dharma",
+            "href": "philosophy/dharma",
             "src": "/images/home/dharma.png"
           },
           {
             "title": "கர்மா",
             "description": "செயல் · காரணம் · விளைவு · பொறுப்பு · விளைவு",
-            "href": "/philosophy/karma",
+            "href": "philosophy/karma",
             "src": "/images/home/karma.png"
           },
           {
             "title": "மோக்ஷா",
             "description": "விடுதலை · சுதந்திரம் · ஒருமை · பேரின்பம் · நித்தியம்",
-            "href": "/philosophy/moksha",
+            "href": "philosophy/moksha",
             "src": "/images/home/moksha.png"
           },
           {
             "title": "அஹிம்சை",
             "description": "அகிம்சை · இரக்கம் · மரியாதை · நல்லிணக்கம் · அன்பு",
-            "href": "/philosophy/ahimsa",
+            "href": "philosophy/ahimsa",
             "src": "/images/home/ahimsa.png"
           },
           {
             "title": "சத்யா",
             "description": "உண்மை · நேர்மை · நேர்மை · நம்பகத்தன்மை · நேர்மை",
-            "href": "/philosophy/satya",
+            "href": "philosophy/satya",
             "src": "/images/home/satya.png"
           }
         ]
