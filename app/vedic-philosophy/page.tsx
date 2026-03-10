@@ -2,12 +2,12 @@
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@components/structured-data/StructuredData';
 import VedicPhilosophyClient from './vedicphilosophyclient';
-export const generateMetadata = createGenerateMetadata('vedic_philosophy');
+export const generateMetadata = createGenerateMetadata('vedic_philosophy_structure');
 
 export default function Page() {
   return (
     <>
-      <StructuredData metaKey="vedic_philosophy" />
+      <StructuredData metaKey="vedic_philosophy_structure" />
       <VedicPhilosophyClient />
     </>
   );

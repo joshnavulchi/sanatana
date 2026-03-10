@@ -5,7 +5,12 @@ import useLocaleSection from '@app/hooks/useLocaleSection';
 import Loader from '@components/loader';
 import Link from 'next/link';
 
-interface NavLink { href: string; label: string }
+interface TopicLink {
+  href: string;
+  label: string;
+  description?: string;
+  totalSubtopics?: number;
+}
 
 function Paragraphs({ text, className = '' }: { text: string; className?: string }) {
   return (
@@ -43,41 +48,59 @@ function SectionCard({ item, index }: { item: Record<string, unknown>; index: nu
   );
 }
 
-function normalizeNav(nav: unknown, basePath: string): NavLink[] {
-  if (nav && typeof nav === 'object' && !Array.isArray(nav)) {
-    return Object.entries(nav as Record<string, unknown>)
-      .filter(([, val]) => typeof val === 'string')
-      .map(([key, val]) => ({
-        href: `${basePath}/${key}`,
-        label: val as string,
-      }));
-  }
-  return [];
-}
-
 export default function VedicPhilosophyClient() {
   const { isLoading } = useLocale();
-  const shared = useLocaleSection('sharable_strings');
-  const pageNs = useLocaleSection('vedic_philosophy');
-  const section = shared?.footer?.science;
-  const title = section?.title ? `${section.subtitle || 'Vedic'} ${section.title}` : 'Vedic Science';
-  const links = normalizeNav(section?.nav, '/vedic-philosophy');
-  const introduction = typeof pageNs?.introduction === 'string' ? pageNs.introduction : '';
-  const philosophical = typeof pageNs?.philosophical_explanation === 'string' ? pageNs.philosophical_explanation : '';
-  const scriptureSections = Array.isArray(pageNs?.scripture_text)
-    ? (pageNs.scripture_text as unknown[]).filter((v) => v && typeof v === 'object') as Record<string, unknown>[]
+  const structure = useLocaleSection('vedic_philosophy_structure');
+
+  const title = typeof structure?.title === 'string' ? structure.title : 'Vedic Philosophy';
+  const introduction = typeof structure?.introduction === 'string' ? structure.introduction : '';
+  const philosophical =
+    typeof structure?.philosophical_explanation === 'string'
+      ? structure.philosophical_explanation
+      : '';
+  const scriptureSections = Array.isArray(structure?.scripture_text)
+    ? (structure.scripture_text as unknown[]).filter((v) => v && typeof v === 'object') as Record<string, unknown>[]
     : [];
 
-  if (isLoading && !section) {
+  const topics = Array.isArray(structure?.topics) ? (structure.topics as unknown[]) : [];
+  const links: TopicLink[] = topics
+    .map((topic) => {
+      if (!topic || typeof topic !== 'object') return null;
+      const slug = String((topic as Record<string, unknown>).slug || '');
+      const topicTitle = String((topic as Record<string, unknown>).title || '');
+      if (!slug || !topicTitle) return null;
+      return {
+        href: `/vedic-philosophy/${slug}`,
+        label: topicTitle,
+        description:
+          typeof (topic as Record<string, unknown>).description === 'string'
+            ? ((topic as Record<string, unknown>).description as string)
+            : undefined,
+        totalSubtopics: Number((topic as Record<string, unknown>).total_subtopics || 0),
+      };
+    })
+    .filter(Boolean) as TopicLink[];
+
+  if (isLoading && links.length === 0) {
     return (
-      <PageLayout metaKey="vedic_philosophy" title="" breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Vedic Science' }]} className="layout-md">
+      <PageLayout
+        metaKey="vedic_philosophy_structure"
+        title=""
+        breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Vedic Philosophy' }]}
+        className="layout-md"
+      >
         <div className="flex items-center justify-center py-12"><Loader /></div>
       </PageLayout>
     );
   }
 
   return (
-    <PageLayout metaKey="vedic_philosophy" title={title} breadcrumbs={[{ label: 'Home', href: '/' }, { label: title }]} className="layout-md">
+    <PageLayout
+      metaKey="vedic_philosophy_structure"
+      title={title}
+      breadcrumbs={[{ label: 'Home', href: '/' }, { label: title }]}
+      className="layout-md"
+    >
       {introduction && (
         <div className="relative px-4 md:px-6 py-8 md:py-10 bg-[#fffaf0] rounded-2xl border border-[#d8a25a]/30 overflow-hidden mb-8 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
           <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-4">Introduction</h2>
@@ -117,6 +140,10 @@ export default function VedicPhilosophyClient() {
                 <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-[#1a6e5c]/10 text-sm">🔬</span>
                 <h3 className="text-lg font-bold text-[#3d2e22] group-hover:text-[#1a6e5c] transition-colors">{link.label}</h3>
               </div>
+              {link.description && <p className="text-sm text-[#6b5d4f] mt-3">{link.description}</p>}
+              {typeof link.totalSubtopics === 'number' && link.totalSubtopics > 0 && (
+                <p className="text-xs text-[#a89278] mt-2">{link.totalSubtopics} subtopics</p>
+              )}
             </div>
           </Link>
         ))}
