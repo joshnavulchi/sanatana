@@ -1,10 +1,17 @@
 import type { NextConfig } from "next";
+import os from 'os';
 import path from 'path';
 import bundleAnalyzer from '@next/bundle-analyzer';
 
 const withBundleAnalyzer = bundleAnalyzer({
   enabled: process.env.ANALYZE === 'true',
 });
+
+const cpuCount = os.cpus()?.length ?? 1;
+const requestedWorkers = Number(process.env.NEXT_BUILD_MAX_WORKERS ?? '0');
+const buildWorkers = Number.isFinite(requestedWorkers) && requestedWorkers > 0
+  ? Math.min(Math.floor(requestedWorkers), cpuCount)
+  : Math.min(cpuCount, 8);
 
 // This app is statically exported. `output: 'export'` and `trailingSlash: true`
 // are set permanently to produce a static site suitable for static hosts.
@@ -44,6 +51,9 @@ const nextConfig = {
   // SWC minify removed — Next.js may warn about `swcMinify` in newer versions.
   // Experimental CSS optimization (dedupe & minimize CSS across pages).
   experimental: {
+    // Control build concurrency for CI/local stability and speed.
+    // Override with NEXT_BUILD_MAX_WORKERS (e.g. 4, 6, 8).
+    cpus: buildWorkers,
     // optimizeCss requires the `critters` package and is incompatible with
     // output: 'export'. Critical CSS is handled by scripts/generate-critical-css.js.
     optimizeCss: false,

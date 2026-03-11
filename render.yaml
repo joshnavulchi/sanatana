@@ -5,24 +5,29 @@ services:
     plan: free
     envVars:
       - key: NEXT_PUBLIC_GA_ID
-        sync: false # Set to true if you want to sync from Render dashboard
+        sync: false
         value: "${NEXT_PUBLIC_GA_ID}"
       - key: NEXT_PUBLIC_GTM_ID
         sync: false
         value: "${NEXT_PUBLIC_GTM_ID}"
       - key: LOCALES_REF
-        value: "origin/locales"
+        value: "origin/locales"         # or "locales", or a commit SHA
       - key: LOCALES_SYNC_BATCH_SIZE
         value: "200"
       - key: LOCALES_SYNC_WRITE_CONCURRENCY
         value: "8"
+      - key: NEXT_BUILD_MAX_WORKERS
+        value: "4"
     installCommand: |
       npm install
     buildCommand: |
       export NODE_ENV=production
       export CI=true
       export NODE_OPTIONS=--max-old-space-size=6144
-      rm -rf .next
+
+      # Ensure the ref exists for the locales sync
+      git fetch --no-tags --depth=1 origin locales:refs/remotes/origin/locales || true
+
       npm run render-build
     publishPath: out
 
@@ -30,9 +35,7 @@ services:
     name: weekly-deploy
     env: node
     plan: free
-    # Schedule: every Sunday 02:30 UTC == Sunday 08:00 IST (UTC+5:30)
     schedule: "30 2 * * 0"
-    # Command triggers a deploy webhook. Set RENDER_DEPLOY_HOOK in Render env vars to your Deploy Hook URL.
     command:
       [
         "bash",
