@@ -7,15 +7,35 @@ const { execFileSync, spawnSync } = require('child_process');
 const REPO_ROOT = path.resolve(__dirname, '..');
 const TARGET_DIR = path.join(REPO_ROOT, 'public', 'locales');
 const STATE_FILE = path.join(REPO_ROOT, '.cache', 'locales-sync-state.json');
-const BRANCH_NAME = process.env.LOCALES_REF || 'locales';
+
+// --- Behavior flags & inputs ---
+const BRANCH_NAME = (process.env.LOCALES_REF || 'locales').trim();
 const FORCE_FULL_SYNC = process.argv.includes('--full') || process.env.LOCALES_SYNC_FULL === '1';
 const VERBOSE_SYNC = process.argv.includes('--verbose') || process.env.LOCALES_SYNC_VERBOSE === '1';
+const STRICT_IN_CI = process.env.LOCALES_SYNC_STRICT === '1';
+const IN_CI = Boolean(
+  process.env.CI ||
+  process.env.RENDER ||
+  process.env.GITHUB_ACTIONS ||
+  process.env.BUILDKITE ||
+  process.env.GITLAB_CI
+);
+
+// --- Tuning knobs ---
 const PROGRESS_EVERY = 50;
 const WRITE_CONCURRENCY = Number.parseInt(process.env.LOCALES_SYNC_WRITE_CONCURRENCY || '16', 10);
 const GIT_BATCH_SIZE = Number.parseInt(process.env.LOCALES_SYNC_BATCH_SIZE || '300', 10);
 
+// --- Utilities ---
 function log(message) {
   console.log(`[locales-sync] ${message}`);
+}
+function warn(message) {
+  console.warn(`[locales-sync] ${message}`);
+}
+function fail(message) {
+  console.error(`[locales-sync] ${message}`);
+  process.exit(1);
 }
 
 function logProgress(current, total, label) {
@@ -31,6 +51,57 @@ function runGit(args, options = {}) {
     maxBuffer: 1024 * 1024 * 128,
     ...options,
   });
+}
+
+function isHexSha(x) {
+  return /^[0-9a-f]{7,40}$/i.test(x || '');
+}
+
+function gracefulSkipOrFail(reason) {
+  if (IN_CI && !STRICT_IN_CI) {
+    warn(reason + ' Skipping locales sync (non-fatal in CI).');
+    process.exit(0);
+  }
+  fail(reason);
+}
+
+function tryFetchForRef(name) {
+  try {
+    // If name looks like origin/foo
+    if (name.startsWith('origin/')) {
+      const branch = name.replace(/^origin\//, '');
+      // map remote branch to refs/remotes/origin/branch
+      runGit(['fetch', '--no-tags', '--depth', '1', 'origin', `${branch}:refs/remotes/origin/${branch}`]);
+      return true;
+    }
+
+    // Try as a branch on origin
+    try {
+      runGit(['fetch', '--no-tags', '--depth', '1', 'origin', `${name}:refs/remotes/origin/${name}`]);
+      return true;
+    } catch (_) {
+      // fallthrough to try as a tag
+    }
+
+    // Try as a tag on origin
+    try {
+      runGit(['fetch', '--no-tags', '--depth', '1', 'origin', 'tag', name]);
+      return true;
+    } catch (_) {
+      // fallthrough
+    }
+
+    // Try fetching by commit SHA (if it looks like a hash)
+    if (isHexSha(name)) {
+      // No direct fetch-by-SHA, but fetch all heads & tags shallowly to try to include it
+      runGit(['fetch', '--no-tags', '--depth', '1', 'origin']);
+      return true;
+    }
+
+    return false;
+  } catch (_) {
+    return false;
+  }
 }
 
 function readFilesFromRefBatch(ref, sourcePaths) {
@@ -98,23 +169,56 @@ function readFilesFromRefBatch(ref, sourcePaths) {
 }
 
 function resolveRef() {
-  const candidates = [BRANCH_NAME];
-  if (!BRANCH_NAME.startsWith('origin/')) {
-    candidates.push(`origin/${BRANCH_NAME}`);
+  // Allow explicit skip
+  if (!BRANCH_NAME || BRANCH_NAME === 'skip') {
+    gracefulSkipOrFail(`LOCALES_REF is '${BRANCH_NAME || '(empty)'}'.`);
   }
+
+  // If LOCALES_REF looks like a commit SHA and exists, use it directly
+  if (isHexSha(BRANCH_NAME)) {
+    try {
+      runGit(['cat-file', '-e', `${BRANCH_NAME}^{commit}`]);
+      return BRANCH_NAME;
+    } catch (_) {
+      // fallthrough to other candidates/fetch
+    }
+  }
+
+  // Try common ref spellings
+  const candidates = [
+    BRANCH_NAME,
+    `origin/${BRANCH_NAME}`,
+    `refs/heads/${BRANCH_NAME}`,
+    `refs/remotes/origin/${BRANCH_NAME}`,
+    `refs/tags/${BRANCH_NAME}`,
+  ];
 
   for (const candidate of candidates) {
     try {
       runGit(['rev-parse', '--verify', '--quiet', candidate]);
       return candidate;
-    } catch (_error) {
-      // Continue checking candidates
+    } catch (_) {
+      // keep trying
     }
   }
 
-  throw new Error(
-    `Could not resolve locales ref. Tried: ${candidates.join(', ')}. ` +
-      'Set LOCALES_REF to a valid local or remote ref.'
+  // In CI, attempt a targeted fetch to make the ref exist
+  if (IN_CI) {
+    const fetched = tryFetchForRef(BRANCH_NAME) || tryFetchForRef(`origin/${BRANCH_NAME}`);
+    if (fetched) {
+      for (const candidate of candidates) {
+        try {
+          runGit(['rev-parse', '--verify', '--quiet', candidate]);
+          return candidate;
+        } catch (_) { }
+      }
+    }
+  }
+
+  // Could not resolve
+  const tried = candidates.join(', ');
+  gracefulSkipOrFail(
+    `Could not resolve locales ref. Tried: ${tried}. Set LOCALES_REF to a valid local/remote ref or fetch it before build.`
   );
 }
 
@@ -126,7 +230,7 @@ function isAncestorCommit(olderCommit, newerCommit) {
   try {
     runGit(['merge-base', '--is-ancestor', olderCommit, newerCommit]);
     return true;
-  } catch (_error) {
+  } catch (_) {
     return false;
   }
 }
@@ -135,7 +239,7 @@ function commitExists(commit) {
   try {
     runGit(['cat-file', '-e', `${commit}^{commit}`]);
     return true;
-  } catch (_error) {
+  } catch (_) {
     return false;
   }
 }
@@ -157,7 +261,7 @@ function readSyncState() {
     const commit = typeof parsed.commit === 'string' ? parsed.commit : '';
     if (!ref || !commit) return null;
     return { ref, commit };
-  } catch (_error) {
+  } catch (_) {
     return null;
   }
 }
@@ -254,7 +358,7 @@ async function writeChangedFilesFromRef(ref, sourcePaths, progressLabel) {
 
         try {
           currentContent = await fs.promises.readFile(outputPath, 'utf8');
-        } catch (_error) {
+        } catch (_) {
           currentContent = null;
         }
 
@@ -324,7 +428,7 @@ function listChangedLocaleFiles(previousCommit, currentCommit) {
 }
 
 async function syncLocales() {
-  const ref = resolveRef();
+  const ref = resolveRef(); // may exit(0) if skipping in CI
   const targetCommit = getCommitSha(ref);
   const state = readSyncState();
 
@@ -386,7 +490,8 @@ async function syncLocales() {
   const files = listLocaleFiles(ref);
 
   if (!files.length) {
-    throw new Error(`No locale files found in ref "${ref}" under locales/.`);
+    // Be lenient in CI to avoid blocking unrelated builds
+    gracefulSkipOrFail(`No locale files found in ref "${ref}" under locales/.`);
   }
 
   fs.mkdirSync(TARGET_DIR, { recursive: true });
@@ -409,11 +514,17 @@ async function syncLocales() {
 
   log(
     `Compare sync complete: ${fullResult.written} updated, ${deletes} removed ` +
-      `from ${files.length} file(s) in "${ref}" (${targetCommit.slice(0, 12)}).`
+    `from ${files.length} file(s) in "${ref}" (${targetCommit.slice(0, 12)}).`
   );
 }
 
 syncLocales().catch((error) => {
-  console.error(`[locales-sync] ${error instanceof Error ? error.message : String(error)}`);
-  process.exit(1);
+  // If an unexpected error happens in CI and we are not strict, convert to skip
+  const msg = error instanceof Error ? error.message : String(error);
+  if (IN_CI && !STRICT_IN_CI) {
+    warn(msg + ' Skipping locales sync (non-fatal in CI).');
+    process.exit(0);
+  } else {
+    fail(msg);
+  }
 });
