@@ -8,7 +8,7 @@ import { isPhilosophyTopic } from '../../philosophy-utils';
 type Params = { slug: string; parts: string[] };
 
 function readStructure() {
-  const filePath = path.join(process.cwd(), 'locales', 'en', 'vedic_philosophy_structure.json');
+  const filePath = path.join(process.cwd(), 'public', 'locales', 'en', 'vedic_philosophy_structure.json');
   if (!fs.existsSync(filePath)) return null;
   return JSON.parse(fs.readFileSync(filePath, 'utf8')) as Record<string, unknown>;
 }
