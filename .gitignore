@@ -13,16 +13,16 @@
 !/__mocks__/
 !/__mocks__/*
 # next.js
-/.next/
-/out/
-/docs
+.next/
+out/
+docs
 
 # ignore backup pages and backup components
-/app/_backup/
-/app/components/_backup/
+app/_backup/
+app/components/_backup/
 
 # production
-/build
+build
 
 # misc
 .DS_Store
@@ -52,13 +52,13 @@ public/md_files/
 public/old_files/
 public/images/slider/without_reduce/
 lighthouse-report.html
-/tmp
-/public/critical-home.css
+tmp
+public/critical-home.css
 
 # Additional build / cache artifacts
 .cache/
 dist/
-/.parcel-cache/
+.parcel-cache/
 .turbo/
 
 # Optional: local git hooks path (not committed hooks themselves)
