@@ -1,19 +1,47 @@
+import fs from 'fs';
+import path from 'path';
 import { notFound } from 'next/navigation';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import PartsClient from './partsclient';
 import { isPhilosophyTopic } from '../../philosophy-utils';
-import vedicPhilosophyStructure from '../../../../public/locales/en/vedic_philosophy_structure.json';
 
 type Params = { slug: string; parts: string[] };
 
 export const dynamicParams = false;
-export const dynamic = 'force-static';
 
 function readStructure() {
-  return vedicPhilosophyStructure as unknown as Record<string, unknown>;
+  const filePath = path.join(
+      process.cwd(),
+      'public',
+      'locales',
+      'en',
+      'vedic_philosophy_structure.json',
+    );
+  if (fs.existsSync(filePath)) {
+    const root = JSON.parse(fs.readFileSync(filePath, 'utf8')) as Record<string, unknown>;
+    const structure = root?.vedic_philosophy_structure;
+    if (structure && typeof structure === 'object') {
+      return structure as Record<string, unknown>;
+    }
+    return root;
+  }
+
+  const legacyPath = path.join(
+    process.cwd(),
+    'locales',
+    'en',
+    'vedic_philosophy_structure.json',
+  );
+  if (!fs.existsSync(legacyPath)) return null;
+  const legacyRoot = JSON.parse(fs.readFileSync(legacyPath, 'utf8')) as Record<string, unknown>;
+  const legacyStructure = legacyRoot?.vedic_philosophy_structure;
+  if (legacyStructure && typeof legacyStructure === 'object') {
+    return legacyStructure as Record<string, unknown>;
+  }
+  return legacyRoot;
 }
 
-export async function generateStaticParams(): Promise<Params[]> {
+export function generateStaticParams(): Params[] {
   const structure = readStructure();
   const topics = Array.isArray(structure?.topics) ? (structure?.topics as unknown[]) : [];
   const params: Params[] = [];
