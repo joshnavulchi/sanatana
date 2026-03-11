@@ -12,6 +12,8 @@ const FILE_MAP: Record<string, string> = {
   atharvaveda: 'vedas_atharvaveda',
 };
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return VALID_SLUGS.map((slug) => ({ slug }));
 }

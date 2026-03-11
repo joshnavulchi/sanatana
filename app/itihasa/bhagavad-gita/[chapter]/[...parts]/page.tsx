@@ -1,40 +1,25 @@
-import fs from 'fs';
-import path from 'path';
 import { notFound } from 'next/navigation';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import ItihasaPartClient from '../../../itihasapartclient';
 import { parseNumericSuffix } from '../../../itihasa-utils';
+import {
+  getBhagavadGitaChapters,
+  getBhagavadGitaVersesForChapter,
+} from '../../static-params';
 
 type Params = { chapter: string; parts: string[] };
 
-function readBhagavadGitaStructure() {
-  const filePath = path.join(process.cwd(), 'locales', 'en', 'itihasa_bhagavad_gita_structure.json');
-  if (!fs.existsSync(filePath)) return null;
-  return JSON.parse(fs.readFileSync(filePath, 'utf8')) as Record<string, unknown>;
-}
+export const dynamicParams = false;
 
-export function generateStaticParams() {
-  const structure = readBhagavadGitaStructure();
-  const chapters = Array.isArray(structure?.chapters) ? (structure?.chapters as unknown[]) : [];
+export async function generateStaticParams(): Promise<Params[]> {
   const params: Params[] = [];
 
-  for (const chapter of chapters) {
-    if (!chapter || typeof chapter !== 'object') continue;
-    const chapterNumber = Number((chapter as Record<string, unknown>).chapter);
-    if (!Number.isFinite(chapterNumber)) continue;
-
-    const verses = Array.isArray((chapter as Record<string, unknown>).verses)
-      ? ((chapter as Record<string, unknown>).verses as unknown[])
-      : [];
-
+  for (const chapter of getBhagavadGitaChapters()) {
+    const verses = getBhagavadGitaVersesForChapter(chapter);
     for (const verse of verses) {
-      if (!verse || typeof verse !== 'object') continue;
-      const verseNumber = Number((verse as Record<string, unknown>).verse_number);
-      if (!Number.isFinite(verseNumber)) continue;
-
       params.push({
-        chapter: `chapter-${chapterNumber}`,
-        parts: [`verse-${verseNumber}`],
+        chapter: `chapter-${chapter}`,
+        parts: [`verse-${verse}`],
       });
     }
   }

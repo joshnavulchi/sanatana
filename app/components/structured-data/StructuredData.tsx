@@ -1,5 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { getMeta, detectLocale } from '@lib/i18n';
+import { getMeta, detectLocale, getLocaleNamespaceObject } from '@lib/i18n';
 type Props = {
   metaKey: string;
   params?: any;
@@ -39,37 +39,21 @@ export default async function StructuredData({ metaKey, params, locale }: Props)
   }
   // Clean webpage
   Object.keys(webpage).forEach((k) => webpage[k] === undefined && delete webpage[k]);
-  // Attempt to load a full per-page locale file on the server and extract
-  // a `schema` object if present. Do this only server-side to avoid
-  // bundling locale files into the client bundle.
+  // Attempt to load a full per-page locale file and extract a `schema` object if present.
   let pageSchema: Record<string, unknown> | null = null;
-  if (typeof window === 'undefined') {
-    try {
-      const fs = await import('fs');
-      const path = await import('path');
-
-      // Try a few common filename variants similar to `getMeta`.
-      const candidates = [metaKey, metaKey.replace(/_/g, '-'), metaKey.replace(/_/g, '')];
-      for (const candidate of candidates) {
-        try {
-          const filePath = path.join(process.cwd(), 'public', 'locales', loc, `${candidate}.json`);
-          if (fs.existsSync(filePath)) {
-            const content = fs.readFileSync(filePath, 'utf8');
-            const obj = JSON.parse(content);
-            // The file may export an object keyed by the page name.
-            const pageObj = obj?.[metaKey] ?? obj?.[candidate] ?? obj;
-            if (pageObj && typeof pageObj === 'object') {
-              pageSchema = pageObj.schema ?? obj.schema ?? null;
-              if (pageSchema) break;
-            }
-          }
-        } catch (err) {
-          continue;
-        }
-      }
-    } catch (e) {
-      // ignore and continue — no schema will be rendered
+  try {
+    const obj = getLocaleNamespaceObject(loc, metaKey) as Record<string, unknown>;
+    const pageObj =
+      (obj?.[metaKey] as Record<string, unknown> | undefined) ??
+      obj;
+    if (pageObj && typeof pageObj === 'object') {
+      pageSchema =
+        (pageObj.schema as Record<string, unknown> | null | undefined) ??
+        (obj?.schema as Record<string, unknown> | null | undefined) ??
+        null;
     }
+  } catch (_error) {
+    // ignore and continue — no schema will be rendered
   }
   return (
     <>

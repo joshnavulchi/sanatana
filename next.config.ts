@@ -44,9 +44,6 @@ const nextConfig = {
   // SWC minify removed — Next.js may warn about `swcMinify` in newer versions.
   // Experimental CSS optimization (dedupe & minimize CSS across pages).
   experimental: {
-    // render build error fix Render deployment error Ran out of memory (used over 8GB) while building your code. Read our docs for common ways to troubleshoot your deploy.
-    workerThreads: false,
-    cpus: 1,
     // optimizeCss requires the `critters` package and is incompatible with
     // output: 'export'. Critical CSS is handled by scripts/generate-critical-css.js.
     optimizeCss: false,

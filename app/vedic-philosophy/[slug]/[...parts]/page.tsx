@@ -7,20 +7,49 @@ import { isPhilosophyTopic } from '../../philosophy-utils';
 
 type Params = { slug: string; parts: string[] };
 
+export const dynamicParams = false;
+
 function readStructure() {
-  const filePath = path.join(process.cwd(), 'public', 'locales', 'en', 'vedic_philosophy_structure.json');
-  if (!fs.existsSync(filePath)) return null;
-  return JSON.parse(fs.readFileSync(filePath, 'utf8')) as Record<string, unknown>;
+  const filePath = path.join(
+      process.cwd(),
+      'public',
+      'locales',
+      'en',
+      'vedic_philosophy_structure.json',
+    );
+  if (fs.existsSync(filePath)) {
+    const root = JSON.parse(fs.readFileSync(filePath, 'utf8')) as Record<string, unknown>;
+    const structure = root?.vedic_philosophy_structure;
+    if (structure && typeof structure === 'object') {
+      return structure as Record<string, unknown>;
+    }
+    return root;
+  }
+
+  const legacyPath = path.join(
+    process.cwd(),
+    'locales',
+    'en',
+    'vedic_philosophy_structure.json',
+  );
+  if (!fs.existsSync(legacyPath)) return null;
+  const legacyRoot = JSON.parse(fs.readFileSync(legacyPath, 'utf8')) as Record<string, unknown>;
+  const legacyStructure = legacyRoot?.vedic_philosophy_structure;
+  if (legacyStructure && typeof legacyStructure === 'object') {
+    return legacyStructure as Record<string, unknown>;
+  }
+  return legacyRoot;
 }
 
-export function generateStaticParams() {
+export function generateStaticParams(): Params[] {
   const structure = readStructure();
   const topics = Array.isArray(structure?.topics) ? (structure?.topics as unknown[]) : [];
   const params: Params[] = [];
 
   for (const topic of topics) {
     if (!topic || typeof topic !== 'object') continue;
-    const topicSlug = String((topic as Record<string, unknown>).slug || '');
+    const currentTopicSlug = String((topic as Record<string, unknown>).slug || '');
+    if (!currentTopicSlug) continue;
     const subtopics = Array.isArray((topic as Record<string, unknown>).subtopics)
       ? ((topic as Record<string, unknown>).subtopics as unknown[])
       : [];
@@ -28,8 +57,8 @@ export function generateStaticParams() {
     for (const subtopic of subtopics) {
       if (!subtopic || typeof subtopic !== 'object') continue;
       const subtopicSlug = String((subtopic as Record<string, unknown>).slug || '');
-      if (!topicSlug || !subtopicSlug) continue;
-      params.push({ slug: topicSlug, parts: [subtopicSlug] });
+      if (!subtopicSlug) continue;
+      params.push({ slug: currentTopicSlug, parts: [subtopicSlug] });
     }
   }
 

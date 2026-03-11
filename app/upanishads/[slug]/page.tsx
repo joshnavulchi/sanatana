@@ -9,6 +9,8 @@ const VALID_SLUGS = [
   'kaushitaki-upanishad', 'maitri-upanishad',
 ];
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return VALID_SLUGS.map((slug) => ({ slug }));
 }

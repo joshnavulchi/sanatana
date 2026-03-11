@@ -1,39 +1,29 @@
-import fs from 'fs';
-import path from 'path';
 import { notFound } from 'next/navigation';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import ItihasaPartClient from '../../../itihasapartclient';
 import {
   isMahabharataParvaSlug,
+  MAHABHARATA_PARVAS,
   parseNumericSuffix,
   toTitleFromSlug,
   toUnderscoreSlug,
 } from '../../../itihasa-utils';
+import { getMahabharataChapters } from '../../static-params';
 
 type Params = { parva: string; parts: string[] };
 
-function readMahabharataStructure() {
-  const filePath = path.join(process.cwd(), 'locales', 'en', 'itihasa_mahabharata_structure.json');
-  if (!fs.existsSync(filePath)) return null;
-  return JSON.parse(fs.readFileSync(filePath, 'utf8')) as Record<string, unknown>;
-}
+export const dynamicParams = false;
 
-export function generateStaticParams() {
-  const structure = readMahabharataStructure();
-  const parvas = Array.isArray(structure?.parvas) ? (structure?.parvas as unknown[]) : [];
+export async function generateStaticParams(): Promise<Params[]> {
   const params: Params[] = [];
 
-  for (const parva of parvas) {
-    if (!parva || typeof parva !== 'object') continue;
-    const parvaSlug = String((parva as Record<string, unknown>).slug || '');
-    const chapters = Array.isArray((parva as Record<string, unknown>).chapters)
-      ? ((parva as Record<string, unknown>).chapters as unknown[])
-      : [];
+  for (const parva of MAHABHARATA_PARVAS) {
+    const chapters = getMahabharataChapters(parva);
     for (const chapter of chapters) {
-      if (!chapter || typeof chapter !== 'object') continue;
-      const chapterNumber = Number((chapter as Record<string, unknown>).chapter);
-      if (!Number.isFinite(chapterNumber)) continue;
-      params.push({ parva: parvaSlug, parts: [`chapter-${chapterNumber}`] });
+      params.push({
+        parva,
+        parts: [`chapter-${chapter}`],
+      });
     }
   }
 

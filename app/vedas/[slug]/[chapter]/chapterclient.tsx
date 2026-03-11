@@ -137,7 +137,8 @@ function Paragraphs({ text, className = '' }: { text: string; className?: string
 }
 
 /* ── Parse chapter slug → number ── */
-function parseChapterNum(chapter: string): number {
+function parseChapterNum(chapter: unknown): number {
+  if (typeof chapter !== 'string') return 1;
   const match = chapter.match(/(\d+)$/);
   return match ? parseInt(match[1], 10) : 1;
 }

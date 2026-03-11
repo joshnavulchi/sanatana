@@ -1,9 +1,10 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { createGenerateMetadata } from '@lib/pageUtils';
 import ChapterClient from './chapterclient';
-import fs from 'fs';
-import path from 'path';
 import { resolveLocaleFromHeaders } from '@lib/pageUtils.server';
+import yajurvedaData from '../../../../public/locales/en/vedas_yajurveda.json';
+import samavedaData from '../../../../public/locales/en/vedas_samaveda.json';
+import atharvavedaData from '../../../../public/locales/en/vedas_atharvaveda.json';
 
 type VedaChaptersConfig =
   | {
@@ -30,6 +31,8 @@ const VEDA_CHAPTERS: VedaChaptersConfig[] = [
   { slug: 'atharvaveda', prefix: 'book', mode: 'from-main', fileKey: 'vedas_atharvaveda', listKey: 'atharvaveda_books', numberKey: 'book' },
 ];
 
+export const dynamicParams = false;
+
 function isPlainObject(v: unknown): v is Record<string, unknown> {
   return !!v && typeof v === 'object' && !Array.isArray(v);
 }
@@ -43,18 +46,10 @@ function unwrapSingleKey(ns: unknown): Record<string, unknown> {
   return ns as Record<string, unknown>;
 }
 
-function readLocaleJson(locale: string, fileKey: string): unknown {
-  const candidates = [locale, 'en'];
-  for (const loc of candidates) {
-    try {
-      const filePath = path.join(process.cwd(), 'locales', loc, `${fileKey}.json`);
-      if (fs.existsSync(filePath)) {
-        return JSON.parse(fs.readFileSync(filePath, 'utf8')) as unknown;
-      }
-    } catch (_) {
-      // ignore
-    }
-  }
+function readLocaleJson(_locale: string, fileKey: string): unknown {
+  if (fileKey === 'vedas_yajurveda') return yajurvedaData as unknown;
+  if (fileKey === 'vedas_samaveda') return samavedaData as unknown;
+  if (fileKey === 'vedas_atharvaveda') return atharvavedaData as unknown;
   return null;
 }
 

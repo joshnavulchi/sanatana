@@ -7,6 +7,8 @@ const VALID_SLUGS = [
   'sundara-kanda', 'yuddha-kanda', 'uttara-kanda',
 ];
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return VALID_SLUGS.map((slug) => ({ slug }));
 }

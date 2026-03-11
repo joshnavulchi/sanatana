@@ -10,6 +10,8 @@ const VALID_SLUGS = [
   'daivasura-sampad-vibhaga-yoga', 'shraddhatray-vibhaga-yoga', 'moksha-sanyasa-yoga',
 ];
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return VALID_SLUGS.map((slug) => ({ slug }));
 }
