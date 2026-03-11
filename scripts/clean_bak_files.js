@@ -9,7 +9,7 @@ const path = require('path'); // Node.js path module for handling file paths
 
 const argv = process.argv.slice(2); // Command-line arguments
 const APPLY = argv.includes('--apply') || argv.includes('-a'); // Whether to actually delete files
-const REPO_ROOT = path.resolve(__dirname, '..', '..'); // Project root directory
+const REPO_ROOT = process.cwd(); //path.resolve(__dirname, '..', '..'); // Project root directory
 
 function getArgValue(prefix) {
   const hit = argv.find((a) => a.startsWith(prefix));
@@ -30,12 +30,60 @@ const localesDir = resolveDir(getArgValue('--locales-dir='), path.join(REPO_ROOT
  */
 function findBakFiles(dir) {
   const out = [];
-  for (const name of fs.readdirSync(dir)) {
-    const p = path.join(dir, name);
-    const stat = fs.statSync(p);
-    if (stat.isDirectory()) out.push(...findBakFiles(p)); // Recurse into subdirectories
-    else if (/\.bak(\.|\.[^.]+)$/.test(name)) out.push(p); // Add .bak.* and .bak.xxx files
+
+  let entries;
+  try {
+    entries = fs.readdirSync(dir, { withFileTypes: true });
+  } catch (err) {
+    if (err.code === 'ENOENT') {
+      console.warn('Skipping missing directory:', dir);
+      return out;
+    }
+    throw err;
   }
+
+  for (const entry of entries) {
+    const p = path.join(dir, entry.name);
+
+    // If it's a directory, recurse
+    if (entry.isDirectory()) {
+      out.push(...findBakFiles(p));
+      continue;
+    }
+
+    // If we don’t know (e.g., on some FS), lstat to check safely
+    let isFileLike = entry.isFile?.() || entry.isSymbolicLink?.();
+    if (!isFileLike && entry.isDirectory?.() === undefined) {
+      // Fallback for Node/FS edge-cases: lstat to decide
+      try {
+        const lst = fs.lstatSync(p);
+        isFileLike = lst.isFile() || lst.isSymbolicLink();
+      } catch (err) {
+        if (err.code === 'ENOENT') {
+          console.warn('Skipping disappeared entry:', p);
+          continue;
+        }
+        throw err;
+      }
+    }
+
+    if (!isFileLike) continue;
+
+    // Guard against broken symlinks and racey deletes
+    try {
+      const st = fs.statSync(p); // follows symlinks; may ENOENT if broken/disappeared
+      if (st.isFile() && /\.bak(\.|$)/i.test(entry.name)) {
+        out.push(p);
+      }
+    } catch (err) {
+      if (err.code === 'ENOENT') {
+        console.warn('Skipping missing file:', p);
+        continue;
+      }
+      throw err;
+    }
+  }
+
   return out;
 }
 
