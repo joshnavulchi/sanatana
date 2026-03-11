@@ -8,7 +8,7 @@
     "sync:locales:verbose": "node scripts/sync-locales-from-branch.js --verbose",
     "predev": "node scripts/sync-locales-from-branch.js && node scripts/compile-scss.js --dev",
     "dev": "next dev",
-    "prebuild": "node scripts/sync-locales-from-branch.js && npm run lint && node scripts/compile-scss.js --force && node scripts/generate-critical-css.js",
+    "prebuild": "node scripts/sync-locales-from-branch.js && npm run lint",
     "build": "node --max-old-space-size=8192 ./node_modules/next/dist/bin/next build",
     "build:ci": "node --max-old-space-size=6144 ./node_modules/next/dist/bin/next build",
     "postbuild": "node scripts/compile-scss.js --verify && node scripts/strip-comments.js && node scripts/generate-sitemap.js && node scripts/minify-html.js && node scripts/add-hash-to-assets.js && node scripts/check-analytics-keys.js",

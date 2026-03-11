@@ -1,26 +1,27 @@
-import fs from 'fs';
-import path from 'path';
 import { notFound } from 'next/navigation';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import PartsClient from './partsclient';
 import { isPhilosophyTopic } from '../../philosophy-utils';
+import vedicPhilosophyStructure from '../../../../public/locales/en/vedic_philosophy_structure.json';
 
 type Params = { slug: string; parts: string[] };
 
+export const dynamicParams = false;
+export const dynamic = 'force-static';
+
 function readStructure() {
-  const filePath = path.join(process.cwd(), 'public', 'locales', 'en', 'vedic_philosophy_structure.json');
-  if (!fs.existsSync(filePath)) return null;
-  return JSON.parse(fs.readFileSync(filePath, 'utf8')) as Record<string, unknown>;
+  return vedicPhilosophyStructure as unknown as Record<string, unknown>;
 }
 
-export function generateStaticParams() {
+export async function generateStaticParams(): Promise<Params[]> {
   const structure = readStructure();
   const topics = Array.isArray(structure?.topics) ? (structure?.topics as unknown[]) : [];
   const params: Params[] = [];
 
   for (const topic of topics) {
     if (!topic || typeof topic !== 'object') continue;
-    const topicSlug = String((topic as Record<string, unknown>).slug || '');
+    const currentTopicSlug = String((topic as Record<string, unknown>).slug || '');
+    if (!currentTopicSlug) continue;
     const subtopics = Array.isArray((topic as Record<string, unknown>).subtopics)
       ? ((topic as Record<string, unknown>).subtopics as unknown[])
       : [];
@@ -28,8 +29,8 @@ export function generateStaticParams() {
     for (const subtopic of subtopics) {
       if (!subtopic || typeof subtopic !== 'object') continue;
       const subtopicSlug = String((subtopic as Record<string, unknown>).slug || '');
-      if (!topicSlug || !subtopicSlug) continue;
-      params.push({ slug: topicSlug, parts: [subtopicSlug] });
+      if (!subtopicSlug) continue;
+      params.push({ slug: currentTopicSlug, parts: [subtopicSlug] });
     }
   }
 

@@ -1,8 +1,18 @@
 import { createGenerateMetadata } from '@lib/pageUtils';
 import ItemClient from './itemclient';
-import fs from 'fs';
-import path from 'path';
 import { resolveLocaleFromHeaders } from '@lib/pageUtils.server';
+import vedasYajurvedaStructure from '../../../../../public/locales/en/vedas_yajurveda_structure.json';
+import vedasAtharvavedaStructure from '../../../../../public/locales/en/vedas_atharvaveda_structure.json';
+import vedasRigvedaMadala1 from '../../../../../public/locales/en/vedas_rigveda_madala1.json';
+import vedasRigvedaMadala2 from '../../../../../public/locales/en/vedas_rigveda_madala2.json';
+import vedasRigvedaMadala3 from '../../../../../public/locales/en/vedas_rigveda_madala3.json';
+import vedasRigvedaMadala4 from '../../../../../public/locales/en/vedas_rigveda_madala4.json';
+import vedasRigvedaMadala5 from '../../../../../public/locales/en/vedas_rigveda_madala5.json';
+import vedasRigvedaMadala6 from '../../../../../public/locales/en/vedas_rigveda_madala6.json';
+import vedasRigvedaMadala7 from '../../../../../public/locales/en/vedas_rigveda_madala7.json';
+import vedasRigvedaMadala8 from '../../../../../public/locales/en/vedas_rigveda_madala8.json';
+import vedasRigvedaMadala9 from '../../../../../public/locales/en/vedas_rigveda_madala9.json';
+import vedasRigvedaMadala10 from '../../../../../public/locales/en/vedas_rigveda_madala10.json';
 
 type VedaItemConfig = {
   slug: 'rigveda' | 'yajurveda' | 'atharvaveda';
@@ -48,6 +58,21 @@ const ITEM_CONFIG: VedaItemConfig[] = [
   },
 ];
 
+export const dynamicParams = false;
+
+const RIGVEDA_MADALAS: Record<number, unknown> = {
+  1: vedasRigvedaMadala1,
+  2: vedasRigvedaMadala2,
+  3: vedasRigvedaMadala3,
+  4: vedasRigvedaMadala4,
+  5: vedasRigvedaMadala5,
+  6: vedasRigvedaMadala6,
+  7: vedasRigvedaMadala7,
+  8: vedasRigvedaMadala8,
+  9: vedasRigvedaMadala9,
+  10: vedasRigvedaMadala10,
+};
+
 function isPlainObject(v: unknown): v is Record<string, unknown> {
   return !!v && typeof v === 'object' && !Array.isArray(v);
 }
@@ -61,22 +86,21 @@ function unwrapSingleKey(ns: unknown): Record<string, unknown> {
   return ns as Record<string, unknown>;
 }
 
-function readLocaleJson(locale: string, fileKey: string): unknown {
-  const candidates = [locale, 'en'];
-  for (const loc of candidates) {
-    try {
-      const filePath = path.join(process.cwd(), 'locales', loc, `${fileKey}.json`);
-      if (fs.existsSync(filePath)) {
-        return JSON.parse(fs.readFileSync(filePath, 'utf8')) as unknown;
-      }
-    } catch (_) {
-      // ignore
-    }
+function readLocaleJson(_locale: string, fileKey: string): unknown {
+  if (fileKey === 'vedas_yajurveda_structure') return vedasYajurvedaStructure as unknown;
+  if (fileKey === 'vedas_atharvaveda_structure') return vedasAtharvavedaStructure as unknown;
+
+  const madalaMatch = fileKey.match(/^vedas_rigveda_madala(\d+)$/);
+  if (madalaMatch) {
+    const madalaNumber = Number(madalaMatch[1]);
+    return RIGVEDA_MADALAS[madalaNumber] ?? null;
   }
+
   return null;
 }
 
-function parseNum(value: string): number {
+function parseNum(value: unknown): number {
+  if (typeof value !== 'string') return Number.NaN;
   return Number(value.match(/(\d+)$/)?.[1] || '1');
 }
 
@@ -125,52 +149,58 @@ function getItemTitleAndDesc(locale: string, slug: string, chapter: string, item
   };
 }
 
-export function generateStaticParams() {
-  const params: { slug: string; chapter: string; item: string }[] = [];
+export async function generateStaticParams(
+  options?: { params?: { slug?: string; chapter?: string } },
+): Promise<{ item: string }[]> {
+  const slug = options?.params?.slug;
+  const chapter = options?.params?.chapter;
+  if (typeof slug !== 'string' || typeof chapter !== 'string') return [];
 
-  for (let mandala = 1; mandala <= 10; mandala += 1) {
-    const raw = readLocaleJson('en', `vedas_rigveda_madala${mandala}`);
+  const chapterNum = parseNum(chapter);
+  if (!Number.isFinite(chapterNum)) return [];
+
+  if (slug === 'rigveda') {
+    const raw = readLocaleJson('en', `vedas_rigveda_madala${chapterNum}`);
     const root = unwrapSingleKey(raw);
     const hymns = Array.isArray(root.hymns) ? root.hymns : [];
-    for (const hymn of hymns) {
-      if (!isPlainObject(hymn)) continue;
-      const num = Number(hymn.hymn_number);
-      if (!Number.isFinite(num)) continue;
-      params.push({ slug: 'rigveda', chapter: `mandala-${mandala}`, item: `hymn-${num}` });
-    }
+    return hymns
+      .filter((hymn) => isPlainObject(hymn))
+      .map((hymn) => Number((hymn as Record<string, unknown>).hymn_number))
+      .filter((num) => Number.isFinite(num))
+      .map((num) => ({ item: `hymn-${num}` }));
   }
 
-  const yajurRaw = readLocaleJson('en', 'vedas_yajurveda_structure');
-  const yajurRoot = unwrapSingleKey(yajurRaw);
-  const yajurChapters = Array.isArray(yajurRoot.chapters) ? yajurRoot.chapters : [];
-  for (const chapter of yajurChapters) {
-    if (!isPlainObject(chapter)) continue;
-    const chapterNum = Number(chapter.chapter);
-    const mantras = Array.isArray(chapter.mantras) ? chapter.mantras : [];
-    for (const mantra of mantras) {
-      if (!isPlainObject(mantra)) continue;
-      const itemNum = Number(mantra.mantra_number);
-      if (!Number.isFinite(chapterNum) || !Number.isFinite(itemNum)) continue;
-      params.push({ slug: 'yajurveda', chapter: `chapter-${chapterNum}`, item: `mantra-${itemNum}` });
-    }
+  if (slug === 'yajurveda') {
+    const raw = readLocaleJson('en', 'vedas_yajurveda_structure');
+    const root = unwrapSingleKey(raw);
+    const chapters = Array.isArray(root.chapters) ? root.chapters : [];
+    const selectedChapter = chapters.find(
+      (entry) => isPlainObject(entry) && Number((entry as Record<string, unknown>).chapter) === chapterNum,
+    ) as Record<string, unknown> | undefined;
+    const mantras = Array.isArray(selectedChapter?.mantras) ? selectedChapter.mantras : [];
+    return mantras
+      .filter((mantra) => isPlainObject(mantra))
+      .map((mantra) => Number((mantra as Record<string, unknown>).mantra_number))
+      .filter((num) => Number.isFinite(num))
+      .map((num) => ({ item: `mantra-${num}` }));
   }
 
-  const atharvaRaw = readLocaleJson('en', 'vedas_atharvaveda_structure');
-  const atharvaRoot = unwrapSingleKey(atharvaRaw);
-  const books = Array.isArray(atharvaRoot.books) ? atharvaRoot.books : [];
-  for (const book of books) {
-    if (!isPlainObject(book)) continue;
-    const bookNum = Number(book.book);
-    const hymns = Array.isArray(book.hymns) ? book.hymns : [];
-    for (const hymn of hymns) {
-      if (!isPlainObject(hymn)) continue;
-      const itemNum = Number(hymn.hymn_number);
-      if (!Number.isFinite(bookNum) || !Number.isFinite(itemNum)) continue;
-      params.push({ slug: 'atharvaveda', chapter: `book-${bookNum}`, item: `hymn-${itemNum}` });
-    }
+  if (slug === 'atharvaveda') {
+    const raw = readLocaleJson('en', 'vedas_atharvaveda_structure');
+    const root = unwrapSingleKey(raw);
+    const books = Array.isArray(root.books) ? root.books : [];
+    const selectedBook = books.find(
+      (entry) => isPlainObject(entry) && Number((entry as Record<string, unknown>).book) === chapterNum,
+    ) as Record<string, unknown> | undefined;
+    const hymns = Array.isArray(selectedBook?.hymns) ? selectedBook.hymns : [];
+    return hymns
+      .filter((hymn) => isPlainObject(hymn))
+      .map((hymn) => Number((hymn as Record<string, unknown>).hymn_number))
+      .filter((num) => Number.isFinite(num))
+      .map((num) => ({ item: `hymn-${num}` }));
   }
 
-  return params;
+  return [];
 }
 
 function chapterFileKey(slug: string, chapter: string): string {

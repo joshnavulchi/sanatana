@@ -5,7 +5,8 @@ import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import Loader from '@components/loader';
 
-function parseNum(value: string): number {
+function parseNum(value: unknown): number {
+  if (typeof value !== 'string') return Number.NaN;
   return Number(value.match(/(\d+)$/)?.[1] || '1');
 }
 

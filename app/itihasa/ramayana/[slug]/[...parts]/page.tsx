@@ -13,10 +13,17 @@ import {
 
 type Params = { slug: string; parts: string[] };
 
+export const dynamicParams = false;
+
 function readRamayanaStructure() {
-  const filePath = path.join(process.cwd(), 'locales', 'en', 'itihasa_ramayana_structure.json');
-  if (!fs.existsSync(filePath)) return null;
-  return JSON.parse(fs.readFileSync(filePath, 'utf8')) as Record<string, unknown>;
+  const publicPath = path.join(process.cwd(), 'public', 'locales', 'en', 'itihasa_ramayana_structure.json');
+  if (fs.existsSync(publicPath)) {
+    return JSON.parse(fs.readFileSync(publicPath, 'utf8')) as Record<string, unknown>;
+  }
+
+  const legacyPath = path.join(process.cwd(), 'locales', 'en', 'itihasa_ramayana_structure.json');
+  if (!fs.existsSync(legacyPath)) return null;
+  return JSON.parse(fs.readFileSync(legacyPath, 'utf8')) as Record<string, unknown>;
 }
 
 export function generateStaticParams() {

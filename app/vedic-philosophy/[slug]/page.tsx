@@ -6,6 +6,9 @@ import { PHILOSOPHY_TOPICS, isPhilosophyTopic } from '../philosophy-utils';
 
 const VALID_SLUGS = PHILOSOPHY_TOPICS;
 
+export const dynamicParams = false;
+export const dynamic = 'force-static';
+
 export function generateStaticParams() {
   return VALID_SLUGS.map((slug) => ({ slug }));
 }

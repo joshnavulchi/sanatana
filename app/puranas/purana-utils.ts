@@ -47,6 +47,7 @@ export function toTitleFromSlug(slug: string): string {
   return slug.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
-export function parseNumericSuffix(value: string): number {
+export function parseNumericSuffix(value: unknown): number {
+  if (typeof value !== 'string') return Number.NaN;
   return Number(value.match(/(\d+)$/)?.[1] || '1');
 }

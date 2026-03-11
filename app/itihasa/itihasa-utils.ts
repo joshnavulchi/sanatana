@@ -32,7 +32,8 @@ export const MAHABHARATA_PARVAS = [
 export type RamayanaKandaSlug = (typeof RAMAYANA_KANDAS)[number];
 export type MahabharataParvaSlug = (typeof MAHABHARATA_PARVAS)[number];
 
-export function parseNumericSuffix(value: string): number {
+export function parseNumericSuffix(value: unknown): number {
+  if (typeof value !== 'string') return Number.NaN;
   return Number(value.match(/(\d+)$/)?.[1] || '1');
 }
 
