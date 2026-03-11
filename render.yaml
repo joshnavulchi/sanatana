@@ -16,13 +16,14 @@ services:
         value: "200"
       - key: LOCALES_SYNC_WRITE_CONCURRENCY
         value: "8"
+      - key: NEXT_BUILD_MAX_WORKERS
+        value: "4"
     installCommand: |
       npm install
     buildCommand: |
       export NODE_ENV=production
       export CI=true
       export NODE_OPTIONS=--max-old-space-size=6144
-      rm -rf .next
       npm run render-build
     publishPath: out
 
