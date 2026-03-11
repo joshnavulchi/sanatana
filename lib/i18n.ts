@@ -47,7 +47,7 @@ export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = ''
       ];
 
       for (const candidate of candidates) {
-        const filePath = path.join(process.cwd(), 'locales', locale, `${candidate}.json`);
+        const filePath = path.join(process.cwd(), 'public', 'locales', locale, `${candidate}.json`);
         if (fs.existsSync(filePath)) {
           const content = fs.readFileSync(filePath, 'utf8');
           return JSON.parse(content);
@@ -82,7 +82,7 @@ export async function loadLocaleNamespace(locale: string, namespace: string) {
       const fs = require('fs');
       const path = require('path');
       for (const candidate of candidates) {
-        const filePath = path.join(process.cwd(), 'locales', locale, `${candidate}.json`);
+        const filePath = path.join(process.cwd(), 'public', 'locales', locale, `${candidate}.json`);
         if (fs.existsSync(filePath)) {
           const content = fs.readFileSync(filePath, 'utf8');
           const parsed = JSON.parse(content);
@@ -94,11 +94,12 @@ export async function loadLocaleNamespace(locale: string, namespace: string) {
     return {};
   }
 
-  // Client-side: use dynamic import (bundled by Turbopack)
+  // Client-side: fetch from public/locales
   for (const candidate of candidates) {
     try {
-      const mod = await import(`../locales/${locale}/${candidate}.json`);
-      const parsed = mod.default || mod;
+      const response = await fetch(`/locales/${locale}/${candidate}.json`, { cache: 'force-cache' });
+      if (!response.ok) continue;
+      const parsed = await response.json();
       try { (localesCache[locale] as any)[namespace] = parsed; } catch (_) { }
       return parsed;
     } catch (e) {

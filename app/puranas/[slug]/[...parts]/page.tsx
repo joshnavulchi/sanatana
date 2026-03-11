@@ -6,6 +6,9 @@ import { MAHAPURANA_SLUGS, normalizePuranaSlug, parseNumericSuffix } from '../..
 
 type Params = { slug: string; parts: string[] };
 
+export const dynamicParams = false;
+export const dynamic = 'force-static';
+
 function readJson(filePath: string): Record<string, unknown> | null {
   try {
     if (!fs.existsSync(filePath)) return null;
@@ -16,7 +19,7 @@ function readJson(filePath: string): Record<string, unknown> | null {
 }
 
 function getStructure(slug: string): Record<string, unknown> | null {
-  const file = path.join(process.cwd(), 'locales', 'en', `puranas_${slug}_structure.json`);
+  const file = path.join(process.cwd(), 'public', 'locales', 'en', `puranas_${slug}_structure.json`);
   return readJson(file);
 }
 
@@ -42,6 +45,7 @@ export function generateStaticParams() {
   for (const slug of MAHAPURANA_SLUGS) {
     const structure = getStructure(slug);
     if (!structure) continue;
+    const routeSlugs = [slug, `${slug}-purana`];
 
     if (slug === 'bhagavata') {
       const skandas = Array.isArray(structure.skandas) ? structure.skandas : [];
@@ -49,7 +53,9 @@ export function generateStaticParams() {
         if (!skanda || typeof skanda !== 'object') continue;
         const skandaNumber = Number((skanda as Record<string, unknown>).skanda);
         if (!Number.isFinite(skandaNumber)) continue;
-        params.push({ slug, parts: [`skanda-${skandaNumber}`] });
+        for (const routeSlug of routeSlugs) {
+          params.push({ slug: routeSlug, parts: [`skanda-${skandaNumber}`] });
+        }
 
         const chapters = Array.isArray((skanda as Record<string, unknown>).chapters)
           ? ((skanda as Record<string, unknown>).chapters as unknown[])
@@ -58,7 +64,9 @@ export function generateStaticParams() {
           if (!chapter || typeof chapter !== 'object') continue;
           const chapterNumber = Number((chapter as Record<string, unknown>).chapter);
           if (!Number.isFinite(chapterNumber)) continue;
-          params.push({ slug, parts: [`skanda-${skandaNumber}`, `chapter-${chapterNumber}`] });
+          for (const routeSlug of routeSlugs) {
+            params.push({ slug: routeSlug, parts: [`skanda-${skandaNumber}`, `chapter-${chapterNumber}`] });
+          }
 
           const verses = Array.isArray((chapter as Record<string, unknown>).verses)
             ? ((chapter as Record<string, unknown>).verses as unknown[])
@@ -67,10 +75,12 @@ export function generateStaticParams() {
             if (!verse || typeof verse !== 'object') continue;
             const verseNumber = Number((verse as Record<string, unknown>).verse_number);
             if (!Number.isFinite(verseNumber)) continue;
-            params.push({
-              slug,
-              parts: [`skanda-${skandaNumber}`, `chapter-${chapterNumber}`, `verse-${verseNumber}`],
-            });
+            for (const routeSlug of routeSlugs) {
+              params.push({
+                slug: routeSlug,
+                parts: [`skanda-${skandaNumber}`, `chapter-${chapterNumber}`, `verse-${verseNumber}`],
+              });
+            }
           }
         }
       }
@@ -82,7 +92,9 @@ export function generateStaticParams() {
       if (!chapter || typeof chapter !== 'object') continue;
       const chapterNumber = Number((chapter as Record<string, unknown>).chapter);
       if (!Number.isFinite(chapterNumber)) continue;
-      params.push({ slug, parts: [`chapter-${chapterNumber}`] });
+      for (const routeSlug of routeSlugs) {
+        params.push({ slug: routeSlug, parts: [`chapter-${chapterNumber}`] });
+      }
 
       const verses = Array.isArray((chapter as Record<string, unknown>).verses)
         ? ((chapter as Record<string, unknown>).verses as unknown[])
@@ -92,7 +104,9 @@ export function generateStaticParams() {
         if (!verse || typeof verse !== 'object') continue;
         const verseNumber = Number((verse as Record<string, unknown>).verse_number);
         if (!Number.isFinite(verseNumber)) continue;
-        params.push({ slug, parts: [`chapter-${chapterNumber}`, `verse-${verseNumber}`] });
+        for (const routeSlug of routeSlugs) {
+          params.push({ slug: routeSlug, parts: [`chapter-${chapterNumber}`, `verse-${verseNumber}`] });
+        }
       }
     }
   }
