@@ -34,27 +34,23 @@ export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = ''
     locale = DEFAULT_LOCALE;
   }
   if (!namespace) return {};
-  if (typeof window === 'undefined') {
-    try {
-      const fs = require('fs');
-      const path = require('path');
+  const localeEntry = localesCache[locale];
+  if (!localeEntry || typeof localeEntry !== 'object') return {};
 
-      // Try various file naming patterns
-      const candidates = [
-        namespace,
-        namespace.replace(/-/g, '_'),
-        namespace.replace(/_/g, '-'),
-      ];
+  const localeMap = localeEntry as Record<string, unknown>;
+  const candidates = [
+    namespace,
+    namespace.replace(/-/g, '_'),
+    namespace.replace(/_/g, '-'),
+  ];
 
-      for (const candidate of candidates) {
-        const filePath = path.join(process.cwd(), 'public', 'locales', locale, `${candidate}.json`);
-        if (fs.existsSync(filePath)) {
-          const content = fs.readFileSync(filePath, 'utf8');
-          return JSON.parse(content);
-        }
-      }
-    } catch (_) { }
+  for (const candidate of candidates) {
+    const parsed = localeMap[candidate];
+    if (parsed) {
+      return parsed;
+    }
   }
+
   return {};
 }
 
@@ -77,22 +73,7 @@ export async function loadLocaleNamespace(locale: string, namespace: string) {
   ];
 
   // Server-side: use fs directly (most reliable for static export)
-  if (typeof window === 'undefined') {
-    try {
-      const fs = require('fs');
-      const path = require('path');
-      for (const candidate of candidates) {
-        const filePath = path.join(process.cwd(), 'public', 'locales', locale, `${candidate}.json`);
-        if (fs.existsSync(filePath)) {
-          const content = fs.readFileSync(filePath, 'utf8');
-          const parsed = JSON.parse(content);
-          try { (localesCache[locale] as any)[namespace] = parsed; } catch (_) { }
-          return parsed;
-        }
-      }
-    } catch (_) { }
-    return {};
-  }
+  if (typeof window === 'undefined') return {};
 
   // Client-side: fetch from public/locales
   for (const candidate of candidates) {
@@ -149,8 +130,11 @@ function interpolateObject(obj: unknown, params?: Record<string, string>): unkno
 export function getMeta(metaKey: string, params?: Record<string, string>, locale = DEFAULT_LOCALE) {
   // Only per-namespace meta is supported now
   const nsObj = getLocaleNamespaceObject(locale, metaKey);
-  if (nsObj && typeof nsObj === 'object' && nsObj.meta) {
-    return interpolateObject(nsObj.meta, params) as Record<string, unknown>;
+  if (nsObj && typeof nsObj === 'object') {
+    const meta = (nsObj as Record<string, unknown>).meta;
+    if (meta && typeof meta === 'object') {
+      return interpolateObject(meta, params) as Record<string, unknown>;
+    }
   }
   return {};
 }

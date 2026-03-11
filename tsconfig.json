@@ -62,6 +62,7 @@
     "data",
     "lib",
     "app/_backup",
-    "app/components/_backup"
+    "app/components/_backup",
+    "public/locales/**/index.ts"
   ]
 }

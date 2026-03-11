@@ -172,6 +172,35 @@ function toPublicPath(sourcePath) {
   return path.join(TARGET_DIR, relativePath);
 }
 
+function sourcePathFromPublicPath(publicPath) {
+  const relativePath = path.relative(TARGET_DIR, publicPath).split(path.sep).join('/');
+  return `locales/${relativePath}`;
+}
+
+function listPublicLocaleSourcePaths() {
+  if (!fs.existsSync(TARGET_DIR)) return [];
+
+  const output = [];
+  const stack = [TARGET_DIR];
+
+  while (stack.length > 0) {
+    const current = stack.pop();
+    if (!current) continue;
+
+    const entries = fs.readdirSync(current, { withFileTypes: true });
+    for (const entry of entries) {
+      const fullPath = path.join(current, entry.name);
+      if (entry.isDirectory()) {
+        stack.push(fullPath);
+      } else if (entry.isFile()) {
+        output.push(sourcePathFromPublicPath(fullPath));
+      }
+    }
+  }
+
+  return output;
+}
+
 async function writeFilesFromRef(ref, sourcePaths, progressLabel) {
   if (!sourcePaths.length) return;
 
@@ -200,6 +229,52 @@ async function writeFilesFromRef(ref, sourcePaths, progressLabel) {
       logProgress(processed, sourcePaths.length, progressLabel);
     }
   }
+}
+
+async function writeChangedFilesFromRef(ref, sourcePaths, progressLabel) {
+  if (!sourcePaths.length) return { scanned: 0, written: 0 };
+
+  let scanned = 0;
+  let written = 0;
+
+  for (let batchStart = 0; batchStart < sourcePaths.length; batchStart += GIT_BATCH_SIZE) {
+    const batchPaths = sourcePaths.slice(batchStart, batchStart + GIT_BATCH_SIZE);
+    const contents = readFilesFromRefBatch(ref, batchPaths);
+
+    for (let writeStart = 0; writeStart < batchPaths.length; writeStart += WRITE_CONCURRENCY) {
+      const groupPaths = batchPaths.slice(writeStart, writeStart + WRITE_CONCURRENCY);
+      const tasks = groupPaths.map(async (sourcePath, groupIndex) => {
+        const content = contents[writeStart + groupIndex];
+        if (content === null) {
+          throw new Error(`Locale file missing in ref "${ref}": ${sourcePath}`);
+        }
+
+        const outputPath = toPublicPath(sourcePath);
+        let currentContent = null;
+
+        try {
+          currentContent = await fs.promises.readFile(outputPath, 'utf8');
+        } catch (_error) {
+          currentContent = null;
+        }
+
+        if (currentContent === content) {
+          return false;
+        }
+
+        await fs.promises.mkdir(path.dirname(outputPath), { recursive: true });
+        await fs.promises.writeFile(outputPath, content, 'utf8');
+        return true;
+      });
+
+      const results = await Promise.all(tasks);
+      scanned += groupPaths.length;
+      written += results.filter(Boolean).length;
+      logProgress(scanned, sourcePaths.length, progressLabel);
+    }
+  }
+
+  return { scanned, written };
 }
 
 function removePublicFile(sourcePath) {
@@ -292,11 +367,16 @@ async function syncLocales() {
         deletes += 1;
       } else {
         upsertPaths.push(item.sourcePath);
-        upserts += 1;
       }
     }
 
-    await writeFilesFromRef(ref, upsertPaths, 'Incremental upsert progress');
+    const uniqueUpserts = [...new Set(upsertPaths)];
+    const incrementalResult = await writeChangedFilesFromRef(
+      ref,
+      uniqueUpserts,
+      'Incremental upsert progress'
+    );
+    upserts = incrementalResult.written;
 
     writeSyncState(ref, targetCommit);
     log(`Incremental sync complete: ${upserts} updated, ${deletes} removed (${targetCommit.slice(0, 12)}).`);
@@ -309,14 +389,28 @@ async function syncLocales() {
     throw new Error(`No locale files found in ref "${ref}" under locales/.`);
   }
 
-  fs.rmSync(TARGET_DIR, { recursive: true, force: true });
   fs.mkdirSync(TARGET_DIR, { recursive: true });
-  log(`Using full mode. Total locale files: ${files.length}.`);
-  await writeFilesFromRef(ref, files, 'Full sync progress');
+  log(`Using compare mode. Total locale files in ref: ${files.length}.`);
+
+  const remoteSet = new Set(files);
+  const existingSourcePaths = listPublicLocaleSourcePaths();
+  let deletes = 0;
+
+  for (const sourcePath of existingSourcePaths) {
+    if (!remoteSet.has(sourcePath)) {
+      removePublicFile(sourcePath);
+      deletes += 1;
+    }
+  }
+
+  const fullResult = await writeChangedFilesFromRef(ref, files, 'Compare sync progress');
 
   writeSyncState(ref, targetCommit);
 
-  log(`Full sync complete: ${files.length} file(s) from "${ref}" (${targetCommit.slice(0, 12)}).`);
+  log(
+    `Compare sync complete: ${fullResult.written} updated, ${deletes} removed ` +
+      `from ${files.length} file(s) in "${ref}" (${targetCommit.slice(0, 12)}).`
+  );
 }
 
 syncLocales().catch((error) => {

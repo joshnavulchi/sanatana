@@ -14,7 +14,8 @@
     "postbuild": "node scripts/compile-scss.js --verify && node scripts/strip-comments.js && node scripts/generate-sitemap.js && node scripts/minify-html.js && node scripts/add-hash-to-assets.js && node scripts/check-analytics-keys.js",
     "render-build": "node scripts/sync-locales-from-branch.js && node scripts/compile-scss.js --force && node scripts/generate-critical-css.js && npm run build:ci && node scripts/compile-scss.js --verify && node scripts/strip-comments.js && node scripts/generate-sitemap.js && node scripts/minify-html.js && node scripts/add-hash-to-assets.js && node scripts/check-analytics-keys.js",
     "start": "next start",
-    "lint": "eslint --quiet app lib scripts"
+    "lint": "eslint --quiet app lib scripts",
+    "typecheck": "node --max-old-space-size=8192 ./node_modules/typescript/bin/tsc --noEmit"
   },
   "dependencies": {
     "next": "^16.1.6",
