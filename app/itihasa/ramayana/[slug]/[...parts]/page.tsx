@@ -1,12 +1,10 @@
-import fs from 'fs';
-import path from 'path';
 import { notFound } from 'next/navigation';
 import { createGenerateMetadata } from '@lib/pageUtils';
+import { RAMAYANA_SARGA_PARAMS } from '@lib/generated/scriptureStaticParams';
 import ItihasaPartClient from '../../../itihasapartclient';
 import {
   isRamayanaKandaSlug,
   parseNumericSuffix,
-  RAMAYANA_KANDAS,
   toTitleFromSlug,
   toUnderscoreSlug,
 } from '../../../itihasa-utils';
@@ -15,45 +13,8 @@ type Params = { slug: string; parts: string[] };
 
 export const dynamicParams = false;
 
-function readRamayanaStructure() {
-  const publicPath = path.join(process.cwd(), 'public', 'locales', 'en', 'itihasa_ramayana_structure.json');
-  if (fs.existsSync(publicPath)) {
-    return JSON.parse(fs.readFileSync(publicPath, 'utf8')) as Record<string, unknown>;
-  }
-
-  const legacyPath = path.join(process.cwd(), 'locales', 'en', 'itihasa_ramayana_structure.json');
-  if (!fs.existsSync(legacyPath)) return null;
-  return JSON.parse(fs.readFileSync(legacyPath, 'utf8')) as Record<string, unknown>;
-}
-
 export function generateStaticParams() {
-  const structure = readRamayanaStructure();
-  const kandas = Array.isArray(structure?.kandas) ? (structure?.kandas as unknown[]) : [];
-
-  const params: Params[] = [];
-  if (kandas.length > 0) {
-    for (const kanda of kandas) {
-      if (!kanda || typeof kanda !== 'object') continue;
-      const kandaSlug = String((kanda as Record<string, unknown>).slug || '');
-      const sargas = Array.isArray((kanda as Record<string, unknown>).sargas)
-        ? ((kanda as Record<string, unknown>).sargas as unknown[])
-        : [];
-
-      for (const sarga of sargas) {
-        if (!sarga || typeof sarga !== 'object') continue;
-        const sargaNumber = Number((sarga as Record<string, unknown>).sarga);
-        if (!Number.isFinite(sargaNumber)) continue;
-        params.push({ slug: kandaSlug, parts: [`sarga-${sargaNumber}`] });
-      }
-    }
-    return params;
-  }
-
-  for (const kanda of RAMAYANA_KANDAS) {
-    params.push({ slug: kanda, parts: ['sarga-1'] });
-  }
-
-  return params;
+  return RAMAYANA_SARGA_PARAMS as Params[];
 }
 
 export async function generateMetadata(props: { params: Promise<Params> }) {

@@ -6,14 +6,14 @@ import {
   toTitleFromSlug,
   toUnderscoreSlug,
 } from '../../itihasa-utils';
-import { getMahabharataParvas } from '../static-params';
+import { MAHABHARATA_PARVA_PARAMS } from '@lib/generated/scriptureStaticParams';
 
 type Params = { parva: string };
 
 export const dynamicParams = false;
 
 export async function generateStaticParams(): Promise<{ parva: string }[]> {
-  return getMahabharataParvas().map((parva) => ({ parva }));
+  return MAHABHARATA_PARVA_PARAMS as { parva: string }[];
 }
 
 export async function generateMetadata(props: { params: Promise<Params> }) {

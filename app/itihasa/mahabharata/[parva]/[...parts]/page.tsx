@@ -8,26 +8,14 @@ import {
   toTitleFromSlug,
   toUnderscoreSlug,
 } from '../../../itihasa-utils';
-import { getMahabharataChapters } from '../../static-params';
+import { MAHABHARATA_CHAPTER_PARAMS } from '@lib/generated/scriptureStaticParams';
 
 type Params = { parva: string; parts: string[] };
 
 export const dynamicParams = false;
 
 export async function generateStaticParams(): Promise<Params[]> {
-  const params: Params[] = [];
-
-  for (const parva of MAHABHARATA_PARVAS) {
-    const chapters = getMahabharataChapters(parva);
-    for (const chapter of chapters) {
-      params.push({
-        parva,
-        parts: [`chapter-${chapter}`],
-      });
-    }
-  }
-
-  return params;
+  return MAHABHARATA_CHAPTER_PARAMS as Params[];
 }
 
 export async function generateMetadata(props: { params: Promise<Params> }) {
