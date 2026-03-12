@@ -1,7 +1,6 @@
-import fs from 'fs';
-import path from 'path';
 import { notFound } from 'next/navigation';
 import { createGenerateMetadata } from '@lib/pageUtils';
+import { VEDIC_PHILOSOPHY_PART_PARAMS } from '@lib/generated/scriptureStaticParams';
 import PartsClient from './partsclient';
 import { isPhilosophyTopic } from '../../philosophy-utils';
 
@@ -9,60 +8,8 @@ type Params = { slug: string; parts: string[] };
 
 export const dynamicParams = false;
 
-function readStructure() {
-  const filePath = path.join(
-      process.cwd(),
-      'public',
-      'locales',
-      'en',
-      'vedic_philosophy_structure.json',
-    );
-  if (fs.existsSync(filePath)) {
-    const root = JSON.parse(fs.readFileSync(filePath, 'utf8')) as Record<string, unknown>;
-    const structure = root?.vedic_philosophy_structure;
-    if (structure && typeof structure === 'object') {
-      return structure as Record<string, unknown>;
-    }
-    return root;
-  }
-
-  const legacyPath = path.join(
-    process.cwd(),
-    'locales',
-    'en',
-    'vedic_philosophy_structure.json',
-  );
-  if (!fs.existsSync(legacyPath)) return null;
-  const legacyRoot = JSON.parse(fs.readFileSync(legacyPath, 'utf8')) as Record<string, unknown>;
-  const legacyStructure = legacyRoot?.vedic_philosophy_structure;
-  if (legacyStructure && typeof legacyStructure === 'object') {
-    return legacyStructure as Record<string, unknown>;
-  }
-  return legacyRoot;
-}
-
 export function generateStaticParams(): Params[] {
-  const structure = readStructure();
-  const topics = Array.isArray(structure?.topics) ? (structure?.topics as unknown[]) : [];
-  const params: Params[] = [];
-
-  for (const topic of topics) {
-    if (!topic || typeof topic !== 'object') continue;
-    const currentTopicSlug = String((topic as Record<string, unknown>).slug || '');
-    if (!currentTopicSlug) continue;
-    const subtopics = Array.isArray((topic as Record<string, unknown>).subtopics)
-      ? ((topic as Record<string, unknown>).subtopics as unknown[])
-      : [];
-
-    for (const subtopic of subtopics) {
-      if (!subtopic || typeof subtopic !== 'object') continue;
-      const subtopicSlug = String((subtopic as Record<string, unknown>).slug || '');
-      if (!subtopicSlug) continue;
-      params.push({ slug: currentTopicSlug, parts: [subtopicSlug] });
-    }
-  }
-
-  return params;
+  return VEDIC_PHILOSOPHY_PART_PARAMS as Params[];
 }
 
 export async function generateMetadata(props: { params: Promise<Params> }) {

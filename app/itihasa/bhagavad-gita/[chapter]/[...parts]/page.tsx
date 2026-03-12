@@ -2,29 +2,14 @@ import { notFound } from 'next/navigation';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import ItihasaPartClient from '../../../itihasapartclient';
 import { parseNumericSuffix } from '../../../itihasa-utils';
-import {
-  getBhagavadGitaChapters,
-  getBhagavadGitaVersesForChapter,
-} from '../../static-params';
+import { BHAGAVAD_GITA_VERSE_PARAMS } from '@lib/generated/scriptureStaticParams';
 
 type Params = { chapter: string; parts: string[] };
 
 export const dynamicParams = false;
 
 export async function generateStaticParams(): Promise<Params[]> {
-  const params: Params[] = [];
-
-  for (const chapter of getBhagavadGitaChapters()) {
-    const verses = getBhagavadGitaVersesForChapter(chapter);
-    for (const verse of verses) {
-      params.push({
-        chapter: `chapter-${chapter}`,
-        parts: [`verse-${verse}`],
-      });
-    }
-  }
-
-  return params;
+  return BHAGAVAD_GITA_VERSE_PARAMS as Params[];
 }
 
 export async function generateMetadata(props: { params: Promise<Params> }) {

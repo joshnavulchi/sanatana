@@ -1,8 +1,17 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, detectLocale, getLocaleNamespaceObject } from './i18n';
 import { secrets } from './secrets';
+import { headers } from 'next/headers';
+import { detectServerLocaleFromHeaders, DEFAULT_LOCALE } from './i18n';
 
-import { resolveLocaleFromHeaders } from './pageUtils.server';
+function resolveLocaleFromHeaders() {
+  try {
+    const h = headers() as unknown;
+    return detectServerLocaleFromHeaders(h as Record<string, unknown>);
+  } catch (e) {
+    return DEFAULT_LOCALE;
+  }
+}
 
 export function createGenerateMetadata(metaKey: string, titleKey?: string, descriptionKey?: string) {
 

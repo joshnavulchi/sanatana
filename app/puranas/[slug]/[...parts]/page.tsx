@@ -1,6 +1,5 @@
-import fs from 'fs';
-import path from 'path';
 import { createGenerateMetadata } from '@lib/pageUtils';
+import { PURANAS_PART_PARAMS } from '@lib/generated/scriptureStaticParams';
 import PartsClient from './partsclient';
 import { MAHAPURANA_SLUGS, normalizePuranaSlug, parseNumericSuffix } from '../../purana-utils';
 
@@ -8,20 +7,6 @@ type Params = { slug: string; parts: string[] };
 
 export const dynamicParams = false;
 export const dynamic = 'force-static';
-
-function readJson(filePath: string): Record<string, unknown> | null {
-  try {
-    if (!fs.existsSync(filePath)) return null;
-    return JSON.parse(fs.readFileSync(filePath, 'utf8')) as Record<string, unknown>;
-  } catch (_) {
-    return null;
-  }
-}
-
-function getStructure(slug: string): Record<string, unknown> | null {
-  const file = path.join(process.cwd(), 'public', 'locales', 'en', `puranas_${slug}_structure.json`);
-  return readJson(file);
-}
 
 function getNamespace(slug: string, parts: string[]): string {
   if (slug === 'bhagavata') {
@@ -40,78 +25,7 @@ function getNamespace(slug: string, parts: string[]): string {
 }
 
 export function generateStaticParams() {
-  const params: Params[] = [];
-
-  for (const slug of MAHAPURANA_SLUGS) {
-    const structure = getStructure(slug);
-    if (!structure) continue;
-    const routeSlugs = [slug, `${slug}-purana`];
-
-    if (slug === 'bhagavata') {
-      const skandas = Array.isArray(structure.skandas) ? structure.skandas : [];
-      for (const skanda of skandas) {
-        if (!skanda || typeof skanda !== 'object') continue;
-        const skandaNumber = Number((skanda as Record<string, unknown>).skanda);
-        if (!Number.isFinite(skandaNumber)) continue;
-        for (const routeSlug of routeSlugs) {
-          params.push({ slug: routeSlug, parts: [`skanda-${skandaNumber}`] });
-        }
-
-        const chapters = Array.isArray((skanda as Record<string, unknown>).chapters)
-          ? ((skanda as Record<string, unknown>).chapters as unknown[])
-          : [];
-        for (const chapter of chapters) {
-          if (!chapter || typeof chapter !== 'object') continue;
-          const chapterNumber = Number((chapter as Record<string, unknown>).chapter);
-          if (!Number.isFinite(chapterNumber)) continue;
-          for (const routeSlug of routeSlugs) {
-            params.push({ slug: routeSlug, parts: [`skanda-${skandaNumber}`, `chapter-${chapterNumber}`] });
-          }
-
-          const verses = Array.isArray((chapter as Record<string, unknown>).verses)
-            ? ((chapter as Record<string, unknown>).verses as unknown[])
-            : [];
-          for (const verse of verses) {
-            if (!verse || typeof verse !== 'object') continue;
-            const verseNumber = Number((verse as Record<string, unknown>).verse_number);
-            if (!Number.isFinite(verseNumber)) continue;
-            for (const routeSlug of routeSlugs) {
-              params.push({
-                slug: routeSlug,
-                parts: [`skanda-${skandaNumber}`, `chapter-${chapterNumber}`, `verse-${verseNumber}`],
-              });
-            }
-          }
-        }
-      }
-      continue;
-    }
-
-    const chapters = Array.isArray(structure.chapters) ? structure.chapters : [];
-    for (const chapter of chapters) {
-      if (!chapter || typeof chapter !== 'object') continue;
-      const chapterNumber = Number((chapter as Record<string, unknown>).chapter);
-      if (!Number.isFinite(chapterNumber)) continue;
-      for (const routeSlug of routeSlugs) {
-        params.push({ slug: routeSlug, parts: [`chapter-${chapterNumber}`] });
-      }
-
-      const verses = Array.isArray((chapter as Record<string, unknown>).verses)
-        ? ((chapter as Record<string, unknown>).verses as unknown[])
-        : [];
-
-      for (const verse of verses) {
-        if (!verse || typeof verse !== 'object') continue;
-        const verseNumber = Number((verse as Record<string, unknown>).verse_number);
-        if (!Number.isFinite(verseNumber)) continue;
-        for (const routeSlug of routeSlugs) {
-          params.push({ slug: routeSlug, parts: [`chapter-${chapterNumber}`, `verse-${verseNumber}`] });
-        }
-      }
-    }
-  }
-
-  return params;
+  return PURANAS_PART_PARAMS as Params[];
 }
 
 export async function generateMetadata(props: { params: Promise<Params> }) {
