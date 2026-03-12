@@ -11,6 +11,20 @@ const REMOTE_LOCALES_BASE = process.env.NEXT_PUBLIC_REMOTE_LOCALES_BASE || '';
 const localesCache: Record<string, unknown> = {};
 const warnedMissingKeys = new Set<string>();
 
+function normalizeSupportedLocale(input: string | undefined): string {
+  const raw = String(input || '').trim();
+  if (!raw) return DEFAULT_LOCALE;
+  if (SUPPORTED_LOCALES.includes(raw)) return raw;
+
+  const primary = raw.split('-')[0];
+  if (SUPPORTED_LOCALES.includes(primary)) return primary;
+
+  const byPrimary = SUPPORTED_LOCALES.find((l) => l.split('-')[0] === primary);
+  if (byPrimary) return byPrimary;
+
+  return DEFAULT_LOCALE;
+}
+
 // Hydrate cache from server-injected global if present
 if (typeof window !== 'undefined') {
   try {
@@ -33,6 +47,7 @@ export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = ''
     namespace = locale;
     locale = DEFAULT_LOCALE;
   }
+  locale = normalizeSupportedLocale(locale);
   if (!namespace) return {};
   const localeEntry = localesCache[locale];
   if (!localeEntry || typeof localeEntry !== 'object') return {};
@@ -61,6 +76,7 @@ export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = ''
 
 export async function loadLocaleNamespace(locale: string, namespace: string) {
   if (!locale || !namespace) return {};
+  locale = normalizeSupportedLocale(locale);
   if (!localesCache[locale] || typeof localesCache[locale] !== 'object') localesCache[locale] = {} as any;
   const existing = (localesCache[locale] as any)[namespace];
   if (existing) return existing;
@@ -73,7 +89,31 @@ export async function loadLocaleNamespace(locale: string, namespace: string) {
   ];
 
   // Server-side: use fs directly (most reliable for static export)
-  if (typeof window === 'undefined') return {};
+  if (typeof window === 'undefined') {
+    try {
+      const { readFile } = await import('node:fs/promises');
+      const { join } = await import('node:path');
+
+      for (const candidate of candidates) {
+        const filePath = join(process.cwd(), 'public', 'locales', locale, `${candidate}.json`);
+        try {
+          const raw = await readFile(filePath, 'utf8');
+          const parsed = JSON.parse(raw);
+          try {
+            (localesCache[locale] as any)[namespace] = parsed;
+            (localesCache[locale] as any)[candidate] = parsed;
+          } catch (_) { }
+          return parsed;
+        } catch (_) {
+          // Continue to next naming candidate
+        }
+      }
+    } catch (_) {
+      // Fallback to empty object below
+    }
+
+    return {};
+  }
 
   // Client-side: fetch from public/locales
   for (const candidate of candidates) {
@@ -81,7 +121,10 @@ export async function loadLocaleNamespace(locale: string, namespace: string) {
       const response = await fetch(`/locales/${locale}/${candidate}.json`, { cache: 'force-cache' });
       if (!response.ok) continue;
       const parsed = await response.json();
-      try { (localesCache[locale] as any)[namespace] = parsed; } catch (_) { }
+      try {
+        (localesCache[locale] as any)[namespace] = parsed;
+        (localesCache[locale] as any)[candidate] = parsed;
+      } catch (_) { }
       return parsed;
     } catch (e) {
       // Continue to next candidate
@@ -163,12 +206,11 @@ export function detectServerLocaleFromHeaders(hdrs: any) {
     if (!hdrs || typeof hdrs.get !== 'function') return DEFAULT_LOCALE;
     const cookie = hdrs.get('cookie') || '';
     const match = typeof cookie === 'string' ? cookie.match(/sanatana_dharma_language=([^;]+)/) : null;
-    if (match && SUPPORTED_LOCALES.includes(match[1])) return match[1];
+    if (match) return normalizeSupportedLocale(match[1]);
     const al = hdrs.get('accept-language');
     if (al && typeof al === 'string') {
       const first = al.split(',')[0].split(';')[0].trim();
-      const primary = first.split('-')[0];
-      if (SUPPORTED_LOCALES.includes(primary)) return primary;
+      return normalizeSupportedLocale(first);
     }
   } catch (_) { }
   return DEFAULT_LOCALE;
