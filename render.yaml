@@ -25,9 +25,18 @@ services:
       export CI=true
       export NODE_OPTIONS=--max-old-space-size=6144
 
-      # Fetch locales branch (Render shallow clone fix)
-      git fetch origin locales --depth=1 || true
-      git fetch origin +refs/heads/locales:refs/remotes/origin/locales || true
+      set -euo pipefail
+
+      echo ">> LOCALES_REF=${LOCALES_REF:-<empty>}"
+      git remote -v || true
+      echo ">> ls-remote origin (filter 'locales'):"
+      git ls-remote origin | grep -i 'refs/heads/locales' || echo "no 'refs/heads/locales' visible on origin"
+
+      echo ">> Fetching locales branch explicitly (shallow)…"
+      git fetch --no-tags --prune --depth=1 origin locales:refs/remotes/origin/locales || true
+
+      echo ">> Refs after fetch (grep locales):"
+      git show-ref | grep -i locales || echo "locales ref not present locally (script will try again)"
 
       npm run render-build
       
