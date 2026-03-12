@@ -377,3 +377,28 @@ footer {
 }
 
 @media (min-width: 1024px) {}
+
+/* The entire scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  /* for vertical scrollbar */
+  height: 8px;
+  /* for horizontal scrollbar */
+}
+
+/* The track (background) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 6px;
+}
+
+/* The handle (thumb) */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
+}
+
+/* The handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
