@@ -13,7 +13,7 @@ const path = require('path');
  */
 
 const argv = process.argv.slice(2);
-const REPO_ROOT = path.resolve(__dirname, '..', '..');
+const REPO_ROOT = process.cwd(); //path.resolve(__dirname, '..', '..');
 
 function getArgValue(prefix) {
   const hit = argv.find((a) => a.startsWith(prefix));
