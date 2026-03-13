@@ -2,66 +2,69 @@
 set -euo pipefail
 
 echo "== Render portable build =="
+
 echo "LOCALES_REF=${LOCALES_REF:-<empty>}"
 echo "GIT_REMOTE_URL=${GIT_REMOTE_URL:-<empty>}"
 echo "CI=${CI:-<empty>}"
 
-# 1) Ensure we are in CI mode so your sync script can soft-skip when not strict
+# Reduce memory usage
+export NODE_OPTIONS="--max-old-space-size=4096"
+
+# Ensure CI mode
 export CI=${CI:-1}
-# Make locales sync non-fatal initially (change to 1 once stable)
 export LOCALES_SYNC_STRICT=${LOCALES_SYNC_STRICT:-0}
-# Your locales branch/tag/sha (no `origin/` prefix); defaults to 'locales'
 export LOCALES_REF=${LOCALES_REF:-locales}
 
-# 2) Recreate a minimal git context when the build is a tarball (no .git)
+# Create git context if missing
 if [ ! -d ".git" ]; then
-  echo ">> No .git directory detected. Initializing a new git repo for fetch-only operations…"
+  echo ">> Initializing git repository"
   git init
 fi
 
-# 3) Add 'origin' if it doesn't exist; requires GIT_REMOTE_URL
+# Add origin if missing
 if ! git remote get-url origin >/dev/null 2>&1; then
-  if [ -z "${GIT_REMOTE_URL:-}" ]; then
-    echo ">> WARNING: GIT_REMOTE_URL not set; cannot add 'origin'. Locales sync may skip."
-  else
-    echo ">> Adding 'origin' remote: ${GIT_REMOTE_URL}"
+  if [ -n "${GIT_REMOTE_URL:-}" ]; then
+    echo ">> Adding origin ${GIT_REMOTE_URL}"
     git remote add origin "${GIT_REMOTE_URL}"
+  else
+    echo ">> WARNING: No remote URL"
   fi
 fi
 
 echo ">> Remotes:"
 git remote -v || true
 
-# 4) If we have an origin, fetch the locales ref explicitly (shallow)
+# Fetch locales branch
 if git remote get-url origin >/dev/null 2>&1; then
-  echo ">> Checking remote for '${LOCALES_REF}'…"
-  git ls-remote origin | grep -E "refs/(heads|tags)/${LOCALES_REF}$" || echo "No exact '${LOCALES_REF}' ref visible on origin (may still exist under different name)."
+  echo ">> Fetching locales ref ${LOCALES_REF}"
 
-  echo ">> Fetching '${LOCALES_REF}' shallowly…"
-  # Try as a branch, and if that fails, try as a tag.
-  git fetch --no-tags --prune --depth=1 origin "${LOCALES_REF}:refs/remotes/origin/${LOCALES_REF}" \
-    || git fetch --no-tags --prune --depth=1 origin "refs/tags/${LOCALES_REF}:refs/tags/${LOCALES_REF}" \
-    || echo ">> Fetch did not bring '${LOCALES_REF}' locally; locales-sync may soft-skip."
+  git fetch --depth=1 origin \
+  "${LOCALES_REF}:refs/remotes/origin/${LOCALES_REF}" \
+  || echo "Locales ref not found"
 fi
 
-echo ">> Local refs (grep '${LOCALES_REF}') after fetch:"
-git show-ref | grep -i "${LOCALES_REF}" || echo "No local refs matching '${LOCALES_REF}'."
-
-# 5) Run your existing chain
 echo "== Running locales sync =="
-node scripts/sync-locales-from-branch.js --verbose || echo "[locales-sync] non-fatal skip (STRICT=${LOCALES_SYNC_STRICT})"
+node scripts/sync-locales-from-branch.js --verbose || echo "Locales sync skipped"
 
-echo "== Building =="
+echo "== Pre-build assets =="
 node scripts/compile-scss.js --force
-node scripts/generate-critical-css.js
+
+echo "== Next.js build =="
 npm run build:ci
 
-echo "== Post-build verification & optimization =="
-node scripts/compile-scss.js --verify
-node scripts/strip-comments.js
+echo "== Post-build optimizations =="
+
 node scripts/generate-sitemap.js
-node scripts/minify-html.js
 node scripts/add-hash-to-assets.js
+
+# Optional heavy tasks
+if [ "${CI}" = "1" ]; then
+  echo "Skipping heavy HTML processing in CI"
+else
+  node scripts/generate-critical-css.js
+  node scripts/minify-html.js
+fi
+
 node scripts/check-analytics-keys.js
 
 echo "== Build complete ✅ =="
