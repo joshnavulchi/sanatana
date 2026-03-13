@@ -86,7 +86,7 @@ export default async function RootLayout({
         <Script
           id="jsonld-site"
           type="application/ld+json"
-          strategy="afterInteractive"
+          // strategy="afterInteractive"
           dangerouslySetInnerHTML={renderJsonLdScript(siteJson)}
         />
         <Script
@@ -98,7 +98,7 @@ export default async function RootLayout({
         <Script
           id="jsonld-web"
           type="application/ld+json"
-          strategy="afterInteractive"
+          // strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
@@ -118,7 +118,7 @@ export default async function RootLayout({
         <Script
           id="jsonld-organization"
           type="application/ld+json"
-          strategy="afterInteractive"
+          // strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
