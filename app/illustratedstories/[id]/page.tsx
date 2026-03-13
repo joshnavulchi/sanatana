@@ -9,15 +9,12 @@ const __getLoc = (p: string) => {
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };
-import { t, getMeta, detectLocale, DEFAULT_LOCALE, detectServerLocaleFromHeaders } from '@lib/i18n';
+import { t, getMeta, detectLocale, DEFAULT_LOCALE, detectServerLocaleFromHeaders, loadLocaleNamespace } from '@lib/i18n';
 import { headers } from 'next/headers';
-import { notFound } from 'next/navigation';
 import PageLayout from '@components/common/PageLayout';
-import fs from 'fs/promises';
-import fsSync from 'fs';
-import path from 'path';
 import LazyImage from '@components/lazyimage';
 import Link from 'next/link';
+import storiesEn from '../../../public/locales/en/kidszone_illustratedstories.json';
 
 function resolveLocaleFromHeaders() {
   try {
@@ -58,47 +55,19 @@ export async function generateMetadata({ params, searchParams }: { params: any, 
 // top-level `generateStaticParams` during static analysis. Returns an
 // empty array so the route can be exported without enumerating items.
 export async function generateStaticParams() {
-  try {
-    const localesDir = path.join(process.cwd(), 'public', 'locales');
-    if (!fsSync.existsSync(localesDir)) return [{ id: 'placeholder' }];
-    const localeDirs = fsSync.readdirSync(localesDir).filter((d: string) => {
-      try { return fsSync.statSync(path.join(localesDir, d)).isDirectory(); } catch (e) { return false; }
-    });
-
-    const ids = new Set<string>();
-    for (const loc of localeDirs) {
-      try {
-        const file = path.join(localesDir, loc, 'illustrated_stories.json');
-        if (!fsSync.existsSync(file)) continue;
-        const raw = fsSync.readFileSync(file, 'utf8');
-        const doc = JSON.parse(raw);
-        const stories = doc && (doc.illustrated_stories || doc.illustratedstories) && (doc.illustrated_stories.kids_indian_stories || doc.illustratedstories.kids_indian_stories) ? (doc.illustrated_stories?.kids_indian_stories || doc.illustratedstories?.kids_indian_stories) : [];
-        if (Array.isArray(stories)) {
-          for (const s of stories) {
-            if (s && (s.id !== undefined && s.id !== null)) ids.add(String(s.id));
-          }
-        }
-      } catch (e) {
-        // ignore per-locale failures
-      }
-    }
-    const result = Array.from(ids).map((id) => ({ id }));
-    return result.length > 0 ? result : [{ id: 'placeholder' }];
-  } catch (err) {
-    return [{ id: 'placeholder' }];
-  }
+  const stories = (storiesEn as any)?.kidszone_illustratedstories?.kids_indian_stories;
+  if (!Array.isArray(stories) || stories.length === 0) return [{ id: 'placeholder' }];
+  return stories
+    .filter((story: any) => story && story.id !== undefined && story.id !== null)
+    .map((story: any) => ({ id: String(story.id) }));
 }
 
 async function loadStories(locale: string) {
-  const file = path.join(process.cwd(), 'public', 'locales', locale, 'illustrated_stories.json');
-  try {
-    const raw = await fs.readFile(file, 'utf8');
-    const doc = JSON.parse(raw);
-    return doc?.illustratedstories?.kids_indian_stories ?? [];
-  } catch (err) {
-    if (locale !== 'en') return loadStories('en');
-    return [];
-  }
+  const localized = await loadLocaleNamespace(locale, 'kidszone_illustratedstories');
+  const stories = (localized as any)?.kidszone_illustratedstories?.kids_indian_stories;
+  if (Array.isArray(stories)) return stories;
+  if (locale !== 'en') return loadStories('en');
+  return [];
 }
 
 export default async function Page({ params, searchParams }: any) {

@@ -69,6 +69,31 @@ export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = ''
   return {};
 }
 
+async function loadLocaleBundle(locale: string): Promise<Record<string, unknown> | null> {
+  try {
+    switch (locale) {
+      case 'ar': return (await import('../public/locales/ar/index')).default as Record<string, unknown>;
+      case 'de': return (await import('../public/locales/de/index')).default as Record<string, unknown>;
+      case 'en': return (await import('../public/locales/en/index')).default as Record<string, unknown>;
+      case 'es': return (await import('../public/locales/es/index')).default as Record<string, unknown>;
+      case 'fr': return (await import('../public/locales/fr/index')).default as Record<string, unknown>;
+      case 'hi': return (await import('../public/locales/hi/index')).default as Record<string, unknown>;
+      case 'ja': return (await import('../public/locales/ja/index')).default as Record<string, unknown>;
+      case 'ne': return (await import('../public/locales/ne/index')).default as Record<string, unknown>;
+      case 'nl': return (await import('../public/locales/nl/index')).default as Record<string, unknown>;
+      case 'pt': return (await import('../public/locales/pt/index')).default as Record<string, unknown>;
+      case 'ru': return (await import('../public/locales/ru/index')).default as Record<string, unknown>;
+      case 'ta': return (await import('../public/locales/ta/index')).default as Record<string, unknown>;
+      case 'te': return (await import('../public/locales/te/index')).default as Record<string, unknown>;
+      case 'ur': return (await import('../public/locales/ur/index')).default as Record<string, unknown>;
+      case 'zh-CN': return (await import('../public/locales/zh-CN/index')).default as Record<string, unknown>;
+      default: return null;
+    }
+  } catch (_) {
+    return null;
+  }
+}
+
 // Deprecated: No longer used. Only per-namespace files are loaded now.
 // function fetchLocaleData(locale: string) { return {}; }
 
@@ -88,30 +113,21 @@ export async function loadLocaleNamespace(locale: string, namespace: string) {
     namespace.replace(/_/g, '-'),
   ];
 
-  // Server-side: use fs directly (most reliable for static export)
+  // Server-side: use static locale module imports to keep file access deterministic
   if (typeof window === 'undefined') {
-    try {
-      const { readFile } = await import('node:fs/promises');
-      const { join } = await import('node:path');
-
+    const merged = await loadLocaleBundle(locale);
+    if (merged && typeof merged === 'object') {
       for (const candidate of candidates) {
-        const filePath = join(process.cwd(), 'public', 'locales', locale, `${candidate}.json`);
-        try {
-          const raw = await readFile(filePath, 'utf8');
-          const parsed = JSON.parse(raw);
+        const parsed = (merged as Record<string, unknown>)[candidate];
+        if (parsed) {
           try {
             (localesCache[locale] as any)[namespace] = parsed;
             (localesCache[locale] as any)[candidate] = parsed;
           } catch (_) { }
           return parsed;
-        } catch (_) {
-          // Continue to next naming candidate
         }
       }
-    } catch (_) {
-      // Fallback to empty object below
     }
-
     return {};
   }
 

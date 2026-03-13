@@ -4,6 +4,7 @@
 
 const fs = require('fs').promises;
 const path = require('path');
+const REPO_ROOT = path.resolve(__dirname, '..');
 
 async function findHtml(dir) {
   const entries = await fs.readdir(dir, { withFileTypes: true });
@@ -25,7 +26,7 @@ async function main() {
     return;
   }
 
-  const outDir = path.resolve(process.cwd(), 'out');
+  const outDir = path.resolve(REPO_ROOT, 'out');
   try {
     await fs.access(outDir);
   } catch (err) {
@@ -53,7 +54,7 @@ async function main() {
         keepClosingSlash: false,
       });
       await fs.writeFile(file, res, 'utf8');
-      console.log('Minified', path.relative(process.cwd(), file));
+      console.log('Minified', path.relative(REPO_ROOT, file));
     } catch (err) {
       console.error('Failed to minify', file, err);
     }

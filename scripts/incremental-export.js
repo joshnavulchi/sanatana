@@ -2,9 +2,10 @@
 const { execSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
+const REPO_ROOT = path.resolve(__dirname, '..');
 
-const LAST_COMMIT_FILE = path.join(process.cwd(), '.last_export_commit');
-const OUT_FILE = path.join(process.cwd(), 'scripts', 'changed-routes.json');
+const LAST_COMMIT_FILE = path.join(REPO_ROOT, '.last_export_commit');
+const OUT_FILE = path.join(REPO_ROOT, 'scripts', 'changed-routes.json');
 
 function getHead() {
   return execSync('git rev-parse HEAD').toString().trim();
