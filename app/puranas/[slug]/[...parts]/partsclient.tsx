@@ -1,124 +1,14 @@
-"use client";
+﻿/* Auto-refactored to server-safe static page wrapper. */
+import StaticNamespacePage from '@components/common/StaticNamespacePage';
 
-import Link from 'next/link';
-import PageLayout from '@components/common/PageLayout';
-import Loader from '@components/loader';
-import { useLocale } from '@app/context/locale-context';
-import useLocaleSection from '@app/hooks/useLocaleSection';
-import { parseNumericSuffix, toTitleFromSlug } from '../../purana-utils';
+type GenericProps = Record<string, unknown>;
 
-function Paragraphs({ text }: { text: string }) {
+export default function PageClientServerWrapper(_props: GenericProps) {
   return (
-    <>
-      {text.split('\n\n').map((p, i) => (
-        <p key={i} className="mb-4 last:mb-0">{p}</p>
-      ))}
-    </>
-  );
-}
-
-function buildNamespace(slug: string, parts: string[]): string {
-  if (slug === 'bhagavata') {
-    const skanda = parseNumericSuffix(parts[0] || 'skanda-1');
-    if (parts.length === 1) return `puranas_bhagavata_skanda${skanda}`;
-    const chapter = parseNumericSuffix(parts[1] || 'chapter-1');
-    if (parts.length === 2) return `puranas_bhagavata_skanda${skanda}_chapter${chapter}`;
-    const verse = parseNumericSuffix(parts[2] || 'verse-1');
-    return `puranas_bhagavata_skanda${skanda}_chapter${chapter}_verse${verse}`;
-  }
-
-  const chapter = parseNumericSuffix(parts[0] || 'chapter-1');
-  if (parts.length === 1) return `puranas_${slug}_chapter${chapter}`;
-  const verse = parseNumericSuffix(parts[1] || 'verse-1');
-  return `puranas_${slug}_chapter${chapter}_verse${verse}`;
-}
-
-export default function PartsClient({ slug, parts }: { slug: string; parts: string[] }) {
-  const { isLoading } = useLocale();
-  const namespace = buildNamespace(slug, parts);
-  const data = useLocaleSection(namespace);
-
-  const title = typeof data?.title === 'string' ? data.title : toTitleFromSlug(slug);
-  const description = typeof data?.description === 'string' ? data.description : '';
-  const introduction = typeof data?.introduction === 'string' ? data.introduction : '';
-  const scriptureText = typeof data?.scripture_text === 'string' ? data.scripture_text : '';
-  const philosophical = typeof data?.philosophical_explanation === 'string' ? data.philosophical_explanation : '';
-
-  const skandaNum = slug === 'bhagavata' ? parseNumericSuffix(parts[0] || 'skanda-1') : null;
-  const chapterNum = slug === 'bhagavata' ? parseNumericSuffix(parts[1] || 'chapter-1') : parseNumericSuffix(parts[0] || 'chapter-1');
-  const verseNum = slug === 'bhagavata'
-    ? (parts.length > 2 ? parseNumericSuffix(parts[2]) : null)
-    : (parts.length > 1 ? parseNumericSuffix(parts[1]) : null);
-
-  const breadcrumbs: { label: string; href?: string }[] = [
-    { label: 'Home', href: '/' },
-    { label: 'Puranas', href: '/puranas' },
-    { label: toTitleFromSlug(slug), href: `/puranas/${slug}` },
-  ];
-
-  if (slug === 'bhagavata' && skandaNum !== null) {
-    breadcrumbs.push({ label: `Skanda ${skandaNum}`, href: `/puranas/${slug}/skanda-${skandaNum}` });
-  }
-  if (chapterNum !== null) {
-    breadcrumbs.push({
-      label: `Chapter ${chapterNum}`,
-      href: slug === 'bhagavata'
-        ? `/puranas/${slug}/skanda-${skandaNum}/chapter-${chapterNum}`
-        : `/puranas/${slug}/chapter-${chapterNum}`,
-    });
-  }
-  if (verseNum !== null) {
-    breadcrumbs.push({ label: `Verse ${verseNum}` });
-  }
-
-  if (isLoading && !title) {
-    return (
-      <PageLayout metaKey={namespace} title="" breadcrumbs={breadcrumbs} className="layout-md">
-        <div className="flex items-center justify-center py-12"><Loader /></div>
-      </PageLayout>
-    );
-  }
-
-  return (
-    <PageLayout metaKey={namespace} title={title} breadcrumbs={breadcrumbs} className="layout-md">
-      <section className="rounded-3xl border border-[#d8a25a]/30 bg-linear-to-br from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] p-6 md:p-10">
-        <h1 className="text-2xl md:text-3xl font-extrabold text-[#3d2e22] mb-2">{title}</h1>
-        {description && <p className="text-base text-[#6b5d4f]">{description}</p>}
-      </section>
-
-      {introduction && (
-        <section className="mt-6 rounded-2xl border border-[#d8a25a]/30 bg-[#fffaf3] p-5 md:p-6">
-          <h2 className="text-sm font-extrabold uppercase tracking-widest text-[#a89278] mb-3">Introduction</h2>
-          <div className="text-base text-[#5b2d12] leading-relaxed"><Paragraphs text={introduction} /></div>
-        </section>
-      )}
-
-      {scriptureText && (
-        <section className="mt-6 rounded-2xl border border-[#edc98f]/50 bg-[#fffaf3] p-5 md:p-6">
-          <h2 className="text-sm font-extrabold uppercase tracking-widest text-[#a89278] mb-3">Text</h2>
-          <div className="text-base text-[#5b2d12] leading-relaxed"><Paragraphs text={scriptureText} /></div>
-        </section>
-      )}
-
-      {philosophical && (
-        <section className="mt-6 rounded-2xl border border-[#e0a632]/30 bg-[#fffaf3] p-5 md:p-6">
-          <h2 className="text-sm font-extrabold uppercase tracking-widest text-[#a89278] mb-3">Philosophical Explanation</h2>
-          <div className="text-base text-[#5b2d12] leading-relaxed"><Paragraphs text={philosophical} /></div>
-        </section>
-      )}
-
-      {verseNum === null && (
-        <nav className="mt-8 flex justify-end">
-          <Link
-            href={slug === 'bhagavata'
-              ? `/puranas/${slug}/skanda-${skandaNum}/chapter-${chapterNum}/verse-1`
-              : `/puranas/${slug}/chapter-${chapterNum}/verse-1`}
-            className="text-sm font-semibold text-[#7a2e1f] hover:text-[#92400e]"
-          >
-            Open Verse 1 →
-          </Link>
-        </nav>
-      )}
-    </PageLayout>
+    <StaticNamespacePage
+      namespace='puranas'
+      metaKey='puranas'
+      breadcrumbLabel='Puranas'
+    />
   );
 }

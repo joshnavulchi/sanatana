@@ -1,5 +1,6 @@
-/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 "use client";
+
+/* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { loadLocaleNamespace } from '@lib/i18n';
 import { useLocale } from '@app/context/locale-context';
 import { useState, useEffect } from 'react';

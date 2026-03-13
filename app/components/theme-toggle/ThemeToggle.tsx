@@ -1,5 +1,4 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-"use client";
 import { useTheme } from '@app/context/theme-context';
 
 export default function ThemeToggle() {

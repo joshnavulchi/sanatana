@@ -1,7 +1,11 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@components/structured-data/StructuredData';
-import DropIrrigationClient from './dripirrigation';
+import dynamic from 'next/dynamic';
+
+const DropIrrigationClient = dynamic(() => import('./dripirrigation'), {
+  ssr: false,
+});
 export const generateMetadata = createGenerateMetadata('drip-irrigation-process');
 
 export default function Page() {
