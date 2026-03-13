@@ -7,7 +7,7 @@ const fs = require('fs'); // Node.js file system module for file operations
 const path = require('path'); // Node.js path module for handling file paths
 
 const argv = process.argv.slice(2);
-const REPO_ROOT = process.cwd(); //path.resolve(__dirname, '..', '..'); // Project root directory
+const REPO_ROOT = path.resolve(__dirname, '..'); // Project root directory
 
 function getArgValue(prefix) {
   const hit = argv.find((a) => a.startsWith(prefix));
@@ -49,7 +49,7 @@ function makeIndexForLocale(localeDir, localeName) {
   const vars = files.map((_, i) => `_${i}`).join(', ');
 
   // Content for index.ts
-  const content = `// Auto-generated index for locale '${localeName}'\n// Imports JSON files in this folder and deep-merges them into one export.\n${imports}\n\n${deepMerge}\n\nconst base = {};\nconst merged = [${vars}].reduce((acc, cur) => deepMerge(acc, cur || {}), base);\n\nexport default merged;\n`;
+  const content = `// @ts-nocheck\n// Auto-generated index for locale '${localeName}'\n// Imports JSON files in this folder and deep-merges them into one export.\n${imports}\n\n${deepMerge}\n\nconst base: any = {};\nconst merged = ([${vars}] as any[]).reduce((acc: any, cur: any) => deepMerge(acc, cur || {}), base as any);\n\nexport default merged;\n`;
 
   fs.writeFileSync(path.join(localeDir, 'index.ts'), content, 'utf8');
   console.log(`Wrote index.ts for locale: ${localeName} (${files.length} JSON files)`);

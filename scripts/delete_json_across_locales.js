@@ -4,7 +4,7 @@ const path = require('path');
 // Usage: node delete_json_across_locales.js <filename.json> [--locales-dir=./locales]
 
 const argv = process.argv.slice(2);
-const REPO_ROOT = process.cwd(); //path.resolve(__dirname, '..', '..');
+const REPO_ROOT = path.resolve(__dirname, '..');
 
 function getArgValue(prefix) {
   const hit = argv.find((a) => a.startsWith(prefix));

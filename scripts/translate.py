@@ -10,7 +10,7 @@ from deep_translator import exceptions as dt_exceptions
 
 
 def resolve_locales_root(locales_dir_arg: str | None) -> str:
-    repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+    repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     default_locales = os.path.join(repo_root, "locales")
 
     if not locales_dir_arg:

@@ -9,7 +9,7 @@ const path = require('path'); // Node.js path module for handling file paths
 
 const argv = process.argv.slice(2); // Command-line arguments
 const APPLY = argv.includes('--apply') || argv.includes('-a'); // Whether to actually delete files
-const REPO_ROOT = process.cwd(); //path.resolve(__dirname, '..', '..'); // Project root directory
+const REPO_ROOT = path.resolve(__dirname, '..'); // Project root directory
 
 function getArgValue(prefix) {
   const hit = argv.find((a) => a.startsWith(prefix));

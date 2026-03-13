@@ -13,10 +13,11 @@
 const fs = require('fs');
 const fsp = require('fs/promises');
 const path = require('path');
+const REPO_ROOT = path.resolve(__dirname, '..');
 
 function parseArgs(argv) {
   const args = {
-    root: process.cwd(),
+    root: REPO_ROOT,
     locales: 'locales',
     addCsv: '',
     file: '',
@@ -176,7 +177,7 @@ async function main() {
   }
 
   const root = path.resolve(args.root);
-  const localesRoot = path.join(root, args.locales);
+  const localesRoot = path.isAbsolute(args.locales) ? args.locales : path.join(root, args.locales);
 
   if (!fs.existsSync(localesRoot)) {
     console.error(`Locales folder not found: ${localesRoot}`);
