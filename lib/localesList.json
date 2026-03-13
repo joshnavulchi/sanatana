@@ -7,7 +7,6 @@
   { "code": "hi", "name": "Hindi", "nativeName": "हिन्दी" },
   { "code": "ja", "name": "Japanese", "nativeName": "日本語" },
   { "code": "nl", "name": "Dutch", "nativeName": "Nederlands" },
-  { "code": "pt", "name": "Portuguese", "nativeName": "Português" },
   { "code": "ru", "name": "Russian", "nativeName": "Русский" },
   { "code": "te", "name": "Telugu", "nativeName": "తెలుగు" },
   { "code": "zh-CN", "name": "Chinese (Simplified)", "nativeName": "中文 (简体)" }
