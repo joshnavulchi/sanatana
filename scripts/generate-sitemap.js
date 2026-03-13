@@ -13,13 +13,14 @@
  */
 const fs = require('fs');
 const path = require('path');
+const REPO_ROOT = path.resolve(__dirname, '..');
 
 const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || 'https://sanatanadharmam.in').replace(/\/$/, '');
 
 // ── Locales ────────────────────────────────────────────────────────
 function loadLocales() {
   try {
-    const listPath = path.join(process.cwd(), 'lib', 'localesList.json');
+    const listPath = path.join(REPO_ROOT, 'lib', 'localesList.json');
     if (fs.existsSync(listPath)) {
       const parsed = JSON.parse(fs.readFileSync(listPath, 'utf8'));
       return Array.isArray(parsed) ? parsed.map((o) => o.code).filter(Boolean) : ['en'];
@@ -32,7 +33,7 @@ const LOCALES = loadLocales();
 // ── Excludes ───────────────────────────────────────────────────────
 function loadExcludes() {
   try {
-    const p = path.join(process.cwd(), 'lib', 'sitemapExclude.json');
+    const p = path.join(REPO_ROOT, 'lib', 'sitemapExclude.json');
     if (fs.existsSync(p)) {
       const arr = JSON.parse(fs.readFileSync(p, 'utf8'));
       if (Array.isArray(arr)) return new Set(arr);
@@ -140,7 +141,7 @@ function writeTo(filePath, xml) {
 // ── Main ───────────────────────────────────────────────────────────
 
 try {
-  const outDir = path.join(process.cwd(), 'out');
+  const outDir = path.join(REPO_ROOT, 'out');
   const htmlFiles = assertBuildOutputReady(outDir);
 
   const routeSet = new Set();
@@ -157,10 +158,10 @@ try {
   for (const p of paths) console.log('  ', p);
 
   const xml = buildSitemap(paths);
-  writeTo(path.join(process.cwd(), 'out', 'sitemap.xml'), xml);
+  writeTo(path.join(REPO_ROOT, 'out', 'sitemap.xml'), xml);
   // Also update public/ so next dev and deployments serve the latest
   try {
-    writeTo(path.join(process.cwd(), 'public', 'sitemap.xml'), xml);
+    writeTo(path.join(REPO_ROOT, 'public', 'sitemap.xml'), xml);
   } catch (_) { /* non-fatal */ }
 } catch (err) {
   console.error('generate-sitemap error:', err);

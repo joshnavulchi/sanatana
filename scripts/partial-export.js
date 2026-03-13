@@ -2,8 +2,9 @@
 const fs = require('fs');
 const path = require('path');
 const { spawnSync } = require('child_process');
+const REPO_ROOT = path.resolve(__dirname, '..');
 
-const ROUTES_FILE = path.join(process.cwd(), 'scripts', 'changed-routes.json');
+const ROUTES_FILE = path.join(REPO_ROOT, 'scripts', 'changed-routes.json');
 
 function readRoutes() {
   try {

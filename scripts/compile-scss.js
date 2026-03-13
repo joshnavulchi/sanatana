@@ -5,6 +5,7 @@
 const { execSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
+const REPO_ROOT = path.resolve(__dirname, '..');
 
 /* ================= CONFIG ================= */
 
@@ -17,7 +18,7 @@ const OUTPUT_DIR = path.dirname(CSS_OUTPUT);
 function ensureDir(dir) {
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir, { recursive: true });
-    console.log(`✓ Created directory: ${path.relative(process.cwd(), dir)}`);
+    console.log(`✓ Created directory: ${path.relative(REPO_ROOT, dir)}`);
   }
 }
 
@@ -33,8 +34,8 @@ function compileScss(options = {}) {
   const { isDev = false } = options;
   
   console.log('\n🎨 Starting SCSS compilation...');
-  console.log(`   Source: ${path.relative(process.cwd(), SCSS_SOURCE)}`);
-  console.log(`   Output: ${path.relative(process.cwd(), CSS_OUTPUT)}`);
+  console.log(`   Source: ${path.relative(REPO_ROOT, SCSS_SOURCE)}`);
+  console.log(`   Output: ${path.relative(REPO_ROOT, CSS_OUTPUT)}`);
   
   // Ensure output directory exists
   ensureDir(OUTPUT_DIR);

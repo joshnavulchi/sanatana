@@ -775,10 +775,10 @@ function run() {
     const result = writeOrUpdate(localesDir, item.namespace, jsonObj, { fillPlaceholders });
     if (result.written) {
       writtenCount += 1;
-      writtenFiles.push(path.relative(process.cwd(), result.filePath));
+      writtenFiles.push(path.relative(REPO_ROOT, result.filePath));
     } else if (result.updated) {
       updatedCount += 1;
-      updatedFiles.push(path.relative(process.cwd(), result.filePath));
+      updatedFiles.push(path.relative(REPO_ROOT, result.filePath));
     }
   }
 

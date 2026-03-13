@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const REPO_ROOT = path.resolve(__dirname, '..');
 
 const targets = process.env.STRIP_TARGETS ? process.env.STRIP_TARGETS.split(',') : ['out', 'public'];
 
@@ -71,7 +72,7 @@ function processFile(file) {
 (function main() {
   console.log('Strip comments: targets=', targets.join(','));
   for (const t of targets) {
-    const dir = path.resolve(process.cwd(), t);
+    const dir = path.resolve(REPO_ROOT, t);
     if (!fs.existsSync(dir)) continue;
     walk(dir, processFile);
   }

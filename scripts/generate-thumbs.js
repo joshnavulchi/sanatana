@@ -12,6 +12,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const REPO_ROOT = path.resolve(__dirname, '..');
 
 let sharp;
 try {
@@ -47,7 +48,7 @@ function askFolder(prompt) {
     process.exit(1);
   }
 
-  const SRC_DIR = path.join(process.cwd(), 'public', folder);
+  const SRC_DIR = path.join(REPO_ROOT, 'public', folder);
   if (!fs.existsSync(SRC_DIR)) {
     console.error('Source directory not found:', SRC_DIR);
     process.exit(1);

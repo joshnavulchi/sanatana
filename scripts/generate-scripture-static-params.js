@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const root = process.cwd();
+const root = path.resolve(__dirname, '..');
 const localeDir = path.join(root, 'public', 'locales', 'en');
 const outFile = path.join(root, 'lib', 'generated', 'scriptureStaticParams.ts');
 

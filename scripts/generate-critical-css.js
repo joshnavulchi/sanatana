@@ -9,8 +9,9 @@
 
 const fs = require('fs');
 const path = require('path');
+const REPO_ROOT = path.resolve(__dirname, '..');
 
-const OUT_FILE = path.join(process.cwd(), 'public', 'critical-home.css');
+const OUT_FILE = path.join(REPO_ROOT, 'public', 'critical-home.css');
 
 // Optional: only for visibility/logging
 const SCAN_PATHS = [
@@ -24,7 +25,7 @@ function ensureDir(dir) {
 
 function logScanInfo() {
   const existing = SCAN_PATHS.filter((p) =>
-    fs.existsSync(path.join(process.cwd(), p))
+    fs.existsSync(path.join(REPO_ROOT, p))
   );
   console.log(
     'Generating critical CSS for Home — scoped to:',

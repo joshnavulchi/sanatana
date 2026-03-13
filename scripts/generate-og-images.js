@@ -11,6 +11,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const REPO_ROOT = path.resolve(__dirname, '..');
 
 let sharp;
 try {
@@ -24,7 +25,7 @@ try {
 // OG Image dimensions (recommended by Open Graph protocol)
 const WIDTH = 1200;
 const HEIGHT = 630;
-const OUTPUT_DIR = path.join(process.cwd(), 'public', 'og');
+const OUTPUT_DIR = path.join(REPO_ROOT, 'public', 'og');
 
 // Ensure output directory exists
 function ensureDir(p) {

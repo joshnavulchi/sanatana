@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const fs = require('fs').promises;
 const path = require('path');
+const REPO_ROOT = path.resolve(__dirname, '..');
 
 async function findTsx(dir) {
   const out = [];
@@ -82,7 +83,7 @@ async function processFile(file) {
     const newContent = [leading, sorted.join('\n'), '', rest].filter(Boolean).join('\n');
     if (newContent !== content) {
       await fs.writeFile(file, newContent, 'utf8');
-      console.log('Reordered imports:', path.relative(process.cwd(), file));
+      console.log('Reordered imports:', path.relative(REPO_ROOT, file));
     }
   } catch (e) {
     console.error('Failed processing', file, e.message);
@@ -90,7 +91,7 @@ async function processFile(file) {
 }
 
 async function main() {
-  const root = process.cwd();
+  const root = REPO_ROOT;
   console.log('Scanning for .tsx files under', root);
   const files = await findTsx(root);
   for (const f of files) await processFile(f);
