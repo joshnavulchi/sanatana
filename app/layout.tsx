@@ -92,7 +92,7 @@ export default async function RootLayout({
         <Script
           id="jsonld-org"
           type="application/ld+json"
-          strategy="afterInteractive"
+          // strategy="afterInteractive"
           dangerouslySetInnerHTML={renderJsonLdScript(orgJson)}
         />
         <Script
