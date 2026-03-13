@@ -3,7 +3,7 @@ export const DEFAULT_LOCALE = "en";
 import storage from "./storage";
 
 export const SUPPORTED_LOCALES = [
-  'ar', 'de', 'en', 'es', 'fr', 'hi', 'ja', 'ne', 'nl', 'pt', 'ru', 'ta', 'te', 'ur', 'zh-CN'
+  'ar', 'de', 'en', 'es', 'fr', 'hi', 'ja', 'ru', 'te', 'zh-CN'
 ];
 
 const REMOTE_LOCALES_BASE = process.env.NEXT_PUBLIC_REMOTE_LOCALES_BASE || '';
@@ -79,13 +79,8 @@ async function loadLocaleBundle(locale: string): Promise<Record<string, unknown>
       case 'fr': return (await import('../public/locales/fr/index')).default as Record<string, unknown>;
       case 'hi': return (await import('../public/locales/hi/index')).default as Record<string, unknown>;
       case 'ja': return (await import('../public/locales/ja/index')).default as Record<string, unknown>;
-      case 'ne': return (await import('../public/locales/ne/index')).default as Record<string, unknown>;
-      case 'nl': return (await import('../public/locales/nl/index')).default as Record<string, unknown>;
-      case 'pt': return (await import('../public/locales/pt/index')).default as Record<string, unknown>;
       case 'ru': return (await import('../public/locales/ru/index')).default as Record<string, unknown>;
-      case 'ta': return (await import('../public/locales/ta/index')).default as Record<string, unknown>;
       case 'te': return (await import('../public/locales/te/index')).default as Record<string, unknown>;
-      case 'ur': return (await import('../public/locales/ur/index')).default as Record<string, unknown>;
       case 'zh-CN': return (await import('../public/locales/zh-CN/index')).default as Record<string, unknown>;
       default: return null;
     }
