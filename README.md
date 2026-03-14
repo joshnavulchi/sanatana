@@ -18,11 +18,7 @@ Navigate to **Settings → Secrets and variables → Actions → Variables tab**
 
 ### Secrets
 
-Navigate to **Settings → Secrets and variables → Actions → Secrets tab** to create these.
-
-| Name | Description | Required |
-|------|-------------|----------|
-| `GITHUB_TOKEN` | Automatically provided by GitHub Actions — **no manual creation needed** | ✅ Auto |
+No manual secrets need to be created. The `GITHUB_TOKEN` used by the sync workflow is **automatically provided by GitHub Actions** for every workflow run — attempting to add it manually will fail because GitHub reserves the `GITHUB_` prefix for built-in tokens.
 
 ---
 
