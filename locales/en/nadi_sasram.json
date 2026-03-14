@@ -131,10 +131,7 @@
     ]
   },
   "academic_perspectives": {
-    "supporters": [
-      "Traditional astrologers",
-      "Spiritual practitioners"
-    ],
+    "supporters": ["Traditional astrologers", "Spiritual practitioners"],
     "skeptical_views": [
       "Some historians question manuscript age",
       "Scientific validation is debated"
@@ -145,10 +142,7 @@
     "tradition_name": "Nadi Shastra",
     "discipline": "Indian astrology and spiritual knowledge tradition",
     "origin_region": "South India",
-    "primary_language": [
-      "Ancient Tamil",
-      "Sanskrit"
-    ],
+    "primary_language": ["Ancient Tamil", "Sanskrit"],
     "manuscript_medium": "Palm leaf manuscripts",
     "purpose": [
       "Life predictions",
@@ -188,22 +182,13 @@
     {
       "name": "Agastya Nadi",
       "associated_sage": "Agastya",
-      "focus": [
-        "Life predictions",
-        "Marriage",
-        "Career",
-        "Health"
-      ],
+      "focus": ["Life predictions", "Marriage", "Career", "Health"],
       "region": "Tamil Nadu"
     },
     {
       "name": "Bhrigu Nadi",
       "associated_sage": "Bhrigu",
-      "focus": [
-        "Astrological charts",
-        "Planetary analysis",
-        "Life destiny"
-      ],
+      "focus": ["Astrological charts", "Planetary analysis", "Life destiny"],
       "region": "Northern India"
     },
     {
@@ -218,63 +203,34 @@
     {
       "name": "Shukra Nadi",
       "associated_sage": "Shukra",
-      "focus": [
-        "Finance",
-        "Relationships",
-        "Material prosperity"
-      ]
+      "focus": ["Finance", "Relationships", "Material prosperity"]
     },
     {
       "name": "Kaushika Nadi",
       "associated_sage": "Kaushika",
-      "focus": [
-        "Spiritual destiny",
-        "Karma analysis"
-      ]
+      "focus": ["Spiritual destiny", "Karma analysis"]
     }
   ],
   "sages_and_nadi_texts": [
     {
       "sage": "Agastya",
-      "texts": [
-        "Agastya Nadi",
-        "Agastya Samhita"
-      ],
-      "specialization": [
-        "spiritual knowledge",
-        "life prediction"
-      ]
+      "texts": ["Agastya Nadi", "Agastya Samhita"],
+      "specialization": ["spiritual knowledge", "life prediction"]
     },
     {
       "sage": "Bhrigu",
-      "texts": [
-        "Bhrigu Samhita",
-        "Bhrigu Nadi"
-      ],
-      "specialization": [
-        "astrology",
-        "planetary calculations"
-      ]
+      "texts": ["Bhrigu Samhita", "Bhrigu Nadi"],
+      "specialization": ["astrology", "planetary calculations"]
     },
     {
       "sage": "Shukra",
-      "texts": [
-        "Shukra Nadi"
-      ],
-      "specialization": [
-        "financial predictions",
-        "relationship guidance"
-      ]
+      "texts": ["Shukra Nadi"],
+      "specialization": ["financial predictions", "relationship guidance"]
     },
     {
       "sage": "Nandi",
-      "texts": [
-        "Nandi Nadi"
-      ],
-      "specialization": [
-        "cosmic knowledge",
-        "spiritual teachings"
-      ]
+      "texts": ["Nandi Nadi"],
+      "specialization": ["cosmic knowledge", "spiritual teachings"]
     }
   ],
   "nadi_chapter_structure": {
@@ -341,19 +297,12 @@
   "comparison_with_vedic_astrology": {
     "vedic_astrology": {
       "system": "Horoscope based astrology",
-      "inputs": [
-        "Birth date",
-        "Birth time",
-        "Birth place"
-      ],
+      "inputs": ["Birth date", "Birth time", "Birth place"],
       "analysis_method": "Planetary chart calculations"
     },
     "nadi_astrology": {
       "system": "Manuscript based predictions",
-      "inputs": [
-        "Thumb impression",
-        "Matching palm leaf manuscript"
-      ],
+      "inputs": ["Thumb impression", "Matching palm leaf manuscript"],
       "analysis_method": "Reading of prewritten life predictions"
     },
     "key_differences": [
@@ -521,12 +470,7 @@
           "If answers match manuscript description, leaf confirmed",
           "Reader continues with life prediction chapters"
         ],
-        "main_focus": [
-          "life events",
-          "career",
-          "marriage",
-          "health"
-        ]
+        "main_focus": ["life events", "career", "marriage", "health"]
       },
       {
         "nadi_name": "Bhrigu Nadi",
@@ -539,11 +483,7 @@
           "Predictions derived using planetary combinations",
           "Chart compared with manuscript descriptions"
         ],
-        "main_focus": [
-          "destiny analysis",
-          "planetary effects",
-          "life timeline"
-        ]
+        "main_focus": ["destiny analysis", "planetary effects", "life timeline"]
       },
       {
         "nadi_name": "Shiva Nadi",
@@ -571,11 +511,7 @@
           "Predictions related to wealth and relationships explained",
           "Remedies suggested for financial issues"
         ],
-        "main_focus": [
-          "finance",
-          "relationships",
-          "material success"
-        ]
+        "main_focus": ["finance", "relationships", "material success"]
       },
       {
         "nadi_name": "Nandi Nadi",
@@ -587,11 +523,7 @@
           "Reader explains deeper spiritual lessons",
           "Emphasis on cosmic knowledge"
         ],
-        "main_focus": [
-          "spiritual destiny",
-          "cosmic laws",
-          "karma cycles"
-        ]
+        "main_focus": ["spiritual destiny", "cosmic laws", "karma cycles"]
       },
       {
         "nadi_name": "Sapta Rishi Nadi",
@@ -602,10 +534,7 @@
         "interpretation_method": [
           "Predictions derived using complex planetary patterns"
         ],
-        "main_focus": [
-          "advanced astrology",
-          "long-term destiny"
-        ]
+        "main_focus": ["advanced astrology", "long-term destiny"]
       }
     ],
     "chapter_reading_process": [
@@ -679,24 +608,12 @@
     "planetary_health_indicators": [
       {
         "planet": "Sun",
-        "body_association": [
-          "heart",
-          "eyes",
-          "vitality"
-        ],
-        "possible_health_issues": [
-          "heart problems",
-          "eye disorders",
-          "fatigue"
-        ]
+        "body_association": ["heart", "eyes", "vitality"],
+        "possible_health_issues": ["heart problems", "eye disorders", "fatigue"]
       },
       {
         "planet": "Moon",
-        "body_association": [
-          "mind",
-          "emotions",
-          "fluid balance"
-        ],
+        "body_association": ["mind", "emotions", "fluid balance"],
         "possible_health_issues": [
           "mental stress",
           "anxiety",
@@ -705,81 +622,37 @@
       },
       {
         "planet": "Mars",
-        "body_association": [
-          "blood",
-          "muscles",
-          "inflammation"
-        ],
-        "possible_health_issues": [
-          "injuries",
-          "infections",
-          "blood disorders"
-        ]
+        "body_association": ["blood", "muscles", "inflammation"],
+        "possible_health_issues": ["injuries", "infections", "blood disorders"]
       },
       {
         "planet": "Mercury",
-        "body_association": [
-          "nervous system",
-          "skin",
-          "communication"
-        ],
-        "possible_health_issues": [
-          "nerve disorders",
-          "skin diseases"
-        ]
+        "body_association": ["nervous system", "skin", "communication"],
+        "possible_health_issues": ["nerve disorders", "skin diseases"]
       },
       {
         "planet": "Jupiter",
-        "body_association": [
-          "liver",
-          "metabolism",
-          "growth"
-        ],
-        "possible_health_issues": [
-          "liver disorders",
-          "obesity"
-        ]
+        "body_association": ["liver", "metabolism", "growth"],
+        "possible_health_issues": ["liver disorders", "obesity"]
       },
       {
         "planet": "Venus",
-        "body_association": [
-          "reproductive system",
-          "kidneys",
-          "hormones"
-        ],
-        "possible_health_issues": [
-          "fertility issues",
-          "kidney problems"
-        ]
+        "body_association": ["reproductive system", "kidneys", "hormones"],
+        "possible_health_issues": ["fertility issues", "kidney problems"]
       },
       {
         "planet": "Saturn",
-        "body_association": [
-          "bones",
-          "joints",
-          "chronic diseases"
-        ],
-        "possible_health_issues": [
-          "arthritis",
-          "long-term illnesses"
-        ]
+        "body_association": ["bones", "joints", "chronic diseases"],
+        "possible_health_issues": ["arthritis", "long-term illnesses"]
       },
       {
         "planet": "Rahu",
-        "body_association": [
-          "unknown diseases",
-          "toxic conditions"
-        ],
-        "possible_health_issues": [
-          "rare illnesses",
-          "poisoning"
-        ]
+        "body_association": ["unknown diseases", "toxic conditions"],
+        "possible_health_issues": ["rare illnesses", "poisoning"]
       },
       {
         "planet": "Ketu",
-        "body_association": [
-          "spiritual and karmic issues"
-        ],
+        "body_association": ["spiritual and karmic issues"],
         "possible_health_issues": [
           "mysterious diseases",
           "psychological disturbances"
@@ -836,10 +709,7 @@
     "disease_categories": [
       {
         "category": "Cardiovascular Disorders",
-        "planetary_associations": [
-          "Sun",
-          "Mars"
-        ],
+        "planetary_associations": ["Sun", "Mars"],
         "conditions": [
           "heart disease",
           "heart attack",
@@ -855,10 +725,7 @@
       },
       {
         "category": "Respiratory Disorders",
-        "planetary_associations": [
-          "Mercury",
-          "Moon"
-        ],
+        "planetary_associations": ["Mercury", "Moon"],
         "conditions": [
           "asthma",
           "bronchitis",
@@ -874,10 +741,7 @@
       },
       {
         "category": "Digestive System Disorders",
-        "planetary_associations": [
-          "Jupiter",
-          "Venus"
-        ],
+        "planetary_associations": ["Jupiter", "Venus"],
         "conditions": [
           "gastritis",
           "ulcer",
@@ -893,11 +757,7 @@
       },
       {
         "category": "Neurological Disorders",
-        "planetary_associations": [
-          "Mercury",
-          "Moon",
-          "Rahu"
-        ],
+        "planetary_associations": ["Mercury", "Moon", "Rahu"],
         "conditions": [
           "migraine",
           "epilepsy",
@@ -913,11 +773,7 @@
       },
       {
         "category": "Mental Health Disorders",
-        "planetary_associations": [
-          "Moon",
-          "Rahu",
-          "Ketu"
-        ],
+        "planetary_associations": ["Moon", "Rahu", "Ketu"],
         "conditions": [
           "anxiety disorder",
           "depression",
@@ -933,10 +789,7 @@
       },
       {
         "category": "Musculoskeletal Disorders",
-        "planetary_associations": [
-          "Saturn",
-          "Mars"
-        ],
+        "planetary_associations": ["Saturn", "Mars"],
         "conditions": [
           "arthritis",
           "joint pain",
@@ -952,10 +805,7 @@
       },
       {
         "category": "Skin Disorders",
-        "planetary_associations": [
-          "Mercury",
-          "Rahu"
-        ],
+        "planetary_associations": ["Mercury", "Rahu"],
         "conditions": [
           "eczema",
           "psoriasis",
@@ -971,10 +821,7 @@
       },
       {
         "category": "Endocrine and Metabolic Disorders",
-        "planetary_associations": [
-          "Jupiter",
-          "Venus"
-        ],
+        "planetary_associations": ["Jupiter", "Venus"],
         "conditions": [
           "diabetes",
           "thyroid disorder",
@@ -990,10 +837,7 @@
       },
       {
         "category": "Reproductive System Disorders",
-        "planetary_associations": [
-          "Venus",
-          "Moon"
-        ],
+        "planetary_associations": ["Venus", "Moon"],
         "conditions": [
           "infertility",
           "menstrual disorders",
@@ -1009,11 +853,7 @@
       },
       {
         "category": "Rare and Karmic Diseases",
-        "planetary_associations": [
-          "Rahu",
-          "Ketu",
-          "Saturn"
-        ],
+        "planetary_associations": ["Rahu", "Ketu", "Saturn"],
         "conditions": [
           "unknown chronic illness",
           "autoimmune diseases",
@@ -9073,2402 +8913,1502 @@
     "planetary_disease_combinations": [
       {
         "combo_id": "P0001",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0002",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0003",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0004",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0005",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0006",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0007",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0008",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0009",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0010",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0011",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0012",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0013",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0014",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0015",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0016",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0017",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0018",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0019",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0020",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0021",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0022",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0023",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0024",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0025",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0026",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0027",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0028",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0029",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0030",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0031",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0032",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0033",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0034",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0035",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0036",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0037",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0038",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0039",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0040",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0041",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0042",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0043",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0044",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0045",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0046",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0047",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0048",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0049",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0050",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0051",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0052",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0053",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0054",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0055",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0056",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0057",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0058",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0059",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0060",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0061",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0062",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0063",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0064",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0065",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0066",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0067",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0068",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0069",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0070",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0071",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0072",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0073",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0074",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0075",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0076",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0077",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0078",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0079",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0080",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0081",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0082",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0083",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0084",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0085",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0086",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0087",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0088",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0089",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0090",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0091",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0092",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0093",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0094",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0095",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0096",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0097",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0098",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0099",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0100",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0101",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0102",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0103",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0104",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0105",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0106",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0107",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0108",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0109",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0110",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0111",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0112",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0113",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0114",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0115",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0116",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0117",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0118",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0119",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0120",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0121",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0122",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0123",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0124",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0125",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0126",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0127",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0128",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0129",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0130",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0131",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0132",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0133",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0134",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0135",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0136",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0137",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0138",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0139",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0140",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0141",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0142",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0143",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0144",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0145",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0146",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0147",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0148",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0149",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0150",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0151",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0152",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0153",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0154",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0155",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0156",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0157",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0158",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0159",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0160",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0161",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0162",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0163",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0164",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0165",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0166",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0167",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0168",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0169",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0170",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0171",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0172",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0173",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0174",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0175",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0176",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0177",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0178",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0179",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0180",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0181",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0182",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0183",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0184",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0185",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0186",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0187",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0188",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0189",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0190",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0191",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0192",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0193",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0194",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0195",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0196",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0197",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0198",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0199",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0200",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0201",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0202",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0203",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0204",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0205",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0206",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0207",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0208",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0209",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0210",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0211",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0212",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0213",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0214",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0215",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0216",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0217",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0218",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0219",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0220",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0221",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0222",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0223",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0224",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0225",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0226",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0227",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0228",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0229",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0230",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0231",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0232",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0233",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0234",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0235",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0236",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0237",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0238",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0239",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0240",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0241",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0242",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0243",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0244",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0245",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0246",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0247",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0248",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0249",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0250",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0251",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0252",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0253",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0254",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0255",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0256",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0257",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0258",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0259",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0260",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0261",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0262",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0263",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0264",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0265",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0266",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0267",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0268",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0269",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0270",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0271",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0272",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0273",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0274",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0275",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0276",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0277",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0278",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0279",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0280",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0281",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0282",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0283",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0284",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0285",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0286",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0287",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0288",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0289",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0290",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0291",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0292",
-        "planets": [
-          "Jupiter",
-          "Rahu"
-        ],
+        "planets": ["Jupiter", "Rahu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0293",
-        "planets": [
-          "Venus",
-          "Ketu"
-        ],
+        "planets": ["Venus", "Ketu"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0294",
-        "planets": [
-          "Saturn",
-          "Sun"
-        ],
+        "planets": ["Saturn", "Sun"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0295",
-        "planets": [
-          "Rahu",
-          "Moon"
-        ],
+        "planets": ["Rahu", "Moon"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0296",
-        "planets": [
-          "Ketu",
-          "Mars"
-        ],
+        "planets": ["Ketu", "Mars"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0297",
-        "planets": [
-          "Sun",
-          "Mercury"
-        ],
+        "planets": ["Sun", "Mercury"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0298",
-        "planets": [
-          "Moon",
-          "Jupiter"
-        ],
+        "planets": ["Moon", "Jupiter"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0299",
-        "planets": [
-          "Mars",
-          "Venus"
-        ],
+        "planets": ["Mars", "Venus"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       },
       {
         "combo_id": "P0300",
-        "planets": [
-          "Mercury",
-          "Saturn"
-        ],
+        "planets": ["Mercury", "Saturn"],
         "traditional_interpretation": "Astrological combination linked to specific health tendencies in Nadi interpretations."
       }
     ]
