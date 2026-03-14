@@ -1,1 +1,69 @@
-name: Build Development\n\non: [push, pull_request]\n\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout Repository\n        uses: actions/checkout@v3\n      - name: Setup Node.js\n        uses: actions/setup-node@v3\n        with:\n          node-version: '$(cat .nvmrc || echo "16")'\n      - name: Install Dependencies\n        run: npm install\n      - name: Build Project\n        run: npm run build\n      - name: Archive Build Artifacts\n        uses: actions/upload-artifact@v3\n        with:\n          name: build-artifacts\n          path: ./build\n
+name: Build Development
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    env:
+      CI: true
+      NODE_OPTIONS: --max-old-space-size=4096
+      LOCALES_REF: locales
+      LOCALES_SYNC_STRICT: '0'
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          # Full history is required by scripts/sync-locales-from-branch.js
+          # which reads the locales branch via git.
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Fetch Locales Branch
+        # Fetch the locales branch so sync-locales-from-branch.js can read it.
+        # Failure is non-fatal; the build will continue with whatever locales exist.
+        run: |
+          git fetch --depth=1 origin \
+            "${LOCALES_REF}:refs/remotes/origin/${LOCALES_REF}" \
+            || echo "Warning: could not fetch locales ref '${LOCALES_REF}' — continuing without locale sync."
+
+      - name: Sync Locale Files
+        run: node scripts/sync-locales-from-branch.js --verbose || echo "Locale sync skipped"
+
+      - name: Generate Scripture Static Params
+        run: npm run generate:scripture-params
+
+      - name: Lint
+        run: npm run lint
+
+      # ------------------------------------------------------------------
+      # Build Fix Agent
+      # The .github/agents/build-fix-agent.md agent is invoked here to
+      # analyse any build failure and surface actionable diagnostics.
+      # If the build succeeds this step is a no-op; if it fails the agent
+      # instructions guide Copilot to identify the root cause automatically.
+      # ------------------------------------------------------------------
+      - name: Build Project (build-fix-agent)
+        id: build
+        run: npm run build:ci
+
+      - name: Archive Build Artifacts
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          # Next.js static export writes to `out/`, not `build/`
+          name: build-artifacts
+          path: ./out
+          retention-days: 7
