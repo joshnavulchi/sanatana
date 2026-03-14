@@ -2,7 +2,7 @@ name: Sync Upstream Branches
 
 on:
   schedule:
-    # Runs daily at 08:00, 13:00, 18:00 IST (02:30, 07:30, 12:30 UTC)
+    # Runs daily at 08:00, 13:00, 18:00 Indian Standard Time (Asia/Kolkata) (02:30, 07:30, 12:30 UTC)
     - cron: '30 2 * * *'
     - cron: '30 7 * * *'
     - cron: '30 12 * * *'
