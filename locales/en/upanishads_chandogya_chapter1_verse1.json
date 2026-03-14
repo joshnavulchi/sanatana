@@ -1,30 +1,30 @@
 ﻿{
-    "chandogya_chapter1_verse1":  {
-                                      "title":  "Chandogya Chapter 1 Verse 1",
-                                      "description":  "Verse 1 from Chandogya, Chapter 1.",
-                                      "meta":  {
-                                                   "title":  "Chandogya Chapter 1 Verse 1",
-                                                   "canonical":  "https://sanatanadharmam.in/upanishads/chandogya/chapter-1/verse-1",
-                                                   "description":  "Verse 1 from Chandogya, Chapter 1.",
-                                                   "url":  "https://sanatanadharmam.in/upanishads/chandogya/chapter-1/verse-1"
-                                               },
-                                      "openGraph":  {
-                                                        "title":  "Chandogya Chapter 1 Verse 1",
-                                                        "description":  "Verse 1 from Chandogya, Chapter 1.",
-                                                        "url":  "https://sanatanadharmam.in/upanishads/chandogya/chapter-1/verse-1",
-                                                        "siteName":  "Sanatanadharmam",
-                                                        "type":  "article"
-                                                    },
-                                      "introduction":  "This verse belongs to Chandogya, Chapter 1.",
-                                      "scripture_text":  "Placeholder Sanskrit/translation content for Chandogya, Chapter 1, Verse 1.",
-                                      "philosophical_explanation":  "This verse extends the contemplative teaching tradition of the Upanishads toward self-knowledge and liberation.",
-                                      "chapter":  {
-                                                      "number":  1,
-                                                      "path":  "/upanishads/chandogya/chapter-1"
-                                                  },
-                                      "verse":  {
-                                                    "number":  1,
-                                                    "path":  "/upanishads/chandogya/chapter-1/verse-1"
-                                                }
-                                  }
+  "chandogya_chapter1_verse1": {
+    "title": "Chandogya Chapter 1 Verse 1",
+    "description": "Verse 1 from Chandogya, Chapter 1.",
+    "meta": {
+      "title": "Chandogya Chapter 1 Verse 1",
+      "canonical": "https://sanatanadharmam.in/upanishads/chandogya/chapter-1/verse-1",
+      "description": "Verse 1 from Chandogya, Chapter 1.",
+      "url": "https://sanatanadharmam.in/upanishads/chandogya/chapter-1/verse-1"
+    },
+    "openGraph": {
+      "title": "Chandogya Chapter 1 Verse 1",
+      "description": "Verse 1 from Chandogya, Chapter 1.",
+      "url": "https://sanatanadharmam.in/upanishads/chandogya/chapter-1/verse-1",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This verse belongs to Chandogya, Chapter 1.",
+    "scripture_text": "Placeholder Sanskrit/translation content for Chandogya, Chapter 1, Verse 1.",
+    "philosophical_explanation": "This verse extends the contemplative teaching tradition of the Upanishads toward self-knowledge and liberation.",
+    "chapter": {
+      "number": 1,
+      "path": "/upanishads/chandogya/chapter-1"
+    },
+    "verse": {
+      "number": 1,
+      "path": "/upanishads/chandogya/chapter-1/verse-1"
+    }
+  }
 }

@@ -1,30 +1,30 @@
 ﻿{
-    "katha_chapter1_verse2":  {
-                                  "title":  "Katha Chapter 1 Verse 2",
-                                  "description":  "Verse 2 from Katha, Chapter 1.",
-                                  "meta":  {
-                                               "title":  "Katha Chapter 1 Verse 2",
-                                               "canonical":  "https://sanatanadharmam.in/upanishads/katha/chapter-1/verse-2",
-                                               "description":  "Verse 2 from Katha, Chapter 1.",
-                                               "url":  "https://sanatanadharmam.in/upanishads/katha/chapter-1/verse-2"
-                                           },
-                                  "openGraph":  {
-                                                    "title":  "Katha Chapter 1 Verse 2",
-                                                    "description":  "Verse 2 from Katha, Chapter 1.",
-                                                    "url":  "https://sanatanadharmam.in/upanishads/katha/chapter-1/verse-2",
-                                                    "siteName":  "Sanatanadharmam",
-                                                    "type":  "article"
-                                                },
-                                  "introduction":  "This verse belongs to Katha, Chapter 1.",
-                                  "scripture_text":  "Placeholder Sanskrit/translation content for Katha, Chapter 1, Verse 2.",
-                                  "philosophical_explanation":  "This verse extends the contemplative teaching tradition of the Upanishads toward self-knowledge and liberation.",
-                                  "chapter":  {
-                                                  "number":  1,
-                                                  "path":  "/upanishads/katha/chapter-1"
-                                              },
-                                  "verse":  {
-                                                "number":  2,
-                                                "path":  "/upanishads/katha/chapter-1/verse-2"
-                                            }
-                              }
+  "katha_chapter1_verse2": {
+    "title": "Katha Chapter 1 Verse 2",
+    "description": "Verse 2 from Katha, Chapter 1.",
+    "meta": {
+      "title": "Katha Chapter 1 Verse 2",
+      "canonical": "https://sanatanadharmam.in/upanishads/katha/chapter-1/verse-2",
+      "description": "Verse 2 from Katha, Chapter 1.",
+      "url": "https://sanatanadharmam.in/upanishads/katha/chapter-1/verse-2"
+    },
+    "openGraph": {
+      "title": "Katha Chapter 1 Verse 2",
+      "description": "Verse 2 from Katha, Chapter 1.",
+      "url": "https://sanatanadharmam.in/upanishads/katha/chapter-1/verse-2",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This verse belongs to Katha, Chapter 1.",
+    "scripture_text": "Placeholder Sanskrit/translation content for Katha, Chapter 1, Verse 2.",
+    "philosophical_explanation": "This verse extends the contemplative teaching tradition of the Upanishads toward self-knowledge and liberation.",
+    "chapter": {
+      "number": 1,
+      "path": "/upanishads/katha/chapter-1"
+    },
+    "verse": {
+      "number": 2,
+      "path": "/upanishads/katha/chapter-1/verse-2"
+    }
+  }
 }

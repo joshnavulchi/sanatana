@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "prettier": "node scripts/fix_multi_root_json.js && prettier \"locales/**/*.json\"",
+    "prettier:check": "npm run prettier -- --check",
+    "prettier:write": "npm run prettier -- --write"
+  },
+  "dependencies": {
+    "prettier": "^3.8.1"
+  }
+}

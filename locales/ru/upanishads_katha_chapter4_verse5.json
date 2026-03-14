@@ -1,0 +1,30 @@
+{
+  "katha_chapter4_verse5": {
+    "title": "Katha Chapter 4 Verse 5",
+    "description": "Verse 5 from Katha, Chapter 4.",
+    "meta": {
+      "title": "Katha Chapter 4 Verse 5",
+      "canonical": "https://sanatanadharmam.in/upanishads/katha/chapter-4/verse-5",
+      "description": "Verse 5 from Katha, Chapter 4.",
+      "url": "https://sanatanadharmam.in/upanishads/katha/chapter-4/verse-5"
+    },
+    "openGraph": {
+      "title": "Katha Chapter 4 Verse 5",
+      "description": "Verse 5 from Katha, Chapter 4.",
+      "url": "https://sanatanadharmam.in/upanishads/katha/chapter-4/verse-5",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This verse belongs to Katha, Chapter 4.",
+    "scripture_text": "Placeholder Sanskrit/translation content for Katha, Chapter 4, Verse 5.",
+    "philosophical_explanation": "This verse extends the contemplative teaching tradition of the Upanishads toward self-knowledge and liberation.",
+    "chapter": {
+      "number": 4,
+      "path": "/upanishads/katha/chapter-4"
+    },
+    "verse": {
+      "number": 5,
+      "path": "/upanishads/katha/chapter-4/verse-5"
+    }
+  }
+}

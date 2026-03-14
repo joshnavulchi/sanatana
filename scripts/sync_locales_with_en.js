@@ -118,14 +118,56 @@ async function writeJson(filePath, jsonObj, dryRun) {
   await fs.promises.writeFile(filePath, content, 'utf8');
 }
 
+async function ensureDirectJsonFileParity(enDir, otherLocaleDirs, enFiles) {
+  let totalCreated = 0;
+
+  const enFileSet = new Set(enFiles);
+
+  for (const localeDir of otherLocaleDirs) {
+    const localeName = path.basename(localeDir);
+    const localeFiles = (await fs.promises.readdir(localeDir)).filter(f => f.toLowerCase().endsWith('.json'));
+    const localeFileSet = new Set(localeFiles);
+
+    const missingFiles = enFiles.filter(f => !localeFileSet.has(f));
+    const extraFiles = localeFiles.filter(f => !enFileSet.has(f));
+
+    if (missingFiles.length === 0 && extraFiles.length === 0) {
+      console.log(`File parity ✓ ${localeName}: ${localeFiles.length}/${enFiles.length}`);
+      continue;
+    }
+
+    console.log(`File parity ⚠ ${localeName}: has ${localeFiles.length}, en has ${enFiles.length}`);
+
+    if (missingFiles.length > 0) {
+      for (const fileName of missingFiles) {
+        const srcPath = path.join(enDir, fileName);
+        const targetPath = path.join(localeDir, fileName);
+
+        if (!CONFIG.dryRun) {
+          const raw = await fs.promises.readFile(srcPath, 'utf8');
+          await fs.promises.writeFile(targetPath, raw, 'utf8');
+        }
+
+        totalCreated += 1;
+        console.log(`  + created ${localeName}/${fileName} from en`);
+      }
+    }
+
+    if (extraFiles.length > 0) {
+      console.log(`  i extra files kept (${extraFiles.length})`);
+    }
+  }
+
+  return totalCreated;
+}
+
 async function syncFileAcrossLocales(enFilePath, localesDirs) {
   const fileName = path.basename(enFilePath);
-  const basename = path.basename(enFilePath, '.json');
 
   const enJson = await readJson(enFilePath);
   if (!enJson) {
     console.warn(`Skipping invalid JSON: ${enFilePath}`);
-    return { file: fileName, skipped: true };
+    return { file: fileName, skipped: true, results: [] };
   }
 
   // Sync the entire English JSON structure (root), not just the basename wrapper.
@@ -177,6 +219,10 @@ async function main() {
 
   const enFiles = (await fs.promises.readdir(enDir)).filter(f => f.toLowerCase().endsWith('.json'));
 
+  console.log('\nEnsuring direct JSON file-count parity with en...');
+  const createdFiles = await ensureDirectJsonFileParity(enDir, otherLocaleDirs, enFiles);
+  console.log(`Parity step complete: created ${createdFiles} missing file(s).\n`);
+
   const summary = [];
 
   for (const f of enFiles) {
@@ -185,18 +231,24 @@ async function main() {
     const res = await syncFileAcrossLocales(enFilePath, otherLocaleDirs);
     let totalAdded = 0;
     let totalRemoved = 0;
-    for (const r of res.results) {
+    for (const r of (res.results || [])) {
       totalAdded += r.added;
       totalRemoved += r.removed;
     }
     summary.push({ file: f, added: totalAdded, removed: totalRemoved });
-    console.log(`done (added: ${totalAdded}, removed: ${totalRemoved})`);
+    if (res.skipped) {
+      console.log('skipped (invalid source JSON)');
+    } else {
+      console.log(`done (added: ${totalAdded}, removed: ${totalRemoved})`);
+    }
   }
 
   console.log('\nSummary:');
   for (const s of summary) {
     console.log(` ${s.file}: added ${s.added}, removed ${s.removed}`);
   }
+
+  console.log(`\nMissing files created from en: ${createdFiles}`);
 
   if (CONFIG.dryRun) console.log('\nDry run complete — no files were modified.');
   else console.log('\nSync complete.');

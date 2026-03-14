@@ -54,8 +54,121 @@ function printHelp() {
   }
 }
 
+function stripBom(text) {
+  return text.replace(/^\uFEFF/, '');
+}
+
+function isWhitespace(char) {
+  return char === ' ' || char === '\n' || char === '\r' || char === '\t';
+}
+
+function parseConcatenatedRootObjects(raw) {
+  const text = stripBom(raw);
+  const values = [];
+  let index = 0;
+
+  while (index < text.length) {
+    while (index < text.length && isWhitespace(text[index])) {
+      index += 1;
+    }
+
+    if (index >= text.length) break;
+    if (text[index] !== '{') return null;
+
+    let depth = 0;
+    let inString = false;
+    let escaped = false;
+    let endIndex = -1;
+
+    for (let i = index; i < text.length; i += 1) {
+      const char = text[i];
+
+      if (inString) {
+        if (escaped) {
+          escaped = false;
+          continue;
+        }
+
+        if (char === '\\') {
+          escaped = true;
+          continue;
+        }
+
+        if (char === '"') {
+          inString = false;
+        }
+
+        continue;
+      }
+
+      if (char === '"') {
+        inString = true;
+        continue;
+      }
+
+      if (char === '{') {
+        depth += 1;
+        continue;
+      }
+
+      if (char === '}') {
+        depth -= 1;
+        if (depth === 0) {
+          endIndex = i;
+          break;
+        }
+      }
+    }
+
+    if (endIndex === -1) return null;
+
+    const chunk = text.slice(index, endIndex + 1);
+    let parsed;
+    try {
+      parsed = JSON.parse(chunk);
+    } catch {
+      return null;
+    }
+
+    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) {
+      return null;
+    }
+
+    values.push(parsed);
+    index = endIndex + 1;
+  }
+
+  return values.length > 1 ? values : null;
+}
+
+function mergeObjects(objects) {
+  const merged = {};
+  for (const obj of objects) {
+    for (const [key, value] of Object.entries(obj)) {
+      merged[key] = value;
+    }
+  }
+  return merged;
+}
+
 function loadJson(filePath) {
-  return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+  const raw = fs.readFileSync(filePath, 'utf-8');
+
+  try {
+    return JSON.parse(stripBom(raw));
+  } catch (error) {
+    const pieces = parseConcatenatedRootObjects(raw);
+    if (pieces) {
+      const merged = mergeObjects(pieces);
+      saveJson(filePath, merged);
+      console.warn(`Auto-repaired concatenated JSON roots: ${filePath}`);
+      return merged;
+    }
+
+    const parseError = new Error(`Invalid JSON in ${filePath}: ${error.message}`);
+    parseError.cause = error;
+    throw parseError;
+  }
 }
 
 function saveJson(filePath, data) {
@@ -85,6 +198,9 @@ function main() {
   }
 
   const enPath = path.join(LOCALES_DIR, EN_LOCALE);
+  let syncedCount = 0;
+  let failedCount = 0;
+
   function walkLocales(localeDir, relPath = '') {
     fs.readdirSync(localeDir).forEach(entry => {
       const entryPath = path.join(localeDir, entry);
@@ -97,11 +213,18 @@ function main() {
         // Find corresponding en file
         const enFilePath = path.join(enPath, relPath, entry);
         if (fs.existsSync(enFilePath)) {
-          const enData = loadJson(enFilePath);
-          const targetData = loadJson(entryPath);
-          syncKeys(enData, targetData);
-          saveJson(entryPath, targetData);
-          console.log('Synced:', entryPath);
+          try {
+            const enData = loadJson(enFilePath);
+            const targetData = loadJson(entryPath);
+            syncKeys(enData, targetData);
+            saveJson(entryPath, targetData);
+            syncedCount += 1;
+            console.log('Synced:', entryPath);
+          } catch (err) {
+            failedCount += 1;
+            console.error(`Failed: ${entryPath}`);
+            console.error(`  Reason: ${err.message}`);
+          }
         }
       }
     });
@@ -114,6 +237,11 @@ function main() {
       walkLocales(localePath);
     }
   });
+
+  console.log(`\nSync summary: synced=${syncedCount}, failed=${failedCount}`);
+  if (failedCount > 0) {
+    process.exit(1);
+  }
 }
 
 main();

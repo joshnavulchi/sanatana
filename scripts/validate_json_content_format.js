@@ -24,6 +24,7 @@ const path = require('path');
 
 const argv = process.argv.slice(2);
 const REPO_ROOT = path.resolve(__dirname, '..');
+const includeEnBackup = argv.includes('--include-en-backup');
 
 function getArgValue(prefix) {
   const match = argv.find((arg) => arg.startsWith(prefix));
@@ -64,85 +65,99 @@ function collectJsonFiles(targetPath) {
   return files;
 }
 
-function validateEntryObject(entryKey, entryValue, strictMode) {
+function shouldSkipFile(filePath) {
+  if (includeEnBackup) return false;
+  const normalizedPath = filePath.replace(/\\/g, '/').toLowerCase();
+  return normalizedPath.includes('/en/backup/') || normalizedPath.includes('/en/_backup/');
+}
+
+function looksLikeContentObject(value) {
+  if (!isPlainObject(value)) return false;
+  if (Object.prototype.hasOwnProperty.call(value, 'meta')) return true;
+  if (Object.prototype.hasOwnProperty.call(value, 'openGraph')) return true;
+  if (Object.prototype.hasOwnProperty.call(value, 'title') && Object.prototype.hasOwnProperty.call(value, 'description')) return true;
+  return false;
+}
+
+function validateContentObject(objectPath, value, strictMode) {
   const errors = [];
 
-  if (!isPlainObject(entryValue)) {
-    errors.push(`top-level key '${entryKey}' must map to an object`);
+  if (!isPlainObject(value)) {
+    errors.push(`'${objectPath}' must be an object`);
     return errors;
   }
 
   if (strictMode) {
-    if (!isNonEmptyString(entryValue.title)) {
-      errors.push(`'${entryKey}.title' must be a non-empty string`);
+    if (!isNonEmptyString(value.title)) {
+      errors.push(`'${objectPath}.title' must be a non-empty string`);
     }
-    if (!isNonEmptyString(entryValue.description)) {
-      errors.push(`'${entryKey}.description' must be a non-empty string`);
+    if (!isNonEmptyString(value.description)) {
+      errors.push(`'${objectPath}.description' must be a non-empty string`);
     }
   }
 
-  if (entryValue.title !== undefined && !isNonEmptyString(entryValue.title)) {
-    errors.push(`'${entryKey}.title' must be a non-empty string when present`);
+  if (value.title !== undefined && !isNonEmptyString(value.title)) {
+    errors.push(`'${objectPath}.title' must be a non-empty string when present`);
   }
 
-  if (entryValue.description !== undefined && !isNonEmptyString(entryValue.description)) {
-    errors.push(`'${entryKey}.description' must be a non-empty string when present`);
+  if (value.description !== undefined && !isNonEmptyString(value.description)) {
+    errors.push(`'${objectPath}.description' must be a non-empty string when present`);
   }
 
-  const hasMeta = Object.prototype.hasOwnProperty.call(entryValue, 'meta');
-  const hasOpenGraph = Object.prototype.hasOwnProperty.call(entryValue, 'openGraph');
+  const hasMeta = Object.prototype.hasOwnProperty.call(value, 'meta');
+  const hasOpenGraph = Object.prototype.hasOwnProperty.call(value, 'openGraph');
 
   if (strictMode && !hasMeta) {
-    errors.push(`'${entryKey}.meta' is required in --strict mode`);
+    errors.push(`'${objectPath}.meta' is required in --strict mode`);
   }
 
   if (strictMode && !hasOpenGraph) {
-    errors.push(`'${entryKey}.openGraph' is required in --strict mode`);
+    errors.push(`'${objectPath}.openGraph' is required in --strict mode`);
   }
 
   if (hasMeta) {
-    const meta = entryValue.meta;
+    const meta = value.meta;
     if (!isPlainObject(meta)) {
-      errors.push(`'${entryKey}.meta' must be an object`);
+      errors.push(`'${objectPath}.meta' must be an object`);
     } else {
       const requiredMetaKeys = ['title', 'description', 'url', 'canonical'];
       for (const key of requiredMetaKeys) {
         const value = meta[key];
         if (strictMode || value !== undefined) {
           if (!isNonEmptyString(value)) {
-            errors.push(`'${entryKey}.meta.${key}' must be a non-empty string`);
+            errors.push(`'${objectPath}.meta.${key}' must be a non-empty string`);
           }
         }
       }
 
       if (isNonEmptyString(meta.url) && isNonEmptyString(meta.canonical) && meta.url !== meta.canonical) {
-        errors.push(`'${entryKey}.meta.canonical' must match '${entryKey}.meta.url'`);
+        errors.push(`'${objectPath}.meta.canonical' must match '${objectPath}.meta.url'`);
       }
     }
   }
 
   if (hasOpenGraph) {
-    const openGraph = entryValue.openGraph;
+    const openGraph = value.openGraph;
     if (!isPlainObject(openGraph)) {
-      errors.push(`'${entryKey}.openGraph' must be an object`);
+      errors.push(`'${objectPath}.openGraph' must be an object`);
     } else {
       const requiredOpenGraphKeys = ['title', 'description', 'url', 'siteName', 'type'];
       for (const key of requiredOpenGraphKeys) {
         const value = openGraph[key];
         if (strictMode || value !== undefined) {
           if (!isNonEmptyString(value)) {
-            errors.push(`'${entryKey}.openGraph.${key}' must be a non-empty string`);
+            errors.push(`'${objectPath}.openGraph.${key}' must be a non-empty string`);
           }
         }
       }
 
       if (
         isNonEmptyString(openGraph.url) &&
-        isPlainObject(entryValue.meta) &&
-        isNonEmptyString(entryValue.meta.url) &&
-        openGraph.url !== entryValue.meta.url
+        isPlainObject(value.meta) &&
+        isNonEmptyString(value.meta.url) &&
+        openGraph.url !== value.meta.url
       ) {
-        errors.push(`'${entryKey}.openGraph.url' must match '${entryKey}.meta.url'`);
+        errors.push(`'${objectPath}.openGraph.url' must match '${objectPath}.meta.url'`);
       }
     }
   }
@@ -156,7 +171,8 @@ function validateFile(filePath, strictMode) {
 
   try {
     const raw = fs.readFileSync(filePath, 'utf8');
-    parsed = JSON.parse(raw);
+    const normalized = raw.replace(/^\uFEFF/, '');
+    parsed = JSON.parse(normalized);
   } catch (error) {
     issues.push(`invalid JSON: ${error.message}`);
     return issues;
@@ -173,10 +189,17 @@ function validateFile(filePath, strictMode) {
     return issues;
   }
 
+  if (looksLikeContentObject(parsed)) {
+    issues.push(...validateContentObject('$', parsed, strictMode));
+  }
+
   for (const key of topKeys) {
-    const entryIssues = validateEntryObject(key, parsed[key], strictMode);
-    for (const issue of entryIssues) {
-      issues.push(issue);
+    const value = parsed[key];
+    if (looksLikeContentObject(value)) {
+      const entryIssues = validateContentObject(key, value, strictMode);
+      for (const issue of entryIssues) {
+        issues.push(issue);
+      }
     }
   }
 
@@ -208,10 +231,21 @@ function main() {
     process.exit(0);
   }
 
+  const totalDiscovered = jsonFiles.length;
+  jsonFiles = jsonFiles.filter((filePath) => !shouldSkipFile(filePath));
+
+  if (jsonFiles.length === 0) {
+    console.warn('No JSON files left after applying ignore rules.');
+    process.exit(0);
+  }
+
   let invalidCount = 0;
   let issueCount = 0;
 
   console.log(`Validating ${jsonFiles.length} JSON file(s) from: ${targetPath}`);
+  if (totalDiscovered !== jsonFiles.length) {
+    console.log(`Ignored files: ${totalDiscovered - jsonFiles.length} (en/backup)`);
+  }
   console.log(`Strict mode: ${strictMode ? 'ON' : 'OFF'}`);
 
   for (const filePath of jsonFiles) {
