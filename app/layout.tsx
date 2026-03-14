@@ -1,5 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { Poppins } from 'next/font/google';
+import localFont from 'next/font/local';
 
 import Script from 'next/script';
 import { Suspense } from 'react';
@@ -15,11 +15,16 @@ import { LocaleProvider } from './context/locale-context';
 
 import "./globals.css"; // tailwind base styles
 
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["400"],
+const poppins = localFont({
+  src: [
+    {
+      path: './fonts/poppins-400.woff2',
+      weight: '400',
+      style: 'normal',
+    },
+  ],
   preload: true,
-  display: "swap" // Prevents layout shift from font loading
+  display: 'swap',
 });
 // Compose a safe font-family string: Playfair primary, Poppins fallback
 const bodyFontFamily = `${poppins.style?.fontFamily || "Poppins, sans-serif"}`;

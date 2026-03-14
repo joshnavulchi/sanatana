@@ -156,7 +156,11 @@ function readFilesFromRefBatch(ref, sourcePaths) {
       throw new Error(`Truncated git batch output for ${sourcePaths[index]}.`);
     }
 
-    const content = output.toString('utf8', offset, contentEnd);
+    // Strip UTF-8 BOM if present (prevents JSON parse errors in the build)
+    let content = output.toString('utf8', offset, contentEnd);
+    if (content.charCodeAt(0) === 0xfeff) {
+      content = content.slice(1);
+    }
     contents.push(content);
     offset = contentEnd;
 

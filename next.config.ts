@@ -50,6 +50,13 @@ const nextConfig = {
 
   // SWC minify removed — Next.js may warn about `swcMinify` in newer versions.
   // Experimental CSS optimization (dedupe & minimize CSS across pages).
+  typescript: {
+    // Type checking is performed via `npm run typecheck` (separate CI step).
+    // Disabling it here prevents OOM in memory-constrained build environments.
+    // NOTE: TypeScript errors will NOT prevent builds from succeeding with this
+    // setting. Run `npm run typecheck` locally before committing to catch errors.
+    ignoreBuildErrors: true,
+  },
   experimental: {
     // Control build concurrency for CI/local stability and speed.
     // Override with NEXT_BUILD_MAX_WORKERS (e.g. 4, 6, 8).
