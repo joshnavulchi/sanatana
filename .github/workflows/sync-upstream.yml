@@ -2,8 +2,10 @@ name: Sync Upstream Branches
 
 on:
   schedule:
-    # Runs every day at 00:00 UTC
-    - cron: '0 0 * * *'
+    # Runs daily at 08:00, 13:00, 18:00 Indian Standard Time (Asia/Kolkata) (02:30, 07:30, 12:30 UTC)
+    - cron: '30 2 * * *'
+    - cron: '30 7 * * *'
+    - cron: '30 12 * * *'
   workflow_dispatch:
 
 jobs:
@@ -37,24 +39,50 @@ jobs:
           git remote add upstream https://github.com/${{ vars.UPSTREAM_REPO }}.git || \
           git remote set-url upstream https://github.com/${{ vars.UPSTREAM_REPO }}.git
 
-      - name: Fetch all upstream branches
-        run: git fetch upstream
+      - name: Fetch upstream + origin
+        run: |
+          git fetch --prune upstream
+          git fetch --prune origin
 
-      - name: Sync all upstream branches to fork
-        # Force-push is required to make the fork mirror the upstream exactly.
-        # This will overwrite any local-only commits on branches that also exist upstream.
+      - name: Sync all upstream branches to fork (only if changed)
         run: |
           set -e
           failed_branches=()
+          updated_branches=()
+
           for branch in $(git branch -r | grep 'upstream/' | grep -v 'HEAD' | sed 's|upstream/||'); do
-            echo "Syncing branch: $branch"
+            echo "Checking branch: $branch"
+
+            upstream_sha="$(git rev-parse "upstream/$branch")"
+            origin_ref="origin/$branch"
+
+            if git show-ref --verify --quiet "refs/remotes/$origin_ref"; then
+              origin_sha="$(git rev-parse "$origin_ref")"
+            else
+              origin_sha=""
+            fi
+
+            if [ "$upstream_sha" = "$origin_sha" ]; then
+              echo "No changes for $branch (origin matches upstream). Skipping push."
+              continue
+            fi
+
+            echo "Updating $branch (origin differs from upstream)."
             if git checkout -B "$branch" "upstream/$branch" && git push origin "$branch" --force; then
               echo "Successfully synced: $branch"
+              updated_branches+=("$branch")
             else
               echo "::warning::Failed to sync branch: $branch"
               failed_branches+=("$branch")
             fi
           done
+
+          if [ ${#updated_branches[@]} -gt 0 ]; then
+            echo "Updated branches: ${updated_branches[*]}"
+          else
+            echo "No branches needed updates."
+          fi
+
           if [ ${#failed_branches[@]} -gt 0 ]; then
             echo "::error::The following branches failed to sync: ${failed_branches[*]}"
             exit 1
