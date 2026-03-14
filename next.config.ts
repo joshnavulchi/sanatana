@@ -7,11 +7,11 @@ const withBundleAnalyzer = bundleAnalyzer({
   enabled: process.env.ANALYZE === 'true',
 });
 
-const cpuCount = os.cpus()?.length ?? 1;
-const requestedWorkers = Number(process.env.NEXT_BUILD_MAX_WORKERS ?? '0');
-const buildWorkers = Number.isFinite(requestedWorkers) && requestedWorkers > 0
-  ? Math.min(Math.floor(requestedWorkers), cpuCount)
-  : Math.min(cpuCount, 8);
+// const cpuCount = os.cpus()?.length ?? 1;
+// const requestedWorkers = Number(process.env.NEXT_BUILD_MAX_WORKERS ?? '0');
+// const buildWorkers = Number.isFinite(requestedWorkers) && requestedWorkers > 0
+//   ? Math.min(Math.floor(requestedWorkers), cpuCount)
+//   : Math.min(cpuCount, 8);
 
 // This app is statically exported. `output: 'export'` and `trailingSlash: true`
 // are set permanently to produce a static site suitable for static hosts.
@@ -58,7 +58,7 @@ const nextConfig = {
     // output: 'export'. Critical CSS is handled by scripts/generate-critical-css.js.
     optimizeCss: false,
     // Enable optimized resource loading hints
-    optimizePackageImports: ['react', 'react-dom'],
+    // optimizePackageImports: ['react', 'react-dom'],
   },
   // This app is statically exported. `output: 'export'` and `trailingSlash: true`
   // are set to produce a static site suitable for static hosts.
