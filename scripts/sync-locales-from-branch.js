@@ -252,6 +252,39 @@ function listLocaleFiles(ref) {
     .filter((line) => line.startsWith('locales/'));
 }
 
+function listLocaleTree(ref) {
+  // Format: "<mode> <type> <object>\t<file>" (one per line)
+  const output = runGit(['ls-tree', '-r', ref, 'locales']);
+  const lines = output
+    .split('\n')
+    .map((line) => line.trim())
+    .filter(Boolean);
+
+  /** @type {Record<string, string>} */
+  const blobsByPath = {};
+
+  for (const line of lines) {
+    // Example: 100644 blob e69de29bb2d1d6434b8b29ae775ad8c2e48c5391\tlocales/en/common.json
+    const tabIndex = line.indexOf('\t');
+    if (tabIndex === -1) continue;
+    const header = line.slice(0, tabIndex);
+    const filePath = line.slice(tabIndex + 1);
+    if (!filePath.startsWith('locales/')) continue;
+
+    const headerParts = header.split(' ');
+    if (headerParts.length < 3) continue;
+    const type = headerParts[1];
+    const objectId = headerParts[2];
+    if (type !== 'blob') continue;
+    if (!/^[0-9a-f]{40}$/i.test(objectId)) continue;
+
+    blobsByPath[filePath] = objectId;
+  }
+
+  const files = Object.keys(blobsByPath).sort();
+  return { files, blobsByPath };
+}
+
 function readSyncState() {
   if (!fs.existsSync(STATE_FILE)) return null;
   try {
@@ -260,15 +293,20 @@ function readSyncState() {
     const ref = typeof parsed.ref === 'string' ? parsed.ref : '';
     const commit = typeof parsed.commit === 'string' ? parsed.commit : '';
     if (!ref || !commit) return null;
-    return { ref, commit };
+    const blobs = parsed.blobs && typeof parsed.blobs === 'object' ? parsed.blobs : null;
+    return { ref, commit, blobs };
   } catch (_) {
     return null;
   }
 }
 
-function writeSyncState(ref, commit) {
+function writeSyncState(ref, commit, blobsByPath) {
   fs.mkdirSync(path.dirname(STATE_FILE), { recursive: true });
-  fs.writeFileSync(STATE_FILE, JSON.stringify({ ref, commit }, null, 2), 'utf8');
+  const payload = { ref, commit };
+  if (blobsByPath && typeof blobsByPath === 'object') {
+    payload.blobs = blobsByPath;
+  }
+  fs.writeFileSync(STATE_FILE, JSON.stringify(payload, null, 2), 'utf8');
 }
 
 function toPublicPath(sourcePath) {
@@ -443,6 +481,53 @@ async function syncLocales() {
     return;
   }
 
+  const { files, blobsByPath } = listLocaleTree(ref);
+
+  // Fast-path incremental mode based on per-file blob SHAs.
+  // This avoids reading every locale file on each dev run.
+  if (!FORCE_FULL_SYNC && state?.blobs && fs.existsSync(TARGET_DIR)) {
+    const prevBlobs = state.blobs;
+    const upsertPaths = [];
+
+    for (const sourcePath of files) {
+      const nextBlob = blobsByPath[sourcePath];
+      const prevBlob = typeof prevBlobs[sourcePath] === 'string' ? prevBlobs[sourcePath] : '';
+      const outputPath = toPublicPath(sourcePath);
+      const missingLocally = !fs.existsSync(outputPath);
+
+      if (missingLocally || prevBlob !== nextBlob) {
+        upsertPaths.push(sourcePath);
+      }
+    }
+
+    let deletes = 0;
+    for (const prevPath of Object.keys(prevBlobs)) {
+      if (!Object.prototype.hasOwnProperty.call(blobsByPath, prevPath)) {
+        removePublicFile(prevPath);
+        deletes += 1;
+      }
+    }
+
+    if (!upsertPaths.length && deletes === 0) {
+      writeSyncState(ref, targetCommit, blobsByPath);
+      log(`No locale file changes detected (tree unchanged).`);
+      return;
+    }
+
+    log(
+      `Using tree-hash incremental mode: ${upsertPaths.length} upsert(s), ${deletes} delete(s).`
+    );
+
+    await writeFilesFromRef(ref, upsertPaths, 'Incremental upsert progress');
+    writeSyncState(ref, targetCommit, blobsByPath);
+
+    log(
+      `Incremental sync complete: ${upsertPaths.length} written, ${deletes} removed ` +
+      `(${targetCommit.slice(0, 12)}).`
+    );
+    return;
+  }
+
   const shouldIncremental =
     !FORCE_FULL_SYNC &&
     Boolean(state) &&
@@ -455,7 +540,7 @@ async function syncLocales() {
     log(`Using incremental mode from ${state.commit.slice(0, 12)} to ${targetCommit.slice(0, 12)}.`);
     const changed = listChangedLocaleFiles(state.commit, targetCommit);
     if (!changed.length) {
-      writeSyncState(ref, targetCommit);
+      writeSyncState(ref, targetCommit, blobsByPath);
       log(`No locale file diffs between ${state.commit.slice(0, 12)} and ${targetCommit.slice(0, 12)}.`);
       return;
     }
@@ -482,12 +567,12 @@ async function syncLocales() {
     );
     upserts = incrementalResult.written;
 
-    writeSyncState(ref, targetCommit);
+    writeSyncState(ref, targetCommit, blobsByPath);
     log(`Incremental sync complete: ${upserts} updated, ${deletes} removed (${targetCommit.slice(0, 12)}).`);
     return;
   }
 
-  const files = listLocaleFiles(ref);
+  // Compare mode: used on first run (or after state reset), still avoids redundant writes.
 
   if (!files.length) {
     // Be lenient in CI to avoid blocking unrelated builds
@@ -510,7 +595,7 @@ async function syncLocales() {
 
   const fullResult = await writeChangedFilesFromRef(ref, files, 'Compare sync progress');
 
-  writeSyncState(ref, targetCommit);
+  writeSyncState(ref, targetCommit, blobsByPath);
 
   log(
     `Compare sync complete: ${fullResult.written} updated, ${deletes} removed ` +

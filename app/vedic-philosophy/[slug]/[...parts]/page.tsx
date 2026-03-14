@@ -1,15 +1,41 @@
 import { notFound } from 'next/navigation';
 import { createGenerateMetadata } from '@lib/pageUtils';
-import { VEDIC_PHILOSOPHY_PART_PARAMS } from '@lib/generated/scriptureStaticParams';
 import PartsClient from './partsclient';
 import { isPhilosophyTopic } from '../../philosophy-utils';
+import fs from 'fs';
+import path from 'path';
 
 type Params = { slug: string; parts: string[] };
 
 export const dynamicParams = false;
 
 export function generateStaticParams(): Params[] {
-  return VEDIC_PHILOSOPHY_PART_PARAMS as Params[];
+  const localesDir = path.join(process.cwd(), 'public', 'locales', 'en');
+  let files: string[] = [];
+  try {
+    files = fs.readdirSync(localesDir);
+  } catch (_) {
+    return [];
+  }
+
+  const out: Params[] = [];
+  const re = /^vedic_philosophy_([^_]+)_(.+)\.json$/;
+  for (const file of files) {
+    const m = file.match(re);
+    if (!m) continue;
+    const slug = m[1];
+    const subtopic = m[2];
+    if (!slug || !subtopic) continue;
+    if (!isPhilosophyTopic(slug)) continue;
+    out.push({ slug, parts: [subtopic] });
+  }
+
+  out.sort((a, b) => {
+    if (a.slug !== b.slug) return a.slug.localeCompare(b.slug);
+    return (a.parts[0] || '').localeCompare(b.parts[0] || '');
+  });
+
+  return out;
 }
 
 export async function generateMetadata(props: { params: Promise<Params> }) {
