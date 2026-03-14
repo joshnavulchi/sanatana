@@ -1,5 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, detectLocale, getLocaleNamespaceObject, loadLocaleNamespace } from './i18n';
+import { t, detectLocale, getLocaleNamespaceObject } from './i18n';
+import { loadLocaleNamespace } from './i18n.server';
 import { secrets } from './secrets';
 import { headers } from 'next/headers';
 import { detectServerLocaleFromHeaders, DEFAULT_LOCALE } from './i18n';

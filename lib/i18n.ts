@@ -25,6 +25,25 @@ function normalizeSupportedLocale(input: string | undefined): string {
   return DEFAULT_LOCALE;
 }
 
+export function normalizeLocale(input: string | undefined): string {
+  return normalizeSupportedLocale(input);
+}
+
+export function setCachedLocaleNamespace(locale: string, namespace: string, value: unknown) {
+  const normalized = normalizeSupportedLocale(locale);
+  if (!normalized || !namespace) return;
+
+  if (!localesCache[normalized] || typeof localesCache[normalized] !== 'object') {
+    localesCache[normalized] = {} as Record<string, unknown>;
+  }
+
+  try {
+    (localesCache[normalized] as Record<string, unknown>)[namespace] = value;
+  } catch (_) {
+    // ignore
+  }
+}
+
 // Hydrate cache from server-injected global if present
 if (typeof window !== 'undefined') {
   try {
@@ -68,32 +87,6 @@ export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = ''
 
   return {};
 }
-
-async function loadLocaleBundle(locale: string): Promise<Record<string, unknown> | null> {
-  try {
-    switch (locale) {
-      case 'ar': return (await import('../public/locales/ar/index')).default as Record<string, unknown>;
-      case 'de': return (await import('../public/locales/de/index')).default as Record<string, unknown>;
-      case 'en': return (await import('../public/locales/en/index')).default as Record<string, unknown>;
-      case 'es': return (await import('../public/locales/es/index')).default as Record<string, unknown>;
-      case 'fr': return (await import('../public/locales/fr/index')).default as Record<string, unknown>;
-      case 'hi': return (await import('../public/locales/hi/index')).default as Record<string, unknown>;
-      case 'ja': return (await import('../public/locales/ja/index')).default as Record<string, unknown>;
-      case 'ru': return (await import('../public/locales/ru/index')).default as Record<string, unknown>;
-      case 'te': return (await import('../public/locales/te/index')).default as Record<string, unknown>;
-      case 'zh-CN': return (await import('../public/locales/zh-CN/index')).default as Record<string, unknown>;
-      default: return null;
-    }
-  } catch (_) {
-    return null;
-  }
-}
-
-// Deprecated: No longer used. Only per-namespace files are loaded now.
-// function fetchLocaleData(locale: string) { return {}; }
-
-
-
 export async function loadLocaleNamespace(locale: string, namespace: string) {
   if (!locale || !namespace) return {};
   locale = normalizeSupportedLocale(locale);
@@ -108,21 +101,9 @@ export async function loadLocaleNamespace(locale: string, namespace: string) {
     namespace.replace(/_/g, '-'),
   ];
 
-  // Server-side: use static locale module imports to keep file access deterministic
+  // Server-side: do not touch filesystem from this shared module.
+  // Server Components should import `loadLocaleNamespace` from `@lib/i18n.server`.
   if (typeof window === 'undefined') {
-    const merged = await loadLocaleBundle(locale);
-    if (merged && typeof merged === 'object') {
-      for (const candidate of candidates) {
-        const parsed = (merged as Record<string, unknown>)[candidate];
-        if (parsed) {
-          try {
-            (localesCache[locale] as any)[namespace] = parsed;
-            (localesCache[locale] as any)[candidate] = parsed;
-          } catch (_) { }
-          return parsed;
-        }
-      }
-    }
     return {};
   }
 
