@@ -1,0 +1,61 @@
+name: Sync Upstream Branches
+
+on:
+  schedule:
+    # Runs every day at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    name: Sync all branches from upstream
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout fork
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Validate upstream repo variable
+        run: |
+          if [ -z "${{ vars.UPSTREAM_REPO }}" ]; then
+            echo "::error::Repository variable UPSTREAM_REPO is not set. Please define it as 'owner/repo'."
+            exit 1
+          fi
+
+      - name: Add upstream remote
+        run: |
+          git remote add upstream https://github.com/${{ vars.UPSTREAM_REPO }}.git || \
+          git remote set-url upstream https://github.com/${{ vars.UPSTREAM_REPO }}.git
+
+      - name: Fetch all upstream branches
+        run: git fetch upstream
+
+      - name: Sync all upstream branches to fork
+        # Force-push is required to make the fork mirror the upstream exactly.
+        # This will overwrite any local-only commits on branches that also exist upstream.
+        run: |
+          set -e
+          failed_branches=()
+          for branch in $(git branch -r | grep 'upstream/' | grep -v 'HEAD' | sed 's|upstream/||'); do
+            echo "Syncing branch: $branch"
+            if git checkout -B "$branch" "upstream/$branch" && git push origin "$branch" --force; then
+              echo "Successfully synced: $branch"
+            else
+              echo "::warning::Failed to sync branch: $branch"
+              failed_branches+=("$branch")
+            fi
+          done
+          if [ ${#failed_branches[@]} -gt 0 ]; then
+            echo "::error::The following branches failed to sync: ${failed_branches[*]}"
+            exit 1
+          fi
