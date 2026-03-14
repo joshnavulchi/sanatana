@@ -1,5 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { Poppins } from 'next/font/google';
+import { headers } from 'next/headers';
 
 import Script from 'next/script';
 import { Suspense } from 'react';
@@ -7,11 +8,16 @@ import { Suspense } from 'react';
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '@lib/i18n';
 import { buildOrganizationJsonLd, buildWebSiteJsonLd, renderJsonLdScript } from '@lib/jsonld';
 import { secrets } from '@lib/secrets';
+import CookieConsent from '@components/cookie-consent/CookieConsent';
 
 import Header from '@components/header';
 import Footer from '@components/footer';
 
+import TopProgress from '@components/topprogress';
+import ScrollToTop from '@components/scroll-to-top';
+
 import { LocaleProvider } from './context/locale-context';
+import { ThemeProvider } from './context/theme-context';
 
 import "./globals.css"; // tailwind base styles
 
@@ -37,7 +43,24 @@ export default async function RootLayout({
   });
   const siteJson = buildWebSiteJsonLd();
 
-  const lang = DEFAULT_LOCALE;
+  // Resolve locale with minimal blocking - use synchronous detection when possible
+  let lang = DEFAULT_LOCALE;
+  try {
+    const hdrs = await headers();
+    const cookie = hdrs.get('cookie') || '';
+    const match = cookie.match(/sanatana_dharma_language=([^;]+)/);
+    if (match && SUPPORTED_LOCALES.includes(match[1])) {
+      lang = match[1];
+    } else {
+      const al = hdrs.get('accept-language');
+      if (al) {
+        const primary = al.split(',')[0].split(';')[0].trim().split('-')[0];
+        if (SUPPORTED_LOCALES.includes(primary)) lang = primary;
+      }
+    }
+  } catch (err) {
+    // Use default locale on error
+  }
 
   return (
     <html lang={lang} translate="no">
@@ -189,6 +212,7 @@ export default async function RootLayout({
         )}
       </head>
       <body style={{ fontFamily: bodyFontFamily }} translate="no">
+        <TopProgress />
         {/* Google Tag Manager (noscript) inserted when `NEXT_PUBLIC_GTM_ID` is set */}
         {secrets.NEXT_PUBLIC_GTM_ID && (
           <noscript>
@@ -202,15 +226,19 @@ export default async function RootLayout({
         )}
         <Suspense fallback={null}>
           <LocaleProvider>
-            <Suspense fallback={null}>
-              <Header />
-            </Suspense>
-            <Suspense fallback={null}>
-              {children}
-            </Suspense>
-            <Suspense fallback={null}>
-              <Footer />
-            </Suspense>
+            <ThemeProvider>
+              <Suspense fallback={null}>
+                <Header />
+              </Suspense>
+              <Suspense fallback={null}>
+                {children}
+              </Suspense>
+              <Suspense fallback={null}>
+                <Footer />
+              </Suspense>
+              <ScrollToTop />
+              <CookieConsent />
+            </ThemeProvider>
           </LocaleProvider>
         </Suspense>
       </body>

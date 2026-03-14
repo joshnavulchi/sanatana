@@ -87,6 +87,7 @@ export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = ''
 
   return {};
 }
+
 export async function loadLocaleNamespace(locale: string, namespace: string) {
   if (!locale || !namespace) return {};
   locale = normalizeSupportedLocale(locale);

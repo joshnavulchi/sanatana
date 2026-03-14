@@ -1,5 +1,4 @@
-"use client";
-
+"use client"
 // import { useState, useEffect } from 'react';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import Link from 'next/link';

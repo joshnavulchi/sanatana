@@ -2,7 +2,6 @@
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@components/structured-data/StructuredData';
 import DripIrrigationClient from './DripIrrigationClient';
-
 export const generateMetadata = createGenerateMetadata('drip-irrigation-process');
 
 export default function Page() {
