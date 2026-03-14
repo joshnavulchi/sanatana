@@ -120,6 +120,7 @@ async function writeJson(filePath, jsonObj, dryRun) {
 
 async function ensureDirectJsonFileParity(enDir, otherLocaleDirs, enFiles) {
   let totalCreated = 0;
+  let totalDeleted = 0;
 
   const enFileSet = new Set(enFiles);
 
@@ -154,11 +155,20 @@ async function ensureDirectJsonFileParity(enDir, otherLocaleDirs, enFiles) {
     }
 
     if (extraFiles.length > 0) {
-      console.log(`  i extra files kept (${extraFiles.length})`);
+      for (const fileName of extraFiles) {
+        const targetPath = path.join(localeDir, fileName);
+
+        if (!CONFIG.dryRun) {
+          await fs.promises.unlink(targetPath);
+        }
+
+        totalDeleted += 1;
+        console.log(`  - deleted extra ${localeName}/${fileName}`);
+      }
     }
   }
 
-  return totalCreated;
+  return { created: totalCreated, deleted: totalDeleted };
 }
 
 async function syncFileAcrossLocales(enFilePath, localesDirs) {
@@ -220,8 +230,8 @@ async function main() {
   const enFiles = (await fs.promises.readdir(enDir)).filter(f => f.toLowerCase().endsWith('.json'));
 
   console.log('\nEnsuring direct JSON file-count parity with en...');
-  const createdFiles = await ensureDirectJsonFileParity(enDir, otherLocaleDirs, enFiles);
-  console.log(`Parity step complete: created ${createdFiles} missing file(s).\n`);
+  const parityResult = await ensureDirectJsonFileParity(enDir, otherLocaleDirs, enFiles);
+  console.log(`Parity step complete: created ${parityResult.created} missing file(s), deleted ${parityResult.deleted} extra file(s).\n`);
 
   const summary = [];
 
@@ -248,7 +258,8 @@ async function main() {
     console.log(` ${s.file}: added ${s.added}, removed ${s.removed}`);
   }
 
-  console.log(`\nMissing files created from en: ${createdFiles}`);
+  console.log(`\nMissing files created from en: ${parityResult.created}`);
+  console.log(`Extra locale files deleted: ${parityResult.deleted}`);
 
   if (CONFIG.dryRun) console.log('\nDry run complete — no files were modified.');
   else console.log('\nSync complete.');
