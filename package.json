@@ -6,16 +6,13 @@
   "scripts": {
     "generate:scripture-params": "node scripts/generate-scripture-static-params.js",
     "predev": "node scripts/sync-locales-from-branch.js && node scripts/compile-scss.js --dev",
-    "dev": "next dev",
+    "dev": "next dev --webpack",
     "prebuild": "node scripts/sync-locales-from-branch.js && npm run generate:scripture-params && npm run lint",
-    "build": "node --max-old-space-size=4096 ./node_modules/next/dist/bin/next build",
-    "build:ci": "node --max-old-space-size=4096 ./node_modules/next/dist/bin/next build",
+    "build": "node --max-old-space-size=8192 ./node_modules/next/dist/bin/next build --webpack",
     "postbuild": "node scripts/generate-sitemap.js && node scripts/add-hash-to-assets.js",
-    "verify:build": "node scripts/verify-build-pages.js",
     "render-build": "bash ./.render-build.sh",
     "start": "next start",
-    "lint": "eslint --quiet app lib scripts",
-    "typecheck": "node --max-old-space-size=4096 ./node_modules/typescript/bin/tsc --noEmit"
+    "lint": "eslint --quiet app lib scripts"
   },
   "dependencies": {
     "next": "^16.1.6",

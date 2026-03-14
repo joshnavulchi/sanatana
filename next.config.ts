@@ -53,7 +53,7 @@ const nextConfig = {
   experimental: {
     // Control build concurrency for CI/local stability and speed.
     // Override with NEXT_BUILD_MAX_WORKERS (e.g. 4, 6, 8).
-    cpus: buildWorkers,
+    // cpus: buildWorkers,
     // optimizeCss requires the `critters` package and is incompatible with
     // output: 'export'. Critical CSS is handled by scripts/generate-critical-css.js.
     optimizeCss: false,
