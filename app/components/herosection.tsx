@@ -1,5 +1,4 @@
-"use client";
-
+'use client';
 import { useEffect, useState, useRef } from 'react';
 import { loadLocaleNamespace } from '@lib/i18n';
 import { useLocale } from '@app/context/locale-context';

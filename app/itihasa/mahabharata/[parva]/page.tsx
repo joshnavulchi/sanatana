@@ -2,18 +2,18 @@ import { notFound } from 'next/navigation';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import ItihasaPartClient from '../../itihasapartclient';
 import {
+  MAHABHARATA_PARVAS,
   isMahabharataParvaSlug,
   toTitleFromSlug,
   toUnderscoreSlug,
 } from '../../itihasa-utils';
-import { MAHABHARATA_PARVA_PARAMS } from '@lib/generated/scriptureStaticParams';
 
 type Params = { parva: string };
 
 export const dynamicParams = false;
 
-export async function generateStaticParams(): Promise<{ parva: string }[]> {
-  return MAHABHARATA_PARVA_PARAMS as { parva: string }[];
+export function generateStaticParams(): Array<{ parva: string }> {
+  return MAHABHARATA_PARVAS.map((parva) => ({ parva }));
 }
 
 export async function generateMetadata(props: { params: Promise<Params> }) {

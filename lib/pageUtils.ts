@@ -1,17 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, detectLocale, getLocaleNamespaceObject, loadLocaleNamespace } from './i18n';
+import { t, detectLocale, getLocaleNamespaceObject, loadLocaleNamespace, DEFAULT_LOCALE } from './i18n';
 import { secrets } from './secrets';
-import { headers } from 'next/headers';
-import { detectServerLocaleFromHeaders, DEFAULT_LOCALE } from './i18n';
-
-function resolveLocaleFromHeaders() {
-  try {
-    const h = headers() as unknown;
-    return detectServerLocaleFromHeaders(h as Record<string, unknown>);
-  } catch (e) {
-    return DEFAULT_LOCALE;
-  }
-}
 
 export function createGenerateMetadata(metaKey: string, titleKey?: string, descriptionKey?: string) {
 
@@ -135,7 +124,7 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
       resolvedSearchParams = undefined;
     }
     let locale = detectLocale(resolvedSearchParams);
-    if (!locale) locale = resolveLocaleFromHeaders();
+    if (!locale) locale = DEFAULT_LOCALE;
 
     // Ensure namespace data exists on the server/build before reading from cache.
     await loadLocaleNamespace(locale, metaKey);

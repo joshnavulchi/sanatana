@@ -1,3 +1,4 @@
+"use client";
 import { useRef, useEffect, useState, useCallback } from "react";
 import * as d3 from "d3";
 import * as topojson from "topojson-client";
