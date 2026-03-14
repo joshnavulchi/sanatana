@@ -58,7 +58,7 @@ if (typeof window !== 'undefined') {
 
 
 
-export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = '') {
+export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = ''): any {
   // Support callers that pass the namespace as the first (and only) argument
   // e.g. `getLocaleNamespaceObject('scriptures_vedas')` — treat that as
   // `getLocaleNamespaceObject(DEFAULT_LOCALE, 'scriptures_vedas')`.
@@ -102,8 +102,8 @@ export async function loadLocaleNamespace(locale: string, namespace: string) {
     namespace.replace(/_/g, '-'),
   ];
 
-  // Server-side: do not touch filesystem from this shared module.
-  // Server Components should import `loadLocaleNamespace` from `@lib/i18n.server`.
+  // Server-side: this module is intentionally client-first.
+  // If server-time locale loading is required, implement a separate server loader.
   if (typeof window === 'undefined') {
     return {};
   }
