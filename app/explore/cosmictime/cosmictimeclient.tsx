@@ -1,12 +1,12 @@
 "use client";
 import PageLayout from "@components/common/PageLayout";
 import { useLocale } from "@app/context/locale-context";
-import useLocaleSection from "../hooks/useLocaleSection";
+import useLocaleSection from "../../hooks/useLocaleSection";
 import { loadLocaleNamespace } from "@lib/i18n";
 import { useEffect, useState } from 'react';
 import Loader from "@components/loader";
 import SimilarCategories from "@components/similar-categories/SimilarCategories";
-import DashavataraTimeline from "../components/dashavataraTimeline";
+import DashavataraTimeline from "../../components/dashavataraTimeline";
 
 export default function CosmictimeClient() {
   const { locale, isLoading } = useLocale();
