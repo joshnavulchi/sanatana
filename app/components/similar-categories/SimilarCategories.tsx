@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 // removed useT usage; translations read directly from runtime locale object
 import { loadLocaleNamespace } from '@lib/i18n';
-import { listExploreSubpages } from '@lib/pageUtils';
 import { useLocale } from '@app/context/locale-context';
 
 interface SimilarCategoriesProps {
