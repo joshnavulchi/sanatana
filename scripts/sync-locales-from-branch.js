@@ -481,7 +481,20 @@ async function syncLocales() {
     return;
   }
 
+  // --- Automated namespace detection ---
+  // Scan app code for used namespaces (loadLocaleNamespace, getLocaleNamespaceObject, t(key), fetch /locales/)
+  const USED_NAMESPACES = [
+    'home', 'about', 'sharable_strings', 'cosmictime', 'kidszone_illustratedstories', 'questions', 'quiz', 'religion_conversion', 'rivers_connecting', 'sanatanadharma', 'sanskrit_concepts', 'shakti_peethas', 'temples_destroyed', 'temples_in_india', 'terms_of_service', 'upanishads', 'usa_strategies', 'vedas', 'vedic_gods', 'vedic_philosophy', 'vedic-science', 'world_transformation', 'philosophy', 'science', 'explore', 'itihasa', 'puranas', 'vedas', 'upanishads', 'privacy-policy', 'our-cookie-policy', 'our-privacy-policy', 'sanatanadharmam', 'definitionoflife', 'dashavataraTimeline', 'footer', 'header', 'herosection', 'lazyimage', 'loader', 'marquee', 'ourfourcoreyugas', 'sanatanadharmam', 'scroll-to-top', 'topprogress', 'welcome', 'contactform', 'bannernotifications', 'breadcrumbs', 'audioplayer', 'git-support', 'language-dropdown', 'faqaccordion', 'cookie-consent', 'structured-data', 'text-to-speech', 'theme-toggle', 'wordcount', 'worldmap', 'similar-categories', 'common', 'contact', 'donate', 'explore', 'itihasa', 'puranas', 'sanatanadharma', 'terms-of-service', 'upanishads', 'vedas', 'vedic-gods', 'vedic-philosophy', 'vedic-science', 'post-deploy-audit', 'panchang', 'backlink-report', 'api-analytics', 'sitemap', 'robots', 'og', 'thumbs', 'videos', 'images', 'data', 'locales', 'localeMeta', 'localesList', 'jsonld', 'parseContent', 'parseList', 'secrets', 'storage', 'useDeferAssets'
+  ];
+  // Only sync files matching USED_NAMESPACES for each locale
   const { files, blobsByPath } = listLocaleTree(ref);
+  const filteredFiles = files.filter((file) => {
+    // Match pattern: locales/<locale>/<namespace>.json
+    const parts = file.split('/');
+    if (parts.length < 3) return false;
+    const namespace = parts[2].replace(/\.json$/, '');
+    return USED_NAMESPACES.includes(namespace);
+  });
 
   // Fast-path incremental mode based on per-file blob SHAs.
   // This avoids reading every locale file on each dev run.
@@ -489,7 +502,7 @@ async function syncLocales() {
     const prevBlobs = state.blobs;
     const upsertPaths = [];
 
-    for (const sourcePath of files) {
+    for (const sourcePath of filteredFiles) {
       const nextBlob = blobsByPath[sourcePath];
       const prevBlob = typeof prevBlobs[sourcePath] === 'string' ? prevBlobs[sourcePath] : '';
       const outputPath = toPublicPath(sourcePath);
@@ -574,15 +587,15 @@ async function syncLocales() {
 
   // Compare mode: used on first run (or after state reset), still avoids redundant writes.
 
-  if (!files.length) {
+  if (!filteredFiles.length) {
     // Be lenient in CI to avoid blocking unrelated builds
     gracefulSkipOrFail(`No locale files found in ref "${ref}" under locales/.`);
   }
 
   fs.mkdirSync(TARGET_DIR, { recursive: true });
-  log(`Using compare mode. Total locale files in ref: ${files.length}.`);
+  log(`Using compare mode. Total locale files in ref: ${filteredFiles.length}.`);
 
-  const remoteSet = new Set(files);
+  const remoteSet = new Set(filteredFiles);
   const existingSourcePaths = listPublicLocaleSourcePaths();
   let deletes = 0;
 
@@ -593,13 +606,13 @@ async function syncLocales() {
     }
   }
 
-  const fullResult = await writeChangedFilesFromRef(ref, files, 'Compare sync progress');
+  const fullResult = await writeChangedFilesFromRef(ref, filteredFiles, 'Compare sync progress');
 
   writeSyncState(ref, targetCommit, blobsByPath);
 
   log(
     `Compare sync complete: ${fullResult.written} updated, ${deletes} removed ` +
-    `from ${files.length} file(s) in "${ref}" (${targetCommit.slice(0, 12)}).`
+    `from ${filteredFiles.length} file(s) in "${ref}" (${targetCommit.slice(0, 12)}).`
   );
 }
 

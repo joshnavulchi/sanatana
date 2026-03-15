@@ -1,5 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, detectLocale, getLocaleNamespaceObject, loadLocaleNamespace, DEFAULT_LOCALE } from './i18n';
+import { t, getLocaleNamespaceObject, loadLocaleNamespace, DEFAULT_LOCALE } from './i18n';
 import { secrets } from './secrets';
 
 export function createGenerateMetadata(metaKey: string, titleKey?: string, descriptionKey?: string) {

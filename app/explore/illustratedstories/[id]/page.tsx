@@ -9,7 +9,7 @@ const __getLoc = (p: string) => {
   for (const part of parts) { if (cur == null) return ''; cur = cur[part]; }
   return cur;
 };
-import { t, getMeta, detectLocale, DEFAULT_LOCALE, detectServerLocaleFromHeaders } from '@lib/i18n';
+import { t, DEFAULT_LOCALE, detectServerLocaleFromHeaders } from '@lib/i18n';
 import { headers } from 'next/headers';
 import { notFound } from 'next/navigation';
 import PageLayout from '@components/common/PageLayout';
@@ -28,14 +28,11 @@ function resolveLocaleFromHeaders() {
 }
 
 export async function generateMetadata({ params, searchParams }: { params: any, searchParams?: any }) {
-  const locale = detectLocale(searchParams) || resolveLocaleFromHeaders();
+  const locale = DEFAULT_LOCALE;
   const S = (k: string) => String(t(k, locale));
   // load chapters from locale translations; if the locale doesn't include
   // structured chapters, fall back to English translations (no combined file)
-  let chaptersRaw: any = __getLoc('illustrated_stories.kids_indian_stories');
-  if (!Array.isArray(chaptersRaw)) {
-    chaptersRaw = __getLoc('illustrated_stories.kids_indian_stories');
-  }
+  let chaptersRaw: any = t('illustrated_stories.kids_indian_stories', locale);
   const chapters: any[] = Array.isArray(chaptersRaw) ? chaptersRaw : [];
   const resolvedParams = params && typeof params.then === 'function' ? await params : params;
   const num = Number(resolvedParams?.kids_indian_stories || 0);

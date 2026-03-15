@@ -1,7 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 
 import { getLocaleNamespaceObject } from '@lib/i18n';
-import { detectLocale, t, DEFAULT_LOCALE } from '@lib/i18n';
+import { t, DEFAULT_LOCALE } from '@lib/i18n';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
 import LazyImage from '@components/lazyimage';
@@ -9,7 +9,7 @@ import Link from 'next/link';
 export const generateMetadata = createGenerateMetadata('kidszone_illustratedstories');
 
 export default function Page({ searchParams }: any) {
-  const locale = detectLocale(searchParams) || DEFAULT_LOCALE;
+  const locale = DEFAULT_LOCALE;
   const S = (k: string, l?: any) => String(t(k, l ?? locale));
   // Load stories from locale translations; fall back to English or empty array
   const nsObj: any = getLocaleNamespaceObject(locale, 'kidszone_illustratedstories')?.kidszone_illustratedstories || {};
