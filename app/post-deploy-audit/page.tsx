@@ -70,14 +70,14 @@ function statusBadge(ok: boolean): string {
     : 'inline-flex rounded-xl border border-[#b45309] bg-[#fff7ed] px-3 py-1 text-xs font-semibold text-[#a63d17]';
 }
 
-export default async function PostDeployVerificationPage() {
+export default async function PostDeployAuditPage() {
   const report = await loadReport();
 
   if (!report) {
     return (
       <main className="min-h-screen bg-linear-to-b from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] px-6 py-10">
         <section className="mx-auto max-w-5xl rounded-3xl border border-[#d8a25a] bg-[#fffaf0] p-8 shadow-[0_10px_40px_rgba(122,46,31,0.10)]">
-          <h1 className="text-2xl font-bold text-[#7a2e1f]">Post-Deploy Verification</h1>
+          <h1 className="text-2xl font-bold text-[#7a2e1f]">Post-Deploy Audit</h1>
           <p className="mt-3 text-[#5b2d12]">
             Report file not found. Generate it by running:
             <span className="ml-2 font-semibold">node scripts/generate-post-deploy-audit.js</span>
@@ -96,7 +96,7 @@ export default async function PostDeployVerificationPage() {
       <section className="mx-auto max-w-6xl rounded-3xl border border-[#d8a25a] bg-[#fffaf0] p-6 shadow-[0_10px_40px_rgba(122,46,31,0.10)] md:p-8">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <h1 className="bg-linear-to-r from-[#a63d17] via-[#d97706] to-[#f59e0b] bg-clip-text text-2xl font-bold text-transparent md:text-3xl">
-            Post-Deploy Verification Report
+            Post-Deploy Audit Report
           </h1>
           <span className={statusBadge(allPagesHealthy)}>
             {allPagesHealthy ? 'Core indexing signals look healthy' : 'Action needed'}
