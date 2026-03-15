@@ -4,7 +4,7 @@ set -euo pipefail
 echo ">> LOCALES_REF=${LOCALES_REF:-<empty>}"
 
 # Reduce memory usage
-export NODE_OPTIONS="--max-old-space-size=4096"
+export NODE_OPTIONS="--max-old-space-size=6144"
 
 # Ensure CI mode
 export CI=${CI:-1}

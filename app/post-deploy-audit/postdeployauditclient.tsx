@@ -3,7 +3,7 @@ import { useState } from "react";
 import type { AuditReport } from "./page";
 
 interface Props {
-  report: AuditReport;
+  report: AuditReport | null;
 }
 
 const PAGE_SIZE = 100;
@@ -64,10 +64,13 @@ export default function PostDeployAuditClient({ report }: Props) {
         aVal = a.url;
         bVal = b.url;
     }
+    if (typeof aVal === "number" && typeof bVal === "number") {
+      return sortDir === "asc" ? aVal - bVal : bVal - aVal;
+    }
     if (typeof aVal === "string" && typeof bVal === "string") {
       return sortDir === "asc" ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
     }
-    return sortDir === "asc" ? aVal - bVal : bVal - aVal;
+    return 0;
   });
 
   const totalPages = Math.ceil(sortedPages.length / PAGE_SIZE);
