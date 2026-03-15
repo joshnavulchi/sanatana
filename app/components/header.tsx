@@ -28,19 +28,18 @@ interface NavSection {
 
 /* ── Route mapping (JSON key → actual route prefix) ── */
 const ROUTE_MAP: Record<string, string> = {
-  philosopy: '/philosophy',   // typo in JSON
-  philosophy: '/philosophy',
-  science: '/vedic-philosophy',
+  // typo in JSON
+  philosophy: '/vedic-philosophy',
+  science: '/vedic-science',
 };
 
 /* ── Section ordering & icons ── */
-const SECTION_ORDER = ['vedas', 'upanishads', 'puranas', 'itihasa', 'philosopy', 'science'];
+const SECTION_ORDER = ['vedas', 'upanishads', 'puranas', 'itihasa', 'philosophy', 'science'];
 const SECTION_ICONS: Record<string, string> = {
   vedas: '📕',
   upanishads: '📜',
   puranas: '📖',
   itihasa: '⚔️',
-  philosopy: '🧘',
   philosophy: '🧘',
   science: '🔬',
 };
