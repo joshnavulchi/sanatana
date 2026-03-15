@@ -70,6 +70,10 @@ function statusBadge(ok: boolean): string {
     : 'inline-flex rounded-xl border border-[#b45309] bg-[#fff7ed] px-3 py-1 text-xs font-semibold text-[#a63d17]';
 }
 
+
+import React, { useState } from "react";
+import Pagination from "@components/common/Pagination";
+
 export default async function PostDeployAuditPage() {
   const report = await loadReport();
 
@@ -90,6 +94,12 @@ export default async function PostDeployAuditPage() {
   const allPagesHealthy = report.pages.every((page) =>
     page.statusCode === 200 && !page.hasNoindex && (page.canonical?.length ?? 0) > 0
   );
+
+  // Pagination logic
+  const PAGE_SIZE = 20;
+  const [page, setPage] = useState(1);
+  const totalPages = Math.ceil(report.pages.length / PAGE_SIZE);
+  const pagedPages = report.pages.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
 
   return (
     <main className="min-h-screen bg-linear-to-b from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] px-4 py-8 md:px-8">
@@ -132,33 +142,50 @@ export default async function PostDeployAuditPage() {
         </div>
 
         <h2 className="mt-8 text-xl font-semibold text-[#7a2e1f]">Page-level Indexing Signals</h2>
-        <div className="mt-3 overflow-x-auto rounded-2xl border border-[#d8a25a]">
-          <table className="min-w-full bg-[#fffaf2] text-left text-sm">
+        <div className="mt-3 overflow-x-auto rounded-2xl border border-[#d8a25a] shadow-[0_8px_30px_rgba(146,64,14,0.08)]">
+          <table className="min-w-full text-left text-sm border-separate border-spacing-0">
             <thead className="bg-[#fde7c7] text-[#7a2e1f]">
               <tr>
-                <th className="px-3 py-2">URL</th>
-                <th className="px-3 py-2">HTTP</th>
-                <th className="px-3 py-2">Canonical</th>
-                <th className="px-3 py-2">Robots</th>
-                <th className="px-3 py-2">Noindex</th>
-                <th className="px-3 py-2">JSON-LD count</th>
-                <th className="px-3 py-2">Schema types</th>
+                <th className="px-4 py-3 font-semibold border-b border-[#efd6ab] bg-[#fde7c7]">URL</th>
+                <th className="px-4 py-3 font-semibold border-b border-[#efd6ab] bg-[#fde7c7]">HTTP</th>
+                <th className="px-4 py-3 font-semibold border-b border-[#efd6ab] bg-[#fde7c7]">Canonical</th>
+                <th className="px-4 py-3 font-semibold border-b border-[#efd6ab] bg-[#fde7c7]">Robots</th>
+                <th className="px-4 py-3 font-semibold border-b border-[#efd6ab] bg-[#fde7c7]">Noindex</th>
+                <th className="px-4 py-3 font-semibold border-b border-[#efd6ab] bg-[#fde7c7]">JSON-LD</th>
+                <th className="px-4 py-3 font-semibold border-b border-[#efd6ab] bg-[#fde7c7]">Schema types</th>
               </tr>
             </thead>
             <tbody>
-              {report.pages.map((page) => (
-                <tr key={page.url} className="border-t border-[#efd6ab] text-[#5b2d12]">
-                  <td className="px-3 py-2">{page.url}</td>
-                  <td className="px-3 py-2">{page.statusCode}</td>
-                  <td className="px-3 py-2 break-all">{page.canonical ?? '-'}</td>
-                  <td className="px-3 py-2">{page.robotsMeta ?? '-'}</td>
-                  <td className="px-3 py-2">{page.hasNoindex ? 'Yes' : 'No'}</td>
-                  <td className="px-3 py-2">{page.jsonLdScriptCount ?? 0}</td>
-                  <td className="px-3 py-2">{(page.schemaTypesFound ?? []).join(', ') || '-'}</td>
+              {pagedPages.map((page, idx) => (
+                <tr
+                  key={page.url}
+                  className={
+                    `text-[#5b2d12] border-t border-[#efd6ab] ` +
+                    (idx % 2 === 0
+                      ? 'bg-[#fffaf2]'
+                      : 'bg-[#f9ece0]') +
+                    ' hover:bg-[#fde7c7]/60 transition-colors duration-150'
+                  }
+                >
+                  <td className="px-4 py-3 font-medium break-all text-[#3d2e22]">{page.url}</td>
+                  <td className="px-4 py-3 text-[#7a2e1f]">{page.statusCode}</td>
+                  <td className="px-4 py-3 break-all text-[#8b6914]">{page.canonical ?? '-'}</td>
+                  <td className="px-4 py-3 text-[#1a6e5c]">{page.robotsMeta ?? '-'}</td>
+                  <td className={
+                    `px-4 py-3 font-semibold ` +
+                    (page.hasNoindex ? 'text-[#a63d17]' : 'text-[#6b5d4f]')
+                  }>
+                    {page.hasNoindex ? 'Yes' : 'No'}
+                  </td>
+                  <td className="px-4 py-3 text-[#d97706]">{page.jsonLdScriptCount ?? 0}</td>
+                  <td className="px-4 py-3 text-[#3b3270]">{(page.schemaTypesFound ?? []).join(', ') || '-'}</td>
                 </tr>
               ))}
             </tbody>
           </table>
+        </div>
+        <div className="mt-6 flex justify-center">
+          <Pagination page={page} totalPages={totalPages} onPageChange={setPage} />
         </div>
 
         {report.recrawlTriggerPlan?.enabled && (
