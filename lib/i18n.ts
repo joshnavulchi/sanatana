@@ -103,6 +103,9 @@ export async function loadLocaleNamespace(locale: string, namespace: string) {
       // Try locale first, then fallback to DEFAULT_LOCALE
       const localesToTry = [locale, DEFAULT_LOCALE].filter((v, i, a) => a.indexOf(v) === i);
       for (const rootLocale of localesToTry) {
+        // Restrict to only valid locale files
+        const validLocales = ["en", "hi", "ta", "te", "bn", "gu", "kn", "ml", "mr", "pa", "sa", "ur"];
+        if (!validLocales.includes(rootLocale)) continue;
         const filePath = path.join(process.cwd(), 'public', 'locales', rootLocale, `${namespace}.json`);
         try {
           await fs.access(filePath);

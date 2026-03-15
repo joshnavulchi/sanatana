@@ -58,7 +58,6 @@ const nextConfig = {
     // output: 'export'. Critical CSS is handled by scripts/generate-critical-css.js.
     optimizeCss: false,
     largePageDataBytes: 512 * 1024, // 512KB threshold for inlining page data as JSON
-    ignoreBuildErrors: true, // Fail build on TypeScript errors
     // Enable optimized resource loading hints
     // optimizePackageImports: ['react', 'react-dom'],
   },
