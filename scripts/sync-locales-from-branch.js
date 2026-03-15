@@ -481,19 +481,24 @@ async function syncLocales() {
     return;
   }
 
-  // --- Automated namespace detection ---
-  // Scan app code for used namespaces (loadLocaleNamespace, getLocaleNamespaceObject, t(key), fetch /locales/)
-  const USED_NAMESPACES = [
-    'home', 'about', 'sharable_strings', 'cosmictime', 'kidszone_illustratedstories', 'questions', 'quiz', 'religion_conversion', 'rivers_connecting', 'sanatanadharma', 'sanskrit_concepts', 'shakti_peethas', 'temples_destroyed', 'temples_in_india', 'terms_of_service', 'upanishads', 'usa_strategies', 'vedas', 'vedic_gods', 'vedic_philosophy', 'vedic-science', 'world_transformation', 'philosophy', 'science', 'explore', 'itihasa', 'puranas', 'vedas', 'upanishads', 'privacy-policy', 'our-cookie-policy', 'our-privacy-policy', 'sanatanadharmam', 'definitionoflife', 'dashavataraTimeline', 'footer', 'header', 'herosection', 'lazyimage', 'loader', 'marquee', 'ourfourcoreyugas', 'sanatanadharmam', 'scroll-to-top', 'topprogress', 'welcome', 'contactform', 'bannernotifications', 'breadcrumbs', 'audioplayer', 'git-support', 'language-dropdown', 'faqaccordion', 'cookie-consent', 'structured-data', 'text-to-speech', 'theme-toggle', 'wordcount', 'worldmap', 'similar-categories', 'common', 'contact', 'donate', 'explore', 'itihasa', 'puranas', 'sanatanadharma', 'terms-of-service', 'upanishads', 'vedas', 'vedic-gods', 'vedic-philosophy', 'vedic-science', 'post-deploy-audit', 'panchang', 'backlink-report', 'api-analytics', 'sitemap', 'robots', 'og', 'thumbs', 'videos', 'images', 'data', 'locales', 'localeMeta', 'localesList', 'jsonld', 'parseContent', 'parseList', 'secrets', 'storage', 'useDeferAssets'
-  ];
-  // Only sync files matching USED_NAMESPACES for each locale
+  // --- Automated namespace detection with dynamic slug/subpage support ---
+  // Sync all files for vedas, puranas, itihasa, vedic_philosophy, vedic_science including slugs/subpages
   const { files, blobsByPath } = listLocaleTree(ref);
   const filteredFiles = files.filter((file) => {
     // Match pattern: locales/<locale>/<namespace>.json
     const parts = file.split('/');
     if (parts.length < 3) return false;
     const namespace = parts[2].replace(/\.json$/, '');
-    return USED_NAMESPACES.includes(namespace);
+    // Static namespaces
+    const STATIC_NAMESPACES = [
+      'home', 'about', 'sharable_strings', 'cosmictime', 'kidszone_illustratedstories', 'questions', 'quiz', 'religion_conversion', 'rivers_connecting', 'sanatanadharma', 'sanskrit_concepts', 'shakti_peethas', 'temples_destroyed', 'temples_in_india', 'terms_of_service', 'upanishads', 'usa_strategies', 'vedic_gods', 'world_transformation', 'philosophy', 'science', 'explore', 'privacy-policy', 'our-cookie-policy', 'our-privacy-policy', 'sanatanadharmam', 'definitionoflife', 'dashavataraTimeline', 'footer', 'header', 'herosection', 'lazyimage', 'loader', 'marquee', 'ourfourcoreyugas', 'scroll-to-top', 'topprogress', 'welcome', 'contactform', 'bannernotifications', 'breadcrumbs', 'audioplayer', 'git-support', 'language-dropdown', 'faqaccordion', 'cookie-consent', 'structured-data', 'text-to-speech', 'theme-toggle', 'wordcount', 'worldmap', 'similar-categories', 'common', 'contact', 'donate', 'post-deploy-audit', 'panchang', 'backlink-report', 'api-analytics', 'sitemap', 'robots', 'og', 'thumbs', 'videos', 'images', 'data', 'locales', 'localeMeta', 'localesList', 'jsonld', 'parseContent', 'parseList', 'secrets', 'storage', 'useDeferAssets'
+    ];
+    // Dynamic pattern match for vedas, puranas, itihasa, vedic_philosophy, vedic_science
+    const DYNAMIC_PREFIXES = [
+      'vedas', 'puranas', 'itihasa', 'vedic_philosophy', 'vedic_science'
+    ];
+    if (STATIC_NAMESPACES.includes(namespace)) return true;
+    return DYNAMIC_PREFIXES.some(prefix => namespace.startsWith(prefix));
   });
 
   // Fast-path incremental mode based on per-file blob SHAs.
