@@ -41,7 +41,7 @@ export default async function PageArticleJsonLd({ metaKey, params, locale, autho
       name: 'Sanātana Dharma',
       logo: {
         '@type': 'ImageObject',
-        url: `${SITE_URL}/images/svg/globe.svg`
+        url: `${SITE_URL}/images/logo.png`
       }
     },
     datePublished: datePublished || undefined,
@@ -51,7 +51,7 @@ export default async function PageArticleJsonLd({ metaKey, params, locale, autho
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }} />
     </>
   );
 }
