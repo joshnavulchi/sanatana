@@ -160,7 +160,7 @@ Generated output must:
 
 ---
 
-# Output Format
+<!-- # Output Format
 
 Agents must output valid JSON ready to be placed in the repository.
 
@@ -170,4 +170,4 @@ Example directory
 data/vedas/
 data/upanishads/
 data/puranas/
-```
+``` -->
