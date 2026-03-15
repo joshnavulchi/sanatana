@@ -6,21 +6,21 @@ import { createGenerateMetadata } from '@lib/pageUtils';
 import PageLayout from '@components/common/PageLayout';
 import LazyImage from '@components/lazyimage';
 import Link from 'next/link';
-export const generateMetadata = createGenerateMetadata('kidszone_illustratedstories');
+export const generateMetadata = createGenerateMetadata('illustrated_stories');
 
 export default function Page({ searchParams }: any) {
   const locale = DEFAULT_LOCALE;
   const S = (k: string, l?: any) => String(t(k, l ?? locale));
   // Load stories from locale translations; fall back to English or empty array
-  const nsObj: any = getLocaleNamespaceObject(locale, 'kidszone_illustratedstories')?.kidszone_illustratedstories || {};
+  const nsObj: any = getLocaleNamespaceObject(locale, 'illustrated_stories')?.illustrated_stories || {};
   const stories: any[] = Array.isArray(nsObj.kids_indian_stories) ? nsObj.kids_indian_stories : [];
   return (
     <>
       <PageLayout
         metaKey="illustrated_stories"
-        title={nsObj.title || S('kidszone_illustratedstories.title')}
-        description={nsObj.description || S('kidszone_illustratedstories.description')}
-        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: nsObj.title || S('kidszone_illustratedstories.title') }]}
+        title={nsObj.title || S('illustrated_stories.title')}
+        description={nsObj.description || S('illustrated_stories.description')}
+        breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: nsObj.title || S('illustrated_stories.title') }]}
         className="layout-md"
       >
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">

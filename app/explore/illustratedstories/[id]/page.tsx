@@ -139,7 +139,7 @@ export default async function Page({
 
       <div className="flex justify-between mt-8">
         {prev ? (
-          <Link href={`/kidszone/illustratedstories/${prev.id}`}>
+          <Link href={`/explore/illustrated_stories/${prev.id}`}>
             ← {prev.title}
           </Link>
         ) : (
@@ -147,7 +147,7 @@ export default async function Page({
         )}
 
         {next ? (
-          <Link href={`/kidszone/illustratedstories/${next.id}`}>
+          <Link href={`/explore/illustrated_stories/${next.id}`}>
             {next.title} →
           </Link>
         ) : (
