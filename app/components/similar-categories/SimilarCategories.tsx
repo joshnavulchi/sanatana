@@ -1,9 +1,10 @@
-'use client';
+"use client";
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 // removed useT usage; translations read directly from runtime locale object
 import { loadLocaleNamespace } from '@lib/i18n';
+import { listExploreSubpages } from '@lib/pageUtils';
 import { useLocale } from '@app/context/locale-context';
 
 interface SimilarCategoriesProps {
@@ -26,8 +27,22 @@ const CATEGORY_CONFIG: Record<string, { basePath: string; mode: CategoryMode }> 
   itihasa: { basePath: '/itihasa', mode: 'itihasa' },
   philosophy: { basePath: '/philosophy', mode: 'object-nav' },
   science: { basePath: '/vedic-philosophy', mode: 'object-nav' },
-  others: { basePath: '', mode: 'object-nav' }
+  others: { basePath: '', mode: 'object-nav' },
+  explore: { basePath: '/explore', mode: 'object-nav' }
 };
+// Helper to get explore subpages
+function getExploreLinks(locale: string): Promise<LinkItem[]> {
+  // This function should list all explore subpage JSON files and return LinkItems
+  // For now, hardcode a few known ones; ideally, this would be dynamic
+  const explorePages = [
+    { key: 'temples-in-india', label: 'Temples in India', href: '/explore/temples-in-india' },
+    { key: 'shakti-peethas', label: 'Shakti Peethas', href: '/explore/shakti-peethas' },
+    { key: 'religion-conversion', label: 'Religion Conversion', href: '/explore/religion-conversion' },
+    { key: 'usa-strategies', label: 'USA Strategies', href: '/explore/usa-strategies' },
+    { key: 'world-transformation', label: 'World Transformation', href: '/explore/world-transformation' }
+  ];
+  return Promise.resolve(explorePages);
+}
 
 function normalizeHref(href?: string) {
   if (!href) return '#';
@@ -156,7 +171,9 @@ export default function SimilarCategories({
         const extracted: CategoryItem[] = [];
         const categoryOrder = Object.keys(CATEGORY_CONFIG);
 
+        // Add standard categories
         categoryOrder.forEach((categoryKey) => {
+          if (categoryKey === 'explore') return; // We'll add explore separately
           const value = source[categoryKey];
           if (!isPlainObject(value)) return;
           const titleText = typeof value.title === 'string' ? value.title : categoryKey;
@@ -168,6 +185,16 @@ export default function SimilarCategories({
           extracted.push({ key: categoryKey, title: titleText, links });
         });
 
+        // Add explore links
+        const exploreLinks = await getExploreLinks(locale);
+        if (exploreLinks.length > 0) {
+          extracted.push({
+            key: 'explore',
+            title: 'Explore',
+            links: exploreLinks.filter((link) => !excludeCurrent || normalizeHref(link.href) !== pathname)
+          });
+        }
+
         setCategories(extracted.slice(0, maxItems));
       } catch (e) {
         console.error('Error loading categories:', e);
@@ -177,9 +204,9 @@ export default function SimilarCategories({
   }, [excludeCurrent, locale, maxItems, pathname]);
   if (categories.length === 0) {
     return (
-      <aside className="relative overflow-hidden rounded-2xl border-2 border-amber-300 bg-gradient-to-b from-amber-50 via-orange-50 to-stone-50 p-5 shadow-[0_10px_30px_rgba(120,53,15,0.12)]">
-        <div className="pointer-events-none absolute inset-x-5 top-4 h-px bg-gradient-to-r from-transparent via-amber-500/70 to-transparent" />
-        <div className="pointer-events-none absolute inset-x-5 bottom-4 h-px bg-gradient-to-r from-transparent via-amber-500/70 to-transparent" />
+      <aside className="relative overflow-hidden rounded-2xl border-2 border-amber-300 bg-linear-to-b from-amber-50 via-orange-50 to-stone-50 p-5 shadow-[0_10px_30px_rgba(120,53,15,0.12)]">
+        <div className="pointer-events-none absolute inset-x-5 top-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent" />
+        <div className="pointer-events-none absolute inset-x-5 bottom-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent" />
         <h5 className="mb-2 text-xl md:text-lg font-bold tracking-wide text-amber-900">{title}</h5>
         <p className="text-base md:text-md leading-relaxed text-amber-800/90">
           Loading categories or no categories available...
@@ -188,9 +215,9 @@ export default function SimilarCategories({
     );
   }
   return (
-    <aside className="relative overflow-hidden rounded-2xl border-2 border-amber-300 bg-gradient-to-b from-amber-50 via-orange-50 to-stone-50 p-5 shadow-[0_10px_30px_rgba(120,53,15,0.12)]">
-      <div className="pointer-events-none absolute inset-x-5 top-4 h-px bg-gradient-to-r from-transparent via-amber-500/70 to-transparent" />
-      <div className="pointer-events-none absolute inset-x-5 bottom-4 h-px bg-gradient-to-r from-transparent via-amber-500/70 to-transparent" />
+    <aside className="relative overflow-hidden rounded-2xl border-2 border-amber-300 bg-linear-to-b from-amber-50 via-orange-50 to-stone-50 p-5 shadow-[0_10px_30px_rgba(120,53,15,0.12)]">
+      <div className="pointer-events-none absolute inset-x-5 top-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent" />
+      <div className="pointer-events-none absolute inset-x-5 bottom-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent" />
       <div className="mb-5 rounded-xl border border-amber-200 bg-amber-100/70 px-4 py-3">
         <h5 className="text-xl md:text-lg font-bold tracking-wide text-amber-900">{title}</h5>
         <p className="mt-1 text-base md:text-md md:text-sm text-amber-800">Sacred pathways to explore related wisdom.</p>
@@ -217,7 +244,7 @@ export default function SimilarCategories({
                       href={normalizeHref(link.href)}
                       className="inline-flex items-start gap-2 text-amber-800 transition-colors hover:text-orange-700"
                     >
-                      <span aria-hidden="true" className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-amber-500" />
+                      <span aria-hidden="true" className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-amber-500" />
                       {link.label}
                     </Link>
                   </li>

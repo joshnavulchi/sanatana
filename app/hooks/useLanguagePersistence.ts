@@ -15,23 +15,20 @@ export function useLanguagePersistence() {
   // Load language from localStorage on mount
   useEffect(() => {
     if (typeof window !== "undefined") {
+      let storedLanguage: string | null = null;
       try {
-        const storedLanguage = storage.getItem(LANGUAGE_STORAGE_KEY);
-        if (storedLanguage) {
-          setTimeout(() => setLanguage(storedLanguage), 0);
-          setTimeout(() => setHasStoredLanguage(true), 0);
-        } else {
-          // No stored language — use the app default locale rather than
-          // automatically switching to the browser language. This ensures
-          // the UI respects `DEFAULT_LOCALE` unless the user has
-          // explicitly chosen a different language.
-          setTimeout(() => setLanguage(DEFAULT_LOCALE), 0);
-          setTimeout(() => setHasStoredLanguage(false), 0);
-        }
+        storedLanguage = storage.getItem(LANGUAGE_STORAGE_KEY);
       } catch (e) {
-        setTimeout(() => setLanguage(DEFAULT_LOCALE), 0);
+        storedLanguage = null;
       }
-      setTimeout(() => setIsLoaded(true), 0);
+      if (storedLanguage) {
+        setLanguage(storedLanguage);
+        setHasStoredLanguage(true);
+      } else {
+        setLanguage(DEFAULT_LOCALE);
+        setHasStoredLanguage(false);
+      }
+      setIsLoaded(true);
     }
   }, []);
 

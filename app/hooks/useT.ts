@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 export function useT() {
   const { locale, isLoading } = useLocale();
-  const [, forceUpdate] = useState(0);
+  const [, setForceUpdate] = useState(0);
 
   // Force re-render when locale finishes loading
   // No need to check getLocaleObject; re-rendering is handled by context/namespace hooks
@@ -50,7 +50,7 @@ export function useT() {
           if (ns && Object.keys(ns).length > 0) {
             setTimeout(() => {
               console.debug('[useT] forcing update after namespace load', namespace);
-              forceUpdate(prev => prev + 1);
+              setForceUpdate(prev => prev + 1);
             }, 0);
           }
         }).catch((err) => { console.warn('[useT] loadLocaleNamespace failed', err); });

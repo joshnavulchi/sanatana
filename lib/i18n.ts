@@ -95,34 +95,26 @@ export async function loadLocaleNamespace(locale: string, namespace: string) {
   const existing = (localesCache[locale] as any)[namespace];
   if (existing) return existing;
 
-  // Try various naming patterns for the namespace file
-  const candidates = [
-    namespace,
-    namespace.replace(/-/g, '_'),
-    namespace.replace(/_/g, '-'),
-  ];
-
   // Server-side: read namespace JSON directly from public/locales.
   if (typeof window === 'undefined') {
     try {
       const fs = await import('fs/promises');
       const path = await import('path');
-      const roots = [locale, DEFAULT_LOCALE].filter((v, i, a) => a.indexOf(v) === i);
-
-      for (const rootLocale of roots) {
-        for (const candidate of candidates) {
-          try {
-            const filePath = path.join(process.cwd(), 'public', 'locales', rootLocale, `${candidate}.json`);
-            const raw = await fs.readFile(filePath, 'utf8');
-            const parsed = JSON.parse(raw);
-            try {
-              (localesCache[locale] as any)[namespace] = parsed;
-              (localesCache[locale] as any)[candidate] = parsed;
-            } catch (_) { }
-            return parsed;
-          } catch (_) {
-            // try next candidate file
-          }
+      // Try locale first, then fallback to DEFAULT_LOCALE
+      const localesToTry = [locale, DEFAULT_LOCALE].filter((v, i, a) => a.indexOf(v) === i);
+      for (const rootLocale of localesToTry) {
+        // Restrict to only valid locale files
+        const validLocales = ["en", "hi", "ta", "te", "bn", "gu", "kn", "ml", "mr", "pa", "sa", "ur"];
+        if (!validLocales.includes(rootLocale)) continue;
+        const filePath = path.join(process.cwd(), 'public', 'locales', rootLocale, `${namespace}.json`);
+        try {
+          await fs.access(filePath);
+          const raw = await fs.readFile(filePath, 'utf8');
+          const parsed = JSON.parse(raw);
+          (localesCache[locale] as any)[namespace] = parsed;
+          return parsed;
+        } catch (_) {
+          // try next locale
         }
       }
     } catch (_) {
@@ -132,19 +124,26 @@ export async function loadLocaleNamespace(locale: string, namespace: string) {
   }
 
   // Client-side: fetch from public/locales
-  for (const candidate of candidates) {
-    try {
-      const response = await fetch(`/locales/${locale}/${candidate}.json`, { cache: 'force-cache' });
-      if (!response.ok) continue;
-      const parsed = await response.json();
+  try {
+    const response = await fetch(`/locales/${locale}/${namespace}.json`, { cache: 'force-cache' });
+    if (!response.ok) throw new Error('Not found');
+    const parsed = await response.json();
+    (localesCache[locale] as any)[namespace] = parsed;
+    return parsed;
+  } catch (_) {
+    // fallback to DEFAULT_LOCALE
+    if (locale !== DEFAULT_LOCALE) {
       try {
-        (localesCache[locale] as any)[namespace] = parsed;
-        (localesCache[locale] as any)[candidate] = parsed;
-      } catch (_) { }
-      return parsed;
-    } catch (e) {
-      // Continue to next candidate
+        const response = await fetch(`/locales/${DEFAULT_LOCALE}/${namespace}.json`, { cache: 'force-cache' });
+        if (!response.ok) throw new Error('Not found');
+        const parsed = await response.json();
+        (localesCache[DEFAULT_LOCALE] as any)[namespace] = parsed;
+        return parsed;
+      } catch (_) {
+        // ignore
+      }
     }
+    return {};
   }
 
   console.warn(`[i18n] loadLocaleNamespace: could not load ${namespace} for ${locale}`);
@@ -184,37 +183,6 @@ function interpolateObject(obj: unknown, params?: Record<string, string>): unkno
     return out;
   }
   return obj;
-}
-
-export function getMeta(metaKey: string, params?: Record<string, string>, locale = DEFAULT_LOCALE) {
-  // Only per-namespace meta is supported now
-  const nsObj = getLocaleNamespaceObject(locale, metaKey);
-  if (nsObj && typeof nsObj === 'object') {
-    const meta = (nsObj as Record<string, unknown>).meta;
-    if (meta && typeof meta === 'object') {
-      return interpolateObject(meta, params) as Record<string, unknown>;
-    }
-  }
-  return {};
-}
-
-export function detectLocale(searchParams?: unknown) {
-  if (searchParams && typeof searchParams === 'object') {
-    try {
-      if (searchParams instanceof Promise) return DEFAULT_LOCALE;
-      const maybeGet = (searchParams as any).get;
-      if (typeof maybeGet === 'function') {
-        const v = maybeGet.call(searchParams, 'lang');
-        if (v) return String(v);
-      }
-      const candidate = (searchParams as Record<string, unknown>)['lang'];
-      if (candidate) return Array.isArray(candidate) ? String(candidate[0]) : String(candidate);
-    } catch (_) { }
-  }
-  if (typeof window === 'undefined') return undefined;
-  try { const s = storage.getItem('sanatana_dharma_language'); if (s) return s; } catch (_) { }
-  if (typeof navigator !== 'undefined' && navigator?.language) return navigator.language.split('-')[0];
-  return DEFAULT_LOCALE;
 }
 
 export function detectServerLocaleFromHeaders(hdrs: any) {

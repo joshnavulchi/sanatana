@@ -27,33 +27,31 @@ function unwrapNs(ns: Record<string, any>, section: string): Record<string, any>
 
 export default function useLocaleSection(section: string) {
   const { locale } = useLocale();
-  const [obj, setObj] = useState<Record<string, any>>(() => {
-    // Start with empty object to avoid hydration mismatch
-    // Server-side namespace loading will happen in useEffect
-    if (typeof window === 'undefined') {
-      try {
-        const ns = getLocaleNamespaceObject(locale, section);
-        if (ns && typeof ns === 'object') {
-          return unwrapNs(ns, section);
-        }
-      } catch (_) { }
-    }
-    return {};
-  });
+  const [obj, setObj] = useState<Record<string, any>>({});
 
   useEffect(() => {
     let cancelled = false;
 
-    // Try to load namespace file for this section
-    loadLocaleNamespace(locale, section).then((ns: any) => {
-      if (cancelled) return;
-      if (!ns || typeof ns !== 'object') return;
+    // Server-side: try to load namespace object synchronously
+    if (typeof window === 'undefined') {
+      try {
+        const ns = getLocaleNamespaceObject(locale, section);
+        if (ns && typeof ns === 'object') {
+          setObj(unwrapNs(ns, section));
+        }
+      } catch (_) { }
+    } else {
+      // Client-side: load namespace asynchronously
+      loadLocaleNamespace(locale, section).then((ns: any) => {
+        if (cancelled) return;
+        if (!ns || typeof ns !== 'object') return;
 
-      const payload = unwrapNs(ns, section);
-      if (payload && typeof payload === 'object') {
-        setObj(payload);
-      }
-    }).catch(() => { });
+        const payload = unwrapNs(ns, section);
+        if (payload && typeof payload === 'object') {
+          setObj(payload);
+        }
+      }).catch(() => { });
+    }
 
     return () => { cancelled = true; };
   }, [locale, section]);
