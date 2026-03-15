@@ -102,9 +102,32 @@ export async function loadLocaleNamespace(locale: string, namespace: string) {
     namespace.replace(/_/g, '-'),
   ];
 
-  // Server-side: this module is intentionally client-first.
-  // If server-time locale loading is required, implement a separate server loader.
+  // Server-side: read namespace JSON directly from public/locales.
   if (typeof window === 'undefined') {
+    try {
+      const fs = await import('fs/promises');
+      const path = await import('path');
+      const roots = [locale, DEFAULT_LOCALE].filter((v, i, a) => a.indexOf(v) === i);
+
+      for (const rootLocale of roots) {
+        for (const candidate of candidates) {
+          try {
+            const filePath = path.join(process.cwd(), 'public', 'locales', rootLocale, `${candidate}.json`);
+            const raw = await fs.readFile(filePath, 'utf8');
+            const parsed = JSON.parse(raw);
+            try {
+              (localesCache[locale] as any)[namespace] = parsed;
+              (localesCache[locale] as any)[candidate] = parsed;
+            } catch (_) { }
+            return parsed;
+          } catch (_) {
+            // try next candidate file
+          }
+        }
+      }
+    } catch (_) {
+      // ignore and continue to empty fallback
+    }
     return {};
   }
 

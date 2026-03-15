@@ -1,5 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { getMeta, detectLocale } from '@lib/i18n';
+import { getMeta, detectLocale, loadLocaleNamespace } from '@lib/i18n';
 
 type Props = {
   metaKey: string;
@@ -15,6 +15,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://sanatanadharmam.in
 
 export default async function PageArticleJsonLd({ metaKey, params, locale, author, datePublished, image, articleType = 'Article' }: Props) {
   const loc = locale ?? await detectLocale(params);
+  await loadLocaleNamespace(String(loc || 'en'), metaKey);
   const meta = getMeta(metaKey, params, loc) || {};
 
   const headline = meta.title || undefined;

@@ -1,5 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { getMeta, detectLocale, getLocaleNamespaceObject } from '@lib/i18n';
+import { getMeta, detectLocale, getLocaleNamespaceObject, loadLocaleNamespace } from '@lib/i18n';
 type Props = {
   metaKey: string;
   params?: any;
@@ -8,6 +8,7 @@ type Props = {
 // Server component that renders JSON-LD for a given metaKey.
 export default async function StructuredData({ metaKey, params, locale }: Props) {
   const loc = String(locale ?? detectLocale(params) ?? 'en');
+  await loadLocaleNamespace(loc, metaKey);
   const meta = getMeta(metaKey, params, loc) || {};
   const webpage: Record<string, any> = {
     '@context': 'https://schema.org',
