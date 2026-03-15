@@ -95,17 +95,17 @@ export async function loadLocaleNamespace(locale: string, namespace: string) {
   const existing = (localesCache[locale] as any)[namespace];
   if (existing) return existing;
 
-  // Server-side: read namespace JSON directly from public/locales.
+  // Server-side: read namespace JSON directly from public/locales, but only if listed in manifest.
   if (typeof window === 'undefined') {
     try {
       const fs = await import('fs/promises');
       const path = await import('path');
-      // Try locale first, then fallback to DEFAULT_LOCALE
+      const manifestPath = path.join(process.cwd(), 'public', 'locales-manifest.json');
+      const manifestRaw = await fs.readFile(manifestPath, 'utf8');
+      const manifest = JSON.parse(manifestRaw);
       const localesToTry = [locale, DEFAULT_LOCALE].filter((v, i, a) => a.indexOf(v) === i);
       for (const rootLocale of localesToTry) {
-        // Restrict to only valid locale files
-        const validLocales = ["en", "hi", "ta", "te", "bn", "gu", "kn", "ml", "mr", "pa", "sa", "ur"];
-        if (!validLocales.includes(rootLocale)) continue;
+        if (!manifest[rootLocale] || !manifest[rootLocale].includes(namespace)) continue;
         const filePath = path.join(process.cwd(), 'public', 'locales', rootLocale, `${namespace}.json`);
         try {
           await fs.access(filePath);
