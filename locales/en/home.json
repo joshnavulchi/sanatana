@@ -128,7 +128,7 @@
           {
             "title": "The Upanishads",
             "description": "Brahman · Atman · Knowledge · Liberation · Unity",
-            "href": "vedas//upanishads",
+            "href": "upanishads",
             "src": "/images/home/the-upanishads.png"
           },
           {
@@ -159,31 +159,31 @@
           {
             "title": "Dharma",
             "description": "Righteousness · Duty · Harmony · Justice · Truth",
-            "href": "philosophy/dharma",
+            "href": "vedic-philosophy/dharma",
             "src": "/images/home/dharma.png"
           },
           {
             "title": "Karma",
             "description": "Action · Cause · Effect · Responsibility · Consequence",
-            "href": "philosophy/karma",
+            "href": "vedic-philosophy/karma",
             "src": "/images/home/karma.png"
           },
           {
             "title": "Moksha",
             "description": "Liberation · Freedom · Oneness · Bliss · Eternity",
-            "href": "philosophy/moksha",
+            "href": "vedic-philosophy/moksha",
             "src": "/images/home/moksha.png"
           },
           {
             "title": "Ahimsa",
             "description": "Non‑violence · Compassion · Respect · Harmony · Love",
-            "href": "philosophy/ahimsa",
+            "href": "vedic-philosophy/ahimsa",
             "src": "/images/home/ahimsa.png"
           },
           {
             "title": "Satya",
             "description": "Truth · Honesty · Integrity · Authenticity · Righteousness",
-            "href": "philosophy/satya",
+            "href": "vedic-philosophy/satya",
             "src": "/images/home/satya.png"
           }
         ]
