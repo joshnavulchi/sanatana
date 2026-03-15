@@ -1,8 +1,30 @@
+
 services:
   - type: static_site
     name: sanatanadharmam.in
     env: node
     plan: free
+    # Speed up builds by reusing Next.js cache and locales sync state.
+    # Also skip builds when changes don't affect the static output.
+    cacheDirectories:
+      - .next/cache
+      - .cache
+    buildFilter:
+      paths:
+        - app/**
+        - lib/**
+        - public/**
+        - locales/**
+        - scripts/**
+        - types/**
+        - package.json
+        - package-lock.json
+        - next.config.ts
+        - tsconfig.json
+        - tailwind.config.ts
+        - postcss.config.cjs
+        - eslint.config.mjs
+        - .render-build.sh
     envVars:
       - key: NEXT_PUBLIC_GA_ID
         sync: false
@@ -26,20 +48,8 @@ services:
       export NODE_OPTIONS=--max-old-space-size=6144
 
       set -euo pipefail
-
-      echo ">> LOCALES_REF=${LOCALES_REF:-<empty>}"
-      git remote -v || true
-      echo ">> ls-remote origin (filter 'locales'):"
-      git ls-remote origin | grep -i 'refs/heads/locales' || echo "no 'refs/heads/locales' visible on origin"
-
-      echo ">> Fetching locales branch explicitly (shallow)…"
-      git fetch --no-tags --prune --depth=1 origin locales:refs/remotes/origin/locales || true
-
-      echo ">> Refs after fetch (grep locales):"
-      git show-ref | grep -i locales || echo "locales ref not present locally (script will try again)"
-
       npm run render-build
-      
+
     publishPath: out
 
   - type: cron
@@ -51,32 +61,7 @@ services:
       [
         "bash",
         "-lc",
-        'if [ -n "$RENDER_DEPLOY_HOOK" ]; then curl -fsS -X POST "$RENDER_DEPLOY_HOOK" || echo ''deploy hook failed''; else echo ''RENDER_DEPLOY_HOOK not set; skipping deploy''; fi',
-      ]
-
-services:
-  - type: static
-    name: your-static-site
-    buildCommand: |
-      set -euo pipefail
-
-      echo ">> LOCALES_REF=${LOCALES_REF:-<empty>}"
-      echo ">> GIT_REMOTE_URL=${GIT_REMOTE_URL:-<empty>}"
-
-      # Initialize git if .git is missing (tarball checkout cases)
-      if [ ! -d ".git" ]; then
-        echo ">> Initializing git repo (tarball checkout detected)…"
-        git init
-      fi
-
-      # Add 'origin' if missing
-      if ! git remote get-url origin >/dev/null 2>&1; then
-        if [ -z "${GIT_REMOTE_URL:-}" ]; then
-          echo "ERROR: GIT_REMOTE_URL not set; cannot fetch locales branch."
-          exit 1
-        fi
-        git remote add origin "${GIT_REMOTE_URL}"
-      fi
+        'if [ -n "$RENDER_DEPLOY_HOOK" ]; then curl -fsS -X POST "$RENDER_DEPLOY_HOOK" || echo ''deploy hook failed''; else echo ''RENDER_DEPLOY_HOOK not set; skipping deploy''; fi',                                                                ]
 
       echo ">> Remotes:"
       git remote -v || true
