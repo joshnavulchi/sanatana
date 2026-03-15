@@ -8,7 +8,7 @@
     "dev": "next dev",
     "prebuild": "node scripts/sync-locales-from-branch.js && npm run lint",
     "build": "node --max-old-space-size=84092 ./node_modules/next/dist/bin/next build",
-    "build:co": "node --max-old-space-size=4092 ./node_modules/next/dist/bin/next build",
+    "build:ci": "node --max-old-space-size=4092 ./node_modules/next/dist/bin/next build",
     "postbuild": "node scripts/generate-sitemap.js && node scripts/add-hash-to-assets.js",
     "render-build": "bash ./.render-build.sh",
     "start": "next start",
