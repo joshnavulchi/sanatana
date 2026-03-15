@@ -1,3 +1,11 @@
+/**
+ * Detects locale from searchParams or returns DEFAULT_LOCALE.
+ */
+export function detectLocale(searchParams?: Record<string, any>): string {
+  if (!searchParams) return DEFAULT_LOCALE;
+  const locale = searchParams.locale || searchParams.lang || searchParams.language;
+  return normalizeSupportedLocale(locale);
+}
 /* Cleaned minimal i18n utilities used by the app. */
 export const DEFAULT_LOCALE = "en";
 import storage from "./storage";
