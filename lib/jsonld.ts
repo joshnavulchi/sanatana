@@ -21,7 +21,7 @@ export function buildOrganizationJsonLd(opts?: {
   const { name = 'Sanātana Dharmam', logo, sameAs = [], description } = opts || {};
   return {
     '@context': 'https://schema.org',
-    '@type': 'Sanātana Dharmam',
+    '@type': 'Organization',
     name,
     url: SITE_URL + '/',
     description,
@@ -39,7 +39,7 @@ export function buildOrganizationJsonLd(opts?: {
 
 /** WebSite JSON-LD (add once in root layout) */
 export function buildWebSiteJsonLd(opts?: { name?: string; inLanguage?: Locale[] }) {
-  const { name = 'Sanātana Dharmam', inLanguage = ['hi', 'en', 'te'] } = opts || {};
+  const { name = 'Sanātana Dharmam', inLanguage = ['ar', 'de', 'en', 'es', 'fr', 'hi', 'ja', 'ru', 'te', 'zh-CN'] } = opts || {};
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
@@ -112,9 +112,9 @@ export function buildArticleJsonLd(opts: {
     inLanguage = DEFAULT_LOCALE
   } = opts;
 
-  return {
+  const article: Record<string, unknown> = {
     '@context': 'https://schema.org',
-    '@type': 'WebPage',
+    '@type': 'Article',
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
     headline,
     description,
@@ -129,6 +129,9 @@ export function buildArticleJsonLd(opts: {
     dateModified,
     inLanguage
   };
+
+  Object.keys(article).forEach((key) => article[key] === undefined && delete article[key]);
+  return article;
 }
 
 /** BreadcrumbList JSON-LD (derive from the segments of the current path) */
@@ -148,7 +151,6 @@ export function buildBreadcrumbJsonLd(segments: Array<{ name: string; item: stri
 /** Helper to render <script type="application/ld+json"> safely */
 export function renderJsonLdScript(json: unknown) {
   return {
-    type: 'application/ld+json',
     __html: safeJsonLd(json)
   };
 }

@@ -1,0 +1,123 @@
+﻿{
+  "auditedAtUtc": "2026-03-15T07:16:28.7652070Z",
+  "source": "live-production",
+  "baseUrl": "https://sanatanadharmam.in",
+  "pages": [
+    {
+      "url": "https://sanatanadharmam.in/",
+      "statusCode": 200,
+      "canonical": "https://sanatanadharmam.in/",
+      "robotsMeta": "index, follow",
+      "googlebotMeta": "index, follow",
+      "xRobotsTag": null,
+      "hasNoindex": false,
+      "jsonLdScriptCount": 6,
+      "schemaTypesFound": [
+        "WebSite",
+        "Organization"
+      ],
+      "richResultTypesFound": [],
+      "hasGoogleRichResultCandidate": false
+    },
+    {
+      "url": "https://sanatanadharmam.in/about/",
+      "statusCode": 200,
+      "canonical": "https://sanatanadharmam.in/about/",
+      "robotsMeta": "index, follow",
+      "googlebotMeta": "index, follow",
+      "xRobotsTag": null,
+      "hasNoindex": false,
+      "jsonLdScriptCount": 8,
+      "schemaTypesFound": [
+        "WebSite",
+        "Organization",
+        "WebPage",
+        "AboutPage"
+      ],
+      "richResultTypesFound": [],
+      "hasGoogleRichResultCandidate": false
+    },
+    {
+      "url": "https://sanatanadharmam.in/contact/",
+      "statusCode": 200,
+      "canonical": "https://sanatanadharmam.in/contact/",
+      "robotsMeta": "index, follow",
+      "googlebotMeta": "index, follow",
+      "xRobotsTag": null,
+      "hasNoindex": false,
+      "jsonLdScriptCount": 8,
+      "schemaTypesFound": [
+        "WebSite",
+        "Organization",
+        "WebPage",
+        "ContactPage"
+      ],
+      "richResultTypesFound": [],
+      "hasGoogleRichResultCandidate": false
+    },
+    {
+      "url": "https://sanatanadharmam.in/itihasa/",
+      "statusCode": 200,
+      "canonical": "https://sanatanadharmam.in/itihasa/",
+      "robotsMeta": "index, follow",
+      "googlebotMeta": "index, follow",
+      "xRobotsTag": null,
+      "hasNoindex": false,
+      "jsonLdScriptCount": 8,
+      "schemaTypesFound": [
+        "WebSite",
+        "Organization",
+        "WebPage",
+        "CollectionPage"
+      ],
+      "richResultTypesFound": [],
+      "hasGoogleRichResultCandidate": false
+    },
+    {
+      "url": "https://sanatanadharmam.in/vedas/",
+      "statusCode": 200,
+      "canonical": "https://sanatanadharmam.in/vedas/",
+      "robotsMeta": "index, follow",
+      "googlebotMeta": "index, follow",
+      "xRobotsTag": null,
+      "hasNoindex": false,
+      "jsonLdScriptCount": 8,
+      "schemaTypesFound": [
+        "WebSite",
+        "Organization",
+        "WebPage"
+      ],
+      "richResultTypesFound": [],
+      "hasGoogleRichResultCandidate": false
+    }
+  ],
+  "robotsTxt": {
+    "statusCode": 200,
+    "hasSitemapDirective": true,
+    "contentPreview": "User-agent: *\nAllow: /\nSitemap: https://sanatanadharmam.in/sitemap.xml"
+  },
+  "sitemap": {
+    "statusCode": 200,
+    "has404Html": true,
+    "hasNotFoundRoute": true,
+    "urlCountApprox": 5170
+  },
+  "recrawlTriggerPlan": {
+    "enabled": true,
+    "actions": [
+      "In Search Console URL Inspection, request indexing for homepage + 5 priority URLs.",
+      "Resubmit sitemap.xml after deploy.",
+      "Update one high-authority internal page with fresh links to changed URLs to trigger recrawl.",
+      "Ping changed URLs in Search Console if still in Crawled - currently not indexed after 48-72h."
+    ]
+  },
+  "dailyCoverageMonitoring": {
+    "enabled": true,
+    "checks": [
+      "Search Console \u003e Page indexing: track Indexed, Crawled - currently not indexed, Discovered - currently not indexed.",
+      "Search Console \u003e Enhancements: monitor rich result and structured data issue trends.",
+      "Search Console \u003e Sitemaps: ensure discovered URLs count is stable or increasing.",
+      "Check a sample of 10 URLs/day for canonical consistency and robots indexability."
+    ]
+  }
+}

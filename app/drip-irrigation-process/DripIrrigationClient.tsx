@@ -7,5 +7,10 @@ const DripIrrigation = dynamic(() => import('./dripirrigation'), {
 });
 
 export default function DripIrrigationClient() {
-  return <DripIrrigation />;
+  return (
+    <>
+      
+      <DripIrrigation />
+    </>
+  )
 }

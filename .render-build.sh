@@ -51,6 +51,7 @@ npm run build:ci
 echo "== Post-build optimizations =="
 
 node scripts/generate-sitemap.js
+node scripts/generate-post-deploy-audit.js
 node scripts/add-hash-to-assets.js
 
 # Optional heavy tasks

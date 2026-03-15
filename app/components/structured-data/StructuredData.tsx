@@ -18,8 +18,9 @@ export default async function StructuredData({ metaKey, params, locale }: Props)
     url: meta.url || undefined,
   };
   // Detect if this metaKey likely represents an article-like page (stories, scriptures, stotras, chapters)
-  const articlePattern = /(stories_|scriptures_|stotras|chapter|mahabharata|ramayana|gita|stories)/i;
-  const isArticle = articlePattern.test(metaKey) || (meta.description && String(meta.description).length > 80);
+  const articlePattern = /(purans_|upanishads_|itihasa_|_ramyana|_mahabharata|_bhagavdgita|chapter|parts|)/i;
+  const hasArticleDates = Boolean(meta.datePublished || meta.dateModified);
+  const isArticle = (articlePattern.test(metaKey) || (meta.description && String(meta.description).length > 80)) && hasArticleDates;
   // Build Article JSON-LD when appropriate
   let article: Record<string, any> | null = null;
   if (isArticle) {
@@ -33,8 +34,9 @@ export default async function StructuredData({ metaKey, params, locale }: Props)
       description: meta.description || undefined,
       image: img ? [img] : undefined,
       author: { '@type': 'Person', name: (meta.author || 'Sanātana Dharma') },
-      publisher: { '@type': 'Organization', name: 'Sanātana Dharma', logo: { '@type': 'ImageObject', url: `${SITE_URL}/images/svg/globe.svg` } },
+      publisher: { '@type': 'Organization', name: 'Sanātana Dharma', logo: { '@type': 'ImageObject', url: `${SITE_URL}/images/logo.png` } },
       datePublished: meta.datePublished || undefined,
+      dateModified: meta.dateModified || undefined,
     };
     Object.keys(article).forEach((k) => article && article[k] === undefined && delete article[k]);
   }
