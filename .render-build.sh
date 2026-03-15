@@ -1,11 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-echo "== Render portable build =="
-
-echo "LOCALES_REF=${LOCALES_REF:-<empty>}"
-echo "GIT_REMOTE_URL=${GIT_REMOTE_URL:-<empty>}"
-echo "CI=${CI:-<empty>}"
+echo ">> LOCALES_REF=${LOCALES_REF:-<empty>}"
 
 # Reduce memory usage
 export NODE_OPTIONS="--max-old-space-size=4096"
