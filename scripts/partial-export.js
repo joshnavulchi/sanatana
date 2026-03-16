@@ -25,16 +25,16 @@ function run(cmd, args, opts) {
 async function main() {
   const routes = readRoutes();
   if (!routes || routes.length === 0) {
-    console.log('No per-route changes detected (or failed to read routes). Falling back to full build + export.');
+    // console.log('No per-route changes detected (or failed to read routes). Falling back to full build + export.');
     // Full build + export
-    run('node', ['--max-old-space-size=8192', './node_modules/next/dist/bin/next', 'build']);
+    run('node', ['--max-old-space-size=6144', './node_modules/next/dist/bin/next', 'build']);
     run('node', ['./node_modules/next/dist/bin/next', 'export', '-o', 'out']);
     process.exit(0);
   }
 
   // Placeholder: per-route export is not implemented yet.
-  console.log('Per-route export requested for routes:', routes);
-  console.log('Currently falling back to full build + export (TODO: implement per-route renderer).');
+  // console.log('Per-route export requested for routes:', routes);
+  // console.log('Currently falling back to full build + export (TODO: implement per-route renderer).');
   run('node', ['--max-old-space-size=8192', './node_modules/next/dist/bin/next', 'build']);
   run('node', ['./node_modules/next/dist/bin/next', 'export', '-o', 'out']);
 }
