@@ -2,12 +2,12 @@
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@components/structured-data/StructuredData';
 import BhagavadGitaClient from './bhagavadgitaclient';
-export const generateMetadata = createGenerateMetadata('scriptures_bhagavadgita');
+export const generateMetadata = createGenerateMetadata('itihasa_bhagavadgita');
 
 export default function Page() {
   return (
     <>
-      <StructuredData metaKey="scriptures_bhagavadgita" />
+      <StructuredData metaKey="itihasa_bhagavadgita" />
       <BhagavadGitaClient />
     </>
   );

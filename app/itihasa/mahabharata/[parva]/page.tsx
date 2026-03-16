@@ -1,6 +1,7 @@
 export const revalidate = 60;
 import { notFound } from 'next/navigation';
 import { createGenerateMetadata } from '@lib/pageUtils';
+import StructuredData from '@/app/components/structured-data/StructuredData';
 import ItihasaPartClient from '../../itihasapartclient';
 import {
   MAHABHARATA_PARVAS,
@@ -29,17 +30,20 @@ export default async function Page(props: { params: Promise<Params> }) {
   if (!isMahabharataParvaSlug(parva)) notFound();
 
   return (
-    <ItihasaPartClient
-      namespace={`itihasa_mahabharata_${toUnderscoreSlug(parva)}`}
-      titleFallback={toTitleFromSlug(parva)}
-      breadcrumbs={[
-        { label: 'Home', href: '/' },
-        { label: 'Itihasa', href: '/itihasa' },
-        { label: 'Mahabharata', href: '/itihasa/mahabharata' },
-        { label: toTitleFromSlug(parva) },
-      ]}
-      nextHref={`/itihasa/mahabharata/${parva}/chapter-1`}
-      nextLabel="Open Chapter 1"
-    />
+    <>
+      <StructuredData metaKey={`itihasa_mahabharata_${toUnderscoreSlug(parva)}`} />
+      <ItihasaPartClient
+        namespace={`itihasa_mahabharata_${toUnderscoreSlug(parva)}`}
+        titleFallback={toTitleFromSlug(parva)}
+        breadcrumbs={[
+          { label: 'Home', href: '/' },
+          { label: 'Itihasa', href: '/itihasa' },
+          { label: 'Mahabharata', href: '/itihasa/mahabharata' },
+          { label: toTitleFromSlug(parva) },
+        ]}
+        nextHref={`/itihasa/mahabharata/${parva}/chapter-1`}
+        nextLabel="Open Chapter 1"
+      />
+    </>
   );
 }

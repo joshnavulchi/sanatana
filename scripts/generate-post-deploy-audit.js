@@ -113,8 +113,10 @@ function main() {
   const sitemapPath = path.join(outDir, 'sitemap.xml');
   const sitemapContent = readTextSafe(sitemapPath);
 
+  const buildCompleteTime = new Date().toISOString();
   const report = {
-    auditedAtUtc: new Date().toISOString(),
+    auditedAtUtc: buildCompleteTime,
+    buildCompleteTime,
     source: 'build-artifacts',
     baseUrl: SITE_URL,
     buildSourceFolder: fs.existsSync(outDir) ? 'out' : 'unknown',

@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import { createGenerateMetadata } from '@lib/pageUtils';
+import StructuredData from '@/app/components/structured-data/StructuredData';
 import ItihasaPartClient from '../../../itihasapartclient';
 import {
   isRamayanaKandaSlug,
@@ -62,16 +63,19 @@ export default async function Page(props: { params: Promise<Params> }) {
   const namespace = `itihasa_ramayana_${toUnderscoreSlug(slug)}_sarga${sarga}`;
 
   return (
-    <ItihasaPartClient
-      namespace={namespace}
-      titleFallback={`${toTitleFromSlug(slug)} Sarga ${sarga}`}
-      breadcrumbs={[
-        { label: 'Home', href: '/' },
-        { label: 'Itihasa', href: '/itihasa' },
-        { label: 'Ramayana', href: '/itihasa/ramayana' },
-        { label: toTitleFromSlug(slug), href: `/itihasa/ramayana/${slug}` },
-        { label: `Sarga ${sarga}` },
-      ]}
-    />
+    <>
+      <StructuredData metaKey={`itihasa_ramayana_${toUnderscoreSlug(slug)}_sarga${sarga}`} />
+      <ItihasaPartClient
+        namespace={namespace}
+        titleFallback={`${toTitleFromSlug(slug)} Sarga ${sarga}`}
+        breadcrumbs={[
+          { label: 'Home', href: '/' },
+          { label: 'Itihasa', href: '/itihasa' },
+          { label: 'Ramayana', href: '/itihasa/ramayana' },
+          { label: toTitleFromSlug(slug), href: `/itihasa/ramayana/${slug}` },
+          { label: `Sarga ${sarga}` },
+        ]}
+      />
+    </>
   );
 }

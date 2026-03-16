@@ -1,6 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { createGenerateMetadata } from '@lib/pageUtils';
 import SlugClient from './slugclient';
+import StructuredData from '@/app/components/structured-data/StructuredData';
 
 const VALID_SLUGS = ['rigveda', 'yajurveda', 'samaveda', 'atharvaveda'];
 
@@ -27,6 +28,10 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
 
 export default async function Page(props: { params: Promise<{ slug: string }> }) {
   const { slug } = await props.params;
-  return <SlugClient slug={slug} />;
+  return 
+  <>
+    <StructuredData metaKey={`vedas_${slug}`} />
+    <SlugClient slug={slug} />
+  </>
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

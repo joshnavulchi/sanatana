@@ -2,12 +2,12 @@
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@components/structured-data/StructuredData';
 import RamayanaClient from './ramayanaclient';
-export const generateMetadata = createGenerateMetadata('scriptures_ramayana');
+export const generateMetadata = createGenerateMetadata('itihasa_ramayana');
 
 export default function Page() {
   return (
     <>
-      <StructuredData metaKey="scriptures_ramayana" />
+      <StructuredData metaKey="itihasa_ramayana" />
       <RamayanaClient />
     </>
   );

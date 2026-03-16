@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import { createGenerateMetadata } from '@lib/pageUtils';
+import StructuredData from '@/app/components/structured-data/StructuredData';
 import ItihasaPartClient from '../../../itihasapartclient';
 import {
   isMahabharataParvaSlug,
@@ -62,16 +63,19 @@ export default async function Page(props: { params: Promise<Params> }) {
   const namespace = `itihasa_mahabharata_${toUnderscoreSlug(parva)}_chapter${chapter}`;
 
   return (
-    <ItihasaPartClient
-      namespace={namespace}
-      titleFallback={`${toTitleFromSlug(parva)} Chapter ${chapter}`}
-      breadcrumbs={[
-        { label: 'Home', href: '/' },
-        { label: 'Itihasa', href: '/itihasa' },
-        { label: 'Mahabharata', href: '/itihasa/mahabharata' },
-        { label: toTitleFromSlug(parva), href: `/itihasa/mahabharata/${parva}` },
-        { label: `Chapter ${chapter}` },
-      ]}
-    />
+    <>
+      <StructuredData metaKey={namespace} />
+      <ItihasaPartClient
+        namespace={namespace}
+        titleFallback={`${toTitleFromSlug(parva)} Chapter ${chapter}`}
+        breadcrumbs={[
+          { label: 'Home', href: '/' },
+          { label: 'Itihasa', href: '/itihasa' },
+          { label: 'Mahabharata', href: '/itihasa/mahabharata' },
+          { label: toTitleFromSlug(parva), href: `/itihasa/mahabharata/${parva}` },
+          { label: `Chapter ${chapter}` },
+        ]}
+      />
+    </>
   );
 }
