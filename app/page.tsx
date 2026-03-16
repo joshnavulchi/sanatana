@@ -1,6 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import fs from 'fs';
 import { createGenerateMetadata } from '@lib/pageUtils';
+import StructuredData from '@components/structured-data/StructuredData';
 import path from 'path';
 import HeroSection from '@components/herosection';
 import WelcomePage from '@components/welcome';
@@ -45,6 +46,7 @@ export default async function Home() {
     <>
       {criticalCss ? <style dangerouslySetInnerHTML={{ __html: criticalCss }} /> : null}
       <main>
+        <StructuredData metaKey="home" />
         <WelcomePage />
         <HeroSection />
         <UnderstandingOfSanatana />

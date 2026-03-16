@@ -1,4 +1,5 @@
 import { createGenerateMetadata } from '@lib/pageUtils';
+import StructuredData from '@components/structured-data/StructuredData';
 import PartsClient from './partsclient';
 import { normalizePuranaSlug, parseNumericSuffix } from '../../purana-utils';
 import fs from 'fs';
@@ -126,5 +127,11 @@ export async function generateMetadata(props: { params: Promise<Params> }) {
 
 export default async function Page(props: { params: Promise<Params> }) {
   const { slug, parts } = await props.params;
-  return <PartsClient slug={normalizePuranaSlug(slug)} parts={parts} />;
+  const normalizedSlug = normalizePuranaSlug(slug);
+  return (
+    <>
+      <StructuredData metaKey={`puranas_${normalizedSlug}`} />
+      <PartsClient slug={normalizedSlug} parts={parts} />
+    </>
+  );
 }

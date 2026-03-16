@@ -1,6 +1,7 @@
 export const revalidate = 60;
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { createGenerateMetadata } from '@lib/pageUtils';
+import StructuredData from '@/app/components/structured-data/StructuredData';
 import SlugClient from './slugclient';
 import { getPuranaOverviewNamespace, MAHAPURANA_SLUGS, normalizePuranaSlug } from '../purana-utils';
 
@@ -26,6 +27,12 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
 
 export default async function Page(props: { params: Promise<{ slug: string }> }) {
   const { slug } = await props.params;
-  return <SlugClient slug={normalizePuranaSlug(slug)} />;
+  const canonicalSlug = normalizePuranaSlug(slug);
+  return (
+    <>
+      <StructuredData metaKey={`puranas_${canonicalSlug}`} />
+      <SlugClient slug={canonicalSlug} />
+    </>
+  );
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

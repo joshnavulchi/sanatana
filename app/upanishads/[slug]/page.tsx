@@ -1,5 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { createGenerateMetadata } from '@lib/pageUtils';
+import StructuredData from '@components/structured-data/StructuredData';
 import SlugClient from './slugclient';
 
 const VALID_SLUGS = [
@@ -23,6 +24,11 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
 
 export default async function Page(props: { params: Promise<{ slug: string }> }) {
   const { slug } = await props.params;
-  return <SlugClient slug={slug} />;
+  return (
+    <>
+      <StructuredData metaKey={`upanishads_${slug}`} />
+      <SlugClient slug={slug} />
+    </>
+  );
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

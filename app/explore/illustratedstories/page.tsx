@@ -3,6 +3,7 @@
 import { getLocaleNamespaceObject } from '@lib/i18n';
 import { t, DEFAULT_LOCALE } from '@lib/i18n';
 import { createGenerateMetadata } from '@lib/pageUtils';
+import StructuredData from '@components/structured-data/StructuredData';
 import PageLayout from '@components/common/PageLayout';
 import LazyImage from '@components/lazyimage';
 import Link from 'next/link';
@@ -16,6 +17,7 @@ export default function Page({ searchParams }: any) {
   const stories: any[] = Array.isArray(nsObj.kids_indian_stories) ? nsObj.kids_indian_stories : [];
   return (
     <>
+      <StructuredData metaKey="illustrated_stories" />
       <PageLayout
         metaKey="illustrated_stories"
         title={nsObj.title || S('illustrated_stories.title')}

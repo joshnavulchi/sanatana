@@ -1,5 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { createGenerateMetadata } from '@lib/pageUtils';
+import StructuredData from '@components/structured-data/StructuredData';
 import ChapterClient from './chapterclient';
 import fs from 'fs';
 import path from 'path';
@@ -99,6 +100,11 @@ export async function generateMetadata(props: { params: Promise<ChapterPageParam
 
 export default async function Page(props: { params: Promise<ChapterPageParams> }) {
   const { slug, chapter } = await props.params;
-  return <ChapterClient slug={slug} chapter={chapter} />;
+  return (
+    <>
+      <StructuredData metaKey={`vedas_${slug}_${chapter}`} />
+      <ChapterClient slug={slug} chapter={chapter} />
+    </>
+  );
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

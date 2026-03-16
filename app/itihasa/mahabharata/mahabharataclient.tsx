@@ -2,9 +2,13 @@
 import PageLayout from '@components/common/PageLayout';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
+import { createGenerateMetadata } from '@lib/pageUtils';
+import StructuredData from '@components/structured-data/StructuredData';
 import Loader from '@components/loader';
 import Link from 'next/link';
 import { MAHABHARATA_PARVAS, toTitleFromSlug } from '../itihasa-utils';
+
+export const generateMetadata = createGenerateMetadata('itihasa_mahabharata');
 
 function Paragraphs({ text, className = '' }: { text: string; className?: string }) {
   return (
@@ -62,64 +66,67 @@ export default function MahabharataClient() {
   }
 
   return (
-    <PageLayout metaKey="scriptures_mahabharata" title={title} breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Itihasa', href: '/itihasa' }, { label: title }]} className="layout-md">
-      {description && (
-        <div className="relative px-4 md:px-6 py-8 md:py-12 bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8] rounded-2xl border border-[#d8a25a]/30 overflow-hidden mb-8">
-          <p className="text-lg text-[#5b2d12]">{description}</p>
-        </div>
-      )}
+    <>
+      <StructuredData metaKey="itihasa_mahabharata" />
+      <PageLayout metaKey="itihasa_mahabharata" title={title} breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Itihasa', href: '/itihasa' }, { label: title }]} className="layout-md">
+          {description && (
+            <div className="relative px-4 md:px-6 py-8 md:py-12 bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8] rounded-2xl border border-[#d8a25a]/30 overflow-hidden mb-8">
+              <p className="text-lg text-[#5b2d12]">{description}</p>
+            </div>
+        )}
 
-      {introduction && (
-        <div className="relative px-4 md:px-6 py-8 md:py-10 bg-[#fffaf0] rounded-2xl border border-[#d8a25a]/30 overflow-hidden mb-8 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
-          <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-4">Introduction</h2>
-          <div className="text-base md:text-lg text-[#5b2d12] leading-relaxed">
-            <Paragraphs text={introduction} />
+        {introduction && (
+          <div className="relative px-4 md:px-6 py-8 md:py-10 bg-[#fffaf0] rounded-2xl border border-[#d8a25a]/30 overflow-hidden mb-8 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
+            <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-4">Introduction</h2>
+            <div className="text-base md:text-lg text-[#5b2d12] leading-relaxed">
+              <Paragraphs text={introduction} />
+            </div>
           </div>
-        </div>
-      )}
+        )}
 
-      {scriptureSections.length > 0 && (
+        {scriptureSections.length > 0 && (
+          <div className="mt-8">
+            <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-6">Overview</h2>
+            <div className="grid grid-cols-1 gap-6">
+              {scriptureSections.map((item, idx) => (
+                <SectionCard key={idx} item={item} index={idx} />
+              ))}
+            </div>
+          </div>
+        )}
+
+        {philosophical && (
+          <div className="mt-10 relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 p-6 md:p-8 bg-linear-to-br from-[#fffaf3] via-[#fdf1dc] to-[#f8e4c0] shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
+            <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-[#7a2e1f] via-[#d97706] to-[#f59e0b]" />
+            <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-4">Philosophical Explanation</h2>
+            <div className="text-base md:text-lg text-[#5b2d12] leading-relaxed">
+              <Paragraphs text={philosophical} />
+            </div>
+          </div>
+        )}
+
         <div className="mt-8">
-          <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-6">Overview</h2>
-          <div className="grid grid-cols-1 gap-6">
-            {scriptureSections.map((item, idx) => (
-              <SectionCard key={idx} item={item} index={idx} />
+          <h2 className="text-2xl font-bold text-[#3d2e22] mb-6">Parvas</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {MAHABHARATA_PARVAS.map((parva, idx) => (
+              <Link key={parva} href={`/itihasa/mahabharata/${parva}`} className="group block">
+                <div className="relative overflow-hidden rounded-2xl border border-[#d8a25a]/50 bg-[#fffaf0] p-5 shadow-[0_8px_30px_rgba(146,64,14,0.08)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(166,61,23,0.18)]">
+                  <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-[#7a2e1f] via-[#c2410c] to-[#f59e0b]" />
+                  <div className="flex items-center gap-3 mt-2">
+                    <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-[#7a2e1f]/15 text-sm font-bold text-[#7a2e1f]">
+                      {idx + 1}
+                    </span>
+                    <h3 className="text-base font-bold text-[#3d2e22] group-hover:text-[#7a2e1f] transition-colors">
+                      {toTitleFromSlug(parva)}
+                    </h3>
+                  </div>
+                </div>
+              </Link>
             ))}
           </div>
         </div>
-      )}
-
-      {philosophical && (
-        <div className="mt-10 relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 p-6 md:p-8 bg-linear-to-br from-[#fffaf3] via-[#fdf1dc] to-[#f8e4c0] shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
-          <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-[#7a2e1f] via-[#d97706] to-[#f59e0b]" />
-          <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-4">Philosophical Explanation</h2>
-          <div className="text-base md:text-lg text-[#5b2d12] leading-relaxed">
-            <Paragraphs text={philosophical} />
-          </div>
-        </div>
-      )}
-
-      <div className="mt-8">
-        <h2 className="text-2xl font-bold text-[#3d2e22] mb-6">Parvas</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {MAHABHARATA_PARVAS.map((parva, idx) => (
-            <Link key={parva} href={`/itihasa/mahabharata/${parva}`} className="group block">
-              <div className="relative overflow-hidden rounded-2xl border border-[#d8a25a]/50 bg-[#fffaf0] p-5 shadow-[0_8px_30px_rgba(146,64,14,0.08)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(166,61,23,0.18)]">
-                <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-[#7a2e1f] via-[#c2410c] to-[#f59e0b]" />
-                <div className="flex items-center gap-3 mt-2">
-                  <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-[#7a2e1f]/15 text-sm font-bold text-[#7a2e1f]">
-                    {idx + 1}
-                  </span>
-                  <h3 className="text-base font-bold text-[#3d2e22] group-hover:text-[#7a2e1f] transition-colors">
-                    {toTitleFromSlug(parva)}
-                  </h3>
-                </div>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </div>
-    </PageLayout>
+      </PageLayout>
+    </>
   );
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

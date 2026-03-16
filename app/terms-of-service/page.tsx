@@ -8,7 +8,7 @@ import StructuredData from '@components/structured-data/StructuredData';
 export default function Page() {
   return (
     <>
-      <StructuredData metaKey="terms-of-service" />
+      <StructuredData metaKey="terms_of_service" />
       <TermsOfService />;
     </>
   );

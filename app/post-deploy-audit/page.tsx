@@ -2,6 +2,9 @@ import { readFile } from 'fs/promises';
 import path from 'path';
 import PostDeployAuditClient from "./postdeployauditclient";
 
+import { createGenerateMetadata } from '@lib/pageUtils';
+import StructuredData from '@components/structured-data/StructuredData';
+
 interface PageAudit {
   route?: string;
   url: string;
@@ -55,6 +58,8 @@ export interface AuditReport {
   };
 }
 
+export const generateMetadata = createGenerateMetadata('post_deploy_audit');
+
 async function loadReport(): Promise<AuditReport | null> {
   try {
     const filePath = path.join(process.cwd(), 'public', 'post-deploy-audit.json');
@@ -82,5 +87,10 @@ const SORT_OPTIONS = [
 
 export default async function PostDeployAuditPage() {
   const report = await loadReport();
-  return <PostDeployAuditClient report={report} />;
+  return (
+    <>
+      <StructuredData metaKey="post_deploy_audit" />
+      <PostDeployAuditClient report={report} />
+    </>
+  );
 }
