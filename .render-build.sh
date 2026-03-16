@@ -45,7 +45,10 @@ node scripts/sync-locales-from-branch.js --verbose || echo "Locales sync skipped
 echo "== Pre-build assets =="
 node scripts/compile-scss.js --force
 
-echo "== Next.js build =="
+echo "== Detecting changed routes =="
+node scripts/detect-changed-routes.js || echo "Route detection failed, will do full build."
+
+echo "== Next.js partial export/build =="
 npm run build:ci
 
 echo "== Post-build optimizations =="

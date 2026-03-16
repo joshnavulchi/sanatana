@@ -28,10 +28,10 @@ const GIT_BATCH_SIZE = Number.parseInt(process.env.LOCALES_SYNC_BATCH_SIZE || '3
 
 // --- Utilities ---
 function log(message) {
-  console.log(`[locales-sync] ${message}`);
+  // console.log(`[locales-sync] ${message}`);
 }
 function warn(message) {
-  console.warn(`[locales-sync] ${message}`);
+  // console.warn(`[locales-sync] ${message}`);
 }
 function fail(message) {
   console.error(`[locales-sync] ${message}`);
@@ -471,12 +471,19 @@ async function syncLocales() {
   const state = readSyncState();
 
   log(`Starting sync from "${ref}" at ${targetCommit.slice(0, 12)}.`);
+  log(`[DEBUG] FORCE_FULL_SYNC: ${FORCE_FULL_SYNC}`);
+  log(`[DEBUG] STATE_FILE exists: ${fs.existsSync(STATE_FILE)}`);
+  log(`[DEBUG] TARGET_DIR exists: ${fs.existsSync(TARGET_DIR)}`);
+  log(`[DEBUG] Previous state: ${state ? JSON.stringify(state, null, 2) : 'none'}`);
+  log(`[DEBUG] Current commit: ${targetCommit}`);
+  log(`[DEBUG] Current ref: ${ref}`);
 
   if (FORCE_FULL_SYNC) {
     log('Forced full sync enabled.');
   }
 
   if (!FORCE_FULL_SYNC && state?.commit === targetCommit && fs.existsSync(TARGET_DIR)) {
+    log(`[DEBUG] Skipping sync: state.commit matches targetCommit and TARGET_DIR exists.`);
     log(`No changes detected for "${ref}" (${targetCommit.slice(0, 12)}).`);
     return;
   }
@@ -504,6 +511,7 @@ async function syncLocales() {
   // Fast-path incremental mode based on per-file blob SHAs.
   // This avoids reading every locale file on each dev run.
   if (!FORCE_FULL_SYNC && state?.blobs && fs.existsSync(TARGET_DIR)) {
+    log(`[DEBUG] Attempting tree-hash incremental mode.`);
     const prevBlobs = state.blobs;
     const upsertPaths = [];
 
@@ -514,6 +522,7 @@ async function syncLocales() {
       const missingLocally = !fs.existsSync(outputPath);
 
       if (missingLocally || prevBlob !== nextBlob) {
+        log(`[DEBUG] Will upsert: ${sourcePath} (missingLocally: ${missingLocally}, prevBlob: ${prevBlob}, nextBlob: ${nextBlob})`);
         upsertPaths.push(sourcePath);
       }
     }
@@ -521,12 +530,14 @@ async function syncLocales() {
     let deletes = 0;
     for (const prevPath of Object.keys(prevBlobs)) {
       if (!Object.prototype.hasOwnProperty.call(blobsByPath, prevPath)) {
+        log(`[DEBUG] Will delete: ${prevPath}`);
         removePublicFile(prevPath);
         deletes += 1;
       }
     }
 
     if (!upsertPaths.length && deletes === 0) {
+      log(`[DEBUG] No upserts or deletes needed in tree-hash mode.`);
       writeSyncState(ref, targetCommit, blobsByPath);
       log(`No locale file changes detected (tree unchanged).`);
       return;
@@ -555,9 +566,11 @@ async function syncLocales() {
     isAncestorCommit(state.commit, targetCommit);
 
   if (shouldIncremental) {
-    log(`Using incremental mode from ${state.commit.slice(0, 12)} to ${targetCommit.slice(0, 12)}.`);
+    log(`[DEBUG] Using commit-diff incremental mode from ${state.commit.slice(0, 12)} to ${targetCommit.slice(0, 12)}.`);
     const changed = listChangedLocaleFiles(state.commit, targetCommit);
+    log(`[DEBUG] Changed locale entries: ${JSON.stringify(changed, null, 2)}`);
     if (!changed.length) {
+      log(`[DEBUG] No changed locale entries found in commit-diff mode.`);
       writeSyncState(ref, targetCommit, blobsByPath);
       log(`No locale file diffs between ${state.commit.slice(0, 12)} and ${targetCommit.slice(0, 12)}.`);
       return;
@@ -570,9 +583,11 @@ async function syncLocales() {
     const upsertPaths = [];
     for (const item of changed) {
       if (item.action === 'delete') {
+        log(`[DEBUG] Will delete (commit-diff): ${item.sourcePath}`);
         removePublicFile(item.sourcePath);
         deletes += 1;
       } else {
+        log(`[DEBUG] Will upsert (commit-diff): ${item.sourcePath}`);
         upsertPaths.push(item.sourcePath);
       }
     }
@@ -598,7 +613,7 @@ async function syncLocales() {
   }
 
   fs.mkdirSync(TARGET_DIR, { recursive: true });
-  log(`Using compare mode. Total locale files in ref: ${filteredFiles.length}.`);
+  log(`[DEBUG] Using compare mode. Total locale files in ref: ${filteredFiles.length}.`);
 
   const remoteSet = new Set(filteredFiles);
   const existingSourcePaths = listPublicLocaleSourcePaths();

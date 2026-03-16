@@ -1,5 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, getLocaleNamespaceObject, loadLocaleNamespace, DEFAULT_LOCALE, detectServerLocaleFromHeaders } from './i18n';
+import { t, getLocaleNamespaceObject, loadLocaleNamespace, DEFAULT_LOCALE, detectServerLocaleFromHeaders, detectLocale } from './i18n';
 import { secrets } from './secrets';
 
 export function createGenerateMetadata(metaKey: string, titleKey?: string, descriptionKey?: string) {
@@ -123,7 +123,11 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
     } catch (e) {
       resolvedSearchParams = undefined;
     }
-    let locale = detectLocale(resolvedSearchParams);
+    let searchParamsObj: Record<string, any> | undefined =
+      resolvedSearchParams && typeof resolvedSearchParams === 'object' && !Array.isArray(resolvedSearchParams)
+        ? (resolvedSearchParams as Record<string, any>)
+        : undefined;
+    let locale = detectLocale(searchParamsObj);
     if (!locale) locale = DEFAULT_LOCALE;
 
     // Ensure namespace data exists on the server/build before reading from cache.
