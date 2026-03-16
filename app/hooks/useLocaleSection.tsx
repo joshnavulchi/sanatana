@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from 'react';
-import { loadLocaleNamespace, getLocaleNamespaceObject } from '@lib/i18n';
+import { getLocaleNamespaceObject } from '@lib/i18n';
 import { useLocale } from '@app/context/locale-context';
 
 // Hook: read a primary locale file/object for a component.

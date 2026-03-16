@@ -45,8 +45,8 @@ export default async function Home() {
   return (
     <>
       {criticalCss ? <style dangerouslySetInnerHTML={{ __html: criticalCss }} /> : null}
+      <StructuredData metaKey="home" />
       <main>
-        <StructuredData metaKey="home" />
         <WelcomePage />
         <HeroSection />
         <UnderstandingOfSanatana />

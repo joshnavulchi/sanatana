@@ -11,7 +11,7 @@
     "build:ci": "node scripts/detect-changed-routes.js && node scripts/partial-export.js",
     "postbuild": "node scripts/generate-sitemap.js && node scripts/generate-post-deploy-audit.js && node scripts/add-hash-to-assets.js",
     "render-build": "bash ./.render-build.sh",
-    "start": "next start",
+    "start": "npx serve@latest out",
     "lint": "eslint --quiet app lib scripts"
   },
   "dependencies": {

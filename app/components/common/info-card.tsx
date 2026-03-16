@@ -1,7 +1,7 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 "use client";
-import { loadLocaleNamespace } from '@lib/i18n';
 import { useLocale } from '@app/context/locale-context';
+import { getLocaleNamespaceObject } from '@/lib/i18n';
 import { useState, useEffect } from 'react';
 import LazyImage from '@components/lazyimage';
 import Link from 'next/link';
@@ -24,7 +24,7 @@ export default function InfoCard({ src, alt, captionKey, width = 400, height = 3
         const parts = key.split('.');
         if (parts.length === 0) return key;
         const namespace = parts[0];
-        const ns = await loadLocaleNamespace(locale, namespace);
+        const ns = await getLocaleNamespaceObject(locale, namespace);
         if (!ns || typeof ns !== 'object') return key;
         let cur: any = (ns as any)[namespace] || ns;
         for (let i = 1; i < parts.length; i++) {

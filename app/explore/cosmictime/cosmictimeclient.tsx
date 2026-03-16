@@ -1,11 +1,10 @@
 "use client";
+import { useEffect, useState } from 'react';
+import Loader from "@components/loader";
 import PageLayout from "@components/common/PageLayout";
 import { useLocale } from "@app/context/locale-context";
 import useLocaleSection from "../../hooks/useLocaleSection";
-import { loadLocaleNamespace } from "@lib/i18n";
-import { useEffect, useState } from 'react';
-import Loader from "@components/loader";
-import SimilarCategories from "@components/similar-categories/SimilarCategories";
+import { getLocaleNamespaceObject } from "@/lib/i18n";
 import DashavataraTimeline from "../../components/dashavataraTimeline";
 
 export default function CosmictimeClient() {
@@ -20,7 +19,7 @@ export default function CosmictimeClient() {
     let cancelled = false;
     (async () => {
       try {
-        const parsed = await loadLocaleNamespace(locale, 'cosmictime');
+        const parsed = await getLocaleNamespaceObject(locale, 'cosmictime');
         if (cancelled) return;
         const found = parsed?.cosmic || parsed?.cosmictime?.cosmic || ns?.cosmic || null;
         setCosmicSource(found);

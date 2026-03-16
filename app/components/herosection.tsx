@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useState, useRef } from 'react';
-import { loadLocaleNamespace } from '@lib/i18n';
+import { getLocaleNamespaceObject } from '@/lib/i18n';
 import { useLocale } from '@app/context/locale-context';
 import LazyImage from './lazyimage';
 import Link from 'next/link';
@@ -25,7 +25,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
 
   useEffect(() => {
     let cancelled = false;
-    loadLocaleNamespace(locale, 'home').then((ns: any) => {
+    getLocaleNamespaceObject(locale, 'home').then((ns: any) => {
       setIsVisible(true);
       if (cancelled) return;
       const candidate = ns?.hero ? ns.hero : (ns?.home ? ns.home.hero : ns);
