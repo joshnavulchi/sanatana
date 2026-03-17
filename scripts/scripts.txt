@@ -86,3 +86,21 @@ PS C:\ReactProjects\sanatana> npx mapshaper .\public\data\countries-50m.json ` -
 
 netstat -ano | findstr :3000
 Stop-Process -Id <PID_NUMBER>
+
+taskkill /PID <PID_FROM_PREVIOUS> /F
+npx kill-port 3000
+$pid = (Get-NetTCPConnection -LocalPort 3000 -ErrorAction SilentlyContinue).OwningProcess; if ($pid) { Stop-Process -Id $pid -Force }
+
+
+# 1) Stop dev server if running (you already did this earlier)
+Get-Process -Name node -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
+
+# 2) Try removing the build cache
+Remove-Item -LiteralPath .next -Recurse -Force
+
+# If Remove-Item fails with Access Denied, take ownership and grant rights:
+takeown /F .next /R /D Y
+icacls .next /grant "%USERNAME%":F /T
+
+# 3) Start dev again
+npm run dev

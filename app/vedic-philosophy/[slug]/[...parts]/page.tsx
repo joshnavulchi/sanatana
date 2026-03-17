@@ -2,22 +2,11 @@ import { notFound } from 'next/navigation';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import PartsClient from './partsclient';
 import { isPhilosophyTopic } from '../../philosophy-utils';
-import fs from 'fs';
-import path from 'path';
 
 type Params = { slug: string; parts: string[] };
-
 export const dynamicParams = false;
-
 export function generateStaticParams(): Params[] {
-  const localesDir = path.join(process.cwd(), 'public', 'locales', 'en');
   let files: string[] = [];
-  try {
-    files = fs.readdirSync(localesDir);
-  } catch (_) {
-    return [];
-  }
-
   const out: Params[] = [];
   const re = /^vedic_philosophy_([^_]+)_(.+)\.json$/;
   for (const file of files) {

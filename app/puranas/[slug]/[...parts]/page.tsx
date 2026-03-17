@@ -2,9 +2,6 @@ import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@components/structured-data/StructuredData';
 import PartsClient from './partsclient';
 import { normalizePuranaSlug, parseNumericSuffix } from '../../purana-utils';
-import fs from 'fs';
-import path from 'path';
-
 type Params = { slug: string; parts: string[] };
 
 export const dynamicParams = false;
@@ -26,14 +23,6 @@ function getNamespace(slug: string, parts: string[]): string {
 }
 
 export function generateStaticParams(): Params[] {
-  const localesDir = path.join(process.cwd(), 'public', 'locales', 'en');
-  let files: string[] = [];
-  try {
-    files = fs.readdirSync(localesDir);
-  } catch (_) {
-    return [];
-  }
-
   const out: Params[] = [];
 
   const reBhagavataSkanda = /^puranas_bhagavata_skanda(\d+)\.json$/;

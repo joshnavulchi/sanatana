@@ -2,8 +2,6 @@
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@components/structured-data/StructuredData';
 import ChapterClient from './chapterclient';
-import fs from 'fs';
-import path from 'path';
 
 type ChapterPageParams = {
   slug: string;
@@ -26,13 +24,7 @@ const CHAPTER_META_CONFIG: Record<string, ChapterMetaConfig> = {
 export const dynamicParams = false;
 
 export function generateStaticParams(): Array<{ slug: string; chapter: string }> {
-  const localesDir = path.join(process.cwd(), 'public', 'locales', 'en');
   let files: string[] = [];
-  try {
-    files = fs.readdirSync(localesDir);
-  } catch (_) {
-    return [];
-  }
 
   const rigveda = new Set<number>();
   const yajurveda = new Set<number>();

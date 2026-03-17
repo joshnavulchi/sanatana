@@ -1,8 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, DEFAULT_LOCALE, detectServerLocaleFromHeaders } from '@lib/i18n';
+import { t, DEFAULT_LOCALE, detectServerLocaleFromHeaders, readPublicFileAsync } from '@lib/i18n';
 import { headers } from 'next/headers';
-import fs from 'fs/promises';
-import path from 'path';
 import LazyImage from '@components/lazyimage';
 import PageLayout from '@components/common/PageLayout';
 import Link from 'next/link';
@@ -33,9 +31,8 @@ function resolveLocaleFromHeaders(): string {
 
 export async function generateStaticParams() {
   try {
-    const file = path.join(process.cwd(), 'public', 'locales', 'en', 'illustrated_stories.json');
-    const raw = await fs.readFile(file, 'utf8');
-    const doc = JSON.parse(raw);
+    const raw = await readPublicFileAsync('locales/en/illustrated_stories.json');
+    const doc = raw ? JSON.parse(raw) : null;
 
     const stories =
       doc?.illustrated_stories?.kids_indian_stories ??
@@ -53,12 +50,9 @@ export async function generateStaticParams() {
 }
 
 async function loadStories(locale: string): Promise<Story[]> {
-  const file = path.join(process.cwd(), 'public', 'locales', locale, 'illustrated_stories.json');
-
   try {
-    const raw = await fs.readFile(file, 'utf8');
-    const doc = JSON.parse(raw);
-
+    const raw = await readPublicFileAsync(`locales/${locale}/illustrated_stories.json`);
+    const doc = raw ? JSON.parse(raw) : null;
     return doc?.illustratedstories?.kids_indian_stories ?? [];
   } catch {
     if (locale !== 'en') return loadStories('en');

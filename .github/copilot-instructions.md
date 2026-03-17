@@ -12,6 +12,7 @@ AI must always:
 * Use TypeScript strictly
 * Avoid `any`
 * Prefer existing utilities/hooks
+* Do not import Node's `fs` or `path` modules; use repository utilities instead
 * Follow folder structure
 * Use Tailwind CSS for styling
 * Keep components small and composable

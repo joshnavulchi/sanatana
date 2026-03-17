@@ -1,5 +1,4 @@
-import { readFile } from 'fs/promises';
-import path from 'path';
+import { readPublicFileAsync } from '@lib/i18n';
 import PostDeployAuditClient from "./postdeployauditclient";
 
 import { createGenerateMetadata } from '@lib/pageUtils';
@@ -62,8 +61,8 @@ export const generateMetadata = createGenerateMetadata('post_deploy_audit');
 
 async function loadReport(): Promise<AuditReport | null> {
   try {
-    const filePath = path.join(process.cwd(), 'public', 'post-deploy-audit.json');
-    const raw = await readFile(filePath, 'utf8');
+    const raw = await readPublicFileAsync('post-deploy-audit.json');
+    if (!raw) return null;
     return JSON.parse(raw) as AuditReport;
   } catch {
     return null;

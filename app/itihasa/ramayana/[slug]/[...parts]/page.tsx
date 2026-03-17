@@ -8,21 +8,13 @@ import {
   toTitleFromSlug,
   toUnderscoreSlug,
 } from '../../../itihasa-utils';
-import fs from 'fs';
-import path from 'path';
 
 type Params = { slug: string; parts: string[] };
 
 export const dynamicParams = false;
 
 export function generateStaticParams(): Params[] {
-  const localesDir = path.join(process.cwd(), 'public', 'locales', 'en');
   let files: string[] = [];
-  try {
-    files = fs.readdirSync(localesDir);
-  } catch (_) {
-    return [];
-  }
 
   const out: Params[] = [];
   const re = /^itihasa_ramayana_([^_]+(?:_[^_]+)*)_sarga(\d+)\.json$/;
