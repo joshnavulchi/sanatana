@@ -1,24 +1,18 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { Poppins } from 'next/font/google';
 import { headers } from 'next/headers';
-
 import Script from 'next/script';
 import { Suspense } from 'react';
-
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '@lib/i18n';
 import { buildOrganizationJsonLd, buildWebSiteJsonLd, renderJsonLdScript } from '@lib/jsonld';
 import { secrets } from '@lib/secrets';
 import CookieConsent from '@components/cookie-consent/CookieConsent';
-
 import Header from '@components/header';
 import Footer from '@components/footer';
-
 import TopProgress from '@components/topprogress';
 import ScrollToTop from '@components/scroll-to-top';
-
 import { LocaleProvider } from './context/locale-context';
 import { ThemeProvider } from './context/theme-context';
-
 import "./globals.css"; // tailwind base styles
 
 const poppins = Poppins({

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import LazyImage from "./lazyimage";
-import { loadLocaleNamespace } from "@lib/i18n";
+import { getLocaleNamespaceObject } from "@/lib/i18n";
 import { useLocale } from "@app/context/locale-context";
 
 /* ---------- Types ---------- */
@@ -33,7 +33,7 @@ export default function UnderstandingOfSanatana() {
 
   useEffect(() => {
     let cancelled = false;
-    loadLocaleNamespace(locale, "home")
+    getLocaleNamespaceObject(locale, "home")
       .then((ns: unknown) => {
         setIsVisible(true);
         if (cancelled || typeof ns !== "object" || ns === null) return;

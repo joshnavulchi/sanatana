@@ -2,8 +2,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-// removed useT usage; translations read directly from runtime locale object
-import { loadLocaleNamespace } from '@lib/i18n';
+import { getLocaleNamespaceObject } from '@lib/i18n';
 import { useLocale } from '@app/context/locale-context';
 
 interface SimilarCategoriesProps {
@@ -155,7 +154,7 @@ export default function SimilarCategories({
     let mounted = true;
     (async () => {
       try {
-        const ns = await loadLocaleNamespace(locale, 'sharable_strings');
+        const ns = await getLocaleNamespaceObject(locale, 'sharable_strings');
         if (!mounted) return;
         const locObj = isPlainObject(ns) ? ns : {};
         const sharableStrings = isPlainObject(locObj.sharable_strings) ? (locObj.sharable_strings as Record<string, unknown>) : {};

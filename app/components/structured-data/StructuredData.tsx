@@ -1,5 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, getLocaleNamespaceObject, loadLocaleNamespace, DEFAULT_LOCALE } from '@lib/i18n';
+import { t, getLocaleNamespaceObject, DEFAULT_LOCALE } from '@lib/i18n';
 type Props = {
   metaKey: string;
   params?: any;
@@ -8,7 +8,7 @@ type Props = {
 // Server component that renders JSON-LD for a given metaKey.
 export default async function StructuredData({ metaKey, params, locale }: Props) {
   const loc = String(locale ?? DEFAULT_LOCALE);
-  await loadLocaleNamespace(loc, metaKey);
+  await getLocaleNamespaceObject(loc, metaKey);
   const meta = t(metaKey, loc) || {};
   const webpage: Record<string, any> = {
     '@context': 'https://schema.org',
@@ -45,7 +45,7 @@ export default async function StructuredData({ metaKey, params, locale }: Props)
   // Attempt to load a full per-page locale file and extract a `schema` object if present.
   let pageSchema: Record<string, unknown> | null = null;
   try {
-    const obj = getLocaleNamespaceObject(loc, metaKey) as Record<string, unknown>;
+    const obj = await getLocaleNamespaceObject(loc, metaKey) as Record<string, unknown>;
     const pageObj =
       (obj?.[metaKey] as Record<string, unknown> | undefined) ??
       obj;

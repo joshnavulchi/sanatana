@@ -29,7 +29,8 @@ export default function QuizClient() {
 
   useEffect(() => {
     let mounted = true;
-    fetch('/locales/en/questions.json')
+    const loc = locale || DEFAULT_LOCALE;
+    fetch(`/locales/${loc}/questions.json`)
       .then((r) => r.json())
       .then((data: any) => {
         if (!mounted) return;
@@ -59,7 +60,7 @@ export default function QuizClient() {
       })
       .catch((err) => console.error('Failed to load questions', err));
     return () => { mounted = false; };
-  }, []);
+  }, [locale]);
 
   useEffect(() => {
     if (!started || finished) return;

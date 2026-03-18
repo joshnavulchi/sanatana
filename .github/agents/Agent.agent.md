@@ -32,20 +32,19 @@ Only after loading these instructions should the agent proceed.
 
 ---
 
-<!-- # Agent Responsibilities
+# Agent Responsibilities
 
 The agent may perform tasks such as:
 
-* generating JSON content
-* writing React components
-* updating localization files
+* writing React components or page with locales standards of rendering properly localized content
+* applying localization content to its page.
 * adding SEO metadata
-* generating structured data
+* adding structured data
 * creating tests
 
 All generated content must follow repository standards.
 
---- -->
+---
 
 # Content Principles
 
@@ -77,7 +76,7 @@ All generated content must be **historically accurate and culturally respectful*
 
 ---
 
-<!-- # SEO Requirements
+# SEO Requirements
 
 Each generated entry must include
 
@@ -115,8 +114,7 @@ rigveda.json
 bhagavata-purana.json
 chandogya-upanishad.json
 ```
-
---- -->
+---
 
 # Agent Safety Rules
 
@@ -126,6 +124,50 @@ Agents must never
 * generate fictional sources
 * modify repository architecture
 * create files outside expected directories
+
+---
+
+## Locale Validation Rules
+
+Agents must validate that new and updated pages follow the repository's locale pattern (the `about` page pattern) and must NOT hardcode locale file paths such as `locales/en/` or fetch/import specific locale files directly.
+
+Checks agents must perform before modifying or adding pages/components:
+
+- Ensure pages use `createGenerateMetadata('<route>')` for metadata where applicable.
+- Ensure client components use `useLocaleSection('<route>')` or `useLocale()` (and `useLocaleSection` where a namespaced file is used) to read translations rather than importing JSON files directly.
+- Ensure corresponding locale JSON exists under `public/locales/<locale>/<route>.json` for supported locales (do not hardcode `en` in application code). The locale loader fetches `/locales/<locale>/<route>.json` at runtime.
+- Disallow source that references or imports `public/locales/en/` (or other explicit locale subfolders) directly. Disallow code that contains string literals matching `/locales/en/` or `fetch('/locales/en/`).
+- If a new UI string is added, add the key to the relevant locale namespace and list translation work in the change proposal.
+- Prefer reading locale namespaces with `getLocaleNamespaceObject` or `useLocaleSection` rather than embedding locale JSON.
+
+Automated validations agents should run (and fix or report) before committing changes:
+
+- Search the `app/` folder for occurrences of `'/locales/en/'`, `"/locales/en/"`, `"locales/en/"`, `fetch('/locales/en/`, or imports that reference `public/locales/en` and flag them for removal.
+- For each new page under `app/<route>` ensure `about`-style structure: `page.tsx` that renders a client component and a client component that reads its locale section.
+- Verify that metadata `metaKey` or `createGenerateMetadata('<route>')` values match the locale namespace used in the locale JSON.
+
+If violations are found, the agent should either fix them (by replacing hardcoded paths with `useLocaleSection` usage and adding starter locale JSON under `openspec/changes/<name>/artifacts` or `public/locales/<locale>/<route>.json`) or fail with a clear message listing the offending files and suggested fixes.
+
+Example forbidden pattern (must be removed):
+
+```ts
+const data = await fetch('/locales/en/about.json'); // forbidden — do not hardcode locale path
+import enAbout from '../../public/locales/en/about.json'; // forbidden
+```
+
+Example required pattern (preferred):
+
+```tsx
+const ns = useLocaleSection('about');
+const title = String(ns?.title || '');
+```
+
+Agents must include a Locale Checklist entry in `tasks.md` when proposing or implementing a page change, e.g.:
+
+- Add `public/locales/en/<route>.json` (and other locales as required)
+- Ensure `useLocaleSection('<route>')` is used in client component
+- Run `npm run check` and fix lint/tests
+
 
 ---
 

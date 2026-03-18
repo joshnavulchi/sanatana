@@ -1,7 +1,6 @@
 "use client";
-
 import { useEffect, useState } from 'react';
-import { loadLocaleNamespace, getLocaleNamespaceObject } from '@lib/i18n';
+import { getLocaleNamespaceObject } from '@lib/i18n';
 import { useLocale } from '@app/context/locale-context';
 
 // Hook: read a primary locale file/object for a component.
@@ -31,7 +30,6 @@ export default function useLocaleSection(section: string) {
 
   useEffect(() => {
     let cancelled = false;
-
     // Server-side: try to load namespace object synchronously
     if (typeof window === 'undefined') {
       try {
@@ -42,7 +40,7 @@ export default function useLocaleSection(section: string) {
       } catch (_) { }
     } else {
       // Client-side: load namespace asynchronously
-      loadLocaleNamespace(locale, section).then((ns: any) => {
+      getLocaleNamespaceObject(locale, section).then((ns: any) => {
         if (cancelled) return;
         if (!ns || typeof ns !== 'object') return;
 

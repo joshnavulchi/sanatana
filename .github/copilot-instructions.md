@@ -12,6 +12,7 @@ AI must always:
 * Use TypeScript strictly
 * Avoid `any`
 * Prefer existing utilities/hooks
+* Do not import Node's `fs` or `path` modules; use repository utilities instead
 * Follow folder structure
 * Use Tailwind CSS for styling
 * Keep components small and composable
@@ -215,3 +216,20 @@ Runs:
 * lint
 * format
 * tests
+
+---
+
+# Repository-specific Conventions
+
+These repository conventions must be applied when generating code or OpenSpec artifacts for this project:
+
+* **Tech stack:** Next.js, TypeScript (strict), React, Tailwind CSS.
+* **Folder layout:** `app/` (pages and client components), `app/components/`, `app/hooks/`, `lib/`, `types/`, `public/locales/` for translations.
+* **Localization:** All UI text must come from locale files and use the `useLocale` context hook; never hardcode UI strings.
+* **Client components:** Use `"use client"` at top of client components; always type props.
+* **Utilities:** Prefer existing utilities in `lib/` and hooks in `app/hooks/` over adding new helpers.
+* **No direct Node fs/path:** Do not import Node's `fs` or `path`; use repository utilities such as `lib/storage.ts` if available.
+* **Testing & CI:** Run `npm run check` (linter, formatter, tests) before committing changes.
+* **Task sizing:** Break implementation tasks into small, testable chunks (max ~2 hours per task).
+
+Follow these conventions in addition to the generic rules above.

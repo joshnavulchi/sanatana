@@ -10,7 +10,6 @@ export default function AboutClient() {
   const { locale, isLoading } = useLocale();
   const ns = useLocaleSection('about');
 
-
   // Compute about object directly from ns
   const about = {
     title: String(ns?.title || ''),

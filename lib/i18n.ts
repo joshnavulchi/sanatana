@@ -1,6 +1,8 @@
 /**
  * Detects locale from searchParams or returns DEFAULT_LOCALE.
  */
+import { secrets } from './secrets';
+
 export function detectLocale(searchParams?: Record<string, any>): string {
   if (!searchParams) return DEFAULT_LOCALE;
   const locale = searchParams.locale || searchParams.lang || searchParams.language;
@@ -8,16 +10,11 @@ export function detectLocale(searchParams?: Record<string, any>): string {
 }
 /* Cleaned minimal i18n utilities used by the app. */
 export const DEFAULT_LOCALE = "en";
-import storage from "./storage";
-
 export const SUPPORTED_LOCALES = [
   'ar', 'de', 'en', 'es', 'fr', 'hi', 'ja', 'ru', 'te', 'zh-CN'
 ];
 
-const REMOTE_LOCALES_BASE = process.env.NEXT_PUBLIC_REMOTE_LOCALES_BASE || '';
-
 const localesCache: Record<string, unknown> = {};
-const warnedMissingKeys = new Set<string>();
 
 function normalizeSupportedLocale(input: string | undefined): string {
   const raw = String(input || '').trim();
@@ -64,8 +61,6 @@ if (typeof window !== 'undefined') {
   } catch (_) { }
 }
 
-
-
 export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = ''): any {
   // Support callers that pass the namespace as the first (and only) argument
   // e.g. `getLocaleNamespaceObject('scriptures_vedas')` — treat that as
@@ -76,88 +71,49 @@ export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = ''
   }
   locale = normalizeSupportedLocale(locale);
   if (!namespace) return {};
-  const localeEntry = localesCache[locale];
-  if (!localeEntry || typeof localeEntry !== 'object') return {};
-
-  const localeMap = localeEntry as Record<string, unknown>;
   const candidates = [
     namespace,
     namespace.replace(/-/g, '_'),
     namespace.replace(/_/g, '-'),
   ];
 
-  for (const candidate of candidates) {
-    const parsed = localeMap[candidate];
-    if (parsed) {
-      return parsed;
+  const localeEntry = localesCache[locale];
+
+  // If we have a cached entry on the server, return synchronously.
+  if (typeof window === 'undefined') {
+    if (!localeEntry || typeof localeEntry !== 'object') return {};
+    const localeMap = localeEntry as Record<string, unknown>;
+    for (const candidate of candidates) {
+      const parsed = localeMap[candidate];
+      if (parsed) return parsed;
     }
+    return {};
   }
 
-  return {};
-}
-
-export async function loadLocaleNamespace(locale: string, namespace: string) {
-  if (!locale || !namespace) return {};
-  locale = normalizeSupportedLocale(locale);
-  if (!localesCache[locale] || typeof localesCache[locale] !== 'object') localesCache[locale] = {} as any;
-  const existing = (localesCache[locale] as any)[namespace];
-  if (existing) return existing;
-
-  // Server-side: read namespace JSON directly from public/locales, but only if listed in manifest.
-  if (typeof window === 'undefined') {
+  // Client-side: if cached, return immediately; otherwise fetch from public/locales.
+  // Return a Promise so callers can `await` or use `Promise.resolve(...)` uniformly.
+  return (async () => {
     try {
-      const fs = await import('fs/promises');
-      const path = await import('path');
-      const manifestPath = path.join(process.cwd(), 'public', 'locales-manifest.json');
-      const manifestRaw = await fs.readFile(manifestPath, 'utf8');
-      const manifest = JSON.parse(manifestRaw);
-      const localesToTry = [locale, DEFAULT_LOCALE].filter((v, i, a) => a.indexOf(v) === i);
-      for (const rootLocale of localesToTry) {
-        if (!manifest[rootLocale] || !manifest[rootLocale].includes(namespace)) continue;
-        const filePath = path.join(process.cwd(), 'public', 'locales', rootLocale, `${namespace}.json`);
+      if (!localesCache[locale] || typeof localesCache[locale] !== 'object') localesCache[locale] = {} as Record<string, unknown>;
+      const localeMap = localesCache[locale] as Record<string, unknown>;
+      for (const candidate of candidates) {
+        if (localeMap[candidate]) return localeMap[candidate];
+      }
+
+      for (const candidate of candidates) {
         try {
-          await fs.access(filePath);
-          const raw = await fs.readFile(filePath, 'utf8');
-          const parsed = JSON.parse(raw);
-          (localesCache[locale] as any)[namespace] = parsed;
+          const resp = await fetch(`/locales/${locale}/${candidate}.json`, { cache: 'force-cache' });
+          if (!resp.ok) continue;
+          const parsed = await resp.json();
+          try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed; } catch (_) { }
           return parsed;
-        } catch (_) {
-          // try next locale
+        } catch (e) {
+          // ignore fetch/json errors and try next candidate
         }
       }
-    } catch (_) {
-      // ignore and continue to empty fallback
-    }
+    } catch (_) { }
     return {};
-  }
-
-  // Client-side: fetch from public/locales
-  try {
-    const response = await fetch(`/locales/${locale}/${namespace}.json`, { cache: 'force-cache' });
-    if (!response.ok) throw new Error('Not found');
-    const parsed = await response.json();
-    (localesCache[locale] as any)[namespace] = parsed;
-    return parsed;
-  } catch (_) {
-    // fallback to DEFAULT_LOCALE
-    if (locale !== DEFAULT_LOCALE) {
-      try {
-        const response = await fetch(`/locales/${DEFAULT_LOCALE}/${namespace}.json`, { cache: 'force-cache' });
-        if (!response.ok) throw new Error('Not found');
-        const parsed = await response.json();
-        (localesCache[DEFAULT_LOCALE] as any)[namespace] = parsed;
-        return parsed;
-      } catch (_) {
-        // ignore
-      }
-    }
-    return {};
-  }
-
-  console.warn(`[i18n] loadLocaleNamespace: could not load ${namespace} for ${locale}`);
-
-  // No fallback to full locale object; only per-namespace files are supported now.
-  return {};
+  })();
 }
 
 export function t(key: string, locale = DEFAULT_LOCALE): any {
@@ -181,18 +137,6 @@ export function interpolate(template: string, params?: Record<string, string>) {
   return template.replace(/{{\s*([^}]+)\s*}}/g, (_, p) => params[p.trim()] ?? '');
 }
 
-function interpolateObject(obj: unknown, params?: Record<string, string>): unknown {
-  if (!params) return obj;
-  if (typeof obj === 'string') return interpolate(obj, params);
-  if (Array.isArray(obj)) return obj.map((v) => interpolateObject(v, params));
-  if (obj && typeof obj === 'object') {
-    const out: Record<string, unknown> = {};
-    for (const k of Object.keys(obj as Record<string, unknown>)) out[k] = interpolateObject((obj as any)[k], params);
-    return out;
-  }
-  return obj;
-}
-
 export function detectServerLocaleFromHeaders(hdrs: any) {
   try {
     if (!hdrs || typeof hdrs.get !== 'function') return DEFAULT_LOCALE;
@@ -206,4 +150,49 @@ export function detectServerLocaleFromHeaders(hdrs: any) {
     }
   } catch (_) { }
   return DEFAULT_LOCALE;
+}
+
+export async function getLocaleNamespaceObjectAsync(locale = DEFAULT_LOCALE, namespace = ''): Promise<any> {
+  // Delegate to existing function which may return a Promise on client.
+  try {
+    const maybe = getLocaleNamespaceObject(locale, namespace);
+    if (maybe && typeof (maybe as any).then === 'function') {
+      const awaited = await maybe;
+      return awaited ?? {};
+    }
+    // If server-side and the synchronous result is empty, attempt server fetch from public/locales
+    if (typeof window === 'undefined') {
+      // Normalize args similar to original helper
+      if (!namespace && typeof locale === 'string' && !SUPPORTED_LOCALES.includes(locale)) {
+        namespace = locale;
+        locale = DEFAULT_LOCALE;
+      }
+      locale = normalizeSupportedLocale(locale);
+      if (!namespace) return {};
+      const candidates = [namespace, namespace.replace(/-/g, '_'), namespace.replace(/_/g, '-')];
+      if (!localesCache[locale] || typeof localesCache[locale] !== 'object') localesCache[locale] = {} as Record<string, unknown>;
+      const localeMap = localesCache[locale] as Record<string, unknown>;
+      for (const candidate of candidates) {
+        if (localeMap[candidate]) return localeMap[candidate];
+      }
+
+      const base = String(secrets.NEXT_PUBLIC_SITE_URL || '').replace(/\/$/, '');
+      if (!base) return {};
+      for (const candidate of candidates) {
+        try {
+          const url = `${base}/locales/${locale}/${candidate}.json`;
+          const resp = await fetch(url, { cache: 'force-cache' } as any);
+          if (!resp.ok) continue;
+          const parsed = await resp.json();
+          try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed; } catch (_) {}
+          return parsed;
+        } catch (_) {
+          // ignore and try next
+        }
+      }
+    }
+    return maybe ?? {};
+  } catch (_) {
+    return {};
+  }
 }
