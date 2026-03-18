@@ -31,7 +31,7 @@ function resolveLocaleFromHeaders(): string {
 
 export async function generateStaticParams() {
   try {
-    const raw = await readPublicFileAsync('locales/en/illustrated_stories.json');
+    const raw = await readPublicFileAsync(`locales/${DEFAULT_LOCALE}/illustrated_stories.json`);
     const doc = raw ? JSON.parse(raw) : null;
 
     const stories =

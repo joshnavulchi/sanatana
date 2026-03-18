@@ -99,3 +99,104 @@ Setup steps on Render:
 - Ensure `render.yaml` is deployed to the service (it is included in this repo). Render will run the cron job and POST the hook URL at the scheduled time.
 
 If you prefer, I can instead configure the scheduled deploy using Render's UI; the `render.yaml` approach stores the schedule as code in the repo.
+
+## OpenSpec — Usage & Implementation Guide
+
+This repository uses the OpenSpec experimental workflow to propose, implement, and archive changes. The following notes explain how to work with OpenSpec artifacts and the CLI in this project.
+
+1. Quick commands
+
+	 - List changes:
+
+		 ```bash
+		 openspec list --json
+		 ```
+
+	 - Create a new change (proposal):
+
+		 ```bash
+		 openspec new change "<name>"
+		 ```
+
+	 - Check change status:
+
+		 ```bash
+		 openspec status --change "<name>" --json
+		 ```
+
+	 - Get apply instructions for implementation:
+
+		 ```bash
+		 openspec instructions apply --change "<name>" --json
+		 ```
+
+	 - Archive a completed change:
+
+		 ```bash
+		 openspec archive --change "<name>"
+		 ```
+
+2. Propose (artifact creation) guidance
+
+	 - Use `/opsx:propose <name>` or run `openspec new change` to scaffold a change under `openspec/changes/<name>/`.
+	 - Fill `proposal.md`, `design.md`, and `tasks.md` according to the schema. Keep proposals concise and include a "Non-goals" section.
+	 - For UI or page changes, include localization and testing implications (see Locale checklist below).
+
+3. Implement (apply) guidance
+
+	 - Run `openspec instructions apply` to obtain the current tasks and context files. Read the listed context files before implementing.
+	 - Implement tasks in small increments; every completed task should update the `tasks.md` checklist (`- [ ]` → `- [x]`).
+	 - Keep changes minimal and focused to the task. Prefer updating existing `lib/` utilities and `app/hooks/` over adding new helpers.
+	 - After completing code changes for a task, run:
+
+		 ```bash
+		 npm run check
+		 ```
+
+		 This runs lint, format, and tests. Fix issues before marking a task done.
+
+4. Archive guidance
+
+	 - Before archiving, ensure artifacts are complete and tasks are done. If there are delta specs, decide whether to sync them to `openspec/specs/`.
+	 - Archive moves the change directory into `openspec/changes/archive/YYYY-MM-DD-<name>`.
+
+5. Locale checklist (for new pages or UI text)
+
+	 - Follow the `about` page pattern for new pages:
+		 - Add `app/<route>/page.tsx` which imports a client component and uses `createGenerateMetadata('<route>')`.
+		 - Client component should use `useLocaleSection('<route>')` or `useLocale()` and render content from the locale namespace.
+		 - Add locale JSON files at `public/locales/<locale>/<route>.json` for each supported locale. Example structure:
+
+			 ```json
+			 {
+				 "<route>": {
+					 "title": "Page title",
+					 "description": "Short description for meta",
+					 "sections": [
+						 { "id": "s1", "title": "Section 1", "text": "Text for section 1", "bullets": ["a","b"] }
+					 ],
+					 "disclaimer": "Optional disclaimer text"
+				 }
+			 }
+			 ```
+
+	 - Ensure no user-facing strings are hardcoded in components — reference locale keys instead.
+	 - If adding new locales or keys, update `openspec/config.yaml` rules or mention translation work in the proposal.
+
+6. Repository conventions (summary)
+
+	 - Tech stack: Next.js, TypeScript (strict), React, Tailwind CSS.
+	 - Prefer `app/components`, `app/hooks`, and `lib/` utilities.
+	 - Do not import Node `fs`/`path` directly; use repository utilities.
+	 - Run `npm run check` before committing.
+
+7. Example workflow (create and implement a new page)
+
+	 - Create change: `openspec new change add-example-page`
+	 - Populate `proposal.md` with scope, non-goals, and localization plan.
+	 - Populate `design.md` describing files to add (`app/example/page.tsx`, `app/example/exampleclient.tsx`, `public/locales/en/example.json`).
+	 - Add `tasks.md` with small tasks (max ~2 hours each), e.g., "Add page scaffold", "Add locale file (en)", "Add tests".
+	 - Run `/opsx:apply add-example-page` or `openspec instructions apply --change "add-example-page" --json` and implement tasks.
+	 - Run `npm run check` and mark tasks done. When all done, archive the change.
+
+If you'd like, I can also add a small template generator that creates the page scaffold and starter locale JSON when you create a new proposal. Ask me to scaffold `openspec/changes/<name>/artifacts` for a new page and I'll generate starter files.
