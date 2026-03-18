@@ -154,3 +154,13 @@ This skill supports the "actions on a change" model:
 
 - **Can be invoked anytime**: Before all artifacts are done (if tasks exist), after partial implementation, interleaved with other actions
 - **Allows artifact updates**: If implementation reveals design issues, suggest updating artifacts - not phase-locked, work fluidly
+
+## Repository Conventions
+
+When creating or implementing artifacts for this repository follow these conventions:
+
+- Use Next.js + TypeScript (strict). Avoid `any`.
+- Use Tailwind CSS for styling and `app/` folder layout for components.
+- Localize strings via `public/locales` and the `useLocale` hook.
+- Prefer existing utilities in `lib/` and hooks in `app/hooks/`.
+- Run `npm run check` (lint/format/tests) before committing changes.

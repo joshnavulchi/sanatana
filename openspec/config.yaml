@@ -1,20 +1,25 @@
 schema: spec-driven
 
-# Project context (optional)
-# This is shown to AI when creating artifacts.
-# Add your tech stack, conventions, style guides, domain knowledge, etc.
-# Example:
-#   context: |
-#     Tech stack: TypeScript, React, Node.js
-#     We use conventional commits
-#     Domain: e-commerce platform
+# Project context shown to AI when creating artifacts
+context: |
+	Tech stack: Next.js, TypeScript (strict), React, Tailwind CSS
+	Folder layout: app/, app/components/, app/hooks/, lib/, types/, public/locales/
+	Localization: All UI strings must come from `public/locales` and be accessed via the `useLocale` hook
+	Component rules: Use `"use client"` for client components and always type props
+	Utilities: Prefer existing utilities in `lib/` and hooks in `app/hooks/` rather than adding new helpers
+	Filesystem: Do not import Node `fs` or `path` directly; use repository storage utilities (e.g., `lib/storage.ts`)
+	Scripts: `npm run check` runs lint, format, and tests — run it before committing
 
 # Per-artifact rules (optional)
-# Add custom rules for specific artifacts.
-# Example:
-#   rules:
-#     proposal:
-#       - Keep proposals under 500 words
-#       - Always include a "Non-goals" section
-#     tasks:
-#       - Break tasks into chunks of max 2 hours
+rules:
+	proposal:
+		- Keep proposals under 500 words
+		- Include a "Non-goals" section
+		- Include localization implications (which strings will require translations)
+	design:
+		- Prefer existing hooks and utilities from `app/hooks` and `lib`
+		- Describe accessibility and internationalization considerations
+	tasks:
+		- Break tasks into chunks of max 2 hours
+		- Each task should be minimal, include file paths, and note tests to update
+		- After implementing a task, run `npm run check` and mark the task complete

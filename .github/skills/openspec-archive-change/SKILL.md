@@ -112,3 +112,11 @@ All artifacts complete. All tasks complete.
 - Show clear summary of what happened
 - If sync is requested, use openspec-sync-specs approach (agent-driven)
 - If delta specs exist, always run the sync assessment and show the combined summary before prompting
+
+## Repository Conventions
+
+Follow repository standards when archiving:
+
+- Ensure artifacts and code follow TypeScript strict rules and localization practices.
+- Verify UI strings are in `public/locales` and accessed via `useLocale`.
+- Run `npm run check` before archiving to surface lint/test issues.

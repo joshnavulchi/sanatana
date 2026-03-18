@@ -108,3 +108,11 @@ After completing all artifacts, summarize:
 - If context is critically unclear, ask the user - but prefer making reasonable decisions to keep momentum
 - If a change with that name already exists, ask if user wants to continue it or create a new one
 - Verify each artifact file exists after writing before proceeding to next
+
+## Repository Conventions
+
+When proposing changes for this repository follow these rules:
+
+- Artifacts should follow TypeScript strict patterns and reference existing `lib/` utilities where possible.
+- UI changes must use Tailwind and localize strings via `public/locales` and `useLocale`.
+- Keep proposals concise and include localization and testing implications.

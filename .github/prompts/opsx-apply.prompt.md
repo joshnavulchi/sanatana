@@ -4,6 +4,8 @@ description: Implement tasks from an OpenSpec change (Experimental)
 
 Implement tasks from an OpenSpec change.
 
+Repository conventions (apply when editing artifacts in this repo): Tech stack is Next.js + TypeScript (strict); use Tailwind; follow `app/` folder layout; localize all UI text via `public/locales` and `useLocale`.
+
 **Input**: Optionally specify a change name (e.g., `/opsx:apply add-auth`). If omitted, check if it can be inferred from conversation context. If vague or ambiguous you MUST prompt for available changes.
 
 **Steps**

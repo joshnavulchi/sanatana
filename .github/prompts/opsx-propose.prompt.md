@@ -4,6 +4,32 @@ description: Propose a new change - create it and generate all artifacts in one 
 
 Propose a new change - create the change and generate all artifacts in one step.
 
+Repository conventions (apply when creating artifacts in this repo): Use TypeScript (strict), Tailwind CSS, `app/` layout, `useLocale` for strings, and run `npm run check` before committing.
+
+When the change involves creating a new page, follow the `about` page localization pattern:
+
+- Add a page entry under `app/<route>/page.tsx` that imports a client component (e.g., `<route>client.tsx`) and calls `createGenerateMetadata('<route>')` for metadata.
+- Client components should use `useLocaleSection('<route>')` or `useLocale()` and render content from the locale namespace.
+- Add locale files at `public/locales/<locale>/<route>.json` for each supported locale (e.g., `public/locales/en/<route>.json`). The i18n loader will fetch `/locales/<locale>/<route>.json`.
+- Locale JSON should use the namespace matching the route or unwrap structure; follow this example used by `about`:
+
+Example `public/locales/en/<route>.json` template:
+
+{
+   "<route>": {
+      "title": "Page title",
+      "description": "Short description for meta",
+      "sections": [
+         { "id": "s1", "title": "Section 1", "text": "Text for section 1", "bullets": ["a","b"] }
+      ],
+      "disclaimer": "Optional disclaimer text"
+   }
+}
+
+Notes:
+- Ensure all UI text appears in locale files (no hardcoded strings in pages/components).
+- Update `openspec/config.yaml` `rules` section to mention localization if the change introduces new user-facing text.
+
 I'll create a change with artifacts:
 - proposal.md (what & why)
 - design.md (how)
