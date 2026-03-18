@@ -100,6 +100,91 @@ Each generated entry must include
 
 ---
 
+
+# Example JSON Structure
+
+```json
+"meta": {
+  "title": "Sanatana Dharma – Vedas, Upanishads, Hindu Philosophy & Spiritual Wisdom",
+  "canonical": "https://sanatanadharmam.in",
+  "description": "Explore Sanatana Dharma, the eternal tradition of Hindu philosophy. Learn about the Vedas, Upanishads, Bhagavad Gita, epics, spiritual practices, and timeless wisdom.",
+  "keywords": [
+    "Sanatana Dharma",
+    "Hindu philosophy",
+    "Vedas",
+    "Upanishads",
+    "Bhagavad Gita",
+    "Hindu scriptures",
+    "Dharma karma moksha",
+    "Vedic traditions",
+    "Hindu spiritual teachings",
+    "Sanatana Dharma meaning"
+  ],
+  "ogImage": "https://sanatanadharmam.in/images/og/home.png",
+  "url": "https://sanatanadharmam.in"
+},
+"openGraph": {
+  "title": "Sanatana Dharma – Vedas, Upanishads, Hindu Philosophy & Spiritual Wisdom",
+  "description": "Explore Sanatana Dharma, the eternal tradition of Hindu philosophy. Discover the Vedas, Upanishads, Bhagavad Gita, epics, and timeless spiritual wisdom.",
+  "url": "https://sanatanadharmam.in",
+  "siteName": "Sanatanadharmam",
+  "type": "website",
+    "images": [
+      {
+        "url": "https://sanatanadharmam.in/images/og/home.png",
+        "width": 1200,
+        "height": 630,
+        "alt": "Sanatana Dharma – Eternal Wisdom and Vedic Knowledge"
+      }
+    ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "areaServed": "Worldwide",
+            "availableLanguage": [
+              "English",
+              "Hindi",
+              "Telugu",
+              "Arabic",
+              "German",
+              "Spanish",
+              "French",
+              "Japanese",
+              "Nepali",
+              "Dutch",
+              "Portuguese",
+              "Russian",
+              "Urdu",
+              "Chinese"
+            ],
+            "email": "info@sanatanadharmam.in",
+            "telephone": "+91-8099181075"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://sanatanadharmam.in/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+      ]
+    }
+```
+---
+
 # JSON Formatting Rules
 
 All generated JSON must follow
@@ -178,28 +263,9 @@ Agents must include a Locale Checklist entry in `tasks.md` when proposing or imp
 
 - Add `public/locales/en/<route>.json` (and other locales as required)
 - Ensure `useLocaleSection('<route>')` is used in client component
-- Run `npm run check` and fix lint/tests
-
+ - Run `npm run lint` and fix lint issues; ensure formatting and tests pass if available
 
 ---
-
-<!-- # Example JSON Structure
-
-```json
-{
-  "title": "Rigveda",
-  "description": "The Rigveda is the oldest Veda containing hymns dedicated to various deities.",
-  "keywords": ["Rigveda", "Vedas", "Hindu scriptures"],
-  "canonical": "/vedas/rigveda",
-  "content": {
-    "introduction": "...",
-    "history": "...",
-    "purpose": "...",
-    "stories": []
-  }
-}
-```
---- -->
 
 # Output Requirements
 

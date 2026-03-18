@@ -163,4 +163,5 @@ When creating or implementing artifacts for this repository follow these convent
 - Use Tailwind CSS for styling and `app/` folder layout for components.
 - Localize strings via `public/locales` and the `useLocale` hook.
 - Prefer existing utilities in `lib/` and hooks in `app/hooks/`.
-- Run `npm run check` (lint/format/tests) before committing changes.
+ - Prefer existing utilities in `lib/` and hooks in `app/hooks`.
+ - Run `npm run lint` before committing changes and ensure formatting/tests pass if the project provides scripts for them.

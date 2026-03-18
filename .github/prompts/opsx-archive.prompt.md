@@ -4,7 +4,7 @@ description: Archive a completed change in the experimental workflow
 
 Archive a completed change in the experimental workflow.
 
-Repository conventions: Ensure artifacts follow repo standards (TypeScript strict, i18n in `public/locales`, `useLocale`) before archiving; run `npm run check`.
+Repository conventions: Ensure artifacts follow repo standards (TypeScript strict, i18n in `public/locales`, `useLocale`) before archiving; run `npm run lint` and ensure formatting/tests pass if available.
 
 **Input**: Optionally specify a change name after `/opsx:archive` (e.g., `/opsx:archive add-auth`). If omitted, check if it can be inferred from conversation context. If vague or ambiguous you MUST prompt for available changes.
 

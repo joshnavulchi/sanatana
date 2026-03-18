@@ -8,7 +8,7 @@ context: |
 	Component rules: Use `"use client"` for client components and always type props
 	Utilities: Prefer existing utilities in `lib/` and hooks in `app/hooks/` rather than adding new helpers
 	Filesystem: Do not import Node `fs` or `path` directly; use repository storage utilities (e.g., `lib/storage.ts`)
-	Scripts: `npm run check` runs lint, format, and tests — run it before committing
+	Scripts: Run `npm run lint` before committing and ensure formatting and tests pass if the project provides scripts for them
 
 # Per-artifact rules (optional)
 rules:
@@ -22,4 +22,4 @@ rules:
 	tasks:
 		- Break tasks into chunks of max 2 hours
 		- Each task should be minimal, include file paths, and note tests to update
-		- After implementing a task, run `npm run check` and mark the task complete
+		- After implementing a task, run `npm run lint` and ensure formatting/tests pass, then mark the task complete

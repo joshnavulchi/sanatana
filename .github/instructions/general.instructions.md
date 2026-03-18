@@ -159,7 +159,7 @@ Tools used
 Command
 
 ```
-npm run check
+npm run lint
 ```
 
 ---

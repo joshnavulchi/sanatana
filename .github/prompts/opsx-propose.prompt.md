@@ -4,7 +4,7 @@ description: Propose a new change - create it and generate all artifacts in one 
 
 Propose a new change - create the change and generate all artifacts in one step.
 
-Repository conventions (apply when creating artifacts in this repo): Use TypeScript (strict), Tailwind CSS, `app/` layout, `useLocale` for strings, and run `npm run check` before committing.
+Repository conventions (apply when creating artifacts in this repo): Use TypeScript (strict), Tailwind CSS, `app/` layout, `useLocale` for strings, and run `npm run lint` before committing (and run project formatters/tests if available).
 
 When the change involves creating a new page, follow the `about` page localization pattern:
 
