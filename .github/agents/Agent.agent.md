@@ -32,6 +32,18 @@ Only after loading these instructions should the agent proceed.
 
 ---
 
+## Next.js `output: export` rule (generateStaticParams)
+
+Agents working on Next.js pages must ensure routes that use dynamic segments and are intended for a static export provide a `generateStaticParams()` export. If Next's build reports "is missing \"generateStaticParams()\" so it cannot be used with \"output: export\"" the usual causes and remedies are:
+
+- **Missing export:** add `export function generateStaticParams(): Params[] { return [...] }` to the page file.
+- **Non-detectable export:** avoid conditional or dynamic exports; the function must be a top-level exported symbol so Next can statically analyze it.
+- **Common pattern fixes:** when building params from file lists, initialize file arrays before using them (for example `let files: string[] = [];`) so TypeScript/analysis doesn't treat the function as incomplete or throw undefined errors.
+- **Verify build logs:** run `npm run build` locally to capture the Next build trace and confirm which page triggered the error.
+
+Include a Locale Checklist entry in `tasks.md` when creating or editing pages with dynamic segments and static export requirements.
+
+
 # Agent Responsibilities
 
 The agent may perform tasks such as:

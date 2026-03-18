@@ -23,6 +23,7 @@ function getNamespace(slug: string, parts: string[]): string {
 }
 
 export function generateStaticParams(): Params[] {
+  let files: string[] = [];
   const out: Params[] = [];
 
   const reBhagavataSkanda = /^puranas_bhagavata_skanda(\d+)\.json$/;

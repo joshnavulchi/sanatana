@@ -42,6 +42,7 @@ export default function PartsClient({ slug, parts }: { slug: string; parts: stri
   const description = typeof data?.description === 'string' ? data.description : '';
   const introduction = typeof data?.introduction === 'string' ? data.introduction : '';
   const scriptureText = typeof data?.scripture_text === 'string' ? data.scripture_text : '';
+  const scriptureSections = Array.isArray(data?.scripture_text) ? (data?.scripture_text as unknown[]) : null;
   const philosophical = typeof data?.philosophical_explanation === 'string' ? data.philosophical_explanation : '';
 
   const skandaNum = slug === 'bhagavata' ? parseNumericSuffix(parts[0] || 'skanda-1') : null;
@@ -97,6 +98,27 @@ export default function PartsClient({ slug, parts }: { slug: string; parts: stri
         <section className="mt-6 rounded-2xl border border-[#edc98f]/50 bg-[#fffaf3] p-5 md:p-6">
           <h2 className="text-sm font-extrabold uppercase tracking-widest text-[#a89278] mb-3">Text</h2>
           <div className="text-base text-[#5b2d12] leading-relaxed"><Paragraphs text={scriptureText} /></div>
+        </section>
+      )}
+
+      {scriptureSections && scriptureSections.length > 0 && (
+        <section className="mt-6">
+          <h2 className="text-sm font-extrabold uppercase tracking-widest text-[#a89278] mb-3">Text</h2>
+          <div className="space-y-6">
+            {scriptureSections.map((item, idx) => {
+              if (!item) return null;
+              if (typeof item === 'string') return <div key={idx} className="text-base text-[#5b2d12] leading-relaxed"><Paragraphs text={item} /></div>;
+              const obj = item as Record<string, any>;
+              const sectionTitle = typeof obj.section === 'string' ? obj.section : '';
+              const content = typeof obj.content === 'string' ? obj.content : (typeof obj.text === 'string' ? obj.text : '');
+              return (
+                <div key={idx} className="rounded-2xl border border-[#edc98f]/50 bg-[#fffaf3] p-5 md:p-6">
+                  {sectionTitle && <h3 className="text-base font-semibold text-[#3d2e22] mb-2">{sectionTitle}</h3>}
+                  {content && <div className="text-base text-[#5b2d12] leading-relaxed"><Paragraphs text={content} /></div>}
+                </div>
+              );
+            })}
+          </div>
         </section>
       )}
 

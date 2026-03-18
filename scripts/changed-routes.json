@@ -1,1 +1,5 @@
-[]
+[
+  "/explore/illustratedstories/[id]",
+  "/post-deploy-audit",
+  "/puranas/[slug]/[...parts]"
+]
