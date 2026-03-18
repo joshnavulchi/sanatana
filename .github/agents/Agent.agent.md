@@ -32,6 +32,48 @@ Only after loading these instructions should the agent proceed.
 
 ---
 
+## Next.js `output: export` rule (generateStaticParams)
+
+Agents working on Next.js pages must ensure routes that use dynamic segments and are intended for a static export provide a `generateStaticParams()` export. If Next's build reports "is missing \"generateStaticParams()\" so it cannot be used with \"output: export\"" the usual causes and remedies are:
+
+- **Missing export:** add `export function generateStaticParams(): Params[] { return [...] }` to the page file.
+- **Non-detectable export:** avoid conditional or dynamic exports; the function must be a top-level exported symbol so Next can statically analyze it.
+- **Common pattern fixes:** when building params from file lists, initialize file arrays before using them (for example `let files: string[] = [];`) so TypeScript/analysis doesn't treat the function as incomplete or throw undefined errors.
+- **Verify build logs:** run `npm run build` locally to capture the Next build trace and confirm which page triggered the error.
+
+Include a Locale Checklist entry in `tasks.md` when creating or editing pages with dynamic segments and static export requirements.
+
+Recommended fix (practical example)
+
+If a dynamic page builds its params from content files, prefer exporting a small, concrete `generateStaticParams()` that Next can statically analyze. Example:
+
+```ts
+import { MAHABHARATA_PARVAS } from '../../../itihasa/itihasa-utils';
+
+export const dynamicParams = false;
+
+// Minimal, deterministic list so Next detects the export during static analysis
+export function generateStaticParams() {
+  return MAHABHARATA_PARVAS.map((parva) => ({ parva, parts: ['chapter-1'] }));
+}
+```
+
+Why this helps:
+- Ensures the function is a top-level export (no conditional or computed exports).
+- Avoids relying on runtime file-globs that static analysis can't follow.
+- Keeps the exported list small and deterministic for `next export`.
+
+Quick CI detection
+
+Add a lightweight check in CI to catch pages missing a detectable `generateStaticParams` export. A simple grep can flag dynamic folders without an explicit export:
+
+```bash
+grep -R "\[.*\]" app/ | grep "page.tsx" -l | xargs -I{} sh -c "grep -q 'export function generateStaticParams' {} || echo MISSING {}"
+```
+
+Or add a Node script that parses ASTs and fails the build when a dynamic `page.tsx` lacks a top-level `generateStaticParams()` export.
+
+
 # Agent Responsibilities
 
 The agent may perform tasks such as:
@@ -86,6 +128,91 @@ Each generated entry must include
 * structured data schema
 * OpenGraph metadata
 
+---
+
+
+# Example JSON Structure
+
+```json
+"meta": {
+  "title": "Sanatana Dharma – Vedas, Upanishads, Hindu Philosophy & Spiritual Wisdom",
+  "canonical": "https://sanatanadharmam.in",
+  "description": "Explore Sanatana Dharma, the eternal tradition of Hindu philosophy. Learn about the Vedas, Upanishads, Bhagavad Gita, epics, spiritual practices, and timeless wisdom.",
+  "keywords": [
+    "Sanatana Dharma",
+    "Hindu philosophy",
+    "Vedas",
+    "Upanishads",
+    "Bhagavad Gita",
+    "Hindu scriptures",
+    "Dharma karma moksha",
+    "Vedic traditions",
+    "Hindu spiritual teachings",
+    "Sanatana Dharma meaning"
+  ],
+  "ogImage": "https://sanatanadharmam.in/images/og/home.png",
+  "url": "https://sanatanadharmam.in"
+},
+"openGraph": {
+  "title": "Sanatana Dharma – Vedas, Upanishads, Hindu Philosophy & Spiritual Wisdom",
+  "description": "Explore Sanatana Dharma, the eternal tradition of Hindu philosophy. Discover the Vedas, Upanishads, Bhagavad Gita, epics, and timeless spiritual wisdom.",
+  "url": "https://sanatanadharmam.in",
+  "siteName": "Sanatanadharmam",
+  "type": "website",
+    "images": [
+      {
+        "url": "https://sanatanadharmam.in/images/og/home.png",
+        "width": 1200,
+        "height": 630,
+        "alt": "Sanatana Dharma – Eternal Wisdom and Vedic Knowledge"
+      }
+    ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in",
+          "logo": "https://sanatanadharmam.in/images/logo.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "areaServed": "Worldwide",
+            "availableLanguage": [
+              "English",
+              "Hindi",
+              "Telugu",
+              "Arabic",
+              "German",
+              "Spanish",
+              "French",
+              "Japanese",
+              "Nepali",
+              "Dutch",
+              "Portuguese",
+              "Russian",
+              "Urdu",
+              "Chinese"
+            ],
+            "email": "info@sanatanadharmam.in",
+            "telephone": "+91-8099181075"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "name": "Sanatanadharmam",
+          "url": "https://sanatanadharmam.in",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://sanatanadharmam.in/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+      ]
+    }
+```
 ---
 
 # JSON Formatting Rules
@@ -166,28 +293,9 @@ Agents must include a Locale Checklist entry in `tasks.md` when proposing or imp
 
 - Add `public/locales/en/<route>.json` (and other locales as required)
 - Ensure `useLocaleSection('<route>')` is used in client component
-- Run `npm run check` and fix lint/tests
-
+ - Run `npm run lint` and fix lint issues; ensure formatting and tests pass if available
 
 ---
-
-<!-- # Example JSON Structure
-
-```json
-{
-  "title": "Rigveda",
-  "description": "The Rigveda is the oldest Veda containing hymns dedicated to various deities.",
-  "keywords": ["Rigveda", "Vedas", "Hindu scriptures"],
-  "canonical": "/vedas/rigveda",
-  "content": {
-    "introduction": "...",
-    "history": "...",
-    "purpose": "...",
-    "stories": []
-  }
-}
-```
---- -->
 
 # Output Requirements
 
@@ -213,3 +321,23 @@ data/vedas/
 data/upanishads/
 data/puranas/
 ``` -->
+
+## Automated fixer (optional)
+
+When Next.js build reports a missing `generateStaticParams()` for a dynamic page, agents may run a lightweight fixer that inserts a minimal, deterministic `generateStaticParams()` export so Next's static analyzer can detect it. The fixer should be conservative and idempotent: it only patches pages that are missing the export and uses small hard-coded lists (one item per known slug) rather than trying to enumerate all runtime routes.
+
+Key rules for the fixer:
+- Target only dynamic pages (file path contains `[`), and skip files that already export `generateStaticParams()`.
+- Ensure `export const dynamicParams = false;` exists and is exported at top-level.
+- Insert a top-level `export function generateStaticParams()` returning a small deterministic array (e.g. `{ parva, parts: ['chapter-1'] }`).
+- Only patch known route shapes (itihasa/mahabharata, itihasa/ramayana, puranas, vedas, vedic-philosophy), keeping the inserted lists small.
+
+Suggested script path: `scripts/fix-generate-static-params.js`.
+
+Example usage (run locally when you see the missing-export error):
+
+```bash
+node scripts/fix-generate-static-params.js
+```
+
+If desired, this script can be run automatically in CI as a pre-build step, but prefer running it under developer control so generated params can be reviewed.

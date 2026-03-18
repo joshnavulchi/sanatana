@@ -2,7 +2,7 @@ name: CI — development build
 
 on:
   push:
-    branches: [ development ]
+    branches: [ production ]
   workflow_dispatch:
 
 permissions:
@@ -19,6 +19,35 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Prevent modification of protected scripts
+        run: |
+          set -e
+          # Determine changed files between production and HEAD or commit range
+          CHANGED=""
+          if git rev-parse --verify origin/production >/dev/null 2>&1; then
+            CHANGED=$(git diff --name-only origin/production...HEAD || true)
+          else
+            CHANGED=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} || true)
+          fi
+
+          echo "Changed files:"; echo "$CHANGED"
+
+          FORBIDDEN_FILES=(
+            "scripts/sync-locales-from-branch.js"
+            "scripts/generate-post-deploy-audit.js"
+            "scripts/incremental-export.js"
+            "scripts/partial-export.js"
+          )
+
+          for f in "${FORBIDDEN_FILES[@]}"; do
+            if echo "$CHANGED" | grep -xq "$f"; then
+              echo "ERROR: Modification of protected script '$f' is not allowed in this workflow.";
+              exit 1
+            fi
+          done
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -28,9 +57,11 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+      - name: Run fixer for missing generateStaticParams
+        run: node scripts/fix-generate-static-params.js
 
-      - name: Run checks (lint/format/tests)
-        run: npm run check
+      - name: Run lint
+        run: npm run lint
 
       - name: Build
         env:

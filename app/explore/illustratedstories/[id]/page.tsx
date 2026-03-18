@@ -1,5 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, DEFAULT_LOCALE, detectServerLocaleFromHeaders, readPublicFileAsync } from '@lib/i18n';
+import { t, DEFAULT_LOCALE, detectServerLocaleFromHeaders, normalizeLocale } from '@lib/i18n';
 import { headers } from 'next/headers';
 import LazyImage from '@components/lazyimage';
 import PageLayout from '@components/common/PageLayout';
@@ -31,7 +31,7 @@ function resolveLocaleFromHeaders(): string {
 
 export async function generateStaticParams() {
   try {
-    const raw = await readPublicFileAsync(`locales/${DEFAULT_LOCALE}/illustrated_stories.json`);
+    const raw = await normalizeLocale(`locales/${DEFAULT_LOCALE}/illustrated_stories.json`);
     const doc = raw ? JSON.parse(raw) : null;
 
     const stories =
@@ -51,7 +51,7 @@ export async function generateStaticParams() {
 
 async function loadStories(locale: string): Promise<Story[]> {
   try {
-    const raw = await readPublicFileAsync(`locales/${locale}/illustrated_stories.json`);
+    const raw = await normalizeLocale(`locales/${locale}/illustrated_stories.json`);
     const doc = raw ? JSON.parse(raw) : null;
     return doc?.illustratedstories?.kids_indian_stories ?? [];
   } catch {

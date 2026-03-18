@@ -1,8 +1,9 @@
-import { readPublicFileAsync } from '@lib/i18n';
+import { normalizeLocale } from '@lib/i18n';
 import PostDeployAuditClient from "./postdeployauditclient";
 
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@components/structured-data/StructuredData';
+import { secrets } from '@lib/secrets';
 
 interface PageAudit {
   route?: string;
@@ -61,9 +62,26 @@ export const generateMetadata = createGenerateMetadata('post_deploy_audit');
 
 async function loadReport(): Promise<AuditReport | null> {
   try {
-    const raw = await readPublicFileAsync('post-deploy-audit.json');
-    if (!raw) return null;
-    return JSON.parse(raw) as AuditReport;
+    // Build absolute URL using NEXT_PUBLIC_SITE_URL when running on the server
+    const base = String(secrets.NEXT_PUBLIC_SITE_URL || '').replace(/\/$/, '');
+    if (typeof window === 'undefined' && base) {
+      try {
+        const resp = await fetch(`${base}/post-deploy-audit.json`, { cache: 'force-cache' } as any);
+        if (!resp.ok) return null;
+        return (await resp.json()) as AuditReport;
+      } catch (_e) {
+        return null;
+      }
+    }
+
+    // Client-side or fallback: fetch from relative path
+    try {
+      const resp = await fetch('/post-deploy-audit.json');
+      if (!resp.ok) return null;
+      return (await resp.json()) as AuditReport;
+    } catch (_e) {
+      return null;
+    }
   } catch {
     return null;
   }

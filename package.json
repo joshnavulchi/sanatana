@@ -12,7 +12,8 @@
     "postbuild": "node scripts/generate-sitemap.js && node scripts/generate-post-deploy-audit.js && node scripts/add-hash-to-assets.js",
     "render-build": "bash ./.render-build.sh",
     "start": "npx serve@latest out",
-    "lint": "eslint --quiet app lib scripts"
+    "lint": "eslint --quiet app lib scripts",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "^16.1.6",
@@ -41,6 +42,7 @@
     "prettier": "^3.8.1",
     "sass": "^1.98.0",
     "topojson-client": "^3.1.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "husky": "^8.0.3"
   }
 }

@@ -88,6 +88,7 @@ netstat -ano | findstr :3000
 Stop-Process -Id <PID_NUMBER>
 
 taskkill /PID <PID_FROM_PREVIOUS> /F
+
 npx kill-port 3000
 $pid = (Get-NetTCPConnection -LocalPort 3000 -ErrorAction SilentlyContinue).OwningProcess; if ($pid) { Stop-Process -Id $pid -Force }
 

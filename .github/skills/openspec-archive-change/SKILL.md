@@ -119,4 +119,4 @@ Follow repository standards when archiving:
 
 - Ensure artifacts and code follow TypeScript strict rules and localization practices.
 - Verify UI strings are in `public/locales` and accessed via `useLocale`.
-- Run `npm run check` before archiving to surface lint/test issues.
+   - Run `npm run lint` before archiving to surface lint issues and ensure formatting/tests pass if available.

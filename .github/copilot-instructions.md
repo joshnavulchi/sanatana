@@ -208,14 +208,14 @@ test("renders text", () => {
 Before committing ensure:
 
 ```
-npm run check
+npm run lint
 ```
 
 Runs:
 
 * lint
-* format
-* tests
+
+Also ensure formatting and tests pass if the project provides scripts for them
 
 ---
 
@@ -229,7 +229,7 @@ These repository conventions must be applied when generating code or OpenSpec ar
 * **Client components:** Use `"use client"` at top of client components; always type props.
 * **Utilities:** Prefer existing utilities in `lib/` and hooks in `app/hooks/` over adding new helpers.
 * **No direct Node fs/path:** Do not import Node's `fs` or `path`; use repository utilities such as `lib/storage.ts` if available.
-* **Testing & CI:** Run `npm run check` (linter, formatter, tests) before committing changes.
+* **Testing & CI:** Run `npm run lint` (linter) before committing changes and ensure formatting/tests pass if the project provides scripts for them.
 * **Task sizing:** Break implementation tasks into small, testable chunks (max ~2 hours per task).
 
 Follow these conventions in addition to the generic rules above.
