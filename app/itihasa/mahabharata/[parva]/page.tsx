@@ -14,7 +14,7 @@ type Params = { parva: string };
 
 export const dynamicParams = false;
 
-export function generateStaticParams(): Array<{ parva: string }> {
+export function generateStaticParams() {
   return MAHABHARATA_PARVAS.map((parva) => ({ parva }));
 }
 

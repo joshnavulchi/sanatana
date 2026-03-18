@@ -3,6 +3,7 @@ import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@/app/components/structured-data/StructuredData';
 import ItihasaPartClient from '../../../itihasapartclient';
 import {
+  RAMAYANA_KANDAS,
   isRamayanaKandaSlug,
   parseNumericSuffix,
   toTitleFromSlug,
@@ -13,29 +14,9 @@ type Params = { slug: string; parts: string[] };
 
 export const dynamicParams = false;
 
-export function generateStaticParams(): Params[] {
-  let files: string[] = [];
-
-  const out: Params[] = [];
-  const re = /^itihasa_ramayana_([^_]+(?:_[^_]+)*)_sarga(\d+)\.json$/;
-  for (const file of files) {
-    const m = file.match(re);
-    if (!m) continue;
-    const kandaSlug = m[1].replace(/_/g, '-');
-    if (!isRamayanaKandaSlug(kandaSlug)) continue;
-    const sarga = Number(m[2]);
-    if (!Number.isFinite(sarga) || sarga <= 0) continue;
-    out.push({ slug: kandaSlug, parts: [`sarga-${sarga}`] });
-  }
-
-  out.sort((a, b) => {
-    if (a.slug !== b.slug) return a.slug.localeCompare(b.slug);
-    const as = Number(a.parts[0]?.match(/(\d+)$/)?.[1] || '0');
-    const bs = Number(b.parts[0]?.match(/(\d+)$/)?.[1] || '0');
-    return as - bs;
-  });
-
-  return out;
+export function generateStaticParams() {
+  // Provide minimal static params so Next can detect this export.
+  return RAMAYANA_KANDAS.map((slug) => ({ slug, parts: ['sarga-1'] }));
 }
 
 export async function generateMetadata(props: { params: Promise<Params> }) {

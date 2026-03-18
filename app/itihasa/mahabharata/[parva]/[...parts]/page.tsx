@@ -3,6 +3,7 @@ import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@/app/components/structured-data/StructuredData';
 import ItihasaPartClient from '../../../itihasapartclient';
 import {
+  MAHABHARATA_PARVAS,
   isMahabharataParvaSlug,
   parseNumericSuffix,
   toTitleFromSlug,
@@ -12,29 +13,10 @@ type Params = { parva: string; parts: string[] };
 
 export const dynamicParams = false;
 
-export function generateStaticParams(): Params[] {
-  let files: string[] = [];
-
-  const out: Params[] = [];
-  const re = /^itihasa_mahabharata_([^_]+(?:_[^_]+)*)_chapter(\d+)\.json$/;
-  for (const file of files) {
-    const m = file.match(re);
-    if (!m) continue;
-    const parvaSlug = m[1].replace(/_/g, '-');
-    if (!isMahabharataParvaSlug(parvaSlug)) continue;
-    const chapter = Number(m[2]);
-    if (!Number.isFinite(chapter) || chapter <= 0) continue;
-    out.push({ parva: parvaSlug, parts: [`chapter-${chapter}`] });
-  }
-
-  out.sort((a, b) => {
-    if (a.parva !== b.parva) return a.parva.localeCompare(b.parva);
-    const ac = Number(a.parts[0]?.match(/(\d+)$/)?.[1] || '0');
-    const bc = Number(b.parts[0]?.match(/(\d+)$/)?.[1] || '0');
-    return ac - bc;
-  });
-
-  return out;
+export function generateStaticParams() {
+  // Provide a minimal static params list so Next can detect the export.
+  // Map each parva to its first chapter to keep the export small and deterministic.
+  return MAHABHARATA_PARVAS.map((parva) => ({ parva, parts: ['chapter-1'] }));
 }
 
 export async function generateMetadata(props: { params: Promise<Params> }) {

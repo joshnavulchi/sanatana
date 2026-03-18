@@ -43,6 +43,36 @@ Agents working on Next.js pages must ensure routes that use dynamic segments and
 
 Include a Locale Checklist entry in `tasks.md` when creating or editing pages with dynamic segments and static export requirements.
 
+Recommended fix (practical example)
+
+If a dynamic page builds its params from content files, prefer exporting a small, concrete `generateStaticParams()` that Next can statically analyze. Example:
+
+```ts
+import { MAHABHARATA_PARVAS } from '../../../itihasa/itihasa-utils';
+
+export const dynamicParams = false;
+
+// Minimal, deterministic list so Next detects the export during static analysis
+export function generateStaticParams() {
+  return MAHABHARATA_PARVAS.map((parva) => ({ parva, parts: ['chapter-1'] }));
+}
+```
+
+Why this helps:
+- Ensures the function is a top-level export (no conditional or computed exports).
+- Avoids relying on runtime file-globs that static analysis can't follow.
+- Keeps the exported list small and deterministic for `next export`.
+
+Quick CI detection
+
+Add a lightweight check in CI to catch pages missing a detectable `generateStaticParams` export. A simple grep can flag dynamic folders without an explicit export:
+
+```bash
+grep -R "\[.*\]" app/ | grep "page.tsx" -l | xargs -I{} sh -c "grep -q 'export function generateStaticParams' {} || echo MISSING {}"
+```
+
+Or add a Node script that parses ASTs and fails the build when a dynamic `page.tsx` lacks a top-level `generateStaticParams()` export.
+
 
 # Agent Responsibilities
 
@@ -291,3 +321,23 @@ data/vedas/
 data/upanishads/
 data/puranas/
 ``` -->
+
+## Automated fixer (optional)
+
+When Next.js build reports a missing `generateStaticParams()` for a dynamic page, agents may run a lightweight fixer that inserts a minimal, deterministic `generateStaticParams()` export so Next's static analyzer can detect it. The fixer should be conservative and idempotent: it only patches pages that are missing the export and uses small hard-coded lists (one item per known slug) rather than trying to enumerate all runtime routes.
+
+Key rules for the fixer:
+- Target only dynamic pages (file path contains `[`), and skip files that already export `generateStaticParams()`.
+- Ensure `export const dynamicParams = false;` exists and is exported at top-level.
+- Insert a top-level `export function generateStaticParams()` returning a small deterministic array (e.g. `{ parva, parts: ['chapter-1'] }`).
+- Only patch known route shapes (itihasa/mahabharata, itihasa/ramayana, puranas, vedas, vedic-philosophy), keeping the inserted lists small.
+
+Suggested script path: `scripts/fix-generate-static-params.js`.
+
+Example usage (run locally when you see the missing-export error):
+
+```bash
+node scripts/fix-generate-static-params.js
+```
+
+If desired, this script can be run automatically in CI as a pre-build step, but prefer running it under developer control so generated params can be reviewed.

@@ -28,10 +28,11 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
 
 export default async function Page(props: { params: Promise<{ slug: string }> }) {
   const { slug } = await props.params;
-  return 
-  <>
-    <StructuredData metaKey={`vedas_${slug}`} />
-    <SlugClient slug={slug} />
-  </>
+  return (
+    <>
+      <StructuredData metaKey={`vedas_${slug}`} />
+      <SlugClient slug={slug} />
+    </>
+  );
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
