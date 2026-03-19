@@ -15,11 +15,11 @@ import { params as generatedParams } from '@app/generated-params/itihasa-bhagava
 
 export const dynamicParams = false;
 
-export async function generateStaticParams() {
-  return VALID_SLUGS
-    .filter((s) => !!s)
-    .map((slug) => ({ slug }));
-}
+// export async function generateStaticParams() {
+//   return VALID_SLUGS
+//     .filter((s) => !!s)
+//     .map((slug) => ({ slug }));
+// }
 
 export function generateStaticParams() { return generatedParams; }
 
