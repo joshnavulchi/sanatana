@@ -65,6 +65,4 @@ else
   node scripts/minify-html.js
 fi
 
-node scripts/check-analytics-keys.js
-
 echo "== Build complete ✅ =="

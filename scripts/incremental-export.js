@@ -70,8 +70,8 @@ async function main() {
       const r = routeFromAppPath(f);
       if (r) routes.add(r);
       else fallbackAll = true;
-    } else if (f.startsWith('locales/') || f.startsWith('lib/') || f.startsWith('scripts/')) {
-      // changes to locales, lib or scripts could affect many pages — fallback to full export
+    } else if (f.startsWith('data/locales/') || f.startsWith('lib/') || f.startsWith('scripts/')) {
+      // changes to data/locales, lib or scripts could affect many pages — fallback to full export
       fallbackAll = true;
     }
   }

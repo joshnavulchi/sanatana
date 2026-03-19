@@ -102,7 +102,7 @@ export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = ''
 
       for (const candidate of candidates) {
         try {
-          const resp = await fetch(`/locales/${locale}/${candidate}.json`, { cache: 'force-cache' });
+          const resp = await fetch(`/data/locales/${locale}/${candidate}.json`, { cache: 'force-cache' });
           if (!resp.ok) continue;
           const parsed = await resp.json();
           try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed; } catch (_) { }
@@ -181,11 +181,11 @@ export async function getLocaleNamespaceObjectAsync(locale = DEFAULT_LOCALE, nam
       if (base) {
         for (const candidate of candidates) {
           try {
-            const url = `${base}/locales/${locale}/${candidate}.json`;
+            const url = `${base}/data/locales/${locale}/${candidate}.json`;
             const resp = await fetch(url, { cache: 'force-cache' } as any);
             if (!resp.ok) continue;
             const parsed = await resp.json();
-            try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed; } catch (_) {}
+            try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed; } catch (_) { }
             return parsed;
           } catch (_) {
             // ignore and try next
@@ -196,24 +196,24 @@ export async function getLocaleNamespaceObjectAsync(locale = DEFAULT_LOCALE, nam
       // If HTTP fetch failed or no base URL provided, attempt server-side filesystem read
       // This ensures metadata is available during SSR/build by reading from public/locales.
       // try {
-        // Only attempt FS read on Node (server)
-        // if (typeof window === 'undefined') {
-        //   const fs = await Promise.resolve().then(() => require('fs').promises) as typeof import('fs').promises;
-        //   const path = await Promise.resolve().then(() => require('path')) as typeof import('path');
-        //   for (const candidate of candidates) {
-        //     try {
-        //       const filePath = path.join(process.cwd(), 'public', 'locales', locale, `${candidate}.json`);
-        //       const txt = await fs.readFile(filePath, 'utf8');
-        //       const parsed = JSON.parse(txt);
-        //       try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed; } catch (_) {}
-        //       return parsed;
-        //     } catch (e) {
-        //       // ignore file read/parse errors and try next candidate
-        //     }
-        //   }
-        // }
+      // Only attempt FS read on Node (server)
+      // if (typeof window === 'undefined') {
+      //   const fs = await Promise.resolve().then(() => require('fs').promises) as typeof import('fs').promises;
+      //   const path = await Promise.resolve().then(() => require('path')) as typeof import('path');
+      //   for (const candidate of candidates) {
+      //     try {
+      //       const filePath = path.join(process.cwd(), 'public', 'locales', locale, `${candidate}.json`);
+      //       const txt = await fs.readFile(filePath, 'utf8');
+      //       const parsed = JSON.parse(txt);
+      //       try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed; } catch (_) {}
+      //       return parsed;
+      //     } catch (e) {
+      //       // ignore file read/parse errors and try next candidate
+      //     }
+      //   }
+      // }
       // } catch (_) {
-        // ignore any errors from optional fs/path requires
+      // ignore any errors from optional fs/path requires
       // }
     }
     return maybe ?? {};
