@@ -29,10 +29,17 @@ const GIT_BATCH_SIZE = Number.parseInt(process.env.LOCALES_SYNC_BATCH_SIZE || '3
 
 // --- Utilities ---
 function log(message) {
-  // console.log(`[locales-sync] ${message}`);
+  // Only print verbose debug messages when requested. Progress and important
+  // messages are always printed so users see current progress by default.
+  try {
+    if (typeof message === 'string' && message.startsWith('[DEBUG]') && !VERBOSE_SYNC) {
+      return;
+    }
+  } catch (_) { }
+  console.log(`[locales-sync] ${message}`);
 }
 function warn(message) {
-  // console.warn(`[locales-sync] ${message}`);
+  console.warn(`[locales-sync] ${message}`);
 }
 function fail(message) {
   console.error(`[locales-sync] ${message}`);

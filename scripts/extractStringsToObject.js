@@ -89,6 +89,41 @@ function processFile(filename) {
   let valueToKey = new Map(); // normalized value -> key (dedupe)
   let uniqueCounter = 1;
 
+  // Local helper to generate or reuse a key for a given string value
+  function getOrCreateKey(value) {
+    const normalized = value.trim().replace(/\s+/g, ' ');
+    if (valueToKey.has(normalized)) return valueToKey.get(normalized);
+
+    // Build a short human-readable key (self-contained, does not rely on outer globals)
+    const words = normalized
+      .toLowerCase()
+      .normalize('NFKD')
+      .replace(/[^\x00-\x7F]/g, '')
+      .replace(/[^a-z0-9\s]/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .split(' ')
+      .filter(Boolean);
+
+    const sig = words.filter(w => !STOPWORDS.has(w));
+    const pick = (sig.length ? sig : words).slice(0, 2);
+    const segments = pick.map(w => w.slice(0, 8));
+
+    let base = segments.join('_');
+    if (!base) base = 'label';
+    if (!/^[a-z_]/.test(base)) base = `k_${base}`;
+    base = base.slice(0, 18).replace(/^_+|_+$/g, '');
+
+    let key = base;
+    while (Object.prototype.hasOwnProperty.call(stringMap, key)) {
+      key = `${base}_${uniqueCounter++}`;
+    }
+
+    stringMap[key] = value; // store original for fidelity
+    valueToKey.set(normalized, key);
+    return key;
+  }
+
   const code = fs.readFileSync(filename, 'utf8');
 
   // ---- Parse TSX with Babel
@@ -164,6 +199,11 @@ function processFile(filename) {
     // (Intentionally no JSXAttribute handler for replacement.)
   });
 
+  // If no strings were collected, do not add an object or modify the file
+  if (Object.keys(stringMap).length === 0) {
+    return null;
+  }
+
   // ---- Build: const <objectName> = { k: "v", ... }
   const properties = Object.entries(stringMap)
     .sort(([a], [b]) => a.localeCompare(b))
@@ -230,10 +270,16 @@ if (tsxFiles.length === 0) {
 for (const file of tsxFiles) {
   try {
     const output = processFile(file);
+    if (!output) {
+      console.log('Skipped (no hardcoded strings):', path.relative(process.cwd(), file));
+      continue;
+    }
+
     const outPath = path.join(
       path.dirname(file),
       path.basename(file).replace(/\.tsx$/, '.extracted.tsx')
     );
+
     fs.writeFileSync(outPath, output, 'utf8');
     console.log('Processed:', path.relative(process.cwd(), file), '->', path.basename(outPath));
   } catch (error) {

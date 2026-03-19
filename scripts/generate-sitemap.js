@@ -15,6 +15,12 @@ const fs = require('fs');
 const path = require('path');
 const REPO_ROOT = path.resolve(__dirname, '..');
 
+// Allow overriding the input folder via CLI arg or env var so the script can
+// run against any deployed folder of HTML pages (e.g. exported site).
+const rawInput = process.argv[2] || process.env.SITEMAP_INPUT_DIR || 'out';
+const outDirDefault = path.join(REPO_ROOT, 'out');
+const outDir = path.isAbsolute(rawInput) ? rawInput : path.resolve(REPO_ROOT, rawInput);
+
 const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || 'https://sanatanadharmam.in').replace(/\/$/, '');
 
 // ── Locales ────────────────────────────────────────────────────────
@@ -98,6 +104,14 @@ function htmlFileToRoute(htmlPath, outDir) {
   return null;
 }
 
+function routeBase(route) {
+  // normalize: remove leading/trailing slash and optional .html
+  if (!route) return '';
+  let base = route.replace(/^\//, '').replace(/\/$/, '');
+  if (base.endsWith('.html')) base = base.slice(0, -'.html'.length);
+  return base;
+}
+
 // ── Sitemap XML ────────────────────────────────────────────────────
 
 function buildSitemap(paths) {
@@ -141,15 +155,18 @@ function writeTo(filePath, xml) {
 // ── Main ───────────────────────────────────────────────────────────
 
 try {
-  const outDir = path.join(REPO_ROOT, 'out');
   const htmlFiles = assertBuildOutputReady(outDir);
 
   const routeSet = new Set();
 
+  // Ignore canonical "not found" pages that may be present in exported HTML.
+  const IGNORE_BASES = new Set(['404', 'not-found']);
+
   for (const htmlPath of htmlFiles) {
     const route = htmlFileToRoute(htmlPath, outDir);
     if (!route) continue;
-    if (route === '/404' || route === '/404/') continue;
+    const base = routeBase(route);
+    if (IGNORE_BASES.has(base)) continue;
     routeSet.add(route);
   }
 
@@ -158,10 +175,15 @@ try {
   for (const p of paths) console.log('  ', p);
 
   const xml = buildSitemap(paths);
-  writeTo(path.join(REPO_ROOT, 'out', 'sitemap.xml'), xml);
-  // Also update public/ so next dev and deployments serve the latest
+  // Write sitemap into the input directory so running this against a
+  // deployed HTML folder places the sitemap next to the pages.
+  writeTo(path.join(outDir, 'sitemap.xml'), xml);
+
+  // If we ran against the repo `out` directory, also update `public/`.
   try {
-    writeTo(path.join(REPO_ROOT, 'public', 'sitemap.xml'), xml);
+    if (path.resolve(outDir) === path.resolve(outDirDefault)) {
+      writeTo(path.join(REPO_ROOT, 'public', 'sitemap.xml'), xml);
+    }
   } catch (_) { /* non-fatal */ }
 } catch (err) {
   console.error('generate-sitemap error:', err);
