@@ -12,6 +12,8 @@ import {
 
 type Params = { slug: string; parts: string[] };
 
+import { params as generatedParams } from '@app/generated-params/itihasa-ramayana-parts';
+
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
@@ -20,6 +22,8 @@ export async function generateStaticParams() {
     .filter((s) => !!s)
     .map((slug) => ({ slug, parts: ['sarga-1'] }));
 }
+
+export function generateStaticParams() { return generatedParams; }
 
 export async function generateMetadata(props: { params: Promise<Params> }) {
   const { slug, parts } = await props.params;

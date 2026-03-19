@@ -21,6 +21,8 @@ const CHAPTER_META_CONFIG: Record<string, ChapterMetaConfig> = {
   atharvaveda: { mode: 'from-main', fileKey: 'vedas_atharvaveda' },
 };
 
+import { params as generatedParams } from '@app/generated-params/vedas-chapters';
+
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
@@ -45,6 +47,8 @@ function chapterFileKey(slug: string, chapter: string): string {
 
   return cfg.fileKey || slug;
 }
+
+export function generateStaticParams() { return generatedParams; }
 
 export async function generateMetadata(props: { params: Promise<ChapterPageParams> }) {
   const { slug, chapter } = await props.params;

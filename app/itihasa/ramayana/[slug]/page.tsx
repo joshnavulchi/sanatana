@@ -9,6 +9,8 @@ const VALID_SLUGS = [
   'sundara-kanda', 'yuddha-kanda', 'uttara-kanda',
 ];
 
+import { params as generatedParams } from '@app/generated-params/itihasa-ramayana';
+
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
@@ -16,6 +18,8 @@ export async function generateStaticParams() {
     .filter((s) => !!s)
     .map((slug) => ({ slug }));
 }
+
+export function generateStaticParams() { return generatedParams; }
 
 export async function generateMetadata(props: { params: Promise<{ slug: string }> }) {
   const { slug } = await props.params;

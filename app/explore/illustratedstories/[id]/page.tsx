@@ -1,10 +1,14 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { t, DEFAULT_LOCALE, detectServerLocaleFromHeaders, getLocaleNamespaceObjectAsync } from '@lib/i18n';
+// Import build-time data for static params detection
+import illustratedData from '../../../../public/data/locales/en/explore/kidszone/illustratedstories.json';
 import { headers } from 'next/headers';
 import LazyImage from '@components/lazyimage';
 import PageLayout from '@components/common/PageLayout';
 import Link from 'next/link';
 import { createGenerateMetadata } from '@lib/pageUtils';
+import { params as generatedParams } from '@app/generated-params/illustratedstories';
+
 export const generateMetadata = createGenerateMetadata('illustrated_stories');
 import StructuredData from '@components/structured-data/StructuredData';
 
@@ -29,22 +33,16 @@ function resolveLocaleFromHeaders(): string {
   }
 }
 
-export async function generateStaticParams() {
+export function generateStaticParams() {
   try {
-    const doc = await getLocaleNamespaceObjectAsync(DEFAULT_LOCALE, 'illustrated_stories');
-
-    const stories =
-      doc?.illustrated_stories?.kids_indian_stories ??
-      doc?.illustratedstories?.kids_indian_stories ??
-      [];
-
-    if (!Array.isArray(stories)) return [{ id: 'placeholder' }];
-
+    const doc = illustratedData as any;
+    const stories = doc?.kidszone_illustratedstories?.kids_indian_stories ?? [];
+    if (!Array.isArray(stories) || stories.length === 0) return [];
     return stories
       .filter((s: any) => s?.id !== undefined && s?.id !== null)
       .map((s: any) => ({ id: String(s.id) }));
   } catch {
-    return [{ id: 'placeholder' }];
+    return [];
   }
 }
 
@@ -132,3 +130,5 @@ export default async function Page({ params }: { params: { id: string } }) {
   );
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+
+export function generateStaticParams() { return generatedParams; }

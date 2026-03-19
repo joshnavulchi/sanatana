@@ -5,6 +5,8 @@ import { PHILOSOPHY_TOPICS, isPhilosophyTopic } from '../../philosophy-utils';
 
 type Params = { slug: string; parts: string[] };
 
+import { params as generatedParams } from '@app/generated-params/vedic-philosophy-parts';
+
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
@@ -13,6 +15,8 @@ export async function generateStaticParams() {
     .filter((s) => !!s)
     .map((slug) => ({ slug, parts: ['overview'] }));
 }
+
+export function generateStaticParams() { return generatedParams; }
 
 export async function generateMetadata(props: { params: Promise<Params> }) {
   const { slug, parts } = await props.params;

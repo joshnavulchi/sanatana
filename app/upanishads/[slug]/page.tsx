@@ -10,6 +10,8 @@ const VALID_SLUGS = [
   'kaushitaki-upanishad', 'maitri-upanishad',
 ];
 
+import { params as generatedParams } from '@app/generated-params/upanishads';
+
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
@@ -21,6 +23,8 @@ export async function generateStaticParams() {
     .filter((slug) => !!slug)
     .map((slug) => ({ slug }));
 }
+
+export function generateStaticParams() { return generatedParams; }
 
 export async function generateMetadata(props: { params: Promise<{ slug: string }> }) {
   const { slug } = await props.params;

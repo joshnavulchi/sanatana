@@ -4,6 +4,8 @@ import PartsClient from './partsclient';
 import { normalizePuranaSlug, parseNumericSuffix, MAHAPURANA_SLUGS } from '../../purana-utils';
 type Params = { slug: string; parts: string[] };
 
+import { params as generatedParams } from '@app/generated-params/puranas-slugs-parts';
+
 export const dynamicParams = false;
 
 function getNamespace(slug: string, parts: string[]): string {
@@ -32,6 +34,8 @@ export async function generateStaticParams() {
   }
   return out.filter((p) => p && p.slug && Array.isArray(p.parts));
 }
+
+export function generateStaticParams() { return generatedParams; }
 
 export async function generateMetadata(props: { params: Promise<Params> }) {
   const { slug, parts } = await props.params;

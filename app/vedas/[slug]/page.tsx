@@ -13,6 +13,8 @@ const FILE_MAP: Record<string, string> = {
   atharvaveda: 'vedas_atharvaveda',
 };
 
+import { params as generatedParams } from '@app/generated-params/vedas-slugs';
+
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
@@ -20,6 +22,8 @@ export async function generateStaticParams() {
     .filter((s) => !!s)
     .map((slug) => ({ slug }));
 }
+
+export function generateStaticParams() { return generatedParams; }
 
 export async function generateMetadata(props: { params: Promise<{ slug: string }> }) {
   const { slug } = await props.params;

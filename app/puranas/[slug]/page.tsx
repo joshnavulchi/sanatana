@@ -11,6 +11,8 @@ for (const slug of MAHAPURANA_SLUGS) {
   VALID_SLUGS.push(`${slug}-purana`);
 }
 
+import { params as generatedParams } from '@app/generated-params/puranas-slugs';
+
 export const dynamicParams = false;
 export const dynamic = 'force-static';
 
@@ -23,6 +25,8 @@ export async function generateStaticParams() {
     .filter((slug) => !!slug)
     .map((slug) => ({ slug: String(slug) }));
 }
+
+export function generateStaticParams() { return generatedParams; }
 
 export async function generateMetadata(props: { params: Promise<{ slug: string }> }) {
   const { slug } = await props.params;

@@ -7,6 +7,8 @@ import { PHILOSOPHY_TOPICS, isPhilosophyTopic } from '../philosophy-utils';
 
 const VALID_SLUGS = PHILOSOPHY_TOPICS;
 
+import { params as generatedParams } from '@app/generated-params/vedic-philosophy-slugs';
+
 export const dynamicParams = false;
 export const dynamic = 'force-static';
 
@@ -15,6 +17,8 @@ export async function generateStaticParams() {
     .filter((s) => !!s)
     .map((slug) => ({ slug }));
 }
+
+export function generateStaticParams() { return generatedParams; }
 
 export async function generateMetadata(props: { params: Promise<{ slug: string }> }) {
   const { slug } = await props.params;

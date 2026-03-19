@@ -8,7 +8,7 @@ export default function Custom404() {
           <div className="flex-shrink-0 text-8xl font-extrabold text-rose-600">404</div>
 
           <div>
-            <h1 className="text-2xl sm:text-3xl font-semibold text-slate-900">Page not found</h1>
+            <h2 className="text-2xl sm:text-3xl font-semibold text-slate-900">Page not found</h2>
             <p className="mt-3 text-slate-600">The page you're looking for doesn't exist or has been moved.</p>
 
             <div className="mt-6 flex flex-wrap items-center gap-3">

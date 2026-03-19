@@ -11,6 +11,8 @@ import {
 } from '../../../itihasa-utils';
 type Params = { parva: string; parts: string[] };
 
+import { params as generatedParams } from '@app/generated-params/mahabharata-parva-parts';
+
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
@@ -20,6 +22,8 @@ export async function generateStaticParams() {
     .filter((p) => !!p)
     .map((parva) => ({ parva, parts: ['chapter-1'] }));
 }
+
+export function generateStaticParams() { return generatedParams; }
 
 export async function generateMetadata(props: { params: Promise<Params> }) {
   const { parva, parts } = await props.params;
