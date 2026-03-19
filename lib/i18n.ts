@@ -14,6 +14,15 @@ export const SUPPORTED_LOCALES = [
   'ar', 'de', 'en', 'es', 'fr', 'hi', 'ja', 'ru', 'te', 'zh-CN'
 ];
 
+// Public path where locale JSONs are served (update if you move them)
+export const LOCALES_PUBLIC_PATH = '/data/locales';
+
+export function localeFilePath(locale: string, namespace: string) {
+  const loc = String(locale || DEFAULT_LOCALE);
+  const ns = String(namespace || '').replace(/\.json$/, '');
+  return `${LOCALES_PUBLIC_PATH}/${loc}/${ns}.json`;
+}
+
 const localesCache: Record<string, unknown> = {};
 
 function normalizeSupportedLocale(input: string | undefined): string {
@@ -102,7 +111,7 @@ export function getLocaleNamespaceObject(locale = DEFAULT_LOCALE, namespace = ''
 
       for (const candidate of candidates) {
         try {
-          const resp = await fetch(`/data/locales/${locale}/${candidate}.json`, { cache: 'force-cache' });
+          const resp = await fetch(localeFilePath(locale, candidate), { cache: 'force-cache' } as any);
           if (!resp.ok) continue;
           const parsed = await resp.json();
           try { (localesCache[locale] as Record<string, unknown>)[candidate] = parsed; } catch (_) { }
@@ -181,7 +190,7 @@ export async function getLocaleNamespaceObjectAsync(locale = DEFAULT_LOCALE, nam
       if (base) {
         for (const candidate of candidates) {
           try {
-            const url = `${base}/data/locales/${locale}/${candidate}.json`;
+            const url = `${base}${localeFilePath(locale, candidate)}`;
             const resp = await fetch(url, { cache: 'force-cache' } as any);
             if (!resp.ok) continue;
             const parsed = await resp.json();
