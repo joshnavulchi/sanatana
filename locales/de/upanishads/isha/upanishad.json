@@ -1,0 +1,61 @@
+{
+  "upanishads_isha-upanishad": {
+    "title": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
+    "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+    "meta": {
+      "title": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "canonical": "https://sanatanadharmam.in/upanishads/isha-upanishad",
+      "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "keywords": [
+        "Isha Upanishad",
+        "Upanishads",
+        "Vedanta",
+        "Atman",
+        "Brahman",
+        "Sanatana Dharma"
+      ],
+      "robots": "index, follow",
+      "url": "https://sanatanadharmam.in/upanishads/isha-upanishad",
+      "ogImage": "https://sanatanadharmam.in/og/upanishads_isha_upanishad.png"
+    },
+    "openGraph": {
+      "title": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "url": "https://sanatanadharmam.in/upanishads/isha-upanishad",
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/upanishads_isha_upanishad.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "name": "Isha Upanishad – Upanishad Teachings in Sanātana Dharma",
+      "description": "Overview of Isha Upanishad: core themes, key ideas, and why this Upanishad matters for understanding Atman, Brahman, and liberation.",
+      "url": "https://sanatanadharmam.in/upanishads/isha-upanishad",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Sanatanadharmam",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "introduction": "Isha Upanishad is one of the principal Upanishads—texts that explore the deepest questions of human life: Who am I? What is real? What is the Self (Atman) and the ultimate reality (Brahman)?\n\nUpanishadic teaching is often presented as dialogue and inquiry. Rather than offering a single “belief”, it trains attention and discernment so a seeker can move from outer identity to inner truth.\n\nA distinctive feature of the Isha Upanishad is the way it joins renunciation with right action: it teaches inner non-attachment while living responsibly in the world.",
+    "scripture_text": [
+      {
+        "section": "Central themes",
+        "content": "Inner renunciation, seeing the Divine presence within and around, freedom from possessiveness, and the discipline of acting without ego-driven attachment."
+      },
+      {
+        "section": "Practice reflection",
+        "content": "The text invites a balanced life: perform your duties, but let go of the “I own” and “I control” mindset. This is a practical doorway to peace."
+      }
+    ],
+    "philosophical_explanation": "Philosophically, Isha emphasizes a unified vision: the same reality is present in movement and stillness, in the near and the far. When this vision becomes stable, fear and greed soften, and action becomes cleaner—more like service than self-assertion."
+  }
+}

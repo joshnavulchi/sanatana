@@ -1,0 +1,62 @@
+// @ts-nocheck
+// Auto-generated index for folder 'ja\itihasa\ramayana\itihasa\ramayana\uttara\kanda'
+// Imports local JSON files and child folder indexes, deep-merging them into one export.
+import _j0 from './sarga1.json';
+import _j1 from './sarga10.json';
+import _j2 from './sarga11.json';
+import _j3 from './sarga12.json';
+import _j4 from './sarga13.json';
+import _j5 from './sarga14.json';
+import _j6 from './sarga15.json';
+import _j7 from './sarga16.json';
+import _j8 from './sarga17.json';
+import _j9 from './sarga18.json';
+import _j10 from './sarga19.json';
+import _j11 from './sarga2.json';
+import _j12 from './sarga20.json';
+import _j13 from './sarga21.json';
+import _j14 from './sarga22.json';
+import _j15 from './sarga23.json';
+import _j16 from './sarga24.json';
+import _j17 from './sarga25.json';
+import _j18 from './sarga26.json';
+import _j19 from './sarga27.json';
+import _j20 from './sarga28.json';
+import _j21 from './sarga29.json';
+import _j22 from './sarga3.json';
+import _j23 from './sarga30.json';
+import _j24 from './sarga31.json';
+import _j25 from './sarga32.json';
+import _j26 from './sarga33.json';
+import _j27 from './sarga34.json';
+import _j28 from './sarga35.json';
+import _j29 from './sarga36.json';
+import _j30 from './sarga37.json';
+import _j31 from './sarga38.json';
+import _j32 from './sarga39.json';
+import _j33 from './sarga4.json';
+import _j34 from './sarga40.json';
+import _j35 from './sarga5.json';
+import _j36 from './sarga6.json';
+import _j37 from './sarga7.json';
+import _j38 from './sarga8.json';
+import _j39 from './sarga9.json';
+
+function deepMerge(target: any, source: any) {
+  if (source === undefined) return target;
+  if (Array.isArray(target) && Array.isArray(source)) {
+    const out = target.slice();
+    for (let i = 0; i < source.length; i++) out[i] = deepMerge(out[i], source[i]);
+    return out;
+  }
+  if (target && typeof target === 'object' && source && typeof source === 'object') {
+    const out: any = { ...target };
+    for (const k of Object.keys(source)) out[k] = deepMerge(target ? target[k] : undefined, source[k]);
+    return out;
+  }
+  return source;
+}
+
+const base: any = {};
+const merged = ([_j0, _j1, _j2, _j3, _j4, _j5, _j6, _j7, _j8, _j9, _j10, _j11, _j12, _j13, _j14, _j15, _j16, _j17, _j18, _j19, _j20, _j21, _j22, _j23, _j24, _j25, _j26, _j27, _j28, _j29, _j30, _j31, _j32, _j33, _j34, _j35, _j36, _j37, _j38, _j39] as any[]).reduce((acc: any, cur: any) => deepMerge(acc, cur || {}), base as any);
+export default merged;

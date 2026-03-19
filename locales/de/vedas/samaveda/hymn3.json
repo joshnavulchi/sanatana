@@ -1,0 +1,33 @@
+{
+  "samaveda_hymn3": {
+    "title": "Soma Decades – Purvarchika",
+    "description": "The Soma decades form the largest section of the Purvarchika and contain hymns dedicated to the sacred Soma ritual drink.",
+    "meta": {
+      "title": "Soma Decades – Purvarchika",
+      "canonical": "https://sanatanadharmam.in/vedas/samaveda/hymn-3",
+      "description": "The Soma decades form the largest section of the Purvarchika and contain hymns dedicated to the sacred Soma ritual drink.",
+      "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-3"
+    },
+    "openGraph": {
+      "title": "Soma Decades – Purvarchika",
+      "description": "The Soma decades form the largest section of the Purvarchika and contain hymns dedicated to the sacred Soma ritual drink.",
+      "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-3",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "chapter": {
+      "slug": "samaveda",
+      "key": "hymn-3",
+      "label": "Hymn 3",
+      "path": "/vedas/samaveda/hymn-3"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 3,
+      "path": "/vedas/samaveda/hymn-3"
+    },
+    "introduction": "The Soma decades form the largest section of the Purvarchika and contain hymns dedicated to the sacred Soma ritual drink.",
+    "scripture_text": "A representative Samavedic hymn passage for Hymn 3, expressing melodic devotion, sacred recitation, and meditative harmony.",
+    "philosophical_explanation": "Soma represents divine inspiration and spiritual ecstasy. The musical worship of Soma through Samagana was believed to generate the highest forms of spiritual experience accessible through ritual practice."
+  }
+}

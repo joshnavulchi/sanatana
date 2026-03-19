@@ -1,0 +1,33 @@
+{
+  "yajurveda_chapter5_mantra1": {
+    "title": "Yajurveda Chapter 5 Mantra 1",
+    "description": "This mantra belongs to Yajurveda Chapter 5.",
+    "meta": {
+      "title": "Yajurveda Chapter 5 Mantra 1",
+      "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-5/mantra-1",
+      "description": "This mantra belongs to Yajurveda Chapter 5.",
+      "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-5/mantra-1"
+    },
+    "openGraph": {
+      "title": "Yajurveda Chapter 5 Mantra 1",
+      "description": "This mantra belongs to Yajurveda Chapter 5.",
+      "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-5/mantra-1",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "chapter": {
+      "slug": "yajurveda",
+      "key": "chapter-5",
+      "label": "Chapter 5",
+      "path": "/vedas/yajurveda/chapter-5"
+    },
+    "item": {
+      "prefix": "mantra",
+      "number": 1,
+      "path": "/vedas/yajurveda/chapter-5/mantra-1"
+    },
+    "introduction": "This mantra belongs to Yajurveda Chapter 5.",
+    "scripture_text": "A representative Yajurvedic mantra passage for Chapter 5, Mantra 1, invoking sacred offering, disciplined action, and inner purification.",
+    "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention."
+  }
+}

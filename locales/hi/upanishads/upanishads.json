@@ -1,0 +1,191 @@
+{
+  "upanishads": {
+    "title": "108 Upanishads",
+    "description": "The 108 Upanishads are sacred philosophical texts of Sanatana Dharma exploring Brahman, Atman, liberation and ultimate reality.",
+    "meta": {
+      "title": "108 Upanishads – Teachings on Brahman and Renunciation",
+      "canonical": "https://sanatanadharmam.in/upanishads/isha",
+      "description": "The Isha Upanishad from the Shukla Yajurveda explores the unity of Atman and Brahman, renunciation, and the spiritual philosophy of Sanatana Dharma.",
+      "keywords": [
+        "108 Upanishads",
+        "Isha Upanishad",
+        "Upanishads philosophy",
+        "Vedanta teachings",
+        "Atman and Brahman",
+        "Vedic scriptures",
+        "Sanatana Dharma Upanishads"
+      ],
+      "robots": "index, follow",
+      "url": "https://sanatanadharmam.in/upanishads/isha"
+    },
+    "openGraph": {
+      "title": "Isha Upanishad – Sacred Vedantic Text",
+      "description": "Explore the teachings of the Isha Upanishad discussing Brahman, Atman and renunciation in the Vedic tradition.",
+      "url": "https://sanatanadharmam.in/upanishads/isha",
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/upanishads-isha.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Isha Upanishad"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Book",
+          "name": "Isha Upanishad",
+          "isPartOf": {
+            "@type": "Book",
+            "name": "Upanishads"
+          },
+          "inLanguage": "Sanskrit",
+          "about": [
+            "Vedanta philosophy",
+            "Atman",
+            "Brahman",
+            "Sanatana Dharma"
+          ],
+          "url": "https://sanatanadharmam.in/upanishads/isha"
+        },
+        {
+          "@type": "Article",
+          "headline": "Isha Upanishad – Teachings on Brahman and Renunciation",
+          "about": ["Upanishads", "Vedanta", "Brahman", "Atman"],
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Sanatanadharmam",
+            "url": "https://sanatanadharmam.in"
+          }
+        }
+      ]
+    },
+    "total": 108,
+    "categories": {
+      "rigveda": [
+        "Aitareya",
+        "Kaushitaki",
+        "Nadabindu",
+        "Atmabodha",
+        "Nirvana",
+        "Mudgala",
+        "Akshamalika",
+        "Tripura",
+        "Saubhagyalakshmi",
+        "Bahvricha"
+      ],
+      "shukla_yajurveda": [
+        "Isha",
+        "Brihadaranyaka",
+        "Jabala",
+        "Hamsa",
+        "Paramahamsa",
+        "Subala",
+        "Mantrika",
+        "Niralamba",
+        "Trishikhi Brahmana",
+        "Mandala Brahmana",
+        "Advayataraka",
+        "Paingala",
+        "Bhikshuka",
+        "Turiyatita",
+        "Adhyatma",
+        "Tarasara",
+        "Yajnavalkya",
+        "Shatyayani",
+        "Muktika"
+      ],
+      "krishna_yajurveda": [
+        "Katha",
+        "Taittiriya",
+        "Brahma",
+        "Kaivalya",
+        "Shvetashvatara",
+        "Garbh",
+        "Narayana",
+        "Amritabindu",
+        "Amritanada",
+        "Kalagnirudra",
+        "Kshurika",
+        "Sarvasara",
+        "Sukarahasya",
+        "Tejobindu",
+        "Dhyanabindu",
+        "Brahmavidya",
+        "Yogatattva",
+        "Dakshinamurti",
+        "Skanda",
+        "Shariraka",
+        "Yogashikha",
+        "Ekakshara",
+        "Akshi",
+        "Avadhuta",
+        "Katharudra",
+        "Rudrahridaya",
+        "Yoga Kundalini",
+        "Panchabrahma",
+        "Pranagnihotra",
+        "Varaha",
+        "Kali Santarana",
+        "Sarasvatirahasya"
+      ],
+      "samaveda": [
+        "Kena",
+        "Chandogya",
+        "Aruni",
+        "Maitrayani",
+        "Maitreya",
+        "Vajrasuchika",
+        "Yogachudamani",
+        "Vasudeva",
+        "Mahat",
+        "Sannyasa",
+        "Avyakta",
+        "Kundika",
+        "Savitri",
+        "Rudraksha",
+        "Darshana",
+        "Jabali"
+      ],
+      "atharvaveda": [
+        "Prashna",
+        "Mundaka",
+        "Mandukya",
+        "Atharvashira",
+        "Atharvashikha",
+        "Brihajjabala",
+        "Nrisimhatapini",
+        "Narada Parivrajaka",
+        "Sita",
+        "Sharabha",
+        "Mahanarayana",
+        "Ramatapini",
+        "Rama Rahasya",
+        "Rama Uttara",
+        "Gopala Tapini",
+        "Krishna",
+        "Hayagriva",
+        "Dattatreya",
+        "Garuda",
+        "Kali Santarana",
+        "Bhavana",
+        "Rudra",
+        "Sannyasa",
+        "Paramahamsa Parivrajaka",
+        "Annapurna",
+        "Surya",
+        "Atma",
+        "Pashupata",
+        "Parabrahma",
+        "Tripuratapini",
+        "Devi",
+        "Tripura",
+        "Bhavanopanishad"
+      ]
+    }
+  }
+}

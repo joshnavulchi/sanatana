@@ -1,0 +1,352 @@
+{
+  "dataset": "indian_science_engineering_history",
+  "timeline_start": "8000 BCE",
+  "timeline_end": "Present",
+  "indian_science_timeline": [
+    {
+      "period": "8000 BCE",
+      "domain": "agriculture",
+      "event": "Early farming settlements in Mehrgarh",
+      "impact": "Domestication of wheat and barley"
+    },
+    {
+      "period": "3000 BCE",
+      "domain": "urban_planning",
+      "event": "Grid based cities developed in Indus region",
+      "impact": "Planned drainage and standardized bricks"
+    },
+    {
+      "period": "1500 BCE",
+      "domain": "astronomy",
+      "event": "Early Vedic astronomical observations",
+      "impact": "Calendar systems and seasonal cycles"
+    },
+    {
+      "period": "600 BCE",
+      "domain": "mathematics",
+      "event": "Sulba Sutras geometry",
+      "impact": "Early geometry for altar construction"
+    },
+    {
+      "period": "500 CE",
+      "domain": "mathematics",
+      "event": "Decimal system and zero",
+      "impact": "Foundation of modern arithmetic"
+    },
+    {
+      "period": "1200 CE",
+      "domain": "metallurgy",
+      "event": "Advanced steel production",
+      "impact": "Export of Indian steel worldwide"
+    },
+    {
+      "period": "1700 CE",
+      "domain": "hydraulic_engineering",
+      "event": "Expansion of irrigation tanks",
+      "impact": "Agricultural growth in South India"
+    }
+  ],
+  "ancient_indian_mathematics": {
+    "major_texts": [
+      {
+        "name": "Sulba Sutras",
+        "period": "800–500 BCE",
+        "topics": [
+          "geometry",
+          "square root approximations",
+          "right triangle theorem"
+        ]
+      },
+      {
+        "name": "Aryabhatiya",
+        "author": "Aryabhata",
+        "period": "499 CE",
+        "topics": [
+          "trigonometry",
+          "pi approximation",
+          "astronomical calculations"
+        ]
+      }
+    ],
+    "discoveries": [
+      {
+        "name": "Zero",
+        "period": "5th century CE",
+        "impact": "Revolutionized mathematics"
+      },
+      {
+        "name": "Decimal system",
+        "period": "Gupta period",
+        "impact": "Place value number system"
+      },
+      {
+        "name": "Trigonometry",
+        "period": "5th century",
+        "impact": "Used in astronomy and navigation"
+      }
+    ]
+  },
+  "irrigation_engineering": {
+    "stepwells": [
+      {
+        "name": "Rani ki Vav",
+        "location": "Gujarat",
+        "period": "11th century",
+        "purpose": "Water storage and groundwater access"
+      },
+      {
+        "name": "Chand Baori",
+        "location": "Rajasthan",
+        "period": "9th century",
+        "purpose": "Deep stepwell for desert water storage"
+      }
+    ],
+    "ancient_dams": [
+      {
+        "name": "Kallanai Dam",
+        "location": "Tamil Nadu",
+        "period": "2nd century CE",
+        "built_by": "Chola dynasty",
+        "purpose": "Irrigation diversion dam"
+      }
+    ],
+    "irrigation_systems": [
+      "canal irrigation",
+      "tank irrigation",
+      "stepwell water storage",
+      "rainwater harvesting"
+    ]
+  },
+  "temple_engineering": {
+    "architectural_principles": [
+      "Vastu Shastra geometry",
+      "load distribution using stone interlocking",
+      "symmetrical structural design"
+    ],
+    "earthquake_resistance": {
+      "methods": [
+        "interlocking stone blocks",
+        "wide base foundation",
+        "flexible stone joints"
+      ]
+    },
+    "acoustic_design": {
+      "features": [
+        "resonant halls",
+        "stone pillars producing musical tones",
+        "echo control through geometry"
+      ]
+    },
+    "examples": [
+      {
+        "temple": "Brihadeeswara Temple",
+        "feature": "massive granite structure with balanced weight distribution"
+      },
+      {
+        "temple": "Hampi Vittala Temple",
+        "feature": "musical pillars producing harmonic tones"
+      }
+    ]
+  },
+  "ancient_city_planning": {
+    "cities": [
+      {
+        "name": "Harappa",
+        "features": [
+          "grid street layout",
+          "standardized brick sizes",
+          "drainage systems"
+        ]
+      },
+      {
+        "name": "Mohenjo-daro",
+        "features": [
+          "public bath complex",
+          "underground drainage",
+          "well planned housing"
+        ]
+      }
+    ],
+    "urban_engineering_features": [
+      "covered drainage channels",
+      "rainwater drainage",
+      "public water wells",
+      "waste management systems"
+    ]
+  },
+  "dataset1": "indian_science_engineering_history",
+  "timeline_start1": "8000 BCE",
+  "timeline_end1": "Present",
+  "indian_science_timeline1": [
+    {
+      "period": "8000 BCE",
+      "domain": "agriculture",
+      "event": "Early farming settlements in Mehrgarh",
+      "impact": "Domestication of wheat and barley"
+    },
+    {
+      "period": "3000 BCE",
+      "domain": "urban_planning",
+      "event": "Grid based cities developed in Indus region",
+      "impact": "Planned drainage and standardized bricks"
+    },
+    {
+      "period": "1500 BCE",
+      "domain": "astronomy",
+      "event": "Early Vedic astronomical observations",
+      "impact": "Calendar systems and seasonal cycles"
+    },
+    {
+      "period": "600 BCE",
+      "domain": "mathematics",
+      "event": "Sulba Sutras geometry",
+      "impact": "Early geometry for altar construction"
+    },
+    {
+      "period": "500 CE",
+      "domain": "mathematics",
+      "event": "Decimal system and zero",
+      "impact": "Foundation of modern arithmetic"
+    },
+    {
+      "period": "1200 CE",
+      "domain": "metallurgy",
+      "event": "Advanced steel production",
+      "impact": "Export of Indian steel worldwide"
+    },
+    {
+      "period": "1700 CE",
+      "domain": "hydraulic_engineering",
+      "event": "Expansion of irrigation tanks",
+      "impact": "Agricultural growth in South India"
+    }
+  ],
+  "ancient_indian_mathematics1": {
+    "major_texts": [
+      {
+        "name": "Sulba Sutras",
+        "period": "800–500 BCE",
+        "topics": [
+          "geometry",
+          "square root approximations",
+          "right triangle theorem"
+        ]
+      },
+      {
+        "name": "Aryabhatiya",
+        "author": "Aryabhata",
+        "period": "499 CE",
+        "topics": [
+          "trigonometry",
+          "pi approximation",
+          "astronomical calculations"
+        ]
+      }
+    ],
+    "discoveries": [
+      {
+        "name": "Zero",
+        "period": "5th century CE",
+        "impact": "Revolutionized mathematics"
+      },
+      {
+        "name": "Decimal system",
+        "period": "Gupta period",
+        "impact": "Place value number system"
+      },
+      {
+        "name": "Trigonometry",
+        "period": "5th century",
+        "impact": "Used in astronomy and navigation"
+      }
+    ]
+  },
+  "irrigation_engineering1": {
+    "stepwells": [
+      {
+        "name": "Rani ki Vav",
+        "location": "Gujarat",
+        "period": "11th century",
+        "purpose": "Water storage and groundwater access"
+      },
+      {
+        "name": "Chand Baori",
+        "location": "Rajasthan",
+        "period": "9th century",
+        "purpose": "Deep stepwell for desert water storage"
+      }
+    ],
+    "ancient_dams": [
+      {
+        "name": "Kallanai Dam",
+        "location": "Tamil Nadu",
+        "period": "2nd century CE",
+        "built_by": "Chola dynasty",
+        "purpose": "Irrigation diversion dam"
+      }
+    ],
+    "irrigation_systems": [
+      "canal irrigation",
+      "tank irrigation",
+      "stepwell water storage",
+      "rainwater harvesting"
+    ]
+  },
+  "temple_engineering1": {
+    "architectural_principles": [
+      "Vastu Shastra geometry",
+      "load distribution using stone interlocking",
+      "symmetrical structural design"
+    ],
+    "earthquake_resistance": {
+      "methods": [
+        "interlocking stone blocks",
+        "wide base foundation",
+        "flexible stone joints"
+      ]
+    },
+    "acoustic_design": {
+      "features": [
+        "resonant halls",
+        "stone pillars producing musical tones",
+        "echo control through geometry"
+      ]
+    },
+    "examples": [
+      {
+        "temple": "Brihadeeswara Temple",
+        "feature": "massive granite structure with balanced weight distribution"
+      },
+      {
+        "temple": "Hampi Vittala Temple",
+        "feature": "musical pillars producing harmonic tones"
+      }
+    ]
+  },
+  "ancient_city_planning1": {
+    "cities": [
+      {
+        "name": "Harappa",
+        "features": [
+          "grid street layout",
+          "standardized brick sizes",
+          "drainage systems"
+        ]
+      },
+      {
+        "name": "Mohenjo-daro",
+        "features": [
+          "public bath complex",
+          "underground drainage",
+          "well planned housing"
+        ]
+      }
+    ],
+    "urban_engineering_features": [
+      "covered drainage channels",
+      "rainwater drainage",
+      "public water wells",
+      "waste management systems"
+    ]
+  }
+}

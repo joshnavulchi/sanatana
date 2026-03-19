@@ -1,0 +1,33 @@
+{
+  "samaveda_hymn4": {
+    "title": "Uttararchika – Ritual Songs",
+    "description": "The Uttararchika organizes its 1225 verses into liturgical groups specifically designed for performance during Vedic sacrifices.",
+    "meta": {
+      "title": "Uttararchika – Ritual Songs",
+      "canonical": "https://sanatanadharmam.in/vedas/samaveda/hymn-4",
+      "description": "The Uttararchika organizes its 1225 verses into liturgical groups specifically designed for performance during Vedic sacrifices.",
+      "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-4"
+    },
+    "openGraph": {
+      "title": "Uttararchika – Ritual Songs",
+      "description": "The Uttararchika organizes its 1225 verses into liturgical groups specifically designed for performance during Vedic sacrifices.",
+      "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-4",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "chapter": {
+      "slug": "samaveda",
+      "key": "hymn-4",
+      "label": "Hymn 4",
+      "path": "/vedas/samaveda/hymn-4"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 4,
+      "path": "/vedas/samaveda/hymn-4"
+    },
+    "introduction": "The Uttararchika organizes its 1225 verses into liturgical groups specifically designed for performance during Vedic sacrifices.",
+    "scripture_text": "A representative Samavedic hymn passage for Hymn 4, expressing melodic devotion, sacred recitation, and meditative harmony.",
+    "philosophical_explanation": "The liturgical organization reflects the understanding that music and ritual together create a comprehensive spiritual practice that engages all aspects of human experience."
+  }
+}

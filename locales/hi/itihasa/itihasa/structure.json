@@ -1,0 +1,27 @@
+{
+  "itihasa_structure": {
+    "title": "Itihasa Structure",
+    "description": "Combined Itihasa structure for Ramayana, Mahabharata, and Bhagavad Gita.",
+    "total_leaf_pages": 800,
+    "sections": [
+      {
+        "slug": "ramayana",
+        "total_leaf_pages": 350,
+        "path": "/itihasa/ramayana",
+        "content_model": "kanda/sarga"
+      },
+      {
+        "slug": "mahabharata",
+        "total_leaf_pages": 360,
+        "path": "/itihasa/mahabharata",
+        "content_model": "parva/chapter"
+      },
+      {
+        "slug": "bhagavad-gita",
+        "total_leaf_pages": 90,
+        "path": "/itihasa/bhagavad-gita",
+        "content_model": "chapter/verse"
+      }
+    ]
+  }
+}

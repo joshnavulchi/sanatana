@@ -1,0 +1,26 @@
+{
+  "kurma_chapter3": {
+    "title": "Kurma Purana Chapter 3",
+    "description": "Chapter 3 from Kurma Purana.",
+    "meta": {
+      "title": "Kurma Purana Chapter 3",
+      "canonical": "https://sanatanadharmam.in/puranas/kurma/chapter-3",
+      "description": "Chapter 3 from Kurma Purana.",
+      "url": "https://sanatanadharmam.in/puranas/kurma/chapter-3"
+    },
+    "openGraph": {
+      "title": "Kurma Purana Chapter 3",
+      "description": "Chapter 3 from Kurma Purana.",
+      "url": "https://sanatanadharmam.in/puranas/kurma/chapter-3",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This chapter belongs to Kurma Purana.",
+    "scripture_text": "Chapter-level summary text for Kurma Purana, Chapter 3.",
+    "philosophical_explanation": "Kurma Purana chapters combine dharma, devotion, and symbolic teaching.",
+    "chapter": {
+      "number": 3,
+      "path": "/puranas/kurma/chapter-3"
+    }
+  }
+}

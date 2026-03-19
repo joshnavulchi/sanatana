@@ -1,0 +1,33 @@
+{
+  "rigveda_mandala10_hymn175": {
+    "title": "Rigveda Mandala 10 Hymn 175",
+    "description": "This hymn belongs to Mandala 10 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "meta": {
+      "title": "Rigveda Mandala 10 Hymn 175",
+      "canonical": "https://sanatanadharmam.in/vedas/rigveda/mandala-10/hymn-175",
+      "description": "This hymn belongs to Mandala 10 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-10/hymn-175"
+    },
+    "openGraph": {
+      "title": "Rigveda Mandala 10 Hymn 175",
+      "description": "This hymn belongs to Mandala 10 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+      "url": "https://sanatanadharmam.in/vedas/rigveda/mandala-10/hymn-175",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "chapter": {
+      "slug": "rigveda",
+      "key": "mandala-10",
+      "label": "Mandala 10",
+      "path": "/vedas/rigveda/mandala-10"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 175,
+      "path": "/vedas/rigveda/mandala-10/hymn-175"
+    },
+    "introduction": "This hymn belongs to Mandala 10 of the Rigveda. Rigvedic hymns are ancient Vedic verses revealed to sages (Rishis) and dedicated to cosmic principles and deities such as Agni, Indra, Varuna, Surya, Soma and others.",
+    "scripture_text": "A representative Rigvedic mantra passage for Mandala 10, Hymn 175, celebrating divine light, sacred order, and contemplative insight.",
+    "philosophical_explanation": "Rigvedic hymns often express reverence for natural forces and cosmic order (Rta). They reflect early Vedic philosophy exploring the relationship between humans, nature and the divine. Many hymns emphasize harmony, sacrifice (yajna), spiritual insight, and the search for truth."
+  }
+}

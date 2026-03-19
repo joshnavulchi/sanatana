@@ -1,0 +1,30 @@
+{
+  "bhavishya_chapter1_verse1": {
+    "title": "Bhavishya Purana Chapter 1 Verse 1",
+    "description": "Verse 1 from Bhavishya Purana, Chapter 1.",
+    "meta": {
+      "title": "Bhavishya Purana Chapter 1 Verse 1",
+      "canonical": "https://sanatanadharmam.in/puranas/bhavishya/chapter-1/verse-1",
+      "description": "Verse 1 from Bhavishya Purana, Chapter 1.",
+      "url": "https://sanatanadharmam.in/puranas/bhavishya/chapter-1/verse-1"
+    },
+    "openGraph": {
+      "title": "Bhavishya Purana Chapter 1 Verse 1",
+      "description": "Verse 1 from Bhavishya Purana, Chapter 1.",
+      "url": "https://sanatanadharmam.in/puranas/bhavishya/chapter-1/verse-1",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This verse belongs to Bhavishya Purana, Chapter 1.",
+    "scripture_text": "In Bhavishya Purana, Chapter 1, Verse 1, this passage contemplates dharma, devotion, and self-knowledge, guiding the seeker toward clarity and compassion.",
+    "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Bhavishya Purana.",
+    "chapter": {
+      "number": 1,
+      "path": "/puranas/bhavishya/chapter-1"
+    },
+    "verse": {
+      "number": 1,
+      "path": "/puranas/bhavishya/chapter-1/verse-1"
+    }
+  }
+}

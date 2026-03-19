@@ -1,0 +1,26 @@
+{
+  "kurma_chapter4": {
+    "title": "Kurma Purana Chapter 4",
+    "description": "Chapter 4 from Kurma Purana.",
+    "meta": {
+      "title": "Kurma Purana Chapter 4",
+      "canonical": "https://sanatanadharmam.in/puranas/kurma/chapter-4",
+      "description": "Chapter 4 from Kurma Purana.",
+      "url": "https://sanatanadharmam.in/puranas/kurma/chapter-4"
+    },
+    "openGraph": {
+      "title": "Kurma Purana Chapter 4",
+      "description": "Chapter 4 from Kurma Purana.",
+      "url": "https://sanatanadharmam.in/puranas/kurma/chapter-4",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This chapter belongs to Kurma Purana.",
+    "scripture_text": "Chapter-level summary text for Kurma Purana, Chapter 4.",
+    "philosophical_explanation": "Kurma Purana chapters combine dharma, devotion, and symbolic teaching.",
+    "chapter": {
+      "number": 4,
+      "path": "/puranas/kurma/chapter-4"
+    }
+  }
+}

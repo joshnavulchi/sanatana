@@ -1,0 +1,478 @@
+{
+  "world_transformation": {
+    "meta": {
+      "title": "Earth changes by decades - Sanātana Dharma - The Eternal Way of Life",
+      "canonical": "https://sanatanadharmam.in/world-transformation",
+      "description": "Earth changes by decades - Sanātana Dharma — Explore Sanātana Dharma: the eternal principles of Hinduism, Vedic traditions, spiritual practices, and wisdom from scriptures like the...",
+      "keywords": [
+        "20th century history",
+        "21st century history",
+        "Border changes",
+        "Cold War influence",
+        "Decadal transformations",
+        "Decolonization effects",
+        "Earth changes",
+        "Educational resources on history",
+        "Geopolitical history",
+        "Geopolitical shifts",
+        "Global events timeline",
+        "Global history overview",
+        "Globalization impact on borders",
+        "Historical border changes",
+        "Historical cartography",
+        "Historical events impact",
+        "Historical geography",
+        "Historical map accessibility",
+        "Historical map accuracy",
+        "Historical map analysis",
+        "Historical map best practices",
+        "Historical map bias",
+        "Historical map case studies",
+        "Historical map challenges",
+        "Historical map collaboration",
+        "Historical map community",
+        "Historical map creation tools",
+        "Historical map data sources",
+        "Historical map design",
+        "Historical map diversity",
+        "Historical map education",
+        "Historical map engagement",
+        "Historical map ethics",
+        "Historical map examples",
+        "Historical map features",
+        "Historical map feedback",
+        "Historical map future directions",
+        "Historical map impact",
+        "Historical map improvement",
+        "Historical map inclusivity",
+        "Historical map innovation",
+        "Historical map interactivity",
+        "Historical map interpretation",
+        "Historical map legends",
+        "Historical map outreach",
+        "Historical map overlays",
+        "Historical map projections",
+        "Historical map relevance",
+        "Historical map representation",
+        "Historical map significance",
+        "Historical map storytelling",
+        "Historical map sustainability",
+        "Historical map technology",
+        "Historical map visualizations",
+        "Historical maps",
+        "Historical timelines",
+        "Interactive world maps",
+        "International relations evolution",
+        "Modern geopolitical trends",
+        "Post-Cold War changes",
+        "World transformation",
+        "World wars impact"
+      ],
+      "ogimage": "images/og/earth_changes_by_decade.json.png",
+      "url": "https://sanatanadharmam.in/world-transformation"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "English",
+            "Español",
+            "Français",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Nederlands",
+            "Português",
+            "Русский",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "decades": [
+      {
+        "decade": "1900–1909",
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1900.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "mandate",
+              "d": "M 820 710 L 860 690 L 890 730 L 865 760 Z",
+              "featurename": "Colonial Reorganization (Africa, examples)",
+              "id": "afr_mandates_placeholder",
+              "notes": "Replace with real polygon(s) derived from GIS.",
+              "tooltip": "Colonial protectorates and mandates formalized (illustrative)",
+              "type": "path"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Colonial Expansion",
+        "whatchanged": [
+          "Colonial borders expanded",
+          "Few independent new states"
+        ],
+        "why": ["European imperialism"]
+      },
+      {
+        "decade": "1910–1919",
+        "examples": ["Poland re‑created", "Ottoman territories partitioned"],
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1918.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "new_state",
+              "d": "M 1050 360 L 1100 355 L 1125 380 L 1080 395 Z",
+              "featurename": "Poland (re-established)",
+              "id": "europe_poland_1918",
+              "notes": "Use accurate shape for final.",
+              "tooltip": "Poland re‑established after WWI (illustrative extent)",
+              "type": "path"
+            },
+            {
+              "changetype": "mandate",
+              "d": "M 1205 455 L 1260 470 L 1245 505 L 1198 495 Z",
+              "featurename": "Ottoman Partition (selected mandates)",
+              "id": "me_partition_1919",
+              "tooltip": "Ottoman Arab provinces placed under mandates (illustrative)",
+              "type": "path"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "World War I Redraw",
+        "whatchanged": ["Collapse of empires", "New European states"],
+        "why": ["World War I", "Treaty settlements"]
+      },
+      {
+        "decade": "1920–1929",
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1925.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "status_change",
+              "d": "M 900 720 L 960 710 L 980 750 L 920 770 Z",
+              "featurename": "Fixed Colonial Lines (Africa, examples)",
+              "id": "africa_lines_1920s",
+              "tooltip": "Colonial borders formalized (illustrative)",
+              "type": "path"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Mandate System",
+        "whatchanged": ["Borders formalized", "Mandates replace empires"],
+        "why": ["League of Nations mandates"]
+      },
+      {
+        "decade": "1930–1939",
+        "examples": ["German expansion", "Japanese expansion"],
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1939.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "annexation",
+              "d": "M 1040 420 L 1065 418 L 1075 430 L 1050 435 Z",
+              "featurename": "Austria into Germany (Anschluss)",
+              "id": "europe_anschluss_1938",
+              "tooltip": "Austria annexed by Germany (illustrative)",
+              "type": "path"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Aggressive Expansion",
+        "whatchanged": ["Borders altered by force"],
+        "why": ["Rise of fascism", "Pre‑WWII militarization"]
+      },
+      {
+        "decade": "1940–1949",
+        "examples": [
+          "Germany divided",
+          "Korea divided",
+          "India–Pakistan partition"
+        ],
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1947.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "partition",
+              "d": "M 1325 565 L 1385 565 L 1390 600 L 1335 600 Z",
+              "featurename": "Partition of British India",
+              "id": "south_asia_partition_1947",
+              "tooltip": "Partition creating India & Pakistan (illustrative)",
+              "type": "path"
+            },
+            {
+              "changetype": "partition",
+              "d": "M 1545 470 L 1560 465 L 1568 478 L 1550 485 Z",
+              "featurename": "Division of Korea",
+              "id": "korea_division_1945",
+              "tooltip": "Korea divided at ~38th parallel (illustrative)",
+              "type": "path"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "World War II Redraw",
+        "whatchanged": ["Massive boundary changes", "Partitions"],
+        "why": ["WWII result", "Cold War start"]
+      },
+      {
+        "decade": "1950–1959",
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1955.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "new_state",
+              "d": "M 1060 640 L 1160 635 L 1165 670 L 1065 675 Z",
+              "featurename": "North African Independence (examples)",
+              "id": "north_africa_1950s",
+              "tooltip": "Independence movements succeed (illustrative)",
+              "type": "path"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Early Decolonization",
+        "whatchanged": ["Asian & African nations emerge"],
+        "why": ["Independence movements"]
+      },
+      {
+        "decade": "1960–1969",
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1965.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "new_state",
+              "d": "M 880 720 L 1000 700 L 1005 790 L 900 800 Z",
+              "featurename": "African Independence Wave",
+              "id": "africa_wave_1960s",
+              "tooltip": "Multiple new states across Africa (illustrative)",
+              "type": "path"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "African Independence Wave",
+        "whatchanged": ["Dozens of new countries"],
+        "why": ["Rapid decolonization"]
+      },
+      {
+        "decade": "1970–1989",
+        "examples": [
+          "Bangladesh independence (1971)",
+          "Vietnam reunification (1976)"
+        ],
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-1980.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "new_state",
+              "d": "M 1395 590 L 1410 592 L 1415 605 L 1398 607 Z",
+              "featurename": "Bangladesh",
+              "id": "bangladesh_1971",
+              "tooltip": "Bangladesh independence (illustrative)",
+              "type": "path"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Cold War Stability",
+        "whatchanged": ["Few formal boundary changes"],
+        "why": ["Power balance & deterrence"]
+      },
+      {
+        "decade": "1990–1999",
+        "examples": ["15 post‑Soviet states", "Balkans redrawn"],
+        "map": {
+          "interactivemap": "https://www.histochart.com",
+          "staticmap": "/maps/world-1995.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "dissolution",
+              "d": "M 1180 260 L 1500 260 L 1500 420 L 1180 420 Z",
+              "featurename": "Post‑Soviet States",
+              "id": "ussr_breakup_1991",
+              "tooltip": "USSR dissolution (bounding box illustrative)",
+              "type": "path"
+            },
+            {
+              "changetype": "dissolution",
+              "d": "M 1120 420 L 1160 420 L 1170 450 L 1125 455 Z",
+              "featurename": "Former Yugoslavia",
+              "id": "yugoslavia_breakup_1990s",
+              "tooltip": "Yugoslavia breakup (illustrative)",
+              "type": "path"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Collapse of Socialist Federations",
+        "whatchanged": ["Many new countries formed"],
+        "why": ["USSR & Yugoslavia dissolution"]
+      },
+      {
+        "decade": "2000–2025",
+        "examples": ["South Sudan (2011)"],
+        "map": {
+          "interactivemap": "https://atlas.ostellus.com",
+          "staticmap": "/maps/world-2025.png"
+        },
+        "svgoverlay": {
+          "features": [
+            {
+              "changetype": "new_state",
+              "d": "M 1140 720 L 1165 718 L 1170 740 L 1145 742 Z",
+              "featurename": "South Sudan",
+              "id": "south_sudan_2011",
+              "tooltip": "South Sudan independence (illustrative)",
+              "type": "path"
+            }
+          ],
+          "viewbox": "0 0 2048 1024"
+        },
+        "theme": "Modern Border Stability",
+        "whatchanged": ["Rare new countries", "Borders largely unchanged"],
+        "why": ["International law", "Globalization", "Deterrence"]
+      }
+    ],
+    "historic_decades": "Historical Decades",
+    "legend": {
+      "aria": {
+        "title": "Decade overlay of border changes",
+        "desc": "Colored regions indicate territories affected by boundary transformations in the selected decade."
+      },
+      "changetypes": [
+        {
+          "color": "#1f77b4",
+          "key": "new_state",
+          "label": "New State"
+        },
+        {
+          "color": "#ff7f0e",
+          "key": "partition",
+          "label": "Partition/Split"
+        },
+        {
+          "color": "#2ca02c",
+          "key": "annexation",
+          "label": "Annexation/Merger"
+        },
+        {
+          "color": "#9467bd",
+          "key": "mandate",
+          "label": "Mandate/Trust Territory"
+        },
+        {
+          "color": "#d62728",
+          "key": "dissolution",
+          "label": "Dissolution/Federation Breakup"
+        },
+        {
+          "color": "#8c564b",
+          "key": "status_change",
+          "label": "Status/Name Change"
+        },
+        {
+          "color": "#e377c2",
+          "key": "dispute",
+          "label": "Disputed/Unsettled"
+        }
+      ],
+      "fillopacity": 0.35,
+      "projection": {
+        "id": "equal-earth",
+        "name": "Equal Earth",
+        "notes": "Use the same projection for base PNG and SVG overlays."
+      },
+      "stroke": {
+        "color": "#111",
+        "opacity": 0.8,
+        "width": 0.75
+      },
+      "viewbox": "0 0 2048 1024"
+    },
+    "legend2": "Legend",
+    "periods_transfor": "periods of transformation",
+    "test": [
+      "# Core for path generation & projections:",
+      "npm i d3-geo d3-geo-projection topojson-client topojson-server topojson-simplify",
+      "# If you need reprojection from non-WGS84 GeoJSON (optional):",
+      "npm i proj4 @mapbox/geojson-rewind"
+    ],
+    "what_changed": "What Changed:",
+    "why": "Why:",
+    "why_borders": "Why Borders Became Stable",
+    "whybordersbecamestable": {
+      "factors": [
+        {
+          "title": "International Law & UN",
+          "explanation": "UN Charter and norms protect territorial integrity."
+        },
+        {
+          "title": "End of Colonial Empires",
+          "explanation": "Most decolonization ended by the 1970s; borders were frozen (uti possidetis juris)."
+        },
+        {
+          "title": "Collapse of Big Federations Completed",
+          "explanation": "USSR & Yugoslavia dissolved; no similar entities remained to fragment."
+        },
+        {
+          "title": "Globalization",
+          "explanation": "Interdependence reduces benefits of conquest."
+        },
+        {
+          "title": "Deterrence & Sanctions",
+          "explanation": "Costs of changing borders are high."
+        },
+        {
+          "title": "Dispute Management",
+          "explanation": "Conflicts handled via autonomy/frozen conflicts rather than redrawing."
+        }
+      ],
+      "keytakeaway": "Modern borders are legally and politically rigid even where disputes exist.",
+      "summary": "After the late 20th century, borders stabilized due to legal, political, economic, and deterrence factors."
+    }
+  }
+}

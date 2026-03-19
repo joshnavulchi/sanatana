@@ -27,29 +27,8 @@ if ! git remote get-url origin >/dev/null 2>&1; then
   fi
 fi
 
-echo ">> Remotes:"
-git remote -v || true
-
-# Fetch locales branch
-if git remote get-url origin >/dev/null 2>&1; then
-  echo ">> Fetching locales ref ${LOCALES_REF}"
-
-  git fetch --depth=1 origin \
-  "${LOCALES_REF}:refs/remotes/origin/${LOCALES_REF}" \
-  || echo "Locales ref not found"
-fi
-
-echo "== Running locales sync =="
-node scripts/sync-locales-from-branch.js --verbose || echo "Locales sync skipped"
-
 echo "== Pre-build assets =="
 node scripts/compile-scss.js --force
-
-echo "== Detecting changed routes =="
-node scripts/detect-changed-routes.js || echo "Route detection failed, will do full build."
-
-echo "== Next.js partial export/build =="
-npm run build:ci
 
 echo "== Post-build optimizations =="
 
