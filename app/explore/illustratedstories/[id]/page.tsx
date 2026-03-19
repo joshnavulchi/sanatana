@@ -1,5 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, DEFAULT_LOCALE, detectServerLocaleFromHeaders, normalizeLocale } from '@lib/i18n';
+import { t, DEFAULT_LOCALE, detectServerLocaleFromHeaders, getLocaleNamespaceObjectAsync } from '@lib/i18n';
 import { headers } from 'next/headers';
 import LazyImage from '@components/lazyimage';
 import PageLayout from '@components/common/PageLayout';
@@ -31,8 +31,7 @@ function resolveLocaleFromHeaders(): string {
 
 export async function generateStaticParams() {
   try {
-    const raw = await normalizeLocale(`locales/${DEFAULT_LOCALE}/illustrated_stories.json`);
-    const doc = raw ? JSON.parse(raw) : null;
+    const doc = await getLocaleNamespaceObjectAsync(DEFAULT_LOCALE, 'illustrated_stories');
 
     const stories =
       doc?.illustrated_stories?.kids_indian_stories ??
@@ -51,8 +50,7 @@ export async function generateStaticParams() {
 
 async function loadStories(locale: string): Promise<Story[]> {
   try {
-    const raw = await normalizeLocale(`locales/${locale}/illustrated_stories.json`);
-    const doc = raw ? JSON.parse(raw) : null;
+    const doc = await getLocaleNamespaceObjectAsync(locale, 'illustrated_stories');
     return doc?.illustratedstories?.kids_indian_stories ?? [];
   } catch {
     if (locale !== 'en') return loadStories('en');
@@ -75,60 +73,60 @@ export default async function Page({ params }: { params: { id: string } }) {
       <PageLayout
         metaKey="illustrated_stories"
         title={item.title}
-            breadcrumbs={[
-              { labelKey: 'Home', href: '/' },
-              { label: item.title },
-            ]}
-          >
-            <div>{item.origin}</div>
-            <div className="relative h-100 w-full">
-              <LazyImage
-                src={item.imgSrc || `/images/stories/${item.id}.webp`}
-                alt={item.imgAlt || item.title}
-                fill
-                style={{ objectFit: 'cover' }}
-              />
-            </div>
+        breadcrumbs={[
+          { labelKey: 'Home', href: '/' },
+          { label: item.title },
+        ]}
+      >
+        <div>{item.origin}</div>
+        <div className="relative h-100 w-full">
+          <LazyImage
+            src={item.imgSrc || `/images/stories/${item.id}.webp`}
+            alt={item.imgAlt || item.title}
+            fill
+            style={{ objectFit: 'cover' }}
+          />
+        </div>
 
-            <p>{item.summary}</p>
+        <p>{item.summary}</p>
 
-            {item.moral && (
-              <p>
-                <strong>{S('illustrated_stories.moralLabel')}</strong> {item.moral}
-              </p>
-            )}
+        {item.moral && (
+          <p>
+            <strong>{S('illustrated_stories.moralLabel')}</strong> {item.moral}
+          </p>
+        )}
 
-            {item.characters?.length && (
-              <div>
-                <strong>{S('illustrated_stories.charactersLabel')}</strong>{' '}
-                {item.characters.join(', ')}
-              </div>
-            )}
+        {item.characters?.length && (
+          <div>
+            <strong>{S('illustrated_stories.charactersLabel')}</strong>{' '}
+            {item.characters.join(', ')}
+          </div>
+        )}
 
-            {item.themes?.length && (
-              <div>
-                <strong>{S('illustrated_stories.themesLabel')}</strong>{' '}
-                {item.themes.join(', ')}
-              </div>
-            )}
+        {item.themes?.length && (
+          <div>
+            <strong>{S('illustrated_stories.themesLabel')}</strong>{' '}
+            {item.themes.join(', ')}
+          </div>
+        )}
 
-            <div className="flex justify-between mt-8">
-              {prev ? (
-                <Link href={`/explore/illustratedstories/${prev.id}`}>
-                  ← {prev.title}
-                </Link>
-              ) : (
-                <div />
-              )}
+        <div className="flex justify-between mt-8">
+          {prev ? (
+            <Link href={`/explore/illustratedstories/${prev.id}`}>
+              ← {prev.title}
+            </Link>
+          ) : (
+            <div />
+          )}
 
-              {next ? (
-                <Link href={`/explore/illustratedstories/${next.id}`}>
-                  {next.title} →
-                </Link>
-              ) : (
-                <div />
-              )}
-            </div>
+          {next ? (
+            <Link href={`/explore/illustratedstories/${next.id}`}>
+              {next.title} →
+            </Link>
+          ) : (
+            <div />
+          )}
+        </div>
       </PageLayout>
     </>
   );
