@@ -1,0 +1,167 @@
+{
+  "stories_vishwamitra": {
+    "title": "Stories | Vishvamitra — Sanātana Dharma - Explore Sanatan Dharma",
+    "meta": {
+      "title": "Stories | Vishvamitra — Sanātana Dharma - Explore Sanatan Dharma",
+      "canonical": "https://sanatanadharmam.in/stories/vishwamitra",
+      "description": "Learn about Visvamitra on SanatanaDharma.in — articles, translations and commentary.",
+      "keywords": [
+        "Vishvamitra Biography",
+        "Vishvamitra Biography in English",
+        "Vishvamitra Conflict with Vasishta",
+        "Vishvamitra Conflict with Vasishta in English",
+        "Vishvamitra Creation of Trishanku Swarga",
+        "Vishvamitra Creation of Trishanku Swarga in English",
+        "Vishvamitra Early Life",
+        "Vishvamitra Early Life in English",
+        "Vishvamitra Legacy",
+        "Vishvamitra Legacy in English",
+        "Vishvamitra Major Stories",
+        "Vishvamitra Major Stories in English",
+        "Vishvamitra Mentorship of Rama",
+        "Vishvamitra Mentorship of Rama in English",
+        "Vishvamitra Philosophy",
+        "Vishvamitra Philosophy in English",
+        "Vishvamitra Role in Ramayana",
+        "Vishvamitra Role in Ramayana in English",
+        "Vishvamitra Significance in Hinduism",
+        "Vishvamitra Significance in Hinduism in English",
+        "Vishvamitra Stories",
+        "Vishvamitra Teachings",
+        "Vishvamitra Teachings in English",
+        "Vishvamitra Texts and Verses",
+        "Vishvamitra Texts and Verses in English",
+        "Vishvamitra Timeline",
+        "Vishvamitra Timeline in English"
+      ],
+      "ogimage": "/og/home.png",
+      "url": "https://sanatanadharmam.in/stories/vishwamitra"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "English",
+            "Español",
+            "Français",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Nederlands",
+            "Português",
+            "Русский",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "biography": {
+      "full_name": "Vishvamitra (Viśvāmitra)",
+      "influence": "Vishvamitra's life demonstrates that spiritual greatness is accessible to all, regardless of birth, through discipline and aspiration. His story is a cornerstone for the ideals of equality, perseverance, and the transformative power of tapas in Sanātana Dharma.",
+      "legacy": "Vishvamitra is celebrated as a symbol of the power of will and the possibility of transcending one's birth through spiritual effort. His authorship of the Gayatri Mantra, one of Hinduism's most revered prayers, and his role in the Ramayana as a guide to Rama, cement his place as a transformative figure in Indian tradition.",
+      "mythic_origin": "Born as a Kshatriya prince, son of King Gadhi, Vishvamitra's journey from royalty to sagehood is a tale of intense aspiration and transformation. His rivalry with Vasishta and his quest for spiritual supremacy led him to undertake severe penance, ultimately earning the rare title of Brahmarshi.",
+      "roles": [
+        "Rajarshi (royal sage)",
+        "Brahmarshi (sage of the highest order)",
+        "Mentor to Rama and Lakshmana",
+        "Composer of Rigvedic hymns"
+      ]
+    },
+    "lineage": {
+      "birth": "Born as a Kshatriya prince, son of King Gadhi",
+      "transformation": "Elevated from Kshatriya to Brahmarshi through tapas (austerity)"
+    },
+    "majorstories": [
+      {
+        "description": "Attempted to seize Kamadhenu; defeated by Vasishta’s spiritual power; inspired to pursue Brahmarshi status",
+        "event": "Conflict with Vasishta"
+      },
+      {
+        "description": "Created a parallel heaven for King Trishanku through sheer tapas",
+        "event": "Creation of Trishanku Swarga"
+      },
+      {
+        "description": "Taught Rama and Lakshmana divine astras; guided them to protect yajnas",
+        "event": "Mentorship of Rama"
+      }
+    ],
+    "philosophicalthemes": [
+      "Power of will and austerity",
+      "Equality of spiritual attainment beyond birth",
+      "Role of tapas in transcending limitations"
+    ],
+    "role": "Vedic Sage, Brahmarshi (after intense penance), Creator of Gayatri Mantra",
+    "scripturalconnections": {
+      "puranas": "Known for rivalry and eventual reconciliation with Vasishta",
+      "ramayana": "Mentor to Rama and Lakshmana; guided them in killing demons and acquiring divine weapons",
+      "rigveda": "Composed hymns including Gayatri Mantra"
+    },
+    "significance": {
+      "coreidentity": [
+        "Embodiment of determination and spiritual ascension",
+        "Author of Gayatri Mantra in Rigveda"
+      ],
+      "titles": ["Rajarshi", "Brahmarshi"]
+    },
+    "textsandteachings": [
+      {
+        "meaning": "We meditate on the divine light of Savitar; may it inspire and guide our intellect.",
+        "name": "Gayatri Mantra",
+        "text": "ॐ भूर्भुवः स्वः। तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि। धियो यो नः प्रचोदयात्॥",
+        "transliteration": "Om Bhur Bhuvah Svah, Tat Savitur Varenyam, Bhargo Devasya Dhimahi, Dhiyo Yo Nah Prachodayat"
+      },
+      {
+        "meaning": "Through austerity, Brahman (ultimate reality) is realized.",
+        "name": "Verse on Tapas",
+        "text": "तपसा ब्रह्म विजिग्ये।",
+        "transliteration": "Tapasa Brahma Vijigye"
+      },
+      {
+        "meaning": "One does not become a Brahmin by birth, but by conduct and knowledge.",
+        "name": "Verse on Equality",
+        "text": "न जात्या ब्राह्मणो भवति।",
+        "transliteration": "Na Jatya Brahmano Bhavati"
+      }
+    ],
+    "timeline": [
+      {
+        "event": "Born as a Kshatriya prince in Gadhi's lineage",
+        "phase": "Birth"
+      },
+      {
+        "event": "Defeated in attempt to seize Kamadhenu; resolves to become Brahmarshi",
+        "phase": "Conflict with Vasishta"
+      },
+      {
+        "event": "Performs severe penance; earns title of Brahmarshi after long struggle",
+        "phase": "Tapas and Ascension"
+      },
+      {
+        "event": "Demonstrates power of tapas by creating a parallel heaven",
+        "phase": "Creation of Trishanku Swarga"
+      },
+      {
+        "event": "Guides Rama and Lakshmana; imparts divine weapons and wisdom",
+        "phase": "Mentorship of Rama"
+      },
+      {
+        "event": "Revered as Brahmarshi; author of Gayatri Mantra; symbol of spiritual equality",
+        "phase": "Later Life"
+      }
+    ]
+  }
+}

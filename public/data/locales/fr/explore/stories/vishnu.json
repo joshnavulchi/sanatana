@@ -1,0 +1,202 @@
+{
+  "stories_vishnu": {
+    "title": "Stories | Vishnu — Sanātana Dharma - Explore Sanatan Dharma",
+    "meta": {
+      "title": "Stories | Vishnu — Sanātana Dharma - Explore Sanatan Dharma",
+      "canonical": "https://sanatanadharmam.in/stories/vishnu",
+      "keywords": [
+        "Vishnu Biography",
+        "Vishnu Biography in English",
+        "Vishnu Festivals",
+        "Vishnu Festivals in English",
+        "Vishnu Legacy",
+        "Vishnu Legacy in English",
+        "Vishnu Major Legends",
+        "Vishnu Major Legends in English",
+        "Vishnu Modern Relevance",
+        "Vishnu Modern Relevance in English",
+        "Vishnu Origin and Texts",
+        "Vishnu Origin and Texts in English",
+        "Vishnu Philosophy",
+        "Vishnu Philosophy in English",
+        "Vishnu Role in Hinduism",
+        "Vishnu Role in Hinduism in English",
+        "Vishnu Stories",
+        "Vishnu Symbolism",
+        "Vishnu Symbolism in English",
+        "Vishnu Teachings",
+        "Vishnu Teachings in English",
+        "Vishnu Timeline",
+        "Vishnu Timeline in English"
+      ],
+      "url": "https://sanatanadharmam.in/stories/vishnu"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "English",
+            "Español",
+            "Français",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Nederlands",
+            "Português",
+            "Русский",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "attributes": {
+      "abode": "Vaikuntha – the eternal heavenly realm.",
+      "appearance": [
+        "Blue complexion symbolizing infinity.",
+        "Four arms holding Shankha (conch), Chakra (discus), Gada (mace), and Padma (lotus).",
+        "Crown and yellow garments representing divinity and purity."
+      ],
+      "vehicle": "Garuda (eagle) – symbol of speed and strength."
+    },
+    "biography": {
+      "attributes": "Vishnu is depicted with blue skin, four arms holding the conch (Shankha), discus (Chakra), mace (Gada), and lotus (Padma), symbolizing his divine powers. His vehicle is Garuda, the eagle.",
+      "consort": "Lakshmi, goddess of wealth and prosperity.",
+      "eternal_nature": "Vishnu is considered timeless and all-pervading, embodying the principle of preservation and cosmic order.",
+      "full_name": "Vishnu (Narayana, Hari)",
+      "legacy": "Vishnu’s avatars, teachings, and stories inspire devotion, righteousness, and the pursuit of spiritual liberation. He is worshipped across the world as the sustainer of the universe and the embodiment of divine love.",
+      "mythic_origin": "Vishnu is described in the Vedas as the all-pervading one, and in the Puranas as the preserver who incarnates in various forms (Dashavatara) to restore Dharma.",
+      "roles": "He is the preserver in the Hindu trinity (Trimurti), incarnating whenever Dharma declines. Vishnu is the source of compassion, protection, and cosmic balance."
+    },
+    "definition": "Lord Vishnu is one of the principal deities of Sanātana Dharma, known as the preserver and protector of the universe in the Hindu Trinity (Trimurti).",
+    "festivals": [
+      {
+        "name": "Vaikuntha Ekadashi",
+        "practices": ["Temple visits", "Chanting Vishnu Sahasranama"],
+        "significance": "Day of fasting and devotion to Vishnu for liberation."
+      },
+      {
+        "name": "Janmashtami",
+        "practices": ["Midnight puja", "Bhajans", "Dahi Handi"],
+        "significance": "Celebrates Krishna's birth."
+      },
+      {
+        "name": "Rama Navami",
+        "practices": ["Reading Ramayana", "Fasting"],
+        "significance": "Celebrates Rama's birth."
+      }
+    ],
+    "major_legends": [
+      {
+        "name": "Churning of the Ocean (Samudra Manthan)",
+        "summary": "Vishnu took the form of Kurma (tortoise) to support Mount Mandara during the churning of the ocean for Amrita (nectar of immortality)."
+      },
+      {
+        "name": "Vamana Avatar",
+        "summary": "As a dwarf Brahmin, Vishnu humbled King Bali by covering the universe in three steps, restoring cosmic balance."
+      },
+      {
+        "name": "Krishna Avatar",
+        "summary": "Vishnu incarnated as Krishna to guide humanity through the Bhagavathgita and destroy evil forces like Kamsa."
+      },
+      {
+        "name": "Rama Avatar",
+        "summary": "Vishnu incarnated as Rama to uphold Dharma and defeat Ravana in the Ramayana."
+      }
+    ],
+    "modern_relevance": {
+      "culture": "Inspires art, music, and literature.",
+      "ethics": "Represents righteousness and compassion.",
+      "spirituality": "Symbol of preservation and balance."
+    },
+    "origin": {
+      "meaning": "Vishnu means 'all-pervading' or 'omnipresent'.",
+      "roots": "Vedic tradition evolving into Puranic texts",
+      "texts": ["Rig Veda", "Vishnu Purana", "Bhagavata Purana", "Mahabharata"]
+    },
+    "philosophical_significance": {
+      "bhagavad_gita": "Teaches Dharma, Karma Yoga, and surrender to God.",
+      "vaishnavism": "Vishnu is supreme reality; devotion (Bhakti) leads to Moksha."
+    },
+    "symbolism": [
+      "Shankha – Cosmic sound (Om).",
+      "Chakra – Power and protection.",
+      "Gada – Strength and authority.",
+      "Lotus – Purity and spiritual awakening."
+    ],
+    "ten_avatars_(dashavatara)": [],
+    "vishnu_dashavatara_with_morals": {
+      "avatars": [
+        {
+          "moral": "Preserve knowledge and righteousness even in times of crisis.",
+          "name": "Matsya (Fish)",
+          "story": "Saved Manu and sacred scriptures during the great flood."
+        },
+        {
+          "moral": "Patience and stability are essential for achieving great goals.",
+          "name": "Kurma (Tortoise)",
+          "story": "Supported Mount Mandara during Samudra Manthan."
+        },
+        {
+          "moral": "Protect nature and uphold balance in creation.",
+          "name": "Varaha (Boar)",
+          "story": "Rescued Earth from demon Hiranyaksha."
+        },
+        {
+          "moral": "Faith and devotion triumph over arrogance and tyranny.",
+          "name": "Narasimha (Man-Lion)",
+          "story": "Destroyed Hiranyakashipu to protect Prahlada."
+        },
+        {
+          "moral": "Humility and wisdom overcome pride and ego.",
+          "name": "Vamana (Dwarf)",
+          "story": "Humbled King Bali by covering the universe in three steps."
+        },
+        {
+          "moral": "Justice must prevail over misuse of power.",
+          "name": "Parashurama",
+          "story": "Destroyed corrupt Kshatriyas to restore Dharma."
+        },
+        {
+          "moral": "Live by truth, honor, and righteousness even in adversity.",
+          "name": "Rama",
+          "story": "Defeated Ravana and upheld Dharma in Ramayana."
+        },
+        {
+          "moral": "Perform your duty selflessly and surrender to divine will.",
+          "name": "Krishna",
+          "story": "Guided humanity through Bhagavathgita and destroyed evil forces."
+        },
+        {
+          "moral": "Peace and empathy are the highest virtues.",
+          "name": "Buddha",
+          "story": "Taught compassion and non-violence."
+        },
+        {
+          "moral": "Truth and justice will ultimately prevail over chaos.",
+          "name": "Kalki (Future Avatar)",
+          "story": "Will appear to end Kali Yuga and restore Dharma."
+        }
+      ],
+      "definition": "The ten avatars of Vishnu (Dashavatara) represent divine interventions to restore Dharma and cosmic balance.",
+      "philosophical_significance": {
+        "ethics": "Teaches humility, courage, compassion, and righteousness.",
+        "vaishnavism": "Dashavatara illustrates divine intervention to maintain cosmic order."
+      },
+      "symbolism": "Each avatar represents a stage in evolution and a principle of Dharma restoration."
+    }
+  }
+}

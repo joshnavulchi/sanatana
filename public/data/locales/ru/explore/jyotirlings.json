@@ -1,0 +1,253 @@
+{
+  "jyotirlings": {
+    "title": "12 Jyotirlingas of India | Sanātana Dharma - The Eternal Way of Life",
+    "meta": {
+      "title": "12 Jyotirlingas of India | Sanātana Dharma - The Eternal Way of Life",
+      "canonical": "https://sanatanadharmam.in/jyotirlings",
+      "description": "Canonical dataset of the 12 Jyotirlingas with core attributes and historical timelines.",
+      "keywords": [
+        "Ancient India",
+        "Bhimashankar",
+        "Cultural heritage",
+        "Dynastic patronage",
+        "Grishneshwar",
+        "Hindu mythology",
+        "Hindu temples",
+        "Historical timelines",
+        "Indian architectural significance",
+        "Indian architectural significance timelines",
+        "Indian architecture",
+        "Indian cultural architecture",
+        "Indian cultural significance",
+        "Indian cultural significance timelines",
+        "Indian culture",
+        "Indian culture and heritage",
+        "Indian dynasties",
+        "Indian historical architecture",
+        "Indian historical significance",
+        "Indian historical significance timelines",
+        "Indian historical timelines",
+        "Indian history",
+        "Indian mythological architecture",
+        "Indian mythological significance",
+        "Indian mythological significance timelines",
+        "Indian mythological timelines",
+        "Indian mythology and legends",
+        "Indian pilgrimage",
+        "Indian pilgrimage architecture",
+        "Indian pilgrimage significance",
+        "Indian pilgrimage significance timelines",
+        "Indian pilgrimage timelines",
+        "Indian religious architecture",
+        "Indian religious history",
+        "Indian religious significance",
+        "Indian religious significance timelines",
+        "Indian religious sites",
+        "Indian religious timelines",
+        "Indian religious tourism",
+        "Indian sacred sites",
+        "Indian spiritual heritage",
+        "Indian spiritual traditions",
+        "Indian spirituality",
+        "Indian temple architecture",
+        "Indian temple history",
+        "Indian temple timelines",
+        "Jyotirlingas",
+        "Kashi Vishwanath",
+        "Kedarnath",
+        "Mahakaleshwar",
+        "Mallikarjuna",
+        "Medieval India",
+        "Modern India",
+        "Mythological associations",
+        "Nageshwar",
+        "Omkareshwar",
+        "Pilgrimage sites",
+        "Puranic traditions",
+        "Rameshwaram",
+        "Religious history",
+        "Religious significance",
+        "Religious tourism",
+        "Sacred geography",
+        "Shaivism",
+        "Somnath",
+        "Spiritual significance",
+        "Temple architecture",
+        "Trimbakeshwar",
+        "Vaidyanath"
+      ],
+      "ogimage": "images/og/home.png",
+      "url": "https://sanatanadharmam.in/jyotirlings"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "mainentity": {
+        "@type": "Organization",
+        "contactpoint": {
+          "@type": "ContactPoint",
+          "areaserved": "Worldwide",
+          "availablelanguage": [
+            "العربية",
+            "Deutsch",
+            "English",
+            "Español",
+            "Français",
+            "हिन्दी",
+            "日本語",
+            "नेपाली",
+            "Nederlands",
+            "Português",
+            "Русский",
+            "తెలుగు",
+            "اردو",
+            "中文 (简体)"
+          ],
+          "contacttype": "Customer Support",
+          "email": "info@sanatanadharmam.in",
+          "telephone": "+91-8099181075"
+        },
+        "logo": "https://sanatanadharmam.in/images/logo.png",
+        "name": "About Sanatanadharmam.in",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "lingas": [
+      {
+        "dynasties": ["Maitraka", "Solanki", "Maratha", "Government of India"],
+        "location": "Prabhas Patan, Gujarat",
+        "name": "Somnath",
+        "timeline": {
+          "ancient_mentions": "300 BCE–300 CE (Puranic and epic references)",
+          "first_temple_built": "4th–5th century CE",
+          "reconstructions": [
+            "725 CE – Rebuilt after early Arab incursions",
+            "1026 CE – Rebuilt after Ghazni raid",
+            "12th century CE – Solanki dynasty reconstruction",
+            "1951 CE – Modern reconstruction under Sardar Vallabhbhai Patel"
+          ]
+        }
+      },
+      {
+        "dynasties": ["Satavahana", "Kakatiya", "Reddi", "Vijayanagara"],
+        "location": "Srisailam, Andhra Pradesh",
+        "name": "Mallikarjuna",
+        "timeline": {
+          "early_inscriptions": "2nd century CE (Satavahana period)",
+          "foreign_reference": "7th century CE (Hiuen Tsang)",
+          "later_patronage": "Vijayanagara Empire and modern Andhra rulers",
+          "major_expansions": "12th–14th century CE (Kakatiya & Reddi)"
+        }
+      },
+      {
+        "location": "Ujjain, Madhya Pradesh",
+        "name": "Mahakaleshwar",
+        "timeline": {
+          "early_temple": "6th–8th century CE",
+          "maratha_reconstruction": "18th century CE (Ranoji Shinde)",
+          "paramara_reconstruction": "12th century CE"
+        },
+        "unique_features": ["Dakshinamukhi (south-facing) lingam"]
+      },
+      {
+        "location": "Mandhata Island, Madhya Pradesh",
+        "name": "Omkareshwar",
+        "timeline": {
+          "early_shaivism": "6th–7th century CE",
+          "paramara_construction": "12th century CE"
+        },
+        "unique_features": ["Island in the shape of the sacred Om (ॐ)"]
+      },
+      {
+        "architecture": ["High-altitude Himalayan stone temple"],
+        "location": "Uttarakhand, Himalayas",
+        "name": "Kedarnath",
+        "timeline": {
+          "modern_period": [
+            "2013 – Damage from floods",
+            "Post-2013 – Reconstructed and strengthened"
+          ],
+          "shankaracharya_establishment": "8th century CE",
+          "traditional_association": "Epic period (Pandava traditions)"
+        }
+      },
+      {
+        "associated_legend": "Demon Bhima",
+        "location": "Sahyadri Range, Maharashtra",
+        "name": "Bhimashankar",
+        "timeline": {
+          "historical_references": "13th century CE",
+          "maratha_era": "17th–18th century CE"
+        }
+      },
+      {
+        "importance": "One of the holiest temples in Hindu tradition",
+        "location": "Varanasi, Uttar Pradesh",
+        "name": "Kashi Vishwanath",
+        "timeline": {
+          "ancient_mentions": "6th century CE",
+          "multiple_reconstructions": [
+            "Early medieval to 18th century CE – Several rebuildings",
+            "1780 CE – Ahilyabai Holkar reconstruction",
+            "2021 – Kashi Vishwanath Corridor completed"
+          ]
+        }
+      },
+      {
+        "location": "Nashik, Maharashtra",
+        "name": "Trimbakeshwar",
+        "timeline": {
+          "early_settlement": "3rd–5th century CE",
+          "peshwa_reconstruction": "1755 CE (Balaji Baji Rao)"
+        },
+        "unique_features": [
+          "Three-faced lingam representing Brahma, Vishnu, and Shiva"
+        ]
+      },
+      {
+        "associated_legend": "Ravana’s penance to Shiva",
+        "location": "Deoghar, Jharkhand",
+        "name": "Vaidyanath",
+        "timeline": {
+          "early_temple": "8th–12th century CE",
+          "renovation": "1596 CE (Mughal-era reconstruction)"
+        }
+      },
+      {
+        "location": "Dwarka, Gujarat",
+        "name": "Nageshwar",
+        "notes": "Multiple Nageshwar sites exist; Dwarka version is widely accepted",
+        "timeline": {
+          "modern_temple": "20th century CE",
+          "puranic_reference": "Ancient – Mentioned in Shiva Purana",
+          "shaivism_presence": "2nd century BCE onwards"
+        }
+      },
+      {
+        "location": "Tamil Nadu",
+        "name": "Rameshwaram",
+        "significance": "Associated with Ramayana traditions",
+        "timeline": {
+          "construction": "12th century CE (Pandya dynasty)",
+          "expansions": "16th–18th century CE (Nayak rulers)"
+        }
+      },
+      {
+        "location": "Ellora, Maharashtra",
+        "name": "Grishneshwar",
+        "nearby_sites": ["Ellora Caves (UNESCO World Heritage Site)"],
+        "timeline": {
+          "early_shaivism": "8th–11th century CE (Ellora cave era)",
+          "holkar_reconstruction": "18th century CE (Ahilyabai Holkar)"
+        }
+      }
+    ],
+    "overall_timeline": [
+      "300 BCE–300 CE: Earliest mentions of Somnath, Kashi, and Dwarka regions",
+      "2nd–7th century CE: Srisailam, Ujjain, and Omkareshwar sites gain prominence",
+      "7th–10th century CE: Early dynastic patronage strengthens major shrines",
+      "10th–14th century CE: Reconstruction of Ujjain, Rameshwaram, Trimbak temples",
+      "15th–18th century CE: Maratha and Holkar reconstructions",
+      "1950s–Present: Modern restorations and pilgrim infrastructure development"
+    ]
+  }
+}

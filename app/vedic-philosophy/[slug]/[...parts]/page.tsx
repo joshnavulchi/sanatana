@@ -5,12 +5,18 @@ import { PHILOSOPHY_TOPICS, isPhilosophyTopic } from '../../philosophy-utils';
 
 type Params = { slug: string; parts: string[] };
 
+import { params as generatedParams } from '@app/generated-params/vedic-philosophy-parts';
+
 export const dynamicParams = false;
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
   // Provide a simple deterministic params list so Next detects the export.
-  return PHILOSOPHY_TOPICS.map((slug) => ({ slug, parts: ['overview'] }));
+  return PHILOSOPHY_TOPICS
+    .filter((s) => !!s)
+    .map((slug) => ({ slug, parts: ['overview'] }));
 }
+
+
 
 export async function generateMetadata(props: { params: Promise<Params> }) {
   const { slug, parts } = await props.params;

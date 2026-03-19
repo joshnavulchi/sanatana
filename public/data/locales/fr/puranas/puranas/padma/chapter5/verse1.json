@@ -1,0 +1,30 @@
+{
+  "padma_chapter5_verse1": {
+    "title": "Padma Purana Chapter 5 Verse 1",
+    "description": "Verse 1 from Padma Purana, Chapter 5.",
+    "meta": {
+      "title": "Padma Purana Chapter 5 Verse 1",
+      "canonical": "https://sanatanadharmam.in/puranas/padma/chapter-5/verse-1",
+      "description": "Verse 1 from Padma Purana, Chapter 5.",
+      "url": "https://sanatanadharmam.in/puranas/padma/chapter-5/verse-1"
+    },
+    "openGraph": {
+      "title": "Padma Purana Chapter 5 Verse 1",
+      "description": "Verse 1 from Padma Purana, Chapter 5.",
+      "url": "https://sanatanadharmam.in/puranas/padma/chapter-5/verse-1",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This verse belongs to Padma Purana, Chapter 5.",
+    "scripture_text": "In Padma Purana, Chapter 5, Verse 1, this passage contemplates dharma, devotion, and self-knowledge, guiding the seeker toward clarity and compassion.",
+    "philosophical_explanation": "This verse contributes to the ongoing ethical and devotional narrative of Padma Purana.",
+    "chapter": {
+      "number": 5,
+      "path": "/puranas/padma/chapter-5"
+    },
+    "verse": {
+      "number": 1,
+      "path": "/puranas/padma/chapter-5/verse-1"
+    }
+  }
+}

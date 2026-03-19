@@ -10,11 +10,21 @@ const VALID_SLUGS = [
   'kaushitaki-upanishad', 'maitri-upanishad',
 ];
 
+import { params as generatedParams } from '@app/generated-params/upanishads';
+
 export const dynamicParams = false;
 
-export function generateStaticParams() {
-  return VALID_SLUGS.map((slug) => ({ slug }));
+export async function generateStaticParams() {
+  // Solution: strict static export
+  // Replace with source and locale check if available
+  // Example: getAllStories() and filter localeExists
+  // For now, use VALID_SLUGS as static
+  return VALID_SLUGS
+    .filter((slug) => !!slug)
+    .map((slug) => ({ slug }));
 }
+
+
 
 export async function generateMetadata(props: { params: Promise<{ slug: string }> }) {
   const { slug } = await props.params;

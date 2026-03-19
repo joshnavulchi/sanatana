@@ -1,0 +1,33 @@
+{
+  "yajurveda_chapter3_mantra9": {
+    "title": "Yajurveda Chapter 3 Mantra 9",
+    "description": "This mantra belongs to Yajurveda Chapter 3.",
+    "meta": {
+      "title": "Yajurveda Chapter 3 Mantra 9",
+      "canonical": "https://sanatanadharmam.in/vedas/yajurveda/chapter-3/mantra-9",
+      "description": "This mantra belongs to Yajurveda Chapter 3.",
+      "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-3/mantra-9"
+    },
+    "openGraph": {
+      "title": "Yajurveda Chapter 3 Mantra 9",
+      "description": "This mantra belongs to Yajurveda Chapter 3.",
+      "url": "https://sanatanadharmam.in/vedas/yajurveda/chapter-3/mantra-9",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "chapter": {
+      "slug": "yajurveda",
+      "key": "chapter-3",
+      "label": "Chapter 3",
+      "path": "/vedas/yajurveda/chapter-3"
+    },
+    "item": {
+      "prefix": "mantra",
+      "number": 9,
+      "path": "/vedas/yajurveda/chapter-3/mantra-9"
+    },
+    "introduction": "This mantra belongs to Yajurveda Chapter 3.",
+    "scripture_text": "A representative Yajurvedic mantra passage for Chapter 3, Mantra 9, invoking sacred offering, disciplined action, and inner purification.",
+    "philosophical_explanation": "Yajurvedic mantras connect ritual action with inner discipline, offering and sacred intention."
+  }
+}

@@ -12,11 +12,17 @@ import {
 
 type Params = { parva: string };
 
+import { params as generatedParams } from '@app/generated-params/mahabharata-parvas';
+
 export const dynamicParams = false;
 
-export function generateStaticParams() {
-  return MAHABHARATA_PARVAS.map((parva) => ({ parva }));
+export async function generateStaticParams() {
+  return MAHABHARATA_PARVAS
+    .filter((p) => !!p)
+    .map((parva) => ({ parva }));
 }
+
+
 
 export async function generateMetadata(props: { params: Promise<Params> }) {
   const { parva } = await props.params;

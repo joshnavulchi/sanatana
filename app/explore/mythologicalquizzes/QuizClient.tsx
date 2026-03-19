@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useMemo, useState } from 'react';
-import { DEFAULT_LOCALE } from '@lib/i18n';
+import { DEFAULT_LOCALE, getLocaleNamespaceObjectAsync } from '@lib/i18n';
 import { useLocale } from '@app/context/locale-context';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 
@@ -30,9 +30,9 @@ export default function QuizClient() {
   useEffect(() => {
     let mounted = true;
     const loc = locale || DEFAULT_LOCALE;
-    fetch(`/locales/${loc}/questions.json`)
-      .then((r) => r.json())
-      .then((data: any) => {
+    (async () => {
+      try {
+        const data: any = await getLocaleNamespaceObjectAsync(loc, 'questions');
         if (!mounted) return;
         // Normalize data shape: support { questions: { ... } } and arrays
         let list: any[] = [];
@@ -57,8 +57,10 @@ export default function QuizClient() {
         setQuestionsPool(normalized);
         const indices = sampleIndices(normalized.length, Math.min(10, normalized.length));
         setSelectedIdx(indices);
-      })
-      .catch((err) => console.error('Failed to load questions', err));
+      } catch (err) {
+        console.error('Failed to load questions', err);
+      }
+    })();
     return () => { mounted = false; };
   }, [locale]);
 

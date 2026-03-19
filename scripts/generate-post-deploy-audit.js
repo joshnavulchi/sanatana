@@ -161,7 +161,7 @@ function main() {
 
   const json = `${JSON.stringify(report, null, 2)}\n`;
   const outReportPath = path.join(outDir, 'post-deploy-audit.json');
-  const publicReportPath = path.join(REPO_ROOT, 'public', 'post-deploy-audit.json');
+  const publicReportPath = path.join(REPO_ROOT, 'public', 'data', 'post-deploy-audit.json');
 
   fs.writeFileSync(outReportPath, json, 'utf8');
   fs.mkdirSync(path.dirname(publicReportPath), { recursive: true });

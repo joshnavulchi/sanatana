@@ -17,7 +17,7 @@
     "complete-clean": "Remove-Item node_modules, package-lock.json, dist, build, .next, .cache, coverage, .turbo, .vite, .parcel-cache -Recurse -Force -ErrorAction SilentlyContinue",
     "clean": "Remove-Item node_modules, package-lock.json, .next, .cache, .parcel-cache -Recurse -Force -ErrorAction SilentlyContinue",
     "generate:component-from-locale": "node scripts/generate-component.js",
-    "generate:analytics": "node scripts/generate-analytics-json.js",
+    // analytics generation removed
     "noEmit:bigmem": "node --max-old-space-size=8192 ./node_modules/typescript/bin/tsc --noEmit",
     "generate-meta-keywords": "node scripts/generate-meta-keywords.js",
     "check-linter": "npm run lint -- --ext .js,.ts,.tsx"

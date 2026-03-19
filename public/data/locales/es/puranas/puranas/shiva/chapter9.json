@@ -1,0 +1,26 @@
+{
+  "shiva_chapter9": {
+    "title": "Shiva Purana Chapter 9",
+    "description": "Chapter 9 from Shiva Purana.",
+    "meta": {
+      "title": "Shiva Purana Chapter 9",
+      "canonical": "https://sanatanadharmam.in/puranas/shiva/chapter-9",
+      "description": "Chapter 9 from Shiva Purana.",
+      "url": "https://sanatanadharmam.in/puranas/shiva/chapter-9"
+    },
+    "openGraph": {
+      "title": "Shiva Purana Chapter 9",
+      "description": "Chapter 9 from Shiva Purana.",
+      "url": "https://sanatanadharmam.in/puranas/shiva/chapter-9",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This chapter belongs to Shiva Purana.",
+    "scripture_text": "Chapter-level summary text for Shiva Purana, Chapter 9.",
+    "philosophical_explanation": "Shiva Purana chapters combine dharma, devotion, and symbolic teaching.",
+    "chapter": {
+      "number": 9,
+      "path": "/puranas/shiva/chapter-9"
+    }
+  }
+}

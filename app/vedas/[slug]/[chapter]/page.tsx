@@ -21,16 +21,19 @@ const CHAPTER_META_CONFIG: Record<string, ChapterMetaConfig> = {
   atharvaveda: { mode: 'from-main', fileKey: 'vedas_atharvaveda' },
 };
 
+import { params as generatedParams } from '@app/generated-params/vedas-chapters';
+
 export const dynamicParams = false;
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
   // Minimal deterministic params for each veda so Next detects the export
-  return [
+  const out = [
     { slug: 'rigveda', chapter: 'mandala-1' },
     { slug: 'yajurveda', chapter: 'chapter-1' },
     { slug: 'samaveda', chapter: 'hymn-1' },
     { slug: 'atharvaveda', chapter: 'book-1' },
   ];
+  return out.filter((p) => p && p.slug && p.chapter);
 }
 
 function chapterFileKey(slug: string, chapter: string): string {
@@ -44,6 +47,8 @@ function chapterFileKey(slug: string, chapter: string): string {
 
   return cfg.fileKey || slug;
 }
+
+
 
 export async function generateMetadata(props: { params: Promise<ChapterPageParams> }) {
   const { slug, chapter } = await props.params;
