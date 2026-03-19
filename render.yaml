@@ -10,7 +10,6 @@ services:
       npm install
     buildCommand: |
       export NODE_ENV=production
-      export CI=true
       export NODE_OPTIONS=--max-old-space-size=6144      
       npm run render-build
       
@@ -33,9 +32,6 @@ services:
     name: your-static-site
     buildCommand: |
       set -euo pipefail
-
-      echo ">> LOCALES_REF=${LOCALES_REF:-<empty>}"
-      echo ">> GIT_REMOTE_URL=${GIT_REMOTE_URL:-<empty>}"
 
       # Initialize git if .git is missing (tarball checkout cases)
       if [ ! -d ".git" ]; then
@@ -67,10 +63,6 @@ services:
       # analytics check removed
     publishPath: build
     envVars:
-      - key: LOCALES_REF
-        value: locales
-      - key: LOCALES_SYNC_STRICT
-        value: "0"
       - key: NODE_ENV
         value: production
       # Set this in the Render dashboard, ideally as a secret:
