@@ -500,19 +500,23 @@ async function syncLocales() {
   // Sync all files for vedas, puranas, itihasa, vedic_philosophy, vedic_science including slugs/subpages
   const { files, blobsByPath } = listLocaleTree(ref);
   const filteredFiles = files.filter((file) => {
-    // Match pattern: locales/<locale>/<namespace>.json
+    // Match pattern: locales/<locale>/... (support nested namespaces/subfolders)
+    // e.g. locales/en/common.json or locales/en/vedas/book1.json
     const parts = file.split('/');
     if (parts.length < 3) return false;
-    const namespace = parts[2].replace(/\.json$/, '');
+    // parts[0] === 'locales', parts[1] === '<locale>', rest is namespace path
+    const namespacePath = parts.slice(2).join('/');
+    const namespace = namespacePath.replace(/\.json$/, '');
     // Static namespaces
     const STATIC_NAMESPACES = [
       'home', 'about', 'sharable_strings', 'cosmictime', 'kidszone_illustratedstories', 'questions', 'quiz', 'religion_conversion', 'rivers_connecting', 'sanatanadharma', 'sanskrit_concepts', 'shakti_peethas', 'temples_destroyed', 'temples_in_india', 'terms_of_service', 'upanishads', 'usa_strategies', 'vedic_gods', 'world_transformation', 'philosophy', 'science', 'explore', 'privacy-policy', 'our-cookie-policy', 'our-privacy-policy', 'sanatanadharmam', 'definitionoflife', 'dashavataraTimeline', 'footer', 'header', 'herosection', 'lazyimage', 'loader', 'marquee', 'ourfourcoreyugas', 'scroll-to-top', 'topprogress', 'welcome', 'contactform', 'bannernotifications', 'breadcrumbs', 'audioplayer', 'git-support', 'language-dropdown', 'faqaccordion', 'cookie-consent', 'structured-data', 'text-to-speech', 'theme-toggle', 'wordcount', 'worldmap', 'similar-categories', 'common', 'contact', 'donate', 'post-deploy-audit', 'panchang', 'backlink-report', 'api-analytics', 'sitemap', 'robots', 'og', 'thumbs', 'videos', 'images', 'data', 'locales', 'localeMeta', 'localesList', 'jsonld', 'parseContent', 'parseList', 'secrets', 'storage', 'useDeferAssets'
     ];
+    if (STATIC_NAMESPACES.includes(namespace)) return true;
     // Dynamic pattern match for vedas, puranas, itihasa, vedic_philosophy, vedic_science
     const DYNAMIC_PREFIXES = [
       'vedas', 'puranas', 'itihasa', 'vedic_philosophy', 'vedic_science'
     ];
-    if (STATIC_NAMESPACES.includes(namespace)) return true;
+    // Match dynamic prefixes against the full namespace path so nested files qualify
     return DYNAMIC_PREFIXES.some(prefix => namespace.startsWith(prefix));
   });
 
