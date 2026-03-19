@@ -23,14 +23,23 @@ fi
 echo "== Pre-build assets =="
 node scripts/compile-scss.js --force
 
-echo "== Post-build optimizations =="
+echo "== Next.js build =="
+npm run build
 
+echo "== Static export =="
+npx next export
+
+echo "== Verify output =="
+ls -la
+ls -la out || (echo "❌ out folder missing after export" && exit 1)
+
+echo "== Post-build optimizations =="
 node scripts/generate-sitemap.js
 node scripts/generate-post-deploy-audit.js
 node scripts/add-hash-to-assets.js
 
 # Optional heavy tasks
-if [ "${CI}" = "1" ]; then
+if [ "${CI:-0}" = "1" ]; then
   echo "Skipping heavy HTML processing in CI"
 else
   node scripts/generate-critical-css.js
