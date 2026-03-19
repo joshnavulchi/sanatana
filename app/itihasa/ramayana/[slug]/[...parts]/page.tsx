@@ -14,9 +14,11 @@ type Params = { slug: string; parts: string[] };
 
 export const dynamicParams = false;
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
   // Provide minimal static params so Next can detect this export.
-  return RAMAYANA_KANDAS.map((slug) => ({ slug, parts: ['sarga-1'] }));
+  return RAMAYANA_KANDAS
+    .filter((s) => !!s)
+    .map((slug) => ({ slug, parts: ['sarga-1'] }));
 }
 
 export async function generateMetadata(props: { params: Promise<Params> }) {

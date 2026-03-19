@@ -7,7 +7,7 @@
     "predev": "node scripts/compile-scss.js --dev",
     "dev": "next dev",
     "prebuild": "npm run lint",
-    "build": "cross-env NODE_OPTIONS=--max_old_space_size=6144 next build && next export",
+    "build": "cross-env NODE_OPTIONS=--max_old_space_size=6144 next build",
     "postbuild": "node scripts/generate-sitemap.js && node scripts/generate-post-deploy-audit.js && node scripts/add-hash-to-assets.js",
     "render-build": "bash ./.render-build.sh",
     "start": "npx serve@latest out",

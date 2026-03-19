@@ -9,14 +9,15 @@ type ItemPageParams = {
 
 export const dynamicParams = false;
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
   // Provide a minimal deterministic list so Next's static analysis detects the export.
-  return [
+  const out = [
     { slug: 'rigveda', chapter: 'mandala-1', item: 'sukta-1' },
     { slug: 'yajurveda', chapter: 'chapter-1', item: 'mantra-1' },
     { slug: 'samaveda', chapter: 'hymn-1', item: 'verse-1' },
     { slug: 'atharvaveda', chapter: 'book-1', item: 'hymn-1' },
   ];
+  return out.filter((p) => p && p.slug && p.chapter && p.item);
 }
 
 

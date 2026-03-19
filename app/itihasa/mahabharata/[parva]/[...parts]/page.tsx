@@ -13,10 +13,12 @@ type Params = { parva: string; parts: string[] };
 
 export const dynamicParams = false;
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
   // Provide a minimal static params list so Next can detect the export.
   // Map each parva to its first chapter to keep the export small and deterministic.
-  return MAHABHARATA_PARVAS.map((parva) => ({ parva, parts: ['chapter-1'] }));
+  return MAHABHARATA_PARVAS
+    .filter((p) => !!p)
+    .map((parva) => ({ parva, parts: ['chapter-1'] }));
 }
 
 export async function generateMetadata(props: { params: Promise<Params> }) {

@@ -14,8 +14,10 @@ type Params = { parva: string };
 
 export const dynamicParams = false;
 
-export function generateStaticParams() {
-  return MAHABHARATA_PARVAS.map((parva) => ({ parva }));
+export async function generateStaticParams() {
+  return MAHABHARATA_PARVAS
+    .filter((p) => !!p)
+    .map((parva) => ({ parva }));
 }
 
 export async function generateMetadata(props: { params: Promise<Params> }) {

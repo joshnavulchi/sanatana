@@ -10,8 +10,10 @@ const VALID_SLUGS = PHILOSOPHY_TOPICS;
 export const dynamicParams = false;
 export const dynamic = 'force-static';
 
-export function generateStaticParams() {
-  return VALID_SLUGS.map((slug) => ({ slug }));
+export async function generateStaticParams() {
+  return VALID_SLUGS
+    .filter((s) => !!s)
+    .map((slug) => ({ slug }));
 }
 
 export async function generateMetadata(props: { params: Promise<{ slug: string }> }) {

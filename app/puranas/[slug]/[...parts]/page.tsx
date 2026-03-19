@@ -22,7 +22,7 @@ function getNamespace(slug: string, parts: string[]): string {
   return `puranas_${slug}_chapter${chapter}_verse${verse}`;
 }
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
   // Minimal deterministic params so Next's static analysis detects this export.
   // For Bhagavata provide a skanda placeholder; for others provide first chapter.
   const out: Params[] = [];
@@ -30,7 +30,7 @@ export function generateStaticParams() {
     if (slug === 'bhagavata') out.push({ slug, parts: ['skanda-1'] });
     else out.push({ slug, parts: ['chapter-1'] });
   }
-  return out;
+  return out.filter((p) => p && p.slug && Array.isArray(p.parts));
 }
 
 export async function generateMetadata(props: { params: Promise<Params> }) {

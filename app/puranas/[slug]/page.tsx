@@ -14,8 +14,14 @@ for (const slug of MAHAPURANA_SLUGS) {
 export const dynamicParams = false;
 export const dynamic = 'force-static';
 
-export function generateStaticParams() {
-  return VALID_SLUGS.map((slug) => ({ slug: String(slug) }));
+export async function generateStaticParams() {
+  // Solution: strict static export
+  // Replace with source and locale check if available
+  // Example: getAllStories() and filter localeExists
+  // For now, use VALID_SLUGS as static
+  return VALID_SLUGS
+    .filter((slug) => !!slug)
+    .map((slug) => ({ slug: String(slug) }));
 }
 
 export async function generateMetadata(props: { params: Promise<{ slug: string }> }) {

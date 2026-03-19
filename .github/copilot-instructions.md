@@ -17,6 +17,7 @@ AI must always:
 * Use Tailwind CSS for styling
 * Keep components small and composable
 * Maintain accessibility and localization
+* During build time, if any locale file is not found, highlight in build screen or put them in logs folder, skip the page and throw 404 page. Build should not stop or hang to find missed locale files. Same applied across all pages.
 
 ---
 
@@ -216,6 +217,32 @@ Runs:
 * lint
 
 Also ensure formatting and tests pass if the project provides scripts for them
+
+---
+
+# Build and Locale Handling
+
+
+During build time:
+
+* If any locale file is not found, log it in the logs folder
+* Skip the page and when user accesses the page, throw a 404 page for missing locales
+* Apply the strict static export solution to all pages:
+
+**Strict Static Export Solution:**
+
+```ts
+export async function generateStaticParams() {
+  const data = await getAllStories(); // your source
+  return data
+    .filter(item => item?.id && item?.localeExists) // filter invalid
+    .map(item => ({ id: item.id }));
+}
+```
+
+* Ensure output: 'export' is used for static generation
+* Filter out invalid items and those missing locales
+* This solution must be applied to all pages and OpenSpec artifacts
 
 ---
 
