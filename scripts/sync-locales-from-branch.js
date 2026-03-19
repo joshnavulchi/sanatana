@@ -5,7 +5,8 @@ const path = require('path');
 const { execFileSync, spawnSync } = require('child_process');
 
 const REPO_ROOT = path.resolve(__dirname, '..');
-const TARGET_DIR = path.join(REPO_ROOT, 'public', 'locales');
+// Store downloaded locales under `public/data/locales` so they are grouped with other generated public data.
+const TARGET_DIR = path.join(REPO_ROOT, 'public', 'data', 'locales');
 const STATE_FILE = path.join(REPO_ROOT, '.cache', 'locales-sync-state.json');
 
 // --- Behavior flags & inputs ---
