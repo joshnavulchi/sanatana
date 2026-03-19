@@ -11,7 +11,8 @@
     "postbuild": "node scripts/generate-sitemap.js && node scripts/generate-post-deploy-audit.js && node scripts/add-hash-to-assets.js",
     "render-build": "bash ./.render-build.sh",
     "start": "npx serve@latest out",
-    "lint": "eslint --quiet app lib scripts"
+    "lint": "eslint --quiet app lib scripts",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "^16.1.6",
