@@ -12,7 +12,7 @@ import { params as generatedParams } from '@app/generated-params/vedas-items';
 export const dynamicParams = false;
 
 
-export function generateStaticParams() { return generatedParams; }
+
 
 export async function generateMetadata(props: { params: Promise<ItemPageParams> }) {
   const { slug, chapter } = await props.params;

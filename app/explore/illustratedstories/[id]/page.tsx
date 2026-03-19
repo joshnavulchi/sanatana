@@ -11,7 +11,7 @@ import { params as generatedParams } from '@app/generated-params/illustratedstor
 export const generateMetadata = createGenerateMetadata('illustrated_stories');
 import StructuredData from '@components/structured-data/StructuredData';
 
-export function generateStaticParams() { return generatedParams; }
+
 
 interface Story {
   id: string;

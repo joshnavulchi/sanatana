@@ -16,7 +16,7 @@ export async function generateStaticParams() {
     .map((slug) => ({ slug, parts: ['overview'] }));
 }
 
-export function generateStaticParams() { return generatedParams; }
+
 
 export async function generateMetadata(props: { params: Promise<Params> }) {
   const { slug, parts } = await props.params;

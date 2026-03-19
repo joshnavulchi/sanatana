@@ -35,7 +35,7 @@ export async function generateStaticParams() {
   return out.filter((p) => p && p.slug && Array.isArray(p.parts));
 }
 
-export function generateStaticParams() { return generatedParams; }
+
 
 export async function generateMetadata(props: { params: Promise<Params> }) {
   const { slug, parts } = await props.params;

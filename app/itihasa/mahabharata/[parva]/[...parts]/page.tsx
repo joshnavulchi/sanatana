@@ -23,7 +23,7 @@ export async function generateStaticParams() {
     .map((parva) => ({ parva, parts: ['chapter-1'] }));
 }
 
-export function generateStaticParams() { return generatedParams; }
+
 
 export async function generateMetadata(props: { params: Promise<Params> }) {
   const { parva, parts } = await props.params;

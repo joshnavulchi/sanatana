@@ -48,7 +48,7 @@ function chapterFileKey(slug: string, chapter: string): string {
   return cfg.fileKey || slug;
 }
 
-export function generateStaticParams() { return generatedParams; }
+
 
 export async function generateMetadata(props: { params: Promise<ChapterPageParams> }) {
   const { slug, chapter } = await props.params;
