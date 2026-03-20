@@ -17,11 +17,10 @@ import { params as generatedParams } from '@app/generated-params/vedas-slugs';
 
 export const dynamicParams = false;
 
-// export async function generateStaticParams() {
-//   return VALID_SLUGS
-//     .filter((s) => !!s)
-//     .map((slug) => ({ slug }));
-// }
+export async function generateStaticParams() {
+  // Use the generated params list so Next's static export detection succeeds.
+  return generatedParams;
+}
 
 
 
