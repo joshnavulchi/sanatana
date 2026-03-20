@@ -13,7 +13,7 @@ export default function VedicGodsClient() {
   if (isLoading && !ns?.title) {
     return (
       <PageLayout metaKey="vedic_gods" title="" breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Vedic Gods' }]} className="layout-md">
-        <div className="flex items-center justify-center py-12"><Loader /></div>
+        <div className="flex items-center justify-center py-6"><Loader /></div>
       </PageLayout>
     );
   }
@@ -28,7 +28,7 @@ export default function VedicGodsClient() {
             const name = String(item?.name || item?.title || `Deity ${idx + 1}`);
             const desc = typeof item?.description === 'string' ? item.description : '';
             return (
-              <div key={idx} className="relative overflow-hidden rounded-2xl border border-[#d8a25a]/50 bg-[#fffaf0] p-6 shadow-[0_8px_30px_rgba(146,64,14,0.08)]">
+              <div key={idx} className="relative overflow-hidden rounded-2xl border border-[#d8a25a]/50 bg-[#fffaf0] p-4 md:p-6 shadow-[0_8px_30px_rgba(146,64,14,0.08)]">
                 <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-[#8b6914] via-[#b8952e] to-[#e0a632]" />
                 <div className="flex items-center gap-3 mt-2">
                   <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-[#8b6914]/10 text-sm">🙏</span>

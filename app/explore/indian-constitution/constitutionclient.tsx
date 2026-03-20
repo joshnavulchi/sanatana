@@ -59,7 +59,7 @@ export default function ConstitutionClient() {
                 <span className="text-4xl animate-bounce drop-shadow-lg">📜</span>
                 <div className="h-1 w-16 bg-gradient-to-l from-blue-400 via-cyan-400 to-blue-200 rounded-full" />
               </div>
-              <p className="text-base md:text-md md:text-2xl font-semibold leading-relaxed text-blue-900 drop-shadow-sm max-w-3xl mx-auto">
+              <p className="text-base md:text-md font-semibold leading-relaxed text-blue-900 drop-shadow-sm max-w-3xl mx-auto">
                 {constitution.meta && (constitution.meta as any).description}
               </p>
             </div>
@@ -109,14 +109,14 @@ export default function ConstitutionClient() {
                         <li key={member.name || mIdx} className="bg-gradient-to-br from-blue-50 via-cyan-50 to-white border-2 border-cyan-200 rounded-2xl shadow-lg p-6 hover:scale-[1.02] transition-transform">
                           <div className="font-extrabold text-blue-800 text-base md:text-md mb-1 tracking-tight">{member.name}</div>
                           <div className="text-blue-700 text-base md:text-md mb-1 italic">{member.biography}</div>
-                          {member.politicalbackground && <div className="text-cyan-700 text-base md:text-md md:text-sm mb-1">{member.politicalbackground}</div>}
-                          {member.specialization && <div className="text-cyan-600 text-base md:text-md md:text-sm mb-1">Specialization: {member.specialization}</div>}
+                          {member.politicalbackground && <div className="text-cyan-700 text-base md:text-md mb-1">{member.politicalbackground}</div>}
+                          {member.specialization && <div className="text-cyan-600 text-base md:text-md mb-1">Specialization: {member.specialization}</div>}
                           {member.contributions && Array.isArray(member.contributions) && (
-                            <ul className="list-disc ml-5 text-blue-900 text-base md:text-md md:text-sm mb-1">
+                            <ul className="list-disc ml-5 text-blue-900 text-base md:text-md mb-1">
                               {member.contributions.map((c: string, ci: number) => <li key={ci}>{c}</li>)}
                             </ul>
                           )}
-                          {member.replacement && <div className="text-cyan-400 text-base md:text-md md:text-sm">Replaced by: {member.replacement}</div>}
+                          {member.replacement && <div className="text-cyan-400 text-base md:text-md">Replaced by: {member.replacement}</div>}
                         </li>
                       ))}
                     </ul>

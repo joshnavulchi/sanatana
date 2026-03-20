@@ -218,7 +218,7 @@ export default function SimilarCategories({
       <div className="pointer-events-none absolute inset-x-5 bottom-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent" />
       <div className="mb-5 rounded-xl border border-amber-200 bg-amber-100/70 px-4 py-3">
         <h5 className="text-xl md:text-lg font-bold tracking-wide text-amber-900">{title}</h5>
-        <p className="mt-1 text-base md:text-md md:text-sm text-amber-800">Sacred pathways to explore related wisdom.</p>
+        <p className="mt-1 text-base md:text-md text-amber-800">Sacred pathways to explore related wisdom.</p>
       </div>
       <div className="space-y-4">
         {categories.map((category) => {

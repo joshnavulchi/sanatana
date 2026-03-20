@@ -112,7 +112,7 @@ export default function ContactPage() {
     }, {
       label: 'Contact'
     }]} className="layout-sm">
-        <div className="flex items-center justify-center py-12">
+        <div className="flex items-center justify-center py-6">
           <Loader />
         </div>
       </PageLayout>;
@@ -127,7 +127,7 @@ export default function ContactPage() {
   }]} className="layout-sm">
       <div className="flex flex-col md:flex-row gap-8 md:gap-0 bg-white/80 rounded-3xl shadow-2xl overflow-hidden border-2 border-amber-100">
         {/* Left info panel */}
-        <div className="relative md:w-2/5 flex flex-col justify-between bg-gradient-to-br from-amber-500 via-orange-400 to-amber-600 text-white p-8 md:p-10 gap-8">
+        <div className="relative md:w-2/5 flex flex-col justify-between bg-gradient-to-br from-amber-500 via-orange-400 to-amber-600 text-white p-6 md:p-10 gap-8">
           <div>
             <div className="flex items-center gap-4 mb-6">
               <span className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-white/20 backdrop-blur-md shadow-lg">

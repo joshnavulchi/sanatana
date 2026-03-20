@@ -50,12 +50,12 @@ export default function WorldTransformationContent() {
       >
         <div className="space-y-12">
           {/* Hero section */}
-          <div className="relative md:-mx-8 px-6 md:px-8 py-12 bg-gradient-to-br from-blue-50 via-indigo-50 to-blue-50 rounded-2xl overflow-hidden">
+          <div className="relative md:-mx-8 px-4 md:px-8 py-6 md:py-12 bg-gradient-to-br from-blue-50 via-indigo-50 to-blue-50 rounded-2xl overflow-hidden">
             <div className="absolute top-0 right-0 w-64 h-64 bg-blue-400/10 rounded-full blur-3xl" />
             <div className="absolute bottom-0 left-0 w-80 h-80 bg-indigo-400/10 rounded-full blur-3xl" />
 
             <div className="relative z-10">
-              <div className="flex items-center gap-3 mb-6">
+              <div className="flex items-center gap-3 mb-4">
                 <div className="h-px w-12 bg-gradient-to-r from-transparent to-blue-500" />
                 <span className="text-3xl animate-pulse">🌍</span>
                 <div className="h-px w-12 bg-gradient-to-l from-transparent to-blue-500" />
@@ -78,7 +78,7 @@ export default function WorldTransformationContent() {
           {/* Why Borders Became Stable */}
           {pageContent.whyBordersBecameStable && (
             <section className="space-y-6">
-              <div className="flex items-center gap-3 mb-6">
+              <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-xl flex items-center justify-center text-2xl shadow-md">
                   🔒
                 </div>
@@ -96,7 +96,7 @@ export default function WorldTransformationContent() {
                       bg-white
                       border-2 border-blue-100
                       hover:border-blue-300
-                      rounded-xl p-6
+                      rounded-xl p-4 md:p-6
                       shadow-lg hover:shadow-xl
                       transition-all duration-300
                       transform hover:-translate-y-1
@@ -112,7 +112,7 @@ export default function WorldTransformationContent() {
               )}
 
               {pageContent.whyBordersBecameStable.keyTakeaway && (
-                <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-l-4 border-blue-500 rounded-lg p-6">
+                <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-l-4 border-blue-500 rounded-lg p-4 md:p-6">
                   <div className="flex items-start gap-3">
                     <span className="text-2xl">💡</span>
                     <p className="flex-1  leading-relaxed font-semibold">{pageContent.whyBordersBecameStable.keyTakeaway}</p>
@@ -124,8 +124,8 @@ export default function WorldTransformationContent() {
 
           {/* Legend */}
           {pageContent.legend && pageContent.legend.changeTypes && Array.isArray(pageContent.legend.changeTypes) && (
-            <section className="bg-white border-2 border-blue-100 rounded-2xl p-6 md:p-8 shadow-lg">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
+            <section className="bg-white border-2 border-blue-100 rounded-2xl p-4 md:p-8 shadow-lg">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
                 <span className="text-2xl">🎨</span>
                 Legend
               </h3>
@@ -175,7 +175,7 @@ export default function WorldTransformationContent() {
                     <div className="hidden md:block absolute left-6 top-6 w-6 h-6 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full border-4 border-white  shadow-lg z-10" />
 
                     {/* Decade card */}
-                    <div className="md:ml-20 bg-white  border-2 border-blue-100  hover:border-blue-300  rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group">
+                    <div className="md:ml-20 bg-white  border-2 border-blue-100  hover:border-blue-300  rounded-xl p-4 md:p-6 shadow-lg hover:shadow-xl transition-all duration-300 group">
                       <div className="flex items-start justify-between gap-4 mb-4">
                         <h4 className="text-base md:text-md font-bold text-gray-900  group-hover:text-blue-600  transition-colors">
                           {d.decade ?? d.label ?? d.title ?? `Decade ${idx + 1}`}

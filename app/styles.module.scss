@@ -1,62 +1,154 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
+/* Global selectors moved from styles.module.scss */
+/* 1) Base CSS variables: Light theme */
+:root {
+  /* Font families: Playfair primary, Poppins secondary, then generic sans-serif */
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Poppins", sans-serif;
+  /* Spacing scale */
+  --space-xxs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-2xl: 72px;
+  --space-3xl: 90px;
+  /* Content width */
+  --content-width-xxs: 540px;
+  --content-width-xs: 760px;
+  --content-width-sm: 1024px;
+  --content-width-md: 1280px;
+  --content-width-default: 1440px;
+  --content-width-lg: 1680px;
+  --content-width-xl: 1900px;
+}
+
+/* 2) Dark theme */
+/* 10) Festival accent toggle (e.g., Navaratri, Diwali, Kumbhabhishekham) */
+/* 3) Core layout & typography */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  line-height: var(--line-height);
+  margin: 0;
+  -webkit-text-size-adjust: 100%;
+  /* avoids iOS zoom issues */
+}
+
+/* 4) Theming utilities */
+/* 5) Buttons */
+/* 6) Links */
+/* 7) Cards */
+/* 8) Header / Nav (with subtle gradient) */
+/* 9) Focus visibility for accessibility */
+
+/* Paragraphs & small text */
+.gradient-background {
+  background-image: radial-gradient(circle farthest-corner at 90% 0%,
+      var(--color-yellow),
+      var(--color-red) 18%,
+      var(--color-orange) 46%,
+      var(--color-violet) 87%,
+      var(--color-blue));
+}
+
+.content-wrapper {
+  padding: var(--space-xl) var(--space-md);
+}
+
+.layout-sm {
+  margin: 0 auto;
+  max-width: var(--content-width-sm);
+  padding: var(--space-xl) var(--space-md);
+}
+
+.layout-md {
+  margin: 0 auto;
+  max-width: var(--content-width-md);
+  padding: var(--space-xl) var(--space-md) var(--space-2xl);
+}
+
+/* Reserve space for elements to prevent CLS */
+.hidden.items-center.md\:flex {
+  @media (min-width: 768px) {
+    min-height: 48px;
+  }
+}
+
+/* Prevent footer from causing layout shift */
+:global(footer) {
+  contain: layout;
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e42 100%);
+  color: #fff;
+}
+
+.nav-wrapper {
+  margin: 0 auto;
+  max-width: var(--content-width-default);
+  padding: var(--space-xl) 0 var(--space-md);
+}
+
+/* Hero section container stability */
+.herosection .herocontent {
+  contain: layout;
+}
+
+/* Global dark mode text color fixes */
+@media (min-width: 1024px) {}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border: 2px solid #555555;
+}
+
 .multi-text-color {
   font-size: 1.8rem;
   font-weight: 600;
+
   span:first-child {
     color: #ff0800;
   }
+
   span:nth-child(2) {
     color: var(--color--deep-blue);
   }
+
   span:nth-child(3) {
     color: var(--color-violet);
   }
+
   span:last-child {
     color: var(--color-blue);
   }
 }
-.linkList {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.linkItem {
-  margin-bottom: 0.5rem;
-  &:last-child {
-    margin-bottom: 0;
-  }
-}
-.link {
-  color: var(--text-secondary, #6b7280);
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  transition: all 0.2s ease;
-  &::before {
-    content: "→";
-    margin-right: 0.5rem;
-    opacity: 0;
-    transform: translateX(-0.5rem);
-    transition: all 0.2s ease;
-  }
-  &:hover {
-    color: var(--primary-color, #f59e0b);
-    padding-left: 0.5rem;
-    &::before {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-}
+
 .textToSpeech {
   display: inline-flex;
   align-items: center;
   gap: 0.25rem;
+
   .controls {
     display: flex;
     align-items: center;
     gap: 0.5rem;
   }
+
   .playButton,
   .pauseButton,
   .resumeButton,
@@ -73,52 +165,63 @@
     color: var(--text-primary, #1f2937);
     cursor: pointer;
     transition: all 0.2s ease;
+
     &:hover {
       background: var(--primary-color, #f59e0b);
       color: white;
       border-color: var(--primary-color, #f59e0b);
       transform: scale(1.05);
     }
+
     &:active {
       transform: scale(0.95);
     }
+
     &:focus {
       outline: 2px solid var(--primary-color, #f59e0b);
       outline-offset: 2px;
     }
+
     svg {
       width: 20px;
       height: 20px;
     }
   }
+
   .playButton,
   .resumeButton {
     background: var(--primary-color, #f59e0b);
     color: white;
     border-color: var(--primary-color, #f59e0b);
+
     &:hover {
       background: var(--primary-dark, #d97706);
       border-color: var(--primary-dark, #d97706);
     }
   }
+
   .pauseButton {
     background: var(--warning-color, #eab308);
     color: white;
     border-color: var(--warning-color, #eab308);
+
     &:hover {
       background: var(--warning-dark, #ca8a04);
       border-color: var(--warning-dark, #ca8a04);
     }
   }
+
   .stopButton {
     background: var(--danger-color, #ef4444);
     color: white;
     border-color: var(--danger-color, #ef4444);
+
     &:hover {
       background: var(--danger-dark, #dc2626);
       border-color: var(--danger-dark, #dc2626);
     }
   }
+
   // Floating position option
   &.floating {
     position: fixed;
@@ -131,11 +234,13 @@
     background: var(--card-background, #ffffff);
     border: 1px solid var(--border-color, #e5e7eb);
   }
+
   // Inline position option
   &.inline {
     margin: 1rem 0;
   }
 }
+
 @media (min-width: 1024px) {
   .border-gradient-vertical {
     border-right: 4px;
@@ -143,4 +248,5 @@
     border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%;
   }
 }
+
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

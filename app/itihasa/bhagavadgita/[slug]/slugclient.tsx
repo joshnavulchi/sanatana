@@ -81,13 +81,13 @@ export default function SlugClient({ slug }: { slug: string }) {
   return (
     <PageLayout metaKey={`bhagavadgita_${slug}`} title={displayTitle} breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Itihasa', href: '/itihasa' }, { label: 'Bhagavad Gita', href: '/itihasa/bhagavadgita' }, { label: displayTitle }]} className="layout-md">
       {description && (
-        <div className="relative px-4 md:px-6 py-8 md:py-12 bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8] rounded-2xl border border-[#d8a25a]/30 overflow-hidden mb-8">
+          <div className="relative px-4 md:px-6 py-4 md:py-12 bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8] rounded-2xl border border-[#d8a25a]/30 overflow-hidden mb-8">
           <p className="text-lg text-[#5b2d12]">{description}</p>
         </div>
       )}
 
       {introduction && (
-        <div className="relative px-4 md:px-6 py-8 md:py-10 bg-[#fffaf0] rounded-2xl border border-[#d8a25a]/30 overflow-hidden mb-8 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
+        <div className="relative px-4 md:px-6 py-4 md:py-10 bg-[#fffaf0] rounded-2xl border border-[#d8a25a]/30 overflow-hidden mb-8 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
           <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-4">Introduction</h2>
           <div className="text-base md:text-lg text-[#5b2d12] leading-relaxed">
             <Paragraphs text={introduction} />
@@ -114,7 +114,7 @@ export default function SlugClient({ slug }: { slug: string }) {
       )}
 
       {philosophical && (
-        <div className="mt-10 relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 p-6 md:p-8 bg-linear-to-br from-[#fffaf3] via-[#fdf1dc] to-[#f8e4c0] shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
+        <div className="mt-10 relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 p-4 md:p-8 bg-linear-to-br from-[#fffaf3] via-[#fdf1dc] to-[#f8e4c0] shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
           <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-[#7a2e1f] via-[#d97706] to-[#f59e0b]" />
           <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-4">Philosophical Explanation</h2>
           <div className="text-base md:text-lg text-[#5b2d12] leading-relaxed">

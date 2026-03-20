@@ -130,7 +130,7 @@ export default function DropIrrigationClient() {
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: dripIrrigation.title }]}
         className="layout-md"
       >
-        <div className="flex items-center justify-center py-12">
+        <div className="flex items-center justify-center py-4">
           <Loader />
         </div>
       </PageLayout>
@@ -140,7 +140,7 @@ export default function DropIrrigationClient() {
   const tocItems = dripIrrigation.toc?.items ?? [];
 
   const renderSectionContent = (section: SectionData) => (
-    <div className="mt-5 space-y-5 text-base md:text-md leading-7 text-slate-700">
+    <div className="mt-4 space-y-4 text-base md:text-md leading-7 text-slate-700">
       {section.summary ? (
         <p className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-slate-700">
           {section.summary}
@@ -426,7 +426,7 @@ export default function DropIrrigationClient() {
       breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: dripIrrigation.title }]}
       className="layout-md"
     >
-      <section className="relative overflow-hidden rounded-3xl border border-emerald-200 bg-gradient-to-br from-emerald-50 via-white to-cyan-50 p-6 shadow-sm md:p-8">
+      <section className="relative overflow-hidden rounded-3xl border border-emerald-200 bg-gradient-to-br from-emerald-50 via-white to-cyan-50 p-4 shadow-sm md:p-8">
         <div className="absolute -right-20 -top-20 h-56 w-56 rounded-full bg-emerald-100 blur-3xl" aria-hidden="true" />
         <div className="absolute -bottom-20 -left-20 h-56 w-56 rounded-full bg-cyan-100 blur-3xl" aria-hidden="true" />
         <div className="relative">
@@ -479,14 +479,14 @@ export default function DropIrrigationClient() {
 
         <div className="space-y-6">
           <div className="w-full bg-white rounded-2xl border border-slate-200 shadow-sm">
-            <LazyImage src="/images/drip-irrigation.png" width="1600" height="200" className="p-5" alt="Drip Irrigation Process" />
+            <LazyImage src="/images/drip-irrigation.png" width="1600" height="200" className="p-4" alt="Drip Irrigation Process" />
           </div>
 
           {dripIrrigation.sections.map((section) => (
             <section
               key={section.id}
               id={section.id}
-              className="scroll-mt-24 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm md:p-6"
+              className="scroll-mt-24 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-6"
             >
               <h5 className="text-2xl font-bold text-slate-900">{section.title}</h5>
               {renderSectionContent(section)}
@@ -494,10 +494,10 @@ export default function DropIrrigationClient() {
           ))}
 
           {dripIrrigation.diagram ? (
-            <section className="rounded-2xl border border-indigo-200 bg-indigo-50 p-5 shadow-sm md:p-6">
+            <section className="rounded-2xl border border-indigo-200 bg-indigo-50 p-4 shadow-sm md:p-6">
               <h6 className="text-2xl font-bold text-indigo-950">{dripIrrigation.diagram.title}</h6>
               <div className="mt-4 overflow-x-auto rounded-xl bg-indigo-950 p-4">
-                <pre className="whitespace-pre-wrap font-mono text-base md:text-md md:text-sm leading-7 text-indigo-100">
+                <pre className="whitespace-pre-wrap font-mono text-base md:text-md leading-7 text-indigo-100">
                   {(dripIrrigation.diagram.lines || []).join('\n')}
                 </pre>
               </div>
@@ -505,7 +505,7 @@ export default function DropIrrigationClient() {
           ) : null}
 
           {dripIrrigation.cta ? (
-            <section className="rounded-2xl bg-gradient-to-r from-emerald-600 to-cyan-600 p-6 text-white shadow-lg mb-8 md:mb-0">
+            <section className="rounded-2xl bg-gradient-to-r from-emerald-600 to-cyan-600 p-4 text-white shadow-lg mb-6 md:mb-0">
               <h6 className="text-2xl">{dripIrrigation.cta.title}</h6>
               {dripIrrigation.cta.body ? (
                 <p className="mt-2 max-w-3xl text-emerald-50">{dripIrrigation.cta.body}</p>

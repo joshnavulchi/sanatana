@@ -93,7 +93,7 @@ export default function PrivacyPolicy() {
   if (isLoading && !privacy.title) {
     return (
       <PageLayout metaKey="privacy_policy.meta" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Privacy Policy' }]} className="layout-md">
-        <div className="flex items-center justify-center py-12">
+        <div className="flex items-center justify-center py-4">
           <Loader />
         </div>
       </PageLayout>
@@ -109,7 +109,7 @@ export default function PrivacyPolicy() {
     >
       <div id="privacy-content" className="space-y-8">
         {/* Header */}
-        <div className="flex items-center justify-between flex-wrap gap-4 pb-6 border-b-2 border-amber-200">
+        <div className="flex items-center justify-between flex-wrap gap-4 pb-4 md:pb-6 border-b-2 border-amber-200">
           <div className="flex items-center gap-3">
             <span className="text-2xl">🔒</span>
             <strong className="text-xl md:text-lg ">{privacy.lastupdated}</strong>
@@ -118,7 +118,7 @@ export default function PrivacyPolicy() {
         </div>
 
         {/* Intro */}
-        <section className="bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-200 rounded-2xl p-6 md:p-8">
+        <section className="bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-200 rounded-2xl p-4 md:p-8">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-3xl">🛡️</span>
             {privacy.intro.title}
@@ -127,8 +127,8 @@ export default function PrivacyPolicy() {
         </section>
 
         {/* Information We Collect */}
-        <section className="bg-white border-2 border-amber-100 rounded-2xl p-6 md:p-8 shadow-lg">
-          <h3 className="text-base md:text-md md:text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+        <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
+          <h3 className="text-base md:text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">📊</span>
             <span><strong>{privacy.informationwecollect.title}</strong> {privacy.informationwecollect.lead}</span>
           </h3>
@@ -141,8 +141,8 @@ export default function PrivacyPolicy() {
         </section>
 
         {/* How We Use */}
-        <section className="bg-white border-2 border-amber-100 rounded-2xl p-6 md:p-8 shadow-lg">
-          <h4 className="text-base md:text-md md:text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+        <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
+          <h4 className="text-base md:text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">🎯</span>
             {privacy.howweuse?.title}
           </h4>
@@ -158,8 +158,8 @@ export default function PrivacyPolicy() {
         </section>
 
         {/* Cookies & Local Storage */}
-        <section className="bg-white border-2 border-amber-100 rounded-2xl p-6 md:p-8 shadow-lg">
-          <h5 className="text-base md:text-md md:text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+        <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
+          <h5 className="text-base md:text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">🍪</span>
             {privacy.cookieslocalstorage.title}
           </h5>
@@ -167,8 +167,8 @@ export default function PrivacyPolicy() {
         </section>
 
         {/* Third Party */}
-        <section className="bg-white border-2 border-amber-100 rounded-2xl p-6 md:p-8 shadow-lg">
-          <h6 className="text-base md:text-md md:text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+        <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
+          <h6 className="text-base md:text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">🔗</span>
             {privacy.thirdparty.title}
           </h6>
@@ -176,8 +176,8 @@ export default function PrivacyPolicy() {
         </section>
 
         {/* Security */}
-        <section className="bg-white border-2 border-amber-100 rounded-2xl p-6 md:p-8 shadow-lg">
-          <p className="text-base md:text-md md:text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+        <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
+          <p className="text-base md:text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">🔐</span>
             {privacy.security.title}
           </p>
@@ -185,8 +185,8 @@ export default function PrivacyPolicy() {
         </section>
 
         {/* Rights */}
-        <section className="bg-white border-2 border-amber-100 rounded-2xl p-6 md:p-8 shadow-lg">
-          <p className="text-base md:text-md md:text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+        <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
+          <p className="text-base md:text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">⚖️</span>
             {privacy.rights.title}
           </p>
@@ -203,8 +203,8 @@ export default function PrivacyPolicy() {
         </section>
 
         {/* Children */}
-        <section className="bg-white border-2 border-amber-100 rounded-2xl p-6 md:p-8 shadow-lg">
-          <p className="text-base md:text-md md:text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+        <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
+          <p className="text-base md:text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">👶</span>
             {privacy.children.title}
           </p>
@@ -212,8 +212,8 @@ export default function PrivacyPolicy() {
         </section>
 
         {/* Changes */}
-        <section className="bg-white border-2 border-amber-100 rounded-2xl p-6 md:p-8 shadow-lg">
-          <p className="text-base md:text-md md:text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+        <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
+          <p className="text-base md:text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">🔄</span>
             {privacy.changes.title}
           </p>
@@ -221,8 +221,8 @@ export default function PrivacyPolicy() {
         </section>
 
         {/* Contact */}
-        <section className="bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-200 rounded-2xl p-6 md:p-8">
-          <p className="text-base md:text-md md:text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+        <section className="bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-200 rounded-2xl p-4 md:p-8">
+          <p className="text-base md:text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">📧</span>
             {privacy.contact.title}
           </p>

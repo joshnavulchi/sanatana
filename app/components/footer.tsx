@@ -68,8 +68,8 @@ function NavColumn({ title, links, icon, iconBg }: {
   const visible = expanded ? links : links.slice(0, INITIAL_VISIBLE);
 
   return (
-    <div className="flex flex-col gap-2">
-      <p className="mb-2 flex items-center gap-2 text-md font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
+    <div className="flex flex-col gap-3">
+      <p className="mb-2 flex items-center gap-2 text-sm font-black uppercase tracking-[0.25em] text-[#7a2e1f]">
         <span className={`inline-flex h-6 w-6 p-[2] rounded-full ${iconBg} text-sm text-[#fff4df]`}>
           {icon}
         </span>
@@ -80,7 +80,7 @@ function NavColumn({ title, links, icon, iconBg }: {
         <Link
           key={href}
           href={href}
-          className={`text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`}
+          className={`text-base font-medium transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#4b2a10] hover:text-[#7a2e1f]'}`}
           onClick={e => { if (isActive(href)) e.preventDefault(); }}
         >
           {label}
@@ -90,12 +90,12 @@ function NavColumn({ title, links, icon, iconBg }: {
         <button
           type="button"
           onClick={() => setExpanded(prev => !prev)}
-          className="mt-1 flex items-center gap-1 text-sm font-semibold text-[#92400e] hover:text-[#7a2e1f] transition-colors duration-200 cursor-pointer"
+          className="mt-2 flex items-center gap-2 text-sm font-medium text-[#92400e] hover:text-[#7a2e1f] transition-colors duration-200 cursor-pointer"
           aria-expanded={expanded}
         >
           {expanded ? 'Show less' : `Show more (${links.length - INITIAL_VISIBLE})`}
           <svg
-            className={`bg-white h-4 w-4 p-1 rounded-sm transition-transform duration-200 ${expanded ? 'rotate-180' : ''}`}
+            className={`h-4 w-4 p-1 rounded-sm transition-transform duration-200 ${expanded ? 'rotate-180' : ''}`}
             fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -151,7 +151,7 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
           <div className="flex items-center gap-1">
             <Link
               href={href}
-              className={`text-sm font-semibold transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`}
+              className={`text-base font-medium transition-colors duration-200 ${isActive(href) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#4b2a10] hover:text-[#7a2e1f]'}`}
               onClick={e => { if (isActive(href)) e.preventDefault(); }}
             >
               {name}
@@ -183,7 +183,7 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
                   <Link
                     key={subKey}
                     href={subHref}
-                    className={`text-sm font-semibold transition-colors duration-200 ${isActive(subHref) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-2' : 'text-[#6b5d4f] hover:text-[#7a2e1f]'}`}
+                    className={`text-base font-medium transition-colors duration-200 ${isActive(subHref) ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-2' : 'text-[#5c4b3f] hover:text-[#7a2e1f]'}`}
                     onClick={e => { if (isActive(subHref)) e.preventDefault(); }}
                   >
                     {subLabel}
@@ -211,9 +211,9 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="relative w-full overflow-hidden bg-linear-to-b from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef]">
+      <footer className="relative w-full overflow-hidden bg-white/60 backdrop-blur-sm">
         {/* Top ornamental bar */}
-        <div className="h-[3] w-full bg-linear-to-r from-[#f59e0b] via-[#d97706] to-[#7c2d12]" />
+        <div className="h-1 w-full bg-linear-to-r from-amber-600 via-amber-500 to-yellow-400" />
 
         {/* Decorative background blurs */}
         <div className="pointer-events-none absolute inset-0">
@@ -223,14 +223,14 @@ export default function Footer() {
 
         <div className="relative z-10">
           {/* ─── Hero CTA Section ─── */}
-          <section className="content-wrapper text-center py-16 md:py-20">
-            <div className="bg-white mx-auto max-w-3xl rounded-xl shadow-xs my-16 p-4">
-              <h2 className="text-3xl/10 md:text-4xl/12 my-12 font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
+          <section className="content-wrapper text-center py-4 md:py-16">
+            <div className="mx-auto max-w-4xl rounded-xl bg-white/80 backdrop-blur-sm shadow-lg my-4 p-4">
+              <h6 className="text-2xl/8 md:text-3xl/12 font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
                 {footer.title}
-              </h2>
+              </h6>
             </div>
 
-            <p className="mx-auto max-w-4xl text-xl md:text-lg mt-6 px-4 leading-8 text-[#5b2d12]">
+            <p className="mx-auto max-w-5xl text-base md:text-md mt-6 px-4 leading-8 text-gray-800">
               {footer.quote} {footer.quotesource}
             </p>
 
@@ -238,10 +238,8 @@ export default function Footer() {
             <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 mt-6">
               <Link
                 href="/contact"
-                className="group relative md:inline-flex px-8 py-3 bg-linear-to-r from-amber-500 to-orange-600
-                hover:from-amber-600 hover:to-orange-700 text-white text-xl md:text-lg rounded-full shadow-xl font-light hover:shadow-2xl
-                transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden">
-                <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
+                className="group relative md:inline-flex px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white text-base md:text-base rounded-full shadow-md font-medium transition transform hover:-translate-y-0.5 no-underline overflow-hidden">
+                <span className="absolute inset-0 bg-white/10 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
                 <span className="relative flex items-center justify-center gap-2">
                   {footer.contact || 'Contact'}
                   <svg className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -252,10 +250,7 @@ export default function Footer() {
 
               <Link
                 href="/donate"
-                className="group md:inline-flex px-8 py-3 bg-white/10 backdrop-blur-md
-                hover:bg-white/20 border-2 border-white/50 hover:border-white
-                text-white text-xl md:text-lg font-light rounded-full shadow-lg hover:shadow-xl
-                transition-all duration-300 transform hover:-translate-y-1 no-underline">
+                className="group md:inline-flex px-4 py-2 bg-white/40 backdrop-blur-sm border border-amber-200 text-amber-700 text-base md:text-base font-medium rounded-full shadow-sm hover:bg-white/60 transition transform hover:-translate-y-0.5 no-underline">
                 <span className="flex items-center justify-center gap-2">
                   {footer.donate || 'Donate'}
                   <svg className="h-4 w-4 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -267,15 +262,15 @@ export default function Footer() {
           </section>
 
           {/* ─── Ornamental Divider ─── */}
-          <div className="flex items-center justify-center gap-3 px-8">
+          <div className="flex items-center justify-center gap-3 px-4">
             <div className="h-px flex-1 max-w-40 bg-linear-to-r from-transparent to-[#d8a25a]/60" />
             <span className="text-lg text-[#9a3412]" aria-hidden="true">✦</span>
             <div className="h-px flex-1 max-w-40 bg-linear-to-l from-transparent to-[#d8a25a]/60" />
           </div>
 
           {/* ─── Navigation Columns ─── */}
-          <div className="mx-auto max-w-7xl px-3 md:px-0 py-7 md:py-14">
-            <nav className="grid gap-6 grid-cols-2 md:grid-cols-3 lg:grid-cols-4" aria-label="Footer navigation">
+          <div className="mx-auto max-w-7xl px-3 md:px-0 py-4 md:py-12">
+            <nav className="grid gap-8 grid-cols-2 md:grid-cols-3 lg:grid-cols-4" aria-label="Footer navigation">
               {SECTION_CONFIG.map(({ key, icon, iconBg, basePath }) => {
                 const section = footer[key];
                 if (!section || typeof section !== 'object') return null;
@@ -301,11 +296,11 @@ export default function Footer() {
           </div>
 
           {/* ─── Bottom Bar ─── */}
-          <div className="border-t border-[#d8a25a]/30 bg-linear-to-r from-[#fff7ed] via-[#fde7c7] to-[#fff7ed]">
+          <div className="border-t border-[#f0d9bf]/40 bg-white/60">
             {/* Disclaimer + Socials */}
-            <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-5 md:flex-row">
+            <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-4 md:flex-row">
               <div>
-                <small className="text-xs leading-5 text-[#6b3a17]">
+                <small className="text-sm leading-6 text-gray-700">
                   {footer.disclaimer}<br />{footer.contentchange}
                 </small>
               </div>
@@ -329,17 +324,17 @@ export default function Footer() {
             <div className="border-t border-[#d8a25a]/20">
               <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 py-4 md:flex-row">
                 <div className="flex items-center gap-4">
-                  <Link href="/privacy-policy" className={`text-xs font-semibold transition-colors duration-200 no-underline ${isActive('/privacy-policy') ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`}>{footer.privacy}</Link>
+                  <Link href="/privacy-policy" className={`text-sm font-medium transition-colors duration-200 no-underline ${isActive('/privacy-policy') ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#4b2a10] hover:text-[#7a2e1f]'}`}>{footer.privacy}</Link>
                   <span className="text-[#d8a25a]">·</span>
-                  <Link href="/terms-of-service" className={`text-xs font-semibold transition-colors duration-200 no-underline ${isActive('/terms-of-service') ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#6b3a17] hover:text-[#7a2e1f]'}`}>{footer.terms}</Link>
+                  <Link href="/terms-of-service" className={`text-sm font-medium transition-colors duration-200 no-underline ${isActive('/terms-of-service') ? 'text-[#9a3412] underline decoration-[#d97706] underline-offset-4' : 'text-[#4b2a10] hover:text-[#7a2e1f]'}`}>{footer.terms}</Link>
                 </div>
-                <small className="text-xs text-[#92400e]">{footer.copyright}</small>
+                <small className="text-sm text-[#92400e]">{footer.copyright}</small>
               </div>
             </div>
           </div>
 
           {/* Bottom ornamental bar */}
-          <div className="h-[4] w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
+          <div className="h-1 w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
         </div>
       </footer>
     </>

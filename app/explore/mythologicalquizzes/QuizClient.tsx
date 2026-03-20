@@ -134,7 +134,7 @@ export default function QuizClient() {
     return (
       <div>
         <h2 className="text-2xl md:text-3xl mb-4">{ns?.readyTitle || 'Ready?'}</h2>
-        <h3 className="text-base md:text-md md:text-2xl">{(ns?.readyDescription || 'This quiz has {count} questions, time {time}').replace('{count}', String(qList.length)).replace('{time}', fmtTime(timeLeft))}</h3>
+        <h3 className="text-base md:text-md">{(ns?.readyDescription || 'This quiz has {count} questions, time {time}').replace('{count}', String(qList.length)).replace('{time}', fmtTime(timeLeft))}</h3>
         <div className="flex items-center justify-between mt-6">
           <button className="cursor-pointer group md:inline-flex px-4 py-2 bg-white/10 backdrop-blur-md
                     hover:bg-white/20 border-2 border-amber-500/50 hover:border-white
@@ -196,13 +196,13 @@ export default function QuizClient() {
   return (
     <div>
       <div className="flex items-center justify-between mb-6">
-        <div className="text-base md:text-md md:text-2xl font-semibold">{(ns?.questionCounter || 'Question {current} / {total}').replace('{current}', String(current + 1)).replace('{total}', String(qList.length))}</div>
+        <div className="text-base md:text-md font-semibold">{(ns?.questionCounter || 'Question {current} / {total}').replace('{current}', String(current + 1)).replace('{total}', String(qList.length))}</div>
         <div className=''>{ns?.timeLeftLabel || 'Time left:'} {fmtTime(timeLeft)}</div>
       </div>
 
       <div className="flex flex-col justify-start items-start gap-6">
-        <div className="text-base md:text-md md:text-2xl font-bold">{q.question}</div>
-        <div className="text-base md:text-md md:text-2xl font-semibold mt-4 flex flex-col gap-3">
+        <div className="text-base md:text-md font-bold">{q.question}</div>
+        <div className="text-base md:text-md font-semibold mt-4 flex flex-col gap-3">
           {(['A', 'B', 'C', 'D'] as (keyof Options)[]).map((k) => {
             const isSelected = answers[q.id] === k;
             return (

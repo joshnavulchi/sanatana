@@ -85,13 +85,13 @@ export default function BhagavadGitaClient() {
       <StructuredData metaKey="itihasa_bhagavadgita" />
       <PageLayout metaKey="itihasa_bhagavadgita" title={title} breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Itihasa', href: '/itihasa' }, { label: title }]} className="layout-md">
           {description && (
-            <div className="relative px-4 md:px-6 py-8 md:py-12 bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8] rounded-2xl border border-[#d8a25a]/30 overflow-hidden mb-8">
+            <div className="relative px-4 md:px-6 py-4 md:py-12 bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8] rounded-2xl border border-[#d8a25a]/30 overflow-hidden mb-6">
               <p className="text-lg text-[#5b2d12]">{description}</p>
               </div>
         )}
 
         {introduction && (
-          <div className="relative px-4 md:px-6 py-8 md:py-10 bg-[#fffaf0] rounded-2xl border border-[#d8a25a]/30 overflow-hidden mb-8 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
+          <div className="relative px-4 md:px-6 py-4 md:py-10 bg-[#fffaf0] rounded-2xl border border-[#d8a25a]/30 overflow-hidden mb-6 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
             <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-4">Introduction</h2>
             <div className="text-base md:text-lg text-[#5b2d12] leading-relaxed">
               <Paragraphs text={introduction} />
@@ -101,8 +101,8 @@ export default function BhagavadGitaClient() {
 
         {scriptureSections.length > 0 && (
           <div className="mt-8">
-            <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-6">Overview</h2>
-            <div className="grid grid-cols-1 gap-6">
+            <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-4">Overview</h2>
+            <div className="grid grid-cols-1 gap-4">
               {scriptureSections.map((item, idx) => (
                 <SectionCard key={idx} item={item} index={idx} />
               ))}
@@ -111,7 +111,7 @@ export default function BhagavadGitaClient() {
         )}
 
         {philosophical && (
-          <div className="mt-10 relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 p-6 md:p-8 bg-linear-to-br from-[#fffaf3] via-[#fdf1dc] to-[#f8e4c0] shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
+          <div className="mt-10 relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 p-4 md:p-8 bg-linear-to-br from-[#fffaf3] via-[#fdf1dc] to-[#f8e4c0] shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
             <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-[#7a2e1f] via-[#d97706] to-[#f59e0b]" />
             <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-4">Philosophical Explanation</h2>
             <div className="text-base md:text-lg text-[#5b2d12] leading-relaxed">
@@ -123,10 +123,10 @@ export default function BhagavadGitaClient() {
         {chapters.length > 0 && (
           <div className="mt-8">
             <h2 className="text-2xl font-bold text-[#3d2e22] mb-6">Chapters</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {chapters.map((link, idx) => (
                 <Link key={link.href} href={link.href} className="group block">
-                  <div className="relative overflow-hidden rounded-2xl border border-[#d8a25a]/50 bg-[#fffaf0] p-5 shadow-[0_8px_30px_rgba(146,64,14,0.08)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(166,61,23,0.18)]">
+                  <div className="relative overflow-hidden rounded-2xl border border-[#d8a25a]/50 bg-[#fffaf0] p-4 shadow-[0_8px_30px_rgba(146,64,14,0.08)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(166,61,23,0.18)]">
                     <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-[#7a2e1f] via-[#c2410c] to-[#f59e0b]" />
                     <div className="flex items-center gap-3 mt-2">
                       <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-[#7a2e1f]/15 text-sm font-bold text-[#7a2e1f]">{idx + 1}</span>

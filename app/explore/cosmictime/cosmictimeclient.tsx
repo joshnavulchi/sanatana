@@ -83,22 +83,22 @@ export default function CosmictimeClient() {
 
   // Part-specific visual variants (unique look per part)
   const PART_VARIANTS: Record<string, { card: string; badge: string; title: string; subtitle?: string }> = {
-    part1: { card: 'bg-gradient-to-br from-amber-50 to-amber-100 border-l-8 border-amber-300 p-6 rounded-2xl shadow-md', badge: 'bg-amber-200 text-amber-700', title: 'text-amber-800', subtitle: 'text-xl md:text-lg text-amber-700' },
-    part2: { card: 'bg-gradient-to-br from-orange-50 to-orange-100 border-l-8 border-orange-300 p-6 rounded-2xl shadow-md', badge: 'bg-orange-200 text-orange-700', title: 'text-orange-800', subtitle: 'text-xl md:text-lg text-orange-700' },
-    part3: { card: 'bg-gradient-to-br from-yellow-50 to-yellow-100 border-l-8 border-yellow-300 p-6 rounded-2xl shadow-md', badge: 'bg-yellow-200 text-yellow-700', title: 'text-yellow-800', subtitle: 'text-xl md:text-lg text-yellow-700' },
-    part4: { card: 'bg-gradient-to-br from-amber-50 to-amber-100 border-l-8 border-amber-300 p-6 rounded-2xl shadow-md', badge: 'bg-amber-200 text-amber-700', title: 'text-amber-800', subtitle: 'text-xl md:text-lg text-amber-700' },
-    part5: { card: 'bg-gradient-to-br from-emerald-50 to-emerald-100 border-l-8 border-emerald-300 p-6 rounded-2xl shadow-md', badge: 'bg-emerald-200 text-emerald-700', title: 'text-emerald-800', subtitle: 'text-xl md:text-lg text-emerald-700' },
-    part6: { card: 'bg-gradient-to-br from-lime-50 to-lime-100 border-l-8 border-lime-300 p-6 rounded-2xl shadow-md', badge: 'bg-lime-200 text-lime-700', title: 'text-lime-800', subtitle: 'text-xl md:text-lg text-lime-700' },
-    part7: { card: 'bg-gradient-to-br from-amber-50 to-amber-100 border-l-8 border-amber-300 p-6 rounded-2xl shadow-md', badge: 'bg-amber-200 text-amber-700', title: 'text-amber-800', subtitle: 'text-xl md:text-lg text-amber-700' },
-    part8: { card: 'bg-gradient-to-br from-orange-50 to-orange-100 border-l-8 border-orange-300 p-6 rounded-2xl shadow-md', badge: 'bg-orange-200 text-orange-700', title: 'text-orange-800', subtitle: 'text-xl md:text-lg text-orange-700' },
-    part9: { card: 'bg-gradient-to-br from-yellow-50 to-yellow-100 border-l-8 border-yellow-300 p-6 rounded-2xl shadow-md', badge: 'bg-yellow-200 text-yellow-700', title: 'text-yellow-800', subtitle: 'text-xl md:text-lg text-yellow-700' },
-    part10: { card: 'bg-gradient-to-br from-emerald-50 to-emerald-100 border-l-8 border-emerald-300 p-6 rounded-2xl shadow-md', badge: 'bg-emerald-200 text-emerald-700', title: 'text-emerald-800', subtitle: 'text-xl md:text-lg text-emerald-700' }
+    part1: { card: 'bg-gradient-to-br from-amber-50 to-amber-100 border-l-8 border-amber-300 p-4 rounded-2xl shadow-md', badge: 'bg-amber-200 text-amber-700', title: 'text-amber-800', subtitle: 'text-xl md:text-lg text-amber-700' },
+    part2: { card: 'bg-gradient-to-br from-orange-50 to-orange-100 border-l-8 border-orange-300 p-4 rounded-2xl shadow-md', badge: 'bg-orange-200 text-orange-700', title: 'text-orange-800', subtitle: 'text-xl md:text-lg text-orange-700' },
+    part3: { card: 'bg-gradient-to-br from-yellow-50 to-yellow-100 border-l-8 border-yellow-300 p-4 rounded-2xl shadow-md', badge: 'bg-yellow-200 text-yellow-700', title: 'text-yellow-800', subtitle: 'text-xl md:text-lg text-yellow-700' },
+    part4: { card: 'bg-gradient-to-br from-amber-50 to-amber-100 border-l-8 border-amber-300 p-4 rounded-2xl shadow-md', badge: 'bg-amber-200 text-amber-700', title: 'text-amber-800', subtitle: 'text-xl md:text-lg text-amber-700' },
+    part5: { card: 'bg-gradient-to-br from-emerald-50 to-emerald-100 border-l-8 border-emerald-300 p-4 rounded-2xl shadow-md', badge: 'bg-emerald-200 text-emerald-700', title: 'text-emerald-800', subtitle: 'text-xl md:text-lg text-emerald-700' },
+    part6: { card: 'bg-gradient-to-br from-lime-50 to-lime-100 border-l-8 border-lime-300 p-4 rounded-2xl shadow-md', badge: 'bg-lime-200 text-lime-700', title: 'text-lime-800', subtitle: 'text-xl md:text-lg text-lime-700' },
+    part7: { card: 'bg-gradient-to-br from-amber-50 to-amber-100 border-l-8 border-amber-300 p-4 rounded-2xl shadow-md', badge: 'bg-amber-200 text-amber-700', title: 'text-amber-800', subtitle: 'text-xl md:text-lg text-amber-700' },
+    part8: { card: 'bg-gradient-to-br from-orange-50 to-orange-100 border-l-8 border-orange-300 p-4 rounded-2xl shadow-md', badge: 'bg-orange-200 text-orange-700', title: 'text-orange-800', subtitle: 'text-xl md:text-lg text-orange-700' },
+    part9: { card: 'bg-gradient-to-br from-yellow-50 to-yellow-100 border-l-8 border-yellow-300 p-4 rounded-2xl shadow-md', badge: 'bg-yellow-200 text-yellow-700', title: 'text-yellow-800', subtitle: 'text-xl md:text-lg text-yellow-700' },
+    part10: { card: 'bg-gradient-to-br from-emerald-50 to-emerald-100 border-l-8 border-emerald-300 p-4 rounded-2xl shadow-md', badge: 'bg-emerald-200 text-emerald-700', title: 'text-emerald-800', subtitle: 'text-xl md:text-lg text-emerald-700' }
   };
 
   if (isLoading && !data.title) {
     return (
       <PageLayout metaKey="cosmictime" title="" breadcrumbs={[{ labelKey: "Home", href: "/" }, { label: "Cosmic Time" }]} className="layout-md">
-        <div className="flex items-center justify-center py-12"><Loader /></div>
+        <div className="flex items-center justify-center py-6"><Loader /></div>
       </PageLayout>
     );
   }
@@ -113,7 +113,7 @@ export default function CosmictimeClient() {
       <div id="cosmictime-content">
         <div className="flex flex-col lg:flex-row gap-8">
           <main className="w-full lg:w-3/4 hidden!">
-            <header className="px-6 py-10 rounded-3xl bg-gradient-to-r from-amber-50 via-orange-50 to-yellow-50 border border-orange-100 shadow-sm">
+            <header className="px-4 py-6 rounded-3xl bg-gradient-to-r from-amber-50 via-orange-50 to-yellow-50 border border-orange-100 shadow-sm">
               <div className="max-w-5xl mx-auto text-center">
                 <div className="mx-auto w-20 h-20 rounded-full bg-white/80 border border-amber-200 flex items-center justify-center mb-4 shadow">
                   <svg className="w-10 h-10 text-amber-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
@@ -161,7 +161,7 @@ export default function CosmictimeClient() {
                   );
                 }
                 return (
-                  <article key={sectionKey} className="bg-white border-l-4 rounded-2xl p-6 shadow-sm hover:shadow-md transform hover:-translate-y-1 transition">
+                  <article key={sectionKey} className="bg-white border-l-4 rounded-2xl p-4 shadow-sm hover:shadow-md transform hover:-translate-y-1 transition">
                     <div className="flex items-start gap-4">
                       <div className={`flex-shrink-0 w-12 h-12 rounded-lg ${badgeBg} ${badgeBorder} flex items-center justify-center`}>
                         <svg className={`${badgeText} w-6 h-6`} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>

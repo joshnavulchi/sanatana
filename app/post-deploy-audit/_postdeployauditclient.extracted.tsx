@@ -33,8 +33,8 @@ export default function PostDeployAuditClient({
   const [sortDir, setSortDir] = useState<"asc" | "desc">("asc");
   if (!report || !report.pages) {
     return <>
-        <main className="min-h-screen bg-linear-to-b from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] px-6 py-10">
-          <section className="mx-auto max-w-5xl rounded-3xl border border-[#d8a25a] bg-[#fffaf0] p-8 shadow-[0_10px_40px_rgba(122,46,31,0.10)]">
+        <main className="min-h-screen bg-linear-to-b from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] px-4 py-6">
+          <section className="mx-auto max-w-5xl rounded-3xl border border-[#d8a25a] bg-[#fffaf0] p-6 shadow-[0_10px_40px_rgba(122,46,31,0.10)]">
             <h1 className="text-2xl font-bold text-[#7a2e1f]">{page.post_deploy}</h1>
             <p className="mt-3 text-[#5b2d12]"> {page.report_file} <span className="ml-2 font-semibold">{page.node_scripts}</span>
             </p>
@@ -85,7 +85,7 @@ export default function PostDeployAuditClient({
   const totalPages = Math.ceil(sortedPages.length / PAGE_SIZE);
   const pagedPages = sortedPages.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
   return <>
-      <main className="min-h-screen bg-linear-to-b from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] px-4 py-8 md:px-8">
+      <main className="min-h-screen bg-linear-to-b from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] px-4 py-6 md:px-8">
         <section className="mx-auto max-w-6xl rounded-3xl border border-[#d8a25a] bg-[#fffaf0] p-6 shadow-[0_10px_40px_rgba(122,46,31,0.10)] md:p-8">
           <div className="flex flex-wrap items-center justify-between gap-3">
             <h1 className="bg-linear-to-r from-[#a63d17] via-[#d97706] to-[#f59e0b] bg-clip-text text-2xl font-bold text-transparent md:text-3xl"> {page.post_deploy_1} </h1>

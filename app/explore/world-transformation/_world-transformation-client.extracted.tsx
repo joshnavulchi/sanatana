@@ -43,7 +43,7 @@ export default function WorldTransformationContent() {
     }, {
       label: 'World Transformation'
     }]} className="layout-md">
-        <div className="flex items-center justify-center py-12">
+        <div className="flex items-center justify-center py-6">
           <Loader />
         </div>
       </PageLayout>;
@@ -90,14 +90,14 @@ export default function WorldTransformationContent() {
 
               {pageContent.whyBordersBecameStable.factors && Array.isArray(pageContent.whyBordersBecameStable.factors) && <div className="flex flex-wrap gap-6">
                   {pageContent.whyBordersBecameStable.factors.map((factor: any, i: number) => <div key={i} className="
-                      bg-white
-                      border-2 border-blue-100
-                      hover:border-blue-300
-                      rounded-xl p-6
-                      shadow-lg hover:shadow-xl
-                      transition-all duration-300
-                      transform hover:-translate-y-1
-                    ">
+                                  bg-white
+                                  border-2 border-blue-100
+                                  hover:border-blue-300
+                                  rounded-xl p-4
+                                  shadow-lg hover:shadow-xl
+                                  transition-all duration-300
+                                  transform hover:-translate-y-1
+                                ">
                       <h5 className="text-xl md:text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
                         <span className="text-base md:text-md">📍</span>
                         {factor.title}
@@ -106,7 +106,7 @@ export default function WorldTransformationContent() {
                     </div>)}
                 </div>}
 
-              {pageContent.whyBordersBecameStable.keyTakeaway && <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-l-4 border-blue-500 rounded-lg p-6">
+              {pageContent.whyBordersBecameStable.keyTakeaway && <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border-l-4 border-blue-500 rounded-lg p-4">
                   <div className="flex items-start gap-3">
                     <span className="text-2xl">💡</span>
                     <p className="flex-1  leading-relaxed font-semibold">{pageContent.whyBordersBecameStable.keyTakeaway}</p>
@@ -120,13 +120,13 @@ export default function WorldTransformationContent() {
                 <span className="text-2xl">🎨</span> {world_transformation_meta_page.legend} </h3>
               <div className="flex gap-4 flex-wrap">
                 {pageContent.legend.changeTypes.map((ct: any) => <div key={ct.key} className="
-                    flex items-center gap-3
-                    bg-gradient-to-br from-gray-50 to-gray-100
-                    px-4 py-3 rounded-lg
-                    border border-gray-200
-                    shadow-sm hover:shadow-md
-                    transition-all duration-300
-                  ">
+                      flex items-center gap-3
+                      bg-gradient-to-br from-gray-50 to-gray-100
+                      px-4 py-3 rounded-lg
+                      border border-gray-200
+                      shadow-sm hover:shadow-md
+                      transition-all duration-300
+                    ">
                     <span className="w-8 h-6 inline-block rounded-md border-2 border-white shadow-md" style={{
                 background: ct.color || '#999'
               }} />
@@ -158,7 +158,7 @@ export default function WorldTransformationContent() {
                     <div className="hidden md:block absolute left-6 top-6 w-6 h-6 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full border-4 border-white  shadow-lg z-10" />
 
                     {/* Decade card */}
-                    <div className="md:ml-20 bg-white  border-2 border-blue-100  hover:border-blue-300  rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group">
+                    <div className="md:ml-20 bg-white  border-2 border-blue-100  hover:border-blue-300  rounded-xl p-4 shadow-lg hover:shadow-xl transition-all duration-300 group">
                       <div className="flex items-start justify-between gap-4 mb-4">
                         <h4 className="text-base md:text-md font-bold text-gray-900  group-hover:text-blue-600  transition-colors">
                           {d.decade ?? d.label ?? d.title ?? `Decade ${idx + 1}`}

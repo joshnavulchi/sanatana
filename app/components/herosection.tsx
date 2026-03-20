@@ -117,7 +117,7 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
 
       {/* Content Container */}
       <div className="relative z-8 md:mx-auto md:max-w-6xl flex items-center">
-        <div className="w-full flex flex-col md:flex-row items-center py-16 md:py-32 md:gap-12">
+        <div className="w-full flex flex-col md:flex-row items-center py-8 md:py-32 md:gap-12">
           {/* Left Content */}
           <div className={`hidden md:flex items-center justify-center transition-all duration-1000 ease-out delay-300 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>
             <div className="relative">
@@ -125,9 +125,9 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
               <div className="absolute inset-0 bg-gradient-to-br from-amber-400/20 to-orange-600/20 blur-3xl rounded-full" />
 
               {/* Decorative card */}
-              <div className="relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-lg rounded-3xl p-8 shadow-2xl transform hover:scale-105 transition-transform duration-500">
+              <div className="relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-lg rounded-3xl p-6 shadow-2xl transform hover:scale-105 transition-transform duration-500">
                 {/* Om symbol large */}
-                <div className="text-center space-y-6">
+                <div className="text-center space-y-4">
                   <div className="text-6xl text-amber-300/80  animate-pulse">ॐ</div>
                   <div className="h-px w-full bg-gradient-to-r from-transparent via-amber-400 to-transparent" />
                   <p className="text-white/90 md:text-xl md:text-lg  italic">सत्यमेव जयते</p>
@@ -156,21 +156,21 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
 
             {/* Main Heading */}
             <div className="flex flex-col md:mx-auto md:max-w-3xl">
-              <h3 className="text-4xl md:text-5xl font-bold text-white leading-tight drop-shadow-2xl [text-shadow:_2px_2px_8px_rgb(0_0_0_/_80%)] mt-6">
+              <h3 className="text-4xl md:text-5xl font-bold text-white leading-tight drop-shadow-2xl [text-shadow:_2px_2px_8px_rgb(0_0_0_/_80%)] mt-4">
                 {hero?.heading || 'Sanātana Dharma'}
               </h3>
               <h4 className="text-2xl md:text-3xl font-semibold text-amber-300 leading-snug drop-shadow-lg [text-shadow:_1px_1px_4px_rgb(0_0_0_/_60%)]">
                 {hero?.subheading || 'Eternal Wisdom'}
               </h4>
               {/* Description */}
-              <p className="text-xl md:text-lg text-gray-100 drop-shadow-lg [text-shadow:_1px_1px_3px_rgb(0_0_0_/_70%)] mt-6">
+              <p className="text-base md:text-md text-gray-100 drop-shadow-lg [text-shadow:_1px_1px_3px_rgb(0_0_0_/_70%)] mt-4">
                 {hero?.description || 'Discover the timeless teachings and sacred wisdom of ancient India'}
               </p>
               {/* CTA Buttons */}
-              <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 mt-6">
+              <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 mt-4">
                 <Link href={hero?.primarycta?.link ? `/${hero.primarycta.link}` : '/scriptures'}
-                  className="group relative md:inline-flex px-8 py-3 bg-gradient-to-r from-amber-500 to-orange-600
-                    hover:from-amber-600 hover:to-orange-700 text-white text-xl md:text-lg rounded-full shadow-xl font-light hover:shadow-2xl
+                  className="group relative md:inline-flex px-6 py-3 bg-gradient-to-r from-amber-500 to-orange-600
+                    hover:from-amber-600 hover:to-orange-700 text-white text-base md:text-md rounded-full shadow-xl font-light hover:shadow-2xl
                     transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 no-underline overflow-hidden">
                   <span className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
                   <span className="relative flex items-center justify-center gap-2">
@@ -183,9 +183,9 @@ export default function HeroSection({ isLoading = false }: HeroSectionProps) {
 
                 <Link
                   href={hero?.secondarycta?.link ? `/${hero.secondarycta.link}` : '/sanatanadharma'}
-                  className="group md:inline-flex px-8 py-3 bg-white/10 backdrop-blur-md
+                  className="group md:inline-flex px-6 py-3 bg-white/10 backdrop-blur-md
                     hover:bg-white/20 border-2 border-white/50 hover:border-white
-                    text-white text-xl md:text-lg font-light rounded-full shadow-lg hover:shadow-xl
+                    text-white text-base md:text-md font-light rounded-full shadow-lg hover:shadow-xl
                     transition-all duration-300 transform hover:-translate-y-1 no-underline">
                   <span className="flex items-center justify-center gap-2">
                     {hero?.secondarycta?.label || 'Start Learning'}

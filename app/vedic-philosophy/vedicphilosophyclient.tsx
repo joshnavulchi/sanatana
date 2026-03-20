@@ -32,7 +32,7 @@ function SectionCard({ item, index }: { item: Record<string, unknown>; index: nu
   ];
 
   return (
-    <div className={`relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 p-6 md:p-8 ${shells[index % 3]} shadow-[0_8px_30px_rgba(146,64,14,0.06)]`}>
+    <div className={`relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 p-4 md:p-8 ${shells[index % 3]} shadow-[0_8px_30px_rgba(146,64,14,0.06)]`}>
       <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-[#1a6e5c] via-[#d97706] to-[#f59e0b]" />
       <div className="absolute left-0 top-1 bottom-0 w-1 bg-linear-to-b from-[#1a6e5c] to-[#f59e0b]" />
       <div className="flex items-center gap-3 mb-5 pl-2">
@@ -89,7 +89,7 @@ export default function VedicPhilosophyClient() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Vedic Philosophy' }]}
         className="layout-md"
       >
-        <div className="flex items-center justify-center py-12"><Loader /></div>
+        <div className="flex items-center justify-center py-4"><Loader /></div>
       </PageLayout>
     );
   }
@@ -102,7 +102,7 @@ export default function VedicPhilosophyClient() {
       className="layout-md"
     >
       {introduction && (
-        <div className="relative px-4 md:px-6 py-8 md:py-10 bg-[#fffaf0] rounded-2xl border border-[#d8a25a]/30 overflow-hidden mb-8 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
+        <div className="relative px-4 md:px-6 py-4 md:py-10 bg-[#fffaf0] rounded-2xl border border-[#d8a25a]/30 overflow-hidden mb-6 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
           <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-4">Introduction</h2>
           <div className="text-base md:text-lg text-[#5b2d12] leading-relaxed">
             <Paragraphs text={introduction} />
@@ -112,7 +112,7 @@ export default function VedicPhilosophyClient() {
 
       {scriptureSections.length > 0 && (
         <div className="mt-8">
-          <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-6">Overview</h2>
+          <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-4">Overview</h2>
           <div className="grid grid-cols-1 gap-6">
             {scriptureSections.map((item, idx) => (
               <SectionCard key={idx} item={item} index={idx} />
@@ -122,7 +122,7 @@ export default function VedicPhilosophyClient() {
       )}
 
       {philosophical && (
-        <div className="mt-10 relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 p-6 md:p-8 bg-linear-to-br from-[#fffaf3] via-[#fdf1dc] to-[#f8e4c0] shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
+        <div className="mt-10 relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 p-4 md:p-8 bg-linear-to-br from-[#fffaf3] via-[#fdf1dc] to-[#f8e4c0] shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
           <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-[#1a6e5c] via-[#d97706] to-[#f59e0b]" />
           <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-4">Philosophical Explanation</h2>
           <div className="text-base md:text-lg text-[#5b2d12] leading-relaxed">
@@ -134,7 +134,7 @@ export default function VedicPhilosophyClient() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
         {links.map((link) => (
           <Link key={link.href} href={link.href} className="group block">
-            <div className="relative overflow-hidden rounded-2xl border border-[#d8a25a]/50 bg-[#fffaf0] p-6 shadow-[0_8px_30px_rgba(146,64,14,0.08)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(166,61,23,0.18)]">
+            <div className="relative overflow-hidden rounded-2xl border border-[#d8a25a]/50 bg-[#fffaf0] p-4 md:p-6 shadow-[0_8px_30px_rgba(146,64,14,0.08)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(166,61,23,0.18)]">
               <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-[#1a6e5c] via-[#d97706] to-[#f59e0b]" />
               <div className="flex items-center gap-3 mt-2">
                 <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-[#1a6e5c]/10 text-sm">🔬</span>

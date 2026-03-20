@@ -27,7 +27,7 @@ function SectionCard({ item, index }: { item: Record<string, unknown>; index: nu
   ];
 
   return (
-    <div className={`relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 p-6 md:p-8 ${shells[index % 3]} shadow-[0_8px_30px_rgba(146,64,14,0.06)]`}>
+    <div className={`relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 p-4 md:p-8 ${shells[index % 3]} shadow-[0_8px_30px_rgba(146,64,14,0.06)]`}>
       <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-[#92400e] via-[#c2410c] to-[#ea580c]" />
       <div className="absolute left-0 top-1 bottom-0 w-1 bg-linear-to-b from-[#92400e] to-[#ea580c]" />
       <div className="flex items-center gap-3 mb-5 pl-2">
@@ -71,7 +71,7 @@ export default function UpanishadsClient() {
   if (isLoading && !section) {
     return (
       <PageLayout metaKey="upanishads" title="" breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Upanishads' }]} className="layout-md">
-        <div className="flex items-center justify-center py-12"><Loader /></div>
+        <div className="flex items-center justify-center py-6"><Loader /></div>
       </PageLayout>
     );
   }
@@ -79,7 +79,7 @@ export default function UpanishadsClient() {
   return (
     <PageLayout metaKey="upanishads" title={title} breadcrumbs={[{ label: 'Home', href: '/' }, { label: title }]} className="layout-md">
       {introduction && (
-        <div className="relative px-4 md:px-6 py-8 md:py-10 bg-[#fffaf0] rounded-2xl border border-[#d8a25a]/30 overflow-hidden mb-8 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
+        <div className="relative px-4 md:px-6 py-4 md:py-10 bg-[#fffaf0] rounded-2xl border border-[#d8a25a]/30 overflow-hidden mb-6 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
           <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-4">Introduction</h2>
           <div className="text-base md:text-lg text-[#5b2d12] leading-relaxed">
             <Paragraphs text={introduction} />
