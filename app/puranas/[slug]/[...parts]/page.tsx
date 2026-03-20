@@ -3,9 +3,6 @@ import StructuredData from '@components/structured-data/StructuredData';
 import PartsClient from './partsclient';
 import { normalizePuranaSlug, parseNumericSuffix, MAHAPURANA_SLUGS } from '../../purana-utils';
 import { params as generatedParams } from '@app/generated-params/puranas-slugs-parts';
-import { params as generatedParams } from '@app/generated-params/puranas-slugs-parts';
-
-
 
 type Params = { slug: string; parts: string[] };
 

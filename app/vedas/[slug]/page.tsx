@@ -3,9 +3,6 @@ import { createGenerateMetadata } from '@lib/pageUtils';
 import SlugClient from './slugclient';
 import StructuredData from '@/app/components/structured-data/StructuredData';
 import { params as generatedParams } from '@app/generated-params/vedas-slugs';
-import { params as generatedParams } from '@app/generated-params/vedas-slugs';
-
-
 
 const VALID_SLUGS = ['rigveda', 'yajurveda', 'samaveda', 'atharvaveda'];
 

@@ -3,9 +3,6 @@ import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@components/structured-data/StructuredData';
 import ChapterClient from './chapterclient';
 import { params as generatedParams } from '@app/generated-params/vedas-chapters';
-import { params as generatedParams } from '@app/generated-params/vedas-chapters';
-
-
 
 type ChapterPageParams = {
   slug: string;

@@ -1,9 +1,6 @@
 import { createGenerateMetadata } from '@lib/pageUtils';
 import ItemClient from './itemclient';
 import { params as generatedParams } from '@app/generated-params/vedas-items';
-import { params as generatedParams } from '@app/generated-params/vedas-items';
-
-
 
 type ItemPageParams = {
   slug: string;

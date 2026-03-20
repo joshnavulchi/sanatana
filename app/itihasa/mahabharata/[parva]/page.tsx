@@ -3,9 +3,8 @@ import { notFound } from 'next/navigation';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@/app/components/structured-data/StructuredData';
 import ItihasaPartClient from '../../itihasapartclient';
+import { params as generatedParams } from '@app/generated-params/mahabharata-parvas';
 import {
-import { params as generatedParams } from '@app/generated-params/mahabharata-parvas';
-import { params as generatedParams } from '@app/generated-params/mahabharata-parvas';
   MAHABHARATA_PARVAS,
   isMahabharataParvaSlug,
   toTitleFromSlug,

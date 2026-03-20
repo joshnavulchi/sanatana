@@ -2,9 +2,8 @@ import { notFound } from 'next/navigation';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@/app/components/structured-data/StructuredData';
 import ItihasaPartClient from '../../../itihasapartclient';
+import { params as generatedParams } from '@app/generated-params/mahabharata-parva-parts';
 import {
-import { params as generatedParams } from '@app/generated-params/mahabharata-parva-parts';
-import { params as generatedParams } from '@app/generated-params/mahabharata-parva-parts';
   MAHABHARATA_PARVAS,
   isMahabharataParvaSlug,
   parseNumericSuffix,

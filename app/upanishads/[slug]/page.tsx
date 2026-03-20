@@ -3,9 +3,6 @@ import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@components/structured-data/StructuredData';
 import SlugClient from './slugclient';
 import { params as generatedParams } from '@app/generated-params/upanishads';
-import { params as generatedParams } from '@app/generated-params/upanishads';
-
-
 
 const VALID_SLUGS = [
   'isha-upanishad', 'kena-upanishad', 'katha-upanishad', 'prashna-upanishad',
