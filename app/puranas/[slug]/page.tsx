@@ -4,14 +4,16 @@ import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@/app/components/structured-data/StructuredData';
 import SlugClient from './slugclient';
 import { getPuranaOverviewNamespace, MAHAPURANA_SLUGS, normalizePuranaSlug } from '../purana-utils';
+import { params as generatedParams } from '@app/generated-params/puranas-slugs';
+import { params as generatedParams } from '@app/generated-params/puranas-slugs';
+
+
 
 const VALID_SLUGS: string[] = [];
 for (const slug of MAHAPURANA_SLUGS) {
   VALID_SLUGS.push(slug);
   VALID_SLUGS.push(`${slug}-purana`);
 }
-
-import { params as generatedParams } from '@app/generated-params/puranas-slugs';
 
 export const dynamicParams = false;
 export const dynamic = 'force-static';

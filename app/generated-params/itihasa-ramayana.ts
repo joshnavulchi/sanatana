@@ -19,5 +19,8 @@ export const params = [
   },
   {
     "slug": "yuddha-kanda"
+  },
+  {
+    "slug": "ramayana"
   }
 ];

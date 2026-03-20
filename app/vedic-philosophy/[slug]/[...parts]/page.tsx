@@ -2,10 +2,12 @@ import { notFound } from 'next/navigation';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import PartsClient from './partsclient';
 import { PHILOSOPHY_TOPICS, isPhilosophyTopic } from '../../philosophy-utils';
+import { params as generatedParams } from '@app/generated-params/vedic-philosophy-parts';
+import { params as generatedParams } from '@app/generated-params/vedic-philosophy-parts';
+
+
 
 type Params = { slug: string; parts: string[] };
-
-import { params as generatedParams } from '@app/generated-params/vedic-philosophy-parts';
 
 export const dynamicParams = false;
 

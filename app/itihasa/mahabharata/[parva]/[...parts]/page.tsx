@@ -3,15 +3,16 @@ import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@/app/components/structured-data/StructuredData';
 import ItihasaPartClient from '../../../itihasapartclient';
 import {
+import { params as generatedParams } from '@app/generated-params/mahabharata-parva-parts';
+import { params as generatedParams } from '@app/generated-params/mahabharata-parva-parts';
   MAHABHARATA_PARVAS,
   isMahabharataParvaSlug,
   parseNumericSuffix,
   toTitleFromSlug,
   toUnderscoreSlug,
 } from '../../../itihasa-utils';
-type Params = { parva: string; parts: string[] };
 
-import { params as generatedParams } from '@app/generated-params/mahabharata-parva-parts';
+type Params = { parva: string; parts: string[] };
 
 export const dynamicParams = false;
 

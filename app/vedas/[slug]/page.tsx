@@ -2,6 +2,10 @@
 import { createGenerateMetadata } from '@lib/pageUtils';
 import SlugClient from './slugclient';
 import StructuredData from '@/app/components/structured-data/StructuredData';
+import { params as generatedParams } from '@app/generated-params/vedas-slugs';
+import { params as generatedParams } from '@app/generated-params/vedas-slugs';
+
+
 
 const VALID_SLUGS = ['rigveda', 'yajurveda', 'samaveda', 'atharvaveda'];
 
@@ -12,8 +16,6 @@ const FILE_MAP: Record<string, string> = {
   samaveda: 'vedas_samaveda',
   atharvaveda: 'vedas_atharvaveda',
 };
-
-import { params as generatedParams } from '@app/generated-params/vedas-slugs';
 
 export const dynamicParams = false;
 

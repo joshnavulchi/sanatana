@@ -217,3 +217,134 @@ function repairPatchedFile(fp, paramModuleName) {
 }
 
 console.log('Generated full param lists.');
+
+// --- Additional: scan locale data for more complete param lists ---
+// This augments the modules by scanning `public/data/locales/en` folders
+// for structured content (puranas, vedas, upanishads, itihasa) and
+// generates params deterministically from the directory layout.
+function scanLocaleTree() {
+  const localeBase = path.join(__dirname, '../public/data/locales/en');
+  if (!fs.existsSync(localeBase)) return;
+
+  // Helper: recursively walk directory and invoke cb(filePath, relPathParts)
+  function walkDir(dir, cb, baseDir = dir) {
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+    for (const ent of entries) {
+      const full = path.join(dir, ent.name);
+      if (ent.isDirectory()) walkDir(full, cb, baseDir);
+      else if (ent.isFile() && ent.name.endsWith('.json')) {
+        // Normalize to POSIX-style path parts so downstream regexes and
+        // split('/') calls behave consistently across platforms.
+        const rel = path.relative(baseDir, full).split(path.sep).join('/');
+        const parts = rel.split('/').map(p => p.replace(/\.json$/i, ''));
+        cb(full, parts);
+      }
+    }
+  }
+
+  // Purana pages: public/data/locales/en/puranas/puranas/<slug>/...
+  const puranasRoot = path.join(localeBase, 'puranas', 'puranas');
+  if (fs.existsSync(puranasRoot)) {
+    for (const name of fs.readdirSync(puranasRoot, { withFileTypes: true })) {
+      if (!name.isDirectory()) continue;
+      const slug = name.name;
+      addModuleParam('puranas-slugs', { slug });
+      const puranaDir = path.join(puranasRoot, slug);
+      walkDir(puranaDir, (_f, relParts) => {
+        // relParts e.g. ['skanda1','chapter1','verse1'] or ['skanda1.json']
+        const parts = relParts.map(p => p.replace(/\.json$/i, ''));
+        // remove any trailing 'index' or 'structure' files
+        const filtered = parts.filter(p => p && p !== 'index' && p !== 'structure' && p !== slug);
+        if (filtered.length === 0) return;
+        addModuleParam('puranas-slugs-parts', { slug, parts: filtered });
+      }, puranaDir);
+    }
+  }
+
+  // Vedas: public/data/locales/en/vedas/<slug>/<chapter>/*.json
+  const vedasRoot = path.join(localeBase, 'vedas');
+  if (fs.existsSync(vedasRoot)) {
+    for (const v of fs.readdirSync(vedasRoot, { withFileTypes: true })) {
+      if (!v.isDirectory()) continue;
+      const slug = v.name;
+      addModuleParam('vedas-slugs', { slug });
+      const vdir = path.join(vedasRoot, slug);
+      if (!fs.existsSync(vdir)) continue;
+      for (const ch of fs.readdirSync(vdir, { withFileTypes: true })) {
+        if (ch.isDirectory()) {
+          const chapter = ch.name;
+          addModuleParam('vedas-chapters', { slug, chapter });
+          const chapterDir = path.join(vdir, chapter);
+          for (const f of fs.readdirSync(chapterDir)) {
+            if (f.endsWith('.json')) {
+              const item = f.replace(/\.json$/i, '');
+              addModuleParam('vedas-items', { slug, chapter, item });
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Upanishads: simple files under public/data/locales/en/upanishads
+  const upRoot = path.join(localeBase, 'upanishads');
+  if (fs.existsSync(upRoot)) {
+    walkDir(upRoot, (_f, relParts) => {
+      const slug = relParts[relParts.length - 1];
+      if (!slug || slug === 'index' || slug === 'structure') return;
+      addModuleParam('upanishads', { slug });
+    }, upRoot);
+  }
+
+  // Itihasa (mahabharata/ramayana): similar to puranas but under itihasa
+  const itihasaRoot = path.join(localeBase, 'itihasa');
+  if (fs.existsSync(itihasaRoot)) {
+    const mahabRoot = path.join(itihasaRoot, 'mahabharata');
+    if (fs.existsSync(mahabRoot)) {
+      const mahabP = path.join(mahabRoot, 'itihasa');
+      const listRoot = fs.existsSync(mahabP) ? mahabP : mahabRoot;
+      for (const ent of fs.readdirSync(listRoot, { withFileTypes: true })) {
+        if (!ent.isDirectory()) continue;
+        const parva = ent.name;
+        addModuleParam('mahabharata-parvas', { parva });
+        const parvaDir = path.join(listRoot, parva);
+        walkDir(parvaDir, (_f, relParts) => {
+          const parts = relParts.filter(p => p && p !== 'index' && p !== 'structure');
+          if (parts.length === 0) return;
+          addModuleParam('mahabharata-parva-parts', { parva, parts });
+        }, parvaDir);
+      }
+    }
+
+    const ramaRoot = path.join(itihasaRoot, 'ramayana');
+    if (fs.existsSync(ramaRoot)) {
+      const ramaP = path.join(ramaRoot, 'itihasa');
+      const listRoot = fs.existsSync(ramaP) ? ramaP : ramaRoot;
+      for (const ent of fs.readdirSync(listRoot, { withFileTypes: true })) {
+        if (!ent.isDirectory()) continue;
+        const slug = ent.name;
+        addModuleParam('itihasa-ramayana', { slug });
+        const slugDir = path.join(listRoot, slug);
+        walkDir(slugDir, (_f, relParts) => {
+          const parts = relParts.filter(p => p && p !== 'index' && p !== 'structure');
+          if (parts.length === 0) return;
+          addModuleParam('itihasa-ramayana-parts', { slug, parts });
+        }, slugDir);
+      }
+    }
+  }
+
+  // After scanning, write/overwrite modules from `modules` map
+  for (const [name, map] of Object.entries(modules)) {
+    const arr = Array.from(map.values());
+    writeParamsModule(name, arr);
+    console.log('Wrote params module (scan):', name, arr.length);
+  }
+}
+
+// Run scan to augment generated params
+try {
+  scanLocaleTree();
+} catch (e) {
+  console.error('Locale scan failed:', e && e.stack ? e.stack : e);
+}

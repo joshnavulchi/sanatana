@@ -3,13 +3,15 @@ export const revalidate = 60;
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@components/structured-data/StructuredData';
 import SlugClient from './slugclient';
+import { params as generatedParams } from '@app/generated-params/itihasa-ramayana';
+import { params as generatedParams } from '@app/generated-params/itihasa-ramayana';
+
+
 
 const VALID_SLUGS = [
   'bala-kanda', 'ayodhya-kanda', 'aranya-kanda', 'kishkinda-kanda',
   'sundara-kanda', 'yuddha-kanda', 'uttara-kanda',
 ];
-
-import { params as generatedParams } from '@app/generated-params/itihasa-ramayana';
 
 export const dynamicParams = false;
 

@@ -52,5 +52,8 @@ export const params = [
   },
   {
     "parva": "virata-parva"
+  },
+  {
+    "parva": "mahabharata"
   }
 ];
