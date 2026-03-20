@@ -14,9 +14,8 @@ import { params as generatedParams } from '@app/generated-params/itihasa-ramayan
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  return VALID_SLUGS
-    .filter((s) => !!s)
-    .map((slug) => ({ slug }));
+  // Return the build-time generated params to include all Ramayana kanda pages.
+  return generatedParams;
 }
 
 

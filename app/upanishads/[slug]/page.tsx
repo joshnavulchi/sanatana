@@ -15,13 +15,8 @@ import { params as generatedParams } from '@app/generated-params/upanishads';
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  // Solution: strict static export
-  // Replace with source and locale check if available
-  // Example: getAllStories() and filter localeExists
-  // For now, use VALID_SLUGS as static
-  return VALID_SLUGS
-    .filter((slug) => !!slug)
-    .map((slug) => ({ slug }));
+  // Return the build-time generated params for upanishads.
+  return generatedParams;
 }
 
 

@@ -17,13 +17,9 @@ export const dynamicParams = false;
 export const dynamic = 'force-static';
 
 export async function generateStaticParams() {
-  // Solution: strict static export
-  // Replace with source and locale check if available
-  // Example: getAllStories() and filter localeExists
-  // For now, use VALID_SLUGS as static
-  return VALID_SLUGS
-    .filter((slug) => !!slug)
-    .map((slug) => ({ slug: String(slug) }));
+  // Use the build-time generated params which contains the full list
+  // of purana slugs (including canonical/purana variants).
+  return generatedParams;
 }
 
 

@@ -16,11 +16,8 @@ import { params as generatedParams } from '@app/generated-params/mahabharata-par
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  // Provide a minimal static params list so Next can detect the export.
-  // Map each parva to its first chapter to keep the export small and deterministic.
-  return MAHABHARATA_PARVAS
-    .filter((p) => !!p)
-    .map((parva) => ({ parva, parts: ['chapter-1'] }));
+  // Use the full generated params list for Mahabharata parva parts.
+  return generatedParams;
 }
 
 

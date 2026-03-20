@@ -17,10 +17,8 @@ import { params as generatedParams } from '@app/generated-params/itihasa-ramayan
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  // Provide minimal static params so Next can detect this export.
-  return RAMAYANA_KANDAS
-    .filter((s) => !!s)
-    .map((slug) => ({ slug, parts: ['sarga-1'] }));
+  // Use the generated params for Ramayana parts to export all sarga pages.
+  return generatedParams;
 }
 
 

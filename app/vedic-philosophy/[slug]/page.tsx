@@ -13,9 +13,8 @@ export const dynamicParams = false;
 export const dynamic = 'force-static';
 
 export async function generateStaticParams() {
-  return VALID_SLUGS
-    .filter((s) => !!s)
-    .map((slug) => ({ slug }));
+  // Use generated params for complete topic list during export.
+  return generatedParams;
 }
 
 

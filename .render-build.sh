@@ -27,7 +27,9 @@ echo "== Next.js build =="
 npm run build
 
 echo "== Static export =="
-npx next export
+echo "== Static export handled by next build =="
+# `next export` was removed. When `output: 'export'` is set in next.config.js/ts,
+# the static export is produced by `next build`. Do not call `next export`.
 
 echo "== Verify output =="
 ls -la

@@ -17,9 +17,8 @@ import { params as generatedParams } from '@app/generated-params/mahabharata-par
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  return MAHABHARATA_PARVAS
-    .filter((p) => !!p)
-    .map((parva) => ({ parva }));
+  // Use the build-time generated params for full static export support.
+  return generatedParams;
 }
 
 
