@@ -2,6 +2,7 @@
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@components/structured-data/StructuredData';
 import SlugClient from './slugclient';
+import { params as generatedParams } from '@app/generated-params/itihasa-bhagavadgita';
 
 const VALID_SLUGS = [
   'arjuna-vishada-yoga', 'sankhya-yoga', 'karma-yoga', 'jnana-karma-sanyasa-yoga',
@@ -10,8 +11,6 @@ const VALID_SLUGS = [
   'kshetra-kshetrajna-vibhaga-yoga', 'gunatraya-vibhaga-yoga', 'purushottama-yoga',
   'daivasura-sampad-vibhaga-yoga', 'shraddhatray-vibhaga-yoga', 'moksha-sanyasa-yoga',
 ];
-
-import { params as generatedParams } from '@app/generated-params/itihasa-bhagavadgita';
 
 export const dynamicParams = false;
 

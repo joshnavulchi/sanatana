@@ -332,12 +332,6 @@ Key rules for the fixer:
 - Insert a top-level `export function generateStaticParams()` returning a small deterministic array (e.g. `{ parva, parts: ['chapter-1'] }`).
 - Only patch known route shapes (itihasa/mahabharata, itihasa/ramayana, puranas, vedas, vedic-philosophy), keeping the inserted lists small.
 
-Suggested script path: `scripts/fix-generate-static-params.js`.
-
-Example usage (run locally when you see the missing-export error):
-
-```bash
-node scripts/fix-generate-static-params.js
 ```
 
 If desired, this script can be run automatically in CI as a pre-build step, but prefer running it under developer control so generated params can be reviewed.

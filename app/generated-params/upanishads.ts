@@ -37,5 +37,41 @@ export const params = [
   },
   {
     "slug": "taittiriya-upanishad"
+  },
+  {
+    "slug": "verse1"
+  },
+  {
+    "slug": "verse2"
+  },
+  {
+    "slug": "verse3"
+  },
+  {
+    "slug": "verse4"
+  },
+  {
+    "slug": "verse5"
+  },
+  {
+    "slug": "chapter1"
+  },
+  {
+    "slug": "chapter2"
+  },
+  {
+    "slug": "chapter3"
+  },
+  {
+    "slug": "chapter4"
+  },
+  {
+    "slug": "chapter5"
+  },
+  {
+    "slug": "upanishad"
+  },
+  {
+    "slug": "upanishads"
   }
 ];

@@ -2,6 +2,7 @@
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@components/structured-data/StructuredData';
 import ChapterClient from './chapterclient';
+import { params as generatedParams } from '@app/generated-params/vedas-chapters';
 
 type ChapterPageParams = {
   slug: string;
@@ -20,8 +21,6 @@ const CHAPTER_META_CONFIG: Record<string, ChapterMetaConfig> = {
   samaveda: { mode: 'from-main', fileKey: 'vedas_samaveda' },
   atharvaveda: { mode: 'from-main', fileKey: 'vedas_atharvaveda' },
 };
-
-import { params as generatedParams } from '@app/generated-params/vedas-chapters';
 
 export const dynamicParams = false;
 

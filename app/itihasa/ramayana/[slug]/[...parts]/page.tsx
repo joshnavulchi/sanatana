@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@/app/components/structured-data/StructuredData';
 import ItihasaPartClient from '../../../itihasapartclient';
+import { params as generatedParams } from '@app/generated-params/itihasa-ramayana-parts';
 import {
   RAMAYANA_KANDAS,
   isRamayanaKandaSlug,
@@ -11,8 +12,6 @@ import {
 } from '../../../itihasa-utils';
 
 type Params = { slug: string; parts: string[] };
-
-import { params as generatedParams } from '@app/generated-params/itihasa-ramayana-parts';
 
 export const dynamicParams = false;
 

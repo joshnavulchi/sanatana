@@ -4,10 +4,9 @@ import { createGenerateMetadata } from '@lib/pageUtils';
 import { notFound } from 'next/navigation';
 import SlugClient from './slugclient';
 import { PHILOSOPHY_TOPICS, isPhilosophyTopic } from '../philosophy-utils';
+import { params as generatedParams } from '@app/generated-params/vedic-philosophy-slugs';
 
 const VALID_SLUGS = PHILOSOPHY_TOPICS;
-
-import { params as generatedParams } from '@app/generated-params/vedic-philosophy-slugs';
 
 export const dynamicParams = false;
 export const dynamic = 'force-static';

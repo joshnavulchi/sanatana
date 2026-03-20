@@ -2,9 +2,9 @@ import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@components/structured-data/StructuredData';
 import PartsClient from './partsclient';
 import { normalizePuranaSlug, parseNumericSuffix, MAHAPURANA_SLUGS } from '../../purana-utils';
-type Params = { slug: string; parts: string[] };
-
 import { params as generatedParams } from '@app/generated-params/puranas-slugs-parts';
+
+type Params = { slug: string; parts: string[] };
 
 export const dynamicParams = false;
 

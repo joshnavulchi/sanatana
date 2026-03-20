@@ -57,8 +57,6 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-      - name: Run fixer for missing generateStaticParams
-        run: node scripts/fix-generate-static-params.js
 
       - name: Run lint
         run: npm run lint

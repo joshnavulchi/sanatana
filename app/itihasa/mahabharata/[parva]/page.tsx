@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { createGenerateMetadata } from '@lib/pageUtils';
 import StructuredData from '@/app/components/structured-data/StructuredData';
 import ItihasaPartClient from '../../itihasapartclient';
+import { params as generatedParams } from '@app/generated-params/mahabharata-parvas';
 import {
   MAHABHARATA_PARVAS,
   isMahabharataParvaSlug,
@@ -11,8 +12,6 @@ import {
 } from '../../itihasa-utils';
 
 type Params = { parva: string };
-
-import { params as generatedParams } from '@app/generated-params/mahabharata-parvas';
 
 export const dynamicParams = false;
 
