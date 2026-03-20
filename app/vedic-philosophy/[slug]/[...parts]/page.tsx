@@ -10,10 +10,8 @@ import { params as generatedParams } from '@app/generated-params/vedic-philosoph
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  // Provide a simple deterministic params list so Next detects the export.
-  return PHILOSOPHY_TOPICS
-    .filter((s) => !!s)
-    .map((slug) => ({ slug, parts: ['overview'] }));
+  // Use generated params for vedic philosophy parts to include full pages.
+  return generatedParams;
 }
 
 

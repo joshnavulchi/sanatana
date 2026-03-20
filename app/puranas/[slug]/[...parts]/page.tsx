@@ -25,14 +25,8 @@ function getNamespace(slug: string, parts: string[]): string {
 }
 
 export async function generateStaticParams() {
-  // Minimal deterministic params so Next's static analysis detects this export.
-  // For Bhagavata provide a skanda placeholder; for others provide first chapter.
-  const out: Params[] = [];
-  for (const slug of MAHAPURANA_SLUGS) {
-    if (slug === 'bhagavata') out.push({ slug, parts: ['skanda-1'] });
-    else out.push({ slug, parts: ['chapter-1'] });
-  }
-  return out.filter((p) => p && p.slug && Array.isArray(p.parts));
+  // Return the generated params list for purana parts to export all available pages.
+  return generatedParams;
 }
 
 

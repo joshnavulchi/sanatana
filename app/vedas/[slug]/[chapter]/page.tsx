@@ -26,14 +26,8 @@ import { params as generatedParams } from '@app/generated-params/vedas-chapters'
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  // Minimal deterministic params for each veda so Next detects the export
-  const out = [
-    { slug: 'rigveda', chapter: 'mandala-1' },
-    { slug: 'yajurveda', chapter: 'chapter-1' },
-    { slug: 'samaveda', chapter: 'hymn-1' },
-    { slug: 'atharvaveda', chapter: 'book-1' },
-  ];
-  return out.filter((p) => p && p.slug && p.chapter);
+  // Use the generated chapters list so Next exports all veda chapters.
+  return generatedParams;
 }
 
 function chapterFileKey(slug: string, chapter: string): string {
