@@ -50,7 +50,7 @@ export default function ItihasaPartClient({
   const philosophical = typeof data?.philosophical_explanation === 'string' ? data.philosophical_explanation : '';
   if (isLoading && !title) {
     return <PageLayout metaKey={namespace} title="" breadcrumbs={breadcrumbs} className="layout-md">
-        <div className="flex items-center justify-center py-12">
+        <div className="flex items-center justify-center py-6">
           <Loader />
         </div>
       </PageLayout>;

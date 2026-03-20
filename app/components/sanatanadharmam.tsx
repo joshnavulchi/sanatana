@@ -51,10 +51,10 @@ export default function UnderstandingOfSanatana() {
   }, [locale]);
 
   return (
-    <section className="relative z-0 bg-white py-6">
+    <section className="relative z-0 bg-white py-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-6">
-          <div className="mx-auto inline-flex items-center gap-3">
+        <div className="text-center mb-4">
+          <div className="inline-flex items-center gap-3">
             <div className="h-0.5 w-12 bg-gradient-to-r from-transparent to-amber-300" />
             <span className="text-2xl text-amber-500">✦</span>
             <div className="h-0.5 w-12 bg-gradient-to-l from-transparent to-amber-300" />
@@ -64,12 +64,12 @@ export default function UnderstandingOfSanatana() {
         {sections.map((section, sectionIndex) => (
           <div
             key={section.id}
-            className={`mx-auto mb-8 last:mb-0 transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}
+            className={`mb-6 last:mb-0 transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}
             style={{ transitionDelay: `${sectionIndex * 120}ms` }}
           >
-            <div className="md:mx-auto md:max-w-6xl text-center">
+            <div className="text-center">
               <h3 className="text-2xl md:text-3xl font-bold text-amber-700 mb-2">{section.title}</h3>
-              <p className="text-base md:text-lg text-gray-600 mb-4 max-w-3xl mx-auto">{section.content}</p>
+              <p className="text-base md:text-md text-gray-600 mb-4">{section.content}</p>
             </div>
 
             {section.src && (
@@ -89,8 +89,8 @@ export default function UnderstandingOfSanatana() {
                       <LazyImage src={topic.src} alt={topic.title} width={64} height={64} className="rounded-full bg-white p-1" />
                     )}
                     <div>
-                      <h4 className="text-sm font-semibold text-amber-700">{topic.title}</h4>
-                      <p className="text-xs text-gray-600">{topic.description}</p>
+                      <h4 className="text-base md:text-md font-semibold text-amber-700">{topic.title}</h4>
+                      <p className="text-base md:text-sm text-gray-600">{topic.description}</p>
                     </div>
                   </div>
                   <div className="mt-auto flex items-center gap-3">

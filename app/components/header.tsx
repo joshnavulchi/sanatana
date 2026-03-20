@@ -201,7 +201,7 @@ function DesktopDropdown({ section, isActive }: {
 
   return (
     <div ref={triggerRef} className="relative group" onMouseLeave={handleMouseLeave}>
-      <span className="flex items-center gap-2 px-2 py-1.5 rounded-md text-gray-800 font-medium cursor-pointer transition-colors duration-200 hover:bg-amber-50 hover:text-amber-700">
+      <span className="flex items-center gap-1 px-1 py-1 rounded-md text-gray-800 font-medium cursor-pointer transition-colors duration-200 hover:bg-amber-50 hover:text-amber-700">
         <span className="text-base">{icon}</span>
         {section.title}
         <svg className="ml-0.5 h-3.5 w-3.5 text-amber-500 transition-transform duration-200 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -377,7 +377,7 @@ export default function Header() {
     <header ref={headerRef} className="w-full sticky top-0 z-30">
       {/* Ornamental top accent */}
       <div className="h-px w-full bg-gradient-to-r from-amber-700 via-amber-500 to-yellow-400" />
-      <div className="w-full backdrop-blur-md bg-white/30 border-b border-white/20 md:px-0">
+      <div className="w-full backdrop-blur-xl bg-white/60 border-b border-white/50 md:px-0">
         <div className="flex items-center justify-between px-3 md:px-4 py-2">
           {/* ─── Logo & Title ─── */}
           <h1 className="m-0 p-0">
@@ -391,24 +391,24 @@ export default function Header() {
                   className="md:flex"
                 />
               </span>
-              <span className="max-w-50 md:max-w-100 text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
+              <span className="max-w-50 md:max-w-100 text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
                 {siteTitle}
               </span>
             </Link>
           </h1>
 
           {/* ─── Desktop Nav ─── */}
-          <nav className="hidden md:flex items-center gap-2" aria-label="Main navigation">
+          <nav className="hidden md:flex items-center gap-1" aria-label="Main navigation">
             {navSections.map((section) => (
               <DesktopDropdown key={section.key} section={section} isActive={isActive} />
             ))}
-            <div className="ml-2 pl-2 border-l border-transparent flex items-center gap-2">
+            <div className="ml-2 pl-2 border-l border-transparent flex items-center gap-1">
               <LanguageDropdown />
             </div>
           </nav>
 
           {/* ─── Mobile Toggle ─── */}
-          <div className="flex items-center md:hidden gap-2">
+          <div className="flex items-center md:hidden gap-1">
             <LanguageDropdown />
             <button
               aria-label={open ? "Close menu" : "Open menu"}

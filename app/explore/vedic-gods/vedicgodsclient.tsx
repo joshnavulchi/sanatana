@@ -13,7 +13,7 @@ export default function VedicGodsClient() {
   if (isLoading && !ns?.title) {
     return (
       <PageLayout metaKey="vedic_gods" title="" breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Vedic Gods' }]} className="layout-md">
-        <div className="flex items-center justify-center py-12"><Loader /></div>
+        <div className="flex items-center justify-center py-6"><Loader /></div>
       </PageLayout>
     );
   }

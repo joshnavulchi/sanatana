@@ -81,7 +81,7 @@ export default function SlugClient({
     }, {
       label: displayTitle
     }]} className="layout-md">
-        <div className="flex items-center justify-center py-12"><Loader /></div>
+        <div className="flex items-center justify-center py-6"><Loader /></div>
       </PageLayout>;
   }
   return <PageLayout metaKey={`vedic_philosophy_topic_${slug}`} title={displayTitle} breadcrumbs={[{
@@ -93,11 +93,11 @@ export default function SlugClient({
   }, {
     label: displayTitle
   }]} className="layout-md">
-      {description && <div className="relative px-4 md:px-6 py-8 md:py-12 bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8] rounded-2xl border border-[#d8a25a]/30 overflow-hidden mb-8">
+      {description && <div className="relative px-4 md:px-6 py-4 md:py-12 bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8] rounded-2xl border border-[#d8a25a]/30 overflow-hidden mb-6">
           <p className="text-lg text-[#5b2d12]">{description}</p>
         </div>}
 
-      {introduction && <div className="relative px-4 md:px-6 py-8 md:py-10 bg-[#fffaf0] rounded-2xl border border-[#d8a25a]/30 overflow-hidden mb-8 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
+      {introduction && <div className="relative px-4 md:px-6 py-4 md:py-10 bg-[#fffaf0] rounded-2xl border border-[#d8a25a]/30 overflow-hidden mb-6 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
           <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-4">{page.introduc}</h2>
           <div className="text-base md:text-lg text-[#5b2d12] leading-relaxed">
             <Paragraphs text={introduction} />
@@ -105,13 +105,13 @@ export default function SlugClient({
         </div>}
 
       {scriptureSections.length > 0 && <div className="mt-10">
-          <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-6">{page.key_sections}</h2>
+          <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-4">{page.key_sections}</h2>
           <div className="grid grid-cols-1 gap-6">
             {scriptureSections.map((item, idx) => <SectionCard key={idx} item={item} index={idx} accentFrom="from-[#1a6e5c]" accentVia="via-[#d97706]" accentTo="to-[#f59e0b]" />)}
           </div>
         </div>}
 
-      {philosophical && <div className="mt-10 relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 p-6 md:p-8 bg-linear-to-br from-[#fffaf3] via-[#fdf1dc] to-[#f8e4c0] shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
+      {philosophical && <div className="mt-10 relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 p-4 md:p-8 bg-linear-to-br from-[#fffaf3] via-[#fdf1dc] to-[#f8e4c0] shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
           <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-[#1a6e5c] via-[#d97706] to-[#f59e0b]" />
           <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-4">{page.philosop_explanat}</h2>
           <div className="text-base md:text-lg text-[#5b2d12] leading-relaxed">
@@ -120,7 +120,7 @@ export default function SlugClient({
         </div>}
 
       {subtopics.length > 0 && <div className="mt-8">
-          <h2 className="text-2xl font-bold text-[#3d2e22] mb-6">{page.subtopic}</h2>
+          <h2 className="text-2xl font-bold text-[#3d2e22] mb-4">{page.subtopic}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {subtopics.map((item, index) => {
           if (!item || typeof item !== 'object') return null;
@@ -128,7 +128,7 @@ export default function SlugClient({
           const subtopicTitle = String((item as Record<string, unknown>).title || '');
           if (!subtopicSlug || !subtopicTitle) return null;
           return <Link key={subtopicSlug} href={`/vedic-philosophy/${slug}/${subtopicSlug}`} className="group block">
-                  <div className="relative overflow-hidden rounded-2xl border border-[#d8a25a]/50 bg-[#fffaf0] p-5 shadow-[0_8px_30px_rgba(146,64,14,0.08)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(166,61,23,0.18)]">
+                  <div className="relative overflow-hidden rounded-2xl border border-[#d8a25a]/50 bg-[#fffaf0] p-4 shadow-[0_8px_30px_rgba(146,64,14,0.08)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(166,61,23,0.18)]">
                     <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-[#1a6e5c] via-[#d97706] to-[#f59e0b]" />
                     <div className="flex items-center gap-3 mt-2">
                       <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-[#1a6e5c]/15 text-sm font-bold text-[#1a6e5c]">

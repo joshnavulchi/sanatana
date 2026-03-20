@@ -82,7 +82,7 @@ export default function VedicPhilosophyClient() {
     }, {
       label: 'Vedic Philosophy'
     }]} className="layout-md">
-      <div className="flex items-center justify-center py-12"><Loader /></div>
+      <div className="flex items-center justify-center py-6"><Loader /></div>
     </PageLayout>;
   }
   return <PageLayout metaKey="vedic_philosophy_structure" title={title} breadcrumbs={[{
@@ -99,7 +99,7 @@ export default function VedicPhilosophyClient() {
     </div>}
 
     {scriptureSections.length > 0 && <div className="mt-8">
-      <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-6">{vedic_philosophy_structure_page.overview}</h2>
+      <h2 className="text-2xl font-extrabold text-[#3d2e22] mb-4">{vedic_philosophy_structure_page.overview}</h2>
       <div className="grid grid-cols-1 gap-6">
         {scriptureSections.map((item, idx) => <SectionCard key={idx} item={item} index={idx} />)}
       </div>

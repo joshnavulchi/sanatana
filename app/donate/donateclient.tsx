@@ -51,7 +51,7 @@ export default function DonateClient() {
   if (isLoading && !donate.title) {
     return (
       <PageLayout metaKey="donate" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Donate' }]} className="layout-sm">
-        <div className="flex items-center justify-center py-12">
+        <div className="flex items-center justify-center py-6">
           <Loader />
         </div>
       </PageLayout>

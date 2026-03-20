@@ -59,7 +59,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
 
   return (
     <div
-      className={`group relative flex flex-col overflow-hidden rounded-3xl border-2 ${tone.ring} ${tone.glow} transition-all duration-700 ease-out hover:-translate-y-1.5 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
+      className={`group relative flex flex-col overflow-hidden rounded-3xl border-2 ${tone.ring} ${tone.glow} bg-white/60 backdrop-blur-sm transition-all duration-700 ease-out hover:-translate-y-1.5 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
         }`}
       style={{ transitionDelay: `${index * 160}ms` }}
     >
@@ -70,7 +70,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
       <div className="absolute -right-6 -top-6 h-20 w-20 rounded-full bg-[#f4c98b]/30 blur-2xl" />
       <div className="absolute -left-4 bottom-4 h-14 w-14 rounded-full bg-[#d97706]/15 blur-2xl" />
 
-      <div className="relative flex flex-1 flex-col p-4">
+      <div className="relative flex flex-1 flex-col p-6 md:p-6">
         {/* Roman numeral badge */}
         <div className="mb-4 flex items-center gap-3">
           <span className={`inline-flex h-10 w-10 items-center justify-center rounded-full ${tone.numBg} text-sm font-black text-[#fff4df] tracking-wider`}>
@@ -80,21 +80,21 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
         </div>
 
         {/* Title */}
-        <h3 className={`bg-linear-to-r ${tone.accent} bg-clip-text text-2xl font-black leading-tight text-transparent md:text-3xl`}>
+        <h3 className={`text-2xl md:text-3xl font-extrabold leading-tight text-amber-800`}>
           {name}
         </h3>
 
         {/* Subtitle */}
-        <p className="mt-1 text-sm font-bold uppercase tracking-[0.25em] text-[#92400e]">
+        <p className="mt-2 text-sm font-semibold uppercase tracking-[0.25em] text-amber-700">
           {subtitle}
         </p>
 
         {/* Description points */}
         {description && description.length > 0 && (
-          <ul className="mt-5 flex flex-col gap-2">
+          <ul className="mt-6 flex flex-col gap-3">
             {description.map((point, i) => (
-              <li key={i} className="flex items-start gap-2.5 text-sm leading-relaxed text-[#5b2d12]">
-                <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[#d97706]" />
+              <li key={i} className="flex items-start gap-3 text-base leading-relaxed text-gray-700">
+                <span className="mt-1 h-2 w-2 shrink-0 rounded-full bg-amber-500" />
                 {point}
               </li>
             ))}
@@ -103,7 +103,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
 
         {/* Years pill — pushed to bottom */}
         <div className="mt-auto pt-4">
-          <span className={`inline-flex items-center gap-2 rounded-full border ${tone.ring} ${tone.pillBg} px-5 py-2 text-xs font-bold tracking-widest text-[#7a2e1f] transition-all duration-300 group-hover:shadow-[0_4px_16px_rgba(146,64,14,0.14)]`}>
+          <span className={`inline-flex items-center gap-2 rounded-full border ${tone.ring} ${tone.pillBg} px-5 py-2 text-sm font-semibold tracking-widest text-[#7a2e1f] transition-all duration-300 group-hover:shadow-[0_6px_20px_rgba(146,64,14,0.12)]`}>
             <svg className="h-3.5 w-3.5 text-[#d97706]" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
               <circle cx="12" cy="12" r="10" strokeWidth="2" />
               <path d="M12 6v6l4 2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -126,7 +126,7 @@ export default function OurFourCoreYugas() {
   const [isVisible] = useState(true);
 
   return (
-    <section className="relative overflow-hidden bg-linear-to-b from-[#fffaf1] via-[#fdf0d4] to-[#fff8ef] py-16 md:py-24">
+    <section className="relative overflow-hidden bg-white/50 backdrop-blur-sm py-12 md:py-20">
       {/* Ornamental background shapes */}
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute -left-20 top-20 h-72 w-72 rounded-full bg-[#f3b86b]/15 blur-3xl animate-ping" />
@@ -137,7 +137,7 @@ export default function OurFourCoreYugas() {
       <div className="relative z-10 mx-auto w-full max-w-7xl px-4">
         {/* ─── Header ─── */}
         <div
-          className={`mx-auto mb-14 max-w-4xl text-center transition-all duration-1000 ease-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
+          className={`mx-auto mb-12 max-w-4xl text-center transition-all duration-1000 ease-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
             }`}
         >
           {/* Ornamental divider */}
@@ -147,11 +147,11 @@ export default function OurFourCoreYugas() {
             <div className="h-px w-16 bg-linear-to-l from-transparent to-[#d8a25a]" />
           </div>
 
-          <h6 className="text-3xl md:text-4xl bg-linear-to-r from-[#a63d17] via-[#d97706] to-[#f59e0b] bg-clip-text font-black leading-tight text-transparent">
+          <h6 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight text-amber-800">
             {title}
           </h6>
 
-          <p className="mt-6 text-base leading-8 text-[#5b2d12] md:text-lg">
+          <p className="mt-6 text-lg md:text-xl leading-8 text-gray-700 md:text-lg">
             {subtitle}{' '}
             <Link
               href="/"
@@ -174,7 +174,7 @@ export default function OurFourCoreYugas() {
         </div>
 
         {/* ─── Yuga Cards Grid ─── */}
-        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+        <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
           {yugas.map((y: any, idx: number) => (
             <YugaCard
               key={y.name}

@@ -32,7 +32,7 @@ export default function SanatanadharmaClientPage() {
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Sanatanadharma' }]}
         className="layout-md"
       >
-        <div className="flex items-center justify-center py-12">
+        <div className="flex items-center justify-center py-6">
           <Loader />
         </div>
       </PageLayout>
@@ -82,7 +82,7 @@ export default function SanatanadharmaClientPage() {
                 {section?.keypoints && Array.isArray(section.keypoints) && section.keypoints.length > 0 && (
                   <ul className="space-y-4 mt-6 pl-0!">
                     {section.keypoints.map((point: any, idx: number) => (
-                      <li key={idx} className="bg-orange-50 p-5 rounded-r-lg shadow-sm hover:shadow-md transition-shadow duration-200">
+                      <li key={idx} className="bg-orange-50 p-4 rounded-r-lg shadow-sm hover:shadow-md transition-shadow duration-200">
                         <div className="font-bold text-orange-800 mb-2 text-xl md:text-lg flex items-center gap-2">
                           <span className="w-2 h-2 bg-orange-600 rounded-full" />
                           {point.title}
