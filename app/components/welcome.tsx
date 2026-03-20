@@ -40,7 +40,7 @@ export default function WelcomePage() {
         `}
       >
         {/* Decorative top border with gradient */}
-        <div className="h-1 w-full bg-linear-to-r from-transparent via-amber-300 to-transparent mb-8 rounded-full" />
+        <div className="h-1 w-full bg-linear-to-r from-transparent via-amber-300 to-transparent mb-6 rounded-full" />
 
         {/* Main welcome card */}
         <div className="relative">
@@ -68,7 +68,7 @@ export default function WelcomePage() {
           <div className="absolute -bottom-4 -right-4 w-16 h-16 border-r-2 border-b-2 border-amber-200/40 rounded-br-2xl" />
 
           {/* Content container */}
-          <div className="bg-white/75 backdrop-blur-sm border border-amber-100 rounded-2xl shadow-lg p-8 md:p-12 relative overflow-hidden">
+          <div className="bg-white/75 backdrop-blur-sm border border-amber-100 rounded-2xl shadow-lg p-6 md:p-12 relative overflow-hidden">
             {/* Subtle background pattern */}
             <div className="absolute inset-0 opacity-5">
               <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
@@ -82,9 +82,9 @@ export default function WelcomePage() {
             </div>
 
             {/* Content */}
-            <div className="relative z-10 text-center space-y-6">
+            <div className="relative z-10 text-center space-y-4">
               {/* Greeting with Om symbol */}
-              <div className="flex items-center justify-center gap-4 mb-6">
+              <div className="flex items-center justify-center gap-4 mb-4">
                 <div className="h-px w-12 bg-linear-to-r from-transparent to-amber-300" />
                 <span className="text-5xl text-amber-800 animate-pulse">ॐ</span>
                 <div className="h-px w-12 bg-linear-to-l from-transparent to-amber-300" />
@@ -134,14 +134,14 @@ export default function WelcomePage() {
               </div>
 
               {/* Decorative lotus at bottom */}
-              <div className="pt-8 flex justify-center">
+              <div className="pt-6 flex justify-center">
                 <svg className="w-16 h-16 text-amber-500/40" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M12 2C12 2 9 5 9 9C9 11.21 10.79 13 13 13C13 13 13 15 13 17C13 19.21 11.21 21 9 21C9 21 9 19 9 17C9 14.79 7.21 13 5 13C5 13 5 11 5 9C5 6.79 6.79 5 9 5C9 5 11 5 11 5C11 5 11 3 11 2H12M12 2C12 2 15 5 15 9C15 11.21 13.21 13 11 13C11 13 11 15 11 17C11 19.21 12.79 21 15 21C15 21 15 19 15 17C15 14.79 16.79 13 19 13C19 13 19 11 19 9C19 6.79 17.21 5 15 5C15 5 13 5 13 5C13 5 13 3 13 2H12Z" />
                 </svg>
               </div>
 
               {/* Do not show again checkbox and close button */}
-              <div className="pt-6 border-t border-amber-200/30 mt-8 flex flex-col items-center gap-4">
+              <div className="pt-6 border-t border-amber-200/30 mt-6 flex flex-col items-center gap-4">
                 <label className="flex items-center justify-center gap-3 cursor-pointer group">
                   <input
                     type="checkbox"
@@ -155,7 +155,7 @@ export default function WelcomePage() {
                 </label>
                 <button
                   onClick={handleClose}
-                  className="cursor-pointer px-8 py-2 rounded-full bg-amber-600 text-white font-semibold border border-amber-600 shadow-md transition-all duration-300 relative overflow-hidden group focus:outline-none focus:ring-4 focus:ring-amber-200/50 active:scale-95 mt-2"
+                  className="cursor-pointer px-6 py-2 rounded-full bg-amber-600 text-white font-semibold border border-amber-600 shadow-md transition-all duration-300 relative overflow-hidden group focus:outline-none focus:ring-4 focus:ring-amber-200/50 active:scale-95 mt-2"
                   style={{ WebkitBackdropFilter: 'blur(12px)', backdropFilter: 'blur(12px)' }}
                 >
                   <span className="relative z-10 tracking-widest text-base select-none">Close</span>

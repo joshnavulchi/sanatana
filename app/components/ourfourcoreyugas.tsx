@@ -70,7 +70,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
       <div className="absolute -right-6 -top-6 h-20 w-20 rounded-full bg-[#f4c98b]/30 blur-2xl" />
       <div className="absolute -left-4 bottom-4 h-14 w-14 rounded-full bg-[#d97706]/15 blur-2xl" />
 
-      <div className="relative flex flex-1 flex-col p-6 md:p-6">
+      <div className="relative flex flex-1 flex-col p-4 md:p-6">
         {/* Roman numeral badge */}
         <div className="mb-4 flex items-center gap-3">
           <span className={`inline-flex h-10 w-10 items-center justify-center rounded-full ${tone.numBg} text-sm font-black text-[#fff4df] tracking-wider`}>
@@ -126,7 +126,7 @@ export default function OurFourCoreYugas() {
   const [isVisible] = useState(true);
 
   return (
-    <section className="relative overflow-hidden bg-white/50 backdrop-blur-sm py-12 md:py-20">
+    <section className="relative overflow-hidden bg-white/50 backdrop-blur-sm py-6 md:py-20">
       {/* Ornamental background shapes */}
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute -left-20 top-20 h-72 w-72 rounded-full bg-[#f3b86b]/15 blur-3xl animate-ping" />
@@ -137,11 +137,11 @@ export default function OurFourCoreYugas() {
       <div className="relative z-10 mx-auto w-full max-w-7xl px-4">
         {/* ─── Header ─── */}
         <div
-          className={`mx-auto mb-12 max-w-4xl text-center transition-all duration-1000 ease-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
+          className={`mx-auto mb-8 max-w-4xl text-center transition-all duration-1000 ease-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
             }`}
         >
           {/* Ornamental divider */}
-          <div className="mb-6 flex items-center justify-center gap-3">
+          <div className="mb-4 flex items-center justify-center gap-3">
             <div className="h-px w-16 bg-linear-to-r from-transparent to-[#d8a25a]" />
             <span className="text-2xl text-[#9a3412] animate-bounce" aria-hidden="true">🕉️</span>
             <div className="h-px w-16 bg-linear-to-l from-transparent to-[#d8a25a]" />
@@ -151,7 +151,7 @@ export default function OurFourCoreYugas() {
             {title}
           </h6>
 
-          <p className="mt-6 text-base md:text-md leading-8 text-gray-700">
+          <p className="mt-4 text-base md:text-md leading-8 text-gray-700">
             {subtitle}{' '}
             <Link
               href="/"
@@ -166,7 +166,7 @@ export default function OurFourCoreYugas() {
           </p>
 
           {/* Dot accent */}
-          <div className="mt-6 flex items-center justify-center gap-2">
+          <div className="mt-4 flex items-center justify-center gap-2">
             <span className="h-1.5 w-1.5 rounded-full bg-[#d97706]" />
             <span className="h-1.5 w-1.5 rounded-full bg-[#9a3412]" />
             <span className="h-1.5 w-1.5 rounded-full bg-[#d97706]" />
@@ -174,7 +174,7 @@ export default function OurFourCoreYugas() {
         </div>
 
         {/* ─── Yuga Cards Grid ─── */}
-        <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
+        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
           {yugas.map((y: any, idx: number) => (
             <YugaCard
               key={y.name}
@@ -191,9 +191,9 @@ export default function OurFourCoreYugas() {
         </div>
 
         {/* ─── Bottom Notes ─── */}
-        <div className={`mt-14 transition-all duration-1000 ease-out delay-500 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
+        <div className={`mt-10 transition-all duration-1000 ease-out delay-500 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
           {/* Divider */}
-          <div className="mb-8 flex items-center justify-center gap-3">
+          <div className="mb-6 flex items-center justify-center gap-3">
             <div className="h-px w-16 bg-linear-to-r from-transparent to-[#b45309]/50" />
             <span className="text-base md:text-md font-black uppercase tracking-[0.35em] text-[#92400e]">
               ✦ Cycle of Time ✦

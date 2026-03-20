@@ -14,7 +14,7 @@ export default function GitSupport({ locale }: { locale?: string }) {
   // }, []);
 
   return (
-    <section className="gradient-background map-wrapper md:min-h-screen relative z-0 py-28 md:py-0 overflow-hidden">
+    <section className="gradient-background map-wrapper md:min-h-screen relative z-0 py-6 md:py-0 overflow-hidden">
       <WorldMapAnimated
         stroke="#ffffff"
         fill="#000000"
@@ -65,7 +65,7 @@ export default function GitSupport({ locale }: { locale?: string }) {
             </h6>
 
             {/* Subtitle */}
-            <p className="text-base md:text-md leading-relaxed drop-shadow-lg my-6">
+            <p className="text-base md:text-md leading-relaxed drop-shadow-lg my-4">
               {loc?.cta?.subtitle || ''}
             </p>
 

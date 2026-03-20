@@ -2,7 +2,8 @@ name: CI — development build
 
 on:
   push:
-    branches: [ production ]
+    # Run CI for development branch to match local development workflows
+    branches: [ development ]
   workflow_dispatch:
 
 permissions:

@@ -223,8 +223,8 @@ export default function Footer() {
 
         <div className="relative z-10">
           {/* ─── Hero CTA Section ─── */}
-          <section className="content-wrapper text-center py-6 md:py-16">
-            <div className="mx-auto max-w-4xl rounded-xl bg-white/80 backdrop-blur-sm shadow-lg my-4 p-6">
+          <section className="content-wrapper text-center py-4 md:py-16">
+            <div className="mx-auto max-w-4xl rounded-xl bg-white/80 backdrop-blur-sm shadow-lg my-4 p-4">
               <h6 className="text-2xl/8 md:text-3xl/12 font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
                 {footer.title}
               </h6>
@@ -262,14 +262,14 @@ export default function Footer() {
           </section>
 
           {/* ─── Ornamental Divider ─── */}
-          <div className="flex items-center justify-center gap-3 px-6">
+          <div className="flex items-center justify-center gap-3 px-4">
             <div className="h-px flex-1 max-w-40 bg-linear-to-r from-transparent to-[#d8a25a]/60" />
             <span className="text-lg text-[#9a3412]" aria-hidden="true">✦</span>
             <div className="h-px flex-1 max-w-40 bg-linear-to-l from-transparent to-[#d8a25a]/60" />
           </div>
 
           {/* ─── Navigation Columns ─── */}
-          <div className="mx-auto max-w-7xl px-3 md:px-0 py-6 md:py-12">
+          <div className="mx-auto max-w-7xl px-3 md:px-0 py-4 md:py-12">
             <nav className="grid gap-8 grid-cols-2 md:grid-cols-3 lg:grid-cols-4" aria-label="Footer navigation">
               {SECTION_CONFIG.map(({ key, icon, iconBg, basePath }) => {
                 const section = footer[key];
