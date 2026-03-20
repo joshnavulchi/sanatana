@@ -51,99 +51,69 @@ export default function UnderstandingOfSanatana() {
   }, [locale]);
 
   return (
-    <div className="relative z-0 overflow-hidden bg-gradient-to-b from-white via-amber-50/30 to-white">
-      <div className="absolute top-0 left-1/4 w-64 h-64 bg-amber-200/20 rounded-full blur-3xl" />
-      <div className="absolute bottom-0 right-1/4 w-80 h-80 bg-orange-200/20 rounded-full blur-3xl" />
+    <section className="relative z-0 bg-white py-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-6">
+          <div className="mx-auto inline-flex items-center gap-3">
+            <div className="h-0.5 w-12 bg-gradient-to-r from-transparent to-amber-300" />
+            <span className="text-2xl text-amber-500">✦</span>
+            <div className="h-0.5 w-12 bg-gradient-to-l from-transparent to-amber-300" />
+          </div>
+        </div>
 
-      <div className="content-wrapper relative z-10">
         {sections.map((section, sectionIndex) => (
-          <div key={section.id} className={`mx-auto max-w-7xl mb-6 last:mb-0 transition-all duration-1000 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
-            style={{ transitionDelay: `${sectionIndex * 150}ms` }}>
-            {/* Header */}
+          <div
+            key={section.id}
+            className={`mx-auto mb-8 last:mb-0 transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}
+            style={{ transitionDelay: `${sectionIndex * 120}ms` }}
+          >
             <div className="md:mx-auto md:max-w-6xl text-center">
-              <div className="flex items-center justify-center gap-2">
-                <div className="h-px w-16 bg-gradient-to-r from-transparent to-amber-400" />
-                <span role="img" aria-label="decorative star" className="text-2xl text-amber-500">
-                  ✦
-                </span>
-                <div className="h-px w-16 bg-gradient-to-l from-transparent to-amber-400" />
-              </div>
-
-              <h5 className="text-3xl font-bold bg-gradient-to-r from-amber-600 via-orange-500 to-amber-600 bg-clip-text my-6">
-                {section.title}
-              </h5>
-
-              <p className="text-xl md:text-lg mb-6">
-                {section.content}
-              </p>
-
-              {section.src && (
-                <div className="flex justify-center mt-8">
-                  <LazyImage
-                    src={section.src}
-                    alt={section.title}
-                    width={320}
-                    height={320}
-                    className="bg-black rounded-xl shadow-xl shadow-neutral-400"
-                  />
-                </div>
-              )}
+              <h3 className="text-2xl md:text-3xl font-bold text-amber-700 mb-2">{section.title}</h3>
+              <p className="text-base md:text-lg text-gray-600 mb-4 max-w-3xl mx-auto">{section.content}</p>
             </div>
 
-            {/* Items */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-8">
+            {section.src && (
+              <div className="flex justify-center mt-4">
+                <LazyImage src={section.src} alt={section.title} width={280} height={280} className="rounded-lg shadow-lg" />
+              </div>
+            )}
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-6">
               {section.items?.map((topic, topicIndex) => (
-                <div key={`${section.id}-${topic.id || topicIndex}`} className="bg-white rounded-2xl p-3 shadow-lg hover:shadow-xl transition border-2 border-amber-500">
-                  <div className="text-center">
+                <article
+                  key={`${section.id}-${topic.id || topicIndex}`}
+                  className="flex flex-col gap-3 p-4 rounded-xl bg-white/60 backdrop-blur-sm border border-gray-100 shadow-sm hover:shadow-md transition-transform hover:-translate-y-0.5"
+                >
+                  <div className="flex items-center gap-3">
                     {topic.src && (
-                      <LazyImage
-                        src={topic.src}
-                        alt={topic.title}
-                        width={76}
-                        height={76}
-                        className="mx-auto inline-flex"
-                      />
+                      <LazyImage src={topic.src} alt={topic.title} width={64} height={64} className="rounded-full bg-white p-1" />
                     )}
-                    <h6 className="text-xl md:text-lg font-bold text-amber-800">{topic.title}</h6>
-                    <p className="text-gray-600 mb-6">
-                      {topic.description}
-                    </p>
-                    <Link
-                      href={topic.href}
-                      title={topic.title}
-                      className="inline-flex items-center gap-2 text-amber-800 font-semibold"
-                    >
-                      {`Learn more about ${topic.title}`}
-                      <svg
-                        aria-hidden="true"
-                        className="w-4 h-4"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M9 5l7 7-7 7"
-                        />
+                    <div>
+                      <h4 className="text-sm font-semibold text-amber-700">{topic.title}</h4>
+                      <p className="text-xs text-gray-600">{topic.description}</p>
+                    </div>
+                  </div>
+                  <div className="mt-auto flex items-center gap-3">
+                    <Link href={topic.href} title={topic.title} className="inline-flex items-center gap-2 text-sm font-medium text-amber-700">
+                      Learn more
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
                     </Link>
+                    <span className="ml-auto text-xs px-2 py-0.5 rounded-full bg-amber-100 text-amber-800">{topic.id || '•'}</span>
                   </div>
-                </div>
+                </article>
               ))}
 
               {section.points?.map((point, index) => (
-                <div key={`${section.id}-point-${index}`} className="bg-white shadow-md border-2 border-amber-100 rounded-xl p-4">
-                  <p className="text-xl md:text-lg font-semibold text-gray-800">
-                    {point}
-                  </p>
+                <div key={`${section.id}-point-${index}`} className="rounded-lg p-3 bg-white/50 border border-gray-100 text-sm text-gray-800">
+                  {point}
                 </div>
               ))}
             </div>
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }

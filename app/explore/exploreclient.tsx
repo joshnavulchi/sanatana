@@ -26,8 +26,8 @@ const subPages = [
 export default function ExploreClient() {
   const { t } = useLocale();
   return (
-    <div className="max-w-2xl mx-auto py-8 px-4">
-      <h1 className="text-3xl font-bold mb-6">{t("explore.title")}</h1>
+    <div className="max-w-2xl mx-auto py-4 px-4">
+      <h1 className="text-3xl font-bold mb-4">{t("explore.title")}</h1>
       <ul className="space-y-3">
         {subPages.map((page) => (
           <li key={page.slug}>

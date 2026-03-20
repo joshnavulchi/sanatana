@@ -110,7 +110,7 @@ export default function HeroSection({
               <div className="absolute inset-0 bg-gradient-to-br from-amber-400/20 to-orange-600/20 blur-3xl rounded-full" />
 
               {/* Decorative card */}
-              <div className="relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-lg rounded-3xl p-8 shadow-2xl transform hover:scale-105 transition-transform duration-500">
+              <div className="relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-lg rounded-3xl p-6 shadow-2xl transform hover:scale-105 transition-transform duration-500">
                 {/* Om symbol large */}
                 <div className="text-center space-y-6">
                   <div className="text-6xl text-amber-300/80  animate-pulse">ॐ</div>

@@ -72,7 +72,7 @@ function YugaCard({
       <div className="absolute -right-6 -top-6 h-20 w-20 rounded-full bg-[#f4c98b]/30 blur-2xl" />
       <div className="absolute -left-4 bottom-4 h-14 w-14 rounded-full bg-[#d97706]/15 blur-2xl" />
 
-      <div className="relative flex flex-1 flex-col p-6">
+      <div className="relative flex flex-1 flex-col p-4">
         {/* Roman numeral badge */}
         <div className="mb-4 flex items-center gap-3">
           <span className={`inline-flex h-10 w-10 items-center justify-center rounded-full ${tone.numBg} text-sm font-black text-[#fff4df] tracking-wider`}>
@@ -173,7 +173,7 @@ export default function OurFourCoreYugas() {
           </div>
 
           {/* Highlight note */}
-          {earthAgeComparisonNote && <div className="mx-auto max-w-3xl rounded-2xl border border-[#d8a25a]/50 px-6 py-5 text-center shadow-[0_16px_40px_rgba(166,61,23,0.10)]">
+          {earthAgeComparisonNote && <div className="mx-auto max-w-3xl rounded-2xl border border-[#d8a25a]/50 px-4 py-4 text-center shadow-[0_16px_40px_rgba(166,61,23,0.10)]">
               <p className="bg-linear-to-r from-[#7a2e1f] via-[#9a3412] to-[#7a2e1f] bg-clip-text text-sm font-semibold leading-7 text-transparent md:text-lg">
                 {earthAgeComparisonNote}
               </p>

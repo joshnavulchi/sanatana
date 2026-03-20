@@ -48,7 +48,7 @@ export default function DiseasesCuringTemplesClient() {
       className="layout-md"
     >
       <TextToSpeech sectionId="diseases-curing-temples" className="floating" />
-      <div id="diseases-curing-temples-content" className="relative px-3 md:px-6 py-12 md:py-16 bg-gradient-to-br from-emerald-50 via-emerald-100 to-emerald-50 rounded-2xl overflow-hidden">
+      <div id="diseases-curing-temples-content" className="relative px-3 md:px-6 py-6 md:py-16 bg-gradient-to-br from-emerald-50 via-emerald-100 to-emerald-50 rounded-2xl overflow-hidden">
         <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-400/10 rounded-full blur-3xl" />
         <div className="absolute bottom-0 left-0 w-80 h-80 bg-green-400/8 rounded-full blur-3xl" />
         <div className="relative z-10">
@@ -66,7 +66,7 @@ export default function DiseasesCuringTemplesClient() {
         const icons = ['📖', '🎯', '💡', '🌟', '🔮', '✨'];
         const icon = icons[index % icons.length];
         return (
-          <div key={section.id || index} className="relative bg-white border-2 border-emerald-100 rounded-2xl p-6 md:p-8 mt-12 transform-gpu transition-transform duration-300 hover:-translate-y-1 hover:scale-105 ring-1 ring-emerald-100/30 bg-white/80 backdrop-blur-sm group overflow-hidden">
+          <div key={section.id || index} className="relative bg-white border-2 border-emerald-100 rounded-2xl p-4 md:p-8 mt-12 transform-gpu transition-transform duration-300 hover:-translate-y-1 hover:scale-105 ring-1 ring-emerald-100/30 bg-white/80 backdrop-blur-sm group overflow-hidden">
             <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-emerald-400/10 to-transparent rounded-tr-2xl" />
             <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-green-400/8 to-transparent rounded-bl-2xl" />
             <div className="relative z-10 space-y-4">
@@ -94,7 +94,7 @@ export default function DiseasesCuringTemplesClient() {
         );
       })}
       {data.disclaimer && (
-        <div className="relative bg-gradient-to-br from-emerald-50 to-green-50 border-l-4 border-emerald-500 rounded-lg p-6 md:p-8 mt-12 ring-1 ring-emerald-100/30 bg-white/70 backdrop-blur-sm">
+        <div className="relative bg-gradient-to-br from-emerald-50 to-green-50 border-l-4 border-emerald-500 rounded-lg p-4 md:p-8 mt-12 ring-1 ring-emerald-100/30 bg-white/70 backdrop-blur-sm">
           <div className="flex items-start gap-4">
             <span className="text-3xl">⚠️</span>
             <div className="flex-1">

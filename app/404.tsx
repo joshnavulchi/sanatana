@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Custom404() {
   return (
-    <main className="min-h-screen flex items-center justify-center bg-gradient-to-br from-sky-50 via-white to-amber-50 p-6">
-      <div className="max-w-3xl w-full rounded-2xl border border-slate-100 bg-white shadow-lg p-8 sm:p-12">
+    <main className="min-h-screen flex items-center justify-center bg-gradient-to-br from-sky-50 via-white to-amber-50 p-4 md:p-6">
+      <div className="max-w-3xl w-full rounded-2xl border border-slate-100 bg-white shadow-lg p-4 sm:p-12">
         <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="flex-shrink-0 text-8xl font-extrabold text-rose-600">404</div>
 

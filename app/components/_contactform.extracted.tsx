@@ -102,10 +102,10 @@ export default function ContactForm({
     }
   };
   if (!usedFields || usedFields.length === 0) return null;
-  return <form onSubmit={handleSubmit} className="p-3 md:p-6">
+  return <form onSubmit={handleSubmit} className="p-2 md:p-6">
       <div className="bg-gradient-to-br from-white via-amber-50/30 to-orange-50/30 rounded-3xl shadow-2xl border-2 border-amber-200/50 overflow-hidden">
         {/* Decorative header */}
-        <div className="relative bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 p-8 text-center">
+        <div className="relative bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 p-6 text-center">
           <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAwIDEwIEwgNDAgMTAgTSAxMCAwIEwgMTAgNDAgTSAwIDIwIEwgNDAgMjAgTSAyMCAwIEwgMjAgNDAgTSAwIDMwIEwgNDAgMzAgTSAzMCAwIEwgMzAgNDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1vcGFjaXR5PSIwLjEiIHN0cm9rZS13aWR0aD0iMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')] opacity-30" />
           <div className="relative z-10">
             <div className="inline-flex items-center justify-center w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl mb-4 shadow-lg">
@@ -119,7 +119,7 @@ export default function ContactForm({
         </div>
 
         {/* Form fields */}
-        <div className="p-8 space-y-6">
+        <div className="p-6 space-y-6">
           {usedFields.map(f => <div key={f.name} className="group">
               <label className="block text-base md:text-md font-semibold  mb-2 flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-amber-500 group-focus-within:scale-150 transition-transform duration-300"></span>

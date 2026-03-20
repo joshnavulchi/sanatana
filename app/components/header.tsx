@@ -8,7 +8,7 @@ import { useLocale } from '@app/context/locale-context';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import LazyImage from './lazyimage';
-import ThemeToggle from './theme-toggle/ThemeToggle';
+// ThemeToggle removed — header is light-only (no dark mode)
 
 const LanguageDropdown = dynamic(() => import("./language-dropdown/language-dropdown"), { ssr: false });
 
@@ -113,12 +113,12 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
     return (
       <Link
         href={item.href}
-        className="group/item flex items-center gap-3 px-5 py-2.5 transition-all duration-150 hover:bg-linear-to-r hover:from-[#fde7c7]/70 hover:to-transparent"
+        className="group/item flex items-center gap-3 px-4 py-2 rounded-md transition-colors duration-150 hover:bg-amber-50"
       >
         <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#9a3412]/10 text-xs text-[#9a3412] transition-colors duration-150 group-hover/item:bg-[#9a3412] group-hover/item:text-[#fff4df]">
           ◈
         </span>
-        <span className={`text-sm font-semibold transition-colors duration-150 ${isActive(item.href) ? 'text-[#9a3412]' : 'text-[#5b2d12] group-hover/item:text-[#7a2e1f]'}`}>
+        <span className={`text-sm font-semibold transition-colors duration-150 ${isActive(item.href) ? 'text-amber-700' : 'text-gray-700 group-hover/item:text-amber-700'}`}>
           {item.label}
         </span>
       </Link>
@@ -128,12 +128,12 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
   // Has children → click chevron to expand inline sub-list
   return (
     <div>
-      <div className="flex items-center justify-between gap-2 px-5 py-2.5 transition-all duration-150 hover:bg-linear-to-r hover:from-[#fde7c7]/70 hover:to-transparent">
+      <div className="flex items-center justify-between gap-2 px-3 py-1.5 transition-all duration-150 hover:bg-amber-50 rounded-md">
         <Link href={item.href} className="flex items-center gap-3 flex-1">
           <span className={`flex h-5 w-5 items-center justify-center rounded-full text-xs transition-colors duration-150 ${isSubOpen ? 'bg-[#9a3412] text-[#fff4df]' : 'bg-[#9a3412]/10 text-[#9a3412]'}`}>
             ◈
           </span>
-          <span className={`text-md font-semibold transition-colors duration-150 ${isActive(item.href) ? 'text-[#9a3412]' : 'text-[#5b2d12]'}`}>
+          <span className={`text-sm font-semibold transition-colors duration-150 ${isActive(item.href) ? 'text-amber-700' : 'text-gray-700'}`}>
             {item.label}
           </span>
         </Link>
@@ -155,15 +155,15 @@ function DesktopNavItem({ item, isActive, onToggleSub, isSubOpen }: {
 
       {/* Inline sub-list — expands below the parent item */}
       {isSubOpen && (
-        <div className="ml-8 mr-3 mb-1 border-l-2 border-[#d8a25a]/40 pl-3">
+        <div className="ml-6 mr-3 mb-1 pl-2 p-2 space-y-2 rounded-md bg-white/10 backdrop-blur-sm border border-white/10">
           {item.children.map((child) => (
             <Link
               key={child.href}
               href={child.href}
-              className="group/child flex items-center gap-2 px-2 py-1.5 transition-all duration-150 hover:bg-linear-to-r hover:from-[#fde7c7]/70 hover:to-transparent rounded-lg"
+              className="group/child flex items-center gap-3 px-3 py-2 transition-colors duration-150 hover:bg-white/20 rounded-md"
             >
-              <span className="h-1.5 w-1.5 rounded-full bg-[#d97706] shrink-0" />
-              <span className={`text-md font-semibold transition-colors duration-150 ${isActive(child.href) ? 'text-[#9a3412]' : 'text-[#6b5d4f] group-hover/child:text-[#7a2e1f]'}`}>
+              <span className="h-2 w-2 rounded-full bg-amber-500 shrink-0" />
+              <span className={`text-sm font-medium transition-colors duration-150 ${isActive(child.href) ? 'text-amber-700' : 'text-gray-700 group-hover/child:text-amber-700'}`}>
                 {child.label}
               </span>
             </Link>
@@ -201,20 +201,20 @@ function DesktopDropdown({ section, isActive }: {
 
   return (
     <div ref={triggerRef} className="relative group" onMouseLeave={handleMouseLeave}>
-      <span className="flex items-center justify-center rounded-sm font-semibold p-1 tracking-wide text-[#5b2d12] cursor-pointer select-none transition-all duration-200 group-hover:bg-[#fde7c7] group-hover:text-[#7a2e1f] gap-1">
+      <span className="flex items-center gap-2 px-2 py-1.5 rounded-md text-gray-800 font-medium cursor-pointer transition-colors duration-200 hover:bg-amber-50 hover:text-amber-700">
         <span className="text-base">{icon}</span>
         {section.title}
-        <svg className="ml-0.5 h-3.5 w-3.5 text-[#b45309] transition-transform duration-200 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+        <svg className="ml-0.5 h-3.5 w-3.5 text-amber-500 transition-transform duration-200 group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
         </svg>
       </span>
 
       {/* Dropdown panel */}
-      <div className={`absolute pt-3 min-w-60 max-h-[80vh] opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-200 z-20
+      <div className={`absolute pt-3 min-w-[18rem] max-h-[80vh] opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-200 z-20
         ${dropDir === 'left' ? 'right-0' : 'left-0'}`}
       >
-        <div className="overflow-y-auto max-h-[75vh] rounded-2xl border border-[#d8a25a]/50 bg-[#fffaf0] shadow-[0_20px_50px_rgba(166,61,23,0.14)]">
-          <div className="h-1 w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
+        <div className="overflow-y-auto max-h-[75vh] rounded-xl border border-gray-100 bg-white shadow-lg">
+          <div className="h-1 w-full bg-gradient-to-r from-amber-600 via-amber-400 to-yellow-400" />
           <div className="py-2">
             {section.items.map((item) => (
               <DesktopNavItem
@@ -376,9 +376,9 @@ export default function Header() {
   return (
     <header ref={headerRef} className="w-full sticky top-0 z-30">
       {/* Ornamental top accent */}
-      <div className="h-[2] w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
-      <div className="w-full bg-linear-to-r from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] shadow-[0_4px_20px_rgba(166,61,23,0.10)] md:px-0">
-        <div className="flex items-center justify-between px-3 md:px-6 py-1">
+      <div className="h-px w-full bg-gradient-to-r from-amber-700 via-amber-500 to-yellow-400" />
+      <div className="w-full backdrop-blur-md bg-white/30 border-b border-white/20 md:px-0">
+        <div className="flex items-center justify-between px-3 md:px-4 py-2">
           {/* ─── Logo & Title ─── */}
           <h1 className="m-0 p-0">
             <Link href="/" className="flex items-center gap-2 group">
@@ -402,16 +402,14 @@ export default function Header() {
             {navSections.map((section) => (
               <DesktopDropdown key={section.key} section={section} isActive={isActive} />
             ))}
-            <div className="ml-1 pl-2 border-l border-[#d8a25a]/40 flex items-center gap-1">
+            <div className="ml-2 pl-2 border-l border-transparent flex items-center gap-2">
               <LanguageDropdown />
-              <ThemeToggle />
             </div>
           </nav>
 
           {/* ─── Mobile Toggle ─── */}
           <div className="flex items-center md:hidden gap-2">
             <LanguageDropdown />
-            <ThemeToggle />
             <button
               aria-label={open ? "Close menu" : "Open menu"}
               onClick={() => setOpen((s) => !s)}
@@ -430,9 +428,9 @@ export default function Header() {
 
         {/* ─── Mobile Drawer ─── */}
         {open && (
-          <div className="md:hidden relative z-50 mt-1 overflow-hidden rounded-b-2xl border-t border-[#d8a25a]/40 bg-linear-to-b from-[#fffaf0] to-[#fdf0d7] shadow-[0_16px_40px_rgba(166,61,23,0.12)] animate-fade-in-down">
-            <div className="h-0.5 w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
-            <div className="flex flex-col gap-1 py-4 px-4 max-h-[70vh] overflow-y-auto" style={{ WebkitOverflowScrolling: 'touch' }}>
+          <div className="md:hidden relative z-50 mt-1 overflow-hidden rounded-b-2xl border-t border-white/10 bg-white/30 backdrop-blur-md shadow-lg animate-fade-in-down">
+            <div className="h-px w-full bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
+            <div className="flex flex-col gap-1 py-3 px-3 max-h-[70vh] overflow-y-auto" style={{ WebkitOverflowScrolling: 'touch' }}>
               {navSections.map((section) => (
                 <MobileNavSection
                   key={section.key}
@@ -442,7 +440,7 @@ export default function Header() {
                 />
               ))}
             </div>
-            <div className="h-0.5 w-full bg-linear-to-r from-[#f59e0b] via-[#d97706] to-[#7c2d12]" />
+            <div className="h-px w-full bg-linear-to-r from-[#f59e0b] via-[#d97706] to-[#7c2d12]" />
           </div>
         )}
       </div>

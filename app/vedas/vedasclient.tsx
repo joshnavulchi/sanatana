@@ -68,7 +68,7 @@ function VedaCard({ item }: { item: Record<string, unknown> }) {
       {/* Pillar left accent */}
       <div className={`absolute left-0 top-1.5 bottom-0 w-1 bg-linear-to-b ${accent.from} ${accent.to}`} />
 
-      <div className="p-6 md:p-8 pl-5 md:pl-7">
+      <div className="p-4 md:p-8 pl-5 md:pl-7">
         {/* Header row */}
         <div className="flex items-center gap-4 mb-5">
           <div className={`flex h-14 w-14 items-center justify-center rounded-2xl border-2 ${accent.border} bg-[#fffaf3] text-2xl shadow-[0_4px_20px_rgba(122,46,31,0.12)]`}>
@@ -310,7 +310,7 @@ export default function VedasClient() {
     <PageLayout metaKey="vedas" title={title} breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Vedas' }]} className="layout-md">
 
       {/* ═══════════ Hero Section ═══════════ */}
-      <section className="relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 bg-linear-to-br from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] p-6 md:p-10">
+      <section className="relative overflow-hidden rounded-3xl border border-[#d8a25a]/30 bg-linear-to-br from-[#fffaf3] via-[#fdf0d7] to-[#fff8ef] p-4 md:p-10">
         {/* Decorative warm glow blobs */}
         <div className="absolute top-0 right-0 w-72 h-72 bg-[#f59e0b]/10 rounded-full blur-[100px] pointer-events-none" />
         <div className="absolute bottom-0 left-0 w-80 h-80 bg-[#c2410c]/8 rounded-full blur-[120px] pointer-events-none" />
@@ -365,7 +365,7 @@ export default function VedasClient() {
       {introduction && (
         <>
           <OrnamentDivider />
-          <section className="rounded-3xl border border-[#d8a25a]/20 bg-[#fffaf0] p-6 md:p-10 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
+          <section className="rounded-3xl border border-[#d8a25a]/20 bg-[#fffaf0] p-4 md:p-10 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
             <h2 className="text-2xl md:text-3xl font-extrabold bg-linear-to-r from-[#a63d17] via-[#d97706] to-[#f59e0b] bg-clip-text text-transparent mb-6">
               Introduction
             </h2>
@@ -397,7 +397,7 @@ export default function VedasClient() {
       {timeline && Object.keys(timeline).length > 0 && (
         <>
           <OrnamentDivider />
-          <section className="rounded-3xl border border-[#d8a25a]/20 bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8] p-6 md:p-10">
+          <section className="rounded-3xl border border-[#d8a25a]/20 bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8] p-4 md:p-10">
             <h2 className="text-2xl md:text-3xl font-extrabold bg-linear-to-r from-[#7c2d12] via-[#c2410c] to-[#fb923c] bg-clip-text text-transparent mb-8">
               Vedic Timeline
             </h2>
@@ -427,7 +427,7 @@ export default function VedasClient() {
       {philosophicalExplanation && (
         <>
           <OrnamentDivider />
-          <section className="rounded-3xl border border-[#d8a25a]/20 bg-[#fffaf0] p-6 md:p-10 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
+          <section className="rounded-3xl border border-[#d8a25a]/20 bg-[#fffaf0] p-4 md:p-10 shadow-[0_8px_30px_rgba(146,64,14,0.06)]">
             <h2 className="text-2xl md:text-3xl font-extrabold bg-linear-to-r from-[#a63d17] via-[#d97706] to-[#f59e0b] bg-clip-text text-transparent mb-6">
               Philosophical Foundations
             </h2>
@@ -497,7 +497,7 @@ export default function VedasClient() {
       {society && Object.keys(society).length > 0 && (
         <>
           <OrnamentDivider />
-          <section className="rounded-3xl border border-[#d8a25a]/20 bg-[#fffaf0] p-6 md:p-10">
+          <section className="rounded-3xl border border-[#d8a25a]/20 bg-[#fffaf0] p-4 md:p-10">
             <h2 className="text-2xl md:text-3xl font-extrabold bg-linear-to-r from-[#a63d17] via-[#d97706] to-[#f59e0b] bg-clip-text text-transparent mb-8">
               Vedic Society
             </h2>
@@ -543,7 +543,7 @@ export default function VedasClient() {
                   cultural_influence: '🎭',
                 };
                 return (
-                  <div key={key} className="relative overflow-hidden rounded-2xl border border-[#d8a25a]/30 bg-[#fffaf0] p-6">
+                  <div key={key} className="relative overflow-hidden rounded-2xl border border-[#d8a25a]/30 bg-[#fffaf0] p-4 md:p-6">
                     <div className="absolute top-0 left-0 right-0 h-0.5 bg-linear-to-r from-[#7c2d12] via-[#d97706] to-[#f59e0b]" />
                     <div className="flex items-center gap-2 mb-4">
                       <span className="text-xl">{iconMap[key] || '✦'}</span>
@@ -569,7 +569,7 @@ export default function VedasClient() {
       {relatedConcepts.length > 0 && (
         <>
           <OrnamentDivider />
-          <section className="rounded-3xl border border-[#d8a25a]/20 bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8] p-6 md:p-8 text-center">
+          <section className="rounded-3xl border border-[#d8a25a]/20 bg-linear-to-br from-[#fffaf3] via-[#fef3e2] to-[#fbe8c8] p-4 md:p-8 text-center">
             <h2 className="text-xl font-extrabold text-[#3d2e22] mb-5">Related Concepts</h2>
             <div className="flex flex-wrap justify-center gap-3">
               {relatedConcepts.map((concept: string) => (
