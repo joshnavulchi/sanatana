@@ -82,7 +82,7 @@ body {
 }
 
 /* Prevent footer from causing layout shift */
-footer {
+:global(footer) {
   contain: layout;
   background: linear-gradient(135deg, #fbbf24 0%, #f59e42 100%);
   color: #fff;
