@@ -204,7 +204,7 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
 
     return {
       // Debug: log computed metadata during dev to help diagnose missing head tags
-      ...(process.env.NODE_ENV !== 'production' ? (console.log && console.log(`[meta:${metaKey}]`, { title, description, canonical })) : {}),
+      // ...(process.env.NODE_ENV !== 'production' ? (console.log && console.log(`[meta:${metaKey}]`, { title, description, canonical })) : {}),
       title,
       description,
       keywords: (meta as any).keywords || undefined,
