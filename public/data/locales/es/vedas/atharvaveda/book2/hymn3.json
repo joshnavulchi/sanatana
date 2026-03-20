@@ -1,0 +1,33 @@
+{
+  "atharvaveda_book2_hymn3": {
+    "title": "Atharvaveda Book 2 Hymn 3",
+    "description": "This hymn belongs to Atharvaveda Book 2.",
+    "meta": {
+      "title": "Atharvaveda Book 2 Hymn 3",
+      "canonical": "https://sanatanadharmam.in/vedas/atharvaveda/book-2/hymn-3",
+      "description": "This hymn belongs to Atharvaveda Book 2.",
+      "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-2/hymn-3"
+    },
+    "openGraph": {
+      "title": "Atharvaveda Book 2 Hymn 3",
+      "description": "This hymn belongs to Atharvaveda Book 2.",
+      "url": "https://sanatanadharmam.in/vedas/atharvaveda/book-2/hymn-3",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "chapter": {
+      "slug": "atharvaveda",
+      "key": "book-2",
+      "label": "Book 2",
+      "path": "/vedas/atharvaveda/book-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 3,
+      "path": "/vedas/atharvaveda/book-2/hymn-3"
+    },
+    "introduction": "This hymn belongs to Atharvaveda Book 2.",
+    "scripture_text": "A representative Atharvavedic hymn passage for Book 2, Hymn 3, invoking protection, wellbeing, and spiritual insight.",
+    "philosophical_explanation": "Atharvavedic hymns integrate practical life, healing, and contemplative insight."
+  }
+}

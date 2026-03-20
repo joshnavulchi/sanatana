@@ -1,24 +1,18 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { Poppins } from 'next/font/google';
 import { headers } from 'next/headers';
-
 import Script from 'next/script';
 import { Suspense } from 'react';
-
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '@lib/i18n';
 import { buildOrganizationJsonLd, buildWebSiteJsonLd, renderJsonLdScript } from '@lib/jsonld';
 import { secrets } from '@lib/secrets';
 import CookieConsent from '@components/cookie-consent/CookieConsent';
-
 import Header from '@components/header';
 import Footer from '@components/footer';
-
 import TopProgress from '@components/topprogress';
 import ScrollToTop from '@components/scroll-to-top';
-
 import { LocaleProvider } from './context/locale-context';
 import { ThemeProvider } from './context/theme-context';
-
 import "./globals.css"; // tailwind base styles
 
 const poppins = Poppins({
@@ -29,7 +23,6 @@ const poppins = Poppins({
 });
 // Compose a safe font-family string: Playfair primary, Poppins fallback
 const bodyFontFamily = `${poppins.style?.fontFamily || "Poppins, sans-serif"}`;
-const SITE_URL = secrets.NEXT_PUBLIC_SITE_URL || "https://sanatanadharmam.in";
 
 export default async function RootLayout({
   children,
@@ -105,54 +98,9 @@ export default async function RootLayout({
         <noscript><link rel="stylesheet" href="/globals.from-scss.css" /></noscript>
         {/* JSON-LD structured data for Website/Organization */}
         <meta name="google-site-verification" content="kxWcUTvXW7Ag5H1jtSxNuYUoKcWm-sq0on2s-h5ILF8" />
-        {/* Organization & WebSite JSON-LD - defer non-critical structured data */}
-        <Script
-          id="jsonld-site"
-          type="application/ld+json"
-          // strategy="afterInteractive"
-          dangerouslySetInnerHTML={renderJsonLdScript(siteJson)}
-        />
-        <Script
-          id="jsonld-org"
-          type="application/ld+json"
-          // strategy="afterInteractive"
-          dangerouslySetInnerHTML={renderJsonLdScript(orgJson)}
-        />
-        <Script
-          id="jsonld-web"
-          type="application/ld+json"
-          // strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "WebSite",
-              name: "Sanātana Dharma",
-              url: SITE_URL,
-              description: "Sanātana Dharma — Explore the Vedas, Puranas, Shastras, and timeless teachings of Indian philosophy, spirituality, and culture.",
-              potentialAction: {
-                "@type": "SearchAction",
-                target: `${SITE_URL}/?q={search_term_string}`,
-                "query-input": "required name=search_term_string"
-              }
-            })
-          }}
-        />
-        {/* Removed Microsoft Clarity tracking code (no third-party Clarity scripts) */}
-        <Script
-          id="jsonld-organization"
-          type="application/ld+json"
-          // strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              name: "Sanātana Dharma",
-              url: SITE_URL,
-              logo: `${SITE_URL}/globe.svg`,
-              sameAs: []
-            })
-          }}
-        />
+        {/* Canonical global JSON-LD: single WebSite + Organization definitions */}
+        <script id="jsonld-site" type="application/ld+json" dangerouslySetInnerHTML={renderJsonLdScript(siteJson)} />
+        <script id="jsonld-org" type="application/ld+json" dangerouslySetInnerHTML={renderJsonLdScript(orgJson)} />
         {/* Hint the font for later use (non-blocking) */}
         <link
           rel="prefetch"
@@ -176,7 +124,7 @@ export default async function RootLayout({
           `
         }} />
         {/* Disable right-click context menu in production to reduce casual copy */}
-        {process.env.NODE_ENV === "production" && (
+        {/* {process.env.NODE_ENV === "production" && (
           <Script
             id="disable-contextmenu"
             strategy="lazyOnload"
@@ -190,7 +138,7 @@ export default async function RootLayout({
               })();`
             }}
           />
-        )}
+        )} */}
         {/* Google Analytics (GA4) */}
         {secrets.NEXT_PUBLIC_GA_ID && (
           <>

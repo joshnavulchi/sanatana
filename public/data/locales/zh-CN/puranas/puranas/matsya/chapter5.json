@@ -1,0 +1,26 @@
+{
+  "matsya_chapter5": {
+    "title": "Matsya Purana Chapter 5",
+    "description": "Chapter 5 from Matsya Purana.",
+    "meta": {
+      "title": "Matsya Purana Chapter 5",
+      "canonical": "https://sanatanadharmam.in/puranas/matsya/chapter-5",
+      "description": "Chapter 5 from Matsya Purana.",
+      "url": "https://sanatanadharmam.in/puranas/matsya/chapter-5"
+    },
+    "openGraph": {
+      "title": "Matsya Purana Chapter 5",
+      "description": "Chapter 5 from Matsya Purana.",
+      "url": "https://sanatanadharmam.in/puranas/matsya/chapter-5",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This chapter belongs to Matsya Purana.",
+    "scripture_text": "Chapter-level summary text for Matsya Purana, Chapter 5.",
+    "philosophical_explanation": "Matsya Purana chapters combine dharma, devotion, and symbolic teaching.",
+    "chapter": {
+      "number": 5,
+      "path": "/puranas/matsya/chapter-5"
+    }
+  }
+}

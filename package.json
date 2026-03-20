@@ -4,20 +4,25 @@
   "private": true,
   "license": "SEE LICENSE IN LICENSE",
   "scripts": {
-    "predev": "node scripts/sync-locales-from-branch.js && node scripts/compile-scss.js --dev",
+    "predev": "node scripts/compile-scss.js --dev",
     "dev": "next dev",
+    "prebuild": "npm run lint",
+    "build": "cross-env NODE_OPTIONS=--max_old_space_size=6144 next build",
+    "postbuild": "node scripts/generate-sitemap.js && node scripts/generate-post-deploy-audit.js && node scripts/add-hash-to-assets.js",
     "prebuild": "node scripts/sync-locales-from-branch.js && npm run lint",
     "build": "node --max-old-space-size=4092 ./node_modules/next/dist/bin/next build",
      "build:ci": "node --max-old-space-size=4092 ./node_modules/next/dist/bin/next build",
     "postbuild": "node scripts/generate-sitemap.js && node scripts/add-hash-to-assets.js",
     "render-build": "bash ./.render-build.sh",
-    "start": "next start",
-    "lint": "eslint --quiet app lib scripts"
+    "start": "npx serve@latest out",
+    "lint": "eslint --quiet app lib scripts",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "^16.1.6",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
+    "readline-sync": "^1.4.10",
     "tailwindcss": "^4.2.1"
   },
   "devDependencies": {
@@ -37,10 +42,12 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "glob": "^13.0.6",
     "html-minifier-terser": "^7.2.0",
+    "husky": "^8.0.3",
     "postcss": "^8.5.8",
     "prettier": "^3.8.1",
     "sass": "^1.98.0",
     "topojson-client": "^3.1.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "cross-env": "^7.0.3"
   }
 }

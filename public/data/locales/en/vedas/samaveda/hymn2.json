@@ -1,0 +1,33 @@
+{
+  "samaveda_hymn2": {
+    "title": "Indra Decade – Purvarchika",
+    "description": "Hymns dedicated to Indra in the Purvarchika celebrate the king of gods through powerful melodic chants.",
+    "meta": {
+      "title": "Indra Decade – Purvarchika",
+      "canonical": "https://sanatanadharmam.in/vedas/samaveda/hymn-2",
+      "description": "Hymns dedicated to Indra in the Purvarchika celebrate the king of gods through powerful melodic chants.",
+      "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-2"
+    },
+    "openGraph": {
+      "title": "Indra Decade – Purvarchika",
+      "description": "Hymns dedicated to Indra in the Purvarchika celebrate the king of gods through powerful melodic chants.",
+      "url": "https://sanatanadharmam.in/vedas/samaveda/hymn-2",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "chapter": {
+      "slug": "samaveda",
+      "key": "hymn-2",
+      "label": "Hymn 2",
+      "path": "/vedas/samaveda/hymn-2"
+    },
+    "item": {
+      "prefix": "hymn",
+      "number": 2,
+      "path": "/vedas/samaveda/hymn-2"
+    },
+    "introduction": "Hymns dedicated to Indra in the Purvarchika celebrate the king of gods through powerful melodic chants.",
+    "scripture_text": "A representative Samavedic hymn passage for Hymn 2, expressing melodic devotion, sacred recitation, and meditative harmony.",
+    "philosophical_explanation": "Indra symbolizes the power of consciousness to overcome obstacles and ignorance. The musical celebration of his victories represents the spiritual triumph of knowledge over darkness."
+  }
+}

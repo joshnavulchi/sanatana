@@ -1,0 +1,26 @@
+{
+  "kurma_chapter9": {
+    "title": "Kurma Purana Chapter 9",
+    "description": "Chapter 9 from Kurma Purana.",
+    "meta": {
+      "title": "Kurma Purana Chapter 9",
+      "canonical": "https://sanatanadharmam.in/puranas/kurma/chapter-9",
+      "description": "Chapter 9 from Kurma Purana.",
+      "url": "https://sanatanadharmam.in/puranas/kurma/chapter-9"
+    },
+    "openGraph": {
+      "title": "Kurma Purana Chapter 9",
+      "description": "Chapter 9 from Kurma Purana.",
+      "url": "https://sanatanadharmam.in/puranas/kurma/chapter-9",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This chapter belongs to Kurma Purana.",
+    "scripture_text": "Chapter-level summary text for Kurma Purana, Chapter 9.",
+    "philosophical_explanation": "Kurma Purana chapters combine dharma, devotion, and symbolic teaching.",
+    "chapter": {
+      "number": 9,
+      "path": "/puranas/kurma/chapter-9"
+    }
+  }
+}

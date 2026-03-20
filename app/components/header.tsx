@@ -28,19 +28,19 @@ interface NavSection {
 
 /* ── Route mapping (JSON key → actual route prefix) ── */
 const ROUTE_MAP: Record<string, string> = {
-  philosopy: '/philosophy',   // typo in JSON
-  philosophy: '/philosophy',
+  // typo in JSON
+  philosophy: '/vedic-philosophy',
+  // export uses `vedic-philosophy` for both philosophy and science namespaces
   science: '/vedic-philosophy',
 };
 
 /* ── Section ordering & icons ── */
-const SECTION_ORDER = ['vedas', 'upanishads', 'puranas', 'itihasa', 'philosopy', 'science'];
+const SECTION_ORDER = ['vedas', 'upanishads', 'puranas', 'itihasa', 'philosophy', 'science'];
 const SECTION_ICONS: Record<string, string> = {
   vedas: '📕',
   upanishads: '📜',
   puranas: '📖',
   itihasa: '⚔️',
-  philosopy: '🧘',
   philosophy: '🧘',
   science: '🔬',
 };
@@ -67,7 +67,11 @@ function buildNavSections(header: Record<string, unknown>): NavSection[] {
         const e = entry as Record<string, unknown>;
         const name = (e.name as string) || (e.chapters_list ? 'Bhagavad Gita' : '');
         if (!name) continue;
-        const slug = name.toLowerCase().replace(/\s+/g, '-');
+        let slug = name.toLowerCase().replace(/\s+/g, '-');
+        // Special-case: exported route for Bhagavad Gita uses 'bhagavadgita' (no hyphen)
+        if (slug === 'bhagavad-gita' || /\bbhagavad\b/.test(slug) && /gita/.test(slug)) {
+          slug = 'bhagavadgita';
+        }
         const href = `${basePath}/${slug}`;
 
         // Collect sub-items

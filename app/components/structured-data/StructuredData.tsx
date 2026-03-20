@@ -1,5 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { getMeta, detectLocale, getLocaleNamespaceObject } from '@lib/i18n';
+import { t, getLocaleNamespaceObject, DEFAULT_LOCALE } from '@lib/i18n';
 type Props = {
   metaKey: string;
   params?: any;
@@ -7,8 +7,9 @@ type Props = {
 };
 // Server component that renders JSON-LD for a given metaKey.
 export default async function StructuredData({ metaKey, params, locale }: Props) {
-  const loc = String(locale ?? detectLocale(params) ?? 'en');
-  const meta = getMeta(metaKey, params, loc) || {};
+  const loc = String(locale ?? DEFAULT_LOCALE);
+  await getLocaleNamespaceObject(loc, metaKey);
+  const meta = t(metaKey, loc) || {};
   const webpage: Record<string, any> = {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
@@ -17,8 +18,9 @@ export default async function StructuredData({ metaKey, params, locale }: Props)
     url: meta.url || undefined,
   };
   // Detect if this metaKey likely represents an article-like page (stories, scriptures, stotras, chapters)
-  const articlePattern = /(stories_|scriptures_|stotras|chapter|mahabharata|ramayana|gita|stories)/i;
-  const isArticle = articlePattern.test(metaKey) || (meta.description && String(meta.description).length > 80);
+  const articlePattern = /(purans_|upanishads_|itihasa_|_ramyana|_mahabharata|_bhagavdgita|chapter|parts|)/i;
+  const hasArticleDates = Boolean(meta.datePublished || meta.dateModified);
+  const isArticle = (articlePattern.test(metaKey) || (meta.description && String(meta.description).length > 80)) && hasArticleDates;
   // Build Article JSON-LD when appropriate
   let article: Record<string, any> | null = null;
   if (isArticle) {
@@ -32,8 +34,9 @@ export default async function StructuredData({ metaKey, params, locale }: Props)
       description: meta.description || undefined,
       image: img ? [img] : undefined,
       author: { '@type': 'Person', name: (meta.author || 'Sanātana Dharma') },
-      publisher: { '@type': 'Organization', name: 'Sanātana Dharma', logo: { '@type': 'ImageObject', url: `${SITE_URL}/images/svg/globe.svg` } },
+      publisher: { '@type': 'Organization', name: 'Sanātana Dharma', logo: { '@type': 'ImageObject', url: `${SITE_URL}/images/logo.png` } },
       datePublished: meta.datePublished || undefined,
+      dateModified: meta.dateModified || undefined,
     };
     Object.keys(article).forEach((k) => article && article[k] === undefined && delete article[k]);
   }
@@ -42,7 +45,7 @@ export default async function StructuredData({ metaKey, params, locale }: Props)
   // Attempt to load a full per-page locale file and extract a `schema` object if present.
   let pageSchema: Record<string, unknown> | null = null;
   try {
-    const obj = getLocaleNamespaceObject(loc, metaKey) as Record<string, unknown>;
+    const obj = await getLocaleNamespaceObject(loc, metaKey) as Record<string, unknown>;
     const pageObj =
       (obj?.[metaKey] as Record<string, unknown> | undefined) ??
       obj;

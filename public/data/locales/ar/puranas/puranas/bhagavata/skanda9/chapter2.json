@@ -1,0 +1,30 @@
+{
+  "bhagavata_skanda9_chapter2": {
+    "title": "Bhagavata Skanda 9 Chapter 2",
+    "description": "Chapter 2 from Bhagavata Skanda 9.",
+    "meta": {
+      "title": "Bhagavata Skanda 9 Chapter 2",
+      "canonical": "https://sanatanadharmam.in/puranas/bhagavata/skanda-9/chapter-2",
+      "description": "Chapter 2 from Bhagavata Skanda 9.",
+      "url": "https://sanatanadharmam.in/puranas/bhagavata/skanda-9/chapter-2"
+    },
+    "openGraph": {
+      "title": "Bhagavata Skanda 9 Chapter 2",
+      "description": "Chapter 2 from Bhagavata Skanda 9.",
+      "url": "https://sanatanadharmam.in/puranas/bhagavata/skanda-9/chapter-2",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This chapter belongs to Bhagavata Skanda 9.",
+    "scripture_text": "Chapter-level summary text for Bhagavata Skanda 9, Chapter 2.",
+    "philosophical_explanation": "Each Bhagavata chapter blends narrative devotion with Vedantic insight.",
+    "skanda": {
+      "number": 9,
+      "path": "/puranas/bhagavata/skanda-9"
+    },
+    "chapter": {
+      "number": 2,
+      "path": "/puranas/bhagavata/skanda-9/chapter-2"
+    }
+  }
+}

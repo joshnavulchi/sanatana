@@ -1,6 +1,8 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { createGenerateMetadata } from '@lib/pageUtils';
 import SlugClient from './slugclient';
+import StructuredData from '@/app/components/structured-data/StructuredData';
+import { params as generatedParams } from '@app/generated-params/vedas-slugs';
 
 const VALID_SLUGS = ['rigveda', 'yajurveda', 'samaveda', 'atharvaveda'];
 
@@ -14,9 +16,12 @@ const FILE_MAP: Record<string, string> = {
 
 export const dynamicParams = false;
 
-export function generateStaticParams() {
-  return VALID_SLUGS.map((slug) => ({ slug }));
+export async function generateStaticParams() {
+  // Use the generated params list so Next's static export detection succeeds.
+  return generatedParams;
 }
+
+
 
 export async function generateMetadata(props: { params: Promise<{ slug: string }> }) {
   const { slug } = await props.params;
@@ -27,6 +32,11 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
 
 export default async function Page(props: { params: Promise<{ slug: string }> }) {
   const { slug } = await props.params;
-  return <SlugClient slug={slug} />;
+  return (
+    <>
+      <StructuredData metaKey={`vedas_${slug}`} />
+      <SlugClient slug={slug} />
+    </>
+  );
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

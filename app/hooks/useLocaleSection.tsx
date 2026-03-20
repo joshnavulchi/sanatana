@@ -1,7 +1,6 @@
 "use client";
-
 import { useEffect, useState } from 'react';
-import { loadLocaleNamespace, getLocaleNamespaceObject } from '@lib/i18n';
+import { getLocaleNamespaceObject } from '@lib/i18n';
 import { useLocale } from '@app/context/locale-context';
 
 // Hook: read a primary locale file/object for a component.
@@ -27,33 +26,30 @@ function unwrapNs(ns: Record<string, any>, section: string): Record<string, any>
 
 export default function useLocaleSection(section: string) {
   const { locale } = useLocale();
-  const [obj, setObj] = useState<Record<string, any>>(() => {
-    // Start with empty object to avoid hydration mismatch
-    // Server-side namespace loading will happen in useEffect
+  const [obj, setObj] = useState<Record<string, any>>({});
+
+  useEffect(() => {
+    let cancelled = false;
+    // Server-side: try to load namespace object synchronously
     if (typeof window === 'undefined') {
       try {
         const ns = getLocaleNamespaceObject(locale, section);
         if (ns && typeof ns === 'object') {
-          return unwrapNs(ns, section);
+          setObj(unwrapNs(ns, section));
         }
       } catch (_) { }
+    } else {
+      // Client-side: load namespace asynchronously
+      getLocaleNamespaceObject(locale, section).then((ns: any) => {
+        if (cancelled) return;
+        if (!ns || typeof ns !== 'object') return;
+
+        const payload = unwrapNs(ns, section);
+        if (payload && typeof payload === 'object') {
+          setObj(payload);
+        }
+      }).catch(() => { });
     }
-    return {};
-  });
-
-  useEffect(() => {
-    let cancelled = false;
-
-    // Try to load namespace file for this section
-    loadLocaleNamespace(locale, section).then((ns: any) => {
-      if (cancelled) return;
-      if (!ns || typeof ns !== 'object') return;
-
-      const payload = unwrapNs(ns, section);
-      if (payload && typeof payload === 'object') {
-        setObj(payload);
-      }
-    }).catch(() => { });
 
     return () => { cancelled = true; };
   }, [locale, section]);

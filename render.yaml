@@ -3,62 +3,26 @@ services:
     name: sanatanadharmam.in
     env: node
     plan: free
-    # Speed up builds by reusing Next.js cache and locales sync state.
-    # Also skip builds when changes don't affect the static output.
-    cacheDirectories:
-      - .next/cache
-      - .cache
-    buildFilter:
-      paths:
-        - app/**
-        - lib/**
-        - public/**
-        - locales/**
-        - scripts/**
-        - types/**
-        - package.json
-        - package-lock.json
-        - next.config.ts
-        - tsconfig.json
-        - tailwind.config.ts
-        - postcss.config.cjs
-        - eslint.config.mjs
-        - .render-build.sh
+
     envVars:
-      - key: NEXT_PUBLIC_GA_ID
-        sync: false
-        value: "${NEXT_PUBLIC_GA_ID}"
-      - key: NEXT_PUBLIC_GTM_ID
-        sync: false
-        value: "${NEXT_PUBLIC_GTM_ID}"
-      - key: LOCALES_REF
-        value: "locales"         # or "locales", or a commit SHA
-      - key: LOCALES_SYNC_BATCH_SIZE
-        value: "200"
-      - key: LOCALES_SYNC_WRITE_CONCURRENCY
-        value: "8"
       - key: NEXT_BUILD_MAX_WORKERS
         value: "4"
-    installCommand: |
-      npm install
+
+    installCommand: npm install
+
     buildCommand: |
+      set -e
+
       export NODE_ENV=production
-      export CI=true
       export NODE_OPTIONS=--max-old-space-size=6144
 
-      set -euo pipefail
-      npm run render-build
-      
-    publishPath: out
+      echo ">> Running Next build + export"
+      npm run render-build   # MUST generate /out
 
-  - type: cron
-    name: weekly-deploy
-    env: node
-    plan: free
-    schedule: "30 2 * * 0"
-    command:
-      [
-        "bash",
-        "-lc",
-        'if [ -n "$RENDER_DEPLOY_HOOK" ]; then curl -fsS -X POST "$RENDER_DEPLOY_HOOK" || echo ''deploy hook failed''; else echo ''RENDER_DEPLOY_HOOK not set; skipping deploy''; fi',
-      ]
+      echo ">> Running post-build scripts"
+      node scripts/generate-sitemap.js
+      node scripts/minify-html.js
+      node scripts/add-hash-to-assets.js
+      node scripts/generate-post-deploy-audit.js
+
+    publishPath: out

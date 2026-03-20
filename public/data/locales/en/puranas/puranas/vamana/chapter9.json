@@ -1,0 +1,26 @@
+{
+  "vamana_chapter9": {
+    "title": "Vamana Purana Chapter 9",
+    "description": "Chapter 9 from Vamana Purana.",
+    "meta": {
+      "title": "Vamana Purana Chapter 9",
+      "canonical": "https://sanatanadharmam.in/puranas/vamana/chapter-9",
+      "description": "Chapter 9 from Vamana Purana.",
+      "url": "https://sanatanadharmam.in/puranas/vamana/chapter-9"
+    },
+    "openGraph": {
+      "title": "Vamana Purana Chapter 9",
+      "description": "Chapter 9 from Vamana Purana.",
+      "url": "https://sanatanadharmam.in/puranas/vamana/chapter-9",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "This chapter belongs to Vamana Purana.",
+    "scripture_text": "Chapter-level summary text for Vamana Purana, Chapter 9.",
+    "philosophical_explanation": "Vamana Purana chapters combine dharma, devotion, and symbolic teaching.",
+    "chapter": {
+      "number": 9,
+      "path": "/puranas/vamana/chapter-9"
+    }
+  }
+}

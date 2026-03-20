@@ -1,6 +1,8 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { createGenerateMetadata } from '@lib/pageUtils';
+import StructuredData from '@components/structured-data/StructuredData';
 import SlugClient from './slugclient';
+import { params as generatedParams } from '@app/generated-params/itihasa-bhagavadgita';
 
 const VALID_SLUGS = [
   'arjuna-vishada-yoga', 'sankhya-yoga', 'karma-yoga', 'jnana-karma-sanyasa-yoga',
@@ -12,9 +14,13 @@ const VALID_SLUGS = [
 
 export const dynamicParams = false;
 
-export function generateStaticParams() {
-  return VALID_SLUGS.map((slug) => ({ slug }));
+export async function generateStaticParams() {
+  // Use the build-time generated params list to support `output: export`.
+  // The `generatedParams.params` array already contains objects like { slug: string }.
+  return generatedParams;
 }
+
+
 
 export async function generateMetadata(props: { params: Promise<{ slug: string }> }) {
   const { slug } = await props.params;
@@ -24,6 +30,11 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
 
 export default async function Page(props: { params: Promise<{ slug: string }> }) {
   const { slug } = await props.params;
-  return <SlugClient slug={slug} />;
+  return (
+    <>
+      <StructuredData metaKey={`bhagavadgita_${slug}`} />
+      <SlugClient slug={slug} />
+    </>
+  );
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

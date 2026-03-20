@@ -1,5 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { t, detectLocale, getLocaleNamespaceObject, loadLocaleNamespace, DEFAULT_LOCALE } from './i18n';
+import { t, getLocaleNamespaceObjectAsync, DEFAULT_LOCALE, detectLocale } from './i18n';
 import { secrets } from './secrets';
 
 export function createGenerateMetadata(metaKey: string, titleKey?: string, descriptionKey?: string) {
@@ -123,19 +123,14 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
     } catch (e) {
       resolvedSearchParams = undefined;
     }
-    let locale = detectLocale(resolvedSearchParams);
+    let searchParamsObj: Record<string, any> | undefined =
+      resolvedSearchParams && typeof resolvedSearchParams === 'object' && !Array.isArray(resolvedSearchParams)
+        ? (resolvedSearchParams as Record<string, any>)
+        : undefined;
+    let locale = detectLocale(searchParamsObj);
     if (!locale) locale = DEFAULT_LOCALE;
 
-    // Ensure namespace data exists on the server/build before reading from cache.
-    await loadLocaleNamespace(locale, metaKey);
-    if (titleKey && titleKey.includes('.')) {
-      await loadLocaleNamespace(locale, titleKey.split('.')[0]);
-    }
-    if (descriptionKey && descriptionKey.includes('.')) {
-      await loadLocaleNamespace(locale, descriptionKey.split('.')[0]);
-    }
-
-    const rawNs = getLocaleNamespaceObject(locale, metaKey);
+    const rawNs = await getLocaleNamespaceObjectAsync(locale, metaKey);
     const pageObj = unwrapPageObject(rawNs);
     const meta = isPlainObject(pageObj.meta) ? (pageObj.meta as Record<string, unknown>) : {};
     const openGraph = isPlainObject(pageObj.openGraph) ? (pageObj.openGraph as Record<string, unknown>) : {};
@@ -208,6 +203,8 @@ export function createGenerateMetadata(metaKey: string, titleKey?: string, descr
     const robots = parseRobots((meta as any).robots);
 
     return {
+      // Debug: log computed metadata during dev to help diagnose missing head tags
+      ...(process.env.NODE_ENV !== 'production' ? (console.log && console.log(`[meta:${metaKey}]`, { title, description, canonical })) : {}),
       title,
       description,
       keywords: (meta as any).keywords || undefined,

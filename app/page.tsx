@@ -1,7 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import fs from 'fs';
-import { createGenerateMetadata } from '@lib/pageUtils';
-import path from 'path';
+import { createGenerateMetadata, } from '@lib/pageUtils';
+import StructuredData from '@components/structured-data/StructuredData';
 import HeroSection from '@components/herosection';
 import WelcomePage from '@components/welcome';
 import UnderstandingOfSanatana from '@components/sanatanadharmam';
@@ -15,21 +14,20 @@ let criticalCssChecked = false;
 function getCriticalCss(): string {
   if (criticalCssChecked) return cachedCriticalCss || '';
 
-  try {
-    const p = path.join(process.cwd(), 'public', 'critical-home.css');
-    if (fs.existsSync(p)) {
-      const raw = fs.readFileSync(p, 'utf8');
-      const tooLarge = raw.length > 8 * 1024; // 8KB
-      const looksLikeFullCss = /@tailwind|@import|:root|body\s*\{|html\s*\{/.test(raw);
-      if (!tooLarge && !looksLikeFullCss) {
-        cachedCriticalCss = raw;
-      } else {
-        console.warn(`Skipping inline critical CSS (size:${raw.length} bytes, looksLikeFullCss:${looksLikeFullCss})`);
-      }
-    }
-  } catch (e) {
-    // Ignore errors
-  }
+  // try {
+  //   const raw = readPublicFileSync('critical-home.css');
+  //   if (raw) {
+  //     const tooLarge = raw.length > 8 * 1024; // 8KB
+  //     const looksLikeFullCss = /@tailwind|@import|:root|body\s*\{|html\s*\{/.test(raw);
+  //     if (!tooLarge && !looksLikeFullCss) {
+  //       cachedCriticalCss = raw;
+  //     } else {
+  //       console.warn(`Skipping inline critical CSS (size:${raw.length} bytes, looksLikeFullCss:${looksLikeFullCss})`);
+  //     }
+  //   }
+  // } catch (e) {
+  //   // Ignore errors
+  // }
 
   criticalCssChecked = true;
   return cachedCriticalCss || '';
@@ -44,6 +42,7 @@ export default async function Home() {
   return (
     <>
       {criticalCss ? <style dangerouslySetInnerHTML={{ __html: criticalCss }} /> : null}
+      <StructuredData metaKey="home" />
       <main>
         <WelcomePage />
         <HeroSection />

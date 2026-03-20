@@ -1,49 +1,26 @@
 import { notFound } from 'next/navigation';
 import { createGenerateMetadata } from '@lib/pageUtils';
+import StructuredData from '@/app/components/structured-data/StructuredData';
 import ItihasaPartClient from '../../../itihasapartclient';
+import { params as generatedParams } from '@app/generated-params/mahabharata-parva-parts';
 import {
+  MAHABHARATA_PARVAS,
   isMahabharataParvaSlug,
   parseNumericSuffix,
   toTitleFromSlug,
   toUnderscoreSlug,
 } from '../../../itihasa-utils';
-import fs from 'fs';
-import path from 'path';
 
 type Params = { parva: string; parts: string[] };
 
 export const dynamicParams = false;
 
-export function generateStaticParams(): Params[] {
-  const localesDir = path.join(process.cwd(), 'public', 'locales', 'en');
-  let files: string[] = [];
-  try {
-    files = fs.readdirSync(localesDir);
-  } catch (_) {
-    return [];
-  }
-
-  const out: Params[] = [];
-  const re = /^itihasa_mahabharata_([^_]+(?:_[^_]+)*)_chapter(\d+)\.json$/;
-  for (const file of files) {
-    const m = file.match(re);
-    if (!m) continue;
-    const parvaSlug = m[1].replace(/_/g, '-');
-    if (!isMahabharataParvaSlug(parvaSlug)) continue;
-    const chapter = Number(m[2]);
-    if (!Number.isFinite(chapter) || chapter <= 0) continue;
-    out.push({ parva: parvaSlug, parts: [`chapter-${chapter}`] });
-  }
-
-  out.sort((a, b) => {
-    if (a.parva !== b.parva) return a.parva.localeCompare(b.parva);
-    const ac = Number(a.parts[0]?.match(/(\d+)$/)?.[1] || '0');
-    const bc = Number(b.parts[0]?.match(/(\d+)$/)?.[1] || '0');
-    return ac - bc;
-  });
-
-  return out;
+export async function generateStaticParams() {
+  // Use the full generated params list for Mahabharata parva parts.
+  return generatedParams;
 }
+
+
 
 export async function generateMetadata(props: { params: Promise<Params> }) {
   const { parva, parts } = await props.params;
@@ -62,16 +39,19 @@ export default async function Page(props: { params: Promise<Params> }) {
   const namespace = `itihasa_mahabharata_${toUnderscoreSlug(parva)}_chapter${chapter}`;
 
   return (
-    <ItihasaPartClient
-      namespace={namespace}
-      titleFallback={`${toTitleFromSlug(parva)} Chapter ${chapter}`}
-      breadcrumbs={[
-        { label: 'Home', href: '/' },
-        { label: 'Itihasa', href: '/itihasa' },
-        { label: 'Mahabharata', href: '/itihasa/mahabharata' },
-        { label: toTitleFromSlug(parva), href: `/itihasa/mahabharata/${parva}` },
-        { label: `Chapter ${chapter}` },
-      ]}
-    />
+    <>
+      <StructuredData metaKey={namespace} />
+      <ItihasaPartClient
+        namespace={namespace}
+        titleFallback={`${toTitleFromSlug(parva)} Chapter ${chapter}`}
+        breadcrumbs={[
+          { label: 'Home', href: '/' },
+          { label: 'Itihasa', href: '/itihasa' },
+          { label: 'Mahabharata', href: '/itihasa/mahabharata' },
+          { label: toTitleFromSlug(parva), href: `/itihasa/mahabharata/${parva}` },
+          { label: `Chapter ${chapter}` },
+        ]}
+      />
+    </>
   );
 }

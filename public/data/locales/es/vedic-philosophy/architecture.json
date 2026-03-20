@@ -1,0 +1,55 @@
+{
+  "vedic_philosophy_architecture": {
+    "title": "Architecture – Vedic Science and Knowledge Traditions",
+    "description": "Explore Architecture in the Vedic knowledge traditions: historical context, core ideas, and how these disciplines connect to dharma and learning.",
+    "meta": {
+      "title": "Architecture – Vedic Science and Knowledge Traditions",
+      "canonical": "https://sanatanadharmam.in/vedic-philosophy/architecture",
+      "description": "Explore Architecture in the Vedic knowledge traditions: historical context, core ideas, and how these disciplines connect to dharma and learning.",
+      "keywords": [
+        "Architecture",
+        "Vedic science",
+        "Sanatana Dharma",
+        "knowledge traditions"
+      ],
+      "robots": "index, follow",
+      "url": "https://sanatanadharmam.in/vedic-philosophy/architecture",
+      "ogImage": "https://sanatanadharmam.in/og/vedic_philosophy_architecture.png"
+    },
+    "openGraph": {
+      "title": "Architecture – Vedic Science and Knowledge Traditions",
+      "description": "Explore Architecture in the Vedic knowledge traditions: historical context, core ideas, and how these disciplines connect to dharma and learning.",
+      "url": "https://sanatanadharmam.in/vedic-philosophy/architecture",
+      "siteName": "Sanatanadharmam",
+      "type": "article",
+      "images": [
+        {
+          "url": "https://sanatanadharmam.in/og/vedic_philosophy_architecture.png",
+          "width": 1200,
+          "height": 630,
+          "alt": "Architecture – Vedic Science and Knowledge Traditions"
+        }
+      ]
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "name": "Architecture – Vedic Science and Knowledge Traditions",
+      "description": "Explore Architecture in the Vedic knowledge traditions: historical context, core ideas, and how these disciplines connect to dharma and learning.",
+      "url": "https://sanatanadharmam.in/vedic-philosophy/architecture",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Sanatanadharmam",
+        "url": "https://sanatanadharmam.in"
+      }
+    },
+    "introduction": "Architecture in the Indian tradition includes temple architecture, civic planning, and principles often discussed under vastu and shilpa traditions. Temples are not only places of worship but also sophisticated works of geometry, acoustics, sculpture, and symbolic design.\n\nThis page provides an overview of how architectural principles connect craft, community life, and spiritual symbolism.",
+    "scripture_text": [
+      {
+        "section": "Traditional context",
+        "content": "Architectural knowledge is preserved in shilpa and vastu-related texts and in living craft lineages. This site focuses on concepts (layout, symbolism, orientation, proportional design) rather than strict prescriptions."
+      }
+    ],
+    "philosophical_explanation": "Philosophically, sacred architecture expresses an inner map: movement from the outer world toward a still center. Proportion and order become a way to cultivate attention and reverence. Even outside temples, these principles highlight harmony between function, beauty, and meaning."
+  }
+}

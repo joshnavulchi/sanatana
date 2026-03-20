@@ -1,6 +1,6 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 "use client";
-import { useState } from 'react';
+import React, { useState, Fragment } from 'react';
 import useLocaleSection from '@app/hooks/useLocaleSection';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
@@ -284,9 +284,8 @@ export default function Footer() {
 
                 // Insert ItihasaColumn after puranas
                 return (
-                  <>
+                  <Fragment key={key}>
                     <NavColumn
-                      key={key}
                       title={title}
                       links={links}
                       icon={icon}
@@ -295,7 +294,7 @@ export default function Footer() {
                     {key === 'puranas' && footer.itihasa && (
                       <ItihasaColumn key="itihasa" section={footer.itihasa} />
                     )}
-                  </>
+                  </Fragment>
                 );
               })}
             </nav>

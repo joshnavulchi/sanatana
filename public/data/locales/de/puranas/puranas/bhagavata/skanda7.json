@@ -1,0 +1,26 @@
+{
+  "bhagavata_skanda7": {
+    "title": "Bhagavata Skanda 7",
+    "description": "Structure and chapter overview of Bhagavata Skanda 7.",
+    "meta": {
+      "title": "Bhagavata Skanda 7",
+      "canonical": "https://sanatanadharmam.in/puranas/bhagavata/skanda-7",
+      "description": "Structure and chapter overview of Bhagavata Skanda 7.",
+      "url": "https://sanatanadharmam.in/puranas/bhagavata/skanda-7"
+    },
+    "openGraph": {
+      "title": "Bhagavata Skanda 7",
+      "description": "Structure and chapter overview of Bhagavata Skanda 7.",
+      "url": "https://sanatanadharmam.in/puranas/bhagavata/skanda-7",
+      "siteName": "Sanatanadharmam",
+      "type": "article"
+    },
+    "introduction": "Skanda 7 of the Bhagavata Purana groups chapters into a devotional and philosophical progression.",
+    "scripture_text": "This skanda contains chapter-level teachings that prepare the reader for deeper verse-by-verse study.",
+    "philosophical_explanation": "Bhagavata skandas are designed to progressively refine bhakti, ethics, and spiritual understanding.",
+    "skanda": {
+      "number": 7,
+      "path": "/puranas/bhagavata/skanda-7"
+    }
+  }
+}

@@ -1,7 +1,10 @@
+export const revalidate = 60;
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
 import { createGenerateMetadata } from '@lib/pageUtils';
+import StructuredData from '@/app/components/structured-data/StructuredData';
 import SlugClient from './slugclient';
 import { getPuranaOverviewNamespace, MAHAPURANA_SLUGS, normalizePuranaSlug } from '../purana-utils';
+import { params as generatedParams } from '@app/generated-params/puranas-slugs';
 
 const VALID_SLUGS: string[] = [];
 for (const slug of MAHAPURANA_SLUGS) {
@@ -12,9 +15,13 @@ for (const slug of MAHAPURANA_SLUGS) {
 export const dynamicParams = false;
 export const dynamic = 'force-static';
 
-export function generateStaticParams() {
-  return VALID_SLUGS.map((slug) => ({ slug: String(slug) }));
+export async function generateStaticParams() {
+  // Use the build-time generated params which contains the full list
+  // of purana slugs (including canonical/purana variants).
+  return generatedParams;
 }
+
+
 
 export async function generateMetadata(props: { params: Promise<{ slug: string }> }) {
   const { slug } = await props.params;
@@ -25,6 +32,12 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
 
 export default async function Page(props: { params: Promise<{ slug: string }> }) {
   const { slug } = await props.params;
-  return <SlugClient slug={normalizePuranaSlug(slug)} />;
+  const canonicalSlug = normalizePuranaSlug(slug);
+  return (
+    <>
+      <StructuredData metaKey={`puranas_${canonicalSlug}`} />
+      <SlugClient slug={canonicalSlug} />
+    </>
+  );
 }
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */

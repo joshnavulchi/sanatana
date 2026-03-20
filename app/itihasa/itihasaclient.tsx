@@ -29,7 +29,7 @@ export default function ItihasaClient() {
       // Bhagavad Gita has no "name" field — detect by chapters_list
       if (item?.chapters_list && !item?.name) {
         links.push({
-          href: '/itihasa/bhagavad-gita',
+          href: '/itihasa/bhagavadgita',
           label: 'Bhagavad Gita',
           description: typeof item.description === 'string' ? item.description : undefined,
         });

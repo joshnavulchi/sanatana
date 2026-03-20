@@ -1,5 +1,5 @@
 /* Copyright (c) 2025 sanatanadharmam.in Licensed under SEE LICENSE IN LICENSE. All rights reserved. */
-import { getMeta, detectLocale } from '@lib/i18n';
+import { t, getLocaleNamespaceObject, DEFAULT_LOCALE } from '@lib/i18n';
 
 type Props = {
   metaKey: string;
@@ -14,8 +14,9 @@ type Props = {
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://sanatanadharmam.in';
 
 export default async function PageArticleJsonLd({ metaKey, params, locale, author, datePublished, image, articleType = 'Article' }: Props) {
-  const loc = locale ?? await detectLocale(params);
-  const meta = getMeta(metaKey, params, loc) || {};
+  const loc = locale ?? DEFAULT_LOCALE;
+  await getLocaleNamespaceObject(String(loc || 'en'), metaKey);
+  const meta = t(metaKey, loc) || {};
 
   const headline = meta.title || undefined;
   const description = meta.description || undefined;
@@ -40,7 +41,7 @@ export default async function PageArticleJsonLd({ metaKey, params, locale, autho
       name: 'Sanātana Dharma',
       logo: {
         '@type': 'ImageObject',
-        url: `${SITE_URL}/images/svg/globe.svg`
+        url: `${SITE_URL}/images/logo.png`
       }
     },
     datePublished: datePublished || undefined,
@@ -50,7 +51,7 @@ export default async function PageArticleJsonLd({ metaKey, params, locale, autho
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }} />
     </>
   );
 }
