@@ -18,7 +18,7 @@ export default function VedicScienceClient() {
   if (isLoading && !page.title) {
     return (
       <PageLayout metaKey="vedic_science" title={page.title} breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Vedic Science' }]}>
-          <div className="flex items-center justify-center py-6">
+          <div className="flex items-center justify-center py-4">
           <Loader />
         </div>
       </PageLayout>

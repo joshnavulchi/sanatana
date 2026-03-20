@@ -65,7 +65,7 @@ export default function TermsOfService() {
   if (isLoading && !page.title) {
     return (
       <PageLayout metaKey="terms_of_service.meta" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Terms' }]} className="layout-md">
-        <div className="flex items-center justify-center py-6">
+        <div className="flex items-center justify-center py-4">
           <Loader />
         </div>
       </PageLayout>
@@ -106,7 +106,7 @@ export default function TermsOfService() {
 
         {/* Use License */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
-          <h3 className="text-base md:text-md md:text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+          <h3 className="text-base md:text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">📜</span>
             {page.uselicensetitle}
           </h3>
@@ -126,7 +126,7 @@ export default function TermsOfService() {
 
         {/* Intellectual Property */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
-          <h4 className="text-base md:text-md md:text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+          <h4 className="text-base md:text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">©️</span>
             {page.intellectualtitle}
           </h4>
@@ -135,7 +135,7 @@ export default function TermsOfService() {
 
         {/* User Conduct */}
         <section className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
-          <h5 className="text-base md:text-md md:text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+          <h5 className="text-base md:text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">👤</span>
             {page.userconducttitle}
           </h5>
@@ -155,7 +155,7 @@ export default function TermsOfService() {
 
         {/* Disclaimer */}
         <section className="bg-gradient-to-br from-amber-50 to-orange-50 border-l-4 border-amber-500 rounded-lg p-4 md:p-8 shadow-lg">
-          <h6 className="text-base md:text-md md:text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+          <h6 className="text-base md:text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">⚠️</span>
             {page.disclaimertitle}
           </h6>
@@ -185,7 +185,7 @@ export default function TermsOfService() {
           { icon: '📑', title: page.severabilitytitle, text: page.severabilitytext },
         ].map((section, idx) => (
           <section key={idx} className="bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8 shadow-lg">
-            <p className="text-base md:text-md md:text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+            <p className="text-base md:text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
               <span className="text-2xl">{section.icon}</span>
               {section.title}
             </p>
@@ -194,8 +194,8 @@ export default function TermsOfService() {
         ))}
 
         {/* Contact section */}
-        <section className="bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-200 rounded-2xl p-6 md:p-8">
-          <p className="text-base md:text-md md:text-2xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+        <section className="bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-200 rounded-2xl p-4 md:p-8">
+          <p className="text-base md:text-md font-bold text-gray-900 mb-4 flex items-center gap-3">
             <span className="text-2xl">📞</span>
             {page.contacttitle}
           </p>

@@ -130,7 +130,7 @@ export default function DropIrrigationClient() {
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: dripIrrigation.title }]}
         className="layout-md"
       >
-        <div className="flex items-center justify-center py-6">
+        <div className="flex items-center justify-center py-4">
           <Loader />
         </div>
       </PageLayout>
@@ -140,7 +140,7 @@ export default function DropIrrigationClient() {
   const tocItems = dripIrrigation.toc?.items ?? [];
 
   const renderSectionContent = (section: SectionData) => (
-    <div className="mt-5 space-y-5 text-base md:text-md leading-7 text-slate-700">
+    <div className="mt-4 space-y-4 text-base md:text-md leading-7 text-slate-700">
       {section.summary ? (
         <p className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-slate-700">
           {section.summary}
@@ -497,7 +497,7 @@ export default function DropIrrigationClient() {
             <section className="rounded-2xl border border-indigo-200 bg-indigo-50 p-4 shadow-sm md:p-6">
               <h6 className="text-2xl font-bold text-indigo-950">{dripIrrigation.diagram.title}</h6>
               <div className="mt-4 overflow-x-auto rounded-xl bg-indigo-950 p-4">
-                <pre className="whitespace-pre-wrap font-mono text-base md:text-md md:text-sm leading-7 text-indigo-100">
+                <pre className="whitespace-pre-wrap font-mono text-base md:text-md leading-7 text-indigo-100">
                   {(dripIrrigation.diagram.lines || []).join('\n')}
                 </pre>
               </div>

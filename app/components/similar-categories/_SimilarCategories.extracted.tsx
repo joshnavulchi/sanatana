@@ -228,50 +228,50 @@ export default function SimilarCategories({
   }, [excludeCurrent, locale, maxItems, pathname]);
   if (categories.length === 0) {
     return <aside className="relative overflow-hidden rounded-2xl border-2 border-amber-300 bg-linear-to-b from-amber-50 via-orange-50 to-stone-50 p-5 shadow-[0_10px_30px_rgba(120,53,15,0.12)]">
-        <div className="pointer-events-none absolute inset-x-5 top-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent" />
-        <div className="pointer-events-none absolute inset-x-5 bottom-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent" />
-        <h5 className="mb-2 text-xl md:text-lg font-bold tracking-wide text-amber-900">{title}</h5>
-        <p className="text-base md:text-md leading-relaxed text-amber-800/90"> {page.loading_categori} </p>
-      </aside>;
-  }
-  return <aside className="relative overflow-hidden rounded-2xl border-2 border-amber-300 bg-linear-to-b from-amber-50 via-orange-50 to-stone-50 p-5 shadow-[0_10px_30px_rgba(120,53,15,0.12)]">
       <div className="pointer-events-none absolute inset-x-5 top-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent" />
       <div className="pointer-events-none absolute inset-x-5 bottom-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent" />
-      <div className="mb-5 rounded-xl border border-amber-200 bg-amber-100/70 px-4 py-3">
-        <h5 className="text-xl md:text-lg font-bold tracking-wide text-amber-900">{title}</h5>
-        <p className="mt-1 text-base md:text-md md:text-sm text-amber-800">{page.sacred_pathways}</p>
-      </div>
-      <div className="space-y-4">
-        {categories.map(category => {
+      <h5 className="mb-2 text-xl md:text-lg font-bold tracking-wide text-amber-900">{title}</h5>
+      <p className="text-base md:text-md leading-relaxed text-amber-800/90"> {page.loading_categori} </p>
+    </aside>;
+  }
+  return <aside className="relative overflow-hidden rounded-2xl border-2 border-amber-300 bg-linear-to-b from-amber-50 via-orange-50 to-stone-50 p-5 shadow-[0_10px_30px_rgba(120,53,15,0.12)]">
+    <div className="pointer-events-none absolute inset-x-5 top-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent" />
+    <div className="pointer-events-none absolute inset-x-5 bottom-4 h-px bg-linear-to-r from-transparent via-amber-500/70 to-transparent" />
+    <div className="mb-5 rounded-xl border border-amber-200 bg-amber-100/70 px-4 py-3">
+      <h5 className="text-xl md:text-lg font-bold tracking-wide text-amber-900">{title}</h5>
+      <p className="mt-1 text-base md:text-md text-amber-800">{page.sacred_pathways}</p>
+    </div>
+    <div className="space-y-4">
+      {categories.map(category => {
         return <div key={category.key} className="rounded-xl border border-orange-200 bg-white/80 p-4 shadow-[0_6px_16px_rgba(120,53,15,0.08)]">
-              <h6 className="mb-3 border-b border-amber-200 pb-2 text-lg md:text-md font-semibold text-amber-900">
-                <Link href={toCategoryHref(category.key, CATEGORY_CONFIG[category.key]?.basePath ?? '')} className="decoration-amber-500 underline-offset-4 transition-colors hover:text-orange-700 hover:underline">
-                  {category.title}
-                </Link>
-              </h6>
-              <ul className="space-y-2">
-                {(expandedByCategory[category.key] ? category.links : category.links.slice(0, INITIAL_VISIBLE_LINKS)).map(link => <li key={link.key} className="text-base md:text-md leading-relaxed">
-                    <Link href={normalizeHref(link.href)} className="inline-flex items-start gap-2 text-amber-800 transition-colors hover:text-orange-700">
-                      <span aria-hidden="true" className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-amber-500" />
-                      {link.label}
-                    </Link>
-                  </li>)}
-              </ul>
-              <div className="mt-4 flex flex-wrap items-center gap-2 border-t border-amber-200/80 pt-3">
-                {category.links.length > INITIAL_VISIBLE_LINKS && <button type="button" onClick={() => {
+          <h6 className="mb-3 border-b border-amber-200 pb-2 text-lg md:text-md font-semibold text-amber-900">
+            <Link href={toCategoryHref(category.key, CATEGORY_CONFIG[category.key]?.basePath ?? '')} className="decoration-amber-500 underline-offset-4 transition-colors hover:text-orange-700 hover:underline">
+              {category.title}
+            </Link>
+          </h6>
+          <ul className="space-y-2">
+            {(expandedByCategory[category.key] ? category.links : category.links.slice(0, INITIAL_VISIBLE_LINKS)).map(link => <li key={link.key} className="text-base md:text-md leading-relaxed">
+              <Link href={normalizeHref(link.href)} className="inline-flex items-start gap-2 text-amber-800 transition-colors hover:text-orange-700">
+                <span aria-hidden="true" className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-amber-500" />
+                {link.label}
+              </Link>
+            </li>)}
+          </ul>
+          <div className="mt-4 flex flex-wrap items-center gap-2 border-t border-amber-200/80 pt-3">
+            {category.links.length > INITIAL_VISIBLE_LINKS && <button type="button" onClick={() => {
               setExpandedByCategory(previous => ({
                 ...previous,
                 [category.key]: !previous[category.key]
               }));
             }} aria-expanded={Boolean(expandedByCategory[category.key])} className="inline-flex items-center gap-1.5 rounded-full border border-amber-300 bg-amber-50 px-3 py-1.5 text-sm font-semibold tracking-wide text-amber-900 transition-colors hover:bg-amber-100">
-                    <span aria-hidden="true">{expandedByCategory[category.key] ? '−' : '+'}</span>
-                    {expandedByCategory[category.key] ? 'Show less' : `More (${category.links.length - INITIAL_VISIBLE_LINKS})`}
-                  </button>}
-                <Link href={toCategoryHref(category.key, CATEGORY_CONFIG[category.key]?.basePath ?? '')} className="inline-flex items-center gap-1.5 rounded-full border border-orange-300 bg-orange-100 px-3 py-1.5 text-sm font-semibold tracking-wide text-orange-900 transition-colors hover:bg-orange-200"> {page.view_all} <span aria-hidden="true">→</span>
-                </Link>
-              </div>
-            </div>;
+              <span aria-hidden="true">{expandedByCategory[category.key] ? '−' : '+'}</span>
+              {expandedByCategory[category.key] ? 'Show less' : `More (${category.links.length - INITIAL_VISIBLE_LINKS})`}
+            </button>}
+            <Link href={toCategoryHref(category.key, CATEGORY_CONFIG[category.key]?.basePath ?? '')} className="inline-flex items-center gap-1.5 rounded-full border border-orange-300 bg-orange-100 px-3 py-1.5 text-sm font-semibold tracking-wide text-orange-900 transition-colors hover:bg-orange-200"> {page.view_all} <span aria-hidden="true">→</span>
+            </Link>
+          </div>
+        </div>;
       })}
-      </div>
-    </aside>;
+    </div>
+  </aside>;
 }

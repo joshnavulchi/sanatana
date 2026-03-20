@@ -84,7 +84,7 @@ export default function ContactForm({ fields, submitButton }: Props) {
     <form onSubmit={handleSubmit} className="p-3 md:p-6">
       <div className="bg-gradient-to-br from-white via-amber-50/30 to-orange-50/30 rounded-3xl shadow-2xl border-2 border-amber-200/50 overflow-hidden">
         {/* Decorative header */}
-        <div className="relative bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 p-8 text-center">
+        <div className="relative bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 p-4 text-center">
           <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAwIDEwIEwgNDAgMTAgTSAxMCAwIEwgMTAgNDAgTSAwIDIwIEwgNDAgMjAgTSAyMCAwIEwgMjAgNDAgTSAwIDMwIEwgNDAgMzAgTSAzMCAwIEwgMzAgNDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1vcGFjaXR5PSIwLjEiIHN0cm9rZS13aWR0aD0iMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')] opacity-30" />
           <div className="relative z-10">
             <div className="inline-flex items-center justify-center w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl mb-4 shadow-lg">
@@ -98,13 +98,13 @@ export default function ContactForm({ fields, submitButton }: Props) {
         </div>
 
         {/* Form fields */}
-        <div className="p-8 space-y-6">
+        <div className="p-6 space-y-4">
           {usedFields.map((f) => (
             <div key={f.name} className="group">
               <label className="block text-base md:text-md font-semibold  mb-2 flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-amber-500 group-focus-within:scale-150 transition-transform duration-300"></span>
                 {f.label || f.name}
-                {f.required && <span className="text-orange-500 text-base md:text-md md:text-sm">*</span>}
+                {f.required && <span className="text-orange-500 text-base md:text-md">*</span>}
               </label>
               {f.type === 'textarea' ? (
                 <textarea
@@ -150,7 +150,7 @@ export default function ContactForm({ fields, submitButton }: Props) {
           <button
             type="submit"
             disabled={submitting}
-            className="w-full group relative overflow-hidden px-8 py-3 bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 hover:from-amber-600 hover:via-orange-600 hover:to-amber-600 text-white text-xl md:text-lg rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+            className="w-full group relative overflow-hidden px-6 py-2 bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 hover:from-amber-600 hover:via-orange-600 hover:to-amber-600 text-white text-lg md:text-lg rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
           >
             <span className="relative z-10 flex items-center justify-center gap-3">
               {submitting ? (

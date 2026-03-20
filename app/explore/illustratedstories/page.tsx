@@ -38,7 +38,7 @@ export default function Page({ searchParams }: any) {
                   <p className="text-xl md:text-lg text-gray-700 mb-2 line-clamp-3">{s.summary}</p>
                   <div className="mt-auto flex flex-wrap gap-2">
                     {Array.isArray(s.themes) && s.themes.map((theme: string, idx: number) => (
-                      <span key={idx} className="bg-yellow-200 text-yellow-900 rounded-full px-3 py-1 text-base md:text-md md:text-sm font-semibold">{theme}</span>
+                      <span key={idx} className="bg-yellow-200 text-yellow-900 rounded-full px-3 py-1 text-base md:text-md font-semibold">{theme}</span>
                     ))}
                   </div>
                   <div className="mt-2 text-xl md:text-lg text-green-700 italic">Moral: {s.moral}</div>

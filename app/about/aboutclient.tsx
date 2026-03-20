@@ -27,7 +27,7 @@ export default function AboutClient() {
         breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'About' }]}
         className="layout-sm"
       >
-        <div className="flex items-center justify-center py-12">
+        <div className="flex items-center justify-center py-4">
           <Loader />
         </div>
       </PageLayout>
@@ -59,8 +59,8 @@ export default function AboutClient() {
 
             return (
               <div key={section.id || index}
-                className="relative bg-white border-2 border-amber-100 rounded-2xl p-6 md:p-8
-                mt-12 shadow-md hover:shadow-xl transition-all duration-500 group overflow-hidden">
+                className="relative bg-white border-2 border-amber-100 rounded-2xl p-4 md:p-8
+                mt-8 shadow-md hover:shadow-xl transition-all duration-500 group overflow-hidden">
                 {/* Decorative corner accent */}
                 <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-amber-400/10 to-transparent rounded-tr-2xl" />
                 <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-orange-400/10 to-transparent rounded-bl-2xl" />
@@ -106,7 +106,7 @@ export default function AboutClient() {
 
           {/* Disclaimer section */}
           {about.disclaimer && (
-            <div className="relative bg-gradient-to-br from-amber-50 to-orange-50 border-l-4 border-amber-500 rounded-lg p-6 md:p-8 mt-12 shadow-lg">
+            <div className="relative bg-gradient-to-br from-amber-50 to-orange-50 border-l-4 border-amber-500 rounded-lg p-4 md:p-8 mt-8 shadow-lg">
               <div className="flex items-start gap-4">
                 <span className="text-3xl">⚠️</span>
                 <div className="flex-1">
@@ -119,7 +119,7 @@ export default function AboutClient() {
             </div>
           )}
         </div>
-        <div className="mx-auto max-w-7xl py-6 px-3">
+        <div className="mx-auto max-w-7xl py-4 px-3">
           <div
             className={`
           transition-all duration-1000 ease-out
@@ -127,7 +127,7 @@ export default function AboutClient() {
         `}
           >
             {/* Header */}
-            <div className="text-center mb-12">
+            <div className="text-center mb-8">
               <div className="flex items-center justify-center gap-3 mb-4">
                 <div className="h-px w-16 bg-gradient-to-r from-transparent to-amber-400" />
                 <span className="text-3xl text-amber-800">🕉️</span>
@@ -142,9 +142,9 @@ export default function AboutClient() {
             </div>
 
             {/* Main content grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
               {/* Card 1: Purpose */}
-              <div className="relative bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-6 border border-amber-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex-1">
+              <div className="relative bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-4 border border-amber-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex-1">
                 <div className="absolute top-4 right-4 text-4xl opacity-20 group-hover:opacity-30 transition-opacity">
                   🎯
                 </div>
@@ -200,12 +200,12 @@ export default function AboutClient() {
             {/* Central wisdom quote */}
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 via-orange-500/10 to-amber-500/10 blur-2xl" />
-              <div className="relative bg-gradient-to-br from-amber-100/80 to-orange-100/80 rounded-2xl p-8 border-2 border-amber-300/30 backdrop-blur-sm">
+              <div className="relative bg-gradient-to-br from-amber-100/80 to-orange-100/80 rounded-2xl p-6 border-2 border-amber-300/30 backdrop-blur-sm">
                 <div className="text-center space-y-4">
                   <p className="text-2xl md:text-3xl  text-amber-900 leading-relaxed">
                     `&quot;`आत्मानं विद्धि`&quot;`
                   </p>
-                  <p className="text-base md:text-md md:text-2xl font-medium">
+                  <p className="text-base md:text-md font-medium">
                     Know Thyself
                   </p>
                   <div className="pt-4 border-t border-amber-300/30 mt-4">
@@ -220,7 +220,7 @@ export default function AboutClient() {
             </div>
 
             {/* Four stages of life */}
-            <div className="mt-12">
+            <div className="mt-8">
               <h3 className="text-2xl font-bold text-center text-amber-800 mb-6">
                 आश्रम - The Four Stages of Life
               </h3>
@@ -249,11 +249,11 @@ export default function AboutClient() {
             </div>
 
             {/* Closing */}
-            <div className="text-center mt-12 pt-8 border-t border-amber-200/30">
+            <div className="text-center mt-8 pt-6 border-t border-amber-200/30">
               <p className="text-base md:text-md text-amber-700 font-medium">
                 यत् पिण्डे तत् ब्रह्माण्डे
               </p>
-              <p className="text-base md:text-md md:text-sm text-gray-500 italic mt-1">
+              <p className="text-base md:text-md text-gray-500 italic mt-1">
                 As is the individual, so is the universe
               </p>
             </div>

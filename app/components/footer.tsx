@@ -223,14 +223,14 @@ export default function Footer() {
 
         <div className="relative z-10">
           {/* ─── Hero CTA Section ─── */}
-          <section className="content-wrapper text-center py-12 md:py-16">
-            <div className="mx-auto max-w-3xl rounded-2xl bg-white/80 backdrop-blur-sm shadow-lg my-6 p-10">
-              <h2 className="text-4xl md:text-5xl leading-tight font-extrabold text-amber-800">
+          <section className="content-wrapper text-center py-6 md:py-16">
+            <div className="mx-auto max-w-4xl rounded-xl bg-white/80 backdrop-blur-sm shadow-lg my-4 p-6">
+              <h6 className="text-2xl/8 md:text-3xl/12 font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
                 {footer.title}
-              </h2>
+              </h6>
             </div>
 
-            <p className="mx-auto max-w-4xl text-lg md:text-xl mt-6 px-4 leading-8 text-gray-800">
+            <p className="mx-auto max-w-5xl text-base md:text-md mt-6 px-4 leading-8 text-gray-800">
               {footer.quote} {footer.quotesource}
             </p>
 
@@ -238,7 +238,7 @@ export default function Footer() {
             <div className="w-full text-center flex flex-col md:flex-row md:justify-center gap-4 mt-6">
               <Link
                 href="/contact"
-                className="group relative md:inline-flex px-6 py-3 bg-amber-600 hover:bg-amber-700 text-white text-base md:text-base rounded-full shadow-md font-medium transition transform hover:-translate-y-0.5 no-underline overflow-hidden">
+                className="group relative md:inline-flex px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white text-base md:text-base rounded-full shadow-md font-medium transition transform hover:-translate-y-0.5 no-underline overflow-hidden">
                 <span className="absolute inset-0 bg-white/10 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500" />
                 <span className="relative flex items-center justify-center gap-2">
                   {footer.contact || 'Contact'}
@@ -250,7 +250,7 @@ export default function Footer() {
 
               <Link
                 href="/donate"
-                className="group md:inline-flex px-6 py-3 bg-white/40 backdrop-blur-sm border border-amber-200 text-amber-700 text-base md:text-base font-medium rounded-full shadow-sm hover:bg-white/60 transition transform hover:-translate-y-0.5 no-underline">
+                className="group md:inline-flex px-4 py-2 bg-white/40 backdrop-blur-sm border border-amber-200 text-amber-700 text-base md:text-base font-medium rounded-full shadow-sm hover:bg-white/60 transition transform hover:-translate-y-0.5 no-underline">
                 <span className="flex items-center justify-center gap-2">
                   {footer.donate || 'Donate'}
                   <svg className="h-4 w-4 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -262,7 +262,7 @@ export default function Footer() {
           </section>
 
           {/* ─── Ornamental Divider ─── */}
-          <div className="flex items-center justify-center gap-3 px-8">
+          <div className="flex items-center justify-center gap-3 px-6">
             <div className="h-px flex-1 max-w-40 bg-linear-to-r from-transparent to-[#d8a25a]/60" />
             <span className="text-lg text-[#9a3412]" aria-hidden="true">✦</span>
             <div className="h-px flex-1 max-w-40 bg-linear-to-l from-transparent to-[#d8a25a]/60" />
@@ -298,7 +298,7 @@ export default function Footer() {
           {/* ─── Bottom Bar ─── */}
           <div className="border-t border-[#f0d9bf]/40 bg-white/60">
             {/* Disclaimer + Socials */}
-              <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-5 md:flex-row">
+            <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-4 md:flex-row">
               <div>
                 <small className="text-sm leading-6 text-gray-700">
                   {footer.disclaimer}<br />{footer.contentchange}

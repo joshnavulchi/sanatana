@@ -366,7 +366,7 @@ export default function AudioPlayer({
 
       {/* Playlist */}
       {showPlaylist && playlist.length > 1 && (
-        <div className="mt-3 pt-3 border-t border-dashed border-indigo-200 hidden flex-col gap-1 w-full">
+        <div className="mt-2 pt-2 border-t border-dashed border-indigo-200 hidden flex-col gap-1 w-full">
           {playlist.map((t, i) => {
             const active = i === currentIndex;
             return (

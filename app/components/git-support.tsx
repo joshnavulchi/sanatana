@@ -60,7 +60,7 @@ export default function GitSupport({ locale }: { locale?: string }) {
             </div>
 
             {/* Title */}
-            <h6 className="text-2xl md:text-3xl font-light leading-tight drop-shadow-2xl">
+            <h6 className="text-xl md:text-2xl font-light leading-tight drop-shadow-2xl">
               {loc?.cta?.title || 'Contribute'}
             </h6>
 

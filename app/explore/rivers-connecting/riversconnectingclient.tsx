@@ -33,7 +33,7 @@ export default function RiversConnectingClient() {
   if (isLoading && !data.title) {
     return (
       <PageLayout metaKey="rivers_connecting" title="" breadcrumbs={[{ labelKey: 'Home', href: '/' }, { label: 'Rivers Connecting' }]} className="layout-md">
-        <div className="flex items-center justify-center py-12"><Loader /></div>
+        <div className="flex items-center justify-center py-4"><Loader /></div>
       </PageLayout>
     );
   }
@@ -48,11 +48,11 @@ export default function RiversConnectingClient() {
         className="layout-md"
       >
         <TextToSpeech sectionId="rivers_connecting" className="floating" />
-        <div id="rivers_connecting-content" className="relative px-3 md:px-6 py-6 md:py-16 bg-gradient-to-br from-blue-50 via-cyan-100 to-blue-50 rounded-2xl border-l-4 border-blue-400 shadow-2xl overflow-hidden group">
+        <div id="rivers_connecting-content" className="relative px-3 md:px-6 py-4 md:py-16 bg-gradient-to-br from-blue-50 via-cyan-100 to-blue-50 rounded-2xl border-l-4 border-blue-400 shadow-2xl overflow-hidden group">
           <div className="absolute top-0 right-0 w-64 h-64 bg-blue-400/10 rounded-full blur-3xl" />
           <div className="absolute bottom-0 left-0 w-80 h-80 bg-cyan-400/8 rounded-full blur-3xl" />
           <div className="relative z-10">
-            <div className="flex items-center gap-3 mb-6">
+            <div className="flex items-center gap-3 mb-4">
               <div className="h-px w-12 bg-gradient-to-r from-transparent to-blue-600" />
               <span className="text-3xl animate-pulse">🌊</span>
               <div className="h-px w-12 bg-gradient-to-l from-transparent to-blue-600">{data.intro}</div>
@@ -61,7 +61,7 @@ export default function RiversConnectingClient() {
         </div>
 
         {data.content && (
-          <div className="relative bg-white border-l-4 border-blue-300 rounded-2xl p-4 md:p-8 mt-12 shadow-xl">
+          <div className="relative bg-white border-l-4 border-blue-300 rounded-2xl p-4 md:p-8 mt-8 shadow-xl">
             <div className="prose prose-lg max-w-none">
               <div dangerouslySetInnerHTML={{ __html: data.content.replace(/\n/g, '<br />') }} />
             </div>
@@ -69,7 +69,7 @@ export default function RiversConnectingClient() {
         )}
 
         {data.ganttData && data.ganttData.length > 0 && (
-          <div className="relative bg-gradient-to-br from-slate-50 via-blue-50 to-cyan-50 rounded-3xl p-6 md:p-12 mt-16 shadow-2xl overflow-hidden">
+          <div className="relative bg-gradient-to-br from-slate-50 via-blue-50 to-cyan-50 rounded-3xl p-4 md:p-12 mt-8 shadow-2xl overflow-hidden">
             {/* Background decoration */}
             <div className="absolute inset-0 opacity-5">
               <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-500 rounded-full blur-3xl" />
@@ -77,8 +77,8 @@ export default function RiversConnectingClient() {
             </div>
 
             {/* Header */}
-            <div className="relative z-10 mb-12">
-              <div className="flex items-center gap-4 mb-4">
+            <div className="relative z-10 mb-8">
+              <div className="flex items-center gap-4 mb-3">
                 <div className="h-1 w-16 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-full" />
                 <h3 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
                   Project Timeline 2026–2040
@@ -89,7 +89,7 @@ export default function RiversConnectingClient() {
             </div>
 
             {/* Timeline visualization */}
-            <div className="relative z-10 space-y-12">
+            <div className="relative z-10 space-y-6">
               {data.ganttData.map((project: any, index: number) => {
                 const colors = [
                   { primary: 'from-blue-500 to-cyan-500', light: 'from-blue-100 to-cyan-100', border: 'border-blue-400', accent: 'bg-blue-500' },
@@ -105,12 +105,12 @@ export default function RiversConnectingClient() {
                 return (
                   <div key={project.id || index} className="relative group">
                     {/* Project header with icon */}
-                    <div className="flex items-start gap-4 mb-6">
+                    <div className="flex items-start gap-4 mb-4">
                       <div className={`flex-shrink-0 w-14 h-14 ${color.accent} rounded-2xl flex items-center justify-center text-white text-2xl shadow-lg transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-300`}>
                         {['🏗️', '🌊', '⚡', '🏞️', '💧', '🚧', '🌉'][index % 7]}
                       </div>
                       <div className="flex-1">
-                        <h4 className="text-base md:text-md md:text-2xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                        <h4 className="text-base md:text-md font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
                           {project.name}
                         </h4>
                         <div className="flex items-center gap-2 text-base md:text-md text-gray-500">
@@ -152,7 +152,7 @@ export default function RiversConnectingClient() {
                               {/* Gradient overlay */}
                               <div className={`absolute inset-0 bg-gradient-to-r ${color.light} opacity-0 group-hover/phase:opacity-100 transition-opacity duration-300`} />
 
-                              <div className="relative p-5">
+                              <div className="relative p-4">
                                 <div className="flex items-start justify-between gap-4">
                                   <div className="flex-1">
                                     <div className="flex items-center gap-3 mb-2">
@@ -175,13 +175,13 @@ export default function RiversConnectingClient() {
                                   </div>
 
                                   {/* Phase type badge */}
-                                  <div className={`${phaseStyle.bg} text-white px-3 py-1 rounded-full text-base md:text-md md:text-sm font-bold uppercase shadow-md`}>
+                                  <div className={`${phaseStyle.bg} text-white px-3 py-1 rounded-full text-base md:text-md font-bold uppercase shadow-md`}>
                                     {phase.type}
                                   </div>
                                 </div>
 
                                 {/* Duration bar */}
-                                <div className="mt-4 h-2 bg-gray-100 rounded-full overflow-hidden">
+                                <div className="mt-3 h-2 bg-gray-100 rounded-full overflow-hidden">
                                   <div
                                     className={`h-full ${phaseStyle.bg} rounded-full animate-pulse`}
                                     style={{ width: '100%' }}
@@ -200,7 +200,7 @@ export default function RiversConnectingClient() {
                     </div>
 
                     {/* Project completion indicator */}
-                    <div className="ml-7 pl-8 mt-4">
+                            <div className="ml-7 pl-8 mt-3">
                       <div className={`inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r ${color.primary} text-white rounded-full shadow-lg text-base md:text-md font-semibold`}>
                         <span>✓</span>
                         <span>Project Timeline Complete</span>

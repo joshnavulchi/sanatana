@@ -80,7 +80,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
         </div>
 
         {/* Title */}
-        <h3 className={`text-2xl md:text-3xl font-extrabold leading-tight text-amber-800`}>
+        <h3 className={`text-xl md:text-2xl font-extrabold leading-tight text-amber-800`}>
           {name}
         </h3>
 
@@ -93,7 +93,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
         {description && description.length > 0 && (
           <ul className="mt-6 flex flex-col gap-3">
             {description.map((point, i) => (
-              <li key={i} className="flex items-start gap-3 text-base leading-relaxed text-gray-700">
+              <li key={i} className="flex items-start gap-3 text-sm leading-relaxed text-gray-700">
                 <span className="mt-1 h-2 w-2 shrink-0 rounded-full bg-amber-500" />
                 {point}
               </li>
@@ -103,7 +103,7 @@ function YugaCard({ gradientfrom, gradientto, name, subtitle, years, description
 
         {/* Years pill — pushed to bottom */}
         <div className="mt-auto pt-4">
-          <span className={`inline-flex items-center gap-2 rounded-full border ${tone.ring} ${tone.pillBg} px-5 py-2 text-sm font-semibold tracking-widest text-[#7a2e1f] transition-all duration-300 group-hover:shadow-[0_6px_20px_rgba(146,64,14,0.12)]`}>
+          <span className={`inline-flex items-center gap-2 rounded-md border ${tone.ring} ${tone.pillBg} px-5 py-2 text-sm font-semibold tracking-widest text-[#7a2e1f] transition-all duration-300 group-hover:shadow-[0_6px_20px_rgba(146,64,14,0.12)]`}>
             <svg className="h-3.5 w-3.5 text-[#d97706]" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
               <circle cx="12" cy="12" r="10" strokeWidth="2" />
               <path d="M12 6v6l4 2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -147,11 +147,11 @@ export default function OurFourCoreYugas() {
             <div className="h-px w-16 bg-linear-to-l from-transparent to-[#d8a25a]" />
           </div>
 
-          <h6 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight text-amber-800">
+          <h6 className="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
             {title}
           </h6>
 
-          <p className="mt-6 text-lg md:text-xl leading-8 text-gray-700 md:text-lg">
+          <p className="mt-6 text-base md:text-md leading-8 text-gray-700">
             {subtitle}{' '}
             <Link
               href="/"
@@ -195,7 +195,7 @@ export default function OurFourCoreYugas() {
           {/* Divider */}
           <div className="mb-8 flex items-center justify-center gap-3">
             <div className="h-px w-16 bg-linear-to-r from-transparent to-[#b45309]/50" />
-            <span className="text-xs font-black uppercase tracking-[0.35em] text-[#92400e]">
+            <span className="text-base md:text-md font-black uppercase tracking-[0.35em] text-[#92400e]">
               ✦ Cycle of Time ✦
             </span>
             <div className="h-px w-16 bg-linear-to-l from-transparent to-[#b45309]/50" />
@@ -203,15 +203,15 @@ export default function OurFourCoreYugas() {
 
           {/* Highlight note */}
           {earthAgeComparisonNote && (
-            <div className="mx-auto max-w-3xl rounded-2xl border border-[#d8a25a]/50 px-4 py-4 text-center shadow-[0_16px_40px_rgba(166,61,23,0.10)]">
-              <p className="bg-linear-to-r from-[#7a2e1f] via-[#9a3412] to-[#7a2e1f] bg-clip-text text-sm font-semibold leading-7 text-transparent md:text-lg">
+            <div className="mx-auto max-w-4xl rounded-md border border-[#d8a25a]/15 px-4 py-4 text-center shadow-[0_16px_40px_rgba(166,61,23,0.10)]">
+              <p className="bg-linear-to-r from-[#7a2e1f] via-[#9a3412] to-[#7a2e1f] bg-clip-text text-base md:text-md font-semibold leading-7 text-transparent">
                 {earthAgeComparisonNote}
               </p>
             </div>
           )}
 
           {scalingComment && (
-            <p className="mx-auto mt-5 max-w-3xl text-center text-base leading-7 text-[#5b2d12] md:text-lg">
+            <p className="mx-auto mt-5 max-w-4xl text-center text-sm leading-7 text-[#5b2d12]">
               {scalingComment}
             </p>
           )}

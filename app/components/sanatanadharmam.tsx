@@ -51,7 +51,7 @@ export default function UnderstandingOfSanatana() {
   }, [locale]);
 
   return (
-    <section className="relative z-0 bg-white py-4">
+    <section className="relative z-0 bg-white py-4 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-4">
           <div className="inline-flex items-center gap-3">
@@ -68,7 +68,7 @@ export default function UnderstandingOfSanatana() {
             style={{ transitionDelay: `${sectionIndex * 120}ms` }}
           >
             <div className="text-center">
-              <h3 className="text-2xl md:text-3xl font-bold text-amber-700 mb-2">{section.title}</h3>
+              <h3 className="text-2xl md:text-3xl font-bold text-amber-700 mb-4">{section.title}</h3>
               <p className="text-base md:text-md text-gray-600 mb-4">{section.content}</p>
             </div>
 
@@ -106,7 +106,7 @@ export default function UnderstandingOfSanatana() {
               ))}
 
               {section.points?.map((point, index) => (
-                <div key={`${section.id}-point-${index}`} className="rounded-lg p-3 bg-white/50 border border-gray-100 text-sm text-gray-800">
+                <div key={`${section.id}-point-${index}`} className="rounded-lg p-3 bg-white/50 border border-gray-100 text-base md:text-md font-semibold text-gray-800">
                   {point}
                 </div>
               ))}

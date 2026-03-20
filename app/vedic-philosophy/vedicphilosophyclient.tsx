@@ -89,7 +89,7 @@ export default function VedicPhilosophyClient() {
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Vedic Philosophy' }]}
         className="layout-md"
       >
-        <div className="flex items-center justify-center py-6"><Loader /></div>
+        <div className="flex items-center justify-center py-4"><Loader /></div>
       </PageLayout>
     );
   }

@@ -210,9 +210,8 @@ function DesktopDropdown({ section, isActive }: {
       </span>
 
       {/* Dropdown panel */}
-      <div className={`absolute pt-3 min-w-[18rem] max-h-[80vh] opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-200 z-20
-        ${dropDir === 'left' ? 'right-0' : 'left-0'}`}
-      >
+      <div className="absolute pt-3 min-w-[18rem] max-h-[80vh] opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-200 z-20 right-0 origin-top-right">
+
         <div className="overflow-y-auto max-h-[75vh] rounded-xl border border-gray-100 bg-white shadow-lg">
           <div className="h-1 w-full bg-gradient-to-r from-amber-600 via-amber-400 to-yellow-400" />
           <div className="py-2">
