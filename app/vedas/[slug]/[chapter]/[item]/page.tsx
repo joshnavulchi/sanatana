@@ -1,4 +1,5 @@
 import { createGenerateMetadata } from '@lib/pageUtils';
+import { params as generatedParams } from '@app/generated-params/vedas-items';
 import ItemClient from './itemclient';
 
 type ItemPageParams = {
@@ -8,6 +9,11 @@ type ItemPageParams = {
 };
 
 export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  // Provide the build-time generated params for veda items so static export works.
+  return generatedParams;
+}
 
 export async function generateMetadata(props: { params: Promise<ItemPageParams> }) {
   const { slug, chapter } = await props.params;
