@@ -1,6 +1,7 @@
 // @ts-nocheck
-// Auto-generated index for folder 'en\itihasa\bhagavadgita\itihasa\bhagavad\gita\chapter8'
+// Auto-generated index for folder 'de\itihasa\bhagavadgita\itihasa\bhagavad\gita\chapter8'
 // Imports local JSON files and child folder indexes, deep-merging them into one export.
+
 import _j0 from './verse1.json';
 import _j1 from './verse10.json';
 import _j2 from './verse11.json';
@@ -30,6 +31,8 @@ import _j25 from './verse7.json';
 import _j26 from './verse8.json';
 import _j27 from './verse9.json';
 
+
+
 function deepMerge(target: any, source: any) {
   if (source === undefined) return target;
   if (Array.isArray(target) && Array.isArray(source)) {
@@ -44,6 +47,8 @@ function deepMerge(target: any, source: any) {
   }
   return source;
 }
+
+
 
 const base: any = {};
 const merged = ([_j0, _j1, _j2, _j3, _j4, _j5, _j6, _j7, _j8, _j9, _j10, _j11, _j12, _j13, _j14, _j15, _j16, _j17, _j18, _j19, _j20, _j21, _j22, _j23, _j24, _j25, _j26, _j27] as any[]).reduce((acc: any, cur: any) => deepMerge(acc, cur || {}), base as any);

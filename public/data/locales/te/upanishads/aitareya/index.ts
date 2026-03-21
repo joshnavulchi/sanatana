@@ -1,9 +1,12 @@
 // @ts-nocheck
-// Auto-generated index for folder 'en\upanishads\aitareya'
+// Auto-generated index for folder 'te\upanishads\aitareya'
 // Imports local JSON files and child folder indexes, deep-merging them into one export.
+
 import _d0 from './chapter1/index';
 import _d1 from './chapter2/index';
 import _d2 from './upanishads/index';
+
+
 
 function deepMerge(target: any, source: any) {
   if (source === undefined) return target;
@@ -19,6 +22,8 @@ function deepMerge(target: any, source: any) {
   }
   return source;
 }
+
+
 
 const base: any = {};
 const merged = ([_d0, _d1, _d2] as any[]).reduce((acc: any, cur: any) => deepMerge(acc, cur || {}), base as any);

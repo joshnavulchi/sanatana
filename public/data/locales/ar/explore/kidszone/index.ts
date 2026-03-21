@@ -1,11 +1,14 @@
 // @ts-nocheck
-// Auto-generated index for folder 'en\explore\kidszone'
+// Auto-generated index for folder 'ar\explore\kidszone'
 // Imports local JSON files and child folder indexes, deep-merging them into one export.
+
 import _j0 from './easymantras.json';
 import _j1 from './illustratedstories.json';
 import _j2 from './mythologicalquizzes.json';
 import _j3 from './mythologycomics.json';
 import _j4 from './stories.json';
+
+
 
 function deepMerge(target: any, source: any) {
   if (source === undefined) return target;
@@ -21,6 +24,8 @@ function deepMerge(target: any, source: any) {
   }
   return source;
 }
+
+
 
 const base: any = {};
 const merged = ([_j0, _j1, _j2, _j3, _j4] as any[]).reduce((acc: any, cur: any) => deepMerge(acc, cur || {}), base as any);

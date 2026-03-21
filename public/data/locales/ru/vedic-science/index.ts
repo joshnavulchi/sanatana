@@ -1,6 +1,11 @@
 // @ts-nocheck
-// Auto-generated index for folder 'en\vedic-science'
+// Auto-generated index for folder 'ru\vedic-science'
 // Imports local JSON files and child folder indexes, deep-merging them into one export.
+
+
+
+
+
 function deepMerge(target: any, source: any) {
   if (source === undefined) return target;
   if (Array.isArray(target) && Array.isArray(source)) {
@@ -15,6 +20,8 @@ function deepMerge(target: any, source: any) {
   }
   return source;
 }
+
+
 
 const base: any = {};
 const merged = ([] as any[]).reduce((acc: any, cur: any) => deepMerge(acc, cur || {}), base as any);

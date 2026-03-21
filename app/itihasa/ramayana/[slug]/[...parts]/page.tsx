@@ -17,18 +17,12 @@ type Params = { slug: string; parts: string[] };
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  // Use the generated params for Ramayana parts, but filter by available locale namespaces.
-  try {
-    const { filterGeneratedParams } = await Promise.resolve().then(() => require('@lib/i18n')) as typeof import('@lib/i18n');
-    return await filterGeneratedParams(generatedParams, (p: any) => {
-      const slug = String(p.slug);
-      const parts = p.parts || [];
-      const sarga = String((parts[0] || '').replace(/^sarga-/, '')) || '1';
-      return `itihasa_ramayana_${slug}_sarga${sarga}`;
-    });
-  } catch (_) {
-    return generatedParams;
-  }
+  // Return the build-time generated params directly to remain compatible with
+  // `output: 'export'` and avoid runtime requires.
+  const list: any[] = Array.isArray((generatedParams as any).params) ? (generatedParams as any).params : (generatedParams as any);
+  return list
+    .map((p) => ({ slug: String((p && (p.slug ?? (p.params && p.params.slug))) || ''), parts: (p && (p.parts ?? (p.params && p.params.parts))) || [] }))
+    .filter((p) => p.slug && Array.isArray(p.parts) && p.parts.length > 0);
 }
 
 

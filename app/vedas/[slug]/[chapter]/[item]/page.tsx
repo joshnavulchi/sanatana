@@ -31,16 +31,16 @@ function chapterFileKey(slug: string, chapter: string): string {
 }
 
 export async function generateStaticParams() {
-  // Provide the build-time generated params for veda items but filter out missing locale files.
-  try {
-    const { filterGeneratedParams } = await Promise.resolve().then(() => require('@lib/i18n')) as typeof import('@lib/i18n');
-    const res = await filterGeneratedParams(generatedParams, (p: any) => chapterFileKey(String(p.slug), String(p.chapter)));
-    const list: any[] = Array.isArray((res as any).params) ? (res as any).params : (res as any);
-    return list.map((p) => ({ slug: String((p && (p.slug ?? (p.params && p.params.slug))) || ''), chapter: String((p && (p.chapter ?? (p.params && p.params.chapter))) || ''), item: String((p && (p.item ?? (p.params && p.params.item))) || '') })).filter((p) => p.slug && p.chapter && p.item);
-  } catch (_) {
-    const list: any[] = Array.isArray((generatedParams as any).params) ? (generatedParams as any).params : (generatedParams as any);
-    return list.map((p) => ({ slug: String((p && (p.slug ?? (p.params && p.params.slug))) || ''), chapter: String((p && (p.chapter ?? (p.params && p.params.chapter))) || ''), item: String((p && (p.item ?? (p.params && p.params.item))) || '') })).filter((p) => p.slug && p.chapter && p.item);
-  }
+  // Return the build-time generated params directly; avoid runtime requires so
+  // this function remains static and compatible with `output: 'export'.
+  const list: any[] = Array.isArray((generatedParams as any).params) ? (generatedParams as any).params : (generatedParams as any);
+  return list
+    .map((p) => ({
+      slug: String((p && (p.slug ?? (p.params && p.params.slug))) || ''),
+      chapter: String((p && (p.chapter ?? (p.params && p.params.chapter))) || ''),
+      item: String((p && (p.item ?? (p.params && p.params.item))) || ''),
+    }))
+    .filter((p) => p.slug && p.chapter && p.item);
 }
 
 export async function generateMetadata(props: { params: Promise<ItemPageParams> }) {

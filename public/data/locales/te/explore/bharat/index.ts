@@ -1,10 +1,13 @@
 // @ts-nocheck
-// Auto-generated index for folder 'en\explore\bharath'
+// Auto-generated index for folder 'te\explore\bharat'
 // Imports local JSON files and child folder indexes, deep-merging them into one export.
+
 import _j0 from './constitute.json';
 import _j1 from './destroyed.json';
 import _j2 from './india.json';
 import _j3 from './science.json';
+
+
 
 function deepMerge(target: any, source: any) {
   if (source === undefined) return target;
@@ -20,6 +23,8 @@ function deepMerge(target: any, source: any) {
   }
   return source;
 }
+
+
 
 const base: any = {};
 const merged = ([_j0, _j1, _j2, _j3] as any[]).reduce((acc: any, cur: any) => deepMerge(acc, cur || {}), base as any);

@@ -1,6 +1,7 @@
 // @ts-nocheck
-// Auto-generated index for folder 'en\itihasa\mahabharata\itihasa\mahabharata'
+// Auto-generated index for folder 'fr\itihasa\mahabharata\itihasa\mahabharata'
 // Imports local JSON files and child folder indexes, deep-merging them into one export.
+
 import _j0 from './structure.json';
 import _d0 from './adi/index';
 import _d1 from './anushasana/index';
@@ -21,6 +22,8 @@ import _d15 from './udyoga/index';
 import _d16 from './vana/index';
 import _d17 from './virata/index';
 
+
+
 function deepMerge(target: any, source: any) {
   if (source === undefined) return target;
   if (Array.isArray(target) && Array.isArray(source)) {
@@ -35,6 +38,8 @@ function deepMerge(target: any, source: any) {
   }
   return source;
 }
+
+
 
 const base: any = {};
 const merged = ([_j0, _d0, _d1, _d2, _d3, _d4, _d5, _d6, _d7, _d8, _d9, _d10, _d11, _d12, _d13, _d14, _d15, _d16, _d17] as any[]).reduce((acc: any, cur: any) => deepMerge(acc, cur || {}), base as any);

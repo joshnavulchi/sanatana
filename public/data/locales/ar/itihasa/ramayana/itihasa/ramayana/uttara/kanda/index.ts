@@ -1,6 +1,7 @@
 // @ts-nocheck
-// Auto-generated index for folder 'en\itihasa\ramayana\itihasa\ramayana\uttara\kanda'
+// Auto-generated index for folder 'ar\itihasa\ramayana\itihasa\ramayana\uttara\kanda'
 // Imports local JSON files and child folder indexes, deep-merging them into one export.
+
 import _j0 from './sarga1.json';
 import _j1 from './sarga10.json';
 import _j2 from './sarga11.json';
@@ -42,6 +43,8 @@ import _j37 from './sarga7.json';
 import _j38 from './sarga8.json';
 import _j39 from './sarga9.json';
 
+
+
 function deepMerge(target: any, source: any) {
   if (source === undefined) return target;
   if (Array.isArray(target) && Array.isArray(source)) {
@@ -56,6 +59,8 @@ function deepMerge(target: any, source: any) {
   }
   return source;
 }
+
+
 
 const base: any = {};
 const merged = ([_j0, _j1, _j2, _j3, _j4, _j5, _j6, _j7, _j8, _j9, _j10, _j11, _j12, _j13, _j14, _j15, _j16, _j17, _j18, _j19, _j20, _j21, _j22, _j23, _j24, _j25, _j26, _j27, _j28, _j29, _j30, _j31, _j32, _j33, _j34, _j35, _j36, _j37, _j38, _j39] as any[]).reduce((acc: any, cur: any) => deepMerge(acc, cur || {}), base as any);

@@ -10,13 +10,12 @@ export const dynamicParams = false;
 export const dynamic = 'force-static';
 
 export async function generateStaticParams() {
-  // Filter generated params by checking topic namespace presence.
-  try {
-    const { filterGeneratedParams } = await Promise.resolve().then(() => require('@lib/i18n')) as typeof import('@lib/i18n');
-    return await filterGeneratedParams(generatedParams, (p: any) => `vedic_philosophy_topic_${String(p.slug)}`);
-  } catch (_) {
-    return generatedParams;
-  }
+  // Return the build-time generated params directly to remain compatible with
+  // `output: 'export'` and avoid runtime requires inside the build worker.
+  const list: any[] = Array.isArray((generatedParams as any).params) ? (generatedParams as any).params : (generatedParams as any);
+  return list
+    .map((p) => ({ slug: String((p && (p.slug ?? (p.params && p.params.slug))) || '') }))
+    .filter((p) => p.slug);
 }
 
 

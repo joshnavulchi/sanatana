@@ -18,3 +18,5 @@ export function isPhilosophyTopic(value: string): value is PhilosophyTopic {
 export function toTitleFromSlug(slug: string): string {
   return slug.replace(/-/g, ' ').replace(/\b\w/g, (char) => char.toUpperCase());
 }
+
+// lib/getAllPhilosophyPaths.ts

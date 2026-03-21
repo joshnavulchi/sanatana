@@ -1,6 +1,7 @@
 // @ts-nocheck
-// Auto-generated index for folder 'en\puranas\puranas'
+// Auto-generated index for folder 'fr\puranas\puranas'
 // Imports local JSON files and child folder indexes, deep-merging them into one export.
+
 import _j0 from './garuda.json';
 import _j1 from './karma.json';
 import _j2 from './structure.json';
@@ -23,6 +24,8 @@ import _d15 from './vamana/index';
 import _d16 from './varaha/index';
 import _d17 from './vishnu/index';
 
+
+
 function deepMerge(target: any, source: any) {
   if (source === undefined) return target;
   if (Array.isArray(target) && Array.isArray(source)) {
@@ -37,6 +40,8 @@ function deepMerge(target: any, source: any) {
   }
   return source;
 }
+
+
 
 const base: any = {};
 const merged = ([_j0, _j1, _j2, _d0, _d1, _d2, _d3, _d4, _d5, _d6, _d7, _d8, _d9, _d10, _d11, _d12, _d13, _d14, _d15, _d16, _d17] as any[]).reduce((acc: any, cur: any) => deepMerge(acc, cur || {}), base as any);
