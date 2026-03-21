@@ -51,7 +51,7 @@ export default function TemplesInIndiaClient() {
             <span className="text-3xl animate-pulse">🗺️</span>
             <div className="h-px w-12 bg-gradient-to-l from-transparent to-indigo-600" />
           </div>
-          <p className="text-xl md:text-lg leading-relaxed">{data.intro}</p>
+          <p className="text-md leading-relaxed">{data.intro}</p>
         </div>
       </div>
       {data.items.map((section: any, index: number) => {
@@ -71,7 +71,7 @@ export default function TemplesInIndiaClient() {
                 <Tag className="flex-1 text-2xl md:text-3xl font-bold text-gray-900 group-hover:text-indigo-600 transition-colors duration-300">{section.name || section.title || section.name || section.id}</Tag>
               </div>
 
-              {section?.how_it_was_built && <p className="text-lg sm:text-md leading-relaxed ">{section.how_it_was_built}</p>}
+              {section?.how_it_was_built && <p className="text-md leading-relaxed ">{section.how_it_was_built}</p>}
               <ul className="mt-3  space-y-2">
                 {section.location && <li><strong>Location:</strong> {section.location}</li>}
                 {section.state && <li><strong>State:</strong> {section.state}</li>}
@@ -88,7 +88,7 @@ export default function TemplesInIndiaClient() {
           <div className="flex items-start gap-4">
             <span className="text-3xl">⚠️</span>
             <div className="flex-1">
-              <h4 className="text-lg sm:text-md font-bold text-gray-900 mb-2">Disclaimer</h4>
+              <h4 className="text-md font-bold text-gray-900 mb-2">Disclaimer</h4>
               <p className="leading-relaxed">{data.disclaimer}</p>
             </div>
           </div>

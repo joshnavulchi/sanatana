@@ -87,7 +87,7 @@ export default function DonateClient() {
               <ul className="space-y-4">
                 {(donate.purpose?.points || []).map((p: string, i: number) => (
                   <li key={i} className="flex items-start gap-2 group">
-                    <span className="flex-shrink-0 w-8 h-8 bg-amber-500 text-white rounded-full flex items-center justify-center text-lg sm:text-md font-bold shadow-sm group-hover:scale-110 transition-transform duration-200">
+                    <span className="flex-shrink-0 w-8 h-8 bg-amber-500 text-white rounded-full flex items-center justify-center text-md font-bold shadow-sm group-hover:scale-110 transition-transform duration-200">
                       {i + 1}
                     </span>
                     <span className="flex-1 text-gray-700 leading-relaxed pt-1">{p}</span>
@@ -146,7 +146,7 @@ export default function DonateClient() {
                 <div className="group">
                   <div className="bg-white rounded-2xl shadow-sm p-5 border border-amber-200 hover:border-amber-300 transition-all duration-200 transform hover:-translate-y-0.5 hover:shadow-sm">
                     <div className="text-center mb-4">
-                      <span className="inline-block px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white text-lg sm:text-md font-bold rounded-full">PayPal</span>
+                      <span className="inline-block px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white text-md font-bold rounded-full">PayPal</span>
                     </div>
                     <LazyImage
                       src="/images/SANATANADHARM-qrcode.png"
@@ -170,7 +170,7 @@ export default function DonateClient() {
                 <div className="group">
                   <div className="bg-white rounded-2xl shadow-sm p-5 border border-amber-200 hover:border-amber-300 transition-all duration-200 transform hover:-translate-y-0.5 hover:shadow-sm">
                     <div className="text-center mb-4">
-                      <span className="inline-block px-4 py-2 bg-gradient-to-r from-purple-500 to-purple-600 text-white text-lg sm:text-md font-bold rounded-full">UPI</span>
+                      <span className="inline-block px-4 py-2 bg-gradient-to-r from-purple-500 to-purple-600 text-white text-md font-bold rounded-full">UPI</span>
                     </div>
                     <LazyImage
                       src="/images/UPI-qrcode.png"

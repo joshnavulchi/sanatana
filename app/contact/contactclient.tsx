@@ -128,19 +128,19 @@ export default function ContactPage() {
                 <span className="inline-flex items-center justify-center w-10 h-10 rounded-xl bg-white/10">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 12a4 4 0 01-8 0m8 0V8a4 4 0 10-8 0v4m8 0v4a4 4 0 01-8 0v-4" /></svg>
                 </span>
-                <span className="text-lg sm:text-md">support@sanatanadharmam.in</span>
+                <span className="text-md">support@sanatanadharmam.in</span>
               </div>
               <div className="flex items-center gap-3">
                 <span className="inline-flex items-center justify-center w-10 h-10 rounded-xl bg-white/10">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a4 4 0 00-4-4H6a4 4 0 00-4 4v2h5" /></svg>
                 </span>
-                <span className="text-lg sm:text-md">@SanatanaDharmaMin</span>
+                <span className="text-md">@SanatanaDharmaMin</span>
               </div>
               <div className="flex items-center gap-3">
                 <span className="inline-flex items-center justify-center w-10 h-10 rounded-xl bg-white/10">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 20h.01M12 4v16m8-8H4" /></svg>
                 </span>
-                <span className="text-lg sm:text-md">www.sanatanadharmam.in</span>
+                <span className="text-md">www.sanatanadharmam.in</span>
               </div>
             </div>
           </div>

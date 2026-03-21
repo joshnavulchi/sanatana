@@ -59,7 +59,7 @@ export default function ConstitutionClient() {
                 <span className="text-4xl animate-bounce drop-shadow-lg">📜</span>
                 <div className="h-1 w-16 bg-gradient-to-l from-blue-400 via-cyan-400 to-blue-200 rounded-full" />
               </div>
-              <p className="text-lg sm:text-md font-semibold leading-relaxed text-blue-900 drop-shadow-sm max-w-3xl mx-auto">
+              <p className="text-md font-semibold leading-relaxed text-blue-900 drop-shadow-sm max-w-3xl mx-auto">
                 {constitution.meta && (constitution.meta as any).description}
               </p>
             </div>
@@ -90,14 +90,14 @@ export default function ConstitutionClient() {
                   </div>
                   {/* Section content rendering */}
                   {section.content && (
-                    <div className="text-lg sm:text-md leading-relaxed pl-20 text-blue-800/90">
+                    <div className="text-md leading-relaxed pl-20 text-blue-800/90">
                       {Object.values(section.content).map((v, i) => (
                         <div key={i} className="mb-2">{typeof v === 'string' ? v : JSON.stringify(v)}</div>
                       ))}
                     </div>
                   )}
                   {section.details && (
-                    <div className="text-lg sm:text-md leading-relaxed pl-20 text-blue-900/90">
+                    <div className="text-md leading-relaxed pl-20 text-blue-900/90">
                       {Object.entries(section.details).map(([k, v], i) => (
                         <div key={i} className="mb-2"><span className="font-bold text-cyan-700">{k.replace(/([a-z])([A-Z])/g, '$1 $2')}: </span>{typeof v === 'string' ? v : JSON.stringify(v)}</div>
                       ))}
@@ -107,22 +107,22 @@ export default function ConstitutionClient() {
                     <ul className="space-y-4 pl-20">
                       {section.members.map((member: any, mIdx: number) => (
                         <li key={member.name || mIdx} className="bg-gradient-to-br from-blue-50 via-cyan-50 to-white border-2 border-cyan-200 rounded-2xl shadow-lg p-6 hover:scale-[1.02] transition-transform">
-                          <div className="font-extrabold text-blue-800 text-lg sm:text-md mb-1 tracking-tight">{member.name}</div>
-                          <div className="text-blue-700 text-lg sm:text-md mb-1 italic">{member.biography}</div>
-                          {member.politicalbackground && <div className="text-cyan-700 text-lg sm:text-md mb-1">{member.politicalbackground}</div>}
-                          {member.specialization && <div className="text-cyan-600 text-lg sm:text-md mb-1">Specialization: {member.specialization}</div>}
+                          <div className="font-extrabold text-blue-800 text-md mb-1 tracking-tight">{member.name}</div>
+                          <div className="text-blue-700 text-md mb-1 italic">{member.biography}</div>
+                          {member.politicalbackground && <div className="text-cyan-700 text-md mb-1">{member.politicalbackground}</div>}
+                          {member.specialization && <div className="text-cyan-600 text-md mb-1">Specialization: {member.specialization}</div>}
                           {member.contributions && Array.isArray(member.contributions) && (
-                            <ul className="list-disc ml-5 text-blue-900 text-lg sm:text-md mb-1">
+                            <ul className="list-disc ml-5 text-blue-900 text-md mb-1">
                               {member.contributions.map((c: string, ci: number) => <li key={ci}>{c}</li>)}
                             </ul>
                           )}
-                          {member.replacement && <div className="text-cyan-400 text-lg sm:text-md">Replaced by: {member.replacement}</div>}
+                          {member.replacement && <div className="text-cyan-400 text-md">Replaced by: {member.replacement}</div>}
                         </li>
                       ))}
                     </ul>
                   )}
                   {section.analysis && (
-                    <div className="text-lg sm:text-md leading-relaxed pl-20 text-blue-900/90">
+                    <div className="text-md leading-relaxed pl-20 text-blue-900/90">
                       {Object.entries(section.analysis).map(([k, v], i) => (
                         <div key={i} className="mb-2"><span className="font-bold text-cyan-700">{k.replace(/([a-z])([A-Z])/g, '$1 $2')}: </span>{typeof v === 'string' ? v : JSON.stringify(v)}</div>
                       ))}
@@ -161,7 +161,7 @@ export default function ConstitutionClient() {
                   {section.criticisms && Array.isArray(section.criticisms) && (
                     <div className="bg-gradient-to-r from-blue-50 via-cyan-50 to-white border-l-8 border-cyan-400 rounded-xl p-6 mt-6 shadow">
                       <div className="font-extrabold text-cyan-700 mb-2 text-xl md:text-lg tracking-tight">Criticisms</div>
-                      <ul className="list-disc ml-7 text-blue-900 text-lg sm:text-md">
+                      <ul className="list-disc ml-7 text-blue-900 text-md">
                         {section.criticisms.map((c: string, ci: number) => <li key={ci}>{c}</li>)}
                       </ul>
                     </div>
@@ -169,7 +169,7 @@ export default function ConstitutionClient() {
                   {section.strengths && Array.isArray(section.strengths) && (
                     <div className="bg-gradient-to-r from-cyan-50 via-blue-50 to-white border-l-8 border-blue-400 rounded-xl p-6 mt-6 shadow">
                       <div className="font-extrabold text-blue-700 mb-2 text-xl md:text-lg tracking-tight">Strengths</div>
-                      <ul className="list-disc ml-7 text-blue-900 text-lg sm:text-md">
+                      <ul className="list-disc ml-7 text-blue-900 text-md">
                         {section.strengths.map((s: string, si: number) => <li key={si}>{s}</li>)}
                       </ul>
                     </div>
@@ -177,7 +177,7 @@ export default function ConstitutionClient() {
                   {section.evolution && (
                     <div className="bg-gradient-to-r from-blue-50 via-cyan-50 to-white border-l-8 border-cyan-400 rounded-xl p-6 mt-6 shadow">
                       <div className="font-extrabold text-cyan-700 mb-2 text-xl md:text-lg tracking-tight">Evolution</div>
-                      <div className="text-blue-900 text-lg sm:text-md">{section.evolution}</div>
+                      <div className="text-blue-900 text-md">{section.evolution}</div>
                     </div>
                   )}
                 </div>

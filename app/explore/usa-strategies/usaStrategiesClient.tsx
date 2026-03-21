@@ -293,7 +293,7 @@ export default function UsaStrategiesClient() {
               {data.title}
             </h3>
             {data.description ? (
-              <p className="mt-4 max-w-5xl text-lg sm:text-md leading-7 text-slate-700 md:text-base">
+              <p className="mt-4 max-w-5xl text-md leading-7 text-slate-700 md:text-base">
                 {data.description}
               </p>
             ) : null}
@@ -373,10 +373,10 @@ export default function UsaStrategiesClient() {
                       <span className="inline-flex rounded-full border border-sky-300 bg-sky-100 px-2.5 py-1 text-xs font-semibold uppercase tracking-wider text-sky-800">
                         {entry.years}
                       </span>
-                      <h6 className="text-lg sm:text-md font-semibold text-slate-900">{entry.president}</h6>
+                      <h6 className="text-md font-semibold text-slate-900">{entry.president}</h6>
                     </div>
                     {entry.key_strategies?.length ? (
-                      <ul className="mt-3 list-disc pl-5 text-lg sm:text-md text-slate-700">
+                      <ul className="mt-3 list-disc pl-5 text-md text-slate-700">
                         {entry.key_strategies.map((item, itemIndex) => (
                           <li key={`${entry.president}-strategy-${itemIndex}`}>{item}</li>
                         ))}
@@ -417,7 +417,7 @@ export default function UsaStrategiesClient() {
                       key={name}
                       className="rounded-2xl border border-slate-200 bg-slate-50 p-5"
                     >
-                      <h6 className="text-lg sm:text-md font-semibold text-slate-900">
+                      <h6 className="text-md font-semibold text-slate-900">
                         {toHeading(name)}
                       </h6>
                       <div className="mt-3 space-y-3">
@@ -425,7 +425,7 @@ export default function UsaStrategiesClient() {
                           <div key={itemKey} className="rounded-xl border border-slate-200 bg-white p-4">
                             <p className="font-medium text-slate-900">{toHeading(itemKey)}</p>
                             {itemValue.description ? (
-                              <p className="mt-1 text-lg sm:text-md text-slate-700">
+                              <p className="mt-1 text-md text-slate-700">
                                 {itemValue.description}
                               </p>
                             ) : null}
@@ -438,11 +438,11 @@ export default function UsaStrategiesClient() {
                 )}
                 {data.cross_cutting_tools.grand_strategy_context ? (
                   <article className="rounded-2xl border border-slate-200 bg-slate-50 p-5 md:col-span-2">
-                    <h6 className="text-lg sm:text-md font-semibold text-slate-900">
+                    <h6 className="text-md font-semibold text-slate-900">
                       Grand Strategy Context
                     </h6>
                     {data.cross_cutting_tools.grand_strategy_context.description ? (
-                      <p className="mt-2 text-lg sm:text-md text-slate-700">
+                      <p className="mt-2 text-md text-slate-700">
                         {data.cross_cutting_tools.grand_strategy_context.description}
                       </p>
                     ) : null}
@@ -462,8 +462,8 @@ export default function UsaStrategiesClient() {
                     key={`${entry.pattern ?? 'pattern'}-${index}`}
                     className="rounded-2xl border border-slate-200 bg-slate-50 p-5"
                   >
-                    <h6 className="text-lg sm:text-md font-semibold text-slate-900">{entry.pattern}</h6>
-                    <p className="mt-2 text-lg sm:text-md text-slate-700">{entry.insight}</p>
+                    <h6 className="text-md font-semibold text-slate-900">{entry.pattern}</h6>
+                    <p className="mt-2 text-md text-slate-700">{entry.insight}</p>
                     {renderSources(entry.sources)}
                   </article>
                 ))}
@@ -495,7 +495,7 @@ export default function UsaStrategiesClient() {
                       className="rounded-2xl border border-slate-200 bg-slate-50 p-4"
                     >
                       <div className="flex flex-wrap items-center justify-between gap-2">
-                        <h6 className="text-lg sm:text-md font-semibold text-slate-900">
+                        <h6 className="text-md font-semibold text-slate-900">
                           {entry.strategy}
                         </h6>
                         <span
@@ -533,10 +533,10 @@ export default function UsaStrategiesClient() {
               <div className="mt-5 grid gap-4 md:grid-cols-2">
                 {Object.entries(data.us_targeting_motives).map(([region, motives]) => (
                   <article key={region} className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                    <h6 className="text-lg sm:text-md font-semibold text-slate-900">
+                    <h6 className="text-md font-semibold text-slate-900">
                       {toHeading(region)}
                     </h6>
-                    <ul className="mt-2 list-disc pl-5 text-lg sm:text-md text-slate-700">
+                    <ul className="mt-2 list-disc pl-5 text-md text-slate-700">
                       {motives.map((item, index) => (
                         <li key={`${region}-motive-${index}`}>{item.reason}</li>
                       ))}
@@ -551,7 +551,7 @@ export default function UsaStrategiesClient() {
             <section id="comparison" className={sectionCardClass}>
               <h5 className="text-2xl font-bold text-slate-900">LATAM vs Asia-Pacific</h5>
               {data.comparison_latin_america_vs_asia.overview ? (
-                <p className="mt-2 text-lg sm:text-md text-slate-700">
+                <p className="mt-2 text-md text-slate-700">
                   {data.comparison_latin_america_vs_asia.overview}
                 </p>
               ) : null}
@@ -567,11 +567,11 @@ export default function UsaStrategiesClient() {
                       key={label}
                       className="rounded-2xl border border-slate-200 bg-slate-50 p-5"
                     >
-                      <h6 className="text-lg sm:text-md font-semibold text-slate-900">{label}</h6>
+                      <h6 className="text-md font-semibold text-slate-900">{label}</h6>
                       {section.primary_drivers?.length ? (
                         <>
                           <p className="mt-2 text-base font-medium text-slate-800">Primary Drivers</p>
-                          <ul className="mt-1 list-disc pl-5 text-lg sm:text-md text-slate-700">
+                          <ul className="mt-1 list-disc pl-5 text-md text-slate-700">
                             {section.primary_drivers.map((entry, index) => (
                               <li key={`${label}-driver-${index}`}>{entry}</li>
                             ))}
@@ -581,7 +581,7 @@ export default function UsaStrategiesClient() {
                       {section.typical_mechanisms?.length ? (
                         <>
                           <p className="mt-3 text-base font-medium text-slate-800">Typical Mechanisms</p>
-                          <ul className="mt-1 list-disc pl-5 text-lg sm:text-md text-slate-700">
+                          <ul className="mt-1 list-disc pl-5 text-md text-slate-700">
                             {section.typical_mechanisms.map((entry, index) => (
                               <li key={`${label}-mechanism-${index}`}>{entry}</li>
                             ))}
@@ -609,7 +609,7 @@ export default function UsaStrategiesClient() {
                     key={`${region.region ?? 'region'}-${index}`}
                     className="rounded-2xl border border-slate-200 bg-slate-50 p-5"
                   >
-                    <h6 className="text-lg sm:text-md font-semibold text-slate-900">{region.region}</h6>
+                    <h6 className="text-md font-semibold text-slate-900">{region.region}</h6>
                     <div className="mt-3 grid gap-3 md:grid-cols-2">
                       {(region.top_strategies ?? []).map((strategy, strategyIndex) => (
                         <div
@@ -623,7 +623,7 @@ export default function UsaStrategiesClient() {
                             </p>
                           ) : null}
                           {strategy.why ? (
-                            <p className="mt-1 text-lg sm:text-md text-slate-700">{strategy.why}</p>
+                            <p className="mt-1 text-md text-slate-700">{strategy.why}</p>
                           ) : null}
                         </div>
                       ))}
@@ -643,10 +643,10 @@ export default function UsaStrategiesClient() {
                     key={`${entry.event ?? 'event'}-${index}`}
                     className="rounded-2xl border border-slate-200 bg-slate-50 p-5"
                   >
-                    <h6 className="text-lg sm:text-md font-semibold text-slate-900">
+                    <h6 className="text-md font-semibold text-slate-900">
                       {entry.event} ({entry.years})
                     </h6>
-                    <p className="mt-2 text-lg sm:text-md text-slate-700">{entry.summary}</p>
+                    <p className="mt-2 text-md text-slate-700">{entry.summary}</p>
                     {renderSources(entry.sources)}
                   </article>
                 ))}
@@ -658,7 +658,7 @@ export default function UsaStrategiesClient() {
             <section id="map-regions" className={sectionCardClass}>
               <h5 className="text-2xl font-bold text-slate-900">Map Targeted Regions</h5>
               {data.map_targeted_regions.projection_hint ? (
-                <p className="mt-2 text-lg sm:text-md text-slate-700">
+                <p className="mt-2 text-md text-slate-700">
                   {data.map_targeted_regions.projection_hint}
                 </p>
               ) : null}
@@ -674,9 +674,9 @@ export default function UsaStrategiesClient() {
                       key={label}
                       className="rounded-2xl border border-slate-200 bg-slate-50 p-5"
                     >
-                      <h6 className="text-lg sm:text-md font-semibold text-slate-900">{label}</h6>
+                      <h6 className="text-md font-semibold text-slate-900">{label}</h6>
                       {layer.label ? (
-                        <p className="mt-1 text-lg sm:text-md text-slate-700">{layer.label}</p>
+                        <p className="mt-1 text-md text-slate-700">{layer.label}</p>
                       ) : null}
                       {layer.countries?.length ? (
                         <p className="mt-2 text-base text-slate-600">
@@ -734,7 +734,7 @@ export default function UsaStrategiesClient() {
             <section id="map-points" className={sectionCardClass}>
               <h5 className="text-2xl font-bold text-slate-900">Map Points</h5>
               <div className="mt-4 overflow-x-auto rounded-2xl border border-slate-200">
-                <table className="min-w-full divide-y divide-slate-200 text-lg sm:text-md">
+                <table className="min-w-full divide-y divide-slate-200 text-md">
                   <thead className="bg-slate-50">
                     <tr>
                       <th className="px-3 py-2 text-left font-semibold text-slate-700">Country</th>
@@ -764,7 +764,7 @@ export default function UsaStrategiesClient() {
             <section id="surrenders" className={sectionCardClass}>
               <h5 className="text-2xl font-bold text-slate-900">Forced Surrenders</h5>
               <div className="mt-4 overflow-x-auto rounded-2xl border border-slate-200">
-                <table className="min-w-full divide-y divide-slate-200 text-lg sm:text-md">
+                <table className="min-w-full divide-y divide-slate-200 text-md">
                   <thead className="bg-slate-50">
                     <tr>
                       <th className="px-3 py-2 text-left font-semibold text-slate-700">Country</th>
@@ -792,7 +792,7 @@ export default function UsaStrategiesClient() {
                 Additional Forced Surrenders (Not Directly to U.S.)
               </h5>
               <div className="mt-4 overflow-x-auto rounded-2xl border border-slate-200">
-                <table className="min-w-full divide-y divide-slate-200 text-lg sm:text-md">
+                <table className="min-w-full divide-y divide-slate-200 text-md">
                   <thead className="bg-slate-50">
                     <tr>
                       <th className="px-3 py-2 text-left font-semibold text-slate-700">Country</th>
@@ -820,7 +820,7 @@ export default function UsaStrategiesClient() {
               className="scroll-mt-24 rounded-3xl border border-amber-200 bg-amber-50 p-6 shadow-sm md:p-8"
             >
               <h5 className="text-2xl font-bold text-amber-900">Notes</h5>
-              <ul className="mt-3 list-disc pl-5 text-lg sm:text-md text-amber-900">
+              <ul className="mt-3 list-disc pl-5 text-md text-amber-900">
                 {data.notes.map((note, index) => (
                   <li key={`note-${index}`}>{note}</li>
                 ))}

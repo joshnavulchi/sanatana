@@ -68,8 +68,8 @@ function NavColumn({ title, links, icon, iconBg }: {
   const visible = expanded ? links : links.slice(0, INITIAL_VISIBLE);
 
   return (
-    <div className="flex flex-col gap-3">
-      <p className="mb-2 flex items-center gap-2 text-sm font-black uppercase tracking-[0.25em] text-primary-700">
+    <div className="flex flex-col gap-1">
+      <p className="mb-2 flex items-center text-sm uppercase tracking-[0.25em] text-primary-700">
         <span className={`inline-flex h-6 w-6 p-[2] rounded-full ${iconBg} text-sm text-white`}>
           {icon}
         </span>
@@ -80,7 +80,7 @@ function NavColumn({ title, links, icon, iconBg }: {
         <Link
           key={href}
           href={href}
-          className={`text-base font-medium transition-colors duration-200 ${isActive(href) ? 'text-primary-700 underline decoration-primary-500 underline-offset-4' : 'text-primary-800 hover:text-primary-700'}`}
+          className={`text-sm transition-colors duration-200 ${isActive(href) ? 'text-primary-700 underline decoration-primary-500 underline-offset-4' : 'text-primary-800 hover:text-primary-700'}`}
           onClick={e => { if (isActive(href)) e.preventDefault(); }}
         >
           {label}
@@ -90,12 +90,12 @@ function NavColumn({ title, links, icon, iconBg }: {
         <button
           type="button"
           onClick={() => setExpanded(prev => !prev)}
-          className="mt-2 flex items-center gap-2 text-sm font-medium text-primary-600 hover:text-primary-700 transition-colors duration-200 cursor-pointer"
+          className="mt-2 flex items-center gap-2 text-sm text-primary-600 hover:text-primary-700 transition-colors duration-200 cursor-pointer"
           aria-expanded={expanded}
         >
           {expanded ? 'Show less' : `Show more (${links.length - INITIAL_VISIBLE})`}
           <svg
-            className={`h-4 w-4 p-1 rounded-sm transition-transform duration-200 ${expanded ? 'rotate-180' : ''}`}
+            className={`h-3 w-3 rounded-sm transition-transform duration-200 ${expanded ? 'rotate-180' : ''}`}
             fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -138,9 +138,9 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
   });
 
   return (
-    <div className="flex flex-col gap-2">
-      <p className="mb-2 flex items-center gap-2 text-md font-black uppercase tracking-[0.25em] text-primary-700">
-        <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-primary-500 text-xs text-white">⚔️</span>
+    <div className="flex flex-col gap-1">
+      <p className="mb-2 flex items-center text-sm uppercase tracking-[0.25em] text-primary-700">
+        <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-primary-500 text-sm text-white">⚔️</span>
         {title}
       </p>
       <div className="mb-1 h-px w-12 bg-linear-to-r from-primary-500 to-transparent" />
@@ -151,7 +151,7 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
           <div className="flex items-center gap-1">
             <Link
               href={href}
-              className={`text-base font-medium transition-colors duration-200 ${isActive(href) ? 'text-primary-700 underline decoration-primary-500 underline-offset-4' : 'text-primary-800 hover:text-primary-700'}`}
+              className={`text-sm transition-colors duration-200 ${isActive(href) ? 'text-primary-700 underline decoration-primary-500 underline-offset-4' : 'text-primary-800 hover:text-primary-700'}`}
               onClick={e => { if (isActive(href)) e.preventDefault(); }}
             >
               {name}
@@ -160,7 +160,7 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
               <button
                 type="button"
                 onClick={() => setExpandedEpic(prev => prev === slug ? null : slug)}
-                className="bg-white ml-1 inline-flex items-center justify-center rounded-sm h-4 w-4 text-primary-600 hover:text-primary-700 hover:bg-amber-100 transition-all duration-200 cursor-pointer"
+                className="ml-1 inline-flex items-center justify-center rounded-sm h-4 w-4 text-primary-600 hover:text-primary-700 hover:bg-amber-100 transition-all duration-200 cursor-pointer"
                 aria-expanded={expandedEpic === slug}
                 aria-label={`Toggle ${name} sub-items`}
               >
@@ -183,7 +183,7 @@ function ItihasaColumn({ section }: { section: Record<string, unknown> }) {
                   <Link
                     key={subKey}
                     href={subHref}
-                    className={`text-base font-medium transition-colors duration-200 ${isActive(subHref) ? 'text-primary-700 underline decoration-primary-500 underline-offset-2' : 'text-primary-800 hover:text-primary-700'}`}
+                    className={`text-sm transition-colors duration-200 ${isActive(subHref) ? 'text-primary-700 underline decoration-primary-500 underline-offset-2' : 'text-primary-800 hover:text-primary-700'}`}
                     onClick={e => { if (isActive(subHref)) e.preventDefault(); }}
                   >
                     {subLabel}
@@ -223,13 +223,13 @@ export default function Footer() {
         <div className="relative z-10">
           {/* ─── Hero CTA Section ─── */}
           <section className="content-wrapper text-center py-4 md:py-16">
-            <div className="mx-auto max-w-4xl rounded-xl bg-white/80 backdrop-blur-sm shadow-lg my-4 p-4">
+            <div className="mx-auto max-w-xl rounded-xl bg-white/80 backdrop-blur-sm shadow-lg my-4 p-4">
               <h6 className="text-2xl/8 md:text-3xl/12 font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
                 {footer.title}
               </h6>
             </div>
 
-            <p className="mx-auto max-w-5xl text-lg sm:text-md mt-6 px-4 leading-8 text-gray-800">
+            <p className="mx-auto max-w-5xl text-md mt-6 px-4 leading-8 text-gray-800">
               {footer.quote} {footer.quotesource}
             </p>
 
@@ -249,7 +249,7 @@ export default function Footer() {
 
               <Link
                 href="/donate"
-                className="group md:inline-flex px-4 py-2 bg-white/40 backdrop-blur-sm border border-amber-200 text-amber-700 text-base md:text-base font-medium rounded-full shadow-sm hover:bg-white/60 transition transform hover:-translate-y-0.5 no-underline">
+                className="group md:inline-flex px-4 py-2 bg-white/60 backdrop-blur-sm border border-amber-200 text-amber-700 text-base md:text-base font-medium rounded-full shadow-sm hover:bg-white/60 transition transform hover:-translate-y-0.5 no-underline">
                 <span className="flex items-center justify-center gap-2">
                   {footer.donate || 'Donate'}
                   <svg className="h-4 w-4 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -262,9 +262,9 @@ export default function Footer() {
 
           {/* ─── Ornamental Divider ─── */}
           <div className="flex items-center justify-center gap-3 px-4">
-            <div className="h-px flex-1 max-w-40 bg-linear-to-r from-transparent to-amber-200/60" />
+            <div className="h-px flex-1 max-w-100 bg-linear-to-r from-transparent to-amber-200/60" />
             <span className="text-lg text-primary-700" aria-hidden="true">✦</span>
-            <div className="h-px flex-1 max-w-40 bg-linear-to-l from-transparent to-amber-200/60" />
+            <div className="h-px flex-1 max-w-100 bg-linear-to-l from-transparent to-amber-200/60" />
           </div>
 
           {/* ─── Navigation Columns ─── */}
@@ -299,7 +299,7 @@ export default function Footer() {
             {/* Disclaimer + Socials */}
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4 py-6">
               <div>
-                <small className="text-sm leading-6 text-gray-600">
+                <small className="text-xs leading-6 text-gray-600">
                   {footer.disclaimer}<br />{footer.contentchange}
                 </small>
               </div>
@@ -323,11 +323,11 @@ export default function Footer() {
             <div className="border-t border-gray-100">
               <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-3 py-4">
                 <div className="flex items-center gap-4">
-                  <Link href="/privacy-policy" className={`text-sm font-medium transition-colors duration-200 no-underline ${isActive('/privacy-policy') ? 'text-gray-900 underline' : 'text-gray-600 hover:text-gray-900'}`}>{footer.privacy}</Link>
+                  <Link href="/privacy-policy" className={`text-xs transition-colors duration-200 no-underline ${isActive('/privacy-policy') ? 'text-gray-900 underline' : 'text-gray-600 hover:text-gray-900'}`}>{footer.privacy}</Link>
                   <span className="text-gray-200">·</span>
-                  <Link href="/terms-of-service" className={`text-sm font-medium transition-colors duration-200 no-underline ${isActive('/terms-of-service') ? 'text-gray-900 underline' : 'text-gray-600 hover:text-gray-900'}`}>{footer.terms}</Link>
+                  <Link href="/terms-of-service" className={`text-xs transition-colors duration-200 no-underline ${isActive('/terms-of-service') ? 'text-gray-900 underline' : 'text-gray-600 hover:text-gray-900'}`}>{footer.terms}</Link>
                 </div>
-                <small className="text-sm text-gray-600">{footer.copyright}</small>
+                <small className="text-xs text-gray-600">{footer.copyright}</small>
               </div>
             </div>
           </div>

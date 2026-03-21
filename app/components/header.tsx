@@ -388,7 +388,7 @@ export default function Header() {
                 className="md:flex"
               />
             </span>
-            <span className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-gray-900">
+            <span className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-600 via-rose-600 to-indigo-700 drop-shadow-xl">
               {siteTitle}
             </span>
           </Link>

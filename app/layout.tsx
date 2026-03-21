@@ -9,7 +9,6 @@ import { secrets } from '@lib/secrets';
 import CookieConsent from '@components/cookie-consent/CookieConsent';
 import Header from '@components/header';
 import Footer from '@components/footer';
-import Container from '@components/common/Container';
 import TopProgress from '@components/topprogress';
 import ScrollToTop from '@components/scroll-to-top';
 import { LocaleProvider } from './context/locale-context';
@@ -181,9 +180,7 @@ export default async function RootLayout({
                 <Header />
               </Suspense>
               <main className="min-h-[60vh] bg-white">
-                <Container>
-                  <Suspense fallback={null}>{children}</Suspense>
-                </Container>
+                <Suspense fallback={null}>{children}</Suspense>
               </main>
               <Suspense fallback={null}>
                 <Footer />

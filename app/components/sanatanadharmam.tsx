@@ -52,7 +52,7 @@ export default function UnderstandingOfSanatana() {
 
   return (
     <section className="relative z-0 bg-white py-4 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-4">
           <div className="inline-flex items-center gap-3">
             <div className="h-0.5 w-12 bg-gradient-to-r from-transparent to-amber-300" />
@@ -68,28 +68,28 @@ export default function UnderstandingOfSanatana() {
           >
             <div className="text-center">
               <h3 className="text-2xl md:text-3xl font-bold text-amber-700 mb-4">{section.title}</h3>
-              <p className="text-lg sm:text-md text-gray-600 mb-4">{section.content}</p>
+              <p className="text-md text-gray-600 mb-4">{section.content}</p>
             </div>
 
             {section.src && (
-              <div className="flex justify-center mt-4">
-                <LazyImage src={section.src} alt={section.title} width={280} height={280} className="rounded-lg shadow-lg" />
+              <div className="flex justify-center my-8">
+                <LazyImage src={section.src} alt={section.title} width={280} height={280} className="rounded-xl shadow-sm" />
               </div>
             )}
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 my-8">
               {section.items?.map((topic, topicIndex) => (
                 <article
                   key={`${section.id}-${topic.id || topicIndex}`}
-                  className="flex flex-col gap-3 p-4 rounded-xl bg-white/60 backdrop-blur-sm border border-gray-100 shadow-sm hover:shadow-md transition-transform hover:-translate-y-0.5"
+                  className="flex flex-col gap-1 p-4 rounded-xl bg-white/60 backdrop-blur-sm border border-gray-100 shadow-sm hover:shadow-md transition-transform hover:-translate-y-0.5"
                 >
                   <div className="flex items-center gap-3">
                     {topic.src && (
                       <LazyImage src={topic.src} alt={topic.title} width={64} height={64} className="rounded-full bg-white p-1" />
                     )}
                     <div>
-                      <h4 className="text-lg sm:text-md font-semibold text-amber-700">{topic.title}</h4>
-                      <p className="text-base md:text-sm text-gray-600">{topic.description}</p>
+                      <h4 className="text-md font-semibold text-amber-700">{topic.title}</h4>
+                      <p className="text-sm text-gray-600">{topic.description}</p>
                     </div>
                   </div>
                   <div className="mt-auto flex items-center gap-3">
@@ -105,7 +105,7 @@ export default function UnderstandingOfSanatana() {
               ))}
 
               {section.points?.map((point, index) => (
-                <div key={`${section.id}-point-${index}`} className="rounded-lg p-3 bg-white/50 border border-gray-100 text-lg sm:text-md font-semibold text-gray-800">
+                <div key={`${section.id}-point-${index}`} className="rounded-lg p-3 bg-white/80 border border-gray-200 text-md text-gray-800">
                   {point}
                 </div>
               ))}
