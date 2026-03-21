@@ -1,37 +1,35 @@
 // @ts-nocheck
-// Auto-generated index for folder 'en\vedic-philosophy'
-// Imports local JSON files and child folder indexes, deep-merging them into one export.
-import _j0 from './architecture.json';
-import _j1 from './astronomy.json';
-import _j2 from './mathematics.json';
-import _j3 from './medicine.json';
-import _j4 from './metallurgy.json';
-import _j5 from './philosophy.json';
-import _j6 from './structure.json';
-import _d0 from './advaita/index';
-import _d1 from './bhakti/index';
-import _d2 from './dharma/index';
-import _d3 from './karma/index';
-import _d4 from './moksha/index';
-import _d5 from './purushartha/index';
-import _d6 from './samsara/index';
-import _d7 from './yoga/index';
+// Auto-generated index (JSON-only)
+// Folder: 'zh-CN\vedic-philosophy'
+// DO NOT EDIT MANUALLY
 
-function deepMerge(target: any, source: any) {
-  if (source === undefined) return target;
-  if (Array.isArray(target) && Array.isArray(source)) {
-    const out = target.slice();
-    for (let i = 0; i < source.length; i++) out[i] = deepMerge(out[i], source[i]);
-    return out;
-  }
-  if (target && typeof target === 'object' && source && typeof source === 'object') {
-    const out: any = { ...target };
-    for (const k of Object.keys(source)) out[k] = deepMerge(target ? target[k] : undefined, source[k]);
-    return out;
-  }
-  return source;
-}
+import _j0 from './advaita.json';
+import _j1 from './ashtanga-yoga.json';
+import _j2 from './bhakti.json';
+import _j3 from './brahman.json';
+import _j4 from './cycle-of-birth-and-death.json';
+import _j5 from './definition.json';
+import _j6 from './dharma-artha-kama-moksha.json';
+import _j7 from './dharma.json';
+import _j8 from './examples.json';
+import _j9 from './jivanmukti.json';
+import _j10 from './karma.json';
+import _j11 from './law-of-cause-effect.json';
+import _j12 from './moksha.json';
+import _j13 from './navavidha-bhakti.json';
+import _j14 from './prarabdha.json';
+import _j15 from './purushartha.json';
+import _j16 from './samsara.json';
+import _j17 from './scriptural.json';
+import _j18 from './types.json';
+import _j19 from './vedic_philosophy_architecture.json';
+import _j20 from './vedic_philosophy_astronomy.json';
+import _j21 from './vedic_philosophy_mathematics.json';
+import _j22 from './vedic_philosophy_medicine.json';
+import _j23 from './yoga.json';
 
-const base: any = {};
-const merged = ([_j0, _j1, _j2, _j3, _j4, _j5, _j6, _d0, _d1, _d2, _d3, _d4, _d5, _d6, _d7] as any[]).reduce((acc: any, cur: any) => deepMerge(acc, cur || {}), base as any);
+
+
+const merged = Object.assign({}, _j0, _j1, _j2, _j3, _j4, _j5, _j6, _j7, _j8, _j9, _j10, _j11, _j12, _j13, _j14, _j15, _j16, _j17, _j18, _j19, _j20, _j21, _j22, _j23);
+
 export default merged;

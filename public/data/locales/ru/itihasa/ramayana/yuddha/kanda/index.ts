@@ -1,6 +1,8 @@
 // @ts-nocheck
-// Auto-generated index for folder 'en\itihasa\ramayana\itihasa\ramayana\yuddha\kanda'
-// Imports local JSON files and child folder indexes, deep-merging them into one export.
+// Auto-generated index (JSON-only)
+// Folder: 'ru\itihasa\ramayana\yuddha\kanda'
+// DO NOT EDIT MANUALLY
+
 import _j0 from './sarga1.json';
 import _j1 from './sarga10.json';
 import _j2 from './sarga11.json';
@@ -92,21 +94,8 @@ import _j87 from './sarga89.json';
 import _j88 from './sarga9.json';
 import _j89 from './sarga90.json';
 
-function deepMerge(target: any, source: any) {
-  if (source === undefined) return target;
-  if (Array.isArray(target) && Array.isArray(source)) {
-    const out = target.slice();
-    for (let i = 0; i < source.length; i++) out[i] = deepMerge(out[i], source[i]);
-    return out;
-  }
-  if (target && typeof target === 'object' && source && typeof source === 'object') {
-    const out: any = { ...target };
-    for (const k of Object.keys(source)) out[k] = deepMerge(target ? target[k] : undefined, source[k]);
-    return out;
-  }
-  return source;
-}
 
-const base: any = {};
-const merged = ([_j0, _j1, _j2, _j3, _j4, _j5, _j6, _j7, _j8, _j9, _j10, _j11, _j12, _j13, _j14, _j15, _j16, _j17, _j18, _j19, _j20, _j21, _j22, _j23, _j24, _j25, _j26, _j27, _j28, _j29, _j30, _j31, _j32, _j33, _j34, _j35, _j36, _j37, _j38, _j39, _j40, _j41, _j42, _j43, _j44, _j45, _j46, _j47, _j48, _j49, _j50, _j51, _j52, _j53, _j54, _j55, _j56, _j57, _j58, _j59, _j60, _j61, _j62, _j63, _j64, _j65, _j66, _j67, _j68, _j69, _j70, _j71, _j72, _j73, _j74, _j75, _j76, _j77, _j78, _j79, _j80, _j81, _j82, _j83, _j84, _j85, _j86, _j87, _j88, _j89] as any[]).reduce((acc: any, cur: any) => deepMerge(acc, cur || {}), base as any);
+
+const merged = Object.assign({}, _j0, _j1, _j2, _j3, _j4, _j5, _j6, _j7, _j8, _j9, _j10, _j11, _j12, _j13, _j14, _j15, _j16, _j17, _j18, _j19, _j20, _j21, _j22, _j23, _j24, _j25, _j26, _j27, _j28, _j29, _j30, _j31, _j32, _j33, _j34, _j35, _j36, _j37, _j38, _j39, _j40, _j41, _j42, _j43, _j44, _j45, _j46, _j47, _j48, _j49, _j50, _j51, _j52, _j53, _j54, _j55, _j56, _j57, _j58, _j59, _j60, _j61, _j62, _j63, _j64, _j65, _j66, _j67, _j68, _j69, _j70, _j71, _j72, _j73, _j74, _j75, _j76, _j77, _j78, _j79, _j80, _j81, _j82, _j83, _j84, _j85, _j86, _j87, _j88, _j89);
+
 export default merged;

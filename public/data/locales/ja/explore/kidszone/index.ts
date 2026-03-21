@@ -1,27 +1,19 @@
 // @ts-nocheck
-// Auto-generated index for folder 'en\explore\kidszone'
-// Imports local JSON files and child folder indexes, deep-merging them into one export.
+// Auto-generated index (JSON-only)
+// Folder: 'ja\explore\kidszone'
+// DO NOT EDIT MANUALLY
+
 import _j0 from './easymantras.json';
-import _j1 from './illustratedstories.json';
-import _j2 from './mythologicalquizzes.json';
-import _j3 from './mythologycomics.json';
-import _j4 from './stories.json';
+import _j1 from './illustrate_dstories.json';
+import _j2 from './kidszone.json';
+import _j3 from './mythological_quizzes.json';
+import _j4 from './mythology_comics.json';
+import _j5 from './questions.json';
+import _j6 from './quiz.json';
+import _j7 from './stories.json';
 
-function deepMerge(target: any, source: any) {
-  if (source === undefined) return target;
-  if (Array.isArray(target) && Array.isArray(source)) {
-    const out = target.slice();
-    for (let i = 0; i < source.length; i++) out[i] = deepMerge(out[i], source[i]);
-    return out;
-  }
-  if (target && typeof target === 'object' && source && typeof source === 'object') {
-    const out: any = { ...target };
-    for (const k of Object.keys(source)) out[k] = deepMerge(target ? target[k] : undefined, source[k]);
-    return out;
-  }
-  return source;
-}
 
-const base: any = {};
-const merged = ([_j0, _j1, _j2, _j3, _j4] as any[]).reduce((acc: any, cur: any) => deepMerge(acc, cur || {}), base as any);
+
+const merged = Object.assign({}, _j0, _j1, _j2, _j3, _j4, _j5, _j6, _j7);
+
 export default merged;
